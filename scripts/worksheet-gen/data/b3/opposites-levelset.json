@@ -1,0 +1,7998 @@
+{
+ "_note": "Level Set 2026-09-28 — Opposites: new pairs, sentence frames and prefix items by 11 native panels (+ the full/empty and summer/winter pictures, opened in session); importer tools/level-set/import-opp-panels.js. Merged onto the published bank by G1-307 mergedBank() for NEW copies only; the published pages never read this file.",
+ "en": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "hot",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "summer",
+    "b": "winter",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "expensive-cheap"
+    ],
+    "syn": {
+     "a": "wealthy"
+    },
+    "far": "sad",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "rich",
+    "b": "poor",
+    "tier": 1,
+    "pos": "adj",
+    "family": "money"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "slow",
+    "pic": null,
+    "id": "early-late",
+    "a": "early",
+    "b": "late",
+    "tier": 1,
+    "pos": "adj",
+    "family": "timing"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "close"
+    },
+    "far": "heavy",
+    "pic": null,
+    "id": "near-far",
+    "a": "near",
+    "b": "far",
+    "tier": 1,
+    "pos": "adj",
+    "family": "distance"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "beginning-end"
+    ],
+    "syn": {
+     "a": "final"
+    },
+    "far": "clean",
+    "pic": null,
+    "id": "last-first",
+    "a": "last",
+    "b": "first",
+    "tier": 1,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "front-back"
+    ],
+    "syn": null,
+    "far": "wet",
+    "pic": null,
+    "id": "top-bottom",
+    "a": "top",
+    "b": "bottom",
+    "tier": 1,
+    "pos": "noun",
+    "family": "vertical"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "top-bottom"
+    ],
+    "syn": null,
+    "far": "sweet",
+    "pic": null,
+    "id": "front-back",
+    "a": "front",
+    "b": "back",
+    "tier": 1,
+    "pos": "noun",
+    "family": "sides"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "true-false"
+    ],
+    "syn": null,
+    "far": "soft",
+    "pic": null,
+    "id": "left-right",
+    "a": "left",
+    "b": "right",
+    "tier": 1,
+    "pos": "adj",
+    "family": "direction"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "reply"
+    },
+    "far": "happy",
+    "pic": null,
+    "id": "answer-question",
+    "a": "answer",
+    "b": "question",
+    "tier": 2,
+    "pos": "noun",
+    "family": "talk"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "old",
+    "pic": null,
+    "id": "inside-outside",
+    "a": "inside",
+    "b": "outside",
+    "tier": 2,
+    "pos": "noun",
+    "family": "place"
+   },
+   {
+    "alt": {
+     "a": [
+      "start"
+     ],
+     "b": [
+      "finish"
+     ]
+    },
+    "exclusiveWith": [
+     "last-first"
+    ],
+    "syn": {
+     "a": "start"
+    },
+    "far": "loud",
+    "pic": null,
+    "id": "beginning-end",
+    "a": "beginning",
+    "b": "end",
+    "tier": 2,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "afraid"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "bold"
+    },
+    "far": "dry",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "brave",
+    "b": "scared",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "full",
+    "pic": null,
+    "id": "awake-asleep",
+    "a": "awake",
+    "b": "asleep",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sleep"
+   },
+   {
+    "alt": {
+     "a": [
+      "correct"
+     ],
+     "b": [
+      "wrong"
+     ]
+    },
+    "exclusiveWith": [
+     "left-right"
+    ],
+    "syn": {
+     "a": "correct"
+    },
+    "far": "big",
+    "pic": null,
+    "id": "true-false",
+    "a": "true",
+    "b": "false",
+    "tier": 2,
+    "pos": "adj",
+    "family": "truth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "nice"
+    },
+    "far": "thick",
+    "pic": null,
+    "id": "polite-rude",
+    "a": "polite",
+    "b": "rude",
+    "tier": 1,
+    "pos": "adj",
+    "family": "manners"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "fast",
+    "pic": null,
+    "id": "deep-shallow",
+    "a": "deep",
+    "b": "shallow",
+    "tier": 2,
+    "pos": "adj",
+    "family": "depth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "snug"
+    },
+    "far": "bright",
+    "pic": null,
+    "id": "tight-loose",
+    "a": "tight",
+    "b": "loose",
+    "tier": 1,
+    "pos": "adj",
+    "family": "fit"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "rough",
+    "pic": null,
+    "id": "even-odd",
+    "a": "even",
+    "b": "odd",
+    "tier": 2,
+    "pos": "adj",
+    "family": "number"
+   },
+   {
+    "alt": {
+     "a": [
+      "bent"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "bent"
+    },
+    "far": "cold",
+    "pic": null,
+    "id": "crooked-straight",
+    "a": "crooked",
+    "b": "straight",
+    "tier": 2,
+    "pos": "adj",
+    "family": "line"
+   },
+   {
+    "alt": {
+     "a": [
+      "lots"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "strong",
+    "pic": null,
+    "id": "many-few",
+    "a": "many",
+    "b": "few",
+    "tier": 1,
+    "pos": "adj",
+    "family": "amount"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "gentle"
+    },
+    "far": "open",
+    "pic": null,
+    "id": "tame-wild",
+    "a": "tame",
+    "b": "wild",
+    "tier": 1,
+    "pos": "adj",
+    "family": "animal"
+   },
+   {
+    "alt": {
+     "a": [
+      "ill"
+     ],
+     "b": [
+      "well"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ill"
+    },
+    "far": "high",
+    "pic": null,
+    "id": "sick-healthy",
+    "a": "sick",
+    "b": "healthy",
+    "tier": 2,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "great"
+    },
+    "far": "night",
+    "pic": null,
+    "id": "good-bad",
+    "a": "good",
+    "b": "bad",
+    "tier": 1,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "missing"
+    },
+    "far": "tall",
+    "pic": null,
+    "id": "lost-found",
+    "a": "lost",
+    "b": "found",
+    "tier": 1,
+    "pos": "adj",
+    "family": "finding"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "simple"
+    },
+    "far": "day",
+    "pic": null,
+    "id": "plain-fancy",
+    "a": "plain",
+    "b": "fancy",
+    "tier": 1,
+    "pos": "adj",
+    "family": "style"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "rich-poor"
+    ],
+    "syn": {
+     "a": "costly"
+    },
+    "far": "early",
+    "pic": null,
+    "id": "expensive-cheap",
+    "a": "expensive",
+    "b": "cheap",
+    "tier": 2,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [
+      "pointy"
+     ],
+     "b": [
+      "blunt"
+     ]
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": {
+     "a": "pointy"
+    },
+    "far": "wet",
+    "pic": null,
+    "id": "sharp-dull",
+    "a": "sharp",
+    "b": "dull",
+    "tier": 1,
+    "pos": "adj",
+    "family": "edge"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "thick-thin"
+    ],
+    "syn": {
+     "a": "broad"
+    },
+    "far": "sour",
+    "pic": null,
+    "id": "wide-narrow",
+    "a": "wide",
+    "b": "narrow",
+    "tier": 2,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [
+      "mad"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [
+     "happy-sad"
+    ],
+    "syn": {
+     "a": "mad"
+    },
+    "far": "soft",
+    "pic": null,
+    "id": "angry-calm",
+    "a": "angry",
+    "b": "calm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "mood"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": null,
+    "far": "fast",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "morning",
+    "b": "evening",
+    "tier": 2,
+    "pos": "noun",
+    "family": "time of day"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "We build a snowman. It is not summer. It is ___.",
+    "answer": "winter"
+   },
+   {
+    "pair": "wet-dry",
+    "text": "The towel is not wet. It is ___.",
+    "answer": "dry"
+   },
+   {
+    "pair": "loud-quiet",
+    "text": "The library is not loud. It is ___.",
+    "answer": "quiet"
+   },
+   {
+    "pair": "old-new",
+    "text": "My shoes are not old. They are ___.",
+    "answer": "new"
+   },
+   {
+    "pair": "clean-dirty",
+    "text": "The muddy dog is not clean. It is ___.",
+    "answer": "dirty"
+   },
+   {
+    "pair": "full-empty",
+    "text": "The cup is not full. It is ___.",
+    "answer": "empty"
+   },
+   {
+    "pair": "open-closed",
+    "text": "The door is not open. It is ___.",
+    "answer": "closed"
+   },
+   {
+    "pair": "tall-short",
+    "text": "The giraffe is not short. It is ___.",
+    "answer": "tall"
+   },
+   {
+    "pair": "strong-weak",
+    "text": "The bear is not weak. It is ___.",
+    "answer": "strong"
+   },
+   {
+    "pair": "near-far",
+    "text": "The moon is not near. It is ___.",
+    "answer": "far"
+   },
+   {
+    "pair": "tame-wild",
+    "text": "The lion is not tame. It is ___.",
+    "answer": "wild"
+   },
+   {
+    "pair": "awake-asleep",
+    "text": "The baby is not awake. She is ___.",
+    "answer": "asleep"
+   },
+   {
+    "pair": "sick-healthy",
+    "text": "{name} is not sick today. {name} is ___.",
+    "answer": "healthy"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "The firefighter is not scared. She is ___.",
+    "answer": "brave"
+   },
+   {
+    "pair": "deep-shallow",
+    "text": "The puddle is not deep. It is ___.",
+    "answer": "shallow"
+   },
+   {
+    "pair": "crooked-straight",
+    "text": "The ruler is not crooked. It is ___.",
+    "answer": "straight"
+   },
+   {
+    "pair": "thick-thin",
+    "text": "The paper is not thick. It is ___.",
+    "answer": "thin"
+   },
+   {
+    "pair": "rough-smooth",
+    "text": "The glass is not rough. It is ___.",
+    "answer": "smooth"
+   },
+   {
+    "pair": "bright-dark",
+    "text": "The cave is not bright. It is ___.",
+    "answer": "dark"
+   },
+   {
+    "pair": "sharp-dull",
+    "text": "The knife is not dull. It is ___.",
+    "answer": "sharp"
+   },
+   {
+    "pair": "wide-narrow",
+    "text": "The path is not wide. It is ___.",
+    "answer": "narrow"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "able",
+    "prefix": "un",
+    "expected": "unable"
+   },
+   {
+    "base": "sure",
+    "prefix": "un",
+    "expected": "unsure"
+   },
+   {
+    "base": "friendly",
+    "prefix": "un",
+    "expected": "unfriendly"
+   },
+   {
+    "base": "lock",
+    "prefix": "un",
+    "expected": "unlock"
+   },
+   {
+    "base": "pack",
+    "prefix": "un",
+    "expected": "unpack"
+   },
+   {
+    "base": "tie",
+    "prefix": "un",
+    "expected": "untie"
+   },
+   {
+    "base": "cover",
+    "prefix": "un",
+    "expected": "uncover"
+   },
+   {
+    "base": "like",
+    "prefix": "dis",
+    "expected": "dislike"
+   },
+   {
+    "base": "agree",
+    "prefix": "dis",
+    "expected": "disagree"
+   },
+   {
+    "base": "appear",
+    "prefix": "dis",
+    "expected": "disappear"
+   },
+   {
+    "base": "correct",
+    "prefix": "in",
+    "expected": "incorrect"
+   },
+   {
+    "base": "complete",
+    "prefix": "in",
+    "expected": "incomplete"
+   }
+  ]
+ },
+ "de": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "nass",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "reich",
+    "b": "arm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "weich",
+    "pic": null,
+    "id": "early-late",
+    "a": "früh",
+    "b": "spät",
+    "tier": 1,
+    "pos": "adj",
+    "family": "time"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "toll"
+    },
+    "far": "rund",
+    "pic": null,
+    "id": "good-bad",
+    "a": "gut",
+    "b": "schlecht",
+    "tier": 2,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "korrekt"
+    },
+    "far": "süß",
+    "pic": null,
+    "id": "right-wrong",
+    "a": "richtig",
+    "b": "falsch",
+    "tier": 2,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "feige"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "tapfer"
+    },
+    "far": "trocken",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "mutig",
+    "b": "ängstlich",
+    "tier": 2,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "eifrig"
+    },
+    "far": "hell",
+    "pic": null,
+    "id": "busy-lazy",
+    "a": "fleißig",
+    "b": "faul",
+    "tier": 2,
+    "pos": "adj",
+    "family": "effort"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "spitz"
+    },
+    "far": "fröhlich",
+    "pic": null,
+    "id": "sharp-blunt",
+    "a": "scharf",
+    "b": "stumpf",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "schnurgerade"
+    },
+    "far": "laut",
+    "pic": null,
+    "id": "straight-crooked",
+    "a": "gerade",
+    "b": "krumm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "straightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kugelrund"
+    },
+    "far": "kalt",
+    "pic": null,
+    "id": "round-angular",
+    "a": "rund",
+    "b": "eckig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "shape"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "leer",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "wild",
+    "b": "zahm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ungekocht"
+    },
+    "far": "schnell",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "roh",
+    "b": "gekocht",
+    "tier": 2,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "dunkel",
+    "pic": null,
+    "id": "hungry-full",
+    "a": "hungrig",
+    "b": "satt",
+    "tier": 2,
+    "pos": "adj",
+    "family": "hunger"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "munter"
+    },
+    "far": "schwer",
+    "pic": null,
+    "id": "awake-tired",
+    "a": "wach",
+    "b": "müde",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wakefulness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "anders"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "dick",
+    "pic": null,
+    "id": "same-different",
+    "a": "gleich",
+    "b": "verschieden",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "günstig"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kostbar"
+    },
+    "far": "hoch",
+    "pic": null,
+    "id": "expensive-cheap",
+    "a": "teuer",
+    "b": "billig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "schlau"
+    },
+    "far": "kurz",
+    "pic": null,
+    "id": "clever-stupid",
+    "a": "klug",
+    "b": "dumm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cleverness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "böse",
+      "fies"
+     ]
+    },
+    "exclusiveWith": [
+     "cheeky-good"
+    ],
+    "syn": {
+     "a": "lieb"
+    },
+    "far": "breit",
+    "pic": null,
+    "id": "kind-mean",
+    "a": "nett",
+    "b": "gemein",
+    "tier": 1,
+    "pos": "adj",
+    "family": "kindness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "ungefährlich"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "riskant"
+    },
+    "far": "leise",
+    "pic": null,
+    "id": "dangerous-safe",
+    "a": "gefährlich",
+    "b": "sicher",
+    "tier": 2,
+    "pos": "adj",
+    "family": "safety"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "hübsch"
+    },
+    "far": "sauer",
+    "pic": null,
+    "id": "pretty-ugly",
+    "a": "schön",
+    "b": "hässlich",
+    "tier": 2,
+    "pos": "adj",
+    "family": "beauty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "aufregend"
+    },
+    "far": "offen",
+    "pic": null,
+    "id": "exciting-boring",
+    "a": "spannend",
+    "b": "langweilig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "interest"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "belegt"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "stark",
+    "pic": null,
+    "id": "free-taken",
+    "a": "frei",
+    "b": "besetzt",
+    "tier": 2,
+    "pos": "adj",
+    "family": "occupancy"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "weit"
+     ]
+    },
+    "exclusiveWith": [
+     "narrow-wide"
+    ],
+    "syn": null,
+    "far": "glatt",
+    "pic": null,
+    "id": "near-far",
+    "a": "nah",
+    "b": "fern",
+    "tier": 1,
+    "pos": "adj",
+    "family": "distance"
+   },
+   {
+    "alt": {
+     "a": [
+      "ganz"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [
+     "old-new"
+    ],
+    "syn": null,
+    "far": "laut",
+    "pic": null,
+    "id": "whole-broken",
+    "a": "heil",
+    "b": "kaputt",
+    "tier": 1,
+    "pos": "adj",
+    "family": "intactness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "wide-narrow",
+     "near-far"
+    ],
+    "syn": null,
+    "far": "süß",
+    "pic": null,
+    "id": "narrow-wide",
+    "a": "eng",
+    "b": "weit",
+    "tier": 1,
+    "pos": "adj",
+    "family": "fit"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": null,
+    "far": "dick",
+    "pic": null,
+    "id": "clear-cloudy",
+    "a": "klar",
+    "b": "trüb",
+    "tier": 1,
+    "pos": "adj",
+    "family": "clarity"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "rough-smooth"
+    ],
+    "syn": null,
+    "far": "kalt",
+    "pic": null,
+    "id": "fine-coarse",
+    "a": "fein",
+    "b": "grob",
+    "tier": 1,
+    "pos": "adj",
+    "family": "grain"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "schwer"
+     ]
+    },
+    "exclusiveWith": [
+     "heavy-light"
+    ],
+    "syn": {
+     "a": "leicht"
+    },
+    "far": "nass",
+    "pic": null,
+    "id": "easy-difficult",
+    "a": "einfach",
+    "b": "schwierig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "pechschwarz"
+    },
+    "far": "neu",
+    "pic": null,
+    "id": "black-white",
+    "a": "schwarz",
+    "b": "weiß",
+    "tier": 2,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "groß",
+    "pic": null,
+    "id": "solid-liquid",
+    "a": "fest",
+    "b": "flüssig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "state"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "artig"
+     ]
+    },
+    "exclusiveWith": [
+     "kind-mean"
+    ],
+    "syn": {
+     "a": "vorlaut"
+    },
+    "far": "sauber",
+    "pic": null,
+    "id": "cheeky-good",
+    "a": "frech",
+    "b": "brav",
+    "tier": 1,
+    "pos": "adj",
+    "family": "behaviour"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "hungry-full",
+    "text": "Nach dem Essen bin ich nicht hungrig. Ich bin ___.",
+    "answer": "satt"
+   },
+   {
+    "pair": "early-late",
+    "text": "Um Mitternacht ist es nicht früh. Es ist ___.",
+    "answer": "spät"
+   },
+   {
+    "pair": "sharp-blunt",
+    "text": "Das Messer ist nicht stumpf. Es ist ___.",
+    "answer": "scharf"
+   },
+   {
+    "pair": "straight-crooked",
+    "text": "Der alte Ast ist nicht gerade. Er ist ___.",
+    "answer": "krumm"
+   },
+   {
+    "pair": "round-angular",
+    "text": "Der Ball ist nicht eckig. Er ist ___.",
+    "answer": "rund"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "Der Löwe ist nicht zahm. Er ist ___.",
+    "answer": "wild"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Die Möhre ist nicht gekocht. Sie ist ___.",
+    "answer": "roh"
+   },
+   {
+    "pair": "awake-tired",
+    "text": "Am Abend ist {name} nicht mehr wach. {name} ist ___.",
+    "answer": "müde"
+   },
+   {
+    "pair": "expensive-cheap",
+    "text": "Das Auto ist nicht billig. Es ist ___.",
+    "answer": "teuer"
+   },
+   {
+    "pair": "kind-mean",
+    "text": "Mein Freund ist nicht gemein. Er ist ___.",
+    "answer": "nett"
+   },
+   {
+    "pair": "clever-stupid",
+    "text": "Die Eule ist nicht dumm. Sie ist ___.",
+    "answer": "klug"
+   },
+   {
+    "pair": "black-white",
+    "text": "Der Schnee ist nicht schwarz. Er ist ___.",
+    "answer": "weiß"
+   },
+   {
+    "pair": "right-wrong",
+    "text": "Die Antwort ist nicht richtig. Sie ist ___.",
+    "answer": "falsch"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "Die Feuerwehrfrau ist nicht ängstlich. Sie ist ___.",
+    "answer": "mutig"
+   },
+   {
+    "pair": "free-taken",
+    "text": "Die Toilette ist nicht frei. Sie ist ___.",
+    "answer": "besetzt"
+   },
+   {
+    "pair": "solid-liquid",
+    "text": "Das Eis ist nicht flüssig. Es ist ___.",
+    "answer": "fest"
+   },
+   {
+    "pair": "big-small",
+    "text": "Die Maus ist nicht groß. Sie ist ___.",
+    "answer": "klein"
+   },
+   {
+    "pair": "near-far",
+    "text": "Der Mond ist nicht nah. Er ist ___.",
+    "answer": "fern"
+   },
+   {
+    "pair": "busy-lazy",
+    "text": "Die Biene ist nicht faul. Sie ist ___.",
+    "answer": "fleißig"
+   },
+   {
+    "pair": "rich-poor",
+    "text": "Der König ist nicht arm. Er ist ___.",
+    "answer": "reich"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "gerecht",
+    "prefix": "un",
+    "expected": "ungerecht"
+   },
+   {
+    "base": "bequem",
+    "prefix": "un",
+    "expected": "unbequem"
+   },
+   {
+    "base": "zufrieden",
+    "prefix": "un",
+    "expected": "unzufrieden"
+   },
+   {
+    "base": "vorsichtig",
+    "prefix": "un",
+    "expected": "unvorsichtig"
+   },
+   {
+    "base": "reif",
+    "prefix": "un",
+    "expected": "unreif"
+   },
+   {
+    "base": "möglich",
+    "prefix": "un",
+    "expected": "unmöglich"
+   },
+   {
+    "base": "wichtig",
+    "prefix": "un",
+    "expected": "unwichtig"
+   },
+   {
+    "base": "geschickt",
+    "prefix": "un",
+    "expected": "ungeschickt"
+   },
+   {
+    "base": "fair",
+    "prefix": "un",
+    "expected": "unfair"
+   },
+   {
+    "base": "echt",
+    "prefix": "un",
+    "expected": "unecht"
+   },
+   {
+    "base": "gemütlich",
+    "prefix": "un",
+    "expected": "ungemütlich"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ]
+  }
+ },
+ "es": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "limpio",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "verano",
+    "b": "invierno",
+    "tier": 2,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [
+      "hermoso"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "lindo"
+    },
+    "far": "lento",
+    "pic": null,
+    "id": "bonito-feo",
+    "a": "bonito",
+    "b": "feo",
+    "tier": 1,
+    "pos": "adj",
+    "family": "looks"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "costoso"
+    },
+    "far": "suave",
+    "pic": null,
+    "id": "caro-barato",
+    "a": "caro",
+    "b": "barato",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "estrecho"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "amplio"
+    },
+    "far": "dulce",
+    "pic": null,
+    "id": "ancho-angosto",
+    "a": "ancho",
+    "b": "angosto",
+    "tier": 2,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "mojado",
+    "pic": null,
+    "id": "primero-ultimo",
+    "a": "primero",
+    "b": "último",
+    "tier": 2,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "amable-grosero"
+    ],
+    "syn": {
+     "a": "bondadoso"
+    },
+    "far": "alto",
+    "pic": null,
+    "id": "bueno-malo",
+    "a": "bueno",
+    "b": "malo",
+    "tier": 1,
+    "pos": "adj",
+    "family": "goodness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "cobarde"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "valeroso"
+    },
+    "far": "claro",
+    "pic": null,
+    "id": "valiente-miedoso",
+    "a": "valiente",
+    "b": "miedoso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "caro",
+    "pic": null,
+    "id": "dormido-despierto",
+    "a": "dormido",
+    "b": "despierto",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sleep"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "saludable"
+    },
+    "far": "ancho",
+    "pic": null,
+    "id": "sano-enfermo",
+    "a": "sano",
+    "b": "enfermo",
+    "tier": 2,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "maleducado"
+     ]
+    },
+    "exclusiveWith": [
+     "bueno-malo"
+    ],
+    "syn": {
+     "a": "educado"
+    },
+    "far": "verano",
+    "pic": null,
+    "id": "amable-grosero",
+    "a": "amable",
+    "b": "grosero",
+    "tier": 2,
+    "pos": "adj",
+    "family": "manners"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "feo",
+    "pic": null,
+    "id": "entrada-salida",
+    "a": "entrada",
+    "b": "salida",
+    "tier": 2,
+    "pos": "noun",
+    "family": "way"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "pesado",
+    "pic": null,
+    "id": "pregunta-respuesta",
+    "a": "pregunta",
+    "b": "respuesta",
+    "tier": 2,
+    "pos": "noun",
+    "family": "talk"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "seco",
+    "pic": null,
+    "id": "amigo-enemigo",
+    "a": "amigo",
+    "b": "enemigo",
+    "tier": 2,
+    "pos": "noun",
+    "family": "relation"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "campeón"
+    },
+    "far": "ciudad",
+    "pic": null,
+    "id": "ganador-perdedor",
+    "a": "ganador",
+    "b": "perdedor",
+    "tier": 2,
+    "pos": "noun",
+    "family": "game"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "calmado"
+    },
+    "far": "largo",
+    "pic": null,
+    "id": "tranquilo-nervioso",
+    "a": "tranquilo",
+    "b": "nervioso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "calm"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "prendido"
+    },
+    "far": "dulce",
+    "pic": null,
+    "id": "encendido-apagado",
+    "a": "encendido",
+    "b": "apagado",
+    "tier": 2,
+    "pos": "adj",
+    "family": "switch"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "bonito",
+    "pic": null,
+    "id": "ciudad-campo",
+    "a": "ciudad",
+    "b": "campo",
+    "tier": 1,
+    "pos": "noun",
+    "family": "place"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "carcajada"
+    },
+    "far": "abierto",
+    "pic": null,
+    "id": "risa-llanto",
+    "a": "risa",
+    "b": "llanto",
+    "tier": 1,
+    "pos": "noun",
+    "family": "laugh"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "fuerte",
+    "pic": null,
+    "id": "crudo-cocido",
+    "a": "crudo",
+    "b": "cocido",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "nuevo",
+    "pic": null,
+    "id": "vivo-muerto",
+    "a": "vivo",
+    "b": "muerto",
+    "tier": 1,
+    "pos": "adj",
+    "family": "life"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "próximo"
+    },
+    "far": "sucio",
+    "pic": null,
+    "id": "cercano-lejano",
+    "a": "cercano",
+    "b": "lejano",
+    "tier": 2,
+    "pos": "adj",
+    "family": "distance"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "distinto"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "idéntico"
+    },
+    "far": "rápido",
+    "pic": null,
+    "id": "igual-diferente",
+    "a": "igual",
+    "b": "diferente",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "sencillo"
+    },
+    "far": "oscuro",
+    "pic": null,
+    "id": "facil-dificil",
+    "a": "fácil",
+    "b": "difícil",
+    "tier": 2,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "perezoso"
+    },
+    "far": "grande",
+    "pic": null,
+    "id": "flojo-trabajador",
+    "a": "flojo",
+    "b": "trabajador",
+    "tier": 2,
+    "pos": "adj",
+    "family": "effort"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "gracioso"
+    },
+    "far": "lleno",
+    "pic": null,
+    "id": "chistoso-serio",
+    "a": "chistoso",
+    "b": "serio",
+    "tier": 2,
+    "pos": "adj",
+    "family": "humor"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": null,
+    "far": "fácil",
+    "pic": null,
+    "id": "blanco-negro",
+    "a": "blanco",
+    "b": "negro",
+    "tier": 1,
+    "pos": "adj",
+    "family": "color"
+   }
+  ],
+  "picAdd": {
+   "lleno-vacio": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "mojado-seco",
+    "text": "El perro salió de la lluvia. No está seco. Está ___.",
+    "answer": "mojado"
+   },
+   {
+    "pair": "alto-bajo",
+    "text": "El edificio no es bajo. Es ___.",
+    "answer": "alto"
+   },
+   {
+    "pair": "viejo-nuevo",
+    "text": "Mi juguete es de hoy. No es viejo. Es ___.",
+    "answer": "nuevo"
+   },
+   {
+    "pair": "abierto-cerrado",
+    "text": "El libro no está abierto. Está ___.",
+    "answer": "cerrado"
+   },
+   {
+    "pair": "largo-corto",
+    "text": "El lápiz ya no es largo. Es ___.",
+    "answer": "corto"
+   },
+   {
+    "pair": "grueso-delgado",
+    "text": "El palito no es grueso. Es ___.",
+    "answer": "delgado"
+   },
+   {
+    "pair": "fuerte-debil",
+    "text": "El pollito recién nacido no es fuerte. Es ___.",
+    "answer": "débil"
+   },
+   {
+    "pair": "bright-dark",
+    "text": "El túnel no es claro. Es ___.",
+    "answer": "oscuro"
+   },
+   {
+    "pair": "aspero-liso",
+    "text": "El vidrio no es áspero. Es ___.",
+    "answer": "liso"
+   },
+   {
+    "pair": "ruidoso-silencioso",
+    "text": "El ratón no es ruidoso. Es ___.",
+    "answer": "silencioso"
+   },
+   {
+    "pair": "happy-sad",
+    "text": "El niño perdió su globo. No está feliz. Está ___.",
+    "answer": "triste"
+   },
+   {
+    "pair": "bonito-feo",
+    "text": "El monstruo no es bonito. Es ___.",
+    "answer": "feo"
+   },
+   {
+    "pair": "caro-barato",
+    "text": "El chicle no es caro. Es ___.",
+    "answer": "barato"
+   },
+   {
+    "pair": "dormido-despierto",
+    "text": "El gallo canta. No está dormido. Está ___.",
+    "answer": "despierto"
+   },
+   {
+    "pair": "sano-enfermo",
+    "text": "Mi abuelo tiene gripa. No está sano. Está ___.",
+    "answer": "enfermo"
+   },
+   {
+    "pair": "encendido-apagado",
+    "text": "El foco no está encendido. Está ___.",
+    "answer": "apagado"
+   },
+   {
+    "pair": "crudo-cocido",
+    "text": "El elote ya hirvió. No está crudo. Está ___.",
+    "answer": "cocido"
+   },
+   {
+    "pair": "facil-dificil",
+    "text": "El problema no es fácil. Es ___.",
+    "answer": "difícil"
+   },
+   {
+    "pair": "primero-ultimo",
+    "text": "Beto llegó al final. No es el primero. Es el ___.",
+    "answer": "último"
+   },
+   {
+    "pair": "summer-winter",
+    "text": "Hace mucho frío. No es verano. Es ___.",
+    "answer": "invierno"
+   },
+   {
+    "pair": "valiente-miedoso",
+    "text": "El bombero no es miedoso. Es ___.",
+    "answer": "valiente"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "correcto",
+    "prefix": "in",
+    "expected": "incorrecto"
+   },
+   {
+    "base": "visible",
+    "prefix": "in",
+    "expected": "invisible"
+   },
+   {
+    "base": "quieto",
+    "prefix": "in",
+    "expected": "inquieto"
+   },
+   {
+    "base": "necesario",
+    "prefix": "in",
+    "expected": "innecesario"
+   },
+   {
+    "base": "perfecto",
+    "prefix": "im",
+    "expected": "imperfecto"
+   },
+   {
+    "base": "par",
+    "prefix": "im",
+    "expected": "impar"
+   },
+   {
+    "base": "agradable",
+    "prefix": "des",
+    "expected": "desagradable"
+   },
+   {
+    "base": "honesto",
+    "prefix": "des",
+    "expected": "deshonesto"
+   },
+   {
+    "base": "cubierto",
+    "prefix": "des",
+    "expected": "descubierto"
+   },
+   {
+    "base": "peinado",
+    "prefix": "des",
+    "expected": "despeinado"
+   },
+   {
+    "base": "abrochado",
+    "prefix": "des",
+    "expected": "desabrochado"
+   },
+   {
+    "base": "conectado",
+    "prefix": "des",
+    "expected": "desconectado"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "lleno-vacio:a"
+   ],
+   "kitchen tools/glass": [
+    "lleno-vacio:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "fr": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "lourd",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "été",
+    "b": "hiver",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "exact"
+    },
+    "far": "chaud",
+    "pic": null,
+    "id": "true-false",
+    "a": "vrai",
+    "b": "faux",
+    "tier": 1,
+    "pos": "adj",
+    "family": "truth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "triste",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "cru",
+    "b": "cuit",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "propre",
+    "pic": null,
+    "id": "on-off",
+    "a": "allumé",
+    "b": "éteint",
+    "tier": 2,
+    "pos": "adj",
+    "family": "switch"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "éveillé"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "large",
+    "pic": null,
+    "id": "asleep-awake",
+    "a": "endormi",
+    "b": "réveillé",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sleep"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "en vie"
+    },
+    "far": "court",
+    "pic": null,
+    "id": "alive-dead",
+    "a": "vivant",
+    "b": "mort",
+    "tier": 2,
+    "pos": "adj",
+    "family": "life"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": null,
+    "far": "plein",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "matin",
+    "b": "soir",
+    "tier": 1,
+    "pos": "noun",
+    "family": "time-of-day"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "mou",
+    "pic": null,
+    "id": "entrance-exit",
+    "a": "entrée",
+    "b": "sortie",
+    "tier": 2,
+    "pos": "noun",
+    "family": "way"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "froid",
+    "pic": null,
+    "id": "question-answer",
+    "a": "question",
+    "b": "réponse",
+    "tier": 2,
+    "pos": "noun",
+    "family": "asking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "copain"
+    },
+    "far": "sec",
+    "pic": null,
+    "id": "friend-enemy",
+    "a": "ami",
+    "b": "ennemi",
+    "tier": 2,
+    "pos": "noun",
+    "family": "relation"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "haut",
+    "pic": null,
+    "id": "smooth-rough",
+    "a": "lisse",
+    "b": "rugueux",
+    "tier": 2,
+    "pos": "adj",
+    "family": "surface"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "soft-hard",
+     "strong-weak"
+    ],
+    "syn": {
+     "a": "robuste"
+    },
+    "far": "long",
+    "pic": null,
+    "id": "solid-fragile",
+    "a": "solide",
+    "b": "fragile",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sturdiness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "froussard"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "brave"
+    },
+    "far": "sucré",
+    "pic": null,
+    "id": "brave-fearful",
+    "a": "courageux",
+    "b": "peureux",
+    "tier": 2,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": null,
+    "far": "rapide",
+    "pic": null,
+    "id": "black-white",
+    "a": "noir",
+    "b": "blanc",
+    "tier": 1,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "beau",
+    "pic": null,
+    "id": "present-absent",
+    "a": "présent",
+    "b": "absent",
+    "tier": 2,
+    "pos": "adj",
+    "family": "attendance"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "vainqueur"
+    },
+    "far": "vide",
+    "pic": null,
+    "id": "winner-loser",
+    "a": "gagnant",
+    "b": "perdant",
+    "tier": 2,
+    "pos": "noun",
+    "family": "game"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "dur",
+    "pic": null,
+    "id": "inside-outside",
+    "a": "intérieur",
+    "b": "extérieur",
+    "tier": 2,
+    "pos": "adj",
+    "family": "inside"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "content",
+    "pic": null,
+    "id": "north-south",
+    "a": "nord",
+    "b": "sud",
+    "tier": 1,
+    "pos": "noun",
+    "family": "direction"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "léger",
+    "pic": null,
+    "id": "town-country",
+    "a": "ville",
+    "b": "campagne",
+    "tier": 2,
+    "pos": "noun",
+    "family": "place"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "drôle"
+    },
+    "far": "fermé",
+    "pic": null,
+    "id": "fun-boring",
+    "a": "amusant",
+    "b": "ennuyeux",
+    "tier": 2,
+    "pos": "adj",
+    "family": "fun"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "mauvais"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "bon"
+    },
+    "far": "neuf",
+    "pic": null,
+    "id": "tasty-disgusting",
+    "a": "délicieux",
+    "b": "dégoûtant",
+    "tier": 2,
+    "pos": "adj",
+    "family": "liking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "concentré"
+    },
+    "far": "riche",
+    "pic": null,
+    "id": "attentive-distracted",
+    "a": "attentif",
+    "b": "distrait",
+    "tier": 2,
+    "pos": "adj",
+    "family": "attention"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "pris"
+    },
+    "far": "petit",
+    "pic": null,
+    "id": "busy-free",
+    "a": "occupé",
+    "b": "libre",
+    "tier": 2,
+    "pos": "adj",
+    "family": "availability"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "happy-sad"
+    ],
+    "syn": {
+     "a": "bonheur"
+    },
+    "far": "jour",
+    "pic": null,
+    "id": "joy-sadness",
+    "a": "joie",
+    "b": "tristesse",
+    "tier": 2,
+    "pos": "noun",
+    "family": "emotion"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "entier"
+     ]
+    },
+    "exclusiveWith": [
+     "old-new"
+    ],
+    "syn": {
+     "a": "abîmé"
+    },
+    "far": "épais",
+    "pic": null,
+    "id": "broken-repaired",
+    "a": "cassé",
+    "b": "réparé",
+    "tier": 2,
+    "pos": "adj",
+    "family": "repair"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "identique"
+    },
+    "far": "lent",
+    "pic": null,
+    "id": "same-different",
+    "a": "pareil",
+    "b": "différent",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "épuisé"
+    },
+    "far": "sale",
+    "pic": null,
+    "id": "tired-rested",
+    "a": "fatigué",
+    "b": "reposé",
+    "tier": 2,
+    "pos": "adj",
+    "family": "energy"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "loud-quiet"
+    ],
+    "syn": {
+     "a": "vacarme"
+    },
+    "far": "clair",
+    "pic": null,
+    "id": "noise-silence",
+    "a": "bruit",
+    "b": "silence",
+    "tier": 2,
+    "pos": "noun",
+    "family": "noise"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "voisin"
+    },
+    "far": "gentil",
+    "pic": null,
+    "id": "near-far",
+    "a": "proche",
+    "b": "lointain",
+    "tier": 2,
+    "pos": "adj",
+    "family": "distance"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "disparu"
+    },
+    "far": "premier",
+    "pic": null,
+    "id": "lost-found",
+    "a": "perdu",
+    "b": "trouvé",
+    "tier": 2,
+    "pos": "adj",
+    "family": "finding"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "facile",
+    "pic": null,
+    "id": "departure-arrival",
+    "a": "départ",
+    "b": "arrivée",
+    "tier": 2,
+    "pos": "noun",
+    "family": "journey"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "fort",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "sauvage",
+    "b": "domestique",
+    "tier": 2,
+    "pos": "adj",
+    "family": "animals"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "Il neige. Nous ne sommes pas en été. Nous sommes en ___.",
+    "answer": "hiver"
+   },
+   {
+    "pair": "true-false",
+    "text": "Deux et deux font cinq ? Ce n'est pas vrai. C'est ___.",
+    "answer": "faux"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Le pain sort du four. Il n'est pas cru. Il est ___.",
+    "answer": "cuit"
+   },
+   {
+    "pair": "on-off",
+    "text": "La nuit, le lampadaire n'est pas éteint. Il est ___.",
+    "answer": "allumé"
+   },
+   {
+    "pair": "asleep-awake",
+    "text": "Le bébé fait dodo. Il n'est pas réveillé. Il est ___.",
+    "answer": "endormi"
+   },
+   {
+    "pair": "morning-evening",
+    "text": "Le soleil se lève. Ce n'est pas le soir. C'est le ___.",
+    "answer": "matin"
+   },
+   {
+    "pair": "entrance-exit",
+    "text": "Pour partir, on ne prend pas l'entrée. On prend la ___.",
+    "answer": "sortie"
+   },
+   {
+    "pair": "question-answer",
+    "text": "Tu dis « oui ». Ce n'est pas une question. C'est une ___.",
+    "answer": "réponse"
+   },
+   {
+    "pair": "smooth-rough",
+    "text": "Le tronc de l'arbre n'est pas lisse. Il est ___.",
+    "answer": "rugueux"
+   },
+   {
+    "pair": "solid-fragile",
+    "text": "Le verre n'est pas solide. Il est ___.",
+    "answer": "fragile"
+   },
+   {
+    "pair": "brave-fearful",
+    "text": "Le chevalier n'est pas peureux. Il est ___.",
+    "answer": "courageux"
+   },
+   {
+    "pair": "black-white",
+    "text": "Le corbeau n'est pas blanc. Il est ___.",
+    "answer": "noir"
+   },
+   {
+    "pair": "present-absent",
+    "text": "Tom est malade. Il n'est pas présent. Il est ___.",
+    "answer": "absent"
+   },
+   {
+    "pair": "winner-loser",
+    "text": "Hugo n'est pas le perdant. C'est le ___.",
+    "answer": "gagnant"
+   },
+   {
+    "pair": "town-country",
+    "text": "Les vaches ne sont pas en ville. Elles sont à la ___.",
+    "answer": "campagne"
+   },
+   {
+    "pair": "fun-boring",
+    "text": "Le film n'est pas ennuyeux. Il est ___.",
+    "answer": "amusant"
+   },
+   {
+    "pair": "tasty-disgusting",
+    "text": "Ce gâteau n'est pas dégoûtant. Il est ___.",
+    "answer": "délicieux"
+   },
+   {
+    "pair": "attentive-distracted",
+    "text": "Le chat guette la souris. Il n'est pas distrait. Il est ___.",
+    "answer": "attentif"
+   },
+   {
+    "pair": "busy-free",
+    "text": "Personne sur le banc : il n'est pas occupé. Il est ___.",
+    "answer": "libre"
+   },
+   {
+    "pair": "broken-repaired",
+    "text": "Le vélo n'est pas cassé : papa l'a ___.",
+    "answer": "réparé"
+   },
+   {
+    "pair": "same-different",
+    "text": "Ton dessin n'est pas pareil au mien. Il est ___.",
+    "answer": "différent"
+   },
+   {
+    "pair": "tired-rested",
+    "text": "Léo a bien dormi. Il n'est pas fatigué. Il est ___.",
+    "answer": "reposé"
+   },
+   {
+    "pair": "noise-silence",
+    "text": "Chut ! On n'entend pas un bruit. C'est le ___.",
+    "answer": "silence"
+   },
+   {
+    "pair": "lost-found",
+    "text": "Mon doudou n'est pas perdu. Je l'ai ___ !",
+    "answer": "trouvé"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "Le loup n'est pas domestique. Il est ___.",
+    "answer": "sauvage"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "prudent",
+    "prefix": "im",
+    "expected": "imprudent"
+   },
+   {
+    "base": "complet",
+    "prefix": "in",
+    "expected": "incomplet"
+   },
+   {
+    "base": "capable",
+    "prefix": "in",
+    "expected": "incapable"
+   },
+   {
+    "base": "correct",
+    "prefix": "in",
+    "expected": "incorrect"
+   },
+   {
+    "base": "confortable",
+    "prefix": "in",
+    "expected": "inconfortable"
+   },
+   {
+    "base": "égal",
+    "prefix": "in",
+    "expected": "inégal"
+   },
+   {
+    "base": "buvable",
+    "prefix": "im",
+    "expected": "imbuvable"
+   },
+   {
+    "base": "chanceux",
+    "prefix": "mal",
+    "expected": "malchanceux"
+   },
+   {
+    "base": "coiffé",
+    "prefix": "dé",
+    "expected": "décoiffé"
+   },
+   {
+    "base": "gonflé",
+    "prefix": "dé",
+    "expected": "dégonflé"
+   },
+   {
+    "base": "brancher",
+    "prefix": "dé",
+    "expected": "débrancher"
+   },
+   {
+    "base": "monter",
+    "prefix": "dé",
+    "expected": "démonter"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "it": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "pulito",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "estate",
+    "b": "inverno",
+    "tier": 2,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "inizio-fine"
+    ],
+    "syn": {
+     "a": "finale"
+    },
+    "far": "pesante",
+    "pic": null,
+    "id": "ultimo-primo",
+    "a": "ultimo",
+    "b": "primo",
+    "tier": 1,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "ultimo-primo"
+    ],
+    "syn": {
+     "a": "principio"
+    },
+    "far": "bagnato",
+    "pic": null,
+    "id": "inizio-fine",
+    "a": "inizio",
+    "b": "fine",
+    "tier": 1,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "distante"
+    },
+    "far": "dolce",
+    "pic": null,
+    "id": "lontano-vicino",
+    "a": "lontano",
+    "b": "vicino",
+    "tier": 2,
+    "pos": "adj",
+    "family": "distance"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "morbido",
+    "pic": null,
+    "id": "destra-sinistra",
+    "a": "destra",
+    "b": "sinistra",
+    "tier": 2,
+    "pos": "noun",
+    "family": "side"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ingresso"
+    },
+    "far": "felice",
+    "pic": null,
+    "id": "entrata-uscita",
+    "a": "entrata",
+    "b": "uscita",
+    "tier": 2,
+    "pos": "noun",
+    "family": "passage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "lungo",
+    "pic": null,
+    "id": "domanda-risposta",
+    "a": "domanda",
+    "b": "risposta",
+    "tier": 2,
+    "pos": "noun",
+    "family": "talk"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "compagno"
+    },
+    "far": "freddo",
+    "pic": null,
+    "id": "amico-nemico",
+    "a": "amico",
+    "b": "nemico",
+    "tier": 1,
+    "pos": "noun",
+    "family": "relation"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "triste",
+    "pic": null,
+    "id": "dritto-storto",
+    "a": "dritto",
+    "b": "storto",
+    "tier": 1,
+    "pos": "adj",
+    "family": "straightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "veloce",
+    "pic": null,
+    "id": "liscio-ruvido",
+    "a": "liscio",
+    "b": "ruvido",
+    "tier": 1,
+    "pos": "adj",
+    "family": "surface"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "paffuto"
+    },
+    "far": "aperto",
+    "pic": null,
+    "id": "grasso-magro",
+    "a": "grasso",
+    "b": "magro",
+    "tier": 1,
+    "pos": "adj",
+    "family": "body"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "valoroso"
+    },
+    "far": "bagnato",
+    "pic": null,
+    "id": "coraggioso-pauroso",
+    "a": "coraggioso",
+    "b": "pauroso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "gentile-sgarbato"
+    ],
+    "syn": {
+     "a": "cortese"
+    },
+    "far": "crudo",
+    "pic": null,
+    "id": "educato-maleducato",
+    "a": "educato",
+    "b": "maleducato",
+    "tier": 2,
+    "pos": "adj",
+    "family": "manners"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "sfinito"
+    },
+    "far": "bianco",
+    "pic": null,
+    "id": "stanco-riposato",
+    "a": "stanco",
+    "b": "riposato",
+    "tier": 2,
+    "pos": "adj",
+    "family": "tiredness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "costoso"
+    },
+    "far": "alto",
+    "pic": null,
+    "id": "caro-economico",
+    "a": "caro",
+    "b": "economico",
+    "tier": 2,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "liscio",
+    "pic": null,
+    "id": "sveglio-addormentato",
+    "a": "sveglio",
+    "b": "addormentato",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sleep"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "illuminato"
+    },
+    "far": "grasso",
+    "pic": null,
+    "id": "acceso-spento",
+    "a": "acceso",
+    "b": "spento",
+    "tier": 1,
+    "pos": "adj",
+    "family": "switch"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "destra",
+    "pic": null,
+    "id": "crudo-cotto",
+    "a": "crudo",
+    "b": "cotto",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "amico",
+    "pic": null,
+    "id": "salita-discesa",
+    "a": "salita",
+    "b": "discesa",
+    "tier": 2,
+    "pos": "noun",
+    "family": "slope"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "aurora"
+    },
+    "far": "sporco",
+    "pic": null,
+    "id": "alba-tramonto",
+    "a": "alba",
+    "b": "tramonto",
+    "tier": 2,
+    "pos": "noun",
+    "family": "sun"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "tranquillo"
+    },
+    "far": "corto",
+    "pic": null,
+    "id": "calmo-agitato",
+    "a": "calmo",
+    "b": "agitato",
+    "tier": 2,
+    "pos": "adj",
+    "family": "calm"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "acceso",
+    "pic": null,
+    "id": "sano-malato",
+    "a": "sano",
+    "b": "malato",
+    "tier": 1,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "domanda",
+    "pic": null,
+    "id": "bianco-nero",
+    "a": "bianco",
+    "b": "nero",
+    "tier": 1,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "guasto"
+    },
+    "far": "estate",
+    "pic": null,
+    "id": "rotto-intero",
+    "a": "rotto",
+    "b": "intero",
+    "tier": 2,
+    "pos": "adj",
+    "family": "integrity"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "salita",
+    "pic": null,
+    "id": "pari-dispari",
+    "a": "pari",
+    "b": "dispari",
+    "tier": 2,
+    "pos": "adj",
+    "family": "parity"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "stanco",
+    "pic": null,
+    "id": "interno-esterno",
+    "a": "interno",
+    "b": "esterno",
+    "tier": 2,
+    "pos": "adj",
+    "family": "inside"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "limpido"
+    },
+    "far": "pari",
+    "pic": null,
+    "id": "sereno-nuvoloso",
+    "a": "sereno",
+    "b": "nuvoloso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "weather"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "giusto-sbagliato"
+    ],
+    "syn": {
+     "a": "reale"
+    },
+    "far": "morbido",
+    "pic": null,
+    "id": "vero-falso",
+    "a": "vero",
+    "b": "falso",
+    "tier": 1,
+    "pos": "adj",
+    "family": "truth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "nuovo-vecchio"
+    ],
+    "syn": null,
+    "far": "bagnato",
+    "pic": null,
+    "id": "giovane-anziano",
+    "a": "giovane",
+    "b": "anziano",
+    "tier": 2,
+    "pos": "adj",
+    "family": "people age"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "buono-cattivo",
+     "educato-maleducato"
+    ],
+    "syn": null,
+    "far": "lungo",
+    "pic": null,
+    "id": "gentile-sgarbato",
+    "a": "gentile",
+    "b": "sgarbato",
+    "tier": 2,
+    "pos": "adj",
+    "family": "kindness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "brillante"
+    },
+    "far": "caro",
+    "pic": null,
+    "id": "lucido-opaco",
+    "a": "lucido",
+    "b": "opaco",
+    "tier": 2,
+    "pos": "adj",
+    "family": "shine"
+   }
+  ],
+  "picAdd": {
+   "pieno-vuoto": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "C'è la neve, non è estate. È ___.",
+    "answer": "inverno"
+   },
+   {
+    "pair": "alba-tramonto",
+    "text": "Il sole scende: non è l'alba. È il ___.",
+    "answer": "tramonto"
+   },
+   {
+    "pair": "acceso-spento",
+    "text": "Il televisore non è acceso. È ___.",
+    "answer": "spento"
+   },
+   {
+    "pair": "crudo-cotto",
+    "text": "Il pollo arrosto non è crudo. È ___.",
+    "answer": "cotto"
+   },
+   {
+    "pair": "rotto-intero",
+    "text": "Il biscotto non è rotto. È ___.",
+    "answer": "intero"
+   },
+   {
+    "pair": "dritto-storto",
+    "text": "Il chiodo non è dritto. È ___.",
+    "answer": "storto"
+   },
+   {
+    "pair": "liscio-ruvido",
+    "text": "Il sasso non è ruvido. È ___.",
+    "answer": "liscio"
+   },
+   {
+    "pair": "grasso-magro",
+    "text": "Il maiale non è magro. È ___.",
+    "answer": "grasso"
+   },
+   {
+    "pair": "sano-malato",
+    "text": "Il nonno non è malato. È ___.",
+    "answer": "sano"
+   },
+   {
+    "pair": "stanco-riposato",
+    "text": "Il papà ha dormito: non è stanco. È ___.",
+    "answer": "riposato"
+   },
+   {
+    "pair": "sveglio-addormentato",
+    "text": "Il gufo non è addormentato. È ___.",
+    "answer": "sveglio"
+   },
+   {
+    "pair": "calmo-agitato",
+    "text": "Il mare non è calmo. È ___.",
+    "answer": "agitato"
+   },
+   {
+    "pair": "sereno-nuvoloso",
+    "text": "Il cielo non è nuvoloso. È ___.",
+    "answer": "sereno"
+   },
+   {
+    "pair": "bianco-nero",
+    "text": "Il corvo non è bianco. È ___.",
+    "answer": "nero"
+   },
+   {
+    "pair": "caro-economico",
+    "text": "Il gelato non è caro. È ___.",
+    "answer": "economico"
+   },
+   {
+    "pair": "coraggioso-pauroso",
+    "text": "Il leone non è pauroso. È ___.",
+    "answer": "coraggioso"
+   },
+   {
+    "pair": "lontano-vicino",
+    "text": "Il parco non è lontano. È ___.",
+    "answer": "vicino"
+   },
+   {
+    "pair": "educato-maleducato",
+    "text": "Il bambino saluta: non è maleducato. È ___.",
+    "answer": "educato"
+   },
+   {
+    "pair": "salita-discesa",
+    "text": "La strada non è in discesa. È in ___.",
+    "answer": "salita"
+   },
+   {
+    "pair": "amico-nemico",
+    "text": "Il cane non è un nemico. È un ___.",
+    "answer": "amico"
+   },
+   {
+    "pair": "pari-dispari",
+    "text": "Il tre non è pari. È ___.",
+    "answer": "dispari"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "capace",
+    "prefix": "in",
+    "expected": "incapace"
+   },
+   {
+    "base": "visibile",
+    "prefix": "in",
+    "expected": "invisibile"
+   },
+   {
+    "base": "completo",
+    "prefix": "in",
+    "expected": "incompleto"
+   },
+   {
+    "base": "gonfio",
+    "prefix": "s",
+    "expected": "sgonfio"
+   },
+   {
+    "base": "leale",
+    "prefix": "s",
+    "expected": "sleale"
+   },
+   {
+    "base": "piacevole",
+    "prefix": "s",
+    "expected": "spiacevole"
+   },
+   {
+    "base": "vestito",
+    "prefix": "s",
+    "expected": "svestito"
+   },
+   {
+    "base": "carico",
+    "prefix": "s",
+    "expected": "scarico"
+   },
+   {
+    "base": "coperto",
+    "prefix": "s",
+    "expected": "scoperto"
+   },
+   {
+    "base": "uguale",
+    "prefix": "dis",
+    "expected": "disuguale"
+   },
+   {
+    "base": "abitato",
+    "prefix": "dis",
+    "expected": "disabitato"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "pieno-vuoto:a"
+   ],
+   "kitchen tools/glass": [
+    "pieno-vuoto:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  },
+  "refused": {
+   "pairs": [],
+   "prefixItems": [
+    "impossibile",
+    "impaziente"
+   ]
+  }
+ },
+ "pt": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "limpo",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "verão",
+    "b": "inverno",
+    "tier": 2,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [
+      "lindo"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "lindo"
+    },
+    "far": "lento",
+    "pic": null,
+    "id": "bonito-feio",
+    "a": "bonito",
+    "b": "feio",
+    "tier": 1,
+    "pos": "adj",
+    "family": "looks"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "milionário"
+    },
+    "far": "molhado",
+    "pic": null,
+    "id": "rico-pobre",
+    "a": "rico",
+    "b": "pobre",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "macio",
+    "pic": null,
+    "id": "caro-barato",
+    "a": "caro",
+    "b": "barato",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "apertado-folgado"
+    ],
+    "syn": {
+     "a": "espaçoso"
+    },
+    "far": "doce",
+    "pic": null,
+    "id": "largo-estreito",
+    "a": "largo",
+    "b": "estreito",
+    "tier": 2,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "comeco-fim"
+    ],
+    "syn": null,
+    "far": "quente",
+    "pic": null,
+    "id": "primeiro-ultimo",
+    "a": "primeiro",
+    "b": "último",
+    "tier": 2,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "mau"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ótimo"
+    },
+    "far": "alto",
+    "pic": null,
+    "id": "bom-ruim",
+    "a": "bom",
+    "b": "ruim",
+    "tier": 1,
+    "pos": "adj",
+    "family": "goodness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "covarde"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "valente"
+    },
+    "far": "claro",
+    "pic": null,
+    "id": "corajoso-medroso",
+    "a": "corajoso",
+    "b": "medroso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "dormindo"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "desperto"
+    },
+    "far": "caro",
+    "pic": null,
+    "id": "acordado-adormecido",
+    "a": "acordado",
+    "b": "adormecido",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sleep"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "sadio"
+    },
+    "far": "largo",
+    "pic": null,
+    "id": "saudavel-doente",
+    "a": "saudável",
+    "b": "doente",
+    "tier": 2,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "feio",
+    "pic": null,
+    "id": "entrada-saida",
+    "a": "entrada",
+    "b": "saída",
+    "tier": 2,
+    "pos": "noun",
+    "family": "way"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "pesado",
+    "pic": null,
+    "id": "pergunta-resposta",
+    "a": "pergunta",
+    "b": "resposta",
+    "tier": 2,
+    "pos": "noun",
+    "family": "talk"
+   },
+   {
+    "alt": {
+     "a": [
+      "início"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [
+     "primeiro-ultimo"
+    ],
+    "syn": {
+     "a": "início"
+    },
+    "far": "grosso",
+    "pic": null,
+    "id": "comeco-fim",
+    "a": "começo",
+    "b": "fim",
+    "tier": 1,
+    "pos": "noun",
+    "family": "time-span"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "perfumado"
+    },
+    "far": "aberto",
+    "pic": null,
+    "id": "cheiroso-fedorento",
+    "a": "cheiroso",
+    "b": "fedorento",
+    "tier": 2,
+    "pos": "adj",
+    "family": "smell"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "manso-bravo"
+    ],
+    "syn": {
+     "a": "tranquilo"
+    },
+    "far": "comprido",
+    "pic": null,
+    "id": "calmo-nervoso",
+    "a": "calmo",
+    "b": "nervoso",
+    "tier": 2,
+    "pos": "adj",
+    "family": "mood"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "correto"
+    },
+    "far": "perto",
+    "pic": null,
+    "id": "certo-errado",
+    "a": "certo",
+    "b": "errado",
+    "tier": 1,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "idêntico"
+    },
+    "far": "forte",
+    "pic": null,
+    "id": "igual-diferente",
+    "a": "igual",
+    "b": "diferente",
+    "tier": 2,
+    "pos": "adj",
+    "family": "sameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "rico",
+    "pic": null,
+    "id": "direita-esquerda",
+    "a": "direita",
+    "b": "esquerda",
+    "tier": 2,
+    "pos": "noun",
+    "family": "side"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "feliz",
+    "pic": null,
+    "id": "raso-fundo",
+    "a": "raso",
+    "b": "fundo",
+    "tier": 1,
+    "pos": "adj",
+    "family": "depth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "largo"
+     ]
+    },
+    "exclusiveWith": [
+     "largo-estreito"
+    ],
+    "syn": {
+     "a": "justo"
+    },
+    "far": "bom",
+    "pic": null,
+    "id": "apertado-folgado",
+    "a": "apertado",
+    "b": "folgado",
+    "tier": 2,
+    "pos": "adj",
+    "family": "fit"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "cru",
+    "pic": null,
+    "id": "verdade-mentira",
+    "a": "verdade",
+    "b": "mentira",
+    "tier": 2,
+    "pos": "noun",
+    "family": "truth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "certo",
+    "pic": null,
+    "id": "cru-cozido",
+    "a": "cru",
+    "b": "cozido",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "calmo-nervoso"
+    ],
+    "syn": {
+     "a": "dócil"
+    },
+    "far": "pobre",
+    "pic": null,
+    "id": "manso-bravo",
+    "a": "manso",
+    "b": "bravo",
+    "tier": 1,
+    "pos": "adj",
+    "family": "temper"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "escuro",
+    "pic": null,
+    "id": "ida-volta",
+    "a": "ida",
+    "b": "volta",
+    "tier": 1,
+    "pos": "noun",
+    "family": "trip"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "velho",
+    "pic": null,
+    "id": "subida-descida",
+    "a": "subida",
+    "b": "descida",
+    "tier": 2,
+    "pos": "noun",
+    "family": "slope"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ligado"
+    },
+    "far": "rápido",
+    "pic": null,
+    "id": "aceso-apagado",
+    "a": "aceso",
+    "b": "apagado",
+    "tier": 2,
+    "pos": "adj",
+    "family": "light"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "Faz frio e venta. Não é verão. É ___.",
+    "answer": "inverno"
+   },
+   {
+    "pair": "bonito-feio",
+    "text": "O jardim não é feio. Ele é ___.",
+    "answer": "bonito"
+   },
+   {
+    "pair": "rico-pobre",
+    "text": "O rei não é pobre. Ele é ___.",
+    "answer": "rico"
+   },
+   {
+    "pair": "caro-barato",
+    "text": "O chiclete não é caro. Ele é ___.",
+    "answer": "barato"
+   },
+   {
+    "pair": "largo-estreito",
+    "text": "O rio não é estreito. Ele é ___.",
+    "answer": "largo"
+   },
+   {
+    "pair": "bom-ruim",
+    "text": "O bolo não é ruim. Ele é ___.",
+    "answer": "bom"
+   },
+   {
+    "pair": "corajoso-medroso",
+    "text": "O leão não é medroso. Ele é ___.",
+    "answer": "corajoso"
+   },
+   {
+    "pair": "acordado-adormecido",
+    "text": "O gato não está acordado. Está ___.",
+    "answer": "adormecido"
+   },
+   {
+    "pair": "saudavel-doente",
+    "text": "O menino não está doente. Está ___.",
+    "answer": "saudável"
+   },
+   {
+    "pair": "entrada-saida",
+    "text": "Aqui não é a entrada. É a ___.",
+    "answer": "saída"
+   },
+   {
+    "pair": "comeco-fim",
+    "text": "A história acabou. Não é o começo. É o ___.",
+    "answer": "fim"
+   },
+   {
+    "pair": "cheiroso-fedorento",
+    "text": "O gambá não é cheiroso. Ele é ___.",
+    "answer": "fedorento"
+   },
+   {
+    "pair": "calmo-nervoso",
+    "text": "O cachorro não está nervoso. Está ___.",
+    "answer": "calmo"
+   },
+   {
+    "pair": "certo-errado",
+    "text": "O resultado não está certo. Está ___.",
+    "answer": "errado"
+   },
+   {
+    "pair": "raso-fundo",
+    "text": "O poço não é raso. Ele é ___.",
+    "answer": "fundo"
+   },
+   {
+    "pair": "cru-cozido",
+    "text": "O ovo não está cru. Ele está ___.",
+    "answer": "cozido"
+   },
+   {
+    "pair": "primeiro-ultimo",
+    "text": "O caracol não chegou primeiro. Foi o ___.",
+    "answer": "último"
+   },
+   {
+    "pair": "manso-bravo",
+    "text": "O gatinho não é bravo. Ele é ___.",
+    "answer": "manso"
+   },
+   {
+    "pair": "aceso-apagado",
+    "text": "O abajur não está aceso. Está ___.",
+    "answer": "apagado"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "honesto",
+    "prefix": "des",
+    "expected": "deshonesto"
+   },
+   {
+    "base": "agradável",
+    "prefix": "des",
+    "expected": "desagradável"
+   },
+   {
+    "base": "confortável",
+    "prefix": "des",
+    "expected": "desconfortável"
+   },
+   {
+    "base": "organizado",
+    "prefix": "des",
+    "expected": "desorganizado"
+   },
+   {
+    "base": "atento",
+    "prefix": "des",
+    "expected": "desatento"
+   },
+   {
+    "base": "animado",
+    "prefix": "des",
+    "expected": "desanimado"
+   },
+   {
+    "base": "amarrado",
+    "prefix": "des",
+    "expected": "desamarrado"
+   },
+   {
+    "base": "tampado",
+    "prefix": "des",
+    "expected": "destampado"
+   },
+   {
+    "base": "visível",
+    "prefix": "in",
+    "expected": "invisível"
+   },
+   {
+    "base": "capaz",
+    "prefix": "in",
+    "expected": "incapaz"
+   },
+   {
+    "base": "quieto",
+    "prefix": "in",
+    "expected": "inquieto"
+   },
+   {
+    "base": "comum",
+    "prefix": "in",
+    "expected": "incomum"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  },
+  "refused": {
+   "pairs": [
+    "educado-mal-educado"
+   ],
+   "prefixItems": []
+  }
+ },
+ "nl": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "ingang",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "zomer",
+    "b": "winter",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "nat",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "rijk",
+    "b": "arm",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "zacht",
+    "pic": null,
+    "id": "early-late",
+    "a": "vroeg",
+    "b": "laat",
+    "tier": 1,
+    "pos": "adj",
+    "family": "earliness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "fout"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "prima"
+    },
+    "far": "rond",
+    "pic": null,
+    "id": "good-bad",
+    "a": "goed",
+    "b": "slecht",
+    "tier": 1,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [
+      "moedig"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "moedig"
+    },
+    "far": "droog",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "dapper",
+    "b": "bang",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "puntig"
+    },
+    "far": "blij",
+    "pic": null,
+    "id": "sharp-blunt",
+    "a": "scherp",
+    "b": "bot",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "scheef"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kaarsrecht"
+    },
+    "far": "zoet",
+    "pic": null,
+    "id": "straight-crooked",
+    "a": "recht",
+    "b": "krom",
+    "tier": 1,
+    "pos": "adj",
+    "family": "straightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "vierkant"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "bol"
+    },
+    "far": "koud",
+    "pic": null,
+    "id": "round-angular",
+    "a": "rond",
+    "b": "hoekig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "shape"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "woest"
+    },
+    "far": "leeg",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "wild",
+    "b": "tam",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "gaar"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ongekookt"
+    },
+    "far": "smal",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "rauw",
+    "b": "gekookt",
+    "tier": 2,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [
+      "braaf"
+     ],
+     "b": [
+      "ondeugend"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "braaf"
+    },
+    "far": "hoog",
+    "pic": null,
+    "id": "good-naughty",
+    "a": "lief",
+    "b": "stout",
+    "tier": 1,
+    "pos": "adj",
+    "family": "behaviour"
+   },
+   {
+    "alt": {
+     "a": [
+      "gemakkelijk"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "simpel"
+    },
+    "far": "dik",
+    "pic": null,
+    "id": "easy-hard",
+    "a": "makkelijk",
+    "b": "moeilijk",
+    "tier": 2,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "waar"
+    },
+    "far": "vol",
+    "pic": null,
+    "id": "real-fake",
+    "a": "echt",
+    "b": "nep",
+    "tier": 1,
+    "pos": "adj",
+    "family": "realness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "prijzig"
+    },
+    "far": "stil",
+    "pic": null,
+    "id": "expensive-cheap",
+    "a": "duur",
+    "b": "goedkoop",
+    "tier": 2,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "wiebelig"
+    },
+    "far": "zuur",
+    "pic": null,
+    "id": "loose-tight",
+    "a": "los",
+    "b": "vast",
+    "tier": 1,
+    "pos": "adj",
+    "family": "fixedness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "prachtig"
+    },
+    "far": "snel",
+    "pic": null,
+    "id": "pretty-ugly",
+    "a": "mooi",
+    "b": "lelijk",
+    "tier": 1,
+    "pos": "adj",
+    "family": "beauty"
+   },
+   {
+    "alt": {
+     "a": [
+      "knap"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "knap"
+    },
+    "far": "breed",
+    "pic": null,
+    "id": "clever-stupid",
+    "a": "slim",
+    "b": "dom",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cleverness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "fit"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "slaperig"
+    },
+    "far": "zwaar",
+    "pic": null,
+    "id": "tired-rested",
+    "a": "moe",
+    "b": "uitgerust",
+    "tier": 2,
+    "pos": "adj",
+    "family": "tiredness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "beginning-end"
+    ],
+    "syn": null,
+    "far": "glad",
+    "pic": null,
+    "id": "first-last",
+    "a": "eerste",
+    "b": "laatste",
+    "tier": 2,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "eind"
+     ]
+    },
+    "exclusiveWith": [
+     "first-last"
+    ],
+    "syn": {
+     "a": "start"
+    },
+    "far": "zomer",
+    "pic": null,
+    "id": "beginning-end",
+    "a": "begin",
+    "b": "einde",
+    "tier": 1,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "ochtend",
+    "pic": null,
+    "id": "question-answer",
+    "a": "vraag",
+    "b": "antwoord",
+    "tier": 2,
+    "pos": "noun",
+    "family": "asking"
+   },
+   {
+    "alt": {
+     "a": [
+      "morgen"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": {
+     "a": "morgen"
+    },
+    "far": "vraag",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "ochtend",
+    "b": "avond",
+    "tier": 2,
+    "pos": "noun",
+    "family": "daypart"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "dag",
+    "pic": null,
+    "id": "front-back",
+    "a": "voorkant",
+    "b": "achterkant",
+    "tier": 2,
+    "pos": "noun",
+    "family": "side"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "winter",
+    "pic": null,
+    "id": "inside-outside",
+    "a": "binnenkant",
+    "b": "buitenkant",
+    "tier": 2,
+    "pos": "noun",
+    "family": "inout"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "avond",
+    "pic": null,
+    "id": "entrance-exit",
+    "a": "ingang",
+    "b": "uitgang",
+    "tier": 2,
+    "pos": "noun",
+    "family": "way"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "rich-poor",
+    "text": "De koning is niet arm. Hij is ___.",
+    "answer": "rijk"
+   },
+   {
+    "pair": "early-late",
+    "text": "Het is niet vroeg meer. Het is al ___.",
+    "answer": "laat"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "De ridder is niet bang. Hij is ___.",
+    "answer": "dapper"
+   },
+   {
+    "pair": "sharp-blunt",
+    "text": "Het potlood is niet bot. Het is ___.",
+    "answer": "scherp"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "De leeuw is niet tam. Hij is ___.",
+    "answer": "wild"
+   },
+   {
+    "pair": "good-naughty",
+    "text": "{name} is vandaag niet stout. {name} is ___.",
+    "answer": "lief"
+   },
+   {
+    "pair": "easy-hard",
+    "text": "De som is niet moeilijk. Hij is ___.",
+    "answer": "makkelijk"
+   },
+   {
+    "pair": "loose-tight",
+    "text": "Mijn tand zit niet vast. Hij zit ___.",
+    "answer": "los"
+   },
+   {
+    "pair": "pretty-ugly",
+    "text": "De bloem is niet lelijk. Zij is ___.",
+    "answer": "mooi"
+   },
+   {
+    "pair": "clever-stupid",
+    "text": "De uil is niet dom. Hij is ___.",
+    "answer": "slim"
+   },
+   {
+    "pair": "beginning-end",
+    "text": "De film is uit. Dat is niet het begin, maar het ___.",
+    "answer": "einde"
+   },
+   {
+    "pair": "summer-winter",
+    "text": "Er ligt sneeuw. Het is geen zomer. Het is ___.",
+    "answer": "winter"
+   },
+   {
+    "pair": "morning-evening",
+    "text": "De zon gaat onder. Het is geen ochtend. Het is ___.",
+    "answer": "avond"
+   },
+   {
+    "pair": "expensive-cheap",
+    "text": "De auto is niet goedkoop. Hij is ___.",
+    "answer": "duur"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Het ei is niet rauw meer. Het is ___.",
+    "answer": "gekookt"
+   },
+   {
+    "pair": "question-answer",
+    "text": "Ik stel geen vraag. Ik geef een ___.",
+    "answer": "antwoord"
+   },
+   {
+    "pair": "good-bad",
+    "text": "Het weer is niet goed. Het is ___.",
+    "answer": "slecht"
+   },
+   {
+    "pair": "full-empty",
+    "text": "Mijn beker is niet vol. Hij is ___.",
+    "answer": "leeg"
+   },
+   {
+    "pair": "straight-crooked",
+    "text": "De lijn is niet recht. Zij is ___.",
+    "answer": "krom"
+   },
+   {
+    "pair": "wet-dry",
+    "text": "De handdoek is niet nat. Hij is ___.",
+    "answer": "droog"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "vriendelijk",
+    "prefix": "on",
+    "expected": "onvriendelijk"
+   },
+   {
+    "base": "mogelijk",
+    "prefix": "on",
+    "expected": "onmogelijk"
+   },
+   {
+    "base": "geduldig",
+    "prefix": "on",
+    "expected": "ongeduldig"
+   },
+   {
+    "base": "gehoorzaam",
+    "prefix": "on",
+    "expected": "ongehoorzaam"
+   },
+   {
+    "base": "zichtbaar",
+    "prefix": "on",
+    "expected": "onzichtbaar"
+   },
+   {
+    "base": "voorzichtig",
+    "prefix": "on",
+    "expected": "onvoorzichtig"
+   },
+   {
+    "base": "tevreden",
+    "prefix": "on",
+    "expected": "ontevreden"
+   },
+   {
+    "base": "gewoon",
+    "prefix": "on",
+    "expected": "ongewoon"
+   },
+   {
+    "base": "duidelijk",
+    "prefix": "on",
+    "expected": "onduidelijk"
+   },
+   {
+    "base": "leesbaar",
+    "prefix": "on",
+    "expected": "onleesbaar"
+   },
+   {
+    "base": "gelijk",
+    "prefix": "on",
+    "expected": "ongelijk"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "sv": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "stark",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "sommar",
+    "b": "vinter",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "förmögen"
+    },
+    "far": "mjuk",
+    "pic": null,
+    "id": "rik-fattig",
+    "a": "rik",
+    "b": "fattig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "försenad"
+    },
+    "far": "tung",
+    "pic": null,
+    "id": "sen-tidig",
+    "a": "sen",
+    "b": "tidig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "timing"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "riktig"
+    },
+    "far": "varm",
+    "pic": null,
+    "id": "rätt-fel",
+    "a": "rätt",
+    "b": "fel",
+    "tier": 1,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "feg"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "tapper"
+    },
+    "far": "torr",
+    "pic": null,
+    "id": "modig-rädd",
+    "a": "modig",
+    "b": "rädd",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "trubbig"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "skarp"
+    },
+    "far": "glad",
+    "pic": null,
+    "id": "vass-slö",
+    "a": "vass",
+    "b": "slö",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "spikrak"
+    },
+    "far": "söt",
+    "pic": null,
+    "id": "rak-krokig",
+    "a": "rak",
+    "b": "krokig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "straightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "fyrkantig"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "klotrund"
+    },
+    "far": "ny",
+    "pic": null,
+    "id": "rund-kantig",
+    "a": "rund",
+    "b": "kantig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "shape"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "full",
+    "pic": null,
+    "id": "vild-tam",
+    "a": "vild",
+    "b": "tam",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kry"
+    },
+    "far": "hög",
+    "pic": null,
+    "id": "frisk-sjuk",
+    "a": "frisk",
+    "b": "sjuk",
+    "tier": 1,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "utsvulten"
+    },
+    "far": "ljus",
+    "pic": null,
+    "id": "hungrig-mätt",
+    "a": "hungrig",
+    "b": "mätt",
+    "tier": 2,
+    "pos": "adj",
+    "family": "hunger"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "tjock-tunn"
+    ],
+    "syn": null,
+    "far": "dag",
+    "pic": null,
+    "id": "bred-smal",
+    "a": "bred",
+    "b": "smal",
+    "tier": 1,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "snabb",
+    "pic": null,
+    "id": "djup-grund",
+    "a": "djup",
+    "b": "grund",
+    "tier": 1,
+    "pos": "adj",
+    "family": "depth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "ren",
+    "pic": null,
+    "id": "billig-dyr",
+    "a": "billig",
+    "b": "dyr",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "söt-sur"
+    ],
+    "syn": {
+     "a": "fin"
+    },
+    "far": "öppen",
+    "pic": null,
+    "id": "vacker-ful",
+    "a": "vacker",
+    "b": "ful",
+    "tier": 1,
+    "pos": "adj",
+    "family": "beauty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "sömnig"
+    },
+    "far": "lång",
+    "pic": null,
+    "id": "trött-pigg",
+    "a": "trött",
+    "b": "pigg",
+    "tier": 1,
+    "pos": "adj",
+    "family": "energy"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "början-slut"
+    ],
+    "syn": null,
+    "far": "kall",
+    "pic": null,
+    "id": "första-sista",
+    "a": "första",
+    "b": "sista",
+    "tier": 1,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "första-sista"
+    ],
+    "syn": {
+     "a": "start"
+    },
+    "far": "svag",
+    "pic": null,
+    "id": "början-slut",
+    "a": "början",
+    "b": "slut",
+    "tier": 1,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "tjock",
+    "pic": null,
+    "id": "fråga-svar",
+    "a": "fråga",
+    "b": "svar",
+    "tier": 1,
+    "pos": "noun",
+    "family": "dialogue"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "låg",
+    "pic": null,
+    "id": "framsida-baksida",
+    "a": "framsida",
+    "b": "baksida",
+    "tier": 2,
+    "pos": "noun",
+    "family": "side"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "söndrig"
+    },
+    "far": "stängd",
+    "pic": null,
+    "id": "trasig-hel",
+    "a": "trasig",
+    "b": "hel",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wholeness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kul"
+    },
+    "far": "högljudd",
+    "pic": null,
+    "id": "rolig-tråkig",
+    "a": "rolig",
+    "b": "tråkig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "fun"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "smutsig",
+    "pic": null,
+    "id": "vänster-höger",
+    "a": "vänster",
+    "b": "höger",
+    "tier": 2,
+    "pos": "adj",
+    "family": "direction"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "dag-natt"
+    ],
+    "syn": null,
+    "far": "grov",
+    "pic": null,
+    "id": "morgon-kväll",
+    "a": "morgon",
+    "b": "kväll",
+    "tier": 1,
+    "pos": "noun",
+    "family": "daypart"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "arbetsam"
+    },
+    "far": "ledsen",
+    "pic": null,
+    "id": "flitig-lat",
+    "a": "flitig",
+    "b": "lat",
+    "tier": 1,
+    "pos": "adj",
+    "family": "effort"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "ljus-mörk"
+    ],
+    "syn": {
+     "a": "snövit"
+    },
+    "far": "slät",
+    "pic": null,
+    "id": "vit-svart",
+    "a": "vit",
+    "b": "svart",
+    "tier": 1,
+    "pos": "adj",
+    "family": "colour"
+   }
+  ],
+  "picAdd": {
+   "full-tom": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "vass-slö",
+    "text": "Pennan är inte vass. Den är ___.",
+    "answer": "slö"
+   },
+   {
+    "pair": "djup-grund",
+    "text": "Pölen är inte djup. Den är ___.",
+    "answer": "grund"
+   },
+   {
+    "pair": "rolig-tråkig",
+    "text": "Leken är inte tråkig. Den är ___.",
+    "answer": "rolig"
+   },
+   {
+    "pair": "hungrig-mätt",
+    "text": "Efter maten är {name} inte hungrig. {name} är ___.",
+    "answer": "mätt"
+   },
+   {
+    "pair": "rik-fattig",
+    "text": "Kungen är inte fattig. Han är ___.",
+    "answer": "rik"
+   },
+   {
+    "pair": "trött-pigg",
+    "text": "{name} har sovit och är inte trött. {name} är ___.",
+    "answer": "pigg"
+   },
+   {
+    "pair": "frisk-sjuk",
+    "text": "Dockan har feber. Den är inte frisk. Den är ___.",
+    "answer": "sjuk"
+   },
+   {
+    "pair": "vild-tam",
+    "text": "Tigern är inte tam. Den är ___.",
+    "answer": "vild"
+   },
+   {
+    "pair": "rak-krokig",
+    "text": "Stigen är inte rak. Den är ___.",
+    "answer": "krokig"
+   },
+   {
+    "pair": "rund-kantig",
+    "text": "Bollen är inte kantig. Den är ___.",
+    "answer": "rund"
+   },
+   {
+    "pair": "billig-dyr",
+    "text": "Cykeln är inte billig. Den är ___.",
+    "answer": "dyr"
+   },
+   {
+    "pair": "sen-tidig",
+    "text": "Bussen är inte tidig i dag. Den är ___.",
+    "answer": "sen"
+   },
+   {
+    "pair": "bred-smal",
+    "text": "Gatan är inte bred. Den är ___.",
+    "answer": "smal"
+   },
+   {
+    "pair": "modig-rädd",
+    "text": "Musen är inte modig. Den är ___.",
+    "answer": "rädd"
+   },
+   {
+    "pair": "vacker-ful",
+    "text": "Blomman är inte ful. Den är ___.",
+    "answer": "vacker"
+   },
+   {
+    "pair": "trasig-hel",
+    "text": "Koppen är inte hel. Den är ___.",
+    "answer": "trasig"
+   },
+   {
+    "pair": "vit-svart",
+    "text": "Snön är inte svart. Den är ___.",
+    "answer": "vit"
+   },
+   {
+    "pair": "flitig-lat",
+    "text": "Myran är inte lat. Den är ___.",
+    "answer": "flitig"
+   },
+   {
+    "pair": "summer-winter",
+    "text": "Det snöar. Det är inte sommar. Det är ___.",
+    "answer": "vinter"
+   },
+   {
+    "pair": "morgon-kväll",
+    "text": "Solen går ner. Det är inte morgon. Det är ___.",
+    "answer": "kväll"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "nöjd",
+    "prefix": "o",
+    "expected": "onöjd"
+   },
+   {
+    "base": "vanlig",
+    "prefix": "o",
+    "expected": "ovanlig"
+   },
+   {
+    "base": "möjlig",
+    "prefix": "o",
+    "expected": "omöjlig"
+   },
+   {
+    "base": "synlig",
+    "prefix": "o",
+    "expected": "osynlig"
+   },
+   {
+    "base": "farlig",
+    "prefix": "o",
+    "expected": "ofarlig"
+   },
+   {
+    "base": "bekväm",
+    "prefix": "o",
+    "expected": "obekväm"
+   },
+   {
+    "base": "lydig",
+    "prefix": "o",
+    "expected": "olydig"
+   },
+   {
+    "base": "tålig",
+    "prefix": "o",
+    "expected": "otålig"
+   },
+   {
+    "base": "tydlig",
+    "prefix": "o",
+    "expected": "otydlig"
+   },
+   {
+    "base": "försiktig",
+    "prefix": "o",
+    "expected": "oförsiktig"
+   },
+   {
+    "base": "tacksam",
+    "prefix": "o",
+    "expected": "otacksam"
+   },
+   {
+    "base": "hälsosam",
+    "prefix": "o",
+    "expected": "ohälsosam"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-tom:a"
+   ],
+   "kitchen tools/glass": [
+    "full-tom:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "da": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "våd",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "sommer",
+    "b": "vinter",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "blød",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "rig",
+    "b": "fattig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "sur",
+    "pic": null,
+    "id": "early-late",
+    "a": "tidlig",
+    "b": "sen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "timing"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "healthy-sick"
+    ],
+    "syn": {
+     "a": "fin"
+    },
+    "far": "rund",
+    "pic": null,
+    "id": "good-bad",
+    "a": "god",
+    "b": "dårlig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "korrekt"
+    },
+    "far": "tyk",
+    "pic": null,
+    "id": "correct-wrong",
+    "a": "rigtig",
+    "b": "forkert",
+    "tier": 2,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "fej",
+      "ængstelig"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "tapper"
+    },
+    "far": "tør",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "modig",
+    "b": "bange",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "spids"
+    },
+    "far": "glad",
+    "pic": null,
+    "id": "sharp-blunt",
+    "a": "skarp",
+    "b": "sløv",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "firkantet"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kuglerund"
+    },
+    "far": "stille",
+    "pic": null,
+    "id": "round-angular",
+    "a": "rund",
+    "b": "kantet",
+    "tier": 1,
+    "pos": "adj",
+    "family": "shape"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "tom",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "vild",
+    "b": "tam",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "hurtig",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "rå",
+    "b": "kogt",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "skrubsulten"
+    },
+    "far": "lukket",
+    "pic": null,
+    "id": "hungry-full",
+    "a": "sulten",
+    "b": "mæt",
+    "tier": 1,
+    "pos": "adj",
+    "family": "hunger"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "træt",
+      "sovende"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "lysvågen"
+    },
+    "far": "kort",
+    "pic": null,
+    "id": "awake-sleepy",
+    "a": "vågen",
+    "b": "søvnig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wakefulness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "good-bad"
+    ],
+    "syn": {
+     "a": "frisk"
+    },
+    "far": "sort",
+    "pic": null,
+    "id": "healthy-sick",
+    "a": "rask",
+    "b": "syg",
+    "tier": 1,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "lang",
+    "pic": null,
+    "id": "cheap-expensive",
+    "a": "billig",
+    "b": "dyr",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "vid"
+    },
+    "far": "sød",
+    "pic": null,
+    "id": "wide-narrow",
+    "a": "bred",
+    "b": "smal",
+    "tier": 1,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "afslutning"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "start"
+    },
+    "far": "varm",
+    "pic": null,
+    "id": "beginning-end",
+    "a": "begyndelse",
+    "b": "slutning",
+    "tier": 2,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "sommer",
+    "pic": null,
+    "id": "question-answer",
+    "a": "spørgsmål",
+    "b": "svar",
+    "tier": 2,
+    "pos": "noun",
+    "family": "conversation"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": null,
+    "far": "ren",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "morgen",
+    "b": "aften",
+    "tier": 1,
+    "pos": "noun",
+    "family": "time"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": {
+     "a": "kulsort"
+    },
+    "far": "sulten",
+    "pic": null,
+    "id": "black-white",
+    "a": "sort",
+    "b": "hvid",
+    "tier": 1,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "gammel",
+    "pic": null,
+    "id": "right-left",
+    "a": "højre",
+    "b": "venstre",
+    "tier": 2,
+    "pos": "adj",
+    "family": "direction"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "svag",
+    "pic": null,
+    "id": "first-last",
+    "a": "første",
+    "b": "sidste",
+    "tier": 1,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "anderledes"
+    },
+    "far": "kold",
+    "pic": null,
+    "id": "different-same",
+    "a": "forskellig",
+    "b": "ens",
+    "tier": 2,
+    "pos": "adj",
+    "family": "likeness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "pæn"
+    },
+    "far": "høj",
+    "pic": null,
+    "id": "tidy-messy",
+    "a": "ryddelig",
+    "b": "rodet",
+    "tier": 2,
+    "pos": "adj",
+    "family": "tidiness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "heavy-light"
+    ],
+    "syn": {
+     "a": "enkel"
+    },
+    "far": "mørk",
+    "pic": null,
+    "id": "easy-difficult",
+    "a": "nem",
+    "b": "svær",
+    "tier": 2,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "aften",
+    "pic": null,
+    "id": "top-bottom",
+    "a": "top",
+    "b": "bund",
+    "tier": 1,
+    "pos": "noun",
+    "family": "position"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "dag",
+    "pic": null,
+    "id": "child-adult",
+    "a": "barn",
+    "b": "voksen",
+    "tier": 1,
+    "pos": "noun",
+    "family": "person"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "barn",
+    "pic": null,
+    "id": "north-south",
+    "a": "nord",
+    "b": "syd",
+    "tier": 1,
+    "pos": "noun",
+    "family": "compass"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "flot"
+    },
+    "far": "tung",
+    "pic": null,
+    "id": "pretty-ugly",
+    "a": "smuk",
+    "b": "grim",
+    "tier": 1,
+    "pos": "adj",
+    "family": "looks"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "arbejdsom"
+    },
+    "far": "ny",
+    "pic": null,
+    "id": "busy-lazy",
+    "a": "flittig",
+    "b": "doven",
+    "tier": 2,
+    "pos": "adj",
+    "family": "effort"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "lys",
+    "pic": null,
+    "id": "tight-loose",
+    "a": "stram",
+    "b": "løs",
+    "tier": 1,
+    "pos": "adj",
+    "family": "fit"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "Der ligger sne. Det er ikke sommer. Det er ___.",
+    "answer": "vinter"
+   },
+   {
+    "pair": "black-white",
+    "text": "Sneen er ikke sort. Den er ___.",
+    "answer": "hvid"
+   },
+   {
+    "pair": "hungry-full",
+    "text": "Jeg har spist. Jeg er ikke sulten. Jeg er ___.",
+    "answer": "mæt"
+   },
+   {
+    "pair": "sharp-blunt",
+    "text": "Kniven er ikke sløv. Den er ___.",
+    "answer": "skarp"
+   },
+   {
+    "pair": "wet-dry",
+    "text": "Solen skinner. Vejen er ikke våd. Den er ___.",
+    "answer": "tør"
+   },
+   {
+    "pair": "open-closed",
+    "text": "Døren er ikke lukket. Den er ___.",
+    "answer": "åben"
+   },
+   {
+    "pair": "full-empty",
+    "text": "Koppen er ikke fuld. Den er ___.",
+    "answer": "tom"
+   },
+   {
+    "pair": "clean-dirty",
+    "text": "{name} er ikke beskidt. {name} er ___.",
+    "answer": "ren"
+   },
+   {
+    "pair": "old-new",
+    "text": "Bamsen er ikke ny. Den er ___.",
+    "answer": "gammel"
+   },
+   {
+    "pair": "long-short",
+    "text": "Giraffens hals er ikke kort. Den er ___.",
+    "answer": "lang"
+   },
+   {
+    "pair": "tall-short",
+    "text": "Giraffen er ikke lav. Den er ___.",
+    "answer": "høj"
+   },
+   {
+    "pair": "loud-quiet",
+    "text": "Musen er ikke larmende. Den er ___.",
+    "answer": "stille"
+   },
+   {
+    "pair": "thick-thin",
+    "text": "Blyanten er ikke tyk. Den er ___.",
+    "answer": "tynd"
+   },
+   {
+    "pair": "strong-weak",
+    "text": "Løven er ikke svag. Den er ___.",
+    "answer": "stærk"
+   },
+   {
+    "pair": "bright-dark",
+    "text": "Natten er ikke lys. Den er ___.",
+    "answer": "mørk"
+   },
+   {
+    "pair": "rough-smooth",
+    "text": "Isen er ikke ru. Den er ___.",
+    "answer": "glat"
+   },
+   {
+    "pair": "morning-evening",
+    "text": "Solen står op. Det er ikke aften. Det er ___.",
+    "answer": "morgen"
+   },
+   {
+    "pair": "easy-difficult",
+    "text": "Opgaven er ikke svær. Den er ___.",
+    "answer": "nem"
+   },
+   {
+    "pair": "cheap-expensive",
+    "text": "Bilen er ikke billig. Den er ___.",
+    "answer": "dyr"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "Katten er ikke vild. Den er ___.",
+    "answer": "tam"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Kartoflen er ikke rå. Den er ___.",
+    "answer": "kogt"
+   },
+   {
+    "pair": "healthy-sick",
+    "text": "{name} har feber. {name} er ikke rask. {name} er ___.",
+    "answer": "syg"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "Kaninen er ikke modig. Den er ___.",
+    "answer": "bange"
+   },
+   {
+    "pair": "pretty-ugly",
+    "text": "Trolden er ikke smuk. Den er ___.",
+    "answer": "grim"
+   },
+   {
+    "pair": "wide-narrow",
+    "text": "Stien er ikke bred. Den er ___.",
+    "answer": "smal"
+   },
+   {
+    "pair": "tidy-messy",
+    "text": "Min taske er ikke ryddelig. Den er ___.",
+    "answer": "rodet"
+   },
+   {
+    "pair": "rich-poor",
+    "text": "Kongen er ikke fattig. Han er ___.",
+    "answer": "rig"
+   },
+   {
+    "pair": "child-adult",
+    "text": "Far er ikke et barn. Han er en ___.",
+    "answer": "voksen"
+   },
+   {
+    "pair": "tight-loose",
+    "text": "Snoren er ikke løs. Den er ___.",
+    "answer": "stram"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "lykkelig",
+    "prefix": "u",
+    "expected": "ulykkelig"
+   },
+   {
+    "base": "mulig",
+    "prefix": "u",
+    "expected": "umulig"
+   },
+   {
+    "base": "tålmodig",
+    "prefix": "u",
+    "expected": "utålmodig"
+   },
+   {
+    "base": "artig",
+    "prefix": "u",
+    "expected": "uartig"
+   },
+   {
+    "base": "ordentlig",
+    "prefix": "u",
+    "expected": "uordentlig"
+   },
+   {
+    "base": "lydig",
+    "prefix": "u",
+    "expected": "ulydig"
+   },
+   {
+    "base": "retfærdig",
+    "prefix": "u",
+    "expected": "uretfærdig"
+   },
+   {
+    "base": "forsigtig",
+    "prefix": "u",
+    "expected": "uforsigtig"
+   },
+   {
+    "base": "vigtig",
+    "prefix": "u",
+    "expected": "uvigtig"
+   },
+   {
+    "base": "tilfreds",
+    "prefix": "u",
+    "expected": "utilfreds"
+   },
+   {
+    "base": "hyggelig",
+    "prefix": "u",
+    "expected": "uhyggelig"
+   },
+   {
+    "base": "nyttig",
+    "prefix": "u",
+    "expected": "unyttig"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "no": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "våt",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "sommer",
+    "b": "vinter",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "myk",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "rik",
+    "b": "fattig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "forsinket"
+    },
+    "far": "tung",
+    "pic": null,
+    "id": "late-early",
+    "a": "sen",
+    "b": "tidlig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "timing"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "kind-mean"
+    ],
+    "syn": {
+     "a": "bra"
+    },
+    "far": "kald",
+    "pic": null,
+    "id": "good-bad",
+    "a": "god",
+    "b": "dårlig",
+    "tier": 1,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "good-bad"
+    ],
+    "syn": {
+     "a": "grei"
+    },
+    "far": "tørr",
+    "pic": null,
+    "id": "kind-mean",
+    "a": "snill",
+    "b": "slem",
+    "tier": 1,
+    "pos": "adj",
+    "family": "kindness"
+   },
+   {
+    "alt": {
+     "a": [
+      "tapper"
+     ],
+     "b": [
+      "feig"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "tøff"
+    },
+    "far": "lang",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "modig",
+    "b": "redd",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "spiss"
+    },
+    "far": "glad",
+    "pic": null,
+    "id": "sharp-blunt",
+    "a": "skarp",
+    "b": "sløv",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "søt",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "vill",
+    "b": "tam",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "stekt"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "ukokt"
+    },
+    "far": "stille",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "rå",
+    "b": "kokt",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cooking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "thick-thin"
+    ],
+    "syn": {
+     "a": "vid"
+    },
+    "far": "ny",
+    "pic": null,
+    "id": "wide-narrow",
+    "a": "bred",
+    "b": "smal",
+    "tier": 1,
+    "pos": "adj",
+    "family": "width"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "ren",
+    "pic": null,
+    "id": "deep-shallow",
+    "a": "dyp",
+    "b": "grunn",
+    "tier": 1,
+    "pos": "adj",
+    "family": "depth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "start-end"
+    ],
+    "syn": null,
+    "far": "åpen",
+    "pic": null,
+    "id": "first-last",
+    "a": "første",
+    "b": "siste",
+    "tier": 1,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "gal"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "rett"
+    },
+    "far": "tykk",
+    "pic": null,
+    "id": "right-wrong",
+    "a": "riktig",
+    "b": "feil",
+    "tier": 1,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "full-empty"
+    ],
+    "syn": {
+     "a": "skrubbsulten"
+    },
+    "far": "sterk",
+    "pic": null,
+    "id": "hungry-fed",
+    "a": "sulten",
+    "b": "mett",
+    "tier": 1,
+    "pos": "adj",
+    "family": "hunger"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "sprek"
+    },
+    "far": "lys",
+    "pic": null,
+    "id": "healthy-sick",
+    "a": "frisk",
+    "b": "syk",
+    "tier": 1,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [
+      "vakker"
+     ],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "fin"
+    },
+    "far": "ru",
+    "pic": null,
+    "id": "pretty-ugly",
+    "a": "pen",
+    "b": "stygg",
+    "tier": 1,
+    "pos": "adj",
+    "family": "looks"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": null,
+    "far": "hard",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "morgen",
+    "b": "kveld",
+    "tier": 1,
+    "pos": "noun",
+    "family": "daytime"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "gammel",
+    "pic": null,
+    "id": "top-bottom",
+    "a": "topp",
+    "b": "bunn",
+    "tier": 1,
+    "pos": "noun",
+    "family": "position"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "høy",
+    "pic": null,
+    "id": "front-back",
+    "a": "forside",
+    "b": "bakside",
+    "tier": 2,
+    "pos": "noun",
+    "family": "side"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "vinter",
+    "pic": null,
+    "id": "inside-outside",
+    "a": "innside",
+    "b": "utside",
+    "tier": 2,
+    "pos": "noun",
+    "family": "inout"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": null,
+    "pic": null,
+    "id": "entrance-exit",
+    "a": "inngang",
+    "b": "utgang",
+    "tier": 2,
+    "pos": "noun",
+    "family": "way"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "liten",
+    "pic": null,
+    "id": "question-answer",
+    "a": "spørsmål",
+    "b": "svar",
+    "tier": 2,
+    "pos": "noun",
+    "family": "asking"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "first-last"
+    ],
+    "syn": {
+     "a": "begynnelse"
+    },
+    "far": "varm",
+    "pic": null,
+    "id": "start-end",
+    "a": "start",
+    "b": "slutt",
+    "tier": 1,
+    "pos": "noun",
+    "family": "course"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "lett",
+      "grei"
+     ]
+    },
+    "exclusiveWith": [
+     "heavy-light"
+    ],
+    "syn": {
+     "a": "vrien"
+    },
+    "far": "trist",
+    "pic": null,
+    "id": "difficult-easy",
+    "a": "vanskelig",
+    "b": "enkel",
+    "tier": 2,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "ødelagt"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "uskadd"
+    },
+    "far": "rask",
+    "pic": null,
+    "id": "whole-broken",
+    "a": "hel",
+    "b": "knust",
+    "tier": 1,
+    "pos": "adj",
+    "family": "intactness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark"
+    ],
+    "syn": {
+     "a": "sort"
+    },
+    "far": "sur",
+    "pic": null,
+    "id": "black-white",
+    "a": "svart",
+    "b": "hvit",
+    "tier": 1,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "artig"
+    },
+    "far": "full",
+    "pic": null,
+    "id": "fun-boring",
+    "a": "morsom",
+    "b": "kjedelig",
+    "tier": 2,
+    "pos": "adj",
+    "family": "fun"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "skummel"
+    },
+    "far": "lukket",
+    "pic": null,
+    "id": "dangerous-safe",
+    "a": "farlig",
+    "b": "trygg",
+    "tier": 1,
+    "pos": "adj",
+    "family": "safety"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "skitten",
+    "pic": null,
+    "id": "left-right",
+    "a": "venstre",
+    "b": "høyre",
+    "tier": 2,
+    "pos": "adj",
+    "family": "side-lr"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "Det snør ute. Det er ikke sommer. Det er ___.",
+    "answer": "vinter"
+   },
+   {
+    "pair": "full-empty",
+    "text": "Koppen er ikke full. Den er ___.",
+    "answer": "tom"
+   },
+   {
+    "pair": "good-bad",
+    "text": "Suppa er ikke dårlig. Den er ___.",
+    "answer": "god"
+   },
+   {
+    "pair": "kind-mean",
+    "text": "Hunden er ikke slem. Den er ___.",
+    "answer": "snill"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "{name} er ikke redd for mørket. {name} er ___.",
+    "answer": "modig"
+   },
+   {
+    "pair": "sharp-blunt",
+    "text": "Kniven er ikke sløv. Den er ___.",
+    "answer": "skarp"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "Katten vår er ikke vill. Den er ___.",
+    "answer": "tam"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Poteten er ikke rå. Den er ___.",
+    "answer": "kokt"
+   },
+   {
+    "pair": "wide-narrow",
+    "text": "Veien er ikke smal. Den er ___.",
+    "answer": "bred"
+   },
+   {
+    "pair": "deep-shallow",
+    "text": "Sjøen er ikke grunn. Den er ___.",
+    "answer": "dyp"
+   },
+   {
+    "pair": "right-wrong",
+    "text": "Svaret ditt er ikke feil. Det er ___.",
+    "answer": "riktig"
+   },
+   {
+    "pair": "hungry-fed",
+    "text": "Jeg har spist. Jeg er ikke sulten. Jeg er ___.",
+    "answer": "mett"
+   },
+   {
+    "pair": "healthy-sick",
+    "text": "{name} er ikke syk lenger. {name} er ___.",
+    "answer": "frisk"
+   },
+   {
+    "pair": "pretty-ugly",
+    "text": "Blomsten er ikke stygg. Den er ___.",
+    "answer": "pen"
+   },
+   {
+    "pair": "morning-evening",
+    "text": "Sola går ned. Det er ikke morgen. Det er ___.",
+    "answer": "kveld"
+   },
+   {
+    "pair": "black-white",
+    "text": "Melka er ikke svart. Den er ___.",
+    "answer": "hvit"
+   },
+   {
+    "pair": "fun-boring",
+    "text": "Leken er ikke kjedelig. Den er ___.",
+    "answer": "morsom"
+   },
+   {
+    "pair": "dangerous-safe",
+    "text": "Isen er ikke trygg. Den er ___.",
+    "answer": "farlig"
+   },
+   {
+    "pair": "difficult-easy",
+    "text": "Oppgaven er ikke vanskelig. Den er ___.",
+    "answer": "enkel"
+   },
+   {
+    "pair": "whole-broken",
+    "text": "Vasen er ikke knust. Den er ___.",
+    "answer": "hel"
+   },
+   {
+    "pair": "rich-poor",
+    "text": "Kongen er ikke fattig. Han er ___.",
+    "answer": "rik"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "mulig",
+    "prefix": "u",
+    "expected": "umulig"
+   },
+   {
+    "base": "enig",
+    "prefix": "u",
+    "expected": "uenig"
+   },
+   {
+    "base": "lydig",
+    "prefix": "u",
+    "expected": "ulydig"
+   },
+   {
+    "base": "vanlig",
+    "prefix": "u",
+    "expected": "uvanlig"
+   },
+   {
+    "base": "sann",
+    "prefix": "u",
+    "expected": "usann"
+   },
+   {
+    "base": "rettferdig",
+    "prefix": "u",
+    "expected": "urettferdig"
+   },
+   {
+    "base": "forsiktig",
+    "prefix": "u",
+    "expected": "uforsiktig"
+   },
+   {
+    "base": "tålmodig",
+    "prefix": "u",
+    "expected": "utålmodig"
+   },
+   {
+    "base": "moden",
+    "prefix": "u",
+    "expected": "umoden"
+   },
+   {
+    "base": "ferdig",
+    "prefix": "u",
+    "expected": "uferdig"
+   },
+   {
+    "base": "klar",
+    "prefix": "u",
+    "expected": "uklar"
+   },
+   {
+    "base": "ventet",
+    "prefix": "u",
+    "expected": "uventet"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ },
+ "fi": {
+  "pairs": [
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "märkä",
+    "pic": {
+     "kind": "two",
+     "a": {
+      "theme": "summer",
+      "noun": "beach"
+     },
+     "b": {
+      "theme": "winter",
+      "noun": "snowman"
+     }
+    },
+    "id": "summer-winter",
+    "a": "kesä",
+    "b": "talvi",
+    "tier": 1,
+    "pos": "noun",
+    "family": "season",
+    "picOpened": true
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "varakas"
+    },
+    "far": "kuiva",
+    "pic": null,
+    "id": "rich-poor",
+    "a": "rikas",
+    "b": "köyhä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "wealth"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "varhainen"
+    },
+    "far": "pehmeä",
+    "pic": null,
+    "id": "early-late",
+    "a": "aikainen",
+    "b": "myöhäinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "punctuality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "paha"
+     ]
+    },
+    "exclusiveWith": [
+     "kind-naughty"
+    ],
+    "syn": {
+     "a": "hieno"
+    },
+    "far": "kylmä",
+    "pic": null,
+    "id": "good-bad",
+    "a": "hyvä",
+    "b": "huono",
+    "tier": 1,
+    "pos": "adj",
+    "family": "quality"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "virheetön"
+    },
+    "far": "kova",
+    "pic": null,
+    "id": "right-wrong",
+    "a": "oikea",
+    "b": "väärä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "correctness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "pelokas"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "urhea"
+    },
+    "far": "kuuma",
+    "pic": null,
+    "id": "brave-scared",
+    "a": "rohkea",
+    "b": "arka",
+    "tier": 1,
+    "pos": "adj",
+    "family": "courage"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "iloinen",
+    "pic": null,
+    "id": "sharp-blunt",
+    "a": "terävä",
+    "b": "tylsä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "sharpness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "käyrä",
+      "vino"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "suoraviivainen"
+    },
+    "far": "hapan",
+    "pic": null,
+    "id": "straight-crooked",
+    "a": "suora",
+    "b": "mutkainen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "straightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kesytön"
+    },
+    "far": "puhdas",
+    "pic": null,
+    "id": "wild-tame",
+    "a": "villi",
+    "b": "kesy",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tameness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "hiljainen",
+    "pic": null,
+    "id": "raw-cooked",
+    "a": "raaka",
+    "b": "kypsä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "doneness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "full-empty"
+    ],
+    "syn": null,
+    "far": "leveä",
+    "pic": null,
+    "id": "hungry-full",
+    "a": "nälkäinen",
+    "b": "kylläinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "hunger"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "hankala"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "vaivaton"
+    },
+    "far": "sileä",
+    "pic": null,
+    "id": "easy-hard",
+    "a": "helppo",
+    "b": "vaikea",
+    "tier": 1,
+    "pos": "adj",
+    "family": "difficulty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "edullinen"
+    },
+    "far": "ohut",
+    "pic": null,
+    "id": "cheap-expensive",
+    "a": "halpa",
+    "b": "kallis",
+    "tier": 1,
+    "pos": "adj",
+    "family": "price"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "nätti"
+    },
+    "far": "nopea",
+    "pic": null,
+    "id": "beautiful-ugly",
+    "a": "kaunis",
+    "b": "ruma",
+    "tier": 1,
+    "pos": "adj",
+    "family": "beauty"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "good-bad"
+    ],
+    "syn": {
+     "a": "herttainen"
+    },
+    "far": "paksu",
+    "pic": null,
+    "id": "kind-naughty",
+    "a": "kiltti",
+    "b": "tuhma",
+    "tier": 1,
+    "pos": "adj",
+    "family": "behaviour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "kipeä"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "uusi",
+    "pic": null,
+    "id": "healthy-sick",
+    "a": "terve",
+    "b": "sairas",
+    "tier": 1,
+    "pos": "adj",
+    "family": "health"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "makea",
+    "pic": null,
+    "id": "first-last",
+    "a": "ensimmäinen",
+    "b": "viimeinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "order"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "aloitus"
+    },
+    "far": "vahva",
+    "pic": null,
+    "id": "start-end",
+    "a": "alku",
+    "b": "loppu",
+    "tier": 1,
+    "pos": "noun",
+    "family": "sequence"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "päivä",
+    "pic": null,
+    "id": "question-answer",
+    "a": "kysymys",
+    "b": "vastaus",
+    "tier": 2,
+    "pos": "noun",
+    "family": "dialogue"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "day-night"
+    ],
+    "syn": null,
+    "far": "painava",
+    "pic": null,
+    "id": "morning-evening",
+    "a": "aamu",
+    "b": "ilta",
+    "tier": 1,
+    "pos": "noun",
+    "family": "time"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "uuttera"
+    },
+    "far": "valoisa",
+    "pic": null,
+    "id": "busy-lazy",
+    "a": "ahkera",
+    "b": "laiska",
+    "tier": 1,
+    "pos": "adj",
+    "family": "effort"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "bright-dark",
+     "black-white"
+    ],
+    "syn": null,
+    "far": "kiinni",
+    "pic": null,
+    "id": "light-dark-colour",
+    "a": "vaalea",
+    "b": "tumma",
+    "tier": 1,
+    "pos": "adj",
+    "family": "shade"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [
+     "light-dark-colour"
+    ],
+    "syn": {
+     "a": "sysimusta"
+    },
+    "far": "auki",
+    "pic": null,
+    "id": "black-white",
+    "a": "musta",
+    "b": "valkoinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "colour"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kireä"
+    },
+    "far": "karhea",
+    "pic": null,
+    "id": "tight-loose",
+    "a": "tiukka",
+    "b": "löysä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "tightness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": [
+      "rikki"
+     ]
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "kokonainen"
+    },
+    "far": "likainen",
+    "pic": null,
+    "id": "whole-broken",
+    "a": "ehjä",
+    "b": "rikkinäinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "intactness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "fiksu"
+    },
+    "far": "kapea",
+    "pic": null,
+    "id": "wise-foolish",
+    "a": "viisas",
+    "b": "tyhmä",
+    "tier": 1,
+    "pos": "adj",
+    "family": "cleverness"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": {
+     "a": "vaaraton"
+    },
+    "far": "heikko",
+    "pic": null,
+    "id": "safe-dangerous",
+    "a": "turvallinen",
+    "b": "vaarallinen",
+    "tier": 2,
+    "pos": "adj",
+    "family": "safety"
+   },
+   {
+    "alt": {
+     "a": [],
+     "b": []
+    },
+    "exclusiveWith": [],
+    "syn": null,
+    "far": "lyhyt",
+    "pic": null,
+    "id": "free-occupied",
+    "a": "vapaa",
+    "b": "varattu",
+    "tier": 2,
+    "pos": "adj",
+    "family": "availability"
+   }
+  ],
+  "picAdd": {
+   "full-empty": {
+    "kind": "two",
+    "a": {
+     "theme": "breakfast",
+     "noun": "juice"
+    },
+    "b": {
+     "theme": "kitchen tools",
+     "noun": "glass"
+    }
+   }
+  },
+  "frames": [
+   {
+    "pair": "summer-winter",
+    "text": "Lunta sataa. Nyt ei ole kesä. On ___.",
+    "answer": "talvi"
+   },
+   {
+    "pair": "morning-evening",
+    "text": "Aurinko laskee. Nyt ei ole aamu. On ___.",
+    "answer": "ilta"
+   },
+   {
+    "pair": "easy-hard",
+    "text": "Tehtävä ei ole helppo. Se on ___.",
+    "answer": "vaikea"
+   },
+   {
+    "pair": "sharp-blunt",
+    "text": "Veitsi ei ole tylsä. Se on ___.",
+    "answer": "terävä"
+   },
+   {
+    "pair": "raw-cooked",
+    "text": "Porkkana ei ole kypsä. Se on ___.",
+    "answer": "raaka"
+   },
+   {
+    "pair": "wild-tame",
+    "text": "Kissa ei ole villi. Se on ___.",
+    "answer": "kesy"
+   },
+   {
+    "pair": "healthy-sick",
+    "text": "{name} ei ole sairas. {name} on ___.",
+    "answer": "terve"
+   },
+   {
+    "pair": "hungry-full",
+    "text": "Koira ei ole nälkäinen. Se on ___.",
+    "answer": "kylläinen"
+   },
+   {
+    "pair": "cheap-expensive",
+    "text": "Auto ei ole halpa. Se on ___.",
+    "answer": "kallis"
+   },
+   {
+    "pair": "beautiful-ugly",
+    "text": "Kukka ei ole ruma. Se on ___.",
+    "answer": "kaunis"
+   },
+   {
+    "pair": "rich-poor",
+    "text": "Kuningas ei ole köyhä. Hän on ___.",
+    "answer": "rikas"
+   },
+   {
+    "pair": "brave-scared",
+    "text": "Leijona ei ole arka. Se on ___.",
+    "answer": "rohkea"
+   },
+   {
+    "pair": "busy-lazy",
+    "text": "Muurahainen ei ole laiska. Se on ___.",
+    "answer": "ahkera"
+   },
+   {
+    "pair": "light-dark-colour",
+    "text": "Kahvi ei ole vaalea. Se on ___.",
+    "answer": "tumma"
+   },
+   {
+    "pair": "black-white",
+    "text": "Lumi ei ole musta. Se on ___.",
+    "answer": "valkoinen"
+   },
+   {
+    "pair": "tight-loose",
+    "text": "Kenkä ei ole löysä. Se on ___.",
+    "answer": "tiukka"
+   },
+   {
+    "pair": "whole-broken",
+    "text": "Lasi ei ole ehjä. Se on ___.",
+    "answer": "rikkinäinen"
+   },
+   {
+    "pair": "wise-foolish",
+    "text": "Pöllö ei ole tyhmä. Se on ___.",
+    "answer": "viisas"
+   },
+   {
+    "pair": "straight-crooked",
+    "text": "Viivain ei ole mutkainen. Se on ___.",
+    "answer": "suora"
+   },
+   {
+    "pair": "good-bad",
+    "text": "Keitto ei ole huono. Se on ___.",
+    "answer": "hyvä"
+   },
+   {
+    "pair": "free-occupied",
+    "text": "Vessa ei ole varattu. Se on ___.",
+    "answer": "vapaa"
+   },
+   {
+    "pair": "kind-naughty",
+    "text": "Koira ei ole tuhma. Se on ___.",
+    "answer": "kiltti"
+   }
+  ],
+  "prefixItems": [
+   {
+    "base": "sopiva",
+    "prefix": "epä",
+    "expected": "epäsopiva"
+   },
+   {
+    "base": "tasainen",
+    "prefix": "epä",
+    "expected": "epätasainen"
+   },
+   {
+    "base": "tarkka",
+    "prefix": "epä",
+    "expected": "epätarkka"
+   },
+   {
+    "base": "miellyttävä",
+    "prefix": "epä",
+    "expected": "epämiellyttävä"
+   },
+   {
+    "base": "terveellinen",
+    "prefix": "epä",
+    "expected": "epäterveellinen"
+   },
+   {
+    "base": "onnistunut",
+    "prefix": "epä",
+    "expected": "epäonnistunut"
+   },
+   {
+    "base": "järjestys",
+    "prefix": "epä",
+    "expected": "epäjärjestys"
+   },
+   {
+    "base": "kiitollinen",
+    "prefix": "epä",
+    "expected": "epäkiitollinen"
+   },
+   {
+    "base": "säännöllinen",
+    "prefix": "epä",
+    "expected": "epäsäännöllinen"
+   },
+   {
+    "base": "luotettava",
+    "prefix": "epä",
+    "expected": "epäluotettava"
+   },
+   {
+    "base": "täydellinen",
+    "prefix": "epä",
+    "expected": "epätäydellinen"
+   },
+   {
+    "base": "suosittu",
+    "prefix": "epä",
+    "expected": "epäsuosittu"
+   }
+  ],
+  "opened": {
+   "breakfast/juice": [
+    "full-empty:a"
+   ],
+   "kitchen tools/glass": [
+    "full-empty:b"
+   ],
+   "summer/beach": [
+    "summer-winter:a"
+   ],
+   "winter/snowman": [
+    "summer-winter:b"
+   ]
+  }
+ }
+}

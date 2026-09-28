@@ -314,5 +314,119 @@
    "no": "Spor hver bokstav, og prøv å skrive den to ganger selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
    "fi": "Kirjoita kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita sitten kirjain itse kaksi kertaa viivan loppuun."
   }
+ },
+ "G1-307": {
+  "3": {
+   "en": "Read the word on each card. Think of its opposite and write it on the line.",
+   "de": "Lies das Wort auf jeder Karte. Schreibe sein Gegenteil auf die Linie. Diesmal gibt es keine Wortliste.",
+   "es": "Lee la palabra de cada tarjeta. Piensa en su antónimo y escríbelo en la línea. Esta vez no hay banco de palabras.",
+   "fr": "Lis le mot de chaque carte. Écris son contraire sur la ligne. Il n'y a pas de banque de mots : cherche-le dans ta tête.",
+   "it": "Leggi la parola su ogni cartellino. Pensa al suo contrario e scrivilo sulla riga. Questa volta non c'è la scatola delle parole.",
+   "pt": "Leia a palavra de cada cartão. Pense no antônimo dela e escreva na linha. Desta vez não há banco de palavras.",
+   "nl": "Lees het woord op elke kaart. Schrijf het tegenovergestelde op de lijn. Er is geen woordenbank: je weet het zelf!",
+   "sv": "Läs ordet på varje kort. Skriv motsatsordet på raden. Den här gången finns ingen ordbank.",
+   "da": "Læs ordet på hvert kort. Skriv det modsatte ord på linjen. Denne gang er der ingen ordbank.",
+   "no": "Les ordet på hvert kort. Skriv det motsatte ordet på linja. Her er det ingen ordbank – du må huske det selv!",
+   "fi": "Lue kortin sana. Kirjoita sen vastakohta viivalle. Tällä kertaa sanapankkia ei ole."
+  }
+ },
+ "G1-335": {
+  "1": {
+   "en": "Read each sentence. Circle the word at the end that is the opposite of the word after \"not\".",
+   "de": "Lies jeden Satz. Am Ende stehen zwei Wörter. Kreise das Wort ein, das das Gegenteil des Wortes nach „nicht“ ist.",
+   "es": "Lee cada oración. Al final hay dos palabras: rodea la que es el antónimo de la palabra que va después de \"no\".",
+   "fr": "Lis chaque phrase. À la fin, entoure le mot qui veut dire le contraire du mot qui vient après « pas ».",
+   "it": "Leggi ogni frase. Alla fine ci sono due parole: cerchia quella che vuol dire il contrario della parola che viene dopo \"non\".",
+   "pt": "Leia cada frase. No fim dela há duas palavras. Circule a que quer dizer o contrário da palavra que vem depois de \"não\".",
+   "nl": "Lees elke zin. Omcirkel aan het eind het woord dat het tegenovergestelde is van het woord na \"niet\" of \"geen\".",
+   "sv": "Läs varje mening. Två ord står i slutet. Ringa in motsatsen till ordet efter \"inte\".",
+   "da": "Læs hver sætning. Sæt ring om det af de to ord, der er det modsatte af ordet efter \"ikke\".",
+   "no": "Les hver setning. Sett ring rundt det av de to ordene som er det motsatte av ordet etter «ikke».",
+   "fi": "Lue lause. Lauseen lopussa on kaksi sanaa. Ympyröi se, joka on sanan \"ei\" jälkeen tulevan sanan vastakohta."
+  },
+  "3": {
+   "en": "Read each sentence. Write the opposite of the word after \"not\" on the line.",
+   "de": "Lies jeden Satz. Schreibe das Gegenteil des Wortes nach „nicht“ auf die Linie. Diesmal gibt es keine Wortliste.",
+   "es": "Lee cada oración. Escribe en la línea el antónimo de la palabra que va después de \"no\". Esta vez no hay banco de palabras.",
+   "fr": "Lis chaque phrase. Écris sur la ligne le contraire du mot qui vient après « pas ». Il n'y a pas de banque de mots.",
+   "it": "Leggi ogni frase. Sulla riga scrivi il contrario della parola che viene dopo \"non\". Questa volta non c'è la scatola delle parole.",
+   "pt": "Leia cada frase. Escreva na linha o antônimo da palavra que vem depois de \"não\". Desta vez não há banco de palavras.",
+   "nl": "Lees elke zin. Schrijf het tegenovergestelde van het woord na \"niet\" of \"geen\" op de lijn. Er is geen woordenbank.",
+   "sv": "Läs varje mening. Skriv motsatsen till ordet efter \"inte\" på raden. Den här gången finns ingen ordbank.",
+   "da": "Læs hver sætning. Skriv det modsatte af ordet efter \"ikke\" på linjen. Denne gang er der ingen ordbank.",
+   "no": "Les hver setning. Skriv det motsatte av ordet etter «ikke» på linja. Her er det ingen ordbank.",
+   "fi": "Lue lause. Kirjoita viivalle sen sanan vastakohta, joka tulee sanan \"ei\" jälkeen. Tällä kertaa sanapankkia ei ole."
+  }
+ },
+ "G1-336": {
+  "3": {
+   "en": "Find the words that are opposites and write each pair on a line. Two words have no partner. Cross them out.",
+   "de": "Suche die Gegensatzpaare und schreibe jedes Paar auf eine Linie. Zwei Wörter haben kein Gegenteil: Streiche sie durch.",
+   "es": "Encuentra las parejas de palabras contrarias y escribe cada pareja en una línea. Dos palabras no tienen pareja: táchalas.",
+   "fr": "Trouve les paires de contraires et écris chaque paire sur une ligne. Deux mots n'ont pas de contraire : barre-les.",
+   "it": "Trova le coppie di contrari e scrivile sulle righe, una parola da ogni lato della freccia. Due parole non hanno la coppia: cancellale.",
+   "pt": "Encontre os pares de palavras contrárias e escreva cada par em uma linha. Duas palavras não têm par: risque essas duas.",
+   "nl": "Zoek de woorden die tegenstellingen zijn en schrijf elk paar op een lijn. Twee woorden horen nergens bij: streep ze door.",
+   "sv": "Hitta orden som är motsatser och skriv varje par på en rad. Två ord har inget par. Stryk över dem.",
+   "da": "Find modsætningsparrene, og skriv hvert par på en linje. To af ordene har ingen makker. Streg dem ud.",
+   "no": "Finn ordparene som er motsetninger, og skriv hvert par på en linje. To ord har ingen partner: stryk dem ut.",
+   "fi": "Etsi vastakohtaparit ja kirjoita jokainen pari viivalle. Kahdella sanalla ei ole paria: vedä niiden yli viiva."
+  }
+ },
+ "G1-337": {
+  "1": {
+   "en": "Read the word. One of the two words under it means the opposite. Circle it.",
+   "de": "Lies das Wort. Eines der zwei Wörter darunter bedeutet das Gegenteil. Kreise es ein.",
+   "es": "Lee la palabra. De las dos palabras de abajo, una significa lo contrario. Rodéala.",
+   "fr": "Lis le mot. Un des deux mots en dessous veut dire le contraire. Entoure-le.",
+   "it": "Leggi la parola. Sotto ci sono due parole: una vuol dire il contrario. Cerchia il contrario.",
+   "pt": "Leia a palavra. Das duas palavras de baixo, uma quer dizer o contrário. Circule essa.",
+   "nl": "Lees het woord. Eén van de twee woorden eronder betekent het tegenovergestelde. Omcirkel dat woord.",
+   "sv": "Läs ordet. Ett av de två orden under betyder motsatsen. Ringa in det.",
+   "da": "Læs ordet. Ét af de to ord under det betyder det modsatte. Sæt ring om det.",
+   "no": "Les ordet. Ett av de to ordene under betyr det motsatte. Sett ring rundt det.",
+   "fi": "Lue sana. Yksi kahdesta sanasta sen alla tarkoittaa vastakohtaa. Ympyröi se."
+  },
+  "3": {
+   "en": "Read the word. One of the four words under it means the opposite. Circle it, not the one that means the same.",
+   "de": "Lies das Wort. Eines der vier Wörter darunter bedeutet das Gegenteil. Kreise es ein, nicht das Wort mit der gleichen Bedeutung.",
+   "es": "Lee la palabra. De las cuatro palabras de abajo, solo una significa lo contrario. Rodéala, no la que significa lo mismo.",
+   "fr": "Lis le mot. Un seul des quatre mots en dessous veut dire le contraire. Entoure-le, pas celui qui veut dire la même chose.",
+   "it": "Leggi la parola. Fra le quattro parole sotto, una vuol dire il contrario. Cerchia quella, non quella che vuol dire la stessa cosa.",
+   "pt": "Leia a palavra. Das quatro palavras de baixo, só uma quer dizer o contrário. Circule essa, não a que quer dizer a mesma coisa.",
+   "nl": "Lees het woord. Eén van de vier woorden eronder betekent het tegenovergestelde. Omcirkel dat woord, niet het woord dat hetzelfde betekent.",
+   "sv": "Läs ordet. Ett av de fyra orden under betyder motsatsen. Ringa in det, inte det som betyder samma sak.",
+   "da": "Læs ordet. Ét af de fire ord under det betyder det modsatte. Sæt ring om det, ikke om det, der betyder det samme.",
+   "no": "Les ordet. Ett av de fire ordene under betyr det motsatte. Sett ring rundt det, ikke rundt ordet som betyr det samme.",
+   "fi": "Lue sana. Yksi neljästä sanasta sen alla tarkoittaa vastakohtaa. Ympyröi se, älä sanaa, joka tarkoittaa samaa."
+  }
+ },
+ "G2-320": {
+  "1": {
+   "en": "Add the prefix next to each word. Write the new opposite word on the line.",
+   "de": "Neben jedem Wort steht die Vorsilbe un-. Setze sie davor und schreibe das neue Gegenteil auf die Linie.",
+   "es": "Junto a cada palabra está su prefijo. Agrégalo y escribe en la línea la nueva palabra contraria.",
+   "fr": "Le préfixe est écrit à côté de chaque mot. Ajoute-le devant le mot et écris le nouveau mot, son contraire, sur la ligne.",
+   "it": "Accanto a ogni parola c'è il prefisso. Aggiungilo alla parola e scrivi sulla riga la nuova parola, che vuol dire il contrario.",
+   "pt": "O prefixo está ao lado de cada palavra. Junte o prefixo à palavra e escreva na linha a nova palavra contrária.",
+   "nl": "Bij elk woord staat on-. Zet het voor het woord en schrijf het nieuwe tegenovergestelde woord op de lijn.",
+   "sv": "Förstavelsen o- står bredvid varje ord. Sätt den framför ordet och skriv det nya motsatsordet på raden.",
+   "da": "Forstavelsen u- står ved hvert ord. Sæt den foran ordet, og skriv det nye, modsatte ord på linjen.",
+   "no": "Forstavelsen u- står ved hvert ord. Sett den foran ordet og skriv det nye, motsatte ordet på linja.",
+   "fi": "Sanan vieressä on etuliite epä-. Lisää se sanan eteen ja kirjoita uusi vastakohtasana viivalle."
+  },
+  "3": {
+   "en": "Make the opposite of each word by adding un-, dis-, or in-. Write the new word on the line.",
+   "de": "Bilde mit einer Vorsilbe das Gegenteil jedes Wortes und schreibe es auf die Linie.",
+   "es": "Forma el antónimo de cada palabra agregándole un prefijo. Escribe la nueva palabra en la línea.",
+   "fr": "Trouve le bon préfixe pour chaque mot. Écris le nouveau mot, son contraire, sur la ligne.",
+   "it": "Forma il contrario di ogni parola aggiungendo un prefisso. Scrivi la nuova parola sulla riga.",
+   "pt": "Forme o antônimo de cada palavra juntando um prefixo. Escreva a nova palavra na linha.",
+   "nl": "Maak van elk woord het tegenovergestelde: zet er een voorvoegsel voor. Schrijf het nieuwe woord op de lijn.",
+   "sv": "Gör motsatsen till varje ord med en förstavelse. Skriv det nya ordet på raden.",
+   "da": "Lav det modsatte af hvert ord med en forstavelse, og skriv det nye ord på linjen.",
+   "no": "Lag det motsatte av hvert ord ved å sette en forstavelse foran. Skriv det nye ordet på linja.",
+   "fi": "Tee jokaisesta sanasta vastakohta etuliitteen avulla ja kirjoita uusi sana viivalle."
+  }
  }
 }

@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'K-351',
   slug: 'opposites-with-pictures-match',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('match'),   // Level Set 2026-09-28: tap-choice screen + answer key
+  // Level Set 2026-09-28: L1 four pairs, bigger pictures · L3 eight pairs; L2 = the published page (the same object)
+  difficulty: { 1: { ...D, pairs: 4, picPx: 96, scalePx: 64, itemH: 150 }, 2: D, 3: { ...D, pairs: 8, maxScale: 0, picPx: 64, scalePx: 56, itemH: 80 } },
   i18n: { en: { title: "Opposites with Pictures: Match the Opposites", instruction: "Draw a line from each picture to the picture and word that show its opposite." } },
   gradeBand: "K",
 };

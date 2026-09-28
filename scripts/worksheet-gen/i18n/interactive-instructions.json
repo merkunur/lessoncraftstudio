@@ -1,324 +1,391 @@
 {
-  "_note": "On-screen instruction for the interactive version of worksheet-gen types (Level Set 2026-09-27). Native-authored per locale (tools/level-set-abc/panel-*.json). Key = exerciseType -> instructionKey -> locale.",
-  "alphabetical-order": {
-    "tap": {
-      "en": "Tap the words in ABC order. The first word you tap gets number 1.",
-      "de": "Tippe die Wörter nach dem Alphabet an. Das erste Wort, das du antippst, bekommt die 1.",
-      "es": "Toca las palabras en orden alfabético. La primera que toques lleva el número 1.",
-      "fr": "Touche les mots dans l'ordre alphabétique : le premier mot touché reçoit le numéro 1.",
-      "it": "Tocca le parole in ordine alfabetico: la prima parola che tocchi prende il numero 1.",
-      "pt": "Toque nas palavras em ordem alfabética. A primeira que você tocar ganha o número 1.",
-      "nl": "Tik de woorden aan op alfabetische volgorde. Het eerste woord dat je aantikt, krijgt 1.",
-      "sv": "Tryck på orden i alfabetisk ordning. Ordet du trycker på först får 1.",
-      "da": "Tryk på ordene i alfabetisk rækkefølge. Det ord, du trykker på først, får 1.",
-      "no": "Trykk på ordene i alfabetisk rekkefølge. Ordet du trykker på først, får 1.",
-      "fi": "Napauta sanoja aakkosjärjestyksessä. Ensimmäinen napauttamasi sana saa numeron 1."
-    },
-    "tapSame": {
-      "en": "Tap the words in ABC order. If two words start with the same letter, look at the second letter.",
-      "de": "Tippe die Wörter nach dem Alphabet an. Fangen zwei Wörter gleich an, entscheidet der zweite Buchstabe.",
-      "es": "Toca las palabras en orden alfabético. Si dos empiezan con la misma letra, mira la segunda letra.",
-      "fr": "Touche les mots dans l'ordre alphabétique. Si deux mots commencent par la même lettre, regarde la deuxième lettre.",
-      "it": "Tocca le parole in ordine alfabetico. Se due parole iniziano con la stessa lettera, guarda la seconda lettera.",
-      "pt": "Toque nas palavras em ordem alfabética. Se duas começam com a mesma letra, veja a segunda letra.",
-      "nl": "Tik de woorden aan op alfabetische volgorde. Beginnen twee woorden gelijk? Kijk naar de tweede letter.",
-      "sv": "Tryck på orden i alfabetisk ordning. Börjar två ord lika? Se på andra bokstaven.",
-      "da": "Tryk på ordene i alfabetisk rækkefølge. Begynder to ord ens, så se på det andet bogstav.",
-      "no": "Trykk på ordene i alfabetisk rekkefølge. Hvis to ord begynner likt, se på den andre bokstaven.",
-      "fi": "Napauta sanoja aakkosjärjestyksessä. Jos alkukirjain on sama, katso toista kirjainta."
-    }
+ "_note": "On-screen instruction for the interactive version of worksheet-gen types (Level Set 2026-09-27). Native-authored per locale (tools/level-set-abc/panel-*.json). Key = exerciseType -> instructionKey -> locale.",
+ "alphabetical-order": {
+  "tap": {
+   "en": "Tap the words in ABC order. The first word you tap gets number 1.",
+   "de": "Tippe die Wörter nach dem Alphabet an. Das erste Wort, das du antippst, bekommt die 1.",
+   "es": "Toca las palabras en orden alfabético. La primera que toques lleva el número 1.",
+   "fr": "Touche les mots dans l'ordre alphabétique : le premier mot touché reçoit le numéro 1.",
+   "it": "Tocca le parole in ordine alfabetico: la prima parola che tocchi prende il numero 1.",
+   "pt": "Toque nas palavras em ordem alfabética. A primeira que você tocar ganha o número 1.",
+   "nl": "Tik de woorden aan op alfabetische volgorde. Het eerste woord dat je aantikt, krijgt 1.",
+   "sv": "Tryck på orden i alfabetisk ordning. Ordet du trycker på först får 1.",
+   "da": "Tryk på ordene i alfabetisk rækkefølge. Det ord, du trykker på først, får 1.",
+   "no": "Trykk på ordene i alfabetisk rekkefølge. Ordet du trykker på først, får 1.",
+   "fi": "Napauta sanoja aakkosjärjestyksessä. Ensimmäinen napauttamasi sana saa numeron 1."
   },
-  "articles": {
-    "tapChoice": {
-      "en": "Say each picture word. Tap the little word that goes in front of it.",
-      "de": "Sprich jedes Bildwort laut. Tippe den Artikel an, der davor passt.",
-      "es": "Di el nombre del dibujo. Toca el artículo que va delante: el o la.",
-      "fr": "Dis le nom de l'image. Touche l'article qui se place devant ce nom.",
-      "it": "Di' il nome della figura. Tocca l'articolo giusto da mettere davanti.",
-      "pt": "Fale o nome da figura. Toque na palavrinha que vem antes dela: o ou a.",
-      "nl": "Zeg het woord bij elk plaatje. Tik op het woordje dat ervoor hoort: de of het.",
-      "sv": "Säg ordet till bilden. Tryck på det ord som passar framför: en eller ett.",
-      "da": "Sig ordet til billedet. Tryk på det ord, der passer foran: en eller et.",
-      "no": "Si ordet til bildet. Trykk på ordet som passer foran: en eller et.",
-      "fi": "Katso, onko kuvassa yksi vai monta. Napauta sanaa, joka sopii kuvaan."
-    },
-    "tapChoiceWord": {
-      "en": "Read each word. Tap the little word that goes in front of it.",
-      "de": "Lies jedes Wort genau. Tippe den Artikel an, der davor passt.",
-      "es": "Lee la palabra. Toca el artículo que va delante: el o la.",
-      "fr": "Lis le mot. Touche l'article qui se place devant ce mot.",
-      "it": "Leggi la parola. Tocca l'articolo giusto da mettere davanti.",
-      "pt": "Leia a palavra. Toque na palavrinha que vem antes dela: o ou a.",
-      "nl": "Lees elk woord. Tik op het woordje dat ervoor hoort: de of het.",
-      "sv": "Läs ordet. Tryck på det ord som passar framför: en eller ett.",
-      "da": "Læs ordet. Tryk på det ord, der passer foran: en eller et.",
-      "no": "Les ordet. Trykk på ordet som passer foran: en eller et.",
-      "fi": "Lue sana. Kertooko se yhdestä vai monesta? Napauta yksi tai monta."
-    }
-  },
-  "capitals-punctuation": {
-    "tapFix": {
-      "en": "Tap Aa, then each word that needs a capital letter. Then tap the right end mark and the last word.",
-      "de": "Tippe auf Aa und dann auf jedes Wort, das man großschreibt. Tippe dann auf das richtige Satzzeichen und auf das letzte Wort.",
-      "es": "Toca Aa y luego cada palabra que necesita mayúscula. Después toca el signo correcto y la última palabra de la frase.",
-      "fr": "Touche Aa, puis chaque mot qui prend une majuscule. Touche ensuite le bon signe, puis le dernier mot de la phrase.",
-      "it": "Tocca Aa, poi ogni parola che vuole la maiuscola. Infine tocca il segno giusto e l'ultima parola della frase.",
-      "pt": "Toque em Aa e em cada palavra que precisa de letra maiúscula. Depois toque no sinal certo e na última palavra da frase.",
-      "nl": "Tik op Aa en dan op elk woord dat een hoofdletter krijgt. Tik dan op het goede leesteken en op het laatste woord.",
-      "sv": "Tryck på Aa och sedan på varje ord som ska ha stor bokstav. Tryck sedan på rätt skiljetecken och på det sista ordet.",
-      "da": "Tryk på Aa og så på hvert ord, der skal have stort bogstav. Tryk så på det rigtige tegn og på det sidste ord.",
-      "no": "Trykk på Aa og så på hvert ord som skal ha stor bokstav. Trykk så på riktig skilletegn og på det siste ordet.",
-      "fi": "Napauta Aa ja sitten jokaista sanaa, joka tarvitsee ison kirjaimen. Napauta sitten oikeaa lopetusmerkkiä ja viimeistä sanaa."
-    },
-    "tapFixRunOn": {
-      "en": "Find where the first sentence ends. Put the right end mark after that word and after the last word. Tap Aa for the capital letters.",
-      "de": "Wo endet der erste Satz? Setze dort das richtige Satzzeichen und auch am Ende. Tippe auf Aa und auf jedes Wort, das man großschreibt.",
-      "es": "Busca dónde termina la primera frase. Pon el signo correcto después de esa palabra y de la última. Toca Aa para las mayúsculas.",
-      "fr": "Trouve où finit la première phrase. Mets le bon signe après ce mot et après le dernier mot. Touche Aa pour les majuscules.",
-      "it": "Trova dove finisce la prima frase. Metti il segno giusto dopo quella parola e dopo l'ultima. Tocca Aa per le maiuscole.",
-      "pt": "Descubra onde termina a primeira frase. Coloque o sinal certo depois dessa palavra e da última. Toque em Aa para as maiúsculas.",
-      "nl": "Waar stopt de eerste zin? Zet daar het goede leesteken, en ook aan het eind. Tik op Aa en op elk woord dat een hoofdletter krijgt.",
-      "sv": "Hitta var den första meningen slutar. Sätt rätt skiljetecken där och i slutet. Tryck på Aa och ge meningarna stor bokstav.",
-      "da": "Find ud af, hvor den første sætning slutter. Sæt det rigtige tegn der og til sidst. Tryk på Aa, og giv sætningerne stort bogstav.",
-      "no": "Finn ut hvor den første setningen slutter. Sett riktig skilletegn der og på slutten. Trykk på Aa og gi setningene stor bokstav.",
-      "fi": "Etsi, mihin ensimmäinen lause loppuu. Laita oikea lopetusmerkki siihen ja loppuun. Napauta Aa ja korjaa isot kirjaimet."
-    }
-  },
-  "compound-words": {
-    "whole": {
-      "en": "Name the two pictures. Tap the word they make together.",
-      "de": "Schau dir die zwei Bilder an. Tippe auf das Wort, das sie zusammen bilden.",
-      "es": "Mira el dibujo y lee el sufijo. Toca la palabra nueva que se forma.",
-      "fr": "Regarde l’image et lis la terminaison. Touche le mot qu’elles forment ensemble.",
-      "it": "Guarda se il disegno è piccolo o grande e leggi il suffisso. Tocca il nome alterato giusto.",
-      "pt": "Veja se a figura é pequena ou grande e leia o sufixo. Toque na palavra que se forma.",
-      "nl": "Kijk naar de twee plaatjes. Tik op het woord dat ze samen maken.",
-      "sv": "Titta på de två bilderna. Tryck på ordet som de två orden blir tillsammans.",
-      "da": "Se på de to billeder. Tryk på det ord, som de to ord bliver til sammen.",
-      "no": "Se på de to bildene. Trykk på ordet som de to ordene blir sammen.",
-      "fi": "Katso kahta kuvaa. Napauta sanaa, jonka niiden nimet tekevät yhdessä."
-    },
-    "cut": {
-      "en": "Each word is split three ways. Tap the one split where the second word starts.",
-      "de": "Jedes Wort ist dreimal anders geteilt. Tippe auf das Wort, das dort geteilt ist, wo das zweite Wort beginnt.",
-      "es": "Cada palabra está dividida de tres maneras. Toca la que tiene la rayita justo donde empieza el sufijo.",
-      "fr": "Chaque mot est coupé de trois façons. Touche celui qui est coupé entre le radical et la terminaison.",
-      "it": "Ogni parola è divisa in tre modi. Tocca quella tagliata proprio dove comincia il suffisso.",
-      "pt": "Cada palavra aparece dividida de três jeitos. Toque na que está dividida onde começa o sufixo.",
-      "nl": "Elk woord staat er drie keer, anders verdeeld. Tik op het woord met de streep waar het tweede woord begint.",
-      "sv": "Ordet står tre gånger med ett streck. Tryck på det där strecket står där det andra ordet börjar.",
-      "da": "Ordet står tre gange med en streg. Tryk på det, hvor stregen står dér, hvor det andet ord begynder.",
-      "no": "Ordet står tre ganger med en strek. Trykk på det der streken står der det andre ordet begynner.",
-      "fi": "Sana on kolme kertaa, ja jokaisessa on viiva. Napauta sitä, jossa viiva on toisen sanan alussa."
-    },
-    "match": {
-      "en": "Look at the first picture. Tap the picture that finishes the word.",
-      "de": "Schau dir das erste Bild an. Tippe auf das Bild, das das Wort ergänzt.",
-      "nl": "Kijk naar het eerste plaatje. Tik op het plaatje dat het woord afmaakt.",
-      "sv": "Titta på den första bilden. Tryck på den av de tre bilderna som gör ordet färdigt.",
-      "da": "Se på det første billede. Tryk på det af de tre billeder, der gør ordet færdigt.",
-      "no": "Se på det første bildet. Trykk på det av de tre bildene som fullfører ordet.",
-      "fi": "Katso ensimmäistä kuvaa. Napauta kolmesta kuvasta sitä, joka täydentää sanan."
-    },
-    "detect": {
-      "en": "Tap every word made of two words, then press Check Answers.",
-      "de": "Tippe auf jedes Wort, das aus zwei Wörtern besteht. Drücke dann auf „Antworten prüfen“.",
-      "es": "Toca todas las palabras formadas por una raíz y un sufijo. Luego toca «Comprobar respuestas».",
-      "fr": "Touche tous les mots construits avec un radical et une terminaison, puis appuie sur « Vérifier les réponses ».",
-      "it": "Tocca tutte le parole fatte da una parola base più un suffisso, poi premi Controlla risposte.",
-      "pt": "Toque em todas as palavras no diminutivo ou no aumentativo e depois em “Verificar respostas”.",
-      "nl": "Tik op elk woord dat uit twee woorden bestaat. Druk daarna op Antwoorden controleren.",
-      "sv": "Tryck på alla ord som är sammansatta av två ord. Tryck sedan på Kontrollera svar.",
-      "da": "Tryk på alle ord, der er sat sammen af to ord. Tryk så på Kontroller svar.",
-      "no": "Trykk på alle ordene som er satt sammen av to ord. Trykk så på Sjekk svar.",
-      "fi": "Napauta kaikkia sanoja, jotka on tehty kahdesta sanasta. Paina sitten Tarkista vastaukset."
-    },
-    "web": {
-      "en": "Look at the picture and the word from the middle. Tap the new word they make.",
-      "de": "Schau dir das Bild und das Wort aus der Mitte an. Tippe auf das neue Wort.",
-      "es": "Fíjate si el dibujo es pequeño o grande. Toca la palabra que corresponde a su tamaño.",
-      "it": "Guarda se il disegno è piccolo o grande. Tocca la parola giusta per la sua grandezza.",
-      "pt": "Veja se a figura é pequena ou grande. Toque na palavra que combina com o tamanho dela.",
-      "nl": "Kijk naar het plaatje en het woord uit het midden. Tik op het nieuwe woord.",
-      "sv": "Titta på bilden och ordet från mitten. Tryck på det nya ordet som de blir tillsammans.",
-      "da": "Se på billedet og ordet fra midten. Tryk på det nye ord, de bliver til sammen.",
-      "no": "Se på bildet og ordet fra midten. Trykk på det nye ordet de blir sammen.",
-      "fi": "Katso kuvaa ja keskellä olevaa sanaa. Napauta uutta sanaa, jonka ne tekevät yhdessä."
-    },
-    "join": {
-      "de": "Beide Wörter stehen da. Tippe auf das Wort, das richtig zusammengesetzt ist.",
-      "nl": "Je ziet de twee woorden. Tik op het samengestelde woord dat goed gespeld is.",
-      "da": "Begge ord står skrevet. Tryk på det hele ord, der er stavet rigtigt.",
-      "no": "Begge ordene står der. Trykk på hele ordet som er skrevet riktig."
-    }
-  },
-  "digraphs": {
-    "base": {
-      "en": "Say each picture's name. Tap the letter team you hear.",
-      "de": "Sprich den Namen jedes Bildes. Tippe auf die Buchstabengruppe, die du hörst.",
-      "fr": "Dis le nom de l’image, puis touche le son que tu entends.",
-      "pt": "Diga o nome da figura e toque no dígrafo que você ouve.",
-      "nl": "Zeg wat je op het plaatje ziet en tik op de tweetekenklank die je hoort.",
-      "fi": "Sano kuvan nimi ja napauta sitä pitkää vokaalia, jonka kuulet."
-    },
-    "sort-two": {
-      "en": "Say each picture's name. Which of the two letter teams do you hear? Tap it.",
-      "de": "Sprich den Namen jedes Bildes. Welche der zwei Buchstabengruppen hörst du? Tippe sie an.",
-      "fr": "Dis le nom de l’image, puis touche celui des deux sons que tu entends.",
-      "pt": "Diga o nome da figura e toque, entre os dois dígrafos, no que você ouve.",
-      "nl": "Zeg wat je op het plaatje ziet en tik op de klank die je hoort.",
-      "fi": "Sano kuvan nimi ja napauta sitä kahdesta pitkästä vokaalista, jonka kuulet."
-    },
-    "gap": {
-      "en": "Read each word. Tap the letter team that fills the gap.",
-      "de": "Lies jedes Wort. Tippe auf die Buchstabengruppe, die in die Lücke passt.",
-      "fr": "Regarde l’image, lis le mot et touche le son qui manque.",
-      "pt": "Leia a palavra e toque no dígrafo que falta.",
-      "nl": "Lees het woord. Welke tweetekenklank mist er? Tik op de goede klank.",
-      "fi": "Lue sana. Mikä pitkä vokaali puuttuu? Napauta oikeaa vokaalia."
-    },
-    "match": {
-      "en": "Read each word. Tap the picture it names.",
-      "de": "Lies jedes Wort. Tippe auf das Bild, das dazu passt.",
-      "fr": "Lis le mot, puis touche l’image qu’il nomme.",
-      "pt": "Leia a palavra e toque na figura que ela nomeia.",
-      "nl": "Lees het woord en tik op het plaatje dat erbij hoort.",
-      "fi": "Lue sana ja napauta kuvaa, joka sopii siihen."
-    },
-    "position": {
-      "en": "Say each picture's name. Where do you hear the letter team? Tap beginning, middle or end.",
-      "de": "Sprich jedes Bildwort. Wo hörst du die Buchstabengruppe? Tippe: Anfang, Mitte oder Ende.",
-      "fr": "Dis le nom de l’image. Où entends-tu le son : au début, au milieu ou à la fin ? Touche la bonne case.",
-      "fi": "Sano kuvan nimi. Kuuluuko pitkä vokaali alussa, keskellä vai lopussa? Napauta oikeaa kohtaa."
-    },
-    "text": {
-      "en": "Read the sentences. Tap every word that has the letter team. Then press the check button.",
-      "de": "Lies die Sätze. Tippe jedes Wort an, in dem die Buchstabengruppe steckt. Drücke dann auf Prüfen.",
-      "fr": "Touche chaque mot où tu vois le son de la page, puis appuie sur le bouton pour vérifier.",
-      "pt": "Toque em cada palavra que tem o dígrafo da atividade e depois toque no botão de conferir.",
-      "nl": "Tik op elk woord met de tweetekenklank uit de titel. Druk daarna op de knop om na te kijken.",
-      "fi": "Napauta jokaista sanaa, jossa on etsittävä pitkä vokaali. Paina sitten tarkistusnappia."
-    }
-  },
-  "feelings": {
-    "match": {
-      "en": "Look at each face. Tap the feeling word that goes with it.",
-      "de": "Schau jedes Gesicht an. Tippe auf das Gefühlswort, das dazu passt.",
-      "es": "Mira cada cara. Toca la palabra que dice cómo se siente.",
-      "fr": "Regarde chaque visage. Touche le mot qui dit ce qu'il ressent.",
-      "it": "Guarda ogni faccia. Tocca la parola che dice come si sente.",
-      "pt": "Olhe cada carinha. Toque na palavra que diz como ela está se sentindo.",
-      "nl": "Kijk naar elk gezichtje. Tik op het gevoelswoord dat erbij hoort.",
-      "sv": "Titta på varje ansikte. Tryck på det känsloord som passar.",
-      "da": "Se på hvert ansigt. Tryk på det ord, der passer til det.",
-      "no": "Se på hvert ansikt. Trykk på følelsesordet som passer.",
-      "fi": "Katso jokaista ilmettä. Napauta tunnesanaa, joka sopii siihen."
-    },
-    "scene": {
-      "en": "Look at each picture. How would you feel? Tap the face.",
-      "de": "Schau jedes Bild an. Wie würdest du dich fühlen? Tippe auf das passende Gesicht.",
-      "es": "Mira cada dibujo. ¿Cómo te sentirías tú? Toca la cara.",
-      "fr": "Regarde chaque image. Comment te sentirais-tu ? Touche le visage.",
-      "it": "Guarda ogni disegno. Come ti sentiresti tu? Tocca la faccia.",
-      "pt": "Olhe cada figura. Como você se sentiria? Toque na carinha.",
-      "nl": "Kijk naar elk plaatje. Hoe zou jij je voelen? Tik op het gezichtje.",
-      "sv": "Titta på varje bild. Hur skulle du känna dig? Tryck på ansiktet.",
-      "da": "Se på hvert billede. Hvordan ville du have det? Tryk på det ansigt, der passer.",
-      "no": "Se på hvert bilde. Hvordan ville du følt deg? Trykk på ansiktet.",
-      "fi": "Katso jokaista kuvaa. Miltä sinusta tuntuisi? Napauta ilmettä."
-    },
-    "sort": {
-      "en": "Look at each face. Does it feel good or bad? Tap the correct answer.",
-      "de": "Schau jedes Gesicht an. Ist das Gefühl angenehm oder unangenehm? Tippe auf den richtigen Kasten.",
-      "es": "Mira cada cara. ¿Esa emoción es agradable o desagradable? Toca la palabra correcta.",
-      "fr": "Regarde chaque visage. Cette émotion est-elle agréable ou désagréable ? Touche le bon mot.",
-      "it": "Guarda ogni faccia. L'emozione è piacevole o spiacevole? Tocca la parola giusta.",
-      "pt": "Olhe cada carinha. Essa emoção é agradável ou desagradável? Toque na palavra certa.",
-      "nl": "Kijk naar elk gezichtje. Is dit gevoel fijn of niet fijn? Tik op het goede vak.",
-      "sv": "Titta på varje ansikte. Känns känslan bra eller dåligt? Tryck på rätt ruta.",
-      "da": "Se på hvert ansigt. Er følelsen rar eller ikke rar? Tryk på den rigtige kasse.",
-      "no": "Se på hvert ansikt. Kjennes følelsen godt eller vondt? Trykk på riktig boks.",
-      "fi": "Katso jokaista ilmettä. Onko tunne mukava vai ikävä? Napauta oikeaa laatikkoa."
-    },
-    "choice": {
-      "en": "Read each feeling word. Tap the face that shows it.",
-      "de": "Lies jedes Gefühlswort. Tippe auf das Gesicht, das dieses Gefühl zeigt.",
-      "es": "Lee cada palabra. Toca la cara que muestra esa emoción.",
-      "fr": "Lis chaque mot. Touche le visage qui montre cette émotion.",
-      "it": "Leggi ogni parola. Tocca la faccia che mostra quell'emozione.",
-      "pt": "Leia cada palavra. Toque na carinha que mostra esse sentimento.",
-      "nl": "Lees elk gevoelswoord. Tik op het gezichtje dat dit gevoel laat zien.",
-      "sv": "Läs varje känsloord. Tryck på det ansikte som visar känslan.",
-      "da": "Læs hvert ord. Tryk på det ansigt, der viser følelsen.",
-      "no": "Les hvert følelsesord. Trykk på ansiktet som viser følelsen.",
-      "fi": "Lue jokainen tunnesana. Napauta ilmettä, joka näyttää sen tunteen."
-    }
-  },
-  "cloze": {
-    "base": {
-      "en": "Read each sentence. Tap the word that fits in the box.",
-      "de": "Lies jeden Satz. Tippe auf das Wort, das in das Kästchen passt.",
-      "es": "Lee cada oración. Toca la palabra que va en la casilla.",
-      "fr": "Lis chaque phrase. Touche le mot qui va dans la case.",
-      "it": "Leggi ogni frase. Tocca la parola che va nella casella.",
-      "pt": "Leia cada frase. Toque na palavra que vai na caixa.",
-      "nl": "Lees elke zin. Tik op het woord dat in het vakje past.",
-      "sv": "Läs varje mening. Tryck på ordet som passar i rutan.",
-      "da": "Læs hver sætning. Tryk på det ord, der passer i feltet.",
-      "no": "Les hver setning. Trykk på ordet som passer i ruta.",
-      "fi": "Lue jokainen lause. Napauta sanaa, joka sopii laatikkoon."
-    },
-    "choice": {
-      "en": "Read each sentence. Tap the word that fits.",
-      "de": "Lies jeden Satz. Tippe auf das Wort, das passt.",
-      "es": "Lee cada oración. Toca la palabra que completa la oración.",
-      "fr": "Lis chaque phrase. Touche le mot qui convient.",
-      "it": "Leggi ogni frase. Tocca la parola giusta.",
-      "pt": "Leia cada frase. Toque na palavra certa.",
-      "nl": "Lees elke zin. Tik op het woord dat past.",
-      "sv": "Läs varje mening. Tryck på ordet som passar.",
-      "da": "Læs hver sætning. Tryk på det ord, der passer.",
-      "no": "Les hver setning. Trykk på ordet som passer.",
-      "fi": "Lue jokainen lause. Napauta sopivaa sanaa."
-    },
-    "match": {
-      "en": "Read each sentence. Tap the picture that fills the gap.",
-      "de": "Lies jeden Satz. Tippe auf das Bild, das die Lücke füllt.",
-      "es": "Lee cada oración. Toca el dibujo que completa el hueco.",
-      "fr": "Lis chaque phrase. Touche l'image qui complète la phrase.",
-      "it": "Leggi ogni frase. Tocca il disegno che completa la frase.",
-      "pt": "Leia cada frase. Toque na figura que completa a lacuna.",
-      "nl": "Lees elke zin. Tik op het plaatje dat in de lege plek past.",
-      "sv": "Läs varje mening. Tryck på bilden som passar i luckan.",
-      "da": "Læs hver sætning. Tryk på det billede, der passer i det tomme felt.",
-      "no": "Les hver setning. Trykk på bildet som passer i luka.",
-      "fi": "Lue jokainen lause. Napauta kuvaa, joka täydentää aukon."
-    },
-    "story": {
-      "en": "Read the story. Tap the word that fits each gap.",
-      "de": "Lies die Geschichte. Tippe bei jeder Lücke auf das passende Wort.",
-      "es": "Lee el cuento. Toca la palabra que va en cada hueco.",
-      "fr": "Lis l'histoire. Touche le mot qui va dans chaque trou.",
-      "it": "Leggi il testo. Tocca la parola giusta per ogni spazio.",
-      "pt": "Leia a historinha. Toque na palavra que completa cada lacuna.",
-      "nl": "Lees het verhaaltje. Tik bij elke lege plek op het woord dat past.",
-      "sv": "Läs berättelsen. Tryck på ordet som passar i varje lucka.",
-      "da": "Læs historien. Tryk på det ord, der passer i hvert tomt felt.",
-      "no": "Les fortellingen. Trykk på ordet som passer i hver luke.",
-      "fi": "Lue tarina. Napauta sanaa, joka sopii jokaiseen aukkoon."
-    },
-    "spell": {
-      "en": "Look at each picture. Tap the letters in the right order to spell the word.",
-      "de": "Schau dir jedes Bild an. Tippe die Buchstaben in der richtigen Reihenfolge an.",
-      "es": "Mira cada dibujo. Toca las letras en orden para escribir la palabra.",
-      "fr": "Regarde chaque image. Touche les lettres dans le bon ordre pour écrire le mot.",
-      "it": "Guarda ogni disegno. Tocca le lettere nell'ordine giusto per scrivere la parola.",
-      "pt": "Olhe cada figura. Toque nas letras na ordem certa para escrever a palavra.",
-      "nl": "Kijk naar elk plaatje. Tik de letters in de goede volgorde aan en maak het woord.",
-      "sv": "Titta på varje bild. Tryck på bokstäverna i rätt ordning och stava ordet.",
-      "da": "Se på hvert billede. Tryk på bogstaverne i den rigtige rækkefølge, så du staver ordet.",
-      "no": "Se på hvert bilde. Trykk på bokstavene i riktig rekkefølge, så du staver ordet.",
-      "fi": "Katso jokaista kuvaa. Napauta kirjaimet oikeaan järjestykseen, niin sana syntyy."
-    }
+  "tapSame": {
+   "en": "Tap the words in ABC order. If two words start with the same letter, look at the second letter.",
+   "de": "Tippe die Wörter nach dem Alphabet an. Fangen zwei Wörter gleich an, entscheidet der zweite Buchstabe.",
+   "es": "Toca las palabras en orden alfabético. Si dos empiezan con la misma letra, mira la segunda letra.",
+   "fr": "Touche les mots dans l'ordre alphabétique. Si deux mots commencent par la même lettre, regarde la deuxième lettre.",
+   "it": "Tocca le parole in ordine alfabetico. Se due parole iniziano con la stessa lettera, guarda la seconda lettera.",
+   "pt": "Toque nas palavras em ordem alfabética. Se duas começam com a mesma letra, veja a segunda letra.",
+   "nl": "Tik de woorden aan op alfabetische volgorde. Beginnen twee woorden gelijk? Kijk naar de tweede letter.",
+   "sv": "Tryck på orden i alfabetisk ordning. Börjar två ord lika? Se på andra bokstaven.",
+   "da": "Tryk på ordene i alfabetisk rækkefølge. Begynder to ord ens, så se på det andet bogstav.",
+   "no": "Trykk på ordene i alfabetisk rekkefølge. Hvis to ord begynner likt, se på den andre bokstaven.",
+   "fi": "Napauta sanoja aakkosjärjestyksessä. Jos alkukirjain on sama, katso toista kirjainta."
   }
+ },
+ "articles": {
+  "tapChoice": {
+   "en": "Say each picture word. Tap the little word that goes in front of it.",
+   "de": "Sprich jedes Bildwort laut. Tippe den Artikel an, der davor passt.",
+   "es": "Di el nombre del dibujo. Toca el artículo que va delante: el o la.",
+   "fr": "Dis le nom de l'image. Touche l'article qui se place devant ce nom.",
+   "it": "Di' il nome della figura. Tocca l'articolo giusto da mettere davanti.",
+   "pt": "Fale o nome da figura. Toque na palavrinha que vem antes dela: o ou a.",
+   "nl": "Zeg het woord bij elk plaatje. Tik op het woordje dat ervoor hoort: de of het.",
+   "sv": "Säg ordet till bilden. Tryck på det ord som passar framför: en eller ett.",
+   "da": "Sig ordet til billedet. Tryk på det ord, der passer foran: en eller et.",
+   "no": "Si ordet til bildet. Trykk på ordet som passer foran: en eller et.",
+   "fi": "Katso, onko kuvassa yksi vai monta. Napauta sanaa, joka sopii kuvaan."
+  },
+  "tapChoiceWord": {
+   "en": "Read each word. Tap the little word that goes in front of it.",
+   "de": "Lies jedes Wort genau. Tippe den Artikel an, der davor passt.",
+   "es": "Lee la palabra. Toca el artículo que va delante: el o la.",
+   "fr": "Lis le mot. Touche l'article qui se place devant ce mot.",
+   "it": "Leggi la parola. Tocca l'articolo giusto da mettere davanti.",
+   "pt": "Leia a palavra. Toque na palavrinha que vem antes dela: o ou a.",
+   "nl": "Lees elk woord. Tik op het woordje dat ervoor hoort: de of het.",
+   "sv": "Läs ordet. Tryck på det ord som passar framför: en eller ett.",
+   "da": "Læs ordet. Tryk på det ord, der passer foran: en eller et.",
+   "no": "Les ordet. Trykk på ordet som passer foran: en eller et.",
+   "fi": "Lue sana. Kertooko se yhdestä vai monesta? Napauta yksi tai monta."
+  }
+ },
+ "capitals-punctuation": {
+  "tapFix": {
+   "en": "Tap Aa, then each word that needs a capital letter. Then tap the right end mark and the last word.",
+   "de": "Tippe auf Aa und dann auf jedes Wort, das man großschreibt. Tippe dann auf das richtige Satzzeichen und auf das letzte Wort.",
+   "es": "Toca Aa y luego cada palabra que necesita mayúscula. Después toca el signo correcto y la última palabra de la frase.",
+   "fr": "Touche Aa, puis chaque mot qui prend une majuscule. Touche ensuite le bon signe, puis le dernier mot de la phrase.",
+   "it": "Tocca Aa, poi ogni parola che vuole la maiuscola. Infine tocca il segno giusto e l'ultima parola della frase.",
+   "pt": "Toque em Aa e em cada palavra que precisa de letra maiúscula. Depois toque no sinal certo e na última palavra da frase.",
+   "nl": "Tik op Aa en dan op elk woord dat een hoofdletter krijgt. Tik dan op het goede leesteken en op het laatste woord.",
+   "sv": "Tryck på Aa och sedan på varje ord som ska ha stor bokstav. Tryck sedan på rätt skiljetecken och på det sista ordet.",
+   "da": "Tryk på Aa og så på hvert ord, der skal have stort bogstav. Tryk så på det rigtige tegn og på det sidste ord.",
+   "no": "Trykk på Aa og så på hvert ord som skal ha stor bokstav. Trykk så på riktig skilletegn og på det siste ordet.",
+   "fi": "Napauta Aa ja sitten jokaista sanaa, joka tarvitsee ison kirjaimen. Napauta sitten oikeaa lopetusmerkkiä ja viimeistä sanaa."
+  },
+  "tapFixRunOn": {
+   "en": "Find where the first sentence ends. Put the right end mark after that word and after the last word. Tap Aa for the capital letters.",
+   "de": "Wo endet der erste Satz? Setze dort das richtige Satzzeichen und auch am Ende. Tippe auf Aa und auf jedes Wort, das man großschreibt.",
+   "es": "Busca dónde termina la primera frase. Pon el signo correcto después de esa palabra y de la última. Toca Aa para las mayúsculas.",
+   "fr": "Trouve où finit la première phrase. Mets le bon signe après ce mot et après le dernier mot. Touche Aa pour les majuscules.",
+   "it": "Trova dove finisce la prima frase. Metti il segno giusto dopo quella parola e dopo l'ultima. Tocca Aa per le maiuscole.",
+   "pt": "Descubra onde termina a primeira frase. Coloque o sinal certo depois dessa palavra e da última. Toque em Aa para as maiúsculas.",
+   "nl": "Waar stopt de eerste zin? Zet daar het goede leesteken, en ook aan het eind. Tik op Aa en op elk woord dat een hoofdletter krijgt.",
+   "sv": "Hitta var den första meningen slutar. Sätt rätt skiljetecken där och i slutet. Tryck på Aa och ge meningarna stor bokstav.",
+   "da": "Find ud af, hvor den første sætning slutter. Sæt det rigtige tegn der og til sidst. Tryk på Aa, og giv sætningerne stort bogstav.",
+   "no": "Finn ut hvor den første setningen slutter. Sett riktig skilletegn der og på slutten. Trykk på Aa og gi setningene stor bokstav.",
+   "fi": "Etsi, mihin ensimmäinen lause loppuu. Laita oikea lopetusmerkki siihen ja loppuun. Napauta Aa ja korjaa isot kirjaimet."
+  }
+ },
+ "compound-words": {
+  "whole": {
+   "en": "Name the two pictures. Tap the word they make together.",
+   "de": "Schau dir die zwei Bilder an. Tippe auf das Wort, das sie zusammen bilden.",
+   "es": "Mira el dibujo y lee el sufijo. Toca la palabra nueva que se forma.",
+   "fr": "Regarde l’image et lis la terminaison. Touche le mot qu’elles forment ensemble.",
+   "it": "Guarda se il disegno è piccolo o grande e leggi il suffisso. Tocca il nome alterato giusto.",
+   "pt": "Veja se a figura é pequena ou grande e leia o sufixo. Toque na palavra que se forma.",
+   "nl": "Kijk naar de twee plaatjes. Tik op het woord dat ze samen maken.",
+   "sv": "Titta på de två bilderna. Tryck på ordet som de två orden blir tillsammans.",
+   "da": "Se på de to billeder. Tryk på det ord, som de to ord bliver til sammen.",
+   "no": "Se på de to bildene. Trykk på ordet som de to ordene blir sammen.",
+   "fi": "Katso kahta kuvaa. Napauta sanaa, jonka niiden nimet tekevät yhdessä."
+  },
+  "cut": {
+   "en": "Each word is split three ways. Tap the one split where the second word starts.",
+   "de": "Jedes Wort ist dreimal anders geteilt. Tippe auf das Wort, das dort geteilt ist, wo das zweite Wort beginnt.",
+   "es": "Cada palabra está dividida de tres maneras. Toca la que tiene la rayita justo donde empieza el sufijo.",
+   "fr": "Chaque mot est coupé de trois façons. Touche celui qui est coupé entre le radical et la terminaison.",
+   "it": "Ogni parola è divisa in tre modi. Tocca quella tagliata proprio dove comincia il suffisso.",
+   "pt": "Cada palavra aparece dividida de três jeitos. Toque na que está dividida onde começa o sufixo.",
+   "nl": "Elk woord staat er drie keer, anders verdeeld. Tik op het woord met de streep waar het tweede woord begint.",
+   "sv": "Ordet står tre gånger med ett streck. Tryck på det där strecket står där det andra ordet börjar.",
+   "da": "Ordet står tre gange med en streg. Tryk på det, hvor stregen står dér, hvor det andet ord begynder.",
+   "no": "Ordet står tre ganger med en strek. Trykk på det der streken står der det andre ordet begynner.",
+   "fi": "Sana on kolme kertaa, ja jokaisessa on viiva. Napauta sitä, jossa viiva on toisen sanan alussa."
+  },
+  "match": {
+   "en": "Look at the first picture. Tap the picture that finishes the word.",
+   "de": "Schau dir das erste Bild an. Tippe auf das Bild, das das Wort ergänzt.",
+   "nl": "Kijk naar het eerste plaatje. Tik op het plaatje dat het woord afmaakt.",
+   "sv": "Titta på den första bilden. Tryck på den av de tre bilderna som gör ordet färdigt.",
+   "da": "Se på det første billede. Tryk på det af de tre billeder, der gør ordet færdigt.",
+   "no": "Se på det første bildet. Trykk på det av de tre bildene som fullfører ordet.",
+   "fi": "Katso ensimmäistä kuvaa. Napauta kolmesta kuvasta sitä, joka täydentää sanan."
+  },
+  "detect": {
+   "en": "Tap every word made of two words, then press Check Answers.",
+   "de": "Tippe auf jedes Wort, das aus zwei Wörtern besteht. Drücke dann auf „Antworten prüfen“.",
+   "es": "Toca todas las palabras formadas por una raíz y un sufijo. Luego toca «Comprobar respuestas».",
+   "fr": "Touche tous les mots construits avec un radical et une terminaison, puis appuie sur « Vérifier les réponses ».",
+   "it": "Tocca tutte le parole fatte da una parola base più un suffisso, poi premi Controlla risposte.",
+   "pt": "Toque em todas as palavras no diminutivo ou no aumentativo e depois em “Verificar respostas”.",
+   "nl": "Tik op elk woord dat uit twee woorden bestaat. Druk daarna op Antwoorden controleren.",
+   "sv": "Tryck på alla ord som är sammansatta av två ord. Tryck sedan på Kontrollera svar.",
+   "da": "Tryk på alle ord, der er sat sammen af to ord. Tryk så på Kontroller svar.",
+   "no": "Trykk på alle ordene som er satt sammen av to ord. Trykk så på Sjekk svar.",
+   "fi": "Napauta kaikkia sanoja, jotka on tehty kahdesta sanasta. Paina sitten Tarkista vastaukset."
+  },
+  "web": {
+   "en": "Look at the picture and the word from the middle. Tap the new word they make.",
+   "de": "Schau dir das Bild und das Wort aus der Mitte an. Tippe auf das neue Wort.",
+   "es": "Fíjate si el dibujo es pequeño o grande. Toca la palabra que corresponde a su tamaño.",
+   "it": "Guarda se il disegno è piccolo o grande. Tocca la parola giusta per la sua grandezza.",
+   "pt": "Veja se a figura é pequena ou grande. Toque na palavra que combina com o tamanho dela.",
+   "nl": "Kijk naar het plaatje en het woord uit het midden. Tik op het nieuwe woord.",
+   "sv": "Titta på bilden och ordet från mitten. Tryck på det nya ordet som de blir tillsammans.",
+   "da": "Se på billedet og ordet fra midten. Tryk på det nye ord, de bliver til sammen.",
+   "no": "Se på bildet og ordet fra midten. Trykk på det nye ordet de blir sammen.",
+   "fi": "Katso kuvaa ja keskellä olevaa sanaa. Napauta uutta sanaa, jonka ne tekevät yhdessä."
+  },
+  "join": {
+   "de": "Beide Wörter stehen da. Tippe auf das Wort, das richtig zusammengesetzt ist.",
+   "nl": "Je ziet de twee woorden. Tik op het samengestelde woord dat goed gespeld is.",
+   "da": "Begge ord står skrevet. Tryk på det hele ord, der er stavet rigtigt.",
+   "no": "Begge ordene står der. Trykk på hele ordet som er skrevet riktig."
+  }
+ },
+ "digraphs": {
+  "base": {
+   "en": "Say each picture's name. Tap the letter team you hear.",
+   "de": "Sprich den Namen jedes Bildes. Tippe auf die Buchstabengruppe, die du hörst.",
+   "fr": "Dis le nom de l’image, puis touche le son que tu entends.",
+   "pt": "Diga o nome da figura e toque no dígrafo que você ouve.",
+   "nl": "Zeg wat je op het plaatje ziet en tik op de tweetekenklank die je hoort.",
+   "fi": "Sano kuvan nimi ja napauta sitä pitkää vokaalia, jonka kuulet."
+  },
+  "sort-two": {
+   "en": "Say each picture's name. Which of the two letter teams do you hear? Tap it.",
+   "de": "Sprich den Namen jedes Bildes. Welche der zwei Buchstabengruppen hörst du? Tippe sie an.",
+   "fr": "Dis le nom de l’image, puis touche celui des deux sons que tu entends.",
+   "pt": "Diga o nome da figura e toque, entre os dois dígrafos, no que você ouve.",
+   "nl": "Zeg wat je op het plaatje ziet en tik op de klank die je hoort.",
+   "fi": "Sano kuvan nimi ja napauta sitä kahdesta pitkästä vokaalista, jonka kuulet."
+  },
+  "gap": {
+   "en": "Read each word. Tap the letter team that fills the gap.",
+   "de": "Lies jedes Wort. Tippe auf die Buchstabengruppe, die in die Lücke passt.",
+   "fr": "Regarde l’image, lis le mot et touche le son qui manque.",
+   "pt": "Leia a palavra e toque no dígrafo que falta.",
+   "nl": "Lees het woord. Welke tweetekenklank mist er? Tik op de goede klank.",
+   "fi": "Lue sana. Mikä pitkä vokaali puuttuu? Napauta oikeaa vokaalia."
+  },
+  "match": {
+   "en": "Read each word. Tap the picture it names.",
+   "de": "Lies jedes Wort. Tippe auf das Bild, das dazu passt.",
+   "fr": "Lis le mot, puis touche l’image qu’il nomme.",
+   "pt": "Leia a palavra e toque na figura que ela nomeia.",
+   "nl": "Lees het woord en tik op het plaatje dat erbij hoort.",
+   "fi": "Lue sana ja napauta kuvaa, joka sopii siihen."
+  },
+  "position": {
+   "en": "Say each picture's name. Where do you hear the letter team? Tap beginning, middle or end.",
+   "de": "Sprich jedes Bildwort. Wo hörst du die Buchstabengruppe? Tippe: Anfang, Mitte oder Ende.",
+   "fr": "Dis le nom de l’image. Où entends-tu le son : au début, au milieu ou à la fin ? Touche la bonne case.",
+   "fi": "Sano kuvan nimi. Kuuluuko pitkä vokaali alussa, keskellä vai lopussa? Napauta oikeaa kohtaa."
+  },
+  "text": {
+   "en": "Read the sentences. Tap every word that has the letter team. Then press the check button.",
+   "de": "Lies die Sätze. Tippe jedes Wort an, in dem die Buchstabengruppe steckt. Drücke dann auf Prüfen.",
+   "fr": "Touche chaque mot où tu vois le son de la page, puis appuie sur le bouton pour vérifier.",
+   "pt": "Toque em cada palavra que tem o dígrafo da atividade e depois toque no botão de conferir.",
+   "nl": "Tik op elk woord met de tweetekenklank uit de titel. Druk daarna op de knop om na te kijken.",
+   "fi": "Napauta jokaista sanaa, jossa on etsittävä pitkä vokaali. Paina sitten tarkistusnappia."
+  }
+ },
+ "feelings": {
+  "match": {
+   "en": "Look at each face. Tap the feeling word that goes with it.",
+   "de": "Schau jedes Gesicht an. Tippe auf das Gefühlswort, das dazu passt.",
+   "es": "Mira cada cara. Toca la palabra que dice cómo se siente.",
+   "fr": "Regarde chaque visage. Touche le mot qui dit ce qu'il ressent.",
+   "it": "Guarda ogni faccia. Tocca la parola che dice come si sente.",
+   "pt": "Olhe cada carinha. Toque na palavra que diz como ela está se sentindo.",
+   "nl": "Kijk naar elk gezichtje. Tik op het gevoelswoord dat erbij hoort.",
+   "sv": "Titta på varje ansikte. Tryck på det känsloord som passar.",
+   "da": "Se på hvert ansigt. Tryk på det ord, der passer til det.",
+   "no": "Se på hvert ansikt. Trykk på følelsesordet som passer.",
+   "fi": "Katso jokaista ilmettä. Napauta tunnesanaa, joka sopii siihen."
+  },
+  "scene": {
+   "en": "Look at each picture. How would you feel? Tap the face.",
+   "de": "Schau jedes Bild an. Wie würdest du dich fühlen? Tippe auf das passende Gesicht.",
+   "es": "Mira cada dibujo. ¿Cómo te sentirías tú? Toca la cara.",
+   "fr": "Regarde chaque image. Comment te sentirais-tu ? Touche le visage.",
+   "it": "Guarda ogni disegno. Come ti sentiresti tu? Tocca la faccia.",
+   "pt": "Olhe cada figura. Como você se sentiria? Toque na carinha.",
+   "nl": "Kijk naar elk plaatje. Hoe zou jij je voelen? Tik op het gezichtje.",
+   "sv": "Titta på varje bild. Hur skulle du känna dig? Tryck på ansiktet.",
+   "da": "Se på hvert billede. Hvordan ville du have det? Tryk på det ansigt, der passer.",
+   "no": "Se på hvert bilde. Hvordan ville du følt deg? Trykk på ansiktet.",
+   "fi": "Katso jokaista kuvaa. Miltä sinusta tuntuisi? Napauta ilmettä."
+  },
+  "sort": {
+   "en": "Look at each face. Does it feel good or bad? Tap the correct answer.",
+   "de": "Schau jedes Gesicht an. Ist das Gefühl angenehm oder unangenehm? Tippe auf den richtigen Kasten.",
+   "es": "Mira cada cara. ¿Esa emoción es agradable o desagradable? Toca la palabra correcta.",
+   "fr": "Regarde chaque visage. Cette émotion est-elle agréable ou désagréable ? Touche le bon mot.",
+   "it": "Guarda ogni faccia. L'emozione è piacevole o spiacevole? Tocca la parola giusta.",
+   "pt": "Olhe cada carinha. Essa emoção é agradável ou desagradável? Toque na palavra certa.",
+   "nl": "Kijk naar elk gezichtje. Is dit gevoel fijn of niet fijn? Tik op het goede vak.",
+   "sv": "Titta på varje ansikte. Känns känslan bra eller dåligt? Tryck på rätt ruta.",
+   "da": "Se på hvert ansigt. Er følelsen rar eller ikke rar? Tryk på den rigtige kasse.",
+   "no": "Se på hvert ansikt. Kjennes følelsen godt eller vondt? Trykk på riktig boks.",
+   "fi": "Katso jokaista ilmettä. Onko tunne mukava vai ikävä? Napauta oikeaa laatikkoa."
+  },
+  "choice": {
+   "en": "Read each feeling word. Tap the face that shows it.",
+   "de": "Lies jedes Gefühlswort. Tippe auf das Gesicht, das dieses Gefühl zeigt.",
+   "es": "Lee cada palabra. Toca la cara que muestra esa emoción.",
+   "fr": "Lis chaque mot. Touche le visage qui montre cette émotion.",
+   "it": "Leggi ogni parola. Tocca la faccia che mostra quell'emozione.",
+   "pt": "Leia cada palavra. Toque na carinha que mostra esse sentimento.",
+   "nl": "Lees elk gevoelswoord. Tik op het gezichtje dat dit gevoel laat zien.",
+   "sv": "Läs varje känsloord. Tryck på det ansikte som visar känslan.",
+   "da": "Læs hvert ord. Tryk på det ansigt, der viser følelsen.",
+   "no": "Les hvert følelsesord. Trykk på ansiktet som viser følelsen.",
+   "fi": "Lue jokainen tunnesana. Napauta ilmettä, joka näyttää sen tunteen."
+  }
+ },
+ "cloze": {
+  "base": {
+   "en": "Read each sentence. Tap the word that fits in the box.",
+   "de": "Lies jeden Satz. Tippe auf das Wort, das in das Kästchen passt.",
+   "es": "Lee cada oración. Toca la palabra que va en la casilla.",
+   "fr": "Lis chaque phrase. Touche le mot qui va dans la case.",
+   "it": "Leggi ogni frase. Tocca la parola che va nella casella.",
+   "pt": "Leia cada frase. Toque na palavra que vai na caixa.",
+   "nl": "Lees elke zin. Tik op het woord dat in het vakje past.",
+   "sv": "Läs varje mening. Tryck på ordet som passar i rutan.",
+   "da": "Læs hver sætning. Tryk på det ord, der passer i feltet.",
+   "no": "Les hver setning. Trykk på ordet som passer i ruta.",
+   "fi": "Lue jokainen lause. Napauta sanaa, joka sopii laatikkoon."
+  },
+  "choice": {
+   "en": "Read each sentence. Tap the word that fits.",
+   "de": "Lies jeden Satz. Tippe auf das Wort, das passt.",
+   "es": "Lee cada oración. Toca la palabra que completa la oración.",
+   "fr": "Lis chaque phrase. Touche le mot qui convient.",
+   "it": "Leggi ogni frase. Tocca la parola giusta.",
+   "pt": "Leia cada frase. Toque na palavra certa.",
+   "nl": "Lees elke zin. Tik op het woord dat past.",
+   "sv": "Läs varje mening. Tryck på ordet som passar.",
+   "da": "Læs hver sætning. Tryk på det ord, der passer.",
+   "no": "Les hver setning. Trykk på ordet som passer.",
+   "fi": "Lue jokainen lause. Napauta sopivaa sanaa."
+  },
+  "match": {
+   "en": "Read each sentence. Tap the picture that fills the gap.",
+   "de": "Lies jeden Satz. Tippe auf das Bild, das die Lücke füllt.",
+   "es": "Lee cada oración. Toca el dibujo que completa el hueco.",
+   "fr": "Lis chaque phrase. Touche l'image qui complète la phrase.",
+   "it": "Leggi ogni frase. Tocca il disegno che completa la frase.",
+   "pt": "Leia cada frase. Toque na figura que completa a lacuna.",
+   "nl": "Lees elke zin. Tik op het plaatje dat in de lege plek past.",
+   "sv": "Läs varje mening. Tryck på bilden som passar i luckan.",
+   "da": "Læs hver sætning. Tryk på det billede, der passer i det tomme felt.",
+   "no": "Les hver setning. Trykk på bildet som passer i luka.",
+   "fi": "Lue jokainen lause. Napauta kuvaa, joka täydentää aukon."
+  },
+  "story": {
+   "en": "Read the story. Tap the word that fits each gap.",
+   "de": "Lies die Geschichte. Tippe bei jeder Lücke auf das passende Wort.",
+   "es": "Lee el cuento. Toca la palabra que va en cada hueco.",
+   "fr": "Lis l'histoire. Touche le mot qui va dans chaque trou.",
+   "it": "Leggi il testo. Tocca la parola giusta per ogni spazio.",
+   "pt": "Leia a historinha. Toque na palavra que completa cada lacuna.",
+   "nl": "Lees het verhaaltje. Tik bij elke lege plek op het woord dat past.",
+   "sv": "Läs berättelsen. Tryck på ordet som passar i varje lucka.",
+   "da": "Læs historien. Tryk på det ord, der passer i hvert tomt felt.",
+   "no": "Les fortellingen. Trykk på ordet som passer i hver luke.",
+   "fi": "Lue tarina. Napauta sanaa, joka sopii jokaiseen aukkoon."
+  },
+  "spell": {
+   "en": "Look at each picture. Tap the letters in the right order to spell the word.",
+   "de": "Schau dir jedes Bild an. Tippe die Buchstaben in der richtigen Reihenfolge an.",
+   "es": "Mira cada dibujo. Toca las letras en orden para escribir la palabra.",
+   "fr": "Regarde chaque image. Touche les lettres dans le bon ordre pour écrire le mot.",
+   "it": "Guarda ogni disegno. Tocca le lettere nell'ordine giusto per scrivere la parola.",
+   "pt": "Olhe cada figura. Toque nas letras na ordem certa para escrever a palavra.",
+   "nl": "Kijk naar elk plaatje. Tik de letters in de goede volgorde aan en maak het woord.",
+   "sv": "Titta på varje bild. Tryck på bokstäverna i rätt ordning och stava ordet.",
+   "da": "Se på hvert billede. Tryk på bogstaverne i den rigtige rækkefølge, så du staver ordet.",
+   "no": "Se på hvert bilde. Trykk på bokstavene i riktig rekkefølge, så du staver ordet.",
+   "fi": "Katso jokaista kuvaa. Napauta kirjaimet oikeaan järjestykseen, niin sana syntyy."
+  }
+ },
+ "opposites": {
+  "write": {
+   "en": "Tap the opposite of each word.",
+   "de": "Tippe auf das Gegenteil jedes Wortes.",
+   "es": "Toca el antónimo de cada palabra.",
+   "fr": "Touche le contraire de chaque mot.",
+   "it": "Tocca il contrario di ogni parola.",
+   "pt": "Toque no antônimo de cada palavra.",
+   "nl": "Tik op het tegenovergestelde van elk woord.",
+   "sv": "Tryck på motsatsen till varje ord.",
+   "da": "Tryk på det modsatte af hvert ord.",
+   "no": "Trykk på det motsatte av hvert ord.",
+   "fi": "Napauta jokaisen sanan vastakohtaa."
+  },
+  "frames": {
+   "en": "Tap the word that finishes each sentence. It is the opposite of the word after \"not\".",
+   "de": "Lies jeden Satz. Tippe auf das Gegenteil des Wortes nach „nicht“.",
+   "es": "Toca la palabra que completa cada oración: el antónimo.",
+   "fr": "Touche le mot qui complète chaque phrase : c'est le contraire.",
+   "it": "Leggi la frase e tocca la parola che la completa: il contrario.",
+   "pt": "Toque na palavra que completa cada frase: o antônimo.",
+   "nl": "Lees elke zin. Tik op het woord dat de zin afmaakt: het tegenovergestelde.",
+   "sv": "Läs varje mening. Tryck på motsatsen till ordet efter \"inte\".",
+   "da": "Læs hver sætning. Tryk på det modsatte af ordet efter \"ikke\".",
+   "no": "Les hver setning. Trykk på ordet som fullfører setningen: det motsatte.",
+   "fi": "Lue lause. Napauta sanaa, joka on sanan \"ei\" jälkeen tulevan sanan vastakohta."
+  },
+  "match": {
+   "en": "Tap the picture and word that show the opposite.",
+   "de": "Tippe auf das Bild und das Wort, die das Gegenteil zeigen.",
+   "es": "Toca el dibujo y la palabra que muestran lo contrario.",
+   "fr": "Touche l'image et le mot qui montrent le contraire.",
+   "it": "Tocca il disegno e la parola che mostrano il contrario.",
+   "pt": "Toque na figura e na palavra que mostram o contrário.",
+   "nl": "Tik op het plaatje en het woord die het tegenovergestelde laten zien.",
+   "sv": "Tryck på den bild och det ord som visar motsatsen.",
+   "da": "Tryk på det billede og ord, der viser det modsatte.",
+   "no": "Trykk på bildet og ordet som viser det motsatte.",
+   "fi": "Napauta kuvaa ja sanaa, jotka ovat vastakohta."
+  },
+  "choice": {
+   "en": "Tap the word that means the opposite.",
+   "de": "Lies das Wort. Tippe auf das Wort, das das Gegenteil bedeutet.",
+   "es": "Toca la palabra que significa lo contrario.",
+   "fr": "Touche le mot qui veut dire le contraire.",
+   "it": "Leggi la parola e tocca quella che vuol dire il contrario.",
+   "pt": "Toque na palavra que quer dizer o contrário.",
+   "nl": "Lees het woord. Tik op het woord dat het tegenovergestelde betekent.",
+   "sv": "Läs ordet. Tryck på det ord som betyder motsatsen.",
+   "da": "Læs ordet. Tryk på det ord, der betyder det modsatte.",
+   "no": "Les ordet. Trykk på ordet som betyr det motsatte.",
+   "fi": "Lue sana. Napauta sanaa, joka tarkoittaa vastakohtaa."
+  },
+  "prefix": {
+   "en": "Tap the word that is the opposite.",
+   "de": "Lies das Wort. Tippe auf sein Gegenteil mit der Vorsilbe un-.",
+   "es": "Toca la palabra con prefijo que significa lo contrario.",
+   "fr": "Touche le mot qui veut dire le contraire : le mot avec un préfixe.",
+   "it": "Tocca la parola che vuol dire il contrario: quella con il prefisso.",
+   "pt": "Toque na palavra com prefixo que quer dizer o contrário.",
+   "nl": "Tik op het woord dat het tegenovergestelde is: het woord met on- ervoor.",
+   "sv": "Läs ordet. Tryck på motsatsen med förstavelsen o-.",
+   "da": "Læs ordet. Tryk på det modsatte ord med forstavelsen u-.",
+   "no": "Trykk på ordet som er det motsatte: ordet med u- foran.",
+   "fi": "Lue sana. Napauta sen vastakohtaa, jossa on etuliite epä-."
+  }
+ }
 }

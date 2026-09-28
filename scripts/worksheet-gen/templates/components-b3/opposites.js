@@ -158,8 +158,12 @@ function oppositeMatch({ left, right, tileW = 250, itemH = 114, minH, wordPx = 2
     `<div class="ws-match-col" style="min-height:0" data-lcs-col="right">${r}</div></div>`;
 }
 
-function oppositeFrameRow({ pair, a, b, given, answer, name = null, pic, line1, pre, post, picPx = 64, textW = 563, fontPx = 19, laneW = 200, laneH = 56, glyphH = 28 }) {
-  const lane = writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
+function oppositeFrameRow({ pair, a, b, given, answer, name = null, pic, line1, pre, post, picPx = 64, textW = 563, fontPx = 19, laneW = 200, laneH = 56, glyphH = 28, choose = null, pillPx = 20 }) {
+  // Level Set 2026-09-28 `choose` ([word, word], the answer and its given partner): the child circles one of two
+  // pills where the published row has a writing lane — the easier level
+  const lane = choose
+    ? `<span style="display:flex;gap:10px;align-items:center" data-lcs-frame-choose>${choose.map((w) => `<span class="ws-pill" style="font-size:${pillPx}px;min-height:40px;line-height:${pillPx + 4}px" data-lcs-pill="${esc(w)}"${w === answer ? ' data-lcs-correct-pill="1"' : ''}>${esc(w)}</span>`).join('')}</span>`
+    : writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
   // the sentence text sits ON the lane's base line: pad the line-2 spans up from the SVG's bottom edge by
   // (laneH - yBase - the font's descent), measured off the same geometry the writing row rules itself by
   const geo = textLaneGeometry({ h: laneH, glyphH, heightUnits: LM.base - LM.ascender, inkTop: LM.ascender, inkBottom: LM.desc });
@@ -203,12 +207,12 @@ function oppositePrefixChips({ prefixes, px = 22 }) {
   return `<div class="ws-nstrip" style="gap:12px;flex:0 0 auto;margin-bottom:12px" data-lcs-prefix-legend="${prefixes.length}">${chips}</div>`;
 }
 
-function oppositePrefixRow({ n, base, prefix, expected, wordPx = 24, colW = 220, laneW = 300, laneH = 56, glyphH = 26 }) {
+function oppositePrefixRow({ n, base, prefix, expected, wordPx = 24, colW = 220, laneW = 300, laneH = 56, glyphH = 26, showPrefix = false }) {
   const lane = writingRow({ w: laneW, h: laneH, glyphH, xHeight: true }).svg;
   return `<div class="ws-lane" style="padding:6px 12px;display:flex;align-items:center;gap:12px;min-height:0" data-ws-content ` +
     `data-lcs-prefix-row="${n}" data-lcs-base="${esc(base)}" data-lcs-prefix="${esc(prefix)}" data-lcs-expected="${esc(expected)}">` +
     badge(n) +
-    `<div style="display:flex;align-items:center;width:${colW}px;min-width:0">${wordSpan(base, wordPx, ' data-lcs-base-word')}</div>` +
+    `<div style="display:flex;align-items:center;${showPrefix ? 'gap:8px;' : ''}width:${colW}px;min-width:0">${showPrefix ? `<span class="ws-pill" style="font-size:${wordPx - 2}px;min-height:40px;line-height:${wordPx + 2}px;flex:0 0 auto" data-lcs-row-prefix="${esc(showPrefix)}">${esc(showPrefix)}-</span>` : ''}${wordSpan(base, wordPx, ' data-lcs-base-word')}</div>` +
     oppositeArrow({ w: 48, h: 24 }) +
     `<span data-lcs-prefix-slot style="display:flex">${lane}</span></div>`;
 }

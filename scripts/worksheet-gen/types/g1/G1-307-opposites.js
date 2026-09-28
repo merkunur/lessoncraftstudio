@@ -58,6 +58,49 @@ const { SENTENCES } = require('../../data/b2/sentences.js');
 const tokens = require('../../primitives/_tokens.js');
 
 const BANK = 'opposites';
+const OPP_SCREEN = require('../../lib/opposites-screen.js');
+/** The screen-version contract per layout (tap-choice); the oracle re-derives answers from the merged bank. */
+function interactiveFor(layout) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-key', labelAttr: 'data-lcs-pair',
+    metaAttrs: ['data-lcs-pair', 'data-lcs-given', 'data-lcs-base'], instructionKey: layout, screenHeight: 3600,
+    oracle: (items, l) => { const loc = (l || 'en').slice(0, 2); return OPP_SCREEN.oracle(layout, items, loc, mergedBank(loc)); },
+  };
+}
+const LAYOUT_SCREEN = { match: 'match', frames: 'frames', choice: 'choice', prefix: 'prefix' };   // pairup: printable only
+
+/*
+ * Level Set 2026-09-28: new copies read the published bank + the native panels' additions. Shape per locale:
+ *   { pairs:[new pair entries, the bank's own shape], picAdd:{ <existing pair id>: pic } (a picture for a
+ *     published pair, opened), frames:[new frames], prefixItems:[new prefix items], opened:{ "theme/noun":
+ *     ["<pair id>:<slot>"] } } — the published pages never read it.
+ */
+let _ls;
+function levelSetData() {
+  if (_ls === undefined) {
+    const f = require('path').join(__dirname, '..', '..', 'data', 'b3', 'opposites-levelset.json');
+    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  }
+  return _ls;
+}
+function mergedBank(loc) {
+  const b = loadBank(BANK, loc);
+  const x = (levelSetData() || {})[loc];
+  if (!x) return b;
+  const picAdd = x.picAdd || {};
+  const back = new Map();   // published id → new pair ids that declared exclusiveWith it (mirrored for symmetry)
+  for (const q of x.pairs || []) for (const e of q.exclusiveWith || []) (back.get(e) || back.set(e, []).get(e)).push(q.id);
+  const pairs = b.pairs.map((p) => (picAdd[p.id] && !p.pic ? { ...p, pic: picAdd[p.id], picOpened: true } : p))
+    .map((p) => (back.has(p.id) ? { ...p, exclusiveWith: [...(p.exclusiveWith || []), ...back.get(p.id)] } : p));
+  const pre = b.prefix || {};
+  return {
+    ...b,
+    pairs: [...pairs, ...(x.pairs || [])],
+    frames: [...(b.frames || []), ...(x.frames || [])],
+    prefix: { ...pre, items: [...(pre.items || []), ...(x.prefixItems || [])] },
+    ...(b.opened || x.opened ? { opened: { ...(b.opened || {}), ...(x.opened || {}) } } : {}),
+  };
+}
 const WORD_RE = /^[\p{L}\- ]+$/u;
 const CARD_INNER = 302;          // (675 - 14) / 2 = 330.5 card - 2 × (12 padding + 2 border)
 const LINE_INNER = CARD_INNER - 20;   // line 1 carries margin-left 20 (badge clearance, see oppositeCard)
@@ -147,8 +190,24 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc }, ctx);
+    // Level Set 2026-09-28: the published page (core level, copy 1) reads the published bank ONLY, byte-identical;
+    // every other copy reads the bank merged with the native panels' additions (data/b3/opposites-levelset.json)
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (published) return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc }, ctx);
+    const bank = mergedBank(loc);
+    // the screen version / answer key wrap the SAME printed instance (the print build, then its meta drives both)
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const d = this.difficulty[difficulty];
+      const layout = d.layout ? LAYOUT_SCREEN[d.layout] : 'write';
+      if (!layout) throw new Error(`${this.id}: layout ${d.layout} has no screen version`);
+      const built = this._buildWith(bank, { theme, difficulty, locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return OPP_SCREEN.screenOrKey(layout, built, ctx, loc, bank, resolvePic);
+    }
+    return this._buildWith(bank, { theme, difficulty, locale: loc }, ctx);
   },
+  mergedBank: (loc) => mergedBank(loc),
+  interactive: interactiveFor('write'), interactiveFor,
+  levelSetData: () => levelSetData(),
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. */
   _buildWith(bank, { difficulty, locale }, ctx) {
@@ -216,7 +275,7 @@ module.exports = {
         } else if (pic.kind === 'two') {
           cue = { picA: resolvePic(pic.a, loc, who), picB: resolvePic(pic.b, loc, who), transformB: 'none', size: d.cuePx, w: cueBox.twoW, h: cueBox.h, cueKey: c.pair.id };
         } else throw new Error(`${who}: pair ${c.pair.id} has an unknown pic.kind "${pic.kind}"`);
-        if (ARROW_W + wordEstimate(c.given, d.wordPx) + 8 + cue.w > LINE_INNER) { uncuedForWidth++; continue; }
+        if (ARROW_W + 0.64 * d.wordPx * [...c.given].length + 8 + cue.w > LINE_INNER) { uncuedForWidth++; continue; }   // Level Set 2026-09-28: 0.56 ran short on wide letters (da/no/sv "sommer")
         c.cue = cue;
         cued++;
       }
@@ -293,7 +352,7 @@ module.exports = {
     const who = this.id, rng = ctx.rng;
     if (!(d.pairs >= 4 && d.pairs <= 8)) throw new Error(`${who}: pairs ${d.pairs} outside the K page rule 4..8`);
     if (d.picPx < K_FLOOR || d.scalePx < K_FLOOR) throw new Error(`${who}: picture ${Math.min(d.picPx, d.scalePx)} px below the K floor ${K_FLOOR}`);
-    if (!(d.picPx / d.scalePx >= 1.3)) throw new Error(`${who}: scale ratio ${d.picPx}/${d.scalePx} < 1.3`);
+    if (d.maxScale > 0 && !(d.picPx / d.scalePx >= 1.3)) throw new Error(`${who}: scale ratio ${d.picPx}/${d.scalePx} < 1.3`);   // no scale pair, no ratio
     if (d.wordPx < 26) throw new Error(`${who}: wordPx ${d.wordPx} below the floor 26`);
     const inner = d.tileW - 4 - 16 - 10;   // border + padding + the picture gap
     const pool = this._pool(bank, d, loc, who).filter((p) => p.pic && p.picOpened === true);
@@ -400,44 +459,55 @@ module.exports = {
       if (est > 2 * BANK_INNER) throw new Error(`${who}: bank of ${answers.length} words estimates ${Math.round(est)} px > two rows — refuse`);
       bankHtml = wordBank({ words: bankOrder.map((i) => ({ word: answers[i] })), wordPx: 18 });
     }
-    const lanes = rows.map((r) => oppositeFrameRow({ ...r, picPx: d.picPx, textW: d.textW, fontPx: d.fontPx, laneW, laneH: d.laneH, glyphH: d.glyphH })).join('');
+    // Level Set L1 (`choose`): two pills — the answer and the word the sentence already gives — in place of the lane
+    const lanes = rows.map((r) => oppositeFrameRow({ ...r, picPx: d.picPx, textW: d.textW, fontPx: d.fontPx, laneW, laneH: d.laneH, glyphH: d.glyphH,
+      ...(d.choose ? { choose: rng.next() < 0.5 ? [r.answer, r.given] : [r.given, r.answer], pillPx: d.pillPx || 20 } : {}) })).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${rows.length},minmax(0,1fr));gap:${d.gap}px;min-height:0;padding-bottom:4px" data-lcs-frame-grid>${lanes}</div>`;
-    const bodyHtml = this._faceRoot('frames', ` data-lcs-rows="${rows.length}"${d.bank ? ' data-lcs-has-bank="1"' : ''}`, bankHtml + grid);
+    const bodyHtml = this._faceRoot('frames', ` data-lcs-rows="${rows.length}"${d.bank ? ' data-lcs-has-bank="1"' : ''}${d.choose ? ' data-lcs-choose="1"' : ''}`, bankHtml + grid);
     return { bodyHtml, meta: { pairs: rows.map((r) => r.pair), answers: rows.map((r) => r.answer), names: rows.map((r) => r.name), bankOrder, laneW, unusable: frames.length - usable.length } };
   },
 
   /** F3 — Pair Up the Opposites (G1). */
   _buildPairup(bank, d, loc, ctx) {
     const who = this.id, rng = ctx.rng;
-    if (!(d.pairs >= 6 && d.pairs <= 8)) throw new Error(`${who}: pairs ${d.pairs} outside 6..8`);
+    if (!(d.pairs >= (d.minPairs || 6) && d.pairs <= 8)) throw new Error(`${who}: pairs ${d.pairs} outside ${d.minPairs || 6}..8`);
     if (d.glyphH < 26) throw new Error(`${who}: glyphH ${d.glyphH} below the G1 handwriting floor 26`);
     const pool = this._pool(bank, d, loc, who);
     if (pool.length < d.pairs) throw new Error(`${who}: ${loc} has ${pool.length} pairs of tiers ${d.tiers.join('/')} with both members <= ${d.maxLetters} letters, need ${d.pairs} (refuse)`);
     const chosen = samplePairs(rng, pool, d.pairs, who);
     const chips = [];
     for (const p of chosen) chips.push({ word: p.a, pair: p.id }, { word: p.b, pair: p.id });
+    // Level Set L3 (`odd`): words whose partner is NOT on the page — one member each of pairs not chosen (and not
+    // exclusiveWith a chosen pair, so no odd word can honestly pair with a page word)
+    const oddWords = [];
+    if (d.odd) {
+      const free = rng.shuffle(pool.filter((p) => !chosen.includes(p) && !chosen.some((c) => (c.exclusiveWith || []).includes(p.id) || (p.exclusiveWith || []).includes(c.id))));
+      for (const p of free) { if (oddWords.length === d.odd) break; const w = rng.next() < 0.5 ? p.a : p.b; oddWords.push(w); chips.push({ word: w, pair: '' }); }
+      if (oddWords.length < d.odd) throw new Error(`${who}: ${loc} has too few pairs left for ${d.odd} odd words (refuse)`);
+    }
     let order, tries = 0;
     do {
       order = rng.shuffle(chips);
       tries++;
       if (tries > 500) throw new Error(`${who}: could not separate the chips of every pair (|i - j| >= 2)`);
-    } while (order.some((c, i) => order.some((o, j) => o !== c && o.pair === c.pair && Math.abs(i - j) < 2)));
+    } while (order.some((c, i) => c.pair && order.some((o, j) => o !== c && o.pair === c.pair && Math.abs(i - j) < 2)));
     const lanes = Array.from({ length: chosen.length }, (_, i) => oppositePairLane({ n: i + 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH })).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:10px;min-height:0;margin-top:16px" data-lcs-pair-grid>${lanes}</div>`;
-    const bodyHtml = this._faceRoot('pairup', ` data-lcs-pairs="${chosen.length}"`, oppositeChipRow({ chips: order, fontPx: d.fontPx, tileH: d.tileH }) + grid);
-    return { bodyHtml, meta: { pairs: chosen.map((p) => p.id), chips: order.map((c) => c.word), chipPairs: order.map((c) => c.pair) } };
+    const bodyHtml = this._faceRoot('pairup', ` data-lcs-pairs="${chosen.length}"${d.odd ? ` data-lcs-odd="${d.odd}"` : ''}`, oppositeChipRow({ chips: order, fontPx: d.fontPx, tileH: d.tileH }) + grid);
+    return { bodyHtml, meta: { pairs: chosen.map((p) => p.id), chips: order.map((c) => c.word), chipPairs: order.map((c) => c.pair), ...(d.odd ? { odd: oddWords } : {}) } };
   },
 
   /** F4 — Opposite or the Same? (G1). */
   _buildChoice(bank, d, loc, ctx) {
     const who = this.id, rng = ctx.rng;
     if (!(d.rows >= 6 && d.rows <= 8)) throw new Error(`${who}: rows ${d.rows} outside 6..8`);
-    if (d.chips !== 3) throw new Error(`${who}: chips ${d.chips} — the discriminating page needs the antonym, the near-synonym and a far word`);
+    if (![2, 3, 4].includes(d.chips)) throw new Error(`${who}: chips ${d.chips} — 2 (antonym + far), 3 (+ the near-synonym) or 4 (+ a second far word)`);
+    const withSyn = d.chips >= 3;   // Level Set L1 (2 chips) drops the near-synonym trap
     const lower = (s) => String(s).toLocaleLowerCase(loc);
     const all = checkBijection(Array.isArray(bank.pairs) ? bank.pairs : [], loc, who);
     const byWord = new Map();
     for (const p of all) { byWord.set(lower(p.a), p); byWord.set(lower(p.b), p); }
-    const pool = this._pool(bank, d, loc, who).filter((p) => d.synonym ? (p.syn && typeof p.syn.a === 'string') : true).filter((p) => typeof p.far === 'string')
+    const pool = this._pool(bank, d, loc, who).filter((p) => d.synonym && withSyn ? (p.syn && typeof p.syn.a === 'string') : true).filter((p) => typeof p.far === 'string')
       .filter((p) => [p.a, p.b, p.syn && p.syn.a, p.far].every((w) => !w || (WORD_RE.test(w) && [...w].length <= d.maxLetters)));
     if (pool.length < d.rows) throw new Error(`${who}: ${loc} has ${pool.length} pairs with syn + far (all words <= ${d.maxLetters}), need ${d.rows} (refuse)`);
     // words on the page: target a, antonym b, syn.a, far — none twice; syn.a never a second right answer
@@ -446,14 +516,26 @@ module.exports = {
       const order = rng.shuffle(pool);
       taken = [];
       const used = new Set();
-      for (const p of order) {
+      for (let p of order) {
         if (taken.length === d.rows) break;
-        const words = [p.a, p.b, p.syn.a, p.far].map(lower);
-        if (new Set(words).size !== 4 || words.some((w) => used.has(w))) continue;
+        const base = withSyn ? [p.a, p.b, p.syn.a, p.far] : [p.a, p.b, p.far];
+        // a second far word (4 chips): a member of another pair, of a family other than p's and the far word's
+        let far2 = null;
+        if (d.chips === 4) {
+          const farFam = (byWord.get(lower(p.far)) || {}).family;
+          const cands = rng.shuffle(all.filter((q) => q.id !== p.id && q.family !== p.family && q.family !== farFam))
+            .flatMap((q) => [q.a, q.b]).filter((w) => WORD_RE.test(w) && [...w].length <= d.maxLetters && !base.map(lower).includes(lower(w)) && !used.has(lower(w)));
+          far2 = cands[0] || null;
+          if (!far2) continue;
+        }
+        const words = [...base, ...(far2 ? [far2] : [])].map(lower);
+        if (new Set(words).size !== words.length || words.some((w) => used.has(w))) continue;
+        if (d.chips !== 3 && words.slice(1).reduce((sum, w) => sum + 52 + 0.5 * d.pillPx * [...w].length, 0) + 2 * 12 > LANE_INNER) continue;   // the row must fit (published: checked below)
+        p = { ...p, _far2: far2 };
         if (taken.some((t) => (t.exclusiveWith || []).includes(p.id) || (p.exclusiveWith || []).includes(t.id))) continue;
         const farOwner = byWord.get(lower(p.far));
         if (!farOwner || farOwner.id === p.id || farOwner.family === p.family) continue;
-        if ((p.alt && (p.alt.b || []).map(lower).includes(lower(p.syn.a)))) throw new Error(`${who}: pair ${p.id} syn.a "${p.syn.a}" is an accepted answer for "${p.b}" — a second correct chip (refuse)`);
+        if (withSyn && (p.alt && (p.alt.b || []).map(lower).includes(lower(p.syn.a)))) throw new Error(`${who}: pair ${p.id} syn.a "${p.syn.a}" is an accepted answer for "${p.b}" — a second correct chip (refuse)`);
         taken.push(p); words.forEach((w) => used.add(w));
       }
       if (taken.length === d.rows) break;
@@ -463,7 +545,7 @@ module.exports = {
     let rows;
     for (let tries = 0; ; tries++) {
       rows = taken.map((p) => {
-        const pills = rng.shuffle([{ word: p.b, role: 'antonym' }, { word: p.syn.a, role: 'syn' }, { word: p.far, role: 'far' }]);
+        const pills = rng.shuffle([{ word: p.b, role: 'antonym' }, ...(withSyn ? [{ word: p.syn.a, role: 'syn' }] : []), { word: p.far, role: 'far' }, ...(p._far2 ? [{ word: p._far2, role: 'far' }] : [])]);
         return { pair: p.id, target: p.a, b: p.b, pills, correct: pills.findIndex((x) => x.role === 'antonym') };
       });
       if (new Set(rows.map((r) => r.correct)).size === d.chips) break;
@@ -496,7 +578,7 @@ module.exports = {
       if (ban.has(lower(it.base))) throw new Error(`${who}: item ${it.base} is BANNED (prefix.ban) — refuse`);
       if (!WORD_RE.test(it.base) || !WORD_RE.test(it.expected)) return false;
       if ([...it.expected].length > d.maxLetters) return false;                       // the written word must fit the lane
-      if (wordEstimate(it.base, d.wordPx) > d.colW) return false;                      // the printed base must fit its column
+      if (wordEstimate(it.base, d.wordPx) + (d.showPrefix ? 40 + 0.6 * d.wordPx * [...it.expected.slice(0, it.expected.length - it.base.length)].length : 0) > d.colW) return false;   // the printed base (+ its row prefix chip) must fit its column
       return true;
     });
     const seen = new Set();
@@ -504,10 +586,10 @@ module.exports = {
     if (items.length < d.rows) throw new Error(`${who}: ${loc} has ${items.length} usable prefix items, need ${d.rows} (refuse)`);
     const chosen = rng.shuffle(items).slice(0, d.rows);
     const used = prefixes.filter((p) => chosen.some((it) => it.prefix === p));
-    const lanes = chosen.map((it, i) => oppositePrefixRow({ n: i + 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH })).join('');
+    const lanes = chosen.map((it, i) => oppositePrefixRow({ n: i + 1, base: it.base, prefix: it.prefix, expected: it.expected, wordPx: d.wordPx, colW: d.colW, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, ...(d.showPrefix ? { showPrefix: it.expected.slice(0, it.expected.length - it.base.length) } : {}) })).join('');
     const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${chosen.length},minmax(0,1fr));gap:6px;min-height:0" data-lcs-prefix-grid>${lanes}</div>`;
     const legend = d.showLegend ? oppositePrefixChips({ prefixes: used, px: d.legendPx }) : '';
-    const bodyHtml = this._faceRoot('prefix', ` data-lcs-rows="${chosen.length}" data-lcs-legend="${used.join(',')}"`, legend + grid);
+    const bodyHtml = this._faceRoot('prefix', ` data-lcs-rows="${chosen.length}" data-lcs-legend="${used.join(',')}"${d.showPrefix ? ' data-lcs-row-prefixes="1"' : ''}${d.showLegend ? '' : ' data-lcs-no-legend="1"'}`, legend + grid);
     return { bodyHtml, meta: { bases: chosen.map((it) => it.base), prefixes: used, dropped: (pre.items || []).length - items.length } };
   },
 
@@ -617,14 +699,25 @@ module.exports = {
           if (pairs.has(pair)) fails.push(`${what}: pair ${pair} twice`); pairs.add(pair);
           if (given !== a && given !== b) fails.push(`${what}: given "${given}" is neither member`);
           if (lower(answer) === lower(given)) fails.push(`${what}: answer === given`);
-          const text = [...lane.querySelectorAll('[data-lcs-frame-line] span')].map((s) => s.textContent).join(' ').replace(/\s+/g, ' ').trim();
+          const textSpans = [...lane.querySelectorAll('[data-lcs-frame-line] span')].filter((s) => !s.closest('[data-lcs-frame-choose]'));   // the choice pills are not sentence text
+          const text = textSpans.map((s) => s.textContent).join(' ').replace(/\s+/g, ' ').trim();
           if (!wordIn(given, text)) fails.push(`${what}: the given word "${given}" is not in the text "${text}"`);
           if (wordIn(answer, text)) fails.push(`${what}: the answer "${answer}" is printed in the text`);
           if (/[{}]|___/.test(text)) fails.push(`${what}: an unfilled slot in "${text}"`);
-          lane.querySelectorAll('[data-lcs-frame-line] span').forEach((s) => { fontAtLeast(s, 16, what); notClipped(s, what); within(s, lane, `${what}: text`); });
+          textSpans.forEach((s) => { fontAtLeast(s, 16, what); notClipped(s, what); within(s, lane, `${what}: text`); });
           const l1 = lane.querySelector('[data-lcs-frame-line="1"]'), l2 = lane.querySelector('[data-lcs-frame-line="2"]');
           if (l1 && l2 && l1.textContent.trim() && rect(l1).bottom > rect(l2).top + 0.6) fails.push(`${what}: line 1 overlaps line 2`);
-          emptyRows(lane, 1, what, 56);
+          if (root.dataset.lcsChoose) {
+            // Level Set L1: two pills (the answer + the given word) instead of a writing lane
+            const pills = [...lane.querySelectorAll('[data-lcs-frame-choose] [data-lcs-pill]')];
+            if (pills.length !== 2) fails.push(`${what}: ${pills.length} choice pills (want 2)`);
+            const words = pills.map((q) => lower(q.textContent.trim())).sort().join('|');
+            if (words !== [lower(answer), lower(given)].sort().join('|')) fails.push(`${what}: pills ${words} ≠ the answer and the given word`);
+            const ok1 = pills.filter((q) => q.dataset.lcsCorrectPill === '1');
+            if (ok1.length !== 1 || lower(ok1[0].textContent.trim()) !== lower(answer)) fails.push(`${what}: the correct pill is not the answer`);
+            pills.forEach((q, j) => { fontAtLeast(q, 20, `${what} pill ${j + 1}`); notClipped(q, what); within(q, lane, `${what}: pill ${j + 1}`); if (rect(q).height < 40 - 0.6) fails.push(`${what}: pill ${j + 1} < 40 px`); });
+            if (lane.querySelectorAll('[data-lcs-prim="writing-row"]').length) fails.push(`${what}: a writing lane on a choose page`);
+          } else emptyRows(lane, 1, what, 56);
           const im = lane.querySelector('img');
           if (im) { picOk(im, what, 44); within(im, lane, `${what}: picture`); }
           if (givens.has(lower(given))) fails.push(`${what}: given "${given}" twice`); givens.add(lower(given));
@@ -651,9 +744,10 @@ module.exports = {
         const n = +root.dataset.lcsPairs;
         const chips = [...root.querySelectorAll('[data-lcs-chip]')];
         const lanes = [...root.querySelectorAll('[data-lcs-pairlane]')];
-        if (chips.length !== 2 * n) fails.push(`${chips.length} chips ≠ 2 × ${n}`);
+        const odd = +(root.dataset.lcsOdd || 0);
+        if (chips.length !== 2 * n + odd) fails.push(`${chips.length} chips ≠ 2 × ${n} + ${odd} odd`);
         if (lanes.length !== n) fails.push(`${lanes.length} lanes ≠ stamp ${n}`);
-        if (n < 6 || n > 8) fails.push(`${n} pairs outside 6..8`);
+        if (n < 4 || n > 8) fails.push(`${n} pairs outside 4..8`);
         const count = new Map(), words = new Set();
         chips.forEach((c, i) => {
           const what = `chip ${i + 1}`;
@@ -661,11 +755,11 @@ module.exports = {
           const lw = lower(c.dataset.lcsChip);
           if (words.has(lw)) fails.push(`${what}: word "${c.dataset.lcsChip}" twice on the page`); words.add(lw);
           count.set(c.dataset.lcsChipPair, (count.get(c.dataset.lcsChipPair) || 0) + 1);
-          if (i + 1 < chips.length && chips[i + 1].dataset.lcsChipPair === c.dataset.lcsChipPair) fails.push(`chips ${i + 1} and ${i + 2} are one pair, adjacent`);
+          if (c.dataset.lcsChipPair && i + 1 < chips.length && chips[i + 1].dataset.lcsChipPair === c.dataset.lcsChipPair) fails.push(`chips ${i + 1} and ${i + 2} are one pair, adjacent`);
           if (rect(c).height < 44 - 0.6) fails.push(`${what}: ${Math.round(rect(c).height)} px high < 44`);
           fontAtLeast(c, 18, what); notClipped(c, what); inside(c, what);
         });
-        for (const [k, v] of count) if (v !== 2) fails.push(`pair ${k} has ${v} chips`);
+        for (const [k, v] of count) { if (k === '') { if (v !== odd) fails.push(`${v} odd chips ≠ stamp ${odd}`); } else if (v !== 2) fails.push(`pair ${k} has ${v} chips`); }
         const chipRows = new Set(chips.map((c) => Math.round(rect(c).top)));
         if (chipRows.size > 3) fails.push(`chips wrap to ${chipRows.size} rows`);
         lanes.forEach((lane, i) => {
@@ -705,7 +799,8 @@ module.exports = {
           if (!(pills[ci] && lower(pills[ci].textContent.trim()) === lower(b))) fails.push(`${what}: data-lcs-correct ${correct} does not point at "${b}"`);
           if (!(pills[ci] && pills[ci].dataset.lcsCorrectPill === '1')) fails.push(`${what}: the correct pill is not flagged`);
           const roles = pills.map((p) => p.dataset.lcsRole).sort().join(',');
-          if (roles !== 'antonym,far,syn') fails.push(`${what}: roles ${roles}`);
+          const wantRoles = { 2: 'antonym,far', 3: 'antonym,far,syn', 4: 'antonym,far,far,syn' }[k];
+          if (roles !== wantRoles) fails.push(`${what}: roles ${roles} (want ${wantRoles})`);
           pills.forEach((p, j) => {
             if (p.textContent.trim() !== p.dataset.lcsPill) fails.push(`${what}: pill ${j + 1} prints "${p.textContent.trim()}" ≠ stamp`);
             if (lower(p.textContent.trim()) === lower(target)) fails.push(`${what}: pill ${j + 1} repeats the target`);
@@ -740,7 +835,13 @@ module.exports = {
           if (!expected.startsWith(prefix)) fails.push(`${what}: expected "${expected}" does not start with "${prefix}"`);
           if (!legend.includes(prefix)) fails.push(`${what}: prefix "${prefix}" is not in the legend ${JSON.stringify(legend)}`);
           const text = row.textContent.replace(/\s+/g, ' ').trim();
-          if (text.replace(/^\d+\s*/, '') !== base) fails.push(`${what}: prints "${text}" (only the number and the base may show)`);
+          // Level Set L1 (data-lcs-row-prefixes): the row also prints its own prefix chip ("un-") before the base
+          // the chip and the base are separate spans (textContent has no space between them): compare unspaced
+          const realPrefix = expected.slice(0, expected.length - base.length);   // the letters the answer really starts with
+          const shown = root.dataset.lcsRowPrefixes ? `${realPrefix}-${base}` : base;
+          const seen = root.dataset.lcsRowPrefixes ? text.replace(/^\d+\s*/, '').replace(/\s+/g, '') : text.replace(/^\d+\s*/, '');
+          if (seen !== shown) fails.push(`${what}: prints "${text}" (only the number${root.dataset.lcsRowPrefixes ? ', its prefix' : ''} and the base may show)`);
+          if (root.dataset.lcsRowPrefixes) { const rp = row.querySelector('[data-lcs-row-prefix]'); if (!rp || rp.dataset.lcsRowPrefix !== realPrefix) fails.push(`${what}: the row prefix chip is not "${realPrefix}"`); }
           if (wordIn(expected, row.textContent)) fails.push(`${what}: the answer "${expected}" is printed`);
           if (bases.has(lower(base))) fails.push(`${what}: base "${base}" twice`); bases.add(lower(base));
           used.add(prefix);
@@ -749,7 +850,8 @@ module.exports = {
           inside(row, what);
         });
         const strip = root.querySelector('[data-lcs-prefix-legend]');
-        if (!strip) fails.push('no legend strip');
+        if (root.dataset.lcsNoLegend) { if (strip) fails.push('a legend strip on a no-legend page'); }
+        else if (!strip) fails.push('no legend strip');
         else {
           const chips = [...strip.querySelectorAll('[data-lcs-prefix]')];
           const shown = chips.map((c) => c.dataset.lcsPrefix);

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-336',
   slug: 'opposites-pair-up',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: undefined,   // Level Set 2026-09-28: printable only (sorting words into written pairs has no single-answer tap)
+  // Level Set 2026-09-28: L1 four pairs · L3 seven pairs + two words with no partner (16 words; eight did not fit long-word locales); L2 = the published page (the same object)
+  difficulty: { 1: { ...D, pairs: 4, minPairs: 4 }, 2: D, 3: { ...D, pairs: 7, odd: 2, laneH: 56, fontPx: 18 } },
   i18n: { en: { title: "Pair Up the Opposites", instruction: "Find the two words that are opposites. Write each pair on a line, one word on each side of the arrow." } },
 };

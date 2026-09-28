@@ -89,7 +89,7 @@ function themelessWaves() {
           meta = JSON.stringify(b.meta);
         }
         const m0 = JSON.parse(meta);
-        return new Set([...(m0.wholes || m0.items || m0.letters || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
+        return new Set([...(m0.wholes || m0.items || m0.letters || m0.pairs || m0.bases || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
       };
       const fits = (lv, unit, copy, sv) => {
         const s0 = withLevelInstruction(resolveStrings(spec.id, loc, spec), spec.id, lv, loc);

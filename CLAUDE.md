@@ -10,7 +10,8 @@
 
 Operator ruling, verbatim: *"It is absolutely unacceptable to have any educational content on the website with a mistake. Never ask again. As soon as you notice any pedagogical mistake in any of the content it should become your top priority to correct it. This is a standing rule."*
 
-- Any pedagogical mistake noticed in ANY content — worksheets, decks, answer keys, activities, tools, landings, instructions, word banks, pictures — is the **top priority the moment it is noticed**: fix it and **republish the live pages in place**. Never ask whether to fix it, never offer the fix, never leave it "pending an operator decision".
+- Any pedagogical mistake noticed in ANY content — worksheets, decks, answer keys, activities, tools, instructions, word banks, pictures — is the **top priority the moment it is noticed**: fix it and **republish the live pages in place**. Never ask whether to fix it, never offer the fix, never leave it "pending an operator decision".
+- **Landing pages and metadata are OUT of this rule** (operator 2026-09-30): never correct landing text, titles or meta descriptions unless the operator explicitly asks — a republished worksheet does NOT trigger a landing edit.
 - A fix applied to new pages only is not a fix — the published pages carrying the same mistake are fixed in the same piece of work (`publish-wave --updates-manifest`; re-run `repoint-deck-canonical.js` for landing-backed decks).
 - For content corrections this **overrides the §10.3 ask-first list** (incl. `REFERENCE TRANSLATIONS/image-vocabulary.js` wording fixes and republishing published pages). It does not authorise non-content risks (dropping tables, credentials, dependencies).
 - A content defect recorded anywhere (memory, audit, panel notes) as "surfaced, not fixed" is an open top-priority task. Memory: `feedback_fix_pedagogical_mistakes_immediately.md`.

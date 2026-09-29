@@ -21,7 +21,10 @@ const SB = require('../../lib/sentence-bank.js');
 const COLOR_KEYS = ['red', 'blue', 'yellow', 'green', 'orange', 'purple', 'brown', 'pink'];
 // in LINE ART the round fruits are one silhouette; a distractor must never be a lookalike of the target
 const OPAQUE_ASSETS = new Set(['seal']); // animals bw seal@3x.webp has no alpha (measured 2026-09-02)
-const CONFUSABLES = [['apple', 'orange', 'peach', 'apricot', 'nectarine', 'plum', 'cherry', 'cherries', 'tomato', 'mandarin', 'tangerine', 'clementine', 'lime', 'grapefruit', 'pomegranate', 'coconut', 'melon', 'onion'], ['lemon', 'mango', 'papaya', 'pear', 'fig', 'avocado'], ['blueberry', 'blueberries', 'grape', 'grapes', 'blackberry', 'blackberries', 'raspberry', 'raspberries'], ['cat', 'kitten'], ['bull', 'cow', 'calf'], ['dog', 'puppy'], ['duck', 'duckling'], ['hen', 'chicken', 'chick', 'rooster'], ['sheep', 'lamb'], ['horse', 'foal', 'pony'], ['goat', 'kid'], ['pig', 'piglet']];
+const CONFUSABLES = [['apple', 'orange', 'peach', 'apricot', 'nectarine', 'plum', 'cherry', 'cherries', 'tomato', 'mandarin', 'tangerine', 'clementine', 'lime', 'grapefruit', 'pomegranate', 'coconut', 'melon', 'onion', 'watermelon'], ['lemon', 'mango', 'papaya', 'pear', 'fig', 'avocado'], ['blueberry', 'blueberries', 'grape', 'grapes', 'blackberry', 'blackberries', 'raspberry', 'raspberries'], ['cat', 'kitten'], ['bull', 'cow', 'calf'], ['dog', 'puppy'], ['duck', 'duckling'], ['hen', 'chicken', 'chick', 'rooster'], ['sheep', 'lamb'], ['horse', 'foal', 'pony'], ['goat', 'kid'], ['pig', 'piglet'],
+  // 2026-09-30 native audit: line-art look-alikes a child cannot tell apart on one card
+  ['swan', 'goose', 'duck'], ['capybara', 'otter', 'beaver', 'hamster', 'guinea-pig', 'marmot', 'groundhog'], ['bear', 'panda', 'polar-bear', 'teddy-bear', 'koala'],
+  ['tractor', 'loader', 'monster-truck', 'garbage-truck', 'truck', 'bulldozer', 'excavator'], ['goat', 'reindeer', 'deer']];
 
 module.exports = {
   id: 'G1-242',
@@ -52,17 +55,45 @@ module.exports = {
     const words = COLOR_WORDS[loc];
     if (!words) throw new Error(`G1-242: no colour words for ${loc}`);
     const colorKeys = rng.shuffle(COLOR_KEYS.slice(0, d.colors)).slice(0, d.cards);
-    const entries = entriesFor(theme, loc).filter((e) => countable(e) && !OPAQUE_ASSETS.has(String(e.vocabKey).toLowerCase()));
+    const RCL = require('../../lib/read-and-color.js');
+    // the family's picture / word rules (2026-09-30 native audits) hold on EVERY page, published ones included
+    const entries = entriesFor(theme, loc).filter((e) => RCL.familyCountable(e) && !OPAQUE_ASSETS.has(String(e.vocabKey).toLowerCase()) && RCL.familyNoun(e, loc, words, theme));
+    // Level Set 2026-09-30: a NEW copy (never the published page: level 2, copy 1) takes only nouns every colour frame can
+    // name (fi: a partitive form exists), so one formless noun no longer sinks the whole theme
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published) {
+      const fb = require('../../lib/read-and-color.js').formFallback(loc);
+      const cf = bank.frames.filter((f) => f.kind === 'color');
+      const named = (e) => cf.every((f) => { try { return !!SB.resolveNoun(bank, f, e, loc, fb); } catch (err) { return false; } });
+      for (let i = entries.length - 1; i >= 0; i--) if (!named(entries[i])) entries.splice(i, 1);
+    }
     if (entries.length < d.cards + 2) throw new Error(`G1-242: theme ${theme}/${loc} has ${entries.length} nouns < ${d.cards + 2}`);
-    const targets = rng.sample(entries, d.cards);
+    // a page's targets: no two of them one thing / a young animal and its parent (pig + piglet), and a colour order in
+    // which no picture gets its own real colour (colours re-ordered deterministically; targets redrawn with the page rng)
+    const pairFree = (ts) => !ts.some((x, i) => ts.some((y, j) => j > i && RCL.sameThing(x.vocabKey, y.vocabKey)));
+    const baseColors = colorKeys.slice();
+    let targets = null;
+    for (let k = 0; k < 200 && !targets; k++) {
+      const ts = rng.sample(entries, d.cards);
+      if (!pairFree(ts)) continue;
+      const cs = baseColors.slice();
+      if (!RCL.avoidNatural(ts.map((e) => e.vocabKey), cs, COLOR_KEYS.slice(0, d.colors))) continue;
+      targets = ts;
+      cs.forEach((c, i) => { colorKeys[i] = c; });
+    }
+    if (!targets) throw new Error(`G1-242: no target set on ${theme}/${loc} without a same-thing pair and a real colour`);
     const frames = SB.pickFrames(bank, { kind: 'color', count: 1, rng });
     const framePool = bank.frames.filter((f) => f.kind === 'color');
-    const confus = (a, b) => CONFUSABLES.some((g) => g.includes(a) && g.includes(b));
+    const confus = (a, b) => CONFUSABLES.some((g) => g.includes(a) && g.includes(b)) || (a !== b && RCL.confusable(a, b));
     const cards = targets.map((e, i) => {
       const n = rng.int(d.nMin, d.nMax);
       const colorKey = colorKeys[i % colorKeys.length];
-      const frame = framePool[(i + framePool.indexOf(frames[0])) % framePool.length];
-      const nounText = SB.resolveNoun(bank, frame, e, loc);
+      // a frame the family skips (nl c5: circle AND colour) gives way to the NEXT frame in order - every card that never
+      // used it keeps exactly its frame
+      let fi = (i + framePool.indexOf(frames[0])) % framePool.length;
+      for (let k = 0; k < framePool.length && !RCL.familyFrame(framePool[fi], loc); k++) fi = (fi + 1) % framePool.length;
+      const frame = framePool[fi];
+      const nounText = SB.resolveNoun(bank, frame, e, loc, require('../../lib/read-and-color.js').formFallback(loc));
       const colorText = SB.colorInSentence(bank, words, colorKey);
       const name = rng.pick(bank.names);
       const sentence = SB.fillFrame(frame.text, { name, n, noun: nounText, color: colorText });

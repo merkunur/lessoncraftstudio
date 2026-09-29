@@ -1568,7 +1568,7 @@
     "instruction": "Les hver setning, og fargelegg nøyaktig det setningen sier."
   },
   "G1-252": {
-    "title": "Les og fargelegg: flere farger",
+    "title": "Les og fargelegg: seks setninger",
     "instruction": "Seks setninger og seks farger. Les nøye før du fargelegger."
   },
   "G1-255": {
@@ -2974,5 +2974,17 @@
   "K-387": {
     "title": "Fra bilde til bilde",
     "instruction": "Start på den oransje prikken ved siden av det første bildet. Spor den stiplede linjen helt fram til det andre bildet."
+  },
+  "G1-409": {
+    "title": "Les og fargelegg: to setninger",
+    "instruction": "Hver rute har to setninger. Les begge. Fargelegg akkurat de bildene hver setning sier."
+  },
+  "G1-410": {
+    "title": "Les og fargelegg: hulter til bulter",
+    "instruction": "Les hver setning. Finn bildene i den store ruten, og fargelegg akkurat det setningen sier."
+  },
+  "G1-411": {
+    "title": "Les og fargelegg: bare så mange",
+    "instruction": "Det er flere bilder enn setningen ber om. Les tallet, og fargelegg bare så mange."
   }
 }

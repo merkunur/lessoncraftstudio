@@ -1569,7 +1569,7 @@
   },
   "G1-252": {
     "title": "Leia e pinte: página cheia",
-    "instruction": "São seis frases, mais cores e até cinco figuras a pintar."
+    "instruction": "São seis frases e seis cores: leia com atenção."
   },
   "G1-255": {
     "title": "O número do dia: de 11 a 19",
@@ -2986,5 +2986,17 @@
   "K-387": {
     "title": "Traçados de um desenho a outro",
     "instruction": "Comece no ponto laranja ao lado do primeiro desenho. Cubra todo o caminho até chegar ao outro desenho."
+  },
+  "G1-409": {
+    "title": "Leia e pinte: duas frases",
+    "instruction": "Cada quadro tem duas frases. Leia as duas e pinte só as figuras que cada frase manda pintar."
+  },
+  "G1-410": {
+    "title": "Leia e pinte: procure no quadro grande",
+    "instruction": "Leia cada frase. Ache as figuras dela no quadro grande e pinte só as que a frase manda pintar."
+  },
+  "G1-411": {
+    "title": "Leia e pinte: pare no número",
+    "instruction": "Há mais figuras do que a frase pede. Leia o número e pinte só essa quantidade."
   }
 }

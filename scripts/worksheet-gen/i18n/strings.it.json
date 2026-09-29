@@ -1569,7 +1569,7 @@
   },
   "G1-252": {
     "title": "Leggi e colora: una pagina piena",
-    "instruction": "Più figure e più colori: leggi con attenzione."
+    "instruction": "Sei frasi e sei colori: leggi con attenzione."
   },
   "G1-255": {
     "title": "Il numero del giorno: da 11 a 19",
@@ -2962,5 +2962,17 @@
   "K-387": {
     "title": "Pregrafismo: da un disegno all'altro",
     "instruction": "Parti dal punto arancione vicino al primo disegno. Ripassa tutto il percorso fino all'altro disegno."
+  },
+  "G1-409": {
+    "title": "Leggi e colora: due frasi",
+    "instruction": "Ogni riquadro ha due frasi. Leggile tutte e due e colora solo le figure che dice ogni frase, con il colore giusto."
+  },
+  "G1-410": {
+    "title": "Leggi e colora: cerca nel riquadro grande",
+    "instruction": "Leggi ogni frase. Cerca le sue figure nel riquadro grande e colora solo quelle che dice la frase."
+  },
+  "G1-411": {
+    "title": "Leggi e colora: fermati al numero",
+    "instruction": "Ci sono più figure di quelle che chiede la frase. Leggi il numero e colora solo quelle, non di più."
   }
 }

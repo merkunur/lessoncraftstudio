@@ -1341,7 +1341,7 @@
   },
   "G1-252": {
     "title": "Read and Color: A Busy Page",
-    "instruction": "More pictures and more colors. Read each sentence carefully."
+    "instruction": "Six sentences and six colors. Read each sentence carefully."
   },
   "G1-255": {
     "title": "Number of the Day: Teen Numbers",
@@ -3002,5 +3002,17 @@
   "K-387": {
     "title": "Picture to Picture",
     "instruction": "Start at the orange dot next to the first picture. Trace the path all the way to the other picture."
+  },
+  "G1-409": {
+    "title": "Read and Color: Two Sentences",
+    "instruction": "Each box has two sentences. Read both. Then color exactly what each sentence tells you to."
+  },
+  "G1-410": {
+    "title": "Read and Color: All Mixed Up",
+    "instruction": "Read each sentence. Find its pictures in the big box and color exactly as many as the sentence says."
+  },
+  "G1-411": {
+    "title": "Read and Color: Stop at the Number",
+    "instruction": "There are more pictures than the sentence asks for. Read the number, color only that many, and stop."
   }
 }

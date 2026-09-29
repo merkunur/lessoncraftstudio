@@ -1568,7 +1568,7 @@
     "instruction": "Neljä lausetta ja neljä väriä. Väritä tarkasti."
   },
   "G1-252": {
-    "title": "Lue ja väritä: kiireinen sivu",
+    "title": "Lue ja väritä: täysi sivu",
     "instruction": "Kuusi lausetta ja kuusi väriä. Lue ne tarkasti."
   },
   "G1-255": {
@@ -2958,5 +2958,17 @@
   "K-387": {
     "title": "Kynäharjoitukset: kuvasta kuvaan",
     "instruction": "Aloita ensimmäisen kuvan vieressä olevasta oranssista pisteestä. Piirrä polkua pitkin aina toiseen kuvaan asti."
+  },
+  "G1-409": {
+    "title": "Lue ja väritä: kaksi lausetta",
+    "instruction": "Jokaisessa ruudussa on kaksi lausetta. Lue molemmat. Väritä vain ne kuvat, jotka kumpikin lause käskee värittää."
+  },
+  "G1-410": {
+    "title": "Lue ja väritä: kaikki sekaisin",
+    "instruction": "Lue lauseet yksi kerrallaan. Etsi lauseen kuvat isosta ruudusta ja väritä vain niin monta kuin lause sanoo."
+  },
+  "G1-411": {
+    "title": "Lue ja väritä: vain oikea määrä",
+    "instruction": "Kuvia on enemmän kuin lause pyytää. Lue luku ja väritä vain niin monta kuvaa."
   }
 }

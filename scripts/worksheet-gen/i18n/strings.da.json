@@ -2966,5 +2966,17 @@
   "K-387": {
     "title": "Fra billede til billede",
     "instruction": "Start ved den orange prik ved siden af det første billede. Følg den stiplede linje hele vejen hen til det andet billede."
+  },
+  "G1-409": {
+    "title": "Læs og farvelæg: to sætninger",
+    "instruction": "Hvert felt har to sætninger. Læs dem begge. Farvelæg præcis de billeder, hver sætning siger."
+  },
+  "G1-410": {
+    "title": "Læs og farvelæg: hulter til bulter",
+    "instruction": "Læs hver sætning. Find billederne i det store felt, og farvelæg præcis det, sætningen siger."
+  },
+  "G1-411": {
+    "title": "Læs og farvelæg: kun så mange",
+    "instruction": "Der er flere billeder, end sætningen beder om. Læs tallet, og farvelæg kun så mange."
   }
 }

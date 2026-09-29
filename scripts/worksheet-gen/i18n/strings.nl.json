@@ -2982,5 +2982,17 @@
   "K-387": {
     "title": "Van plaatje naar plaatje",
     "instruction": "Begin bij de oranje stip naast het eerste plaatje. Trek het pad helemaal na tot aan het andere plaatje."
+  },
+  "G1-409": {
+    "title": "Lees en kleur: twee zinnen per vak",
+    "instruction": "In elk vak staan twee zinnen. Lees ze allebei. Kleur bij elke zin precies de plaatjes die erin staan, in de juiste kleur."
+  },
+  "G1-410": {
+    "title": "Lees en kleur: alles door elkaar",
+    "instruction": "Lees elke zin. Zoek de plaatjes in het grote vak en kleur er precies zoveel als in de zin staat."
+  },
+  "G1-411": {
+    "title": "Lees en kleur: stop bij het getal",
+    "instruction": "Er staan meer plaatjes dan de zin vraagt. Lees het getal, kleur er precies zoveel en stop dan."
   }
 }

@@ -136338,9 +136338,9 @@
     "hedelmat-mv",
     "1-luokka"
    ],
-   "p1": "Tällä 1. luokan monisteella on kuusi korttia, ja jokaisessa on yksi lyhyt lause ja sen alla rivi mustavalkoisia ääriviivakuvia hedelmistä. Lause voi olla Aada värittää 4 omenaa oranssiksi tai Etsi 3 granaattiomenaa ja väritä ne violetiksi, ja kuvarivillä on neljä omenaa sekä pari banaania, joita lause ei mainitse. Sivun yläreunassa on värikartta, jossa jokaisen värin nimen vieressä on värimalli: oranssi, keltainen, vihreä, violetti, sininen ja punainen. Lapsi lukee lauseen, poimii kuvista ne hedelmät, jotka lause nimeää, laskee määrän ja värittää juuri ne, ei muita.",
-   "p2": "Tämä on lukemista, jolla on seuraus. Lapsi ei voi värittää oikeita hedelmiä lukematta hedelmän nimeä, lukusanaa ja värin nimeä ja pitämättä kaikkia kolmea mielessä yhtä aikaa, ja jokaisen rivin ylimääräinen hedelmä tekee silmäilystä hyödytöntä. Siinä on ero tähän sivuun ja värittämiseen numeron mukaan: tässä koodi on lause, ja lause on ymmärrettävä, ei vain sovitettava. OPS 2014 kuvaa ensimmäisen luokan lukemista niin, että oppilas lukee lyhyitä tekstejä ja toimii luetun mukaan, ja juuri sitä sivu mittaa. Opettaja näkee ymmärtämisen luokan toiselta puolelta: violetti sitruuna tai neljä väritettyä banaania kertovat tarinan heti. Suomessa värin nimi on lauseessa translatiivimuodossa, oranssiksi, keltaiseksi, ja kartta näyttää perusmuodon sen rinnalla, joten lapsi oppii yhdistämään ne, ja lapsi, joka lukee lauseen mutta ei ole varma värin nimestä, löytää värin kartasta itse.",
-   "p3": "Tulosta PDF ilmaiseksi tavalliselle paperille, jotta sekä vahaliidut että tussit toimivat. Helpompi taso käyttää neljää korttia, neljää väriä ja yhtä ylimääräistä hedelmää riviä kohti. Vaikeampi taso pitää kuusi korttia mutta kasvattaa lukumääriä, lisää toisen ylimääräisen hedelmän, käyttää kahdeksaa värin nimeä ja antaa osaan korteista kaksi lausetta, jotka tehdään järjestyksessä. Kun nämä lauseet sujuvat, Järjestä sanat lauseeksi -sivulla lauseita ei enää seurata vaan rakennetaan, ja Kirjoita kuvan sana -sivu siirtää hedelmät lukemisesta kirjoittamiseen.",
+   "p1": "Tällä 1. luokan monisteella on kuusi korttia, ja jokaisessa on yksi lyhyt lause ja sen alla mustavalkoisia ääriviivakuvia hedelmistä. Lause voi olla Väritä 4 vesimelonia violetiksi tai Väritä kuvista 2 banaania oranssiksi, ja neljännellä kortilla on neljän vesimelonin lisäksi yksi päärynä, jota lause ei mainitse. Lauseen väriä ei voi arvata hedelmästä, keltaisia mansikoita, violetteja vesimeloneja, punaisia sitruunoita, joten värin nimi on luettava. Sivun yläreunassa on värikartta, jossa jokaisen värin nimen vieressä on värimalli: keltainen, oranssi, vihreä, violetti, sininen ja punainen. Lapsi lukee lauseen, poimii kuvista ne hedelmät, jotka lause nimeää, laskee määrän ja värittää juuri ne, ei muita.",
+   "p2": "Tämä on lukemista, jolla on seuraus. Lapsi ei voi värittää oikeita hedelmiä lukematta hedelmän nimeä, lukusanaa ja värin nimeä ja pitämättä kaikkia kolmea mielessä yhtä aikaa, ja jokaisen rivin ylimääräinen hedelmä tekee silmäilystä hyödytöntä. Siinä on ero tähän sivuun ja värittämiseen numeron mukaan: tässä koodi on lause, ja lause on ymmärrettävä, ei vain sovitettava. OPS 2014 kuvaa ensimmäisen luokan lukemista niin, että oppilas lukee lyhyitä tekstejä ja toimii luetun mukaan, ja juuri sitä sivu mittaa. Opettaja näkee ymmärtämisen luokan toiselta puolelta: väritetty päärynä banaanikortilla tai kolme sitruunaa neljän sijaan kertovat tarinan heti. Suomessa värin nimi on lauseessa translatiivimuodossa, oranssiksi, keltaiseksi, ja kartta näyttää perusmuodon sen rinnalla, joten lapsi oppii yhdistämään ne, ja lapsi, joka lukee lauseen mutta ei ole varma värin nimestä, löytää värin kartasta itse.",
+   "p3": "Tulosta PDF ilmaiseksi tavalliselle paperille, jotta sekä vahaliidut että tussit toimivat. Helpompi taso käyttää neljää korttia, neljää väriä, isoja kuvia ja yhtä ylimääräistä hedelmää riviä kohti. Vaikeampi taso pitää kuusi korttia mutta nostaa lukumäärät kolmesta viiteen, lisää riville kaksi tai kolme ylimääräistä hedelmää kahdesta eri lajista ja pienentää kuvia; sen kuusi väriä poimitaan kahdeksasta, joten kartassa voi olla myös ruskea tai vaaleanpunainen. Kun nämä lauseet sujuvat, Järjestä sanat lauseeksi -sivulla lauseita ei enää seurata vaan rakennetaan, ja Kirjoita kuvan sana -sivu siirtää hedelmät lukemisesta kirjoittamiseen.",
    "canonicalDeckSlug": "lue-ja-varita-hedelmat-mv-g1242",
    "carousel": [
     {
@@ -136361,7 +136361,7 @@
     }
    ],
    "title": "Lue ja väritä 1. luokka – hedelmät | tulostettava PDF ilmainen",
-   "metaDescription": "Lue ja väritä: kuusi lyhyttä lausetta kuten Väritä 2 sitruunaa vihreäksi, kunkin alla rivi ääriviivahedelmiä ja yksi harhauttaja. Ilmainen 1. luokan PDF."
+   "metaDescription": "Lue ja väritä: kuusi lyhyttä lausetta kuten Väritä 4 vesimelonia violetiksi, kunkin alla hedelmäkuvia ja yksi harhauttajalaji. Ilmainen 1. luokan PDF."
   },
   {
    "slug": "paivan-luku-1-luokka",
@@ -137523,9 +137523,9 @@
     "elaimet-mv",
     "1-luokka"
    ],
-   "p1": "Neljä lausetta, neljä väriä ja neljä eläinriviä. Sivun yläreunassa on värikartta, jossa neljän värin nimen vieressä on värimalli. Sen alla on neljä korttia kahdessa rivissä, ja jokaisessa kortissa on yksi lyhyt lause sekä sen alla rivi mustavalkoisia ääriviivaeläimiä. Lause voi olla Väritä 2 kirahvia siniseksi tai Etsi 3 papukaijaa ja väritä ne punaiseksi, ja rivillä on lauseen nimeämien eläinten lisäksi yksi ylimääräinen eläin. Lapsi lukee lauseen, poimii oikeat eläimet ja värittää juuri ne.",
-   "p2": "Jokainen kortti pyytää lukemaan kolme asiaa yhtä aikaa: eläimen nimen, lukusanan ja värin. Ylimääräinen eläin rivillä tekee silmäilystä hyödytöntä, koska määrä ei täsmää, jos lasketaan kaikki kuvat. Lukumäärät pysyvät tällä sivulla kahdessa tai kolmessa ja harhauttajia on vain yksi, joten sivu sopii lukuvuoden alkuun ja lapselle, joka lukee vielä hitaasti mutta ymmärtää lukemansa. Suomessa lukusanan jälkeen tulee partitiivi, kaksi kirahvia, kolme papukaijaa, ja värin nimi on lauseessa translatiivissa, siniseksi ja punaiseksi, kun kartta näyttää perusmuodon sen rinnalla. OPS 2014 kuvaa ensimmäisen luokan lukemista niin, että oppilas lukee lyhyitä tekstejä ja toimii luetun mukaan. Opettaja näkee ymmärtämisen luokan toiselta puolelta: väärä väri tai väärä määrä kertoo tarinan heti.",
-   "p3": "Tulosta PDF ilmaiseksi tavalliselle paperille, jotta sekä puuvärit että tussit toimivat. Neljä korttia on lyhyt tehtävä, joka ehtii tunnin loppuun. Perussivu Lue ja väritä käyttää kuutta korttia ja kuutta väriä, ja Lue ja väritä: kiireinen sivu nostaa lukumäärät viiteen asti ja lisää toisen harhauttajan. Kun lauseiden mukaan toimiminen sujuu, Järjestä sanat lauseeksi -sivulla lauseita ei enää seurata vaan rakennetaan, ja Kirjoita kuvan sana siirtää samat eläimet lukemisesta kirjoittamiseen.",
+   "p1": "Neljä lausetta, neljä väriä ja neljä eläinriviä. Sivun yläreunassa on värikartta, jossa neljän värin nimen vieressä on värimalli. Sen alla on neljä korttia kahdessa rivissä, ja jokaisessa kortissa on yksi lyhyt lause sekä sen alla rivi mustavalkoisia ääriviivaeläimiä. Lause voi olla Väritä kuvista 2 laiskiaista punaiseksi tai Etsi 3 joutsenta ja väritä ne keltaiseksi, ja rivillä on lauseen nimeämien eläinten lisäksi yksi ylimääräinen eläin. Lapsi lukee lauseen, poimii oikeat eläimet ja värittää juuri ne.",
+   "p2": "Jokainen kortti pyytää lukemaan kolme asiaa yhtä aikaa: eläimen nimen, lukusanan ja värin. Ylimääräinen eläin rivillä tekee silmäilystä hyödytöntä, koska määrä ei täsmää, jos lasketaan kaikki kuvat. Lukumäärät pysyvät tällä sivulla kahdessa tai kolmessa ja harhauttajia on vain yksi, joten sivu sopii lukuvuoden alkuun ja lapselle, joka lukee vielä hitaasti mutta ymmärtää lukemansa. Suomessa lukusanan jälkeen tulee partitiivi, kaksi kamelia, kolme joutsenta, ja värin nimi on lauseessa translatiivissa, siniseksi ja keltaiseksi, kun kartta näyttää perusmuodon sen rinnalla. OPS 2014 kuvaa ensimmäisen luokan lukemista niin, että oppilas lukee lyhyitä tekstejä ja toimii luetun mukaan. Opettaja näkee ymmärtämisen luokan toiselta puolelta: väärä väri tai väärä määrä kertoo tarinan heti.",
+   "p3": "Tulosta PDF ilmaiseksi tavalliselle paperille, jotta sekä puuvärit että tussit toimivat. Neljä korttia on lyhyt tehtävä, joka ehtii tunnin loppuun. Perussivu Lue ja väritä käyttää kuutta korttia ja kuutta väriä, ja Lue ja väritä: täysi sivu nostaa lukumäärät viiteen asti ja lisää toisen harhauttajan. Kun lauseiden mukaan toimiminen sujuu, Järjestä sanat lauseeksi -sivulla lauseita ei enää seurata vaan rakennetaan, ja Kirjoita kuvan sana siirtää samat eläimet lukemisesta kirjoittamiseen.",
    "canonicalDeckSlug": "lue-ja-varita-elaimet-mv-g1251",
    "carousel": [
     {
@@ -137558,7 +137558,7 @@
     "level": "1-luokka"
    },
    "eyebrow": "Lue ja väritä -moniste tiheällä sivulla",
-   "h1": "Lue ja väritä: kiireinen sivu, enemmän kuvia ja enemmän värejä",
+   "h1": "Lue ja väritä: täysi sivu, kuusi lausetta ja kuusi väriä",
    "strand": "Luetun ymmärtäminen",
    "standard": "RF.1.4",
    "slotTokens": [
@@ -137566,8 +137566,8 @@
     "lelut-mv",
     "1-luokka"
    ],
-   "p1": "Sivu on täysi. Kuudessa kortissa on kussakin yksi lause ja sen alla tiheä rivi mustavalkoisia ääriviivakuvia leluista ja kulkuvälineistä. Lause voi olla Etsi 5 traktoria ja väritä ne oranssiksi tai Väritä 4 ämpäriä punaiseksi, ja väritettäviä kuvia on kolmesta viiteen. Rivillä on lisäksi kaksi tai kolme harhauttajaa, jotka ovat kahden eri lelun kuvia, joten pelkkä samannäköisen etsiminen ei riitä. Yläreunan värikartta nimeää kuusi väriä, yhden jokaista korttia kohti, ja värit on poimittu kahdeksan värin joukosta.",
-   "p2": "Tiheys on tämän sivun koko asia. Kun rivillä on jopa kahdeksan kuvaa ja niistä viisi on väritettävä, lapsen on pidettävä lukusana mielessä koko poimimisen ajan ja laskettava kuvat kahdesti: kerran etsiessään ja kerran tarkistaessaan. Kaksi eri harhauttajalajia estää sen, että lapsi ratkaisisi kortin katsomalla vain, mikä kuva toistuu useimmin. Suomen partitiivi näkyy tässä selvästi, koska lukusanat ovat isompia: viisi traktoria, neljä ämpäriä. OPS 2014 nimeää ensimmäisen luokan tavoitteeksi luetun ymmärtämisen ja ohjeen mukaan toimimisen, ja kuusi korttia riittää näyttämään, pitääkö tarkkuus loppuun asti vai herpaantuuko se sivun puolivälissä. Opettaja katsoo viimeisiä kortteja: siellä väsymys näkyy ensimmäisenä.",
+   "p1": "Sivu on täysi. Kuudessa kortissa on kussakin yksi lause ja sen alla tiheä rivi mustavalkoisia ääriviivakuvia leluista ja kulkuvälineistä. Lause voi olla Etsi 5 dinosaurusta ja väritä ne violetiksi tai Väritä kuvista 4 trumpettia punaiseksi, ja väritettäviä kuvia on kolmesta viiteen. Rivillä on lisäksi kaksi tai kolme harhauttajaa, jotka ovat kahden eri lelun kuvia, joten pelkkä samannäköisen etsiminen ei riitä. Yläreunan värikartta nimeää kuusi väriä, yhden jokaista korttia kohti, ja värit on poimittu kahdeksan värin joukosta.",
+   "p2": "Tiheys on tämän sivun koko asia. Kun rivillä on jopa kahdeksan kuvaa ja niistä viisi on väritettävä, lapsen on pidettävä lukusana mielessä koko poimimisen ajan ja laskettava kuvat kahdesti: kerran etsiessään ja kerran tarkistaessaan. Kaksi eri harhauttajalajia estää sen, että lapsi ratkaisisi kortin katsomalla vain, mikä kuva toistuu useimmin. Suomen partitiivi näkyy tässä selvästi, koska lukusanat ovat isompia: viisi dinosaurusta, neljä kitaraa. OPS 2014 nimeää ensimmäisen luokan tavoitteeksi luetun ymmärtämisen ja ohjeen mukaan toimimisen, ja kuusi korttia riittää näyttämään, pitääkö tarkkuus loppuun asti vai herpaantuuko se sivun puolivälissä. Opettaja katsoo viimeisiä kortteja: siellä väsymys näkyy ensimmäisenä.",
    "p3": "Tulosta PDF ilmaiseksi ja anna lapsen merkitä oikeat kuvat kevyellä pisteellä ennen värittämistä, niin lukumäärä ei unohdu kesken työn. Aloita Lue ja väritä: neljä lausetta -sivusta, jos lukeminen on vielä hidasta; siinä on neljä korttia, neljä väriä ja yksi harhauttaja. Perussivu Lue ja väritä on näiden välissä. Tämä on perheen vaativin sivu ja toimii hyvin ensimmäisen luokan kevätlukukaudella tai eriyttävänä tehtävänä nopeille lukijoille. Kuusi väriä tarkoittaa, että jokaisella kortilla on oma värinsä eikä sama väri toistu sivulla kahdesti, joten värikartta on luettava kokonaan.",
    "canonicalDeckSlug": "lue-ja-varita-lelut-mv-g1252",
    "carousel": [
@@ -137588,8 +137588,8 @@
      "href": "paivan-luku-99-asti"
     }
    ],
-   "title": "Lue ja väritä: kiireinen sivu – lelut | tulostettava PDF ilmainen",
-   "metaDescription": "Lue ja väritä tiheällä sivulla: kuusi korttia, kuusi väriä, jopa viisi väritettävää lelua riviä kohti ja kaksi harhauttajaa. Ilmainen 1. luokan PDF."
+   "title": "Lue ja väritä: täysi sivu, lelut | tulostettava PDF ilmainen",
+   "metaDescription": "Lue ja väritä tiheällä sivulla: kuusi korttia, kuusi väriä, jopa viisi väritettävää lelua riviä kohti ja kaksi tai kolme harhauttajaa. Ilmainen 1. luokan PDF."
   },
   {
    "slug": "paivan-luku-11-19",

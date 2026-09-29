@@ -2962,5 +2962,17 @@
   "K-387": {
     "title": "Caminos de un dibujo a otro",
     "instruction": "Empieza en el punto naranja junto al primer dibujo. Repasa todo el camino hasta llegar al otro dibujo."
+  },
+  "G1-409": {
+    "title": "Lee y colorea: dos frases",
+    "instruction": "Cada recuadro tiene dos frases. Lee las dos y colorea solo los dibujos que dice cada frase, del color que indica."
+  },
+  "G1-410": {
+    "title": "Lee y colorea: busca en el recuadro grande",
+    "instruction": "Lee cada frase. Busca sus dibujos en el recuadro grande y colorea solo los que dice la frase, del color que indica."
+  },
+  "G1-411": {
+    "title": "Lee y colorea: fíjate en el número",
+    "instruction": "Hay más dibujos de los que pide la frase. Lee el número y colorea solo esa cantidad."
   }
 }

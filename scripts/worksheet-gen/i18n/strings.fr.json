@@ -2982,5 +2982,17 @@
   "K-387": {
     "title": "Graphisme : d'une image à l'autre",
     "instruction": "Pars du point orange, à côté de la première image. Repasse tout le chemin jusqu'à l'autre image."
+  },
+  "G1-409": {
+    "title": "Lis et colorie : deux phrases",
+    "instruction": "Chaque case a deux phrases. Lis les deux, puis colorie exactement les images que demande chaque phrase."
+  },
+  "G1-410": {
+    "title": "Lis et colorie : cherche dans la grande case",
+    "instruction": "Lis chaque phrase. Cherche ses images dans la grande case et colorie exactement ce que dit la phrase."
+  },
+  "G1-411": {
+    "title": "Lis et colorie : arrête-toi au bon nombre",
+    "instruction": "Il y a plus d'images que la phrase n'en demande. Lis le nombre et colorie juste ce nombre, pas plus."
   }
 }

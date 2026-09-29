@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-252',
   slug: 'read-and-color-busy-page',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 two or three of each picture, six colours, bigger pictures · L3 four or five, three pictures of two other nouns, smaller pictures; L2 = the published page
+  difficulty: { 1: { ...D, nMin: 2, nMax: 3, distract: [1, 2], others: 1, colors: 6, icon: 64 }, 2: D, 3: { ...D, nMin: 4, nMax: 5, distract: [3], others: 2, icon: 50 } },
   i18n: { en: { title: "Read and Color: A Busy Page", instruction: "More pictures and more colors. Read each sentence carefully." } },
 };

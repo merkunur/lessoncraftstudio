@@ -76,7 +76,7 @@ function corrupt(canonical, loc) {
 }
 
 /** Resolve the {noun} literal for a frame: vocab sg/pl, or a named table. */
-function resolveNoun(bank, frame, entry, loc) {
+function resolveNoun(bank, frame, entry, loc, fallback) {
   let text;
   if (frame.noun === 'sg') text = entry.singular;
   else if (frame.noun === 'pl') text = entry.plural;
@@ -84,6 +84,9 @@ function resolveNoun(bank, frame, entry, loc) {
     const table = bank.nounForms && bank.nounForms[frame.noun];
     if (!table) throw new Error(`sentence-bank: ${loc} frame ${frame.id} needs nounForms.${frame.noun}`);
     text = table[entry.vocabKey];
+    // fallback(formName, vocabKey) (Level Set 2026-09-30): a second native table for a key this one lacks - asked
+    // ONLY where the table has no entry, so every page that built before builds exactly as before
+    if (!text && typeof fallback === 'function') text = fallback(frame.noun, entry.vocabKey);
     if (!text) throw new Error(`sentence-bank: ${loc} nounForms.${frame.noun} has no entry for ${entry.vocabKey}`);
   }
   if (!text) throw new Error(`sentence-bank: no ${frame.noun} form for ${entry.vocabKey} in ${loc}`);

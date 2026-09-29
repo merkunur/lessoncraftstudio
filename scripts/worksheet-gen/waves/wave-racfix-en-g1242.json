@@ -1,0 +1,18 @@
+{
+ "id": "wave-racfix-en-g1242",
+ "_note": "2026-09-30 republish (standing rule: pedagogical mistakes are fixed at once): native audits and a Grade 1 panel that opened every black-and-white picture found pictures a child cannot count as one or names otherwise (durian, cherries, apricot, capybara, kangaroo, ufo, loader, tank, cactus, orange, grapes, train, balloon, panda, chicken, pony and more), look-alikes on one card, sentences about a character instead of an instruction, the nl circle-and-colour frame, and the Busy Page text comparing with nothing. Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [
+  "fruits bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-242"
+ ]
+}

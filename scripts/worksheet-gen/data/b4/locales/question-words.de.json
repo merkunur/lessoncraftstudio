@@ -20,9 +20,10 @@
     "where": "Wo?"
   },
   "qPrefix": "",
-  "sortThingForm": "bare",
+  "sortThingForm": "nomArticle",
   "genderFilter": {},
   "excludeThings": [],
+  "avoidThings": ["bear", "nectarine"],
   "frames": [
     {
       "id": "see-thing",
@@ -416,5 +417,14 @@
       "instruction": "Schau dir das Bild an. Beende jede Frage. Beginne mit dem Wort, das schon auf der Linie steht.",
       "pictureWord": "Bild"
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

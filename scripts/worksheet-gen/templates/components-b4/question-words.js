@@ -135,7 +135,9 @@ function markedSpan(text) {
 // alone put exactly 4.00 px between the last glyph and the period on G1-353 / G1-374 /
 // G2-356 in every locale. The source has no whitespace there (`</span>.`), so no
 // source-level check can see it - three native landing panels found it by reading renders.
-  return `<span data-lcs-mark style="background:${T.coralSoft};border-bottom:3px solid ${T.coral};border-radius:4px;padding:0 4px;margin:0 -4px">${esc(text)}</span>`;
+// 2026-09-29 (native audit, 4 panels): the RIGHT bleed laid the highlight over the full stop, marking the
+// punctuation as part of the answer - the bar now bleeds on the left only and ends at the last glyph.
+  return `<span data-lcs-mark style="background:${T.coralSoft};border-bottom:3px solid ${T.coral};border-radius:4px;padding:0 0 0 4px;margin:0 0 0 -4px">${esc(text)}</span>`;
 }
 
 /* ---------- renderMarked ---------- */

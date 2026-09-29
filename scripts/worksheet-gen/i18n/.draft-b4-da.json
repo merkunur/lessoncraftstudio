@@ -2157,9 +2157,10 @@
         "where": "Hvor?"
       },
       "qPrefix": "",
-      "sortThingForm": "bare",
+      "sortThingForm": "unique",
       "genderFilter": {},
       "excludeThings": [],
+      "avoidThings": ["bear", "nectarine"],
       "chipWidths": {
         "Hvem": 79.5,
         "Hvad": 74,
@@ -2564,6 +2565,15 @@
           "instruction": "Se på billedet. Gør hvert spørgsmål færdigt. Start med det ord, der allerede står på linjen.",
           "pictureWord": "billedet"
         }
+      },
+      "placeBan": {
+        "read-place": [
+          "pool",
+          "garage"
+        ],
+        "play-place": [
+          "bed"
+        ]
       }
     },
     "rounding": {

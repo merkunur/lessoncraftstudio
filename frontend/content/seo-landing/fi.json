@@ -148289,7 +148289,7 @@
     "kysymyssanat",
     "2-luokka"
    ],
-   "p1": "Kahdeksan numeroitua riviä, ja kunkin vasemmassa reunassa yksi ihminen kuvattuna. Rivin yläosassa on valmis vastauslause, jossa yksi kohta on korostettu persikanvärisellä pohjalla – viisi, traktoria, pesukarhua, altaalla, Alma, rannalla, Juho ja kello kuudelta – ja sen alla kolmiviivainen kirjoitusrivi. Sanapankkia eikä vaihtoehtoja ei ole: lapsi kirjoittaa itse kokonaisen kysymyksen, joka kysyy juuri korostettua kohtaa. Korostetut kohdat kattavat kaikki viisi kysymyssanaa.",
+   "p1": "Kahdeksan numeroitua riviä, ja kunkin vasemmassa reunassa yksi ihminen kuvattuna. Rivin yläosassa on valmis vastauslause, jossa yksi kohta on korostettu persikanvärisellä pohjalla – viisi, traktoria, pesukarhua, altaalla, Alma, rannalla, Juho ja kello kuudelta – ja sen alla kolmiviivainen kirjoitusrivi. Sanapankkia tai vaihtoehtoja ei ole: lapsi kirjoittaa itse kokonaisen kysymyksen, jolla kysytään juuri korostettua kohtaa. Korostetut kohdat kattavat kaikki viisi kysymyssanaa.",
    "p2": "Tämä on perheen vaativin sivu, koska kysymys kirjoitetaan kokonaisena eikä pelkkää kysymyssanaa valita. Lapsen on päätettävä kysymyssana, taivutettava se ja rakennettava sen ympärille lause, jossa sanajärjestys ja kysymysmerkki ovat kohdallaan – kolme asiaa samalla rivillä. Korostus pitää tehtävän ratkaistavana: ilman sitä samasta vastauksesta voisi kysyä monella tavalla, ja vastauksia olisi mahdoton verrata. Kysymyslauseen kirjoittaminen ja välimerkkien käyttö kuuluvat OPS 2014:n vuosiluokkien 1–2 kirjoittamisen tavoitteisiin.",
    "p3": "Yksi arkki, kahdeksan kysymystä, kahdeksan riviä. Kirjoitusrivit ovat koko sivun levyisiä ja kolmiviivaisia, joten pitkäkin kysymys mahtuu yhdelle riville. Muistuta kysymysmerkistä ennen aloitusta – se on tämän sivun ainoa asia, jota ei ole millään tavalla merkitty valmiiksi. Kysymykset kannattaa lukea lopuksi ääneen ja vastata niihin ylärivin lauseella. Tämä sivu tulee Täydennä kysymyssana -sivun jälkeen ja on kysymyssanojen jakson luonteva päätös. Korostukset kattavat kaikki viisi kysymyssanaa, ja kaksi niistä on nimiä, joten Kuka tulee käytettyä kahdesti. Rivien välissä on riittävästi tilaa myös korjauksille, ja keskeneräiseen sivuun voi palata myöhemmin. Sivu sopii pariharjoitukseksi, jossa toinen kirjoittaa kysymyksen ja toinen vastaa siihen omin sanoin ilman että katsoo ylärivin lausetta.",
    "canonicalDeckSlug": "kysymyssanat-g2356",
@@ -148312,7 +148312,7 @@
     }
    ],
    "title": "Tee kysymys 2. luokka | tulostettava PDF ilmainen",
-   "metaDescription": "Kahdeksan valmista vastausta 2. luokalle, joissa yksi kohta on korostettu. Kirjoita viivalle kysymys, joka kysyy juuri sitä kohtaa. Ilmainen 2. luokan PDF."
+   "metaDescription": "Kahdeksan valmista vastausta 2. luokalle, joissa yksi kohta on korostettu. Kirjoita viivalle kysymys, jolla kysytään juuri sitä kohtaa. Ilmainen 2. luokan PDF."
   },
   {
    "slug": "kysymyksia-kuvasta-miksi-ja-miten",

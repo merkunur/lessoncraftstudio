@@ -2410,6 +2410,7 @@
         "duck",
         "doll"
       ],
+      "avoidThings": ["bear", "nectarine"],
       "chipWidths": {
         "Vem": 67.4,
         "Vad": 62.6,
@@ -2807,6 +2808,15 @@
           "instruction": "Titta på bilden. Gör varje fråga färdig. Börja med ordet som redan står på linjen.",
           "pictureWord": "bilden"
         }
+      },
+      "placeBan": {
+        "read-place": [
+          "pool",
+          "garage"
+        ],
+        "play-place": [
+          "bed"
+        ]
       }
     },
     "rounding": {

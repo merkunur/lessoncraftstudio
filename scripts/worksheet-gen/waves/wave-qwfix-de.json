@@ -1,0 +1,19 @@
+{
+ "id": "wave-qwfix-de",
+ "_note": "2026-09-29 republish after the native panels audited the published question-words bank + page strings (standing rule: pedagogical mistakes are fixed at once). Same coordinates as the published pages; published as UPDATES of the existing decks.",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-353",
+  "G1-374",
+  "G1-375",
+  "G2-356"
+ ]
+}

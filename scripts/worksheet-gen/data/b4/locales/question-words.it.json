@@ -20,7 +20,7 @@
     "where": "Dove?"
   },
   "qPrefix": "",
-  "sortThingForm": "bare",
+  "sortThingForm": "unique", "sortWhatObjects": true,
   "genderFilter": {
     "count": "m"
   },
@@ -31,6 +31,7 @@
     "nectarine",
     "peach"
   ],
+  "avoidThings": ["bear", "hyena", "papaya", "nectarine", "blackberry"],
   "frames": [
     {
       "id": "see-thing",
@@ -421,5 +422,14 @@
       "instruction": "Guarda l'immagine. Completa ogni domanda. Comincia con la parola già scritta sulla riga.",
       "pictureWord": "immagine"
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

@@ -2416,8 +2416,8 @@
     "instruction": "Katso ihmistä ja lue nimi. Ympyröi sana, joka korvaa nimen."
   },
   "G1-353": {
-    "title": "Kysymyssanat: kuka, mikä, missä",
-    "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+    "title": "Kysymyssanat: kuka, mitä, missä",
+    "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, jolla niitä kysytään."
   },
   "G2-346": {
     "title": "Pyöristäminen kymmenien tarkkuuteen",
@@ -2589,7 +2589,7 @@
   },
   "G2-356": {
     "title": "Tee kysymys",
-    "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+    "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, jolla niitä kysytään."
   },
   "G2-357": {
     "title": "Kysymyksiä kuvasta: miksi ja miten",

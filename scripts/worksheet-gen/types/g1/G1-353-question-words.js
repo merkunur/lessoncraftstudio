@@ -368,6 +368,7 @@ function compose(rng, bank, cfg, loc, data) {
       let hit = null;
       for (const th of shuffledPool) {
         if (usedThings.has(th.key)) continue;
+        if (bank.avoidThings && bank.avoidThings.includes(th.key)) continue;   // a picture a child names otherwise (2026-09-29): skipped at SELECTION, so the pool's shuffle order - and every other page - stays as it was
         if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;   // a key without a code is refused for a count row
         const ctx = { name: r.name, thing: th, n, loc };
@@ -453,6 +454,12 @@ function tileTextOf(th, loc, bank) {
   const V = vocab();
   const e = V[th.key] && V[th.key][loc];
   if (!Array.isArray(e) || typeof e[0] !== 'string' || !e[0]) return null;
+  // 'nomArticle' (de, 2026-09-29 native audit): a standalone tile answering "Was?" is the NOMINATIVE with its article
+  // ("der Roller"), never the accusative objForms.unique ("den Roller") and never a bare noun; no gender code = no tile
+  if (policy === 'nomArticle') {
+    const art = { m: 'der', f: 'die', n: 'das' }[e[2]];
+    return art ? art + ' ' + displayWord(e[0], loc) : null;
+  }
   return displayWord(e[0], loc);
 }
 /** Greedy flex-wrap over the estimated tile widths: the row count the shelf will take (the composer keeps it at 2). */
@@ -683,6 +690,7 @@ function dealFace(rng, bank, opts, loc, data) {
       let hit = null;
       for (const th of shuffledPool) {
         if (usedThings.has(th.key)) continue;
+        if (bank.avoidThings && bank.avoidThings.includes(th.key)) continue;   // a picture a child names otherwise (2026-09-29): skipped at SELECTION, so the pool's shuffle order - and every other page - stays as it was
         if (twinOf.has(th.key) && usedGroups.has(twinOf.get(th.key))) continue;   // one member per look-alike group per page
         if (bank.genderFilter && bank.genderFilter.count && r.kind === 'count' && th.gender !== bank.genderFilter.count) continue;
         const ctx = { name: r.name, thing: th, n, loc };
@@ -868,7 +876,11 @@ function buildSort(bank, d, loc, rng, data) {
       } else if (kind === 'what') {
         const seen = new Set();
         for (const th of rng.shuffle(pool)) {
+          if (bank.avoidThings && bank.avoidThings.includes(th.key)) continue;
           if (tiles.filter((x) => x.kind === 'what').length >= cfg.perBin) break;
+          // sortWhatObjects (it / fr, 2026-09-29 native audit): a standalone animal tile under "Che cosa? / Quoi ?" is ambiguous -
+          // many children answer "Chi ? / Qui ?" for an animal - so the What bin takes objects only
+          if (bank.sortWhatObjects && /animals/i.test(th.pic.theme)) continue;
           const txt = tileTextOf(th, loc, bank);
           if (!okText(txt) || seen.has(nfd(txt))) continue;
           seen.add(nfd(txt));
@@ -948,7 +960,8 @@ function buildAsk(bank, d, loc, rng, data) {
   const name = rng.pick(names);
   const person = rng.pick(people.filter((p) => p.depicted === name.gender && (p.minPx || 44) <= cfg.tile));
   if (!person) throw new Error(`${ID} ask: no ${name.gender} portrait for "${name.name}"`);
-  const thing = rng.pick(pool);
+  let thing = rng.pick(pool);
+  for (let t = 0; bank.avoidThings && bank.avoidThings.includes(thing.key) && t < 50; t++) thing = rng.pick(pool);   // re-pick only when the avoided picture came up
   const place = rng.pick(places);
   const time = rng.pick(times);
   const scene = askScene({

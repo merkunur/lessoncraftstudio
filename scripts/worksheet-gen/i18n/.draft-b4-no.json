@@ -2452,9 +2452,10 @@
         "where": "Hvor?"
       },
       "qPrefix": "",
-      "sortThingForm": "bare",
+      "sortThingForm": "unique",
       "genderFilter": {},
       "excludeThings": [],
+      "avoidThings": ["bear", "nectarine"],
       "chipWidths": {
         "Hvem": 79.5,
         "Hva": 62.5,
@@ -2493,10 +2494,10 @@
         {
           "id": "like-thing",
           "kind": "thing",
-          "text": "{name} holder {thing}.",
+          "text": "{name} liker {thing}.",
           "q": {
-            "who": "Hvem holder {thing}?",
-            "what": "Hva holder {name}?"
+            "who": "Hvem liker {thing}?",
+            "what": "Hva liker {name}?"
           },
           "signed": true
         },
@@ -2859,6 +2860,15 @@
           "instruction": "Se på bildet. Fullfør hvert spørsmål. Begynn med ordet som allerede står på linja.",
           "pictureWord": "bildet"
         }
+      },
+      "placeBan": {
+        "read-place": [
+          "pool",
+          "garage"
+        ],
+        "play-place": [
+          "bed"
+        ]
       }
     },
     "rounding": {

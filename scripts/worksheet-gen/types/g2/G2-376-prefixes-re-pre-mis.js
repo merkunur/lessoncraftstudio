@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-376',
   slug: 'prefixes-re-pre-mis',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 a key of 2 prefixes, 6 rows; L2 published; L3 a key of 4 prefixes (the panels' 4th)
+  interactive: base.interactiveFor('prefix-key'),
+  difficulty: { 1: { ...D, keySize: 2, rows: 6, eachPrefixUsed: 3 }, 2: D, 3: { ...D, keySize: 4, rows: 8, eachPrefixUsed: 2 } },
   i18n: { en: { title: "Prefixes re-, pre- and mis-: Pick by Meaning", instruction: "Read what each new word means, find its prefix in the key and write it in the empty piece." } },
   gradeBand: "G2",
 };

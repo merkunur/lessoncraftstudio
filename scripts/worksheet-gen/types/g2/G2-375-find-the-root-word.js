@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-375',
   slug: 'find-the-root-word',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 6 sets of derived words only (with the worked example); L2 published; L3 9 sets, no worked example
+  interactive: base.interactiveFor('root-word'),
+  difficulty: { 1: { ...D, cards: 6, cols: 3, rows: 2, kinds: ['derived'], maxGlyphs: 10 }, 2: D, 3: { ...D, worked: 0 } },
   i18n: { en: { title: "Find the Root Word", instruction: "Circle the part the three words share and write that root word in the empty stone." } },
   gradeBand: "G2",
 };

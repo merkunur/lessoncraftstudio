@@ -776,5 +776,143 @@
    "no": "Spor de stiplede figurene med blyanten. Tegn så den samme figuren selv fra de andre oransje prikkene.",
    "fi": "Piirrä ensin kuvioiden katkoviivoja pitkin. Piirrä sitten samat kuviot itse muista oranssista pisteistä alkaen."
   }
+ },
+ "G2-376": {
+  "1": {
+   "en": {
+    "title": "Prefixes re- and pre-: Pick by Meaning",
+    "instruction": "Read what each new word means, find its prefix in the key and write it in the empty piece."
+   },
+   "de": {
+    "title": "Vorsilben ein- und aus-: nach Bedeutung wählen",
+    "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+   },
+   "es": {
+    "title": "Prefijos re- y pre-: elige por el significado",
+    "instruction": "Lee lo que significa cada palabra nueva, busca su prefijo en la clave y escríbelo en la pieza vacía."
+   },
+   "fr": {
+    "title": "Les préfixes re- et pré- : choisis selon le sens",
+    "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+   },
+   "it": {
+    "title": "I prefissi ri- e pre-: scegli dal significato",
+    "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
+   },
+   "pt": {
+    "title": "Prefixos re- e pre-: escolha pelo significado",
+    "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
+   },
+   "nl": {
+    "title": "Voorvoegsels her- en mee-: kies op betekenis",
+    "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+   },
+   "sv": {
+    "title": "Prefixen åter- och miss-: välj efter betydelse",
+    "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+   },
+   "da": {
+    "title": "Forstavelserne gen- og ind-: vælg efter betydning",
+    "instruction": "Læs, hvad hvert nyt ord betyder, find forstavelsen i nøglen, og skriv den i den tomme brik."
+   },
+   "no": {
+    "title": "Forstavelsene gjen- og mis-: velg etter betydning",
+    "instruction": "Les hva hvert nytt ord betyr, finn forstavelsen i nøkkelen og skriv den i den tomme biten."
+   }
+  },
+  "3": {
+   "en": {
+    "title": "Prefixes re-, pre-, mis- and over-: Pick by Meaning",
+    "instruction": "Read what each new word means, find its prefix in the key and write it in the empty piece."
+   },
+   "de": {
+    "title": "Vorsilben ein-, aus-, um- und mit-: nach Bedeutung wählen",
+    "instruction": "Lies, was jedes neue Wort bedeutet, finde seine Vorsilbe im Schlüssel und schreibe sie in das leere Stück."
+   },
+   "es": {
+    "title": "Prefijos re-, pre-, sobre- y sub-: elige por el significado",
+    "instruction": "Lee lo que significa cada palabra nueva, busca su prefijo en la clave y escríbelo en la pieza vacía."
+   },
+   "fr": {
+    "title": "Les préfixes re-, pré-, sur- et télé- : choisis selon le sens",
+    "instruction": "Lis ce que veut dire chaque nouveau mot, trouve son préfixe dans la clé et écris-le dans la pièce vide."
+   },
+   "it": {
+    "title": "I prefissi ri-, pre-, sotto- e stra-: scegli dal significato",
+    "instruction": "Leggi che cosa significa ogni parola nuova, trova il suo prefisso nella tabella e scrivilo nel pezzo vuoto."
+   },
+   "pt": {
+    "title": "Prefixos re-, pre-, sub- e super-: escolha pelo significado",
+    "instruction": "Leia o que cada palavra nova significa, encontre o prefixo no quadro e escreva-o na peça vazia."
+   },
+   "nl": {
+    "title": "Voorvoegsels her-, mee-, uit- en terug-: kies op betekenis",
+    "instruction": "Lees wat elk nieuw woord betekent, zoek het voorvoegsel in de sleutel en schrijf het in het lege stukje."
+   },
+   "sv": {
+    "title": "Prefixen åter-, miss-, över- och sam-: välj efter betydelse",
+    "instruction": "Läs vad varje nytt ord betyder, hitta dess prefix i nyckeln och skriv det i den tomma biten."
+   },
+   "da": {
+    "title": "Forstavelserne gen-, ind-, ud- og over-: vælg efter betydning",
+    "instruction": "Læs, hvad hvert nyt ord betyder, find forstavelsen i nøglen, og skriv den i den tomme brik."
+   },
+   "no": {
+    "title": "Forstavelsene gjen-, mis-, over- og sam-: velg etter betydning",
+    "instruction": "Les hva hvert nytt ord betyr, finn forstavelsen i nøkkelen og skriv den i den tomme biten."
+   }
+  }
+ },
+ "G3-399": {
+  "1": {
+   "en": "Write the four words above the stone into the sentences below it, one word in each gap.",
+   "es": "Escribe cada palabra de la fila de arriba en el hueco de la oración donde va.",
+   "fr": "Écris chacun des quatre mots posés sur la pierre dans la phrase qui lui convient.",
+   "nl": "Lees de vier woordkaartjes boven het stamwoordbordje en schrijf elk woord in het stippelvak van de zin waar het past.",
+   "de": "Schreibe jedes Wort von den vier Karten in den Satz, in den es passt.",
+   "it": "Scrivi ogni parola dei cartellini nello spazio tratteggiato della frase in cui sta bene.",
+   "pt": "Escreva cada uma das quatro palavras dos cartões no quadro tracejado da frase em que ela combina.",
+   "sv": "Skriv vart och ett av de fyra orden i rutorna i den mening där det passar.",
+   "da": "Skriv hvert af de fire ord fra kortene ind i den sætning, det passer i.",
+   "no": "Skriv hvert av de fire ordene på kortene i den setningen der det passer.",
+   "fi": "Kirjoita jokainen kantasanan yläpuolella olevista neljästä sanasta sen lauseen ruutuun, johon sana sopii."
+  },
+  "3": {
+   "en": "Match each word at the top to its root-word stone, then write it in the sentence below that stone where it fits.",
+   "de": "Ordne jedes der acht Wörter oben seiner Wortfamilie zu und schreibe es in den Satz, in den es passt.",
+   "es": "Primero decide a qué familia va cada palabra de arriba; luego escríbela en el hueco de la oración donde va.",
+   "fr": "Range d’abord chaque mot du haut dans sa famille, puis écris-le dans la phrase qui lui convient.",
+   "it": "Prima decidi a quale famiglia va ogni parola dei cartellini, poi scrivila nello spazio tratteggiato della frase giusta.",
+   "pt": "Primeiro descubra a família de cada palavra dos cartões; depois escreva-a no quadro tracejado da frase em que ela combina.",
+   "nl": "Zoek bij elk van de acht woordkaartjes het goede stamwoordbordje en schrijf het woord in het stippelvak van de zin waar het past.",
+   "sv": "Läs de åtta orden och ta reda på vilken ordstam varje ord hör till. Skriv sedan ordet i den mening där det passar.",
+   "da": "Læs de otte ord, og find ud af, hvilket rodord hvert ord hører til. Skriv så ordet ind i den sætning, det passer i.",
+   "no": "Les de åtte ordene og finn ut hvilket rotord hvert ord hører til. Skriv så ordet i setningen der det passer.",
+   "fi": "Etsi jokaiselle ylhäällä olevalle sanalle sen kantasana. Kirjoita sana sen kiven alla olevaan lauseeseen, johon se sopii."
+  }
+ },
+ "G3-398": {
+  "1": {
+   "de": "ok (no L1 render exists for de — too few portraits; the published '-er oder -erin' is exactly right for a regular-endings page)",
+   "nl": "ok (no L1 render exists for nl — too few portraits; the published instruction names no endings and stays true)",
+   "en": "Look at each person, read the word beside them and write the person word in the empty brick.",
+   "it": "Guarda ogni persona, leggi la parola del cartellino accanto e scrivi nel riquadro tratteggiato il nome di chi fa quel mestiere.",
+   "pt": "Observe cada pessoa, leia a palavra do cartão ao lado dela e escreva no quadro tracejado a palavra que diz quem faz aquilo.",
+   "sv": "Titta på varje person, läs ordet bredvid och skriv ordet för personen i den streckade rutan.",
+   "da": "Se på hver person, læs ordet på kortet, og skriv personordet i det stiplede felt.",
+   "no": "Se på hver person, les ordet på kortet og skriv ordet for personen i den stiplede ruten.",
+   "fi": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
+  },
+  "3": {
+   "de": "Schau dir jede Person an, lies das Wort daneben und schreibe das Personenwort in das gestrichelte Kästchen. Pass auf: Oft ändert sich dabei das Wort.",
+   "it": "not rendered (no G3-398-L3-it-v6.png) — cannot check; the published instruction names no ending, so it stays true if the layout is kept",
+   "pt": "not rendered (no G3-398-L3-pt-v6.png) — cannot check; the published instruction names no ending, so it stays true if the layout is kept",
+   "sv": "ok (no render produced for L3 — not checkable against a page)",
+   "da": "ok (no render produced for L3 — not checkable against a page)",
+   "no": "ok (no render produced for L3 — not checkable against a page)",
+   "en": "Look at each person, read the word beside them and write the person word in the empty brick.",
+   "nl": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet.",
+   "fi": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
+  }
  }
 }

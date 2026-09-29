@@ -198,7 +198,9 @@ function buildDeckHtml(o) {
     educationalLevelLocalized: levelLocalized,
     titleConfig: TITLE_CONFIG[locale] || TITLE_CONFIG._default,
     skillSentence: skill.full || '',
-    skillSentenceShort: skill.short || '',
+    // Level Set decks (indexable:false) may carry a band-fitting short sentence of their own (`levelSetShort`) when the
+    // family's short sentence pushes their description past 170 or leaves it under 120; published decks never read it
+    skillSentenceShort: (manifest.indexable === false && skill.levelSetShort) || skill.short || '',
     disambiguator: variantN ? setWord + ' ' + variantN : undefined,
     variantId: variantN ? String(variantN) : undefined,
     variantLabel: setWord,

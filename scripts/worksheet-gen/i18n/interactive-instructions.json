@@ -465,5 +465,81 @@
    "sv": "Tryck på meningen som har rätt ord i stället för namnet.",
    "no": "Trykk på setningen som bruker riktig ord i stedet for navnet."
   }
+ },
+ "word-parts": {
+  "base": {
+   "en": "Tap the root word this word is built from.",
+   "de": "Tippe auf den Wortstamm, aus dem das Wort gebaut ist.",
+   "es": "Toca la palabra primitiva de la que se forma esta palabra.",
+   "fr": "Touche le mot de base à partir duquel ce mot est construit.",
+   "it": "Tocca la radice da cui nasce questa parola.",
+   "pt": "Toque a palavra primitiva da qual esta palavra é formada.",
+   "nl": "Tik op het stamwoord waarvan dit woord is gemaakt.",
+   "sv": "Tryck på ordstammen som ordet är byggt av.",
+   "da": "Tryk på roden, som ordet er bygget af.",
+   "no": "Trykk på roten som ordet er laget av.",
+   "fi": "Napauta kantasanaa, josta tämä sana on tehty."
+  },
+  "picture-family": {
+   "en": "Name the picture, then tap the word built from it.",
+   "de": "Tippe auf das Wort, das aus dem Bildwort gebaut ist.",
+   "es": "Toca la palabra que se forma con el nombre del dibujo.",
+   "fr": "Touche le mot construit à partir du nom de l’image.",
+   "it": "Tocca la parola che nasce dal nome dell’immagine.",
+   "pt": "Toque a palavra formada a partir do nome da figura.",
+   "nl": "Tik op het woord dat van het plaatjeswoord is gemaakt.",
+   "sv": "Tryck på ordet som är byggt av bildens ord.",
+   "da": "Tryk på ordet, der er bygget af billedets ord.",
+   "no": "Trykk på ordet som er laget av ordet for bildet.",
+   "fi": "Sano, mitä kuva esittää, ja napauta sanaa, joka on tehty kuvan sanasta."
+  },
+  "root-word": {
+   "en": "Tap the root word the three words share.",
+   "de": "Tippe auf den Wortstamm, den die drei Wörter gemeinsam haben.",
+   "es": "Toca la palabra primitiva que comparten las tres palabras.",
+   "fr": "Touche le radical commun aux trois mots.",
+   "pt": "Toque a palavra primitiva que as três palavras têm em comum.",
+   "nl": "Tik op het stamwoord dat de drie woorden delen.",
+   "sv": "Tryck på ordstammen som de tre orden har gemensamt.",
+   "da": "Tryk på rodordet, som de tre ord har til fælles.",
+   "no": "Trykk på rotordet som de tre ordene har felles.",
+   "fi": "Napauta kantasanaa, joka on kaikissa kolmessa sanassa."
+  },
+  "prefix-key": {
+   "en": "Read what the new word means, then tap its prefix.",
+   "de": "Lies, was das neue Wort bedeutet, und tippe auf seine Vorsilbe.",
+   "es": "Lee lo que significa la palabra nueva y toca su prefijo.",
+   "fr": "Lis ce que veut dire le nouveau mot, puis touche son préfixe.",
+   "it": "Leggi che cosa significa la parola nuova, poi tocca il suo prefisso.",
+   "pt": "Leia o que a palavra nova significa e toque o prefixo dela.",
+   "nl": "Lees wat het nieuwe woord betekent en tik op het voorvoegsel.",
+   "sv": "Läs vad det nya ordet betyder och tryck på prefixet.",
+   "da": "Læs, hvad det nye ord betyder, og tryk på forstavelsen.",
+   "no": "Les hva det nye ordet betyr, og trykk på forstavelsen."
+  },
+  "who-does-it": {
+   "en": "Tap the word for the person who does it.",
+   "de": "Tippe auf das Wort für die Person, die das macht.",
+   "it": "Tocca il nome di chi fa questo mestiere.",
+   "pt": "Toque a palavra que diz quem faz aquilo.",
+   "nl": "Tik op het woord voor wie dat doet.",
+   "sv": "Tryck på ordet för personen som gör det.",
+   "da": "Tryk på ordet for personen, der gør det.",
+   "no": "Trykk på ordet for personen som gjør det.",
+   "fi": "Napauta tekijää tarkoittavaa sanaa."
+  },
+  "family-in-sentence": {
+   "en": "Tap the word that fits the sentence.",
+   "de": "Tippe auf das Wort, das in den Satz passt.",
+   "es": "Toca la palabra que va en la oración.",
+   "fr": "Touche le mot qui convient dans la phrase.",
+   "it": "Tocca la parola che sta bene nella frase.",
+   "pt": "Toque a palavra que combina com a frase.",
+   "nl": "Tik op het woord dat in de zin past.",
+   "sv": "Tryck på ordet som passar i meningen.",
+   "da": "Tryk på ordet, der passer ind i sætningen.",
+   "no": "Trykk på ordet som passer i setningen.",
+   "fi": "Napauta sanaa, joka sopii lauseen aukkoon."
+  }
  }
 }

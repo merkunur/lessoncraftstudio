@@ -417,7 +417,8 @@
   },
   "word-parts": {
     "full": "Forstavelser, endelser og rotord: sortere ord etter roten, finne rotordet, velge forstavelse etter betydning og lage ord for personer.",
-    "short": "Rotord, forstavelser og endelser – slik bygges ordene"
+    "short": "Rotord, forstavelser og endelser – slik bygges ordene",
+    "levelSetShort": "Rotord, forstavelser og endelser."
   },
   "story-sequencing": {
     "full": "Bildeserier: sette bildene i en historie i riktig rekkefølge, bruke først, så og til slutt, se hva som skjer etterpå og fortelle og skrive til bildeserien.",

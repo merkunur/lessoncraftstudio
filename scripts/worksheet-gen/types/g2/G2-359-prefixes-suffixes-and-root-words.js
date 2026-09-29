@@ -59,6 +59,17 @@ const { fileUri } = require('../../lib/b2-common.js');
 const C5 = require('../../templates/components-b5/word-parts.js');
 const WB = require('../../primitives/word-brick.js');
 const { esc } = require('../../primitives/_svg.js');
+const WPS = require('../../lib/word-parts-screen.js');   // Level Set 2026-09-29: the screen version + answer key
+
+/** Level Set: the tap-choice declaration of one page (mode); the oracle reads the MERGED bank (only Level Set pages have a screen). */
+const META_ATTRS = { base: ['data-lcs-word'], 'picture-family': ['data-lcs-picfam'], 'root-word': ['data-lcs-words'], 'prefix-key': ['data-lcs-base', 'data-lcs-gloss'], 'who-does-it': ['data-lcs-person'], 'family-in-sentence': ['data-lcs-fam'] };
+function interactiveFor(mode) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-correct', labelAttr: 'data-lcs-word',
+    metaAttrs: META_ATTRS[mode], instructionKey: mode, screenHeight: 3600,
+    oracle: (items, l) => { const loc = (l || 'en').slice(0, 2); return WPS.oracle(mode, items, loc, mergedBank(loc)); },
+  };
+}
 
 const ID = 'G2-359';
 const KEY = 'word-parts';
@@ -66,6 +77,44 @@ const BODY_W = 675, WALL_GAP = 15;
 const G2_BRICK = 36, G2_TEXT = 17;
 const TRIES = 200;
 const FACE_MODES = ['picture-family', 'root-word', 'prefix-key', 'who-does-it', 'family-in-sentence'];
+
+/* Level Set 2026-09-29: the native panels' additions (data/b5/word-parts-levelset.json) merged over the bank —
+ * read ONLY by new pages (build: every coordinate but level 2 copy 1) and by verify (a superset of the published
+ * bank, so a published page still verifies). The published pages keep reading the original bank. */
+let _ls;
+function levelSetData() {
+  if (_ls === undefined) {
+    const p = require('path').join(__dirname, '../../data/b5/word-parts-levelset.json');
+    _ls = require('fs').existsSync(p) ? JSON.parse(require('fs').readFileSync(p, 'utf8')) : null;
+  }
+  return _ls;
+}
+function mergedBank(loc) {
+  const b = loadBank(KEY, loc);
+  const x = (levelSetData() || {})[loc];
+  if (!x) return { ...b, levelSet: true };
+  const cls = x.agentClass || {};
+  const pk = b.prefixKey;
+  // words / blocks of the published bank the native panels flagged (offensive, wrong, rare) never reach a NEW page
+  const dropW = new Set((x.dropWords || []).map((w) => low(w, loc)));
+  const clean = (fs) => fs.map((f) => ({ ...f, members: (f.members || []).filter((m) => !dropW.has(low(m.word, loc))), lookAlikes: (f.lookAlikes || []).filter((l) => !dropW.has(low(l.word, loc))) }));
+  const dropB = new Set(x.dropBlocks || []);
+  return {
+    ...b,
+    levelSet: true,   // a Level Set page's bank (the published pages read the original bank, without this mark)
+    families: clean([...(b.families || []), ...(x.families || [])]),
+    rootFamilies: clean([...(b.rootFamilies || []), ...(x.rootFamilies || [])]),
+    picFamilies: clean([...(b.picFamilies || []), ...(x.picFamilies || [])]),
+    sentences: { ...(b.sentences || {}), ...(x.sentences || {}) },
+    exemplar: { ...(b.exemplar || {}), F5: [...((b.exemplar && b.exemplar.F5) || []), ...(x.exemplarF5 || [])].filter((id) => !dropB.has(id)) },
+    ...(pk && x.prefixKey ? { prefixKey: { ...pk,
+      prefixes: [...pk.prefixes, ...(x.prefixKey.extraPrefix ? [x.prefixKey.extraPrefix] : [])],
+      rows: [...pk.rows, ...(x.prefixKey.rows || [])],
+      crossCheck: [...(pk.crossCheck || []), ...(x.prefixKey.crossCheck || [])],
+      l3Exclude: x.prefixKey.l3Exclude || [] } } : {}),
+    agents: [...(b.agents || []).map((a) => (cls[a.key] ? { ...a, class: cls[a.key] } : a)), ...(x.agents || [])].filter((a) => !(x.dropAgents || []).includes(a.key)),
+  };
+}
 
 const low = (s, loc) => String(s).normalize('NFC').toLocaleLowerCase(loc);
 const glyphs = (s) => [...String(s).normalize('NFC')].length;
@@ -252,12 +301,12 @@ function buildFace(self, block, d, loc, rng, fp) {
 
   if (mode === 'root-word') {
     if (d.brickH < G2_BRICK || d.memberPx < G2_TEXT || d.stoneGlyphH < 24) throw new Error(`${ID}: root-word below the G2 floors`);
-    if (d.cards !== d.cols * d.rows || d.worked !== 1 || d.members !== 3) throw new Error(`${ID}: root-word wants ${d.cols} x ${d.rows} cards, 1 worked, 3 members`);
+    if (d.cards !== d.cols * d.rows || ![0, 1].includes(d.worked) || d.members !== 3) throw new Error(`${ID}: root-word wants ${d.cols} x ${d.rows} cards, 0 or 1 worked, 3 members`);
     const cardW = (BODY_W - (d.cols - 1) * 14) / d.cols - 28;
     const fit = (w) => WB.brickEstimate(d.memberPx, glyphs(w)) <= Math.floor(cardW) - 2;
     const all = [...(block.families || []), ...(block.rootFamilies || [])].filter((f) => f && f.signed === true && f.rootIsFreeWord).map((f) => ({
       id: literal(f.id, 'family id', loc), stem: literal(f.stem, `family ${f.id} stem`, loc), root: literal(f.root && f.root.word, `family ${f.id} root.word`, loc),
-      members: (f.members || []).filter((mm) => fit(mm.word) && !mm.stemSigned).map((mm) => ({ word: literal(mm.word, `family ${f.id} member`, loc), kind: mm.kind })),
+      members: (f.members || []).filter((mm) => fit(mm.word) && !mm.stemSigned && (!d.kinds || d.kinds.includes(mm.kind)) && (!d.maxGlyphs || glyphs(mm.word) <= d.maxGlyphs)).map((mm) => ({ word: literal(mm.word, `family ${f.id} member`, loc), kind: mm.kind })),
     })).filter((f) => f.members.length >= d.members && low(f.stem, loc) === low(f.root, loc));
     const open = d.cards - d.worked;
     if (all.length < d.cards) throw new Error(`${ID}: ${loc} has ${all.length} free-root families for ${d.cards} root cards (refuse)`);
@@ -275,6 +324,12 @@ function buildFace(self, block, d, loc, rng, fp) {
     if (fp) plan = fp.families.map((id) => { const f = all.find((x) => x.id === id); return { f, words: triple(f) }; });
     for (let t = 0; t < TRIES && !plan; t++) {
       const order = rng.shuffle(all);
+      if (d.worked === 0) {   // Level Set L3: no worked example — every card open
+        const cards0 = order.slice(0, d.cards).map((f) => ({ f, words: triple(f) }));
+        if (cards0.some((c) => !c.words)) continue;
+        if (cards0.some((c, i) => c.words.some((w) => cards0.some((o, j) => j !== i && low(w, loc).includes(low(o.f.stem, loc)))))) continue;
+        plan = cards0; continue;
+      }
       const worked = order[0], rest = order.slice(1, 1 + open);
       if (rest.some((f) => { const tw = tri(low(worked.stem, loc)); return [...tri(low(f.stem, loc))].some((x) => tw.has(x)) || low(f.stem, loc).includes(low(worked.stem, loc)) || low(worked.stem, loc).includes(low(f.stem, loc)); })) continue;
       const cards = [worked, ...rest].map((f) => ({ f, words: triple(f) }));
@@ -284,10 +339,10 @@ function buildFace(self, block, d, loc, rng, fp) {
       plan = cards;
     }
     if (!plan) throw new Error(`${ID}: no root-word page for ${loc} in ${TRIES} tries (refuse)`);
-    const html = plan.map((c, i) => C5.wordPartRootCard({ famId: c.f.id, members: c.words, root: c.f.root, stem: c.f.stem, worked: i === 0, w: cardW, px: d.memberPx, brickH: d.brickH, stoneH: d.stoneH, glyphH: d.stoneGlyphH, loc }));
+    const html = plan.map((c, i) => C5.wordPartRootCard({ famId: c.f.id, members: c.words, root: c.f.root, stem: c.f.stem, worked: i === 0 && d.worked === 1, w: cardW, px: d.memberPx, brickH: d.brickH, stoneH: d.stoneH, glyphH: d.stoneGlyphH, loc }));
     const minRow = 18 + d.members * d.brickH + d.members * 4 + d.stoneH + 24 + 4;   // three 4 px gaps (space-between grows them)
     const inner = C5.wordPartGrid({ cards: html, cols: d.cols, rows: d.rows, minRow });
-    return { bodyHtml: facePage(self, mode, d, loc, inner), meta: { mode, families: plan.map((c) => c.f.id), worked: plan[0].f.id, members: plan.map((c) => c.words) } };
+    return { bodyHtml: facePage(self, mode, d, loc, inner), meta: { mode, families: plan.map((c) => c.f.id), worked: d.worked === 1 ? plan[0].f.id : null, members: plan.map((c) => c.words) } };
   }
 
   if (mode === 'prefix-key') {
@@ -296,7 +351,11 @@ function buildFace(self, block, d, loc, rng, fp) {
     if (!pk || !Array.isArray(pk.prefixes) || pk.prefixes.length < d.keySize) throw new Error(`${ID}: ${loc} prefixKey has fewer than ${d.keySize} prefixes (refuse)`);
     const key = pk.prefixes.slice(0, d.keySize).map((p) => ({ prefix: literal(p.prefix, 'key prefix', loc), meaning: literal(p.meaning, 'key meaning', loc) }));
     const inKey = new Set(key.map((p) => p.prefix));
-    const pool = pk.rows.filter((r) => inKey.has(r.prefix) && (r.prefix + r.base).normalize('NFC') === String(r.word).normalize('NFC') && WB.brickWidthFor('stem', r.base, d.basePx) <= 140);
+    // Level Set: a (published) row that a 4th key prefix would also fit stays off the 4-prefix pages
+    const pool = pk.rows.filter((r) => inKey.has(r.prefix) && (r.prefix + r.base).normalize('NFC') === String(r.word).normalize('NFC') && WB.brickWidthFor('stem', r.base, d.basePx) <= 140 &&
+      !(d.keySize > 3 && (pk.l3Exclude || []).includes(r.base)) &&
+      // a row whose gloss / base prints a key prefix as a word gives the answer away (de «mit» = with, and the prefix mit-)
+      !(block.levelSet && tokensOf(r.gloss + ' ' + r.base, loc).some((t) => inKey.has(t))));
     const counts = (rows) => key.map((p) => rows.filter((r) => r.prefix === p.prefix).length);
     if (key.some((p) => pool.filter((r) => r.prefix === p.prefix).length < d.eachPrefixUsed)) throw new Error(`${ID}: ${loc} prefixKey cannot give every key prefix ${d.eachPrefixUsed} rows (refuse)`);
     let rows = null;
@@ -329,7 +388,8 @@ function buildFace(self, block, d, loc, rng, fp) {
       const ans = a.answer && (a.answer[p.depicted] || a.answer.any);
       if (!ans) return null;
       return { key: a.key, base: literal(a.base, `agent ${a.key} base`, loc), answer: literal(ans, `agent ${a.key} answer`, loc), p };
-    }).filter((x) => x && x.p.minPx <= d.picPx);
+    }).filter((x) => x && x.p.minPx <= d.picPx && (d.agentClass !== 'regular' || (block.agents.find((a) => a.key === x.key) || {}).class === 'regular'));
+    const classOf = (x) => (block.agents.find((a) => a.key === x.key) || {}).class;
     let pick = null;
     if (fp) pick = fp.people.map((k) => pool.find((x) => x.key === k));
     for (let t = 0; t < TRIES && !pick; t++) {
@@ -337,6 +397,7 @@ function buildFace(self, block, d, loc, rng, fp) {
       if (s.length < d.cards) break;
       const keys = s.map((x) => x.key);
       if (keys.includes('singer') && keys.includes('musician')) continue;
+      if (d.otherMin && s.filter((x) => classOf(x) === 'other').length < d.otherMin) continue;
       pick = s;
     }
     if (!pick) throw new Error(`${ID}: ${loc} has no ${d.cards}-portrait who-does-it page (refuse)`);
@@ -369,14 +430,23 @@ function buildFace(self, block, d, loc, rng, fp) {
       });
     }
     if (!plan) throw new Error(`${ID}: no family-in-sentence page for ${loc} in ${TRIES} tries (refuse)`);
+    // Level Set L3 (sharedCourse): ONE strip of every block's words above all the stones, mixed so no two neighbours
+    // share a family — the child sorts each word to its family first, then to its sentence
+    let shared = null;
+    if (d.sharedCourse) {
+      const all = plan.flatMap((b) => b.course.map((w) => ({ w, fam: b.f.id })));
+      shared = shuffleUntil(all, (o) => o.every((x, i) => i === 0 || x.fam !== o[i - 1].fam), 'mixed shared strip');
+    }
     const maxG = Math.max(...plan.flatMap((b) => b.course.map(glyphs)));
     const gapW = Math.max(150, Math.min(300, Math.round(1.6 * 10 * maxG + 24)));
     let n = 0;
     const inner = `<div data-lcs-fblocks="" style="display:grid;grid-template-rows:repeat(${d.blocks},minmax(0,1fr));row-gap:14px;flex:1 1 auto;min-height:0">` + plan.map((b) => C5.wordPartFamilyBlock({
-      famId: b.f.id, root: b.f.root, course: b.course, gapW, coursePx: d.coursePx, brickH: d.brickH, stoneH: d.stoneH, stonePx: d.stonePx, sentPx: d.sentPx, rowH: d.rowH, gapH: d.gapH, glyphH: d.glyphH,
+      famId: b.f.id, root: b.f.root, course: shared ? [] : b.course, gapW, coursePx: d.coursePx, brickH: d.brickH, stoneH: d.stoneH, stonePx: d.stonePx, sentPx: d.sentPx, rowH: d.rowH, gapH: d.gapH, glyphH: d.glyphH,
       sentences: b.sent.map((x) => { const [pre, post] = String(x.frame).split('{gap}'); return { n: ++n, pre: pre.replace(/\s+$/, ' '), post: post.replace(/^\s+/, ' '), slot: x.slot }; }),
     })).join('') + `</div>`;
-    return { bodyHtml: facePage(self, mode, d, loc, inner), meta: { mode, families: plan.map((b) => b.f.id), answers: plan.map((b) => b.sent.map((x) => x.word)), courses: plan.map((b) => b.course) } };
+    const strip = shared ? `<div data-lcs-shared-course="" data-lcs-course="" style="display:flex;justify-content:center;flex-wrap:wrap;gap:8px;flex:0 0 auto">` +
+      shared.map((x, i) => WB.wordBrick({ role: 'word', w: WB.brickWidthFor('word', x.w, d.coursePx), h: d.brickH, text: x.w, fontPx: d.coursePx, attrs: `data-lcs-course-brick="${i}" data-lcs-word="${esc(x.w)}" data-lcs-course-of="${esc(x.fam)}"` })).join('') + `</div>` : '';
+    return { bodyHtml: facePage(self, mode, d, loc, strip + inner, shared ? ' data-lcs-shared="1"' : ''), meta: { mode, families: plan.map((b) => b.f.id), answers: plan.map((b) => b.sent.map((x) => x.word)), courses: plan.map((b) => b.course), ...(shared ? { shared: shared.map((x) => x.w) } : {}) } };
   }
   throw new Error(`${ID}: unknown face mode "${mode}"`);
 }
@@ -435,7 +505,7 @@ async function verifyFace(page, mode) {
       const fams = cards.map((c) => c.querySelector('[data-lcs-family]').dataset.lcsFamily);
       if (new Set(fams).size !== fams.length) out.push('two cards share a family');
       const worked = cards.filter((c) => c.querySelector('[data-lcs-worked]'));
-      if (worked.length !== cfg.worked || cards[0] !== worked[0]) out.push(`worked cards ${worked.length} (want ${cfg.worked}, card 1)`);
+      if (worked.length !== cfg.worked || (cfg.worked ? cards[0] !== worked[0] : false)) out.push(`worked cards ${worked.length} (want ${cfg.worked}, card 1)`);
       const rings = root.querySelectorAll('[data-lcs-ring]');
       const openText = cards.filter((c) => !c.querySelector('[data-lcs-worked]')).map((c) => c.innerText).join(' ');
       data.cards = cards.map((c, ci) => {
@@ -512,12 +582,14 @@ async function verifyFace(page, mode) {
     }
     if (mode === 'family-in-sentence') {
       const blocks = [...root.querySelectorAll('[data-lcs-fblock]')];
+      const sharedStrip = root.dataset.lcsShared === '1' ? [...root.querySelectorAll('[data-lcs-shared-course] [data-lcs-course-brick]')] : null;
+      if (sharedStrip) { const fams = sharedStrip.map((b) => b.dataset.lcsCourseOf); for (let i = 1; i < fams.length; i++) if (fams[i] === fams[i - 1]) out.push(`shared strip: two neighbours of one family (${i}, ${i + 1})`); data.shared = true; }
       if (blocks.length !== cfg.blocks) out.push(`${blocks.length} blocks ≠ ${cfg.blocks}`);
       const gws = new Set();
       data.blocks = blocks.map((bl, bi) => {
-        const course = [...bl.querySelectorAll('[data-lcs-course-brick]')].map((b) => b.dataset.lcsWord);
+        const course = sharedStrip ? sharedStrip.filter((b) => b.dataset.lcsCourseOf === bl.dataset.lcsFblock).map((b) => b.dataset.lcsWord) : [...bl.querySelectorAll('[data-lcs-course-brick]')].map((b) => b.dataset.lcsWord);
         if (course.length !== cfg.perBlock) out.push(`block ${bi + 1}: course of ${course.length} ≠ ${cfg.perBlock}`);
-        for (const b of bl.querySelectorAll('[data-lcs-course-brick]')) { txtIn(b); if (R(b).height < G2_BRICK - 0.5) out.push(`block ${bi + 1}: course brick under ${G2_BRICK}`); if (R(b).width > 147.5) out.push(`block ${bi + 1}: course brick ${R(b).width.toFixed(0)} px > 147`); }
+        for (const b of (sharedStrip ? sharedStrip.filter((x) => x.dataset.lcsCourseOf === bl.dataset.lcsFblock) : bl.querySelectorAll('[data-lcs-course-brick]'))) { txtIn(b); if (R(b).height < G2_BRICK - 0.5) out.push(`block ${bi + 1}: course brick under ${G2_BRICK}`); if (R(b).width > 147.5) out.push(`block ${bi + 1}: course brick ${R(b).width.toFixed(0)} px > 147`); }
         const st = bl.querySelector('[data-lcs-stone-text]');
         if (!st || st.textContent !== bl.dataset.lcsRoot) out.push(`block ${bi + 1}: the stone does not print its root`);
         const sents = [...bl.querySelectorAll('[data-lcs-sentence]')];
@@ -545,7 +617,7 @@ async function verifyFace(page, mode) {
   const d = r.data;
   if (!d) return out;
   let block = null;
-  try { block = loadBank(KEY, d.loc); } catch (e) { out.push('node cross-check: ' + e.message); return out; }
+  try { block = mergedBank(d.loc); } catch (e) { out.push('node cross-check: ' + e.message); return out; }   // Level Set: the merged bank (a superset of the published one)
   const loc = d.loc;
   if (mode === 'picture-family') {
     const allWords = new Set([...(block.families || []), ...(block.rootFamilies || []), ...(block.picFamilies || [])].flatMap((f) => f.members.map((m) => low(m.word, loc))));
@@ -582,7 +654,9 @@ async function verifyFace(page, mode) {
     const ans = d.rows.map((row, i) => {
       const r = pk.rows.find((x) => x.word === row.glossId && x.base === row.base);
       if (!r) { out.push(`node: row ${i + 1} (${row.base}) is not a signed prefixKey row`); return null; }
-      if (r.gloss !== row.gloss) out.push(`node: row ${i + 1} prints a gloss ≠ the bank`);
+      // the page sets French typography at render (a narrow no-break space before ? ! : ;) — compare the words, not the space kind
+      const sp = (x) => String(x).replace(/[\u00A0\u202F\u2009]/g, ' ');
+      if (sp(r.gloss) !== sp(row.gloss)) out.push(`node: row ${i + 1} prints a gloss ≠ the bank`);
       const q = glossQuotesKey(row.gloss, pk.prefixes.filter((p) => d.prefixes.includes(p.prefix)).map((p) => p.meaning), loc);
       if (q.length) out.push(`answer tell: row ${i + 1} (${row.base}): the meaning line quotes the key ("${q.join('", "')}")`);
       const good = (pk.crossCheck || []).filter((c) => c.base === row.base && d.prefixes.includes(c.prefix) && c.isWord && c.fitsGloss);
@@ -621,7 +695,7 @@ async function verifyFace(page, mode) {
       if (b.course.some((w) => !byWord[w]) || new Set(b.course).size !== b.course.length) out.push(`node: block ${b.fam} course [${b.course}] ≠ its four members once each`);
       const answers = b.gaps.map((g) => { const hits = b.course.filter((w) => byWord[w] && byWord[w].slot === g.slot); if (hits.length !== 1) out.push(`node: sentence ${g.n}: ${hits.length} course words carry slot ${g.slot} (want exactly 1)`); return hits[0]; });
       if (new Set(answers).size !== answers.length) out.push(`node: block ${b.fam}: a member answers two gaps`);
-      b.course.forEach((w, i) => { if (answers[i] === w) out.push(`node: block ${b.fam}: course position ${i + 1} is the answer of sentence ${b.gaps[i].n} (not a derangement)`); });
+      if (!d.shared) b.course.forEach((w, i) => { if (answers[i] === w) out.push(`node: block ${b.fam}: course position ${i + 1} is the answer of sentence ${b.gaps[i].n} (not a derangement)`); });
       b.gaps.forEach((g, i) => { const s = byWord[answers[i]]; if (s && g.text.replace(/\s+/g, ' ').trim() !== s.frame.replace('{gap}', '').replace(/\s+/g, ' ').trim()) out.push(`node: sentence ${g.n} ≠ its bank frame`); });
       for (const w of b.course) if (vis.filter((x) => x === low(w, loc)).length !== 1) out.push(`node: "${w}" is printed ${vis.filter((x) => x === low(w, loc)).length} times (only on the course)`);
     }
@@ -638,7 +712,8 @@ const TYPE = {
   themeAxis: { applicable: false },
   unitAxis: { applicable: false },
   difficulty: {
-    1: { mode: 'base', walls: 2, perWall: 3, rootPic: 'both', memberKinds: ['derived'], bankPx: 20, bankRowsMax: 2, courseH: 64, courseMaxH: 84, glyphH: 30, wallW: 330, maxGlyphs: 18 },
+    1: { mode: 'base', walls: 2, perWall: 3, rootPic: 'auto', memberKinds: ['derived'],   // Level Set: 'auto' — most banks' families carry no picture (d1 never shipped)
+    bankPx: 20, bankRowsMax: 2, courseH: 64, courseMaxH: 84, glyphH: 30, wallW: 330, maxGlyphs: 10 },   // Level Set: short words on the easiest level
     2: { mode: 'base', walls: 2, perWall: 5, rootPic: 'auto', memberKinds: ['derived', 'prefixed', 'compound'], bankPx: 20, bankRowsMax: 3, courseH: 60, courseMaxH: 76, glyphH: 28, wallW: 330, maxGlyphs: 18 },
     3: { mode: 'base', walls: 3, perWall: 4, rootPic: 'neither', memberKinds: ['derived', 'prefixed', 'compound'], bankPx: 18, bankRowsMax: 3, courseH: 56, courseMaxH: 72, glyphH: 26, wallW: 215, maxGlyphs: 18 },
   },
@@ -648,14 +723,29 @@ const TYPE = {
       instruction: 'Read each word at the top and write it on a line of the wall that stands on its root word.',
     },
   },
-  FACE_MODES, REFUSED_FACES, FACE_KEYS,
+  FACE_MODES, REFUSED_FACES, FACE_KEYS, mergedBank,
+  interactive: interactiveFor('base'), interactiveFor,
+  /** Level Set copies: what makes two pages of one level different (build-waves measures the overlap of these). */
+  levelSetWords(m) {
+    if (!m.mode || m.mode === 'base') return m.bank;
+    if (m.mode === 'prefix-key') return m.rows;
+    if (m.mode === 'who-does-it') return m.people;
+    return m.families;   // picture-family (pictures) · root-word (families) · family-in-sentence (blocks)
+  },
   compatible, orderOk, commonPart, isStaircase, answerRunTells,
 
   build({ difficulty, locale }, ctx) {
     const loc = String(locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];
     if (!d) throw new Error(`${ID}: no difficulty ${difficulty}`);
-    return this._buildWith(loadBank(KEY, loc), d, { locale: loc }, ctx);
+    // the published page (level 2, copy 1) reads the original bank; every Level Set page the merged one
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;   // Level Set copies at level 2 start at copy 2
+    const bank = published ? loadBank(KEY, loc) : mergedBank(loc);
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this._buildWith(bank, d, { locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return WPS.screenOrKey(d.mode, built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, d, { locale: loc }, ctx);
   },
 
   /** The whole build over an INJECTED bank block + resolved config (the gate's poison seam). */
@@ -831,7 +921,7 @@ const TYPE = {
     // node cross-check: the stamps against the signed bank (the walls' stems / roots, each brick a signed member of its wall's family)
     if (f.data) {
       let block = null;
-      try { block = loadBank(KEY, f.data.locale); } catch (e) { out.push('node cross-check: ' + e.message); }
+      try { block = mergedBank(f.data.locale); } catch (e) { out.push('node cross-check: ' + e.message); }   // Level Set: the merged bank (a superset)
       if (block) {
         const byId = Object.fromEntries((block.families || []).map((x) => [x.id, x]));
         for (const w of f.data.walls) {

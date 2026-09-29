@@ -53,6 +53,12 @@ function withLevelInstruction(strings, typeId, difficulty, locale) {
   if (!byLevel) return strings;
   const s = byLevel[locale];
   if (!s) throw new Error('strings: ' + typeId + ' level ' + difficulty + ' prints its own instruction but has none for ' + locale);
+  // an entry may also carry the level's own TITLE (Level Set 2026-09-29: the prefix-key title names its prefixes,
+  // so the 2-prefix and 4-prefix levels need their own): { "title": "...", "instruction": "..." }
+  if (s && typeof s === 'object') {
+    if (!s.instruction) throw new Error('strings: ' + typeId + ' level ' + difficulty + ' ' + locale + ' entry has no instruction');
+    return { ...strings, instruction: s.instruction, ...(s.title ? { title: s.title } : {}) };
+  }
   return { ...strings, instruction: s };
 }
 

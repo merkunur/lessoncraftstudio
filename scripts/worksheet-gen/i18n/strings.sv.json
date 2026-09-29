@@ -2930,5 +2930,17 @@
   "G3-400": {
     "title": "Min experimentrapport: flyta eller sjunka",
     "instruction": "Välj en fråga, skriv vad du tror, testa, rita sedan vad som hände och skriv vad du lärde dig."
+  },
+  "K-385": {
+    "title": "Lodräta och sneda linjer",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-386": {
+    "title": "Cirklar, kvadrater och trianglar",
+    "instruction": "Följ varje form med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-387": {
+    "title": "Spåra från bild till bild",
+    "instruction": "Börja vid den orangea pricken bredvid den första bilden. Följ den streckade linjen hela vägen till den andra bilden."
   }
 }

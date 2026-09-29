@@ -2962,5 +2962,17 @@
   "G3-401": {
     "title": "Skriv av setninger med sammenhengende skrift",
     "instruction": "Skriv over den grå setningen, og skriv så av hver trykt setning med sammenhengende skrift på de to linjene under."
+  },
+  "K-385": {
+    "title": "Loddrette og skrå linjer",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-386": {
+    "title": "Sirkler, kvadrater og trekanter",
+    "instruction": "Spor hver figur med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-387": {
+    "title": "Fra bilde til bilde",
+    "instruction": "Start på den oransje prikken ved siden av det første bildet. Spor den stiplede linjen helt fram til det andre bildet."
   }
 }

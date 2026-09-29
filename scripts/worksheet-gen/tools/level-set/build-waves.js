@@ -165,7 +165,7 @@ for (const loc of LOCALES) {
     const spec = loadType(id);
     // the published theme may differ per locale (sv article cards: farm animals) — face.publishedByLoc
     const published = (face.publishedByLoc && face.publishedByLoc[loc]) || face.published;
-    const usedInFace = [published];
+    const usedInFace = published ? [published] : [];   // a NEW face has no published page (null)
     // face.rotateUnits: each copy pins the next unit of the type's unitAxis (the bilingual partner language),
     // so the copies of a face cover the partner languages instead of repeating the exemplar
     const units = (face.unitsByLoc && face.unitsByLoc(loc)) || (face.rotateUnits && spec.unitAxis && spec.unitAxis.applicable ? spec.unitAxis.units(loc) : null);
@@ -180,7 +180,7 @@ for (const loc of LOCALES) {
       // cfg.faceWideDistinct === false: themes must differ within a LEVEL (what a teacher prints
       // together), may recur between levels of a face (the task differs) — for locales whose
       // buildable, unrelated themes cannot cover 15 copies (fi noun-case tables)
-      if (cfg.faceWideDistinct === false) usedInFace.length = 1;
+      if (cfg.faceWideDistinct === false) usedInFace.length = published ? 1 : 0;
       (levels[id] = levels[id] || {})[lv] = [];
       // copies === 'all' (Picture Word Cards, 2026-09-29: "teachers should be able to find everything they need"):
       // one copy per buildable theme, colour AND black-and-white (a B&W set is its own picture set); at level 2 the

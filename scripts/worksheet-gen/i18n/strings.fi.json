@@ -2946,5 +2946,17 @@
   "G3-400": {
     "title": "Kelluminen ja uppoaminen: oma tutkimusraportti",
     "instruction": "Valitse kysymys, kirjoita arvauksesi, kokeile, piirrä, mitä tapahtui, ja kirjoita, mitä opit."
+  },
+  "K-385": {
+    "title": "Kynäharjoitukset: pysty- ja vinoviivat",
+    "instruction": "Piirrä viivaa pitkin kynällä. Aloita oranssista pisteestä ja seuraa nuolta."
+  },
+  "K-386": {
+    "title": "Kynäharjoitukset: ympyrät, neliöt ja muut kuviot",
+    "instruction": "Piirrä jokaisen kuvion viivaa pitkin kynällä. Aloita oranssista pisteestä ja seuraa nuolta."
+  },
+  "K-387": {
+    "title": "Kynäharjoitukset: kuvasta kuvaan",
+    "instruction": "Aloita ensimmäisen kuvan vieressä olevasta oranssista pisteestä. Piirrä polkua pitkin aina toiseen kuvaan asti."
   }
 }

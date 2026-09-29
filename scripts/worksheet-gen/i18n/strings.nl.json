@@ -2970,5 +2970,17 @@
   "G3-401": {
     "title": "Zinnen overschrijven in verbonden schrift",
     "instruction": "Schrijf eerst de grijze zin na en schrijf daarna elke gedrukte zin in verbonden schrift over op de twee lijnen eronder."
+  },
+  "K-385": {
+    "title": "Streepjes en kruisjes",
+    "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+  },
+  "K-386": {
+    "title": "Rondjes, vierkanten en driehoeken",
+    "instruction": "Trek elke vorm na met je potlood. Begin bij de oranje stip en volg de pijl."
+  },
+  "K-387": {
+    "title": "Van plaatje naar plaatje",
+    "instruction": "Begin bij de oranje stip naast het eerste plaatje. Trek het pad helemaal na tot aan het andere plaatje."
   }
 }

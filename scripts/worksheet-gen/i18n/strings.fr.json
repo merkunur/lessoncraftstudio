@@ -2970,5 +2970,17 @@
   "G3-401": {
     "title": "Écriture cursive : copier une phrase",
     "instruction": "Repasse la phrase grise, puis copie en cursive chaque phrase écrite en script sur les deux lignes en dessous."
+  },
+  "K-385": {
+    "title": "Graphisme : traits verticaux, obliques et croix",
+    "instruction": "Repasse chaque trait avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-386": {
+    "title": "Graphisme : ronds, carrés et triangles",
+    "instruction": "Repasse chaque forme avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-387": {
+    "title": "Graphisme : d'une image à l'autre",
+    "instruction": "Pars du point orange, à côté de la première image. Repasse tout le chemin jusqu'à l'autre image."
   }
 }

@@ -2954,5 +2954,17 @@
   "G3-401": {
     "title": "Håndskrift 3. klasse: skriv sætninger af med sammenhængende skrift",
     "instruction": "Skriv først oven i den grå sætning, og skriv så hver trykt sætning af med sammenhængende skrift på de to linjer under den."
+  },
+  "K-385": {
+    "title": "Lodrette og skrå linjer",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-386": {
+    "title": "Cirkler, kvadrater og trekanter",
+    "instruction": "Følg hver figur med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-387": {
+    "title": "Fra billede til billede",
+    "instruction": "Start ved den orange prik ved siden af det første billede. Følg den stiplede linje hele vejen hen til det andet billede."
   }
 }

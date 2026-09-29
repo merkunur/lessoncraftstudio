@@ -2950,5 +2950,17 @@
   "G3-401": {
     "title": "Oraciones para copiar en letra cursiva",
     "instruction": "Repasa la oración gris y luego copia cada oración en letra cursiva en los dos renglones de abajo."
+  },
+  "K-385": {
+    "title": "Líneas verticales, inclinadas y cruces",
+    "instruction": "Repasa cada trazo con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-386": {
+    "title": "Grafomotricidad: círculos, cuadrados y triángulos",
+    "instruction": "Repasa cada figura con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-387": {
+    "title": "Caminos de un dibujo a otro",
+    "instruction": "Empieza en el punto naranja junto al primer dibujo. Repasa todo el camino hasta llegar al otro dibujo."
   }
 }

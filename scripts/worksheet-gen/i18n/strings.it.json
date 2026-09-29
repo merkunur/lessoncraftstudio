@@ -2950,5 +2950,17 @@
   "G3-401": {
     "title": "Frasi in corsivo da ricopiare",
     "instruction": "Prima ripassa la frase grigia, poi ricopia in corsivo ogni frase in stampato sulle due righe qui sotto."
+  },
+  "K-385": {
+    "title": "Pregrafismo: linee verticali, oblique e croci",
+    "instruction": "Ripassa ogni segno con la matita. Parti dal punto arancione e segui la freccia."
+  },
+  "K-386": {
+    "title": "Pregrafismo: cerchi, quadrati e triangoli",
+    "instruction": "Ripassa ogni forma con la matita. Parti dal punto arancione e segui la freccia."
+  },
+  "K-387": {
+    "title": "Pregrafismo: da un disegno all'altro",
+    "instruction": "Parti dal punto arancione vicino al primo disegno. Ripassa tutto il percorso fino all'altro disegno."
   }
 }

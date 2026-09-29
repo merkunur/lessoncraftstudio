@@ -608,5 +608,46 @@
    "no": "Trykk på spørsmålet som spør etter de uthevede ordene.",
    "fi": "Napauta kysymystä, joka kysyy korostettuja sanoja."
   }
+ },
+ "read-and-do": {
+  "base": {
+   "en": "Read each sentence. Tap the picture it is about. If it asks how many, tap the number.",
+   "de": "Lies jeden Satz. Tippe auf das Bild, um das es geht. Fragt der Satz „wie viele“, tippe auf die Zahl.",
+   "es": "Lee cada oración y toca la respuesta correcta: el dibujo, o el número si pregunta cuántos.",
+   "fr": "Lis chaque phrase. Appuie sur l'image (ou le nombre) qui va avec la phrase.",
+   "it": "Leggi ogni frase e tocca la risposta giusta: il disegno, o il numero se chiede quanti.",
+   "pt": "Leia cada frase e toque na resposta certa: a figura, ou o número se perguntar quantos.",
+   "nl": "Lees elke zin. Tik op het plaatje waar de zin over gaat. Staat er hoeveel? Tik dan op het getal.",
+   "sv": "Läs varje mening. Tryck på bilden som meningen handlar om, eller på rätt tal.",
+   "da": "Læs hver sætning. Tryk på det billede, sætningen handler om, eller på det tal, der passer.",
+   "no": "Les hver setning. Trykk på bildet setningen handler om, eller på riktig tall.",
+   "fi": "Lue jokainen lause. Napauta kuvaa tai numeroa, joka sopii lauseeseen."
+  },
+  "steps": {
+   "en": "Read the whole sentence. Look at the colored part. Tap the picture or number it is about.",
+   "de": "Lies den ganzen Satz. Tippe auf das Bild oder die Zahl, um die es im farbigen Teil geht.",
+   "es": "Lee toda la oración. Mira la parte de color y toca su respuesta: un dibujo o un número.",
+   "fr": "Lis toute la phrase. Appuie sur l'image (ou le nombre) qui va avec la partie surlignée.",
+   "it": "Leggi tutta la frase. Guarda la parte colorata e tocca la risposta: un disegno o un numero.",
+   "pt": "Leia a frase inteira. Olhe a parte colorida e toque na resposta: uma figura ou um número.",
+   "nl": "Lees de hele zin. Tik op het plaatje of het getal waar het gekleurde stuk over gaat.",
+   "sv": "Läs hela meningen. Tryck på bilden som den markerade delen handlar om, eller på rätt tal.",
+   "da": "Læs hele sætningen. Tryk på det billede, den markerede del handler om, eller på det tal, der passer.",
+   "no": "Les hele setningen. Trykk på bildet den markerte delen handler om, eller på riktig tall.",
+   "fi": "Lue koko lause. Napauta kuvaa tai numeroa, joka sopii korostettuun osaan."
+  },
+  "truth": {
+   "en": "Read each sentence and look at the row. Is it true or false? Tap your answer.",
+   "de": "Lies jeden Satz und schau die Bilderreihe an. Ist er richtig oder falsch? Tippe auf deine Antwort.",
+   "es": "Lee cada oración y mira la fila. ¿Es verdadera o falsa? Toca tu respuesta.",
+   "fr": "Lis chaque phrase et regarde la ligne d'images. Est-ce vrai ou faux ? Appuie sur ta réponse.",
+   "it": "Leggi ogni frase e guarda la fila. La frase è vera o falsa? Tocca la risposta.",
+   "pt": "Leia cada frase e olhe a fileira. A frase é verdadeira ou falsa? Toque na sua resposta.",
+   "nl": "Lees elke zin en kijk naar de rij plaatjes. Is de zin waar of niet waar? Tik op je antwoord.",
+   "sv": "Läs varje mening och titta på raden. Är meningen sann eller falsk? Tryck på ditt svar.",
+   "da": "Læs hver sætning, og se på rækken. Er sætningen rigtig eller forkert? Tryk på dit svar.",
+   "no": "Les hver setning og se på bilderekka. Er setningen sann eller usann? Trykk på svaret ditt.",
+   "fi": "Lue jokainen lause ja katso kuvariviä. Onko se totta vai tarua? Napauta vastaustasi."
+  }
  }
 }

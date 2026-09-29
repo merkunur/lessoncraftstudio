@@ -9,6 +9,13 @@ module.exports = {
   ...base,
   id: 'G1-342',
   slug: 'read-and-draw',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: undefined,   // open-ended drawing: printable only, no screen, no key
+  // Level Set 2026-09-30: L1 numbers 2-3 only · L2 = the published page · L3 TWO things in one sentence
+  // ("Draw 3 cats and 2 dogs."; bank draw2 frames, native panels)
+  difficulty: {
+    1: { ...D, nMax: 3 },
+    2: D,
+    3: { ...D, two: true },
+  },
   i18n: { en: { title: "Read and Draw", instruction: "Read each sentence carefully. Then draw exactly what it says inside the box." } },
 };

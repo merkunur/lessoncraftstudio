@@ -2194,11 +2194,11 @@
     },
     "F2": {
       "title": "Läs och gör: instruktioner i två steg",
-      "instruction": "Varje mening säger två saker att göra. Läs den till slutet innan du börjar och gör sedan båda stegen i bildraden."
+      "instruction": "Varje mening säger två saker som du ska göra. Läs den till slutet innan du börjar och gör sedan båda stegen i bildraden."
     },
     "F3": {
       "title": "Läs och gör: första, andra, mellan",
-      "instruction": "Börja vid flaggan och räkna längs raden. Hitta bilden på sin plats och gör sedan det som meningen säger med din penna."
+      "instruction": "Börja vid flaggan och räkna längs raden. Räkna fram till rätt bild och gör sedan det som meningen säger med din penna."
     },
     "F4": {
       "title": "Läs och kryssa: sant eller falskt?",
@@ -2206,7 +2206,21 @@
     },
     "F5": {
       "title": "Läs och rita",
-      "instruction": "Läs varje mening noga. Rita sedan precis det som står i rutan."
+      "instruction": "Läs varje mening noga. Rita sedan i rutan precis det som det står."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Rita {n} {pl} och {n2} {pl2}."
+    },
+    {
+      "text": "Rita {n} {pl} och {n2} {pl2} i rutan."
+    },
+    {
+      "text": "Rita {n} stora {pl} och {n2} små {pl2}."
+    },
+    {
+      "text": "Rita {n} {pl}. Rita sedan {n2} {pl2}."
+    }
+  ]
 }

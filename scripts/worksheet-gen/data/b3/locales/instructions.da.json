@@ -28,7 +28,8 @@
     },
     {
       "id": "write",
-      "frame": "Skriv, hvor mange {pl} der er."
+      "frame": "Skriv, hvor mange {pl} der er.",
+      "joinComma": true
     }
   ],
   "fixed": {
@@ -2409,7 +2410,7 @@
       "instruction": "Læs hver sætning. Find det eller de billeder, den nævner, i rækken, og tegn en ring om dem. Sæt så kryds i den lille kasse."
     },
     "F2": {
-      "title": "Læs og gør: to ting ad gangen",
+      "title": "Læs og gør: to ting efter hinanden",
       "instruction": "Hver sætning siger to ting, du skal gøre. Læs den til ende, før du starter, og gør så begge dele i billedrækken."
     },
     "F3": {
@@ -2418,11 +2419,25 @@
     },
     "F4": {
       "title": "Læs og tjek: rigtigt eller forkert",
-      "instruction": "Læs hver sætning, og se på billedrækken. Er sætningen rigtig eller forkert? Sæt ring om det rigtige ord."
+      "instruction": "Læs hver sætning, og se på billedrækken. Er sætningen rigtig eller forkert? Sæt ring om det ord, der passer."
     },
     "F5": {
       "title": "Læs og tegn",
       "instruction": "Læs hver sætning grundigt. Tegn så præcis det, der står, inde i kassen."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Tegn {n} {pl} og {n2} {pl2}."
+    },
+    {
+      "text": "Tegn {n} {pl} og {n2} {pl2} i kassen."
+    },
+    {
+      "text": "Tegn {n} store {pl} og {n2} små {pl2}."
+    },
+    {
+      "text": "Tegn {n} {pl}. Tegn så {n2} {pl2}."
+    }
+  ]
 }

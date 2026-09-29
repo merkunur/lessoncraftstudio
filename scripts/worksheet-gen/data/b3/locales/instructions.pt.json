@@ -24,7 +24,7 @@
     },
     {
       "id": "mark",
-      "frame": "Marque {obj} com um certo."
+      "frame": "Marque {obj} com um sinal de certo."
     },
     {
       "id": "write",
@@ -44,8 +44,8 @@
       "8": "a oitava figura"
     },
     "between": "a figura que está entre {A} e {B}",
-    "rightof": "a figura que tem {A} à sua esquerda",
-    "leftof": "a figura que tem {A} à sua direita"
+    "rightof": "a figura que está logo depois {A}",
+    "leftof": "a figura que está logo antes {A}"
   },
   "objForms": {
     "antelope": {
@@ -64,7 +64,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do antílope"
     },
     "camel": {
       "unique": "o camelo",
@@ -82,7 +83,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do camelo"
     },
     "cat": {
       "unique": "o gato",
@@ -100,7 +102,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do gato"
     },
     "dog": {
       "unique": "o cachorro",
@@ -118,7 +121,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do cachorro"
     },
     "dolphin": {
       "unique": "o golfinho",
@@ -136,7 +140,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do golfinho"
     },
     "donkey": {
       "unique": "o burro",
@@ -154,7 +159,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do burro"
     },
     "duck": {
       "unique": "o pato",
@@ -172,7 +178,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do pato"
     },
     "elephant": {
       "unique": "o elefante",
@@ -190,7 +197,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do elefante"
     },
     "fox": {
       "unique": "a raposa",
@@ -208,7 +216,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da raposa"
     },
     "fish": {
       "unique": "o peixe",
@@ -226,7 +235,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do peixe"
     },
     "giraffe": {
       "unique": "a girafa",
@@ -244,7 +254,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da girafa"
     },
     "hippopotamus": {
       "unique": "o hipopótamo",
@@ -262,7 +273,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do hipopótamo"
     },
     "horse": {
       "unique": "o cavalo",
@@ -280,7 +292,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do cavalo"
     },
     "iguana": {
       "unique": "a iguana",
@@ -298,7 +311,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da iguana"
     },
     "jaguar": {
       "unique": "a onça",
@@ -316,7 +330,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da onça"
     },
     "koala": {
       "unique": "o coala",
@@ -334,7 +349,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do coala"
     },
     "leopard": {
       "unique": "o leopardo",
@@ -352,7 +368,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do leopardo"
     },
     "moose": {
       "unique": "o alce",
@@ -370,7 +387,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do alce"
     },
     "orangutan": {
       "unique": "o orangotango",
@@ -388,7 +406,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do orangotango"
     },
     "owl": {
       "unique": "a coruja",
@@ -406,7 +425,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da coruja"
     },
     "panda": {
       "unique": "o panda",
@@ -424,7 +444,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do panda"
     },
     "penguin": {
       "unique": "o pinguim",
@@ -442,7 +463,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do pinguim"
     },
     "pig": {
       "unique": "o porco",
@@ -460,7 +482,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do porco"
     },
     "raccoon": {
       "unique": "o guaxinim",
@@ -478,7 +501,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do guaxinim"
     },
     "rabbit": {
       "unique": "o coelho",
@@ -496,7 +520,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do coelho"
     },
     "reindeer": {
       "unique": "a rena",
@@ -514,7 +539,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da rena"
     },
     "sheep": {
       "unique": "a ovelha",
@@ -532,7 +558,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da ovelha"
     },
     "seagull": {
       "unique": "a gaivota",
@@ -550,7 +577,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da gaivota"
     },
     "swan": {
       "unique": "o cisne",
@@ -568,7 +596,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do cisne"
     },
     "tiger": {
       "unique": "o tigre",
@@ -586,7 +615,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do tigre"
     },
     "turtle": {
       "unique": "a tartaruga",
@@ -604,7 +634,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da tartaruga"
     },
     "vulture": {
       "unique": "o abutre",
@@ -622,7 +653,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do abutre"
     },
     "whale": {
       "unique": "a baleia",
@@ -640,7 +672,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da baleia"
     },
     "wolf": {
       "unique": "o lobo",
@@ -658,7 +691,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do lobo"
     },
     "zebra": {
       "unique": "a zebra",
@@ -676,7 +710,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da zebra"
     },
     "avocado": {
       "unique": "o abacate",
@@ -694,7 +729,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do abacate"
     },
     "apricot": {
       "unique": "o damasco",
@@ -712,7 +748,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do damasco"
     },
     "banana": {
       "unique": "a banana",
@@ -730,7 +767,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da banana"
     },
     "apple": {
       "unique": "a maçã",
@@ -748,7 +786,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da maçã"
     },
     "blackberry": {
       "unique": "a amora",
@@ -766,7 +805,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da amora"
     },
     "blueberry": {
       "unique": "o mirtilo",
@@ -784,7 +824,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do mirtilo"
     },
     "cherry": {
       "unique": "a cereja",
@@ -802,7 +843,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da cereja"
     },
     "clementine": {
       "unique": "a clementina",
@@ -820,7 +862,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da clementina"
     },
     "coconut": {
       "unique": "o coco",
@@ -838,7 +881,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do coco"
     },
     "fig": {
       "unique": "o figo",
@@ -856,7 +900,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do figo"
     },
     "cranberry": {
       "unique": "o oxicoco",
@@ -874,7 +919,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do oxicoco"
     },
     "grapefruit": {
       "unique": "a toranja",
@@ -892,7 +938,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da toranja"
     },
     "kiwi": {
       "unique": "o kiwi",
@@ -910,7 +957,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do kiwi"
     },
     "lemon": {
       "unique": "o limão",
@@ -928,7 +976,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do limão"
     },
     "lime": {
       "unique": "a lima",
@@ -946,7 +995,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da lima"
     },
     "mango": {
       "unique": "a manga",
@@ -964,7 +1014,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da manga"
     },
     "orange": {
       "unique": "a laranja",
@@ -982,7 +1033,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da laranja"
     },
     "papaya": {
       "unique": "o mamão",
@@ -1000,7 +1052,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do mamão"
     },
     "peach": {
       "unique": "o pêssego",
@@ -1018,7 +1071,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do pêssego"
     },
     "nectarine": {
       "unique": "a nectarina",
@@ -1036,7 +1090,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da nectarina"
     },
     "pear": {
       "unique": "a pera",
@@ -1054,7 +1109,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da pera"
     },
     "persimmon": {
       "unique": "o caqui",
@@ -1072,7 +1128,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do caqui"
     },
     "pineapple": {
       "unique": "o abacaxi",
@@ -1090,7 +1147,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do abacaxi"
     },
     "plum": {
       "unique": "a ameixa",
@@ -1108,7 +1166,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da ameixa"
     },
     "pomegranate": {
       "unique": "a romã",
@@ -1126,7 +1185,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da romã"
     },
     "watermelon": {
       "unique": "a melancia",
@@ -1144,7 +1204,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da melancia"
     },
     "strawberry": {
       "unique": "o morango",
@@ -1162,7 +1223,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do morango"
     },
     "raspberry": {
       "unique": "a framboesa",
@@ -1180,7 +1242,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da framboesa"
     },
     "airplane": {
       "unique": "o avião",
@@ -1198,7 +1261,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do avião"
     },
     "ambulance": {
       "unique": "a ambulância",
@@ -1216,7 +1280,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da ambulância"
     },
     "bicycle": {
       "unique": "a bicicleta",
@@ -1234,7 +1299,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da bicicleta"
     },
     "boat": {
       "unique": "o barco",
@@ -1252,7 +1318,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do barco"
     },
     "bulldozer": {
       "unique": "o buldôzer",
@@ -1270,7 +1337,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do buldôzer"
     },
     "car": {
       "unique": "o carro",
@@ -1288,7 +1356,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do carro"
     },
     "canoe": {
       "unique": "a canoa",
@@ -1306,7 +1375,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da canoa"
     },
     "excavator": {
       "unique": "a escavadeira",
@@ -1324,7 +1394,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da escavadeira"
     },
     "ferry": {
       "unique": "a balsa",
@@ -1342,7 +1413,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da balsa"
     },
     "forklift": {
       "unique": "a empilhadeira",
@@ -1360,7 +1432,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da empilhadeira"
     },
     "helicopter": {
       "unique": "o helicóptero",
@@ -1378,7 +1451,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do helicóptero"
     },
     "jeep": {
       "unique": "o jipe",
@@ -1396,7 +1470,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do jipe"
     },
     "motorcycle": {
       "unique": "a motocicleta",
@@ -1414,7 +1489,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da motocicleta"
     },
     "rocket": {
       "unique": "o foguete",
@@ -1432,7 +1508,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do foguete"
     },
     "sailboat": {
       "unique": "o veleiro",
@@ -1450,7 +1527,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do veleiro"
     },
     "ship": {
       "unique": "o navio",
@@ -1468,7 +1546,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do navio"
     },
     "submarine": {
       "unique": "o submarino",
@@ -1486,7 +1565,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do submarino"
     },
     "subway": {
       "unique": "o metrô",
@@ -1504,7 +1584,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do metrô"
     },
     "tractor": {
       "unique": "o trator",
@@ -1522,7 +1603,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do trator"
     },
     "train": {
       "unique": "o trem",
@@ -1540,7 +1622,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do trem"
     },
     "truck": {
       "unique": "o caminhão",
@@ -1558,7 +1641,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do caminhão"
     },
     "yacht": {
       "unique": "o iate",
@@ -1576,7 +1660,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do iate"
     },
     "ball": {
       "unique": "a bola",
@@ -1594,7 +1679,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da bola"
     },
     "balloon": {
       "unique": "o balão",
@@ -1612,7 +1698,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do balão"
     },
     "bucket": {
       "unique": "o balde",
@@ -1630,7 +1717,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do balde"
     },
     "dinosaur": {
       "unique": "o dinossauro",
@@ -1648,7 +1736,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do dinossauro"
     },
     "doll": {
       "unique": "a boneca",
@@ -1666,7 +1755,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da boneca"
     },
     "robot": {
       "unique": "o robô",
@@ -1684,7 +1774,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do robô"
     },
     "slide": {
       "unique": "o escorregador",
@@ -1702,7 +1793,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do escorregador"
     },
     "swing": {
       "unique": "o balanço",
@@ -1720,7 +1812,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do balanço"
     },
     "bear": {
       "unique": "o urso",
@@ -1738,7 +1831,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do urso"
     },
     "armadillo": {
       "unique": "o tatu",
@@ -1756,7 +1850,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do tatu"
     },
     "bison": {
       "unique": "o bisão",
@@ -1774,7 +1869,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do bisão"
     },
     "cheetah": {
       "unique": "o guepardo",
@@ -1792,7 +1888,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do guepardo"
     },
     "chimpanzee": {
       "unique": "o chimpanzé",
@@ -1810,7 +1907,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do chimpanzé"
     },
     "gorilla": {
       "unique": "o gorila",
@@ -1828,7 +1926,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do gorila"
     },
     "gazelle": {
       "unique": "a gazela",
@@ -1846,7 +1945,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da gazela"
     },
     "hyena": {
       "unique": "a hiena",
@@ -1864,7 +1964,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da hiena"
     },
     "kangaroo": {
       "unique": "o canguru",
@@ -1882,7 +1983,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do canguru"
     },
     "lemur": {
       "unique": "o lêmure",
@@ -1900,7 +2002,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do lêmure"
     },
     "lion": {
       "unique": "o leão",
@@ -1918,7 +2021,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do leão"
     },
     "meerkat": {
       "unique": "o suricato",
@@ -1936,7 +2040,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do suricato"
     },
     "monkey": {
       "unique": "o macaco",
@@ -1954,7 +2059,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do macaco"
     },
     "otter": {
       "unique": "a lontra",
@@ -1972,7 +2078,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da lontra"
     },
     "rhinoceros": {
       "unique": "o rinoceronte",
@@ -1990,7 +2097,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do rinoceronte"
     },
     "seal": {
       "unique": "a foca",
@@ -2008,7 +2116,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da foca"
     },
     "sloth": {
       "unique": "a preguiça",
@@ -2026,7 +2135,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da preguiça"
     },
     "bee": {
       "unique": "a abelha",
@@ -2044,7 +2154,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da abelha"
     },
     "bull": {
       "unique": "o touro",
@@ -2062,7 +2173,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do touro"
     },
     "calf": {
       "unique": "o bezerro",
@@ -2080,7 +2192,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do bezerro"
     },
     "chick": {
       "unique": "o pintinho",
@@ -2098,7 +2211,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do pintinho"
     },
     "chicken": {
       "unique": "a galinha",
@@ -2116,7 +2230,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da galinha"
     },
     "cow": {
       "unique": "a vaca",
@@ -2134,7 +2249,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da vaca"
     },
     "duckling": {
       "unique": "o patinho",
@@ -2152,7 +2268,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do patinho"
     },
     "foal": {
       "unique": "o potro",
@@ -2170,7 +2287,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do potro"
     },
     "goat": {
       "unique": "a cabra",
@@ -2188,7 +2306,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da cabra"
     },
     "goose": {
       "unique": "o ganso",
@@ -2206,7 +2325,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do ganso"
     },
     "lamb": {
       "unique": "o cordeiro",
@@ -2224,7 +2344,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do cordeiro"
     },
     "llama": {
       "unique": "a lhama",
@@ -2242,7 +2363,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "da lhama"
     },
     "ox": {
       "unique": "o boi",
@@ -2260,7 +2382,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do boi"
     },
     "rooster": {
       "unique": "o galo",
@@ -2278,7 +2401,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do galo"
     },
     "turkey": {
       "unique": "o peru",
@@ -2296,7 +2420,8 @@
       "part": null,
       "gen": null,
       "a2": null,
-      "reviewed": true
+      "reviewed": true,
+      "de": "do peru"
     }
   },
   "truth": {
@@ -2355,11 +2480,11 @@
         "k": 4
       },
       {
-        "text": "Primeiro vem {obj} e logo depois vem {obj2}.",
+        "text": "Em algum lugar da fileira vem {obj} e logo depois vem {obj2}.",
         "cue": "rightof"
       },
       {
-        "text": "Primeiro vem {obj2} e logo depois vem {obj}.",
+        "text": "Em algum lugar da fileira vem {obj2} e logo depois vem {obj}.",
         "cue": "leftof"
       }
     ]
@@ -2406,5 +2531,23 @@
       "title": "Leia e desenhe",
       "instruction": "Leia cada frase com atenção. Depois desenhe dentro do quadro exatamente o que ela pede."
     }
+  },
+  "draw2": [
+    {
+      "text": "Desenhe {n} {pl} e {n2} {pl2}."
+    },
+    {
+      "text": "Desenhe {n} {pl} e {n2} {pl2} no quadro."
+    },
+    {
+      "text": "Desenhe {n} {pl} grandes e {n2} {pl2} de tamanho pequeno."
+    },
+    {
+      "text": "Desenhe {n} {pl}. Depois desenhe {n2} {pl2}."
+    }
+  ],
+  "fixedForms": {
+    "rightof": "de",
+    "leftof": "de"
   }
 }

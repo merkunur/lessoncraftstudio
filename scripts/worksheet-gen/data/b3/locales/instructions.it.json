@@ -2160,22 +2160,22 @@
     "no": "falso",
     "frames": [
       {
-        "text": "Il numero di {pl} nella fila è {n}.",
+        "text": "Nella fila ci sono {n} {pl}.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "In tutto il numero di {pl} è {n}.",
+        "text": "Nella fila ci sono esattamente {n} {pl}.",
         "cue": "count",
         "rel": "eq"
       },
       {
-        "text": "Il numero di {pl} è maggiore di {n}.",
+        "text": "Nella fila ci sono più di {n} {pl}.",
         "cue": "count",
         "rel": "gt"
       },
       {
-        "text": "Il numero di {pl} è minore di {n}.",
+        "text": "Nella fila ci sono meno di {n} {pl}.",
         "cue": "count",
         "rel": "lt"
       },
@@ -2269,5 +2269,19 @@
       "title": "Leggi e disegna",
       "instruction": "Leggi ogni frase con attenzione. Poi disegna nel riquadro proprio quello che dice."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Disegna {n} {pl} e {n2} {pl2}."
+    },
+    {
+      "text": "Disegna {n} {pl} e {n2} {pl2} nel riquadro."
+    },
+    {
+      "text": "Disegna {n} {pl} in grande e {n2} {pl2} in piccolo."
+    },
+    {
+      "text": "Disegna {n} {pl}. Poi disegna {n2} {pl2}."
+    }
+  ]
 }

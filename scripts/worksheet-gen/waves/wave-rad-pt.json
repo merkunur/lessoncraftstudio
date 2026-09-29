@@ -1,0 +1,413 @@
+{
+  "id": "wave-rad-pt",
+  "_note": "Level Set 2026-09-30: Read and Do, PDF + screen version + answer key (Read and Draw: PDF only). Levels change the reading: easier = bigger pictures and simpler position words, harder = more sentences, ordinals, between / right of / left of, two-picture statements, two things to draw. Visible to teachers, never indexed.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-308",
+    "G1-338",
+    "G1-339",
+    "G1-340",
+    "G1-341",
+    "G1-342"
+  ],
+  "levels": {
+    "G1-308": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "beach"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 5,
+          "theme": "beach"
+        },
+        {
+          "copy": 6,
+          "theme": "forest creatures"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "animals"
+        }
+      ]
+    },
+    "G1-338": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "vehicles"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits"
+        },
+        {
+          "copy": 3,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "forest creatures"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 6,
+          "theme": "beach"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 2,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 5,
+          "theme": "At the Supermarket"
+        }
+      ]
+    },
+    "G1-339": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 3,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 4,
+          "theme": "fruits"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "beach"
+        },
+        {
+          "copy": 4,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 5,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 6,
+          "theme": "At the Supermarket"
+        }
+      ]
+    },
+    "G1-340": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 2,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 5,
+          "theme": "zoo animals"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 3,
+          "theme": "vehicles"
+        },
+        {
+          "copy": 4,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 5,
+          "theme": "beach"
+        },
+        {
+          "copy": 6,
+          "theme": "Things That Fly"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "beach"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "farm animals"
+        }
+      ]
+    },
+    "G1-341": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 2,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 3,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "beach"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 3,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 5,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 6,
+          "theme": "forest creatures"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        }
+      ]
+    },
+    "G1-342": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "beach"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "farm animals"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 3,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 6,
+          "theme": "beach"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 2,
+          "theme": "animals"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "beach"
+        },
+        {
+          "copy": 5,
+          "theme": "birds 2"
+        }
+      ]
+    }
+  }
+}

@@ -1149,5 +1149,53 @@
    "no": "Se på bildet. Skriv spørsmål om det på linjene. Begynn hvert spørsmål med et ord fra ordbanken. Bruk alle ordene.",
    "fi": "Katso kuvaa. Kirjoita kysymyksiä kuvasta. Aloita jokainen kysymys eri sanalla laatikosta."
   }
+ },
+ "G1-340": {
+  "1": {
+   "en": {
+    "title": "Read and Do: First, Second, Third, Last",
+    "instruction": "Start at the flag and count along the row. Find the picture by its place, then do what the sentence says with your pencil."
+   },
+   "de": {
+    "title": "Leseaufträge: erstes, zweites, drittes, letztes",
+    "instruction": "Beginne bei der Fahne und zähle die Reihe entlang. Finde das Bild nach seinem Platz und tu mit deinem Stift, was der Satz sagt."
+   },
+   "es": {
+    "title": "Lee y haz: primero, segundo, tercero, último",
+    "instruction": "Empieza en la bandera y cuenta por la fila. Encuentra el dibujo por su lugar y haz lo que dice la oración con tu lápiz."
+   },
+   "fr": {
+    "title": "Lecture de consignes : première, deuxième, troisième, dernière",
+    "instruction": "Pars du drapeau et compte le long de la ligne. Trouve l'image grâce à sa place, puis fais ce que dit la phrase avec ton crayon."
+   },
+   "it": {
+    "title": "Leggi ed esegui: primo, secondo, terzo, ultimo",
+    "instruction": "Parti dalla bandierina e conta lungo la fila. Trova il disegno dal suo posto, poi fai quello che dice la frase con la matita."
+   },
+   "pt": {
+    "title": "Leia e faça: primeiro, segundo, terceiro, último",
+    "instruction": "Comece na bandeira e conte pela fileira. Ache a figura pelo lugar dela e faça com o lápis o que a frase manda."
+   },
+   "nl": {
+    "title": "Lees en doe: eerste, tweede, derde, laatste",
+    "instruction": "Begin bij de vlag en tel langs de rij. Tel tot het goede plaatje en doe dan met je potlood wat de zin zegt."
+   },
+   "sv": {
+    "title": "Läs och gör: första, andra, tredje, sista",
+    "instruction": "Börja vid flaggan och räkna längs raden. Räkna fram till rätt bild och gör sedan det som meningen säger med din penna."
+   },
+   "da": {
+    "title": "Læs og gør: første, anden, tredje og sidste",
+    "instruction": "Start ved flaget, og tæl langs rækken. Find billedet ud fra dets plads, og gør det, sætningen siger, med din blyant."
+   },
+   "no": {
+    "title": "Les og gjør: første, andre, tredje, siste",
+    "instruction": "Start ved flagget og tell bortover rekka. Finn bildet etter plassen det har, og gjør det setningen sier med blyanten."
+   },
+   "fi": {
+    "title": "Lue ja tee: ensimmäinen, toinen, kolmas, viimeinen",
+    "instruction": "Aloita lipun kohdalta ja laske riviä pitkin. Etsi kuva sen paikan mukaan ja tee, mitä lause käskee."
+   }
+  }
  }
 }

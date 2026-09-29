@@ -24,7 +24,7 @@
     },
     {
       "id": "mark",
-      "frame": "Zet een vinkje bij {obj}."
+      "frame": "Zet een vinkje onder {obj}."
     },
     {
       "id": "write",
@@ -337,14 +337,14 @@
       "reviewed": true
     },
     "leopard": {
-      "unique": "de luipaard",
+      "unique": "het luipaard",
       "all": "alle luipaarden",
       "pl": "luipaarden",
       "ord": {
-        "2": "de tweede luipaard",
-        "3": "de derde luipaard",
-        "4": "de vierde luipaard",
-        "5": "de vijfde luipaard"
+        "2": "het tweede luipaard",
+        "3": "het derde luipaard",
+        "4": "het vierde luipaard",
+        "5": "het vijfde luipaard"
       },
       "dat": null,
       "def": null,
@@ -2007,7 +2007,7 @@
     },
     "F3": {
       "title": "Lees en doe: eerste, tweede, tussen",
-      "instruction": "Begin bij de vlag en tel langs de rij. Zoek het plaatje op zijn plaats en doe dan met je potlood wat de zin zegt."
+      "instruction": "Begin bij de vlag en tel langs de rij. Tel tot het goede plaatje en doe dan met je potlood wat de zin zegt."
     },
     "F4": {
       "title": "Lees en controleer: waar of niet waar?",
@@ -2017,5 +2017,19 @@
       "title": "Lees en teken",
       "instruction": "Lees elke zin goed. Teken dan in het vak precies wat er staat."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Teken {n} {pl} en {n2} {pl2}."
+    },
+    {
+      "text": "Teken {n} {pl} en {n2} {pl2} in het vak."
+    },
+    {
+      "text": "Teken {n} grote {pl} en {n2} kleine {pl2}."
+    },
+    {
+      "text": "Teken {n} {pl}. Teken daarna {n2} {pl2}."
+    }
+  ]
 }

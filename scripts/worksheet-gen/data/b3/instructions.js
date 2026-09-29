@@ -257,6 +257,13 @@ const INSTRUCTIONS = {
       { text: 'Draw {n} {pl} and a sun above them.' },
       { text: 'Draw {n} small {pl} in the box.' },
     ],
+    // Level Set 2026-09-30 · the harder draw level: TWO things in one sentence, two different counts
+    draw2: [
+      { text: 'Draw {n} {pl} and {n2} {pl2}.' },
+      { text: 'Draw {n} {pl} and {n2} {pl2} in the box.' },
+      { text: 'Draw {n} big {pl} and {n2} small {pl2}.' },
+      { text: 'Draw {n} {pl}. Then draw {n2} {pl2}.' },
+    ],
     strings: {
       'G1-308': {
         title: 'Read and Do: Follow the Instructions',

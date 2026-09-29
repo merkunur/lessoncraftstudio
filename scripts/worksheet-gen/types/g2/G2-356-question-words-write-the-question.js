@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-356',
   slug: 'question-words-write-the-question',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('write'),
+  // Level Set 2026-09-29: L1 six rows (who / what / where), the question word printed on the line · L3 five sentences with TWO highlights each: two questions per sentence; L2 = the published page
+  difficulty: { 1: { ...D, rows: 6, starter: true, kinds: { who: 2, what: 2, where: 2 }, h: 56, glyphH: 26, rowMin: 86 }, 2: D, 3: { ...D, rows: 5, twoAsks: true, kinds: { what: 2, where: 1, when: 1, howmany: 1 }, h: 44, glyphH: 24, rowMin: 124 } },
   i18n: { en: { title: "Write the Question", instruction: "Read the answer. Look at the highlighted words. Write the question that asks for them on the line." } },
   gradeBand: "G2",
 };

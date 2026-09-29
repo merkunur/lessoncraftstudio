@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-374',
   slug: 'question-words-fill-in-the-question-word',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('fill'),
+  // Level Set 2026-09-29: L1 a bank of three (who / what / where) · L3 no bank, seven lanes: the word is written from memory; L2 = the published page
+  difficulty: { 1: { ...D, rows: 6, bankKinds: ['who', 'what', 'where'], kinds: { who: 2, what: 2, where: 2 } }, 2: D, 3: { ...D, rows: 7, bank: false } },
   i18n: { en: { title: "Fill In the Question Word", instruction: "Read the answer and find the highlighted words. Write the question word from the bank in the box." } },
 };

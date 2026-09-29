@@ -16,13 +16,15 @@ const TITLE_MAX = Number(((process.argv.find((a) => a.startsWith('--title-max=')
 // --interactive: the Level Set decks of an interactive family must carry the screen bundle, the answer key and
 // manifest.interactive (printable_only stays true — the publish paths are the printable ones)
 const INTER = process.argv.includes('--interactive');
-function check(m, html, entries) {
+// --print-only=<code,code>: variations of an interactive family that are PRINTABLE ONLY (open pages) — held to the PDF rules
+const PRINT_ONLY = ((process.argv.find((a) => a.startsWith('--print-only=')) || '').split('=')[1] || '').split(',').filter(Boolean);
+function check(m, html, entries, inter = INTER) {
   const title = (/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '';
   const desc = (/name="description" content="([^"]*)"/.exec(html) || [])[1] || '';
   const probs = [];
   if (m.indexable !== false) probs.push('NOT marked indexable:false');
   if (m.printable_only !== true) probs.push('not printable_only');
-  if (INTER) {
+  if (inter) {
     if (!m.interactive) probs.push('manifest not interactive');
     if (!entries.includes('answer-key.pdf')) probs.push('no answer key');
     if (!/window\.DECK_BUNDLE=/.test(html)) probs.push('no screen bundle');
@@ -89,7 +91,7 @@ for (const w of waves) {
     const z = new AdmZip(path.join(dir, f));
     const m = JSON.parse(z.readAsText('manifest.json'));
     const html = z.readAsText('deck.html');
-    const { probs, title } = check(m, html, z.getEntries().map((e) => e.entryName));
+    const { probs, title } = check(m, html, z.getEntries().map((e) => e.entryName), INTER && !PRINT_ONLY.some((c) => f.includes('-' + c + '-')));
     if (probs.length) { bad++; console.log('FAIL ' + w + '/' + f + ': ' + probs.join('; ')); }
     const thumb = crypto.createHash('sha1').update(z.getEntry('thumbnail.png').getData()).digest('hex');
     const key = m.settings.worksheet_type + ' d' + m.settings.difficulty;

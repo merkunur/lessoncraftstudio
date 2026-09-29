@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-373',
   slug: 'question-words-match-the-question-to-the-answer',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('match'),
+  // Level Set 2026-09-29: L1 four questions (who / what / where / when) with bigger pictures · L3 six questions matched to WHOLE answer sentences, no pictures, two names on two rows each (the name alone never finds the answer); L2 = the published page
+  difficulty: { 1: { ...D, pairs: 4, kinds: ['who', 'what', 'where', 'when'], picPx: 96, itemH: 120, itemMax: 164 }, 2: D, 3: { ...D, whole: true, pairs: 6, kinds: ['who', 'what', 'where', 'when', 'howmany', 'where'], twins: 2, itemH: 88, itemMax: 110, maxChars: 44, sentMax: 40 } },
   i18n: { en: { title: "Match the Question to the Answer", instruction: "Read each question on the left. Draw a line to the answer on the right that fits it." } },
 };

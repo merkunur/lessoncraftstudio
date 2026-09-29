@@ -102,10 +102,41 @@ const { fileUri, vocab, displayWord } = require('../../lib/b2-common.js');
 const { candidates } = require('../../lib/b3-picture-index.js');
 const { fillSlots, slotsIn } = require('../../lib/b3-instructions.js');
 const { numberWord } = require('../../lib/number-words.js');
-const { answerRow, qaMatch, questionFrame, qwBins, writeRow, askScene, starterLines } = require('../../templates/components-b4.js');
-const { wordBank } = require('../../templates/components-b2.js');
+const { answerRow, qaMatch, questionFrame, qwBins, writeRow, writeRow2, askScene, starterLines } = require('../../templates/components-b4.js');
+const { wordBank, rulingBlock } = require('../../templates/components-b2.js');
 
 const KEY = 'question-words';
+const QW_SCREEN = require('../../lib/question-words-screen.js');
+/**
+ * The bank of a NEW (Level Set) page: the published bank with the native panels' corrections — more excluded things
+ * (a picture a child names otherwise), a frame re-worded (no "holder" = holds a bison), places a verb cannot take
+ * (placeBan: frame id -> place keys), the sort tiles' thing form. Never read for the published page.
+ */
+function levelSetBank(b, loc) {
+  let ls = {};
+  try { ls = require('../../data/b4/question-words-levelset.json'); } catch (e) { return b; }
+  const all = ls.all || {}, x = ls[loc] || {};
+  const frames = b.frames.map((f) => (x.frames && x.frames[f.id] ? { ...f, ...x.frames[f.id], q: { ...f.q, ...(x.frames[f.id].q || {}) } } : f));
+  return {
+    ...b, frames, levelSet: true,
+    excludeThings: [...(b.excludeThings || []), ...(all.excludeThings || []), ...(x.excludeThings || [])],
+    placeBan: { ...(all.placeBan || {}), ...(x.placeBan || {}) },
+    ...(x.sortThingForm ? { sortThingForm: x.sortThingForm } : {}),
+    ...(x.bins ? { bins: x.bins } : {}),
+    ...(x.starters ? { starters: x.starters } : {}),
+  };
+}
+/** The screen-version contract per page (tap-choice); the oracle re-derives every answer from the bank's frames. */
+function interactiveFor(mode) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]',
+    metaAttrs: ['data-lcs-sentence', 'data-lcs-mark', 'data-lcs-rest', 'data-lcs-question', 'data-lcs-tile'], instructionKey: mode, screenHeight: 3600,
+    oracle: (items, l) => {
+      const loc = (l || 'en').slice(0, 2);
+      return QW_SCREEN.oracle(mode, items, loc, levelSetBank(loadBank(KEY, loc), loc), loadBank('pronouns', loc).names.map((n) => n.name));
+    },
+  };
+}
 const ID = 'G1-353';
 const MAX_TRIES = 400;
 const KIND_ORDER = ['who', 'what', 'where', 'when', 'howmany'];             // the fixed chip order (design §1 table B)
@@ -356,7 +387,8 @@ function compose(rng, bank, cfg, loc, data) {
     const shuffledPlaces = rng.shuffle(places);
     const usedPlaces = new Set();
     for (const r of placeRows) {
-      const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))));
+      // placeBan (Level Set 2026-09-29, new pages only): a place the frame's verb cannot take ("reads in the pool")
+      const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))) && !(bank.placeBan && (bank.placeBan[r.frame.id] || []).includes(x.key)));
       if (!p) { ok = false; break; }
       usedPlaces.add(p.key); if (twinOf.has(p.key)) usedGroups.add(twinOf.get(p.key));
       r.place = p;
@@ -455,7 +487,7 @@ function kindsGuard(kinds, bank, label) {
 
 /** F1 config: the match page (design §3 F1). */
 function resolveMatch(d, bank) {
-  if (d.whole) throw new Error(`${ID} match: the whole-sentence twin-stem match (d3) is not built`);
+  if (d.whole) return resolveMatchWhole(d, bank);
   const cfg = { pairs: d.pairs, kinds: (d.kinds || []).slice(), picPx: d.picPx, itemH: d.itemH, itemMax: d.itemMax == null ? d.itemH + 20 : d.itemMax, leftW: d.leftW || 252, rightW: d.rightW || 248, fontPx: d.fontPx || 18, maxChars: d.maxChars, maxThings: d.maxThings || 4 };
   if (!Number.isInteger(cfg.pairs) || cfg.pairs < 3 || cfg.pairs > 7) throw new Error(`${ID} match: ${cfg.pairs} pairs (3..7)`);
   if (cfg.kinds.length !== cfg.pairs) throw new Error(`${ID} match: ${cfg.kinds.length} kinds for ${cfg.pairs} pairs (one question per kind)`);
@@ -472,16 +504,40 @@ function resolveMatch(d, bank) {
   if (!(cfg.fontPx >= 16) || !(cfg.maxChars >= 20)) throw new Error(`${ID} match: fontPx ${cfg.fontPx} / maxChars ${cfg.maxChars}`);
   return cfg;
 }
+/**
+ * F1 d3 (Level Set 2026-09-29): the WHOLE-SENTENCE match — questions left, whole answer sentences right, no pictures, and
+ * at least `twins` name shared by two rows (so the name alone never finds the answer: the question word does).
+ */
+function resolveMatchWhole(d, bank) {
+  const cfg = { whole: true, pairs: d.pairs, kinds: (d.kinds || []).slice(), twins: d.twins == null ? 1 : d.twins, itemH: d.itemH, itemMax: d.itemMax == null ? d.itemH + 20 : d.itemMax, leftW: d.leftW || 252, rightW: d.rightW || 248, fontPx: d.fontPx || 18, maxChars: d.maxChars, sentMax: d.sentMax || d.maxChars, maxThings: d.maxThings || 4 };
+  if (!Number.isInteger(cfg.pairs) || cfg.pairs < 3 || cfg.pairs > 7) throw new Error(`${ID} match: ${cfg.pairs} pairs (3..7)`);
+  if (cfg.kinds.length !== cfg.pairs) throw new Error(`${ID} match: ${cfg.kinds.length} kinds for ${cfg.pairs} pairs`);
+  for (const k of cfg.kinds) if (!KIND_ORDER.includes(k) || !bank.qwords || !bank.qwords[k]) throw new Error(`${ID} match: kind "${k}" — REFUSED`);
+  if (!Number.isInteger(cfg.twins) || cfg.twins < 1) throw new Error(`${ID} match: twins ${cfg.twins} (>= 1)`);
+  if (!(cfg.itemH >= 88) || !(cfg.itemMax >= cfg.itemH) || cfg.itemMax > cfg.itemH + 44) throw new Error(`${ID} match: itemH ${cfg.itemH} / itemMax ${cfg.itemMax}`);
+  if (cfg.pairs * cfg.itemH + 12 * (cfg.pairs - 1) + 12 > 677) throw new Error(`${ID} match: ${cfg.pairs} x ${cfg.itemH} does not fit the 677 chrome`);
+  if (!(cfg.fontPx >= 16) || !(cfg.maxChars >= 20)) throw new Error(`${ID} match: fontPx ${cfg.fontPx} / maxChars ${cfg.maxChars}`);
+  return cfg;
+}
+// twin rows share ONE name: two non-who rows whose questions tell them apart (never a thing and a count: "What does Mia see?")
+const TWIN_OK = (a, b) => a !== b && !(new Set([a, b]).has('thing') && new Set([a, b]).has('count'));
+
 /** F2 config: the fill page (design §3 F2). */
 function resolveFill(d, bank) {
-  if (d.bank === false) throw new Error(`${ID} fill: the bank-less d3 shape is not built`);
-  const cfg = { rows: d.rows, kinds: { ...(d.kinds || {}) }, picPx: d.picPx, gapH: d.gapH || 40, gapMin: d.gapMin || GAP_MIN, gapMax: d.gapMax || GAP_MAX, fontPx: d.fontPx || 18, maxRest: d.maxRest, maxChars: d.maxChars || 40, maxPerKind: d.maxPerKind || 2, maxThings: d.maxThings || 4, rowMin: d.rowMin || 84, rowGap: d.rowGap || 8 };
+  const cfg = { bank: d.bank !== false, bankKinds: d.bankKinds || null, rows: d.rows, kinds: { ...(d.kinds || {}) }, picPx: d.picPx, gapH: d.gapH || 40, gapMin: d.gapMin || GAP_MIN, gapMax: d.gapMax || GAP_MAX, fontPx: d.fontPx || 18, maxRest: d.maxRest, maxChars: d.maxChars || 40, maxPerKind: d.maxPerKind || 2, maxThings: d.maxThings || 4, rowMin: d.rowMin || 84, rowGap: d.rowGap || 8 };
   if (!Number.isInteger(cfg.rows) || cfg.rows < 6 || cfg.rows > 12) throw new Error(`${ID} fill: ${cfg.rows} rows outside the G1 window [6, 12]`);
   kindsGuard(cfg.kinds, bank, 'fill');
   const sum = Object.values(cfg.kinds).reduce((s, x) => s + x, 0);
   if (sum > cfg.rows) throw new Error(`${ID} fill: kinds sum ${sum} > rows ${cfg.rows}`);
   cfg.chips = KIND_ORDER.filter((k) => bank.qwords && bank.qwords[k]);
   if (cfg.chips.length !== 5) throw new Error(`${ID} fill: the bank is the WHOLE qwords table (5), got ${cfg.chips.length} — REFUSED`);
+  // bankKinds (Level Set 2026-09-29, the easier fill): a bank of the page's kinds only, in the fixed order (then deranged)
+  if (cfg.bankKinds) {
+    if (!cfg.bank) throw new Error(`${ID} fill: bankKinds on a bank-less page`);
+    const idx = cfg.bankKinds.map((k) => KIND_ORDER.indexOf(k));
+    if (cfg.bankKinds.length < 3 || idx.some((i) => i < 0) || idx.some((i, j) => j && i <= idx[j - 1])) throw new Error(`${ID} fill: bankKinds "${cfg.bankKinds.join(',')}" (>= 3, in the fixed order)`);
+    cfg.chips = cfg.bankKinds.slice();
+  }
   for (const k of Object.keys(cfg.kinds)) if (!cfg.chips.includes(k)) throw new Error(`${ID} fill: kinds.${k} is not a bank word`);
   if (!(cfg.picPx >= 44) || !(cfg.gapH >= 36)) throw new Error(`${ID} fill: picPx ${cfg.picPx} / gapH ${cfg.gapH} below the G1 floors`);
   if (!(cfg.gapMin >= GAP_MIN) || !(cfg.gapMax <= GAP_MAX) || cfg.gapMin > cfg.gapMax) throw new Error(`${ID} fill: gap bounds ${cfg.gapMin}..${cfg.gapMax} outside ${GAP_MIN}..${GAP_MAX}`);
@@ -493,36 +549,50 @@ function resolveFill(d, bank) {
 }
 /** F3 config: the sort page (design §3 F3 + the SPARSE rule: a FIXED 677 stack whose bins carry the ruled lines that fill them). */
 function resolveSort(d, bank) {
-  const cfg = { bins: (d.bins || []).slice(), perBin: d.perBin, tileGuard: d.tileGuard || TILE_GUARD, lineMin: d.lineMin || 5, stack: d.stack || SORT_STACK };
+  const cfg = { bins: (d.bins || []).slice(), perBin: d.perBin, tileGuard: d.tileGuard || TILE_GUARD, lineMin: d.lineMin || 5, stack: d.stack || SORT_STACK, grid2: !!d.grid2, shelfRows: d.shelfRows || 2, shelfMin: !!d.shelfMin };
   if (cfg.bins.length < 2 || cfg.bins.length > 4) throw new Error(`${ID} sort: ${cfg.bins.length} bins (2..4)`);
   const idx = cfg.bins.map((k) => KIND_ORDER.indexOf(k));
   if (idx.some((i) => i < 0 || i > 3) || idx.some((i, j) => j && i <= idx[j - 1])) throw new Error(`${ID} sort: bins "${cfg.bins.join(',')}" must be who|what|where|when in the fixed order`);
-  if (cfg.bins.includes('when')) throw new Error(`${ID} sort: a when bin needs the panel's short time forms (d3, unpublished) — not built`);
+  // a when bin (Level Set 2026-09-29, the harder sort): only in the two-by-two layout, whose wide bins take a written clock time
+  if (cfg.bins.includes('when') && !cfg.grid2) throw new Error(`${ID} sort: a when bin needs the two-by-two layout (grid2) — its time phrases do not fit a narrow bin`);
   if (!Number.isInteger(cfg.perBin) || cfg.perBin < 2 || cfg.perBin > 4) throw new Error(`${ID} sort: perBin ${cfg.perBin} (2..4)`);
   cfg.tiles = cfg.perBin * cfg.bins.length;
   if (Number.isInteger(d.tiles) && d.tiles !== cfg.tiles) throw new Error(`${ID} sort: tiles ${d.tiles} != perBin ${cfg.perBin} x ${cfg.bins.length} bins`);
   if (cfg.tiles < 6 || cfg.tiles > 12) throw new Error(`${ID} sort: ${cfg.tiles} tiles outside the G1 window [6, 12]`);
-  cfg.heads = cfg.bins.map((k) => { const l = bank.bins && bank.bins[k]; if (typeof l !== 'string' || !l.endsWith('?')) throw new Error(`${ID} sort: the bank has no bins.${k} head ending with "?" — REFUSED`); return { kind: k, label: l }; });
-  cfg.binW = d.binW || (Math.floor(640 / cfg.bins.length) - 12);
+  cfg.heads = cfg.bins.map((k) => { const l = binHeadOf(bank, k); if (typeof l !== 'string' || !l.endsWith('?')) throw new Error(`${ID} sort: the bank has no bins.${k} head ending with "?" — REFUSED`); return { kind: k, label: l }; });
+  cfg.binW = d.binW || (cfg.grid2 ? Math.floor((640 - 12) / 2) : Math.floor(640 / cfg.bins.length) - 12);
   if (!(cfg.binW >= 140)) throw new Error(`${ID} sort: binW ${cfg.binW} < 140`);
   if (!(cfg.tileGuard >= 60) || !(cfg.lineMin >= 4)) throw new Error(`${ID} sort: tileGuard ${cfg.tileGuard} / lineMin ${cfg.lineMin}`);
   if (!(cfg.stack >= 660) || cfg.stack > SORT_STACK) throw new Error(`${ID} sort: stack ${cfg.stack} outside [660, ${SORT_STACK}]`);
-  cfg.shelfH = SHELF_TWO_ROWS;
-  cfg.binH = cfg.stack - cfg.shelfH - SORT_GAP - SORT_HEAD - SORT_HEAD_GAP;   // 677 - 122 - 18 - 40 - 6 = 491
+  if (!Number.isInteger(cfg.shelfRows) || cfg.shelfRows < 2 || cfg.shelfRows > 3) throw new Error(`${ID} sort: shelfRows ${cfg.shelfRows} (2..3)`);
+  cfg.shelfH = cfg.shelfRows === 2 ? SHELF_TWO_ROWS : 3 * 44 + 2 * 10 + 24;   // three rows: 44 x 3 + 2 gaps + padding 20 + border 4 = 176
+  cfg.binH = cfg.grid2
+    ? Math.floor((cfg.stack - cfg.shelfH - SORT_GAP - 12 - 2 * (SORT_HEAD + SORT_HEAD_GAP)) / 2)   // two bin rows, 12 apart
+    : cfg.stack - cfg.shelfH - SORT_GAP - SORT_HEAD - SORT_HEAD_GAP;   // 677 - 122 - 18 - 40 - 6 = 491
   cfg.lineCount = Math.max(cfg.lineMin, cfg.perBin, Math.round((cfg.binH - 10) / LINE_GAP_MAX));
   cfg.gapY = Math.min(LINE_GAP_MAX, Math.floor((cfg.binH - 20) / (cfg.lineCount + 0.5)));
   if (cfg.gapY < 34) throw new Error(`${ID} sort: ${cfg.lineCount} lines in a ${cfg.binH} bin give gapY ${cfg.gapY} < 34 (a G1 hand)`);
   return cfg;
 }
+/** A bin head: the bank's own, else (a when bin, Level Set) the who head with its question word swapped for qwords.when. */
+function binHeadOf(bank, k) {
+  const own = bank.bins && bank.bins[k];
+  if (own) return own;
+  const who = bank.bins && bank.bins.who, qw = bank.qwords || {};
+  if (k !== 'when' || typeof who !== 'string' || !qw.who || !qw.when || !who.includes(qw.who)) return null;
+  return who.replace(qw.who, qw.when);
+}
+
 /** F4 config: the write page (design §3 F4; G2). */
 function resolveWrite(d, bank) {
-  if (d.starter) throw new Error(`${ID} write: the starter-given d1 shape is not built`);
-  if (d.twoAsks) throw new Error(`${ID} write: the two-mark d3 shape is not built`);
+  if (d.starter && d.twoAsks) throw new Error(`${ID} write: starter + twoAsks`);
   if (d.bank) throw new Error(`${ID} write: a bank on the write face (the answer is retrieved, never copied) — REFUSED`);
   if (d.ruling === false) throw new Error(`${ID} write: ruling:false`);
-  const cfg = { rows: d.rows, kinds: { ...(d.kinds || {}) }, h: d.h || 48, glyphH: d.glyphH || 24, picPx: d.picPx || 48, fontPx: d.fontPx || 18, maxChars: d.maxChars, sentenceMax: d.sentenceMax || 40, maxThings: d.maxThings || 4, rowMin: d.rowMin || 78, rowGap: d.rowGap || 6 };
-  if (!Number.isInteger(cfg.rows) || cfg.rows < 6 || cfg.rows > 16) throw new Error(`${ID} write: ${cfg.rows} rows outside [6, 16]`);
+  const cfg = { starter: !!d.starter, twoAsks: !!d.twoAsks, rows: d.rows, kinds: { ...(d.kinds || {}) }, h: d.h || 48, glyphH: d.glyphH || 24, picPx: d.picPx || 48, fontPx: d.fontPx || 18, maxChars: d.maxChars, sentenceMax: d.sentenceMax || 40, maxThings: d.maxThings || 4, rowMin: d.rowMin || 78, rowGap: d.rowGap || 6 };
+  // twoAsks (Level Set 2026-09-29, the harder write): 5 sentences x TWO questions (who + the other part) = 10
+  if (!Number.isInteger(cfg.rows) || cfg.rows < (cfg.twoAsks ? 4 : 6) || cfg.rows > 16) throw new Error(`${ID} write: ${cfg.rows} rows outside [${cfg.twoAsks ? 4 : 6}, 16]`);
   kindsGuard(cfg.kinds, bank, 'write');
+  if (cfg.twoAsks && cfg.kinds.who) throw new Error(`${ID} write: twoAsks rows carry who on EVERY row — kinds names the other part only`);
   const sum = Object.values(cfg.kinds).reduce((s, x) => s + x, 0);
   if (sum !== cfg.rows) throw new Error(`${ID} write: kinds sum ${sum} != rows ${cfg.rows}`);
   if (!(cfg.glyphH >= 24) || !(cfg.h >= cfg.glyphH + 20)) throw new Error(`${ID} write: glyphH ${cfg.glyphH} / h ${cfg.h} below the G2 writing floor (glyphH >= 24, h >= glyphH + 20)`);
@@ -533,7 +603,16 @@ function resolveWrite(d, bank) {
 }
 /** F5 config: the ask page (design §3 F5; G2, open-ended). */
 function resolveAsk(d, bank) {
-  if (d.bank) throw new Error(`${ID} ask: the bank-and-bare-rulings d3 shape is not built`);
+  // bank (Level Set 2026-09-29, the harder ask): the six words in a bank over six BARE rulings — the child picks each opening
+  if (d.bank) {
+    const st = Array.isArray(bank.starters) ? bank.starters : [];
+    if (st.length !== 6 || new Set(st.map(nfd)).size !== 6) throw new Error(`${ID} ask: the bank has ${st.length} starters (want 6 distinct) — REFUSED`);
+    const cfg = { bank: true, starters: ['who', 'what', 'where', 'when', 'why', 'how'], labels: st.slice(), rows: d.rows || 6, h: d.h || 56, glyphH: d.glyphH || 26, gap: d.gap || 8, tile: (d.scene && d.scene.tile) || 120 };
+    if (cfg.rows !== 6) throw new Error(`${ID} ask: a bank page has 6 rulings`);
+    if (!(cfg.glyphH >= 24) || !(cfg.h >= cfg.glyphH + 20)) throw new Error(`${ID} ask: glyphH ${cfg.glyphH} / h ${cfg.h} below the G2 writing floor`);
+    if (!(cfg.tile >= 100)) throw new Error(`${ID} ask: tile ${cfg.tile} < 100`);
+    return cfg;
+  }
   const cfg = { starters: (d.starters || []).slice(), rows: d.rows, h: d.h || 56, glyphH: d.glyphH || 26, gap: d.gap || 8, tile: (d.scene && d.scene.tile) || 120 };
   if (cfg.starters.length < 4 || cfg.starters.length > 6) throw new Error(`${ID} ask: ${cfg.starters.length} starters (4..6)`);
   if (cfg.rows !== cfg.starters.length) throw new Error(`${ID} ask: rows ${cfg.rows} != starters ${cfg.starters.length}`);
@@ -543,7 +622,8 @@ function resolveAsk(d, bank) {
     const j = ['who', 'what', 'where', 'when', 'why', 'how'].indexOf(k);
     if (j < 0) throw new Error(`${ID} ask: starter "${k}"`);
     if (j !== i) throw new Error(`${ID} ask: starters must run who · what · where · when · why · how in order (got "${k}" at ${i})`);
-    if (j < 4 && st[j] !== bank.qwords[k]) throw new Error(`${ID} ask: bank starters[${j}] "${st[j]}" != qwords.${k} "${bank.qwords[k]}"`);
+    // a starter may carry the opening mark the child cannot add in front of a printed word (es "¿Quién", Level Set)
+    if (j < 4 && st[j] !== bank.qwords[k] && st[j] !== (bank.qPrefix || '') + bank.qwords[k]) throw new Error(`${ID} ask: bank starters[${j}] "${st[j]}" != qwords.${k} "${bank.qwords[k]}"`);
     return st[j];
   });
   if (new Set(cfg.labels.map(nfd)).size !== cfg.labels.length) throw new Error(`${ID} ask: a starter twice`);
@@ -622,7 +702,8 @@ function dealFace(rng, bank, opts, loc, data) {
     const shuffledPlaces = rng.shuffle(places);
     const usedPlaces = new Set();
     for (const r of placeRows) {
-      const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))));
+      // placeBan (Level Set 2026-09-29, new pages only): a place the frame's verb cannot take ("reads in the pool")
+      const p = shuffledPlaces.find((x) => !usedPlaces.has(x.key) && !(twinOf.has(x.key) && usedGroups.has(twinOf.get(x.key))) && !(bank.placeBan && (bank.placeBan[r.frame.id] || []).includes(x.key)));
       if (!p) { ok = false; break; }
       usedPlaces.add(p.key); if (twinOf.has(p.key)) usedGroups.add(twinOf.get(p.key));
       r.place = p;
@@ -663,6 +744,7 @@ function rootAttrs(bank, mode) { return `data-lcs-qw data-lcs-mode="${mode}" dat
 /* F1 — match */
 function buildMatch(bank, d, loc, rng, data) {
   const cfg = resolveMatch(d, bank);
+  if (cfg.whole) return buildMatchWhole(bank, cfg, loc, rng, data);
   if (cfg.kinds.includes('where') && data.places.length < 2) throw new Error(`${ID} match: the ${loc} bank has ${data.places.length} place literals (< 2) — REFUSED`);
   if (cfg.kinds.includes('when') && data.times.length < 2) throw new Error(`${ID} match: the ${loc} bank has ${data.times.length} time literals (< 2) — REFUSED`);
   const opts = { asks: cfg.kinds, whoKinds: ['thing', 'place'], maxChars: 40, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: (r, ctx) => glyphs(questionOf(r.frame, r.ask, ctx)) <= cfg.maxChars };
@@ -691,6 +773,47 @@ function buildMatch(bank, d, loc, rng, data) {
   throw new Error(`${ID} match: ${loc} cannot deal ${cfg.pairs} questions of distinct kinds (${cfg.kinds.join(',')}) with answer-free questions — REFUSED`);
 }
 
+/* F1 d3 — the whole-sentence match (Level Set 2026-09-29) */
+function buildMatchWhole(bank, cfg, loc, rng, data) {
+  if (cfg.kinds.includes('where') && data.places.length < 2) throw new Error(`${ID} match: the ${loc} bank has ${data.places.length} place literals — REFUSED`);
+  if (cfg.kinds.includes('when') && data.times.length < 2) throw new Error(`${ID} match: the ${loc} bank has ${data.times.length} time literals — REFUSED`);
+  const fits = (r, ctx) => glyphs(questionOf(r.frame, r.ask, ctx)) <= cfg.maxChars;
+  const opts = { asks: cfg.kinds, whoKinds: ['thing', 'place', 'time'], maxChars: cfg.sentMax, maxThings: cfg.maxThings, picPx: 56, rowFilter: fits };
+  for (let t = 0; t < 120; t++) {
+    const rows = dealFace(rng, bank, opts, loc, data);
+    if (!rows) break;
+    // the twins: each gives its name to a second non-who row of a kind its question tells apart
+    let ok = true;
+    const taken = new Set();
+    for (let k = 0; k < cfg.twins && ok; k++) {
+      const cand = [];
+      rows.forEach((a, i) => rows.forEach((b, j) => { if (i < j && !taken.has(i) && !taken.has(j) && a.ask !== 'who' && b.ask !== 'who' && TWIN_OK(a.kind, b.kind)) cand.push([i, j]); }));
+      if (!cand.length) { ok = false; break; }
+      const [i, j] = rng.pick(cand);
+      taken.add(i); taken.add(j);
+      const b = rows[j];
+      b.name = rows[i].name; b.person = rows[i].person;
+      const ctx = { ...b.ctx, name: b.name };
+      try { b.text = fillFrame(b.frame, ctx); b.span = markOf(b.frame, b.ask, ctx); b.slots = slotValues(ctx); b.question = questionOf(b.frame, b.ask, ctx); } catch (e) { ok = false; break; }
+      if (glyphs(b.text) > cfg.sentMax || !fits(b, ctx)) { ok = false; break; }
+      b.ctx = ctx;
+    }
+    if (!ok) continue;
+    const texts = rows.map((r) => r.text), qs = rows.map((r) => r.question);
+    if (new Set(texts.map(nfd)).size !== texts.length || new Set(qs.map(nfd)).size !== qs.length) continue;
+    // exactly one sentence answers each question: the question re-derived from any OTHER row's frame + words never equals it
+    const asksOf = (ri, rj) => { try { return rj.frame.q && rj.frame.q[ri.ask] && questionOf(rj.frame, ri.ask, rj.ctx) === ri.question; } catch (e) { return false; } };
+    if (rows.some((ri, i) => rows.some((rj, j) => j !== i && asksOf(ri, rj)))) continue;
+    const order = derange(rng, rows.length);
+    const left = rows.map((r) => ({ frame: r.frame.id, ask: r.ask, text: r.question, name: r.name.name, slots: { ...r.slots, key: rowKey(r) } }));
+    const right = rows.map((r) => ({ kind: r.ask, literal: r.text }));
+    const html = qaMatch({ left, right, order, leftW: cfg.leftW, rightW: cfg.rightW, itemH: cfg.itemH, itemMax: cfg.itemMax, picPx: 0, fontPx: cfg.fontPx, textOnly: true });
+    const bodyHtml = `<div ${rootAttrs(bank, 'match')} data-lcs-whole="1" data-lcs-twins="${cfg.twins}" data-lcs-pairs="${cfg.pairs}" data-lcs-kinds="${cfg.kinds.join(',')}" data-lcs-picpx="0" data-lcs-itemh="${cfg.itemH}" data-lcs-itemmax="${cfg.itemMax}" style="${rootStyle()}">${html}</div>`;
+    return { bodyHtml, meta: { face: 'match', whole: true, order, rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, question: r.question, answer: r.text })) } };
+  }
+  throw new Error(`${ID} match: ${loc} cannot deal ${cfg.pairs} whole-sentence pairs with ${cfg.twins} twin name(s) — REFUSED`);
+}
+
 /* F2 — fill */
 function buildFill(bank, d, loc, rng, data) {
   const cfg = resolveFill(d, bank);
@@ -706,14 +829,15 @@ function buildFill(bank, d, loc, rng, data) {
   const rows = dealFace(rng, bank, { asks, whoKinds: null, maxChars: cfg.maxChars, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: (r, ctx) => glyphs(gapOf(bank, questionOf(r.frame, r.ask, ctx), r.ask)) <= cfg.maxRest }, loc, data);
   if (!rows) throw new Error(`${ID} fill: ${loc} cannot deal ${cfg.rows} rows (${JSON.stringify(cfg.kinds)}; rest <= ${cfg.maxRest}) — REFUSED`);
   const fixed = cfg.chips.map((k) => bank.qwords[k]);
-  const order = shuffleAway(rng, fixed, fixed);
-  const bankHtml = wordBank({ words: order.map((w) => ({ word: w })), wordPx: cfg.fontPx });
+  // bank:false (Level Set 2026-09-29, the harder fill): no bank — the child writes the question word from memory
+  const order = cfg.bank ? shuffleAway(rng, fixed, fixed) : [];
+  const bankHtml = cfg.bank ? wordBank({ words: order.map((w) => ({ word: w })), wordPx: cfg.fontPx }) : '';
   const lanes = rows.map((r, i) => questionFrame({
     n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
     slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
     question: r.question, qPrefix: bank.qPrefix || '', rest: gapOf(bank, r.question, r.ask), text: r.text, span: r.span, gapW: cfg.gapW, gapH: cfg.gapH, fontPx: cfg.fontPx, answer: bank.qwords[r.ask], picPx: cfg.picPx,
   })).join('');
-  const bodyHtml = `<div ${rootAttrs(bank, 'fill')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.chips.join(',')}" data-lcs-gapw="${cfg.gapW}" data-lcs-botmax="0.35" data-lcs-maxperkind="${cfg.maxPerKind}" style="${rootStyle()}">` +
+  const bodyHtml = `<div ${rootAttrs(bank, 'fill')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.chips.join(',')}" data-lcs-gapw="${cfg.gapW}" data-lcs-botmax="0.35" data-lcs-maxperkind="${cfg.maxPerKind}"${cfg.bank ? '' : ' data-lcs-nobank="1"'} style="${rootStyle()}">` +
     bankHtml + `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0">${lanes}</div></div>`;
   return { bodyHtml, meta: { face: 'fill', bankOrder: order, gapW: cfg.gapW, rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, span: r.span, question: r.question })) } };
 }
@@ -726,6 +850,8 @@ function buildSort(bank, d, loc, rng, data) {
   const qLits = new Set(KIND_ORDER.map((k) => bank.qwords[k]).filter(Boolean).map(nfd));
   const okText = (t) => typeof t === 'string' && t.trim() && tileEst(t) <= cfg.tileGuard && !qLits.has(nfd(t)) && !heads.some((h) => nfd(h.label) === nfd(t) || nfd(h.label) === nfd(t) + '?');
   const placeOk = places.filter((p) => okText(p.text));
+  const timeOk = (data.times || []).filter((x) => okText(x.text));
+  if (cfg.bins.includes('when') && timeOk.length < cfg.perBin) throw new Error(`${ID} sort: ${loc} has ${timeOk.length} time literals under the tile guard (want ${cfg.perBin}) — REFUSED`);
   if (cfg.bins.includes('where') && placeOk.length < cfg.perBin) throw new Error(`${ID} sort: ${loc} has ${placeOk.length} place literals under the tile guard (want ${cfg.perBin}) — REFUSED`);
   const twinOf = new Map();
   // the ARTWORK look-alikes are global (QUESTION_WORDS.THING_TWINS), the locale's own `twins` are places
@@ -758,14 +884,17 @@ function buildSort(bank, d, loc, rng, data) {
           tiles.push({ text: p.text, key: b, kind: 'where', item: p.key });
         }
         if (tiles.filter((x) => x.kind === 'where').length < cfg.perBin) { ok = false; break; }
+      } else if (kind === 'when') {
+        rng.sample(timeOk, cfg.perBin).forEach((x) => tiles.push({ text: x.text, key: b, kind: 'when', item: String(x.h) }));
       } else { ok = false; break; }
     }
     if (!ok) continue;
     if (new Set(tiles.map((x) => nfd(x.text))).size !== tiles.length) continue;
-    if (shelfRowsEst(tiles.map((x) => x.text)) > 2) continue;          // the shelf is TWO rows (the fixed 677 stack keys on it)
+    if (shelfRowsEst(tiles.map((x) => x.text)) > cfg.shelfRows) continue;          // the shelf is TWO rows (the fixed 677 stack keys on it)
     const shuffled = rng.shuffle(tiles);
-    const html = qwBins({ tiles: shuffled.map((x) => ({ text: x.text, key: x.key, kind: x.kind, frame: x.item })), heads, lineCount: cfg.lineCount, binW: cfg.binW, binH: cfg.binH });
-    const bodyHtml = `<div ${rootAttrs(bank, 'sort')} data-lcs-tiles="${cfg.tiles}" data-lcs-perbin="${cfg.perBin}" data-lcs-kinds="${cfg.bins.join(',')}" data-lcs-heads='${JSON.stringify(heads.map((h) => h.label)).replace(/'/g, '&#39;')}' data-lcs-binw="${cfg.binW}" data-lcs-binh="${cfg.binH}" data-lcs-lines="${cfg.lineCount}" data-lcs-stack="${cfg.stack}" data-lcs-tileguard="${cfg.tileGuard}" style="${rootStyle()}">${html}</div>`;
+    const extra = (cfg.grid2 || cfg.shelfMin || cfg.shelfRows !== 2) ? { shelfMinH: cfg.shelfH, grid2: cfg.grid2 } : {};
+    const html = qwBins({ tiles: shuffled.map((x) => ({ text: x.text, key: x.key, kind: x.kind, frame: x.item })), heads, lineCount: cfg.lineCount, binW: cfg.binW, binH: cfg.binH, ...extra });
+    const bodyHtml = `<div ${rootAttrs(bank, 'sort')} data-lcs-tiles="${cfg.tiles}" data-lcs-perbin="${cfg.perBin}" data-lcs-kinds="${cfg.bins.join(',')}" data-lcs-heads='${JSON.stringify(heads.map((h) => h.label)).replace(/'/g, '&#39;')}' data-lcs-binw="${cfg.binW}" data-lcs-binh="${cfg.binH}" data-lcs-lines="${cfg.lineCount}" data-lcs-stack="${cfg.stack}" data-lcs-tileguard="${cfg.tileGuard}"${extra.shelfMinH ? ` data-lcs-shelfrows="${cfg.shelfRows}"${cfg.grid2 ? ' data-lcs-grid2="1"' : ''}` : ''} style="${rootStyle()}">${html}</div>`;
     return { bodyHtml, meta: { face: 'sort', tiles: shuffled.map((x) => ({ text: x.text, key: x.key, kind: x.kind, item: x.item })), lineCount: cfg.lineCount, binH: cfg.binH } };
   }
   throw new Error(`${ID} sort: ${loc} cannot deal ${cfg.tiles} tiles on a two-row shelf — REFUSED`);
@@ -777,16 +906,38 @@ function buildWrite(bank, d, loc, rng, data) {
   if (cfg.kinds.where && data.places.length < 2) throw new Error(`${ID} write: the ${loc} bank has ${data.places.length} place literals — REFUSED`);
   if (cfg.kinds.when && data.times.length < 2) throw new Error(`${ID} write: the ${loc} bank has ${data.times.length} time literals — REFUSED`);
   const asks = askListOf(cfg.kinds, KIND_ORDER);
+  if (cfg.twoAsks) return buildWriteTwo(bank, cfg, asks, loc, rng, data);
   const rows = dealFace(rng, bank, { asks, whoKinds: null, maxChars: cfg.sentenceMax, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: (r, ctx) => { const q = questionOf(r.frame, r.ask, ctx); return glyphs(q) <= cfg.maxChars && need(q) <= cfg.w; } }, loc, data);
   if (!rows) throw new Error(`${ID} write: ${loc} cannot deal ${cfg.rows} rows (${JSON.stringify(cfg.kinds)}; question <= ${cfg.maxChars}) — REFUSED`);
   const html = rows.map((r, i) => writeRow({
     n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name,
     slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
     text: r.text, span: r.span, answer: r.question, w: cfg.w, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
+    ...(cfg.starter ? { starter: (bank.qPrefix || '') + bank.qwords[r.ask] } : {}),
   })).join('');
-  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="0.35" style="${rootStyle()}">` +
+  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="0.35"${cfg.starter ? ' data-lcs-starters="1"' : ''} style="${rootStyle()}">` +
     `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0">${html}</div></div>`;
   return { bodyHtml, meta: { face: 'write', rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, span: r.span, answer: r.question })) } };
+}
+
+/* F4 d3 — two questions per sentence (Level Set 2026-09-29) */
+function buildWriteTwo(bank, cfg, asks, loc, rng, data) {
+  const ok2 = (r, ctx) => {
+    let qa, qb;
+    try { qa = questionOf(r.frame, 'who', ctx); qb = questionOf(r.frame, r.ask, ctx); } catch (e) { return false; }
+    return [qa, qb].every((q) => glyphs(q) <= cfg.maxChars && need(q) <= cfg.w);
+  };
+  const rows = dealFace(rng, bank, { asks, whoKinds: null, maxChars: cfg.sentenceMax, maxThings: cfg.maxThings, picPx: cfg.picPx, rowFilter: ok2 }, loc, data);
+  if (!rows) throw new Error(`${ID} write: ${loc} cannot deal ${cfg.rows} two-question rows (${JSON.stringify(cfg.kinds)}) — REFUSED`);
+  const out = rows.map((r) => ({ r, spans: [markOf(r.frame, 'who', r.ctx), r.span], answers: [questionOf(r.frame, 'who', r.ctx), r.question] }));
+  const html = out.map(({ r, spans, answers }, i) => writeRow2({
+    n: i + 1, src: portraitSrc(r.person), depicted: r.person.depicted, frame: r.frame.id, kind: r.kind, asks: ['who', r.ask], name: r.name.name,
+    slots: { ...r.slots, pic: `${r.person.pic.theme}/${r.person.pic.noun}`, key: rowKey(r) },
+    text: r.text, spans, answers, w: cfg.w, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
+  })).join('');
+  const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-two="1" data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-h="${cfg.h}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="1" style="${rootStyle()}">` +
+    `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0">${html}</div></div>`;
+  return { bodyHtml, meta: { face: 'write', two: true, rows: out.map(({ r, spans, answers }) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, spans, answers })) } };
 }
 
 /* F5 — ask (open-ended) */
@@ -806,8 +957,14 @@ function buildAsk(bank, d, loc, rng, data) {
     place: { src: fileUri(place.pic.theme, place.pic.noun), pic: `${place.pic.theme}/${place.pic.noun}` },
     time: { h: time.h }, tile: cfg.tile,
   });
-  const lines = starterLines({ starters: cfg.labels, h: cfg.h, glyphH: cfg.glyphH, gap: cfg.gap });
-  const bodyHtml = `<div ${rootAttrs(bank, 'ask')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.starters.join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-h="${cfg.h}" data-lcs-tile="${cfg.tile}" data-lcs-time="${time.h}" data-lcs-name="${name.name}" data-lcs-person="${person.key}" data-lcs-thing="${thing.key}" data-lcs-place="${place.key}" style="${rootStyle(SCENE_GAP)}">${scene}${lines}</div>`;
+  let lines, bankHtml = '';
+  if (cfg.bank) {
+    // the bank (deranged) over the scene; six bare rulings: the child picks each question's opening word
+    const order = shuffleAway(rng, cfg.labels, cfg.labels);
+    bankHtml = wordBank({ words: order.map((w) => ({ word: w })), wordPx: 18 });
+    lines = `<div class="ws-lane" data-ws-content data-lcs-starters="" data-lcs-bare="1" style="padding:10px 16px"><div style="line-height:0">${rulingBlock({ rows: cfg.rows, w: 639, h: cfg.h, glyphH: cfg.glyphH, gap: cfg.gap })}</div></div>`;
+  } else lines = starterLines({ starters: cfg.labels, h: cfg.h, glyphH: cfg.glyphH, gap: cfg.gap });
+  const bodyHtml = `<div ${rootAttrs(bank, 'ask')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${cfg.starters.join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-h="${cfg.h}" data-lcs-tile="${cfg.tile}" data-lcs-time="${time.h}" data-lcs-name="${name.name}" data-lcs-person="${person.key}" data-lcs-thing="${thing.key}" data-lcs-place="${place.key}"${cfg.bank ? ' data-lcs-bank="1"' : ''} style="${rootStyle(SCENE_GAP)}">${bankHtml}${scene}${lines}</div>`;
   return { bodyHtml, meta: { face: 'ask', name: name.name, person: person.key, thing: thing.key, place: place.key, time: time.h, starters: cfg.labels } };
 }
 
@@ -1027,6 +1184,56 @@ function VERIFY_FACE() {
   const contentBox = (el, sel) => { const kids = [...el.querySelectorAll(sel)].filter((k) => r(k).height); if (!kids.length) return null; return { top: Math.min(...kids.map((k) => r(k).top)), bottom: Math.max(...kids.map((k) => r(k).bottom)) }; };
   const botOf = (rows) => (rows.length ? rows.filter((x) => pred[x.picKind] === x.ask).length / rows.length : 0);
 
+  if (mode === 'match' && root.dataset.lcsWhole === '1') {
+    // Level Set 2026-09-29 (F1 d3): questions left, WHOLE answer sentences right, no pictures, >= twins names on two rows
+    const pairs = +root.dataset.lcsPairs, twins = +root.dataset.lcsTwins, itemH = +root.dataset.lcsItemh, itemMax = +root.dataset.lcsItemmax;
+    const match = root.querySelector('[data-lcs-match]');
+    if (!match) return ['no match block'];
+    const qs = [...match.querySelectorAll('[data-lcs-q]')], as = [...match.querySelectorAll('[data-lcs-a]')];
+    if (qs.length !== pairs || as.length !== pairs) fails.push(`${qs.length} questions / ${as.length} answers, config says ${pairs}`);
+    if (match.querySelector('img, svg')) fails.push('a picture on the whole-sentence match (the child reads the answers)');
+    const qNames = qs.map((q) => q.dataset.lcsName);
+    const shared = Object.values(qNames.reduce((m, n) => { m[n] = (m[n] || 0) + 1; return m; }, {})).filter((c) => c >= 2).length;
+    if (shared < twins) fails.push(`${shared} names on two questions, config says >= ${twins} (the name alone would find the answer)`);
+    const lits = as.map((a) => a.dataset.lcsLiteral);
+    if (new Set(lits.map(nfd)).size !== lits.length) fails.push('an answer sentence twice');
+    qs.forEach((q, i) => {
+      const L = `question ${i + 1}`;
+      const t = text(q.querySelector('[data-lcs-match-text]'));
+      const ask = q.dataset.lcsAsk;
+      if (!qwords[ask] || !t.startsWith(qPrefix + qwords[ask])) fails.push(`${L}: "${t}" does not open with "${qPrefix}${qwords[ask]}"`);
+      if (!/\?$/.test(t)) fails.push(`${L}: "${t}" does not end with "?"`);
+      // the question's own answer sentence is on the right and opens with the question's name
+      const a = as.find((x) => +x.dataset.lcsA === i);
+      if (!a) fails.push(`${L}: no answer ${i}`);
+      else if (!text(a).startsWith(q.dataset.lcsName)) fails.push(`${L}: its answer "${text(a)}" does not open with "${q.dataset.lcsName}"`);
+    });
+    as.forEach((a, p) => {
+      const L = `answer ${p + 1}`;
+      if (+a.dataset.lcsA === p) fails.push(`${L}: sits at its own question's position (not deranged)`);
+      const tp = a.querySelector('[data-lcs-match-text]');
+      if (!tp || text(tp) !== a.dataset.lcsLiteral) fails.push(`${L}: prints "${tp ? text(tp) : ''}" not its sentence`);
+      else if (fontOf(tp) < 16) fails.push(`${L}: font ${fontOf(tp)} < 16`);
+      for (const k of ORDER) if (qwords[k] && hasWordCi(text(a), qwords[k])) fails.push(`${L}: the question word "${qwords[k]}" is printed in an answer`);
+    });
+    for (const [side, items] of [['question', qs], ['answer', as]]) {
+      const last = Math.max(...items.map((it) => r(it).bottom));
+      if (body.bottom - last > G1 + 6 + 0.6) fails.push(`${Math.round(body.bottom - last)} px of slack under the last ${side} item (> ${G1 + 6}: sparse)`);
+      if (last > body.bottom + 0.6) fails.push(`the ${side} column ends under the body bottom`);
+      items.forEach((it, i) => {
+        const b = r(it);
+        if (b.height < itemH - 0.6) fails.push(`${side} ${i + 1}: item ${b.height.toFixed(1)} < ${itemH}`);
+        if (b.height > itemMax + 0.6) fails.push(`${side} ${i + 1}: item ${b.height.toFixed(1)} > itemMax ${itemMax}`);
+        const tp = it.querySelector('[data-lcs-match-text]');
+        if (tp && (r(tp).bottom > b.bottom + 0.6 || r(tp).top < b.top - 0.6)) fails.push(`${side} ${i + 1}: text spills out of its item`);
+        if (tp && r(tp).height > 2 * 1.3 * fontOf(tp) + 1) fails.push(`${side} ${i + 1}: text wraps past 2 lines`);
+        if (i) { const band = b.top - r(items[i - 1]).bottom; if (band > G1 + 0.6) fails.push(`${Math.round(band)} px between ${side} items ${i} and ${i + 1} (> ${G1}: sparse)`); }
+      });
+    }
+    if (!qs.length) fails.push('non-vacuity: 0 questions');
+    return fails;
+  }
+
   if (mode === 'match') {
     const pairs = +root.dataset.lcsPairs, kinds = (root.dataset.lcsKinds || '').split(',').filter(Boolean), picPx = +root.dataset.lcsPicpx, itemH = +root.dataset.lcsItemh, itemMax = +root.dataset.lcsItemmax;
     const match = root.querySelector('[data-lcs-match]');
@@ -1116,12 +1323,14 @@ function VERIFY_FACE() {
 
   if (mode === 'fill') {
     const nRows = +root.dataset.lcsRows, kinds = (root.dataset.lcsKinds || '').split(',').filter(Boolean), gapW = +root.dataset.lcsGapw, botMax = parseFloat(root.dataset.lcsBotmax), maxPer = +(root.dataset.lcsMaxperkind || 2);
+    const noBank = root.dataset.lcsNobank === '1';   // Level Set 2026-09-29 (F2 d3): the word is written from memory
     const banner = root.querySelector('[data-lcs-bank-banner]');
-    if (!banner) fails.push('no bank banner (the face is bank:true)');
+    if (!banner && !noBank) fails.push('no bank banner (the face is bank:true)');
+    if (banner && noBank) fails.push('a bank on the bank-less page');
     const bankWords = banner ? [...banner.querySelectorAll('[data-lcs-bank-word]')] : [];
-    const bankSet = bankWords.map((w) => w.dataset.lcsBankWord);
-    if (bankSet.slice().sort().join('|') !== kinds.map((k) => qwords[k]).sort().join('|')) fails.push(`bank words ${bankSet.join('|')} != the qwords table ${kinds.map((k) => qwords[k]).join('|')}`);
-    if (bankSet.join('|') === kinds.map((k) => qwords[k]).join('|')) fails.push('the bank is in the fixed qwords order (position leak)');
+    const bankSet = noBank ? kinds.map((k) => qwords[k]) : bankWords.map((w) => w.dataset.lcsBankWord);
+    if (!noBank && bankSet.slice().sort().join('|') !== kinds.map((k) => qwords[k]).sort().join('|')) fails.push(`bank words ${bankSet.join('|')} != the qwords table ${kinds.map((k) => qwords[k]).join('|')}`);
+    if (!noBank && bankSet.join('|') === kinds.map((k) => qwords[k]).join('|')) fails.push('the bank is in the fixed qwords order (position leak)');
     if (new Set(bankWords.map((w) => Math.round(r(w).top))).size > 1) fails.push('the bank wraps to two rows');
     bankWords.forEach((w) => { if (fontOf(w) < 16) fails.push(`bank word "${w.dataset.lcsBankWord}" font ${fontOf(w)} < 16`); if (text(w) !== w.dataset.lcsBankWord) fails.push(`bank word prints "${text(w)}" not "${w.dataset.lcsBankWord}"`); });
     if (banner && r(banner).top - rr.top > 8) fails.push('the bank does not sit at the stage top');
@@ -1235,7 +1444,9 @@ function VERIFY_FACE() {
       if (!shelf || !shelf.contains(t)) fails.push(`${L}: not on the shelf`);
       tops.add(Math.round(r(t).top));
     });
-    if (tops.size > 2) fails.push(`the shelf wraps to ${tops.size} rows (the fixed stack keys on 2)`);
+    const shelfRows = +(root.dataset.lcsShelfrows || 2);
+    if (tops.size > shelfRows) fails.push(`the shelf wraps to ${tops.size} rows (the fixed stack keys on ${shelfRows})`);
+    if (shelf && root.dataset.lcsShelfrows && Math.abs(r(shelf).height - (shelfRows === 2 ? 122 : 176)) > 1) fails.push(`the shelf is ${r(shelf).height.toFixed(0)} high, not the fixed ${shelfRows}-row height`);
     if (sort.querySelector('img')) fails.push('a picture on the sort face (the constituent alone decides)');
     if (sort.querySelector('[data-lcs-chip], [data-lcs-sentence]')) fails.push('a chip / sentence on the sort face');
     // SPARSE: the fixed stack fills the 677 budget; one line of slack at most
@@ -1252,6 +1463,53 @@ function VERIFY_FACE() {
     return fails;
   }
 
+  if (mode === 'write' && root.dataset.lcsTwo === '1') {
+    // Level Set 2026-09-29 (F4 d3): each sentence carries TWO marks (the name + the other part) over TWO bare rulings
+    const nRows = +root.dataset.lcsRows, glyphH = +root.dataset.lcsGlyphh, w = +root.dataset.lcsW, picPx = +root.dataset.lcsPicpx;
+    const rows = laneGrid('[data-lcs-row]', 'row', (ln) => contentBox(ln, 'p, img, svg'), 6);
+    if (rows.length !== nRows) fails.push(`${rows.length} rows, config says ${nRows}`);
+    if (root.querySelector('[data-lcs-bank-banner], [data-lcs-chip], [data-lcs-starter]')) fails.push('a bank / chip / starter on the write face');
+    const pageText = nfd(root.textContent);
+    rows.forEach((row, i) => {
+      const L = `row ${i + 1}`;
+      const name = row.dataset.lcsName;
+      uniq(row, L);
+      const asks = (row.dataset.lcsAsks || '').split(',');
+      let answers = [];
+      try { answers = JSON.parse(row.dataset.lcsAnswers || '[]'); } catch (e) { fails.push(`${L}: answers stamp is not json`); }
+      if (asks.length !== 2 || asks[0] !== 'who' || asks[1] === 'who') fails.push(`${L}: asks "${asks.join(',')}" (want who + one other)`);
+      if (answers.length !== 2) fails.push(`${L}: ${answers.length} answers`);
+      answers.forEach((a, k) => {
+        if (!a.startsWith(qPrefix + (qwords[asks[k]] || '\u0000'))) fails.push(`${L}: answer "${a}" does not open with "${qPrefix}${qwords[asks[k]]}"`);
+        if (!/\?$/.test(a)) fails.push(`${L}: answer "${a}" does not end with "?"`);
+        if (pageText.includes(nfd(a))) fails.push(`${L}: the question "${a}" is printed on the page`);
+        if (glyphs(a) * 18 + 16 > w + 0.6) fails.push(`${L}: "${a}" needs more than the ${w} ruling`);
+      });
+      const ps = [...row.querySelectorAll('[data-lcs-sentence]')];
+      if (ps.length !== 1) fails.push(`${L}: ${ps.length} sentences`);
+      else {
+        const t = text(ps[0]);
+        const marks = [...ps[0].querySelectorAll('[data-lcs-mark]')].map((m) => m.textContent.trim());
+        if (marks.length !== 2) fails.push(`${L}: ${marks.length} marks (want 2)`);
+        else { if (marks[0] !== name) fails.push(`${L}: the first mark "${marks[0]}" is not the name "${name}"`); if (marks[1] === name) fails.push(`${L}: both marks are the name`); }
+        if (!t.startsWith(name)) fails.push(`${L}: the sentence does not open with the name`);
+        if (r(ps[0]).height > 26.6) fails.push(`${L}: the sentence wraps`);
+        if (ps[0].scrollWidth > ps[0].clientWidth + 0.6) fails.push(`${L}: the sentence overflows its column`);
+        for (const k of ORDER) if (qwords[k] && hasWordCi(t, qwords[k])) fails.push(`${L}: the question word "${qwords[k]}" is printed in the sentence`);
+      }
+      const svgs = [...row.querySelectorAll('svg[data-lcs-prim="writing-row"]')];
+      if (svgs.length !== 2) fails.push(`${L}: ${svgs.length} writing rows (want 2)`);
+      svgs.forEach((svg) => {
+        if (svg.querySelector('text')) fails.push(`${L}: text printed on a ruling`);
+        if (r(svg).width < w - 0.6) fails.push(`${L}: ruling ${r(svg).width.toFixed(0)} < ${w}`);
+        if (r(svg).height < glyphH + 20 - 0.6) fails.push(`${L}: ruling ${r(svg).height.toFixed(0)} high < glyphH + 20`);
+      });
+      checkPortrait(row, L, Math.max(G2, picPx));
+    });
+    if (!rows.length) fails.push('non-vacuity: 0 rows');
+    return fails;
+  }
+
   if (mode === 'write') {
     const nRows = +root.dataset.lcsRows, kinds = (root.dataset.lcsKinds || '').split(',').filter(Boolean), glyphH = +root.dataset.lcsGlyphh, w = +root.dataset.lcsW, picPx = +root.dataset.lcsPicpx, botMax = parseFloat(root.dataset.lcsBotmax);
     const rows = laneGrid('[data-lcs-row]', 'row', (ln) => contentBox(ln, 'p, img, svg'), 6);
@@ -1259,7 +1517,8 @@ function VERIFY_FACE() {
     if (nRows < 6 || nRows > 16) fails.push(`${nRows} rows outside [6, 16]`);
     if (root.querySelector('[data-lcs-bank-banner]')) fails.push('a bank on the write face');
     if (root.querySelector('[data-lcs-chip]')) fails.push('a chip on the write face');
-    if (root.querySelector('[data-lcs-starter]')) fails.push('a starter on the ruling (the question is the child\'s)');
+    const withStarters = root.dataset.lcsStarters === '1';   // Level Set 2026-09-29 (F4 d1): the question word is printed on the ruling
+    if (!withStarters && root.querySelector('[data-lcs-starter]')) fails.push('a starter on the ruling (the question is the child\'s)');
     if (!(glyphH >= 24)) fails.push(`glyphH ${glyphH} < 24`);
     const pageText = nfd(root.textContent);
     const hist = {}, botRows = [];
@@ -1281,8 +1540,14 @@ function VERIFY_FACE() {
       const svgs = row.querySelectorAll('svg[data-lcs-prim="writing-row"]');
       if (svgs.length !== 1) fails.push(`${L}: ${svgs.length} writing rows`);
       const svg = svgs[0];
+      if (svg && withStarters) {
+        const st = [...svg.querySelectorAll('text')];
+        const want = qPrefix + (qwords[ask] || '');
+        if (st.length !== 1 || !st[0].hasAttribute('data-lcs-starter')) fails.push(`${L}: ${st.length} texts on the ruling (want exactly the starter)`);
+        else { if (text(st[0]) !== want) fails.push(`${L}: the starter "${text(st[0])}" != "${want}"`); if (answer && !answer.startsWith(text(st[0]))) fails.push(`${L}: the starter does not open the question`); }
+      }
       if (svg) {
-        if (svg.querySelector('text')) fails.push(`${L}: text printed on the ruling`);
+        if (!withStarters && svg.querySelector('text')) fails.push(`${L}: text printed on the ruling`);
         if (r(svg).width < w - 0.6) fails.push(`${L}: ruling ${r(svg).width.toFixed(0)} < ${w}`);
         if (r(svg).height < glyphH + 20 - 0.6) fails.push(`${L}: ruling ${r(svg).height.toFixed(0)} high < glyphH + 20`);
         if (svg.querySelectorAll('line').length < 3) fails.push(`${L}: fewer than 3 school lines`);
@@ -1303,6 +1568,17 @@ function VERIFY_FACE() {
   if (mode === 'ask') {
     const nRows = +root.dataset.lcsRows, kinds = (root.dataset.lcsKinds || '').split(',').filter(Boolean), glyphH = +root.dataset.lcsGlyphh, h = +root.dataset.lcsH, tile = +root.dataset.lcsTile, time = +root.dataset.lcsTime;
     const scene = root.querySelector('[data-lcs-ask-scene]'), lane = root.querySelector('[data-lcs-starters]');
+    const withBank = root.dataset.lcsBank === '1';   // Level Set 2026-09-29 (F5 d3): the six words in a bank, bare rulings
+    const banner = root.querySelector('[data-lcs-bank-banner]');
+    if (withBank) {
+      if (!banner) fails.push('no bank on the bank page');
+      else {
+        const words = [...banner.querySelectorAll('[data-lcs-bank-word]')].map((x) => x.dataset.lcsBankWord);
+        if (words.length !== 6 || new Set(words.map(nfd)).size !== 6) fails.push(`${words.length} bank words (want 6 distinct)`);
+        if (new Set(banner.querySelectorAll('[data-lcs-bank-word]').length ? [...banner.querySelectorAll('[data-lcs-bank-word]')].map((x) => Math.round(r(x).top)) : []).size > 1) fails.push('the bank wraps to two rows');
+        if (r(banner).top - rr.top > 8) fails.push('the bank does not sit at the stage top');
+      }
+    }
     if (!scene) fails.push('no scene'); if (!lane) fails.push('no starter lane');
     if (scene) {
       if (!scene.hasAttribute('data-ws-content')) fails.push('the scene lacks data-ws-content');
@@ -1323,32 +1599,33 @@ function VERIFY_FACE() {
         const outside = [...t.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent.trim()).join('');
         if (outside || (t.dataset.lcsSceneTile !== 'clock' && text(t))) fails.push(`${L}: text printed on the scene ("${outside || text(t)}")`);
       });
-      if (r(scene).top - rr.top > 8) fails.push('the scene does not sit at the stage top');
+      if (!withBank && r(scene).top - rr.top > 8) fails.push('the scene does not sit at the stage top');
     }
     if (lane) {
       if (!lane.hasAttribute('data-ws-content')) fails.push('the starter lane lacks data-ws-content');
       const rowsEl = [...lane.querySelectorAll('[data-lcs-ruling-row]')];
       if (rowsEl.length !== nRows || rowsEl.length !== kinds.length) fails.push(`${rowsEl.length} ruling rows, config says ${nRows} / ${kinds.length} starters`);
-      const starters = (lane.dataset.lcsStarters || '').split(',');
-      if (starters.length !== kinds.length) fails.push(`starter stamp ${starters.join(',')} vs kinds ${kinds.join(',')}`);
+      const starters = withBank ? [] : (lane.dataset.lcsStarters || '').split(',');
+      if (!withBank && starters.length !== kinds.length) fails.push(`starter stamp ${starters.join(',')} vs kinds ${kinds.join(',')}`);
       if (new Set(starters.map(nfd)).size !== starters.length) fails.push('a starter twice');
-      kinds.forEach((k, i) => { if (i < 4 && qwords[k] !== starters[i]) fails.push(`starter ${i + 1} "${starters[i]}" != qwords.${k} "${qwords[k]}"`); if (i >= 4 && ORDER.some((q) => nfd(qwords[q]) === nfd(starters[i]))) fails.push(`starter ${i + 1} "${starters[i]}" is a question word of the table (why / how only)`); });
+      if (!withBank) kinds.forEach((k, i) => { if (i < 4 && qwords[k] !== starters[i] && qPrefix + qwords[k] !== starters[i]) fails.push(`starter ${i + 1} "${starters[i]}" != qwords.${k} "${qwords[k]}"`); if (i >= 4 && ORDER.some((q) => nfd(qwords[q]) === nfd(starters[i]))) fails.push(`starter ${i + 1} "${starters[i]}" is a question word of the table (why / how only)`); });
       if (!(glyphH >= 24)) fails.push(`glyphH ${glyphH} < 24`);
       rowsEl.forEach((row, i) => {
         const L = `ruling ${i + 1}`;
         const svg = row.querySelector('svg[data-lcs-prim="writing-row"]');
         if (!svg) { fails.push(`${L}: no writing row`); return; }
         const st = [...svg.querySelectorAll('text')];
-        if (st.length !== 1 || !st[0].hasAttribute('data-lcs-starter')) fails.push(`${L}: ${st.length} text nodes (want exactly the starter)`);
+        if (withBank) { if (st.length) fails.push(`${L}: ${st.length} texts on a bare ruling`); }
+        else if (st.length !== 1 || !st[0].hasAttribute('data-lcs-starter')) fails.push(`${L}: ${st.length} text nodes (want exactly the starter)`);
         else { if (text(st[0]) !== starters[i]) fails.push(`${L}: prints "${text(st[0])}", starter "${starters[i]}"`); if (fontOf(st[0]) < 16) fails.push(`${L}: starter font ${fontOf(st[0])}`); }
         if (Math.abs(r(svg).height - h) > 0.6) fails.push(`${L}: row ${r(svg).height.toFixed(0)} != h ${h}`);
         if (r(svg).width < 600) fails.push(`${L}: row ${r(svg).width.toFixed(0)} wide < 600`);
         if (i) { const gap = r(row).top - r(rowsEl[i - 1]).bottom; if (gap > 8.6) fails.push(`${L}: ${Math.round(gap)} px above it`); }
       });
     }
-    if (root.querySelector('[data-lcs-sentence], [data-lcs-chip], [data-lcs-bank-banner], [data-lcs-mark]')) fails.push('a sentence / chip / bank / mark on the open face');
+    if (root.querySelector('[data-lcs-sentence], [data-lcs-chip], [data-lcs-mark]') || (!withBank && banner)) fails.push('a sentence / chip / bank / mark on the open face');
     if (scene && lane) {
-      const stack = r(lane).bottom - r(scene).top;
+      const stack = r(lane).bottom - (withBank && banner ? r(banner).top : r(scene).top);
       if (stack < 660) fails.push(`stack ${Math.round(stack)} < 660 (sparse: the six rows must fill the 677 budget)`);
       if (body.bottom - r(lane).bottom > SLACK_MAX) fails.push(`slack ${Math.round(body.bottom - r(lane).bottom)} px under the rulings (> ${SLACK_MAX}: sparse)`);
       if (r(lane).bottom > body.bottom + 0.6) fails.push('the rulings end under the body bottom');
@@ -1394,8 +1671,28 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    const { bank, pron, objForms } = this._deps(loc);
-    return this._buildWith(bank, this.difficulty[difficulty], { theme, locale: loc, pron, objForms }, ctx);
+    const deps = this._deps(loc);
+    const { pron, objForms } = deps;
+    // Level Set 2026-09-29: the published page (level 2, copy 1) reads the published bank ONLY, byte-identical; every
+    // other copy reads it with the native panels' corrections (data/b4/question-words-levelset.json)
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const bank = published ? deps.bank : levelSetBank(deps.bank, loc);
+    const d = this.difficulty[difficulty];
+    // Level Set 2026-09-29: the screen version / answer key wrap the SAME printed instance (the print build, then the
+    // page drives both); the published page (level 2, copy 1) is never asked for either, so its print stays byte-identical
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this._buildWith(bank, d, { theme, locale: loc, pron, objForms }, { ...ctx, interactive: false, answerKey: false });
+      return QW_SCREEN.screenOrKey((d && d.mode) || 'base', built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, d, { theme, locale: loc, pron, objForms }, ctx);
+  },
+  interactive: interactiveFor('base'), interactiveFor,
+  /** What makes a Level Set copy different: its things, places, times (the rows' words), or its tiles. */
+  levelSetWords(m) {
+    if (m.tiles) return m.tiles.map((t) => t.text);
+    if (m.face === 'ask') return [m.name, m.thing, m.place, 't' + m.time];
+    // the names are the cast (12 per locale; an 8-row page uses 8 of them), not the content: a copy is new when its things, places and times are
+    return (m.rows || []).flatMap((r) => [r.thing, r.place, r.time == null ? null : 't' + r.time]).filter((x) => x != null);
   },
 
   /** The whole build over an INJECTED bank + resolved config (+ injected persons / objForms) — the gate's poison seam. */

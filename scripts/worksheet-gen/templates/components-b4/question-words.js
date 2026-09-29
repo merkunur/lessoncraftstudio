@@ -184,7 +184,7 @@ function isDerangement(order, n) {
   if (seen.size !== n || order.some((x) => !Number.isInteger(x) || x < 0 || x >= n)) return false;
   return order.every((x, i) => x !== i);
 }
-function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, picPx = 88, padX = 20, fontPx = 18, itemMax = null }) {
+function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, picPx = 88, padX = 20, fontPx = 18, itemMax = null, textOnly = false }) {
   if (!Array.isArray(left) || !Array.isArray(right) || left.length !== right.length || left.length < 2) throw new Error('qaMatch: left / right must be equal lists of >= 2');
   if (!isDerangement(order, right.length)) throw new Error('qaMatch: order is not a fixed-point-free permutation');
   if (picPx && picPx < CLOCK_FLOOR) throw new Error(`qaMatch: picPx ${picPx} < the clock floor ${CLOCK_FLOOR}`);
@@ -199,6 +199,12 @@ function qaMatch({ left, right, order, leftW = 252, rightW = 248, itemH = 100, p
   const R = order.map((j) => {
     const a = right[j];
     let picHtml;
+    // textOnly (Level Set 2026-09-29, the harder match): the answer is a whole SENTENCE with no picture — the child reads it
+    if (textOnly) {
+      return `<div class="ws-match-item ws-match-item--plain" data-lcs-a="${j}" ${attr('data-lcs-kind', a.kind)} ${attr('data-lcs-literal', a.literal)} ` +
+        `style="width:${rightW}px;min-height:${itemH}px;${grow}padding:6px 12px;gap:8px;justify-content:flex-start">` +
+        `<span data-lcs-match-text style="font-family:${F.body},sans-serif;font-weight:800;font-size:${fontPx}px;line-height:1.3;color:${T.ink};white-space:normal;min-width:0">${esc(a.literal)}</span>${dot('left')}</div>`;
+    }
     if (a.clock) {
       picHtml = `<span style="flex:0 0 auto;display:inline-flex;line-height:0">${clock({ h: a.clock.h, m: 0, size: picPx }).svg}</span>`;   // flex:0 0 auto: an inline svg shrinks beside a wrapping literal (measured 81 of 88)
     } else {
@@ -233,7 +239,7 @@ function questionFrame({ n, src, depicted, frame, kind, ask, name, slots, questi
 }
 
 /* ---------- qwBins (F3) ---------- */
-function qwBins({ tiles, heads, lineCount, binW, binH = 350 }) {
+function qwBins({ tiles, heads, lineCount, binW, binH = 350, shelfMinH = 0, grid2 = false }) {
   if (!Array.isArray(heads) || heads.length < 2) throw new Error('qwBins: < 2 heads');
   if (!Array.isArray(tiles) || tiles.length < 2) throw new Error('qwBins: < 2 tiles');
   const headLabels = heads.map((h) => fold(h.label));
@@ -243,7 +249,10 @@ function qwBins({ tiles, heads, lineCount, binW, binH = 350 }) {
     if (!Number.isInteger(t.key) || t.key < 0 || t.key >= heads.length) throw new Error(`qwBins: tile "${t.text}" key ${t.key} out of range`);
   }
   const W = binW || Math.floor(640 / heads.length) - 12;
-  const shelf = `<div class="ws-card" data-lcs-shelf style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;gap:10px;justify-content:center">` +
+  // shelfMinH / grid2 (Level Set 2026-09-29): a shelf held at a fixed height (fewer or more tiles than two rows); the bins
+  // two by two (four bins with room for a written time) — both off on the published pages
+  const shelfExtra = shelfMinH ? `;min-height:${shelfMinH}px;box-sizing:border-box;align-content:center` : '';
+  const shelf = `<div class="ws-card" data-lcs-shelf style="width:660px;padding:10px 12px;flex-direction:row;flex-wrap:wrap;gap:10px;justify-content:center${shelfExtra}">` +
     tiles.map((t) => `<span class="ws-tile ws-tile--word" ${attr('data-lcs-sortword', t.text)} data-lcs-key="${t.key}" ${attr('data-lcs-kind', t.kind || '')} ${attr('data-lcs-frame', t.frame || '')} ` +
       `style="height:44px;font-size:20px;padding:0 12px;font-family:${F.display},cursive;font-weight:700">${esc(t.text)}</span>`).join('') + `</div>`;
   const bins = heads.map((h, i) => {
@@ -258,20 +267,48 @@ function qwBins({ tiles, heads, lineCount, binW, binH = 350 }) {
       `<div class="ws-bin" style="width:${W}px;height:${binH}px;max-width:${W}px;padding:0"><svg width="${W - 6}" height="${binH - 5}" viewBox="0 0 ${W - 6} ${binH - 5}" aria-hidden="true">${lines.join('')}</svg></div></div>`;
   }).join('');
   return `<div data-ws-content data-lcs-sort data-lcs-tiles="${tiles.length}" data-lcs-bins="${heads.length}" style="flex:1;display:flex;flex-direction:column;gap:18px;align-items:center;justify-content:flex-start;padding-top:0">` +
-    shelf + `<div style="display:flex;gap:12px;justify-content:center">${bins}</div></div>`;
+    shelf + `<div style="display:flex;gap:12px;justify-content:center${grid2 ? ';flex-wrap:wrap;width:640px' : ''}">${bins}</div></div>`;
 }
 
 /* ---------- writeRow (F4) ---------- */
-function writeRow({ n, src, depicted, frame, kind, ask, name, slots, text, span, answer, w = 575, h = 48, glyphH = 24, fontPx = 18, picPx = 48 }) {
+function writeRow({ n, src, depicted, frame, kind, ask, name, slots, text, span, answer, w = 575, h = 48, glyphH = 24, fontPx = 18, picPx = 48, starter = null }) {
   if (!answer) throw new Error('writeRow: answer is required');
   if (!(glyphH >= 24)) throw new Error(`writeRow: glyphH ${glyphH} < 24`);
   if (!(picPx >= 36)) throw new Error(`writeRow: picPx ${picPx} < 36`);
   if (String(text).includes(String(answer))) throw new Error(`writeRow: the sentence prints the answer "${answer}"`);
   if (need(answer) > w) throw new Error(`writeRow: "${answer}" needs ${need(answer)} px > ${w}`);
   const p = sentenceP(renderMarked(text, span), '', fontPx);
-  const ruling = rulingBlock({ rows: 1, w, h, glyphH });
+  // starter (Level Set 2026-09-29, the easier write): the question's opening words printed on the ruling, the child finishes
+  if (starter != null && !String(answer).startsWith(String(starter))) throw new Error(`writeRow: the starter "${starter}" does not open "${answer}"`);
+  const ruling = rulingBlock({ rows: 1, w, h, glyphH, ...(starter != null ? { starters: { 0: starter } } : {}) });
   return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-ask', ask)} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answer', answer)} ` +
     `style="display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${h}px;row-gap:6px;align-items:center;min-width:0">` +
+    badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
+    `<div style="min-width:0;grid-column:5;grid-row:1">${p}</div>` +
+    `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:5;grid-row:2">${ruling}</div></div>`;
+}
+
+/* ---------- writeRow2 (Level Set 2026-09-29, the harder write: two highlighted parts, two questions) ---------- */
+function renderMarked2(text, spanA, spanB) {
+  const t = String(text);
+  const at = (s) => {
+    const hits = t.match(wordRe(s, 'gu')) || [];
+    if (hits.length !== 1) throw new Error(`renderMarked2: "${s}" occurs ${hits.length} times in "${t}" (want exactly 1)`);
+    return t.search(wordRe(s));
+  };
+  const a = at(spanA), b = at(spanB);
+  const [p, q] = a < b ? [[a, spanA], [b, spanB]] : [[b, spanB], [a, spanA]];
+  if (p[0] + p[1].length > q[0]) throw new Error(`renderMarked2: "${spanA}" and "${spanB}" overlap in "${t}"`);
+  return esc(t.slice(0, p[0])) + markedSpan(p[1]) + esc(t.slice(p[0] + p[1].length, q[0])) + markedSpan(q[1]) + esc(t.slice(q[0] + q[1].length));
+}
+function writeRow2({ n, src, depicted, frame, kind, asks, name, slots, text, spans, answers, w = 575, h = 44, glyphH = 24, fontPx = 18, picPx = 48 }) {
+  if (!Array.isArray(asks) || asks.length !== 2 || !Array.isArray(answers) || answers.length !== 2 || !Array.isArray(spans) || spans.length !== 2) throw new Error('writeRow2: two asks, spans and answers');
+  if (!(glyphH >= 24) || !(h >= glyphH + 20)) throw new Error(`writeRow2: glyphH ${glyphH} / h ${h}`);
+  for (const a of answers) { if (String(text).includes(String(a))) throw new Error(`writeRow2: the sentence prints the answer "${a}"`); if (need(a) > w) throw new Error(`writeRow2: "${a}" needs ${need(a)} px > ${w}`); }
+  const p = sentenceP(renderMarked2(text, spans[0], spans[1]), '', fontPx);
+  const ruling = rulingBlock({ rows: 2, w, h, glyphH, gap: 6 });
+  return `<div data-ws-content data-lcs-row="${n}" ${attr('data-lcs-frame', frame)}${kind ? ' ' + attr('data-lcs-kind', kind) : ''} ${attr('data-lcs-asks', asks.join(','))} ${attr('data-lcs-name', name)} ${attr('data-lcs-slots', JSON.stringify(slots || {}))} ${attr('data-lcs-answers', JSON.stringify(answers))} ` +
+    `style="display:grid;grid-template-columns:30px 10px ${picPx}px 12px 1fr;grid-template-rows:auto ${2 * h + 6}px;row-gap:6px;align-items:center;min-width:0">` +
     badge(n) + picImg({ src, pic: slots && slots.pic, picKind: 'person', depicted, px: picPx }) +
     `<div style="min-width:0;grid-column:5;grid-row:1">${p}</div>` +
     `<div data-lcs-ruling-cell data-lcs-empty style="line-height:0;min-width:0;grid-column:5;grid-row:2">${ruling}</div></div>`;
@@ -302,4 +339,4 @@ function starterLines({ starters, w = 639, h = 56, glyphH = 26, gap = 8 }) {
   return `<div class="ws-lane" data-ws-content ${attr('data-lcs-starters', starters.join(','))} style="padding:10px 16px"><div style="line-height:0">${rulingBlock({ rows: starters.length, w, h, glyphH, starters: st, gap })}</div></div>`;
 }
 
-module.exports = { markedSpan, renderMarked, qwChips, answerRow, qaMatch, questionFrame, qwBins, writeRow, askScene, starterLines };
+module.exports = { markedSpan, renderMarked, qwChips, answerRow, qaMatch, questionFrame, qwBins, writeRow, writeRow2, askScene, starterLines };

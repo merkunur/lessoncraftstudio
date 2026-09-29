@@ -914,5 +914,240 @@
    "nl": "Kijk naar elke persoon, lees het woord in het kader ernaast en schrijf in het stippelvak het woord voor wie dat doet.",
    "fi": "Katso jokaista ihmistä, lue sana hänen vieressään ja kirjoita katkoviivaruutuun tekijää tarkoittava sana."
   }
+ },
+ "G1-353": {
+  "1": {
+   "es": "Lee la oración. Fíjate en las palabras marcadas. Rodea la palabra interrogativa que pregunta por ellas.",
+   "en": "Read the sentence. Look at the highlighted words. Circle the question word that asks for them.",
+   "de": "Lies den Satz. Schau auf die markierten Wörter. Kreise das Fragewort ein, das nach ihnen fragt.",
+   "fr": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui les demande.",
+   "it": "Leggi la frase. Guarda le parole evidenziate. Cerchia la parola che serve per chiederle.",
+   "pt": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas.",
+   "nl": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt.",
+   "sv": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem.",
+   "da": "Læs sætningen. Se på de markerede ord. Sæt ring om det hv-ord, der spørger efter dem.",
+   "no": "Les setningen. Se på de uthevede ordene. Sett ring rundt spørreordet som spør etter dem.",
+   "fi": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+  },
+  "3": {
+   "en": {
+    "title": "Question Words: Who, What, Where, When, How Many",
+    "instruction": "Read the sentence. Look at the highlighted words. Circle the question word that asks for them."
+   },
+   "de": {
+    "title": "W-Fragen: wer, was, wo, wann, wie viele",
+    "instruction": "Lies den Satz. Schau auf die markierten Wörter. Kreise das Fragewort ein, das nach ihnen fragt."
+   },
+   "es": {
+    "title": "Preguntas con quién, qué, dónde, cuándo y cuántos",
+    "instruction": "Lee la oración. Fíjate en las palabras marcadas. Rodea la palabra interrogativa que pregunta por ellas."
+   },
+   "fr": {
+    "title": "Les mots interrogatifs : qui, que, où, quand, combien",
+    "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui les demande."
+   },
+   "it": {
+    "title": "Le domande della frase: chi, che cosa, dove, quando, quanti",
+    "instruction": "Leggi la frase. Guarda le parole evidenziate. Cerchia la parola che serve per chiederle."
+   },
+   "pt": {
+    "title": "Quem, o que, onde, quando, quantos: palavras para perguntar",
+    "instruction": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas."
+   },
+   "nl": {
+    "title": "Vraagwoorden: wie, wat, waar, wanneer, hoeveel",
+    "instruction": "Lees de zin. Kijk naar de gemarkeerde woorden. Omcirkel het vraagwoord dat daarnaar vraagt."
+   },
+   "sv": {
+    "title": "Frågeord: vem, vad, var, när och hur många",
+    "instruction": "Läs meningen. Titta på de markerade orden. Ringa in frågeordet som frågar efter dem."
+   },
+   "da": {
+    "title": "Hv-ord: hvem, hvad, hvor, hvornår og hvor mange",
+    "instruction": "Læs sætningen. Se på de markerede ord. Sæt ring om det hv-ord, der spørger efter dem."
+   },
+   "no": {
+    "title": "Spørreord: hvem, hva, hvor, når og hvor mange",
+    "instruction": "Les setningen. Se på de uthevede ordene. Sett ring rundt spørreordet som spør etter dem."
+   },
+   "fi": {
+    "title": "Kysymyssanat: kuka, mitä, missä, milloin, kuinka monta",
+    "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+   }
+  }
+ },
+ "G1-374": {
+  "1": {
+   "es": {
+    "title": "Completa la pregunta con quién, qué o dónde",
+    "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro que pregunta por ellas."
+   },
+   "pt": {
+    "title": "Complete a pergunta com quem, o que ou onde",
+    "instruction": "Leia a resposta e ache as palavras marcadas. Escreva na caixa a palavra do quadro que faz a pergunta."
+   },
+   "en": "Read the answer and find the highlighted words. Write the question word from the bank in the box.",
+   "de": "Lies die Antwort und suche die markierten Wörter. Schreibe das Fragewort aus dem Kasten in das Kästchen.",
+   "fr": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui les demande.",
+   "it": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella la parola del riquadro.",
+   "nl": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf het vraagwoord uit het kader in het hokje.",
+   "sv": "Läs svaret och leta upp de markerade orden. Skriv frågeordet från ordlistan i rutan.",
+   "da": "Læs svaret, og find de markerede ord. Skriv hv-ordet fra ordkassen i feltet.",
+   "no": "Les svaret og finn de uthevede ordene. Skriv spørreordet fra ordbanken i ruta.",
+   "fi": "Lue vastaus ja etsi korostetut sanat. Kirjoita kysymyssana sanapankista ruutuun."
+  },
+  "3": {
+   "en": "Read the answer and find the highlighted words. Write the question word that asks for them in the box.",
+   "de": "Lies die Antwort und suche die markierten Wörter. Schreibe das passende Fragewort selbst in das Kästchen.",
+   "es": {
+    "title": "Completa la pregunta con la palabra interrogativa",
+    "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla, sin ayuda, la palabra que pregunta por ellas."
+   },
+   "fr": "Lis la réponse et repère les mots en couleur. Écris toi-même dans la case le mot interrogatif qui les demande.",
+   "it": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella, senza aiuto, la parola che serve per chiederle.",
+   "pt": "Leia a resposta e ache as palavras marcadas. Escreva na caixa, sem ajuda, a palavra que faz a pergunta.",
+   "nl": "Lees het antwoord en zoek de gemarkeerde woorden. Schrijf zelf het vraagwoord dat daarnaar vraagt in het hokje.",
+   "sv": "Läs svaret och leta upp de markerade orden. Skriv själv rätt frågeord i rutan.",
+   "da": "Læs svaret, og find de markerede ord. Skriv selv det rigtige hv-ord i feltet.",
+   "no": "Les svaret og finn de uthevede ordene. Skriv selv det riktige spørreordet i ruta.",
+   "fi": "Lue vastaus ja etsi korostetut sanat. Kirjoita ruutuun kysymyssana, joka kysyy niitä."
+  }
+ },
+ "G1-375": {
+  "3": {
+   "en": {
+    "title": "Sort the Answers: Who, What, Where or When",
+    "instruction": "Read each word tile. Write it in the bin under the question it answers: Who, What, Where or When."
+   },
+   "de": {
+    "title": "W-Fragen: wer, was, wo oder wann? Antworten sortieren",
+    "instruction": "Lies jede Wortkarte. Schreibe sie unter die Frage, auf die sie antwortet."
+   },
+   "es": {
+    "title": "Clasifica: ¿quién?, ¿qué?, ¿dónde? o ¿cuándo?",
+    "instruction": "Lee cada tarjeta. Escríbela en el recuadro de la pregunta a la que responde."
+   },
+   "fr": {
+    "title": "Classe les réponses : qui, que, où ou quand",
+    "instruction": "Lis chaque étiquette. Écris-la dans la boîte de la question à laquelle elle répond."
+   },
+   "it": {
+    "title": "Chi, che cosa, dove o quando? Ordina le risposte",
+    "instruction": "Leggi ogni cartellino. Scrivilo sotto la domanda a cui risponde: Chi, Che cosa, Dove o Quando."
+   },
+   "pt": {
+    "title": "Separe as respostas: quem, o que, onde ou quando",
+    "instruction": "Leia cada cartão. Escreva-o no espaço da pergunta a que ele responde."
+   },
+   "nl": {
+    "title": "Antwoorden sorteren: wie, wat, waar of wanneer",
+    "instruction": "Lees elk kaartje. Schrijf het in de bak onder de vraag die het beantwoordt."
+   },
+   "sv": {
+    "title": "Sortera svaren: vem, vad, var eller när",
+    "instruction": "Läs varje ordkort. Skriv det i lådan under frågan som det svarar på."
+   },
+   "da": {
+    "title": "Sortér svarene: hvem, hvad, hvor eller hvornår",
+    "instruction": "Læs hvert ordkort. Skriv det i kassen under det spørgsmål, det svarer på: hvem, hvad, hvor eller hvornår."
+   },
+   "no": {
+    "title": "Sorter svarene: hvem, hva, hvor eller når",
+    "instruction": "Les hver ordbrikke. Skriv den i kurven under spørsmålet den svarer på."
+   },
+   "fi": {
+    "title": "Kuka, mikä, missä vai milloin? Lajittele vastaukset",
+    "instruction": "Lue jokainen sanalappu. Kirjoita se sen kysymyksen laatikkoon, johon se vastaa."
+   }
+  }
+ },
+ "G2-356": {
+  "1": {
+   "en": "Read the answer. Look at the highlighted words. The question word is already on the line. Finish the question that asks for them.",
+   "de": "Lies die Antwort. Schau auf die markierten Wörter. Das Fragewort steht schon auf der Linie. Schreibe die Frage zu Ende.",
+   "es": "Lee la respuesta. Fíjate en las palabras marcadas. La pregunta ya empieza en la línea: termínala y ciérrala con el signo de interrogación.",
+   "fr": "Lis la réponse. Regarde les mots en couleur. Termine sur la ligne la question qui les demande : le premier mot est déjà écrit.",
+   "it": "Leggi la risposta. Guarda le parole evidenziate. Completa sulla riga la domanda che le chiede: la prima parola è già scritta.",
+   "pt": "Leia a resposta. Olhe as palavras marcadas. Termine na linha a pergunta sobre elas: a primeira palavra já está escrita.",
+   "nl": "Lees het antwoord. Kijk naar de gemarkeerde woorden. Het vraagwoord staat al op de lijn. Maak de vraag die daarnaar vraagt af.",
+   "sv": "Läs svaret. Titta på de markerade orden. Gör färdigt frågan som frågar efter dem. Den börjar med ordet på linjen.",
+   "da": "Læs svaret. Se på de markerede ord. Gør det spørgsmål færdigt, der spørger efter dem. Det starter med ordet på linjen.",
+   "no": "Les svaret. Se på de uthevede ordene. Fullfør spørsmålet som spør etter dem. Det begynner med ordet på linja.",
+   "fi": "Lue vastaus. Katso korostettuja sanoja. Kysymyssana on jo viivalla – kirjoita kysymys loppuun."
+  },
+  "3": {
+   "en": "Read the answer. Two parts are highlighted. Write a question for each highlighted part, one on each line.",
+   "de": "Lies die Antwort. Zwei Teile sind markiert. Schreibe zu jedem markierten Teil eine Frage, jede auf eine eigene Linie.",
+   "es": "Lee la respuesta. Hay dos partes marcadas. En cada línea, escribe una pregunta que pregunte por una de ellas.",
+   "fr": "Lis la réponse. Deux parties sont en couleur. Sur chaque ligne, écris une question qui demande l’une d’elles.",
+   "it": "Leggi la risposta. Le parti evidenziate sono due. Su ogni riga scrivi una domanda che chiede una di esse.",
+   "pt": "Leia a resposta. Há duas partes marcadas. Em cada linha, escreva uma pergunta sobre uma delas.",
+   "nl": "Lees het antwoord. Er zijn twee delen gemarkeerd. Schrijf bij elk gemarkeerd deel een vraag, elke vraag op een eigen lijn.",
+   "sv": "Läs svaret. Två delar är markerade. Skriv en fråga som frågar efter varje markerad del, en fråga på varje linje.",
+   "da": "Læs svaret. To dele er markeret. Skriv et spørgsmål, der spørger efter hver markeret del – ét spørgsmål på hver linje.",
+   "no": "Les svaret. To deler er uthevet. Skriv et spørsmål som spør etter hver uthevet del – ett spørsmål på hver linje.",
+   "fi": "Lue vastaus. Siinä on kaksi korostettua kohtaa. Kirjoita kummastakin oma kysymys omalle viivalleen."
+  }
+ },
+ "G2-357": {
+  "1": {
+   "en": {
+    "title": "Ask About the Picture: Who, What, Where and When",
+    "instruction": "Look at the picture. Finish each question. Start with the word already on the line."
+   },
+   "de": {
+    "title": "Fragen zum Bild: wer, was, wo und wann",
+    "instruction": "Schau dir das Bild an. Beende jede Frage. Beginne mit dem Wort, das schon auf der Linie steht."
+   },
+   "es": {
+    "title": "Preguntas sobre el dibujo: quién, qué, dónde y cuándo",
+    "instruction": "Mira el dibujo. Termina cada pregunta desde la palabra que ya está en la línea y ciérrala con el signo de interrogación."
+   },
+   "fr": {
+    "title": "Pose des questions sur l'image : qui, que, où et quand",
+    "instruction": "Regarde l'image. Termine chaque question en partant du mot déjà écrit sur la ligne."
+   },
+   "it": {
+    "title": "Domande sull'immagine: chi, che cosa, dove e quando",
+    "instruction": "Guarda l'immagine. Completa ogni domanda. Comincia con la parola già scritta sulla riga."
+   },
+   "pt": {
+    "title": "Perguntas sobre a figura: quem, o que, onde e quando",
+    "instruction": "Olhe a figura. Termine cada pergunta a partir da palavra que já está na linha."
+   },
+   "nl": {
+    "title": "Vraag iets over de plaat: wie, wat, waar en wanneer",
+    "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat."
+   },
+   "sv": {
+    "title": "Fråga om bilden: vem, vad, var och när",
+    "instruction": "Titta på bilden. Gör varje fråga färdig. Börja med ordet som redan står på linjen."
+   },
+   "da": {
+    "title": "Spørg om billedet: hvem, hvad, hvor og hvornår",
+    "instruction": "Se på billedet. Gør hvert spørgsmål færdigt. Start med det ord, der allerede står på linjen."
+   },
+   "no": {
+    "title": "Spør om bildet: hvem, hva, hvor og når",
+    "instruction": "Se på bildet. Fullfør hvert spørsmål. Begynn med ordet som allerede står på linja."
+   },
+   "fi": {
+    "title": "Kysymyksiä kuvasta: kuka, mitä, missä, milloin",
+    "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
+   }
+  },
+  "3": {
+   "en": "Look at the picture. Write six questions about it. Start each one with a different word from the box.",
+   "de": "Schau dir das Bild an. Schreibe sechs Fragen dazu. Beginne jede Frage mit einem anderen Wort aus dem Kasten.",
+   "es": "Mira el dibujo. Escribe una pregunta en cada línea con una palabra distinta del recuadro. No olvides los signos ¿ y ?.",
+   "fr": "Regarde l'image. Écris une question sur chaque ligne. Commence chacune par un mot différent de la liste.",
+   "it": "Guarda l'immagine. Scrivi una domanda su ogni riga. Comincia ogni domanda con una parola diversa del riquadro.",
+   "pt": "Olhe a figura. Escreva uma pergunta em cada linha. Comece cada uma com uma palavra diferente do quadro.",
+   "nl": "Kijk naar de plaat. Schrijf zes vragen. Begin elke vraag met een ander woord uit het kader.",
+   "sv": "Titta på bilden. Skriv frågor om den på linjerna. Börja varje fråga med ett ord från ordlistan. Använd alla orden.",
+   "da": "Se på billedet. Skriv spørgsmål om det på linjerne. Start hvert spørgsmål med et ord fra ordkassen. Brug alle ordene.",
+   "no": "Se på bildet. Skriv spørsmål om det på linjene. Begynn hvert spørsmål med et ord fra ordbanken. Bruk alle ordene.",
+   "fi": "Katso kuvaa. Kirjoita kysymyksiä kuvasta. Aloita jokainen kysymys eri sanalla laatikosta."
+  }
  }
 }

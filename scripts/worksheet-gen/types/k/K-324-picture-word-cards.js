@@ -83,6 +83,10 @@ const LOCALES = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi
 const FR_ELISION = /^[aeiouéèêàâîïôûù]/i;
 const LETTERS_ONLY = /^\p{L}+$/u;
 const glyphs = (s) => [...String(s)].length;
+// the twin sheet (K-347's page) — pinned here so the base's level 3 can become the reading cards
+const TWIN_D = { kind: 'twin', cards: 8, cols: 4, rows: 4, pad: 10, pic: 120, cap: 13, lineCap: 13, maxLines: 2, tiers: [[8, 26], [10, 22], [12, 20], [13, 18]] };
+// a black-and-white theme directory, numbered ones included ("animals bw 2")
+const BW_THEME = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s\d+)?$/i;
 
 /** The display label for an entry under the locale's case rule + the bank's cardCase. */
 function labelFor(e, loc, cardCase) {
@@ -113,6 +117,7 @@ function plateFor(lines, d) {
     // the picture never moves on the plural face (80 + 6 + 58 = 144 <= 149): number is the only difference
     return lines.length === 2 ? { px: 24, lineH: 26, pic: d.pic } : { px: 26, lineH: 30, pic: d.pic };
   }
+  if (d.reading) return { px: d.readPx, lineH: d.readPx + 6, pic: d.pic };                 // Level Set: the word is the card
   if (d.kind === 'bilingual') return { px: d.hostPx, lineH: d.hostPx + 4, pic: d.pic };   // host one line only
   if (d.kind === 'syllable') return { px: 26, lineH: 30, pic: d.hyphenPic || d.pic };      // hyphen plate, one line
   if (lines.length === 2) {
@@ -130,12 +135,15 @@ module.exports = {
   gradeBand: 'K',
   assetClass: 'icon-placement',
   exerciseType: 'picture-word-cards',
-  themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  themeAxis: { applicable: true, minNouns: 8, excludeBw: true, levelSetBw: true },
   difficulty: {
     1: { kind: 'word', cards: 4, cols: 2, rows: 2, pad: 16, pic: 220, cap: 20, lineCap: 16, maxLines: 2, bigPx: 32, bigCap: 15 },
     2: { kind: 'word', cards: 8, cols: 2, rows: 4, pad: 12, pic: 104, pic2: 84, cap: 20, lineCap: 16, maxLines: 2 },
-    3: { kind: 'twin', cards: 8, cols: 4, rows: 4, pad: 10, pic: 120, cap: 13, lineCap: 13, maxLines: 2, tiers: [[8, 26], [10, 22], [12, 20], [13, 18]] },
+    // Level Set 2026-09-29: the harder level is 12 WORD-FIRST reading cards (the word large, the picture a hint
+    // below — word-wall cards). The twin sheet that used to sit here is K-347's page (TWIN_D, byte-identical).
+    3: { kind: 'word', reading: true, cards: 12, cols: 3, rows: 4, pad: 12, pic: 56, readPx: 30, cap: 10, lineCap: 10, maxLines: 2 },
   },
+  TWIN_D,
   i18n: {
     en: {
       title: 'Picture Word Cards',
@@ -162,7 +170,12 @@ module.exports = {
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     if (!theme) throw new Error('K-324: a theme is required (themed cut-out cards)');
-    if (BW_MARKER.test(String(theme))) throw new Error(`K-324: theme "${theme}" is a BW directory (excludeBw) — refuse`);
+    // Level Set 2026-09-29: black-and-white pictures are fine on cut-out cards (a child can colour them; the level
+    // audit found the exclusion over-cautious) — allowed for every NEW copy; the published page (core level, copy 1)
+    // keeps its rule, byte-identical
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const bwTheme = BW_THEME.test(String(theme).trim()) || BW_MARKER.test(String(theme));
+    if (published && BW_MARKER.test(String(theme))) throw new Error(`K-324: theme "${theme}" is a BW directory (excludeBw) — refuse`);
     if (!bank || typeof bank !== 'object') throw new Error(`K-324: no ${loc} bank block`);
     const cardCase = bank.cardCase || 'lower';
     if (!CARD_CASES.includes(cardCase)) throw new Error(`K-324: ${loc} cardCase "${cardCase}" not in ${CARD_CASES.join('|')}`);
@@ -174,7 +187,8 @@ module.exports = {
     const exclude = new Set(Array.isArray(bank.exclude) ? bank.exclude : []);
     const cellW = SHEET_W / d.cols, cellH = SHEET_H / d.rows;
     const innerW = cellW - 2 * d.pad;
-    const stamps = ` data-lcs-case="${cardCase}" data-lcs-cellw="${cellW}" data-lcs-cellh="${cellH}" data-lcs-pad="${d.pad}"`;
+    const stamps = ` data-lcs-case="${cardCase}" data-lcs-cellw="${cellW}" data-lcs-cellh="${cellH}" data-lcs-pad="${d.pad}"` +
+      (bwTheme && !published ? ' data-lcs-bw="1"' : '') + (d.blankArticle || d.blankPlural ? ' data-lcs-blank-level="1"' : '');
     const geo = { d, theme, loc, rng, cardCase, exclude, cellW, cellH, innerW, stamps };
     if (d.kind === 'article') return this._buildArticle(bank, geo);
     if (d.kind === 'plural') return this._buildPlural(bank, geo);
@@ -198,10 +212,10 @@ module.exports = {
         return C3.wordCard({
           src: fileUri(theme, e.noun), vocabKey: e.vocabKey, word: e.word, lines: e.lines,
           pic: p.pic, px: p.px, lineH: p.lineH, pad: d.pad, innerW, kind: 'word',
-          extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
+          extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`, ...(d.reading ? { wordFirst: true } : {}),
         });
       });
-      bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'word', extra: stamps });
+      bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'word', extra: stamps + (d.reading ? ' data-lcs-reading="1"' : '') });
       meta = { kind: 'word', theme, words: picks.map((e) => e.word), vocab: picks.map((e) => e.vocabKey), refused };
     } else {
       // twin: rows 1-2 the pictures in draw order; rows 3-4 the words DERANGED
@@ -267,15 +281,26 @@ module.exports = {
     const picks = rng.shuffle([...seedPicks, ...sampleEntries(rng, rest, d.cards - seedPicks.length, `K-324 ${theme}/${loc} (article, ${refused.length} refused by the label rule)`)]);
     const cards = picks.map((e) => {
       const p = plateFor(e.lines, d);
+      // Level Set 2026-09-29, the harder level: the article is an empty box — the child writes it; the plate prints
+      // only the bare noun (stamped data-lcs-plate-word so the plate rule reads it), no colour dot to give it away
+      if (d.blankArticle) {
+        const bLines = C3.labelLines(e.base, { cap: d.cap, lineCap: d.lineCap, maxLines: d.maxLines }) || [e.base];
+        const bp = plateFor(bLines, d);
+        return C3.articleCard({
+          src: fileUri(theme, e.noun), vocabKey: e.vocabKey, chip: e.chip, base: e.base, word: e.word, lines: bLines,
+          pic: bp.pic, px: bp.px, lineH: bp.lineH, pad: d.pad, innerW, dot: null, blankBefore: Math.round(bp.px * 2.2),
+          extra: `data-lcs-noun="${e.noun_ ? 1 : 0}" data-lcs-plate-word="${esc(e.base)}"`,
+        });
+      }
       return C3.articleCard({
         src: fileUri(theme, e.noun), vocabKey: e.vocabKey, chip: e.chip, base: e.base, word: e.word, lines: e.lines,
         pic: p.pic, px: p.px, lineH: p.lineH, pad: d.pad, innerW,
         dot: dots && e.key >= 0 ? dots[e.key] : null, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
       });
     });
-    const legendHtml = dots ? C3.legendDots({ legend, chips, dots }) : null;
+    const legendHtml = dots && !d.blankArticle ? C3.legendDots({ legend, chips, dots }) : null;
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'article', legend: legendHtml,
-      extra: stamps + ` data-lcs-level="${level}" data-lcs-dots="${dots ? 1 : 0}"` });
+      extra: stamps + ` data-lcs-level="${level}" data-lcs-dots="${dots && !d.blankArticle ? 1 : 0}"` });
     return { bodyHtml, meta: { kind: 'article', theme, level, words: picks.map((e) => e.word), chips: picks.map((e) => e.chip), vocab: picks.map((e) => e.vocabKey), refused } };
   },
 
@@ -304,6 +329,7 @@ module.exports = {
       cards.push(...C3.pluralPair({
         src: fileUri(theme, e.noun), vocabKey: e.vocabKey, singular: e.word, plural: e.plural_, sLines: e.sLines, pLines: e.pLines,
         sPx: sp.px, sLineH: sp.lineH, pPx: pp.px, pLineH: pp.lineH, pic: d.pic, clones, pad: d.pad, innerW, rng, extra: `data-lcs-noun="${e.noun_ ? 1 : 0}"`,
+        ...(d.blankPlural ? { blankPlural: true } : {}),
       }));
     }
     const bodyHtml = C3.cardSheet({ cards, cols: d.cols, rows: d.rows, w: SHEET_W, h: SHEET_H, kind: 'plural', extra: stamps + ` data-lcs-clones="${clones}"` });
@@ -387,7 +413,9 @@ module.exports = {
   },
 
   _buildSyllable(bank, { d, theme, loc, rng, cardCase, exclude, innerW, stamps }) {
-    const { pool, mark, hyphen } = this._syllablePool(bank, d, theme, loc, cardCase, exclude);
+    const sp = this._syllablePool(bank, d, theme, loc, cardCase, exclude);
+    const { pool, hyphen } = sp;
+    const mark = d.mark === 'none' ? 'none' : sp.mark;   // Level Set: the harder level prints no split (the child draws the arcs)
     const picks = sampleEntries(rng, pool, d.cards, `K-324 ${theme}/${loc} (syllable, pool ${d.pool}, count ${d.minCount}-${d.maxCount}, <= ${d.maxLetters} letters)`);
     const p = plateFor([''], d);
     const cards = picks.map((e) => C3.syllableCard({
@@ -466,7 +494,7 @@ module.exports = {
         imgs.forEach((img) => {
           if (!img.complete || img.naturalWidth === 0) f.push(`card ${i + 1}: picture broken`);
           const dir = decodeURIComponent(img.src).split('/').slice(-2, -1)[0] || '';
-          if (BW.test(dir + '/')) f.push(`card ${i + 1}: BW directory "${dir}"`);
+          if (BW.test(dir + '/') && sheet.dataset.lcsBw !== '1') f.push(`card ${i + 1}: BW directory "${dir}"`);   // Level Set: a B&W copy is stamped
           if (img.dataset.lcsPic !== c.dataset.lcsVocab) f.push(`card ${i + 1}: picture ${img.dataset.lcsPic} ≠ vocab ${c.dataset.lcsVocab}`);
         });
       };
@@ -475,7 +503,7 @@ module.exports = {
         if (plates.length !== 1) { f.push(`card ${i + 1}: ${plates.length} plates`); return; }
         const p = plates[0];
         const lines = [...p.querySelectorAll('[data-lcs-line]')];
-        const word = c.dataset.lcsWord;
+        const word = c.dataset.lcsPlateWord || c.dataset.lcsWord;   // Level Set: the blank-article plate prints the bare noun
         if (lines.map((l) => l.textContent).join(' ') !== word) f.push(`card ${i + 1}: plate text "${lines.map((l) => l.textContent).join(' ')}" ≠ word "${word}"`);
         if (+p.dataset.lcsLines !== lines.length) f.push(`card ${i + 1}: ${lines.length} lines ≠ stamp ${p.dataset.lcsLines}`);
         if (lines.length > 2) f.push(`card ${i + 1}: ${lines.length} lines`);
@@ -539,6 +567,7 @@ module.exports = {
         if (!dots && legend) f.push('article: a legend without dots');
         if (dots && legend && legend.querySelectorAll('[data-lcs-legend-dot]').length < 2) f.push('article: legend carries no colour dots');
         // the contrast: at least two distinct articles on the page
+        const blankLevel = sheet.dataset.lcsBlankLevel === '1';
         const chipsOnPage = new Set(cells.map((c) => c.dataset.lcsChip).filter(Boolean));
         if (chipsOnPage.size < 2) f.push(`article: every card carries the same article "${[...chipsOnPage][0]}" — no contrast on the page`);
         cells.forEach((c, i) => {
@@ -550,6 +579,12 @@ module.exports = {
             const want = chip.endsWith("'") ? chip + base : chip + ' ' + base;
             if (chip.endsWith("'") && word.startsWith(chip + ' ')) f.push(`card ${i + 1}: elided article "${chip}" printed with a space ("${word}")`);
             else if (word !== want) f.push(`card ${i + 1}: label "${word}" ≠ chip + base "${want}"`);
+          }
+          if (blankLevel) {
+            const bl = c.querySelectorAll('.ws-wordplate [data-lcs-blank]');
+            if (bl.length !== 1) f.push(`card ${i + 1}: ${bl.length} write-in boxes for the article (want 1)`);
+            else if (bl[0].textContent.trim() || bl[0].children.length) f.push(`card ${i + 1}: the article box is pre-written`);
+            if (c.dataset.lcsPlateWord !== c.dataset.lcsBase) f.push(`card ${i + 1}: the plate does not print the bare noun`);
           }
           const dot = c.querySelector('.ws-wordplate [data-lcs-dot]');
           if (dots && !dot && !chip.endsWith("'")) f.push(`card ${i + 1}: no colour dot under dots`);
@@ -573,7 +608,12 @@ module.exports = {
             const row = c.querySelector('[data-lcs-clones]');
             if (!row || +row.dataset.lcsClones !== clones) f.push(`card ${i + 1}: clone row stamp ≠ ${clones}`);
           }
-          checkPlate(c, i);
+          if (role === 'many' && sheet.dataset.lcsBlankLevel === '1') {
+            // Level Set: the plural is an empty write-in box
+            const bl = c.querySelectorAll('[data-lcs-blank]');
+            if (bl.length !== 1 || c.querySelector('.ws-wordplate')) f.push(`card ${i + 1}: the plural is not one empty write-in box`);
+            else if (bl[0].textContent.trim()) f.push(`card ${i + 1}: the plural box is pre-written`);
+          } else checkPlate(c, i);
         });
       } else if (kind === 'bilingual') {
         const partner = sheet.dataset.lcsPartner;
@@ -608,7 +648,15 @@ module.exports = {
           if (+c.dataset.lcsCount !== split.length) f.push(`card ${i + 1}: count ${c.dataset.lcsCount} ≠ ${split.length} syllables`);
           if (split.length < 2) f.push(`card ${i + 1}: "${word}" has one syllable`);
           if (c.dataset.lcsMark !== mark) f.push(`card ${i + 1}: mark ${c.dataset.lcsMark} ≠ sheet ${mark}`);
-          if (mark === 'arc') {
+          if (mark === 'none') {
+            // Level Set: the letter cells over an EMPTY band — the child draws the arcs
+            const sw = c.querySelector('[data-lcs-prim="syllable-word"]');
+            const letters = sw ? [...sw.querySelectorAll('[data-lcs-letter]')].map((t) => t.textContent).join('') : '';
+            if (letters !== word) f.push(`card ${i + 1}: letter cells "${letters}" ≠ word "${word}"`);
+            const band = c.querySelector('[data-lcs-arcs]');
+            if (!band || band.dataset.lcsArcmode !== 'blank' || c.querySelector('[data-lcs-arc]')) f.push(`card ${i + 1}: the split is printed on the no-split level`);
+            if (c.querySelector('.ws-wordplate')) f.push(`card ${i + 1}: a plate on the no-split level`);
+          } else if (mark === 'arc') {
             if (c.querySelector('.ws-wordplate')) f.push(`card ${i + 1}: a plate on an arc card`);
             const sw = c.querySelector('[data-lcs-prim="syllable-word"]');
             const arcs = c.querySelector('[data-lcs-arcs]');

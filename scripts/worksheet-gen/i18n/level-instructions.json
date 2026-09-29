@@ -486,5 +486,132 @@
    "sv": "Läs meningen. Skriv den igen på linjerna, men använd ett ord från ordlistan i stället för namnet.",
    "no": "Les setningen. Skriv den om på linjene, men bruk et ord fra ordbanken i stedet for navnet."
   }
+ },
+ "K-324": {
+  "3": {
+   "en": "Cut along the dotted lines to make the cards. Read each word, then check it with the picture.",
+   "de": "Schneide an den gestrichelten Linien entlang, um die Karten zu bekommen. Lies jedes Wort und schau dann am Bild, ob du richtig gelesen hast.",
+   "es": "Recorta por las líneas punteadas para hacer las tarjetas. Lee cada palabra y después revísala con el dibujo.",
+   "fr": "Découpe les cartes en suivant les pointillés. Lis chaque mot, puis vérifie avec l'image.",
+   "it": "Ritaglia lungo le linee tratteggiate per fare le carte. Leggi ogni parola, poi controllala con il disegno.",
+   "pt": "Recorte pelas linhas pontilhadas para fazer os cartões. Leia cada palavra e depois confira com a figura.",
+   "nl": "Knip de kaartjes langs de stippellijnen uit. Lees elk woord en kijk dan op het plaatje of je het goed hebt gelezen.",
+   "sv": "Klipp längs de streckade linjerna så att du får kort. Läs varje ord och titta sedan på bilden om du läste rätt.",
+   "da": "Klip langs de stiplede linjer, så du får kortene. Læs hvert ord, og se så på billedet, om du læste rigtigt.",
+   "no": "Klipp langs klippelinjene så du får kortene. Les hvert ord, og se så på bildet om du leste riktig.",
+   "fi": "Leikkaa kortit irti katkoviivoja pitkin. Lue jokainen sana ja tarkista se sitten kuvasta."
+  }
+ },
+ "K-348": {
+  "1": {
+   "en": "Cut out the cards. Say each word with its article, just as it is written on the card.",
+   "de": "Schneide die Karten aus. Sprich jedes Wort mit seinem Artikel, genau so, wie es auf der Karte steht.",
+   "es": "Recorta las tarjetas. Di cada palabra con su artículo, tal como está escrita en la tarjeta.",
+   "fr": "Découpe les cartes. Dis chaque mot avec son article, comme il est écrit sur la carte.",
+   "it": "Ritaglia le carte. Di' ogni parola con il suo articolo, proprio come è scritta sulla carta.",
+   "pt": "Recorte os cartões. Fale cada palavra com o seu artigo, do jeito que está escrito no cartão.",
+   "nl": "Knip de kaartjes uit. Zeg elk woord met zijn lidwoord, precies zoals het op het kaartje staat.",
+   "sv": "Klipp ut korten. Säg varje ord med en eller ett framför, precis som det står på kortet.",
+   "da": "Klip kortene ud. Sig hvert ord med sit kendeord, præcis som det står på kortet.",
+   "no": "Klipp ut kortene. Si hvert ord sammen med artikkelen sin, akkurat slik det står på kortet."
+  },
+  "3": {
+   "en": "Cut out the eight cards. Write the article in the box, then say each word with its article.",
+   "de": "Schneide die acht Karten aus. Schreibe den Artikel in das Kästchen und sprich dann jedes Wort mit seinem Artikel.",
+   "es": "Recorta las ocho tarjetas. Escribe el artículo en el recuadro y después di cada palabra con su artículo.",
+   "fr": "Découpe les huit cartes. Écris l'article dans la case, puis dis chaque mot avec son article.",
+   "it": "Ritaglia le otto carte. Scrivi l'articolo nel riquadro, poi di' ogni parola con il suo articolo.",
+   "pt": "Recorte os oito cartões. Escreva o artigo no quadrinho e depois fale cada palavra com o seu artigo.",
+   "nl": "Knip de acht kaartjes uit. Schrijf het lidwoord in het vakje en zeg dan elk woord met zijn lidwoord.",
+   "sv": "Klipp ut de åtta korten. Skriv en eller ett i rutan och säg sedan varje ord med en eller ett framför.",
+   "da": "Klip de otte kort ud. Skriv kendeordet i feltet, og sig så hvert ord med sit kendeord.",
+   "no": "Klipp ut de åtte kortene. Skriv artikkelen i ruta, og si så hvert ord sammen med artikkelen sin."
+  }
+ },
+ "K-349": {
+  "3": {
+   "en": "Cut out the cards. Write the word for many in the box, then match each pair.",
+   "de": "Schneide die Karten aus. Schreibe das Wort für viele in das Kästchen und lege dann jedes Paar zusammen.",
+   "es": "Recorta las tarjetas. Escribe la palabra de muchos en el recuadro y después junta cada pareja.",
+   "fr": "Découpe les cartes. Écris le mot pour plusieurs dans la case, puis associe les deux cartes.",
+   "it": "Ritaglia le carte. Scrivi la parola per tanti nel riquadro, poi unisci ogni coppia.",
+   "pt": "Recorte os cartões. Escreva a palavra de muitos no quadrinho e depois junte cada par.",
+   "nl": "Knip de kaartjes uit. Schrijf het woord voor meer in het vakje en leg dan de paren bij elkaar.",
+   "sv": "Klipp ut korten. Skriv ordet för flera i rutan och lägg sedan ihop paren.",
+   "da": "Klip kortene ud. Skriv ordet for flere i feltet, og find så parrene.",
+   "no": "Klipp ut kortene. Skriv ordet for flere i ruta, og legg så parene sammen.",
+   "fi": "Leikkaa kortit irti. Kirjoita ruutuun sana monikossa ja yhdistä sitten jokainen pari."
+  }
+ },
+ "G1-324": {
+  "3": {
+   "en": "Cut out the eight cards. Say each word, clap its syllables and draw an arc under each syllable.",
+   "de": "Schneide die acht Karten aus. Lies jedes Wort, klatsche seine Silben und zeichne unter jede Silbe einen Bogen.",
+   "es": "Recorta las ocho tarjetas. Di cada palabra, aplaude sus sílabas y dibuja un arco debajo de cada sílaba.",
+   "fr": "Découpe les huit cartes. Dis chaque mot, frappe ses syllabes et trace un arc sous chaque syllabe.",
+   "it": "Ritaglia le otto carte. Di' ogni parola, batti le mani per ogni sillaba e disegna un arco sotto ogni sillaba.",
+   "pt": "Recorte os oito cartões. Fale cada palavra, bata palmas para cada sílaba e desenhe um arco embaixo de cada sílaba.",
+   "nl": "Knip de acht kaartjes uit. Lees elk woord, klap de lettergrepen en teken een boogje onder elke lettergreep.",
+   "sv": "Klipp ut de åtta korten. Läs varje ord, klappa stavelserna och rita en båge under varje stavelse.",
+   "da": "Klip de otte kort ud. Sig hvert ord, klap stavelserne, og tegn en bue under hver stavelse.",
+   "no": "Klipp ut de åtte kortene. Si hvert ord, klapp stavelsene, og tegn en bue under hver stavelse.",
+   "fi": "Leikkaa kahdeksan korttia irti. Sano jokainen sana, taputa sen tavut ja piirrä kaari jokaisen tavun alle."
+  }
+ },
+ "K-347": {
+  "1": {
+   "en": "Cut out the cards. Lay the word cards next to the pictures they name, or turn them all face down and play Memory.",
+   "de": "Schneide die Karten aus. Lege die Wortkarten zu den passenden Bildern oder drehe alle um und spiele Memory.",
+   "es": "Recorta las tarjetas. Pon cada palabra junto a su dibujo o voltéalas todas y juega al memorama.",
+   "fr": "Découpe les cartes. Pose chaque mot sous son image, ou retourne toutes les cartes et joue au memory.",
+   "it": "Ritaglia le carte. Metti ogni parola accanto alla sua figura, oppure girale tutte e gioca a memory.",
+   "pt": "Recorte os cartões. Coloque cada palavra ao lado da sua figura ou vire todos para baixo e jogue o jogo da memória.",
+   "nl": "Knip de kaartjes uit. Leg elk woordkaartje naast het plaatje waar het bij hoort, of leg alles omgekeerd en speel memory.",
+   "sv": "Klipp ut korten. Lägg varje ordkort bredvid bilden det hör till, eller vänd alla kort och spela memory.",
+   "da": "Klip kortene ud. Læg ordkortene ved de billeder, de passer til, eller vend dem alle om, og spil vendespil.",
+   "no": "Klipp ut kortene. Legg ordkortene ved bildene de passer til, eller snu alle og spill memory.",
+   "fi": "Leikkaa kortit irti. Aseta sanakortit niiden kuvien viereen, joita ne nimeävät, tai käännä kaikki nurin ja pelatkaa muistipeliä."
+  },
+  "3": {
+   "en": "Cut out the cards. Lay the word cards next to the pictures they name, or turn them all face down and play Memory.",
+   "de": "Schneide die Karten aus. Lege die Wortkarten zu den passenden Bildern oder drehe alle um und spiele Memory.",
+   "es": "Recorta las tarjetas. Pon cada palabra junto a su dibujo o voltéalas todas y juega al memorama.",
+   "fr": "Découpe les cartes. Pose chaque mot sous son image, ou retourne toutes les cartes et joue au memory.",
+   "it": "Ritaglia le carte. Metti ogni parola accanto alla sua figura, oppure girale tutte e gioca a memory.",
+   "pt": "Recorte os cartões. Coloque cada palavra ao lado da sua figura ou vire todos para baixo e jogue o jogo da memória.",
+   "nl": "Knip de kaartjes uit. Leg elk woordkaartje naast het plaatje waar het bij hoort, of leg alles omgekeerd en speel memory.",
+   "sv": "Klipp ut korten. Lägg varje ordkort bredvid bilden det hör till, eller vänd alla kort och spela memory.",
+   "da": "Klip kortene ud. Læg ordkortene ved de billeder, de passer til, eller vend dem alle om, og spil vendespil.",
+   "no": "Klipp ut kortene. Legg ordkortene ved bildene de passer til, eller snu alle og spill memory.",
+   "fi": "Leikkaa kortit irti. Aseta sanakortit niiden kuvien viereen, joita ne nimeävät, tai käännä kaikki nurin ja pelatkaa muistipeliä."
+  }
+ },
+ "K-350": {
+  "1": {
+   "en": "Cut out the cards. Say the word in English, then in {U}, and keep the cards for your word wall.",
+   "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf.",
+   "es": "Recorta las tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras.",
+   "fr": "Découpe les cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots.",
+   "it": "Ritaglia le carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole.",
+   "pt": "Recorte os cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras.",
+   "nl": "Knip de kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur.",
+   "sv": "Klipp ut korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg.",
+   "da": "Klip kortene ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg.",
+   "no": "Klipp ut kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din.",
+   "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+  },
+  "3": {
+   "en": "Cut out the cards. Say the word in English, then in {U}, and keep the cards for your word wall.",
+   "de": "Schneide die Karten aus. Sprich das Wort auf Deutsch und dann auf Englisch und bewahre die Karten für deine Wörterwand auf.",
+   "es": "Recorta las tarjetas. Di la palabra en español y luego en inglés, y guarda las tarjetas para tu muro de palabras.",
+   "fr": "Découpe les cartes. Dis le mot en français, puis en {U}, et garde les cartes pour ton mur de mots.",
+   "it": "Ritaglia le carte. Di' la parola in italiano e poi in inglese, e conserva le carte per il tuo muro delle parole.",
+   "pt": "Recorte os cartões. Fale a palavra em português e depois em inglês e guarde os cartões para o seu mural de palavras.",
+   "nl": "Knip de kaartjes uit. Zeg het woord in het Nederlands en dan in het {U} en bewaar de kaartjes voor je woordmuur.",
+   "sv": "Klipp ut korten. Säg ordet på svenska och sedan på engelska och spara korten till din ordvägg.",
+   "da": "Klip kortene ud. Sig ordet på dansk og så på engelsk, og gem kortene til din ordvæg.",
+   "no": "Klipp ut kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din.",
+   "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
+  }
  }
 }

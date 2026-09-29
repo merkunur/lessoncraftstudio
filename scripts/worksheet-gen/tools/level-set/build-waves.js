@@ -45,18 +45,18 @@ const twin = (a, b) => {
   return n / Math.min(A.size, B.size) >= 0.3;
 };
 
-function titleFits(spec, theme, level, copy, loc) {
-  const strings = resolveStrings(spec.id, loc, spec);
-  const manifest = buildManifest({ spec, cacheTheme: theme, difficulty: level, locale: loc, variant: copy, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
+function titleFits(spec, theme, level, copy, loc, unit = null) {
+  const strings = resolveUnitTokens(resolveStrings(spec.id, loc, spec), spec, unit, loc);
+  const manifest = buildManifest({ spec, cacheTheme: theme, difficulty: level, locale: loc, variant: copy, unit, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
   const html = buildDeckHtml({ manifest, spec, strings, locale: loc, preview: TINY });
   return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= (cfg.titleMax || 70);
 }
-function builds(spec, theme, level, copy, loc) {
-  if (!titleFits(spec, theme, level, copy, loc)) return false;
-  const seed = instanceSeed({ typeId: spec.id, theme, difficulty: level, seedEpoch: 1, variant: copy, unit: null });
+function builds(spec, theme, level, copy, loc, unit = null) {
+  if (!titleFits(spec, theme, level, copy, loc, unit)) return false;
+  const seed = instanceSeed({ typeId: spec.id, theme, difficulty: level, seedEpoch: 1, variant: copy, unit });
   try {
     for (const extra of [{}, { interactive: true }, { answerKey: true }]) {
-      spec.build({ theme, difficulty: level, locale: loc }, { rng: makeRng(seed), variant: copy, ...extra });
+      spec.build({ theme, difficulty: level, locale: loc, unit }, { rng: makeRng(seed), variant: copy, ...extra });
     }
     return true;
   } catch (e) { return false; }
@@ -156,14 +156,24 @@ function themelessWaves() {
 if (cfg.themeless) { themelessWaves(); process.exit(0); }
 
 const report = [];
+const short = {};
 for (const loc of LOCALES) {
   const levels = {};
   const usedAtLevel = {};
   const faceIds = Object.keys(cfg.faces);
   for (const [id, face] of Object.entries(cfg.faces)) {
     const spec = loadType(id);
-    const usedInFace = [face.published];
+    // the published theme may differ per locale (sv article cards: farm animals) — face.publishedByLoc
+    const published = (face.publishedByLoc && face.publishedByLoc[loc]) || face.published;
+    const usedInFace = [published];
+    // face.rotateUnits: each copy pins the next unit of the type's unitAxis (the bilingual partner language),
+    // so the copies of a face cover the partner languages instead of repeating the exemplar
+    const units = (face.unitsByLoc && face.unitsByLoc(loc)) || (face.rotateUnits && spec.unitAxis && spec.unitAxis.applicable ? spec.unitAxis.units(loc) : null);
+    let uk = LOCALES.indexOf(loc);
     let k = 0;
+    // titles carry theme + set number but not the level, so a (theme, set number) pair may occur once per face
+    let nextAll = 1;
+    const themeAtCopy = {};
     for (const [lv, copies] of Object.entries(face.levels)) {
       if (!cfg.include(loc, id, Number(lv))) continue;
       usedAtLevel[lv] = usedAtLevel[lv] || [];
@@ -172,8 +182,22 @@ for (const loc of LOCALES) {
       // buildable, unrelated themes cannot cover 15 copies (fi noun-case tables)
       if (cfg.faceWideDistinct === false) usedInFace.length = 1;
       (levels[id] = levels[id] || {})[lv] = [];
+      // copies === 'all' (Picture Word Cards, 2026-09-29: "teachers should be able to find everything they need"):
+      // one copy per buildable theme, colour AND black-and-white (a B&W set is its own picture set); at level 2 the
+      // published theme is skipped (copy 1 is the published page). These themes are NOT reserved against the
+      // other faces — a materials set for every theme does not compete with the faces' five.
+      if (copies === 'all') {
+        let copy = Math.max(nextAll, Number(lv) === 2 ? 2 : 1);   // set numbers run on across levels (unique titles)
+        for (const t of all) {
+          if (Number(lv) === 2 && t === published) continue;
+          if (builds(spec, t, Number(lv), copy, loc)) levels[id][lv].push({ copy: copy++, theme: t });
+        }
+        nextAll = copy;
+        continue;
+      }
       for (const copy of copies) {
         const pools = k++ % 2 === 0 ? [colour, bw] : [bw, colour];
+        const unit = units ? units[uk++ % units.length] : null;
         let pick = null;
         for (const pool of pools) {
           const off = (faceIds.indexOf(id) * 37 + Number(lv) * 13 + copy * 29 + LOCALES.indexOf(loc) * 3) % pool.length;
@@ -181,26 +205,31 @@ for (const loc of LOCALES) {
             for (let i = 0; i < pool.length && !pick; i++) {
               const t = pool[(off + i) % pool.length];
               if (usedInFace.some((u) => twin(u, t))) continue;
+              if (themeAtCopy[copy] && themeAtCopy[copy].includes(t)) continue;   // same theme + same set number = same title
               // first pass: no near-twin of another face's theme at this level; the fallback still
               // never repeats a theme (family) — it only tolerates a partial noun overlap
               if (usedAtLevel[lv].some((u) => (avoidOthers ? twin(u, t) : family(u) === family(t)))) continue;
-              if (builds(spec, t, Number(lv), copy, loc)) pick = t;
+              if (builds(spec, t, Number(lv), copy, loc, unit)) pick = t;
             }
             if (pick) break;
           }
           if (pick) break;
         }
+        // cfg.allowFewer: the honest maximum — fewer copies at this level, recorded in the report (es two-syllable
+        // syllable cards: few Spanish nouns are two syllables), never a filler theme
+        if (!pick && cfg.allowFewer) { (short[loc] = short[loc] || []).push(`${id} L${lv}: ${levels[id][lv].length}`); break; }
         if (!pick) throw new Error(`build-waves: no theme for ${id} level ${lv} copy ${copy} in ${loc}`);
         usedInFace.push(pick);
+        (themeAtCopy[copy] = themeAtCopy[copy] || []).push(pick);
         usedAtLevel[lv].push(pick);
-        levels[id][lv].push({ copy, theme: pick });
+        levels[id][lv].push({ copy, theme: pick, ...(unit ? { unit } : {}) });
       }
     }
   }
   const types = Object.keys(levels);
   const wave = {
     id: 'wave-' + cfg.prefix + '-' + loc, _note: cfg.note,
-    indexable: false, interactive: true, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
+    indexable: false, interactive: cfg.interactive !== false, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
     types, levels,
   };
   fs.writeFileSync(path.join(__dirname, '..', '..', 'waves', wave.id + '.json'), JSON.stringify(wave, null, 2) + '\n');
@@ -208,3 +237,4 @@ for (const loc of LOCALES) {
   report.push(`${loc}: ${copies.length} copies, ${copies.filter((c) => m.themes[c.theme].bw).length} black-and-white`);
 }
 console.log(report.join('\n'));
+if (Object.keys(short).length) console.log('fewer than asked (honest maximum): ' + JSON.stringify(short));

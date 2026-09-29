@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-348',
   slug: 'picture-word-cards-article-cards',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 4 big cards · L3 the article is an empty box to write in; level 2 = the published D
+  difficulty: { 1: { ...base.difficulty[1], kind: 'article', cap: 18 }, 2: D, 3: { ...D, blankArticle: true } },
   i18n: { en: { title: "A or An: Word Cards with the Article", instruction: "Cut out the eight cards. Say each word with its article, just as it is written on the card." } },
 };

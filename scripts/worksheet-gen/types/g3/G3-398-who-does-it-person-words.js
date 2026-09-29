@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G3-398',
   slug: 'who-does-it-person-words',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 6 people, regular person endings only; L2 published; L3 8 people, at least 4 with another ending / a spelling change
+  interactive: base.interactiveFor('who-does-it'),
+  difficulty: { 1: { ...D, cards: 6, cols: 2, rows: 3, agentClass: 'regular' }, 2: D, 3: { ...D, otherMin: 4 } },
   i18n: { en: { title: "Who Does It? The Person Word", instruction: "Look at each person, read the word beside them and write the person word in the empty brick." } },
   gradeBand: "G3",
 };

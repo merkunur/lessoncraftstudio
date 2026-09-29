@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-397',
   slug: 'root-words-with-pictures',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 4 pictures with 2 words each; L2 published; L3 4 pictures with 4 words (3 look-alikes)
+  interactive: base.interactiveFor('picture-family'),
+  difficulty: { 1: { ...D, cards: 4, cols: 2, rows: 2, bricks: 2, foils: 1 }, 2: D, 3: { ...D, cards: 4, cols: 2, rows: 2, bricks: 4, foils: 3 } },
   i18n: { en: { title: "Root Words with Pictures: Circle the Word", instruction: "Name each picture, then circle the one word above it that is built from that picture word." } },
   gradeBand: "G1",
 };

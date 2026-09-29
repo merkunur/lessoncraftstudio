@@ -89,6 +89,8 @@ function themelessWaves() {
           meta = JSON.stringify(b.meta);
         }
         const m0 = JSON.parse(meta);
+        // a spec may name what makes a copy different (word-parts: its families / pictures / rows / people)
+        if (typeof spec.levelSetWords === 'function') return new Set(spec.levelSetWords(m0).map((w) => String(w).toLocaleLowerCase(loc)));
         return new Set([...(m0.wholes || m0.items || m0.letters || m0.pairs || m0.bases || []), ...(m0.foils || [])].map((w) => String(w).toLocaleLowerCase(loc)));
       };
       const fits = (lv, unit, copy, sv) => {
@@ -132,7 +134,7 @@ function themelessWaves() {
           if (!group && !cfg.unitsOnly && !single && out.length >= cfg.maxCopies) break;
           let w;
           try { w = wholesOf(lv, t.unit, t.sv, next); } catch (e) { continue; }
-          if (!group && !text && !cfg.unitsOnly && !single && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(cfg.maxShared, Math.max(1, Math.floor(w.size / 4))))) continue;
+          if (!group && !text && !cfg.unitsOnly && !single && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(face.maxShared || cfg.maxShared, Math.max(1, Math.floor(w.size * (face.shareFrac || cfg.shareFrac || 0.25)))))) continue;
           if (!fits(lv, t.unit, next, t.sv)) { console.error(`  title too long: ${id} L${lv} ${t.unit || ''} group/seed ${t.sv}`); continue; }
           accepted.push(w);
           out.push({ copy: next++, unit: t.unit, seedVariant: t.sv });

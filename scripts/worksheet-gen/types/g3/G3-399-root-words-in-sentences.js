@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G3-399',
   slug: 'root-words-in-sentences',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 one family block; L2 published (2); L3 the two blocks' eight words in ONE mixed strip above both stones (sort, then place)
+  interactive: base.interactiveFor('family-in-sentence'),
+  difficulty: { 1: { ...D, blocks: 1 }, 2: D, 3: { ...D, sharedCourse: true } },
   i18n: { en: { title: "Root Words in Sentences", instruction: "Write the four words above each stone into the sentences below it, one word in each gap." } },
   gradeBand: "G3",
 };

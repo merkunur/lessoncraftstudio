@@ -27,7 +27,7 @@ function rulesOf(svg) {
  * seatOnRow(svg, text, { fill, font }) -> the row svg with the answer seated on it.
  * A text wider than the row (8 px inset each side, estimated at 0.56 em per glyph) is fitted with textLength.
  */
-function seatOnRow(svg, text, { fill = tokens.color.coral, font = 'nunito-700' } = {}) {
+function seatOnRow(svg, text, { fill = tokens.color.coral, font = 'nunito-700', em = 0.56 } = {}) {
   const s = String(svg);
   if (!/data-lcs-prim="writing-row"/.test(s)) throw new Error('key-on-row: not a writing-row svg');
   const m = FONT_METRICS[font];
@@ -35,7 +35,8 @@ function seatOnRow(svg, text, { fill = tokens.color.coral, font = 'nunito-700' }
   const r = rulesOf(s);
   const px = Math.round(((r.base - r.mid) / m.xHeight) * 2) / 2;
   const room = r.w - 16;
-  const fit = [...String(text)].length * px * 0.56 > room ? ` textLength="${room}" lengthAdjust="spacingAndGlyphs"` : '';
+  // em: the per-glyph width estimate (0.56 default; a caller whose words carry wide letters passes more — word-parts 0.64)
+  const fit = [...String(text)].length * px * em > room ? ` textLength="${room}" lengthAdjust="spacingAndGlyphs"` : '';
   const [family, weight] = FAMILY[font];
   const t = `<text x="8" y="${r.base.toFixed(2)}" font-family="${esc(family)}" font-size="${px}" font-weight="${weight}" fill="${fill}" data-lcs-starter="1" data-lcs-keytext="1"${fit}>${esc(text)}</text>`;
   const end = s.lastIndexOf('</svg>');

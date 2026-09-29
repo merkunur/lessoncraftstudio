@@ -42,6 +42,13 @@ async function measureKeyPage(page) {
       if (!b.width || !b.height) return;
       const row = rows.find(({ r }) => b.left < r.box.right && b.right > r.box.left && Math.min(b.bottom, r.base + 2) - Math.max(b.top, r.top - 2) > b.height * 0.5);
       if (!row) return;
+      // the element's OWN text must lie over the row — a sentence that merely CONTAINS an inline gap row (G3-399) has its
+      // words beside the row, not on it (2026-09-29: measured as "over" and failed a correct key)
+      const over = [...el.childNodes].filter((n) => n.nodeType === 3 && n.textContent.trim()).some((n) => {
+        const rg = document.createRange(); rg.selectNodeContents(n);
+        return [...rg.getClientRects()].some((q) => q.left < row.r.box.right - 1 && q.right > row.r.box.left + 1 && q.top < row.r.base && q.bottom > row.r.top);
+      });
+      if (!over) return;
       const probe = document.createElement('span');
       probe.style.cssText = 'display:inline-block;width:0;height:0;vertical-align:baseline';
       el.appendChild(probe);

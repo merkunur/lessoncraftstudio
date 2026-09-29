@@ -13,15 +13,24 @@ const wavesDir = path.join(__dirname, '..', '..', 'waves');
 
 // --title-max=<n> (default 80): must match the wave config's titleMax
 const TITLE_MAX = Number(((process.argv.find((a) => a.startsWith('--title-max=')) || '').split('=')[1]) || 80);
+// --interactive: the Level Set decks of an interactive family must carry the screen bundle, the answer key and
+// manifest.interactive (printable_only stays true — the publish paths are the printable ones)
+const INTER = process.argv.includes('--interactive');
 function check(m, html, entries) {
   const title = (/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '';
   const desc = (/name="description" content="([^"]*)"/.exec(html) || [])[1] || '';
   const probs = [];
   if (m.indexable !== false) probs.push('NOT marked indexable:false');
   if (m.printable_only !== true) probs.push('not printable_only');
-  if (m.interactive) probs.push('manifest interactive');
-  if (entries.includes('answer-key.pdf')) probs.push('carries an answer key');
-  if (/window\.DECK_BUNDLE=/.test(html)) probs.push('carries a screen bundle');
+  if (INTER) {
+    if (!m.interactive) probs.push('manifest not interactive');
+    if (!entries.includes('answer-key.pdf')) probs.push('no answer key');
+    if (!/window\.DECK_BUNDLE=/.test(html)) probs.push('no screen bundle');
+  } else {
+    if (m.interactive) probs.push('manifest interactive');
+    if (entries.includes('answer-key.pdf')) probs.push('carries an answer key');
+    if (/window\.DECK_BUNDLE=/.test(html)) probs.push('carries a screen bundle');
+  }
   if (!entries.includes('printable.pdf')) probs.push('no printable.pdf');
   if (title.length > TITLE_MAX) probs.push('title ' + title.length + ' > ' + TITLE_MAX);
   if (desc.length < 120 || desc.length > 170) probs.push('desc ' + desc.length);
@@ -45,9 +54,15 @@ if (process.argv.includes('--poison')) {
   const cases = [
     ['indexable', { ...m, indexable: true }, html, entries],
     ['printable_only', { ...m, printable_only: false }, html, entries],
-    ['interactive', { ...m, interactive: true }, html, entries],
-    ['answer key', m, html, entries.concat('answer-key.pdf')],
-    ['screen bundle', m, html.replace('</body>', '<script>window.DECK_BUNDLE={}</script></body>'), entries],
+    ...(INTER ? [
+      ['not interactive', { ...m, interactive: undefined }, html, entries],
+      ['no answer key', m, html, entries.filter((e) => e !== 'answer-key.pdf')],
+      ['no screen bundle', m, html.split('window.DECK_BUNDLE=').join('window.XX='), entries],
+    ] : [
+      ['interactive', { ...m, interactive: true }, html, entries],
+      ['answer key', m, html, entries.concat('answer-key.pdf')],
+      ['screen bundle', m, html.replace('</body>', '<script>window.DECK_BUNDLE={}</script></body>'), entries],
+    ]),
     ['no pdf', m, html, entries.filter((e) => e !== 'printable.pdf')],
     ['long title', m, html.replace(/<title>[^<]*<\/title>/, '<title>' + 'x'.repeat(TITLE_MAX + 10) + '</title>'), entries],
     ['short desc', m, html.replace(/name="description" content="[^"]*"/, 'name="description" content="short"'), entries],

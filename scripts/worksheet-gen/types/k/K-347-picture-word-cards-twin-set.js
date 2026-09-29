@@ -4,11 +4,12 @@ const base = require('./K-324-picture-word-cards.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[3], ...{} };
+const D = { ...base.TWIN_D };   // the pinned twin sheet (the base's level 3 is now the reading cards)
 module.exports = {
   ...base,
   id: 'K-347',
   slug: 'picture-word-cards-twin-set',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 4 pairs, big · L3 12 pairs (24 cards) — the audit's only lever for this material; level 2 = the published D
+  difficulty: { 1: { ...D, cards: 4, cols: 2, rows: 4, pic: 120 }, 2: D, 3: { ...D, cards: 12, cols: 4, rows: 6, pic: 84 } },
   i18n: { en: { title: "Picture Cards and Word Cards: Matching Pairs", instruction: "Cut out the sixteen cards. Lay the word cards next to the pictures they name, or turn them all face down and play Memory." } },
 };

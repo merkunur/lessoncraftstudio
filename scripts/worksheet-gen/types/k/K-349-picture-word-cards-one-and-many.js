@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-349',
   slug: 'picture-word-cards-one-and-many',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 2 rows, big pictures · L3 the plural is an empty box to write in; level 2 = the published D
+  difficulty: { 1: { ...D, cards: 2, cols: 2, rows: 2, pic: 96, pad: 16 }, 2: D, 3: { ...D, blankPlural: true } },
   i18n: { en: { title: "One and Many: Singular and Plural Cards", instruction: "Cut out the cards. Say the word for one and the word for many, then match each pair." } },
 };

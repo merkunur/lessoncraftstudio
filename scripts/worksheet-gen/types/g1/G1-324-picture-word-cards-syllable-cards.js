@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-324',
   slug: 'picture-word-cards-syllable-cards',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 2-syllable words only · L3 the split is not printed (the child claps and draws the arcs); level 2 = the published D
+  difficulty: { 1: { ...D, maxCount: 2 }, 2: D, 3: { ...D, mark: 'none' } },
   i18n: { en: { title: "Syllable Cards: Read the Word in Parts", instruction: "Cut out the eight cards. Read each word one syllable at a time, then say the whole word." } },
   gradeBand: "G1",
 };

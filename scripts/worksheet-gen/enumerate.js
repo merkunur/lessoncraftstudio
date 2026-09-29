@@ -168,13 +168,14 @@ function enumerate(plan) {
           if (!c || typeof c !== 'object' || !Number.isInteger(c.copy) || !c.theme) throw new Error('enumerate: ' + spec.id + ' level ' + lv + ': every copy must be {copy, theme} once one is');
           resolve.themeEntry(c.theme);
           if (!TAXONOMY.axes.theme[themeAxisKey(c.theme)]) throw new Error('enumerate: theme "' + c.theme + '" not in taxonomy axes.theme');
-          if (spec.themeAxis.excludeBw && isBwTheme(c.theme)) throw new Error('enumerate: ' + spec.id + ' excludes B&W but copy names ' + c.theme);
+          if (spec.themeAxis.excludeBw && !spec.themeAxis.levelSetBw && isBwTheme(c.theme)) throw new Error('enumerate: ' + spec.id + ' excludes B&W but copy names ' + c.theme);
           for (const locale of plan.locales) {
             const difficulty = Number(lv);
             instances.push({
-              typeId: spec.id, cacheTheme: c.theme, themePinned: true, difficulty, locale, variant: c.copy, unit: null, unitPinned: false,
-              deckId: deckIdFor(plan.id, spec, c.theme, difficulty, locale, c.copy, null),
-              seed: instanceSeed({ typeId: spec.id, theme: c.theme, difficulty, seedEpoch: plan.seedEpoch || 1, variant: c.copy, unit: null }),
+              // a themed copy may pin a unit too (Picture Word Cards 2026-09-29: the bilingual copies rotate the partner language)
+              typeId: spec.id, cacheTheme: c.theme, themePinned: true, difficulty, locale, variant: c.copy, unit: c.unit || null, unitPinned: !!c.unit,
+              deckId: deckIdFor(plan.id, spec, c.theme, difficulty, locale, c.copy, c.unit || null),
+              seed: instanceSeed({ typeId: spec.id, theme: c.theme, difficulty, seedEpoch: plan.seedEpoch || 1, variant: c.copy, unit: c.unit || null }),
             });
           }
         }

@@ -147,8 +147,11 @@ function labelLines(word, { cap = 20, lineCap = 16, maxLines = 2 } = {}) {
   return lines.length <= maxLines ? lines : null;
 }
 
-function wordPlate({ lines, px = 26, lineH, family = tokens.font.display, color = T.ink, dot = null, padX = 10, maxW = null }) {
+function wordPlate({ lines, px = 26, lineH, family = tokens.font.display, color = T.ink, dot = null, padX = 10, maxW = null, blankBefore = 0 }) {
   if (!Array.isArray(lines) || !lines.length) throw new Error('wordPlate: lines[] required');
+  // Level Set 2026-09-29: a write-in box before the word (the harder article card — the child writes the article);
+  // a plain empty box, never text, so nothing has to be seated on it
+  const blank = blankBefore ? `<span data-lcs-blank style="display:inline-block;flex:0 0 auto;width:${blankBefore}px;height:${Math.round(px * 1.15)}px;border:2px dashed ${T.inkSoft};border-radius:6px;background:${T.white}"></span>` : '';
   const lh = lineH || (px + 4);
   let dotSvg = '';
   if (dot) {
@@ -160,14 +163,17 @@ function wordPlate({ lines, px = 26, lineH, family = tokens.font.display, color 
   return `<span class="ws-wordplate" data-lcs-lines="${lines.length}" data-lcs-px="${px}" ` +
     `style="display:inline-flex;align-items:center;gap:6px;background:${T.cream};border-radius:10px;padding:3px ${padX}px;` +
     `font-family:${family},sans-serif;font-weight:700;font-size:${px}px;line-height:${lh}px;color:${color};text-align:center;` +
-    `max-width:${maxW ? maxW + 'px' : '100%'};flex:0 0 auto">${dotSvg}<span style="display:block">${text}</span></span>`;
+    `max-width:${maxW ? maxW + 'px' : '100%'};flex:0 0 auto">${dotSvg}${blank}<span style="display:block">${text}</span></span>`;
 }
 
-/** picture over word (the base card). `lines` = labelLines(word) already resolved. */
-function wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad = 12, innerW, kind = 'word', dot = null, padX = 10, twin = null, extra = '', gap = 6 }) {
-  const inner =
-    `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">` +
-    wordPlate({ lines, px, lineH, dot, padX, maxW: innerW });
+/**
+ * picture over word (the base card). `lines` = labelLines(word) already resolved.
+ * wordFirst (Level Set 2026-09-29, the harder "reading card"): the word on top, the picture a small hint below.
+ */
+function wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad = 12, innerW, kind = 'word', dot = null, padX = 10, twin = null, extra = '', gap = 6, wordFirst = false, blankBefore = 0 }) {
+  const img = `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">`;
+  const plate = wordPlate({ lines, px, lineH, dot, padX, maxW: innerW, blankBefore });
+  const inner = wordFirst ? plate + img : img + plate;
   return cutCard({ inner, kind, vocabKey, word, twin, pad, attrs: extra, gap });
 }
 
@@ -178,9 +184,9 @@ function wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad = 12, innerW
  * JOINED label (chip + ' ' + base, or chip + base when the chip ends with an
  * apostrophe — l'arbre); `lines` = labelLines(word) already resolved.
  */
-function articleCard({ src, vocabKey, chip, base, word, lines, pic, px, lineH, pad = 12, innerW, dot = null, extra = '' }) {
+function articleCard({ src, vocabKey, chip, base, word, lines, pic, px, lineH, pad = 12, innerW, dot = null, extra = '', blankBefore = 0 }) {
   const stamps = `data-lcs-chip="${esc(chip)}" data-lcs-base="${esc(base)}"${extra ? ' ' + extra : ''}`;
-  return wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad, innerW, kind: 'article', dot, extra: stamps });
+  return wordCard({ src, vocabKey, word, lines, pic, px, lineH, pad, innerW, kind: 'article', dot, extra: stamps, blankBefore });
 }
 
 /** The strip legend: the authored literal split at `sep`, a 12 px dot before segment i (= chip i). */
@@ -210,10 +216,14 @@ function cloneRow({ src, vocabKey, n, iconPx, rng, gap = 10 }) {
  * Returns the two cards in grid order. Equal picture sizes — the only
  * difference the child sees is NUMBER.
  */
-function pluralPair({ src, vocabKey, singular, plural, sLines, pLines, sPx, sLineH, pPx, pLineH, pic, clones = 3, pad = 12, innerW, rng, extra = '' }) {
+function pluralPair({ src, vocabKey, singular, plural, sLines, pLines, sPx, sLineH, pPx, pLineH, pic, clones = 3, pad = 12, innerW, rng, extra = '', blankPlural = false }) {
   const img = `<img class="ws-icon" src="${src}" alt="" data-lcs-pic="${esc(vocabKey)}" style="width:${pic}px;height:${pic}px;flex:0 0 auto">`;
   const one = cutCard({ inner: img + wordPlate({ lines: sLines, px: sPx, lineH: sLineH, maxW: innerW }), kind: 'plural', vocabKey, word: singular, pad, attrs: `data-lcs-role="one"${extra ? ' ' + extra : ''}` });
-  const many = cutCard({ inner: cloneRow({ src, vocabKey, n: clones, iconPx: pic, rng }) + wordPlate({ lines: pLines, px: pPx, lineH: pLineH, maxW: innerW }), kind: 'plural', vocabKey, word: plural, pad, attrs: `data-lcs-role="many"${extra ? ' ' + extra : ''}` });
+  // Level Set 2026-09-29 (the harder level): the plural is an empty write-in box — the child writes it
+  const manyLabel = blankPlural
+    ? `<span data-lcs-blank style="display:block;flex:0 0 auto;width:${Math.min(innerW, 200)}px;height:${Math.round(pPx * 1.5)}px;border:2px dashed ${T.inkSoft};border-radius:8px;background:${T.white}"></span>`
+    : wordPlate({ lines: pLines, px: pPx, lineH: pLineH, maxW: innerW });
+  const many = cutCard({ inner: cloneRow({ src, vocabKey, n: clones, iconPx: pic, rng }) + manyLabel, kind: 'plural', vocabKey, word: plural, pad, attrs: `data-lcs-role="many"${extra ? ' ' + extra : ''}` });
   return [one, many];
 }
 
@@ -255,10 +265,14 @@ function syllableCard({ src, vocabKey, word, split, pic, mark = 'arc', cell = 28
     const inner = img + wordPlate({ lines: [label], px, lineH, maxW: innerW });
     return cutCard({ inner, kind: 'syllable', vocabKey, word, pad, attrs: stamps, gap: 6 });
   }
+  // mark 'none' (Level Set 2026-09-29, the harder level): the letter cells with an EMPTY band under them —
+  // the child claps the word and draws the arcs; nothing of the split is printed
+  const arcs = mark === 'none'
+    ? `<div data-lcs-arcs data-lcs-arcmode="blank" data-lcs-arcs-n="0" style="height:${arcH}px;width:${[...word].length * cell}px;box-sizing:border-box;border-bottom:1.5px dotted ${T.inkSoft}"></div>`   // a faint guide: the arcs go here (fr + fi panels: an invisible band tells the child nothing)
+    : syllableArcsForWord({ split, cell, h: arcH, mode: 'printed' });
   const inner = img +
     `<div style="display:flex;flex-direction:column;align-items:center;gap:2px;flex:0 0 auto" data-lcs-syllable-stack>` +
-    syllableWord({ word, cell, fontPx }) +
-    syllableArcsForWord({ split, cell, h: arcH, mode: 'printed' }) +
+    syllableWord({ word, cell, fontPx }) + arcs +
     `</div>`;
   return cutCard({ inner, kind: 'syllable', vocabKey, word, pad, attrs: stamps, gap: 4 });
 }

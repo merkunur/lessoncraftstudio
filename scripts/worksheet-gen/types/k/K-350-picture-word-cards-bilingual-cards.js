@@ -52,7 +52,8 @@ module.exports = {
       return { U: name, L: name, UNIT: unit };
     },
   },
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-29: L1 4 big cards · L3 12 cards; level 2 = the published D
+  difficulty: { 1: { ...D, cards: 4, cols: 2, rows: 2, pad: 16, pic: 180, hostPx: 30, partnerPx: 24, cap: 16, partnerCap: 18 }, 2: D, 3: { ...D, cards: 12, cols: 3, rows: 4, pic: 64, hostPx: 22, partnerPx: 18, cap: 14, partnerCap: 16 } },
   i18n: {
     en: {
       title: 'Bilingual Picture Cards: English and {U}',

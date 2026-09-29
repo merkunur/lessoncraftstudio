@@ -225,10 +225,15 @@ function equalGroups({ op, a, b, iconSrc, iconPx = 22, w = 600, slotH = 44 }) {
 }
 
 /* ---------- word bank (G1-244 d1 / G2-278) ---------- */
-function wordBank({ words, wordPx = 17, withIcons }) {
+function wordBank({ words, wordPx = 17, withIcons, tick = false }) {
+  // tick (Level Set 2026-09-29, G2-300 harder level): an empty square before each word, ticked by the child for each word used
+  // the box sits in the picture row, beside the picture: the word line (the card's width) is unchanged, so the bank
+  // wraps exactly as the page without boxes does
+  const box = tick ? `<span data-lcs-tick style="display:inline-block;flex:none;width:16px;height:16px;border:2px solid ${T.ink};border-radius:4px;background:#fff"></span>` : '';
+  const icon = (wd) => `<img class="ws-icon" src="${wd.src}" alt="" style="width:44px;height:44px">`;
   const items = words.map((wd) =>
     `<span class="ws-bankword" style="font-size:${wordPx}px" data-lcs-bank-word="${esc(wd.word)}"${wd.vocabKey ? ` data-lcs-bank="${esc(wd.vocabKey)}"` : ''}>` +
-    (withIcons && wd.src ? `<img class="ws-icon" src="${wd.src}" alt="" style="width:44px;height:44px">` : '') +
+    (withIcons && wd.src ? (tick ? `<span style="display:inline-flex;align-items:center;gap:4px">${box}${icon(wd)}</span>` : icon(wd)) : box) +
     `<span>${esc(wd.word)}</span></span>`).join('');
   return `<div class="ws-scene-banner ws-bank${withIcons ? ' ws-bank--icons' : ''}" data-lcs-bank-banner>${items}</div>`;
 }

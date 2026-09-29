@@ -11,6 +11,8 @@ const AdmZip = require('adm-zip');
 const root = path.join(__dirname, '..', '..', 'out', 'staging');
 const wavesDir = path.join(__dirname, '..', '..', 'waves');
 
+// --title-max=<n> (default 80): must match the wave config's titleMax
+const TITLE_MAX = Number(((process.argv.find((a) => a.startsWith('--title-max=')) || '').split('=')[1]) || 80);
 function check(m, html, entries) {
   const title = (/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '';
   const desc = (/name="description" content="([^"]*)"/.exec(html) || [])[1] || '';
@@ -21,13 +23,15 @@ function check(m, html, entries) {
   if (entries.includes('answer-key.pdf')) probs.push('carries an answer key');
   if (/window\.DECK_BUNDLE=/.test(html)) probs.push('carries a screen bundle');
   if (!entries.includes('printable.pdf')) probs.push('no printable.pdf');
-  if (title.length > 80) probs.push('title ' + title.length + ' > 80');
+  if (title.length > TITLE_MAX) probs.push('title ' + title.length + ' > ' + TITLE_MAX);
   if (desc.length < 120 || desc.length > 170) probs.push('desc ' + desc.length);
   return { probs, title };
 }
 
-const waves = fs.readdirSync(root).filter((d) => d.startsWith('wave-pwc-')).sort();
-if (!waves.length) { console.log('no wave-pwc-* staging dirs — nothing measured'); process.exit(1); }
+// --prefix=<p> (default pwc): the Level Set wave prefix, e.g. pwp (Picture Writing Prompts)
+const PREFIX = ((process.argv.find((a) => a.startsWith('--prefix=')) || '').split('=')[1]) || 'pwc';
+const waves = fs.readdirSync(root).filter((d) => d.startsWith('wave-' + PREFIX + '-')).sort();
+if (!waves.length) { console.log('no wave-' + PREFIX + '-* staging dirs — nothing measured'); process.exit(1); }
 
 if (process.argv.includes('--poison')) {
   const dir = path.join(root, waves[0]);
@@ -45,7 +49,7 @@ if (process.argv.includes('--poison')) {
     ['answer key', m, html, entries.concat('answer-key.pdf')],
     ['screen bundle', m, html.replace('</body>', '<script>window.DECK_BUNDLE={}</script></body>'), entries],
     ['no pdf', m, html, entries.filter((e) => e !== 'printable.pdf')],
-    ['long title', m, html.replace(/<title>[^<]*<\/title>/, '<title>' + 'x'.repeat(90) + '</title>'), entries],
+    ['long title', m, html.replace(/<title>[^<]*<\/title>/, '<title>' + 'x'.repeat(TITLE_MAX + 10) + '</title>'), entries],
     ['short desc', m, html.replace(/name="description" content="[^"]*"/, 'name="description" content="short"'), entries],
   ];
   let miss = 0;

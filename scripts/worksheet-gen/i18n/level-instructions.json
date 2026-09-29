@@ -613,5 +613,48 @@
    "no": "Klipp ut kortene. Si ordet på norsk og så på engelsk, og ta vare på kortene til ordveggen din.",
    "fi": "Leikkaa kortit irti. Sano sana ensin suomeksi ja sitten englanniksi ja säilytä kortit sanaseinää varten."
   }
+ },
+ "G2-278": {
+  "3": {
+   "en": "Look at the picture. Use the word bank to help you write about what you see.",
+   "de": "Schau dir das Bild genau an. Schreibe mit Hilfe des Wortkastens auf, was du siehst und was passiert.",
+   "es": "Mira la imagen. Ayúdate del banco de palabras para escribir lo que ves.",
+   "fr": "Observe l'image. Aide-toi de la boîte à mots pour écrire ce que tu vois ou une petite histoire.",
+   "it": "Guarda l'immagine. Aiutati con le parole della scatola per scrivere quello che vedi o una piccola storia.",
+   "pt": "Observe a imagem. Use o banco de palavras para ajudar a escrever sobre o que você vê.",
+   "nl": "Kijk goed naar het plaatje. Gebruik de woorden uit het woordvak en schrijf op wat je ziet en wat er gebeurt.",
+   "sv": "Titta noga på bilden. Ta hjälp av ordbanken och skriv vad du ser och vad som händer.",
+   "da": "Se godt på billedet. Brug ordbanken, og skriv, hvad du ser, og hvad der sker.",
+   "no": "Se nøye på bildet. Bruk ordbanken, og skriv hva du ser og hva som skjer.",
+   "fi": "Katso kuvaa. Kirjoita, mitä kuvassa näkyy ja tapahtuu. Käytä sanapankin sanoja apuna."
+  }
+ },
+ "G2-300": {
+  "1": {
+   "en": "The first sentence is started for you. Finish it, then use the word bank to write your own story.",
+   "de": "Der erste Satzanfang steht schon da. Schreibe mit Hilfe des Wortkastens deine eigene Geschichte.",
+   "es": "La primera frase ya está empezada. Usa el banco de palabras y escribe tu propio cuento.",
+   "fr": "La première phrase est déjà commencée. Aide-toi de la boîte à mots pour écrire ta petite histoire.",
+   "it": "La prima frase è già iniziata. Aiutati con le parole della scatola e racconta la tua storia.",
+   "pt": "O começo da primeira frase já está pronto. Use o banco de palavras e escreva sua historinha.",
+   "nl": "De eerste startzin staat er al. Gebruik het woordvak en schrijf zelf een verhaal.",
+   "sv": "Första meningen är redan påbörjad. Ta hjälp av ordbanken och skriv en egen text om bilden.",
+   "da": "Den første sætning er startet for dig. Brug ordbanken, og skriv din egen historie.",
+   "no": "Den første setningen er påbegynt for deg. Bruk ordbanken og skriv videre selv.",
+   "fi": "Ensimmäinen lause on jo aloitettu. Jatka tarinaa omin sanoin ja käytä sanapankin sanoja apuna."
+  },
+  "3": {
+   "en": "Write your own story using at least three words from the word bank. Check the box by each word you use.",
+   "de": "Schreibe deine eigene Geschichte. Benutze mindestens drei Wörter aus dem Wortkasten und hake jedes Wort ab, das du benutzt.",
+   "es": "Escribe tu propio cuento. Usa por lo menos tres palabras del banco y palomea cada palabra que uses.",
+   "fr": "Écris ta petite histoire avec au moins trois mots de la boîte à mots. Coche chaque mot que tu utilises.",
+   "it": "Racconta la tua storia con almeno tre parole della scatola. Segna con una crocetta ogni parola che usi.",
+   "pt": "Escreva sua historinha. Use pelo menos três palavras do banco e marque o quadradinho de cada palavra que usar.",
+   "nl": "Schrijf zelf een verhaal. Gebruik minstens drie woorden uit het woordvak en zet een vinkje bij elk woord dat je gebruikt.",
+   "sv": "Skriv en egen text om bilden. Använd minst tre ord från ordbanken och kryssa i rutan vid varje ord du använder.",
+   "da": "Skriv din egen historie. Brug mindst tre ord fra ordbanken, og sæt kryds ved hvert ord, du bruger.",
+   "no": "Skriv med egne ord. Bruk minst tre ord fra ordbanken, og sett kryss ved hvert ord du bruker.",
+   "fi": "Kirjoita kuvasta omin sanoin. Käytä vähintään kolmea sanapankin sanaa ja rastita jokainen käyttämäsi sana."
+  }
  }
 }

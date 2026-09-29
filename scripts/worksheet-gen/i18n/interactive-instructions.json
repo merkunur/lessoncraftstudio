@@ -541,5 +541,72 @@
    "no": "Trykk på ordet som passer i setningen.",
    "fi": "Napauta sanaa, joka sopii lauseen aukkoon."
   }
+ },
+ "question-words": {
+  "base": {
+   "en": "Tap the question word that asks for the highlighted words.",
+   "de": "Tippe auf das Fragewort, das nach den markierten Wörtern fragt.",
+   "es": "Toca la palabra que pregunta por las palabras marcadas.",
+   "fr": "Touche le mot interrogatif qui correspond aux mots en couleur.",
+   "it": "Tocca la parola che serve per chiedere le parole evidenziate.",
+   "pt": "Toque na palavra que faz a pergunta sobre as palavras marcadas.",
+   "nl": "Tik op het vraagwoord dat naar de gemarkeerde woorden vraagt.",
+   "sv": "Tryck på frågeordet som frågar efter de markerade orden.",
+   "da": "Tryk på det hv-ord, der spørger efter de markerede ord.",
+   "no": "Trykk på spørreordet som spør etter de uthevede ordene.",
+   "fi": "Napauta kysymyssanaa, joka kysyy korostettuja sanoja."
+  },
+  "match": {
+   "en": "Read the question. Tap the answer that fits it.",
+   "de": "Lies die Frage. Tippe auf die Antwort, die dazu passt.",
+   "es": "Lee la pregunta. Toca la respuesta que le corresponde.",
+   "fr": "Lis la question. Touche la réponse qui lui correspond.",
+   "it": "Leggi la domanda. Tocca la risposta giusta.",
+   "pt": "Leia a pergunta. Toque na resposta certa.",
+   "nl": "Lees de vraag. Tik op het antwoord dat erbij past.",
+   "sv": "Läs frågan. Tryck på svaret som passar.",
+   "da": "Læs spørgsmålet. Tryk på det svar, der passer.",
+   "no": "Les spørsmålet. Trykk på svaret som passer.",
+   "fi": "Lue kysymys. Napauta vastausta, joka sopii siihen."
+  },
+  "fill": {
+   "en": "Read the answer. Tap the question word that belongs in the box.",
+   "de": "Lies die Antwort. Tippe auf das Fragewort, das in das Kästchen gehört.",
+   "es": "Toca la palabra que va en la casilla.",
+   "fr": "Touche le mot interrogatif qui va dans la case.",
+   "it": "Tocca la parola che va nella casella.",
+   "pt": "Toque na palavra que vai na caixa.",
+   "nl": "Lees het antwoord. Tik op het vraagwoord dat in het hokje hoort.",
+   "sv": "Tryck på frågeordet som ska stå i rutan.",
+   "da": "Tryk på det hv-ord, der skal stå i feltet.",
+   "no": "Trykk på spørreordet som skal stå i ruta.",
+   "fi": "Napauta kysymyssanaa, joka kuuluu ruutuun."
+  },
+  "sort": {
+   "en": "Read the card. Tap the question it answers.",
+   "de": "Lies die Wortkarte. Tippe auf die Frage, auf die sie antwortet.",
+   "es": "Lee la tarjeta. Toca la pregunta a la que responde.",
+   "fr": "Lis l’étiquette. Touche la question à laquelle elle répond.",
+   "it": "Leggi il cartellino. Tocca la domanda a cui risponde.",
+   "pt": "Leia o cartão. Toque na pergunta a que ele responde.",
+   "nl": "Lees het kaartje. Tik op de vraag die het beantwoordt.",
+   "sv": "Läs ordkortet. Tryck på frågan som det svarar på.",
+   "da": "Læs ordkortet. Tryk på det spørgsmål, det svarer på.",
+   "no": "Les ordbrikken. Trykk på spørsmålet den svarer på.",
+   "fi": "Lue vastaus. Napauta kysymystä, johon se vastaa."
+  },
+  "write": {
+   "en": "Tap the question that asks for the highlighted words.",
+   "de": "Tippe auf die Frage, die nach den markierten Wörtern fragt.",
+   "es": "Toca la pregunta que se responde con las palabras marcadas.",
+   "fr": "Touche la question dont la réponse est en couleur.",
+   "it": "Tocca la domanda che chiede le parole evidenziate.",
+   "pt": "Toque na pergunta sobre as palavras marcadas.",
+   "nl": "Tik op de vraag die naar de gemarkeerde woorden vraagt.",
+   "sv": "Tryck på frågan som frågar efter de markerade orden.",
+   "da": "Tryk på det spørgsmål, der spørger efter de markerede ord.",
+   "no": "Trykk på spørsmålet som spør etter de uthevede ordene.",
+   "fi": "Napauta kysymystä, joka kysyy korostettuja sanoja."
+  }
  }
 }

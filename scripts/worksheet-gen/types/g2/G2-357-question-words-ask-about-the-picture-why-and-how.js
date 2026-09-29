@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-357',
   slug: 'question-words-ask-about-the-picture-why-and-how',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: undefined,   // Level Set 2026-09-29: printable only (open questions about a picture have no single answer)
+  // Level Set 2026-09-29: L1 four starters (who / what / where / when) on bigger lines · L3 no starters: the six words in a bank, the child picks each opening; L2 = the published page
+  difficulty: { 1: { ...D, starters: ['who', 'what', 'where', 'when'], rows: 4, h: 108, glyphH: 40, gap: 8, scene: { tile: 130, clock: 130 } }, 2: D, 3: { ...D, bank: true, starters: [], rows: 6, h: 60, glyphH: 26, gap: 8, scene: { tile: 120, clock: 120 } } },
   i18n: { en: { title: "Ask About the Picture: Why and How", instruction: "Look at the picture. Finish each question. Start with the word already on the line." } },
   gradeBand: "G2",
 };

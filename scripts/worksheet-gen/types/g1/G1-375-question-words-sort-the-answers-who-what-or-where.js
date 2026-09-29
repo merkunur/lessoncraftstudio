@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-375',
   slug: 'question-words-sort-the-answers-who-what-or-where',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('sort'),
+  // Level Set 2026-09-29: L1 six tiles (two per bin) · L3 twelve tiles and a fourth bin, When? (clock times), the bins two by two; L2 = the published page
+  difficulty: { 1: { ...D, tiles: 6, perBin: 2, shelfMin: true }, 2: D, 3: { ...D, tiles: 12, bins: ['who', 'what', 'where', 'when'], perBin: 3, grid2: true, shelfRows: 3, tileGuard: 180, lineMin: 4, binW: null } },
   i18n: { en: { title: "Sort the Answers: Who, What or Where", instruction: "Read each word tile. Write it in the bin under the question it answers: Who, What or Where." } },
 };

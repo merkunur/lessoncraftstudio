@@ -6,6 +6,17 @@
 
 ---
 
+## 🛑🛑🛑 [AMENDMENT 2026-09-29 — STANDING, TOP PRIORITY] Pedagogical mistakes are fixed at once — NEVER ask
+
+Operator ruling, verbatim: *"It is absolutely unacceptable to have any educational content on the website with a mistake. Never ask again. As soon as you notice any pedagogical mistake in any of the content it should become your top priority to correct it. This is a standing rule."*
+
+- Any pedagogical mistake noticed in ANY content — worksheets, decks, answer keys, activities, tools, landings, instructions, word banks, pictures — is the **top priority the moment it is noticed**: fix it and **republish the live pages in place**. Never ask whether to fix it, never offer the fix, never leave it "pending an operator decision".
+- A fix applied to new pages only is not a fix — the published pages carrying the same mistake are fixed in the same piece of work (`publish-wave --updates-manifest`; re-run `repoint-deck-canonical.js` for landing-backed decks).
+- For content corrections this **overrides the §10.3 ask-first list** (incl. `REFERENCE TRANSLATIONS/image-vocabulary.js` wording fixes and republishing published pages). It does not authorise non-content risks (dropping tables, credentials, dependencies).
+- A content defect recorded anywhere (memory, audit, panel notes) as "surfaced, not fixed" is an open top-priority task. Memory: `feedback_fix_pedagogical_mistakes_immediately.md`.
+
+---
+
 ## [AMENDMENT 2026-06-19 — ❌ CANCELLED, superseded; DO NOT START] Premium games program
 
 > **⚠ SUPERSEDED AGAIN 2026-09-05 — the games program is RE-OPENED as a build-by-Claude program (§24).** The operator ruled "No decision is absolute": 200 K-3 games were DESIGNED (`games/design/`, 200 specs) and are now BUILT one per trigger by Claude Code. The cancellation below and the §20.9 "let's start building the games" trigger remain dead history; **the live trigger is "build the next game" → §24 (`games/BUILD-WORKFLOW.md`)**. The old premium `game-shell.js` / `game-designs/` scaffold is NOT the basis — `games/` is.

@@ -12,6 +12,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { strokeLane } = require('../../primitives/trace-path.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { distinctPictures } = require('../../lib/distinct-pictures.js');
 
 const SETS = {
   1: ['line', 'zigzag', 'bumps', 'wave'],
@@ -44,7 +45,8 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const strokes = d.strokes || SETS[difficulty]; // nt20-VAR: variation specs pin their own stroke set
-    const nouns = labelSafeNouns(theme);
+    // new pages (a `fade` level) never show one picture twice under two names; the published levels keep their pool
+    const nouns = d.fade ? distinctPictures(theme, labelSafeNouns(theme)) : labelSafeNouns(theme);
     if (nouns.length < this.themeAxis.minNouns) {
       throw new Error(`K-236: theme ${theme} has ${nouns.length} nouns < min`);
     }

@@ -10,6 +10,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { strokeLane } = require('../../primitives/trace-path.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const { distinctPictures } = require('../../lib/distinct-pictures.js');
 
 const POOLS = {
   1: ['line', 'wave', 'bumps', 'cups'],
@@ -39,7 +40,7 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = labelSafeNouns(theme);
+    const nouns = distinctPictures(theme, labelSafeNouns(theme));   // two names for one picture never both on a page
     if (nouns.length < d.lanes * 2) throw new Error(`K-387: theme ${theme} has ${nouns.length} nouns < ${d.lanes * 2}`);
     const strokes = rng.sample(POOLS[difficulty], d.lanes);
     const picks = rng.sample(nouns, d.lanes * 2);

@@ -2581,7 +2581,7 @@
   },
   "G1-373": {
     "title": "Ligue cada pergunta à sua resposta",
-    "instruction": "Leia cada pergunta da esquerda. Ligue com um traço até a resposta certa da direita."
+    "instruction": "Leia cada pergunta à esquerda. Ligue cada uma à resposta certa, à direita."
   },
   "G1-374": {
     "title": "Complete a pergunta com quem, o que, onde, quando ou quantos",

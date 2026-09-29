@@ -23,6 +23,7 @@
   "sortThingForm": "unique",
   "genderFilter": {},
   "excludeThings": [],
+  "avoidThings": ["bear", "nectarine"],
   "chipWidths": {
     "Wie": 61.2,
     "Wat": 63.5,
@@ -420,5 +421,14 @@
       "instruction": "Kijk naar de plaat. Maak elke vraag af. Begin met het woord dat al op de lijn staat.",
       "pictureWord": "plaat"
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

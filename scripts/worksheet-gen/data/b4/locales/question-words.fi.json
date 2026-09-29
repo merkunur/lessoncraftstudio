@@ -37,6 +37,7 @@
     "excavator",
     "jet"
   ],
+  "avoidThings": ["bear", "nectarine", "forklift"],
   "chipWidths": {
     "Kuka": 72.9,
     "Mitä": 67.8,
@@ -430,8 +431,8 @@
   },
   "strings": {
     "base": {
-      "title": "Kysymyssanat: kuka, mikä, missä",
-      "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, joka kysyy niitä."
+      "title": "Kysymyssanat: kuka, mitä, missä",
+      "instruction": "Lue lause. Katso korostettuja sanoja. Ympyröi kysymyssana, jolla niitä kysytään."
     },
     "match": {
       "title": "Kysymys ja vastaus",
@@ -449,12 +450,21 @@
     },
     "write": {
       "title": "Tee kysymys",
-      "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, joka kysyy niitä."
+      "instruction": "Lue vastaus. Katso korostettuja sanoja. Kirjoita viivalle kysymys, jolla niitä kysytään."
     },
     "ask": {
       "title": "Kysymyksiä kuvasta: miksi ja miten",
       "pictureWord": "kuvaa",
       "instruction": "Katso kuvaa. Täydennä jokainen kysymys. Aloita sillä sanalla, joka on jo viivalla."
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

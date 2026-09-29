@@ -98,9 +98,15 @@ const QUESTION_WORDS = {
     starters: ['Who', 'What', 'Where', 'When', 'Why', 'How'],
     bins: { who: 'Who?', what: 'What?', where: 'Where?' },
     qPrefix: '',
-    sortThingForm: 'bare',
+    // 2026-09-29 (native panel audit): 'the yacht', not a bare "yacht" — the tile answers "What?" as a child says it
+    sortThingForm: 'unique',
     genderFilter: {},
     excludeThings: [],
+    // 2026-09-29: the zoo "bear" art is a TEDDY BEAR — a child names it "teddy", not "the bear" (all locales). Skipped
+    // at SELECTION (never removed from the pool, whose shuffle order every published page depends on)
+    avoidThings: ['bear', 'nectarine'],   // 2026-09-29: the nectarine art reads as an apple / a peach
+    // 2026-09-29: places a frame's verb cannot take — nobody reads in the pool or the garage, or plays in bed
+    placeBan: { 'read-place': ['pool', 'garage'], 'play-place': ['bed'] },
     // MEASURED 2026-09-21 (the gate's chip sheet through render/one, the shell woff2 from file://): the rendered width of
     // each chip at Baloo 2 700 20 / height 44 / padding 0 12 — the strip guard reads these before the estimate (the
     // gate asserts every entry within 3 px of the render; the panels author theirs from a render the same way)

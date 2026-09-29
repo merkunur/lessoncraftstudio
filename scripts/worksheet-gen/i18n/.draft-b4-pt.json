@@ -124,7 +124,7 @@
     "G2-355": { "title": "Reescreva a frase com um pronome", "instruction": "Leia a frase. Escreva-a de novo nas linhas, mas use um pronome no lugar do nome." },
 
     "G1-353": { "title": "Quem, o que, onde: palavras para perguntar", "instruction": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas." },
-    "G1-373": { "title": "Ligue cada pergunta à sua resposta", "instruction": "Leia cada pergunta da esquerda. Ligue com um traço até a resposta certa da direita." },
+    "G1-373": { "title": "Ligue cada pergunta à sua resposta", "instruction": "Leia cada pergunta à esquerda. Ligue cada uma à resposta certa, à direita." },
     "G1-374": { "title": "Complete a pergunta com quem, o que, onde, quando ou quantos", "instruction": "Leia a resposta e ache as palavras marcadas. Escreva na caixa a palavra do quadro que faz a pergunta." },
     "G1-375": { "title": "Separe as respostas: quem, o que ou onde", "instruction": "Leia cada cartão. Escreva-o na coluna da pergunta a que ele responde." },
     "G2-356": { "title": "Escreva a pergunta", "instruction": "Leia a resposta. Olhe as palavras marcadas. Escreva na linha a pergunta sobre elas." },
@@ -489,11 +489,13 @@
     "question-words": {
       "qwords": { "who": "Quem", "what": "O que", "where": "Onde", "when": "Quando", "howmany": "Quantos" },
       "starters": ["Quem", "O que", "Onde", "Quando", "Por que", "Como"],
-      "bins": { "who": "Quem?", "what": "O que?", "where": "Onde?" },
+      "bins": { "who": "Quem?", "what": "O quê?", "where": "Onde?" },
       "qPrefix": "",
-      "sortThingForm": "bare",
+      "sortThingForm": "unique",
       "genderFilter": { "count": "m" },
       "excludeThings": ["bulldozer", "cranberry", "lime", "doll"],
+      "avoidThings": ["bear", "nectarine"],
+      "placeBan": { "read-place": ["pool", "garage"], "play-place": ["bed"] },
       "chipWidths": { "Quem": 81.1, "O que": 79.9, "Onde": 75.9, "Quando": 98.8, "Quantos": 104.5 },
       "frames": [
         { "id": "see-thing", "kind": "thing", "text": "{name} vê {thing}.", "q": { "who": "Quem vê {thing}?", "what": "O que {name} vê?" }, "signed": true },
@@ -547,7 +549,7 @@
       },
       "strings": {
         "base": { "title": "Quem, o que, onde: palavras para perguntar", "instruction": "Leia a frase. Olhe as palavras marcadas. Circule a palavra que faz a pergunta sobre elas." },
-        "match": { "title": "Ligue cada pergunta à sua resposta", "instruction": "Leia cada pergunta da esquerda. Ligue com um traço até a resposta certa da direita." },
+        "match": { "title": "Ligue cada pergunta à sua resposta", "instruction": "Leia cada pergunta à esquerda. Ligue cada uma à resposta certa, à direita." },
         "fill": { "title": "Complete a pergunta com quem, o que, onde, quando ou quantos", "instruction": "Leia a resposta e ache as palavras marcadas. Escreva na caixa a palavra do quadro que faz a pergunta.", "bankWord": "quadro", "boxWord": "caixa" },
         "sort": { "title": "Separe as respostas: quem, o que ou onde", "instruction": "Leia cada cartão. Escreva-o na coluna da pergunta a que ele responde." },
         "write": { "title": "Escreva a pergunta", "instruction": "Leia a resposta. Olhe as palavras marcadas. Escreva na linha a pergunta sobre elas." },

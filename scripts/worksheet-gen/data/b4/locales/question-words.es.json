@@ -7,12 +7,12 @@
     "howmany": "Cuántos"
   },
   "starters": [
-    "Quién",
-    "Qué",
-    "Dónde",
-    "Cuándo",
-    "Por qué",
-    "Cómo"
+    "¿Quién",
+    "¿Qué",
+    "¿Dónde",
+    "¿Cuándo",
+    "¿Por qué",
+    "¿Cómo"
   ],
   "bins": {
     "who": "¿Quién?",
@@ -20,13 +20,14 @@
     "where": "¿Dónde?"
   },
   "qPrefix": "¿",
-  "sortThingForm": "bare",
+  "sortThingForm": "unique",
   "genderFilter": {
     "count": "m"
   },
   "excludeThings": [
     "doll"
   ],
+  "avoidThings": ["bear", "nectarine"],
   "frames": [
     {
       "id": "see-thing",
@@ -392,7 +393,7 @@
   "strings": {
     "base": {
       "title": "Preguntas con quién, qué y dónde",
-      "instruction": "Lee la oración. Fíjate en las palabras marcadas. Rodea el pronombre interrogativo que pregunta por ellas."
+      "instruction": "Lee la oración. Fíjate en las palabras marcadas. Encierra la palabra interrogativa con la que se pregunta por ellas."
     },
     "match": {
       "title": "Une cada pregunta con su respuesta",
@@ -400,7 +401,7 @@
     },
     "fill": {
       "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro que pregunta por ellas.",
+      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas.",
       "bankWord": "recuadro",
       "boxWord": "casilla"
     },
@@ -410,12 +411,21 @@
     },
     "write": {
       "title": "Escribe la pregunta",
-      "instruction": "Lee la respuesta. Fíjate en las palabras marcadas. Escribe en la línea la pregunta que pregunta por ellas."
+      "instruction": "Lee la respuesta. Fíjate en las palabras marcadas. Escribe en la línea una pregunta que tenga como respuesta esas palabras."
     },
     "ask": {
       "title": "Preguntas sobre el dibujo: por qué y cómo",
-      "instruction": "Mira el dibujo. Termina cada pregunta desde la palabra que ya está en la línea y ciérrala con el signo de interrogación.",
+      "instruction": "Mira el dibujo. Termina cada pregunta a partir de la palabra que ya está en la línea y ciérrala con el signo de interrogación.",
       "pictureWord": "dibujo"
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

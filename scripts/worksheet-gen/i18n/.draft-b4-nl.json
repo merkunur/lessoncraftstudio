@@ -473,6 +473,8 @@
       "sortThingForm": "unique",
       "genderFilter": {},
       "excludeThings": [],
+      "avoidThings": ["bear", "nectarine"],
+      "placeBan": { "read-place": ["pool", "garage"], "play-place": ["bed"] },
       "chipWidths": { "Wie": 61.2, "Wat": 63.5, "Waar": 74.4, "Wanneer": 108.4, "Hoeveel": 101.4 },
       "frames": [
         { "id": "see-thing", "kind": "thing", "text": "{name} ziet {thing}.", "q": { "who": "Wie ziet {thing}?", "what": "Wat ziet {name}?" }, "signed": true },

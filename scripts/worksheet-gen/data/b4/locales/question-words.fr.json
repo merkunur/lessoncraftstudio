@@ -16,7 +16,7 @@
   ],
   "bins": {
     "who": "Qui ?",
-    "what": "Que ?",
+    "what": "Quoi ?",
     "where": "Où ?"
   },
   "binAliases": {
@@ -26,32 +26,10 @@
   },
   "qPrefix": "",
   "nbsp": true,
-  "sortThingForm": "bare",
+  "sortThingForm": "unique", "sortWhatObjects": true,
   "genderFilter": {},
-  "excludeThings": [
-    "airplane",
-    "ambulance",
-    "antelope",
-    "apricot",
-    "avocado",
-    "bear",
-    "bee",
-    "donkey",
-    "elephant",
-    "excavator",
-    "goose",
-    "helicopter",
-    "hippopotamus",
-    "hyena",
-    "iguana",
-    "lamb",
-    "orange",
-    "orangutan",
-    "pineapple",
-    "plum",
-    "scooter",
-    "cranberry"
-  ],
+  "excludeThings": ["airplane", "ambulance", "antelope", "apricot", "avocado", "bear", "bee", "donkey", "elephant", "excavator", "goose", "helicopter", "hippopotamus", "hyena", "iguana", "lamb", "orange", "orangutan", "pineapple", "plum", "scooter", "cranberry"],
+  "avoidThings": ["nectarine", "woodpecker", "ship"],
   "frames": [
     {
       "id": "see-thing",
@@ -417,7 +395,7 @@
   "strings": {
     "base": {
       "title": "Les mots interrogatifs : qui, que, où",
-      "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui les demande."
+      "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui correspond à ces mots."
     },
     "match": {
       "title": "Relie chaque question à sa réponse",
@@ -425,22 +403,31 @@
     },
     "fill": {
       "title": "Complète la question avec le bon mot interrogatif",
-      "instruction": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui les demande.",
+      "instruction": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui correspond à ces mots.",
       "bankWord": "liste",
       "boxWord": "case"
     },
     "sort": {
-      "title": "Classe les réponses : qui, que ou où",
+      "title": "Classe les réponses : qui, quoi ou où",
       "instruction": "Lis chaque étiquette. Écris-la dans la boîte de la question à laquelle elle répond."
     },
     "write": {
       "title": "Écris la question",
-      "instruction": "Lis la réponse. Regarde les mots en couleur. Écris sur la ligne la question qui les demande."
+      "instruction": "Lis la réponse. Regarde les mots en couleur. Écris sur la ligne la question qui a pour réponse ces mots."
     },
     "ask": {
       "title": "Pose des questions sur l'image : pourquoi et comment",
       "instruction": "Regarde l'image. Termine chaque question en partant du mot déjà écrit sur la ligne.",
       "pictureWord": "image"
     }
+  },
+  "placeBan": {
+    "read-place": [
+      "pool",
+      "garage"
+    ],
+    "play-place": [
+      "bed"
+    ]
   }
 }

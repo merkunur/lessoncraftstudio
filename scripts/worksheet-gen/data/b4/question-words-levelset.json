@@ -1,63 +1,9 @@
 {
- "_note": "Level Set 2026-09-29 (Question Words): the native panels' corrections, read ONLY by the new pages (types/g1/G1-353 levelSetBank); the published pages read data/b4/question-words.js unchanged.",
+ "_note": "Level Set 2026-09-29 (Question Words): read ONLY by the new pages. Every native-panel correction now lives in the PUBLISHED bank; the published pages SKIP the avoided pictures at selection (avoidThings, so their deals stay put), while the new pages were generated with them out of the pool - kept here so the 990 Level Set pages stay exactly as generated.",
  "all": {
   "excludeThings": [
    "bear"
-  ],
-  "placeBan": {
-   "read-place": [
-    "pool",
-    "garage"
-   ],
-   "play-place": [
-    "bed"
-   ]
-  }
- },
- "en": {
-  "sortThingForm": "unique"
- },
- "de": {
-  "sortThingForm": "unique"
- },
- "da": {
-  "sortThingForm": "unique"
- },
- "no": {
-  "sortThingForm": "unique",
-  "frames": {
-   "like-thing": {
-    "text": "{name} liker {thing}.",
-    "q": {
-     "who": "Hvem liker {thing}?",
-     "what": "Hva liker {name}?"
-    }
-   }
-  }
- },
- "es": {
-  "starters": [
-   "¿Quién",
-   "¿Qué",
-   "¿Dónde",
-   "¿Cuándo",
-   "¿Por qué",
-   "¿Cómo"
   ]
- },
- "fr": {
-  "bins": {
-   "who": "Qui ?",
-   "what": "Quoi ?",
-   "where": "Où ?"
-  }
- },
- "pt": {
-  "bins": {
-   "who": "Quem?",
-   "what": "O quê?",
-   "where": "Onde?"
-  }
  },
  "it": {
   "excludeThings": [

@@ -2409,7 +2409,7 @@
   },
   "G1-353": {
     "title": "Les mots interrogatifs : qui, que, où",
-    "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui les demande."
+    "instruction": "Lis la phrase. Regarde les mots en couleur. Entoure le mot interrogatif qui correspond à ces mots."
   },
   "G2-346": {
     "title": "Arrondir à la dizaine",
@@ -2581,15 +2581,15 @@
   },
   "G1-374": {
     "title": "Complète la question avec le bon mot interrogatif",
-    "instruction": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui les demande."
+    "instruction": "Lis la réponse et repère les mots en couleur. Écris dans la case le mot de la liste qui correspond à ces mots."
   },
   "G1-375": {
-    "title": "Classe les réponses : qui, que ou où",
+    "title": "Classe les réponses : qui, quoi ou où",
     "instruction": "Lis chaque étiquette. Écris-la dans la boîte de la question à laquelle elle répond."
   },
   "G2-356": {
     "title": "Écris la question",
-    "instruction": "Lis la réponse. Regarde les mots en couleur. Écris sur la ligne la question qui les demande."
+    "instruction": "Lis la réponse. Regarde les mots en couleur. Écris sur la ligne la question qui a pour réponse ces mots."
   },
   "G2-357": {
     "title": "Pose des questions sur l'image : pourquoi et comment",

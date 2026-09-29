@@ -141,6 +141,97 @@ function eight({ w, cy, amp, n }) {
   return { d, startAngle: -50 };
 }
 
+/* Level Set 2026-09-29 (K-385 / K-386): rows of SHORT SEPARATE strokes and small closed shapes — the
+ * pre-writing marks the horizontal library lacks (| + / \ X, circle, square, triangle, diamond), in
+ * developmental order. One subpath per mark (a pencil lift between marks); every mark starts at its TOP
+ * and the start arrow points the way the first mark is drawn. `n` sets the marks per repetition. */
+function marks(w, n) {
+  const k = n >= 4 ? 3 : 2;
+  const cellW = w / k;
+  return { k, cellW, cx: (i) => (i + 0.5) * cellW };
+}
+function rain({ w, cy, amp, n }) {
+  const { k, cx } = marks(w, n);
+  let d = '';
+  for (let i = 0; i < k; i++) d += `${d ? ' ' : ''}M ${cx(i).toFixed(1)} ${cy - amp} L ${cx(i).toFixed(1)} ${cy + amp}`;
+  return { d, startAngle: 90 };
+}
+function plus({ w, cy, amp, n }) {
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp, cellW * 0.36);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x = cx(i);
+    d += `${d ? ' ' : ''}M ${x.toFixed(1)} ${cy - amp} L ${x.toFixed(1)} ${cy + amp} M ${(x - s).toFixed(1)} ${cy} L ${(x + s).toFixed(1)} ${cy}`;
+  }
+  // the SECOND stroke's start (the across line, from the left) — marked too, so the child knows where it begins
+  return { d, startAngle: 90, second: { x: cx(0) - s, y: cy, angle: 0 } };
+}
+function slash({ w, cy, amp, n }) {   // "/" drawn from the top down: top-right to bottom-left
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp * 0.7, cellW * 0.3);
+  let d = '';
+  for (let i = 0; i < k; i++) d += `${d ? ' ' : ''}M ${(cx(i) + s).toFixed(1)} ${cy - amp} L ${(cx(i) - s).toFixed(1)} ${cy + amp}`;
+  return { d, startAngle: Math.atan2(2 * amp, -2 * s) * 180 / Math.PI };
+}
+function backslash({ w, cy, amp, n }) {   // "\" drawn from the top down: top-left to bottom-right
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp * 0.7, cellW * 0.3);
+  let d = '';
+  for (let i = 0; i < k; i++) d += `${d ? ' ' : ''}M ${(cx(i) - s).toFixed(1)} ${cy - amp} L ${(cx(i) + s).toFixed(1)} ${cy + amp}`;
+  return { d, startAngle: Math.atan2(2 * amp, 2 * s) * 180 / Math.PI };
+}
+function cross({ w, cy, amp, n }) {   // "X": the "\" first, then the "/", both from the top
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp * 0.8, cellW * 0.34);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x = cx(i);
+    d += `${d ? ' ' : ''}M ${(x - s).toFixed(1)} ${cy - amp} L ${(x + s).toFixed(1)} ${cy + amp} M ${(x + s).toFixed(1)} ${cy - amp} L ${(x - s).toFixed(1)} ${cy + amp}`;
+  }
+  return { d, startAngle: Math.atan2(2 * amp, 2 * s) * 180 / Math.PI, second: { x: cx(0) + s, y: cy - amp, angle: Math.atan2(2 * amp, -2 * s) * 180 / Math.PI } };
+}
+function circles({ w, cy, amp, n }) {   // start at the top and go round to the left (anticlockwise), as schools teach
+  const { k, cellW, cx } = marks(w, n);
+  const r = Math.min(amp, cellW * 0.4);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x = cx(i).toFixed(1);
+    d += `${d ? ' ' : ''}M ${x} ${(cy - r).toFixed(1)} A ${r.toFixed(1)} ${r.toFixed(1)} 0 1 0 ${x} ${(cy + r).toFixed(1)} A ${r.toFixed(1)} ${r.toFixed(1)} 0 1 0 ${x} ${(cy - r).toFixed(1)}`;
+  }
+  return { d, startAngle: 180 };
+}
+function squares({ w, cy, amp, n }) {   // top-left corner, down, across, up, back
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp, cellW * 0.38);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x0 = (cx(i) - s).toFixed(1), x1 = (cx(i) + s).toFixed(1), y0 = (cy - s).toFixed(1), y1 = (cy + s).toFixed(1);
+    d += `${d ? ' ' : ''}M ${x0} ${y0} L ${x0} ${y1} L ${x1} ${y1} L ${x1} ${y0} Z`;
+  }
+  return { d, startAngle: 90 };
+}
+function triangles({ w, cy, amp, n }) {   // the top point, down to the left, across, back up
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp * 1.1, cellW * 0.42);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x = cx(i);
+    d += `${d ? ' ' : ''}M ${x.toFixed(1)} ${cy - amp} L ${(x - s).toFixed(1)} ${cy + amp} L ${(x + s).toFixed(1)} ${cy + amp} Z`;
+  }
+  return { d, startAngle: Math.atan2(2 * amp, -s) * 180 / Math.PI };
+}
+function diamonds({ w, cy, amp, n }) {   // the top point, down to the left, to the bottom, up to the right, back
+  const { k, cellW, cx } = marks(w, n);
+  const s = Math.min(amp * 0.75, cellW * 0.34);
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const x = cx(i);
+    d += `${d ? ' ' : ''}M ${x.toFixed(1)} ${cy - amp} L ${(x - s).toFixed(1)} ${cy} L ${x.toFixed(1)} ${cy + amp} L ${(x + s).toFixed(1)} ${cy} Z`;
+  }
+  return { d, startAngle: Math.atan2(amp, -s) * 180 / Math.PI };
+}
+
 /** The stroke library keyed by difficulty progression. */
 const STROKES = {
   line: straight,
@@ -153,6 +244,8 @@ const STROKES = {
   loops,
   spiral,
   eight,
+  // Level Set 2026-09-29 (new pages only)
+  rain, plus, slash, backslash, cross, circles, squares, triangles, diamonds,
 };
 
 /* ------------------------------------------------------------------ *
@@ -205,7 +298,8 @@ function renderPath({ d, mode, strokeW, startX, startY, startAngle, dot = true, 
  * A full pre-writing lane: one solid model repetition + dashed repetitions.
  * { stroke: key of STROKES, w, h, reps, amp, n } → { svg, width, height }
  */
-function strokeLane({ stroke, w, h, reps = 4, amp, n }) {
+function strokeLane({ stroke, w, h, reps = 4, amp, n, modes }) {
+  if (modes) return fadedStrokeLane({ stroke, w, h, amp, n, modes });
   const gen = STROKES[stroke];
   if (!gen) throw new Error(`trace-path: unknown stroke ${stroke}`);
   const cy = h / 2;
@@ -229,6 +323,50 @@ function strokeLane({ stroke, w, h, reps = 4, amp, n }) {
   return {
     svg: svgRoot({ width: w, height: h, label: `tracing stroke: ${stroke}` }, parts.join(''),
       { 'data-lcs-prim': 'trace-stroke', 'data-lcs-stroke': stroke, 'data-lcs-reps': reps }),
+    width: w, height: h,
+  };
+}
+
+/**
+ * Level Set 2026-09-29 — the FADING lane (the level audit's recipe: "levels = fading the trace").
+ * `modes` = one entry per repetition: 'model' (solid teal), 'trace' (dashed, with its OWN start dot +
+ * arrow) or 'dot' (ONLY the start dot + arrow — the child draws the stroke alone). Only new pages pass
+ * `modes`; the published lane above is untouched. Every repetition stamps data-lcs-rep-mode.
+ */
+function fadedStrokeLane({ stroke, w, h, amp, n, modes }) {
+  const gen = STROKES[stroke];
+  if (!gen) throw new Error(`trace-path: unknown stroke ${stroke}`);
+  const reps = modes.length;
+  const cy = h / 2;
+  const segW = w / reps;
+  const innerW = segW - 14;
+  const a = amp || Math.min(h * 0.28, 26);
+  // loops need ~60px each: 3 on a short repetition (as the published lane), more on a long single path (K-387)
+  const nEff = stroke === 'loops' ? Math.min(Math.max(3, Math.floor(innerW / 60)), n || 4) : (n || 4);
+  const parts = [];
+  modes.forEach((mode, i) => {
+    if (!['model', 'trace', 'dot'].includes(mode)) throw new Error(`trace-path: unknown rep mode ${mode}`);
+    const { d, startAngle } = gen({ w: innerW, cy, amp: a, n: nEff });
+    const m = d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+    const sx = parseFloat(m[1]), sy = parseFloat(m[2]);
+    let inner;
+    if (mode === 'dot') {
+      // renderPath draws the dot + arrow only for a trace; take them from it and drop the path
+      inner = renderPath({ d, mode: 'trace', startX: sx, startY: sy, startAngle, dot: true, arrow: true }).replace(/^<path[^>]*\/>|^<path[^>]*><\/path>/, '');
+    } else {
+      inner = renderPath({ d, mode, startX: sx, startY: sy, startAngle, dot: mode === 'trace', arrow: mode === 'trace' });
+    }
+    const g2 = gen({ w: innerW, cy, amp: a, n: nEff }).second;
+    if (g2 && mode !== 'model') {
+      const an = g2.angle * Math.PI / 180;
+      inner += el('circle', { cx: g2.x, cy: g2.y, r: 3.5, fill: tokens.color.coral, 'data-lcs-second-start': '1' }) +
+        arrowHead({ x: g2.x + Math.cos(an) * 11, y: g2.y + Math.sin(an) * 11, angleDeg: g2.angle, size: 7 });
+    }
+    parts.push(el('g', { transform: `translate(${(i * segW + 7).toFixed(1)} 0)`, 'data-lcs-rep-mode': mode }, inner));
+  });
+  return {
+    svg: svgRoot({ width: w, height: h, label: `tracing stroke: ${stroke}` }, parts.join(''),
+      { 'data-lcs-prim': 'trace-stroke', 'data-lcs-stroke': stroke, 'data-lcs-reps': reps, 'data-lcs-modes': modes.join(',') }),
     width: w, height: h,
   };
 }

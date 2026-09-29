@@ -2986,5 +2986,17 @@
   "G3-401": {
     "title": "Sätze in {U} abschreiben",
     "instruction": "Spure den grauen Satz nach und schreibe dann jeden gedruckten Satz in Schreibschrift auf die zwei Zeilen darunter."
+  },
+  "K-385": {
+    "title": "Schwungübungen: Striche und Kreuze",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-386": {
+    "title": "Schwungübungen: Kreise, Quadrate und Dreiecke",
+    "instruction": "Spure jede Form mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-387": {
+    "title": "Schwungübungen: Von Bild zu Bild",
+    "instruction": "Beginne am orangen Punkt beim ersten Bild. Spure den Weg mit dem Stift nach, bis du beim anderen Bild bist."
   }
 }

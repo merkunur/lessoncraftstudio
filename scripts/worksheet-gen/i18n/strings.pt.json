@@ -2974,5 +2974,17 @@
   "G3-401": {
     "title": "Da letra de forma para a cursiva: copie as frases",
     "instruction": "Cubra a frase cinza e depois copie cada frase impressa em letra cursiva nas duas linhas de baixo."
+  },
+  "K-385": {
+    "title": "Grafismo de linhas verticais, inclinadas e cruzes",
+    "instruction": "Cubra cada traço com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-386": {
+    "title": "Grafismo de círculos, quadrados e triângulos",
+    "instruction": "Cubra cada figura com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-387": {
+    "title": "Traçados de um desenho a outro",
+    "instruction": "Comece no ponto laranja ao lado do primeiro desenho. Cubra todo o caminho até chegar ao outro desenho."
   }
 }

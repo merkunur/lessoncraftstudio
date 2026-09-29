@@ -27,9 +27,11 @@ module.exports = {
   exerciseType: 'pre-writing',
   themeAxis: { applicable: true, minNouns: 4, decorative: true },
   difficulty: {
-    1: { reps: 3, n: 3, laneH: 108 },
+    // Level Set 2026-09-29: d1 / d3 never shipped (published = d2). The levels FADE the trace (level audit):
+    // d1 every repetition dashed, bigger lanes · d2 published · d3 model, one trace, then start dots only
+    1: { reps: 3, n: 3, laneH: 120, fade: 'all' },
     2: { reps: 4, n: 4, laneH: 100 },
-    3: { reps: 4, n: 5, laneH: 100 },
+    3: { reps: 4, n: 5, laneH: 100, fade: 'fade' },
   },
   i18n: {
     en: {
@@ -50,8 +52,17 @@ module.exports = {
     const iconPx = 56;
     const laneW = 675 - 24 - iconPx - 14 - 10; // card padding + icon + gaps
 
+    // Level Set 2026-09-29 (new pages only — `fade` is never set on a published level): the trace FADES by level
+    // ('all' = every repetition dashed with its own start dot; 'fade' = model, one dashed trace, then start dots
+    // only), and each copy changes the rhythm (marks per repetition) so a new copy is a different line to draw
+    const modes = d.fade === 'all' ? Array(d.reps).fill('trace')
+      : d.fade === 'fade' ? ['model', 'trace', ...Array(d.reps - 2).fill('dot')]
+      : d.fade === 'core' ? ['model', ...Array(d.reps - 1).fill('trace')] : null;   // core (new variations only): model + dashed traces, each with its start dot
     const cards = strokes.map((key, i) => {
-      const lane = strokeLane({ stroke: key, w: laneW, h: d.laneH, reps: d.reps, n: d.n });
+      // the rhythm varies by one mark either way; castle walls stay open (≤ 4), loops keep their 3
+      const cap = key === 'castle' ? 4 : 6;
+      const n = modes ? Math.min(cap, Math.max(2, d.n + (((ctx.variant || 1) + i) % 3) - 1)) : d.n;
+      const lane = strokeLane({ stroke: key, w: laneW, h: d.laneH, reps: d.reps, n, ...(modes ? { modes } : {}) });
       return (
         `<div class="ws-trace-lane ws-card-stage" style="flex-direction:row;gap:14px;justify-content:space-between" data-lcs-stroke-key="${key}">` +
         lane.svg +
@@ -75,6 +86,24 @@ module.exports = {
         seen.add(key);
         const svg = lane.querySelector('[data-lcs-prim="trace-stroke"]');
         if (!svg) { fails.push(`lane ${i + 1}: no stroke svg`); return; }
+        // Level Set fading lane: every repetition is what its stamp says it is
+        if (svg.dataset.lcsModes) {
+          const want = svg.dataset.lcsModes.split(',');
+          const reps = [...svg.querySelectorAll('g[data-lcs-rep-mode]')];
+          if (reps.length !== want.length || reps.some((g, k) => g.dataset.lcsRepMode !== want[k])) fails.push(`lane ${i + 1}: reps do not match ${want}`);
+          if (want.length < 3) fails.push(`lane ${i + 1}: only ${want.length} reps`);
+          reps.forEach((g, k) => {
+            const m = g.dataset.lcsRepMode, ps = g.querySelectorAll('path'), dot = g.querySelector('circle');
+            if (m === 'dot') { if (ps.length) fails.push(`lane ${i + 1} rep ${k + 1}: a dot-only rep draws the line`); if (!dot) fails.push(`lane ${i + 1} rep ${k + 1}: no start dot`); return; }
+            if (ps.length !== 1) { fails.push(`lane ${i + 1} rep ${k + 1}: ${ps.length} paths`); return; }
+            const dashed = !!ps[0].getAttribute('stroke-dasharray');
+            if ((m === 'model') === dashed) fails.push(`lane ${i + 1} rep ${k + 1}: ${m} drawn ${dashed ? 'dashed' : 'solid'}`);
+            if (m === 'trace' && parseFloat(ps[0].getAttribute('stroke-width')) < 2.5) fails.push(`lane ${i + 1}: dash below 2.5px`);
+            if (m === 'trace' && !dot) fails.push(`lane ${i + 1} rep ${k + 1}: trace without start dot`);
+          });
+          if (!lane.querySelector('img[data-lcs-noun]')) fails.push(`lane ${i + 1}: no destination icon`);
+          return;
+        }
         if (+svg.dataset.lcsReps < 3) fails.push(`lane ${i + 1}: only ${svg.dataset.lcsReps} reps`);
         const paths = svg.querySelectorAll('path');
         if (paths.length !== +svg.dataset.lcsReps) fails.push(`lane ${i + 1}: ${paths.length} paths != reps`);

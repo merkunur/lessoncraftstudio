@@ -2990,5 +2990,17 @@
   "G3-401": {
     "title": "Cursive Sentences to Copy",
     "instruction": "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
+  },
+  "K-385": {
+    "title": "Down Lines, Slants and Crosses",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-386": {
+    "title": "Circles, Squares and More Shapes",
+    "instruction": "Trace each shape with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-387": {
+    "title": "Picture to Picture",
+    "instruction": "Start at the orange dot next to the first picture. Trace the path all the way to the other picture."
   }
 }

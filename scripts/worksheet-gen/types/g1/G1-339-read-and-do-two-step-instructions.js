@@ -9,6 +9,13 @@ module.exports = {
   ...base,
   id: 'G1-339',
   slug: 'read-and-do-two-step-instructions',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: base.interactiveFor('steps'),
+  // Level Set 2026-09-30: L1 three two-step sentences over six BIG pictures, one named picture, "all the …", the first or the last per step
+  // (no counting in order) · L2 = the published page. No third level: a harder two-step page is a three-step page (G2)
+  difficulty: {
+    1: { ...D, pics: 6, tile: 92, pic: 76, gap: 8, rows: 3, verbs: ['circle', 'cross', 'underline', 'mark', 'write'], minVerbs: 3, cues: ['unique', 'all', 'first', 'last'], ordMax: 0, nounsMin: 5, nounsMax: 5, maxCount: 2 },
+    2: D,
+    3: D,
+  },
   i18n: { en: { title: "Read and Do: Two-Step Instructions", instruction: "Each sentence tells you two things to do. Read it to the end before you start, then do both steps in the row of pictures." } },
 };

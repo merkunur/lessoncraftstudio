@@ -85,7 +85,7 @@ const BANK = 'instructions';
 const LANE_INNER = 647;   // .ws-lane with the inline padding:10px 12px override (675 − 24 − 4)
 const LANE_PAD_BORDER = 24;
 const GRID_GAP = 12;
-const BW_MARK = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;   // the localized B&W theme marker (§20.5)
+const BW_MARK = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)( \d+)?$/i;   // the localized B&W theme marker (§20.5)
 const VERB_IDS = ['circle', 'cross', 'underline', 'line', 'mark', 'write'];
 const TILE_VERBS = ['circle', 'cross', 'underline', 'mark'];   // one object slot, mark one or more tiles
 const OBJ_SLOTS = { obj: 'unique', all: 'unique', allDef: 'def', def: 'def', dat: 'dat', gen: 'gen' };   // slot → objForms key under the `unique` cue
@@ -113,6 +113,9 @@ const LOOKALIKES = [
   ['boat', 'sailboat', 'ship', 'ferry', 'yacht', 'canoe'], ['car', 'jeep', 'taxi', 'van'], ['airplane', 'jet'],
   ['truck', 'van', 'ambulance'], ['crane', 'excavator', 'bulldozer', 'forklift', 'tractor'], ['scooter', 'motorcycle'],
   ['subway', 'train', 'bus'],
+  ['sheep', 'lamb'],   // audit round 2: two near-identical drawings ("circle the lamb" had two answers)
+  // the colour-picture review (2026-09-30): drawings a child cannot tell apart, or one thing under two keys
+  ['crown', 'tiara'], ['couch', 'sofa'], ['fridge', 'refrigerator'], ['cushion', 'pillow'], ['carpet', 'rug'], ['closet', 'wardrobe'], ['dishwasher', 'oven'], ['bagel', 'donut'], ['biscuit', 'cookie'], ['shovel', 'spade'], ['boat', 'sailboat'], ['chicken', 'hen'], ['goose', 'swan'], ['dove', 'pigeon'], ['falcon', 'hawk'], ['heron', 'stork'], ['canoe', 'kayak'], ['lake', 'river'], ['lip', 'mouth'], ['chin', 'head'], ['nail', 'finger'], ['ankle', 'foot'], ['coat', 'raincoat'], ['chicken', 'hen'], ['lamb', 'sheep'], ['foal', 'horse'], ['bull', 'cow'], ['chipmunk', 'squirrel'], ['bee', 'wasp'], ['slug', 'snail'], ['cricket', 'grasshopper'], ['couch', 'sofa'], ['jug', 'pitcher'], ['pan', 'pot'], ['pot', 'saucepan'], ['pan', 'saucepan'], ['kettle', 'teapot'], ['cup', 'mug'], ['hawk', 'eagle'], ['aster', 'dahlia'], ['dahlia', 'zinnia'], ['begonia', 'petunia'], ['grapefruit', 'orange'], ['persimmon', 'orange'], ['fish', 'clownfish'], ['circle', 'sphere'], ['cloud', 'rain'], ['airplane', 'jet'], ['goose', 'swan'], ['bee', 'wasp'], ['beetle', 'ladybug'], ['hawk', 'parrot'], ['beetroot', 'radish'], ['radish', 'turnip'], ['beetroot', 'turnip'], ['parsnip', 'carrot'], ['ship', 'ferry'], ['ferry', 'yacht'], ['ship', 'yacht'], ['boat', 'ship'], ['motorcycle', 'scooter'], ['bulldozer', 'tractor'], ['sled', 'sleigh'], ['monkey', 'chimpanzee'], ['chimpanzee', 'gorilla'], ['meerkat', 'otter'], ['meerkat', 'sloth'], ['otter', 'sloth'],
 ];
 const LOOK_GROUP = new Map();
 LOOKALIKES.forEach((g, i) => g.forEach((n) => { (LOOK_GROUP.get(n) || LOOK_GROUP.set(n, []).get(n)).push(i); }));
@@ -120,6 +123,26 @@ function lookalike(a, b) {
   const ga = LOOK_GROUP.get(a), gb = LOOK_GROUP.get(b);
   return !!(ga && gb && ga.some((i) => gb.includes(i)));
 }
+
+/**
+ * Pictures a Grade 1 child names otherwise (native panels 2026-09-30, every language): the jaguar and the leopard are one
+ * spotted cub (the leopard stays), the orangutan reads as "monkey", the antelope and the reindeer are fawns ("deer"),
+ * the iguana a yellow lizard. Per locale: pt the vulture is a condor ("urubu") and a pt child calls the leopard "onça";
+ * sv / da / no the duck is a duckling (da "anden" is also "second").
+ */
+const AVOID = new Set(['jaguar', 'orangutan', 'antelope', 'iguana', 'reindeer',
+  // audit round 2: the cranberry reads as a cherry, the clementine / apricot as an orange or a peach, the ox and the calf
+  // as a cow, the lemur as a raccoon, the hyena as a striped fox, the vulture as an eagle, the leopard as a cheetah / tiger
+  // cub; "subway" and "crane" are not a thing a child draws or names from the picture (crane = the bird too)
+  'cranberry', 'clementine', 'apricot', 'ox', 'calf', 'lemur', 'hyena', 'vulture', 'leopard', 'subway', 'crane',
+  // fr / fi audit: the plum / cherry / peach read as an apple, the nectarine as an orange, the duck and duckling as a chick
+  'plum', 'cherry', 'peach', 'nectarine', 'duck', 'duckling',
+  // every colour picture the family can use, opened by three Grade 1 reviewers (2026-09-30): named otherwise, a word
+  // Grade 1 does not know, or not ONE countable thing
+  'ankle', 'armadillo', 'asparagus', 'aster', 'azalea', 'bagel', 'beach', 'beetroot', 'begonia', 'biscuit', 'bison', 'bluebell', 'blueberry', 'bracelet', 'bull', 'bulldozer', 'cabin', 'cabinet', 'cardigan', 'cardinal', 'cast', 'centipede', 'chimpanzee', 'chin', 'colander', 'cone', 'cricket', 'cushion', 'daffodil', 'dahlia', 'dishwasher', 'domino', 'dresser', 'egg', 'evergreen', 'falcon', 'ferry', 'fig', 'foal', 'forest', 'forklift', 'garage', 'gazelle', 'grapefruit', 'grater', 'ham', 'hawk', 'heart', 'heptagon', 'heron', 'hose', 'hydrangea', 'jet', 'jumpsuit', 'kitchen', 'ladle', 'lake', 'lip', 'magpie', 'mango', 'meerkat', 'moose', 'mountain', 'nail', 'orchid', 'otter', 'pancake', 'papaya', 'parsnip', 'peony', 'persimmon', 'petunia', 'pomegranate', 'puddle', 'quail', 'rain', 'river', 'rope', 'sloth', 'slug', 'spade', 'sphere', 'turnip', 'violet', 'yacht', 'zinnia']);
+// fr: the vocabulary's "trottinette" (a kick scooter) under a motor-scooter picture; "excavatrices" (a child says pelleteuses)
+const AVOID_BY_LOC = { pt: ['vulture', 'leopard'], sv: ['duck'], da: ['duck'], no: ['duck'], fr: ['scooter', 'excavator'] };
+function familyAvoid(key, loc) { const k = String(key).toLowerCase(); return AVOID.has(k) || (AVOID_BY_LOC[loc] || []).includes(k); }
 
 function cueKind(cue) { return String(cue).split(':')[0]; }
 
@@ -151,7 +174,7 @@ function objectForm(bankLoc, slot, cue, k, noun) {
 }
 function fixedForm(bankLoc, cue, nounA, nounB) {
   const fx = bankLoc.fixed || {};
-  const ep = bankLoc.endpointForm || 'unique';
+  const ep = (bankLoc.fixedForms && bankLoc.fixedForms[cue]) || bankLoc.endpointForm || 'unique';
   const A = nounA && bankLoc.objForms[nounA] && bankLoc.objForms[nounA][ep];
   const B = nounB && bankLoc.objForms[nounB] && bankLoc.objForms[nounB][ep];
   if (cue === 'first' || cue === 'last') return fx[cue] || null;
@@ -209,7 +232,7 @@ function candidates(bankLoc, strip, d) {
   };
   for (const verb of verbs) {
     if (verb.id === 'write') {
-      for (const a of nouns) { const c = occ.get(a).length; if (c >= 1 && c <= 4 && nouns.length >= 2) push(verb, 'count', null, a, null, [], c); }
+      for (const a of nouns) { const c = occ.get(a).length; if (c >= 2 && c <= 4 && nouns.length >= 2) push(verb, 'count', null, a, null, [], c); }
       continue;
     }
     if (verb.id === 'line') {
@@ -272,7 +295,7 @@ function select(rng, cands, d) {
       verbUse[c.action] = (verbUse[c.action] || 0) + 1;
       cueUse[cueKind(c.cue)] = (cueUse[cueKind(c.cue)] || 0) + 1;
     }
-    if (rows.length === d.rows && verbs.size >= d.minVerbs) return rows;
+    if (rows.length === d.rows && verbs.size >= d.minVerbs && (d.mustCues || []).every((k) => rows.some((r) => r.cue === k || cueKind(r.cue) === k))) return rows;
   }
   return null;
 }
@@ -302,7 +325,7 @@ function STRIP_CHECKS(root, fails) {
   const strip = (root.dataset.lcsStrip || '').split(',').filter(Boolean);
   const n = +root.dataset.lcsN;
   const theme = root.dataset.lcsTheme || '';
-  if (/(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i.test(theme)) fails.push(`theme "${theme}" carries a B&W marker`);
+  if (/(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)( \d+)?$/i.test(theme)) fails.push(`theme "${theme}" carries a B&W marker`);
   if (!(n >= 4) || strip.length !== n) fails.push(`strip has ${strip.length} nouns, n=${n}`);
   const occ = {};
   strip.forEach((x, i) => { (occ[x] = occ[x] || []).push(i); });
@@ -319,7 +342,7 @@ function STRIP_CHECKS(root, fails) {
     if (t.querySelector('text')) fails.push(`tile ${idx} carries SVG text`);
     if (img.hasAttribute('alt')) fails.push(`tile ${idx} img carries alt`);
     if (!img.complete || img.naturalWidth === 0) fails.push(`tile ${idx} picture broken`);
-    if (/(^|\s|%20)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\/|%2F)/i.test(decodeURIComponent(img.getAttribute('src') || ''))) fails.push(`tile ${idx}: a B&W picture path`);
+    if (/(^|\s|%20)(bw|sw|bn|nb|zw|sh|pb|mv|sv)( \d+|%20\d+)?(\/|%2F)/i.test(decodeURIComponent(img.getAttribute('src') || ''))) fails.push(`tile ${idx}: a B&W picture path`);
     const cs = getComputedStyle(img);
     if (cs.opacity !== '1') fails.push(`tile ${idx}: opacity leak`);
     if (cs.transform !== 'none') fails.push(`tile ${idx}: transform leak`);
@@ -347,7 +370,7 @@ function DERIVE_WANT(occ, n, ordMax, ordWindow, s) {
   let want = null;
   if (s.action === 'write') {
     if (kind !== 'count') fails.push(`write step cue "${s.cue}"`);
-    if (!(c(s.noun) >= 1 && c(s.noun) <= 4)) fails.push(`write noun "${s.noun}" occurs ${c(s.noun)}x (want 1-4)`);
+    if (!(c(s.noun) >= 2 && c(s.noun) <= 4)) fails.push(`write noun "${s.noun}" occurs ${c(s.noun)}x (want 2-4: the count frames are plural)`);
     if (nouns.length < 2) fails.push('write over a one-noun strip');
     want = [];
   } else if (s.action === 'line') {
@@ -602,7 +625,7 @@ function VERIFY_DRAW(textSrc) {
   const cards = [...root.querySelectorAll('[data-lcs-drawcard]')];
   if (cards.length !== cardsN) fails.push(`${cards.length} cards, config says ${cardsN}`);
   if (cards.length < 6 || cards.length > 12) fails.push(`${cards.length} items outside [6,12]`);
-  const texts = new Set(), nouns = new Set(), nvals = new Set();
+  const texts = new Set(), nouns = new Set(), nvals = new Set(), useN = {};
   const rects = [];
   cards.forEach((c, i) => {
     const R = `card ${i + 1}`;
@@ -615,10 +638,21 @@ function VERIFY_DRAW(textSrc) {
     if (texts.has(text)) fails.push(`${R}: duplicate sentence`); texts.add(text);
     const noun = c.dataset.lcsNoun || '';
     if (!noun) fails.push(`${R}: no noun stamped`);
-    if (nouns.has(noun)) fails.push(`${R}: noun "${noun}" on two cards`); nouns.add(noun);
+    const two = root.dataset.lcsTwo === '1';
+    if (!two) { if (nouns.has(noun)) fails.push(`${R}: noun "${noun}" on two cards`); nouns.add(noun); }
     const nv = +c.dataset.lcsNval;
     if (!(nv >= nMin && nv <= nMax)) fails.push(`${R}: n ${nv} outside ${nMin}..${nMax}`);
     nvals.add(nv);
+    if (two) {
+      // the two-thing level: a second noun + count on every card, the counts differ, the pair never repeats, a noun on <= 2 cards
+      const noun2 = c.dataset.lcsNoun2 || '', nv2 = +c.dataset.lcsNval2;
+      if (!noun2 || noun2 === noun) fails.push(`${R}: the two-thing card has no second noun`);
+      if (!(nv2 >= nMin && nv2 <= nMax)) fails.push(`${R}: n2 ${nv2} outside ${nMin}..${nMax}`);
+      if (nv2 === nv) fails.push(`${R}: both counts are ${nv} (the child must read two different numbers)`);
+      const pk = [noun, noun2].sort().join('+');
+      if (nouns.has(pk)) fails.push(`${R}: the pair ${pk} on two cards`); nouns.add(pk);
+      [noun, noun2].forEach((x) => { useN[x] = (useN[x] || 0) + 1; if (useN[x] > 2) fails.push(`${R}: "${x}" on more than two cards`); });
+    }
     const boxes = c.querySelectorAll('[data-lcs-drawbox]');
     if (boxes.length !== 1) fails.push(`${R}: ${boxes.length} draw boxes`);
     else {
@@ -647,6 +681,20 @@ function VERIFY_DRAW(textSrc) {
   return fails;
 }
 
+/**
+ * Level Set 2026-09-30 · the screen-version contract (tap-choice) per layout: 'base' (G1-308 / 338 / 340), 'steps' (339),
+ * 'truth' (341); the oracle re-derives every answer from the row and the SENTENCE (parsed back through the bank's own
+ * frames), never from a stamp. The draw face (342) is printable only.
+ */
+const RAD_SCREEN = require('../../lib/read-and-do-screen.js');
+function interactiveFor(layout) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]',
+    metaAttrs: ['data-lcs-strip', 'data-lcs-sentence', 'data-lcs-part'], instructionKey: layout, screenHeight: 3600,
+    oracle: (items, l) => { const loc = (l || 'en').slice(0, 2); return RAD_SCREEN.oracle(layout, items, loc, loadBank(BANK, loc), sentenceFor); },
+  };
+}
+
 function panelMin(d) { return 16 + 4 + d.tile + 4 + 22 + LANE_PAD_BORDER; }   // arrow row 16 (flagScale 1) + gap + tiles + gap + band + padding/border
 
 module.exports = {
@@ -655,6 +703,10 @@ module.exports = {
   gradeBand: 'G1',
   assetClass: 'icon-placement',
   exerciseType: 'read-and-do',
+  interactive: interactiveFor('base'), interactiveFor,
+  // Level Set 2026-09-30 (build-waves reuseThemes): the words a copy asks about — the nouns on its row (draw: its cards)
+  _familyAvoid: familyAvoid,   // the family's picture exclusions (tools/level-set/rad-picture-sheets.js reads them)
+  levelSetWords: (meta) => [...new Set(meta.strip || (meta.cards || []).flatMap((c) => (c.length === 5 ? [c[0], c[2]] : [c[0]])))],
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: {
     1: { pics: 6, tile: 92, pic: 76, gap: 8, rows: 6, rowMin: 82, rowGap: 8, fontPx: 19, verbs: ['circle', 'cross', 'mark', 'write'], minVerbs: 3, maxPerVerb: 2, maxPerCue: 3, cues: ['unique', 'all', 'first', 'last'], ordMax: 0, ordWindow: 6, nounsMin: 5, nounsMax: 5, maxCount: 2 },
@@ -670,6 +722,12 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
+    // the screen version and the answer key are built from the PRINTED page of the same instance (Level Set 2026-09-30)
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const bank = loadBank(BANK, loc);
+      const built = this._buildWith(bank, this.difficulty[difficulty], { theme, locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return RAD_SCREEN.screenOrKey(this.interactive.instructionKey, built, ctx, loc, bank, { sentenceFor });
+    }
     return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
   },
 
@@ -697,7 +755,7 @@ module.exports = {
     // pool: countable theme nouns the bank carries a reviewed, fully-formed entry for
     const pool = entriesFor(theme, loc).filter(countable).filter((e) => {
       const f = bankLoc.objForms[e.vocabKey];
-      return f && f.reviewed === true && f.unique && f.all && f.pl;
+      return f && f.reviewed === true && f.unique && f.all && f.pl && !familyAvoid(e.vocabKey, loc);
     });
     if (pool.length < 8) throw new Error(`G1-308: theme "${theme}"/${loc} has ${pool.length} usable nouns < 8 (refused — the ${loc} bank lacks reviewed forms)`);
 
@@ -751,7 +809,7 @@ module.exports = {
     }
     const pool = entriesFor(theme, loc).filter(countable).filter((e) => {
       const f = bankLoc.objForms[e.vocabKey];
-      return f && f.reviewed === true && f.unique && f.all && f.pl;
+      return f && f.reviewed === true && f.unique && f.all && f.pl && !familyAvoid(e.vocabKey, loc);
     });
     if (pool.length < 8) throw new Error(`G1-308: theme "${theme}"/${loc} has ${pool.length} usable nouns < 8 (refused — the ${loc} bank lacks reviewed forms)`);
     return pool;
@@ -774,7 +832,8 @@ module.exports = {
     } else {
       second = second.charAt(0).toLocaleLowerCase(loc) + second.slice(1);
     }
-    return c1.text.replace(/\.$/, '') + ' ' + bankLoc.and + ' ' + second;
+    const verb1 = bankLoc.verbs.find((v) => v.id === c1.action);
+    return c1.text.replace(/\.$/, '') + (verb1 && verb1.joinComma ? ',' : '') + ' ' + bankLoc.and + ' ' + second;
   },
 
   /* ---------------------------------------------------------------- F2 · steps:2 */
@@ -889,6 +948,7 @@ module.exports = {
       const kind = f.cue;
       if (!d.cues.includes(kind)) return;
       if (kind === 'count') {
+        const bareEq = fi === frames.findIndex((x) => x.cue === 'count' && x.rel === 'eq');
         const rel = TRUTH_RELS[f.rel] ? f.rel : null;
         if (!rel) return;
         if (nouns.length < 2) return;
@@ -902,23 +962,25 @@ module.exports = {
           // refuse n = 1 at the config check below). A singular frame per locale is unauthored.
           for (let v = 2; v <= N_MAX; v++) {
             const t = TRUTH_RELS[rel](c, v);
+            if (bareEq && c > v) continue;
             if (rel === 'eq' && !t && v > 4) continue;        // a false "exactly five" over a 4-max strip reads as a trick
             if (rel !== 'eq' && Math.abs(c - v) > 2) continue;  // more/fewer than N stays within 2 of the count ("fewer than five" over one pig is a trick)
-            push(fi, f, 'count', null, a, null, v, rel, t, 'count', { n: this._numText(bankLoc, v), pl });
+            // d.countPart (Level Set 2026-09-30, new levels only): fi count frames take the PARTITIVE after a numeral
+            push(fi, f, 'count', null, a, null, v, rel, t, 'count', d.countPart ? { n: this._numText(bankLoc, v), pl, part: bankLoc.objForms[a].part } : { n: this._numText(bankLoc, v), pl });
           }
         }
         return;
       }
       if (kind === 'first' || kind === 'last') {
         const at = strip[kind === 'first' ? 0 : n - 1];
-        for (const a of nouns) { const u = uniqueForm(a); if (u) push(fi, f, kind, null, a, null, null, null, a === at, 'position', { obj: u }); }
+        for (const a of nouns) { if (occ.get(a).length !== 1) continue; const u = uniqueForm(a); if (u) push(fi, f, kind, null, a, null, null, null, a === at, 'position', { obj: u }); }
         return;
       }
       if (kind === 'ordinal') {
         const k = +f.k;
         if (!(k >= 2 && k <= d.ordMax && k <= n)) return;
         const at = strip[k - 1];
-        for (const a of nouns) { const u = uniqueForm(a); if (u) push(fi, f, 'ordinal:' + k, k, a, null, null, null, a === at, 'position', { obj: u }); }
+        for (const a of nouns) { if (occ.get(a).length !== 1) continue; const u = uniqueForm(a); if (u) push(fi, f, 'ordinal:' + k, k, a, null, null, null, a === at, 'position', { obj: u }); }
         return;
       }
       if (kind === 'rightof' || kind === 'leftof') {
@@ -930,7 +992,7 @@ module.exports = {
           if (j < 0 || j >= n) continue;
           const u = uniqueForm(a);
           if (!u) continue;
-          for (const b of nouns) { if (b === a) continue; const u2 = uniqueForm(b); if (u2) push(fi, f, kind, null, a, b, null, null, strip[j] === b, 'position', { obj: u, obj2: u2 }); }
+          for (const b of nouns) { if (b === a || occ.get(b).length !== 1) continue; const u2 = uniqueForm(b); if (u2) push(fi, f, kind, null, a, b, null, null, strip[j] === b, 'position', { obj: u, obj2: u2 }); }
         }
       }
     });
@@ -1003,6 +1065,7 @@ module.exports = {
 
   /* ---------------------------------------------------------------- F5 · mode:'draw' */
   _buildDraw(bankLoc, d, { theme, locale }, ctx) {
+    if (d.two) return this._buildDrawTwo(bankLoc, d, { theme, locale }, ctx);   // Level Set L3 (2026-09-30)
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     const frames = bankLoc && Array.isArray(bankLoc.draw) ? bankLoc.draw.filter((f) => f && typeof f.text === 'string') : [];
@@ -1048,6 +1111,70 @@ module.exports = {
     return { bodyHtml, meta: { cards: out.map((c) => [c.noun, c.nval, c.frame]) } };
   },
 
+  /**
+   * Level Set 2026-09-30 · the harder draw level: TWO things in one sentence ("Draw 3 cats and 2 dogs."), from the
+   * bank's `draw2` frames ({n} {pl} + {n2} {pl2}; fi {part} / {part2} after a numeral), authored by native panels.
+   * The two counts differ on a card (the child must read both); a noun is named on at most two cards; two lookalikes
+   * never share a card. Stamps data-lcs-two + per card data-lcs-noun2 / data-lcs-nval2 (the base path never does).
+   */
+  _buildDrawTwo(bankLoc, d, { theme, locale }, ctx) {
+    const rng = ctx.rng;
+    const loc = (locale || 'en').slice(0, 2);
+    const frames = bankLoc && Array.isArray(bankLoc.draw2) ? bankLoc.draw2.filter((f) => f && typeof f.text === 'string') : [];
+    for (const f of frames) {
+      const sl = slotsIn(f.text);
+      const ok = sl.includes('n') && sl.includes('n2') && (sl.includes('pl') || sl.includes('part')) && (sl.includes('pl2') || sl.includes('part2')) && sl.every((x) => ['n', 'n2', 'pl', 'pl2', 'part', 'part2'].includes(x));
+      if (!ok) throw new Error(`G1-308: draw2 frame "${f.text}" must carry {n} {pl} {n2} {pl2} (fi {part} {part2}) and nothing else`);
+      if (loc === 'fi' && !(sl.includes('part') && sl.includes('part2'))) throw new Error(`G1-308: fi draw2 frame "${f.text}" must take {part} + {part2}`);
+    }
+    if (frames.length < 3) throw new Error(`G1-308: the ${loc} bank has ${frames.length} draw2 frames < 3 (the two-thing level refused)`);
+    const cards = d.cards;
+    if (!(cards >= 6 && cards <= 12)) throw new Error(`G1-308: ${cards} cards outside the G1 item band [6,12]`);
+    if (!(d.nMin >= 2 && d.nMax > d.nMin && d.nMax <= N_MAX)) throw new Error(`G1-308: n range ${d.nMin}..${d.nMax} (two DIFFERENT plural counts per card)`);
+    if (d.cols * d.rows !== cards) throw new Error(`G1-308: ${d.cols}×${d.rows} grid != ${cards} cards`);
+    const pool = this._facePreflight(bankLoc, d, theme, loc, { needStrip: false });
+    const form = (key, slot) => { const f = bankLoc.objForms[key]; return f ? (slot.startsWith('part') ? f.part : f.pl) : null; };
+    let out = null;
+    for (let t = 0; t < MAX_TRIES && !out; t++) {
+      const use = {}, texts = new Set(), pairs = new Set(), built = [], fs = [];
+      for (let i = 0; i < cards; i++) {
+        let hit = null;
+        for (let u = 0; u < 60 && !hit; u++) {
+          const [a, b] = rng.sample(pool, 2);
+          if (a.vocabKey === b.vocabKey || lookalike(a.vocabKey, b.vocabKey)) continue;
+          if ((use[a.vocabKey] || 0) >= 2 || (use[b.vocabKey] || 0) >= 2) continue;
+          const pk = [a.vocabKey, b.vocabKey].sort().join('+');
+          if (pairs.has(pk)) continue;
+          const n1 = rng.int(d.nMin, d.nMax);
+          let n2 = rng.int(d.nMin, d.nMax);
+          if (n2 === n1) n2 = n1 === d.nMax ? d.nMin : n1 + 1;
+          const fi = rng.int(0, frames.length - 1);
+          const sl = slotsIn(frames[fi].text);
+          const s1 = sl.includes('part') ? 'part' : 'pl', s2 = sl.includes('part2') ? 'part2' : 'pl2';
+          const v1 = form(a.vocabKey, s1), v2 = form(b.vocabKey, s2);
+          if (!v1 || !v2) continue;
+          let text;
+          try { text = fillSlots(frames[fi].text, { n: this._numText(bankLoc, n1), n2: this._numText(bankLoc, n2), [s1]: v1, [s2]: v2 }); } catch (e) { continue; }
+          // two lines on a 300-px card at the draw font (four pages printed three lines at the plain 96 cap)
+          if (texts.has(text) || [...text].length > (d.twoCap || 52)) continue;
+          hit = { a, b, n1, n2, fi, text, pk };
+        }
+        if (!hit) break;
+        use[hit.a.vocabKey] = (use[hit.a.vocabKey] || 0) + 1; use[hit.b.vocabKey] = (use[hit.b.vocabKey] || 0) + 1;
+        pairs.add(hit.pk); texts.add(hit.text); fs.push(hit.fi);
+        built.push({ n: i + 1, noun: hit.a.vocabKey, nval: hit.n1, noun2: hit.b.vocabKey, nval2: hit.n2, frame: hit.fi, text: hit.text });
+      }
+      if (built.length === cards && new Set(fs).size >= Math.min(3, frames.length)) out = built;
+    }
+    if (!out) throw new Error(`G1-308: no page of ${cards} two-thing draw cards over theme "${theme}"/${loc} in ${MAX_TRIES} tries — refused`);
+    let grid = drawCards({ cards: out, cols: d.cols, rows: d.rows, drawW: d.drawW, drawH: d.drawH, fontPx: d.fontPx });
+    out.forEach((c) => { grid = grid.replace(`data-lcs-drawcard data-lcs-n="${c.n}" `, `data-lcs-drawcard data-lcs-n="${c.n}" data-lcs-noun2="${c.noun2}" data-lcs-nval2="${c.nval2}" `); });
+    const bodyHtml = `<div data-ws-content data-lcs-rad data-lcs-mode="draw" data-lcs-two="1" data-lcs-theme="${theme}" data-lcs-locale="${loc}" data-lcs-cards="${cards}" ` +
+      `data-lcs-nmin="${d.nMin}" data-lcs-nmax="${d.nMax}" data-lcs-draww="${d.drawW}" data-lcs-drawh="${d.drawH}" data-lcs-cap="${SENTENCE_CAP}" ` +
+      `style="flex:1;display:flex;flex-direction:column;min-height:0">${grid}</div>`;
+    return { bodyHtml, meta: { cards: out.map((c) => [c.noun, c.nval, c.noun2, c.nval2, c.frame]) } };
+  },
+
 
   async verify(page) {
     const face = await page.evaluate(() => { const r = document.querySelector('[data-lcs-rad]'); return r ? { mode: r.dataset.lcsMode || '', steps: +(r.dataset.lcsSteps || 1) } : null; });
@@ -1065,7 +1192,7 @@ module.exports = {
       const verbs = (root.dataset.lcsVerbs || '').split(',').filter(Boolean);
       const cues = (root.dataset.lcsCues || '').split(',').filter(Boolean);
       const theme = root.dataset.lcsTheme || '';
-      if (/(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i.test(theme)) fails.push(`theme "${theme}" carries a B&W marker`);
+      if (/(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)( \d+)?$/i.test(theme)) fails.push(`theme "${theme}" carries a B&W marker`);
       if (!(n >= 4) || strip.length !== n) fails.push(`strip has ${strip.length} nouns, n=${n}`);
       const occ = {};
       strip.forEach((x, i) => { (occ[x] = occ[x] || []).push(i); });
@@ -1083,7 +1210,7 @@ module.exports = {
         if (t.querySelector('text')) fails.push(`tile ${idx} carries SVG text`);
         if (img.hasAttribute('alt')) fails.push(`tile ${idx} img carries alt`);
         if (!img.complete || img.naturalWidth === 0) fails.push(`tile ${idx} picture broken`);
-        if (/(^|\s|%20)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\/|%2F)/i.test(decodeURIComponent(img.getAttribute('src') || ''))) fails.push(`tile ${idx}: a B&W picture path`);
+        if (/(^|\s|%20)(bw|sw|bn|nb|zw|sh|pb|mv|sv)( \d+|%20\d+)?(\/|%2F)/i.test(decodeURIComponent(img.getAttribute('src') || ''))) fails.push(`tile ${idx}: a B&W picture path`);
         const cs = getComputedStyle(img);
         if (cs.opacity !== '1') fails.push(`tile ${idx}: opacity leak`);
         if (cs.transform !== 'none') fails.push(`tile ${idx}: transform leak`);

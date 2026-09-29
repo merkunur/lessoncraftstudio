@@ -44,8 +44,8 @@
       "8": "la huitième image"
     },
     "between": "l'image entre {A} et {B}",
-    "rightof": "l'image à droite de {A}",
-    "leftof": "l'image à gauche de {A}"
+    "rightof": "l'image à droite {A}",
+    "leftof": "l'image à gauche {A}"
   },
   "objForms": {
     "airplane": {
@@ -64,7 +64,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'avion",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'avion"
     },
     "ambulance": {
       "unique": "l'ambulance",
@@ -82,7 +83,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'ambulance",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'ambulance"
     },
     "antelope": {
       "unique": "l'antilope",
@@ -100,7 +102,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'antilope",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'antilope"
     },
     "apple": {
       "unique": "la pomme",
@@ -118,7 +121,8 @@
       "part": null,
       "gen": null,
       "a2": "à la pomme",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la pomme"
     },
     "apricot": {
       "unique": "l'abricot",
@@ -136,7 +140,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'abricot",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'abricot"
     },
     "armadillo": {
       "unique": "le tatou",
@@ -154,7 +159,8 @@
       "part": null,
       "gen": null,
       "a2": "au tatou",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du tatou"
     },
     "avocado": {
       "unique": "l'avocat",
@@ -172,7 +178,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'avocat",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'avocat"
     },
     "ball": {
       "unique": "le ballon",
@@ -190,7 +197,8 @@
       "part": null,
       "gen": null,
       "a2": "au ballon",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du ballon"
     },
     "banana": {
       "unique": "la banane",
@@ -208,7 +216,8 @@
       "part": null,
       "gen": null,
       "a2": "à la banane",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la banane"
     },
     "bat": {
       "unique": "la chauve-souris",
@@ -226,7 +235,8 @@
       "part": null,
       "gen": null,
       "a2": "à la chauve-souris",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la chauve-souris"
     },
     "bear": {
       "unique": "l'ours",
@@ -244,7 +254,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'ours",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'ours"
     },
     "bee": {
       "unique": "l'abeille",
@@ -262,7 +273,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'abeille",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'abeille"
     },
     "bicycle": {
       "unique": "le vélo",
@@ -280,7 +292,8 @@
       "part": null,
       "gen": null,
       "a2": "au vélo",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du vélo"
     },
     "blackberry": {
       "unique": "la mûre",
@@ -298,7 +311,8 @@
       "part": null,
       "gen": null,
       "a2": "à la mûre",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la mûre"
     },
     "blueberry": {
       "unique": "la myrtille",
@@ -316,7 +330,8 @@
       "part": null,
       "gen": null,
       "a2": "à la myrtille",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la myrtille"
     },
     "boat": {
       "unique": "le bateau",
@@ -334,7 +349,8 @@
       "part": null,
       "gen": null,
       "a2": "au bateau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du bateau"
     },
     "bucket": {
       "unique": "le seau",
@@ -352,7 +368,8 @@
       "part": null,
       "gen": null,
       "a2": "au seau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du seau"
     },
     "bull": {
       "unique": "le taureau",
@@ -370,7 +387,8 @@
       "part": null,
       "gen": null,
       "a2": "au taureau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du taureau"
     },
     "bulldozer": {
       "unique": "le bulldozer",
@@ -388,7 +406,8 @@
       "part": null,
       "gen": null,
       "a2": "au bulldozer",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du bulldozer"
     },
     "bus": {
       "unique": "le bus",
@@ -406,7 +425,8 @@
       "part": null,
       "gen": null,
       "a2": "au bus",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du bus"
     },
     "calf": {
       "unique": "le veau",
@@ -424,7 +444,8 @@
       "part": null,
       "gen": null,
       "a2": "au veau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du veau"
     },
     "camel": {
       "unique": "le chameau",
@@ -442,7 +463,8 @@
       "part": null,
       "gen": null,
       "a2": "au chameau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du chameau"
     },
     "canoe": {
       "unique": "le canoë",
@@ -460,7 +482,8 @@
       "part": null,
       "gen": null,
       "a2": "au canoë",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du canoë"
     },
     "car": {
       "unique": "la voiture",
@@ -478,7 +501,8 @@
       "part": null,
       "gen": null,
       "a2": "à la voiture",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la voiture"
     },
     "cat": {
       "unique": "le chat",
@@ -496,7 +520,8 @@
       "part": null,
       "gen": null,
       "a2": "au chat",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du chat"
     },
     "cheetah": {
       "unique": "le guépard",
@@ -514,7 +539,8 @@
       "part": null,
       "gen": null,
       "a2": "au guépard",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du guépard"
     },
     "cherry": {
       "unique": "la cerise",
@@ -532,7 +558,8 @@
       "part": null,
       "gen": null,
       "a2": "à la cerise",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la cerise"
     },
     "chick": {
       "unique": "le poussin",
@@ -550,7 +577,8 @@
       "part": null,
       "gen": null,
       "a2": "au poussin",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du poussin"
     },
     "chicken": {
       "unique": "le poulet",
@@ -568,7 +596,8 @@
       "part": null,
       "gen": null,
       "a2": "au poulet",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du poulet"
     },
     "chimpanzee": {
       "unique": "le chimpanzé",
@@ -586,7 +615,8 @@
       "part": null,
       "gen": null,
       "a2": "au chimpanzé",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du chimpanzé"
     },
     "clementine": {
       "unique": "la clémentine",
@@ -604,7 +634,8 @@
       "part": null,
       "gen": null,
       "a2": "à la clémentine",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la clémentine"
     },
     "coconut": {
       "unique": "la noix de coco",
@@ -622,7 +653,8 @@
       "part": null,
       "gen": null,
       "a2": "à la noix de coco",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la noix de coco"
     },
     "cow": {
       "unique": "la vache",
@@ -640,7 +672,8 @@
       "part": null,
       "gen": null,
       "a2": "à la vache",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la vache"
     },
     "cranberry": {
       "unique": "la canneberge",
@@ -658,7 +691,8 @@
       "part": null,
       "gen": null,
       "a2": "à la canneberge",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la canneberge"
     },
     "dinosaur": {
       "unique": "le dinosaure",
@@ -676,7 +710,8 @@
       "part": null,
       "gen": null,
       "a2": "au dinosaure",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du dinosaure"
     },
     "dog": {
       "unique": "le chien",
@@ -694,7 +729,8 @@
       "part": null,
       "gen": null,
       "a2": "au chien",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du chien"
     },
     "doll": {
       "unique": "la poupée",
@@ -712,7 +748,8 @@
       "part": null,
       "gen": null,
       "a2": "à la poupée",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la poupée"
     },
     "dolphin": {
       "unique": "le dauphin",
@@ -730,7 +767,8 @@
       "part": null,
       "gen": null,
       "a2": "au dauphin",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du dauphin"
     },
     "donkey": {
       "unique": "l'âne",
@@ -748,7 +786,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'âne",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'âne"
     },
     "duck": {
       "unique": "le canard",
@@ -766,7 +805,8 @@
       "part": null,
       "gen": null,
       "a2": "au canard",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du canard"
     },
     "duckling": {
       "unique": "le caneton",
@@ -784,7 +824,8 @@
       "part": null,
       "gen": null,
       "a2": "au caneton",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du caneton"
     },
     "elephant": {
       "unique": "l'éléphant",
@@ -802,7 +843,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'éléphant",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'éléphant"
     },
     "excavator": {
       "unique": "l'excavatrice",
@@ -820,7 +862,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'excavatrice",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'excavatrice"
     },
     "ferry": {
       "unique": "le ferry",
@@ -838,7 +881,8 @@
       "part": null,
       "gen": null,
       "a2": "au ferry",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du ferry"
     },
     "fig": {
       "unique": "la figue",
@@ -856,7 +900,8 @@
       "part": null,
       "gen": null,
       "a2": "à la figue",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la figue"
     },
     "foal": {
       "unique": "le poulain",
@@ -874,7 +919,8 @@
       "part": null,
       "gen": null,
       "a2": "au poulain",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du poulain"
     },
     "forklift": {
       "unique": "le chariot élévateur",
@@ -892,7 +938,8 @@
       "part": null,
       "gen": null,
       "a2": "au chariot élévateur",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du chariot élévateur"
     },
     "fox": {
       "unique": "le renard",
@@ -910,7 +957,8 @@
       "part": null,
       "gen": null,
       "a2": "au renard",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du renard"
     },
     "gazelle": {
       "unique": "la gazelle",
@@ -928,7 +976,8 @@
       "part": null,
       "gen": null,
       "a2": "à la gazelle",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la gazelle"
     },
     "giraffe": {
       "unique": "la girafe",
@@ -946,7 +995,8 @@
       "part": null,
       "gen": null,
       "a2": "à la girafe",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la girafe"
     },
     "goat": {
       "unique": "la chèvre",
@@ -964,7 +1014,8 @@
       "part": null,
       "gen": null,
       "a2": "à la chèvre",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la chèvre"
     },
     "goose": {
       "unique": "l'oie",
@@ -982,7 +1033,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'oie",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'oie"
     },
     "gorilla": {
       "unique": "le gorille",
@@ -1000,7 +1052,8 @@
       "part": null,
       "gen": null,
       "a2": "au gorille",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du gorille"
     },
     "grapefruit": {
       "unique": "le pamplemousse",
@@ -1018,7 +1071,8 @@
       "part": null,
       "gen": null,
       "a2": "au pamplemousse",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du pamplemousse"
     },
     "helicopter": {
       "unique": "l'hélicoptère",
@@ -1036,7 +1090,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'hélicoptère",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'hélicoptère"
     },
     "hen": {
       "unique": "la poule",
@@ -1054,7 +1109,8 @@
       "part": null,
       "gen": null,
       "a2": "à la poule",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la poule"
     },
     "hippopotamus": {
       "unique": "l'hippopotame",
@@ -1072,7 +1128,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'hippopotame",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'hippopotame"
     },
     "horse": {
       "unique": "le cheval",
@@ -1090,7 +1147,8 @@
       "part": null,
       "gen": null,
       "a2": "au cheval",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du cheval"
     },
     "hyena": {
       "unique": "l'hyène",
@@ -1108,7 +1166,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'hyène",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'hyène"
     },
     "iguana": {
       "unique": "l'iguane",
@@ -1126,7 +1185,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'iguane",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'iguane"
     },
     "jaguar": {
       "unique": "le jaguar",
@@ -1144,7 +1204,8 @@
       "part": null,
       "gen": null,
       "a2": "au jaguar",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du jaguar"
     },
     "jeep": {
       "unique": "la jeep",
@@ -1162,7 +1223,8 @@
       "part": null,
       "gen": null,
       "a2": "à la jeep",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la jeep"
     },
     "jet": {
       "unique": "le jet",
@@ -1180,7 +1242,8 @@
       "part": null,
       "gen": null,
       "a2": "au jet",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du jet"
     },
     "kangaroo": {
       "unique": "le kangourou",
@@ -1198,7 +1261,8 @@
       "part": null,
       "gen": null,
       "a2": "au kangourou",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du kangourou"
     },
     "kite": {
       "unique": "le cerf-volant",
@@ -1216,7 +1280,8 @@
       "part": null,
       "gen": null,
       "a2": "au cerf-volant",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du cerf-volant"
     },
     "kiwi": {
       "unique": "le kiwi",
@@ -1234,7 +1299,8 @@
       "part": null,
       "gen": null,
       "a2": "au kiwi",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du kiwi"
     },
     "koala": {
       "unique": "le koala",
@@ -1252,7 +1318,8 @@
       "part": null,
       "gen": null,
       "a2": "au koala",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du koala"
     },
     "lamb": {
       "unique": "l'agneau",
@@ -1270,7 +1337,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'agneau",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'agneau"
     },
     "lemon": {
       "unique": "le citron",
@@ -1288,7 +1356,8 @@
       "part": null,
       "gen": null,
       "a2": "au citron",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du citron"
     },
     "lemur": {
       "unique": "le lémurien",
@@ -1306,7 +1375,8 @@
       "part": null,
       "gen": null,
       "a2": "au lémurien",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du lémurien"
     },
     "leopard": {
       "unique": "le léopard",
@@ -1324,7 +1394,8 @@
       "part": null,
       "gen": null,
       "a2": "au léopard",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du léopard"
     },
     "lime": {
       "unique": "le citron vert",
@@ -1342,7 +1413,8 @@
       "part": null,
       "gen": null,
       "a2": "au citron vert",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du citron vert"
     },
     "lion": {
       "unique": "le lion",
@@ -1360,7 +1432,8 @@
       "part": null,
       "gen": null,
       "a2": "au lion",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du lion"
     },
     "llama": {
       "unique": "le lama",
@@ -1378,7 +1451,8 @@
       "part": null,
       "gen": null,
       "a2": "au lama",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du lama"
     },
     "mango": {
       "unique": "la mangue",
@@ -1396,7 +1470,8 @@
       "part": null,
       "gen": null,
       "a2": "à la mangue",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la mangue"
     },
     "meerkat": {
       "unique": "le suricate",
@@ -1414,7 +1489,8 @@
       "part": null,
       "gen": null,
       "a2": "au suricate",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du suricate"
     },
     "monkey": {
       "unique": "le singe",
@@ -1432,7 +1508,8 @@
       "part": null,
       "gen": null,
       "a2": "au singe",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du singe"
     },
     "motorcycle": {
       "unique": "la moto",
@@ -1450,7 +1527,8 @@
       "part": null,
       "gen": null,
       "a2": "à la moto",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la moto"
     },
     "nectarine": {
       "unique": "la nectarine",
@@ -1468,7 +1546,8 @@
       "part": null,
       "gen": null,
       "a2": "à la nectarine",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la nectarine"
     },
     "orange": {
       "unique": "l'orange",
@@ -1486,7 +1565,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'orange",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'orange"
     },
     "orangutan": {
       "unique": "l'orang-outan",
@@ -1504,7 +1584,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'orang-outan",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'orang-outan"
     },
     "otter": {
       "unique": "la loutre",
@@ -1522,7 +1603,8 @@
       "part": null,
       "gen": null,
       "a2": "à la loutre",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la loutre"
     },
     "owl": {
       "unique": "le hibou",
@@ -1540,7 +1622,8 @@
       "part": null,
       "gen": null,
       "a2": "au hibou",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du hibou"
     },
     "ox": {
       "unique": "le bœuf",
@@ -1558,7 +1641,8 @@
       "part": null,
       "gen": null,
       "a2": "au bœuf",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du bœuf"
     },
     "panda": {
       "unique": "le panda",
@@ -1576,7 +1660,8 @@
       "part": null,
       "gen": null,
       "a2": "au panda",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du panda"
     },
     "papaya": {
       "unique": "la papaye",
@@ -1594,7 +1679,8 @@
       "part": null,
       "gen": null,
       "a2": "à la papaye",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la papaye"
     },
     "peach": {
       "unique": "la pêche",
@@ -1612,7 +1698,8 @@
       "part": null,
       "gen": null,
       "a2": "à la pêche",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la pêche"
     },
     "pear": {
       "unique": "la poire",
@@ -1630,7 +1717,8 @@
       "part": null,
       "gen": null,
       "a2": "à la poire",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la poire"
     },
     "penguin": {
       "unique": "le manchot",
@@ -1648,7 +1736,8 @@
       "part": null,
       "gen": null,
       "a2": "au manchot",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du manchot"
     },
     "persimmon": {
       "unique": "le kaki",
@@ -1666,7 +1755,8 @@
       "part": null,
       "gen": null,
       "a2": "au kaki",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du kaki"
     },
     "pig": {
       "unique": "le cochon",
@@ -1684,7 +1774,8 @@
       "part": null,
       "gen": null,
       "a2": "au cochon",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du cochon"
     },
     "pineapple": {
       "unique": "l'ananas",
@@ -1702,7 +1793,8 @@
       "part": null,
       "gen": null,
       "a2": "à l'ananas",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de l'ananas"
     },
     "plum": {
       "unique": "la prune",
@@ -1720,7 +1812,8 @@
       "part": null,
       "gen": null,
       "a2": "à la prune",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la prune"
     },
     "pomegranate": {
       "unique": "la grenade",
@@ -1738,7 +1831,8 @@
       "part": null,
       "gen": null,
       "a2": "à la grenade",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la grenade"
     },
     "rabbit": {
       "unique": "le lapin",
@@ -1756,7 +1850,8 @@
       "part": null,
       "gen": null,
       "a2": "au lapin",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du lapin"
     },
     "raccoon": {
       "unique": "le raton laveur",
@@ -1774,7 +1869,8 @@
       "part": null,
       "gen": null,
       "a2": "au raton laveur",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du raton laveur"
     },
     "raspberry": {
       "unique": "la framboise",
@@ -1792,7 +1888,8 @@
       "part": null,
       "gen": null,
       "a2": "à la framboise",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la framboise"
     },
     "rhinoceros": {
       "unique": "le rhinocéros",
@@ -1810,7 +1907,8 @@
       "part": null,
       "gen": null,
       "a2": "au rhinocéros",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du rhinocéros"
     },
     "robot": {
       "unique": "le robot",
@@ -1828,7 +1926,8 @@
       "part": null,
       "gen": null,
       "a2": "au robot",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du robot"
     },
     "rocket": {
       "unique": "la fusée",
@@ -1846,7 +1945,8 @@
       "part": null,
       "gen": null,
       "a2": "à la fusée",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la fusée"
     },
     "rooster": {
       "unique": "le coq",
@@ -1864,7 +1964,8 @@
       "part": null,
       "gen": null,
       "a2": "au coq",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du coq"
     },
     "sailboat": {
       "unique": "le voilier",
@@ -1882,7 +1983,8 @@
       "part": null,
       "gen": null,
       "a2": "au voilier",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du voilier"
     },
     "sandbox": {
       "unique": "le bac à sable",
@@ -1900,7 +2002,8 @@
       "part": null,
       "gen": null,
       "a2": "au bac à sable",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du bac à sable"
     },
     "scooter": {
       "unique": "la trottinette",
@@ -1918,7 +2021,8 @@
       "part": null,
       "gen": null,
       "a2": "à la trottinette",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la trottinette"
     },
     "seagull": {
       "unique": "la mouette",
@@ -1936,7 +2040,8 @@
       "part": null,
       "gen": null,
       "a2": "à la mouette",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la mouette"
     },
     "seal": {
       "unique": "le phoque",
@@ -1954,7 +2059,8 @@
       "part": null,
       "gen": null,
       "a2": "au phoque",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du phoque"
     },
     "ship": {
       "unique": "le navire",
@@ -1972,7 +2078,8 @@
       "part": null,
       "gen": null,
       "a2": "au navire",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du navire"
     },
     "shovel": {
       "unique": "la pelle",
@@ -1990,7 +2097,8 @@
       "part": null,
       "gen": null,
       "a2": "à la pelle",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la pelle"
     },
     "skateboard": {
       "unique": "le skateboard",
@@ -2008,7 +2116,8 @@
       "part": null,
       "gen": null,
       "a2": "au skateboard",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du skateboard"
     },
     "slide": {
       "unique": "le toboggan",
@@ -2026,7 +2135,8 @@
       "part": null,
       "gen": null,
       "a2": "au toboggan",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du toboggan"
     },
     "sloth": {
       "unique": "le paresseux",
@@ -2044,7 +2154,8 @@
       "part": null,
       "gen": null,
       "a2": "au paresseux",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du paresseux"
     },
     "strawberry": {
       "unique": "la fraise",
@@ -2062,7 +2173,8 @@
       "part": null,
       "gen": null,
       "a2": "à la fraise",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la fraise"
     },
     "submarine": {
       "unique": "le sous-marin",
@@ -2080,7 +2192,8 @@
       "part": null,
       "gen": null,
       "a2": "au sous-marin",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du sous-marin"
     },
     "subway": {
       "unique": "le métro",
@@ -2098,7 +2211,8 @@
       "part": null,
       "gen": null,
       "a2": "au métro",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du métro"
     },
     "swan": {
       "unique": "le cygne",
@@ -2116,7 +2230,8 @@
       "part": null,
       "gen": null,
       "a2": "au cygne",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du cygne"
     },
     "swing": {
       "unique": "la balançoire",
@@ -2134,7 +2249,8 @@
       "part": null,
       "gen": null,
       "a2": "à la balançoire",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la balançoire"
     },
     "taxi": {
       "unique": "le taxi",
@@ -2152,7 +2268,8 @@
       "part": null,
       "gen": null,
       "a2": "au taxi",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du taxi"
     },
     "tiger": {
       "unique": "le tigre",
@@ -2170,7 +2287,8 @@
       "part": null,
       "gen": null,
       "a2": "au tigre",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du tigre"
     },
     "tractor": {
       "unique": "le tracteur",
@@ -2188,7 +2306,8 @@
       "part": null,
       "gen": null,
       "a2": "au tracteur",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du tracteur"
     },
     "train": {
       "unique": "le train",
@@ -2206,7 +2325,8 @@
       "part": null,
       "gen": null,
       "a2": "au train",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du train"
     },
     "truck": {
       "unique": "le camion",
@@ -2224,7 +2344,8 @@
       "part": null,
       "gen": null,
       "a2": "au camion",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du camion"
     },
     "turkey": {
       "unique": "la dinde",
@@ -2242,7 +2363,8 @@
       "part": null,
       "gen": null,
       "a2": "à la dinde",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la dinde"
     },
     "turtle": {
       "unique": "la tortue",
@@ -2260,7 +2382,8 @@
       "part": null,
       "gen": null,
       "a2": "à la tortue",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la tortue"
     },
     "van": {
       "unique": "la camionnette",
@@ -2278,7 +2401,8 @@
       "part": null,
       "gen": null,
       "a2": "à la camionnette",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la camionnette"
     },
     "vulture": {
       "unique": "le vautour",
@@ -2296,7 +2420,8 @@
       "part": null,
       "gen": null,
       "a2": "au vautour",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du vautour"
     },
     "watermelon": {
       "unique": "la pastèque",
@@ -2314,7 +2439,8 @@
       "part": null,
       "gen": null,
       "a2": "à la pastèque",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la pastèque"
     },
     "whale": {
       "unique": "la baleine",
@@ -2332,7 +2458,8 @@
       "part": null,
       "gen": null,
       "a2": "à la baleine",
-      "reviewed": true
+      "reviewed": true,
+      "de": "de la baleine"
     },
     "wolf": {
       "unique": "le loup",
@@ -2350,7 +2477,8 @@
       "part": null,
       "gen": null,
       "a2": "au loup",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du loup"
     },
     "woodpecker": {
       "unique": "le pic",
@@ -2368,7 +2496,8 @@
       "part": null,
       "gen": null,
       "a2": "au pic",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du pic"
     },
     "yacht": {
       "unique": "le yacht",
@@ -2386,7 +2515,8 @@
       "part": null,
       "gen": null,
       "a2": "au yacht",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du yacht"
     },
     "zebra": {
       "unique": "le zèbre",
@@ -2404,7 +2534,8 @@
       "part": null,
       "gen": null,
       "a2": "au zèbre",
-      "reviewed": true
+      "reviewed": true,
+      "de": "du zèbre"
     }
   },
   "truth": {
@@ -2514,5 +2645,23 @@
       "title": "Lis et dessine",
       "instruction": "Lis bien chaque phrase. Puis dessine exactement ce qu'elle dit dans la case."
     }
-  }
+  },
+  "fixedForms": {
+    "rightof": "de",
+    "leftof": "de"
+  },
+  "draw2": [
+    {
+      "text": "Dessine {n} {pl} et {n2} {pl2}."
+    },
+    {
+      "text": "Dessine {n} {pl} et {n2} {pl2} dans la case."
+    },
+    {
+      "text": "Dessine {n} {pl} en grand et {n2} {pl2} en petit."
+    },
+    {
+      "text": "Dessine {n} {pl}. Puis dessine {n2} {pl2}."
+    }
+  ]
 }

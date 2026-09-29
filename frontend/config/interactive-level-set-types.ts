@@ -18,6 +18,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'opposites',
   'pronouns',
   'question-words',
+  'read-and-do',
   'word-parts',
 ]);
 
@@ -30,4 +31,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   feelings: ['k332'],
   opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
   'question-words': ['g2357'],   // Ask About the Picture: open questions (Level Set 2026-09-29)
+  'read-and-do': ['g1342'],   // Read and Draw: open drawing (Level Set 2026-09-30)
 };

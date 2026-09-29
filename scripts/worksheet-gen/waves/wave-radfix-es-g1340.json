@@ -1,0 +1,18 @@
+{
+ "id": "wave-radfix-es-g1340",
+ "_note": "2026-09-30 republish (standing rule: pedagogical mistakes are fixed at once): native panels found — 'the fox' named in a true/false statement while the row holds two foxes; a 'between' title over a page without a between sentence; fr 'à droite de le cheval'; de/no check-mark verbs that read as a cross; de/da missing commas; pt 'com um certo'; it unnatural counting statements; nl 'de luipaard'; fi word order; sv/da/fi unclear instructions; pictures a child names otherwise (jaguar, orangutan, antelope, iguana, reindeer; pt vulture/leopard; sv/da/no duckling). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [
+  "fruits"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-340"
+ ]
+}

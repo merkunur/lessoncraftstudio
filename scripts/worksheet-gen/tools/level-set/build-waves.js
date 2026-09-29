@@ -63,6 +63,18 @@ function builds(spec, theme, level, copy, loc, unit = null) {
 }
 
 /**
+ * cfg.reuseThemes (Read and Do, 2026-09-30): a type whose buildable themes run out before five copies per level may put a
+ * SECOND copy on a theme it already used — a new seed, and only when that copy's words (spec.levelSetWords(meta): the
+ * nouns on its row) share at most half with every copy already on that theme at that level. The words of a copy.
+ */
+function wordsOf(spec, theme, level, copy, loc) {
+  const seed = instanceSeed({ typeId: spec.id, theme, difficulty: level, seedEpoch: 1, variant: copy });
+  const b = spec.build({ theme, difficulty: level, locale: loc }, { rng: makeRng(seed), variant: copy });
+  if (typeof spec.levelSetWords !== 'function') throw new Error(`build-waves: reuseThemes needs ${spec.id}.levelSetWords`);
+  return new Set(spec.levelSetWords(b.meta));
+}
+
+/**
  * THEMELESS types (curated sets — Compound Words, 2026-09-28): a copy is a (set, seed) pair. For each
  * face × level it tries the sets × seeds and ACCEPTS a copy only when its page shares at most
  * `maxShared` words with every copy already accepted at that level (the published page included at
@@ -176,6 +188,7 @@ for (const loc of LOCALES) {
     // titles carry theme + set number but not the level, so a (theme, set number) pair may occur once per face
     let nextAll = 1;
     const themeAtCopy = {};
+    const acceptedWords = {};   // cfg.reuseThemes: per level, the words of every accepted copy of this face
     for (const [lv, copies] of Object.entries(face.levels)) {
       if (!cfg.include(loc, id, Number(lv))) continue;
       usedAtLevel[lv] = usedAtLevel[lv] || [];
@@ -210,18 +223,33 @@ for (const loc of LOCALES) {
               if (themeAtCopy[copy] && themeAtCopy[copy].includes(t)) continue;   // same theme + same set number = same title
               // first pass: no near-twin of another face's theme at this level; the fallback still
               // never repeats a theme (family) — it only tolerates a partial noun overlap
-              if (usedAtLevel[lv].some((u) => (avoidOthers ? twin(u, t) : family(u) === family(t)))) continue;
+              // cfg.crossFaceShare (Read and Do, 2026-09-30): the faces are DIFFERENT tasks (circle / two steps / true or false /
+              // draw), so two faces may use one theme at one level — ~11 buildable themes cannot serve 6 faces × 5 copies otherwise
+              if (!cfg.crossFaceShare && usedAtLevel[lv].some((u) => (avoidOthers ? twin(u, t) : family(u) === family(t)))) continue;
               if (builds(spec, t, Number(lv), copy, loc, unit)) pick = t;
             }
             if (pick) break;
           }
           if (pick) break;
         }
+        // cfg.reuseThemes: a second copy on an already used theme, with a page of (mostly) other nouns
+        if (!pick && cfg.reuseThemes) {
+          const seen = (acceptedWords[lv] = acceptedWords[lv] || []);
+          const cands = [...new Set([...(Number(lv) === 2 || !published ? [] : [published]), ...levels[id][lv].map((c) => c.theme), ...usedInFace])].filter((t) => !m.themes[t].bw && !(Number(lv) === 2 && t === published));
+          for (const t of cands) {
+            if (themeAtCopy[copy] && themeAtCopy[copy].includes(t)) continue;
+            if (!builds(spec, t, Number(lv), copy, loc, unit)) continue;
+            const w = wordsOf(spec, t, Number(lv), copy, loc);
+            const clash = seen.filter((x) => x.theme === t).some((x) => { let k = 0; for (const y of w) if (x.words.has(y)) k++; return k > w.size / 2; });
+            if (!clash) { pick = t; break; }
+          }
+        }
         // cfg.allowFewer: the honest maximum — fewer copies at this level, recorded in the report (es two-syllable
         // syllable cards: few Spanish nouns are two syllables), never a filler theme
         if (!pick && cfg.allowFewer) { (short[loc] = short[loc] || []).push(`${id} L${lv}: ${levels[id][lv].length}`); break; }
         if (!pick) throw new Error(`build-waves: no theme for ${id} level ${lv} copy ${copy} in ${loc}`);
         usedInFace.push(pick);
+        if (cfg.reuseThemes) (acceptedWords[lv] = acceptedWords[lv] || []).push({ theme: pick, words: wordsOf(spec, pick, Number(lv), copy, loc) });
         (themeAtCopy[copy] = themeAtCopy[copy] || []).push(pick);
         usedAtLevel[lv].push(pick);
         levels[id][lv].push({ copy, theme: pick, ...(unit ? { unit } : {}) });

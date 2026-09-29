@@ -9,6 +9,12 @@ module.exports = {
   ...base,
   id: 'G1-338',
   slug: 'read-and-do-read-and-circle',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 one named picture per sentence (every noun once, no "all the …" plurals, two pictures stay
+  // uncircled) · L2 = the published page · L3 + the ordinal cue ("the second cat")
+  difficulty: {
+    1: { ...D, cues: ['unique'], nounsMin: 8, nounsMax: 8, maxCount: 1 },
+    2: D,
+    3: { ...D, cues: ['unique', 'all', 'ordinal'], ordMax: 3, nounsMin: 5, nounsMax: 6, maxCount: 3 },
+  },
   i18n: { en: { title: "Read and Circle", instruction: "Read each sentence. Find the picture or pictures it names in the row and draw a circle around them. Then check the little box." } },
 };

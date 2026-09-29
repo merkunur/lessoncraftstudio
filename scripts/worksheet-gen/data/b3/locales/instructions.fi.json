@@ -24,11 +24,12 @@
     },
     {
       "id": "mark",
-      "frame": "Merkitse {obj} ruksilla."
+      "frame": "Merkitse ruksilla {obj}."
     },
     {
       "id": "write",
-      "frame": "Kirjoita, montako {part} on."
+      "frame": "Kirjoita, montako {part} on.",
+      "joinComma": true
     }
   ],
   "fixed": {
@@ -10458,6 +10459,14 @@
         "text": "Neljäs kuva on {obj}.",
         "cue": "ordinal",
         "k": 4
+      },
+      {
+        "text": "Rivissä on {obj}, ja heti sen jälkeen tulee {obj2}.",
+        "cue": "rightof"
+      },
+      {
+        "text": "Rivissä on {obj}, ja heti ennen sitä tulee {obj2}.",
+        "cue": "leftof"
       }
     ]
   },
@@ -10496,7 +10505,7 @@
     },
     "F2": {
       "title": "Lue ja tee: kaksi ohjetta yhdessä",
-      "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun asti ennen kuin aloitat ja tee molemmat kuvariville."
+      "instruction": "Jokainen lause kertoo kaksi tehtävää. Lue lause loppuun ennen kuin aloitat. Tee sitten molemmat tehtävät kuvariviin."
     },
     "F3": {
       "title": "Lue ja tee: ensimmäinen, toinen, välissä",
@@ -10510,5 +10519,19 @@
       "title": "Lue ja piirrä",
       "instruction": "Lue jokainen lause tarkasti. Piirrä sitten laatikkoon juuri se, mitä lauseessa sanotaan."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Piirrä {n} {part} ja {n2} {part2}."
+    },
+    {
+      "text": "Piirrä laatikkoon {n} {part} ja {n2} {part2}."
+    },
+    {
+      "text": "Piirrä {n} isoa {part} ja {n2} pientä {part2}."
+    },
+    {
+      "text": "Piirrä {n} {part}. Piirrä sitten {n2} {part2}."
+    }
+  ]
 }

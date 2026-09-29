@@ -24,11 +24,12 @@
     },
     {
       "id": "mark",
-      "frame": "Kreuze {obj} an."
+      "frame": "Mach einen Haken unter {obj}."
     },
     {
       "id": "write",
-      "frame": "Schreibe, wie viele {pl} es gibt."
+      "frame": "Schreibe, wie viele {pl} es gibt.",
+      "joinComma": true
     }
   ],
   "fixed": {
@@ -2539,5 +2540,19 @@
       "title": "Lies und zeichne",
       "instruction": "Lies jeden Satz genau. Zeichne dann in den Kasten genau das, was er sagt."
     }
-  }
+  },
+  "draw2": [
+    {
+      "text": "Zeichne {n} {pl} und {n2} {pl2}."
+    },
+    {
+      "text": "Zeichne {n} {pl} und {n2} {pl2} in den Kasten."
+    },
+    {
+      "text": "Zeichne {n} große {pl} und {n2} kleine {pl2}."
+    },
+    {
+      "text": "Zeichne {n} {pl}. Zeichne dann {n2} {pl2}."
+    }
+  ]
 }

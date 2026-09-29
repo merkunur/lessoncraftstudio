@@ -2212,7 +2212,7 @@
     "instruction": "Læs hver sætning. Find det eller de billeder, den nævner, i rækken, og tegn en ring om dem. Sæt så kryds i den lille kasse."
   },
   "G1-339": {
-    "title": "Læs og gør: to ting ad gangen",
+    "title": "Læs og gør: to ting efter hinanden",
     "instruction": "Hver sætning siger to ting, du skal gøre. Læs den til ende, før du starter, og gør så begge dele i billedrækken."
   },
   "G1-340": {
@@ -2221,7 +2221,7 @@
   },
   "G1-341": {
     "title": "Læs og tjek: rigtigt eller forkert",
-    "instruction": "Læs hver sætning, og se på billedrækken. Er sætningen rigtig eller forkert? Sæt ring om det rigtige ord."
+    "instruction": "Læs hver sætning, og se på billedrækken. Er sætningen rigtig eller forkert? Sæt ring om det ord, der passer."
   },
   "G1-342": {
     "title": "Læs og tegn",

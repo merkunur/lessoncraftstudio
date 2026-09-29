@@ -4,11 +4,17 @@ const base = require('./G1-308-read-and-do.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"verbs":["circle","cross","underline","mark"],"minVerbs":3,"cues":["ordinal","first","last","between","rightof"],"ordMax":4,"maxPerCue":2} };
+const D = { ...base.difficulty[2], ...{"verbs":["circle","cross","underline","mark"],"minVerbs":3,"cues":["ordinal","first","last","between","rightof"],"ordMax":4,"maxPerCue":2}, mustCues: ['first', 'ordinal:2', 'between'] };   // every word of the title ("first, second, between") is on the page (native panels 2026-09-30)
 module.exports = {
   ...base,
   id: 'G1-340',
   slug: 'read-and-do-first-second-between',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 first / last / 2nd-3rd only (no "between", no "next to") · L2 = the published page ·
+  // L3 seven sentences, every position cue (+ "left of"), a "between" on every page
+  difficulty: {
+    1: { ...D, mustCues: ['first', 'ordinal:2', 'ordinal:3', 'last'], cues: ['ordinal', 'first', 'last'], ordMax: 3, ordWindow: 8, maxPerCue: 4, maxPerPair: 2, nounsMin: 3, nounsMax: 4, maxCount: 3 },
+    2: D,
+    3: { ...D, rows: 7, rowMin: 73, rowGap: 6, fontPx: 17, cues: ['ordinal', 'first', 'last', 'between', 'rightof', 'leftof'], ordMax: 4, ordWindow: 8, maxCount: 4, nounsMin: 5, nounsMax: 5, mustCues: ['first', 'ordinal:2', 'between'] },
+  },
   i18n: { en: { title: "Read and Do: First, Second, Between", instruction: "Start at the flag and count along the row. Find the picture by its place, then do what the sentence says with your pencil." } },
 };

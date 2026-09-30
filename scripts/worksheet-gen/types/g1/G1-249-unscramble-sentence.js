@@ -35,6 +35,24 @@ function mergedBank(loc) {
   return extra.length ? { ...b, frames: [...b.frames, ...extra] } : b;
 }
 
+// Level Set native review 2026-09-30: new pages use concrete, countable picture sets only (no space, weather,
+// places, body parts, people, shapes, drinks, flowers …) — "My mum has two big clouds" is not a Grade 1 sentence.
+const LS_THEMES = new Set(['accessories', 'animals', 'apparel', 'around the house', 'at the supermarket', 'bakery', 'birds', 'birds 2',
+  'breakfast', 'classroom', 'clothing', 'dessert', 'desserts and sweets', 'dinosaurs', 'farm animals', 'food', 'forest creatures',
+  'fruits', 'furniture', 'household', 'insects and bugs', 'kitchen', 'kitchen tools', 'ocean life', 'pets', 'reptiles and amphibians',
+  'sea life', 'tools', 'toys', 'vegetables', 'zoo animals']);
+// gift / "needs" frames (objectsOnly) never take a living thing: "Grandpa gave me two big lions"
+const LS_ANIMAL_THEMES = new Set(['animals', 'birds', 'birds 2', 'dinosaurs', 'farm animals', 'forest creatures', 'insects and bugs',
+  'ocean life', 'pets', 'reptiles and amphibians', 'sea life', 'zoo animals']);
+// nouns the native review flagged as unreadable, odd or wrongly inflected for Grade 1 in some locale
+const LS_BLOCK = new Set(['medicine', 'cocktail', 'evergreen', 'vanity', 'dice', 'plunger', 'cast', 'columbine', 'heptagon', 'marigold', 'stage', 'ufo', 'chainsaw', 'sickle',
+  'nail',   // one key for the fingernail AND the tools-theme metal nail: 8 locales print the fingernail word under the metal nail
+  'cape']); // sv plural «caper» reads as capers
+
+// published-bank wish / gift frames, treated as objectsOnly on NEW pages only (the published pages are unchanged)
+const LS_PUB_OBJECTS = { es: ['s16'], pt: ['s7'], it: ['s13', 's15'], da: ['s9'], no: ['s14'], fi: ['s8'] };   // fi s8 «kantaa» (carries a kangaroo)
+const themeFamily = (t) => String(t).replace(/ bw( d+)?$/i, '').toLowerCase();
+
 module.exports = {
   id: 'G1-249',
   slug: 'unscramble-the-sentence',
@@ -61,6 +79,8 @@ module.exports = {
     if (!SENTENCES[loc]) throw new Error(`G1-249: no sentence bank for ${loc}`);
     const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
     const bank = published ? SENTENCES[loc] : mergedBank(loc);
+    if (!published && !LS_THEMES.has(themeFamily(theme))) throw new Error(`G1-249: theme ${theme} is not a Level Set sentence theme`);
+    const animalTheme = LS_ANIMAL_THEMES.has(themeFamily(theme));
     // the screen version / answer key wrap the SAME printed instance (the print build, then its meta drives both)
     if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
@@ -70,10 +90,12 @@ module.exports = {
     const entries = entriesFor(theme, loc).filter(countable).filter((e) => !/\s/.test(e.singular.trim()) && !/\s/.test(e.plural.trim()))
       // Level Set (new pages only): a Grade 1 child must be able to READ the noun — no 11+-letter words
       // (a Danish dinosaur page printed "argentinosauruser")
-      .filter((e) => published || ([...e.plural.trim()].length <= 10 && [...e.singular.trim()].length <= 10));
+      .filter((e) => published || ([...e.plural.trim()].length <= 10 && [...e.singular.trim()].length <= 10))
+      // native review: blocked nouns + all-caps acronyms (a lowercased "ufo")
+      .filter((e) => published || (!LS_BLOCK.has(e.vocabKey) && !/^[A-ZÆØÅÄÖ]{2,}$/.test(e.singular.trim())));
     if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
     const frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng,
-      filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok; } });
+      filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok && !(animalTheme && !published && (f.objectsOnly || (LS_PUB_OBJECTS[loc] || []).includes(f.id))); } });
     const nouns = rng.sample(entries, d.lanes);
     const lanes = frames.map((frame, i) => {
       const e = nouns[i];

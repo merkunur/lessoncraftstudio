@@ -38,6 +38,9 @@ function normalizeNoun(noun) {
 }
 
 /** Vocab keys are hyphenated lowercase ("french-fries"); files use spaces. */
+// one filename, two pictures: the tools-theme nail is a METAL nail, not the fingernail of `nail` (8 locales printed the fingernail word)
+const THEME_NOUN_KEY = { 'tools|nail': 'metal-nail', 'tools bw|nail': 'metal-nail' };
+
 function nounToVocabKey(noun, vocab) {
   const candidates = [
     noun.toLowerCase().replace(/\s+/g, '-'),
@@ -91,7 +94,7 @@ async function pullTheme(theme, nouns, vocab, manifest) {
         } else skipped++;
         const meta = await sharp(dest).metadata();
         const key = normalizeNoun(noun);
-        if (!entry.nouns[key]) entry.nouns[key] = { files: [], vocabKey: nounToVocabKey(key, vocab), px: [meta.width, meta.height], alpha: !!meta.hasAlpha };
+        if (!entry.nouns[key]) entry.nouns[key] = { files: [], vocabKey: THEME_NOUN_KEY[theme + '|' + key] || nounToVocabKey(key, vocab), px: [meta.width, meta.height], alpha: !!meta.hasAlpha };
         entry.nouns[key].files.push(file);
       } catch (e) {
         failed++;

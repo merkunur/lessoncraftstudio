@@ -1,0 +1,28 @@
+{
+ "id": "wave-nailfix-da-k-324-d2-v178",
+ "_note": "2026-09-30 republish (standing rule): the tools-theme picture is a METAL nail but carried the vocab key nail (fingernail) — 8 locales printed the fingernail word under it. New key metal-nail. Same coordinate as the live deck; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-324"
+ ],
+ "indexable": false,
+ "interactive": false,
+ "levels": {
+  "K-324": {
+   "2": [
+    {
+     "copy": 178,
+     "theme": "tools"
+    }
+   ]
+  }
+ }
+}

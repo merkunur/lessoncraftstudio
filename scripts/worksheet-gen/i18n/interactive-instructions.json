@@ -757,5 +757,20 @@
    "da": "Tryk på det billede, ordet rimer på.",
    "fi": "Napauta kuvaa, jonka kanssa sana rimmaa."
   }
+ },
+ "sentence-building": {
+  "order": {
+   "en": "Tap the words in the right order to make the sentence.",
+   "de": "Tippe die Wörter in der richtigen Reihenfolge an, sodass ein Satz entsteht.",
+   "es": "Toca las palabras en el orden correcto para formar la oración.",
+   "fr": "Touche les mots dans le bon ordre pour former la phrase.",
+   "it": "Tocca le parole nell’ordine giusto per formare la frase.",
+   "pt": "Toque nas palavras na ordem certa para formar a frase.",
+   "nl": "Tik de woorden in de goede volgorde aan, zodat je een zin maakt.",
+   "sv": "Tryck på orden i rätt ordning så att det blir en mening.",
+   "da": "Tryk på ordene i den rigtige rækkefølge, så de danner en sætning.",
+   "no": "Trykk på ordene i riktig rekkefølge, slik at de danner en setning.",
+   "fi": "Napauta sanoja oikeassa järjestyksessä niin, että niistä tulee lause."
+  }
  }
 }

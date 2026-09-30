@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-283',
   slug: 'unscramble-the-sentence-no-clues',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 three lanes of 3–4 words · L2 published · L3 6–7 words (no clues). Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, lanes: 3, minTok: 3, maxTok: 4, font: 20, tileH: 46, icon: 80, rulH: 78, glyphH: 30 }, 2: D, 3: { ...D, minTok: 6, maxTok: 7 } },
   i18n: { en: { title: "Unscramble the Sentence: No Clues", instruction: "No capital, no full stop. Find the one order that works." } },
 };

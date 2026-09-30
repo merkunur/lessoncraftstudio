@@ -15,6 +15,25 @@ const { wordTiles, rulingBlock } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, fileUri, countable } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const SB = require('../../lib/sentence-bank.js');
+const SBL_SCREEN = require('../../lib/sentence-building-screen.js');
+
+/*
+ * Level Set 2026-09-30: new copies read the published sentence bank + new one-order unscramble frames
+ * (data/b2/unscramble-frames-levelset.json); the published pages (level 2, copy 1) read the published bank only.
+ */
+let _ls;
+function levelSetFrames() {
+  if (_ls === undefined) {
+    const p = require('path').join(__dirname, '..', '..', 'data', 'b2', 'unscramble-frames-levelset.json');
+    _ls = require('fs').existsSync(p) ? JSON.parse(require('fs').readFileSync(p, 'utf8')) : {};
+  }
+  return _ls;
+}
+function mergedBank(loc) {
+  const b = SENTENCES[loc];
+  const extra = (levelSetFrames()[loc] || []).map((x) => ({ ...x, kind: 'simple', uses: ['unscramble'] }));
+  return extra.length ? { ...b, frames: [...b.frames, ...extra] } : b;
+}
 
 module.exports = {
   id: 'G1-249',
@@ -22,7 +41,7 @@ module.exports = {
   gradeBand: 'G1',
   assetClass: 'icon-placement',
   exerciseType: 'sentence-building',
-  themeAxis: { applicable: true, minNouns: 4, excludeBw: true },
+  themeAxis: { applicable: true, minNouns: 4, excludeBw: true, levelSetBw: true },   // Level Set: the picture is one noun icon — B&W themes serve new copies
   difficulty: {
     1: { lanes: 3, minTok: 3, maxTok: 5, showCap: true, showEnd: true, font: 20, tileH: 46, icon: 80, rulH: 78, glyphH: 30 },
     2: { lanes: 4, minTok: 4, maxTok: 6, showCap: true, showEnd: false, font: 18, tileH: 40, icon: 64, rulH: 64, glyphH: 26 },
@@ -39,9 +58,19 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
-    const bank = SENTENCES[loc];
-    if (!bank) throw new Error(`G1-249: no sentence bank for ${loc}`);
-    const entries = entriesFor(theme, loc).filter(countable).filter((e) => !/\s/.test(e.singular.trim()) && !/\s/.test(e.plural.trim()));
+    if (!SENTENCES[loc]) throw new Error(`G1-249: no sentence bank for ${loc}`);
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const bank = published ? SENTENCES[loc] : mergedBank(loc);
+    // the screen version / answer key wrap the SAME printed instance (the print build, then its meta drives both)
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return SBL_SCREEN.screenOrKey(built, ctx, loc);
+    }
+    const laneMeta = [];
+    const entries = entriesFor(theme, loc).filter(countable).filter((e) => !/\s/.test(e.singular.trim()) && !/\s/.test(e.plural.trim()))
+      // Level Set (new pages only): a Grade 1 child must be able to READ the noun — no 11+-letter words
+      // (a Danish dinosaur page printed "argentinosauruser")
+      .filter((e) => published || ([...e.plural.trim()].length <= 10 && [...e.singular.trim()].length <= 10));
     if (entries.length < d.lanes) throw new Error(`G1-249: theme ${theme}/${loc} has ${entries.length} single-word countable nouns < ${d.lanes}`);
     const frames = SB.pickFrames(bank, { kind: 'simple', use: 'unscramble', count: d.lanes, rng,
       filter: (f) => { const n = SB.tokenize(f.text).length; return n >= d.minTok && n <= d.maxTok; } });
@@ -80,14 +109,24 @@ module.exports = {
       let order, guard = 0;
       do { order = rng.shuffle(toks.map((_, k) => k)); guard++; }
       while ((order.every((v, k) => v === k) || order[0] === 0) && guard < 50);
+      laneMeta.push({ frame: frame.id, noun: e.vocabKey, src: fileUri(theme, e.noun), names: [].concat(name), canonical, shown, order });
       return `<div class="ws-lane" style="display:grid;grid-template-columns:${d.icon}px 1fr;gap:14px;align-items:center" data-lcs-item data-lcs-frame="${frame.id}" data-lcs-canonical="${canonical.replace(/"/g, '&quot;')}" data-lcs-caps="${caps.join(',')}" data-lcs-end="${end}">` +
         `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-noun="${e.vocabKey}" style="width:${d.icon}px;height:${d.icon}px">` +
         `<div style="display:flex;flex-direction:column;gap:10px;min-width:0">${wordTiles({ tokens: shown, order, fontPx: d.font, tileH: d.tileH })}${rulingBlock({ rows: 1, w: 660 - d.icon - 14 - 32, h: d.rulH, glyphH: d.glyphH })}</div></div>`;
     });
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:16px" data-ws-content data-lcs-showcap="${d.showCap ? 1 : 0}" data-lcs-showend="${d.showEnd ? 1 : 0}">${lanes.join('')}</div>`,
-      meta: {},
+      meta: published ? {} : { showCap: !!d.showCap, showEnd: !!d.showEnd, lanes: laneMeta },
     };
+  },
+  mergedBank: (loc) => mergedBank(loc),
+  /** What makes a copy different (build-waves): its sentence frames + its nouns. */
+  levelSetWords(meta) { return (meta.lanes || []).flatMap((l) => [l.frame, l.noun]); },
+  interactive: {
+    kind: 'tap-spell', item: '[data-lcs-item]', tile: '[data-lcs-tile]', slot: '[data-lcs-slot]',
+    answerAttr: 'data-lcs-word', labelAttr: 'data-lcs-frame', metaAttrs: ['data-lcs-frame', 'data-lcs-noun', 'data-lcs-names', 'data-lcs-rules'],
+    instructionKey: 'order', screenHeight: 6400,
+    oracle: (items, l) => SBL_SCREEN.oracle(items, (l || 'en').slice(0, 2), mergedBank((l || 'en').slice(0, 2))),
   },
 
   async verify(page) {
@@ -129,7 +168,8 @@ module.exports = {
           let exp = toks[k];
           if (!showEnd && k === toks.length - 1) exp = exp.replace(/[\s  ]*[.?!]$/, '');
           if (!showCap && k === 0 && !caps.includes(0)) exp = exp.toLocaleLowerCase(document.documentElement.lang || 'en').replace(/^[¿¡]/, '');
-          if (t.textContent.trim() !== exp.trim()) fails.push(`lane ${i + 1}: tile "${t.textContent.trim()}" != "${exp}"`);
+          // the page's French typography joins a hyphen to its next letter with U+2060 (peux-⁠tu): not a text change
+          if (t.textContent.trim().replace(/⁠/g, '') !== exp.trim()) fails.push(`lane ${i + 1}: tile "${t.textContent.trim()}" != "${exp}"`);
           if (parseFloat(getComputedStyle(t).fontSize) < 16) fails.push(`lane ${i + 1}: tile font < 16px`);
         });
         if (!showEnd && tiles.some((t) => /[.?!]$/.test(t.textContent.trim()))) fails.push(`lane ${i + 1}: end mark shown`);

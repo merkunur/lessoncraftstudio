@@ -510,52 +510,6 @@
       ]
     },
     {
-      "id": "et",
-      "rime": "-et",
-      "sound": "ɛt",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "cap",
-          "word": "pet",
-          "pic": {
-            "theme": "clothing",
-            "noun": "cap"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "net",
-          "word": "net",
-          "pic": {
-            "theme": "beach",
-            "noun": "net"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "vet",
-        "zet",
-        "wet"
-      ],
-      "nearMiss": [
-        {
-          "vocabKey": "pen",
-          "word": "pen",
-          "pic": {
-            "theme": "classroom",
-            "noun": "pen"
-          },
-          "picOpened": true
-        }
-      ]
-    },
-    {
       "id": "uis",
       "rime": "-uis",
       "sound": "œys",
@@ -1182,18 +1136,6 @@
         "vocabKey": "vest"
       },
       "rhymeWith": "nest",
-      "cueFree": false
-    },
-    {
-      "id": "pet-net",
-      "lines": [
-        "De visser draagt een pet",
-        "en gooit een groot rond ___"
-      ],
-      "answer": {
-        "vocabKey": "net"
-      },
-      "rhymeWith": "pet",
       "cueFree": false
     },
     {

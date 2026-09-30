@@ -10661,26 +10661,6 @@
      "picOpened": true
     }
    ],
-   "ena": [
-    {
-     "vocabKey": "comb",
-     "word": "pente",
-     "pic": {
-      "theme": "around the house",
-      "noun": "comb"
-     },
-     "picOpened": true
-    },
-    {
-     "vocabKey": "paper",
-     "word": "papel",
-     "pic": {
-      "theme": "classroom",
-      "noun": "paper"
-     },
-     "picOpened": true
-    }
-   ],
    "olho": [
     {
      "vocabKey": "ear",
@@ -12557,52 +12537,6 @@
     ]
    },
    {
-    "id": "ls-aa",
-    "rime": "-å",
-    "sound": "oː",
-    "cap": 8,
-    "members": [
-     {
-      "vocabKey": "toe",
-      "word": "tå",
-      "pic": {
-       "theme": "body parts",
-       "noun": "toe"
-      },
-      "sameSpelling": true,
-      "productive": true,
-      "picOpened": true
-     },
-     {
-      "vocabKey": "dresser",
-      "word": "byrå",
-      "pic": {
-       "theme": "around the house",
-       "noun": "dresser"
-      },
-      "sameSpelling": true,
-      "productive": true,
-      "picOpened": true
-     }
-    ],
-    "extra": [
-     "strå",
-     "vrå",
-     "å"
-    ],
-    "nearMiss": [
-     {
-      "vocabKey": "train",
-      "word": "tåg",
-      "pic": {
-       "theme": "vehicles",
-       "noun": "train"
-      },
-      "picOpened": true
-     }
-    ]
-   },
-   {
     "id": "ls-o",
     "rime": "-o",
     "sound": "uː",
@@ -13225,51 +13159,6 @@
     ]
    },
    {
-    "id": "ls-ala",
-    "rime": "-ala",
-    "sound": "ɑːla",
-    "cap": 8,
-    "members": [
-     {
-      "vocabKey": "koala",
-      "word": "koala",
-      "pic": {
-       "theme": "zoo animals",
-       "noun": "koala"
-      },
-      "sameSpelling": true,
-      "productive": false,
-      "picOpened": true
-     },
-     {
-      "vocabKey": "swallow",
-      "word": "svala",
-      "pic": {
-       "theme": "birds 2",
-       "noun": "swallow"
-      },
-      "sameSpelling": true,
-      "productive": false,
-      "picOpened": true
-     }
-    ],
-    "extra": [
-     "gala",
-     "skala"
-    ],
-    "nearMiss": [
-     {
-      "vocabKey": "swan",
-      "word": "svan",
-      "pic": {
-       "theme": "birds 2",
-       "noun": "swan"
-      },
-      "picOpened": true
-     }
-    ]
-   },
-   {
     "id": "ls-aerna",
     "rime": "-ärna",
     "sound": "æːɳa",
@@ -13642,17 +13531,7 @@
      "picOpened": true
     }
    ],
-   "åg": [
-    {
-     "vocabKey": "toe",
-     "word": "tå",
-     "pic": {
-      "theme": "body parts",
-      "noun": "toe"
-     },
-     "picOpened": true
-    }
-   ],
+   "åg": [],
    "in": [
     {
      "vocabKey": "canoe",
@@ -13814,30 +13693,6 @@
     "cueFree": false
    },
    {
-    "id": "ls-stra-ta",
-    "lines": [
-     "Myran klättrar upp på ett strå",
-     "och sen ner på min stora ___"
-    ],
-    "answer": {
-     "vocabKey": "toe"
-    },
-    "rhymeWith": "strå",
-    "cueFree": false
-   },
-   {
-    "id": "ls-vra-byra",
-    "lines": [
-     "Strumporna ligger slängda i en vrå",
-     "lägg dem i lådan i din ___"
-    ],
-    "answer": {
-     "vocabKey": "dresser"
-    },
-    "rhymeWith": "vrå",
-    "cueFree": false
-   },
-   {
     "id": "ls-bageri-bi",
     "lines": [
      "Vi går förbi ett bageri",
@@ -13955,18 +13810,6 @@
      "vocabKey": "tongue"
     },
     "rhymeWith": "klunga",
-    "cueFree": false
-   },
-   {
-    "id": "ls-gala-koala",
-    "lines": [
-     "Djuren på zoo har en stor gala",
-     "men i trädet sover en ___"
-    ],
-    "answer": {
-     "vocabKey": "koala"
-    },
-    "rhymeWith": "gala",
     "cueFree": false
    },
    {
@@ -14904,30 +14747,6 @@
    }
   ],
   "addMembers": {
-   "ett": [
-    {
-     "vocabKey": "toilet",
-     "word": "toalett",
-     "pic": {
-      "theme": "around the house",
-      "noun": "toilet"
-     },
-     "sameSpelling": true,
-     "productive": true,
-     "picOpened": true
-    },
-    {
-     "vocabKey": "skeleton",
-     "word": "skjelett",
-     "pic": {
-      "theme": "body parts",
-      "noun": "skeleton"
-     },
-     "sameSpelling": true,
-     "productive": true,
-     "picOpened": true
-    }
-   ],
    "in": [
     {
      "vocabKey": "penguin",

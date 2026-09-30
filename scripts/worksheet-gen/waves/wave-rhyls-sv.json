@@ -1,0 +1,75 @@
+{
+  "id": "wave-rhyls-sv",
+  "_note": "2026-09-30 republish (standing rule): Rhyming Words Level Set copies that showed a misread picture (lead page check: toe, swallow). Same coordinates; published as UPDATES.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-309",
+    "K-352"
+  ],
+  "levels": {
+    "G1-309": {
+      "1": [
+        {
+          "copy": 10,
+          "unit": "att",
+          "seedVariant": 6
+        },
+        {
+          "copy": 9,
+          "unit": "att",
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "att",
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 14,
+          "unit": "att",
+          "seedVariant": 5
+        },
+        {
+          "copy": 15,
+          "unit": "att",
+          "seedVariant": 6
+        },
+        {
+          "copy": 16,
+          "unit": "att",
+          "seedVariant": 10
+        }
+      ]
+    },
+    "K-352": {
+      "2": [
+        {
+          "copy": 4,
+          "unit": "att",
+          "seedVariant": 3
+        },
+        {
+          "copy": 5,
+          "unit": "att",
+          "seedVariant": 5
+        }
+      ]
+    }
+  }
+}

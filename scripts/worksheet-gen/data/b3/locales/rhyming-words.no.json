@@ -387,51 +387,6 @@
       ]
     },
     {
-      "id": "ett",
-      "rime": "-ett",
-      "sound": "et",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "rocket",
-          "word": "rakett",
-          "pic": {
-            "theme": "vehicles",
-            "noun": "rocket"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "net",
-          "word": "nett",
-          "pic": {
-            "theme": "beach",
-            "noun": "net"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "sett",
-        "brett"
-      ],
-      "nearMiss": [
-        {
-          "vocabKey": "nose",
-          "word": "nese",
-          "pic": {
-            "theme": "body parts",
-            "noun": "nose"
-          },
-          "picOpened": true
-        }
-      ]
-    },
-    {
       "id": "aal",
       "rime": "-ål",
       "sound": "oːl",

@@ -1,0 +1,51 @@
+{
+  "id": "wave-rhyls-pt",
+  "_note": "2026-09-30 republish (standing rule): Rhyming Words Level Set copies that showed a misread picture (lead page check: reindeer). Same coordinates; published as UPDATES.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-309",
+    "G1-346",
+    "K-352"
+  ],
+  "levels": {
+    "G1-309": {
+      "1": [
+        {
+          "copy": 9,
+          "unit": "ao",
+          "seedVariant": 3
+        }
+      ]
+    },
+    "G1-346": {
+      "2": [
+        {
+          "copy": 3,
+          "unit": "ao",
+          "seedVariant": 2
+        }
+      ]
+    },
+    "K-352": {
+      "2": [
+        {
+          "copy": 3,
+          "unit": "ao",
+          "seedVariant": 2
+        }
+      ]
+    }
+  }
+}

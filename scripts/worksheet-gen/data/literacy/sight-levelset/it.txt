@@ -1,5 +1,5 @@
 # Sight Words Level Set — it. word|six sentences; the word exactly once. Rows 1-24 = the published list.
-io|Io ho un cane.|Posso giocare anch'io?|Io mangio la mela.|Io sono felice.|Oggi leggo io.|Io vado a scuola.
+io|Io ho un cane.|Posso giocare anch'io?|Io mangio la mela.|Io sono felice.|Oggi leggo io.|Io vado a scuola.|Io disegno un gatto.
 noi|Noi giochiamo insieme.|Vieni con noi!|Noi abbiamo un gatto.|Noi andiamo al mare.|Noi cantiamo forte.|La nonna pensa a noi.
 non|Non ho fame.|Il cane non abbaia.|Oggi non piove.|Non corro.|Luca non è qui.|Non lo so.
 che|Credo che sia tardi.|So che sei bravo.|La mamma dice che è tardi.|Il gatto che dorme è grigio.|Penso che sia facile.|Vedo che hai freddo.
@@ -32,7 +32,7 @@ le|Le mele sono rosse.|Vedo le stelle.|Dove sono le chiavi?|Le bambine cantano.|
 un|Ho un cane.|Vedo un uccello.|Papà ha un camion.|C'è un gatto qui.|Mangio un biscotto.|È un bel giorno.
 uno|Ho uno zaino.|Vedo uno scoiattolo.|Uno, due, tre!|Ne voglio uno.|Luca ha uno zio.|C'è uno gnomo nel libro.
 e|Mamma e papà sono qui.|Corro e salto.|Il cane e il gatto giocano.|Pane e latte, per favore.|Anna e Luca ridono.|Rosso e blu.
-è|Il cielo è blu.|Dov'è papà?|Oggi è festa.|Il gatto è nero.|Anna è contenta.|La zuppa è calda.
+è|Il cielo è blu.|Dov'è papà?|Oggi è festa.|Il gatto è nero.|Anna è contenta.|La zuppa è calda.|La casa è grande.
 di|Il libro di Anna.|Un bicchiere di latte.|La casa di nonna.|È ora di dormire.|Ho voglia di giocare.|Un pezzo di torta.
 a|Vado a scuola.|Andiamo a casa.|Do l'acqua a Fido.|Penso a te.|Gioco a palla.|Torno a mezzogiorno.
 da|Vado da nonna.|Vengo da scuola.|Andiamo da Luca.|Bevo da un bicchiere.|Esco da casa.|Il gatto sta da solo.
@@ -76,7 +76,7 @@ papà|Il mio papà è alto.|Papà gioca con me.|Ciao, papà.|Dov'è papà?|Papà
 cane|Il mio cane è marrone.|Il cane abbaia.|Ho un cane.|Vedo un cane grande.|Il cane mangia.|Gioco con il cane.
 gatto|Il gatto dorme.|Il mio gatto è nero.|Vedo un gatto.|Il gatto mangia il pesce.|Ho un gatto.|Il gatto gioca.
 sole|Il sole splende.|Oggi c'è il sole.|Vedo il sole.|Il sole è giallo.|Gioco al sole.|Sorge il sole.
-acqua|Bevo l'acqua.|L'acqua è fredda.|Dammi l'acqua, per favore.|Il pesce vive in acqua.|C'è acqua nel bicchiere.|Mi piace l'acqua.
+acqua|Bevo l'acqua.|L'acqua è fredda.|Dammi l'acqua, per favore.|Il pesce vive in acqua.|C'è acqua nel bicchiere.|Mi piace l'acqua.|Nel vaso c'è acqua fresca.|La pianta ha bisogno di acqua.|Nel mare c'è tanta acqua.|Il cane beve acqua fresca.
 pane|Mangio il pane.|Il pane è caldo.|Voglio pane e formaggio.|Papà compra il pane.|Il pane è buono.|Do il pane alle anatre.
 grande|La casa è grande.|Ho un cane grande.|L'elefante è grande.|È un albero grande.|Sono grande ormai.|Voglio una pizza grande.
 piccolo|Il topo è piccolo.|Ho un gatto piccolo.|La mia camera ha un letto piccolo.|È un pesce piccolo.|Sono ancora piccolo.|Vedo un uccello piccolo.

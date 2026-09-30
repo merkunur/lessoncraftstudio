@@ -2808,7 +2808,7 @@
    "suis",
    "es",
    "sont",
-   "ai",
+   "maman",
    "as",
    "ont",
    "va",
@@ -2923,7 +2923,8 @@
     "Où est-il ?",
     "Il pleut beaucoup.",
     "Il a un vélo rouge.",
-    "Aujourd'hui, il fait beau."
+    "Aujourd'hui, il fait beau.",
+    "Il dort dans son lit."
    ],
    "elle": [
     "Elle chante bien.",
@@ -2931,7 +2932,8 @@
     "Où est-elle ?",
     "Elle lit un livre.",
     "Elle est gentille.",
-    "Elle court vite."
+    "Elle court vite.",
+    "Elle joue avec Léo."
    ],
    "je": [
     "Je suis content.",
@@ -3075,7 +3077,8 @@
     "Je vous vois.",
     "Vous avez un chien ?",
     "Merci à vous.",
-    "Vous jouez bien."
+    "Vous jouez bien.",
+    "Vous chantez très bien."
    ],
    "ils": [
     "Ils jouent au ballon.",
@@ -3083,7 +3086,8 @@
     "Où sont-ils ?",
     "Ils mangent des pommes.",
     "Ils ont un chat.",
-    "Ils chantent fort."
+    "Ils chantent fort.",
+    "Ils courent dans le parc."
    ],
    "elles": [
     "Elles dansent.",
@@ -3091,7 +3095,8 @@
     "Où sont-elles ?",
     "Elles ont des poupées.",
     "Elles lisent un livre.",
-    "Elles rient beaucoup."
+    "Elles rient beaucoup.",
+    "Elles jouent à la balle."
    ],
    "tu": [
     "Tu es mon ami.",
@@ -3099,7 +3104,8 @@
     "Où vas-tu ?",
     "Tu as un chat ?",
     "Tu cours vite.",
-    "Tu es grand."
+    "Tu es grand.",
+    "Tu dessines un chat."
    ],
    "moi": [
     "Viens avec moi.",
@@ -3107,7 +3113,10 @@
     "Moi, j'aime le chocolat.",
     "Donne-moi la balle.",
     "Attends-moi, Léo !",
-    "Regarde-moi bien !"
+    "Regarde-moi bien !",
+    "Joue avec moi.",
+    "Ce gâteau est pour moi ?",
+    "Léo est à côté de moi."
    ],
    "toi": [
     "C'est pour toi.",
@@ -3115,7 +3124,8 @@
     "Je joue avec toi.",
     "Toi, tu es drôle.",
     "Je pense à toi.",
-    "Assieds-toi ici."
+    "Assieds-toi ici.",
+    "Ce livre est à toi."
    ],
    "mon": [
     "C'est mon chien.",
@@ -3219,7 +3229,8 @@
     "J'y vais.",
     "Il y a trois pommes.",
     "Il y a du soleil.",
-    "Tu y vas ?"
+    "Tu y vas ?",
+    "Il y a une fleur."
    ],
    "par": [
     "Je passe par la porte.",
@@ -3387,7 +3398,8 @@
     "Je sais où il est.",
     "Où sont mes bottes ?",
     "Où habite Léo ?",
-    "D'où viens-tu ?"
+    "D'où viens-tu ?",
+    "Où est ma balle ?"
    ],
    "alors": [
     "Alors, on joue ?",
@@ -3523,7 +3535,8 @@
     "Tu es grand.",
     "Tu es là ?",
     "Tu es mon ami.",
-    "Tu es drôle."
+    "Tu es drôle.",
+    "Tu es très fort."
    ],
    "sont": [
     "Ils sont contents.",
@@ -3533,13 +3546,13 @@
     "Les chats sont gris.",
     "Elles sont amies."
    ],
-   "ai": [
-    "J'ai un chien.",
-    "J'ai faim.",
-    "J'ai cinq ans.",
-    "J'ai froid.",
-    "J'ai une idée !",
-    "J'ai un vélo rouge."
+   "maman": [
+    "Maman chante.",
+    "J'aime ma maman.",
+    "Maman lit une histoire.",
+    "Où est maman ?",
+    "Je fais un câlin à maman.",
+    "Maman prépare le repas."
    ],
    "as": [
     "Tu as un chat ?",
@@ -3733,7 +3746,8 @@
     "Io mangio la mela.",
     "Io sono felice.",
     "Oggi leggo io.",
-    "Io vado a scuola."
+    "Io vado a scuola.",
+    "Io disegno un gatto."
    ],
    "noi": [
     "Noi giochiamo insieme.",
@@ -3997,7 +4011,8 @@
     "Oggi è festa.",
     "Il gatto è nero.",
     "Anna è contenta.",
-    "La zuppa è calda."
+    "La zuppa è calda.",
+    "La casa è grande."
    ],
    "di": [
     "Il libro di Anna.",
@@ -4349,7 +4364,11 @@
     "Dammi l'acqua, per favore.",
     "Il pesce vive in acqua.",
     "C'è acqua nel bicchiere.",
-    "Mi piace l'acqua."
+    "Mi piace l'acqua.",
+    "Nel vaso c'è acqua fresca.",
+    "La pianta ha bisogno di acqua.",
+    "Nel mare c'è tanta acqua.",
+    "Il cane beve acqua fresca."
    ],
    "pane": [
     "Mangio il pane.",

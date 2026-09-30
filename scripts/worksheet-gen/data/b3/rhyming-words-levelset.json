@@ -13468,17 +13468,6 @@
      "sameSpelling": true,
      "productive": true,
      "picOpened": true
-    },
-    {
-     "vocabKey": "pool",
-     "word": "pool",
-     "pic": {
-      "theme": "summer",
-      "noun": "pool"
-     },
-     "sameSpelling": false,
-     "productive": true,
-     "picOpened": true
     }
    ],
    "et": [
@@ -13942,18 +13931,6 @@
      "vocabKey": "hair"
     },
     "rhymeWith": "år",
-    "cueFree": false
-   },
-   {
-    "id": "ls-fjol-pool",
-    "lines": [
-     "Vi badade i havet i fjol",
-     "i år badar vi i en ___"
-    ],
-    "answer": {
-     "vocabKey": "pool"
-    },
-    "rhymeWith": "fjol",
     "cueFree": false
    },
    {

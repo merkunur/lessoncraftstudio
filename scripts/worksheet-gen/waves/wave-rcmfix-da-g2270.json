@@ -1,0 +1,16 @@
+{
+ "id": "wave-rcmfix-da-g2270",
+ "_note": "2026-09-30 republish (standing rule: pedagogical mistakes are fixed at once), Reading Comprehension audit: da-sofia-paa-biblioteket: the librarian no longer stamps the book (library card). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-270"
+ ]
+}

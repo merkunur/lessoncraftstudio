@@ -1,0 +1,16 @@
+{
+ "id": "wave-rcmfix-fi-g2254",
+ "_note": "2026-09-30 republish (standing rule): Reading Comprehension audit: fi-r1 question 2 gave away question 1. Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-254"
+ ]
+}

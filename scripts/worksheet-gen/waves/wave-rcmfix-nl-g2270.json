@@ -1,0 +1,16 @@
+{
+ "id": "wave-rcmfix-nl-g2270",
+ "_note": "2026-09-30 republish (standing rule): Reading Comprehension audit: nl-bram-en-de-egel question 2 gave away question 1. Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-270"
+ ]
+}

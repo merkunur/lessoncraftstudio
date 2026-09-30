@@ -11,7 +11,7 @@ const READING_PASSAGES = {
     {
       "id": "milo-cat",
       "title": "Milo the Cat",
-      "text": "Milo is a little gray cat. He likes to sleep in a warm basket by the window. In the morning, Milo drinks his milk and plays with a red ball.",
+      "text": "Milo is a little gray cat. He likes to sleep in a warm basket by the window. In the morning, Milo drinks some water and plays with a red ball.",
       "questions": [
         {
           "q": "What kind of animal is Milo?",
@@ -100,11 +100,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Why does Ben keep his mittens in his pockets now?",
+          "q": "What did Ben do when he got it back?",
           "choices": [
-            "because they are wet",
-            "to give them to Mia",
-            "so he will not lose them"
+            "he cried",
+            "he ran home",
+            "he smiled and said thank you"
           ],
           "correct": 2
         }
@@ -442,11 +442,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Warum kippt Paul fast um?",
+          "q": "Was macht Paul, als alle Kinder lachen?",
           "choices": [
-            "Der Boden ist glatt.",
-            "Der Helm ist sehr schwer.",
-            "Er ist sehr müde."
+            "Er weint.",
+            "Er lacht einfach mit.",
+            "Er läuft weg."
           ],
           "correct": 1
         }
@@ -467,11 +467,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Was spült die Welle weg?",
+          "q": "Wer hat eine Idee, als Lina traurig ist?",
           "choices": [
-            "Einen Eimer",
-            "Einen Turm",
-            "Eine Muschel"
+            "Mama Weber",
+            "Jonas",
+            "Papa Weber"
           ],
           "correct": 1
         },
@@ -510,13 +510,13 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Wie ist der Turnbeutel in die Fundkiste gekommen?",
+          "q": "Wo schauen Samira und Elias beim Suchen nach?",
           "choices": [
-            "Jemand hat ihn gefunden und abgegeben.",
-            "Der Hausmeister hat ihn gekauft.",
-            "Samira hat ihn dort versteckt."
+            "Im Garten und im Keller",
+            "Im Klassenzimmer, im Flur und in der Bibliothek",
+            "In der Küche und im Bad"
           ],
-          "correct": 0
+          "correct": 1
         }
       ]
     },
@@ -648,13 +648,13 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "¿Por qué aplaudía el papá de Diego?",
+          "q": "¿Qué siente Diego ahora por su bici?",
           "choices": [
-            "Porque quería que Diego parara",
-            "Porque había ganado una carrera",
-            "Porque estaba orgulloso de Diego"
+            "le encanta montar en ella",
+            "le da miedo",
+            "ya no la quiere usar"
           ],
-          "correct": 2
+          "correct": 0
         }
       ]
     },
@@ -818,13 +818,13 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "¿Por qué le da Hugo las gracias a Clara?",
+          "q": "¿Por qué aplauden todos muy fuerte?",
           "choices": [
-            "porque le regala un disfraz",
-            "porque aplaude muy fuerte",
-            "porque con su ayuda todo salió bien"
+            "porque Hugo dice sus frases sin ningún fallo",
+            "porque se acaba el recreo",
+            "porque Hugo se cae del escenario"
           ],
-          "correct": 2
+          "correct": 0
         }
       ]
     }
@@ -833,7 +833,7 @@ const READING_PASSAGES = {
     {
       "id": "fr-p1",
       "title": "Le chat de Léa",
-      "text": "Léa a un petit chat gris qui s'appelle Mimi. Chaque matin, Mimi boit son lait dans un bol bleu, près de la fenêtre de la cuisine. Ensuite, il va dormir sur le canapé du salon.",
+      "text": "Léa a un petit chat gris qui s'appelle Mimi. Chaque matin, Mimi boit de l'eau dans un bol bleu, près de la fenêtre de la cuisine. Ensuite, il va dormir sur le canapé du salon.",
       "questions": [
         {
           "q": "Comment s'appelle le chat de Léa ?",
@@ -845,7 +845,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Où Mimi boit-il son lait ?",
+          "q": "Où Mimi boit-il le matin ?",
           "choices": [
             "Dans le jardin",
             "Près de la fenêtre de la cuisine",
@@ -856,7 +856,7 @@ const READING_PASSAGES = {
         {
           "q": "Que peut-on dire de Mimi ?",
           "choices": [
-            "Il aime le lait",
+            "Il vit dans la maison",
             "Il n'aime pas dormir",
             "Il vit dehors"
           ],
@@ -958,7 +958,7 @@ const READING_PASSAGES = {
         {
           "q": "Que peut-on dire de Nino ?",
           "choices": [
-            "Il a peur du crabe",
+            "Il est méchant avec le crabe",
             "Il veut garder le crabe",
             "Il est doux avec les animaux"
           ],
@@ -990,11 +990,11 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Qu'est-ce que l'escargot aime manger ?",
+          "q": "Comment est l'escargot ?",
           "choices": [
-            "La salade",
-            "Les fraises",
-            "Les fleurs"
+            "Il est lent",
+            "Il est rapide",
+            "Il est bruyant"
           ],
           "correct": 0
         }
@@ -1196,11 +1196,11 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Por que ninguém queria que a chuva parasse?",
+          "q": "Que história Helena leu para os colegas?",
           "choices": [
-            "Porque queriam ir embora",
-            "Porque estavam com frio",
-            "Porque estavam se divertindo na cabana"
+            "Uma história de piratas",
+            "Uma história de fadas",
+            "Uma história de dragões"
           ],
           "correct": 2
         }
@@ -1267,7 +1267,7 @@ const READING_PASSAGES = {
           "q": "Por que Clara sorriu?",
           "choices": [
             "Porque a escola tinha acabado",
-            "Porque ficou contente com o pãozinho",
+            "Porque ganhou um presente",
             "Porque encontrou uma amiga"
           ],
           "correct": 1
@@ -1302,7 +1302,7 @@ const READING_PASSAGES = {
           "choices": [
             "Porque estava cansado de tanto brincar",
             "Porque a história era chata",
-            "Porque estava escuro no sítio"
+            "Porque a tia mandou"
           ],
           "correct": 0
         }
@@ -1427,11 +1427,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Che cosa fa Matteo mentre la nonna taglia le mele?",
+          "q": "Che cosa fa Matteo con l'impasto?",
           "choices": [
-            "Scrive un biglietto",
-            "Mescola l'impasto",
-            "Apparecchia la tavola"
+            "Lo assaggia",
+            "Lo mescola",
+            "Lo mette in forno"
           ],
           "correct": 1
         },
@@ -1640,13 +1640,13 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Perché tutti guardano il capriolo in silenzio?",
+          "q": "Che cosa fa l'animale dopo che tutti lo guardano?",
           "choices": [
-            "Per non farlo scappare",
-            "Perché sono stanchi",
-            "Perché è buio"
+            "Si avvicina a Elisa",
+            "Si mette a dormire",
+            "Scappa con un salto"
           ],
-          "correct": 0
+          "correct": 2
         }
       ]
     }
@@ -1667,11 +1667,11 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Waar slaapt Moos graag?",
+          "q": "Wat voor poes heeft Tess?",
           "choices": [
-            "In de zon op de vensterbank",
-            "Onder het bed van Tess",
-            "In een mand in de keuken"
+            "Een grijze poes",
+            "Een zwarte poes",
+            "Een witte poes"
           ],
           "correct": 0
         },
@@ -1803,13 +1803,13 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Wat zetten Bram en papa neer?",
+          "q": "Wanneer ziet Bram iets ritselen?",
           "choices": [
-            "Een schaaltje water",
-            "Een bordje brood",
-            "Een lampje"
+            "Op een ochtend",
+            "Op een middag",
+            "Op een avond"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "q": "Hoe weet je dat de egel dorst had?",
@@ -2077,11 +2077,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Vem sparar Sixten den varmaste bullen till?",
+          "q": "Vad har morfar just gjort?",
           "choices": [
-            "Till mormor",
-            "Till morfar",
-            "Till sig själv"
+            "Målat staketet",
+            "Klippt gräset",
+            "Tvättat bilen"
           ],
           "correct": 1
         },
@@ -2111,11 +2111,11 @@ const READING_PASSAGES = {
           "correct": 2
         },
         {
-          "q": "Vilka böcker vill Ines helst låna?",
+          "q": "Vem läser Ines högt för hemma?",
           "choices": [
-            "Böcker om hästar",
-            "Böcker om rymden",
-            "Böcker om pirater"
+            "För mamma",
+            "För sin lillebror Otto",
+            "För bibliotekarien"
           ],
           "correct": 1
         },
@@ -2477,7 +2477,7 @@ const READING_PASSAGES = {
     {
       "id": "da-frejas-kat",
       "title": "Frejas kat",
-      "text": "Freja har en lille grå kat, der hedder Musse. Hver eftermiddag sover Musse i vindueskarmen, hvor solen varmer ham. Om aftenen giver Freja ham fisk og en stor skål mælk.",
+      "text": "Freja har en lille grå kat, der hedder Musse. Hver eftermiddag sover Musse i vindueskarmen, hvor solen varmer ham. Om aftenen giver Freja ham fisk og en skål frisk vand.",
       "questions": [
         {
           "q": "Hvad hedder Frejas kat?",
@@ -2491,8 +2491,8 @@ const READING_PASSAGES = {
         {
           "q": "Hvad får Musse om aftenen?",
           "choices": [
-            "Fisk og mælk",
-            "Brød og vand",
+            "Fisk og vand",
+            "Brød og mælk",
             "Kød og ost"
           ],
           "correct": 0
@@ -2600,20 +2600,20 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Hvorfor løber krabben ned i vandet?",
+          "q": "Hvordan har Elias det på stranden?",
           "choices": [
-            "Den vil hjem i havet",
-            "Den vil bygge sandslot",
-            "Den vil lege med Elias"
+            "Han keder sig",
+            "Han er ked af det",
+            "Han har det sjovt"
           ],
-          "correct": 0
+          "correct": 2
         }
       ]
     },
     {
       "id": "da-sofia-paa-biblioteket",
       "title": "På biblioteket",
-      "text": "Sofias klasse går på biblioteket hver torsdag. I dag vælger Sofia en bog om rummet, fordi hun elsker stjerner og planeter. Bibliotekaren stempler bogen, og Sofia lægger den forsigtigt i sin taske. Hun glæder sig til at læse den højt for sin lillebror.",
+      "text": "Sofias klasse går på biblioteket hver torsdag. I dag vælger Sofia en bog om rummet, fordi hun elsker stjerner og planeter. Sofia låner bogen med sit lånerkort og lægger den forsigtigt i sin taske. Hun glæder sig til at læse den højt for sin lillebror.",
       "questions": [
         {
           "q": "Hvilken dag går klassen på biblioteket?",
@@ -2797,11 +2797,11 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Mitä Onni löysi rannalta?",
+          "q": "Mihin Onni pisti löytämänsä kiven?",
           "choices": [
-            "simpukan",
-            "kiven",
-            "kävyn"
+            "reppuunsa",
+            "taskuunsa",
+            "isän laukkuun"
           ],
           "correct": 1
         },
@@ -2840,7 +2840,7 @@ const READING_PASSAGES = {
           "correct": 0
         },
         {
-          "q": "Miltä Väinöstä tuntui, kun hän sai pullat?",
+          "q": "Miltä Väinöstä luultavasti tuntui illalla?",
           "choices": [
             "surulliselta",
             "iloiselta",
@@ -2874,11 +2874,11 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "Mihin vuodenaikaan tarina tapahtuu?",
+          "q": "Miksi Eetu juoksee aamulla pihalle?",
           "choices": [
-            "kesällä",
-            "keväällä",
-            "talvella"
+            "hän on myöhässä koulusta",
+            "hän etsii kissaansa",
+            "hän haluaa leikkiä lumessa"
           ],
           "correct": 2
         }
@@ -2887,10 +2887,10 @@ const READING_PASSAGES = {
     {
       "id": "fi-kirjastoauto",
       "title": "Kirjastoauto",
-      "text": "Torstaisin kirjastoauto ajaa Siirin koulun pihaan. Siiri palauttaa kaksi kirjaa ja etsii hyllystä uuden. Hän valitsee kirjan, jonka kannessa on avaruusraketti. Kuljettaja leimaa kirjan ja toivottaa mukavia lukuhetkiä. Kotona Siiri lukee kirjaa iltaan asti.",
+      "text": "Torstaisin kirjastoauto ajaa Siirin koulun pihaan. Siiri palauttaa kaksi kirjaa ja etsii hyllystä uuden. Hän valitsee kirjan, jonka kannessa on avaruusraketti. Siiri lainaa kirjan kirjastokortilla, ja kuljettaja toivottaa mukavia lukuhetkiä. Kotona Siiri lukee kirjaa iltaan asti.",
       "questions": [
         {
-          "q": "Minä päivänä kirjastoauto tulee koululle?",
+          "q": "Minä päivinä kirjastoauto tulee koululle?",
           "choices": [
             "maanantaisin",
             "torstaisin",
@@ -2921,7 +2921,7 @@ const READING_PASSAGES = {
     {
       "id": "fi-uimahalli",
       "title": "Uimahallissa",
-      "text": "Niilo menee isosiskonsa kanssa uimahalliin. Ensin he käyvät suihkussa, ja sitten Niilo saa laittaa uimalasit päähänsä. Matalassa altaassa Niilo harjoittelee potkuja lautan kanssa. Yhtäkkiä hän huomaa uivansa kolme metriä aivan itse! Isosisko taputtaa ja nostaa peukalon pystyyn. Kotimatkalla Niilon tukka on märkä, mutta hymy on leveä.",
+      "text": "Niilo menee isosiskonsa kanssa uimahalliin. Ensin he käyvät suihkussa, ja sitten Niilo saa laittaa uimalasit päähänsä. Matalassa altaassa Niilo harjoittelee potkuja uimalaudan kanssa. Yhtäkkiä hän huomaa uivansa kolme metriä aivan itse! Isosisko taputtaa ja nostaa peukalon pystyyn. Kotimatkalla Niilon tukka on märkä, mutta hymy on leveä.",
       "questions": [
         {
           "q": "Kenen kanssa Niilo menee uimahalliin?",
@@ -2955,7 +2955,7 @@ const READING_PASSAGES = {
     {
       "id": "fi-maatilaretki",
       "title": "Maatilan retki",
-      "text": "Lumin luokka lähtee keväällä retkelle maatilalle. Bussissa lapset laulavat, ja perillä isäntä esittelee heille navetan. Lumi saa silittää vasikkaa, jonka turkki tuntuu pehmeältä. Kanalassa jokainen lapsi saa etsiä yhden munan, ja Lumi löytää omansa oljen alta. Lopuksi kaikki juovat tuoretta maitoa ja syövät eväsleivät pitkän pöydän ääressä. Bussissa kotimatkalla Lumi päättää, että hänestä tulee isona eläinlääkäri.",
+      "text": "Lumin luokka lähtee keväällä retkelle maatilalle. Bussissa lapset laulavat, ja perillä isäntä esittelee heille navetan. Lumi saa silittää vasikkaa, jonka turkki tuntuu pehmeältä. Kanalassa jokainen lapsi saa etsiä yhden munan, ja Lumi löytää omansa oljen alta. Lopuksi kaikki juovat mehua ja syövät eväsleivät pitkän pöydän ääressä. Bussissa kotimatkalla Lumi päättää, että hänestä tulee isona eläinlääkäri.",
       "questions": [
         {
           "q": "Mitä eläintä Lumi saa silittää?",

@@ -118,7 +118,9 @@ function themelessWaves() {
         const accepted = [];
         const out = [];
         if (lv === 2) { try { accepted.push(wholesOf(2, null, 1, 1)); } catch (e) { continue; } }   // the published page
-        const text = (cfg.textLevels || {})[id] === lv;
+        // a face may list SEVERAL text levels (Reading Comprehension: every level walks the native story pool)
+        const tl = (cfg.textLevels || {})[id];
+        const text = tl === lv || (Array.isArray(tl) && tl.includes(lv));
         // GROUP faces (cfg.groupFaces — Cursive letters / capitals): one copy per group of the alphabet, every group,
         // in every script the locale teaches (seedVariant = the group number; the page throws past the last group)
         const group = !!(cfg.groupFaces || {})[id];

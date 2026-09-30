@@ -649,5 +649,20 @@
    "no": "Les hver setning og se på bilderekka. Er setningen sann eller usann? Trykk på svaret ditt.",
    "fi": "Lue jokainen lause ja katso kuvariviä. Onko se totta vai tarua? Napauta vastaustasi."
   }
+ },
+ "reading-comprehension": {
+  "mc": {
+   "de": "Lies die Geschichte. Tippe auf die richtige Antwort.",
+   "en": "Read the story. Tap the best answer.",
+   "fr": "Lis l'histoire. Touche la bonne réponse.",
+   "es": "Lee el cuento. Toca la mejor respuesta.",
+   "pt": "Leia o texto. Toque na melhor resposta.",
+   "it": "Leggi il racconto. Tocca la risposta giusta.",
+   "nl": "Lees het verhaaltje. Tik op het beste antwoord.",
+   "sv": "Läs berättelsen. Tryck på det bästa svaret.",
+   "no": "Les fortellingen. Trykk på det beste svaret.",
+   "da": "Læs historien. Tryk på det rigtige svar.",
+   "fi": "Lue tarina. Napauta oikeaa vastausta."
+  }
  }
 }

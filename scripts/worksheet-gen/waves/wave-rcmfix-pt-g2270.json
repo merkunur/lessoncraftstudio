@@ -1,0 +1,16 @@
+{
+ "id": "wave-rcmfix-pt-g2270",
+ "_note": "2026-09-30 republish (standing rule): Reading Comprehension audit: padaria-do-seu-jose question 3 gave away question 2. Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-270"
+ ]
+}

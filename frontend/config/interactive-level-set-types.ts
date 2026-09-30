@@ -19,6 +19,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'pronouns',
   'question-words',
   'read-and-do',
+  'reading-comprehension',
   'word-parts',
 ]);
 

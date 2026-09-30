@@ -11,8 +11,8 @@ avec|Je joue avec mon chien.|Viens avec moi !|Du pain avec du beurre.|Léo part 
 sur|Le chat est sur le lit.|Le livre est sur la table.|Je monte sur la chaise.|Il y a un oiseau sur le toit.|Pose le verre sur la table.|Le bébé dort sur maman.
 pour|Ce cadeau est pour toi.|Une fleur pour maman.|Merci pour le gâteau.|Je lis pour apprendre.|Je cours pour gagner.|Un dessin pour papa.
 mais|Je veux jouer, mais il pleut.|Il est petit, mais fort.|J'aime le lait, mais pas le thé.|Je cours, mais je tombe.|Il fait froid, mais il fait beau.|Je cherche, mais je ne trouve pas.
-il|Il est grand.|Il mange une pomme.|Où est-il ?|Il pleut beaucoup.|Il a un vélo rouge.|Aujourd'hui, il fait beau.
-elle|Elle chante bien.|Elle a un chat.|Où est-elle ?|Elle lit un livre.|Elle est gentille.|Elle court vite.
+il|Il est grand.|Il mange une pomme.|Où est-il ?|Il pleut beaucoup.|Il a un vélo rouge.|Aujourd'hui, il fait beau.|Il dort dans son lit.
+elle|Elle chante bien.|Elle a un chat.|Où est-elle ?|Elle lit un livre.|Elle est gentille.|Elle court vite.|Elle joue avec Léo.
 je|Je suis content.|Je mange une pomme.|Ce soir, je lis.|Je vois la lune.|Je joue au ballon.|Je vais à la plage.
 des|Je vois des oiseaux.|Il y a des fleurs.|Maman achète des pommes.|Nous avons des billes.|Léo mange des frites.|Voici des crayons.
 du|Je bois du lait.|Maman achète du pain.|Il y a du soleil.|Je mange du fromage.|Le bruit du train.|Je reviens du parc.
@@ -30,12 +30,12 @@ se|Le chat se lave.|Léo se cache.|Le soleil se couche.|Lili se brosse les dents
 ce|Ce chien est gentil.|Ce livre est à moi.|Ce matin, il pleut.|Regarde ce bateau !|Ce gâteau est bon.|Ce soir, on lit.
 on|On joue au parc ?|On va à la plage.|Ici, on chante.|On mange à midi.|Demain, on part.|On regarde la lune.
 nous|Nous jouons ensemble.|Nous allons au zoo.|Papa nous appelle.|Nous avons un chat.|Nous chantons fort.|Viens avec nous !
-vous|Vous êtes gentils.|Où allez-vous ?|Je vous vois.|Vous avez un chien ?|Merci à vous.|Vous jouez bien.
-ils|Ils jouent au ballon.|Ils sont contents.|Où sont-ils ?|Ils mangent des pommes.|Ils ont un chat.|Ils chantent fort.
-elles|Elles dansent.|Elles sont amies.|Où sont-elles ?|Elles ont des poupées.|Elles lisent un livre.|Elles rient beaucoup.
-tu|Tu es mon ami.|Tu viens jouer ?|Où vas-tu ?|Tu as un chat ?|Tu cours vite.|Tu es grand.
-moi|Viens avec moi.|C'est moi !|Moi, j'aime le chocolat.|Donne-moi la balle.|Attends-moi, Léo !|Regarde-moi bien !
-toi|C'est pour toi.|Et toi ?|Je joue avec toi.|Toi, tu es drôle.|Je pense à toi.|Assieds-toi ici.
+vous|Vous êtes gentils.|Où allez-vous ?|Je vous vois.|Vous avez un chien ?|Merci à vous.|Vous jouez bien.|Vous chantez très bien.
+ils|Ils jouent au ballon.|Ils sont contents.|Où sont-ils ?|Ils mangent des pommes.|Ils ont un chat.|Ils chantent fort.|Ils courent dans le parc.
+elles|Elles dansent.|Elles sont amies.|Où sont-elles ?|Elles ont des poupées.|Elles lisent un livre.|Elles rient beaucoup.|Elles jouent à la balle.
+tu|Tu es mon ami.|Tu viens jouer ?|Où vas-tu ?|Tu as un chat ?|Tu cours vite.|Tu es grand.|Tu dessines un chat.
+moi|Viens avec moi.|C'est moi !|Moi, j'aime le chocolat.|Donne-moi la balle.|Attends-moi, Léo !|Regarde-moi bien !|Joue avec moi.|Ce gâteau est pour moi ?|Léo est à côté de moi.
+toi|C'est pour toi.|Et toi ?|Je joue avec toi.|Toi, tu es drôle.|Je pense à toi.|Assieds-toi ici.|Ce livre est à toi.
 mon|C'est mon chien.|Mon vélo est rouge.|Où est mon sac ?|Mon papa est grand.|Voici mon livre.|J'aime mon chat.
 ma|C'est ma maison.|Ma maman chante.|Où est ma balle ?|Ma chambre est petite.|Voici ma poupée.|J'aime ma classe.
 mes|Où sont mes bottes ?|Voici mes amis.|Mes mains sont sales.|J'aime mes crayons.|Mes chats dorment.|Je range mes jouets.
@@ -48,7 +48,7 @@ notre|C'est notre maison.|Notre chat est gris.|Voici notre classe.|Notre maître
 votre|C'est votre chien ?|Votre maison est belle.|Où est votre voiture ?|Voici votre gâteau.|Votre chat dort.|Prenez votre sac.
 leur|Les enfants jouent avec leur chien.|Leur maison est bleue.|Ils aiment leur école.|Leur chat dort.|Ils mangent leur goûter.|Voici leur ballon.
 en|Je vais en classe.|Il est en retard.|Nous partons en vacances.|Je voyage en train.|Il fait beau en été.|Mon pull est en laine.
-y|Il y a un chat.|Il y a du pain.|J'y vais.|Il y a trois pommes.|Il y a du soleil.|Tu y vas ?
+y|Il y a un chat.|Il y a du pain.|J'y vais.|Il y a trois pommes.|Il y a du soleil.|Tu y vas ?|Il y a une fleur.
 par|Je passe par la porte.|Le chat regarde par la fenêtre.|Il arrive par le train.|Un bonbon par enfant.|Nous passons par le parc.|Il sort par là.
 chez|Je vais chez mamie.|Nous sommes chez Léo.|Viens chez moi !|Le chat est chez nous.|Il dort chez papa.|On joue chez Lili.
 vers|Je cours vers la porte.|Le chien va vers le parc.|Il regarde vers le ciel.|Nous marchons vers la mer.|Viens vers moi.|L'oiseau vole vers l'arbre.
@@ -69,7 +69,7 @@ voici|Voici mon chat.|Voici la maison.|Voici un cadeau.|Voici mes amis.|Voici le
 voilà|Voilà le soleil !|Voilà papa.|Voilà mon dessin.|Le voilà !|Voilà ta soupe.|Voilà, c'est fini.
 comme|Il court comme un lapin.|Je chante comme maman.|Comme il fait beau !|Il est grand comme papa.|Fais comme moi.|Comme tu es gentil !
 quand|Je ris quand je joue.|Quand vient papa ?|Je dors quand il fait nuit.|Quand il pleut, je lis.|Appelle-moi quand tu arrives.|Quand est-ce qu'on mange ?
-où|Où est le chat ?|Où vas-tu ?|Je sais où il est.|Où sont mes bottes ?|Où habite Léo ?|D'où viens-tu ?
+où|Où est le chat ?|Où vas-tu ?|Je sais où il est.|Où sont mes bottes ?|Où habite Léo ?|D'où viens-tu ?|Où est ma balle ?
 alors|Alors, on joue ?|Il pleut, alors je lis.|Et alors ?|Il est tard, alors on rentre.|Tu viens alors ?|Il fait nuit, alors je dors.
 puis|Je mange, puis je dors.|Il court, puis il saute.|On lit, puis on dessine.|Lève-toi, puis habille-toi.|Le chat miaule, puis il part.|Je me lave, puis je joue.
 encore|Encore une fois !|Je veux encore du lait.|Il pleut encore.|Tu es encore là ?|Lis encore, papa.|Le bébé dort encore.
@@ -86,9 +86,9 @@ beau|Il fait beau.|Quel beau dessin !|Le ciel est beau.|C'est un beau cadeau.|To
 deux|J'ai deux mains.|Je vois deux chats.|Il a deux ans.|Deux oiseaux chantent.|Je mange deux pommes.|Nous sommes deux.
 trois|J'ai trois crayons.|Je vois trois canards.|Elle a trois ans.|Trois enfants jouent.|Je compte jusqu'à trois.|Il y a trois bateaux.
 suis|Je suis content.|Je suis là !|Je suis grand.|Je suis à l'école.|Je suis fatigué.|Je suis ton ami.
-es|Tu es gentil.|Où es-tu ?|Tu es grand.|Tu es là ?|Tu es mon ami.|Tu es drôle.
+es|Tu es gentil.|Où es-tu ?|Tu es grand.|Tu es là ?|Tu es mon ami.|Tu es drôle.|Tu es très fort.
 sont|Ils sont contents.|Où sont mes clés ?|Les pommes sont rouges.|Les enfants sont là.|Les chats sont gris.|Elles sont amies.
-ai|J'ai un chien.|J'ai faim.|J'ai cinq ans.|J'ai froid.|J'ai une idée !|J'ai un vélo rouge.
+maman|Maman chante.|J'aime ma maman.|Maman lit une histoire.|Où est maman ?|Je fais un câlin à maman.|Maman prépare le repas.
 as|Tu as un chat ?|Tu as faim ?|Tu as quel âge ?|Tu as de la chance.|Tu as mon crayon ?|Tu as froid ?
 ont|Ils ont un chien.|Les chats ont faim.|Elles ont des poupées.|Ils ont cinq ans.|Les enfants ont froid.|Mes amis ont un ballon.
 va|Léo va à l'école.|Le train va vite.|Comment ça va ?|Maman va au marché.|Le chat va dormir.|Qui va jouer ?

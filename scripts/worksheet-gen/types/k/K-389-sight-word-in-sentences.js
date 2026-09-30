@@ -29,7 +29,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const loc = (locale || 'en').slice(0, 2);
     const word = SW.wordOf(unit || SW.unitAxis.exemplar(loc), loc);
-    const sents = SW.pickSentences(word, loc, { n: d.n, level: difficulty, rng: ctx.rng, initial: d.initial });
+    const sents = SW.pickSentences(word, loc, { n: d.n, level: difficulty, rng: ctx.rng, initial: d.initial, accept: (s) => SW.blankable(s, word) });
     const initial = sents.some((s) => SW.startsSentence(s, word));
     const rows = sents.map((s, i) => `<div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:'Nunito',sans-serif;font-weight:800;font-size:${d.fontPx}px;min-width:28px">${i + 1}.</span>${SW.blankSentence(s, word, { traced: d.traced, fontPx: d.fontPx })}</div>`);
     const head = `<div style="display:flex;align-items:center;justify-content:space-between;gap:16px">${SW.sectionLabel(SW.label('complete', loc))}${SW.wordBox(word, 60)}</div>` +

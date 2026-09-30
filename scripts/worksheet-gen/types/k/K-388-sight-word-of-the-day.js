@@ -34,7 +34,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const loc = (locale || 'en').slice(0, 2);
     const word = SW.wordOf(unit || SW.unitAxis.exemplar(loc), loc);
-    const sents = SW.pickSentences(word, loc, { n: d.sentences, level: difficulty, rng: ctx.rng, initial: d.initial });
+    const sents = SW.pickSentences(word, loc, { n: d.sentences, level: difficulty, rng: ctx.rng, initial: d.initial, accept: (s) => SW.blankable(s, word) });
     let n = 0;
     const parts = [];
     parts.push(`<div style="display:flex;align-items:center;justify-content:space-between;gap:16px">${SW.sectionLabel(SW.label('read', loc), ++n)}${SW.wordBox(word, d.box)}</div>`);

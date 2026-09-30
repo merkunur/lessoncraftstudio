@@ -69,6 +69,17 @@ function startsSentence(sentence, word) {
   return !!f && sentence.slice(0, f.index).replace(/[¿¡\s]/g, '') === '';
 }
 
+/**
+ * A sentence can take a GAP for the word only when the word stands alone: not glued to a neighbour by an apostrophe
+ * or hyphen (it "anch'io", fr "est-il", "qu'il"). A gap there leaves a fragment ("anch'____") a K child cannot read.
+ */
+function blankable(sentence, word) {
+  const f = findWord(sentence, word);
+  if (!f) return false;
+  const prev = sentence[f.index - 1] || '', next = sentence[f.index + f.length] || '';
+  return !/['’\-]/.test(prev) && !/['’\-]/.test(next);
+}
+
 const wordCount = (s) => s.split(/\s+/).filter((t) => /\p{L}/u.test(t)).length;
 
 /** The glyph height a stroke lane of width `w` actually gives `text` (after shrink-to-fit), in px. */
@@ -198,4 +209,4 @@ function wordBox(word, px = 64) {
   return `<div data-lcs-wordbox="${esc(word)}" style="display:inline-block;border:3px solid ${tokens.color.ink};border-radius:14px;padding:4px 26px;font-family:${tokens.font.display},sans-serif;font-weight:700;font-size:${px}px;line-height:1.15;color:${tokens.color.ink}">${esc(word)}</div>`;
 }
 
-module.exports = { unitAxis, unitIds, wordOf, sectionLabel, blankSentence, wordBox, esc, words, sentencesOf, label, typeStrings, findWord, splitAtWord, startsSentence, wordCount, tracedGlyphH, pickSentences, foils, levenshtein };
+module.exports = { blankable, unitAxis, unitIds, wordOf, sectionLabel, blankSentence, wordBox, esc, words, sentencesOf, label, typeStrings, findWord, splitAtWord, startsSentence, wordCount, tracedGlyphH, pickSentences, foils, levenshtein };

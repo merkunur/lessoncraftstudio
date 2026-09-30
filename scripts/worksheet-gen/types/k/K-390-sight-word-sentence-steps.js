@@ -33,7 +33,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const loc = (locale || 'en').slice(0, 2);
     const word = SW.wordOf(unit || SW.unitAxis.exemplar(loc), loc);
-    const fits = (s) => SW.tracedGlyphH(s, { w: W, h: d.traceH, glyphH: d.glyphH }) >= d.minGlyph;
+    const fits = (s) => SW.blankable(s, word) && SW.tracedGlyphH(s, { w: W, h: d.traceH, glyphH: d.glyphH }) >= d.minGlyph;
     const [s] = SW.pickSentences(word, loc, { n: 1, level: difficulty, rng: ctx.rng, initial: d.initial, accept: fits });
     const { before, target, after } = SW.splitAtWord(s, word);
     const box = (label, n, inner) => `<div data-lcs-step="${n}" style="border:2px solid #3B3632;border-radius:12px;padding:6px 12px 8px">${SW.sectionLabel(label, n)}${inner}</div>`;

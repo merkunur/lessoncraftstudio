@@ -191,7 +191,7 @@ const JS_SPELL = [
   'function reset(){phase="fill";for(var i=0;i<I.length;i++){I[i].fill=[];for(var k=0;k<I[i].slots.length;k++)I[i].slots[k].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
   'function place(el,o){el.style.left=o.x+"%";el.style.top=o.y+"%";el.style.width=o.w+"%";el.style.height=o.h+"%"}',
   'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],rec={tiles:[],slots:[],fill:[]};',
-  'for(var k=0;k<it.slots.length;k++){(function(k){var s=document.createElement("button");s.type="button";s.className="lcs-slot";s.setAttribute("aria-label",(it.label||"")+" "+(k+1));place(s,it.slots[k]);s.style.fontSize=(it.slots[k].w*0.62)+"cqw";s.addEventListener("click",function(){tapSlot(i,k)});ov.appendChild(s);rec.slots.push(s)})(k)}',
+  'for(var k=0;k<it.slots.length;k++){(function(k){var s=document.createElement("button");s.type="button";s.className="lcs-slot";s.setAttribute("aria-label",(it.label||"")+" "+(k+1));place(s,it.slots[k]);s.style.fontSize=Math.min(it.slots[k].w*0.62,it.slots[k].w*1.7/Math.max(1,it.tiles.reduce(function(a,t){return Math.max(a,String(t.label).length)},1)))+"cqw";s.addEventListener("click",function(){tapSlot(i,k)});ov.appendChild(s);rec.slots.push(s)})(k)}',
   'for(var j=0;j<it.tiles.length;j++){(function(j){var t=document.createElement("button");t.type="button";t.className="lcs-tile";t.setAttribute("aria-label",it.tiles[j].label);place(t,it.tiles[j]);t.addEventListener("click",function(){tapTile(i,j)});ov.appendChild(t);rec.tiles.push(t)})(j)}',
   'I.push(rec)})(i)}',
   'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
@@ -250,8 +250,14 @@ function buildInteractive(o) {
     for (const it of items) {
       if (typeof it.answer !== 'string' || !it.answer) throw new Error('interactive-runtime: tap-spell item without a word');
       const letters = gl(it.answer);
-      if (!Array.isArray(it.tiles) || !Array.isArray(it.slots) || it.tiles.length !== letters.length || it.slots.length !== letters.length) throw new Error('interactive-runtime: tap-spell tiles/slots do not match the word "' + it.answer + '"');
-      if (it.tiles.map((t) => t.label).sort().join('') !== letters.slice().sort().join('')) throw new Error('interactive-runtime: tap-spell tiles are not the letters of "' + it.answer + '"');
+      // a tile may be one letter (Cloze) or one WORD (Sentence Building 2026-09-30): the tiles and slots pair up one to one,
+      // and the tiles' labels together use exactly the answer's characters
+      const chars = (s) => gl(s).sort().join('');
+      const labels = Array.isArray(it.tiles) ? it.tiles.map((t) => String(t.label || '')).join('') : '';
+      if (!Array.isArray(it.tiles) || !Array.isArray(it.slots) || it.tiles.length !== it.slots.length || !it.tiles.length ||
+        (it.tiles.length !== letters.length && chars(labels) !== chars(it.answer))) throw new Error('interactive-runtime: tap-spell tiles/slots do not match the word "' + it.answer + '"');
+      // characters, not labels, compared: identical for one-letter tiles, and right for word tiles
+      if (chars(labels) !== chars(it.answer)) throw new Error('interactive-runtime: tap-spell tiles are not the letters of "' + it.answer + '"');
       for (const b of [...it.tiles, ...it.slots]) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(b[k])) throw new Error('interactive-runtime: tap-spell box ' + k + '=' + b[k] + ' outside the page');
     }
     bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, tiles: it.tiles.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h), label: t.label })), slots: it.slots.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h) })) }));

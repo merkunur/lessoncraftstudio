@@ -1,0 +1,297 @@
+{
+  "id": "wave-sbl-da",
+  "_note": "Level Set 2026-09-30: Sentence Building (Unscramble the Sentence + 3 faces), PDF + screen version (tap the words in order) + answer key. Levels change the sentences: easier = three lanes of 3–4-word sentences, harder = four lanes of 5–7 words. New one-order sentence frames written for new pages only. Visible to teachers, never indexed.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "da"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-249",
+    "G1-282",
+    "G1-283",
+    "G1-302"
+  ],
+  "levels": {
+    "G1-249": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "colors"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "furniture"
+        },
+        {
+          "copy": 4,
+          "theme": "Easter bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "post office"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "dessert bw"
+        },
+        {
+          "copy": 5,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 6,
+          "theme": "fruits bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "household bw"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        }
+      ]
+    },
+    "G1-282": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "animals"
+        },
+        {
+          "copy": 2,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 3,
+          "theme": "christmas"
+        },
+        {
+          "copy": 4,
+          "theme": "toys bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "flowers"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "hospital"
+        },
+        {
+          "copy": 4,
+          "theme": "Easter bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "reptiles and Amphibians"
+        },
+        {
+          "copy": 6,
+          "theme": "beach bw 2"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "music"
+        },
+        {
+          "copy": 2,
+          "theme": "animals bw 5"
+        },
+        {
+          "copy": 3,
+          "theme": "summer"
+        },
+        {
+          "copy": 4,
+          "theme": "dessert bw"
+        },
+        {
+          "copy": 5,
+          "theme": "4th of July"
+        }
+      ]
+    },
+    "G1-283": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "tools"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw"
+        },
+        {
+          "copy": 3,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 4,
+          "theme": "home bw"
+        },
+        {
+          "copy": 5,
+          "theme": "body parts"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 3,
+          "theme": "classroom"
+        },
+        {
+          "copy": 4,
+          "theme": "toys bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 6,
+          "theme": "vehicles bw 3"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "easter"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "insects and bugs"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "shapes"
+        }
+      ]
+    },
+    "G1-302": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 2,
+          "theme": "animals bw 3"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
+          "copy": 5,
+          "theme": "zoo animals"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "farm animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "home bw"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 6,
+          "theme": "space bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        },
+        {
+          "copy": 2,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "toys bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "furniture"
+        }
+      ]
+    }
+  }
+}

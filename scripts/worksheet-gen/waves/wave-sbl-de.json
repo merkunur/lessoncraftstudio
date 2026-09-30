@@ -1,0 +1,293 @@
+{
+  "id": "wave-sbl-de",
+  "_note": "Level Set 2026-09-30: Sentence Building (Unscramble the Sentence + 3 faces), PDF + screen version (tap the words in order) + answer key. Levels change the sentences: easier = three lanes of 3–4-word sentences, harder = four lanes of 5–7 words. New one-order sentence frames written for new pages only. Visible to teachers, never indexed.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "de"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-249",
+    "G1-282",
+    "G1-283",
+    "G1-302"
+  ],
+  "levels": {
+    "G1-249": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "vehicles"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits bw"
+        },
+        {
+          "copy": 3,
+          "theme": "around the house"
+        },
+        {
+          "copy": 4,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "sports bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "hospital"
+        },
+        {
+          "copy": 6,
+          "theme": "Easter bw 2"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "flowers"
+        },
+        {
+          "copy": 2,
+          "theme": "Christmas bw"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "summer"
+        }
+      ]
+    },
+    "G1-282": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 2,
+          "theme": "beach bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "tools"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals bw"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "furniture bw"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom"
+        },
+        {
+          "copy": 6,
+          "theme": "toys bw 2"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 2,
+          "theme": "sports bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "easter"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "insects and bugs"
+        }
+      ]
+    },
+    "G1-283": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "flowers"
+        },
+        {
+          "copy": 2,
+          "theme": "vehicles bw 3"
+        },
+        {
+          "copy": 3,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "spring"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "beach bw 2"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "food bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        },
+        {
+          "copy": 6,
+          "theme": "home bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "winter"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits bw"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "objects bw"
+        },
+        {
+          "copy": 5,
+          "theme": "clothing"
+        }
+      ]
+    },
+    "G1-302": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "birds"
+        },
+        {
+          "copy": 2,
+          "theme": "space bw"
+        },
+        {
+          "copy": 3,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 4,
+          "theme": "valentine bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "hospital"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "vehicles bw 3"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "animals bw 3"
+        },
+        {
+          "copy": 5,
+          "theme": "summer"
+        },
+        {
+          "copy": 6,
+          "theme": "classroom bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "reptiles and Amphibians"
+        },
+        {
+          "copy": 2,
+          "theme": "beach bw 2"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals bw"
+        },
+        {
+          "copy": 5,
+          "theme": "activities"
+        }
+      ]
+    }
+  }
+}

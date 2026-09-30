@@ -283,7 +283,7 @@ async function playSpell(page, html, oracle, locale) {
     // the tile indices that spell a word (an unused tile with that letter each time)
     const spell = (i, word) => {
       const used = new Set(), seq = [];
-      for (const ch of [...String(word).normalize('NFC')]) {
+      for (const ch of (Array.isArray(word) ? word.map((x) => String(x).normalize('NFC')) : [...String(word).normalize('NFC')])) {
         let j = B.items[i].tiles.findIndex((t, k) => !used.has(k) && t.label === ch);
         if (j < 0) j = B.items[i].tiles.findIndex((t, k) => !used.has(k) && t.label.toLocaleLowerCase(locale) === ch.toLocaleLowerCase(locale));
         if (j < 0) return null;

@@ -2974,5 +2974,25 @@
   "G1-411": {
     "title": "Leggi e colora: fermati al numero",
     "instruction": "Ci sono più figure di quelle che chiede la frase. Leggi il numero e colora solo quelle, non di più."
+  },
+  "K-388": {
+    "title": "La parola del giorno: {UNIT}",
+    "instruction": "Leggi la parola. Ripassala, scrivila e usala nelle frasi."
+  },
+  "K-389": {
+    "title": "Parole frequenti nelle frasi: {UNIT}",
+    "instruction": "Leggi ogni frase. Scrivi la parola «{UNIT}» sulla riga."
+  },
+  "K-390": {
+    "title": "Una frase con {UNIT}",
+    "instruction": "Lavora su una frase, un passo alla volta."
+  },
+  "K-391": {
+    "title": "Ripassa le frasi: {UNIT}",
+    "instruction": "Ripassa ogni frase. Poi scrivila sulla riga sotto."
+  },
+  "K-392": {
+    "title": "Trova la parola: {UNIT}",
+    "instruction": "Colora ogni casella con la parola «{UNIT}». Contale e scrivi il numero."
   }
 }

@@ -1,0 +1,102 @@
+# Sight Words Level Set — en. One line per word: word|six sentences. The word appears exactly once in each sentence.
+# Lines 1-24 = the published list (order kept); the rest are appended (Dolch pre-primer + primer, then Grade 1).
+the|The cat is on my bed.|I can see the moon.|Look at the big dog.|The bus is yellow.|We sat on the grass.|Where is the ball?
+and|I like cats and dogs.|Mom and Dad are here.|We run and jump.|I have a hat and a coat.|Sam and I play.|The fish is red and blue.
+you|Can you see me?|I like you.|You are my friend.|Do you want a cookie?|Thank you for the gift.|Will you play with me?
+see|I see a red bird.|Can you see the star?|We see the ducks.|Come and see my dog.|I can see my house.|Did you see the moon?
+can|I can run fast.|Can you help me?|We can play now.|She can jump high.|A bird can fly.|Can I have a turn?
+play|Let us play a game.|I play with my cat.|Can you play with me?|We play in the park.|The kids play ball.|I like to play outside.
+look|Look at my new hat.|Look, a big fish!|I look at the sky.|Come and look at this.|Look up at the moon.|Please look at me.
+said|Mom said yes.|He said hello to me.|She said it is fun.|Dad said we can go.|Who said that?|The teacher said good job.
+here|Come here, please.|My dog is here.|I live here.|Here is my book.|We sit here.|Put it here.
+come|Come and play with us.|Please come to my party.|Can you come here?|The cat will come home.|Come with me.|When will Dad come?
+little|I have a little dog.|The little bird sings.|Look at the little fish.|My sister is little.|A little cake is on the plate.|I see a little bug.
+down|Sit down, please.|The ball rolls down.|I fell down.|Come down from the tree.|Put the box down.|The rain comes down.
+we|We like to sing.|Can we go now?|We have a red car.|We play in the sun.|Today we read a book.|We are friends.
+was|The cake was good.|It was a sunny day.|The cat was on the bed.|My hat was blue.|She was very happy.|The dog was wet.
+not|I am not sad.|It is not cold.|This is not my hat.|Do not run.|The cat is not here.|We will not go.
+for|This gift is for you.|I have a book for Mom.|We wait for the bus.|Thank you for the cake.|It is time for bed.|I made a hat for my doll.
+big|I see a big tree.|The elephant is big.|My dog is very big.|We have a big car.|Look at the big boat.|The big box is red.
+went|We went to the park.|Mom went to work.|I went to bed early.|She went home.|The dog went outside.|We went for a walk.
+are|You are my friend.|We are happy.|The kids are at school.|Where are my shoes?|They are very tall.|Are you ready?
+she|She is my sister.|She has a red bike.|Can she come too?|She likes to draw.|She ran to the door.|Look, she is here!
+have|I have a green ball.|We have two cats.|Do you have a pencil?|I have a big smile.|They have a new house.|Can I have some milk?
+they|They play in the snow.|Can they come with us?|They have a small boat.|They are my friends.|Look, they are here!|They like to sing.
+with|Come with me.|I play with my dog.|She sits with Dad.|Can I go with you?|I eat with a spoon.|Tea with milk is good.
+this|This is my cat.|I like this book.|Is this your hat?|This cake is good.|Look at this bug.|This box is heavy.
+a|I have a dog.|She has a hat.|It is a big tree.|I see a bird.|He ate a pear.|We made a cake.
+away|The bird flew away.|Go away, rain!|The ball rolled away.|Put your toys away.|The cat ran away.|The bus drove away.
+blue|The sky is blue.|I have a blue cup.|My coat is blue.|Look at the blue fish.|She has blue shoes.|I like blue best.
+find|Can you find my shoe?|I find a red leaf.|Help me find the cat.|We find shells on the beach.|Did you find it?|I can find the ball.
+funny|The clown is funny.|That is a funny hat.|My dog is funny.|He told a funny joke.|What a funny face!|The book is very funny.
+go|Let us go home.|I go to school.|Can we go now?|Go and get your coat.|The cars go fast.|We go to the park.
+help|Can you help me?|I help my mom.|Please help the dog.|We help at home.|I can help you.|Thank you for your help.
+I|I can run fast.|Here I am.|Can I play too?|I like my cat.|Today I am five.|May I have a turn?
+in|The cat is in the box.|I swim in the lake.|We play in the rain.|The fish is in the bowl.|Come in, please.|My book is in my bag.
+is|The sun is hot.|My dog is brown.|Where is my hat?|It is time to go.|This is fun.|The cake is sweet.
+it|I like it.|Can you see it?|Put it on the table.|It is my ball.|Is it cold today?|Give it to me.
+jump|I can jump high.|Frogs jump in the pond.|Jump over the log.|Can you jump rope?|The cat will jump down.|We jump and play.
+make|Let us make a cake.|I can make a card.|We make a big snowman.|Can you make a boat?|I make my bed.|Dad will make lunch.
+me|Look at me!|Give the ball to me.|Can you help me?|Come with me.|Mom hugs me.|Read to me, please.
+my|This is my dog.|I love my mom.|My hat is red.|Where is my book?|My bike is new.|Come to my house.
+one|I have one nose.|Can I have one?|One bird sat on a branch.|I see one red car.|Just one more, please.|One cat is black.
+red|The apple is red.|I have a red hat.|Stop at the red light.|My ball is red.|Look at the red car.|She has red boots.
+run|I can run fast.|Run to the tree!|Dogs like to run.|We run in the park.|Do not run inside.|Can you run with me?
+three|I have three books.|Three birds sat on a wire.|She is three.|We ate three apples.|I see three cats.|Count to three.
+to|We go to school.|Give it to me.|I like to sing.|Come to the park.|I walk to the shop.|Say hello to Mom.
+two|I have two hands.|Two cats sat on the mat.|We have two dogs.|I see two birds.|She ate two cookies.|My bike has two wheels.
+up|Look up at the sky.|The ball went up.|Get up, please.|The cat is up the tree.|Hold up your hand.|We climb up the hill.
+where|Where is my hat?|Where do you live?|Where is the cat?|Where are you going?|Where did it go?|Tell me where it is.
+yellow|The sun is yellow.|I have a yellow cup.|A banana is yellow.|My raincoat is yellow.|Look at the yellow duck.|The bus is yellow.
+all|We all like cake.|All the cats are black.|I ate it all.|All my friends came.|Clean up all the toys.|Is that all?
+am|I am five.|I am happy.|Here I am!|I am a good friend.|I am at school.|I am very tall.
+at|Look at me.|We are at home.|The dog sits at the door.|I am at school.|Look at the moon.|We eat at noon.
+ate|I ate a red apple.|The dog ate the bone.|We ate lunch.|She ate all her peas.|Who ate my cake?|Tom ate a sandwich.
+be|I will be good.|Can I be first?|It will be fun.|Be kind to others.|I want to be a doctor.|Please be quiet.
+black|My cat is black.|I have a black hat.|The night is black.|Look at the black bird.|He has black shoes.|The pen is black.
+brown|My dog is brown.|The bear is brown.|I have brown hair.|Look at the brown cow.|The box is brown.|She has a brown bag.
+but|I like cats, but not rats.|It is small but fast.|I ran, but I fell.|She is little but strong.|I want to go, but it is raining.|It is old but nice.
+came|My friend came to play.|The bus came late.|Dad came home.|The cat came in.|Who came to the door?|The sun came out.
+did|I did my work.|Did you see that?|She did a good job.|What did you eat?|We did it!|Did the dog run away?
+do|I do my homework.|What do you like?|Do you have a pet?|I can do it.|Do not touch.|Do you like cake?
+eat|I eat an apple.|We eat lunch at noon.|Cats eat fish.|Let us eat now.|What do you eat?|I like to eat soup.
+four|I have four pencils.|A dog has four legs.|She is four.|We ate four grapes.|I see four ducks.|The table has four legs.
+get|Can you get the ball?|I get up early.|Get your coat, please.|We get a new puppy.|Did you get a gift?|Let us get some milk.
+good|The cake is good.|You are a good friend.|I feel good.|Good job!|It is a good book.|Have a good day.
+he|He is my brother.|He can run fast.|Can he come too?|He has a red bike.|He likes to read.|Look, he is here!
+into|The frog jumps into the pond.|Put the toys into the box.|We went into the house.|The cat ran into the barn.|Pour milk into the cup.|She looked into the bag.
+like|I like ice cream.|Do you like dogs?|We like to swim.|I like my new shoes.|Cats like milk.|I like you.
+must|I must go home.|You must be quiet.|We must wash our hands.|You must try it.|I must find my hat.|We must wait here.
+new|I have a new bike.|This is my new book.|We got a new car.|She has new shoes.|I like my new hat.|Look at my new toy.
+no|No, thank you.|There is no milk.|I have no pencil.|No running, please.|The dog said no.|No, I am not tired.
+now|Come here now.|It is time to eat now.|We can go now.|Now it is my turn.|I am ready now.|Now we can play.
+on|The cat is on the bed.|Put your hat on.|The book is on the desk.|I sit on a chair.|We play on the swing.|The light is on.
+our|This is our house.|We love our dog.|Our car is blue.|Come to our party.|Our teacher is kind.|We feed our fish.
+out|The cat went out.|Let us go out and play.|Take out your book.|The sun is out.|I pull out a weed.|The dog wants to go out.
+please|Please sit down.|Can I have a cookie, please?|Please help me.|Please close the door.|Pass the salt, please.|Please come in.
+pretty|What a pretty flower!|She has a pretty dress.|The sky is pretty.|That is a pretty bird.|My mom looks pretty.|I see a pretty star.
+ran|The dog ran fast.|I ran to school.|We ran in the park.|She ran home.|The cat ran up the tree.|He ran to his mom.
+ride|I ride my bike.|Can I ride the pony?|We ride the bus.|Let us ride to the park.|I like to ride fast.|She can ride a horse.
+saw|I saw a big fish.|We saw a rainbow.|She saw a cat.|Who saw my hat?|I saw you at school.|We saw the moon.
+say|Say hello to Grandma.|What did you say?|I say thank you.|Please say it again.|Did the bird say hi?|What do you say?
+so|I am so happy.|The cake is so good.|It is so cold.|You are so kind.|The dog is so big.|I love you so much.
+soon|We will eat soon.|Come back soon.|It will rain soon.|Soon it will be night.|I will see you soon.|Mom will be home soon.
+that|I like that dog.|Is that your hat?|Look at that bird!|That is my house.|Can I have that?|Who is that?
+there|The cat is over there.|Is there any milk?|There is a bird.|Put it there.|Look over there!|There are two cups.
+too|I want to go too.|Can I come too?|It is too hot.|I like cake too.|The box is too big.|You are too fast!
+under|The cat is under the bed.|Look under the table.|The ball is under the chair.|We sit under a tree.|The fish swim under the boat.|My shoes are under my bed.
+want|I want a drink.|Do you want to play?|We want to go out.|I want a red balloon.|What do you want?|I want to go home.
+well|I feel well.|She sings very well.|You did well.|He can read well.|We slept well.|The plant grows well.
+what|What is your name?|What do you see?|What a big dog!|What is in the box?|What time is it?|Tell me what you want.
+white|The snow is white.|I have a white cat.|Milk is white.|Look at the white cloud.|The ship is white.|My socks are white.
+who|Who is at the door?|Who has my ball?|Who wants cake?|Who is your friend?|I know who did it.|Who can help me?
+will|I will help you.|It will rain today.|Will you play with me?|We will go home.|She will be six.|The bus will come soon.
+yes|Yes, I can.|Mom said yes.|Yes, please.|Yes, it is my hat.|Did he say yes?|Yes, we can go.
+after|We play after school.|I read after lunch.|After dinner we sleep.|The dog runs after the ball.|Come after me.|We rest after the game.
+again|Please read it again.|Can we go again?|I will try again.|Say it again, please.|The sun is out again.|Play the song again.
+from|This card is from Grandma.|I walk home from school.|I got a gift from my friend.|The bird flew from the tree.|Where are you from?|I got it from Dad.
+give|Give the ball to me.|I give my dog a bone.|Please give me a cup.|Can you give me a hug?|I will give you a card.|Give it back, please.
+going|We are going home.|I am going to school.|Where are you going?|She is going to sing.|The bus is going fast.|It is going to rain.
+know|I know your name.|Do you know the way?|I know how to swim.|We know this song.|Did you know that?|I know a good game.
+when|When can we go?|I smile when I am happy.|When is lunch?|Call me when you are home.|When does the bus come?|I sleep when it is dark.
+them|I like them.|Give them a cookie.|Can you see them?|I play with them.|Tell them to come.|We help them.

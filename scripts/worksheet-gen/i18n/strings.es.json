@@ -2974,5 +2974,25 @@
   "G1-411": {
     "title": "Lee y colorea: fíjate en el número",
     "instruction": "Hay más dibujos de los que pide la frase. Lee el número y colorea solo esa cantidad."
+  },
+  "K-388": {
+    "title": "Palabra del día: {UNIT}",
+    "instruction": "Lee la palabra. Repásala, escríbela y úsala en oraciones."
+  },
+  "K-389": {
+    "title": "Palabras frecuentes en oraciones: {UNIT}",
+    "instruction": "Lee cada oración. Escribe la palabra «{UNIT}» en la línea."
+  },
+  "K-390": {
+    "title": "Una oración con {UNIT}",
+    "instruction": "Trabaja una oración paso a paso."
+  },
+  "K-391": {
+    "title": "Repasa las oraciones: {UNIT}",
+    "instruction": "Repasa cada oración. Luego escríbela en la línea de abajo."
+  },
+  "K-392": {
+    "title": "Encuentra la palabra: {UNIT}",
+    "instruction": "Colorea cada casilla con la palabra «{UNIT}». Cuéntalas y escribe el número."
   }
 }

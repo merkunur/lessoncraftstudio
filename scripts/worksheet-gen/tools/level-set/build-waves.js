@@ -133,7 +133,8 @@ function themelessWaves() {
         // copy at each non-core level (the core level IS the published page). noExemplarSkip: the published page is
         // not one of the units (K-238's is an A–F range), so every unit gets its level-2 copy too.
         const single = (cfg.singleFaces || []).includes(id);
-        const unitMode = cfg.unitsOnly && !single;
+        // a text-level face walks its own list even in a unitsOnly config (Sight Words 2026-09-30: K-239's word sets beside the one-word faces)
+        const unitMode = cfg.unitsOnly && !single && !text;
         const tries = single
           ? (lv === 2 ? [] : [{ unit: null, sv: 1 }])
           : unitMode

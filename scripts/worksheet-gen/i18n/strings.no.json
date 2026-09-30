@@ -2986,5 +2986,25 @@
   "G1-411": {
     "title": "Les og fargelegg: bare så mange",
     "instruction": "Det er flere bilder enn setningen ber om. Les tallet, og fargelegg bare så mange."
+  },
+  "K-388": {
+    "title": "Dagens ord: {UNIT}",
+    "instruction": "Les ordet. Spor det, skriv det og bruk det i setninger."
+  },
+  "K-389": {
+    "title": "Høyfrekvente ord i setninger: {UNIT}",
+    "instruction": "Les hver setning. Skriv ordet «{UNIT}» på streken."
+  },
+  "K-390": {
+    "title": "En setning med {UNIT}",
+    "instruction": "Arbeid med én setning, steg for steg."
+  },
+  "K-391": {
+    "title": "Spor setningene: {UNIT}",
+    "instruction": "Spor hver setning. Skriv den så på streken under."
+  },
+  "K-392": {
+    "title": "Finn ordet: {UNIT}",
+    "instruction": "Fargelegg hver rute med ordet «{UNIT}». Tell dem og skriv tallet."
   }
 }

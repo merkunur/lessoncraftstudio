@@ -1,0 +1,101 @@
+# Sight Words Level Set — de. word|six sentences; the word exactly once per sentence. Rows 1-24 = the published list.
+und|Mama und Papa sind da.|Ich esse Brot und Käse.|Wir singen und tanzen.|Der Hund und die Katze spielen.|Tom und Lea lachen.|Rot und Blau sind schön.
+der|Der Hund bellt.|Wo ist der Ball?|Der Apfel ist rot.|Der Opa liest vor.|Der Bus kommt gleich.|Heute scheint der Mond.
+die|Die Katze schläft.|Wo ist die Tasche?|Die Sonne scheint.|Ich mag die Farbe Rot.|Die Blume ist gelb.|Siehst du die Maus?
+das|Das Haus ist groß.|Wo ist das Buch?|Das Eis ist kalt.|Ich mag das Spiel.|Das ist mein Hut.|Siehst du das Boot?
+ich|Ich bin fünf Jahre alt.|Hier bin ich.|Ich mag Äpfel.|Kann ich mitspielen?|Heute male ich ein Bild.|Ich habe einen Hund.
+ist|Das Wetter ist schön.|Mein Hund ist braun.|Wo ist mein Stift?|Die Suppe ist heiß.|Heute ist Montag.|Mama ist zu Hause.
+wir|Wir spielen im Garten.|Heute backen wir.|Wir haben eine Katze.|Wo sind wir?|Wir gehen zur Schule.|Morgen fahren wir weg.
+sie|Sie malt ein Bild.|Heute kommt sie.|Wo wohnt sie?|Lea sagt, sie ist müde.|Sie hat einen Ball.|Kann sie mitkommen?
+mit|Ich spiele mit Tom.|Komm mit mir!|Wir fahren mit dem Bus.|Ich esse mit dem Löffel.|Tee mit Honig ist gut.|Mama geht mit dem Hund.
+auf|Die Katze liegt auf dem Bett.|Der Ball ist auf dem Tisch.|Ich sitze auf dem Stuhl.|Wir warten auf den Bus.|Das Buch liegt auf dem Boden.|Steh bitte auf.
+auch|Ich will auch mit.|Tom malt auch.|Du bist auch mein Freund.|Mag Lea auch Eis?|Der Hund ist auch müde.|Wir singen auch.
+haben|Wir haben einen Hund.|Haben Sie Zeit?|Die Kinder haben Hunger.|Wir haben Ferien.|Alle haben Spaß.|Haben wir Milch?
+du|Du bist mein Freund.|Kommst du mit?|Wo wohnst du?|Du kannst gut malen.|Hast du einen Stift?|Heute bist du dran.
+er|Er ist mein Bruder.|Heute kommt er.|Er hat ein rotes Rad.|Wo ist er?|Er kann schnell laufen.|Tom sagt, er ist müde.
+es|Es regnet.|Heute ist es kalt.|Ist es schon spät?|Es gibt Suppe.|Wie geht es dir?|Es schneit im Winter.
+in|Der Fisch schwimmt in einem Teich.|Wir sind in der Schule.|Die Maus sitzt in einem Loch.|Ich wohne in Berlin.|Wir gehen in den Garten.|Der Stift ist in der Tasche.
+ein|Ich habe ein Buch.|Da ist ein Vogel.|Tom malt ein Haus.|Ein Hund bellt.|Ich esse ein Brot.|Das ist ein Ball.
+eine|Ich sehe eine Katze.|Lea hat eine Puppe.|Eine Blume ist rot.|Wir kaufen eine Torte.|Das ist eine Maus.|Ich trinke eine Limo.
+nicht|Ich bin nicht müde.|Das ist nicht mein Hut.|Der Hund bellt nicht.|Heute regnet es nicht.|Lauf nicht so schnell!|Ich weiß es nicht.
+kann|Ich kann schwimmen.|Kann ich helfen?|Tom kann gut singen.|Der Vogel kann fliegen.|Wer kann das?|Lea kann schon lesen.
+hat|Tom hat einen Hund.|Die Katze hat Hunger.|Wer hat meinen Ball?|Lea hat Geburtstag.|Mama hat Zeit.|Der Tisch hat vier Beine.
+sind|Wir sind Freunde.|Wo sind meine Schuhe?|Die Kinder sind im Garten.|Die Äpfel sind rot.|Sind alle da?|Die Tage sind lang.
+aber|Ich bin klein, aber stark.|Es ist kalt, aber schön.|Tom will, aber er darf nicht.|Das ist alt, aber gut.|Ich rufe, aber keiner kommt.|Die Suppe ist heiß, aber lecker.
+alle|Alle Kinder spielen.|Sind alle da?|Wir essen alle Kekse.|Alle Vögel singen.|Ich kenne alle Namen.|Heute kommen alle.
+den|Ich sehe den Mond.|Wir füttern den Hund.|Tom wirft den Ball.|Siehst du den Bus?|Ich mag den Winter.|Lea malt den Baum.
+dem|Wir spielen mit dem Ball.|Die Katze sitzt auf dem Dach.|Ich helfe dem Opa.|Ich gebe dem Hund einen Knochen.|Wir fahren mit dem Rad.|Das Buch liegt unter dem Bett.
+im|Wir spielen im Garten.|Der Fisch ist im Wasser.|Im Winter schneit es.|Ich schlafe im Bett.|Die Kinder sind im Zoo.|Der Hut hängt im Flur.
+am|Wir sind am Meer.|Am Montag ist Schule.|Ich sitze am Tisch.|Der Apfel hängt am Baum.|Am Abend lesen wir.|Die Katze schläft am Ofen.
+zu|Ich gehe zu Oma.|Komm zu mir!|Wir gehen zu Tom.|Das ist zu groß.|Mach die Tür zu.|Es ist zu kalt.
+von|Das ist ein Brief von Opa.|Ich komme von der Schule.|Der Ball ist von Tom.|Ich träume von einem Pony.|Die Blume ist von Mama.|Tom springt von der Mauer.
+an|Ich denke an dich.|Das Bild hängt an der Wand.|Zieh die Jacke an.|Klopf bitte an die Tür.|Mach das Licht an.|Fang jetzt an!
+so|Das ist so schön!|Ich bin so müde.|Warum bist du so leise?|Der Hund ist so groß.|Mach es so.|Es regnet so viel.
+wie|Wie heißt du?|Wie alt bist du?|Wie spät ist es?|Du bist so groß wie Tom.|Wie geht es dir?|Wie schön das ist!
+was|Was ist das?|Was machst du?|Was möchtest du essen?|Weißt du, was ich sehe?|Was für ein Tag!|Was hast du da?
+wo|Wo ist meine Mütze?|Wo wohnst du?|Wo ist die Katze?|Weißt du, wo Tom ist?|Wo sind wir jetzt?|Wo spielen die Kinder?
+wer|Wer ist da?|Wer hat den Ball?|Wer kommt mit?|Wer kann mir helfen?|Wer malt das Bild?|Weißt du, wer das ist?
+da|Da ist ein Hund.|Ist Mama da?|Wir sind jetzt da.|Da drüben ist die Schule.|Da kommt der Bus.|Ist noch Milch da?
+dann|Erst essen wir, dann spielen wir.|Und dann?|Dann gehen wir nach Hause.|Zuerst lesen, dann malen.|Dann schlafe ich.|Was machen wir dann?
+jetzt|Jetzt bin ich dran.|Komm jetzt, bitte.|Jetzt regnet es.|Wir gehen jetzt.|Wo bist du jetzt?|Jetzt ist Pause.
+noch|Ich will noch spielen.|Ist noch Kuchen da?|Tom schläft noch.|Noch einmal, bitte!|Ich bin noch klein.|Hast du noch Zeit?
+schon|Ich kann schon lesen.|Bist du schon wach?|Es ist schon spät.|Tom ist schon da.|Wir sind schon fertig.|Lea ist schon sechs.
+nur|Ich habe nur einen Stift.|Nur noch ein Keks!|Das ist nur ein Spiel.|Ich will nur spielen.|Heute kommt nur Tom.|Es dauert nur kurz.
+sehr|Das ist sehr schön.|Ich bin sehr müde.|Der Hund ist sehr lieb.|Es ist sehr kalt.|Danke sehr!|Wir lachen sehr laut.
+hier|Hier ist mein Haus.|Wir warten hier.|Ich wohne hier.|Hier bin ich!|Ist hier noch frei?|Hier liegt dein Buch.
+dort|Dort ist die Schule.|Siehst du den Vogel dort?|Wir spielen dort.|Dort drüben steht Tom.|Was ist dort?|Dort wohnt meine Oma.
+heute|Heute ist mein Geburtstag.|Was machen wir heute?|Heute scheint die Sonne.|Tom kommt heute.|Heute backen wir.|Ist heute Schule?
+gern|Ich male gern.|Wir spielen gern Ball.|Lea liest gern.|Isst du gern Eis?|Tom hilft gern.|Ich singe gern.
+oder|Tee oder Milch?|Rot oder Blau?|Kommst du oder nicht?|Willst du malen oder lesen?|Wir spielen drinnen oder draußen.|Ist das dein Hut oder meiner?
+weil|Ich lache, weil es lustig ist.|Wir bleiben drinnen, weil es regnet.|Tom ist froh, weil er spielt.|Ich esse, weil ich Hunger habe.|Lea schläft, weil sie müde ist.|Wir singen, weil wir froh sind.
+wenn|Wenn es regnet, bleibe ich drinnen.|Ruf mich, wenn du fertig bist.|Wenn ich groß bin, fliege ich zum Mond.|Ich freue mich, wenn du kommst.|Wenn es schneit, bauen wir einen Schneemann.|Wir essen, wenn Papa kommt.
+mein|Das ist mein Hund.|Mein Ball ist rot.|Wo ist mein Stift?|Mein Bruder ist klein.|Mein Zimmer ist blau.|Das ist mein Platz.
+meine|Das ist meine Mama.|Meine Katze schläft.|Wo ist meine Jacke?|Meine Schuhe sind neu.|Meine Oma backt.|Das sind meine Freunde.
+dein|Ist das dein Ball?|Dein Bild ist schön.|Wo ist dein Hut?|Wie heißt dein Hund?|Dein Rad ist neu.|Ist das dein Platz?
+sein|Tom sucht sein Buch.|Das ist sein Hund.|Sein Rad ist rot.|Er holt sein Eis.|Sein Bruder ist klein.|Wo ist sein Hut?
+ihr|Lea sucht ihr Buch.|Kommt ihr mit?|Ihr Hund ist lieb.|Wo wohnt ihr?|Ihr Rad ist blau.|Habt ihr Hunger?
+uns|Komm zu uns!|Oma besucht uns.|Hilf uns bitte.|Der Hund gehört uns.|Spiel mit uns!|Wer ruft uns?
+mich|Hörst du mich?|Hol mich ab!|Siehst du mich?|Der Hund mag mich.|Warte auf mich!|Mama ruft mich.
+dich|Ich mag dich.|Ich sehe dich.|Wir rufen dich.|Ich warte auf dich.|Wer holt dich ab?|Ich denke an dich.
+mir|Gib es mir!|Komm mit mir.|Hilf mir bitte.|Das gehört mir.|Mir ist kalt.|Zeig es mir!
+dir|Wie geht es dir?|Ich helfe dir.|Kommt der Brief von dir?|Ich gebe dir den Ball.|Ich zeige dir mein Bild.|Gehört das dir?
+ihm|Ich helfe ihm.|Gib ihm den Ball.|Wir spielen mit ihm.|Der Hut gehört ihm.|Wie geht es ihm?|Ich winke ihm zu.
+bin|Ich bin sechs.|Hier bin ich!|Ich bin müde.|Ich bin ein Kind.|Heute bin ich froh.|Ich bin in der Schule.
+bist|Du bist mein Freund.|Wo bist du?|Bist du müde?|Du bist groß.|Wie alt bist du?|Du bist so lieb.
+war|Das war lustig.|Gestern war ich krank.|Wer war das?|Es war schön.|Tom war im Zoo.|Die Suppe war heiß.
+will|Ich will spielen.|Tom will ein Eis.|Was will der Hund?|Ich will nach Hause.|Lea will malen.|Wer will mit?
+muss|Ich muss gehen.|Tom muss schlafen.|Muss ich schon schlafen?|Ich muss mir die Hände waschen.|Der Hund muss raus.|Wer muss aufräumen?
+darf|Darf ich mitspielen?|Tom darf das nicht.|Tom darf Eis essen.|Darf ich raus?|Lea darf heute bleiben.|Wer darf anfangen?
+geht|Tom geht zur Schule.|Wie geht es dir?|Das geht nicht.|Der Hund geht raus.|Wer geht mit?|Geht das so?
+kommt|Der Bus kommt.|Wer kommt mit?|Oma kommt heute.|Kommt der Hund?|Tom kommt spät.|Wann kommt Papa?
+sagt|Mama sagt ja.|Was sagt der Hund?|Tom sagt hallo.|Lea sagt danke.|Wer sagt das?|Der Lehrer sagt, wir gehen.
+sieht|Tom sieht einen Vogel.|Die Katze sieht die Maus.|Wer sieht mich?|Lea sieht gut aus.|Mama sieht den Mond.|Was sieht der Hund?
+spielt|Tom spielt Fußball.|Wer spielt mit?|Die Katze spielt.|Lea spielt Klavier.|Papa spielt mit uns.|Der Hund spielt im Garten.
+macht|Was macht Tom?|Lea macht ein Bild.|Das macht Spaß!|Mama macht Suppe.|Wer macht die Tür auf?|Der Hund macht Quatsch.
+gibt|Oma gibt mir ein Eis.|Es gibt Suppe.|Wer gibt mir den Ball?|Tom gibt Lea die Hand.|Heute gibt es Kuchen.|Was gibt es Neues?
+nein|Nein, danke.|Nein, ich will nicht.|Der Hund sagt nein.|Tom ruft nein.|Nein, das ist nicht meins.|Nein, heute nicht.
+ja|Ja, bitte.|Mama sagt ja.|Ja, ich komme.|Ja, gern.|Ja, das ist mein Hut.|Tom nickt und sagt ja.
+gut|Das Eis ist gut.|Mir geht es gut.|Du malst gut.|Gut gemacht!|Schlaf gut!|Das riecht gut.
+groß|Der Elefant ist groß.|Ich bin schon groß.|Das Haus ist groß.|Wie groß bist du?|Der Hund ist sehr groß.|Die Torte ist groß.
+klein|Die Maus ist klein.|Ich bin noch klein.|Das Auto ist klein.|Ein klein wenig, bitte.|Der Vogel ist klein.|Mein Zimmer ist klein.
+viel|Ich habe viel Spaß.|Das ist zu viel.|Wir lachen viel.|Viel Glück!|Tom isst viel.|Es regnet viel.
+neu|Mein Rad ist neu.|Das Buch ist neu.|Ist dein Hut neu?|Die Schuhe sind neu.|Alles ist neu.|Unser Auto ist neu.
+alt|Wie alt bist du?|Der Baum ist alt.|Opa ist alt.|Mein Rad ist alt.|Das Haus ist sehr alt.|Ich bin sechs Jahre alt.
+schön|Das Bild ist schön.|Die Blume ist schön.|Heute ist es schön.|Wie schön!|Das Kleid ist schön.|Schön, dass du da bist!
+eins|Ich zähle eins, zwei, drei.|Eins ist genug.|Nimm nur eins.|Ich habe eins.|Gib mir eins.|Tom hat eins bekommen.
+zwei|Ich habe zwei Hände.|Zwei Vögel singen.|Wir haben zwei Katzen.|Tom ist zwei Jahre alt.|Ich sehe zwei Hunde.|Zwei Äpfel, bitte.
+drei|Ich habe drei Stifte.|Drei Kinder spielen.|Tom ist drei.|Ich zähle bis drei.|Drei Enten schwimmen.|Wir essen drei Kekse.
+nach|Wir gehen nach Hause.|Nach der Schule spielen wir.|Tom fährt nach Berlin.|Schau nach oben!|Nach dem Essen schlafe ich.|Wir fliegen nach Spanien.
+für|Das ist für dich.|Ein Bild für Mama.|Danke für das Geschenk.|Ist das für mich?|Wir sammeln für den Zoo.|Das Geschenk ist für Oma.
+aus|Ich komme aus der Schule.|Der Saft ist aus.|Mach das Licht aus.|Tom trinkt aus der Tasse.|Die Katze schaut aus dem Fenster.|Zieh die Schuhe aus.
+bei|Ich bin bei Oma.|Wir essen bei Tom.|Bleib bei mir!|Der Hund ist bei Papa.|Bei Regen bleiben wir drinnen.|Ich schlafe heute bei Lea.
+vor|Der Hund sitzt vor der Tür.|Vor dem Haus steht ein Baum.|Ich stehe vor dir.|Wasch die Hände vor dem Essen.|Das Auto steht vor der Schule.|Wir warten vor dem Laden.
+unter|Die Katze ist unter dem Tisch.|Der Ball liegt unter dem Bett.|Wir sitzen unter dem Baum.|Unter dem Stein ist ein Käfer.|Schau unter das Sofa!|Die Schuhe sind unter dem Stuhl.
+um|Wir laufen um den Baum.|Um acht Uhr ist Schule.|Dreh dich um!|Der Hund rennt um das Haus.|Um zwölf essen wir.|Schau dich um!
+oft|Wir spielen oft draußen.|Tom lacht oft.|Wie oft regnet es?|Ich lese oft.|Oma kommt oft zu uns.|Der Hund bellt oft.
+immer|Ich mag dich immer.|Tom ist immer froh.|Wir essen immer um zwölf.|Der Hund schläft immer.|Du bist immer lieb.|Es ist immer so laut.
+einen|Ich habe einen Hund.|Tom malt einen Baum.|Ich sehe einen Vogel.|Wir kaufen einen Ball.|Lea hat einen Bruder.|Gib mir einen Keks!
+kein|Ich habe kein Geld.|Das ist kein Hund.|Im Glas ist kein Saft.|Tom hat kein Rad.|Kein Problem!|Hier ist kein Platz.
+keine|Ich habe keine Zeit.|Das ist keine Katze.|Wir haben keine Milch.|Keine Angst!|Tom hat keine Schuhe an.|Hier sind keine Kinder.
+sich|Tom freut sich.|Die Katze putzt sich.|Lea wäscht sich.|Der Hund legt sich hin.|Wer setzt sich zu mir?|Das Rad dreht sich.
+man|Wie macht man das?|Hier darf man spielen.|Das sagt man nicht.|Man kann den Mond sehen.|Wie schreibt man das?|Man muss leise sein.

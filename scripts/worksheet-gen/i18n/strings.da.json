@@ -2978,5 +2978,25 @@
   "G1-411": {
     "title": "Læs og farvelæg: kun så mange",
     "instruction": "Der er flere billeder, end sætningen beder om. Læs tallet, og farvelæg kun så mange."
+  },
+  "K-388": {
+    "title": "Dagens ord: {UNIT}",
+    "instruction": "Læs ordet. Tegn det op, skriv det og brug det i sætninger."
+  },
+  "K-389": {
+    "title": "Hyppige ord i sætninger: {UNIT}",
+    "instruction": "Læs hver sætning. Skriv ordet »{UNIT}« på stregen."
+  },
+  "K-390": {
+    "title": "En sætning med {UNIT}",
+    "instruction": "Arbejd med én sætning, trin for trin."
+  },
+  "K-391": {
+    "title": "Tegn sætningerne op: {UNIT}",
+    "instruction": "Tegn hver sætning op. Skriv den så på stregen nedenunder."
+  },
+  "K-392": {
+    "title": "Find ordet: {UNIT}",
+    "instruction": "Farv hvert felt med ordet »{UNIT}«. Tæl dem, og skriv tallet."
   }
 }

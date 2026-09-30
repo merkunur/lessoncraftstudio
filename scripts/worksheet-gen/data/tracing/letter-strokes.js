@@ -269,6 +269,17 @@ const NEW_GLYPHS = {
     pl(30, 16, 38, 14, 45, 18, 47, 26, 45, 34, 40, 40,
        47, 44, 54, 52, 57, 63, 54, 75, 48, 82, 42, 84),
   ],
+
+  // Sight Words Level Set (2026-09-30): sentence punctuation, so a whole
+  // sentence can be traced. A dot is a short vertical tick (the diaeresis
+  // convention above). ? and ! span cap height; the Spanish opening marks are
+  // the same forms turned over, reaching into the descender.
+  '.': [line(50, 79, 50, 84, 1)],
+  ',': [line(52, 79, 48, 91, 2)],
+  '!': [line(50, 16, 50, 64, 4), line(50, 79, 50, 84, 1)],
+  '?': [pl(34, 28, 40, 19, 50, 16, 60, 19, 66, 28, 62, 38, 54, 45, 50, 52, 50, 64), line(50, 79, 50, 84, 1)],
+  '¡': [line(50, 36, 50, 41, 1), line(50, 56, 50, 96, 4)],
+  '¿': [line(50, 36, 50, 41, 1), pl(50, 52, 50, 62, 46, 68, 38, 74, 34, 82, 40, 90, 50, 94, 60, 91, 66, 84)],
 };
 
 /* ------------------------------------------------------------------ *

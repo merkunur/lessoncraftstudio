@@ -3014,5 +3014,25 @@
   "G1-411": {
     "title": "Read and Color: Stop at the Number",
     "instruction": "There are more pictures than the sentence asks for. Read the number, color only that many, and stop."
+  },
+  "K-388": {
+    "title": "Sight Word of the Day: {UNIT}",
+    "instruction": "Read the word. Trace it, write it, and use it in sentences."
+  },
+  "K-389": {
+    "title": "Sight Word in Sentences: {UNIT}",
+    "instruction": "Read each sentence. Write the word “{UNIT}” on the line."
+  },
+  "K-390": {
+    "title": "Sight Word Sentence: {UNIT}",
+    "instruction": "Work through one sentence, step by step."
+  },
+  "K-391": {
+    "title": "Trace the Sentences: {UNIT}",
+    "instruction": "Trace each sentence. Then write it on the line below."
+  },
+  "K-392": {
+    "title": "Find the Sight Word: {UNIT}",
+    "instruction": "Color every box with the word “{UNIT}”. Count them and write the number."
   }
 }

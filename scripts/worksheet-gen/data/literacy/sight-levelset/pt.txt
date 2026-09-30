@@ -1,0 +1,101 @@
+# Sight Words Level Set — pt (Brazilian). word|six sentences; the word exactly once. Rows 1-24 = the published list.
+de|Eu gosto de bolo.|O livro de Ana é azul.|Um copo de leite, por favor.|Hora de dormir.|Venho de ônibus.|A casa de vovó é grande.
+que|Eu acho que chove.|Mamãe diz que sim.|Sei que você é legal.|Que dia bonito!|Vejo que está frio.|Papai diz que é tarde.
+não|Eu não quero dormir.|O cachorro não late.|Hoje não chove.|Não, obrigado.|Ana não está aqui.|Não corra!
+uma|Tenho uma boneca.|Vejo uma estrela.|Comi uma maçã.|Mamãe lê uma história.|Tem uma flor ali.|Quero uma bola.
+para|Este presente é para você.|Vou para a escola.|Uma flor para mamãe.|Leio para aprender.|Olhe para cima!|Tem bolo para todos.
+com|Brinco com meu cachorro.|Venha com a gente.|Pão com manteiga, por favor.|Vou com papai.|Como com a colher.|Falo com Ana.
+ele|Ele é meu irmão.|Ele corre rápido.|Brinco com ele.|Ele tem um gato.|Quem é ele?|Ele come pão.
+ela|Ela é minha amiga.|Ela canta bem.|Vou com ela.|Ela tem um cachorro.|Quem é ela?|Ela lê um livro.
+você|Você é meu amigo.|Onde você mora?|Você quer brincar?|Eu gosto de você.|Você tem um lápis?|Obrigado, você é legal.
+tem|Ana tem um gato.|O cachorro tem fome.|Quem tem a bola?|A mesa tem quatro pernas.|Papai tem um carro.|Tem leite?
+foi|Ele foi para casa.|Foi muito legal.|Quem foi?|O gato foi embora.|Ontem foi domingo.|Ana foi ao parque.
+aqui|Venha aqui.|Eu moro aqui.|O gato dorme aqui.|Aqui está o livro.|Sente aqui.|Estou aqui!
+está|O gato está na cama.|Onde está mamãe?|A sopa está quente.|Ana está feliz.|Hoje está frio.|O céu está azul.
+são|Eles são meus amigos.|As uvas são verdes.|São três horas.|São cinco patos.|Meus sapatos são novos.|Os gatos são pretos.
+mais|Quero mais suco.|Mais um, por favor.|Ana corre mais rápido.|Hoje está mais frio.|Quero brincar mais.|Me dê mais.
+muito|Gosto muito de você.|Está muito frio.|O cachorro é muito grande.|Estou muito feliz.|Como muito.|Chove muito.
+bem|Estou bem.|Você canta bem.|Muito bem!|Durmo bem.|Ana lê bem.|Cheira bem.
+casa|Minha casa é azul.|Vamos para casa.|A casa é grande.|Estou em casa.|Vejo uma casa vermelha.|Desenho uma casa.
+dia|Hoje é um bom dia.|Bom dia, mamãe!|O dia está lindo.|Todo dia eu leio.|Que dia feliz!|É dia de festa.
+vai|Ana vai para casa.|O trem vai rápido.|Quem vai primeiro?|Mamãe vai ao mercado.|O gato vai dormir.|Vai chover hoje.
+fazer|O que vamos fazer?|Gosto de fazer bolo.|Vou fazer um desenho.|Posso fazer sozinho.|Vamos fazer uma festa!|Preciso fazer a lição.
+quando|Rio quando brinco.|Quando papai chega?|Durmo quando é noite.|Quando chove, eu leio.|Me chame quando chegar.|Quando vamos comer?
+gente|A gente brinca junto.|A gente vai ao parque.|Tem muita gente aqui.|A gente gosta de bolo.|Oi, gente!|A gente canta alto.
+amigo|Você é meu amigo.|Meu amigo mora aqui.|Brinco com meu amigo.|Tenho um amigo novo.|O cachorro é meu amigo.|Ele é um bom amigo.
+o|O gato dorme.|Vejo o sol.|Onde está o livro?|Eu como o pão.|Papai lê o jornal.|Abra a porta para o cachorro.
+a|A menina canta.|Feche a porta.|Onde está a bola?|A lua é bonita.|Mamãe abraça a filha.|Olhe a flor!
+os|Os meninos brincam.|Vejo os pássaros.|Onde estão os livros?|Os gatos dormem.|Os peixes nadam.|Lave os pratos.
+as|As flores são bonitas.|Vejo as estrelas.|Onde estão as chaves?|As meninas cantam.|As vacas comem capim.|Lave as mãos.
+um|Tenho um cachorro.|Vejo um pássaro.|Papai tem um carro.|Quero um sorvete.|Tem um gato aqui.|É um dia bonito.
+e|Mamãe e papai estão aqui.|Corro e pulo.|O gato e o cachorro brincam.|Pão e leite, por favor.|Ana e Léo riem.|Azul e vermelho.
+é|O céu é azul.|Ana é minha amiga.|Hoje é domingo.|O gato é preto.|Quem é você?|A sopa é gostosa.
+em|Moro em uma casa.|A vovó mora em Recife.|Estou em casa.|Tem um pássaro em cima da casa.|Penso em você.|Chego em um minuto.
+no|O gato está no sofá.|Brinco no parque.|O livro está no chão.|Vou no carro do papai.|Nado no rio.|O pássaro está no ninho.
+na|O gato está na cama.|Estou na escola.|A bola está na caixa.|Brinco na praia.|O copo está na mesa.|Moro na cidade.
+do|O livro do Léo é azul.|Venho do parque.|Gosto do cachorro.|A casa do vovô é grande.|O barulho do trem.|Saio do quarto.
+da|A boneca da Ana é linda.|Venho da escola.|Gosto da praia.|A cor da flor é rosa.|A casa da vovó é azul.|Saio da sala.
+eu|Eu tenho cinco anos.|Eu gosto de bolo.|Eu vejo a lua.|Eu moro aqui.|Hoje eu leio.|Eu sou a Ana.
+nós|Nós brincamos juntos.|Nós vamos ao zoológico.|Nós temos um gato.|Nós moramos aqui.|Nós cantamos alto.|Nós somos amigos.
+eles|Eles brincam de bola.|Eles são meus amigos.|Onde eles estão?|Eles comem pão.|Eles têm um gato.|Eles cantam alto.
+elas|Elas dançam.|Elas são amigas.|Onde elas estão?|Elas têm bonecas.|Elas leem um livro.|Elas riem muito.
+meu|Este é meu cachorro.|Meu carro é vermelho.|Onde está meu lápis?|Meu pai é alto.|Aqui está meu livro.|Gosto do meu gato.
+minha|Esta é minha casa.|Minha mãe canta.|Onde está minha bola?|Minha bicicleta é nova.|Aqui está minha boneca.|Gosto da minha escola.
+seu|É seu cachorro?|Seu desenho é bonito.|Onde está seu lápis?|Pegue seu casaco.|Seu pai chegou.|Gosto do seu chapéu.
+sua|É sua casa?|Sua saia é linda.|Onde está sua bola?|Pegue sua mochila.|Sua mãe chamou.|Gosto da sua camiseta.
+se|O gato se lava.|Léo se esconde.|O sol se põe.|Ana se penteia.|Ele se veste sozinho.|O cachorro se senta.
+me|Mamãe me abraça.|Me dê a bola.|Você me ajuda?|Me chamo Ana.|Papai me lê uma história.|Me espere!
+te|Eu te amo.|Eu te ajudo.|Te vejo amanhã.|Te dou um presente.|Quem te chamou?|Eu te espero.
+por|Obrigado por tudo.|Passo por aqui.|Por favor, sente.|O gato pula por cima.|O gato passa por aqui.|Vou por este caminho.
+sem|Saio sem casaco.|Suco sem açúcar.|Brinco sem sapatos.|Pão sem manteiga.|Não vou sem você.|O cachorro está sem coleira.
+sobre|O gato está sobre a mesa.|O livro está sobre a cama.|O pássaro voa sobre o rio.|Ponha o copo sobre a mesa.|Tem neve sobre o telhado.|O chapéu está sobre a cadeira.
+até|Vou até a escola.|Até amanhã!|Conto até dez.|Corro até a árvore.|Até logo, mamãe.|Brinco até a noite.
+também|Eu também quero.|Ana também canta.|Gosto disso também.|Papai também vem.|O gato também come.|Você também é meu amigo.
+já|Já é tarde.|Já vou!|Já sei ler.|Você já comeu?|Papai já chegou.|Já estou pronto.
+ainda|Ainda está chovendo.|O bebê ainda dorme.|Você ainda está aqui?|Ainda quero brincar.|Ainda é cedo.|Ainda tenho fome.
+sempre|Sempre brinco com Léo.|O gato sempre dorme.|Ana sempre ri.|Sempre leio à noite.|Aqui sempre faz sol.|Você é sempre gentil.
+nunca|Nunca vi o mar.|O gato nunca late.|Eu nunca minto.|Nunca corra na rua.|Ele nunca chora.|Nunca é tarde.
+hoje|Hoje é segunda.|Hoje faz sol.|Hoje brinco com Léo.|O que vamos comer hoje?|Hoje é meu aniversário.|Hoje chove.
+agora|Agora é minha vez.|Venha agora.|Agora chove.|Vamos agora.|Agora estou feliz.|Agora lemos uma história.
+depois|Brinco depois da aula.|Depois do almoço, durmo.|Até depois!|Chego depois de você.|Depois leio um livro.|O cachorro come depois do gato.
+antes|Lavo as mãos antes de comer.|Leio antes de dormir.|Chego antes de você.|Antes, eu era pequeno.|Antes do jantar, brinco.|O gato come antes do cachorro.
+sim|Sim, por favor.|Mamãe diz que sim.|Sim, é meu gato.|Acho que sim.|Sim, eu vou.|Oh, sim!
+oi|Oi, mamãe!|Oi, Ana!|Digo oi para a professora.|Oi, tudo bem?|O cachorro me diz oi.|Oi, gente!
+obrigado|Obrigado, mamãe.|Muito obrigado.|Obrigado pelo presente.|Digo obrigado.|Não, obrigado.|Obrigado pela ajuda.
+tchau|Tchau, mamãe!|Tchau, até amanhã.|Digo tchau para o vovô.|Tchau, Ana!|O bebê faz tchau.|Tchau, escola!
+bom|O bolo está bom.|Bom dia!|Você é um bom amigo.|É um livro bom.|O pão está bom.|Tenha um bom dia.
+boa|Boa noite, mamãe.|A sopa está boa.|Boa sorte!|Ela é uma boa amiga.|É uma boa ideia.|Boa tarde!
+grande|A casa é grande.|Tenho um cachorro grande.|O elefante é grande.|É uma árvore grande.|Já sou grande.|Quero uma pizza grande.
+pequeno|O rato é pequeno.|Tenho um gato pequeno.|Meu quarto é pequeno.|É um peixe pequeno.|Sou pequeno ainda.|Vejo um pássaro pequeno.
+bonito|Que dia bonito!|O céu está bonito.|Seu desenho é bonito.|O jardim é bonito.|É um carro bonito.|Que gato bonito!
+feliz|Estou feliz.|Feliz aniversário!|Ana está feliz.|O cachorro está feliz.|Sou muito feliz.|Mamãe está feliz hoje.
+dois|Tenho dois gatos.|Vejo dois pássaros.|Léo tem dois anos.|Dois meninos brincam.|Como dois biscoitos.|Somos dois.
+três|Tenho três lápis.|Vejo três patos.|Ana tem três anos.|Três meninas cantam.|Conto até três.|Tem três barcos.
+estou|Estou feliz.|Estou aqui!|Estou com fome.|Estou na escola.|Estou cansado.|Estou pronto.
+sou|Sou a Ana.|Eu sou forte.|Sou um menino.|Sou daqui.|Sou muito feliz.|Já sou grande.
+tenho|Tenho um cachorro.|Tenho uma bola azul.|Eu tenho duas mãos.|Tenho um livro novo.|Tenho fome.|Hoje tenho aula.
+vou|Vou para a escola.|Já vou.|Vou com papai.|Amanhã vou à praia.|Vou brincar.|Vou de bicicleta.
+vamos|Vamos ao parque.|Vamos brincar!|Vamos de carro.|Vamos comer.|Vamos juntos?|Hoje vamos ao zoológico.
+quer|Ana quer brincar.|O gato quer comer.|Quem quer bolo?|Você quer suco?|Léo quer uma bola.|Papai quer café.
+quero|Quero água.|Quero brincar.|Quero um sorvete.|Não quero dormir.|Quero ir ao parque.|Quero um abraço.
+pode|Você pode me ajudar?|O pássaro pode voar.|Léo pode ler.|Quem pode brincar?|Pode entrar!|O gato pode pular alto.
+posso|Posso brincar?|Posso pular alto.|Eu posso ler.|Posso ir com você?|Não posso ver.|Posso contar até dez.
+gosto|Gosto de sorvete.|Eu gosto de você.|Gosto de brincar.|Não gosto de chuva.|Gosto do meu gato.|Gosto de ler.
+come|O cachorro come ração.|Ana come uma pera.|Quem come pão?|O gato come peixe.|Papai come sopa.|A vaca come capim.
+brinca|Léo brinca de bola.|O gato brinca.|Quem brinca comigo?|Ana brinca no parque.|O cachorro brinca muito.|Papai brinca com a gente.
+olha|Olha a lua!|Ana olha o céu.|O gato olha o peixe.|Olha que bonito!|Mamãe olha o bebê.|Quem olha pela janela?
+vejo|Vejo um pássaro.|Eu te vejo.|Vejo a lua.|Não vejo nada.|Vejo minha mãe.|Vejo três patos.
+diz|Mamãe diz oi.|O que diz o gato?|Ana diz que sim.|Papai diz obrigado.|A professora diz silêncio.|Léo diz tchau.
+mãe|Minha mãe canta.|Te amo, mãe.|Minha mãe cozinha bem.|Onde está sua mãe?|Vou com minha mãe.|A mãe do Léo lê uma história.
+pai|Meu pai é alto.|Meu pai brinca comigo.|Oi, pai!|Onde está seu pai?|Meu pai tem um carro.|Vou ao parque com meu pai.
+água|Bebo água.|A água está fria.|Me dê água, por favor.|O peixe vive na água.|Tem água no copo.|Gosto de água.
+sol|O sol brilha.|Hoje faz sol.|Vejo o sol.|O sol é amarelo.|Brinco no sol.|O sol nasce.
+gato|O gato dorme.|Meu gato é preto.|Vejo um gato.|O gato come peixe.|Tenho um gato.|O gato brinca.
+cachorro|Meu cachorro é marrom.|O cachorro late.|Tenho um cachorro.|Vejo um cachorro grande.|O cachorro come.|Brinco com o cachorro.
+escola|Vou para a escola.|Minha escola é grande.|Gosto da escola.|A escola é perto.|Estou na escola.|Hoje não tem escola.
+onde|Onde você está?|Onde você mora?|Onde está o gato?|Sei onde ele está.|Onde estão meus sapatos?|Onde vamos brincar?
+como|Como você se chama?|Como vai?|Corro como um leão.|Como é bonito!|Eu como pão.|Canto como a mamãe.
+quem|Quem é você?|Quem tem a bola?|Quem quer bolo?|Quem é seu amigo?|Sei quem foi.|Quem pode me ajudar?
+isso|O que é isso?|Isso é meu.|Isso é muito bom!|Isso é legal!|Quem fez isso?|Pegue isso, por favor.
+esse|Esse é meu cachorro.|Esse gato é meu.|Esse lápis é azul.|Quem é esse menino?|Esse bolo é gostoso.|Esse é meu lugar.
+essa|Essa é minha casa.|Quem é essa menina?|Essa sopa está boa.|Essa bola é minha.|Essa é minha mãe.|Olha essa flor!

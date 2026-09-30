@@ -1,0 +1,101 @@
+# Sight Words Level Set — fr. word|six sentences; the word exactly once. Rows 1-24 = the published list.
+le|Le chat dort.|Je vois le soleil.|Où est le ballon ?|Le pain est bon.|Papa lit le journal.|Tu prends le bus.
+la|La lune brille.|Je ferme la porte.|Où est la balle ?|La soupe est chaude.|Maman lit la lettre.|Regarde la fleur.
+les|Les enfants jouent.|Je vois les oiseaux.|Où sont les clés ?|Les pommes sont rouges.|Papa lave les tasses.|Les chats dorment.
+un|J'ai un chien.|Je vois un oiseau.|Papa a un vélo.|Il y a un chat ici.|C'est un gros camion.|Léo mange un gâteau.
+une|J'ai une poupée.|Je vois une étoile.|Maman a une voiture.|Voici une pomme.|C'est une belle maison.|Lili lit une histoire.
+et|Papa et maman sont là.|Je cours et je saute.|Le chat et le chien jouent.|Du pain et du lait.|Léo et Lili rient.|Rouge et bleu.
+est|Le ciel est bleu.|Mon chat est noir.|Où est papa ?|La soupe est chaude.|Le chien est gentil.|Léo est content.
+dans|Le chat est dans la boîte.|Le poisson nage dans l'eau.|Je joue dans le jardin.|Le crayon est dans le sac.|Nous sommes dans la classe.|Il pleut dans la ville.
+avec|Je joue avec mon chien.|Viens avec moi !|Du pain avec du beurre.|Léo part avec papa.|Je mange avec une cuillère.|Je dessine avec un crayon.
+sur|Le chat est sur le lit.|Le livre est sur la table.|Je monte sur la chaise.|Il y a un oiseau sur le toit.|Pose le verre sur la table.|Le bébé dort sur maman.
+pour|Ce cadeau est pour toi.|Une fleur pour maman.|Merci pour le gâteau.|Je lis pour apprendre.|Je cours pour gagner.|Un dessin pour papa.
+mais|Je veux jouer, mais il pleut.|Il est petit, mais fort.|J'aime le lait, mais pas le thé.|Je cours, mais je tombe.|Il fait froid, mais il fait beau.|Je cherche, mais je ne trouve pas.
+il|Il est grand.|Il mange une pomme.|Où est-il ?|Il pleut beaucoup.|Il a un vélo rouge.|Aujourd'hui, il fait beau.
+elle|Elle chante bien.|Elle a un chat.|Où est-elle ?|Elle lit un livre.|Elle est gentille.|Elle court vite.
+je|Je suis content.|Je mange une pomme.|Ce soir, je lis.|Je vois la lune.|Je joue au ballon.|Je vais à la plage.
+des|Je vois des oiseaux.|Il y a des fleurs.|Maman achète des pommes.|Nous avons des billes.|Léo mange des frites.|Voici des crayons.
+du|Je bois du lait.|Maman achète du pain.|Il y a du soleil.|Je mange du fromage.|Le bruit du train.|Je reviens du parc.
+au|Je vais au parc.|Nous allons au zoo.|Léo joue au ballon.|Le chat est au lit.|Je vais au marché.|Il pense au gâteau.
+qui|Qui est là ?|Qui a mon crayon ?|Le chat qui dort est gris.|Qui veut du gâteau ?|Je sais qui chante.|Qui joue avec moi ?
+que|Je sais que tu es là.|Maman dit que non.|Je crois que tu as raison.|Que fais-tu ?|Je pense que oui.|Papa dit que le bus arrive.
+pas|Je ne dors pas.|Il ne pleut pas.|Ce n'est pas mon sac.|Ne cours pas !|Léo ne mange pas.|Je ne sais pas.
+son|Léo cherche son chien.|Le chat mange son repas.|Lili range son livre.|Papa lave son vélo.|Son chapeau est rouge.|Le bébé tient son doudou.
+sous|Le chat est sous la table.|Le ballon est sous le lit.|Je me cache sous la couette.|Il y a un ver sous la pierre.|Nous jouons sous l'arbre.|Mes chaussures sont sous la chaise.
+aussi|Moi aussi, je veux.|Léo chante aussi.|Le chien a faim aussi.|Tu viens aussi ?|Elle aime aussi le chocolat.|Papa joue aussi.
+à|Je vais à l'école.|Léo joue à la balle.|Il est à la maison.|Je donne une pomme à maman.|Nous partons à midi.|Je pense à toi.
+a|Léo a un chien.|Maman a faim.|Qui a mon sac ?|Le chat a peur.|Il a cinq ans.|La table a quatre pieds.
+ne|Je ne dors pas.|Le chien ne mord pas.|Il ne fait pas froid.|Lili ne veut pas partir.|Tu ne cours pas.|Nous ne jouons pas.
+se|Le chat se lave.|Léo se cache.|Le soleil se couche.|Lili se brosse les dents.|Le bébé se réveille.|Il se lève tard.
+ce|Ce chien est gentil.|Ce livre est à moi.|Ce matin, il pleut.|Regarde ce bateau !|Ce gâteau est bon.|Ce soir, on lit.
+on|On joue au parc ?|On va à la plage.|Ici, on chante.|On mange à midi.|Demain, on part.|On regarde la lune.
+nous|Nous jouons ensemble.|Nous allons au zoo.|Papa nous appelle.|Nous avons un chat.|Nous chantons fort.|Viens avec nous !
+vous|Vous êtes gentils.|Où allez-vous ?|Je vous vois.|Vous avez un chien ?|Merci à vous.|Vous jouez bien.
+ils|Ils jouent au ballon.|Ils sont contents.|Où sont-ils ?|Ils mangent des pommes.|Ils ont un chat.|Ils chantent fort.
+elles|Elles dansent.|Elles sont amies.|Où sont-elles ?|Elles ont des poupées.|Elles lisent un livre.|Elles rient beaucoup.
+tu|Tu es mon ami.|Tu viens jouer ?|Où vas-tu ?|Tu as un chat ?|Tu cours vite.|Tu es grand.
+moi|Viens avec moi.|C'est moi !|Moi, j'aime le chocolat.|Donne-moi la balle.|Attends-moi, Léo !|Regarde-moi bien !
+toi|C'est pour toi.|Et toi ?|Je joue avec toi.|Toi, tu es drôle.|Je pense à toi.|Assieds-toi ici.
+mon|C'est mon chien.|Mon vélo est rouge.|Où est mon sac ?|Mon papa est grand.|Voici mon livre.|J'aime mon chat.
+ma|C'est ma maison.|Ma maman chante.|Où est ma balle ?|Ma chambre est petite.|Voici ma poupée.|J'aime ma classe.
+mes|Où sont mes bottes ?|Voici mes amis.|Mes mains sont sales.|J'aime mes crayons.|Mes chats dorment.|Je range mes jouets.
+ton|C'est ton chien ?|Ton dessin est beau.|Où est ton sac ?|Prends ton manteau.|Ton papa est là.|J'aime ton chapeau.
+ta|C'est ta maison ?|Ta robe est belle.|Où est ta balle ?|Prends ta veste.|Ta maman appelle.|Range ta chambre.
+tes|Où sont tes bottes ?|Lave tes mains.|Range tes jouets.|J'aime tes dessins.|Tes amis sont là.|Mets tes chaussures.
+sa|Lili cherche sa balle.|Léo range sa chambre.|Le chien boit dans sa gamelle.|Sa maison est grande.|Maman prend sa veste.|Il aime sa poupée.
+ses|Léo range ses jouets.|Lili met ses bottes.|Le chat lèche ses pattes.|Papa cherche ses clés.|Elle lave ses mains.|Ses amis sont là.
+notre|C'est notre maison.|Notre chat est gris.|Voici notre classe.|Notre maîtresse est gentille.|Notre jardin est grand.|Nous aimons notre chien.
+votre|C'est votre chien ?|Votre maison est belle.|Où est votre voiture ?|Voici votre gâteau.|Votre chat dort.|Prenez votre sac.
+leur|Les enfants jouent avec leur chien.|Leur maison est bleue.|Ils aiment leur école.|Leur chat dort.|Ils mangent leur goûter.|Voici leur ballon.
+en|Je vais en classe.|Il est en retard.|Nous partons en vacances.|Je voyage en train.|Il fait beau en été.|Mon pull est en laine.
+y|Il y a un chat.|Il y a du pain.|J'y vais.|Il y a trois pommes.|Il y a du soleil.|Tu y vas ?
+par|Je passe par la porte.|Le chat regarde par la fenêtre.|Il arrive par le train.|Un bonbon par enfant.|Nous passons par le parc.|Il sort par là.
+chez|Je vais chez mamie.|Nous sommes chez Léo.|Viens chez moi !|Le chat est chez nous.|Il dort chez papa.|On joue chez Lili.
+vers|Je cours vers la porte.|Le chien va vers le parc.|Il regarde vers le ciel.|Nous marchons vers la mer.|Viens vers moi.|L'oiseau vole vers l'arbre.
+sans|Je sors sans manteau.|Du thé sans sucre.|Il part sans moi.|Je joue sans bruit.|Un pain sans beurre.|Il marche sans chaussures.
+très|Il fait très froid.|Le chien est très grand.|Je suis très content.|Le gâteau est très bon.|Tu cours très vite.|La soupe est très chaude.
+bien|Je vais bien.|Tu chantes bien.|C'est bien !|Il dort bien.|Très bien, merci.|Je lis bien.
+plus|Il court plus vite que moi.|Il n'y a plus de pain.|Léo est plus grand.|Je ne pleure plus.|Encore plus !|Plus vite !
+tout|Je mange tout.|Tout est prêt.|Le chat voit tout.|Tout le monde chante.|C'est tout.|Je range tout.
+tous|Tous les enfants jouent.|Bonjour à tous.|Nous sommes tous là.|Tous les chats dorment.|Je vois tous les oiseaux.|Ils chantent tous.
+toute|Je lis toute la page.|Toute la classe chante.|Il pleut toute la journée.|Je mange toute la soupe.|Toute la famille est là.|Elle danse toute seule.
+avant|Je lave mes mains avant le repas.|Avant, j'étais petit.|Il arrive avant moi.|Je lis avant de dormir.|Le chat mange avant le chien.|Viens avant midi.
+après|Je joue après l'école.|Après le repas, on dort.|Il arrive après moi.|On sort après la pluie.|Je lis après le goûter.|Le chien court après le chat.
+ici|Viens ici.|Je suis ici.|Le chat dort ici.|Ici, il fait chaud.|Pose ton sac ici.|Il y a un ver ici.
+là|Le chien est là.|Je suis là.|Pose-le là.|Qui est là ?|Maman est là.|Le chat dort là.
+oui|Oui, je veux bien.|Maman dit oui.|Oui, c'est mon chat.|Je crois que oui.|Oui, merci.|Oh oui !
+non|Non, merci.|Papa dit non.|Non, ce n'est pas moi.|Je crois que non.|Non, je ne veux pas.|Oh non !
+voici|Voici mon chat.|Voici la maison.|Voici un cadeau.|Voici mes amis.|Voici le bus.|Voici ta balle.
+voilà|Voilà le soleil !|Voilà papa.|Voilà mon dessin.|Le voilà !|Voilà ta soupe.|Voilà, c'est fini.
+comme|Il court comme un lapin.|Je chante comme maman.|Comme il fait beau !|Il est grand comme papa.|Fais comme moi.|Comme tu es gentil !
+quand|Je ris quand je joue.|Quand vient papa ?|Je dors quand il fait nuit.|Quand il pleut, je lis.|Appelle-moi quand tu arrives.|Quand est-ce qu'on mange ?
+où|Où est le chat ?|Où vas-tu ?|Je sais où il est.|Où sont mes bottes ?|Où habite Léo ?|D'où viens-tu ?
+alors|Alors, on joue ?|Il pleut, alors je lis.|Et alors ?|Il est tard, alors on rentre.|Tu viens alors ?|Il fait nuit, alors je dors.
+puis|Je mange, puis je dors.|Il court, puis il saute.|On lit, puis on dessine.|Lève-toi, puis habille-toi.|Le chat miaule, puis il part.|Je me lave, puis je joue.
+encore|Encore une fois !|Je veux encore du lait.|Il pleut encore.|Tu es encore là ?|Lis encore, papa.|Le bébé dort encore.
+déjà|Il est déjà tard.|Tu es déjà là ?|Je sais déjà lire.|Le bus est déjà parti.|Déjà fini ?|J'ai déjà mangé.
+jamais|Je ne mens jamais.|Il ne pleut jamais ici.|Je ne suis jamais allé au zoo.|Le chat ne dort jamais dehors.|Jamais de la vie !|Tu ne cries jamais.
+toujours|Je t'aime toujours.|Le chat dort toujours.|Il est toujours content.|Il fait toujours beau ici.|Léo rit toujours.|Je lis toujours le soir.
+peu|Un peu de lait, merci.|Il pleut un peu.|Je suis un peu fatigué.|Attends un peu.|Il mange peu.|Un peu plus fort.
+beaucoup|Merci beaucoup.|Il pleut beaucoup.|J'aime beaucoup mon chat.|Léo mange beaucoup.|Il y a beaucoup de fleurs.|Je lis beaucoup.
+trop|Il fait trop chaud.|C'est trop lourd.|Tu cours trop vite.|J'ai trop mangé.|C'est trop drôle !|La soupe est trop chaude.
+petit|Le chat est petit.|J'ai un petit frère.|Voici un petit oiseau.|Mon lit est petit.|Un petit gâteau, s'il te plaît.|Je suis encore petit.
+grand|Papa est grand.|J'ai un grand vélo.|L'éléphant est grand.|Voici un grand arbre.|Je suis grand maintenant.|Le bus est grand.
+bon|Le gâteau est bon.|Bon appétit !|Il fait bon.|C'est un bon livre.|Bon anniversaire !|Le pain est bon.
+beau|Il fait beau.|Quel beau dessin !|Le ciel est beau.|C'est un beau cadeau.|Ton chat est beau.|Le jardin est beau.
+deux|J'ai deux mains.|Je vois deux chats.|Il a deux ans.|Deux oiseaux chantent.|Je mange deux pommes.|Nous sommes deux.
+trois|J'ai trois crayons.|Je vois trois canards.|Elle a trois ans.|Trois enfants jouent.|Je compte jusqu'à trois.|Il y a trois bateaux.
+suis|Je suis content.|Je suis là !|Je suis grand.|Je suis à l'école.|Je suis fatigué.|Je suis ton ami.
+es|Tu es gentil.|Où es-tu ?|Tu es grand.|Tu es là ?|Tu es mon ami.|Tu es drôle.
+sont|Ils sont contents.|Où sont mes clés ?|Les pommes sont rouges.|Les enfants sont là.|Les chats sont gris.|Elles sont amies.
+ai|J'ai un chien.|J'ai faim.|J'ai cinq ans.|J'ai froid.|J'ai une idée !|J'ai un vélo rouge.
+as|Tu as un chat ?|Tu as faim ?|Tu as quel âge ?|Tu as de la chance.|Tu as mon crayon ?|Tu as froid ?
+ont|Ils ont un chien.|Les chats ont faim.|Elles ont des poupées.|Ils ont cinq ans.|Les enfants ont froid.|Mes amis ont un ballon.
+va|Léo va à l'école.|Le train va vite.|Comment ça va ?|Maman va au marché.|Le chat va dormir.|Qui va jouer ?
+vais|Je vais au parc.|Je vais bien.|Je vais dormir.|Je vais chez mamie.|Je vais à l'école.|Je vais manger.
+fait|Il fait beau.|Qu'est-ce qu'il fait ?|Papa fait un gâteau.|Le chat fait dodo.|Il fait froid.|Léo fait un dessin.
+dit|Maman dit bonjour.|Le chien dit ouaf.|Qui dit ça ?|Léo dit merci.|Papa dit oui.|Elle dit au revoir.
+voit|Le chat voit la souris.|Léo voit la mer.|Qui voit la lune ?|On voit le soleil.|Maman voit papa.|Le chien voit un os.
+veut|Léo veut jouer.|Le chat veut manger.|Qui veut du gâteau ?|Lili veut dormir.|Il veut un ballon.|Papa veut du café.
+peut|Il peut courir vite.|L'oiseau peut voler.|Qui peut m'aider ?|Léo peut lire.|On peut jouer ?|Le chat peut sauter haut.
+rouge|La pomme est rouge.|J'ai un ballon rouge.|Le camion est rouge.|Mon pull est rouge.|Je vois un oiseau rouge.|La fraise est rouge.

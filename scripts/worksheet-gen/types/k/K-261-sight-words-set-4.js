@@ -5,6 +5,6 @@ module.exports = {
   ...base,
   id: 'K-261',
   slug: 'sight-words-set-4',
-  difficulty: { 1: {"slice":3,"words":4,"glyphH":52,"traceH":82,"writeH":56,"reps":2}, 2: {"slice":3,"words":4,"glyphH":52,"traceH":82,"writeH":56,"reps":2}, 3: {"slice":3,"words":4,"glyphH":52,"traceH":82,"writeH":56,"reps":2} },
+  difficulty: { 1: {"slice":3,"words":3,"glyphH":64,"traceH":100,"writeH":66,"reps":3}, 2: {"slice":3,"words":4,"glyphH":52,"traceH":82,"writeH":56,"reps":2}, 3: {"slice":3,"words":4,"glyphH":44,"traceH":70,"writeH":48,"reps":2,"writeRows":2} },
   i18n: { en: { title: "Sight Words Practice Set 4", instruction: "Read the word. Trace it. Then write it yourself on the empty line." } },
 };

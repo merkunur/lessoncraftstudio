@@ -2994,5 +2994,25 @@
   "G1-411": {
     "title": "Lis et colorie : arrête-toi au bon nombre",
     "instruction": "Il y a plus d'images que la phrase n'en demande. Lis le nombre et colorie juste ce nombre, pas plus."
+  },
+  "K-388": {
+    "title": "Le mot du jour : {UNIT}",
+    "instruction": "Lis le mot. Repasse-le, écris-le et utilise-le dans des phrases."
+  },
+  "K-389": {
+    "title": "Mots-outils en phrases : {UNIT}",
+    "instruction": "Lis chaque phrase. Écris le mot « {UNIT} » sur la ligne."
+  },
+  "K-390": {
+    "title": "Une phrase avec {UNIT}",
+    "instruction": "Travaille une phrase, étape par étape."
+  },
+  "K-391": {
+    "title": "Repasse les phrases : {UNIT}",
+    "instruction": "Repasse chaque phrase. Puis écris-la sur la ligne en dessous."
+  },
+  "K-392": {
+    "title": "Trouve le mot : {UNIT}",
+    "instruction": "Colorie chaque case qui contient le mot « {UNIT} ». Compte-les et écris le nombre."
   }
 }

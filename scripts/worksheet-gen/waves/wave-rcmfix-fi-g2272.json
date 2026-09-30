@@ -1,0 +1,16 @@
+{
+ "id": "wave-rcmfix-fi-g2272",
+ "_note": "2026-09-30 republish (standing rule: pedagogical mistakes are fixed at once), Reading Comprehension audit: fi-maatilaretki: the class drank raw farm milk — juice. Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-272"
+ ]
+}

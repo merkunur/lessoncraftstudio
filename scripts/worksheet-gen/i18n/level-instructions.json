@@ -1197,5 +1197,437 @@
     "instruction": "Aloita lipun kohdalta ja laske riviä pitkin. Etsi kuva sen paikan mukaan ja tee, mitä lause käskee."
    }
   }
+ },
+ "G2-254": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
+ },
+ "G2-269": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
+ },
+ "G2-270": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
+ },
+ "G2-271": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
+ },
+ "G2-272": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
+ },
+ "G2-273": {
+  "1": {
+   "de": {
+    "instruction": "Lies die Geschichte. Die Zahl bei jeder Frage zeigt dir, in welchem Satz die Antwort steht. Kreise die richtige Antwort ein."
+   },
+   "en": {
+    "instruction": "Read the story, then circle the best answer. The number next to each question tells you which sentence has the answer."
+   },
+   "fr": {
+    "instruction": "Lis l'histoire. Le numéro de phrase à côté de chaque question te dit où trouver la réponse. Entoure la bonne réponse."
+   },
+   "es": {
+    "instruction": "Lee el cuento. El número junto a cada pregunta te dice en qué oración está la respuesta. Rodea la respuesta correcta."
+   },
+   "pt": {
+    "instruction": "Leia o texto. O número ao lado de cada pergunta mostra a frase onde está a resposta. Circule a melhor resposta."
+   },
+   "it": {
+    "instruction": "Leggi il racconto. Il numero accanto a ogni domanda ti dice in quale frase c'è la risposta. Cerchia la risposta giusta."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje goed. Het getal bij elke vraag vertelt in welke zin het antwoord staat. Omcirkel het beste antwoord."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen. Siffran efter varje fråga visar i vilken mening svaret står. Ringa in det bästa svaret."
+   },
+   "no": {
+    "instruction": "Les fortellingen. Tallet etter hvert spørsmål viser hvilken setning svaret står i. Sett ring rundt det beste svaret."
+   },
+   "da": {
+    "instruction": "Læs historien. Tallet efter hvert spørgsmål viser, hvilken sætning svaret står i. Sæt en ring om det rigtige svar."
+   },
+   "fi": {
+    "instruction": "Lue tarina. Kysymyksen perässä oleva numero kertoo, mistä virkkeestä vastaus löytyy. Ympyröi oikea vastaus."
+   }
+  },
+  "3": {
+   "de": {
+    "instruction": "Lies die Geschichte genau. Kreise bei Frage 1 und 2 die richtige Antwort ein. Schreibe deine Antwort zu Frage 3 auf die Linien."
+   },
+   "en": {
+    "instruction": "Read the story carefully. Circle the best answer to questions 1 and 2, then write your answer to question 3 on the lines."
+   },
+   "fr": {
+    "instruction": "Lis bien l'histoire. Entoure la bonne réponse aux questions 1 et 2. Écris ta réponse à la question 3 sur les lignes."
+   },
+   "es": {
+    "instruction": "Lee el cuento con atención. Rodea la respuesta correcta de las preguntas 1 y 2. Escribe tu respuesta a la pregunta 3 en las líneas."
+   },
+   "pt": {
+    "instruction": "Leia o texto com atenção. Circule a melhor resposta nas perguntas 1 e 2. Escreva a resposta da pergunta 3 nas linhas."
+   },
+   "it": {
+    "instruction": "Leggi il racconto con attenzione. Cerchia la risposta giusta alle domande 1 e 2. Scrivi la risposta alla domanda 3 sulle righe."
+   },
+   "nl": {
+    "instruction": "Lees het verhaaltje heel goed. Omcirkel bij vraag 1 en 2 het beste antwoord. Schrijf je antwoord op vraag 3 op de lijnen."
+   },
+   "sv": {
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på fråga 1 och 2. Skriv ditt svar på fråga 3 på raderna."
+   },
+   "no": {
+    "instruction": "Les fortellingen nøye. Sett ring rundt det beste svaret på spørsmål 1 og 2. Skriv svaret ditt på spørsmål 3 på linjene."
+   },
+   "da": {
+    "instruction": "Læs historien grundigt. Sæt en ring om det rigtige svar til spørgsmål 1 og 2. Skriv dit svar på spørgsmål 3 på linjerne."
+   },
+   "fi": {
+    "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
+   }
+  }
  }
 }

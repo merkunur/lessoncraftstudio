@@ -664,5 +664,98 @@
    "da": "Læs historien. Tryk på det rigtige svar.",
    "fi": "Lue tarina. Napauta oikeaa vastausta."
   }
+ },
+ "rhyming-words": {
+  "pick": {
+   "en": "Tap the picture that rhymes with the first picture.",
+   "de": "Tippe auf das Bild, das sich auf das erste Bild reimt.",
+   "es": "Toca el dibujo que rima con el primero.",
+   "fr": "Touche l'image dont le nom rime avec celui de la première image.",
+   "it": "Tocca il disegno che fa rima con il primo disegno.",
+   "pt": "Toque na figura que rima com a primeira figura.",
+   "nl": "Tik op het plaatje dat rijmt op het eerste plaatje.",
+   "sv": "Tryck på bilden som rimmar på den första bilden.",
+   "no": "Trykk på bildet som rimer på det første bildet.",
+   "da": "Tryk på det billede, der rimer på det første billede.",
+   "fi": "Napauta kuvaa, joka rimmaa ensimmäisen kuvan kanssa."
+  },
+  "judge": {
+   "en": "Do the two words rhyme? Tap the check mark or the X.",
+   "de": "Reimen sich die zwei Wörter? Tippe auf den Haken oder auf das Kreuz.",
+   "es": "¿Riman las dos palabras? Toca la palomita o el tache.",
+   "fr": "Est-ce que les deux mots riment ? Touche la coche ou la croix.",
+   "it": "Le due parole fanno rima? Tocca il segno di spunta o la croce.",
+   "pt": "As duas palavras rimam? Toque no certo ou no xis.",
+   "nl": "Rijmen de twee woorden? Tik op het vinkje of op het kruisje.",
+   "sv": "Rimmar de två orden? Tryck på bocken eller krysset.",
+   "no": "Rimer de to ordene? Trykk på haken eller krysset.",
+   "da": "Rimer de to ord? Tryk på fluebenet eller krydset.",
+   "fi": "Rimmaavatko sanat? Napauta väkästä tai ruksia."
+  },
+  "sort": {
+   "en": "Tap the big picture that rhymes with this picture.",
+   "de": "Tippe auf das große Bild, das sich auf dieses Bild reimt.",
+   "es": "Toca el dibujo grande que rima con este dibujo.",
+   "fr": "Touche la grande image qui rime avec cette image.",
+   "it": "Tocca il disegno grande che fa rima con questo disegno.",
+   "pt": "Toque na figura grande que rima com esta figura.",
+   "nl": "Tik op het grote plaatje dat hierop rijmt.",
+   "sv": "Tryck på den stora bilden som rimmar på den här bilden.",
+   "no": "Trykk på det store bildet som rimer på dette bildet.",
+   "da": "Tryk på det store billede, der rimer på dette billede.",
+   "fi": "Napauta isoa kuvaa, joka rimmaa tämän kuvan kanssa."
+  },
+  "verse": {
+   "en": "Tap the word that rhymes and finishes the verse.",
+   "de": "Tippe auf das Wort, das sich reimt und in die Lücke passt.",
+   "es": "Toca la palabra que rima y completa el verso.",
+   "fr": "Touche le mot qui rime et qui termine la comptine.",
+   "it": "Tocca la parola che fa rima e completa la filastrocca.",
+   "pt": "Toque na palavra que rima e completa o verso.",
+   "nl": "Tik op het woord dat rijmt en het rijmpje afmaakt.",
+   "sv": "Tryck på ordet som rimmar och gör versen färdig.",
+   "no": "Trykk på ordet som rimer og passer i verset.",
+   "da": "Tryk på det ord, der rimer og gør verset færdigt.",
+   "fi": "Napauta sanaa, joka rimmaa ja sopii loruun."
+  },
+  "string": {
+   "en": "Tap the picture this word rhymes with. If it does not rhyme with any, tap the X.",
+   "de": "Tippe auf das Bild, auf das sich dieses Wort reimt. Reimt es sich auf keines, tippe auf das Kreuz.",
+   "es": "Toca el dibujo que rima con esta palabra. Si no rima con ninguno, toca el tache.",
+   "fr": "Touche l'image qui rime avec ce mot. S'il ne rime avec aucune, touche la croix.",
+   "it": "Tocca il disegno che fa rima con questa parola. Se non fa rima con nessuno, tocca la croce.",
+   "pt": "Toque na figura que rima com esta palavra. Se ela não rima com nenhuma, toque no xis.",
+   "nl": "Tik op het plaatje waarop dit woord rijmt. Rijmt het nergens op? Tik dan op het kruisje.",
+   "sv": "Tryck på bilden som ordet rimmar på. Rimmar det inte på någon, tryck på krysset.",
+   "no": "Trykk på bildet som dette ordet rimer på. Rimer det ikke på noen, trykker du på krysset.",
+   "da": "Tryk på det billede, ordet rimer på. Rimer det ikke på nogen af dem, så tryk på krydset.",
+   "fi": "Napauta kuvaa, jonka kanssa sana rimmaa. Jos se ei rimmaa minkään kanssa, napauta ruksia."
+  },
+  "sortNone": {
+   "en": "Tap the big picture that rhymes with this picture. Tap the X if it does not rhyme with any of them.",
+   "de": "Tippe auf das große Bild, das sich auf dieses Bild reimt. Reimt es sich auf keines? Dann tippe auf das Kreuz.",
+   "es": "Toca el dibujo grande que rima con este dibujo. Si no rima con ninguno, toca el tache.",
+   "fr": "Touche la grande image qui rime avec cette image. Touche la croix si elle ne rime avec aucune.",
+   "it": "Tocca il disegno grande che fa rima con questo disegno. Se non fa rima con nessuno, tocca la croce.",
+   "pt": "Toque na figura grande que rima com esta figura. Se ela não rima com nenhuma, toque no xis.",
+   "nl": "Tik op het grote plaatje dat hierop rijmt. Rijmt het op geen enkel groot plaatje? Tik dan op het kruisje.",
+   "sv": "Tryck på den stora bilden som rimmar på den här bilden. Tryck på krysset om den inte rimmar på någon av dem.",
+   "no": "Trykk på det store bildet som rimer på dette bildet. Trykk på krysset hvis det ikke rimer på noen av dem.",
+   "da": "Tryk på det store billede, der rimer på dette billede. Tryk på krydset, hvis det ikke rimer på nogen af dem.",
+   "fi": "Napauta isoa kuvaa, joka rimmaa tämän kuvan kanssa. Napauta ruksia, jos kuva ei rimmaa minkään kanssa."
+  },
+  "stringPlain": {
+   "en": "Tap the picture this word rhymes with.",
+   "de": "Tippe auf das Bild, auf das sich dieses Wort reimt.",
+   "es": "Toca el dibujo que rima con esta palabra.",
+   "fr": "Touche l'image qui rime avec ce mot.",
+   "it": "Tocca il disegno che fa rima con questa parola.",
+   "pt": "Toque na figura que rima com esta palavra.",
+   "nl": "Tik op het plaatje waarop dit woord rijmt.",
+   "sv": "Tryck på bilden som ordet rimmar på.",
+   "no": "Trykk på bildet som dette ordet rimer på.",
+   "da": "Tryk på det billede, ordet rimer på.",
+   "fi": "Napauta kuvaa, jonka kanssa sana rimmaa."
+  }
  }
 }

@@ -335,15 +335,6 @@
             "noun": "house"
           },
           "picOpened": true
-        },
-        {
-          "vocabKey": "peach",
-          "word": "pêche",
-          "pic": {
-            "theme": "fruits",
-            "noun": "peach"
-          },
-          "picOpened": true
         }
       ]
     },
@@ -373,28 +364,6 @@
           },
           "sameSpelling": true,
           "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "van",
-          "word": "camionnette",
-          "pic": {
-            "theme": "vehicles",
-            "noun": "van"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "head",
-          "word": "tête",
-          "pic": {
-            "theme": "body parts",
-            "noun": "head"
-          },
-          "sameSpelling": false,
-          "productive": false,
           "picOpened": true
         }
       ],
@@ -484,17 +453,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "rock",
-          "word": "rocher",
-          "pic": {
-            "theme": "camping",
-            "noun": "rock"
-          },
-          "sameSpelling": false,
-          "productive": false,
-          "picOpened": true
-        },
-        {
           "vocabKey": "key",
           "word": "clé",
           "pic": {
@@ -514,6 +472,28 @@
           },
           "sameSpelling": false,
           "productive": false,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "vest",
+          "word": "gilet",
+          "pic": {
+            "theme": "clothing",
+            "noun": "vest"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "tabouret",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
           "picOpened": true
         }
       ],
@@ -589,7 +569,6 @@
       ],
       "extra": [
         "radis",
-        "gris",
         "ami",
         "midi"
       ],
@@ -604,43 +583,6 @@
           "picOpened": true
         }
       ]
-    },
-    {
-      "id": "et",
-      "rime": "-et",
-      "sound": "ɛ",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "vest",
-          "word": "gilet",
-          "pic": {
-            "theme": "clothing",
-            "noun": "vest"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "stool",
-          "word": "tabouret",
-          "pic": {
-            "theme": "furniture",
-            "noun": "stool"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "poulet",
-        "jouet",
-        "lait",
-        "ballet"
-      ],
-      "nearMiss": []
     },
     {
       "id": "uche",
@@ -697,7 +639,7 @@
           "vocabKey": "cherry",
           "word": "cerise",
           "pic": {
-            "theme": "fruits",
+            "theme": "At the Supermarket",
             "noun": "cherry"
           },
           "sameSpelling": true,
@@ -992,7 +934,7 @@
       "id": "bateau-gateau",
       "lines": [
         "Sur la mer flotte un beau bateau,",
-        "et dedans, un gros ___"
+        "on y mange un gros ___"
       ],
       "answer": {
         "vocabKey": "cake"
@@ -1015,8 +957,8 @@
     {
       "id": "pain-main",
       "lines": [
-        "Le lapin croque un bout de pain,",
-        "il le tient bien dans sa ___"
+        "Je croque un gros bout de pain,",
+        "je le tiens bien dans ma ___"
       ],
       "answer": {
         "vocabKey": "hand"
@@ -1028,7 +970,7 @@
       "id": "sapin-lutin",
       "lines": [
         "Il neige sur le grand sapin,",
-        "dessous dort un petit ___"
+        "le Père Noël appelle son ___"
       ],
       "answer": {
         "vocabKey": "elf"
@@ -1148,7 +1090,7 @@
       "id": "nid-tapis",
       "lines": [
         "Deux oiseaux dorment dans le nid,",
-        "le chat ronronne sur le ___"
+        "je m'essuie les pieds sur le ___"
       ],
       "answer": {
         "vocabKey": "rug"
@@ -1159,25 +1101,13 @@
     {
       "id": "tabouret-gilet",
       "lines": [
-        "Le chat saute du tabouret",
-        "et se roule sur mon ___"
+        "Je m'assois sur le tabouret,",
+        "il fait froid, je ferme mon ___"
       ],
       "answer": {
         "vocabKey": "vest"
       },
       "rhymeWith": "tabouret",
-      "cueFree": false
-    },
-    {
-      "id": "poele-etoile",
-      "lines": [
-        "Le lait chauffe dans la poêle,",
-        "dehors brille une ___"
-      ],
-      "answer": {
-        "vocabKey": "star"
-      },
-      "rhymeWith": "poêle",
       "cueFree": false
     }
   ],

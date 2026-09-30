@@ -1,0 +1,16 @@
+{
+ "id": "wave-rhyfix-no-g1344",
+ "_note": "2026-09-30 republish (standing rule): Rhyming Words native panel audit — the live page printed couplet c8, couplet c9, couplet c7, couplet c4 (fixed at the bank). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "no"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-344"
+ ]
+}

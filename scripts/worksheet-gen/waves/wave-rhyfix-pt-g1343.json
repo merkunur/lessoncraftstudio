@@ -1,0 +1,16 @@
+{
+ "id": "wave-rhyfix-pt-g1343",
+ "_note": "2026-09-30 republish (standing rule): Rhyming Words native panel audit — the live page printed onion, mouth (fixed at the bank). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-343"
+ ]
+}

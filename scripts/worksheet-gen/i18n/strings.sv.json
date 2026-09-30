@@ -2237,7 +2237,7 @@
   },
   "G1-343": {
     "title": "Sortera rimorden",
-    "instruction": "Säg varje bild i banken. Hitta den stora bild den rimmar på och skriv ordet på en rad under den bilden."
+    "instruction": "Säg varje bild i banken. Hitta den stora bilden som den rimmar på och skriv bildens ord på en rad under den stora bilden."
   },
   "G1-344": {
     "title": "Gör rimmet färdigt",
@@ -2245,7 +2245,7 @@
   },
   "G1-345": {
     "title": "Rimkedjor: tre ord som rimmar",
-    "instruction": "Säg varje bild. Hitta de två ord i banken som rimmar på den och skriv dem på raderna. Några ord passar ingenstans."
+    "instruction": "Säg varje bild. Hitta de två orden i banken som rimmar på den och skriv dem på raderna. Några ord passar ingenstans."
   },
   "G1-346": {
     "title": "Hitta på egna rimord",

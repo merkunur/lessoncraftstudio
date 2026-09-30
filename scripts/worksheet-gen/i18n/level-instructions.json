@@ -1629,5 +1629,263 @@
     "instruction": "Lue tarina huolellisesti. Ympyröi oikea vastaus kysymyksiin 1 ja 2. Kirjoita vastaus kysymykseen 3 viivoille."
    }
   }
+ },
+ "G1-343": {
+  "3": {
+   "en": {
+    "instruction": "Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture. Two pictures do not rhyme with any big picture. Cross them out."
+   },
+   "de": {
+    "instruction": "Sprich jedes Bild im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild. Zwei Bilder reimen sich auf kein großes Bild. Streiche sie durch."
+   },
+   "es": {
+    "instruction": "Di el nombre de cada dibujo del banco. Busca el dibujo grande con el que rima y escribe la palabra en una línea debajo de él. Dos dibujos no riman con ningún dibujo grande: táchalos."
+   },
+   "fr": {
+    "instruction": "Dis le nom de chaque image de la banque. Trouve la grande image qui rime avec elle et écris son nom sur une ligne sous cette grande image. Deux images ne riment avec aucune grande image : barre-les."
+   },
+   "it": {
+    "instruction": "Di’ il nome di ogni disegno in alto. Trova il disegno grande con cui fa rima e scrivi la parola su una riga sotto quel disegno. Due disegni non fanno rima con nessun disegno grande: cancellali con una croce."
+   },
+   "pt": {
+    "instruction": "Fale o nome de cada figura do banco. Ache a figura grande com que ela rima e escreva a palavra em uma linha embaixo dessa figura. Duas figuras não rimam com nenhuma figura grande: risque essas duas."
+   },
+   "nl": {
+    "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat grote plaatje. Twee plaatjes rijmen op geen enkel groot plaatje: streep ze door."
+   },
+   "sv": {
+    "instruction": "Säg varje bild i banken. Hitta den stora bilden som den rimmar på och skriv bildens ord på en rad under den stora bilden. Två bilder rimmar inte på någon stor bild – stryk över dem."
+   },
+   "no": {
+    "instruction": "Si hvert bilde i ordbanken. Finn det store bildet det rimer på, og skriv ordet på en linje under det store bildet. To av bildene rimer ikke på noen av de store bildene. Kryss dem ut."
+   },
+   "da": {
+    "instruction": "Sig hvert billede i banken. Find det store billede, det rimer på, og skriv ordet på en linje under det store billede. To billeder rimer ikke på noget af de store billeder – streg dem ud."
+   },
+   "fi": {
+    "instruction": "Sano jokainen sanapankin kuva. Etsi iso kuva, jonka kanssa se rimmaa, ja kirjoita sana viivalle sen ison kuvan alle. Kaksi kuvaa ei rimmaa minkään ison kuvan kanssa – vedä ne yli."
+   }
+  }
+ },
+ "G1-344": {
+  "1": {
+   "en": {
+    "instruction": "Read the two lines out loud. Circle the word that rhymes and finishes the verse. Then write it on the line."
+   },
+   "de": {
+    "instruction": "Lies die zwei Zeilen laut vor. Kreise das Wort ein, das sich reimt und in die Lücke passt. Schreibe es dann auf die Linie."
+   },
+   "es": {
+    "instruction": "Lee los dos versos en voz alta. Encierra en un círculo la palabra que rima y completa el verso. Luego escríbela en la línea."
+   },
+   "fr": {
+    "instruction": "Lis les deux vers à voix haute. Entoure le mot qui rime et qui termine la comptine, puis écris-le sur la ligne."
+   },
+   "it": {
+    "instruction": "Leggi i due versi ad alta voce. Cerchia la parola che fa rima e completa la filastrocca, poi scrivila sulla riga."
+   },
+   "pt": {
+    "instruction": "Leia os dois versos em voz alta. Circule a palavra que rima e completa o verso. Depois, escreva essa palavra na linha."
+   },
+   "nl": {
+    "instruction": "Lees de twee regels hardop. Omcirkel het woord dat rijmt en het rijmpje afmaakt. Schrijf het dan op de lijn."
+   },
+   "sv": {
+    "instruction": "Läs de två raderna högt. Ringa in ordet som rimmar och gör versen färdig. Skriv sedan ordet på raden."
+   },
+   "no": {
+    "instruction": "Les de to linjene høyt. Sett ring rundt ordet som rimer og passer i verset, og skriv det på linja."
+   },
+   "da": {
+    "instruction": "Læs de to linjer højt. Sæt ring om det ord, der rimer og gør verset færdigt, og skriv det på linjen."
+   },
+   "fi": {
+    "instruction": "Lue lorun kaksi riviä ääneen. Ympyröi sana, joka rimmaa ja sopii loruun, ja kirjoita se viivalle."
+   }
+  },
+  "3": {
+   "en": {
+    "instruction": "Read the two lines out loud. Find the word in the box that rhymes and finishes the verse. Write it on the line. Two words in the box are not used."
+   },
+   "de": {
+    "instruction": "Lies die zwei Zeilen laut vor. Suche im Kasten das Wort, das sich reimt und in die Lücke passt, und schreibe es auf die Linie. Zwei Wörter im Kasten passen nirgends."
+   },
+   "es": {
+    "instruction": "Lee los dos versos en voz alta. Busca en el recuadro la palabra que rima y completa el verso, y escríbela en la línea. Dos palabras del recuadro no van en ningún verso."
+   },
+   "fr": {
+    "instruction": "Lis les deux vers à voix haute. Trouve dans la boîte à mots le mot qui rime et qui termine la comptine, puis écris-le sur la ligne. Deux mots de la boîte ne vont nulle part."
+   },
+   "it": {
+    "instruction": "Leggi i due versi ad alta voce. Cerca nel riquadro la parola che fa rima e completa la filastrocca, poi scrivila sulla riga. Due parole del riquadro non vanno bene da nessuna parte."
+   },
+   "pt": {
+    "instruction": "Leia os dois versos em voz alta. Ache no quadro a palavra que rima e completa o verso e escreva na linha. Duas palavras do quadro não servem para nenhum verso."
+   },
+   "nl": {
+    "instruction": "Lees de twee regels hardop. Zoek in het kader het woord dat rijmt en het rijmpje afmaakt, en schrijf het op de lijn. Twee woorden in het kader passen nergens."
+   },
+   "sv": {
+    "instruction": "Läs de två raderna högt. Hitta ordet i rutan som rimmar och gör versen färdig och skriv det på raden. Två ord i rutan passar ingenstans."
+   },
+   "no": {
+    "instruction": "Les de to linjene høyt. Finn ordet i boksen som rimer og passer i verset, og skriv det på linja. To av ordene i boksen passer ingen steder."
+   },
+   "da": {
+    "instruction": "Læs de to linjer højt. Find det ord i kassen, der rimer og gør verset færdigt, og skriv det på linjen. To af ordene i kassen passer ingen steder."
+   },
+   "fi": {
+    "instruction": "Lue lorun kaksi riviä ääneen. Etsi laatikosta sana, joka rimmaa ja sopii loruun, ja kirjoita se viivalle. Kaksi laatikon sanaa ei sovi mihinkään loruun."
+   }
+  }
+ },
+ "G1-345": {
+  "1": {
+   "en": {
+    "instruction": "Say each picture. Find the two words in the bank that rhyme with it. Write them on its lines."
+   },
+   "de": {
+    "instruction": "Sprich jedes Bild. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild."
+   },
+   "es": {
+    "instruction": "Di el nombre de cada dibujo. Busca en el banco las dos palabras que riman con él y escríbelas en sus líneas."
+   },
+   "fr": {
+    "instruction": "Dis le nom de chaque image. Trouve dans la banque les deux mots qui riment avec elle et écris-les sur ses lignes."
+   },
+   "it": {
+    "instruction": "Di’ il nome di ogni disegno. Cerca nel riquadro le due parole che fanno rima con il disegno e scrivile sulle sue righe."
+   },
+   "pt": {
+    "instruction": "Fale o nome de cada figura. Ache no banco as duas palavras que rimam com ela e escreva nas linhas dessa figura."
+   },
+   "nl": {
+    "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje."
+   },
+   "sv": {
+    "instruction": "Säg varje bild. Hitta de två orden i banken som rimmar på den och skriv dem på raderna."
+   },
+   "no": {
+    "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene."
+   },
+   "da": {
+    "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne."
+   },
+   "fi": {
+    "instruction": "Sano jokainen kuva. Etsi sanapankista kaksi sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille."
+   }
+  },
+  "3": {
+   "en": {
+    "instruction": "Say each picture. Find the three words in the bank that rhyme with it. Write them on its lines. Some words are not used."
+   },
+   "de": {
+    "instruction": "Sprich jedes Bild. Finde im Kasten die drei Wörter, die sich darauf reimen, und schreibe sie auf die Linien neben dem Bild. Manche Wörter passen nirgends."
+   },
+   "es": {
+    "instruction": "Di el nombre de cada dibujo. Busca en el banco las tres palabras que riman con él y escríbelas en sus líneas. Algunas palabras no van con ningún dibujo."
+   },
+   "fr": {
+    "instruction": "Dis le nom de chaque image. Trouve dans la banque les trois mots qui riment avec elle et écris-les sur ses lignes. Certains mots ne vont nulle part.",
+    "title": "Chaînes de rimes : trois mots qui riment"
+   },
+   "it": {
+    "instruction": "Di’ il nome di ogni disegno. Cerca nel riquadro le tre parole che fanno rima con il disegno e scrivile sulle sue righe. Alcune parole non vanno bene da nessuna parte."
+   },
+   "pt": {
+    "instruction": "Fale o nome de cada figura. Ache no banco as três palavras que rimam com ela e escreva nas linhas dessa figura. Algumas palavras não servem para nenhuma figura.",
+    "title": "Cadeia de rimas: três palavras para cada figura"
+   },
+   "nl": {
+    "instruction": "Zeg elk plaatje. Zoek in het kader de drie woorden die erop rijmen en schrijf ze op de lijnen bij dat plaatje. Sommige woorden passen nergens.",
+    "title": "Rijmrijen: drie rijmwoorden per plaatje"
+   },
+   "fi": {
+    "instruction": "Sano jokainen kuva. Etsi sanapankista kolme sanaa, jotka rimmaavat sen kanssa, ja kirjoita ne kuvan viivoille. Osa sanoista ei sovi mihinkään."
+   },
+   "sv": {
+    "instruction": "Säg varje bild. Hitta de två orden i banken som rimmar på den och skriv dem på raderna. Några ord passar ingenstans."
+   },
+   "da": {
+    "instruction": "Sig hvert billede. Find de to ord i banken, der rimer på det, og skriv dem på linjerne. Nogle ord passer ingen steder."
+   },
+   "no": {
+    "instruction": "Si hvert bilde. Finn de to ordene i ordbanken som rimer på det, og skriv dem på linjene. Noen ord passer ingen steder."
+   }
+  }
+ },
+ "G1-346": {
+  "1": {
+   "en": {
+    "instruction": "Read the word beside each picture. Think of a word that rhymes with it. Write it on the line."
+   },
+   "de": {
+    "instruction": "Lies das Wort neben jedem Bild. Überlege dir ein Wort, das sich darauf reimt, und schreibe es auf die Linie."
+   },
+   "es": {
+    "instruction": "Lee la palabra que está junto a cada dibujo. Piensa en otra palabra que rime con ella y escríbela en la línea."
+   },
+   "fr": {
+    "instruction": "Lis le mot à côté de chaque image. Pense à un mot qui rime avec lui et écris-le sur la ligne.",
+    "title": "Trouve tes rimes : écris un mot"
+   },
+   "it": {
+    "instruction": "Leggi la parola accanto a ogni disegno. Pensa a una parola che fa rima con quella e scrivila sulla riga."
+   },
+   "pt": {
+    "instruction": "Leia a palavra ao lado de cada figura. Pense em outra palavra que rima com ela e escreva na linha."
+   },
+   "nl": {
+    "instruction": "Lees het woord naast elk plaatje. Bedenk een woord dat erop rijmt en schrijf het op de lijn."
+   },
+   "sv": {
+    "instruction": "Läs ordet bredvid varje bild. Kom på ett ord som rimmar på det och skriv det på raden."
+   },
+   "no": {
+    "instruction": "Les ordet ved siden av hvert bilde. Finn på et ord som rimer på det, og skriv det på linja."
+   },
+   "da": {
+    "instruction": "Læs ordet ved hvert billede. Find på et ord, der rimer på det, og skriv det på linjen."
+   },
+   "fi": {
+    "instruction": "Lue kuvan vieressä oleva sana. Keksi sana, joka rimmaa sen kanssa, ja kirjoita se viivalle."
+   }
+  },
+  "3": {
+   "en": {
+    "instruction": "Read each word. Think of three words that rhyme with it. Write one word on each line."
+   },
+   "de": {
+    "instruction": "Lies jedes Wort. Überlege dir drei Wörter, die sich darauf reimen, und schreibe auf jede Linie eines."
+   },
+   "es": {
+    "instruction": "Lee cada palabra. Piensa en tres palabras que rimen con ella y escribe una en cada línea."
+   },
+   "fr": {
+    "instruction": "Lis chaque mot. Pense à trois mots qui riment avec lui et écris-en un sur chaque ligne.",
+    "title": "Trouve tes rimes : écris trois mots"
+   },
+   "it": {
+    "instruction": "Leggi ogni parola. Pensa a tre parole che fanno rima con quella e scrivine una su ogni riga."
+   },
+   "pt": {
+    "instruction": "Leia cada palavra. Pense em três palavras que rimam com ela e escreva uma em cada linha."
+   },
+   "nl": {
+    "instruction": "Lees elk woord. Bedenk drie woorden die erop rijmen en schrijf er één op elke lijn."
+   },
+   "sv": {
+    "instruction": "Läs varje ord. Kom på tre ord som rimmar på det och skriv ett ord på varje rad."
+   },
+   "no": {
+    "instruction": "Les hvert ord. Finn på tre ord som rimer på det, og skriv ett ord på hver linje."
+   },
+   "da": {
+    "instruction": "Læs hvert ord. Find på tre ord, der rimer på det, og skriv ét på hver linje."
+   },
+   "fi": {
+    "instruction": "Lue jokainen sana. Keksi kolme sanaa, jotka rimmaavat sen kanssa, ja kirjoita yksi sana kullekin viivalle."
+   }
+  }
  }
 }

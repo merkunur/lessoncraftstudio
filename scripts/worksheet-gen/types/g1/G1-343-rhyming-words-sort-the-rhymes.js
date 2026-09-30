@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-343',
   slug: 'rhyming-words-sort-the-rhymes',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 two bins, four pictures · L2 published · L3 + two pictures that rhyme with no bin (crossed out). Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, bins: 2, perBin: 2, bankPx: 80 }, 2: D, 3: { ...D, extra: 2 } },
+  interactive: base.interactiveFor('sort'),
   i18n: { en: { title: "Sort the Rhymes", instruction: "Say each picture in the bank. Find the big picture it rhymes with and write its word on a line under that picture." } },
 };

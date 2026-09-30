@@ -1,0 +1,28 @@
+{
+ "id": "wave-plumfix-en-k324-d3-v198",
+ "_note": "2026-09-30 republish (standing rule): every plum picture in the library is drawn as an APPLE; this live deck named it (lib/b2-common.js B2_EXCLUDE plum). Same coordinate as the live deck; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  3
+ ],
+ "types": [
+  "K-324"
+ ],
+ "indexable": false,
+ "interactive": false,
+ "levels": {
+  "K-324": {
+   "3": [
+    {
+     "copy": 198,
+     "theme": "At the Supermarket"
+    }
+   ]
+  }
+ }
+}

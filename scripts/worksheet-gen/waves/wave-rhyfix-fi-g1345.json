@@ -1,0 +1,16 @@
+{
+ "id": "wave-rhyfix-fi-g1345",
+ "_note": "2026-09-30 republish (standing rule): Rhyming Words native panel audit — the live page printed bison (fixed at the bank). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-345"
+ ]
+}

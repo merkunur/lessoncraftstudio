@@ -7,7 +7,7 @@
     "era",
     "ana",
     "ol",
-    "oca"
+    "eta"
   ],
   "classes": [
     {
@@ -269,17 +269,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "vase",
-          "word": "florero",
-          "pic": {
-            "theme": "around the house",
-            "noun": "vase"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "bookcase",
           "word": "librero",
           "pic": {
@@ -507,76 +496,6 @@
       "nearMiss": []
     },
     {
-      "id": "ete",
-      "rime": "-ete",
-      "sound": "ete",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "rocket",
-          "word": "cohete",
-          "pic": {
-            "theme": "space",
-            "noun": "rocket"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "stool",
-          "word": "taburete",
-          "pic": {
-            "theme": "furniture",
-            "noun": "stool"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "juguete",
-        "paquete"
-      ],
-      "nearMiss": []
-    },
-    {
-      "id": "oca",
-      "rime": "-oca",
-      "sound": "oca",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "mouth",
-          "word": "boca",
-          "pic": {
-            "theme": "body parts",
-            "noun": "mouth"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "rock",
-          "word": "roca",
-          "pic": {
-            "theme": "camping",
-            "noun": "rock"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "foca",
-        "loca"
-      ],
-      "nearMiss": []
-    },
-    {
       "id": "ol",
       "rime": "-ol",
       "sound": "ol",
@@ -700,7 +619,7 @@
       "id": "gato-pato",
       "lines": [
         "En el patio duerme el gato",
-        "y a su lado nada el ___"
+        "y en el estanque nada el ___"
       ],
       "answer": {
         "vocabKey": "duck"
@@ -781,18 +700,6 @@
       "cueFree": false
     },
     {
-      "id": "boca-roca",
-      "lines": [
-        "El cangrejo abre la boca",
-        "y se esconde bajo la ___"
-      ],
-      "answer": {
-        "vocabKey": "rock"
-      },
-      "rhymeWith": "boca",
-      "cueFree": false
-    },
-    {
       "id": "corbata-lata",
       "lines": [
         "Papá se pone su corbata",
@@ -827,28 +734,16 @@
       },
       "rhymeWith": "jarra",
       "cueFree": false
-    },
-    {
-      "id": "cohete-taburete",
-      "lines": [
-        "Al cielo sube el cohete",
-        "y yo lo miro desde el ___"
-      ],
-      "answer": {
-        "vocabKey": "stool"
-      },
-      "rhymeWith": "cohete",
-      "cueFree": false
     }
   ],
   "strings": {
     "G1-309": {
       "title": "Palabras que riman: escribe la rima",
-      "instruction": "Rodea el que rima y escribe su nombre."
+      "instruction": "Encierra el dibujo que rima y escribe su nombre."
     },
     "K-352": {
       "title": "¿Riman o no riman?",
-      "instruction": "Di los dos nombres: si terminan igual, marca sí; si no, marca no."
+      "instruction": "Di los dos nombres: si suenan igual al final, marca la palomita; si no, marca el tache."
     },
     "G1-343": {
       "title": "Familias de rimas: clasifica",
@@ -856,7 +751,7 @@
     },
     "G1-344": {
       "title": "Completa la rima",
-      "instruction": "Lee los versos y escribe la palabra que rima con la anterior."
+      "instruction": "Lee los versos y mira el dibujo. Escribe la palabra que rima con el final del primer verso."
     },
     "G1-345": {
       "title": "Cadenas de rimas",

@@ -296,17 +296,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "trombone",
-          "word": "trombone",
-          "pic": {
-            "theme": "music",
-            "noun": "trombone"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "sweater",
           "word": "maglione",
           "pic": {
@@ -323,6 +312,17 @@
           "pic": {
             "theme": "birds 2",
             "noun": "pigeon"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "ball",
+          "word": "pallone",
+          "pic": {
+            "theme": "toys",
+            "noun": "ball"
           },
           "sameSpelling": true,
           "productive": true,
@@ -406,17 +406,6 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "folder",
-          "word": "cartella",
-          "pic": {
-            "theme": "classroom",
-            "noun": "folder"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
@@ -454,17 +443,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "beanie",
-          "word": "berretto",
-          "pic": {
-            "theme": "clothing",
-            "noun": "beanie"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "croissant",
           "word": "cornetto",
           "pic": {
@@ -476,44 +454,11 @@
           "picOpened": true
         },
         {
-          "vocabKey": "bag",
-          "word": "sacchetto",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "bag"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "lock",
           "word": "lucchetto",
           "pic": {
             "theme": "around the house",
             "noun": "lock"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "ferret",
-          "word": "furetto",
-          "pic": {
-            "theme": "pets",
-            "noun": "ferret"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "tissue",
-          "word": "fazzoletto",
-          "pic": {
-            "theme": "hospital",
-            "noun": "tissue"
           },
           "sameSpelling": true,
           "productive": true,
@@ -592,6 +537,17 @@
           "pic": {
             "theme": "summer",
             "noun": "pool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
+        },
+        {
+          "vocabKey": "folder",
+          "word": "cartellina",
+          "pic": {
+            "theme": "classroom",
+            "noun": "folder"
           },
           "sameSpelling": true,
           "productive": true,
@@ -785,7 +741,7 @@
           "vocabKey": "tart",
           "word": "crostata",
           "pic": {
-            "theme": "bakery",
+            "theme": "desserts and sweets",
             "noun": "tart"
           },
           "sameSpelling": true,
@@ -796,52 +752,6 @@
       "extra": [
         "insalata",
         "giornata"
-      ],
-      "nearMiss": []
-    },
-    {
-      "id": "alla",
-      "rime": "-alla",
-      "sound": "alla",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "ball",
-          "word": "palla",
-          "pic": {
-            "theme": "toys",
-            "noun": "ball"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "butterfly",
-          "word": "farfalla",
-          "pic": {
-            "theme": "Things That Fly",
-            "noun": "butterfly"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "shoulder",
-          "word": "spalla",
-          "pic": {
-            "theme": "body parts",
-            "noun": "shoulder"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "stalla",
-        "galla"
       ],
       "nearMiss": []
     },
@@ -1164,40 +1074,6 @@
       "nearMiss": []
     },
     {
-      "id": "enna",
-      "rime": "-enna",
-      "sound": "enna",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "pen",
-          "word": "penna",
-          "pic": {
-            "theme": "classroom",
-            "noun": "pen"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "reindeer",
-          "word": "renna",
-          "pic": {
-            "theme": "christmas",
-            "noun": "reindeer"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "antenna"
-      ],
-      "nearMiss": []
-    },
-    {
       "id": "opo",
       "rime": "-opo",
       "sound": "ɔpo",
@@ -1398,17 +1274,6 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "ankle",
-          "word": "caviglia",
-          "pic": {
-            "theme": "body parts",
-            "noun": "ankle"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
@@ -1497,17 +1362,6 @@
           "pic": {
             "theme": "spring",
             "noun": "flower"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "actor",
-          "word": "attore",
-          "pic": {
-            "theme": "occupations",
-            "noun": "actor"
           },
           "sameSpelling": true,
           "productive": true,
@@ -1658,40 +1512,6 @@
         "scogliera"
       ],
       "nearMiss": []
-    },
-    {
-      "id": "omba",
-      "rime": "-omba",
-      "sound": "omba",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "dove",
-          "word": "colomba",
-          "pic": {
-            "theme": "birds 2",
-            "noun": "dove"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "trumpet",
-          "word": "tromba",
-          "pic": {
-            "theme": "music",
-            "noun": "trumpet"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "bomba"
-      ],
-      "nearMiss": []
     }
   ],
   "couplets": [
@@ -1792,18 +1612,6 @@
       "cueFree": false
     },
     {
-      "id": "penna-renna",
-      "lines": [
-        "Scrivo il nome con la penna",
-        "e disegno una bella ___"
-      ],
-      "answer": {
-        "vocabKey": "reindeer"
-      },
-      "rhymeWith": "penna",
-      "cueFree": false
-    },
-    {
       "id": "mucca-zucca",
       "lines": [
         "Nel prato pascola la mucca",
@@ -1878,8 +1686,8 @@
     {
       "id": "dopo-topo",
       "lines": [
-        "Il gatto arriva subito dopo",
-        "per acchiappare il piccolo ___"
+        "Il gatto dorme e poco dopo",
+        "si sveglia e insegue il ___"
       ],
       "answer": {
         "vocabKey": "mouse"
@@ -2023,7 +1831,7 @@
     },
     "G1-345": {
       "title": "Catene di rime: due parole per ogni disegno",
-      "instruction": "Di' il nome di ogni disegno. Cerca nella scatola le due parole che fanno rima con il disegno e scrivile sulle righe. Alcune parole non vanno bene."
+      "instruction": "Di’ il nome di ogni disegno. Cerca nel riquadro le due parole che fanno rima con il disegno e scrivile sulle righe. Alcune parole non vanno bene da nessuna parte."
     },
     "G1-346": {
       "title": "Inventa le tue rime",

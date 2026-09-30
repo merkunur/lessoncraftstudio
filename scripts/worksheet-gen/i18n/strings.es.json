@@ -1961,7 +1961,7 @@
   },
   "G1-309": {
     "title": "Palabras que riman: escribe la rima",
-    "instruction": "Rodea el que rima y escribe su nombre."
+    "instruction": "Encierra el dibujo que rima y escribe su nombre."
   },
   "G1-310": {
     "title": "Tabla del 100: completa las piezas del rompecabezas",
@@ -2233,7 +2233,7 @@
   },
   "K-352": {
     "title": "¿Riman o no riman?",
-    "instruction": "Di los dos nombres: si riman, marca la palomita; si no, el tache."
+    "instruction": "Di los dos nombres: si suenan igual al final, marca la palomita; si no, marca el tache."
   },
   "G1-343": {
     "title": "Familias de rimas: clasifica",
@@ -2241,7 +2241,7 @@
   },
   "G1-344": {
     "title": "Completa la rima",
-    "instruction": "Lee los versos y escribe la palabra que rima con la anterior."
+    "instruction": "Lee los versos y mira el dibujo. Escribe la palabra que rima con el final del primer verso."
   },
   "G1-345": {
     "title": "Cadenas de rimas",

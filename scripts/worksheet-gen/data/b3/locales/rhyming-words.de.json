@@ -97,7 +97,7 @@
         }
       ],
       "extra": [
-        "lose"
+        "Matrose"
       ],
       "nearMiss": []
     },
@@ -164,17 +164,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "rice",
-          "word": "Reis",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "rice"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "circle",
           "word": "Kreis",
           "pic": {
@@ -188,7 +177,8 @@
       ],
       "extra": [
         "heiß",
-        "weiß"
+        "weiß",
+        "Reis"
       ],
       "nearMiss": []
     },
@@ -311,22 +301,12 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "gazelle",
-          "word": "Gazelle",
-          "pic": {
-            "theme": "zoo animals",
-            "noun": "gazelle"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
         "Stelle",
-        "Quelle"
+        "Quelle",
+        "Gazelle"
       ],
       "nearMiss": []
     },
@@ -348,17 +328,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "spinach",
-          "word": "Spinat",
-          "pic": {
-            "theme": "vegetables",
-            "noun": "spinach"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "square",
           "word": "Quadrat",
           "pic": {
@@ -372,7 +341,8 @@
       ],
       "extra": [
         "Rat",
-        "Draht"
+        "Draht",
+        "Spinat"
       ],
       "nearMiss": []
     },
@@ -405,17 +375,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "jasmine",
-          "word": "Jasmin",
-          "pic": {
-            "theme": "flowers",
-            "noun": "jasmine"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "medicine",
           "word": "Medizin",
           "pic": {
@@ -428,7 +387,8 @@
         }
       ],
       "extra": [
-        "Benzin"
+        "Benzin",
+        "Jasmin"
       ],
       "nearMiss": []
     },
@@ -438,17 +398,6 @@
       "sound": "iːɐ̯",
       "cap": 8,
       "members": [
-        {
-          "vocabKey": "bull",
-          "word": "Stier",
-          "pic": {
-            "theme": "farm animals",
-            "noun": "bull"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
         {
           "vocabKey": "paper",
           "word": "Papier",
@@ -474,7 +423,8 @@
       ],
       "extra": [
         "Tier",
-        "hier"
+        "hier",
+        "Stier"
       ],
       "nearMiss": []
     },
@@ -719,41 +669,6 @@
       ],
       "extra": [
         "Hase"
-      ],
-      "nearMiss": []
-    },
-    {
-      "id": "anne",
-      "rime": "-anne",
-      "sound": "anə",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "pan",
-          "word": "Pfanne",
-          "pic": {
-            "theme": "around the house",
-            "noun": "pan"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "pitcher",
-          "word": "Kanne",
-          "pic": {
-            "theme": "kitchen tools",
-            "noun": "pitcher"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "Tanne",
-        "Wanne"
       ],
       "nearMiss": []
     },
@@ -1023,7 +938,8 @@
         }
       ],
       "extra": [
-        "Raube"
+        "Haube",
+        "Traube"
       ],
       "nearMiss": []
     },
@@ -1178,20 +1094,20 @@
     {
       "id": "hand-strand",
       "lines": [
-        "Ich habe Sand auf meiner Hand",
-        "und Sand am ganzen ___."
+        "Ich baue eine Burg aus Sand",
+        "ganz nah am Wasser, hier am ___."
       ],
       "answer": {
         "vocabKey": "beach"
       },
-      "rhymeWith": "hand",
+      "rhymeWith": "sand",
       "cueFree": false
     },
     {
       "id": "dose-hose",
       "lines": [
         "Die Rose steht in einer Dose",
-        "gleich neben meiner blauen ___."
+        "gleich neben meiner gelben ___."
       ],
       "answer": {
         "vocabKey": "pants"
@@ -1296,18 +1212,6 @@
       "cueFree": false
     },
     {
-      "id": "pfanne-kanne",
-      "lines": [
-        "Das Ei brät in der Pfanne,",
-        "der Tee ist in der ___."
-      ],
-      "answer": {
-        "vocabKey": "pitcher"
-      },
-      "rhymeWith": "pfanne",
-      "cueFree": false
-    },
-    {
       "id": "zug-krug",
       "lines": [
         "Wir fahren mit dem Zug,",
@@ -1404,7 +1308,7 @@
     },
     "G1-343": {
       "title": "Reimwörter sortieren",
-      "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+      "instruction": "Sprich jedes Bild im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild."
     },
     "G1-344": {
       "title": "Reime vervollständigen",
@@ -1412,7 +1316,7 @@
     },
     "G1-345": {
       "title": "Reimketten",
-      "instruction": "Sprich jedes Bild. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+      "instruction": "Sprich jedes Bild. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien bei diesem Bild. Manche Wörter passen nirgends."
     },
     "G1-346": {
       "title": "Eigene Reimwörter schreiben",

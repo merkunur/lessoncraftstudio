@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'K-352',
   slug: 'rhyming-words-rhyme-or-not',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Rhyme or Not?", instruction: "Say both pictures out loud. If the two words rhyme, circle the tick. If they do not rhyme, circle the cross." } },
+  // Level Set 2026-09-30: L1 six cards with clear rhymes and non-rhymes · L2 published · L3 the non-rhyming pairs are NEAR MISSES (cat / cap). Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, cards: 6, yes: 3, picPx: 84 }, 2: D, 3: { ...D, nearMiss: true } },
+  interactive: base.interactiveFor('judge'),
+  i18n: { en: { title: "Rhyme or Not?", instruction: "Say both pictures out loud. If the two words rhyme, circle the check mark. If they do not rhyme, circle the X." } },
   gradeBand: "K",
 };

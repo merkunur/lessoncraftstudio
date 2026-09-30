@@ -110,9 +110,9 @@
         }
       ],
       "extra": [
-        "matt",
         "natt",
-        "ratt"
+        "ratt",
+        "skatt"
       ],
       "nearMiss": [
         {
@@ -349,17 +349,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "coat",
-          "word": "frakk",
-          "pic": {
-            "theme": "clothing",
-            "noun": "coat"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "stool",
           "word": "krakk",
           "pic": {
@@ -372,9 +361,9 @@
         }
       ],
       "extra": [
-        "takk",
         "hakk",
-        "sjakk"
+        "sjakk",
+        "lakk"
       ],
       "nearMiss": [
         {
@@ -428,7 +417,7 @@
       ],
       "extra": [
         "sett",
-        "lett"
+        "brett"
       ],
       "nearMiss": [
         {
@@ -542,60 +531,6 @@
       ]
     },
     {
-      "id": "am",
-      "rime": "-am",
-      "sound": "am",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "lamb",
-          "word": "lam",
-          "pic": {
-            "theme": "farm animals",
-            "noun": "lamb"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "comb",
-          "word": "kam",
-          "pic": {
-            "theme": "around the house",
-            "noun": "comb"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "ram",
-        "dam"
-      ],
-      "nearMiss": [
-        {
-          "vocabKey": "lamp",
-          "word": "lampe",
-          "pic": {
-            "theme": "around the house",
-            "noun": "lamp"
-          },
-          "picOpened": true
-        },
-        {
-          "vocabKey": "cat",
-          "word": "katt",
-          "pic": {
-            "theme": "animals",
-            "noun": "cat"
-          },
-          "picOpened": true
-        }
-      ]
-    },
-    {
       "id": "in",
       "rime": "-in",
       "sound": "iːn",
@@ -693,7 +628,7 @@
       ],
       "extra": [
         "person",
-        "ballong"
+        "kanon"
       ],
       "nearMiss": [
         {
@@ -790,9 +725,7 @@
           "picOpened": true
         }
       ],
-      "extra": [
-        "grau"
-      ],
+      "extra": [],
       "nearMiss": [
         {
           "vocabKey": "lettuce",
@@ -844,8 +777,7 @@
         }
       ],
       "extra": [
-        "lev",
-        "sev"
+        "elev"
       ],
       "nearMiss": [
         {
@@ -891,17 +823,6 @@
           "pic": {
             "theme": "around the house",
             "noun": "gate"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "deer",
-          "word": "hjort",
-          "pic": {
-            "theme": "camping",
-            "noun": "deer"
           },
           "sameSpelling": true,
           "productive": true,
@@ -1017,8 +938,7 @@
         }
       ],
       "extra": [
-        "by",
-        "ny"
+        "by"
       ],
       "nearMiss": [
         {
@@ -1141,50 +1061,6 @@
       ]
     },
     {
-      "id": "urv",
-      "rime": "-urv",
-      "sound": "ʉrv",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "basket",
-          "word": "kurv",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "basket"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "sparrow",
-          "word": "spurv",
-          "pic": {
-            "theme": "birds 2",
-            "noun": "sparrow"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "skurv"
-      ],
-      "nearMiss": [
-        {
-          "vocabKey": "sphere",
-          "word": "kule",
-          "pic": {
-            "theme": "shapes",
-            "noun": "sphere"
-          },
-          "picOpened": true
-        }
-      ]
-    },
-    {
       "id": "ost",
       "rime": "-ost",
       "sound": "ʊst",
@@ -1215,7 +1091,7 @@
       ],
       "extra": [
         "post",
-        "rost"
+        "frost"
       ],
       "nearMiss": [
         {
@@ -1265,22 +1141,11 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "gazelle",
-          "word": "gasell",
-          "pic": {
-            "theme": "zoo animals",
-            "noun": "gazelle"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
         "smell",
-        "snell"
+        "hell"
       ],
       "nearMiss": [
         {
@@ -1387,9 +1252,9 @@
         }
       ],
       "extra": [
-        "bake",
         "hake",
-        "sake"
+        "sake",
+        "make"
       ],
       "nearMiss": [
         {
@@ -1443,7 +1308,7 @@
       ],
       "extra": [
         "dose",
-        "nose"
+        "mimose"
       ],
       "nearMiss": [
         {
@@ -1551,7 +1416,6 @@
       ],
       "extra": [
         "bakke",
-        "takke",
         "nakke"
       ],
       "nearMiss": [
@@ -1605,8 +1469,7 @@
         }
       ],
       "extra": [
-        "taske",
-        "vaske"
+        "aske"
       ],
       "nearMiss": [
         {
@@ -1671,7 +1534,7 @@
       "id": "c4",
       "lines": [
         "Oppe på fjellet ligger en stein.",
-        "Der sitter jeg og dingler med et ___."
+        "Der sitter jeg og gnir mitt vonde ___."
       ],
       "answer": {
         "vocabKey": "leg"
@@ -1695,7 +1558,7 @@
       "id": "c6",
       "lines": [
         "Mamma fant en fin sitron.",
-        "Pappa fant en stor ___."
+        "Pappa skjærer opp en saftig ___."
       ],
       "answer": {
         "vocabKey": "melon"
@@ -1707,7 +1570,7 @@
       "id": "c7",
       "lines": [
         "Bak et gjerde står en hest.",
-        "Den har på seg en ___."
+        "Rytteren har på seg en ___."
       ],
       "answer": {
         "vocabKey": "vest"
@@ -1716,22 +1579,10 @@
       "cueFree": false
     },
     {
-      "id": "c8",
-      "lines": [
-        "Bestefar sitter på en krakk.",
-        "Han har på seg en varm ___."
-      ],
-      "answer": {
-        "vocabKey": "coat"
-      },
-      "rhymeWith": "krakk",
-      "cueFree": false
-    },
-    {
       "id": "c9",
       "lines": [
-        "Reven fant et gult brev.",
-        "Det var sendt fra en gammel ___."
+        "Bestemor fikk et gult brev.",
+        "Det var sendt fra en lur ___."
       ],
       "answer": {
         "vocabKey": "fox"

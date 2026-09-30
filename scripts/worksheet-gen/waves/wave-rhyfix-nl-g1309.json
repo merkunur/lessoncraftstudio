@@ -1,0 +1,16 @@
+{
+ "id": "wave-rhyfix-nl-g1309",
+ "_note": "2026-09-30 republish (standing rule): Rhyming Words native panel audit — the live page printed jam, lamb, ferret, porridge (fixed at the bank). Same coordinate as the published page; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-309"
+ ]
+}

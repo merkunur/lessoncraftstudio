@@ -92,6 +92,43 @@ const tokens = require('../../primitives/_tokens.js');
 
 const BANK = 'rhyming-words';
 const WHO = 'G1-309';
+
+/*
+ * Level Set 2026-09-30: new copies read the published bank + the native panels' additions
+ * (data/b3/rhyming-words-levelset.json, per locale { classes:[new classes, the bank's shape], addMembers:{ <class id>:
+ * [members] }, nearMissFor:{ <class id>: [foils] }, couplets:[…] }). The published pages (level 2, copy 1) never read it.
+ */
+let _ls;
+function levelSetData() {
+  if (_ls === undefined) {
+    const f = require('path').join(__dirname, '..', '..', 'data', 'b3', 'rhyming-words-levelset.json');
+    _ls = require('fs').existsSync(f) ? JSON.parse(require('fs').readFileSync(f, 'utf8')) : null;
+  }
+  return _ls;
+}
+function mergedBank(loc) {
+  const b = loadBank(BANK, loc);
+  const x = (levelSetData() || {})[loc];
+  if (!x) return b;
+  const add = x.addMembers || {}, nm = x.nearMissFor || {};
+  const classes = b.classes.map((c) => (add[c.id] || nm[c.id]
+    ? { ...c, members: [...c.members, ...(add[c.id] || [])], nearMiss: [...(c.nearMiss || []), ...(nm[c.id] || [])] } : c));
+  // levelSetStrictSpelling: on NEW pages a word marked sameSpelling:false (Elefant in -and, Mais in -eis) is never an
+  // answer the child WRITES, even where the locale's spelling is otherwise trusted (German panel audit 2026-09-30)
+  return { ...b, levelSetStrictSpelling: true, classes: [...classes, ...(x.classes || [])], couplets: [...(b.couplets || []), ...(x.couplets || [])] };
+}
+const RHY_SCREEN = require('../../lib/rhyming-words-screen.js');
+/** The screen-version contract per mode (tap-choice); the oracle re-derives every answer from the merged bank. */
+function interactiveFor(mode) {
+  return {
+    kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-key', labelAttr: 'data-lcs-given',
+    metaAttrs: ['data-lcs-given', 'data-lcs-given-b', 'data-lcs-couplet-id'], screenHeight: 6000,
+    // the screen names the cross only where the page has one: sort level 3 (pictures that fit no bin); strings
+    // level 1 has a bank with nothing to reject, so no cross
+    instructionKey: mode === 'sort' ? (lv) => (lv === 3 ? 'sortNone' : 'sort') : mode === 'string' ? (lv) => (lv === 1 ? 'stringPlain' : 'string') : RHY_SCREEN.INSTRUCTION[mode],
+    oracle: (items, l) => { const loc = (l || 'en').slice(0, 2); return RHY_SCREEN.oracle(mode, items, loc, mergedBank(loc)); },
+  };
+}
 const WORD_RE = /^[\p{L}\-']+$/u;
 const CARD_INNER = 647;            // 675 card − 2 × (12 padding + 2 border)
 const MARK_W = 20;
@@ -134,7 +171,10 @@ function glyphs(w) { return [...String(w)].length; }
 /** Members a WRITE face may pair (design §4: where orthography is not trusted, sameSpelling:true only). */
 function writable(cls, bank, d, loc) {
   return cls.members.filter((m) => (!d.sameSpellingOnly || bank.orthographyTrusted || m.sameSpelling === true))
-    .filter((m) => WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters);
+    .filter((m) => WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters)
+    // a page that prints the answer's first letter as a starter never pairs a one-letter word (sv ö, å): the starter IS the answer
+    .filter((m) => !d.starter || glyphs(m.word) >= 2)
+    .filter((m) => !(bank.levelSetStrictSpelling && m.sameSpelling === false));
 }
 /** The resolved config for (difficulty, band): the band shape is merged LAST (design §2 ladder). */
 function resolveConfig(spec, difficulty, band) {
@@ -160,14 +200,15 @@ module.exports = {
     // every class that can anchor a d2 row (>= 2 writable members) in bank order; the wave's first N ship
     units: (loc) => {
       const l = (loc || 'en').slice(0, 2);
-      const bank = loadBank(BANK, l);
+      // Level Set 2026-09-30: the merged bank (units only steer NEW copies; the published pages carry no unit)
+      const bank = mergedBank(l);
       const d = resolveConfig(module.exports, 2, bandFor(l));
       return bank.classes.filter((c) => writable(c, bank, d, l).length >= 2).map((c) => c.id);
     },
     exemplar: (loc) => loadBank(BANK, (loc || 'en').slice(0, 2)).exemplar[0],
     tokens: (unit, loc) => {
       const l = (loc || 'en').slice(0, 2);
-      const cls = loadBank(BANK, l).classes.find((c) => c.id === unit);
+      const cls = mergedBank(l).classes.find((c) => c.id === unit);
       const label = cls ? cls.rime : String(unit);
       return { U: label, L: label.toLocaleLowerCase(l), UNIT: label };
     },
@@ -187,7 +228,29 @@ module.exports = {
 
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc, unit }, ctx);
+    // Level Set 2026-09-30: the published page (core level, copy 1) reads the published bank ONLY, byte-identical;
+    // every other copy reads the bank merged with the native panels' additions (data/b3/rhyming-words-levelset.json)
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (published) return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc, unit }, ctx);
+    const bank = mergedBank(loc);
+    // the screen version / answer key wrap the SAME printed instance (the print build, then its meta drives both)
+    if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this._buildWith(bank, { theme, difficulty, locale: loc, unit }, { ...ctx, interactive: false, answerKey: false });
+      return RHY_SCREEN.screenOrKey(faceOf(this.difficulty[difficulty]) || 'base', built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, { theme, difficulty, locale: loc, unit }, ctx);
+  },
+  mergedBank: (loc) => mergedBank(loc),
+  levelSetData: () => levelSetData(),
+  interactive: interactiveFor('base'), interactiveFor,
+  /** What makes a copy different (build-waves): the rhyme classes on the page; the couplet face its verses. */
+  levelSetWords(meta) {
+    if (meta.mode === 'couplet') return meta.couplets;
+    if (meta.mode === 'judge') return meta.cards.flatMap((c) => (c.rhyme ? [c.clsA] : [c.a, c.b]));
+    if (meta.mode === 'sort') return meta.bins.map((b) => b.cls);
+    if (meta.mode === 'string') return meta.anchors.map((a) => a.cls);
+    if (meta.mode === 'open') return meta.cards.map((c) => c.cls);
+    return meta.classes;
   },
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. `band` overrides the locale's band (the gate renders the K shape on the en bank). */
@@ -363,7 +426,9 @@ module.exports = {
   _buildFace(face, bank, raw, { locale, unit, band }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     const B = band || FACE_BAND[face](loc);
-    const d = Object.assign({}, raw, B === 'K' ? FACE_K_SHAPE[face] : {}, { band: B });
+    // Level Set 2026-09-30: a level may carry its own K shape (`kShape`, merged after the face's), and `noFoils`
+    // (Rhyme Strings level 1: a bank with nothing to reject) wins over any shape's foil count
+    const d = Object.assign({}, raw, B === 'K' ? FACE_K_SHAPE[face] : {}, B === 'K' && raw.kShape ? raw.kShape : {}, raw.noFoils ? { foils: 0 } : {}, { band: B });
     const plan = this._planFace(face, bank, d, { locale: loc, unit }, ctx.rng);
     return this._renderFace(face, plan, d, B);
   },
@@ -448,7 +513,32 @@ module.exports = {
         }
         return out.length === need ? out : null;
       };
+      // Level Set L3 (`nearMiss`): every non-rhyming card is a NEAR MISS — a class member beside one of its class's
+      // near-miss foils (cat / cap), preferring a foil with the member's first sound; a foil that is a member of a
+      // class on the rhyming set never enters (it would rhyme with a pair on the page)
+      const drawNear = () => {
+        const first = (w) => [...String(w)][0].toLocaleLowerCase(loc);
+        const out = [];
+        const usedW = new Set(used);
+        for (const c of rng.shuffle(classes.filter((x) => !pairIds.includes(x.id) && (x.nearMiss || []).length && (x.members || []).length))) {
+          if (out.length === need) break;
+          const foils = rng.shuffle(c.nearMiss.filter((f) => !usedW.has(f.vocabKey) && !pairIds.includes(owner.get(f.vocabKey)) && owner.get(f.vocabKey) !== c.id));
+          const mems = rng.shuffle(c.members.filter((m) => !usedW.has(m.vocabKey)));
+          if (!foils.length || !mems.length) continue;
+          let pick = null;
+          for (const f of foils) { const m = mems.find((x) => first(x.word) === first(f.word)); if (m) { pick = [m, f]; break; } }
+          if (!pick) pick = [mems[0], foils[0]];
+          usedW.add(pick[0].vocabKey); usedW.add(pick[1].vocabKey);
+          // a foil that belongs to no class carries its own class tag (never equal to the member's class)
+          out.push({ a: entry(pick[0], c.id), b: entry(pick[1], owner.get(pick[1].vocabKey) || `nm-${pick[1].vocabKey}`), rhyme: false, cls: null, near: true });
+        }
+        return out.length === need ? out : null;
+      };
       let nons = null;
+      if (d.nearMiss) {
+        for (let t = 0; t < 20 && !nons; t++) nons = drawNear();
+        if (!nons) throw new Error(`${who}: ${loc} cannot draw ${need} near-miss pairs from classes off the rhyming set (refuse)`);
+      }
       for (let t = 0; t < 20 && !nons; t++) nons = draw(true);
       for (let t = 0; t < 20 && !nons; t++) nons = draw(false);
       if (!nons) throw new Error(`${who}: ${loc} cannot draw ${need} non-rhyming pairs from the classes off the rhyming set (refuse)`);
@@ -483,13 +573,26 @@ module.exports = {
         const head = rng.pick(headable(c).filter((m) => !taken.has(m.vocabKey)));
         return { cls: id, head: entry(head, id), members: members.map((m) => entry(m, id)) };
       });
+      // Level Set L3 (`extra`): pictures that rhyme with NO bin — from classes off the page whose rhyme differs from
+      // every bin's and which are no bin's near-miss (the child crosses them out)
+      const extras = [];
+      if (d.extra) {
+        const binSounds = new Set(ids.map((id) => byId.get(id).sound));
+        const binNm = new Set(ids.flatMap((id) => [...nmOf(byId.get(id))]));
+        const taken = new Set(bins.flatMap((b) => [b.head.vocabKey, ...b.members.map((m) => m.vocabKey)]));
+        const pool = [];
+        for (const c of classes) if (!ids.includes(c.id) && !binSounds.has(c.sound)) for (const m of c.members) if (!binNm.has(m.vocabKey) && !taken.has(m.vocabKey)) pool.push({ m, c });
+        const usedC = new Set();
+        for (const x of rng.shuffle(pool)) { if (extras.length === d.extra) break; if (usedC.has(x.c.id)) continue; usedC.add(x.c.id); extras.push(Object.assign(entry(x.m, x.c.id), { extra: true })); }
+        if (extras.length < d.extra) throw new Error(`${who}: ${loc} has ${extras.length} pictures that rhyme with no bin, need ${d.extra} (refuse)`);
+      }
       let bankItems;
       for (let t = 0; ; t++) {
-        bankItems = rng.shuffle(bins.flatMap((b) => b.members));
+        bankItems = rng.shuffle([...bins.flatMap((b) => b.members), ...extras]);
         if (!bankItems.some((x, i) => i > 0 && x.cls === bankItems[i - 1].cls)) break;
         if (t > 300) throw new Error(`${who}: could not order the bank without an adjacent pair`);
       }
-      return { face, band: B, unit: unit || null, bins, bankItems };
+      return { face, band: B, unit: unit || null, bins, bankItems, extras };
     }
 
     if (face === 'couplet') {
@@ -516,6 +619,7 @@ module.exports = {
         if (glyphs(l1) > 45 || glyphs(pre) + glyphs(post) > 40) return null;
         if (glyphs(m.word) > d.maxLetters) return null;
         if (!bank.orthographyTrusted && d.sameSpellingOnly && m.sameSpelling !== true) return null;
+        if (bank.levelSetStrictSpelling && m.sameSpelling === false) return null;
         return { id: cp.id, line1: l1, pre, post: post || '', rhymeWith: cp.rhymeWith, answer: entry(m, cid), cls: cid };
       }).filter(Boolean);
       const pickRows = (strict) => {
@@ -524,24 +628,113 @@ module.exports = {
         for (const cp of rng.shuffle(usable)) {
           if (out.length === d.rows) break;
           if (seenA.has(cp.answer.vocabKey) || seenR.has(lower(cp.rhymeWith)) || (strict && seenC.has(cp.cls))) continue;
+          // no verse may print another verse's answer on the same page (a give-away): checked both ways
+          const printed = (x) => `${lower(x.line1)} ${lower(x.pre)} ${lower(x.post)}`;
+          if (out.some((o) => wordRe(lower(o.answer.word)).test(printed(cp)) || wordRe(lower(cp.answer.word)).test(printed(o)))) continue;
           seenA.add(cp.answer.vocabKey); seenR.add(lower(cp.rhymeWith)); seenC.add(cp.cls);
           out.push(cp);
         }
         return out.length === d.rows ? out : null;
       };
-      const rows = pickRows(true) || pickRows(false);
-      if (!rows) throw new Error(`${who}: ${loc} has ${usable.length} usable couplets (distinct answers + partners), need ${d.rows} (refuse)`);
-      return { face, band: B, unit: null, rows };
+      // Level Set L1 (`wordChoices`) / L3 (`pageBank`): the words a child chooses from must rhyme with ONE verse only, so
+      // every verse on those pages comes from a different rhyme class (never the relaxed second pick)
+      const strict = !!(d.wordChoices || d.pageBank);
+      const rows = strict ? pickRows(true) : (pickRows(true) || pickRows(false));
+      if (!rows) throw new Error(`${who}: ${loc} has ${usable.length} usable couplets (distinct answers + partners${strict ? ', one class each' : ''}), need ${d.rows} (refuse)`);
+      if (!strict) return { face, band: B, unit: null, rows };
+      // other words: members of classes whose rhyme is none of the page's, never a near-miss of a page class, each
+      // word once on the page, never a verse's answer
+      const pageSounds = new Set(rows.map((r) => byId.get(r.cls).sound));
+      const pageNm = new Set(rows.flatMap((r) => [...nmOf(byId.get(r.cls))]));
+      const onPage = new Set(rows.map((r) => r.answer.vocabKey));
+      const otherPool = [];
+      for (const c of classes) if (!rows.some((r) => r.cls === c.id) && !pageSounds.has(c.sound)) for (const m of c.members) {
+        if (!pageNm.has(m.vocabKey) && !onPage.has(m.vocabKey) && WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters) otherPool.push({ m, c });
+      }
+      const takeOthers = (n, usedC) => {
+        const out = [];
+        for (const x of rng.shuffle(otherPool)) {
+          if (out.length === n) break;
+          if (usedC.has(x.c.id) || onPage.has(x.m.vocabKey)) continue;
+          usedC.add(x.c.id); onPage.add(x.m.vocabKey); out.push(entry(x.m, x.c.id));
+        }
+        if (out.length < n) throw new Error(`${who}: ${loc} has too few words that rhyme with no verse on the page (refuse)`);
+        return out;
+      };
+      rows.forEach((r) => { if (d.cueFree) r.cueFree = true; });
+      if (d.wordChoices) {
+        // the right word's place: every position used, none more than twice
+        let pos;
+        for (let t = 0; ; t++) {
+          pos = rows.map(() => rng.int(0, d.wordChoices - 1));
+          const n = new Array(d.wordChoices).fill(0); pos.forEach((p) => n[p]++);
+          if (n.every((k) => k >= 1 && k <= Math.ceil(rows.length / d.wordChoices))) break;
+          if (t > 500) throw new Error(`${who}: could not balance the choice positions`);
+        }
+        rows.forEach((r, i) => {
+          const others = takeOthers(d.wordChoices - 1, new Set());
+          const list = others.map((o) => ({ word: o.word, vocabKey: o.vocabKey, cls: o.cls, correct: false }));
+          list.splice(pos[i], 0, { word: r.answer.word, vocabKey: r.answer.vocabKey, cls: r.cls, correct: true });
+          r.choices = list;
+        });
+      }
+      let bankWords = null;
+      if (d.pageBank) {
+        const others = takeOthers(d.pageBank, new Set());
+        for (let t = 0; ; t++) {
+          bankWords = rng.shuffle([...rows.map((r) => Object.assign({}, r.answer, { foil: false })), ...others.map((o) => Object.assign({}, o, { foil: true }))]);
+          if (!bankWords.some((x, i) => i > 0 && x.foil && bankWords[i - 1].foil)) break;
+          if (t > 300) throw new Error(`${who}: could not order the word box`);
+        }
+      }
+      return { face, band: B, unit: null, rows, bankWords };
     }
 
     if (face === 'string') {
       if (!(d.anchors >= 3 && d.anchors <= 4)) throw new Error(`${who}: anchors ${d.anchors} outside 3..4`);
       if (!(d.per >= 2 && d.per <= 3)) throw new Error(`${who}: per ${d.per} outside 2..3`);
-      if (!(d.foils >= 2)) throw new Error(`${who}: foils ${d.foils} < 2 — a bank with nothing to reject is the base`);
+      // Level Set L1 (`noFoils`): the easier page's bank holds only the answers — declared, never a silent 0
+      if (!(d.foils >= 2) && !(d.noFoils && d.foils === 0)) throw new Error(`${who}: foils ${d.foils} < 2 — a bank with nothing to reject is the base`);
       if (d.picPx < floor) throw new Error(`${who}: picture ${d.picPx} px below the ${B} floor ${floor}`);
       if (d.glyphH < (B === 'K' ? 40 : 26)) throw new Error(`${who}: glyphH ${d.glyphH} below the ${B} handwriting floor`);
       const anchorable = (c) => (c.members || []).filter((m) => WORD_RE.test(m.word));
       const eligible = classes.filter((c) => writable(c, bank, d, loc).length >= d.per && anchorable(c).length >= d.per + 1);
+      // Level Set L3 (`useExtras`): the child COPIES words from the printed bank, so an answer needs no picture — the
+      // class's native `extra` rhyme words join its members as bank words (three rhymes per picture needs a deep class)
+      if (d.useExtras) {
+        const lc = (w) => String(w).toLocaleLowerCase(loc);
+        const poolOf = (c) => [...writable(c, bank, d, loc).map((m) => ({ m, x: false })),
+          ...(c.extra || []).filter((w) => WORD_RE.test(w) && glyphs(w) <= d.maxLetters && !c.members.some((m) => lc(m.word) === lc(w))).map((w) => ({ m: { vocabKey: `x:${c.id}:${w}`, word: w }, x: true }))];
+        const eligX = classes.filter((c) => anchorable(c).length >= 1 && poolOf(c).length >= d.per + 1);
+        const idsX = chooseClasses(eligX, d.anchors);
+        const pageSoundsX = new Set(idsX.map((id) => byId.get(id).sound));
+        const pageNmX = new Set(idsX.flatMap((id) => [...nmOf(byId.get(id))]));
+        const anchorsX = rng.shuffle(idsX).map((id) => {
+          const c = byId.get(id);
+          const anchor = rng.pick(anchorable(c));
+          const answers = rng.sample(poolOf(c).filter((p) => p.m.vocabKey !== anchor.vocabKey && lc(p.m.word) !== lc(anchor.word)), d.per);
+          if (answers.length < d.per) throw new Error(`${who}: class ${id} has too few bank words besides its anchor (refuse)`);
+          return { cls: id, anchor: entry(anchor, id), answers: answers.map((p) => (p.x ? { vocabKey: p.m.vocabKey, word: p.m.word, cls: id } : entry(p.m, id))) };
+        });
+        const onPage = new Set(anchorsX.flatMap((a) => [a.anchor.vocabKey, ...a.answers.map((w) => w.vocabKey)]));
+        const bankWordsX = new Set(anchorsX.flatMap((a) => a.answers.map((w) => lc(w.word))));
+        const foilPoolX = [];
+        for (const c of classes) if (!idsX.includes(c.id) && !pageSoundsX.has(c.sound)) for (const m of c.members) if (!pageNmX.has(m.vocabKey) && !onPage.has(m.vocabKey) && !bankWordsX.has(lc(m.word)) && WORD_RE.test(m.word) && glyphs(m.word) <= d.maxLetters) foilPoolX.push({ m, c });
+        const foilsX = [];
+        const usedCX = new Set();
+        for (const x of rng.shuffle(foilPoolX)) { if (foilsX.length === d.foils) break; if (usedCX.has(x.c.id)) continue; usedCX.add(x.c.id); foilsX.push(Object.assign(entry(x.m, x.c.id), { foil: true })); }
+        if (foilsX.length < d.foils) throw new Error(`${who}: ${loc} has ${foilsX.length} foil words from distinct classes off the page, need ${d.foils} (refuse)`);
+        const wordsX = [...anchorsX.flatMap((a) => a.answers.map((w) => Object.assign({}, w, { foil: false }))), ...foilsX];
+        const estX = wordsX.reduce((sum, w) => sum + pillEstimate(w.word, d.wordPx), 0);
+        if (estX > 2 * BANK_INNER) throw new Error(`${who}: bank of ${wordsX.length} words estimates ${Math.round(estX)} px > two rows (${2 * BANK_INNER}) — refuse, never a 3rd row`);
+        let bankX;
+        for (let t = 0; ; t++) {
+          bankX = rng.shuffle(wordsX);
+          if (!bankX.some((x, i) => i > 0 && !x.foil && !bankX[i - 1].foil && x.cls === bankX[i - 1].cls)) break;
+          if (t > 300) throw new Error(`${who}: could not order the bank without an adjacent answer pair`);
+        }
+        return { face, band: B, unit: unit || null, anchors: anchorsX, foils: foilsX, bankItems: bankX };
+      }
       const ids = chooseClasses(eligible, d.anchors);
       const pageSounds = new Set(ids.map((id) => byId.get(id).sound));
       const pageNm = new Set(ids.flatMap((id) => [...nmOf(byId.get(id))]));
@@ -607,14 +800,16 @@ module.exports = {
     }
     if (face === 'sort') {
       const bankHtml = rhymeBank({ items: plan.bankItems, iconPx: d.bankPx });
+      const nExtra = (plan.extras || []).length;
       const bins = rhymeBins({
         bins: plan.bins.map((b) => ({ cls: b.cls, anchor: b.head, n: d.perBin })),
         colW: BIN_COL_W, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, headTile: d.headTile, headPx: d.headPx,
       });
       return {
-        bodyHtml: stamp(` data-lcs-bins="${plan.bins.length}" data-lcs-per-bin="${d.perBin}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}"`) +
+        bodyHtml: stamp(` data-lcs-bins="${plan.bins.length}" data-lcs-per-bin="${d.perBin}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}"` + (nExtra ? ` data-lcs-extras="${nExtra}"` : '')) +
           bankHtml + `<div style="height:14px;flex:0 0 auto"></div>` + bins + '</div>',
-        meta: { mode: face, band: B, unit: plan.unit, bins: plan.bins.map((b) => ({ cls: b.cls, head: b.head.vocabKey, members: b.members.map((m) => m.vocabKey) })), bank: plan.bankItems.map((x) => x.vocabKey), answers: plan.bins.map((b) => b.members.map((m) => m.word)) },
+        meta: Object.assign({ mode: face, band: B, unit: plan.unit, bins: plan.bins.map((b) => ({ cls: b.cls, head: b.head.vocabKey, members: b.members.map((m) => m.vocabKey) })), bank: plan.bankItems.map((x) => x.vocabKey), answers: plan.bins.map((b) => b.members.map((m) => m.word)) },
+          nExtra ? { extras: plan.extras.map((x) => x.vocabKey) } : {}),
       };
     }
     if (face === 'couplet') {
@@ -622,11 +817,18 @@ module.exports = {
         pic: r.cueFree ? null : r.answer, line1: r.line1, pre: r.pre, post: r.post, rhymeWith: r.rhymeWith,
         answer: { vocabKey: r.answer.vocabKey, word: r.answer.word, cls: r.cls },
         laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, fontPx: d.fontPx, tile: d.picTile, px: d.picPx, textW: LANE_INNER - d.picTile - 12,
+        ...(r.choices ? { choices: r.choices } : {}),
       }));
       const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${rows.length},minmax(0,1fr));gap:8px;min-height:0" data-lcs-couplet-grid="${rows.length}">${rows.join('')}</div>`;
+      // Level Set level 3: one word box for the page (the verses' answers + words that fit no verse)
+      const box = plan.bankWords ? stringBank({ words: plan.bankWords, wordPx: d.fontPx }) + `<div style="height:12px;flex:0 0 auto"></div>` : '';
+      const extra = (plan.rows.some((r) => r.choices) ? ` data-lcs-word-choices="${d.wordChoices}"` : '') + (plan.bankWords ? ` data-lcs-page-bank="${plan.bankWords.length}"` : '');
+      const meta = { mode: face, band: B, unit: null, couplets: plan.rows.map((r) => r.id), answers: plan.rows.map((r) => r.answer.word) };
+      if (plan.rows.some((r) => r.choices)) meta.choices = plan.rows.map((r) => r.choices.map((c) => c.word));
+      if (plan.bankWords) meta.box = plan.bankWords.map((w) => w.word);
       return {
-        bodyHtml: stamp(` data-lcs-rows="${rows.length}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-font-px="${d.fontPx}" data-lcs-cue-free="${plan.rows.filter((r) => r.cueFree).length}" data-lcs-text-w="${LANE_INNER - d.picTile - 12}"`) + grid + '</div>',
-        meta: { mode: face, band: B, unit: null, couplets: plan.rows.map((r) => r.id), answers: plan.rows.map((r) => r.answer.word) },
+        bodyHtml: stamp(` data-lcs-rows="${rows.length}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-font-px="${d.fontPx}" data-lcs-cue-free="${plan.rows.filter((r) => r.cueFree).length}" data-lcs-text-w="${LANE_INNER - d.picTile - 12}"` + extra) + box + grid + '</div>',
+        meta,
       };
     }
     if (face === 'string') {
@@ -634,15 +836,16 @@ module.exports = {
       const rows = plan.anchors.map((a) => stringLane({ anchor: a.anchor, n: d.per, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, tile: d.picTile, px: d.picPx, answers: a.answers.map((w) => w.word) }));
       const grid = `<div style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${rows.length},minmax(0,1fr));gap:10px;min-height:0" data-lcs-string-grid="${rows.length}">${rows.join('')}</div>`;
       return {
-        bodyHtml: stamp(` data-lcs-anchors="${rows.length}" data-lcs-per="${d.per}" data-lcs-foils="${plan.foils.length}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-bank-size="${plan.bankItems.length}"`) +
+        bodyHtml: stamp(` data-lcs-anchors="${rows.length}" data-lcs-per="${d.per}" data-lcs-foils="${plan.foils.length}" data-lcs-lane-w="${d.laneW}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-bank-size="${plan.bankItems.length}"` + (d.noFoils ? ' data-lcs-no-foils="1"' : '')) +
           bankHtml + `<div style="height:14px;flex:0 0 auto"></div>` + grid + '</div>',
         meta: { mode: face, band: B, unit: plan.unit, anchors: plan.anchors.map((a) => ({ cls: a.cls, anchor: a.anchor.vocabKey, answers: a.answers.map((w) => w.vocabKey) })), foils: plan.foils.map((f) => f.vocabKey), bank: plan.bankItems.map((x) => x.word), answers: plan.anchors.map((a) => a.answers.map((w) => w.word)) },
       };
     }
     if (face === 'open') {
-      const cards = plan.cards.map((c) => ownRhymeCard({ pic: c.anchor, word: c.anchor.word, vocabKey: c.anchor.vocabKey, cls: c.cls, wordPx: d.wordPx, px: d.picPx, lines: d.lines, laneW: OPEN_CARD_INNER, laneH: d.laneH, glyphH: d.glyphH }));
+      // Level Set level 3 (`noPic`): the printed word alone — the child reads it, no picture to name
+      const cards = plan.cards.map((c) => ownRhymeCard({ pic: d.noPic ? null : c.anchor, word: c.anchor.word, vocabKey: c.anchor.vocabKey, cls: c.cls, wordPx: d.wordPx, px: d.picPx, lines: d.lines, laneW: OPEN_CARD_INNER, laneH: d.laneH, glyphH: d.glyphH }));
       return {
-        bodyHtml: stamp(` data-lcs-cards="${cards.length}" data-lcs-lines="${d.lines}" data-lcs-lane-w="${OPEN_CARD_INNER}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-word-px="${d.wordPx}"`) +
+        bodyHtml: stamp(` data-lcs-cards="${cards.length}" data-lcs-lines="${d.lines}" data-lcs-lane-w="${OPEN_CARD_INNER}" data-lcs-lane-h="${d.laneH}" data-lcs-glyph-h="${d.glyphH}" data-lcs-word-px="${d.wordPx}"` + (d.noPic ? ' data-lcs-no-pic="1"' : '')) +
           cardGrid({ cards, cols: 2, rows: Math.ceil(cards.length / 2), numbered: true }) + '</div>',
         meta: { mode: face, band: B, unit: plan.unit, cards: plan.cards.map((c) => ({ cls: c.cls, anchor: c.anchor.vocabKey, word: c.anchor.word })), answers: plan.cards.map((c) => c.examples) },
       };
@@ -867,7 +1070,10 @@ module.exports = {
           const bins = [...root.querySelectorAll('.ws-lane[data-ws-content][data-lcs-bin]')];
           if (bins.length !== wantBins) fails.push(`${bins.length} bins ≠ stamp ${wantBins}`);
           if (!bank) fails.push('no picture bank');
-          if (items.length !== wantBins * per) fails.push(`${items.length} bank pictures ≠ ${wantBins} × ${per}`);
+          const wantExtra = +(root.dataset.lcsExtras || 0);
+          if (items.length !== wantBins * per + wantExtra) fails.push(`${items.length} bank pictures ≠ ${wantBins} × ${per}${wantExtra ? ' + ' + wantExtra : ''}`);
+          const extraItems = items.filter((it) => it.dataset.lcsExtra === '1');
+          if (extraItems.length !== wantExtra) fails.push(`${extraItems.length} pictures that fit no bin ≠ stamp ${wantExtra}`);
           const binCls = bins.map((b) => b.dataset.lcsClass);
           if (new Set(binCls).size !== binCls.length) fails.push(`two bins share a class (${binCls.join(',')})`);
           const words = new Set();
@@ -892,7 +1098,8 @@ module.exports = {
             const tag = (m) => fails.push(`bank ${i + 1}: ${m}`);
             if (+it.dataset.lcsBankIndex !== i + 1) tag(`index ${it.dataset.lcsBankIndex} ≠ ${i + 1}`);
             if (!it.dataset.lcsVocab || !it.dataset.lcsClass || !it.dataset.lcsWord) tag('vocab / class / word stamp missing');
-            if (!binCls.includes(it.dataset.lcsClass)) tag(`class "${it.dataset.lcsClass}" is no bin's class`);
+            if (it.dataset.lcsExtra === '1') { if (binCls.includes(it.dataset.lcsClass)) tag(`"${it.dataset.lcsVocab}" is stamped as fitting no bin but its class "${it.dataset.lcsClass}" is a bin's`); }
+            else if (!binCls.includes(it.dataset.lcsClass)) tag(`class "${it.dataset.lcsClass}" is no bin's class`);
             if (heads.has(it.dataset.lcsVocab)) tag(`"${it.dataset.lcsVocab}" is also a bin head`);
             once(it.dataset.lcsVocab, 'bank ' + (i + 1), tag);
             words.add(lower(it.dataset.lcsWord));
@@ -957,7 +1164,32 @@ module.exports = {
             if (rr.bottom > foot + 0.6) tag('row reaches into the footer band');
             if (rr.left < body.left - 0.6 || rr.right > body.right + 0.6) tag('row outside the body column');
           });
-          for (const row of rows) for (const t of textNodes(root)) if (wordIn(lower(row.dataset.lcsAnswerWord), lower(t))) { fails.push(`the answer "${row.dataset.lcsAnswerWord}" is printed on the page`); break; }
+          // Level Set levels: the words to choose from (level 1, under each verse) and the page's word box (level 3)
+          // are the ONLY places an answer may be printed
+          const allowed = [...root.querySelectorAll('[data-lcs-choices], [data-lcs-bank-banner]')];
+          const outside = (el) => { const out = []; const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) { const t = n.textContent.trim(); if (t && !allowed.some((a) => a.contains(n))) out.push(t); } return out; };
+          for (const row of rows) for (const t of outside(root)) if (wordIn(lower(row.dataset.lcsAnswerWord), lower(t))) { fails.push(`the answer "${row.dataset.lcsAnswerWord}" is printed on the page`); break; }
+          const wantChoices = +(root.dataset.lcsWordChoices || 0);
+          rows.forEach((row, i) => {
+            const tag = (m) => fails.push(`couplet ${i + 1}: ${m}`);
+            const box = row.querySelector('[data-lcs-choices]');
+            if (!wantChoices) { if (box) tag('word choices on a page without them'); return; }
+            const pills = box ? [...box.querySelectorAll('[data-lcs-choice-word]')] : [];
+            if (pills.length !== wantChoices) tag(`${pills.length} word choices ≠ ${wantChoices}`);
+            const right = pills.filter((p) => p.dataset.lcsCorrectChoice === '1');
+            if (right.length !== 1 || right[0].dataset.lcsChoiceWord !== row.dataset.lcsAnswerWord) tag('the choices do not hold the answer exactly once');
+            pills.forEach((p) => { if (p.textContent.trim() !== p.dataset.lcsChoiceWord) tag(`choice prints "${p.textContent.trim()}"`); inside(rect(p), rect(row), 4, tag, 'choice'); });
+            if (box && rect(box).right > rect(row.querySelector('[data-lcs-slot="text"]')).right + 0.6) tag('the choices run past the text column');
+          });
+          const wantBox = +(root.dataset.lcsPageBank || 0);
+          const banner = root.querySelector('[data-lcs-bank-banner]');
+          if (wantBox) {
+            const words = banner ? [...banner.querySelectorAll('[data-lcs-bank-word]')].map((p) => p.dataset.lcsBankWord) : [];
+            if (words.length !== wantBox) fails.push(`word box of ${words.length} ≠ stamp ${wantBox}`);
+            if (new Set(words.map(lower)).size !== words.length) fails.push('a word twice in the word box');
+            for (const row of rows) if (words.filter((w) => w === row.dataset.lcsAnswerWord).length !== 1) fails.push(`the answer "${row.dataset.lcsAnswerWord}" is not in the word box exactly once`);
+            if (banner) { const tops = new Set([...banner.querySelectorAll('[data-lcs-bank-word]')].map((p) => Math.round(rect(p).top))); if (tops.size > 2) fails.push(`the word box wraps to ${tops.size} rows`); }
+          } else if (banner) fails.push('a word box on a page without one');
           return fails;
         }
 
@@ -970,7 +1202,8 @@ module.exports = {
           if (!bank) fails.push('no word bank');
           if (rows.length !== wantA) fails.push(`${rows.length} anchors ≠ stamp ${wantA}`);
           if (pills.length !== bankSize || bankSize !== wantA * per + wantF) fails.push(`bank of ${pills.length} ≠ ${wantA} × ${per} + ${wantF}`);
-          if (wantF < 2) fails.push('fewer than 2 foils — nothing to reject');
+          if (root.dataset.lcsNoFoils === '1') { if (wantF !== 0) fails.push(`${wantF} foils on a page declared to have none`); }
+          else if (wantF < 2) fails.push('fewer than 2 foils — nothing to reject');
           const bankWords = pills.map((p) => lower(p.dataset.lcsBankWord));
           if (new Set(bankWords).size !== bankWords.length) fails.push('a bank word twice');
           pills.forEach((p, i) => {
@@ -1039,7 +1272,8 @@ module.exports = {
             if (!key || !cls || !word) tag('anchor / class / word stamp missing');
             once(key, 'card ' + (i + 1), tag);
             if (clsSeen.has(cls)) tag(`class "${cls}" already on the page`); clsSeen.add(cls);
-            picOk(st.querySelector('[data-lcs-slot="head"] img.ws-icon'), tag, 'picture');
+            if (root.dataset.lcsNoPic === '1') { if (st.querySelector('[data-lcs-slot="head"] img')) tag('a picture on a word-only page'); }
+            else picOk(st.querySelector('[data-lcs-slot="head"] img.ws-icon'), tag, 'picture');
             const print = st.querySelector('[data-lcs-word-print]');
             if (!print) tag('the word is not printed');
             else {

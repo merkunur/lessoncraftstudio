@@ -20,6 +20,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'question-words',
   'read-and-do',
   'reading-comprehension',
+  'rhyming-words',
   'word-parts',
 ]);
 
@@ -33,4 +34,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
   'question-words': ['g2357'],   // Ask About the Picture: open questions (Level Set 2026-09-29)
   'read-and-do': ['g1342'],   // Read and Draw: open drawing (Level Set 2026-09-30)
+  'rhyming-words': ['g1346'],   // Write Your Own Rhymes: open answers (Level Set 2026-09-30)
 };

@@ -172,7 +172,7 @@ function rhymeBank({ items, iconPx = 64, gap = 14 }) {
   if (!Array.isArray(items) || items.length < 2) throw new Error('rhymeBank: at least two items');
   const cells = items.map((it, i) => {
     if (!it.src || !it.vocabKey || !it.word) throw new Error('rhymeBank: item ' + (i + 1) + ' needs src, vocabKey, word');
-    return `<span style="position:relative;display:inline-flex;padding:8px 0 0 8px" data-lcs-bank-index="${i + 1}" data-lcs-vocab="${esc(it.vocabKey)}" data-lcs-class="${esc(it.cls == null ? '' : it.cls)}" data-lcs-word="${esc(it.word)}">` +
+    return `<span style="position:relative;display:inline-flex;padding:8px 0 0 8px" data-lcs-bank-index="${i + 1}" data-lcs-vocab="${esc(it.vocabKey)}" data-lcs-class="${esc(it.cls == null ? '' : it.cls)}" data-lcs-word="${esc(it.word)}"${it.extra ? ' data-lcs-extra="1"' : ''}>` +
       `<img class="ws-icon" src="${esc(it.src)}" alt="" style="width:${iconPx}px;height:${iconPx}px">` +
       `<span style="position:absolute;left:0;top:0">${countBadge(i + 1)}</span></span>`;
   }).join('');
@@ -201,7 +201,7 @@ function rhymeBins({ bins, colW = 215, laneW = 190, laneH = 64, glyphH = 28, hea
   return `<div style="flex:1 1 auto;display:grid;grid-template-columns:repeat(${bins.length},${colW}px);gap:${gap}px;min-height:0;justify-content:center" data-lcs-bins="${bins.length}" data-lcs-per-bin="${n}">${cols}</div>`;
 }
 
-function coupletCard({ pic, line1, pre, post = '', rhymeWith, answer, laneW = 170, laneH = 56, glyphH = 26, fontPx = 18, tile = 76, px = 64, textW = 551 }) {
+function coupletCard({ pic, line1, pre, post = '', rhymeWith, answer, laneW = 170, laneH = 56, glyphH = 26, fontPx = 18, tile = 76, px = 64, textW = 551, choices = null }) {
   if (!answer || !answer.vocabKey || !answer.word || !answer.cls) throw new Error('coupletCard: answer needs vocabKey, word, cls');
   if (typeof line1 !== 'string' || !line1) throw new Error('coupletCard: line1 missing');
   if (typeof pre !== 'string') throw new Error('coupletCard: pre (line 2 before the blank) must be a string');
@@ -221,6 +221,11 @@ function coupletCard({ pic, line1, pre, post = '', rhymeWith, answer, laneW = 17
     `<div style="display:flex;flex-direction:column;justify-content:center;gap:4px;width:${textW}px;min-width:0;min-height:0" data-lcs-slot="text">` +
     `<p style="margin:0;display:flex;align-items:center;min-height:${lh}px" data-lcs-verse="1">${txt(line1)}</p>` +
     `<p style="margin:0;display:flex;align-items:flex-end;gap:8px;min-height:0" data-lcs-verse="2">${pre ? txt(pre, padBottom) : ''}${lane}${post ? txt(post, padBottom) : ''}</p>` +
+    // Level Set level 1: the words to choose from (circle one, then write it) — only when the page declares them
+    (Array.isArray(choices) && choices.length
+      ? `<div style="display:flex;gap:10px;flex-wrap:nowrap;margin-top:2px" data-lcs-choices="${choices.length}">` +
+        choices.map((c) => `<span class="ws-bankword" style="font-size:${fontPx}px;margin:0" data-lcs-choice-word="${esc(c.word)}"${c.correct ? ' data-lcs-correct-choice="1"' : ''}><span>${esc(c.word)}</span></span>`).join('') + '</div>'
+      : '') +
     '</div></div>';
 }
 
@@ -246,11 +251,12 @@ function stringLane({ anchor, n = 2, laneW = 250, laneH = 64, glyphH = 28, tile 
 }
 
 function ownRhymeCard({ pic, word, wordPx = 24, px = 64, lines = 2, laneW = 302, laneH = 56, glyphH = 26, badgeGap = 20, vocabKey, cls }) {
-  if (!pic || !pic.src || !word || !vocabKey || !cls) throw new Error('ownRhymeCard: pic, word, vocabKey, cls required');
+  // pic === null: the Level Set's harder level (the word alone, no picture); every other caller passes a picture
+  if ((pic !== null && (!pic || !pic.src)) || !word || !vocabKey || !cls) throw new Error('ownRhymeCard: pic, word, vocabKey, cls required');
   return `<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;padding:0;gap:8px;min-width:0" data-ws-content data-lcs-open="1" ` +
     `data-lcs-anchor="${esc(vocabKey)}" data-lcs-class="${esc(cls)}" data-lcs-word="${esc(word)}">` +
-    `<div style="display:flex;align-items:center;gap:10px;margin-left:${badgeGap}px;height:${px}px;flex:0 0 auto" data-lcs-slot="head">` +
-    `<img class="ws-icon" src="${esc(pic.src)}" alt="" style="width:${px}px;height:${px}px;flex:0 0 auto">` +
+    `<div style="display:flex;align-items:center;gap:10px;margin-left:${badgeGap}px;height:${pic ? px : wordPx + 4}px;flex:0 0 auto" data-lcs-slot="head">` +
+    (pic ? `<img class="ws-icon" src="${esc(pic.src)}" alt="" style="width:${px}px;height:${px}px;flex:0 0 auto">` : '') +
     `<span style="font-family:${F.display},cursive;font-weight:700;font-size:${wordPx}px;line-height:${wordPx + 4}px;color:${T.ink};white-space:nowrap;min-width:0" data-lcs-word-print="1">${esc(word)}</span></div>` +
     `<div style="flex:0 0 auto" data-lcs-slot="rulings">${rulingBlock({ rows: lines, w: laneW, h: laneH, glyphH, gap: 4 })}</div>` +
     '</div>';

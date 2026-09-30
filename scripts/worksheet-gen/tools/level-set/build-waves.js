@@ -143,7 +143,7 @@ function themelessWaves() {
             .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))
           : text
             ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
-            : units.flatMap((unit) => Array.from({ length: cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
+            : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
         for (const t of tries) {
           if (!group && !cfg.unitsOnly && !single && out.length >= cfg.maxCopies) break;
           let w;

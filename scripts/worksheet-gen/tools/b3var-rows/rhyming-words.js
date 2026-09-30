@@ -41,7 +41,7 @@ const ROWS = [
   ['k', 'K-352', 'rhyming-words-rhyme-or-not', 'G1-309-rhyming-words.js', 2,
     { mode: 'judge', cards: 8, yes: 4, picPx: 72, chipPx: 56, nearMiss: false, sameSpellingOnly: false, maxLetters: 12 },
     'Rhyme or Not?',
-    'Say both pictures out loud. If the two words rhyme, circle the tick. If they do not rhyme, circle the cross.',
+    'Say both pictures out loud. If the two words rhyme, circle the check mark. If they do not rhyme, circle the X.',
     { gradeBand: 'K' }],
   ['g1', 'G1-343', 'rhyming-words-sort-the-rhymes', 'G1-309-rhyming-words.js', 2,
     { mode: 'sort', bins: 3, perBin: 2, bankPx: 64, headTile: 120, headPx: 100, laneW: 190, laneH: 64, glyphH: 28, maxLetters: 8, sameSpellingOnly: true },

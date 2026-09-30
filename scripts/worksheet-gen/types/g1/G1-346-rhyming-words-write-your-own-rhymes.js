@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-346',
   slug: 'rhyming-words-write-your-own-rhymes',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 one rhyme per picture · L2 published · L3 the word alone (no picture), three rhymes. Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, lines: 1, laneH: 64, glyphH: 30 }, 2: D, 3: { ...D, cards: 4, lines: 3, noPic: true, wordPx: 30 } },
+  interactive: undefined,   // open answers: printable only, no screen
   i18n: { en: { title: "Write Your Own Rhymes", instruction: "Read the word beside each picture. Think of two words that rhyme with it and write one on each line." } },
 };

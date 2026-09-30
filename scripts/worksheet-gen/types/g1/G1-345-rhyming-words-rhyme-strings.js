@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-345',
   slug: 'rhyming-words-rhyme-strings',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 three pictures, every bank word fits · L2 published · L3 three rhymes per picture (the class's unpictured extra rhyme words join the bank) + more words that fit nowhere (K band: four pictures × two, four foils — two lanes are all the K writing size fits). Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, anchors: 3, noFoils: true }, 2: D, 3: { ...D, anchors: 3, per: 3, foils: 4, laneW: 160, wordPx: 17, maxLetters: 7, useExtras: true, kShape: { anchors: 4, per: 2, foils: 4, useExtras: false } } },
+  interactive: base.interactiveFor('string'),
   i18n: { en: { title: "Rhyme Strings", instruction: "Say each picture. Find the two words in the bank that rhyme with it and write them on its lines. Some words fit nowhere." } },
 };

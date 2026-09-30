@@ -2237,7 +2237,7 @@
   },
   "G1-343": {
     "title": "Reimwörter sortieren",
-    "instruction": "Sprich jedes Bild in der Wortliste. Finde das große Bild, auf das es sich reimt, und schreibe sein Wort auf eine Linie darunter."
+    "instruction": "Sprich jedes Bild im Kasten. Finde das große Bild, das sich darauf reimt, und schreibe das Wort auf eine Linie unter dieses große Bild."
   },
   "G1-344": {
     "title": "Reime vervollständigen",
@@ -2245,7 +2245,7 @@
   },
   "G1-345": {
     "title": "Reimketten",
-    "instruction": "Sprich jedes Bild. Finde die zwei Wörter in der Wortliste, die sich darauf reimen, und schreibe sie auf seine Linien. Manche passen nirgends."
+    "instruction": "Sprich jedes Bild. Finde im Kasten die zwei Wörter, die sich darauf reimen, und schreibe sie auf die Linien bei diesem Bild. Manche Wörter passen nirgends."
   },
   "G1-346": {
     "title": "Eigene Reimwörter schreiben",

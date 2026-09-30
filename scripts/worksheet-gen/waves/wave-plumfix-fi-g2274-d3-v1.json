@@ -1,0 +1,28 @@
+{
+ "id": "wave-plumfix-fi-g2274-d3-v1",
+ "_note": "2026-09-30 republish (standing rule): every plum picture in the library is drawn as an APPLE; this live deck named it (lib/b2-common.js B2_EXCLUDE plum). Same coordinate as the live deck; published as an UPDATE.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  3
+ ],
+ "types": [
+  "G2-274"
+ ],
+ "indexable": false,
+ "interactive": true,
+ "levels": {
+  "G2-274": {
+   "3": [
+    {
+     "copy": 1,
+     "theme": "At the Supermarket"
+    }
+   ]
+  }
+ }
+}

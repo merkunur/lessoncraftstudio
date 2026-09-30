@@ -2237,7 +2237,7 @@
   },
   "G1-343": {
     "title": "Sorteer de rijmwoorden",
-    "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+    "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
   },
   "G1-344": {
     "title": "Maak het rijmpje af",
@@ -2245,7 +2245,7 @@
   },
   "G1-345": {
     "title": "Rijmrijen: twee rijmwoorden per plaatje",
-    "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+    "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
   },
   "G1-346": {
     "title": "Verzin je eigen rijmwoorden",

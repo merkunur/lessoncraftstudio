@@ -288,6 +288,17 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
+        },
+        {
+          "vocabKey": "stool",
+          "word": "banquinho",
+          "pic": {
+            "theme": "furniture",
+            "noun": "stool"
+          },
+          "sameSpelling": true,
+          "productive": true,
+          "picOpened": true
         }
       ],
       "extra": [
@@ -347,35 +358,14 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "swallow",
-          "word": "andorinha",
-          "pic": {
-            "theme": "birds 2",
-            "noun": "swallow"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "weasel",
-          "word": "doninha",
-          "pic": {
-            "theme": "forest creatures",
-            "noun": "weasel"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
         "sardinha",
         "vizinha",
         "sozinha",
-        "rainha"
+        "rainha",
+        "andorinha"
       ],
       "nearMiss": []
     },
@@ -385,17 +375,6 @@
       "sound": "etɐ",
       "cap": 8,
       "members": [
-        {
-          "vocabKey": "bicycle",
-          "word": "bicicleta",
-          "pic": {
-            "theme": "vehicles",
-            "noun": "bicycle"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
         {
           "vocabKey": "butterfly",
           "word": "borboleta",
@@ -461,23 +440,12 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "stool",
-          "word": "banqueta",
-          "pic": {
-            "theme": "furniture",
-            "noun": "stool"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
         "chupeta",
         "gaveta",
-        "peteca"
+        "maleta"
       ],
       "nearMiss": []
     },
@@ -521,33 +489,11 @@
           "picOpened": true
         },
         {
-          "vocabKey": "star",
-          "word": "estrela",
-          "pic": {
-            "theme": "christmas",
-            "noun": "star"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "window",
           "word": "janela",
           "pic": {
             "theme": "around the house",
             "noun": "window"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "gazelle",
-          "word": "gazela",
-          "pic": {
-            "theme": "zoo animals",
-            "noun": "gazelle"
           },
           "sameSpelling": true,
           "productive": true,
@@ -690,17 +636,6 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "chimpanzee",
-          "word": "chimpanzé",
-          "pic": {
-            "theme": "zoo animals",
-            "noun": "chimpanzee"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
@@ -721,17 +656,6 @@
           "pic": {
             "theme": "insects and bugs",
             "noun": "worm"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "mouth",
-          "word": "boca",
-          "pic": {
-            "theme": "body parts",
-            "noun": "mouth"
           },
           "sameSpelling": true,
           "productive": true,
@@ -800,17 +724,6 @@
           "pic": {
             "theme": "classroom",
             "noun": "glue"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "onion",
-          "word": "cebola",
-          "pic": {
-            "theme": "vegetables",
-            "noun": "onion"
           },
           "sameSpelling": true,
           "productive": true,
@@ -1016,8 +929,8 @@
       ],
       "extra": [
         "menino",
-        "pinguino",
-        "destino"
+        "destino",
+        "hino"
       ],
       "nearMiss": []
     },
@@ -1064,7 +977,7 @@
       "extra": [
         "pata",
         "mata",
-        "chapa"
+        "barata"
       ],
       "nearMiss": []
     },
@@ -1177,22 +1090,11 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "sauce",
-          "word": "molho",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "sauce"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [
         "piolho",
-        "folho"
+        "molho"
       ],
       "nearMiss": []
     }
@@ -1301,7 +1203,7 @@
       "id": "balao-limao",
       "lines": [
         "A menina soltou o balão",
-        "e na cesta achou um ___"
+        "e provou um azedo ___"
       ],
       "answer": {
         "vocabKey": "lemon"
@@ -1325,7 +1227,7 @@
       "id": "ninho-patinho",
       "lines": [
         "O passarinho saiu do ninho",
-        "e foi brincar com o ___"
+        "e viu nadar no lago o ___"
       ],
       "answer": {
         "vocabKey": "duckling"
@@ -1346,18 +1248,6 @@
       "cueFree": false
     },
     {
-      "id": "janela-estrela",
-      "lines": [
-        "Olhei o céu pela janela",
-        "e vi brilhar uma ___"
-      ],
-      "answer": {
-        "vocabKey": "star"
-      },
-      "rhymeWith": "janela",
-      "cueFree": false
-    },
-    {
       "id": "bola-cola",
       "lines": [
         "Eu perdi a minha bola",
@@ -1372,13 +1262,13 @@
     {
       "id": "boca-pipoca",
       "lines": [
-        "Abri bem a minha boca",
-        "para comer a ___"
+        "O coelho saiu da toca",
+        "e viu a panela de ___"
       ],
       "answer": {
         "vocabKey": "popcorn"
       },
-      "rhymeWith": "boca",
+      "rhymeWith": "toca",
       "cueFree": false
     },
     {
@@ -1408,8 +1298,8 @@
     {
       "id": "galinha-cozinha",
       "lines": [
-        "A galinha entrou na sala",
-        "e depois foi pra ___"
+        "Cacarejou a galinha",
+        "e correu para a ___"
       ],
       "answer": {
         "vocabKey": "kitchen"
@@ -1420,8 +1310,8 @@
     {
       "id": "jacare-pe",
       "lines": [
-        "O jacaré abriu a boca",
-        "quase mordeu o meu ___"
+        "Cuidado com o jacaré,",
+        "ele quase mordeu meu dedão do ___"
       ],
       "answer": {
         "vocabKey": "foot"

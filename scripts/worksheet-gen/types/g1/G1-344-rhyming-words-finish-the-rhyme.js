@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-344',
   slug: 'rhyming-words-finish-the-rhyme',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-09-30: L1 three printed words under each verse (circle, then write) · L2 published · L3 no picture cue, one word box with two words that fit no verse. Level 2 = the published config verbatim.
+  difficulty: { 1: { ...D, wordChoices: 3, rows: 5 }, 2: D, 3: { ...D, cueFree: 1, pageBank: 2 } },
+  interactive: base.interactiveFor('couplet'),
   i18n: { en: { title: "Finish the Rhyme", instruction: "Read the two lines out loud. Look at the picture, hear the rhyme and write the missing rhyming word on the line." } },
   unitAxis: {"applicable":false},
 };

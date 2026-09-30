@@ -28,28 +28,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "calf",
-          "word": "vasikka",
-          "pic": {
-            "theme": "farm animals",
-            "noun": "calf"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "cherry",
-          "word": "kirsikka",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "cherry"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "spoon",
           "word": "lusikka",
           "pic": {
@@ -84,8 +62,9 @@
         }
       ],
       "extra": [
-        "sikka",
-        "nikka"
+        "kirsikka",
+        "vasikka",
+        "persikka"
       ],
       "nearMiss": []
     },
@@ -118,17 +97,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "magpie",
-          "word": "harakka",
-          "pic": {
-            "theme": "birds 2",
-            "noun": "magpie"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "pie",
           "word": "piirakka",
           "pic": {
@@ -141,7 +109,9 @@
         }
       ],
       "extra": [
-        "nakka"
+        "harakka",
+        "lakka",
+        "pakka"
       ],
       "nearMiss": []
     },
@@ -197,8 +167,9 @@
         }
       ],
       "extra": [
-        "pukka",
-        "nukka"
+        "nukka",
+        "voikukka",
+        "joulusukka"
       ],
       "nearMiss": []
     },
@@ -333,8 +304,8 @@
         }
       ],
       "extra": [
-        "kuuna",
-        "luna"
+        "puna",
+        "viikuna"
       ],
       "nearMiss": []
     },
@@ -391,7 +362,7 @@
       ],
       "extra": [
         "sana",
-        "mana"
+        "vana"
       ],
       "nearMiss": []
     },
@@ -459,7 +430,7 @@
       ],
       "extra": [
         "peli",
-        "seli"
+        "keli"
       ],
       "nearMiss": []
     },
@@ -469,17 +440,6 @@
       "sound": "eri",
       "cap": 8,
       "members": [
-        {
-          "vocabKey": "aster",
-          "word": "asteri",
-          "pic": {
-            "theme": "flowers",
-            "noun": "aster"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
         {
           "vocabKey": "hamster",
           "word": "hamsteri",
@@ -594,8 +554,8 @@
         }
       ],
       "extra": [
-        "sari",
-        "kari"
+        "kari",
+        "kalmari"
       ],
       "nearMiss": []
     },
@@ -630,7 +590,7 @@
       ],
       "extra": [
         "tori",
-        "sori"
+        "moottori"
       ],
       "nearMiss": []
     },
@@ -652,17 +612,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "bison",
-          "word": "biisoni",
-          "pic": {
-            "theme": "zoo animals",
-            "noun": "bison"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "melon",
           "word": "meloni",
           "pic": {
@@ -676,7 +625,8 @@
       ],
       "extra": [
         "poni",
-        "toni"
+        "biisoni",
+        "pioni"
       ],
       "nearMiss": []
     },
@@ -732,8 +682,8 @@
         }
       ],
       "extra": [
-        "takko",
-        "nakko"
+        "lakko",
+        "rakko"
       ],
       "nearMiss": []
     },
@@ -824,7 +774,7 @@
         }
       ],
       "extra": [
-        "saani"
+        "iguaani"
       ],
       "nearMiss": []
     },
@@ -870,7 +820,7 @@
       ],
       "extra": [
         "lava",
-        "kava"
+        "maaorava"
       ],
       "nearMiss": []
     },
@@ -914,9 +864,7 @@
           "picOpened": true
         }
       ],
-      "extra": [
-        "pilä"
-      ],
+      "extra": [],
       "nearMiss": []
     },
     {
@@ -960,8 +908,9 @@
         }
       ],
       "extra": [
-        "viini",
-        "tiini"
+        "tiini",
+        "rusiini",
+        "mandariini"
       ],
       "nearMiss": []
     },
@@ -1006,7 +955,8 @@
         }
       ],
       "extra": [
-        "sketti"
+        "spagetti",
+        "baletti"
       ],
       "nearMiss": []
     },
@@ -1041,7 +991,7 @@
       ],
       "extra": [
         "katto",
-        "satto"
+        "kylpymatto"
       ],
       "nearMiss": []
     },
@@ -1075,8 +1025,8 @@
         }
       ],
       "extra": [
-        "tokki",
-        "sokki"
+        "sokki",
+        "rokki"
       ],
       "nearMiss": []
     },
@@ -1110,7 +1060,7 @@
         }
       ],
       "extra": [
-        "sekko"
+        "kesämekko"
       ],
       "nearMiss": []
     },
@@ -1144,8 +1094,8 @@
         }
       ],
       "extra": [
-        "maita",
-        "saita"
+        "laita",
+        "villapaita"
       ],
       "nearMiss": []
     },
@@ -1179,8 +1129,9 @@
         }
       ],
       "extra": [
-        "pika",
-        "vika"
+        "vika",
+        "harmonika",
+        "tunika"
       ],
       "nearMiss": []
     },
@@ -1214,7 +1165,7 @@
         }
       ],
       "extra": [
-        "sammas"
+        "maitohammas"
       ],
       "nearMiss": []
     },
@@ -1284,7 +1235,7 @@
         }
       ],
       "extra": [
-        "synä"
+        "kärynä"
       ],
       "nearMiss": []
     },
@@ -1319,7 +1270,7 @@
       ],
       "extra": [
         "pussi",
-        "kussi"
+        "karkkipussi"
       ],
       "nearMiss": []
     },
@@ -1353,7 +1304,7 @@
         }
       ],
       "extra": [
-        "tonen"
+        "keinuhevonen"
       ],
       "nearMiss": []
     }

@@ -298,33 +298,11 @@
           "picOpened": true
         },
         {
-          "vocabKey": "jam",
-          "word": "jam",
-          "pic": {
-            "theme": "breakfast",
-            "noun": "jam"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "comb",
           "word": "kam",
           "pic": {
             "theme": "around the house",
             "noun": "comb"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "lamb",
-          "word": "lam",
-          "pic": {
-            "theme": "farm animals",
-            "noun": "lamb"
           },
           "sameSpelling": true,
           "productive": true,
@@ -377,17 +355,6 @@
           "picOpened": true
         },
         {
-          "vocabKey": "porridge",
-          "word": "pap",
-          "pic": {
-            "theme": "breakfast",
-            "noun": "porridge"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
           "vocabKey": "folder",
           "word": "map",
           "pic": {
@@ -402,7 +369,8 @@
       "extra": [
         "kap",
         "stap",
-        "hap"
+        "hap",
+        "pap"
       ],
       "nearMiss": [
         {
@@ -564,17 +532,6 @@
           "pic": {
             "theme": "beach",
             "noun": "net"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "ferret",
-          "word": "fret",
-          "pic": {
-            "theme": "pets",
-            "noun": "ferret"
           },
           "sameSpelling": true,
           "productive": true,
@@ -753,52 +710,6 @@
           "pic": {
             "theme": "toys",
             "noun": "doll"
-          },
-          "picOpened": true
-        }
-      ]
-    },
-    {
-      "id": "en",
-      "rime": "-en",
-      "sound": "ɛn",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "pen",
-          "word": "pen",
-          "pic": {
-            "theme": "classroom",
-            "noun": "pen"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "hen",
-          "word": "hen",
-          "pic": {
-            "theme": "farm animals",
-            "noun": "hen"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "ren",
-        "den",
-        "ben"
-      ],
-      "nearMiss": [
-        {
-          "vocabKey": "cap",
-          "word": "pet",
-          "pic": {
-            "theme": "clothing",
-            "noun": "cap"
           },
           "picOpened": true
         }
@@ -1057,17 +968,7 @@
         "slaap",
         "knaap"
       ],
-      "nearMiss": [
-        {
-          "vocabKey": "bag",
-          "word": "tas",
-          "pic": {
-            "theme": "At the Supermarket",
-            "noun": "bag"
-          },
-          "picOpened": true
-        }
-      ]
+      "nearMiss": []
     },
     {
       "id": "os",
@@ -1215,7 +1116,7 @@
       "id": "sok-klok",
       "lines": [
         "Ik zoek mijn ene sok",
-        "onder de grote ronde ___"
+        "hoe laat is het? Kijk op de ___"
       ],
       "answer": {
         "vocabKey": "clock"
@@ -1233,18 +1134,6 @@
         "vocabKey": "sand"
       },
       "rhymeWith": "hand",
-      "cueFree": false
-    },
-    {
-      "id": "pen-hen",
-      "lines": [
-        "Ik teken met mijn pen",
-        "een dikke witte ___"
-      ],
-      "answer": {
-        "vocabKey": "hen"
-      },
-      "rhymeWith": "pen",
       "cueFree": false
     },
     {
@@ -1274,25 +1163,13 @@
     {
       "id": "peer-beer",
       "lines": [
-        "Ik eet een zoete peer",
-        "samen met een bruine ___"
+        "In het bos, bij het meer",
+        "woont een grote bruine ___"
       ],
       "answer": {
         "vocabKey": "bear"
       },
-      "rhymeWith": "peer",
-      "cueFree": false
-    },
-    {
-      "id": "ham-jam",
-      "lines": [
-        "Op mijn brood ligt ham",
-        "op jouw brood ligt ___"
-      ],
-      "answer": {
-        "vocabKey": "jam"
-      },
-      "rhymeWith": "ham",
+      "rhymeWith": "meer",
       "cueFree": false
     },
     {
@@ -1356,7 +1233,7 @@
     },
     "G1-343": {
       "title": "Sorteer de rijmwoorden",
-      "instruction": "Zeg elk plaatje uit de bank. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
+      "instruction": "Zeg elk plaatje in het kader. Zoek het grote plaatje waarop het rijmt en schrijf het woord op een lijn onder dat plaatje."
     },
     "G1-344": {
       "title": "Maak het rijmpje af",
@@ -1364,7 +1241,7 @@
     },
     "G1-345": {
       "title": "Rijmrijen: twee rijmwoorden per plaatje",
-      "instruction": "Zeg elk plaatje. Zoek in de bank de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
+      "instruction": "Zeg elk plaatje. Zoek in het kader de twee woorden die erop rijmen en schrijf ze op de lijnen. Sommige woorden passen nergens."
     },
     "G1-346": {
       "title": "Verzin je eigen rijmwoorden",

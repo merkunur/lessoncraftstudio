@@ -1028,42 +1028,6 @@
       "nearMiss": []
     },
     {
-      "id": "ena",
-      "rime": "-ena",
-      "sound": "enɐ",
-      "cap": 8,
-      "members": [
-        {
-          "vocabKey": "feather",
-          "word": "pena",
-          "pic": {
-            "theme": "easter",
-            "noun": "feather"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        },
-        {
-          "vocabKey": "reindeer",
-          "word": "rena",
-          "pic": {
-            "theme": "christmas",
-            "noun": "reindeer"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
-        }
-      ],
-      "extra": [
-        "cena",
-        "antena",
-        "pequena"
-      ],
-      "nearMiss": []
-    },
-    {
       "id": "olho",
       "rime": "-olho",
       "sound": "oʎu",

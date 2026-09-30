@@ -25,29 +25,29 @@
       "1": [
         {
           "copy": 1,
-          "theme": "vehicles"
+          "theme": "At the Supermarket"
         },
         {
           "copy": 2,
-          "theme": "fruits bw"
+          "theme": "furniture bw"
         },
         {
           "copy": 3,
-          "theme": "around the house"
+          "theme": "bakery"
         },
         {
           "copy": 4,
-          "theme": "objects bw"
+          "theme": "sea life bw"
         },
         {
           "copy": 5,
-          "theme": "christmas"
+          "theme": "classroom"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "sports bw 2"
+          "theme": "tools bw"
         },
         {
           "copy": 3,
@@ -55,37 +55,37 @@
         },
         {
           "copy": 4,
-          "theme": "vegetables bw 2"
+          "theme": "apparel bw"
         },
         {
           "copy": 5,
-          "theme": "hospital"
+          "theme": "insects and bugs"
         },
         {
           "copy": 6,
-          "theme": "Easter bw 2"
+          "theme": "classroom bw"
         }
       ],
       "3": [
         {
           "copy": 1,
-          "theme": "flowers"
+          "theme": "forest creatures"
         },
         {
           "copy": 2,
-          "theme": "Christmas bw"
-        },
-        {
-          "copy": 3,
-          "theme": "music"
-        },
-        {
-          "copy": 4,
           "theme": "apparel bw"
         },
         {
+          "copy": 3,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
           "copy": 5,
-          "theme": "summer"
+          "theme": "tools"
         }
       ]
     },
@@ -97,7 +97,7 @@
         },
         {
           "copy": 2,
-          "theme": "beach bw 2"
+          "theme": "birds bw"
         },
         {
           "copy": 3,
@@ -109,7 +109,7 @@
         },
         {
           "copy": 5,
-          "theme": "Things That Fly"
+          "theme": "accessories"
         }
       ],
       "2": [
@@ -123,7 +123,7 @@
         },
         {
           "copy": 4,
-          "theme": "objects bw"
+          "theme": "sea life bw"
         },
         {
           "copy": 5,
@@ -131,7 +131,7 @@
         },
         {
           "copy": 6,
-          "theme": "toys bw 2"
+          "theme": "vegetables bw"
         }
       ],
       "3": [
@@ -141,15 +141,15 @@
         },
         {
           "copy": 2,
-          "theme": "sports bw 2"
+          "theme": "tools bw"
         },
         {
           "copy": 3,
-          "theme": "easter"
+          "theme": "farm animals"
         },
         {
           "copy": 4,
-          "theme": "vegetables bw 2"
+          "theme": "zoo animals bw"
         },
         {
           "copy": 5,
@@ -161,29 +161,29 @@
       "1": [
         {
           "copy": 1,
-          "theme": "flowers"
+          "theme": "forest creatures"
         },
         {
           "copy": 2,
-          "theme": "vehicles bw 3"
-        },
-        {
-          "copy": 3,
-          "theme": "miscellaneous"
-        },
-        {
-          "copy": 4,
           "theme": "apparel bw"
         },
         {
+          "copy": 3,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom bw"
+        },
+        {
           "copy": 5,
-          "theme": "spring"
+          "theme": "tools"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "beach bw 2"
+          "theme": "classroom bw"
         },
         {
           "copy": 3,
@@ -199,17 +199,17 @@
         },
         {
           "copy": 6,
-          "theme": "home bw"
+          "theme": "household bw"
         }
       ],
       "3": [
         {
           "copy": 1,
-          "theme": "winter"
+          "theme": "At the Supermarket"
         },
         {
           "copy": 2,
-          "theme": "fruits bw"
+          "theme": "furniture bw"
         },
         {
           "copy": 3,
@@ -217,7 +217,7 @@
         },
         {
           "copy": 4,
-          "theme": "objects bw"
+          "theme": "sea life bw"
         },
         {
           "copy": 5,
@@ -233,7 +233,7 @@
         },
         {
           "copy": 2,
-          "theme": "space bw"
+          "theme": "tools bw"
         },
         {
           "copy": 3,
@@ -241,29 +241,29 @@
         },
         {
           "copy": 4,
-          "theme": "valentine bw 2"
+          "theme": "vegetables bw"
         },
         {
           "copy": 5,
-          "theme": "hospital"
+          "theme": "insects and bugs"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "vehicles bw 3"
+          "theme": "zoo animals bw"
         },
         {
           "copy": 3,
-          "theme": "music"
+          "theme": "ocean life"
         },
         {
           "copy": 4,
-          "theme": "animals bw 3"
+          "theme": "apparel bw"
         },
         {
           "copy": 5,
-          "theme": "summer"
+          "theme": "tools"
         },
         {
           "copy": 6,
@@ -277,7 +277,11 @@
         },
         {
           "copy": 2,
-          "theme": "beach bw 2"
+          "theme": "birds bw"
+        },
+        {
+          "copy": 3,
+          "theme": "vegetables"
         },
         {
           "copy": 4,
@@ -285,7 +289,7 @@
         },
         {
           "copy": 5,
-          "theme": "activities"
+          "theme": "around the house"
         }
       ]
     }

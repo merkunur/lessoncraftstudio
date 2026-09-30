@@ -1,0 +1,101 @@
+# Sight Words Level Set — da. word|six sentences; the word exactly once. Rows 1-24 = the published list.
+og|Mor og far er hjemme.|Jeg løber og hopper.|Katten og hunden leger.|Brød og mælk, tak.|Ida og Emil griner.|Rød og blå.
+jeg|Jeg har en hund.|Her er jeg!|Jeg spiser et æble.|Må jeg være med?|I dag læser jeg.|Jeg er fem år.
+det|Det regner.|I dag er det koldt.|Hvad er det?|Det er min bog.|Er det sent?|Det sner ude.
+er|Himlen er blå.|Min hund er brun.|Hvor er min hue?|Suppen er varm.|I dag er det mandag.|Ida er glad.
+en|Jeg har en kat.|Der sidder en fugl.|Emil spiser en banan.|En hund gør.|Jeg tegner en båd.|Det er en bold.
+til|Vi går til skole.|Giv bolden til mig.|Jeg kører til mormor.|En blomst til mor.|Kom til mig!|Vi cykler til parken.
+den|Den er min.|Hvor er den?|Den røde bold er ny.|Jeg vil have den.|Den hund er stor.|Kan du se den?
+han|Han er min bror.|Han løber hurtigt.|Hvor er han?|Han har en cykel.|Han læser en bog.|Emil siger, at han er træt.
+hun|Hun er min søster.|Hun synger flot.|Hvor er hun?|Hun har en kat.|Hun læser en bog.|Hun løber hurtigt.
+var|Det var sjovt.|I går var jeg syg.|Hvem var det?|Suppen var varm.|Emil var i zoo.|Det var en god dag.
+ikke|Jeg er ikke træt.|Hunden gør ikke.|Det regner ikke.|Det er ikke min hue.|Løb ikke!|Jeg ved det ikke.
+med|Jeg leger med min hund.|Kom med mig!|Te med honning er godt.|Jeg spiser med ske.|Ida går med far.|Jeg cykler med Emil.
+der|Der er en fugl.|Hvem er der?|Der kommer bussen.|Er der mælk?|Der bor min mormor.|Se der!
+at|Jeg kan lide at tegne.|Mor siger, at det er sent.|Det er sjovt at lege.|Jeg ved, at du er her.|Vi skal til at spise.|Det er tid til at sove.
+de|De leger ude.|De har en kat.|Hvor er de?|De spiser is.|De er mine venner.|De synger højt.
+som|Han løber som en hare.|Jeg er lige så høj som Emil.|Katten, som sover, er grå.|Gør som mig!|Du synger som mor.|Bogen, som ligger der, er min.
+på|Katten ligger på sengen.|Bogen ligger på bordet.|Jeg sidder på en stol.|Vi venter på bussen.|Fuglen sidder på taget.|Se på mig!
+har|Jeg har en cykel.|Emil har en hund.|Hvem har bolden?|Katten har en bold.|Vi har en rød bil.|Har du en blyant?
+vi|Vi leger i parken.|I dag bager vi.|Vi har en kat.|Hvor er vi?|Vi går i skole.|Vi synger en sang.
+du|Du er min ven.|Kommer du med?|Hvor bor du?|Du tegner flot.|Har du en bold?|Er du træt?
+kan|Jeg kan svømme.|Kan du hjælpe mig?|Emil kan synge.|En fugl kan flyve.|Hvem kan det?|Ida kan allerede læse.
+skal|Jeg skal hjem.|Hvad skal vi lave?|Vi skal bage.|Skal du med?|Emil skal sove.|Nu skal vi spise.
+så|Det er så koldt.|Jeg er så glad.|Så går vi.|Hunden er så stor.|Først spiser vi, så leger vi.|Hvorfor er du så stille?
+sagde|Mor sagde ja.|Hvad sagde hunden?|Emil sagde hej.|Ida sagde tak.|Hvem sagde det?|Læreren sagde godmorgen.
+i|Fisken svømmer i vandet.|Vi leger i parken.|Katten sover i kassen.|Jeg bor i et hus.|Bogen ligger i tasken.|Vi er i skolen.
+et|Jeg har et æble.|Der er et hus.|Emil tegner et træ.|Et barn griner.|Jeg vil have et glas mælk.|Det er et godt spil.
+af|En kop af glas.|Hop af cyklen!|Emil tager huen af.|Et hus af sten.|Jeg fik en gave af mormor.|Tag hatten af.
+for|Tak for hjælpen!|Det er for koldt.|Det er for sent.|Tak for maden.|Jeg løber for at vinde.|Lukker du døren for mig?
+om|Vi løber om kap.|Jeg spørger, om vi må lege.|En bog om dyr.|Om vinteren sner det.|Jeg drømmer om en hund.|Kan du læse om det?
+men|Jeg vil lege, men det regner.|Han er lille, men stærk.|Det er koldt, men dejligt.|Jeg råber, men ingen kommer.|Suppen er varm, men god.|Det er gammelt, men godt.
+hvad|Hvad er det?|Hvad laver du?|Hvad hedder du?|Hvad skal vi spise?|Ved du, hvad jeg ser?|Hvad har du der?
+hvor|Hvor er katten?|Hvor bor du?|Hvor er mine sko?|Ved du, hvor Emil er?|Hvor skal vi hen?|Hvor er det flot!
+hvem|Hvem er det?|Hvem har bolden?|Hvem vil have kage?|Hvem er din ven?|Jeg ved, hvem det er.|Hvem kan hjælpe mig?
+hvordan|Hvordan har du det?|Hvordan gør man?|Hvordan går det?|Hvordan har katten det?|Hvordan kom du her?|Hvordan staver man det?
+hvornår|Hvornår kommer far?|Hvornår skal vi spise?|Hvornår starter skolen?|Hvornår har du fødselsdag?|Hvornår er det min tur?|Hvornår går bussen?
+også|Jeg vil også.|Emil synger også.|Du er også min ven.|Hunden er også træt.|Vi griner også.|Mor kommer også.
+nu|Nu er det min tur.|Kom nu!|Nu regner det.|Vi går nu.|Hvor er du nu?|Nu er det frikvarter.
+her|Her er mit hus.|Kom her!|Jeg bor her.|Her er jeg!|Er der plads her?|Her ligger din bog.
+ud|Gå ud og leg!|Katten kigger ud.|Sluk lyset og gå ud.|Hunden vil ud.|Vi skal ud at gå.|Kom ud!
+op|Se op!|Katten klatrer op i træet.|Stå op, tak.|Bolden flyver op.|Vi går op ad bakken.|Vågn op!
+ned|Sæt dig ned.|Bolden ruller ned.|Jeg faldt ned.|Kom ned fra træet!|Sneen falder ned.|Læg bogen ned.
+over|Fuglen flyver over huset.|Jeg hopper over grøften.|Klokken er over tolv.|Broen går over åen.|Lampen hænger over bordet.|Solen skinner over byen.
+efter|Vi leger efter skole.|Hunden løber efter katten.|Efter maden sover jeg.|Kom efter mig!|Jeg læser efter frokost.|Vi ses efter ferien.
+fra|Et brev fra mormor.|Jeg kommer fra skole.|Bolden er fra Emil.|Fuglen flyver fra træet.|Hvor er du fra?|En gave fra mor.
+min|Det er min kat.|Min hue er rød.|Hvor er min bog?|Min bror er lille.|Min cykel er ny.|Kom til min fest!
+mit|Det er mit hus.|Mit æble er rødt.|Hvor er mit glas?|Mit værelse er blåt.|Det er mit kort.|Kom hen til mit bord.
+mine|Hvor er mine sko?|Det er mine venner.|Mine hænder er beskidte.|Jeg kan lide mine blyanter.|Mine katte sover.|Jeg rydder op efter mine ting.
+din|Er det din hund?|Din tegning er flot.|Hvor er din hue?|Hvad hedder din kat?|Din cykel er ny.|Her er din bog.
+dit|Er det dit hus?|Dit glas står der.|Hvor er dit æble?|Dit værelse er fint.|Her er dit kort.|Tag dit tøj på.
+sin|Emil leder efter sin bold.|Ida leger med sin kat.|Hunden spiser sin mad.|Far vasker sin bil.|Hun krammer sin mor.|Han tager sin taske.
+sit|Emil leder efter sit tog.|Ida tegner i sit hæfte.|Katten ligger på sit tæppe.|Han spiser sit æble.|Hun maler sit værelse.|Ida leger med sit legetøj.
+hans|Det er hans hund.|Hans cykel er rød.|Hvor er hans hue?|Hans bror er lille.|Jeg kan lide hans bil.|Hans kat sover.
+hendes|Det er hendes kat.|Hendes jakke er blå.|Hvor er hendes dukke?|Hendes søster er lille.|Jeg kan lide hendes tegning.|Hendes hund gør.
+os|Kom hen til os!|Mormor besøger os.|Hjælp os, tak.|Hunden bor hos os.|Leg med os!|Hvem kalder på os?
+dem|Jeg ser dem.|Giv dem en kage.|Vi leger med dem.|Jeg hjælper dem.|Hunden kan lide dem.|Ring til dem!
+mig|Se på mig!|Kom med mig.|Hjælp mig, tak.|Hunden kan lide mig.|Vent på mig!|Mor krammer mig.
+dig|Jeg kan lide dig.|Jeg ser dig.|Jeg venter på dig.|Vi ringer til dig.|Jeg hjælper dig.|Hvem henter dig?
+ham|Jeg ser ham.|Giv ham bolden.|Vi leger med ham.|Jeg hjælper ham.|Hunden kan lide ham.|Ring til ham!
+hende|Jeg ser hende.|Giv hende et knus.|Vi leger med hende.|Jeg hjælper hende.|Katten kan lide hende.|Ring til hende!
+være|Jeg vil være glad.|Må jeg være med?|Det skal være sjovt.|Vil du være min ven?|Hunden vil være ude.|Du skal være stille.
+have|Jeg vil have is.|Må jeg have en kage?|Vi vil have en hund.|Hvad vil du have?|Emil vil have bolden.|Jeg vil gerne have en bog.
+kom|Kom her!|Kom med os.|Kom ind!|Far kom hjem.|Hunden kom løbende.|Hvem kom først?
+går|Emil går i skole.|Vi går hjem.|Hvordan går det?|Hunden går ud.|Hvem går med?|Uret går.
+siger|Mor siger ja.|Hvad siger hunden?|Emil siger hej.|Ida siger tak.|Hvem siger det?|Læreren siger godmorgen.
+ser|Jeg ser en fugl.|Ser du månen?|Katten ser musen.|Vi ser tv.|Jeg ser mor.|Hvem ser mig?
+leger|Børnene leger ude.|Katten leger med garnet.|Hvem leger med mig?|Ida leger i parken.|Hunden leger meget.|Far leger med os.
+spiser|Jeg spiser et æble.|Hunden spiser et ben.|Hvem spiser brød?|Katten spiser fisk.|Vi spiser suppe.|Koen spiser græs.
+sover|Katten sover.|Babyen sover.|Hvem sover her?|Jeg sover i min seng.|Hunden sover ude.|Bjørnen sover om vinteren.
+løber|Hunden løber hurtigt.|Emil løber til skole.|Hvem løber først?|Jeg løber i parken.|Katten løber væk.|Ida løber og hopper.
+bor|Jeg bor i et hus.|Hvor bor du?|Mormor bor tæt på.|Fisken bor i vandet.|Vi bor i byen.|Emil bor her.
+hedder|Jeg hedder Ida.|Hvad hedder du?|Min kat hedder Mis.|Han hedder Emil.|Hvad hedder hunden?|Hun hedder Maja.
+vil|Jeg vil lege.|Emil vil have is.|Hvad vil hunden?|Jeg vil hjem.|Ida vil tegne.|Hvem vil med?
+må|Må jeg lege?|Du må gå først.|Emil må få en is.|Må vi komme ind?|Du må ikke løbe.|Hvem må begynde?
+kunne|Jeg kunne ikke sove.|Kunne du hjælpe mig?|Hun kunne svømme.|Vi kunne lege i dag.|Emil kunne ikke finde bolden.|Kunne du lide det?
+blev|Jeg blev glad.|Det blev koldt.|Hunden blev våd.|Emil blev syg.|Kagen blev god.|Maden blev kold.
+godt|Det er godt.|Jeg har det godt.|Godt gået!|Sov godt!|Det dufter godt.|Is smager godt.
+stor|Elefanten er stor.|Jeg er allerede stor.|Huset har en stor have.|Hvor stor er du?|Hunden er meget stor.|Emil har en stor bil.
+lille|Musen er lille.|Jeg er stadig lille.|Bilen er lille.|En lille fugl synger.|Jeg har en lille hund.|Katten er lille.
+ny|Min cykel er ny.|Jeg har en ny bog.|Er din jakke ny?|Emil har en ny ven.|Vi har en ny bil.|Er læreren ny?
+mange|Jeg har mange venner.|Der er mange fugle.|Hvor mange er der?|Vi ser mange stjerner.|Emil har mange biler.|Der er mange børn her.
+meget|Jeg er meget glad.|Det smager meget godt.|Hunden er meget sød.|Det regner meget.|Emil spiser meget.|Det er meget koldt.
+lidt|Lidt mælk, tak.|Jeg er lidt træt.|Vent lidt.|Det regner lidt.|Giv mig lidt mere.|Hunden er lidt bange.
+alle|Alle børn leger.|Hej alle sammen!|Er alle her?|Vi spiser alle kagerne.|Alle fugle synger.|I dag kommer alle.
+to|Jeg har to hænder.|To fugle synger.|Vi har to katte.|Emil er to år.|Jeg ser to hunde.|To æbler, tak.
+tre|Jeg har tre blyanter.|Tre børn leger.|Ida er tre.|Jeg tæller til tre.|Tre ænder svømmer.|Vi spiser tre kager.
+ja|Ja, tak.|Mor siger ja.|Ja, jeg kommer.|Ja, det er min hund.|Ja, gerne.|Åh ja!
+nej|Nej, tak.|Far siger nej.|Nej, det er ikke min.|Hunden siger nej.|Åh nej!|Nej, jeg vil ikke.
+tak|Tak, mor.|Tusind tak.|Tak for gaven.|Jeg siger tak.|Nej, tak.|Tak for hjælpen.
+hej|Hej, mor!|Hej med dig!|Emil siger hej.|Hej, hvordan går det?|Hunden siger hej.|Hej, Ida!
+mor|Min mor synger.|Hej, mor!|Mor laver mad.|Hvor er mor?|Jeg går med mor.|Mor læser en historie.
+far|Min far er høj.|Far leger med mig.|Hej, far!|Hvor er far?|Far har en bil.|Jeg går i parken med far.
+kat|Jeg har en kat.|Min kat er sort.|Jeg ser en kat.|En kat sover.|Vil du have en kat?|Der er en kat!
+hund|Jeg har en hund.|Min hund er brun.|Jeg ser en stor hund.|En hund gør.|Emil vil have en hund.|Der er en hund!
+hus|Jeg bor i et hus.|Mormor har et rødt hus.|Jeg tegner et hus.|Der er et stort hus.|Vi bygger et hus.|Sikke et flot hus!
+skole|Jeg går i skole.|Vi har ikke skole i dag.|Det er en stor skole.|Hun går på min skole.|Vores skole har en stor legeplads.|Efter skole leger vi.
+bog|Jeg læser en bog.|Det er en ny bog.|Far læser en bog for mig.|Her er en bog om dyr.|Sikke en sjov bog!|Jeg vil have en bog.
+bold|Jeg har en bold.|Giv mig en bold!|Hunden leger med en bold.|Det er en rød bold.|Vi sparker til en bold.|Hvor er min bold?
+vand|Jeg drikker vand.|Må jeg få vand?|Fisken bor i vand.|Der er vand i glasset.|Vand er godt.|Jeg leger med vand.
+da|Jeg var glad, da du kom.|Da jeg var lille, sov jeg meget.|Hunden gøede, da det ringede.|Vi grinede, da klovnen faldt.|Da solen kom frem, legede vi.|Jeg vågnede, da far kaldte.
+hjem|Vi går hjem.|Kom hjem nu!|Far kommer hjem.|Hunden løber hjem.|Jeg cykler hjem.|Hvornår skal vi hjem?

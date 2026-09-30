@@ -1,0 +1,8055 @@
+{
+  "id": "wave-swl-fr",
+  "_note": "Level Set 2026-09-30: Sight Words. The locale's own K-1 high-frequency list grows from 24 to ~100 words (native-reviewed), each with six sentences. Five NEW one-word pages per word: Sight Word of the Day (read, trace, write, use in sentences), Sight Word in Sentences (fill the word in), One Sentence Step by Step (read, complete, trace, circle, write), Trace the Sentences, Find the Sight Word (colour and count). Levels: easier = fewer, shorter sentences and the word traced in the gap; harder = more and longer sentences, capital-letter gaps, look-alike words. Read-Trace-Write sets cover the whole list. Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "fr"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-239",
+    "K-259",
+    "K-260",
+    "K-261",
+    "K-262",
+    "K-263",
+    "K-388",
+    "K-389",
+    "K-390",
+    "K-391",
+    "K-392"
+  ],
+  "levels": {
+    "K-239": {
+      "1": [
+        {
+          "copy": 27,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 29,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 30,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 31,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 32,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 33,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 34,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 35,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 36,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 37,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 38,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 39,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 40,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 41,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 42,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 43,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 44,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 45,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 46,
+          "unit": null,
+          "seedVariant": 20
+        },
+        {
+          "copy": 47,
+          "unit": null,
+          "seedVariant": 21
+        },
+        {
+          "copy": 48,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 49,
+          "unit": null,
+          "seedVariant": 23
+        },
+        {
+          "copy": 50,
+          "unit": null,
+          "seedVariant": 24
+        },
+        {
+          "copy": 51,
+          "unit": null,
+          "seedVariant": 25
+        },
+        {
+          "copy": 52,
+          "unit": null,
+          "seedVariant": 26
+        },
+        {
+          "copy": 53,
+          "unit": null,
+          "seedVariant": 27
+        },
+        {
+          "copy": 54,
+          "unit": null,
+          "seedVariant": 28
+        },
+        {
+          "copy": 55,
+          "unit": null,
+          "seedVariant": 29
+        },
+        {
+          "copy": 56,
+          "unit": null,
+          "seedVariant": 30
+        },
+        {
+          "copy": 57,
+          "unit": null,
+          "seedVariant": 31
+        },
+        {
+          "copy": 58,
+          "unit": null,
+          "seedVariant": 32
+        },
+        {
+          "copy": 59,
+          "unit": null,
+          "seedVariant": 33
+        },
+        {
+          "copy": 60,
+          "unit": null,
+          "seedVariant": 34
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 17,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 18,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 19,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 20,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 21,
+          "unit": null,
+          "seedVariant": 20
+        },
+        {
+          "copy": 22,
+          "unit": null,
+          "seedVariant": 21
+        },
+        {
+          "copy": 23,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 24,
+          "unit": null,
+          "seedVariant": 23
+        },
+        {
+          "copy": 25,
+          "unit": null,
+          "seedVariant": 24
+        },
+        {
+          "copy": 26,
+          "unit": null,
+          "seedVariant": 25
+        }
+      ],
+      "3": [
+        {
+          "copy": 61,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 63,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 64,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 65,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 66,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 67,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 68,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 69,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 70,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 71,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 72,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 73,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 74,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 75,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 76,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 77,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 78,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 79,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 80,
+          "unit": null,
+          "seedVariant": 20
+        }
+      ]
+    },
+    "K-259": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-260": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-261": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-262": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-263": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-388": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-389": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-390": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-391": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-392": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "le",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "la",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "les",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "un",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "une",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "et",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "est",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "dans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "avec",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "sur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "pour",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "mais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "il",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "elle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "je",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "des",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "au",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "qui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "que",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "pas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "son",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "sous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "aussi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "à",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "a2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "ne",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "se",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "ce",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "on",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "nous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "vous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "ils",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "elles",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "tu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "moi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "toi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "mon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "ma",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "mes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "ton",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "ta",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "tes",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "sa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "ses",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "notre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "votre",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "leur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "en",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "y",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "par",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "chez",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "vers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sans",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "très",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "bien",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "plus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "tout",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "tous",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "toute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "avant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "après",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "ici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "la2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "oui",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "non",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "voici",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "voilà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "comme",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "quand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "où",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "alors",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "puis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "encore",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "déjà",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "jamais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "toujours",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "peu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "beaucoup",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "trop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "petit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "grand",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "bon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "beau",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "deux",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "trois",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "suis",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "sont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "ai",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "as",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "ont",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "va",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "vais",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "fait",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "dit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "voit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "veut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "peut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "rouge",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

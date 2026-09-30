@@ -1,0 +1,399 @@
+{
+ "_note": "Sight Words Level Set 2026-09-30: titles + instructions of the five new one-word variations (K-388..K-392) and the in-page labels. {UNIT} = the sight word of the page.",
+ "en": {
+  "K-388": {
+   "title": "Sight Word of the Day: {UNIT}",
+   "instruction": "Read the word. Trace it, write it, and use it in sentences."
+  },
+  "K-389": {
+   "title": "Sight Word in Sentences: {UNIT}",
+   "instruction": "Read each sentence. Write the word “{UNIT}” on the line."
+  },
+  "K-390": {
+   "title": "Sight Word Sentence: {UNIT}",
+   "instruction": "Work through one sentence, step by step."
+  },
+  "K-391": {
+   "title": "Trace the Sentences: {UNIT}",
+   "instruction": "Trace each sentence. Then write it on the line below."
+  },
+  "K-392": {
+   "title": "Find the Sight Word: {UNIT}",
+   "instruction": "Color every box with the word “{UNIT}”. Count them and write the number."
+  },
+  "labels": {
+   "read": "Read the word",
+   "trace": "Trace the word",
+   "write": "Write the word",
+   "complete": "Write the word in each sentence",
+   "own": "Write your own sentence",
+   "readSentence": "Read the sentence",
+   "completeSentence": "Complete the sentence",
+   "traceSentence": "Trace the sentence",
+   "circle": "Circle the word",
+   "writeSentence": "Write the sentence",
+   "count": "How many?",
+   "capital": "A sentence starts with a capital letter."
+  }
+ },
+ "de": {
+  "K-388": {
+   "title": "Wort des Tages: {UNIT}",
+   "instruction": "Lies das Wort. Spure es nach, schreibe es und setze es in Sätze ein."
+  },
+  "K-389": {
+   "title": "Häufige Wörter in Sätzen: {UNIT}",
+   "instruction": "Lies jeden Satz. Schreibe das Wort „{UNIT}“ auf die Linie."
+  },
+  "K-390": {
+   "title": "Ein Satz mit {UNIT}",
+   "instruction": "Arbeite Schritt für Schritt mit einem Satz."
+  },
+  "K-391": {
+   "title": "Sätze nachspuren: {UNIT}",
+   "instruction": "Spure jeden Satz nach. Schreibe ihn dann auf die Linie darunter."
+  },
+  "K-392": {
+   "title": "Finde das Wort: {UNIT}",
+   "instruction": "Male jedes Kästchen mit dem Wort „{UNIT}“ an. Zähle sie und schreibe die Zahl auf."
+  },
+  "labels": {
+   "read": "Lies das Wort",
+   "trace": "Spure das Wort nach",
+   "write": "Schreibe das Wort",
+   "complete": "Setze das Wort in jeden Satz ein",
+   "own": "Schreibe einen eigenen Satz",
+   "readSentence": "Lies den Satz",
+   "completeSentence": "Ergänze den Satz",
+   "traceSentence": "Spure den Satz nach",
+   "circle": "Kreise das Wort ein",
+   "writeSentence": "Schreibe den Satz ab",
+   "count": "Wie viele?",
+   "capital": "Am Satzanfang schreibt man groß."
+  }
+ },
+ "es": {
+  "K-388": {
+   "title": "Palabra del día: {UNIT}",
+   "instruction": "Lee la palabra. Repásala, escríbela y úsala en oraciones."
+  },
+  "K-389": {
+   "title": "Palabras frecuentes en oraciones: {UNIT}",
+   "instruction": "Lee cada oración. Escribe la palabra «{UNIT}» en la línea."
+  },
+  "K-390": {
+   "title": "Una oración con {UNIT}",
+   "instruction": "Trabaja una oración paso a paso."
+  },
+  "K-391": {
+   "title": "Repasa las oraciones: {UNIT}",
+   "instruction": "Repasa cada oración. Luego escríbela en la línea de abajo."
+  },
+  "K-392": {
+   "title": "Encuentra la palabra: {UNIT}",
+   "instruction": "Colorea cada casilla con la palabra «{UNIT}». Cuéntalas y escribe el número."
+  },
+  "labels": {
+   "read": "Lee la palabra",
+   "trace": "Repasa la palabra",
+   "write": "Escribe la palabra",
+   "complete": "Escribe la palabra en cada oración",
+   "own": "Escribe tu propia oración",
+   "readSentence": "Lee la oración",
+   "completeSentence": "Completa la oración",
+   "traceSentence": "Repasa la oración",
+   "circle": "Encierra la palabra en un círculo",
+   "writeSentence": "Escribe la oración",
+   "count": "¿Cuántas hay?",
+   "capital": "La oración empieza con mayúscula."
+  }
+ },
+ "fr": {
+  "K-388": {
+   "title": "Le mot du jour : {UNIT}",
+   "instruction": "Lis le mot. Repasse-le, écris-le et utilise-le dans des phrases."
+  },
+  "K-389": {
+   "title": "Mots-outils en phrases : {UNIT}",
+   "instruction": "Lis chaque phrase. Écris le mot « {UNIT} » sur la ligne."
+  },
+  "K-390": {
+   "title": "Une phrase avec {UNIT}",
+   "instruction": "Travaille une phrase, étape par étape."
+  },
+  "K-391": {
+   "title": "Repasse les phrases : {UNIT}",
+   "instruction": "Repasse chaque phrase. Puis écris-la sur la ligne en dessous."
+  },
+  "K-392": {
+   "title": "Trouve le mot : {UNIT}",
+   "instruction": "Colorie chaque case qui contient le mot « {UNIT} ». Compte-les et écris le nombre."
+  },
+  "labels": {
+   "read": "Lis le mot",
+   "trace": "Repasse le mot",
+   "write": "Écris le mot",
+   "complete": "Écris le mot dans chaque phrase",
+   "own": "Écris ta propre phrase",
+   "readSentence": "Lis la phrase",
+   "completeSentence": "Complète la phrase",
+   "traceSentence": "Repasse la phrase",
+   "circle": "Entoure le mot",
+   "writeSentence": "Écris la phrase",
+   "count": "Combien ?",
+   "capital": "Une phrase commence par une majuscule."
+  }
+ },
+ "it": {
+  "K-388": {
+   "title": "La parola del giorno: {UNIT}",
+   "instruction": "Leggi la parola. Ripassala, scrivila e usala nelle frasi."
+  },
+  "K-389": {
+   "title": "Parole frequenti nelle frasi: {UNIT}",
+   "instruction": "Leggi ogni frase. Scrivi la parola «{UNIT}» sulla riga."
+  },
+  "K-390": {
+   "title": "Una frase con {UNIT}",
+   "instruction": "Lavora su una frase, un passo alla volta."
+  },
+  "K-391": {
+   "title": "Ripassa le frasi: {UNIT}",
+   "instruction": "Ripassa ogni frase. Poi scrivila sulla riga sotto."
+  },
+  "K-392": {
+   "title": "Trova la parola: {UNIT}",
+   "instruction": "Colora ogni casella con la parola «{UNIT}». Contale e scrivi il numero."
+  },
+  "labels": {
+   "read": "Leggi la parola",
+   "trace": "Ripassa la parola",
+   "write": "Scrivi la parola",
+   "complete": "Scrivi la parola in ogni frase",
+   "own": "Scrivi una frase tua",
+   "readSentence": "Leggi la frase",
+   "completeSentence": "Completa la frase",
+   "traceSentence": "Ripassa la frase",
+   "circle": "Cerchia la parola",
+   "writeSentence": "Scrivi la frase",
+   "count": "Quante sono?",
+   "capital": "La frase comincia con la lettera maiuscola."
+  }
+ },
+ "pt": {
+  "K-388": {
+   "title": "Palavra do dia: {UNIT}",
+   "instruction": "Leia a palavra. Cubra o pontilhado, escreva e use a palavra em frases."
+  },
+  "K-389": {
+   "title": "Palavras frequentes em frases: {UNIT}",
+   "instruction": "Leia cada frase. Escreva a palavra “{UNIT}” na linha."
+  },
+  "K-390": {
+   "title": "Uma frase com {UNIT}",
+   "instruction": "Trabalhe uma frase, passo a passo."
+  },
+  "K-391": {
+   "title": "Cubra as frases: {UNIT}",
+   "instruction": "Cubra o pontilhado de cada frase. Depois escreva a frase na linha de baixo."
+  },
+  "K-392": {
+   "title": "Encontre a palavra: {UNIT}",
+   "instruction": "Pinte cada quadrinho com a palavra “{UNIT}”. Conte e escreva o número."
+  },
+  "labels": {
+   "read": "Leia a palavra",
+   "trace": "Cubra a palavra",
+   "write": "Escreva a palavra",
+   "complete": "Escreva a palavra em cada frase",
+   "own": "Escreva sua própria frase",
+   "readSentence": "Leia a frase",
+   "completeSentence": "Complete a frase",
+   "traceSentence": "Cubra a frase",
+   "circle": "Circule a palavra",
+   "writeSentence": "Escreva a frase",
+   "count": "Quantas?",
+   "capital": "A frase começa com letra maiúscula."
+  }
+ },
+ "nl": {
+  "K-388": {
+   "title": "Woord van de dag: {UNIT}",
+   "instruction": "Lees het woord. Trek het over, schrijf het zelf en gebruik het in zinnen."
+  },
+  "K-389": {
+   "title": "Flitswoorden in zinnen: {UNIT}",
+   "instruction": "Lees elke zin. Schrijf het woord ‘{UNIT}’ op de lijn."
+  },
+  "K-390": {
+   "title": "Een zin met {UNIT}",
+   "instruction": "Werk stap voor stap met één zin."
+  },
+  "K-391": {
+   "title": "Zinnen overtrekken: {UNIT}",
+   "instruction": "Trek elke zin over. Schrijf hem daarna op de lijn eronder."
+  },
+  "K-392": {
+   "title": "Zoek het woord: {UNIT}",
+   "instruction": "Kleur elk vakje met het woord ‘{UNIT}’. Tel ze en schrijf het getal op."
+  },
+  "labels": {
+   "read": "Lees het woord",
+   "trace": "Trek het woord over",
+   "write": "Schrijf het woord",
+   "complete": "Schrijf het woord in elke zin",
+   "own": "Schrijf een eigen zin",
+   "readSentence": "Lees de zin",
+   "completeSentence": "Maak de zin af",
+   "traceSentence": "Trek de zin over",
+   "circle": "Omcirkel het woord",
+   "writeSentence": "Schrijf de zin",
+   "count": "Hoeveel?",
+   "capital": "Een zin begint met een hoofdletter."
+  }
+ },
+ "sv": {
+  "K-388": {
+   "title": "Dagens ord: {UNIT}",
+   "instruction": "Läs ordet. Spåra det, skriv det och använd det i meningar."
+  },
+  "K-389": {
+   "title": "Vanliga ord i meningar: {UNIT}",
+   "instruction": "Läs varje mening. Skriv ordet ”{UNIT}” på linjen."
+  },
+  "K-390": {
+   "title": "En mening med {UNIT}",
+   "instruction": "Arbeta med en mening, steg för steg."
+  },
+  "K-391": {
+   "title": "Spåra meningarna: {UNIT}",
+   "instruction": "Spåra varje mening. Skriv den sedan på linjen under."
+  },
+  "K-392": {
+   "title": "Hitta ordet: {UNIT}",
+   "instruction": "Färglägg varje ruta med ordet ”{UNIT}”. Räkna dem och skriv antalet."
+  },
+  "labels": {
+   "read": "Läs ordet",
+   "trace": "Spåra ordet",
+   "write": "Skriv ordet",
+   "complete": "Skriv ordet i varje mening",
+   "own": "Skriv en egen mening",
+   "readSentence": "Läs meningen",
+   "completeSentence": "Skriv klart meningen",
+   "traceSentence": "Spåra meningen",
+   "circle": "Ringa in ordet",
+   "writeSentence": "Skriv meningen",
+   "count": "Hur många?",
+   "capital": "En mening börjar med stor bokstav."
+  }
+ },
+ "da": {
+  "K-388": {
+   "title": "Dagens ord: {UNIT}",
+   "instruction": "Læs ordet. Tegn det op, skriv det og brug det i sætninger."
+  },
+  "K-389": {
+   "title": "Hyppige ord i sætninger: {UNIT}",
+   "instruction": "Læs hver sætning. Skriv ordet »{UNIT}« på stregen."
+  },
+  "K-390": {
+   "title": "En sætning med {UNIT}",
+   "instruction": "Arbejd med én sætning, trin for trin."
+  },
+  "K-391": {
+   "title": "Tegn sætningerne op: {UNIT}",
+   "instruction": "Tegn hver sætning op. Skriv den så på stregen nedenunder."
+  },
+  "K-392": {
+   "title": "Find ordet: {UNIT}",
+   "instruction": "Farv hvert felt med ordet »{UNIT}«. Tæl dem, og skriv tallet."
+  },
+  "labels": {
+   "read": "Læs ordet",
+   "trace": "Tegn ordet op",
+   "write": "Skriv ordet",
+   "complete": "Skriv ordet i hver sætning",
+   "own": "Skriv din egen sætning",
+   "readSentence": "Læs sætningen",
+   "completeSentence": "Skriv sætningen færdig",
+   "traceSentence": "Tegn sætningen op",
+   "circle": "Sæt ring om ordet",
+   "writeSentence": "Skriv sætningen",
+   "count": "Hvor mange?",
+   "capital": "En sætning starter med stort bogstav."
+  }
+ },
+ "no": {
+  "K-388": {
+   "title": "Dagens ord: {UNIT}",
+   "instruction": "Les ordet. Spor det, skriv det og bruk det i setninger."
+  },
+  "K-389": {
+   "title": "Høyfrekvente ord i setninger: {UNIT}",
+   "instruction": "Les hver setning. Skriv ordet «{UNIT}» på streken."
+  },
+  "K-390": {
+   "title": "En setning med {UNIT}",
+   "instruction": "Arbeid med én setning, steg for steg."
+  },
+  "K-391": {
+   "title": "Spor setningene: {UNIT}",
+   "instruction": "Spor hver setning. Skriv den så på streken under."
+  },
+  "K-392": {
+   "title": "Finn ordet: {UNIT}",
+   "instruction": "Fargelegg hver rute med ordet «{UNIT}». Tell dem og skriv tallet."
+  },
+  "labels": {
+   "read": "Les ordet",
+   "trace": "Spor ordet",
+   "write": "Skriv ordet",
+   "complete": "Skriv ordet i hver setning",
+   "own": "Skriv din egen setning",
+   "readSentence": "Les setningen",
+   "completeSentence": "Skriv ferdig setningen",
+   "traceSentence": "Spor setningen",
+   "circle": "Sett ring rundt ordet",
+   "writeSentence": "Skriv setningen",
+   "count": "Hvor mange?",
+   "capital": "En setning begynner med stor bokstav."
+  }
+ },
+ "fi": {
+  "K-388": {
+   "title": "Päivän sana: {UNIT}",
+   "instruction": "Lue sana. Jäljennä se, kirjoita se ja käytä sitä lauseissa."
+  },
+  "K-389": {
+   "title": "Tuttu sana lauseissa: {UNIT}",
+   "instruction": "Lue jokainen lause. Kirjoita sana ”{UNIT}” viivalle."
+  },
+  "K-390": {
+   "title": "Lause, jossa on sana {UNIT}",
+   "instruction": "Harjoittele yhtä lausetta vaihe vaiheelta."
+  },
+  "K-391": {
+   "title": "Jäljennä lauseet: {UNIT}",
+   "instruction": "Jäljennä jokainen lause. Kirjoita se sitten alla olevalle viivalle."
+  },
+  "K-392": {
+   "title": "Etsi sana: {UNIT}",
+   "instruction": "Väritä jokainen ruutu, jossa on sana ”{UNIT}”. Laske ne ja kirjoita luku."
+  },
+  "labels": {
+   "read": "Lue sana",
+   "trace": "Jäljennä sana",
+   "write": "Kirjoita sana",
+   "complete": "Kirjoita sana jokaiseen lauseeseen",
+   "own": "Kirjoita oma lause",
+   "readSentence": "Lue lause",
+   "completeSentence": "Täydennä lause",
+   "traceSentence": "Jäljennä lause",
+   "circle": "Ympyröi sana",
+   "writeSentence": "Kirjoita lause",
+   "count": "Montako?",
+   "capital": "Lause alkaa isolla alkukirjaimella."
+  }
+ }
+}

@@ -1,0 +1,101 @@
+# Sight Words Level Set — nl. word|six sentences; the word exactly once. Rows 1-24 = the published list.
+ik|Ik heb een hond.|Hier ben ik!|Ik eet een appel.|Mag ik meedoen?|Vandaag lees ik.|Ik ben vijf jaar.
+de|De kat slaapt.|Waar is de bal?|De zon schijnt.|Ik zie de maan.|De bus komt eraan.|Pak de tas maar.
+het|Het huis is groot.|Waar is het boek?|Het regent.|Ik zie het konijn.|Het is koud.|Pak het maar.
+een|Ik heb een fiets.|Daar is een vogel.|Tim eet een koek.|Een hond blaft.|Ik teken een boom.|Dat is een bal.
+en|Mama en papa zijn thuis.|Ik ren en spring.|De hond en de kat spelen.|Brood en melk, graag.|Tim en Sara lachen.|Rood en blauw.
+is|De lucht is blauw.|Mijn hond is bruin.|Waar is mijn jas?|De soep is heet.|Vandaag is het maandag.|Sara is blij.
+in|De kat zit in de doos.|Ik zwem in het meer.|We spelen in de tuin.|De vis is in de kom.|Kom maar in huis.|Mijn boek zit in mijn tas.
+op|De kat ligt op het bed.|Het boek ligt op tafel.|Ik zit op een stoel.|Er zit een vogel op het dak.|Zet de beker op tafel.|Sta maar op.
+van|Dit is de fiets van Tim.|Een brief van oma.|Het boek is van de juf.|Ik hou van jou.|Het huis van opa is groot.|De bal is van mij.
+dat|Dat is mijn huis.|Ik weet dat je er bent.|Wat is dat?|Dat vind ik leuk.|Kijk naar dat paard!|Mama zegt dat het laat is.
+niet|Ik ben niet moe.|De hond blaft niet.|Het regent niet.|Dit is niet mijn jas.|Ren niet zo hard!|Ik weet het niet.
+jij|Jij bent mijn vriend.|Waar woon jij?|Kom jij ook?|Jij mag eerst.|Heb jij een pen?|Jij tekent mooi.
+ja|Ja, graag.|Mama zegt ja.|Ja, ik kom.|Ja, dat is mijn hond.|Ik denk van ja.|Oh ja!
+nee|Nee, dank je.|Papa zegt nee.|Nee, dat is niet van mij.|Ik denk van nee.|Oh nee!|Nee, ik wil niet.
+met|Ik speel met mijn hond.|Kom met mij mee.|Thee met honing is lekker.|Ik eet met een lepel.|Sara gaat met papa.|Ik fiets met Tim.
+naar|We gaan naar school.|Kijk naar de maan.|Ik loop naar huis.|Tim gaat naar oma.|We rijden naar zee.|Kom naar mij toe.
+hij|Hij is mijn broer.|Hij rent hard.|Waar is hij?|Hij heeft een fiets.|Hij leest een boek.|Tim zegt dat hij moe is.
+wij|Wij spelen samen.|Wij hebben een kat.|Wij gaan naar het bos.|Wij zingen hard.|Wij zijn vrienden.|Wij eten soep.
+ook|Ik wil ook mee.|Tim zingt ook.|Jij bent ook mijn vriend.|Heeft Sara ook honger?|De hond is ook moe.|Wij lachen ook.
+maar|Ik wil spelen, maar het regent.|Hij is klein, maar sterk.|Het is koud, maar mooi.|Ik roep, maar niemand komt.|De soep is heet, maar lekker.|Kom maar!
+dan|Eerst eten, dan spelen.|En dan?|Dan gaan we naar huis.|Dan slaap ik.|Wat doen we dan?|Als het regent, dan lees ik.
+kijk|Kijk, een vogel!|Ik kijk naar de maan.|Kijk eens hier.|Kijk uit!|Ik kijk in de tas.|Kijk naar mij!
+gaat|Tim gaat naar school.|Hoe gaat het?|De bus gaat snel.|Wie gaat er mee?|Mama gaat werken.|De kat gaat slapen.
+was|Het was leuk.|Gisteren was ik ziek.|Wie was dat?|De soep was heet.|Tim was in de dierentuin.|Het was een mooie dag.
+zij|Zij is mijn zus.|Zij zingt mooi.|Waar woont zij?|Zij heeft een kat.|Zij leest een boek.|Zij rent hard.
+je|Heb je honger?|Kom je spelen?|Waar woon je?|Je bent lief.|Wil je een koekje?|Hoe heet je?
+we|We gaan naar huis.|Morgen spelen we buiten.|We hebben een hond.|Waar zijn we?|We zingen een lied.|Nu eten we.
+ze|Ze speelt met de bal.|Ze heeft een fiets.|Waar is ze?|Ze lacht hard.|Ze eet een appel.|Ze komt morgen.
+u|Dank u wel.|Wilt u thee?|Hoe heet u?|Kunt u mij helpen?|Alstublieft, dit is voor u.|Komt u binnen.
+mijn|Dit is mijn hond.|Mijn fiets is rood.|Waar is mijn pen?|Mijn broer is klein.|Mijn kamer is blauw.|Kom je bij mijn huis?
+jouw|Is dit jouw bal?|Jouw tekening is mooi.|Waar is jouw jas?|Hoe heet jouw hond?|Jouw fiets is nieuw.|Is dit jouw plek?
+zijn|Tim zoekt zijn boek.|Wij zijn vrienden.|Zijn fiets is rood.|Waar zijn de katten?|De appels zijn rood.|Hij pakt zijn tas.
+haar|Sara zoekt haar pop.|Haar jas is blauw.|Ik zie haar.|Haar kat slaapt.|Geef haar de bal.|Ik bel haar op.
+ons|Kom bij ons!|Oma bezoekt ons.|Dit is ons huis.|Help ons even.|De hond is van ons.|Speel met ons!
+hun|Dat is hun huis.|Hun hond is groot.|De kinderen pakken hun tas.|Ik speel met hun bal.|Hun kat is zwart.|Ik geef hun een koek.
+er|Er is een vogel.|Er zit een muis in huis.|Is er nog melk?|Er komt een bus.|Er zijn drie katten.|Hoeveel zijn er?
+die|Die hond is groot.|Wie is die jongen?|Ik wil die bal.|Die appel is rood.|Kijk naar die vogel!|Die is van mij.
+dit|Dit is mijn kat.|Ik vind dit boek leuk.|Is dit jouw jas?|Dit is lekker!|Kijk eens naar dit plaatje!|Dit huis is groot.
+deze|Deze bal is rood.|Ik wil deze.|Deze hond is lief.|Is deze tas van jou?|Deze appel is zoet.|Deze fiets is nieuw.
+wat|Wat is dat?|Wat doe je?|Wat eten we?|Wat een mooie dag!|Weet je wat ik zie?|Wat heb je daar?
+wie|Wie is daar?|Wie heeft de bal?|Wie wil taart?|Wie is jouw vriend?|Ik weet wie het is.|Wie kan mij helpen?
+waar|Waar is mijn jas?|Waar woon je?|Waar is de kat?|Ik weet waar hij is.|Waar gaan we heen?|Waar spelen de kinderen?
+hoe|Hoe heet je?|Hoe oud ben jij?|Hoe gaat het?|Hoe laat is het?|Hoe doe je dat?|Hoe mooi is dat!
+als|Als het regent, blijf ik thuis.|Hij is zo groot als papa.|Bel me als je klaar bent.|Als ik groot ben, vlieg ik.|Ik ben blij als je komt.|Ik ren als een haas.
+om|We lopen om het huis.|Om acht uur begint de school.|Kijk om je heen.|De hond rent om de boom.|Om twaalf uur eten we.|Draai je om!
+aan|Trek je jas aan.|Het licht is aan.|Ik denk aan jou.|De foto hangt aan de muur.|Geef het aan mama.|Zet de radio aan.
+bij|Ik ben bij oma.|Kom bij mij zitten.|De hond is bij papa.|We eten bij Tim.|Bij regen blijven we binnen.|Ik slaap bij Sara.
+uit|Het licht is uit.|Ik kom uit school.|Doe je schoenen uit.|De kat kijkt uit het raam.|Tim drinkt uit een beker.|Het boek is uit.
+voor|Dit is voor jou.|Een tekening voor mama.|De hond zit voor de deur.|Dank je voor het cadeau.|Is dit voor mij?|Voor het eten was ik mijn handen.
+over|De vogel vliegt over het huis.|Ik spring over de sloot.|Een boek over dieren.|Het is over tien minuten.|Ik praat over mijn hond.|De brug gaat over het water.
+onder|De kat zit onder de tafel.|De bal ligt onder het bed.|We zitten onder een boom.|Kijk onder de bank!|Onder de steen zit een kever.|Mijn schoenen staan onder de stoel.
+al|Ik kan al lezen.|Ben je al wakker?|Het is al laat.|Tim is al thuis.|We zijn al klaar.|Ik ben al zes.
+nog|Ik wil nog spelen.|Is er nog taart?|Tim slaapt nog.|Nog een keer!|Ik ben nog klein.|Heb je nog tijd?
+nu|Nu ben ik aan de beurt.|Kom nu, alsjeblieft.|Nu regent het.|We gaan nu.|Waar ben je nu?|Nu is het pauze.
+hier|Hier is mijn huis.|Kom hier!|Ik woon hier.|Hier ben ik!|Is hier nog plek?|Hier ligt je boek.
+daar|Daar is de school.|Zie je de vogel daar?|Wij spelen daar.|Wat is daar?|Daar woont mijn oma.|Daar komt de bus.
+wel|Ik wil wel!|Dank je wel.|Het gaat wel.|Kom je wel?|Dat kan wel.|Ik hou wel van soep.
+geen|Ik heb geen pen.|Dat is geen hond.|Er is geen melk.|Geen zorgen!|Tim heeft geen fiets.|Hier zijn geen kinderen.
+heel|Het is heel mooi.|Ik ben heel moe.|De hond is heel lief.|Het is heel koud.|Dat is heel fijn.|Ik hou heel veel van jou.
+veel|Ik heb veel plezier.|Dat is te veel.|Wij lachen veel.|Veel succes!|Tim eet veel.|Het regent veel.
+goed|Dat is goed.|Het gaat goed met mij.|Jij tekent goed.|Goed gedaan!|Slaap goed!|Dat ruikt goed.
+groot|De olifant is groot.|Ik ben al groot.|Het huis is groot.|Hoe groot ben jij?|De hond is heel groot.|Die taart is groot.
+klein|De muis is klein.|Ik ben nog klein.|De auto is klein.|De vogel is klein.|Mijn kamer is klein.|Het is een klein huis.
+mooi|Wat mooi!|De bloem is mooi.|Vandaag is het mooi weer.|Je tekening is mooi.|De jurk is mooi.|Het bos is mooi.
+fijn|Wat fijn!|Dat is fijn.|Ik vind het fijn.|Fijn dat je er bent.|Slaap fijn.|Het bad is fijn.
+lief|De hond is lief.|Jij bent lief.|Wat lief van jou!|Mijn kat is lief.|Oma is heel lief.|Wees lief voor elkaar.
+twee|Ik heb twee handen.|Twee vogels zingen.|We hebben twee katten.|Tim is twee jaar.|Ik zie twee honden.|Twee appels, graag.
+drie|Ik heb drie pennen.|Drie kinderen spelen.|Sara is drie.|Ik tel tot drie.|Drie eenden zwemmen.|We eten drie koeken.
+ben|Ik ben zes.|Hier ben ik!|Ik ben moe.|Waar ben jij?|Ik ben blij.|Ik ben op school.
+bent|Jij bent mijn vriend.|Waar bent u?|Jij bent groot.|Bent u moe?|Jij bent lief.|Hoe oud bent u?
+heb|Ik heb een kat.|Ik heb honger.|Heb jij een pen?|Ik heb het koud.|Ik heb een nieuwe fiets.|Ik heb vandaag school.
+hebt|Hebt u tijd?|Jij hebt een hond.|Hebt u een pen?|Jij hebt gelijk.|Wat hebt u daar?|Hebt u honger?
+heeft|Tim heeft een hond.|De kat heeft honger.|Wie heeft mijn bal?|Sara heeft een zus.|De tafel heeft vier poten.|Papa heeft een auto.
+kan|Ik kan zwemmen.|Kan ik helpen?|Tim kan goed zingen.|Een vogel kan vliegen.|Wie kan dat?|Sara kan al lezen.
+wil|Ik wil spelen.|Tim wil een ijsje.|Wat wil de hond?|Ik wil naar huis.|Sara wil tekenen.|Wie wil er mee?
+mag|Mag ik meedoen?|Jij mag eerst.|Tim mag een ijsje.|Mag ik naar buiten?|Sara mag blijven.|Wie mag beginnen?
+moet|Ik moet gaan.|Tim moet slapen.|De hond moet naar buiten.|Wie moet opruimen?|Je moet je handen wassen.|Ik moet plassen.
+zegt|Mama zegt ja.|Wat zegt de hond?|Tim zegt hallo.|Sara zegt dank je.|Wie zegt dat?|De juf zegt goedemorgen.
+ziet|Tim ziet een vogel.|De kat ziet de muis.|Wie ziet mij?|Mama ziet de maan.|Wat ziet de hond?|Sara ziet er blij uit.
+komt|De bus komt.|Wie komt er mee?|Oma komt vandaag.|Komt de hond?|Tim komt laat.|Wanneer komt papa?
+doet|Wat doet Tim?|Sara doet de deur open.|Dat doet pijn.|Wie doet er mee?|Mama doet boodschappen.|De hond doet gek.
+speelt|Tim speelt voetbal.|Wie speelt er mee?|De kat speelt.|Sara speelt piano.|Papa speelt met ons.|De hond speelt in de tuin.
+eet|Ik eet een appel.|De hond eet vlees.|Wie eet er mee?|Sara eet soep.|Tim eet brood.|De koe eet gras.
+loopt|De hond loopt snel.|Tim loopt naar school.|Wie loopt er mee?|Sara loopt in het park.|De kat loopt weg.|Oma loopt met een stok.
+ga|Ik ga naar school.|Ga je mee?|Ga maar zitten.|Ik ga slapen.|Ga naar buiten!|Waar ga jij heen?
+zit|De kat zit op de bank.|Ik zit op een stoel.|Waar zit Tim?|De vogel zit in de boom.|Zit stil!|Sara zit naast mij.
+maakt|Wat maakt Tim?|Sara maakt een tekening.|Mama maakt soep.|Dat maakt niet uit.|Wie maakt het ontbijt?|Papa maakt een taart.
+mama|Mijn mama zingt.|Dag, mama!|Mama kookt.|Waar is mama?|Ik ga met mama.|Mama leest voor.
+papa|Mijn papa is lang.|Papa speelt met mij.|Dag, papa!|Waar is papa?|Papa heeft een auto.|Ik ga met papa naar het park.
+kat|De kat slaapt.|Mijn kat is zwart.|Ik zie een kat.|De kat eet vis.|Ik heb een kat.|De kat speelt.
+hond|Mijn hond is bruin.|De hond blaft.|Ik heb een hond.|Ik zie een grote hond.|De hond eet.|Ik speel met de hond.
+huis|Mijn huis is blauw.|We gaan naar huis.|Het huis is groot.|Oma heeft een huis.|Ik zie een rood huis.|Ik teken een huis.
+school|Ik ga naar school.|Mijn school is groot.|Ik vind school leuk.|De school is dichtbij.|Ik ben op school.|Vandaag is er geen school.
+boek|Ik lees een boek.|Het boek is nieuw.|Waar is mijn boek?|Papa leest een boek voor.|Dit boek is leuk.|Ik heb een boek over dieren.
+bal|Ik heb een bal.|De bal is rood.|Gooi de bal!|Waar is de bal?|De hond pakt de bal.|We spelen met de bal.
+zon|De zon schijnt.|Ik zie de zon.|De zon is geel.|Ik speel in de zon.|De zon komt op.|Vandaag is er zon.
+water|Ik drink water.|Het water is koud.|Mag ik water?|De vis woont in het water.|Er is water in het glas.|Ik speel met water.
+rood|De appel is rood.|De tomaat is rood.|Mijn fiets is rood.|Ik zie een rood huis.|Het vuur is rood.|Rood is mijn kleur.
+blauw|De lucht is blauw.|Ik heb een blauw potlood.|De zee is blauw.|Mijn jas is blauw.|Ik vind blauw mooi.|Ik zie een blauw bootje.
+zo|Het is zo koud.|Ik ben zo blij.|Doe het zo.|Waarom ben je zo stil?|De hond is zo groot.|Het regent zo hard.

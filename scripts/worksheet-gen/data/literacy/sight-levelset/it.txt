@@ -1,0 +1,101 @@
+# Sight Words Level Set — it. word|six sentences; the word exactly once. Rows 1-24 = the published list.
+io|Io ho un cane.|Posso giocare anch'io?|Io mangio la mela.|Io sono felice.|Oggi leggo io.|Io vado a scuola.
+noi|Noi giochiamo insieme.|Vieni con noi!|Noi abbiamo un gatto.|Noi andiamo al mare.|Noi cantiamo forte.|La nonna pensa a noi.
+non|Non ho fame.|Il cane non abbaia.|Oggi non piove.|Non corro.|Luca non è qui.|Non lo so.
+che|Credo che sia tardi.|So che sei bravo.|La mamma dice che è tardi.|Il gatto che dorme è grigio.|Penso che sia facile.|Vedo che hai freddo.
+con|Gioco con il cane.|Vieni con me!|Pane con burro, per favore.|Vado con papà.|Mangio con il cucchiaio.|Parlo con Anna.
+per|Questo regalo è per te.|Grazie per il dolce.|Un fiore per la mamma.|Leggo per imparare.|Passo per il parco.|Corro per vincere.
+sono|Io sono grande.|I gatti sono neri.|Dove sono le chiavi?|Sono a casa.|Le mele sono rosse.|Sono contento.
+come|Come ti chiami?|Come stai?|Corro come un leone.|Sei alto come papà.|Come sei bravo!|Canto come la mamma.
+anche|Anche io voglio.|Canta anche Luca.|Vieni anche tu?|Il cane ha fame anche lui.|Anche oggi piove.|Mi piace anche il latte.
+qui|Vieni qui.|Io abito qui.|Il gatto dorme qui.|Qui fa caldo.|Metti il libro qui.|Sono qui!
+più|Voglio più latte.|Luca corre più veloce.|Non piove più.|Ancora di più!|Anna è più alta.|Un po' più piano.
+bene|Sto bene.|Canti bene.|Molto bene!|Dormo bene.|Anna legge bene.|Va bene.
+ma|Voglio giocare, ma piove.|È piccolo, ma forte.|Corro, ma cado.|Mi piace, ma non oggi.|Ho sonno, ma leggo.|È vecchio, ma bello.
+poi|Mangio e poi dormo.|Prima leggo, poi disegno.|Poi andiamo al parco.|E poi?|Corro e poi salto.|Poi arriva papà.
+una|Ho una bambola.|Vedo una stella.|Mangio una mela.|C'è una gatta.|Anna legge una storia.|È una bella casa.
+dove|Dove sei?|Dove abiti?|Dove dorme il gatto?|So dove va.|Dove sono le scarpe?|Dove andiamo oggi?
+cosa|Cosa fai?|Cosa vuoi?|Cosa c'è nella scatola?|Che cosa bella!|Cosa mangiamo?|Dimmi cosa vedi.
+oggi|Oggi è lunedì.|Oggi fa caldo.|Oggi gioco con Luca.|Cosa facciamo oggi?|Oggi è il mio compleanno.|Oggi piove.
+molto|Ti voglio molto bene.|Fa molto freddo.|Il cane è molto grande.|Sono molto felice.|Mangio molto.|È molto tardi.
+sempre|Ti voglio sempre bene.|Il gatto dorme sempre.|Anna ride sempre.|Leggo sempre la sera.|Qui fa sempre caldo.|Sei sempre gentile.
+quando|Rido quando gioco.|Quando arriva papà?|Dormo quando è buio.|Quando piove, leggo.|Chiamami quando arrivi.|Quando mangiamo?
+tutti|Tutti i bambini giocano.|Ciao a tutti.|Siamo tutti qui.|Tutti cantano.|Mangiamo tutti insieme.|Tutti i gatti dormono.
+questo|Questo è il mio cane.|Mi piace questo libro.|Questo gelato è buono.|Di chi è questo cappello?|Questo è il mio posto.|Guarda questo!
+fare|Cosa vuoi fare?|Mi piace fare torte.|Posso fare da solo.|Andiamo a fare un giro.|Devo fare i compiti.|Che bello fare festa!
+il|Il cane corre.|Vedo il sole.|Dov'è il pallone?|Il pane è buono.|Papà legge il giornale.|Mi piace il mare.
+lo|Lo vedo.|Non lo so.|Lo zaino è blu.|Lo voglio!|Lo sai?|Mamma lo dice.
+la|La luna brilla.|Chiudo la porta.|Dov'è la palla?|La zuppa è calda.|Guarda la farfalla.|Mi piace la neve.
+i|I bambini giocano.|Vedo i fiori.|Dove sono i libri?|I gatti dormono.|Mi piacciono i cani.|Lavo i piatti.
+gli|Gli uccelli volano.|Vedo gli alberi.|Dove sono gli occhiali?|Gli amici arrivano.|Gli zaini sono pronti.|Mi piacciono gli animali.
+le|Le mele sono rosse.|Vedo le stelle.|Dove sono le chiavi?|Le bambine cantano.|Mi piacciono le fragole.|Lavo le mani.
+un|Ho un cane.|Vedo un uccello.|Papà ha un camion.|C'è un gatto qui.|Mangio un biscotto.|È un bel giorno.
+uno|Ho uno zaino.|Vedo uno scoiattolo.|Uno, due, tre!|Ne voglio uno.|Luca ha uno zio.|C'è uno gnomo nel libro.
+e|Mamma e papà sono qui.|Corro e salto.|Il cane e il gatto giocano.|Pane e latte, per favore.|Anna e Luca ridono.|Rosso e blu.
+è|Il cielo è blu.|Dov'è papà?|Oggi è festa.|Il gatto è nero.|Anna è contenta.|La zuppa è calda.
+di|Il libro di Anna.|Un bicchiere di latte.|La casa di nonna.|È ora di dormire.|Ho voglia di giocare.|Un pezzo di torta.
+a|Vado a scuola.|Andiamo a casa.|Do l'acqua a Fido.|Penso a te.|Gioco a palla.|Torno a mezzogiorno.
+da|Vado da nonna.|Vengo da scuola.|Andiamo da Luca.|Bevo da un bicchiere.|Esco da casa.|Il gatto sta da solo.
+in|Il gatto è in casa.|Vado in bici.|Il pesce nuota in acqua.|Siamo in classe.|Vado in piscina.|Il libro è in cartella.
+su|Il gatto è su un albero.|Salgo su una sedia.|Il libro è su un tavolo.|Metti il vaso su quel mobile.|L'uccello è su un ramo.|Scrivo su un foglio.
+tra|Il gatto è tra i fiori.|Arrivo tra poco.|Tra me e te.|Il pallone è tra le sedie.|Giochiamo tra amici.|Tra un'ora mangiamo.
+mi|Mi piace il gelato.|Mi chiamo Anna.|Mamma mi abbraccia.|Mi lavo le mani.|Mi piace leggere.|Papà mi legge una storia.
+ti|Ti voglio bene.|Come ti chiami?|Ti piace la pizza?|Ti do un regalo.|Ti vedo domani.|Io ti aiuto.
+ci|Ci vediamo domani.|Ci piace giocare.|La mamma ci chiama.|Ci laviamo le mani.|Ci sediamo qui.|Papà ci legge una storia.
+si|Il gatto si lava.|Luca si nasconde.|Il sole si alza.|Anna si pettina.|Il bimbo si sveglia.|Il cane si siede.
+tu|Tu sei mio amico.|Vieni anche tu?|Dove vai tu?|Tu hai un gatto?|Tu corri veloce.|Sei tu?
+lui|Lui è mio fratello.|Gioco con lui.|Lui ha un cane.|Chi è lui?|Lui corre veloce.|Lui mangia la pasta.
+lei|Lei è mia amica.|Lei canta bene.|Vado con lei.|Lei ha un gatto.|Chi è lei?|Lei legge un libro.
+voi|Voi siete gentili.|Voi venite al parco?|Dove andate voi?|Voi avete un cane?|Grazie a voi.|Voi giocate bene.
+loro|Loro giocano a palla.|Loro sono amici.|Vado con loro.|Loro hanno un gatto.|Chi sono loro?|Loro cantano forte.
+mio|Questo è il mio cane.|Il mio zaino è rosso.|Dov'è il mio libro?|Il mio papà è alto.|Mi piace il mio gatto.|Ecco il mio disegno.
+mia|Questa è la mia casa.|La mia mamma canta.|Dov'è la mia palla?|La mia bici è nuova.|Ecco la mia bambola.|Mi piace la mia classe.
+tuo|È il tuo cane?|Il tuo disegno è bello.|Dov'è il tuo zaino?|Prendi il tuo cappotto.|Il tuo papà è qui.|Mi piace il tuo cappello.
+tua|È la tua casa?|La tua gonna è bella.|Dov'è la tua palla?|Prendi la tua giacca.|La tua mamma ti chiama.|Metti in ordine la tua camera.
+suo|Luca cerca il suo cane.|Il gatto mangia il suo cibo.|Anna legge il suo libro.|Papà lava il suo camion.|Il suo cappello è rosso.|Il bimbo tiene il suo orsetto.
+sua|Anna cerca la sua palla.|Luca mette in ordine la sua camera.|La sua casa è grande.|Il cane dorme nella sua cuccia.|La mamma prende la sua borsa.|Ama la sua bambola.
+ho|Ho un cane.|Ho fame.|Ho cinque anni.|Ho freddo.|Ho una bici rossa.|Oggi ho scuola.
+hai|Hai un gatto?|Hai fame?|Quanti anni hai?|Hai freddo?|Hai la mia matita?|Tu hai ragione.
+ha|Luca ha un cane.|La mamma ha fame.|Chi ha il pallone?|Il gatto ha paura.|Anna ha sei anni.|Il tavolo ha quattro gambe.
+siamo|Siamo amici.|Siamo a casa.|Siamo pronti!|Dove siamo?|Noi siamo in classe.|Siamo felici.
+sei|Tu sei gentile.|Dove sei?|Sei pronto?|Sei il mio amico.|Sei molto alto.|Sei qui?
+va|Luca va a scuola.|Il treno va veloce.|Come va?|La mamma va al mercato.|Il gatto va a dormire.|Chi va per primo?
+vado|Vado al parco.|Vado a scuola.|Vado a dormire.|Vado da nonna.|Vado in bici.|Ora vado.
+vieni|Vieni qui!|Vieni con me?|Vieni a giocare?|Da dove vieni?|Vieni a casa mia.|Quando vieni?
+viene|Papà viene a casa.|Il gatto viene da me.|Chi viene al parco?|Nonna viene oggi.|La zia viene a trovarci.|Anna viene con noi.
+fa|Oggi fa caldo.|Cosa fa Luca?|Fa freddo.|Papà fa la torta.|Il gatto fa le fusa.|Anna fa un disegno.
+dice|La mamma dice ciao.|Cosa dice il cane?|Luca dice grazie.|Papà dice di sì.|Chi lo dice?|La maestra dice brava.
+vede|Il gatto vede il topo.|Luca vede il mare.|Chi vede la luna?|La mamma vede papà.|Il cane vede un osso.|Anna vede un uccello.
+guarda|Guarda la luna!|Luca guarda la tv.|Il gatto guarda fuori.|Guarda che bello!|La mamma guarda il cielo.|Chi guarda il film?
+gioca|Luca gioca a palla.|Il gatto gioca.|Chi gioca con me?|Anna gioca al parco.|Il cane gioca molto.|Papà gioca con noi.
+mangia|Il cane mangia la carne.|Anna mangia una pera.|Chi mangia il pane?|Il gatto mangia il pesce.|Papà mangia la pasta.|La mucca mangia l'erba.
+beve|Il gatto beve il latte.|Anna beve l'acqua.|Chi beve il succo?|Papà beve il caffè.|Il cane beve molto.|Luca beve dalla tazza.
+casa|La mia casa è blu.|Andiamo a casa.|La casa è grande.|Sono a casa.|Vedo una casa rossa.|Disegno una casa.
+mamma|La mia mamma canta.|Ti voglio bene, mamma.|La mamma cucina.|Dov'è la mamma?|Vado con la mamma.|Mamma legge una storia.
+papà|Il mio papà è alto.|Papà gioca con me.|Ciao, papà.|Dov'è papà?|Papà ha una macchina.|Vado al parco con papà.
+cane|Il mio cane è marrone.|Il cane abbaia.|Ho un cane.|Vedo un cane grande.|Il cane mangia.|Gioco con il cane.
+gatto|Il gatto dorme.|Il mio gatto è nero.|Vedo un gatto.|Il gatto mangia il pesce.|Ho un gatto.|Il gatto gioca.
+sole|Il sole splende.|Oggi c'è il sole.|Vedo il sole.|Il sole è giallo.|Gioco al sole.|Sorge il sole.
+acqua|Bevo l'acqua.|L'acqua è fredda.|Dammi l'acqua, per favore.|Il pesce vive in acqua.|C'è acqua nel bicchiere.|Mi piace l'acqua.
+pane|Mangio il pane.|Il pane è caldo.|Voglio pane e formaggio.|Papà compra il pane.|Il pane è buono.|Do il pane alle anatre.
+grande|La casa è grande.|Ho un cane grande.|L'elefante è grande.|È un albero grande.|Sono grande ormai.|Voglio una pizza grande.
+piccolo|Il topo è piccolo.|Ho un gatto piccolo.|La mia camera ha un letto piccolo.|È un pesce piccolo.|Sono ancora piccolo.|Vedo un uccello piccolo.
+rosso|Il pomodoro è rosso.|Ho un palloncino rosso.|Il fuoco è rosso.|Mi piace il colore rosso.|Vedo un pesce rosso.|Il cappello è rosso.
+bello|Che bello!|Il cielo è bello.|Che bello questo parco!|Il tuo disegno è bello.|Il giardino è bello.|Il mare è bello.
+buono|Il gelato è buono.|Il pane è buono.|Sei un bambino buono.|Questo dolce è buono.|Il cane è buono.|Che buono!
+due|Ho due mani.|Vedo due gatti.|Luca ha due anni.|Due uccelli cantano.|Mangio due mele.|Siamo in due.
+tre|Ho tre matite.|Vedo tre anatre.|Anna ha tre anni.|Tre bambini giocano.|Conto fino a tre.|Ci sono tre barche.
+sì|Sì, grazie.|La mamma dice di sì.|Sì, è il mio cane.|Credo di sì.|Sì, vengo.|Oh sì!
+no|No, grazie.|Papà dice di no.|No, non è mio.|Credo di no.|Il cane dice no.|Oh no!
+ciao|Ciao, mamma!|Ciao a tutti.|Dico ciao alla maestra.|Ciao, come stai?|Il bimbo fa ciao.|Ciao, Luca!
+grazie|Grazie, mamma.|Grazie mille.|Grazie per il regalo.|Dico grazie.|No, grazie.|Grazie per l'aiuto.
+là|Il cane è là.|Guarda là!|Metti la palla là.|Chi c'è là?|La mamma è là.|Il gatto dorme là.
+ora|Ora tocca a me.|Vieni ora.|Ora piove.|Andiamo ora.|Ora sono felice.|Ora leggiamo una storia.
+dopo|Gioco dopo la scuola.|Dopo pranzo dormo.|Arrivo dopo di te.|Ci vediamo dopo.|Il cane mangia dopo il gatto.|Leggo dopo cena.
+prima|Lavo le mani prima di mangiare.|Prima leggo.|Arrivo prima di te.|Prima tocca a te.|Leggo prima di dormire.|Chi arriva prima?
+già|È già tardi.|Sei già qui?|So già leggere.|Il bus è già partito.|Già finito?|Ho già mangiato.
+ancora|Ancora una volta!|Voglio ancora latte.|Piove ancora.|Sei ancora qui?|Leggi ancora, papà.|Il bimbo dorme ancora.
+tanto|Ti voglio tanto bene.|Piove tanto.|Mangio tanto.|Grazie tanto!|Gioco tanto.|Rido tanto.
+questa|Questa è la mia casa.|Mi piace questa storia.|Questa mela è rossa.|Di chi è questa borsa?|Questa è la mia mamma.|Guarda questa farfalla!
+quello|Quello è il mio cane.|Voglio quello.|Chi è quello?|Guarda quello!|Quello è il mio posto.|Mi piace quello rosso.
+perché|Perché piove?|Rido perché gioco.|Perché sei triste?|Mangio perché ho fame.|Perché no?|Dormo perché sono stanco.

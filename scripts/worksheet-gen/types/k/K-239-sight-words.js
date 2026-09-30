@@ -9,6 +9,8 @@
 'use strict';
 const { strokeWordLane, writingRow } = require('../../primitives/trace-path.js');
 const { SIGHT_WORDS } = require('../../data/literacy/sight-words.js');
+// Level Set 2026-09-30: new copies walk the full ~100-word K-1 list (published 24 first, then the appended words)
+const levelSetWords = (loc) => require('../../lib/sight-words-levelset.js').words(loc);
 
 module.exports = {
   id: 'K-239',
@@ -49,6 +51,13 @@ module.exports = {
         throw new Error(`K-239: locale ${loc} pool ${list.length} words < set ${d.slice} window end ${start + d.words}`);
       }
       words = list.slice(start, start + d.words);
+    } else if (ctx && ctx.seedVariant && ((ctx.variant || 1) > 1)) {
+      // Level Set copy: word set N of the full list (N = seedVariant). A set past the end throws (the wave stops);
+      // the last set takes the list's final words so every word is on a page.
+      const all = levelSetWords(loc);
+      const start = (ctx.seedVariant - 1) * d.words;
+      if (start >= all.length) throw new Error(`K-239: set ${ctx.seedVariant} starts past the ${all.length}-word list`);
+      words = all.slice(Math.min(start, all.length - d.words), Math.min(start, all.length - d.words) + d.words);
     } else {
       // base page samples the ORIGINAL 12-word core — frozen so growing the
       // pool for the set pages never changes the published base deck's draw
@@ -59,9 +68,11 @@ module.exports = {
       const lane = strokeWordLane({ text: word, w: laneW, h: d.traceH, glyphH: d.glyphH, reps: d.reps });
       // xHeight: rule the empty row exactly like the trace lane above it
       const wr = writingRow({ w: laneW, h: d.writeH, glyphH: d.glyphH, xHeight: true });
+      // Level Set level 3 of the set faces: a second empty row to write the word alone (default 1 = published output)
+      const rows = Array.from({ length: d.writeRows || 1 }, () => wr.svg).join('');
       return (
         `<div class="ws-trace-lane" style="display:flex;flex-direction:column;align-items:center;gap:2px" data-lcs-word="${word}">` +
-        lane.svg + wr.svg + `</div>`
+        lane.svg + rows + `</div>`
       );
     });
     return {

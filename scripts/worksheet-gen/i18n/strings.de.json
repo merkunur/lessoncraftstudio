@@ -3010,5 +3010,25 @@
   "G1-411": {
     "title": "Lesen und Malen: Stopp bei der Zahl",
     "instruction": "Es sind mehr Bilder da, als der Satz verlangt. Lies die Zahl und male nur so viele an. Dann hörst du auf."
+  },
+  "K-388": {
+    "title": "Wort des Tages: {UNIT}",
+    "instruction": "Lies das Wort. Spure es nach, schreibe es und setze es in Sätze ein."
+  },
+  "K-389": {
+    "title": "Häufige Wörter in Sätzen: {UNIT}",
+    "instruction": "Lies jeden Satz. Schreibe das Wort „{UNIT}“ auf die Linie."
+  },
+  "K-390": {
+    "title": "Ein Satz mit {UNIT}",
+    "instruction": "Arbeite Schritt für Schritt mit einem Satz."
+  },
+  "K-391": {
+    "title": "Sätze nachspuren: {UNIT}",
+    "instruction": "Spure jeden Satz nach. Schreibe ihn dann auf die Linie darunter."
+  },
+  "K-392": {
+    "title": "Finde das Wort: {UNIT}",
+    "instruction": "Male jedes Kästchen mit dem Wort „{UNIT}“ an. Zähle sie und schreibe die Zahl auf."
   }
 }

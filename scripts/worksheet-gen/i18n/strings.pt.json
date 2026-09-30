@@ -2998,5 +2998,25 @@
   "G1-411": {
     "title": "Leia e pinte: pare no número",
     "instruction": "Há mais figuras do que a frase pede. Leia o número e pinte só essa quantidade."
+  },
+  "K-388": {
+    "title": "Palavra do dia: {UNIT}",
+    "instruction": "Leia a palavra. Cubra o pontilhado, escreva e use a palavra em frases."
+  },
+  "K-389": {
+    "title": "Palavras frequentes em frases: {UNIT}",
+    "instruction": "Leia cada frase. Escreva a palavra “{UNIT}” na linha."
+  },
+  "K-390": {
+    "title": "Uma frase com {UNIT}",
+    "instruction": "Trabalhe uma frase, passo a passo."
+  },
+  "K-391": {
+    "title": "Cubra as frases: {UNIT}",
+    "instruction": "Cubra o pontilhado de cada frase. Depois escreva a frase na linha de baixo."
+  },
+  "K-392": {
+    "title": "Encontre a palavra: {UNIT}",
+    "instruction": "Pinte cada quadrinho com a palavra “{UNIT}”. Conte e escreva o número."
   }
 }

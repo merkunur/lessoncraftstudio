@@ -1,0 +1,8055 @@
+{
+  "id": "wave-swl-de",
+  "_note": "Level Set 2026-09-30: Sight Words. The locale's own K-1 high-frequency list grows from 24 to ~100 words (native-reviewed), each with six sentences. Five NEW one-word pages per word: Sight Word of the Day (read, trace, write, use in sentences), Sight Word in Sentences (fill the word in), One Sentence Step by Step (read, complete, trace, circle, write), Trace the Sentences, Find the Sight Word (colour and count). Levels: easier = fewer, shorter sentences and the word traced in the gap; harder = more and longer sentences, capital-letter gaps, look-alike words. Read-Trace-Write sets cover the whole list. Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "de"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-239",
+    "K-259",
+    "K-260",
+    "K-261",
+    "K-262",
+    "K-263",
+    "K-388",
+    "K-389",
+    "K-390",
+    "K-391",
+    "K-392"
+  ],
+  "levels": {
+    "K-239": {
+      "1": [
+        {
+          "copy": 27,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 29,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 30,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 31,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 32,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 33,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 34,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 35,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 36,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 37,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 38,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 39,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 40,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 41,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 42,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 43,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 44,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 45,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 46,
+          "unit": null,
+          "seedVariant": 20
+        },
+        {
+          "copy": 47,
+          "unit": null,
+          "seedVariant": 21
+        },
+        {
+          "copy": 48,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 49,
+          "unit": null,
+          "seedVariant": 23
+        },
+        {
+          "copy": 50,
+          "unit": null,
+          "seedVariant": 24
+        },
+        {
+          "copy": 51,
+          "unit": null,
+          "seedVariant": 25
+        },
+        {
+          "copy": 52,
+          "unit": null,
+          "seedVariant": 26
+        },
+        {
+          "copy": 53,
+          "unit": null,
+          "seedVariant": 27
+        },
+        {
+          "copy": 54,
+          "unit": null,
+          "seedVariant": 28
+        },
+        {
+          "copy": 55,
+          "unit": null,
+          "seedVariant": 29
+        },
+        {
+          "copy": 56,
+          "unit": null,
+          "seedVariant": 30
+        },
+        {
+          "copy": 57,
+          "unit": null,
+          "seedVariant": 31
+        },
+        {
+          "copy": 58,
+          "unit": null,
+          "seedVariant": 32
+        },
+        {
+          "copy": 59,
+          "unit": null,
+          "seedVariant": 33
+        },
+        {
+          "copy": 60,
+          "unit": null,
+          "seedVariant": 34
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 17,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 18,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 19,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 20,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 21,
+          "unit": null,
+          "seedVariant": 20
+        },
+        {
+          "copy": 22,
+          "unit": null,
+          "seedVariant": 21
+        },
+        {
+          "copy": 23,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 24,
+          "unit": null,
+          "seedVariant": 23
+        },
+        {
+          "copy": 25,
+          "unit": null,
+          "seedVariant": 24
+        },
+        {
+          "copy": 26,
+          "unit": null,
+          "seedVariant": 25
+        }
+      ],
+      "3": [
+        {
+          "copy": 61,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 63,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 64,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 65,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 66,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 67,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 68,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 69,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 70,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 71,
+          "unit": null,
+          "seedVariant": 11
+        },
+        {
+          "copy": 72,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 73,
+          "unit": null,
+          "seedVariant": 13
+        },
+        {
+          "copy": 74,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 75,
+          "unit": null,
+          "seedVariant": 15
+        },
+        {
+          "copy": 76,
+          "unit": null,
+          "seedVariant": 16
+        },
+        {
+          "copy": 77,
+          "unit": null,
+          "seedVariant": 17
+        },
+        {
+          "copy": 78,
+          "unit": null,
+          "seedVariant": 18
+        },
+        {
+          "copy": 79,
+          "unit": null,
+          "seedVariant": 19
+        },
+        {
+          "copy": 80,
+          "unit": null,
+          "seedVariant": 20
+        }
+      ]
+    },
+    "K-259": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-260": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-261": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-262": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-263": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-388": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-389": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-390": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-391": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-392": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 69,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 102,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 103,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 104,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 105,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 106,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 107,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 108,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 109,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 110,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 111,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 112,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 113,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 114,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 115,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 116,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 117,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 118,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 119,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 120,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 121,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 122,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 123,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 124,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 125,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 126,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 127,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 128,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 129,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 130,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 131,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 132,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 133,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 134,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 135,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 136,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 137,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 138,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 139,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 140,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 141,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 142,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 143,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 144,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 145,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 146,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 147,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 148,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 149,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 150,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 151,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 152,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 153,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 154,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 155,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 156,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 157,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 158,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 159,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 160,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 161,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 162,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 163,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 164,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 165,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 166,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 167,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 168,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 169,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 170,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 171,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 172,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 173,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 174,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 175,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 176,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 177,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 178,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 179,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 180,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 181,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 182,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 183,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 184,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 185,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 186,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 187,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 188,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 189,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 190,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 191,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 192,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 193,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 194,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 195,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 196,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 197,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 198,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 199,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 200,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 201,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 202,
+          "unit": "und",
+          "seedVariant": 1
+        },
+        {
+          "copy": 203,
+          "unit": "der",
+          "seedVariant": 1
+        },
+        {
+          "copy": 204,
+          "unit": "die",
+          "seedVariant": 1
+        },
+        {
+          "copy": 205,
+          "unit": "das",
+          "seedVariant": 1
+        },
+        {
+          "copy": 206,
+          "unit": "ich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 207,
+          "unit": "ist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 208,
+          "unit": "wir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 209,
+          "unit": "sie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 210,
+          "unit": "mit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 211,
+          "unit": "auf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 212,
+          "unit": "auch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 213,
+          "unit": "haben",
+          "seedVariant": 1
+        },
+        {
+          "copy": 214,
+          "unit": "du",
+          "seedVariant": 1
+        },
+        {
+          "copy": 215,
+          "unit": "er",
+          "seedVariant": 1
+        },
+        {
+          "copy": 216,
+          "unit": "es",
+          "seedVariant": 1
+        },
+        {
+          "copy": 217,
+          "unit": "in",
+          "seedVariant": 1
+        },
+        {
+          "copy": 218,
+          "unit": "ein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 219,
+          "unit": "eine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 220,
+          "unit": "nicht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 221,
+          "unit": "kann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 222,
+          "unit": "hat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 223,
+          "unit": "sind",
+          "seedVariant": 1
+        },
+        {
+          "copy": 224,
+          "unit": "aber",
+          "seedVariant": 1
+        },
+        {
+          "copy": 225,
+          "unit": "alle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 226,
+          "unit": "den",
+          "seedVariant": 1
+        },
+        {
+          "copy": 227,
+          "unit": "dem",
+          "seedVariant": 1
+        },
+        {
+          "copy": 228,
+          "unit": "im",
+          "seedVariant": 1
+        },
+        {
+          "copy": 229,
+          "unit": "am",
+          "seedVariant": 1
+        },
+        {
+          "copy": 230,
+          "unit": "zu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 231,
+          "unit": "von",
+          "seedVariant": 1
+        },
+        {
+          "copy": 232,
+          "unit": "an",
+          "seedVariant": 1
+        },
+        {
+          "copy": 233,
+          "unit": "so",
+          "seedVariant": 1
+        },
+        {
+          "copy": 234,
+          "unit": "wie",
+          "seedVariant": 1
+        },
+        {
+          "copy": 235,
+          "unit": "was",
+          "seedVariant": 1
+        },
+        {
+          "copy": 236,
+          "unit": "wo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 237,
+          "unit": "wer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 238,
+          "unit": "da",
+          "seedVariant": 1
+        },
+        {
+          "copy": 239,
+          "unit": "dann",
+          "seedVariant": 1
+        },
+        {
+          "copy": 240,
+          "unit": "jetzt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 241,
+          "unit": "noch",
+          "seedVariant": 1
+        },
+        {
+          "copy": 242,
+          "unit": "schon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 243,
+          "unit": "nur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 244,
+          "unit": "sehr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 245,
+          "unit": "hier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 246,
+          "unit": "dort",
+          "seedVariant": 1
+        },
+        {
+          "copy": 247,
+          "unit": "heute",
+          "seedVariant": 1
+        },
+        {
+          "copy": 248,
+          "unit": "gern",
+          "seedVariant": 1
+        },
+        {
+          "copy": 249,
+          "unit": "oder",
+          "seedVariant": 1
+        },
+        {
+          "copy": 250,
+          "unit": "weil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 251,
+          "unit": "wenn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 252,
+          "unit": "mein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 253,
+          "unit": "meine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 254,
+          "unit": "dein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 255,
+          "unit": "sein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 256,
+          "unit": "ihr",
+          "seedVariant": 1
+        },
+        {
+          "copy": 257,
+          "unit": "uns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 258,
+          "unit": "mich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 259,
+          "unit": "dich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 260,
+          "unit": "mir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 261,
+          "unit": "dir",
+          "seedVariant": 1
+        },
+        {
+          "copy": 262,
+          "unit": "ihm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 263,
+          "unit": "bin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 264,
+          "unit": "bist",
+          "seedVariant": 1
+        },
+        {
+          "copy": 265,
+          "unit": "war",
+          "seedVariant": 1
+        },
+        {
+          "copy": 266,
+          "unit": "will",
+          "seedVariant": 1
+        },
+        {
+          "copy": 267,
+          "unit": "muss",
+          "seedVariant": 1
+        },
+        {
+          "copy": 268,
+          "unit": "darf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 269,
+          "unit": "geht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 270,
+          "unit": "kommt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 271,
+          "unit": "sagt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 272,
+          "unit": "sieht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 273,
+          "unit": "spielt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 274,
+          "unit": "macht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 275,
+          "unit": "gibt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 276,
+          "unit": "nein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 277,
+          "unit": "ja",
+          "seedVariant": 1
+        },
+        {
+          "copy": 278,
+          "unit": "gut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 279,
+          "unit": "groß",
+          "seedVariant": 1
+        },
+        {
+          "copy": 280,
+          "unit": "klein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 281,
+          "unit": "viel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 282,
+          "unit": "neu",
+          "seedVariant": 1
+        },
+        {
+          "copy": 283,
+          "unit": "alt",
+          "seedVariant": 1
+        },
+        {
+          "copy": 284,
+          "unit": "schon2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 285,
+          "unit": "eins",
+          "seedVariant": 1
+        },
+        {
+          "copy": 286,
+          "unit": "zwei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 287,
+          "unit": "drei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 288,
+          "unit": "nach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 289,
+          "unit": "für",
+          "seedVariant": 1
+        },
+        {
+          "copy": 290,
+          "unit": "aus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 291,
+          "unit": "bei",
+          "seedVariant": 1
+        },
+        {
+          "copy": 292,
+          "unit": "vor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 293,
+          "unit": "unter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 294,
+          "unit": "um",
+          "seedVariant": 1
+        },
+        {
+          "copy": 295,
+          "unit": "oft",
+          "seedVariant": 1
+        },
+        {
+          "copy": 296,
+          "unit": "immer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 297,
+          "unit": "einen",
+          "seedVariant": 1
+        },
+        {
+          "copy": 298,
+          "unit": "kein",
+          "seedVariant": 1
+        },
+        {
+          "copy": 299,
+          "unit": "keine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 300,
+          "unit": "sich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 301,
+          "unit": "man",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

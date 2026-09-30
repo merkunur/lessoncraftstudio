@@ -2970,5 +2970,25 @@
   "G1-411": {
     "title": "Lue ja väritä: vain oikea määrä",
     "instruction": "Kuvia on enemmän kuin lause pyytää. Lue luku ja väritä vain niin monta kuvaa."
+  },
+  "K-388": {
+    "title": "Päivän sana: {UNIT}",
+    "instruction": "Lue sana. Jäljennä se, kirjoita se ja käytä sitä lauseissa."
+  },
+  "K-389": {
+    "title": "Tuttu sana lauseissa: {UNIT}",
+    "instruction": "Lue jokainen lause. Kirjoita sana ”{UNIT}” viivalle."
+  },
+  "K-390": {
+    "title": "Lause, jossa on sana {UNIT}",
+    "instruction": "Harjoittele yhtä lausetta vaihe vaiheelta."
+  },
+  "K-391": {
+    "title": "Jäljennä lauseet: {UNIT}",
+    "instruction": "Jäljennä jokainen lause. Kirjoita se sitten alla olevalle viivalle."
+  },
+  "K-392": {
+    "title": "Etsi sana: {UNIT}",
+    "instruction": "Väritä jokainen ruutu, jossa on sana ”{UNIT}”. Laske ne ja kirjoita luku."
   }
 }

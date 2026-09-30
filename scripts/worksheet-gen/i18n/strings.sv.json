@@ -2954,5 +2954,25 @@
   "G1-411": {
     "title": "Läs och måla: bara så många",
     "instruction": "Det finns fler bilder än meningen säger. Läs talet och måla bara så många."
+  },
+  "K-388": {
+    "title": "Dagens ord: {UNIT}",
+    "instruction": "Läs ordet. Spåra det, skriv det och använd det i meningar."
+  },
+  "K-389": {
+    "title": "Vanliga ord i meningar: {UNIT}",
+    "instruction": "Läs varje mening. Skriv ordet ”{UNIT}” på linjen."
+  },
+  "K-390": {
+    "title": "En mening med {UNIT}",
+    "instruction": "Arbeta med en mening, steg för steg."
+  },
+  "K-391": {
+    "title": "Spåra meningarna: {UNIT}",
+    "instruction": "Spåra varje mening. Skriv den sedan på linjen under."
+  },
+  "K-392": {
+    "title": "Hitta ordet: {UNIT}",
+    "instruction": "Färglägg varje ruta med ordet ”{UNIT}”. Räkna dem och skriv antalet."
   }
 }

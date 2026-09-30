@@ -1,0 +1,101 @@
+# Sight Words Level Set — fi. word|six sentences; the word exactly once, in exactly this form. Rows 1-24 = the published list.
+ja|Äiti ja isä ovat kotona.|Juoksen ja hyppään.|Kissa ja koira leikkivät.|Leipää ja maitoa, kiitos.|Aino ja Eeli nauravat.|Punainen ja sininen.
+on|Taivas on sininen.|Minulla on koira.|Missä on hattuni?|Keitto on kuumaa.|Tänään on maanantai.|Aino on iloinen.
+ei|Koira ei hauku.|Tänään ei sada.|Aino ei ole täällä.|Tämä ei ole minun.|Ei, kiitos.|Eeli ei ole väsynyt.
+se|Se on minun palloni.|Missä se on?|Se on iso.|Näen sen, se on tuolla.|Se on kissa.|Onko se sinun?
+minä|Minä olen viisivuotias.|Täällä minä olen!|Minä syön omenan.|Saanko minä tulla?|Tänään minä luen.|Minä rakastan äitiä.
+sinä|Sinä olet ystäväni.|Tuletko sinä mukaan?|Missä sinä asut?|Sinä piirrät hyvin.|Oletko sinä väsynyt?|Nyt sinä saat valita.
+hän|Hän on veljeni.|Hän juoksee nopeasti.|Missä hän on?|Hän lukee kirjaa.|Hän on minun ystäväni.|Hän syö omenaa.
+me|Me leikimme puistossa.|Tänään me leivomme.|Me olemme ystäviä.|Missä me olemme?|Me laulamme laulun.|Me menemme kouluun.
+tämä|Tämä on minun kissani.|Onko tämä sinun?|Tämä kirja on kiva.|Tämä on hyvä.|Tämä talo on iso.|Katso, tämä on uusi.
+mikä|Mikä tämä on?|Mikä sinun nimesi on?|Mikä päivä tänään on?|Mikä ihana päivä!|Mikä väri tämä on?|Mikä eläin tuo on?
+äiti|Äiti laulaa.|Hei, äiti!|Äiti tekee ruokaa.|Missä äiti on?|Äiti lukee sadun.|Äiti halaa minua.
+isä|Isä on pitkä.|Isä leikkii kanssani.|Hei, isä!|Missä isä on?|Isä ajaa autoa.|Isä lukee lehteä.
+mitä|Mitä sinä teet?|Mitä syömme tänään?|Mitä tuossa on?|Mitä kuuluu?|Mitä koira haluaa?|Tiedätkö, mitä näen?
+kuka|Kuka siellä on?|Kuka tuo on?|Kuka haluaa kakkua?|Kuka voi auttaa?|Kuka piirsi tämän?|Tiedän, kuka se on.
+oli|Se oli hauskaa.|Eilen oli kylmä.|Keitto oli kuumaa.|Kuka se oli?|Aino oli iloinen.|Päivä oli pitkä.
+niin|Olen niin iloinen.|Koira on niin iso.|On niin kylmä.|Koira juoksee niin nopeasti.|Sinä olet niin kiltti.|Sataa niin paljon.
+mutta|Haluan leikkiä, mutta sataa.|Hän on pieni, mutta vahva.|On kylmä, mutta kaunista.|Huudan, mutta kukaan ei tule.|Keitto on kuumaa, mutta hyvää.|Se on vanha, mutta kiva.
+myös|Haluan myös leikkiä.|Aino laulaa myös.|Koira on myös väsynyt.|Sinä olet myös ystäväni.|Me nauramme myös.|Äiti tulee myös.
+kyllä|Kyllä, kiitos.|Äiti sanoo kyllä.|Kyllä, minä tulen.|Kyllä, se on minun koirani.|Kyllä minä osaan.|Oi kyllä!
+sitten|Ensin syömme, sitten leikimme.|Mitä sitten?|Sitten menemme kotiin.|Sitten minä nukun.|Nähdään sitten!|Sitten isä tulee.
+täällä|Täällä on minun taloni.|Minä asun täällä.|Kissa nukkuu täällä.|Täällä minä olen!|Onko täällä tilaa?|Täällä on kylmä.
+koti|Koti on lämmin.|Koti on paras paikka.|Koti on täynnä iloa.|Pieni koti on kiva.|Koti on mäen päällä.|Uusi koti on valmis.
+koulu|Koulu alkaa huomenna.|Koulu on iso.|Koulu on kiva.|Missä koulu on?|Tuo talo on koulu.|Koulu loppuu kello yksi.
+kaveri|Eeli on hyvä kaveri.|Sinä olet paras kaveri.|Uusi kaveri tulee.|Kaveri soittaa ovikelloa.|Kaveri auttaa.|Kuka on uusi kaveri?
+te|Te olette kilttejä.|Missä te asutte?|Tuletteko te mukaan?|Te laulatte hyvin.|Oletteko te valmiita?|Te leikitte puistossa.
+he|He leikkivät ulkona.|He ovat ystäviäni.|Missä he ovat?|He syövät jäätelöä.|He laulavat kovaa.|He menevät kouluun.
+ne|Ne ovat minun kenkäni.|Missä ne ovat?|Ne ovat isoja.|Linnut lentävät, ne laulavat.|Ne ovat kissoja.|Ne nukkuvat.
+en|Minä en ole väsynyt.|En tiedä.|En halua nukkua.|En näe mitään.|Minä en pelkää.|En osaa uida vielä.
+et|Sinä et ole yksin.|Et saa juosta.|Miksi et tule?|Et saa huutaa.|Sinä et nuku vielä.|Et tiedä kaikkea.
+ovat|Lapset ovat puistossa.|Omenat ovat punaisia.|Missä kengät ovat?|Kissat ovat nälkäisiä.|He ovat ystäviä.|Kukat ovat kauniita.
+olen|Olen viisivuotias.|Olen iloinen.|Täällä olen!|Olen koulussa.|Olen väsynyt.|Olen sinun ystäväsi.
+olet|Sinä olet kiltti.|Missä olet?|Olet iso.|Olet minun ystäväni.|Olet hauska.|Olet täällä!
+olemme|Me olemme ystäviä.|Olemme kotona.|Olemme valmiita!|Missä olemme?|Olemme luokassa.|Olemme iloisia.
+tuo|Tuo on minun koirani.|Mikä tuo on?|Kuka tuo on?|Tuo talo on iso.|Katso, tuo lintu lentää.|Tuo pallo on punainen.
+nuo|Nuo ovat minun kenkäni.|Katso nuo linnut!|Nuo kukat ovat kauniita.|Kenen nuo ovat?|Nuo lapset leikkivät.|Nuo omenat ovat kypsiä.
+nämä|Nämä ovat minun kirjani.|Nämä kengät ovat uudet.|Kenen nämä ovat?|Nämä omenat ovat makeita.|Nämä ovat hyviä.|Katso, nämä ovat kiviä.
+siellä|Koulu on siellä.|Kuka siellä on?|Me leikimme siellä.|Mummo asuu siellä.|Mitä siellä on?|Siellä on kylmä.
+tänne|Tule tänne!|Pane pallo tänne.|Koira juoksee tänne.|Tuletko tänne?|Isä tulee tänne.|Laita kirja tänne.
+missä|Missä sinä olet?|Missä kissa on?|Missä asut?|Tiedätkö, missä Eeli on?|Missä kengät ovat?|Missä leikimme?
+miksi|Miksi sataa?|Miksi olet surullinen?|Miksi koira haukkuu?|Miksi taivas on sininen?|Miksi ei?|Miksi juokset?
+milloin|Milloin isä tulee?|Milloin syömme?|Milloin koulu alkaa?|Milloin on minun vuoro?|Milloin lähdemme?|Milloin sinulla on syntymäpäivä?
+kun|Nauran, kun leikin.|Nukun, kun on pimeää.|Soita, kun tulet.|Olen iloinen, kun tulet.|Kun sataa, luen.|Syömme, kun isä tulee.
+jos|Jos sataa, luen.|Tule, jos haluat.|Jos olet väsynyt, nuku.|Jos olet nälkäinen, syö.|Jos on kylmä, laita pipo.|Kerro, jos tarvitset apua.
+että|Tiedän, että olet siellä.|Äiti sanoo, että on myöhä.|Luulen, että sataa.|Näen, että olet iloinen.|Kiva, että tulit.|Tiedätkö, että kissa nukkuu?
+tai|Maitoa tai mehua?|Punainen tai sininen.|Tänään tai huomenna.|Kissa tai koira.|Luen tai piirrän.|Yksi tai kaksi.
+vai|Maitoa vai mehua?|Tuletko vai et?|Punainen vai sininen?|Kissa vai koira?|Nyt vai myöhemmin?|Leikitäänkö vai luetaanko?
+nyt|Nyt on minun vuoro.|Tule nyt!|Nyt sataa.|Mennään nyt.|Missä olet nyt?|Nyt on välitunti.
+vielä|Haluan leikkiä vielä.|Onko kakkua vielä?|Eeli nukkuu vielä.|Vielä kerran!|Olen vielä pieni.|Sataako vielä?
+jo|Osaan jo lukea.|Oletko jo hereillä?|On jo myöhä.|Eeli on jo kotona.|Olemme jo valmiita.|Bussi meni jo.
+aina|Kissa nukkuu aina.|Eeli on aina iloinen.|Syömme aina kello yksitoista.|Olet aina kiltti.|Täällä on aina hauskaa.|Rakastan sinua aina.
+paljon|Kiitos paljon!|Sataa paljon.|Minulla on paljon kavereita.|Eeli syö paljon.|Nauramme paljon.|Luen paljon.
+vähän|Vähän maitoa, kiitos.|Olen vähän väsynyt.|Odota vähän.|Sataa vähän.|Anna vähän lisää.|Koira pelkää vähän.
+iso|Norsu on iso.|Minä olen jo iso.|Talo on iso.|Koira on tosi iso.|Kuinka iso sinä olet?|Tuo on iso auto.
+pieni|Hiiri on pieni.|Olen vielä pieni.|Auto on pieni.|Pieni lintu laulaa.|Kissa on pieni.|Tämä huone on pieni.
+hyvä|Tämä leikki on hyvä.|Hyvä, Eeli!|Tämä kirja on hyvä.|Hyvä päivä!|Olet hyvä ystävä.|Hyvä idea!
+kiva|Tämä on kiva.|Kiva nähdä!|Sinä olet kiva.|Kiva leikki!|Kiva päivä!|Uusi pallo on kiva.
+kaunis|Kukka on kaunis.|Taivas on kaunis.|Mikä kaunis päivä!|Mekko on kaunis.|Metsä on kaunis.|Tämä piirros on kaunis.
+uusi|Pyöräni on uusi.|Kirja on uusi.|Onko hattu uusi?|Meillä on uusi auto.|Eeli on uusi oppilas.|Uusi päivä alkaa.
+punainen|Tomaatti on punainen.|Minulla on punainen pallo.|Pyörä on punainen.|Punainen auto ajaa.|Ruusu on punainen.|Punainen talo on tuolla.
+sininen|Taivas on sininen.|Minulla on sininen kynä.|Meri on sininen.|Takki on sininen.|Sininen lintu laulaa.|Kuppi on sininen.
+yksi|Minulla on yksi koira.|Yksi, kaksi, kolme!|Vain yksi keksi.|Yksi lintu laulaa.|Eeli on yksi ystävistäni.|Anna yksi minulle.
+kaksi|Minulla on kaksi kättä.|Kaksi lintua laulaa.|Meillä on kaksi kissaa.|Eeli on kaksi vuotta vanha.|Näen kaksi koiraa.|Kaksi omenaa, kiitos.
+kolme|Minulla on kolme kynää.|Kolme lasta leikkii.|Aino on kolme vuotta vanha.|Kolme on hyvä luku.|Kolme ankkaa ui.|Syömme kolme keksiä.
+kissa|Kissa nukkuu.|Kissa on musta.|Kissa syö kalaa.|Missä kissa on?|Kissa leikkii pallolla.|Pieni kissa naukuu.
+koira|Koira haukkuu.|Koira on ruskea.|Koira juoksee.|Missä koira on?|Iso koira nukkuu.|Koira syö luuta.
+talo|Talo on iso.|Talo on punainen.|Tuo talo on vanha.|Talo on mäellä.|Missä talo on?|Uusi talo on valmis.
+kirja|Kirja on uusi.|Missä kirja on?|Tämä kirja on hauska.|Kirja on pöydällä.|Punainen kirja on minun.|Kirja kertoo eläimistä.
+pallo|Pallo on punainen.|Missä pallo on?|Pallo lentää.|Koiran pallo on uusi.|Iso pallo pomppii.|Tämä pallo on minun.
+aurinko|Aurinko paistaa.|Aurinko on keltainen.|Aurinko nousee.|Missä aurinko on?|Aurinko on kuuma.|Aurinko laskee illalla.
+vesi|Vesi on kylmää.|Vesi on märkää.|Järven vesi on kylmää.|Onko vesi lämmintä?|Vesi virtaa.|Vesi on kirkasta.
+leipä|Leipä on lämmintä.|Leipä on pöydällä.|Tämä leipä on hyvää.|Missä leipä on?|Leipä on tuoretta.|Leipä on valmis.
+maito|Maito on valkoista.|Maito on kylmää.|Missä maito on?|Maito on jääkaapissa.|Onko maito loppu?|Maito on hyvää.
+tyttö|Tyttö laulaa.|Tyttö juoksee.|Pieni tyttö nauraa.|Tuo tyttö on ystäväni.|Tyttö lukee kirjaa.|Missä tyttö on?
+poika|Poika juoksee.|Poika syö omenaa.|Pieni poika nauraa.|Tuo poika on veljeni.|Poika pelaa palloa.|Missä poika on?
+lapsi|Lapsi nukkuu.|Lapsi leikkii.|Pieni lapsi nauraa.|Jokainen lapsi on tärkeä.|Lapsi syö puuroa.|Missä lapsi on?
+mummo|Mummo leipoo.|Mummo asuu maalla.|Hei, mummo!|Mummo lukee sadun.|Missä mummo on?|Mummo halaa minua.
+ukki|Ukki kalastaa.|Ukki asuu maalla.|Hei, ukki!|Ukki lukee lehteä.|Missä ukki on?|Ukki auttaa minua.
+ystävä|Sinä olet hyvä ystävä.|Ystävä auttaa.|Uusi ystävä tulee.|Paras ystävä on Eeli.|Ystävä halaa.|Hyvä ystävä kuuntelee.
+minun|Tämä on minun kissani.|Missä minun kynäni on?|Minun äitini laulaa.|Tuo on minun taloni.|Minun nimeni on Aino.|Minun pyöräni on uusi.
+sinun|Onko tämä sinun?|Mikä sinun nimesi on?|Sinun piirroksesi on kaunis.|Missä sinun kenkäsi ovat?|Sinun koirasi on iso.|Nyt on sinun vuorosi.
+hänen|Tämä on hänen koiransa.|Hänen nimensä on Eeli.|Hänen talonsa on iso.|Missä hänen kenkänsä ovat?|Hänen äitinsä laulaa.|Hänen kissansa nukkuu.
+meidän|Tämä on meidän talomme.|Meidän kissamme nukkuu.|Meidän opettajamme on kiltti.|Tule meidän luoksemme!|Meidän automme on sininen.|Meidän koulumme on iso.
+teidän|Onko tämä teidän koiranne?|Teidän talonne on kaunis.|Missä teidän autonne on?|Teidän kissanne nukkuu.|Kiitos teidän avustanne.|Teidän koulunne on iso.
+kiitos|Kiitos, äiti.|Kiitos paljon.|Kiitos lahjasta.|Sanon kiitos.|Ei, kiitos.|Kiitos avusta.
+hei|Hei, äiti!|Hei vain!|Eeli sanoo hei.|Hei, mitä kuuluu?|Koira sanoo hei.|Hei, Aino!
+moi|Moi, isä!|Moi, äiti!|Aino sanoo moi.|Moi, Eeli!|Moi, mitä kuuluu?|Sanon moi kaverille.
+anna|Anna pallo minulle.|Anna minulle kynä.|Anna koiralle luu.|Anna halaus!|Anna vähän lisää.|Anna minun yrittää.
+tule|Tule tänne!|Tule leikkimään.|Tule mukaan!|Tule kotiin.|Tule syömään.|Tule katsomaan!
+katso|Katso ylös!|Katso, lintu!|Katso tätä kuvaa.|Katso minua!|Katso, sataa.|Katso, kuu paistaa.
+leikkii|Aino leikkii ulkona.|Kissa leikkii langalla.|Kuka leikkii kanssani?|Eeli leikkii puistossa.|Koira leikkii paljon.|Isä leikkii kanssamme.
+syö|Koira syö luuta.|Aino syö omenaa.|Kuka syö leipää?|Kissa syö kalaa.|Eeli syö keittoa.|Lehmä syö heinää.
+juoksee|Koira juoksee nopeasti.|Eeli juoksee kouluun.|Kuka juoksee ensin?|Hevonen juoksee.|Kissa juoksee pois.|Aino juoksee ja hyppii.
+nukkuu|Kissa nukkuu.|Vauva nukkuu.|Kuka nukkuu täällä?|Karhu nukkuu talvella.|Koira nukkuu ulkona.|Eeli nukkuu sängyssä.
+menee|Eeli menee kouluun.|Bussi menee nopeasti.|Kuka menee ensin?|Äiti menee kauppaan.|Kissa menee nukkumaan.|Aika menee nopeasti.
+tulee|Bussi tulee.|Kuka tulee mukaan?|Mummo tulee tänään.|Koira tulee.|Eeli tulee myöhään.|Milloin isä tulee?
+sanoo|Äiti sanoo hei.|Mitä koira sanoo?|Eeli sanoo kiitos.|Aino sanoo kyllä.|Kuka sanoo niin?|Opettaja sanoo huomenta.
+näen|Näen linnun.|Näen sinut.|Näen kuun.|Näen sateenkaaren.|Näen äitini.|Näen kolme ankkaa.
+haluan|Haluan vettä.|Haluan leikkiä.|Haluan jäätelöä.|En halua nukkua, haluan lukea.|Haluan mennä puistoon.|Haluan uuden pallon.
+osaan|Osaan uida.|Osaan lukea.|Osaan laskea kymmeneen.|Minä osaan hypätä.|Osaan piirtää kissan.|Osaan jo ajaa pyörällä.
+voi|Voi ei!|Voi, kuinka kaunis!|Lintu voi lentää.|Kuka voi auttaa?|Eeli voi tulla.|Voi kiitos!

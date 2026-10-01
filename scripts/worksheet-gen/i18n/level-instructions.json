@@ -2134,5 +2134,35 @@
    "no": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa. To ord i snakkeboblen passer ikke i noen setning.",
    "fi": "Lue jokainen lause ja kirjoita ruutuun puhekuplasta se sana, joka sopii parhaiten sanan sanoi tilalle. Kaksi puhekuplan sanaa ei sovi mihinkään lauseeseen."
   }
+ },
+ "G2-334": {
+  "1": {
+   "de": "Lies jedes Fürwort links. Verbinde es mit der passenden Verbform rechts, eine Linie für jedes Wort. Ergänze dann den Satz.",
+   "es": "Lee cada pronombre. Traza una línea hasta la forma del verbo que le corresponde. Luego completa la oración.",
+   "fr": "Lis le verbe du tableau. Relie chaque pronom à la forme du verbe qui va avec lui. Puis complète la phrase.",
+   "it": "Leggi il verbo della tabella. Collega con una linea ogni pronome alla forma giusta del verbo. Poi completa la frase.",
+   "pt": "Leia cada pronome da esquerda. Ligue à forma do verbo que combina com ele, uma linha para cada pronome. Depois complete a frase.",
+   "fi": "Lue vasemmalta persoonapronomini. Piirrä viiva siihen verbimuotoon, joka kuuluu sille. Täydennä sitten lause.",
+   "en": "Read each verb on the left. Draw a line to its yesterday form on the right — one line for each verb.",
+   "nl": "Lees het werkwoord boven elk blok. Trek van ik, jij en wij een lijn naar de vorm rechts die erbij hoort.",
+   "sv": "Läs varje verb till vänster. Dra ett streck till dess dåtidsform, den som säger vad som hände i går, ett streck för varje verb.",
+   "da": "Læs hvert udsagnsord til venstre. Tegn en streg til dets datid til højre, én streg til hvert ord.",
+   "no": "Les hvert verb til venstre. Tegn en strek til formen for i går til høyre, én strek for hvert verb."
+  }
+ },
+ "G2-337": {
+  "1": {
+   "en": "Read the sentence. Two forms of the verb are printed under it. Circle the one that fits.",
+   "de": "Lies den Satz. Darunter stehen zwei Formen des Verbs. Kreise die Form ein, die passt.",
+   "es": "Lee la oración. Debajo hay dos formas del mismo verbo. Encierra en un círculo la que completa la oración.",
+   "fr": "Lis la phrase. Deux formes du verbe sont écrites en dessous. Entoure celle qui convient.",
+   "it": "Leggi la frase. Sotto ci sono due forme del verbo: cerchia quella giusta.",
+   "pt": "Leia a frase. Embaixo há duas formas do mesmo verbo. Circule a que completa a frase.",
+   "nl": "Lees de zin. Onder de zin staan twee vormen van het werkwoord. Omcirkel de vorm die past.",
+   "sv": "Läs meningen. Två former av verbet står under den. Ringa in den som passar.",
+   "da": "Læs sætningen. To former af udsagnsordet står under den. Sæt ring om den, der passer.",
+   "no": "Les setningen. Under står to former av verbet. Sett ring rundt den som passer.",
+   "fi": "Lue lause. Sen alla on kaksi saman verbin muotoa. Ympyröi se muoto, joka sopii lauseeseen."
+  }
  }
 }

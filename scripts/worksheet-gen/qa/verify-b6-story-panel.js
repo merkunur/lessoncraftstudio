@@ -32,6 +32,14 @@
  *   PE1  a coral fill inside the set layer         PE2 a <text> inside a panel
  *   PG   w = 99
  * SHEETS: out/dev/K-379-story-panels-{colour,grey}-w{100,240}.png (every story, every panel).
+ *
+ * THE DRAWN STORIES (primitives/story-art.js, 2026-10-01 — the operator asked for clear, child-friendly, attractive
+ * pictures): a story with art keeps (a) (b) (c) (f) (g) and (e)'s no-<text>, measured the same way; what changed is the
+ * LOOK, so the look rules are the art's own: every colour from the story palette (story-art PAL; #000000 only as a
+ * translucent shadow), and the brand rules for the old flat drawings (set strokes 1.5 px only, a teal prop outline,
+ * no coral in the set) are not applied to it. The children's faces are drawn by story-art face() — one expression, no
+ * parameter for another — so a story can never be about a feeling. (f) maps pixels through the card's own window
+ * (the art zooms) and bounds the change by the story's action box (art.bbox()).
  */
 'use strict';
 const path = require('path');
@@ -40,6 +48,9 @@ const url = require('url');
 const tokens = require('../primitives/_tokens.js');
 const SP = require('../primitives/story-panel.js');
 const { COMMON } = require('../data/b6/story-sequencing.js');
+const ART = require('../primitives/story-art.js');
+const ART_PALETTE = new Set([...Object.values(ART.PAL).map((c) => String(c).toUpperCase()), '#FFFFFF', '#000000', tokens.color.teal.toUpperCase()]);   // teal = the card frame
+const artFor = (s) => SP.artOf(s);
 
 const OUT = path.join(__dirname, '..', 'out', 'dev');
 const WIDTHS = [100, 144, 240];
@@ -92,6 +103,14 @@ function checkPanel(svg, w, storyObj) {
   for (const v of Object.keys(drawn)) if (!(v in p.irr)) f.push(`${tag}: drawn undeclared variable ${v}`);
   // (e)
   if (/<text[\s>]/.test(svg)) f.push(`${tag}: a <text> element`);
+  if (artFor(s)) {
+    for (const m of svg.matchAll(/(?:fill|stroke)="(#[0-9A-Fa-f]{6})"/g)) if (!ART_PALETTE.has(m[1].toUpperCase())) f.push(`${tag}: off-palette ${m[1]} (story palette)`);
+    for (const m of svg.matchAll(/<[^>]*fill="#000000"[^>]*>/g)) if (!/opacity="0\.\d+"/.test(m[0])) f.push(`${tag}: an opaque black fill (black is a shadow only)`);
+    const frame = /<rect[^>]*data-lcs-frame="1"[^>]*>/.exec(svg);
+    const pxw = (u) => Math.round(u * w / (+attrOf(svg, 'viewBox').split(' ')[2]) * 100) / 100;
+    if (!frame || Math.abs(pxw(+attrOf(frame[0], 'stroke-width')) - 2) > 0.02) f.push(`${tag}: the frame is not 2 px`);
+    return f;
+  }
   for (const m of set.matchAll(/(?:fill|stroke)="(#[0-9A-Fa-f]{6})"/g)) if (HOT.includes(m[1].toUpperCase())) f.push(`${tag}: ${m[1]} inside the set layer`);
   for (const m of svg.matchAll(/(?:fill|stroke)="(#[0-9A-Fa-f]{6})"/g)) if (!PALETTE.has(m[1].toUpperCase())) f.push(`${tag}: off-palette ${m[1]}`);
   // (d) stroke px = attr * w / 160
@@ -133,7 +152,7 @@ async function renderMeasure(page, items) {
     const res = {};
     for (const box of document.querySelectorAll('[data-key]')) {
       const svg = box.querySelector('svg');
-      const irr = [...svg.querySelectorAll('[data-irr]')].map((e) => { const r = e.getBoundingClientRect(); return { v: e.getAttribute('data-irr'), min: Math.min(r.width, r.height) }; });
+      const irr = [...svg.querySelectorAll('[data-irr]')].filter((e) => e.childElementCount || e.tagName.toLowerCase() !== 'g').map((e) => { const r = e.getBoundingClientRect(); return { v: e.getAttribute('data-irr'), min: Math.min(r.width, r.height) }; });
       // raster the standalone svg at its own size and take Rec. 601 luma per pixel
       const w = +svg.getAttribute('width'), h = +svg.getAttribute('height');
       const img = new Image();
@@ -150,11 +169,13 @@ async function renderMeasure(page, items) {
   });
 }
 /** (f) on one pair: returns a finding or null. */
-function greyPair(s, a, b, A, B, w) {
+function greyPair(s, a, b, A, B, w, win) {
   if (!A || !B || A.luma.length !== B.luma.length) return `${s.id} ${a}->${b}: raster missing`;
-  const W = A.W, H = A.H, sc = W / SP.VIEW_W;
-  const ba = propBox(s, a), bb = propBox(s, b), pad = 4;
-  const x0 = (Math.min(ba.x0, bb.x0) - pad) * sc, y0 = (Math.min(ba.y0, bb.y0) - pad) * sc, x1 = (Math.max(ba.x1, bb.x1) + pad) * sc, y1 = (Math.max(ba.y1, bb.y1) + pad) * sc;
+  const W = A.W, H = A.H;
+  const art = artFor(s);
+  const ba = art ? (([x0, y0, x1, y1]) => ({ x0, y0, x1, y1 }))(art.bbox()) : propBox(s, a), bb = art ? ba : propBox(s, b), pad = 4;
+  const wv = win || { x0: 0, y0: 0, w: SP.VIEW_W }, sc = W / wv.w;
+  const x0 = (Math.min(ba.x0, bb.x0) - pad - wv.x0) * sc, y0 = (Math.min(ba.y0, bb.y0) - pad - wv.y0) * sc, x1 = (Math.max(ba.x1, bb.x1) + pad - wv.x0) * sc, y1 = (Math.max(ba.y1, bb.y1) + pad - wv.y0) * sc;
   let diff = 0, outside = 0;
   for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
     const i = y * W + x;
@@ -191,7 +212,7 @@ async function main() {
     }
   }
   // the ZOOMED page cards (lead review 2026-09-23): the base d1 / d2 / d3 geometry, frame:false as the page draws them
-  for (const [w, vh] of [[200, 150], [153, 198], [120, 208]]) for (const st of COMMON.stories) {
+  for (const [w, vh] of [[200, 150], [153, 198], [146, 120], [100, 198]]) for (const st of COMMON.stories) {
     const sets = new Set(); let win = null;
     for (const p of st.panels) {
       const r = SP.storyPanel({ story: st.id, rank: p.rank, w, vh, frame: false });
@@ -214,7 +235,7 @@ async function main() {
   {
     // PR4: drop one bite group from apple #3
     const good = svgOf('apple', 3);
-    const bad = good.replace(/<g data-irr="bite">(?:(?!<g data-irr=).)*?<\/g><\/g>/s, '');
+    const bad = good.replace(/<[a-z]+[^>]*data-irr="bite"[^>]*\/>|<g data-irr="bite"[^>]*>(?:(?!<g data-irr=).)*?<\/g>/s, '');
     judge('PR4 a bite count that differs from irr', bad === good ? ['POISON DID NOT APPLY'] : checkPanel(bad, 144), /drawn bite 2 ≠ irr 3/);
   }
   {
@@ -224,8 +245,10 @@ async function main() {
     judge('PR10 swapped rank stamps', [...checkPanel(s2, 144), ...checkPanel(s3, 144)], /drawn bite \d ≠ irr/);
   }
   {
-    const bad = svgOf('fence', 2).replace('<g data-lcs-set="1">', `<g data-lcs-set="1"><rect x="0" y="0" width="10" height="10" fill="${tokens.color.coral}"/>`);
-    judge('PE1 coral inside the set', checkPanel(bad, 144), /inside the set layer/);
+    const bad = svgOf('fence', 2).replace('<g data-lcs-set="1">', '<g data-lcs-set="1"><rect x="0" y="0" width="10" height="10" fill="#13A8FE"/>');
+    judge('PE1 a colour outside the story palette', checkPanel(bad, 144), /off-palette #13A8FE/);
+    const bad3 = svgOf('apple', 2).replace(/(<ellipse[^>]*fill="#000000")([^>]*?) opacity="[0-9.]+"/, '$1$2');
+    judge('PE3 an opaque black fill (black is a shadow only)', bad3 === svgOf('apple', 2) ? ['POISON DID NOT APPLY'] : checkPanel(bad3, 144), /opaque black/);
     const bad2 = svgOf('fence', 2).replace('<g data-lcs-prop="1"', '<text x="4" y="10">1</text><g data-lcs-prop="1"');
     judge('PE2 a <text> in a panel', checkPanel(bad2, 144), /<text>/);
   }
@@ -251,7 +274,7 @@ async function main() {
           for (const e of r.irr) { minC = Math.min(minC, e.min); ok(e.min >= 5, `${s.id}#${p.rank}@100: a ${e.v} carrier renders ${e.min.toFixed(2)} px (< 5)`); }
         }
         for (const [a, b] of shippedPairs(s)) {
-          const finding = greyPair(s, a, b, m[`${s.id}#${a}@144`], m[`${s.id}#${b}@144`], 144);
+          const finding = greyPair(s, a, b, m[`${s.id}#${a}@144`], m[`${s.id}#${b}@144`], 144, SP.storyPanel({ story: s.id, rank: a, w: 144 }).window);
           ok(!finding, finding);
           const A = m[`${s.id}#${a}@144`], B = m[`${s.id}#${b}@144`];
           let diff = 0; for (let i = 0; i < A.luma.length; i++) if (Math.abs(A.luma[i] - B.luma[i]) >= 48) diff++;
@@ -261,15 +284,14 @@ async function main() {
       console.log(`render: smallest carrier at w 100 = ${minC.toFixed(2)} px; smallest shipped-pair greyscale change at 144 = ${(minFrac * 100).toFixed(2)} % of the panel`);
       // PR5: identical props on two consecutive panels
       {
-        const s = JSON.parse(JSON.stringify(COMMON.stories.find((x) => x.id === 'fence')));
-        s.panels[1].prop = s.panels[0].prop;
-        const mm = await renderMeasure(page, [{ key: 'a', svg: SP.storyPanel({ story: s, rank: 1, w: 144 }).svg }, { key: 'b', svg: SP.storyPanel({ story: s, rank: 2, w: 144 }).svg }]);
-        const finding = greyPair(s, 1, 2, mm.a, mm.b, 144);
+        const s = COMMON.stories.find((x) => x.id === 'fence');
+        const r1 = SP.storyPanel({ story: 'fence', rank: 1, w: 144 });
+        const mm = await renderMeasure(page, [{ key: 'a', svg: r1.svg }, { key: 'b', svg: r1.svg.replace(/data-lcs-rank="1"/g, 'data-lcs-rank="2"') }]);
+        const finding = greyPair(s, 1, 2, mm.a, mm.b, 144, r1.window);
         judge('PR5 identical props (greyscale diff 0)', finding ? [finding] : [], /differ by >= 48 luma/);
-        const t = JSON.parse(JSON.stringify(COMMON.stories.find((x) => x.id === 'fence')));
-        t.panels[1].prop = [...t.panels[0].prop, { k: 'rect', x: 150, y: 40, w: 3, h: 3, fill: 'ink' }];
-        const m2 = await renderMeasure(page, [{ key: 'a', svg: SP.storyPanel({ story: t, rank: 1, w: 144 }).svg }, { key: 'b', svg: SP.storyPanel({ story: t, rank: 2, w: 144 }).svg }]);
-        const f2 = greyPair(t, 1, 2, m2.a, m2.b, 144);
+        const dot = r1.svg.replace('</svg>', `<rect x="${r1.window.x0 + r1.window.w / 2}" y="${r1.window.y0 + r1.window.h / 2}" width="3" height="3" fill="#2E3B4E"/></svg>`);
+        const m2 = await renderMeasure(page, [{ key: 'a', svg: r1.svg }, { key: 'b', svg: dot }]);
+        const f2 = dot === r1.svg ? 'POISON DID NOT APPLY' : greyPair(s, 1, 2, m2.a, m2.b, 144, r1.window);
         judge('PR5b a change nobody can point at (one 3 x 3 dot)', f2 ? [f2] : [], /differ by >= 48 luma/);
       }
       if (!noSheet) {
@@ -287,7 +309,7 @@ async function main() {
     } finally { await browser.close(); }
   }
   console.log('poison:\n' + plog.join('\n'));
-  const total = noRender ? 5 : 7;
+  const total = noRender ? 6 : 8;
   if (fails.length) console.log('FAILS:\n  ' + fails.slice(0, 40).join('\n  '));
   const pass = !fails.length && killed === total;
   console.log(pass ? `PASS (${assertions} assertions, ${killed}/${total} poisons killed)` : `FAIL (${fails.length} findings, ${killed}/${total} poisons killed)`);

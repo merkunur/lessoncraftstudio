@@ -55,10 +55,10 @@ function ssCord({ w, pegXs = [] }) {
   return svgRoot({ width: w, height: PEG_BOTTOM + 3, label: '' }, P.join(''), { 'aria-hidden': 'true', 'data-lcs-cord': '1', style: 'position:absolute;left:0;top:0;z-index:2;overflow:visible' });
 }
 
-function ssTag({ w, h, slot }) {
+function ssTag({ w, h, slot, key = null }) {
   const eyelet = svgRoot({ width: 12, height: 12, label: '' }, el('circle', { cx: 6, cy: 6, r: 4.5, fill: T.white, stroke: T.teal, 'stroke-width': 1.5 }), { 'aria-hidden': 'true', style: `position:absolute;left:${fmt(w / 2 - 6)}px;top:-6px` });
   return `<span class="ss-tag" style="position:relative;display:block;width:${w}px;height:${h}px">` +
-    blankNumeralBox({ w, h, answer: '', attrs: `data-lcs-slot="${slot}"` }).replace(/style="width:[^"]*"/, `style="display:block;box-sizing:border-box;width:${w}px;height:${h}px;border-width:3px"`) + eyelet + '</span>';
+    blankNumeralBox({ w, h, answer: '', attrs: `data-lcs-slot="${slot}"` }).replace(/style="width:[^"]*"/, `style="display:block;box-sizing:border-box;width:${w}px;height:${h}px;border-width:3px"`) + (key != null ? `<span data-lcs-keynum style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:700;font-size:40px;line-height:1;color:#F2784B">${esc(String(key))}</span>` : '') + eyelet + '</span>';
 }
 
 /**
@@ -84,7 +84,7 @@ function ssHungRow({ cards, w, gap, under = 'tag', stringH = 16, grow = 50, stam
       `<div class="ss-card" data-lcs-card data-lcs-seq="${c.seq}" data-lcs-slot="${j}" style="flex:1 1 auto;width:100%;min-height:${fmt(c.h)}px;display:flex;flex-direction:column;justify-content:${c.anchor === 'center' ? 'center' : 'flex-end'};position:relative;border-radius:10px;overflow:hidden;background:${c.sky || T.white}">` +
       `<div style="flex:0 0 auto;line-height:0">${c.svg}</div><div class="ss-frame" aria-hidden="true" style="position:absolute;inset:0;border:2px solid ${T.teal};border-radius:10px;pointer-events:none"></div></div>` +
       `<div class="ss-string" aria-hidden="true" style="flex:0 0 ${stringH}px;width:2px;background:${T.teal}"></div>` +
-      `<div class="ss-under" style="flex:0 0 auto">${ssTag({ w: c.tag.w, h: c.tag.h, slot: j })}</div></div>`;
+      `<div class="ss-under" style="flex:0 0 auto">${ssTag({ w: c.tag.w, h: c.tag.h, slot: j, key: c.tag.key == null ? null : c.tag.key })}</div></div>`;
   });
   const attrs = Object.entries(stamps).map(([k, v]) => ` data-lcs-${k}="${esc(v)}"`).join('');
   return `<div class="ss-row" data-lcs-story-row${attrs} style="position:relative;flex:1 1 ${fmt(H)}px;min-height:${fmt(H)}px;max-height:${fmt(H + grow)}px;width:${w}px;box-sizing:border-box;padding-top:${CORD_H}px;display:flex;gap:${fmt(gap)}px;justify-content:center">` +
@@ -139,13 +139,14 @@ function ssLine({ items, w = 639, gap, minH, grow = 60, stamps = {}, string = tr
 function ssMarker({ kind, px = 16 }) {
   const g = kind === 'dot' ? el('circle', { cx: 8, cy: 8, r: 6.5, fill: T.teal })
     : kind === 'triangle' ? el('polygon', { points: '8,1.5 15,14.5 1,14.5', fill: T.teal, 'stroke-linejoin': 'round' })
+      : kind === 'square' ? el('rect', { x: 2, y: 2, width: 12, height: 12, rx: 1.5, fill: T.teal })
       : null;
   if (!g) throw new Error(`ssMarker: kind "${kind}"`);
   return svgRoot({ width: px, height: px, label: '' }, g, { viewBox: '0 0 16 16', 'aria-hidden': 'true', 'data-lcs-marker': kind, style: 'display:block' });
 }
 /** F1: the empty, pegged glue frame (dashed grid 2.5, r 12) that GROWS with its line; stamped with its word slot k. */
-function ssGlueFrame({ w, minH, k }) {
-  return `<div class="ss-glue" data-ss-block data-lcs-glue-k="${k}" style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.grid};border-radius:12px"></div>`;
+function ssGlueFrame({ w, minH, k, inner = '' }) {
+  return `<div class="ss-glue" data-ss-block data-lcs-glue-k="${k}" style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.grid};border-radius:12px${inner ? ';display:flex;align-items:center;justify-content:center' : ''}">${inner}</div>`;
 }
 /** F1: the temporal word tag under a glue frame (Baloo 2 700 18, h 36, teal 2, white). */
 function ssWordTag({ text, k }) {
@@ -154,7 +155,7 @@ function ssWordTag({ text, k }) {
 /** F1: one cut strip (picture-word-cards cardSheet, cols 3 x rows 1): tiles = story-panel svgs (frame:false). */
 function ssCutStrip({ tiles, cellW, cellH, story, marker = null }) {
   const cards = tiles.map((t) => cutCard({ inner: t.svg, kind: 'story', pad: 2, attrs: `data-ss-tile data-lcs-seq="${t.seq}" data-lcs-tile-rank="${t.rank}" data-lcs-tile-story="${esc(story)}"` }));
-  return cardSheet({ cards, cols: 3, rows: 1, w: cellW * 3, h: cellH, kind: 'story', legend: marker ? ssMarker({ kind: marker, px: 18 }) : null, extra: ` data-ss-block data-lcs-strip-story="${esc(story)}"${marker ? ` data-lcs-strip-marker="${marker}"` : ''}` });
+  return cardSheet({ cards, cols: tiles.length, rows: 1, w: cellW * tiles.length, h: cellH, kind: 'story', legend: marker ? ssMarker({ kind: marker, px: 18 }) : null, extra: ` data-ss-block data-lcs-strip-story="${esc(story)}"${marker ? ` data-lcs-strip-marker="${marker}"` : ''}` });
 }
 /** F2: the dashed coral "what comes next?" frame; the "?" is drawn as SVG paths (no text). */
 function ssQueryFrame({ w, h }) {
@@ -173,8 +174,8 @@ function ssStageLabel({ text, k }) {
   return `<span class="ws-pill ss-stage" data-ss-block data-lcs-bme-k="${k}" style="box-sizing:border-box;height:32px;padding:0 16px;font-size:18px;line-height:1;white-space:nowrap">${esc(text)}</span>`;
 }
 /** F3: the EMPTY middle drawing card (the read-and-do drawBox style: white, dashed coral 2.5, r 12), growing. */
-function ssDrawCard({ w, minH }) {
-  return `<div class="ss-draw" data-ss-block data-lcs-drawbox style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px"></div>`;
+function ssDrawCard({ w, minH, inner = '' }) {
+  return `<div class="ss-draw" data-ss-block data-lcs-drawbox style="box-sizing:border-box;flex:1 1 auto;width:${fmt(w)}px;min-height:${fmt(minH)}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px${inner ? ';display:flex;align-items:center;justify-content:center' : ''}">${inner}</div>`;
 }
 /**
  * F4: one story's match block: pictures (scrambled) on the left, the sentences on the right (fix round 2: scrambled too,
@@ -185,9 +186,10 @@ function ssSentenceMatch({ pics, sentences, picW, rowMinH, gap = 4, lineZone = 1
   const dot = (side) => `<span class="ws-match-dot ws-match-dot--${side}" style="${side === 'right' ? 'right' : 'left'}:-${Math.round(lineZone / 2 - 30)}px;top:calc(50% - 6px)"></span>`;
   // fix round 2: the EMPTY order box the child numbers (dashed coral, 40 px, at the sentence's left edge)
   const box = orderBox ? `<span class="ss-order" data-lcs-order-box aria-hidden="true" style="flex:0 0 40px;width:40px;height:40px;box-sizing:border-box;margin-right:12px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:8px"></span>` : '';
+  const keyBox = (n) => `<span class="ss-order" data-lcs-order-box aria-hidden="true" style="position:relative;flex:0 0 40px;width:40px;height:40px;box-sizing:border-box;margin-right:12px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:8px">` + `<span data-lcs-keynum style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:700;font-size:26px;line-height:1;color:#F2784B">${esc(String(n))}</span></span>`;
   const left = pics.map((p) => `<div style="position:relative;flex:1 1 ${fmt(rowMinH)}px;display:flex;min-height:${fmt(rowMinH)}px">${p}${dot('right')}</div>`).join('');
-  const right = sentences.map((s) => `<div class="ws-match-item ws-match-item--plain" data-ss-block data-lcs-sentence data-lcs-rank="${s.rank}" style="position:relative;box-sizing:border-box;flex:1 1 ${fmt(rowMinH)}px;min-height:${fmt(rowMinH)}px;width:${fmt(textW)}px;padding:6px 12px;align-items:center;${orderBox ? 'justify-content:flex-start;' : ''}font-family:'Nunito',sans-serif;font-weight:800;font-size:${textPx}px;line-height:1.3;color:${T.ink}">${dot('left')}${box}<span data-lcs-sentence-text${orderBox ? ' style="flex:1 1 auto;min-width:0;text-align:center"' : ''}>${esc(s.text)}</span></div>`).join('');
-  return `<div class="ss-match" data-lcs-match-block${attrs} style="flex:1 1 auto;display:flex;justify-content:space-between;align-items:stretch;width:100%;min-height:${fmt(4 * rowMinH + 3 * gap)}px">` +
+  const right = sentences.map((s) => `<div class="ws-match-item ws-match-item--plain" data-ss-block data-lcs-sentence data-lcs-rank="${s.rank}"${s.story ? ` data-lcs-story="${esc(s.story)}"` : ''} style="position:relative;box-sizing:border-box;flex:1 1 ${fmt(rowMinH)}px;min-height:${fmt(rowMinH)}px;width:${fmt(textW)}px;padding:6px 12px;align-items:center;${orderBox ? 'justify-content:flex-start;' : ''}font-family:'Nunito',sans-serif;font-weight:800;font-size:${textPx}px;line-height:1.3;color:${T.ink}">${dot('left')}${s.key != null && orderBox ? keyBox(s.key) : box}<span data-lcs-sentence-text${orderBox ? ' style="flex:1 1 auto;min-width:0;text-align:center"' : ''}>${esc(s.text)}</span></div>`).join('');
+  return `<div class="ss-match" data-lcs-match-block${attrs} style="flex:1 1 auto;display:flex;justify-content:space-between;align-items:stretch;width:100%;min-height:${fmt(pics.length * rowMinH + (pics.length - 1) * gap)}px">` +
     `<div style="display:flex;flex-direction:column;gap:${gap}px;width:${fmt(picW)}px">${left}</div>` +
     `<div style="display:flex;flex-direction:column;gap:${gap}px;width:${fmt(textW)}px">${right}</div></div>`;
 }

@@ -947,5 +947,59 @@
    "no": "Les ordet for én. Hvordan slutter ordet for flere? Trykk på riktig endelse.",
    "fi": "Lue sana. Miten sana loppuu, kun niitä on monta? Napauta oikeaa loppua."
   }
+ },
+ "story-sequencing": {
+  "order": {
+   "en": "Tap the pictures in story order. Each picture's sign goes into the next empty box.",
+   "de": "Tippe die Bilder in der Reihenfolge der Geschichte an. Das Zeichen jedes Bildes kommt ins nächste leere Kästchen.",
+   "es": "Toca las imágenes en el orden del cuento. El símbolo de cada imagen va a la siguiente caja vacía.",
+   "fr": "Touche les images dans l'ordre de l'histoire. Le symbole de chaque image va dans la case vide suivante.",
+   "it": "Tocca le vignette nell'ordine della storia. Il simbolo di ogni vignetta va nella casella vuota successiva.",
+   "pt": "Toque as cenas na ordem da história. O símbolo de cada cena vai para o próximo quadro vazio.",
+   "nl": "Tik de plaatjes aan in de volgorde van het verhaal. Het teken van elk plaatje komt in het volgende lege vakje.",
+   "sv": "Tryck på bilderna i berättelsens ordning. Bildens tecken hamnar i nästa tomma ruta.",
+   "da": "Tryk på billederne i historiens rækkefølge. Billedets tegn kommer i det næste tomme felt.",
+   "no": "Trykk på bildene i historiens rekkefølge. Bildets tegn havner i den neste tomme ruta.",
+   "fi": "Napauta kuvia tarinan järjestyksessä. Kuvan merkki siirtyy seuraavaan tyhjään ruutuun."
+  },
+  "next": {
+   "en": "Look at the three pictures of each story. Tap the picture that comes next.",
+   "de": "Schau dir die drei Bilder jeder Geschichte an. Tippe das Bild an, das als Nächstes kommt.",
+   "es": "Mira las tres imágenes de cada cuento. Toca la imagen que va después.",
+   "fr": "Regarde les trois images de chaque histoire. Touche l'image qui vient ensuite.",
+   "it": "Guarda le tre vignette di ogni storia. Tocca la vignetta che viene dopo.",
+   "pt": "Observe as três cenas de cada história. Toque a cena que vem depois.",
+   "nl": "Kijk naar de drie plaatjes van elk verhaal. Tik het plaatje aan dat daarna komt.",
+   "sv": "Titta på de tre bilderna i varje berättelse. Tryck på bilden som kommer sedan.",
+   "da": "Se på de tre billeder i hver historie. Tryk på det billede, der kommer bagefter.",
+   "no": "Se på de tre bildene i hver historie. Trykk på bildet som kommer etterpå.",
+   "fi": "Katso kunkin tarinan kolmea kuvaa. Napauta kuvaa, joka tulee seuraavaksi."
+  },
+  "middle": {
+   "en": "Look at the beginning and the end of each story. Tap the picture that shows what happens in the middle.",
+   "de": "Schau dir Anfang und Schluss jeder Geschichte an. Tippe das Bild an, das zeigt, was dazwischen passiert.",
+   "es": "Mira el inicio y el final de cada cuento. Toca la imagen que muestra lo que pasa en el desarrollo.",
+   "fr": "Regarde le début et la fin de chaque histoire. Touche l'image qui montre ce qui se passe au milieu.",
+   "it": "Guarda l'inizio e la conclusione di ogni storia. Tocca la vignetta che mostra che cosa succede nello svolgimento.",
+   "pt": "Observe o início e o fim de cada história. Toque a cena que mostra o que acontece no meio.",
+   "nl": "Kijk naar het begin en het eind van elk verhaal. Tik het plaatje aan dat laat zien wat er in het midden gebeurt.",
+   "sv": "Titta på början och slutet av varje berättelse. Tryck på bilden som visar det som händer i mitten.",
+   "da": "Se på begyndelsen og slutningen af hver historie. Tryk på det billede, der viser, hvad der sker i midten.",
+   "no": "Se på begynnelsen og slutten av hver historie. Trykk på bildet som viser hva som skjer i midten.",
+   "fi": "Katso kunkin tarinan alkua ja loppua. Napauta kuvaa, joka näyttää, mitä niiden välissä tapahtuu."
+  },
+  "match": {
+   "en": "Read each sentence. Tap the picture it tells about.",
+   "de": "Lies jeden Satz. Tippe das Bild an, zu dem er passt.",
+   "es": "Lee cada oración. Toca la imagen de la que habla.",
+   "fr": "Lis chaque phrase. Touche l'image qui lui correspond.",
+   "it": "Leggi ogni frase. Tocca la vignetta di cui parla.",
+   "pt": "Leia cada frase. Toque a cena de que ela fala.",
+   "nl": "Lees elke zin. Tik het plaatje aan dat erbij hoort.",
+   "sv": "Läs varje mening. Tryck på bilden som den handlar om.",
+   "da": "Læs hver sætning. Tryk på det billede, den handler om.",
+   "no": "Les hver setning. Trykk på bildet den handler om.",
+   "fi": "Lue jokainen lause. Napauta kuvaa, josta lause kertoo."
+  }
  }
 }

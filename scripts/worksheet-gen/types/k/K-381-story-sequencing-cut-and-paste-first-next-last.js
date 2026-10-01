@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-381',
   slug: 'story-sequencing-cut-and-paste-first-next-last',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/story-sequencing-screen.js').interactiveFor('order'),
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  difficulty: { 1: { ...D, stories: 1, tile: 186, frame: 196, frameH: 150, gap: 20, grow: 160 }, 2: D, 3: { ...D, panels: 4, sub: "sub4", tile: 132, frame: 140, frameH: 108, gap: 20 } },
   i18n: { en: { title: "Story Sequencing Cut and Paste: First, Next, Last", instruction: "Cut out the pictures on each strip and glue them on the line with the same mark, in the empty frames above First, Next and Last." } },
 };

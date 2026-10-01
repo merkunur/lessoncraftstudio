@@ -347,8 +347,9 @@ async function main() {
   ok(c1.first[1] <= 0.56 && c1.first.every((x) => x >= 0.19), `d1 rank-1 slot shares ${pct(c1.first)} % (middle <= 56, every slot >= 19)`);
   console.log(`census d1: rank-1 by slot ${pct(c1.first)} % (middle = the recorded 50 % bound)`);
   const c3 = census(3, 400); c3.bad.forEach((x) => ok(false, 'd3 ' + x));
-  ok(band(c3.first, 0.14, 0.26) && band(c3.last, 0.14, 0.26), `d3 rank-1 ${pct(c3.first)} / rank-5 ${pct(c3.last)} % outside 20 ± 6`);
-  console.log(`census d3: rank-1 by slot ${pct(c3.first)} %, rank-5 ${pct(c3.last)} %`);
+  // Level Set 2026-10-01: d3 = three stories of FOUR pictures (was two of five): the same 25 ± 6 band as d2
+  ok(band(c3.first, 0.19, 0.31) && band(c3.last, 0.19, 0.31), `d3 rank-1 ${pct(c3.first)} / rank-4 ${pct(c3.last)} % outside 25 ± 6`);
+  console.log(`census d3: rank-1 by slot ${pct(c3.first)} %, rank-4 ${pct(c3.last)} %`);
   // PR2: the inputs' derangement composer -> slot-1 share of rank 1 is 0 % (an inverted leak)
   { const cd = census(2, 400, { composer: 'derange' }); judge('PR2 derangement composer (pooled slot-1 share)', band(cd.first, 0.19, 0.31) ? [] : [`rank-1 slot shares ${pct(cd.first)} % outside 25 ± 6`], /outside 25 ± 6/); }
   // PR11: an F1 config fed to the base build

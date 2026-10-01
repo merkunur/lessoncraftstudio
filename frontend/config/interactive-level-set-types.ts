@@ -25,6 +25,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'singular-plural',
   'sound-boxes',
   'spelling-rules',
+  'story-sequencing',
   'word-parts',
 ]);
 
@@ -39,4 +40,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'question-words': ['g2357'],   // Ask About the Picture: open questions (Level Set 2026-09-29)
   'read-and-do': ['g1342'],   // Read and Draw: open drawing (Level Set 2026-09-30)
   'rhyming-words': ['g1346'],   // Write Your Own Rhymes: open answers (Level Set 2026-09-30)
+  'story-sequencing': ['g2378'],   // Retell the Story with Starters: open writing (Level Set 2026-10-01)
 };

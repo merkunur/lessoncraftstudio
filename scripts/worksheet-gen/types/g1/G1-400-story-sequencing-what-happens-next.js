@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-400',
   slug: 'story-sequencing-what-happens-next',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/story-sequencing-screen.js').interactiveFor('next'),
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  difficulty: { 1: { ...D, choices: 2, foils: ['other'] }, 2: D, 3: { ...D, choices: 4, foils: ['regress', 'mid', 'other'] } },
   i18n: { en: { title: "Story Sequencing: What Happens Next?", instruction: "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame." } },
   gradeBand: "G1",
 };

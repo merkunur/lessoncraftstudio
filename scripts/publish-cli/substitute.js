@@ -64,6 +64,7 @@
  */
 
 'use strict';
+var deckMetering = require('../lib/deck-metering.js');
 
 var i18n = require('./i18n');
 var taxonomy = require('./taxonomy');
@@ -390,10 +391,12 @@ function apply(opts) {
     // Only substitute knows both canonicalURL and the slug-prefixed PDF name
     // (publish.js renames printable.pdf → <slug>-printable.pdf). No-op for
     // interactive decks (placeholder absent).
-    .replace(/__PDF_URL__/g, canonicalURL + slug + '-printable.pdf')
+    // 2026-10-01 free-tier policy: the download goes through the METERED proxy (3 a month with a free account), never
+    // straight to the nginx file — the same href the landings / hub / deck action strip use (scripts/lib/deck-metering.js)
+    .replace(/__PDF_URL__/g, deckMetering.dlHref(locale, slug, 'pdf').replace(/&/g, '&amp;'))
     // __ANSWER_KEY_URL__: the answer-key link on a worksheet-gen INTERACTIVE deck (Level Set
     // 2026-09-27; publish.js renames answer-key.pdf → <slug>-answer-key.pdf). No-op elsewhere.
-    .replace(/__ANSWER_KEY_URL__/g, canonicalURL + slug + '-answer-key.pdf')
+    .replace(/__ANSWER_KEY_URL__/g, deckMetering.dlHref(locale, slug, 'answer').replace(/&/g, '&amp;'))
     // R5: normalize the app-baked bare <html lang="xx"> to the BCP-47 code
     // (pt→pt-BR) per hreflang.ts SoT. publish-cli is the single choke point;
     // idempotent (passthrough/same-string for non-pt locales).

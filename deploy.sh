@@ -243,6 +243,8 @@ node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "E
 # byte-exact inject/remove round trip on a real production deck. Browser-free.
 echo "🔎 deck-actions strip guard..."
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-actions.test.js || { echo "ERROR: the deck action strip is broken — a locale lost its deckActions strings, a maker landing slug vanished, or /tools/ or /api/quota/dl moved. See scripts/lib/deck-actions.js"; exit 1; }
+# the free-tier policy on every deck page (2026-10-01): metered PDF links, no "free" label, the play wall on screen versions
+node /opt/lessoncraftstudio/scripts/publish-cli/deck-metering.test.js || { echo "ERROR: deck metering is broken — a deck page could give its PDF or screen version away unlimited. See scripts/lib/deck-metering.js"; exit 1; }
 
 # Guard: the do-not-index marker (Level Set programme 2026-09-27). Decks published
 # with manifest.indexable=false are visible to teachers but must never be offered

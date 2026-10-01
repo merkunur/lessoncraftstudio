@@ -444,7 +444,8 @@ export default function CollectionDetailClient({
                       </a>
                       <span className="text-ink-300" aria-hidden="true">·</span>
                       <a
-                        href={deck.pdfUrl}
+                        // the metered download proxy (3 a month with a free account) — never the file itself (2026-10-01)
+                        href={`/api/quota/dl?loc=${encodeURIComponent(deck.language)}&slug=${encodeURIComponent(deck.slug)}&kind=pdf`}
                         className="text-ink-600 hover:text-ink-900"
                         target="_blank"
                         rel="noopener"

@@ -215,19 +215,24 @@ function buildDeckHtml(o) {
   const shortWord = (TITLE_CONFIG[locale] || {}).worksheetWordOverride;
   if (manifest.indexable === false && shortWord && descLen(seoBlock) > 170) seoBlock = seoFor(null, shortWord);
 
-  const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
+  // the visible button never says "free" (the free tier is limited; 2026-09-14 ruling): the action strip's native labels
+  const ACT = require('../../lib/deck-actions.js').strings(locale);   // already HTML-escaped
+  const downloadLabel = ACT.downloadPdf;
   const breadcrumbLd = buildBreadcrumbLd(locale, typeAxis, strings.title);
   const ia = o.interactive
     ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items, ctx: o.interactive.ctx, marks: o.interactive.marks }), instruction: o.interactive.instruction, preview: o.interactive.preview }
     : null;
   const shown = ia ? ia.preview : preview;
-  const keyLabel = ia ? i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null;
+  const keyLabel = ia ? ACT.answerKey : null;
 
   const html = [
     '<!DOCTYPE html>',
     '<html lang="' + locale + '">',
     '<head>',
     '<meta charset="utf-8">',
+    // the play wall (10 plays a day — frontend/lib/quota.ts) on every deck with a screen version; idempotent with
+    // scripts/publish-cli/meter-deck-downloads.js (same marker)
+    (ia ? '<script id="lcs-meter-js" defer src="https://www.lessoncraftstudio.com/worksheet-generators/js/lcs-meter.js?v=1"></script>' : null),
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     '<style id="lcs-embed-hide">body.lcs-embedded .lcs-end-deck,body.lcs-embedded .lcs-deckend-suggestions{display:none!important}</style>',
     seoBlock,
@@ -249,8 +254,8 @@ function buildDeckHtml(o) {
     '  </div>',
     (ia ? ia.controls : null),
     '  <div class="lcs-download">',
-    '    <a class="lcs-download-cta" href="__PDF_URL__">⬇ ' + esc(downloadLabel) + '</a>',
-    (ia ? '    <a class="lcs-download-cta" href="__ANSWER_KEY_URL__" style="background:#146B5E">✓ ' + esc(keyLabel) + '</a>' : null),
+    '    <a class="lcs-download-cta" href="__PDF_URL__">⬇ ' + downloadLabel + '</a>',
+    (ia ? '    <a class="lcs-download-cta" href="__ANSWER_KEY_URL__" style="background:#146B5E">✓ ' + keyLabel + '</a>' : null),
     '  </div>',
     '</main>',
     '<aside class="lcs-end-deck">',

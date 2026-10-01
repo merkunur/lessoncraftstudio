@@ -420,6 +420,14 @@ function main() {
     console.log('\n(skipping deck-actions injection per --skip-site-chrome)');
   }
 
+  // STEP 6e — METER (2026-10-01, the free-tier policy): every download link on the deck page goes through the
+  // metered proxy (/api/quota/dl — 3 a month with a free account), the buttons never say "free", and a deck with a
+  // screen version carries the play wall (lcs-meter.js — 10 plays a day). Never skippable: a deck that ships without it
+  // gives the PDF and the screen version away unlimited (operator report 2026-10-01: 4,638 Level Set decks did).
+  for (const loc of args.locales) {
+    runStep(`METER — meter-deck-downloads (${loc})`, 'meter-deck-downloads.js', [`--locale=${loc}`, ...scopeArg]);
+  }
+
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);

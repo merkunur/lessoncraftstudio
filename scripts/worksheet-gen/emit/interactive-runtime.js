@@ -227,7 +227,8 @@ const JS = [
 function buildInteractive(o) {
   if (!KINDS.has(o.kind)) throw new Error('interactive-runtime: unknown kind ' + o.kind);
   const items = o.items || [];
-  if (items.length < 2) throw new Error('interactive-runtime: fewer than 2 items');
+  // one item is a whole task for tap-spell / tap-choice (Story Sequencing level 1, 2026-10-01: one story to put in order)
+  if (items.length < ((o.kind === 'tap-spell' || o.kind === 'tap-choice') ? 1 : 2)) throw new Error('interactive-runtime: fewer than 2 items');
   const answers = items.map((it) => it.answer);
   const inPage = (v) => Number.isFinite(v) && v >= -5 && v <= 105;
   const round = (v) => Math.round(v * 1000) / 1000;

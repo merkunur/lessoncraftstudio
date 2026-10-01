@@ -1992,5 +1992,104 @@
    "no": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute.",
    "fi": "Ensimmäinen äänne on jo kirjoitettu. Sano kuvan sana hitaasti ja kirjoita jokaiseen tyhjään laatikkoon yksi äänne."
   }
+ },
+ "K-381": {
+  "1": {
+   "en": "Cut out the pictures on the strip and glue them in the empty frames above First, Next and Last.",
+   "de": "Schneide die Bilder aus dem Streifen aus und klebe sie in die leeren Rahmen über Zuerst, Dann und Zum Schluss.",
+   "es": "Recorta las imágenes de la tira y pégalas en los cuadros vacíos arriba de Primero, Después y Al final.",
+   "fr": "Découpe les images de la bande et colle-les dans les cadres vides au-dessus de D'abord, Ensuite et Enfin.",
+   "it": "Ritaglia le vignette della striscia e incollale nelle cornici vuote sopra Prima, Dopo e Infine.",
+   "pt": "Recorte as cenas da tira e cole-as nos quadros vazios acima de Primeiro, Depois e Por fim.",
+   "nl": "Knip de plaatjes van de strook uit en plak ze in de lege vakken boven Eerst, Dan en Tot slot.",
+   "sv": "Klipp ut bilderna på remsan och klistra dem i de tomma ramarna ovanför Först, Sedan och Till sist.",
+   "da": "Klip billederne på strimlen ud, og lim dem i de tomme rammer over Først, Så og Til sidst.",
+   "no": "Klipp ut bildene på remsa, og lim dem i de tomme rammene over Først, Så og Til slutt.",
+   "fi": "Leikkaa kaistaleen kuvat irti ja liimaa ne tyhjiin kehyksiin sanojen Ensin, Sitten ja Lopuksi yläpuolelle."
+  },
+  "3": {
+   "en": "Cut out the pictures on each strip and glue them on the line with the same mark, in the empty frames above First, Next, Then and Last.",
+   "de": "Schneide die Bilder aus jedem Streifen aus und klebe sie an der Leine mit demselben Zeichen in die leeren Rahmen über Zuerst, Dann, Danach und Zum Schluss.",
+   "es": "Recorta las imágenes de cada tira y pégalas en el tendedero que tiene la misma marca, en los cuadros vacíos arriba de Primero, Después, Luego y Al final.",
+   "fr": "Découpe les images de chaque bande et colle-les sur la ligne qui porte le même symbole, dans les cadres vides au-dessus de D'abord, Ensuite, Puis et Enfin.",
+   "it": "Ritaglia le vignette di ogni striscia e incollale sul filo con lo stesso simbolo, nelle cornici vuote sopra Prima, Poi, Dopo e Infine.",
+   "pt": "Recorte as cenas de cada tira e cole-as na linha que tem a mesma marca, nos quadros vazios acima de Primeiro, Depois, Em seguida e Por fim.",
+   "nl": "Knip de plaatjes van elke strook uit en plak ze in de lege vakken aan de waslijn met hetzelfde teken, boven Eerst, Dan, Daarna en Tot slot.",
+   "sv": "Klipp ut bilderna på varje remsa och klistra dem på linan med samma märke, i de tomma ramarna ovanför Först, Sedan, Efter det och Till sist.",
+   "da": "Klip billederne på hver strimmel ud, og lim dem på snoren med det samme mærke, i de tomme rammer over Først, Så, Bagefter og Til sidst.",
+   "no": "Klipp ut bildene på hver remse, og lim dem i de tomme rammene over Først, Så, Etterpå og Til slutt på raden med samme merke som remsa.",
+   "fi": "Leikkaa kaistaleiden kuvat irti ja liimaa ne sanojen Ensin, Sitten, Seuraavaksi ja Lopuksi yläpuolelle riville, jolla on sama merkki kuin kaistaleella."
+  }
+ },
+ "G1-401": {
+  "1": {
+   "en": "Look at the beginning and the end of the story and draw what happens in the middle frame.",
+   "de": "Schau dir Anfang und Schluss der Geschichte an und male in den großen Rahmen in der Mitte, was dazwischen passiert.",
+   "es": "Mira el inicio y el final del cuento y dibuja en el cuadro del centro lo que pasa en el desarrollo.",
+   "fr": "Regarde le début et la fin de l'histoire et dessine ce qui se passe au milieu, dans le cadre vide.",
+   "it": "Guarda l'inizio e la conclusione della storia e disegna nel riquadro centrale che cosa succede nello svolgimento.",
+   "pt": "Observe o início e o fim da história e desenhe no quadro do meio o que aconteceu.",
+   "nl": "Kijk naar het begin en het eind van het verhaal en teken in het lege vak wat er in het midden gebeurt.",
+   "sv": "Titta på början och slutet av berättelsen och rita det som händer i mitten i den tomma ramen.",
+   "da": "Se på begyndelsen og slutningen af historien, og tegn, hvad der sker, i den tomme ramme i midten.",
+   "no": "Se på begynnelsen og slutten av historien, og tegn i den tomme rammen hva som skjer i midten.",
+   "fi": "Katso tarinan alkua ja loppua ja piirrä keskimmäiseen kehykseen, mitä niiden välissä tapahtuu."
+  }
+ },
+ "G1-402": {
+  "1": {
+   "en": "Number the sentences in order in the boxes, then draw a line from every sentence to its picture.",
+   "de": "Nummeriere die Sätze in den Kästchen der Reihe nach und verbinde dann jeden Satz mit seinem Bild.",
+   "es": "Numera en los recuadros las oraciones en orden y luego une con una línea cada oración con su imagen.",
+   "fr": "Numérote dans les cases les phrases dans l'ordre, puis relie chaque phrase à son image.",
+   "it": "Numera in ordine nei riquadri le frasi, poi collega con una linea ogni frase alla sua vignetta.",
+   "pt": "Numere nos quadrinhos as frases na ordem certa e depois ligue cada frase à sua cena com um traço.",
+   "nl": "Nummer de zinnen op volgorde in de hokjes en trek dan een lijn van elke zin naar het plaatje dat erbij hoort.",
+   "sv": "Numrera meningarna i rätt ordning i rutorna och dra sedan ett streck från varje mening till dess bild.",
+   "da": "Skriv tal i felterne, så sætningerne kommer i rækkefølge, og tegn så en streg fra hver sætning til dens billede.",
+   "no": "Skriv tall i rutene så setningene kommer i riktig rekkefølge, og trekk så en strek fra hver setning til bildet sitt.",
+   "fi": "Numeroi lauseet ruutuihin oikeaan järjestykseen ja vedä sitten viiva jokaisesta lauseesta sen kuvaan."
+  },
+  "3": {
+   "en": "The sentences of two stories are mixed up. Number each story's sentences 1 to 4 in the boxes, then draw a line from every sentence to its picture.",
+   "de": "Die Sätze von zwei Geschichten sind gemischt. Nummeriere die Sätze jeder Geschichte in den Kästchen von 1 bis 4 und verbinde dann jeden Satz mit seinem Bild.",
+   "es": "Las oraciones de dos cuentos están mezcladas. Numera del 1 al 4 en los recuadros las oraciones de cada cuento y luego une con una línea cada oración con su imagen.",
+   "fr": "Les phrases de deux histoires sont mélangées. Numérote de 1 à 4 dans les cases les phrases de chaque histoire, puis relie chaque phrase à son image.",
+   "it": "Le frasi di due storie sono mescolate. Numera da 1 a 4 nei riquadri le frasi di ogni storia, poi collega con una linea ogni frase alla sua vignetta.",
+   "pt": "As frases de duas histórias estão misturadas. Numere de 1 a 4 nos quadrinhos as frases de cada história e depois ligue cada frase à sua cena com um traço.",
+   "nl": "De zinnen van twee verhalen staan door elkaar. Nummer in de hokjes de zinnen van elk verhaal van 1 tot 4 en trek dan een lijn van elke zin naar het plaatje dat erbij hoort.",
+   "sv": "Meningarna från två berättelser är blandade. Numrera meningarna i varje berättelse från 1 till 4 i rutorna och dra sedan ett streck från varje mening till dess bild.",
+   "da": "Sætningerne fra to historier er blandet sammen. Skriv 1 til 4 i felterne ved hver histories sætninger, og tegn så en streg fra hver sætning til dens billede.",
+   "no": "Setningene fra to historier er blandet sammen. Skriv 1 til 4 i rutene ved setningene i hver historie, og trekk så en strek fra hver setning til bildet sitt.",
+   "fi": "Kahden tarinan lauseet ovat sekaisin. Numeroi kunkin tarinan lauseet ruutuihin numeroilla 1, 2, 3 ja 4 ja vedä sitten viiva jokaisesta lauseesta sen kuvaan."
+  }
+ },
+ "G2-378": {
+  "1": {
+   "en": "Write what happens in each picture on its line, starting with the word printed on it.",
+   "de": "Schreibe zu jedem Bild auf die Linie, was passiert, und fang mit dem Wort an, das schon auf der Linie steht.",
+   "es": "Escribe en el renglón lo que pasa en cada imagen, empezando con la palabra que ya está escrita.",
+   "fr": "Écris ce qui se passe dans chaque image sur sa ligne, en commençant par le mot déjà écrit.",
+   "it": "Scrivi sulla riga che cosa succede in ogni vignetta, cominciando con la parola già scritta.",
+   "pt": "Escreva na linha o que acontece em cada cena, começando pela palavra que já está escrita.",
+   "nl": "Schrijf op de lijn wat er op elk plaatje gebeurt en begin met het woord dat al op de lijn staat.",
+   "sv": "Skriv på raden vad som händer på varje bild och börja med ordet som står på raden.",
+   "da": "Skriv, hvad der sker på hvert billede, på linjen ved siden af, og begynd med ordet, der står på linjen.",
+   "no": "Skriv hva som skjer på hvert bilde på linjen ved siden av, og begynn med ordet som står på linjen.",
+   "fi": "Kirjoita kunkin kuvan viereiselle viivalle, mitä kuvassa tapahtuu, ja aloita viivalla olevalla sanalla."
+  },
+  "3": {
+   "en": "Write what happens in each picture on its lines. The words in the box can help you.",
+   "de": "Schreibe zu jedem Bild auf die Linien, was passiert. Die Wörter im Kasten helfen dir.",
+   "es": "Escribe en los renglones lo que pasa en cada imagen. Las palabras del recuadro te pueden ayudar.",
+   "fr": "Écris ce qui se passe dans chaque image sur ses lignes. Les mots du cadre peuvent t'aider.",
+   "it": "Scrivi sulle righe che cosa succede in ogni vignetta. Le parole nel riquadro ti possono aiutare.",
+   "pt": "Escreva nas linhas o que acontece em cada cena. As palavras do quadro podem ajudar você.",
+   "nl": "Schrijf op de lijnen wat er op elk plaatje gebeurt. De woorden in het kader kunnen je helpen.",
+   "sv": "Skriv på raderna vad som händer på varje bild. Orden i rutan kan hjälpa dig.",
+   "da": "Skriv, hvad der sker på hvert billede, på linjerne ved siden af. Ordene i rammen kan hjælpe dig.",
+   "no": "Skriv hva som skjer på hvert bilde på linjene ved siden av. Ordene i rammen kan hjelpe deg.",
+   "fi": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu. Laatikon sanat voivat auttaa sinua."
+  }
  }
 }

@@ -54,6 +54,27 @@ function storyById(id) {
   return s;
 }
 const STORY_IDS = () => bankCommon().stories.map((s) => s.id);
+/** The redrawn art (primitives/story-art.js, 2026-10-01): a story with art is drawn from it, not from its ops. */
+let _art = null;
+function artOf(s) { if (!_art) _art = require('./story-art.js'); return s && typeof s.id === 'string' && !s.legacyArt ? _art.STORIES[s.id] || null : null; }
+/** The art's view window: the union of every rank's prop box, padded, at the card's aspect, zoomed in at EVERY size. */
+/** The top colour of a drawn scene (its first painted rect: the sky or the wall) — the card colour above it. */
+function artSky(id) {
+  const art = artOf({ id });
+  const m = art && art.stage().match(/fill="(#[0-9A-Fa-f]{6})"/);
+  return m ? m[1] : null;
+}
+function artWindow(art, vh) {
+  const [x0, y0, x1, y1] = art.bbox();
+  const pad = 8, aspect = vh / VIEW_W;
+  let W = Math.min(VIEW_W, Math.max(x1 - x0 + 2 * pad, (y1 - y0 + 2 * pad) / aspect, 92));
+  const H = W * aspect;
+  const wx = Math.min(Math.max((x0 + x1) / 2 - W / 2, 0), VIEW_W - W);
+  // a card taller than the scene never crops the action: the window keeps the action's width and reaches ABOVE the
+  // scene (y < 0), where storyPanel paints the scene's own top colour (artSky)
+  const wy = H > VIEW_H ? VIEW_H - H : Math.min(Math.max((y0 + y1) / 2 - H / 2, 0), VIEW_H - H);
+  return { x0: Math.round(wx * 100) / 100, y0: Math.round(wy * 100) / 100, w: Math.round(W * 100) / 100, h: Math.round(H * 100) / 100 };
+}
 
 /* ---------------------------------------------------------------- geometry (the gate + meta share it) */
 function parseTf(tf) {
@@ -251,27 +272,31 @@ function storyPanel({ story, rank, w, frame = true, vh = VIEW_H, uid = '', data 
   const p = s.panels.find((x) => x.rank === rank);
   if (!p) throw new Error(`story-panel: story "${s.id}" has no rank ${rank}`);
   const h = w * vh / VIEW_W;
-  const win = viewWindow(s, vh);
+  const art = artOf(s);
+  const win = art ? artWindow(art, vh) : viewWindow(s, vh);
   const unitW = win.w;                                          // units across the card: strokes convert with it
   const fw = 2 * unitW / w;
   const tag = `${s.id}-${rank}-${Math.round(w)}-${vh}${uid ? '-' + uid : ''}`;
   const clipId = `ss-clip-${tag}`;
   const back = vh === VIEW_H ? [] : bankBackdrop(s.setKind, win);
   const ctx = (b) => ({ w: w * VIEW_W / unitW, idBase: b, n: 0 });   // renderOp converts px with (px * 160 / w)
-  const set = el('g', { 'data-lcs-set': '1' }, renderLayer(back, ctx('ss-bd-' + tag)) + renderLayer(vh === VIEW_H ? s.set : cropToWindow(s.set, win), ctx('ss-set-' + tag)));
-  const prop = el('g', { 'data-lcs-prop': '1', 'data-lcs-rank': rank }, renderLayer(p.prop, ctx('ss-' + tag)));
+  // the art's mask / clip ids are made unique per card (one page shows the same story several times)
+  const uniq = (svg) => svg.replace(/(id="|url\(#)(sa-[\w-]+)/g, (m, a, b) => a + b + '-' + tag);
+  const set = art ? el('g', { 'data-lcs-set': '1' }, uniq(art.stage())) : el('g', { 'data-lcs-set': '1' }, renderLayer(back, ctx('ss-bd-' + tag)) + renderLayer(vh === VIEW_H ? s.set : cropToWindow(s.set, win), ctx('ss-set-' + tag)));
+  const prop = art ? el('g', { 'data-lcs-prop': '1', 'data-lcs-rank': rank }, uniq(art.prop(rank))) : el('g', { 'data-lcs-prop': '1', 'data-lcs-rank': rank }, renderLayer(p.prop, ctx('ss-' + tag)));
   // frame:false (the page draws a CSS frame that grows with its row): no inset, no white margin ring
   const inset = frame ? 3 * unitW / VIEW_W : 0, r = frame ? 10 * unitW / VIEW_W : 0;
   const parts = [
     el('defs', {}, el('clipPath', { id: clipId }, el('rect', { x: fmt(win.x0 + inset), y: fmt(win.y0 + inset), width: fmt(win.w - 2 * inset), height: fmt(win.h - 2 * inset), rx: fmt(r * 0.8) }))),
     el('rect', { x: fmt(win.x0), y: fmt(win.y0), width: fmt(win.w), height: fmt(win.h), rx: fmt(r), fill: HEX.white }),
+    ...(art && win.y0 < 0 ? [el('rect', { x: fmt(win.x0), y: fmt(win.y0), width: fmt(win.w), height: fmt(-win.y0 + 1), fill: artSky(s.id) })] : []),
     el('g', { 'clip-path': `url(#${clipId})` }, set + prop),
   ];
   if (frame) parts.push(el('rect', { x: fmt(win.x0 + fw / 2), y: fmt(win.y0 + fw / 2), width: fmt(win.w - fw), height: fmt(win.h - fw), rx: fmt(r), fill: 'none', stroke: HEX.teal, 'stroke-width': fmt(fw), 'data-lcs-frame': '1' }));
   const extra = { style: 'display:block', 'data-lcs-story-panel': '1', 'data-lcs-story': s.id, 'data-lcs-rank': rank, 'data-lcs-setkind': s.setKind };
   for (const [k, v] of Object.entries(data)) extra['data-lcs-' + k] = v;
   const svg = svgRoot({ width: fmt(w), height: fmt(h), viewBox: `${fmt(win.x0)} ${fmt(win.y0)} ${fmt(win.w)} ${fmt(win.h)}`, label: '' }, parts.join(''), extra);
-  const carriers = irrOps(p.prop).map((o) => { const bb = opBBox(o); return Math.min(bb.w, bb.h); });
+  const carriers = art ? [] : irrOps(p.prop).map((o) => { const bb = opBBox(o); return Math.min(bb.w, bb.h); });
   return {
     svg, width: w, height: h, window: win,
     meta: { story: s.id, rank, setKind: s.setKind, irr: { ...p.irr }, occluded: { ...(p.occluded || {}) }, zoom: VIEW_W / unitW, carrierMinPx: carriers.length ? Math.min(...carriers) * w / unitW : null },
@@ -285,4 +310,4 @@ function setOnly({ story, w }) {
   return { svg: svgRoot({ width: fmt(w), height: fmt(h), viewBox: `0 0 ${VIEW_W} ${VIEW_H}`, label: '' }, el('rect', { x: 0, y: 0, width: VIEW_W, height: VIEW_H, rx: 10, fill: HEX.white }) + el('g', { 'data-lcs-set': '1' }, renderLayer(s.set, { w, idBase: 'ss-seto-' + s.id, n: 0 })), { style: 'display:block' }), width: w, height: h };
 }
 
-module.exports = { viewWindow, storyPanel, setOnly, STORY_IDS, MIN_W, VIEW_W, VIEW_H, opBBox, opPoints, irrOps, strokePx, pathPoints, storyById };
+module.exports = { artOf, artWindow, artSky, viewWindow, storyPanel, setOnly, STORY_IDS, MIN_W, VIEW_W, VIEW_H, opBBox, opPoints, irrOps, strokePx, pathPoints, storyById };

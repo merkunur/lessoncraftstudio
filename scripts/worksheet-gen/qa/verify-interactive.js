@@ -272,7 +272,8 @@ async function playSpell(page, html, oracle, locale) {
       bundle: window.DECK_BUNDLE,
     }));
     const B = info.bundle;
-    if (!B || !Array.isArray(B.items) || info.tiles.length < 4) { fails.push(`${w}px: ${info.tiles.length} tap targets`); return fails; }
+    // three picture tiles are a whole task (Story Sequencing level 1: one story of three pictures); the no-target poison still fails at 0
+    if (!B || !Array.isArray(B.items) || info.tiles.length < 3) { fails.push(`${w}px: ${info.tiles.length} tap targets`); return fails; }
     info.tiles.forEach((o, i) => {
       if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: tile ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
       if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: tile ${i + 1} outside the viewport`);

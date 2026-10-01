@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-378',
   slug: 'retell-the-story-with-starters',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: null,   // open writing: printable only (LEVEL_SET_PRINT_ONLY_VARIATIONS)
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  difficulty: { 1: { ...D, rows: 1 }, 2: D, 3: { ...D, starters: false } },
   i18n: { en: { title: "Retell the Story with Starters", instruction: "Write what happens in each picture on its lines, starting with the word printed on the first line." } },
   gradeBand: "G2",
 };

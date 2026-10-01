@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-402',
   slug: 'story-sequencing-sentences-match-the-pictures',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/story-sequencing-screen.js').interactiveFor('match'),
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  difficulty: { 1: { ...D, stories: 1, panelW: 160, textW: 360 }, 2: D, 3: { ...D, mixed: true } },
   i18n: { en: { title: "Story Sequencing Sentences: Match the Pictures", instruction: "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture." } },
   gradeBand: "G1",
 };

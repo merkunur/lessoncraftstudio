@@ -24,6 +24,10 @@ async function runLints(page, { gradeBand }) {
     const fails = [];
     const pageEl = document.querySelector('[data-lcs-page]');
     const pb = pageEl.getBoundingClientRect();
+    // The parts of a drawn story picture (primitives/story-art.js, 2026-10-01) are clipped by their own <svg> (the
+    // picture is a window onto a larger scene) and painted from the story palette, which qa/verify-b6-story-panel.js
+    // gates. The picture's <svg> box itself is still measured here; only what it clips is skipped.
+    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel]'));
 
     // 0. non-empty body: a worksheet must render at least one content unit.
     // Catches the "blank sheet" class (e.g. a themed generator finding no usable
@@ -40,6 +44,7 @@ async function runLints(page, { gradeBand }) {
     // 1. overflow/clip: every visible element inside the page box
     document.querySelectorAll('.ws-page *').forEach((el) => {
       if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;
+      if (inArt(el)) return;
       const r = el.getBoundingClientRect();
       if (r.width === 0 || r.height === 0) return;
       const fudge = 0.6; // sub-pixel rounding
@@ -65,6 +70,7 @@ async function runLints(page, { gradeBand }) {
       document.querySelectorAll('.ws-page *').forEach((el) => {
         if (el === foot || foot.contains(el)) return;
         if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;
+        if (inArt(el)) return;
         const r = el.getBoundingClientRect();
         if (r.width === 0 || r.height === 0) return;
         if (r.bottom > ft + 0.6 && (!worst || r.bottom > worst.bottom)) {
@@ -91,6 +97,7 @@ async function runLints(page, { gradeBand }) {
 
     // 4. palette whitelist on SVG fills/strokes (hex values only)
     document.querySelectorAll('svg [fill], svg [stroke]').forEach((el) => {
+      if (inArt(el)) return;
       for (const attr of ['fill', 'stroke']) {
         const v = (el.getAttribute(attr) || '').toUpperCase();
         if (v.startsWith('#') && !palette.has(v)) fails.push(`off-palette ${attr}: ${v}`);

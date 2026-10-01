@@ -52,6 +52,11 @@
 const { bank } = require('../../lib/b6-common.js');
 const { COMMON } = require('../../data/b6/story-sequencing.js');
 const SP = require('../../primitives/story-panel.js');
+const SSS = require('../../lib/story-sequencing-screen.js');
+// Level Set 2026-10-01: a NEW page is anything but the published level 2, copy 1 (only new pages get a screen + key)
+const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+/** the key's numbered badge on a picture card (a coral disc in its top-left corner) */
+const keyBadge = (html, n) => html.replace(/<\/div>$/, `<span data-lcs-keynum style="position:absolute;left:4px;top:4px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#F2784B;color:#FFFFFF;font-family:'Baloo 2',cursive;font-weight:700;font-size:18px;line-height:1;z-index:2">${n}</span></div>`);
 const C6 = require('../../templates/components-b6.js');
 const B2 = require('../../templates/components-b2.js');
 const fmt = (n) => (Math.round(n * 100) / 100).toString();
@@ -128,9 +133,24 @@ function storyPool(block, loc, subKey) {
  */
 const TOKENS = require('../../primitives/_tokens.js');
 /** The CSS card background: the stage's sky token (data/b6 COMMON.SKY: pavement asphalt, snow sky), else white. */
-const SKY = (s) => { const t = (COMMON.SKY || {})[s.setKind]; return t ? TOKENS.color[t] : '#FFFFFF'; };
-const MARKERS = ['dot', 'triangle'];   // F1: strip k and story line k carry the same teal marker (fr panel, fix round 1)
+// the card colour around a picture: a drawn story's own top colour (story-art, 2026-10-01), else the bank's sky token
+const SKY = (s) => { const a = SP.artSky && SP.artSky(s.id); if (a) return a; const t = (COMMON.SKY || {})[s.setKind]; return t ? TOKENS.color[t] : '#FFFFFF'; };
+const MARKERS = ['dot', 'triangle', 'square'];   // square: the Level Set's three-story strip page (2026-10-01)   // F1: strip k and story line k carry the same teal marker (fr panel, fix round 1)
 const TRAY_PERMS = ['021', '102', '120', '201'];   // F2 correct-choice slots over the three blocks: never 012 / 210
+/** Level Set (2026-10-01) slot patterns over n blocks: 2 choices — both slots used; 4 choices — all different, no staircase. */
+function trayPats(choices, n) {
+  const out = [];
+  const walk = (p) => {
+    if (p.length === n) {
+      const s = p.join('');
+      if (choices === 2 ? new Set(p).size > 1 : new Set(p).size === n && !/^(012|123|210|321)$/.test(s)) out.push(s);
+      return;
+    }
+    for (let k = 0; k < choices; k++) walk([...p, k]);
+  };
+  walk([]);
+  return out;
+}
 function facePanel(s, rank, w, vh, extra = {}) {
   const r = SP.storyPanel({ story: s, rank, w, vh, frame: false, uid: extra.uid || '' });
   return { r, box: (attrs, grow = true) => C6.ssCardBox({ svg: r.svg, w: r.width, minH: r.height, anchor: s.anchor, sky: SKY(s), grow, attrs }) };
@@ -198,34 +218,87 @@ function faceRoot(mode, inner, stamps = {}, style = '') {
   return `<div class="ws-lane ss-page" data-ws-content data-lcs-story-sequencing data-lcs-mode="${mode}"${attrs} style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:10px;min-height:0${style}">${inner}</div>`;
 }
 
+/**
+ * Level Set 2026-10-01, G1-402 level 3: the two stories' eight sentences MIXED in one list beside their eight pictures
+ * (mixed too). The child finds which story each sentence tells, numbers it 1-4 within that story, and draws its line.
+ * A column is legal when each story's items, read top to bottom, obey the scramble law and neither story sits as one
+ * block of four rows; no sentence sits straight across from its own picture.
+ */
+/** Story pairs the mixed list never puts together: a sentence of one fits a picture of the other (native review 2026-10-01:
+ * the banana's "three strips hang down" also fits the paper chain's strips). Cake + sandwich (both end in crumbs) share
+ * the table stage, which pickPair already refuses. */
+const MIX_EXCLUDE = [['banana', 'paper-chain']];
+const mixExcluded = (ids) => MIX_EXCLUDE.some(([a, b]) => ids.includes(a) && ids.includes(b));
+function mixOk(col) {
+  for (const si of [0, 1]) {
+    if (scrambleLaw(col.filter((x) => x.si === si).map((x) => x.seq))) return false;
+    const rows = col.map((x, j) => (x.si === si ? j : -1)).filter((j) => j >= 0);
+    if (rows[3] - rows[0] === 3) return false;
+  }
+  return true;
+}
+function mixedSentences(block, d, loc, rng, stories, keyFill = false) {
+  if (stories.length !== 2) throw new Error(`K-379 ${loc}: the mixed sentence list needs two stories`);
+  const all = [];
+  stories.forEach((s, si) => [1, 2, 3, 4].forEach((seq) => all.push({ si, seq })));
+  const key = (x) => x.si + ':' + x.seq;
+  let pics = null, sens = null;
+  for (let t = 0; t < 2000 && !sens; t++) {
+    const p = rng.shuffle(all.slice());
+    if (!mixOk(p)) continue;
+    for (let u = 0; u < 200 && !sens; u++) {
+      const q = rng.shuffle(all.slice());
+      if (mixOk(q) && !q.some((x, j) => key(x) === key(p[j]))) { pics = p; sens = q; }
+    }
+  }
+  if (!sens) throw new Error(`K-379 ${loc}: no mixed sentence list (refuse)`);
+  const text = (x) => {
+    const sen = block.stories[stories[x.si].id].sentences;
+    if (!Array.isArray(sen) || sen.length !== 4) throw new Error(`K-379 ${loc}: ${stories[x.si].id} sentences (refuse)`);
+    return sen[x.seq - 1];
+  };
+  const picHtml = pics.map((x, j) => { const s = stories[x.si]; const h = facePanel(s, s.sub4[x.seq - 1], d.panelW, 120).box(`data-lcs-pic data-lcs-seq="${x.seq}" data-lcs-slot="${j}" data-lcs-story="${s.id}"`); return keyFill ? keyBadge(h, x.seq) : h; });
+  const blockHtml = C6.ssSentenceMatch({ pics: picHtml, sentences: sens.map((x) => ({ text: text(x), rank: x.seq, story: stories[x.si].id, ...(keyFill ? { key: x.seq } : {}) })), orderBox: true, picW: d.panelW, rowMinH: d.panelW * 0.75, gap: 4, textW: d.textW, textPx: d.textPx || 16,
+    stamps: { story: stories.map((s) => s.id).join(','), mixed: 1 } });
+  const bodyHtml = faceRoot('sequencing-sentences', blockHtml, { stories: 2, mixed: 1, openers4: JSON.stringify(block.openers4) }, ';gap:14px;justify-content:space-between');
+  const enc = (col) => col.map((x) => (x.si ? 'b' : 'a') + x.seq).join('');
+  return { bodyHtml, meta: { mode: d.mode, mixed: 1, stories: stories.map((s) => s.id).join(','), pics: enc(pics), sens: enc(sens), answers: enc(sens) + '#' + enc(pics) } };
+}
+
 const FACE_BUILD = {
   /** F1 (K): two lines of three EMPTY glue frames under First / Next / Last + two cut strips of scrambled tiles. */
   'first-next-last-cut'(block, d, loc, rng, seam) {
-    if (d.answer !== 'glue' || d.panels !== 3 || d.sub !== 'sub3') throw new Error('K-379 F1: config is not the cut-and-paste face');
-    const words = block.words3;
-    if (!Array.isArray(words) || words.length !== 3 || words.some((x) => !String(x || '').trim())) throw new Error(`K-379 ${loc}: words3 missing (refuse)`);
-    const pool = storyPool(block, loc, 'sub3').filter((s) => (s.pools || []).includes('first-next-last-cut'));
+    // Level Set 2026-10-01: level 3 cuts FOUR pictures per story (sub4) under the locale's four order words
+    const four = d.panels === 4 && d.sub === 'sub4';
+    if (d.answer !== 'glue' || !((d.panels === 3 && d.sub === 'sub3') || four)) throw new Error('K-379 F1: config is not the cut-and-paste face');
+    const words = four ? (block.openers4 || []).map((w) => String(w).replace(/[s,;:.]+$/u, '')) : block.words3;
+    if (!Array.isArray(words) || words.length !== d.panels || words.some((x) => !String(x || '').trim())) throw new Error(`K-379 ${loc}: ${four ? 'openers4' : 'words3'} missing (refuse)`);
+    const pool = storyPool(block, loc, d.sub).filter((s) => (s.pools || []).includes('first-next-last-cut'));
     if (pool.length < 3) throw new Error(`K-379 ${loc}: F1 pool ${pool.length} (< 3; refuse)`);
-    const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, 2);
+    const nS = d.stories || 2;   // Level Set: 1 (level 1) / 2 (published) / 3 (level 3)
+    const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, nS);
     if (!stories) throw new Error(`K-379 ${loc}: no F1 pair (refuse)`);
     // fix round 2 (nl): each strip from COMMON.STRIP3 (never the identity, never a rotation), the two strips different
-    const perms = seam.plan ? seam.plan.perms : rng.sample(COMMON.STRIP3, 2).map((p) => p.split('').map(Number));
+    const perms = seam.plan ? seam.plan.perms : four ? lawPerms(4, rng, nS) : rng.sample(COMMON.STRIP3, nS).map((p) => p.split('').map(Number));
+    if (perms.length !== nS) throw new Error(`K-379 ${loc}: F1 strips (refuse)`);
     const lines = stories.map((s, i) => C6.ssLine({
-      items: [0, 1, 2].map((k) => ({ w: d.frame, html: C6.ssGlueFrame({ w: d.frame, minH: d.frameH, k }), under: C6.ssWordTag({ text: words[k], k }) })),
+      items: words.map((_, k) => ({ w: d.frame, html: C6.ssGlueFrame({ w: d.frame, minH: d.frameH, k, ...(seam.key ? { inner: SP.storyPanel({ story: s, rank: s[d.sub][k], w: d.tile, frame: false }).svg } : {}) }), under: C6.ssWordTag({ text: words[k], k }) })),
       gap: d.gap, minH: d.frameH + 12 + 36, grow: d.grow, stamps: { story: s.id, line: i, marker: MARKERS[i] }, marker: MARKERS[i],
     }));
     const strips = stories.map((s, i) => C6.ssCutStrip({
       story: s.id, marker: MARKERS[i], cellW: d.tile + 4, cellH: d.tile * 0.75 + 4,
-      tiles: perms[i].map((seq) => ({ seq, rank: s.sub3[seq - 1], svg: SP.storyPanel({ story: s, rank: s.sub3[seq - 1], w: d.tile, frame: false }).svg })),
+      tiles: perms[i].map((seq) => ({ seq, rank: s[d.sub][seq - 1], svg: SP.storyPanel({ story: s, rank: s[d.sub][seq - 1], w: d.tile, frame: false }).svg })),
     }));
     const bodyHtml = faceRoot('first-next-last-cut', lines.join('') + `<div data-ss-block data-lcs-strips style="display:flex;flex-direction:column;gap:10px;flex:0 0 auto">${strips.join('')}</div>`,
-      { stories: 2, frame: d.frame, tile: d.tile, words3: JSON.stringify(words) });
+      { stories: nS, frame: d.frame, tile: d.tile, words3: JSON.stringify(words) });
     return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), perms: perms.map((p) => p.join('')).join(','), answers: perms.map((p) => p.join('')).join('|') } };
   },
 
   /** F2 (G1): three stories hang IN ORDER, ranks 1-3 + a "?" frame; a tray of three: rank 4 · rank 1 again · another story's ending. */
   'what-happens-next'(block, d, loc, rng, seam) {
-    if (d.answer !== 'choice' || d.choices !== 3 || d.shown !== 3) throw new Error('K-379 F2: config is not the what-happens-next face');
+    if (d.answer !== 'choice' || ![2, 3, 4].includes(d.choices) || d.shown !== 3) throw new Error('K-379 F2: config is not the what-happens-next face');
+    // Level Set: 2 choices (the ending + another story's ending) / 3 (published: + the regression) / 4 (+ picture 2 again)
+    const FOILS = d.choices === 2 ? ['other'] : d.choices === 4 ? ['regress', 'mid', 'other'] : ['regress', 'other'];
     const pool = storyPool(block, loc, 'sub4').filter((s) => s.sub4.join('') === '1234' && (s.pools || []).includes('what-happens-next'));
     if (pool.length < d.stories + 2) throw new Error(`K-379 ${loc}: F2 pool ${pool.length} (refuse)`);
     let plan = seam.plan || null;
@@ -240,11 +313,17 @@ const FACE_BUILD = {
         others.push(rng.pick(cand));
       }
       if (others.length !== stories.length) continue;
-      const slots = rng.pick(TRAY_PERMS).split('').map(Number);
-      plan = { stories: stories.map((s) => s.id), others: others.map((s) => s.id), slots, foilOrder: stories.map(() => (rng.next() < 0.5 ? ['regress', 'other'] : ['other', 'regress'])) };
+      if (d.choices === 3) {
+        const slots = rng.pick(TRAY_PERMS).split('').map(Number);
+        plan = { stories: stories.map((s) => s.id), others: others.map((s) => s.id), slots, foilOrder: stories.map(() => (rng.next() < 0.5 ? ['regress', 'other'] : ['other', 'regress'])) };
+      } else {
+        const slots = rng.pick(trayPats(d.choices, stories.length)).split('').map(Number);
+        plan = { stories: stories.map((s) => s.id), others: others.map((s) => s.id), slots, foilOrder: stories.map(() => rng.shuffle(FOILS.slice())) };
+      }
     }
     if (!plan) throw new Error(`K-379 ${loc}: no F2 composition (refuse)`);
     const byId = (id) => COMMON.stories.find((x) => x.id === id);
+    const trays = plan.stories.map(() => []);
     const blocks = plan.stories.map((id, i) => {
       const s = byId(id), o = byId(plan.others[i]);
       const given = [1, 2, 3].map((rank) => ({ w: d.panelW, html: facePanel(s, rank, d.panelW, 120).box(`data-lcs-given data-lcs-story="${s.id}" data-lcs-rank="${rank}"`) }));
@@ -252,16 +331,18 @@ const FACE_BUILD = {
       const line = C6.ssLine({ items: given, gap: 12, minH: d.panelW * 0.75, grow: d.grow, stamps: { story: s.id } });
       const kinds = [];
       kinds[plan.slots[i]] = 'correct';
-      const rest = [0, 1, 2].filter((k) => k !== plan.slots[i]);
-      kinds[rest[0]] = plan.foilOrder[i][0]; kinds[rest[1]] = plan.foilOrder[i][1];
+      const rest = Array.from({ length: d.choices }, (_, k) => k).filter((k) => k !== plan.slots[i]);
+      rest.forEach((k, q) => { kinds[k] = plan.foilOrder[i][q]; });
       const cards = kinds.map((k, j) => {
-        const [st, rank] = k === 'correct' ? [s, 4] : k === 'regress' ? [s, 1] : [o, o.panels.length];
-        return facePanel(st, rank, d.panelW, 120, { uid: 'c' + j }).box(`data-lcs-choice data-lcs-slot="${j}" data-lcs-choice-story="${st.id}" data-lcs-choice-rank="${rank}" data-lcs-choice-setkind="${st.setKind}" data-lcs-choice-objects="${st.objects.join(',')}"`, false);
+        const [st, rank] = k === 'correct' ? [s, 4] : k === 'regress' ? [s, 1] : k === 'mid' ? [s, 2] : [o, o.panels.length];
+        trays[i].push({ story: st.id, rank });
+        const html = facePanel(st, rank, d.panelW, 120, { uid: 'c' + j }).box(`${seam.key && k === 'correct' ? 'data-lcs-keychoice ' : ''}data-lcs-choice data-lcs-slot="${j}" data-lcs-choice-story="${st.id}" data-lcs-choice-rank="${rank}" data-lcs-choice-setkind="${st.setKind}" data-lcs-choice-objects="${st.objects.join(',')}"`, false);
+        return seam.key && k === 'correct' ? html.replace(/(data-lcs-keychoice[^>]*?style=")/, '$1outline:4px solid #F2784B;outline-offset:3px;') : html;
       });
       return `<div data-lcs-next-block data-lcs-story="${s.id}" data-lcs-setkind="${s.setKind}" data-lcs-objects="${s.objects.join(',')}" style="flex:1 1 auto;display:flex;flex-direction:column;align-items:center;gap:8px;min-height:${fmt(24 + d.panelW * 0.75 + 8 + d.panelW * 0.75 + 14)}px">${line}<div data-ss-block style="flex:1 1 auto;display:flex;min-height:${fmt(d.panelW * 0.75 + 14)}px">${C6.ssChoiceTray({ cards })}</div></div>`;
     });
-    const bodyHtml = faceRoot('what-happens-next', blocks.join(''), { stories: d.stories, 'panel-w': d.panelW, 'tray-illegible': (COMMON.TRAY_ILLEGIBLE || []).join(',') });
-    return { bodyHtml, meta: { mode: d.mode, stories: plan.stories.join(','), others: plan.others.join(','), slots: plan.slots.join(''), answers: plan.slots.join('') } };
+    const bodyHtml = faceRoot('what-happens-next', blocks.join(''), { stories: d.stories, 'panel-w': d.panelW, 'tray-illegible': (COMMON.TRAY_ILLEGIBLE || []).join(','), ...(d.choices !== 3 ? { choices: d.choices } : {}) });
+    return { bodyHtml, meta: { mode: d.mode, stories: plan.stories.join(','), others: plan.others.join(','), slots: plan.slots.join(''), answers: plan.slots.join(''), ...(seam.fresh ? { trays: JSON.stringify(trays) } : {}) } };
   },
 
   /** F3 (G1): the first and last pictures at the ends of the line, an EMPTY middle frame to draw in, Beginning / Middle / End. */
@@ -278,7 +359,7 @@ const FACE_BUILD = {
       const last = facePanel(s, s.panels.length, d.endW, d.endVh).box(`data-lcs-end="last" data-lcs-story="${s.id}" data-lcs-rank="${s.panels.length}"`);
       const items = [
         { w: d.endW, html: first, under: C6.ssStageLabel({ text: bme[0], k: 0 }) },
-        { w: d.midW, html: C6.ssDrawCard({ w: d.midW, minH: midH }), under: C6.ssStageLabel({ text: bme[1], k: 1 }) },
+        { w: d.midW, html: C6.ssDrawCard({ w: d.midW, minH: midH, ...(seam.key ? { inner: SP.storyPanel({ story: s, rank: s.sub3[1], w: Math.min(d.midW - 16, (midH - 16) * 160 / 120), frame: false }).svg } : {}) }), under: C6.ssStageLabel({ text: bme[1], k: 1 }) },
         { w: d.endW, html: last, under: C6.ssStageLabel({ text: bme[2], k: 2 }) },
       ];
       return C6.ssLine({ items, gap: 22, minH: midH + 12 + 32, grow: d.grow, stamps: { story: s.id, setkind: s.setKind, line: i, panels: s.panels.length } });
@@ -293,21 +374,28 @@ const FACE_BUILD = {
     const ex = new Set(block.excludeStories || []);
     const pool = storyPool(block, loc, 'sub4').filter((s) => COMMON.SENTENCE_POOL.includes(s.id) && !ex.has(s.id) && block.stories && block.stories[s.id]);
     if (pool.length < 3) throw new Error(`K-379 ${loc}: F4 has ${pool.length} signed sentence stories (< 3; refuse)`);
-    const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, 2);
+    const nS = d.stories || 2;   // Level Set: 1 / 2 (published) / 3
+    const stories = seam.plan ? seam.plan.stories.map((id) => COMMON.stories.find((x) => x.id === id)) : pickPair(pool, rng, nS);
     if (!stories) throw new Error(`K-379 ${loc}: no F4 pair (refuse)`);
+    if (d.mixed) {
+      let pair = stories;
+      for (let t = 0; t < 200 && !seam.plan && pair && mixExcluded(pair.map((x) => x.id)); t++) pair = pickPair(pool, rng, nS);
+      if (!pair || mixExcluded(pair.map((x) => x.id))) throw new Error(`K-379 ${loc}: no mixable F4 pair (refuse)`);
+      return mixedSentences(block, d, loc, rng, pair, !!seam.key);
+    }
     // fix round 2 (en / fr / de panels: the sentences printed IN story order made the page matching, not
     // sequencing; 2 of 8 pictures sat straight across from their own sentence). Now BOTH columns are scrambled:
     // the sentences (scramble law, each with an EMPTY order box the child numbers) and the pictures (scramble
     // law) — and no picture sits on the row of its own sentence (a row-wise derangement of the two columns).
-    const perms = seam.plan ? seam.plan.perms : lawPerms(4, rng, 2);
+    const perms = seam.plan ? seam.plan.perms : lawPerms(4, rng, nS);
     const sperms = seam.plan && seam.plan.sperms ? seam.plan.sperms : sentencePerms(perms, rng);
     const blocks = stories.map((s, i) => {
       const sen = block.stories[s.id].sentences;
       if (!Array.isArray(sen) || sen.length !== 4) throw new Error(`K-379 ${loc}: ${s.id} sentences (refuse)`);
-      const pics = perms[i].map((seq, j) => facePanel(s, s.sub4[seq - 1], d.panelW, 120).box(`data-lcs-pic data-lcs-seq="${seq}" data-lcs-slot="${j}" data-lcs-story="${s.id}"`));
-      return C6.ssSentenceMatch({ pics, sentences: sperms[i].map((rank) => ({ text: sen[rank - 1], rank })), orderBox: true, picW: d.panelW, rowMinH: d.panelW * 0.75, gap: 4, textW: d.textW, textPx: 16, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(',') } });
+      const pics = perms[i].map((seq, j) => { const h = facePanel(s, s.sub4[seq - 1], d.panelW, 120).box(`data-lcs-pic data-lcs-seq="${seq}" data-lcs-slot="${j}" data-lcs-story="${s.id}"`); return seam.key ? keyBadge(h, seq) : h; });
+      return C6.ssSentenceMatch({ pics, sentences: sperms[i].map((rank) => ({ text: sen[rank - 1], rank, ...(seam.key ? { key: rank } : {}) })), orderBox: true, picW: d.panelW, rowMinH: d.panelW * 0.75, gap: 4, textW: d.textW, textPx: d.textPx || 16, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(',') } });
     });
-    const bodyHtml = faceRoot('sequencing-sentences', blocks.join(''), { stories: 2, openers4: JSON.stringify(block.openers4) }, ';gap:14px;justify-content:space-between');
+    const bodyHtml = faceRoot('sequencing-sentences', blocks.join(''), { stories: nS, openers4: JSON.stringify(block.openers4) }, ';gap:14px;justify-content:space-between');
     return { bodyHtml, meta: { mode: d.mode, stories: stories.map((s) => s.id).join(','), perms: perms.map((p) => p.join('')).join(','), sperms: sperms.map((p) => p.join('')).join(','), answers: sperms.map((p) => p.join('')).join('|') + '#' + perms.map((p) => p.join('')).join('|') } };
   },
 
@@ -365,25 +453,28 @@ async function faceVerify(page, mode) {
     if (mode === 'first-next-last-cut') {
       const words = JSON.parse(root.dataset.lcsWords3 || '[]');
       const lines = [...root.querySelectorAll('[data-lcs-story-line]')];
-      if (lines.length !== 2) fails.push(`${lines.length} glue lines ≠ 2`);
+      const S1 = +root.dataset.lcsStories || 2;
+      if (lines.length !== S1) fails.push(`${lines.length} glue lines ≠ ${S1}`);
       const frameR = [];
       for (const ln of lines) {
         const fr = byX([...ln.querySelectorAll('[data-lcs-glue-k]')]);
-        if (fr.length !== 3) fails.push(`line ${ln.dataset.lcsLine}: ${fr.length} frames ≠ 3`);
+        if (fr.length !== words.length) fails.push(`line ${ln.dataset.lcsLine}: ${fr.length} frames ≠ ${words.length}`);
         fr.forEach((f, k) => { if (+f.el.dataset.lcsGlueK !== k) fails.push(`line ${ln.dataset.lcsLine}: frame ${k} stamped ${f.el.dataset.lcsGlueK}`); if (!empty(f.el)) fails.push(`line ${ln.dataset.lcsLine}: frame ${k} is not empty`); frameR.push(f.r); });
         const wt = byX([...ln.querySelectorAll('[data-lcs-word-k]')]);
         wt.forEach((t, k) => { if (+t.el.dataset.lcsWordK !== k || t.el.textContent.trim() !== words[k]) fails.push(`line ${ln.dataset.lcsLine}: word ${k} "${t.el.textContent.trim()}" ≠ "${words[k]}"`); });
-        if (wt.length !== 3) fails.push(`line ${ln.dataset.lcsLine}: ${wt.length} word tags ≠ 3`);
+        if (wt.length !== words.length) fails.push(`line ${ln.dataset.lcsLine}: ${wt.length} word tags ≠ ${words.length}`);
       }
       const strips = [...root.querySelectorAll('[data-lcs-strip-story]')];
-      if (strips.length !== 2) fails.push(`${strips.length} cut strips ≠ 2`);
+      if (strips.length !== S1) fails.push(`${strips.length} cut strips ≠ ${S1}`);
       const perms = [];
       strips.forEach((st, i) => {
         const tiles = byX([...st.querySelectorAll('[data-ss-tile]')]);
         const seqs = tiles.map((t) => +t.el.dataset.lcsSeq);
-        if (seqs.slice().sort().join('') !== '123') fails.push(`strip ${i}: seq ${seqs.join('')} is not 1..3`);
+        const NW = words.length;
+        if (seqs.slice().sort().join('') !== Array.from({ length: NW }, (_, k) => k + 1).join('')) fails.push(`strip ${i}: seq ${seqs.join('')} is not 1..${NW}`);
         const sj = seqs.join('');
-        if (sj === '123') fails.push(`strip ${i}: order ${sj} is the answer order (identity)`);
+        if (NW === 4) { const lf = law(seqs); if (lf) fails.push(`strip ${i}: order ${sj} breaks the scramble law (${lf})`); }
+        else if (sj === '123') fails.push(`strip ${i}: order ${sj} is the answer order (identity)`);
         else if (sj === '231' || sj === '312') fails.push(`strip ${i}: order ${sj} is a ROTATION of the answer order`);
         else if (!['132', '213', '321'].includes(sj)) fails.push(`strip ${i}: order ${sj} is not a legal strip`);
         const ranks = tiles.map((t, j) => [seqs[j], +t.el.dataset.lcsTileRank]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
@@ -393,16 +484,16 @@ async function faceVerify(page, mode) {
         for (const r of tr) for (const f of frameR) if (r.width > f.width - 8 + 0.5 || r.height > f.height - 8 + 0.5) { fails.push(`strip ${i}: a tile ${Math.round(r.width)} x ${Math.round(r.height)} does not fit a frame ${Math.round(f.width)} x ${Math.round(f.height)} with 8 px slop`); break; }
         perms.push(seqs.join(''));
       });
-      if (perms.length === 2 && perms[0] === perms[1]) fails.push(`both strips are scrambled ${perms[0]}`);
+      if (new Set(perms).size !== perms.length) fails.push(`two strips are scrambled the same (${perms.join(',')})`);
       // the pairing marker: strip i and line i show the SAME drawn shape; the two stories' shapes differ
       const mk = strips.map((st, i) => {
         const a = st.querySelector('[data-lcs-marker]'), b = lines[i] && lines[i].querySelector('[data-lcs-line-marker] [data-lcs-marker]');
-        const shape = (el) => (el ? (el.querySelector('circle') ? 'dot' : el.querySelector('polygon') ? 'triangle' : '?') : null);
+        const shape = (el) => (el ? (el.querySelector('circle') ? 'dot' : el.querySelector('polygon') ? 'triangle' : el.querySelector('rect') ? 'square' : '?') : null);
         if (!a || !b) fails.push(`strip ${i} / line ${i}: a pairing marker is missing`);
         else if (shape(a) !== shape(b)) fails.push(`strip ${i} shows a ${shape(a)} but its line shows a ${shape(b)} (the pairing marker disagrees)`);
         return shape(a);
       });
-      if (mk.length === 2 && mk[0] && mk[0] === mk[1]) fails.push(`both stories carry the same pairing marker ${mk[0]}`);
+      if (new Set(mk).size !== mk.length) fails.push(`two stories carry the same pairing marker (${mk.join(',')})`);
       return fails;
     }
     if (mode === 'what-happens-next') {
@@ -416,24 +507,28 @@ async function faceVerify(page, mode) {
         if (given.map((g) => g.el.dataset.lcsStory + '#' + g.el.dataset.lcsRank).join(',') !== `${id}#1,${id}#2,${id}#3`) fails.push(`block ${i}: the given panels are not ranks 1, 2, 3 of ${id} in order`);
         if (!b.querySelector('[data-lcs-query]')) fails.push(`block ${i}: no query frame`);
         const ch = byX([...b.querySelectorAll('[data-lcs-choice]')]);
-        if (ch.length !== 3) fails.push(`block ${i}: ${ch.length} choices ≠ 3`);
+        const NC = +root.dataset.lcsChoices || 3;
+        if (ch.length !== NC) fails.push(`block ${i}: ${ch.length} choices ≠ ${NC}`);
         const correct = ch.map((c, j) => (c.el.dataset.lcsChoiceStory === id && c.el.dataset.lcsChoiceRank === '4' ? j : -1)).filter((j) => j >= 0);
         if (correct.length !== 1) fails.push(`block ${i}: ${correct.length} choices are ${id} rank 4`);
         slots.push(correct[0]);
         for (const c of ch) {
           const cs = c.el.dataset.lcsChoiceStory, cr = +c.el.dataset.lcsChoiceRank;
           if (cs === id && cr === 4) continue;
-          if (cs === id) { if (cr !== 1) fails.push(`block ${i}: a same-story foil at rank ${cr} (only the regression, rank 1, is legal)`); continue; }
+          if (cs === id) { if (!(cr === 1 || (NC === 4 && cr === 2))) fails.push(`block ${i}: a same-story foil at rank ${cr} (only the regression, rank 1${NC === 4 ? ', or picture 2' : ''}, is legal)`); continue; }
           if (c.el.dataset.lcsChoiceSetkind === sk) fails.push(`block ${i}: the other-story foil ${cs} shares the stage "${sk}"`);
           if (c.el.dataset.lcsChoiceObjects.split(',').some((o) => objs.includes(o))) fails.push(`block ${i}: the other-story foil ${cs} shares an object`);
           if (pageStories.includes(cs)) fails.push(`block ${i}: the other-story foil ${cs} is a story on the page`);
           if ((root.dataset.lcsTrayIllegible || '').split(',').includes(cs)) fails.push(`block ${i}: the other-story foil ${cs} ends in a panel nobody can name at tray size (COMMON.TRAY_ILLEGIBLE)`);
         }
-        if (!ch.some((c) => c.el.dataset.lcsChoiceStory === id && c.el.dataset.lcsChoiceRank === '1')) fails.push(`block ${i}: no regression foil`);
+        if (NC !== 2 && !ch.some((c) => c.el.dataset.lcsChoiceStory === id && c.el.dataset.lcsChoiceRank === '1')) fails.push(`block ${i}: no regression foil`);
+        if (NC === 4 && !ch.some((c) => c.el.dataset.lcsChoiceStory === id && c.el.dataset.lcsChoiceRank === '2')) fails.push(`block ${i}: no picture-2 foil`);
         if (!ch.some((c) => c.el.dataset.lcsChoiceStory !== id)) fails.push(`block ${i}: no other-story foil`);
       });
       const sj = slots.join('');
-      if (sj === '012' || sj === '210' || new Set(slots).size !== slots.length) fails.push(`the correct choices sit in slots ${sj} (a staircase / repeat)`);
+      const NC2 = +root.dataset.lcsChoices || 3;
+      if (NC2 === 2) { if (new Set(slots).size < 2) fails.push(`the correct choices all sit in slot ${sj[0]}`); }
+      else if (/^(012|123|210|321)$/.test(sj) || new Set(slots).size !== slots.length) fails.push(`the correct choices sit in slots ${sj} (a staircase / repeat)`);
       return fails;
     }
     if (mode === 'beginning-middle-end') {
@@ -457,10 +552,39 @@ async function faceVerify(page, mode) {
       if (kinds.length === 2 && kinds[0] === kinds[1]) fails.push(`the two stories share the stage ${kinds[0]}`);
       return fails;
     }
+    if (mode === 'sequencing-sentences' && root.dataset.lcsMixed) {
+      const blocks = [...root.querySelectorAll('[data-lcs-match-block]')];
+      if (blocks.length !== 1) return [`${blocks.length} mixed blocks ≠ 1`];
+      const ids = blocks[0].dataset.lcsStory.split(',');
+      if (ids.length !== 2 || ids[0] === ids[1]) fails.push(`the mixed list tells ${ids.join(',')} (≠ two stories)`);
+      if ((ids.includes('banana') && ids.includes('paper-chain')) || (ids.includes('cake') && ids.includes('sandwich'))) fails.push(`the mixed list pairs ${ids.join(',')} (a sentence of one fits a picture of the other)`);
+      const sen = byY([...blocks[0].querySelectorAll('[data-lcs-sentence]')]);
+      const pics = byY([...blocks[0].querySelectorAll('[data-lcs-pic]')]);
+      if (sen.length !== 8 || pics.length !== 8) fails.push(`${sen.length} sentences / ${pics.length} pictures ≠ 8`);
+      const colOk = (col, what) => ids.forEach((id) => {
+        const seqs = col.filter((x) => x.id === id).map((x) => x.seq);
+        if (seqs.slice().sort().join('') !== '1234') fails.push(`${what}: ${id} carries ${seqs.join('')} (≠ 1..4)`);
+        const lf = law(seqs); if (lf) fails.push(`${what}: ${id} reads ${seqs.join('')} top to bottom (${lf})`);
+        const rows = col.map((x, j) => (x.id === id ? j : -1)).filter((j) => j >= 0);
+        if (rows[3] - rows[0] === 3) fails.push(`${what}: ${id} sits as one block of four rows`);
+      });
+      const S = sen.map((s) => ({ id: s.el.dataset.lcsStory, seq: +s.el.dataset.lcsRank }));
+      const P = pics.map((p) => ({ id: p.el.dataset.lcsStory, seq: +p.el.dataset.lcsSeq }));
+      colOk(S, 'sentences'); colOk(P, 'pictures');
+      sen.forEach((s, k) => {
+        if (s.el.querySelectorAll('[data-lcs-order-box]').length !== 1) fails.push(`sentence row ${k + 1}: ≠ 1 order box`);
+        const c = pics.filter((p) => { const m = (p.r.top + p.r.bottom) / 2; return m > s.r.top && m < s.r.bottom; });
+        if (c.length === 1 && c[0].el.dataset.lcsStory === S[k].id && +c[0].el.dataset.lcsSeq === S[k].seq) fails.push(`sentence row ${k + 1} sits straight across from its own picture`);
+        const t = s.el.querySelector('[data-lcs-sentence-text]'); const lh = parseFloat(getComputedStyle(t).lineHeight);
+        if (t.getBoundingClientRect().height > 2 * lh + 1) fails.push(`sentence row ${k + 1} runs past 2 lines`);
+      });
+      return fails;
+    }
     if (mode === 'sequencing-sentences') {
       const blocks = [...root.querySelectorAll('[data-lcs-match-block]')];
       const openers = JSON.parse(root.dataset.lcsOpeners4 || '[]');
-      if (blocks.length !== 2) fails.push(`${blocks.length} match blocks ≠ 2`);
+      const S4 = +root.dataset.lcsStories || 2;
+      if (blocks.length !== S4) fails.push(`${blocks.length} match blocks ≠ ${S4}`);
       const perms = [], sperms = [];
       for (const b of blocks) {
         const id = b.dataset.lcsStory;
@@ -503,8 +627,9 @@ async function faceVerify(page, mode) {
         }
         perms.push(seqs); sperms.push(ranks);
       }
-      if (perms.length === 2 && (perms[0].join('') === perms[1].join('') || perms[0].indexOf(1) === perms[1].indexOf(1))) fails.push('the two picture columns share a permutation / first slot');
-      if (sperms.length === 2 && (sperms[0].join('') === sperms[1].join('') || sperms[0].indexOf(1) === sperms[1].indexOf(1))) fails.push('the two sentence columns share a permutation / first slot');
+      const clash = (ps) => ps.some((p, a) => ps.some((q, b) => b > a && (p.join('') === q.join('') || p.indexOf(1) === q.indexOf(1))));
+      if (clash(perms)) fails.push('two picture columns share a permutation / first slot');
+      if (clash(sperms)) fails.push('two sentence columns share a permutation / first slot');
       return fails;
     }
     if (mode === 'retell-with-starters') {
@@ -542,7 +667,8 @@ async function faceVerify(page, mode) {
 const D = {
   1: { mode: 'base', stories: 2, panels: 3, sub: 'sub3', panelW: 200, gap: 19.5, vh: 150, tagW: 80, tagH: 76, grow: 50, answer: 'numeral' },
   2: { mode: 'base', stories: 2, panels: 4, sub: 'sub4', panelW: 153, gap: 9, vh: 198, tagW: 80, tagH: 76, grow: 50, answer: 'numeral' },
-  3: { mode: 'base', stories: 2, panels: 5, sub: 'n5', panelW: 120, gap: 9.75, vh: 208, tagW: 64, tagH: 60, grow: 90, answer: 'numeral' },
+  // Level Set 2026-10-01: level 3 = THREE stories of four pictures (the old five-picture level drew from only two stories)
+  3: { mode: 'base', stories: 3, panels: 4, sub: 'sub4', panelW: 146, gap: 18, vh: 120, tagW: 64, tagH: 56, grow: 40, answer: 'numeral' },
 };
 
 module.exports = {
@@ -552,6 +678,10 @@ module.exports = {
   assetClass: 'geometry',
   exerciseType: 'story-sequencing',
   themeAxis: { applicable: false },
+  // Level Set 2026-10-01: the screen version (new pages only): tap the pictures in story order
+  interactive: SSS.interactiveFor('order'),
+  // Level Set: what makes a copy new is its STORIES (two tokens each — see tools/level-set/story-sequencing.config.js)
+  levelSetWords: (m) => String(m.stories || '').split(',').filter(Boolean).flatMap((id) => [id, id + ':story']),
   difficulty: D,
   i18n: {
     en: {
@@ -570,7 +700,15 @@ module.exports = {
 
   build({ difficulty, locale }, ctx) {
     const loc = String(locale || 'en').slice(0, 2);
-    return this._buildWith({ block: bank('story-sequencing', loc), config: this.difficulty[difficulty] }, { locale: loc }, ctx);
+    const config = this.difficulty[difficulty];
+    const block = bank('story-sequencing', loc);
+    const fresh = isFresh(difficulty, ctx);
+    if (fresh && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._buildWith({ block, config }, { locale: loc }, { ...ctx, interactive: false, answerKey: false, fresh: true, keyFill: !!ctx.answerKey });
+      return ctx.answerKey ? built : SSS.screen(built, config, loc);
+    }
+    return this._buildWith({ block, config }, { locale: loc }, { ...ctx, fresh });
   },
 
   /**
@@ -587,11 +725,11 @@ module.exports = {
       if (!FACE_BUILD[d.mode]) throw new Error(`K-379: unknown mode "${d.mode}" (refuse)`);
       if (!block) throw new Error(`K-379 ${loc}: no locale block (refuse)`);
       if (!block.strings || !block.strings[d.mode]) throw new Error(`K-379 ${loc}: strings.${d.mode} missing (refuse)`);
-      return FACE_BUILD[d.mode](block, d, loc, ctx.rng, { plan: planSeam });
+      return FACE_BUILD[d.mode](block, d, loc, ctx.rng, { plan: planSeam, fresh: !!ctx.fresh, key: !!ctx.keyFill });
     }
     if (!block) throw new Error(`K-379 ${loc}: no locale block (refuse)`);
     if (!block.strings || !block.strings.base) throw new Error(`K-379 ${loc}: strings.base missing (refuse)`);
-    if (![1, 2].includes(d.stories)) throw new Error(`K-379: stories ${d.stories}`);
+    if (![1, 2, 3].includes(d.stories)) throw new Error(`K-379: stories ${d.stories}`);
     if (![3, 4, 5].includes(d.panels)) throw new Error(`K-379: panels ${d.panels}`);
     if (!['sub3', 'sub4', 'n5'].includes(d.sub)) throw new Error(`K-379: sub "${d.sub}"`);
     if (!(d.vh >= 120)) throw new Error(`K-379: vh ${d.vh} < 120`);
@@ -613,6 +751,8 @@ module.exports = {
         if (a.setKind === b.setKind) continue;
         if (a.objects.some((o) => b.objects.includes(o))) continue;
       }
+      // Level Set level 3 (three stories): every pair on a different stage, no shared object
+      if (d.stories === 3 && picks.some((a, x) => picks.some((b, y) => y > x && (a.setKind === b.setKind || a.objects.some((o) => b.objects.includes(o)))))) continue;
       const perms = [];
       for (let i = 0; i < d.stories; i++) {
         let p = null;
@@ -635,7 +775,7 @@ module.exports = {
       const perm = plan.perms[i];
       const cards = perm.map((seq) => {
         const r = SP.storyPanel({ story: s, rank: sub[seq - 1], w: d.panelW, vh: d.vh, frame: false });
-        return { svg: r.svg, w: r.width, h: r.height, seq, tag: { w: d.tagW, h: d.tagH }, anchor: s.anchor, sky: SKY(s) };
+        return { svg: r.svg, w: r.width, h: r.height, seq, tag: { w: d.tagW, h: d.tagH, ...(ctx.keyFill ? { key: seq } : {}) }, anchor: s.anchor, sky: SKY(s) };
       });
       return C6.ssHungRow({ cards, w: ROW_W, gap: d.gap, under: 'tag', grow: d.grow, stamps: { story: s.id, setkind: s.setKind, objects: s.objects.join(','), panels: d.panels } });
     });
@@ -699,8 +839,8 @@ module.exports = {
         if (lawFail) fails.push(`${id}: the row ${seqs.join('')} breaks the scramble law (${lawFail})`);
         perms.push({ id, seqs, setKind: row.dataset.lcsSetkind, objects: (row.dataset.lcsObjects || '').split(',') });
       }
-      if (perms.length === 2) {
-        const [a, b] = perms;
+      for (let x = 0; x < perms.length; x++) for (let y = x + 1; y < perms.length; y++) {
+        const a = perms[x], b = perms[y];
         if (a.id === b.id) fails.push('the two rows tell the same story');
         if (a.setKind === b.setKind) fails.push(`the two stories share the stage "${a.setKind}"`);
         if (a.objects.some((o) => b.objects.includes(o))) fails.push('the two stories share an object');

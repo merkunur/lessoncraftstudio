@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-401',
   slug: 'beginning-middle-and-end-of-a-story',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/story-sequencing-screen.js').interactiveFor('middle'),
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  difficulty: { 1: { ...D, stories: 1 }, 2: D, 3: { ...D, stories: 3, endW: 124 } },
   i18n: { en: { title: "Beginning, Middle and End of a Story", instruction: "Look at the beginning and the end of each story and draw what happens in the middle frame." } },
   gradeBand: "G1",
 };

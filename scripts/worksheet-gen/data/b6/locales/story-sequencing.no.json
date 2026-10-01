@@ -141,7 +141,7 @@
         "Gjerdet er helt hvitt.",
         "Gjerdet har to planker som er malt.",
         "Gjerdet har fire planker som er malt.",
-        "Det er malt på hele gjerdet."
+        "Hele gjerdet er malt."
       ],
       "stateWords": [
         "helt hvitt",
@@ -194,7 +194,7 @@
     },
     "paper-chain": {
       "sentences": [
-        "Det er ett ark.",
+        "Det er ett ark papir.",
         "Arket er klippet i fem strimler.",
         "Det er limt to strimler til ringer.",
         "Alle fem ringene er blitt en papirlenke."

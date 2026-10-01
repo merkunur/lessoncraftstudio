@@ -183,14 +183,14 @@ function buildDeckHtml(o) {
   const variantN = manifest.variant && manifest.variant > 1 ? manifest.variant : null;
   const setWord = word(locale, 'set', 'Set');
 
-  const seoBlock = seoHead.buildSeoHead({
+  const seoFor = (mode, wWord) => seoHead.buildSeoHead({
     language: locale,
     exerciseTypeName: strings.title,
     exerciseTypeSlug: spec.exerciseType,
     themeName: themeName,
-    exerciseModeName: modeName,
+    exerciseModeName: mode,
     exerciseModeKey: manifest.exercise_mode,
-    worksheetWord: word(locale, 'worksheet', 'Worksheet'),
+    worksheetWord: wWord || word(locale, 'worksheet', 'Worksheet'),
     instruction: strings.instruction,
     freeInteractive: word(locale, 'free_printable', 'Free printable'),
     forWord: word(locale, 'for', 'for'),
@@ -205,6 +205,15 @@ function buildDeckHtml(o) {
     variantId: variantN ? String(variantN) : undefined,
     variantLabel: setWord,
   });
+  // Level Set decks (indexable:false) whose type title is long (es / fr / pt Story Sequencing faces) can push the banded
+  // description past 170 on the LEAD alone, before any middle sentence; publish-bulk refuses those. For these never-indexed
+  // copies only, the level word is dropped from the head when (and only when) that is what keeps the description in band.
+  const descLen = (block) => { const m = /<meta name="description" content="([^"]*)"/.exec(block); return m ? [...m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")].length : 0; };
+  let seoBlock = seoFor(modeName);
+  if (manifest.indexable === false && modeName && descLen(seoBlock) > 170) seoBlock = seoFor(null);
+  // still over (es Sentences, a two-digit set number): the title's own shorter worksheet word (es "Ficha" for "Hoja de ejercicios")
+  const shortWord = (TITLE_CONFIG[locale] || {}).worksheetWordOverride;
+  if (manifest.indexable === false && shortWord && descLen(seoBlock) > 170) seoBlock = seoFor(null, shortWord);
 
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
   const breadcrumbLd = buildBreadcrumbLd(locale, typeAxis, strings.title);

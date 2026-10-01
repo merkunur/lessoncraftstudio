@@ -95,8 +95,10 @@ check('REAL substitute.apply: zero errors, zero leftover placeholders', function
   assert.deepStrictEqual(sub.errors, []);
   const leftover = (sub.html.match(/__[A-Z][A-Z0-9_]+__/g) || []);
   assert.deepStrictEqual(leftover, [], 'leftover: ' + leftover.join(','));
-  assert.ok(sub.html.indexOf('https://www.lessoncraftstudio.com/en/decks/counting-pictures-animals-k002/counting-pictures-animals-k002-printable.pdf') !== -1,
-    '__PDF_URL__ must resolve to slug-prefixed printable PDF');
+  // 2026-10-01 free-tier policy: the download goes through the METERED proxy, never straight to the file
+  assert.ok(sub.html.indexOf('https://www.lessoncraftstudio.com/api/quota/dl?loc=en&amp;slug=counting-pictures-animals-k002&amp;kind=pdf') !== -1,
+    '__PDF_URL__ must resolve to the metered download proxy');
+  assert.ok(!/href="[^"]*\.pdf"/.test(sub.html), 'no direct .pdf href may remain on the deck page');
 });
 
 check('themeless deck substitutes cleanly (no theme link, theme recon legitimate-null)', function () {

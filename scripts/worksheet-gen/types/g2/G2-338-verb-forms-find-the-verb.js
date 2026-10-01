@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-338',
   slug: 'verb-forms-find-the-verb',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/verb-forms-screen.js').interactiveFor('hunt', base.mergedBankOf),
+  difficulty: { 1: { ...D, rows: 6, items: [4, 16] }, 2: D, 3: { ...D, rows: 9, rowMin: 70 } },
   i18n: { en: { title: "Find the Verb, Write Its Base Form", instruction: "Underline the verb in each sentence. Then write its base form in the dashed box." } },
 };

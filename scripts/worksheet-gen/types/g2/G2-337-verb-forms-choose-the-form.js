@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-337',
   slug: 'verb-forms-choose-the-form',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/verb-forms-screen.js').interactiveFor('choice', base.mergedBankOf),
+  difficulty: { 1: { ...D, rows: 6, candidates: 2, items: [4, 16] }, 2: D, 3: { ...D, rows: 9, rowMin: 70 } },
   i18n: { en: { title: "Choose the Right Verb Form", instruction: "Read the sentence. Three forms of the verb are printed under it. Circle the one that fits." } },
 };

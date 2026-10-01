@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-336',
   slug: 'verb-forms-helper-verbs',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/verb-forms-screen.js').interactiveFor('irregular', base.mergedBankOf),
+  difficulty: { 1: { ...D, given: 3, minHardGaps: 2, lanes: 2, tenseGaps: 4, minPerCol: 2, items: [4, 16] }, 2: D, 3: { ...D, given: 0, minHardGaps: 4, lanes: 4, laneMin: 72, tenseGaps: 8, minPerCol: 4 } },
   i18n: { en: { title: "The Irregular Verbs: be, have, do, go", instruction: "These verbs change a lot. Write the today form and the yesterday form of each one in the dashed boxes." } },
 };

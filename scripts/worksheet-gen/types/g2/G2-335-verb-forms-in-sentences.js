@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-335',
   slug: 'verb-forms-in-sentences',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/verb-forms-screen.js').interactiveFor('sentences', base.mergedBankOf),
+  difficulty: { 1: { ...D, lanes: 4, pictured: 3, items: [4, 16] }, 2: D, 3: { ...D, lanes: 8, pictured: 2, laneMin: 72, laneMax: 96 } },
   i18n: { en: { title: "Verb Forms in Sentences with Pictures", instruction: "Look at the picture and read the verb in the chip. Write the form that fits the sentence in the dashed box." } },
 };

@@ -448,7 +448,7 @@ async function renderCheck(page, type, inj, job, opts) {
       const lb = l.getBoundingClientRect();
       inside(lb, `lane ${i + 1}`);
       const img = l.querySelector('img');
-      if (!img && !core) res.fails.push(`lane ${i + 1}: no picture`);
+      if (!img && !core && !root.dataset.lcsRowpics) res.fails.push(`lane ${i + 1}: no picture`);
       else if (img) { const r = img.getBoundingClientRect(); if (Math.abs(r.width - lanePic) > 0.6 || Math.abs(r.height - lanePic) > 0.6) res.fails.push(`lane ${i + 1} picture ${r.width.toFixed(1)}x${r.height.toFixed(1)} != ${lanePic}`); }
       const p = l.querySelector('[data-lcs-sentence]');
       if (!p) res.fails.push(`lane ${i + 1}: no sentence`);

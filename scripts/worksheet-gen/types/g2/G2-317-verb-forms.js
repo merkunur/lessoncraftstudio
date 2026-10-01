@@ -134,6 +134,20 @@ const BW_MARK = /(^|\s|_)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;
 function fold(s) { return String(s).trim().toLocaleLowerCase(); }
 function tokens(s) { return fold(s).split(/[^\p{L}']+/u).filter(Boolean); }
 
+/* Level Set 2026-10-01: the new sentences (data/b3/verb-forms-levelset.js) merged over the bank — read ONLY by new
+ * pages (every coordinate but level 2 copy 1). The published pages keep reading the original bank, byte for byte. */
+let _ls;
+function levelSetData() { if (_ls === undefined) _ls = require('../../data/b3/verb-forms-levelset.js'); return _ls; }
+function mergedBank(loc) {
+  const b = loadBank(KEY, loc);
+  const add = (levelSetData()[loc] || []).map((f, k) => ({ id: 'ls' + (k + 1), text: f.text, col: f.col, unit: b.exemplar, fits: f.fits.slice(), subjectLiteral: f.subject, pic: null }));
+  return { ...b, levelSet: true, frames: [...(b.frames || []), ...add] };
+}
+const _merged = new Map();
+function mergedBankOf(loc) { if (!_merged.has(loc)) _merged.set(loc, mergedBank(loc)); return _merged.get(loc); }
+let _vfs = null;
+const VFS = () => (_vfs = _vfs || require('../../lib/verb-forms-screen.js'));
+
 /** The unit record; throws on an unknown unit. */
 function unitOf(bank, key) {
   const u = (bank.units || []).find((x) => x.key === key);
@@ -592,9 +606,10 @@ module.exports = {
     tokens: (unit, loc) => { const u = unitOf(loadBank(KEY, loc), unit); return { U: u.label, L: u.label.toLocaleLowerCase(loc), UNIT: u.label }; },
   },
   difficulty: {
-    1: { tables: 1, verbsPerPage: 1, given: 3, minHardGaps: 2, pool: 'regular', lanes: 2, laneMode: 'write', hint: true, pic: 72, rowH: 52, boxW: 400, boxH: 36, pronounW: 120, tableW: 675, tenseRows: 6, tenseGaps: 6, gapCols: ['past', 'pres'], gapOrder: 'first', minPerRow: 1, minPerCol: 0, laneMin: 96, laneMax: 150, tenseIcon: 56, items: [4, 16] },
-    2: { tables: 2, verbsPerPage: 2, given: 2, minHardGaps: 3, pool: 'regular', lanes: 3, laneMode: 'write', hint: true, pic: 64, rowH: 46, boxW: 206, boxH: 36, pronounW: 96, tableW: 330, tenseRows: 6, tenseGaps: 8, gapCols: ['pres', 'past'], gapOrder: 'random', minPerRow: 1, minPerCol: 3, laneMin: 96, laneMax: 132, tenseIcon: 44, items: [8, 16] },
-    3: { tables: 2, verbsPerPage: 2, given: 0, minHardGaps: 4, pool: 'all', lanes: 3, laneMode: 'write', hint: false, pic: 64, rowH: 46, boxW: 206, boxH: 36, pronounW: 96, tableW: 330, tenseRows: 6, tenseGaps: 10, gapCols: ['pres', 'past'], gapOrder: 'random', minPerRow: 1, minPerCol: 3, laneMin: 96, laneMax: 132, tenseIcon: 44, items: [8, 16] },
+    1: { tables: 1, verbsPerPage: 1, given: 3, minHardGaps: 2, pool: 'regular', lanes: 2, laneMode: 'write', hint: true, pic: 72, rowH: 52, boxW: 400, boxH: 36, pronounW: 120, tableW: 675, tenseRows: 6, tenseGaps: 6, gapCols: ['past', 'pres'], gapOrder: 'first', minPerRow: 1, minPerCol: 0, laneMin: 96, laneMax: 150, tenseIcon: 56, lsTensePicMin: 3, items: [4, 16] },
+    2: { tables: 2, verbsPerPage: 2, given: 2, minHardGaps: 3, pool: 'regular', lanes: 3, laneMode: 'write', hint: true, pic: 64, rowH: 46, boxW: 206, boxH: 36, pronounW: 96, tableW: 330, tenseRows: 6, tenseGaps: 8, gapCols: ['pres', 'past'], gapOrder: 'random', minPerRow: 1, minPerCol: 3, laneMin: 96, laneMax: 132, tenseIcon: 44, lsTensePicMin: 3, items: [8, 16] },
+    // Level Set 2026-10-01: minHardGaps 3 (nl tt has only three forms that differ from the infinitive; given 0 gaps every other cell anyway)
+    3: { tables: 2, verbsPerPage: 2, given: 0, minHardGaps: 3, pool: 'all', lanes: 3, laneMode: 'write', hint: false, pic: 64, rowH: 46, boxW: 206, boxH: 36, pronounW: 96, tableW: 330, tenseRows: 6, tenseGaps: 10, gapCols: ['pres', 'past'], gapOrder: 'random', minPerRow: 1, minPerCol: 3, laneMin: 96, laneMax: 132, tenseIcon: 44, lsTensePicMin: 3, items: [8, 16] },
   },
   i18n: {
     en: {
@@ -605,9 +620,36 @@ module.exports = {
   eligible,
   poolFor,
 
+  mergedBank, mergedBankOf,
+  // Level Set 2026-10-01: the screen version of new pages (each face declares its own)
+  get interactive() { return VFS().interactiveFor('base', mergedBankOf); },
+  /** Level Set copies: what makes two pages of one level different (build-waves measures the overlap of these). */
+  levelSetWords(m) {
+    // the page's verbs and its sentence frames (never the column keys: a person is not a new thing to ask)
+    const out = [];
+    // the irregular core (G2-336) names its verbs in its title: a new copy is new SENTENCES, so only the frames count
+    if (m.core) return (m.lanes || []).map((l) => 'frame:' + l[2]);
+    // the sentence faces (G2-335/337/338) draw every page from the same verbs: a new copy is new SENTENCES
+    if (['sentences', 'choice', 'hunt'].includes(m.face)) return [...(m.lanes || []), ...(m.rows || [])].map((r) => 'frame:' + r[2]);
+    for (const t of m.tables || []) for (const r of t) out.push(r[0]);
+    for (const l of m.lanes || []) out.push(l[0], 'frame:' + l[2]);
+    for (const r of m.rows || []) out.push(r[0], 'frame:' + r[2]);
+    for (const v of m.verbs || []) out.push(typeof v === 'string' ? v : v.inf);
+    return [...new Set(out.filter(Boolean))];
+  },
+
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, unit }, ctx);
+    const d = this.difficulty[difficulty];
+    // the published page (level 2, copy 1) reads the original bank; every Level Set page the merged one
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const bank = published ? loadBank(KEY, loc) : mergedBankOf(loc);
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._buildWith(bank, d, { theme, locale: loc, unit }, { ...ctx, interactive: false, answerKey: false });
+      return VFS().screenOrKey(VFS().modeOf(d), built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, d, { theme, locale: loc, unit }, ctx);
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -653,13 +695,21 @@ module.exports = {
         tables.push({ verb: v, rows, html: verbTable({ mode: 'persons', header: { inf: v.inf, src: pictureOf(v, loc) }, rows, w, rowH: d.rowH, boxW: d.boxW, boxH: d.boxH, pronounW: d.pronounW, iconPx: d.pic, headerH: 84, verb: v.inf, inf: v.inf }) });
       });
     } else {
+      // Level Set 2026-10-01: a new page's table may print unpictured verbs (the infinitive is printed on every row), with at
+      // least `lsTensePicMin` pictured rows — six pictured verbs would otherwise make every copy the same six rows
+      const picMin = bank.levelSet && !pool.core && Number.isInteger(d.lsTensePicMin) ? d.lsTensePicMin : null;
+      if (picMin !== null) verbs.splice(0, verbs.length, ...withForms(bank, u, pool));
       if (verbs.length < d.tenseRows) throw new Error(`${ID}: unit ${u.key}/${loc}/${pool.name} has ${verbs.length} pictured verbs < ${d.tenseRows} — REFUSED`);
       if (d.gapCols.some((c) => !bank.columns.some((x) => x.key === c))) throw new Error(`${ID}: gapCols ${d.gapCols} name a column the ${loc} bank lacks`);
       if (d.tenseGaps > d.tenseRows * d.gapCols.length) throw new Error(`${ID}: tenseGaps ${d.tenseGaps} > ${d.tenseRows} × ${d.gapCols.length} cells`);
       const rowsOk = verbs.filter((v) => d.gapCols.some((c) => fold(v.forms[u.key][c]) !== fold(v.inf)));   // a row must own >= 1 gappable cell
       if (rowsOk.length < d.tenseRows) throw new Error(`${ID}: only ${rowsOk.length} verbs of ${u.key}/${loc} own a gappable cell in ${d.gapCols} — REFUSED`);
       let plan = null;
-      for (let t = 0; t < MAX_TRIES && !plan; t++) plan = planTense(rng, bank, u, rng.sample(rowsOk, d.tenseRows), d);
+      for (let t = 0; t < MAX_TRIES && !plan; t++) {
+        const s = rng.sample(rowsOk, d.tenseRows);
+        if (picMin !== null && s.filter((v) => v.pic).length < picMin) continue;
+        plan = planTense(rng, bank, u, s, d);
+      }
       if (!plan) throw new Error(`${ID}: no ${d.tenseRows}-verb table of ${u.key}/${loc} takes ${d.tenseGaps} gaps (>= ${d.minPerRow}/row, >= ${d.minPerCol}/col) — REFUSED`);
       plan.forEach((r) => { r.src = pictureOf(r.verb, loc); });
       items += plan.reduce((s, r) => s + r.cells.filter((c) => c.state === 'gap').length, 0);
@@ -670,7 +720,10 @@ module.exports = {
     const infs = bank.mode === 'persons' ? tables.map((t) => t.verb.inf) : tables[0].rows.map((r) => r.verb.inf);
     for (const inf of infs) { const k = fold(inf); if (seen.has(k)) throw new Error(`${ID}: verb "${inf}" twice on the page`); seen.add(k); }
 
-    const lanes = pickLanes(rng, bank, u, tables, d);
+    // Level Set: a sentence with no verb chip is cued by its PICTURE alone — an unpictured tabled verb never gets a lane there
+    // ("Tom ___ at the pool yesterday." over wash / play / pull would have several right answers)
+    const laneTables = bank.levelSet && !d.hint && bank.mode === 'tense' ? tables.map((tb) => ({ ...tb, rows: tb.rows.filter((r) => !r.verb || r.verb.pic) })) : tables;
+    const lanes = pickLanes(rng, bank, u, laneTables, d);
     if (!lanes) throw new Error(`${ID}: no ${d.lanes} lanes over the tabled verbs of ${u.key}/${loc} (frames lack a fitting col/verb) — REFUSED`);
     items += lanes.length;
     if (items < d.items[0] || items > d.items[1]) throw new Error(`${ID}: ${items} items outside the window [${d.items}]`);
@@ -687,7 +740,8 @@ module.exports = {
     // Face 4 (pool 'irregular') stamps its face + pool; the base path appends nothing (byte-identical)
     const faceStamp = pool.core ? 'irregular' : 'base';
     const poolStamp = pool.core ? ' data-lcs-pool="irregular"' : '';
-    const bodyHtml = `<div data-ws-content data-lcs-vf data-lcs-face="${faceStamp}"${poolStamp} data-lcs-mode="${bank.mode}" data-lcs-unit="${u.key}" data-lcs-locale="${loc}" ` +
+    const picStamp = bank.levelSet && !pool.core && bank.mode === 'tense' && Number.isInteger(d.lsTensePicMin) ? ` data-lcs-rowpics="${d.lsTensePicMin}"` : '';
+    const bodyHtml = `<div data-ws-content data-lcs-vf data-lcs-face="${faceStamp}"${poolStamp}${picStamp} data-lcs-mode="${bank.mode}" data-lcs-unit="${u.key}" data-lcs-locale="${loc}" ` +
       `data-lcs-tables="${tables.length}" data-lcs-lanes="${lanes.length}" data-lcs-minhard="${d.minHardGaps}" data-lcs-tensegaps="${bank.mode === 'tense' ? d.tenseGaps : ''}" ` +
       `data-lcs-minperrow="${d.minPerRow}" data-lcs-minpercol="${d.minPerCol}" data-lcs-hint="${d.hint ? 1 : 0}" data-lcs-boxh="${d.boxH}" data-lcs-items="${d.items.join(',')}" ` +
       `style="flex:1;display:flex;flex-direction:column;gap:${STACK_GAP}px;min-height:0">${tableRow}${laneGrid}</div>`;
@@ -697,6 +751,7 @@ module.exports = {
         mode: bank.mode, unit: u.key,
         tables: tables.map((t) => t.rows.map((r) => [r.verb ? r.verb.inf : t.verb.inf, r.cells.map((c) => c.col + ':' + c.state).join(',')])),
         lanes: lanes.map((l) => [l.verb.inf, l.col, l.frame.id]),
+        ...(bank.levelSet && pool.core ? { core: true } : {}),   // Level Set: the irregular core repeats its verbs by design
       },
     };
   },
@@ -741,8 +796,10 @@ module.exports = {
       const n = cfg.verbs;
       const pictured = all.filter((v) => v.pic), plain = all.filter((v) => !v.pic);
       if (all.length < n) throw new Error(`${ID}: unit ${u.key}/${loc}/${pool.name} has ${all.length} matchable verbs < ${n} — REFUSED`);
-      const kMax = Math.min(n, pictured.length), kMin = Math.min(Math.max(cfg.pictured, n - plain.length), kMax);
-      if (kMax < cfg.pictured) throw new Error(`${ID}: unit ${u.key}/${loc}/${pool.name} has ${pictured.length} pictured matchable verbs < ${cfg.pictured} — REFUSED`);
+      // Level Set 2026-10-01: a new page may take fewer pictured verbs (lsPictured) — six pictured verbs would repeat on every copy
+      const picNeed = bank.levelSet && Number.isInteger(cfg.lsPictured) ? cfg.lsPictured : cfg.pictured;
+      const kMax = Math.min(n, pictured.length), kMin = Math.min(Math.max(picNeed, n - plain.length), kMax);
+      if (kMax < picNeed) throw new Error(`${ID}: unit ${u.key}/${loc}/${pool.name} has ${pictured.length} pictured matchable verbs < ${picNeed} — REFUSED`);
       const k = rng.int(kMin, kMax);
       const verbs = rng.shuffle([...rng.sample(pictured, k), ...rng.sample(plain, n - k)]);
       const left = verbs.map((v) => { const src = pictureOf(v, loc); return { label: v.inf, src, spacer: !src, attrs: `data-lcs-verb="${v.inf}"` }; });
@@ -800,7 +857,7 @@ module.exports = {
     })).join('');
     const laneGrid = lanes.length ? this._laneGrid(laneHtml, lanes.length, d.laneMin, d.laneMax) : '';
     const bodyHtml = this._root(`data-lcs-face="match" data-lcs-matchkind="${kind}" data-lcs-mode="${mode}" data-lcs-unit="${u.key}" data-lcs-locale="${loc}" data-lcs-blocks="${blocks.length}" ` +
-      `data-lcs-lanes="${lanes.length}" data-lcs-hint="${d.hint ? 1 : 0}" data-lcs-minpictured="${kind === 'tense' ? cfg.pictured : 0}" data-lcs-items="${d.items.join(',')}"`, blockRow + laneGrid);
+      `data-lcs-lanes="${lanes.length}" data-lcs-hint="${d.hint ? 1 : 0}" data-lcs-minpictured="${kind === 'tense' ? (bank.levelSet && Number.isInteger(cfg.lsPictured) ? cfg.lsPictured : cfg.pictured) : 0}" data-lcs-items="${d.items.join(',')}"`, blockRow + laneGrid);
     return { bodyHtml, meta: { face: 'match', kind, mode, unit: u.key, verbs: verbsOnPage, lanes: lanes.map((l) => [l.verb.inf, l.col, l.frame.id]) } };
   },
 
@@ -869,7 +926,11 @@ module.exports = {
     const homos = ((bank.hunt && bank.hunt.nounHomographs) || []).map(fold);
     const allForms = [];
     for (const v of [...(bank.verbs || []), ...(bank.irregularCore || [])]) { const f = v.forms && v.forms[u.key]; if (f) for (const col of bank.columns) allForms.push(f[col.key]); allForms.push(v.inf); }
-    const rows = pickRows(rng, bank, u, verbs, n, { minPictured: d.pictured, banned: () => [...allForms, ...homos] });
+    let rows = pickRows(rng, bank, u, verbs, n, { minPictured: d.pictured, banned: () => [...allForms, ...homos] });
+    // the printed form itself must not be a noun homograph (nl "bak", "dans"; pt "dança"): redraw. A page whose rows are clean
+    // takes no extra draw, so a published page is unchanged.
+    for (let t = 0; rows && t < MAX_TRIES && rows.some((r) => homos.includes(fold(r.form))); t++) rows = pickRows(rng, bank, u, verbs, n, { minPictured: d.pictured, banned: () => [...allForms, ...homos] });
+    if (rows && rows.some((r) => homos.includes(fold(r.form)))) rows = null;
     if (!rows) throw new Error(`${ID}: no ${n} hunt rows over distinct verbs of ${u.key}/${loc} — REFUSED`);
     const laneHtml = rows.map((r) => sentenceGap({
       src: pictureOf(r.verb, loc), text: r.frame.text, render: 'text', form: r.form, answerBox: d.infBox, minH: d.rowMin, padding: d.lanePad, lineHeight: 1.25, chipsGap: 4,
@@ -896,6 +957,8 @@ module.exports = {
       const core = root.dataset.lcsPool === 'irregular';   // Face 4: chip-only headers, no action pictures (design §3)
       if (!['persons', 'tense'].includes(mode)) fails.push(`mode "${mode}"`);
       if (root.dataset.lcsFace !== (core ? 'irregular' : 'base')) fails.push(`face "${root.dataset.lcsFace}"`);
+      // Level Set: a new tense table may print unpictured verbs, but keeps at least data-lcs-rowpics pictured rows
+      if (root.dataset.lcsRowpics && root.querySelectorAll('[data-lcs-row] img').length < +root.dataset.lcsRowpics) fails.push(`fewer than ${root.dataset.lcsRowpics} pictured table rows`);
       if (!root.dataset.lcsUnit) fails.push('no unit stamp');
       const tables = [...root.querySelectorAll('[data-lcs-table]')];
       if (tables.length !== tablesN || !tables.length) fails.push(`${tables.length} tables, config says ${tablesN}`);
@@ -960,7 +1023,7 @@ module.exports = {
             verbsOnPage.add(fold(v));
             const inf = r.querySelector('[data-lcs-inf]');
             if (!inf || inf.textContent.trim() !== r.dataset.lcsInf) fails.push(`${T}: row ${v} does not print its infinitive`);
-            if (!core && !r.querySelector('img')) fails.push(`${T}: row ${v} has no picture`);
+            if (!core && !root.dataset.lcsRowpics && !r.querySelector('img')) fails.push(`${T}: row ${v} has no picture`);
             if ((perRow.get(v) || 0) < minPerRow) fails.push(`${T}: row ${v} has ${perRow.get(v) || 0} gaps < ${minPerRow}`);
             if (r.querySelectorAll('[data-lcs-cell]').length !== 2) fails.push(`${T}: row ${v} has ${r.querySelectorAll('[data-lcs-cell]').length} cells, not 2`);
           });
@@ -996,7 +1059,7 @@ module.exports = {
         const slot = slots.find((s) => fold(s.verb) === fold(verb) && s.col === col);
         if (!slot) fails.push(`${L}: ${verb}/${col} is not a table cell`);
         else { if (slot.state === 'anchor') fails.push(`${L}: ${verb}/${col} is an anchor cell`); if (fold(slot.form) !== fold(form)) fails.push(`${L}: form "${form}" != the table's "${slot.form}"`); }
-        if (!core && !l.querySelector('img')) fails.push(`${L}: no picture`);
+        if (!core && !root.dataset.lcsRowpics && !l.querySelector('img')) fails.push(`${L}: no picture`);
       });
       // pictures
       root.querySelectorAll('img').forEach((img) => {

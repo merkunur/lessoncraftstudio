@@ -1161,5 +1161,85 @@
    "no": "Les ordet. Trykk på feltet der det hører hjemme.",
    "fi": "Lue sana. Napauta kenttää, johon se kuuluu."
   }
+ },
+ "verb-forms": {
+  "base": {
+   "en": "Read the verb and the word next to it, or the sentence. Tap the form that fits.",
+   "de": "Lies das Verb und das Wort daneben oder den Satz. Tippe die Form an, die passt.",
+   "es": "Lee el verbo y la palabra de al lado, o la oración. Toca la forma correcta.",
+   "fr": "Lis le verbe et le mot à côté, ou la phrase. Touche la forme qui convient.",
+   "it": "Leggi il verbo e la parola accanto, oppure la frase. Tocca la forma giusta.",
+   "pt": "Leia o verbo e a palavra ao lado, ou a frase. Toque a forma que combina.",
+   "nl": "Lees het werkwoord en het woord ernaast, of de zin. Tik de vorm aan die past.",
+   "sv": "Läs verbet och ordet bredvid, eller meningen. Tryck på formen som passar.",
+   "da": "Læs udsagnsordet og ordet ved siden af, eller sætningen. Tryk på den form, der passer.",
+   "no": "Les verbet og ordet ved siden av, eller setningen. Trykk på formen som passer.",
+   "fi": "Lue verbi ja sen vieressä oleva sana, tai lue lause. Napauta sopivaa muotoa."
+  },
+  "irregular": {
+   "en": "Read the verb and the word next to it, or the sentence. Tap the form that fits.",
+   "de": "Lies das Verb und das Wort daneben oder den Satz. Tippe die Form an, die passt.",
+   "es": "Lee el verbo y la palabra de al lado, o la oración. Toca la forma correcta.",
+   "fr": "Lis le verbe et le mot à côté, ou la phrase. Touche la forme qui convient.",
+   "it": "Leggi il verbo e la parola accanto, oppure la frase. Tocca la forma giusta.",
+   "pt": "Leia o verbo e a palavra ao lado, ou a frase. Toque a forma que combina.",
+   "nl": "Lees het werkwoord en het woord ernaast, of de zin. Tik de vorm aan die past.",
+   "sv": "Läs verbet och ordet bredvid, eller meningen. Tryck på formen som passar.",
+   "da": "Læs udsagnsordet og ordet ved siden af, eller sætningen. Tryk på den form, der passer.",
+   "no": "Les verbet og ordet ved siden av, eller setningen. Trykk på formen som passer.",
+   "fi": "Lue verbi ja sen vieressä oleva sana, tai lue lause. Napauta sopivaa muotoa."
+  },
+  "match": {
+   "en": "Read the verb. Tap the form that goes with it.",
+   "de": "Lies das Verb. Tippe die Form an, die dazu passt.",
+   "es": "Lee el verbo. Toca la forma que le corresponde.",
+   "fr": "Lis le verbe. Touche la forme qui va avec.",
+   "it": "Leggi il verbo. Tocca la forma che gli corrisponde.",
+   "pt": "Leia o verbo. Toque a forma que combina com ele.",
+   "nl": "Lees het werkwoord. Tik de vorm aan die erbij hoort.",
+   "sv": "Läs verbet. Tryck på formen som hör till.",
+   "da": "Læs udsagnsordet. Tryk på den form, der hører til.",
+   "no": "Les verbet. Trykk på formen som hører til.",
+   "fi": "Lue verbi. Napauta muotoa, joka kuuluu siihen."
+  },
+  "sentences": {
+   "en": "Read the sentence and the verb in the chip. Tap the form that fits the sentence.",
+   "de": "Lies den Satz und das Verb im Kästchen. Tippe die Form an, die in den Satz passt.",
+   "es": "Lee la oración y el verbo del recuadro. Toca la forma que completa la oración.",
+   "fr": "Lis la phrase et le verbe dans l’étiquette. Touche la forme qui complète la phrase.",
+   "it": "Leggi la frase e il verbo nell’etichetta. Tocca la forma che completa la frase.",
+   "pt": "Leia a frase e o verbo na etiqueta. Toque a forma que completa a frase.",
+   "nl": "Lees de zin en het werkwoord in het kader. Tik de vorm aan die in de zin past.",
+   "sv": "Läs meningen och verbet i rutan. Tryck på formen som passar i meningen.",
+   "da": "Læs sætningen og udsagnsordet i feltet. Tryk på den form, der passer i sætningen.",
+   "no": "Les setningen og verbet i ruten. Trykk på formen som passer i setningen.",
+   "fi": "Lue lause ja laatikon verbi. Napauta muotoa, joka sopii lauseeseen."
+  },
+  "choice": {
+   "en": "Read the sentence. Tap the verb form that fits.",
+   "de": "Lies den Satz. Tippe die Verbform an, die passt.",
+   "es": "Lee la oración. Toca la forma correcta del verbo.",
+   "fr": "Lis la phrase. Touche la forme du verbe qui convient.",
+   "it": "Leggi la frase. Tocca la forma giusta del verbo.",
+   "pt": "Leia a frase. Toque a forma do verbo que combina.",
+   "nl": "Lees de zin. Tik de werkwoordsvorm aan die past.",
+   "sv": "Läs meningen. Tryck på verbformen som passar.",
+   "da": "Læs sætningen. Tryk på den form af udsagnsordet, der passer.",
+   "no": "Les setningen. Trykk på verbformen som passer.",
+   "fi": "Lue lause. Napauta sopivaa verbin muotoa."
+  },
+  "hunt": {
+   "en": "Read the sentence. Tap the verb.",
+   "de": "Lies den Satz. Tippe das Verb an.",
+   "es": "Lee la oración. Toca el verbo.",
+   "fr": "Lis la phrase. Touche le verbe.",
+   "it": "Leggi la frase. Tocca il verbo.",
+   "pt": "Leia a frase. Toque o verbo.",
+   "nl": "Lees de zin. Tik het werkwoord aan.",
+   "sv": "Läs meningen. Tryck på verbet.",
+   "da": "Læs sætningen. Tryk på udsagnsordet.",
+   "no": "Les setningen. Trykk på verbet.",
+   "fi": "Lue lause. Napauta verbiä."
+  }
  }
 }

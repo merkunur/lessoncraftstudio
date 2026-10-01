@@ -772,5 +772,33 @@
    "no": "Trykk på ordene i riktig rekkefølge, slik at de danner en setning.",
    "fi": "Napauta sanoja oikeassa järjestyksessä niin, että niistä tulee lause."
   }
+ },
+ "singular-plural": {
+  "many": {
+   "en": "Look at each picture. Spell the word for many: tap the letters in the right order.",
+   "de": "Schau dir jedes Bild an. Schreibe die Mehrzahl: Tippe die Buchstaben in der richtigen Reihenfolge an.",
+   "es": "Mira cada dibujo. Escribe la palabra en plural: toca las letras en el orden correcto.",
+   "fr": "Regarde chaque image. Écris le mot pour plusieurs : touche les lettres dans le bon ordre.",
+   "it": "Guarda ogni disegno. Scrivi la parola per tanti: tocca le lettere nell'ordine giusto.",
+   "pt": "Olhe cada figura. Escreva a palavra no plural: toque nas letras na ordem certa.",
+   "nl": "Kijk naar elk plaatje. Maak het meervoud: tik de letters in de goede volgorde aan.",
+   "sv": "Titta på varje bild. Stava ordet i plural: tryck på bokstäverna i rätt ordning.",
+   "da": "Se på hvert billede. Stav ordet i flertal: tryk på bogstaverne i den rigtige rækkefølge.",
+   "no": "Se på hvert bilde. Stav ordet i flertall: trykk på bokstavene i riktig rekkefølge.",
+   "fi": "Katso jokaista kuvaa. Kirjoita sana monikossa: napauta kirjaimet oikeaan järjestykseen."
+  },
+  "one": {
+   "en": "Look at each picture. Spell the word for one: tap the letters in the right order.",
+   "de": "Schau dir jedes Bild an. Schreibe die Einzahl: Tippe die Buchstaben in der richtigen Reihenfolge an.",
+   "es": "Mira cada dibujo. Escribe la palabra en singular: toca las letras en el orden correcto.",
+   "fr": "Regarde chaque image. Écris le mot pour un seul : touche les lettres dans le bon ordre.",
+   "it": "Guarda ogni disegno. Scrivi la parola per uno solo: tocca le lettere nell'ordine giusto.",
+   "pt": "Olhe cada figura. Escreva a palavra no singular: toque nas letras na ordem certa.",
+   "nl": "Kijk naar elk plaatje. Maak het enkelvoud: tik de letters in de goede volgorde aan.",
+   "sv": "Titta på varje bild. Stava ordet i singular: tryck på bokstäverna i rätt ordning.",
+   "da": "Se på hvert billede. Stav ordet i ental: tryk på bogstaverne i den rigtige rækkefølge.",
+   "no": "Se på hvert bilde. Stav ordet i entall: trykk på bokstavene i riktig rekkefølge.",
+   "fi": "Katso jokaista kuvaa. Kirjoita sana yksikössä: napauta kirjaimet oikeaan järjestykseen."
+  }
  }
 }

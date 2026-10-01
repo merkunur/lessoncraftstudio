@@ -262,56 +262,68 @@ export default async function AllWorksheetsPage({
   const basePath = `/${locale}/worksheets`;
   const spString = toSearchParamsString(searchParams ?? {});
 
-  /* ---- Level Set worksheets (do-not-index marker, no landing): ONLY under a
-     chosen type (operator ruling 2026-09-27) — the default hub page, its cards
-     and its rail counts stay exactly as indexed. A failed read adds nothing. */
-  let levelSetExtra: HubRow[] = [];
-  if (filters.type) {
-    const typeLandings = allLandings.filter((l) => l.coordinate.type === filters.type);
-    const parent = typeLandings[0];
-    if (parent) {
-      try {
-        const [rows, tSeo] = await Promise.all([
-          prisma.deck.findMany({
-            where: { language: locale, status: 'published', contentLanguage: null, indexable: false, exerciseType: filters.type },
-            select: { slug: true, title: true, exerciseMode: true, answerKeyUrl: true },
-            orderBy: { slug: 'asc' },
-          }),
-          getTranslations({ locale, namespace: 'seo.words' }),
-        ]);
-        const setWord = tSeo.has('set') ? tSeo('set') : 'Set';
-        levelSetExtra = levelSetRows(
-          typeLandings,
-          rows.map((d) => {
-            const raw = d.title as Record<string, string> | null;
-            return {
-              slug: d.slug,
-              title: (raw && (raw[locale] || raw.en)) || parent.h1,
-              exerciseMode: d.exerciseMode,
-              hasAnswerKey: d.answerKeyUrl != null,
-              interactive: INTERACTIVE_LEVEL_SET_TYPES.has(filters.type as string)
-                && !(LEVEL_SET_PRINT_ONLY_VARIATIONS[filters.type as string] || []).includes(variationCode(d.slug) || ''),
-            };
-          }),
-          (slug) => deckAssets(locale, slug).deckDir,
-          (mode) => getExerciseModeName(mode, locale),
-          setWord,
-        );
-      } catch (err) {
-        console.warn('[AllWorksheetsPage] level-set query failed:', (err as Error).message);
-      }
+  /* ---- Level Set worksheets (do-not-index marker, no landing). Operator 2026-10-01: the rail must show the REAL
+     number of worksheets per type, so the facet counts include every Level Set copy of every type. The result list
+     shows them whenever ANY filter is chosen (type, level or theme), so a count always matches the list it opens;
+     the unfiltered default page keeps exactly its indexed cards (ruling 2026-09-27). A copy carries its variation
+     landing's coordinate (levelSetRows). A failed read adds nothing. */
+  let levelSetAll: HubRow[] = [];
+  try {
+    const [rows, tSeo] = await Promise.all([
+      prisma.deck.findMany({
+        where: { language: locale, status: 'published', contentLanguage: null, indexable: false },
+        select: { slug: true, title: true, exerciseMode: true, answerKeyUrl: true, exerciseType: true },
+        orderBy: { slug: 'asc' },
+      }),
+      getTranslations({ locale, namespace: 'seo.words' }),
+    ]);
+    const setWord = tSeo.has('set') ? tSeo('set') : 'Set';
+    const byType = new Map<string, typeof rows>();
+    for (const d of rows) {
+      if (!d.exerciseType) continue;
+      if (!byType.has(d.exerciseType)) byType.set(d.exerciseType, []);
+      byType.get(d.exerciseType)!.push(d);
     }
+    for (const [type, decks] of byType) {
+      const typeLandings = allLandings.filter((l) => l.coordinate.type === type);
+      const parent = typeLandings[0];
+      if (!parent) continue;
+      levelSetAll = levelSetAll.concat(levelSetRows(
+        typeLandings,
+        decks.map((d) => {
+          const raw = d.title as Record<string, string> | null;
+          return {
+            slug: d.slug,
+            title: (raw && (raw[locale] || raw.en)) || parent.h1,
+            exerciseMode: d.exerciseMode,
+            hasAnswerKey: d.answerKeyUrl != null,
+            interactive: INTERACTIVE_LEVEL_SET_TYPES.has(type)
+              && !(LEVEL_SET_PRINT_ONLY_VARIATIONS[type] || []).includes(variationCode(d.slug) || ''),
+          };
+        }),
+        (slug) => deckAssets(locale, slug).deckDir,
+        (mode) => getExerciseModeName(mode, locale),
+        setWord,
+      ));
+    }
+  } catch (err) {
+    console.warn('[AllWorksheetsPage] level-set query failed:', (err as Error).message);
   }
-  const hubRowsForView = levelSetExtra.length ? [...hubRows, ...levelSetExtra] : hubRows;
+  const hubRowsAll = levelSetAll.length ? [...hubRows, ...levelSetAll] : hubRows;
+  const anyFilter = Boolean(filters.type || filters.level || filters.theme);
+  const hubRowsForView = anyFilter ? hubRowsAll : hubRows;
 
   /* The format tab scopes EVERYTHING below it, facet counts included, so a type
      with no interactive sheets disappears from the rail under Interactive
      rather than offering a filter that returns nothing. */
-  const scoped = filters.format === 'interactive'
-    ? hubRowsForView.filter((l) => !rowIsPrintOnly(l, isPrintOnlyType))
-    : hubRowsForView;
+  const formatScope = (rows: HubRow[]) => (filters.format === 'interactive'
+    ? rows.filter((l) => !rowIsPrintOnly(l, isPrintOnlyType))
+    : rows);
+  const scoped = formatScope(hubRowsForView);
+  const scopedAll = formatScope(hubRowsAll);
 
-  const facets = scoped.length > 0 ? buildLandingFacets(scoped, filters) : null;
+  // the rail counts every worksheet, Level Set copies included (operator 2026-10-01)
+  const facets = scopedAll.length > 0 ? buildLandingFacets(scopedAll, filters) : null;
 
   /* ---- facet rail ---- */
   let facetGroups: FacetGroupVM[] = [];

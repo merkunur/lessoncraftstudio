@@ -23,6 +23,17 @@ const { strokeWordLane } = require('../../primitives/trace-path.js');
 const { countBadge } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, traceable, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { LABELS } = require('../../data/b2/labels.js');
+const SPS = require('../../lib/singular-plural-screen.js');
+
+// Level Set 2026-10-01 (NEW pages only): pictures / words refused by the picture + native review (a picture that
+// shows several things, a plural-only thing, a word a K-1 teacher would not teach). Filled from the review.
+// Level Set content review 2026-10-01 (new pages only; the published pages never read these):
+// pictures that show several things, a different thing, a whole body for a body part, or text — by "theme|noun";
+const SP_EXCLUDE_PIC = new Set(["apparel bw|shirt","valentine bw|angel","body parts|ankle","thanksgivinng|apple","occupations|architect","valentine bw 2|balloon","4th of July|balloon","Easter bw 2|balloon","objects bw|bottle","valentine bw|card","hospital|cast","tools bw|chainsaw","Easter bw 2|chicken","body parts|chin","camping|cooler","colors|coral","thanksgivinng|cranberry","sports bw|cricket","household bw|curtain","post office|delivery","valentine bw 2|diamond","toys|domino","bakery|eclair","body parts|elbow","winter|evergreen","body parts|eyebrow","pets|finch","birds 2|finch","forest creatures|finch","body parts|forehead","household bw|hanger","thanksgivinng|harvest","valentine bw|heart","body parts|heel","shapes|heptagon","clothing|jeans","breakfast|juice","objects bw|key","body parts|knee","toys|lego","4th of July|lemonade","beach bw|lemonade","summer|lemonade","4th of July|liberty","travel and holiday bw|lightning","colors|lime","body parts|lip","flowers|marigold","hospital|medicine","forest creatures|moose","farm animals bw|antelope","animals|antelope","Christmas bw 2|reindeer","zoo animals bw|reindeer","zoo animals|reindeer","Christmas bw|reindeer","christmas|rudolph","christmas|nativity","body parts|neck","tools|nut","colors|orange","miscellaneous|orchard","activities|painting","clothing|pajamas","clothing|pants","classroom|paper","travel and holiday bw|passport","vegetables bw 2|pea","colors|peach","activities|picnic","tools|pliers","tools bw|pliers","tools|plunger","activities|pottery","spring|rain","nature bw|rain","classroom|scissors","around the house|scissors","education bw|scissors","apparel bw|shorts","summer|shorts","activities|science","space bw|sky","At the Supermarket|sauce","breakfast|smoothie","around the house|shampoo","body parts|shoulder","vehicles bw|scooter","sports bw|scooter","tools bw|sickle","body parts|skeleton","post office|scale","sports bw|scale","Christmas bw 2|sack","food bw 2|soup","household bw|spray","ocean life|squid","sea life bw|squid","sea life bw 2|squid","vehicles|subway","beach bw|sun","weather|sun","nature bw|sun","space|sun","spring|sun","beach bw|sunscreen","apparel bw|sweatshirt","hospital|syringe","toys bw|tank","weather|thunderstorm","bakery|toast","breakfast|toast","body parts|toe","body parts|thumb","body parts|tongue","christmas|tree","food bw|turkey","food bw 2|turkey","colors|violet","beach|wave","flowers|wisteria","body parts|wrist"]);
+// words a K-1 teacher would not use for one/many: mass and abstract nouns, brand names, genus names, rare words;
+const SP_EXCLUDE = new Set(["glue","paper","juice","jam","lemonade","harvest","durian","lego","ufo","dimetrodon","mosasaurus","oviraptor","maiasaura","sunscreen","evergreen","sauce","delivery","pottery","rain","shampoo","celery","sky","cast","soup","science","liberty","rudolph","cheese","cabbage","phlox","hornbill","iguanodon","ichthyosaurus","apatosaurus","carnotaurus","deinonychus","persimmon","macaron","cranberry","trillium","suv","jumpsuit","television","scallop","heptagon","cauliflower","beetroot","painting","thunderstorm","toast","sun","squid","nativity","wave","skeleton","syringe","tank"]);
+// words wrong for one locale only.
+const SP_EXCLUDE_LOC = {"pt":["mitten","icicle"]};
 
 // en: the L.K.1.c prefix rule (cat→cats, box→boxes). Other locales: the locale's own
 // default pattern — the stem (all but the last letter, diacritics folded) carries over
@@ -42,12 +53,15 @@ module.exports = {
   gradeBand: 'K',
   assetClass: 'icon-placement',
   exerciseType: 'singular-plural',
-  themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  themeAxis: { applicable: true, minNouns: 8, excludeBw: true, levelSetBw: true },   // Level Set: single noun pictures — B&W sets serve new copies
+  levelSetWords: (m) => (m.pairs || []).map((x) => x[1]),
   difficulty: {
     1: { rows: 3, clones: [2], rowH: 232, picSingle: 96, picClone: 70, glyphSing: 34, glyphPlur: 46, laneH: 58, minLetters: 0, maxLetters: 7 },
     2: { rows: 4, clones: [2, 3], rowH: 172, picSingle: 80, picClone: 50, glyphSing: 30, glyphPlur: 36, laneH: 46, minLetters: 0, maxLetters: 10 },
     3: { rows: 4, clones: [2, 3], rowH: 172, picSingle: 76, picClone: 48, glyphSing: 28, glyphPlur: 34, laneH: 44, minLetters: 5, maxLetters: 12 },
   },
+  // Level Set 2026-10-01: screen (spell the missing form) + answer key, new pages only
+  interactive: SPS.interactiveFor('many'),
   i18n: {
     en: {
       title: 'Singular and Plural',
@@ -59,18 +73,27 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
+    // the published pages (level 2, copy 1) never read the Level Set additions
+    const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return SPS.screenOrKey(built, ctx, loc, theme);
+    }
     const L = LABELS[loc] && LABELS[loc].singularPlural;
     if (!L) throw new Error(`K-287: no labels for locale ${loc}`);
     let pool = entriesFor(theme, loc)
       .filter((e) => e.plural && isRegular(e.singular, e.plural, loc))
       .map((e) => ({ ...e, sing: displayWord(e.singular, loc), plur: displayWord(e.plural, loc) }))
       .filter((e) => traceable(e.sing) && traceable(e.plur))
-      .filter((e) => [...e.plur].length >= d.minLetters && [...e.plur].length <= d.maxLetters);
+      .filter((e) => [...e.plur].length >= d.minLetters && [...e.plur].length <= d.maxLetters)
+      .filter((e) => published || !(SP_EXCLUDE.has(e.vocabKey) || SP_EXCLUDE_PIC.has(theme + '|' + e.noun) || (SP_EXCLUDE_LOC[loc] || []).includes(e.vocabKey)));
     pool = distinctByWord(pool, (e) => e.sing);
     if (pool.length < d.rows) throw new Error(`K-287: theme ${theme}/${loc} has ${pool.length} regular traceable plurals < ${d.rows}`);
     const picks = rng.sample(pool, d.rows);
+    const rowMeta = [];
     const rows = picks.map((e) => {
       const n = rng.pick(d.clones);
+      rowMeta.push({ key: e.vocabKey, noun: e.noun, sing: e.sing, plur: e.plur, n, toSing: d.direction === 'toSingular' });
       // direction:'toSingular' reverses which side is given. The shipped pair both
       // run one -> many; going the other way is the harder and more diagnostic
       // direction, because the child must REMOVE an ending rather than add one,
@@ -114,7 +137,7 @@ module.exports = {
       `<span class="ws-pill" style="font-size:18px;padding:2px 18px" data-lcs-head="many">2 · 3 · ${L.many}</span></div>`;
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px">${head}${rows.join('')}</div>`,
-      meta: { pairs: picks.map((e) => [e.sing, e.plur]) },
+      meta: published ? { pairs: picks.map((e) => [e.sing, e.plur]) } : { pairs: picks.map((e) => [e.sing, e.plur]), rows: rowMeta },
     };
   },
 

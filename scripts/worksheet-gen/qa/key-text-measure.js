@@ -12,12 +12,16 @@ async function measureKeyPage(page) {
     const out = { texts: [], pseudo: [], gap: [], rows: 0, fontOk: true };
     const cv = document.createElement('canvas').getContext('2d');
     const ink = (spec) => { cv.font = spec; return { x: cv.measureText('x').actualBoundingBoxAscent, b: cv.measureText('b').actualBoundingBoxAscent }; };
-    const rowsOf = (svg) => {
-      const lines = [...svg.querySelectorAll('line')].filter((l) => l.getAttribute('y1') === l.getAttribute('y2'));
+    const rowsOf = (el) => {
+      const svg = el.ownerSVGElement || el;   // a writing-row <svg>, or a trace lane's empty trio <g> (its own three rules)
+      const lines = [...el.querySelectorAll('line')].filter((l) => l.getAttribute('y1') === l.getAttribute('y2'));
       const ys = lines.map((l) => { const p = svg.createSVGPoint(); p.x = 0; p.y = +l.getAttribute('y1'); return { y: p.matrixTransform(l.getScreenCTM()).y, dashed: !!l.getAttribute('stroke-dasharray') }; }).sort((a, b) => a.y - b.y);
-      return ys.length === 3 ? { top: ys[0].y, mid: ys[1].y, base: ys[2].y, box: svg.getBoundingClientRect() } : null;
+      return ys.length === 3 ? { top: ys[0].y, mid: ys[1].y, base: ys[2].y, box: el.getBoundingClientRect() } : null;
     };
-    const rows = [...document.querySelectorAll('svg[data-lcs-prim="writing-row"]')].map((s) => ({ svg: s, r: rowsOf(s) })).filter((x) => x.r);
+    // Singular and Plural (2026-10-01): answers seated in a trace lane's EMPTY TRIO are measured against that trio's
+    // own rules — only trios that carry a key text, so no other page is measured differently
+    const trios = [...document.querySelectorAll('g[data-lcs-empty-trio]')].filter((g) => g.querySelector('text[data-lcs-keytext]'));
+    const rows = [...document.querySelectorAll('svg[data-lcs-prim="writing-row"]'), ...trios].map((s) => ({ svg: s, r: rowsOf(s) })).filter((x) => x.r);
     out.rows = rows.length;
     // scale: an svg that flex-shrinks is drawn scaled (lines AND text together); the font's ink measured at its
     // unscaled font-size must be scaled the same way, or a long sentence in a narrow lane reads as "off" (G2-281 de)
@@ -30,7 +34,7 @@ async function measureKeyPage(page) {
     };
     for (const { svg, r } of rows) {
       svg.querySelectorAll('text').forEach((t) => {
-        const p = svg.createSVGPoint(); p.x = +t.getAttribute('x'); p.y = +t.getAttribute('y');
+        const p = (svg.ownerSVGElement || svg).createSVGPoint(); p.x = +t.getAttribute('x'); p.y = +t.getAttribute('y');
         const m = t.getScreenCTM();
         rec(t, r, p.matrixTransform(m).y, 'svg', Math.hypot(m.a, m.b));
       });

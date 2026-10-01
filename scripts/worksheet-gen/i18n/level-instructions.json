@@ -1962,5 +1962,35 @@
    "no": "Les ordet. Spor det. Skriv det så selv på hver tom linje.",
    "fi": "Lue sana. Kirjoita se ensin katkoviivojen päälle ja sitten itse jokaiselle tyhjälle viivalle."
   }
+ },
+ "K-318": {
+  "1": {
+   "en": "Say the picture word slowly. Write one sound in each box.",
+   "de": "Sprich das Bildwort langsam. Schreibe in jedes Kästchen einen Laut.",
+   "es": "Di despacio el nombre del dibujo, sonido por sonido. Escribe un sonido en cada caja.",
+   "fr": "Dis le nom de l'image lentement. Écris un son dans chaque case.",
+   "it": "Di' la parola piano piano e scrivi un suono in ogni casella.",
+   "pt": "Fale o nome da figura bem devagar. Escreva um som em cada caixinha.",
+   "nl": "Zeg het woord bij het plaatje langzaam. Schrijf in elk hokje één klank.",
+   "sv": "Säg ordet till bilden långsamt, ljud för ljud. Skriv ett ljud i varje ruta.",
+   "da": "Sig ordet til billedet langsomt. Skriv én lyd i hver kasse.",
+   "no": "Si ordet til bildet sakte, lyd for lyd. Skriv én lyd i hver rute.",
+   "fi": "Sano kuvan sana hitaasti äänne kerrallaan. Kirjoita jokaiseen laatikkoon yksi äänne eli yksi kirjain. Pitkä äänne saa kaksi laatikkoa."
+  }
+ },
+ "K-330": {
+  "1": {
+   "en": "The first sound is written for you. Say the picture word slowly and write one sound in each empty box.",
+   "de": "Der erste Laut steht schon da. Sprich das Bildwort langsam und schreibe in jedes leere Kästchen einen Laut.",
+   "es": "El primer sonido ya está escrito. Di despacio el nombre del dibujo y escribe un sonido en cada caja vacía.",
+   "fr": "Le premier son est déjà écrit. Dis le nom de l'image lentement et écris un son dans chaque case vide.",
+   "it": "Il primo suono è già scritto. Di' la parola piano piano e scrivi un suono in ogni casella vuota.",
+   "pt": "O primeiro som já está escrito. Fale a palavra devagar e escreva um som em cada caixinha vazia.",
+   "nl": "De eerste klank staat er al. Zeg het woord langzaam en schrijf in elk leeg hokje één klank.",
+   "sv": "Det första ljudet är skrivet i rutan. Säg ordet långsamt och skriv de ljud som fattas, ett i varje ruta.",
+   "da": "Den første lyd er skrevet. Sig ordet langsomt, og skriv én lyd i hver tom kasse.",
+   "no": "Den første lyden står der allerede. Si ordet sakte og skriv én lyd i hver tomme rute.",
+   "fi": "Ensimmäinen äänne on jo kirjoitettu. Sano kuvan sana hitaasti ja kirjoita jokaiseen tyhjään laatikkoon yksi äänne."
+  }
  }
 }

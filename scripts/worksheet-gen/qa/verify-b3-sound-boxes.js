@@ -48,7 +48,7 @@
  *      F1 Count answer != sounds · F2 Count digit printed in the answer box ·
  *      F3 Count lane carries a tick · F4 Starter prints the wrong first sound ·
  *      F5 Starter prints two boxes · F6 Strip carries a wide box · F7 Strip of 5 ·
- *      F8 a 7-sound word on the 6-strip · F9 Tiers arc removed · F10 Tiers arcs
+ *      F8 a 7+-sound word on the 6-strip (five sounds added: three left a 3-sound card at 6, which fits) · F9 Tiers arc removed · F10 Tiers arcs
  *      shifted off their boxes · F11 Tiers rule-only key listed in texBoundary ·
  *      F12 Tiers TeX-agreed key omitted from texBoundary · F13 Tiers remerged key
  *      listed · F14 Tiers renders a below-floor theme instead of refusing ·
@@ -480,7 +480,7 @@ async function main() {
     htmlPoison('F5 Starter prints two boxes', need(/(<text [^>]*data-lcs-printed="0"[^>]*>[^<]+<\/text>)/, once(/(<text [^>]*data-lcs-printed="0"[^>]*>[^<]+<\/text>)/, (m, t) => t + t.replace('data-lcs-printed="0"', 'data-lcs-printed="1"').replace(/ x="[\d.]+"/, ' x="120"'))), /printed boxes|beyond the starter|visible text/, 'K-330');
     htmlPoison('F6 Strip carries a wide box', need(/data-lcs-box="5" data-lcs-wide="0"/, once(/data-lcs-box="5" data-lcs-wide="0"/, () => 'data-lcs-box="5" data-lcs-wide="1"')), /wide box on the strip|wide/, 'G1-312');
     htmlPoison('F7 Strip of 5', need(/<rect [^>]*data-lcs-box="5"[^>]*\/>/, once(/<rect [^>]*data-lcs-box="5"[^>]*\/>/, () => '')), /boxes on a 6-strip|strip is not|strip 5 boxes/, 'G1-312');
-    htmlPoison('F8 a 7-sound word on the 6-strip', need(/data-lcs-word="([^"]+)" data-lcs-vocab="([^"]+)" data-lcs-chunks="([^"]+)"/, once(/data-lcs-word="([^"]+)" data-lcs-vocab="([^"]+)" data-lcs-chunks="([^"]+)"/, (m, w, k, c) => `data-lcs-word="${w}stx" data-lcs-vocab="${k}" data-lcs-chunks="${c}|s|t|x"`)), /do not fit/, 'G1-312');
+    htmlPoison('F8 a 7-sound word on the 6-strip', need(/data-lcs-word="([^"]+)" data-lcs-vocab="([^"]+)" data-lcs-chunks="([^"]+)"/, once(/data-lcs-word="([^"]+)" data-lcs-vocab="([^"]+)" data-lcs-chunks="([^"]+)"/, (m, w, k, c) => `data-lcs-word="${w}stxvz" data-lcs-vocab="${k}" data-lcs-chunks="${c}|s|t|x|v|z"`)), /do not fit/, 'G1-312');
     htmlPoison('F9 Tiers arc removed', need(/<path [^>]*data-lcs-arc="2"[^>]*\/>/, once(/<path [^>]*data-lcs-arc="2"[^>]*\/>/, () => '')), /arcs for|not under arc|under 0 arcs|arcs !=/, 'G1-313');
     htmlPoison('F10 Tiers arcs shifted off their boxes', need(/<svg [^>]*data-lcs-arcs="\d"/, once(/<svg ([^>]*data-lcs-arcs="\d")/, (m, a) => `<svg style="margin-left:60px" ${a}`)), /not under arc|under \d arcs/, 'G1-313');
     dataPoison('F11 Tiers rule-only key listed in texBoundary', (c) => { c.texBoundary.push('tiger'); }, /rule-only/);

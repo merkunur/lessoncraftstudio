@@ -7,10 +7,10 @@
  * segmentation is the locale's literal bank (data/b3/sound-boxes.js), never
  * inferred. nl adds hak-stippen (one teal dot over each box) at d2; d1 dots
  * everywhere; d3 never.
- *   d1 — 4 cards, 2-3 sounds, no multigraph, boxes 60, picture 160 (the
+ *   d1 — 4 cards, 2-4 sounds (Level Set 2026-10-01: was 2-3, empty in five locales), no multigraph, boxes 60, picture 160 (the
  *        design's 128/52 left a 2×2 card 57 % empty — measured, see the build report)
  *   d2 — 6 cards, 3-5 sounds, ≤ 2 wide boxes, boxes 48, picture 104 (ships)
- *   d3 — 8 cards, 4-5 sounds, ≥ 2 cards with a wide box, boxes 44, picture 68
+ *   d3 — 8 cards, 4-5 sounds, 2 cards with a wide box WANTED (Level Set 2026-10-01: was required — fi has no multigraphs), boxes 44, picture 68
  *        (design 80; the body is 710 px under a 3-line title + 3-line instruction,
  *        so a rows-4 card holds 131 px: 68 + 8 + 54 = 130 — measured)
  * Distinct from K-224 (word printed minus one letter), K-231 (letter bank),
@@ -48,6 +48,26 @@ const { syllableArcs } = require('../../primitives/syllable-arcs.js');
 const { entriesFor, displayWord, distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
 const { bank } = require('../../lib/b3-common.js');
 const { eligible } = require('../../lib/sound-boxes.js');
+const { refusedPicture } = require('../../lib/picture-refusals.js');
+const SBS = require('../../lib/sound-boxes-screen.js');
+const RAC = require('../../lib/read-and-color.js');
+// Blend: picture choices a child cannot tell apart on one row (on top of read-and-color's CONFUSABLES)
+const BLEND_LOOKALIKE = [['cereal', 'oatmeal', 'porridge', 'granola', 'muesli'], ['cookie', 'biscuit', 'cracker'], ['donut', 'bagel'],
+  ['bread', 'toast', 'loaf', 'bun', 'baguette'], ['cake', 'pie', 'tart'], ['leopard', 'cheetah', 'jaguar', 'tiger', 'lion'],
+  ['monkey', 'chimpanzee', 'orangutan', 'gorilla'], ['frog', 'toad'], ['bee', 'wasp', 'hornet'], ['mouse', 'rat'], ['butterfly', 'moth']];
+const lookAlike = (a, b) => RAC.confusable(a, b) || BLEND_LOOKALIKE.some((g) => g.includes(a) && g.includes(b));
+
+/**
+ * Level Set 2026-10-01: a page is NEW unless it is the published one (level 2, copy 1). New pages skip the refused
+ * pictures (lib/picture-refusals.js) and the locale's refused words (SB_EXCLUDE), carry `meta.cards` for the screen
+ * version, and can be built as the answer key (ctx.keyFill). The published pages never read any of it.
+ */
+const SB_EXCLUDE = {};
+const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+const levelSetPool = (pool, theme, loc) => pool.filter((e) => !refusedPicture(theme, e.noun) && !(SB_EXCLUDE[loc] || []).includes(e.vocabKey));
+/** The sounds as the page shows them: de keeps the vocab capital in box 1. */
+const shownChunks = (e, cfg, loc) => (cfg.capitalBox1 ? [displayWord(e.word, loc).slice(0, [...e.chunks[0]].length), ...e.chunks.slice(1)] : e.chunks.slice());
+const cardMeta = (e, cfg, loc, extra) => ({ key: e.vocabKey, noun: e.noun, word: e.word, chunks: shownChunks(e, cfg, loc), rows: e.rows, ...(extra || {}) });
 
 const CARD_INNER = 302;   // (675 − 14) / 2 − 12·2 padding − 2·2 border, page.css:119-137
 const ROW_INNER = 647;    // 675 − 12·2 padding − 2·2 border (the G1 row faces)
@@ -103,11 +123,13 @@ module.exports = {
   gradeBand: 'K',
   assetClass: 'icon-placement',
   exerciseType: 'sound-boxes',
+  interactive: SBS.interactiveFor('base'),
+  levelSetWords: (m) => m.words || [],
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
   difficulty: {
-    1: { cards: 4, cols: 2, rows: 2, pic: 160, box: 60, gap: 12, minG: 2, maxG: 3, maxWide: 0, minWideCards: 0, dots: 'every', band: 'K' },
+    1: { cards: 4, cols: 2, rows: 2, pic: 160, box: 60, gap: 12, minG: 2, maxG: 4, maxWide: 0, minWideCards: 0, dots: 'every', band: 'K' },
     2: { cards: 6, cols: 2, rows: 3, pic: 104, picWithDots: 96, box: 48, gap: 8, minG: 3, maxG: 5, maxWide: 2, minWideCards: 0, wantWide: 1, dots: 'locale', band: 'K', poolFloor: 8 },
-    3: { cards: 8, cols: 2, rows: 4, pic: 68, box: 44, gap: 8, minG: 4, maxG: 5, maxWide: 2, minWideCards: 2, dots: 'never', band: 'G1' },
+    3: { cards: 8, cols: 2, rows: 4, pic: 68, box: 44, gap: 8, minG: 4, maxG: 5, maxWide: 2, minWideCards: 0, wantWide: 2, dots: 'never', band: 'G1' },
   },
   i18n: {
     en: {
@@ -122,17 +144,25 @@ module.exports = {
    */
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(bank('sound-boxes', loc), { theme, difficulty, locale }, ctx);   // REFUSES when the locale block is absent
+    const cfg = bank('sound-boxes', loc);
+    if (isFresh(difficulty, ctx) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      if (ctx.answerKey) return this._buildWith(cfg, { theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false, keyFill: true });
+      const built = this._buildWith(cfg, { theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return SBS.screen(built, ctx, loc, theme, faceOf(this.difficulty[difficulty]), cfg);
+    }
+    return this._buildWith(cfg, { theme, difficulty, locale }, ctx);   // REFUSES when the locale block is absent
   },
 
   /** The gate's seam: build against an explicit locale block (a poisoned bank never touches data/). */
   _buildWith(cfg, { theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const face = faceOf(d);
-    if (face !== 'base') return this._buildFace(face, cfg, d, { theme, locale }, ctx);
+    if (face !== 'base') return this._buildFace(face, cfg, d, { theme, locale }, { ...ctx, fresh: isFresh(difficulty, ctx) });
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
-    const pool = eligible({ theme, loc, cfg, d, inner: CARD_INNER });
+    const fresh = isFresh(difficulty, ctx);
+    const pool0 = eligible({ theme, loc, cfg, d, inner: CARD_INNER });
+    const pool = fresh ? levelSetPool(pool0, theme, loc) : pool0;
     // the theme floor is the FACE pool after segmentation (design §1), enforced
     // at the shipping difficulty; d1/d3 keep the sample-or-throw guard only
     if (d.poolFloor && pool.length < d.poolFloor) {
@@ -142,7 +172,7 @@ module.exports = {
     const dots = d.dots === 'every' || (d.dots === 'locale' && !!cfg.dots);
     const pic = dots && d.picWithDots ? d.picWithDots : d.pic;   // the dot row costs 12 + 8 px of the 191 px a d2 stage holds
     const cards = picks.map((e) => {
-      const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap });
+      const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, ...(ctx && ctx.keyFill ? { keyText: shownChunks(e, cfg, loc) } : {}) });
       const dotRow = dots ? hakDots({ centers: row.centers, width: row.width }) : '';
       return `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;gap:8px;padding:4px 0" ` +
         `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="base">` +
@@ -153,7 +183,7 @@ module.exports = {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;min-height:0" data-ws-content data-lcs-cards="${d.cards}" ` +
         `data-lcs-ming="${d.minG}" data-lcs-maxg="${d.maxG}" data-lcs-maxwide="${d.maxWide}" data-lcs-minwidecards="${d.minWideCards}" ` +
         `data-lcs-dots="${dots ? 1 : 0}" data-lcs-inner="${CARD_INNER}" data-lcs-band="${d.band}">${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
-      meta: { words: picks.map((e) => e.word), chunks: picks.map((e) => e.chunks) },
+      meta: { words: picks.map((e) => e.word), chunks: picks.map((e) => e.chunks), ...(fresh ? { cards: picks.map((e) => cardMeta(e, cfg, loc)) } : {}) },
     };
   },
 
@@ -173,7 +203,9 @@ module.exports = {
     if (face === 'blend' && ROW_BADGE + boxSlot + 2 * CHOICE_GAP + d.choices * d.pic + (d.choices - 1) * CHOICE_GAP > ROW_INNER) {
       throw new Error(`K-318/blend: box slot ${boxSlot} + ${d.choices} pictures do not fit the row`);
     }
-    const pool = eligible({ theme, loc, cfg, d, inner });
+    const fresh = !!ctx.fresh, keyFill = !!ctx.keyFill;
+    const pool0 = eligible({ theme, loc, cfg, d, inner });
+    const pool = fresh ? levelSetPool(pool0, theme, loc) : pool0;
     if (d.poolFloor && pool.length < d.poolFloor) {
       throw new Error(`K-318/${face}: theme ${theme}/${loc} has ${pool.length} segmentable nouns < ${d.poolFloor} (refused)`);
     }
@@ -185,29 +217,30 @@ module.exports = {
     const rowStage = (e, extra, body) => `<div class="ws-card-stage" style="justify-content:flex-start;gap:${ROW_GAP}px;padding:0 0 0 ${ROW_BADGE}px" ${stampsOf(e)}${extra || ''}>` +
       body + `</div>`;
     let cards, extraRoot = '', meta = { words: picks.map((e) => e.word), chunks: picks.map((e) => e.chunks) };
+    const blendCards = [];
 
     if (face === 'count') {
       // no boxes, no dots: a dashed lane (one dot per sound, drawn by the child) + the numeral box
       cards = picks.map((e) => kStage(e, '',
         `<div style="display:flex;align-items:center;justify-content:center;gap:12px" data-lcs-countrow="${e.chunks.length}">` +
-        soundLane({ w: LANE_W, h: LANE_H }) + answerBox({ w: LANE_H, h: LANE_H, answer: e.chunks.length }) + `</div>`));
+        soundLane({ w: LANE_W, h: LANE_H }) + answerBox({ w: LANE_H, h: LANE_H, answer: e.chunks.length, ...(keyFill ? { label: `<span style="color:#F2784B;font-family:'Baloo 2',cursive;font-weight:700;font-size:32px" data-lcs-keynum>${e.chunks.length}</span>` } : {}) }) + `</div>`));
       extraRoot = ` data-lcs-inner="${CARD_INNER}"`;
     } else if (face === 'starter') {
       cards = picks.map((e) => {
         const text = starterText(e, loc);
-        const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, starter: { i: 0, text } });
+        const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, starter: { i: 0, text }, ...(keyFill ? { keyText: shownChunks(e, cfg, loc) } : {}) });
         return kStage(e, ` data-lcs-starter="${text}"`, row.svg);
       });
       extraRoot = ` data-lcs-inner="${CARD_INNER}"`;
     } else if (face === 'strip') {
       cards = picks.map((e) => {
-        const row = soundBoxes({ chunks: e.chunks, box: d.box, gap: d.gap, uniform: d.strip });
+        const row = soundBoxes({ chunks: e.chunks, box: d.box, gap: d.gap, uniform: d.strip, ...(keyFill ? { keyText: shownChunks(e, cfg, loc) } : {}) });
         return rowStage(e, ` data-lcs-strip="${d.strip}"`, img(e.noun, e.vocabKey, d.pic) + row.svg);
       });
       extraRoot = ` data-lcs-inner="${inner}" data-lcs-strip="${d.strip}"`;
     } else if (face === 'tiers') {
       cards = picks.map((e) => {
-        const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, sylRows: e.rows, interGap: d.interGap || 22 });
+        const row = soundBoxes({ chunks: e.chunks, box: e.box, gap: d.gap, sylRows: e.rows, interGap: d.interGap || 22, ...(keyFill ? { keyText: shownChunks(e, cfg, loc) } : {}) });
         const arcs = syllableArcs({ spans: row.spans, w: row.width, h: ARC_H, mode: 'printed' });
         return rowStage(e, ` data-lcs-syl="${e.rows.map((r) => r.length).join('|')}"`,
           img(e.noun, e.vocabKey, d.pic) +
@@ -220,9 +253,23 @@ module.exports = {
       // target and from each other — every picture on the page is a different noun (18 = 6 + 12)
       const targetKeys = new Set(picks.map((e) => e.vocabKey)), targetWords = new Set(picks.map((e) => e.word.toLocaleLowerCase(loc)));
       const foils = distinctByWord(entriesFor(theme, loc).map((x) => ({ ...x, word: displayWord(x.singular, loc) }))
-        .filter((x) => !targetKeys.has(x.vocabKey) && !targetWords.has(x.word.toLocaleLowerCase(loc))), (x) => x.word.toLocaleLowerCase(loc));
+        .filter((x) => !targetKeys.has(x.vocabKey) && !targetWords.has(x.word.toLocaleLowerCase(loc)))
+        .filter((x) => !fresh || !refusedPicture(theme, x.noun)), (x) => x.word.toLocaleLowerCase(loc));
       const need = d.cards * (d.choices - 1);
-      const chosen = sampleEntries(rng, foils, need, `K-318/blend distractors (${theme}/${loc})`);
+      // new pages: each row's pictures are pairwise NOT look-alikes (two right answers otherwise — the Müsli row: muesli
+      // beside porridge); the published pages keep their own draw
+      const chosen = !fresh ? sampleEntries(rng, foils, need, `K-318/blend distractors (${theme}/${loc})`) : (() => {
+        const pool = rng.shuffle(foils.slice()), used = new Set(), out = [];
+        for (const e of picks) {
+          const row = [e];
+          for (let k = 0; k < d.choices - 1; k++) {
+            const f = pool.find((x) => !used.has(x.vocabKey) && row.every((r) => !lookAlike(r.vocabKey, x.vocabKey)));
+            if (!f) throw new Error(`K-318/blend: no distinct distractor for ${e.vocabKey} (${theme}/${loc})`);
+            used.add(f.vocabKey); row.push(f); out.push(f);
+          }
+        }
+        return out;
+      })();
       // the target's slot: every position twice over six rows, shuffled (never a constant column)
       const slots = rng.shuffle(picks.map((_, i) => i % d.choices));
       cards = picks.map((e, i) => {
@@ -231,14 +278,17 @@ module.exports = {
         const mine = chosen.slice(i * (d.choices - 1), (i + 1) * (d.choices - 1));
         const choices = [];
         for (let k = 0, f = 0; k < d.choices; k++) choices.push(k === slots[i] ? e : mine[f++]);
-        return rowStage(e, ` data-lcs-target="${e.vocabKey}"`,
+        const out = rowStage(e, ` data-lcs-target="${e.vocabKey}"`,
           `<div style="width:${boxSlot}px;flex:none;display:flex;align-items:center" data-lcs-boxslot="${boxSlot}">${row.svg}</div>` +
           `<div style="display:flex;align-items:center;gap:${CHOICE_GAP}px;margin-left:${2 * CHOICE_GAP - ROW_GAP}px" data-lcs-choices="${d.choices}">` +
-          choices.map((c) => `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" data-lcs-choice="${c.vocabKey}" style="width:${d.pic}px;height:${d.pic}px">`).join('') + `</div>`);
+          choices.map((c) => `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" data-lcs-choice="${c.vocabKey}" style="width:${d.pic}px;height:${d.pic}px${keyFill && c === e ? ';outline:4px solid #F2784B;outline-offset:3px;border-radius:50%' : ''}"${keyFill && c === e ? ' data-lcs-keychoice' : ''}>`).join('') + `</div>`);
+        if (fresh) blendCards.push(cardMeta(e, cfg, loc, { choices: choices.map((c) => ({ key: c.vocabKey, noun: c.noun })), target: slots[i] }));
+        return out;
       });
       meta.distractors = chosen.map((x) => x.word);
       extraRoot = ` data-lcs-inner="${inner}" data-lcs-choices="${d.choices}"`;
     }
+    if (fresh) meta.cards = face === 'blend' ? blendCards : picks.map((e) => cardMeta(e, cfg, loc));
     return { bodyHtml: rootOpen(d, face, extraRoot) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`, meta };
   },
 

@@ -16,6 +16,7 @@
  *       `data-lcs-sylboxes="3|2"` and returns `spans:[{x,w}]` per cluster for
  *       the shared syllable arcs. `printed:true` prints every chunk (Blend);
  *       `starter:{i,text}` prints exactly one box (First Sound Given).
+ *   keyText:[…] (Level Set answer key) writes each box's sound in coral where nothing is printed.
  *   hakDots({centers, filled})   nl hak-stippen: one teal dot over each box centre
  *   soundLane({w, h})            a white dashed lane with NO ticks (Count face)
  * The syllable arcs of the Tiers face come from G1-305's shared
@@ -39,7 +40,7 @@ function rowWidth(widths, gap) {
   return widths.reduce((a, b) => a + b, 0) + gap * (widths.length - 1) + 2;
 }
 
-function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', starter = null, printed = false, uniform = null, sylRows = null, interGap = 22 }) {
+function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', starter = null, printed = false, uniform = null, sylRows = null, interGap = 22, keyText = null }) {
   const list = uniform ? Array.from({ length: uniform }, () => '') : chunks.map(String);
   const widths = uniform ? list.map(() => box) : boxWidths(list, box, wide);
   const anyWide = !uniform && widths.some((w) => w !== box);
@@ -74,6 +75,13 @@ function soundBoxes({ chunks, box = 48, gap = 8, wide = 1.5, dash = '6 5', start
       parts.push(label({
         x: x + w / 2, y: y + box / 2 + 1, text, size: 26, color: T.teal, fontFamily: F.display, weight: 700, anchor: 'middle',
         data: { 'data-lcs-printed': i },
+      }));
+    }
+    else if (keyText && keyText[i]) {
+      // the answer key (Level Set 2026-10-01): the box's own sound in coral, centred in the box like a printed one
+      parts.push(label({
+        x: x + w / 2, y: y + box / 2 + 1, text: keyText[i], size: Math.min(26, Math.round(box * 0.5)), color: T.coral, fontFamily: F.display, weight: 700, anchor: 'middle',
+        data: { 'data-lcs-keybox': i },
       }));
     }
     centers.push(x + w / 2);

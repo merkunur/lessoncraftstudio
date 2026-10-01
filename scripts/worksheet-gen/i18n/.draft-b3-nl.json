@@ -5116,7 +5116,62 @@
    "strictPool": null,
    "mergeDoubles": false,
    "exemplar": "animals",
-   "remergeAcrossSyllable": [],
+   "remergeAcrossSyllable": [
+    "alligator",
+    "apple",
+    "baker",
+    "balloon",
+    "barber",
+    "binoculars",
+    "birdhouse",
+    "blocks",
+    "bucket",
+    "carpenter",
+    "cashier",
+    "crutches",
+    "cucumber",
+    "cushion",
+    "cymbals",
+    "dice",
+    "dishwasher",
+    "drum",
+    "flip-flops",
+    "frog",
+    "gazelle",
+    "gecko",
+    "girl",
+    "gorilla",
+    "jacket",
+    "ladder",
+    "leggings",
+    "lunchbox",
+    "medal",
+    "muffin",
+    "mushroom",
+    "necklace",
+    "orange",
+    "otter",
+    "package",
+    "pancake",
+    "parallelogram",
+    "peeler",
+    "pinecone",
+    "plunger",
+    "pomegranate",
+    "potato",
+    "pudding",
+    "purse",
+    "puzzle",
+    "raindrop",
+    "satellite",
+    "scarecrow",
+    "slippers",
+    "sunflower",
+    "sunglasses",
+    "sweatpants",
+    "swing",
+    "van"
+   ],
    "exclude": [
     "actor",
     "allosaurus",
@@ -5126,6 +5181,7 @@
     "ankylosaurus",
     "architect",
     "argentinosaurus",
+    "aster",
     "badge",
     "badger",
     "bagel",
@@ -5233,15 +5289,18 @@
     "lollipop",
     "macaron",
     "mars",
+    "medal",
     "medicine",
     "merry",
     "mosasaurus",
     "mountain",
+    "muffin",
     "muscles",
     "nativity",
     "nectarine",
     "neptune",
     "nut",
+    "oar",
     "octopus",
     "orchard",
     "outlet",
@@ -5249,6 +5308,7 @@
     "pachycephalosaurus",
     "painting",
     "pajamas",
+    "parallelogram",
     "paramedic",
     "pelican",
     "photography",
@@ -5315,6 +5375,7 @@
     "trail",
     "tree",
     "triceratops",
+    "trillium",
     "trousers",
     "tuna",
     "turquoise",
@@ -5322,10 +5383,12 @@
     "velociraptor",
     "venus",
     "wallet",
+    "watch",
     "white",
     "wrist",
     "writing",
     "xylophone",
+    "yacht",
     "yellow"
    ],
    "bank": {
@@ -5354,11 +5417,10 @@
     ],
     "alligator": [
      [
-      "a",
-      "l"
+      "a"
      ],
      [
-      "l",
+      "ll",
       "i"
      ],
      [
@@ -5421,11 +5483,10 @@
     ],
     "apple": [
      [
-      "a",
-      "p"
+      "a"
      ],
      [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -5596,11 +5657,10 @@
     "baker": [
      [
       "b",
-      "a",
-      "k"
+      "a"
      ],
      [
-      "k",
+      "kk",
       "e",
       "r"
      ]
@@ -5615,11 +5675,10 @@
     "balloon": [
      [
       "b",
-      "a",
-      "l"
+      "a"
      ],
      [
-      "l",
+      "ll",
       "o",
       "n"
      ]
@@ -5651,11 +5710,10 @@
     "barber": [
      [
       "k",
-      "a",
-      "p"
+      "a"
      ],
      [
-      "p",
+      "pp",
       "e",
       "r"
      ]
@@ -5801,11 +5859,10 @@
     "binoculars": [
      [
       "v",
-      "e",
-      "r"
+      "e"
      ],
      [
-      "r",
+      "rr",
       "e"
      ],
      [
@@ -5841,11 +5898,10 @@
      ],
      [
       "h",
-      "ui",
-      "s"
+      "ui"
      ],
      [
-      "j",
+      "sj",
       "e"
      ]
     ],
@@ -5896,11 +5952,10 @@
      [
       "b",
       "l",
-      "o",
-      "k"
+      "o"
      ],
      [
-      "k",
+      "kk",
       "e",
       "n"
      ]
@@ -6042,11 +6097,10 @@
     ],
     "bucket": [
      [
-      "e",
-      "m"
+      "e"
      ],
      [
-      "m",
+      "mm",
       "e",
       "r"
      ]
@@ -6256,11 +6310,10 @@
     "carpenter": [
      [
       "t",
-      "i",
-      "m"
+      "i"
      ],
      [
-      "m",
+      "mm",
       "e",
       "r"
      ],
@@ -6317,11 +6370,10 @@
     "cashier": [
      [
       "k",
-      "a",
-      "s"
+      "a"
      ],
      [
-      "s",
+      "ss",
       "ie",
       "r"
      ]
@@ -6744,8 +6796,7 @@
      [
       "k",
       "r",
-      "aa",
-      "i"
+      "aai"
      ]
     ],
     "crown": [
@@ -6760,11 +6811,10 @@
      [
       "k",
       "r",
-      "u",
-      "k"
+      "u"
      ],
      [
-      "k",
+      "kk",
       "e",
       "n"
      ]
@@ -6788,11 +6838,10 @@
      ],
      [
       "k",
-      "o",
-      "m"
+      "o"
      ],
      [
-      "m",
+      "mm",
       "e",
       "r"
      ]
@@ -6827,11 +6876,10 @@
     "cushion": [
      [
       "k",
-      "u",
-      "s"
+      "u"
      ],
      [
-      "s",
+      "ss",
       "e",
       "n"
      ]
@@ -6839,11 +6887,10 @@
     "cymbals": [
      [
       "b",
-      "e",
-      "k"
+      "e"
      ],
      [
-      "k",
+      "kk",
       "e",
       "n",
       "s"
@@ -6885,11 +6932,10 @@
     "dice": [
      [
       "d",
-      "o",
-      "b"
+      "o"
      ],
      [
-      "b",
+      "bb",
       "e",
       "l"
      ],
@@ -6912,11 +6958,10 @@
      ],
      [
       "w",
-      "a",
-      "s"
+      "a"
      ],
      [
-      "s",
+      "ss",
       "e",
       "r"
      ]
@@ -7059,11 +7104,10 @@
      [
       "t",
       "r",
-      "o",
-      "m"
+      "o"
      ],
      [
-      "m",
+      "mm",
       "e",
       "l"
      ]
@@ -7372,11 +7416,10 @@
      [
       "s",
       "l",
-      "i",
-      "p"
+      "i"
      ],
      [
-      "p",
+      "pp",
       "e",
       "r",
       "s"
@@ -7467,11 +7510,10 @@
     "frog": [
      [
       "k",
-      "i",
-      "k"
+      "i"
      ],
      [
-      "k",
+      "kk",
       "e",
       "r"
      ]
@@ -7529,22 +7571,20 @@
      ],
      [
       "z",
-      "e",
-      "l"
+      "e"
      ],
      [
-      "l",
+      "ll",
       "e"
      ]
     ],
     "gecko": [
      [
       "g",
-      "e",
-      "k"
+      "e"
      ],
      [
-      "k",
+      "kk",
       "o"
      ]
     ],
@@ -7587,11 +7627,10 @@
     "girl": [
      [
       "m",
-      "ei",
-      "s"
+      "ei"
      ],
      [
-      "j",
+      "sj",
       "e"
      ]
     ],
@@ -7714,11 +7753,10 @@
      ],
      [
       "r",
-      "i",
-      "l"
+      "i"
      ],
      [
-      "l",
+      "ll",
       "a"
      ]
     ],
@@ -7769,8 +7807,7 @@
       "g",
       "r",
       "i",
-      "l",
-      "l"
+      "ll"
      ]
     ],
     "guitar": [
@@ -8105,11 +8142,10 @@
     "jacket": [
      [
       "j",
-      "a",
-      "s"
+      "a"
      ],
      [
-      "j",
+      "sj",
       "e"
      ]
     ],
@@ -8304,11 +8340,10 @@
     "ladder": [
      [
       "l",
-      "a",
-      "d"
+      "a"
      ],
      [
-      "d",
+      "dd",
       "e",
       "r"
      ]
@@ -8424,11 +8459,10 @@
     "leggings": [
      [
       "l",
-      "e",
-      "g"
+      "e"
      ],
      [
-      "g",
+      "gg",
       "i",
       "ng"
      ]
@@ -8571,9 +8605,7 @@
     "lion": [
      [
       "l",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ]
     ],
     "lip": [
@@ -8640,11 +8672,10 @@
      [
       "t",
       "r",
-      "o",
-      "m"
+      "o"
      ],
      [
-      "m",
+      "mm",
       "e",
       "l"
      ]
@@ -8762,11 +8793,10 @@
      [
       "d",
       "a",
-      "i",
-      "l"
+      "i"
      ],
      [
-      "l",
+      "ll",
       "e"
      ]
     ],
@@ -8946,11 +8976,10 @@
     "muffin": [
      [
       "m",
-      "u",
-      "f"
+      "u"
      ],
      [
-      "f",
+      "ff",
       "i",
       "n"
      ]
@@ -8965,11 +8994,10 @@
     "mushroom": [
      [
       "p",
-      "a",
-      "d"
+      "a"
      ],
      [
-      "d",
+      "dd",
       "e",
       "n"
      ],
@@ -9029,11 +9057,10 @@
     "necklace": [
      [
       "k",
-      "e",
-      "t"
+      "e"
      ],
      [
-      "t",
+      "tt",
       "i",
       "ng"
      ]
@@ -9172,11 +9199,10 @@
       "s"
      ],
      [
-      "a",
-      "p"
+      "a"
      ],
      [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -9229,11 +9255,10 @@
     ],
     "otter": [
      [
-      "o",
-      "t"
+      "o"
      ],
      [
-      "t",
+      "tt",
       "e",
       "r"
      ]
@@ -9278,11 +9303,10 @@
     "package": [
      [
       "p",
-      "a",
-      "k"
+      "a"
      ],
      [
-      "k",
+      "kk",
       "e",
       "t"
      ]
@@ -9297,11 +9321,10 @@
     "pancake": [
      [
       "p",
-      "a",
-      "n"
+      "a"
      ],
      [
-      "n",
+      "nn",
       "e",
       "n"
      ],
@@ -9362,16 +9385,14 @@
      ],
      [
       "r",
-      "a",
-      "l"
+      "a"
      ],
      [
-      "l",
-      "e",
-      "l"
+      "ll",
+      "e"
      ],
      [
-      "l",
+      "ll",
       "o"
      ],
      [
@@ -9454,11 +9475,10 @@
      ],
      [
       "sch",
-      "i",
-      "l"
+      "i"
      ],
      [
-      "l",
+      "ll",
       "e",
       "r"
      ]
@@ -9565,20 +9585,18 @@
     "pinecone": [
      [
       "d",
+      "e"
+     ],
+     [
+      "nn",
       "e",
       "n"
      ],
      [
-      "n",
-      "e",
-      "n"
+      "a"
      ],
      [
-      "a",
-      "p"
-     ],
-     [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -9619,11 +9637,10 @@
      [
       "s",
       "t",
-      "o",
-      "p"
+      "o"
      ],
      [
-      "p",
+      "pp",
       "e",
       "r"
      ]
@@ -9640,11 +9657,10 @@
       "t"
      ],
      [
-      "a",
-      "p"
+      "a"
      ],
      [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -9698,11 +9714,10 @@
       "d"
      ],
      [
-      "a",
-      "p"
+      "a"
      ],
      [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -9710,11 +9725,10 @@
     "pudding": [
      [
       "p",
-      "u",
-      "d"
+      "u"
      ],
      [
-      "d",
+      "dd",
       "i",
       "ng"
      ]
@@ -9754,8 +9768,7 @@
      ],
      [
       "g",
-      "aa",
-      "i"
+      "aai"
      ],
      [
       "d",
@@ -9791,22 +9804,20 @@
      ],
      [
       "m",
-      "o",
-      "n"
+      "o"
      ],
      [
-      "n",
+      "nn",
       "ee"
      ]
     ],
     "puzzle": [
      [
       "p",
-      "u",
-      "z"
+      "u"
      ],
      [
-      "z",
+      "zz",
       "e",
       "l"
      ]
@@ -9921,11 +9932,10 @@
      [
       "d",
       "r",
-      "u",
-      "p"
+      "u"
      ],
      [
-      "p",
+      "pp",
       "e",
       "l"
      ]
@@ -10173,11 +10183,10 @@
      ],
      [
       "t",
-      "e",
-      "l"
+      "e"
      ],
      [
-      "l",
+      "ll",
       "ie",
       "t"
      ]
@@ -10229,19 +10238,17 @@
      [
       "sch",
       "r",
-      "i",
-      "k"
+      "i"
      ],
      [
-      "k",
+      "kk",
       "e",
       "r"
      ]
     ],
     "scarf": [
      [
-      "s",
-      "j",
+      "sj",
       "aa",
       "l"
      ]
@@ -10268,9 +10275,7 @@
      ],
      [
       "m",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ]
     ],
     "seal": [
@@ -10307,8 +10312,7 @@
     "shark": [
      [
       "h",
-      "aa",
-      "i"
+      "aai"
      ]
     ],
     "sheep": [
@@ -10418,11 +10422,10 @@
      ],
      [
       "t",
-      "o",
-      "f"
+      "o"
      ],
      [
-      "f",
+      "ff",
       "e",
       "l",
       "s"
@@ -10467,9 +10470,7 @@
      [
       "s",
       "n",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ],
      [
       "k",
@@ -10486,9 +10487,7 @@
      [
       "s",
       "n",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ],
      [
       "v",
@@ -10501,9 +10500,7 @@
      [
       "s",
       "n",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ],
      [
       "p",
@@ -10515,9 +10512,7 @@
      [
       "s",
       "n",
-      "ee",
-      "u",
-      "w"
+      "eeuw"
      ],
      [
       "p",
@@ -10771,11 +10766,10 @@
     "sunflower": [
      [
       "z",
-      "o",
-      "n"
+      "o"
      ],
      [
-      "n",
+      "nn",
       "e"
      ],
      [
@@ -10788,11 +10782,10 @@
     "sunglasses": [
      [
       "z",
-      "o",
-      "n"
+      "o"
      ],
      [
-      "n",
+      "nn",
       "e"
      ],
      [
@@ -10859,11 +10852,10 @@
     "sweatpants": [
      [
       "j",
-      "o",
-      "g"
+      "o"
      ],
      [
-      "g",
+      "gg",
       "i",
       "ng"
      ],
@@ -10890,11 +10882,10 @@
     "swing": [
      [
       "sch",
-      "o",
-      "m"
+      "o"
      ],
      [
-      "m",
+      "mm",
       "e",
       "l"
      ]
@@ -11344,11 +11335,10 @@
     "van": [
      [
       "b",
-      "u",
-      "s"
+      "u"
      ],
      [
-      "j",
+      "sj",
       "e"
      ]
     ],
@@ -11652,11 +11642,9 @@
    "texBoundary": [
     "acorn",
     "airplane",
-    "alligator",
     "angel",
     "angelfish",
     "antelope",
-    "apple",
     "armadillo",
     "artist",
     "asparagus",
@@ -11666,24 +11654,18 @@
     "author",
     "backpack",
     "baguette",
-    "baker",
-    "balloon",
     "banana",
     "bandage",
-    "barber",
     "barrette",
     "bat",
     "bathtub",
     "beaver",
     "beetle",
     "binder",
-    "binoculars",
     "bird",
-    "birdhouse",
     "biscuit",
     "bison",
     "blender",
-    "blocks",
     "blueberry",
     "bonfire",
     "bookcase",
@@ -11691,7 +11673,6 @@
     "bracelet",
     "broom",
     "brush",
-    "bucket",
     "bun",
     "butter",
     "buttercup",
@@ -11701,11 +11682,9 @@
     "cardinal",
     "cards",
     "carnation",
-    "carpenter",
     "carpet",
     "carrot",
     "cart",
-    "cashier",
     "cauliflower",
     "celery",
     "centipede",
@@ -11724,16 +11703,10 @@
     "crayon",
     "crayons",
     "cricket",
-    "crutches",
     "cube",
-    "cucumber",
     "cup",
     "curtains",
-    "cushion",
-    "cymbals",
     "dandelion",
-    "dice",
-    "dishwasher",
     "doctor",
     "dolphin",
     "domino",
@@ -11741,7 +11714,6 @@
     "dragonfly",
     "dresser",
     "driftwood",
-    "drum",
     "duckling",
     "earmuffs",
     "earthworm",
@@ -11755,25 +11727,19 @@
     "firefighter",
     "flamingo",
     "flashlight",
-    "flip-flops",
     "florist",
     "foal",
     "fridge",
-    "frog",
     "gardener",
     "garland",
     "garlic",
-    "gazelle",
-    "gecko",
     "gerbil",
     "gingerbread",
-    "girl",
     "globe",
     "glove",
     "gloves",
     "goggles",
     "goldfish",
-    "gorilla",
     "grapes",
     "grasshopper",
     "guitar",
@@ -11794,7 +11760,6 @@
     "hummingbird",
     "icicle",
     "iron",
-    "jacket",
     "jasmine",
     "jeans",
     "jet",
@@ -11805,12 +11770,10 @@
     "key",
     "kingfisher",
     "kite",
-    "ladder",
     "ladle",
     "ladybug",
     "lantern",
     "lavender",
-    "leggings",
     "lemonade",
     "lemur",
     "leopard",
@@ -11823,7 +11786,6 @@
     "lizard",
     "log",
     "lotus",
-    "lunchbox",
     "magpie",
     "mailbox",
     "manatee",
@@ -11831,7 +11793,6 @@
     "marigold",
     "mask",
     "mechanic",
-    "medal",
     "meerkat",
     "melon",
     "microwave",
@@ -11840,35 +11801,26 @@
     "mistletoe",
     "mittens",
     "motorcycle",
-    "muffin",
-    "mushroom",
     "musician",
     "nail",
     "narwhal",
-    "necklace",
     "nightstand",
     "nurse",
     "nutcracker",
     "oar",
     "oatmeal",
-    "orange",
     "orchid",
     "ornament",
     "ostrich",
-    "otter",
     "overalls",
     "oyster",
-    "package",
-    "pancake",
     "panda",
     "papaya",
     "paper",
-    "parallelogram",
     "parsnip",
     "pasta",
     "peach",
     "peas",
-    "peeler",
     "pencil",
     "pentagon",
     "pepper",
@@ -11876,19 +11828,12 @@
     "photographer",
     "pig",
     "pilot",
-    "pinecone",
     "planet",
-    "plunger",
-    "pomegranate",
     "pool",
     "porcupine",
-    "potato",
-    "pudding",
     "pufferfish",
     "puffin",
     "pumpkin",
-    "purse",
-    "puzzle",
     "pyramid",
     "quail",
     "rabbit",
@@ -11896,7 +11841,6 @@
     "radish",
     "rainbow",
     "raincoat",
-    "raindrop",
     "raspberry",
     "reindeer",
     "robin",
@@ -11908,9 +11852,7 @@
     "sandbox",
     "sandcastle",
     "santa",
-    "satellite",
     "saucepan",
-    "scarecrow",
     "seagull",
     "seal",
     "seaweed",
@@ -11918,7 +11860,6 @@
     "singer",
     "sink",
     "slide",
-    "slippers",
     "slug",
     "snorkel",
     "snowdrop",
@@ -11940,14 +11881,10 @@
     "strawberry",
     "student",
     "subway",
-    "sunflower",
-    "sunglasses",
     "surfboard",
     "suspenders",
     "swallow",
-    "sweatpants",
     "swimsuit",
-    "swing",
     "table",
     "tablet",
     "tailor",
@@ -11974,7 +11911,6 @@
     "turtle",
     "umbrella",
     "underpants",
-    "van",
     "veterinarian",
     "waffle",
     "waitress",

@@ -800,5 +800,72 @@
    "no": "Se på hvert bilde. Stav ordet i entall: trykk på bokstavene i riktig rekkefølge.",
    "fi": "Katso jokaista kuvaa. Kirjoita sana yksikössä: napauta kirjaimet oikeaan järjestykseen."
   }
+ },
+ "sound-boxes": {
+  "spell": {
+   "en": "Say the picture word slowly. Tap the sound tiles in order: one sound in each box.",
+   "de": "Sprich das Bildwort langsam. Tippe die Laute der Reihe nach an: ein Laut in jedes Kästchen.",
+   "es": "Di despacio el nombre del dibujo. Toca los sonidos en orden: un sonido en cada caja.",
+   "fr": "Dis le nom de l'image lentement. Touche les sons dans l'ordre : un son dans chaque case.",
+   "it": "Di' la parola piano piano. Tocca i suoni in ordine: un suono in ogni casella.",
+   "pt": "Fale o nome da figura bem devagar. Toque nos sons em ordem: um som em cada caixinha.",
+   "nl": "Zeg het woord bij het plaatje langzaam. Tik de klanken op volgorde aan: één klank in elk hokje.",
+   "sv": "Säg ordet till bilden långsamt. Tryck på ljuden i rätt ordning: ett ljud i varje ruta.",
+   "da": "Sig ordet til billedet langsomt. Tryk på lydene i rækkefølge: én lyd i hver kasse.",
+   "no": "Si ordet til bildet sakte. Trykk på lydene i riktig rekkefølge: én lyd i hver rute.",
+   "fi": "Sano kuvan sana hitaasti. Napauta äänteet järjestyksessä: yksi äänne jokaiseen laatikkoon."
+  },
+  "syllables": {
+   "en": "Clap the syllables of the picture word. Each group of boxes is one syllable. Tap the sound tiles in order.",
+   "de": "Klatsche die Silben des Bildwortes. Jede Gruppe von Kästchen ist eine Silbe. Tippe die Laute der Reihe nach an.",
+   "es": "Aplaude las sílabas del nombre del dibujo. Cada grupo de cajas es una sílaba. Toca los sonidos en orden.",
+   "fr": "Frappe les syllabes du mot dans tes mains. Chaque groupe de cases est une syllabe. Touche les sons dans l'ordre.",
+   "it": "Batti le mani per ogni sillaba. Ogni gruppo di caselle è una sillaba. Tocca i suoni in ordine.",
+   "pt": "Bata palmas para as sílabas da palavra. Cada grupo de caixinhas é uma sílaba. Toque nos sons em ordem.",
+   "nl": "Klap de lettergrepen van het woord. Elk groepje hokjes is één lettergreep. Tik de klanken op volgorde aan.",
+   "sv": "Klappa stavelserna i ordet. Varje grupp av rutor är en stavelse. Tryck på ljuden i rätt ordning.",
+   "da": "Klap stavelserne i ordet. Hver gruppe af kasser er én stavelse. Tryk på lydene i rækkefølge.",
+   "no": "Klapp stavelsene i ordet. Hver gruppe med ruter er én stavelse. Trykk på lydene i riktig rekkefølge.",
+   "fi": "Taputa kuvan sanan tavut. Jokainen laatikkoryhmä on yksi tavu. Napauta äänteet järjestyksessä."
+  },
+  "first": {
+   "en": "The first sound is given. Say the picture word slowly and tap the other sounds in order.",
+   "de": "Der erste Laut steht schon da. Sprich das Bildwort langsam und tippe die anderen Laute der Reihe nach an.",
+   "es": "El primer sonido ya está. Di despacio el nombre del dibujo y toca los demás sonidos en orden.",
+   "fr": "Le premier son est déjà là. Dis le nom de l'image lentement et touche les autres sons dans l'ordre.",
+   "it": "Il primo suono c'è già. Di' la parola piano piano e tocca gli altri suoni in ordine.",
+   "pt": "O primeiro som já está aí. Fale a palavra devagar e toque nos outros sons em ordem.",
+   "nl": "De eerste klank staat er al. Zeg het woord langzaam en tik de andere klanken op volgorde aan.",
+   "sv": "Det första ljudet finns redan. Säg ordet långsamt och tryck på de andra ljuden i rätt ordning.",
+   "da": "Den første lyd står der allerede. Sig ordet langsomt, og tryk på de andre lyde i rækkefølge.",
+   "no": "Den første lyden står der allerede. Si ordet sakte og trykk på de andre lydene i riktig rekkefølge.",
+   "fi": "Ensimmäinen äänne on jo annettu. Sano kuvan sana hitaasti ja napauta muut äänteet järjestyksessä."
+  },
+  "count": {
+   "en": "Say the picture word slowly. How many sounds do you hear? Tap the number.",
+   "de": "Sprich das Bildwort langsam. Wie viele Laute hörst du? Tippe die Zahl an.",
+   "es": "Di despacio el nombre del dibujo. ¿Cuántos sonidos oyes? Toca el número.",
+   "fr": "Dis le nom de l'image lentement. Combien de sons entends-tu ? Touche le nombre.",
+   "it": "Di' la parola piano piano. Quanti suoni senti? Tocca il numero.",
+   "pt": "Fale o nome da figura devagar. Quantos sons você ouve? Toque no número.",
+   "nl": "Zeg het woord langzaam. Hoeveel klanken hoor je? Tik het getal aan.",
+   "sv": "Säg ordet till bilden långsamt. Hur många ljud hör du? Tryck på siffran.",
+   "da": "Sig ordet langsomt. Hvor mange lyde hører du? Tryk på tallet.",
+   "no": "Si ordet til bildet sakte. Hvor mange lyder hører du? Trykk på tallet.",
+   "fi": "Sano kuvan sana hitaasti. Montako äännettä kuulet? Napauta lukua."
+  },
+  "blend": {
+   "en": "Read the sounds in the boxes and blend them into a word. Tap the picture that matches the word.",
+   "de": "Lies die Laute in den Kästchen und ziehe sie zu einem Wort zusammen. Tippe das Bild an, das zum Wort passt.",
+   "es": "Lee los sonidos de las cajas y únelos para formar una palabra. Toca el dibujo que corresponde.",
+   "fr": "Lis les sons écrits dans les cases et assemble-les pour lire le mot. Touche l'image qui correspond à ce mot.",
+   "it": "Leggi i suoni nelle caselle e uniscili in una parola. Tocca il disegno giusto.",
+   "pt": "Leia os sons das caixinhas e junte todos em uma palavra. Toque na figura que combina com a palavra.",
+   "nl": "Lees de klanken in de hokjes en plak ze aan elkaar tot een woord. Tik het plaatje aan dat bij het woord hoort.",
+   "sv": "Läs ljuden i rutorna ett i taget. Ljuda ihop dem till ett ord och tryck på bilden som passar.",
+   "da": "Læs lydene i kasserne, og lyd dem sammen til et ord. Tryk på det billede, der passer.",
+   "no": "Les lydene i rutene og trekk dem sammen til et ord. Trykk på bildet som passer til ordet.",
+   "fi": "Lue laatikoiden äänteet ja liu’uta ne yhteen sanaksi. Napauta kuvaa, joka sopii sanaan."
+  }
  }
 }

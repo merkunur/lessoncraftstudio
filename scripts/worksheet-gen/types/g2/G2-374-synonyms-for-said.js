@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-374',
   slug: 'synonyms-for-said',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/synonyms-screen.js').interactiveFor('say', base.mergedBankOf),
+  difficulty: { 1: { ...D, rows: 4, bank: 4 }, 2: D, 3: { ...D, rows: 6, bank: 8, decoys: 2 } },
   i18n: { en: { title: "Synonyms for Said: Pick the Word That Fits", instruction: "Read each sentence and write the word from the bubble that fits best in the box instead of said." } },
 };

@@ -110,7 +110,8 @@ function synSleepMark() {
 function synPictureCard({ pic, groupId, tags, picPx = 74, picMaxW = 220, chipPx = 19, chipH = 44, frameH = 80, maxGlyphs = 11 }) {
   if (!pic || !pic.src || !pic.theme || !pic.noun || !pic.concept) throw new Error('synPictureCard: pic {src, theme, noun, concept} is required');
   if (!groupId) throw new Error('synPictureCard: groupId is required');
-  if (!Array.isArray(tags) || tags.length !== 4) throw new Error(`synPictureCard: 4 tags required, got ${tags && tags.length}`);
+  // 4 tags (the published 2 x 2) or 5 (Level Set level 3: the fifth tag centred under the square, the SAME width)
+  if (!Array.isArray(tags) || (tags.length !== 4 && tags.length !== 5)) throw new Error(`synPictureCard: 4 or 5 tags required, got ${tags && tags.length}`);
   if (tags.filter((t) => t.groupId === groupId).length !== 2) throw new Error('synPictureCard: exactly two tags must share the picture\'s group');
   for (const t of tags) if (glyphs(t.word) > maxGlyphs) throw new Error(`synPictureCard: "${t.word}" has ${glyphs(t.word)} glyphs > ${maxGlyphs} (refuse, never shrink)`);
   if (chipH < 44) throw new Error(`synPictureCard: chipH ${chipH} below the G1 floor 44`);
@@ -131,7 +132,9 @@ function synPictureCard({ pic, groupId, tags, picPx = 74, picMaxW = 220, chipPx 
     `<span style="position:absolute;right:8px;top:6px">${synSameLink({ ground: T.white })}</span>` +
     (pic.cue === 'zzz' ? `<span style="position:absolute;left:calc(50% + ${Math.round(w / 2) + 2}px);top:4px;line-height:0">${synSleepMark()}</span>` : '') + '</div>';
   const square = `<div data-lcs-square data-lcs-grid="2x2" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:14px;row-gap:10px">` +
-    tags.map((t, i) => tagSpan({ word: t.word, groupId: t.groupId, slot: i, chipH, chipPx })).join('') + `</div>`;
+    tags.map((t, i) => (i === 4
+      ? `<div style="grid-column:1 / span 2;display:flex;justify-content:center"><div style="width:calc(50% - 7px)">${tagSpan({ word: t.word, groupId: t.groupId, slot: i, chipH, chipPx })}</div></div>`
+      : tagSpan({ word: t.word, groupId: t.groupId, slot: i, chipH, chipPx }))).join('') + `</div>`;
   return `<div data-lcs-piccard data-lcs-pic="${esc(pic.theme + '/' + pic.noun)}" data-lcs-concept="${esc(pic.concept)}" data-lcs-group="${esc(groupId)}" style="display:contents">${frame}${square}</div>`;
 }
 

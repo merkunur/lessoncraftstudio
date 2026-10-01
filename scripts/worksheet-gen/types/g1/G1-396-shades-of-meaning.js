@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-396',
   slug: 'shades-of-meaning',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/synonyms-screen.js').interactiveFor('shades', base.mergedBankOf),
+  difficulty: { 1: { ...D, rows: 3, chipPx: 22, chipH: 56, box: [56, 44], maxGlyphs: 11 }, 2: D, 3: { ...D, noKey: true } },
   i18n: { en: { title: "Shades of Meaning: From a Little to a Lot", instruction: "Read the three words in each row and write 1, 2 and 3 in the boxes, from the weakest word to the strongest." } },
   gradeBand: "G1",
 };

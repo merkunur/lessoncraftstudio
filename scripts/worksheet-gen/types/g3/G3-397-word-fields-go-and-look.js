@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G3-397',
   slug: 'word-fields-go-and-look',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/synonyms-screen.js').interactiveFor('fields', base.mergedBankOf),
+  difficulty: { 1: { ...D, words: 6, split: [2, 4], plotRows: 4, pileRowsMax: 2 }, 2: D, 3: { ...D, words: 12, split: [5, 7], plotRows: 7, rowH: 52, glyphH: 28 } },
   i18n: { en: { title: "Word Fields: Words for Go and Look", instruction: "Write each word in the field it belongs to." } },
   gradeBand: "G3",
 };

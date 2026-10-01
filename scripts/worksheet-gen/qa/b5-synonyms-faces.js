@@ -203,7 +203,10 @@ async function faceGate({ page, ok, judge, fails, validateBank, CHROME, QUICK, O
     ok(DATA.FACES[x.mode] === x.id, `${x.id}: DATA.FACES.${x.mode} = ${DATA.FACES[x.mode]}`);
     ok(t.i18n.en.title === en.strings[x.mode].title && t.i18n.en.instruction === en.strings[x.mode].instruction, `${x.id}: i18n.en ${JSON.stringify(t.i18n.en)} ≠ the bank strings.${x.mode}`);
     ok(t.gradeBand === x.band, `${x.id}: gradeBand ${t.gradeBand} ≠ ${x.band}`);
-    ok(t.difficulty[2].mode === x.mode && t.difficulty[1] === t.difficulty[2] && t.difficulty[3] === t.difficulty[2], `${x.id}: difficulty is not one ${x.mode} config for all three levels`);
+    // Level Set 2026-10-01: level 2 is the published config; levels 1 / 3 are real (new pages only) and differ from it
+    ok(t.difficulty[2].mode === x.mode && t.difficulty[1].mode === x.mode && t.difficulty[3].mode === x.mode &&
+      JSON.stringify(t.difficulty[1]) !== JSON.stringify(t.difficulty[2]) && JSON.stringify(t.difficulty[3]) !== JSON.stringify(t.difficulty[2]),
+      `${x.id}: difficulty is not three ${x.mode} levels around the published level 2`);
     ok(!!strEn[x.id] && strEn[x.id].title === t.i18n.en.title, `${x.id}: i18n/strings.en.json ≠ the face title (run node i18n/build-en.js)`);
     ok(!/sock/i.test(t.i18n.en.title + ' ' + t.i18n.en.instruction), `${x.id}: a string names the retired sock`);
   }

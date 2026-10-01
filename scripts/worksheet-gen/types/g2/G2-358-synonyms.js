@@ -190,6 +190,7 @@ const { fileUri } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const { makeRng } = require('../../lib/rng.js');
 const PAIR_SLOTS = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]];
+const PAIR_SLOTS5 = [[0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]];   // Level Set level 3: five tags
 /** F3: the five non-identity orders (perm[col] = the rank index printed in that column). */
 const NON_ID = [[0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 0, 1], [2, 1, 0]];
 const glyphN = (s) => [...String(s)].length;
@@ -217,23 +218,73 @@ function lookups(block, loc) {
     banned: new Set((block.ban || []).map(norm)), opp: new Map(DATA.CONCEPTS.map((c) => [c.id, c.opp || []])) };
 }
 
+/* Level Set 2026-10-01: the new content (data/b5/synonyms-levelset.js) merged over the bank — read ONLY by new pages
+ * (every coordinate but level 2 copy 1). The published pages keep reading the original bank, byte for byte. */
+let _ls;
+function levelSetData() { if (_ls === undefined) _ls = require('../../data/b5/synonyms-levelset.js'); return _ls; }
+function mergedBank(loc) {
+  const b = loadBank(KEY, loc);
+  const x = levelSetData()[loc];
+  if (!x) throw new Error(`${ID}: no Level Set content for ${loc} — refuse`);
+  const say = b.fields.say;
+  const newV = x.say.words, oldAlso = x.say.oldAlso || {};
+  const allV = [...say.words, ...newV];
+  // the fit rows run over ALL the verbs: an old sentence takes a new verb only where the authors listed it (oldAlso);
+  // a new sentence fits the verb it was written for and every verb its `also` list names
+  const sentences = [
+    ...say.sentences.map((s) => ({ ...s, fit: { ...s.fit, ...Object.fromEntries(newV.map((v) => [v, (oldAlso[s.id] || []).includes(v)])) } })),
+    ...x.say.sentences.map((s, k) => ({ id: 'ls' + (k + 1), text: s.text, plainVerbOK: true, fit: Object.fromEntries(allV.map((v) => [v, v === s.for || s.also.includes(v)])) })),
+  ];
+  // pictures: the published set + strong / tasty where the locale signs the group; falseOf extended over the new
+  // concepts (a pair that is EXCLUSIVE never shares a page, so it is never a foil of the other)
+  const byC = new Map((b.groups || []).map((g) => [g.concept, g]));
+  const pics = DATA.PICTURES_LS, excl = DATA.EXCLUSIVE_LS;
+  const isExcl = (a, c) => excl.some((s) => s.includes(a) && s.includes(c));
+  const pictured = Object.keys(pics).filter((c) => byC.has(c) && (Array.isArray((b.falseOf || {})[c]) || !DATA.PICTURES[c]));
+  const newC = pictured.filter((c) => !DATA.PICTURES[c]);
+  const falseOf = { ...(b.falseOf || {}) };
+  for (const c of pictured) {
+    const others = DATA.PICTURES[c] ? newC : pictured;
+    const add = others.filter((o) => o !== c && !isExcl(o, c)).flatMap((o) => byC.get(o).words);
+    falseOf[c] = [...new Set([...(falseOf[c] || []), ...add])];
+  }
+  return {
+    ...b,
+    levelSet: true,   // a Level Set page's bank (the published pages read the original bank, without this mark)
+    scales: [...(b.scales || []), ...x.scales],
+    fields: { ...b.fields, say: { ...say, words: allV, sentences },
+      go: { ...b.fields.go, words: [...b.fields.go.words, ...x.go] }, look: { ...b.fields.look, words: [...b.fields.look.words, ...x.look] } },
+    falseOf, _pictures: pics, _exclusive: excl,
+  };
+}
+const _merged = new Map();
+function mergedBankOf(loc) { if (!_merged.has(loc)) _merged.set(loc, mergedBank(loc)); return _merged.get(loc); }
+let _sys = null;
+const SYS = () => (_sys = _sys || require('../../lib/synonyms-screen.js'));
+
 /* ------------------------------------------------------------------ F1 pictures */
 function buildPictures(self, block, cfg, loc, rng) {
-  if (cfg.cards !== 6 || cfg.rows !== 3 || cfg.chips !== 4 || cfg.answers !== 2) throw new Error(`${self.id}: pictures needs 6 cards x 4 tags x 2 answers in 3 rows (the six slot PAIRS once each), got ${cfg.cards}/${cfg.chips}/${cfg.answers}/${cfg.rows}`);
+  // the published shape is 6 cards x 4 tags; Level Set 2026-10-01 adds 4 cards x 4 tags (level 1) and 4 cards x 5 tags
+  // (level 3: three foils, one from each other picture). Every card's answer slot PAIR is distinct on the page.
+  const shapeOk = cfg.answers === 2 && cfg.rows * 2 === cfg.cards && ((cfg.cards === 6 && cfg.chips === 4) || (cfg.cards === 4 && (cfg.chips === 4 || cfg.chips === 5)));
+  if (!shapeOk) throw new Error(`${self.id}: pictures needs 6 x 4 / 4 x 4 / 4 x 5 cards x tags with 2 answers in cards/2 rows, got ${cfg.cards}/${cfg.chips}/${cfg.answers}/${cfg.rows}`);
   if (cfg.chipH < 44 || cfg.picPx < 44) throw new Error(`${self.id}: tag ${cfg.chipH} / picture ${cfg.picPx} under the G1 floor 44`);
   if (cfg.picPx > cfg.frameH - 6) throw new Error(`${self.id}: picture ${cfg.picPx} does not fit the ${cfg.frameH} px frame`);
   if (cfg.rows * cfg.rowMin + (cfg.rows - 1) * cfg.rowGap > BODY_MIN) throw new Error(`${self.id}: stack > ${BODY_MIN}`);
   const L = lookups(block, loc);
   const falseOf = block.falseOf || {};
-  const pictured = Object.keys(DATA.PICTURES).filter((c) => L.byConcept.has(c) && Array.isArray(falseOf[c]) && DATA.PICTURES[c].picOpened === true);
+  // a Level Set bank carries its own picture set (the published pictures + the new ones) and exclusions
+  const PICS = block._pictures || DATA.PICTURES, EXCL = block._exclusive || DATA.EXCLUSIVE;
+  const pictured = Object.keys(PICS).filter((c) => L.byConcept.has(c) && Array.isArray(falseOf[c]) && PICS[c].picOpened === true);
   if (pictured.length < 8) throw new Error(`${self.id}: the ${loc} bank signs ${pictured.length} pictured concepts < 8 — refuse`);
-  const excl = (a, b) => DATA.EXCLUSIVE.some((s) => s.includes(a) && s.includes(b));
+  const excl = (a, b) => EXCL.some((s) => s.includes(a) && s.includes(b));
+  const nFoil = cfg.chips - 2;
   for (let t = 0; t < PAGE_TRIES; t++) {
     const pick = [];
     let nConcept = 0;
     for (const c of rng.shuffle(pictured)) {
       if (pick.length === cfg.cards) break;
-      const isFace = DATA.PICTURES[c].theme === 'emotions';
+      const isFace = PICS[c].theme === 'emotions';
       if (!isFace && nConcept >= cfg.maxConcept) continue;
       if (pick.some((p) => excl(p, c))) continue;
       pick.push(c); if (!isFace) nConcept++;
@@ -249,13 +300,15 @@ function buildPictures(self, block, cfg, loc, rng) {
     if (bad) continue;
     // closed world: every answer word is a distractor exactly once, on another card whose falseOf lists it;
     // a card's two distractors come from two different pictures (never a second synonym pair)
-    const pool = rng.shuffle(pick.flatMap((c) => ans[c].map((w) => ({ w, owner: c }))));
+    // 4 x 5 (level 3): every answer word is a foil once, and one word of each picture a second time (12 foil slots)
+    const extra = nFoil === 3 ? pick.map((c) => ({ w: ans[c][Math.floor(rng.next() * 2)], owner: c })) : [];
+    const pool = rng.shuffle(pick.flatMap((c) => ans[c].map((w) => ({ w, owner: c }))).concat(extra));
     const got = Object.fromEntries(pick.map((c) => [c, []]));
     const place = (i) => {
       if (i === pool.length) return true;
       const { w, owner } = pool[i];
       for (const c of rng.shuffle(pick)) {
-        if (c === owner || got[c].length >= 2 || got[c].some((x) => x.owner === owner)) continue;
+        if (c === owner || got[c].length >= nFoil || got[c].some((x) => x.owner === owner)) continue;
         if (!falseOf[c].map(norm).includes(norm(w))) continue;
         got[c].push({ w, owner });
         if (place(i + 1)) return true;
@@ -264,26 +317,26 @@ function buildPictures(self, block, cfg, loc, rng) {
       return false;
     };
     if (!place(0)) continue;
-    const slots = rng.shuffle(PAIR_SLOTS);
+    const slots = rng.shuffle(cfg.chips === 5 ? PAIR_SLOTS5 : PAIR_SLOTS);
     const cards = pick.map((c, i) => {
       const g = L.byConcept.get(c);
       const dis = rng.shuffle(got[c]);
       const tags = [];
       let a = 0, k = 0;
-      for (let s = 0; s < 4; s++) {
+      for (let s = 0; s < cfg.chips; s++) {
         if (slots[i].includes(s)) tags.push({ word: ans[c][a++], groupId: g.id });
         else { const x = dis[k++]; tags.push({ word: x.w, groupId: L.byConcept.get(x.owner).id }); }
       }
-      const P = DATA.PICTURES[c];
+      const P = PICS[c];
       return C5.synPictureCard({ pic: { src: fileUri(P.theme, P.noun), theme: P.theme, noun: P.noun, concept: c, box: P.box, cue: P.cue }, groupId: g.id, tags,
         picPx: cfg.picPx, picMaxW: cfg.picMaxW, frameH: cfg.frameH, chipPx: cfg.chipPx, chipH: cfg.chipH, maxGlyphs: cfg.maxGlyphs });
     });
     const lex = {
       groups: Object.fromEntries(pick.map((c) => { const g = L.byConcept.get(c); return [g.id, { concept: c, words: g.words }]; })),
       falseOf: Object.fromEntries(pick.map((c) => [c, falseOf[c]])),
-      pics: Object.fromEntries(pick.map((c) => [c, DATA.PICTURES[c].theme + '/' + DATA.PICTURES[c].noun])),
-      cues: Object.fromEntries(pick.filter((c) => DATA.PICTURES[c].cue).map((c) => [c, DATA.PICTURES[c].cue])),
-      exclusive: DATA.EXCLUSIVE,
+      pics: Object.fromEntries(pick.map((c) => [c, PICS[c].theme + '/' + PICS[c].noun])),
+      cues: Object.fromEntries(pick.filter((c) => PICS[c].cue).map((c) => [c, PICS[c].cue])),
+      exclusive: EXCL,
     };
     const grid = C5.synTwinGrid({ cards, rows: cfg.rows, rowMin: cfg.rowMin, rowGap: cfg.rowGap });
     const bodyHtml = faceRoot(self, 'pictures', pickCfg(cfg, ['cards', 'chips', 'answers', 'picPx', 'picMaxW', 'frameH', 'chipPx', 'chipH', 'maxGlyphs', 'maxConcept', 'rowMin']), lex, grid);
@@ -393,9 +446,10 @@ function buildShades(self, block, cfg, loc, rng) {
   const orders = cfg.forceOrders ? cfg.forceOrders.map((o) => o.slice()) : shadeOrders(cfg.rows, rng);   // forceOrders: gate poison seam only
   const rows = pick.map((s, i) => C5.synShadeRow({ scaleId: s.id, cells: orders[i].map((r) => ({ word: s.words[r], rank: r + 1 })), chipPx: cfg.chipPx, chipH: cfg.chipH, box: cfg.box, maxGlyphs: cfg.maxGlyphs }));
   const lex = { scales: Object.fromEntries(pick.map((s) => [s.id, s.words])) };
-  const inner = `<div data-lcs-key-wrap style="flex:0 0 auto;display:flex;justify-content:center;margin-bottom:8px">${C5.synStrengthKey()}</div>` +
+  // Level Set level 3 (noKey): no strength-key banner — the child orders the words from their meaning alone
+  const inner = (cfg.noKey ? '' : `<div data-lcs-key-wrap style="flex:0 0 auto;display:flex;justify-content:center;margin-bottom:8px">${C5.synStrengthKey()}</div>`) +
     `<div data-lcs-shade-rows style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;gap:4px">${rows.join('')}</div>`;
-  const bodyHtml = faceRoot(self, 'shades', pickCfg(cfg, ['rows', 'perRow', 'chipPx', 'chipH', 'box', 'maxGlyphs']), lex, inner);
+  const bodyHtml = faceRoot(self, 'shades', pickCfg(cfg, ['rows', 'perRow', 'chipPx', 'chipH', 'box', 'maxGlyphs', 'noKey']), lex, inner);
   return { bodyHtml, meta: { mode: 'shades', rows: pick.map((s, i) => ({ id: s.id, order: orders[i] })) } };
 }
 
@@ -403,13 +457,17 @@ function buildShades(self, block, cfg, loc, rng) {
 function buildSay(self, block, cfg, loc, rng) {
   const say = block.fields && block.fields.say;
   if (!say || !Array.isArray(say.words) || !Array.isArray(say.sentences)) throw new Error(`${self.id}: the ${loc} bank has no fields.say — refuse`);
-  if (cfg.rows !== cfg.bank) throw new Error(`${self.id}: bank ${cfg.bank} ≠ rows ${cfg.rows} (the bank IS the row answers)`);
+  // the bank IS the row answers, plus (Level Set level 3) `decoys` words that fit none of the page's sentences
+  const decoys = cfg.decoys || 0;
+  if (cfg.bank !== cfg.rows + decoys) throw new Error(`${self.id}: bank ${cfg.bank} ≠ rows ${cfg.rows} + decoys ${decoys}`);
   if (139 + cfg.rows * 78 + (cfg.rows - 1) * 8 > BODY_MIN) throw new Error(`${self.id}: the stack > ${BODY_MIN}`);
-  if (say.words.length < cfg.rows) throw new Error(`${self.id}: the ${loc} say field has ${say.words.length} words < ${cfg.rows} — refuse`);
+  // a Level Set bank keeps only the words that fit the gap (the published bank's words all do)
+  const sayWords = block.levelSet ? say.words.filter((w) => glyphN(w) <= cfg.maxGlyphs) : say.words;
+  if (sayWords.length < cfg.bank) throw new Error(`${self.id}: the ${loc} say field has ${sayWords.length} words < ${cfg.bank} — refuse`);
   const names = (SENTENCES[loc] && SENTENCES[loc].names) || null;
   if (!names || names.length < cfg.rows) throw new Error(`${self.id}: no ${loc} names in data/b2/sentences.js — refuse`);
   for (let t = 0; t < PAGE_TRIES; t++) {
-    const words = rng.shuffle(say.words).slice(0, cfg.rows);
+    const words = rng.shuffle(sayWords).slice(0, cfg.rows);
     const chosen = [];
     let ok = true;
     for (const w of words) {
@@ -430,12 +488,19 @@ function buildSay(self, block, cfg, loc, rng) {
       return C5.synSayRow({ n: i + 1, sentenceId: r.s.id, pre, post, answer: r.w, gapW, fontPx: cfg.fontPx });
     });
     const bOrder = derangeIdx(rowsDraw.length, rng);
-    const bankWords = bOrder.map((i) => rowsDraw[i].w);
-    const bubble = C5.synSayBubble({ head: say.head, words: bankWords, wordPx: cfg.bankPx });
+    let bankWords = bOrder.map((i) => rowsDraw[i].w);
+    if (decoys) {
+      // a decoy fits NONE of the chosen sentences (so every row still has exactly one bank word)
+      const pool = rng.shuffle(sayWords.filter((w) => !words.includes(w) && chosen.every((c) => c.s.fit[w] !== true)));
+      if (pool.length < decoys) continue;
+      for (const w of pool.slice(0, decoys)) { const at = 1 + Math.floor(rng.next() * bankWords.length); bankWords = bankWords.slice(0, at).concat([w], bankWords.slice(at)); }
+    }
+    let bubble;
+    try { bubble = C5.synSayBubble({ head: say.head, words: bankWords, wordPx: cfg.bankPx }); } catch (e) { if (decoys) continue; throw e; }
     const lex = { head: say.head, form: say.form, words: say.words, fit: Object.fromEntries(rowsDraw.map((r) => [r.s.id, r.s.fit])) };
     const inner = bubble + `<div data-lcs-say-rows style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;gap:8px">${rows.join('')}</div>`;
-    const bodyHtml = faceRoot(self, 'say', pickCfg(cfg, ['rows', 'bank', 'fontPx', 'bankPx', 'maxGlyphs']), lex, inner);
-    return { bodyHtml, meta: { mode: 'say', rows: rowsDraw.map((r) => ({ id: r.s.id, answer: r.w })), bank: bankWords, gapW } };
+    const bodyHtml = faceRoot(self, 'say', pickCfg(cfg, ['rows', 'bank', 'decoys', 'fontPx', 'bankPx', 'maxGlyphs']), lex, inner);
+    return { bodyHtml, meta: { mode: 'say', rows: rowsDraw.map((r) => ({ id: r.s.id, answer: r.w })), bank: bankWords, gapW, ...(block.levelSet ? { names: nm.slice(0, rowsDraw.length) } : {}) } };
   }
   throw new Error(`${self.id}: no ${loc} say page in ${PAGE_TRIES} draws (the fit matrix admits no ${cfg.rows} x ${cfg.rows} permutation) — refuse`);
 }
@@ -478,7 +543,7 @@ function buildFields(self, block, cfg, loc, rng) {
     const lex = { fields: Object.fromEntries(cfg.fields.map((f) => [f, { head: F[f].head, words: F[f].words }])), quotes: block.quotes };
     const inner = C5.synWordPile({ words: pile, wordPx: cfg.wordPx }) + `<div data-lcs-plots style="flex:1 1 auto;min-height:0;display:flex;gap:16px">${plots.join('')}</div>`;
     const bodyHtml = faceRoot(self, 'fields', pickCfg(cfg, ['words', 'fields', 'split', 'plotRows', 'rowH', 'glyphH', 'pileRowsMax', 'wordPx', 'maxGlyphs']), lex, inner);
-    return { bodyHtml, meta: { mode: 'fields', pile: pile.map((x) => x.word + ':' + x.field), split: [k, cfg.words - k] } };
+    return { bodyHtml, meta: { mode: 'fields', pile: pile.map((x) => x.word + ':' + x.field), split: [k, cfg.words - k], ...(block.levelSet ? { fields: cfg.fields } : {}) } };
   }
   throw new Error(`${self.id}: no ${loc} pile without a 4-run within ${cfg.pileRowsMax} rows in ${PAGE_TRIES} draws — refuse (shorter field words, never a smaller pill)`);
 }
@@ -560,7 +625,7 @@ function faceVerifyInPage({ MIN_TEXT }) {
         }
       }
       const tags = [...card.querySelectorAll('[data-lcs-tag]')];
-      if (tags.length !== 4) f.push(`${tag}: ${tags.length} tags ≠ 4`);
+      if (tags.length !== cfg.chips) f.push(`${tag}: ${tags.length} tags ≠ ${cfg.chips}`);
       tagFloor(tags, cfg.chipH, `${tag} tag`);
       const hits = tags.filter((t) => t.dataset.lcsGroup === gid);
       if (hits.length !== 2) f.push(`${tag}: ${hits.length} tags name the picture (want exactly 2)`);
@@ -580,9 +645,10 @@ function faceVerifyInPage({ MIN_TEXT }) {
       for (const t of tags) count.set(n(txt(t)), (count.get(n(txt(t))) || 0) + 1);
       if (card.scrollHeight > card.clientHeight + 0.5) f.push(`${tag}: the card clips`);
     });
-    for (const [w, k] of count) if (k !== 2) f.push(`"${w}" printed ${k} times (the closed world prints every word exactly twice)`);
+    // closed world: 4 tags -> every word exactly twice; 5 tags (level 3) -> twice or three times (no word printed once)
+    for (const [w, k] of count) if (cfg.chips === 5 ? (k < 2 || k > 3) : k !== 2) f.push(`"${w}" printed ${k} times (the closed world prints every word ${cfg.chips === 5 ? 'two or three times' : 'exactly twice'})`);
     for (const set of lex.exclusive) if (set.filter((x) => concepts.includes(x)).length > 1) f.push(`EXCLUSIVE: ${set.join(' + ')} on one page`);
-    if (pairs.size !== 6) f.push(`answer slot pairs ${[...pairs].join(',')} — each of the six pairs once (per-page position tell)`);
+    if (pairs.size !== cfg.cards) f.push(`answer slot pairs ${[...pairs].join(',')} — a different pair on every card (per-page position tell)`);
   } else if (mode === 'pairs') {
     const L = [...root.querySelectorAll('[data-lcs-match-left]')], Rt = [...root.querySelectorAll('[data-lcs-match-right]')];
     if (L.length !== cfg.pairs || Rt.length !== cfg.pairs) f.push(`${L.length} / ${Rt.length} tags ≠ ${cfg.pairs}`);
@@ -612,7 +678,7 @@ function faceVerifyInPage({ MIN_TEXT }) {
     if (root.querySelectorAll('svg[data-lcs-half-ring]').length !== 2 * cfg.pairs) f.push('half-rings ≠ one per tag');
   } else if (mode === 'shades') {
     const keys = root.querySelectorAll('svg[data-lcs-strength-key]');
-    if (keys.length !== 1) f.push(`${keys.length} strength keys ≠ 1`);
+    if (keys.length !== (cfg.noKey ? 0 : 1)) f.push(`${keys.length} strength keys ≠ ${cfg.noKey ? 0 : 1}`);
     const rows = [...root.querySelectorAll('[data-lcs-scale]')];
     if (rows.length !== cfg.rows) f.push(`${rows.length} rows ≠ ${cfg.rows}`);
     const col = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
@@ -676,8 +742,10 @@ function faceVerifyInPage({ MIN_TEXT }) {
       if (tops.length > 2) f.push(`row ${ri + 1}: the sentence runs to ${tops.length} lines > 2`);
     });
     if (widths.size !== 1) f.push(`gap boxes of ${widths.size} widths (${[...widths].join(', ')}) — one width per page`);
-    if (pills.slice().sort().join('|') !== answers.slice().sort().join('|')) f.push(`the bank [${pills}] ≠ the row answers [${answers}]`);
-    if (pills.some((p, i) => p === answers[i])) f.push('a bank word sits at its own row\'s position (the bank order must be a derangement)');
+    const dec = cfg.decoys || 0;   // Level Set level 3: words that fit no row
+    if (pills.length !== answers.length + dec || !answers.every((a) => pills.includes(a))) f.push(`the bank [${pills}] ≠ the row answers [${answers}] + ${dec} decoys`);
+    for (const p of pills.filter((x) => !answers.includes(x))) for (const row of rows) { const fit = lex.fit[row.dataset.lcsSentenceId]; if (fit && fit[p] === true) f.push(`decoy "${p}" fits row ${row.dataset.lcsSayRow}`); }
+    if (!dec && pills.some((p, i) => p === answers[i])) f.push('a bank word sits at its own row\'s position (the bank order must be a derangement)');
     if (pills.length > 2 && pills.every((p, i) => p === answers[answers.length - 1 - i])) f.push('the bank is the exact reverse of the rows');
     if (pills.includes(lex.head)) f.push('the struck head is a bank word');
     if (bubble) { const rows2 = []; for (const e of bubble.querySelectorAll('[data-lcs-bank-word], [data-lcs-head]')) { const c = (R(e).top + R(e).bottom) / 2; if (!rows2.some((y) => Math.abs(y - c) < 12)) rows2.push(c); } if (rows2.length > 2) f.push(`the bubble wraps to ${rows2.length} rows > 2`); }
@@ -730,7 +798,8 @@ module.exports = {
       targetPx: 26, chipPx: 20, chipH: 38, rowMin: 210, rowGap: 10, maxGlyphs: 13 },
     2: { mode: 'base', cards: 8, rows: 4, chips: 4, grid: '2x2', tiers: [1, 2], posMix: [5, 3], sameDomainMax: 1, sameDomainMin: 0,
       targetPx: 24, chipPx: 18, chipH: 36, rowMin: 158, rowGap: 10, maxGlyphs: 13 },
-    3: { mode: 'base', cards: 8, rows: 4, chips: 4, grid: '2x2', tiers: [2], posMix: [4, 4], sameDomainMax: 1, sameDomainMin: 1,
+    // Level Set 2026-10-01: harder WORDS (tier 2 only); 4 + 4 verbs needed more tier-2 verbs than 7 locales sign (measured)
+    3: { mode: 'base', cards: 8, rows: 4, chips: 4, grid: '2x2', tiers: [2], posMix: [6, 2], sameDomainMax: 1, sameDomainMin: 0,
       targetPx: 24, chipPx: 18, chipH: 36, rowMin: 158, rowGap: 10, maxGlyphs: 13 },
   },
   i18n: {
@@ -741,13 +810,31 @@ module.exports = {
   },
   FACE_MODES,
   SPARSE_MAX,
-  stringsFor, antonymTable, drawPage,
+  stringsFor, antonymTable, drawPage, mergedBank, mergedBankOf,
+  // Level Set 2026-10-01: the screen version of new pages (each face declares its own)
+  get interactive() { return SYS().interactiveFor('base', mergedBankOf); },
+  /** Level Set copies: what makes two pages of one level different (build-waves measures the overlap of these). */
+  levelSetWords(m) {
+    if (!m.mode) return m.cards.map((c) => c.concept);
+    if (m.mode === 'pictures') return m.cards.map((c) => c.concept);
+    if (m.mode === 'pairs') return m.left;
+    if (m.mode === 'shades' || m.mode === 'say') return m.rows.map((r) => r.id);
+    return m.pile;   // fields
+  },
 
   build({ difficulty, locale }, ctx) {
     const loc = String(locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];
     if (!d) throw new Error(`${ID}: no difficulty ${difficulty}`);
-    return this._buildWith(loadBank(KEY, loc), d, { locale: loc }, ctx);
+    // the published page (level 2, copy 1) reads the original bank; every Level Set page the merged one
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const block = published ? loadBank(KEY, loc) : mergedBankOf(loc);
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._buildWith(block, d, { locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return SYS().screenOrKey(d.mode, built, ctx, loc, block);
+    }
+    return this._buildWith(block, d, { locale: loc }, ctx);
   },
 
   /** The whole build over an INJECTED bank block + resolved config (the gate's poison seam); build() passes the real ones. */

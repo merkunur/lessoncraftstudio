@@ -138,7 +138,9 @@ function checkStamps(stamps, loc, cfg, b, approved) {
   return out;
 }
 
-function cfgFor(d) { const c = spec.difficulty[d]; return { minCount: c.minCount, maxCount: c.maxCount, maxLetters: c.maxLetters, pool: 'full', dots: c.dots }; }
+// Level Set 2026-10-01: levels 1 and 3 are only ever built as NEW pages, which draw the TeX-agreed pool and skip refused
+// pictures (G1-305 isFresh); level 2 is the published page (the full pool)
+function cfgFor(d) { const c = spec.difficulty[d]; return { minCount: c.minCount, maxCount: c.maxCount, maxLetters: c.maxLetters, pool: d === 2 ? 'full' : 'tex', dots: c.dots, fresh: d !== 2 }; }
 
 // ---------------------------------------------------------------- A. DATA
 function sectionData() {
@@ -729,7 +731,8 @@ async function sectionFacePoisons(page, poison) {
   try {
     console.log('\n== B. RENDER (real pipeline) ==');
     const jobs = [];
-    for (const d of [1, 2, 3]) jobs.push({ theme: EXEMPLAR, d });
+    // a level the exemplar theme REFUSES (its new-page pool below the floor) is checked as a refusal below, never rendered
+    for (const d of [1, 2, 3]) if (!record[`${EXEMPLAR}|d${d}|en`].refused) jobs.push({ theme: EXEMPLAR, d });
     if (!QUICK) {
       for (const theme of THEMES) for (const d of [1, 2, 3]) if (theme !== EXEMPLAR && !record[`${theme}|d${d}|en`].refused) jobs.push({ theme, d });
       for (let e = 2; e <= EPOCHS; e++) jobs.push({ theme: EXEMPLAR, d: 2, epoch: e });
@@ -752,6 +755,7 @@ async function sectionFacePoisons(page, poison) {
 
     console.log('\n== C. CHROME — three-line title + three-line instruction (the 722 px body) ==');
     for (const d of [1, 2, 3]) {
+      if (record[`${EXEMPLAR}|d${d}|en`].refused) continue;
       const out = await renderJob(page, { theme: EXEMPLAR, d, tag: 'longchrome', strings: LONG_STRINGS });
       const m = await checkRender(page, { theme: EXEMPLAR, d, tag: 'longchrome' }, out);
       const lines = await page.evaluate(() => [document.querySelector('[data-lcs-title]').getBoundingClientRect().height, document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height].map(Math.round));

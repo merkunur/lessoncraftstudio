@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-326',
   slug: 'syllable-split-missing-syllable',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-split-screen.js').interactiveFor('missing'),
+  difficulty: { 1: { ...D, cards: 6, rows: 3, pic: 88, cellMax: 32, minCount: 2, maxCount: 2, maxLetters: 8, minPool: 6 }, 2: D, 3: { ...D, maxCount: 4, maxLetters: 12 } },
   i18n: { en: { title: "Missing Syllable", instruction: "Say the picture word. One syllable is missing. Write the missing syllable in the box." } },
 };

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-329',
   slug: 'syllable-split-vowel-king',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-split-screen.js').interactiveFor('kings'),
+  difficulty: { 1: { ...D, cards: 4, rows: 2, pic: 100, cellMax: 36, arcH: 36, minCount: 2, maxCount: 2, maxLetters: 8, minPool: 6 }, 2: D, 3: { ...D, cards: 8, rows: 4, pic: 56, cellMax: 28, arcH: 28 } },
   i18n: { en: { title: "Vowel King", instruction: "Every syllable has one vowel. Look at the example, then put a dot on the vowel inside each syllable arc." } },
 };

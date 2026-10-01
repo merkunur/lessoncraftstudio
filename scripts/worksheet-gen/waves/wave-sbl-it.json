@@ -1,6 +1,6 @@
 {
   "id": "wave-sbl-it",
-  "_note": "Level Set 2026-09-30: Sentence Building (Unscramble the Sentence + 3 faces), PDF + screen version (tap the words in order) + answer key. Levels change the sentences: easier = three lanes of 3–4-word sentences, harder = four lanes of 5–7 words. New one-order sentence frames written for new pages only. Visible to teachers, never indexed.",
+  "_note": "Level Set 2026-10-01: Sound Boxes (K-318 + 5 faces). Easier = words with two or three sounds and no letter teams; harder = longer words with letter teams (two letters, one sound). Each copy a different colour picture set. Screen version: put the sounds into the boxes with tiles (or tap the number of sounds / the matching picture); answer key: every box filled in. Visible to teachers, never indexed; PDF + screen version + answer key.",
   "indexable": false,
   "interactive": true,
   "seedEpoch": 1,
@@ -15,13 +15,15 @@
     3
   ],
   "types": [
-    "G1-249",
-    "G1-282",
-    "G1-283",
-    "G1-302"
+    "K-318",
+    "K-329",
+    "K-330",
+    "G1-312",
+    "G1-313",
+    "G1-314"
   ],
   "levels": {
-    "G1-249": {
+    "K-318": {
       "1": [
         {
           "copy": 1,
@@ -29,255 +31,116 @@
         },
         {
           "copy": 2,
-          "theme": "sea life bw"
+          "theme": "spring"
         },
         {
           "copy": 3,
-          "theme": "classroom"
+          "theme": "forest creatures"
         },
         {
           "copy": 4,
-          "theme": "vegetables bw"
+          "theme": "At the Supermarket"
         },
         {
           "copy": 5,
+          "theme": "beach"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "body parts"
+        },
+        {
+          "copy": 5,
+          "theme": "camping"
+        }
+      ],
+      "3": []
+    },
+    "K-329": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 2,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 3,
+          "theme": "camping"
+        },
+        {
+          "copy": 4,
           "theme": "forest creatures"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "apparel bw"
+          "theme": "spring"
         },
         {
           "copy": 3,
-          "theme": "insects and bugs"
+          "theme": "toys"
         },
         {
           "copy": 4,
-          "theme": "classroom bw"
+          "theme": "zoo animals"
         },
         {
           "copy": 5,
-          "theme": "reptiles and Amphibians"
+          "theme": "Things That Fly"
         },
         {
           "copy": 6,
-          "theme": "dessert bw"
+          "theme": "beach"
         }
       ],
       "3": [
         {
           "copy": 1,
-          "theme": "ocean life"
+          "theme": "flowers"
         },
         {
           "copy": 2,
-          "theme": "classroom bw"
+          "theme": "body parts"
         },
         {
           "copy": 3,
-          "theme": "tools"
+          "theme": "miscellaneous"
         },
         {
           "copy": 4,
-          "theme": "food bw"
-        },
-        {
-          "copy": 5,
-          "theme": "accessories"
-        }
-      ]
-    },
-    "G1-282": {
-      "1": [
-        {
-          "copy": 1,
-          "theme": "tools"
-        },
-        {
-          "copy": 2,
-          "theme": "food bw"
-        },
-        {
-          "copy": 3,
-          "theme": "accessories"
-        },
-        {
-          "copy": 4,
-          "theme": "household bw"
-        },
-        {
-          "copy": 5,
-          "theme": "breakfast"
-        }
-      ],
-      "2": [
-        {
-          "copy": 2,
-          "theme": "sea life bw"
-        },
-        {
-          "copy": 3,
           "theme": "classroom"
         },
         {
-          "copy": 4,
-          "theme": "vegetables bw"
-        },
-        {
           "copy": 5,
-          "theme": "forest creatures"
-        },
-        {
-          "copy": 6,
-          "theme": "zoo animals bw"
-        }
-      ],
-      "3": [
-        {
-          "copy": 1,
-          "theme": "dinosaurs"
-        },
-        {
-          "copy": 2,
-          "theme": "zoo animals bw"
-        },
-        {
-          "copy": 3,
-          "theme": "insects and bugs"
-        },
-        {
-          "copy": 4,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 5,
-          "theme": "tools"
+          "theme": "shapes"
         }
       ]
     },
-    "G1-283": {
+    "K-330": {
       "1": [
         {
           "copy": 1,
-          "theme": "ocean life"
-        },
-        {
-          "copy": 2,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 3,
-          "theme": "tools"
-        },
-        {
-          "copy": 4,
-          "theme": "dessert bw"
-        },
-        {
-          "copy": 5,
-          "theme": "accessories"
+          "theme": "camping"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "food bw"
-        },
-        {
-          "copy": 3,
-          "theme": "accessories"
-        },
-        {
-          "copy": 4,
-          "theme": "household bw"
-        },
-        {
-          "copy": 5,
-          "theme": "breakfast"
-        },
-        {
-          "copy": 6,
-          "theme": "tools bw"
-        }
-      ],
-      "3": [
-        {
-          "copy": 1,
-          "theme": "bakery"
-        },
-        {
-          "copy": 2,
-          "theme": "sea life bw"
-        },
-        {
-          "copy": 3,
-          "theme": "clothing"
-        },
-        {
-          "copy": 4,
-          "theme": "vegetables bw"
-        },
-        {
-          "copy": 5,
-          "theme": "fruits"
-        }
-      ]
-    },
-    "G1-302": {
-      "1": [
-        {
-          "copy": 1,
-          "theme": "desserts and sweets"
-        },
-        {
-          "copy": 2,
-          "theme": "vegetables bw"
-        },
-        {
-          "copy": 3,
-          "theme": "insects and bugs"
-        },
-        {
-          "copy": 4,
-          "theme": "animals bw"
-        },
-        {
-          "copy": 5,
-          "theme": "tools"
-        }
-      ],
-      "2": [
-        {
-          "copy": 2,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 3,
-          "theme": "tools"
-        },
-        {
-          "copy": 4,
-          "theme": "dessert bw"
-        },
-        {
-          "copy": 5,
-          "theme": "accessories"
-        },
-        {
-          "copy": 6,
-          "theme": "furniture bw"
-        }
-      ],
-      "3": [
-        {
-          "copy": 1,
-          "theme": "vegetables"
-        },
-        {
-          "copy": 2,
-          "theme": "food bw"
+          "theme": "spring"
         },
         {
           "copy": 3,
@@ -285,11 +148,225 @@
         },
         {
           "copy": 4,
-          "theme": "household bw"
+          "theme": "toys"
+        },
+        {
+          "copy": 5,
+          "theme": "around the house"
+        },
+        {
+          "copy": 6,
+          "theme": "beach"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 2,
+          "theme": "shapes"
+        },
+        {
+          "copy": 3,
+          "theme": "flowers"
+        },
+        {
+          "copy": 4,
+          "theme": "body parts"
+        },
+        {
+          "copy": 5,
+          "theme": "miscellaneous"
+        }
+      ]
+    },
+    "G1-312": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 2,
+          "theme": "camping"
+        },
+        {
+          "copy": 3,
+          "theme": "forest creatures"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "body parts"
+        },
+        {
+          "copy": 3,
+          "theme": "summer"
+        },
+        {
+          "copy": 4,
+          "theme": "easter"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 6,
+          "theme": "kitchen tools"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "furniture"
+        },
+        {
+          "copy": 3,
+          "theme": "christmas"
+        },
+        {
+          "copy": 4,
+          "theme": "ocean life"
         },
         {
           "copy": 5,
           "theme": "classroom"
+        }
+      ]
+    },
+    "G1-313": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "body parts"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "classroom"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "forest creatures"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 3,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 4,
+          "theme": "beach"
+        },
+        {
+          "copy": 5,
+          "theme": "spring"
+        },
+        {
+          "copy": 6,
+          "theme": "farm animals"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 2,
+          "theme": "camping"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "music"
+        },
+        {
+          "copy": 5,
+          "theme": "activities"
+        }
+      ]
+    },
+    "G1-314": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 2,
+          "theme": "forest creatures"
+        },
+        {
+          "copy": 3,
+          "theme": "camping"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "spring"
+        },
+        {
+          "copy": 3,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "around the house"
+        },
+        {
+          "copy": 6,
+          "theme": "beach"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "flowers"
+        },
+        {
+          "copy": 2,
+          "theme": "classroom"
+        },
+        {
+          "copy": 3,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 4,
+          "theme": "shapes"
         }
       ]
     }

@@ -214,7 +214,9 @@ for (const loc of LOCALES) {
         continue;
       }
       for (const copy of copies) {
-        const pools = k++ % 2 === 0 ? [colour, bw] : [bw, colour];
+        // a colour-only type (themeAxis.excludeBw without levelSetBw) never gets a black-and-white copy (enumerate refuses it)
+        const colourOnly = spec.themeAxis && spec.themeAxis.excludeBw && !spec.themeAxis.levelSetBw;
+        const pools = colourOnly ? [colour] : k++ % 2 === 0 ? [colour, bw] : [bw, colour];
         const unit = units ? units[uk++ % units.length] : null;
         let pick = null;
         for (const pool of pools) {

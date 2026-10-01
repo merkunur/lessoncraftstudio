@@ -5869,34 +5869,134 @@
       "mergeDoubles": false,
       "exemplar": "animals",
       "remergeAcrossSyllable": [
+        "alligator",
         "angel",
+        "armchair",
+        "ballerina",
+        "balloon",
+        "bathtub",
         "beanie",
         "blocks",
+        "bookcase",
+        "bookshelf",
+        "bowl",
+        "broccoli",
+        "butter",
+        "buttercup",
+        "butterfly",
+        "cabin",
+        "cap",
+        "carpenter",
+        "carpet",
+        "carrot",
+        "cashier",
         "cat",
+        "celery",
         "cheeks",
+        "coral",
+        "crab",
+        "cricket",
+        "cup",
         "curtains",
+        "cushion",
+        "daffodil",
+        "doll",
+        "dragonfly",
+        "dresser",
+        "drum",
+        "evergreen",
+        "excavator",
         "finger",
+        "flag",
+        "folder",
+        "forget-me-not",
+        "gazelle",
+        "giraffe",
+        "goggles",
+        "gorilla",
+        "guitar",
+        "hammer",
         "hammock",
+        "hen",
+        "jellyfish",
         "kangaroo",
+        "kettle",
+        "key",
+        "knife",
+        "ladle",
+        "leggings",
+        "lifeguard",
+        "lighthouse",
+        "lights",
+        "lime",
+        "lip",
         "marigold",
+        "medal",
+        "microwave",
         "mittens",
+        "motorcycle",
+        "muffin",
+        "mug",
+        "nativity",
+        "necklace",
+        "nightstand",
+        "nut",
+        "otter",
+        "pan",
+        "paramedic",
+        "pillow",
+        "pinecone",
+        "pitcher",
+        "pizza",
+        "plate",
         "pliers",
+        "plunger",
+        "potato",
+        "pudding",
         "puddle",
+        "rug",
+        "satellite",
+        "scooter",
+        "seal",
         "singer",
+        "sled",
+        "sleigh",
+        "spatula",
+        "spider",
+        "spoon",
+        "stairs",
+        "sun",
+        "sunflower",
+        "sunglasses",
+        "sunny",
+        "sweatpants",
         "syringe",
+        "tennis",
+        "thunderstorm",
+        "tie",
         "tongs",
-        "tongue"
+        "tongue",
+        "waffle",
+        "water",
+        "watermelon",
+        "wave",
+        "zinnia"
       ],
       "exclude": [
         "athlete",
+        "badge",
         "badger",
+        "bagel",
         "baking",
+        "barber",
         "barrette",
         "bicycle",
         "biking",
         "blackberry",
         "blueberry",
         "boat",
+        "bookcase",
+        "bookshelf",
         "brain",
         "brownie",
         "cabbage",
@@ -5922,6 +6022,8 @@
         "dandelion",
         "delivery",
         "diplodocus",
+        "donut",
+        "doughnut",
         "dustpan",
         "ear",
         "earmuffs",
@@ -5929,7 +6031,9 @@
         "ferry",
         "firefly",
         "fishing",
+        "florist",
         "foal",
+        "forget-me-not",
         "fox",
         "fridge",
         "frisbee",
@@ -5939,6 +6043,7 @@
         "gymnastics",
         "hair",
         "halloween",
+        "hawk",
         "haystack",
         "hexagon",
         "hiking",
@@ -5948,15 +6053,24 @@
         "knitting",
         "lake",
         "liberty",
+        "lighthouse",
+        "lily",
         "lizard",
         "manatee",
+        "medal",
         "merry",
         "mixer",
+        "motorcycle",
+        "muffin",
+        "nightstand",
         "ox",
         "painting",
+        "paramedic",
         "parasaurolophus",
+        "petunia",
         "phlox",
         "photography",
+        "plunger",
         "popcorn",
         "pottery",
         "raspberry",
@@ -5989,6 +6103,7 @@
         "stethoscope",
         "strawberry",
         "swimming",
+        "tablet",
         "teacher",
         "teapot",
         "television",
@@ -6004,7 +6119,8 @@
         "watch",
         "wheelchair",
         "whisk",
-        "writing"
+        "writing",
+        "zinnia"
       ],
       "bank": {
         "acorn": [
@@ -6047,11 +6163,10 @@
         ],
         "alligator": [
           [
-            "a",
-            "l"
+            "a"
           ],
           [
-            "l",
+            "ll",
             "i"
           ],
           [
@@ -6247,11 +6362,10 @@
         "armchair": [
           [
             "s",
-            "e",
-            "s"
+            "e"
           ],
           [
-            "s",
+            "ss",
             "e",
             "l"
           ]
@@ -6261,7 +6375,8 @@
             "k",
             "ü",
             "n",
-            "st"
+            "s",
+            "t"
           ],
           [
             "l",
@@ -6324,7 +6439,8 @@
             "e",
             "r",
             "b",
-            "st"
+            "s",
+            "t"
           ]
         ],
         "backpack": [
@@ -6387,18 +6503,16 @@
           [
             "b",
             "a",
-            "l",
-            "l"
+            "ll"
           ]
         ],
         "ballerina": [
           [
             "b",
-            "a",
-            "l"
+            "a"
           ],
           [
-            "l",
+            "ll",
             "e"
           ],
           [
@@ -6413,11 +6527,10 @@
         "balloon": [
           [
             "b",
-            "a",
-            "l"
+            "a"
           ],
           [
-            "l",
+            "ll",
             "o",
             "n"
           ]
@@ -6454,8 +6567,7 @@
             "g",
             "r",
             "i",
-            "l",
-            "l"
+            "ll"
           ]
         ],
         "barber": [
@@ -6492,8 +6604,7 @@
           [
             "b",
             "a",
-            "l",
-            "l"
+            "ll"
           ]
         ],
         "bat": [
@@ -6524,11 +6635,10 @@
           ],
           [
             "w",
-            "a",
-            "n"
+            "a"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
@@ -6573,8 +6683,7 @@
           [
             "b",
             "e",
-            "t",
-            "t"
+            "tt"
           ]
         ],
         "bee": [
@@ -6639,7 +6748,8 @@
           [
             "b",
             "a",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "binder": [
@@ -6813,11 +6923,10 @@
           ],
           [
             "ch",
-            "e",
-            "r"
+            "e"
           ],
           [
-            "r",
+            "rr",
             "e"
           ],
           [
@@ -6833,11 +6942,10 @@
           ],
           [
             "ch",
-            "e",
-            "r"
+            "e"
           ],
           [
-            "r",
+            "rr",
             "e"
           ],
           [
@@ -6888,11 +6996,10 @@
         "bowl": [
           [
             "sch",
-            "ü",
-            "s"
+            "ü"
           ],
           [
-            "s",
+            "ss",
             "e",
             "l"
           ]
@@ -6922,11 +7029,10 @@
           [
             "b",
             "r",
-            "o",
-            "k"
+            "o"
           ],
           [
-            "k",
+            "kk",
             "o"
           ],
           [
@@ -7019,8 +7125,7 @@
           [
             "b",
             "u",
-            "l",
-            "l"
+            "ll"
           ],
           [
             "d",
@@ -7067,11 +7172,10 @@
         "butter": [
           [
             "b",
-            "u",
-            "t"
+            "u"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ]
@@ -7079,11 +7183,10 @@
         "buttercup": [
           [
             "b",
-            "u",
-            "t"
+            "u"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ],
@@ -7101,11 +7204,10 @@
           [
             "sch",
             "m",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ],
@@ -7139,11 +7241,10 @@
         "cabin": [
           [
             "h",
-            "ü",
-            "t"
+            "ü"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -7152,7 +7253,8 @@
             "sch",
             "r",
             "a",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "cake": [
@@ -7240,11 +7342,10 @@
         "cap": [
           [
             "k",
-            "a",
-            "p"
+            "a"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -7328,29 +7429,26 @@
         "carpenter": [
           [
             "z",
-            "i",
-            "m"
+            "i"
           ],
           [
-            "m",
+            "mm",
             "e",
             "r"
           ],
           [
             "m",
             "a",
-            "n",
-            "n"
+            "nn"
           ]
         ],
         "carpet": [
           [
             "t",
-            "e",
-            "p"
+            "e"
           ],
           [
-            "p",
+            "pp",
             "i",
             "ch"
           ]
@@ -7362,11 +7460,10 @@
           ],
           [
             "r",
-            "o",
-            "t"
+            "o"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -7394,11 +7491,10 @@
         "cashier": [
           [
             "k",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "ie"
           ],
           [
@@ -7449,11 +7545,10 @@
         "celery": [
           [
             "s",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ],
           [
@@ -7598,8 +7693,7 @@
           [
             "k",
             "i",
-            "n",
-            "n"
+            "nn"
           ]
         ],
         "chipmunk": [
@@ -7667,7 +7761,8 @@
             "sch",
             "r",
             "a",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "cloud": [
@@ -7730,8 +7825,7 @@
           [
             "n",
             "u",
-            "s",
-            "s"
+            "ss"
           ]
         ],
         "colander": [
@@ -7753,8 +7847,7 @@
           [
             "k",
             "a",
-            "m",
-            "m"
+            "mm"
           ]
         ],
         "comet": [
@@ -7777,8 +7870,7 @@
           [
             "p",
             "a",
-            "s",
-            "s"
+            "ss"
           ]
         ],
         "cone": [
@@ -7801,8 +7893,7 @@
           [
             "w",
             "i",
-            "r",
-            "r",
+            "rr",
             "t"
           ]
         ],
@@ -7844,11 +7935,10 @@
           ],
           [
             "r",
-            "a",
-            "l"
+            "a"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -7880,11 +7970,10 @@
           [
             "k",
             "r",
-            "a",
-            "b"
+            "a"
           ],
           [
-            "b",
+            "bb",
             "e"
           ]
         ],
@@ -7902,19 +7991,17 @@
           [
             "b",
             "e",
-            "t",
-            "t"
+            "tt"
           ]
         ],
         "cricket": [
           [
             "g",
             "r",
-            "i",
-            "l"
+            "i"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -8008,11 +8095,10 @@
         "cup": [
           [
             "t",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "e"
           ]
         ],
@@ -8034,11 +8120,10 @@
         "cushion": [
           [
             "k",
-            "i",
-            "s"
+            "i"
           ],
           [
-            "s",
+            "ss",
             "e",
             "n"
           ]
@@ -8062,11 +8147,10 @@
           ],
           [
             "z",
-            "i",
-            "s"
+            "i"
           ],
           [
-            "s",
+            "ss",
             "e"
           ]
         ],
@@ -8137,8 +8221,7 @@
           [
             "sch",
             "i",
-            "r",
-            "r"
+            "rr"
           ],
           [
             "sp",
@@ -8169,11 +8252,10 @@
         "doll": [
           [
             "p",
-            "u",
-            "p"
+            "u"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -8260,11 +8342,10 @@
           ],
           [
             "b",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -8279,11 +8360,10 @@
         "dresser": [
           [
             "k",
-            "o",
-            "m"
+            "o"
           ],
           [
-            "m",
+            "mm",
             "o"
           ],
           [
@@ -8309,11 +8389,10 @@
           [
             "t",
             "r",
-            "o",
-            "m"
+            "o"
           ],
           [
-            "m",
+            "mm",
             "e",
             "l"
           ]
@@ -8397,8 +8476,7 @@
         "elbow": [
           [
             "e",
-            "l",
-            "l"
+            "ll"
           ],
           [
             "b",
@@ -8437,11 +8515,10 @@
         ],
         "evergreen": [
           [
-            "i",
-            "m"
+            "i"
           ],
           [
-            "m",
+            "mm",
             "e",
             "r"
           ],
@@ -8455,11 +8532,10 @@
         "excavator": [
           [
             "b",
-            "a",
-            "g"
+            "a"
           ],
           [
-            "g",
+            "gg",
             "e",
             "r"
           ]
@@ -8559,8 +8635,7 @@
             "f",
             "r",
             "e",
-            "t",
-            "t"
+            "tt"
           ],
           [
             "ch",
@@ -8582,7 +8657,8 @@
           [
             "f",
             "i",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "finger": [
@@ -8618,11 +8694,10 @@
           [
             "f",
             "l",
-            "a",
-            "g"
+            "a"
           ],
           [
-            "g",
+            "gg",
             "e"
           ]
         ],
@@ -8671,7 +8746,8 @@
           [
             "r",
             "i",
-            "st"
+            "s",
+            "t"
           ]
         ],
         "flower": [
@@ -8699,11 +8775,10 @@
         "folder": [
           [
             "m",
-            "a",
-            "p"
+            "a"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -8739,16 +8814,14 @@
           [
             "g",
             "i",
-            "s",
-            "s"
+            "ss"
           ],
           [
             "m",
-            "ei",
-            "n"
+            "ei"
           ],
           [
-            "n",
+            "nn",
             "i",
             "ch",
             "t"
@@ -8890,11 +8963,10 @@
           ],
           [
             "z",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -8912,8 +8984,7 @@
           [
             "r",
             "e",
-            "n",
-            "n"
+            "nn"
           ],
           [
             "m",
@@ -8925,7 +8996,8 @@
           [
             "g",
             "ei",
-            "st"
+            "s",
+            "t"
           ]
         ],
         "gingerbread": [
@@ -8951,11 +9023,10 @@
           ],
           [
             "r",
-            "a",
-            "f"
+            "a"
           ],
           [
-            "f",
+            "ff",
             "e"
           ]
         ],
@@ -9014,11 +9085,10 @@
           [
             "b",
             "r",
-            "i",
-            "l"
+            "i"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -9068,11 +9138,10 @@
           ],
           [
             "r",
-            "i",
-            "l"
+            "i"
           ],
           [
-            "l",
+            "ll",
             "a"
           ]
         ],
@@ -9141,8 +9210,7 @@
             "g",
             "r",
             "i",
-            "l",
-            "l"
+            "ll"
           ]
         ],
         "guitar": [
@@ -9152,11 +9220,10 @@
           ],
           [
             "t",
-            "a",
-            "r"
+            "a"
           ],
           [
-            "r",
+            "rr",
             "e"
           ]
         ],
@@ -9192,11 +9259,10 @@
         "hammer": [
           [
             "h",
-            "a",
-            "m"
+            "a"
           ],
           [
-            "m",
+            "mm",
             "e",
             "r"
           ]
@@ -9212,11 +9278,10 @@
           ],
           [
             "m",
-            "a",
-            "t"
+            "a"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -9387,11 +9452,10 @@
         "hen": [
           [
             "h",
-            "e",
-            "n"
+            "e"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
@@ -9594,11 +9658,10 @@
         "jellyfish": [
           [
             "qu",
-            "a",
-            "l"
+            "a"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -9695,11 +9758,10 @@
         "kettle": [
           [
             "w",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "e",
             "r"
           ],
@@ -9717,11 +9779,10 @@
           [
             "sch",
             "l",
-            "ü",
-            "s"
+            "ü"
           ],
           [
-            "s",
+            "ss",
             "e",
             "l"
           ]
@@ -9766,11 +9827,10 @@
         "knife": [
           [
             "m",
-            "e",
-            "s"
+            "e"
           ],
           [
-            "s",
+            "ss",
             "e",
             "r"
           ]
@@ -9794,11 +9854,10 @@
           ],
           [
             "k",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -9806,8 +9865,7 @@
           [
             "l",
             "a",
-            "m",
-            "m"
+            "mm"
           ]
         ],
         "lamp": [
@@ -9857,8 +9915,7 @@
             "b",
             "l",
             "a",
-            "t",
-            "t"
+            "tt"
           ]
         ],
         "leek": [
@@ -9878,11 +9935,10 @@
         "leggings": [
           [
             "l",
-            "e",
-            "g"
+            "e"
           ],
           [
-            "g",
+            "gg",
             "i",
             "ng",
             "s"
@@ -9954,11 +10010,10 @@
         "lifeguard": [
           [
             "r",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "u",
             "ng",
             "s"
@@ -9966,11 +10021,10 @@
           [
             "sch",
             "w",
-            "i",
-            "m"
+            "i"
           ],
           [
-            "m",
+            "mm",
             "e",
             "r"
           ]
@@ -9979,11 +10033,10 @@
           [
             "l",
             "eu",
-            "ch",
-            "t"
+            "ch"
           ],
           [
-            "t",
+            "tt",
             "u",
             "r",
             "m"
@@ -10002,11 +10055,10 @@
           ],
           [
             "k",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -10039,22 +10091,20 @@
           ],
           [
             "m",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
         "lip": [
           [
             "l",
-            "i",
-            "p"
+            "i"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -10063,8 +10113,7 @@
             "sch",
             "l",
             "o",
-            "s",
-            "s"
+            "ss"
           ]
         ],
         "log": [
@@ -10248,11 +10297,10 @@
           ],
           [
             "d",
-            "ai",
-            "l"
+            "ai"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -10280,8 +10328,7 @@
           [
             "m",
             "ä",
-            "n",
-            "n"
+            "nn"
           ],
           [
             "ch",
@@ -10327,11 +10374,10 @@
           ],
           [
             "w",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -10379,7 +10425,8 @@
           [
             "f",
             "äu",
-            "st"
+            "s",
+            "t"
           ],
           [
             "l",
@@ -10391,7 +10438,8 @@
           [
             "f",
             "äu",
-            "st"
+            "s",
+            "t"
           ],
           [
             "l",
@@ -10421,8 +10469,7 @@
           [
             "m",
             "o",
-            "p",
-            "p"
+            "pp"
           ]
         ],
         "mosasaurus": [
@@ -10461,11 +10508,10 @@
           ],
           [
             "t",
-            "o",
-            "r"
+            "o"
           ],
           [
-            "r",
+            "rr",
             "a",
             "d"
           ]
@@ -10496,11 +10542,10 @@
         "muffin": [
           [
             "m",
-            "u",
-            "f"
+            "u"
           ],
           [
-            "f",
+            "ff",
             "i",
             "n"
           ]
@@ -10508,11 +10553,10 @@
         "mug": [
           [
             "t",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "e"
           ]
         ],
@@ -10579,11 +10623,10 @@
           [
             "k",
             "r",
-            "i",
-            "p"
+            "i"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -10604,11 +10647,10 @@
           ],
           [
             "k",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -10647,7 +10689,8 @@
           [
             "n",
             "e",
-            "st"
+            "s",
+            "t"
           ]
         ],
         "net": [
@@ -10661,11 +10704,10 @@
           [
             "n",
             "a",
-            "ch",
-            "t"
+            "ch"
           ],
           [
-            "t",
+            "tt",
             "i",
             "sch"
           ]
@@ -10713,11 +10755,10 @@
         "nut": [
           [
             "m",
-            "u",
-            "t"
+            "u"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ]
@@ -10726,8 +10767,7 @@
           [
             "n",
             "u",
-            "s",
-            "s"
+            "ss"
           ],
           [
             "k",
@@ -10804,7 +10844,8 @@
           [
             "o",
             "b",
-            "st"
+            "s",
+            "t"
           ],
           [
             "g",
@@ -10822,7 +10863,8 @@
             "ch",
             "r",
             "i",
-            "st"
+            "s",
+            "t"
           ],
           [
             "b",
@@ -10849,11 +10891,10 @@
         ],
         "otter": [
           [
-            "o",
-            "t"
+            "o"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ]
@@ -10941,11 +10982,10 @@
         "pan": [
           [
             "pf",
-            "a",
-            "n"
+            "a"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
@@ -10953,8 +10993,7 @@
           [
             "pf",
             "a",
-            "n",
-            "n"
+            "nn"
           ],
           [
             "k",
@@ -10991,17 +11030,15 @@
         "paramedic": [
           [
             "r",
-            "e",
-            "t"
+            "e"
           ],
           [
-            "t",
+            "tt",
             "u",
-            "ng",
-            "s"
+            "ng"
           ],
           [
-            "s",
+            "ss",
             "a"
           ],
           [
@@ -11183,7 +11220,8 @@
             "pf",
             "i",
             "ng",
-            "st"
+            "s",
+            "t"
           ],
           [
             "r",
@@ -11295,11 +11333,10 @@
         "pillow": [
           [
             "k",
-            "i",
-            "s"
+            "i"
           ],
           [
-            "s",
+            "ss",
             "e",
             "n"
           ]
@@ -11318,11 +11355,10 @@
         "pinecone": [
           [
             "t",
-            "a",
-            "n"
+            "a"
           ],
           [
-            "n",
+            "nn",
             "e",
             "n"
           ],
@@ -11340,22 +11376,20 @@
         "pitcher": [
           [
             "k",
-            "a",
-            "n"
+            "a"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
         "pizza": [
           [
             "p",
-            "i",
-            "z"
+            "i"
           ],
           [
-            "z",
+            "zz",
             "a"
           ]
         ],
@@ -11374,11 +11408,10 @@
         "plate": [
           [
             "t",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e",
             "r"
           ]
@@ -11420,11 +11453,10 @@
         "plunger": [
           [
             "s",
-            "au",
-            "g"
+            "au"
           ],
           [
-            "g",
+            "gg",
             "l",
             "o"
           ],
@@ -11459,8 +11491,7 @@
             "sch",
             "w",
             "i",
-            "m",
-            "m"
+            "mm"
           ],
           [
             "b",
@@ -11507,11 +11538,10 @@
           ],
           [
             "t",
-            "o",
-            "f"
+            "o"
           ],
           [
-            "f",
+            "ff",
             "e",
             "l"
           ]
@@ -11524,7 +11554,8 @@
           [
             "sch",
             "e",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "pretzel": [
@@ -11555,11 +11586,10 @@
         "pudding": [
           [
             "p",
-            "u",
-            "d"
+            "u"
           ],
           [
-            "d",
+            "dd",
             "i",
             "ng"
           ]
@@ -11858,8 +11888,7 @@
             "f",
             "l",
             "u",
-            "s",
-            "s"
+            "ss"
           ]
         ],
         "robot": [
@@ -11913,11 +11942,10 @@
         "rug": [
           [
             "t",
-            "e",
-            "p"
+            "e"
           ],
           [
-            "p",
+            "pp",
             "i",
             "ch"
           ]
@@ -12032,11 +12060,10 @@
           ],
           [
             "t",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "i",
             "t"
           ]
@@ -12070,7 +12097,8 @@
             "w",
             "u",
             "r",
-            "st"
+            "s",
+            "t"
           ]
         ],
         "scallop": [
@@ -12150,11 +12178,10 @@
         "scooter": [
           [
             "r",
-            "o",
-            "l"
+            "o"
           ],
           [
-            "l",
+            "ll",
             "e",
             "r"
           ]
@@ -12162,11 +12189,10 @@
         "seal": [
           [
             "r",
-            "o",
-            "b"
+            "o"
           ],
           [
-            "b",
+            "bb",
             "e"
           ]
         ],
@@ -12209,8 +12235,7 @@
           [
             "sch",
             "i",
-            "f",
-            "f"
+            "ff"
           ]
         ],
         "shirt": [
@@ -12302,8 +12327,7 @@
           [
             "l",
             "e",
-            "t",
-            "t"
+            "tt"
           ]
         ],
         "skirt": [
@@ -12317,11 +12341,10 @@
           [
             "sch",
             "l",
-            "i",
-            "t"
+            "i"
           ],
           [
-            "t",
+            "tt",
             "e",
             "n"
           ]
@@ -12342,11 +12365,10 @@
           [
             "sch",
             "l",
-            "i",
-            "t"
+            "i"
           ],
           [
-            "t",
+            "tt",
             "e",
             "n"
           ]
@@ -12424,8 +12446,7 @@
           [
             "b",
             "a",
-            "l",
-            "l"
+            "ll"
           ]
         ],
         "sock": [
@@ -12477,11 +12498,10 @@
         "spatula": [
           [
             "pf",
-            "a",
-            "n"
+            "a"
           ],
           [
-            "n",
+            "nn",
             "e",
             "n"
           ],
@@ -12510,11 +12530,10 @@
         "spider": [
           [
             "sp",
-            "i",
-            "n"
+            "i"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
@@ -12534,18 +12553,16 @@
             "sch",
             "w",
             "a",
-            "m",
-            "m"
+            "mm"
           ]
         ],
         "spoon": [
           [
             "l",
-            "ö",
-            "f"
+            "ö"
           ],
           [
-            "f",
+            "ff",
             "e",
             "l"
           ]
@@ -12612,11 +12629,10 @@
           [
             "t",
             "r",
-            "e",
-            "p"
+            "e"
           ],
           [
-            "p",
+            "pp",
             "e"
           ]
         ],
@@ -12735,22 +12751,20 @@
         "sun": [
           [
             "s",
-            "o",
-            "n"
+            "o"
           ],
           [
-            "n",
+            "nn",
             "e"
           ]
         ],
         "sunflower": [
           [
             "s",
-            "o",
-            "n"
+            "o"
           ],
           [
-            "n",
+            "nn",
             "e",
             "n"
           ],
@@ -12767,33 +12781,30 @@
         "sunglasses": [
           [
             "s",
-            "o",
-            "n"
+            "o"
           ],
           [
-            "n",
+            "nn",
             "e",
             "n"
           ],
           [
             "b",
             "r",
-            "i",
-            "l"
+            "i"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
         "sunny": [
           [
             "s",
-            "o",
-            "n"
+            "o"
           ],
           [
-            "n",
+            "nn",
             "i",
             "g"
           ]
@@ -12809,8 +12820,7 @@
             "b",
             "r",
             "e",
-            "t",
-            "t"
+            "tt"
           ]
         ],
         "suspenders": [
@@ -12857,11 +12867,10 @@
         "sweatpants": [
           [
             "j",
-            "o",
-            "g"
+            "o"
           ],
           [
-            "g",
+            "gg",
             "i",
             "ng"
           ],
@@ -12989,11 +12998,10 @@
         "tennis": [
           [
             "t",
-            "e",
-            "n"
+            "e"
           ],
           [
-            "n",
+            "nn",
             "i",
             "s"
           ]
@@ -13024,11 +13032,10 @@
           ],
           [
             "w",
-            "i",
-            "t"
+            "i"
           ],
           [
-            "t",
+            "tt",
             "e",
             "r"
           ]
@@ -13041,11 +13048,10 @@
           ],
           [
             "w",
-            "a",
-            "t"
+            "a"
           ],
           [
-            "t",
+            "tt",
             "e"
           ]
         ],
@@ -13290,7 +13296,8 @@
           [
             "l",
             "a",
-            "st"
+            "s",
+            "t"
           ],
           [
             "w",
@@ -13449,11 +13456,10 @@
         "waffle": [
           [
             "w",
-            "a",
-            "f"
+            "a"
           ],
           [
-            "f",
+            "ff",
             "e",
             "l"
           ]
@@ -13462,8 +13468,7 @@
           [
             "k",
             "e",
-            "l",
-            "l"
+            "ll"
           ],
           [
             "n",
@@ -13500,8 +13505,7 @@
           [
             "r",
             "o",
-            "s",
-            "s"
+            "ss"
           ]
         ],
         "wand": [
@@ -13534,11 +13538,10 @@
         "water": [
           [
             "w",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "e",
             "r"
           ]
@@ -13546,11 +13549,10 @@
         "watermelon": [
           [
             "w",
-            "a",
-            "s"
+            "a"
           ],
           [
-            "s",
+            "ss",
             "e",
             "r"
           ],
@@ -13570,11 +13572,10 @@
         "wave": [
           [
             "w",
-            "e",
-            "l"
+            "e"
           ],
           [
-            "l",
+            "ll",
             "e"
           ]
         ],
@@ -13666,7 +13667,8 @@
           [
             "l",
             "e",
-            "nk"
+            "n",
+            "k"
           ]
         ],
         "x-ray": [
@@ -13718,11 +13720,10 @@
         "zinnia": [
           [
             "z",
-            "i",
-            "n"
+            "i"
           ],
           [
-            "n",
+            "nn",
             "ie"
           ]
         ]
@@ -13731,7 +13732,6 @@
         "acorn",
         "actor",
         "airplane",
-        "alligator",
         "ambulance",
         "angelfish",
         "angry",
@@ -13742,7 +13742,6 @@
         "architect",
         "argentinosaurus",
         "armadillo",
-        "armchair",
         "artist",
         "asparagus",
         "aster",
@@ -13752,14 +13751,11 @@
         "badge",
         "bagel",
         "baker",
-        "ballerina",
-        "balloon",
         "banana",
         "bandage",
         "barber",
         "basketball",
         "bat",
-        "bathtub",
         "beaver",
         "bee",
         "beetle",
@@ -13775,14 +13771,10 @@
         "blouse",
         "bluebell",
         "bolt",
-        "bookcase",
-        "bookshelf",
         "boots",
         "bored",
         "bottle",
-        "bowl",
         "bracelet",
-        "broccoli",
         "brontosaurus",
         "broom",
         "brush",
@@ -13791,31 +13783,21 @@
         "bulldozer",
         "bun",
         "bunny",
-        "butter",
-        "buttercup",
-        "butterfly",
         "cabana",
-        "cabin",
         "cake",
         "calculator",
         "camel",
         "candle",
         "candy",
-        "cap",
         "cape",
         "capricious",
         "cardigan",
         "cardinal",
         "cards",
         "carnation",
-        "carpenter",
-        "carpet",
-        "carrot",
         "cart",
-        "cashier",
         "cast",
         "caterpillar",
-        "celery",
         "centipede",
         "cereal",
         "cheesecake",
@@ -13837,37 +13819,27 @@
         "cone",
         "confused",
         "content",
-        "coral",
         "cornflower",
-        "crab",
         "crib",
-        "cricket",
         "crimson",
         "crocus",
         "crown",
         "crutches",
         "cube",
         "cucumber",
-        "cup",
-        "cushion",
         "cymbals",
-        "daffodil",
         "desk",
         "detective",
         "diamond",
         "dice",
         "dishwasher",
-        "doll",
         "dolphin",
         "domino",
         "donut",
         "doughnut",
         "dove",
         "dragon",
-        "dragonfly",
-        "dresser",
         "driftwood",
-        "drum",
         "dryer",
         "duckling",
         "eagle",
@@ -13875,8 +13847,6 @@
         "eggplant",
         "elbow",
         "envelope",
-        "evergreen",
-        "excavator",
         "excited",
         "eyelashes",
         "face",
@@ -13886,14 +13856,11 @@
         "ferret",
         "fig",
         "fireplace",
-        "flag",
         "flamingo",
         "flashlight",
         "florist",
         "flower",
         "flute",
-        "folder",
-        "forget-me-not",
         "fork",
         "forklift",
         "galaxy",
@@ -13902,26 +13869,20 @@
         "gardener",
         "garland",
         "garlic",
-        "gazelle",
         "gecko",
         "gerbil",
         "gingerbread",
-        "giraffe",
         "girl",
         "globe",
         "glue",
         "goat",
-        "goggles",
         "goldfish",
         "gopher",
-        "gorilla",
         "grapes",
         "grasshopper",
         "grater",
-        "guitar",
         "ham",
         "hamburger",
-        "hammer",
         "hamster",
         "handbag",
         "handsaw",
@@ -13932,7 +13893,6 @@
         "headband",
         "heater",
         "helicopter",
-        "hen",
         "heptagon",
         "hibiscus",
         "hippopotamus",
@@ -13944,34 +13904,23 @@
         "jacket",
         "jam",
         "jasmine",
-        "jellyfish",
         "jet",
         "judge",
         "jupiter",
         "kayak",
-        "kettle",
-        "key",
         "kingfisher",
         "kitchen",
         "kite",
-        "knife",
         "ladder",
-        "ladle",
         "lamp",
         "lantern",
         "lavender",
-        "leggings",
         "lemon",
         "lemonade",
         "lettuce",
         "lid",
-        "lifeguard",
-        "lighthouse",
-        "lights",
         "lilac",
         "lily",
-        "lime",
-        "lip",
         "log",
         "lollipop",
         "lotus",
@@ -13983,32 +13932,23 @@
         "marker",
         "mask",
         "mechanic",
-        "medal",
         "medicine",
         "meerkat",
         "melon",
         "mercury",
-        "microwave",
         "millipede",
         "mirror",
         "mitten",
         "mosasaurus",
         "mosquito",
-        "motorcycle",
-        "muffin",
-        "mug",
         "muscles",
         "musician",
         "nail",
         "narwhal",
-        "nativity",
-        "necklace",
         "nectarine",
         "neptune",
-        "nightstand",
         "notebook",
         "nurse",
-        "nut",
         "nutcracker",
         "oar",
         "oatmeal",
@@ -14016,18 +13956,15 @@
         "onion",
         "orchard",
         "ornament",
-        "otter",
         "ottoman",
         "outlet",
         "overalls",
         "oyster",
         "package",
         "pajamas",
-        "pan",
         "pancake",
         "panda",
         "paper",
-        "paramedic",
         "parrot",
         "parsnip",
         "pasta",
@@ -14047,24 +13984,16 @@
         "picnic",
         "pie",
         "pigeon",
-        "pillow",
         "pilot",
-        "pinecone",
-        "pitcher",
-        "pizza",
         "planet",
-        "plate",
         "playground",
         "plum",
-        "plunger",
         "pomegranate",
         "pool",
         "porcupine",
-        "potato",
         "present",
         "pretzel",
         "pretzels",
-        "pudding",
         "pufferfish",
         "pumpkin",
         "purse",
@@ -14085,21 +14014,17 @@
         "robot",
         "rock",
         "rocket",
-        "rug",
         "sad",
         "salamander",
         "sandals",
         "sandbox",
         "sandcastle",
-        "satellite",
         "saturn",
         "saucepan",
         "scallop",
         "scarecrow",
         "scarlet",
         "scissors",
-        "scooter",
-        "seal",
         "seashell",
         "shelf",
         "shoulder",
@@ -14108,9 +14033,7 @@
         "shy",
         "sink",
         "skeleton",
-        "sled",
         "sledding",
-        "sleigh",
         "slide",
         "sloth",
         "slug",
@@ -14120,16 +14043,12 @@
         "sock",
         "soda",
         "spade",
-        "spatula",
         "sphere",
-        "spider",
         "spinach",
-        "spoon",
         "square",
         "squash",
         "squid",
         "squirrel",
-        "stairs",
         "stamp",
         "stapler",
         "stegosaurus",
@@ -14137,14 +14056,9 @@
         "stormy",
         "stretcher",
         "student",
-        "sun",
-        "sunflower",
-        "sunglasses",
-        "sunny",
         "surfboard",
         "suspenders",
         "swallow",
-        "sweatpants",
         "swing",
         "tablet",
         "tailor",
@@ -14152,10 +14066,7 @@
         "tart",
         "telephone",
         "telescope",
-        "tennis",
         "thumb",
-        "thunderstorm",
-        "tie",
         "tiger",
         "tights",
         "timer",
@@ -14181,22 +14092,17 @@
         "venus",
         "vest",
         "violin",
-        "waffle",
         "waitress",
         "wallet",
         "walrus",
         "wand",
         "wasp",
-        "water",
-        "watermelon",
-        "wave",
         "weasel",
         "whistle",
         "window",
         "wrist",
         "x-ray",
-        "zebra",
-        "zinnia"
+        "zebra"
       ],
       "dots": false,
       "strings": {

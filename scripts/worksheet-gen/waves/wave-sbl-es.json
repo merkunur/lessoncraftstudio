@@ -1,6 +1,6 @@
 {
   "id": "wave-sbl-es",
-  "_note": "Level Set 2026-09-30: Sentence Building (Unscramble the Sentence + 3 faces), PDF + screen version (tap the words in order) + answer key. Levels change the sentences: easier = three lanes of 3–4-word sentences, harder = four lanes of 5–7 words. New one-order sentence frames written for new pages only. Visible to teachers, never indexed.",
+  "_note": "Level Set 2026-10-01: Sound Boxes (K-318 + 5 faces). Easier = words with two or three sounds and no letter teams; harder = longer words with letter teams (two letters, one sound). Each copy a different colour picture set. Screen version: put the sounds into the boxes with tiles (or tap the number of sounds / the matching picture); answer key: every box filled in. Visible to teachers, never indexed; PDF + screen version + answer key.",
   "indexable": false,
   "interactive": true,
   "seedEpoch": 1,
@@ -15,13 +15,15 @@
     3
   ],
   "types": [
-    "G1-249",
-    "G1-282",
-    "G1-283",
-    "G1-302"
+    "K-318",
+    "K-329",
+    "K-330",
+    "G1-312",
+    "G1-313",
+    "G1-314"
   ],
   "levels": {
-    "G1-249": {
+    "K-318": {
       "1": [
         {
           "copy": 1,
@@ -29,187 +31,73 @@
         },
         {
           "copy": 2,
-          "theme": "household bw"
+          "theme": "ocean life"
         },
         {
           "copy": 3,
-          "theme": "birds"
+          "theme": "beach"
         },
         {
           "copy": 4,
-          "theme": "tools bw"
+          "theme": "spring"
         },
         {
           "copy": 5,
-          "theme": "dinosaurs"
+          "theme": "furniture"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "vegetables bw"
-        },
-        {
-          "copy": 3,
-          "theme": "forest creatures"
-        },
-        {
-          "copy": 4,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 5,
-          "theme": "ocean life"
-        },
-        {
-          "copy": 6,
-          "theme": "classroom bw"
-        }
-      ],
-      "3": [
-        {
-          "copy": 1,
-          "theme": "fruits"
-        },
-        {
-          "copy": 2,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 3,
-          "theme": "reptiles and Amphibians"
-        },
-        {
-          "copy": 4,
-          "theme": "classroom bw"
-        },
-        {
-          "copy": 5,
           "theme": "toys"
-        }
-      ]
-    },
-    "G1-282": {
-      "1": [
-        {
-          "copy": 1,
-          "theme": "reptiles and Amphibians"
-        },
-        {
-          "copy": 2,
-          "theme": "classroom bw"
         },
         {
           "copy": 3,
-          "theme": "zoo animals"
+          "theme": "Things That Fly"
         },
         {
           "copy": 4,
-          "theme": "furniture bw"
+          "theme": "accessories"
         },
         {
           "copy": 5,
-          "theme": "bakery"
-        }
-      ],
-      "2": [
-        {
-          "copy": 2,
-          "theme": "household bw"
-        },
-        {
-          "copy": 3,
-          "theme": "birds"
-        },
-        {
-          "copy": 4,
-          "theme": "tools bw"
-        },
-        {
-          "copy": 5,
-          "theme": "desserts and sweets"
+          "theme": "body parts"
         },
         {
           "copy": 6,
-          "theme": "vegetables bw"
+          "theme": "camping"
         }
       ],
       "3": [
-        {
-          "copy": 1,
-          "theme": "classroom"
-        },
-        {
-          "copy": 2,
-          "theme": "vegetables bw"
-        },
-        {
-          "copy": 3,
-          "theme": "farm animals"
-        },
-        {
-          "copy": 4,
-          "theme": "zoo animals bw"
-        },
-        {
-          "copy": 5,
-          "theme": "ocean life"
-        }
-      ]
-    },
-    "G1-283": {
-      "1": [
         {
           "copy": 1,
           "theme": "forest creatures"
-        },
-        {
-          "copy": 2,
-          "theme": "apparel bw"
-        },
-        {
-          "copy": 3,
-          "theme": "ocean life"
-        },
-        {
-          "copy": 4,
-          "theme": "classroom bw"
-        },
-        {
-          "copy": 5,
-          "theme": "tools"
         }
-      ],
-      "2": [
-        {
-          "copy": 2,
-          "theme": "classroom bw"
-        },
-        {
-          "copy": 3,
-          "theme": "At the Supermarket"
-        },
-        {
-          "copy": 4,
-          "theme": "furniture bw"
-        },
-        {
-          "copy": 5,
-          "theme": "bakery"
-        },
-        {
-          "copy": 6,
-          "theme": "kitchen bw"
-        }
-      ],
-      "3": [
+      ]
+    },
+    "K-329": {
+      "1": [
         {
           "copy": 1,
           "theme": "At the Supermarket"
         },
         {
           "copy": 2,
-          "theme": "household bw"
+          "theme": "beach"
+        },
+        {
+          "copy": 3,
+          "theme": "body parts"
+        },
+        {
+          "copy": 4,
+          "theme": "camping"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "spring"
         },
         {
           "copy": 3,
@@ -217,49 +105,107 @@
         },
         {
           "copy": 4,
-          "theme": "tools bw"
+          "theme": "toys"
         },
         {
           "copy": 5,
-          "theme": "dinosaurs"
-        }
-      ]
-    },
-    "G1-302": {
-      "1": [
-        {
-          "copy": 1,
-          "theme": "breakfast"
-        },
-        {
-          "copy": 2,
-          "theme": "tools bw"
-        },
-        {
-          "copy": 3,
           "theme": "farm animals"
         },
         {
-          "copy": 4,
-          "theme": "apparel bw"
+          "copy": 6,
+          "theme": "zoo animals"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "forest creatures"
         },
         {
-          "copy": 5,
+          "copy": 2,
+          "theme": "accessories"
+        },
+        {
+          "copy": 3,
           "theme": "ocean life"
+        }
+      ]
+    },
+    "K-330": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "around the house"
+        },
+        {
+          "copy": 2,
+          "theme": "beach"
+        },
+        {
+          "copy": 3,
+          "theme": "camping"
         }
       ],
       "2": [
         {
           "copy": 2,
-          "theme": "animals bw"
+          "theme": "spring"
         },
         {
           "copy": 3,
-          "theme": "tools"
+          "theme": "Things That Fly"
         },
         {
           "copy": 4,
-          "theme": "birds bw"
+          "theme": "toys"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        },
+        {
+          "copy": 6,
+          "theme": "animals"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "body parts"
+        },
+        {
+          "copy": 2,
+          "theme": "ocean life"
+        }
+      ]
+    },
+    "G1-312": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "camping"
+        },
+        {
+          "copy": 2,
+          "theme": "beach"
+        },
+        {
+          "copy": 3,
+          "theme": "body parts"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "animals"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "christmas"
         },
         {
           "copy": 5,
@@ -267,29 +213,129 @@
         },
         {
           "copy": 6,
-          "theme": "food bw"
+          "theme": "flowers"
         }
       ],
       "3": [
         {
           "copy": 1,
-          "theme": "tools"
+          "theme": "Things That Fly"
         },
         {
           "copy": 2,
-          "theme": "classroom bw"
+          "theme": "occupations"
         },
         {
           "copy": 3,
-          "theme": "zoo animals"
+          "theme": "accessories"
         },
         {
           "copy": 4,
-          "theme": "furniture bw"
+          "theme": "ocean life"
         },
         {
           "copy": 5,
-          "theme": "bakery"
+          "theme": "clothing"
+        }
+      ]
+    },
+    "G1-313": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "At the Supermarket"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 4,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 5,
+          "theme": "occupations"
+        },
+        {
+          "copy": 6,
+          "theme": "camping"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "music"
+        },
+        {
+          "copy": 2,
+          "theme": "beach"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "clothing"
+        },
+        {
+          "copy": 5,
+          "theme": "zoo animals"
+        }
+      ]
+    },
+    "G1-314": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 2,
+          "theme": "around the house"
+        },
+        {
+          "copy": 3,
+          "theme": "beach"
+        },
+        {
+          "copy": 4,
+          "theme": "camping"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "spring"
+        },
+        {
+          "copy": 3,
+          "theme": "birds 2"
+        },
+        {
+          "copy": 4,
+          "theme": "accessories"
+        },
+        {
+          "copy": 5,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 6,
+          "theme": "forest creatures"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "ocean life"
         }
       ]
     }

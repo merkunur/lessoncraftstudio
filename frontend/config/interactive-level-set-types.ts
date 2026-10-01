@@ -23,6 +23,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'rhyming-words',
   'sentence-building',
   'singular-plural',
+  'sound-boxes',
   'word-parts',
 ]);
 

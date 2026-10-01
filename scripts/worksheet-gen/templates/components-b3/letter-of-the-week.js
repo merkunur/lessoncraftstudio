@@ -106,9 +106,10 @@ function positionCard({ src, vocabKey, word, graphemes, pos, split, w = 323, h =
 }
 
 /* ------------------------------------------------------------- face 6 */
-function letterChips({ a, b, px = 48 }) {
-  const chip = (t) => `<span class="ws-letter-chip" data-lcs-chip="${esc(t)}" style="display:inline-flex;align-items:center;justify-content:center;` +
-    `width:${px}px;height:${px}px;box-sizing:border-box;background:${tokens.color.white};border:2px solid ${tokens.color.grid};border-radius:10px;` +
+function letterChips({ a, b, px = 48, ring = null }) {
+  // ring (Level Set answer key): the right chip gets a coral ring
+  const chip = (t) => `<span class="ws-letter-chip" data-lcs-chip="${esc(t)}"${ring === t ? ' data-lcs-keyring' : ''} style="display:inline-flex;align-items:center;justify-content:center;` +
+    `width:${px}px;height:${px}px;box-sizing:border-box;background:${tokens.color.white};border:${ring === t ? `3px solid ${tokens.color.coral}` : `2px solid ${tokens.color.grid}`};border-radius:10px;` +
     `font-family:${tokens.font.display},cursive;font-weight:700;font-size:${Math.round(px * 0.58)}px;line-height:1;color:${tokens.color.teal}">${esc(t)}</span>`;
   return `<div data-lcs-chips="${esc(a)}|${esc(b)}" style="display:flex;gap:12px;justify-content:center">${chip(a)}${chip(b)}</div>`;
 }

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-327',
   slug: 'spelling-rules-write-the-whole-word',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  interactive: require('../../lib/spelling-rules-screen.js').interactiveFor('anchor'),
+  difficulty: { 1: { ...D, cards: 6, rows: 3, maxLetters: 6, pic: 96, minPool: 8 }, 2: D, 3: { ...D, minLetters: 6, models: 0 } },
   i18n: { en: { title: "Write the Word: {UNIT}", instruction: "The rule letters are printed in orange. Say the picture word and write all the other letters in the boxes." } },
 };

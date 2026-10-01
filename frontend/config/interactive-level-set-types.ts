@@ -24,6 +24,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'sentence-building',
   'singular-plural',
   'sound-boxes',
+  'spelling-rules',
   'word-parts',
 ]);
 

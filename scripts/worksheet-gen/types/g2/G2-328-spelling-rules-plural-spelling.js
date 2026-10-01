@@ -22,7 +22,9 @@ module.exports = {
   ...base,
   id: 'G2-328',
   slug: 'spelling-rules-plural-spelling',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  interactive: require('../../lib/spelling-rules-screen.js').interactiveFor('plural'),
+  difficulty: { 1: { ...D, form: { ...D.form, rows: 4, maxPlural: 8 }, rows: 4 }, 2: D, 3: { ...D, models: 0 } },
   i18n: { en: { title: 'Plurals: {UNIT}', instruction: 'Read the word for one. Write the word for many in the boxes. The plural changes the spelling.' } },
   unitAxis: base.unitAxisFor('plural'),
 };

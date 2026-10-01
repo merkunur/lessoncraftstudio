@@ -867,5 +867,85 @@
    "no": "Les lydene i rutene og trekk dem sammen til et ord. Trykk på bildet som passer til ordet.",
    "fi": "Lue laatikoiden äänteet ja liu’uta ne yhteen sanaksi. Napauta kuvaa, joka sopii sanaan."
   }
+ },
+ "spelling-rules": {
+  "gap": {
+   "en": "Say the picture word. Which letters are missing? Tap the right rule letters.",
+   "de": "Sprich das Bildwort. Welche Buchstaben fehlen? Tippe die richtigen Regelbuchstaben an.",
+   "es": "Di el nombre del dibujo. ¿Qué letras faltan? Toca las letras correctas.",
+   "fr": "Dis le mot de l'image. Quelles lettres manquent ? Touche les bonnes lettres de la règle.",
+   "it": "Di' il nome del disegno. Quali lettere mancano? Tocca le lettere giuste della regola.",
+   "pt": "Fale o nome da figura. Que letras estão faltando? Toque nas letras certas da regra.",
+   "nl": "Zeg het woord bij het plaatje. Welke letters ontbreken? Tik de goede letters van de regel aan.",
+   "sv": "Säg ordet till bilden. Vilka bokstäver fattas? Tryck på de rätta regelbokstäverna.",
+   "da": "Sig ordet til billedet. Hvilke bogstaver mangler? Tryk på de rigtige regelbogstaver.",
+   "no": "Si ordet til bildet. Hvilke bokstaver mangler? Trykk på de riktige regelbokstavene.",
+   "fi": "Sano kuvan sana. Mitkä kirjaimet puuttuvat? Napauta oikeita sääntökirjaimia."
+  },
+  "choice": {
+   "en": "Look at the picture and read the word. Tap the right letters for the gap.",
+   "de": "Schau das Bild an und lies das Wort. Tippe die richtigen Buchstaben für die Lücke an.",
+   "es": "Mira el dibujo y lee la palabra. Toca las letras correctas para el hueco.",
+   "fr": "Regarde l'image et lis le mot. Touche les bonnes lettres pour la case vide.",
+   "it": "Guarda il disegno e leggi la parola. Tocca le lettere giuste per lo spazio vuoto.",
+   "pt": "Olhe a figura e leia a palavra. Toque nas letras certas para o espaço vazio.",
+   "nl": "Kijk naar het plaatje en lees het woord. Tik de goede letters voor het lege vakje aan.",
+   "sv": "Titta på bilden och läs ordet. Tryck på de rätta bokstäverna för luckan.",
+   "da": "Se på billedet, og læs ordet. Tryk på de rigtige bogstaver til hullet.",
+   "no": "Se på bildet og les ordet. Trykk på de riktige bokstavene til luken.",
+   "fi": "Katso kuvaa ja lue sana. Napauta aukkoon oikeat kirjaimet."
+  },
+  "detective": {
+   "en": "Read the word. Which rule letters do you find in it? Tap them.",
+   "de": "Lies das Wort. Welche Regelbuchstaben findest du darin? Tippe sie an.",
+   "es": "Lee la palabra. ¿Qué letras de la regla encuentras? Tócalas.",
+   "fr": "Lis le mot. Quelles lettres de la règle trouves-tu dedans ? Touche-les.",
+   "it": "Leggi la parola. Quali lettere della regola trovi? Toccale.",
+   "pt": "Leia a palavra. Que letras da regra você encontra nela? Toque nelas.",
+   "nl": "Lees het woord. Welke letters van de regel vind je erin? Tik ze aan.",
+   "sv": "Läs ordet. Vilka regelbokstäver hittar du i det? Tryck på dem.",
+   "da": "Læs ordet. Hvilke regelbogstaver finder du i det? Tryk på dem.",
+   "no": "Les ordet. Hvilke regelbokstaver finner du i det? Trykk på dem.",
+   "fi": "Lue sana. Mitkä sääntökirjaimet löydät siitä? Napauta niitä."
+  },
+  "bins": {
+   "en": "Say the picture word. How is it spelled? Tap the right box.",
+   "de": "Sprich das Bildwort. Wie wird es geschrieben? Tippe den richtigen Kasten an.",
+   "es": "Di el nombre del dibujo. ¿Cómo se escribe? Toca la caja correcta.",
+   "fr": "Dis le mot de l'image. Comment s'écrit-il ? Touche la bonne colonne.",
+   "it": "Di' il nome del disegno. Come si scrive? Tocca la colonna giusta.",
+   "pt": "Fale o nome da figura. Como se escreve? Toque na caixa certa.",
+   "nl": "Zeg het woord bij het plaatje. Hoe schrijf je het? Tik de goede bak aan.",
+   "sv": "Säg ordet till bilden. Hur stavas det? Tryck på rätt låda.",
+   "da": "Sig ordet til billedet. Hvordan staves det? Tryk på den rigtige kasse.",
+   "no": "Si ordet til bildet. Hvordan skrives det? Trykk på riktig boks.",
+   "fi": "Sano kuvan sana. Miten se kirjoitetaan? Napauta oikeaa koria."
+  },
+  "anchor": {
+   "en": "The rule letters are printed in orange. Say the picture word and tap the other letters in order.",
+   "de": "Die Regelbuchstaben stehen schon in Orange. Sprich das Bildwort und tippe die anderen Buchstaben der Reihe nach an.",
+   "es": "Las letras de la regla ya están en naranja. Di el nombre del dibujo y toca las demás letras en orden.",
+   "fr": "Les lettres de la règle sont déjà en orange. Dis le mot de l'image et touche les autres lettres dans l'ordre.",
+   "it": "Le lettere della regola sono già in arancione. Di' il nome del disegno e tocca le altre lettere in ordine.",
+   "pt": "As letras da regra já estão em laranja. Fale o nome da figura e toque nas outras letras em ordem.",
+   "nl": "De letters van de regel staan al in het oranje. Zeg het woord en tik de andere letters op volgorde aan.",
+   "sv": "Regelbokstäverna står redan i orange. Säg ordet till bilden och tryck på de andra bokstäverna i rätt ordning.",
+   "da": "Regelbogstaverne står allerede med orange. Sig ordet til billedet, og tryk på de andre bogstaver i rækkefølge.",
+   "no": "Regelbokstavene står allerede i oransje. Si ordet til bildet og trykk på de andre bokstavene i riktig rekkefølge.",
+   "fi": "Sääntökirjaimet on jo kirjoitettu oranssilla. Sano kuvan sana ja napauta muut kirjaimet järjestyksessä."
+  },
+  "plural": {
+   "en": "Read the word for one. How does the word for many end? Tap the right ending.",
+   "de": "Lies das Wort für eins. Wie endet das Wort für viele? Tippe die richtige Endung an.",
+   "es": "Lee el singular. ¿Cómo termina el plural? Toca la terminación correcta.",
+   "fr": "Lis le mot au singulier. Comment se termine le pluriel ? Touche la bonne fin.",
+   "it": "Leggi la parola al singolare. Come finisce il plurale? Tocca la fine giusta.",
+   "pt": "Leia a palavra no singular. Como termina o plural? Toque na terminação certa.",
+   "nl": "Lees het woord voor één. Hoe eindigt het woord voor meer? Tik het goede einde aan.",
+   "sv": "Läs ordet för en. Hur slutar ordet för många? Tryck på rätt slut.",
+   "da": "Læs ordet for én. Hvordan ender ordet for flere? Tryk på den rigtige endelse.",
+   "no": "Les ordet for én. Hvordan slutter ordet for flere? Trykk på riktig endelse.",
+   "fi": "Lue sana. Miten sana loppuu, kun niitä on monta? Napauta oikeaa loppua."
+  }
  }
 }

@@ -1,0 +1,448 @@
+{
+  "id": "wave-srl-en",
+  "_note": "Level Set 2026-10-01: Spelling Rules (G2-315 + 5 faces). Every rule of the locale, new words each copy. Easier = fewer, shorter words with more help; harder = longer words, more cards, the gap box no longer shows how many letters. Screen version: choose the right letters (or tap the rule letters, sort, spell); answer key: the answers written in. Visible to teachers, never indexed; PDF + screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-315",
+    "G2-324",
+    "G2-325",
+    "G2-326",
+    "G2-327",
+    "G2-328"
+  ],
+  "levels": {
+    "G2-315": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 11,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "magic-e",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "magic-e",
+          "seedVariant": 2
+        },
+        {
+          "copy": 6,
+          "unit": "magic-e",
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        },
+        {
+          "copy": 15,
+          "unit": "ee-ea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "ai-ay",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-324": {
+      "1": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 8,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 13,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        }
+      ]
+    },
+    "G2-325": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "magic-e",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 11,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "magic-e",
+          "seedVariant": 2
+        },
+        {
+          "copy": 5,
+          "unit": "magic-e",
+          "seedVariant": 3
+        },
+        {
+          "copy": 6,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        },
+        {
+          "copy": 16,
+          "unit": "ee-ea",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-326": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 11,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 6,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 16,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ]
+    },
+    "G2-327": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "magic-e",
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        },
+        {
+          "copy": 11,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "magic-e",
+          "seedVariant": 2
+        },
+        {
+          "copy": 5,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "c-k-ck",
+          "seedVariant": 2
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": "c-k-ck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "c-k-ck",
+          "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": "ee-ea",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-328": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "3": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ]
+    }
+  }
+}

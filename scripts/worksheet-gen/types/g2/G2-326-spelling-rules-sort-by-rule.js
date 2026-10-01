@@ -15,7 +15,9 @@ module.exports = {
   ...base,
   id: 'G2-326',
   slug: 'spelling-rules-sort-by-rule',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  interactive: require('../../lib/spelling-rules-screen.js').interactiveFor('bins'),
+  difficulty: { 1: { ...D, bins: { ...D.bins, items: 6, split: [2, 4], rows: 4, minSide: 4 } }, 2: D, 3: { ...D, bins: { ...D.bins, items: 10, split: [4, 6], rows: 6, rowH: 54, pic: 44 } } },
   i18n: { en: { title: 'Sort by Spelling Rule: {UNIT}', instruction: 'Say each picture word. Write it in the bin with its spelling, one word on each line.' } },
   unitAxis: base.unitAxisFor('bins'),
 };

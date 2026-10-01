@@ -83,7 +83,7 @@ function cellCount(n, gaps, gapCells) {
   return n - spent + boxes;
 }
 
-function gapWord({ word, gaps = [], gapCells = 1, cell, fontPx, mode = 'gap' }) {
+function gapWord({ word, gaps = [], gapCells = 1, cell, fontPx, mode = 'gap', keyText = null, keyFill = false, mark = null }) {
   const letters = [...String(word)];
   const n = letters.length;
   if (!n) throw new Error('gapWord: empty word');
@@ -110,6 +110,8 @@ function gapWord({ word, gaps = [], gapCells = 1, cell, fontPx, mode = 'gap' }) 
         const w = Array.isArray(gapCells) ? gapCells[g.i] : gapCells;
         if (!(w >= 1)) throw new Error('gapWord: gapCells must be ≥ 1');
         parts.push(gapBox(x, w, cell, g.i));
+        // the answer key (Level Set 2026-10-01): the gap's own letters in coral, centred in its box
+        if (keyText && keyText[g.i]) parts.push(label({ x: +((x + w / 2) * cell).toFixed(2), y: letterY(cell, size), text: keyText[g.i], size, color: T.coral, fontFamily: F.display, weight: 700, anchor: 'middle', data: { 'data-lcs-keygap': g.i } }));
         x += w;
         i += g.len - 1;
       } else {
@@ -119,12 +121,13 @@ function gapWord({ word, gaps = [], gapCells = 1, cell, fontPx, mode = 'gap' }) 
     }
   } else if (mode === 'full') {
     cells = n;
-    letters.forEach((ch, i) => parts.push(letterAt(ch, i, cell, size)));
+    // key: the rule letters (`mark` = their indices) in coral
+    letters.forEach((ch, i) => parts.push(letterAt(ch, i, cell, size, mark && mark.includes(i) ? T.coral : undefined)));
   } else {
     cells = n;
     letters.forEach((ch, i) => {
       if (inGap.has(i)) parts.push(letterAt(ch, i, cell, size, T.coral));
-      else parts.push(scaffoldBox(i, cell, i));
+      else { parts.push(scaffoldBox(i, cell, i)); if (keyFill) parts.push(label({ x: +((i + 0.5) * cell).toFixed(2), y: letterY(cell, size), text: ch, size, color: T.teal, fontFamily: F.display, weight: 700, anchor: 'middle', data: { 'data-lcs-keybox': i } })); }
     });
   }
   const w = cells * cell;
@@ -199,12 +202,18 @@ function pictureBank({ items = [], px = 56 }) {
  *   (`data-lcs-bin-lines="<rows>"`, each row `data-lcs-bin-row`). The line count
  *   is the same in every bin — it never states the split (design §3 F4).
  */
-function ruleBins({ bins = [], w = 300, rows = 5, rowH = 56, glyphH = 28, gap = 10, top = 40 }) {
+function ruleBins({ bins = [], w = 300, rows = 5, rowH = 56, glyphH = 28, gap = 10, top = 40, keyWords = null }) {
   if (bins.length < 2) throw new Error('ruleBins: at least two bins');
   const laneW = w - 40;
   const html = bins.map((b) => {
     const lines = [];
-    for (let i = 0; i < rows; i++) lines.push(`<div data-lcs-bin-row="${i + 1}" style="flex:0 0 auto;line-height:0">${writingRow({ w: laneW, h: rowH, glyphH, xHeight: true }).svg}</div>`);
+    for (let i = 0; i < rows; i++) {
+      let svg = writingRow({ w: laneW, h: rowH, glyphH, xHeight: true }).svg;
+      // the answer key: the bin's words written on its own rulings, seated by measured metrics (lib/key-on-row.js)
+      const kw = keyWords && keyWords[b.key] && keyWords[b.key][i];
+      if (kw) svg = require('../../lib/key-on-row.js').seatOnRow(svg, kw);
+      lines.push(`<div data-lcs-bin-row="${i + 1}" style="flex:0 0 auto;line-height:0">${svg}</div>`);
+    }
     return `<div class="ws-bin" data-lcs-bin="${esc(b.key)}" style="width:${w}px;max-width:${w}px;height:auto;flex:0 0 ${w}px;align-self:stretch">` +
       `<span class="ws-bin-label" data-lcs-bin-label="${esc(b.key)}">${chipHtml(b.chip)}</span>` +
       `<div class="ws-bin-lines" data-lcs-bin-lines="${rows}" style="box-sizing:border-box;height:100%;padding:${top}px 17px 12px;display:flex;flex-direction:column;justify-content:space-evenly;gap:${gap}px">${lines.join('')}</div></div>`;
@@ -213,8 +222,8 @@ function ruleBins({ bins = [], w = 300, rows = 5, rowH = 56, glyphH = 28, gap = 
 }
 
 /** ruleCopyBox({ w=56, h=44 })  (Face 3): an EMPTY `.ws-answerbox` (`data-lcs-copybox`) — the family never stamps the answer, so components.js answerBox (which does) is not used. */
-function ruleCopyBox({ w = 56, h = 44 } = {}) {
-  return `<span class="ws-answerbox" data-lcs-copybox style="width:${w}px;height:${h}px;flex:0 0 auto"></span>`;
+function ruleCopyBox({ w = 56, h = 44, text = '' } = {}) {
+  return `<span class="ws-answerbox" data-lcs-copybox style="width:${w}px;height:${h}px;flex:0 0 auto">${text ? `<span data-lcs-keycopy style="color:${T.coral};font-family:${F.display};font-weight:700;font-size:24px">${esc(text)}</span>` : ''}</span>`;
 }
 
 function ruleBox({ chips = [], models = [], w = 675, h = 60 }) {

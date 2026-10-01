@@ -78,6 +78,52 @@ const { gapWord, ruleBox, pictureBank, ruleBins, ruleCopyBox, letterChips } = re
 const { displayWord, distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
 const { candidates } = require('../../lib/b3-picture-index.js');
 const { bank: loadBank } = require('../../lib/b3-common.js');
+const { refusedPicture } = require('../../lib/picture-refusals.js');
+const SRS = require('../../lib/spelling-rules-screen.js');
+/**
+ * Level Set 2026-10-01: a page is NEW unless it is the published one (level 2, copy 1). New pages skip the refused
+ * pictures (lib/picture-refusals.js), carry `meta.items` for the screen version and can be built as the answer key
+ * (ctx.keyFill). The published pages never read any of it.
+ */
+/**
+ * Native review 2026-10-01 (Level Set): words that do not teach the rule they are filed under (a vowel team split
+ * across syllables, an r-controlled vowel, -ie spoken i-e, a double letter on a compound seam, gu+a = /gw/, a word
+ * that cannot be lengthened), loanwords and rare or ambiguous words. Keyed locale → rule → display words (lower
+ * case). New pages: the pool never offers them. Published pages: the pool is untouched (their other words stay where
+ * they are) and only a word on the page that the review refused is swapped for another word of the same rule side
+ * (`reviewFix`) — so only the pages that SHOWED a refused word change, and they are republished in place.
+ */
+const REVIEW_EXCLUDE = {
+  en: { 'y-ies-f-ves': ['galaxy'], 'c-k-ck': ['baker'], 'magic-e': ['baker'], 'ee-ea': ['manatee', 'cereal', 'theater', 'earmuffs', 'meerkat'], 'ai-ay': ['armchair', 'stairs', 'wheelchair', 'chair', 'hair', 'eclair'] },
+  de: { ie: ['dahlie', 'hortensie', 'petunie', 'begonie'], tt: ['nachttisch', 'mütze', 'leuchtturm'], ss: ['hausschuhe'], ll: ['bulldozer', 'medaille', 'schöpfkelle'], ck: ['schöpfkelle'], nn: ['zinnie'] },
+  es: { 'g-gu': ['baguette', 'guante', 'paraguas'], 'b-v': ['bollo', 'bote'] },
+  fr: { 's-ou-ss': ['tournesol'] },
+  it: { 'chi-ghi': ['cocco'] },
+  pt: { 'm-antes-de-p-b': ['pimentão', 'bandagem'], 'ch-x': ['texugo'] },
+  nl: { 'd-t': ['zand'] },
+  sv: { dubbelteckning: ['bulldozer', 'höstack'] },
+  da: { ll: ['basketball', 'bulldozer', 'lam'] },
+  no: { 't-eller-tt': ['votter'], 'sj-lyden': ['sjøku'] },
+  fi: { kk: ['tehosekoitin'], tt: ['neitokakadu'] },
+};
+const reviewExcluded = (loc, ruleId, word) => ((REVIEW_EXCLUDE[loc] || {})[ruleId] || []).includes(String(word).toLocaleLowerCase(loc));
+// a picture that names the wrong word (the lime reads as a pear) is swapped on the published pages too
+const NAMING_REFUSALS = new Set(['fruits|lime']);
+const badOnPage = (loc, ruleId, p) => reviewExcluded(loc, ruleId, p.word) || NAMING_REFUSALS.has(p.theme + '|' + p.noun);
+function reviewFix(picks, pool, loc, ruleId) {
+  const used = new Set(picks.map((p) => p.vocabKey));
+  const ok = (x) => !used.has(x.vocabKey) && !badOnPage(loc, ruleId, x);
+  return picks.map((p) => {
+    if (!badOnPage(loc, ruleId, p)) return p;
+    const r = pool.find((x) => ok(x) && x.g === p.g) || pool.find(ok);
+    if (!r) throw new Error(`G2-315: no replacement for the refused word "${p.word}" (${ruleId}/${loc})`);
+    used.add(r.vocabKey);
+    return r;
+  });
+}
+const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+const itemMeta = (it) => ({ key: it.vocabKey, theme: it.theme, noun: it.noun, word: it.word, gaps: it.gaps, g: it.g, ...(it.plural ? { plural: it.plural } : {}), ...(it.foil ? { foil: true } : {}) });
+const gapLetters = (word, gaps) => (gaps || []).map((g) => [...word].slice(g.from, g.from + g.len).join(''));
 const { esc } = require('../../primitives/_svg.js');
 
 const KEY = 'spelling-rules';
@@ -118,8 +164,10 @@ function eligible(loc, ruleId, opts) {
   const exclRe = b.exclude && b.exclude.re ? new RegExp(b.exclude.re, 'u') : null;   // an item family the locale refuses
   const pool = (rule.items || [])
     .filter(notFace)
+    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun))
     .map((it) => ({ ...it, word: displayWord(it.word, l, b.capital) }))
     .filter((it) => /^\p{L}+$/u.test(it.word))
+    .filter((it) => !o.fresh || !reviewExcluded(l, ruleId, it.word))
     .filter((it) => !(exclRe && exclRe.test(it.word.toLocaleLowerCase(l))))
     .filter((it) => { const n = [...it.word].length; return n >= o.minLetters && n <= o.maxLetters; })
     .filter((it) => rule.gap.kind !== 'regex' || [...it.word.toLocaleLowerCase(l).matchAll(re)].length === 1)
@@ -211,6 +259,8 @@ function eligiblePlural(loc, ruleId, opts) {
   const pool = (rule.items || [])
     .filter((it) => !(Array.isArray(it.not) && it.not.includes('plural')))
     .filter((it) => it.plural)
+    .filter((it) => !o.fresh || !refusedPicture(it.theme, it.noun))
+    .filter((it) => !o.fresh || !reviewExcluded(l, ruleId, displayWord(it.word, l, b.capital)))
     .map((it) => ({ ...it, word: displayWord(it.word, l, b.capital), plural: displayWord(it.plural, l, b.capital) }))
     .filter((it) => /^\p{L}+$/u.test(it.word) && /^\p{L}+$/u.test(it.plural))
     .filter((it) => !(exclRe && (exclRe.test(it.word.toLocaleLowerCase(l)) || exclRe.test(it.plural.toLocaleLowerCase(l)))))
@@ -233,6 +283,8 @@ module.exports = {
   gradeBand: 'G2',
   assetClass: 'icon-placement',
   exerciseType: KEY,
+  interactive: SRS.interactiveFor(null),
+  levelSetWords: (m) => m.words || [],
   themeAxis: { applicable: false },
   unitAxis: {
     applicable: true,
@@ -241,7 +293,7 @@ module.exports = {
     tokens: (unit, loc) => { const r = ruleOf(loadBank(KEY, loc), unit); return { U: r.head, L: r.head.toLocaleLowerCase(loc), UNIT: r.head }; },
   },
   difficulty: {
-    1: { cards: 6, cols: 2, rows: 3, pic: 120, cellMax: 36, minLetters: 3, maxLetters: 8, models: 3, gapCells: 'len', mode: 'gap', minPool: 10 },
+    1: { cards: 6, cols: 2, rows: 3, pic: 120, cellMax: 36, minLetters: 3, maxLetters: 8, models: 2, gapCells: 'len', mode: 'gap', minPool: 10 },   // Level Set 2026-10-01: models 3 -> 2 (most rules carry two)
     2: { cards: 8, cols: 2, rows: 4, pic: 88, cellMax: 32, minLetters: 3, maxLetters: 12, models: 2, gapCells: 'len', mode: 'gap', minPool: 10 },
     3: { cards: 8, cols: 2, rows: 4, pic: 80, cellMax: 32, minLetters: 6, maxLetters: 12, models: 0, gapCells: 3, mode: 'gap', minPool: 10 },
   },
@@ -257,7 +309,14 @@ module.exports = {
 
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(KEY, loc), { theme, difficulty, locale: loc, unit }, ctx);
+    const bank = loadBank(KEY, loc);
+    const fresh = isFresh(difficulty, ctx);
+    if (fresh && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      if (ctx.answerKey) return this._buildWith(bank, { theme, difficulty, locale: loc, unit }, { ...ctx, interactive: false, answerKey: false, fresh, keyFill: true });
+      const built = this._buildWith(bank, { theme, difficulty, locale: loc, unit }, { ...ctx, interactive: false, answerKey: false, fresh });
+      return SRS.screen(built, ctx, loc, bank);
+    }
+    return this._buildWith(bank, { theme, difficulty, locale: loc, unit }, fresh ? { ...ctx, fresh } : ctx);
   },
 
   /** The whole build over an INJECTED bank (the gate's poison seam); build() passes the real one. */
@@ -274,10 +333,11 @@ module.exports = {
     if (refused) throw new Error(`${ID}: rule ${ruleId}/${loc} cannot carry the base page (${refused}) — REFUSED`);
     if (d.mode !== 'gap') throw new Error(`${ID}: the base renders mode 'gap' only (got ${d.mode})`);
     if ((rule.models || []).length < d.models) throw new Error(`${ID}: rule ${ruleId}/${loc} has ${(rule.models || []).length} models < ${d.models} — REFUSED`);
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: d.gapCells, bank });
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: d.gapCells, bank, fresh: !!(ctx && ctx.fresh) });
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} has ${pool.length} eligible words < ${floor} (d${difficulty}) — REFUSED`);
-    const picks = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
+    const picks0 = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
+    const picks = ctx && ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
 
@@ -291,7 +351,7 @@ module.exports = {
       const n = [...it.word].length;
       const cell = cellFor(it.cells, d.cellMax);
       const fontPx = cell - 2;
-      const svg = gapWord({ word: it.word, gaps: it.gaps, gapCells: it.gapCells, cell, fontPx, mode: 'gap' });
+      const svg = gapWord({ word: it.word, gaps: it.gaps, gapCells: it.gapCells, cell, fontPx, mode: 'gap', ...(ctx.keyFill ? { keyText: gapLetters(it.word, it.gaps) } : {}) });
       const gapStamp = it.gaps.map((g) => g.from + ':' + g.len).join(',');
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ` +
         `data-lcs-word="${esc(it.word)}" data-lcs-vocab="${esc(it.vocabKey)}" data-lcs-gap="${esc(gapStamp)}" data-lcs-side="${esc(it.side || 'rule')}" ` +
@@ -305,7 +365,7 @@ module.exports = {
       `data-lcs-minletters="${d.minLetters}" data-lcs-maxletters="${d.maxLetters}" data-lcs-pic="${d.pic}" ` +
       `style="flex:1;display:flex;flex-direction:column;min-height:0;gap:14px">` +
       box + cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`;
-    return { bodyHtml, meta: { rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: models.map((m) => m.word), pool: pool.length } };
+    return { bodyHtml, meta: { rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: models.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { face: 'base', items: picks.map(itemMeta) } : {}) } };
   },
 
   /* ---------------------------------------------------------------- Phase 2 face builders */
@@ -355,43 +415,45 @@ module.exports = {
     const pair = rule.pair;
     const order = chipOrder(pair);
     const G = Math.max(...pair.map((p) => [...p].length));   // every gap box max(candidate lengths) wide — the G1-305 leak rule
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: G, bank, rowMax: c.rowMax, face: 'choice' });
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: G, bank, rowMax: c.rowMax, face: 'choice', fresh: !!(ctx && ctx.fresh) });
     const [A, B] = this._sides(pool, rule, ruleId, loc, c.sides, c.minSide, 'choice');
-    const picks = rng.shuffle([...sampleEntries(rng, A, c.sides[0], ID), ...sampleEntries(rng, B, c.sides[1], ID)]);
+    const picks0 = rng.shuffle([...sampleEntries(rng, A, c.sides[0], ID), ...sampleEntries(rng, B, c.sides[1], ID)]);
+    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const box = ruleBox({ chips: order, models: [], w: 675, h: 60 });
     const cards = picks.map((it) => {
       const cell = cellFor(it.cells, d.cellMax, c.rowMax);
-      const svg = gapWord({ word: it.word, gaps: it.gaps, gapCells: G, cell, fontPx: cell - 2, mode: 'gap' });
+      const svg = gapWord({ word: it.word, gaps: it.gaps, gapCells: G, cell, fontPx: cell - 2, mode: 'gap', ...(ctx.keyFill ? { keyText: gapLetters(it.word, it.gaps) } : {}) });
       const gapStamp = it.gaps.map((g) => g.from + ':' + g.len).join(',');
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:6px" data-ws-content ` +
         `data-lcs-word="${esc(it.word)}" data-lcs-vocab="${esc(it.vocabKey)}" data-lcs-gap="${esc(gapStamp)}" data-lcs-side="${esc(it.g === pair[0] ? 'rule' : 'contrast')}" ` +
         `data-lcs-cell="${cell}" data-lcs-cells="${it.cells}" data-lcs-face="choice">` +
         `<div data-lcs-choicerow style="display:flex;align-items:center;justify-content:center;gap:8px;line-height:0">` +
         `<img class="ws-icon" src="${pictureOf(it, loc)}" alt="" data-lcs-pic="${esc(it.vocabKey)}" style="width:${c.pic}px;height:${c.pic}px;flex:0 0 auto">${svg}</div>` +
-        letterChips({ a: order[0], b: order[1], px: c.chipPx }) + `</div>`;
+        letterChips({ a: order[0], b: order[1], px: c.chipPx, ...(ctx.keyFill ? { ring: it.g } : {}) }) + `</div>`;
     });
     const extra = ` data-lcs-pair="${esc(pair.join(','))}" data-lcs-chip-order="${esc(order.join('|'))}" data-lcs-sides="${c.sides.join(',')}" data-lcs-gapcells="${G}" data-lcs-rowmax="${c.rowMax}" data-lcs-chippx="${c.chipPx}"`;
     const bodyHtml = this._faceRoot('choice', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'choice', rule: ruleId, pair, words: picks.map((p) => p.word), sides: picks.map((p) => p.g), pool: [A.length, B.length] } };
+    return { bodyHtml, meta: { face: 'choice', rule: ruleId, pair, words: picks.map((p) => p.word), sides: picks.map((p) => p.g), pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
   },
 
   _buildDetective(bank, d, loc, rule, ruleId, chips, models, ctx) {
     const c = d.detective;
     const rng = ctx.rng;
     const rowW = 302 - 8 - 56;   // [gapWord full][8][copy box 56]
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'detective' })
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'detective', fresh: !!(ctx && ctx.fresh) })
       .filter((it) => cellFor([...it.word].length, d.cellMax, rowW) >= CELL_MIN);
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} detective has ${pool.length} eligible words < ${floor} — REFUSED`);
     const nFoils = c.foils || 0;
     const foils = (rule.foils || []).map((f) => ({ ...f, word: displayWord(f.word, loc, bank.capital) })).filter((f) => /^\p{L}+$/u.test(f.word) && [...f.word].length <= d.maxLetters);
     if (foils.length < nFoils) throw new Error(`${ID}: rule ${ruleId}/${loc} detective has ${foils.length} foils < ${nFoils} — REFUSED`);
-    const picks = rng.shuffle([
+    const picks0 = rng.shuffle([
       ...sampleEntries(rng, pool, d.cards - nFoils, ID),
       ...(nFoils ? sampleEntries(rng, foils, nFoils, ID).map((f) => ({ ...f, foil: true })) : []),
     ]);
+    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const modelPills = models.map((m) => ({ src: pictureOf(m, loc), word: displayWord(m.word, loc, bank.capital), gaps: m.gaps }));
@@ -399,17 +461,18 @@ module.exports = {
     const cards = picks.map((it) => {
       const n = [...it.word].length;
       const cell = cellFor(n, d.cellMax, rowW);
-      const svg = gapWord({ word: it.word, gaps: [], cell, fontPx: cell - 2, mode: 'full' });
+      const mark = ctx.keyFill && !it.foil ? it.gaps.flatMap((g) => Array.from({ length: g.len }, (_, k) => g.from + k)) : null;
+      const svg = gapWord({ word: it.word, gaps: [], cell, fontPx: cell - 2, mode: 'full', ...(mark ? { mark } : {}) });
       const at = it.foil ? '' : ` data-lcs-rule-at="${esc(it.gaps.map((g) => g.from + ':' + g.len).join(','))}"`;
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:6px" data-ws-content ` +
         `data-lcs-word="${esc(it.word)}" data-lcs-vocab="${esc(it.vocabKey)}"${at} data-lcs-side="${it.foil ? 'foil' : 'rule'}" ` +
         `data-lcs-cell="${cell}" data-lcs-cells="${n}" data-lcs-face="detective">` +
         `<img class="ws-icon" src="${pictureOf(it, loc)}" alt="" data-lcs-pic="${esc(it.vocabKey)}" style="width:${d.pic}px;height:${d.pic}px;flex:0 1 auto;min-height:${MIN_PIC}px">` +
-        `<div data-lcs-wordrow style="display:flex;align-items:center;justify-content:center;gap:8px;line-height:0">${svg}${ruleCopyBox({ w: 56, h: 44 })}</div></div>`;
+        `<div data-lcs-wordrow style="display:flex;align-items:center;justify-content:center;gap:8px;line-height:0">${svg}${ruleCopyBox({ w: 56, h: 44, ...(ctx.keyFill && !it.foil ? { text: gapLetters(it.word, it.gaps).join(rule.gap && rule.gap.boxes === 'split' ? '_' : '') } : {}) })}</div></div>`;
     });
     const extra = ` data-lcs-foils="${nFoils}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('detective', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'detective', rule: ruleId, words: picks.map((p) => p.word), foils: picks.filter((p) => p.foil).map((p) => p.word), models: modelPills.map((m) => m.word), pool: pool.length } };
+    return { bodyHtml, meta: { face: 'detective', rule: ruleId, words: picks.map((p) => p.word), foils: picks.filter((p) => p.foil).map((p) => p.word), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
   },
 
   _buildBins(bank, d, loc, rule, ruleId, ctx) {
@@ -418,29 +481,32 @@ module.exports = {
     if (c.n !== 2) throw new Error(`${ID}: bins face ships two bins (got ${c.n})`);
     const pair = rule.pair;
     const order = chipOrder(pair);
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'bins' });
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'bins', fresh: !!(ctx && ctx.fresh) });
     const [A, B] = this._sides(pool, rule, ruleId, loc, [c.split[0], c.split[0]], c.minSide, 'bins');
     const nA = rng.int(c.split[0], c.split[1]);
     const nB = c.items - nA;
     if (nB < c.split[0] || nB > c.split[1]) throw new Error(`${ID}: bins split ${nA}/${nB} outside ${c.split.join('-')}`);
     if (A.length < nA || B.length < nB) throw new Error(`${ID}: rule ${ruleId}/${loc} bins: sides ${A.length}/${B.length} < the drawn split ${nA}/${nB} — REFUSED`);
-    const picks = rng.shuffle([...sampleEntries(rng, A, nA, ID), ...sampleEntries(rng, B, nB, ID)]);
+    const picks0 = rng.shuffle([...sampleEntries(rng, A, nA, ID), ...sampleEntries(rng, B, nB, ID)]);
+    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const box = ruleBox({ chips: order, models: [], w: 675, h: 60 });
     const bankRow = pictureBank({ items: picks.map((it) => ({ src: pictureOf(it, loc), vocabKey: it.vocabKey, word: it.word })), px: c.pic });
-    const bins = ruleBins({ bins: order.map((k) => ({ key: k, chip: k })), w: c.binW, rows: c.rows, rowH: c.rowH, glyphH: c.glyphH });
+    const keyWords = ctx.keyFill ? Object.fromEntries(order.map((k) => [k, picks.filter((p) => p.g === k).map((p) => p.word)])) : null;
+    const bins = ruleBins({ bins: order.map((k) => ({ key: k, chip: k })), w: c.binW, rows: c.rows, rowH: c.rowH, glyphH: c.glyphH, ...(keyWords ? { keyWords } : {}) });
     const extra = ` data-lcs-pair="${esc(pair.join(','))}" data-lcs-chip-order="${esc(order.join('|'))}" data-lcs-items="${c.items}" data-lcs-rows="${c.rows}" data-lcs-split="${c.split.join(',')}" data-lcs-bankpx="${c.pic}" data-lcs-rowh="${c.rowH}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('bins', d, rule, ruleId, box, bankRow + bins, extra);
-    return { bodyHtml, meta: { face: 'bins', rule: ruleId, pair, words: picks.map((p) => p.word), split: [nA, nB], pool: [A.length, B.length] } };
+    return { bodyHtml, meta: { face: 'bins', rule: ruleId, pair, words: picks.map((p) => p.word), split: [nA, nB], pool: [A.length, B.length], ...(ctx.fresh ? { items: picks.map(itemMeta), order } : {}) } };
   },
 
   _buildAnchor(bank, d, loc, rule, ruleId, chips, models, ctx) {
     const rng = ctx.rng;
-    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'anchor' });
+    const pool = eligible(loc, ruleId, { minLetters: d.minLetters, maxLetters: d.maxLetters, gapCells: 'len', bank, face: 'anchor', fresh: !!(ctx && ctx.fresh) });
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} anchor has ${pool.length} eligible words < ${floor} — REFUSED`);
-    const picks = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
+    const picks0 = rng.shuffle(sampleEntries(rng, pool, d.cards, ID));
+    const picks = ctx.fresh ? picks0 : reviewFix(picks0, pool, loc, ruleId);
     const seenK = new Set();
     for (const p of picks) { if (seenK.has(p.vocabKey)) throw new Error(`${ID}: duplicate vocab key on the page: ${p.vocabKey}`); seenK.add(p.vocabKey); }
     const modelPills = models.map((m) => ({ src: pictureOf(m, loc), word: displayWord(m.word, loc, bank.capital), gaps: m.gaps }));
@@ -448,7 +514,7 @@ module.exports = {
     const cards = picks.map((it) => {
       const n = [...it.word].length;
       const cell = cellFor(n, d.cellMax);
-      const svg = gapWord({ word: it.word, gaps: it.gaps, cell, fontPx: cell - 2, mode: 'scaffold' });
+      const svg = gapWord({ word: it.word, gaps: it.gaps, cell, fontPx: cell - 2, mode: 'scaffold', ...(ctx.keyFill ? { keyFill: true } : {}) });
       const gapStamp = it.gaps.map((g) => g.from + ':' + g.len).join(',');
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ` +
         `data-lcs-word="${esc(it.word)}" data-lcs-vocab="${esc(it.vocabKey)}" data-lcs-gap="${esc(gapStamp)}" data-lcs-side="${esc(it.side || 'rule')}" ` +
@@ -458,13 +524,13 @@ module.exports = {
     });
     const extra = ` data-lcs-anchor="${esc(d.anchor.at || 'rule')}" data-lcs-gapcells="len"`;
     const bodyHtml = this._faceRoot('anchor', d, rule, ruleId, box, cardGrid({ cards, cols: d.cols, rows: d.rows }), extra);
-    return { bodyHtml, meta: { face: 'anchor', rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: modelPills.map((m) => m.word), pool: pool.length } };
+    return { bodyHtml, meta: { face: 'anchor', rule: ruleId, words: picks.map((p) => p.word), gaps: picks.map((p) => p.g), models: modelPills.map((m) => m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta) } : {}) } };
   },
 
   _buildPlural(bank, d, loc, rule, ruleId, chips, models, ctx) {
     const f = d.form;
     const rng = ctx.rng;
-    const geo = { maxSingular: f.maxSingular, maxPlural: f.maxPlural, gapCells: f.gapCells, laneW: 647, padL: 22, pic: f.pic, clonePx: f.clonePx, gap: 10, singCell: f.singCell, plurCellMax: f.plurCellMax, bank };
+    const geo = { fresh: !!ctx.fresh, maxSingular: f.maxSingular, maxPlural: f.maxPlural, gapCells: f.gapCells, laneW: 647, padL: 22, pic: f.pic, clonePx: f.clonePx, gap: 10, singCell: f.singCell, plurCellMax: f.plurCellMax, bank };
     const pool = eligiblePlural(loc, ruleId, geo);
     const floor = Math.max(f.rows, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: rule ${ruleId}/${loc} plural has ${pool.length} eligible pairs < ${floor} — REFUSED`);
@@ -493,7 +559,7 @@ module.exports = {
     const cards = picks.map((it) => {
       const nS = [...it.word].length, nP = [...it.plural].length;
       const sing = gapWord({ word: it.word, gaps: [], cell: f.singCell, fontPx: f.singCell - 2, mode: 'full' });
-      const plur = gapWord({ word: it.plural, gaps: it.gaps, gapCells: f.gapCells, cell: it.cell, fontPx: it.cell - 2, mode: 'gap' });
+      const plur = gapWord({ word: it.plural, gaps: it.gaps, gapCells: f.gapCells, cell: it.cell, fontPx: it.cell - 2, mode: 'gap', ...(ctx.keyFill ? { keyText: gapLetters(it.plural, it.gaps) } : {}) });
       const gapStamp = it.gaps.map((g) => g.from + ':' + g.len).join(',');
       const src = pictureOf(it, loc);
       const clones = `<span data-lcs-clones="3" style="display:inline-flex;gap:4px;flex:0 0 auto;line-height:0">` +
@@ -507,7 +573,7 @@ module.exports = {
     });
     const extra = ` data-lcs-rows="${f.rows}" data-lcs-gapcells="${f.gapCells}" data-lcs-clonepx="${f.clonePx}" data-lcs-singcellcfg="${f.singCell}" data-lcs-plurcellmax="${f.plurCellMax}" data-lcs-maxsingular="${f.maxSingular}" data-lcs-maxplural="${f.maxPlural}"`;
     const bodyHtml = this._faceRoot('plural', d, rule, ruleId, box, cardGrid({ cards, cols: 1, rows: f.rows }), extra);
-    return { bodyHtml, meta: { face: 'plural', rule: ruleId, words: picks.map((p) => p.word), plurals: picks.map((p) => p.plural), models: modelPills.map((m) => m.lead + '→' + m.word), pool: pool.length } };
+    return { bodyHtml, meta: { face: 'plural', rule: ruleId, words: picks.map((p) => p.word), plurals: picks.map((p) => p.plural), models: modelPills.map((m) => m.lead + '→' + m.word), pool: pool.length, ...(ctx.fresh ? { items: picks.map(itemMeta), chips } : {}) } };
   },
 
   async verify(page) {

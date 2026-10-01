@@ -2091,5 +2091,48 @@
    "no": "Skriv hva som skjer på hvert bilde på linjene ved siden av. Ordene i rammen kan hjelpe deg.",
    "fi": "Kirjoita kunkin kuvan viereisille viivoille, mitä kuvassa tapahtuu. Laatikon sanat voivat auttaa sinua."
   }
+ },
+ "G3-397": {
+  "1": {
+   "en": "Read the six words and write each word in the field it belongs to.",
+   "de": "Lies die sechs Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört.",
+   "es": "Lee las seis palabras y escribe cada una en el campo de la palabra a la que más se parece en significado.",
+   "fr": "Lis les six mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens.",
+   "it": "Leggi le sei parole e scrivi ognuna nel campo del verbo a cui è più vicina per significato.",
+   "pt": "Leia as seis palavras e escreva cada uma no campo da palavra que tem quase o mesmo significado.",
+   "nl": "Lees de zes woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent.",
+   "sv": "Läs de sex orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma.",
+   "da": "Læs de seks ord, og skriv hvert ord i feltet for det ord, det betyder næsten det samme som.",
+   "no": "Les de seks ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme.",
+   "fi": "Lue kuusi sanaa ja kirjoita jokainen sana joko mennä-kenttään tai katsoa-kenttään sen mukaan, mihin se kuuluu."
+  },
+  "3": {
+   "en": "Read the twelve words and write each word in the field it belongs to.",
+   "de": "Lies die zwölf Wörter und schreibe jedes in das Wortfeld des Verbs, zu dem es gehört.",
+   "es": "Lee las doce palabras y escribe cada una en el campo de la palabra a la que más se parece en significado.",
+   "fr": "Lis les douze mots et écris chacun dans le champ du verbe dont il est le plus proche par le sens.",
+   "it": "Leggi le dodici parole e scrivi ognuna nel campo del verbo a cui è più vicina per significato.",
+   "pt": "Leia as doze palavras e escreva cada uma no campo da palavra que tem quase o mesmo significado.",
+   "nl": "Lees de twaalf woorden en schrijf elk woord in het vak van het woord dat bijna hetzelfde betekent.",
+   "sv": "Läs de tolv orden och skriv varje ord i fältet gå eller i fältet titta, där det hör hemma.",
+   "da": "Læs de tolv ord, og skriv hvert ord i feltet for det ord, det betyder næsten det samme som.",
+   "no": "Les de tolv ordene og skriv hvert ord i feltet gå eller i feltet se, der det hører hjemme.",
+   "fi": "Lue kaksitoista sanaa ja kirjoita jokainen sana joko mennä-kenttään tai katsoa-kenttään sen mukaan, mihin se kuuluu."
+  }
+ },
+ "G2-374": {
+  "3": {
+   "en": "Read each sentence and write the word from the bubble that fits best in the box instead of said. Two words in the bubble fit no sentence.",
+   "de": "Lies jeden Satz. Schreibe das Wort aus der Sprechblase, das statt „sagt“ am besten passt, in das Kästchen. Zwei Wörter aus der Sprechblase passen in keinen Satz.",
+   "es": "Lee cada oración y escribe en el cuadro la palabra de la burbuja que va mejor en lugar de dice. Dos palabras de la burbuja no van en ninguna oración.",
+   "fr": "Lis chaque phrase et écris dans la case le mot de la bulle qui convient le mieux à la place de « dit ». Deux mots de la bulle ne vont dans aucune phrase.",
+   "it": "Leggi ogni frase e scrivi nel riquadro la parola del fumetto che sta meglio al posto di «dice». Due parole del fumetto non vanno in nessuna frase.",
+   "pt": "Leia cada frase e escreva no quadrinho a palavra do balão que combina melhor no lugar de disse. Duas palavras do balão não combinam com nenhuma frase.",
+   "nl": "Lees elke zin en schrijf in het vakje het woord uit het wolkje dat daar het best past in plaats van ‘zegt’. Twee woorden uit het wolkje passen in geen enkele zin.",
+   "sv": "Läs varje mening och skriv det ord från pratbubblan som passar bäst i rutan i stället för sa. Två ord i pratbubblan passar inte i någon mening.",
+   "da": "Læs hver sætning, og skriv det ord fra taleboblen, der passer bedst, i feltet i stedet for »siger«. To ord i taleboblen passer ikke i nogen sætning.",
+   "no": "Les hver setning og skriv ordet fra snakkeboblen som passer best i ruten i stedet for sa. To ord i snakkeboblen passer ikke i noen setning.",
+   "fi": "Lue jokainen lause ja kirjoita ruutuun puhekuplasta se sana, joka sopii parhaiten sanan sanoi tilalle. Kaksi puhekuplan sanaa ei sovi mihinkään lauseeseen."
+  }
  }
 }

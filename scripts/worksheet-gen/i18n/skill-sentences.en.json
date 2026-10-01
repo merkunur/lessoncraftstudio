@@ -413,7 +413,8 @@
   },
   "synonyms": {
     "full": "Finding the word that means the same, putting close words in order from a little to a lot and choosing a better word for said grows the vocabulary children write with.",
-    "short": "Builds words that mean the same and shades of meaning."
+    "short": "Builds words that mean the same and shades of meaning.",
+    "levelSetShort": "Builds words that mean the same."
   },
   "word-parts": {
     "full": "Sorting words by their root word, finding the root that three words share and adding a prefix or a suffix shows children how words are built and what they mean.",

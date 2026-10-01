@@ -255,10 +255,19 @@ const PICTURES = {
 const EXCLUSIVE = [['scared', 'surprised']];
 /** Pictures the design EXCLUDED (never substitute a similarly named one). */
 const PICTURE_EXCLUDED = ['emotions/excited', 'emotions/merry', 'emotions/content', 'emotions/bored', 'emotions/confused', 'emotions/shy', 'zoo animals/giraffe', 'zoo animals/cheetah'];
+/** Level Set 2026-10-01 (NEW pages only — the published pages read PICTURES): two more pictured concepts, each OPENED
+ *  (scratchpad muscles.png / cake.png); box measured as above. A locale without the concept's group skips it. */
+const PICTURES_LS = {
+  ...PICTURES,
+  strong: { theme: 'body parts', noun: 'muscles', picOpened: true, box: [0.03, 0.033, 0.974, 0.98] },   // a boy flexing both arms
+  tasty: { theme: 'desserts and sweets', noun: 'cake', picOpened: true, box: [0.031, 0.067, 0.972, 0.934] },   // a strawberry cake slice
+};
+/** Never on one new page: "big" / "powerful" also describe the flexing arms and the race car; "big" / "small" a cake slice. */
+const EXCLUSIVE_LS = [...EXCLUSIVE, ['strong', 'big'], ['strong', 'fast'], ['tasty', 'big'], ['tasty', 'small']];
 const FACES = { base: 'G2-358', pictures: 'G1-395', pairs: 'G2-373', shades: 'G1-396', say: 'G2-374', fields: 'G3-397' };
 const MODES = ['base', 'pictures', 'pairs', 'shades', 'say', 'fields'];
 
 /** The gate owns the validator (tools/b5-probe-child.js requires qa/verify-b5-synonyms.js); this is a lazy door to it. */
 function validateBank(block, loc) { return require('../../qa/verify-b5-synonyms.js').validateBank(block, loc); }
 
-module.exports = { SYNONYMS, CONCEPTS, PICTURES, EXCLUSIVE, PICTURE_EXCLUDED, FACES, MODES, validateBank };
+module.exports = { SYNONYMS, CONCEPTS, PICTURES, EXCLUSIVE, PICTURES_LS, EXCLUSIVE_LS, PICTURE_EXCLUDED, FACES, MODES, validateBank };

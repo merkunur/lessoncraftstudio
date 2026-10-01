@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-395',
   slug: 'synonyms-with-pictures',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/synonyms-screen.js').interactiveFor('pictures', base.mergedBankOf),
+  difficulty: { 1: { ...D, cards: 4, rows: 2, picPx: 108, picMaxW: 280, frameH: 150, chipH: 52, chipPx: 21, rowMin: 300 }, 2: D, 3: { ...D, cards: 4, rows: 2, chips: 5, picPx: 104, picMaxW: 260, frameH: 112, rowMin: 300 } },
   i18n: { en: { title: "Synonyms with Pictures: Two Words, One Picture", instruction: "Look at each picture and circle the two words under it that mean the same and tell about the picture." } },
   gradeBand: "G1",
 };

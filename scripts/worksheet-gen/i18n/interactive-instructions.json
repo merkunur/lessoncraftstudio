@@ -1081,5 +1081,85 @@
    "no": "Hver stavelse har én vokal. Se på den fargede stavelsen og trykk på vokalen.",
    "fi": "Jokaisessa tavussa on ainakin yksi vokaali. Katso värillistä tavua ja napauta sen vokaalia."
   }
+ },
+ "synonyms": {
+  "base": {
+   "en": "Read the big word. Tap the word that means the same.",
+   "de": "Lies das große Wort. Tippe das Wort an, das dasselbe bedeutet.",
+   "es": "Lee la palabra grande. Toca la palabra que significa lo mismo.",
+   "fr": "Lis le grand mot. Touche le mot qui veut dire la même chose.",
+   "it": "Leggi la parola grande. Tocca la parola che vuol dire la stessa cosa.",
+   "pt": "Leia a palavra grande. Toque a palavra que quer dizer a mesma coisa.",
+   "nl": "Lees het grote woord. Tik het woord aan dat hetzelfde betekent.",
+   "sv": "Läs det stora ordet. Tryck på ordet som betyder samma sak.",
+   "da": "Læs det store ord. Tryk på det ord, der betyder det samme.",
+   "no": "Les det store ordet. Trykk på ordet som betyr det samme.",
+   "fi": "Lue iso sana. Napauta sanaa, joka tarkoittaa samaa."
+  },
+  "pictures": {
+   "en": "Look at the picture and read its word. Tap the other word that means the same.",
+   "de": "Schau dir das Bild an und lies sein Wort. Tippe das andere Wort an, das dasselbe bedeutet.",
+   "es": "Mira el dibujo y lee su palabra. Toca la otra palabra que significa lo mismo.",
+   "fr": "Regarde l’image et lis son mot. Touche l’autre mot qui veut dire la même chose.",
+   "it": "Guarda il disegno e leggi la sua parola. Tocca l’altra parola che vuol dire la stessa cosa.",
+   "pt": "Olhe a figura e leia a palavra dela. Toque a outra palavra que quer dizer a mesma coisa.",
+   "nl": "Kijk naar het plaatje en lees het woord. Tik het andere woord aan dat hetzelfde betekent.",
+   "sv": "Titta på bilden och läs ordet. Tryck på det andra ordet som betyder samma sak.",
+   "da": "Se på billedet, og læs ordet. Tryk på det andet ord, der betyder det samme.",
+   "no": "Se på bildet og les ordet. Trykk på det andre ordet som betyr det samme.",
+   "fi": "Katso kuvaa ja lue sen sana. Napauta toista sanaa, joka tarkoittaa samaa."
+  },
+  "pairs": {
+   "en": "Read the word. Tap the word that means the same.",
+   "de": "Lies das Wort. Tippe das Wort an, das dasselbe bedeutet.",
+   "es": "Lee la palabra. Toca la palabra que significa lo mismo.",
+   "fr": "Lis le mot. Touche le mot qui veut dire la même chose.",
+   "it": "Leggi la parola. Tocca la parola che vuol dire la stessa cosa.",
+   "pt": "Leia a palavra. Toque a palavra que quer dizer a mesma coisa.",
+   "nl": "Lees het woord. Tik het woord aan dat hetzelfde betekent.",
+   "sv": "Läs ordet. Tryck på ordet som betyder samma sak.",
+   "da": "Læs ordet. Tryk på det ord, der betyder det samme.",
+   "no": "Les ordet. Trykk på ordet som betyr det samme.",
+   "fi": "Lue sana. Napauta sanaa, joka tarkoittaa samaa."
+  },
+  "shades": {
+   "en": "Tap the three words in order, from the weakest to the strongest.",
+   "de": "Tippe die drei Wörter der Reihe nach an, vom schwächsten bis zum stärksten Wort.",
+   "es": "Toca las tres palabras en orden, de la más débil a la más fuerte.",
+   "fr": "Touche les trois mots dans l’ordre, du plus faible au plus fort.",
+   "it": "Tocca le tre parole in ordine, dalla più debole alla più forte.",
+   "pt": "Toque as três palavras em ordem, da mais fraca para a mais forte.",
+   "nl": "Tik de drie woorden op volgorde aan, van het zwakste naar het sterkste woord.",
+   "sv": "Tryck på de tre orden i ordning, från det svagaste till det starkaste.",
+   "da": "Tryk på de tre ord i rækkefølge, fra det svageste til det stærkeste.",
+   "no": "Trykk på de tre ordene i rekkefølge, fra det svakeste til det sterkeste.",
+   "fi": "Napauta kolmea sanaa järjestyksessä heikoimmasta voimakkaimpaan."
+  },
+  "say": {
+   "en": "Read the sentence. Tap the word that fits best instead of said.",
+   "de": "Lies den Satz. Tippe das Wort an, das statt „sagt“ am besten passt.",
+   "es": "Lee la oración. Toca la palabra que va mejor en lugar de dice.",
+   "fr": "Lis la phrase. Touche le mot qui convient le mieux à la place de « dit ».",
+   "it": "Leggi la frase. Tocca la parola che sta meglio al posto di «dice».",
+   "pt": "Leia a frase. Toque a palavra que combina melhor no lugar de disse.",
+   "nl": "Lees de zin. Tik het woord aan dat het best past in plaats van ‘zegt’.",
+   "sv": "Läs meningen. Tryck på det ord som passar bäst i stället för sa.",
+   "da": "Læs sætningen. Tryk på det ord, der passer bedst i stedet for »siger«.",
+   "no": "Les setningen. Trykk på ordet som passer best i stedet for sa.",
+   "fi": "Lue lause. Napauta sanaa, joka sopii parhaiten sanan sanoi tilalle."
+  },
+  "fields": {
+   "en": "Read the word. Tap the field it belongs to.",
+   "de": "Lies das Wort. Tippe das Wortfeld an, zu dem es gehört.",
+   "es": "Lee la palabra. Toca el campo al que pertenece.",
+   "fr": "Lis le mot. Touche le champ auquel il appartient.",
+   "it": "Leggi la parola. Tocca il campo a cui appartiene.",
+   "pt": "Leia a palavra. Toque o campo a que ela pertence.",
+   "nl": "Lees het woord. Tik het vak aan waar het bij hoort.",
+   "sv": "Läs ordet. Tryck på fältet där det hör hemma.",
+   "da": "Læs ordet. Tryk på det felt, ordet hører til.",
+   "no": "Les ordet. Trykk på feltet der det hører hjemme.",
+   "fi": "Lue sana. Napauta kenttää, johon se kuuluu."
+  }
  }
 }

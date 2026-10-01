@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-373',
   slug: 'synonym-pairs',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/synonyms-screen.js').interactiveFor('pairs', base.mergedBankOf),
+  difficulty: { 1: { ...D, pairs: 6, tiers: [1], posMix: [4, 2], sameDomainMax: 3 }, 2: D, 3: { ...D, posMix: [4, 4], sameDomainMax: 3 } },
   i18n: { en: { title: "Synonym Pairs: Match the Words That Mean the Same", instruction: "Draw a line to link each word on the left with the word on the right that means the same." } },
 };

@@ -339,7 +339,7 @@ const SPELLING_RULES = {
         { theme: 'beach', noun: 'sailboat', vocabKey: 'sailboat', word: 'sailboat', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'sailboats', pluralGap: null },
         { theme: 'body parts', noun: 'brain', vocabKey: 'brain', word: 'brain', gaps: [{ from: 2, len: 2 }], g: 'ai', side: 'rule', plural: 'brains', pluralGap: null },
         { theme: 'body parts', noun: 'hair', vocabKey: 'hair', word: 'hair', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'hair', pluralGap: null },
-        { theme: 'tools', noun: 'nail', vocabKey: 'nail', word: 'nail', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'nails', pluralGap: null },
+        { theme: 'tools', noun: 'nail', vocabKey: 'metal-nail', word: 'nail', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'nails', pluralGap: null },
         { theme: 'camping', noun: 'trail', vocabKey: 'trail', word: 'trail', gaps: [{ from: 2, len: 2 }], g: 'ai', side: 'rule', plural: 'trails', pluralGap: null },
         { theme: 'clothing', noun: 'raincoat', vocabKey: 'raincoat', word: 'raincoat', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'raincoats', pluralGap: null },
         { theme: 'easter', noun: 'rainbow', vocabKey: 'rainbow', word: 'rainbow', gaps: [{ from: 1, len: 2 }], g: 'ai', side: 'rule', plural: 'rainbows', pluralGap: null },

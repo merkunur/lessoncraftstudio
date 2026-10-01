@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-325',
   slug: 'spelling-rules-rule-detective',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  interactive: require('../../lib/spelling-rules-screen.js').interactiveFor('detective'),
+  difficulty: { 1: { ...D, cards: 6, rows: 3, maxLetters: 7, pic: 88, minPool: 8 }, 2: D, 3: { ...D, minLetters: 6, models: 0 } },
   i18n: { en: { title: "Rule Detective: {UNIT}", instruction: "Read each word. Find the rule letters, circle them in the word, then copy them into the small box." } },
 };

@@ -20,7 +20,9 @@ module.exports = {
   ...base,
   id: 'G2-324',
   slug: 'spelling-rules-which-one',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels; level 2 = the published config
+  interactive: require('../../lib/spelling-rules-screen.js').interactiveFor('choice'),
+  difficulty: { 1: { ...D, cards: 6, rows: 3, choice: { ...D.choice, sides: [3, 3], minSide: 4, pic: 56 }, maxLetters: 7 }, 2: D, 3: { ...D, choice: { ...D.choice, sides: [5, 3] }, maxLetters: 12 } },
   i18n: { en: { title: 'Which One? {UNIT}', instruction: 'Look at the picture and read the word. Circle the right letters under it, then write them in the dashed box.' } },
   unitAxis: base.unitAxisFor('choice'),
 };

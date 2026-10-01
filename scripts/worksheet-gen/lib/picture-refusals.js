@@ -214,6 +214,11 @@ const PICTURE_REFUSALS = new Set([
   "winter|mittens",
   "zoo animals|hyena",
   "zoo animals|jaguar",
+  // Spelling Rules review 2026-10-01: a pair, a lime that reads as a pear, a lid that reads as a cake cover, the crane (the bird in five locales)
+  "weather|mittens",
+  "fruits|lime",
+  "kitchen tools|lid",
+  "vehicles|crane",
 ]);
 const refusedPicture = (theme, noun) => PICTURE_REFUSALS.has(theme + '|' + noun);
 module.exports = { PICTURE_REFUSALS, refusedPicture };

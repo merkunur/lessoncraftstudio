@@ -172,7 +172,8 @@ function validateBank(b, loc, env) {
       const v = E.vocab[it.vocabKey] && E.vocab[it.vocabKey][loc];
       if (!v || !v[0]) { out.push(`${tag}: ${role} "${it.word}": no vocab entry for key ${it.vocabKey}`); return false; }
       if (displayWord(v[0], loc, b.capital) !== it.word) out.push(`${tag}: ${role} "${it.word}" is not the vocab display word of ${it.vocabKey} ("${displayWord(v[0], loc, b.capital)}")`);
-      const a = E.approved.get(it.vocabKey);
+      // metal-nail (2026-09-30: the tools picture is a metal nail) shares the approved spelling of the word nail
+      const a = E.approved.get(it.vocabKey) || (it.vocabKey === 'metal-nail' ? E.approved.get('nail') : null);
       if (!a || a.word.toLocaleLowerCase(loc) !== it.word.toLocaleLowerCase(loc)) out.push(`${tag}: ${role} "${it.word}": not approved (approved-words-${loc})`);
       if (!it.theme || !it.noun) out.push(`${tag}: ${role} "${it.word}": no pinned picture`);
       else {
@@ -445,7 +446,7 @@ async function sectionPoisons(page, en) {
   threw = null;
   b = clone(en); b.rules['magic-e'].models = b.rules['magic-e'].models.slice(0, 1);
   try { spec._buildWith(b, { difficulty: 1, locale: 'en', unit: null }, { rng: rng() }); } catch (e) { threw = e.message; }
-  poison('one model under a 3-model config builds', [threw || ''], /models < 3/);
+  poison('one model under a 2-model config builds', [threw || ''], /models < 2/);   // d1 shows 2 models since the Level Set (2026-10-01)
   threw = null;
   b = clone(en); b.rules['magic-e'].items[0] = { ...item('magic-e', 'gate'), theme: 'animals', noun: 'gate' };
   try { spec._buildWith(b, { difficulty: 2, locale: 'en', unit: null }, { rng: makeRng('G2-315|poison|gate') }); } catch (e) { threw = e.message; }
@@ -493,7 +494,7 @@ async function sectionPoisons(page, en) {
   await page.reload({ waitUntil: 'networkidle0' });
   ok((await spec.verify(page)).length === 0, 'DOM-poison control after reload (d1) is clean');
   // P8 at d3: one box shrunk to its grapheme length (the per-card width leak)
-  const outD3 = await renderJob(page, { d: 3, tag: 'poison' });
+  const outD3 = await renderJob(page, { d: 3, unit: 'c-k-ck', tag: 'poison' });   // magic e is under its d3 floor after the 2026-10-01 review
   ok(outD3.qa.verify.length === 0 && outD3.qa.lints.length === 0, 'DOM-poison control render (d3) is clean');
   await dom('P8 a gap box one cell wide at the fixed-width level', () => {
     const st = document.querySelector('.ws-card-stage[data-lcs-face="base"]');
@@ -956,7 +957,14 @@ if (require.main === module) (async () => {
     if (!QUICK) for (let e = 2; e <= EPOCHS; e++) jobs.push({ d: 2, unit: null, epoch: e });
     const widest = {};
     for (const job of jobs) {
-      const out = await renderJob(page, job);
+      // Level Set 2026-10-01: levels 1 and 3 are Level Set pages, whose pool also drops the content review's refused
+      // words and pictures — a level that the review leaves under its floor is REFUSED (reported), never rendered short;
+      // level 2 (the published page) is still gated in full
+      let out;
+      try { out = await renderJob(page, job); } catch (e) {
+        if (job.d !== 2 && /REFUSED/.test(e.message)) { console.log(`  ${((job.unit || en.exemplar) + '/d' + job.d).padEnd(22)} REFUSED after the content review (${e.message.slice(0, 80)})`); continue; }
+        throw e;
+      }
       const m = await checkRender(page, job, out, en);
       Object.assign(widest, m.widest);
       console.log(`  ${((job.unit || en.exemplar) + '/d' + job.d + (job.epoch ? '/e' + job.epoch : '')).padEnd(22)} words ${m.stamps.map((s) => s.word).join(',')}  cells ${m.cells.join('/')}  pic ≥ ${Math.round(m.minPic)}  body ${m.body}px  maxAdv ${(m.maxAdvRatio * 100).toFixed(0)}% of cell−2`);
@@ -972,8 +980,14 @@ if (require.main === module) (async () => {
 
     console.log('\n== C. CHROME — three-line title + three-line instruction (the 722 px body) ==');
     for (const d of [1, 2, 3]) {
-      const out = await renderJob(page, { d, tag: 'longchrome', strings: LONG_STRINGS });
-      const m = await checkRender(page, { d, tag: 'longchrome' }, out, en);
+      // levels 1 / 3 are Level Set pages: when the review leaves the exemplar under its floor, measure the chrome on c-k-ck
+      let out;
+      try { out = await renderJob(page, { d, tag: 'longchrome', strings: LONG_STRINGS }); } catch (e) {
+        if (d === 2 || !/REFUSED/.test(e.message)) throw e;
+        out = await renderJob(page, { d, unit: 'c-k-ck', tag: 'longchrome', strings: LONG_STRINGS });
+        out.unit = 'c-k-ck';
+      }
+      const m = await checkRender(page, { d, tag: 'longchrome', ...(out.unit ? { unit: out.unit } : {}) }, out, en);
       const lines = await page.evaluate(() => [document.querySelector('[data-lcs-title]').getBoundingClientRect().height, document.querySelector('[data-lcs-instruction]').getBoundingClientRect().height].map(Math.round));
       ok(lines[0] >= 90 && lines[1] >= 60, `longchrome/d${d}: chrome did not wrap to three lines (title ${lines[0]}, instruction ${lines[1]})`);
       console.log(`  d${d}: body ${m.body}px (title ${lines[0]}px, instruction ${lines[1]}px), picture ≥ ${Math.round(m.minPic)}px, cells ${m.cells.join('/')}`);

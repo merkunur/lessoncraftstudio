@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-325',
   slug: 'syllable-split-write-the-word-in-syllables',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-split-screen.js').interactiveFor('rewrite'),
+  difficulty: { 1: { ...D, cards: 4, rows: 4, minCount: 2, maxCount: 2, minLongCards: 0, maxLetters: 8, minPool: 6 }, 2: D, 3: { ...D, maxCount: 4, minLongCards: 4, maxLetters: 12 } },
   i18n: { en: { title: "Write the Word in Syllables", instruction: "Read the word beside each picture. Copy it on the line and write a small dash between its syllables." } },
 };

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-327',
   slug: 'syllable-split-syllable-scramble',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-split-screen.js').interactiveFor('spell'),
+  difficulty: { 1: { ...D, cards: 4, rows: 4, minCount: 2, maxCount: 2, min3: 0, maxLetters: 8, minPool: 6 }, 2: D, 3: { ...D, maxCount: 4, min3: 4, maxLetters: 12, tilePx: 20 } },
   i18n: { en: { title: "Syllable Scramble", instruction: "The syllables of each picture word are mixed up. Read them, put them in order, and write the word on the line." } },
 };

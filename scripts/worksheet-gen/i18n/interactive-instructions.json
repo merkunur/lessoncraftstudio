@@ -1001,5 +1001,85 @@
    "no": "Les hver setning. Trykk på bildet den handler om.",
    "fi": "Lue jokainen lause. Napauta kuvaa, josta lause kertoo."
   }
+ },
+ "syllable-split": {
+  "count": {
+   "en": "Say each picture word and clap its syllables. Tap the number of syllables.",
+   "de": "Sprich jedes Bildwort und klatsche die Silben. Tippe an, wie viele Silben es hat.",
+   "es": "Di cada palabra y da una palmada por cada sílaba. Toca el número de sílabas.",
+   "fr": "Dis chaque mot et frappe ses syllabes dans tes mains. Touche le nombre de syllabes.",
+   "it": "Di' ogni parola e batti le mani per ogni sillaba. Tocca il numero delle sillabe.",
+   "pt": "Fale cada palavra e bata palmas para cada sílaba. Toque o número de sílabas.",
+   "nl": "Zeg elk woord en klap de lettergrepen. Tik aan hoeveel lettergrepen het woord heeft.",
+   "sv": "Säg varje ord och klappa stavelserna. Tryck på hur många stavelser ordet har.",
+   "da": "Sig hvert ord, og klap stavelserne. Tryk på, hvor mange stavelser ordet har.",
+   "no": "Si hvert ord og klapp stavelsene. Trykk på hvor mange stavelser ordet har.",
+   "fi": "Sano jokainen sana ja taputa sen tavut. Napauta, montako tavua sanassa on."
+  },
+  "dashes": {
+   "en": "Clap the picture word. Tap the way of writing it with a dash between its syllables.",
+   "de": "Klatsche das Bildwort. Tippe an, wo es richtig mit Strichen zwischen den Silben geschrieben ist.",
+   "es": "Da una palmada por cada sílaba de la palabra. Toca la forma en que está bien escrita, con un guion entre las sílabas.",
+   "fr": "Frappe les syllabes du mot. Touche le mot bien écrit avec un tiret entre ses syllabes.",
+   "it": "Batti le mani per ogni sillaba della parola. Tocca la parola scritta bene, con un trattino tra le sillabe.",
+   "pt": "Bata palmas para cada sílaba da palavra. Toque a palavra escrita do jeito certo, com um hífen entre as sílabas.",
+   "nl": "Klap het woord. Tik aan waar het goed geschreven is met een streepje tussen de lettergrepen.",
+   "sv": "Klappa ordet. Tryck där det är rätt skrivet med ett streck mellan stavelserna.",
+   "da": "Klap ordet. Tryk der, hvor det er skrevet rigtigt med en streg mellem stavelserne.",
+   "no": "Klapp ordet. Trykk der det er skrevet riktig med en strek mellom stavelsene.",
+   "fi": "Taputa sana. Napauta kohtaa, jossa sana on kirjoitettu oikein viiva tavujen välissä."
+  },
+  "missing": {
+   "en": "Say the picture word. One syllable is missing. Tap the missing syllable.",
+   "de": "Sprich das Bildwort. Eine Silbe fehlt. Tippe die fehlende Silbe an.",
+   "es": "Di la palabra del dibujo. Falta una sílaba. Toca la sílaba que falta.",
+   "fr": "Dis le mot de l'image. Il manque une syllabe. Touche la syllabe qui manque.",
+   "it": "Di' la parola dell'immagine. Manca una sillaba. Tocca la sillaba che manca.",
+   "pt": "Fale a palavra da figura. Falta uma sílaba. Toque a sílaba que falta.",
+   "nl": "Zeg het woord bij het plaatje. Er ontbreekt een lettergreep. Tik de ontbrekende lettergreep aan.",
+   "sv": "Säg ordet till bilden. En stavelse saknas. Tryck på stavelsen som saknas.",
+   "da": "Sig ordet til billedet. Der mangler en stavelse. Tryk på den stavelse, der mangler.",
+   "no": "Si ordet til bildet. Det mangler en stavelse. Trykk på stavelsen som mangler.",
+   "fi": "Sano kuvan sana. Yksi tavu puuttuu. Napauta puuttuvaa tavua."
+  },
+  "spell": {
+   "en": "The syllables are mixed up. Tap them in the right order to build the picture word.",
+   "de": "Die Silben sind durcheinander. Tippe sie in der richtigen Reihenfolge an, damit das Bildwort entsteht.",
+   "es": "Las sílabas están desordenadas. Tócalas en el orden correcto para formar la palabra del dibujo.",
+   "fr": "Les syllabes sont mélangées. Touche-les dans le bon ordre pour écrire le mot de l'image.",
+   "it": "Le sillabe sono mescolate. Toccale nell'ordine giusto per formare la parola dell'immagine.",
+   "pt": "As sílabas estão misturadas. Toque nelas na ordem certa para formar a palavra da figura.",
+   "nl": "De lettergrepen staan door elkaar. Tik ze in de goede volgorde aan om het woord te maken.",
+   "sv": "Stavelserna är blandade. Tryck på dem i rätt ordning så att ordet till bilden blir klart.",
+   "da": "Stavelserne er blandet sammen. Tryk på dem i den rigtige rækkefølge, så du får ordet til billedet.",
+   "no": "Stavelsene er blandet. Trykk på dem i riktig rekkefølge, så du får ordet til bildet.",
+   "fi": "Tavut ovat sekaisin. Napauta niitä oikeassa järjestyksessä, niin saat kuvan sanan."
+  },
+  "sort": {
+   "en": "Clap each word. Tap how many syllables it has.",
+   "de": "Klatsche jedes Wort. Tippe an, wie viele Silben es hat.",
+   "es": "Da una palmada por cada sílaba de cada palabra. Toca cuántas sílabas tiene.",
+   "fr": "Frappe les syllabes de chaque mot. Touche le nombre de syllabes.",
+   "it": "Batti le mani per ogni sillaba di ogni parola. Tocca quante sillabe ha.",
+   "pt": "Bata palmas com cada palavra. Toque quantas sílabas ela tem.",
+   "nl": "Klap elk woord. Tik aan hoeveel lettergrepen het heeft.",
+   "sv": "Klappa varje ord. Tryck på hur många stavelser det har.",
+   "da": "Klap hvert ord. Tryk på, hvor mange stavelser det har.",
+   "no": "Klapp hvert ord. Trykk på hvor mange stavelser det har.",
+   "fi": "Taputa jokainen sana. Napauta, montako tavua siinä on."
+  },
+  "kings": {
+   "en": "Every syllable has a vowel. Look at the colored syllable and tap its vowel.",
+   "de": "Jede Silbe hat einen Silbenkönig: einen Selbstlaut oder Zwielaut. Schau dir die farbige Silbe an und tippe ihn an.",
+   "es": "Cada sílaba tiene una vocal. Mira la sílaba de color y toca su vocal.",
+   "fr": "Chaque syllabe a une voyelle. Regarde la syllabe en couleur et touche sa voyelle.",
+   "it": "Ogni sillaba ha una vocale. Guarda la sillaba colorata e tocca la sua vocale.",
+   "pt": "Cada sílaba tem uma vogal. Observe a sílaba colorida e toque a vogal dela.",
+   "nl": "Elke lettergreep heeft een klinkerklank. Kijk naar de gekleurde lettergreep en tik de klinker aan.",
+   "sv": "Varje stavelse har en vokal. Titta på den färgade stavelsen och tryck på dess vokal.",
+   "da": "Hver stavelse har én vokal. Se på den farvede stavelse, og tryk på dens vokal.",
+   "no": "Hver stavelse har én vokal. Se på den fargede stavelsen og trykk på vokalen.",
+   "fi": "Jokaisessa tavussa on ainakin yksi vokaali. Katso värillistä tavua ja napauta sen vokaalia."
+  }
  }
 }

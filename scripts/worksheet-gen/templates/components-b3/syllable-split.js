@@ -82,6 +82,8 @@ function syllableWord({ word, cell, fontPx, blank = null }) {
       fill: T.white, strokeColor: T.coral, strokeWidth: 2.5, dash: '6 5',
       data: { 'data-lcs-blank': from, 'data-lcs-blank-cells': BLANK_CELLS },
     }));
+    // the answer key: the missing syllable written in coral, centred in the box on the letters' own anchor
+    if (blank.text) parts.push(label({ x: +((x + BLANK_CELLS / 2) * cell).toFixed(2), y: letterY(cell, size), text: blank.text, size: Math.min(size, Math.floor((BLANK_CELLS * cell - 12) / Math.max(1, [...blank.text].length) / 0.62)), color: T.coral, fontFamily: F.display, weight: 700, anchor: 'middle', data: { 'data-lcs-keytext': 1 } }));
     x += BLANK_CELLS;
     for (let i = from + len; i < n; i++, x++) parts.push(letterAt(letters[i], x, cell, size));
   } else {

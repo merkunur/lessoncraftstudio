@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-328',
   slug: 'syllable-split-two-or-three-syllables',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-01: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-split-screen.js').interactiveFor('sort'),
+  difficulty: { 1: { ...D, bank: 6, cards: 6, perCol: 3, wordPx: 20, minPool: 6 }, 2: D, 3: { ...D, bank: 10, cards: 10, perCol: 5, maxLetters: 12, minPool: 10 } },
   i18n: { en: { title: "Two or Three Syllables? Split and Sort", instruction: "Clap each word in the bank. Write it with a dash between its syllables in the 2 column or the 3 column." } },
 };

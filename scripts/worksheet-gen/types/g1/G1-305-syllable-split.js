@@ -61,6 +61,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { syllableWord, syllableArcsForWord, hyphenLane, syllableModel, syllableSortBank, syllableSortColumn, kingsExampleBanner } = require('../../templates/components-b3.js');
+const { vowelDot } = require('../../templates/components-b3/syllable-split.js');
 const { wordTiles } = require('../../templates/components-b2.js');
 const { writingRow } = require('../../primitives/trace-path.js');
 const { entriesFor, displayWord, distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
@@ -68,6 +69,60 @@ const { approvedByKey, texAgreed, daStrict, bank } = require('../../lib/b3-commo
 const { compare } = require('../../data/b2/collation.js');
 const { esc } = require('../../primitives/_svg.js');
 const VOWELS = require('../../data/literacy/letter-knowledge.json').vowels;
+const { refusedPicture } = require('../../lib/picture-refusals.js');
+const { seatOnRow } = require('../../lib/key-on-row.js');
+// Level Set 2026-10-01: a NEW page is anything but the published level 2, copy 1. New pages draw from the TeX-agreed
+// pool only (their answer key and screen PRINT or GRADE the boundary) and skip refused pictures.
+/**
+ * Native + pedagogical review 2026-10-01 (NEW pages only — the published pages keep their pools): words a first-grade
+ * teacher would not clap as the pipeline splits them (en seag-ull; -ing words split bak-ing where children clap
+ * ba-king), loanwords whose spelling is not how they are said (es hotcake, nl detective, no bacon …), obscure names.
+ * Matched on the display word, case- and accent-insensitive.
+ */
+const LEVEL_SET_EXCLUDE = {
+  en: ['seagull', 'baking', 'biking', 'hiking', 'skating', 'writing'],
+  de: ['fotografie'],
+  es: ['hotcake', 'brownie', 'waffle', 'muffin', 'bagel', 'scooter', 'frisbee', 'deinonico', 'forsitia', 'aster'],
+  fr: ['ancolie', 'aster'],
+  it: ['tamia', 'capasanta', 'forsizia'],
+  pt: ['skate', 'trailer', 'croissant', 'waffle', 'pretzel', 'pretzels', 'sincelo', 'visco'],
+  nl: ['detective', 'timer', 'bagel', 'camper', 'drieblad', 'vlambloem', 'aster'],
+  sv: ['persimon', 'sjoko', 'treblad'],
+  no: ['bacon', 'timer', 'bagel', 'blender', 'gullbusk', 'treblad'],
+};
+const fold = (w) => String(w).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+/**
+ * Vowel King on NEW pages (review 2026-10-01): a syllable whose vowel is two letters has no single vowel to tap where
+ * one of them is silent or a glide (es que / gui, it gia / scia, pt gue). Only de / nl / fi keep their two-letter
+ * vowels (ie, ei, au, aa, uo …: one vowel sound); every other locale keeps one-letter vowels only.
+ */
+const KINGS_TEAMS_OK = ['de', 'nl', 'fi'];
+/**
+ * The PUBLISHED pages the same review found wrong (2026-10-01): es Vowel King "bloques" (a silent u: no single vowel to
+ * dot), pt Sort "pretzels" and pt Vowel King "skate" (loanwords Brazilian children do not clap as spelled). On a
+ * published page ONLY these words are swapped — each for the first word of the page's own pool (alphabetical, no draw
+ * consumed) that is not on the page and fits the same slot — so the rest of the page stays as it was.
+ */
+const PUBLISHED_FIX = { es: ['bloques'], pt: ['pretzels', 'skate'] };
+function swapRefused(picks, pool, loc, same = () => true) {
+  const bad = (e) => (PUBLISHED_FIX[loc] || []).includes(fold(e.word));
+  if (!picks.some(bad)) return picks;
+  const spare = pool.filter((e) => !picks.includes(e) && !bad(e)).sort((a, b) => a.word.localeCompare(b.word, loc));
+  return picks.map((e) => {
+    if (!bad(e)) return e;
+    const k = spare.findIndex((x) => same(x, e));
+    if (k < 0) throw new Error(`${ID}: no swap for refused "${e.word}" (${loc}) — REFUSED`);
+    return spare.splice(k, 1)[0];
+  });
+}
+const isFresh = (difficulty, ctx) => !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+let _screen = null;
+const SCR = () => (_screen = _screen || require('../../lib/syllable-split-screen.js'));
+/** the key's coral answer seated on every writing row of an html string, in order (texts[i] on row i; a missing text leaves the row) */
+function seatRows(html, texts) {
+  let i = 0;
+  return String(html).replace(/<svg\b[^>]*data-lcs-prim="writing-row"[\s\S]*?<\/svg>/g, (svg) => { const t = texts[i++]; return t ? seatOnRow(svg, t) : svg; });
+}
 
 const KEY = 'syllable-split';
 const ID = 'G1-305';
@@ -113,6 +168,8 @@ function eligible(loc, theme, opts) {
   if (b.strictPool === 'policy_managed_absent' || l === 'da') pool = pool.filter((e) => daStrict(e.approved));
   if (b.refuse && b.refuse.finalMuteE) pool = pool.filter((e) => !MUTE_E.test(e.split[e.split.length - 1]));
   if (o.pool === 'tex') pool = pool.filter((e) => texAgreed(e.approved));
+  if (o.fresh) pool = pool.filter((e) => !refusedPicture(theme, e.noun) && !(LEVEL_SET_EXCLUDE[l] || []).includes(fold(e.word)));
+  if (o.fresh && o.kings && !KINGS_TEAMS_OK.includes(l)) pool = pool.filter((e) => e.split.every((syl) => kingRuns(syl, o.kings.vowels, o.kings.extra).every((r) => r.len === 1)));
   if (o.dots) pool = pool.filter((e) => !dotOnBoundary(e));
   if (o.blankLen) pool = pool.filter((e) => e.split.some((syl) => [...syl].length >= o.blankLen[0] && [...syl].length <= o.blankLen[1]));
   if (o.kings) pool = pool.filter((e) => e.split.every((syl) => kingRuns(syl, o.kings.vowels, o.kings.extra).length === 1));
@@ -148,8 +205,9 @@ function faceOf(d) {
 }
 
 /** The face pool options for a resolved config + bank block + locale (shared by build and the gate). */
-function faceOpts(face, d, b, loc) {
+function faceOpts(face, d, b, loc, fresh = false) {
   const o = { minCount: d.minCount, maxCount: d.maxCount, maxLetters: d.maxLetters, pool: d.pool || 'full', dots: !!d.dots, bank: b };
+  if (fresh) { o.pool = 'tex'; o.fresh = true; }
   if (face === 'cloze') o.blankLen = d.blankLen || [2, 4];
   if (face === 'kings') o.kings = { vowels: VOWELS[loc] || '', extra: b.vowelExtra || [] };
   return o;
@@ -167,6 +225,9 @@ function dotOnBoundary(e) {
   return false;
 }
 
+/** the word's syllables in DISPLAY case (syllable 1 takes the display word's case: de keeps its capital) */
+function displayTokens(e) { return e.split.map((syl, i) => (i === 0 ? [...e.word].slice(0, [...syl].length).join('') : syl)); }
+
 function cellFor(n, cellMax) { return Math.min(cellMax, Math.floor(CELL_ROW_MAX / n)); }
 
 module.exports = {
@@ -176,6 +237,8 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: KEY,
   themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  // Level Set 2026-10-01: the screen version of new pages (the faces declare their own)
+  get interactive() { return SCR().interactiveFor('count'); },
   difficulty: {
     1: { cards: 4, cols: 2, rows: 2, pic: 120, cellMax: 36, arcH: 36, dots: true, minCount: 2, maxCount: 2, minLongCards: 0, maxLetters: 8, minPool: 6 },
     2: { cards: 6, cols: 2, rows: 3, pic: 88, cellMax: 32, arcH: 32, dots: false, minCount: 2, maxCount: 3, minLongCards: 2, maxLetters: 11, minPool: 8 },
@@ -195,7 +258,14 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(bank(KEY, loc), { theme, difficulty, locale }, ctx);   // a missing locale block throws (refusal)
+    const b = bank(KEY, loc);   // a missing locale block throws (refusal)
+    const fresh = isFresh(difficulty, ctx);
+    if (fresh && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._buildWith(b, { theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false, fresh: true, keyFill: !!ctx.answerKey });
+      return ctx.answerKey ? built : SCR().screen(built, faceOf(this.difficulty[difficulty]), loc, theme, b);
+    }
+    return this._buildWith(b, { theme, difficulty, locale }, { ...ctx, fresh });
   },
 
   /** The gate's seam: build against an explicit locale block (a synthetic block never touches data/). */
@@ -205,7 +275,8 @@ module.exports = {
     const face = faceOf(d);
     if (face !== 'base') return this._buildFace(face, b, d, { theme, locale: loc }, ctx);
     const rng = ctx.rng;
-    const pool = eligible(loc, theme, { minCount: d.minCount, maxCount: d.maxCount, maxLetters: d.maxLetters, pool: 'full', dots: d.dots, bank: b });
+    const fresh = !!(ctx && ctx.fresh), keyFill = !!(ctx && ctx.keyFill);
+    const pool = eligible(loc, theme, { minCount: d.minCount, maxCount: d.maxCount, maxLetters: d.maxLetters, pool: fresh ? 'tex' : 'full', dots: d.dots, bank: b, fresh });
     // long words first (count ≥ 3), up to the target the pool can honour, then the rest
     const longs = pool.filter((e) => e.count >= 3);
     const wantLong = Math.min(d.minLongCards || 0, longs.length);
@@ -224,7 +295,8 @@ module.exports = {
       const cell = cellFor(n, d.cellMax);
       const fontPx = cell - 2;
       const wordSvg = syllableWord({ word: e.word, cell, fontPx });
-      const arcs = syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'blank', dots: d.dots ? e.count : 0 });
+      // the answer key prints one arc under every syllable (the published pages never build a key)
+      const arcs = keyFill ? syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'printed' }) : syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'blank', dots: d.dots ? e.count : 0 });
       return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ` +
         `data-lcs-word="${esc(e.word)}" data-lcs-vocab="${esc(e.vocabKey)}" data-lcs-split="${esc(e.split.join('|'))}" ` +
         `data-lcs-count="${e.count}" data-lcs-cell="${cell}" data-lcs-face="base" data-lcs-mark="${esc(b.mark)}">` +
@@ -237,7 +309,7 @@ module.exports = {
         `data-lcs-cards="${d.cards}" data-lcs-mincount="${d.minCount}" data-lcs-maxcount="${d.maxCount}" data-lcs-maxletters="${d.maxLetters}" ` +
         `data-lcs-long="${wantLong}" data-lcs-longwant="${d.minLongCards || 0}" data-lcs-dotsmode="${d.dots ? 1 : 0}" data-lcs-cellmax="${d.cellMax}" data-lcs-arch="${d.arcH}">` +
         cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`,
-      meta: { words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), longCards: wantLong, longWanted: d.minLongCards || 0, pool: pool.length, longPool: longs.length },
+      meta: { words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), longCards: wantLong, longWanted: d.minLongCards || 0, pool: pool.length, longPool: longs.length, ...(fresh ? { keys: picks.map((e) => e.vocabKey), nouns: picks.map((e) => e.noun) } : {}) },
     };
   },
 
@@ -249,8 +321,10 @@ module.exports = {
   _buildFace(face, b, d, { theme, locale }, ctx) {
     const rng = ctx.rng;
     const loc = locale;
-    const opts = faceOpts(face, d, b, loc);
+    const fresh = !!(ctx && ctx.fresh), keyFill = !!(ctx && ctx.keyFill);
+    const opts = faceOpts(face, d, b, loc, fresh);
     let pool = eligible(loc, theme, opts);
+    const fm = (picks) => (fresh ? { keys: picks.map((e) => e.vocabKey), nouns: picks.map((e) => e.noun) } : {});
     const floor = Math.max(d.cards || d.bank || 0, d.minPool || 0);
     const refuse = (why) => { throw new Error(`${ID}/${face}: theme ${theme}/${loc} ${why} — REFUSED`); };
     const img = (e, px) => `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${esc(e.vocabKey)}" style="width:${px}px;height:${px}px;flex:none">`;
@@ -273,10 +347,11 @@ module.exports = {
       if (pool.length < floor) refuse(`has ${pool.length} eligible words < ${floor}`);
       const { picks, long, longPool } = pickWithLong(d.minLongCards);
       const cards = picks.map((e) => rowStage(e, ` data-lcs-hyphen="${esc(b.hyphen || '-')}"`,
-        img(e, d.pic) + syllableModel({ word: e.word, fontPx: d.modelPx || 26, w: REWRITE_MODEL_W }) + hyphenLane({ w: REWRITE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH })));
+        img(e, d.pic) + syllableModel({ word: e.word, fontPx: d.modelPx || 26, w: REWRITE_MODEL_W }) +
+        (keyFill ? seatRows(hyphenLane({ w: REWRITE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }), [displayTokens(e).join(b.hyphen || '-')]) : hyphenLane({ w: REWRITE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }))));
       return {
         bodyHtml: rootOpen(` data-lcs-long="${long}" data-lcs-longwant="${d.minLongCards || 0}" data-lcs-modelw="${REWRITE_MODEL_W}" data-lcs-lanew="${REWRITE_LANE_W}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
-        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join(b.hyphen || '-')), longCards: long, pool: pool.length, longPool },
+        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join(b.hyphen || '-')), longCards: long, pool: pool.length, longPool, ...fm(picks) },
       };
     }
 
@@ -295,7 +370,7 @@ module.exports = {
       const eligibleIdx = (e) => e.split.map((syl, i) => ([...syl].length >= lo && [...syl].length <= hi ? i : -1)).filter((i) => i >= 0);
       const freshIdx = (e) => eligibleIdx(e).filter((i) => !usedSyl.has(e.split[i].toLocaleLowerCase(loc)));
       const remaining = pool.filter((e) => !picks.includes(e)).sort((a, b) => a.word.localeCompare(b.word, loc));
-      const chosen = [];
+      const chosen = [], blanks = [];
       const cards = picks.map((e0) => {
         let e = e0;
         if (!freshIdx(e).length) {
@@ -312,7 +387,8 @@ module.exports = {
         const from = e.split.slice(0, bi).reduce((a, syl) => a + [...syl].length, 0);
         const len = [...e.split[bi]].length;
         const cell = cellFor(n - len + 4, d.cellMax);
-        const wordSvg = syllableWord({ word: e.word, cell, fontPx: cell - 2, blank: { from, len } });
+        const wordSvg = syllableWord({ word: e.word, cell, fontPx: cell - 2, blank: { from, len, ...(keyFill ? { text: displayTokens(e)[bi] } : {}) } });
+        blanks.push(bi);
         return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ${stamps(e)} ` +
           `data-lcs-blank="${bi}" data-lcs-blankfrom="${from}" data-lcs-blanklen="${len}" data-lcs-cell="${cell}">` +
           img(e, d.pic).replace('flex:none', `flex:0 1 auto;min-height:${Math.max(44, Math.round(d.pic * 0.75))}px`) +
@@ -320,7 +396,7 @@ module.exports = {
       });
       return {
         bodyHtml: rootOpen(` data-lcs-cellmax="${d.cellMax}" data-lcs-blanklo="${lo}" data-lcs-blankhi="${hi}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
-        meta: { face, words: chosen.map((e) => e.word), splits: chosen.map((e) => e.split.join('-')), pool: pool.length },
+        meta: { face, words: chosen.map((e) => e.word), splits: chosen.map((e) => e.split.join('-')), pool: pool.length, ...fm(chosen), ...(fresh ? { blanks } : {}) },
       };
     }
 
@@ -329,6 +405,7 @@ module.exports = {
       if (pool.length < floor) refuse(`has ${pool.length} eligible words (texPool) < ${floor}`);
       if (longs.length < (d.min3 || 0)) refuse(`has ${longs.length} three-syllable words < min3 ${d.min3}`);
       const { picks, long, longPool } = pickWithLong(d.min3);
+      const orders = [];
       const cards = picks.map((e) => {
         // tiles = the syllables; tile 1 takes the display case (de keeps its capital), the rest are the stored split
         const toks = e.split.map((syl, i) => (i === 0 ? [...e.word].slice(0, [...syl].length).join('') : syl));
@@ -337,14 +414,15 @@ module.exports = {
         let order, guard = 0;
         do { order = rng.shuffle(toks.map((_, k) => k)); guard++; } while (order[0] === 0 && guard < 60);
         if (order[0] === 0) order = order.slice(1).concat(order[0]);
+        orders.push(order.join(''));
         return rowStage(e, ` data-lcs-order="${order.join(',')}"`,
           img(e, d.pic) +
           `<div style="width:${SCRAMBLE_TILES_W}px;flex:none;min-width:0" data-lcs-tiles="${toks.length}">${wordTiles({ tokens: toks, order, fontPx: d.tilePx || 22, tileH: d.tileH })}</div>` +
-          `<div style="width:${SCRAMBLE_LANE_W}px;flex:none;line-height:0" data-lcs-writerow>${writingRow({ w: SCRAMBLE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }).svg}</div>`);
+          `<div style="width:${SCRAMBLE_LANE_W}px;flex:none;line-height:0" data-lcs-writerow>${keyFill ? seatOnRow(writingRow({ w: SCRAMBLE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }).svg, e.word) : writingRow({ w: SCRAMBLE_LANE_W, h: d.laneH || 64, glyphH: d.glyphH }).svg}</div>`);
       });
       return {
         bodyHtml: rootOpen(` data-lcs-long="${long}" data-lcs-min3="${d.min3 || 0}" data-lcs-tilesw="${SCRAMBLE_TILES_W}" data-lcs-lanew="${SCRAMBLE_LANE_W}"`) + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
-        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), longCards: long, pool: pool.length, longPool },
+        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), longCards: long, pool: pool.length, longPool, ...fm(picks), ...(fresh ? { orders } : {}) },
       };
     }
 
@@ -358,7 +436,7 @@ module.exports = {
       // bank position; a pool that cannot avoid it (exactly 4:4, grouped) REFUSES
       let sorted = null;
       for (let t = 0; t < 30 && !sorted; t++) {
-        const picks = sampleEntries(rng, c2, per, ID).concat(sampleEntries(rng, c3, per, ID));
+        const picks = swapRefused(sampleEntries(rng, c2, per, ID).concat(sampleEntries(rng, c3, per, ID)), fresh ? [] : pool, loc, (x, e) => x.count === e.count);
         const cand = picks.slice().sort((x, y) => compare(x.word, y.word, loc));
         const cs = cand.map((e) => e.count);
         const mono = cs.every((v, i) => i === 0 || v >= cs[i - 1]) || cs.every((v, i) => i === 0 || v <= cs[i - 1]);
@@ -367,7 +445,9 @@ module.exports = {
       if (!sorted) refuse('collates every sample grouped by syllable count (the column would be readable from the bank order)');
       const bankHtml = syllableSortBank({ words: sorted.map((e, i) => ({ word: e.word, vocabKey: e.vocabKey, src: fileUri(theme, e.noun), count: e.count, rank: i })), wordPx: d.wordPx || 18 });
       const labels = b.sortLabels || {};
-      const cols = (d.cols || [2, 3]).map((n) => syllableSortColumn({ n, text: String(labels[n] != null ? labels[n] : n), rows: per, w: SORT_COL_W - 40, h: d.laneH || 64, glyphH: d.glyphH }));
+      const cols = (d.cols || [2, 3]).map((n) => { const col = syllableSortColumn({ n, text: String(labels[n] != null ? labels[n] : n), rows: per, w: SORT_COL_W - 40, h: d.laneH || 64, glyphH: d.glyphH });
+        // the answer key: each word of this count written with its dashes, in bank order
+        return keyFill ? seatRows(col, sorted.filter((e) => e.count === n).map((e) => displayTokens(e).join(b.hyphen || '-'))) : col; });
       return {
         bodyHtml: rootOpen(` data-lcs-bank="${sorted.length}" data-lcs-percol="${per}" data-lcs-cols="${(d.cols || [2, 3]).join('|')}" data-lcs-labels="${esc((d.cols || [2, 3]).map((n) => String(labels[n] != null ? labels[n] : n)).join('|'))}"`) +
           // the columns stretch to the body's remaining height and the rulings spread evenly inside them
@@ -375,7 +455,7 @@ module.exports = {
           // of the page empty at the shipping chrome) — the ruling geometry (h 64, glyphH 28) never changes
           bankHtml + `<div style="display:flex;gap:${SORT_GAP}px;align-items:stretch;justify-content:center;flex:1 1 auto;min-height:0" data-lcs-sortcols>` +
           cols.map((c) => c.replace('class="ws-lane" style="', `class="ws-lane" style="width:${SORT_COL_W}px;flex:none;`)).join('') + '</div></div>',
-        meta: { face, words: sorted.map((e) => e.word), counts: sorted.map((e) => e.count), pool: pool.length, c2: c2.length, c3: c3.length },
+        meta: { face, words: sorted.map((e) => e.word), counts: sorted.map((e) => e.count), pool: pool.length, c2: c2.length, c3: c3.length, ...fm(sorted) },
       };
     }
 
@@ -390,12 +470,17 @@ module.exports = {
       const exEntry = { word: b.casing === 'keep' ? ex.word : ex.word.toLocaleLowerCase(loc), split: ex.split.map((x) => x.toLocaleLowerCase(loc)), count: ex.count };
       if (!exEntry.split.every((syl) => kingRuns(syl, opts.kings.vowels, opts.kings.extra).length === 1)) refuse(`example ${ex.word} is not king-eligible`);
       const banner = kingsExampleBanner({ word: exEntry.word, split: exEntry.split, kings: kingsOf(exEntry), cell: KINGS_EXAMPLE_CELL, arcH: KINGS_EXAMPLE_ARC });
-      const picks = rng.shuffle(sampleEntries(rng, pool.filter((e) => e.vocabKey !== ex.key), d.cards, ID));
+      // new pages keep the worked example's word OFF the cards (the approved entry has no .key, so the published filter
+      // never removed it — sv spring: the example on a card; the published pages keep their bytes)
+      const notExample = (e) => (fresh ? e.vocabKey !== b.example.vocabKey && e.word.toLocaleLowerCase(loc) !== exEntry.word.toLocaleLowerCase(loc) : e.vocabKey !== ex.key);
+      const picks = swapRefused(rng.shuffle(sampleEntries(rng, pool.filter(notExample), d.cards, ID)), fresh ? [] : pool.filter(notExample), loc);
       const cards = picks.map((e) => {
         const n = [...e.word].length;
         const cell = cellFor(n, d.cellMax);
         const wordSvg = syllableWord({ word: e.word, cell, fontPx: cell - 2 });
-        const arcs = syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'printed' });
+        let arcs = syllableArcsForWord({ split: e.split, cell, h: d.arcH, mode: 'printed' });
+        // the answer key: a dot on every vowel king, inside its bowl (the worked example's own placement)
+        if (keyFill) arcs = arcs.replace('</svg>', kingsOf(e).map((k) => vowelDot({ x: +((k.at + k.len / 2) * cell).toFixed(2), y: +(d.arcH * 0.42).toFixed(1) })).join('') + '</svg>');
         return `<div class="ws-card-stage" style="padding:6px 0;flex-direction:column;justify-content:center;gap:0" data-ws-content ${stamps(e)} ` +
           `data-lcs-cell="${cell}" data-lcs-kings="${kingsOf(e).map((k) => k.at + ':' + k.len).join('|')}" data-lcs-mark="${esc(b.mark)}">` +
           img(e, d.pic).replace('flex:none', `flex:0 1 auto;min-height:${Math.max(44, Math.round(d.pic * 0.75))}px`) +
@@ -405,7 +490,7 @@ module.exports = {
       return {
         bodyHtml: rootOpen(` data-lcs-cellmax="${d.cellMax}" data-lcs-arch="${d.arcH}" data-lcs-vowels="${esc(opts.kings.vowels)}" data-lcs-vowelextra="${esc(opts.kings.extra.join('|'))}" data-lcs-example="${esc(exEntry.word)}"`) +
           banner + cardGrid({ cards, cols: d.cols, rows: d.rows }) + '</div>',
-        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), example: exEntry.word, pool: pool.length },
+        meta: { face, words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), example: exEntry.word, pool: pool.length, ...fm(picks) },
       };
     }
     throw new Error(`${ID}: unknown face ${face}`);

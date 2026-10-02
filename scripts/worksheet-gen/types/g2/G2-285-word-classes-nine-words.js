@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-285',
   slug: 'word-classes-nine-words',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); the title's count and picture promise hold
+  difficulty: { 1: { ...D, examples: true }, 2: D, 3: { ...D, tiers: [2, 3] } },
   i18n: { en: { title: "Word Classes: Sort Nine Words", instruction: "Each noun chip has a picture to help. Sort every word into a bin." } },
 };

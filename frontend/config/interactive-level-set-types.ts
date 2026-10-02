@@ -29,6 +29,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'syllable-split',
   'synonyms',
   'verb-forms',
+  'word-classes',
   'word-parts',
 ]);
 

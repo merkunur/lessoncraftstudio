@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-300',
   slug: 'word-classes-nouns-and-adjectives',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); the title's count and picture promise hold
+  difficulty: { 1: { ...D, per: 3, pics: true, lines: 4 }, 2: D, 3: { ...D, per: 6, tiers: [1, 2], lines: 7 } },
   i18n: { en: { title: "Nouns and Adjectives: Two Bins", instruction: "Ten words and two bins. Is each word a noun or an adjective?" } },
 };

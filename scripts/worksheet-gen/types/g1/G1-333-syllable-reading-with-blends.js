@@ -32,7 +32,9 @@ module.exports = {
     exemplar: (loc) => base._complexUnits.exemplar(loc),
     tokens: (unit, loc) => base._complexUnits.tokens(unit, loc),
   },
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: the base's own d1 / d3 shapes over the complex rows (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('blends'),
+  difficulty: { 1: { ...base.difficulty[1], structure: 'complex' }, 2: D, 3: { ...base.difficulty[3], carpetRows: 2, structure: 'complex' } },
   i18n: {
     en: {
       title: 'Word Families with Blends',

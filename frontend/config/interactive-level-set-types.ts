@@ -26,6 +26,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'sound-boxes',
   'spelling-rules',
   'story-sequencing',
+  'syllable-reading',
   'syllable-split',
   'synonyms',
   'verb-forms',

@@ -176,6 +176,7 @@ function dataChecks(loc, cfg) {
         if (!e.word.endsWith(row.rime) || e.word === row.rime) continue;
         if (!CONSONANT_ONSET.test(e.word.slice(0, -row.rime.length))) continue;
         if (!hasPicture(e.key, loc) || banned.has(e.key)) continue;
+        if ((cfg.nonRhyming || []).includes(e.key)) continue;   // spelt with the rime, does not rhyme (en swan, wand)
         derived.add(e.word);
       }
       const bankWords = new Set((row.words || []).map((w) => w.word));
@@ -661,10 +662,10 @@ async function main() {
       const leaky = rewriting(spec, (h) => { const w = firstCard(h); return h.replace('</div></section>', `<span>${w}</span></div></section>`); });
       return renderFired(c, { type: leaky }, /visible text|answer .* printed/);
     });
-    await poison('30 px swan forced into a 64 cell', () => {}, async (c) => {
+    await poison('44 px words forced into a 64 cell (swan left the -an row 2026-10-02)', () => {}, async (c) => {
       await renderOne(page, { d: 2, unit: c.exemplar, variant: 1, tag: 'poison-' });
       await page.evaluate(() => {
-        document.querySelectorAll('svg[data-lcs-row]').forEach((svg) => { svg.dataset.lcsCellW = '64'; svg.dataset.lcsFont = '30'; svg.querySelectorAll('g[data-lcs-cell] rect').forEach((r) => r.setAttribute('width', '64')); svg.querySelectorAll('g[data-lcs-cell] text').forEach((t) => t.setAttribute('font-size', '30')); });
+        document.querySelectorAll('svg[data-lcs-row]').forEach((svg) => { svg.dataset.lcsCellW = '64'; svg.dataset.lcsFont = '44'; svg.querySelectorAll('g[data-lcs-cell] rect').forEach((r) => r.setAttribute('width', '64')); svg.querySelectorAll('g[data-lcs-cell] text').forEach((t) => t.setAttribute('font-size', '44')); });
       });
       const m = await measure(page);
       return { fired: m.fails.some((x) => /advance/.test(x)), note: m.fails.find((x) => /advance/.test(x)) || '' };
@@ -679,7 +680,7 @@ async function main() {
       const v = await spec.verify(page);
       return { fired: m.fails.some((x) => /BW-directory/.test(x)) && v.some((x) => /BW-directory/.test(x)), note: m.fails.find((x) => /BW/.test(x)) || '' };
     });
-    await poison('7-word unit must throw, never fill (swan removed)', (c) => { const r = rowOf(c, 'an'); r.words = r.words.filter((w) => w.key !== 'swan'); r.cells = r.cells.filter((x) => x !== 'sw|an'); }, (c) => buildThrows(spec, c, 2, c.exemplar));
+    await poison('6-word unit must throw, never fill (van removed; the floor is 7)', (c) => { const r = rowOf(c, 'an'); r.words = r.words.filter((w) => w.key !== 'van'); r.cells = r.cells.filter((x) => x !== 'v|an'); }, (c) => buildThrows(spec, c, 2, c.exemplar));
     await poison('pictureTheme pin names a dir without the word (pan → space)', (c) => { rowOf(c, 'an').words.find((w) => w.key === 'pan').pictureTheme = 'space'; }, dataFired);
     await poison('read-only cells over a third (four readOnly stamps forced on the render)', () => {}, async (c) => {
       const ro = rewriting(spec, (h) => { let n = 0; return h.replace(/<g data-lcs-cell="([^"]+)"/g, (m0) => (n++ < 4 ? m0 + ' data-lcs-readonly="1"' : m0)); });

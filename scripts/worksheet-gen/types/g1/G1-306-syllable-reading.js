@@ -49,6 +49,8 @@ const tokens = require('../../primitives/_tokens.js');
 const { esc } = require('../../primitives/_svg.js');
 
 const BANK = 'syllable-reading';
+let _srs = null;
+const SRS = () => (_srs = _srs || require('../../lib/syllable-reading-screen.js'));
 
 /** The ordered row list a bank block exposes for a structure (S/B `units`, R `rimes`; complex = `complexUnits`). */
 function rowsOf(cfg, structure) {
@@ -247,6 +249,39 @@ function caseAlign(split, word) {
   return out;
 }
 
+/* Level Set 2026-10-02 — words NEW pages never use (the native + pedagogy review). `all`: pictures that
+   are not the word or too indistinct in every language (the en `ban` list's reasons); per locale: words a
+   5-7-year-old does not know or would name differently, wrong syllable splits, a proper name, look-alike
+   twins (hamster / gerbil). Published pages keep their content; their real defects are fixed in the bank. */
+const LS_EXCLUDE = {
+  all: ['asteroid', 'barrette', 'butter', 'cymbals', 'harvest', 'liberty', 'muscles', 'neptune', 'orchard', 'outlet',
+    'persimmon', 'saturn', 'scallop', 'subway', 'plum', 'elbow', 'shoulder', 'jasmine', 'orchid', 'snowdrop', 'sparrow',
+    'swallow', 'magpie', 'falcon', 'cardinal', 'driftwood', 'architect', 'florist', 'janitor', 'parsnip', 'badger', 'lilac'],
+  en: ['gerbil', 'cranberry', 'cooler', 'seagull', 'santa'],
+  de: ['rudolph', 'evergreen', 'armadillo', 'cornflower', 'kingfisher', 'carpenter', 'waitress', 'water', 'rabbit', 'lotus', 'lime', 'aster'],
+  es: ['macaron', 'bagel', 'muffin', 'waffle', 'snorkel', 'pancake', 'cardigan', 'millipede', 'peeler', 'skating', 'knitting', 'lizard', 'mitten', 'bun'],
+  fr: ['penguin', 'chicken', 'teacher', 'pharmacist', 'birdhouse', 'squid'],
+  it: ['mosasaurus', 'snowdrop', 'stretcher', 'chipmunk', 'tart'],
+  pt: ['bud', 'pigeon', 'acorn', 'raccoon', 'weasel'],
+  nl: ['bacon'],
+  sv: ['skiing', 'finch', 'hawk', 'coach', 'sauce'],
+  da: ['wolf', 'snail', 'nail', 'oven'],
+  no: ['heptagon', 'manatee', 'ferret', 'x-ray', 'mistletoe', 'taxi', 'snowboarding'],
+  fi: ['slippers', 'bolt'],
+};
+/* pictures that are a defect on EVERY page, published ones included (the review, 2026-10-02): de Flieder —
+   a lilac reads as "Blume", so a blends card asking its first two letters has a second answer (bl). Its carpet
+   cell stays a cell to read; only the picture card is never drawn. The published page is republished. */
+const PAGE_EXCLUDE = { de: ['lilac'] };
+const lsBank = (cfg, loc, fresh, carpet) => ({ ...cfg, ban: [...(cfg.ban || []), ...(carpet ? PAGE_EXCLUDE[loc] || [] : []), ...(fresh ? [...LS_EXCLUDE.all, ...(LS_EXCLUDE[loc] || [])] : [])] });
+/** the syllables as the word prints them: a capitalised word (de nouns) starts with a capitalised syllable */
+function wordTokens(w, loc) {
+  const t = w.split.slice();
+  const first = [...String(w.word)][0];
+  if (first && first !== first.toLocaleLowerCase(loc) && t[0]) t[0] = t[0][0].toLocaleUpperCase(loc) + t[0].slice(1);
+  return t;
+}
+
 /* ------------------------------------------------------------------ the multi pool (join / syllabified) */
 function multiPool(d, cfg, loc, who) {
   if (!Array.isArray(cfg.multi) || !cfg.multi.length) throw new Error(`G1-306 ${who}: the ${loc} bank has no multi pool (not authored) — refuse`);
@@ -271,28 +306,30 @@ function multiPool(d, cfg, loc, who) {
 }
 
 /** G1-331 Join: cards = picture + ordered split tiles + one ruling row. */
-function buildJoin({ d, cfg, loc, rng, difficulty }) {
+function buildJoin({ d, cfg, loc, rng, difficulty, fresh }) {
   const pool = multiPool(d, cfg, loc, 'join');
   if (pool.length < d.poolMin) throw new Error(`G1-306 join: pool ${pool.length} < floor ${d.poolMin} (${loc} d${difficulty}) — REFUSED, never filled`);
   const picks = rng.sample(pool, d.cards);
+  const pics = [];
   const cards = picks.map((w) => {
     const pic = pickPicture(rng, w, loc);
+    pics.push([pic.theme, pic.noun]);
     return `<div class="ws-card-stage" style="flex-direction:column;gap:8px" ` +
       `data-lcs-word="${esc(w.word)}" data-lcs-vocab="${esc(w.key)}" data-lcs-split="${esc(w.split.join('|'))}" ` +
       `data-lcs-count="${w.count}" data-lcs-face="join">` +
       `<img class="ws-icon" src="${pic.src}" alt="" data-lcs-pic="${esc(w.key)}" style="width:${d.pic}px;height:${d.pic}px">` +
-      C3.syllableJoin({ tokens: w.split, fontPx: d.tileFont, tileH: d.tileH }) +
+      C3.syllableJoin({ tokens: wordTokens(w, loc), fontPx: d.tileFont, tileH: d.tileH }) +
       rulingBlock({ rows: 1, w: d.laneW, h: d.laneH, glyphH: d.glyphH }) + `</div>`;
   });
   const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
   const root = `<div data-ws-content data-lcs-sr data-lcs-shape="${cfg.shape}" data-lcs-structure="${d.structure}" ` +
     `data-lcs-cards="${d.cards}" data-lcs-carpet-rows="0" data-lcs-min-count="${d.minCount}" data-lcs-max-count="${d.maxCount}" ` +
     `data-lcs-face="join" style="flex:1;display:flex;flex-direction:column;gap:16px;min-height:0">${grid}</div>`;
-  return { bodyHtml: root, meta: { face: 'join', shape: cfg.shape, words: picks.map((w) => w.word), splits: picks.map((w) => w.split.join('-')), pool: pool.length } };
+  return { bodyHtml: root, meta: { face: 'join', shape: cfg.shape, words: picks.map((w) => w.word), splits: picks.map((w) => w.split.join('-')), pool: pool.length, ...(fresh ? { keys: picks.map((w) => w.key), pics } : {}) } };
 }
 
 /** G1-334 Syllabified: a numbered picture bank over rows of pre-split words + an empty number box. */
-function buildSyllabified({ d, cfg, loc, rng, difficulty }) {
+function buildSyllabified({ d, cfg, loc, rng, difficulty, fresh }) {
   const pool = multiPool(d, cfg, loc, 'syllabified');
   const need = d.lines + d.distractors;
   if (pool.length < Math.max(d.poolMin, need)) throw new Error(`G1-306 syllabified: pool ${pool.length} < ${Math.max(d.poolMin, need)} (${loc} d${difficulty}) — REFUSED, never filled`);
@@ -314,7 +351,8 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty }) {
     if (!ascending) bankItems = cand;
   }
   if (!bankItems) throw new Error('G1-306 syllabified: could not order the bank against the rows — refuse');
-  const bank = C3.numberedBank({ items: bankItems.map((w) => ({ src: pickPicture(rng, w, loc).src, vocabKey: w.key })), iconPx: d.bankPic, gap: d.bankGap || 8 });
+  const bankPics = [];
+  const bank = C3.numberedBank({ items: bankItems.map((w) => { const p = pickPicture(rng, w, loc); bankPics.push([p.theme, p.noun]); return { src: p.src, vocabKey: w.key }; }), iconPx: d.bankPic, gap: d.bankGap || 8 });
   const lines = rows.map((w, i) => C3.syllabifiedRow({
     tokens: caseAlign(w.split, w.word), sepMode: cfg.sepMode || 'hyphen', fontPx: d.wordFont, h: d.rowH, hMin: d.rowMin || 70, boxPx: d.boxPx,
     data: {
@@ -327,7 +365,7 @@ function buildSyllabified({ d, cfg, loc, rng, difficulty }) {
     `data-lcs-min-count="${d.minCount}" data-lcs-max-count="${d.maxCount}" data-lcs-max-letters="${d.maxLetters}" data-lcs-carpet-rows="0" ` +
     `data-lcs-face="syllabified" style="flex:1;display:flex;flex-direction:column;gap:16px;min-height:0">` +
     bank + `<div style="flex:1 1 auto;display:flex;flex-direction:column;gap:8px;min-height:0">${lines.join('')}</div></div>`;
-  return { bodyHtml: root, meta: { face: 'syllabified', shape: cfg.shape, words: rows.map((w) => w.word), splits: rows.map((w) => w.split.join('-')), answers: rows.map((w) => bankItems.indexOf(w) + 1), bank: bankItems.map((w) => w.word), pool: pool.length } };
+  return { bodyHtml: root, meta: { face: 'syllabified', shape: cfg.shape, words: rows.map((w) => w.word), splits: rows.map((w) => w.split.join('-')), answers: rows.map((w) => bankItems.indexOf(w) + 1), bank: bankItems.map((w) => w.word), pool: pool.length, ...(fresh ? { keys: rows.map((w) => w.key), bankKeys: bankItems.map((w) => w.key), bankPics } : {}) } };
 }
 
 module.exports = {
@@ -365,8 +403,9 @@ module.exports = {
   },
   difficulty: {
     // carpetRows / cell / cellFont · cards / cols / rows / pic · lane w / h / glyphH · perRowMin · S count bounds · poolMin
-    1: { carpetRows: 1, cell: 72, cellFont: 32, cards: 4, cols: 2, rows: 2, pic: 160, laneW: 200, laneH: 72, glyphH: 36, perRowMin: 2, structure: 'simple', minCount: 2, maxCount: 2, poolMin: 5 },
-    2: { carpetRows: 2, cell: 64, cellFont: 30, cards: 6, cols: 3, rows: 2, pic: 128, laneW: 151, laneH: 60, glyphH: 30, perRowMin: 2, structure: 'simple', minCount: 2, maxCount: 3, poolMin: 8 },
+    // Level Set 2026-10-02: level 1 reads TWO carpet rows (one row rarely holds five pictured words: it / fi refused every unit)
+    1: { carpetRows: 2, cell: 64, cellFont: 30, cards: 4, cols: 2, rows: 2, pic: 128, laneW: 200, laneH: 72, glyphH: 36, perRowMin: 2, structure: 'simple', minCount: 2, maxCount: 3, poolMin: 5 },
+    2: { carpetRows: 2, cell: 64, cellFont: 30, cards: 6, cols: 3, rows: 2, pic: 128, laneW: 151, laneH: 60, glyphH: 30, perRowMin: 2, structure: 'simple', minCount: 2, maxCount: 3, poolMin: 7 },   // 7 since 2026-10-02: en -an lost swan (does not rhyme),
     3: { carpetRows: 3, cell: 56, cellFont: 28, cards: 8, cols: 4, rows: 2, pic: 88, laneW: 126, laneH: 56, glyphH: 26, perRowMin: 2, structure: 'simple', minCount: 2, maxCount: 4, poolMin: 8 },
   },
   i18n: {
@@ -376,16 +415,32 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-10-02: the screen version of new pages (each face declares its own)
+  get interactive() { return SRS().interactiveFor('base'); },
+  /** Level Set copies: what makes two pages of one level different (build-waves measures the overlap of these). */
+  levelSetWords(m) { return [...(m.words || []), ...(m.bank || [])]; },
+
   build({ difficulty, locale, unit }, ctx) {
+    // the published page (level 2, copy 1) is untouched; every Level Set page also stamps what its screen + key need
+    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+    if (fresh && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._build({ difficulty, locale, unit }, { ...ctx, interactive: false, answerKey: false }, true);
+      return SRS().screenOrKey(built, ctx, (locale || 'en').slice(0, 2));
+    }
+    return this._build({ difficulty, locale, unit }, ctx, fresh);
+  },
+
+  _build({ difficulty, locale, unit }, ctx, fresh) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
-    const cfg = bank(BANK, loc);
+    const face = faceOf(d);
+    const cfg = lsBank(bank(BANK, loc), loc, fresh, face !== 'join' && face !== 'syllabified');
     const shape = cfg.shape;
     if (!['syllable', 'rime', 'soundout'].includes(shape)) throw new Error('G1-306: bank ' + loc + ' has unknown shape "' + shape + '"');
-    const face = faceOf(d);
-    if (face === 'join') return buildJoin({ d, cfg, loc, rng, difficulty });
-    if (face === 'syllabified') return buildSyllabified({ d, cfg, loc, rng, difficulty });
+    if (face === 'join') return buildJoin({ d, cfg, loc, rng, difficulty, fresh });
+    if (face === 'syllabified') return buildSyllabified({ d, cfg, loc, rng, difficulty, fresh });
 
     const unitId = unit || (d.structure === 'complex' ? cfg.complexExemplar : cfg.exemplar);
     const P = prepareCarpet({ d, cfg, loc, unitId, difficulty, rng });
@@ -393,13 +448,15 @@ module.exports = {
 
     // the cards
     let cards;
+    const pics = [];
+    const pp = (w) => { const p = pickPicture(rng, w, loc); pics.push([p.theme, p.noun]); return p; };
     if (face === 'circle') {
       // the correct pill's position is balanced over the page (never a constant column)
       const seq = [];
       for (let i = 0; i < d.cards; i++) seq.push(i % d.choices);
       const positions = rng.shuffle(seq);
       cards = picks.map((w, i) => {
-        const pic = pickPicture(rng, w, loc);
+        const pic = pp(w);
         const rowCells = cellsByRow[carpetRows.findIndex((r) => r.id === w.rowId)];
         return circleCard(d, shape, w, pic, loc, rng, rowCells, positions[i]);
       });
@@ -407,9 +464,9 @@ module.exports = {
       if ((d.reps || 1) !== 1) throw new Error('G1-306 carpet: reps ' + d.reps + ' is not built (a carpet prints every cell once) — refuse');
       const colours = rng.sample(Object.keys(tokens.codeColors), d.cards);
       if (colours.length < d.cards) throw new Error('G1-306 carpet: fewer codeColors than cards — refuse');
-      cards = picks.map((w, i) => carpetCard(d, shape, w, pickPicture(rng, w, loc), loc, colours[i]));
+      cards = picks.map((w, i) => carpetCard(d, shape, w, pp(w), loc, colours[i]));
     } else {
-      cards = picks.map((w) => baseCard(d, shape, w, pickPicture(rng, w, loc), loc));
+      cards = picks.map((w) => baseCard(d, shape, w, pp(w), loc));
     }
     const grid = cardGrid({ cards, cols: d.cols, rows: d.rows });
 
@@ -423,6 +480,7 @@ module.exports = {
       meta: {
         face, unit: unitId, shape, rows: carpetRows.map((r) => r.id), words: picks.map((w) => w.word), units: picks.map((w) => w.unit),
         pool: pool.length, cellW: carpet.cellW, fontPx: carpet.fontPx, carpetWidth: carpet.width,
+        ...(fresh ? { keys: picks.map((w) => w.key), rowIds: picks.map((w) => w.rowId), rimes: picks.map((w) => w.rime), pics, structure: d.structure } : {}),
       },
     };
   },

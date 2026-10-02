@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-330',
   slug: 'syllable-reading-read-and-circle',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('circle'),
+  difficulty: { 1: { ...D, carpetRows: 2, cards: 4, cols: 2, rows: 2, maxCount: 3, poolMin: 5, choices: 2, pic: 96 }, 2: D, 3: { ...D, carpetRows: 2, cards: 8, cols: 4, rows: 2, maxCount: 4, choices: 4, pic: 64 } },
   i18n: { en: { title: "Word Families: Read and Circle", instruction: "Read the words on the carpet out loud. Say each picture word, then circle the one word under the picture that names it." } },
 };

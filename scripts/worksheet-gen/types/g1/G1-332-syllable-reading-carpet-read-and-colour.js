@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-332',
   slug: 'syllable-reading-carpet-read-and-colour',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/syllable-reading-screen.js').interactiveFor('carpet'),
+  difficulty: { 1: { ...D, carpetRows: 3, cards: 4, cols: 2, rows: 2 }, 2: D, 3: { ...D, cards: 8, cols: 4, rows: 2, pic: 72 } },
   i18n: { en: { title: "Word Family Carpet: Read and Color", instruction: "Read every word on the carpet out loud. Then find each picture's word on the carpet and color that word in the picture's color." } },
 };

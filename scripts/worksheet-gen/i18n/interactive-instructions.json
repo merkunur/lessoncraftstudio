@@ -1256,5 +1256,85 @@
    "no": "Les ordet. Trykk på boksen der det hører hjemme.",
    "fi": "Lue sana. Napauta laatikkoa, johon se kuuluu."
   }
+ },
+ "syllable-reading": {
+  "base": {
+   "en": "Look at the picture. Tap the letters that go before the ending.",
+   "de": "Schau das Bild an. Tippe die Silbe an, mit der das Wort beginnt.",
+   "es": "Mira el dibujo. Toca la sílaba con la que empieza la palabra.",
+   "fr": "Regarde l'image. Touche la syllabe par laquelle le mot commence.",
+   "it": "Guarda il disegno. Tocca la sillaba con cui comincia la parola.",
+   "pt": "Olhe a figura. Toque na sílaba com que a palavra começa.",
+   "fi": "Katso kuvaa. Napauta tavua, jolla sana alkaa.",
+   "nl": "Kijk naar het plaatje. Tik het woord aan dat erbij hoort.",
+   "sv": "Titta på bilden. Tryck på ordet som passar.",
+   "da": "Se på billedet. Tryk på det ord, der passer.",
+   "no": "Se på bildet. Trykk på ordet som passer."
+  },
+  "blends": {
+   "en": "Look at the picture. Tap the letters the word starts with.",
+   "de": "Schau das Bild an. Tippe die Silbe an, mit der das Wort beginnt.",
+   "es": "Mira el dibujo. Toca la sílaba con la que empieza la palabra.",
+   "fr": "Regarde l'image. Touche la syllabe par laquelle le mot commence.",
+   "it": "Guarda il disegno. Tocca la sillaba con cui comincia la parola.",
+   "pt": "Olhe a figura. Toque na sílaba com que a palavra começa.",
+   "fi": "Katso kuvaa. Napauta tavua, jolla sana alkaa.",
+   "nl": "Kijk naar het plaatje. Tik het woord aan dat erbij hoort.",
+   "sv": "Titta på bilden. Tryck på ordet som passar.",
+   "da": "Se på billedet. Tryk på det ord, der passer.",
+   "no": "Se på bildet. Trykk på ordet som passer."
+  },
+  "circle": {
+   "en": "Look at the picture. Tap the word that names it.",
+   "de": "Schau das Bild an. Tippe die Silbe an, mit der das Wort beginnt.",
+   "es": "Mira el dibujo. Toca la sílaba con la que empieza la palabra.",
+   "fr": "Regarde l'image. Touche la syllabe par laquelle le mot commence.",
+   "it": "Guarda il disegno. Tocca la sillaba con cui comincia la parola.",
+   "pt": "Olhe a figura. Toque na sílaba com que a palavra começa.",
+   "fi": "Katso kuvaa. Napauta tavua, jolla sana alkaa.",
+   "nl": "Kijk naar het plaatje. Tik het woord aan dat erbij hoort.",
+   "sv": "Titta på bilden. Tryck på ordet som passar.",
+   "da": "Se på billedet. Tryk på det ord, der passer.",
+   "no": "Se på bildet. Trykk på ordet som passer."
+  },
+  "carpet": {
+   "en": "Look at the picture. Tap the word that names it.",
+   "de": "Schau das Bild an. Tippe die Silbe an, mit der das Wort beginnt.",
+   "es": "Mira el dibujo. Toca la sílaba con la que empieza la palabra.",
+   "fr": "Regarde l'image. Touche la syllabe par laquelle le mot commence.",
+   "it": "Guarda il disegno. Tocca la sillaba con cui comincia la parola.",
+   "pt": "Olhe a figura. Toque na sílaba com que a palavra começa.",
+   "fi": "Katso kuvaa. Napauta tavua, jolla sana alkaa.",
+   "nl": "Kijk naar het plaatje. Tik het woord aan dat erbij hoort.",
+   "sv": "Titta på bilden. Tryck på ordet som passar.",
+   "da": "Se på billedet. Tryk på det ord, der passer.",
+   "no": "Se på bildet. Trykk på ordet som passer."
+  },
+  "join": {
+   "en": "Read the syllables. Tap the word they make.",
+   "de": "Lies die Silben. Tippe das Wort an, das sie zusammen ergeben.",
+   "es": "Lee las sílabas. Toca la palabra que forman.",
+   "fr": "Lis les syllabes. Touche le mot qu'elles forment.",
+   "it": "Leggi le sillabe. Tocca la parola che formano.",
+   "pt": "Leia as sílabas. Toque na palavra que elas formam.",
+   "nl": "Lees de lettergrepen. Tik het woord aan dat ze samen vormen.",
+   "sv": "Läs stavelserna. Tryck på ordet de bildar.",
+   "da": "Læs stavelserne. Tryk på det ord, de danner.",
+   "no": "Les stavelsene. Trykk på ordet de lager.",
+   "fi": "Lue tavut. Napauta sanaa, jonka ne muodostavat."
+  },
+  "split": {
+   "en": "Read the word syllable by syllable. Tap its picture.",
+   "de": "Lies das Wort Silbe für Silbe. Tippe sein Bild an.",
+   "es": "Lee la palabra sílaba por sílaba. Toca su dibujo.",
+   "fr": "Lis le mot syllabe par syllabe. Touche son image.",
+   "it": "Leggi la parola sillaba per sillaba. Tocca il suo disegno.",
+   "pt": "Leia a palavra sílaba por sílaba. Toque na figura dela.",
+   "nl": "Lees het woord lettergreep voor lettergreep. Tik het plaatje aan dat erbij hoort.",
+   "sv": "Läs ordet stavelse för stavelse. Tryck på bilden som passar.",
+   "da": "Læs ordet stavelse for stavelse. Tryk på det billede, der passer.",
+   "no": "Les ordet stavelse for stavelse. Trykk på bildet som passer.",
+   "fi": "Lue sana tavu kerrallaan. Napauta sen kuvaa."
+  }
  }
 }

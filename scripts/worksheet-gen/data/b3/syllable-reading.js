@@ -75,13 +75,13 @@ const SYLLABLE_READING = {
     // (-an is the only rime with 5 pictured words, hence first); d3 = three rows.
     rimes: [
       { id: 'an', label: '-an', rime: 'an',
-        cells: ['c|an', 'f|an', 'p|an', 'v|an', 'sw|an'], readOnly: [],
+        // swan /swɒn/ does not rhyme with -an (native review 2026-10-02): its cell is the read-only "ran"
+        cells: ['c|an', 'f|an', 'p|an', 'v|an', 'r|an'], readOnly: ['ran'],
         words: [
           { key: 'can', word: 'can', unit: 'c' },
           { key: 'fan', word: 'fan', unit: 'f' },
           { key: 'pan', word: 'pan', unit: 'p', pictureTheme: 'around the house' },   // kitchen tools/pan is a lidded POT
           { key: 'van', word: 'van', unit: 'v' },
-          { key: 'swan', word: 'swan', unit: 'sw' },
         ] },
       { id: 'at', label: '-at', rime: 'at',
         cells: ['b|at', 'c|at', 'h|at', 'm|at', 's|at'], readOnly: ['mat', 'sat'],
@@ -114,11 +114,11 @@ const SYLLABLE_READING = {
           { key: 'log', word: 'log', unit: 'l' },
         ] },
       { id: 'and', label: '-and', rime: 'and',
-        cells: ['h|and', 's|and', 'w|and', 'b|and', 'l|and'], readOnly: ['band', 'land'],
+        // wand /wɒnd/ does not rhyme with -and (native review 2026-10-02)
+        cells: ['h|and', 's|and', 'b|and', 'l|and'], readOnly: ['band', 'land'],
         words: [
           { key: 'hand', word: 'hand', unit: 'h' },
           { key: 'sand', word: 'sand', unit: 's' },
-          { key: 'wand', word: 'wand', unit: 'w' },
         ] },
       { id: 'ed', label: '-ed', rime: 'ed',
         cells: ['b|ed', 'sl|ed', 'w|ed', 'f|ed', 'sh|ed'], readOnly: ['wed', 'fed', 'shed'],
@@ -345,6 +345,8 @@ const SYLLABLE_READING = {
       'bookshelf', 'bunny', 'mittens', 'pretzels',                                               // twins of a listed word
       'sloth',                                                                                   // long o
     ],
+    // words spelt with a family's rime that do NOT rhyme with it (w + a = /ɒ/): never in a rime row
+    nonRhyming: ['swan', 'wand'],
     whitelist: {},
     refuse: { finalMuteE: false },
     sepMode: 'hyphen',

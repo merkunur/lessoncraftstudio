@@ -372,7 +372,7 @@ async function measure(page) {
       const r = img.getBoundingClientRect();
       if (r.width < FLOOR.element || r.height < FLOOR.element) f.push(`picture ${i + 1} ${Math.round(r.width)}x${Math.round(r.height)} < ${FLOOR.element}`);
       const src = decodeURIComponent(img.getAttribute('src') || '');
-      if (/\bbw[\/\\]/i.test(src)) f.push('BW-directory picture: ' + src.slice(-40));
+      if (/\bbw(\s+\d+)?[\/\\]/i.test(src)) f.push('BW-directory picture: ' + src.slice(-40));
     });
     // every card's content sits INSIDE its card (cards clip with overflow:hidden — the page lints cannot see it)
     root.querySelectorAll('.ws-card').forEach((card, i) => {

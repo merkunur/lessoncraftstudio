@@ -7,9 +7,17 @@
  *
  *   pictureIndex()            Map vocabKey → [{theme, noun, px}] built from
  *                             image-cache manifest().themes[t].nouns[n].vocabKey,
- *                             SKIPPING every BW directory (/\bbw$/i — the 9
- *                             cached BW dirs are all "<theme> bw"), in a
- *                             deterministic (theme, noun) order
+ *                             with NO black-and-white picture, in a
+ *                             deterministic (theme, noun) order. ⚠ 2026-10-02:
+ *                             the cache also holds NUMBERED BW dirs ("Easter
+ *                             bw 2", "animals bw 4") that the old /\bbw$/i let
+ *                             through, so colour and BW art were mixed on one
+ *                             page. A numbered-BW entry is now REPLACED by one
+ *                             of the key's colour pictures: the list keeps its
+ *                             length, so a page that drew a colour picture draws
+ *                             exactly the same one; a key whose only pictures
+ *                             are BW has no picture. (LCS_OLD_BW_INDEX=1 = the
+ *                             old index, only to measure which pages changed.)
  *   hasPicture(key, loc)      true when a colour picture exists and the key is
  *                             not excluded for the locale (lib/b2-common.js
  *                             B2_EXCLUDE — the operator-locked vocab guard)
@@ -35,15 +43,25 @@ function pictureIndex() {
   const idx = new Map();
   for (const theme of Object.keys(m.themes).sort()) {
     if (/\bbw$/i.test(theme)) continue;
+    const bw = /\bbw\s+\d+$/i.test(theme);
     const nouns = m.themes[theme].nouns || {};
     for (const noun of Object.keys(nouns).sort()) {
       const n = nouns[noun];
       if (!n || !n.vocabKey) continue;
       if (BLOCKED.has(theme + '/' + noun)) continue;
       if (!idx.has(n.vocabKey)) idx.set(n.vocabKey, []);
-      idx.get(n.vocabKey).push({ theme, noun, px: n.px || null });
+      idx.get(n.vocabKey).push({ theme, noun, px: n.px || null, bw });
     }
   }
+  // a numbered-BW entry takes the place of one of the key's colour pictures (see the header)
+  if (!process.env.LCS_OLD_BW_INDEX) {
+    for (const [key, list] of idx) {
+      const colour = list.filter((x) => !x.bw);
+      if (!colour.length) { idx.delete(key); continue; }
+      let j = 0;
+      idx.set(key, list.map((x) => { const c = x.bw ? colour[j++ % colour.length] : x; return { theme: c.theme, noun: c.noun, px: c.px }; }));
+    }
+  } else for (const list of idx.values()) for (const x of list) delete x.bw;
   _index = idx;
   return idx;
 }

@@ -496,7 +496,7 @@ module.exports = {
       const shape = root.dataset.lcsShape;
       if (!['simple', 'complex'].includes(root.dataset.lcsStructure)) fails.push('structure stamp missing');
       const isImgOk = (img) => img.complete && img.naturalWidth > 0;
-      const isBW = (img) => /\bbw[\/\\]/i.test(decodeURIComponent(img.getAttribute('src') || ''));
+      const isBW = (img) => /\bbw(\s+\d+)?[\/\\]/i.test(/* numbered BW dirs too ("Easter bw 2"), 2026-10-02 */ decodeURIComponent(img.getAttribute('src') || ''));
 
       /* ---------------- join: ordered tiles + one ruling row per card, no carpet, no lane */
       if (face === 'join') {

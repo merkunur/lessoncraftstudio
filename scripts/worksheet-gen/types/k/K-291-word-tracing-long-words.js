@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-291',
   slug: 'word-tracing-long-words',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, minLetters: 7, maxLetters: 9, glyphH: 48, laneH: 60, pic: 120 }, 2: D, 3: { ...D, rows: 4, minLetters: 8, maxLetters: 13, glyphH: 36, laneH: 48, pic: 88, cardW: 190, rowH: 178 } },
   i18n: { en: { title: "Trace the Longer Words", instruction: "These words are long. Trace each one, then write it yourself." } },
 };

@@ -193,7 +193,8 @@
   },
   "word-tracing": {
     "full": "Een woord bij een plaatje eerst natrekken en daarna zelf schrijven koppelt het ding, zijn naam en de spelling in één oogopslag aan elkaar.",
-    "short": "Oefent de eerste woorden schrijven bij plaatjes."
+    "short": "Oefent de eerste woorden schrijven bij plaatjes.",
+    "levelSetShort": "Eerste woorden schrijven bij plaatjes."
   },
   "dot-to-dot": {
     "full": "De genummerde stippen op volgorde verbinden laat een plaatje verschijnen en oefent bij elke streep de telrij en de potloodbeheersing.",

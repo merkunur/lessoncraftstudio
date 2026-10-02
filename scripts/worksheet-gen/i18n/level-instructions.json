@@ -2253,5 +2253,20 @@
    "no": "Femten ord uten bilder. Sorter hvert ord i riktig boks.",
    "fi": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin."
   }
+ },
+ "K-289": {
+  "3": {
+   "en": "Trace the dashed word, then write it on the empty line.",
+   "de": "Spure die kurzen Wörter nach und schreibe sie auf.",
+   "es": "Palabras cortas: repasa y escribe.",
+   "fr": "Mots courts : repasse et écris.",
+   "it": "Ripassa le lettere tratteggiate e riscrivi.",
+   "pt": "Cubra e escreva estas palavras curtas.",
+   "nl": "Zeg het woord hardop, trek het na en schrijf het zelf op.",
+   "sv": "Spåra det streckade ordet och skriv det själv.",
+   "da": "Skriv oven i det stiplede ord, og skriv det selv på linjen.",
+   "no": "Spor det stiplede ordet, og skriv det så på linjen under.",
+   "fi": "Lue valmis sana. Jäljennä katkoviivat ja kirjoita sana itse."
+  }
  }
 }

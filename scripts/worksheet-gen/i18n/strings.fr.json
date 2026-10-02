@@ -1517,11 +1517,11 @@
   },
   "K-290": {
     "title": "Repasser une fois, écrire deux fois",
-    "instruction": "Écris le mot deux fois."
+    "instruction": "Repasse le mot une fois, puis écris-le deux fois tout seul."
   },
   "K-291": {
     "title": "Repasser et écrire les mots longs",
-    "instruction": "Mots longs : repasse lentement."
+    "instruction": "Mots longs : repasse lentement, puis écris le mot tout seul."
   },
   "K-294": {
     "title": "Points à relier de 1 à 10",

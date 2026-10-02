@@ -1517,11 +1517,11 @@
   },
   "K-290": {
     "title": "Repasa una vez y escribe dos veces",
-    "instruction": "La palabra está debajo del dibujo."
+    "instruction": "Repasa la palabra una vez y después escríbela dos veces tú solo."
   },
   "K-291": {
     "title": "Repasa y escribe palabras largas",
-    "instruction": "Palabras largas: repasa despacio."
+    "instruction": "Palabras largas: repásalas despacio y después escríbelas tú."
   },
   "K-294": {
     "title": "Une los puntos del 1 al 10",
@@ -1833,7 +1833,7 @@
   },
   "K-310": {
     "title": "Repasa y escribe en mayúsculas",
-    "instruction": "Todas las palabras van en letra mayúscula."
+    "instruction": "Repasa cada palabra en mayúsculas y después escríbela tú."
   },
   "G1-289": {
     "title": "Pirámides numéricas de arriba abajo",
@@ -1889,7 +1889,7 @@
   },
   "K-315": {
     "title": "Copia las mayúsculas de la tarjeta",
-    "instruction": "Aquí se copian mayúsculas, no minúsculas."
+    "instruction": "Mira la palabra en mayúsculas y cópiala dos veces."
   },
   "K-316": {
     "title": "De muchos a uno, sin punteado",

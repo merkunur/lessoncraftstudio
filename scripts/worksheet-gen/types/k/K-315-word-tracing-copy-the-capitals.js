@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-315',
   slug: 'word-tracing-copy-the-capitals',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, maxLetters: 5, glyphH: 52, laneH: 64, pic: 136 }, 2: D, 3: { ...D, rows: 4, minLetters: 6, maxLetters: 10, glyphH: 38, laneH: 50, pic: 96, rowH: 178 } },
   i18n: { en: { title: "Copy the Capitals", instruction: "Look at the capitals, then write them yourself." } },
 };

@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-311',
   slug: 'word-tracing-copy-the-word',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, rows: 3, minLetters: 2, maxLetters: 5, glyphH: 52, laneH: 64, pic: 130, cardW: 176, rowH: 218 }, 2: D, 3: { ...D, minLetters: 8, maxLetters: 12, glyphH: 36, laneH: 48, pic: 88 } },
   i18n: { en: { title: "Copy the Word", instruction: "There are no dashed letters. Look at the word on the card and copy it twice." } },
 };

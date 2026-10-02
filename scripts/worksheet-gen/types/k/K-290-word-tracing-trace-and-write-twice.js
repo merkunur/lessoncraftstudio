@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'K-290',
   slug: 'word-tracing-trace-and-write-twice',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-02: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, rows: 3, minLetters: 3, maxLetters: 6, glyphH: 50, laneH: 62, pic: 120, cardW: 170, rowH: 210 }, 2: D, 3: { ...D, minLetters: 8, maxLetters: 12, glyphH: 36, laneH: 48, pic: 88 } },
   i18n: { en: { title: "Trace Once, Write It Twice", instruction: "Trace the word once, then write it twice on your own." } },
 };

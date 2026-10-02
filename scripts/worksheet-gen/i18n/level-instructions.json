@@ -2164,5 +2164,94 @@
    "no": "Les setningen. Under står to former av verbet. Sett ring rundt den som passer.",
    "fi": "Lue lause. Sen alla on kaksi saman verbin muotoa. Ympyröi se muoto, joka sopii lauseeseen."
   }
+ },
+ "G2-285": {
+  "1": {
+   "en": "Each noun chip has a picture to help. The first word in each bin is already done for you. Sort every other word into a bin.",
+   "de": "Sortiere die neun Wörter; die Bilder helfen dir. Das erste Wort in jedem Kasten steht schon da.",
+   "es": "Nueve palabras y tres cajas. La primera palabra de cada caja ya está escrita como ejemplo. Escribe las demás en la caja que les toca.",
+   "fr": "Neuf mots à trier ; certaines images t'aident. Le premier mot de chaque boîte est déjà écrit comme exemple. Écris chaque autre mot dans la bonne boîte.",
+   "it": "Alcune parole hanno un'immagine che ti aiuta. La prima parola di ogni scatola è già scritta come esempio. Scrivi le altre parole nella scatola giusta.",
+   "pt": "Separe as nove palavras, três em cada coluna. A primeira palavra de cada coluna já está escrita como exemplo.",
+   "nl": "Lees de negen woordkaartjes en schrijf elk woord in de goede bak. Het eerste woord in elke bak staat er al als voorbeeld.",
+   "sv": "Läs varje ordkort och skriv ordet i rätt låda. Det första ordet i varje låda är redan ifyllt som exempel.",
+   "da": "Læs hvert af de ni ordkort, og skriv det i den kasse, det hører til. Det første ord i hver kasse står der allerede som eksempel.",
+   "no": "Substantivene har bilde til hjelp. Det første ordet i hver boks er skrevet som eksempel. Sorter resten av ordene i riktig boks.",
+   "fi": "Substantiiveissa on kuva apuna. Jokaisen laatikon ensimmäinen sana on valmiina esimerkkinä. Lajittele loput sanat."
+  }
+ },
+ "G1-293": {
+  "1": {
+   "en": "Six words and two bins. Is each word a noun or a verb?",
+   "de": "Nomen oder Verben? Schreibe jedes Wort in den richtigen Kasten.",
+   "es": "Pon cada palabra en Sustantivos o en Verbos.",
+   "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Verbes.",
+   "it": "Leggi ogni parola: scrivila in Nomi o in Verbi.",
+   "pt": "Escreva cada palavra em Substantivos ou em Verbos.",
+   "nl": "Schrijf elk woord in de goede bak: zelfstandig naamwoord of werkwoord.",
+   "sv": "Skriv varje ord i rätt låda: substantiv eller verb.",
+   "da": "Seks ord og to kasser: sortér dem som navneord eller udsagnsord.",
+   "no": "To bokser denne gangen. Er ordet et substantiv eller et verb?",
+   "fi": "Onko sana substantiivi vai verbi? Kirjoita se oikeaan laatikkoon."
+  },
+  "3": {
+   "en": "Twelve words and two bins. Is each word a noun or a verb?",
+   "de": "Nomen oder Verben? Schreibe jedes Wort in den richtigen Kasten.",
+   "es": "Pon cada palabra en Sustantivos o en Verbos.",
+   "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Verbes.",
+   "it": "Leggi ogni parola: scrivila in Nomi o in Verbi.",
+   "pt": "Escreva cada palavra em Substantivos ou em Verbos.",
+   "nl": "Schrijf elk woord in de goede bak: zelfstandig naamwoord of werkwoord.",
+   "sv": "Skriv varje ord i rätt låda: substantiv eller verb.",
+   "da": "Tolv ord og to kasser: sortér dem som navneord eller udsagnsord.",
+   "no": "To bokser denne gangen. Er ordet et substantiv eller et verb?",
+   "fi": "Onko sana substantiivi vai verbi? Kirjoita se oikeaan laatikkoon."
+  }
+ },
+ "G1-300": {
+  "1": {
+   "en": "Six words and two bins. Is each word a noun or an adjective?",
+   "de": "Nomen oder Adjektive? Schreibe jedes Wort in den richtigen Kasten.",
+   "es": "Pon cada palabra en Sustantivos o en Adjetivos.",
+   "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Adjectifs.",
+   "it": "Leggi ogni parola: scrivila in Nomi o in Aggettivi.",
+   "pt": "Escreva cada palavra em Substantivos ou em Adjetivos.",
+   "nl": "Schrijf elk woord in de goede bak: zelfstandig of bijvoeglijk naamwoord.",
+   "sv": "Skriv varje ord i rätt låda: substantiv eller adjektiv.",
+   "da": "Navneord eller tillægsord? Sortér de seks ord i to kasser.",
+   "no": "Er ordet et substantiv eller et adjektiv?",
+   "fi": "Substantiivi vai adjektiivi? Kirjoita sana oikeaan laatikkoon."
+  },
+  "3": {
+   "en": "Twelve words and two bins. Is each word a noun or an adjective?",
+   "de": "Nomen oder Adjektive? Schreibe jedes Wort in den richtigen Kasten.",
+   "es": "Pon cada palabra en Sustantivos o en Adjetivos.",
+   "fr": "Écris chaque mot dans la boîte Noms ou dans la boîte Adjectifs.",
+   "it": "Leggi ogni parola: scrivila in Nomi o in Aggettivi.",
+   "pt": "Escreva cada palavra em Substantivos ou em Adjetivos.",
+   "nl": "Schrijf elk woord in de goede bak: zelfstandig of bijvoeglijk naamwoord.",
+   "sv": "Skriv varje ord i rätt låda: substantiv eller adjektiv.",
+   "da": "Navneord eller tillægsord? Sortér de tolv ord i to kasser.",
+   "no": "Er ordet et substantiv eller et adjektiv?",
+   "fi": "Substantiivi vai adjektiivi? Kirjoita sana oikeaan laatikkoon."
+  }
+ },
+ "G2-287": {
+  "1": {
+   "en": "Fifteen words and no pictures. Sort each one into its bin.",
+   "de": "Fünfzehn Wörter und keine Bilder mehr.",
+   "es": "Quince palabras, sin dibujos.",
+   "fr": "Quinze mots : la page la plus longue.",
+   "it": "Quindici parole e nessuna immagine.",
+   "pt": {
+    "title": "Classes de palavras: quinze palavras",
+    "instruction": "Quinze palavras, sem figura: leia com calma."
+   },
+   "nl": "Vijftien woorden en geen plaatjes. Lees elk woord extra goed.",
+   "sv": "Femton ord och inga bilder. Läs varje ord noga.",
+   "da": "Femten ord og ingen billeder. Sortér hvert ord i den rigtige kasse.",
+   "no": "Femten ord uten bilder. Sorter hvert ord i riktig boks.",
+   "fi": "Viisitoista sanaa, ei kuvia. Lajittele laatikoihin."
+  }
  }
 }

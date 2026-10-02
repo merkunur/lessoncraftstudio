@@ -1241,5 +1241,20 @@
    "no": "Les setningen. Trykk på verbet.",
    "fi": "Lue lause. Napauta verbiä."
   }
+ },
+ "word-classes": {
+  "sort": {
+   "en": "Read the word. Tap the bin it belongs in.",
+   "de": "Lies das Wort. Tippe den Kasten an, in den es gehört.",
+   "es": "Lee la palabra. Toca la caja donde va.",
+   "fr": "Lis le mot. Touche la boîte où il va.",
+   "it": "Leggi la parola. Tocca la scatola giusta.",
+   "pt": "Leia a palavra. Toque na coluna certa.",
+   "nl": "Lees het woord. Tik de bak aan waar het in hoort.",
+   "sv": "Läs ordet. Tryck på lådan där det hör hemma.",
+   "da": "Læs ordet. Tryk på den kasse, det hører til.",
+   "no": "Les ordet. Trykk på boksen der det hører hjemme.",
+   "fi": "Lue sana. Napauta laatikkoa, johon se kuuluu."
+  }
  }
 }

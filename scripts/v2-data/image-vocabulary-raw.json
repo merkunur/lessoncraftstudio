@@ -347,7 +347,7 @@
     "it": "Pesce angelo",
     "nl": "Maanvis",
     "sv": "Ängelfisk",
-    "da": "Havkarusse",
+    "da": "Kejserfisk",
     "no": "Keiserfisk",
     "fi": "Enkelikala",
     "_themes": [
@@ -1818,7 +1818,7 @@
     "sv": "Baseboll",
     "da": "Baseball",
     "no": "Baseball",
-    "fi": "Pesapallo",
+    "fi": "Baseball",
     "_themes": [
       "4th_of_july",
       "activities",
@@ -5517,7 +5517,7 @@
     "it": "Cereali",
     "nl": "Ontbijtgranen",
     "sv": "Flingor",
-    "da": "Morgenmad",
+    "da": "Cornflakes",
     "no": "Frokostblanding",
     "fi": "Murot",
     "_themes": [
@@ -15744,7 +15744,7 @@
     "de": "Lampe",
     "fr": "Lampe",
     "es": "Lámpara",
-    "pt": "Lâmpada",
+    "pt": "Luminária",
     "it": "Lampada",
     "nl": "Lamp",
     "sv": "Lampa",
@@ -17846,7 +17846,7 @@
     "de": "Kleinbus",
     "fr": "Minibus",
     "es": "Minibús",
-    "pt": "Microônibus",
+    "pt": "Micro-ônibus",
     "it": "Minibus",
     "nl": "Minibus",
     "sv": "Minibuss",
@@ -21995,7 +21995,7 @@
     "nl": "Stekelvarken",
     "sv": "Piggsvin",
     "da": "Hulepindsvin",
-    "no": "Piggsvin",
+    "no": "Hulepinnsvin",
     "fi": "Piikkisika",
     "_themes": [
       "animals_bw_2",
@@ -22249,7 +22249,7 @@
     "sv": "Kringlor",
     "da": "Kringler",
     "no": "Kringle",
-    "fi": "Rinkilät",
+    "fi": "Rinkelit",
     "_themes": [
       "at_the_supermarket"
     ],
@@ -29282,7 +29282,7 @@
     "sv": "Toalett",
     "da": "Toilet",
     "no": "Toalett",
-    "fi": "Wc",
+    "fi": "Vessa",
     "_themes": [
       "around_the_house",
       "household_bw"

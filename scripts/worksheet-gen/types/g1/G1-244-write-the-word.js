@@ -16,6 +16,8 @@ const { writingRow, strokeWordLane } = require('../../primitives/trace-path.js')
 const { wordBank, letterBoxes } = require('../../templates/components-b2.js');
 const { entriesFor, displayWord, distinctByWord, fileUri } = require('../../lib/b2-common.js');
 const { compare } = require('../../data/b2/collation.js');
+// Level Set 2026-10-03: new pages name only reviewed pictures and words (shared with Word Tracing)
+const { freshKeep, PAGE_SWAP } = require('../../lib/picture-word-review.js');
 
 module.exports = {
   id: 'G1-244',
@@ -23,7 +25,7 @@ module.exports = {
   gradeBand: 'G1',
   assetClass: 'icon-placement',
   exerciseType: 'write-the-word',
-  themeAxis: { applicable: true, minNouns: 8, excludeBw: true },
+  themeAxis: { applicable: true, minNouns: 8, excludeBw: true, levelSetBw: true },   // Level Set: a B&W theme is its own all-line-art page
   difficulty: {
     1: { cards: 6, cols: 2, rows: 3, bank: true, starter: true, boxes: false, pic: 104, glyphH: 36, rulingW: 190, maxLetters: 6 },
     2: { cards: 8, cols: 2, rows: 4, bank: false, starter: false, boxes: true, pic: 80, glyphH: 30, rulingW: 214, maxLetters: 12 },
@@ -37,10 +39,15 @@ module.exports = {
   },
 
   build({ theme, difficulty, locale }, ctx) {
-    const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
-    let pool = entriesFor(theme, loc).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
+    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+    let d = this.difficulty[difficulty];
+    // NEW pages (the review 2026-10-03): with no word bank, a grade-1 child writes words of at most 9 letters
+    if (fresh && !d.bank && d.maxLetters > 9) d = { ...d, maxLetters: 9 };
+    let pool = entriesFor(theme, loc).filter((e) => !fresh || freshKeep(theme, e, loc))
+      // one box per letter cannot hold a hyphen or an apostrophe (pt estrela-do-mar)
+      .filter((e) => !fresh || !d.boxes || !/[-'’]/.test(displayWord(e.singular, loc))).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
       .filter((e) => /^[\p{L}][\p{L}' ’-]*$/u.test(e.word))
       .filter((e) => [...e.word.replace(/[ '’-]/g, '')].length <= d.maxLetters && [...e.word].length >= (d.minLetters || 2));
     pool = distinctByWord(pool, (e) => e.word);
@@ -52,6 +59,14 @@ module.exports = {
     }
     if (pool.length < d.cards) throw new Error(`G1-244: theme ${theme}/${loc} has ${pool.length} eligible nouns < ${d.cards}`);
     const picks = rng.sample(pool, d.cards);
+    // a picture a child names otherwise (or a brand) on the PUBLISHED page: swapped after the draw for the next clean
+    // word, so a published page without one is byte-identical (lib/picture-word-review.js PAGE_SWAP)
+    if (!fresh) for (let i = 0; i < picks.length; i++) {
+      if (!PAGE_SWAP.has(picks[i].vocabKey)) continue;
+      const alt = pool.find((e) => !PAGE_SWAP.has(e.vocabKey) && !picks.includes(e));
+      if (!alt) throw new Error(`G1-244: no clean word to replace "${picks[i].word}" (${loc} ${theme})`);
+      picks[i] = alt;
+    }
     const sorted = picks.slice().sort((a, b) => compare(a.word, b.word, loc));
     // card order must not equal the bank order nor its reverse
     let order = picks.slice(), guard = 0;
@@ -84,7 +99,7 @@ module.exports = {
       const root = document.querySelector('[data-lcs-bankmode]');
       const bankMode = root.dataset.lcsBankmode === '1', boxesMode = root.dataset.lcsBoxes === '1';
       const cards = [...document.querySelectorAll('[data-lcs-word]')];
-      if (cards.length < 6) fails.push(`only ${cards.length} cards`);
+      if (cards.length < 4) fails.push(`only ${cards.length} cards`);   // Level Set level 1: 4 big cards
       const words = cards.map((c) => c.dataset.lcsWord);
       if (new Set(words).size !== words.length) fails.push('duplicate words');
       cards.forEach((c, i) => {

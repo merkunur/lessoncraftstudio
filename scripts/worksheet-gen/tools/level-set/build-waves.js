@@ -206,9 +206,16 @@ for (const loc of LOCALES) {
       // other faces — a materials set for every theme does not compete with the faces' five.
       if (copies === 'all') {
         let copy = Math.max(nextAll, Number(lv) === 2 ? 2 : 1);   // set numbers run on across levels (unique titles)
+        // cfg.allSkipBwTwins (operator 2026-10-03: "It is too many worksheets"): every COLOUR theme, and a black-and-white
+        // theme only when it is no twin of a colour theme or of a black-and-white theme already taken — "animals bw 2…5"
+        // repeat "animals" in line art; "objects bw" is a topic of its own
+        const keptBw = [];
         for (const t of all) {
           if (Number(lv) === 2 && t === published) continue;
-          if (builds(spec, t, Number(lv), copy, loc)) levels[id][lv].push({ copy: copy++, theme: t });
+          if (cfg.allSkipBwTwins && m.themes[t].bw) {
+            if (colour.some((c) => twin(c, t)) || keptBw.some((k) => twin(k, t))) continue;
+          }
+          if (builds(spec, t, Number(lv), copy, loc)) { levels[id][lv].push({ copy: copy++, theme: t }); if (m.themes[t].bw) keptBw.push(t); }
         }
         nextAll = copy;
         continue;

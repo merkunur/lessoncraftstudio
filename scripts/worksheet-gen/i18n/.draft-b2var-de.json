@@ -75,15 +75,15 @@
   },
   "G1-258": {
    "title": "Bilder beschriften mit Wortspeicher",
-   "instruction": "Der erste Buchstabe steht schon für dich da."
+   "instruction": "Sprich den Namen jedes Bildes. Suche das Wort im Wortspeicher und schreibe es nach dem ersten Buchstaben weiter."
   },
   "G1-259": {
    "title": "Bilder beschriften: Wort wählen",
-   "instruction": "Wähle für jedes Bild das passende Wort aus."
+   "instruction": "Wähle für jedes Bild das passende Wort aus dem Wortspeicher und schreibe es auf die Linie."
   },
   "G1-260": {
    "title": "Bilder beschriften ohne Wortspeicher",
-   "instruction": "Schreibe diesmal ohne Wortspeicher."
+   "instruction": "Sprich den Namen jedes Bildes. Schreibe das Wort selbst auf die Linie."
   },
   "G1-262": {
    "title": "Alphabetisch ordnen: nummerieren",
@@ -279,7 +279,7 @@
   },
   "G1-291": {
    "title": "Bilder beschriften: erster Buchstabe",
-   "instruction": "Ohne Wortspeicher: nur der Anfang steht da."
+   "instruction": "Sprich den Namen jedes Bildes. Schreibe das Wort nach dem ersten Buchstaben zu Ende."
   },
   "G1-286": {
    "title": "Bilder verdoppeln und halbieren",
@@ -363,7 +363,7 @@
   },
   "G1-301": {
    "title": "Bilder beschriften mit Kästchen",
-   "instruction": "Der Wortspeicher hilft dir beim Schreiben."
+   "instruction": "Suche das Wort im Wortspeicher. Schreibe in jedes Kästchen einen Buchstaben."
   },
   "G1-302": {
    "title": "Schüttelsätze: Wo beginnt der Satz?",
@@ -371,11 +371,11 @@
   },
   "G1-303": {
    "title": "Kästchen und Anfangsbuchstabe",
-   "instruction": "Für jeden Buchstaben gibt es ein Kästchen."
+   "instruction": "Schreibe das Wort in die Kästchen, einen Buchstaben in jedes Kästchen. Der erste Buchstabe steht schon da."
   },
   "G1-304": {
    "title": "Bilder beschriften mit allen Hilfen",
-   "instruction": "Wortspeicher, Kästchen und Anfang helfen."
+   "instruction": "Suche das Wort im Wortspeicher. Schreibe nach dem ersten Buchstaben einen Buchstaben in jedes Kästchen."
   },
   "G2-307": {
    "title": "Wo endet der erste Satz?",

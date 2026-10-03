@@ -1585,11 +1585,11 @@
   },
   "G1-258": {
     "title": "Dictée muette avec lettre de départ",
-    "instruction": "La première lettre est déjà écrite."
+    "instruction": "Dis le nom de chaque image. Trouve le mot dans la liste et termine-le après la première lettre."
   },
   "G1-259": {
     "title": "Dictée muette : choisis dans la liste",
-    "instruction": "Ici, aucune lettre n'est donnée."
+    "instruction": "Trouve dans la liste le mot de chaque image et écris-le sur la ligne."
   },
   "G1-260": {
     "title": "Dictée muette sans liste de mots",
@@ -1789,7 +1789,7 @@
   },
   "G1-291": {
     "title": "Dictée muette : la première lettre",
-    "instruction": "Ton seul indice est la première lettre."
+    "instruction": "Dis le nom de chaque image et termine le mot après la première lettre."
   },
   "G1-286": {
     "title": "Doubles et moitiés : images jusqu'à 20",
@@ -1873,7 +1873,7 @@
   },
   "G1-301": {
     "title": "Dictée muette : liste et cases",
-    "instruction": "Une case par lettre, et la liste aide."
+    "instruction": "Trouve le mot dans la liste et écris une lettre dans chaque case."
   },
   "G2-311": {
     "title": "Phrases collées : point ou question",
@@ -1905,11 +1905,11 @@
   },
   "G1-303": {
     "title": "Dictée muette : une case par lettre",
-    "instruction": "La première lettre est sur la ligne."
+    "instruction": "Écris une lettre dans chaque case. La première lettre est déjà écrite."
   },
   "G1-304": {
     "title": "Dictée muette : tous les indices",
-    "instruction": "La liste, les cases et la première lettre."
+    "instruction": "Trouve le mot dans la liste. Après la première lettre, écris une lettre dans chaque case."
   },
   "K-317": {
     "title": "La lettre {U}",

@@ -75,11 +75,11 @@
     },
     "G1-258": {
       "title": "Kirjoita sana: alkukirjain valmiina",
-      "instruction": "Sanapankki auttaa. Alkukirjain on jo viivalla."
+      "instruction": "Sano kuvan nimi. Etsi sana sanapankista ja kirjoita se loppuun alkukirjaimen perään."
     },
     "G1-259": {
       "title": "Kirjoita sana sanapankin avulla",
-      "instruction": "Kaikki sanat ovat pankissa. Kirjoita oikea sana."
+      "instruction": "Etsi jokaisen kuvan sana sanapankista ja kirjoita se viivalle."
     },
     "G1-260": {
       "title": "Kirjoita sana ilman sanapankkia",
@@ -363,7 +363,7 @@
     },
     "G1-301": {
       "title": "Sanapankki ja kirjainruudut",
-      "instruction": "Etsi sana pankista. Kirjoita se viivalle ja ruutuihin."
+      "instruction": "Etsi sana sanapankista. Kirjoita yksi kirjain jokaiseen ruutuun."
     },
     "G2-311": {
       "title": "Kaksi lausetta: piste vai kysymysmerkki?",
@@ -395,11 +395,11 @@
     },
     "G1-303": {
       "title": "Kirjainruudut ja alkukirjain",
-      "instruction": "Alkukirjain on viivalla. Kirjoita sana myös ruutuihin."
+      "instruction": "Kirjoita yksi kirjain jokaiseen ruutuun. Alkukirjain on jo valmiina."
     },
     "G1-304": {
       "title": "Kirjoita sana: kaikki vihjeet apuna",
-      "instruction": "Kirjoita sana. Kaikki kolme vihjettä auttavat."
+      "instruction": "Etsi sana sanapankista. Kirjoita alkukirjaimen jälkeen yksi kirjain jokaiseen ruutuun."
     }
   },
   "enAudit": [

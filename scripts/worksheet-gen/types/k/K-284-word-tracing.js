@@ -13,40 +13,8 @@ const { strokeWordLane } = require('../../primitives/trace-path.js');
 const { entriesFor, displayWord, traceable, distinctByWord, fileUri, vocab } = require('../../lib/b2-common.js');
 const { refusedPicture } = require('../../lib/picture-refusals.js');
 
-/* Level Set 2026-10-02 — words NEW pages never trace (the native + pedagogy review), per locale vocab keys.
-   New pages also never name a picture that does not show its word (lib/picture-refusals.js). The published
-   pages (level 2, copy 1) read neither. */
-const WT_EXCLUDE = {
-  // every locale: abbreviations, a brand, proper names (printed lower case), an adult drink, words that cannot be pictured,
-  // things a K child cannot name, species a child calls "flower" / "dinosaur" / "bird", look-alike sky objects
-  all: ['us', 'ufo', 'suv', 'lego', 'cocktail', 'christmas', 'easter', 'halloween', 'santa', 'saturn', 'earth', 'bible',
-    'capricious', 'content', 'disgusted', 'hot', 'cold', 'scrubs', 'vanity', 'ottoman', 'lounger', 'cabana', 'rosette', 'loader',
-    'kettlebell', 'aster', 'azalea', 'carnation', 'columbine', 'cornflower', 'crocus', 'dahlia', 'forsythia', 'hibiscus',
-    'hydrangea', 'jasmine', 'lilac', 'peony', 'petunia', 'phlox', 'trillium', 'zinnia', 'allosaurus', 'apatosaurus',
-    'brachiosaurus', 'carnotaurus', 'deinonychus', 'dimetrodon', 'giganotosaurus', 'ichthyosaurus', 'iguanodon', 'maiasaura',
-    'mosasaurus', 'oviraptor', 'plesiosaurus', 'styracosaurus', 'cockatiel', 'hornbill', 'cardinal', 'durian', 'persimmon',
-    'gopher', 'meteor', 'comet', 'camp', 'food', 'violet', 'flip-flops', 'plum',
-    // the picture review: species a child names "dinosaur" / "bird" / "flower", a cheese-like butter, look-alikes
-    'ankylosaurus', 'diplodocus', 'velociraptor', 'kingfisher', 'puffin', 'quail', 'lavender', 'lily', 'lotus',
-    'salamander', 'manatee', 'millipede', 'butter', 'mistletoe'],
-  de: ['boombox'],
-  es: ['chandelier', 'rosette', 'cardigan'],
-  fr: ['barber'],
-  it: ['stingray', 'dandelion'],
-  pt: ['lamp', 'minibus', 'cranberry', 'icicle', 'mitten', 'bandage'],
-  nl: ['squash', 'boombox'],
-  sv: ['sledding'],
-  da: ['angelfish', 'cereal', 'angry', 'rainy'],
-  no: ['porcupine', 'pretzels', 'sunny'],
-  fi: ['baseball', 'pretzels', 'toilet'],
-};
-// a NEW page traces nouns only (an adjective has no German gender in the vocabulary — "Wütend", "Sonnig" were printed as
-// nouns) and one word only (a phrase is not a word to trace: "pez payaso", "bac à sable")
-const isPhrase = (w) => /\s/u.test(w);
-const isNonNoun = (key) => { const e = vocab()[key]; return !(e && e.de && e.de[2]); };
-// a defect on EVERY page, published ones included (2026-10-02): persimmon is drawn as a tomato, LEGO is a brand, a phrase
-// is not a tracing word. Swapped AFTER the draw for the next clean word, so a page without one is byte-identical.
-const PAGE_SWAP = new Set(['persimmon', 'lego']);
+// the review of picture words (exclusions, nouns only, no phrases, published swaps): lib/picture-word-review.js
+const { WORD_EXCLUDE: WT_EXCLUDE, isPhrase, isNonNoun, PAGE_SWAP } = require('../../lib/picture-word-review.js');
 
 module.exports = {
   id: 'K-284',
@@ -112,7 +80,7 @@ module.exports = {
       if (pool.length < d.rows) throw new Error(`K-284: theme ${theme} has ${pool.length} traceable nouns < ${d.rows}`);
     }
     const picks = rng.sample(pool, d.rows);
-    const swapOut = (e) => PAGE_SWAP.has(e.vocabKey) || isPhrase(e.word);
+    const swapOut = (e) => (!fresh && PAGE_SWAP.has(e.vocabKey)) || isPhrase(e.word);   // new pages already filter these
     for (let i = 0; i < picks.length; i++) {
       if (!swapOut(picks[i])) continue;
       const alt = pool.find((e) => !swapOut(e) && !picks.some((p) => p.vocabKey === e.vocabKey || p.word === e.word));

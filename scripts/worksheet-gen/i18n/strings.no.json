@@ -1585,11 +1585,11 @@
   },
   "G1-258": {
     "title": "Skriv ordet: første bokstav er gitt",
-    "instruction": "Bruk ordbanken. Første bokstav er skrevet for å hjelpe deg."
+    "instruction": "Bruk ordbanken. Skriv resten av ordet etter den første bokstaven."
   },
   "G1-259": {
     "title": "Skriv ordet: velg fra ordbanken",
-    "instruction": "Alle ordene står i ordbanken. Velg riktig ord til hvert bilde."
+    "instruction": "Velg riktig ord fra ordbanken til hvert bilde og skriv det på linjen."
   },
   "G1-260": {
     "title": "Skriv ordet uten ordbank",
@@ -1905,7 +1905,7 @@
   },
   "G1-303": {
     "title": "Skriv ordet: bokstavruter og første bokstav",
-    "instruction": "Én rute til hver bokstav. Første bokstav er gitt."
+    "instruction": "Skriv én bokstav i hver rute. Første bokstav er gitt."
   },
   "G1-304": {
     "title": "Skriv ordet med all hjelp",

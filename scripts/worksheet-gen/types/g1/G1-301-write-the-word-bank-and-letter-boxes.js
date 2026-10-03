@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-301',
   slug: 'write-the-word-bank-and-letter-boxes',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-03: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, cards: 4, cols: 1, rows: 4, maxLetters: 5, pic: 120, glyphH: 40, rulingW: 380 }, 2: D, 3: { ...D, cards: 8, rows: 4, maxLetters: 12 } },
   i18n: { en: { title: "Word Bank and Letter Boxes", instruction: "Find the word in the bank. Write one letter in each box." } },
 };

@@ -1585,11 +1585,11 @@
   },
   "G1-258": {
     "title": "Skriv ordet: första bokstaven",
-    "instruction": "Orden finns i ordbanken. Första bokstaven är given."
+    "instruction": "Säg vad bilden föreställer. Hitta ordet i ordbanken och skriv klart det efter första bokstaven."
   },
   "G1-259": {
     "title": "Skriv ordet: välj från ordbanken",
-    "instruction": "Varje ord du behöver står i ordbanken."
+    "instruction": "Hitta ordet till varje bild i ordbanken och skriv det på raden."
   },
   "G1-260": {
     "title": "Skriv ordet utan ordbank",
@@ -1789,7 +1789,7 @@
   },
   "G1-291": {
     "title": "Skriv ordet: bara begynnelsebokstaven",
-    "instruction": "Ingen ordbank. Första bokstaven är given."
+    "instruction": "Säg vad bilden föreställer och skriv klart ordet efter första bokstaven."
   },
   "G1-286": {
     "title": "Dubbelt och hälften med bilder till 20",
@@ -1905,11 +1905,11 @@
   },
   "G1-303": {
     "title": "Skriv ordet: rutor och startbokstav",
-    "instruction": "Startbokstaven står på raden, inte i rutan."
+    "instruction": "Skriv en bokstav i varje ruta. Första bokstaven står redan där."
   },
   "G1-304": {
     "title": "Skriv ordet med alla ledtrådar",
-    "instruction": "Ordbank, rutor och första bokstaven hjälper dig."
+    "instruction": "Hitta ordet i ordbanken. Skriv en bokstav i varje ruta efter första bokstaven."
   },
   "K-317": {
     "title": "Veckans bokstav: {U} {L}",

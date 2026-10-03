@@ -1585,15 +1585,15 @@
   },
   "G1-258": {
     "title": "Dictado mudo: con la primera letra",
-    "instruction": "La primera letra ya está escrita."
+    "instruction": "Di el nombre de cada dibujo. Busca la palabra en el banco y termina de escribirla después de la primera letra."
   },
   "G1-259": {
     "title": "Dictado mudo: con banco de palabras",
-    "instruction": "Elige la palabra correcta del banco."
+    "instruction": "Busca en el banco la palabra de cada dibujo y escríbela en la línea."
   },
   "G1-260": {
     "title": "Dictado mudo sin banco de palabras",
-    "instruction": "Sin banco de palabras ni pistas."
+    "instruction": "Di el nombre de cada dibujo y escribe tú solo la palabra en la línea."
   },
   "G1-262": {
     "title": "Orden alfabético: numera las tarjetas",
@@ -1789,7 +1789,7 @@
   },
   "G1-291": {
     "title": "Dictado mudo sin banco: la inicial",
-    "instruction": "No hay banco: solo la inicial."
+    "instruction": "Di el nombre de cada dibujo y termina la palabra después de la primera letra."
   },
   "G1-286": {
     "title": "Dobles y mitades con grupos grandes",
@@ -1873,7 +1873,7 @@
   },
   "G1-301": {
     "title": "Dictado mudo: banco y casillas",
-    "instruction": "Con banco y una casilla por letra."
+    "instruction": "Busca la palabra en el banco y escribe una letra en cada casilla."
   },
   "G2-311": {
     "title": "Dos frases: ¿punto o interrogación?",
@@ -1905,11 +1905,11 @@
   },
   "G1-303": {
     "title": "Dictado mudo: casillas e inicial",
-    "instruction": "Sin banco: la inicial, en la línea."
+    "instruction": "Di el nombre de cada dibujo y escribe una letra en cada casilla. La primera letra ya está escrita."
   },
   "G1-304": {
     "title": "Dictado mudo con todas las pistas",
-    "instruction": "Banco, casillas e inicial juntos."
+    "instruction": "Busca la palabra en el banco. Después de la primera letra, escribe una letra en cada casilla."
   },
   "K-317": {
     "title": "La letra {U}{L}: repasa, busca y escribe",

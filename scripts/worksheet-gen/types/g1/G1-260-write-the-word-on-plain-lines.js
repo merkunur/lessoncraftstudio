@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-260',
   slug: 'write-the-word-on-plain-lines',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-03: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, cards: 6, rows: 3, minLetters: 2, maxLetters: 6, pic: 104, glyphH: 36, rulingW: 190 }, 2: D, 3: { ...D, minLetters: 7 } },
   i18n: { en: { title: "Write the Word on Plain Lines", instruction: "No word bank this time. Write each picture word on the lines." } },
 };

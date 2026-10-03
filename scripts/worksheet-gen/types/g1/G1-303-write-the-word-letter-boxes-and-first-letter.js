@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-303',
   slug: 'write-the-word-letter-boxes-and-first-letter',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-03: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, cards: 4, cols: 1, rows: 4, maxLetters: 5, pic: 120, glyphH: 40, rulingW: 380 }, 2: D, 3: { ...D, cards: 8, rows: 4, maxLetters: 12 } },
   i18n: { en: { title: "Letter Boxes and the First Letter", instruction: "Write each word in the letter boxes. The first letter is given." } },
 };

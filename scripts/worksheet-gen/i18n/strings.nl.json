@@ -1585,11 +1585,11 @@
   },
   "G1-258": {
     "title": "Schrijf het woord met de beginletter",
-    "instruction": "De beginletter staat er al. Zoek het woord in de woordbank."
+    "instruction": "Zeg de naam van elk plaatje. Zoek het woord in de woordbank en schrijf het af na de beginletter."
   },
   "G1-259": {
     "title": "Schrijf het woord: kies uit de woordbank",
-    "instruction": "Alle woorden staan in de woordbank. Schrijf ze op."
+    "instruction": "Zoek bij elk plaatje het woord in de woordbank en schrijf het op de lijn."
   },
   "G1-260": {
     "title": "Schrijf het woord: zonder woordbank",
@@ -1789,7 +1789,7 @@
   },
   "G1-291": {
     "title": "Schrijf het woord: alleen de beginletter",
-    "instruction": "Geen woordbank: alleen de eerste letter staat er al."
+    "instruction": "Zeg de naam van elk plaatje en schrijf het woord af na de beginletter."
   },
   "G1-286": {
     "title": "Verdubbelen en halveren met plaatjes tot 20",
@@ -1905,11 +1905,11 @@
   },
   "G1-303": {
     "title": "Schrijf het woord: hokjes en beginletter",
-    "instruction": "Zonder woordbank, maar met beginletter en hokjes."
+    "instruction": "Schrijf één letter in elk hokje. De beginletter staat er al."
   },
   "G1-304": {
     "title": "Schrijf het woord: alle hulp erbij",
-    "instruction": "De woordbank, de hokjes en de beginletter helpen je samen."
+    "instruction": "Zoek het woord in de woordbank. Schrijf na de beginletter één letter in elk hokje."
   },
   "K-317": {
     "title": "Letter van de week: {U}{L}",

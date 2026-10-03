@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-291',
   slug: 'write-the-word-first-letter-only',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write the Word: Only the First Letter", instruction: "No word bank. The first letter starts you off." } },
+  // Level Set 2026-10-03: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, cards: 4, cols: 1, rows: 4, maxLetters: 5, pic: 140, glyphH: 40, rulingW: 380 }, 2: D, 3: { ...D, cards: 8, rows: 4, minLetters: 6 } },
+  i18n: { en: { title: "Write the Word: Only the First Letter", instruction: "Say the name of each picture. Finish the word after the first letter." } },
 };

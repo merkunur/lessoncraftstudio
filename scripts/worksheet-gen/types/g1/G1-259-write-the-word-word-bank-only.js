@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-259',
   slug: 'write-the-word-word-bank-only',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-03: real easier / harder levels (level 2 = the published config); PDF only
+  difficulty: { 1: { ...D, cards: 6, rows: 3, maxLetters: 6, pic: 104, glyphH: 36, rulingW: 190 }, 2: D, 3: { ...D, minLetters: 6 } },
   i18n: { en: { title: "Write the Word: Word Bank, No First Letter", instruction: "Every word is in the bank. Write the right one by each picture." } },
 };

@@ -1585,7 +1585,7 @@
   },
   "G1-258": {
     "title": "Skriv ordet med ordbank og første bogstav",
-    "instruction": "Brug ordbanken. Det første bogstav står allerede på linjen."
+    "instruction": "Brug ordbanken. Skriv resten af ordet efter det første bogstav."
   },
   "G1-259": {
     "title": "Skriv ordet: vælg fra ordbanken",
@@ -1905,7 +1905,7 @@
   },
   "G1-303": {
     "title": "Skriv ordet: bogstavfelter og første bogstav",
-    "instruction": "Ét felt til hvert bogstav. Det første står på linjen."
+    "instruction": "Skriv ét bogstav i hvert felt. Det første bogstav står allerede der."
   },
   "G1-304": {
     "title": "Skriv ordet med hjælp hele vejen",

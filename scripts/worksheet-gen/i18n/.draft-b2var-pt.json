@@ -75,11 +75,11 @@
   },
   "G1-258": {
    "title": "Escreva o nome: use o banco",
-   "instruction": "A letra inicial já está ali: complete o resto."
+   "instruction": "Fale o nome de cada figura. Procure a palavra no banco e complete-a depois da letra inicial."
   },
   "G1-259": {
    "title": "Escreva o nome: só com o banco",
-   "instruction": "Escolha no banco a palavra de cada figura."
+   "instruction": "Escolha no banco a palavra de cada figura e escreva-a na linha."
   },
   "G1-260": {
    "title": "Escreva o nome sem banco",
@@ -311,7 +311,7 @@
   },
   "G1-291": {
    "title": "Escreva o nome: só a letra inicial",
-   "instruction": "Sem banco: só a inicial ajuda na linha."
+   "instruction": "Fale o nome de cada figura e complete a palavra depois da letra inicial."
   },
   "G1-292": {
    "title": "O ou a? Separe as palavras",
@@ -351,7 +351,7 @@
   },
   "G1-301": {
    "title": "Escreva o nome: banco e quadradinhos",
-   "instruction": "Uma letra em cada quadradinho."
+   "instruction": "Procure a palavra no banco e escreva uma letra em cada quadradinho."
   },
   "G1-302": {
    "title": "Ordene a frase: qual palavra começa?",
@@ -359,11 +359,11 @@
   },
   "G1-303": {
    "title": "Escreva o nome com os quadradinhos",
-   "instruction": "A letra inicial já começa a palavra."
+   "instruction": "Escreva uma letra em cada quadradinho. A letra inicial já está escrita."
   },
   "G1-304": {
    "title": "Escreva o nome com todas as pistas",
-   "instruction": "Banco, quadradinhos e inicial ajudam."
+   "instruction": "Procure a palavra no banco. Depois da letra inicial, escreva uma letra em cada quadradinho."
   },
   "G2-304": {
    "title": "Ligue os pontos de 5 em 5",

@@ -1357,7 +1357,7 @@
   },
   "G1-258": {
     "title": "Write the Word: The First Letter Is Given",
-    "instruction": "Use the word bank. The first letter is already on the line to start you off."
+    "instruction": "Say the name of each picture. Find the word in the word bank and finish it after the first letter."
   },
   "G1-259": {
     "title": "Write the Word: Word Bank, No First Letter",
@@ -1461,7 +1461,7 @@
   },
   "G1-291": {
     "title": "Write the Word: Only the First Letter",
-    "instruction": "No word bank. The first letter starts you off."
+    "instruction": "Say the name of each picture. Finish the word after the first letter."
   },
   "G1-292": {
     "title": "Sort the Words",

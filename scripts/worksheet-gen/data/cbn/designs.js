@@ -85,6 +85,7 @@ const DESIGNS = [
 DESIGNS.push(...require('./designs-b1.js').B1);
 DESIGNS.push(...require('./designs-b2.js').B2);
 DESIGNS.push(...require('./designs-b3.js').B3);
+DESIGNS.push(...require('./designs-b4.js').B4);
 
 function build(design) { const a = new Art(W, H); design.draw(a); return a; }
 

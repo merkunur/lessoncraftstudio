@@ -73,8 +73,8 @@ function barn(a, wall = 'red', roof = 'brown', door = 'none', trim = 'none') {
 }
 function castle(a, stone = 'grey', roofs = 'blue', flags = 'red', door = 'brown') {
   [[-130, -40], [130, -40]].forEach(([x, y]) => {
-    a.line(`M${x} ${y - 130}V${y - 168}`, 4);
-    a.region(poly([[x + 2, y - 168], [x + 40, y - 156], [x + 2, y - 142]], 4), flags, 'flag');
+    a.line(`M${x} ${y - 104}V${y - 176}`, 4);   // the pole runs well INTO the roof: it holds the flag on
+    a.region(poly([[x + 2, y - 180], [x + 60, y - 160], [x + 2, y - 136]], 5), flags, 'flag');   // big enough for its number at small scales
     a.region(poly([[x - 44, y - 54], [x, y - 140], [x + 44, y - 54]], 8), roofs, 'tower roof');
     a.region(rrect(x - 38, y - 60, 76, 210, 6), stone, 'tower');
     a.region(rrect(x - 14, y - 26, 28, 40, 14), 'yellow', 'tower window');

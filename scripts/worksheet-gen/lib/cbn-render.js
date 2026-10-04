@@ -190,7 +190,7 @@ async function checkSolid(page, art, S = 2) {
       const cx = cv.getContext('2d', { willReadFrequently: true }); cx.drawImage(img, 0, 0);
       const px = cx.getImageData(0, 0, W, H).data;
       const on = new Uint8Array(W * H), isFill = new Uint8Array(W * H); let x0 = W, y0 = H, x1 = -1, y1 = -1, n = 0;
-      for (let i = 0; i < W * H; i++) if (px[i * 4 + 3] > 127) { on[i] = 1; isFill[i] = px[i * 4] < 128 ? 1 : 0; n++; const x = i % W, y = (i / W) | 0; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+      for (let i = 0; i < W * H; i++) if (px[i * 4 + 3] > 127) { on[i] = 1; isFill[i] = px[i * 4] < 128 ? 1 : 0; n++; if (!isFill[i]) continue; const x = i % W, y = (i / W) | 0; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }   // the frame box is the FILLS (thickened ink strokes are for joints only)
       // chamfer distance to the outside, then keep only pixels deeper than the erosion radius
       const D = new Float32Array(W * H);
       for (let i = 0; i < W * H; i++) D[i] = on[i] ? 1e9 : 0;

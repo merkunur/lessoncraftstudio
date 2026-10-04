@@ -21,6 +21,7 @@ function labelsFor(id) {
   if (!_labels) _labels = fs.existsSync(LABELS) ? JSON.parse(fs.readFileSync(LABELS, 'utf8')) : {};
   const l = _labels[id];
   if (!l) throw new Error(`cbn: no labels for "${id}" — run node tools/cbn-preview.js (it labels and gates every design)`);
+  if (l.ok !== true) throw new Error(`cbn: design "${id}" failed its gates (numbers / solid objects / frame) — fix it, re-run tools/cbn-preview.js`);
   return l;
 }
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');

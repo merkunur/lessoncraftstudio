@@ -164,4 +164,54 @@ function labelsAndGate(art, pieces, level) {
   return { labels, num, fails, bad, colours: k, parts: nRegions };
 }
 
-module.exports = { PALETTE, INK, MIN_R, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate };
+/**
+ * checkSolid(page, art) → failures. Every OBJECT (a.group: a duck, a flower pot, a tree) must be ONE solid piece:
+ * the union of its fills, shrunk by ERODE units, must stay one piece. Catches a gap (a stem that stops above its pot)
+ * AND a tangent or hairline joint (a head that only touches its body) — the operator's 2026-10-05 findings. An object
+ * that is not edgeOk must also keep EDGE units clear of the frame (a character never runs off the picture).
+ */
+const ERODE = 6, EDGE = 3, SOLID_CRUMB = 40;
+/** the running scale of a placement transform (product of its scale() factors) — to size a stroke in PICTURE units */
+const scaleOf = (tf) => (String(tf || '').match(/scale\(([-\d.]+)/g) || []).reduce((p, m) => p * Math.abs(parseFloat(m.slice(6))), 1);
+async function checkSolid(page, art, S = 2) {
+  const groups = new Map();
+  // ink strokes of the object (an eye stalk, a crab's arm, a tail) are drawn connections: they count, thickened so they
+  // survive the erosion; a joint between two FILLS that only touch does not survive it
+  art.items.forEach((r) => { if ((r.kind === 'r' || r.kind === 'l') && r.group) { if (!groups.has(r.group.id)) groups.set(r.group.id, { g: r.group, regs: [], lines: [] }); groups.get(r.group.id)[r.kind === 'r' ? 'regs' : 'lines'].push(r); } });
+  const fails = [];
+  for (const { g, regs, lines } of groups.values()) {
+    if (!regs.length) continue;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${art.w} ${art.h}" width="${art.w * S}" height="${art.h * S}" shape-rendering="crispEdges">` +
+      lines.map((l) => (l.tf ? `<g transform="${l.tf}">` : '') + `<path d="${l.d}" fill="none" stroke="#F00" stroke-linecap="round" stroke-width="${((2 * ERODE + 3) / scaleOf(l.tf)).toFixed(3)}"/>` + (l.tf ? '</g>' : '')).join('')  +
+      regs.map((r) => (r.tf ? `<g transform="${r.tf}">` : '') + `<path d="${r.d}" fill="#000"/>` + (r.tf ? '</g>' : '')).join('')+ '</svg>';
+    const m = await page.evaluate(async ({ svg, W, H, er, edge, crumb }) => {
+      const img = new Image(); img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svg))); await img.decode();
+      const cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+      const cx = cv.getContext('2d', { willReadFrequently: true }); cx.drawImage(img, 0, 0);
+      const px = cx.getImageData(0, 0, W, H).data;
+      const on = new Uint8Array(W * H), isFill = new Uint8Array(W * H); let x0 = W, y0 = H, x1 = -1, y1 = -1, n = 0;
+      for (let i = 0; i < W * H; i++) if (px[i * 4 + 3] > 127) { on[i] = 1; isFill[i] = px[i * 4] < 128 ? 1 : 0; n++; const x = i % W, y = (i / W) | 0; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+      // chamfer distance to the outside, then keep only pixels deeper than the erosion radius
+      const D = new Float32Array(W * H);
+      for (let i = 0; i < W * H; i++) D[i] = on[i] ? 1e9 : 0;
+      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) { const i = y * W + x; if (!D[i]) continue; let v = D[i];
+        v = Math.min(v, x > 0 ? D[i - 1] + 3 : 3, y > 0 ? D[i - W] + 3 : 3, x > 0 && y > 0 ? D[i - W - 1] + 4 : 4, x < W - 1 && y > 0 ? D[i - W + 1] + 4 : 4); D[i] = v; }
+      for (let y = H - 1; y >= 0; y--) for (let x = W - 1; x >= 0; x--) { const i = y * W + x; if (!D[i]) continue; let v = D[i];
+        v = Math.min(v, x < W - 1 ? D[i + 1] + 3 : 3, y < H - 1 ? D[i + W] + 3 : 3, x < W - 1 && y < H - 1 ? D[i + W + 1] + 4 : 4, x > 0 && y < H - 1 ? D[i + W - 1] + 4 : 4); D[i] = v; }
+      const keep = (i) => D[i] / 3 > er;
+      const seen = new Uint8Array(W * H), q = new Int32Array(W * H); const pieces = [];
+      for (let s = 0; s < W * H; s++) { if (!keep(s) || seen[s]) continue; let h = 0, t = 0, a = 0, fa = 0, sx = 0, sy = 0; q[t++] = s; seen[s] = 1;
+        while (h < t) { const i = q[h++]; a++; fa += isFill[i]; const x = i % W, y = (i / W) | 0; sx += x; sy += y;
+          for (const j of [x > 0 ? i - 1 : -1, x < W - 1 ? i + 1 : -1, y > 0 ? i - W : -1, y < H - 1 ? i + W : -1]) if (j >= 0 && !seen[j] && keep(j)) { seen[j] = 1; q[t++] = j; } }
+        pieces.push({ a: fa, x: sx / a, y: sy / a }); }   // a = FILL pixels: a detached ink stroke (sun rays) is not a piece
+      return { n, box: [x0, y0, x1, y1], pieces: pieces.filter((p) => p.a > crumb) };
+    }, { svg, W: art.w * S, H: art.h * S, er: ERODE * S, edge: EDGE * S, crumb: SOLID_CRUMB * S * S });
+    if (!m.n) { fails.push({ msg: `object "${g.name}" is not drawn at all` }); continue; }
+    if (m.pieces.length > 1) fails.push({ msg: `object "${g.name}" is ${m.pieces.length} separate pieces (a gap or a joint that only touches) — parts: ${[...new Set(regs.map((r) => r.name))].join(', ')}`, at: m.pieces.map((p) => ({ x: p.x / S, y: p.y / S })) });
+    const [x0, y0, x1, y1] = m.box.map((v) => v / S);
+    if (!g.edgeOk && (x0 < EDGE || y0 < EDGE || x1 > art.w - EDGE || y1 > art.h - EDGE)) fails.push({ msg: `object "${g.name}" runs off the picture`, at: [{ x: (x0 + x1) / 2, y: (y0 + y1) / 2 }] });
+  }
+  return fails;
+}
+
+module.exports = { PALETTE, INK, MIN_R, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate, checkSolid };

@@ -99,11 +99,12 @@ function duck(a, body = 'yellow', beak = 'orange') {
   a.region(blob([[-74, 10], [-14, -6], [42, 18], [12, 54], [-50, 50]], 1), body, 'wing');
   a.line(curve([[-52, 26], [-20, 22], [14, 32]]), 2.6);
   a.line(curve([[-44, 40], [-14, 36], [12, 44]]), 2.6);
-  a.region(circle(36, -96, 64), body, 'duck head');
-  a.line(curve([[30, -159], [30, -182], [46, -188], [56, -176], [48, -168]]), 2.8);
-  a.region(blob([[86, -104], [150, -100], [160, -84], [146, -66], [94, -62]], 1), beak, 'beak');
-  a.line(curve([[96, -82], [124, -82], [152, -84]]), 2.4);
-  eye(a, 54, -112, 1.6);
+  // the head SITS ON the body with a wide joint (operator 2026-10-05: it only touched it at one point)
+  a.region(circle(36, -70, 64), body, 'duck head');
+  a.line(curve([[30, -133], [30, -156], [46, -162], [56, -150], [48, -142]]), 2.8);
+  a.region(blob([[86, -78], [150, -74], [160, -58], [146, -40], [94, -36]], 1), beak, 'beak');
+  a.line(curve([[96, -56], [124, -56], [152, -58]]), 2.4);
+  eye(a, 54, -86, 1.6);
 }
 function bunny(a, fur = 'grey', inner = 'pink') {
   a.region(ellipse(0, 40, 54, 58), fur, 'bunny body');
@@ -136,8 +137,8 @@ function fish(a, body = 'orange', fin = 'yellow', stripe = 'none') {
 }
 function octopus(a, c = 'purple') {
   for (let i = 0; i < 5; i++) {
-    const x = -72 + i * 36, dir = i % 2 ? 1 : -1;
-    a.region(blob([[x - 17, 6], [x + 17, 6], [x + 21, 52], [x + 22 * dir, 88], [x + 4 * dir, 100], [x - 18, 58]], 1), c, 'tentacle');
+    const x = -72 + i * 36, dir = Math.sign(i - 2);   // tips fan OUT (left ones left, right ones right): no pockets between tips
+    a.region(blob([[x - 17, 6], [x + 17, 6], [x + 18, 58], [x + 12 + 8 * dir, 94], [x - 4 + 8 * dir, 102], [x - 16, 60]], 1), c, 'tentacle');
   }
   a.region(blob([[-74, 30], [-76, -24], [-34, -76], [34, -76], [76, -24], [74, 30], [0, 40]], 1.05), c, 'octopus head');
   face(a, 0, -6, 1.15, 36);
@@ -219,7 +220,7 @@ function house(a, wall = 'yellow', roof = 'red', door = 'brown', win = 'lightblu
   [[-92, 0], [52, 0]].forEach(([x, y]) => { a.region(rrect(x, y, 40, 40, 5), win, 'window'); a.line(`M${x + 20} ${y}V${y + 40}M${x} ${y + 20}H${x + 40}`, 2.6); });
 }
 function flowerPot(a, petals = 'red', face_ = 'yellow', leaves = 'green', pot = 'orange', rim = 'brown') {
-  a.region(rrect(-12, 0, 24, 96, 8), leaves, 'stem');
+  a.region(rrect(-12, 0, 24, 150, 8), leaves, 'stem');   // runs down into the soil: the rim covers its end (operator 2026-10-05: the stem floated above the pot)
   a.region(blob([[-6, 66], [-64, 36], [-84, 56], [-40, 82]], 1.1), leaves, 'leaf');
   a.region(blob([[6, 66], [64, 36], [84, 56], [40, 82]], 1.1), leaves, 'leaf');
   for (let i = 0; i < 8; i++) { const t = i * Math.PI / 4; a.region(ellipse(Math.cos(t) * 62, -60 + Math.sin(t) * 62, 30, 30), petals, 'petal'); }
@@ -258,8 +259,16 @@ function sea(a, W, H, { water = 'lightblue', sand = 'yellow' } = {}) {
 }
 function space(a, W, H, { sky = 'blue' } = {}) { a.region(rrect(0, 0, W, H, 0), sky, 'night sky'); }
 
-module.exports = {
+const NOT_OBJECTS = new Set(['eye', 'smile', 'face', 'grassTuft', 'meadow', 'pond', 'sea', 'space', 'ring']);
+const EDGE_OK = new Set(['tree', 'pineTree', 'bush', 'cloud', 'fence', 'rock', 'seaweed', 'rainbow', 'cattail', 'lilyPad']);
+const RAW = {
   eye, smile, face, sun, cloud, rainbow, moon, bigStar, planet, tree, pineTree, bush, grassTuft, flower, mushroom, fence, rock,
   lilyPad, cattail, seaweed, shell, bubble, duck, bunny, butterfly, fish, octopus, crab, cow, owl, turtle, dino,
   house, flowerPot, rocket, star5, meadow, pond, sea, space, ring,
 };
+const OUT = {};
+for (const [k, fn] of Object.entries(RAW)) {
+  OUT[k] = (NOT_OBJECTS.has(k) || typeof fn !== 'function') ? fn : (a, ...args) => a.group(k, () => fn(a, ...args), { edgeOk: EDGE_OK.has(k) });
+}
+OUT.RAW = RAW;
+module.exports = OUT;

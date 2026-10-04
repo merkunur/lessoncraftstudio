@@ -28,7 +28,9 @@ const LABELS = path.join(__dirname, '..', 'data', 'cbn', 'labels.json');
     const art = build(d);
     const pieces = await R.labelArt(page, art);
     const g = R.labelsAndGate(art, pieces, d.level);
-    cache[d.id] = { labels: g.labels.map((l) => [+l.x.toFixed(1), +l.y.toFixed(1), +l.r.toFixed(1), l.n]), num: g.num };
+    const solid = await R.checkSolid(page, art);
+    for (const sf of solid) { g.fails.push(sf.msg); for (const p of sf.at || []) g.bad.push(p); }
+    cache[d.id] = { ok: !g.fails.length, labels: g.labels.map((l) => [+l.x.toFixed(1), +l.y.toFixed(1), +l.r.toFixed(1), l.n]), num: g.num };
     if (g.fails.length) bad++;
     console.log(`${g.fails.length ? 'FAIL' : 'ok  '} ${d.id} L${d.level} ${d.kind}: ${g.colours} colours, ${g.parts} numbered parts${g.fails.length ? '\n   - ' + g.fails.join('\n   - ') : ''}`);
     const legend = Object.entries(g.num).map(([c, n]) => `<span style="display:inline-flex;align-items:center;gap:4px;margin:0 6px;font:700 15px sans-serif">${n}<span style="width:18px;height:18px;border:1.5px solid #333;border-radius:4px;background:${R.PALETTE[c]}"></span>${c}</span>`).join('');

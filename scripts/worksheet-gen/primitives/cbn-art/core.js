@@ -105,7 +105,18 @@ const COLOURS = ['red', 'orange', 'yellow', 'lightgreen', 'green', 'lightblue', 
 const OUTLINE = 3.2;
 
 class Art {
-  constructor(w = 600, h = 560) { this.w = w; this.h = h; this.items = []; this.tf = []; this.sc = [1]; }
+  constructor(w = 600, h = 560) { this.w = w; this.h = h; this.items = []; this.tf = []; this.sc = [1]; this.grp = []; this.nGroups = 0; }
+  /**
+   * run fn as ONE object (a character, a pot, a tree): its regions carry the group, and lib/cbn-render.js checkSolid
+   * demands the group's fills make ONE solid piece (no gap, no tangent joint). Nested groups belong to the outermost.
+   * opts.edgeOk: the object may touch the frame edge (scenery that runs off the picture: trees, fences, clouds).
+   */
+  group(name, fn, opts = {}) {
+    if (this.grp.length) { fn(this); return this; }
+    this.grp.push({ id: ++this.nGroups, name, edgeOk: !!opts.edgeOk });
+    try { fn(this); } finally { this.grp.pop(); }
+    return this;
+  }
   /**
    * run fn with a placement pushed: { x, y, s (scale), r (degrees), fx (mirror) }. Every region / detail inside is
    * placed by it; stroke widths are divided by the running scale so the ink stays the same weight on the page.
@@ -121,11 +132,11 @@ class Art {
   get S() { return this.sc[this.sc.length - 1]; }
   region(d, colour, name) {
     if (!COLOURS.includes(colour)) throw new Error(`cbn-art: unknown colour "${colour}"`);
-    this.items.push({ kind: 'r', d, colour, tf: this.T, ow: OUTLINE / this.S, name: name || '' });
+    this.items.push({ kind: 'r', d, colour, tf: this.T, ow: OUTLINE / this.S, name: name || '', group: this.grp[0] || null });
     return this;
   }
   /** an ink stroke (open or closed path); w in FINAL picture units */
-  line(d, w = 2.6) { this.items.push({ kind: 'l', d, w: w / this.S, tf: this.T }); return this; }
+  line(d, w = 2.6) { this.items.push({ kind: 'l', d, w: w / this.S, tf: this.T, group: this.grp[0] || null }); return this; }
   /** a solid ink shape (pupil, nostril) */
   ink(d) { this.items.push({ kind: 'k', d, tf: this.T }); return this; }
   /** a white shape on top of ink (eye highlight) */

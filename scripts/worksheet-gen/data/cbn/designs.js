@@ -18,7 +18,7 @@ const DESIGNS = [
       a.at({ x: 470, y: 92, s: 0.95 }, (b) => P.sun(b));
       a.at({ x: 150, y: 90, s: 0.9 }, (b) => P.cloud(b));
       a.at({ x: 290, y: 400, s: 1.45 }, (b) => P.duck(b));
-      a.at({ x: 500, y: 470, s: 1.0 }, (b) => P.lilyPad(b));
+      a.at({ x: 486, y: 418, s: 0.85 }, (b) => P.lilyPad(b));   // IN the water (it straddled the bank)
     } },
   { id: 'farm-cow', kind: 'scene', level: 2, names: { en: 'Cow on the Farm' },
     draw(a) {

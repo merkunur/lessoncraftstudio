@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Conta lo schieramento",
-    "instruction": "Conta le file di immagini. Scrivi quante sono in tutto."
+    "instruction": "Conta tutte le immagini. Scrivi quante sono in tutto."
   },
   "K-028": {
     "title": "Quanti in tutto?",
@@ -497,7 +497,7 @@
   },
   "G2-216": {
     "title": "Dividi equamente",
-    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne tocca a ognuno."
+    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne toccano a ognuno."
   },
   "G2-217": {
     "title": "Quanti gruppi?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Grandi schieramenti",
-    "instruction": "Conta le file di immagini. Scrivi quante sono in tutto."
+    "instruction": "Conta tutte le immagini. Scrivi quante sono in tutto."
   },
   "G3-302": {
     "title": "Gruppi difficili",
@@ -649,7 +649,7 @@
   },
   "G3-309": {
     "title": "Dividi tutto",
-    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne tocca a ognuno."
+    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne toccano a ognuno."
   },
   "G3-310": {
     "title": "Salta giù fino a zero",

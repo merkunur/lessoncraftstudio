@@ -46,6 +46,9 @@ const MODE_LEVELS = {
 
 const NUM = (v) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#3A3530" data-lcs-num="${v}">${v}</span>`;
 const OP = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:24px;color:#146B5E">${ch}</span>`;
+/** the empty answer place on the SCREEN version (the print page keeps its answer box) */
+const QBOX = `<span data-lcs-qbox style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:50px;box-sizing:border-box;border:3px dashed #F2784B;border-radius:12px;font-family:'Baloo 2';font-weight:700;font-size:28px;color:#F2784B">?</span>`;
+const SCREEN = () => require('../../lib/arrays-screen.js');
 
 function iconArrayHtml(theme, noun, r, c, px, extraAttr) {
   const rows = [];
@@ -95,9 +98,21 @@ function makeArrayType(cfg) {
     },
     i18n,
 
+    // Level Set 2026-10-04: the screen version (tap) + answer key of every NEW page (lib/arrays-screen.js)
+    interactive: SCREEN().interactiveFor(mode),
+    /** Level Set copies: the facts a page asks (build-waves compares the copies of a themeless face by these). */
+    levelSetWords(m) { return m.facts || []; },
+
     build({ theme, difficulty, locale }, ctx) {
+      // the published page (level 2, copy 1) builds exactly as it shipped; a new page may also be its screen / key
+      const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+        const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+        return SCREEN().screenOrKey(mode, built, ctx, String(locale || 'en').slice(0, 2));
+      }
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
+      const qa = [];
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const div = divGlyph(locale);   // C1 2026-09-14: was a hard-coded '÷' (a MINUS in older sv notation)
@@ -108,11 +123,13 @@ function makeArrayType(cfg) {
         let stage;
         if (mode === 'count-array') {
           let r, c, g = 0;
-          do { r = rng.int(2, d.maxR); c = rng.int(2, d.maxC); g++; } while (used.has(r + 'x' + c) && g < 30);
+          // d.minR / d.minC (Level Set 2026-10-04): a harder level starts from bigger arrays; d.maxTotal caps the count (K.CC.B.5: up to 20)
+          do { r = rng.int(d.minR || 2, d.maxR); c = rng.int(d.minC || 2, d.maxC); g++; } while ((used.has(r + 'x' + c) || (d.maxTotal && r * c > d.maxTotal)) && g < 60);
           used.add(r + 'x' + c);
           const px = Math.min(44, Math.floor(250 / c), Math.floor(150 / r));
           stage = `<div class="ws-card-stage" style="gap:26px;justify-content:space-between;padding:6px 16px">` +
             iconArrayHtml(theme, nouns[i].noun, r, c, px) + answerBox({ w: 80, h: 56, answer: r * c }) + `</div>`;
+          qa.push({ visual: iconArrayHtml(theme, nouns[i].noun, r, c, px), eq: QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + c, r * c - c, r + c, r * c + 1] });
         } else if (mode === 'domino-add' || mode === 'dice-add') {
           let a, b, g = 0;
           do { a = rng.int(L.lo, L.hi); b = rng.int(L.lo, L.hi); g++; } while (used.has(a + '+' + b) && g < 30);
@@ -124,6 +141,7 @@ function makeArrayType(cfg) {
             `<span style="display:inline-flex;align-items:center;gap:12px">${visual}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             NUM(a) + OP('+') + NUM(b) + OP('=') + answerBox({ w: 62, h: 50, answer: a + b }) + `</span></div>`;
+          qa.push({ visual: `<span style="display:inline-flex;align-items:center;gap:12px">${visual}</span>`, eq: NUM(a) + OP('+') + NUM(b) + OP('=') + QBOX, q: `${a}+${b}`, a: a + b, d: [a + b + 1, a + b - 1, a + b + 2] });
         } else if (mode === 'rep-add' || mode === 'groups-mult') {
           // ks (when given) is the GROUP SIZE the type teaches (x2/x5/x10 …)
           const ksL = ks && L.ksHalf ? ks.slice(0, Math.ceil(ks.length / 2)) : ks;
@@ -140,6 +158,8 @@ function makeArrayType(cfg) {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-k="${k}" data-lcs-n="${n}">` +
             `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">${rings}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:6px">${eq}</span></div>`;
+          const qeq = mode === 'rep-add' ? Array.from({ length: k }, () => NUM(n)).join(OP('+')) + OP('=') + QBOX : NUM(k) + OP('×') + NUM(n) + OP('=') + QBOX;
+          qa.push({ visual: `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;max-width:600px">${rings}</span>`, eq: qeq, q: `${k}*${n}`, a: k * n, d: [k * n + n, k * n - n, k + n, k * n + 1] });
         } else if (mode === 'build-array') {
           let r, c, g = 0;
           do { r = rng.int(2, d.maxR); c = rng.int(2, d.maxC); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
@@ -147,8 +167,11 @@ function makeArrayType(cfg) {
           const px = 16;
           const opts = rng.shuffle([
             { r, c, ok: true },
-            { r: c, c: r, ok: false },           // transposed
-            { r, c: Math.max(2, c - 1), ok: false },
+            // 2026-10-04 (native + pedagogy review): the TURNED array (c rows of r) was a decoy, but it shows the same
+            // product — the very fact G3-314 teaches — so it was a second right answer. The decoys are now one ROW and one
+            // COLUMN off (one more when the side is only 2: Math.max(2, c - 1) had drawn the right array twice).
+            { r: r > 2 ? r - 1 : r + 1, c, ok: false },
+            { r, c: c > 2 ? c - 1 : c + 1, ok: false },
           ]);
           const chips = opts.map((o) =>
             `<span class="ws-pattern-chip" style="width:auto;height:auto;border-radius:12px;padding:8px"${o.ok ? ' data-lcs-correct="1"' : ''}>` +
@@ -156,6 +179,10 @@ function makeArrayType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:6px 12px" data-lcs-r="${r}" data-lcs-c="${c}">` +
             `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP('×')}${NUM(c)}</span>` +
             `<span class="ws-pattern-choices">${chips}</span></div>`;
+          // the screen offers the page's own three arrays, in the page's order
+          // one picture size for all three (a smaller picture in one option would be a tell), as big as the widest fits
+          const opx = Math.min(30, Math.floor(150 / Math.max(...opts.map((o) => Math.max(o.r, o.c)))));
+          qa.push({ choose: true, eq: NUM(r) + OP('×') + NUM(c), q: `${r}x${c}`, opts: opts.map((o) => ({ label: `${o.r}x${o.c}`, html: iconArrayHtml(theme, nouns[i].noun, o.r, o.c, opx), ok: o.ok })) });
         } else if (mode === 'share-bins') {
           const bins = rng.int(L.binLo, L.binHi);
           const each = rng.int(L.eachLo, L.eachHi);
@@ -170,6 +197,8 @@ function makeArrayType(cfg) {
             `<span style="display:flex;gap:18px;width:80%;justify-content:center">${binEls}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             NUM(total) + OP(div) + NUM(bins) + OP('=') + answerBox({ w: 60, h: 48, answer: each }) + `</span></div>`;
+          qa.push({ visual: `<span style="display:flex;flex-direction:column;align-items:center;gap:12px;width:520px"><span style="display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:520px">${pile}</span><span style="display:flex;gap:18px;width:80%;justify-content:center">${binEls}</span></span>`,
+            eq: NUM(total) + OP(div) + NUM(bins) + OP('=') + QBOX, q: `${total}/${bins}`, a: each, d: [each + 1, each - 1, bins, each + 2] });
         } else if (mode === 'group-rings') {
           const k = rng.int(L.kLo, L.kHi);
           const groups = rng.int(L.gLo, L.gHi);
@@ -180,6 +209,7 @@ function makeArrayType(cfg) {
             `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">${rings}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             NUM(total) + OP(div) + NUM(k) + OP('=') + answerBox({ w: 60, h: 48, answer: groups }) + `</span></div>`;
+          qa.push({ visual: `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;max-width:600px">${rings}</span>`, eq: NUM(total) + OP(div) + NUM(k) + OP('=') + QBOX, q: `${total}/${k}`, a: groups, d: [groups + 1, groups - 1, k, groups + 2] });
         } else if (mode === 'fact-family') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
@@ -195,6 +225,13 @@ function makeArrayType(cfg) {
             `<span style="display:inline-flex;flex-direction:column;gap:8px">` +
             line(r, '*', c, r * c) + line(c, '*', r, r * c) + line(r * c, '/', r, c) + line(r * c, '/', c, r) +
             `</span></div>`;
+          // the screen asks the card's four facts one by one, each beside the same array
+          const arr = iconArrayHtml(theme, nouns[i].noun, r, c, px);
+          const fq = (x, op, y) => NUM(x) + OP(op === '*' ? '×' : div) + NUM(y) + OP('=') + QBOX;
+          qa.push({ visual: arr, eq: fq(r, '*', c), q: `${r}*${c}`, a: r * c, d: [r * c + c, r * c - r, r + c, r * c + 1] });
+          qa.push({ visual: arr, eq: fq(c, '*', r), q: `${c}*${r}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c - 1] });
+          qa.push({ visual: arr, eq: fq(r * c, '/', r), q: `${r * c}/${r}`, a: c, d: [c + 1, c - 1, r, c + 2] });
+          qa.push({ visual: arr, eq: fq(r * c, '/', c), q: `${r * c}/${c}`, a: r, d: [r + 1, r - 1, c, r + 2] });
         } else if (mode === 'missing-factor') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while (used.has(r + 'x' + c) && g < 30);
@@ -206,6 +243,7 @@ function makeArrayType(cfg) {
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             answerBox({ w: 56, h: 46, answer: r }) + OP('×') + NUM(c) + OP('=') + NUM(r * c) + `</span></div>`;
+          qa.push({ visual: iconArrayHtml(theme, nouns[i].noun, r, c, px), eq: QBOX + OP('×') + NUM(c) + OP('=') + NUM(r * c), q: `?*${c}=${r * c}`, a: r, d: [r + 1, r - 1, c, r + 2] });
         } else if (mode === 'area-grid') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while (used.has(r + 'x' + c) && g < 30);
@@ -215,6 +253,8 @@ function makeArrayType(cfg) {
             areaGridSvg(r, c, cell) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             NUM(r) + OP('×') + NUM(c) + OP('=') + answerBox({ w: 64, h: 50, answer: r * c }) + `</span></div>`;
+          // the perimeter (2r + 2c) is the classic area slip
+          qa.push({ visual: areaGridSvg(r, c, cell), eq: NUM(r) + OP('×') + NUM(c) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [2 * (r + c), r * c + c, r * c - r, r + c] });
         } else if (mode === 'commutative') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
@@ -227,11 +267,14 @@ function makeArrayType(cfg) {
             `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP('×')}${NUM(c)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(c)}${OP('×')}${NUM(r)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
             `</span></div>`;
+          qa.push({ visual: `<span style="display:inline-flex;gap:28px;align-items:center">${iconArrayHtml(theme, nouns[i].noun, r, c, px)}${iconArrayHtml(theme, nouns[i].noun, c, r, px)}</span>`,
+            eq: NUM(r) + OP('×') + NUM(c) + OP('=') + NUM(c) + OP('×') + NUM(r) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c + 1] });
         }
         cards.push(stage);
       }
       const cols = ['domino-add', 'dice-add'].includes(mode) ? 1 : (['rep-add', 'groups-mult', 'group-rings', 'share-bins'].includes(mode) ? 2 : 1);
-      return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(d.cards / cols) }), meta: {} };
+      // published pages keep meta {} (as shipped); a Level Set page names its facts. _ans (not meta) feeds the screen / key.
+      return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(d.cards / cols) }), meta: published ? {} : { facts: qa.map((x) => x.q) }, _ans: qa };
     },
 
     async verify(page) {

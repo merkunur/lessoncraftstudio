@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Conte as fileiras",
-    "instruction": "Conte as fileiras de figuras. Escreva quantas há no total."
+    "instruction": "Conte todas as figuras. Escreva quantas há no total."
   },
   "K-028": {
     "title": "Quantos no total?",
@@ -497,7 +497,7 @@
   },
   "G2-216": {
     "title": "Reparta com justiça",
-    "instruction": "Reparta a pilha igualmente nos cestos. Escreva quanto cada um recebe."
+    "instruction": "Reparta a pilha igualmente nos cestos. Escreva quantos cada um recebe."
   },
   "G2-217": {
     "title": "Quantos grupos?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Matrizes grandes",
-    "instruction": "Conte as fileiras de figuras. Escreva quantas há no total."
+    "instruction": "Conte todas as figuras. Escreva quantas há no total."
   },
   "G3-302": {
     "title": "Grupos difíceis",
@@ -649,7 +649,7 @@
   },
   "G3-309": {
     "title": "Divida em partes",
-    "instruction": "Reparta a pilha igualmente nos cestos. Escreva quanto cada um recebe."
+    "instruction": "Reparta a pilha igualmente nos cestos. Escreva quantos cada um recebe."
   },
   "G3-310": {
     "title": "Salte até o zero",

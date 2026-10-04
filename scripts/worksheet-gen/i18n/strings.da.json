@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Tæl i tabellen",
-    "instruction": "Tæl rækkerne af billeder. Skriv hvor mange i alt."
+    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt."
   },
   "K-028": {
     "title": "Hvor mange i alt?",
@@ -489,7 +489,7 @@
   },
   "G2-212": {
     "title": "Vælg tabellen",
-    "instruction": "Indkreds tabellen, der passer til multiplikationen."
+    "instruction": "Indkreds den opstilling, der passer til multiplikationen."
   },
   "G2-213": {
     "title": "Nemme grupper",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Store tabeller",
-    "instruction": "Tæl rækkerne af billeder. Skriv hvor mange i alt."
+    "instruction": "Tæl alle billederne. Skriv hvor mange der er i alt."
   },
   "G3-302": {
     "title": "Drilske grupper",
@@ -657,11 +657,11 @@
   },
   "G3-311": {
     "title": "Gangefamilier",
-    "instruction": "Brug tabellen til at færdiggøre alle fire regnestykker."
+    "instruction": "Brug opstillingen til at færdiggøre alle fire regnestykker."
   },
   "G3-312": {
     "title": "Den manglende faktor",
-    "instruction": "Se på tabellen. Skriv den manglende faktor."
+    "instruction": "Se på opstillingen. Skriv den manglende faktor."
   },
   "G3-313": {
     "title": "Tæl kvadraterne",
@@ -669,7 +669,7 @@
   },
   "G3-314": {
     "title": "Vend det om",
-    "instruction": "Begge tabeller viser det samme antal. Færdiggør begge regnestykker."
+    "instruction": "Begge opstillinger viser det samme antal. Færdiggør begge regnestykker."
   },
   "G3-315": {
     "title": "Navngiv brøken",

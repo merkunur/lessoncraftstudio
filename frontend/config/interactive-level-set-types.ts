@@ -10,6 +10,7 @@
 export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>([
   '2d-shapes',
   'alphabetical-order',
+  'arrays-multiplication',
   'articles',
   'capitals-punctuation',
   'compound-words',

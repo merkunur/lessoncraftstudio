@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Tel het rooster",
-    "instruction": "Tel de rijen plaatjes. Schrijf op hoeveel het er in totaal zijn."
+    "instruction": "Tel alle plaatjes. Schrijf op hoeveel het er in totaal zijn."
   },
   "K-028": {
     "title": "Hoeveel samen?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Grote roosters",
-    "instruction": "Tel de rijen plaatjes. Schrijf op hoeveel het er in totaal zijn."
+    "instruction": "Tel alle plaatjes. Schrijf op hoeveel het er in totaal zijn."
   },
   "G3-302": {
     "title": "Lastige groepen",

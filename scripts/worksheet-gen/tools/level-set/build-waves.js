@@ -181,8 +181,10 @@ for (const loc of LOCALES) {
   for (const [id, face] of Object.entries(cfg.faces)) {
     const spec = loadType(id);
     // the published theme may differ per locale (sv article cards: farm animals) — face.publishedByLoc
-    const published = (face.publishedByLoc && face.publishedByLoc[loc]) || face.published;
-    const usedInFace = published ? [published] : [];   // a NEW face has no published page (null)
+    // a face may have SEVERAL published themes (Arrays and Multiplication 2026-10-04: two themes per type at level 2)
+    const pubs = [].concat((face.publishedByLoc && face.publishedByLoc[loc]) || face.published || []).filter(Boolean);
+    const published = pubs[0] || null;
+    const usedInFace = pubs.slice();   // a NEW face has no published page
     // face.rotateUnits: each copy pins the next unit of the type's unitAxis (the bilingual partner language),
     // so the copies of a face cover the partner languages instead of repeating the exemplar
     const units = (face.unitsByLoc && face.unitsByLoc(loc)) || (face.rotateUnits && spec.unitAxis && spec.unitAxis.applicable ? spec.unitAxis.units(loc) : null);
@@ -198,7 +200,7 @@ for (const loc of LOCALES) {
       // cfg.faceWideDistinct === false: themes must differ within a LEVEL (what a teacher prints
       // together), may recur between levels of a face (the task differs) — for locales whose
       // buildable, unrelated themes cannot cover 15 copies (fi noun-case tables)
-      if (cfg.faceWideDistinct === false) usedInFace.length = published ? 1 : 0;
+      if (cfg.faceWideDistinct === false) usedInFace.length = pubs.length;
       (levels[id] = levels[id] || {})[lv] = [];
       // copies === 'all' (Picture Word Cards, 2026-09-29: "teachers should be able to find everything they need"):
       // one copy per buildable theme, colour AND black-and-white (a B&W set is its own picture set); at level 2 the
@@ -211,7 +213,7 @@ for (const loc of LOCALES) {
         // repeat "animals" in line art; "objects bw" is a topic of its own
         const keptBw = [];
         for (const t of all) {
-          if (Number(lv) === 2 && t === published) continue;
+          if (Number(lv) === 2 && pubs.includes(t)) continue;
           if (cfg.allSkipBwTwins && m.themes[t].bw) {
             if (colour.some((c) => twin(c, t)) || keptBw.some((k) => twin(k, t))) continue;
           }
@@ -247,7 +249,7 @@ for (const loc of LOCALES) {
         // cfg.reuseThemes: a second copy on an already used theme, with a page of (mostly) other nouns
         if (!pick && cfg.reuseThemes) {
           const seen = (acceptedWords[lv] = acceptedWords[lv] || []);
-          const cands = [...new Set([...(Number(lv) === 2 || !published ? [] : [published]), ...levels[id][lv].map((c) => c.theme), ...usedInFace])].filter((t) => !m.themes[t].bw && !(Number(lv) === 2 && t === published));
+          const cands = [...new Set([...(Number(lv) === 2 ? [] : pubs), ...levels[id][lv].map((c) => c.theme), ...usedInFace])].filter((t) => !m.themes[t].bw && !(Number(lv) === 2 && pubs.includes(t)));
           for (const t of cands) {
             if (themeAtCopy[copy] && themeAtCopy[copy].includes(t)) continue;
             if (!builds(spec, t, Number(lv), copy, loc, unit)) continue;

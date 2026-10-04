@@ -1403,5 +1403,46 @@
    "no": "Les gåten. Trykk på navnet til figuren.",
    "fi": "Lue arvoitus. Napauta kuvion nimeä."
   }
+ },
+ "arrays-multiplication": {
+  "count": {
+   "en": "Count all the pictures. Tap how many there are.",
+   "de": "Zähle alle Bilder. Tippe an, wie viele es sind.",
+   "es": "Cuenta todos los dibujos. Toca el número correcto.",
+   "fr": "Compte toutes les images. Touche le bon nombre.",
+   "it": "Conta tutte le immagini. Tocca il numero giusto.",
+   "pt": "Conte todas as figuras. Toque no número certo.",
+   "nl": "Tel alle plaatjes. Tik aan hoeveel het er zijn.",
+   "sv": "Räkna alla bilder. Tryck på hur många det är.",
+   "da": "Tæl alle billederne. Tryk på, hvor mange der er.",
+   "no": "Tell alle bildene. Trykk på hvor mange det er.",
+   "fi": "Laske kaikki kuvat. Napauta, montako niitä on."
+  },
+  "build": {
+   "en": "Read the multiplication. Tap the array that matches it.",
+   "de": "Lies die Malaufgabe. Tippe das Punktefeld an, das dazu passt.",
+   "es": "Lee la multiplicación. Toca el arreglo que coincide con ella.",
+   "fr": "Lis la multiplication. Touche le quadrillage qui lui correspond.",
+   "it": "Leggi la moltiplicazione. Tocca lo schieramento che le corrisponde.",
+   "pt": "Leia a multiplicação. Toque na matriz que combina com ela.",
+   "nl": "Lees de keersom. Tik het rooster aan dat erbij past.",
+   "sv": "Läs multiplikationen. Tryck på rutnätet som passar den.",
+   "da": "Læs multiplikationen. Tryk på den opstilling, der passer til den.",
+   "no": "Les multiplikasjonen. Trykk på rutenettet som passer til den.",
+   "fi": "Lue kertolasku. Napauta ruudukkoa, joka vastaa sitä."
+  },
+  "missing": {
+   "en": "Look at the picture. Tap the number that belongs in the empty box.",
+   "de": "Schau dir das Bild an. Tippe die Zahl an, die in das leere Kästchen gehört.",
+   "es": "Mira el dibujo. Toca el número que va en la casilla vacía.",
+   "fr": "Regarde l’image. Touche le nombre qui va dans la case vide.",
+   "it": "Guarda il disegno. Tocca il numero che va nella casella vuota.",
+   "pt": "Observe a figura. Toque no número que vai no quadradinho vazio.",
+   "nl": "Kijk naar het plaatje. Tik het getal aan dat in het lege hokje hoort.",
+   "sv": "Titta på bilden. Tryck på talet som ska stå i den tomma rutan.",
+   "da": "Se på billedet. Tryk på det tal, der skal stå i det tomme felt.",
+   "no": "Se på bildet. Trykk på tallet som skal stå i den tomme ruten.",
+   "fi": "Katso kuvaa. Napauta lukua, joka kuuluu tyhjään ruutuun."
+  }
  }
 }

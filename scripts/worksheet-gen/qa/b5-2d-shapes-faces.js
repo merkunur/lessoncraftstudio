@@ -392,7 +392,8 @@ async function faceGate({ page, ok, judge, fails, pngs, validateBank, syntheticB
     const t = TYPES[x.id];
     ok(t.i18n.en.title === en.strings[x.mode].title && t.i18n.en.instruction === en.strings[x.mode].instruction, `${x.id}: i18n.en ${JSON.stringify(t.i18n.en)} ≠ the bank strings.${x.mode}`);
     ok(t.gradeBand === x.band, `${x.id}: gradeBand ${t.gradeBand} ≠ ${x.band}`);
-    ok(t.difficulty[2].mode === x.mode && t.difficulty[1] === t.difficulty[2] && t.difficulty[3] === t.difficulty[2], `${x.id}: difficulty is not one ${x.mode} config for all three levels`);
+    // Level Set 2026-10-04: levels 1 / 3 are real easier / harder pages of the SAME face (level 2 = the shipped config)
+    ok([1, 2, 3].every((l) => t.difficulty[l] && t.difficulty[l].mode === x.mode), `${x.id}: a level is not a ${x.mode} config`);
     ok(!!strEn[x.id] && strEn[x.id].title === t.i18n.en.title, `${x.id}: i18n/strings.en.json ≠ the face title (run node i18n/build-en.js)`);
   }
   const face = (id) => FACES.find((x) => x.id === id);

@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-372',
   slug: '2d-shapes-draw-on-dots',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config); a drawing has no screen version (PDF only)
+  interactive: undefined,
+  difficulty: { 1: { ...D, givens: 'all' }, 2: { ...D, givens: 'some' }, 3: { ...D, givens: 'rect' } },
   i18n: { en: { title: "Draw 2D Shapes on Dot Paper", instruction: "Read the shape name and join the dots to draw it, starting from the thick line where there is one." } },
 };

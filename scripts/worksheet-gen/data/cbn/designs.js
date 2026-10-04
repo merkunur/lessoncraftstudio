@@ -83,6 +83,7 @@ const DESIGNS = [
 
 // batches (2026-10-05 onward): each batch file is reviewed against docs/worksheet-gen/cbn-review-checklist.md
 DESIGNS.push(...require('./designs-b1.js').B1);
+DESIGNS.push(...require('./designs-b2.js').B2);
 
 function build(design) { const a = new Art(W, H); design.draw(a); return a; }
 

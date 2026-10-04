@@ -175,7 +175,7 @@ function owl(a, body = 'brown', belly = 'yellow', face_ = 'none', feet = 'orange
   a.region(circle(-27, -34, 28), face_, 'eye patch'); a.region(circle(27, -34, 28), face_, 'eye patch');
   eye(a, -28, -34, 1.5); eye(a, 28, -34, 1.5);
   a.region(poly([[-16, -30], [16, -30], [0, 6]], 4), 'orange', 'beak');
-  [-17, 17].forEach((x) => a.region(blob([[x - 16, 86], [x + 16, 86], [x + 12, 100], [x, 94], [x - 12, 100]], 1), feet, 'foot'));
+  [-19, 19].forEach((x) => a.region(blob([[x - 19, 84], [x + 19, 84], [x + 15, 104], [x, 96], [x - 15, 104]], 1), feet, 'foot'));
 }
 function turtle(a, shell_ = 'green', skin = 'lightgreen', plates = 'brown') {
   a.region(ellipse(-62, 46, 28, 20), skin, 'leg'); a.region(ellipse(56, 46, 28, 20), skin, 'leg');

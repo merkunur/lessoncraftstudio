@@ -113,13 +113,13 @@ function penguin(a, body = 'black', front = 'none', beak = 'orange') {
   a.region(poly([[-21, -40], [21, -40], [0, -8]], 5), beak, 'beak');
 }
 function chick(a, fluff = 'yellow', beak = 'orange') {
-  a.region(poly([[-20, 76], [-30, 96], [-10, 96]], 3), beak, 'foot'); a.region(poly([[20, 76], [10, 96], [30, 96]], 3), beak, 'foot');
+  void 0; a.line('M-20 80V100M-32 104L-20 100L-10 104M20 80V100M10 104L20 100L32 104', 4);   // little legs: ink (too thin to number)
   a.region(ellipse(0, 26, 66, 58), fluff, 'chick body');
   a.region(blob([[-60, 14], [-96, 0], [-88, 34], [-56, 44]], 1), fluff, 'wing');
   a.region(circle(0, -50, 46), fluff, 'chick head');
-  a.region(blob([[-6, -92], [-14, -118], [4, -106], [14, -122], [12, -94]], 1), fluff, 'tuft');
+  a.region(blob([[-12, -88], [-24, -126], [0, -110], [18, -130], [16, -88]], 1), fluff, 'tuft');
   eye(a, -16, -56, 1.15); eye(a, 16, -56, 1.15);
-  a.region(poly([[-12, -40], [12, -40], [0, -24]], 3), beak, 'beak');
+  a.region(poly([[-20, -46], [20, -46], [0, -14]], 5), beak, 'beak');
 }
 function ladybird(a, shell = 'red', head = 'black') {
   a.line(curve([[-22, -60], [-34, -86], [-48, -92]]), 2.8); a.line(curve([[22, -60], [34, -86], [48, -92]]), 2.8);
@@ -138,11 +138,12 @@ function whale(a, body = 'blue', belly = 'lightblue') {
   a.line('M30 -78Q20 -112 0 -122M34 -78Q34 -118 40 -132M38 -78Q52 -110 74 -118', 3);
 }
 function pig(a, skin = 'pink', snout = 'pink') {
-  a.region(rrect(-58, 20, 26, 60, 10), skin, 'leg'); a.region(rrect(-30, 24, 26, 60, 10), skin, 'leg');
-  a.region(rrect(30, 24, 26, 60, 10), skin, 'leg'); a.region(rrect(56, 20, 26, 60, 10), skin, 'leg');
-  a.line(curve([[-94, -10], [-112, -22], [-104, -38], [-92, -28], [-104, -14]]), 3);
+  // legs in overlapping pairs (side by side with a gap they left slits)
+  a.region(rrect(-64, 20, 28, 62, 10), skin, 'leg'); a.region(rrect(-42, 24, 28, 62, 10), skin, 'leg');
+  a.region(rrect(28, 24, 28, 62, 10), skin, 'leg'); a.region(rrect(50, 20, 28, 62, 10), skin, 'leg');
+  a.line(curve([[-94, -10], [-114, -18], [-114, -36], [-100, -38]]), 3);   // an OPEN curl: a closed loop would trap a crumb of background
   a.region(ellipse(0, 0, 96, 60), skin, 'pig body');
-  a.region(poly([[60, -86], [74, -126], [96, -88]], 8), skin, 'ear'); a.region(poly([[112, -88], [134, -122], [140, -80]], 8), skin, 'ear');
+  a.region(poly([[56, -80], [68, -134], [108, -88]], 9), skin, 'ear'); a.region(poly([[96, -88], [138, -132], [148, -76]], 9), skin, 'ear');   // the ears cross INSIDE the head: the notch between them opens upward, no pocket
   a.region(circle(102, -48, 50), skin, 'pig head');
   a.region(ellipse(114, -30, 28, 20), snout, 'snout');
   a.ink(ellipse(104, -30, 4.5, 6)); a.ink(ellipse(124, -30, 4.5, 6));

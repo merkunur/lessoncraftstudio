@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Reihen zählen",
-    "instruction": "Zähle die Reihen mit Bildern. Schreibe auf, wie viele es zusammen sind."
+    "instruction": "Zähle alle Bilder. Schreibe auf, wie viele es zusammen sind."
   },
   "K-028": {
     "title": "Wie viele zusammen?",
@@ -481,7 +481,7 @@
   },
   "G2-210": {
     "title": "Vom Plus zum Mal",
-    "instruction": "Zähle die gleichen Gruppen. Vervollständige die Malaufgabe."
+    "instruction": "Zähle die gleich großen Gruppen. Vervollständige die Malaufgabe."
   },
   "G2-211": {
     "title": "Reihen und Spalten",
@@ -637,11 +637,11 @@
   },
   "G3-301": {
     "title": "Große Punktefelder",
-    "instruction": "Zähle die Reihen mit Bildern. Schreibe auf, wie viele es zusammen sind."
+    "instruction": "Zähle alle Bilder. Schreibe auf, wie viele es zusammen sind."
   },
   "G3-302": {
     "title": "Knifflige Gruppen",
-    "instruction": "Zähle die gleichen Gruppen. Vervollständige die Malaufgabe."
+    "instruction": "Zähle die gleich großen Gruppen. Vervollständige die Malaufgabe."
   },
   "G3-308": {
     "title": "Mal-Sprünge",

@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Tell i rader",
-    "instruction": "Tell radene med bilder. Skriv hvor mange det er til sammen."
+    "instruction": "Tell alle bildene. Skriv hvor mange det er til sammen."
   },
   "K-028": {
     "title": "Hvor mange til sammen?",
@@ -481,7 +481,7 @@
   },
   "G2-210": {
     "title": "Fra pluss til ganger",
-    "instruction": "Tell de like gruppene. Fullfør multiplikasjonen."
+    "instruction": "Tell de like store gruppene. Fullfør multiplikasjonen."
   },
   "G2-211": {
     "title": "Rader og kolonner",
@@ -493,7 +493,7 @@
   },
   "G2-213": {
     "title": "Lette grupper",
-    "instruction": "Tell de like gruppene. Fullfør multiplikasjonen."
+    "instruction": "Tell de like store gruppene. Fullfør multiplikasjonen."
   },
   "G2-216": {
     "title": "Del likt",
@@ -501,7 +501,7 @@
   },
   "G2-217": {
     "title": "Hvor mange grupper?",
-    "instruction": "Ringene lager like grupper. Skriv hvor mange grupper det er."
+    "instruction": "Ringene lager like store grupper. Skriv hvor mange grupper det er."
   },
   "G2-218": {
     "title": "Oddetalljakt",
@@ -637,11 +637,11 @@
   },
   "G3-301": {
     "title": "Store rutenett",
-    "instruction": "Tell radene med bilder. Skriv hvor mange det er til sammen."
+    "instruction": "Tell alle bildene. Skriv hvor mange det er til sammen."
   },
   "G3-302": {
     "title": "Vanskelige grupper",
-    "instruction": "Tell de like gruppene. Fullfør multiplikasjonen."
+    "instruction": "Tell de like store gruppene. Fullfør multiplikasjonen."
   },
   "G3-308": {
     "title": "Gangehopp",
@@ -669,7 +669,7 @@
   },
   "G3-314": {
     "title": "Snu det rundt",
-    "instruction": "Begge rutenettene viser samme sum. Fullfør begge regnestykkene."
+    "instruction": "Begge rutenettene viser samme antall. Fullfør begge regnestykkene."
   },
   "G3-315": {
     "title": "Hvilken brøk?",

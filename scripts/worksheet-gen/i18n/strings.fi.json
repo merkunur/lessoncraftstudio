@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Laske ruudukko",
-    "instruction": "Laske kuvarivit. Kirjoita, montako kaikkiaan."
+    "instruction": "Laske kaikki kuvat. Kirjoita, montako niitä on kaikkiaan."
   },
   "K-028": {
     "title": "Montako yhteensä?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Isot ruudukot",
-    "instruction": "Laske kuvarivit. Kirjoita, montako kaikkiaan."
+    "instruction": "Laske kaikki kuvat. Kirjoita, montako niitä on kaikkiaan."
   },
   "G3-302": {
     "title": "Vaikeat ryhmät",
@@ -669,7 +669,7 @@
   },
   "G3-314": {
     "title": "Käännä ympäri",
-    "instruction": "Molemmat ruudukot näyttävät saman summan. Täydennä molemmat laskut."
+    "instruction": "Molemmat ruudukot näyttävät saman määrän. Täydennä molemmat laskut."
   },
   "G3-315": {
     "title": "Nimeä murtoluku",

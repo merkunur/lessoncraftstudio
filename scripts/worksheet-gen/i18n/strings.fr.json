@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Compter le quadrillage",
-    "instruction": "Compte les rangées d'images. Écris combien il y en a en tout."
+    "instruction": "Compte toutes les images. Écris combien il y en a en tout."
   },
   "K-028": {
     "title": "Combien en tout ?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Grands quadrillages",
-    "instruction": "Compte les rangées d'images. Écris combien il y en a en tout."
+    "instruction": "Compte toutes les images. Écris combien il y en a en tout."
   },
   "G3-302": {
     "title": "Groupes rusés",

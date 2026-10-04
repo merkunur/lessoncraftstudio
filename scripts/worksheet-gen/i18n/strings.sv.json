@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Räkna i rader",
-    "instruction": "Räkna raderna med bilder. Skriv hur många det är totalt."
+    "instruction": "Räkna alla bilder. Skriv hur många det är totalt."
   },
   "K-028": {
     "title": "Hur många tillsammans?",
@@ -481,7 +481,7 @@
   },
   "G2-210": {
     "title": "Från addition till gånger",
-    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+    "instruction": "Räkna de lika stora grupperna. Gör klart multiplikationen."
   },
   "G2-211": {
     "title": "Rader och kolumner",
@@ -493,7 +493,7 @@
   },
   "G2-213": {
     "title": "Enkla grupper",
-    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+    "instruction": "Räkna de lika stora grupperna. Gör klart multiplikationen."
   },
   "G2-216": {
     "title": "Dela lika",
@@ -501,7 +501,7 @@
   },
   "G2-217": {
     "title": "Hur många grupper?",
-    "instruction": "Ringarna gör lika grupper. Skriv hur många grupper det är."
+    "instruction": "Ringarna bildar lika stora grupper. Skriv hur många grupper det är."
   },
   "G2-218": {
     "title": "Jakt på udda tal",
@@ -637,11 +637,11 @@
   },
   "G3-301": {
     "title": "Stora rutnät",
-    "instruction": "Räkna raderna med bilder. Skriv hur många det är totalt."
+    "instruction": "Räkna alla bilder. Skriv hur många det är totalt."
   },
   "G3-302": {
     "title": "Kluriga grupper",
-    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+    "instruction": "Räkna de lika stora grupperna. Gör klart multiplikationen."
   },
   "G3-308": {
     "title": "Multiplikationshopp",

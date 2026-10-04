@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Count the Array",
-    "instruction": "Count the rows of pictures. Write how many in all."
+    "instruction": "Count all the pictures. Write how many there are in all."
   },
   "K-028": {
     "title": "How Many Altogether?",
@@ -2633,7 +2633,7 @@
   },
   "G3-301": {
     "title": "Big Arrays",
-    "instruction": "Count the rows of pictures. Write how many in all."
+    "instruction": "Count all the pictures. Write how many there are in all."
   },
   "G3-302": {
     "title": "Tricky Groups",

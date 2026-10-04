@@ -93,7 +93,7 @@
   },
   "K-027": {
     "title": "Cuenta el arreglo",
-    "instruction": "Cuenta las filas de dibujos. Escribe cuántos hay en total."
+    "instruction": "Cuenta todos los dibujos. Escribe cuántos hay en total."
   },
   "K-028": {
     "title": "¿Cuántos en total?",
@@ -497,7 +497,7 @@
   },
   "G2-216": {
     "title": "Reparte por igual",
-    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos toca a cada uno."
+    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos le tocan a cada uno."
   },
   "G2-217": {
     "title": "¿Cuántos grupos?",
@@ -637,7 +637,7 @@
   },
   "G3-301": {
     "title": "Arreglos grandes",
-    "instruction": "Cuenta las filas de dibujos. Escribe cuántos hay en total."
+    "instruction": "Cuenta todos los dibujos. Escribe cuántos hay en total."
   },
   "G3-302": {
     "title": "Grupos difíciles",
@@ -649,7 +649,7 @@
   },
   "G3-309": {
     "title": "Repártelo",
-    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos toca a cada uno."
+    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos le tocan a cada uno."
   },
   "G3-310": {
     "title": "Salta hasta cero",

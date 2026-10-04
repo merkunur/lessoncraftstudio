@@ -2268,5 +2268,20 @@
    "no": "Spor det stiplede ordet, og skriv det så på linjen under.",
    "fi": "Lue valmis sana. Jäljennä katkoviivat ja kirjoita sana itse."
   }
+ },
+ "K-368": {
+  "1": {
+   "en": "Look at each shape, even the turned ones, and circle its name.",
+   "de": "Schau dir jede Form an, auch die gedrehten, und kreise ihren Namen ein.",
+   "es": "Mira cada figura, aunque esté girada, y rodea su nombre.",
+   "fr": "Regarde chaque figure, même tournée, et entoure son nom.",
+   "it": "Guarda ogni figura, anche quelle girate, e cerchia il suo nome.",
+   "pt": "Observe cada figura, até as viradas, e circule o nome dela.",
+   "nl": "Kijk naar elke figuur, ook de gedraaide, en omcirkel de goede naam.",
+   "sv": "Titta på varje form, också de vridna, och ringa in formens namn.",
+   "da": "Se på hver figur, også de drejede, og sæt ring om dens navn.",
+   "no": "Se på hver figur, også de som er snudd, og ring rundt navnet til figuren.",
+   "fi": "Katso jokaista kuviota, myös käännettyjä, ja rengasta kuvion nimi."
+  }
  }
 }

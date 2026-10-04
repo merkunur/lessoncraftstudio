@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-383',
   slug: '2d-shape-riddles',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/2d-shapes-screen.js').interactiveFor('riddles'),
+  difficulty: { 1: { ...D, cards: 4, tags: 2, cols: 1, rows: 4 }, 2: D, 3: { ...D, tags: 4 } },
   i18n: { en: { title: "2D Shape Riddles", instruction: "Read each riddle and circle the name of the shape." } },
   gradeBand: "G1",
 };

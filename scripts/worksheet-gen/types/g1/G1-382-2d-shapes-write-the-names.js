@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-382',
   slug: '2d-shapes-write-the-names',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/2d-shapes-screen.js').interactiveFor('write-name'),
+  difficulty: { 1: { ...D, lanes: 4, turnedMin: 1, lens: 96, R: [33, 44], rowW: 529, rowH: 76, glyphH: 34 }, 2: D, 3: { ...D, lanes: 7, turnedMin: 4 } },
   i18n: { en: { title: "2D Shapes: Write the Names", instruction: "Look at each shape and write its name on the line, using the names in the box." } },
   gradeBand: "G1",
 };

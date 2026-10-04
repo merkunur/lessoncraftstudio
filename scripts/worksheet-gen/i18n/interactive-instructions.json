@@ -1336,5 +1336,72 @@
    "no": "Les ordet stavelse for stavelse. Trykk på bildet som passer.",
    "fi": "Lue sana tavu kerrallaan. Napauta sen kuvaa."
   }
+ },
+ "2d-shapes": {
+  "base": {
+   "en": "Look at the shape. Tap its name.",
+   "de": "Schau dir die Form an. Tippe ihren Namen an.",
+   "es": "Mira la figura. Toca su nombre.",
+   "fr": "Regarde la figure. Touche son nom.",
+   "it": "Guarda la figura. Tocca il suo nome.",
+   "pt": "Observe a figura. Toque no nome dela.",
+   "nl": "Kijk naar de figuur. Tik de goede naam aan.",
+   "sv": "Titta på formen. Tryck på formens namn.",
+   "da": "Se på figuren. Tryk på dens navn.",
+   "no": "Se på figuren. Trykk på navnet til figuren.",
+   "fi": "Katso kuviota. Napauta kuvion nimeä."
+  },
+  "real-or-not": {
+   "en": "Read the name. Tap every shape that really is that shape.",
+   "de": "Lies den Namen. Tippe alle Formen an, die wirklich so heißen.",
+   "es": "Lee el nombre. Toca todas las figuras que de verdad son esa figura.",
+   "fr": "Lis le nom. Touche toutes les figures qui portent vraiment ce nom.",
+   "it": "Leggi il nome. Tocca tutte le figure che sono davvero quella figura.",
+   "pt": "Leia o nome. Toque em todas as figuras que são mesmo aquela figura.",
+   "nl": "Lees de naam. Tik alle figuren aan die echt zo heten.",
+   "sv": "Läs namnet. Tryck på alla former som verkligen är en sådan form.",
+   "da": "Læs navnet. Tryk på alle de figurer, der virkelig er den figur.",
+   "no": "Les navnet. Trykk på alle figurene som virkelig er en slik figur.",
+   "fi": "Lue nimi. Napauta jokaista kuviota, joka todella on sen niminen."
+  },
+  "around-us": {
+   "en": "Look at the picture. Tap the shape it has: the circle or the rectangle.",
+   "de": "Schau dir das Bild an. Tippe die Form an, die es hat: den Kreis oder das Rechteck.",
+   "es": "Mira el dibujo. Toca la figura que tiene: el círculo o el rectángulo.",
+   "fr": "Regarde l’image. Touche la forme de l’objet : le cercle ou le rectangle.",
+   "it": "Guarda il disegno. Tocca la figura che ha: il cerchio o il rettangolo.",
+   "pt": "Observe o objeto. Toque na figura que ele tem: o círculo ou o retângulo.",
+   "nl": "Kijk naar het plaatje. Tik de vorm aan die het heeft: de cirkel of de rechthoek.",
+   "sv": "Titta på bilden. Tryck på den form som saken har: cirkel eller rektangel.",
+   "da": "Se på billedet. Tryk på den figur, tingen har form som: cirkel eller rektangel.",
+   "no": "Se på bildet. Trykk på figuren som tingen har: sirkel eller rektangel.",
+   "fi": "Katso kuvaa. Napauta kuviota, jonka muotoinen esine on: ympyrä tai suorakulmio."
+  },
+  "write-name": {
+   "en": "Look at the shape. Tap its name.",
+   "de": "Schau dir die Form an. Tippe ihren Namen an.",
+   "es": "Mira la figura. Toca su nombre.",
+   "fr": "Regarde la figure. Touche son nom.",
+   "it": "Guarda la figura. Tocca il suo nome.",
+   "pt": "Observe a figura. Toque no nome dela.",
+   "nl": "Kijk naar de figuur. Tik de goede naam aan.",
+   "sv": "Titta på formen. Tryck på formens namn.",
+   "da": "Se på figuren. Tryk på dens navn.",
+   "no": "Se på figuren. Trykk på navnet til figuren.",
+   "fi": "Katso kuviota. Napauta kuvion nimeä."
+  },
+  "riddles": {
+   "en": "Read the riddle. Tap the name of the shape.",
+   "de": "Lies das Rätsel. Tippe den Namen der Form an.",
+   "es": "Lee la adivinanza. Toca el nombre de la figura.",
+   "fr": "Lis la devinette. Touche le nom de la figure.",
+   "it": "Leggi l’indovinello. Tocca il nome della figura.",
+   "pt": "Leia a adivinha. Toque no nome da figura.",
+   "nl": "Lees het raadsel. Tik de naam van de figuur aan.",
+   "sv": "Läs gåtan. Tryck på formens namn.",
+   "da": "Læs gåden. Tryk på navnet på figuren.",
+   "no": "Les gåten. Trykk på navnet til figuren.",
+   "fi": "Lue arvoitus. Napauta kuvion nimeä."
+  }
  }
 }

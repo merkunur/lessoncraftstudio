@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'K-371',
   slug: '2d-shapes-around-us',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/2d-shapes-screen.js').interactiveFor('around-us'),
+  difficulty: { 1: { ...D, items: 6, split: { circle: 3, rectangle: 3 }, rows: 3 }, 2: D, 3: { ...D, splits: [{ circle: 5, rectangle: 3 }, { circle: 3, rectangle: 5 }], runMax: 3 } },
   i18n: { en: { title: "2D Shapes Around Us", instruction: "Look at each picture and color the shape it has: the circle or the rectangle." } },
 };

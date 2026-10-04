@@ -210,6 +210,7 @@ const { flatShape, unitPolygon } = require('../../primitives/flat-shape.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const { rulingBlock, wordBank } = require('../../templates/components-b2.js');
 const OBJECTS = require('../../data/b5/2d-shapes.js').OBJECTS;
+const SCREEN = require('../../lib/2d-shapes-screen.js');
 const G1_FLOOR_W = 30, G1_FLOOR_E = 45, TAG_H_G1 = 44, PAGE_TRIES = 400;
 
 /** a rotation that is EXACTLY level or clearly turned (15..75°): a 1-8° tilt reads as a drawing slip, not as a turn (read 2026-09-23) */
@@ -355,13 +356,19 @@ function f2Cfg(d) {
   return c;
 }
 function buildAroundUs(block, d, loc, rng) {
-  const cfg = f2Cfg(d);
-  const objects = block.objects || OBJECTS;
+  // Level Set harder level: an UNEVEN split drawn per page (5 + 3 or 3 + 5) — the child cannot lean on "half and half"
+  const cfg = f2Cfg(d.levelSet && d.splits ? { ...d, split: rng.pick(d.splits) } : d);
+  // Level Set 2026-10-04: new pages draw from every opened object; the published page keeps the original nine
+  const objects = (block.objects || OBJECTS).filter((o) => cfg.levelSet || !o.levelSet);
   const names = namesFor(block, ['circle', 'rectangle'], loc);
   const strings = faceStrings(block, 'around-us', loc);
   const byShape = (s) => objects.filter((o) => o.shape === s && o.picOpened === true);
   for (const s of ['circle', 'rectangle']) if (byShape(s).length < cfg.split[s]) throw new Error(`${ID} around-us: ${byShape(s).length} opened ${s} objects < ${cfg.split[s]}`);
-  const chosen = [...rng.sample(byShape('circle'), cfg.split.circle), ...rng.sample(byShape('rectangle'), cfg.split.rectangle)];
+  // a Level Set page never repeats a thing (two plates); the published page's draw is untouched
+  const pickShape = (s, n) => { const seen = new Set(); return rng.shuffle(byShape(s)).filter((o) => !seen.has(o.noun) && seen.add(o.noun)).slice(0, n); };
+  const chosen = cfg.levelSet ? [...pickShape('circle', cfg.split.circle), ...pickShape('rectangle', cfg.split.rectangle)]
+    : [...rng.sample(byShape('circle'), cfg.split.circle), ...rng.sample(byShape('rectangle'), cfg.split.rectangle)];
+  if (new Set(chosen.map((o) => o.noun)).size !== chosen.length) throw new Error(`${ID} around-us: two pictures of one thing on a page`);
   for (let t = 0; t < PAGE_TRIES; t++) {
     const order = rng.shuffle(chosen);
     const ans = order.map((o) => o.shape);
@@ -425,7 +432,9 @@ function buildWriteName(block, d, loc, rng) {
     const stamp = { mode: 'write-name', lanes: cfg.lanes, turnedMin: cfg.turnedMin, elongated: cfg.elongated, lens: cfg.lens, floorW: cfg.floorW, floorE: cfg.floorE, bankKinds: bank };
     const inner = `<div data-lcs-stage style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column">${bankHtml}` +
       `<div style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column;gap:8px">${lanes.join('')}</div></div>`;
-    return { bodyHtml: root('write-name', stamp, names, inner), meta: { cfg: stamp, strings, answers: placed.map((s) => s.kind), bank } };
+    return { bodyHtml: root('write-name', stamp, names, inner), meta: { cfg: stamp, strings, answers: placed.map((s) => s.kind), bank,
+      // Level Set pages stamp what each lane draws (build-waves compares copies by it); the published meta is unchanged
+      ...(cfg.levelSet ? { figs: placed.map((s) => `${s.kind}/${s.sub || ''}/${Math.round(((s.rot || 0) % 90) / 15)}/${s.aspect >= 1.95 ? 'long' : ''}`) } : {}) } };
   }
   throw new Error(`${ID} write-name: no page met turned >= ${cfg.turnedMin} and a bank order off the answer order in ${PAGE_TRIES} tries`);
 }
@@ -448,7 +457,7 @@ const RIDDLE_NEVER = { square: ['rectangle'] };
 function f4Cfg(d) {
   const c = { cards: 5, tags: 3, tagW: 132, tagH: 44, tagPx: 18, px: 16, lh: 20, slotMaxShare: 0.6, cols: 2, rows: 3, ...d };
   if (!(c.cards >= 4 && c.cards <= 5) || c.cols * c.rows < c.cards || c.cols * (c.rows - 1) >= c.cards) throw new Error(`${ID} riddles: ${c.cards} cards in a ${c.cols}x${c.rows} grid (4-5 cards: one per kind, never a fact twice)`);
-  if (c.tags !== 3) throw new Error(`${ID} riddles: ${c.tags} tags (the shipped face offers 3)`);
+  if (!(c.tags === 3 || (c.levelSet && c.tags >= 2 && c.tags <= 4))) throw new Error(`${ID} riddles: ${c.tags} tags (the shipped face offers 3; a Level Set page 2-4)`);
   if (!(c.tagH >= TAG_H_G1 && c.px >= 16)) throw new Error(`${ID} riddles: tag ${c.tagH} / text ${c.px} px below the G1 floors ${TAG_H_G1} / 16`);
   return c;
 }
@@ -503,8 +512,26 @@ function f5Cfg(d) {
   });
   return c;
 }
+/**
+ * Level Set 2026-10-04: a new page draws WHICH shape goes on which card and HOW LONG each given side is (the
+ * published page keeps its fixed list). `givens`: 'all' (every square / rectangle card starts from a side),
+ * 'some' (the published mix: the first square bare, the others given), 'rect' (only the rectangle starts from a side:
+ * every square is drawn from nothing — a rectangle card always carries its side, the gate's rule).
+ */
+function levelSetDots(d, rng) {
+  const kinds = rng.shuffle(d.kindPool || d.kinds);
+  let firstSquare = true;
+  const given = kinds.map((k) => {
+    if (k === 'triangle' || (d.givens === 'rect' && k === 'square')) return null;
+    if (d.givens === 'some' && k === 'square' && firstSquare) { firstSquare = false; return null; }
+    // a rectangle side must be one NO square can be finished on (6-lattice: only 4, set in the middle) — 2 or 3 always closes as a square somewhere
+    const L = k === 'square' ? rng.pick([2, 3, 4]) : 4;
+    return rng.next() < 0.5 ? [L, 0] : [0, L];
+  });
+  return { ...d, kinds, given };
+}
 function buildDotDraw(block, d, loc, rng) {
-  const cfg = f5Cfg(d);
+  const cfg = f5Cfg(d.levelSet ? levelSetDots(d, rng) : d);
   const names = namesFor(block, [...new Set(cfg.kinds)], loc);
   const strings = faceStrings(block, 'dot-draw', loc);
   const placed = cfg.kinds.map((k, i) => {
@@ -787,12 +814,34 @@ module.exports = {
   CORE,
   slotPatternTell,
   shapeName, stringsFor, riddle,
+  // Level Set 2026-10-04: the screen version of new pages (each face declares its own; dot-draw has none)
+  interactive: SCREEN.interactiveFor('base'),
+  /** Level Set copies: what makes two pages of one level different (build-waves measures the overlap of these). */
+  levelSetWords(m) {
+    const rb = (r) => Math.round((((r || 0) % 90) + 90) % 90 / 15);
+    if (m.cards && m.cfg && m.cfg.mode === 'dot-draw') return m.cards.map((c, i) => `${i}:${c.kind}:${c.given ? Math.abs(c.given[2] - c.given[0]) + Math.abs(c.given[3] - c.given[1]) + (c.given[2] === c.given[0] ? 'v' : 'h') : '-'}`);
+    if (m.cards) return m.cards.map((c) => `${c.kind}/${c.sub || ''}/${rb(c.rot)}/${c.aspect >= 2.2 ? 'long' : ''}`);
+    if (m.rows) return m.rows.flatMap((r) => r.figs.map((f) => `${r.target}:${f.kind}/${f.sub || ''}/${f.variant || 'none'}/${rb(f.rot)}`));
+    if (m.objects) return m.objects;
+    if (m.figs) return m.figs;
+    if (m.riddles) return m.riddles;
+    return m.answers || [];
+  },
 
   build({ difficulty, locale }, ctx) {
     const loc = String(locale || 'en').slice(0, 2);
     const d = this.difficulty[difficulty];
     if (!d) throw new Error(`${ID}: no difficulty ${difficulty}`);
-    return this._buildWith(loadBank(KEY, loc), d, { locale: loc }, ctx);
+    // the published page (level 2, copy 1) builds exactly as it shipped; every Level Set page carries the mark
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const block = loadBank(KEY, loc);
+    const dd = published ? d : { ...d, levelSet: true };
+    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
+      const built = this._buildWith(block, dd, { locale: loc }, { ...ctx, interactive: false, answerKey: false });
+      return SCREEN.screenOrKey(dd.mode || 'base', built, ctx, loc, block);
+    }
+    return this._buildWith(block, dd, { locale: loc }, ctx);
   },
 
   /** The whole build over an INJECTED bank block + resolved config (the gate's poison seam); build() passes the real ones. */

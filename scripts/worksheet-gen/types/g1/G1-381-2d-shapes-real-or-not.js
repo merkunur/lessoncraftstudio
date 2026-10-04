@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-381',
   slug: '2d-shapes-real-or-not',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config) + the screen version
+  interactive: require('../../lib/2d-shapes-screen.js').interactiveFor('real-or-not'),
+  difficulty: { 1: { ...D, rows: ['triangle', 'square'], perRow: 3, trueMax: 2, lens: 168, R: [40, 72], nearR: [44, 72], turnedMin: 1, skinnyMin: 0 }, 2: D, 3: { ...D, rows: ['square', 'triangle', 'rectangle'], turnedMin: 4, skinnyMin: 2 } },
   i18n: { en: { title: "2D Shapes: Real or Not?", instruction: "Read the name in each row and circle every shape that really is that shape." } },
   gradeBand: "G1",
 };

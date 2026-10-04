@@ -112,6 +112,13 @@ const OBJECTS = [
   // landing-panel round 1 (2026-09-23): the tablet has ROUNDED corners — K-371 called it a rectangle while G1-381
   // teaches that a rounded-corner outline is NOT one. Replaced by the wall map (opened: a crisp square-cornered sheet).
   { theme: 'classroom', noun: 'map', shape: 'rectangle', picOpened: true },
+  // Level Set 2026-10-04 (new pages only — the published page draws from the nine above): opened on a contact sheet of
+  // 88 library pictures; only FLAT, square-cornered / truly round fronts kept. Rejected there: every sphere (orange,
+  // ball, moon, globe, planet), every slice / 3D box (cheese, butter, cake, sponge, dice, juice box, lunchbox), rounded
+  // corners (cards, keyboard, tablet), extras that hide the shape (wreath bow, medal ribbon, alarm-clock bells, compass
+  // ring, sun rays, the square-backed space/sun), the arched window, the waving flag, the open letter.
+  { theme: 'Things That Fly', noun: 'frisbee', shape: 'circle', picOpened: true, levelSet: true },
+  { theme: 'around the house', noun: 'bookshelf', shape: 'rectangle', picOpened: true, levelSet: true },
 ];
 
 /** Pictures OPENED and REJECTED by the design (§3 F2): never an object, whatever the theme. */

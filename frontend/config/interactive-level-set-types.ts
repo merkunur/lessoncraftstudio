@@ -8,6 +8,7 @@
  * rows of a listed type are marked interactive (lib/worksheets-sheets.ts levelSetRows).
  */
 export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>([
+  '2d-shapes',
   'alphabetical-order',
   'articles',
   'capitals-punctuation',
@@ -46,4 +47,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'read-and-do': ['g1342'],   // Read and Draw: open drawing (Level Set 2026-09-30)
   'rhyming-words': ['g1346'],   // Write Your Own Rhymes: open answers (Level Set 2026-09-30)
   'story-sequencing': ['g2378'],   // Retell the Story with Starters: open writing (Level Set 2026-10-01)
+  '2d-shapes': ['k372'],   // Draw on Dot Paper: a drawing has more than one right answer (Level Set 2026-10-04)
 };

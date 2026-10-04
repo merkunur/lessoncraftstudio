@@ -84,7 +84,7 @@ function frog(a, skin = 'green', belly = 'lightgreen') {
 function bee(a, body = 'yellow', stripes = 'black', wings = 'lightblue') {
   a.region(blob([[-16, -36], [-56, -104], [-14, -118], [16, -54]], 1), wings, 'wing');
   a.region(blob([[10, -40], [36, -112], [80, -106], [44, -40]], 1), wings, 'wing');
-  a.region(poly([[60, -21], [124, 0], [60, 21]], 5), stripes, 'stinger');
+  a.region(poly([[58, -25], [128, 0], [58, 25]], 6), stripes, 'stinger');
   a.region(ellipse(4, 0, 80, 54), body, 'bee body');
   a.region(ellipseBand(4, 0, 80, 54, -6, 18), stripes, 'stripe');
   a.region(ellipseBand(4, 0, 80, 54, 38, 60), stripes, 'stripe');

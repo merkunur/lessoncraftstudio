@@ -45,7 +45,7 @@ function toSvg(art, opts = {}) {
       let fill = '#FFFFFF';
       if (mode === 'colour') fill = PALETTE[it.colour];
       if (mode === 'id') { const c = idRgb(i); fill = `rgb(${c[0]},${c[1]},${c[2]})`; }
-      parts.push(g(`<path d="${it.d}" fill="${fill}" stroke="${mode === 'id' ? '#000' : INK}" stroke-width="${it.ow.toFixed(3)}" stroke-linejoin="round" stroke-linecap="round"${mode !== 'id' ? ` data-lcs-region="${i}" data-lcs-colour="${it.colour}"` : ''}/>`));
+      parts.push(g(`<path d="${it.d}" fill="${fill}" fill-rule="evenodd" stroke="${mode === 'id' ? '#000' : INK}" stroke-width="${it.ow.toFixed(3)}" stroke-linejoin="round" stroke-linecap="round"${mode !== 'id' ? ` data-lcs-region="${i}" data-lcs-colour="${it.colour}"` : ''}/>`));
     } else if (it.kind === 'l') {
       parts.push(g(`<path d="${it.d}" fill="none" stroke="${mode === 'id' ? '#000' : INK}" stroke-width="${it.w.toFixed(3)}" stroke-linecap="round" stroke-linejoin="round"/>`));
     } else if (it.kind === 'k') {
@@ -183,7 +183,7 @@ async function checkSolid(page, art, S = 2) {
     if (!regs.length) continue;
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${art.w} ${art.h}" width="${art.w * S}" height="${art.h * S}" shape-rendering="crispEdges">` +
       lines.map((l) => (l.tf ? `<g transform="${l.tf}">` : '') + `<path d="${l.d}" fill="none" stroke="#F00" stroke-linecap="round" stroke-width="${((2 * ERODE + 3) / scaleOf(l.tf)).toFixed(3)}"/>` + (l.tf ? '</g>' : '')).join('')  +
-      regs.map((r) => (r.tf ? `<g transform="${r.tf}">` : '') + `<path d="${r.d}" fill="#000"/>` + (r.tf ? '</g>' : '')).join('')+ '</svg>';
+      regs.map((r) => (r.tf ? `<g transform="${r.tf}">` : '') + `<path d="${r.d}" fill="#000" fill-rule="evenodd"/>` + (r.tf ? '</g>' : '')).join('')+ '</svg>';
     const m = await page.evaluate(async ({ svg, W, H, er, edge, crumb }) => {
       const img = new Image(); img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svg))); await img.decode();
       const cv = document.createElement('canvas'); cv.width = W; cv.height = H;

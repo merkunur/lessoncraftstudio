@@ -113,7 +113,7 @@ function cake(a, cake1 = 'pink', cake2 = 'yellow', icing = 'none', candle = 'blu
   [-44, 0, 44].forEach((x) => {
     a.region(blob([[x, -150], [x + 15, -118], [x, -104], [x - 15, -118]], 1), flame, 'flame');
     a.line(`M${x} -108V-100`, 3);
-    a.region(rrect(x - 12, -100, 24, 40, 5), candle, 'candle');
+    a.region(rrect(x - 14, -100, 28, 40, 6), candle, 'candle');
   });
   [[-70, 84], [0, 90], [70, 84]].forEach(([x, y]) => a.region(circle(x, y, 14), 'red', 'cherry'));
 }

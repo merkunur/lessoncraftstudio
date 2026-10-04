@@ -85,7 +85,7 @@ function giftBox(a, box = 'blue', ribbon = 'red', lid = 'blue') {
   a.region(rrect(-118, -96, 236, 44, 10), lid, 'lid');
   a.region(rrect(-20, -96, 40, 202, 4), ribbon, 'ribbon');
   a.region(circle(0, -98, 20), ribbon, 'bow knot');
-  a.region(circle(-56, 20, 16), 'yellow', 'spot'); a.region(circle(56, 60, 16), 'yellow', 'spot'); a.region(circle(60, -14, 14), 'yellow', 'spot'); a.region(circle(-58, 74, 14), 'yellow', 'spot');
+  a.region(circle(-56, 16, 19), 'yellow', 'spot'); a.region(circle(56, 64, 19), 'yellow', 'spot'); a.region(circle(58, -10, 17), 'yellow', 'spot'); a.region(circle(-58, 72, 17), 'yellow', 'spot');
 }
 function teapot(a, pot = 'pink', lid = 'purple', cup = 'lightblue', saucer = 'purple', dots = 'yellow') {
   a.region('M-96 -24C-166 -24 -166 74 -96 74L-96 52C-140 52 -140 -2 -96 -2Z', pot, 'handle');   // a thick C that runs INTO the pot (the thin one did not touch it)

@@ -88,6 +88,57 @@ async function playEdit(page, html, oracle, locale) {
   return fails;
 }
 
+/** tap-paint (Color by Number 2026-10-04): pick a crayon, tap a part; the oracle recomputes every part's crayon from the design. */
+async function playPaint(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      crs: [...document.querySelectorAll('.lcs-crayon')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      parts: document.querySelectorAll('.lcs-paint-art path[data-lcs-region]').length,
+      vw: document.documentElement.clientWidth,
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !B.ctx || !B.ctx.paint || info.crs.length < 2) { fails.push(`${w}px: ${info.crs.length} crayons`); return fails; }
+    if (info.parts !== B.items.length) fails.push(`${w}px: ${info.parts} tappable parts for ${B.items.length} numbered parts`);
+    info.crs.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: crayon ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: crayon ${i + 1} outside the viewport`);
+    });
+    if (w !== 768) continue;
+    const right = oracle(B.items.map((it) => ({ meta: it.meta })), locale, B.ctx || {});
+    const cols = B.ctx.paint.crayons.map((c) => c.colour);
+    const colour = (i, c) => page.evaluate(({ k, r }) => { document.querySelectorAll('.lcs-crayon')[k].click(); document.querySelector('.lcs-paint-art path[data-lcs-region="' + r + '"]').dispatchEvent(new MouseEvent('click', { bubbles: true })); }, { k: cols.indexOf(c), r: B.items[i].region });
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-paint-art path[data-state]')].map((p) => p.getAttribute('data-state')),
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    let st = await state();
+    if (!st.checkDisabled) fails.push('Check enabled with nothing coloured');
+    for (let i = 0; i < right.length; i++) { if (cols.indexOf(right[i]) < 0) { fails.push('the oracle colour ' + right[i] + ' is not a crayon'); return fails; } await colour(i, right[i]); }
+    st = await state();
+    if (st.checkDisabled) fails.push('Check still disabled after every part is coloured');
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (!st.celebrate) fails.push('the right colours did not reach the celebration');
+    if (st.states.length !== right.length || st.states.some((s) => s !== 'right')) fails.push('the right colours left parts not green: ' + st.states.filter((s) => s !== 'right').length);
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+    for (let i = 0; i < right.length; i++) await colour(i, i === 0 ? cols[(cols.indexOf(right[0]) + 1) % cols.length] : right[i]);
+    await page.click('#lcs-check');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a WRONG colour reached the celebration');
+    if (!st.states.includes('wrong')) fails.push('a wrong colour marked nothing red');
+  }
+  return fails;
+}
+
 /** tap-choice: one option per item; the oracle recomputes each item's correct option from its data. */
 async function playChoice(page, html, oracle, locale) {
   const fails = [];
@@ -361,6 +412,7 @@ async function main() {
       B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
+        : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
@@ -368,12 +420,12 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -382,7 +434,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

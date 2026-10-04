@@ -1459,5 +1459,10 @@
    "no": "Se på kalenderen. Trykk på svaret på hvert spørsmål.",
    "fi": "Katso kalenteria. Napauta jokaisen kysymyksen vastausta."
   }
+ },
+ "color-by-number": {
+  "paint": {
+   "en": "Tap a crayon, then tap every part that has its number."
+  }
  }
 }

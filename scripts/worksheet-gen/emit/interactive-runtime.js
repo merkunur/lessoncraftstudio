@@ -20,6 +20,8 @@
  *                spelling pages): a tapped tile writes its letter into the next empty slot and greys out;
  *                a tap on a filled slot gives back that letter and every later one. Check compares the
  *                spelled word with the answer (any tile with the same letter counts) and marks the item.
+ *   tap-paint  — Color by Number (2026-10-04): the picture's own line drawing laid exactly over the page; the child taps a
+ *                crayon in the key, then the parts to fill them. Check outlines each numbered part green or red.
  *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
  *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
  *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
@@ -38,7 +40,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -114,6 +116,12 @@ const CSS = [
   '.lcs-slot{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:"Baloo 2",Nunito,sans-serif;font-weight:700;line-height:1;color:#146B5E;cursor:pointer;touch-action:manipulation}',
   '.lcs-slot[data-state="right"]{background:rgba(46,158,91,.18);box-shadow:0 0 0 4px #2E9E5B}',
   '.lcs-slot[data-state="wrong"]{background:rgba(214,69,69,.14);box-shadow:0 0 0 4px #D64545}',
+  '.lcs-paint-art{position:absolute}.lcs-paint-art svg{width:100%;height:100%;display:block}',
+  '.lcs-paint-art path[data-lcs-region]{cursor:pointer}.lcs-paint-art path:not([data-lcs-region]),.lcs-paint-art text{pointer-events:none}',
+  '.lcs-paint-art path[data-state="wrong"]{stroke:#D64545}.lcs-paint-art path[data-state="right"]{stroke:#2E9E5B}',
+  '.lcs-crayon{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:14px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
+  '.lcs-crayon[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
+  '.lcs-crayon:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
   '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools{display:none !important}}',
 ].join('\n');
 
@@ -200,6 +208,26 @@ const JS_SPELL = [
   '})();',
 ].join('\n');
 
+const JS_PAINT = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,P=B.ctx.paint,cur=null,fill={},phase="fill",regs={},crs=[];',
+  'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function paint(){var all=true;for(var i=0;i<B.items.length;i++)if(!fill[B.items[i].region])all=false;chk.disabled=!all||phase!=="fill";for(var j=0;j<crs.length;j++)crs[j].setAttribute("aria-pressed",cur===P.crayons[j].colour?"true":"false")}',
+  'function setFill(r,c){var el=regs[r];if(el)el.setAttribute("fill",c?P.hex[c]:"#FFFFFF")}',
+  'function tapRegion(r){if(phase!=="fill"||!cur)return;fill[r]=cur;setFill(r,cur);paint()}',
+  'function check(){phase="reviewed";var ok=0;for(var i=0;i<B.items.length;i++){var it=B.items[i],right=fill[it.region]===B.answers[i];regs[it.region].setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  'prg.textContent=fmt(S.score,{n:ok,total:B.items.length});chk.hidden=true;rst.hidden=false;paint();if(ok===B.items.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function reset(){phase="fill";fill={};for(var r in regs){regs[r].removeAttribute("data-state");setFill(r,null)}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
+  'function init(){var a=P.art,box=document.createElement("div");box.className="lcs-paint-art";box.style.left=a.x+"%";box.style.top=a.y+"%";box.style.width=a.w+"%";box.style.height=a.h+"%";box.innerHTML=a.svg;ov.appendChild(box);',
+  'var want={};for(var i=0;i<B.items.length;i++)want[B.items[i].region]=1;var ps=box.querySelectorAll("path[data-lcs-region]");for(var k=0;k<ps.length;k++){(function(p){var r=p.getAttribute("data-lcs-region");if(!want[r]){p.removeAttribute("data-lcs-region");return}regs[r]=p;p.addEventListener("click",function(){tapRegion(r)})})(ps[k])}',
+  'for(var j=0;j<P.crayons.length;j++){(function(j){var c=P.crayons[j],el=document.createElement("button");el.type="button";el.className="lcs-crayon";el.setAttribute("aria-label",c.label);el.setAttribute("aria-pressed","false");el.style.left=c.x+"%";el.style.top=c.y+"%";el.style.width=c.w+"%";el.style.height=c.h+"%";el.addEventListener("click",function(){if(phase!=="fill")return;cur=c.colour;paint()});ov.appendChild(el);crs.push(el)})(j)}',
+  'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
 const JS = [
   '(function(){',
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
@@ -262,6 +290,14 @@ function buildInteractive(o) {
       for (const b of [...it.tiles, ...it.slots]) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(b[k])) throw new Error('interactive-runtime: tap-spell box ' + k + '=' + b[k] + ' outside the page');
     }
     bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, tiles: it.tiles.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h), label: t.label })), slots: it.slots.map((t) => ({ x: round(t.x), y: round(t.y), w: round(t.w), h: round(t.h) })) }));
+  } else if (o.kind === 'tap-paint') {
+    const P = o.ctx && o.ctx.paint;
+    if (!P || !P.art || typeof P.art.svg !== 'string' || !Array.isArray(P.crayons) || P.crayons.length < 2) throw new Error('interactive-runtime: tap-paint needs ctx.paint {art, crayons}');
+    for (const k of ['x', 'y', 'w', 'h']) if (!inPage(P.art[k])) throw new Error('interactive-runtime: tap-paint art ' + k + ' outside the page');
+    const cols = new Set(P.crayons.map((c) => c.colour));
+    for (const it of items) if (!cols.has(it.answer) || !P.hex[it.answer]) throw new Error('interactive-runtime: tap-paint part ' + it.region + ' wants "' + it.answer + '", not a crayon of the key');
+    for (const c of P.crayons) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(c[k])) throw new Error('interactive-runtime: crayon ' + k + ' outside the page');
+    bundleItems = items.map((it) => ({ region: String(it.region), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -298,7 +334,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : JS) + '</script>',
   };
 }
 

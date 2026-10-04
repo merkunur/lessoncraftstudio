@@ -115,6 +115,38 @@ async function renderInstance(o) {
       interactive = { kind: spec.kind, items, marks: got.marks, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
       return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
     }
+    // PAINT mode (tap-paint, Color by Number 2026-10-04): the page's own line drawing is laid exactly over the screen
+    // render (the parts are irregular shapes, not boxes); the crayons of the key are the palette. Items = the coloured
+    // parts, each with its colour (the runtime's answer map; the robot's oracle recomputes it from the design data).
+    if (spec.kind === 'tap-paint') {
+      const got = await page.evaluate(() => {
+        const full = document.querySelector('[data-lcs-page]').getBoundingClientRect();
+        window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: full.height };
+        const pct = (r) => ({ x: (r.left - full.left) / full.width * 100, y: (r.top - full.top) / full.height * 100, w: r.width / full.width * 100, h: r.height / full.height * 100 });
+        const svg = document.querySelector('svg[data-lcs-prim="cbn-art"]');
+        if (!svg) return null;
+        const items = [...svg.querySelectorAll('path[data-lcs-region]')].filter((p) => p.getAttribute('data-lcs-colour') !== 'none')
+          .map((p) => ({ region: +p.getAttribute('data-lcs-region'), answer: p.getAttribute('data-lcs-colour') }));
+        const crayons = [...document.querySelectorAll('[data-lcs-crayon]')].map((c) => ({ ...pct(c.getBoundingClientRect()), colour: c.getAttribute('data-lcs-crayon'), label: c.getAttribute('data-lcs-label') || '' }));
+        const clone = svg.cloneNode(true);
+        clone.removeAttribute('width'); clone.removeAttribute('height');
+        clone.querySelectorAll('[data-lcs-colour]').forEach((p) => p.removeAttribute('data-lcs-colour'));
+        return { art: { ...pct(svg.getBoundingClientRect()), svg: clone.outerHTML }, items, crayons };
+      });
+      if (!got) throw new Error(`render-instance: ${type.id} is tap-paint but the screen has no cbn-art picture`);
+      const screenPng = base + '.screen.png';
+      await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
+      const keyBuilt = await again({ answerKey: true });
+      sameAs(keyBuilt, 'answer-key');
+      await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      const keyPdf = base + '.key.pdf';
+      await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
+      const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
+      const { PALETTE } = require('../lib/cbn-render.js');
+      interactive = { kind: spec.kind, items: got.items.map((it) => ({ ...it, meta: { 'data-lcs-region': String(it.region) } })), paint: { art: got.art, crayons: got.crayons, hex: PALETTE },
+        pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+    }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
     const geo = await page.evaluate((sp) => {

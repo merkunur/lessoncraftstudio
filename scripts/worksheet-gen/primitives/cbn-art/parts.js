@@ -158,7 +158,8 @@ function cow(a, hide = 'none', spot = 'brown', nose = 'pink') {
   a.region(blob([[-84, -20], [-70, -58], [50, -60], [86, -30], [80, 40], [-80, 42]], 0.9), hide, 'cow body');
   a.region(blob([[-60, -46], [-24, -50], [-30, -12], [-62, -8]], 1), spot, 'spot');
   a.region(blob([[10, 0], [44, -6], [48, 26], [12, 28]], 1), spot, 'spot');
-  a.line(curve([[-84, -14], [-104, 0], [-100, 26]]), 3); a.region(blob([[-104, 22], [-94, 24], [-98, 44], [-110, 40]], 1), spot, 'tail tip');
+  // the tail swings well clear of the body: close to it, it trapped a crumb of grass
+  a.line(curve([[-84, -18], [-118, -10], [-126, 20]]), 3); a.region(blob([[-138, 14], [-114, 16], [-116, 46], [-140, 44]], 1), spot, 'tail tip');
   a.region(ellipse(52, -78, 22, 13), spot, 'ear'); a.region(ellipse(138, -78, 22, 13), spot, 'ear');
   a.region(blob([[64, -92], [50, -128], [84, -104]], 1), 'yellow', 'horn'); a.region(blob([[126, -92], [140, -128], [106, -104]], 1), 'yellow', 'horn');
   a.region(blob([[60, -90], [130, -90], [134, -40], [56, -40]], 1), hide, 'cow head');

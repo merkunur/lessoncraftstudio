@@ -10,7 +10,7 @@ const { eye, smile, face } = require('./parts.js');
 
 function bear(a, fur = 'brown', muzzle = 'orange', inner = 'orange') {
   [[-70, 20], [-50, 24], [34, 24], [54, 20]].forEach(([x, y]) => a.region(rrect(x, y, 30, 66, 13), fur, 'leg'));
-  a.region(circle(-104, -14, 16), fur, 'tail');
+  a.region(circle(-104, -14, 22), fur, 'tail');
   a.region(ellipse(-6, 0, 102, 64), fur, 'bear body');
   a.region(circle(58, -98, 29), fur, 'ear'); a.region(circle(52, -104, 15), inner, 'inner ear');
   a.region(circle(96, -40, 58), fur, 'bear head');

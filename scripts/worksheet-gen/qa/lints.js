@@ -27,7 +27,8 @@ async function runLints(page, { gradeBand }) {
     // The parts of a drawn story picture (primitives/story-art.js, 2026-10-01) are clipped by their own <svg> (the
     // picture is a window onto a larger scene) and painted from the story palette, which qa/verify-b6-story-panel.js
     // gates. The picture's <svg> box itself is still measured here; only what it clips is skipped.
-    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel]'));
+    // illustrations with their own governed palette: story panels (story-art.js PAL) and the Color by Number pictures + crayons (cbn-render.js PALETTE)
+    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"]'));
 
     // 0. non-empty body: a worksheet must render at least one content unit.
     // Catches the "blank sheet" class (e.g. a themed generator finding no usable

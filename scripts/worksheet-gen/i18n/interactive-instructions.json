@@ -1444,5 +1444,20 @@
    "no": "Se på bildet. Trykk på tallet som skal stå i den tomme ruten.",
    "fi": "Katso kuvaa. Napauta lukua, joka kuuluu tyhjään ruutuun."
   }
+ },
+ "calendar": {
+  "read": {
+   "en": "Look at the calendar. Tap the answer to each question.",
+   "de": "Schau dir den Kalender an. Tippe bei jeder Frage die richtige Antwort an.",
+   "es": "Mira el calendario. Toca la respuesta de cada pregunta.",
+   "fr": "Regarde le calendrier. Touche la réponse à chaque question.",
+   "it": "Guarda il calendario. Tocca la risposta a ogni domanda.",
+   "pt": "Olhe o calendário. Toque na resposta de cada pergunta.",
+   "nl": "Kijk naar de kalender. Tik bij elke vraag het goede antwoord aan.",
+   "sv": "Titta på kalendern. Tryck på svaret på varje fråga.",
+   "da": "Se på kalenderen. Tryk på svaret på hvert spørgsmål.",
+   "no": "Se på kalenderen. Trykk på svaret på hvert spørsmål.",
+   "fi": "Katso kalenteria. Napauta jokaisen kysymyksen vastausta."
+  }
  }
 }

@@ -107,10 +107,10 @@ const CALENDAR_FRAMES = {
   },
   "it": {
     "frames": {
-      "dayOfDate": "Che giorno della settimana è il {date}?",
+      "dayOfDate": "Che giorno della settimana è il giorno {date}?",
       "countWeekday": "Quanti giorni di questo mese sono {dayPlural}?",
       "stickerDate": "In quale giorno del mese c'è {sticker}?",
-      "weekLater": "Che data è una settimana dopo il {date}?",
+      "weekLater": "Che data è una settimana dopo il giorno {date}?",
       "daysInMonth": "Quanti giorni ha questo mese?",
       "firstDay": "Che giorno della settimana è il primo giorno del mese?",
       "lastDay": "Che giorno della settimana è l'ultimo giorno del mese?",

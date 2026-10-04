@@ -211,7 +211,7 @@
     },
     "G2-297": {
       "title": "Läs kalendern: en vecka senare",
-      "instruction": "Fem frågor. Räkna också ut dagarna mellan bilderna."
+      "instruction": "Fem frågor. Räkna också hur många dagar det är från en bild till en annan."
     },
     "G2-298": {
       "title": "Läs kalendern: veckans dagar",
@@ -391,7 +391,7 @@
     },
     "G2-312": {
       "title": "Läs kalendern: datum och dagar emellan",
-      "instruction": "Räkna ut datum och dagar emellan i kalendern."
+      "instruction": "Räkna ut datum och hur många dagar det är från en bild till en annan."
     },
     "G2-313": {
       "title": "Talpyramider med tvåsiffriga svar",

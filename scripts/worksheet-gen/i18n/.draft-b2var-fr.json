@@ -239,7 +239,7 @@
     },
     "G2-297": {
       "title": "Lire le calendrier : un mois bien rempli",
-      "instruction": "Trouve la date une semaine après, et l'écart."
+      "instruction": "Trouve la date une semaine plus tard et compte les jours d’une image à l’autre."
     },
     "G2-298": {
       "title": "Lire le calendrier : les jours",
@@ -391,7 +391,7 @@
     },
     "G2-312": {
       "title": "Lire le calendrier : compter les jours",
-      "instruction": "Compte les jours entre les deux images."
+      "instruction": "Compte les jours d’une image à l’autre et réponds aux questions."
     },
     "G2-313": {
       "title": "Pyramides de nombres jusqu'à 100",

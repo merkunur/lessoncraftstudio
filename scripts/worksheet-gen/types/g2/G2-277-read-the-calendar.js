@@ -27,6 +27,7 @@ function glueInline(html) {
 }
 
 const STICKER_THEME = 'toys';
+const SCREEN = () => require('../../lib/calendar-screen.js');
 
 module.exports = {
   id: 'G2-277',
@@ -47,7 +48,18 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-10-04: the screen version (tap) + answer key of every NEW page (lib/calendar-screen.js)
+  get interactive() { return SCREEN().interactiveFor(); },
+  /** Level Set copies: the month and the stickers a page shows (build-waves compares copies by these). */
+  levelSetWords(m) { return [`${m.year}-${m.month}`, ...(m.stickers || []).map((x) => x[0])]; },
+
   build({ difficulty, locale }, ctx) {
+    // the published page (level 2, copy 1) builds exactly as it shipped; a new page may also be its screen / key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return SCREEN().screenOrKey(built, ctx, (locale || 'en').slice(0, 2));
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
@@ -60,7 +72,8 @@ module.exports = {
       meta = { days: calendar.daysInMonth(year, month) };
       meta.rows = Math.ceil(((calendar.firstDow(year, month) - C.weekStart + 7) % 7 + meta.days) / 7);
       guard++;
-    } while (d.sixRows && meta.rows < 6 && guard < 50 && loc !== 'xx');
+    // d.fiveRows (Level Set 2026-10-04, an easier level): a month that fits five rows — never set on a published config
+    } while (((d.sixRows && meta.rows < 6) || (d.fiveRows && meta.rows > 5)) && guard < 50 && loc !== 'xx');
     const days = meta.days;
     // stickers on distinct days ≥ 2 apart, never the 1st
     const nouns = rng.sample(safeNouns(STICKER_THEME, loc), d.stickers);
@@ -115,6 +128,8 @@ module.exports = {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:flex-start;align-items:center;padding-top:4px" data-ws-content>` +
         `${monthBar}${cal.svg}<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;width:660px">${qHtml}</div></div>`,
       meta: { year, month, stickers: stickers.map((s) => [s.key, s.day]) },
+      // outside meta (published meta unchanged): what the screen version needs
+      _ans: { monthBar, svg: cal.svg, weekStart: C.weekStart, year, month, qs: qs.map((q) => ({ kind: q.kind, text: q.text, answer: q.answer, slot: q.slot, arg: q.arg })) },
     };
   },
 

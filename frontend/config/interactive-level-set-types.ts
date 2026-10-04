@@ -12,6 +12,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'alphabetical-order',
   'arrays-multiplication',
   'articles',
+  'calendar',
   'capitals-punctuation',
   'compound-words',
   'digraphs',

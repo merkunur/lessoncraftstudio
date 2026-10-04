@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-298',
   slug: 'read-the-calendar-days-of-the-week',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config); the screen version comes from the base
+  difficulty: { 1: { ...D, questions: ['firstDay', 'dayOfDate', 'lastDay', 'daysInMonth'] }, 2: D, 3: { ...D, sixRows: true, cellH: 54 } },
   i18n: { en: { title: "Read the Calendar: Days of the Week", instruction: "Every question is about the days. Read down the columns." } },
 };

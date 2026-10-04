@@ -90,7 +90,7 @@ const B2 = [
   { id: 'castle-hill', kind: 'scene', level: 3, names: { en: 'Castle on the Hill' },
     draw(a) {
       P.meadow(a, W, H, { horizon: 0.62 });
-      a.at({ x: 520, y: 76, s: 0.8 }, (b) => P.sun(b));
+      a.at({ x: 548, y: 210, s: 0.75 }, (b) => P.sun(b));   // clear of the flags
       a.at({ x: 120, y: 70, s: 0.7 }, (b) => P.cloud(b));
       a.at({ x: 300, y: 290, s: 1.08 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));
       a.at({ x: 70, y: 492, s: 0.72 }, (b) => P.tree(b));

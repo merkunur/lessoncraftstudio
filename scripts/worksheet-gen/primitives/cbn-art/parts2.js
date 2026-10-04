@@ -195,7 +195,7 @@ function sailboat(a, hull = 'red', sail = 'none', sail2 = 'yellow', flag = 'blue
   // the sails run right up to the mast (the solid gate found a slit between them)
   a.region(poly([[0, -150], [0, -20], [-110, -20]], 6), sail, 'sail');
   a.region(poly([[0, -160], [0, -20], [96, -20]], 6), sail2, 'sail');
-  a.region(poly([[0, -174], [52, -162], [0, -146]], 4), flag, 'flag');
+  a.region(poly([[0, -180], [62, -162], [0, -142]], 5), flag, 'flag');
   a.line('M0 -176V0', 7);   // the mast: ink (too thin to number)
   a.region(poly([[-130, -8], [130, -8], [96, 50], [-96, 50]], 12), hull, 'hull');
   a.region(circle(-60, 18, 13), 'none', 'porthole'); a.region(circle(0, 18, 13), 'none', 'porthole'); a.region(circle(60, 18, 13), 'none', 'porthole');

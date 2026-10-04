@@ -47,7 +47,7 @@ function dog(a, fur = 'brown', ears = 'brown', spot = 'none', collar = 'red') {
   a.region(blob([[-62, 96], [-64, 22], [-36, -24], [36, -24], [64, 22], [62, 96]], 0.9), fur, 'dog body');
   a.region(ellipse(0, 52, 30, 36), 'none', 'tummy');
   a.region(ellipse(-22, 98, 26, 14), fur, 'paw'); a.region(ellipse(22, 98, 26, 14), fur, 'paw');
-  a.region(rrect(-42, -22, 84, 18, 9), collar, 'collar');
+  a.region(rrect(-44, -26, 88, 24, 11), collar, 'collar');
   a.region(circle(0, 6, 13), 'yellow', 'tag');
   a.region(ellipse(0, -66, 62, 54), fur, 'dog head');
   a.region(ellipse(24, -78, 24, 22), spot, 'eye patch');
@@ -59,7 +59,7 @@ function dog(a, fur = 'brown', ears = 'brown', spot = 'none', collar = 'red') {
   a.line(curve([[-12, -32], [0, -26], [12, -32]]), 2.6);
 }
 function elephant(a, skin = 'grey', ear = 'pink', trunkUp = false) {
-  a.region(rrect(-62, 18, 30, 80, 12), skin, 'leg'); a.region(rrect(30, 18, 30, 80, 12), skin, 'leg');
+  a.region(rrect(-64, 18, 36, 80, 13), skin, 'leg'); a.region(rrect(28, 18, 36, 80, 13), skin, 'leg');
   a.line(curve([[-96, -10], [-114, 10], [-110, 34]]), 3); a.ink(blob([[-116, 30], [-104, 30], [-104, 48], [-118, 46]], 1));
   a.region(ellipse(-12, -2, 90, 62), skin, 'elephant body');
   a.region(rrect(-84, 26, 34, 80, 13), skin, 'leg'); a.region(rrect(10, 26, 34, 80, 13), skin, 'leg');

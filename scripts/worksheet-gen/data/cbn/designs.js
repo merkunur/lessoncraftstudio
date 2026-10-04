@@ -81,6 +81,9 @@ const DESIGNS = [
     draw(a) { a.at({ x: 290, y: 330, s: 1.32 }, (b) => P.dino(b)); } },
 ];
 
+// batches (2026-10-05 onward): each batch file is reviewed against docs/worksheet-gen/cbn-review-checklist.md
+DESIGNS.push(...require('./designs-b1.js').B1);
+
 function build(design) { const a = new Art(W, H); design.draw(a); return a; }
 
 module.exports = { DESIGNS, build, W, H };

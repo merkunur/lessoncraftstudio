@@ -84,7 +84,7 @@ const B6 = [
     draw(a) {
       skyGrass(a, 0.5);
       a.at({ x: 100, y: 80, s: 0.8 }, (b) => P.sun(b));
-      a.group('blanket', () => a.region('M60 450L180 380L560 400L470 500Z', 'red', 'blanket'));
+      a.group('blanket', () => a.region('M60 450L180 380L560 400L470 500Z', 'blue', 'blanket'));
       a.at({ x: 220, y: 330, s: 1.15 }, (b) => T.bear(b, 'brown', 'orange', 'orange'));
       a.at({ x: 440, y: 432, s: 0.62 }, (b) => Q.apple(b, 'red', 'green', 'brown'));
       a.at({ x: 500, y: 200, s: 0.75 }, (b) => P.tree(b));

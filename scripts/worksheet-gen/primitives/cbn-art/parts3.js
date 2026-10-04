@@ -41,7 +41,7 @@ function teddy(a, fur = 'brown', inner = 'orange', bow = 'red') {
   a.region(ellipse(0, 34, 66, 70), fur, 'teddy body');
   a.region(ellipse(0, 44, 38, 40), inner, 'tummy');
   a.region(circle(-56, -116, 28), fur, 'ear'); a.region(circle(56, -116, 28), fur, 'ear');
-  a.region(circle(-56, -116, 15), inner, 'inner ear'); a.region(circle(56, -116, 15), inner, 'inner ear');
+  a.region(circle(-58, -118, 12), inner, 'inner ear'); a.region(circle(58, -118, 12), inner, 'inner ear');
   a.region(circle(0, -70, 66), fur, 'teddy head');
   a.region(ellipse(0, -46, 30, 22), inner, 'muzzle');
   eye(a, -26, -84, 1.3); eye(a, 26, -84, 1.3);
@@ -141,7 +141,7 @@ function robot(a, metal = 'grey', trim = 'blue', lights = 'yellow', cheeks = 're
   a.region(rrect(-26, -64, 52, 30, 6), trim, 'neck');
   a.region(rrect(-82, -154, 164, 98, 22), metal, 'robot head');
   a.region(circle(-36, -112, 22), lights, 'eye'); a.region(circle(36, -112, 22), lights, 'eye');
-  a.ink(circle(-36, -112, 8)); a.ink(circle(36, -112, 8));
+  a.ink(circle(-36, -112, 6)); a.ink(circle(36, -112, 6));
   a.region(rrect(-30, -84, 60, 18, 6), 'none', 'mouth'); a.line('M-15 -84V-66M0 -84V-66M15 -84V-66', 2.4);
 }
 

@@ -90,6 +90,7 @@ DESIGNS.push(...require('./designs-b5.js').B5);
 DESIGNS.push(...require('./designs-b6.js').B6);
 DESIGNS.push(...require('./designs-b7.js').B7);
 DESIGNS.push(...require('./designs-b8.js').B8);
+DESIGNS.push(...require('./designs-b9.js').B9);
 
 function build(design) { const a = new Art(W, H); design.draw(a); return a; }
 

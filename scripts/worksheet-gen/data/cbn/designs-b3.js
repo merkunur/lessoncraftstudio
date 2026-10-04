@@ -123,7 +123,7 @@ const B3 = [
       a.region(`M0 ${H * 0.72}C${W * 0.3} ${H * 0.62} ${W * 0.7} ${H * 0.66} ${W} ${H * 0.72}V${H}H0Z`, 'green', 'hill');
       a.at({ x: 420, y: 140, s: 1.6 }, (b) => P.moon(b));
       stars(a, [[90, 90, 1.1], [220, 60, 0.9], [160, 210, 1], [560, 300, 0.9], [300, 180, 0.85]]);
-      a.at({ x: 120, y: 380, s: 0.9 }, (b) => P.tree(b));
+      a.at({ x: 120, y: 380, s: 0.9 }, (b) => P.tree(b, 'lightgreen'));
     } },
   { id: 'snail-garden', kind: 'scene', level: 1, names: { en: 'Snail in the Garden' },
     draw(a) {
@@ -149,8 +149,8 @@ const B3 = [
     draw(a) {
       Q.road(a, W, H, { horizon: 0.56 });
       a.at({ x: 80, y: 66, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 112, y: 228, s: 0.74 }, (b) => P.house(b, 'yellow', 'blue', 'brown', 'lightblue', false));
-      a.at({ x: 488, y: 228, s: 0.74 }, (b) => P.house(b, 'yellow', 'red', 'brown', 'lightblue', false));
+      a.at({ x: 112, y: 228, s: 0.74 }, (b) => P.house(b, 'pink', 'red', 'brown', 'lightblue', false));
+      a.at({ x: 488, y: 228, s: 0.74 }, (b) => P.house(b, 'pink', 'red', 'brown', 'lightblue', false));
       a.at({ x: 300, y: 222, s: 0.72 }, (b) => P.tree(b));
       a.at({ x: 300, y: 398, s: 1.08 }, (b) => S.bus(b, 'yellow', 'lightblue', 'red', 'black', 'grey', 'yellow'));
     } },

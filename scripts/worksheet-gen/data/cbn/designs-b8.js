@@ -54,7 +54,7 @@ const B8 = [
   { id: 'bird-nest', kind: 'picture', level: 3, names: { en: 'Bird and Nest' },
     draw(a) {
       branchWithLeaves(a, 400);
-      a.group('nest', () => { a.region(blob([[110, 400], [150, 360], [290, 360], [330, 400], [280, 430], [160, 430]], 1), 'brown', 'nest'); a.line('M150 392q30 10 60 0M220 396q30 10 60 0', 2.6); });
+      a.group('nest', () => { a.region(blob([[110, 400], [150, 360], [290, 360], [330, 400], [280, 430], [160, 430]], 1), 'yellow', 'nest'); a.line('M150 392q30 10 60 0M220 396q30 10 60 0', 2.6); });
       a.group('eggs', () => { a.region(ellipse(196, 362, 28, 34), 'lightblue', 'egg'); a.region(ellipse(240, 358, 28, 34), 'lightblue', 'egg'); });
       // the bird PERCHES on the branch beside its nest (above the nest it hovered)
       a.at({ x: 460, y: 254, s: 1.15 }, (b) => X.bird(b, 'red', 'yellow', 'orange', 'orange'));
@@ -113,7 +113,7 @@ const B8 = [
       skyGrass(a, 0.76);
       a.group('tree', () => { a.region('M70 570L90 160L150 160L170 570Z', 'brown', 'trunk'); a.region('M120 200Q300 180 470 170L470 200Q300 212 120 230Z', 'brown', 'branch'); }, { edgeOk: true });
       a.at({ x: 270, y: 344, s: 1.0 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));   // hangs from the tree's branch
-      a.at({ x: 462, y: 440, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
+      a.at({ x: 462, y: 440, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));
       a.at({ x: 500, y: 80, s: 0.75 }, (b) => P.sun(b, 'orange'));
     } },
   { id: 'construction', kind: 'scene', level: 3, names: { en: 'Dump Truck at Work' },
@@ -138,7 +138,7 @@ const B8 = [
       a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b));
       a.group('tree', () => { a.region('M-10 340Q300 300 610 330V380Q300 350 -10 390Z', 'brown', 'branch'); a.region('M-10 40C90 20 180 110 170 220C160 300 80 340 -10 350Z', 'green', 'leaves'); }, { edgeOk: true });   // the leaves grow down to the branch
       a.at({ x: 300, y: 262, s: 1.15 }, (b) => X.bird(b, 'blue', 'orange', 'lightblue', 'yellow'));   // sits IN the nest
-      a.group('nest', () => { a.region(blob([[200, 330], [240, 290], [380, 290], [420, 330], [370, 356], [250, 356]], 1), 'brown', 'nest'); a.line('M240 324q30 10 60 0M310 326q30 10 60 0', 2.6); });
+      a.group('nest', () => { a.region(blob([[200, 330], [240, 290], [380, 290], [420, 330], [370, 356], [250, 356]], 1), 'yellow', 'nest'); a.line('M240 324q30 10 60 0M310 326q30 10 60 0', 2.6); });
       a.at({ x: 120, y: 460, s: 0.9 }, (b) => P.cloud(b));
     } },
   { id: 'deep-sea', kind: 'scene', level: 3, names: { en: 'Deep Sea' },

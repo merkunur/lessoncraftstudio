@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-312',
   slug: 'read-the-calendar-how-many-days-later',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "How Many Days Later?", instruction: "Use the calendar to work out each date." } },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config); the screen version comes from the base
+  difficulty: { 1: { ...D, questions: ['stickerDate', 'after', 'weekLater', 'daysInMonth'], stickers: 2, cellH: 72 }, 2: D, 3: { ...D, sixRows: true, cellH: 50 } },
+  i18n: { en: { title: "How Many Days Later?", instruction: "Use the calendar to answer each question." } },
 };

@@ -2281,7 +2281,7 @@
   },
   "G2-297": {
     "title": "Read the Calendar: A Busy Month",
-    "instruction": "Find the date one week later, and count the days between the stickers."
+    "instruction": "Find the date one week later, and count how many days it is from one sticker to another."
   },
   "G2-298": {
     "title": "Read the Calendar: Days of the Week",
@@ -2329,7 +2329,7 @@
   },
   "G2-312": {
     "title": "How Many Days Later?",
-    "instruction": "Use the calendar to work out each date."
+    "instruction": "Use the calendar to answer each question."
   },
   "G2-313": {
     "title": "Number Walls with Two-Digit Answers",

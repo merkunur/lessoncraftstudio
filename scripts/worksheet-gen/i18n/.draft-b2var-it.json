@@ -211,7 +211,7 @@
     },
     "G2-297": {
       "title": "Leggere il calendario: un mese pieno",
-      "instruction": "Conta una settimana e i giorni in mezzo."
+      "instruction": "Trova la data una settimana dopo e conta i giorni da un disegno all’altro."
     },
     "G2-298": {
       "title": "Leggere il calendario: i giorni",
@@ -391,7 +391,7 @@
     },
     "G2-312": {
       "title": "Leggere il calendario: quanti giorni?",
-      "instruction": "Conta i giorni sul mese e rispondi."
+      "instruction": "Conta i giorni sul calendario e rispondi."
     },
     "G2-313": {
       "title": "Piramidi di numeri oltre 20",

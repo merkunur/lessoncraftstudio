@@ -391,7 +391,7 @@
   },
   "G2-312": {
    "title": "Kalender lesen: Wie viele Tage später?",
-   "instruction": "Jede Frage geht um ein Datum oder um Tage."
+   "instruction": "Bei jeder Frage geht es um ein Datum oder um eine Anzahl von Tagen."
   },
   "G2-313": {
    "title": "Zahlenmauern bis 100",

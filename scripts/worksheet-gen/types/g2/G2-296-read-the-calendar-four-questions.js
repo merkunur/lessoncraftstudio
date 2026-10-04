@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-296',
   slug: 'read-the-calendar-four-questions',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-04: real easier / harder levels (level 2 = the published config); the screen version comes from the base
+  difficulty: { 1: { ...D, questions: ['stickerDate', 'dayOfDate', 'daysInMonth', 'firstDay'] }, 2: D, 3: { ...D, questions: ['dayOfDate', 'countWeekday', 'stickerDate', 'lastDay'], sixRows: true, cellH: 54 } },
   i18n: { en: { title: "Read the Calendar: A First Look", instruction: "Look at the month. Answer each question by reading the calendar." } },
 };

@@ -1881,7 +1881,7 @@
   },
   "G2-312": {
     "title": "Kalenteri: montako päivää välissä?",
-    "instruction": "Etsi merkit kalenterista. Laske päivät niiden välissä."
+    "instruction": "Etsi merkit kalenterista. Laske, montako päivää on merkistä toiseen."
   },
   "G2-314": {
     "title": "Yhdistä pisteet kymmenen välein 10–100",

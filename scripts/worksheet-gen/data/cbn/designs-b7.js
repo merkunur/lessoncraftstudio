@@ -61,7 +61,7 @@ const B7 = [
   { id: 'panda-bamboo', kind: 'scene', level: 1, names: { en: 'Panda in the Forest' },
     draw(a) {
       skyGrass(a, 0.68);
-      a.at({ x: 90, y: 480, s: 1.0 }, (b) => W8.bamboo(b, 'green', 380, false));
+      a.at({ x: 90, y: 480, s: 1.0 }, (b) => W8.bamboo(b, 'lightgreen', 380, false));
       a.at({ x: 300, y: 330, s: 1.3 }, (b) => W8.panda(b, 'none', 'black', 'green'));
       a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b));
     } },

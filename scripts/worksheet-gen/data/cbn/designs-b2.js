@@ -73,16 +73,16 @@ const B2 = [
       P.meadow(a, W, H, { horizon: 0.42 });
       a.at({ x: 500, y: 76, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 14, y: 196, s: 0.9 }, (b) => P.fence(b, 3, 'brown', 70));
-      a.at({ x: 200, y: 360, s: 1.15 }, (b) => R.hen(b, 'none', 'red', 'orange'));
-      a.at({ x: 380, y: 410, s: 0.95 }, (b) => Q.chick(b, 'yellow', 'orange'));
-      a.at({ x: 500, y: 430, s: 0.95 }, (b) => Q.chick(b, 'yellow', 'orange'));
+      a.at({ x: 160, y: 360, s: 1.15 }, (b) => R.hen(b, 'none', 'red', 'orange'));
+      a.at({ x: 362, y: 432, s: 0.95 }, (b) => Q.chick(b, 'yellow', 'orange'));
+      a.at({ x: 502, y: 436, s: 0.95, fx: true }, (b) => Q.chick(b, 'yellow', 'orange'));
     } },
   { id: 'rainy-day', kind: 'scene', level: 2, names: { en: 'Rainy Day' },
     draw(a) {
       P.meadow(a, W, H, { horizon: 0.62 });
       a.at({ x: 160, y: 86, s: 0.95 }, (b) => P.cloud(b, 'grey'));
       a.at({ x: 430, y: 70, s: 0.85 }, (b) => P.cloud(b, 'grey'));
-      [[110, 190], [190, 230], [260, 180], [380, 170], [460, 220], [540, 160], [320, 250]].forEach(([x, y]) => a.at({ x, y }, (b) => R.raindrop(b)));
+      [[110, 190], [190, 230], [260, 180], [380, 170], [460, 220], [540, 160], [320, 250]].forEach(([x, y]) => a.at({ x, y }, (b) => R.raindrop(b, 'blue')));
       // the duck sits IN the puddle
       a.at({ x: 320, y: 470, s: 1.5 }, (b) => R.puddle(b, 'blue', 170));
       a.at({ x: 320, y: 400, s: 1.05 }, (b) => P.duck(b, 'yellow', 'orange'));
@@ -93,8 +93,8 @@ const B2 = [
       a.at({ x: 548, y: 210, s: 0.75 }, (b) => P.sun(b));   // clear of the flags
       a.at({ x: 120, y: 70, s: 0.7 }, (b) => P.cloud(b));
       a.at({ x: 300, y: 290, s: 1.08 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));
-      a.at({ x: 70, y: 492, s: 0.72 }, (b) => P.tree(b));
-      a.at({ x: 530, y: 496, s: 0.72 }, (b) => P.tree(b));
+      a.at({ x: 70, y: 492, s: 0.72 }, (b) => P.tree(b, 'lightgreen'));
+      a.at({ x: 530, y: 496, s: 0.72 }, (b) => P.tree(b, 'lightgreen'));
     } },
   { id: 'train-hills', kind: 'scene', level: 3, names: { en: 'Train in the Hills' },
     draw(a) {

@@ -72,7 +72,7 @@ const B4 = [
       a.at({ x: -36, y: -60, s: 1.12 }, (a) => {
         a.group('sand', () => a.region(blob([[60, 470], [140, 430], [300, 420], [460, 430], [540, 470], [300, 500]], 1), 'yellow', 'sand'));
         a.at({ x: 200, y: 360, s: 1.2 }, (b) => T.bucket(b, 'blue', 'yellow', 'red'));
-        a.at({ x: 430, y: 380, s: 1.15 }, (b) => T.beachBall(b, ['red', 'yellow', 'blue', 'green']));
+        a.at({ x: 430, y: 380, s: 1.15 }, (b) => T.beachBall(b, ['red', 'purple', 'blue', 'green']));   // no yellow panel on yellow sand
         // on the sand, not floating above it
         a.at({ x: 522, y: 452, s: 0.5 }, (b) => T.starfish(b, 'orange'));
         a.at({ x: 86, y: 468, s: 0.85 }, (b) => P.shell(b, 'pink'));
@@ -123,10 +123,10 @@ const B4 = [
     } },
   { id: 'dragon-castle', kind: 'scene', level: 3, names: { en: 'Dragon and Castle' },
     draw(a) {
-      skyGrass(a, 0.58);
+      skyGrass(a, 0.58, 'lightblue', 'lightgreen');   // light grass: the green dragon stands out
       a.at({ x: 90, y: 80, s: 0.75 }, (b) => P.sun(b));
       a.at({ x: 456, y: 300, s: 0.72 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));   // far away on the hill
-      a.at({ x: 196, y: 404, s: 0.92 }, (b) => T.dragon(b, 'green', 'yellow', 'purple', 'orange', 'red'));
+      a.at({ x: 196, y: 404, s: 0.92 }, (b) => T.dragon(b, 'green', 'yellow', 'purple', 'yellow', 'red'));
     } },
   { id: 'tractor-farm', kind: 'scene', level: 3, names: { en: 'Tractor on the Farm' },
     draw(a) {
@@ -141,8 +141,8 @@ const B4 = [
       a.at({ x: 110, y: 80, s: 0.8 }, (b) => P.sun(b));
       // ON the sea (it floated in the sky above the horizon)
       a.at({ x: 440, y: 282, s: 0.82 }, (b) => Q.sailboat(b, 'red', 'none', 'orange', 'purple'));
-      a.at({ x: 150, y: 430, s: 1.0 }, (b) => T.bucket(b, 'blue', 'yellow', 'red'));
-      a.at({ x: 400, y: 440, s: 0.95 }, (b) => T.beachBall(b, ['red', 'yellow', 'blue', 'green']));
+      a.at({ x: 150, y: 430, s: 1.0 }, (b) => T.bucket(b, 'blue', 'orange', 'red'));
+      a.at({ x: 400, y: 440, s: 0.95 }, (b) => T.beachBall(b, ['red', 'blue', 'green', 'purple']));
       a.at({ x: 520, y: 510, s: 0.5 }, (b) => T.starfish(b, 'orange'));
     } },
   { id: 'mushroom-village', kind: 'scene', level: 3, names: { en: 'Mushroom Village' },

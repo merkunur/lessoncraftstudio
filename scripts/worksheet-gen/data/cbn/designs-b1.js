@@ -103,7 +103,7 @@ const B1 = [
       a.at({ x: 120, y: 400, s: 1.0 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
       a.at({ x: 480, y: 410, s: 1.0 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
       a.at({ x: 300, y: 450, s: 0.9 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
-      a.at({ x: 300, y: 220, s: 1.05 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
+      a.at({ x: 300, y: 220, s: 1.05 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));   // white wings: light blue vanished into the sky
       a.at({ x: 500, y: 200, s: 0.75 }, (b) => P.butterfly(b, 'pink', 'yellow', 'purple'));
     } },
   { id: 'penguins-ice', kind: 'scene', level: 1, names: { en: 'Penguins on the Ice' },
@@ -129,7 +129,7 @@ const B1 = [
       a.at({ x: 130, y: 90, s: 0.75 }, (b) => P.cloud(b));
       a.at({ x: 270, y: 150, s: 0.9, r: 14 }, (b) => Q.kite(b, 'red', 'yellow', 'blue'));
       a.at({ x: 480, y: 360, s: 0.85 }, (b) => P.tree(b));
-      a.at({ x: 120, y: 500, s: 0.9 }, (b) => P.bush(b));
+      a.at({ x: 120, y: 500, s: 0.9 }, (b) => P.bush(b, 'lightgreen'));
     } },
   { id: 'ladybird-meadow', kind: 'scene', level: 3, names: { en: 'Ladybug in the Meadow' },
     draw(a) {

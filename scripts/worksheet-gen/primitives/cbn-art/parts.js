@@ -46,7 +46,7 @@ function tree(a, crown = 'green', trunk = 'brown') {
   a.line(curve([[14, -14], [30, -20], [42, -10]]), 2.4);
 }
 function pineTree(a, crown = 'green', trunk = 'brown') {
-  a.region(rrect(-12, 70, 24, 34, 3), trunk, 'trunk');
+  a.region(rrect(-17, 70, 34, 40, 4), trunk, 'trunk');
   a.region(poly([[0, -96], [44, -20], [26, -20], [58, 34], [36, 34], [72, 80], [-72, 80], [-36, 34], [-58, 34], [-26, -20], [-44, -20]], 6), crown, 'pine');
 }
 function bush(a, c = 'green', w = 70, h = 44) { a.region(bumps(0, 0, w, h, 7, 0.44, 0.3, -100), c, 'bush'); }
@@ -210,14 +210,14 @@ function dino(a, skin = 'green', plates = ['red', 'orange', 'yellow', 'blue', 'p
 }
 
 /* ---------------------------------------------------------------- objects */
-function house(a, wall = 'yellow', roof = 'red', door = 'brown', win = 'lightblue') {
+function house(a, wall = 'yellow', roof = 'red', door = 'brown', win = 'lightblue', panes = true) {
   a.region(rrect(70, -132, 34, 60, 3), 'grey', 'chimney');
   a.region(rrect(-118, -46, 236, 166, 4), wall, 'wall');
   a.region(poly([[-142, -40], [0, -150], [142, -40], [124, -22], [0, -118], [-124, -22]], 10), roof, 'roof');
   a.region(poly([[-124, -22], [0, -118], [124, -22]], 4), wall, 'gable');
   a.region(circle(0, -58, 18), win, 'round window');
   a.region(rrect(-26, 36, 52, 84, 22), door, 'door'); a.ink(circle(14, 82, 4));
-  [[-92, 0], [52, 0]].forEach(([x, y]) => { a.region(rrect(x, y, 40, 40, 5), win, 'window'); a.line(`M${x + 20} ${y}V${y + 40}M${x} ${y + 20}H${x + 40}`, 2.6); });
+  [[-92, 0], [52, 0]].forEach(([x, y]) => { a.region(rrect(x, y, 40, 40, 5), win, 'window'); if (panes) a.line(`M${x + 20} ${y}V${y + 40}M${x} ${y + 20}H${x + 40}`, 2.6); });   // panes=false: a small house in a scene gets one pane per window
 }
 function flowerPot(a, petals = 'red', face_ = 'yellow', leaves = 'green', pot = 'orange', rim = 'brown') {
   a.region(rrect(-12, 0, 24, 150, 8), leaves, 'stem');   // runs down into the soil: the rim covers its end (operator 2026-10-05: the stem floated above the pot)

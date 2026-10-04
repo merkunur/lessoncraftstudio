@@ -99,7 +99,7 @@ function bumps(cx, cy, rx, ry, k = 8, b = 0.42, flatBottom = null, rot = -90) {
 }
 
 /* ---------------------------------------------------------------- the Art */
-const COLOURS = ['red', 'orange', 'yellow', 'lightgreen', 'green', 'lightblue', 'blue', 'purple', 'pink', 'brown', 'grey', 'none'];
+const COLOURS = ['red', 'orange', 'yellow', 'lightgreen', 'green', 'lightblue', 'blue', 'purple', 'pink', 'brown', 'grey', 'black', 'none'];
 
 /** the outline of every region, in FINAL picture units (the same everywhere, whatever a part's scale) */
 const OUTLINE = 3.2;

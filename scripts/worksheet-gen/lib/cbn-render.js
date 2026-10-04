@@ -20,7 +20,7 @@ const { COLOURS } = require('../primitives/cbn-art/core.js');
 /** crayon colours (the key swatches, the answer key, the screen paint) */
 const PALETTE = {
   red: '#EE4B42', orange: '#FF9A2E', yellow: '#FFD93B', lightgreen: '#A6DB7A', green: '#43A852', lightblue: '#9ED8F5',
-  blue: '#3D86D9', purple: '#9B6BD3', pink: '#F7A1C4', brown: '#A0673F', grey: '#A8AFB8', none: '#FFFFFF',
+  blue: '#3D86D9', purple: '#9B6BD3', pink: '#F7A1C4', brown: '#A0673F', grey: '#A8AFB8', black: '#4A4A4A', none: '#FFFFFF',
 };
 const INK = '#262626';
 const MIN_R = 8.5;        // picture units: room for a single-digit number (13+ units tall) with a margin

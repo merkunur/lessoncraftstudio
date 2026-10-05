@@ -145,12 +145,20 @@ function labelsAndGate(art, pieces, level) {
   const labels = [];
   const bad = [];
   const visibleRegions = new Set();
+  const small = [];
   for (const p of pieces) {
     if (p.area < CRUMB_AREA || p.r < HAIRLINE_R) continue;
     visibleRegions.add(p.region);
     if (p.colour === 'none') continue;
-    if (p.r < MIN_R) { bad.push({ x: p.x, y: p.y }); fails.push(`region ${p.region}${p.name ? ' (' + p.name + ')' : ''} ${p.colour}: a visible piece too small for its number (r ${p.r.toFixed(1)} < ${MIN_R}, area ${p.area.toFixed(0)})`); continue; }
+    if (p.r < MIN_R) { small.push(p); continue; }
     labels.push({ x: p.x, y: p.y, r: p.r, n: num[p.colour], region: p.region });
+  }
+  // a small piece is allowed only as an ATTACHED detail of a region whose main piece carries the number (line-art
+  // designs: a tail, a hoof, a spot coloured and painted with its part); a small region on its own has no number
+  const labelled = new Set(labels.map((l) => l.region));
+  for (const p of small) {
+    if (labelled.has(p.region)) continue;
+    bad.push({ x: p.x, y: p.y }); fails.push(`region ${p.region}${p.name ? ' (' + p.name + ')' : ''} ${p.colour}: a visible piece too small for its number (r ${p.r.toFixed(1)} < ${MIN_R}, area ${p.area.toFixed(0)})`);
   }
   art.regions.forEach((r, i) => { if (!visibleRegions.has(i)) fails.push(`region ${i}${r.name ? ' (' + r.name + ')' : ''}: not visible at all (hidden by later parts)`); });
   const k = Object.keys(num).length;

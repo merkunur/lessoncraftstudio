@@ -378,6 +378,8 @@ const PIECE = {
   'winter-cabin': { m3: 'brown', s2: ['brown', 'm3'], s8: ['brown', 'm3'] },
   'winter-little-penguin': { m0: 'orange', m1: 'orange', s26: ['orange', 'm1'], s12: ['orange', 'p4'], s15: ['orange', 'p4'] },
   'winter-happy-snowman': { s1: ['red', 'p6'], s16: ['red', 'p6'], s52: ['red', 'p6'], s10: ['black', 's10'], s11: ['black', 's11'], s13: ['black', 's13'], s17: ['brown', 'm1'], s25: ['brown', 'm1'], s26: ['brown', 'm1'], s32: ['brown', 'm1'], s40: ['brown', 'm1'], s45: ['brown', 'm1'], s54: ['brown', 'm1'], s58: ['brown', 'm1'], s67: ['brown', 'm1'], s21: ['brown', 'm1'], s22: ['brown', 'm1'], s24: ['brown', 'm1'], s28: ['brown', 'm1'], s29: ['brown', 'm1'], s42: ['brown', 'm1'], s50: ['brown', 'm1'], s55: ['brown', 'm1'], s56: ['brown', 'm1'] },
+  'winter-skates': { m0: 'grey' },
+  'night-owl': { m0: 'orange' },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },

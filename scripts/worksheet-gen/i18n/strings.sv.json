@@ -2974,5 +2974,13 @@
   "K-392": {
     "title": "Hitta ordet: {UNIT}",
     "instruction": "Färglägg varje ruta med ordet ”{UNIT}”. Räkna dem och skriv antalet."
+  },
+  "K-393": {
+    "title": "Måla efter nummer: {UNIT}",
+    "instruction": "Måla varje del med färgen som hör till dess nummer."
+  },
+  "K-394": {
+    "title": "Måla efter nummer: {UNIT}",
+    "instruction": "Måla varje del med färgen som hör till dess nummer."
   }
 }

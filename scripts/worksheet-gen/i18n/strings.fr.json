@@ -3014,5 +3014,13 @@
   "K-392": {
     "title": "Trouve le mot : {UNIT}",
     "instruction": "Colorie chaque case qui contient le mot « {UNIT} ». Compte-les et écris le nombre."
+  },
+  "K-393": {
+    "title": "Coloriage magique : {UNIT}",
+    "instruction": "Colorie chaque partie avec la couleur de son numéro."
+  },
+  "K-394": {
+    "title": "Coloriage magique : {UNIT}",
+    "instruction": "Colorie chaque partie avec la couleur de son numéro."
   }
 }

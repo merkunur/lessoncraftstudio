@@ -18,6 +18,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'digraphs',
   'feelings',
   'cloze',
+  'color-by-number',   // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version
   'opposites',
   'pronouns',
   'question-words',

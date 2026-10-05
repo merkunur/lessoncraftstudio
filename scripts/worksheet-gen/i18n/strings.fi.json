@@ -2990,5 +2990,13 @@
   "K-392": {
     "title": "Etsi sana: {UNIT}",
     "instruction": "Väritä jokainen ruutu, jossa on sana ”{UNIT}”. Laske ne ja kirjoita luku."
+  },
+  "K-393": {
+    "title": "Väritä numeroiden mukaan: {UNIT}",
+    "instruction": "Väritä jokainen osa sen numeron värillä."
+  },
+  "K-394": {
+    "title": "Väritä numeroiden mukaan: {UNIT}",
+    "instruction": "Väritä jokainen osa sen numeron värillä."
   }
 }

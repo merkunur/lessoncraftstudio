@@ -108,7 +108,7 @@ const B8 = [
       a.at({ x: 300, y: 200, s: 1.15 }, (b) => X.submarine(b, 'yellow', 'lightblue', 'red', 'grey'));
       a.at({ x: 270, y: 400, s: 0.95 }, (b) => P.fish(b, 'orange', 'purple', 'none'));
     } },
-  { id: 'bee-hive-tree', kind: 'scene', level: 2, names: { en: 'Busy Bees' },
+  { id: 'bee-hive-tree', kind: 'scene', level: 2, names: { en: 'Bees at the Hive' },
     draw(a) {
       skyGrass(a, 0.76);
       // a real tree: trunk, green crown, and a branch growing out of the trunk (a bare pole + plank looked like a signpost)

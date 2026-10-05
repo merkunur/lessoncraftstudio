@@ -3018,5 +3018,13 @@
   "K-392": {
     "title": "Encontre a palavra: {UNIT}",
     "instruction": "Pinte cada quadrinho com a palavra “{UNIT}”. Conte e escreva o número."
+  },
+  "K-393": {
+    "title": "Colorir por números: {UNIT}",
+    "instruction": "Pinte cada parte com a cor do seu número."
+  },
+  "K-394": {
+    "title": "Colorir por números: {UNIT}",
+    "instruction": "Pinte cada parte com a cor do seu número."
   }
 }

@@ -1,0 +1,1039 @@
+{
+  "id": "wave-cbn-es",
+  "_note": "Color by Number 2026-10-04: illustrated scenes (K-393) and single multi-part pictures (K-394), one worksheet per design, levels by measured complexity (L1 big parts, 3-5 colours; L2 5-7 colours; L3 6-8 colours, many parts). Visible to teachers, never indexed; PDF + tap-to-colour screen version + coloured answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "es"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-393",
+    "K-394"
+  ],
+  "levels": {
+    "K-393": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "duck-pond",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "frog-pond",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "penguins-ice",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "whale-hello",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "sheep-meadow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "plane-sky",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "fish-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "dolphin-jump",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "moon-night",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "snail-garden",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "starfish-beach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "octopus-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "turtle-beach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "helicopter-sky",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "sunflower-field",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "fox-snow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "igloo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "swan-lake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "polar-ice",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "cat-garden",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "puppy-park",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "bunny-hop",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "ladybug-leaf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "panda-bamboo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "seahorse-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "gingerbread-snow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "mouse-house",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "jellyfish-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "bird-sky",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "kite-sky",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "rainy-umbrella",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "piggy-mud",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "north-pole",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 35,
+          "unit": "farm-cow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "rocket-space",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "sailboat-beach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "snowman-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "balloon-ride",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "kite-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "hen-chicks",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "rainy-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "lion-savanna",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "giraffe-savanna",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "palm-island",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "robot-moon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "night-owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "caterpillar-leaf",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "windmill-hill",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "hedgehog-autumn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "christmas-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "doghouse-yard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "bear-picnic",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "pony-farm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "koala-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "flamingo-lake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "campsite",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "pizza-picnic",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "squirrel-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "crocodile-river",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "submarine-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "bee-hive-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "owl-branch-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "cat-butterfly",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "rainbow-meadow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "snowman-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "ladybug-flowers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "elephant-savanna",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 69,
+          "unit": "under-the-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "bunny-garden",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "bee-garden",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "car-trip",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "ladybird-meadow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "red-barn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "castle-hill",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "train-hills",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "lighthouse-coast",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "bus-street",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "unicorn-rainbow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "jungle-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "dragon-castle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "tractor-farm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "beach-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "mushroom-village",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "fire-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "birthday-party",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "farm-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "ocean-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "zoo-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "treasure-island",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "space-explorer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "alien-visit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "beach-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "birdhouse-garden",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "construction",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "forest-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "nest-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "deep-sea",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "picnic-day",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "toy-room",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "garden-party",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-394": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "flower-pot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "cozy-house",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "cat-yarn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "puppy-bowl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "elephant-splash",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "happy-frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "smiling-snail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "little-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "ice-cream",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "cupcake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "teddy-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "hen-nest",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "pineapple",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "gift-box",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "little-sheep",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "donut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "watermelon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "polar-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "cherries",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "happy-carrot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "rainbow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "backpack",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "seahorse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "gingerbread",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "little-mouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "happy-acorn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "jellyfish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "birdhouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "crocodile",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "strawberry",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "red-apple",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "kite",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 35,
+          "unit": "owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "busy-bee",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "red-car",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "lion-flowers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "tall-giraffe",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "goldfish-bowl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "friendly-robot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "unicorn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "parrot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "airplane",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "tea-time",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "monkey-banana",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "brown-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
+          "unit": "red-fox",
+          "seedVariant": 1
+        },
+        {
+          "copy": 49,
+          "unit": "pony",
+          "seedVariant": 1
+        },
+        {
+          "copy": 50,
+          "unit": "sunflower",
+          "seedVariant": 1
+        },
+        {
+          "copy": 51,
+          "unit": "caterpillar",
+          "seedVariant": 1
+        },
+        {
+          "copy": 52,
+          "unit": "hedgehog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 53,
+          "unit": "rain-boots",
+          "seedVariant": 1
+        },
+        {
+          "copy": 54,
+          "unit": "doghouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 55,
+          "unit": "cocoa-mug",
+          "seedVariant": 1
+        },
+        {
+          "copy": 56,
+          "unit": "rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 57,
+          "unit": "panda",
+          "seedVariant": 1
+        },
+        {
+          "copy": 58,
+          "unit": "koala",
+          "seedVariant": 1
+        },
+        {
+          "copy": 59,
+          "unit": "flamingo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 60,
+          "unit": "pizza-slice",
+          "seedVariant": 1
+        },
+        {
+          "copy": 61,
+          "unit": "squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 62,
+          "unit": "robin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 63,
+          "unit": "submarine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 64,
+          "unit": "beehive",
+          "seedVariant": 1
+        },
+        {
+          "copy": 65,
+          "unit": "mouse-cheese",
+          "seedVariant": 1
+        },
+        {
+          "copy": 66,
+          "unit": "snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 67,
+          "unit": "umbrella-rain",
+          "seedVariant": 1
+        },
+        {
+          "copy": 68,
+          "unit": "fruit-friends",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 69,
+          "unit": "rainbow-dino",
+          "seedVariant": 1
+        },
+        {
+          "copy": 70,
+          "unit": "fairy-castle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 71,
+          "unit": "toy-train",
+          "seedVariant": 1
+        },
+        {
+          "copy": 72,
+          "unit": "birthday-cake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 73,
+          "unit": "fruit-bowl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 74,
+          "unit": "school-bus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 75,
+          "unit": "lighthouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 76,
+          "unit": "tractor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 77,
+          "unit": "helicopter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 78,
+          "unit": "baby-dragon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 79,
+          "unit": "mushroom-house",
+          "seedVariant": 1
+        },
+        {
+          "copy": 80,
+          "unit": "flower-vase",
+          "seedVariant": 1
+        },
+        {
+          "copy": 81,
+          "unit": "beach-toys",
+          "seedVariant": 1
+        },
+        {
+          "copy": 82,
+          "unit": "peacock",
+          "seedVariant": 1
+        },
+        {
+          "copy": 83,
+          "unit": "burger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 84,
+          "unit": "crayon-box",
+          "seedVariant": 1
+        },
+        {
+          "copy": 85,
+          "unit": "paint-palette",
+          "seedVariant": 1
+        },
+        {
+          "copy": 86,
+          "unit": "treasure-chest",
+          "seedVariant": 1
+        },
+        {
+          "copy": 87,
+          "unit": "ice-cream-sundae",
+          "seedVariant": 1
+        },
+        {
+          "copy": 88,
+          "unit": "party-balloons",
+          "seedVariant": 1
+        },
+        {
+          "copy": 89,
+          "unit": "astronaut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 90,
+          "unit": "ufo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 91,
+          "unit": "camping-tent",
+          "seedVariant": 1
+        },
+        {
+          "copy": 92,
+          "unit": "dump-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 93,
+          "unit": "bird-nest",
+          "seedVariant": 1
+        },
+        {
+          "copy": 94,
+          "unit": "submarine-deep",
+          "seedVariant": 1
+        },
+        {
+          "copy": 95,
+          "unit": "teddy-present",
+          "seedVariant": 1
+        },
+        {
+          "copy": 96,
+          "unit": "sweet-treats",
+          "seedVariant": 1
+        },
+        {
+          "copy": 97,
+          "unit": "owl-moon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 98,
+          "unit": "toy-box",
+          "seedVariant": 1
+        },
+        {
+          "copy": 99,
+          "unit": "garden-friends",
+          "seedVariant": 1
+        },
+        {
+          "copy": 100,
+          "unit": "whale-and-fish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 101,
+          "unit": "kitten-butterfly",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

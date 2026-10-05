@@ -1462,7 +1462,17 @@
  },
  "color-by-number": {
   "paint": {
-   "en": "Tap a crayon, then tap every part that has its number."
+   "en": "Tap a crayon, then tap every part with the same number.",
+   "de": "Tippe auf einen Stift und dann auf jeden Teil mit derselben Zahl.",
+   "fr": "Touche un crayon, puis touche chaque partie qui porte le même numéro.",
+   "es": "Toca un crayón y luego toca cada parte que tiene el mismo número.",
+   "pt": "Toque em um giz de cera e depois em cada parte que tem o mesmo número.",
+   "it": "Tocca un pastello, poi tocca ogni parte che ha lo stesso numero.",
+   "nl": "Tik op een krijtje en tik dan op elk deel met hetzelfde nummer.",
+   "sv": "Tryck på en krita och sedan på varje del som har samma nummer.",
+   "da": "Tryk på et farvekridt og derefter på hver del, der har samme tal.",
+   "no": "Trykk på en fargestift og deretter på hver del som har samme tall.",
+   "fi": "Napauta väriliitua ja sitten jokaista osaa, jossa on sama numero."
   }
  }
 }

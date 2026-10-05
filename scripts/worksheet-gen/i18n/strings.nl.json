@@ -3014,5 +3014,13 @@
   "K-392": {
     "title": "Zoek het woord: {UNIT}",
     "instruction": "Kleur elk vakje met het woord ‘{UNIT}’. Tel ze en schrijf het getal op."
+  },
+  "K-393": {
+    "title": "Kleuren op nummer: {UNIT}",
+    "instruction": "Kleur elk deel met de kleur van zijn nummer."
+  },
+  "K-394": {
+    "title": "Kleuren op nummer: {UNIT}",
+    "instruction": "Kleur elk deel met de kleur van zijn nummer."
   }
 }

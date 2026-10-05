@@ -3030,5 +3030,13 @@
   "K-392": {
     "title": "Finde das Wort: {UNIT}",
     "instruction": "Male jedes Kästchen mit dem Wort „{UNIT}“ an. Zähle sie und schreibe die Zahl auf."
+  },
+  "K-393": {
+    "title": "Malen nach Zahlen: {UNIT}",
+    "instruction": "Male jeden Teil in der Farbe seiner Zahl aus."
+  },
+  "K-394": {
+    "title": "Malen nach Zahlen: {UNIT}",
+    "instruction": "Male jeden Teil in der Farbe seiner Zahl aus."
   }
 }

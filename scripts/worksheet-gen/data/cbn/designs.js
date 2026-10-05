@@ -80,7 +80,7 @@ function pieceColours(d) {
   j.parts.forEach((p, i) => { if (cs[i] != null) res.set('p' + i, { colour: cs[i], anchor: 'p' + i }); });
   const pieces = [...mids.map((p, i) => ['m' + i, p]), ...smalls.map((p, i) => ['s' + i, p])];
   const allOf = (p) => [...j.parts.filter((q) => !q.fixed), ...mids, ...smalls].filter((q) => q.src === p.src && q.item === p.item);
-  const bottomSmall = [];
+  const bottomSmall = [], topSmall = [];
   // a Christmas tree's ornaments: the topmost piece is the star (yellow, numbered when it can hold one), the round pieces
   // are baubles (red, painted with the biggest bauble under one number); the branch slivers follow their neighbours
   for (const item of new Set(smalls.filter((p) => p.src === 'Christmas bw/christmas_tree').map((p) => p.item))) {
@@ -105,11 +105,15 @@ function pieceColours(d) {
   for (const [k, p] of pieces) {
     if (res.has(k)) continue;
     if (p.hero && p.thick >= EYE_THICK) { res.set(k, { colour: 'none', anchor: null, eye: true }); continue; }   // an eye white / shine
-    let rule = p.src && SMALL_RULE[p.src];
+    let rule = p.src && !p.hero && SMALL_RULE[p.src];   // scenery only: a main picture has its own colours
     if (!rule) continue;
     if (typeof rule === 'object' && rule.split != null) {   // { split, bottom, fallback }: a flower's stem and leaves
       const ys = allOf(p).map((q) => q.y), y0 = Math.min(...ys), y1 = Math.max(...ys);
-      if (p.y < y0 + rule.split * (y1 - y0)) continue;         // the head: follows its neighbours (the chain)
+      if (rule.potFrom != null && p.y >= y0 + rule.potFrom * (y1 - y0)) continue;   // the pot: follows its neighbours
+      if (p.y < y0 + rule.split * (y1 - y0)) {                 // the head: follows its neighbours (the chain), or rule.top
+        if (rule.top) topSmall.push([k, p, rule]);
+        continue;
+      }
       if (k[0] === 'm') { res.set(k, { colour: rule.bottom, anchor: k }); continue; }
       bottomSmall.push([k, p, rule]); continue;               // a tiny leaf piece: after the mids, see below
     }
@@ -125,9 +129,31 @@ function pieceColours(d) {
     if (anchor) res.set(k, { colour: c, anchor });   // no numbered region of that colour to paint it with: it follows its neighbour
   }
   // a tiny stem / leaf piece: painted with a light-green numbered piece beside it, else with the grass
+  // a part with rule.top / rule.bottom and no numbered piece of that colour: its largest piece that can hold a compact
+  // number carries the number (the flower heads of a pot plant), the rest are painted with it
+  const selfAnchor = (list, colour) => {
+    const byItem = new Map();
+    for (const e of list) { const it = e[1].item; if (!byItem.has(it)) byItem.set(it, []); byItem.get(it).push(e); }
+    for (const group of byItem.values()) {
+      // every piece that can hold a compact number carries one (each leaf, each flower head)
+      for (const [k, p] of group) if (!res.has(k) && p.r >= 5.5) res.set(k, { colour, anchor: k });
+    }
+  };
+  selfAnchor(topSmall, topSmall.length ? topSmall[0][2].top : null);
+  for (const [k, p, rule] of topSmall) {
+    if (res.has(k)) continue;
+    const nb = (p.nbs || []).find((n) => res.get(n) && res.get(n).colour === rule.top);
+    const anyTop = topSmall.filter(([kk, q]) => q.item === p.item && res.get(kk) && res.get(kk).anchor === kk).sort((a, b) => Math.hypot(a[1].x - p.x, a[1].y - p.y) - Math.hypot(b[1].x - p.x, b[1].y - p.y))[0];
+    if (nb) res.set(k, { colour: rule.top, anchor: res.get(nb).anchor });
+    else if (anyTop) res.set(k, { colour: rule.top, anchor: anyTop[0] });
+  }
+  if (bottomSmall.some(([, , r]) => r.selfAnchor)) selfAnchor(bottomSmall.filter(([, , r]) => r.selfAnchor), bottomSmall.find(([, , r]) => r.selfAnchor)[2].bottom);
   for (const [k, p, rule] of bottomSmall) {
+    if (res.has(k)) continue;
     const nb = (p.nbs || []).find((n) => res.get(n) && res.get(n).colour === rule.bottom && !res.get(n).eye);
     if (nb) { res.set(k, { colour: rule.bottom, anchor: res.get(nb).anchor }); continue; }
+    const own = rule.selfAnchor && bottomSmall.filter(([kk, q]) => q.item === p.item && res.get(kk) && res.get(kk).anchor === kk).sort((a, b) => Math.hypot(a[1].x - p.x, a[1].y - p.y) - Math.hypot(b[1].x - p.x, b[1].y - p.y))[0];
+    if (own) { res.set(k, { colour: rule.bottom, anchor: own[0] }); continue; }
     const f = fixedKey(rule.fallback);
     if (f) res.set(k, { colour: res.get(f).colour, anchor: f });
   }

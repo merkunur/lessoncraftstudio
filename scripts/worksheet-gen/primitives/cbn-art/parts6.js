@@ -67,9 +67,10 @@ function watermelon(a, flesh = 'red', rind = 'green', inner = 'lightgreen') {
   a.region('M-132 -20H132A132 132 0 0 1 -132 -20Z', flesh, 'watermelon');
   [[-70, 20], [-20, 40], [40, 30], [80, 4], [-40, 70], [10, 84], [-100, 0]].forEach(([x, y]) => a.ink(ellipse(x, y, 6, 9)));
 }
-function polarBear(a, fur = 'none', nose = 'black') {
+function polarBear(a, fur = 'none', nose = 'black', scarf = null) {
   [[-74, 20], [-54, 24], [34, 24], [54, 20]].forEach(([x, y]) => a.region(rrect(x, y, 32, 66, 14), fur, 'leg'));
   a.region(ellipse(-8, 0, 104, 64), fur, 'polar bear body');
+  if (scarf) { a.region(blob([[26, -22], [52, -60], [112, -50], [110, -14], [70, -6]], 1), scarf, 'scarf'); a.region(rrect(70, -24, 30, 66, 10), scarf, 'scarf end'); }   // something to colour on a white bear
   a.region(circle(60, -90, 26), fur, 'ear'); a.region(circle(58, -92, 13), nose, 'inner ear');
   a.region(blob([[50, -70], [100, -100], [160, -70], [180, -40], [150, -16], [80, -20]], 1), fur, 'polar bear head');
   a.region(ellipse(176, -44, 13, 10), nose, 'nose');

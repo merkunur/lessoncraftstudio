@@ -127,7 +127,7 @@ const B1 = [
       P.meadow(a, W, H, { horizon: 0.66 });
       a.at({ x: 500, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 130, y: 90, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 270, y: 150, s: 0.9, r: 14 }, (b) => Q.kite(b, 'red', 'yellow', 'blue'));
+      a.at({ x: 270, y: 126, s: 0.85, r: 14 }, (b) => Q.kite(b, 'red', 'yellow', 'blue', 'short'));
       a.at({ x: 480, y: 360, s: 0.85 }, (b) => P.tree(b));
       a.at({ x: 120, y: 500, s: 0.9 }, (b) => P.bush(b, 'lightgreen'));
     } },

@@ -70,7 +70,8 @@ const B6 = [
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
-      a.group('leaf', () => { a.region('M-10 460Q200 260 470 330Q560 360 610 420V570H-10Z', 'green', 'leaf'); a.line('M40 470Q250 360 520 400', 3); }, { edgeOk: true });
+      // a real LEAF: pointed tip, stalk and veins (the first one read as a hill)
+      a.group('leaf', () => { a.region('M40 470Q160 300 400 320Q520 330 580 300Q540 420 400 470Q220 530 40 470Z', 'green', 'leaf'); a.line('M40 470L10 500', 6); a.line('M70 466Q300 420 560 312', 3); });
       a.at({ x: 300, y: 340, s: 1.3 }, (b) => Q.ladybird(b, 'red', 'black'));
     } },
   { id: 'doghouse-yard', kind: 'scene', level: 2, names: { en: 'Dog and Doghouse' },
@@ -117,7 +118,7 @@ const B6 = [
     draw(a) {
       skyGrass(a, 0.6);
       a.at({ x: 520, y: 70, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 112, y: 330, s: 0.9 }, (b) => R.giraffe(b, 'yellow', 'brown', 'brown'));
+      a.at({ x: 132, y: 330, s: 0.9 }, (b) => R.giraffe(b, 'yellow', 'brown', 'brown'));
       a.at({ x: 410, y: 400, s: 1.12 }, (b) => Q.elephant(b, 'grey', 'pink'));
     } },
   { id: 'treasure-island', kind: 'scene', level: 3, names: { en: 'Treasure Island' },

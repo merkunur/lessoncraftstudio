@@ -25,7 +25,7 @@ const B9 = [
   { id: 'red-apple', kind: 'picture', level: 1, names: { en: 'Red Apple' },
     draw(a) { a.group('plate', () => a.region(ellipse(300, 470, 180, 30), 'blue', 'plate')); a.at({ x: 300, y: 300, s: 1.65 }, (b) => Q.apple(b, 'red', 'green', 'brown')); } },
   { id: 'kite', kind: 'picture', level: 1, names: { en: 'Kite' },
-    draw(a) { a.at({ x: 300, y: 220, s: 1.3, r: 10 }, (b) => Q.kite(b, 'red', 'yellow', 'blue')); a.at({ x: 120, y: 120, s: 0.75 }, (b) => P.cloud(b)); } },
+    draw(a) { a.at({ x: 340, y: 190, s: 1.2, r: 10 }, (b) => Q.kite(b, 'red', 'yellow', 'blue')); a.at({ x: 120, y: 120, s: 0.75 }, (b) => P.cloud(b)); } },
   { id: 'snowman', kind: 'picture', level: 2, names: { en: 'Snowman' },
     draw(a) {
       a.group('snow', () => a.region(blob([[80, 490], [140, 450], [300, 440], [460, 450], [520, 490], [300, 520]], 1), 'lightblue', 'snow'));
@@ -49,7 +49,8 @@ const B9 = [
   { id: 'sweet-treats', kind: 'picture', level: 3, names: { en: 'Sweet Treats' },
     draw(a) {
       table(a, 460, 'blue');
-      a.at({ x: 130, y: 278, s: 1.15 }, (b) => Q.iceCream(b, 'orange', 'pink', 'brown', 'red'));
+      a.at({ x: 130, y: 258, s: 1.15 }, (b) => Q.iceCream(b, 'orange', 'pink', 'brown', 'red'));
+      a.group('cone holder', () => a.region('M80 400H180L170 460H90Z', 'green', 'holder'));   // the cone stands in a holder (on its point it would fall)
       a.at({ x: 330, y: 360, s: 1.0 }, (b) => Q.cupcake(b, 'purple', 'pink', 'red'));
       a.at({ x: 490, y: 410, s: 0.62 }, (b) => U.donut(b, 'orange', 'yellow', null));
     } },
@@ -97,7 +98,7 @@ const B9 = [
 
   /* ------------------------------------------------------------ scenes */
   { id: 'kite-sky', kind: 'scene', level: 1, names: { en: 'Kite in the Sky' },
-    draw(a) { skyGrass(a, 0.78); a.at({ x: 480, y: 90, s: 0.9 }, (b) => P.sun(b)); a.at({ x: 270, y: 200, s: 1.15, r: 12 }, (b) => Q.kite(b, 'red', 'yellow', 'blue')); } },
+    draw(a) { skyGrass(a, 0.78); a.at({ x: 480, y: 90, s: 0.9 }, (b) => P.sun(b)); a.at({ x: 290, y: 150, s: 1.0, r: 12 }, (b) => Q.kite(b, 'red', 'yellow', 'blue', 'short')); } },
   { id: 'rainy-umbrella', kind: 'scene', level: 1, names: { en: 'Rainy Day Umbrella' },
     draw(a) {
       skyGrass(a, 0.74);
@@ -177,7 +178,7 @@ const B9 = [
       Q.snow(a, W, H, { horizon: 0.58 });
       a.at({ x: 480, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 170, y: 350, s: 0.85 }, (b) => U.igloo(b, 'none', 'blue'));
-      a.at({ x: 370, y: 420, s: 1.05 }, (b) => U.polarBear(b, 'none', 'black'));
+      a.at({ x: 370, y: 420, s: 1.05 }, (b) => U.polarBear(b, 'none', 'black', 'red'));
     } },
   { id: 'garden-party', kind: 'scene', level: 3, names: { en: 'Garden Party' },
     draw(a) {

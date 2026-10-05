@@ -43,17 +43,23 @@ function forgotCarry(a, b) {
   for (let i = 0; i < n; i++) { const t = (da[i] || 0) + (db[i] || 0); out = (i === n - 1 ? String(t) : String(t % 10)) + out; }
   return Number(out);
 }
-function mistakes(a, b, op, regroup) {
+/**
+ * rank = where the answer sits among the three numbers (0 smallest, 1 middle, 2 largest): the caller rotates it so
+ * "pick the middle one" never works (2026-10-05, read on the first render: ±10 slips put the answer in the middle every
+ * time). The typical mistake is kept whenever it fits the requested side.
+ */
+function mistakes(a, b, op, regroup, rank = 1) {
   const r = solve(a, b, op), len = String(r).length;
-  const cand = [];
-  if (regroup) cand.push(op === '+' ? forgotCarry(a, b) : columnwise(a, b, '-'));
-  cand.push(r + 10, r - 10, r + 1, r - 1, r + 100, r - 100, r + 20, r - 20, r + 2, r - 2, r + 3);   // ±2 / ±3: a one-digit answer (38 − 37) has few same-length slips
-  const out = [];
-  // and never a size giveaway: a difference below the number subtracted from, a sum above both addends
-  const fits = (v) => (op === '-' ? v < a : v > Math.max(a, b));
-  for (const v of cand) if (Number.isInteger(v) && v > 0 && v !== r && String(v).length === len && fits(v) && !out.includes(v)) out.push(v);
-  if (out.length < 2) throw new Error(`column screen: no two same-length mistakes for ${a}${op}${b}`);
-  return out.slice(0, 2);
+  // and never a size giveaway: same digit count, a difference below the number subtracted from, a sum above both addends
+  const fits = (v) => Number.isInteger(v) && v > 0 && v !== r && String(v).length === len && (op === '-' ? v < a : v > Math.max(a, b));
+  const typical = regroup ? (op === '+' ? forgotCarry(a, b) : columnwise(a, b, '-')) : null;
+  const pool = [];
+  for (const v of [typical, r + 10, r - 10, r + 20, r - 20, r + 1, r - 1, r + 100, r - 100, r + 30, r - 30, r + 2, r - 2, r + 3, r - 3]) if (v != null && fits(v) && !pool.includes(v)) pool.push(v);
+  if (pool.length < 2) throw new Error(`column screen: no two same-length mistakes for ${a}${op}${b}`);
+  const hi = pool.filter((v) => v > r), lo = pool.filter((v) => v < r);
+  const want = rank === 0 ? [hi[0], hi[1]] : rank === 2 ? [lo[0], lo[1]] : [lo[0], hi[0]];
+  const pair = want.every((v) => v != null) ? want : pool.slice(0, 2);   // the side cannot be honoured: any two
+  return pair.sort((x, y) => x - y);
 }
 
 function screenOrKey(built, ctx, { regroup }) {
@@ -64,11 +70,12 @@ function screenOrKey(built, ctx, { regroup }) {
     // the page's own cards, one per item (the ws-card-stage markup), enlarged
     const cards = [...built.bodyHtml.matchAll(/<div class="ws-card-stage"[\s\S]*?<\/div><\/div><\/div>(?=<\/section>)/g)].map((m) => m[0]);
     if (cards.length !== P.length) throw new Error(`column screen: ${cards.length} cards for ${P.length} problems`);
-    let prev = -1;
+    // the answer is the smallest, middle or largest of the three in turn (a fixed rotation, never twice in a row);
+    // the chips read in ascending order, so the answer's place is its rank
+    const ROT = [1, 0, 2, 0, 1, 2, 2, 0, 1];
     const items = P.map((p, i) => {
-      let at = (i * 2 + 1) % 3; if (at === prev) at = (at + 1) % 3; prev = at;
-      const vals = mistakes(p.a, p.b, p.op, regroup);
-      vals.splice(at, 0, solve(p.a, p.b, p.op));
+      const vals = [...mistakes(p.a, p.b, p.op, regroup, ROT[i % ROT.length]), solve(p.a, p.b, p.op)].sort((x, y) => x - y);
+      const at = vals.indexOf(solve(p.a, p.b, p.op));
       const chips = vals.map((v, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${v}"${j === at ? ' data-lcs-correct="1"' : ''} style="width:190px;height:${OPT_H}px;box-sizing:border-box;font-size:42px">${v}</span>`).join('');
       // the card without its empty answer row's dashed cells looking like a question to tap: the chips answer it
       const card = cards[i].replace(/ data-lcs-digit="\d"/g, '');

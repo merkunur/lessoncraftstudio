@@ -7,6 +7,7 @@ const P = require('../../primitives/cbn-art/parts.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
 const R = require('../../primitives/cbn-art/parts3.js');
 const S = require('../../primitives/cbn-art/parts4.js');
+const N = require('../../primitives/cbn-art/v2.js');
 const { blob, rrect, ellipse, circle } = require('../../primitives/cbn-art/core.js');
 
 const W = 600, H = 560;
@@ -20,7 +21,7 @@ const B3 = [
   { id: 'unicorn', kind: 'picture', level: 2, names: { en: 'Unicorn' },
     draw(a) {
       mound(a, 300, 492, 250);
-      a.at({ x: 290, y: 330, s: 1.2 }, (b) => S.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));
+      a.at({ x: 296, y: 486, s: 1.1 }, (b) => N.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));
     } },
   { id: 'parrot', kind: 'picture', level: 2, names: { en: 'Parrot' },
     draw(a) {
@@ -29,7 +30,7 @@ const B3 = [
         a.at({ x: 520, y: 390, r: -30 }, (c) => c.region('M0 0Q30 -40 84 -26Q50 14 0 0Z', 'green', 'leaf'));
         a.at({ x: 100, y: 384, r: 160 }, (c) => c.region('M0 0Q30 -40 84 -26Q50 14 0 0Z', 'green', 'leaf'));
       });
-      a.at({ x: 300, y: 318, s: 1.3 }, (b) => S.parrot(b, 'red', 'blue', 'green', 'yellow', 'none', false));   // in front of the branch: the branch would cut its tail
+      a.at({ x: 300, y: 284, s: 1.3 }, (b) => S.parrot(b, 'red', 'blue', 'green', 'yellow', 'none', 'grip'));   // PERCHED: its body rests on the branch, its feet grip it, its long tail hangs in front
     } },
   { id: 'airplane', kind: 'picture', level: 2, names: { en: 'Airplane' },
     draw(a) {
@@ -40,7 +41,7 @@ const B3 = [
     } },
   { id: 'school-bus', kind: 'picture', level: 3, names: { en: 'School Bus' },
     draw(a) {
-      a.group('road', () => a.region(rrect(30, 430, 540, 40, 10), 'grey', 'road'));
+      a.group('road', () => { a.region(rrect(10, 446, 580, 96, 40), 'lightgreen', 'grass verge'); a.region(rrect(40, 468, 520, 46, 22), 'grey', 'road'); a.line('M90 491H150M220 491H280M350 491H410M480 491H520', 3); });   // a road in a grass verge (a bare grey bar read as a floating platform) — 2026-10-05
       a.at({ x: 300, y: 340, s: 1.55 }, (b) => S.bus(b, 'yellow', 'lightblue', 'red', 'black', 'grey', 'orange'));
       a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b));
     } },
@@ -50,7 +51,7 @@ const B3 = [
         a.region(blob([[130, 470], [170, 420], [280, 400], [400, 412], [470, 470], [300, 500]], 1), 'grey', 'rock');
         a.region(blob([[110, 480], [130, 452], [190, 456], [214, 486], [160, 500]], 1), 'brown', 'rock');
       });
-      a.group('water', () => a.region('M60 480Q150 466 240 482T420 482T560 480L560 520Q300 540 60 520Z', 'blue', 'water'));
+      a.group('water', () => a.region('M80 480Q150 466 240 482T420 482T540 480A20 20 0 0 1 540 520Q300 540 80 520A20 20 0 0 1 80 480Z', 'blue', 'water'));   // rounded ends: a cut-off slab of sea read as a platform
       a.at({ x: 300, y: 270, s: 1.15 }, (b) => S.lighthouse(b, 'none', 'red', 'red', 'yellow', 'green'));
       gull(a, 120, 130, 1.2); gull(a, 470, 100, 1);
     } },
@@ -130,7 +131,10 @@ const B3 = [
       skyGrass(a, 0.56);
       a.at({ x: 110, y: 90, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 420, y: 90, s: 0.85 }, (b) => P.cloud(b));
-      a.at({ x: 300, y: 420, s: 1.3 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
+      // a garden: flowers beside the snail (the title promised a garden; the picture was bare grass) — 2026-10-05
+      a.at({ x: 84, y: 360, s: 1 }, (b) => b.group('tulip', () => { b.region('M-11 -10H11V120H-11Z', 'lightgreen', 'stem'); b.region('M4 66Q44 34 58 50Q44 88 4 96Z', 'lightgreen', 'leaf'); b.region('M-30 -50L-30 -8Q0 20 30 -8L30 -50L15 -32L0 -56L-15 -32Z', 'yellow', 'tulip'); }));
+      a.at({ x: 530, y: 374, s: 0.9 }, (b) => b.group('tulip', () => { b.region('M-11 -10H11V120H-11Z', 'lightgreen', 'stem'); b.region('M4 66Q44 34 58 50Q44 88 4 96Z', 'lightgreen', 'leaf'); b.region('M-30 -50L-30 -8Q0 20 30 -8L30 -50L15 -32L0 -56L-15 -32Z', 'orange', 'tulip'); }));
+      a.at({ x: 300, y: 430, s: 1.25 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
     } },
   { id: 'lighthouse-coast', kind: 'scene', level: 3, names: { en: 'Lighthouse by the Sea' },
     draw(a) {
@@ -158,10 +162,10 @@ const B3 = [
     draw(a) {
       skyGrass(a, 0.62);
       // the rainbow stands to one side and the unicorn faces away from it: an animal across the bands cut them into slivers
-      a.at({ x: 430, y: 330, s: 1.2 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
-      a.at({ x: 262, y: 322, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 590, y: 322, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 200, y: 404, s: 1.05, fx: true }, (b) => S.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));
+      a.at({ x: 452, y: 330, s: 1.2 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
+      a.at({ x: 292, y: 322, s: 0.72 }, (b) => P.cloud(b));
+      a.at({ x: 600, y: 322, s: 0.72 }, (b) => P.cloud(b));
+      a.at({ x: 236, y: 524, s: 1.02, fx: true }, (b) => N.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));   // room on both sides; the mane clear of the cloud
     } },
   { id: 'jungle-friends', kind: 'scene', level: 3, names: { en: 'Jungle Friends' },
     draw(a) {

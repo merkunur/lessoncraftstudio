@@ -7,6 +7,7 @@ const P = require('../../primitives/cbn-art/parts.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
 const R = require('../../primitives/cbn-art/parts3.js');
 const X = require('../../primitives/cbn-art/parts9.js');
+const V = require('../../primitives/cbn-art/v2.js');
 const { blob, rrect, ellipse } = require('../../primitives/cbn-art/core.js');
 
 const W = 600, H = 560;
@@ -128,10 +129,11 @@ const B8 = [
     draw(a) {
       skyGrass(a, 0.6);
       a.at({ x: 520, y: 70, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 110, y: 270, s: 0.9 }, (b) => P.pineTree(b, 'green', 'brown'));
-      a.at({ x: 270, y: 390, s: 0.95 }, (b) => X.squirrel(b, 'orange', 'yellow', 'brown'));
-      a.at({ x: 486, y: 398, s: 1.15 }, (b) => X.mouse(b, 'grey', 'pink', 'none'));
-      a.at({ x: 120, y: 470, s: 0.8 }, (b) => P.mushroom(b, 'red', 'none'));
+      a.at({ x: 112, y: 228, s: 1.55 }, (b) => P.pineTree(b, 'green', 'brown'));   // a tree is TALLER than a squirrel
+      // v2: the squirrel holds its acorn, the mouse is SMALLER than the squirrel and holds a strawberry
+      a.at({ x: 300, y: 470, s: 1.15 }, (b) => V.squirrel(b, 'orange', 'yellow', 'brown'));
+      a.at({ x: 500, y: 486, s: 1.0 }, (b) => V.mouse(b, 'grey', 'pink', 'red'));
+      a.at({ x: 120, y: 470, s: 0.7 }, (b) => P.mushroom(b, 'red', 'none'));
     } },
   { id: 'nest-tree', kind: 'scene', level: 3, names: { en: 'Nest in the Tree' },
     draw(a) {

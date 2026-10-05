@@ -7,6 +7,7 @@
 'use strict';
 const { Art } = require('../../primitives/cbn-art/core.js');
 const P = require('../../primitives/cbn-art/parts.js');
+const V = require('../../primitives/cbn-art/v2.js');
 
 const W = 600, H = 560;
 
@@ -14,26 +15,30 @@ const DESIGNS = [
   /* ------------------------------------------------------------ PILOT (2026-10-04) */
   { id: 'duck-pond', kind: 'scene', level: 1, names: { en: 'Duck on the Pond' },
     draw(a) {
-      P.pond(a, W, H);
+      // v2 (2026-10-05): a pond big enough for the duck, which floats IN it (it sat half on the grass)
+      a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
+      a.region(`M0 ${H * 0.46}C${W * 0.3} ${H * 0.4} ${W * 0.7} ${H * 0.43} ${W} ${H * 0.47}V${H}H0Z`, 'green', 'grass bank');
+      a.region('M30 410C30 320 570 320 570 410C570 510 30 510 30 410Z', 'blue', 'pond');
       a.at({ x: 470, y: 92, s: 0.95 }, (b) => P.sun(b));
       a.at({ x: 150, y: 90, s: 0.9 }, (b) => P.cloud(b));
-      a.at({ x: 290, y: 400, s: 1.45 }, (b) => P.duck(b));
-      a.at({ x: 486, y: 418, s: 0.85 }, (b) => P.lilyPad(b));   // IN the water (it straddled the bank)
+      a.at({ x: 292, y: 452, s: 1.15 }, (b) => V.duck(b));
+      a.at({ x: 500, y: 424, s: 0.8 }, (b) => P.lilyPad(b));
+      a.line('M84 420Q106 412 128 420M100 446Q122 438 144 446M432 458Q452 450 472 458', 2.6);   // ripples around the duck
     } },
   { id: 'farm-cow', kind: 'scene', level: 2, names: { en: 'Cow on the Farm' },
     draw(a) {
       P.meadow(a, W, H, { horizon: 0.34 });
       a.at({ x: 500, y: 86 }, (b) => P.sun(b));
       a.at({ x: 170, y: 80, s: 0.85 }, (b) => P.cloud(b));
-      a.at({ x: 14, y: 300, s: 0.95 }, (b) => P.fence(b, 3, 'brown', 62));
-      a.at({ x: 312, y: 420, s: 1.35 }, (b) => P.cow(b));
+      a.at({ x: 14, y: 290, s: 0.85 }, (b) => P.fence(b, 3, 'brown', 62));
+      a.at({ x: 350, y: 500, s: 1.22 }, (b) => V.cow(b));
       [[70, 520], [520, 500], [420, 540]].forEach(([x, y]) => P.grassTuft(a, x, y));
     } },
   { id: 'under-the-sea', kind: 'scene', level: 3, names: { en: 'Under the Sea' },
     draw(a) {
       P.sea(a, W, H);
       a.at({ x: 70, y: 520 }, (b) => P.seaweed(b, 'green', 200));
-      a.at({ x: 548, y: 515, s: 0.85 }, (b) => P.shell(b, 'orange'));
+      a.at({ x: 352, y: 524, s: 0.85 }, (b) => P.shell(b, 'orange'));   // clear of the crab's legs
       a.at({ x: 240, y: 300, s: 1.45 }, (b) => P.octopus(b));
       a.at({ x: 140, y: 118, s: 1.2 }, (b) => P.fish(b, 'orange', 'yellow', 'none'));
       a.at({ x: 460, y: 180, s: 1.15, fx: true }, (b) => P.fish(b, 'pink', 'purple', 'none'));
@@ -56,7 +61,7 @@ const DESIGNS = [
       a.at({ x: 400, y: 80, s: 0.8 }, (b) => P.cloud(b));
       a.at({ x: 112, y: 420, s: 1.2 }, (b) => P.flower(b, 'red', 'yellow', 'green'));
       a.at({ x: 470, y: 405, s: 1.2 }, (b) => P.flower(b, 'red', 'yellow', 'green'));
-      a.at({ x: 300, y: 350, s: 1.45 }, (b) => P.bunny(b, 'grey', 'pink'));
+      a.at({ x: 300, y: 350, s: 1.45 }, (b) => V.bunny(b, 'grey', 'pink'));
       a.at({ x: 470, y: 170, s: 0.72 }, (b) => P.butterfly(b, 'purple', 'yellow', 'grey'));
       a.at({ x: 548, y: 500, s: 0.72 }, (b) => P.mushroom(b, 'red'));
     } },
@@ -69,10 +74,10 @@ const DESIGNS = [
   { id: 'owl', kind: 'picture', level: 2, names: { en: 'Owl on a Branch' },
     draw(a) {
       a.at({ x: 300, y: 430 }, (b) => {
-        b.at({ x: -182, y: -84, s: 0.95 }, (c) => P.flower(c, 'pink', 'yellow', 'green'));
+        // leaves GROW from the branch, their bases inside it (a flower stood on the branch and a lone leaf on top of it) — 2026-10-05
+        const leaf = (x, y, r, fx, col) => b.at({ x, y, r, fx }, (c) => c.region('M0 0Q20 -44 84 -30Q54 12 0 0Z', col, 'leaf'));
+        leaf(-118, -6, 14, true, 'green'); leaf(-196, 0, 34, true, 'lightgreen'); leaf(118, -2, -14, false, 'lightgreen'); leaf(196, -6, -34, false, 'green');
         b.region('M-262 -6Q-120 -24 0 -14Q120 -4 262 -18L262 26Q120 40 0 30Q-120 22 -262 36Z', 'brown', 'branch');
-        b.at({ x: -250, y: -10, r: -30 }, (c) => c.region('M0 0Q22 -46 74 -34Q46 8 0 0Z', 'green', 'leaf'));
-        b.at({ x: 200, y: -20, r: 24, fx: true }, (c) => c.region('M0 0Q22 -46 74 -34Q46 8 0 0Z', 'green', 'leaf'));
       });
       a.at({ x: 300, y: 248, s: 1.75 }, (b) => P.owl(b));
     } },

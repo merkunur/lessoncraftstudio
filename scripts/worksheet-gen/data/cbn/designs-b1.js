@@ -5,7 +5,7 @@
 'use strict';
 const P = require('../../primitives/cbn-art/parts.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
-const { ellipse, blob } = require('../../primitives/cbn-art/core.js');
+const { ellipse, blob, rrect } = require('../../primitives/cbn-art/core.js');
 
 const W = 600, H = 560;
 /** a soft grassy mound a picture's character stands on */
@@ -37,9 +37,10 @@ const B1 = [
     } },
   { id: 'busy-bee', kind: 'picture', level: 2, names: { en: 'Busy Bee' },
     draw(a) {
-      mound(a, 460, 488, 90);
-      a.at({ x: 460, y: 390, s: 1.15 }, (b) => P.flower(b, 'pink', 'orange', 'green', 30));
-      a.at({ x: 250, y: 250, s: 1.6 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
+      mound(a, 440, 492, 110, 'lightgreen');
+      // a bee is SMALLER than the flower it visits (it was three times the size); a real stem, not a stump — 2026-10-05
+      a.at({ x: 440, y: 300, s: 1.5 }, (b) => P.flower(b, 'pink', 'orange', 'green', 30, 125));
+      a.at({ x: 200, y: 190, s: 1.15 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
     } },
   { id: 'smiling-snail', kind: 'picture', level: 1, names: { en: 'Smiling Snail' },
     draw(a) {
@@ -55,7 +56,7 @@ const B1 = [
     draw(a) { a.at({ x: 300, y: 300, s: 1.45 }, (b) => Q.iceCream(b, 'orange', 'pink', 'brown', 'red')); } },
   { id: 'red-car', kind: 'picture', level: 2, names: { en: 'Little Red Car' },
     draw(a) {
-      a.group('road', () => a.region(`M40 470H560V520H40Z`, 'grey', 'road'));
+      a.group('road', () => { a.region(rrect(10, 448, 580, 96, 40), 'lightgreen', 'grass verge'); a.region(rrect(40, 470, 520, 46, 22), 'grey', 'road'); a.line('M90 493H150M220 493H280M350 493H410M480 493H520', 3); });   // a road in a grass verge (a bare grey bar read as a floating platform) — 2026-10-05
       a.at({ x: 300, y: 380, s: 1.6 }, (b) => Q.car(b, 'red', 'lightblue', 'black', 'grey', 'yellow'));
       a.at({ x: 500, y: 110, s: 0.9 }, (b) => P.sun(b));
     } },
@@ -85,26 +86,30 @@ const B1 = [
       P.meadow(a, W, H, { horizon: 0.8 });
       a.at({ x: 110, y: 90, s: 0.85 }, (b) => P.cloud(b));
       a.at({ x: 500, y: 190, s: 0.7 }, (b) => P.cloud(b));
-      a.at({ x: 300, y: 210, s: 1.25 }, (b) => Q.balloon(b, 'red', 'yellow', 'brown'));
+      a.at({ x: 300, y: 178, s: 1.2 }, (b) => Q.balloon(b, 'red', 'yellow', 'brown'));   // flying, clear of the hill (its basket sat on it) — 2026-10-05
       a.at({ x: 500, y: 74, s: 0.8 }, (b) => P.sun(b));
     } },
   { id: 'frog-pond', kind: 'scene', level: 1, names: { en: 'Frog in the Pond' },
     draw(a) {
-      P.pond(a, W, H);
+      // a pond big enough for the frog, its pad wholly IN the water (it hung over the bank) — 2026-10-05
+      a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
+      a.region(`M0 ${H * 0.46}C${W * 0.3} ${H * 0.4} ${W * 0.7} ${H * 0.43} ${W} ${H * 0.47}V${H}H0Z`, 'green', 'grass bank');
+      a.region('M20 432C20 330 580 330 580 432C580 540 20 540 20 432Z', 'blue', 'pond');
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
-      a.at({ x: 290, y: 450, s: 1.1 }, (b) => P.lilyPad(b, 'green', 64));
-      a.at({ x: 290, y: 360, s: 1.05 }, (b) => Q.frog(b, 'lightgreen', 'yellow'));
+      a.at({ x: 296, y: 448, s: 1.4 }, (b) => P.lilyPad(b, 'green', 64));
+      a.at({ x: 296, y: 362, s: 1.0 }, (b) => Q.frog(b, 'lightgreen', 'yellow'));
     } },
   { id: 'bee-garden', kind: 'scene', level: 3, names: { en: 'Bee in the Garden' },
     draw(a) {
-      P.meadow(a, W, H, { horizon: 0.6 });
+      a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
+      a.region(`M0 ${H * 0.64}C${W * 0.3} ${H * 0.6} ${W * 0.7} ${H * 0.62} ${W} ${H * 0.64}V${H}H0Z`, 'green', 'grass');   // one grass: the tall stems cut a two-band meadow into crumbs
       a.at({ x: 80, y: 80, s: 0.8 }, (b) => P.sun(b));
-      a.at({ x: 470, y: 74, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 120, y: 400, s: 1.0 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
-      a.at({ x: 480, y: 410, s: 1.0 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
-      a.at({ x: 300, y: 450, s: 0.9 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
-      a.at({ x: 300, y: 220, s: 1.05 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));   // white wings: light blue vanished into the sky
-      a.at({ x: 500, y: 200, s: 0.75 }, (b) => P.butterfly(b, 'pink', 'yellow', 'purple'));
+      // the flowers are taller than the bee and the butterfly that visit them (the bee was twice a flower's size) — 2026-10-05
+      a.at({ x: 112, y: 320, s: 1.3 }, (b) => P.flower(b, 'red', 'yellow', 'green', 32, 120));
+      a.at({ x: 488, y: 330, s: 1.3 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 32, 112));
+      a.at({ x: 300, y: 378, s: 1.2 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 32, 100));
+      a.at({ x: 262, y: 190, s: 1.02 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));   // white wings: light blue vanished into the sky
+      a.at({ x: 478, y: 170, s: 0.74 }, (b) => P.butterfly(b, 'pink', 'yellow', 'purple'));
     } },
   { id: 'penguins-ice', kind: 'scene', level: 1, names: { en: 'Penguins on the Ice' },
     draw(a) {
@@ -116,18 +121,18 @@ const B1 = [
   { id: 'car-trip', kind: 'scene', level: 3, names: { en: 'Car Trip' },
     draw(a) {
       Q.road(a, W, H, { horizon: 0.56 });
-      a.at({ x: 90, y: 80, s: 0.8 }, (b) => P.sun(b));
-      a.at({ x: 330, y: 80, s: 0.8 }, (b) => P.cloud(b));
-      a.at({ x: 130, y: 226, s: 0.78 }, (b) => P.house(b, 'yellow', 'red', 'brown', 'lightblue', false));
+      a.at({ x: 520, y: 74, s: 0.8 }, (b) => P.sun(b));   // clear of the roof — 2026-10-05
+      a.at({ x: 360, y: 70, s: 0.7 }, (b) => P.cloud(b));
+      a.at({ x: 150, y: 200, s: 1.0 }, (b) => P.house(b, 'yellow', 'red', 'brown', 'lightblue', false));
       a.at({ x: 470, y: 260, s: 0.75 }, (b) => P.tree(b));
-      a.at({ x: 310, y: 410, s: 1.2 }, (b) => Q.car(b, 'blue', 'lightblue', 'black', 'grey', 'yellow'));
+      a.at({ x: 340, y: 418, s: 1.12 }, (b) => Q.car(b, 'blue', 'lightblue', 'black', 'grey', 'yellow'));   // smaller than the house — 2026-10-05
     } },
   { id: 'kite-day', kind: 'scene', level: 2, names: { en: 'Kite Day' },
     draw(a) {
       P.meadow(a, W, H, { horizon: 0.66 });
       a.at({ x: 500, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 130, y: 90, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 270, y: 126, s: 0.85, r: 14 }, (b) => Q.kite(b, 'red', 'yellow', 'blue', 'short'));
+      a.at({ x: 300, y: 126, s: 0.85, r: 14 }, (b) => Q.kite(b, 'red', 'yellow', 'blue', true));   // the string runs out of the picture to the child holding it (it ended in the grass) — 2026-10-05
       a.at({ x: 480, y: 360, s: 0.85 }, (b) => P.tree(b));
       a.at({ x: 120, y: 500, s: 0.9 }, (b) => P.bush(b, 'lightgreen'));
     } },
@@ -136,9 +141,11 @@ const B1 = [
       P.meadow(a, W, H, { horizon: 0.5 });
       a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 140, y: 80, s: 0.8 }, (b) => P.cloud(b));
-      a.at({ x: 110, y: 420, s: 0.95 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
-      a.at({ x: 500, y: 430, s: 0.95 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
-      a.at({ x: 300, y: 400, s: 1.35 }, (b) => Q.ladybird(b, 'red', 'black'));
+      // a SMALL ladybug on a big leaf among tall flowers (it was bigger than the flowers) — 2026-10-05
+      a.at({ x: 100, y: 330, s: 1.3 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 28, 120));
+      a.at({ x: 504, y: 340, s: 1.3 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 28, 112));
+      a.group('leaf', () => { a.region('M150 512C150 380 340 330 460 392C420 490 300 540 150 512Z', 'lightgreen', 'big leaf'); a.line('M200 494Q300 440 420 400', 2.6); });   // the vein stops short of the leaf's edge
+      a.at({ x: 304, y: 420, s: 0.72, r: -16 }, (b) => Q.ladybird(b, 'red', 'black'));
     } },
   { id: 'whale-hello', kind: 'scene', level: 1, names: { en: 'Hello, Whale!' },
     draw(a) {
@@ -146,7 +153,7 @@ const B1 = [
       a.region(`M0 ${H * 0.42}C${W * 0.3} ${H * 0.38} ${W * 0.6} ${H * 0.46} ${W} ${H * 0.42}V${H}H0Z`, 'blue', 'sea');
       a.at({ x: 480, y: 80, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 140, y: 80, s: 0.8 }, (b) => P.cloud(b));
-      a.at({ x: 300, y: 300, s: 1.3 }, (b) => Q.whale(b, 'grey', 'none'));   // its back above the surface: the spout is in the air
+      a.at({ x: 300, y: 300, s: 1.3 }, (b) => Q.whale(b, 'grey', 'none', false));   // its back above the surface: the spout is in the air
       // the near water in front of its belly: the whale swims IN the sea, not on top of it
       a.region('M0 372Q75 350 150 372T300 372T450 372T600 372V560H0Z', 'blue', 'sea');
       a.line('M60 440q20 -12 40 0M420 470q20 -12 40 0M250 500q20 -12 40 0', 3);

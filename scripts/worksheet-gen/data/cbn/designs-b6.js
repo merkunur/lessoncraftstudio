@@ -4,6 +4,7 @@
  */
 'use strict';
 const P = require('../../primitives/cbn-art/parts.js');
+const N = require('../../primitives/cbn-art/v2.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
 const R = require('../../primitives/cbn-art/parts3.js');
 const T = require('../../primitives/cbn-art/parts5.js');
@@ -65,7 +66,7 @@ const B6 = [
   { id: 'puppy-park', kind: 'scene', level: 1, names: { en: 'Puppy in the Park' },
     draw(a) { skyGrass(a, 0.62); a.at({ x: 120, y: 90, s: 0.9 }, (b) => P.sun(b)); a.at({ x: 300, y: 330, s: 1.25 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'red')); } },
   { id: 'bunny-hop', kind: 'scene', level: 1, names: { en: 'Little Bunny' },
-    draw(a) { skyGrass(a, 0.6); a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b)); a.at({ x: 290, y: 340, s: 1.6 }, (b) => P.bunny(b, 'grey', 'pink')); } },
+    draw(a) { skyGrass(a, 0.6); a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b)); a.at({ x: 290, y: 340, s: 1.6 }, (b) => N.bunny(b, 'grey', 'pink')); } },
   { id: 'ladybug-leaf', kind: 'scene', level: 1, names: { en: 'Ladybug on a Leaf' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
@@ -102,7 +103,7 @@ const B6 = [
       P.meadow(a, W, H, { horizon: 0.45 });
       a.at({ x: 90, y: 70, s: 0.75 }, (b) => P.sun(b));
       a.at({ x: 460, y: 170, s: 0.8 }, (b) => R.barn(b, 'red', 'brown', 'none', 'none'));
-      a.at({ x: 170, y: 360, s: 1.0 }, (b) => P.cow(b, 'none', 'brown', 'pink'));
+      a.at({ x: 170, y: 440, s: 0.95 }, (b) => N.cow(b, 'none', 'brown', 'pink'));
       a.at({ x: 430, y: 446, s: 1.02 }, (b) => Q.pig(b, 'pink', 'pink'));
     } },
   { id: 'ocean-friends', kind: 'scene', level: 3, names: { en: 'Ocean Friends' },

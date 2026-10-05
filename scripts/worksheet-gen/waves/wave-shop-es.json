@@ -1,0 +1,637 @@
+{
+  "id": "wave-shop-es",
+  "_note": "Level Set 2026-10-05: Shopping Math (G2-276 + 7 variations). The base sheet for every shop theme at 3 levels; each variation 5 themes per level. Level 1 smaller prices, level 2 the published page, level 3 bigger prices, more questions, change paid with several coins, close calls. Visible to teachers, never indexed; PDF + interactive screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "es"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-276",
+    "G2-289",
+    "G2-290",
+    "G2-291",
+    "G2-292",
+    "G2-293",
+    "G2-294",
+    "G2-295"
+  ],
+  "levels": {
+    "G2-276": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 2,
+          "theme": "accessories"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom"
+        },
+        {
+          "copy": 6,
+          "theme": "clothing"
+        },
+        {
+          "copy": 7,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 8,
+          "theme": "fruits"
+        },
+        {
+          "copy": 9,
+          "theme": "music"
+        },
+        {
+          "copy": 10,
+          "theme": "toys"
+        },
+        {
+          "copy": 11,
+          "theme": "vegetables"
+        }
+      ],
+      "2": [
+        {
+          "copy": 12,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 13,
+          "theme": "accessories"
+        },
+        {
+          "copy": 14,
+          "theme": "bakery"
+        },
+        {
+          "copy": 15,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 16,
+          "theme": "classroom"
+        },
+        {
+          "copy": 17,
+          "theme": "clothing"
+        },
+        {
+          "copy": 18,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 19,
+          "theme": "music"
+        },
+        {
+          "copy": 20,
+          "theme": "toys"
+        },
+        {
+          "copy": 21,
+          "theme": "vegetables"
+        }
+      ],
+      "3": [
+        {
+          "copy": 22,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 23,
+          "theme": "accessories"
+        },
+        {
+          "copy": 24,
+          "theme": "bakery"
+        },
+        {
+          "copy": 25,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 26,
+          "theme": "classroom"
+        },
+        {
+          "copy": 27,
+          "theme": "clothing"
+        },
+        {
+          "copy": 28,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 29,
+          "theme": "fruits"
+        },
+        {
+          "copy": 30,
+          "theme": "music"
+        },
+        {
+          "copy": 31,
+          "theme": "toys"
+        },
+        {
+          "copy": 32,
+          "theme": "vegetables"
+        }
+      ]
+    },
+    "G2-289": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "music"
+        },
+        {
+          "copy": 2,
+          "theme": "classroom"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "toys"
+        },
+        {
+          "copy": 5,
+          "theme": "clothing"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 3,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        },
+        {
+          "copy": 6,
+          "theme": "accessories"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "accessories"
+        },
+        {
+          "copy": 2,
+          "theme": "music"
+        },
+        {
+          "copy": 3,
+          "theme": "classroom"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "toys"
+        }
+      ]
+    },
+    "G2-290": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "accessories"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "bakery"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        },
+        {
+          "copy": 6,
+          "theme": "clothing"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "clothing"
+        },
+        {
+          "copy": 2,
+          "theme": "accessories"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        }
+      ]
+    },
+    "G2-291": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "clothing"
+        },
+        {
+          "copy": 2,
+          "theme": "accessories"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom"
+        },
+        {
+          "copy": 5,
+          "theme": "At the Supermarket"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 3,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 4,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom"
+        },
+        {
+          "copy": 6,
+          "theme": "accessories"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 2,
+          "theme": "clothing"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "music"
+        },
+        {
+          "copy": 5,
+          "theme": "desserts and sweets"
+        }
+      ]
+    },
+    "G2-292": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "toys"
+        },
+        {
+          "copy": 2,
+          "theme": "clothing"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "music"
+        },
+        {
+          "copy": 5,
+          "theme": "classroom"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "music"
+        },
+        {
+          "copy": 3,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 5,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 6,
+          "theme": "classroom"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "accessories"
+        },
+        {
+          "copy": 5,
+          "theme": "music"
+        }
+      ]
+    },
+    "G2-293": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "bakery"
+        },
+        {
+          "copy": 2,
+          "theme": "toys"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "accessories"
+        },
+        {
+          "copy": 5,
+          "theme": "music"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "music"
+        },
+        {
+          "copy": 4,
+          "theme": "classroom"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        },
+        {
+          "copy": 6,
+          "theme": "toys"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "fruits"
+        },
+        {
+          "copy": 2,
+          "theme": "bakery"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        }
+      ]
+    },
+    "G2-294": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 2,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 3,
+          "theme": "toys"
+        },
+        {
+          "copy": 4,
+          "theme": "clothing"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "classroom"
+        },
+        {
+          "copy": 3,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 4,
+          "theme": "music"
+        },
+        {
+          "copy": 5,
+          "theme": "clothing"
+        },
+        {
+          "copy": 6,
+          "theme": "accessories"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 2,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 3,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 4,
+          "theme": "toys"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ]
+    },
+    "G2-295": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "breakfast"
+        },
+        {
+          "copy": 2,
+          "theme": "fruits"
+        },
+        {
+          "copy": 3,
+          "theme": "classroom"
+        },
+        {
+          "copy": 4,
+          "theme": "bakery"
+        },
+        {
+          "copy": 5,
+          "theme": "clothing"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "music"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        },
+        {
+          "copy": 6,
+          "theme": "classroom"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "classroom"
+        },
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "music"
+        }
+      ]
+    }
+  }
+}

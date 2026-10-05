@@ -33,6 +33,24 @@ const NBSP = ' ';
 // a shop never sells a person: the toys theme carries baby/girl/boy/doll art that renders as a child
 const PERSON_KEYS = new Set(['baby', 'girl', 'boy', 'doll', 'child', 'kid', 'man', 'woman', 'mother', 'father', 'grandma', 'grandpa', 'teacher', 'nurse', 'doctor', 'police officer', 'firefighter', 'king', 'queen', 'prince', 'princess', 'pirate', 'clown', 'astronaut', 'knight', 'fairy', 'elf', 'santa']);
 
+// Level Set 2026-10-05: shelf pictures that are not merchandise (a till, a cart, a price tag, the furniture of the
+// room, a singer, a stage), a poisonous toadstool, or a near twin of another picture on the same shelf (apple / plum /
+// peach, three cake slices, two muffins, two bowls of porridge) — the child FINDS each picture on the shelf by its
+// look. Every picture of the Level Set shop themes was opened on contact sheets; none of these is in the theme of a
+// published page (fruits / animals / vehicles / toys).
+const SHOP_REFUSALS = new Set([
+  'At the Supermarket|bag', 'At the Supermarket|basket', 'At the Supermarket|cart', 'At the Supermarket|cash_register',
+  'At the Supermarket|price_tag', 'At the Supermarket|mushroom', 'At the Supermarket|butter', 'At the Supermarket|plum',
+  'At the Supermarket|peach',
+  'classroom|cabinet', 'classroom|calender', 'classroom|chair', 'classroom|clock', 'classroom|computer', 'classroom|desk',
+  'classroom|librarian', 'classroom|map', 'classroom|shelf', 'classroom|student', 'classroom|table', 'classroom|teacher',
+  'classroom|whiteboard',
+  'breakfast|muffin_2', 'breakfast|porridge', 'bakery|tart', 'bakery|cheesecake', 'desserts and sweets|pie',
+  'music|note', 'music|singer', 'music|stage',
+  'vegetables|mushroom', 'vegetables|turnip', 'vegetables|radish',
+  'accessories|badge', 'accessories|tiara', 'accessories|mask',
+]);
+
 module.exports = {
   id: 'G2-276',
   slug: 'shopping-math',
@@ -45,6 +63,8 @@ module.exports = {
     2: { items: 5, cards: 3, kinds: ['total', 'change', 'canBuy'], baseMax: 9, icon: 76, cardH: 160, font: 17, dots: 72 },
     3: { items: 6, cards: 4, kinds: ['total3', 'change', 'canBuy', 'diff'], baseMax: 9, icon: 56, cardH: 0, font: 15, dots: 40, coinPx: [30, 40], pad: '8px 14px', gap: 10 },
   },
+  interactive: require('../../lib/money-screen.js').interactiveFor('shop'),
+  levelSetWords(m) { return m.questions || []; },
   i18n: {
     en: {
       title: 'Shopping Math',
@@ -53,6 +73,13 @@ module.exports = {
   },
 
   build({ theme, difficulty, locale }, ctx) {
+    // Level Set 2026-10-05: the screen version + answer key of NEW pages (lib/money-screen.js); the published page
+    // (level 2, copy 1) never reaches it
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/money-screen.js').screenOrKey('shop', built, ctx, locale);
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
@@ -62,16 +89,17 @@ module.exports = {
     const names = (FRAMES[loc] && FRAMES[loc].names) || bank.names;
     if (!names) throw new Error(`G2-276: no names for ${loc}`);
     const scale = cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;
-    const shopPool = safeNouns(theme, loc).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')));
+    const shopPool = safeNouns(theme, loc).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')) && !SHOP_REFUSALS.has(theme + '|' + n.noun));
     if (shopPool.length < d.items) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${d.items}`);
     const nouns = rng.sample(shopPool, d.items);
     const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), d.items);
+    if (bases.length < d.items) throw new Error(`G2-276: d${difficulty} has ${d.items} items but only ${bases.length} prices up to ${d.baseMax}`);
     const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit }));
     const coinVals = cur.sub.map((s) => s.v).sort((a, b) => b - a);
     const denoms = cur.sub;
     const icon = (idx) => `<img class="ws-icon" src="${items[idx].src}" alt="" data-lcs-ref="${idx}" style="width:30px;height:30px;vertical-align:middle;margin:0 3px">`;
     const pick2 = () => rng.sample(items.map((_, i) => i), 2);
-    const cards = [];
+    const cards = [], probs = [];
     const kinds = d.kinds.slice();
     // Every question a page has already asked, keyed on kind + the SORTED item
     // set + the answer. Two cards drawing the same basket in a different order
@@ -84,10 +112,11 @@ module.exports = {
     const askedKey = (kind, refs, answer) =>
       kind + '|' + refs.slice().sort((a, b) => a - b).join(',') + '|' + answer;
     let redraws = 0;
+    const changes = new Set();   // d.payMulti: the change amounts this page already asks
     for (let k = 0; k < d.cards; k++) {
       const kind = kinds[k % kinds.length];
       const name = rng.pick(names);
-      let sentence, answer, refs, extra = '', chips = '';
+      let sentence, answer, refs, extra = '', chips = '', pay = null, money = null;
       if (kind === 'total' || kind === 'total3') {
         refs = kind === 'total3' ? rng.sample(items.map((_, i) => i), 3) : pick2();
         answer = refs.reduce((s, i) => s + items[i].price, 0);
@@ -95,11 +124,38 @@ module.exports = {
         sentence = rng.pick(bank.frames[kind]);
       } else if (kind === 'change') {
         refs = [rng.int(0, items.length - 1)];
+        // Level Set 2026-10-05 (d.payMulti): the child pays with 2-3 coins, as a real shopper does — every coin is
+        // needed (without the smallest one it is too little) and the change is one to five price steps; the item is
+        // one that can be paid so, and the change one this page has not asked yet (read on the first render:
+        // "smallest amount above the price" made every change on the page 5 kr; "any amount" paid 25 + 1 + 1 for 10)
+        const multiPays = (price) => {
+          const out = [];
+          for (const x of coinVals) for (const y of coinVals) for (const z of [0, ...coinVals]) {
+            if (y > x || (z && z > y)) continue;
+            const sum = x + y + z, cs = z ? [x, y, z] : [x, y];
+            if (sum - price < 1 || sum - price > 5 * scale || sum > cur.subMax || sum - Math.min(...cs) >= price) continue;
+            out.push({ s: sum, cs });
+          }
+          return out;
+        };
+        if (d.payMulti && !multiPays(items[refs[0]].price).length) {
+          const ok = items.map((_, j) => j).filter((j) => multiPays(items[j].price).length);
+          if (!ok.length) throw new Error(`G2-276: no item on the ${theme} shelf can be paid with 2-3 coins (${loc})`);
+          refs = [rng.pick(ok)];
+        }
         const price = items[refs[0]].price;
         const payOpts = coinVals.filter((v) => v > price + 4);
         let paid, coins;
-        if (payOpts.length) { paid = Math.min(...payOpts); coins = [paid]; }
-        else {
+        if (payOpts.length && !d.payMulti) { paid = Math.min(...payOpts); coins = [paid]; }
+        else if (d.payMulti) {
+          const cands = multiPays(price);
+          // preferred: a change this page has not asked, and in cent currencies at least two coin steps (a 5 c change
+          // leaves no same-step wrong answers below it)
+          const big = (c) => scale !== 5 || c.s - price >= 10;
+          const tiers = [cands.filter((c) => !changes.has(c.s - price) && big(c)), cands.filter((c) => !changes.has(c.s - price)), cands.filter(big), cands];
+          const best = rng.pick(tiers.find((t) => t.length));
+          paid = best.s; coins = best.cs;
+        } else {
           // greedy multi-coin pay-with above the price (≤ 5 coins)
           paid = Math.ceil((price + 5) / coinVals[0]) * coinVals[0];
           coins = []; let rest = paid;
@@ -107,6 +163,8 @@ module.exports = {
           if (rest !== 0) { k--; continue; }
         }
         answer = paid - price;
+        pay = { paid, coins: coins.slice().sort((a, b) => b - a) };
+        if (d.payMulti) changes.add(answer);
         sentence = rng.pick(bank.frames.change);
         {
           const all = denoms.map((x) => x.v), tint = Object.fromEntries(denoms.map((x) => [x.v, x.tint]));
@@ -118,7 +176,7 @@ module.exports = {
       } else if (kind === 'canBuy') {
         refs = pick2();
         const sum = items[refs[0]].price + items[refs[1]].price;
-        const money = sum + rng.pick([-2, -1, 1, 2]) * scale;
+        money = sum + rng.pick(d.canBuySteps || [-2, -1, 1, 2]) * scale;   // d.canBuySteps (Level Set 2026-10-05): how close the money is
         if (money <= 0 || sum > cur.subMax) { k--; continue; }
         answer = sum;
         const can = money >= sum;
@@ -151,17 +209,20 @@ module.exports = {
         k--; continue;
       }
       asked.add(askedKey(kind, refs, answer));
+      probs.push({ kind, answer, prices: refs.map((r) => items[r].price), sentence: html, extra, scale, unit: cur.unit, ...(pay || {}), ...(money != null ? { money } : {}) });
 
       cards.push(`<div class="ws-card" style="padding:${d.pad || '12px 18px'};gap:${d.gap === 10 ? 5 : 8}px;min-height:${d.cardH}px" data-lcs-problem data-lcs-qtype="${kind}" data-lcs-refs="${refs.join(',')}" data-lcs-answer="${answer}">` +
         `<span class="ws-card-badge">${k + 1}</span>` +
         `<p style="font-family:'Nunito';font-weight:800;font-size:${d.font}px;line-height:1.45;color:#3A3530;margin:0;padding-left:22px" data-lcs-sentence>${html}</p>${extra}` +
         `<div style="display:flex;gap:14px;align-items:stretch">${dotPanel({ w: 420, h: d.dots })}<div style="display:flex;align-items:center;gap:8px">${chips}${answerBox({ w: 84, h: 54, answer })}<span style="font-family:'Baloo 2';font-weight:700;font-size:20px;color:#3A3530" data-lcs-unit>${cur.unit}</span></div></div></div>`);
     }
+    const shelfHtml = shelf({ items, w: 640, iconPx: d.icon, tagPx: cur.unit.length > 3 ? 15 : 17 });
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:space-evenly;align-items:center" data-ws-content>` +
-        `<div class="ws-card" style="width:660px;padding:${d.gap === 10 ? '8px 10px 4px' : '12px 10px 8px'};align-items:center">${shelf({ items, w: 640, iconPx: d.icon, tagPx: cur.unit.length > 3 ? 15 : 17 })}</div>` +
+        `<div class="ws-card" style="width:660px;padding:${d.gap === 10 ? '8px 10px 4px' : '12px 10px 8px'};align-items:center">${shelfHtml}</div>` +
         `<div style="display:flex;flex-direction:column;gap:${d.gap || 12}px;width:660px">${cards.join('')}</div></div>`,
-      meta: { prices: items.map((i) => i.price) },
+      meta: { prices: items.map((i) => i.price), questions: probs.map((p) => p.kind + ':' + p.prices.slice().sort((a, b) => a - b).join(',') + '=' + p.answer) },
+      _probs: probs, _shelf: shelf({ items, w: 640, iconPx: 84, tagPx: cur.unit.length > 3 ? 16 : 19 }),
     };
   },
 

@@ -31,7 +31,9 @@ const family = (t) => String((m.themes[t] && m.themes[t].bw && m.themes[t].baseT
 // themes whose pictures do not show what their word says — never on a word worksheet
 // (`tree`: fruit TREES labelled with the FRUIT word — "apple" under an apple tree; 2026-09-28)
 const NEVER = new Set(['tree', 'tree bw']);
-const all = Object.keys(m.themes).filter((t) => TAX.axes.theme[themeAxisKey(t)] && !NEVER.has(t.toLowerCase())).sort();
+// cfg.themeAllow (Counting Money, 2026-10-05): only themes the task makes sense for — a shop sells fruit and toys, not
+// dinosaurs, weather or body parts
+const all = Object.keys(m.themes).filter((t) => TAX.axes.theme[themeAxisKey(t)] && !NEVER.has(t.toLowerCase()) && (!cfg.themeAllow || cfg.themeAllow.includes(t))).sort();
 const colour = all.filter((t) => !m.themes[t].bw), bw = all.filter((t) => m.themes[t].bw);
 const TINY = { dataUri: 'data:,', width: 1, height: 1 };
 // themes are near-twins when their NOUNS overlap, whatever their names say ("education bw" vs

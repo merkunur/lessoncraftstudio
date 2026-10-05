@@ -47,3 +47,10 @@ read ON ITS OWN at full size (`node tools/cbn-audit-render.js`) against these as
     outline; markings sit on top; far legs behind. No seam where a neck meets a body. This is also the
     connect-the-dots path.
 16. **Faces are friendly** (no angry-looking brows from a face-mask shape).
+17. **Every visible piece is painted** (operator 2026-10-05). A medium piece (r ≥ 5.5) gets its own compact number; a
+    tiny piece is attached to a numbered region of the same colour; only natural whites stay white (clouds, snow,
+    eye whites and shines, fur trims). Checked by `tools/cbn-unpainted.js` (0 over 200, `--poison` 3/3) — and by
+    reading every answer key with `tools/cbn-inspect.js <id>`, one worksheet at a time. Fix per worksheet in
+    `data/cbn/lineart-colours.js` PIECE; never batch-fix.
+18. **Holes show what is behind them**: a gap between ropes, wheels, legs or branches takes the sky or ground colour
+    of where it sits (above or below the horizon), not the colour of the object around it.

@@ -352,6 +352,8 @@ const PIECE = {
   'pond-little-duck': { s0: ['orange', 's0'], s2: ['orange', 's0'], s9: ['orange', 's0'], s13: ['orange', 's0'], s14: ['orange', 's0'] },
   'forest-raccoon': { m0: 'black', m1: 'black', m4: 'pink', m5: 'pink', m2: 'pink', m3: 'pink', s3: ['grey', 'p1'], s0: ['grey', 'p1'] },
   'forest-owl': { s6: ['orange', 'p6'], s7: ['orange', 'p6'], s8: ['orange', 'p6'], s10: ['orange', 'p6'], s14: ['orange', 'p6'], s31: ['orange', 'p6'], s48: ['orange', 'p6'], s88: ['orange', 'p6'] },
+  'forest-deer': { s0: ['yellow', 's0'], s1: ['yellow', 's1'], s26: ['yellow', 's1'], s32: ['brown', 'p5'], s82: ['brown', 'p5'], s93: ['brown', 'p5'], s94: ['brown', 'p5'], s95: ['brown', 'p5'] },
+  'forest-little-raccoon': { m1: 'grey', m2: 'pink', m4: 'pink' },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },

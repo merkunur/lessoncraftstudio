@@ -573,7 +573,7 @@
       "1": [
         {
           "copy": 1,
-          "theme": "breakfast"
+          "theme": "music"
         },
         {
           "copy": 2,
@@ -581,15 +581,15 @@
         },
         {
           "copy": 3,
-          "theme": "clothing"
+          "theme": "At the Supermarket"
         },
         {
           "copy": 4,
-          "theme": "fruits"
+          "theme": "accessories"
         },
         {
           "copy": 5,
-          "theme": "desserts and sweets"
+          "theme": "clothing"
         }
       ],
       "2": [
@@ -607,7 +607,7 @@
         },
         {
           "copy": 5,
-          "theme": "clothing"
+          "theme": "fruits"
         },
         {
           "copy": 6,

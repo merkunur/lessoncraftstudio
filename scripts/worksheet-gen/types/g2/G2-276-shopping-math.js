@@ -90,10 +90,12 @@ module.exports = {
     if (!names) throw new Error(`G2-276: no names for ${loc}`);
     const scale = cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;
     const shopPool = safeNouns(theme, loc).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')) && !SHOP_REFUSALS.has(theme + '|' + n.noun));
-    if (shopPool.length < d.items) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${d.items}`);
-    const nouns = rng.sample(shopPool, d.items);
-    const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), d.items);
-    if (bases.length < d.items) throw new Error(`G2-276: d${difficulty} has ${d.items} items but only ${bases.length} prices up to ${d.baseMax}`);
+    // a long unit ("45 centavos") fits five price tags on the shelf, not six (pt level 3, 2026-10-05); level 2 has five
+    const nItems = cur.unit.length > 4 ? Math.min(d.items, 5) : d.items;   // "cent" (it) fits six, measured
+    if (shopPool.length < nItems) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${nItems}`);
+    const nouns = rng.sample(shopPool, nItems);
+    const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), nItems);
+    if (bases.length < nItems) throw new Error(`G2-276: d${difficulty} has ${nItems} items but only ${bases.length} prices up to ${d.baseMax}`);
     const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit }));
     const coinVals = cur.sub.map((s) => s.v).sort((a, b) => b - a);
     const denoms = cur.sub;
@@ -222,7 +224,7 @@ module.exports = {
         `<div class="ws-card" style="width:660px;padding:${d.gap === 10 ? '8px 10px 4px' : '12px 10px 8px'};align-items:center">${shelfHtml}</div>` +
         `<div style="display:flex;flex-direction:column;gap:${d.gap || 12}px;width:660px">${cards.join('')}</div></div>`,
       meta: { prices: items.map((i) => i.price), questions: probs.map((p) => p.kind + ':' + p.prices.slice().sort((a, b) => a - b).join(',') + '=' + p.answer) },
-      _probs: probs, _shelf: shelf({ items, w: 640, iconPx: 84, tagPx: cur.unit.length > 3 ? 16 : 19 }),
+      _probs: probs, _shelf: shelfHtml,   // the screen shows the page's own shelf (bigger tags overflowed "centavos")
     };
   },
 

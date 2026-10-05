@@ -58,6 +58,7 @@ function loadRows() {
   return { rows, hand, missing };
 }
 
+const SKIPPED = [];   // hand-edited specs a direct run left alone
 function emit(row) {
   const [dir, id, slug, baseFile, src, over, title, instr, extra] = row;
   const baseId = baseFile.replace(/^([A-Z0-9]+-[0-9]+)-.*$/, '$1');
@@ -83,7 +84,14 @@ function emit(row) {
   if (extra) for (const k of Object.keys(extra)) lines.push('  ' + k + ': ' + JSON.stringify(extra[k]) + ',');
   lines.push('};');
   const file = path.join(ROOT, 'types', dir, id + '-' + slug + '.js');
-  fs.writeFileSync(file, lines.join('\n') + '\n');
+  // never silently undo a hand edit (Level Set work edits generated specs): an existing file that differs from what
+  // this generator would write is skipped and listed unless --overwrite (2026-10-05)
+  const text = lines.join('\n') + '\n';
+  if (fs.existsSync(file) && fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n') !== text && !process.argv.includes('--overwrite')) {
+    SKIPPED.push(path.relative(ROOT, file));
+    return file;
+  }
+  fs.writeFileSync(file, text);
   return file;
 }
 
@@ -119,5 +127,5 @@ function main() {
   return { rows, hand };
 }
 
-if (require.main === module) main();
+if (require.main === module) { main(); if (SKIPPED.length) console.log(SKIPPED.length + ' hand-edited spec(s) left alone (--overwrite to replace):\n  ' + SKIPPED.join('\n  ')); }
 module.exports = { FAMILIES, loadRows, ROWS_DIR };

@@ -542,6 +542,7 @@ const ROWS = [
     'Write the Word: Every Clue', 'Write each word using the bank, the boxes and the first letter.'],
 ];
 
+const SKIPPED = [];   // hand-edited specs a direct run left alone
 function emit(row) {
   const [dir, id, slug, baseFile, src, over, title, instr, extra] = row;
   const baseId = baseFile.replace(/^([A-Z0-9]+-[0-9]+)-.*$/, '$1');
@@ -571,7 +572,14 @@ function emit(row) {
   if (extra) for (const k of Object.keys(extra)) lines.push('  ' + k + ': ' + JSON.stringify(extra[k]) + ',');
   lines.push('};');
   const file = path.join(ROOT, 'types', dir, id + '-' + slug + '.js');
-  fs.writeFileSync(file, lines.join('\n') + '\n');
+  // never silently undo a hand edit (Level Set work edits generated specs: G2-297, K-302, …): an existing file that
+  // differs from what this generator would write is skipped and listed unless --overwrite (2026-10-05)
+  const text = lines.join('\n') + '\n';
+  if (fs.existsSync(file) && fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n') !== text && !process.argv.includes('--overwrite')) {
+    SKIPPED.push(path.relative(ROOT, file));
+    return file;
+  }
+  fs.writeFileSync(file, text);
   return file;
 }
 
@@ -603,8 +611,14 @@ for (const r of ROWS) {
   if (slugs.has(r[2])) throw new Error('duplicate slug ' + r[2]);
   ids.add(r[1]); slugs.add(r[2]);
 }
-const pruned = pruneStale(ROWS);
-for (const r of ROWS) emit(r);
-console.log('gen-b2var-specs: emitted ' + ROWS.length + ' PARAM variation specs' +
-  (pruned ? ' (pruned ' + pruned + ' stale file(s) from a slug rename)' : ''));
 module.exports = { ROWS };
+// Generate ONLY when run directly. deploy.sh's gate-variation-distinct.js REQUIRES this module for ROWS; running the
+// generator at load rewrote all 44 hand-edited nt20-B-VAR spec files on the server on every deploy, undoing the Level
+// Set levels committed since (found 2026-10-05: the files' mtime = the deploy's gate step). Same pattern as gen-b3..b6.
+if (require.main === module) {
+  const pruned = pruneStale(ROWS);
+  for (const r of ROWS) emit(r);
+  console.log('gen-b2var-specs: ' + (ROWS.length - SKIPPED.length) + ' PARAM variation specs written' +
+    (pruned ? ' (pruned ' + pruned + ' stale file(s) from a slug rename)' : '') +
+    (SKIPPED.length ? '; ' + SKIPPED.length + ' hand-edited spec(s) left alone (--overwrite to replace):\n  ' + SKIPPED.join('\n  ') : ''));
+}

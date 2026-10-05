@@ -162,10 +162,10 @@ const B3 = [
     draw(a) {
       skyGrass(a, 0.62);
       // the rainbow stands to one side and the unicorn faces away from it: an animal across the bands cut them into slivers
-      a.at({ x: 452, y: 330, s: 1.2 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
-      a.at({ x: 292, y: 322, s: 0.72 }, (b) => P.cloud(b));
-      a.at({ x: 600, y: 322, s: 0.72 }, (b) => P.cloud(b));
-      a.at({ x: 236, y: 524, s: 1.02, fx: true }, (b) => N.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));   // room on both sides; the mane clear of the cloud
+      a.at({ x: 436, y: 330, s: 0.88 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue'], 23));
+      a.at({ x: 328, y: 330, s: 0.46 }, (b) => P.cloud(b));
+      a.at({ x: 544, y: 330, s: 0.46 }, (b) => P.cloud(b));   // the whole rainbow inside the frame, clear of the unicorn
+      a.at({ x: 204, y: 530, s: 0.98, fx: true }, (b) => N.unicorn(b, 'none', ['pink', 'purple', 'blue'], 'yellow', 'purple'));   // room on both sides; the mane clear of the cloud
     } },
   { id: 'jungle-friends', kind: 'scene', level: 3, names: { en: 'Jungle Friends' },
     draw(a) {

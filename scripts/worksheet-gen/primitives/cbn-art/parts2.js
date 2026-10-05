@@ -62,7 +62,7 @@ function dog(a, fur = 'brown', ears = 'brown', spot = 'none', collar = 'red') {
     [-1, 1].forEach((k) => a.region(outline([[0, 34], [k * 40, 34], [k * 42, 96], [k * 44, 112, 1], [0, 112, 1]]), fur, 'leg'));
     a.line('M-24 100V112M24 100V112', 2.4);
     a.region(rrect(-44, -26, 88, 22, 11), collar, 'collar');
-    a.region(circle(0, 6, 13), 'yellow', 'tag');
+    a.region(circle(0, 6, 13), fur === 'yellow' ? 'none' : 'yellow', 'tag');   // never the fur's own colour
     a.region(ellipse(24, -80, 24, 22), spot, 'eye patch');
     a.region(outline([[-36, -116], [-82, -98], [-94, -40], [-74, -24], [-56, -62]]), ears, 'ear');
     a.region(outline([[36, -116], [82, -98], [94, -40], [74, -24], [56, -62]]), ears, 'ear');

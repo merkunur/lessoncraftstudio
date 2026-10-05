@@ -96,7 +96,7 @@ const B2 = [
   { id: 'castle-hill', kind: 'scene', level: 3, names: { en: 'Castle on the Hill' },
     draw(a) {
       P.meadow(a, W, H, { horizon: 0.62, far: 'green', near: 'lightgreen' });   // the green trees stand on light grass
-      a.at({ x: 562, y: 236, s: 0.62 }, (b) => P.sun(b));   // clear of the flags and the tower
+      a.at({ x: 546, y: 226, s: 0.6 }, (b) => P.sun(b));   // clear of the flags, the tower and the frame
       a.at({ x: 120, y: 70, s: 0.7 }, (b) => P.cloud(b));
       a.at({ x: 300, y: 290, s: 1.08 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));
       a.at({ x: 76, y: 440, s: 0.62 }, (b) => P.tree(b, 'green'));   // whole trees on the hill (the bottom edge cut them)

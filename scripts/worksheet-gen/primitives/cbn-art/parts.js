@@ -23,8 +23,8 @@ function sun(a, c = 'yellow') {
   face(a, 0, -4, 0.9, 26);
 }
 function cloud(a, c = 'none', w = 92, h = 44) { a.region(bumps(0, 0, w, h, 7, 0.44, 0.35, -110), c, 'cloud'); }
-function rainbow(a, cols = ['red', 'orange', 'yellow', 'green', 'blue']) {
-  const R = 150, band = 18;
+function rainbow(a, cols = ['red', 'orange', 'yellow', 'green', 'blue'], band = 18) {   // wider bands for a small rainbow
+  const R = 150;
   cols.forEach((c, i) => {
     const r1 = R - i * band, r2 = r1 - band;
     a.region(`M${-r1} 0A${r1} ${r1} 0 0 1 ${r1} 0L${r2} 0A${r2} ${r2} 0 0 0 ${-r2} 0Z`, c, 'rainbow ' + c);
@@ -194,24 +194,24 @@ function turtle(a, shell_ = 'green', skin = 'lightgreen', plates = 'brown') {
   a.region(poly([[86, 0], [60, -46], [46, -10]], 8), plates, 'shell plate');
 }
 function dino(a, skin = 'green', plates = ['red', 'orange', 'yellow', 'blue', 'purple', 'pink'], belly = 'yellow', spots = 'lightgreen') {
-  // tail sweeping down-left, behind everything
-  a.region(blob([[-60, -26], [-130, 6], [-196, 48], [-214, 64], [-176, 66], [-110, 50], [-54, 40]], 1), skin, 'dino tail');
-  // back plates along tail, back and neck (behind the body)
-  const P = [[-128, -2, 18, -32], [-88, -40, 24, -14], [-38, -62, 26, 0], [12, -66, 26, 10], [58, -90, 22, 30]];
-  P.forEach(([x, y, sz, r], i) => a.at({ x, y, r }, (b) => b.region(poly([[-sz, sz * 0.5], [0, -sz * 1.15], [sz, sz * 0.5]], sz * 0.25), plates[i % plates.length], 'back plate')));
-  // back legs, then body, then front legs
-  a.region(rrect(-76, 30, 40, 74, 16), skin, 'leg'); a.region(rrect(28, 30, 40, 74, 16), skin, 'leg');
-  a.region(ellipse(0, 0, 104, 72), skin, 'dino body');
-  a.region(rrect(-48, 34, 42, 78, 16), skin, 'leg'); a.region(rrect(52, 34, 42, 78, 16), skin, 'leg');
-  [-27, 73].forEach((x) => a.line(curve([[x - 12, 104], [x - 12, 96]]), 2.4) && a.line(curve([[x, 106], [x, 97]]), 2.4) && a.line(curve([[x + 12, 104], [x + 12, 96]]), 2.4));
-  a.region(blob([[-40, 10], [10, -12], [70, 4], [78, 46], [22, 74], [-36, 64]], 1), belly, 'belly');
-  [[-70, -22, 15], [-38, -42, 11], [-86, 16, 11]].forEach(([x, y, r]) => a.region(circle(x, y, r), spots, 'spot'));
-  // neck + head in ONE flowing shape
-  a.region(blob([[40, -36], [74, -96], [92, -150], [128, -178], [176, -172], [204, -146], [196, -116], [160, -104], [126, -102], [110, -60], [92, -6]], 1), skin, 'neck and head');
-  eye(a, 150, -146, 1.3);
-  smile(a, 178, -122, 10, 5);
-  a.ink(circle(196, -150, 2.6));
-  a.region(ellipse(126, -122, 12, 8), 'pink', 'cheek');
+  // ONE silhouette: tail, body, long neck and head, the legs part of the outline (the neck was pasted on the
+  // body and the legs were posts); the back plates (rooted under the back) behind it; stands on y = 112
+  const { outline } = require('./v2.js');
+  a.group('dino', () => {
+    const PL = [[-128, -16, 18, -32], [-80, -57, 24, -18], [-26, -80, 26, -4], [26, -79, 26, 8], [66, -90, 22, 34]];
+    PL.forEach(([x, y, sz, r], i) => a.at({ x, y, r }, (b) => b.region(poly([[-sz, sz * 0.7], [0, -sz * 1.15], [sz, sz * 0.7]], sz * 0.25), plates[i % plates.length], 'back plate')));
+    a.region(outline([[-214, 64, 1], [-150, 10], [-100, -34], [-50, -64], [0, -72], [52, -62], [80, -100], [96, -150],
+      [126, -180], [176, -174], [206, -146], [198, -116], [160, -104], [128, -100], [116, -60], [106, -10], [98, 30],
+      [96, 100], [98, 112, 1], [52, 112, 1], [52, 60], [10, 72], [-40, 70], [-48, 64], [-48, 100], [-46, 112, 1],
+      [-90, 112, 1], [-90, 54], [-120, 56], [-176, 68]]), skin, 'dino');
+    [[62, 84], [-78, -58]].forEach(([x0, x1]) => [0.25, 0.5, 0.75].forEach((t) => { const x = x1 + (x0 - x1) * t; a.line(`M${x.toFixed(1)} 100V110`, 2.4); }));
+    a.region(outline([[-40, 10], [10, -12], [70, 4], [84, 44], [50, 66], [-34, 62]]), belly, 'belly');
+    [[-70, -22, 15], [-38, -42, 11], [-86, 16, 11]].forEach(([x, y, r]) => a.region(circle(x, y, r), spots, 'spot'));
+    eye(a, 150, -146, 1.3);
+    smile(a, 178, -122, 10, 5);
+    a.ink(circle(196, -150, 2.6));
+    a.region(ellipse(126, -122, 12, 8), 'pink', 'cheek');
+  });
 }
 
 /* ---------------------------------------------------------------- objects */

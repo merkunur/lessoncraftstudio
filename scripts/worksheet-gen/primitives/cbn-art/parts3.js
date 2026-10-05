@@ -10,17 +10,23 @@ const { eye, smile, face } = require('./parts.js');
 
 /* ---------------------------------------------------------------- animals */
 function lion(a, mane = 'orange', fur = 'yellow', muzzle = 'none') {
-  a.region(blob([[38, 84], [96, 70], [124, 24], [106, 8], [88, 44], [42, 56]], 1), fur, 'tail');   // thick enough to colour, and the tuft overlaps its tip
-  a.region(ellipse(116, 12, 18, 18), mane, 'tail tuft');
-  a.region(blob([[-58, 100], [-62, 30], [-36, -10], [36, -10], [62, 30], [58, 100]], 0.9), fur, 'lion body');
-  a.region(ellipse(-24, 100, 27, 15), fur, 'paw'); a.region(ellipse(24, 100, 27, 15), fur, 'paw');
-  a.region(bumps(0, -56, 96, 90, 12, 0.46), mane, 'mane');
-  a.region(circle(-44, -100, 20), fur, 'ear'); a.region(circle(44, -100, 20), fur, 'ear');
-  a.region(circle(0, -54, 60), fur, 'lion head');
-  a.region(ellipse(0, -30, 34, 24), muzzle, 'muzzle');
-  eye(a, -22, -66, 1.25); eye(a, 22, -66, 1.25);
-  a.ink(poly([[-10, -42], [10, -42], [0, -32]], 3));
-  a.line(curve([[-12, -22], [0, -16], [12, -22]]), 2.6);
+  // SITTING, facing us: head and body ONE silhouette with front legs down to the ground (it was a head on a ball with
+  // two paw ovals), the mane behind the head, the tail curling up from behind the hip; sits on y = 112
+  const { outline } = require('./v2.js');
+  a.group('lion', () => {
+    a.region(outline([[40, 84], [98, 70], [124, 24], [106, 8], [88, 44], [44, 58]]), fur, 'tail');
+    a.region(ellipse(116, 12, 18, 18), mane, 'tail tuft');
+    a.region(bumps(0, -56, 96, 90, 12, 0.46), mane, 'mane');
+    a.region(circle(-50, -112, 25), fur, 'ear'); a.region(circle(50, -112, 25), fur, 'ear');
+    a.region(outline([[0, -116], [44, -108], [62, -76], [58, -32], [34, 0], [56, 20], [68, 54], [70, 92],
+      [60, 112, 1], [-60, 112, 1], [-70, 92], [-68, 54], [-56, 20], [-34, 0], [-58, -32], [-62, -76], [-44, -108]]), fur, 'lion');
+    [-1, 1].forEach((k) => a.region(outline([[k * 2, 50], [k * 30, 50], [k * 32, 98], [k * 34, 112, 1], [k * 2, 112, 1]]), fur, 'leg'));
+    a.line('M-17 102V112M17 102V112', 2.4);
+    a.region(ellipse(0, -30, 34, 24), muzzle, 'muzzle');
+    eye(a, -22, -66, 1.25); eye(a, 22, -66, 1.25);
+    a.ink(poly([[-10, -42], [10, -42], [0, -32]], 3));
+    a.line(curve([[-12, -22], [0, -16], [12, -22]]), 2.6);
+  });
 }
 function giraffe(a, skin = 'yellow', spots = 'brown', hoof = 'brown') {
   [[-70, 30], [-40, 34], [30, 34], [60, 30]].forEach(([x, y]) => { a.region(rrect(x - 12, y, 24, 96, 10), skin, 'leg'); a.region(rrect(x - 13, y + 84, 26, 22, 7), hoof, 'hoof'); });

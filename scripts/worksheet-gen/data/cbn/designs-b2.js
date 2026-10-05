@@ -95,7 +95,7 @@ const B2 = [
     } },
   { id: 'castle-hill', kind: 'scene', level: 3, names: { en: 'Castle on the Hill' },
     draw(a) {
-      P.meadow(a, W, H, { horizon: 0.62 });
+      P.meadow(a, W, H, { horizon: 0.62, far: 'green', near: 'lightgreen' });   // the green trees stand on light grass
       a.at({ x: 562, y: 236, s: 0.62 }, (b) => P.sun(b));   // clear of the flags and the tower
       a.at({ x: 120, y: 70, s: 0.7 }, (b) => P.cloud(b));
       a.at({ x: 300, y: 290, s: 1.08 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));
@@ -142,7 +142,7 @@ const B2 = [
     draw(a) {
       P.space(a, W, H, { sky: 'blue' });
       a.region(`M0 ${H * 0.72}C${W * 0.3} ${H * 0.66} ${W * 0.7} ${H * 0.7} ${W} ${H * 0.66}V${H}H0Z`, 'grey', 'moon ground');
-      a.group('crater', () => a.region('M70 500a40 14 0 1 0 80 0a40 14 0 1 0 -80 0Z', 'grey', 'crater'));
+      a.line('M70 500a40 14 0 0 0 80 0', 3);   // a crater dip drawn in the ground (a grey patch vanished into the grey ground)
       a.at({ x: 494, y: 104, s: 1.05 }, (b) => P.planet(b, 'orange', 'pink'));   // clear of the robot's head
       stars(a, [[80, 70, 1], [210, 56, 1], [520, 250, 1], [80, 250, 1]]);
       a.at({ x: 300, y: 300, s: 1.3 }, (b) => R.robot(b, 'lightblue', 'red', 'yellow', 'red'));

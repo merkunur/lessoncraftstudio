@@ -104,7 +104,7 @@ const B6 = [
       a.at({ x: 90, y: 70, s: 0.75 }, (b) => P.sun(b));
       a.at({ x: 460, y: 170, s: 0.8 }, (b) => R.barn(b, 'red', 'brown', 'none', 'none'));
       a.at({ x: 170, y: 440, s: 0.95 }, (b) => N.cow(b, 'none', 'brown', 'pink'));
-      a.at({ x: 430, y: 446, s: 1.02 }, (b) => Q.pig(b, 'pink', 'pink'));
+      a.at({ x: 440, y: 466, s: 0.88 }, (b) => Q.pig(b, 'pink', 'pink'));
     } },
   { id: 'ocean-friends', kind: 'scene', level: 3, names: { en: 'Ocean Friends' },
     draw(a) {
@@ -119,17 +119,17 @@ const B6 = [
     draw(a) {
       skyGrass(a, 0.6);
       a.at({ x: 520, y: 70, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 132, y: 330, s: 0.9 }, (b) => R.giraffe(b, 'yellow', 'brown', 'brown'));
-      a.at({ x: 410, y: 400, s: 1.12 }, (b) => Q.elephant(b, 'grey', 'pink'));
+      a.at({ x: 140, y: 536, s: 0.93 }, (b) => N.giraffe(b, 'yellow', 'brown', 'brown'));
+      a.at({ x: 416, y: 430, s: 1.0 }, (b) => Q.elephant(b, 'grey', 'pink'));
     } },
   { id: 'treasure-island', kind: 'scene', level: 3, names: { en: 'Treasure Island' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.5}H${W}V${H}H0Z`, 'blue', 'sea');
-      a.at({ x: 90, y: 80, s: 0.8 }, (b) => P.sun(b));
+      a.at({ x: 510, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.group('island', () => a.region(blob([[40, 470], [120, 380], [300, 356], [480, 380], [560, 470], [300, 512]], 1), 'yellow', 'sand'));
-      a.at({ x: 180, y: 256, s: 0.85 }, (b) => R.palmTree(b, 'green', 'brown', 'brown'));
-      a.at({ x: 396, y: 380, s: 0.95 }, (b) => V.treasureChest(b, 'brown', 'orange', 'orange', ['red', 'purple', 'green']));
+      a.at({ x: 170, y: 236, s: 1.05 }, (b) => R.palmTree(b, 'green', 'brown', 'brown'));
+      a.at({ x: 410, y: 392, s: 0.86 }, (b) => V.treasureChest(b, 'brown', 'orange', 'orange', ['red', 'purple', 'green']));
     } },
 ];
 

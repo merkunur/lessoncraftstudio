@@ -8,16 +8,9 @@ const { circle, ellipse, rrect, blob, curve, poly } = require('./core.js');
 const { eye, smile, face } = require('./parts.js');
 
 function mouse(a, fur = 'grey', inner = 'pink', belly = 'none') {
-  a.line(curve([[-60, 70], [-110, 70], [-130, 40], [-120, 10]]), 4);
-  a.region(ellipse(-28, 96, 32, 18), inner, 'foot'); a.region(ellipse(28, 96, 32, 18), inner, 'foot');
-  a.region(blob([[-64, 90], [-66, 20], [-36, -26], [36, -26], [66, 20], [64, 90]], 0.9), fur, 'mouse body');
-  a.region(ellipse(0, 50, 32, 36), belly, 'tummy');
-  a.region(circle(-56, -100, 40), fur, 'ear'); a.region(circle(56, -100, 40), fur, 'ear');
-  a.region(circle(-58, -102, 20), inner, 'inner ear'); a.region(circle(58, -102, 20), inner, 'inner ear');
-  a.region(ellipse(0, -56, 60, 52), fur, 'mouse head');
-  eye(a, -22, -64, 1.2); eye(a, 22, -64, 1.2);
-  a.region(circle(0, -40, 11), inner, 'nose');
-  smile(a, 0, -26, 10, 5);
+  // the one-silhouette sitting animal (head pasted on a body, no arms): big round ears, pink nose, arms and feet with
+  // pink pads, the tail an open line; feet on y = 114 as before
+  a.at({ y: 114, s: 0.72 }, (b) => require('./v2.js').sitter(b, { name: 'mouse', fur, inner, earR: 58, earY: -268, belly, nose: inner, tail: true }));
 }
 function cheese(a, c = 'yellow') {
   // one wedge with two big holes (a thin top strip and small holes were too fiddly)
@@ -48,17 +41,22 @@ function acorn(a, nut = 'orange', cap = 'brown') {
   a.line('M-60 -50q14 10 28 0M-14 -56q14 10 28 0M32 -50q14 10 28 0M-40 -26q14 10 28 0M12 -26q14 10 28 0', 2.4);
   face(a, 0, 34, 1.3, 34);
 }
-function bird(a, body = 'blue', belly = 'orange', wing = 'lightblue', beak = 'yellow') {
-  a.region(blob([[-60, 0], [-118, -30], [-112, 10], [-70, 26]], 1), body, 'tail');
-  a.line('M-10 60V84M18 60V84M-20 88L-10 84L0 88M8 88L18 84L28 88', 4);
-  a.region(ellipse(0, 0, 70, 62), body, 'bird body');
-  a.region(ellipse(16, 20, 42, 36), belly, 'belly');
-  a.region(blob([[-40, -10], [10, -6], [0, 36], [-40, 30]], 1), wing, 'wing');
-  a.region(poly([[60, -20], [100, -8], [60, 6]], 5), beak, 'beak');
-  eye(a, 36, -20, 1.2);
+function bird(a, body = 'blue', belly = 'orange', wing = 'lightblue', beak = 'yellow', feet = true) {
+  // ONE silhouette: head, round body and tail; the breast on the front, the wing folded on the side behind it
+  // (the wing sat over the breast and the tail was a separate blob)
+  const { outline } = require('./v2.js');
+  a.group('bird', () => {
+    if (feet) a.line('M-10 58V84M18 58V84M-20 88L-10 84L0 88M8 88L18 84L28 88', 4);   // none when it sits in a nest
+    a.region(outline([[-56, -12], [-122, -38, 1], [-110, 6, 1], [-60, 22], [-30, 54], [18, 62], [56, 40], [72, 6],
+      [72, -26], [62, -50], [38, -68], [8, -70], [-22, -60], [-44, -38]]), body, 'bird');
+    a.region(outline([[24, -10], [64, -4], [68, 22], [50, 48], [12, 58], [-6, 40], [4, 10]]), belly, 'breast');
+    a.region(outline([[-58, -16], [-12, -30], [20, -14], [8, 22], [-32, 28], [-66, 6]]), wing, 'wing');
+    a.region(outline([[66, -40], [106, -26, 1], [68, -12]]), beak, 'beak');
+    eye(a, 40, -36, 1.2);
+  });
 }
 function birdhouse(a, wall = 'yellow', roof = 'red', hole = 'black', pole = 'brown') {
-  a.region(rrect(-14, 80, 28, 160, 6), pole, 'pole');
+  a.region(rrect(-14, 80, 28, 126, 6), pole, 'pole');   // ends IN the grass (it ran out under the mound)
   a.region(rrect(-80, -40, 160, 130, 10), wall, 'birdhouse');
   a.region(poly([[-104, -30], [0, -120], [104, -30]], 8), roof, 'roof');
   a.region(circle(0, 20, 26), hole, 'hole');
@@ -74,21 +72,25 @@ function submarine(a, body = 'yellow', win = 'lightblue', fin = 'orange', prop =
   a.region(poly([[-170, -20], [-200, -50], [-200, 50], [-170, 20]], 6), prop, 'propeller');
   a.region(rrect(-30, -110, 70, 70, 14), body, 'tower');
   a.line('M20 -110V-150H50', 5);
+  // the tail fin rises from the back, rooted under the hull (it floated as a blob under the belly)
+  a.region(blob([[-150, -30], [-138, -96], [-104, -96], [-108, -40]], 1), fin, 'fin');
   a.region(ellipse(0, 0, 180, 80), body, 'submarine');
   [-90, -10, 70].forEach((x) => a.region(circle(x, 0, 26), win, 'window'));
-  a.region(blob([[-140, 40], [-110, 60], [-120, 90], [-150, 70]], 1), fin, 'fin');
 }
-function crocodile(a, skin = 'green', belly = 'lightgreen', teeth = 'none') {
-  a.region(blob([[-90, 10], [-180, 10], [-200, -10], [-100, -30]], 1), skin, 'tail');
-  [[-70, 30], [-46, 34], [40, 34], [64, 30]].forEach(([x, y]) => a.region(rrect(x - 14, y, 30, 40, 12), skin, 'leg'));
-  a.region(ellipse(0, 0, 110, 50), skin, 'crocodile body');
-  a.region(ellipse(0, 26, 80, 18), belly, 'belly');
-  [[-56, -42], [0, -50], [56, -42]].forEach(([x, y]) => a.region(poly([[x - 22, y + 14], [x, y - 22], [x + 22, y + 14]], 5), skin, 'bump'));
-  a.region(blob([[90, -40], [210, -36], [230, -16], [210, 4], [96, 10]], 1), skin, 'snout');
-  a.region(circle(110, -50, 26), skin, 'eye bump');
-  eye(a, 112, -52, 1.2);
-  a.line(curve([[120, -10], [170, -2], [220, -14]]), 3);
-  a.ink(ellipse(214, -26, 4, 3));
+function crocodile(a, skin = 'green', spikes = 'lightgreen', teeth = 'none') {
+  // lying on the ground on y = 0: ONE silhouette (tail, body, head, snout, the stubby legs),
+  // ridge spikes rooted along the back (head, legs and spikes were pasted-on circles, posts and triangles)
+  void teeth;
+  const { outline } = require('./v2.js');
+  a.group('crocodile', () => {
+    [[-168, -32], [-112, -60], [-48, -74], [16, -76]].forEach(([x, y]) => a.region(outline([[x - 28, y + 14], [x, y - 32, 1], [x + 28, y + 14]]), spikes, 'spike'));
+    a.region(outline([[-232, -12, 1], [-150, -38], [-90, -66], [-20, -80], [50, -76], [84, -66], [96, -80], [114, -98],
+      [138, -88], [144, -66], [194, -52], [240, -44], [248, -24], [234, -10], [180, -6], [120, -8], [96, -14], [92, -12],
+      [94, 0, 1], [62, 0, 1], [62, -14], [-46, -14], [-44, 0, 1], [-80, 0, 1], [-80, -12], [-150, -10], [-200, -6]]), skin, 'crocodile');
+    eye(a, 118, -78, 1.25);
+    a.line(curve([[134, -24], [184, -18], [236, -26]]), 3);
+    a.ink(ellipse(234, -38, 4, 3));
+  });
 }
 function beehive(a, hive = 'yellow', branch = 'brown', door = 'brown', ownBranch = true) {
   a.line('M0 -150V-120', 6);

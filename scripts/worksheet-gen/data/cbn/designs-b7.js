@@ -39,7 +39,7 @@ const B7 = [
       a.at({ x: 500, y: 460, s: 0.9 }, (b) => P.cattail(b, 'brown', 'green'));
     } },
   { id: 'pizza-slice', kind: 'picture', level: 2, names: { en: 'Pizza Slice' },
-    draw(a) { a.group('plate', () => a.region(ellipse(300, 460, 220, 40), 'blue', 'plate')); a.at({ x: 300, y: 290, s: 1.45 }, (b) => W8.pizza(b, 'orange', 'yellow', 'red', 'green')); } },
+    draw(a) { a.group('plate', () => a.region(ellipse(300, 300, 270, 236), 'blue', 'plate')); a.at({ x: 300, y: 304, s: 1.3 }, (b) => W8.pizza(b, 'orange', 'yellow', 'red', 'green')); } },
   { id: 'astronaut', kind: 'picture', level: 3, names: { en: 'Astronaut' },
     draw(a) {
       a.at({ x: 300, y: 300, s: 1.3 }, (b) => W8.astronaut(b, 'none', 'lightblue', 'blue', 'grey', 'red'));
@@ -54,8 +54,8 @@ const B7 = [
   { id: 'camping-tent', kind: 'picture', level: 3, names: { en: 'Camping' },
     draw(a) {
       mound(a, 300, 486, 270);
-      a.at({ x: 210, y: 330, s: 1.0 }, (b) => W8.tent(b, 'orange', 'yellow', 'red'));
-      a.at({ x: 460, y: 390, s: 0.8 }, (b) => W8.campfire(b, 'brown', 'red', 'orange', 'yellow', 'grey'));
+      a.at({ x: 210, y: 380, s: 1.0 }, (b) => W8.tent(b, 'orange', 'yellow', 'red'));
+      a.at({ x: 462, y: 408, s: 0.8 }, (b) => W8.campfire(b, 'brown', 'red', 'orange', 'yellow', 'grey'));
     } },
   /* ------------------------------------------------------------ scenes */
   { id: 'panda-bamboo', kind: 'scene', level: 1, names: { en: 'Panda in the Forest' },
@@ -82,7 +82,7 @@ const B7 = [
     draw(a) {
       skyGrass(a, 0.82);
       a.group('tree', () => { a.region('M440 570L460 120L520 120L540 570Z', 'brown', 'trunk'); a.region('M300 140C300 60 420 30 520 60C610 80 620 160 600 200C560 240 340 240 300 140Z', 'green', 'leaves'); }, { edgeOk: true });
-      a.at({ x: 290, y: 214, s: 1.15 }, (b) => W8.koala(b, 'grey', 'pink', 'black'));
+      a.at({ x: 290, y: 196, s: 1.15 }, (b) => W8.koala(b, 'grey', 'pink', 'black'));
       // the branch it SITS on, in front of its lap and joined to the trunk
       a.group('branch', () => a.region('M150 326Q300 312 470 300L470 336Q300 348 150 360Z', 'brown', 'branch'));
       a.at({ x: 100, y: 90, s: 0.85 }, (b) => P.sun(b));
@@ -126,7 +126,7 @@ const B7 = [
   { id: 'alien-visit', kind: 'scene', level: 3, names: { en: 'Alien Visit' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'blue', 'night sky');
-      a.region(`M0 ${H * 0.76}C${W * 0.3} ${H * 0.7} ${W * 0.7} ${H * 0.74} ${W} ${H * 0.76}V${H}H0Z`, 'green', 'grass');
+      a.region(`M0 ${H * 0.76}C${W * 0.3} ${H * 0.7} ${W * 0.7} ${H * 0.74} ${W} ${H * 0.76}V${H}H0Z`, 'lightgreen', 'grass');
       stars(a, [[80, 70], [520, 60], [60, 260], [550, 250]]);
       a.at({ x: 300, y: 180, s: 1.15 }, (b) => W8.ufo(b, 'purple', 'lightblue', 'green', 'orange'));
       a.at({ x: 100, y: 400, s: 0.85 }, (b) => P.pineTree(b, 'green', 'brown'));

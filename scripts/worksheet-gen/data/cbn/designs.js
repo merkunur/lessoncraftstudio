@@ -56,7 +56,7 @@ const DESIGNS = [
     } },
   { id: 'bunny-garden', kind: 'scene', level: 3, names: { en: 'Bunny in the Garden' },
     draw(a) {
-      P.meadow(a, W, H, { horizon: 0.56 });
+      P.meadow(a, W, H, { horizon: 0.56, far: 'green', near: 'lightgreen' });   // light near grass: the green stems and leaves stay visible
       a.at({ x: 90, y: 86, s: 0.9 }, (b) => P.sun(b));
       a.at({ x: 400, y: 80, s: 0.8 }, (b) => P.cloud(b));
       a.at({ x: 112, y: 420, s: 1.2 }, (b) => P.flower(b, 'red', 'yellow', 'green'));

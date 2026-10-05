@@ -73,17 +73,25 @@ function dog(a, fur = 'brown', ears = 'brown', spot = 'none', collar = 'red') {
   });
 }
 function elephant(a, skin = 'grey', ear = 'pink', trunkUp = false) {
-  a.region(rrect(-64, 18, 36, 80, 13), skin, 'leg'); a.region(rrect(28, 18, 36, 80, 13), skin, 'leg');
-  a.line(curve([[-96, -10], [-114, 10], [-110, 34]]), 3); a.ink(blob([[-116, 30], [-104, 30], [-104, 48], [-118, 46]], 1));
-  a.region(ellipse(-12, -2, 90, 62), skin, 'elephant body');
-  a.region(rrect(-84, 26, 34, 80, 13), skin, 'leg'); a.region(rrect(10, 26, 34, 80, 13), skin, 'leg');
-  if (trunkUp) a.region(blob([[104, -50], [138, -72], [150, -112], [168, -128], [182, -116], [170, -100], [160, -62], [124, -14]], 1), skin, 'trunk');   // raised: spraying water
-  else a.region(blob([[104, -30], [130, 6], [134, 52], [150, 62], [158, 48], [152, 36], [152, 4], [130, -40]], 1), skin, 'trunk');
-  a.region(circle(84, -40, 54), skin, 'elephant head');
-  a.region(blob([[56, -78], [10, -74], [-2, -20], [26, 18], [62, -6]], 1), skin, 'ear');
-  a.region(blob([[52, -64], [20, -60], [12, -24], [30, 0], [54, -14]], 1), ear, 'inner ear');
-  eye(a, 100, -52, 1.25);
-  a.line(curve([[92, -20], [104, -14], [114, -22]]), 2.6);
+  // ONE silhouette (body, head and trunk; the near legs part of the outline), far legs behind, the ear on the head
+  // (legs were posts pasted over an ellipse, the head a circle); stands on y = 106
+  const { outline } = require('./v2.js');
+  a.group('elephant', () => {
+    const leg = (x0, x1) => a.region(outline([[x0, 30], [x1, 30], [x1, 94], [x1 + 2, 106, 1], [x0 - 2, 106, 1], [x0, 94]]), skin, 'far leg');
+    leg(24, 56); leg(-52, -20);
+    a.line(curve([[-100, -6], [-116, 12], [-112, 36]]), 3); a.ink(blob([[-118, 32], [-106, 32], [-106, 50], [-120, 48]], 1));
+    const trunk = trunkUp
+      ? [[134, -66], [156, -92], [176, -120], [192, -112], [180, -94], [160, -54], [140, -16]]
+      : [[144, -50], [158, -10], [162, 46], [168, 62, 1], [142, 62, 1], [140, 46], [136, 0]];
+    a.region(outline([[-102, -8], [-86, -56], [-20, -70], [40, -78], [70, -100], [112, -96], [136, -70]].concat(
+      trunk).concat([[128, -6], [110, 12], [92, 28], [88, 48], [88, 94],
+      [90, 106, 1], [54, 106, 1], [54, 94], [52, 48], [20, 52], [-40, 52], [-50, 48], [-50, 94], [-48, 106, 1],
+      [-84, 106, 1], [-84, 94], [-84, 44], [-100, 22]])), skin, 'elephant');
+    a.region(outline([[66, -84], [22, -78], [8, -24], [34, 14], [72, -4]]), skin, 'ear');
+    a.region(outline([[56, -66], [32, -62], [24, -30], [40, -10], [58, -18]]), ear, 'inner ear');
+    eye(a, 106, -60, 1.25);
+    a.line(curve([[96, -26], [108, -20], [118, -28]]), 2.6);
+  });
 }
 function frog(a, skin = 'green', belly = 'lightgreen') {
   a.region(blob([[-36, 46], [-96, 30], [-110, 74], [-62, 90]], 1), skin, 'back leg'); a.region(blob([[36, 46], [96, 30], [110, 74], [62, 90]], 1), skin, 'back leg');
@@ -110,8 +118,8 @@ function bee(a, body = 'yellow', stripes = 'black', wings = 'lightblue') {
 function snail(a, shell = 'orange', mid = 'yellow', body = 'lightgreen') {
   a.region(blob([[-118, 42], [-96, 20], [60, 18], [92, -14], [104, -52], [126, -40], [122, 18], [98, 46]], 1), body, 'snail body');
   a.line(curve([[100, -50], [96, -82], [88, -100]]), 3); a.line(curve([[116, -46], [122, -80], [130, -96]]), 3);
-  a.region(circle(88, -104, 11), 'none', 'eye ball'); a.region(circle(132, -100, 11), 'none', 'eye ball');
-  a.ink(circle(90, -104, 4.5)); a.ink(circle(133, -100, 4.5));
+  a.region(circle(88, -106, 13), 'none', 'eye ball'); a.region(circle(132, -102, 13), 'none', 'eye ball');
+  a.ink(circle(90, -106, 5)); a.ink(circle(133, -102, 5));
   smile(a, 112, -16, 9, 5);
   // a SPIRAL shell (it was a bull's-eye of circles) — 2026-10-05: one band winding out from the centre
   a.region(circle(-20, -30, 66), shell, 'shell');
@@ -162,16 +170,22 @@ function whale(a, body = 'blue', belly = 'lightblue', flipper = true) {
   a.line('M30 -78Q20 -112 0 -122M34 -78Q34 -118 40 -132M38 -78Q52 -110 74 -118', 3);
 }
 function pig(a, skin = 'pink', snout = 'pink') {
-  // legs in overlapping pairs (side by side with a gap they left slits)
-  a.region(rrect(-64, 20, 28, 62, 10), skin, 'leg'); a.region(rrect(-42, 24, 28, 62, 10), skin, 'leg');
-  a.region(rrect(28, 24, 28, 62, 10), skin, 'leg'); a.region(rrect(50, 20, 28, 62, 10), skin, 'leg');
-  a.line(curve([[-94, -10], [-114, -18], [-114, -36], [-100, -38]]), 3);   // an OPEN curl: a closed loop would trap a crumb of background
-  a.region(ellipse(0, 0, 96, 60), skin, 'pig body');
-  a.region(poly([[56, -80], [68, -134], [108, -88]], 9), skin, 'ear'); a.region(poly([[96, -88], [138, -132], [148, -76]], 9), skin, 'ear');   // the ears cross INSIDE the head: the notch between them opens upward, no pocket
-  a.region(circle(102, -48, 50), skin, 'pig head');
-  a.region(ellipse(114, -30, 28, 20), snout, 'snout');
-  a.ink(ellipse(104, -30, 4.5, 6)); a.ink(ellipse(124, -30, 4.5, 6));
-  eye(a, 86, -64, 1.1); eye(a, 120, -66, 1.1);
+  // ONE silhouette: side-on body, the head turned to us, near legs part of the outline, far legs behind
+  // (it was a head circle pasted on an ellipse with four posts); stands on y = 86
+  const { outline } = require('./v2.js');
+  a.group('pig', () => {
+    const leg = (x0, x1) => a.region(outline([[x0, 20], [x1, 20], [x1, 74], [x1 + 2, 86, 1], [x0 - 2, 86, 1], [x0, 74]]), skin, 'far leg');
+    leg(16, 44); leg(-90, -62);
+    a.line(curve([[-96, -6], [-116, -14], [-116, -32], [-102, -34]]), 3);   // an OPEN curl: a closed loop traps a crumb
+    a.region(outline([[-98, -8], [-74, -50], [-10, -64], [50, -58], [64, -88], [100, -102], [140, -88], [154, -50],
+      [142, -12], [112, 2], [84, 16], [78, 40], [78, 74], [80, 86, 1], [50, 86, 1], [50, 74], [48, 40], [10, 44],
+      [-30, 42], [-34, 74], [-32, 86, 1], [-66, 86, 1], [-66, 74], [-70, 36], [-92, 20]]), skin, 'pig');
+    a.region(outline([[70, -82], [72, -132, 1], [104, -96]]), skin, 'ear');
+    a.region(outline([[114, -98], [142, -132, 1], [148, -78]]), skin, 'ear');
+    a.region(ellipse(118, -36, 32, 22), snout, 'snout');
+    a.ink(ellipse(108, -38, 4.5, 6)); a.ink(ellipse(128, -38, 4.5, 6));
+    eye(a, 94, -68, 1.1); eye(a, 132, -68, 1.1);
+  });
 }
 
 /* ---------------------------------------------------------------- food */

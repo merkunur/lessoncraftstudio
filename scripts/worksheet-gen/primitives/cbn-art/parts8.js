@@ -8,17 +8,10 @@ const { circle, ellipse, rrect, blob, curve, poly, star } = require('./core.js')
 const { eye, smile, face } = require('./parts.js');
 
 function panda(a, white = 'none', black = 'black', snack = 'green') {
-  a.region(ellipse(-40, 96, 32, 20), black, 'foot'); a.region(ellipse(40, 96, 32, 20), black, 'foot');
-  a.region(ellipse(0, 40, 72, 68), white, 'panda body');
-  a.region(blob([[-60, 0], [-96, 40], [-80, 66], [-46, 40]], 1), black, 'arm');
-  a.region(blob([[60, 0], [96, 30], [84, 60], [46, 40]], 1), black, 'arm');
-  a.at({ x: 92, y: 10, r: -20 }, (c) => c.region(rrect(-11, -80, 22, 120, 8), snack, 'bamboo'));
-  a.region(circle(-56, -104, 26), black, 'ear'); a.region(circle(56, -104, 26), black, 'ear');
-  a.region(ellipse(0, -60, 72, 60), white, 'panda head');
-  a.region(blob([[-46, -82], [-18, -78], [-14, -50], [-38, -42], [-50, -62]], 1), black, 'eye patch');
-  a.region(blob([[46, -82], [18, -78], [14, -50], [38, -42], [50, -62]], 1), black, 'eye patch');
-  a.shine(circle(-30, -64, 6)); a.shine(circle(30, -64, 6)); a.shine(circle(-28, -66, 2.5));
-  a.ink(ellipse(0, -36, 9, 6.5)); smile(a, 0, -24, 10, 5);
+  // the one-silhouette sitting animal (head pasted on a ball, arms floating beside it): black ears, arms and feet,
+  // eye patches, holding a bamboo stick in its paws; feet on y = 116 as before
+  a.at({ y: 116, s: 0.8 }, (b) => require('./v2.js').sitter(b, { name: 'panda', fur: white, ear: black, limb: black, patches: black,
+    hold: (h) => h.at({ x: 10, y: 0, r: 34 }, (c) => c.region(rrect(-12, -150, 24, 196, 8), snack, 'bamboo')) }));
 }
 function bamboo(a, c = 'green', h = 300, segs = true) {
   a.region(rrect(-14, -h, 28, h, 8), c, 'bamboo stalk');
@@ -27,14 +20,9 @@ function bamboo(a, c = 'green', h = 300, segs = true) {
   a.region(blob([[-10, -h + 170], [-60, -h + 140], [-74, -h + 154], [-24, -h + 190]], 1), c, 'bamboo leaf');
 }
 function koala(a, fur = 'grey', inner = 'pink', nose = 'black') {
-  a.region(ellipse(0, 40, 64, 72), fur, 'koala body');
-  a.region(ellipse(0, 50, 36, 44), 'none', 'tummy');
-  a.region(circle(-72, -80, 40), fur, 'ear'); a.region(circle(72, -80, 40), fur, 'ear');
-  a.region(circle(-72, -80, 22), inner, 'inner ear'); a.region(circle(72, -80, 22), inner, 'inner ear');
-  a.region(ellipse(0, -56, 74, 62), fur, 'koala head');
-  a.region(ellipse(0, -44, 18, 26), nose, 'nose');
-  eye(a, -34, -64, 1.2); eye(a, 34, -64, 1.2);
-  a.region(blob([[-60, 20], [-100, 0], [-110, 30], [-70, 50]], 1), fur, 'arm'); a.region(blob([[60, 20], [100, 0], [110, 30], [70, 50]], 1), fur, 'arm');
+  // the one-silhouette sitting animal (head pasted on a ball, arms floating): big fluffy ears, a big nose, a white
+  // tummy; feet on y = 112 as before
+  a.at({ y: 112, s: 0.8 }, (b) => require('./v2.js').sitter(b, { name: 'koala', fur, inner, earR: 44, earY: -270, belly: 'none', bigNose: nose }));
 }
 function flamingo(a, pink = 'pink', beak = 'none', tip = 'black') {
   // ONE silhouette (body, S-neck and head; the neck had a seam where it was pasted on the body), a curved two-tone
@@ -53,22 +41,24 @@ function flamingo(a, pink = 'pink', beak = 'none', tip = 'black') {
   });
 }
 function seahorse(a, body = 'orange', fin = 'yellow', belly = 'yellow') {
-  // rebuilt from clean overlapping shapes (the first outline read poorly and its crest spikes sat loose on the head)
-  a.region(blob([[-6, 70], [-40, 100], [-46, 140], [-16, 166], [24, 160], [36, 136], [16, 140], [-4, 134], [-10, 114], [14, 96]], 1), body, 'tail');
-  a.region(blob([[60, -30], [96, -50], [104, -10], [70, 6]], 1), fin, 'fin');
-  a.region(blob([[30, -70], [70, -30], [66, 30], [30, 90], [-10, 90], [-24, 40], [-10, -20], [0, -60]], 1), body, 'seahorse body');
-  a.region(blob([[-4, -10], [22, -14], [26, 50], [6, 80], [-12, 40]], 1), belly, 'belly');
-  a.line('M-2 10h20M2 34h18M4 58h12', 2.4);
-  a.region(rrect(-92, -96, 80, 30, 14), body, 'snout');
-  a.region(blob([[-10, -150], [10, -170], [30, -150], [40, -126], [20, -132], [0, -130]], 1), fin, 'crest');
-  a.region(circle(10, -84, 50), body, 'seahorse head');
-  eye(a, 10, -90, 1.25);
+  // ONE silhouette: snout, head, body and curled tail (the head was a circle with a box snout pasted on)
+  const { outline } = require('./v2.js');
+  a.group('seahorse', () => {
+    a.region(outline([[48, -36], [98, -56], [108, -12], [62, 12]]), fin, 'fin');
+    a.region(outline([[-14, -126], [8, -180, 1], [34, -150], [46, -116]]), fin, 'crest');
+    a.region(outline([[-28, -46], [-32, 0], [-24, 50], [-6, 72], [-40, 100], [-46, 140], [-16, 166], [24, 160], [36, 136],
+      [16, 140], [-4, 134], [-10, 114], [14, 96], [42, 70], [66, 30], [66, -20], [52, -54], [62, -90], [42, -124],
+      [10, -138], [-22, -128], [-40, -108], [-58, -104], [-94, -102], [-100, -84, 1], [-94, -66], [-58, -68], [-40, -60]]), body, 'seahorse');
+    a.region(outline([[-10, -22], [18, -26], [28, 38], [8, 70], [-14, 40]]), belly, 'belly');
+    a.line('M-4 0h22M0 24h22M4 48h14', 2.4);
+    eye(a, 4, -94, 1.25);
+  });
 }
 function pizza(a, crust = 'orange', cheese = 'yellow', topping = 'red', pepper = 'green') {
-  a.region('M0 140L-150 -110Q0 -150 150 -110Z', cheese, 'pizza');
+  a.region('M0 140L-146 -100Q0 -134 146 -100Z', cheese, 'pizza');   // its top edge stays under the crust (they showed as a double line)
   a.region('M-158 -106Q0 -150 158 -106L150 -84Q0 -124 -150 -84Z', crust, 'crust');
-  [[0, -60], [-50, -20], [50, -30], [0, 40]].forEach(([x, y]) => a.region(circle(x, y, 24), topping, 'pepperoni'));
-  [[-70, -70, 30], [64, 10, -20], [8, 72, 10]].forEach(([x, y, r]) => a.at({ x, y, r }, (c) => c.region(ellipse(0, 0, 24, 15), pepper, 'pepper')));
+  [[0, -60], [-50, -20], [50, -30], [0, 28]].forEach(([x, y]) => a.region(circle(x, y, 24), topping, 'pepperoni'));
+  [[-70, -70, 30], [40, 34, -62], [4, 84, 0]].forEach(([x, y, r]) => a.at({ x, y, r }, (c) => c.region(ellipse(0, 0, 24, 15), pepper, 'pepper')));
 }
 function gingerbread(a, cookie = 'brown', buttons = 'red', bow = 'green', cheeks = 'pink') {
   a.region('M-40 -70C-40 -150 40 -150 40 -70L40 -60H96Q120 -60 120 -36Q120 -14 96 -14H50V60L84 120Q92 146 66 150Q44 150 36 124L0 74L-36 124Q-44 150 -66 150Q-92 146 -84 120L-50 60V-14H-96Q-120 -14 -120 -36Q-120 -60 -96 -60H-40Z', cookie, 'gingerbread man');

@@ -16,7 +16,7 @@ function doghouse(a, wall = 'red', roof = 'brown', door = 'black', sign = 'yello
 }
 function treasureChest(a, wood = 'brown', bands = 'yellow', gold = 'yellow', gems = ['red', 'blue', 'green']) {
   a.region(blob([[-110, -40], [-80, -90], [-20, -110], [40, -100], [100, -80], [110, -40]], 0.8), gold, 'gold');
-  [[-60, -76, 0], [0, -96, 1], [60, -76, 2]].forEach(([x, y, i]) => a.region(poly([[x - 18, y], [x, y - 22], [x + 18, y], [x, y + 18]], 4), gems[i], 'gem'));
+  [[-60, -71, 0], [0, -94, 1], [60, -71, 2]].forEach(([x, y, i]) => a.region(poly([[x - 18, y], [x, y - 22], [x + 18, y], [x, y + 18]], 4), gems[i], 'gem'));
   a.region(rrect(-130, -40, 260, 150, 12), wood, 'chest');
   a.region(rrect(-140, -60, 280, 40, 12), wood, 'lid');
   a.region(rrect(-102, -60, 36, 170, 6), bands, 'band'); a.region(rrect(66, -60, 36, 170, 6), bands, 'band');

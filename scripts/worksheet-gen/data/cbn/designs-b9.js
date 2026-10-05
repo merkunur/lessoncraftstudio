@@ -35,14 +35,14 @@ const B9 = [
     } },
   { id: 'umbrella-rain', kind: 'picture', level: 2, names: { en: 'Umbrella in the Rain' },
     draw(a) {
-      a.at({ x: 300, y: 280, s: 1.45 }, (b) => Q.umbrella(b, 'purple', 'yellow', 'brown'));
+      a.at({ x: 300, y: 330, s: 1.4 }, (b) => Q.umbrella(b, 'purple', 'yellow', 'brown'));   // stands on its hook in the puddle (it hung in the air)
       a.at({ x: 150, y: 70, s: 0.8 }, (b) => P.cloud(b, 'grey')); a.at({ x: 450, y: 70, s: 0.8 }, (b) => P.cloud(b, 'grey'));
       [[100, 220], [500, 210], [120, 360], [480, 380]].forEach(([x, y]) => a.at({ x, y }, (b) => R.raindrop(b, 'lightblue')));
       a.group('puddle', () => a.region(ellipse(300, 490, 200, 26), 'blue', 'puddle'));
     } },
   { id: 'teddy-present', kind: 'picture', level: 3, names: { en: 'Teddy and Present' },
     draw(a) {
-      table(a, 460);
+      table(a, 460, 'grey');   // not brown: the brown teddy sits on it
       a.at({ x: 210, y: 290, s: 1.35 }, (b) => R.teddy(b, 'brown', 'orange', 'red'));
       a.at({ x: 460, y: 380, s: 0.75 }, (b) => S.giftBox(b, 'blue', 'pink', 'purple'));
     } },
@@ -57,9 +57,9 @@ const B9 = [
   { id: 'fruit-friends', kind: 'picture', level: 2, names: { en: 'Fruit Friends' },
     draw(a) {
       table(a, 470, 'blue');
-      a.at({ x: 120, y: 360, s: 0.95 }, (b) => Q.apple(b, 'lightgreen', 'green', 'brown'));
-      a.at({ x: 300, y: 340, s: 1.0 }, (b) => S.pineapple(b, 'yellow', 'green'));
-      a.at({ x: 470, y: 380, s: 0.95 }, (b) => V.cherries(b, 'red', 'green'));
+      a.at({ x: 120, y: 392, s: 0.95 }, (b) => Q.apple(b, 'lightgreen', 'green', 'brown'));
+      a.at({ x: 300, y: 325, s: 1.0 }, (b) => S.pineapple(b, 'yellow', 'green'));
+      a.at({ x: 470, y: 365, s: 0.95 }, (b) => V.cherries(b, 'red', 'green'));
     } },
   { id: 'owl-moon', kind: 'picture', level: 3, names: { en: 'Owl and Moon' },
     draw(a) {
@@ -71,8 +71,8 @@ const B9 = [
   { id: 'toy-box', kind: 'picture', level: 3, names: { en: 'My Toys' },
     draw(a) {
       table(a, 470, 'brown');
-      a.at({ x: 180, y: 290, s: 1.15 }, (b) => R.robot(b, 'grey', 'blue', 'yellow', 'red', 'green', 'purple'));
-      a.at({ x: 430, y: 390, s: 0.95 }, (b) => T.beachBall(b, ['red', 'yellow', 'blue', 'green']));
+      a.at({ x: 180, y: 316, s: 1.15 }, (b) => R.robot(b, 'grey', 'blue', 'yellow', 'red', 'green', 'purple'));
+      a.at({ x: 430, y: 406, s: 0.95 }, (b) => T.beachBall(b, ['red', 'yellow', 'blue', 'green']));
     } },
   { id: 'garden-friends', kind: 'picture', level: 3, names: { en: 'Garden Friends' },
     draw(a) {
@@ -130,8 +130,8 @@ const B9 = [
   { id: 'rainbow-meadow', kind: 'scene', level: 2, names: { en: 'Rainbow Meadow' },
     draw(a) {
       skyGrass(a, 0.66);
-      a.at({ x: 300, y: 360, s: 1.6 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
-      a.at({ x: 66, y: 360, s: 0.85 }, (b) => P.cloud(b)); a.at({ x: 534, y: 360, s: 0.85 }, (b) => P.cloud(b));
+      a.at({ x: 300, y: 360, s: 1.42 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
+      a.at({ x: 100, y: 360, s: 0.78 }, (b) => P.cloud(b)); a.at({ x: 500, y: 360, s: 0.78 }, (b) => P.cloud(b));   // whole, inside the frame
     } },
   { id: 'snowman-penguin', kind: 'scene', level: 2, names: { en: 'Snowman and Penguin' },
     draw(a) {
@@ -143,11 +143,12 @@ const B9 = [
     } },
   { id: 'ladybug-flowers', kind: 'scene', level: 2, names: { en: 'Ladybug and Flowers' },
     draw(a) {
-      skyGrass(a, 0.56);
+      skyGrass(a, 0.56, 'lightblue', 'lightgreen');   // light grass: the green stems and leaves stay visible
       a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b));
-      a.at({ x: 120, y: 420, s: 1.05 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 26));
-      a.at({ x: 480, y: 420, s: 1.05 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 26));
-      a.at({ x: 300, y: 380, s: 1.25 }, (b) => Q.ladybird(b, 'red', 'black'));
+      // tall flowers and a ladybug-sized ladybug walking between them (it was bigger than the flowers)
+      a.at({ x: 150, y: 330, s: 1.5 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 26, 110));
+      a.at({ x: 450, y: 330, s: 1.5 }, (b) => P.flower(b, 'red', 'yellow', 'green', 26, 110));
+      a.at({ x: 300, y: 470, s: 0.6 }, (b) => Q.ladybird(b, 'red', 'black'));
     } },
  { id: 'elephant-savanna', kind: 'scene', level: 2, names: { en: 'Elephant on the Savanna' },
     draw(a) {
@@ -163,8 +164,8 @@ const B9 = [
       a.at({ x: 90, y: 76, s: 0.75 }, (b) => P.sun(b));
       a.at({ x: 500, y: 190, s: 0.75 }, (b) => P.tree(b));
       a.group('blanket', () => a.region('M40 480L150 330L560 350L490 530Z', 'yellow', 'blanket'));   // not red: the strawberry sits on it
-      a.at({ x: 210, y: 316, s: 1.3 }, (b) => R.teddy(b, 'brown', 'orange', 'blue'));
-      a.at({ x: 440, y: 440, s: 0.8 }, (b) => Q.strawberry(b, 'red', 'green'));   // a picnic-sized fruit (an apple as big as the teddy looked wrong)
+      a.at({ x: 220, y: 340, s: 1.12 }, (b) => R.teddy(b, 'brown', 'orange', 'blue'));
+      [[398, 424], [496, 452]].forEach(([x, y]) => a.at({ x, y, s: 0.62 }, (b) => Q.strawberry(b, 'red', 'green')));   // fruit-sized (one strawberry was as big as the teddy's body)
     } },
   { id: 'toy-room', kind: 'scene', level: 3, names: { en: 'Toy Room' },
     draw(a) {
@@ -182,11 +183,11 @@ const B9 = [
     } },
   { id: 'garden-party', kind: 'scene', level: 3, names: { en: 'Garden Party' },
     draw(a) {
-      skyGrass(a, 0.58);
+      skyGrass(a, 0.58, 'lightblue', 'lightgreen');
       a.at({ x: 90, y: 76, s: 0.75 }, (b) => P.sun(b));
       a.at({ x: 430, y: 210, s: 0.72 }, (b) => P.house(b, 'pink', 'blue', 'brown', 'lightblue', false));
       a.at({ x: 150, y: 420, s: 0.95 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
-      a.at({ x: 380, y: 470, s: 0.9 }, (b) => Q.snail(b, 'pink', 'yellow', 'lightgreen'));
+      a.at({ x: 390, y: 480, s: 0.76 }, (b) => Q.snail(b, 'pink', 'yellow', 'grey'));
     } },
 ];
 

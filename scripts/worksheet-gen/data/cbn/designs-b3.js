@@ -173,7 +173,7 @@ const B3 = [
       a.at({ x: 452, y: 214, s: 0.95 }, (b) => R.palmTree(b, 'green', 'brown', 'brown'));
       a.at({ x: 90, y: 440, s: 0.9 }, (b) => P.bush(b, 'lightgreen'));
       a.at({ x: 240, y: 400, s: 1.22 }, (b) => S.monkey(b, 'brown', 'orange', 'yellow'));
-      a.at({ x: 130, y: 170, s: 0.9 }, (b) => P.butterfly(b, 'purple', 'yellow', 'red'));   // a perching parrot would float in the air here
+      a.at({ x: 120, y: 160, s: 0.78 }, (b) => P.butterfly(b, 'purple', 'yellow', 'red'));   // a perching parrot would float in the air here
     } },
 ];
 

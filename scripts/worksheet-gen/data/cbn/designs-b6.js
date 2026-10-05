@@ -22,19 +22,19 @@ const B6 = [
   { id: 'cherries', kind: 'picture', level: 1, names: { en: 'Cherries' },
     draw(a) { plate(a, 300, 450, 190, 'lightblue'); a.at({ x: 300, y: 300, s: 1.6 }, (b) => V.cherries(b, 'red', 'green')); } },
   { id: 'happy-carrot', kind: 'picture', level: 1, names: { en: 'Happy Carrot' },
-    draw(a) { mound(a, 300, 480, 200, 'brown', 40); a.at({ x: 300, y: 300, s: 1.35 }, (b) => V.carrot(b, 'orange', 'green')); } },
+    draw(a) { a.at({ x: 300, y: 300, s: 1.35 }, (b) => V.carrot(b, 'orange', 'green')); mound(a, 300, 480, 200, 'brown', 40); } },   // planted: the soil in front of the root
   { id: 'rainbow', kind: 'picture', level: 1, names: { en: 'Rainbow' },
     draw(a) {
-      a.at({ x: 300, y: 380, s: 1.75 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
-      a.at({ x: 90, y: 380, s: 0.95 }, (b) => P.cloud(b)); a.at({ x: 510, y: 380, s: 0.95 }, (b) => P.cloud(b));
+      a.at({ x: 300, y: 380, s: 1.62 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
+      a.at({ x: 104, y: 380, s: 0.88 }, (b) => P.cloud(b)); a.at({ x: 496, y: 380, s: 0.88 }, (b) => P.cloud(b));
     } },
   { id: 'backpack', kind: 'picture', level: 1, names: { en: 'School Backpack' },
     draw(a) { a.at({ x: 300, y: 300, s: 1.25 }, (b) => V.backpack(b, 'blue', 'red', 'yellow', 'grey')); } },
   { id: 'doghouse', kind: 'picture', level: 2, names: { en: 'Doghouse' },
     draw(a) {
       mound(a, 300, 480, 270);
-      a.at({ x: 196, y: 300, s: 1.1 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));
-      a.at({ x: 462, y: 322, s: 1.2 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'blue'));
+      a.at({ x: 196, y: 352, s: 1.1 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));
+      a.at({ x: 462, y: 344, s: 1.2 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'blue'));
     } },
   { id: 'cocoa-mug', kind: 'picture', level: 2, names: { en: 'Mug of Cocoa' },
     draw(a) {
@@ -87,8 +87,8 @@ const B6 = [
       skyGrass(a, 0.5);
       a.at({ x: 100, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.group('blanket', () => a.region('M60 450L180 380L560 400L470 500Z', 'blue', 'blanket'));
-      a.at({ x: 220, y: 330, s: 1.15 }, (b) => T.bear(b, 'brown', 'orange', 'orange'));
-      a.at({ x: 440, y: 432, s: 0.62 }, (b) => Q.apple(b, 'red', 'green', 'brown'));
+      a.at({ x: 250, y: 470, s: 0.92 }, (b) => N.bearSit(b, 'brown', 'orange', 'orange', 'orange', (h) => h.at({ x: 0, y: 0, s: 0.42 }, (c) => Q.apple(c, 'red', 'none', 'brown'))));
+      a.at({ x: 420, y: 452, s: 0.34 }, (b) => Q.apple(b, 'red', 'none', 'brown'));
       a.at({ x: 500, y: 200, s: 0.75 }, (b) => P.tree(b));
     } },
   { id: 'pony-farm', kind: 'scene', level: 2, names: { en: 'Pony on the Farm' },
@@ -96,7 +96,7 @@ const B6 = [
       skyGrass(a, 0.5);
       a.at({ x: 500, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 14, y: 260, s: 0.9 }, (b) => P.fence(b, 3, 'brown', 70));
-      a.at({ x: 330, y: 360, s: 1.0 }, (b) => T.pony(b, 'orange', 'brown', 'grey'));
+      a.at({ x: 330, y: 482, s: 0.96 }, (b) => N.pony(b, 'orange', 'brown', 'grey'));
     } },
   { id: 'farm-friends', kind: 'scene', level: 3, names: { en: 'Farm Friends' },
     draw(a) {

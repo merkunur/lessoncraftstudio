@@ -116,7 +116,7 @@ const B8 = [
       a.group('tree', () => { a.region('M70 570L90 200L150 200L170 570Z', 'brown', 'trunk'); a.region('M130 230Q300 196 470 180L470 210Q300 226 130 262Z', 'brown', 'branch'); a.region('M-10 40C60 0 220 20 240 110C250 190 160 230 -10 220Z', 'green', 'tree crown'); }, { edgeOk: true });
       a.at({ x: 270, y: 344, s: 1.0 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));   // hangs from the tree's branch
       a.at({ x: 462, y: 440, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));
-      a.at({ x: 500, y: 80, s: 0.75 }, (b) => P.sun(b, 'orange'));
+      a.at({ x: 500, y: 80, s: 0.75 }, (b) => P.sun(b));
     } },
   { id: 'construction', kind: 'scene', level: 3, names: { en: 'Dump Truck at Work' },
     draw(a) {

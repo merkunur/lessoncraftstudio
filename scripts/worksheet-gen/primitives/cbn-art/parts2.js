@@ -31,32 +31,46 @@ const whiskers = (a, x, y, dir = 1) => { a.line(curve([[x, y], [x + 22 * dir, y 
 
 /* ---------------------------------------------------------------- animals */
 function cat(a, fur = 'orange', inner = 'pink', belly = 'none') {
-  a.region(blob([[30, 74], [92, 54], [112, 4], [100, -30], [82, -24], [90, 10], [74, 40], [34, 50]], 1), fur, 'tail');
-  a.region(blob([[-60, 96], [-64, 24], [-36, -26], [36, -26], [64, 24], [60, 96]], 0.9), fur, 'cat body');
-  a.region(ellipse(0, 50, 30, 36), belly, 'tummy');
-  a.region(ellipse(-21, 98, 25, 14), fur, 'paw'); a.region(ellipse(21, 98, 25, 14), fur, 'paw');
-  a.region(poly([[-68, -74], [-58, -158], [-4, -110]], 9), fur, 'ear'); a.region(poly([[68, -74], [58, -158], [4, -110]], 9), fur, 'ear');
-  a.region(poly([[-54, -96], [-52, -138], [-24, -112]], 5), inner, 'inner ear'); a.region(poly([[54, -96], [52, -138], [24, -112]], 5), inner, 'inner ear');
-  a.region(ellipse(0, -64, 66, 54), fur, 'cat head');
-  face(a, 0, -70, 1.25, 44);
-  a.ink(poly([[-8, -56], [8, -56], [0, -48]], 2));
-  whiskers(a, 16, -50, 1); whiskers(a, -16, -50, -1);
+  // SITTING, facing us: head and body ONE silhouette, front legs down to the ground (it had two paw ovals under a
+  // pasted head), ears rooted in the head, the tail curling up from behind the hip; sits on y = 112
+  const { outline } = require('./v2.js');
+  a.group('cat', () => {
+    a.region(outline([[40, 80], [94, 56], [114, 6], [102, -30], [84, -24], [92, 10], [76, 40], [38, 56]]), fur, 'tail');
+    [-1, 1].forEach((k) => {
+      a.region(outline([[k * 70, -70], [k * 60, -160, 1], [k * 8, -112]]), fur, 'ear');
+      a.region(outline([[k * 56, -96], [k * 54, -140, 1], [k * 26, -114]]), inner, 'inner ear');
+    });
+    a.region(outline([[0, -120], [44, -114], [66, -86], [60, -40], [40, -16], [56, 0], [70, 40], [72, 90],
+      [60, 112, 1], [-60, 112, 1], [-72, 90], [-70, 40], [-56, 0], [-40, -16], [-60, -40], [-66, -86], [-44, -114]]), fur, 'cat');
+    a.region(ellipse(0, 48, 28, 34), belly, 'tummy');
+    [-1, 1].forEach((k) => a.region(outline([[k * 2, 50], [k * 30, 50], [k * 32, 98], [k * 34, 112, 1], [k * 2, 112, 1]]), fur, 'leg'));
+    a.line('M-17 102V112M17 102V112', 2.4);
+    face(a, 0, -70, 1.25, 44);
+    a.ink(poly([[-8, -56], [8, -56], [0, -48]], 2));
+    whiskers(a, 16, -50, 1); whiskers(a, -16, -50, -1);
+  });
 }
 function dog(a, fur = 'brown', ears = 'brown', spot = 'none', collar = 'red') {
-  a.region(blob([[34, 74], [86, 44], [104, 4], [92, -4], [72, 34], [36, 50]], 1), fur, 'tail');
-  a.region(blob([[-62, 96], [-64, 22], [-36, -24], [36, -24], [64, 22], [62, 96]], 0.9), fur, 'dog body');
-  a.region(ellipse(0, 52, 30, 36), 'none', 'tummy');
-  a.region(ellipse(-22, 98, 26, 14), fur, 'paw'); a.region(ellipse(22, 98, 26, 14), fur, 'paw');
-  a.region(rrect(-44, -26, 88, 24, 11), collar, 'collar');
-  a.region(circle(0, 6, 13), 'yellow', 'tag');
-  a.region(ellipse(0, -66, 62, 54), fur, 'dog head');
-  a.region(ellipse(24, -78, 24, 22), spot, 'eye patch');
-  a.region(blob([[-46, -104], [-84, -84], [-92, -30], [-70, -20], [-50, -64]], 1), ears, 'ear');
-  a.region(blob([[46, -104], [84, -84], [92, -30], [70, -20], [50, -64]], 1), ears, 'ear');
-  a.region(ellipse(0, -40, 32, 24), 'none', 'muzzle');
-  eye(a, -24, -78, 1.25); eye(a, 24, -78, 1.25);
-  a.ink(ellipse(0, -50, 10, 7));
-  a.line(curve([[-12, -32], [0, -26], [12, -32]]), 2.6);
+  // SITTING, facing us: head and body are ONE silhouette (the head was pasted on), front legs down to the ground
+  // (it had only two paw ovals), the tail curls up from behind the hip; sits on y = 112
+  const { outline } = require('./v2.js');
+  a.group('dog', () => {
+    a.region(outline([[46, 78], [94, 54], [112, 10], [98, 2], [80, 40], [42, 58]]), fur, 'tail');
+    a.region(outline([[0, -124], [44, -118], [66, -90], [62, -46], [44, -20], [58, -4], [72, 40], [74, 90],
+      [62, 112, 1], [-62, 112, 1], [-74, 90], [-72, 40], [-58, -4], [-44, -20], [-62, -46], [-66, -90], [-44, -118]]), fur, 'dog');
+    a.region(ellipse(0, 50, 30, 36), 'none', 'tummy');
+    [-1, 1].forEach((k) => a.region(outline([[0, 34], [k * 40, 34], [k * 42, 96], [k * 44, 112, 1], [0, 112, 1]]), fur, 'leg'));
+    a.line('M-24 100V112M24 100V112', 2.4);
+    a.region(rrect(-44, -26, 88, 22, 11), collar, 'collar');
+    a.region(circle(0, 6, 13), 'yellow', 'tag');
+    a.region(ellipse(24, -80, 24, 22), spot, 'eye patch');
+    a.region(outline([[-36, -116], [-82, -98], [-94, -40], [-74, -24], [-56, -62]]), ears, 'ear');
+    a.region(outline([[36, -116], [82, -98], [94, -40], [74, -24], [56, -62]]), ears, 'ear');
+    a.region(ellipse(0, -42, 32, 24), 'none', 'muzzle');
+    eye(a, -24, -80, 1.25); eye(a, 24, -80, 1.25);
+    a.ink(ellipse(0, -52, 10, 7));
+    a.line(curve([[-12, -34], [0, -28], [12, -34]]), 2.6);
+  });
 }
 function elephant(a, skin = 'grey', ear = 'pink', trunkUp = false) {
   a.region(rrect(-64, 18, 36, 80, 13), skin, 'leg'); a.region(rrect(28, 18, 36, 80, 13), skin, 'leg');
@@ -180,7 +194,7 @@ function cupcake(a, wrapper = 'blue', icing = 'pink', cherry = 'red') {
 }
 function apple(a, skin = 'red', leaf = 'green', stalk = 'brown') {
   void stalk; a.line(curve([[0, -72], [2, -96], [10, -116]]), 8);
-  a.region(blob([[8, -96], [44, -128], [72, -110], [40, -86]], 1), leaf, 'leaf');
+  if (leaf !== 'none') a.region(blob([[8, -96], [44, -128], [72, -110], [40, -86]], 1), leaf, 'leaf');
   a.region(blob([[0, -76], [-46, -96], [-92, -60], [-92, 20], [-50, 84], [0, 70], [50, 84], [92, 20], [92, -60], [46, -96]], 1), skin, 'apple');
   a.shine(ellipse(-50, -30, 10, 22));
 }

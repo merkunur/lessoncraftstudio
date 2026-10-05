@@ -89,7 +89,7 @@ const HERO = {
   'pond-goose': ['grey'],
   'pond-otter': ['brown', 'brown'],
   'pond-alligator': ['lightgreen', 'yellow', 'yellow'],
-  'pond-beaver': ['brown', 'orange', 'brown'],
+  'pond-beaver': ['brown', 'orange', 'brown', 'brown'],
   'pond-little-duck': ['yellow'],
   'pond-pelican': ['brown', 'yellow'],
   'forest-fox': ['orange', 'orange'],
@@ -135,7 +135,7 @@ const HERO = {
   drum: ['red', 'yellow'],
   'spinning-top': ['red', 'purple', 'blue', 'green'],
   dice: ['red', 'red', 'red'],
-  pinwheel: ['red', 'orange', 'yellow', 'pink', 'blue', 'purple', 'pink', 'green', 'yellow'],
+  pinwheel: ['red', 'orange', 'yellow', 'pink', 'blue', 'red', 'pink', 'lightgreen', 'yellow'],
   kite: ['red', 'yellow', 'blue', 'green'],
   telephone: ['red', 'red', 'red', 'yellow', 'grey', 'grey'],
   xylophone: ['red', 'orange', 'purple', 'green', 'blue', 'red'],
@@ -214,7 +214,7 @@ const HERO = {
   hen: ['brown', 'orange', 'red', 'red', 'brown'],
   cow: ['brown', 'brown', 'pink'],
   deer: ['brown', 'brown', 'brown', 'none', 'pink'],
-  dinosaur: ['green', 'green', 'none', 'none', 'none'],
+  dinosaur: ['green', 'green', 'orange', 'orange', 'orange'],
   triceratops: ['green', 'orange', 'green', 'green'],
   puppy: ['yellow', 'orange', 'orange', 'orange', 'orange'],
   donkey: ['grey'],
@@ -232,24 +232,64 @@ const HERO = {
 const OVERRIDE = {
   'night-cat': { 1: 'grey' },
   'forest-squirrel': { 2: 'orange', 6: 'orange' },
+  monkey: { 6: 'brown' },
+  rabbit: { 4: 'grey' },
+  bat: { 3: 'purple' },
 };
-const ATTACH = {
-  kangaroo: { a: 'H0', b: 'H0' },
-  'garden-bunny': { a: 'H0', b: 'H0' },
-  'beach-sandcastle': { a: 'H0' },
-  'winter-cabin': { e: 'H5', h: 'H5' },
-  'night-campfire': { a: 'H3' },
-  'night-cat': { a: 'H0' },
-  'town-taxi': { a: 'H2', b: 'H3' },
-  cow: { d: 'H2' },
-  monkey: { h: 'H2', i: 'H2' },
-  rooster: { i: 'H2' },
-  squirrel: { k: 'H2' },
-  'farm-donkey': { c: 'H2' },
-  'farm-goat': { j: 'H1', ae: 'H1' },
-  deer: { c: 'H4' },
-  bear: { b: 'H0', h: 'H0' },
-  'forest-bear': { c: 'H1' },
-  bee: { a: 'H3', d: 'H3' },
+// 2026-10-05: the hand-lettered ATTACH table is retired — small pieces now attach automatically to the numbered part they
+// border most (tools/cbn-lineart-build.js nb), and a lettered table would point at the wrong pieces after a rebuild.
+const ATTACH = {};
+// the colour of the small and mid pieces of a SCENERY drawing, where its border-neighbour would be wrong: 'sky' / 'ground'
+// = the scene's own sky / ground colour (a gap between branches shows the sky)
+const SMALL_RULE = {
+  'nature bw/tree': 'sky',
+  // a flower: the head follows its neighbours (petals red / pink); below `split` (share of the drawing's height) the stem
+  // and leaves are light green — light, so they stand out from the darker grass — or the grass where no light-green
+  // numbered piece is there to paint a tiny leaf piece with
+  'valentine bw 2/tulip': { split: 0.36, bottom: 'lightgreen', fallback: 'ground' },
+  'home and nature bw/flower': { split: 0.55, bottom: 'lightgreen', fallback: 'ground' },
+  // the ornaments of a Christmas tree; its lowest piece is the trunk
+  'Christmas bw/christmas_tree': { colour: 'orange', bottom: 'brown' },
 };
-module.exports = { BG, HERO, OVERRIDE, ATTACH };
+// natural whites kept white (operator 2026-10-05): per design, the indexes of NUMBERED parts that stay white even if a
+// colour list says otherwise; mid/small pieces bordering only white parts stay white by themselves
+const WHITE = {};
+// PER-WORKSHEET piece colours, set while reading each worksheet one by one (tools/cbn-inspect.js labels every piece):
+// m<i> (a numbered compact piece) -> colour; s<i> (a small piece) -> [colour, anchor] where anchor is the numbered
+// region it is painted with (p<i> / m<i>), or 'none' to keep it white. Applied before every automatic rule.
+const PIECE = {
+  cow: { m2: 'pink' },
+  deer: { m0: 'pink' },
+  scarecrow: { s0: ['yellow', 's0'], s1: ['brown', 'p7'], s6: ['brown', 'p7'], s22: ['brown', 'p7'], s32: ['yellow', 's0'], s33: ['yellow', 's0'], s36: ['yellow', 's0'], s39: ['yellow', 's0'], s43: ['brown', 'p7'], s44: ['yellow', 's0'], s45: ['yellow', 's0'], s48: ['yellow', 's0'], s49: ['yellow', 's0'], s51: ['yellow', 's0'], s53: ['yellow', 's0'], s54: ['yellow', 's0'], s57: ['yellow', 's0'], s62: ['brown', 'p7'], s63: ['yellow', 's0'], s68: ['brown', 'p7'], s70: ['yellow', 's0'], s72: ['yellow', 's0'], s77: ['yellow', 's0'], s80: ['yellow', 's0'], s86: ['brown', 'p7'], s87: ['yellow', 's0'], s90: ['yellow', 's0'], s93: ['yellow', 's0'], s95: ['yellow', 's0'], s99: ['yellow', 's0'], s100: ['yellow', 's0'], s101: ['yellow', 's0'], s109: ['yellow', 's0'], s111: ['yellow', 's0'], s114: ['yellow', 's0'], s116: ['yellow', 's0'], s117: ['yellow', 's0'], s118: ['yellow', 's0'], s125: ['yellow', 's0'], s126: ['yellow', 's0'], s128: ['brown', 'p7'], s132: ['yellow', 's0'], s133: ['brown', 'p7'], s135: ['yellow', 's0'], s138: ['yellow', 's0'], s139: ['yellow', 's0'], s140: ['yellow', 's0'], s145: ['yellow', 's0'], s148: ['brown', 'p7'], s153: ['yellow', 's0'], s156: ['yellow', 's0'], s158: ['brown', 'p7'], s162: ['yellow', 's0'], s177: ['yellow', 's0'], s178: ['yellow', 's0'], s184: ['yellow', 's0'], s186: ['brown', 'p7'], s196: ['yellow', 's0'], s197: ['yellow', 's0'], s199: ['yellow', 's0'], s202: ['yellow', 's0'], s204: ['yellow', 's0'], s205: ['yellow', 's0'], s209: ['yellow', 's0'], s214: ['yellow', 's0'], s215: ['yellow', 's0'], s216: ['yellow', 's0'], s217: ['yellow', 's0'], s235: ['yellow', 's0'], s253: ['yellow', 's0'], s255: ['yellow', 's0'] },
+  'police-car': { m0: 'green', m1: 'green', m2: 'grey', m3: 'grey', s0: ['grey', 'm2'], s55: ['grey', 'm2'], s6: ['green', 'm0'] },
+  ladybug: { s7: ['black', 's7'] },
+  lion: { m0: 'orange', s5: ['orange', 'm0'], s29: ['orange', 'm0'], s0: ['orange', 's0'], s38: ['orange', 's0'] },
+  monkey: { s8: ['brown', 'p6'], s13: ['brown', 'p6'], s16: ['brown', 'p6'], s43: ['brown', 'p6'] },
+  mouse: { s8: ['pink', 'p7'] },
+  duck: { s0: ['orange', 's0'], s26: ['orange', 's0'], s27: ['orange', 's0'], s33: ['orange', 's0'], s38: ['orange', 's0'], m0: 'orange', s3: ['orange', 'm0'], s6: ['orange', 'm0'], s11: ['orange', 'm0'], s13: ['orange', 'm0'], s20: ['orange', 'm0'], s21: ['orange', 'm0'], s24: ['orange', 'm0'], s29: ['orange', 'm0'], s34: ['orange', 'm0'] },
+  goat: { s7: ['grey', 's7'], s179: ['grey', 's7'], s189: ['grey', 's7'], s13: ['grey', 's7'], s15: ['grey', 's7'], s18: ['grey', 's7'], s24: ['grey', 's7'], s26: ['grey', 's7'], s32: ['grey', 's7'], s44: ['grey', 's7'], s45: ['grey', 's7'], s53: ['grey', 's7'], s61: ['grey', 's7'], s67: ['grey', 's7'], s74: ['grey', 's7'], s77: ['grey', 's7'], s82: ['grey', 's7'], s125: ['grey', 's7'], s135: ['grey', 's7'], s136: ['grey', 's7'] },
+  kangaroo: { m1: 'orange' },
+  koala: { s3: ['pink', 's3'], s4: ['pink', 's4'] },
+  nest: { s1: ['red', 's1'], s6: ['red', 's1'], s19: ['red', 's1'], m1: 'yellow', m2: 'lightblue', m3: 'lightblue' },
+  pony: { s0: ['yellow', 's0'], m1: 'yellow', s18: ['yellow', 's0'], s20: ['yellow', 's0'], s11: ['yellow', 's0'], s10: ['yellow', 's0'], s39: ['yellow', 's0'], s49: ['yellow', 's0'], s82: ['yellow', 's0'], s96: ['yellow', 's0'], s31: ['yellow', 's0'], s1: ['yellow', 'm1'], s3: ['yellow', 'm1'], s12: ['yellow', 'm1'], s32: ['yellow', 'm1'], s52: ['yellow', 'm1'], s53: ['yellow', 'm1'], s54: ['yellow', 'm1'], s66: ['yellow', 'm1'], s73: ['yellow', 'm1'], s74: ['yellow', 'm1'], s76: ['yellow', 'm1'], s85: ['yellow', 'm1'] },
+  rabbit: { s3: ['grey', 'p0'], s24: ['grey', 'p0'] },
+  rooster: { m2: 'red', m6: 'red', s99: ['orange', 'p4'] },
+  sheep: { m1: 'grey', m2: 'grey', s3: ['pink', 's3'], s24: ['pink', 's3'], s31: ['pink', 's3'], s4: ['pink', 's4'], s14: ['pink', 's4'], s25: ['grey', 'p8'], s15: ['grey', 'p8'] },
+  'dump-truck': { m0: 'grey', m1: 'grey', m3: 'green' },
+  bee: { m0: 'black' },
+  bull: { m2: 'yellow', m3: 'brown', s5: ['brown', 'p2'], s77: ['brown', 'p2'], s6: ['yellow', 'm2'], s8: ['yellow', 'm2'], s10: ['yellow', 'm2'], s14: ['yellow', 'm2'], s19: ['yellow', 'm2'], s20: ['yellow', 'm2'], s23: ['yellow', 'm2'], s28: ['yellow', 'm2'], s30: ['yellow', 'm2'], s33: ['yellow', 'm2'], s38: ['yellow', 'm2'], s50: ['yellow', 'm2'], s157: ['yellow', 'm2'] },
+  crab: { s2: ['red', 'p0'], s3: ['red', 'p0'], s4: ['red', 'p0'], s5: ['red', 'p0'] },
+  fox: { s4: ['orange', 'm0'], s33: ['orange', 'm0'] },
+  crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
+  fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
+  triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },
+  dinosaur: { m1: 'orange', m4: 'orange', s11: ['orange', 'm4'], s3: ['orange', 'm1'], s17: ['orange', 'm4'], m5: 'orange', m6: 'orange', m0: 'lightgreen' },
+};
+// natural-white SLIVERS no piece owns, read and confirmed one by one (tools/cbn-unpainted.js allows a white area
+// containing the point): [x, y, reason]
+const WHITE_AT = {
+  sheep: [[308, 329, 'the root of the white ear, inside the white wool']],
+  ostrich: [[248, 227, 'the eye white in the white face']],
+  'garden-chick': [[362, 439, 'the edge of the white eggshell']],
+};
+module.exports = { BG, HERO, OVERRIDE, ATTACH, SMALL_RULE, WHITE, WHITE_AT, PIECE };

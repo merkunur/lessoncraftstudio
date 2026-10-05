@@ -24,6 +24,8 @@ const PALETTE = {
 };
 const INK = '#262626';
 const MIN_R = 8.5;        // picture units: room for a single-digit number (13+ units tall) with a margin
+const MIN_R_COMPACT = 5.5;  // picture units: a compact number (font 9-12, ~2.4-3.2 mm printed): a 9-unit digit is ~5 wide x 6.4 tall (half-diagonal 4.1) — 5.5 leaves a margin. For a piece too small for the full number (operator 2026-10-05: paint every piece)
+const SEAM_W = 3;         // picture units: the own-colour stroke that closes the gap between a line-art fill and its ink
 const CRUMB_AREA = 14;    // picture units²: visible bits smaller than this are outline junctions, not parts
 const HAIRLINE_R = 2.5;   // a visible bit narrower than ~5 units is a hairline gap where outlines meet, not a part
 const LEVEL_CAPS = { 1: { colours: [3, 5], regions: 16 }, 2: { colours: [5, 7], regions: 30 }, 3: { colours: [6, 8], regions: 48 } };
@@ -45,7 +47,10 @@ function toSvg(art, opts = {}) {
       let fill = '#FFFFFF';
       if (mode === 'colour') fill = PALETTE[it.colour];
       if (mode === 'id') { const c = idRgb(i); fill = `rgb(${c[0]},${c[1]},${c[2]})`; }
-      parts.push(g(`<path d="${it.d}" fill="${fill}" fill-rule="evenodd" stroke="${mode === 'id' ? '#000' : INK}" stroke-width="${it.ow.toFixed(3)}" stroke-linejoin="round" stroke-linecap="round"${mode !== 'id' ? ` data-lcs-region="${i}" data-lcs-colour="${it.colour}"` : ''}/>`));
+      // a line-art region (ow 0: its outline is the drawing's ink, drawn on top) is stroked in its OWN colour so the fill
+      // reaches under the ink — its traced, smoothed path stops short of the line and left white seams (2026-10-05)
+      const seam = it.ow === 0 && mode !== 'id';
+      parts.push(g(`<path d="${it.d}" fill="${fill}" fill-rule="evenodd" stroke="${mode === 'id' ? '#000' : seam ? fill : INK}" stroke-width="${seam ? SEAM_W : it.ow.toFixed(3)}" stroke-linejoin="round" stroke-linecap="round"${mode !== 'id' ? ` data-lcs-region="${i}" data-lcs-colour="${it.colour}"${seam ? ' data-lcs-seam="1"' : ''}` : ''}/>`));
     } else if (it.kind === 'l') {
       parts.push(g(`<path d="${it.d}" fill="none" stroke="${mode === 'id' ? '#000' : INK}" stroke-width="${it.w.toFixed(3)}" stroke-linecap="round" stroke-linejoin="round"/>`));
     } else if (it.kind === 'k') {
@@ -58,7 +63,7 @@ function toSvg(art, opts = {}) {
   let text = '';
   if (mode === 'line' && opts.labels) {
     text = opts.labels.map((l) => {
-      const fs = Math.max(14, Math.min(28, l.r * 1.25));
+      const fs = l.r >= MIN_R ? Math.max(14, Math.min(28, l.r * 1.25)) : Math.max(9, Math.min(12, l.r * 1.45));
       return `<text x="${l.x.toFixed(1)}" y="${(l.y + fs * 0.36).toFixed(1)}" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-weight="700" font-size="${fs.toFixed(1)}" fill="#3A3A3A" data-lcs-num="${l.n}">${l.n}</text>`;
     }).join('');
   }
@@ -150,7 +155,7 @@ function labelsAndGate(art, pieces, level) {
     if (p.area < CRUMB_AREA || p.r < HAIRLINE_R) continue;
     visibleRegions.add(p.region);
     if (p.colour === 'none') continue;
-    if (p.r < MIN_R) { small.push(p); continue; }
+    if (p.r < MIN_R_COMPACT) { small.push(p); continue; }
     labels.push({ x: p.x, y: p.y, r: p.r, n: num[p.colour], region: p.region });
   }
   // a small piece is allowed only as an ATTACHED detail of a region whose main piece carries the number (line-art
@@ -158,7 +163,7 @@ function labelsAndGate(art, pieces, level) {
   const labelled = new Set(labels.map((l) => l.region));
   for (const p of small) {
     if (labelled.has(p.region)) continue;
-    bad.push({ x: p.x, y: p.y }); fails.push(`region ${p.region}${p.name ? ' (' + p.name + ')' : ''} ${p.colour}: a visible piece too small for its number (r ${p.r.toFixed(1)} < ${MIN_R}, area ${p.area.toFixed(0)})`);
+    bad.push({ x: p.x, y: p.y }); fails.push(`region ${p.region}${p.name ? ' (' + p.name + ')' : ''} ${p.colour}: a visible piece too small for its number (r ${p.r.toFixed(1)} < ${MIN_R_COMPACT}, area ${p.area.toFixed(0)})`);
   }
   art.regions.forEach((r, i) => { if (!visibleRegions.has(i)) fails.push(`region ${i}${r.name ? ' (' + r.name + ')' : ''}: not visible at all (hidden by later parts)`); });
   const k = Object.keys(num).length;
@@ -222,4 +227,4 @@ async function checkSolid(page, art, S = 2) {
   return fails;
 }
 
-module.exports = { PALETTE, INK, MIN_R, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate, checkSolid };
+module.exports = { PALETTE, INK, MIN_R, MIN_R_COMPACT, LEVEL_CAPS, toSvg, labelArt, numbering, labelsAndGate, checkSolid };

@@ -144,6 +144,22 @@ function contours(inside, x0, y0, x1, y1) {
 }
 
 /** a mask (boolean fn over pixels) → evenodd path in picture units */
+/** the exact outline of a THIN piece (a strip a few px wide): one rectangle per run of pixels per row, no smoothing —
+ *  a traced + smoothed path collapses a strip to nothing, which left it white on every key (2026-10-05) */
+function runPath(inside, bbox, unit) {
+  const [X0, Y0, X1, Y1] = bbox; let d = '';
+  const f = (v) => +(v / unit).toFixed(2);
+  for (let y = Y0; y <= Y1; y++) {
+    let x = X0;
+    while (x <= X1) {
+      if (!inside(x, y)) { x++; continue; }
+      const s = x; while (x <= X1 && inside(x, y)) x++;
+      d += `M${f(s - 0.5)} ${f(y - 0.5)}H${f(x + 0.5)}V${f(y + 1.5)}H${f(s - 0.5)}Z`;
+    }
+  }
+  return d;
+}
+
 function maskPath(inside, bbox, unit, eps) {
   const [x0, y0, x1, y1] = bbox;
   const rings = contours(inside, x0, y0, x1, y1).map((r) => rdp(r, eps)).filter((r) => r.length >= 3);
@@ -186,6 +202,7 @@ function segmentInk(ink, W, H, opts = {}) {
   const rmax = new Float32Array(comps.length + 1), rat = new Int32Array(comps.length + 1);
   for (let i = 0; i < W * H; i++) { const l = lab[i]; if (l && dt[i] > rmax[l]) { rmax[l] = dt[i]; rat[l] = i; } }
   const regions = [];
+  const owned = new Uint8Array(W * H);   // every pixel some region claims (grown) — what is left is an orphan sliver
   for (const c of comps) {
     // the part grown back over the closing ring and a little under the ink, never into another part's pixels
     const [bx0, by0, bx1, by1] = c.bbox;
@@ -199,8 +216,26 @@ function segmentInk(ink, W, H, opts = {}) {
       if (l && l !== c.label) grown[(y - Y0) * bw + (x - X0)] = 0;    // another part's pixel
     }
     const inside = (x, y) => x >= X0 && y >= Y0 && x <= X1 && y <= Y1 && grown[(y - Y0) * bw + (x - X0)] === 1;
+    for (let y = Y0; y <= Y1; y++) for (let x = X0; x <= X1; x++) if (grown[(y - Y0) * bw + (x - X0)]) owned[y * W + x] = 1;
     regions.push({ d: maskPath(inside, [X0, Y0, X1, Y1], unit, eps), area: c.area / (unit * unit), cx: c.cx / unit, cy: c.cy / unit,
       bbox: c.bbox.map((v) => v / unit), outside: c.edge, label: c.label, r: (rmax[c.label] / 3 + close) / unit, px: (rat[c.label] % W) / unit, py: ((rat[c.label] / W) | 0) / unit });
+  }
+  // ORPHAN SLIVERS (2026-10-05): the gap-closing dilation erases any paper strip narrower than ~2×close (a leaf vein, a
+  // stem, the gap between two near lines) from the labelling, so no region owns it and it stayed white on every key.
+  // Every unclaimed paper pixel group becomes its own small region (labelled into `lab`, so neighbours can be probed).
+  // components() labels the pixels that are NOT blocked: block everything but the orphan pixels
+  const notOrphan = new Uint8Array(W * H).fill(1);
+  if (opts.orphans !== false) for (let i = 0; i < W * H; i++) if (!ink[i] && !owned[i]) notOrphan[i] = 0;
+  const oc = components(notOrphan, W, H);
+  let next = comps.reduce((m, c) => Math.max(m, c.label), 0) + 1;
+  for (const c of oc.comps) {
+    if (c.area < (opts.orphanMin || 6) || c.edge) continue;
+    const L0 = next++;
+    const [X0, Y0, X1, Y1] = c.bbox; let px = 0, py = 0;
+    for (let y = Y0; y <= Y1; y++) for (let x = X0; x <= X1; x++) { const i = y * W + x; if (oc.lab[i] === c.label) { lab[i] = L0; px = x; py = y; } }
+    const inside = (x, y) => x >= X0 && y >= Y0 && x <= X1 && y <= Y1 && lab[y * W + x] === L0;
+    regions.push({ d: runPath(inside, [X0, Y0, X1, Y1], unit), area: c.area / (unit * unit), cx: c.cx / unit, cy: c.cy / unit,
+      bbox: c.bbox.map((v) => v / unit), outside: false, label: L0, r: 1, px: px / unit, py: py / unit, orphan: true });
   }
   const inkD = maskPath((x, y) => x >= 0 && y >= 0 && x < W && y < H && ink[y * W + x] === 1, [0, 0, W - 1, H - 1], unit, Math.min(eps, 0.6));
   return { regions, ink: inkD, W: W / unit, H: H / unit, lab, PW: W };
@@ -305,7 +340,7 @@ async function compose(spec) {
  * the small pieces become one part big enough for its number; outlines against a big part or the paper stay.
  */
 function mergeSmallParts(pin, W, H, minR = 9) {
-  const seg = segmentInk(pin, W, H, { unit: UNIT, close: 1 });
+  const seg = segmentInk(pin, W, H, { unit: UNIT, close: 1, orphans: false });
   const small = new Set(seg.regions.filter((r) => !r.outside && r.r < minR && r.area * UNIT * UNIT > 30).map((r) => r.label));
   const R = 6;
   const out = pin.slice();

@@ -64,7 +64,7 @@ const SCENES = [
   S('pond-duck', 'Duck on the Pond', 'pond', 'farm bw/duck_2'),
   S('pond-frog', 'Frog at the Pond', 'pond', 'animals bw/frog'),
   S('pond-flamingo', 'Flamingo at the Pond', 'pond', 'birds bw 2/flamingo', { hero: { h: 280 } }),
-  S('pond-turtle', 'Turtle at the Pond', 'pond', 'animals bw 5/turtle', { hero: { y: 548 } }),
+  S('pond-turtle', 'Turtle at the Pond', 'pond', 'animals bw 5/turtle', { hero: { x: 220, y: 548, h: 170 } }),
   S('pond-goose', 'Goose at the Pond', 'pond', 'birds bw 2/goose'),
   S('pond-otter', 'Otter at the Pond', 'pond', 'animals bw/otter'),
   S('pond-alligator', 'Alligator at the Pond', 'pond', 'animals bw 3/alligator', { hero: { y: 548 } }),

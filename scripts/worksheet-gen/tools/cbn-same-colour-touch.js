@@ -18,9 +18,9 @@ const R = require('../lib/cbn-render.js');
       const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const cx = cv.getContext('2d'); cx.fillStyle = '#000'; cx.fillRect(0, 0, W, H); cx.drawImage(img, 0, 0);
       const px = cx.getImageData(0, 0, W, H).data; const lab = new Int32Array(W * H).fill(-1);
       for (let i = 0; i < W * H; i++) { const r = px[i * 4], g = px[i * 4 + 1], bb = px[i * 4 + 2]; if ((r & 15) !== 8 || (g & 15) !== 8 || (bb & 15) !== 8) continue; const id = ((r >> 4) << 8) + ((g >> 4) << 4) + (bb >> 4) - 1; if (id >= 0 && id < n) lab[i] = id; }
-      // two regions "touch" when they are within 6 px across an outline (outline ~6.4 px at S=2)
+      // two regions "touch" when they are within 20 px across an outline (line art: 7-unit stroke = 14 px at S=2)
       const cnt = {};
-      for (let y = 0; y < H; y++) for (let x = 0; x + 8 < W; x++) { const a = lab[y * W + x]; if (a < 0) continue; for (const [dx, dy] of [[8, 0], [0, 8]]) { if (y + dy >= H) continue; const c = lab[(y + dy) * W + x + dx]; if (c >= 0 && c !== a) { const k = a < c ? a + ',' + c : c + ',' + a; cnt[k] = (cnt[k] || 0) + 1; } } }
+      for (let y = 0; y < H; y++) for (let x = 0; x + 20 < W; x++) { const a = lab[y * W + x]; if (a < 0) continue; for (const [dx, dy] of [[20, 0], [0, 20]]) { if (y + dy >= H) continue; const c = lab[(y + dy) * W + x + dx]; if (c >= 0 && c !== a) { const k = a < c ? a + ',' + c : c + ',' + a; cnt[k] = (cnt[k] || 0) + 1; } } }
       return cnt;
     }, { svg, W: art.w * S, H: art.h * S, n: art.regions.length });
     const regs = art.regions;

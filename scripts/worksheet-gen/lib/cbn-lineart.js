@@ -259,6 +259,8 @@ function silhouette(ink, W, H, close = 2) {
 async function compose(spec) {
   const sharp = require('sharp');
   const ink = new Uint8Array(CW * CH);
+  const owner = new Int16Array(CW * CH).fill(-1);   // which item covers each pixel (the last drawn)
+  let idx = -1;
   const T = spec.stroke || 0;
   if (spec.lines && spec.lines.length) {
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${CW}" height="${CH}" viewBox="0 0 600 560">${spec.lines.map((l) => `<path d="${l.d}" fill="none" stroke="#000" stroke-width="${((l.w || T || 8) / UNIT).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round"/>`).join('')}</svg>`;
@@ -266,18 +268,22 @@ async function compose(spec) {
     for (let i = 0; i < CW * CH; i++) if (data[i * 4 + 3] > 110) ink[i] = 1;
   }
   for (let it of spec.items || []) {
+    idx++;
     const file = require('path').join(LIB, it.src + '@3x.webp');
     // trim to the ink box, then size it
     const trimmed = await sharp(file).trim({ threshold: 10 }).toBuffer({ resolveWithObject: true });
     const tw = trimmed.info.width, th = trimmed.info.height;
     // fit: the ink box fills a box (w × h picture units), centred on (x, y) (default the picture's centre)
     if (it.fit) { const fw = it.fit[0], fh = it.fit[1], h = Math.min(fh, fw * th / tw); it = { ...it, h, x: it.x || 300, y: it.bottom != null ? it.bottom : (it.y || 280) + h / 2 }; }   // bottom: stands on that line
-    const hp = Math.round(it.h * UNIT), wp = Math.max(1, Math.round(hp * tw / th));
+    let hp = Math.round(it.h * UNIT), wp = Math.max(1, Math.round(hp * tw / th * (it.sx || 1)));   // sx: wider (a fuller tree, a thicker trunk)
+    const maxW = (it.maxW || 560) * UNIT;   // a wide drawing (a whale, a train) is sized by its width instead
+    if (wp > maxW) { hp = Math.round(hp * maxW / wp); wp = maxW; }
     let img = sharp(trimmed.data).resize(wp, hp, { fit: 'fill' });
     if (it.flip) img = img.flop();
     const { data, info } = await img.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     let pin = inkMask(data, info.width, info.height);
     if (T) { const w = strokeWidth(pin, info.width, info.height); const k = Math.round((T - w) / 2); if (k > 0) pin = dilate(pin, info.width, info.height, k); }
+    if (it.mergeSmall) pin = mergeSmallParts(pin, info.width, info.height, it.mergeSmall === true ? 9 : it.mergeSmall);
     const body = it.noOcclude ? pin : silhouette(pin, info.width, info.height);
     const cx = Math.round(it.x * UNIT - info.width / 2);
     const cy = it.anchor === 'c' ? Math.round(it.y * UNIT - info.height / 2) : Math.round(it.y * UNIT - info.height);
@@ -286,11 +292,39 @@ async function compose(spec) {
       for (let x = 0; x < info.width; x++) {
         const X = cx + x; if (X < 0 || X >= CW) continue;
         const s = y * info.width + x;
-        if (body[s]) ink[Y * CW + X] = pin[s];
+        if (body[s]) { ink[Y * CW + X] = pin[s]; owner[Y * CW + X] = idx; }
       }
     }
   }
+  ink.owner = owner;
   return ink;
+}
+
+/**
+ * detail lines that only separate SMALL parts (bark lines across a trunk, the strips of a palm trunk) are erased, so
+ * the small pieces become one part big enough for its number; outlines against a big part or the paper stay.
+ */
+function mergeSmallParts(pin, W, H, minR = 9) {
+  const seg = segmentInk(pin, W, H, { unit: UNIT, close: 1 });
+  const small = new Set(seg.regions.filter((r) => !r.outside && r.r < minR && r.area * UNIT * UNIT > 30).map((r) => r.label));
+  const R = 6;
+  const out = pin.slice();
+  // loose detail strokes (bark dashes) floating inside a part go too: they eat the room for the number
+  const notInk = new Uint8Array(W * H); for (let i = 0; i < W * H; i++) notInk[i] = pin[i] ? 0 : 1;
+  const ic = components(notInk, W, H);
+  const loose = new Set(ic.comps.filter((c) => c.area < 900).map((c) => c.label));
+  for (let i = 0; i < W * H; i++) if (pin[i] && loose.has(ic.lab[i])) out[i] = 0;
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+    const i = y * W + x; if (!pin[i]) continue;
+    let a = 0, b = 0, bad = false;
+    for (let dy = -R; dy <= R && !bad; dy++) { const Y = y + dy; if (Y < 0 || Y >= H) { bad = true; break; }
+      for (let dx = -R; dx <= R; dx++) { const X = x + dx; if (X < 0 || X >= W) { bad = true; break; }
+        const l = seg.lab[Y * W + X]; if (!l) continue;
+        if (!small.has(l)) { bad = true; break; }
+        if (!a) a = l; else if (l !== a) b = l; } }
+    if (!bad && a && b) out[i] = 0;
+  }
+  return out;
 }
 
 module.exports.compose = compose;

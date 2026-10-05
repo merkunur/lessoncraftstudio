@@ -6,7 +6,7 @@
 const P = require('../../primitives/cbn-art/parts.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
 const R = require('../../primitives/cbn-art/parts3.js');
-const { blob, rrect } = require('../../primitives/cbn-art/core.js');
+const { blob, rrect, ellipse } = require('../../primitives/cbn-art/core.js');
 
 const W = 600, H = 560;
 const mound = (a, x, y, w, c = 'green', h = 34) => a.group('mound', () => a.region(blob([[x - w, y + h * 0.5], [x - w * 0.7, y - h * 0.5], [x, y - h * 0.8], [x + w * 0.7, y - h * 0.5], [x + w, y + h * 0.5], [x, y + h * 0.9]], 1), c, 'grass'));
@@ -33,8 +33,10 @@ const B2 = [
     } },
   { id: 'hen-nest', kind: 'picture', level: 1, names: { en: 'Hen on Her Nest' },
     draw(a) {
-      a.group('nest', () => { a.region(blob([[110, 440], [170, 400], [430, 400], [490, 440], [430, 500], [170, 500]], 1), 'brown', 'nest'); a.line('M160 440q40 14 80 0M260 452q40 14 80 0M360 440q40 14 80 0', 2.6); });
-      a.at({ x: 300, y: 300, s: 1.45 }, (b) => R.hen(b, 'none', 'red', 'orange'));
+      // the hen SITS IN a bowl-shaped straw nest (drawn over her lower body), with two eggs peeking out
+      a.at({ x: 300, y: 320, s: 1.45 }, (b) => R.hen(b, 'none', 'red', 'orange'));
+      a.group('eggs', () => { a.region(ellipse(156, 392, 26, 32), 'lightblue', 'egg'); a.region(ellipse(196, 396, 26, 32), 'lightblue', 'egg'); });
+      a.group('nest', () => { a.region('M100 400Q300 430 500 400Q490 500 300 506Q110 500 100 400Z', 'yellow', 'nest'); a.line('M160 446q40 14 80 0M260 458q40 14 80 0M360 446q40 14 80 0', 2.6); });
     } },
   { id: 'goldfish-bowl', kind: 'picture', level: 2, names: { en: 'Goldfish Bowl' },
     draw(a) {
@@ -93,8 +95,8 @@ const B2 = [
       a.at({ x: 548, y: 210, s: 0.75 }, (b) => P.sun(b));   // clear of the flags
       a.at({ x: 120, y: 70, s: 0.7 }, (b) => P.cloud(b));
       a.at({ x: 300, y: 290, s: 1.08 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));
-      a.at({ x: 70, y: 492, s: 0.72 }, (b) => P.tree(b, 'lightgreen'));
-      a.at({ x: 530, y: 496, s: 0.72 }, (b) => P.tree(b, 'lightgreen'));
+      a.at({ x: 76, y: 440, s: 0.62 }, (b) => P.tree(b, 'green'));   // whole trees on the hill (the bottom edge cut them)
+      a.at({ x: 524, y: 444, s: 0.62 }, (b) => P.tree(b, 'green'));
     } },
   { id: 'train-hills', kind: 'scene', level: 3, names: { en: 'Train in the Hills' },
     draw(a) {

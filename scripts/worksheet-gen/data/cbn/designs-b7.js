@@ -91,7 +91,7 @@ const B7 = [
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.6}H${W}V${H}H0Z`, 'blue', 'lake');
-      a.at({ x: 490, y: 90, s: 0.85 }, (b) => P.sun(b, 'orange'));
+      a.at({ x: 90, y: 90, s: 0.85 }, (b) => P.sun(b, 'orange'));   // away from the beak
       // the flamingo WADES: its legs go down into the water (standing on the horizon it hung in the air)
       a.at({ x: 230, y: 290, s: 1.3 }, (b) => W8.flamingo(b, 'pink', 'orange', 'black'));
       a.at({ x: 100, y: 470, s: 0.8 }, (b) => P.lilyPad(b, 'green', 40));

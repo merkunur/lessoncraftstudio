@@ -223,10 +223,13 @@ function snowman(a, snow = 'none', hat = 'black', scarf = 'red', nose = 'orange'
   a.region(poly([[-8, -110], [52, -96], [-8, -82]], 5), nose, 'carrot nose');
   [[-18, -80], [-8, -76], [4, -76], [14, -80]].forEach(([x, y]) => a.ink(circle(x, y, 3)));
 }
-function kite(a, c1 = 'red', c2 = 'yellow', bow = 'blue') {
-  a.line(curve([[0, 60], [0, 110], [24, 140], [-6, 176], [10, 204]]), 3);   // starts inside the kite: tied on, not touching a tip
+function kite(a, c1 = 'red', c2 = 'yellow', bow = 'blue', string = true) {
+  // the STRING (to the child holding it, off the picture) and a TAIL with bows spaced along it
+  if (string === 'short') a.line(curve([[0, 0], [-50, 160], [-120, 300], [-140, 340]]), 2.6);   // ends on the ground in a scene
+  else if (string) a.line(curve([[0, 0], [-60, 160], [-150, 330], [-260, 560]]), 2.6);
+  a.line(curve([[0, 60], [0, 110], [24, 150], [-6, 200], [14, 250]]), 3);   // starts inside the kite: tied on, not touching a tip
   // each bow is ONE piece (two triangles meeting at a point would be the tangent-joint mistake)
-  [[20, 140], [-4, 180]].forEach(([x, y]) => a.region(poly([[x - 30, y - 18], [x, y - 7], [x + 30, y - 18], [x + 30, y + 18], [x, y + 7], [x - 30, y + 18]], 5), bow, 'bow'));
+  [[18, 146], [-2, 216]].forEach(([x, y]) => a.region(poly([[x - 30, y - 18], [x, y - 7], [x + 30, y - 18], [x + 30, y + 18], [x, y + 7], [x - 30, y + 18]], 5), bow, 'bow'));
   a.region(poly([[0, -110], [0, 0], [-80, 0]], 6), c1, 'kite'); a.region(poly([[0, -110], [80, 0], [0, 0]], 6), c2, 'kite');
   a.region(poly([[-80, 0], [0, 0], [0, 110]], 6), c2, 'kite'); a.region(poly([[0, 0], [80, 0], [0, 110]], 6), c1, 'kite');
 }

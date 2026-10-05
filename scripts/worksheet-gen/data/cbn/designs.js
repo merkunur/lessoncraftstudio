@@ -25,7 +25,6 @@ const DESIGNS = [
       P.meadow(a, W, H, { horizon: 0.34 });
       a.at({ x: 500, y: 86 }, (b) => P.sun(b));
       a.at({ x: 170, y: 80, s: 0.85 }, (b) => P.cloud(b));
-      a.at({ x: 568, y: 240, s: 0.9 }, (b) => P.tree(b));
       a.at({ x: 14, y: 300, s: 0.95 }, (b) => P.fence(b, 3, 'brown', 62));
       a.at({ x: 312, y: 420, s: 1.35 }, (b) => P.cow(b));
       [[70, 520], [520, 500], [420, 540]].forEach(([x, y]) => P.grassTuft(a, x, y));

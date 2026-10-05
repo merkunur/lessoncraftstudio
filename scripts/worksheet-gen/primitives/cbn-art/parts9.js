@@ -43,7 +43,7 @@ function acornAt(a, x, y, c) {
 function acorn(a, nut = 'orange', cap = 'brown') {
   a.line('M0 -80Q8 -100 20 -104', 6);
   // a pointed nut under a scaly cap (a round nut under a smooth cap read as a mushroom)
-  a.region(blob([[-72, -20], [72, -20], [66, 50], [24, 100], [0, 124], [-24, 100], [-66, 50]], 1), nut, 'acorn');
+  a.region(blob([[-62, -24], [62, -24], [78, 30], [60, 82], [18, 112], [0, 122], [-18, 112], [-60, 82], [-78, 30]], 1), nut, 'acorn');   // an egg-shaped nut under a wider cap (a narrow point read as a cone, a flat top as a pot)
   a.region('M-86 -10Q-90 -96 0 -96Q90 -96 86 -10Q0 6 -86 -10Z', cap, 'acorn cap');
   a.line('M-60 -50q14 10 28 0M-14 -56q14 10 28 0M32 -50q14 10 28 0M-40 -26q14 10 28 0M12 -26q14 10 28 0', 2.4);
   face(a, 0, 34, 1.3, 34);

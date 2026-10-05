@@ -39,8 +39,10 @@ const B5 = [
     draw(a) { a.at({ x: 300, y: 230, s: 1.6 }, (b) => U.watermelon(b, 'red', 'green', 'lightgreen')); } },
   { id: 'polar-bear', kind: 'picture', level: 1, names: { en: 'Polar Bear' },
     draw(a) {
-      a.group('ice', () => a.region(blob([[60, 480], [100, 430], [300, 420], [500, 430], [540, 480], [300, 510]], 1), 'lightblue', 'ice'));
-      a.at({ x: 270, y: 350, s: 1.4 }, (b) => U.polarBear(b, 'none', 'black'));
+      // the bear stands on an ice floe floating in the water (water behind, floe on top)
+      a.group('water', () => a.region('M20 450Q300 420 580 450V524Q300 544 20 524Z', 'blue', 'water'));
+      a.group('ice', () => a.region(blob([[80, 470], [120, 436], [300, 428], [480, 436], [520, 470], [300, 496]], 1), 'lightblue', 'ice'));
+      a.at({ x: 270, y: 350, s: 1.4 }, (b) => U.polarBear(b, 'none', 'black', 'red'));
       a.at({ x: 500, y: 110, s: 0.9 }, (b) => P.sun(b));
     } },
   { id: 'hedgehog', kind: 'picture', level: 2, names: { en: 'Hedgehog' },
@@ -52,16 +54,19 @@ const B5 = [
   { id: 'rain-boots', kind: 'picture', level: 2, names: { en: 'Rain Boots' },
     draw(a) {
       a.at({ x: 250, y: 340, s: 1.35 }, (b) => U.boots(b, 'yellow', 'brown'));
-      a.at({ x: 440, y: 160, s: 0.75 }, (b) => Q.umbrella(b, 'blue', 'pink', 'brown'));
+      // the umbrella LEANS on the ground beside the boots (it hung in mid-air)
+      a.at({ x: 466, y: 330, s: 0.7, r: 24 }, (b) => Q.umbrella(b, 'blue', 'pink', 'brown'));
       a.group('puddle', () => a.region(ellipse(300, 490, 240, 30), 'lightblue', 'puddle'));
     } },
 
   /* ------------------------------------------------------------ scenes */
-  { id: 'caterpillar-leaf', kind: 'scene', level: 1, names: { en: 'Hungry Caterpillar' },
+  { id: 'caterpillar-leaf', kind: 'scene', level: 2, names: { en: 'Hungry Caterpillar' },
     draw(a) {
-      skyGrass(a, 0.7);
+      skyGrass(a, 0.7, 'lightblue', 'lightgreen');
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
-      a.at({ x: 300, y: 380, s: 1.3 }, (b) => U.caterpillar(b, ['green', 'yellow'], 'red', 'brown'));
+      // it crawls along a BIG leaf (the name promises one)
+      a.group('leaf', () => { a.region('M20 460Q250 290 580 400Q330 560 20 460Z', 'green', 'leaf'); a.line('M60 456Q300 420 540 404', 3); });
+      a.at({ x: 300, y: 350, s: 1.15 }, (b) => U.caterpillar(b, ['yellow', 'orange'], 'red', 'brown'));
     } },
   { id: 'igloo', kind: 'scene', level: 1, names: { en: 'Igloo' },
     draw(a) {
@@ -83,7 +88,7 @@ const B5 = [
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.62}H${W}V${H}H0Z`, 'blue', 'sea');
       a.group('ice', () => a.region('M-10 400Q120 360 300 368Q480 360 610 400V560H-10Z', 'none', 'ice'), { edgeOk: true });
-      a.at({ x: 270, y: 330, s: 1.2 }, (b) => U.polarBear(b, 'none', 'black'));
+      a.at({ x: 250, y: 330, s: 1.2 }, (b) => U.polarBear(b, 'none', 'black', 'red'));
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
     } },
   { id: 'windmill-hill', kind: 'scene', level: 2, names: { en: 'Windmill on the Hill' },

@@ -20,21 +20,21 @@ const plate = (a, x, y, w, c) => a.group('plate', () => a.region(ellipse(x, y, w
 const B6 = [
   /* ------------------------------------------------------------ pictures */
   { id: 'cherries', kind: 'picture', level: 1, names: { en: 'Cherries' },
-    draw(a) { plate(a, 300, 450, 190, 'lightblue'); a.at({ x: 300, y: 300, s: 1.6 }, (b) => V.cherries(b, 'red', 'green')); } },
+    draw(a) { plate(a, 300, 450, 190, 'lightblue'); a.at({ x: 300, y: 280, s: 1.6 }, (b) => V.cherries(b, 'red', 'green')); } },
   { id: 'happy-carrot', kind: 'picture', level: 1, names: { en: 'Happy Carrot' },
     draw(a) { a.at({ x: 300, y: 300, s: 1.35 }, (b) => V.carrot(b, 'orange', 'green')); mound(a, 300, 480, 200, 'brown', 40); } },   // planted: the soil in front of the root
   { id: 'rainbow', kind: 'picture', level: 1, names: { en: 'Rainbow' },
     draw(a) {
       a.at({ x: 300, y: 380, s: 1.62 }, (b) => P.rainbow(b, ['red', 'orange', 'yellow', 'green', 'blue']));
-      a.at({ x: 104, y: 380, s: 0.88 }, (b) => P.cloud(b)); a.at({ x: 496, y: 380, s: 0.88 }, (b) => P.cloud(b));
+      a.at({ x: 116, y: 380, s: 0.96 }, (b) => P.cloud(b)); a.at({ x: 484, y: 380, s: 0.96 }, (b) => P.cloud(b));   // the clouds hide every band's end
     } },
   { id: 'backpack', kind: 'picture', level: 1, names: { en: 'School Backpack' },
     draw(a) { a.at({ x: 300, y: 300, s: 1.25 }, (b) => V.backpack(b, 'blue', 'red', 'yellow', 'grey')); } },
   { id: 'doghouse', kind: 'picture', level: 2, names: { en: 'Doghouse' },
     draw(a) {
       mound(a, 300, 480, 270);
-      a.at({ x: 196, y: 352, s: 1.1 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));
-      a.at({ x: 462, y: 344, s: 1.2 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'blue'));
+      a.at({ x: 196, y: 335, s: 1.25 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));   // a house the dog fits in
+      a.at({ x: 466, y: 368, s: 1.0 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'blue'));
     } },
   { id: 'cocoa-mug', kind: 'picture', level: 2, names: { en: 'Mug of Cocoa' },
     draw(a) {
@@ -55,7 +55,7 @@ const B6 = [
   { id: 'ice-cream-sundae', kind: 'picture', level: 3, names: { en: 'Ice Cream Sundae' },
     draw(a) {
       a.group('cloth', () => a.region(rrect(90, 470, 420, 34, 10), 'blue', 'tablecloth'));
-      a.at({ x: 300, y: 330, s: 1.3 }, (b) => V.sundae(b, 'none', 'pink', 'yellow', 'brown', 'none', 'red', 'orange'));
+      a.at({ x: 300, y: 304, s: 1.3 }, (b) => V.sundae(b, 'none', 'pink', 'yellow', 'brown', 'none', 'red', 'orange'));
     } },
   { id: 'party-balloons', kind: 'picture', level: 3, names: { en: 'Party Balloons' },
     draw(a) { a.at({ x: 300, y: 330, s: 1.25 }, (b) => U.balloonBunch(b, ['red', 'yellow', 'blue', 'green', 'purple'], 'pink')); } },
@@ -79,8 +79,8 @@ const B6 = [
     draw(a) {
       skyGrass(a, 0.56);
       a.at({ x: 500, y: 80, s: 0.8 }, (b) => P.sun(b));
-      a.at({ x: 160, y: 286, s: 1.05 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));
-      a.at({ x: 440, y: 350, s: 1.22 }, (b) => Q.dog(b, 'yellow', 'brown', 'brown', 'blue'));
+      a.at({ x: 184, y: 263, s: 1.18 }, (b) => V.doghouse(b, 'red', 'brown', 'black', 'yellow'));
+      a.at({ x: 448, y: 372, s: 1.08 }, (b) => Q.dog(b, 'yellow', 'brown', 'none', 'blue'));
     } },
   { id: 'bear-picnic', kind: 'scene', level: 2, names: { en: 'Bear Picnic' },
     draw(a) {

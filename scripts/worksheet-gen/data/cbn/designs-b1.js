@@ -32,7 +32,7 @@ const B1 = [
     } },
   { id: 'happy-frog', kind: 'picture', level: 1, names: { en: 'Happy Frog' },
     draw(a) {
-      a.at({ x: 300, y: 470, s: 1.25 }, (b) => P.lilyPad(b, 'green', 70));
+      a.at({ x: 300, y: 474, s: 1.25 }, (b) => P.lilyPad(b, 'green', 96));   // wide enough for the frog to sit on
       a.at({ x: 300, y: 290, s: 1.6 }, (b) => Q.frog(b, 'lightgreen', 'yellow'));
     } },
   { id: 'busy-bee', kind: 'picture', level: 2, names: { en: 'Busy Bee' },

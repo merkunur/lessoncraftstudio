@@ -90,7 +90,7 @@ function ufo(a, saucer = 'purple', dome = 'lightblue', alien = 'green', lights =
   eye(a, -12, -72, 1.1); eye(a, 12, -72, 1.1); smile(a, 0, -56, 8, 4);
   a.region(ellipse(0, 0, 160, 46), saucer, 'saucer');
   a.region(ellipse(0, 26, 90, 22), base, 'saucer base');
-  [-110, -56, 0, 56, 110].forEach((x) => a.region(circle(x, 0, 14), lights, 'light'));
+  [-110, -56, 0, 56, 110].forEach((x) => a.region(circle(x, -8, 14), lights, 'light'));   // clear of the base
 }
 function tent(a, cloth = 'orange', door = 'yellow', flag = 'red') {
   a.line('M0 -150V-200', 4); a.region(poly([[2, -204], [48, -190], [2, -174]], 4), flag, 'flag');

@@ -57,7 +57,7 @@ function sundae(a, glass = 'none', s1 = 'pink', s2 = 'yellow', s3 = 'brown', cre
 function mug(a, cup = 'red', drink = 'brown', cream = 'none', dots = 'yellow') {
   a.region('M90 -30C150 -30 150 60 90 60L90 38C122 38 122 -8 90 -8Z', cup, 'handle');
   a.region(rrect(-100, -60, 200, 170, 26), cup, 'mug');
-  a.region(ellipse(0, -60, 100, 22), drink, 'cocoa');
+  a.region(ellipse(0, -60, 88, 20), drink, 'cocoa');   // inside the rim
   a.region(bumpsCream(), cream, 'cream');
   [[-50, 20], [0, 60], [50, 20]].forEach(([x, y]) => a.region(circle(x, y, 16), dots, 'dot'));
   a.line('M-40 -110q-12 -24 0 -44M0 -120q-12 -24 0 -44M40 -110q-12 -24 0 -44', 3);

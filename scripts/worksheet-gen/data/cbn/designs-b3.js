@@ -57,8 +57,8 @@ const B3 = [
     } },
   { id: 'pineapple', kind: 'picture', level: 1, names: { en: 'Pineapple' },
     draw(a) {
-      a.group('plate', () => a.region(ellipse(300, 470, 150, 28), 'blue', 'plate'));
-      a.at({ x: 300, y: 330, s: 1.25 }, (b) => S.pineapple(b, 'yellow', 'green'));
+      a.group('plate', () => a.region(ellipse(300, 470, 160, 34), 'blue', 'plate'));
+      a.at({ x: 300, y: 310, s: 1.25 }, (b) => S.pineapple(b, 'yellow', 'green'));
     } },
   { id: 'gift-box', kind: 'picture', level: 1, names: { en: 'Present' },
     draw(a) { a.at({ x: 300, y: 330, s: 1.5 }, (b) => S.giftBox(b, 'blue', 'red', 'purple')); } },
@@ -74,7 +74,7 @@ const B3 = [
     } },
   { id: 'monkey-banana', kind: 'picture', level: 2, names: { en: 'Monkey with a Banana' },
     draw(a) {
-      mound(a, 300, 486, 240);
+      mound(a, 300, 486, 240, 'lightgreen');
       a.at({ x: 100, y: 420, s: 0.95 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
       a.at({ x: 290, y: 320, s: 1.4 }, (b) => S.monkey(b, 'brown', 'orange', 'yellow'));
     } },
@@ -170,10 +170,10 @@ const B3 = [
   { id: 'jungle-friends', kind: 'scene', level: 3, names: { en: 'Jungle Friends' },
     draw(a) {
       skyGrass(a, 0.66, 'lightblue', 'green');
-      a.at({ x: 452, y: 214, s: 0.95 }, (b) => R.palmTree(b, 'green', 'brown', 'brown'));
+      a.at({ x: 444, y: 230, s: 0.84 }, (b) => R.palmTree(b, 'green', 'brown', 'brown'));
       a.at({ x: 90, y: 440, s: 0.9 }, (b) => P.bush(b, 'lightgreen'));
       a.at({ x: 240, y: 400, s: 1.22 }, (b) => S.monkey(b, 'brown', 'orange', 'yellow'));
-      a.at({ x: 120, y: 160, s: 0.78 }, (b) => P.butterfly(b, 'purple', 'yellow', 'red'));   // a perching parrot would float in the air here
+      a.at({ x: 120, y: 160, s: 0.72 }, (b) => P.butterfly(b, 'purple', 'yellow', 'red'));   // a perching parrot would float in the air here
     } },
 ];
 

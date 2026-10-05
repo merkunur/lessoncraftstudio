@@ -139,7 +139,7 @@ function penguin(a, body = 'black', front = 'none', beak = 'orange') {
   // a rounded heart-shaped face: the old mask dipped in a V over the eyes and made the penguin look angry — 2026-10-05
   a.region(blob([[-38, -30], [-40, -52], [-22, -64], [0, -54], [22, -64], [40, -52], [38, -30], [0, -16]], 1), front, 'face');
   eye(a, -18, -46, 1.15); eye(a, 18, -46, 1.15);
-  a.region(poly([[-21, -40], [21, -40], [0, -8]], 5), beak, 'beak');
+  a.region(poly([[-21, -32], [21, -32], [0, 2]], 5), beak, 'beak');   // under the eyes
 }
 function chick(a, fluff = 'yellow', beak = 'orange') {
   void 0; a.line('M-20 80V100M-32 104L-20 100L-10 104M20 80V100M10 104L20 100L32 104', 4);   // little legs: ink (too thin to number)
@@ -148,7 +148,7 @@ function chick(a, fluff = 'yellow', beak = 'orange') {
   a.region(circle(0, -50, 46), fluff, 'chick head');
   a.region(blob([[-12, -88], [-24, -126], [0, -110], [18, -130], [16, -88]], 1), fluff, 'tuft');
   eye(a, -16, -56, 1.15); eye(a, 16, -56, 1.15);
-  a.region(poly([[-26, -48], [26, -48], [0, -8]], 6), beak, 'beak');   // big enough to colour at a chick's small size
+  a.region(poly([[-25, -38], [25, -38], [0, 2]], 6), beak, 'beak');   // under the eyes   // big enough to colour at a chick's small size
 }
 function ladybird(a, shell = 'red', head = 'black') {
   a.line(curve([[-22, -60], [-34, -86], [-48, -92]]), 2.8); a.line(curve([[22, -60], [34, -86], [48, -92]]), 2.8);

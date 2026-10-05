@@ -18,7 +18,7 @@ const bubbles = (a, pts) => pts.forEach(([x, y]) => a.at({ x, y }, (b) => P.bubb
 const B7 = [
   /* ------------------------------------------------------------ pictures */
   { id: 'panda', kind: 'picture', level: 2, names: { en: 'Panda' },
-    draw(a) { mound(a, 300, 486, 240); a.at({ x: 500, y: 420, s: 0.9 }, (b) => P.flower(b, 'red', 'orange', 'green', 25)); a.at({ x: 500, y: 100, s: 0.8 }, (b) => P.sun(b)); a.at({ x: 270, y: 320, s: 1.5 }, (b) => W8.panda(b, 'none', 'black', 'green')); } },
+    draw(a) { mound(a, 300, 486, 240, 'lightgreen'); a.at({ x: 500, y: 420, s: 0.9 }, (b) => P.flower(b, 'red', 'orange', 'green', 25)); a.at({ x: 500, y: 100, s: 0.8 }, (b) => P.sun(b)); a.at({ x: 270, y: 320, s: 1.5 }, (b) => W8.panda(b, 'none', 'black', 'green')); } },
   { id: 'seahorse', kind: 'picture', level: 1, names: { en: 'Seahorse' },
     draw(a) {
       a.at({ x: 470, y: 520 }, (b) => P.seaweed(b, 'green', 200));
@@ -55,7 +55,7 @@ const B7 = [
     draw(a) {
       mound(a, 300, 486, 270);
       a.at({ x: 210, y: 380, s: 1.0 }, (b) => W8.tent(b, 'orange', 'yellow', 'red'));
-      a.at({ x: 462, y: 408, s: 0.8 }, (b) => W8.campfire(b, 'brown', 'red', 'orange', 'yellow', 'grey'));
+      a.at({ x: 484, y: 408, s: 0.8 }, (b) => W8.campfire(b, 'brown', 'red', 'orange', 'yellow', 'grey'));
     } },
   /* ------------------------------------------------------------ scenes */
   { id: 'panda-bamboo', kind: 'scene', level: 1, names: { en: 'Panda in the Forest' },
@@ -81,10 +81,10 @@ const B7 = [
   { id: 'koala-tree', kind: 'scene', level: 2, names: { en: 'Koala in the Tree' },
     draw(a) {
       skyGrass(a, 0.82);
-      a.group('tree', () => { a.region('M440 570L460 120L520 120L540 570Z', 'brown', 'trunk'); a.region('M300 140C300 60 420 30 520 60C610 80 620 160 600 200C560 240 340 240 300 140Z', 'green', 'leaves'); }, { edgeOk: true });
-      a.at({ x: 290, y: 196, s: 1.15 }, (b) => W8.koala(b, 'grey', 'pink', 'black'));
+      a.group('tree', () => { a.region('M440 570L460 120L520 120L540 570Z', 'brown', 'trunk'); a.region('M310 140C310 64 420 36 510 62C584 82 590 160 576 196C548 232 350 232 310 140Z', 'green', 'leaves'); }, { edgeOk: true });   // the crown whole inside the frame
+      a.at({ x: 290, y: 214, s: 1.15 }, (b) => W8.koala(b, 'grey', 'pink', 'black'));
       // the branch it SITS on, in front of its lap and joined to the trunk
-      a.group('branch', () => a.region('M150 326Q300 312 470 300L470 336Q300 348 150 360Z', 'brown', 'branch'));
+      a.group('branch', () => a.region('M150 344Q300 330 454 316L454 352Q300 366 150 378Z', 'brown', 'branch'));   // grows out of the trunk's side (it lay across its front)
       a.at({ x: 100, y: 90, s: 0.85 }, (b) => P.sun(b));
     } },
   { id: 'flamingo-lake', kind: 'scene', level: 2, names: { en: 'Flamingo at the Lake' },
@@ -111,17 +111,17 @@ const B7 = [
       skyGrass(a, 0.48);
       a.at({ x: 90, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.group('blanket', () => a.region('M40 470L150 320L560 340L500 520Z', 'red', 'blanket'));
-      a.at({ x: 300, y: 380, s: 0.85, r: -12 }, (b) => W8.pizza(b, 'orange', 'yellow', 'brown', 'green'));
+      a.at({ x: 314, y: 400, s: 0.8, r: -12 }, (b) => W8.pizza(b, 'orange', 'yellow', 'brown', 'green'));
       a.at({ x: 500, y: 230, s: 0.7 }, (b) => P.tree(b));
     } },
   { id: 'space-explorer', kind: 'scene', level: 3, names: { en: 'Space Explorer' },
     draw(a) {
       P.space(a, W, H, { sky: 'blue' });
       a.region(`M0 ${H * 0.78}C${W * 0.3} ${H * 0.72} ${W * 0.7} ${H * 0.76} ${W} ${H * 0.72}V${H}H0Z`, 'grey', 'moon ground');
-      a.at({ x: 480, y: 96, s: 1.05 }, (b) => P.planet(b, 'orange', 'pink'));
+      a.at({ x: 384, y: 84, s: 1.0 }, (b) => P.planet(b, 'orange', 'pink'));
       stars(a, [[80, 70], [230, 50], [60, 240], [560, 280]]);
       a.at({ x: 200, y: 290, s: 1.1 }, (b) => W8.astronaut(b, 'none', 'lightblue', 'red', 'purple', 'yellow'));
-      a.at({ x: 460, y: 296, s: 1.0 }, (b) => P.rocket(b, 'none', 'red', 'red', 'lightblue', 'orange', 'yellow'));
+      a.at({ x: 462, y: 278, s: 1.1 }, (b) => P.rocket(b, 'none', 'red', 'red', 'lightblue', 'orange', 'yellow'));
     } },
   { id: 'alien-visit', kind: 'scene', level: 3, names: { en: 'Alien Visit' },
     draw(a) {

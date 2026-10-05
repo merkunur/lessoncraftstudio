@@ -41,8 +41,8 @@ const B8 = [
   { id: 'beehive', kind: 'picture', level: 2, names: { en: 'Beehive' },
     draw(a) {
       a.group('tree branch', () => a.region('M-10 100Q300 80 610 110L610 140Q300 110 -10 132Z', 'brown', 'branch'), { edgeOk: true });
-      a.at({ x: 226, y: 280, s: 1.3 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));
-      a.at({ x: 464, y: 300, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
+      a.at({ x: 220, y: 312, s: 1.5 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));
+      a.at({ x: 470, y: 352, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'lightblue'));
     } },
   { id: 'dump-truck', kind: 'picture', level: 3, names: { en: 'Dump Truck' },
     draw(a) { a.group('road', () => a.region(rrect(20, 410, 560, 40, 10), 'grey', 'road')); a.at({ x: 300, y: 340, s: 1.4 }, (b) => X.dumpTruck(b, 'yellow', 'orange', 'brown', 'black', 'grey', 'lightblue')); } },
@@ -55,10 +55,10 @@ const B8 = [
   { id: 'bird-nest', kind: 'picture', level: 3, names: { en: 'Bird and Nest' },
     draw(a) {
       branchWithLeaves(a, 400);
-      a.group('nest', () => { a.region(blob([[110, 400], [150, 360], [290, 360], [330, 400], [280, 430], [160, 430]], 1), 'yellow', 'nest'); a.line('M150 392q30 10 60 0M220 396q30 10 60 0', 2.6); });
-      a.group('eggs', () => { a.region(ellipse(196, 362, 28, 34), 'lightblue', 'egg'); a.region(ellipse(240, 358, 28, 34), 'lightblue', 'egg'); });
+      a.group('eggs', () => { a.region(ellipse(196, 362, 28, 34), 'lightblue', 'egg'); a.region(ellipse(240, 358, 28, 34), 'lightblue', 'egg'); });   // IN the nest: its front hides their lower half
+      a.group('nest', () => { a.region(blob([[110, 400], [150, 366], [290, 366], [330, 400], [280, 430], [160, 430]], 1), 'yellow', 'nest'); a.line('M150 398q30 10 60 0M220 402q30 10 60 0', 2.6); });
       // the bird PERCHES on the branch beside its nest (above the nest it hovered)
-      a.at({ x: 460, y: 270, s: 1.15 }, (b) => X.bird(b, 'red', 'yellow', 'orange', 'orange'));
+      a.at({ x: 460, y: 286, s: 1.15 }, (b) => X.bird(b, 'red', 'yellow', 'orange', 'orange'));   // its feet on the branch
     } },
   { id: 'submarine-deep', kind: 'picture', level: 3, names: { en: 'Submarine Adventure' },
     draw(a) {
@@ -77,7 +77,7 @@ const B8 = [
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
       a.at({ x: 130, y: 110, s: 0.85 }, (b) => P.cloud(b)); a.at({ x: 450, y: 450, s: 0.95 }, (b) => P.cloud(b));
-      a.at({ x: 290, y: 290, s: 1.6 }, (b) => X.bird(b, 'red', 'yellow', 'orange', 'orange'));
+      a.at({ x: 290, y: 290, s: 1.6 }, (b) => X.bird(b, 'red', 'yellow', 'orange', 'orange', false));   // flying: legs tucked away
     } },
   { id: 'squirrel-tree', kind: 'scene', level: 2, names: { en: 'Squirrel and Tree' },
     draw(a) {
@@ -92,7 +92,7 @@ const B8 = [
       a.at({ x: 480, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 220, y: 230, s: 1.0 }, (b) => X.birdhouse(b, 'yellow', 'red', 'black', 'brown'));
       // the bird stands on the grass (beside the house it hovered in the air)
-      a.at({ x: 450, y: 390, s: 1.05 }, (b) => X.bird(b, 'blue', 'orange', 'lightblue', 'yellow'));
+      a.at({ x: 450, y: 412, s: 0.82 }, (b) => X.bird(b, 'blue', 'orange', 'lightblue', 'yellow'));   // smaller than its house
     } },
   { id: 'crocodile-river', kind: 'scene', level: 2, names: { en: 'Crocodile in the River' },
     draw(a) {
@@ -112,18 +112,18 @@ const B8 = [
     } },
   { id: 'bee-hive-tree', kind: 'scene', level: 2, names: { en: 'Bees at the Hive' },
     draw(a) {
-      skyGrass(a, 0.84);
+      skyGrass(a, 0.92);
       // a real tree: trunk, green crown, and a branch growing out of the trunk (a bare pole + plank looked like a signpost)
-      a.group('tree', () => { a.region('M70 570L90 200L150 200L170 570Z', 'brown', 'trunk'); a.region('M130 230Q300 196 470 180L470 210Q300 226 130 262Z', 'brown', 'branch'); a.region('M-10 40C60 0 220 20 240 110C250 190 160 230 -10 220Z', 'green', 'tree crown'); }, { edgeOk: true });
-      a.at({ x: 256, y: 366, s: 1.16 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));   // hangs from the tree's branch
-      a.at({ x: 462, y: 440, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));   // bee-sized beside the hive (it was as big as the hive)
+      a.group('tree', () => { a.region('M70 570L90 200L150 200L170 570Z', 'brown', 'trunk'); a.region('M146 228Q300 196 470 180L470 210Q300 226 146 258Z', 'brown', 'branch'); a.region('M16 52C70 8 220 20 240 110C250 190 160 228 16 214Q-4 130 16 52Z', 'green', 'tree crown'); }, { edgeOk: true });
+      a.at({ x: 262, y: 372, s: 1.0 }, (b) => X.beehive(b, 'yellow', 'brown', 'orange', false));   // hangs from the tree's branch
+      a.at({ x: 466, y: 352, s: 1.0 }, (b) => Q.bee(b, 'yellow', 'black', 'none'));   // bee-sized beside the hive (it was as big as the hive)
       a.at({ x: 500, y: 80, s: 0.75 }, (b) => P.sun(b));
     } },
   { id: 'construction', kind: 'scene', level: 3, names: { en: 'Dump Truck at Work' },
     draw(a) {
       skyGrass(a, 0.62, 'lightblue', 'yellow');
       a.at({ x: 90, y: 80, s: 0.8 }, (b) => P.sun(b));
-      a.at({ x: 512, y: 478, s: 1.0 }, (b) => P.rock(b, 'grey', 80, 46));   // a pile of stones on the ground (it sat on the horizon like a cloud)
+      a.at({ x: 500, y: 478, s: 0.9 }, (b) => P.rock(b, 'grey', 80, 46));   // a pile of stones on the ground (it sat on the horizon like a cloud)
       a.at({ x: 230, y: 440, s: 1.15 }, (b) => X.dumpTruck(b, 'orange', 'red', 'brown', 'black', 'grey', 'lightblue'));
     } },
   { id: 'forest-friends', kind: 'scene', level: 3, names: { en: 'Forest Friends' },
@@ -142,7 +142,7 @@ const B8 = [
       a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 320, y: 120, s: 0.8 }, (b) => P.cloud(b));   // up in the sky (it hung low in front of the trunk)
       a.group('grass', () => a.region('M0 520Q300 490 600 520V600H0Z', 'green', 'grass'), { edgeOk: true });
-      a.group('tree', () => { a.region('M-10 570L-4 100L100 100L110 570Z', 'brown', 'trunk'); a.region('M90 340Q300 300 610 330V380Q300 350 90 390Z', 'brown', 'branch'); a.region('M-10 30C90 0 200 60 200 150C200 230 110 250 -10 240Z', 'green', 'leaves'); }, { edgeOk: true });   // the leaves grow down to the branch
+      a.group('tree', () => { a.region('M-8 570L-2 100L100 100L110 570Z', 'brown', 'trunk'); a.region('M104 340Q300 300 610 330V380Q300 350 104 388Z', 'brown', 'branch'); a.region('M18 46C90 8 200 60 200 150C200 228 110 246 18 230Q-2 140 18 46Z', 'green', 'leaves'); }, { edgeOk: true });   // the leaves grow down to the branch
       a.at({ x: 306, y: 270, s: 1.06 }, (b) => X.bird(b, 'blue', 'orange', 'lightblue', 'yellow', false));   // sits IN the nest, sized to it
       a.group('nest', () => { a.region(blob([[200, 330], [240, 290], [380, 290], [420, 330], [370, 356], [250, 356]], 1), 'yellow', 'nest'); a.line('M240 324q30 10 60 0M310 326q30 10 60 0', 2.6); });
     } },

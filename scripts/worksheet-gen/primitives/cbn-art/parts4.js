@@ -19,8 +19,8 @@ function sheep(a, wool = 'none', face_ = 'grey', legs = 'black') {
 }
 function airplane(a, body = 'red', wing = 'blue', win = 'lightblue', tail = 'yellow') {
   a.region(poly([[-130, -8], [-150, -80], [-112, -80], [-80, -10]], 8), tail, 'tail fin');
-  a.region(blob([[-160, -4], [-120, -36], [60, -40], [140, -26], [166, 4], [130, 32], [-100, 30]], 1), body, 'plane body');
-  a.region(blob([[110, -30], [150, -22], [164, 2], [120, 0]], 1), win, 'cockpit window');
+  a.region(blob([[-160, -4], [-120, -36], [60, -40], [136, -30], [172, -8], [178, 8], [150, 28], [-100, 30]], 1), body, 'plane body');   // a rounded nose (it ended flat)
+  a.region(blob([[108, -28], [144, -22], [158, -4], [116, -2]], 1), win, 'cockpit window');
   [-90, -50, -10, 30, 70].forEach((x) => a.region(circle(x, -8, 13), win, 'window'));
   a.region(poly([[-30, 10], [40, 10], [-10, 84], [-50, 84]], 8), wing, 'wing');
 }

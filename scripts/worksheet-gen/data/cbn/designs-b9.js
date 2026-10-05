@@ -23,7 +23,7 @@ const B9 = [
   { id: 'strawberry', kind: 'picture', level: 1, names: { en: 'Strawberry' },
     draw(a) { a.group('plate', () => a.region(ellipse(300, 470, 180, 30), 'lightblue', 'plate')); a.at({ x: 300, y: 300, s: 1.65 }, (b) => Q.strawberry(b, 'red', 'green')); } },
   { id: 'red-apple', kind: 'picture', level: 1, names: { en: 'Red Apple' },
-    draw(a) { a.group('plate', () => a.region(ellipse(300, 470, 180, 30), 'blue', 'plate')); a.at({ x: 300, y: 300, s: 1.65 }, (b) => Q.apple(b, 'red', 'green', 'brown')); } },
+    draw(a) { a.group('plate', () => a.region(ellipse(300, 470, 180, 30), 'blue', 'plate')); a.at({ x: 300, y: 318, s: 1.65 }, (b) => Q.apple(b, 'red', 'green', 'brown')); } },
   { id: 'kite', kind: 'picture', level: 1, names: { en: 'Kite' },
     draw(a) { a.at({ x: 340, y: 190, s: 1.2, r: 10 }, (b) => Q.kite(b, 'red', 'yellow', 'blue')); a.at({ x: 120, y: 120, s: 0.75 }, (b) => P.cloud(b)); } },
   { id: 'snowman', kind: 'picture', level: 2, names: { en: 'Snowman' },
@@ -59,12 +59,12 @@ const B9 = [
       table(a, 470, 'blue');
       a.at({ x: 120, y: 392, s: 0.95 }, (b) => Q.apple(b, 'lightgreen', 'green', 'brown'));
       a.at({ x: 300, y: 325, s: 1.0 }, (b) => S.pineapple(b, 'yellow', 'green'));
-      a.at({ x: 470, y: 365, s: 0.95 }, (b) => V.cherries(b, 'red', 'green'));
+      a.at({ x: 474, y: 387, s: 0.75 }, (b) => V.cherries(b, 'red', 'green'));   // cherry-sized next to the pineapple
     } },
   { id: 'owl-moon', kind: 'picture', level: 3, names: { en: 'Owl and Moon' },
     draw(a) {
       a.group('branch', () => { a.region('M40 430Q300 400 560 420L560 452Q300 430 40 462Z', 'brown', 'branch'); a.at({ x: 520, y: 436, r: -30 }, (c) => c.region('M0 0Q30 -40 70 -24Q44 12 0 0Z', 'green', 'leaf')); });
-      a.at({ x: 260, y: 300, s: 1.35 }, (b) => P.owl(b, 'brown', 'orange', 'pink', 'orange'));
+      a.at({ x: 260, y: 300, s: 1.35 }, (b) => P.owl(b, 'brown', 'yellow', 'pink', 'orange'));
       a.at({ x: 480, y: 150, s: 1.3 }, (b) => P.moon(b, 'yellow'));
       stars(a, [[90, 100, 1], [520, 330, 0.9]], 'purple');
     } },
@@ -76,10 +76,10 @@ const B9 = [
     } },
   { id: 'garden-friends', kind: 'picture', level: 3, names: { en: 'Garden Friends' },
     draw(a) {
-      mound(a, 300, 486, 270);
+      mound(a, 300, 486, 270, 'lightgreen');
       a.at({ x: 130, y: 400, s: 1.0 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 26));
       a.at({ x: 470, y: 390, s: 1.0 }, (b) => P.flower(b, 'purple', 'orange', 'green', 26));
-      a.at({ x: 300, y: 420, s: 1.0 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
+      a.at({ x: 300, y: 446, s: 0.72 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
       a.at({ x: 300, y: 150, s: 0.95 }, (b) => P.butterfly(b, 'blue', 'yellow', 'brown'));
     } },
   { id: 'whale-and-fish', kind: 'picture', level: 3, names: { en: 'Whale and Fish' },
@@ -90,9 +90,9 @@ const B9 = [
     } },
   { id: 'kitten-butterfly', kind: 'picture', level: 3, names: { en: 'Kitten and Butterfly' },
     draw(a) {
-      mound(a, 300, 486, 260);
+      mound(a, 300, 486, 260, 'lightgreen');
       a.at({ x: 250, y: 314, s: 1.42 }, (b) => Q.cat(b, 'grey', 'pink', 'none'));
-      a.at({ x: 470, y: 160, s: 0.9 }, (b) => P.butterfly(b, 'orange', 'yellow', 'purple'));
+      a.at({ x: 470, y: 160, s: 0.75 }, (b) => P.butterfly(b, 'orange', 'yellow', 'purple'));
       a.at({ x: 490, y: 420, s: 0.95 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
     } },
 
@@ -125,7 +125,7 @@ const B9 = [
       skyGrass(a, 0.6);
       a.at({ x: 90, y: 80, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 250, y: 330, s: 1.4 }, (b) => Q.cat(b, 'orange', 'pink', 'none'));
-      a.at({ x: 470, y: 180, s: 0.95 }, (b) => P.butterfly(b, 'purple', 'yellow', 'brown'));
+      a.at({ x: 470, y: 180, s: 0.7 }, (b) => P.butterfly(b, 'purple', 'yellow', 'brown'));
     } },
   { id: 'rainbow-meadow', kind: 'scene', level: 2, names: { en: 'Rainbow Meadow' },
     draw(a) {
@@ -155,7 +155,7 @@ const B9 = [
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.6}C${W * 0.3} ${H * 0.55} ${W * 0.7} ${H * 0.58} ${W} ${H * 0.6}V${H}H0Z`, 'yellow', 'dry grass');
       a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b));
-      a.at({ x: 120, y: 250, s: 0.85 }, (b) => R.acacia(b));
+      a.at({ x: 140, y: 262, s: 0.7 }, (b) => R.acacia(b));
       a.at({ x: 330, y: 400, s: 1.2 }, (b) => Q.elephant(b, 'grey', 'pink'));
     } },
   { id: 'picnic-day', kind: 'scene', level: 3, names: { en: 'Picnic Day' },
@@ -185,7 +185,7 @@ const B9 = [
     draw(a) {
       skyGrass(a, 0.58, 'lightblue', 'lightgreen');
       a.at({ x: 90, y: 76, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 430, y: 210, s: 0.72 }, (b) => P.house(b, 'pink', 'blue', 'brown', 'lightblue', false));
+      a.at({ x: 430, y: 232, s: 0.72 }, (b) => P.house(b, 'pink', 'blue', 'brown', 'lightblue', false));
       a.at({ x: 150, y: 420, s: 0.95 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
       a.at({ x: 390, y: 480, s: 0.76 }, (b) => Q.snail(b, 'pink', 'yellow', 'grey'));
     } },

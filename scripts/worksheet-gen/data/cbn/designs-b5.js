@@ -79,15 +79,15 @@ const B5 = [
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.5}H${W}V${H}H0Z`, 'blue', 'lake');
-      a.at({ x: 480, y: 90, s: 0.9 }, (b) => P.sun(b));
-      a.at({ x: 280, y: 380, s: 1.35 }, (b) => U.swan(b, 'none', 'orange'));
+      a.at({ x: 110, y: 90, s: 0.9 }, (b) => P.sun(b));   // clear of the swan's head
+      a.at({ x: 300, y: 380, s: 1.35 }, (b) => U.swan(b, 'none', 'orange'));
       a.line('M60 470q20 -10 40 0M440 500q20 -10 40 0M120 520q20 -10 40 0', 3);
     } },
   { id: 'polar-ice', kind: 'scene', level: 1, names: { en: 'Polar Bear on the Ice' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.62}H${W}V${H}H0Z`, 'blue', 'sea');
-      a.group('ice', () => a.region('M-10 400Q120 360 300 368Q480 360 610 400V560H-10Z', 'none', 'ice'), { edgeOk: true });
+      a.group('ice', () => a.region('M0 400Q120 360 300 368Q480 360 600 400V560H0Z', 'none', 'ice'), { edgeOk: true });   // inside the frame: it hid the frame's sides
       a.at({ x: 250, y: 330, s: 1.2 }, (b) => U.polarBear(b, 'none', 'black', 'red'));
       a.at({ x: 490, y: 90, s: 0.9 }, (b) => P.sun(b));
     } },
@@ -124,7 +124,7 @@ const B5 = [
       a.group('table', () => { a.region(rrect(160, 330, 260, 30, 10), 'blue', 'table top'); a.region(rrect(176, 350, 32, 100, 8), 'blue', 'table leg'); a.region(rrect(372, 350, 32, 100, 8), 'blue', 'table leg'); });
       a.at({ x: 290, y: 222, s: 0.8 }, (b) => R.cake(b, 'pink', 'orange', 'none', 'purple', 'orange', 'none'));
       // the balloons are tied to a weight standing on the floor
-      a.at({ x: 500, y: 372, s: 0.85 }, (b) => U.balloonBunch(b, ['red', 'purple', 'green'], 'pink'));
+      a.at({ x: 484, y: 372, s: 0.8 }, (b) => U.balloonBunch(b, ['red', 'purple', 'green'], 'pink'));
       a.at({ x: 82, y: 424, s: 0.62 }, (b) => S.giftBox(b, 'green', 'red', 'purple'));
     } },
 ];

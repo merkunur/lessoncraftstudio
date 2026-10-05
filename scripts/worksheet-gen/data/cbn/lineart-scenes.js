@@ -179,7 +179,7 @@ const SECOND = [
   ['octopus', 'sea life bw/octopus', 'Octopus', 'sea'], ['robot', 'toys bw/robot', 'Robot', 'room'], ['rocking-horse', 'toys bw/rocking_horse', 'Rocking Horse', 'room'],
   ['teddy-bear', 'toys bw/teddy_bear', 'Teddy Bear', 'room'], ['toy-train', 'toys bw/train', 'Toy Train', 'room', { h: 160 }], ['drum', 'toys bw/drum', 'Drum', 'room', { h: 230 }],
   ['spinning-top', 'toys bw/spinning_top', 'Spinning Top', 'room', { h: 230 }], ['dice', 'toys bw 2/dice', 'Dice', 'table', { h: 200 }], ['pinwheel', 'toys bw 2/pinwheel', 'Pinwheel', 'garden'],
-  ['kite', 'toys bw 2/kite', 'Kite', 'garden', { y: 320, h: 250 }], ['telephone', 'toys bw 2/telephone', 'Telephone', 'table', { h: 220 }], ['xylophone', 'toys bw 2/xylophone', 'Xylophone', 'room', { h: 200 }],
+  ['kite', 'toys bw 2/kite', 'Kite', 'garden', { y: 320, h: 250 }], ['telephone', 'toys bw 2/telephone', 'Telephone', 'table', { h: 220 }], ['xylophone', 'toys bw 2/xylophone', 'Xylophone', 'room', { h: 260 }],
   ['school-bus', 'vehicles bw/bus', 'School Bus', 'town'], ['airplane', 'vehicles bw 2/airplane_2', 'Airplane', 'garden', { y: 290, h: 170 }], ['hot-air-balloon', 'vehicles bw 2/hot_air_balloon', 'Hot Air Balloon', 'garden', { y: 330, h: 280 }],
   ['helicopter', 'vehicles bw 2/helicopter_2', 'Helicopter', 'garden', { y: 300, h: 170 }], ['rocket', 'vehicles bw 2/rocket', 'Rocket', 'night', { h: 320 }], ['tugboat', 'vehicles bw 3/boat', 'Tugboat', 'beach', { x: 260, y: 372, h: 200 }],
   ['fire-truck', 'vehicles bw 3/fire_truck', 'Fire Truck', 'town'], ['tractor', 'farm bw/tractor', 'Tractor', 'farm', { h: 230 }], ['sailboat', 'beach bw/sailboat', 'Sailboat', 'beach', { x: 260, y: 372, h: 260 }],

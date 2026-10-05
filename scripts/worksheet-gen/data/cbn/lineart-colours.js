@@ -23,7 +23,7 @@ const BG = {
   'beach bw/seashell': ['pink'],
   'beach bw/starfish': ['orange'],
   'Christmas bw/christmas_tree': ['green', 'red', 'yellow', 'blue'],
-  'home and nature bw/house': ['red', 'yellow', 'brown', 'red'],
+  'home and nature bw/house': ['red', 'orange', 'brown', 'red'],
   'household bw/window': ['lightblue', 'lightblue', 'pink', 'pink', 'lightblue'],
   'household bw/plant': ['red', 'orange'],
 };
@@ -138,7 +138,7 @@ const HERO = {
   pinwheel: ['red', 'orange', 'yellow', 'pink', 'blue', 'red', 'pink', 'lightgreen', 'yellow'],
   kite: ['red', 'yellow', 'blue', 'green'],
   telephone: ['red', 'red', 'red', 'yellow', 'grey', 'grey'],
-  xylophone: ['red', 'orange', 'purple', 'green', 'blue', 'red'],
+  xylophone: ['red', 'orange', 'purple', 'pink', 'blue', 'red', 'red', 'red'],
   airplane: ['red', 'blue', 'blue', 'yellow', 'yellow', 'yellow', 'yellow'],
   'hot-air-balloon': ['red', 'yellow', 'blue', 'green', 'purple'],
   helicopter: ['red', 'yellow', 'yellow'],
@@ -235,6 +235,7 @@ const OVERRIDE = {
   monkey: { 6: 'brown' },
   rabbit: { 4: 'grey' },
   bat: { 3: 'purple' },
+  telephone: { 11: 'yellow' },
   'hermit-crab': { 4: 'red' },
   bear: { 6: 'brown' },
   rhino: { 8: 'yellow' },
@@ -257,6 +258,8 @@ const SMALL_RULE = {
   'home and nature bw/flower': { split: 0.55, bottom: 'lightgreen', fallback: 'ground' },
   // the ornaments of a Christmas tree; its lowest piece is the trunk
   'Christmas bw/christmas_tree': { colour: 'orange', bottom: 'brown' },
+  // the town house's bushes (its lowest pieces) green; windows and the rest follow their neighbours
+  'home and nature bw/house': { split: 0.86, bottom: 'green', fallback: 'ground' },
 };
 // natural whites kept white (operator 2026-10-05): per design, the indexes of NUMBERED parts that stay white even if a
 // colour list says otherwise; mid/small pieces bordering only white parts stay white by themselves
@@ -309,6 +312,9 @@ const PIECE = {
   'hermit-crab': { s3: ['red', 'p4'], s10: ['red', 'p4'], s11: ['red', 'p4'] },
   snail: { m3: 'yellow' },
   drum: { s0: 'none', s5: 'none', s17: 'none', s34: 'none', s43: 'none', s50: 'none', s8: 'none', s25: 'none', s22: 'none' },
+  'spinning-top': { m0: 'yellow' },
+  dice: { m0: 'none', m1: 'none', s2: 'none', s3: 'none', s4: 'none', s5: 'none', s6: 'none', s7: 'none', s10: 'none' },
+  xylophone: { m0: 'brown', m1: 'brown', m2: 'brown', m3: 'brown', s1: ['brown', 'm1'], s5: ['brown', 'm3'], s6: ['brown', 'm1'], s9: ['brown', 'm1'], s10: ['brown', 'm1'], s11: ['brown', 'm1'], s19: ['brown', 'm1'], s23: ['brown', 'm3'], s24: ['brown', 'm1'], s25: ['brown', 'm1'], s31: ['brown', 'm3'], s35: ['brown', 'm3'], s38: ['brown', 'm1'], s39: ['brown', 'm1'], s43: ['brown', 'm3'], s45: ['brown', 'm3'], s46: ['brown', 'm1'], s47: ['brown', 'm3'], s51: ['brown', 'm3'], s53: ['brown', 'm3'], s58: ['brown', 'm3'], s61: ['brown', 'm1'], s62: ['brown', 'm3'], s70: ['brown', 'm3'], s81: ['brown', 'm3'], s83: ['brown', 'm3'], s85: ['brown', 'm1'], s92: ['brown', 'm3'], s94: ['brown', 'm3'], s96: ['brown', 'm3'], s100: ['brown', 'm3'], s101: ['brown', 'm3'], s106: ['brown', 'm1'], s114: ['brown', 'm3'], s118: ['brown', 'm3'], s120: ['brown', 'm1'], s121: ['brown', 'm1'], s129: ['brown', 'm3'], s138: ['brown', 'm1'], s142: ['brown', 'm3'], s143: ['brown', 'm1'], s144: ['brown', 'm1'], s148: ['brown', 'm3'], s155: ['brown', 'm1'], s156: ['brown', 'm1'], s157: ['brown', 'm1'], s160: ['brown', 'm3'], s161: ['brown', 'm3'], s162: ['brown', 'm3'], s163: ['brown', 'm3'], s164: ['brown', 'm3'], s165: ['brown', 'm3'], s166: ['brown', 'm3'], s167: ['brown', 'm3'], s168: ['brown', 'm3'], s169: ['brown', 'm3'], s170: ['brown', 'm3'], s171: ['brown', 'm3'], s172: ['brown', 'm3'], s173: ['brown', 'm3'], s174: ['brown', 'm3'], s175: ['brown', 'm3'], s176: ['brown', 'm3'], s177: ['brown', 'm3'], s178: ['brown', 'm1'], s179: ['brown', 'm1'], s180: ['brown', 'm3'], s183: ['brown', 'm1'], s184: ['brown', 'm1'] },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },

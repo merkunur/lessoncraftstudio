@@ -23,7 +23,7 @@ const THEMES = {
   desert: { hy: 350, items: [{ ...SUN, x: 95 }, CLOUD(320, 85), { src: 'nature bw/pyramid', x: 470, y: 400, h: 180 }], hero: { x: 230, y: 520, h: 280 }, ground: 'yellow' },
   winter: { hy: 350, items: [CLOUD(130, 95), { ...SUN, x: 330, y: 140, h: 95 }, { src: 'Christmas bw/christmas_tree', x: 492, y: 410, h: 300 }], hero: { x: 260, y: 520, h: 270 }, ground: 'none' },
   night: { hy: 370, items: [{ src: 'nature bw/moon', x: 500, y: 150, h: 110 }, { src: 'nature bw/star', x: 90, y: 90, h: 50 }, { src: 'nature bw/star', x: 320, y: 70, h: 40 }], hero: { x: 290, y: 520, h: 270 }, sky: 'blue' },
-  room: { hy: 390, items: [{ src: 'household bw/window', x: 470, y: 250, h: 170 }, { src: 'household bw/plant', x: 85, y: 420, h: 150 }], hero: { x: 290, y: 520, h: 280 }, sky: 'yellow', ground: 'orange' },
+  room: { hy: 390, items: [{ src: 'household bw/window', x: 470, y: 250, h: 170 }], hero: { x: 290, y: 520, h: 280 }, sky: 'yellow', ground: 'orange' },
   table: { hy: 400, lines: [{ d: 'M-20 400 L620 400' }], items: [{ src: 'household bw/window', x: 470, y: 230, h: 170 }], hero: { x: 300, y: 430, h: 300 }, sky: 'yellow', ground: 'orange' },
   town: { hy: 385, items: [SUN, CLOUD(130, 90), { src: 'home and nature bw/house', x: 445, y: 392, h: 200 }], hero: { x: 270, y: 530, h: 200 }, ground: 'lightgreen' },
 };

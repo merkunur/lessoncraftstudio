@@ -333,4 +333,34 @@ function dragon(a, skin = 'green', belly = 'yellow', wing = 'purple', spikes = '
   });
 }
 
-module.exports = { outline, giraffe, squirrel, mouse, duck, cow, bunny, unicorn, bear, bearSit, fox, pony, dragon };
+/** a round animal SITTING, facing the viewer, on y = 0 (the sitting bear's body): o = { name, fur, ear, earR, earY,
+ *  inner, belly, limb, pad, muzzle, bigNose, patches, hold } — panda, koala and friends */
+function sitter(a, o) {
+  const fur = o.fur, limb = o.limb || fur, earR = o.earR || 32, earY = o.earY || -284;
+  a.group(o.name || 'animal', () => {
+    if (o.tail) a.line(curve([[90, -30], [150, -20], [170, -70], [156, -110]]), 4);   // an OPEN line: no trapped crumb
+    [-1, 1].forEach((k) => { a.region(circle(k * 74, earY, earR), o.ear || fur, 'ear'); if (o.inner) a.region(circle(k * 76, earY - 2, Math.round(earR * 0.42)), o.inner, 'inner ear'); });
+    a.region(outline([[0, -296], [50, -288], [78, -250], [72, -206], [52, -180], [86, -152], [110, -96], [114, -40],
+      [98, -8], [60, 0, 1], [-60, 0, 1], [-98, -8], [-114, -40], [-110, -96], [-86, -152], [-52, -180], [-72, -206],
+      [-78, -250], [-50, -288]]), fur, o.name || 'animal');
+    if (o.belly) a.region(ellipse(0, -76, 62, 56), o.belly, 'belly');
+    if (o.bow) {   // a bow tie at the neck
+      [-1, 1].forEach((k) => a.region(outline([[0, -170], [k * 46, -194, 1], [k * 46, -146, 1]]), o.bow, 'bow'));
+      a.region(circle(0, -170, 14), o.bow, 'knot');
+    }
+    if (o.muzzle) a.region(ellipse(0, -212, 34, 24), o.muzzle, 'muzzle');
+    if (o.patches) {
+      [-1, 1].forEach((k) => a.region(outline([[k * 10, -262], [k * 44, -270], [k * 56, -236], [k * 40, -214], [k * 14, -226]]), o.patches, 'eye patch'));
+      [-1, 1].forEach((k) => { a.shine(circle(k * 32, -242, 7)); });
+    } else { P.eye(a, -28, -246, 1.15); P.eye(a, 28, -246, 1.15); }
+    if (o.bigNose) a.region(ellipse(0, -214, 20, 28), o.bigNose, 'nose');
+    else if (o.nose) a.region(circle(0, -220, 16), o.nose, 'nose');
+    else a.ink(ellipse(0, -222, 11, 8));
+    a.line(curve(o.bigNose || o.nose ? [[-12, -180], [0, -174], [12, -180]] : [[-14, -200], [0, -194], [14, -200]]), 2.6);
+    if (o.hold) a.at({ x: 0, y: -104 }, o.hold);
+    [-1, 1].forEach((k) => a.region(outline([[k * 72, -162], [k * 100, -140], [k * 82, -104], [k * 40, -88], [k * 26, -104], [k * 48, -134]]), limb, 'arm'));
+    [-1, 1].forEach((k) => { a.region(ellipse(k * 45, -18, 50, 30), limb, 'foot'); if (o.pad) a.region(ellipse(k * 54, -16, 22, 17), o.pad, 'foot pad'); });
+  });
+}
+
+module.exports = { outline, giraffe, squirrel, mouse, duck, cow, bunny, unicorn, bear, bearSit, fox, pony, dragon, sitter };

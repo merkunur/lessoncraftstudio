@@ -102,7 +102,7 @@ const B1 = [
   { id: 'bee-garden', kind: 'scene', level: 3, names: { en: 'Bee in the Garden' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
-      a.region(`M0 ${H * 0.64}C${W * 0.3} ${H * 0.6} ${W * 0.7} ${H * 0.62} ${W} ${H * 0.64}V${H}H0Z`, 'green', 'grass');   // one grass: the tall stems cut a two-band meadow into crumbs
+      a.region(`M0 ${H * 0.64}C${W * 0.3} ${H * 0.6} ${W * 0.7} ${H * 0.62} ${W} ${H * 0.64}V${H}H0Z`, 'lightgreen', 'grass');   // one grass, light: the green stems and leaves stay visible
       a.at({ x: 80, y: 80, s: 0.8 }, (b) => P.sun(b));
       // the flowers are taller than the bee and the butterfly that visit them (the bee was twice a flower's size) — 2026-10-05
       a.at({ x: 112, y: 320, s: 1.3 }, (b) => P.flower(b, 'red', 'yellow', 'green', 32, 120));
@@ -138,13 +138,13 @@ const B1 = [
     } },
   { id: 'ladybird-meadow', kind: 'scene', level: 3, names: { en: 'Ladybug in the Meadow' },
     draw(a) {
-      P.meadow(a, W, H, { horizon: 0.5 });
+      P.meadow(a, W, H, { horizon: 0.5, far: 'green', near: 'lightgreen' });
       a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 140, y: 80, s: 0.8 }, (b) => P.cloud(b));
       // a SMALL ladybug on a big leaf among tall flowers (it was bigger than the flowers) — 2026-10-05
       a.at({ x: 100, y: 330, s: 1.3 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 28, 120));
       a.at({ x: 504, y: 340, s: 1.3 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 28, 112));
-      a.group('leaf', () => { a.region('M150 512C150 380 340 330 460 392C420 490 300 540 150 512Z', 'lightgreen', 'big leaf'); a.line('M200 494Q300 440 420 400', 2.6); });   // the vein stops short of the leaf's edge
+      a.group('leaf', () => { a.region('M150 512C150 380 340 330 460 392C420 490 300 540 150 512Z', 'green', 'big leaf'); a.line('M200 494Q300 440 420 400', 2.6); });   // the vein stops short of the leaf's edge
       a.at({ x: 304, y: 420, s: 0.72, r: -16 }, (b) => Q.ladybird(b, 'red', 'black'));
     } },
   { id: 'whale-hello', kind: 'scene', level: 1, names: { en: 'Hello, Whale!' },

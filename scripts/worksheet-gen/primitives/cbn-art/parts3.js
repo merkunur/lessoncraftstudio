@@ -36,18 +36,9 @@ function giraffe(a, skin = 'yellow', spots = 'brown', hoof = 'brown') {
   a.ink(ellipse(148, -208, 3.5, 2.5)); smile(a, 138, -200, 8, 3);
 }
 function teddy(a, fur = 'brown', inner = 'orange', bow = 'red') {
-  a.region(ellipse(-40, 88, 32, 34), fur, 'leg'); a.region(ellipse(40, 88, 32, 34), fur, 'leg');
-  a.region(ellipse(-74, 20, 26, 40), fur, 'arm'); a.region(ellipse(74, 20, 26, 40), fur, 'arm');
-  a.region(ellipse(0, 34, 66, 70), fur, 'teddy body');
-  a.region(ellipse(0, 44, 38, 40), inner, 'tummy');
-  a.region(circle(-56, -116, 28), fur, 'ear'); a.region(circle(56, -116, 28), fur, 'ear');
-  a.region(circle(-58, -118, 12), inner, 'inner ear'); a.region(circle(58, -118, 12), inner, 'inner ear');
-  a.region(circle(0, -70, 66), fur, 'teddy head');
-  a.region(ellipse(0, -46, 30, 22), inner, 'muzzle');
-  eye(a, -26, -84, 1.3); eye(a, 26, -84, 1.3);
-  a.ink(ellipse(0, -54, 9, 6.5)); a.line(curve([[-10, -38], [0, -32], [10, -38]]), 2.6);
-  a.region(poly([[0, -6], [-40, -26], [-40, 14]], 8), bow, 'bow'); a.region(poly([[0, -6], [40, -26], [40, 14]], 8), bow, 'bow');
-  a.region(circle(0, -6, 12), bow, 'bow knot');
+  // the one-silhouette sitting animal (arms and legs were ovals pasted round a ball): ears, tummy, muzzle and foot
+  // pads in the inner colour, a bow tie at the neck; sits on y = 122 as before
+  a.at({ y: 122, s: 0.86 }, (b) => require('./v2.js').sitter(b, { name: 'teddy', fur, inner, earR: 36, belly: inner, muzzle: inner, bow }));
 }
 function hen(a, body = 'none', comb = 'red', beak = 'orange') {
   a.line('M-14 60V100M14 60V100', 5); a.line('M-26 104L-14 100L-4 104M4 104L14 100L24 104', 4);

@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const { Art } = require('../../primitives/cbn-art/core.js');
 const { LINEART } = require('./lineart-designs.js');
-const { COLOURS_BY_DESIGN, ATTACH } = require('./lineart-colours.js');
+const { BG, HERO, OVERRIDE, ATTACH } = require('./lineart-colours.js');
 
 const W = 600, H = 560;
 const DIR = path.join(__dirname, 'lineart');
@@ -28,24 +28,34 @@ function load(id) {
   return _cache.get(id);
 }
 
-/** the crayon of every numbered part (fixed parts carry their own) */
+/** the crayon of every part (lineart-colours.js): fixed areas carry their own, the hero follows HERO, a background drawing
+ *  follows BG by its own part order, a part no drawing owns is sky above the horizon and ground below it */
 function partColours(d) {
   const j = load(d.id);
-  const cols = COLOURS_BY_DESIGN[d.id] || [];
-  return j.parts.map((p, i) => (p.fixed ? p.colour : (cols[i] === undefined ? null : cols[i])));
+  const spec = LINEART.find((x) => x.id === d.id);
+  const hero = HERO[d.id] || [], ov = OVERRIDE[d.id] || {};
+  const fx = Object.fromEntries((spec.fixed || []).map((f) => [f.name, f.colour]));
+  const rank = new Map();
+  return j.parts.map((p, i) => {
+    if (ov[i] !== undefined) return ov[i];
+    if (p.fixed) return p.colour;
+    const k = rank.get(p.item) || 0; rank.set(p.item, k + 1);
+    if (p.hero) return hero[k] === undefined ? null : hero[k];
+    if (p.src && BG[p.src]) { const plan = BG[p.src]; return plan[Math.min(k, plan.length - 1)]; }
+    if (p.item == null) return p.y < (spec.hy || 0) ? fx.sky || null : fx.ground || null;
+    return null;
+  });
 }
 
-/** level from the colours used: 3-4 → 1 · 5 → 1 (≤ 10 parts) or 2 · 6 → 2 · 7 → 2 (≤ 20 parts) or 3 · 8 → 3 */
+/** level from the colours used and the parts to colour (lib/cbn-render.js LEVEL_CAPS):
+ *  L1 = up to 4 colours, or 5 colours on fewer than 10 parts · L3 = 7-8 colours, or 6 colours on 14+ parts · L2 = the rest */
 function levelOf(d) {
   if (d.levelFixed) return d.levelFixed;
-  const cs = partColours(d);
-  const k = new Set(cs.filter((c) => c && c !== 'none')).size;
-  const nParts = cs.filter((c) => c && c !== 'none').length;
-  if (k <= 4) return 1;
-  if (k === 5) return nParts <= 10 ? 1 : 2;
-  if (k === 6) return 2;
-  if (k === 7) return nParts <= 20 ? 2 : 3;
-  return 3;
+  const cs = partColours(d).filter((c) => c && c !== 'none');
+  const k = new Set(cs).size, n = cs.length;
+  if (k <= 4 || (k === 5 && n < 10)) return 1;
+  if (k >= 7 || (k === 6 && n >= 14)) return 3;
+  return 2;
 }
 
 function build(design) {
@@ -54,7 +64,9 @@ function build(design) {
   const cs = partColours(design);
   const att = (ATTACH || {})[design.id] || {};
   const extra = new Map();
-  (j.small || []).forEach((s, i) => { const to = att[letter(i)]; if (to == null) return; if (!extra.has(to)) extra.set(to, []); extra.get(to).push(s.d); });
+  // ATTACH target: a part index, or 'H<k>' = the scene character's k-th part
+  const heroIdx = j.parts.map((p, i) => (p.hero ? i : -1)).filter((i) => i >= 0);
+  (j.small || []).forEach((s, i) => { let to = att[letter(i)]; if (to == null) return; if (typeof to === 'string') to = heroIdx[+to.slice(1)]; if (!extra.has(to)) extra.set(to, []); extra.get(to).push(s.d); });
   j.parts.forEach((p, i) => {
     const c = cs[i];
     if (c == null) return;
@@ -73,4 +85,4 @@ const DESIGNS = LINEART.map((d) => {
   return out;
 });
 
-module.exports = { DESIGNS, build, W, H, levelOf };
+module.exports = { DESIGNS, build, W, H, levelOf, partColours };

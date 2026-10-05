@@ -115,4 +115,8 @@ const PICTURES = [
   P('sandcastle', 'beach bw/sandcastle', 3, 'Sandcastle', []),
 ];
 
-module.exports = { LINEART: [...PICTURES] };
+// 2026-10-05 operator: "all 200 should be scenes": the single pictures above are kept only as a record; K-394 now
+// carries the second hundred scenes (lineart-scenes.js SECOND)
+void PICTURES;
+const SC = require("./lineart-scenes.js");
+module.exports = { LINEART: [...SC.SECOND, ...SC.SCENES] };

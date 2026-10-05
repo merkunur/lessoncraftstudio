@@ -231,6 +231,7 @@ const HERO = {
 };
 const OVERRIDE = {
   'night-cat': { 1: 'grey' },
+  'town-ice-cream-truck': { 2: 'yellow' },
   'forest-squirrel': { 2: 'orange', 6: 'orange' },
   monkey: { 6: 'brown' },
   rabbit: { 4: 'grey' },
@@ -382,6 +383,9 @@ const PIECE = {
   'night-owl': { m0: 'orange' },
   'night-ufo': { m0: 'blue', m1: 'blue' },
   'night-camper': { m4: 'grey', s0: ['grey', 'm4'], s10: ['grey', 'm4'] },
+  'town-bus': { s13: ['lightblue', 's13'], s10: ['lightblue', 's10'], s9: ['lightblue', 's10'], s11: ['lightblue', 's10'], s45: ['lightblue', 's10'], s47: ['lightblue', 's10'], s70: ['lightblue', 's10'], s87: ['lightblue', 's10'], s53: ['lightblue', 's10'], s66: ['lightblue', 's10'], s14: ['lightblue', 's13'], s17: ['lightblue', 's13'], s18: ['lightblue', 's13'], s33: ['lightblue', 's13'], s39: ['lightblue', 's13'], s48: ['lightblue', 's13'], s50: ['lightblue', 's13'], s51: ['lightblue', 's13'], s52: ['lightblue', 's13'], s54: ['lightblue', 's13'], s55: ['lightblue', 's13'], s73: ['lightblue', 's13'], s74: ['lightblue', 's13'], s77: ['lightblue', 's13'], s100: ['lightblue', 's13'], s101: ['lightblue', 's13'], s102: ['lightblue', 's13'], s103: ['lightblue', 's13'], s94: ['lightblue', 's13'], s95: ['lightblue', 's13'], s91: ['lightblue', 's13'], s88: ['lightblue', 's13'] },
+  'town-ice-cream-truck': { s1: ['pink', 'p0'], s2: ['pink', 'p0'], s9: ['lightblue', 's9'], s10: ['lightblue', 's9'], s11: ['lightblue', 's9'], s12: ['lightblue', 's9'], s34: ['lightblue', 's9'], s39: ['lightblue', 's9'], s50: ['lightblue', 's9'], s52: ['lightblue', 's9'], s58: ['lightblue', 's9'], s63: ['lightblue', 's9'], s80: ['lightblue', 's9'], s90: ['lightblue', 's9'], s102: ['lightblue', 's9'], s112: ['lightblue', 's9'], s15: ['lightblue', 's15'], s16: ['lightblue', 's15'], s28: ['lightblue', 's15'], s29: ['lightblue', 's15'], s42: ['lightblue', 's15'], s49: ['lightblue', 's15'], s70: ['lightblue', 's15'], s72: ['lightblue', 's15'], s73: ['lightblue', 's15'], s75: ['lightblue', 's15'], s76: ['lightblue', 's15'], s91: ['lightblue', 's15'], s96: ['lightblue', 's15'], s97: ['lightblue', 's15'], s99: ['lightblue', 's15'], s114: ['lightblue', 's15'], s120: ['lightblue', 's15'], s125: ['lightblue', 's15'], s126: ['lightblue', 's15'], s127: ['lightblue', 's15'], s140: ['lightblue', 's15'], s141: ['lightblue', 's15'], s142: ['lightblue', 's15'], s143: ['lightblue', 's15'], s144: ['lightblue', 's15'] },
+  'town-car': { s1: ['red', 'p3'], s11: ['lightblue', 's11'], s12: ['lightblue', 's11'], s14: ['lightblue', 's11'], s15: ['lightblue', 's11'], s16: ['lightblue', 's16'], s17: ['lightblue', 's16'], s27: ['lightblue', 's16'], s28: ['lightblue', 's16'], s45: ['lightblue', 's16'], s48: ['lightblue', 's16'], s61: ['lightblue', 's16'], s66: ['lightblue', 's16'], s70: ['lightblue', 's16'], s71: ['lightblue', 's16'], s72: ['lightblue', 's16'], s73: ['lightblue', 's16'], s106: ['lightblue', 's16'], s107: ['lightblue', 's16'], s159: ['lightblue', 's16'], s160: ['lightblue', 's16'], s161: ['lightblue', 's16'], s162: ['lightblue', 's16'], s143: ['lightblue', 's16'], s144: ['lightblue', 's16'], s140: ['lightblue', 's16'], s134: ['lightblue', 's16'] },
   'night-raccoon': { s1: ['black', 'p4'], m0: 'grey', s3: ['grey', 'p0'], s12: ['grey', 'p0'] },
   'night-telescope': { s7: ['grey', 's7'], s6: ['grey', 's7'], s1: ['grey', 's7'], s3: ['grey', 's7'], s4: ['grey', 's7'] },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },

@@ -153,7 +153,7 @@ const B9 = [
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.6}C${W * 0.3} ${H * 0.55} ${W * 0.7} ${H * 0.58} ${W} ${H * 0.6}V${H}H0Z`, 'yellow', 'dry grass');
-      a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b, 'orange'));
+      a.at({ x: 500, y: 80, s: 0.85 }, (b) => P.sun(b));
       a.at({ x: 120, y: 250, s: 0.85 }, (b) => R.acacia(b));
       a.at({ x: 330, y: 400, s: 1.2 }, (b) => Q.elephant(b, 'grey', 'pink'));
     } },

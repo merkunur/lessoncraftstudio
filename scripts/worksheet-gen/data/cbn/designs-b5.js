@@ -53,9 +53,9 @@ const B5 = [
     } },
   { id: 'rain-boots', kind: 'picture', level: 2, names: { en: 'Rain Boots' },
     draw(a) {
+      // the umbrella STANDS on its hook on the ground behind the boots (it hung in mid-air)
+      a.at({ x: 484, y: 398, s: 0.7 }, (b) => Q.umbrella(b, 'blue', 'pink', 'brown'));
       a.at({ x: 250, y: 340, s: 1.35 }, (b) => U.boots(b, 'yellow', 'brown'));
-      // the umbrella LEANS on the ground beside the boots (it hung in mid-air)
-      a.at({ x: 466, y: 330, s: 0.7, r: 24 }, (b) => Q.umbrella(b, 'blue', 'pink', 'brown'));
       a.group('puddle', () => a.region(ellipse(300, 490, 240, 30), 'lightblue', 'puddle'));
     } },
 
@@ -122,7 +122,7 @@ const B5 = [
       a.region(`M0 0H${W}V${H}H0Z`, 'yellow', 'wall');
       a.region(`M0 ${H * 0.78}H${W}V${H}H0Z`, 'brown', 'floor');
       a.group('table', () => { a.region(rrect(160, 330, 260, 30, 10), 'blue', 'table top'); a.region(rrect(176, 350, 32, 100, 8), 'blue', 'table leg'); a.region(rrect(372, 350, 32, 100, 8), 'blue', 'table leg'); });
-      a.at({ x: 290, y: 212, s: 0.8 }, (b) => R.cake(b, 'pink', 'orange', 'none', 'purple', 'orange', 'none'));
+      a.at({ x: 290, y: 222, s: 0.8 }, (b) => R.cake(b, 'pink', 'orange', 'none', 'purple', 'orange', 'none'));
       // the balloons are tied to a weight standing on the floor
       a.at({ x: 500, y: 372, s: 0.85 }, (b) => U.balloonBunch(b, ['red', 'purple', 'green'], 'pink'));
       a.at({ x: 82, y: 424, s: 0.62 }, (b) => S.giftBox(b, 'green', 'red', 'purple'));

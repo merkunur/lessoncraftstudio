@@ -16,30 +16,36 @@ function caterpillar(a, cols = ['green', 'lightgreen'], head = 'red', feet = 'br
   face(a, 112, -14, 1.3, 32);
 }
 function peacock(a, body = 'blue', tail = ['green', 'lightgreen'], eyes = ['purple', 'yellow'], beak = 'orange') {
-  // the fan: seven feathers, each with an eye
-  for (let i = 0; i < 7; i++) {
-    const t = (-160 + i * 23.3) * Math.PI / 180, x = Math.cos(t) * 150, y = Math.sin(t) * 150 + 20;
-    a.at({ x: x * 0.55, y: y * 0.55 + 10, r: -160 + i * 23.3 + 90 }, (c) => {
-      c.region(ellipse(0, -60, 38, 80), Array.isArray(tail) ? tail[i % tail.length] : tail, 'tail feather');
-      c.region(ellipse(0, -90, 22, 28), eyes[0], 'feather eye');
-      c.region(ellipse(0, -90, 10, 13), eyes[1], 'feather eye centre');
+  const { outline } = require('./v2.js');
+  a.group('peacock', () => {
+    // the fan: seven feathers drawn outside-in (0,6,1,5,2,4,3) so the layering is the same on both sides and the
+    // middle feather is on top
+    [0, 6, 1, 5, 2, 4, 3].forEach((i) => {
+      const t = (-160 + i * 23.3) * Math.PI / 180, x = Math.cos(t) * 150, y = Math.sin(t) * 150 + 20;
+      a.at({ x: x * 0.55, y: y * 0.55 + 10, r: -160 + i * 23.3 + 90 }, (c) => {
+        c.region(ellipse(0, -60, 38, 80), Array.isArray(tail) ? tail[i % tail.length] : tail, 'tail feather');
+        c.region(ellipse(0, -90, 22, 28), eyes[0], 'feather eye');
+        c.region(ellipse(0, -90, 10, 13), eyes[1], 'feather eye centre');
+      });
     });
-  }
-  a.line('M-14 110V136M14 110V136M-26 140L-14 136L-4 140M4 140L14 136L26 140', 4);
-  a.region(ellipse(0, 60, 46, 60), body, 'peacock body');
-  a.region(blob([[-14, 20], [-20, -40], [-4, -76], [20, -70], [16, -30], [14, 20]], 1), body, 'neck');
-  a.region(circle(4, -84, 24), body, 'peacock head');
-  // the crest sits ON the head (long crest lines crossed the tail feathers behind and cut them up)
-  [[-8, -110], [4, -114], [16, -110]].forEach(([x, y]) => a.ink(circle(x, y, 5)));
-  a.region(poly([[22, -96], [56, -82], [22, -68]], 5), beak, 'beak');
-  eye(a, 12, -88, 0.95);
+    a.line('M-14 112V136M14 112V136M-26 140L-14 136L-4 140M4 140L14 136L26 140', 4);
+    // the crest grows out of the head (it floated as three dots above it)
+    a.region(outline([[-16, -98], [-30, -124], [4, -140], [38, -124], [36, -98]]), body, 'crest');
+    [[-28, -126], [4, -141], [36, -126]].forEach(([x, y]) => a.ink(circle(x, y, 6)));
+    // ONE silhouette: body, neck and head (the neck sat on the body with a seam)
+    a.region(outline([[-40, 112], [-50, 60], [-36, 18], [-14, -2], [-14, -42], [-22, -80], [-8, -108], [18, -110],
+      [32, -92], [28, -68], [14, -50], [16, -2], [36, 18], [50, 60], [40, 112], [0, 124]]), body, 'peacock');
+    a.region(outline([[26, -98], [58, -86, 1], [26, -74]]), beak, 'beak');
+    eye(a, 10, -88, 0.95);
+  });
 }
 function burger(a, bun = 'orange', patty = 'brown', cheese = 'yellow', lettuce = 'green', tomato = 'red') {
   a.region('M-130 50H130Q130 100 90 104H-90Q-130 100 -130 50Z', bun, 'bottom bun');
   a.region(rrect(-138, 18, 276, 40, 20), patty, 'patty');
   a.region('M-140 10H140L126 42L100 18L76 54L52 18L28 54L4 18L-20 54L-44 18L-68 54L-92 18L-116 46Z', cheese, 'cheese');   // big drips: the small ones were crumbs
   a.region(rrect(-128, -14, 256, 30, 12), tomato, 'tomato');
-  a.region('M-146 -14Q-120 -36 -96 -16Q-72 -36 -48 -16Q-24 -36 0 -16Q24 -36 48 -16Q72 -36 96 -16Q120 -36 146 -14Q130 6 100 -2Q70 10 40 -2Q10 10 -20 -2Q-50 10 -80 -2Q-110 10 -146 -14Z', lettuce, 'lettuce');
+  // the lettuce's top runs straight up under the bun (scallops left white gaps under it); the wavy edge hangs below
+  a.region('M-148 -12L-138 -32H138L148 -12Q130 -2 104 -12Q78 -2 52 -12Q26 -2 0 -12Q-26 -2 -52 -12Q-78 -2 -104 -12Q-130 -2 -148 -12Z', lettuce, 'lettuce');
   a.region('M-130 -24Q-130 -120 0 -126Q130 -120 130 -24Z', bun, 'top bun');
   [[-60, -80], [-20, -100], [30, -94], [70, -70], [0, -64], [-90, -52]].forEach(([x, y]) => a.region(ellipse(x, y, 9, 5), 'none', 'seed'));
 }
@@ -59,7 +65,7 @@ function donut(a, dough = 'orange', icing = 'pink', plate = 'lightblue') {
   if (plate) a.region(ellipse(0, 70, 150, 30), plate, 'plate');
   a.region('M-120 0A120 90 0 1 0 120 0A120 90 0 1 0 -120 0ZM-40 0A40 28 0 1 1 40 0A40 28 0 1 1 -40 0Z', dough, 'donut');
   a.region('M-110 -8C-110 -70 110 -70 110 -8C104 20 80 6 60 22C40 46 20 44 0 48C-20 50 -50 30 -70 30C-90 36 -104 18 -110 -8ZM-40 0A40 28 0 1 1 40 0A40 28 0 1 1 -40 0Z', icing, 'icing');   // the same hole as the donut: no sliver of dough
-  [[-70, -30, 20], [-30, -56, -30], [40, -54, 30], [80, -24, -20], [-84, 6, 40], [70, 10, 70]].forEach(([x, y, r]) => a.at({ x, y, r }, (c) => c.line('M-8 0H8', 5)));
+  [[-70, -30, 20], [-30, -42, -30], [40, -40, 30], [80, -20, -20], [-84, 6, 40], [70, 8, 70]].forEach(([x, y, r]) => a.at({ x, y, r }, (c) => c.line('M-8 0H8', 5)));
 }
 function watermelon(a, flesh = 'red', rind = 'green', inner = 'lightgreen') {
   a.region('M-170 -20H170A170 170 0 0 1 -170 -20Z', rind, 'rind');
@@ -68,13 +74,8 @@ function watermelon(a, flesh = 'red', rind = 'green', inner = 'lightgreen') {
   [[-70, 20], [-20, 40], [40, 30], [80, 4], [-40, 70], [10, 84], [-100, 0]].forEach(([x, y]) => a.ink(ellipse(x, y, 6, 9)));
 }
 function polarBear(a, fur = 'none', nose = 'black', scarf = null) {
-  [[-74, 20], [-54, 24], [34, 24], [54, 20]].forEach(([x, y]) => a.region(rrect(x, y, 32, 66, 14), fur, 'leg'));
-  a.region(ellipse(-8, 0, 104, 64), fur, 'polar bear body');
-  if (scarf) { a.region(blob([[26, -22], [52, -60], [112, -50], [110, -14], [70, -6]], 1), scarf, 'scarf'); a.region(rrect(70, -24, 30, 66, 10), scarf, 'scarf end'); }   // something to colour on a white bear
-  a.region(circle(60, -90, 26), fur, 'ear'); a.region(circle(58, -92, 13), nose, 'inner ear');
-  a.region(blob([[50, -70], [100, -100], [160, -70], [180, -40], [150, -16], [80, -20]], 1), fur, 'polar bear head');
-  a.region(ellipse(176, -44, 13, 10), nose, 'nose');
-  eye(a, 120, -68, 1.15); smile(a, 160, -26, 8, 4);
+  // the one-silhouette walking bear (the old one was a head blob pasted on an ellipse); same footprint as before
+  a.at({ x: -4, y: 86, s: 0.8 }, (b) => require('./v2.js').bear(b, fur, 'none', fur, scarf));
 }
 function hedgehog(a, spines = 'brown', face_ = 'orange', apple = 'red', feet = 'pink') {
   a.region(rrect(-56, 40, 40, 46, 14), feet, 'foot'); a.region(rrect(18, 40, 40, 46, 14), feet, 'foot');
@@ -101,12 +102,18 @@ function igloo(a, snow = 'none', door = 'blue') {
   a.region('M-30 60V30A30 30 0 0 1 30 30V60Z', door, 'doorway');
 }
 function swan(a, body = 'none', beak = 'orange', water = null) {
-  a.region(blob([[-120, 0], [-150, -40], [-100, -30], [40, -30], [110, 0], [80, 50], [-80, 50]], 1), body, 'swan body');
-  a.region(blob([[-90, -10], [-60, -60], [20, -40], [40, 10], [-20, 30]], 1), body, 'wing');
-  a.line(curve([[-50, -10], [-10, -12], [20, 4]]), 2.4);
-  a.region('M60 -20C110 -60 60 -120 70 -150C80 -180 130 -180 136 -150L114 -146C110 -160 96 -160 94 -150C90 -120 140 -60 84 -10Z', body, 'neck');
-  a.region(poly([[132, -164], [168, -152], [134, -140]], 5), beak, 'beak');
-  eye(a, 112, -160, 0.95);
+  void water;
+  const { outline } = require('./v2.js');
+  a.group('swan', () => {
+    // ONE silhouette: body, S-neck and head (the neck was pasted on the body with a seam)
+    a.region(outline([[-150, -40, 1], [-100, -30], [10, -34], [56, -26], [90, -70], [70, -122], [76, -158], [100, -178],
+      [126, -174], [138, -156], [120, -148], [100, -152], [96, -130], [114, -80], [114, -30], [112, 2], [80, 50],
+      [-80, 50], [-122, 6]]), body, 'swan');
+    a.region(blob([[-90, -10], [-60, -60], [20, -40], [40, 10], [-20, 30]], 1), body, 'wing');
+    a.line(curve([[-50, -10], [-10, -12], [20, 4]]), 2.4);
+    a.region(outline([[132, -166], [172, -152, 1], [134, -140]]), beak, 'beak');
+    eye(a, 112, -160, 0.95);
+  });
 }
 function windmill(a, wall = 'red', roof = 'brown', sails = 'none', door = 'blue') {
   a.region(poly([[-60, -60], [60, -60], [80, 160], [-80, 160]], 6), wall, 'windmill tower');

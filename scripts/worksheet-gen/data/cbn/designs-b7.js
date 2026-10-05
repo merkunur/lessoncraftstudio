@@ -35,7 +35,7 @@ const B7 = [
   { id: 'flamingo', kind: 'picture', level: 2, names: { en: 'Flamingo' },
     draw(a) {
       a.group('water', () => a.region(ellipse(300, 490, 240, 34), 'lightblue', 'water'));
-      a.at({ x: 280, y: 300, s: 1.35 }, (b) => W8.flamingo(b, 'pink', 'orange', 'black'));
+      a.at({ x: 280, y: 300, s: 1.35 }, (b) => W8.flamingo(b, 'pink', 'none', 'black'));
       a.at({ x: 500, y: 460, s: 0.9 }, (b) => P.cattail(b, 'brown', 'green'));
     } },
   { id: 'pizza-slice', kind: 'picture', level: 2, names: { en: 'Pizza Slice' },
@@ -91,9 +91,9 @@ const B7 = [
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.6}H${W}V${H}H0Z`, 'blue', 'lake');
-      a.at({ x: 90, y: 90, s: 0.85 }, (b) => P.sun(b, 'orange'));   // away from the beak
+      a.at({ x: 90, y: 90, s: 0.85 }, (b) => P.sun(b));   // away from the beak
       // the flamingo WADES: its legs go down into the water (standing on the horizon it hung in the air)
-      a.at({ x: 230, y: 290, s: 1.3 }, (b) => W8.flamingo(b, 'pink', 'orange', 'black'));
+      a.at({ x: 230, y: 290, s: 1.3 }, (b) => W8.flamingo(b, 'pink', 'none', 'black'));
       a.at({ x: 100, y: 470, s: 0.8 }, (b) => P.lilyPad(b, 'green', 40));
       a.at({ x: 560, y: 460, s: 0.9 }, (b) => P.cattail(b, 'brown', 'green'));
     } },

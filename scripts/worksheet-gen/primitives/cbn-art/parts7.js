@@ -46,12 +46,13 @@ function backpack(a, bag = 'blue', pocket = 'red', straps = 'yellow', zip = 'gre
 function sundae(a, glass = 'none', s1 = 'pink', s2 = 'yellow', s3 = 'brown', cream = 'none', cherry = 'red', wafer = 'orange') {
   a.region(poly([[-26, 90], [26, 90], [40, 130], [-40, 130]], 6), glass, 'glass foot');
   a.region(rrect(-12, 30, 24, 70, 6), glass, 'glass stem');
-  a.region('M-120 -30H120Q110 40 0 50Q-110 40 -120 -30Z', glass, 'glass bowl');
+  // the scoops sit IN the glass: the bowl's front is drawn over their lower halves (they were pasted on top of it)
+  a.at({ x: 70, y: -100, r: 24 }, (c) => c.region(rrect(-14, -70, 28, 90, 6), wafer, 'wafer'));
   a.region(circle(-56, -40, 44), s1, 'scoop'); a.region(circle(56, -40, 44), s2, 'scoop');
   a.region(circle(0, -84, 46), s3, 'scoop');
-  a.at({ x: 70, y: -100, r: 24 }, (c) => c.region(rrect(-14, -70, 28, 90, 6), wafer, 'wafer'));
   a.region('M-40 -126Q-50 -150 -20 -152Q-10 -176 14 -164Q40 -170 40 -144Q56 -126 30 -120Q0 -112 -40 -126Z', cream, 'cream');
   a.region(circle(0, -176, 20), cherry, 'cherry'); a.line(curve([[0, -196], [8, -214], [24, -220]]), 3);
+  a.region('M-120 -30H120Q110 40 0 50Q-110 40 -120 -30Z', glass, 'glass bowl');
 }
 function mug(a, cup = 'red', drink = 'brown', cream = 'none', dots = 'yellow') {
   a.region('M90 -30C150 -30 150 60 90 60L90 38C122 38 122 -8 90 -8Z', cup, 'handle');

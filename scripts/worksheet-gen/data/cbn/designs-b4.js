@@ -7,6 +7,7 @@ const P = require('../../primitives/cbn-art/parts.js');
 const Q = require('../../primitives/cbn-art/parts2.js');
 const R = require('../../primitives/cbn-art/parts3.js');
 const T = require('../../primitives/cbn-art/parts5.js');
+const N = require('../../primitives/cbn-art/v2.js');
 const { blob, rrect, ellipse } = require('../../primitives/cbn-art/core.js');
 
 const W = 600, H = 560;
@@ -19,43 +20,43 @@ const B4 = [
   { id: 'brown-bear', kind: 'picture', level: 2, names: { en: 'Brown Bear' },
     draw(a) {
       mound(a, 300, 470, 260);
-      a.at({ x: 520, y: 400, s: 0.95 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
-      a.at({ x: 250, y: 360, s: 1.35 }, (b) => T.bear(b, 'brown', 'orange', 'orange'));
+      a.at({ x: 535, y: 405, s: 0.9 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
+      a.at({ x: 212, y: 470, s: 1.1 }, (b) => N.bear(b, 'brown', 'orange', 'orange'));
     } },
   { id: 'red-fox', kind: 'picture', level: 2, names: { en: 'Little Fox' },
     draw(a) {
       mound(a, 300, 480, 250);
-      a.at({ x: 500, y: 420, s: 0.95 }, (b) => P.mushroom(b, 'red', 'none'));
+      a.at({ x: 535, y: 430, s: 0.85 }, (b) => P.mushroom(b, 'red', 'none'));
       a.at({ x: 100, y: 410, s: 0.95 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
-      a.at({ x: 280, y: 320, s: 1.4 }, (b) => T.fox(b, 'orange', 'none', 'black'));
+      a.at({ x: 262, y: 478, s: 1.28 }, (b) => N.fox(b, 'orange', 'none', 'black'));
     } },
   { id: 'pony', kind: 'picture', level: 2, names: { en: 'Pony' },
     draw(a) {
       mound(a, 300, 492, 250);
       a.at({ x: 510, y: 420, s: 1.0 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
-      a.at({ x: 270, y: 330, s: 1.2 }, (b) => T.pony(b, 'brown', 'black', 'grey'));
+      a.at({ x: 280, y: 476, s: 1.05 }, (b) => N.pony(b, 'brown', 'black', 'grey'));
     } },
   { id: 'sunflower', kind: 'picture', level: 2, names: { en: 'Sunflower' },
     draw(a) {
       a.at({ x: 300, y: 250, s: 1.12 }, (b) => T.sunflower(b, 'yellow', 'brown', 'green', 'orange'));
-      a.at({ x: 372, y: 282, s: 0.58 }, (b) => Q.ladybird(b, 'red', 'black'));
+      a.at({ x: 300, y: 470, s: 0.5 }, (b) => Q.ladybird(b, 'red', 'black'));
     } },
   { id: 'tractor', kind: 'picture', level: 3, names: { en: 'Tractor' },
     draw(a) {
       mound(a, 300, 480, 270);
       a.at({ x: 300, y: 380, s: 1.3 }, (b) => T.tractor(b, 'red', 'black', 'yellow', 'lightblue', 'grey'));
-      a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b, 'orange'));
+      a.at({ x: 500, y: 90, s: 0.85 }, (b) => P.sun(b));
     } },
   { id: 'helicopter', kind: 'picture', level: 3, names: { en: 'Helicopter' },
     draw(a) {
       a.at({ x: 110, y: 450, s: 0.75 }, (b) => P.cloud(b));
-      a.at({ x: 500, y: 100, s: 0.85 }, (b) => P.sun(b, 'orange'));
-      a.at({ x: 330, y: 280, s: 1.25 }, (b) => T.helicopter(b, 'blue', 'lightblue', 'red', 'grey', 'yellow'));
+      a.at({ x: 500, y: 100, s: 0.85 }, (b) => P.sun(b));
+      a.at({ x: 330, y: 280, s: 1.25 }, (b) => T.helicopter(b, 'blue', 'lightblue', 'red', 'grey', 'orange'));
     } },
   { id: 'baby-dragon', kind: 'picture', level: 3, names: { en: 'Baby Dragon' },
     draw(a) {
       mound(a, 300, 480, 260, 'lightgreen');
-      a.at({ x: 330, y: 320, s: 1.35 }, (b) => T.dragon(b, 'green', 'yellow', 'purple', 'orange', 'pink'));
+      a.at({ x: 330, y: 476, s: 1.12 }, (b) => N.dragon(b, 'green', 'yellow', 'purple', 'orange', 'pink'));
     } },
   { id: 'mushroom-house', kind: 'picture', level: 3, names: { en: 'Mushroom House' },
     draw(a) {
@@ -70,12 +71,12 @@ const B4 = [
     draw(a) {
       // the whole picture lifted and enlarged (it sat low under a big empty space)
       a.at({ x: -36, y: -60, s: 1.12 }, (a) => {
-        a.group('sand', () => a.region(blob([[60, 470], [140, 430], [300, 420], [460, 430], [540, 470], [300, 500]], 1), 'yellow', 'sand'));
+        a.group('sand', () => a.region(blob([[62, 476], [130, 424], [300, 408], [470, 424], [548, 476], [300, 516]], 1), 'yellow', 'sand'));
         a.at({ x: 200, y: 360, s: 1.2 }, (b) => T.bucket(b, 'blue', 'yellow', 'red'));
         a.at({ x: 430, y: 380, s: 1.15 }, (b) => T.beachBall(b, ['red', 'purple', 'blue', 'green']));   // no yellow panel on yellow sand
         // on the sand, not floating above it
-        a.at({ x: 522, y: 452, s: 0.5 }, (b) => T.starfish(b, 'orange'));
-        a.at({ x: 86, y: 468, s: 0.85 }, (b) => P.shell(b, 'pink'));
+        a.at({ x: 316, y: 474, s: 0.5 }, (b) => T.starfish(b, 'orange'));
+        a.at({ x: 112, y: 482, s: 0.8 }, (b) => P.shell(b, 'pink'));
       });
     } },
 
@@ -85,7 +86,7 @@ const B4 = [
       seaSand(a, 0.48, 0.66);
       a.at({ x: 480, y: 90, s: 0.95 }, (b) => P.sun(b));
       a.at({ x: 140, y: 90, s: 0.8 }, (b) => P.cloud(b));
-      a.at({ x: 300, y: 450, s: 1.15 }, (b) => T.starfish(b, 'orange'));
+      a.at({ x: 300, y: 478, s: 1.05 }, (b) => T.starfish(b, 'orange'));
     } },
   { id: 'octopus-sea', kind: 'scene', level: 1, names: { en: 'Happy Octopus' },
     draw(a) {
@@ -111,22 +112,22 @@ const B4 = [
   { id: 'sunflower-field', kind: 'scene', level: 1, names: { en: 'Sunflower Day' },
     draw(a) {
       skyGrass(a, 0.8);
-      a.at({ x: 480, y: 80, s: 0.85 }, (b) => P.sun(b, 'orange'));
+      a.at({ x: 480, y: 80, s: 0.85 }, (b) => P.sun(b));
       // ONE big sunflower with 8 petals: two 12-petal ones were far past level 1's 16 parts
       a.at({ x: 280, y: 250, s: 1.25 }, (b) => T.sunflower(b, 'yellow', 'brown', 'green', null, 8));
     } },
   { id: 'fox-snow', kind: 'scene', level: 1, names: { en: 'Fox in the Snow' },
     draw(a) {
       Q.snow(a, W, H, { horizon: 0.6 });
-      a.at({ x: 500, y: 330, s: 0.8 }, (b) => P.pineTree(b));
-      a.at({ x: 260, y: 340, s: 1.3 }, (b) => T.fox(b, 'orange', 'none', 'black'));
+      a.at({ x: 490, y: 290, s: 1.15 }, (b) => P.pineTree(b));
+      a.at({ x: 232, y: 492, s: 1.18 }, (b) => N.fox(b, 'orange', 'none', 'black'));
     } },
   { id: 'dragon-castle', kind: 'scene', level: 3, names: { en: 'Dragon and Castle' },
     draw(a) {
       skyGrass(a, 0.58, 'lightblue', 'lightgreen');   // light grass: the green dragon stands out
       a.at({ x: 90, y: 80, s: 0.75 }, (b) => P.sun(b));
-      a.at({ x: 456, y: 300, s: 0.72 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));   // far away on the hill
-      a.at({ x: 196, y: 404, s: 0.92 }, (b) => T.dragon(b, 'green', 'yellow', 'purple', 'yellow', 'red'));
+      a.at({ x: 452, y: 304, s: 0.72 }, (b) => R.castle(b, 'grey', 'purple', 'red', 'brown'));   // far away on the hill
+      a.at({ x: 204, y: 520, s: 0.86 }, (b) => N.dragon(b, 'green', 'yellow', 'purple', 'yellow', 'red'));
     } },
   { id: 'tractor-farm', kind: 'scene', level: 3, names: { en: 'Tractor on the Farm' },
     draw(a) {

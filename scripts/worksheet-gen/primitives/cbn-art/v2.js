@@ -197,32 +197,140 @@ function bunny(a, fur = 'grey', inner = 'pink', tummy = 'none') {
 
 /** a unicorn standing on y = 0, facing right (horse proportions); about 310 wide, 370 tall. mane = [mane, tail, forelock] */
 function unicorn(a, body = 'none', mane = ['pink', 'purple', 'blue'], horn = 'yellow', hoof = 'purple') {
-  a.group('unicorn', () => {
+  horse(a, { body, mane, horn, hoof, cheek: 'pink', name: 'unicorn' });
+}
+/** a pony: the unicorn's horse with no horn, a one-colour mane and tail */
+function pony(a, coat = 'brown', mane = 'black', hoof = 'grey') {
+  horse(a, { body: coat, mane: [mane, mane, mane], horn: null, hoof, cheek: null, name: 'pony' });
+}
+function horse(a, o) {
+  const { body, mane, horn, hoof } = o;
+  a.group(o.name, () => {
     const leg = (x0, x1) => { a.region(outline([[x0, -110], [x1, -110], [x1, -24], [x1 + 2, 0, 1], [x0 - 2, 0, 1], [x0, -24]]), body, 'far leg');
-      a.region(outline([[x0, -30], [x1, -30], [x1 + 2, 0, 1], [x0 - 2, 0, 1]]), hoof, 'hoof'); };
-    leg(46, 78); leg(-70, -38);
+      a.region(outline([[x0, -34], [x1, -34], [x1 + 2, 0, 1], [x0 - 2, 0, 1]]), hoof, 'hoof'); };
+    leg(42, 76); leg(-62, -28);
     // a flowing two-colour tail from the rump
     a.region(outline([[-112, -172], [-156, -160], [-184, -108], [-180, -40], [-156, -58], [-146, -108], [-118, -136]]), mane[0], 'tail');
-    a.region(outline([[-124, -162], [-166, -126], [-176, -64], [-150, -80], [-138, -120], [-116, -142]]), mane[1], 'tail stripe');
+    if (mane[1] !== mane[0]) a.region(outline([[-124, -162], [-166, -126], [-176, -64], [-150, -80], [-138, -120], [-116, -142]]), mane[1], 'tail stripe');
     // horn and ear behind the head, rooted inside it
-    a.region(outline([[114, -300], [140, -298], [136, -372, 1]]), horn, 'horn');
-    a.region(outline([[96, -296], [92, -334, 1], [116, -304]]), body, 'ear');
+    if (horn) a.region(outline([[114, -300], [140, -298], [136, -372, 1]]), horn, 'horn');
+    const one = mane[0] === mane[1] && mane[1] === mane[2];
+    const drawEar = () => a.region(outline([[92, -292], [88, -342, 1], [120, -302]]), body, 'ear');
+    if (!one) drawEar();
     // THE silhouette (horse proportions: a deep body, the chest in front of the front legs, a slanting neck)
     a.region(outline([[-120, -176], [-50, -192], [30, -196], [52, -228], [70, -264], [90, -294], [114, -308],
       [148, -294], [174, -258], [182, -232], [168, -214], [140, -218], [122, -230], [108, -212], [112, -186],
       [116, -150], [108, -120], [100, -106], [100, -24], [102, 0, 1], [68, 0, 1], [68, -24], [66, -98],
       [20, -94], [-40, -94], [-58, -100], [-58, -24], [-54, 0, 1], [-88, 0, 1], [-88, -24], [-98, -112],
-      [-118, -136], [-128, -158]]), body, 'unicorn');
+      [-118, -136], [-128, -158]]), body, o.name);
     a.region(outline([[68, -30], [100, -30], [102, 0, 1], [68, 0, 1]]), hoof, 'hoof');
     a.region(outline([[-88, -30], [-58, -30], [-54, 0, 1], [-88, 0, 1]]), hoof, 'hoof');
     // a rainbow mane ON the back of the neck: each lock overlaps the neck's edge (they floated beside it)
-    a.region(outline([[44, -196], [62, -232], [36, -252], [8, -226], [12, -196]]), mane[2], 'mane');
-    a.region(outline([[60, -228], [80, -266], [54, -286], [24, -262], [32, -232]]), mane[1], 'mane');
-    a.region(outline([[78, -262], [104, -302], [80, -320], [46, -298], [50, -266]]), mane[0], 'mane');
+    if (one) {
+      a.region(outline([[44, -196], [8, -224], [26, -262], [48, -298], [80, -322], [104, -302], [80, -266], [62, -232]]), mane[0], 'mane');
+      drawEar();
+    } else {
+      a.region(outline([[44, -196], [62, -232], [36, -252], [8, -226], [12, -196]]), mane[2], 'mane');
+      a.region(outline([[60, -228], [80, -266], [54, -286], [24, -262], [32, -232]]), mane[1], 'mane');
+      a.region(outline([[78, -262], [104, -302], [80, -320], [46, -298], [50, -266]]), mane[0], 'mane');
+    }
     P.eye(a, 140, -260, 1.15);
-    a.region(ellipse(162, -230, 15, 11), 'pink', 'cheek');
+    if (o.cheek) a.region(ellipse(162, -230, 15, 11), o.cheek, 'cheek');
+    else a.ink(ellipse(170, -238, 4, 3));
     P.smile(a, 170, -218, 6, 2);
   });
 }
 
-module.exports = { outline, giraffe, squirrel, mouse, duck, cow, bunny, unicorn };
+/** a bear WALKING on all fours on y = 0, facing right; about 370 wide, 230 tall */
+function bear(a, fur = 'brown', muzzle = 'orange', inner = 'orange', scarf = null) {
+  a.group('bear', () => {
+    const leg = (x0, x1) => a.region(outline([[x0, -76], [x1, -76], [x1 + 2, -16], [x1 + 6, 0, 1], [x0 - 2, 0, 1], [x0, -16]]), fur, 'far leg');
+    leg(52, 84); leg(-34, 0);
+    a.region(circle(-138, -106, 24), fur, 'tail');
+    a.region(circle(122, -196, 26), fur, 'ear');
+    a.region(outline([[-140, -90], [-122, -140], [-62, -168], [0, -176], [52, -166], [84, -170], [104, -190],
+      [140, -204], [178, -194], [198, -168], [216, -152], [234, -140], [228, -118], [198, -108], [160, -100],
+      [132, -86], [122, -50], [124, -16], [132, 0, 1], [84, 0, 1], [84, -20], [80, -56], [40, -62], [-20, -60],
+      [-48, -62], [-48, -16], [-42, 0, 1], [-92, 0, 1], [-96, -20], [-118, -56], [-138, -70]]), fur, 'bear');
+    a.region(circle(164, -208, 32), fur, 'ear'); if (inner !== fur) a.region(circle(168, -210, 13), inner, 'inner ear');
+    if (scarf) {   // round the neck, one end hanging down the chest
+      a.region(outline([[62, -164], [88, -182], [152, -102], [124, -82]]), scarf, 'scarf');
+      a.region(outline([[108, -98], [138, -102], [144, -40], [116, -36]]), scarf, 'scarf end');
+    }
+    a.region(ellipse(208, -134, 28, 20), muzzle, 'muzzle');
+    a.ink(ellipse(230, -140, 8, 6));
+    P.eye(a, 176, -162, 1.2);
+    a.line(curve([[200, -120], [210, -114], [220, -120]]), 2.6);
+  });
+}
+
+/** a bear SITTING, facing the viewer, on y = 0; about 230 wide, 310 tall. hold(b) draws what the paws hold, at the
+ *  paws (local origin = between the paws); the paws are drawn over it. */
+function bearSit(a, fur = 'brown', muzzle = 'orange', inner = 'orange', belly = 'orange', hold = null) {
+  a.group('bear', () => {
+    [-1, 1].forEach((k) => { a.region(circle(k * 72, -284, 32), fur, 'ear'); a.region(circle(k * 76, -290, 12), inner, 'inner ear'); });
+    a.region(outline([[0, -296], [50, -288], [78, -250], [72, -206], [52, -180], [86, -152], [110, -96], [114, -40],
+      [98, -8], [60, 0, 1], [-60, 0, 1], [-98, -8], [-114, -40], [-110, -96], [-86, -152], [-52, -180], [-72, -206],
+      [-78, -250], [-50, -288]]), fur, 'bear');
+    a.region(ellipse(0, -76, 62, 56), belly, 'belly');
+    a.region(ellipse(0, -212, 34, 24), muzzle, 'muzzle');
+    a.ink(ellipse(0, -224, 11, 8));
+    P.eye(a, -28, -246, 1.15); P.eye(a, 28, -246, 1.15);
+    a.line(curve([[-14, -200], [0, -194], [14, -200]]), 2.6);
+    if (hold) a.at({ x: 0, y: -104 }, hold);
+    [-1, 1].forEach((k) => a.region(outline([[k * 72, -162], [k * 100, -140], [k * 82, -104], [k * 40, -88], [k * 26, -104], [k * 48, -134]]), fur, 'arm'));
+    [-1, 1].forEach((k) => { a.region(ellipse(k * 48, -18, 50, 30), fur, 'foot'); a.region(ellipse(k * 54, -16, 22, 17), inner, 'foot pad'); });
+  });
+}
+
+/** a fox SITTING, facing the viewer, on y = 0; bushy tail round the right side; about 280 wide, 300 tall */
+function fox(a, fur = 'orange', white = 'none', dark = 'black') {
+  a.group('fox', () => {
+    a.region(outline([[50, -30], [96, -56], [126, -90], [140, -116], [176, -110], [182, -70], [164, -30], [122, -4], [70, 0, 1], [40, 0, 1]]), fur, 'tail');
+    a.region(outline([[132, -102], [146, -128], [168, -134], [184, -114], [180, -92], [156, -90]]), white, 'tail tip');
+    [-1, 1].forEach((k) => {
+      a.region(outline([[k * 82, -214], [k * 74, -304, 1], [k * 20, -252]]), fur, 'ear');
+      a.region(outline([[k * 64, -232], [k * 64, -278, 1], [k * 40, -256]]), dark, 'inner ear');
+    });
+    a.region(outline([[0, -264], [46, -258], [80, -224], [94, -178, 1], [62, -160], [66, -130], [86, -80], [98, -30],
+      [94, -8], [72, 0, 1], [-72, 0, 1], [-94, -8], [-98, -30], [-86, -80], [-66, -130], [-62, -160], [-94, -178, 1],
+      [-80, -224], [-46, -258]]), fur, 'fox');
+    a.region(outline([[-40, -152], [40, -152], [48, -90], [0, -56], [-48, -90]]), white, 'bib');
+    a.region(outline([[-76, -184], [-34, -196], [0, -180], [34, -196], [76, -184], [34, -150], [0, -140], [-34, -150]]), white, 'muzzle');
+    [-1, 1].forEach((k) => {
+      const x0 = 0, x1 = k * 40;
+      a.region(outline([[x0, -98], [x1, -98], [x1, -40], [x1 + k * 2, 0, 1], [x0, 0, 1], [x0, -40]]), fur, 'leg');
+      a.region(outline([[x0, -36, 1], [x1, -36, 1], [x1 + k * 2, 0, 1], [x0, 0, 1]]), dark, 'sock');
+    });
+    P.eye(a, -30, -212, 1.2); P.eye(a, 30, -212, 1.2);
+    a.ink(ellipse(0, -176, 10, 8));
+    a.line(curve([[-12, -160], [0, -154], [12, -160]]), 2.6);
+  });
+}
+
+/** a baby dragon SITTING up on its haunches on y = 0, facing right; about 400 wide, 330 tall */
+function dragon(a, skin = 'green', belly = 'yellow', wing = 'purple', spikes = 'orange', cheek = 'pink') {
+  a.group('dragon', () => {
+    // spikes rooted along the back and the tail (their bases sit under the body)
+    [[-126, -62, -150, -106], [-88, -98, -130, -138]].forEach(([x, y, tx, ty]) =>
+      a.region(outline([[x - 26, y + 14], [tx, ty, 1], [x + 24, y - 16]]), spikes, 'spike'));
+    a.region(outline([[-6, -214], [-70, -298, 1], [-74, -244], [-128, -268, 1], [-104, -210], [-158, -206, 1], [-62, -140]]), wing, 'wing');
+    a.region(outline([[34, -264], [46, -330, 1], [78, -278]]), belly, 'horn');
+    a.region(outline([[84, -280], [106, -336, 1], [122, -264]]), belly, 'horn');
+    a.region(outline([[-176, -50, 1], [-140, -56], [-110, -76], [-76, -116], [-62, -172], [-30, -222], [4, -256],
+      [44, -280], [92, -284], [134, -264], [164, -238], [178, -212], [168, -192], [140, -186], [100, -184],
+      [78, -172], [86, -136], [94, -88], [84, -40], [64, 0, 1], [-70, 0, 1], [-100, -20], [-130, -28], [-156, -34]]), skin, 'dragon');
+    a.region(outline([[-164, -58], [-208, -62, 1], [-178, -22, 1], [-156, -38]]), spikes, 'tail tip');
+    a.region(outline([[56, -172], [84, -132], [88, -76], [72, -24], [30, -26], [26, -110], [38, -156]]), belly, 'belly');
+    a.line('M34 -136L82 -136M28 -96L86 -96M30 -58L82 -58', 2.4);
+    a.region(ellipse(-12, -58, 64, 52), skin, 'leg');
+    a.region(outline([[-50, -20], [56, -22], [74, 0, 1], [-56, 0, 1]]), skin, 'foot');
+    a.region(outline([[76, -158], [114, -138], [128, -116], [108, -108], [72, -128]]), skin, 'arm');
+    P.eye(a, 116, -238, 1.2);
+    a.ink(ellipse(162, -222, 4, 3));
+    a.region(ellipse(124, -206, 17, 12), cheek, 'cheek');
+    a.line(curve([[144, -200], [154, -196], [164, -204]]), 2.6);
+  });
+}
+
+module.exports = { outline, giraffe, squirrel, mouse, duck, cow, bunny, unicorn, bear, bearSit, fox, pony, dragon };

@@ -36,15 +36,21 @@ function koala(a, fur = 'grey', inner = 'pink', nose = 'black') {
   eye(a, -34, -64, 1.2); eye(a, 34, -64, 1.2);
   a.region(blob([[-60, 20], [-100, 0], [-110, 30], [-70, 50]], 1), fur, 'arm'); a.region(blob([[60, 20], [100, 0], [110, 30], [70, 50]], 1), fur, 'arm');
 }
-function flamingo(a, pink = 'pink', beak = 'orange', tip = 'black') {
-  a.line('M-6 60V150M-6 110L30 88', 6);   // the legs end IN the water
-  a.region(blob([[-80, 0], [-30, -40], [60, -30], [86, 10], [40, 60], [-50, 50]], 1), pink, 'flamingo body');
-  a.region(blob([[-60, 0], [-10, -20], [40, 0], [10, 30], [-40, 30]], 1), pink, 'wing');
-  a.line(curve([[-40, 10], [-6, 6], [20, 16]]), 2.4);
-  a.region('M60 -10C110 -50 40 -110 60 -160C70 -190 110 -190 116 -160L96 -156C92 -170 82 -170 80 -158C68 -116 136 -50 80 8Z', pink, 'neck');
-  a.region(poly([[106, -170], [150, -150], [128, -128], [106, -148]], 6), beak, 'beak');
-  a.region(poly([[126, -150], [156, -152], [142, -122], [124, -130]], 4), tip, 'beak tip');
-  eye(a, 94, -168, 0.95);
+function flamingo(a, pink = 'pink', beak = 'none', tip = 'black') {
+  // ONE silhouette (body, S-neck and head; the neck had a seam where it was pasted on the body), a curved two-tone
+  // beak, standing on one leg in the water
+  const { outline } = require('./v2.js');
+  a.group('flamingo', () => {
+    a.line('M-4 44V150M-4 104L34 84L20 66', 6);
+    a.region(outline([[-98, -14, 1], [-62, -40], [-12, -48], [36, -38], [62, -24], [76, -56], [68, -104], [62, -146],
+      [70, -180], [92, -198], [116, -192], [126, -172], [112, -160], [92, -158], [86, -138], [92, -100], [104, -56],
+      [98, -10], [84, 20], [48, 48], [-18, 52], [-62, 34], [-86, 10]]), pink, 'flamingo');
+    a.region(outline([[-60, -8], [-14, -30], [36, -20], [22, 12], [-30, 20]]), pink, 'wing');
+    a.line(curve([[-40, 4], [-6, 0], [18, 8]]), 2.4);
+    a.region(outline([[112, -186], [138, -182], [152, -168], [144, -154], [120, -156], [110, -168]]), beak, 'beak');
+    a.region(outline([[136, -182], [154, -170], [158, -142, 1], [142, -152]]), tip, 'beak tip');
+    eye(a, 100, -178, 0.95);
+  });
 }
 function seahorse(a, body = 'orange', fin = 'yellow', belly = 'yellow') {
   // rebuilt from clean overlapping shapes (the first outline read poorly and its crest spikes sat loose on the head)

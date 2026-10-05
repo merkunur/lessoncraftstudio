@@ -80,6 +80,20 @@ function pieceColours(d) {
   const pieces = [...mids.map((p, i) => ['m' + i, p]), ...smalls.map((p, i) => ['s' + i, p])];
   const allOf = (p) => [...j.parts.filter((q) => !q.fixed), ...mids, ...smalls].filter((q) => q.src === p.src && q.item === p.item);
   const bottomSmall = [];
+  // a Christmas tree's ornaments: the topmost piece is the star (yellow, numbered when it can hold one), the round pieces
+  // are baubles (red, painted with the biggest bauble under one number); the branch slivers follow their neighbours
+  for (const item of new Set(smalls.filter((p) => p.src === 'Christmas bw/christmas_tree').map((p) => p.item))) {
+    const own = smalls.map((p, i) => ['s' + i, p]).filter(([, p]) => p.src === 'Christmas bw/christmas_tree' && p.item === item);
+    if (!own.length) continue;
+    const star = own.reduce((a, b) => (b[1].y < a[1].y ? b : a));
+    if (star[1].r >= 5.5) res.set(star[0], { colour: 'yellow', anchor: star[0] });
+    const round = own.filter(([k, p]) => k !== star[0] && p.r >= 2.5 && p.area <= 1.6 * Math.PI * p.r * p.r);
+    const big = round.filter(([, p]) => p.r >= 5.5).sort((a, b) => b[1].area - a[1].area)[0];
+    if (big) for (const [k] of round) res.set(k, { colour: 'red', anchor: big[0] });
+    // every other piece of the tree is branch: green, painted with the tree's own green part
+    const treePart = j.parts.findIndex((q, i) => !q.fixed && q.item === item && cs[i] === 'green');
+    if (treePart >= 0) for (const [k] of own) if (!res.has(k)) res.set(k, { colour: 'green', anchor: 'p' + treePart });
+  }
   // the per-worksheet choices made while reading it one by one (lineart-colours.js PIECE) come first
   for (const [k, v] of Object.entries(PIECE[d.id] || {})) {
     if (v === 'none') res.set(k, { colour: 'none', anchor: null });

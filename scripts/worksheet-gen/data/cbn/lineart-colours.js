@@ -235,6 +235,9 @@ const OVERRIDE = {
   monkey: { 6: 'brown' },
   rabbit: { 4: 'grey' },
   bat: { 3: 'purple' },
+  sloth: { 4: 'brown' },
+  peacock: { 6: 'blue' },
+  ostrich: { 7: 'lightgreen', 9: 'pink' },
 };
 // 2026-10-05: the hand-lettered ATTACH table is retired — small pieces now attach automatically to the numbered part they
 // border most (tools/cbn-lineart-build.js nb), and a lettered table would point at the wrong pieces after a rebuild.
@@ -280,10 +283,18 @@ const PIECE = {
   bull: { m2: 'yellow', m3: 'brown', s5: ['brown', 'p2'], s77: ['brown', 'p2'], s6: ['yellow', 'm2'], s8: ['yellow', 'm2'], s10: ['yellow', 'm2'], s14: ['yellow', 'm2'], s19: ['yellow', 'm2'], s20: ['yellow', 'm2'], s23: ['yellow', 'm2'], s28: ['yellow', 'm2'], s30: ['yellow', 'm2'], s33: ['yellow', 'm2'], s38: ['yellow', 'm2'], s50: ['yellow', 'm2'], s157: ['yellow', 'm2'] },
   crab: { s2: ['red', 'p0'], s3: ['red', 'p0'], s4: ['red', 'p0'], s5: ['red', 'p0'] },
   fox: { s4: ['orange', 'm0'], s33: ['orange', 'm0'] },
+  ostrich: { s0: ['pink', 'p8'], s1: ['pink', 'p8'] },
+  owl: { s3: ['orange', 'p8'], s5: ['orange', 'p8'], s17: ['orange', 'p8'], s18: ['orange', 'p8'] },
+  panda: { m0: 'black', m1: 'black', s10: ['pink', 'p7'], s11: ['pink', 'p8'], s18: ['pink', 'p8'], s20: ['pink', 'p7'], s23: ['pink', 'p7'], s25: ['pink', 'p8'], s26: ['pink', 'p7'], s27: ['pink', 'p8'], s33: ['pink', 'p7'], s37: ['pink', 'p7'], s38: ['pink', 'p8'], s39: ['pink', 'p8'], s40: ['pink', 'p7'], s42: ['pink', 'p7'], s43: ['pink', 'p7'], s44: ['pink', 'p8'], s45: ['pink', 'p7'], s46: ['pink', 'p8'], s52: ['pink', 'p8'], s55: ['pink', 'p7'] },
+  peacock: { s4: ['blue', 'p0'], s22: ['blue', 'p0'], s28: ['blue', 'p0'], s29: ['blue', 'p0'], s62: ['blue', 'p0'], s76: ['blue', 'p0'], s84: ['blue', 'p0'], s90: ['blue', 'p0'] },
+  penguin: { m3: 'orange', m0: 'orange', m1: 'orange' },
+  sloth: { s8: 'none', s11: 'none' },
+  squirrel: { m0: 'orange' },
+  tiger: { m0: 'pink', m1: 'pink', m3: 'pink', m4: 'pink', s7: ['orange', 'p1'], s12: ['orange', 'p1'], s14: ['orange', 'p1'], s15: ['orange', 'p1'], s16: ['orange', 'p1'], s18: ['orange', 'p1'], s19: ['orange', 'p1'], s21: ['orange', 'p1'], s27: ['orange', 'p1'], s29: ['orange', 'p1'], s31: ['orange', 'p1'], s33: ['orange', 'p1'], s36: ['orange', 'p1'], s38: ['orange', 'p1'], s95: ['orange', 'p1'], s132: ['orange', 'p1'] },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },
-  dinosaur: { m1: 'orange', m4: 'orange', s11: ['orange', 'm4'], s3: ['orange', 'm1'], s17: ['orange', 'm4'], m5: 'orange', m6: 'orange', m0: 'lightgreen' },
+  dinosaur: { m1: 'orange', m4: 'orange', s11: ['orange', 'm4'], s3: ['orange', 'm1'], s17: ['orange', 'm4'], m5: 'orange', m6: 'orange', m0: 'green' },
 };
 // natural-white SLIVERS no piece owns, read and confirmed one by one (tools/cbn-unpainted.js allows a white area
 // containing the point): [x, y, reason]

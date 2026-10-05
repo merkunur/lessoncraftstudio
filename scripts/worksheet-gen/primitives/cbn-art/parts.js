@@ -33,8 +33,10 @@ function rainbow(a, cols = ['red', 'orange', 'yellow', 'green', 'blue']) {
 function moon(a, c = 'yellow') { a.region('M16 -43A46 46 0 1 0 16 43A54 54 0 0 1 16 -43Z', c, 'moon'); eye(a, -14, -4, 0.75); smile(a, -12, 12, 6, 3); }
 function bigStar(a, c = 'yellow', R = 26) { a.region(star(0, 0, R, R * 0.48, 5, -90, R * 0.18), c, 'star'); }
 function planet(a, body = 'orange', ringC = 'purple') {
+  // the ring goes AROUND the planet: its far half behind it, its near half in front (it was one plate across the planet) — 2026-10-05
+  a.at({ r: -14 }, (b) => b.region('M-90 0A90 26 0 0 1 90 0L50 0A50 10 0 0 0 -50 0Z', ringC, 'ring'));
   a.region(circle(0, 0, 46), body, 'planet');
-  a.region('M-88 -10A88 28 0 0 0 88 -10L58 -10A58 9 0 0 1 -58 -10Z', ringC, 'ring');
+  a.at({ r: -14 }, (b) => b.region('M-90 0A90 26 0 0 0 90 0L50 0A50 10 0 0 1 -50 0Z', ringC, 'ring'));
   a.line(curve([[-30, -26], [-6, -32], [20, -22]]), 2.6);
 }
 
@@ -51,9 +53,11 @@ function pineTree(a, crown = 'green', trunk = 'brown') {
 }
 function bush(a, c = 'green', w = 70, h = 44) { a.region(bumps(0, 0, w, h, 7, 0.44, 0.3, -100), c, 'bush'); }
 function grassTuft(a, x, y, s = 1) { a.line(curve([[x - 10 * s, y], [x - 8 * s, y - 14 * s], [x - 4 * s, y]]), 2.4); a.line(curve([[x - 3 * s, y], [x, y - 20 * s], [x + 3 * s, y]]), 2.4); a.line(curve([[x + 4 * s, y], [x + 8 * s, y - 13 * s], [x + 10 * s, y]]), 2.4); }
-function flower(a, petals = 'pink', centre = 'yellow', stem = 'green', r = 25) {
-  a.region(rrect(-11, -r, 22, 70 + r, 8), stem, 'stem');
-  a.region(blob([[6, 40], [44, 18], [56, 30], [36, 52], [10, 54]], 1.1), stem, 'leaf');
+/** stemLen (2026-10-05): how far the stem reaches below the head (70 = the original stubby stem); the leaf sits on it */
+function flower(a, petals = 'pink', centre = 'yellow', stem = 'green', r = 25, stemLen = 70) {
+  a.region(rrect(-11, -r, 22, stemLen + r, 8), stem, 'stem');
+  const ly = (stemLen - 70) * 0.6;
+  a.region(blob([[6, 40 + ly], [44, 18 + ly], [56, 30 + ly], [36, 52 + ly], [10, 54 + ly]], 1.1), stem, 'leaf');
   const k = 6; for (let i = 0; i < k; i++) { const t = i * 2 * Math.PI / k; a.region(circle(r * 1.05 * Math.cos(t), -r * 0.3 + r * 1.05 * Math.sin(t) - r * 0.7, r * 0.78), petals, 'petal'); }
   a.region(circle(0, -r * 1.0, r * 0.82), centre, 'flower centre');
 }
@@ -131,7 +135,7 @@ function fish(a, body = 'orange', fin = 'yellow', stripe = 'none') {
   a.region(blob([[-14, -40], [24, -70], [40, -32]], 1), fin, 'top fin');
   a.region(blob([[-62, 0], [-30, -44], [26, -38], [58, 0], [26, 38], [-30, 44]], 1.05), body, 'fish body');
   a.region(blob([[4, -36], [20, -34], [24, 0], [20, 34], [4, 36], [10, 0]], 1), stripe, 'stripe');
-  a.region(blob([[-10, 4], [24, 14], [0, 32]], 1), fin, 'side fin');
+  a.region(blob([[-36, 4], [0, 10], [-22, 36]], 1), fin, 'side fin');   // in front of the stripe, never across it (2026-10-05)
   eye(a, -34, -8, 1.05);
   smile(a, -48, 10, 5, 3);
 }
@@ -144,8 +148,8 @@ function octopus(a, c = 'purple') {
   face(a, 0, -6, 1.15, 36);
 }
 function crab(a, c = 'red') {
-  a.region(blob([[-78, -54], [-62, -78], [-40, -66], [-50, -50]], 1), c, 'claw'); a.region(blob([[78, -54], [62, -78], [40, -66], [50, -50]], 1), c, 'claw');
-  a.line(curve([[-48, -50], [-46, -30], [-36, -12]]), 3); a.line(curve([[48, -50], [46, -30], [36, -12]]), 3);
+  // real arms joining each claw to the body (they were ink stalks: the claws looked like they floated) — 2026-10-05
+  [-1, 1].forEach((sd) => a.region(blob([[28, -8], [46, -16], [60, -46], [76, -54], [88, -84], [72, -78], [64, -94], [46, -82], [44, -58], [32, -24]].map(([x, y]) => [sd * x, y]), 0.7), c, 'claw arm'));   // ONE shape: arm + pincer
   [-1, 1].forEach((sd) => [0, 1, 2].forEach((k) => a.line(curve([[sd * 40, 6 + k * 10], [sd * 62, 10 + k * 12], [sd * 72, 26 + k * 12]]), 3)));
   a.region(blob([[-56, 10], [-40, -24], [40, -24], [56, 10], [0, 30]], 1.05), c, 'crab body');
   a.line(curve([[-12, -24], [-14, -42]]), 2.6); a.line(curve([[12, -24], [14, -42]]), 2.6);
@@ -235,7 +239,7 @@ function rocket(a, body = 'grey', nose = 'red', fins = 'red', win = 'lightblue',
   a.region(blob([[-13, 98], [0, 142], [13, 98]], 1), flame2, 'inner flame');
   a.region(blob([[-34, 40], [-72, 96], [-60, 106], [-30, 92]], 1), fins, 'fin'); a.region(blob([[34, 40], [72, 96], [60, 106], [30, 92]], 1), fins, 'fin');
   a.region('M-40 100L-40 -30Q-38 -96 0 -132Q38 -96 40 -30L40 100Z', body, 'rocket body');
-  a.region('M-34 -56Q-26 -104 0 -132Q26 -104 34 -56Q0 -66 -34 -56Z', nose, 'nose');
+  a.region('M-40 -30Q-38 -96 0 -132Q38 -96 40 -30Q0 -50 -40 -30Z', nose, 'nose');   // the body's OWN top curve (a slightly different curve doubled the outline) — 2026-10-05
   a.region(circle(0, -6, 24), win, 'window');
   a.region(rrect(-40, 72, 80, 28, 6), fins, 'band');
 }

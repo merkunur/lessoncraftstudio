@@ -50,16 +50,20 @@ function parrot(a, body = 'red', wing = 'blue', wing2 = 'green', tail = 'yellow'
   a.region(blob([[36, -82], [70, -76], [74, -46], [56, -30], [40, -46]], 1), beak, 'beak');
   a.line(curve([[40, -58], [58, -56], [68, -48]]), 2.4);
   if (feet) [-14, 14].forEach((x) => a.line(`M${x} 74v12m-10 6l10 -6l10 6`, 4));   // the feet start BELOW the body: a line into it would cut it
+  // feet that GRIP a branch (2026-10-05: the parrot hung in front of its branch with no feet): two clawed feet over it
+  if (feet === 'grip') [-18, 18].forEach((x) => a.region(blob([[x - 15, 62], [x + 15, 62], [x + 17, 82], [x + 8, 92], [x, 84], [x - 8, 92], [x - 17, 82]], 0.9), 'grey', 'foot'));
 }
 function bus(a, body = 'yellow', win = 'lightblue', stripe = 'red', tyre = 'black', hub = 'grey', light = 'orange') {
-  a.region(rrect(-170, -96, 340, 150, 26), body, 'bus body');
-  a.region(rrect(-170, -2, 340, 30, 0), stripe, 'stripe');
-  [-150, -96, -42, 12].forEach((x) => a.region(rrect(x, -78, 44, 44, 8), win, 'window'));
-  a.region(rrect(70, -78, 52, 112, 8), win, 'door');
-  a.line('M96 -78V34', 2.6);
-  a.region(rrect(132, -78, 32, 56, 8), win, 'front window');
-  a.region(circle(150, 24, 12), light, 'light');
-  [-100, 100].forEach((x) => { a.region(circle(x, 56, 34), tyre, 'tyre'); a.region(circle(x, 56, 14), hub, 'hubcap'); });
+  // 2026-10-05: the door runs floor to roof AHEAD of the front wheel (it ran down behind the wheel), the headlight sits
+  // ON the body, and the bus has a windscreen at its front
+  a.region(rrect(-170, -96, 340, 144, 26), body, 'bus body');
+  a.region('M-170 -4H170V22Q170 48 144 48H-144Q-170 48 -170 22Z', stripe, 'stripe');   // down to the floor: no yellow crumbs between the wheels
+  [-150, -96, -42].forEach((x) => a.region(rrect(x, -78, 44, 44, 8), win, 'window'));
+  a.region(rrect(14, -78, 50, 120, 8), win, 'door');
+  a.line('M39 -78V42', 2.6);
+  a.region(rrect(92, -78, 62, 50, 10), win, 'windscreen');
+  a.region(circle(150, 10, 10), light, 'light');
+  [-104, 112].forEach((x) => { a.region(circle(x, 56, 34), tyre, 'tyre'); a.region(circle(x, 56, 14), hub, 'hubcap'); });
 }
 function lighthouse(a, wall = 'none', band = 'red', roof = 'red', lamp = 'yellow', door = 'blue') {
   // the tower as five horizontal bands, alternating
@@ -76,7 +80,8 @@ function pineapple(a, fruit = 'yellow', leaves = 'green') {
   // three wide leaves, fanned (five thin ones left crumbs between them)
   [[-24, -30], [0, 0], [24, 30]].forEach(([x, r]) => a.at({ x, y: -70, r }, (c) => c.region(blob([[-24, 30], [-16, -40], [0, -76], [16, -40], [24, 30]], 1), leaves, 'leaf')));
   a.region(ellipse(0, 50, 72, 100), fruit, 'pineapple');
-  [[-30, 0], [10, -20], [30, 30], [-10, 40], [-34, 80], [14, 90], [-4, -36]].forEach(([x, y]) => a.line(`M${x - 9} ${y - 9}L${x + 9} ${y + 9}M${x + 9} ${y - 9}L${x - 9} ${y + 9}`, 2.4));
+  // an even, staggered pattern of crosses, all clear of the outline (they crowded and overlapped at the top) — 2026-10-05
+  [[-24, 0], [24, 0], [-40, 40], [0, 40], [40, 40], [-24, 80], [24, 80], [0, 120]].forEach(([x, y]) => a.line(`M${x - 9} ${y - 9}L${x + 9} ${y + 9}M${x + 9} ${y - 9}L${x - 9} ${y + 9}`, 2.4));
 }
 function giftBox(a, box = 'blue', ribbon = 'red', lid = 'blue') {
   a.region(blob([[0, -96], [-70, -150], [-86, -112], [-30, -90]], 1), ribbon, 'bow loop');
@@ -110,7 +115,8 @@ function monkey(a, fur = 'brown', face_ = 'orange', banana = 'yellow') {
   a.region(circle(-66, -60, 30), fur, 'ear'); a.region(circle(66, -60, 30), fur, 'ear');
   a.region(circle(-68, -60, 14), face_, 'inner ear'); a.region(circle(68, -60, 14), face_, 'inner ear');
   a.region(circle(0, -60, 58), fur, 'monkey head');
-  a.region(blob([[-46, -70], [-20, -92], [0, -76], [20, -92], [46, -70], [40, -24], [0, -10], [-40, -24]], 1), face_, 'face');
+  // two round lobes over the eyes and only a shallow dip between them (a deep V read as an angry brow) — 2026-10-05
+  a.region(blob([[-48, -66], [-38, -90], [-16, -98], [0, -95], [16, -98], [38, -90], [48, -66], [40, -24], [0, -10], [-40, -24]], 1), face_, 'face');
   eye(a, -18, -66, 1.15); eye(a, 18, -66, 1.15);
   a.ink(ellipse(-6, -44, 3, 2.4)); a.ink(ellipse(6, -44, 3, 2.4));
   smile(a, 0, -32, 12, 6);
@@ -118,9 +124,10 @@ function monkey(a, fur = 'brown', face_ = 'orange', banana = 'yellow') {
 function dolphin(a, body = 'blue', belly = 'lightblue') {
   a.region(blob([[-120, 10], [-170, -30], [-176, -6], [-150, 8], [-170, 34], [-144, 40]], 1), body, 'tail');
   a.region(blob([[-10, -50], [10, -96], [40, -56]], 1), body, 'fin');
+  // the flipper hangs below the body, behind it (it was pasted across the white belly) — 2026-10-05
+  a.region(blob([[-4, 30], [-26, 80], [12, 74], [24, 34]], 1), body, 'flipper');
   a.region(blob([[-130, 14], [-60, -50], [60, -60], [130, -30], [176, -16], [176, 0], [120, 8], [60, 40], [-60, 40]], 1), body, 'dolphin body');
   a.region(blob([[-60, 24], [20, 10], [120, 6], [70, 32], [-20, 40]], 1), belly, 'belly');
-  a.region(blob([[0, 20], [-20, 70], [16, 64], [26, 26]], 1), body, 'flipper');
   eye(a, 96, -24, 1.2); smile(a, 146, -4, 12, 4);
 }
 

@@ -10,8 +10,8 @@ const { eye, smile, face } = require('./parts.js');
 
 /* ---------------------------------------------------------------- animals */
 function lion(a, mane = 'orange', fur = 'yellow', muzzle = 'none') {
-  a.region(blob([[40, 80], [94, 66], [118, 24], [110, 10], [92, 46], [44, 60]], 1), fur, 'tail');
-  a.region(ellipse(118, 12, 17, 17), mane, 'tail tuft');
+  a.region(blob([[38, 84], [96, 70], [124, 24], [106, 8], [88, 44], [42, 56]], 1), fur, 'tail');   // thick enough to colour, and the tuft overlaps its tip
+  a.region(ellipse(116, 12, 18, 18), mane, 'tail tuft');
   a.region(blob([[-58, 100], [-62, 30], [-36, -10], [36, -10], [62, 30], [58, 100]], 0.9), fur, 'lion body');
   a.region(ellipse(-24, 100, 27, 15), fur, 'paw'); a.region(ellipse(24, 100, 27, 15), fur, 'paw');
   a.region(bumps(0, -56, 96, 90, 12, 0.46), mane, 'mane');
@@ -100,7 +100,10 @@ function train(a, engine = 'red', cab = 'blue', car1 = 'yellow', car2 = 'green',
   a.region(rrect(-112, -112, 94, 24, 8), engine, 'cab roof');
   a.region(rrect(-34, -56, 130, 90, 30), engine, 'boiler');
   a.region(poly([[84, -10], [126, 34], [84, 34]], 4), 'grey', 'cowcatcher');   // overlaps the boiler: joined, not touching at a corner
-  [-282, -232, -182, -132, -82, -32, 18, 68].forEach((x) => { a.region(circle(x, 46, 28), wheel, 'wheel'); a.region(circle(x, 46, 10), 'grey', 'hub'); });
+  // two wheels under each carriage, three under the engine, spaced apart (8 wheels overlapped in one crowded row) — 2026-10-05
+  // the undercarriage, behind the wheels and down to the rails: no pocket of background between wheel and rail
+  a.region(rrect(-306, 26, 388, 32, 4), 'grey', 'undercarriage');
+  [-282, -212, -142, -72, -2, 66].forEach((x) => { a.region(circle(x, 46, 27), wheel, 'wheel'); a.region(circle(x, 46, 9.5), 'grey', 'hub'); });
 }
 
 /* ---------------------------------------------------------------- food + things */
@@ -164,14 +167,16 @@ function acacia(a, crown = 'green', trunk = 'brown') {
   a.region(bumps(0, -60, 150, 38, 10, 0.4, 0.3), crown, 'acacia crown');
 }
 function fruitBowl(a, bowl = 'blue', apple = 'red', banana = 'yellow', pear = 'lightgreen', grapes = 'purple', orange = 'orange') {
-  a.region(circle(-70, -40, 42), apple, 'apple'); a.line(curve([[-70, -82], [-66, -96], [-58, -104]]), 5);
-  a.region(blob([[60, -84], [98, -64], [108, -20], [70, 0], [36, -20], [40, -62]], 1), pear, 'pear'); a.line(curve([[66, -84], [70, -98], [78, -106]]), 5);
-  [[-6, -76], [24, -76], [-20, -50], [10, -50], [40, -50]].forEach(([x, y]) => a.region(circle(x, y, 17), grapes, 'grape'));
-  a.region(circle(-18, -10, 36), orange, 'orange');
-  a.region('M-140 0H140Q130 90 0 96Q-130 90 -140 0Z', bowl, 'bowl');
-  a.region(rrect(-40, 92, 80, 18, 8), bowl, 'bowl foot');
-  // the banana rests across the rim, in front (behind the bowl it was hidden)
-  a.region(blob([[-150, -34], [-100, -4], [-30, -2], [30, -26], [40, -14], [-30, 22], [-104, 20], [-156, -16]], 1), banana, 'banana');
+  // 2026-10-05: the fruit sits IN the bowl — its back rim behind the fruit, its front drawn last over their bottoms
+  // (the fruit was pasted on the rim and the banana lay across the outside of the bowl)
+  a.region('M-140 0A140 36 0 0 1 140 0A140 36 0 0 1 -140 0Z', bowl, 'inside of the bowl');
+  a.region(blob([[40, -100], [80, -82], [92, -34], [60, -2], [18, -22], [24, -72]], 1), pear, 'pear'); a.line(curve([[60, -100], [64, -114], [74, -122]]), 5);
+  [[-8, -92], [24, -94], [-22, -66], [8, -64], [38, -66]].forEach(([x, y]) => a.region(circle(x, y, 17), grapes, 'grape'));
+  a.region(circle(-64, -30, 44), apple, 'apple'); a.line(curve([[-64, -74], [-60, -88], [-52, -96]]), 5);
+  a.region(circle(-2, -22, 40), orange, 'orange');
+  a.region(blob([[-118, -14], [-60, 4], [20, 2], [96, -30], [110, -20], [30, 18], [-60, 22], [-122, 6]], 1), banana, 'banana');
+  a.region('M-140 0A140 36 0 0 0 140 0Q132 92 0 98Q-132 92 -140 0Z', bowl, 'bowl');
+  a.region(rrect(-42, 92, 84, 20, 8), bowl, 'bowl foot');
 }
 function raindrop(a, c = 'lightblue') { a.region(blob([[0, -22], [14, 4], [0, 18], [-14, 4]], 1), c, 'raindrop'); }
 function puddle(a, c = 'lightblue', w = 90) { a.region(blob([[-w, 6], [-w * 0.6, -14], [w * 0.3, -16], [w, 0], [w * 0.5, 16], [-w * 0.4, 16]], 1), c, 'puddle'); }

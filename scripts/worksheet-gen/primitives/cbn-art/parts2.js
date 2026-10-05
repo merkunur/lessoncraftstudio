@@ -99,16 +99,23 @@ function snail(a, shell = 'orange', mid = 'yellow', body = 'lightgreen') {
   a.region(circle(88, -104, 11), 'none', 'eye ball'); a.region(circle(132, -100, 11), 'none', 'eye ball');
   a.ink(circle(90, -104, 4.5)); a.ink(circle(133, -100, 4.5));
   smile(a, 112, -16, 9, 5);
+  // a SPIRAL shell (it was a bull's-eye of circles) — 2026-10-05: one band winding out from the centre
   a.region(circle(-20, -30, 66), shell, 'shell');
-  a.region(circle(-10, -24, 40), mid, 'shell ring');
-  a.region(circle(-2, -20, 16), shell, 'shell centre');
+  {
+    // band width and turns adapt to the drawn size: a small snail gets a wider band and fewer turns (both stay colourable)
+    const sc = a.S, w = Math.min(28, Math.max(20, 20 / sc)), k = 2.0 * w / (2 * Math.PI), T = (60 - 12) / k;
+    const cx = -16, cy = -28, K = 90, out = [], inn = [];
+    for (let i = 0; i <= K; i++) { const t = (i / K) * T, ro = 12 + k * t, ri = Math.max(3, ro - w); out.push([cx + ro * Math.cos(t), cy + ro * Math.sin(t)]); inn.push([cx + ri * Math.cos(t), cy + ri * Math.sin(t)]); }
+    a.region('M' + out.concat(inn.reverse()).map((p) => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('L') + 'Z', mid, 'shell spiral');
+  }
 }
 function penguin(a, body = 'black', front = 'none', beak = 'orange') {
   a.region(ellipse(-28, 100, 30, 16), beak, 'foot'); a.region(ellipse(28, 100, 30, 16), beak, 'foot');
   a.region(blob([[-60, -20], [-92, 30], [-84, 52], [-54, 34]], 1), body, 'flipper'); a.region(blob([[60, -20], [92, 30], [84, 52], [54, 34]], 1), body, 'flipper');
   a.region(ellipse(0, 10, 66, 94), body, 'penguin body');
   a.region(blob([[-28, -58], [28, -58], [40, 30], [0, 88], [-40, 30]], 1), front, 'front');
-  a.region(blob([[-36, -32], [-38, -60], [0, -48], [38, -60], [36, -32], [0, -22]], 1), front, 'face');
+  // a rounded heart-shaped face: the old mask dipped in a V over the eyes and made the penguin look angry — 2026-10-05
+  a.region(blob([[-38, -30], [-40, -52], [-22, -64], [0, -54], [22, -64], [40, -52], [38, -30], [0, -16]], 1), front, 'face');
   eye(a, -18, -46, 1.15); eye(a, 18, -46, 1.15);
   a.region(poly([[-21, -40], [21, -40], [0, -8]], 5), beak, 'beak');
 }
@@ -119,21 +126,24 @@ function chick(a, fluff = 'yellow', beak = 'orange') {
   a.region(circle(0, -50, 46), fluff, 'chick head');
   a.region(blob([[-12, -88], [-24, -126], [0, -110], [18, -130], [16, -88]], 1), fluff, 'tuft');
   eye(a, -16, -56, 1.15); eye(a, 16, -56, 1.15);
-  a.region(poly([[-20, -46], [20, -46], [0, -14]], 5), beak, 'beak');
+  a.region(poly([[-26, -48], [26, -48], [0, -8]], 6), beak, 'beak');   // big enough to colour at a chick's small size
 }
 function ladybird(a, shell = 'red', head = 'black') {
   a.line(curve([[-22, -60], [-34, -86], [-48, -92]]), 2.8); a.line(curve([[22, -60], [34, -86], [48, -92]]), 2.8);
   a.ink(circle(-50, -94, 8)); a.ink(circle(50, -94, 8));
+  // six legs, three each side (a ladybird had none) — 2026-10-05
+  [-1, 1].forEach((sd) => [[6, -8], [36, 34], [66, 86]].forEach(([y0, y1]) => a.line(curve([[sd * 60, y0], [sd * 92, (y0 + y1) / 2 - 4], [sd * 108, y1]]), 3.4)));
   a.region(circle(0, -48, 34), head, 'ladybird head');
   a.region(blob([[0, -26], [-62, -14], [-78, 34], [-46, 84], [0, 90]], 1), shell, 'wing case');
   a.region(blob([[0, -26], [62, -14], [78, 34], [46, 84], [0, 90]], 1), shell, 'wing case');
   [[-40, 10], [-34, 54], [40, 10], [34, 54], [-14, 28], [14, 28]].forEach(([x, y]) => a.ink(circle(x, y, 11)));
 }
-function whale(a, body = 'blue', belly = 'lightblue') {
+function whale(a, body = 'blue', belly = 'lightblue', flipper = true) {
   a.region(blob([[-104, -20], [-150, -62], [-160, -32], [-136, -10], [-162, 16], [-146, 34]], 1), body, 'tail');
+  // the flipper hangs BELOW the body, behind it (it was pasted across the white belly) — 2026-10-05
+  if (flipper) a.region(blob([[-24, 50], [-52, 100], [-18, 104], [8, 58]], 1), body, 'flipper');   // off where the whale's lower half is under water
   a.region(blob([[-120, 4], [-60, -64], [40, -76], [116, -30], [120, 40], [40, 72], [-80, 52]], 1), body, 'whale body');
   a.region(blob([[-60, 40], [20, 24], [104, 30], [60, 66], [-30, 60]], 1), belly, 'belly');
-  a.region(blob([[0, 26], [-26, 66], [6, 70], [24, 34]], 1), body, 'flipper');
   eye(a, 70, -16, 1.3); smile(a, 92, 10, 14, 6);
   a.line('M30 -78Q20 -112 0 -122M34 -78Q34 -118 40 -132M38 -78Q52 -110 74 -118', 3);
 }

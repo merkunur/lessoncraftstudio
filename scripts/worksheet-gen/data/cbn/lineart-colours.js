@@ -339,6 +339,7 @@ const PIECE = {
   'farm-rabbit': { m1: 'grey' },
   'garden-bunny': { m1: 'pink', m4: 'none' },
   'garden-cat': { s0: ['pink', 's0'], s8: ['pink', 's0'], s1: ['pink', 's1'], s18: ['pink', 's1'] },
+  'garden-bird': { s6: ['yellow', 's6'], s4: ['yellow', 's4'], s8: ['yellow', 's4'], s9: ['yellow', 's4'], s10: ['yellow', 's4'], s14: ['yellow', 's4'] },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },

@@ -14,7 +14,8 @@ module.exports = makeColumnType({
   gradeBand: 'G2',
   regroup: false,
   difficulty: {
-    1: { min: 11, max: 88, sumMax: 99, cards: 6, cols: 3, rows: 2, ops: ['+'] },
+    // Level Set 2026-10-05: level 1 asks for BOTH operations (the title promises addition AND subtraction), smaller numbers, 4 problems
+    1: {"min":11,"max":59,"sumMax":99,"cards":4,"cols":2,"rows":2,"cell":64,"ops":["+","-"]},
     2: { min: 11, max: 88, sumMax: 99, cards: 6, cols: 3, rows: 2, ops: ['+', '-'] },
     3: { min: 111, max: 888, sumMax: 999, cards: 6, cols: 3, rows: 2, ops: ['+', '-'] },
   },

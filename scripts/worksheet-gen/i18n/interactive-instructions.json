@@ -1474,5 +1474,20 @@
    "no": "Trykk på en fargestift og deretter på hver del som har samme tall.",
    "fi": "Napauta väriliitua ja sitten jokaista osaa, jossa on sama numero."
   }
+ },
+ "column-arithmetic": {
+  "solve": {
+   "en": "Work out each problem, then tap the right answer.",
+   "de": "Rechne jede Aufgabe aus und tippe dann auf das richtige Ergebnis.",
+   "fr": "Calcule chaque opération, puis appuie sur le bon résultat.",
+   "es": "Resuelve cada operación y luego toca el resultado correcto.",
+   "pt": "Resolva cada conta e depois toque no resultado certo.",
+   "it": "Risolvi ogni operazione, poi tocca il risultato giusto.",
+   "nl": "Reken elke som uit en tik dan op het juiste antwoord.",
+   "sv": "Räkna ut varje uppgift och tryck sedan på rätt svar.",
+   "da": "Regn hver opgave ud, og tryk så på det rigtige resultat.",
+   "no": "Regn ut hver oppgave, og trykk så på riktig svar.",
+   "fi": "Laske jokainen lasku ja napauta sitten oikeaa vastausta."
+  }
  }
 }

@@ -22,6 +22,18 @@ const COL_WASH = ['#FBE3D8', '#DDEBE8', '#F5E9D2']; // ones, tens, hundreds (rig
 
 function digitsOf(n) { return String(n).split('').map(Number); }
 
+/** how many columns regroup (carry for +, borrow for −; a borrow chain across zeros counts each column it crosses) */
+function regroupCount(a, b, op) {
+  let n = 0, x = a, y = b, c = 0;
+  while (x > 0 || y > 0) {
+    const dx = x % 10, dy = y % 10;
+    if (op === '+') { c = dx + dy + c > 9 ? 1 : 0; n += c; }
+    else { const need = dx - c < dy; n += need ? 1 : 0; c = need ? 1 : 0; }
+    x = Math.floor(x / 10); y = Math.floor(y / 10);
+  }
+  return n;
+}
+
 /** Does a+b carry in any column / does a-b borrow in any column? */
 function hasCarry(a, b) {
   let x = a, y = b;
@@ -40,9 +52,9 @@ function hasBorrow(a, b) {
   return false;
 }
 
-function digitCell(digit, { wash, answer }) {
-  const base = `width:${CELL}px;height:${CELL}px;display:flex;align-items:center;justify-content:center;` +
-    `font-family:'Baloo 2';font-weight:700;font-size:26px;color:#3A3530;border-radius:8px;`;
+function digitCell(digit, { wash, answer, cell = CELL }) {
+  const base = `width:${cell}px;height:${cell}px;display:flex;align-items:center;justify-content:center;` +
+    `font-family:'Baloo 2';font-weight:700;font-size:${Math.round(cell * 26 / CELL)}px;color:#3A3530;border-radius:8px;`;
   if (answer) {
     return `<span style="${base}background:#FFFFFF;border:2px dashed #C8BFAE" data-lcs-digit="${digit}"></span>`;
   }
@@ -50,7 +62,8 @@ function digitCell(digit, { wash, answer }) {
   return `<span style="${base}background:${wash}">${digit}</span>`;
 }
 
-function problemCard({ a, b, op, showCarryRow }) {
+function problemCard({ a, b, op, showCarryRow, cell = CELL }) {
+  const CELL = cell;   // Level Set 2026-10-05: 4-problem pages draw bigger digit boxes (d.cell); the published size is 44
   const res = op === '+' ? a + b : a - b;
   const width = Math.max(String(a).length, String(b).length, String(res).length);
   const pad = (n) => {
@@ -74,17 +87,17 @@ function problemCard({ a, b, op, showCarryRow }) {
     rows.push(`<div style="height:20px"></div>`); // empty headroom (crossing-out space)
   }
   const opGlyph = `<span style="position:absolute;left:-40px;bottom:${CELL / 2 - 16}px;font-family:'Baloo 2';` +
-    `font-weight:700;font-size:32px;color:${op === '+' ? '#146B5E' : '#F2784B'}">${op === '+' ? '+' : '−'}</span>`;
+    `font-weight:700;font-size:${Math.round(cell * 32 / 44)}px;color:${op === '+' ? '#146B5E' : '#F2784B'}">${op === '+' ? '+' : '−'}</span>`;
   const html =
     `<div style="position:relative;display:flex;flex-direction:column;gap:6px" data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-op="${op}">` +
     rows[0] +
-    row(rowA.map((dg, c) => digitCell(dg, { wash: dg === '' ? null : washFor(c) }))) +
+    row(rowA.map((dg, c) => digitCell(dg, { wash: dg === '' ? null : washFor(c), cell }))) +
     `<div style="position:relative">${opGlyph}` +
-    row(rowB.map((dg, c) => digitCell(dg, { wash: dg === '' ? null : washFor(c) }))) + `</div>` +
+    row(rowB.map((dg, c) => digitCell(dg, { wash: dg === '' ? null : washFor(c), cell }))) + `</div>` +
     `<div style="height:3px;background:#146B5E;border-radius:2px;margin:2px 0"></div>` +
     row(rowRPadded.map((dg) => dg === null
       ? `<span style="width:${CELL}px;height:${CELL}px"></span>`
-      : digitCell(dg, { answer: true }))) +
+      : digitCell(dg, { answer: true, cell }))) +
     `</div>`;
   return `<div class="ws-card-stage" style="padding-left:40px">${html}</div>`;
 }
@@ -101,17 +114,27 @@ function makeColumnType(cfg) {
     difficulty: cfg.difficulty,
     i18n,
 
-    build({ difficulty }, ctx) {
+    // Level Set (2026-10-05): the screen version + answer key of NEW pages (lib/column-screen.js); the published
+    // page (level 2, copy 1) never reaches it
+    interactive: require('../../lib/column-screen.js').interactiveFor(),
+    levelSetWords(m) { return m.problems || []; },
+
+    build({ difficulty, locale }, ctx) {
+      const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+        const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+        return require('../../lib/column-screen.js').screenOrKey(built, ctx, { regroup });
+      }
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
       const used = new Set();
-      const cards = [];
+      const cards = [], probs = [];
       for (let i = 0; i < d.cards; i++) {
         let a, b, op, guard = 0, ok = false;
         while (!ok && guard++ < 400) {
           op = rng.pick(d.ops);
           a = rng.int(d.min, d.max);
-          b = rng.int(d.min, d.max);
+          b = rng.int(d.bMin || d.min, d.bMax || d.max);
           if (op === '-' && b > a) [a, b] = [b, a];
           if (op === '-' && a === b) continue;
           if (op === '+' && a + b > d.sumMax) continue;
@@ -121,14 +144,22 @@ function makeColumnType(cfg) {
           // a 0 in the tens place (302 − 158 class) — the hardest borrow;
           // additive-only, undefined = current behavior
           if (d.acrossZero && !(op === '-' && a >= 100 && Math.floor(a / 10) % 10 === 0 && hasBorrow(a, b))) continue;
+          // Level Set options (additive; undefined = the published behaviour)
+          if (d.digits && !d.digits.includes(String(a).length)) continue;
+          if (d.sameDigits && String(a).length !== String(b).length) continue;
+          if (d.maxCarries && regroupCount(a, b, op) > d.maxCarries) continue;
+          if (d.minCarries && regroupCount(a, b, op) < d.minCarries) continue;
+          if (d.zeros === 2 && !(op === '-' && a >= 100 && a % 100 === 0 && hasBorrow(a, b))) continue;
+          if (d.resultMin && (op === '+' ? a + b : a - b) < d.resultMin) continue;
           if (used.has(`${a}${op}${b}`)) continue;
           ok = true;
         }
         if (!ok) throw new Error(`${id}: could not fill card ${i + 1} (band too tight)`);
         used.add(`${a}${op}${b}`);
-        cards.push(problemCard({ a, b, op, showCarryRow: regroup && op === '+' }));
+        cards.push(problemCard({ a, b, op, showCarryRow: regroup && op === '+', ...(d.cell ? { cell: d.cell } : {}) }));
+        probs.push({ a, b, op });
       }
-      return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: {} };
+      return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: published ? {} : { problems: probs.map((p) => `${p.a}${p.op}${p.b}`) }, _probs: probs };
     },
 
     async verify(page) {
@@ -167,4 +198,4 @@ function makeColumnType(cfg) {
   };
 }
 
-module.exports = { makeColumnType };
+module.exports = { makeColumnType, regroupCount, hasCarry, hasBorrow };

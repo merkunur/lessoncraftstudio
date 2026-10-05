@@ -87,7 +87,7 @@ const B7 = [
       a.group('branch', () => a.region('M150 326Q300 312 470 300L470 336Q300 348 150 360Z', 'brown', 'branch'));
       a.at({ x: 100, y: 90, s: 0.85 }, (b) => P.sun(b));
     } },
-  { id: 'flamingo-lake', kind: 'scene', level: 2, names: { en: 'Flamingos at the Lake' },
+  { id: 'flamingo-lake', kind: 'scene', level: 2, names: { en: 'Flamingo at the Lake' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.6}H${W}V${H}H0Z`, 'blue', 'lake');

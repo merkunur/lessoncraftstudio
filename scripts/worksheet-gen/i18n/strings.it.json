@@ -2994,5 +2994,13 @@
   "K-392": {
     "title": "Trova la parola: {UNIT}",
     "instruction": "Colora ogni casella con la parola «{UNIT}». Contale e scrivi il numero."
+  },
+  "K-393": {
+    "title": "Colora con i numeri: {UNIT}",
+    "instruction": "Colora ogni parte con il colore del suo numero."
+  },
+  "K-394": {
+    "title": "Colora con i numeri: {UNIT}",
+    "instruction": "Colora ogni parte con il colore del suo numero."
   }
 }

@@ -91,6 +91,9 @@ DESIGNS.push(...require('./designs-b7.js').B7);
 DESIGNS.push(...require('./designs-b8.js').B8);
 DESIGNS.push(...require('./designs-b9.js').B9);
 
+// the localized names (title part) ×10 — data/cbn/names-i18n.js is the single source
+{ const { NAMES } = require('./names-i18n.js'); for (const d of DESIGNS) { if (!NAMES[d.id]) throw new Error('cbn: no localized names for ' + d.id); Object.assign(d.names, NAMES[d.id]); } }
+
 function build(design) { const a = new Art(W, H); design.draw(a); return a; }
 
 module.exports = { DESIGNS, build, W, H };

@@ -113,7 +113,7 @@ const B9 = [
       a.group('mud', () => a.region(blob([[60, 470], [140, 420], [400, 420], [500, 470], [400, 520], [140, 520]], 1), 'brown', 'mud'));
       a.at({ x: 260, y: 400, s: 1.2 }, (b) => Q.pig(b, 'pink', 'pink'));
     } },
-  { id: 'owl-branch-day', kind: 'scene', level: 2, names: { en: 'Owl on a Branch' },
+  { id: 'owl-branch-day', kind: 'scene', level: 2, names: { en: 'Owl in the Sunshine' },
     draw(a) {
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.at({ x: 480, y: 90, s: 0.9 }, (b) => P.sun(b));

@@ -3006,5 +3006,13 @@
   "K-392": {
     "title": "Finn ordet: {UNIT}",
     "instruction": "Fargelegg hver rute med ordet «{UNIT}». Tell dem og skriv tallet."
+  },
+  "K-393": {
+    "title": "Fargelegg etter tall: {UNIT}",
+    "instruction": "Fargelegg hver del med fargen som hører til tallet."
+  },
+  "K-394": {
+    "title": "Fargelegg etter tall: {UNIT}",
+    "instruction": "Fargelegg hver del med fargen som hører til tallet."
   }
 }

@@ -2998,5 +2998,13 @@
   "K-392": {
     "title": "Find ordet: {UNIT}",
     "instruction": "Farv hvert felt med ordet »{UNIT}«. Tæl dem, og skriv tallet."
+  },
+  "K-393": {
+    "title": "Mal efter tal: {UNIT}",
+    "instruction": "Farvelæg hver del med farven, der hører til dens tal."
+  },
+  "K-394": {
+    "title": "Mal efter tal: {UNIT}",
+    "instruction": "Farvelæg hver del med farven, der hører til dens tal."
   }
 }

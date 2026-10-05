@@ -1,11 +1,11 @@
 {
-  "id": "wave-cbn-en",
+  "id": "wave-cbn-fi",
   "_note": "Color by Number 2026-10-04: illustrated scenes (K-393) and single multi-part pictures (K-394), one worksheet per design, levels by measured complexity (L1 big parts, 3-5 colours; L2 5-7 colours; L3 6-8 colours, many parts). Visible to teachers, never indexed; PDF + tap-to-colour screen version + coloured answer key.",
   "indexable": false,
   "interactive": true,
   "seedEpoch": 1,
   "locales": [
-    "en"
+    "fi"
   ],
   "themes": [],
   "themesPerType": 1,

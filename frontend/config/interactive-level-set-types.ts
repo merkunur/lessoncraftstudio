@@ -18,8 +18,9 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'digraphs',
   'feelings',
   'cloze',
-  'color-by-number',
-  'column-arithmetic',   // Column Addition and Subtraction (2026-10-05): tap the right answer under each column problem   // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version
+  'color-by-number',     // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version
+  'column-arithmetic',   // Column Addition and Subtraction (2026-10-05): tap the right answer under each column problem
+  'money',               // Counting Money (2026-10-05): tap the total / the richer purse / the shop answer
   'opposites',
   'pronouns',
   'question-words',

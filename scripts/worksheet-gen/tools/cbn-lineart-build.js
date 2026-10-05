@@ -30,7 +30,9 @@ const TINT = ['#F8B4B4', '#FDD9A8', '#FFF1A0', '#C8EBB0', '#A8DDB5', '#BFE6F8', 
     // go LAST, named — so the indexed parts of the drawing keep their numbers whatever the ground adds
     const at = (x, y) => { const l = seg.lab[Math.round(y * L.UNIT) * seg.PW + Math.round(x * L.UNIT)]; return seg.regions.find((r) => r.label === l) || null; };
     let fixed = (d.fixed || []).map((f) => ({ f, r: at(f.at[0], f.at[1]) }));
-    for (const { f, r } of fixed) if (!r) throw new Error(`${d.id}: fixed part "${f.name}" at ${f.at} is on the ink, not in a part`);
+    // a point the character covers is skipped when another point of the same name finds the area; a name no point finds fails
+    for (const { f } of fixed) if (!fixed.some((x) => x.f.name === f.name && x.r)) throw new Error(`${d.id}: fixed part "${f.name}" at ${f.at} is on the ink, not in a part`);
+    fixed = fixed.filter((x) => x.r);
     // the same area named twice (a sea band the character does not split) counts once
     for (let i = fixed.length - 1; i >= 0; i--) if (fixed.findIndex((x) => x.r === fixed[i].r) < i) fixed.splice(i, 1);
     const fixedSet = new Set(fixed.map((x) => x.r));

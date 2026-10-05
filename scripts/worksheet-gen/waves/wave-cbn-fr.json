@@ -23,231 +23,131 @@
       "1": [
         {
           "copy": 2,
-          "unit": "garden-bird",
-          "seedVariant": 1
-        },
-        {
-          "copy": 3,
-          "unit": "garden-chick",
-          "seedVariant": 1
-        },
-        {
-          "copy": 4,
-          "unit": "pond-duck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 5,
-          "unit": "pond-little-duck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 6,
           "unit": "forest-fox",
           "seedVariant": 1
         },
         {
-          "copy": 7,
-          "unit": "forest-bear",
-          "seedVariant": 1
-        },
-        {
-          "copy": 8,
-          "unit": "forest-raccoon",
-          "seedVariant": 1
-        },
-        {
-          "copy": 9,
-          "unit": "forest-deer",
-          "seedVariant": 1
-        },
-        {
-          "copy": 10,
+          "copy": 3,
           "unit": "forest-rabbit",
           "seedVariant": 1
         },
         {
-          "copy": 11,
-          "unit": "savanna-trex",
-          "seedVariant": 1
-        },
-        {
-          "copy": 12,
-          "unit": "savanna-ostrich",
-          "seedVariant": 1
-        },
-        {
-          "copy": 13,
+          "copy": 4,
           "unit": "savanna-camel",
           "seedVariant": 1
         },
         {
-          "copy": 14,
-          "unit": "savanna-leopard",
-          "seedVariant": 1
-        },
-        {
-          "copy": 15,
+          "copy": 5,
           "unit": "sea-whale",
           "seedVariant": 1
         },
         {
-          "copy": 16,
+          "copy": 6,
           "unit": "sea-shark",
           "seedVariant": 1
         },
         {
-          "copy": 17,
+          "copy": 7,
           "unit": "sea-dolphin",
           "seedVariant": 1
         },
         {
-          "copy": 18,
-          "unit": "sea-fish",
-          "seedVariant": 1
-        },
-        {
-          "copy": 19,
+          "copy": 8,
           "unit": "sea-octopus",
           "seedVariant": 1
         },
         {
-          "copy": 20,
+          "copy": 9,
           "unit": "sea-jellyfish",
           "seedVariant": 1
         },
         {
-          "copy": 21,
+          "copy": 10,
           "unit": "sea-seahorse",
           "seedVariant": 1
         },
         {
-          "copy": 22,
+          "copy": 11,
           "unit": "sea-crab",
           "seedVariant": 1
         },
         {
-          "copy": 23,
+          "copy": 12,
           "unit": "sea-stingray",
           "seedVariant": 1
         },
         {
-          "copy": 24,
-          "unit": "beach-sandcastle",
-          "seedVariant": 1
-        },
-        {
-          "copy": 25,
+          "copy": 13,
           "unit": "beach-crab",
           "seedVariant": 1
         },
         {
-          "copy": 26,
+          "copy": 14,
           "unit": "beach-umbrella",
           "seedVariant": 1
         },
         {
-          "copy": 27,
+          "copy": 15,
           "unit": "beach-boat",
           "seedVariant": 1
         },
         {
-          "copy": 28,
+          "copy": 16,
           "unit": "beach-swim-ring",
           "seedVariant": 1
         },
         {
-          "copy": 29,
-          "unit": "beach-palm",
-          "seedVariant": 1
-        },
-        {
-          "copy": 30,
+          "copy": 17,
           "unit": "beach-bucket",
           "seedVariant": 1
         },
         {
-          "copy": 31,
+          "copy": 18,
           "unit": "beach-surfboard",
           "seedVariant": 1
         },
         {
-          "copy": 32,
+          "copy": 19,
           "unit": "beach-lounger",
           "seedVariant": 1
         },
         {
-          "copy": 33,
-          "unit": "winter-snowman",
-          "seedVariant": 1
-        },
-        {
-          "copy": 34,
-          "unit": "winter-penguin",
-          "seedVariant": 1
-        },
-        {
-          "copy": 35,
-          "unit": "winter-santa",
-          "seedVariant": 1
-        },
-        {
-          "copy": 36,
+          "copy": 20,
           "unit": "winter-sleigh",
           "seedVariant": 1
         },
         {
-          "copy": 37,
-          "unit": "winter-little-penguin",
-          "seedVariant": 1
-        },
-        {
-          "copy": 38,
-          "unit": "winter-happy-snowman",
-          "seedVariant": 1
-        },
-        {
-          "copy": 39,
+          "copy": 21,
           "unit": "winter-seal",
           "seedVariant": 1
         },
         {
-          "copy": 40,
-          "unit": "winter-skates",
-          "seedVariant": 1
-        },
-        {
-          "copy": 41,
+          "copy": 22,
           "unit": "night-owl",
           "seedVariant": 1
         },
         {
-          "copy": 42,
+          "copy": 23,
           "unit": "night-ufo",
           "seedVariant": 1
         },
         {
-          "copy": 43,
+          "copy": 24,
           "unit": "night-tent",
           "seedVariant": 1
         },
         {
-          "copy": 44,
-          "unit": "night-campfire",
-          "seedVariant": 1
-        },
-        {
-          "copy": 45,
+          "copy": 25,
           "unit": "night-cat",
           "seedVariant": 1
         },
         {
-          "copy": 46,
+          "copy": 26,
           "unit": "night-telescope",
           "seedVariant": 1
         },
         {
-          "copy": 47,
+          "copy": 27,
           "unit": "night-raccoon",
           "seedVariant": 1
         }
@@ -255,62 +155,249 @@
       "2": [
         {
           "copy": 2,
+          "unit": "farm-sheep",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "farm-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "farm-goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "garden-bird",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "garden-chick",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "garden-hedgehog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "garden-ladybug",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "pond-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "pond-frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "pond-flamingo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pond-goose",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "pond-otter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "pond-alligator",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "pond-little-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "pond-pelican",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "forest-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "forest-owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "forest-squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "forest-porcupine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "forest-deer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "forest-koala",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "savanna-elephant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "savanna-giraffe",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "savanna-trex",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "savanna-hippo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "savanna-rhino",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "savanna-meerkat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "savanna-ostrich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "savanna-leopard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "sea-fish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "beach-sandcastle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "beach-palm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "beach-lighthouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "winter-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "winter-gingerbread",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "winter-happy-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "night-campfire",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 2,
           "unit": "farm-cow",
           "seedVariant": 1
         },
         {
           "copy": 3,
-          "unit": "farm-sheep",
+          "unit": "farm-pig",
           "seedVariant": 1
         },
         {
           "copy": 4,
-          "unit": "farm-horse",
+          "unit": "farm-donkey",
           "seedVariant": 1
         },
         {
           "copy": 5,
-          "unit": "farm-duck",
+          "unit": "farm-rooster",
           "seedVariant": 1
         },
         {
           "copy": 6,
-          "unit": "farm-goat",
+          "unit": "farm-duck",
           "seedVariant": 1
         },
         {
           "copy": 7,
-          "unit": "farm-rabbit",
+          "unit": "farm-turkey",
           "seedVariant": 1
         },
         {
           "copy": 8,
-          "unit": "garden-bunny",
+          "unit": "farm-rabbit",
           "seedVariant": 1
         },
         {
           "copy": 9,
-          "unit": "garden-cat",
+          "unit": "garden-bunny",
           "seedVariant": 1
         },
         {
           "copy": 10,
-          "unit": "garden-butterfly",
+          "unit": "garden-cat",
           "seedVariant": 1
         },
         {
           "copy": 11,
-          "unit": "garden-squirrel",
+          "unit": "garden-dog",
           "seedVariant": 1
         },
         {
           "copy": 12,
-          "unit": "garden-hedgehog",
+          "unit": "garden-butterfly",
           "seedVariant": 1
         },
         {
           "copy": 13,
-          "unit": "garden-ladybug",
+          "unit": "garden-squirrel",
           "seedVariant": 1
         },
         {
@@ -320,208 +407,121 @@
         },
         {
           "copy": 15,
-          "unit": "pond-frog",
-          "seedVariant": 1
-        },
-        {
-          "copy": 16,
-          "unit": "pond-flamingo",
-          "seedVariant": 1
-        },
-        {
-          "copy": 17,
-          "unit": "pond-goose",
-          "seedVariant": 1
-        },
-        {
-          "copy": 18,
-          "unit": "pond-otter",
-          "seedVariant": 1
-        },
-        {
-          "copy": 19,
-          "unit": "pond-alligator",
-          "seedVariant": 1
-        },
-        {
-          "copy": 20,
-          "unit": "pond-pelican",
-          "seedVariant": 1
-        },
-        {
-          "copy": 21,
-          "unit": "forest-owl",
-          "seedVariant": 1
-        },
-        {
-          "copy": 22,
-          "unit": "forest-squirrel",
-          "seedVariant": 1
-        },
-        {
-          "copy": 23,
-          "unit": "forest-porcupine",
-          "seedVariant": 1
-        },
-        {
-          "copy": 24,
-          "unit": "forest-little-raccoon",
-          "seedVariant": 1
-        },
-        {
-          "copy": 25,
-          "unit": "forest-koala",
-          "seedVariant": 1
-        },
-        {
-          "copy": 26,
-          "unit": "savanna-lion",
-          "seedVariant": 1
-        },
-        {
-          "copy": 27,
-          "unit": "savanna-elephant",
-          "seedVariant": 1
-        },
-        {
-          "copy": 28,
-          "unit": "savanna-giraffe",
-          "seedVariant": 1
-        },
-        {
-          "copy": 29,
-          "unit": "savanna-hippo",
-          "seedVariant": 1
-        },
-        {
-          "copy": 30,
-          "unit": "savanna-rhino",
-          "seedVariant": 1
-        },
-        {
-          "copy": 31,
-          "unit": "savanna-meerkat",
-          "seedVariant": 1
-        },
-        {
-          "copy": 32,
-          "unit": "beach-lighthouse",
-          "seedVariant": 1
-        },
-        {
-          "copy": 33,
-          "unit": "winter-gingerbread",
-          "seedVariant": 1
-        },
-        {
-          "copy": 34,
-          "unit": "winter-cabin",
-          "seedVariant": 1
-        },
-        {
-          "copy": 35,
-          "unit": "night-bat",
-          "seedVariant": 1
-        },
-        {
-          "copy": 36,
-          "unit": "night-camper",
-          "seedVariant": 1
-        },
-        {
-          "copy": 37,
-          "unit": "town-car",
-          "seedVariant": 1
-        },
-        {
-          "copy": 38,
-          "unit": "town-taxi",
-          "seedVariant": 1
-        }
-      ],
-      "3": [
-        {
-          "copy": 2,
-          "unit": "farm-pig",
-          "seedVariant": 1
-        },
-        {
-          "copy": 3,
-          "unit": "farm-donkey",
-          "seedVariant": 1
-        },
-        {
-          "copy": 4,
-          "unit": "farm-rooster",
-          "seedVariant": 1
-        },
-        {
-          "copy": 5,
-          "unit": "farm-turkey",
-          "seedVariant": 1
-        },
-        {
-          "copy": 6,
-          "unit": "garden-dog",
-          "seedVariant": 1
-        },
-        {
-          "copy": 7,
           "unit": "pond-turtle",
           "seedVariant": 1
         },
         {
-          "copy": 8,
+          "copy": 16,
           "unit": "pond-beaver",
           "seedVariant": 1
         },
         {
-          "copy": 9,
-          "unit": "sea-turtle-swim",
-          "seedVariant": 1
-        },
-        {
-          "copy": 10,
-          "unit": "night-rocket",
-          "seedVariant": 1
-        },
-        {
-          "copy": 11,
-          "unit": "town-bus",
-          "seedVariant": 1
-        },
-        {
-          "copy": 12,
-          "unit": "town-ice-cream-truck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 13,
-          "unit": "town-ambulance",
-          "seedVariant": 1
-        },
-        {
-          "copy": 14,
-          "unit": "town-garbage-truck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 15,
-          "unit": "town-scooter",
-          "seedVariant": 1
-        },
-        {
-          "copy": 16,
-          "unit": "town-train",
-          "seedVariant": 1
-        },
-        {
           "copy": 17,
-          "unit": "town-van",
+          "unit": "forest-raccoon",
           "seedVariant": 1
         },
         {
           "copy": 18,
+          "unit": "forest-little-raccoon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "savanna-lion",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "sea-turtle-swim",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "winter-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "winter-santa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "winter-cabin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "winter-little-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "winter-skates",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "night-bat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "night-rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "night-camper",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "town-car",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "town-bus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "town-ice-cream-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "town-ambulance",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "town-garbage-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "town-scooter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "town-train",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "town-van",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "town-taxi",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
           "unit": "town-race-car",
           "seedVariant": 1
         }
@@ -531,146 +531,71 @@
       "1": [
         {
           "copy": 2,
-          "unit": "dinosaur",
-          "seedVariant": 1
-        },
-        {
-          "copy": 3,
           "unit": "fish",
           "seedVariant": 1
         },
         {
-          "copy": 4,
-          "unit": "duck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 5,
-          "unit": "hummingbird",
-          "seedVariant": 1
-        },
-        {
-          "copy": 6,
-          "unit": "unicorn",
-          "seedVariant": 1
-        },
-        {
-          "copy": 7,
-          "unit": "chameleon",
-          "seedVariant": 1
-        },
-        {
-          "copy": 8,
-          "unit": "crab",
-          "seedVariant": 1
-        },
-        {
-          "copy": 9,
+          "copy": 3,
           "unit": "eagle",
           "seedVariant": 1
         },
         {
-          "copy": 10,
-          "unit": "fox",
-          "seedVariant": 1
-        },
-        {
-          "copy": 11,
-          "unit": "lobster",
-          "seedVariant": 1
-        },
-        {
-          "copy": 12,
-          "unit": "panda",
-          "seedVariant": 1
-        },
-        {
-          "copy": 13,
-          "unit": "penguin",
-          "seedVariant": 1
-        },
-        {
-          "copy": 14,
+          "copy": 4,
           "unit": "reindeer",
           "seedVariant": 1
         },
         {
-          "copy": 15,
+          "copy": 5,
           "unit": "sloth",
           "seedVariant": 1
         },
         {
-          "copy": 16,
-          "unit": "tiger",
-          "seedVariant": 1
-        },
-        {
-          "copy": 17,
-          "unit": "parrot",
-          "seedVariant": 1
-        },
-        {
-          "copy": 18,
+          "copy": 6,
           "unit": "mushroom",
           "seedVariant": 1
         },
         {
-          "copy": 19,
-          "unit": "yak",
-          "seedVariant": 1
-        },
-        {
-          "copy": 20,
+          "copy": 7,
           "unit": "flying-saucer",
           "seedVariant": 1
         },
         {
-          "copy": 21,
+          "copy": 8,
           "unit": "bear",
           "seedVariant": 1
         },
         {
-          "copy": 22,
+          "copy": 9,
           "unit": "narwhal",
           "seedVariant": 1
         },
         {
-          "copy": 23,
+          "copy": 10,
           "unit": "clownfish",
           "seedVariant": 1
         },
         {
-          "copy": 24,
+          "copy": 11,
           "unit": "seahorse",
           "seedVariant": 1
         },
         {
-          "copy": 25,
+          "copy": 12,
           "unit": "starfish",
           "seedVariant": 1
         },
         {
-          "copy": 26,
+          "copy": 13,
           "unit": "octopus",
           "seedVariant": 1
         },
         {
-          "copy": 27,
+          "copy": 14,
           "unit": "tugboat",
           "seedVariant": 1
         },
         {
-          "copy": 28,
-          "unit": "apple",
-          "seedVariant": 1
-        },
-        {
-          "copy": 29,
-          "unit": "cupcake",
-          "seedVariant": 1
-        },
-        {
-          "copy": 30,
+          "copy": 15,
           "unit": "birthday-cake",
           "seedVariant": 1
         }
@@ -678,57 +603,254 @@
       "2": [
         {
           "copy": 2,
+          "unit": "deer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "donkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "chick",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lion",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "monkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "kangaroo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hummingbird",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "pony",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "unicorn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "bat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "bull",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "chameleon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "crab",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "fox",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "gorilla",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "lobster",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "ostrich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "panda",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "snake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "tiger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "parrot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "yak",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "donut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "rhino",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "hermit-crab",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "teddy-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "drum",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "dice",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "helicopter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "sailboat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "apple",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "cherries",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "cupcake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "teapot",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 2,
           "unit": "cat",
           "seedVariant": 1
         },
         {
           "copy": 3,
-          "unit": "deer",
+          "unit": "hen",
           "seedVariant": 1
         },
         {
           "copy": 4,
-          "unit": "triceratops",
+          "unit": "cow",
           "seedVariant": 1
         },
         {
           "copy": 5,
-          "unit": "puppy",
+          "unit": "dinosaur",
           "seedVariant": 1
         },
         {
           "copy": 6,
-          "unit": "donkey",
+          "unit": "triceratops",
           "seedVariant": 1
         },
         {
           "copy": 7,
-          "unit": "frog",
+          "unit": "puppy",
           "seedVariant": 1
         },
         {
           "copy": 8,
-          "unit": "police-car",
+          "unit": "elephant",
           "seedVariant": 1
         },
         {
           "copy": 9,
-          "unit": "chick",
+          "unit": "scarecrow",
           "seedVariant": 1
         },
         {
           "copy": 10,
-          "unit": "ladybug",
+          "unit": "hippo",
           "seedVariant": 1
         },
         {
           "copy": 11,
-          "unit": "lion",
+          "unit": "police-car",
           "seedVariant": 1
         },
         {
           "copy": 12,
-          "unit": "monkey",
+          "unit": "ladybug",
           "seedVariant": 1
         },
         {
@@ -743,293 +865,171 @@
         },
         {
           "copy": 15,
-          "unit": "goat",
-          "seedVariant": 1
-        },
-        {
-          "copy": 16,
-          "unit": "kangaroo",
-          "seedVariant": 1
-        },
-        {
-          "copy": 17,
           "unit": "koala",
           "seedVariant": 1
         },
         {
-          "copy": 18,
+          "copy": 16,
           "unit": "nest",
           "seedVariant": 1
         },
         {
-          "copy": 19,
-          "unit": "pony",
-          "seedVariant": 1
-        },
-        {
-          "copy": 20,
-          "unit": "rabbit",
-          "seedVariant": 1
-        },
-        {
-          "copy": 21,
-          "unit": "sheep",
-          "seedVariant": 1
-        },
-        {
-          "copy": 22,
-          "unit": "bat",
-          "seedVariant": 1
-        },
-        {
-          "copy": 23,
-          "unit": "bee",
-          "seedVariant": 1
-        },
-        {
-          "copy": 24,
-          "unit": "bull",
-          "seedVariant": 1
-        },
-        {
-          "copy": 25,
-          "unit": "gorilla",
-          "seedVariant": 1
-        },
-        {
-          "copy": 26,
-          "unit": "ostrich",
-          "seedVariant": 1
-        },
-        {
-          "copy": 27,
-          "unit": "owl",
-          "seedVariant": 1
-        },
-        {
-          "copy": 28,
-          "unit": "snake",
-          "seedVariant": 1
-        },
-        {
-          "copy": 29,
-          "unit": "squirrel",
-          "seedVariant": 1
-        },
-        {
-          "copy": 30,
-          "unit": "donut",
-          "seedVariant": 1
-        },
-        {
-          "copy": 31,
-          "unit": "rhino",
-          "seedVariant": 1
-        },
-        {
-          "copy": 32,
-          "unit": "hermit-crab",
-          "seedVariant": 1
-        },
-        {
-          "copy": 33,
-          "unit": "teddy-bear",
-          "seedVariant": 1
-        },
-        {
-          "copy": 34,
-          "unit": "drum",
-          "seedVariant": 1
-        },
-        {
-          "copy": 35,
-          "unit": "dice",
-          "seedVariant": 1
-        },
-        {
-          "copy": 36,
-          "unit": "kite",
-          "seedVariant": 1
-        },
-        {
-          "copy": 37,
-          "unit": "helicopter",
-          "seedVariant": 1
-        },
-        {
-          "copy": 38,
-          "unit": "rocket",
-          "seedVariant": 1
-        },
-        {
-          "copy": 39,
-          "unit": "fire-truck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 40,
-          "unit": "tractor",
-          "seedVariant": 1
-        },
-        {
-          "copy": 41,
-          "unit": "sailboat",
-          "seedVariant": 1
-        },
-        {
-          "copy": 42,
-          "unit": "cherries",
-          "seedVariant": 1
-        },
-        {
-          "copy": 43,
-          "unit": "pumpkin",
-          "seedVariant": 1
-        },
-        {
-          "copy": 44,
-          "unit": "teapot",
-          "seedVariant": 1
-        }
-      ],
-      "3": [
-        {
-          "copy": 2,
-          "unit": "hen",
-          "seedVariant": 1
-        },
-        {
-          "copy": 3,
-          "unit": "cow",
-          "seedVariant": 1
-        },
-        {
-          "copy": 4,
-          "unit": "elephant",
-          "seedVariant": 1
-        },
-        {
-          "copy": 5,
-          "unit": "scarecrow",
-          "seedVariant": 1
-        },
-        {
-          "copy": 6,
-          "unit": "hippo",
-          "seedVariant": 1
-        },
-        {
-          "copy": 7,
+          "copy": 17,
           "unit": "rooster",
           "seedVariant": 1
         },
         {
-          "copy": 8,
-          "unit": "turtle",
-          "seedVariant": 1
-        },
-        {
-          "copy": 9,
-          "unit": "dump-truck",
-          "seedVariant": 1
-        },
-        {
-          "copy": 10,
-          "unit": "peacock",
-          "seedVariant": 1
-        },
-        {
-          "copy": 11,
-          "unit": "toucan",
-          "seedVariant": 1
-        },
-        {
-          "copy": 12,
-          "unit": "turkey",
-          "seedVariant": 1
-        },
-        {
-          "copy": 13,
-          "unit": "beach-ball",
-          "seedVariant": 1
-        },
-        {
-          "copy": 14,
-          "unit": "sea-turtle",
-          "seedVariant": 1
-        },
-        {
-          "copy": 15,
-          "unit": "snail",
-          "seedVariant": 1
-        },
-        {
-          "copy": 16,
-          "unit": "robot",
-          "seedVariant": 1
-        },
-        {
-          "copy": 17,
-          "unit": "rocking-horse",
-          "seedVariant": 1
-        },
-        {
           "copy": 18,
-          "unit": "toy-train",
+          "unit": "sheep",
           "seedVariant": 1
         },
         {
           "copy": 19,
-          "unit": "spinning-top",
+          "unit": "turtle",
           "seedVariant": 1
         },
         {
           "copy": 20,
-          "unit": "pinwheel",
+          "unit": "dump-truck",
           "seedVariant": 1
         },
         {
           "copy": 21,
-          "unit": "telephone",
+          "unit": "bee",
           "seedVariant": 1
         },
         {
           "copy": 22,
-          "unit": "xylophone",
+          "unit": "peacock",
           "seedVariant": 1
         },
         {
           "copy": 23,
-          "unit": "school-bus",
+          "unit": "penguin",
           "seedVariant": 1
         },
         {
           "copy": 24,
-          "unit": "airplane",
+          "unit": "squirrel",
           "seedVariant": 1
         },
         {
           "copy": 25,
-          "unit": "hot-air-balloon",
+          "unit": "toucan",
           "seedVariant": 1
         },
         {
           "copy": 26,
-          "unit": "sundae",
+          "unit": "turkey",
           "seedVariant": 1
         },
         {
           "copy": 27,
-          "unit": "house",
+          "unit": "beach-ball",
           "seedVariant": 1
         },
         {
           "copy": 28,
-          "unit": "flower-pot",
+          "unit": "sea-turtle",
           "seedVariant": 1
         },
         {
           "copy": 29,
+          "unit": "snail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "robot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "rocking-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "toy-train",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "spinning-top",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "pinwheel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "kite",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "telephone",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "xylophone",
+          "seedVariant": 1
+        },
+        {
+          "copy": 38,
+          "unit": "school-bus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 39,
+          "unit": "airplane",
+          "seedVariant": 1
+        },
+        {
+          "copy": 40,
+          "unit": "hot-air-balloon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 41,
+          "unit": "rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 42,
+          "unit": "fire-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 43,
+          "unit": "tractor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 44,
+          "unit": "sundae",
+          "seedVariant": 1
+        },
+        {
+          "copy": 45,
+          "unit": "pumpkin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 46,
+          "unit": "house",
+          "seedVariant": 1
+        },
+        {
+          "copy": 47,
+          "unit": "flower-pot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 48,
           "unit": "sandcastle",
           "seedVariant": 1
         }

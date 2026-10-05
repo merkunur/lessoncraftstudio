@@ -345,6 +345,8 @@ const PIECE = {
   'garden-ladybug': { m2: 'black' },
   'pond-duck': { s0: ['orange', 's0'], s1: ['orange', 's0'] },
   'pond-flamingo': { s4: ['pink', 'p0'], s5: ['pink', 'p0'], s8: ['pink', 'p0'], s11: ['pink', 'p0'], s15: ['pink', 'p0'], s16: ['pink', 'p0'], s17: ['pink', 'p0'], s18: ['pink', 'p0'], s19: ['pink', 'p0'], s21: ['pink', 'p0'], s23: ['pink', 'p0'], s24: ['pink', 'p0'], s27: ['pink', 'p0'], s28: ['pink', 'p0'], s29: ['pink', 'p0'], s32: ['pink', 'p0'], s33: ['pink', 'p0'], s80: ['pink', 'p0'] },
+  'pond-alligator': { s1: ['lightgreen', 'p0'], s11: ['lightgreen', 'p0'], s35: ['lightgreen', 'p0'], s77: ['lightgreen', 'p0'], s2: ['lightgreen', 'p0'], s5: ['lightgreen', 'p0'], s60: ['lightgreen', 'p0'], s3: ['lightgreen', 'p0'], s32: ['lightgreen', 'p0'], s16: ['lightgreen', 'p0'], s22: ['lightgreen', 'p0'], s53: ['lightgreen', 'p0'], s0: ['lightgreen', 'p0'], s71: ['lightgreen', 'p0'] },
+  'pond-beaver': { m0: 'orange' },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },

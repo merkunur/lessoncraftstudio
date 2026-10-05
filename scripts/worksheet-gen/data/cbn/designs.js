@@ -52,7 +52,8 @@ function partColours(d) {
 function levelOf(d) {
   if (d.levelFixed) return d.levelFixed;
   const pc = pieceColours(d);
-  const cs = partColours(d).concat(pc.mid).filter((c) => c && c !== 'none');
+  const self = pc.small.filter((r, i) => r && r.to === 's' + i).map((r) => r.colour);   // small pieces numbered on their own
+  const cs = partColours(d).concat(pc.mid, self).filter((c) => c && c !== 'none');
   const k = new Set(cs).size, n = cs.length;
   if (k <= 4 || (k === 5 && n < 10)) return 1;
   if (k >= 7 || (k === 6 && n >= 14)) return 3;

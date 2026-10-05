@@ -28,6 +28,15 @@ const EYE_THICK = 10;
 const HIGHLIGHT_INK = 8;     // px: measured 2026-10-05 — pupils 9-13, outlines ~3.5 (junctions up to ~6.5): a highlight sits in a pupil-thick mass
 // drawings that are white in nature (their pieces may stay white everywhere they appear)
 const NATURAL_WHITE_SRC = new Set(['home and nature bw/cloud', 'Christmas bw/snowman', 'Christmas bw 2/snowman']);
+// SPILL exceptions, each read on the answer key 2026-10-06: the piece really is the background's colour
+const SPILL_OK = {
+  'beach-ball': ['m0', 's1', 's7', 's8', 's9'],        // a yellow panel of the ball
+  'spinning-top': ['m0', 's2', 's6', 's8'],           // the yellow band on the top
+  'hot-air-balloon': ['m4', 's4', 's6', 's38', 's79'], // sky between the basket ropes
+  tugboat: ['m0', 'm1', 's5'],                         // blue cabin windows
+  pumpkin: ['m0'],                                     // the green stem
+  'beach-bucket': ['s1', 's8'],                        // sea seen through the spade grip, sand inside the handle
+};
 const OUTDIR = path.join(process.env.TEMP || '/tmp', 'spl', 'unpainted');
 
 const idRgb = (i) => { const n = i + 1; return [((n >> 8) & 15) * 16 + 8, ((n >> 4) & 15) * 16 + 8, (n & 15) * 16 + 8]; };
@@ -102,7 +111,8 @@ async function check(d, poison) {
       what: p ? `${p.kind} ${p.i} of ${p.fixed || (p.src ? p.src.split('/').pop() : 'background')}${p.hero ? ' (hero)' : ''} r${p.r}` : 'no piece (an outline gap)' });
   }
   // SPILL: a piece of a drawing painted with the scene's sky / ground colour that no other part of its own drawing has
-  // (a paw pad turned grass-green) — the background leaked into the drawing
+  // (a paw pad turned grass-green) — the background leaked into the drawing. SPILL_OK (top of file) lists the pieces
+  // read on the answer key and found deliberately that colour.
   const { partColours, pieceColours: pcs } = require('../data/cbn/designs.js');
   const { SMALL_RULE } = require('../data/cbn/lineart-colours.js');
   const cs = partColours(d), pc = pcs(d);
@@ -113,8 +123,9 @@ async function check(d, poison) {
   const bgCol = new Set(j.parts.map((p, i) => (p.fixed ? cs[i] : null)).filter(Boolean));
   const own = (item) => new Set(j.parts.map((p, i) => (!p.fixed && p.item === item ? cs[i] : null)).filter(Boolean));
   const spill = (p, c) => p.item != null && !(p.src && SMALL_RULE[p.src]) && c && bgCol.has(c) && !own(p.item).has(c);
-  (j.mid || []).forEach((p, i) => { if (spill(p, pc.mid[i])) flags.push({ area: Math.round(p.area), x: Math.round(p.x), y: Math.round(p.y), what: `SPILL mid ${i} of ${p.src.split('/').pop()} painted ${pc.mid[i]} (the background)` }); });
-  (j.small || []).forEach((p, i) => { const r = pc.small[i]; if (r && spill(p, r.colour)) flags.push({ area: Math.round(p.area), x: Math.round(p.x), y: Math.round(p.y), what: `SPILL small ${i} of ${p.src.split('/').pop()} painted ${r.colour} (the background)` }); });
+  const ok = SPILL_OK[d.id] || [];
+  (j.mid || []).forEach((p, i) => { if (ok.includes('m' + i)) return; if (spill(p, pc.mid[i])) flags.push({ area: Math.round(p.area), x: Math.round(p.x), y: Math.round(p.y), what: `SPILL mid ${i} of ${p.src.split('/').pop()} painted ${pc.mid[i]} (the background)` }); });
+  (j.small || []).forEach((p, i) => { const r = pc.small[i]; if (ok.includes('s' + i)) return; if (r && spill(p, r.colour)) flags.push({ area: Math.round(p.area), x: Math.round(p.x), y: Math.round(p.y), what: `SPILL small ${i} of ${p.src.split('/').pop()} painted ${r.colour} (the background)` }); });
   return { flags, key, W, H };
 }
 

@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-293',
   slug: 'shopping-math-how-much-change',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-05: real levels (level 2 = the published page, D): level 1 smaller prices, level 3 harder
+  difficulty: { 1: { ...D, ...{"baseMax":5,"items":4} }, 2: D, 3: { ...D, ...{"cards":3,"baseMax":9,"payMulti":true,"cardH":140,"dots":60} } },
   i18n: { en: { title: "Shopping Math: How Much Change?", instruction: "Count the coins paid, then work out the change." } },
 };

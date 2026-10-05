@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-290',
   slug: 'shopping-math-four-questions',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-05: real levels (level 2 = the published page, D): level 1 smaller prices, level 3 harder
+  difficulty: { 1: { ...D, ...{"baseMax":6} }, 2: D, 3: { ...D, ...{"items":6,"baseMax":9,"kinds":["total3","change","canBuy","diff"]} } },
   i18n: { en: { title: "Shopping Math: Four Questions", instruction: "Four cards, four different shopping questions to answer." } },
 };

@@ -1489,5 +1489,46 @@
    "no": "Regn ut hver oppgave, og trykk så på riktig svar.",
    "fi": "Laske jokainen lasku ja napauta sitten oikeaa vastausta."
   }
+ },
+ "money": {
+  "count": {
+   "en": "Count the money in each purse, then tap the right total.",
+   "de": "Zähle das Geld in jedem Geldbeutel und tippe dann auf den richtigen Betrag.",
+   "fr": "Compte l'argent de chaque porte-monnaie, puis appuie sur le bon total.",
+   "es": "Cuenta el dinero de cada monedero y luego toca el total correcto.",
+   "pt": "Conte o dinheiro de cada carteira e depois toque no total certo.",
+   "it": "Conta i soldi in ogni borsellino, poi tocca il totale giusto.",
+   "nl": "Tel het geld in elke portemonnee en tik dan op het juiste bedrag.",
+   "sv": "Räkna pengarna i varje börs och tryck sedan på rätt summa.",
+   "da": "Tæl pengene i hver pung, og tryk så på det rigtige beløb.",
+   "no": "Tell pengene i hver pung, og trykk så på riktig sum.",
+   "fi": "Laske rahat jokaisesta kukkarosta ja napauta sitten oikeaa summaa."
+  },
+  "purse": {
+   "en": "Count the money in both purses, then tap the purse that has more.",
+   "de": "Zähle das Geld in beiden Geldbeuteln und tippe dann auf den Geldbeutel mit mehr Geld.",
+   "fr": "Compte la monnaie des deux porte-monnaie, puis appuie sur celui qui a le plus d'argent.",
+   "es": "Cuenta el dinero de los dos monederos y luego toca el que tiene más.",
+   "pt": "Conte o dinheiro das duas carteiras e depois toque na que tem mais.",
+   "it": "Conta i soldi nei due borsellini, poi tocca quello che ne ha di più.",
+   "nl": "Tel het geld in beide portemonnees en tik dan op de portemonnee met het meeste geld.",
+   "sv": "Räkna pengarna i båda börsarna och tryck sedan på börsen som har mest.",
+   "da": "Tæl pengene i begge punge, og tryk så på den pung, der har flest penge.",
+   "no": "Tell pengene i begge pungene, og trykk så på pungen med mest penger.",
+   "fi": "Laske rahat molemmista kukkaroista ja napauta sitä, jossa on enemmän."
+  },
+  "shop": {
+   "en": "Read the prices on the shelf, work out each question, then tap the right answer.",
+   "de": "Lies die Preise im Regal, rechne jede Aufgabe aus und tippe dann auf die richtige Antwort.",
+   "fr": "Lis les prix sur l'étagère, résous chaque problème, puis appuie sur la bonne réponse.",
+   "es": "Lee los precios del estante, resuelve cada problema y luego toca la respuesta correcta.",
+   "pt": "Leia os preços na prateleira, resolva cada problema e depois toque na resposta certa.",
+   "it": "Leggi i prezzi sullo scaffale, risolvi ogni problema, poi tocca la risposta giusta.",
+   "nl": "Lees de prijzen op de plank, reken elke vraag uit en tik dan op het juiste antwoord.",
+   "sv": "Läs priserna på hyllan, räkna ut varje uppgift och tryck sedan på rätt svar.",
+   "da": "Læs priserne på hylden, regn hver opgave ud, og tryk så på det rigtige svar.",
+   "no": "Les prisene på hylla, regn ut hver oppgave, og trykk så på riktig svar.",
+   "fi": "Lue hinnat hyllystä, laske jokainen tehtävä ja napauta sitten oikeaa vastausta."
+  }
  }
 }

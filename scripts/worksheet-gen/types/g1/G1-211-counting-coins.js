@@ -26,6 +26,8 @@ module.exports = {
     2: { coinsMin: 3, coinsMax: 5, denomsUsed: 4, cards: 6, cols: 2, rows: 3, minPx: 46, maxPx: 66 },
     3: { coinsMin: 5, coinsMax: 7, denomsUsed: 99, cards: 6, cols: 2, rows: 3, minPx: 42, maxPx: 60 },
   },
+  interactive: require('../../lib/money-screen.js').interactiveFor('count'),
+  levelSetWords(m) { return m.purses || []; },
   i18n: {
     en: {
       title: 'Counting Coins',
@@ -34,26 +36,43 @@ module.exports = {
   },
 
   build({ difficulty, locale }, ctx) {
+    // Level Set 2026-10-05: the screen version + answer key of NEW pages (lib/money-screen.js); the published page
+    // (level 2, copy 1) never reaches it
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/money-screen.js').screenOrKey('count', built, ctx, locale);
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const cur = CURRENCIES[(locale || 'en').slice(0, 2)];
     if (!cur) throw new Error(`G1-211: no currency table for locale ${locale}`);
     // smallest denominations first = the easy subset at low difficulty
-    const denoms = [...cur.sub].sort((a, b) => a.v - b.v).slice(0, Math.min(d.denomsUsed, cur.sub.length));
-    const used = new Set();
-    const cards = [];
+    const sorted = [...cur.sub].sort((a, b) => a.v - b.v);
+    const denoms = sorted.slice(0, Math.min(d.denomsUsed, cur.sub.length));
+    const used = new Set(), totals = new Set();
+    const cards = [], purses = [];
     for (let i = 0; i < d.cards; i++) {
       let values, total, guard = 0;
       do {
         const k = rng.int(d.coinsMin, d.coinsMax);
-        values = Array.from({ length: k }, () => rng.pick(denoms).v);
+        // d.pairFrom (Level Set 2026-10-05, Two-Coin Counting): each purse holds exactly TWO kinds, drawn from the
+        // smallest d.pairFrom kinds — the published page (level 2, copy 1) keeps its two smallest kinds
+        const kinds = d.pairFrom && !published ? rng.sample(sorted.slice(0, Math.min(d.pairFrom, sorted.length)), 2) : denoms;
+        values = Array.from({ length: k }, () => rng.pick(kinds).v);
         total = values.reduce((a, b) => a + b, 0);
         guard++;
       } while ((total > cur.subMax ||
                 new Set(values).size < Math.min(2, values.length) || // a same-coin-only purse is weak counting
-                used.has(values.slice().sort((a, b) => a - b).join(','))) && guard < 200);
+                used.has(values.slice().sort((a, b) => a - b).join(',')) ||
+                // Level Set pages (not the published one): no total twice on a page (native + pedagogy review 2026-10-05)
+                (!published && totals.has(total))) && guard < 400);
+      if (total > cur.subMax || new Set(values).size < Math.min(2, values.length) || used.has(values.slice().sort((a, b) => a - b).join(',')) || (!published && totals.has(total)))
+        throw new Error(`G1-211 family: level ${difficulty} cannot draw ${d.cards} distinct mixed purses`);
+      totals.add(total);
       used.add(values.slice().sort((a, b) => a - b).join(','));
       const row = coinRow({ values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx });
+      purses.push({ values: values.slice().sort((a, b) => b - a), denoms: cur.sub.map((x) => x.v), row: row.html, unit: cur.unit });
       cards.push(
         `<div class="ws-card-stage" style="flex-direction:column;gap:14px;padding:10px">` +
         `<div style="flex:1;display:flex;align-items:center">${row.html}</div>` +
@@ -63,7 +82,7 @@ module.exports = {
         `</div></div>`
       );
     }
-    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: {} };
+    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { purses: purses.map((p) => p.values.join('+')) }, _purses: purses };
   },
 
   async verify(page) {

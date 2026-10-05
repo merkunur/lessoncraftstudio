@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-289',
   slug: 'shopping-math-two-stories',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-05: real levels (level 2 = the published page, D): level 1 smaller prices, level 3 harder
+  difficulty: { 1: { ...D, ...{"baseMax":5,"items":4} }, 2: D, 3: { ...D, ...{"baseMax":9,"items":5} } },
   i18n: { en: { title: "Shopping Math: Two Stories", instruction: "Read each story and use the shelf prices to answer it." } },
 };

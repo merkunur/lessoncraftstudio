@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-294',
   slug: 'shopping-math-is-there-enough-money',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-05: real levels (level 2 = the published page, D): level 1 smaller prices, level 3 harder
+  difficulty: { 1: { ...D, ...{"canBuySteps":[-2,2]} }, 2: D, 3: { ...D, ...{"cards":3,"canBuySteps":[-1,1],"cardH":160,"dots":72} } },
   i18n: { en: { title: "Shopping Math: Is There Enough Money?", instruction: "Compare the money with the price. Circle yes or no, then write the total." } },
 };

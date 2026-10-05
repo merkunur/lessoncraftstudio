@@ -19,7 +19,11 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'money',
   themeAxis: { applicable: false },
-  difficulty: { 1: { ...D }, 2: { ...D }, 3: { ...D } },
+  // Level Set 2026-10-05: level 1 a clear gap; level 2 the published page; level 3 close totals, 4 rows, and the trap
+  // this page exists for (the purse with MORE coins holds LESS money) in at least half the rows
+  difficulty: { 1: { ...D, coinsMin: 2, coinsMax: 3, minGapFrac: 0.3 }, 2: { ...D }, 3: { ...D, coinsMin: 3, coinsMax: 6, cards: 4, rows: 4, minPx: 38, maxPx: 52, maxGapFrac: 0.2, trapShare: 0.5, balance: true } },
+  interactive: require('../../lib/money-screen.js').interactiveFor('purse'),
+  levelSetWords(m) { return m.rows || []; },
   i18n: {
     en: {
       title: 'Which Purse Has More?',
@@ -28,6 +32,13 @@ module.exports = {
   },
 
   build({ difficulty, locale }, ctx) {
+    // Level Set 2026-10-05: the screen version + answer key of NEW pages (lib/money-screen.js); the published page
+    // (level 2, copy 1) never reaches it
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/money-screen.js').screenOrKey('purse', built, ctx, locale);
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const cur = CURRENCIES[(locale || 'en').slice(0, 2)];
@@ -38,14 +49,31 @@ module.exports = {
       const values = Array.from({ length: k }, () => rng.pick(denoms).v);
       return { values, total: values.reduce((a, b) => a + b, 0) };
     };
-    const cards = [];
+    const cards = [], rows = [], pairs = new Set();
     for (let i = 0; i < d.cards; i++) {
       let A, B, guard = 0;
+      // Level Set options (additive; undefined = the published behaviour): the gap between the totals, the trap row
+      // (the purse with MORE coins holds LESS money) and a balanced left/right answer
+      const wantTrap = d.trapShare ? i < Math.ceil(d.cards * d.trapShare) : false;
+      const ok = (P, Q) => {
+        const hi = Math.max(P.total, Q.total), gap = Math.abs(P.total - Q.total);
+        if (d.minGapFrac && gap < d.minGapFrac * hi) return false;
+        if (d.maxGapFrac && gap > d.maxGapFrac * hi) return false;
+        if (wantTrap) { const more = P.total > Q.total ? P : Q, less = more === P ? Q : P; if (!(less.values.length > more.values.length)) return false; }
+        return true;
+      };
       do {
         A = makePurse(); B = makePurse(); guard++;
-      } while ((A.total === B.total || A.total > cur.subMax || B.total > cur.subMax) && guard < 200);
+      } while ((A.total === B.total || (!published && pairs.has([A.total, B.total].sort((x, y) => x - y).join('|'))) || A.total > cur.subMax || B.total > cur.subMax || (d.minGapFrac || d.maxGapFrac || wantTrap ? !ok(A, B) : false)) && guard < (d.trapShare || d.minGapFrac || d.maxGapFrac ? 4000 : 200));
+      // Level Set pages (not the published one): no pair of totals twice on a page (native + pedagogy review 2026-10-05)
+      if (!published && pairs.has([A.total, B.total].sort((x, y) => x - y).join('|'))) throw new Error('G1-232: could not build a new pair of totals');
+      pairs.add([A.total, B.total].sort((x, y) => x - y).join('|'));
       if (A.total === B.total) throw new Error('G1-232: could not build distinct purses');
+      if ((d.minGapFrac || d.maxGapFrac || wantTrap) && !ok(A, B)) throw new Error('G1-232: could not build a row with the gap or trap of this level');
+      // balance: the richer purse alternates sides row by row (a page whose answer is always on one side teaches the side)
+      if (d.balance && ((A.total > B.total) !== (i % 2 === 0))) [A, B] = [B, A];
       const more = A.total > B.total ? 'left' : 'right';
+      rows.push({ more, left: { values: A.values.slice().sort((a, b) => b - a), row: coinRow({ values: A.values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx }).html }, right: { values: B.values.slice().sort((a, b) => b - a), row: coinRow({ values: B.values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx }).html } });
       const purse = (p, side) => {
         const row = coinRow({ values: p.values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx });
         return `<div style="flex:1;display:flex;align-items:center;justify-content:center;background:#FFFFFF;` +
@@ -59,7 +87,7 @@ module.exports = {
         `</div>`
       );
     }
-    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: {} };
+    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { rows: rows.map((r) => [r.left.values.join('+'), r.right.values.join('+')].sort().join('|')) }, _rows: rows };
   },
 
   async verify(page) {

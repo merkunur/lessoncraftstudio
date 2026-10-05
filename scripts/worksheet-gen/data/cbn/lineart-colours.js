@@ -124,7 +124,7 @@ const HERO = {
   'garden-butterfly': ['purple', 'purple', 'pink', 'pink'],
   'garden-bird': ['red'],
   'garden-squirrel': ['orange', 'orange', 'orange'],
-  'garden-chick': ['yellow', 'none'],
+  'garden-chick': ['yellow', 'lightblue'],
   snail: ['pink', 'yellow', 'orange', 'yellow', 'orange', 'yellow', 'orange', 'yellow', 'orange'],
   starfish: ['orange'],
   octopus: ['purple', 'pink', 'pink'],
@@ -340,6 +340,8 @@ const PIECE = {
   'garden-bunny': { m1: 'pink', m4: 'none' },
   'garden-cat': { s0: ['pink', 's0'], s8: ['pink', 's0'], s1: ['pink', 's1'], s18: ['pink', 's1'] },
   'garden-bird': { s6: ['yellow', 's6'], s4: ['yellow', 's4'], s8: ['yellow', 's4'], s9: ['yellow', 's4'], s10: ['yellow', 's4'], s14: ['yellow', 's4'] },
+  'garden-chick': { s3: ['lightblue', 'p1'], s14: ['lightblue', 'p1'], s29: ['lightblue', 'p1'] },
+  'garden-ladybug': { m2: 'black' },
   crocodile: { m6: 'yellow', m2: 'yellow', m4: 'yellow', m0: 'lightgreen', m1: 'yellow', m3: 'yellow', m5: 'lightgreen' },
   fish: { m0: 'yellow', m2: 'yellow', s0: ['yellow', 'm2'], s3: ['yellow', 'm2'] },
   triceratops: { m2: 'yellow', s7: ['yellow', 'm2'], s0: ['yellow', 'm2'], s11: ['yellow', 'm2'], s2: ['yellow', 'm2'], s4: ['yellow', 'm2'] },
@@ -350,6 +352,5 @@ const PIECE = {
 const WHITE_AT = {
   sheep: [[308, 329, 'the root of the white ear, inside the white wool']],
   ostrich: [[248, 227, 'the eye white in the white face']],
-  'garden-chick': [[362, 439, 'the edge of the white eggshell']],
 };
 module.exports = { BG, HERO, OVERRIDE, ATTACH, SMALL_RULE, WHITE, WHITE_AT, PIECE };

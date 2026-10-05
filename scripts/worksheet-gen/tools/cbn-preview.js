@@ -38,7 +38,7 @@ const LABELS = path.join(__dirname, '..', 'data', 'cbn', 'labels.json');
       `${R.toSvg(art, { mode: 'line', labels: g.labels, width: 480 }).replace('</svg>', g.bad.map((b) => `<circle cx="${b.x}" cy="${b.y}" r="16" fill="none" stroke="#e00" stroke-width="4"/>`).join('') + '</svg>')}${R.toSvg(art, { mode: 'colour', width: 480 })}<div>${legend}</div></div>`);
   }
   if (!process.argv.includes('--no-write')) { fs.mkdirSync(path.dirname(LABELS), { recursive: true }); fs.writeFileSync(LABELS, JSON.stringify(cache)); }
-  await page.setContent(`<html><head><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=block" rel="stylesheet"></head><body style="margin:0;background:#fff;width:1020px">${cards.join('')}</body></html>`, { waitUntil: 'networkidle0' });
+  await page.setContent(`<html><head></head><body style="margin:0;background:#fff;width:1020px">${cards.join('')}</body></html>`, { waitUntil: 'load', timeout: 0 });
   await page.evaluate(() => document.fonts.ready);
   await page.setViewport({ width: 1020, height: 800 });
   await page.screenshot({ path: out, fullPage: true });

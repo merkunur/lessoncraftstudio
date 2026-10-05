@@ -30,8 +30,8 @@ function peacock(a, body = 'blue', tail = ['green', 'lightgreen'], eyes = ['purp
     });
     a.line('M-14 112V136M14 112V136M-26 140L-14 136L-4 140M4 140L14 136L26 140', 4);
     // the crest grows out of the head (it floated as three dots above it)
-    a.region(outline([[-16, -98], [-30, -124], [4, -140], [38, -124], [36, -98]]), body, 'crest');
-    [[-28, -126], [4, -141], [36, -126]].forEach(([x, y]) => a.ink(circle(x, y, 6)));
+    a.region(outline([[-8, -100], [-20, -124], [4, -136], [28, -124], [30, -98]]), body, 'crest');   // a small fan, not a hood
+    [[-20, -126], [4, -137], [28, -126]].forEach(([x, y]) => a.ink(circle(x, y, 6)));
     // ONE silhouette: body, neck and head (the neck sat on the body with a seam)
     a.region(outline([[-40, 112], [-50, 60], [-36, 18], [-14, -2], [-14, -42], [-22, -80], [-8, -108], [18, -110],
       [32, -92], [28, -68], [14, -50], [16, -2], [36, 18], [50, 60], [40, 112], [0, 124]]), body, 'peacock');
@@ -82,7 +82,7 @@ function hedgehog(a, spines = 'brown', face_ = 'orange', apple = 'red', feet = '
   // the spiky coat: one zigzag shape (separate spikes would be crumbs)
   // the coat ends UNDER the face (running it to the far side left a spike poking out above the face)
   const pts = []; for (let i = 0; i <= 15; i++) { const t = Math.PI * (1 + 0.72 * i / 15), r = i % 2 ? 96 : 120; pts.push([Math.cos(t) * r * 1.1, Math.sin(t) * r * 0.9 + 30]); }
-  a.region('M' + pts.map((p) => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('L') + 'L120 50Q0 80 -132 50Z', spines, 'spines');
+  a.region('M' + pts.map((p) => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('L') + 'L120 50Q0 78 -112 54Q-134 48 -132 30Z', spines, 'spines');   // a rounded rump (it ended in a square cut)
   a.region(blob([[56, -40], [124, -16], [168, 18], [172, 34], [140, 58], [70, 60], [36, 26]], 1), face_, 'hedgehog face');
   a.ink(circle(170, 28, 8)); eye(a, 112, 12, 1.1);
   a.region(circle(-20, -62, 32), apple, 'apple'); a.region(blob([[-22, -84], [-2, -124], [18, -104], [4, -84]], 1), 'green', 'leaf');   // grows OUT of the apple (it touched it at a point)   // the apple sits INTO the spines (it only rested on a tip)
@@ -138,7 +138,7 @@ function fireTruck(a, body = 'red', glass = 'lightblue', tyre = 'black', hub = '
   a.region(rrect(-180, -82, 200, 28, 6), ladder, 'ladder');
   a.line('M-150 -82V-54M-110 -82V-54M-70 -82V-54M-30 -82V-54', 3);
   a.region(rrect(-170, -40, 200, 30, 6), 'yellow', 'stripe');
-  a.region(rrect(146, -4, 30, 24, 7), 'yellow', 'light');
+  a.region(rrect(134, -4, 30, 24, 7), 'yellow', 'light');   // on the cab, not hanging off it
   [-120, 110].forEach((x) => { a.region(circle(x, 50, 36), tyre, 'tyre'); a.region(circle(x, 50, 15), hub, 'hubcap'); });
 }
 function balloonBunch(a, cols = ['red', 'yellow', 'blue', 'green'], weight = 'pink') {

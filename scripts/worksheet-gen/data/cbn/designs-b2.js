@@ -20,7 +20,7 @@ const B2 = [
     draw(a) { a.at({ x: 300, y: 330, s: 1.5 }, (b) => R.teddy(b, 'brown', 'orange', 'red')); } },
   { id: 'lion-flowers', kind: 'picture', level: 2, names: { en: 'Lion and Flowers' },
     draw(a) {
-      mound(a, 300, 480, 250);
+      mound(a, 300, 480, 250, 'lightgreen');
       a.at({ x: 110, y: 420, s: 0.95 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
       a.at({ x: 500, y: 420, s: 0.95 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
       a.at({ x: 290, y: 300, s: 1.4 }, (b) => R.lion(b, 'orange', 'yellow', 'none'));
@@ -32,7 +32,7 @@ const B2 = [
       a.at({ x: 494, y: 470, s: 0.7 }, (b) => P.bush(b, 'lightgreen'));
       a.at({ x: 236, y: 512, s: 0.95 }, (b) => V.giraffe(b, 'yellow', 'brown', 'brown'));
       a.at({ x: 90, y: 90, s: 0.8 }, (b) => P.sun(b, 'yellow'));
-      a.at({ x: 100, y: 300, s: 0.75 }, (b) => P.butterfly(b, 'purple', 'yellow', 'purple'));
+      a.at({ x: 500, y: 210, s: 0.7 }, (b) => P.butterfly(b, 'purple', 'yellow', 'purple'));   // in the open sky, not pasted on the giraffe
     } },
   { id: 'hen-nest', kind: 'picture', level: 1, names: { en: 'Hen on Her Nest' },
     draw(a) {
@@ -70,8 +70,8 @@ const B2 = [
       a.at({ x: 90, y: 74, s: 0.8 }, (b) => P.sun(b));
       a.at({ x: 380, y: 70, s: 0.75 }, (b) => P.cloud(b));
       a.at({ x: 200, y: 250, s: 0.95 }, (b) => R.barn(b, 'red', 'brown', 'none', 'yellow'));   // the hay window shows hay (a white disc read as a hole) — 2026-10-05
-      a.at({ x: 420, y: 458, s: 1.0 }, (b) => Q.pig(b, 'pink', 'pink'));
-      a.at({ x: 140, y: 440, s: 1.0 }, (b) => R.hen(b, 'none', 'red', 'orange'));
+      a.at({ x: 404, y: 460, s: 1.12 }, (b) => Q.pig(b, 'pink', 'pink'));
+      a.at({ x: 130, y: 440, s: 1.0 }, (b) => R.hen(b, 'none', 'red', 'orange'));   // hen-sized beside the pig
     } },
   { id: 'hen-chicks', kind: 'scene', level: 2, names: { en: 'Hen and Chicks' },
     draw(a) {
@@ -80,8 +80,8 @@ const B2 = [
       a.at({ x: 14, y: 196, s: 0.9 }, (b) => P.fence(b, 3, 'brown', 70));
       // chicks are SMALL beside their mother (they were as big as the hen) — 2026-10-05
       a.at({ x: 210, y: 380, s: 1.25 }, (b) => R.hen(b, 'none', 'red', 'orange'));
-      a.at({ x: 410, y: 462, s: 0.76 }, (b) => Q.chick(b, 'yellow', 'orange'));
-      a.at({ x: 522, y: 470, s: 0.76, fx: true }, (b) => Q.chick(b, 'yellow', 'orange'));
+      a.at({ x: 400, y: 462, s: 0.76 }, (b) => Q.chick(b, 'yellow', 'orange'));
+      a.at({ x: 504, y: 470, s: 0.76, fx: true }, (b) => Q.chick(b, 'yellow', 'orange'));
     } },
   { id: 'rainy-day', kind: 'scene', level: 2, names: { en: 'Rainy Day' },
     draw(a) {
@@ -117,7 +117,7 @@ const B2 = [
       savanna(a, 0.58);
       // a yellow sun; the tree taller than the lion (the lion was nearly as tall as the tree) — 2026-10-05
       a.at({ x: 510, y: 78, s: 0.8 }, (b) => P.sun(b, 'yellow'));
-      a.at({ x: 150, y: 226, s: 1.2 }, (b) => R.acacia(b));
+      a.at({ x: 190, y: 250, s: 0.9 }, (b) => R.acacia(b));   // whole inside the frame
       a.at({ x: 404, y: 404, s: 0.92 }, (b) => R.lion(b, 'brown', 'orange', 'none'));
     } },
   { id: 'giraffe-savanna', kind: 'scene', level: 2, names: { en: 'Giraffe and Tree' },
@@ -126,7 +126,7 @@ const B2 = [
       a.region(`M0 0H${W}V${H}H0Z`, 'lightblue', 'sky');
       a.region(`M0 ${H * 0.7}C${W * 0.3} ${H * 0.7 - 24} ${W * 0.7} ${H * 0.7 - 8} ${W} ${H * 0.68}V${H}H0Z`, 'lightgreen', 'savanna');
       a.at({ x: 86, y: 84, s: 0.8 }, (b) => P.sun(b, 'yellow'));
-      a.at({ x: 452, y: 262, s: 0.8 }, (b) => R.acacia(b));
+      a.at({ x: 452, y: 300, s: 0.8 }, (b) => R.acacia(b));   // its trunk reaches the ground
       a.at({ x: 196, y: 520, s: 1.0 }, (b) => V.giraffe(b, 'yellow', 'brown', 'brown'));
     } },
   { id: 'palm-island', kind: 'scene', level: 2, names: { en: 'Palm Tree Island' },
@@ -145,7 +145,7 @@ const B2 = [
       a.line('M70 500a40 14 0 0 0 80 0', 3);   // a crater dip drawn in the ground (a grey patch vanished into the grey ground)
       a.at({ x: 494, y: 104, s: 1.05 }, (b) => P.planet(b, 'orange', 'pink'));   // clear of the robot's head
       stars(a, [[80, 70, 1], [210, 56, 1], [520, 250, 1], [80, 250, 1]]);
-      a.at({ x: 300, y: 300, s: 1.3 }, (b) => R.robot(b, 'lightblue', 'red', 'yellow', 'red'));
+      a.at({ x: 300, y: 300, s: 1.3 }, (b) => R.robot(b, 'lightblue', 'red', 'yellow', 'orange'));
     } },
   { id: 'night-owl', kind: 'scene', level: 2, names: { en: 'Owl at Night' },
     draw(a) {

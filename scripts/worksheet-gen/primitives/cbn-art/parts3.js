@@ -64,7 +64,7 @@ function barn(a, wall = 'red', roof = 'brown', door = 'none', trim = 'none') {
   a.region(poly([[-120, -40], [120, -40], [120, 110], [-120, 110]], 4), wall, 'barn wall');
   a.region(poly([[-140, -36], [-96, -116], [0, -150], [96, -116], [140, -36], [118, -22], [86, -96], [0, -124], [-86, -96], [-118, -22]], 8), roof, 'roof');
   a.region(poly([[-118, -22], [-86, -96], [0, -124], [86, -96], [118, -22], [118, -40], [-118, -40]], 4), wall, 'gable');
-  a.region(circle(0, -70, 24), trim, 'hay window');
+  a.region(circle(0, -70, 24), trim === 'none' ? 'yellow' : trim, 'hay window');   // never left white
   a.region(rrect(-50, 10, 100, 100, 6), door, 'barn door');
   a.line('M-36 22L36 98M36 22L-36 98', 3);   // the cross stops short of the frame edges: four big parts, not slivers
 }
@@ -73,7 +73,7 @@ function castle(a, stone = 'grey', roofs = 'blue', flags = 'red', door = 'brown'
     a.line(`M${x} ${y - 104}V${y - 176}`, 4);   // the pole runs well INTO the roof: it holds the flag on
     a.region(poly([[x + 2, y - 180], [x + 60, y - 160], [x + 2, y - 136]], 5), flags, 'flag');   // big enough for its number at small scales
     a.region(poly([[x - 44, y - 54], [x, y - 140], [x + 44, y - 54]], 8), roofs, 'tower roof');
-    a.region(rrect(x - 38, y - 60, 76, 210, 6), stone, 'tower');
+    a.region(rrect(x - 38, y - 60, 76, 250, 6), stone, 'tower');   // down to the ground with the keep
     a.region(rrect(x - 14, y - 26, 28, 40, 14), 'yellow', 'tower window');
   });
   a.region(rrect(-92, -20, 184, 170, 4), stone, 'castle wall');

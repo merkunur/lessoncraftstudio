@@ -19,20 +19,20 @@ const B4 = [
   /* ------------------------------------------------------------ pictures */
   { id: 'brown-bear', kind: 'picture', level: 2, names: { en: 'Brown Bear' },
     draw(a) {
-      mound(a, 300, 470, 260);
+      mound(a, 300, 470, 260, 'lightgreen');
       a.at({ x: 535, y: 405, s: 0.9 }, (b) => P.flower(b, 'red', 'yellow', 'green', 25));
       a.at({ x: 212, y: 470, s: 1.1 }, (b) => N.bear(b, 'brown', 'orange', 'orange'));
     } },
   { id: 'red-fox', kind: 'picture', level: 2, names: { en: 'Little Fox' },
     draw(a) {
-      mound(a, 300, 480, 250);
+      mound(a, 300, 480, 250, 'lightgreen');
       a.at({ x: 535, y: 430, s: 0.85 }, (b) => P.mushroom(b, 'red', 'none'));
       a.at({ x: 100, y: 410, s: 0.95 }, (b) => P.flower(b, 'purple', 'yellow', 'green', 25));
       a.at({ x: 262, y: 478, s: 1.28 }, (b) => N.fox(b, 'orange', 'none', 'black'));
     } },
   { id: 'pony', kind: 'picture', level: 2, names: { en: 'Pony' },
     draw(a) {
-      mound(a, 300, 492, 250);
+      mound(a, 300, 492, 250, 'lightgreen');
       a.at({ x: 510, y: 420, s: 1.0 }, (b) => P.flower(b, 'pink', 'yellow', 'green', 25));
       a.at({ x: 280, y: 476, s: 1.05 }, (b) => N.pony(b, 'brown', 'black', 'grey'));
     } },
@@ -150,9 +150,9 @@ const B4 = [
     draw(a) {
       skyGrass(a, 0.6);
       a.at({ x: 500, y: 76, s: 0.8 }, (b) => P.sun(b));
-      a.at({ x: 150, y: 290, s: 0.85 }, (b) => T.mushroomHouse(b, 'red', 'yellow', 'brown', 'lightblue', 'none'));
+      a.at({ x: 164, y: 296, s: 0.8 }, (b) => T.mushroomHouse(b, 'red', 'yellow', 'brown', 'lightblue', 'none'));
       a.at({ x: 452, y: 330, s: 0.76 }, (b) => T.mushroomHouse(b, 'purple', 'yellow', 'brown', 'lightblue', 'none'));
-      a.at({ x: 220, y: 512, s: 0.9 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
+      a.at({ x: 240, y: 514, s: 0.76 }, (b) => Q.snail(b, 'orange', 'yellow', 'lightgreen'));
     } },
 ];
 

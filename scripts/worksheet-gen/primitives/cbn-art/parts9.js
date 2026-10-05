@@ -70,7 +70,7 @@ function jellyfish(a, bell = 'pink', tentacles = ['purple', 'blue']) {
 }
 function submarine(a, body = 'yellow', win = 'lightblue', fin = 'orange', prop = 'grey') {
   a.region(poly([[-170, -20], [-200, -50], [-200, 50], [-170, 20]], 6), prop, 'propeller');
-  a.region(rrect(-30, -110, 70, 70, 14), body, 'tower');
+  a.region(rrect(-30, -110, 70, 70, 14), fin, 'tower');   // the tower in the fin colour: it vanished into the hull
   a.line('M20 -110V-150H50', 5);
   // the tail fin rises from the back, rooted under the hull (it floated as a blob under the belly)
   a.region(blob([[-150, -30], [-138, -96], [-104, -96], [-108, -40]], 1), fin, 'fin');
@@ -103,7 +103,7 @@ function dumpTruck(a, body = 'yellow', cab = 'orange', load = 'brown', tyre = 'b
   a.region(blob([[-150, -110], [-110, -160], [-40, -170], [20, -140], [30, -110]], 0.8), load, 'load');
   a.region(rrect(36, -120, 124, 90, 16), cab, 'cab');   // butts against the bed: no slot of sky between them
   a.region(rrect(76, -104, 64, 46, 8), win, 'window');
-  a.region(rrect(-180, -50, 350, 60, 12), body, 'truck body');
+  a.region(rrect(-180, -50, 350, 60, 12), 'grey', 'truck body');   // a grey chassis: the bed above it stays its own colour
   [-110, 100].forEach((x) => { a.region(circle(x, 30, 40), tyre, 'tyre'); a.region(circle(x, 30, 16), hub, 'hubcap'); });
 }
 

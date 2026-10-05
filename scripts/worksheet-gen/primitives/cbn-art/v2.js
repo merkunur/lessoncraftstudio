@@ -93,6 +93,8 @@ function squirrel(a, fur = 'orange', belly = 'yellow', nut = 'brown') {
       [4, -182], [24, -184], [40, -208, 1], [50, -176], [66, -158], [76, -138], [72, -122], [56, -110],
       [46, -96], [50, -56], [58, -20], [64, 0, 1], [-40, 0, 1]]), fur, 'squirrel');
     a.region(outline([[2, -88], [30, -98], [44, -70], [46, -30], [30, -8], [6, -10], [-4, -40]], 0.9), belly, 'belly');
+    // the near arm reaches forward from the chest to hold the acorn (the paws were loose circles)
+    a.region(outline([[44, -110], [66, -110], [92, -70], [86, -50], [62, -56]]), fur, 'arm');
     // the acorn held against the chest, a paw on each side of it
     a.region(outline([[44, -78], [70, -78], [72, -56], [57, -36, 1], [42, -56]]), nut, 'acorn');
     a.region(outline([[40, -80], [58, -92], [76, -80], [72, -70], [42, -70]]), nut, 'acorn cap');
@@ -247,12 +249,14 @@ function bear(a, fur = 'brown', muzzle = 'orange', inner = 'orange', scarf = nul
     const leg = (x0, x1) => a.region(outline([[x0, -76], [x1, -76], [x1 + 2, -16], [x1 + 6, 0, 1], [x0 - 2, 0, 1], [x0, -16]]), fur, 'far leg');
     leg(52, 84); leg(-34, 0);
     a.region(circle(-138, -106, 24), fur, 'tail');
-    a.region(circle(122, -196, 26), fur, 'ear');
+    // both ears grow from BEHIND the head (the near one sat stacked on top of it)
+    a.region(circle(116, -192, 26), fur, 'ear');
+    a.region(circle(164, -202, 30), fur, 'ear');
     a.region(outline([[-140, -90], [-122, -140], [-62, -168], [0, -176], [52, -166], [84, -170], [104, -190],
       [140, -204], [178, -194], [198, -168], [216, -152], [234, -140], [228, -118], [198, -108], [160, -100],
       [132, -86], [122, -50], [124, -16], [132, 0, 1], [84, 0, 1], [84, -20], [80, -56], [40, -62], [-20, -60],
       [-48, -62], [-48, -16], [-42, 0, 1], [-92, 0, 1], [-96, -20], [-118, -56], [-138, -70]]), fur, 'bear');
-    a.region(circle(164, -208, 32), fur, 'ear'); if (inner !== fur) a.region(circle(168, -210, 13), inner, 'inner ear');
+    if (inner !== fur) a.region(circle(166, -214, 12), inner, 'inner ear');
     if (scarf) {   // round the neck, one end hanging down the chest
       a.region(outline([[62, -164], [88, -182], [152, -102], [124, -82]]), scarf, 'scarf');
       a.region(outline([[108, -98], [138, -102], [144, -40], [116, -36]]), scarf, 'scarf end');
@@ -338,7 +342,7 @@ function dragon(a, skin = 'green', belly = 'yellow', wing = 'purple', spikes = '
 function sitter(a, o) {
   const fur = o.fur, limb = o.limb || fur, earR = o.earR || 32, earY = o.earY || -284;
   a.group(o.name || 'animal', () => {
-    if (o.tail) a.line(curve([[90, -30], [150, -20], [170, -70], [156, -110]]), 4);   // an OPEN line: no trapped crumb
+    if (o.tail) a.line(curve([[-90, -30], [-150, -20], [-170, -70], [-156, -110]]), 4);   // on the left, away from the cheese   // an OPEN line: no trapped crumb
     [-1, 1].forEach((k) => { a.region(circle(k * 74, earY, earR), o.ear || fur, 'ear'); if (o.inner) a.region(circle(k * 76, earY - 2, Math.round(earR * 0.42)), o.inner, 'inner ear'); });
     a.region(outline([[0, -296], [50, -288], [78, -250], [72, -206], [52, -180], [86, -152], [110, -96], [114, -40],
       [98, -8], [60, 0, 1], [-60, 0, 1], [-98, -8], [-114, -40], [-110, -96], [-86, -152], [-52, -180], [-72, -206],

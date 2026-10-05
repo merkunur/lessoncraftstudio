@@ -198,7 +198,7 @@ function dino(a, skin = 'green', plates = ['red', 'orange', 'yellow', 'blue', 'p
   // body and the legs were posts); the back plates (rooted under the back) behind it; stands on y = 112
   const { outline } = require('./v2.js');
   a.group('dino', () => {
-    const PL = [[-128, -16, 18, -32], [-80, -57, 24, -18], [-26, -80, 26, -4], [26, -79, 26, 8], [66, -90, 22, 34]];
+    const PL = [[-128, -16, 18, -32], [-80, -57, 24, -18], [-26, -80, 26, -4], [26, -79, 26, 8], [64, -84, 22, -48]];
     PL.forEach(([x, y, sz, r], i) => a.at({ x, y, r }, (b) => b.region(poly([[-sz, sz * 0.7], [0, -sz * 1.15], [sz, sz * 0.7]], sz * 0.25), plates[i % plates.length], 'back plate')));
     a.region(outline([[-214, 64, 1], [-150, 10], [-100, -34], [-50, -64], [0, -72], [52, -62], [80, -100], [96, -150],
       [126, -180], [176, -174], [206, -146], [198, -116], [160, -104], [128, -100], [116, -60], [106, -10], [98, 30],
@@ -241,7 +241,7 @@ function rocket(a, body = 'grey', nose = 'red', fins = 'red', win = 'lightblue',
   a.region('M-40 100L-40 -30Q-38 -96 0 -132Q38 -96 40 -30L40 100Z', body, 'rocket body');
   a.region('M-40 -30Q-38 -96 0 -132Q38 -96 40 -30Q0 -50 -40 -30Z', nose, 'nose');   // the body's OWN top curve (a slightly different curve doubled the outline) — 2026-10-05
   a.region(circle(0, -6, 24), win, 'window');
-  a.region(rrect(-40, 72, 80, 28, 6), fins, 'band');
+  a.region(rrect(-40, 72, 80, 28, 6), fins === 'blue' ? 'yellow' : 'blue', 'band');   // never the fins' colour
 }
 function star5(a, c) { bigStar(a, c); }
 

@@ -70,7 +70,7 @@ const TINT = ['#F8B4B4', '#FDD9A8', '#FFF1A0', '#C8EBB0', '#A8DDB5', '#BFE6F8', 
       DT[i] = Math.min(DT[i], x ? DT[i - 1] + 3 : 3, y ? DT[i - PW] + 3 : 3, x && y ? DT[i - PW - 1] + 4 : 4, y && x < PW - 1 ? DT[i - PW + 1] + 4 : 4); }
     for (let y = PH - 1; y >= 0; y--) for (let x = PW - 1; x >= 0; x--) { const i = y * PW + x; if (!DT[i]) continue;
       DT[i] = Math.min(DT[i], x < PW - 1 ? DT[i + 1] + 3 : 3, y < PH - 1 ? DT[i + PW] + 3 : 3, x < PW - 1 && y < PH - 1 ? DT[i + PW + 1] + 4 : 4, y < PH - 1 && x ? DT[i + PW - 1] + 4 : 4); }
-    for (let y = 0; y < PH; y += 2) for (let x = 0; x < PW; x += 2) {
+    for (let y = 0; y < PH; y++) for (let x = 0; x < PW; x++) {   // every pixel: a tiny piece must be probed too
       const a = lab[y * PW + x]; if (!a || !probe.has(a)) continue;
       for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
         let crossed = 0;

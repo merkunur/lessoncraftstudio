@@ -214,7 +214,7 @@ const JS_PAINT = [
   'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
   'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
   'function paint(){var all=true;for(var i=0;i<B.items.length;i++)if(!fill[B.items[i].region])all=false;chk.disabled=!all||phase!=="fill";for(var j=0;j<crs.length;j++)crs[j].setAttribute("aria-pressed",cur===P.crayons[j].colour?"true":"false")}',
-  'function setFill(r,c){var el=regs[r];if(el)el.setAttribute("fill",c?P.hex[c]:"#FFFFFF")}',
+  'function setFill(r,c){var el=regs[r];if(!el)return;var v=c?P.hex[c]:"#FFFFFF";el.setAttribute("fill",v);if(el.getAttribute("data-lcs-seam"))el.setAttribute("stroke",v)}',
   'function tapRegion(r){if(phase!=="fill"||!cur)return;fill[r]=cur;setFill(r,cur);paint()}',
   'function check(){phase="reviewed";var ok=0;for(var i=0;i<B.items.length;i++){var it=B.items[i],right=fill[it.region]===B.answers[i];regs[it.region].setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
   'prg.textContent=fmt(S.score,{n:ok,total:B.items.length});chk.hidden=true;rst.hidden=false;paint();if(ok===B.items.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',

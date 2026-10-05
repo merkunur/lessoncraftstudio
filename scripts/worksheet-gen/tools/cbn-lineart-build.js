@@ -14,8 +14,11 @@ const { LINEART } = require('../data/cbn/lineart-designs.js');
 const OUT = path.join(__dirname, '..', 'data', 'cbn', 'lineart');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
 const only = arg('only') ? new Set(arg('only').split(',')) : null;
-const MIN_PART_R = 9;
-const SMALL_R = 3;      // smaller than this is an outline junction or an eye shine, never a part   // picture units: a part narrower than this cannot hold its number (gate MIN_R 8.5 + margin)
+const MIN_PART_R = 9;   // a full-size number (lib/cbn-render.js MIN_R 8.5 + margin)
+const MID_R = 6.5;      // a compact number (lib/cbn-render.js MIN_R_COMPACT 6 + margin: the render measures a piece slightly smaller)
+const PROBE_PX = 24;    // canvas px across an outline (7-unit stroke = 14 px, closed by the segmenter) to the next part
+const THICK_INK = 8.5;  // px from the middle of the ink: an outline is ~7, a pupil more — a neighbour across it does not count
+const SMALL_R = 1;      // every closed piece is painted (operator 2026-10-05); below MID_R it is attached to its neighbour, an eye shine stays white (designs.js EYE_THICK)
 const letter = (i) => (i >= 26 ? String.fromCharCode(97 + Math.floor(i / 26) - 1) : '') + String.fromCharCode(97 + (i % 26));
 const TINT = ['#F8B4B4', '#FDD9A8', '#FFF1A0', '#C8EBB0', '#A8DDB5', '#BFE6F8', '#B6CCF2', '#D3C1EE', '#F9C9DE', '#D9BFA6'];
 
@@ -44,8 +47,63 @@ const TINT = ['#F8B4B4', '#FDD9A8', '#FFF1A0', '#C8EBB0', '#A8DDB5', '#BFE6F8', 
       .concat(fixed.map(({ f, r }) => out(r, { fixed: f.name, colour: f.colour })));
     // small parts (no room for a number) — lettered a, b, c … on the index sheet; one can be ATTACHED to a numbered part
     // (lineart-colours.js ATTACH): it is coloured with that part and painted with it on screen (a tail, a hoof, a spot)
-    const small = seg.regions.filter((r) => r.r >= SMALL_R && r.r < MIN_PART_R && !fixedSet.has(r) && !r.outside).sort((a, b) => b.area - a.area).map((r) => out(r));
-    fs.writeFileSync(path.join(OUT, d.id + '.json'), JSON.stringify({ w: 600, h: 560, ink: seg.ink, parts, small }));
+    // 2026-10-05 operator: "parts of images which are not painted" — every piece is painted. A piece too small for a full
+    // number but wide enough for a compact one (MID_R..MIN_PART_R) is its own numbered part ("mid"); a smaller one
+    // ("small") is painted with the numbered part it borders most. Both record that neighbour across the ink (nb: index
+    // into parts) and inkFrac, the share of probes across their outline that land in solid ink — an eye white borders a
+    // black pupil, an ear lining borders a thin line (lib: designs.js partColours / build).
+    const regsMid = seg.regions.filter((r) => r.r >= MID_R && r.r < MIN_PART_R && !fixedSet.has(r) && !r.outside).sort((a, b) => b.area - a.area);
+    const regsSmall = seg.regions.filter((r) => r.r >= SMALL_R && r.r < MID_R && !fixedSet.has(r) && !r.outside).sort((a, b) => b.area - a.area);
+    const partRegs = seg.regions.filter((r) => r.r >= MIN_PART_R && !fixedSet.has(r)).sort((a, b) => b.area - a.area).concat(fixed.map((x) => x.r));
+    // every piece has a key: p<i> numbered part (fixed areas included), m<i> mid piece, s<i> small piece
+    const keyOf = new Map();
+    partRegs.forEach((r, i) => keyOf.set(r.label, 'p' + i));
+    regsMid.forEach((r, i) => keyOf.set(r.label, 'm' + i));
+    regsSmall.forEach((r, i) => keyOf.set(r.label, 's' + i));
+    const probe = new Set([...regsMid, ...regsSmall].map((r) => r.label));
+    const nbThin = new Map(), nbThick = new Map(), thick = new Map(), walks = new Map(), thickWalks = new Map();   // neighbours across a thin outline / across thicker ink
+    const lab = seg.lab, PW = seg.PW, PH = lab.length / PW, K = PROBE_PX;
+    // ink thickness (chamfer distance inside the ink, px): an outline is ~7 px from its middle, a pupil far more
+    const DT = new Float32Array(PW * PH);
+    for (let i = 0; i < PW * PH; i++) DT[i] = ink[i] ? 1e9 : 0;
+    for (let y = 0; y < PH; y++) for (let x = 0; x < PW; x++) { const i = y * PW + x; if (!DT[i]) continue;
+      DT[i] = Math.min(DT[i], x ? DT[i - 1] + 3 : 3, y ? DT[i - PW] + 3 : 3, x && y ? DT[i - PW - 1] + 4 : 4, y && x < PW - 1 ? DT[i - PW + 1] + 4 : 4); }
+    for (let y = PH - 1; y >= 0; y--) for (let x = PW - 1; x >= 0; x--) { const i = y * PW + x; if (!DT[i]) continue;
+      DT[i] = Math.min(DT[i], x < PW - 1 ? DT[i + 1] + 3 : 3, y < PH - 1 ? DT[i + PW] + 3 : 3, x < PW - 1 && y < PH - 1 ? DT[i + PW + 1] + 4 : 4, y < PH - 1 && x ? DT[i + PW - 1] + 4 : 4); }
+    for (let y = 0; y < PH; y += 2) for (let x = 0; x < PW; x += 2) {
+      const a = lab[y * PW + x]; if (!a || !probe.has(a)) continue;
+      for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        let crossed = 0;
+        for (let s = 2; s <= K; s += 2) {     // walk out across the outline: the thickest ink crossed, then the piece beyond
+          const X = x + dx * s, Y = y + dy * s; if (X < 0 || Y < 0 || X >= PW || Y >= PH) break;
+          const i = Y * PW + X, b = lab[i];
+          if (ink[i]) { const t = DT[i] / 3; if (t > crossed) crossed = t; if (t > (thick.get(a) || 0)) thick.set(a, t); }
+          if (b && b !== a) {
+            // a piece reached across ink thicker than an outline (a pupil) is a weaker neighbour: an iris is not the face
+            walks.set(a, (walks.get(a) || 0) + 1); if (crossed >= THICK_INK) thickWalks.set(a, (thickWalks.get(a) || 0) + 1);
+            const k = keyOf.get(b);
+            if (k) { const map = crossed < THICK_INK ? nbThin : nbThick; const m = map.get(a) || new Map(); m.set(k, (m.get(k) || 0) + 1); map.set(a, m); }
+            break;
+          }
+        }
+      }
+    }
+    // a piece's neighbours, best first: of its OWN drawing for a piece of a drawing (a paw pad is not the grass), any for a
+    // background pocket; across a thin outline before across thick ink; by shared border
+    const ownerKey = new Map();
+    partRegs.forEach((r, i) => ownerKey.set('p' + i, fixedSet.has(r) ? null : ownerOf(r)));
+    regsMid.forEach((r, i) => ownerKey.set('m' + i, ownerOf(r)));
+    regsSmall.forEach((r, i) => ownerKey.set('s' + i, ownerOf(r)));
+    const info = (r) => { const own = ownerOf(r); const list = [];
+      for (const [map, w] of [[nbThin, 1], [nbThick, 0]]) { const m = map.get(r.label); if (!m) continue;
+        for (const [k, v] of [...m].sort((x, y) => y[1] - x[1])) { if (own != null && ownerKey.get(k) !== own) continue; if (!list.includes(k)) list.push(k); } }
+      // thickShare: the share of the piece's border crossing ink thicker than an outline — most of an eye white's border
+      // is its pupil; a plate that meets one heavy line junction is not an eye
+      const w = walks.get(r.label) || 0;
+      return { nbs: list.slice(0, 6), thick: +(thick.get(r.label) || 0).toFixed(1), thickShare: w ? +((thickWalks.get(r.label) || 0) / w).toFixed(2) : 0 }; };
+    const mid = regsMid.map((r) => out(r, info(r)));
+    const small = regsSmall.map((r) => out(r, info(r)));
+    fs.writeFileSync(path.join(OUT, d.id + '.json'), JSON.stringify({ w: 600, h: 560, ink: seg.ink, parts, mid, small }));
     console.log(`${d.id}: ${parts.length} numberable parts (${seg.regions.length} closed areas)`);
     if (process.argv.includes('--ids')) {
       const cols = (() => { try { delete require.cache[require.resolve('../data/cbn/designs.js')]; return require('../data/cbn/designs.js').partColours(d); } catch (e) { return []; } })();

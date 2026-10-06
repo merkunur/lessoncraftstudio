@@ -110,7 +110,7 @@ const VERB_FORMS = {
     ],
     frames: [
       { id: 'f01', text: 'Every day Mia {form} in the park.', col: 'pres', unit: 'today-yesterday', fits: ['run', 'jump', 'dance', 'sing', 'play', 'wander', 'hop'], subjectLiteral: 'Mia', pic: null },
-      { id: 'f02', text: 'Today Ben {form} with his sister.', col: 'pres', unit: 'today-yesterday', fits: ['play', 'read', 'swim', 'run', 'dance', 'sing', 'draw', 'jump'], subjectLiteral: 'Ben', pic: null },
+      { id: 'f02', text: 'Every day Ben {form} with his sister.', col: 'pres', unit: 'today-yesterday', fits: ['play', 'read', 'swim', 'run', 'dance', 'sing', 'draw', 'jump'], subjectLiteral: 'Ben', pic: null },
       { id: 'f03', text: 'Emma {form} every afternoon.', col: 'pres', unit: 'today-yesterday', fits: ['read', 'swim', 'play', 'dance', 'sing', 'draw', 'run', 'sleep'], subjectLiteral: 'Emma', pic: null },
       { id: 'f04', text: 'After school Leo {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['read', 'draw', 'play', 'sleep', 'sing', 'dance', 'build'], subjectLiteral: 'Leo', pic: null },
       { id: 'f05', text: 'On Mondays Anna {form} at the club.', col: 'pres', unit: 'today-yesterday', fits: ['swim', 'dance', 'sing', 'run', 'jump', 'climb'], subjectLiteral: 'Anna', pic: null },
@@ -119,7 +119,7 @@ const VERB_FORMS = {
       { id: 'f08', text: 'Max {form} at the pool every week.', col: 'pres', unit: 'today-yesterday', fits: ['swim', 'jump', 'play'], subjectLiteral: 'Max', pic: null },
       { id: 'f09', text: 'Yesterday Max {form} at the party.', col: 'past', unit: 'today-yesterday', fits: ['dance', 'sing', 'eat', 'laugh', 'play', 'jump', 'giggle', 'shout'], subjectLiteral: 'Max', pic: null },
       { id: 'f10', text: 'Last night Mia {form} for an hour.', col: 'past', unit: 'today-yesterday', fits: ['read', 'sleep', 'dance', 'sing', 'draw', 'play', 'build'], subjectLiteral: 'Mia', pic: null },
-      { id: 'f11', text: 'On Sunday Ben {form} in the lake.', col: 'past', unit: 'today-yesterday', fits: ['swim'], subjectLiteral: 'Ben', pic: null },
+      { id: 'f11', text: 'Last Sunday Ben {form} in the lake.', col: 'past', unit: 'today-yesterday', fits: ['swim'], subjectLiteral: 'Ben', pic: null },
       { id: 'f12', text: 'Yesterday Emma {form} the ball.', col: 'past', unit: 'today-yesterday', fits: ['throw', 'catch', 'hide', 'carry', 'push', 'pull'], subjectLiteral: 'Emma', pic: null },
       { id: 'f13', text: 'Last week Leo {form} in the forest.', col: 'past', unit: 'today-yesterday', fits: ['wander', 'run', 'play', 'hide', 'climb'], subjectLiteral: 'Leo', pic: null },
       { id: 'f14', text: 'Anna {form} at the picnic yesterday.', col: 'past', unit: 'today-yesterday', fits: ['eat', 'laugh', 'sing', 'dance', 'run', 'giggle'], subjectLiteral: 'Anna', pic: null },
@@ -129,7 +129,7 @@ const VERB_FORMS = {
       // Phase 2 (faces): frames the irregular core (be have do go) can fill — Face 4 keeps its three lanes. Their `fits`
       // name ONLY core verbs + UNPICTURED verbs, so no base-table slot (pictured verbs only) ever sees them and the
       // base's lane RNG path stays byte-identical (tools/b3-baseline.js). Every subject a SENTENCES.en name; <= 44 chars.
-      { id: 'f18', text: 'Today Mia {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['be', 'sleep', 'play', 'draw'], subjectLiteral: 'Mia', pic: null },
+      { id: 'f18', text: 'Every evening Mia {form} at home.', col: 'pres', unit: 'today-yesterday', fits: ['be', 'sleep', 'play', 'draw'], subjectLiteral: 'Mia', pic: null },
       { id: 'f19', text: 'Ben {form} a red bike.', col: 'pres', unit: 'today-yesterday', fits: ['have', 'push', 'pull', 'wash', 'hide'], subjectLiteral: 'Ben', pic: null },
       { id: 'f20', text: 'Every morning Leo {form} to school.', col: 'pres', unit: 'today-yesterday', fits: ['go'], subjectLiteral: 'Leo', pic: null },
       { id: 'f21', text: 'Anna {form} her homework after school.', col: 'pres', unit: 'today-yesterday', fits: ['do'], subjectLiteral: 'Anna', pic: null },

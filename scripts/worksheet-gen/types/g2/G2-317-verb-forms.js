@@ -939,6 +939,11 @@ module.exports = {
     const homos = ((bank.hunt && bank.hunt.nounHomographs) || []).map(fold);
     const allForms = [];
     for (const v of [...(bank.verbs || []), ...(bank.irregularCore || [])]) { const f = v.forms && v.forms[u.key]; if (f) for (const col of bank.columns) allForms.push(f[col.key]); allForms.push(v.inf); }
+    // a sentence holding a SECOND verb form ("I går" = går; "antes de dormir"; "fatigués") is never a find-the-verb row:
+    // it would have two right answers (native review 2026-10-06, data/b3/verb-forms-hunt-avoid.js) — on every page,
+    // the published one included
+    const avoid = new Set(((require('../../data/b3/verb-forms-hunt-avoid.js').frame || {})[loc] || []).map(fold));
+    if (avoid.size) bank = { ...bank, frames: (bank.frames || []).filter((f) => !String(f.text).replace('{form}', ' ').split(/[^\p{L}'’-]+/u).some((w) => avoid.has(fold(w)))) };
     let rows = pickRows(rng, bank, u, verbs, n, { minPictured: d.pictured, banned: () => [...allForms, ...homos] });
     // the printed form itself must not be a noun homograph (nl "bak", "dans"; pt "dança"): redraw. A page whose rows are clean
     // takes no extra draw, so a published page is unchanged.

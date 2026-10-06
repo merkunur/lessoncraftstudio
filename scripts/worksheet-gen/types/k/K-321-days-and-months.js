@@ -422,7 +422,11 @@ module.exports = {
     const abbr = cal.monthAbbr;
     if (!Array.isArray(abbr) || abbr.length !== 12 || new Set(abbr).size !== 12) throw new Error(`K-321 abbrev months: ${loc} calendar.js monthAbbr is not 12 distinct strings`);
     abbr.forEach((a, i) => { if (!isShortForm(a, names[i], loc)) throw new Error(`K-321 abbrev months: ${loc} "${a}" is not a short form of "${names[i]}"`); });
-    const blocks = [[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11]];
+    // a month whose short form IS its name (May, Mai, mars, juin …) teaches nothing and is a free point — left out
+    // (native review 2026-10-06); each half keeps the rest
+    const same = (m) => String(abbr[m]).toLocaleLowerCase(loc) === String(names[m]).toLocaleLowerCase(loc);
+    const blocks = [[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11]].map((b) => b.filter((m) => !same(m)));
+    if (blocks.some((b) => b.length < 2)) throw new Error(`K-321 abbrev months: ${loc} keeps fewer than 2 months in a half`);
     const html = blocks.map((ids, b) => {
       const right = this._derange(rng, ids);
       // sized for two blocks side by side in the ~680 px body: 86 + 136 px boxes leave ~90 px for each line
@@ -430,7 +434,7 @@ module.exports = {
       return { right, html: `<div class="ws-match" data-lcs-block="${b}" style="min-height:0;padding:6px 10px;flex:1 1 0">` +
         abbrevPairs({ left: ids.map((m) => ({ day: m, text: abbr[m] })), right: right.map((m) => ({ day: m, text: names[m] })), itemH: d.monthItemH || 78, leftW: 86, rightW: 136, abbrPx: 19, namePx: 18 }) + '</div>' };
     });
-    const bodyHtml = `<div class="ws-match-months" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="months" data-lcs-weekstart="0" data-lcs-n="12" data-lcs-pairs="12" ` +
+    const bodyHtml = `<div class="ws-match-months" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="months" data-lcs-weekstart="0" data-lcs-n="12" data-lcs-pairs="${blocks.flat().length}" ` +
       `style="display:flex;gap:18px;flex:1 1 auto;min-height:0;align-items:stretch">${html.map((h) => h.html).join('')}</div>`;
     return { bodyHtml, meta: { layout: 'abbrev', unit: 'months', rights: html.map((h) => h.right) },
       _ans: { layout: 'abbrev', unit: 'months', pairs: blocks, abbr, texts: names } };
@@ -604,7 +608,7 @@ module.exports = {
           const ab = cal.monthAbbr || [];
           if (ab.length !== 12) fails.push(`no 12 month short forms for ${lang0}`);
           blocks.forEach((bl, b) => {
-            const want = Array.from({ length: 6 }, (_, k) => b * 6 + k);
+            const want = Array.from({ length: 6 }, (_, k) => b * 6 + k).filter((m) => !ab[m] || ab[m].toLocaleLowerCase(lang0) !== names[m].toLocaleLowerCase(lang0));
             const l = [...bl.querySelectorAll('[data-lcs-abbr]')], r = [...bl.querySelectorAll('[data-lcs-name]')];
             const ld = l.map((e) => +e.dataset.lcsAbbr), rd = r.map((e) => +e.dataset.lcsName);
             if (ld.join() !== want.join()) fails.push(`block ${b + 1}: short forms ${ld} are not months ${want} in order`);
@@ -619,7 +623,8 @@ module.exports = {
             // room to draw: the gap between a short form's box and the names' box
             if (l[0] && r[0]) { const g = r[0].getBoundingClientRect().left - l[0].getBoundingClientRect().right; if (g < 70) fails.push(`block ${b + 1}: only ${g.toFixed(0)} px between the columns (< 70 to draw a line)`); }
           });
-          if (faceRoot.querySelectorAll('.ws-match-dot').length !== 24) fails.push('a month pair without its dots');
+          if (faceRoot.querySelectorAll('.ws-match-dot').length !== 2 * +faceRoot.dataset.lcsPairs) fails.push('a month pair without its dots');
+          if (faceRoot.querySelectorAll('[data-lcs-abbr]').length !== +faceRoot.dataset.lcsPairs) fails.push('the pair count stamp does not match the page');
           noDigits();
         } else if (layout === 'abbrev' && faceRoot.dataset.lcsSubset === '1') {
           // Level Set easier level: `pairs` days, short forms in week order, names a derangement of the same days

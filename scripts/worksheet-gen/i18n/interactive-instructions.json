@@ -1597,7 +1597,7 @@
    "sv": "Räkna ut varje division. Tryck på svaret med rätt rest.",
    "da": "Regn hver division ud. Tryk på svaret med den rigtige rest.",
    "no": "Regn ut hver divisjon. Trykk på svaret med riktig rest.",
-   "fi": "Laske jokainen jakolasku. Napauta vastausta, jossa on oikea jakojäännös."
+   "fi": "Laske jokainen jakolasku. Napauta vastausta, jossa jakojäännös on pienempi kuin jakaja."
   }
  }
 }

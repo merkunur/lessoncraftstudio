@@ -294,7 +294,11 @@ module.exports = {
     if (fresh) {
       // deal the cards across the syllable counts the theme has, round-robin, no count on more than half the cards
       const byCount = {};
-      for (const e of rng.shuffle(pool.slice())) (byCount[e.count] = byCount[e.count] || []).push(e);
+      // never a word next to its own longer form (native review 2026-10-06: fi "haalari" and "haalarit" — one overall,
+      // two words — on the same page): a word that STARTS with another pool word (4+ letters) is left out
+      const low = (e) => e.word.toLocaleLowerCase(loc);
+      const distinct = pool.filter((e) => !pool.some((o) => o !== e && low(o).length >= 4 && low(e) !== low(o) && low(e).startsWith(low(o))));
+      for (const e of rng.shuffle(distinct.slice())) (byCount[e.count] = byCount[e.count] || []).push(e);
       const counts = rng.shuffle(Object.keys(byCount).map(Number));
       const cap = Math.ceil(d.cards / 2), took = {};
       picks = [];

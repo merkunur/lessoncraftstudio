@@ -48,6 +48,22 @@ const twin = (a, b) => {
   return n / Math.min(A.size, B.size) >= 0.3;
 };
 
+/**
+ * writeWave(cfg, loc, wave) — waves/wave-<fileStem>-<loc>.json (fileStem defaults to the prefix). Two types once shared
+ * the prefix "sbl" (Sentence Building, Sound Boxes): the second build overwrote the first one's waves, and 643 live decks
+ * lost their wave (2026-10-06). The deck ids come from wave.id, so a type keeps its prefix and only moves its FILE; a
+ * wave file holding ANOTHER type's wave is never overwritten.
+ */
+function writeWave(cfg, loc, wave) {
+  const file = path.join(__dirname, '..', '..', 'waves', 'wave-' + (cfg.fileStem || cfg.prefix) + '-' + loc + '.json');
+  if (fs.existsSync(file)) {
+    let old = null; try { old = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { /* unreadable: overwrite */ }
+    const sameType = !old || !old._note || old._note === wave._note || (old.types || []).some((t) => (wave.types || []).includes(t));
+    if (!sameType) throw new Error(file + ' holds another type\'s wave (' + String(old._note).slice(0, 60) + ') — give this config its own fileStem');
+  }
+  fs.writeFileSync(file, JSON.stringify(wave, null, 2) + '\n');
+}
+
 function titleFits(spec, theme, level, copy, loc, unit = null) {
   const strings = resolveUnitTokens(resolveStrings(spec.id, loc, spec), spec, unit, loc);
   const manifest = buildManifest({ spec, cacheTheme: theme, difficulty: level, locale: loc, variant: copy, unit, deckId: 'x', generatedAt: 'x', strings, imagesUsed: [] });
@@ -170,7 +186,7 @@ function themelessWaves() {
       indexable: false, interactive: cfg.interactive !== false, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
       types: Object.keys(levels), levels,
     };
-    fs.writeFileSync(path.join(__dirname, '..', '..', 'waves', wave.id + '.json'), JSON.stringify(wave, null, 2) + '\n');
+    writeWave(cfg, loc, wave);
     const n = Object.values(levels).flatMap((l) => Object.values(l).flat()).length;
     rep.push(`${loc}: ${n} copies  ${counts.join(' ')}`);
   }
@@ -282,7 +298,7 @@ for (const loc of LOCALES) {
     indexable: false, interactive: cfg.interactive !== false, seedEpoch: 1, locales: [loc], themes: [], themesPerType: 1, difficulties: [1, 2, 3],
     types, levels,
   };
-  fs.writeFileSync(path.join(__dirname, '..', '..', 'waves', wave.id + '.json'), JSON.stringify(wave, null, 2) + '\n');
+  writeWave(cfg, loc, wave);
   const copies = Object.values(levels).flatMap((l) => Object.values(l).flat());
   report.push(`${loc}: ${copies.length} copies, ${copies.filter((c) => m.themes[c.theme].bw).length} black-and-white`);
 }

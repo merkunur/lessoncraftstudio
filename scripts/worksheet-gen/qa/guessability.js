@@ -65,7 +65,8 @@ function choicePicks(opts, i, pictures) {
     for (let c = 0; c < n; c++) { p['rank-rot+' + c] = idx[(i + c) % n][1]; p['rank-rot-' + c] = idx[(((c - i) % n) + n) % n][1]; }
   }
   // part counts (dashes, middle dots, spaces): "the option with the middle number of pieces" (Syllable Split 2026-10-06)
-  const parts = L.map((x) => (x.match(/[-‐·•s]/g) || []).length);
+  // dashes, middle dots and SPACES between the pieces (2026-10-06: a lost backslash made this count the letter "s")
+  const parts = L.map((x) => (x.match(/[-‐·•\s]/g) || []).length);
   if (!opaque && new Set(parts).size > 1) {
     const pi = parts.map((v, j) => [v, j]).sort((a2, b2) => a2[0] - b2[0]);
     const uniq = (v) => parts.filter((x) => x === v).length === 1;

@@ -47,14 +47,96 @@ function paradigm(bank, unit, inf) {
   for (const f of fs) if (!out.some((x) => fold(x) === fold(f))) out.push(f);
   return out;
 }
-/** the right form + up to two OTHER forms of the same verb, the right one at i % n */
+/**
+ * pickByLength(right, pool, key) — two distractors from pool for which the right answer is the SHORTEST, the MIDDLE or
+ * the LONGEST option, as a fair draw per card asks (2026-10-06 guessability: the past form was the longest of
+ * {base, present, past} on most cards, so "tap the longest" won 50-60%; a hunted verb was the sentence's longest word).
+ * When the pool cannot give the wanted rank the nearest one is used; a tie in length counts as half a step.
+ */
+function pickByLength(right, pool, key) {
+  const len = (x) => [...String(x)].length, r = len(right);
+  const cand = []; for (const x of pool) if (fold(x) !== fold(right) && !cand.some((y) => fold(y) === fold(x))) cand.push(x);
+  if (cand.length <= 2) return cand;
+  const want = slotFor(key + '|len', 3);   // 0 shortest · 1 middle · 2 longest
+  const rankOf = (a, b) => [a, b].reduce((s, x) => s + (len(x) < r ? 1 : len(x) === r ? 0.5 : 0), 0);
+  let best = null;
+  for (let a = 0; a < cand.length; a++) for (let b = a + 1; b < cand.length; b++) {
+    const d = Math.abs(rankOf(cand[a], cand[b]) - want);
+    const tie = slotFor(key + '|' + cand[a] + '|' + cand[b], 1000);
+    if (!best || d < best.d || (d === best.d && tie < best.tie)) best = { d, tie, pair: [cand[a], cand[b]] };
+  }
+  return best.pair;
+}
+
+/**
+ * planByLength(cards) — one page's distractor pairs, chosen together so the right answer is the shortest, the middle or
+ * the longest option about equally often over the page (2026-10-06).
+ *
+ *   cards: [{ right, pairs: [[a, b], …], key, borrowed?: (w) => bool }]   → [[a, b] per card]  (a "pair" may hold any
+ *   number of distractors: one on a two-option card)
+ *
+ * Some cards can only make the answer one rank (a verb longer than every other word of its sentence; "saute", shorter
+ * than every other person form). Each card draws its wanted rank among the ranks its pairs allow, and the page's FREE
+ * cards lean away from the ranks the forced cards already fill. Each card draws on its own — a dealt, no-repeat order of
+ * ranks or slots fed the rotation strategies on short pages. A borrowed word (borrowed(w) true) costs more each time it
+ * returns on the page, so no word is "the one that is never right".
+ */
+function planByLength(cards) {
+  const len = (x) => [...String(x)].length;
+  // 0 = the answer is the UNIQUE shortest · 2 = the UNIQUE longest · 1 = neither (the middle, or tied with another
+  // option: "tap the shortest / longest" cannot pick a tie)
+  const rankOf = (right, ds) => { const r = len(right); const v = ds.reduce((s, x) => s + (len(x) < r ? 1 : len(x) === r ? 0.5 : 0), 0); return v === 0 ? 0 : v === ds.length ? 2 : 1; };
+  const feas = cards.map((c) => [0, 1, 2].map((t) => c.pairs.some((p) => rankOf(c.right, p) === t)));
+  // weights per class, fitted (iteratively) so the page's EXPECTED count of each EXTREME class — the answer the unique
+  // shortest, the unique longest: the two a child can exploit — is at most a third of its cards; "neutral" (the middle,
+  // or a tie) takes what is left. A card that can be "neutral" or "longest" leans to "neutral" when other cards on the
+  // page can only be "longest", and the same for "shortest".
+  const m3 = cards.length / 3, W = [1, 1, 1];
+  for (let it = 0; it < 40; it++) {
+    const exp = [0, 0, 0];
+    for (const f of feas) { const tot = [0, 1, 2].reduce((s, t) => s + (f[t] ? W[t] : 0), 0); if (tot) for (const t of [0, 1, 2]) if (f[t]) exp[t] += W[t] / tot; }
+    for (const t of [0, 2]) if (exp[t] > 0) W[t] = Math.min(1, Math.max(0.01, W[t] * m3 / exp[t]));
+  }
+  const used = new Map();
+  return cards.map((c, k) => {
+    const ok = [0, 1, 2].filter((t) => feas[k][t]);
+    let want = 1;
+    if (ok.length) {
+      const tot = ok.reduce((s, t) => s + W[t], 0);
+      let x = (slotFor(c.key + '|len', 1000000) / 1000000) * tot;
+      want = ok[ok.length - 1];
+      for (const t of ok) { if ((x -= W[t]) < 0) { want = t; break; } }
+    }
+    let best = null;
+    for (const p of c.pairs) {
+      const reuse = c.borrowed ? p.reduce((s, w) => s + (c.borrowed(w) ? 0.6 * (used.get(fold(w)) || 0) : 0), 0) : 0;
+      const d = Math.abs(rankOf(c.right, p) - want) + reuse, tie = slotFor(c.key + '|' + p.join('|'), 1000);
+      if (!best || d < best.d || (d === best.d && tie < best.tie)) best = { d, tie, pair: p };
+    }
+    const pair = best ? best.pair : [];
+    if (c.borrowed) for (const w of pair) if (c.borrowed(w)) used.set(fold(w), (used.get(fold(w)) || 0) + 1);
+    return pair;
+  });
+}
+
+/** the right form + up to two OTHER forms of the same verb (chosen by length, see pickByLength), at a hashed slot */
 function optionsFor(bank, unit, inf, right, i) {
   const others = paradigm(bank, unit, inf).filter((f) => fold(f) !== fold(right));
-  const k = others.length ? i % others.length : 0;
-  const pick = others.slice(k).concat(others.slice(0, k)).slice(0, 2);
+  const pick = pickByLength(right, others.concat(extraWrong(bank, unit, inf)), PAGE_SALT + right + '|' + i);
   const at = slotFor(PAGE_SALT + right + '|' + i, pick.length + 1);   // never i % n (a diagonal tell, 2026-10-06)
   const o = pick.slice(); o.splice(at, 0, right);
   return { opts: o, at };
+}
+/** a verb's extra WRONG forms on this unit (bank.extraWrong[inf][unit]: en -ing, sv supine, da participle) — forms
+ *  of the same verb a child really writes in the wrong place, never a right answer for any gap */
+let EXTRA = {};   // data/b3/verb-forms-extra-wrong.js for this page's locale
+function extraWrong(bank, unit, inf) {
+  const w = EXTRA[inf];
+  if (!w) return [];
+  // never a right answer: refused if it equals any form of the verb on this unit
+  const v = verbOf(bank, inf), forms = [v.inf, ...bank.columns.map((c) => v.forms[unit] && v.forms[unit][c.key])].filter(Boolean).map(fold);
+  if (forms.includes(fold(w))) throw new Error('verb-forms screen: extra wrong form "' + w + '" of ' + inf + ' is one of its real forms');
+  return [w];
 }
 const colLabel = (bank, col) => (bank.columns.find((c) => c.key === col) || {}).label || col;
 
@@ -86,6 +168,7 @@ function laneItems(bank, unit, lanes, start) {
 
 function screenOrKey(mode, built, ctx, loc, bank) {
   PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
+  EXTRA = require('../data/b3/verb-forms-extra-wrong.js')[(loc || 'en').slice(0, 2)] || {};
   const m = built.meta, unit = m.unit;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   if (ctx.interactive) {
@@ -130,18 +213,42 @@ function screenOrKey(mode, built, ctx, loc, bank) {
         return item(kind('choice', inf, col, ` data-lcs-frame="${esc(fid)}"`), gapSentence(bank, fid), optsHtml(chips, idx));
       });
     } else if (mode === 'hunt') {
-      items = m.rows.map(([inf, col, fid], i) => {
+      // In a child's sentence the verb is very often its LONGEST word (28-70% of cards could be nothing else), so "tap the
+      // longest" won 50-79% (2026-10-06). One distractor stays a word of this sentence; the other may be a word of ANOTHER
+      // sentence on this page — not in this sentence and never a verb (every frame is a one-verb sentence with its verb as
+      // the gap: the fact this face already relies on for its own-sentence distractors). Each card's target (the verb is
+      // the shortest / middle / longest option) is drawn among the ranks its words allow; cards that can only make the
+      // verb the longest are offset by the free cards of the same page leaning away from "longest" (each card draws on
+      // its own: a dealt order fed the rotation strategies). A borrowed word costs more each time it returns on a page.
+      const len = (x) => [...String(x)].length;
+      const cards = m.rows.map(([inf, col, fid], i) => {
         const f = (bank.frames || []).find((x) => x.id === fid);
         const form = formOf(bank, unit, inf, col);
         const subj = new Set(String(f.subjectLiteral || '').split(/\s+/).map(fold));
-        // the distractors are OTHER words of the sentence (never the verb): the longest first; a short sentence (sv "Elsa sover nu.")
-        // falls back to its short words, then to its subject name
         const all = f.text.replace('{form}', ' ').split(/[^\p{L}'’-]+/u).filter((w) => w && fold(w) !== fold(form));
-        const rank = (w) => (subj.has(fold(w)) ? -1 : [...w].length);
-        const others = all.filter((w, k) => all.findIndex((x) => fold(x) === fold(w)) === k).sort((a, b) => rank(b) - rank(a)).slice(0, 2);
+        const uniq = all.filter((w, k) => all.findIndex((x) => fold(x) === fold(w)) === k);
+        const notSubj = uniq.filter((w) => !subj.has(fold(w)));
+        const inOwn = new Set(uniq.map(fold));
+        const pageWords = [];
+        for (const [, , ofid] of m.rows) {
+          const of = (bank.frames || []).find((x) => x.id === ofid);
+          if (!of || of.id === fid) continue;
+          for (const w of String(of.text).replace('{form}', ' ').split(/[^\p{L}'’-]+/u)) if (w && !inOwn.has(fold(w)) && fold(w) !== fold(form) && !pageWords.some((y) => fold(y) === fold(w))) pageWords.push(w);
+        }
+        const own = notSubj.length ? notSubj : uniq;
+        const r = len(form), below = (x) => (len(x) < r ? 1 : len(x) === r ? 0.5 : 0);
+        const pairs = [];
+        for (const a of own) for (const b of [...own, ...pageWords]) if (b !== a && fold(b) !== fold(a)) pairs.push([a, b]);
+        const feas = [0, 1, 2].map((t) => pairs.some(([a, b]) => below(a) + below(b) === t));
+        return { inf, col, fid, f, form, i, inOwn, own, pairs, below, feas };
+      });
+      const plan = planByLength(cards.map((c) => ({ right: c.form, pairs: c.pairs, key: PAGE_SALT + c.form + '|' + c.i, borrowed: (w) => !c.inOwn.has(fold(w)) })));
+      items = cards.map((c, k) => {
+        const { form, i } = c;
+        const others = plan[k].length ? plan[k] : c.own.slice(0, 2);
         const at = slotFor(PAGE_SALT + form + '|' + i, others.length + 1); const o = others.slice(); o.splice(at, 0, form);   // never a fixed rotation (a position tell, 2026-10-06)
-        const shown = esc(f.text.replace('{form}', form));
-        return item(kind('hunt', inf, col, ` data-lcs-frame="${esc(fid)}"`), sentence(shown), optsHtml(o, at));
+        const shown = esc(c.f.text.replace('{form}', form));
+        return item(kind('hunt', c.inf, c.col, ` data-lcs-frame="${esc(c.fid)}"`), sentence(shown), optsHtml(o, at));
       });
     } else throw new Error(`verb-forms screen: mode "${mode}" has no screen`);
     out.bodyHtml = `<div data-ws-content data-lcs-type="verb-forms" data-lcs-screen="${mode}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items.join('')}</div>`;
@@ -207,4 +314,4 @@ function interactiveFor(mode, bankOf) {
   };
 }
 
-module.exports = { screenOrKey, oracle, interactiveFor, modeOf, optionsFor, paradigm };
+module.exports = { screenOrKey, oracle, interactiveFor, modeOf, optionsFor, paradigm, pickByLength, planByLength };

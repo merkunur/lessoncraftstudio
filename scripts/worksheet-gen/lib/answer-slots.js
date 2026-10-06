@@ -140,4 +140,11 @@ function balancedPick(rng, pool, n, keyOf) {
   return out;
 }
 
+/*
+ * NOT here on purpose: a per-page "slot dealer" (each slot equally often per page, in shuffled cycles) was tried
+ * 2026-10-06 and REMOVED. Its cycles of three make every three cards a permutation of the slots — the same shape as a
+ * rotation — and the best of the six rotations then won 50-62% on Syllable Reading and Synonyms. One independent fair
+ * draw per card (slotFor) is the right model; a rank that a card cannot take is handled where the slips are built.
+ */
+
 module.exports = { answerSlots, slotFor, numberChoices, tappingRhythm, seededShuffle, shuffledOptions, pageSalt, balancedPick };

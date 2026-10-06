@@ -454,7 +454,9 @@ module.exports = {
       // the correct pill's position is balanced over the page (never a constant column)
       const seq = [];
       for (let i = 0; i < d.cards; i++) seq.push(i % d.choices);
-      const positions = rng.shuffle(seq);
+      let positions = rng.shuffle(seq);
+      // a NEW page re-draws a tapping rhythm (2026-10-06 guessability: every en level-1 copy read 1st, 2nd, 1st, 2nd)
+      if (fresh) for (let t = 0; t < 50 && require('../../lib/answer-slots.js').tappingRhythm(positions, d.choices); t++) positions = rng.shuffle(seq);
       cards = picks.map((w, i) => {
         const pic = pp(w);
         const rowCells = cellsByRow[carpetRows.findIndex((r) => r.id === w.rowId)];

@@ -145,10 +145,22 @@ module.exports = {
           if (!ok.length) throw new Error(`G2-276: no item on the ${theme} shelf can be paid with 2-3 coins (${loc})`);
           refs = [rng.pick(ok)];
         }
+        if (d.payMulti && !published && scale === 5) {
+          // a NEW page takes an item that still leaves a change of two coin steps or more this page has not asked
+          // (2026-10-06 guessability: level-3 pages fell back to 5 c changes, which can only be the smallest amount)
+          const roomy = items.map((_, j) => j).filter((j) => multiPays(items[j].price).some((c) => c.s - items[j].price >= 10 && !changes.has(c.s - items[j].price)));
+          if (roomy.length && !roomy.includes(refs[0])) refs = [rng.pick(roomy)];
+        }
         const price = items[refs[0]].price;
         const payOpts = coinVals.filter((v) => v > price + 4);
         let paid, coins;
-        if (payOpts.length && !d.payMulti) { paid = Math.min(...payOpts); coins = [paid]; }
+        if (payOpts.length && !d.payMulti) {
+          // a NEW page pays with the smallest coin that leaves at least two coin steps of change when one exists
+          // (2026-10-06 guessability: "the smallest coin above" made 37% of level-1 changes 5 c, which can only be the
+          // smallest amount on screen — "tap the smallest" won 69%); the published page pays as before
+          const roomy = published ? [] : payOpts.filter((v) => scale !== 5 || v - price >= 10);
+          paid = Math.min(...(roomy.length ? roomy : payOpts)); coins = [paid];
+        }
         else if (d.payMulti) {
           const cands = multiPays(price);
           // preferred: a change this page has not asked, and in cent currencies at least two coin steps (a 5 c change

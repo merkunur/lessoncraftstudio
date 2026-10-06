@@ -5,7 +5,7 @@
  * render-instance reads them (the type's own `interactive` selectors, options in document order), and measures every
  * face per locale. Seconds per type instead of a ten-minute render — so a fix can be proved before a wave is generated.
  *
- *   node qa/guessability-builders.js <wave prefix>[,<prefix>…] [--locales=en,de|all] [--per=12] [--show=<face>]
+ *   node qa/guessability-builders.js <wave prefix>[,<prefix>…] [--locales=en,de|all] [--per=12] [--show=<face>] [--epoch=N]
  *
  * Limits: positions are document order (render-instance reads them the same way for tap-choice); tap-select / tap-order
  * use document order as reading order. Exit 1 when any face FAILS in any locale.
@@ -22,9 +22,12 @@ const { measure } = require('./guessability.js');
 const ALL = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
 const arg = (k) => (process.argv.find((a) => a.startsWith('--' + k + '=')) || '').slice(k.length + 3);
 const prefixes = (process.argv[2] || '').split(',').filter(Boolean);
-if (!prefixes.length) { console.error('usage: node qa/guessability-builders.js <wave prefix>[,…] [--locales=…] [--per=12] [--show=<face>]'); process.exit(2); }
+if (!prefixes.length) { console.error('usage: node qa/guessability-builders.js <wave prefix>[,…] [--locales=…] [--per=12] [--show=<face>] [--epoch=N]'); process.exit(2); }
 const locales = !arg('locales') || arg('locales') === 'all' ? ALL : arg('locales').split(',');
 const per = +(arg('per') || 12), show = arg('show');
+// --epoch=N rebuilds the same wave with FRESH seeds (a replication sample): a tell that is the generator's shows again;
+// one that was the luck of the shipped pages does not (2026-10-06)
+const epochShift = +(arg('epoch') || 0);
 
 function bundleFrom(html, sp) {
   const $ = cheerio.load(html);
@@ -59,7 +62,7 @@ for (const prefix of prefixes) for (const loc of locales) {
     const type = loadType(it.typeId);
     if (!type.interactive || !plan.interactive) continue;
     const sp = type.interactive;
-    const seed = instanceSeed({ typeId: it.typeId, theme: it.cacheTheme, difficulty: it.difficulty, seedEpoch: plan.seedEpoch || 1, variant: it.seedVariant || it.variant, unit: it.unit || null });
+    const seed = instanceSeed({ typeId: it.typeId, theme: it.cacheTheme, difficulty: it.difficulty, seedEpoch: (plan.seedEpoch || 1) + epochShift, variant: it.seedVariant || it.variant, unit: it.unit || null });
     let built;
     try {
       built = type.build({ theme: it.cacheTheme, difficulty: it.difficulty, locale: it.locale, unit: it.unit || null },

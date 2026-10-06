@@ -31,6 +31,9 @@ function pickTwo(answer, candidates, fits, rank, what, sameLen = (v) => String(v
   for (const v of candidates) if (Number.isInteger(v) && v > 0 && v !== answer && sameLen(v) && fits(v) && !pool.includes(v)) pool.push(v);
   if (pool.length < 2) throw new Error(`money screen: no two same-length slips for ${what} (answer ${answer})`);
   const hi = pool.filter((v) => v > answer), lo = pool.filter((v) => v < answer);
+  // the caller may pass a function: it is told which ranks this card can take (smallest / middle / largest)
+  if (typeof rank === 'function') rank = rank([hi.length >= 2, lo.length >= 1 && hi.length >= 1, lo.length >= 2]);
+  if (rank == null) rank = 0;
   // the requested rank, else the next rank that can be honoured (never a silent fall back to "whatever came first",
   // which put the answer at the bottom ~70% of the time on change / difference cards)
   for (const r of [rank, (rank + 1) % 3, (rank + 2) % 3]) {
@@ -133,14 +136,38 @@ function screenOrKey(mode, built, ctx, loc) {
     let items;
     const off = offsetOf(JSON.stringify(built.meta || {}));
     const sig = JSON.stringify(built._purses || built._probs || built.meta || {}).slice(0, 400) + '|';   // the page joins every rank hash
+    // the answer's RANK (smallest / middle / largest) is drawn fairly among the ranks this card can take, and its SLOT is
+    // dealt evenly over the page, separately (2026-10-06: with the amounts in ascending order the slot WAS the rank, and a
+    // card kind that cannot take one rank — 5 c change has no two smaller amounts — tied a rank to a card position)
+    // A card whose answer is tiny can only be the SMALLEST (5 c change: every other 5 c step is larger); the page's free
+    // cards then lean away from "smallest" so the page's ranks still come out even. Each card draws on its own (a dealt,
+    // no-repeat order on 2-3 card pages fed the rotation strategies). The slot is a fair draw per card, apart from the rank.
+    let W = [1, 1, 1];
+    const pageWeights = (feasList) => {
+      const m = feasList.length, forced = [0, 0, 0];
+      for (const fz of feasList) { const ok = [0, 1, 2].filter((r) => fz[r]); if (ok.length === 1) forced[ok[0]]++; }
+      const free = feasList.filter((fz) => fz.filter(Boolean).length > 1).length || 1;
+      W = forced.map((c) => Math.max(0.05, (m / 3 - c) / free));
+    };
+    const rankOf = (key) => (feas) => {
+      const ok = [0, 1, 2].filter((r) => feas[r]);
+      if (!ok.length) return 0;
+      const tot = ok.reduce((a, r) => a + W[r], 0);
+      let x = (require('crypto').createHash('sha1').update(sig + key + '|rank').digest().readUInt32LE(0) / 4294967296) * tot;
+      for (const r of ok) { if ((x -= W[r]) < 0) return r; }
+      return ok[ok.length - 1];
+    };
+    const feasOf = (fn) => { let got = [true, true, true]; try { fn((fz) => { got = fz; return 0; }); } catch (e) { /* the real call reports it */ } return got; };
+    const placed = (slips, answer, key) => { const w = slotFor(sig + key + '|swap', 2) ? slips.slice().reverse() : slips.slice(); w.splice(slotFor(sig + key + '|slot', 3), 0, answer); return w; };
     if (mode === 'count') {
       const P = built._purses;
       if (!P || !P.length) throw new Error('money screen: the page has no purses');
+      pageWeights(P.map((p) => feasOf((rk) => countSlips(p.values, p.denoms, rk))));
       items = P.map((p, i) => {
         const T = p.values.reduce((a, b) => a + b, 0);
         // the answer's rank (its place: the chips read in ascending order) is hashed from the card, never a rotation over i
         // (2026-10-06 guessability audit: smallest / middle / largest in turn is the same tell as slot i % 3)
-        const vals = [...countSlips(p.values, p.denoms, slotFor(sig + p.values.join('+') + '|' + i + '|rank', 3)), T].sort((x, y) => x - y);
+        const vals = placed(countSlips(p.values, p.denoms, rankOf(p.values.join('+') + '|' + i)), T, p.values.join('+') + '|' + i);
         const top = `<div style="zoom:1.3;display:flex;justify-content:center;max-width:480px">${p.row}</div>`;
         return item(`data-lcs-word="${i + 1}" data-lcs-q="${p.values.join('+')}"`, top, numChips(vals, T, p.unit));
       });
@@ -158,6 +185,7 @@ function screenOrKey(mode, built, ctx, loc) {
       const P = built._probs;
       if (!P || !P.length) throw new Error('money screen: the page has no shopping questions');
       const bank = SHOP_FRAMES[lang];
+      pageWeights(P.filter((p) => p.kind !== 'canBuy').map((p) => feasOf((rk) => shopSlips(p, p.scale, rk))));
       items = P.map((p, i) => {
         let opts, q;
         if (p.kind === 'canBuy') {
@@ -165,7 +193,7 @@ function screenOrKey(mode, built, ctx, loc) {
           opts = [['yes', bank.yes], ['no', bank.no]].map(([k, w], j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${esc(w)}"${(k === 'yes') === (p.money >= p.answer) ? ' data-lcs-correct="1"' : ''} style="width:200px;height:${OPT_H}px;box-sizing:border-box;font-size:38px">${esc(w)}</span>`).join('');
         } else {
           q = p.kind === 'change' ? `change:${p.coins.join('+')}-${p.prices[0]}` : p.kind === 'diff' ? `diff:${p.prices.join('-')}` : `total:${p.prices.join('+')}`;
-          const vals = [...shopSlips(p, p.scale, slotFor(sig + JSON.stringify(p) + '|' + i + '|rank', 3)), p.answer].sort((x, y) => x - y);   // hashed rank, never a rotation (2026-10-06)
+          const vals = placed(shopSlips(p, p.scale, rankOf(JSON.stringify(p) + '|' + i)), p.answer, JSON.stringify(p) + '|' + i);
           opts = numChips(vals, p.answer, p.unit);
         }
         const top = `<p style="font-family:'Nunito';font-weight:800;font-size:22px;line-height:1.5;color:#3A3530;margin:0;text-align:center" data-lcs-sentence>${p.kind === 'canBuy' ? questionOnly(p.sentence) : p.sentence}</p>${p.extra || ''}`;

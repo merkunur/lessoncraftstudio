@@ -895,8 +895,21 @@ module.exports = {
     const rows = pickRows(rng, bank, u, verbs, n, { minPictured: d.pictured, banned: (v) => paradigmOf(bank, u, v) });
     if (!rows) throw new Error(`${ID}: no ${n} choice rows over distinct verbs of ${u.key}/${loc} — REFUSED`);
     const idxs = rng.shuffle([...Array.from({ length: c }, (_, i) => i), ...Array.from({ length: n - c }, () => rng.int(0, c - 1))]);
+    // a NEW page (the merged bank carries levelSet) picks its printed candidates by LENGTH, page by page: the right form
+    // is the shortest, middle or longest pill about equally often (2026-10-06: the longest pill was right on 54-62% of
+    // sv / da cards, the shortest on 55% of fr / pt cards); the tense languages add one real-but-wrong form of the verb
+    // (data/b3/verb-forms-extra-wrong.js). The published page draws as before.
+    const plan = bank.levelSet && c >= 2 ? VFS().planByLength(rows.map((r, i) => {
+      const pool = paradigmOf(bank, u, r.verb).filter((f) => fold(f) !== fold(r.form));
+      const extra = (require('../../data/b3/verb-forms-extra-wrong.js')[loc] || {})[r.verb.inf];
+      const cand = extra && !pool.concat(r.form).some((f) => fold(f) === fold(extra)) ? pool.concat(extra) : pool;
+      const pairs = [];   // every set of c - 1 distractors
+      const pick = (from, k, acc) => { if (acc.length === k) { pairs.push(acc); return; } for (let j = from; j < cand.length; j++) pick(j + 1, k, [...acc, cand[j]]); };
+      pick(0, c - 1, []);
+      return { right: r.form, pairs, key: r.frame.id + '|' + r.form + '|' + i + '|' + rng.int(0, 1e9) };
+    })) : null;
     const laneHtml = rows.map((r, i) => {
-      const others = rng.sample(paradigmOf(bank, u, r.verb).filter((f) => fold(f) !== fold(r.form)), c - 1);
+      const others = plan ? rng.shuffle(plan[i]) : rng.sample(paradigmOf(bank, u, r.verb).filter((f) => fold(f) !== fold(r.form)), c - 1);
       const chips = [...others];
       chips.splice(idxs[i], 0, r.form);
       return sentenceGap({

@@ -20,6 +20,7 @@
  * that row (G1-308's own frames — the text is the ground truth), and derives the answer from the row and that parse.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660, OPT = 104;   // the Level Set screen: 104 page-px reaches the 44 px tap floor at 360 wide
@@ -77,7 +78,7 @@ const opts = (html) => `<div style="display:flex;gap:12px;justify-content:center
 /** The i-th option set of a page: the correct label at position i % n among the others (no fixed-position tell). */
 function rotate(correct, others, i, n) {
   const pool = others.filter((x) => x !== correct).slice(0, n - 1);
-  const at = i % (pool.length + 1);
+  const at = slotFor(correct + '|' + i, pool.length + 1);   // never i % n (a diagonal tell, 2026-10-06)
   return [...pool.slice(0, at), correct, ...pool.slice(at)];
 }
 

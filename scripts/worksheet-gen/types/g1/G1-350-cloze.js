@@ -99,6 +99,7 @@
  * plural) THROWS at build: no filler, no en fallback.
  */
 'use strict';
+const { slotFor } = require('../../lib/answer-slots.js');
 const { bank: loadBank, bankModule } = require('../../lib/b4-common.js');
 const { bank: b3Bank } = require('../../lib/b3-common.js');
 const { fileUri, vocab, displayWord } = require('../../lib/b2-common.js');
@@ -318,7 +319,7 @@ function rotation(list, i) {
   const own = list[i];
   const others = [1, 2].map((k) => list[(i + k) % list.length]).filter((x) => x !== own);
   const opts = others.slice(0, 2);
-  const at = i % (opts.length + 1);
+  const at = slotFor(own + '|' + i, opts.length + 1);   // never a fixed rotation (a position tell, 2026-10-06)
   opts.splice(at, 0, own);
   return { opts, at };
 }

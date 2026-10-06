@@ -13,6 +13,7 @@
  *   key:    the printed page with every answer written centred in its own answer box (the measured gap-box rule).
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 const { CALENDAR } = require('../data/b2/calendar.js');
 
 const CORAL = '#F2784B', INK = '#1F2B2A';
@@ -64,7 +65,7 @@ function screenOrKey(built, ctx, loc) {
     const st = drawnStickers(A.svg);
     const stamp = Object.entries(st).map(([k, v]) => `${k}:${v}`).join(',');
     const items = A.qs.map((q, i) => {
-      const opts = optionsFor(q, A, loc, i % 3);
+      const opts = optionsFor(q, A, loc, slotFor(q.kind + '|' + q.arg + '|' + i, 3));   // never i % 3 (a diagonal tell, 2026-10-06)
       const at = opts.indexOf(String(q.answer));
       const w = q.slot === 'word' ? 200 : 190;
       const px = q.slot === 'word' ? Math.max(20, Math.min(30, Math.floor((w - 24) / (0.6 * Math.max(...opts.map((x) => [...x].length)))))) : 40;

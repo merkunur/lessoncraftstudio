@@ -12,6 +12,7 @@
  * G1-346 (write your own rhymes) is printable only: open answers have no single right tap.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const TEAL = '#146B5E';
@@ -61,7 +62,7 @@ function verseOptions(ans, ansCls, pool, i) {
   const others = pool.filter((p) => p.cls !== ansCls && p.word !== ans);
   const o = [others[i % others.length], others[(i + 1) % others.length]].filter(Boolean);
   if (o.length < 2 || o[0].word === o[1].word) throw new Error(`rhyming screen: too few other words for verse ${i + 1}`);
-  const at = i % 3;
+  const at = slotFor(ans + '|' + i, 3);   // never i % 3 (a diagonal tell, 2026-10-06)
   const list = o.map((x) => x.word);
   list.splice(at, 0, ans);
   return { list, at };

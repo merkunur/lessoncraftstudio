@@ -2287,8 +2287,8 @@
  "K-321": {
   "1": {
    "en": "Some days already have their number. Write the missing numbers in the order the days come.",
-   "de": "Einige Tage haben schon ihre Zahl. Schreibe die fehlenden Zahlen in der Reihenfolge, wie die Tage kommen.",
-   "es": "Algunos días ya tienen su número. Escribe los números que faltan en el orden en que llegan los días.",
+   "de": "Einige Tage haben schon ihre Zahl. Schreibe die fehlenden Zahlen in der Reihenfolge, in der die Tage kommen.",
+   "es": "Algunos días ya tienen su número. Escribe los números que faltan en el orden en que van los días.",
    "fr": "Certains jours ont déjà leur numéro. Écris les numéros qui manquent, dans l'ordre des jours.",
    "it": "Alcuni giorni hanno già il loro numero. Scrivi i numeri che mancano nell'ordine in cui vengono i giorni.",
    "pt": "Alguns dias já têm o seu número. Escreva os números que faltam na ordem em que os dias vêm.",
@@ -2302,13 +2302,13 @@
    "en": "One day already has its number. Count on and back from it and number the other days 1 to 7.",
    "de": "Ein Tag hat schon seine Zahl. Zähle von ihm aus vorwärts und rückwärts und nummeriere die anderen Tage von 1 bis 7.",
    "es": "Un día ya tiene su número. Cuenta hacia adelante y hacia atrás desde él y numera los demás días del 1 al 7.",
-   "fr": "Un jour a déjà son numéro. Compte en avançant et en reculant à partir de lui et numérote les autres jours de 1 à 7.",
-   "it": "Un giorno ha già il suo numero. Conta in avanti e all'indietro partendo da lui e numera gli altri giorni da 1 a 7.",
-   "pt": "Um dia já tem o seu número. Conte para a frente e para trás a partir dele e numere os outros dias de 1 a 7.",
+   "fr": "Un jour a déjà son numéro. Compte en avançant et en reculant à partir de ce jour et numérote les autres jours de 1 à 7.",
+   "it": "Un giorno ha già il suo numero. Conta in avanti e all'indietro partendo da quel giorno e numera gli altri giorni da 1 a 7.",
+   "pt": "Um dia já tem o seu número. Conte para frente e para trás a partir dele e numere os outros dias de 1 a 7.",
    "nl": "Eén dag heeft zijn nummer al. Tel vanaf die dag vooruit en terug en nummer de andere dagen 1 tot en met 7.",
    "sv": "En dag har redan sitt nummer. Räkna framåt och bakåt från den och numrera de andra dagarna 1 till 7.",
    "da": "Én dag har allerede sit tal. Tæl frem og tilbage fra den, og skriv tallene 1 til 7 ved de andre dage.",
-   "no": "Én dag har allerede fått tallet sitt. Tell fram og tilbake fra den og nummerer de andre dagene fra 1 til 7.",
+   "no": "Én dag har allerede fått tallet sitt. Tell fram og tilbake fra den, og nummerer de andre dagene fra 1 til 7.",
    "fi": "Yhdellä päivällä on jo numero. Laske siitä eteen- ja taaksepäin ja numeroi muut päivät 1–7."
   }
  },
@@ -2330,44 +2330,44 @@
    "en": "One month already has its number. Count on and back from it and number the other months 1 to 12.",
    "de": "Ein Monat hat schon seine Zahl. Zähle von ihm aus vorwärts und rückwärts und nummeriere die anderen Monate von 1 bis 12.",
    "es": "Un mes ya tiene su número. Cuenta hacia adelante y hacia atrás desde él y numera los demás meses del 1 al 12.",
-   "fr": "Un mois a déjà son numéro. Compte en avançant et en reculant à partir de lui et numérote les autres mois de 1 à 12.",
-   "it": "Un mese ha già il suo numero. Conta in avanti e all'indietro partendo da lui e numera gli altri mesi da 1 a 12.",
-   "pt": "Um mês já tem o seu número. Conte para a frente e para trás a partir dele e numere os outros meses de 1 a 12.",
+   "fr": "Un mois a déjà son numéro. Compte en avançant et en reculant à partir de ce mois et numérote les autres mois de 1 à 12.",
+   "it": "Un mese ha già il suo numero. Conta in avanti e all'indietro partendo da quel mese e numera gli altri mesi da 1 a 12.",
+   "pt": "Um mês já tem o seu número. Conte para frente e para trás a partir dele e numere os outros meses de 1 a 12.",
    "nl": "Eén maand heeft zijn nummer al. Tel vanaf die maand vooruit en terug en nummer de andere maanden 1 tot en met 12.",
    "sv": "En månad har redan sitt nummer. Räkna framåt och bakåt från den och numrera de andra månaderna 1 till 12.",
    "da": "Én måned har allerede sit tal. Tæl frem og tilbage fra den, og skriv tallene 1 til 12 ved de andre måneder.",
-   "no": "Én måned har allerede fått tallet sitt. Tell fram og tilbake fra den og nummerer de andre månedene fra 1 til 12.",
+   "no": "Én måned har allerede fått tallet sitt. Tell fram og tilbake fra den, og nummerer de andre månedene fra 1 til 12.",
    "fi": "Yhdellä kuukaudella on jo numero. Laske siitä eteen- ja taaksepäin ja numeroi muut kuukaudet 1–12."
   }
  },
  "G1-319": {
   "3": {
-   "en": "In each row, write the missing day: yesterday, today or tomorrow.",
-   "de": "Schreibe in jeder Reihe den fehlenden Tag: gestern, heute oder morgen.",
-   "es": "En cada fila, escribe el día que falta: ayer, hoy o mañana.",
-   "fr": "Dans chaque ligne, écris le jour qui manque : hier, aujourd'hui ou demain.",
-   "it": "In ogni riga scrivi il giorno che manca: ieri, oggi o domani.",
-   "pt": "Em cada linha, escreva o dia que falta: ontem, hoje ou amanhã.",
-   "nl": "Schrijf in elke rij de dag die ontbreekt: gisteren, vandaag of morgen.",
-   "sv": "Skriv dagen som fattas på varje rad: i går, i dag eller i morgon.",
-   "da": "Skriv den dag, der mangler, i hver række: i går, i dag eller i morgen.",
-   "no": "Skriv dagen som mangler, i hver rad: i går, i dag eller i morgen.",
-   "fi": "Kirjoita jokaiselle riville puuttuva päivä: eilen, tänään tai huomenna."
+   "en": "Fill in the empty boxes in each row so it shows yesterday, today and tomorrow.",
+   "de": "Fülle in jeder Reihe die leeren Felder aus, sodass sie gestern, heute und morgen zeigt.",
+   "es": "Completa los espacios vacíos de cada fila para que muestre ayer, hoy y mañana.",
+   "fr": "Complète les cases vides de chaque ligne pour qu'elle montre hier, aujourd'hui et demain.",
+   "it": "Completa gli spazi vuoti di ogni riga in modo che mostri ieri, oggi e domani.",
+   "pt": "Complete os espaços vazios de cada linha para que ela mostre ontem, hoje e amanhã.",
+   "nl": "Vul in elke rij de lege vakjes in, zodat de rij gisteren, vandaag en morgen laat zien.",
+   "sv": "Fyll i de tomma rutorna på varje rad så att raden visar i går, i dag och i morgon.",
+   "da": "Udfyld de tomme felter i hver række, så rækken viser i går, i dag og i morgen.",
+   "no": "Fyll ut de tomme rutene i hver rad, slik at raden viser i går, i dag og i morgen.",
+   "fi": "Täydennä jokaisen rivin tyhjät kohdat niin, että rivillä on eilen, tänään ja huomenna."
   }
  },
  "G1-321": {
   "3": {
-   "en": "In each row, write the missing month: the month before, the month in the middle or the month after.",
-   "de": "Schreibe in jeder Reihe den fehlenden Monat: den Monat davor, den in der Mitte oder den danach.",
-   "es": "En cada fila, escribe el mes que falta: el de antes, el del centro o el de después.",
-   "fr": "Dans chaque ligne, écris le mois qui manque : celui d'avant, celui du milieu ou celui d'après.",
-   "it": "In ogni riga scrivi il mese che manca: quello prima, quello al centro o quello dopo.",
-   "pt": "Em cada linha, escreva o mês que falta: o de antes, o do meio ou o de depois.",
-   "nl": "Schrijf in elke rij de maand die ontbreekt: de maand ervoor, de maand in het midden of de maand erna.",
-   "sv": "Skriv månaden som fattas på varje rad: månaden före, månaden i mitten eller månaden efter.",
-   "da": "Skriv den måned, der mangler, i hver række: måneden før, måneden i midten eller måneden efter.",
-   "no": "Skriv måneden som mangler, i hver rad: måneden før, måneden i midten eller måneden etter.",
-   "fi": "Kirjoita jokaiselle riville puuttuva kuukausi: edellinen, keskimmäinen tai seuraava."
+   "en": "Fill in the empty boxes in each row so the three months come in order.",
+   "de": "Fülle in jeder Reihe die leeren Felder aus, sodass die drei Monate in der richtigen Reihenfolge stehen.",
+   "es": "Completa los espacios vacíos de cada fila para que los tres meses queden en orden.",
+   "fr": "Complète les cases vides de chaque ligne pour que les trois mois soient dans l'ordre.",
+   "it": "Completa gli spazi vuoti di ogni riga in modo che i tre mesi siano in ordine.",
+   "pt": "Complete os espaços vazios de cada linha para que os três meses fiquem em ordem.",
+   "nl": "Vul in elke rij de lege vakjes in, zodat de drie maanden op volgorde staan.",
+   "sv": "Fyll i de tomma rutorna på varje rad så att de tre månaderna kommer i rätt ordning.",
+   "da": "Udfyld de tomme felter i hver række, så de tre måneder står i rækkefølge.",
+   "no": "Fyll ut de tomme rutene i hver rad, slik at de tre månedene står i riktig rekkefølge.",
+   "fi": "Täydennä jokaisen rivin tyhjät kohdat niin, että kolme kuukautta ovat järjestyksessä."
   }
  },
  "G1-322": {
@@ -2390,7 +2390,7 @@
    },
    "it": {
     "title": "I mesi dell'anno: le abbreviazioni",
-    "instruction": "Leggi ogni abbreviazione e collega con una linea il mese che indica."
+    "instruction": "Leggi ogni abbreviazione e collegala con una linea al mese che indica."
    },
    "pt": {
     "title": "Meses do ano: abreviaturas",

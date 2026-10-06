@@ -159,7 +159,7 @@
      "q": "Dove mangiano i panini?",
      "choices": [
       "All'ombra dell'ombrellone",
-      "Sotto un albero",
+      "Sotto un albero vicino al bar",
       "In macchina"
      ],
      "correct": 0,
@@ -225,7 +225,7 @@
      "q": "Da dove esce il riccio?",
      "choices": [
       "Da sotto la siepe",
-      "Da una tana",
+      "Da una tana profonda",
       "Dal garage"
      ],
      "correct": 0,
@@ -234,7 +234,7 @@
     {
      "q": "Da dove guarda Sara il riccio?",
      "choices": [
-      "Dal cancello",
+      "Dal cancello del giardino",
       "Dal balcone",
       "Dalla finestra"
      ],
@@ -283,7 +283,7 @@
      "choices": [
       "In estate",
       "In primavera",
-      "In autunno"
+      "In pieno inverno"
      ],
      "correct": 1,
      "sentence": 2
@@ -302,7 +302,7 @@
      "q": "Che cosa prepara la maestra con la classe?",
      "choices": [
       "Una torta",
-      "Una minestra",
+      "Una minestra di verdure",
       "Una bella insalata"
      ],
      "correct": 2,
@@ -571,7 +571,7 @@
       "q": "Dove mette il dentino la sera?",
       "choices": [
        "Sotto il cuscino",
-       "Nel cassetto",
+       "Nel cassetto della cucina",
        "Sul comodino"
       ],
       "correct": 0
@@ -580,7 +580,7 @@
       "q": "Come si sente Luca quando trova la moneta?",
       "choices": [
        "Triste",
-       "Arrabbiato",
+       "Arrabbiato e molto triste",
        "Felice ed emozionato"
       ],
       "correct": 2
@@ -591,7 +591,7 @@
       "q": "Che cosa è caduto a Luca?",
       "choices": [
        "Il suo primo dentino da latte",
-       "La sua merenda",
+       "La sua merenda preferita alla frutta",
        "Il suo zaino"
       ],
       "correct": 0,
@@ -600,7 +600,7 @@
      {
       "q": "A chi mostra il dentino Luca?",
       "choices": [
-       "Alla mamma",
+       "Alla mamma e alla sorella",
        "Alla maestra Rita",
        "Al nonno"
       ],
@@ -610,7 +610,7 @@
      {
       "q": "Che cosa trova Luca la mattina dopo?",
       "choices": [
-       "Una caramella",
+       "Una caramella alla menta",
        "Un biglietto",
        "Una moneta lucida"
       ],
@@ -724,7 +724,7 @@
        "q": "Che cosa piace fare a Chiara?",
        "choices": [
         "Guardare e leggere i libri",
-        "Giocare a pallone",
+        "Giocare a pallone nel cortile",
         "Cucinare con la zia"
        ],
        "correct": 0
@@ -734,7 +734,7 @@
        "choices": [
         "Buttarli via",
         "Riportarli in biblioteca",
-        "Tenerli per sempre"
+        "Tenerli per sempre a casa sua"
        ],
        "correct": 1
       }
@@ -792,7 +792,7 @@
       "q": "Che cosa prova Federico all'inizio?",
       "choices": [
        "Un po' di paura",
-       "Tanta gioia",
+       "Tanta gioia e allegria",
        "Molta fame"
       ],
       "correct": 0,
@@ -825,7 +825,7 @@
        "q": "Perché il nonno tiene il sellino all'inizio?",
        "choices": [
         "Per non far cadere Federico",
-        "Per fermare la bici",
+        "Per fermare la bici davanti al prato",
         "Perché è stanco"
        ],
        "correct": 0
@@ -835,7 +835,7 @@
        "choices": [
         "Perché vuole tornare a casa",
         "Perché Federico ora va sicuro",
-        "Perché si è fatto male"
+        "Perché si è fatto male a una gamba"
        ],
        "correct": 1
       }
@@ -937,7 +937,7 @@
        "choices": [
         "Prepotente",
         "Gentile e attenta",
-        "Distratta"
+        "Distratta e annoiata"
        ],
        "correct": 1
       }
@@ -1037,7 +1037,7 @@
        "choices": [
         "Lo zaino di scuola",
         "Di dare da mangiare al pesciolino",
-        "Di chiudere la finestra"
+        "Di chiudere la finestra della camera la sera"
        ],
        "correct": 1
       }
@@ -1094,7 +1094,7 @@
       "q": "Quando esce Carla sul balcone?",
       "choices": [
        "Dopo il temporale",
-       "Prima di cena",
+       "Prima di cena con la mamma",
        "Di notte"
       ],
       "correct": 0,
@@ -1204,7 +1204,7 @@
       "q": "Dove sale la coccinella?",
       "choices": [
        "Sul suo dito",
-       "Sul naso",
+       "Sul naso di Gabriele",
        "Sulla testa"
       ],
       "correct": 0,
@@ -1237,7 +1237,7 @@
        "choices": [
         "Perché ha un libro",
         "Perché la guarda da vicino",
-        "Perché è buio"
+        "Perché è buio in cortile e accende la luce"
        ],
        "correct": 1
       }
@@ -1296,7 +1296,7 @@
       "choices": [
        "C'è molto vento",
        "Piove",
-       "Nevica"
+       "Nevica molto forte"
       ],
       "correct": 0,
       "sentence": 1
@@ -1369,7 +1369,7 @@
       "q": "Che parte fa Dario?",
       "choices": [
        "Il pastore",
-       "Il re",
+       "Il re mago",
        "L'angelo"
       ],
       "correct": 0
@@ -1377,7 +1377,7 @@
      {
       "q": "Chi c'è in prima fila?",
       "choices": [
-       "Il papà e il nonno",
+       "Il papà e il nonno Franco",
        "La mamma e la nonna",
        "La maestra"
       ],
@@ -1388,7 +1388,7 @@
       "choices": [
        "Vuole dirle bene alla recita",
        "Si annoia",
-       "Deve imparare a leggere"
+       "Deve imparare a leggere le lettere"
       ],
       "correct": 0
      }
@@ -1408,7 +1408,7 @@
       "q": "Che cosa porta Dario?",
       "choices": [
        "Una pecorella di stoffa",
-       "Un bastone",
+       "Un lungo bastone di legno",
        "Una stella"
       ],
       "correct": 0,
@@ -1419,7 +1419,7 @@
       "choices": [
        "In classe",
        "Davanti allo specchio",
-       "In giardino"
+       "In giardino sotto l'albero"
       ],
       "correct": 1,
       "sentence": 3
@@ -1439,7 +1439,7 @@
       {
        "q": "Come si sente Dario alla fine?",
        "choices": [
-        "Deluso",
+        "Deluso e un po' triste",
         "Fiero e contento",
         "Arrabbiato"
        ],
@@ -1489,7 +1489,7 @@
       "choices": [
        "Si divertono",
        "Si annoiano",
-       "Hanno paura"
+       "Hanno paura del buio"
       ],
       "correct": 0
      }
@@ -1601,7 +1601,7 @@
       "choices": [
        "Le incolla",
        "Le inchioda",
-       "Le taglia"
+       "Le taglia a metà"
       ],
       "correct": 1,
       "sentence": 2
@@ -1621,7 +1621,7 @@
       "choices": [
        "Una coppia di passeri",
        "Un gatto",
-       "Uno scoiattolo"
+       "Uno scoiattolo rossiccio"
       ],
       "correct": 0,
       "sentence": 5
@@ -1722,7 +1722,7 @@
       "choices": [
        "Per il fratellino",
        "Per la mamma",
-       "Per la nonna"
+       "Per la nonna Lina"
       ],
       "correct": 0,
       "sentence": 5
@@ -1783,7 +1783,7 @@
       "choices": [
        "A tuffarsi",
        "A stare a galla a pancia in su",
-       "A nuotare veloce"
+       "A nuotare veloce sott'acqua con le pinne"
       ],
       "correct": 1
      },
@@ -1845,7 +1845,7 @@
        "choices": [
         "Nuota velocissimo",
         "Sta a galla con le braccia e le gambe aperte",
-        "Va sotto l'acqua"
+        "Va sotto l'acqua e tocca il fondo della piscina"
        ],
        "correct": 1
       }
@@ -1988,7 +1988,7 @@
       "q": "Dove si ferma il treno?",
       "choices": [
        "A Roma",
-       "A Milano",
+       "A Milano Centrale",
        "A Firenze"
       ],
       "correct": 2
@@ -2007,7 +2007,7 @@
      {
       "q": "Che cosa compra la nonna in stazione?",
       "choices": [
-       "Un panino",
+       "Un panino con il formaggio",
        "I biglietti e un fumetto",
        "Un gelato"
       ],
@@ -2018,7 +2018,7 @@
       "q": "Dove si siede Viola sul treno?",
       "choices": [
        "Vicino al finestrino",
-       "Vicino alla porta",
+       "Vicino alla porta del vagone",
        "In fondo al vagone"
       ],
       "correct": 0,
@@ -2143,7 +2143,7 @@
        "q": "Perché Riccardo si scotta le dita?",
        "choices": [
         "Perché le castagne sono ancora calde",
-        "Perché tocca il fuoco del camino",
+        "Perché tocca il fuoco del camino con le mani",
         "Perché gioca con i ricci"
        ],
        "correct": 0
@@ -2286,7 +2286,7 @@
       "q": "Con chi va in gelateria Olivia?",
       "choices": [
        "Con lo zio Mario",
-       "Con la mamma",
+       "Con la mamma Giulia",
        "Con un'amica"
       ],
       "correct": 0
@@ -2304,7 +2304,7 @@
       "q": "Perché Olivia lecca il gelato in fretta?",
       "choices": [
        "Perché deve andare via",
-       "Perché non le piace",
+       "Perché non le piace la fragola",
        "Perché si sta sciogliendo"
       ],
       "correct": 2
@@ -2348,7 +2348,7 @@
        "q": "Perché Olivia ha il naso sporco di rosa?",
        "choices": [
         "Per colpa del gelato alla fragola",
-        "Perché si è truccata",
+        "Perché si è truccata con il rossetto",
         "Perché ha preso il sole"
        ],
        "correct": 0
@@ -2357,7 +2357,7 @@
        "q": "Che tipo di zio è Mario?",
        "choices": [
         "Severo",
-        "Distratto",
+        "Distratto e annoiato",
         "Allegro e premuroso"
        ],
        "correct": 2
@@ -2400,7 +2400,7 @@
       "q": "Com'è vestita Zoe?",
       "choices": [
        "Da strega",
-       "Da pirata",
+       "Da pirata coi baffi",
        "Da pagliaccio"
       ],
       "correct": 2
@@ -2453,7 +2453,7 @@
        "q": "Perché il bambino piccolo grida?",
        "choices": [
         "Pensa di vedere un'ape grandissima",
-        "Ha perso la sua mamma",
+        "Ha perso la sua mamma tra la gente",
         "Vuole un dolce"
        ],
        "correct": 0
@@ -2462,7 +2462,7 @@
        "q": "Che cosa fa Sofia quando dice «bzzz»?",
        "choices": [
         "Canta una canzone",
-        "Chiama la mamma",
+        "Chiama la mamma dalla piazza",
         "Imita il verso dell'ape"
        ],
        "correct": 2
@@ -2502,7 +2502,7 @@
      {
       "q": "Che cosa mangiano le giraffe?",
       "choices": [
-       "L'erba del prato",
+       "L'erba verde e fresca del prato",
        "Le foglie più alte degli alberi",
        "Le carote"
       ],
@@ -2625,7 +2625,7 @@
      {
       "q": "Che cosa le presta Vittoria?",
       "choices": [
-       "Una matita",
+       "Una matita colorata",
        "Un pennarello viola",
        "Una gomma"
       ],
@@ -2700,7 +2700,7 @@
       "q": "Dove passa una settimana Stefano?",
       "choices": [
        "Alla fattoria degli zii",
-       "Dai nonni al mare",
+       "Dai nonni al mare in Puglia",
        "In campeggio"
       ],
       "correct": 0
@@ -2772,7 +2772,7 @@
        "choices": [
         "È stato malato",
         "Ha lavorato tutto il giorno alla fattoria",
-        "Non ha mangiato niente"
+        "Non ha mangiato niente né a pranzo né a cena"
        ],
        "correct": 1
       }
@@ -2820,7 +2820,7 @@
      {
       "q": "Come si sente Michele dopo il gol?",
       "choices": [
-       "Deluso",
+       "Deluso e triste",
        "Annoiato",
        "Felicissimo"
       ],
@@ -2917,7 +2917,7 @@
      {
       "q": "A che cosa assomiglia il Grande Carro?",
       "choices": [
-       "A una stella cometa",
+       "A una stella cometa con la coda lunga",
        "A una pentola con il manico lungo",
        "A un cavallo"
       ],
@@ -2926,7 +2926,7 @@
      {
       "q": "Come si sente Nicolò quando sente il fruscio?",
       "choices": [
-       "Allegro",
+       "Allegro e tranquillo",
        "Annoiato",
        "Un po' spaventato"
       ],
@@ -2981,7 +2981,7 @@
        "choices": [
         "Il gatto fa una capriola",
         "Non c'era niente di cui avere paura",
-        "Il papà gli fa il solletico"
+        "Il papà gli fa il solletico sulla pancia"
        ],
        "correct": 1
       }
@@ -3014,7 +3014,7 @@
       "choices": [
        "In campagna dai nonni",
        "Al mare",
-       "In città dalla zia"
+       "In città dalla zia Carla"
       ],
       "correct": 0
      },
@@ -3030,7 +3030,7 @@
      {
       "q": "Perché la sera Tea ha le mani viola?",
       "choices": [
-       "Ha dipinto con gli acquerelli",
+       "Ha dipinto con gli acquerelli tutto il pomeriggio",
        "Ha mangiato i mirtilli",
        "Ha toccato l'uva tutto il giorno"
       ],
@@ -3042,7 +3042,7 @@
       "q": "Com'è il chicco che Tea assaggia?",
       "choices": [
        "Dolcissimo",
-       "Aspro",
+       "Aspro e acido",
        "Salato"
       ],
       "correct": 0,
@@ -3051,7 +3051,7 @@
      {
       "q": "Che cosa porta la nonna a mezzogiorno?",
       "choices": [
-       "Pasta e insalata",
+       "Pasta al sugo e insalata verde",
        "Pane, formaggio e pomodori",
        "La pizza"
       ],
@@ -3155,7 +3155,7 @@
      {
       "q": "Dove cerca l'orsetto Ugo?",
       "choices": [
-       "In giardino",
+       "In giardino dietro casa",
        "Nella lavatrice",
        "In macchina"
       ],
@@ -3283,7 +3283,7 @@
        "q": "Perché Rita si rialza e continua a correre?",
        "choices": [
         "I compagni le danno coraggio",
-        "Ha paura della maestra",
+        "Ha paura della maestra e dei compagni",
         "Vuole tornare a casa"
        ],
        "correct": 0
@@ -3291,7 +3291,7 @@
       {
        "q": "Perché sulla medaglia c'è scritto «Coraggio»?",
        "choices": [
-        "Rita è arrivata prima",
+        "Rita è arrivata prima di tutte le altre bambine",
         "Rita ha finito la gara anche dopo la caduta",
         "Rita ha aiutato un'amica"
        ],
@@ -3354,7 +3354,7 @@
       "q": "Di che colore è Batuffolo?",
       "choices": [
        "Bianco e grigio",
-       "Tutto nero",
+       "Marrone chiaro e nero",
        "Marrone"
       ],
       "correct": 0,
@@ -3363,7 +3363,7 @@
      {
       "q": "Dove resta fermo Batuffolo?",
       "choices": [
-       "Sotto il divano",
+       "Sotto il divano del salotto",
        "In un angolo della gabbia",
        "In giardino"
       ],

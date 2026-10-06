@@ -59,7 +59,7 @@ const READING_PASSAGES = {
         {
           "q": "What ate two carrots?",
           "choices": [
-            "a bird",
+            "a big bird",
             "a rabbit",
             "a dog"
           ],
@@ -256,7 +256,7 @@ const READING_PASSAGES = {
           "choices": [
             "Ella’s",
             "Grandpa’s",
-            "Mom’s"
+            "Grandma’s"
           ],
           "correct": 1
         },
@@ -264,7 +264,7 @@ const READING_PASSAGES = {
           "q": "Why does Ella practice in her room?",
           "choices": [
             "so Grandpa cannot hear",
-            "her recorder is quiet",
+            "her recorder is too quiet",
             "her room is warm"
           ],
           "correct": 0
@@ -272,7 +272,7 @@ const READING_PASSAGES = {
         {
           "q": "How do we know Grandpa likes the song?",
           "choices": [
-            "he falls asleep",
+            "he falls asleep in his chair",
             "he claps the loudest",
             "he leaves the party"
           ],
@@ -426,7 +426,7 @@ const READING_PASSAGES = {
         {
           "q": "Wen besucht die Klasse 2a?",
           "choices": [
-            "Die Polizei",
+            "Die Polizeiwache",
             "Die Feuerwehr",
             "Den Zoo"
           ],
@@ -446,7 +446,7 @@ const READING_PASSAGES = {
           "choices": [
             "Er weint.",
             "Er lacht einfach mit.",
-            "Er läuft weg."
+            "Er läuft schnell nach Hause."
           ],
           "correct": 1
         }
@@ -494,7 +494,7 @@ const READING_PASSAGES = {
         {
           "q": "Was sucht Samira?",
           "choices": [
-            "Ihre Jacke",
+            "Ihre neue Regenjacke",
             "Ihr Heft",
             "Ihren Turnbeutel"
           ],
@@ -512,7 +512,7 @@ const READING_PASSAGES = {
         {
           "q": "Wo schauen Samira und Elias beim Suchen nach?",
           "choices": [
-            "Im Garten und im Keller",
+            "Im Garten, im Keller und hinter dem großen Haus",
             "Im Klassenzimmer, im Flur und in der Bibliothek",
             "In der Küche und im Bad"
           ],
@@ -548,7 +548,7 @@ const READING_PASSAGES = {
           "choices": [
             "Er hat einen schönen Tag im Schnee verbracht.",
             "Er hat keine Hausaufgaben mehr.",
-            "Er hat einen neuen Hut bekommen."
+            "Er hat von Ida einen neuen warmen Hut bekommen."
           ],
           "correct": 0
         }
@@ -779,7 +779,7 @@ const READING_PASSAGES = {
           "choices": [
             "el mar",
             "montañas altas con nieve",
-            "una ciudad grande"
+            "una ciudad grande con edificios"
           ],
           "correct": 1
         },
@@ -822,7 +822,7 @@ const READING_PASSAGES = {
           "choices": [
             "porque Hugo dice sus frases sin ningún fallo",
             "porque se acaba el recreo",
-            "porque Hugo se cae del escenario"
+            "porque Hugo se cae del escenario delante de todos"
           ],
           "correct": 0
         }
@@ -847,7 +847,7 @@ const READING_PASSAGES = {
         {
           "q": "Où Mimi boit-il le matin ?",
           "choices": [
-            "Dans le jardin",
+            "Dans le jardin, sous le grand pommier",
             "Près de la fenêtre de la cuisine",
             "Sous le lit"
           ],
@@ -858,7 +858,7 @@ const READING_PASSAGES = {
           "choices": [
             "Il vit dans la maison",
             "Il n'aime pas dormir",
-            "Il vit dehors"
+            "Il vit dehors, dans la rue"
           ],
           "correct": 0
         }
@@ -873,7 +873,7 @@ const READING_PASSAGES = {
           "q": "De quelle couleur est le vélo de Hugo ?",
           "choices": [
             "Bleu",
-            "Vert",
+            "Violet",
             "Rouge"
           ],
           "correct": 2
@@ -1053,7 +1053,7 @@ const READING_PASSAGES = {
           "choices": [
             "Une fraise",
             "Une pomme",
-            "Un bonbon"
+            "Un gros bonbon"
           ],
           "correct": 0
         },
@@ -1062,7 +1062,7 @@ const READING_PASSAGES = {
           "choices": [
             "Parce qu'il est très lourd",
             "Parce qu'il pleut",
-            "Parce qu'il est cassé"
+            "Parce qu'il est cassé au fond"
           ],
           "correct": 0
         }
@@ -1121,7 +1121,7 @@ const READING_PASSAGES = {
         {
           "q": "Onde Pipoca dorme todo dia?",
           "choices": [
-            "No sofá",
+            "No sofá grande da sala de estar",
             "Na janela da sala",
             "Na cama de Sofia"
           ],
@@ -1131,7 +1131,7 @@ const READING_PASSAGES = {
           "q": "Por que Pipoca corre quando Sofia chega?",
           "choices": [
             "Porque ele está com medo",
-            "Porque ele quer comida",
+            "Porque ele quer comida e água fresca",
             "Porque ele gosta de Sofia"
           ],
           "correct": 2
@@ -1301,7 +1301,7 @@ const READING_PASSAGES = {
           "q": "Por que Davi dormiu tão cedo?",
           "choices": [
             "Porque estava cansado de tanto brincar",
-            "Porque a história era chata",
+            "Porque a tia Rosa mandou todo mundo dormir cedo",
             "Porque a tia mandou"
           ],
           "correct": 0
@@ -1465,7 +1465,7 @@ const READING_PASSAGES = {
           "choices": [
             "Una conchiglia bianca",
             "Un granchio",
-            "Una stella marina"
+            "Una stella marina rossa"
           ],
           "correct": 0
         },
@@ -1489,7 +1489,7 @@ const READING_PASSAGES = {
           "q": "Dove vive il riccio?",
           "choices": [
             "Nel giardino di Sara",
-            "In una scatola",
+            "In una scatola di cartone",
             "Sul balcone"
           ],
           "correct": 0
@@ -1497,7 +1497,7 @@ const READING_PASSAGES = {
         {
           "q": "Che cosa cerca il riccio ogni sera?",
           "choices": [
-            "Semi",
+            "Semi di girasole",
             "Lumache",
             "Foglie"
           ],
@@ -1523,7 +1523,7 @@ const READING_PASSAGES = {
           "q": "Dove si trova l'orto?",
           "choices": [
             "Nel parco",
-            "Sul terrazzo",
+            "Sul terrazzo della palestra",
             "Dietro la scuola"
           ],
           "correct": 2
@@ -1531,7 +1531,7 @@ const READING_PASSAGES = {
         {
           "q": "Che cosa piantano i bambini?",
           "choices": [
-            "Fiori e fragole",
+            "Fiori, fragole e girasoli gialli",
             "Pomodori, carote e basilico",
             "Patate e zucche"
           ],
@@ -1696,7 +1696,7 @@ const READING_PASSAGES = {
           "choices": [
             "Koekjes",
             "Pannenkoeken",
-            "Een taart"
+            "Een grote appeltaart"
           ],
           "correct": 1
         },
@@ -1943,7 +1943,7 @@ const READING_PASSAGES = {
         {
           "q": "Var tycker Smulan om att sova?",
           "choices": [
-            "I Majas säng",
+            "I Majas stora säng på övervåningen",
             "I tvättkorgen",
             "På soffan"
           ],
@@ -1952,7 +1952,7 @@ const READING_PASSAGES = {
         {
           "q": "Varför spinner Smulan på kvällen?",
           "choices": [
-            "Hon är arg",
+            "Hon är arg och vill gå ut",
             "Hon är rädd",
             "Hon trivs och är nöjd"
           ],
@@ -2002,7 +2002,7 @@ const READING_PASSAGES = {
         {
           "q": "Vad hittar Vera under granen?",
           "choices": [
-            "En kotte",
+            "En stor brun kotte",
             "En stor svamp",
             "En sten"
           ],
@@ -2252,7 +2252,7 @@ const READING_PASSAGES = {
           "q": "Hvor øver Oliver på å sykle?",
           "choices": [
             "I bakgården",
-            "I parken",
+            "I den store parken",
             "På skolen"
           ],
           "correct": 0
@@ -2260,7 +2260,7 @@ const READING_PASSAGES = {
         {
           "q": "Hva viser fortellingen om Oliver?",
           "choices": [
-            "Han gir seg fort",
+            "Han gir seg fort og går inn igjen",
             "Han øver til han får det til",
             "Han liker ikke sykkelen"
           ],
@@ -2344,7 +2344,7 @@ const READING_PASSAGES = {
         {
           "q": "Hva tar Lars og søsteren med seg?",
           "choices": [
-            "Ski",
+            "Ski og staver",
             "Et akebrett",
             "En spark"
           ],
@@ -2397,7 +2397,7 @@ const READING_PASSAGES = {
           "q": "Hvordan merker Jakob at bollene steker i ovnen?",
           "choices": [
             "Det lukter godt i huset",
-            "Farmor roper høyt",
+            "Farmor roper høyt fra kjøkkenet",
             "Klokka ringer"
           ],
           "correct": 0
@@ -2448,7 +2448,7 @@ const READING_PASSAGES = {
           "choices": [
             "På hyttetur i fjellet",
             "På badeland",
-            "På besøk i byen"
+            "På besøk hos tanten sin i byen"
           ],
           "correct": 0
         },
@@ -2465,7 +2465,7 @@ const READING_PASSAGES = {
           "q": "Hva må Selma gjøre for å få fisk?",
           "choices": [
             "Rope høyt på fisken",
-            "Kaste stein i vannet",
+            "Kaste store steiner ut i vannet",
             "Vente tålmodig og stå stille"
           ],
           "correct": 2
@@ -2619,7 +2619,7 @@ const READING_PASSAGES = {
           "q": "Hvilken dag går klassen på biblioteket?",
           "choices": [
             "Torsdag",
-            "Mandag",
+            "Tirsdag",
             "Fredag"
           ],
           "correct": 0
@@ -2627,7 +2627,7 @@ const READING_PASSAGES = {
         {
           "q": "Hvad handler Sofias bog om?",
           "choices": [
-            "Dyr",
+            "Dinosaurer",
             "Rummet",
             "Biler"
           ],
@@ -2638,7 +2638,7 @@ const READING_PASSAGES = {
           "choices": [
             "Hun passer godt på bogen",
             "Hun kan ikke lide bogen",
-            "Tasken er helt fuld"
+            "Tasken er helt fuld af andre bøger"
           ],
           "correct": 0
         }
@@ -2662,7 +2662,7 @@ const READING_PASSAGES = {
           "q": "Hvad får børnene, da de kommer ind?",
           "choices": [
             "Varm suppe",
-            "Te med honning",
+            "Varm te med honning og citron",
             "Varm kakao med flødeskum"
           ],
           "correct": 2
@@ -2672,7 +2672,7 @@ const READING_PASSAGES = {
           "choices": [
             "Fordi de fryser om fingrene",
             "Fordi det bliver mørkt",
-            "Fordi kælken går i stykker"
+            "Fordi kælken pludselig går i stykker"
           ],
           "correct": 0
         }
@@ -2687,7 +2687,7 @@ const READING_PASSAGES = {
           "q": "Hvad skal Nora og hendes far købe hos bageren?",
           "choices": [
             "Rundstykker",
-            "Lagkage",
+            "En stor lagkage",
             "Rugbrød"
           ],
           "correct": 0
@@ -2705,7 +2705,7 @@ const READING_PASSAGES = {
           "q": "Hvad viser det, at far køber et stykke kringle til Nora?",
           "choices": [
             "Han vil gerne glæde hende",
-            "Han er selv meget sulten",
+            "Han er selv meget sulten efter turen",
             "Kringlen var gratis"
           ],
           "correct": 0
@@ -2738,7 +2738,7 @@ const READING_PASSAGES = {
         {
           "q": "Hvilken årstid foregår skovturen i?",
           "choices": [
-            "Om sommeren",
+            "Midt om sommeren",
             "Om efteråret",
             "Om vinteren"
           ],
@@ -2835,7 +2835,7 @@ const READING_PASSAGES = {
           "choices": [
             "piirsi kuvan mummolle",
             "luki kirjaa",
-            "leikki pihalla"
+            "leikki pihalla hiekkalaatikossa"
           ],
           "correct": 0
         },

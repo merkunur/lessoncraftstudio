@@ -147,7 +147,7 @@
     {
      "q": "Hvad elsker Sofia?",
      "choices": [
-      "Heste og hunde",
+      "Heste og små hundehvalpe",
       "Stjerner og planeter",
       "Biler og tog"
      ],
@@ -190,7 +190,7 @@
       "q": "Hvad kan vi forstå om Sofias lillebror?",
       "choices": [
        "Han kan ikke selv læse bogen endnu",
-       "Han går i Sofias klasse",
+       "Han går i den samme klasse som sin søster Sofia",
        "Han arbejder på biblioteket"
       ],
       "correct": 0
@@ -293,7 +293,7 @@
      "q": "Hvad vander Alma planterne med?",
      "choices": [
       "Sin grønne vandkande",
-      "En haveslange",
+      "En lang haveslange fra skuret",
       "En spand"
      ],
      "correct": 0,
@@ -302,7 +302,7 @@
     {
      "q": "Hvad vil de lave af grøntsagerne til sommer?",
      "choices": [
-      "En kage",
+      "En stor kage med jordbær",
       "En salat",
       "En stor gryde suppe"
      ],
@@ -316,7 +316,7 @@
       "q": "Hvorfor skal de vente til sommer med at lave suppen?",
       "choices": [
        "Grøntsagerne skal først vokse sig store",
-       "Bedstemor har ikke tid før",
+       "Bedstemor har slet ikke tid til at lave mad før",
        "Gryden er i stykker"
       ],
       "correct": 0
@@ -324,7 +324,7 @@
      {
       "q": "Hvad kan vi forstå om Alma?",
       "choices": [
-       "Hun har aldrig været i haven",
+       "Hun har aldrig før været i bedstemors have",
        "Hun kan godt lide at arbejde i haven",
        "Hun keder sig i haven"
       ],
@@ -507,7 +507,7 @@
     {
      "q": "Hvor holder klassen pause?",
      "choices": [
-      "Ved søen",
+      "Ved den lille sø i skoven",
       "Ved bussen",
       "Ved den store eg"
      ],
@@ -603,7 +603,7 @@
       "q": "Hvad holder træneren ud til Emma?",
       "choices": [
        "En lang stang",
-       "En bold",
+       "En stor rød bold",
        "Et håndklæde"
       ],
       "correct": 0,
@@ -695,7 +695,7 @@
       "choices": [
        "I mange dage",
        "I en time",
-       "I et år"
+       "I mere end et år"
       ],
       "correct": 0,
       "sentence": 1
@@ -713,7 +713,7 @@
      {
       "q": "Hvem viser Carl tanden til?",
       "choices": [
-       "Sin mor",
+       "Kun sin bedste ven",
        "Sin lærer",
        "Alle i klassen"
       ],
@@ -776,7 +776,7 @@
       "choices": [
        "Kagemand med slik på",
        "Pizza",
-       "Is med jordbær"
+       "Is med jordbær og flødeskum"
       ],
       "correct": 0
      },
@@ -784,7 +784,7 @@
       "q": "Hvorfor er der flag på bordet?",
       "choices": [
        "Fordi det er jul",
-       "Fordi de skal på ferie",
+       "Fordi de skal på en lang ferie",
        "Fordi Ella har fødselsdag"
       ],
       "correct": 2
@@ -869,14 +869,14 @@
       "choices": [
        "Bonzo",
        "Fido",
-       "Max"
+       "Rufus"
       ],
       "correct": 0
      },
      {
       "q": "Hvor finder Bonzo pinden?",
       "choices": [
-       "I vandet",
+       "Ude i det kolde vand",
        "Under et træ",
        "Ved bænken"
       ],
@@ -931,7 +931,7 @@
        "choices": [
         "At hente pinde",
         "At gemme sig",
-        "At svømme"
+        "At svømme ude i søen"
        ],
        "correct": 0
       },
@@ -1131,7 +1131,7 @@
        "choices": [
         "Fordi det blæser meget",
         "Fordi solen skinner",
-        "Fordi det er weekend"
+        "Fordi det er weekend og fridag"
        ],
        "correct": 0
       },
@@ -1140,7 +1140,7 @@
        "choices": [
         "De er uvenner",
         "De laver noget sjovt sammen",
-        "De er på vej i skole"
+        "De er på vej i skole sammen om morgenen"
        ],
        "correct": 1
       }
@@ -1379,7 +1379,7 @@
      {
       "q": "Hvor samler Gustav æg?",
       "choices": [
-       "I stalden",
+       "I stalden hos køerne",
        "I hønsehuset",
        "I haven"
       ],
@@ -1390,7 +1390,7 @@
       "choices": [
        "Så de ikke går i stykker",
        "Så hønsene kan se dem",
-       "Fordi kurven er våd"
+       "Fordi kurven er våd og beskidt"
       ],
       "correct": 0
      }
@@ -1419,7 +1419,7 @@
      {
       "q": "Hvad giver Gustav kalvene?",
       "choices": [
-       "Hø",
+       "Frisk hø fra den store lade",
        "Vand",
        "Mælk fra en stor flaske"
       ],
@@ -1434,7 +1434,7 @@
        "choices": [
         "Han kan godt lide at hjælpe med dyrene",
         "Han er bange for høns",
-        "Han bor selv på bondegården"
+        "Han bor selv på bondegården sammen med dyrene"
        ],
        "correct": 0
       },
@@ -1443,7 +1443,7 @@
        "choices": [
         "Kalvene er syge",
         "Kalvene er små og skal have mad",
-        "Gustav vil gerne lege med dem"
+        "Gustav vil gerne lege med dem hele dagen"
        ],
        "correct": 1
       }
@@ -1644,7 +1644,7 @@
       {
        "q": "Hvad var nok svært ved kampen i dag?",
        "choices": [
-        "At finde bolden i sneen",
+        "At finde den hvide bold i den dybe sne",
         "At stå fast på den glatte bane",
         "At se noget i mørket"
        ],
@@ -1675,7 +1675,7 @@
       "q": "Hvor køber Laura og far juletræet?",
       "choices": [
        "På torvet",
-       "I skoven",
+       "Ude i skoven",
        "I haven"
       ],
       "correct": 0
@@ -1683,7 +1683,7 @@
      {
       "q": "Hvem må sætte stjernen i toppen?",
       "choices": [
-       "Far",
+       "Farmor",
        "Laura",
        "Mor"
       ],
@@ -1784,7 +1784,7 @@
      {
       "q": "Hvad ser Anna ud ad vinduet?",
       "choices": [
-       "Havet og stranden",
+       "Havet og stranden og en masse sejlbåde",
        "Køer, marker og store vindmøller",
        "Høje huse"
       ],
@@ -1794,7 +1794,7 @@
       "q": "Hvordan har mormor det, da de kommer?",
       "choices": [
        "Hun er glad for at se dem",
-       "Hun er træt",
+       "Hun er træt efter en lang dag",
        "Hun er sur"
       ],
       "correct": 0
@@ -1846,7 +1846,7 @@
       {
        "q": "Hvorfor vinker mormor på perronen?",
        "choices": [
-        "Hun skal selv med toget",
+        "Hun skal selv med det samme tog",
         "Hun kender ikke Anna",
         "Hun er glad for at se dem"
        ],
@@ -1910,7 +1910,7 @@
       "choices": [
        "Hans storebror Mads",
        "Hans lillesøster Mira",
-       "Hans ven Viktor"
+       "Hans bedste ven Viktor fra skolen"
       ],
       "correct": 1,
       "sentence": 1
@@ -1919,7 +1919,7 @@
       "q": "Hvad henter Theo?",
       "choices": [
        "Sin lommelygte",
-       "Sin bamse",
+       "Sin store brune bamse",
        "Sin bog"
       ],
       "correct": 0,
@@ -2133,7 +2133,7 @@
       "q": "Hvad gør pigerne, da vandet sprøjter?",
       "choices": [
        "Græder",
-       "Løber ind",
+       "Løber hurtigt ind i huset",
        "Hviner af grin"
       ],
       "correct": 2,
@@ -2214,7 +2214,7 @@
      {
       "q": "Hvilken farve har græskarret?",
       "choices": [
-       "Grønt",
+       "Mørkegrønt",
        "Orange",
        "Gult"
       ],
@@ -2224,7 +2224,7 @@
      {
       "q": "Hvordan bliver Viggos fingre?",
       "choices": [
-       "Helt kolde",
+       "Helt kolde og røde",
        "Helt våde",
        "Helt klistrede"
       ],
@@ -2236,7 +2236,7 @@
       "choices": [
        "I køkkenet",
        "I haven",
-       "I stuen"
+       "Inde i stuen"
       ],
       "correct": 0,
       "sentence": 2
@@ -2511,7 +2511,7 @@
      {
       "q": "Hvordan har Thea det med sit nye hår?",
       "choices": [
-       "Hun er ked af det",
+       "Hun er ked af det og græder",
        "Hun er glad for det",
        "Hun er ligeglad"
       ],
@@ -2543,7 +2543,7 @@
       "q": "Hvor langt når håret, efter det er klippet?",
       "choices": [
        "Ned til maven",
-       "Ned til ørerne",
+       "Kun lige ned til ørerne",
        "Ned til skuldrene"
       ],
       "correct": 2,
@@ -2556,7 +2556,7 @@
        "q": "Hvorfor bliver Theas hår klippet kortere?",
        "choices": [
         "Så det ikke filtrer så meget",
-        "Så hun kan få en hue på",
+        "Så hun kan få sin nye uldhue på i skolen",
         "Fordi det er for tyndt"
        ],
        "correct": 0
@@ -2565,7 +2565,7 @@
        "q": "Hvorfor sætter Susan Thea i en høj stol?",
        "choices": [
         "Fordi Thea er træt",
-        "Så Thea kan se ud ad vinduet",
+        "Så Thea kan se ud ad det store vindue",
         "Så hun bedre kan nå hendes hår"
        ],
        "correct": 2
@@ -2606,7 +2606,7 @@
       "choices": [
        "I kassen",
        "Op i sengen",
-       "På hylden"
+       "Op på den høje hylde"
       ],
       "correct": 1
      },
@@ -2615,7 +2615,7 @@
       "choices": [
        "Han gør det til en leg",
        "Han får hjælp af mor",
-       "Han hører musik"
+       "Han hører musik i sine høretelefoner"
       ],
       "correct": 0
      }
@@ -2706,7 +2706,7 @@
      {
       "q": "Hvad er der galt med Stampes tand?",
       "choices": [
-       "Den er løs",
+       "Den er løs og vakler meget",
        "Den er alt for lang",
        "Den er brækket"
       ],
@@ -2738,7 +2738,7 @@
       "choices": [
        "En kasse",
        "Et lille bur",
-       "En taske"
+       "En stor rød taske"
       ],
       "correct": 1,
       "sentence": 2
@@ -2748,7 +2748,7 @@
       "choices": [
        "Aer Stampe på ryggen",
        "Holder ham i ørerne",
-       "Synger for ham"
+       "Synger en stille sang for ham"
       ],
       "correct": 0,
       "sentence": 5
@@ -2760,7 +2760,7 @@
        "q": "Hvorfor vil Stampe ikke spise?",
        "choices": [
         "Det gør ondt at tygge",
-        "Han er mæt",
+        "Han er helt mæt efter morgenmaden",
         "Han kan ikke lide hø"
        ],
        "correct": 0
@@ -2770,7 +2770,7 @@
        "choices": [
         "For at tørre ham",
         "For at berolige ham",
-        "For at vække ham"
+        "For at vække ham fra sin lur"
        ],
        "correct": 1
       }
@@ -2849,7 +2849,7 @@
       "q": "Hvor hænger tegningen?",
       "choices": [
        "På hendes dør",
-       "På hendes væg",
+       "På væggen i hendes stue",
        "På hendes køleskab"
       ],
       "correct": 2,
@@ -2945,7 +2945,7 @@
       "choices": [
        "Ved den store røde port",
        "Ved brandbilen",
-       "Inde i køkkenet"
+       "Inde i det store køkken på stationen"
       ],
       "correct": 0,
       "sentence": 2
@@ -3047,7 +3047,7 @@
       "q": "Hvem ror Olivia sammen med?",
       "choices": [
        "Mathias",
-       "Mikkel",
+       "Benjamin",
        "Magnus"
       ],
       "correct": 0,
@@ -3159,7 +3159,7 @@
      {
       "q": "Hvad hjælper børnene trolden med?",
       "choices": [
-       "At finde sin hat",
+       "At finde sin store hat",
        "At synge en sang",
        "At tænde en lygte"
       ],
@@ -3215,7 +3215,7 @@
       "choices": [
        "Et stempel på armen",
        "En medalje",
-       "Et klistermærke"
+       "Et klistermærke med en stjerne"
       ],
       "correct": 0
      },
@@ -3224,7 +3224,7 @@
       "choices": [
        "Hendes lærer",
        "Hendes veninde Rikke",
-       "Hendes bror"
+       "Hendes storebror fra sjette klasse"
       ],
       "correct": 1
      },
@@ -3232,7 +3232,7 @@
       "q": "Hvad viser det, at Rikke tager Saras hånd?",
       "choices": [
        "Hun vil hjælpe Sara",
-       "Hun er selv træt",
+       "Hun er selv træt og vil hvile",
        "Hun vil vinde"
       ],
       "correct": 0
@@ -3262,7 +3262,7 @@
      {
       "q": "Hvad venter der i mål?",
       "choices": [
-       "Is og kager",
+       "Is og store kager med flødeskum",
        "Varm kakao",
        "Kolde æbler og saftevand"
       ],

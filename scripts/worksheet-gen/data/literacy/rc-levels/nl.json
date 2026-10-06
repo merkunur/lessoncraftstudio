@@ -90,7 +90,7 @@
      "q": "Waar slaapt Moos graag?",
      "choices": [
       "op de vensterbank",
-      "onder het bed",
+      "onder het grote bed van Tess",
       "in de mand"
      ],
      "correct": 0,
@@ -148,7 +148,7 @@
     {
      "q": "Wat neemt Lotte mee?",
      "choices": [
-      "haar bal en haar net",
+      "haar bal en haar schepnetje",
       "haar emmer en haar schep",
       "haar boek en haar pet"
      ],
@@ -524,7 +524,7 @@
      {
       "q": "Waarom staat Ties altijd vooraan?",
       "choices": [
-       "Hij moet de bus besturen",
+       "Hij moet de meneer van de bus helpen met tillen",
        "Hij is bang voor de meneer",
        "Hij vindt de bibliotheekbus erg leuk"
       ],
@@ -575,7 +575,7 @@
      {
       "q": "Wat krijgt Fleur aan het eind?",
       "choices": [
-       "Een ijsje en een boek",
+       "Een ijsje en een boek over vissen",
        "Een diploma en een medaille",
        "Een bloem en een kaart"
       ],
@@ -584,7 +584,7 @@
      {
       "q": "Hoe voelt Fleur zich voordat ze zwemt?",
       "choices": [
-       "Heel boos",
+       "Heel erg boos op de juf",
        "Een beetje zenuwachtig",
        "Verdrietig"
       ],
@@ -595,7 +595,7 @@
      {
       "q": "Wie zijn er in het zwembad?",
       "choices": [
-       "juffen en meesters",
+       "juffen en meesters van haar school",
        "ouders en opa's en oma's",
        "kinderen van school"
       ],
@@ -730,7 +730,7 @@
        "q": "Hoe voelt Koen zich eerst op het ijs?",
        "choices": [
         "Een beetje onzeker",
-        "Heel stoer",
+        "Heel stoer en sterk",
         "Boos"
        ],
        "correct": 0
@@ -738,7 +738,7 @@
       {
        "q": "Waarom drinken ze iets warms?",
        "choices": [
-        "Ze hebben het te warm",
+        "Ze hebben het veel te warm gekregen",
         "Ze hebben het koud gekregen",
         "Opa is jarig"
        ],
@@ -778,7 +778,7 @@
       "q": "Wat tekent Anouk?",
       "choices": [
        "Een stoomboot",
-       "Een paard",
+       "Een paard met een zadel",
        "Een huis"
       ],
       "correct": 0
@@ -787,7 +787,7 @@
       "q": "Waarom rent Anouk meteen naar beneden?",
       "choices": [
        "Ze heeft honger",
-       "Ze moet naar school",
+       "Ze moet heel vroeg naar school toe vandaag",
        "Ze wil zien wat er in haar schoen zit"
       ],
       "correct": 2
@@ -799,7 +799,7 @@
       "choices": [
        "bij de deur",
        "bij de kachel",
-       "bij het raam"
+       "bij het grote raam"
       ],
       "correct": 1,
       "sentence": 1
@@ -808,7 +808,7 @@
       "q": "Met wie zingt Anouk?",
       "choices": [
        "met haar broertje",
-       "met haar zus",
+       "met haar grote zus",
        "met oma"
       ],
       "correct": 0,
@@ -900,7 +900,7 @@
      {
       "q": "Wat blaast Bas?",
       "choices": [
-       "ballonnen",
+       "rode ballonnen",
        "zeepbellen",
        "fluitjes"
       ],
@@ -920,7 +920,7 @@
      {
       "q": "Wat doet Bolle?",
       "choices": [
-       "gaat liggen",
+       "gaat lekker in zijn mand liggen",
        "blaft hard",
        "springt erachteraan"
       ],
@@ -934,7 +934,7 @@
        "q": "Wat heeft Bas nodig om zeepbellen te blazen?",
        "choices": [
         "Een ballon",
-        "Een emmer zand",
+        "Een emmer met nat zand uit de zandbak",
         "Een potje bellenblaas"
        ],
        "correct": 2
@@ -1123,7 +1123,7 @@
       "q": "Wat doet de kapper?",
       "choices": [
        "knipt en knipt",
-       "wast en wast",
+       "wast en wast en wast",
        "kamt en kamt"
       ],
       "correct": 0,
@@ -1175,7 +1175,7 @@
       "q": "Hoe heet de knuffelbeer?",
       "choices": [
        "Teun",
-       "Tim",
+       "Timmie",
        "Tom"
       ],
       "correct": 0
@@ -1387,7 +1387,7 @@
      {
       "q": "Waar slepen ze de takken naartoe?",
       "choices": [
-       "Naar de sloot",
+       "Naar de sloot bij het weiland",
        "Naar een dikke boom",
        "Naar huis"
       ],
@@ -1396,7 +1396,7 @@
      {
       "q": "Waarom blijven Cas en Ali droog?",
       "choices": [
-       "Ze hebben paraplu's",
+       "Ze hebben allebei een grote paraplu meegenomen",
        "De zon schijnt",
        "Het dak van de hut is dicht"
       ],
@@ -1481,7 +1481,7 @@
       "q": "Naar wie gaat Jens?",
       "choices": [
        "Naar tante Karin",
-       "Naar opa",
+       "Naar opa en oma Jansen",
        "Naar zijn juf"
       ],
       "correct": 0
@@ -1491,7 +1491,7 @@
       "choices": [
        "Veertien",
        "Vierendertig",
-       "Honderd"
+       "Honderdtwintig"
       ],
       "correct": 1
      },
@@ -1500,7 +1500,7 @@
       "choices": [
        "Ja, ze zit naast hem",
        "Nee, ze blijft op het perron",
-       "Ja, maar ze stapt later in"
+       "Ja, maar ze stapt later in de trein in"
       ],
       "correct": 1
      }
@@ -1519,7 +1519,7 @@
      {
       "q": "Wie kijkt naar het kaartje?",
       "choices": [
-       "de machinist",
+       "de machinist met de grote pet",
        "een vriendelijke conducteur",
        "een oude mevrouw"
       ],
@@ -1529,7 +1529,7 @@
      {
       "q": "Waar zit Jens?",
       "choices": [
-       "bij de deur",
+       "bij de deur van de wc",
        "naast mama",
        "bij het raam"
       ],
@@ -1599,7 +1599,7 @@
      {
       "q": "Wie wint het touwtrekken?",
       "choices": [
-       "Het andere team",
+       "Het andere team van groep vijf",
        "De meester",
        "Het team van Lieke"
       ],
@@ -1794,7 +1794,7 @@
       "q": "Waarop trakteert Hanna?",
       "choices": [
        "Op fruitspiesjes",
-       "Op cupcakes",
+       "Op cupcakes met roze glazuur",
        "Op snoep"
       ],
       "correct": 0
@@ -1803,7 +1803,7 @@
       "q": "Hoe voelt Hanna zich op de versierde stoel?",
       "choices": [
        "Verdrietig",
-       "Boos",
+       "Heel erg boos op de klas",
        "Bijzonder en blij"
       ],
       "correct": 2
@@ -1927,7 +1927,7 @@
      {
       "q": "Wat geeft Mila het elke dag?",
       "choices": [
-       "een beetje melk",
+       "een beetje koude melk",
        "een beetje water",
        "een beetje zand"
       ],
@@ -1938,7 +1938,7 @@
       "q": "Wat komt er na een week boven de grond?",
       "choices": [
        "een worm",
-       "een steentje",
+       "een klein grijs steentje",
        "een groen puntje"
       ],
       "correct": 2,
@@ -1952,7 +1952,7 @@
        "choices": [
         "Een stukje van de nieuwe plant",
         "Een grassprietje uit de tuin",
-        "Een groene knikker"
+        "Een groene knikker die Mila in het potje stopte"
        ],
        "correct": 0
       },
@@ -2020,7 +2020,7 @@
       "q": "Wat koopt oma bij de ingang?",
       "choices": [
        "een zakje brokjes",
-       "een ijsje",
+       "een groot ijsje met slagroom",
        "een ballon"
       ],
       "correct": 0,
@@ -2029,7 +2029,7 @@
      {
       "q": "Waar eet het kleinste geitje uit?",
       "choices": [
-       "uit een bak",
+       "uit een grote bak met water",
        "uit Rubens hand",
        "uit het gras"
       ],
@@ -2040,7 +2040,7 @@
       "q": "Waar kijkt Ruben naar?",
       "choices": [
        "naar de koeien",
-       "naar de kippen",
+       "naar de kippen in het hok",
        "naar de varkens"
       ],
       "correct": 2,
@@ -2164,7 +2164,7 @@
       {
        "q": "Waarom trekt Pepijn zo snel zijn laarzen aan?",
        "choices": [
-        "Hij moet naar de dokter",
+        "Hij moet heel snel naar de dokter toe vandaag",
         "Hij wil graag in de sneeuw spelen",
         "Hij heeft het te warm"
        ],
@@ -2226,7 +2226,7 @@
       "q": "Waar heeft Tim de lampion gemaakt?",
       "choices": [
        "op school",
-       "bij opa",
+       "bij opa thuis",
        "thuis"
       ],
       "correct": 0,
@@ -2235,7 +2235,7 @@
      {
       "q": "Met wie loopt Tim langs de deuren?",
       "choices": [
-       "met zijn zus",
+       "met zijn grote zus Lotte",
        "met buurmeisje Saar",
        "met zijn opa"
       ],
@@ -2245,7 +2245,7 @@
      {
       "q": "Wat geven de mensen?",
       "choices": [
-       "een appel of een koekje",
+       "een appel of een groot koekje",
        "een ballon",
        "een mandarijn of wat snoep"
       ],
@@ -2259,7 +2259,7 @@
        "q": "Waarom zingen de kinderen bij elk huis?",
        "choices": [
         "Om iets lekkers te krijgen",
-        "Omdat ze verdwaald zijn",
+        "Omdat ze in het donker verdwaald zijn",
         "Omdat de mensen slapen"
        ],
        "correct": 0
@@ -2269,7 +2269,7 @@
        "choices": [
         "Om snoep in te doen",
         "Om licht te hebben in het donker",
-        "Om mee te voetballen"
+        "Om mee te voetballen op het plein na school"
        ],
        "correct": 1
       }
@@ -2455,7 +2455,7 @@
       "q": "Wat lezen ze bij de zaklamp?",
       "choices": [
        "nog een verhaal",
-       "een krant",
+       "een krant van papa",
        "een brief"
       ],
       "correct": 0,
@@ -2509,7 +2509,7 @@
       "q": "Wat mag Olivier proeven?",
       "choices": [
        "Een stukje kaas",
-       "Een appel",
+       "Een groene appel",
        "Een vis"
       ],
       "correct": 0
@@ -2518,7 +2518,7 @@
       "q": "Wat koopt papa als laatste?",
       "choices": [
        "Een bos bloemen",
-       "Een zak nootjes",
+       "Een zak gezouten nootjes",
        "Warme stroopwafels"
       ],
       "correct": 2
@@ -2528,7 +2528,7 @@
       "choices": [
        "Hij moet niezen",
        "Hij vindt de vislucht vies",
-       "Hij is verkouden"
+       "Hij is erg verkouden en snottert"
       ],
       "correct": 1
      }
@@ -2579,7 +2579,7 @@
       {
        "q": "Waarom roepen de verkopers zo hard?",
        "choices": [
-        "Ze zijn boos op Olivier",
+        "Ze zijn heel erg boos op Olivier en papa",
         "Ze willen dat mensen iets kopen",
         "Ze zijn hun kraam kwijt"
        ],
@@ -2630,7 +2630,7 @@
       "q": "Waarom piept Snuf de hele avond?",
       "choices": [
        "Hij wil wandelen in de regen",
-       "Hij heeft pijn aan zijn poot",
+       "Hij heeft pijn aan zijn voorpoot en zijn oor",
        "Hij voelt zich alleen in het nieuwe huis"
       ],
       "correct": 2
@@ -2764,7 +2764,7 @@
       "q": "Wat tekent Vera in de bus?",
       "choices": [
        "een aap",
-       "een giraf",
+       "een grote giraf",
        "een pinguïn"
       ],
       "correct": 2,
@@ -3299,7 +3299,7 @@
        "q": "Wat komt er straks waarschijnlijk in het nestje?",
        "choices": [
         "Eitjes en jonge vogeltjes",
-        "Appels uit de boom",
+        "Appels die uit de boom vallen",
         "De kat"
        ],
        "correct": 0
@@ -3370,7 +3370,7 @@
       "q": "Wat kent Senna nog niet?",
       "choices": [
        "veel Nederlandse woorden",
-       "haar eigen naam",
+       "haar eigen naam en adres",
        "de kleuren"
       ],
       "correct": 0,
@@ -3390,7 +3390,7 @@
       "q": "Wat doet Vincent als Senna de woorden nazegt?",
       "choices": [
        "lacht haar uit",
-       "loopt weg",
+       "loopt boos weg naar de juf",
        "steekt zijn duim op"
       ],
       "correct": 2,

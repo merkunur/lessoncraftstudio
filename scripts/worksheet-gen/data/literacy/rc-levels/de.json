@@ -23,7 +23,7 @@
     {
      "q": "Wie sind die Brötchen innen?",
      "choices": [
-      "hart",
+      "trocken",
       "weich",
       "kalt"
      ],
@@ -235,7 +235,7 @@
     {
      "q": "Was baut der Igel?",
      "choices": [
-      "eine Höhle",
+      "eine tiefe Höhle",
       "einen Turm",
       "ein warmes Nest"
      ],
@@ -249,7 +249,7 @@
       "q": "Warum legt Lena die Blätter vorsichtig hin?",
       "choices": [
        "Sie will den Igel nicht erschrecken.",
-       "Die Blätter sind sehr schwer.",
+       "Die Blätter sind nass und sehr schwer.",
        "Sie hat keine Lust."
       ],
       "correct": 0
@@ -363,7 +363,7 @@
      "choices": [
       "Ein Hund",
       "Eine Welle",
-      "Ein Boot"
+      "Ein Segelboot"
      ],
      "correct": 1,
      "sentence": 3
@@ -394,7 +394,7 @@
       "q": "Wie fühlen sich die Kinder wohl am Abend?",
       "choices": [
        "Sie wollen schnell nach Hause.",
-       "Sie streiten sich.",
+       "Sie streiten sich um die Schaufel.",
        "Sie sind zufrieden mit ihrer Burg."
       ],
       "correct": 2
@@ -442,7 +442,7 @@
     {
      "q": "Wer hilft Samira beim Suchen?",
      "choices": [
-      "Ihre Lehrerin",
+      "Ihre Lehrerin Frau Klein",
       "Der Hausmeister",
       "Ihr Freund Elias"
      ],
@@ -585,7 +585,7 @@
      {
       "q": "Warum gießt Anton die Beete jeden Abend?",
       "choices": [
-       "Er will Opa nass machen.",
+       "Er will Opa mit der Kanne nass machen.",
        "Es regnet jeden Abend.",
        "Die Pflanzen brauchen Wasser."
       ],
@@ -730,7 +730,7 @@
       {
        "q": "Warum legt Karla den Zahn unter ihr Kopfkissen?",
        "choices": [
-        "Das Kissen ist zu weich.",
+        "Sie will ihn dort vor ihrem Bruder verstecken.",
         "Sie will ihn wegwerfen.",
         "Sie hofft, dafür etwas zu bekommen."
        ],
@@ -741,7 +741,7 @@
        "choices": [
         "Weil er kalt ist.",
         "Damit er nicht verloren geht.",
-        "Weil Karla ihn essen will."
+        "Weil Karla ihn noch einmal essen will."
        ],
        "correct": 1
       }
@@ -872,7 +872,7 @@
       "q": "Wohin hängt Hugo das Futterhaus?",
       "choices": [
        "An den Apfelbaum",
-       "An die Tür",
+       "An die große Haustür",
        "An den Zaun"
       ],
       "correct": 0
@@ -889,7 +889,7 @@
      {
       "q": "Warum brauchen die Vögel Hugos Futter?",
       "choices": [
-       "Sie mögen keine Würmer.",
+       "Sie mögen keine Würmer und keine Käfer.",
        "Sie wollen Hugo sehen.",
        "Im harten Boden finden sie kaum Futter."
       ],
@@ -1135,7 +1135,7 @@
        "q": "Wozu braucht der Frosch seine lange Zunge?",
        "choices": [
         "Damit fängt er sein Futter.",
-        "Damit schwimmt er.",
+        "Damit schwimmt er schneller im Teich.",
         "Damit singt er."
        ],
        "correct": 0
@@ -1336,7 +1336,7 @@
        "q": "Wie behandelt Jule den Käfer?",
        "choices": [
         "Sie ist grob zu ihm.",
-        "Sie sperrt ihn ein.",
+        "Sie sperrt ihn in eine Dose.",
         "Sie ist sanft zu ihm."
        ],
        "correct": 2
@@ -1377,7 +1377,7 @@
       "q": "Wohin geht die Klasse 2b?",
       "choices": [
        "In die Stadtbücherei",
-       "Ins Museum",
+       "Ins große Stadtmuseum",
        "In den Park"
       ],
       "correct": 0
@@ -1394,7 +1394,7 @@
      {
       "q": "Was macht Aylin wohl am Abend?",
       "choices": [
-       "Sie schaut fern.",
+       "Sie schaut lange fern im Wohnzimmer.",
        "Sie spielt draußen.",
        "Sie liest in ihrem Buch."
       ],
@@ -1681,7 +1681,7 @@
       "choices": [
        "Ins Kino",
        "Ins Puppentheater",
-       "In den Zirkus"
+       "In den großen Zirkus"
       ],
       "correct": 1
      },
@@ -1689,7 +1689,7 @@
       "q": "Was will das Krokodil stehlen?",
       "choices": [
        "Die Wurst",
-       "Den Hut",
+       "Den roten Hut",
        "Das Brot"
       ],
       "correct": 0
@@ -1742,7 +1742,7 @@
        "q": "Warum ruft Leon laut?",
        "choices": [
         "Er will den Kasper warnen.",
-        "Er hat Hunger.",
+        "Er hat großen Hunger auf Wurst.",
         "Er will nach Hause."
        ],
        "correct": 0
@@ -1799,7 +1799,7 @@
       "q": "Warum kann man die Spuren gut sehen?",
       "choices": [
        "Es ist sehr dunkel.",
-       "Der Hund bellt.",
+       "Der Hund des Försters bellt.",
        "Der Boden ist weich."
       ],
       "correct": 2
@@ -1935,7 +1935,7 @@
       "q": "Was zeigt Opa Mats am Himmel?",
       "choices": [
        "Den Mond",
-       "Ein Flugzeug",
+       "Ein helles Flugzeug",
        "Den Großen Wagen"
       ],
       "correct": 2,
@@ -2051,7 +2051,7 @@
        "q": "Wie ist es auf dem Jahrmarkt?",
        "choices": [
         "Bunt und fröhlich",
-        "Leer und still",
+        "Leer und ganz still",
         "Dunkel und kalt"
        ],
        "correct": 0
@@ -2093,14 +2093,14 @@
       "choices": [
        "Bis zum Meer",
        "Bis zum See im Tal",
-       "Bis zu ihrem Haus"
+       "Bis zu ihrem Haus im Dorf"
       ],
       "correct": 1
      },
      {
       "q": "Was steht oben auf dem Gipfel?",
       "choices": [
-       "Eine Hütte",
+       "Eine kleine Holzhütte",
        "Ein großes Holzkreuz",
        "Ein Turm"
       ],
@@ -2110,7 +2110,7 @@
       "q": "Warum gibt Papa Pia ein Stück Schokolade?",
       "choices": [
        "Sie hat Geburtstag.",
-       "Sie hat den Gipfel schon erreicht.",
+       "Sie hat den Gipfel schon ganz allein erreicht.",
        "Sie ist erschöpft und braucht neue Kraft."
       ],
       "correct": 2
@@ -2122,7 +2122,7 @@
       "choices": [
        "Steil und steinig",
        "Nass und glatt",
-       "Breit und flach"
+       "Breit und ganz flach"
       ],
       "correct": 0,
       "sentence": 2
@@ -2132,7 +2132,7 @@
       "choices": [
        "Bis zum Meer",
        "Bis zum See im Tal",
-       "Bis zu ihrem Haus"
+       "Bis zu ihrem Haus im Dorf"
       ],
       "correct": 1,
       "sentence": 6
@@ -2211,7 +2211,7 @@
      {
       "q": "Warum gibt Mama der Schaffnerin Bescheid?",
       "choices": [
-       "Sie will auch mitfahren.",
+       "Sie will auch mit dem Zug zu Oma mitfahren.",
        "Sie fragt nach dem Wetter.",
        "Die Schaffnerin soll auf Vincent aufpassen."
       ],
@@ -2432,7 +2432,7 @@
       "choices": [
        "In der großen Pause",
        "Im Sportunterricht",
-       "Am Morgen zu Hause"
+       "Am Morgen beim Frühstück"
       ],
       "correct": 0,
       "sentence": 1
@@ -2535,7 +2535,7 @@
       "q": "Was legt Merle in den Napf?",
       "choices": [
        "Körner",
-       "Salat",
+       "Möhren",
        "Nüsse"
       ],
       "correct": 0,
@@ -2785,7 +2785,7 @@
        "choices": [
         "Sie ist froh über den neuen Freund.",
         "Sie ist traurig.",
-        "Sie will nach Hause."
+        "Sie will sofort nach Hause nach Italien."
        ],
        "correct": 0
       }
@@ -2932,7 +2932,7 @@
       "q": "Was sammeln Theo und Mama auf dem Heimweg?",
       "choices": [
        "Kastanien und bunte Blätter",
-       "Steine und Muscheln",
+       "Steine und weiße Muscheln vom Bach",
        "Pilze und Beeren"
       ],
       "correct": 0
@@ -2963,7 +2963,7 @@
       "choices": [
        "Aus Papier",
        "Aus bunten Schleifen",
-       "Aus Federn"
+       "Aus langen weißen Federn"
       ],
       "correct": 1,
       "sentence": 3
@@ -3044,7 +3044,7 @@
      {
       "q": "Warum geht Tills Licht aus?",
       "choices": [
-       "Till hat es ausgepustet.",
+       "Till hat es aus Versehen ausgepustet.",
        "Die Laterne ist kaputt.",
        "Der Wind hat es ausgeblasen."
       ],
@@ -3075,7 +3075,7 @@
      {
       "q": "Was bekommt jedes Kind zum Schluss?",
       "choices": [
-       "Eine Brezel",
+       "Eine große Laugenbrezel",
        "Einen Apfel",
        "Einen süßen Weckmann"
       ],
@@ -3149,7 +3149,7 @@
       "q": "Warum zittert Riekes Unterlippe?",
       "choices": [
        "Ihr ist kalt.",
-       "Sie hat Angst vor einem Hund.",
+       "Sie hat Angst vor dem großen Hund vom Nachbarn.",
        "Sie ist traurig, weil sie nichts findet."
       ],
       "correct": 2
@@ -3265,7 +3265,7 @@
       "choices": [
        "Den ganzen Morgen",
        "Nur kurz",
-       "Die ganze Woche"
+       "Die ganze lange Woche"
       ],
       "correct": 0,
       "sentence": 1
@@ -3273,7 +3273,7 @@
      {
       "q": "Wohin springt Nora draußen?",
       "choices": [
-       "In den Sand",
+       "In den Sandkasten",
        "In jede Pfütze",
        "Über den Zaun"
       ],
@@ -3296,7 +3296,7 @@
       {
        "q": "Warum holt Mama die Gummistiefel?",
        "choices": [
-        "Sie will die Stiefel putzen.",
+        "Sie will die schmutzigen Stiefel im Keller putzen.",
         "Sie will mit Nora draußen im Regen spielen.",
         "Sie will die Stiefel verschenken."
        ],
@@ -3306,7 +3306,7 @@
        "q": "Warum sind die Socken nass?",
        "choices": [
         "Nora ist in viele Pfützen gesprungen.",
-        "Nora hat gebadet.",
+        "Sie hat beim Spielen die Gießkanne umgekippt.",
         "Mama hat sie gewaschen."
        ],
        "correct": 0
@@ -3369,7 +3369,7 @@
       "choices": [
        "Einen kleinen Korb",
        "Eine Tüte",
-       "Einen Eimer"
+       "Einen großen Eimer"
       ],
       "correct": 0,
       "sentence": 2
@@ -3388,7 +3388,7 @@
       "q": "Was kochen die beiden zu Hause?",
       "choices": [
        "Suppe",
-       "Pudding",
+       "Schokopudding",
        "Marmelade"
       ],
       "correct": 2,
@@ -3402,7 +3402,7 @@
        "choices": [
         "Ronja hat heimlich Erdbeeren genascht.",
         "Ronja hat Bauchweh.",
-        "Ronja soll schneller pflücken."
+        "Ronja soll viel schneller und mehr pflücken."
        ],
        "correct": 0
       },

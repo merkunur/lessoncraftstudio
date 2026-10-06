@@ -23,7 +23,7 @@
     {
      "q": "What does Emma use to water the plants?",
      "choices": [
-      "a big hose",
+      "a long yellow garden hose",
       "a red bucket",
       "her little green can"
      ],
@@ -34,7 +34,7 @@
      "q": "When does Emma check the garden now?",
      "choices": [
       "every morning",
-      "at lunchtime",
+      "every afternoon",
       "at night"
      ],
      "correct": 0,
@@ -191,7 +191,7 @@
       "q": "What kind of girl is Mia?",
       "choices": [
        "helpful",
-       "mean",
+       "selfish",
        "lazy"
       ],
       "correct": 0
@@ -248,7 +248,7 @@
      {
       "q": "How does Mia most likely feel when her kite flies high?",
       "choices": [
-       "sad",
+       "sad and worried",
        "happy and proud",
        "angry"
       ],
@@ -384,7 +384,7 @@
      {
       "q": "How does Nora feel about her plants?",
       "choices": [
-       "sad that they are small",
+       "sad that they are still small",
        "glad that they are growing",
        "bored with them"
       ],
@@ -394,7 +394,7 @@
       "q": "What do we learn about Nora?",
       "choices": [
        "She takes good care of her plants.",
-       "She forgets to water her seeds.",
+       "She often forgets to water her seeds.",
        "She does not like tomatoes."
       ],
       "correct": 0
@@ -429,7 +429,7 @@
     {
      "q": "What does the teacher open?",
      "choices": [
-      "the window",
+      "the big classroom window",
       "the front door",
       "the big game cupboard"
      ],
@@ -440,7 +440,7 @@
      "q": "What do two girls paint?",
      "choices": [
       "pictures of the rain",
-      "pictures of the sun",
+      "pictures of the sunshine",
       "pictures of cats"
      ],
      "correct": 0,
@@ -486,7 +486,7 @@
     {
      "q": "How old is Grandpa turning?",
      "choices": [
-      "sixty",
+      "sixty-five",
       "eighty",
       "seventy"
      ],
@@ -497,7 +497,7 @@
      "q": "What does Ella play the song on?",
      "choices": [
       "her recorder",
-      "her piano",
+      "her big piano",
       "her drum"
      ],
      "correct": 0,
@@ -506,7 +506,7 @@
     {
      "q": "What does Ella take before she plays?",
      "choices": [
-      "a cookie",
+      "a big chocolate cookie",
       "a deep breath",
       "a bow"
      ],
@@ -601,7 +601,7 @@
       "choices": [
        "into a big bowl",
        "into a cup",
-       "into a pan"
+       "into a frying pan"
       ],
       "correct": 0,
       "sentence": 2
@@ -609,7 +609,7 @@
      {
       "q": "What color are the next pancakes?",
       "choices": [
-       "black",
+       "dark brown",
        "white",
        "golden"
       ],
@@ -623,7 +623,7 @@
        "q": "What does the story tell us about Leo?",
        "choices": [
         "He likes to help in the kitchen.",
-        "He cannot crack eggs.",
+        "He cannot crack eggs without help.",
         "He does not like his mom."
        ],
        "correct": 0
@@ -633,7 +633,7 @@
        "choices": [
         "go to school",
         "eat the golden pancakes",
-        "wash the car"
+        "wash the car in the driveway"
        ],
        "correct": 1
       }
@@ -670,7 +670,7 @@
       "q": "Where does Hana read two pages?",
       "choices": [
        "in bed",
-       "at school",
+       "in the library",
        "on the bus"
       ],
       "correct": 2
@@ -678,7 +678,7 @@
      {
       "q": "How does Hana feel about her new book?",
       "choices": [
-       "bored",
+       "worried",
        "excited",
        "sad"
       ],
@@ -913,7 +913,7 @@
       "q": "What does Ava do after the wave?",
       "choices": [
        "Ava laughs",
-       "Ava cries",
+       "Ava shouts",
        "Ava runs"
       ],
       "correct": 0,
@@ -1004,7 +1004,7 @@
       "q": "How many balls of snow does she roll?",
       "choices": [
        "two",
-       "four",
+       "seven",
        "three"
       ],
       "correct": 2,
@@ -1064,7 +1064,7 @@
      {
       "q": "What is the boat made of?",
       "choices": [
-       "wood",
+       "a piece of wood",
        "white paper",
        "plastic"
       ],
@@ -1083,7 +1083,7 @@
       "q": "What does Kai paint on the side of the boat?",
       "choices": [
        "a green stripe",
-       "a red star",
+       "a big red star",
        "a blue dot"
       ],
       "correct": 0
@@ -1095,7 +1095,7 @@
       "choices": [
        "red",
        "green",
-       "blue"
+       "purple"
       ],
       "correct": 1,
       "sentence": 2
@@ -1328,7 +1328,7 @@
       {
        "q": "What does Isla like to do?",
        "choices": [
-        "climb the tree",
+        "climb the apple tree",
         "watch the birds",
         "eat the seeds"
        ],
@@ -1338,7 +1338,7 @@
        "q": "How do we know the birds like the feeder?",
        "choices": [
         "More and more birds come.",
-        "The birds fly away.",
+        "The birds fly away from it.",
         "The feeder breaks."
        ],
        "correct": 0
@@ -1511,7 +1511,7 @@
       "q": "Where do they hear a noise?",
       "choices": [
        "behind the tent",
-       "on the roof",
+       "on the roof of the house",
        "in the house"
       ],
       "correct": 0,
@@ -1520,7 +1520,7 @@
      {
       "q": "What does Jonah shine?",
       "choices": [
-       "a lamp",
+       "a camping lantern",
        "a candle",
        "the flashlight"
       ],
@@ -1635,7 +1635,7 @@
        "q": "Why does the tooth come out at lunch?",
        "choices": [
         "The apple is hard and crunchy.",
-        "Lucy falls down.",
+        "Lucy falls down on the playground.",
         "Her teacher pulls it."
        ],
        "correct": 0
@@ -1815,7 +1815,7 @@
       "q": "What do they add to the lemons?",
       "choices": [
        "sugar and cold water",
-       "milk and ice",
+       "milk and lots of ice",
        "salt and honey"
       ],
       "correct": 0,
@@ -1879,7 +1879,7 @@
      {
       "q": "Where do Owen and his sister plant the seeds?",
       "choices": [
-       "by the garage",
+       "by the garage door",
        "by the back fence",
        "in a pot"
       ],
@@ -1908,7 +1908,7 @@
      {
       "q": "How does Owen push each seed into the soil?",
       "choices": [
-       "with a spoon",
+       "with a garden spoon",
        "with a stick",
        "with his thumb"
       ],
@@ -1920,7 +1920,7 @@
       "choices": [
        "a long stick",
        "a ruler",
-       "a rope"
+       "a measuring tape"
       ],
       "correct": 0,
       "sentence": 3
@@ -1943,7 +1943,7 @@
        "choices": [
         "the plants grow very tall",
         "the stick is pretty",
-        "Dad lost the ruler"
+        "Dad lost the ruler in the garden"
        ],
        "correct": 0
       },
@@ -1993,7 +1993,7 @@
       "choices": [
        "every day after school",
        "every morning",
-       "only on Sunday"
+       "only on Sunday mornings"
       ],
       "correct": 0
      },
@@ -2085,14 +2085,14 @@
       "choices": [
        "a wet paper towel",
        "some sand",
-       "a cup of milk"
+       "a cup of warm milk"
       ],
       "correct": 0
      },
      {
       "q": "What comes out of the bean first?",
       "choices": [
-       "a flower",
+       "a yellow flower",
        "a leaf",
        "a white root"
       ],
@@ -2223,7 +2223,7 @@
      {
       "q": "What hangs from a twig?",
       "choices": [
-       "a nest",
+       "a bird's nest",
        "a brown case",
        "a red apple"
       ],
@@ -2287,7 +2287,7 @@
       "q": "What is the goldfish's name?",
       "choices": [
        "Bubbles",
-       "Goldie",
+       "Sparkle",
        "Finn"
       ],
       "correct": 0
@@ -2296,7 +2296,7 @@
       "q": "Who taps on the tank?",
       "choices": [
        "Wes",
-       "his teacher",
+       "his teacher at school",
        "his little brother"
       ],
       "correct": 2
@@ -2400,7 +2400,7 @@
       "q": "What does Noah touch?",
       "choices": [
        "a starfish",
-       "a turtle",
+       "a sea turtle",
        "a fish"
       ],
       "correct": 0
@@ -2419,7 +2419,7 @@
      {
       "q": "What color are the fish in the big tank?",
       "choices": [
-       "gold",
+       "golden",
        "silver",
        "blue"
       ],
@@ -2493,7 +2493,7 @@
      {
       "q": "What does Mateo wear on his feet?",
       "choices": [
-       "sneakers",
+       "new red sneakers",
        "fuzzy slippers",
        "boots"
       ],
@@ -2566,7 +2566,7 @@
        "choices": [
         "still upset",
         "better, and a bit silly",
-        "angry at his teacher"
+        "angry at his teacher and Tia"
        ],
        "correct": 1
       }
@@ -2595,7 +2595,7 @@
      {
       "q": "Who waves at Theo at the door?",
       "choices": [
-       "his teacher",
+       "his new teacher Mr. Lee",
        "a girl named Ruby",
        "his mom"
       ],
@@ -2614,7 +2614,7 @@
       "q": "How does Theo feel at the start of the day?",
       "choices": [
        "nervous",
-       "silly",
+       "very sleepy",
        "angry"
       ],
       "correct": 0
@@ -2698,7 +2698,7 @@
       "q": "What does Uma bring?",
       "choices": [
        "a pink shell",
-       "a toy boat",
+       "a little toy boat",
        "a rock"
       ],
       "correct": 0
@@ -2761,7 +2761,7 @@
        "choices": [
         "the sound from the shell is quiet",
         "she is going to sing",
-        "the room is too loud"
+        "she wants everyone in the class to stand up"
        ],
        "correct": 0
       },
@@ -2862,7 +2862,7 @@
        "q": "How does Victor feel when his hair keeps popping up?",
        "choices": [
         "worried about his picture",
-        "proud of his hair",
+        "proud of his tall, messy hair",
         "sleepy"
        ],
        "correct": 0
@@ -2870,7 +2870,7 @@
       {
        "q": "Why does Victor want his hair to be flat?",
        "choices": [
-        "he is going swimming",
+        "he is going swimming after school today",
         "his hat is too small",
         "he wants to look nice in his photo"
        ],
@@ -2905,7 +2905,7 @@
       "choices": [
        "pancakes",
        "toast with jam",
-       "eggs"
+       "scrambled eggs"
       ],
       "correct": 1
      },
@@ -2922,7 +2922,7 @@
       "q": "Why does Oscar tiptoe?",
       "choices": [
        "so he will not wake anyone",
-       "because his feet hurt",
+       "because his feet hurt very much",
        "because the floor is wet"
       ],
       "correct": 0
@@ -3008,7 +3008,7 @@
       "choices": [
        "a lemon cake",
        "a chocolate cake",
-       "a carrot cake"
+       "a strawberry cake"
       ],
       "correct": 1
      },
@@ -3047,7 +3047,7 @@
       "choices": [
        "on the table",
        "on Nina's nose",
-       "in the sink"
+       "in the kitchen sink"
       ],
       "correct": 1,
       "sentence": 4
@@ -3313,7 +3313,7 @@
      {
       "q": "How long was Dad away?",
       "choices": [
-       "one day",
+       "three days",
        "two weeks",
        "a month"
       ],
@@ -3353,7 +3353,7 @@
       "q": "Where does everyone hide?",
       "choices": [
        "behind the couch",
-       "under the table",
+       "under the kitchen table",
        "in the closet"
       ],
       "correct": 0,

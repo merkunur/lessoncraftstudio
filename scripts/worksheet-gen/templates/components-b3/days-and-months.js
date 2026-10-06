@@ -122,7 +122,7 @@ function rankBox({ n, d = 60 }) {
     `data-lcs-given="${esc(String(n))}">${esc(String(n))}</span>`;
 }
 
-function orderRows({ items, cols = 1, tileW = 440, boxPx = 60, namePx = 26, given = [], unit = 'days', weekStart = 0, strip = false, rowMax }) {
+function orderRows({ items, cols = 1, tileW = 440, boxPx = 60, namePx = 26, given = [], unit = 'days', weekStart = 0, strip = false, rowMax, anchor }) {
   const rowCap = rowMax || boxPx + 40;
   const n = items.length;
   const perCol = Math.ceil(n / cols);
@@ -140,7 +140,7 @@ function orderRows({ items, cols = 1, tileW = 440, boxPx = 60, namePx = 26, give
     `justify-content:center;align-content:center;align-items:center;flex:1 1 auto;min-height:0`;
   const stripHtml = strip ? `<div style="flex:0 0 auto;margin-bottom:14px">${numberStrip({ values: Array.from({ length: n }, (_, k) => k + 1), chip: 40 })}</div>` : '';
   return `<div class="ws-orderrows" data-ws-content data-lcs-order data-lcs-unit="${esc(unit)}" data-lcs-weekstart="${weekStart}" ` +
-    `data-lcs-n="${n}" data-lcs-cols="${cols}" data-lcs-given="${esc(given.join(','))}" ` +
+    `data-lcs-n="${n}" data-lcs-cols="${cols}" data-lcs-given="${esc(given.join(','))}" ` + (anchor ? `data-lcs-anchor="${esc(anchor)}" ` : '') +
     `style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0">` +
     stripHtml + `<div class="ws-ordergrid" style="${gridStyle}">${rows}</div></div>`;
 }
@@ -234,4 +234,19 @@ function abbrevPairs({ left, right, itemH = 78, leftW = 140, rightW = 300, abbrP
   return `<div class="ws-match-col" style="min-height:0" data-lcs-col="abbr">${l}</div><div class="ws-match-col" style="min-height:0" data-lcs-col="names">${r}</div>`;
 }
 
-module.exports = { nameTile, rankBox, orderRows, nameBank, railFlag, nameLadder, neighbourHeads, neighbourRow, abbrevPairs };
+/**
+ * nameStrip({ names, px = 18, h = 32 })   (Level Set 2026-10-06, the easier neighbour level)
+ * The cycle printed IN ORDER as a reference row of small pills (the week from its first day / January..December),
+ * linked by thin coral arrows, so a child can look up the day or month before and after. Stamps data-lcs-strip-names
+ * on the row and data-lcs-strip-name="<idx>" on each pill. Wraps to at most two rows (12 months).
+ */
+function nameStrip({ names, px = 18, h = 32 }) {
+  const arrow = `<span aria-hidden="true" style="color:${T.coral};font-weight:700;font-size:${px}px;line-height:${h}px;margin-left:6px">›</span>`;
+  // each pill carries its own arrow (never an arrow alone at the start of the second line)
+  const pills = names.map((n, i) => `<span style="display:inline-flex;align-items:center;white-space:nowrap"><span class="ws-stripname" style="display:inline-flex;align-items:center;height:${h}px;padding:0 10px;box-sizing:border-box;` +
+    `background:${T.cream};border:2px solid ${T.creamDeep};border-radius:${h / 2}px;font-family:${F.display},cursive;font-weight:700;font-size:${px}px;line-height:${h - 4}px;color:${T.ink};white-space:nowrap" ` +
+    `data-lcs-strip-name="${esc(String(n.day))}">${esc(n.text)}</span>${i < names.length - 1 ? arrow : ''}</span>`).join('');
+  return `<div class="ws-namestrip" style="display:flex;flex-wrap:wrap;gap:4px 6px;justify-content:center;align-items:center;padding:4px 0 8px" data-lcs-strip-names>${pills}</div>`;
+}
+
+module.exports = { nameTile, rankBox, orderRows, nameBank, railFlag, nameLadder, neighbourHeads, neighbourRow, abbrevPairs, nameStrip };

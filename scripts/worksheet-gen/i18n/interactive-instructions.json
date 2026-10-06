@@ -1530,5 +1530,59 @@
    "no": "Les prisene på hylla, regn ut hver oppgave, og trykk så på riktig svar.",
    "fi": "Lue hinnat hyllystä, laske jokainen tehtävä ja napauta sitten oikeaa vastausta."
   }
+ },
+ "days-and-months": {
+  "order": {
+   "en": "Tap the names in the order they come. Each one you tap gets the next number.",
+   "de": "Tippe die Namen in der Reihenfolge an, wie sie kommen. Jeder angetippte Name bekommt die nächste Zahl.",
+   "es": "Toca los nombres en el orden en que van. Cada uno que toques lleva el número siguiente.",
+   "fr": "Touche les noms dans l'ordre. Chaque nom que tu touches reçoit le numéro suivant.",
+   "it": "Tocca i nomi nell'ordine in cui vengono. Ogni nome che tocchi prende il numero successivo.",
+   "pt": "Toque nos nomes na ordem em que eles vêm. Cada nome que você tocar ganha o número seguinte.",
+   "nl": "Tik de namen aan in de volgorde waarin ze komen. Elke naam die je aantikt, krijgt het volgende nummer.",
+   "sv": "Tryck på namnen i den ordning de kommer. Varje namn du trycker på får nästa nummer.",
+   "da": "Tryk på navnene i den rækkefølge, de kommer. Hvert navn, du trykker på, får det næste tal.",
+   "no": "Trykk på navnene i den rekkefølgen de kommer. Hvert navn du trykker på, får det neste tallet.",
+   "fi": "Napauta nimiä siinä järjestyksessä, jossa ne tulevat. Jokainen napauttamasi nimi saa seuraavan numeron."
+  },
+  "gaps": {
+   "en": "Tap the missing day for each empty place in the week.",
+   "de": "Tippe für jede Lücke in der Woche den fehlenden Tag an.",
+   "es": "Toca el día que falta en cada hueco de la semana.",
+   "fr": "Pour chaque case vide de la semaine, touche le jour qui manque.",
+   "it": "Tocca il giorno che manca in ogni spazio vuoto della settimana.",
+   "pt": "Toque no dia que falta em cada espaço vazio da semana.",
+   "nl": "Tik voor elk leeg vak in de week de dag aan die ontbreekt.",
+   "sv": "Tryck på dagen som fattas i varje tom ruta i veckan.",
+   "da": "Tryk på den dag, der mangler, i hvert tomt felt i ugen.",
+   "no": "Trykk på dagen som mangler, i hver tomme rute i uka.",
+   "fi": "Napauta jokaiseen viikon tyhjään kohtaan puuttuva päivä."
+  },
+  "neighbours": {
+   "en": "Look at each row and tap the name that goes where the question mark is.",
+   "de": "Schau dir jede Reihe an und tippe den Namen an, der an die Stelle mit dem Fragezeichen gehört.",
+   "es": "Mira cada fila y toca el nombre que va donde está el signo de interrogación.",
+   "fr": "Regarde chaque ligne et touche le nom qui va à la place du point d'interrogation.",
+   "it": "Guarda ogni riga e tocca il nome che va al posto del punto interrogativo.",
+   "pt": "Olhe cada linha e toque no nome que vai no lugar do ponto de interrogação.",
+   "nl": "Kijk naar elke rij en tik de naam aan die op de plek van het vraagteken hoort.",
+   "sv": "Titta på varje rad och tryck på namnet som ska stå där frågetecknet är.",
+   "da": "Se på hver række, og tryk på det navn, der skal stå, hvor spørgsmålstegnet er.",
+   "no": "Se på hver rad og trykk på navnet som skal stå der spørsmålstegnet er.",
+   "fi": "Katso jokaista riviä ja napauta nimeä, joka kuuluu kysymysmerkin paikalle."
+  },
+  "abbrev": {
+   "en": "Tap the full name each short form stands for.",
+   "de": "Tippe den vollen Namen an, für den jede Abkürzung steht.",
+   "es": "Toca el nombre completo que representa cada abreviatura.",
+   "fr": "Touche le nom entier que désigne chaque abréviation.",
+   "it": "Tocca il nome intero che ogni abbreviazione indica.",
+   "pt": "Toque no nome completo que cada abreviatura representa.",
+   "nl": "Tik de hele naam aan waar elke afkorting voor staat.",
+   "sv": "Tryck på hela namnet som varje förkortning står för.",
+   "da": "Tryk på det hele navn, som hver forkortelse står for.",
+   "no": "Trykk på hele navnet som hver forkortelse står for.",
+   "fi": "Napauta koko nimeä, jota kukin lyhenne tarkoittaa."
+  }
  }
 }

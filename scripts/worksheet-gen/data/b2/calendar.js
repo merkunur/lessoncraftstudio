@@ -106,11 +106,28 @@ const FRAMES = {
 let GENERATED = {};
 try { GENERATED = require('./calendar-frames.js').CALENDAR_FRAMES || {}; } catch (e) { GENERATED = {}; }
 
+// monthAbbr — the 12 short month forms a school calendar prints (no full stop; same order as monthNames).
+// Level Set 2026-10-06 (Days and Months: Abbreviations, harder level). Read ONLY by K-321's abbrev face for months;
+// a short form is the month's own letters in order (nl "mrt" ⊂ "maart"), checked by K-321.
+const MONTH_ABBR = {
+  en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  de: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+  fr: ['janv', 'févr', 'mars', 'avr', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'déc'],
+  es: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+  pt: ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'],
+  it: ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'],
+  nl: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+  sv: ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+  da: ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+  no: ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des'],
+  fi: ['tammi', 'helmi', 'maalis', 'huhti', 'touko', 'kesä', 'heinä', 'elo', 'syys', 'loka', 'marras', 'joulu'],
+};
+
 const CALENDAR = {};
 for (const [loc, n] of Object.entries(NAMES)) {
   const g = GENERATED[loc] || {};
   const { frames: gFrames, ...overrides } = g;
-  CALENDAR[loc] = { ...n, ...overrides, frames: gFrames || FRAMES[loc] || null };
+  CALENDAR[loc] = { ...n, ...overrides, frames: gFrames || FRAMES[loc] || null, monthAbbr: MONTH_ABBR[loc] || null };
 }
 
 module.exports = { CALENDAR, NAMES, FRAMES, ordinal };

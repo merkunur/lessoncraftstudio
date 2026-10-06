@@ -77,7 +77,7 @@
 'use strict';
 const { bank: loadBank } = require('../../lib/b3-common.js');
 const { CALENDAR } = require('../../data/b2/calendar.js');
-const { orderRows, nameBank, nameLadder, neighbourHeads, neighbourRow, abbrevPairs } = require('../../templates/components-b3.js');
+const { orderRows, nameBank, nameLadder, neighbourHeads, neighbourRow, abbrevPairs, nameStrip } = require('../../templates/components-b3.js');
 const tokens = require('../../primitives/_tokens.js');
 
 const BANK = 'days-and-months';
@@ -105,6 +105,18 @@ function calendarOf(loc) {
   return cal;
 }
 
+/**
+ * A school short form of a month name: the same first letter, every letter taken from the name in order (a prefix,
+ * or nl "mrt" from "maart"), never longer than the name. Level Set 2026-10-06 (months abbreviations).
+ */
+function isShortForm(a, name, loc) {
+  const s = String(a).toLocaleLowerCase(loc), n = String(name).toLocaleLowerCase(loc);
+  if (!s || s.length > n.length || s[0] !== n[0]) return false;
+  let j = 0;
+  for (const ch of n) if (ch === s[j]) j++;
+  return j === s.length;
+}
+
 /** Shuffle rules (a)-(c) over a reading-order sequence of cycle indices. */
 function shuffleRules(seq, start, N) {
   const f = [];
@@ -124,10 +136,31 @@ module.exports = {
   assetClass: 'geometry',
   exerciseType: 'days-and-months',
   themeAxis: { applicable: false },
+  // Level Set 2026-10-06: level 1 = three ranks printed (rank 1 + two more, a different pair per copy) + the number
+  // strip; level 2 = the published page; level 3 = ONE middle day printed (2..6), the child counts on AND back
+  // (own printed instruction). The old level 3 only moved the rows into two columns (layout, not difficulty).
   difficulty: {
-    1: { unit: 'days', n: 7, cols: 1, given: [1, 4, 7], strip: true, tileW: 440, namePx: 28, boxPx: 60 },
+    1: { unit: 'days', n: 7, cols: 1, given: [1, 4, 7], givenSets: [[1, 4, 7], [1, 3, 6], [1, 2, 5], [1, 5, 7], [1, 3, 5], [1, 4, 6]], strip: true, tileW: 440, namePx: 28, boxPx: 60 },
     2: { unit: 'days', n: 7, cols: 1, given: [1], strip: false, tileW: 440, namePx: 26, boxPx: 60 },
-    3: { unit: 'days', n: 7, cols: 2, given: [1], strip: false, tileW: 250, namePx: 26, boxPx: 60, rowMax: 120 },
+    3: { unit: 'days', n: 7, cols: 1, given: [1], anchor: 'middle', strip: false, tileW: 440, namePx: 26, boxPx: 60 },
+  },
+  // the screen version + answer key of every NEW page (lib/days-and-months-screen.js); each face sets its own
+  interactive: require('../../lib/days-and-months-screen.js').interactiveFor('order'),
+  /** Level Set copies: what a page asks (build-waves compares copies by these; ≤ half shared within a level). */
+  levelSetWords(m) {
+    if (m.layout === 'gaps') return m.answers.map((d) => 'gap' + d);
+    if (m.layout === 'neighbours') return [...m.todays.map((t) => 't' + t), ...m.inverse.map((i) => 'inv' + m.todays[i])];
+    if (m.layout === 'abbrev') {
+      if (m.unit === 'months') return m.rights.flat().map((x, i) => 'r' + i + ':' + x);
+      if (m.subset) return m.left.map((d) => 'd' + d);
+      return m.right.map((x, i) => 'r' + i + ':' + x);
+    }
+    // the base numbering page: a middle anchor (two tokens so an identical anchor counts as a repeat), the printed
+    // extra ranks, else the shuffle itself (a published-shape page differs only by its order)
+    if (m.given.length === 1 && m.given[0] !== 1) return ['a' + m.given[0], 'b' + m.given[0]];
+    const extra = m.given.filter((r) => r !== 1);
+    if (extra.length) return extra.map((r) => 'g' + r);
+    return m.order.map((d, i) => 'p' + i + ':' + d);
   },
   i18n: {
     en: {
@@ -138,6 +171,12 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
+    // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/days-and-months-screen.js').screenOrKey(built, ctx, loc);
+    }
     return this._buildWith(loadBank(BANK, loc), { theme, difficulty, locale: loc }, ctx);
   },
 
@@ -160,8 +199,14 @@ module.exports = {
     const { names, start, N } = cycleOf(cal, d.unit);
     if (d.n !== N) throw new Error(`K-321: n ${d.n} ≠ the ${d.unit} cycle length ${N}`);
     if (![1, 2, 3].includes(d.cols)) throw new Error(`K-321: cols ${d.cols} outside 1..3`);
-    const given = Array.from(new Set(d.given || []));
-    if (!given.includes(1)) throw new Error('K-321: rank 1 (the anchor) must be given');
+    let given = Array.from(new Set(d.given || []));
+    // Level Set 2026-10-06 (new pages only — no published config sets these): `givenSets` = the easier level's copies
+    // print a different set of ranks (always incl. 1); `anchor:'middle'` = the harder level prints ONE rank other than
+    // 1 (2..N-1) and the child counts on and back from it (its own printed instruction, i18n/level-instructions.json)
+    if (d.givenSets) given = [...rng.pick(d.givenSets)];
+    if (d.anchor === 'middle') given = [rng.int(2, N - 1)];
+    if (d.anchor !== 'middle' && !given.includes(1)) throw new Error('K-321: rank 1 (the anchor) must be given');
+    if (d.anchor === 'middle' && (given.length !== 1 || given[0] < 2 || given[0] > N - 1)) throw new Error('K-321: a middle anchor is one rank in 2..' + (N - 1));
     if (given.some((g) => !(g >= 1 && g <= N))) throw new Error(`K-321: a given rank is outside 1..${N}`);
     const writes = N - given.length;
     const band = tokens.density[this.gradeBand] || tokens.density.K;
@@ -195,9 +240,10 @@ module.exports = {
     });
     const bodyHtml = orderRows({
       items, cols: d.cols, tileW: d.tileW, boxPx: d.boxPx, namePx: d.namePx,
-      given, unit: d.unit, weekStart: start, strip: !!d.strip, rowMax: d.rowMax,
+      given, unit: d.unit, weekStart: start, strip: !!d.strip, rowMax: d.rowMax, ...(d.anchor === 'middle' ? { anchor: 'middle' } : {}),
     });
-    return { bodyHtml, meta: { unit: d.unit, order: seq, given, answers: items.filter((i) => i.answer).map((i) => i.answer), cols: d.cols } };
+    return { bodyHtml, meta: { unit: d.unit, order: seq, given, answers: items.filter((i) => i.answer).map((i) => i.answer), cols: d.cols },
+      _ans: { layout: 'order', unit: d.unit, start, N, items } };
   },
 
   /* ------------------------------------------------------------ Phase 2 faces */
@@ -261,7 +307,8 @@ module.exports = {
       `data-lcs-gaps="${gaps}" data-lcs-adjacent="${d.adjacentGaps ? 1 : 0}" style="display:flex;flex-direction:column;gap:16px;flex:1 1 auto;min-height:0;padding-bottom:6px">` +
       nameBank({ names: order.map((day) => ({ day, text: texts[day] })), px: d.bankPx || 20 }) +
       nameLadder({ rungs, namePx: d.namePx, glyphH, rungMin, rungMax }) + '</div>';
-    return { bodyHtml, meta: { layout: 'gaps', gaps: [...gapSet].sort((a, b) => a - b), bank: order, answers: rungs.filter((r) => r.gap).map((r) => r.day) } };
+    return { bodyHtml, meta: { layout: 'gaps', gaps: [...gapSet].sort((a, b) => a - b), bank: order, answers: rungs.filter((r) => r.gap).map((r) => r.day) },
+      _ans: { layout: 'gaps', unit: 'days', start, N, rungs, texts } };
   },
 
   /** F2 — Yesterday, Today, Tomorrow (days) / F4 — The Month Before and After (months, heads:'beforeAfter'). G1. */
@@ -303,18 +350,26 @@ module.exports = {
     const rowsHtml = todays.map((t, i) => neighbourRow({
       left: at((t - 1 + N) % N), today: at(t), right: at((t + 1) % N), namePx, glyphH, inverse: invRows.has(i),
     })).join('');
+    // Level Set 2026-10-06 (easier level only): `strip` prints the whole cycle in order above the heads
+    const stripHtml = d.strip ? nameStrip({ names: Array.from({ length: N }, (_, k) => { const i = (start + k) % N; return { day: i, text: texts[i] }; }), px: N > 7 ? 16 : 18 }) : '';
     const bodyHtml = `<div class="ws-neighbours" data-ws-content data-lcs-layout="neighbours" data-lcs-unit="${d.unit}" data-lcs-weekstart="${start}" data-lcs-n="${N}" ` +
       `data-lcs-rows="${rows}" data-lcs-wrap="${d.wrap ? 1 : 0}" data-lcs-inverse="${inverse}" data-lcs-heads="${d.heads === 'beforeAfter' ? 'beforeAfter' : 'ytt'}" ` +
-      `style="display:grid;grid-template-rows:30px repeat(${rows},minmax(92px,110px));row-gap:8px;align-content:center;flex:1 1 auto;min-height:0;padding-bottom:6px">` +
-      neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right }) + rowsHtml + '</div>';
-    return { bodyHtml, meta: { layout: 'neighbours', unit: d.unit, todays, inverse: [...invRows], answers: todays.map((t) => [(t - 1 + N) % N, (t + 1) % N]) } };
+      // a strip page (the easier level, fewer rows) starts at the top with taller rows; the published grid is unchanged
+      `style="display:grid;grid-template-rows:${d.strip ? 'auto 30px repeat(' + rows + ',minmax(104px,124px))' : '30px repeat(' + rows + ',minmax(92px,110px))'};row-gap:${d.strip ? 14 : 8}px;align-content:${d.strip ? 'start' : 'center'};flex:1 1 auto;min-height:0;padding-bottom:6px">` +
+      stripHtml + neighbourHeads({ left: heads.left, mid: heads.mid, right: heads.right }) + rowsHtml + '</div>';
+    return { bodyHtml, meta: { layout: 'neighbours', unit: d.unit, todays, inverse: [...invRows], answers: todays.map((t) => [(t - 1 + N) % N, (t + 1) % N]) },
+      _ans: { layout: 'neighbours', unit: d.unit, start, N, texts, heads, rows: todays.map((t, i) => ({ t, inverse: invRows.has(i) })), strip: !!d.strip } };
   },
 
   /** F5 — Days of the Week: Abbreviations (G1). */
   _buildAbbrev(bank, d, loc, ctx, cal) {
     const rng = ctx.rng;
-    if (d.unit !== 'days') throw new Error(`K-321 abbrev: unit "${d.unit}" — only days carry abbreviations`);
     if (bank.abbrev !== 'calendar') throw new Error(`K-321 abbrev: ${loc} bank sets abbrev:${JSON.stringify(bank.abbrev)} — F5 is REFUSED for this locale (no landing)`);
+    // Level Set 2026-10-06 (new pages only): `unit:'months'` = the harder level (the 12 month short forms, matched
+    // within two halves of the year); `subset` = the easier level (`pairs` days of the week, drawn per copy)
+    if (d.unit === 'months') return this._buildMonthAbbrev(bank, d, loc, ctx, cal);
+    if (d.unit !== 'days') throw new Error(`K-321 abbrev: unit "${d.unit}" — only days and months carry abbreviations`);
+    if (d.subset) return this._buildDaySubset(bank, d, loc, ctx, cal);
     const { names, start, N } = cycleOf(cal, 'days');
     const abbr = cal.dayAbbr;
     if (!Array.isArray(abbr) || abbr.length !== 7 || new Set(abbr).size !== 7) throw new Error(`K-321 abbrev: ${loc} calendar.js dayAbbr is not 7 distinct strings`);
@@ -330,13 +385,61 @@ module.exports = {
     if (!right) throw new Error('K-321 abbrev: no derangement in ' + MAX_DRAWS + ' draws');
     const bodyHtml = `<div class="ws-match" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="days" data-lcs-weekstart="${start}" data-lcs-n="${N}" data-lcs-pairs="${N}" style="min-height:0">` +
       abbrevPairs({ left: week.map((day) => ({ day, text: abbr[day] })), right: right.map((day) => ({ day, text: texts[day] })), itemH: d.itemH || 78, abbrPx: d.abbrPx || 26, namePx: d.namePx || 24 }) + '</div>';
-    return { bodyHtml, meta: { layout: 'abbrev', left: week, right } };
+    return { bodyHtml, meta: { layout: 'abbrev', left: week, right },
+      _ans: { layout: 'abbrev', unit: 'days', pairs: [week], abbr, texts } };
+  },
+
+  /** a derangement of `ids` (no item beside its own partner) */
+  _derange(rng, ids) {
+    for (let k = 0; k < MAX_DRAWS; k++) {
+      const cand = rng.shuffle(ids);
+      if (cand.every((x, i) => x !== ids[i])) return cand;
+    }
+    throw new Error('K-321 abbrev: no derangement in ' + MAX_DRAWS + ' draws');
+  },
+
+  /** Level Set easier level: `pairs` (4) days of the week, the short forms in week order, the names deranged. */
+  _buildDaySubset(bank, d, loc, ctx, cal) {
+    const rng = ctx.rng;
+    const { names, start, N } = cycleOf(cal, 'days');
+    const abbr = cal.dayAbbr;
+    abbr.forEach((a, i) => { if (!names[i].toLocaleLowerCase(loc).startsWith(String(a).toLocaleLowerCase(loc))) throw new Error(`K-321 abbrev: ${loc} "${a}" is not a prefix of "${names[i]}"`); });
+    if (!(d.pairs >= 3 && d.pairs < 7)) throw new Error(`K-321 abbrev subset: pairs ${d.pairs} outside 3..6`);
+    const texts = this._texts(bank, loc, 'days', names);
+    const week = Array.from({ length: N }, (_, i) => (start + i) % N);
+    const left = rng.sample(week, d.pairs).sort((a, b) => rankOf(cal, 'days', a) - rankOf(cal, 'days', b));
+    const right = this._derange(rng, left);
+    const bodyHtml = `<div class="ws-match" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="days" data-lcs-weekstart="${start}" data-lcs-n="${N}" data-lcs-pairs="${d.pairs}" data-lcs-subset="1" style="min-height:0">` +
+      abbrevPairs({ left: left.map((day) => ({ day, text: abbr[day] })), right: right.map((day) => ({ day, text: texts[day] })), itemH: d.itemH || 96, abbrPx: d.abbrPx || 30, namePx: d.namePx || 28 }) + '</div>';
+    return { bodyHtml, meta: { layout: 'abbrev', left, right, subset: true },
+      _ans: { layout: 'abbrev', unit: 'days', pairs: [left], abbr, texts } };
+  },
+
+  /** Level Set harder level: the 12 month short forms (calendar.js monthAbbr), two blocks — January..June, July..December. */
+  _buildMonthAbbrev(bank, d, loc, ctx, cal) {
+    const rng = ctx.rng;
+    const names = cal.monthNames;
+    const abbr = cal.monthAbbr;
+    if (!Array.isArray(abbr) || abbr.length !== 12 || new Set(abbr).size !== 12) throw new Error(`K-321 abbrev months: ${loc} calendar.js monthAbbr is not 12 distinct strings`);
+    abbr.forEach((a, i) => { if (!isShortForm(a, names[i], loc)) throw new Error(`K-321 abbrev months: ${loc} "${a}" is not a short form of "${names[i]}"`); });
+    const blocks = [[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11]];
+    const html = blocks.map((ids, b) => {
+      const right = this._derange(rng, ids);
+      // sized for two blocks side by side in the ~680 px body: 86 + 136 px boxes leave ~90 px for each line
+      // (measured 2026-10-06: 104 + 176 left 15 px — no room to draw)
+      return { right, html: `<div class="ws-match" data-lcs-block="${b}" style="min-height:0;padding:6px 10px;flex:1 1 0">` +
+        abbrevPairs({ left: ids.map((m) => ({ day: m, text: abbr[m] })), right: right.map((m) => ({ day: m, text: names[m] })), itemH: d.monthItemH || 78, leftW: 86, rightW: 136, abbrPx: 19, namePx: 18 }) + '</div>' };
+    });
+    const bodyHtml = `<div class="ws-match-months" data-ws-content data-lcs-layout="abbrev" data-lcs-unit="months" data-lcs-weekstart="0" data-lcs-n="12" data-lcs-pairs="12" ` +
+      `style="display:flex;gap:18px;flex:1 1 auto;min-height:0;align-items:stretch">${html.map((h) => h.html).join('')}</div>`;
+    return { bodyHtml, meta: { layout: 'abbrev', unit: 'months', rights: html.map((h) => h.right) },
+      _ans: { layout: 'abbrev', unit: 'months', pairs: blocks, abbr, texts: names } };
   },
 
   async verify(page) {
     // the verbatim name tables for every locale (Node side); the page picks its own by <html lang>
     const tables = {};
-    for (const [loc, c] of Object.entries(CALENDAR)) tables[loc] = { dayNames: c.dayNames, monthNames: c.monthNames, weekStart: c.weekStart, dayAbbr: c.dayAbbr };
+    for (const [loc, c] of Object.entries(CALENDAR)) tables[loc] = { dayNames: c.dayNames, monthNames: c.monthNames, weekStart: c.weekStart, dayAbbr: c.dayAbbr, monthAbbr: c.monthAbbr };
     const shorts = {};
     const labels = {};
     try {
@@ -482,6 +585,53 @@ module.exports = {
             for (const k of ['left', 'mid', 'right']) if (h(k) !== want[k]) fails.push(`${k} head reads "${h(k)}" ≠ ${lang0} label "${want[k]}" (verbatim)`);
           }
           faceRoot.querySelectorAll('[data-lcs-head]').forEach((e) => fits(e, 'head'));
+          // the reference strip (Level Set easier level): the whole cycle in order, verbatim, at most two rows
+          const strip = faceRoot.querySelector('[data-lcs-strip-names]');
+          if (strip) {
+            const pills = [...strip.querySelectorAll('[data-lcs-strip-name]')];
+            const order = pills.map((p) => +p.dataset.lcsStripName);
+            const wantOrder = Array.from({ length: N }, (_, k) => (start + k) % N);
+            if (order.join() !== wantOrder.join()) fails.push(`strip order ${order} ≠ the ${lang0} ${unit} order ${wantOrder}`);
+            pills.forEach((p) => { const x = +p.dataset.lcsStripName; if (p.textContent !== texts[x]) fails.push(`strip pill "${p.textContent}" ≠ "${texts[x]}" (verbatim)`); });
+            const tops = new Set(pills.map((p) => Math.round(p.getBoundingClientRect().top)));
+            if (tops.size > 2) fails.push(`the strip wraps to ${tops.size} rows (> 2)`);
+          }
+          noDigits();
+        } else if (layout === 'abbrev' && unit === 'months') {
+          // Level Set harder level: two blocks (Jan..Jun, Jul..Dec); each block's right column is a derangement of its left
+          const blocks = [...faceRoot.querySelectorAll('[data-lcs-block]')];
+          if (blocks.length !== 2) fails.push(`${blocks.length} month blocks ≠ 2`);
+          const ab = cal.monthAbbr || [];
+          if (ab.length !== 12) fails.push(`no 12 month short forms for ${lang0}`);
+          blocks.forEach((bl, b) => {
+            const want = Array.from({ length: 6 }, (_, k) => b * 6 + k);
+            const l = [...bl.querySelectorAll('[data-lcs-abbr]')], r = [...bl.querySelectorAll('[data-lcs-name]')];
+            const ld = l.map((e) => +e.dataset.lcsAbbr), rd = r.map((e) => +e.dataset.lcsName);
+            if (ld.join() !== want.join()) fails.push(`block ${b + 1}: short forms ${ld} are not months ${want} in order`);
+            if ([...rd].sort((x, y) => x - y).join() !== want.join()) fails.push(`block ${b + 1}: names ${rd} are not the block's months`);
+            l.forEach((e, i) => { if (e.textContent !== ab[ld[i]]) fails.push(`short form "${e.textContent}" ≠ ${lang0} monthAbbr "${ab[ld[i]]}" (verbatim)`); });
+            // the text must fit INSIDE its box with a margin for the dot (a span measured against itself always fits)
+            const inBox = (e, what) => { const s = e.querySelector('span'); const w = s.getBoundingClientRect().width; const room = e.clientWidth - 16;
+              if (w > room) fails.push(`${what} "${s.textContent}" ${w.toFixed(0)} px > its box ${room} px`); };
+            r.forEach((e, i) => { if (e.textContent !== names[rd[i]]) fails.push(`name "${e.textContent}" ≠ ${lang0} month "${names[rd[i]]}" (verbatim)`); inBox(e, `month name ${i + 1}`); });
+            l.forEach((e) => inBox(e, 'short form'));
+            for (let i = 0; i < Math.min(ld.length, rd.length); i++) if (ld[i] === rd[i]) fails.push(`block ${b + 1} pair ${i + 1}: ${ab[ld[i]]} sits beside its own month`);
+            // room to draw: the gap between a short form's box and the names' box
+            if (l[0] && r[0]) { const g = r[0].getBoundingClientRect().left - l[0].getBoundingClientRect().right; if (g < 70) fails.push(`block ${b + 1}: only ${g.toFixed(0)} px between the columns (< 70 to draw a line)`); }
+          });
+          if (faceRoot.querySelectorAll('.ws-match-dot').length !== 24) fails.push('a month pair without its dots');
+          noDigits();
+        } else if (layout === 'abbrev' && faceRoot.dataset.lcsSubset === '1') {
+          // Level Set easier level: `pairs` days, short forms in week order, names a derangement of the same days
+          const left = [...faceRoot.querySelectorAll('[data-lcs-abbr]')], right = [...faceRoot.querySelectorAll('[data-lcs-name]')];
+          const pairs = +faceRoot.dataset.lcsPairs;
+          if (left.length !== pairs || right.length !== pairs) fails.push(`${left.length} short forms / ${right.length} names ≠ ${pairs}`);
+          const ld = left.map((e) => +e.dataset.lcsAbbr), rd = right.map((e) => +e.dataset.lcsName);
+          for (let i = 1; i < ld.length; i++) if (rankOf(ld[i]) <= rankOf(ld[i - 1])) fails.push('the short forms are not in week order');
+          if ([...rd].sort((a, b) => a - b).join() !== [...ld].sort((a, b) => a - b).join()) fails.push('the names are not the same days as the short forms');
+          left.forEach((e, i) => { if (e.textContent !== cal.dayAbbr[ld[i]]) fails.push(`short form "${e.textContent}" ≠ ${lang0} dayAbbr "${cal.dayAbbr[ld[i]]}"`); });
+          right.forEach((e, i) => { if (e.textContent !== texts[rd[i]]) fails.push(`name "${e.textContent}" ≠ "${texts[rd[i]]}"`); fits(e.querySelector('span') || e, `name ${i + 1}`); });
+          for (let i = 0; i < Math.min(ld.length, rd.length); i++) if (ld[i] === rd[i]) fails.push(`pair ${i + 1} sits beside its own name`);
           noDigits();
         } else if (layout === 'abbrev') {
           if (unit !== 'days') fails.push('abbreviations on months');
@@ -554,10 +704,15 @@ module.exports = {
           answers.push(+a.dataset.lcsAnswer);
         }
       });
-      // the anchor: rank 1 given, on the cycle's first name
-      if (!givenSeen.includes(1)) fails.push('no given cell prints 1 (the anchor is missing)');
-      const anchorRow = rows.findIndex((r) => r.querySelector('.ws-rankbox') && r.querySelector('.ws-rankbox').textContent.trim() === '1');
-      if (anchorRow >= 0 && seq[anchorRow] !== start) fails.push(`anchor "1" sits on ${names[seq[anchorRow]]} ≠ the ${lang} first ${unit === 'days' ? 'day' : 'month'} ${names[start]} (anchor ≠ weekStart)`);
+      // the anchor: rank 1 given, on the cycle's first name — or (Level Set harder level, data-lcs-anchor="middle")
+      // exactly one given rank in 2..N-1, which the given-cell check above already ties to its name
+      if (root.dataset.lcsAnchor === 'middle') {
+        if (givenSeen.length !== 1 || givenSeen[0] < 2 || givenSeen[0] > N - 1) fails.push(`a middle-anchor page gives ranks {${givenSeen}} (want one rank in 2..${N - 1})`);
+      } else {
+        if (!givenSeen.includes(1)) fails.push('no given cell prints 1 (the anchor is missing)');
+        const anchorRow = rows.findIndex((r) => r.querySelector('.ws-rankbox') && r.querySelector('.ws-rankbox').textContent.trim() === '1');
+        if (anchorRow >= 0 && seq[anchorRow] !== start) fails.push(`anchor "1" sits on ${names[seq[anchorRow]]} ≠ the ${lang} first ${unit === 'days' ? 'day' : 'month'} ${names[start]} (anchor ≠ weekStart)`);
+      }
       if ([...givenSeen].sort().join() !== [...givenStamp].sort().join()) fails.push(`given cells ${givenSeen} ≠ root stamp ${givenStamp}`);
       const wantAnswers = Array.from({ length: N }, (_, i) => i + 1).filter((k) => !givenSeen.includes(k));
       if ([...answers].sort((a, b) => a - b).join() !== wantAnswers.join()) fails.push(`answers {${[...answers].sort((a, b) => a - b)}} ≠ {1..${N}} minus given {${givenSeen}}`);
@@ -587,5 +742,5 @@ module.exports = {
     }, { tables, shorts, labels });
   },
 
-  cycleOf, rankOf, dayAt, neighbourDay, neighbourMonth, calendarOf, shuffleRules,
+  cycleOf, rankOf, dayAt, neighbourDay, neighbourMonth, calendarOf, shuffleRules, isShortForm,
 };

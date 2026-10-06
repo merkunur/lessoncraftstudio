@@ -233,9 +233,10 @@ const JS = [
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
   'var ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
   'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
-  'function paint(){for(var i=0;i<items.length;i++){var p=order.indexOf(i),b=items[i].badge;if(p>=0){b.textContent=String(p+1);b.className="lcs-badge on"}else{b.textContent="";b.className="lcs-badge"}}chk.disabled=order.length!==items.length||phase!=="fill";}',
+  'function R(p){return B.ranks?B.ranks[p]:p+1}',
+  'function paint(){for(var i=0;i<items.length;i++){var p=order.indexOf(i),b=items[i].badge;if(p>=0){b.textContent=String(R(p));b.className="lcs-badge on"}else{b.textContent="";b.className="lcs-badge"}}chk.disabled=order.length!==items.length||phase!=="fill";}',
   'function tap(i){if(phase!=="fill")return;var p=order.indexOf(i);if(p>=0)order.splice(p,1);else order.push(i);paint()}',
-  'function check(){if(order.length!==items.length)return;phase="reviewed";var ok=0;for(var i=0;i<items.length;i++){var right=B.answers[i]===order.indexOf(i)+1;items[i].el.setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  'function check(){if(order.length!==items.length)return;phase="reviewed";var ok=0;for(var i=0;i<items.length;i++){var right=B.answers[i]===R(order.indexOf(i));items[i].el.setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
   'prg.textContent=fmt(S.score,{n:ok,total:items.length});chk.hidden=true;rst.hidden=false;paint();if(ok===items.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
   'function reset(){order=[];phase="fill";for(var i=0;i<items.length;i++)items[i].el.removeAttribute("data-state");prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
   'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("button");el.type="button";el.className="lcs-item";el.setAttribute("aria-label",it.label);',
@@ -262,9 +263,18 @@ function buildInteractive(o) {
   const round = (v) => Math.round(v * 1000) / 1000;
   const S = runtimeStrings(o.locale);
   let bundleItems;
+  let ranks = null;
   if (o.kind === 'tap-order') {
-    const want = items.map((_, i) => i + 1).join(',');
-    if (answers.slice().sort((a, b) => a - b).join(',') !== want) throw new Error('interactive-runtime: tap-order answers are not a permutation of 1..' + items.length);
+    // ctx.ranksFromAnswers (Days and Months, 2026-10-06): some ranks are PRINTED on the page (the first day, or a middle
+    // one) and only the others are tapped — each tap then writes the next rank still open (e.g. 2, 3, 5, 6), never 1..n.
+    // Opt-in only: every other tap-order type keeps the strict 1..n check.
+    if (o.ctx && o.ctx.ranksFromAnswers) {
+      ranks = answers.slice().sort((a, b) => a - b);
+      if (!ranks.every((r, i) => Number.isInteger(r) && r > 0 && (i === 0 || r > ranks[i - 1]))) throw new Error('interactive-runtime: tap-order ranks are not distinct positive integers');
+    } else {
+      const want = items.map((_, i) => i + 1).join(',');
+      if (answers.slice().sort((a, b) => a - b).join(',') !== want) throw new Error('interactive-runtime: tap-order answers are not a permutation of 1..' + items.length);
+    }
     for (const it of items) {
       for (const k of ['x', 'y', 'w', 'h', 'sx', 'sy', 'sw', 'sh']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
     }
@@ -314,7 +324,7 @@ function buildInteractive(o) {
     }
     bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {}, options: it.options.map((op) => ({ x: round(op.x), y: round(op.y), w: round(op.w), h: round(op.h), label: op.label })) }));
   }
-  const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers, ...(o.kind === 'tap-edit' ? { marks: o.marks } : {}) };
+  const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers, ...(ranks ? { ranks } : {}), ...(o.kind === 'tap-edit' ? { marks: o.marks } : {}) };
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   return {
     css: CSS,

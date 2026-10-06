@@ -147,8 +147,11 @@ function themelessWaves() {
           : text
             ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
             : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
+        // face.maxCopiesAt (Days and Months, 2026-10-06): a level whose copies could only reshuffle the same content gets
+        // fewer copies (operator: "only copies that differ") — { <level>: n }
+        const cap = (face.maxCopiesAt && face.maxCopiesAt[lv] !== undefined) ? face.maxCopiesAt[lv] : cfg.maxCopies;
         for (const t of tries) {
-          if (!group && !cfg.unitsOnly && !single && out.length >= cfg.maxCopies) break;
+          if (!group && !cfg.unitsOnly && !single && out.length >= cap) break;
           let w;
           try { w = wholesOf(lv, t.unit, t.sv, next); } catch (e) { continue; }
           if (!group && !text && !cfg.unitsOnly && !single && accepted.some((a) => [...w].filter((x) => a.has(x)).length > Math.min(face.maxShared || cfg.maxShared, Math.max(1, Math.floor(w.size * (face.shareFrac || cfg.shareFrac || 0.25)))))) continue;

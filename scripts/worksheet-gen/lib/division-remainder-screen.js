@@ -45,10 +45,16 @@ function optionsFor(tpl, it, at) {
   const { n, d, q, r } = it;
   const wrong = [];
   const add = (q2, r2) => { if (q2 >= 0 && r2 >= 0 && !(q2 === q && r2 === r)) wrong.push(answerLabel(tpl, n, d, q2, r2)); };
-  const slip = slotFor(n + 'x' + d, 2);   // which slips lead, varying card to card
-  const cand = [[q - 1, r + d], [q, r + 1 < d ? r + 1 : r - 1], [q + 1, r]];
-  if (slip) cand.push(cand.shift());
-  for (const [a, b] of cand) add(a, b);
+  // the slips: A one group too few, remainder too big (the target misconception) · B the leftover miscounted ·
+  // C one group too many · D the last group forgotten. The PAIR shown varies card to card (native review
+  // 2026-10-06: always A + B put the right quotient on two buttons, so "the quotient shown twice" beat chance)
+  // E one group too many AND the leftover miscounted. The pairs put the right quotient LOWEST (C+E), HIGHEST (A+D),
+  // in the MIDDLE (A+C) or shared (A+B, B+C, B+D) about equally — measured: no "pick the middle / repeated / smallest"
+  // strategy beats chance by much (tools: $TEMP/spl/dwr-tells.js)
+  const S = { A: [q - 1, r + d], B: [q, r + 1 < d ? r + 1 : r - 1], C: [q + 1, r], D: [q - 1, r], E: [q + 1, r + 1 < d ? r + 1 : r - 1] };
+  const PAIRS = [['A', 'D'], ['C', 'E'], ['A', 'C'], ['A', 'B'], ['B', 'C'], ['B', 'D'], ['A', 'D'], ['C', 'E']];
+  const pair = PAIRS[slotFor(n + 'x' + d, PAIRS.length)];
+  for (const k of [...pair, 'A', 'B', 'C', 'D', 'E']) add(...S[k]);
   const right = answerLabel(tpl, n, d, q, r);
   const o = [...new Set(wrong.filter((x) => x !== right))].slice(0, 2);
   if (o.length < 2) throw new Error(`division-remainder screen: only ${o.length} wrong options for ${n} / ${d}`);

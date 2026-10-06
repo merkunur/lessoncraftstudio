@@ -18,6 +18,7 @@
 'use strict';
 
 const { SHOP_FRAMES } = require('../data/b2/shop-frames.js');
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660, OPT_H = 96;
@@ -131,12 +132,15 @@ function screenOrKey(mode, built, ctx, loc) {
   if (ctx.interactive) {
     let items;
     const off = offsetOf(JSON.stringify(built.meta || {}));
+    const sig = JSON.stringify(built._purses || built._probs || built.meta || {}).slice(0, 400) + '|';   // the page joins every rank hash
     if (mode === 'count') {
       const P = built._purses;
       if (!P || !P.length) throw new Error('money screen: the page has no purses');
       items = P.map((p, i) => {
         const T = p.values.reduce((a, b) => a + b, 0);
-        const vals = [...countSlips(p.values, p.denoms, ROT[(i + off) % ROT.length]), T].sort((x, y) => x - y);
+        // the answer's rank (its place: the chips read in ascending order) is hashed from the card, never a rotation over i
+        // (2026-10-06 guessability audit: smallest / middle / largest in turn is the same tell as slot i % 3)
+        const vals = [...countSlips(p.values, p.denoms, slotFor(sig + p.values.join('+') + '|' + i + '|rank', 3)), T].sort((x, y) => x - y);
         const top = `<div style="zoom:1.3;display:flex;justify-content:center;max-width:480px">${p.row}</div>`;
         return item(`data-lcs-word="${i + 1}" data-lcs-q="${p.values.join('+')}"`, top, numChips(vals, T, p.unit));
       });
@@ -161,7 +165,7 @@ function screenOrKey(mode, built, ctx, loc) {
           opts = [['yes', bank.yes], ['no', bank.no]].map(([k, w], j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${esc(w)}"${(k === 'yes') === (p.money >= p.answer) ? ' data-lcs-correct="1"' : ''} style="width:200px;height:${OPT_H}px;box-sizing:border-box;font-size:38px">${esc(w)}</span>`).join('');
         } else {
           q = p.kind === 'change' ? `change:${p.coins.join('+')}-${p.prices[0]}` : p.kind === 'diff' ? `diff:${p.prices.join('-')}` : `total:${p.prices.join('+')}`;
-          const vals = [...shopSlips(p, p.scale, ROT[(i + off) % ROT.length]), p.answer].sort((x, y) => x - y);
+          const vals = [...shopSlips(p, p.scale, slotFor(sig + JSON.stringify(p) + '|' + i + '|rank', 3)), p.answer].sort((x, y) => x - y);   // hashed rank, never a rotation (2026-10-06)
           opts = numChips(vals, p.answer, p.unit);
         }
         const top = `<p style="font-family:'Nunito';font-weight:800;font-size:22px;line-height:1.5;color:#3A3530;margin:0;text-align:center" data-lcs-sentence>${p.kind === 'canBuy' ? questionOnly(p.sentence) : p.sentence}</p>${p.extra || ''}`;

@@ -55,23 +55,37 @@ module.exports = {
       // Level Set options (additive; undefined = the published behaviour): the gap between the totals, the trap row
       // (the purse with MORE coins holds LESS money) and a balanced left/right answer
       const wantTrap = d.trapShare ? i < Math.ceil(d.cards * d.trapShare) : false;
+      // 2026-10-06 (guessability audit): on 96% of rows the richer purse held the BIGGEST coin — compare one coin, never
+      // count. On a new page about half the rows put the biggest coin in the POORER purse (hashed per row, not i % 2).
+      const slot = require('../../lib/answer-slots.js').slotFor;
+      const wantCoinTrap = !published && slot(`${locale}|${difficulty}|${ctx.variant || 1}|${i}|coin`, 2) === 1;
+      // … and, independently, about half the rows give the richer purse FEWER coins (the misconception this page is for:
+      // more coins is more money) and half give it more — never "the purse with more coins" on most rows
+      const wantFewer = !published && slot(`${locale}|${difficulty}|${ctx.variant || 1}|${i}|count`, 2) === 1;
+      const coinOk = (P, Q) => {
+        const more = P.total > Q.total ? P : Q, less = more === P ? Q : P;
+        if (wantCoinTrap && !(Math.max(...less.values) > Math.max(...more.values))) return false;
+        return wantFewer ? more.values.length < less.values.length : more.values.length > less.values.length;
+      };
       const ok = (P, Q) => {
         const hi = Math.max(P.total, Q.total), gap = Math.abs(P.total - Q.total);
         if (d.minGapFrac && gap < d.minGapFrac * hi) return false;
         if (d.maxGapFrac && gap > d.maxGapFrac * hi) return false;
         if (wantTrap) { const more = P.total > Q.total ? P : Q, less = more === P ? Q : P; if (!(less.values.length > more.values.length)) return false; }
+        if (!published && guard < 3000 && !coinOk(P, Q)) return false;   // after 3000 tries the row may skip it
         return true;
       };
       do {
         A = makePurse(); B = makePurse(); guard++;
-      } while ((A.total === B.total || (!published && pairs.has([A.total, B.total].sort((x, y) => x - y).join('|'))) || A.total > cur.subMax || B.total > cur.subMax || (d.minGapFrac || d.maxGapFrac || wantTrap ? !ok(A, B) : false)) && guard < (d.trapShare || d.minGapFrac || d.maxGapFrac ? 4000 : 200));
+      } while ((A.total === B.total || (!published && pairs.has([A.total, B.total].sort((x, y) => x - y).join('|'))) || A.total > cur.subMax || B.total > cur.subMax || (d.minGapFrac || d.maxGapFrac || wantTrap || !published ? !ok(A, B) : false)) && guard < (d.trapShare || d.minGapFrac || d.maxGapFrac || !published ? 4000 : 200));
       // Level Set pages (not the published one): no pair of totals twice on a page (native + pedagogy review 2026-10-05)
       if (!published && pairs.has([A.total, B.total].sort((x, y) => x - y).join('|'))) throw new Error('G1-232: could not build a new pair of totals');
       pairs.add([A.total, B.total].sort((x, y) => x - y).join('|'));
       if (A.total === B.total) throw new Error('G1-232: could not build distinct purses');
       if ((d.minGapFrac || d.maxGapFrac || wantTrap) && !ok(A, B)) throw new Error('G1-232: could not build a row with the gap or trap of this level');
       // balance: the richer purse alternates sides row by row (a page whose answer is always on one side teaches the side)
-      if (d.balance && ((A.total > B.total) !== (i % 2 === 0))) [A, B] = [B, A];
+      // (2026-10-06: a new page hashes the side per row — left, right, left, right … is a pattern a child taps)
+      if (d.balance && ((A.total > B.total) !== (published ? i % 2 === 0 : slot(`${A.total}|${B.total}|${i}|side`, 2) === 0))) [A, B] = [B, A];
       const more = A.total > B.total ? 'left' : 'right';
       rows.push({ more, left: { values: A.values.slice().sort((a, b) => b - a), row: coinRow({ values: A.values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx }).html }, right: { values: B.values.slice().sort((a, b) => b - a), row: coinRow({ values: B.values, denoms: cur.sub, minPx: d.minPx, maxPx: d.maxPx }).html } });
       const purse = (p, side) => {

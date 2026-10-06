@@ -209,7 +209,9 @@ module.exports = {
     if (d.poolFloor && pool.length < d.poolFloor) {
       throw new Error(`K-318/${face}: theme ${theme}/${loc} has ${pool.length} segmentable nouns < ${d.poolFloor} (refused)`);
     }
-    const picks = pickCards(rng, pool, d);
+    // Count the Sounds on a NEW page: the counts dealt evenly (2026-10-06: a page of mostly 3- or 4-sound words let
+    // "always 3" score twice chance); every other face draws as before
+    const picks = fresh && face === 'count' ? require('../../lib/answer-slots.js').balancedPick(rng, pool, d.cards, (e) => e.chunks.length) : pickCards(rng, pool, d);
     const img = (noun, key, px) => `<img class="ws-icon" src="${fileUri(theme, noun)}" alt="" data-lcs-pic="${key}" style="width:${px}px;height:${px}px">`;
     const stampsOf = (e) => `data-lcs-word="${e.word}" data-lcs-vocab="${e.vocabKey}" data-lcs-chunks="${e.chunks.join('|')}" data-lcs-face="${face}"`;
     const kStage = (e, extra, body) => `<div class="ws-card-stage" style="flex-direction:column;justify-content:center;gap:8px;padding:4px 0" ${stampsOf(e)}${extra || ''}>` +

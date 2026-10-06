@@ -13,7 +13,7 @@
  *   key:    the printed page with every answer written centred in its own answer box (the measured gap-box rule).
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, numberChoices } = require('./answer-slots.js');
 const { CALENDAR } = require('../data/b2/calendar.js');
 
 const CORAL = '#F2784B', INK = '#1F2B2A';
@@ -34,27 +34,27 @@ function drawnStickers(svg) {
 }
 
 /** the three options of a question: the answer + two typical slips, the answer at position `at` */
-function optionsFor(q, A, loc, at) {
+// 2026-10-06 (guessability audit): the slips were "one before, one after", so the right number — and the right
+// WEEKDAY, between yesterday and tomorrow — was the middle option on most cards. numberChoices keeps the typical
+// slips but makes the right one the smallest / middle / largest (the earliest / middle / latest day) equally often.
+function optionsFor(q, A, loc, key) {
   const C = CALENDAR[loc];
   const days = daysIn(A.year, A.month);
-  let d = [];
   if (q.slot === 'word') {
     const w = C.dayNames.indexOf(q.answer);
     if (w < 0) throw new Error(`calendar screen: "${q.answer}" is no ${loc} weekday name`);
-    d = [C.dayNames[(w + 6) % 7], C.dayNames[(w + 1) % 7]];
-  } else {
-    const a = +q.answer;
-    if (q.kind === 'countWeekday') d = a === 5 ? [4, 6] : [5, 3];
-    else if (q.kind === 'daysInMonth') d = [28, 29, 30, 31].filter((x) => x !== a).sort((x, y) => Math.abs(x - a) - Math.abs(y - a));
-    else if (q.kind === 'stickerDate') d = [a + 7 <= days ? a + 7 : a - 7, a + 1, a - 1];
-    else if (q.kind === 'weekLater') d = [a + 1, a - 1, +q.arg];
-    else d = [a + 1, a - 1, a + 2];   // after: counting the start day too, or one short
-    d = d.filter((x) => Number.isInteger(x) && x > 0 && x !== a);
+    // ranks on the week unrolled around the answer (w − 3 … w + 3), so no two options are the same weekday
+    const nc = numberChoices(w, [w - 1, w + 1], key, { min: w - 3, max: w + 3 });
+    return nc.opts.map((v) => C.dayNames[((v % 7) + 7) % 7]);
   }
-  const o = [...new Set(d.map(String))].filter((x) => x !== String(q.answer)).slice(0, 2);
-  if (o.length < 2) throw new Error(`calendar screen: ${q.kind} has ${o.length} wrong options`);
-  o.splice(at, 0, String(q.answer));
-  return o;
+  const a = +q.answer;
+  let d, lim;
+  if (q.kind === 'countWeekday') { d = a === 5 ? [4, 6] : [5, 3]; lim = { min: 3, max: 6 }; }
+  else if (q.kind === 'daysInMonth') { d = [28, 29, 30, 31].filter((x) => x !== a).sort((x, y) => Math.abs(x - a) - Math.abs(y - a)); lim = { min: 28, max: 31 }; }
+  else if (q.kind === 'stickerDate') { d = [a + 7 <= days ? a + 7 : a - 7, a + 1, a - 1]; lim = { min: 1, max: days }; }
+  else if (q.kind === 'weekLater') { d = [a + 1, a - 1, +q.arg]; lim = { min: 1, max: days }; }
+  else { d = [a + 1, a - 1, a + 2]; lim = { min: 1, max: days }; }   // after: counting the start day too, or one short
+  return numberChoices(a, d.filter((x) => Number.isInteger(x) && x > 0 && x !== a), key, lim).opts.map(String);
 }
 
 function screenOrKey(built, ctx, loc) {
@@ -65,7 +65,7 @@ function screenOrKey(built, ctx, loc) {
     const st = drawnStickers(A.svg);
     const stamp = Object.entries(st).map(([k, v]) => `${k}:${v}`).join(',');
     const items = A.qs.map((q, i) => {
-      const opts = optionsFor(q, A, loc, slotFor(q.kind + '|' + q.arg + '|' + i, 3));   // never i % 3 (a diagonal tell, 2026-10-06)
+      const opts = optionsFor(q, A, loc, A.year + '-' + A.month + '|' + A.qs.map((x) => x.kind + x.arg).join(',') + '|' + q.kind + '|' + q.arg + '|' + q.answer + '|' + i);   // page + card: never one rank for a recurring question   // rank + slot hashed, never i % 3 (2026-10-06)
       const at = opts.indexOf(String(q.answer));
       const w = q.slot === 'word' ? 200 : 190;
       const px = q.slot === 'word' ? Math.max(20, Math.min(30, Math.floor((w - 24) / (0.6 * Math.max(...opts.map((x) => [...x].length)))))) : 40;

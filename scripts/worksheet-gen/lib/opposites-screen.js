@@ -12,7 +12,8 @@
  * G1-336 (pair up) is printable only: sorting twelve words into written pairs has no single-answer tap.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, pageSalt } = require('./answer-slots.js');
+let PAGE_SALT = '';
 
 const CORAL = '#F2784B';
 const { seatAfter } = require('./key-on-row.js');
@@ -39,7 +40,7 @@ function rotation(list, i) {
   const own = list[i];
   const others = [1, 2].map((k) => list[(i + k) % list.length]).filter((x) => x !== own);
   const o = others.slice(0, 2);
-  const at = slotFor(own + '|' + i, o.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
+  const at = slotFor(PAGE_SALT + own + '|' + i, o.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
   o.splice(at, 0, own);
   return { opts: o, at };
 }
@@ -51,6 +52,7 @@ function rotation(list, i) {
  * @param resolvePic G1-307's picture resolver (theme/noun → { src })
  */
 function screenOrKey(layout, built, ctx, loc, bank, resolvePic) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const m = built.meta;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   const byId = new Map(bank.pairs.map((p) => [p.id, p]));

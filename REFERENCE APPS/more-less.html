@@ -3517,10 +3517,17 @@
             balancedRels.push(rels[rand(0, rels.length - 1)]);
         }
 
-        // Shuffle the balanced relations for random order
-        for (let i = balancedRels.length - 1; i > 0; i--) {
-            const j = rand(0, i);
-            [balancedRels[i], balancedRels[j]] = [balancedRels[j], balancedRels[i]];
+        // Shuffle the balanced relations for random order — and never into a TAPPING RHYTHM (2026-10-06 guessability
+        // audit: an even deal of six came out > < = > < = … on ~7% of pages, solvable by tapping round the three
+        // buttons; the buttons read > < = in that order, so the rhythm is checked on that order)
+        const btn = { gt: 0, lt: 1, eq: 2 };
+        const rhythm = (seq) => seq.length >= 4 && (seq.every(r => r === seq[0]) || [0, 1, 2].some(c =>
+            seq.every((r, i) => btn[r] === (i + c) % 3) || seq.every((r, i) => btn[r] === (((c - i) % 3) + 3) % 3)));
+        for (let tries = 0; tries === 0 || (tries < 50 && rhythm(balancedRels)); tries++) {
+            for (let i = balancedRels.length - 1; i > 0; i--) {
+                const j = rand(0, i);
+                [balancedRels[i], balancedRels[j]] = [balancedRels[j], balancedRels[i]];
+            }
         }
 
         // ✅ IMPROVED: Track used combinations to avoid duplicates

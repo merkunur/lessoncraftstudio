@@ -15,7 +15,8 @@
  * each field word SEATED on its field's writing row (key-on-row.js).
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, pageSalt } = require('./answer-slots.js');
+let PAGE_SALT = '';
 const { seatOnRow } = require('./key-on-row.js');
 const { fileUri } = require('./b2-common.js');
 
@@ -44,7 +45,7 @@ const EQ = `<span style="font-family:'Baloo 2',cursive;font-weight:700;font-size
 /** Options for item i: its own answer + up to `k` OTHER labels, the right one at i % (k + 1) (no position tell). */
 function rotation(own, others, i) {
   const o = others.slice();
-  const at = slotFor(own + '|' + i, o.length + 1);   // never a fixed rotation (a position tell, 2026-10-06)
+  const at = slotFor(PAGE_SALT + own + '|' + i, o.length + 1);   // never a fixed rotation (a position tell, 2026-10-06)
   o.splice(at, 0, own);
   return { opts: o, at };
 }
@@ -74,6 +75,7 @@ function seatNth(html, needle, k, t) {
  * screenOrKey(mode, built, ctx, loc, bank) — bank = the merged Level Set bank (G2-358 mergedBank).
  */
 function screenOrKey(mode, built, ctx, loc, bank) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const m = built.meta;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   const groups = new Map((bank.groups || []).map((g) => [g.concept, g]));

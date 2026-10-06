@@ -2123,7 +2123,12 @@
               const j = getRandomInt(0, i);
               [arr[i], arr[j]] = [arr[j], arr[i]];
           }
-          return arr.some((v,i) => v === i) ? makeDerangement(n) : arr;
+          // 2026-10-06 (guessability audit): also never a SHIFT of the row (shadow i under object i+1, i+2 … or the mirror):
+          // with 4 pictures 3 of the 9 derangements are shifts, so a child drawing every line "two to the right" solved a
+          // whole page on 1 in 9 pages and scored 35-42% against 25%. 4 of the 9 remain; n < 4 keeps the old rule.
+          const shifted = n >= 4 && Array.from({length:n}, (_, c) => c).some((c) =>
+              arr.every((v,i) => v === (i + c) % n) || arr.every((v,i) => v === (((c - i) % n) + n) % n));
+          return (arr.some((v,i) => v === i) || shifted) ? makeDerangement(n) : arr;
       }
 
       // --- IMAGE LIBRARY & UPLOAD ---

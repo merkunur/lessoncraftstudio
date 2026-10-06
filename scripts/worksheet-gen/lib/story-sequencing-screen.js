@@ -64,11 +64,13 @@ function choiceItem(attrs, top, opts, cap, i) {
   return card(attrs, top + row(o, 14));
 }
 
-function order(arr, key) { return arr.map((x, k) => ({ x, h: hash(key + '|' + k) })).sort((a, b) => a.h - b.h).map((q) => q.x); }
+// a FAIR seeded shuffle (2026-10-06: sorting by an FNV hash of "key|k" is not a fair permutation)
+function order(arr, key) { return require('./answer-slots.js').seededShuffle(arr, key); }
 
 /** screen(built, d, loc) — the screen body of a built page (d = the level config, loc = the locale). */
 function screen(built, d, loc) {
   const m = built.meta;
+  const SALT = require('./answer-slots.js').pageSalt(built);
   const ids = String(m.stories || '').split(',').filter(Boolean);
   let items = [];
   if (d.mode === 'base' || d.mode === 'first-next-last-cut') {
@@ -112,7 +114,9 @@ function screen(built, d, loc) {
     }
     const w = m.mixed ? 126 : 140;
     items = sens.map((x, k) => {
-      const opts = pics.filter((p) => m.mixed || p.group === x.group).map((p) => { const s = byId(p.id); return { s, rank: s.sub4[p.seq - 1], correct: p.id === x.id && p.seq === x.seq }; });
+      // each card's pictures in an order of their own (2026-10-06: the page's strip order on every card made the answers
+      // a ROTATION — the sentences are scrambled against the pictures by a fixed offset so none sits straight across)
+      const opts = order(pics.filter((p) => m.mixed || p.group === x.group).map((p) => { const s = byId(p.id); return { s, rank: s.sub4[p.seq - 1], correct: p.id === x.id && p.seq === x.seq }; }), SALT + x.id + '|' + x.seq + '|' + k);
       const text = block.stories[x.id].sentences[x.seq - 1];
       const top = `<div data-lcs-sentence-screen style="max-width:600px;text-align:center;font-family:'Nunito',sans-serif;font-weight:800;font-size:28px;line-height:1.3;color:#1F2B2A">${esc(text)}</div>`;
       return choiceItem(`data-lcs-face="match" data-lcs-sentence="${esc(text)}" data-lcs-stories="${esc(ids.join(','))}"`, top, opts, w, k);

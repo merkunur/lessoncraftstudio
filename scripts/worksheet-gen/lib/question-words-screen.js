@@ -13,7 +13,8 @@
  * The ask page (G2-357) is open-ended: printable only, no key.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, seededShuffle, pageSalt } = require('./answer-slots.js');
+let PAGE_SALT = '';
 
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
@@ -68,11 +69,12 @@ function markedHtml(text, mark) {
 function rotate(correct, others, i, n = 3) {
   const pool = others.filter((x) => x !== correct).slice(0, n - 1);
   if (pool.length < n - 1) throw new Error(`question-words screen: ${pool.length + 1} options for "${correct}" (want ${n})`);
-  const at = slotFor(correct + '|' + i, n);   // never i % n (a diagonal tell, 2026-10-06)
+  const at = slotFor(PAGE_SALT + correct + '|' + i, n);   // never i % n (a diagonal tell, 2026-10-06)
   return [...pool.slice(0, at), correct, ...pool.slice(at)];
 }
 
 function screenOrKey(mode, built, ctx, loc, bank) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const html = built.bodyHtml;
   const out = { bodyHtml: html, meta: built.meta };
   const qw = bank.qwords;
@@ -99,7 +101,9 @@ function screenOrKey(mode, built, ctx, loc, bank) {
         // the harder level: the TWIN sentence (the same name) is always among the distractors
         const others = qs.map((_, j) => j).filter((j) => j !== i);
         if (whole) others.sort((a, b) => (qs[b].at['data-lcs-name'] === q.at['data-lcs-name']) - (qs[a].at['data-lcs-name'] === q.at['data-lcs-name']));
-        else others.sort((a, b) => ((a - i + qs.length) % qs.length) - ((b - i + qs.length) % qs.length));
+        // the distractors are any two OTHER questions of the page, drawn per card (2026-10-06: "the next two in page order"
+        // made the right one always the earliest of the three in the page's cycle)
+        else others.splice(0, others.length, ...seededShuffle(others, qs.map((_, j) => lit(j)).join('|') + '|' + i));
         const labels = rotate(correct, others.map(lit), i);
         return item(`data-lcs-question="${esc(qText)}"`, line(esc(qText), 32),
           opts(labels.map((l, j) => opt(j, l, l === correct, whole ? 600 : optW(3), whole ? 26 : 28)).join('')));
@@ -143,7 +147,7 @@ function screenOrKey(mode, built, ctx, loc, bank) {
           const correct = answers[k];
           // distractors: the page's OTHER question about the same sentence (two), else the next row's questions
           const sib = two ? answers.filter((a) => a !== correct) : [];
-          const others = [...sib, ...all.slice((all.indexOf(correct) + 1)), ...all.slice(0, all.indexOf(correct))].filter((a, j, arr) => a !== correct && arr.indexOf(a) === j);
+          const others = [...sib, ...seededShuffle(all.filter((a) => a !== correct), all.join('|') + '|' + n)].filter((a, j, arr) => a !== correct && arr.indexOf(a) === j);   // not "the next rows" (2026-10-06)
           const labels = rotate(correct, others, n++);
           items.push(item(`data-lcs-sentence="${esc(s.text)}" data-lcs-mark="${esc(mk)}"`, line(markedHtml(s.text, mk), 30),
             opts(labels.map((l, j) => opt(j, l, l === correct, optW(3), 20)).join(''))));   // three questions side by side (one per row overflowed the 3600 screen at 10 items)

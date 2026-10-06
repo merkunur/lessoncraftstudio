@@ -14,7 +14,8 @@
  * outlined, carpet cells filled in their card's colour, numbers centred in their boxes.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, pageSalt } = require('./answer-slots.js');
+let PAGE_SALT = '';
 const { bank } = require('./b3-common.js');
 const { fileUri } = require('./b2-common.js');
 const { seatAfter } = require('./key-on-row.js');
@@ -60,7 +61,7 @@ function rotate(right, others, i, loc) {
   const o = [];
   for (const x of others) if (low(x, loc) !== low(right, loc) && !o.some((y) => low(y, loc) === low(x, loc))) o.push(x);
   const pick = o.slice(i % Math.max(1, o.length)).concat(o.slice(0, i % Math.max(1, o.length))).slice(0, 2);
-  const at = slotFor(right + '|' + i, pick.length + 1); const out = pick.slice(); out.splice(at, 0, right);   // never i % n (2026-10-06)
+  const at = slotFor(PAGE_SALT + right + '|' + i, pick.length + 1); const out = pick.slice(); out.splice(at, 0, right);   // never i % n (2026-10-06)
   return { opts: out, at };
 }
 
@@ -72,6 +73,7 @@ function asPrinted(tokens, word, loc) {
 }
 
 function screenOrKey(built, ctx, loc) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const m = built.meta, cfg = bank(BANK, loc), shape = cfg.shape;
   if (!m || !Array.isArray(m.keys)) throw new Error('syllable-reading screen: the built page carries no keys (not a new page?)');
   const face = m.face, structure = m.structure || 'simple';

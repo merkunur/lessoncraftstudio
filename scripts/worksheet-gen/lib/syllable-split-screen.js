@@ -29,7 +29,9 @@ const pic = (theme, noun, px) => `<img class="ws-icon" src="${fileUri(theme, nou
 const bigWord = (w, px = 44) => `<div style="font-family:'Baloo 2',cursive;font-weight:700;font-size:${px}px;line-height:1.1;color:${INK}">${esc(w)}</div>`;
 const opt = (i, label, correct, w, h, px, inner) => `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${esc(label)}"${correct ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${h}px;box-sizing:border-box;font-size:${px}px">${inner != null ? inner : esc(label)}</span>`;
 function hash(str) { let h = 2166136261; for (const c of String(str)) { h ^= c.codePointAt(0); h = Math.imul(h, 16777619) >>> 0; } return h; }
-const order = (arr, key) => arr.map((x, k) => ({ x, h: hash(key + '|' + k) })).sort((a, b) => a.h - b.h).map((q) => q.x);
+// a fair seeded shuffle (2026-10-06: sorting by an FNV hash of "key|k" — keys differing only in the last character —
+// was NOT a fair permutation: the right option sat in the middle on ~50% of cards)
+const order = (arr, key) => require('./answer-slots.js').seededShuffle(arr, key);
 
 /** the word's syllables in DISPLAY case (syllable 1 takes the word's own case: de keeps its capital) */
 const tokens = (word, split) => split.map((syl, i) => (i === 0 ? [...word].slice(0, [...syl].length).join('') : syl));
@@ -61,6 +63,38 @@ function wrongDashes(toks, loc, hy) {
   return out;
 }
 
+/**
+ * wrongDashKinds(toks, loc, hy) — every WRONG way of writing the word with dashes, by kind (guessability audit
+ * 2026-10-06): merge (a break removed: one part fewer) · lone (a consonant split off on its own: one part more) ·
+ * shift (a break moved so one part keeps no vowel: the SAME number of parts — "carpe-t", "c-arpet"). Every one has a
+ * part a child can see is not a syllable (or is missing one), in every locale here.
+ */
+function wrongDashKinds(toks, loc, hy) {
+  const K = { merge: [], lone: [], shift: [] };
+  const hasV = (s2) => [...s2].some((c) => isVowel(c, loc));
+  for (let k = 0; k + 1 < toks.length; k++) K.merge.push(toks.slice(0, k).concat([toks[k] + toks[k + 1]], toks.slice(k + 2)).join(hy));
+  for (let k = 0; k < toks.length; k++) {
+    const t = [...toks[k]];
+    if (t.length >= 2 && !isVowel(t[t.length - 1], loc) && hasV(t.slice(0, -1).join(''))) K.lone.push(toks.slice(0, k).concat([t.slice(0, -1).join(''), t[t.length - 1]], toks.slice(k + 1)).join(hy));
+    if (t.length >= 2 && !isVowel(t[0], loc) && hasV(t.slice(1).join(''))) K.lone.push(toks.slice(0, k).concat([t[0], t.slice(1).join('')], toks.slice(k + 1)).join(hy));
+  }
+  // shift: the last consonant of the word on its own after the last break ("carpe-t"), or the first consonant before
+  // the first break ("c-arpet") — the parts stay as many as the right answer, one of them has no vowel
+  const all = toks.join('');
+  const ch = [...all];
+  if (toks.length >= 2 && ch.length >= 3 && !isVowel(ch[ch.length - 1], loc) && hasV(ch.slice(0, -1).join(''))) {
+    const lastLen = [...toks[toks.length - 1]].length;
+    const head = toks.slice(0, -2), mid = toks[toks.length - 2] + [...toks[toks.length - 1]].slice(0, lastLen - 1).join('');
+    K.shift.push(head.concat([mid, ch[ch.length - 1]]).join(hy));
+  }
+  if (toks.length >= 2 && ch.length >= 3 && !isVowel(ch[0], loc) && hasV(ch.slice(1).join(''))) {
+    const first = [...toks[0]];
+    K.shift.push([ch[0], first.slice(1).join('') + toks[1]].concat(toks.slice(2)).join(hy));
+  }
+  for (const k of Object.keys(K)) K[k] = [...new Set(K[k])].filter((x) => x !== toks.join(hy));
+  return K;
+}
+
 /** the units of one syllable: every consonant letter alone, its maximal vowel run(s) as one unit (nl ij is a vowel) */
 function units(syl, loc, extra) {
   const ch = [...syl];
@@ -81,19 +115,43 @@ function units(syl, loc, extra) {
 /** screen(built, face, loc, theme, bankBlock) — built.meta carries keys + nouns on every new page */
 function screen(built, face, loc, theme, b) {
   const m = built.meta;
+  // the page fingerprint joins every per-word hash: a word that recurs on many pages must not keep one button (2026-10-06)
+  const SALT = require('./answer-slots.js').pageSalt(built);
   const words = m.words || [], keys = m.keys || [], nouns = m.nouns || [];
   if (!keys.length) throw new Error('syllable-split screen: the built page carries no vocab keys (not a new page?)');
   const split = (i) => String(m.splits[i]).split(m.face === 'rewrite' ? (b.hyphen || '-') : '-');
   const hy = b.hyphen || '-';
   let items = [];
   if (face === 'base') {
+    // the counts on offer run from 1 to the longest word ON THIS PAGE (at least 2): a page of one- and two-syllable words
+    // offering 1-4 made "always 2" score twice chance (2026-10-06)
+    // … and FROM the shortest word on the page: a count that is never right is a free elimination (it: no one-syllable
+    // picture words — "1" offered and never right put "2" at 49%)
+    const lens = words.map((_, i) => split(i).length);
+    let lo = Math.min(...lens), hi = Math.max(...lens);
+    if (hi === lo) { if (lo > 1) lo -= 1; else hi += 1; }
+    const NUMS = Array.from({ length: hi - lo + 1 }, (_, k) => lo + k);
     items = words.map((w, i) => card(`data-lcs-vocab="${esc(keys[i])}" data-lcs-face="count"`,
-      pic(theme, nouns[i], 150) + bigWord(w) + row([1, 2, 3, 4].map((n, j) => opt(j, String(n), n === split(i).length, 140, 100, 44)).join(''), 12, false)));
+      pic(theme, nouns[i], 150) + bigWord(w) + row(NUMS.map((n, j) => opt(j, String(n), n === split(i).length, 140, 100, 44)).join(''), 12, false)));
   } else if (face === 'rewrite') {
     items = words.map((w, i) => {
       const toks = tokens(w, split(i));
       const right = toks.join(hy);
-      let opts = order([{ t: right, ok: true }, ...[...new Set(wrongDashes(toks, loc, hy))].filter((x) => x !== right).map((t) => ({ t }))], keys[i] + '|dash');
+      // two wrong ways of two DIFFERENT kinds, the pair hashed per card: merge+lone (right has the middle part count),
+      // lone+shift (fewest, tied), merge+shift (most, tied) — never "pick the middle" / "pick the odd one" (2026-10-06)
+      const K = wrongDashKinds(toks, loc, hy);
+      // preferred: wrong ways that share NO piece with the right one (the whole word; a break moved so a piece has no
+      // vowel) — a "lone consonant" split is cut FROM the right split, so it made the right one "the option sharing the
+      // most pieces" (measured 63%); it is only a fallback now
+      const PAIRS = [['merge', 'shift'], ['shift', 'shift'], ['merge', 'shift'], ['shift', 'shift'], ['lone', 'shift'], ['merge', 'lone']];
+      const p0 = hash(SALT + keys[i] + '|' + right + '|pair') % 4;
+      let wrong = null;
+      for (let d = 0; d < PAIRS.length && !wrong; d++) {
+        const [x, y] = PAIRS[d < 4 ? (p0 + d) % 4 : d];
+        if (x === y ? K[x].length >= 2 : (K[x].length && K[y].length)) wrong = x === y ? K[x].slice(0, 2) : [K[x][hash(keys[i] + x) % K[x].length], K[y][hash(keys[i] + y) % K[y].length]];
+      }
+      if (!wrong) wrong = [...new Set(wrongDashes(toks, loc, hy))].filter((x) => x !== right).slice(0, 2);
+      let opts = order([{ t: right, ok: true }, ...wrong.map((t) => ({ t }))], SALT + keys[i] + '|dash');
       // one row over the next is read as one line: rotate until no two rows read as a "free" claim (pt "bal-de" / "balde")
       for (let r = 0; r < opts.length && freeClaim.hit(opts.map((o) => o.t).join('\n')); r++) opts = opts.slice(1).concat(opts[0]);
       if (freeClaim.hit(opts.map((o) => o.t).join('\n'))) opts = [opts[0], opts[2], opts[1]].filter(Boolean);
@@ -107,8 +165,8 @@ function screen(built, face, loc, theme, b) {
       const shown = toks.map((t, k) => (k === bi ? `<span style="display:inline-block;min-width:110px;height:58px;margin:0 4px;vertical-align:middle;border:3px dashed ${CORAL};border-radius:10px;background:#FFF"></span>` : esc(t))).join('');
       const others = [...new Set(all.flatMap((t, k) => (k === i ? [] : t)).map((x) => x.toLocaleLowerCase(loc)))]
         .filter((x) => x !== toks[bi].toLocaleLowerCase(loc) && [...x].length >= 2 && !toks.some((t) => t.toLocaleLowerCase(loc) === x));
-      const wrong = order(others, keys[i] + '|miss').slice(0, 2);
-      const opts = order([{ t: bi === 0 ? toks[bi] : toks[bi].toLocaleLowerCase(loc), ok: true }, ...wrong.map((t) => ({ t: bi === 0 && b.casing === 'keep' ? t.charAt(0).toLocaleUpperCase(loc) + t.slice(1) : t }))], keys[i] + '|missopt');
+      const wrong = order(others, SALT + keys[i] + '|miss').slice(0, 2);
+      const opts = order([{ t: bi === 0 ? toks[bi] : toks[bi].toLocaleLowerCase(loc), ok: true }, ...wrong.map((t) => ({ t: bi === 0 && b.casing === 'keep' ? t.charAt(0).toLocaleUpperCase(loc) + t.slice(1) : t }))], SALT + keys[i] + '|missopt');
       return card(`data-lcs-vocab="${esc(keys[i])}" data-lcs-face="missing" data-lcs-blank="${bi}"`, pic(theme, nouns[i], 130) +
         `<div style="font-family:'Baloo 2',cursive;font-weight:700;font-size:44px;line-height:1.3;color:${INK}">${shown}</div>` +
         row(opts.map((o, j) => opt(j, o.t, o.ok, 190, 96, 38)).join(''), 12, false));
@@ -139,7 +197,9 @@ function screen(built, face, loc, theme, b) {
         const shown = toks.map((t, q) => (q === k ? `<span style="color:${CORAL};border-bottom:5px solid ${CORAL}">${esc(t)}</span>` : `<span style="color:#9AA3AF">${esc(t)}</span>`)).join('<span style="color:#C9CED4">·</span>');
         items.push(card(`data-lcs-vocab="${esc(keys[i])}" data-lcs-face="kings" data-lcs-syl="${k}"`, pic(theme, nouns[i], 90) +
           `<div style="font-family:'Baloo 2',cursive;font-weight:700;font-size:42px;line-height:1.2">${shown}</div>` +
-          row(u.map((x, j) => opt(j, x.t, x.v, uw, 96, 40)).join(''), 8, perRow < u.length)));
+          // the syllable is read in order ABOVE (highlighted in its word); its letters below are SHUFFLED, so the vowel is
+          // found by being a vowel, never by being "the 2nd tile" (2026-10-06: CV / CVC syllables put it 2nd on 64-97%)
+          row(order(u, SALT + keys[i] + '|' + k + '|units').map((x, j) => opt(j, x.t, x.v, uw, 96, 40)).join(''), 8, perRow < u.length)));
       });
     });
   } else {
@@ -197,4 +257,4 @@ function interactiveFor(face) {
   };
 }
 
-module.exports = { screen, oracle, interactiveFor, wrongDashes, units };
+module.exports = { screen, oracle, interactiveFor, wrongDashes, wrongDashKinds, units };

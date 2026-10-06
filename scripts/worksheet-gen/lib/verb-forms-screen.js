@@ -17,7 +17,8 @@
  * verb underlined with its infinitive in the box.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, pageSalt } = require('./answer-slots.js');
+let PAGE_SALT = '';
 const CORAL = '#F2784B', INK = '#1F2B2A', TEAL = '#146B5E';
 const SCR_W = 660, OPT_H = 100;
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -51,7 +52,7 @@ function optionsFor(bank, unit, inf, right, i) {
   const others = paradigm(bank, unit, inf).filter((f) => fold(f) !== fold(right));
   const k = others.length ? i % others.length : 0;
   const pick = others.slice(k).concat(others.slice(0, k)).slice(0, 2);
-  const at = slotFor(right + '|' + i, pick.length + 1);   // never i % n (a diagonal tell, 2026-10-06)
+  const at = slotFor(PAGE_SALT + right + '|' + i, pick.length + 1);   // never i % n (a diagonal tell, 2026-10-06)
   const o = pick.slice(); o.splice(at, 0, right);
   return { opts: o, at };
 }
@@ -84,6 +85,7 @@ function laneItems(bank, unit, lanes, start) {
 }
 
 function screenOrKey(mode, built, ctx, loc, bank) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const m = built.meta, unit = m.unit;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   if (ctx.interactive) {
@@ -102,7 +104,7 @@ function screenOrKey(mode, built, ctx, loc, bank) {
           const v = verbOf(bank, inf);
           const nextPast = formOf(bank, unit, m.verbs[(i + 1) % m.verbs.length], 'past');
           const labels = [v.forms[unit].past, v.forms[unit].pres, nextPast];
-          const at = slotFor(labels[0] + '|' + i, 3); const o = labels.slice(1); o.splice(at, 0, labels[0]);
+          const at = slotFor(PAGE_SALT + labels[0] + '|' + i, 3); const o = labels.slice(1); o.splice(at, 0, labels[0]);
           items.push(item(kind('match-tense', inf, 'past'), word(inf) + `<span style="font-size:40px;color:${TEAL};font-weight:800">&#8594;</span>` + GAP, optsHtml(o, at)));
         });
       } else {
@@ -113,7 +115,7 @@ function screenOrKey(mode, built, ctx, loc, bank) {
           const pool = bank.matchPersons.map((c) => v.forms[unit][c]).filter((f) => fold(f) !== fold(right));
           const n = items.length, k = pool.length ? n % pool.length : 0;
           const pick = [...new Set(pool.slice(k).concat(pool.slice(0, k)))].slice(0, 2);
-          const at = n % (pick.length + 1); const o = pick.slice(); o.splice(at, 0, right);
+          const at = slotFor(PAGE_SALT + right + '|' + n, pick.length + 1); const o = pick.slice(); o.splice(at, 0, right);   // was n % (pick.length + 1): the same diagonal (2026-10-06)
           items.push(item(kind('cell', inf, col), word(inf) + `<span style="font-family:Nunito,sans-serif;font-weight:800;font-size:30px;color:${TEAL}">${esc(label)}</span>` + GAP, optsHtml(o, at)));
         }
       }
@@ -137,7 +139,7 @@ function screenOrKey(mode, built, ctx, loc, bank) {
         const all = f.text.replace('{form}', ' ').split(/[^\p{L}'’-]+/u).filter((w) => w && fold(w) !== fold(form));
         const rank = (w) => (subj.has(fold(w)) ? -1 : [...w].length);
         const others = all.filter((w, k) => all.findIndex((x) => fold(x) === fold(w)) === k).sort((a, b) => rank(b) - rank(a)).slice(0, 2);
-        const at = slotFor(form + '|' + i, others.length + 1); const o = others.slice(); o.splice(at, 0, form);   // never a fixed rotation (a position tell, 2026-10-06)
+        const at = slotFor(PAGE_SALT + form + '|' + i, others.length + 1); const o = others.slice(); o.splice(at, 0, form);   // never a fixed rotation (a position tell, 2026-10-06)
         const shown = esc(f.text.replace('{form}', form));
         return item(kind('hunt', inf, col, ` data-lcs-frame="${esc(fid)}"`), sentence(shown), optsHtml(o, at));
       });

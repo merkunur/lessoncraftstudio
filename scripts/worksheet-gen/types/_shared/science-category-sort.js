@@ -69,7 +69,16 @@ function makeScienceCategorySort(cfg) {
         const take = Math.min(d.perBin, pool.length);
         for (const it of rng.sample(pool, take)) chosen.push(it);
       }
-      const strip = rng.shuffle(chosen);
+      let strip = rng.shuffle(chosen);
+      // a NEW page (never the published one: same rng draws there) re-draws a strip whose bins follow a tapping rhythm —
+      // the screen asks one bin per picture in strip order (2026-10-06: good, bad, good, bad in every locale)
+      // OPT-IN per type (cfg.levelSetRhythm): ~24 types share this factory and several shipped pages at levels 1 and 3, so
+      // only an interactive Level Set type (Feelings K-333) re-draws; its published page (level 2, copy 1) never does
+      const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      if (cfg.levelSetRhythm && !published) {
+        const { tappingRhythm } = require('../../lib/answer-slots.js');
+        for (let g = 0; g < 50 && tappingRhythm(strip.map((it) => binKeys.indexOf(it.bin)), binKeys.length); g++) strip = rng.shuffle(chosen);
+      }
 
       const itemPx = Math.min(78, Math.floor(648 / strip.length) - 12);
       const pad = Math.round(itemPx * 0.12);

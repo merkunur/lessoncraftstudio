@@ -17,6 +17,7 @@
  * real-or-not row ringed, and each name SEATED on its lane's writing row (key-on-row.js).
  */
 'use strict';
+const { shuffledOptions } = require('./answer-slots.js');
 const { seatOnRow } = require('./key-on-row.js');
 const { fileUri } = require('./b2-common.js');
 const { bank: loadBank } = require('./b5-common.js');
@@ -118,9 +119,11 @@ function screenOrKey(mode, built, ctx, loc, block) {
     } else if (mode === 'write-name') {
       const figs = figuresOf(html);
       if (figs.length !== m.answers.length) throw new Error(`2d-shapes screen: ${figs.length} figures for ${m.answers.length} lanes`);
-      // the box's four names, the order turned one step per shape (the right name never keeps one place)
+      // the box's four names in an order of their own per shape (2026-10-06: "turned one step per shape" put the right
+      // name in ONE slot on every card whenever the shapes came in the box's order); never a tapping rhythm
+      const orders = shuffledOptions(m.answers.map((k) => ({ options: m.bank, answer: k })), m.answers.join(',') + '|' + m.bank.join(','));
       items = m.answers.map((k, i) => {
-        const order = m.bank.map((_, j) => m.bank[(j + i) % m.bank.length]);
+        const order = orders[i];
         return item(`data-lcs-word="${i + 1}" ${figAttrs(figs[i])}`, scaled(figs[i], 210), opts(order.map((x) => names[x]), order.indexOf(k)));
       });
     } else if (mode === 'riddles') {

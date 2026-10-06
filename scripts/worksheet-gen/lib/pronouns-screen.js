@@ -12,6 +12,7 @@
  *   rewrite    the sentence → tap the sentence rewritten with the right pronoun (one per pronoun)
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const { seatAfter } = require('./key-on-row.js');
@@ -57,47 +58,57 @@ function screenOrKey(layout, built, ctx, loc, bank) {
   const html = built.bodyHtml;
   const out = { bodyHtml: html, meta: built.meta };
   const chips = bank.initial;   // the pronouns as a child writes them first in a sentence
+  // only the pronouns that ARE the answer somewhere on this page, at least two (2026-10-06 guessability audit: de "Es"
+  // offered on pages with no thing was never right — a free elimination that lifted "Sie" to 50% against 33%)
+  const onPage = (all, isUsed) => { const kept = all.filter(isUsed); return kept.length >= 2 ? kept : all; };
   if (ctx.interactive) {
     let items = [];
     if (layout === 'base') {
       const cards = elements(html, 'data-lcs-item');
-      const labels = bank.chips;
+      const usedB = new Set(cards.map((c) => +c.at['data-lcs-chip-key']));
+      const keep = onPage(bank.chips.map((w, j) => ({ w, j })), (x) => usedB.has(x.j));
+      const labels = keep.map((x) => x.w);
       items = cards.map((c) => {
         const names = (c.at['data-lcs-names'] || '').split('|').filter(Boolean);
         const plate = pPlate(html, c.index);
         const k = +c.at['data-lcs-chip-key'];
         return item(`data-lcs-names="${esc(names.join('|'))}" data-lcs-refs="${esc(c.at['data-lcs-refs'] || '')}"`, word(plate, 44),
-          opts(labels.map((l, j) => opt(j, l, j === k, chipW(labels, labels.length))).join('')));
+          opts(keep.map((x, j) => opt(j, x.w, x.j === k, chipW(labels, labels.length))).join('')));
       });
     } else if (layout === 'replace' || layout === 'rewrite') {
       const lanes = elements(html, 'data-lcs-frame');
+      const pronOf = (answer) => chips.filter((w) => answer === w || answer.startsWith(w + ' ')).sort((a, b) => b.length - a.length)[0];
+      const usedW = new Set(lanes.map((ln) => pronOf(ln.at['data-lcs-answer'] || '')).filter(Boolean));
+      const shown = onPage(chips, (w) => usedW.has(w));
       items = lanes.map((ln) => {
         const names = (ln.at['data-lcs-names'] || '').split('|').filter(Boolean);
         const answer = ln.at['data-lcs-answer'];
         if (layout === 'replace') {
           const line1 = pText(html, 'data-lcs-line1', ln.index), line2 = pText(html, 'data-lcs-line2', ln.index);
           return item(`data-lcs-names="${esc(names.join('|'))}" data-lcs-refs="${esc(ln.at['data-lcs-key'])}"`, text(esc(line1)) + '<br>' + text(GAP + esc(line2)),
-            opts(chips.map((w, j) => opt(j, w, w === answer, chipW(chips, chips.length))).join('')));
+            opts(shown.map((w, j) => opt(j, w, w === answer, chipW(shown, shown.length))).join('')));
         }
         const sentence = pText(html, 'data-lcs-sentence', ln.index);
         // the LONGEST pronoun the answer opens with: "Ellas juegan" must not match "Ella" (fr Elle/Elles, pt Ela/Elas)
         const pron = chips.filter((w) => answer.startsWith(w + ' ') || answer === w).sort((a, b) => b.length - a.length)[0];
         if (!pron) throw new Error(`pronouns screen: "${answer}" opens with no pronoun of ${chips.join('/')}`);
         const rest = answer.slice(pron.length);
-        const choices = chips.map((w) => w + rest);
+        const choices = shown.map((w) => w + rest);
         return item(`data-lcs-names="${esc(names.join('|'))}" data-lcs-rest="${esc(rest)}"`, text(esc(sentence), 32),
           opts(choices.map((c, j) => opt(j, c, c === answer, 310, 24)).join('')));   // two per row: one per row overflowed the 3600 screen
       });
     } else if (layout === 'possessive') {
       const lanes = elements(html, 'data-lcs-owner');
       const P = bank.possessive;
+      const usedK = new Set(lanes.map((ln) => +ln.at['data-lcs-chip-key']));
+      const offered = onPage(P.chips.map((w, j) => ({ w, j })), (x) => usedK.has(x.j));
       items = lanes.map((ln) => {
         const names = (ln.at['data-lcs-names'] || '').split('|').filter(Boolean);
         const frame = pText(html, 'data-lcs-frametext', ln.index);
         const k = +ln.at['data-lcs-chip-key'];
         const [pre, post] = splitAtBox(html, ln.index);
         return item(`data-lcs-names="${esc(names.join('|'))}" data-lcs-thing="${esc(ln.at['data-lcs-thing'])}"`, text(esc(pre) + GAP + esc(post)),
-          opts(P.chips.map((w, j) => opt(j, w, j === k, chipW(P.chips, P.chips.length))).join('')) + (frame ? '' : ''));
+          opts(offered.map((x, j) => opt(j, x.w, x.j === k, chipW(offered.map((y) => y.w), offered.length))).join('')) + (frame ? '' : ''));
       });
     } else if (layout === 'sort') {
       const cards = elements(html, 'data-lcs-sortword');
@@ -123,9 +134,12 @@ function screenOrKey(layout, built, ctx, loc, bank) {
           const restStart = seg.indexOf('</span>', seg.indexOf('data-lcs-pronoun', s.index)) + 7;
           const rest = unesc(seg.slice(restStart, seg.indexOf('</div>', restStart)).replace(/<[^>]*>/g, '')).trim();
           const want = s.at['data-lcs-ref'];
-          items.push(item(`data-lcs-pron="${esc(pron)}" data-lcs-plates="${esc(plates.map((p) => p.names.join('+')).join('|'))}"`,
+          // the two plates in an order of their own per sentence (2026-10-06: story order made the answers alternate) —
+          // ONE order for the buttons AND the card's record, which the robot's oracle reads
+          const shownPl = slotFor(intro + '|' + pron + '|' + rest + '|' + items.length, 2) ? plates.slice().reverse() : plates;
+          items.push(item(`data-lcs-pron="${esc(pron)}" data-lcs-plates="${esc(shownPl.map((p) => p.names.join('+')).join('|'))}"`,
             text(esc(intro), 26) + '<br>' + text(`<span style="border:3px solid #146B5E;border-radius:10px;padding:0 10px">${esc(pron)}</span> ${esc(rest)}`, 32),
-            opts(plates.map((p, j) => opt(j, p.plate, p.t === want, 300)).join(''))));
+            opts(shownPl.map((p, j) => opt(j, p.plate, p.t === want, 300)).join(''))));
         });
       });
     } else throw new Error(`pronouns screen: layout "${layout}" has no screen`);

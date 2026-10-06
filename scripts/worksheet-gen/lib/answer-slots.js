@@ -23,4 +23,13 @@ function answerSlots(n, seedStr, k = 3) {
   return out;
 }
 
-module.exports = { answerSlots };
+/**
+ * slotFor(key, n) — one card's slot when a screen builds its cards one at a time: a hash of the card's own content
+ * (its right answer + its index), so the slots run irregularly and evenly in the long run, never i % n.
+ */
+function slotFor(key, n) {
+  if (!(n >= 1)) return 0;
+  return crypto.createHash('sha1').update(String(key)).digest().readUInt32LE(0) % n;
+}
+
+module.exports = { answerSlots, slotFor };

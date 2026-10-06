@@ -13,6 +13,7 @@
  * The ask page (G2-357) is open-ended: printable only, no key.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
@@ -67,7 +68,7 @@ function markedHtml(text, mark) {
 function rotate(correct, others, i, n = 3) {
   const pool = others.filter((x) => x !== correct).slice(0, n - 1);
   if (pool.length < n - 1) throw new Error(`question-words screen: ${pool.length + 1} options for "${correct}" (want ${n})`);
-  const at = i % n;
+  const at = slotFor(correct + '|' + i, n);   // never i % n (a diagonal tell, 2026-10-06)
   return [...pool.slice(0, at), correct, ...pool.slice(at)];
 }
 

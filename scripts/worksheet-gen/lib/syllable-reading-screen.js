@@ -14,6 +14,7 @@
  * outlined, carpet cells filled in their card's colour, numbers centred in their boxes.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 const { bank } = require('./b3-common.js');
 const { fileUri } = require('./b2-common.js');
 const { seatAfter } = require('./key-on-row.js');
@@ -59,7 +60,7 @@ function rotate(right, others, i, loc) {
   const o = [];
   for (const x of others) if (low(x, loc) !== low(right, loc) && !o.some((y) => low(y, loc) === low(x, loc))) o.push(x);
   const pick = o.slice(i % Math.max(1, o.length)).concat(o.slice(0, i % Math.max(1, o.length))).slice(0, 2);
-  const at = i % (pick.length + 1); const out = pick.slice(); out.splice(at, 0, right);
+  const at = slotFor(right + '|' + i, pick.length + 1); const out = pick.slice(); out.splice(at, 0, right);   // never i % n (2026-10-06)
   return { opts: out, at };
 }
 

@@ -12,6 +12,7 @@
  * G1-336 (pair up) is printable only: sorting twelve words into written pairs has no single-answer tap.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const { seatAfter } = require('./key-on-row.js');
@@ -38,7 +39,7 @@ function rotation(list, i) {
   const own = list[i];
   const others = [1, 2].map((k) => list[(i + k) % list.length]).filter((x) => x !== own);
   const o = others.slice(0, 2);
-  const at = i % (o.length + 1);
+  const at = slotFor(own + '|' + i, o.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
   o.splice(at, 0, own);
   return { opts: o, at };
 }

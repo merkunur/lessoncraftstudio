@@ -12,6 +12,7 @@
  *   key:    the printed page with every answer digit written in its own dashed cell.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660, OPT_H = 100;
@@ -74,7 +75,7 @@ function screenOrKey(built, ctx, { regroup }) {
     // the chips read in ascending order, so the answer's place is its rank
     const ROT = [1, 0, 2, 0, 1, 2, 2, 0, 1];
     const items = P.map((p, i) => {
-      const vals = [...mistakes(p.a, p.b, p.op, regroup, ROT[i % ROT.length]), solve(p.a, p.b, p.op)].sort((x, y) => x - y);
+      const vals = [...mistakes(p.a, p.b, p.op, regroup, ROT[slotFor(p.a + p.op + p.b + '|' + i, ROT.length)]), solve(p.a, p.b, p.op)].sort((x, y) => x - y);
       const at = vals.indexOf(solve(p.a, p.b, p.op));
       const chips = vals.map((v, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${v}"${j === at ? ' data-lcs-correct="1"' : ''} style="width:190px;height:${OPT_H}px;box-sizing:border-box;font-size:42px">${v}</span>`).join('');
       // the card without its empty answer row's dashed cells looking like a question to tap: the chips answer it

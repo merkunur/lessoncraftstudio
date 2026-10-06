@@ -14,6 +14,7 @@
  * (key-on-row.js — on the base rule, x-height to the dashed midline), a circled answer outlined.
  */
 'use strict';
+const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
@@ -43,7 +44,7 @@ function rotation(list, i) {
   const own = list[i];
   const others = [];
   for (let k = 1; k < list.length && others.length < 2; k++) { const x = list[(i + k) % list.length]; if (x !== own && !others.includes(x)) others.push(x); }
-  const at = i % (others.length + 1);
+  const at = slotFor(own + '|' + i, others.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
   const o = others.slice();
   o.splice(at, 0, own);
   return { opts: o, at };

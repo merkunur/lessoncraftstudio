@@ -151,7 +151,9 @@ async function renderInstance(o) {
     // every rectangle is measured against that crop
     const geo = await page.evaluate((sp) => {
       const full = document.querySelector('[data-lcs-page]').getBoundingClientRect();
-      const lowest = Math.max(...[...document.querySelectorAll(sp.item)].map((el) => el.getBoundingClientRect().bottom));
+      // the crop also keeps [data-lcs-keep] rows: printed parts of the task BELOW the last tappable item (Days and Months
+      // 2026-10-06: a printed "1 Sunday" under the last card was cut off the live screen)
+      const lowest = Math.max(...[...document.querySelectorAll(sp.item + ', [data-lcs-keep]')].map((el) => el.getBoundingClientRect().bottom));
       const pg = { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
       window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: pg.height };
       const pct = (v, base, size) => ((v - base) / size) * 100;

@@ -34,7 +34,7 @@
      "q": "Mitä äiti keitti heille?",
      "choices": [
       "teetä",
-      "kahvia",
+      "kuumaa kahvia maidon kanssa",
       "lämmintä kaakaota"
      ],
      "correct": 2,
@@ -113,7 +113,7 @@
       "q": "Miten Aino kohtelee Viirua?",
       "choices": [
        "hän pitää siitä hyvää huolta",
-       "hän ei välitä siitä",
+       "hän ei välitä siitä ollenkaan eikä silitä sitä",
        "hän pelkää sitä"
       ],
       "correct": 0
@@ -325,7 +325,7 @@
      {
       "q": "Millainen kuljettaja on?",
       "choices": [
-       "kiukkuinen",
+       "kiukkuinen ja äkäinen",
        "ystävällinen",
        "tyly"
       ],
@@ -615,7 +615,7 @@
      {
       "q": "Mitä rasiassa oli aamulla?",
       "choices": [
-       "kirje",
+       "pitkä kirje hammaskeijulta",
        "kiiltävä kolikko",
        "karamelli"
       ],
@@ -676,7 +676,7 @@
      {
       "q": "Millä Ella kasteli multaa?",
       "choices": [
-       "letkulla",
+       "pitkällä vihreällä letkulla",
        "pienellä kannulla",
        "mukilla"
       ],
@@ -1034,7 +1034,7 @@
        "q": "Miksi Linnea tarvitsee aluksi tuolia?",
        "choices": [
         "hän ei vielä osaa luistella hyvin",
-        "tuoli on hänen lempileluaan",
+        "hänen luistimensa ovat liian isot ja löysät",
         "hän haluaa istua"
        ],
        "correct": 0
@@ -1222,7 +1222,7 @@
       "q": "Minne Hilla ripustaa housut?",
       "choices": [
        "tuolille",
-       "narulle",
+       "pihan pyykkinarulle",
        "patterin päälle"
       ],
       "correct": 2,
@@ -1274,7 +1274,7 @@
       "q": "Kenen kanssa Juho rakentaa linnaa?",
       "choices": [
        "pikkusiskonsa",
-       "isänsä",
+       "isänsä ja äitinsä",
        "kaverinsa"
       ],
       "correct": 0
@@ -1282,7 +1282,7 @@
      {
       "q": "Mikä huuhtoo linnan pois?",
       "choices": [
-       "koira",
+       "naapurin iso koira",
        "iso aalto",
        "sade"
       ],
@@ -1312,7 +1312,7 @@
      {
       "q": "Millä he kastelevat hiekkaa?",
       "choices": [
-       "kupilla",
+       "pienellä kupilla",
        "ämpärillä",
        "kannulla"
       ],
@@ -1385,7 +1385,7 @@
      {
       "q": "Mitä luokkakaverit leikkivät?",
       "choices": [
-       "hippaa",
+       "hippaa pihalla",
        "piilosta",
        "kotia"
       ],
@@ -1395,7 +1395,7 @@
       "q": "Miksi Kerttu on illalla väsynyt?",
       "choices": [
        "päivä oli täynnä juhlaa ja leikkiä",
-       "hän heräsi yöllä",
+       "hän heräsi yöllä ukkoseen eikä saanut enää unta",
        "hän oli sairas"
       ],
       "correct": 0
@@ -1609,7 +1609,7 @@
       "choices": [
        "aamulla",
        "välitunnin jälkeen",
-       "ruokatunnilla"
+       "ruokatunnilla ruokalassa"
       ],
       "correct": 1,
       "sentence": 1
@@ -1618,7 +1618,7 @@
       "q": "Mikä kuva lapasessa on?",
       "choices": [
        "valkoinen tähti",
-       "sydän",
+       "iso punainen sydän",
        "kukka"
       ],
       "correct": 0,
@@ -1628,7 +1628,7 @@
       "q": "Mistä opettaja löytää lapasen?",
       "choices": [
        "naulakosta",
-       "luokasta",
+       "luokan kirjahyllystä",
        "liukumäen alta"
       ],
       "correct": 2,
@@ -1844,7 +1844,7 @@
        "q": "Miksi Joel pystyy sanomaan vuorosanansa kovalla äänellä?",
        "choices": [
         "mummon vilkutus rohkaisee häntä",
-        "opettaja kuiskaa ne hänelle",
+        "opettaja kuiskaa ne hänelle verhon takaa",
         "hänellä on mikrofoni"
        ],
        "correct": 0
@@ -1949,7 +1949,7 @@
        "choices": [
         "jotta pönttö saadaan korkealle koivuun",
         "hän haluaa nähdä kauas",
-        "hän korjaa talon kattoa"
+        "hän korjaa talon kattoa ennen kovaa syysmyrskyä"
        ],
        "correct": 0
       },
@@ -1996,7 +1996,7 @@
      {
       "q": "Mitä äiti antaa Wilmalle?",
       "choices": [
-       "karkkia",
+       "pussin karkkia",
        "purukumia",
        "vettä"
       ],
@@ -2060,7 +2060,7 @@
        "choices": [
         "tylsältä",
         "jännittävältä ja hauskalta",
-        "vihaiselta"
+        "vihaiselta ja kiukkuiselta"
        ],
        "correct": 1
       }
@@ -2153,14 +2153,14 @@
        "choices": [
         "hän haluaa rohkaista joukkuetta",
         "hän on vihainen Rasmukselle",
-        "hän haluaa lähteä kotiin"
+        "hän haluaa lähteä kotiin ennen kuin peli loppuu"
        ],
        "correct": 0
       },
       {
        "q": "Miten ottelu luultavasti päättyy?",
        "choices": [
-        "1–0 vastustajalle",
+        "1–0 vastustajan joukkueelle",
         "0–0",
         "2–1 Rasmuksen joukkueelle"
        ],
@@ -2255,7 +2255,7 @@
        "choices": [
         "mitkä linssit auttavat Millaa näkemään",
         "mikä on Millan lempiväri",
-        "kuinka pitkä Milla on"
+        "kuinka pitkä Milla on ja kuinka paljon hän painaa"
        ],
        "correct": 0
       },
@@ -2263,7 +2263,7 @@
        "q": "Miltä Millasta luultavasti tuntuu uusien lasien kanssa?",
        "choices": [
         "surulliselta",
-        "vihaiselta",
+        "vihaiselta ja kiukkuiselta",
         "tyytyväiseltä"
        ],
        "correct": 2
@@ -2400,7 +2400,7 @@
       "choices": [
        "Tampereelle",
        "Turkuun",
-       "Helsinkiin"
+       "Helsingin keskustaan"
       ],
       "correct": 0
      },
@@ -2462,7 +2462,7 @@
        "choices": [
         "Venla matkustaa ilman aikuista",
         "Venla on sairas",
-        "Venla on eksynyt"
+        "Venla on eksynyt asemalla ja itkee"
        ],
        "correct": 0
       },
@@ -2540,7 +2540,7 @@
      {
       "q": "Kuka huutaa bravoa?",
       "choices": [
-       "isä",
+       "isä ja äiti",
        "pikkuveli",
        "opettaja"
       ],
@@ -2550,7 +2550,7 @@
      {
       "q": "Mitä opettajan mukaan Nelli voi katsoa?",
       "choices": [
-       "yleisöä",
+       "yleisöä ja omaa äitiään",
        "omaa kitaraansa",
        "kattoa"
       ],
@@ -2770,7 +2770,7 @@
        "q": "Miltä Yasminista luultavasti tuntuu ennen kuin Sanni tulee?",
        "choices": [
         "yksinäiseltä",
-        "iloiselta",
+        "iloiselta ja ylpeältä",
         "ylpeältä"
        ],
        "correct": 0
@@ -2778,7 +2778,7 @@
       {
        "q": "Miksi Yasmin odottaa Sannia portilla?",
        "choices": [
-        "hän on unohtanut reppunsa",
+        "hän on unohtanut reppunsa kotiin eteiseen aamulla",
         "Sanni on myöhässä",
         "hän haluaa leikkiä Sannin kanssa"
        ],
@@ -2811,7 +2811,7 @@
       "q": "Mitä suuressa salissa on?",
       "choices": [
        "dinosauruksen luuranko",
-       "valaan luuranko",
+       "suuren sinivalaan luuranko",
        "kivikokoelma"
       ],
       "correct": 0
@@ -2821,7 +2821,7 @@
       "choices": [
        "kirjan",
        "muovidinosauruksen",
-       "julisteen"
+       "ison värikkään julisteen"
       ],
       "correct": 1
      },
@@ -2989,7 +2989,7 @@
        "choices": [
         "hän ei pidä vedestä",
         "se tekee hyvää kipeälle kurkulle",
-        "hänellä on juhlat"
+        "hänellä on syntymäpäiväjuhlat illalla kotona"
        ],
        "correct": 1
       }
@@ -3154,7 +3154,7 @@
       "q": "Mitä pojat levittävät maahan?",
       "choices": [
        "sammalta",
-       "lehtiä",
+       "kuivia lehtiä",
        "heinää"
       ],
       "correct": 0,
@@ -3165,7 +3165,7 @@
       "choices": [
        "Tervetuloa",
        "Vain ystäville",
-       "Pysy poissa"
+       "Pysy poissa majasta"
       ],
       "correct": 1,
       "sentence": 5
@@ -3299,7 +3299,7 @@
       {
        "q": "Miksi Ronjan pitää kirjoittaa osoitteensa paperin taakse?",
        "choices": [
-        "jotta piirustus on kauniimpi",
+        "jotta piirustus näyttää kauniimmalta ja värikkäämmältä seinällä",
         "jotta lehti voi lähettää hänelle kirjeen",
         "koska paperi on liian iso"
        ],

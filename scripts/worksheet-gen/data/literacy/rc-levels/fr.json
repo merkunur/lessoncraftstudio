@@ -89,7 +89,7 @@
     {
      "q": "Dans quoi Mimi boit-il ?",
      "choices": [
-      "Dans une tasse",
+      "Dans une tasse rouge",
       "Dans un bol bleu",
       "Dans un verre"
      ],
@@ -99,7 +99,7 @@
     {
      "q": "Où Mimi va-t-il dormir ?",
      "choices": [
-      "Sur le lit de Léa",
+      "Sur le lit de Léa, dans sa chambre",
       "Dans le jardin",
       "Sur le canapé du salon"
      ],
@@ -381,7 +381,7 @@
      {
       "q": "Pourquoi Tom allume-t-il la lampe de poche ?",
       "choices": [
-       "Pour chercher son chien",
+       "Pour chercher son chien dans le noir",
        "Pour voir assez clair pour lire",
        "Pour faire peur à Jade"
       ],
@@ -390,7 +390,7 @@
      {
       "q": "Où se trouvent Jade et Tom ?",
       "choices": [
-       "Dans leur chambre",
+       "Dans leur chambre à la maison",
        "Dehors, dans la nature",
        "À l'école"
       ],
@@ -451,7 +451,7 @@
       "choices": [
        "Parce qu'il est rempli de courses",
        "Parce que Lina est dedans",
-       "Parce qu'il est en fer"
+       "Parce qu'il est en fer très épais"
       ],
       "correct": 0
      },
@@ -497,7 +497,7 @@
      "q": "Que répète la classe ?",
      "choices": [
       "Une danse et deux chansons",
-      "Une pièce de théâtre",
+      "Une longue pièce de théâtre",
       "Un tour de magie"
      ],
      "correct": 0,
@@ -519,7 +519,7 @@
      {
       "q": "Pourquoi Malo respire-t-il un grand coup ?",
       "choices": [
-       "Parce qu'il a couru",
+       "Parce qu'il a couru très vite",
        "Pour se donner du courage",
        "Parce qu'il a froid"
       ],
@@ -529,7 +529,7 @@
       "q": "Qu'ont pensé les parents du spectacle ?",
       "choices": [
        "Ils l'ont beaucoup aimé",
-       "Ils se sont ennuyés",
+       "Ils se sont beaucoup ennuyés",
        "Ils ne l'ont pas vu"
       ],
       "correct": 0
@@ -570,7 +570,7 @@
      {
       "q": "De quelle forme est le cerf-volant ?",
       "choices": [
-       "En forme d'oiseau",
+       "En forme de grand oiseau",
        "En forme d'étoile",
        "En forme de poisson"
       ],
@@ -581,7 +581,7 @@
       "choices": [
        "Il est content",
        "Il a peur",
-       "Il s'ennuie"
+       "Il s'ennuie beaucoup"
       ],
       "correct": 0
      }
@@ -592,7 +592,7 @@
       "choices": [
        "Mardi",
        "Mercredi",
-       "Samedi"
+       "Vendredi"
       ],
       "correct": 1,
       "sentence": 1
@@ -661,7 +661,7 @@
      {
       "q": "Quelles graines Bastien plante-t-il ?",
       "choices": [
-       "Des graines de tomate",
+       "Des graines de tomate cerise",
        "Des graines de tournesol",
        "Des graines de radis"
       ],
@@ -680,7 +680,7 @@
       "q": "Pourquoi Bastien appelle-t-il vite sa sœur ?",
       "choices": [
        "Parce que le pot est tombé",
-       "Parce qu'il a faim",
+       "Parce qu'il a très faim et veut son goûter",
        "Parce qu'il est heureux de voir la pousse"
       ],
       "correct": 2
@@ -690,7 +690,7 @@
      {
       "q": "Où Bastien met-il le pot ?",
       "choices": [
-       "Sur la table",
+       "Sur la grande table de la cuisine",
        "Sur le rebord de la fenêtre",
        "Sous son lit"
       ],
@@ -701,7 +701,7 @@
       "q": "Avec quoi Bastien arrose-t-il la terre ?",
       "choices": [
        "Avec un arrosoir",
-       "Avec une bouteille",
+       "Avec une grande bouteille",
        "Avec un petit verre d'eau"
       ],
       "correct": 2,
@@ -792,7 +792,7 @@
       "choices": [
        "Dans la forêt",
        "Au fond du jardin",
-       "Près de l'école"
+       "Près de l'école du village"
       ],
       "correct": 1,
       "sentence": 2
@@ -994,7 +994,7 @@
       "choices": [
        "À la récréation",
        "Au goûter",
-       "À la cantine"
+       "À la cantine du midi"
       ],
       "correct": 0,
       "sentence": 1
@@ -1027,7 +1027,7 @@
        "choices": [
         "Pour laisser partir la coccinelle",
         "Pour prendre son goûter",
-        "Pour dire au revoir à Zoé"
+        "Pour dire au revoir à son amie Zoé"
        ],
        "correct": 0
       },
@@ -1112,7 +1112,7 @@
      {
       "q": "Comment Jules s'approche-t-il ?",
       "choices": [
-       "En courant",
+       "En courant très vite",
        "Sans faire de bruit",
        "En criant"
       ],
@@ -1429,7 +1429,7 @@
        "q": "Pourquoi les œufs sont-ils encore chauds ?",
        "choices": [
         "Parce que les poules viennent de les pondre",
-        "Parce que Mamie les a fait cuire",
+        "Parce que Mamie les a fait cuire dans la casserole",
         "Parce qu'il fait très chaud dehors"
        ],
        "correct": 0
@@ -1437,7 +1437,7 @@
       {
        "q": "Pourquoi les poules courent-elles vers Arthur ?",
        "choices": [
-        "Parce qu'elles ont peur de lui",
+        "Parce qu'elles ont très peur de lui",
         "Parce qu'il leur apporte à manger",
         "Parce qu'il pleut"
        ],
@@ -1476,7 +1476,7 @@
      {
       "q": "Que peut-on dire de Clara ?",
       "choices": [
-       "Elle oublie son poisson",
+       "Elle oublie souvent de nourrir son poisson",
        "Elle s'occupe bien de son poisson",
        "Elle a peur de l'eau"
       ],
@@ -1486,7 +1486,7 @@
       "q": "Quel jour change-t-on l'eau de l'aquarium ?",
       "choices": [
        "Le lundi",
-       "Le samedi",
+       "Le samedi soir",
        "Le mercredi"
       ],
       "correct": 2
@@ -1669,7 +1669,7 @@
      {
       "q": "Que portent les fourmis ?",
       "choices": [
-       "Des feuilles",
+       "Des feuilles d'arbre",
        "Des miettes de pain",
        "Des graines"
       ],
@@ -1680,14 +1680,14 @@
       "choices": [
        "En une longue file",
        "En rond",
-       "Toutes mélangées"
+       "Toutes mélangées en tas"
       ],
       "correct": 0
      },
      {
       "q": "Que peut-on dire des fourmis ?",
       "choices": [
-       "Elles se battent",
+       "Elles se battent entre elles",
        "Elles dorment",
        "Elles s'aident entre elles"
       ],
@@ -1800,7 +1800,7 @@
       "q": "Quand Lucie garde-t-elle le lapin ?",
       "choices": [
        "Pendant les vacances",
-       "Pendant la classe",
+       "Pendant la classe du matin",
        "Pendant la nuit"
       ],
       "correct": 0,
@@ -1979,7 +1979,7 @@
       "q": "Où Noémie fait-elle une balade ?",
       "choices": [
        "Dans la forêt",
-       "Sur la plage",
+       "Sur la grande plage",
        "En ville"
       ],
       "correct": 0
@@ -1987,7 +1987,7 @@
      {
       "q": "De quelle couleur sont les yeux de la chouette ?",
       "choices": [
-       "Verts",
+       "Orange",
        "Jaunes",
        "Noirs"
       ],
@@ -1998,7 +1998,7 @@
       "choices": [
        "Elle aime les oiseaux et les respecte",
        "Elle a peur du noir",
-       "Elle veut attraper la chouette"
+       "Elle veut attraper la chouette pour la garder"
       ],
       "correct": 0
      }
@@ -2042,7 +2042,7 @@
        "choices": [
         "Parce qu'il fait noir",
         "Pour jouer",
-        "Parce qu'il pleut"
+        "Parce qu'il pleut très fort"
        ],
        "correct": 0
       },
@@ -2185,14 +2185,14 @@
       "choices": [
        "Dans l'herbe du jardin",
        "Sur le lit",
-       "Sur la plage"
+       "Sur la plage, près de la mer"
       ],
       "correct": 0
      },
      {
       "q": "Qu'est-ce qui traverse le ciel ?",
       "choices": [
-       "Un avion",
+       "Un avion tout illuminé",
        "Une étoile filante",
        "Un oiseau"
       ],
@@ -2391,7 +2391,7 @@
      {
       "q": "Que demande Manon ?",
       "choices": [
-       "Un croissant",
+       "Un croissant au chocolat",
        "Une baguette bien cuite",
        "Un gâteau"
       ],
@@ -2411,7 +2411,7 @@
       "choices": [
        "Elle a fait les courses toute seule",
        "Elle a mangé la baguette",
-       "Elle a trouvé de l'argent"
+       "Elle a trouvé de l'argent dans la rue"
       ],
       "correct": 0
      }
@@ -2495,7 +2495,7 @@
       "choices": [
        "Dimanche",
        "Lundi",
-       "Samedi"
+       "Mercredi"
       ],
       "correct": 0
      },
@@ -2513,7 +2513,7 @@
       "choices": [
        "Fatigué mais content",
        "Triste et fâché",
-       "Malade"
+       "Malade et très triste"
       ],
       "correct": 0
      }
@@ -2522,7 +2522,7 @@
      {
       "q": "Où Nathan et son papa installent-ils la table ?",
       "choices": [
-       "Dans le jardin",
+       "Dans le jardin derrière",
        "Devant la maison",
        "Au marché"
       ],
@@ -2532,7 +2532,7 @@
      {
       "q": "Qu'achète Nathan avec l'argent gagné ?",
       "choices": [
-       "Un ballon",
+       "Un ballon de foot tout neuf",
        "Une petite voiture",
        "Un puzzle de dinosaures"
       ],
@@ -2566,7 +2566,7 @@
        "choices": [
         "Il n'aime pas les dinosaures",
         "Il a hâte de finir son puzzle",
-        "Il veut revendre son puzzle"
+        "Il veut revendre son puzzle le lendemain"
        ],
        "correct": 1
       }
@@ -2718,7 +2718,7 @@
       "q": "Pourquoi Rayan cache-t-il le paquet ?",
       "choices": [
        "Pour faire une surprise à sa maman",
-       "Parce qu'il a honte",
+       "Parce qu'il a honte de son petit cadeau",
        "Parce qu'il pleut"
       ],
       "correct": 0
@@ -2821,7 +2821,7 @@
       "q": "Pourquoi la boîte est-elle vite vide ?",
       "choices": [
        "Les cookies plaisent beaucoup",
-       "Timéo les a mangés",
+       "Timéo les a tous mangés en chemin",
        "La boîte est tombée"
       ],
       "correct": 0
@@ -2972,7 +2972,7 @@
        "choices": [
         "Parce qu'elle a honte",
         "Parce qu'elle a fait un gros effort",
-        "Parce qu'elle est en colère"
+        "Parce qu'elle est très en colère contre Maëlle"
        ],
        "correct": 1
       },
@@ -3282,7 +3282,7 @@
       {
        "q": "Comment se sent Nour au début ?",
        "choices": [
-        "Elle est joyeuse",
+        "Elle est très joyeuse et bavarde",
         "Elle se sent un peu perdue",
         "Elle est en colère"
        ],
@@ -3292,7 +3292,7 @@
        "q": "Que peut-on dire de Victor ?",
        "choices": [
         "Il est gentil avec les autres",
-        "Il se moque des autres",
+        "Il se moque souvent des autres",
         "Il n'aime pas jouer"
        ],
        "correct": 0

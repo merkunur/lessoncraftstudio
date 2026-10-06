@@ -74,7 +74,7 @@ for (const prefix of prefixes) for (const loc of locales) {
     const b = bundleFrom(built.bodyHtml, sp);
     if (!b) continue;
     (groups[it.typeId] = groups[it.typeId] || []).push(b);
-    if (show && it.typeId === show && shown++ < 2 && b.kind === 'tap-choice') {
+    if (show && it.typeId === show && shown++ < (+process.env.SHOW_N || 2) && b.kind === 'tap-choice') {
       console.log(`## ${it.typeId} ${loc} d${it.difficulty} v${it.variant}`);
       b.items.forEach((x, i) => console.log('   ' + x.options.map((o, j) => (j === b.answers[i] ? '[' + o.label + ']' : o.label)).join(' | ')));
     }

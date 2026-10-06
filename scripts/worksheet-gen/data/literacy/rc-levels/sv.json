@@ -316,7 +316,7 @@
       "choices": [
        "Mormor lagar fisksoppa",
        "Det finns nybakade bullar i ugnen",
-       "Någon har tänt ett ljus"
+       "Någon har tänt ett doftljus på köksbordet"
       ],
       "correct": 1
      },
@@ -382,7 +382,7 @@
       "q": "Varför visar bibliotekarien just hyllan med rymdböcker?",
       "choices": [
        "Hon vet vad Ines vill läsa om",
-       "Den hyllan är närmast dörren",
+       "Den hyllan är närmast dörren och fönstret",
        "Alla andra hyllor är tomma"
       ],
       "correct": 0
@@ -390,7 +390,7 @@
      {
       "q": "Hur är Ines mot sin lillebror?",
       "choices": [
-       "Hon bryr sig inte om honom",
+       "Hon bryr sig inte alls om honom",
        "Hon är snäll och delar med sig",
        "Hon är arg på honom"
       ],
@@ -599,7 +599,7 @@
      {
       "q": "Vem visar Elsa gluggen för?",
       "choices": [
-       "Mamma",
+       "Mamma och pappa i köket",
        "Sin storasyster Klara",
        "Pappa"
       ],
@@ -610,7 +610,7 @@
       "q": "Vad ligger i glaset på morgonen?",
       "choices": [
        "Ett brev",
-       "En ny tand",
+       "En ny vit tand",
        "En tiokrona"
       ],
       "correct": 2,
@@ -811,7 +811,7 @@
      {
       "q": "Var lägger Lina pengarna?",
       "choices": [
-       "I en plånbok",
+       "I en gammal plånbok",
        "I en plåtburk",
        "I fickan"
       ],
@@ -913,7 +913,7 @@
      {
       "q": "Var väntar farmor?",
       "choices": [
-       "I bilen",
+       "I den röda bilen",
        "Hemma",
        "På perrongen"
       ],
@@ -1094,7 +1094,7 @@
       "q": "Vad sitter Bosse på?",
       "choices": [
        "En hög stol",
-       "En pall",
+       "En liten pall av trä",
        "En soffa"
       ],
       "correct": 0,
@@ -1204,7 +1204,7 @@
       "q": "Vad tar Dalia på sig?",
       "choices": [
        "Skridskor och hjälm",
-       "Vantar och mössa",
+       "Vantar och en tjock mössa",
        "Stövlar"
       ],
       "correct": 0,
@@ -1266,7 +1266,7 @@
       "choices": [
        "Sju år",
        "Åtta år",
-       "Nio år"
+       "Nio och ett halvt år"
       ],
       "correct": 1
      },
@@ -1407,7 +1407,7 @@
       "q": "Vad hänger pappa upp?",
       "choices": [
        "Runda lyktor",
-       "Ballonger",
+       "Färgglada ballonger",
        "Flaggor"
       ],
       "correct": 0,
@@ -1416,7 +1416,7 @@
      {
       "q": "Var somnar Adam?",
       "choices": [
-       "I sin säng",
+       "I sin säng i rummet",
        "I soffan",
        "I hängmattan"
       ],
@@ -1431,7 +1431,7 @@
        "choices": [
         "Osten är billigare",
         "Han vill inte kladda med kräftorna",
-        "Han har redan ätit tio kräftor"
+        "Han har redan ätit tio stora kräftor"
        ],
        "correct": 1
       },
@@ -1469,7 +1469,7 @@
       "q": "Vilket datum är Liv lucia?",
       "choices": [
        "Den trettonde december",
-       "Den första december",
+       "Den första december på morgonen",
        "På julafton"
       ],
       "correct": 0
@@ -1570,7 +1570,7 @@
       "q": "Var bygger de kojan?",
       "choices": [
        "Under äppelträdet",
-       "I skogen",
+       "Långt in i den mörka skogen",
        "På vinden"
       ],
       "correct": 0
@@ -1587,7 +1587,7 @@
      {
       "q": "Varför lägger Filip en presenning över kojan?",
       "choices": [
-       "Så att ingen ska se dem",
+       "Så att ingen ska kunna se dem där inne",
        "Så att det inte ska regna in",
        "Den är vacker"
       ],
@@ -1700,7 +1700,7 @@
       "q": "När hjälper Clara till i ladugården?",
       "choices": [
        "På morgonen",
-       "På kvällen",
+       "Sent på kvällen",
        "På natten"
       ],
       "correct": 0,
@@ -1820,7 +1820,7 @@
      {
       "q": "Var lägger Ingrid några blommor?",
       "choices": [
-       "I en vas",
+       "I en blå vas på bordet",
        "På bordet",
        "Under kudden"
       ],
@@ -1937,7 +1937,7 @@
        "q": "Varför skrattar Ture också?",
        "choices": [
         "Han tycker själv att det var roligt",
-        "Han har slagit sig illa",
+        "Han har slagit sig väldigt illa i knät",
         "Han vill gå hem"
        ],
        "correct": 0
@@ -1945,7 +1945,7 @@
       {
        "q": "Vad visar det att alla barn kommer trots regnet?",
        "choices": [
-        "Tränaren är arg på dem",
+        "Tränaren är väldigt arg på dem allihop",
         "De vet inte att det regnar",
         "De tycker mycket om att spela"
        ],
@@ -2005,7 +2005,7 @@
      {
       "q": "Vad tar Tuva på sig?",
       "choices": [
-       "sin regnjacka",
+       "sin gula regnjacka med luva",
        "sina gympaskor",
        "sina röda gummistövlar"
       ],
@@ -2016,7 +2016,7 @@
       "q": "I vilken pöl hoppar Tuva?",
       "choices": [
        "den största pölen",
-       "den minsta pölen",
+       "den allra minsta pölen",
        "pölen vid skolan"
       ],
       "correct": 0,
@@ -2141,7 +2141,7 @@
        "q": "Varför andas Yusuf djupt?",
        "choices": [
         "Han vill bli lugn",
-        "Han är trött",
+        "Han är trött efter skolan",
         "Han har sprungit"
        ],
        "correct": 0
@@ -2149,7 +2149,7 @@
       {
        "q": "Vad tycker publiken om Yusufs låt?",
        "choices": [
-        "Den är för lång",
+        "Den är alldeles för lång och tråkig",
         "Den är mycket fin",
         "De hör den inte"
        ],
@@ -2182,7 +2182,7 @@
       "choices": [
        "I matsalen",
        "I kapprummet och på skolgården",
-       "Hemma i köket"
+       "Hemma i köket och i det stora badrummet"
       ],
       "correct": 1
      },
@@ -2190,7 +2190,7 @@
       "q": "Vem frågar Wilma om hjälp?",
       "choices": [
        "Vaktmästaren Sune",
-       "Fröken",
+       "Fröken i klass 2B",
        "Mamma"
       ],
       "correct": 0
@@ -2591,7 +2591,7 @@
      {
       "q": "Vem bygger Stina slottet med?",
       "choices": [
-       "Med sin kusin",
+       "Med sin kusin från Umeå",
        "Med storebror Mattias",
        "Med mamma"
       ],
@@ -2601,7 +2601,7 @@
       "q": "Vad pyntar de murarna med?",
       "choices": [
        "Snäckskal",
-       "Blommor",
+       "Vilda blommor",
        "Pinnar"
       ],
       "correct": 0
@@ -2836,7 +2836,7 @@
      {
       "q": "Vilken gammal sak hittar de?",
       "choices": [
-       "en gammal sko",
+       "en gammal sko utan snören",
        "ett gammalt paraply",
        "en gammal boll"
       ],
@@ -2860,7 +2860,7 @@
        "q": "Varför har skolan skräpplockardag?",
        "choices": [
         "För att göra naturen ren",
-        "För att hitta pengar",
+        "För att hitta pengar i parken",
         "För att mata änderna"
        ],
        "correct": 0
@@ -2954,7 +2954,7 @@
       "choices": [
        "en stor kastrull",
        "en bil",
-       "en häst"
+       "en stor häst med vagn"
       ],
       "correct": 0,
       "sentence": 5
@@ -3007,7 +3007,7 @@
      {
       "q": "Var klättrar Tilde?",
       "choices": [
-       "I ett träd",
+       "Högt upp i ett stort träd",
        "I klätterställningen",
        "På taket"
       ],
@@ -3017,7 +3017,7 @@
       "q": "Vilken färg har gipset?",
       "choices": [
        "Blått",
-       "Rosa",
+       "Ljusrosa",
        "Vitt"
       ],
       "correct": 0
@@ -3079,7 +3079,7 @@
        "q": "Vad tycker kompisarna om Tildes gips?",
        "choices": [
         "De tycker att det är spännande",
-        "De är rädda för det",
+        "De är väldigt rädda för det och går undan",
         "De bryr sig inte om det"
        ],
        "correct": 0
@@ -3173,7 +3173,7 @@
       {
        "q": "Varför letar pappa fram stearinljus?",
        "choices": [
-        "Det är någons födelsedag",
+        "Det är mammas födelsedag och de ska äta tårta",
         "Familjen behöver ljus i mörkret",
         "Han vill baka"
        ],
@@ -3349,7 +3349,7 @@
       "q": "Vad luktar det?",
       "choices": [
        "sockervadd och popcorn",
-       "korv och bröd",
+       "korv med bröd och senap",
        "blommor"
       ],
       "correct": 0,
@@ -3358,7 +3358,7 @@
      {
       "q": "Vad ser Ronja högst upp?",
       "choices": [
-       "skolan och parken",
+       "skolan och parken och kyrkan i byn",
        "hela staden och båtarna i hamnen",
        "en flygplats"
       ],
@@ -3369,7 +3369,7 @@
       "q": "Vad vinner Kalle?",
       "choices": [
        "en boll",
-       "en stor ballong",
+       "en stor röd ballong med glitter",
        "en stor gosig tiger"
       ],
       "correct": 2,

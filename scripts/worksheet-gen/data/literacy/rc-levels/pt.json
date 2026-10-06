@@ -33,7 +33,7 @@
     {
      "q": "O que os dois tomaram no caminho de casa?",
      "choices": [
-      "Água de coco",
+      "Água de coco bem gelada",
       "Leite",
       "Suco de laranja"
      ],
@@ -250,7 +250,7 @@
       "choices": [
        "Foi para casa sozinha",
        "Ficou por perto cuidando dele",
-       "Foi trabalhar no escritório"
+       "Foi trabalhar no escritório da cidade"
       ],
       "correct": 1
      },
@@ -292,7 +292,7 @@
     {
      "q": "O que toma conta da rua inteira?",
      "choices": [
-      "O barulho dos carros",
+      "O barulho alto dos carros e ônibus",
       "O cheiro de pão quentinho",
       "A música da padaria"
      ],
@@ -302,7 +302,7 @@
     {
      "q": "Onde Clara guardou o pão?",
      "choices": [
-      "Na mochila",
+      "Na mochila azul",
       "No bolso",
       "Na lancheira"
      ],
@@ -325,7 +325,7 @@
       "q": "Quando Clara vai comer o pãozinho?",
       "choices": [
        "No jantar",
-       "Amanhã de manhã",
+       "Amanhã de manhã, antes de acordar a mamãe",
        "Na hora do lanche, na escola"
       ],
       "correct": 2
@@ -419,7 +419,7 @@
      "choices": [
       "De andar sem as rodinhas",
       "De cair no rio",
-      "Do cachorro do vizinho"
+      "Do cachorro bravo do vizinho do lado"
      ],
      "correct": 0,
      "sentence": 2
@@ -461,7 +461,7 @@
       "choices": [
        "Com medo de cair",
        "Segura e contente",
-       "Cansada e brava"
+       "Cansada, brava e com fome"
       ],
       "correct": 1
      }
@@ -570,7 +570,7 @@
      {
       "q": "Onde Beatriz colocou o dentinho à noite?",
       "choices": [
-       "Na gaveta",
+       "Na gaveta da cômoda do quarto",
        "Embaixo do travesseiro",
        "Numa caixinha"
       ],
@@ -580,7 +580,7 @@
       "q": "Como Beatriz se sentiu ao achar a moeda?",
       "choices": [
        "Triste",
-       "Brava",
+       "Brava e triste",
        "Animada"
       ],
       "correct": 2
@@ -793,7 +793,7 @@
       "q": "Em que aula Júlia plantou o feijão?",
       "choices": [
        "Na aula de ciências",
-       "Na aula de artes",
+       "Na aula de artes e de pintura",
        "Na aula de música"
       ],
       "correct": 0,
@@ -804,7 +804,7 @@
       "choices": [
        "Leite",
        "Um pouco de água",
-       "Suco"
+       "Suco de uva bem doce"
       ],
       "correct": 1,
       "sentence": 3
@@ -1004,7 +1004,7 @@
      {
       "q": "O que Isabela usou no banho?",
       "choices": [
-       "Um balde",
+       "Um balde de água fria",
        "Uma mangueira",
        "Um chuveiro"
       ],
@@ -1028,7 +1028,7 @@
        "q": "Por que Isabela precisou de uma toalha?",
        "choices": [
         "Porque o Tobi estava molhado",
-        "Porque estava com frio",
+        "Porque estava com muito frio no quintal",
         "Porque ia dormir"
        ],
        "correct": 0
@@ -1129,7 +1129,7 @@
        "choices": [
         "Pronto para comer",
         "Ainda cru",
-        "Queimado"
+        "Queimado e todo preto"
        ],
        "correct": 0
       },
@@ -1268,7 +1268,7 @@
       "q": "De que cor era a borboleta?",
       "choices": [
        "Azul",
-       "Branca",
+       "Branca com pintinhas",
        "Amarela"
       ],
       "correct": 2
@@ -1277,7 +1277,7 @@
       "q": "Onde a borboleta pousou?",
       "choices": [
        "Numa flor vermelha",
-       "Na mão de Lara",
+       "No nariz do gato da vovó",
        "No telhado"
       ],
       "correct": 0
@@ -1287,7 +1287,7 @@
       "choices": [
        "Porque estava cansada",
        "Para não assustar a borboleta",
-       "Porque o chão estava molhado"
+       "Porque o chão do jardim estava molhado e escorregadio"
       ],
       "correct": 1
      }
@@ -1434,7 +1434,7 @@
        "choices": [
         "Porque não gostou dele",
         "Porque o livro é da biblioteca",
-        "Porque o irmão pediu"
+        "Porque o irmão pediu muito para devolver"
        ],
        "correct": 1
       },
@@ -1573,7 +1573,7 @@
       "q": "Com quem Daniel foi ao zoológico?",
       "choices": [
        "Com a prima Bia",
-       "Com o avô",
+       "Com o avô Antônio",
        "Com a turma"
       ],
       "correct": 0
@@ -1636,7 +1636,7 @@
        "choices": [
         "Porque sabem voar",
         "Porque têm o pescoço comprido",
-        "Porque têm medo do chão"
+        "Porque têm medo do chão e das cobras"
        ],
        "correct": 1
       },
@@ -1775,7 +1775,7 @@
       "q": "Do que Giovana estava com um pouco de medo?",
       "choices": [
        "Da cadeira grande",
-       "Da luz forte",
+       "Da luz forte e branca",
        "Do barulho"
       ],
       "correct": 0
@@ -1784,7 +1784,7 @@
       "q": "O que Giovana ganhou no fim?",
       "choices": [
        "Um adesivo",
-       "Um pirulito",
+       "Um pirulito de morango bem grande",
        "Uma escova de dentes"
       ],
       "correct": 2
@@ -1803,7 +1803,7 @@
      {
       "q": "Do que Giovana estava com um pouco de medo?",
       "choices": [
-       "Da luz forte",
+       "Da luz forte e branca",
        "Da cadeira grande",
        "Do barulho"
       ],
@@ -1814,7 +1814,7 @@
       "q": "Como estavam os dentes de Giovana?",
       "choices": [
        "Limpinhos",
-       "Sujos",
+       "Sujos e amarelos",
        "Doendo"
       ],
       "correct": 0,
@@ -1824,7 +1824,7 @@
       "q": "De que cor era a escova?",
       "choices": [
        "Azul",
-       "Verde",
+       "Verde-limão claro",
        "Cor-de-rosa"
       ],
       "correct": 2,
@@ -1836,7 +1836,7 @@
       {
        "q": "Por que Giovana estava com medo no começo?",
        "choices": [
-        "Porque estava com dor de dente",
+        "Porque estava com uma dor de dente muito forte",
         "Porque nunca tinha ido ao dentista",
         "Porque se perdeu no caminho"
        ],
@@ -1888,7 +1888,7 @@
       "q": "Onde colaram os cartazes?",
       "choices": [
        "No mercado e na farmácia",
-       "Na escola e na igreja",
+       "Na escola, na igreja e na padaria",
        "No parque e no posto"
       ],
       "correct": 0
@@ -1896,7 +1896,7 @@
      {
       "q": "Como Mariana se sentiu quando viu Fubá?",
       "choices": [
-       "Brava",
+       "Brava e muito cansada",
        "Com sono",
        "Aliviada e feliz"
       ],
@@ -1907,7 +1907,7 @@
      {
       "q": "Em que dia o cachorro fugiu?",
       "choices": [
-       "Na terça-feira",
+       "Na terça-feira à noite",
        "Na segunda-feira",
        "No domingo"
       ],
@@ -1918,7 +1918,7 @@
       "q": "Quem ajudou Mariana a procurar Fubá?",
       "choices": [
        "O irmão",
-       "O pai",
+       "O pai dela",
        "A avó"
       ],
       "correct": 0,
@@ -2222,7 +2222,7 @@
      {
       "q": "Onde Sara sentou?",
       "choices": [
-       "No sofá",
+       "No sofá grande da entrada",
        "Numa cadeira alta",
        "No chão"
       ],
@@ -2357,7 +2357,7 @@
        "q": "Para que a família precisou do caminhão?",
        "choices": [
         "Para passear pela cidade",
-        "Para buscar o amigo Wagner",
+        "Para buscar o amigo Wagner no prédio do outro lado",
         "Para levar as coisas da família"
        ],
        "correct": 2
@@ -2439,7 +2439,7 @@
       "q": "O que o público fez no final?",
       "choices": [
        "Vaiou",
-       "Foi embora",
+       "Foi embora antes do fim",
        "Aplaudiu de pé"
       ],
       "correct": 2,
@@ -2531,7 +2531,7 @@
       "q": "Em que a bebê veio enrolada?",
       "choices": [
        "Numa manta branca",
-       "Num lençol azul",
+       "Num lençol azul de bolinhas",
        "Numa toalha"
       ],
       "correct": 0,
@@ -2541,7 +2541,7 @@
       "q": "O que Rita fez quando apertou o dedo dele?",
       "choices": [
        "Dormiu",
-       "Deu risada",
+       "Deu uma risada bem alta",
        "Parou de chorar"
       ],
       "correct": 2,
@@ -2633,7 +2633,7 @@
       "q": "Que tinta ela colocou na garrafa?",
       "choices": [
        "Tinta vermelha",
-       "Tinta azul",
+       "Tinta azul-marinho",
        "Tinta verde"
       ],
       "correct": 0,
@@ -2642,7 +2642,7 @@
      {
       "q": "Por onde a espuma escorreu?",
       "choices": [
-       "Pela mesa",
+       "Pela mesa da sala",
        "Pelo chão",
        "Pela montanha"
       ],
@@ -2726,7 +2726,7 @@
       "choices": [
        "Numa manhã de sol",
        "Numa noite de tempestade",
-       "Numa tarde de domingo"
+       "Numa tarde de domingo ensolarada"
       ],
       "correct": 1,
       "sentence": 1
@@ -2736,7 +2736,7 @@
       "choices": [
        "Na mesa da cozinha",
        "No quarto",
-       "Na janela"
+       "Na janela do quarto dos meninos"
       ],
       "correct": 0,
       "sentence": 3
@@ -2745,7 +2745,7 @@
       "q": "Que sombras Samuel fez?",
       "choices": [
        "Um gato e um rato",
-       "Um leão e uma cobra",
+       "Um leão, uma cobra e um dragão de fogo",
        "Um coelho, um pato e um cachorro"
       ],
       "correct": 2,
@@ -2799,7 +2799,7 @@
       "q": "Onde Manuela achou o passarinho?",
       "choices": [
        "Embaixo de uma árvore",
-       "Na janela",
+       "Na janela do quarto dela",
        "No telhado"
       ],
       "correct": 0
@@ -2808,7 +2808,7 @@
       "q": "Quem levou o passarinho à veterinária?",
       "choices": [
        "A mãe",
-       "A professora",
+       "A professora de ciências",
        "O vovô Sérgio"
       ],
       "correct": 2
@@ -2871,7 +2871,7 @@
        "choices": [
         "Porque queria pegá-lo de volta",
         "Porque estava contente de vê-lo voar",
-        "Porque ele estava cantando"
+        "Porque ele estava cantando uma música muito bonita"
        ],
        "correct": 1
       }
@@ -2903,7 +2903,7 @@
      {
       "q": "De que Pietro se fantasiou?",
       "choices": [
-       "De pirata",
+       "De pirata com tapa-olho",
        "De super-herói",
        "De palhaço"
       ],
@@ -2914,7 +2914,7 @@
       "choices": [
        "Picolé de uva",
        "Pipoca",
-       "Algodão-doce"
+       "Algodão-doce cor-de-rosa"
       ],
       "correct": 0
      },
@@ -2922,7 +2922,7 @@
       "q": "Por que Pietro dormiu de fantasia?",
       "choices": [
        "Porque estava muito cansado de dançar",
-       "Porque não tinha pijama",
+       "Porque não tinha pijama limpo para vestir naquela noite",
        "Porque estava frio"
       ],
       "correct": 0
@@ -2966,7 +2966,7 @@
        "q": "Como Pietro se sentiu no bloquinho?",
        "choices": [
         "Muito alegre",
-        "Com medo",
+        "Com medo da banda",
         "Entediado"
        ],
        "correct": 0
@@ -3213,7 +3213,7 @@
       "q": "Onde Tainá encontrou a carteira?",
       "choices": [
        "Perto do chafariz",
-       "Na padaria",
+       "Na padaria da esquina",
        "No ônibus"
       ],
       "correct": 0
@@ -3231,7 +3231,7 @@
       "q": "Por que o senhor estava preocupado?",
       "choices": [
        "Porque tinha perdido a carteira",
-       "Porque estava atrasado",
+       "Porque estava muito atrasado para o trabalho",
        "Porque o cachorro dele fugiu"
       ],
       "correct": 0
@@ -3316,7 +3316,7 @@
       "choices": [
        "Embaixo da árvore",
        "Na janela",
-       "Na mesa da sala"
+       "Na mesa da sala de jantar"
       ],
       "correct": 0
      },
@@ -3334,7 +3334,7 @@
       "choices": [
        "Porque era caro",
        "Porque ele mesmo fez com carinho",
-       "Porque era muito grande"
+       "Porque era muito grande e muito colorido"
       ],
       "correct": 1
      }
@@ -3377,7 +3377,7 @@
        "q": "Por que a casa da vovó estava cheia de gente?",
        "choices": [
         "A família se reuniu para o Natal",
-        "Era o aniversário do primo",
+        "Era o aniversário do primo Wesley e da tia Marta",
         "Havia uma aula de dança"
        ],
        "correct": 0
@@ -3386,7 +3386,7 @@
        "q": "Como o primo Wesley fez o presente de Olívia?",
        "choices": [
         "Desenhou a família com as próprias mãos",
-        "Comprou numa loja",
+        "Comprou numa loja de presentes do shopping da cidade",
         "Pediu para a vovó fazer"
        ],
        "correct": 0

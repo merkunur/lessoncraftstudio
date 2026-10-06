@@ -13,7 +13,7 @@
     {
      "q": "Hvem har Oliver fått sykkelen av?",
      "choices": [
-      "Mormor",
+      "Mormoren sin",
       "Bestefar",
       "Onkel"
      ],
@@ -160,7 +160,7 @@
      "choices": [
       "Under en stein",
       "I sanden",
-      "Bak en båt"
+      "Bak en gammel båt"
      ],
      "correct": 0,
      "sentence": 3
@@ -169,7 +169,7 @@
      "q": "Hva finner Sofie?",
      "choices": [
       "En fin stein",
-      "En liten fisk",
+      "En liten fisk i vannet",
       "Et blankt skjell"
      ],
      "correct": 2,
@@ -183,7 +183,7 @@
       "choices": [
        "Fordi det snør",
        "Fordi de skal gå i vannkanten",
-       "Fordi de skal spille fotball"
+       "Fordi de skal spille fotball på stranda"
       ],
       "correct": 1
      },
@@ -430,7 +430,7 @@
      "choices": [
       "Hvor bøkene om dyr står",
       "Hvor toalettet er",
-      "Hvor datamaskinene er"
+      "Hvor alle de nye datamaskinene er"
      ],
      "correct": 0,
      "sentence": 2
@@ -773,7 +773,7 @@
       "q": "Hvor spiser Ida is og pølse?",
       "choices": [
        "Hjemme",
-       "I parken",
+       "I den store parken",
        "I skolegården"
       ],
       "correct": 2
@@ -781,7 +781,7 @@
      {
       "q": "Hvorfor er Ida så sliten om ettermiddagen?",
       "choices": [
-       "Fordi hun har vært syk",
+       "Fordi hun har vært syk i hele natt",
        "Fordi hun har feiret hele dagen",
        "Fordi hun ikke har spist"
       ],
@@ -1005,7 +1005,7 @@
       "q": "Når logrer valpen med halen?",
       "choices": [
        "Når Filip kommer hjem",
-       "Når det regner",
+       "Når det regner veldig mye",
        "Når han spiser"
       ],
       "correct": 0,
@@ -1196,7 +1196,7 @@
       "choices": [
        "Lite",
        "Stort",
-       "Tynt"
+       "Tynt og hullete"
       ],
       "correct": 1,
       "sentence": 2
@@ -1205,7 +1205,7 @@
       "q": "Hva har Jonas inni hula?",
       "choices": [
        "Puter og en lommelykt",
-       "Et bord og en stol",
+       "Et lite bord og en gammel stol",
        "En ball"
       ],
       "correct": 0,
@@ -1229,7 +1229,7 @@
        "choices": [
         "Han er redd",
         "Han har det koselig",
-        "Han er lei seg"
+        "Han er lei seg og vil ut"
        ],
        "correct": 1
       },
@@ -1237,7 +1237,7 @@
        "q": "Hvorfor legger Jonas et teppe over bordet?",
        "choices": [
         "For å lage tak på hula",
-        "For å vaske bordet",
+        "For å vaske det skitne bordet",
         "Fordi han fryser"
        ],
        "correct": 0
@@ -1399,7 +1399,7 @@
       "choices": [
        "Å få vann i ansiktet",
        "Å gå i dusjen",
-       "Å miste badedrakten"
+       "Å miste den nye badedrakten sin"
       ],
       "correct": 0,
       "sentence": 2
@@ -1478,7 +1478,7 @@
      {
       "q": "Hvem holder dragen mens Benjamin løper?",
       "choices": [
-       "Pappa",
+       "Pappa og mamma",
        "Onkel Kim",
        "Mormor"
       ],
@@ -1487,7 +1487,7 @@
      {
       "q": "Hvordan er været denne dagen?",
       "choices": [
-       "Helt stille",
+       "Helt stille og varmt",
        "Det snør",
        "Det er mye vind"
       ],
@@ -1498,7 +1498,7 @@
      {
       "q": "Hvor blåser det godt?",
       "choices": [
-       "På stranda",
+       "Nede på den lange stranda",
        "På jordet bak huset",
        "I skolegården"
       ],
@@ -1689,7 +1689,7 @@
      {
       "q": "Hvordan har Karsten det på brannstasjonen?",
       "choices": [
-       "Han kjeder seg",
+       "Han kjeder seg og vil hjem med en gang",
        "Han er sint",
        "Han synes det er spennende"
       ],
@@ -1721,7 +1721,7 @@
       "q": "Hva spyler Karsten vann med?",
       "choices": [
        "En bøtte",
-       "En vannkanne",
+       "En liten grønn vannkanne",
        "En lang slange"
       ],
       "correct": 2,
@@ -1801,7 +1801,7 @@
      {
       "q": "Når går de til hønsehuset?",
       "choices": [
-       "Sent om kvelden",
+       "Sent om kvelden når det er mørkt",
        "Tidlig om morgenen",
        "Midt på dagen"
       ],
@@ -1822,7 +1822,7 @@
       "q": "Hva bærer Frida eggene i?",
       "choices": [
        "En bøtte",
-       "En pose",
+       "En stor plastpose",
        "En liten kurv"
       ],
       "correct": 2,
@@ -2017,7 +2017,7 @@
      {
       "q": "Hva har Mathias rundt halsen?",
       "choices": [
-       "Et skjerf",
+       "Et langt ullskjerf",
        "Et håndkle",
        "En stor kappe"
       ],
@@ -2040,7 +2040,7 @@
       {
        "q": "Hvorfor må Mathias klippe seg?",
        "choices": [
-        "Håret er for kort",
+        "Håret er altfor kort",
         "Håret er for langt",
         "Håret er vått"
        ],
@@ -2050,7 +2050,7 @@
        "q": "Hvorfor sitter Mathias på en høy stol?",
        "choices": [
         "Så frisøren lett kan nå håret",
-        "Så han kan se ut av vinduet",
+        "Så han kan se ut av det store vinduet",
         "Så han ikke blir våt"
        ],
        "correct": 0
@@ -2091,7 +2091,7 @@
       "choices": [
        "Røde kuler og glitter",
        "Blå lys",
-       "Pepperkaker"
+       "Pepperkaker med rosa glasur"
       ],
       "correct": 0
      },
@@ -2347,7 +2347,7 @@
        "q": "Hvorfor var sokken vanskelig å finne?",
        "choices": [
         "Den lå gjemt under senga",
-        "Den var i vaskemaskinen",
+        "Den var inne i vaskemaskinen hele tiden",
         "Den var på loftet"
        ],
        "correct": 0
@@ -2419,7 +2419,7 @@
       "q": "Hva gir mamma Tobias?",
       "choices": [
        "En sekk med matpakke og en bok",
-       "En pose med godteri",
+       "En stor pose med godteri og en tegneserie",
        "En ny jakke"
       ],
       "correct": 0,
@@ -2428,7 +2428,7 @@
      {
       "q": "Hva kjører toget forbi?",
       "choices": [
-       "Store byer og broer",
+       "Store byer, lange broer og mange biler i kø",
        "Høye fjell, blanke vann og små gårder",
        "Sjøen og båtene"
       ],
@@ -2523,7 +2523,7 @@
       "choices": [
        "Lange, hvite kjoler",
        "Røde nisseluer",
-       "Varme dresser"
+       "Varme dresser og tykke luer"
       ],
       "correct": 0,
       "sentence": 2
@@ -2533,7 +2533,7 @@
       "choices": [
        "Ved døren",
        "På første rad",
-       "Bak scenen"
+       "Bak den store scenen"
       ],
       "correct": 1,
       "sentence": 6
@@ -2556,7 +2556,7 @@
        "choices": [
         "Hun skal synge for mange mennesker",
         "Hun har glemt kjolen",
-        "Hun er redd for bestemor"
+        "Hun er redd for at bestemor skal bli sint"
        ],
        "correct": 0
       },
@@ -2565,7 +2565,7 @@
        "choices": [
         "Hun blir sint",
         "Hun blir tryggere og glad",
-        "Hun vil gå hjem"
+        "Hun vil bare gå hjem med en gang"
        ],
        "correct": 1
       }
@@ -2636,7 +2636,7 @@
       "q": "Hva får Ulrik klappe?",
       "choices": [
        "En sjøstjerne",
-       "En sel",
+       "En stor grå sel",
        "En krabbe"
       ],
       "correct": 0,
@@ -2646,7 +2646,7 @@
       "q": "Hvem er Ulrik på akvariet sammen med?",
       "choices": [
        "Mamma",
-       "Bestefar",
+       "Bestefar og mormoren hans",
        "Storesøsteren Vilde"
       ],
       "correct": 2,
@@ -2669,7 +2669,7 @@
        "choices": [
         "Han synes den er kjedelig",
         "Han synes den er spennende",
-        "Han synes den er skummel"
+        "Han synes den er skummel og farlig"
        ],
        "correct": 1
       }
@@ -2730,7 +2730,7 @@
       "choices": [
        "Til sykehuset",
        "Til byen",
-       "Til hytta"
+       "Til hytta på fjellet"
       ],
       "correct": 0,
       "sentence": 1
@@ -2738,7 +2738,7 @@
      {
       "q": "Når ringer pappa?",
       "choices": [
-       "Neste kveld",
+       "Sent neste kveld",
        "Neste morgen",
        "Om natta"
       ],
@@ -2749,7 +2749,7 @@
       "q": "Hva hvisker Tiril at hun skal lære ham?",
       "choices": [
        "Å svømme",
-       "Å sykle",
+       "Å sykle på en liten sykkel",
        "Å gå på ski"
       ],
       "correct": 2,
@@ -2841,7 +2841,7 @@
      {
       "q": "Hva tar de på seg?",
       "choices": [
-       "Regnjakker",
+       "Gule regnjakker",
        "Arbeidshansker",
        "Luer"
       ],
@@ -2851,7 +2851,7 @@
      {
       "q": "Hvor mange sekker fyller de?",
       "choices": [
-       "Fire sekker",
+       "Fire store, fulle sekker",
        "Én sekk",
        "Tre store sekker"
       ],
@@ -2866,7 +2866,7 @@
        "choices": [
         "Han blir sint",
         "Han synes det er morsomt",
-        "Han blir lei seg"
+        "Han blir lei seg og vil gå inn igjen"
        ],
        "correct": 1
       },
@@ -2909,7 +2909,7 @@
       "choices": [
        "Ved siden av epletreet",
        "På stranden",
-       "I skogen"
+       "Langt inne i den mørke skogen"
       ],
       "correct": 0
      },
@@ -2917,7 +2917,7 @@
       "q": "Hva ser Mikkel utenfor teltet?",
       "choices": [
        "En katt",
-       "En rev",
+       "En stor rød rev i hagen",
        "Et lite pinnsvin"
       ],
       "correct": 2
@@ -3011,7 +3011,7 @@
      {
       "q": "Hvem ringer mamma?",
       "choices": [
-       "Legen",
+       "Legen på sykehuset",
        "Læreren",
        "Ruben"
       ],
@@ -3022,7 +3022,7 @@
       "choices": [
        "I to uker",
        "I seks uker",
-       "I ett år"
+       "I et helt år"
       ],
       "correct": 1
      },
@@ -3030,7 +3030,7 @@
       "q": "Hvorfor lover Ruben å ikke klatre i treet igjen?",
       "choices": [
        "Han har lært at det er farlig",
-       "Treet skal hugges ned",
+       "Treet skal hugges ned i morgen tidlig",
        "Han liker ikke trær"
       ],
       "correct": 0
@@ -3145,7 +3145,7 @@
       "q": "Hvor øver Yasmin hver kveld?",
       "choices": [
        "Foran speilet",
-       "På badet",
+       "Inne på det lille badet",
        "I hagen"
       ],
       "correct": 0,
@@ -3165,7 +3165,7 @@
       "q": "Hva gir mamma Yasmin etterpå?",
       "choices": [
        "En is",
-       "En gave",
+       "En stor gave med sløyfe",
        "En bukett blomster"
       ],
       "correct": 2,
@@ -3179,7 +3179,7 @@
        "choices": [
         "Hun vil huske det hun skal si",
         "Hun vil bli sliten",
-        "Læreren har glemt teksten"
+        "Læreren har glemt teksten hun skulle ha"
        ],
        "correct": 0
       },
@@ -3325,7 +3325,7 @@
       "choices": [
        "Store pappesker",
        "Plastposer",
-       "Kofferter"
+       "Store gamle kofferter"
       ],
       "correct": 0
      },
@@ -3341,7 +3341,7 @@
      {
       "q": "Hvorfor pakker Theo ut lekene først?",
       "choices": [
-       "Han vil gi dem bort",
+       "Han vil gi dem bort til en venn",
        "De er viktigst for ham",
        "Han vil kaste dem"
       ],
@@ -3363,7 +3363,7 @@
       "q": "Hva skriver Theo på esken?",
       "choices": [
        "Navnet sitt",
-       "Adressen",
+       "Den nye adressen",
        "Et hjerte"
       ],
       "correct": 0,
@@ -3395,7 +3395,7 @@
        "q": "Hvorfor vil Theo ringe Sindre?",
        "choices": [
         "De vil fortsatt være venner",
-        "Sindre har lånt en bok",
+        "Sindre har lånt en bok av ham",
         "Theo har glemt noe"
        ],
        "correct": 0

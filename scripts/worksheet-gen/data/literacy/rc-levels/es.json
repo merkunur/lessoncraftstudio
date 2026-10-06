@@ -80,7 +80,7 @@
      "q": "¿De qué color es el gato de Lucía?",
      "choices": [
       "negro",
-      "gris",
+      "gris oscuro",
       "blanco"
      ],
      "correct": 2,
@@ -90,7 +90,7 @@
      "q": "¿Dónde duerme Nube por la mañana?",
      "choices": [
       "en la ventana",
-      "en la cama",
+      "en la cama grande",
       "en el sofá"
      ],
      "correct": 0,
@@ -182,7 +182,7 @@
       "q": "¿Cómo se sintió Diego al ver a su papá?",
       "choices": [
        "orgulloso",
-       "asustado",
+       "asustado y triste",
        "aburrido"
       ],
       "correct": 0
@@ -190,7 +190,7 @@
      {
       "q": "¿Qué nos dice la última oración?",
       "choices": [
-       "que Diego ya no usa la bici",
+       "que Diego ya no usa la bici en el parque",
        "que a Diego le encanta andar en bici",
        "que Diego se cayó"
       ],
@@ -292,7 +292,7 @@
      "q": "¿Qué hacen unos niños?",
      "choices": [
       "riegan las plantas",
-      "barren el salón",
+      "barren el salón de clases",
       "pintan la cerca"
      ],
      "correct": 0,
@@ -369,7 +369,7 @@
      "q": "¿Con qué cuenta historias el padre?",
      "choices": [
       "con un libro",
-      "con la radio",
+      "con la radio de la cocina",
       "con una linterna"
      ],
      "correct": 2,
@@ -624,7 +624,7 @@
        "q": "¿Qué pasó antes del turno de Fernanda?",
        "choices": [
         "nadie había roto la piñata",
-        "la piñata ya estaba rota",
+        "la piñata ya estaba rota en el pasto",
         "no había niños"
        ],
        "correct": 0
@@ -905,7 +905,7 @@
       "q": "¿Cómo sopla el viento?",
       "choices": [
        "fuerte",
-       "suave",
+       "suavecito",
        "frío"
       ],
       "correct": 0,
@@ -1166,7 +1166,7 @@
       "q": "¿Con quién va Julia?",
       "choices": [
        "con su hermano mayor",
-       "con su abuela",
+       "con su abuela Rosita",
        "con su maestra"
       ],
       "correct": 0
@@ -1174,7 +1174,7 @@
      {
       "q": "¿Cómo aprende a flotar Julia?",
       "choices": [
-       "boca abajo",
+       "boca abajo y quieta",
        "boca arriba",
        "de lado"
       ],
@@ -1184,7 +1184,7 @@
       "q": "¿Cómo se siente Julia al final?",
       "choices": [
        "asustada",
-       "cansada y triste",
+       "cansada y muy triste",
        "contenta y valiente"
       ],
       "correct": 2
@@ -1195,7 +1195,7 @@
       "q": "¿Adónde va Julia?",
       "choices": [
        "al mar",
-       "al río",
+       "al río del pueblo",
        "a la alberca"
       ],
       "correct": 2,
@@ -1206,7 +1206,7 @@
       "choices": [
        "meter la cabeza al agua",
        "saltar",
-       "nadar rápido"
+       "nadar muy rápido en lo hondo"
       ],
       "correct": 0,
       "sentence": 2
@@ -1214,7 +1214,7 @@
      {
       "q": "¿Como qué flota Julia?",
       "choices": [
-       "como un barco",
+       "como un barco de vela",
        "como una estrella",
        "como una hoja"
       ],
@@ -1266,7 +1266,7 @@
       "q": "¿Dónde acampa Leonardo?",
       "choices": [
        "junto a un lago",
-       "en la playa",
+       "en la playa del mar",
        "en su patio"
       ],
       "correct": 0
@@ -1276,7 +1276,7 @@
       "choices": [
        "estrellas",
        "luciérnagas",
-       "linternas"
+       "linternitas"
       ],
       "correct": 1
      },
@@ -1284,7 +1284,7 @@
       "q": "¿Cuándo aparecen las pequeñas luces?",
       "choices": [
        "cuando se hace de noche",
-       "al mediodía",
+       "al mediodía, con mucho sol",
        "en la mañana"
       ],
       "correct": 0
@@ -1314,7 +1314,7 @@
      {
       "q": "¿Cómo las mira Leonardo?",
       "choices": [
-       "gritando",
+       "gritando muy fuerte",
        "corriendo",
        "sin hacer ruido"
       ],
@@ -1399,7 +1399,7 @@
       "choices": [
        "la maestra",
        "la bibliotecaria",
-       "la directora"
+       "la directora de la escuela"
       ],
       "correct": 1,
       "sentence": 2
@@ -1470,7 +1470,7 @@
       "q": "¿De qué color es el pez?",
       "choices": [
        "naranja",
-       "azul",
+       "azul cielo",
        "rojo"
       ],
       "correct": 0
@@ -1498,7 +1498,7 @@
      {
       "q": "¿Qué hay en el salón de Isabel?",
       "choices": [
-       "una jaula",
+       "una jaula de pájaros",
        "una pecera",
        "una caja"
       ],
@@ -1519,7 +1519,7 @@
       "q": "¿Cuánta comida le echa Isabel?",
       "choices": [
        "una pizca",
-       "un puño",
+       "un puñado grande",
        "un plato"
       ],
       "correct": 0,
@@ -1633,7 +1633,7 @@
        "q": "¿Por qué hacen la tarjeta en el recreo?",
        "choices": [
         "para que la maestra no la vea",
-        "porque tienen hambre",
+        "porque tienen mucha hambre a esa hora",
         "porque la maestra se lo pide"
        ],
        "correct": 0
@@ -1643,7 +1643,7 @@
        "choices": [
         "nadie ayuda",
         "todos juntos",
-        "solo Karla"
+        "solo Karla y su amiga"
        ],
        "correct": 1
       }
@@ -1681,7 +1681,7 @@
       "q": "¿Con qué limpia Alan las puertas?",
       "choices": [
        "con una esponja",
-       "con un trapo",
+       "con un trapo viejo y sucio",
        "con un cepillo"
       ],
       "correct": 0
@@ -1734,7 +1734,7 @@
        "q": "¿Qué tan bien trabajaron Alan y su papá?",
        "choices": [
         "hicieron un buen trabajo",
-        "dejaron el carro sucio",
+        "dejaron el carro todavía sucio",
         "no terminaron"
        ],
        "correct": 0
@@ -1742,7 +1742,7 @@
       {
        "q": "¿Cómo se siente Alan al ayudar a su papá?",
        "choices": [
-        "molesto",
+        "muy molesto",
         "orgulloso",
         "asustado"
        ],
@@ -1782,7 +1782,7 @@
       "q": "¿Con qué riegan el arbolito?",
       "choices": [
        "con una regadera verde",
-       "con una cubeta",
+       "con una cubeta de plástico",
        "con la manguera"
       ],
       "correct": 0
@@ -1791,7 +1791,7 @@
       "q": "¿Qué quiere Frida para su arbolito?",
       "choices": [
        "olvidarlo",
-       "cortarlo",
+       "cortarlo pronto",
        "verlo crecer"
       ],
       "correct": 2
@@ -1822,7 +1822,7 @@
       "q": "¿Qué le pone Frida al árbol?",
       "choices": [
        "una cinta",
-       "una flor",
+       "una flor de papel",
        "un letrero"
       ],
       "correct": 2,
@@ -1876,7 +1876,7 @@
      {
       "q": "¿Qué empieza a caer en la casa de Valeria?",
       "choices": [
-       "lluvia",
+       "lluvia fuerte",
        "granizo",
        "nieve"
       ],
@@ -1895,7 +1895,7 @@
       "q": "¿Por qué se hacen agua las bolitas?",
       "choices": [
        "porque el hielo se derrite",
-       "porque Nico les echa agua",
+       "porque Nico les echa agua de la llave",
        "porque el vaso está roto"
       ],
       "correct": 0
@@ -1979,7 +1979,7 @@
       "q": "¿Qué se puso Rodrigo?",
       "choices": [
        "sus botas de hule",
-       "sus tenis nuevos",
+       "sus tenis nuevos de rayas",
        "sus sandalias"
       ],
       "correct": 0
@@ -2007,7 +2007,7 @@
      {
       "q": "¿Cuánto tiempo llovió?",
       "choices": [
-       "toda la noche",
+       "toda la noche y el día",
        "toda la mañana",
        "una hora"
       ],
@@ -2017,7 +2017,7 @@
      {
       "q": "¿De qué se llenó el patio?",
       "choices": [
-       "de hojas",
+       "de hojas secas del árbol",
        "de nieve",
        "de charcos grandes"
       ],
@@ -2028,7 +2028,7 @@
       "q": "¿Con quién hizo Rodrigo los barcos?",
       "choices": [
        "con su tía Rosa",
-       "con su abuelo",
+       "con su abuelo Pepe",
        "con su mamá"
       ],
       "correct": 0,
@@ -2143,7 +2143,7 @@
        "q": "¿Cómo se sienten Ximena y su abuela al final?",
        "choices": [
         "enojadas",
-        "tristes",
+        "muy tristes",
         "contentas"
        ],
        "correct": 2
@@ -2191,7 +2191,7 @@
      {
       "q": "¿Qué cruzó el cielo muy rápido?",
       "choices": [
-       "un avión",
+       "un avión con luces",
        "una estrella fugaz",
        "un pájaro"
       ],
@@ -2200,7 +2200,7 @@
      {
       "q": "¿Por qué Santiago no le dice su deseo al abuelo?",
       "choices": [
-       "porque se le olvidó",
+       "porque se le olvidó el deseo enseguida",
        "porque los deseos son un secreto",
        "porque tenía sueño"
       ],
@@ -2313,7 +2313,7 @@
      {
       "q": "¿Con qué llena el papá la alberca?",
       "choices": [
-       "con cubetas",
+       "con cubetas de agua fría",
        "con la manguera",
        "con un vaso"
       ],
@@ -2817,7 +2817,7 @@
       "q": "¿Por qué las personas se veían tan pequeñitas?",
       "choices": [
        "porque la pirámide era enorme",
-       "porque eran bebés",
+       "porque Valentín llevaba unos lentes oscuros",
        "porque tenía sueño"
       ],
       "correct": 0
@@ -2848,7 +2848,7 @@
       "q": "¿Con quién se tomó una foto Valentín?",
       "choices": [
        "con la maestra",
-       "con su mamá",
+       "con su mamá en la entrada",
        "con su amigo Raúl"
       ],
       "correct": 2,
@@ -2904,7 +2904,7 @@
       "q": "¿Qué baile prepara el grupo de Mariana?",
       "choices": [
        "el jarabe tapatío",
-       "una cumbia",
+       "una cumbia muy alegre",
        "un vals"
       ],
       "correct": 0
@@ -2912,7 +2912,7 @@
      {
       "q": "¿Con quién practica Mariana en la casa?",
       "choices": [
-       "con su mamá",
+       "con su mamá en la cocina",
        "con su abuela",
        "con Rubén"
       ],
@@ -2922,7 +2922,7 @@
       "q": "¿Por qué su mamá le aplaude de pie?",
       "choices": [
        "porque está orgullosa de Mariana",
-       "porque ya se quiere ir",
+       "porque ya se quiere ir a su casa",
        "porque no ve bien"
       ],
       "correct": 0
@@ -3006,7 +3006,7 @@
      {
       "q": "¿Con quién hizo Pablo el volcán?",
       "choices": [
-       "con su hermana",
+       "con su hermana mayor",
        "con su amigo Iván",
        "con su papá"
       ],
@@ -3016,7 +3016,7 @@
       "q": "¿Qué le faltaba al volcán para hacer espuma?",
       "choices": [
        "más bicarbonato",
-       "más vinagre",
+       "más vinagre de cocina",
        "más pintura"
       ],
       "correct": 0
@@ -3025,7 +3025,7 @@
       "q": "¿Cómo se sintió Pablo cuando el volcán funcionó en la feria?",
       "choices": [
        "muy orgulloso",
-       "muy triste",
+       "muy triste y enojado",
        "muy asustado"
       ],
       "correct": 0
@@ -3214,7 +3214,7 @@
      {
       "q": "¿Qué vendían Omar y Nayeli?",
       "choices": [
-       "tamales",
+       "tamales de pollo y de rajas",
        "agua de horchata",
        "elotes"
       ],
@@ -3224,7 +3224,7 @@
       "q": "¿Qué quería comprar el grupo?",
       "choices": [
        "balones nuevos",
-       "libros nuevos",
+       "libros nuevos de cuentos",
        "un pizarrón"
       ],
       "correct": 0
@@ -3286,7 +3286,7 @@
        "q": "¿Por qué se formó una fila larga?",
        "choices": [
         "porque regalaban balones",
-        "porque empezó a llover",
+        "porque empezó a llover muy fuerte",
         "porque Omar habló más fuerte"
        ],
        "correct": 2
@@ -3357,7 +3357,7 @@
      {
       "q": "¿Qué no sabe dibujar nadie?",
       "choices": [
-       "el sol amarillo",
+       "el sol amarillo de la mañana",
        "el águila grande del centro",
        "los árboles"
       ],
@@ -3367,7 +3367,7 @@
      {
       "q": "¿Qué pintan sus compañeros?",
       "choices": [
-       "las nubes y el mar",
+       "las nubes y el mar azul",
        "las flores",
        "el cielo y los nopales"
       ],
@@ -3382,7 +3382,7 @@
        "choices": [
         "porque le da pena hablar frente al grupo",
         "porque está enfermo",
-        "porque la maestra lo regaña"
+        "porque la maestra lo regaña delante de todos"
        ],
        "correct": 0
       },
@@ -3390,7 +3390,7 @@
        "q": "¿Cómo se siente Ulises cuando todos miran el mural?",
        "choices": [
         "orgulloso",
-        "asustado",
+        "muy asustado",
         "aburrido"
        ],
        "correct": 0

@@ -14,7 +14,8 @@
  * (key-on-row.js — on the base rule, x-height to the dashed midline), a circled answer outlined.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, pageSalt, seededShuffle } = require('./answer-slots.js');
+let PAGE_SALT = '';
 
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
@@ -44,7 +45,7 @@ function rotation(list, i) {
   const own = list[i];
   const others = [];
   for (let k = 1; k < list.length && others.length < 2; k++) { const x = list[(i + k) % list.length]; if (x !== own && !others.includes(x)) others.push(x); }
-  const at = slotFor(own + '|' + i, others.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
+  const at = slotFor(PAGE_SALT + own + '|' + i, others.length + 1);   // never i % 3 (a diagonal tell, 2026-10-06)
   const o = others.slice();
   o.splice(at, 0, own);
   return { opts: o, at };
@@ -71,6 +72,7 @@ function seatNth(html, needle, k, t) {
 }
 
 function screenOrKey(mode, built, ctx, loc, bank) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   const m = built.meta;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   // ids may repeat across sections (it: a word family and a picture family both 'latte'): each page looks up ITS section
@@ -122,7 +124,9 @@ function screenOrKey(mode, built, ctx, loc, bank) {
         m.answers[bi].forEach((w) => {
           const s = ss.find((x) => x.word === w);
           const [pre, post] = String(s.frame).split('{gap}');
-          const labels = m.courses[bi];
+          // each sentence's word choices in an order of their own (2026-10-06: the block's fixed order on every card made
+          // the answers walk through the slots — a rotation scored 44% against 25%)
+          const labels = seededShuffle(m.courses[bi], PAGE_SALT + s.frame + '|' + w);
           items.push(item(`data-lcs-word="${esc(s.frame)}" data-lcs-fam="${esc(id)}"`, `<span style="font-family:Nunito,sans-serif;font-weight:800;font-size:28px;line-height:1.35;color:#3A3530">${esc(pre)}${GAP}${esc(post || '')}</span>`,
             opts(labels, labels.indexOf(w), 26)));
         });

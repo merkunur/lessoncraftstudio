@@ -45,6 +45,7 @@ const ITEMS = [
 
 const spec = makeScienceCategorySort({
   id: 'K-333', slug: 'feelings-feels-good-or-feels-bad', gradeBand: 'K', exerciseType: 'feelings',
+  levelSetRhythm: true,   // 2026-10-06: a new page never sorts good, bad, good, bad … (a tapping rhythm on the screen)
   data: {
     bins: [{ key: 'good', label: { en: 'Feels good' } }, { key: 'bad', label: { en: 'Feels bad' } }],
     items: ITEMS,

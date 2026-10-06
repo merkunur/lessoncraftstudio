@@ -338,7 +338,8 @@
   },
   "division-with-remainder": {
     "full": "Delen met rest voor groep 5 en 6: het kind maakt groepjes, verdeelt eerlijk, schrijft deelsommen met rest en controleert of een deelsom opgaat.",
-    "short": "Delen met rest: groepjes maken en de rest schrijven"
+    "short": "Delen met rest: groepjes maken en de rest schrijven",
+    "levelSetShort": "Groepjes maken en de rest opschrijven."
   },
   "tangram": {
     "full": "Tangram voor kleuters, groep 3 en groep 4: de zeven stukken uitknippen, figuren en schaduwen naleggen, het ontbrekende stuk zoeken en driehoeken tellen.",

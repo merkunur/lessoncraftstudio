@@ -284,7 +284,11 @@ function portraitSrc(p) {
  * name list (locale-neutral within a locale class). null = no deal under this
  * class (the caller refuses).
  */
-function compose(rng, bank, cfg, loc) {
+function compose(rng, bank, cfg0, loc) {
+  // a NEW page where every pair takes ONE pronoun (fi "he"): as many pair cards as singles (2026-10-06, see dealFace)
+  const cfg = bank.__fresh && collapsesPairs(bank) && cfg0.pairs > 0
+    ? { ...cfg0, singles: Math.ceil((cfg0.singles + cfg0.pairs) / 2), pairs: Math.floor((cfg0.singles + cfg0.pairs) / 2), pairTypes: null }
+    : cfg0;
   const people = bank.people;
   const nameGender = (g) => bank.names.filter((n) => n.gender === g);
   const mNames = nameGender('m').length, fNames = nameGender('f').length;
@@ -450,7 +454,12 @@ function faceDeal(d, bank, srcKey, { objects = false, pic, pairPic, mixFloor = 1
  * Returns the ordered items [{kind, people, names, refs, key, chip, object?}] or
  * null (no deal; the caller refuses).
  */
-function dealFace(rng, bank, cfg, answerFor, loc) {
+function dealFace(rng, bank, cfg0, answerFor, loc) {
+  // a NEW page in a locale where every pair takes ONE pronoun (fi "he"): as many pair cards as single cards, so neither
+  // hän nor he is the answer on most cards (2026-10-06: 4 singles + 2 pairs made "hän" right on ~70%)
+  const cfg = bank.__fresh && collapsesPairs(bank) && cfg0.pairs > 0
+    ? { ...cfg0, singles: Math.ceil((cfg0.singles + cfg0.pairs) / 2), pairs: Math.floor((cfg0.singles + cfg0.pairs) / 2), pairTypes: null }
+    : cfg0;
   const people = bank.people;
   const nameGender = (g) => bank.names.filter((n) => n.gender === g);
   const mNames = nameGender('m').length, fNames = nameGender('f').length;
@@ -460,7 +469,9 @@ function dealFace(rng, bank, cfg, answerFor, loc) {
   const pairKey = (pt) => (collapsesPairs(bank) ? 'p' : pt);
   for (let t = 0; t < MAX_TRIES; t++) {
     const cap = cfg.maxPerSex || cfg.singles;
-    const mS = rng.int(Math.max(need2, cfg.singles - cap), Math.min(cfg.singles - need2, cap));
+    // a NEW page may tilt the boys/girls split further (at least one of each) so the pronoun cap below can be met (de/nl:
+    // "they" shares its word with "she", so the pairs push one chip up)
+    const mS = bank.__fresh && t < 200 ? rng.int(1, cfg.singles - 1) : rng.int(Math.max(need2, cfg.singles - cap), Math.min(cfg.singles - need2, cap));
     const fS = cfg.singles - mS;
     let types;
     if (cfg.pairTypes) types = cfg.pairTypes.slice();
@@ -531,6 +542,12 @@ function dealFace(rng, bank, cfg, answerFor, loc) {
       if (under) continue;
     }
     if (new Set(out.map((c) => c.key)).size < 2) continue;
+    // a NEW page: no pronoun is the answer on more than half the cards (de "sie" = she AND they made it right on ~64%;
+    // fi "hän" on ~70%) — tries 1-200 strict, then the old rule
+    if (bank.__fresh && t < 200) {
+      const h = {}; out.forEach((c) => { h[c.chip] = (h[c.chip] || 0) + 1; });
+      if (Math.max(...Object.values(h)) > Math.ceil(out.length / 2)) continue;
+    }
     return out;
   }
   return null;
@@ -1312,7 +1329,9 @@ module.exports = {
     // every other copy reads the bank merged with the native panels' additions (data/b4/pronouns-levelset.json)
     const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
     if (published) return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
-    const bank = mergedBank(loc);
+    // a NEW page's bank is marked (a shallow copy, so the published bank object is never touched): the deal then caps
+    // how often one pronoun is the answer (2026-10-06 guessability audit)
+    const bank = { ...mergedBank(loc), __fresh: true };
     // the screen version / answer key wrap the SAME printed instance (the print build, then the page drives both)
     if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       const d = this.difficulty[difficulty];

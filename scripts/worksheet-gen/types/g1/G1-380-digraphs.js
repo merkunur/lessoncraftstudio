@@ -51,7 +51,8 @@
  * the floors, pictures loaded, nothing printed but numerals and bead letters).
  */
 'use strict';
-const { slotFor } = require('../../lib/answer-slots.js');
+const { slotFor, pageSalt } = require('../../lib/answer-slots.js');
+let PAGE_SALT = '';
 const { bank: loadBank } = require('../../lib/b5-common.js');
 const { fileUri } = require('../../lib/b2-common.js');
 const { hasPicture } = require('../../lib/b3-picture-index.js');
@@ -284,6 +285,7 @@ function posIcon(k) {
 }
 /** The screen version (tap) or the answer key of a built page; the print page passes through. */
 function screenOrKey(mode, built, ctx, loc) {
+  PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   if (!ctx || (!ctx.interactive && !ctx.answerKey)) return built;
   const A = built._ans;
   if (!A) throw new Error(`${ID}: ${mode} has no answer data`);
@@ -304,7 +306,7 @@ function screenOrKey(mode, built, ctx, loc) {
       const meta = `data-lcs-seg="${sEsc(it.seg.join('|'))}" data-lcs-silent="${sEsc((it.silent || []).join('|'))}"` + (mode === 'position' ? ` data-lcs-team="${sEsc(r.team)}"` : '');
       if (mode === 'match') {
         const others = rotated(A.rows, i, 2).map((x) => x.item);
-        const slot = slotFor(it.noun + '|' + i, 3), opts = others.slice(); opts.splice(slot, 0, it);   // never a fixed rotation (a position tell, 2026-10-06)
+        const slot = slotFor(PAGE_SALT + it.noun + '|' + i, 3), opts = others.slice(); opts.splice(slot, 0, it);   // never a fixed rotation (a position tell, 2026-10-06)
         const j = it.seg.findIndex((g) => fold(g) === fold(r.team));
         const word = C5.beadWord({ seg: it.seg, teamIdx: j, px: 40, beadH: 52 });
         return scrItem(meta, word, opts.map((o, k) => optBtn(k, o.vocabKey, scrPic(fileUri(o.theme, o.noun), o.vocabKey, 84), k === slot)).join(''));

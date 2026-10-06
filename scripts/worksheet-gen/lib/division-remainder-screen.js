@@ -41,7 +41,7 @@ function answerLabel(tpl, n, d, q, r) {
 function question(tpl, n, d) { return String(tpl).replace('{n}', n).replace('{d}', d).replace('{q}', '?').replace('{r}', '?'); }
 
 /** three distinct options; the right one at `at` */
-function optionsFor(tpl, it, at) {
+function optionsFor(tpl, it, at, page = '') {
   const { n, d, q, r } = it;
   const wrong = [];
   const add = (q2, r2) => { if (q2 >= 0 && r2 >= 0 && !(q2 === q && r2 === r)) wrong.push(answerLabel(tpl, n, d, q2, r2)); };
@@ -51,9 +51,16 @@ function optionsFor(tpl, it, at) {
   // E one group too many AND the leftover miscounted. The pairs put the right quotient LOWEST (C+E), HIGHEST (A+D),
   // in the MIDDLE (A+C) or shared (A+B, B+C, B+D) about equally — measured: no "pick the middle / repeated / smallest"
   // strategy beats chance by much (tools: $TEMP/spl/dwr-tells.js)
-  const S = { A: [q - 1, r + d], B: [q, r + 1 < d ? r + 1 : r - 1], C: [q + 1, r], D: [q - 1, r], E: [q + 1, r + 1 < d ? r + 1 : r - 1] };
-  const PAIRS = [['A', 'D'], ['C', 'E'], ['A', 'C'], ['A', 'B'], ['B', 'C'], ['B', 'D'], ['A', 'D'], ['C', 'E']];
-  const pair = PAIRS[slotFor(n + 'x' + d, PAIRS.length)];
+  // the miscounted leftover goes UP or DOWN by one (always up made "tap the smallest remainder" win)
+  const up = r + 1 < d, down = r - 1 >= 0;
+  const rr = up && down ? (slotFor(page + n + 'x' + d + '|r', 2) ? r + 1 : r - 1) : (up ? r + 1 : r - 1);
+  const S = { A: [q - 1, r + d], B: [q, rr], C: [q + 1, r], D: [q - 1, r], E: [q + 1, rr] };
+  // the mix of pairs (guessability audit 2026-10-06, solved for, not guessed): every no-division strategy — the option
+  // sharing a number with both others, the one sharing least, the quotient shown twice / once, the middle / lowest /
+  // highest quotient, the smallest / largest remainder — wins at most 1 card in 3; the key slip (A, the remainder
+  // bigger than the divisor) is on half the cards. The old 8-pair mix let "the option sharing with both" solve pages.
+  const PAIRS = [['A', 'D'], ['A', 'D'], ['C', 'E'], ['C', 'E'], ['A', 'B'], ['A', 'B'], ['A', 'B'], ['A', 'B'], ['B', 'E'], ['B', 'E'], ['B', 'C'], ['B', 'C']];
+  const pair = PAIRS[slotFor(page + n + 'x' + d, PAIRS.length)];
   for (const k of [...pair, 'A', 'B', 'C', 'D', 'E']) add(...S[k]);
   const right = answerLabel(tpl, n, d, q, r);
   const o = [...new Set(wrong.filter((x) => x !== right))].slice(0, 2);
@@ -75,9 +82,12 @@ function screen(built, loc) {
   if (!items.length) throw new Error('division-remainder screen: no items in meta');
   const tpl = bankOf(loc).notation.template;
   const theme = m.theme || null;
+  // the page's own signature joins every hash: a division that recurs on many pages (13 ÷ 4) must not get the same
+  // slot and the same slips every time (2026-10-06: one face leant to slot 3 in one locale)
+  const page = items.map((x) => x.n + '/' + x.d).join(',') + '|' + (m.mode || '') + '|';
   const cards = items.map((it, i) => {
-    const at = slotFor(it.n + '/' + it.d + '|' + i, 3);
-    const { opts, right } = optionsFor(tpl, it, at);
+    const at = slotFor(page + it.n + '/' + it.d + '|' + i, 3);
+    const { opts, right } = optionsFor(tpl, it, at, page);
     const px = Math.max(20, Math.min(32, Math.floor(560 / (0.6 * Math.max(...opts.map((x) => [...x].length))))));
     const wide = opts.some((x) => [...x].length > 9);
     const chips = opts.map((v, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${esc(v)}"${v === right ? ' data-lcs-correct="1"' : ''} ` +

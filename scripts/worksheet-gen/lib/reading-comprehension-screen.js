@@ -14,6 +14,7 @@
  *            question → the data's answer, refused if that answer is written word-for-word in the story.
  */
 'use strict';
+const { seededShuffle, pageSalt } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const { seatOnRow } = require('./key-on-row.js');
@@ -66,6 +67,7 @@ function screenOrKey(built, ctx, loc, L) {
   const story = storyById(loc, m.passage);
   if (!story) throw new Error(`reading-comprehension screen: no story ${m.passage} (${loc})`);
   if (ctx.interactive) {
+    const salt = pageSalt(built);
     const numbered = m.level !== 2;
     const items = m.questions.map((q, i) => {
       const attrs = `data-lcs-story="${esc(story.id)}" data-lcs-qkind="${q.kind}" data-lcs-question="${esc(q.q)}"` + (q.hint ? ` data-lcs-hint="${q.hint}"` : '');
@@ -74,7 +76,9 @@ function screenOrKey(built, ctx, loc, L) {
           story.sentences.map((s, j) => opt(j, s, j === q.evidence - 1, 22, true)).join(''));
       }
       return item(attrs, qLine(i + 1, q.q) + (q.hint ? chip(L.sentenceChip.replace('{n}', q.hint)) : ''),
-        q.choices.map((c, j) => opt(j, c, j === q.correct, 26, false)).join(''));
+        // the choices in an order of their own per question (2026-10-06: the AUTHORED order put the right answer in one
+        // slot on ~60% of cards of a story) — the page's fingerprint + the question seed the shuffle
+        seededShuffle(q.choices.map((c, j) => ({ c, ok: j === q.correct })), salt + q.q).map((x, j) => opt(j, x.c, x.ok, 26, false)).join(''));
     });
     return {
       bodyHtml: `<div data-ws-content data-lcs-type="reading-comprehension" data-lcs-screen="L${m.level}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">` +

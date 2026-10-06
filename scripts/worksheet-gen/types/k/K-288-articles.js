@@ -99,6 +99,37 @@ module.exports = {
     let pool = distinctByWord(entriesFor(theme, loc).filter(countable).filter((e) => !refuse.has(String(e.vocabKey).toLowerCase())), (e) => e.singular.toLocaleLowerCase(loc));
     // fi form mode: each card shows 1 or 3 pictures; chips = [singular, plural]
     const isForm = A.mode === 'form';
+    // BORROWED NOUNS (operator ruling 2026-10-06, guessability audit): a theme with too few nouns of one article ("an",
+    // "ett", "et", "het" — en/sv/no/da/nl themes hold 1-2) made "always tap the common article" score 75-85%. A NEW page
+    // tops that article up from OTHER themes of the same kind (colour from colour, black-and-white from black-and-white,
+    // never mixed), only as many as the balance needs; each borrowed picture is drawn from its own theme folder. The
+    // published page (level 2, copy 1) never borrows (its draws are unchanged).
+    const isPublished = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!isPublished && !isForm) {
+      const keyOf = (e) => A.keyFor({ ...e, key: e.vocabKey }, { level, count: 1 });
+      const hist = {};
+      pool.forEach((e) => { const k = keyOf(e); if (k != null) hist[k] = (hist[k] || 0) + 1; });
+      const want = Math.max(1, Math.floor(d.cards / chips.length));
+      const short = chips.map((_, k) => k).filter((k) => (hist[k] || 0) < want);
+      if (short.length) {
+        const M = require('../../image-cache/resolve.js').manifest();
+        const bwOf = (t) => !!(M.themes[t] && M.themes[t].bw);
+        const others = Object.keys(M.themes).filter((t) => t !== theme && bwOf(t) === bwOf(theme)).sort();
+        const have = new Set(pool.map((e) => e.singular.toLocaleLowerCase(loc)));
+        for (const k of short) {
+          const extra = [];
+          for (const t of others) {
+            let es; try { es = entriesFor(t, loc); } catch (e) { continue; }
+            for (const e of es.filter(countable)) {
+              const w = e.singular.toLocaleLowerCase(loc);
+              if (refuse.has(String(e.vocabKey).toLowerCase()) || have.has(w) || keyOf(e) !== k) continue;
+              extra.push({ ...e, _theme: t }); have.add(w);
+            }
+          }
+          pool = pool.concat(rng.shuffle(extra).slice(0, want - (hist[k] || 0)));
+        }
+      }
+    }
     let cardsData = null, guard = 0, relaxed = false;
     while (!cardsData && guard++ < 400) {
       if (guard === 201) relaxed = true; // a theme short of one gender (sv animals: few ett-nouns) still ships with ≥ 1 of it
@@ -118,10 +149,20 @@ module.exports = {
       const keys = Object.keys(hist);
       const floor = (difficulty === 1 || relaxed) ? 1 : 2;
       const nChips = isForm ? 2 : chips.length;
+      // … and on a NEW page a ceiling too (2026-10-06 guessability audit: "a" was right on ~75% of cards — tap "a" every
+      // time and score): at most half the cards per article with two chips, an even share + 1 with three or four. The
+      // published page (level 2, copy 1) keeps its draws; a theme that cannot balance relaxes after 200 tries as before.
+      const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+      // the ceiling loosens one card at a time (tries 1-200 strict, 201-300 +1), never straight to "anything goes"
+      const ceil = (nChips <= 2 ? Math.ceil(d.cards / 2) : Math.ceil(d.cards / nChips) + 1) + (guard > 200 ? 1 : 0);
       const okMix = keys.length >= Math.min(2, nChips) && keys.every((k) => hist[k] >= floor) &&
-        (nChips <= 2 || keys.length >= 2);
+        (nChips <= 2 || keys.length >= 2) && (published || guard > 300 || keys.every((k) => hist[k] <= ceil));
       if (!okMix) continue;
       cardsData = rng.shuffle(cand);
+      // a NEW page never in a tapping rhythm (a, an, a, an …)
+      if (!isPublished) { const { tappingRhythm } = require('../../lib/answer-slots.js'); for (let g = 0; g < 50 && tappingRhythm(cardsData.map((c) => c.key), isForm ? 2 : chips.length); g++) cardsData = rng.shuffle(cand); }
+      // the FIRST card shows the page's own theme (a borrowed picture first would read as the deck's theme downstream)
+      if (cardsData[0].e._theme) { const j = cardsData.findIndex((c) => !c.e._theme); if (j > 0) [cardsData[0], cardsData[j]] = [cardsData[j], cardsData[0]]; }
     }
     if (!cardsData) throw new Error(`K-288: theme ${theme}/${loc} cannot satisfy the gender mix at d${difficulty}`);
     const cards = cardsData.map(({ e, key, count }) => {
@@ -129,7 +170,7 @@ module.exports = {
       const pics = Array.from({ length: count }, (_, k) => {
         const rot = (rng.next() * 8 - 4).toFixed(1);
         const sz = count > 1 ? Math.round(d.pic * 0.62) : d.pic;
-        return `<img class="ws-icon" src="${fileUri(theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${sz}px;height:${sz}px;transform:rotate(${rot}deg)">`;
+        return `<img class="ws-icon" src="${fileUri(e._theme || theme, e.noun)}" alt="" data-lcs-pic="${e.vocabKey}" style="width:${sz}px;height:${sz}px;transform:rotate(${rot}deg)">`;
       }).join('');
       const word = d.showWord ? `<span style="font-family:'Nunito';font-weight:800;font-size:${Math.round(d.chipFont * 0.95)}px;color:#3A3530" data-lcs-shown-word>${displayWord(e.singular, loc)}</span>` : '';
       let chipHtml = articleChips({ chips: chipLabels, correctIndex: key, w: isForm ? 120 : (chips.length === 4 ? 66 : d.chipW), h: d.chipH, fontPx: isForm ? 18 : (chips.length === 4 ? 20 : d.chipFont), dots: A.chipDots });
@@ -206,7 +247,7 @@ module.exports = {
       const wordChips = cardsData.map((c) => {
         const w = wordOf(c), k = keyOf(c);
         // L1 reading support: the word's own small picture beside it
-        const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
+        const pic = d.sortPictures ? `<img class="ws-icon" src="${fileUri(c.e._theme || theme, c.e.noun)}" alt="" style="width:34px;height:34px;margin-right:6px">` : '';
         return `<span class="ws-tile ws-tile--word" style="height:44px;font-size:20px" data-lcs-sortword="${w}" data-lcs-key="${k}">${pic}${w}</span>`;
       }).join('');
       const binW = Math.floor(640 / binLabels.length) - 12;

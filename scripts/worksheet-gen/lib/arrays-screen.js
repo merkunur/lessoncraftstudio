@@ -16,7 +16,7 @@
  * and the right array ringed on build-array pages.
  */
 'use strict';
-const { slotFor } = require('./answer-slots.js');
+const { slotFor, numberChoices } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660, OPT_H = 100;
@@ -46,16 +46,19 @@ function screenOrKey(mode, built, ctx, loc) {
   if (!A || !A.length) throw new Error(`arrays screen: ${mode} has no answer data`);
   const out = { bodyHtml: built.bodyHtml, meta: built.meta };
   if (ctx.interactive) {
+    const pageSig = A.map((x) => x.q).join(',') + '|';
     const items = A.map((x, i) => {
       const at = slotFor(x.a + '|' + i, 3);   // never i % 3 (a diagonal tell, 2026-10-06)
       if (x.choose) {
         const opts = x.opts.map((o, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${o.label}"${o.ok ? ' data-lcs-correct="1"' : ''} style="height:auto;min-height:${OPT_H}px;padding:14px;box-sizing:border-box">${o.html}</span>`).join('');
         return item(`data-lcs-word="${i + 1}" data-lcs-q="${x.q}"`, row(`<span style="display:inline-flex;align-items:center;gap:10px;zoom:1.6">${x.eq}</span>`), row(opts, 12));
       }
-      const vals = optionsFor(x, at);
+      // the right number is smallest / middle / largest equally often (2026-10-06: "one too few, one too many" put it
+      // in the middle on 99% of cards)
+      const nc = numberChoices(x.a, x.d, pageSig + x.q + '|' + i, { min: 1 });   // the page joins the hash: a fact that recurs on many pages must not keep one rank
       const z = ZOOM[mode] || 1.4;
       const top = `<div style="zoom:${z};display:flex;justify-content:center">${x.visual}</div>` + row(`<span style="display:inline-flex;align-items:center;gap:8px;zoom:1.5">${x.eq}</span>`);
-      return item(`data-lcs-word="${i + 1}" data-lcs-q="${x.q}"`, top, numOpts(vals, at));
+      return item(`data-lcs-word="${i + 1}" data-lcs-q="${x.q}"`, top, numOpts(nc.opts, nc.at));
     });
     out.bodyHtml = `<div data-ws-content data-lcs-type="arrays-multiplication" data-lcs-screen="${mode}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items.join('')}</div>`;
     return out;

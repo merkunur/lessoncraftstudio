@@ -45,9 +45,11 @@ function spellItem(c, theme, loc, face) {
     pic(theme, c.noun, c.key, 150) + slots + tiles);
 }
 
-function countItem(c, theme) {
-  const w = Math.floor((SCR_W - 24 - 5 * 12) / 6);
-  const opts = [1, 2, 3, 4, 5, 6].map((n, i) => `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${n}"${n === c.chunks.length ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${OPT_H}px;box-sizing:border-box;font-size:40px">${n}</span>`).join('');
+// the counts on offer run from the page's fewest sounds to its most (2026-10-06: 1-6 offered on pages of 2-5 sounds —
+// two numbers never right, and "always 3" / "always 4" scored up to twice chance)
+function countItem(c, theme, NUMS) {
+  const w = Math.floor((SCR_W - 24 - (NUMS.length - 1) * 12) / Math.max(NUMS.length, 4));
+  const opts = NUMS.map((n, i) => `<span class="ws-achip" data-lcs-opt="${i}" data-lcs-label="${n}"${n === c.chunks.length ? ' data-lcs-correct="1"' : ''} style="width:${w}px;height:${OPT_H}px;box-sizing:border-box;font-size:40px">${n}</span>`).join('');
   return card(`data-lcs-vocab="${esc(c.key)}" data-lcs-face="count"`, pic(theme, c.noun, c.key, 170) + row(opts, 12));
 }
 
@@ -61,7 +63,11 @@ function blendItem(c, theme) {
 function screen(built, ctx, loc, theme, face) {
   const cards = built.meta.cards;
   if (!Array.isArray(cards) || !cards.length) throw new Error('sound-boxes screen: the built page carries no cards');
-  const items = cards.map((c) => (face === 'count' ? countItem(c, theme) : face === 'blend' ? blendItem(c, theme) : spellItem(c, theme, loc, face))).join('');
+  const ns = cards.map((c) => (c.chunks || []).length);
+  let lo = Math.min(...ns), hi = Math.max(...ns);
+  if (hi === lo) { if (lo > 1) lo -= 1; else hi += 1; }
+  const NUMS = Array.from({ length: hi - lo + 1 }, (_, k) => lo + k);
+  const items = cards.map((c) => (face === 'count' ? countItem(c, theme, NUMS) : face === 'blend' ? blendItem(c, theme) : spellItem(c, theme, loc, face))).join('');
   return { bodyHtml: `<div data-ws-content data-lcs-type="sound-boxes" data-lcs-screen="${face}" style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;padding-top:10px">${items}</div>`, meta: built.meta };
 }
 
@@ -99,7 +105,7 @@ function oracle(kind, items, l) {
 function interactiveFor(face) {
   if (face === 'count' || face === 'blend') {
     return {
-      kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]',
+      kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', pictureOptions: face === 'blend',   // blend: the options are PICTURES (the label is an id a child never sees)
       metaAttrs: ['data-lcs-vocab', 'data-lcs-face', 'data-lcs-sounds'], instructionKey: face, screenHeight: 6400,
       oracle: (items, l) => oracle(face, items, l),
     };

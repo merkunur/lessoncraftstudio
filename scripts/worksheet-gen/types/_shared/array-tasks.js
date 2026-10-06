@@ -165,13 +165,25 @@ function makeArrayType(cfg) {
           do { r = rng.int(2, d.maxR); c = rng.int(2, d.maxC); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
           used.add(r + 'x' + c);
           const px = 16;
+          const r2 = r > 2 ? r - 1 : r + 1, c2 = c > 2 ? c - 1 : c + 1;
+          // 2026-10-06 (guessability audit): "one row off + one column off" made the right array the only one sharing a
+          // side with BOTH decoys — tap the array in the middle of the family, never count. A new page chains the three
+          // arrays instead (A–B–C, each one side off the next) with the right array at either end or in the middle,
+          // equally often; the published page builds exactly as it shipped (same rng draws either way).
+          let decoys = [{ r: r2, c, ok: false }, { r, c: c2, ok: false }];
+          if (!published) {
+            const shape = require('../../lib/answer-slots.js').slotFor(`${r}x${c}|${i}|chain`, 3);
+            if (shape === 1) decoys = [{ r: r2, c, ok: false }, { r: r2, c: c2, ok: false }];       // right at an end (rows)
+            else if (shape === 2) decoys = [{ r, c: c2, ok: false }, { r: r2, c: c2, ok: false }];  // right at an end (columns)
+            // the turned right array is the same product — never a decoy (2026-10-04)
+            if (decoys.some((o) => (o.r === c && o.c === r) || (o.r === r && o.c === c))) decoys = [{ r: r2, c, ok: false }, { r, c: c2, ok: false }];
+          }
           const opts = rng.shuffle([
             { r, c, ok: true },
             // 2026-10-04 (native + pedagogy review): the TURNED array (c rows of r) was a decoy, but it shows the same
-            // product — the very fact G3-314 teaches — so it was a second right answer. The decoys are now one ROW and one
+            // product — the very fact G3-314 teaches — so it was a second right answer. The decoys are one ROW and one
             // COLUMN off (one more when the side is only 2: Math.max(2, c - 1) had drawn the right array twice).
-            { r: r > 2 ? r - 1 : r + 1, c, ok: false },
-            { r, c: c > 2 ? c - 1 : c + 1, ok: false },
+            ...decoys,
           ]);
           const chips = opts.map((o) =>
             `<span class="ws-pattern-chip" style="width:auto;height:auto;border-radius:12px;padding:8px"${o.ok ? ' data-lcs-correct="1"' : ''}>` +

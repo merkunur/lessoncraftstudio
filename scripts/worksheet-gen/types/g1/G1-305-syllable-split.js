@@ -276,7 +276,11 @@ module.exports = {
     if (face !== 'base') return this._buildFace(face, b, d, { theme, locale: loc }, ctx);
     const rng = ctx.rng;
     const fresh = !!(ctx && ctx.fresh), keyFill = !!(ctx && ctx.keyFill);
-    const pool = eligible(loc, theme, { minCount: d.minCount, maxCount: d.maxCount, maxLetters: d.maxLetters, pool: fresh ? 'tex' : 'full', dots: d.dots, bank: b, fresh });
+    // a NEW page counts from ONE syllable (2026-10-06 guessability audit: level 1 was all two-syllable words, so its
+    // screen's "how many?" was always 2, and levels 2-3 were mostly 2 — tap "2" every time and score)
+    let pool = eligible(loc, theme, { minCount: fresh ? 1 : d.minCount, maxCount: d.maxCount, maxLetters: d.maxLetters, pool: fresh ? 'tex' : 'full', dots: d.dots, bank: b, fresh });
+    // … and a new page whose range holds ONE count only (fi: no one-syllable picture words) reaches one syllable further
+    if (fresh && new Set(pool.map((e) => e.count)).size < 2) pool = eligible(loc, theme, { minCount: 1, maxCount: d.maxCount + 1, maxLetters: d.maxLetters + 2, pool: 'tex', dots: d.dots, bank: b, fresh });
     // long words first (count ≥ 3), up to the target the pool can honour, then the rest
     const longs = pool.filter((e) => e.count >= 3);
     const wantLong = Math.min(d.minLongCards || 0, longs.length);
@@ -286,10 +290,36 @@ module.exports = {
     // 4-card shape needs 6. A short pool THROWS — never a filler.
     const floor = Math.max(d.cards, d.minPool || 0);
     if (pool.length < floor) throw new Error(`${ID}: theme ${theme}/${loc} has ${pool.length} eligible words < ${floor} (d${difficulty}) — REFUSED`);
-    const pickedLong = wantLong ? sampleEntries(rng, longs, wantLong, ID) : [];
-    const rest = pool.filter((e) => !pickedLong.includes(e));
-    const pickedRest = sampleEntries(rng, rest, d.cards - wantLong, ID);
-    const picks = rng.shuffle(pickedLong.concat(pickedRest));
+    let picks;
+    if (fresh) {
+      // deal the cards across the syllable counts the theme has, round-robin, no count on more than half the cards
+      const byCount = {};
+      for (const e of rng.shuffle(pool.slice())) (byCount[e.count] = byCount[e.count] || []).push(e);
+      const counts = rng.shuffle(Object.keys(byCount).map(Number));
+      const cap = Math.ceil(d.cards / 2), took = {};
+      picks = [];
+      for (let guard = 0; picks.length < d.cards && guard < 100; guard++) {
+        let added = false;
+        for (const c of counts) {
+          if (picks.length >= d.cards) break;
+          if ((took[c] || 0) >= cap || !byCount[c].length) continue;
+          picks.push(byCount[c].shift()); took[c] = (took[c] || 0) + 1; added = true;
+        }
+        if (!added) break;
+      }
+      // a theme with one count only (fi level 1: no one-syllable picture words) fills the rest — never a refusal for that
+      for (const c of counts) while (picks.length < d.cards && byCount[c].length) picks.push(byCount[c].shift());
+      picks = rng.shuffle(picks);
+      // the screen asks "how many?" card by card: never an order a child taps by rhythm (2, 3, 2, 3 …)
+      const { tappingRhythm } = require('../../lib/answer-slots.js');
+      const lo = Math.min(...picks.map((e) => e.count)), span = Math.max(...picks.map((e) => e.count)) - lo + 1;
+      for (let g = 0; g < 50 && tappingRhythm(picks.map((e) => e.count - lo), Math.max(2, span)); g++) picks = rng.shuffle(picks);
+    } else {
+      const pickedLong = wantLong ? sampleEntries(rng, longs, wantLong, ID) : [];
+      const rest = pool.filter((e) => !pickedLong.includes(e));
+      const pickedRest = sampleEntries(rng, rest, d.cards - wantLong, ID);
+      picks = rng.shuffle(pickedLong.concat(pickedRest));
+    }
     const cards = picks.map((e) => {
       const n = [...e.word].length;
       const cell = cellFor(n, d.cellMax);
@@ -306,7 +336,8 @@ module.exports = {
     });
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;min-height:0" data-lcs-type="${ID}" data-lcs-face="base" ` +
-        `data-lcs-cards="${d.cards}" data-lcs-mincount="${d.minCount}" data-lcs-maxcount="${d.maxCount}" data-lcs-maxletters="${d.maxLetters}" ` +
+        // a NEW page stamps the range it really drew from (one syllable up; one further where the level held one count only)
+        `data-lcs-cards="${d.cards}" data-lcs-mincount="${fresh ? Math.min(...picks.map((e) => e.count)) : d.minCount}" data-lcs-maxcount="${fresh ? Math.max(...picks.map((e) => e.count)) : d.maxCount}" data-lcs-maxletters="${fresh ? Math.max(d.maxLetters, ...picks.map((e) => [...e.word].length)) : d.maxLetters}" ` +
         `data-lcs-long="${wantLong}" data-lcs-longwant="${d.minLongCards || 0}" data-lcs-dotsmode="${d.dots ? 1 : 0}" data-lcs-cellmax="${d.cellMax}" data-lcs-arch="${d.arcH}">` +
         cardGrid({ cards, cols: d.cols, rows: d.rows }) + `</div>`,
       meta: { words: picks.map((e) => e.word), splits: picks.map((e) => e.split.join('-')), longCards: wantLong, longWanted: d.minLongCards || 0, pool: pool.length, longPool: longs.length, ...(fresh ? { keys: picks.map((e) => e.vocabKey), nouns: picks.map((e) => e.noun) } : {}) },
@@ -473,7 +504,26 @@ module.exports = {
       // new pages keep the worked example's word OFF the cards (the approved entry has no .key, so the published filter
       // never removed it — sv spring: the example on a card; the published pages keep their bytes)
       const notExample = (e) => (fresh ? e.vocabKey !== b.example.vocabKey && e.word.toLocaleLowerCase(loc) !== exEntry.word.toLocaleLowerCase(loc) : e.vocabKey !== ex.key);
-      const picks = swapRefused(rng.shuffle(sampleEntries(rng, pool.filter(notExample), d.cards, ID)), fresh ? [] : pool.filter(notExample), loc);
+      let picks;
+      if (fresh) {
+        // a NEW page draws several word sets and keeps the one whose vowels sit in the most varied tile positions
+        // (2026-10-06 guessability audit: in CV / CVC syllables the vowel is the 2nd tile, so "always tap the 2nd
+        // tile" scored 73-100% on the screen) — the best of up to 80 draws, stopping at ≤ half on one position
+        const U = SCR().units;
+        let best = null, bestShare = Infinity;
+        for (let t = 0; t < 80; t++) {
+          const cand = rng.shuffle(sampleEntries(rng, pool.filter(notExample), d.cards, ID));
+          const at = [];
+          cand.forEach((e) => e.split.forEach((syl) => at.push(U(syl, loc, opts.kings.extra).findIndex((x) => x.v))));
+          const h = {}; at.forEach((v) => { h[v] = (h[v] || 0) + 1; });
+          const share = Math.max(...Object.values(h)) / at.length;
+          if (share < bestShare) { bestShare = share; best = cand; }
+          if (share <= 0.5) break;
+        }
+        picks = swapRefused(best, [], loc);
+      } else {
+        picks = swapRefused(rng.shuffle(sampleEntries(rng, pool.filter(notExample), d.cards, ID)), pool.filter(notExample), loc);
+      }
       const cards = picks.map((e) => {
         const n = [...e.word].length;
         const cell = cellFor(n, d.cellMax);
@@ -521,7 +571,7 @@ module.exports = {
         if (seen.has(word)) fails.push(`${tag}: duplicate word "${word}"`);
         seen.add(word);
         if (split.join('') !== word.toLocaleLowerCase(lang)) fails.push(`${tag}: split "${split.join('|')}" ≠ word "${word}"`);
-        if (split.length !== count || count < 2) fails.push(`${tag}: count ${count} ≠ ${split.length} syllables`);
+        if (split.length !== count || (count < 2 && minC >= 2)) fails.push(`${tag}: count ${count} ≠ ${split.length} syllables`);
         if (count < minC || count > maxC) fails.push(`${tag}: count ${count} outside ${minC}-${maxC}`);
         if (n > maxL) fails.push(`${tag}: ${n} letters > ${maxL}`);
         if (count >= 3) longSeen++;

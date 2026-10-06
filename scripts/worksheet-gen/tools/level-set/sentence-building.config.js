@@ -4,6 +4,7 @@ const ALL = [1, 2, 3, 4, 5];
 const CORE = [2, 3, 4, 5, 6];   // level-2 copy 1 is the published page
 module.exports = {
   prefix: 'sbl',
+  fileStem: 'sbs',   // Sound Boxes shares the prefix sbl (live deck ids): this type's waves are waves/wave-sbs-<loc>.json
   titleMax: 80,
   faceWideDistinct: false,   // a theme may recur between the levels of a page (the task differs), never inside a level
   crossFaceShare: true,      // the faces are different tasks: they may share a theme at one level

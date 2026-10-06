@@ -16,6 +16,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'capitals-punctuation',
   'compound-words',
   'days-and-months',     // Days and Months (2026-10-06): tap the names in order / the missing name / the full name of a short form
+  'division-with-remainder', // Division with Remainders (2026-10-06): tap the answer with the right remainder
   'digraphs',
   'feelings',
   'cloze',

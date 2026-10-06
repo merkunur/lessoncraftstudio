@@ -385,7 +385,11 @@ async function main() {
   const folder = process.argv[2];
   const poison = process.argv.includes('--poison');
   if (!folder) throw new Error('usage: verify-interactive.js <staging-folder> [--poison]');
-  const zips = fs.readdirSync(folder).filter((f) => f.endsWith('.zip')).sort();
+  let zips = fs.readdirSync(folder).filter((f) => f.endsWith('.zip')).sort();
+  // --sample=N (2026-10-06, the answer-position republish of ~15,700 decks): play N decks evenly spaced over the
+  // folder instead of all (a full play is ~25 s a deck); never used for a NEW type — new types play every deck
+  const sampleArg = (process.argv.find((a) => a.startsWith('--sample=')) || '').slice(9);
+  if (sampleArg && !poison) { const n = +sampleArg; if (n > 0 && zips.length > n) { const step = zips.length / n; zips = Array.from({ length: n }, (_, i) => zips[Math.floor(i * step)]); } }
   const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();

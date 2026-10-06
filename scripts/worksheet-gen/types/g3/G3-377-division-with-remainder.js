@@ -80,7 +80,8 @@ const PAGE_ATTEMPTS = 300;
 const ITEM_TRIES = 200;
 const UNITS = ['2-5', '6-9', '2-9'];   // the divisor sets (design §1); anything else is refused
 const UNIT_RE = /^([2-9])-([2-9])$/;
-const BW_MARK = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;   // the localized B&W theme marker (§20.5)
+// the localized B&W theme marker (§20.5), also NUMBERED ("sports bw 2" slipped the old /…bw$/ — Level Set 2026-10-06)
+const BW_MARK = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s+\d+)?$/i;
 
 /** '2-5' → [2,3,4,5]; throws on anything outside UNITS (refusal, never a default). */
 function divisorsOf(unit) {
@@ -714,8 +715,19 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-10-06: the screen version + answer key of every NEW page (lib/division-remainder-screen.js)
+  interactive: require('../../lib/division-remainder-screen.js').interactiveFor(),
+  /** Level Set copies: the divisions a page asks (build-waves compares copies by these; ≤ half shared within a level). */
+  levelSetWords(m) { return (m.items || []).map((it) => it.n + '/' + it.d); },
+
   build({ theme, difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
+    // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale, unit }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/division-remainder-screen.js').screenOrKey(built, ctx, loc);
+    }
     return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { theme, locale: loc, unit }, ctx);
   },
 

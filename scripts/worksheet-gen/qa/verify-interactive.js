@@ -420,7 +420,7 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {

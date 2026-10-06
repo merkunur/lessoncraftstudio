@@ -33965,7 +33965,7 @@
     },
     {
      "id": "f02",
-     "text": "I dag {form} Jakob sammen med søsteren sin.",
+     "text": "Hver dag {form} Jakob sammen med søsteren sin.",
      "col": "pres",
      "unit": "na-igar",
      "fits": [
@@ -34213,7 +34213,7 @@
     },
     {
      "id": "f18",
-     "text": "I dag {form} Nora hjemme.",
+     "text": "Hver kveld {form} Nora hjemme.",
      "col": "pres",
      "unit": "na-igar",
      "fits": [

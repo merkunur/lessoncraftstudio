@@ -129,7 +129,8 @@ function optionsFor(bank, unit, inf, right, i) {
 }
 /** a verb's extra WRONG forms on this unit (bank.extraWrong[inf][unit]: en -ing, sv supine, da participle) — forms
  *  of the same verb a child really writes in the wrong place, never a right answer for any gap */
-let EXTRA = {};   // data/b3/verb-forms-extra-wrong.js for this page's locale
+let EXTRA = {};
+let AVOIDW = new Set();   // data/b3/verb-forms-hunt-avoid.js word list for this page's locale   // data/b3/verb-forms-extra-wrong.js for this page's locale
 function extraWrong(bank, unit, inf) {
   const w = EXTRA[inf];
   if (!w) return [];
@@ -169,6 +170,8 @@ function laneItems(bank, unit, lanes, start) {
 function screenOrKey(mode, built, ctx, loc, bank) {
   PAGE_SALT = pageSalt(built);   // every slot hash of this page joins its fingerprint (2026-10-06)
   EXTRA = require('../data/b3/verb-forms-extra-wrong.js')[(loc || 'en').slice(0, 2)] || {};
+  // words that read as a verb when offered alone are never a find-the-verb wrong option (native review 2026-10-06)
+  AVOIDW = new Set(((require('../data/b3/verb-forms-hunt-avoid.js').word || {})[(loc || 'en').slice(0, 2)] || []).map(fold));
   const m = built.meta, unit = m.unit;
   const out = { bodyHtml: built.bodyHtml, meta: m };
   if (ctx.interactive) {
@@ -227,15 +230,15 @@ function screenOrKey(mode, built, ctx, loc, bank) {
         const subj = new Set(String(f.subjectLiteral || '').split(/\s+/).map(fold));
         const all = f.text.replace('{form}', ' ').split(/[^\p{L}'’-]+/u).filter((w) => w && fold(w) !== fold(form));
         const uniq = all.filter((w, k) => all.findIndex((x) => fold(x) === fold(w)) === k);
-        const notSubj = uniq.filter((w) => !subj.has(fold(w)));
+        const notSubj = uniq.filter((w) => !subj.has(fold(w)) && !AVOIDW.has(fold(w)));
         const inOwn = new Set(uniq.map(fold));
         const pageWords = [];
         for (const [, , ofid] of m.rows) {
           const of = (bank.frames || []).find((x) => x.id === ofid);
           if (!of || of.id === fid) continue;
-          for (const w of String(of.text).replace('{form}', ' ').split(/[^\p{L}'’-]+/u)) if (w && !inOwn.has(fold(w)) && fold(w) !== fold(form) && !pageWords.some((y) => fold(y) === fold(w))) pageWords.push(w);
+          for (const w of String(of.text).replace('{form}', ' ').split(/[^\p{L}'’-]+/u)) if (w && !inOwn.has(fold(w)) && !AVOIDW.has(fold(w)) && fold(w) !== fold(form) && !pageWords.some((y) => fold(y) === fold(w))) pageWords.push(w);
         }
-        const own = notSubj.length ? notSubj : uniq;
+        const own = notSubj.length ? notSubj : uniq.filter((w) => !AVOIDW.has(fold(w)));
         const r = len(form), below = (x) => (len(x) < r ? 1 : len(x) === r ? 0.5 : 0);
         const pairs = [];
         for (const a of own) for (const b of [...own, ...pageWords]) if (b !== a && fold(b) !== fold(a)) pairs.push([a, b]);

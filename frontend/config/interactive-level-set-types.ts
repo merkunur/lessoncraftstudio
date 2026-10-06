@@ -15,6 +15,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'calendar',
   'capitals-punctuation',
   'compound-words',
+  'days-and-months',     // Days and Months (2026-10-06): tap the names in order / the missing name / the full name of a short form
   'digraphs',
   'feelings',
   'cloze',

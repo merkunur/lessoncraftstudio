@@ -366,3 +366,4 @@ module.exports.compose = compose;
 module.exports.strokeWidth = strokeWidth;
 module.exports.silhouette = silhouette;
 module.exports.CW = CW; module.exports.CH = CH; module.exports.UNIT = UNIT;
+module.exports.contours = contours; module.exports.rdp = rdp; module.exports.maskPath = maskPath;   // dot-to-dot (tools/d2d-build.js) traces the hero's outline

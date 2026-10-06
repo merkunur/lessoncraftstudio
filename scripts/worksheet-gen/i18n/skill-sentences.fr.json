@@ -197,7 +197,8 @@
   },
   "dot-to-dot": {
     "full": "Relier les points numérotés dans l'ordre fait apparaître un dessin et répète la comptine numérique à chaque trait de crayon.",
-    "short": "Travaille la suite des nombres et la maîtrise du crayon."
+    "short": "Travaille la suite des nombres et la maîtrise du crayon.",
+    "levelSetShort": "Travaille la suite des nombres."
   },
   "grid-copy": {
     "full": "Reproduire un dessin case par case sur un quadrillage vide développe l'observation, le repérage dans l'espace et la précision du geste.",

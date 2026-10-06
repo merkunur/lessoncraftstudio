@@ -197,7 +197,8 @@
   },
   "dot-to-dot": {
     "full": "Unire i puntini numerati in ordine fa comparire un disegno e ripassa la sequenza dei numeri a ogni tratto di matita.",
-    "short": "Allena la sequenza dei numeri e il controllo della matita."
+    "short": "Allena la sequenza dei numeri e il controllo della matita.",
+    "levelSetShort": "Allena la sequenza dei numeri."
   },
   "grid-copy": {
     "full": "Copiare un disegno quadretto per quadretto su una griglia vuota allena l'osservazione attenta, l'orientamento nello spazio e la precisione del tratto.",

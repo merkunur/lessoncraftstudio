@@ -72,7 +72,7 @@ function orderScreen(A) {
     const name = `<span style="flex:1;display:flex;align-items:center;justify-content:center;height:96px;background:${CREAM};border:2px solid ${CREAM_DEEP};border-radius:14px;` +
       `font-family:'Baloo 2',cursive;font-weight:700;font-size:34px;color:${INK};white-space:nowrap">${esc(it.text)}</span>`;
     if (it.given) {
-      return `<div style="display:flex;align-items:center;gap:16px;width:${SCR_W}px;padding:6px 10px;box-sizing:border-box">` +
+      return `<div data-lcs-keep style="display:flex;align-items:center;gap:16px;width:${SCR_W}px;padding:6px 10px;box-sizing:border-box">` +
         `<span style="display:inline-flex;align-items:center;justify-content:center;width:88px;height:88px;box-sizing:border-box;background:${TEAL_SOFT};border:3px solid ${TEAL};` +
         `border-radius:50%;font-family:'Baloo 2',cursive;font-weight:700;font-size:34px;color:${INK}">${it.given}</span>${name}</div>`;
     }
@@ -88,7 +88,7 @@ function gapsScreen(A) {
   const at = slots(missing.length, 'gaps|' + A.rungs.map((r) => r.day + (r.gap ? '?' : '')).join(','));
   let k = 0;
   const rows = A.rungs.map((r, i) => {
-    if (!r.gap) return `<div style="display:flex;justify-content:center;width:${SCR_W}px">${tile(r.text, 32, SCR_W - 40)}</div>`;
+    if (!r.gap) return `<div data-lcs-keep style="display:flex;justify-content:center;width:${SCR_W}px">${tile(r.text, 32, SCR_W - 40)}</div>`;
     const prev = A.rungs[i - 1], next = A.rungs[i + 1];
     // one OTHER missing day (a different one per card) + a printed neighbour or the day two away — never the same
     // three names on every card (then the k-th gap is simply the k-th option)

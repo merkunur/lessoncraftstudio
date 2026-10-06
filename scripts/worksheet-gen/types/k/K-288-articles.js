@@ -64,10 +64,23 @@ module.exports = {
     oracle: (items, loc, ctx) => {
       const A = ARTICLES[loc];
       const byKey = new Map(entriesFor(ctx.theme, loc).map((e) => [e.vocabKey, e]));
+      // a BORROWED noun (new pages top a scarce article up from other themes of the same kind) is looked up in those
+      // themes — still from the vocabulary, never from the page's marks
+      const borrowed = (key) => {
+        const M = require('../../image-cache/resolve.js').manifest();
+        const bw = !!(M.themes[ctx.theme] && M.themes[ctx.theme].bw);
+        for (const t of Object.keys(M.themes).sort()) {
+          if (t === ctx.theme || !!M.themes[t].bw !== bw) continue;
+          let es; try { es = entriesFor(t, loc); } catch (err) { continue; }
+          const hit = es.find((x) => x.vocabKey === key);
+          if (hit) return hit;
+        }
+        return null;
+      };
       const level = ctx.level3 ? 3 : ctx.difficulty;
       const chips = (ctx.level3 && A.chipsD3) ? A.chipsD3 : A.chips;
       return items.map((it) => {
-        const e = byKey.get(it.meta['data-lcs-vocab']);
+        const e = byKey.get(it.meta['data-lcs-vocab']) || borrowed(it.meta['data-lcs-vocab']);
         if (!e) throw new Error('oracle: no vocab entry ' + it.meta['data-lcs-vocab']);
         const count = +it.meta['data-lcs-count'] || 1;
         const k = A.keyFor({ ...e, key: e.vocabKey }, { level, count });

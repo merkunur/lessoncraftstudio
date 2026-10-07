@@ -46,7 +46,9 @@ module.exports = {
   assetClass: 'numeral-charts',
   exerciseType: 'fact-families',
   themeAxis: { applicable: false },
-  difficulty: { 1: { ...D }, 2: { ...D }, 3: { ...D } },
+  // Level Set 2026-10-07: level 1 the 2, 5 and 10 tables (products to 50), level 2 the published page, level 3 the 6 to 9
+  // tables with each fact missing a different number
+  difficulty: { 1: { ...D, tables: [2, 5, 10], factorMin: 2, factorMax: 5 }, 2: { ...D }, 3: { ...D, factorMin: 6, factorMax: 9, blank: 'mixed' } },
   i18n: {
     en: {
       title: 'Multiply and Divide Fact Families',
@@ -54,7 +56,18 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-10-07: the screen version + answer key of every NEW page (lib/fact-families-screen.js)
+  interactive: require('../../lib/fact-families-screen.js').interactiveFor(),
+  /** Level Set copies: the families a page asks (build-waves compares copies by these) */
+  levelSetWords(m) { return (m.families || []).map(String); },
+
   build({ difficulty, locale }, ctx) {
+    // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/fact-families-screen.js').screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2) });
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const mul = mulGlyph(locale);
@@ -63,15 +76,25 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < d.cards; i++) {
       let a, b, guard = 0;
+      // d.tables (Level Set level 1): one factor from these tables (2, 5, 10), the other from factorMin..factorMax
       do {
-        a = rng.int(d.factorMin, d.factorMax);
+        a = d.tables ? rng.pick(d.tables) : rng.int(d.factorMin, d.factorMax);
         b = rng.int(d.factorMin, d.factorMax);
         guard++;
       } while ((a === b || used.has([Math.min(a, b), Math.max(a, b)].join('|'))) && guard < 120);
       used.add([Math.min(a, b), Math.max(a, b)].join('|'));
       const p = a * b;
 
-      const row = (x, op, y, res) =>
+      // d.blank 'mixed' (Level Set level 3): each fact blanks its own place — the result, the second number or the first
+      const POS = d.blank === 'mixed' ? rng.shuffle(['result', 'partner', 'first', rng.pick(['partner', 'first'])]) : null;
+      let k = 0;
+      const posRow = (x, op, y, res) => {
+        const pos = POS[k++];
+        const cell = (v, blank) => (blank ? answerBox({ w: 50, h: 40, answer: v }) : NUM(v));
+        return `<div style="display:flex;align-items:center;justify-content:center;gap:8px" data-lcs-eq="${x}${op === mul ? '*' : '/'}${y}=${res}" data-lcs-pos="${pos}">` +
+          cell(x, pos === 'first') + OP(op) + cell(y, pos === 'partner') + EQ() + cell(res, pos === 'result') + '</div>';
+      };
+      const row = (x, op, y, res) => POS ? posRow(x, op, y, res) :
         `<div style="display:flex;align-items:center;justify-content:center;gap:8px" data-lcs-eq="${x}${op === mul ? '*' : '/'}${y}">` +
         NUM(x) + OP(op) + NUM(y) + EQ() + answerBox({ w: 50, h: 40, answer: res }) + `</div>`;
 
@@ -84,7 +107,8 @@ module.exports = {
         `</div></div>`
       );
     }
-    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: {} };
+    // a NEW page records its families (Level Set copies differ by them); the published page's meta stays {}
+    return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: published ? {} : { families: [...used] } };
   },
 
   async verify(page) {
@@ -99,6 +123,17 @@ module.exports = {
         if (a === b) fails.push(`card ${i + 1}: degenerate a==b family`);
         const rows = [...card.querySelectorAll('[data-lcs-eq]')];
         if (rows.length !== 4) { fails.push(`card ${i + 1}: ${rows.length} equations`); return; }
+        if (rows[0].dataset.lcsPos) {
+          const facts = [`${a}*${b}=${p}`, `${b}*${a}=${p}`, `${p}/${a}=${b}`, `${p}/${b}=${a}`];
+          rows.forEach((r, j) => {
+            if (r.dataset.lcsEq !== facts[j]) fails.push(`card ${i + 1} row ${j + 1}: eq ${r.dataset.lcsEq} != ${facts[j]}`);
+            const [lhs, res] = r.dataset.lcsEq.split('='); const m = /^(\d+)([*/])(\d+)$/.exec(lhs);
+            const v = { first: +m[1], partner: +m[3], result: +res }[r.dataset.lcsPos];
+            const boxes = r.querySelectorAll('[data-lcs-answer]');
+            if (boxes.length !== 1 || +boxes[0].dataset.lcsAnswer !== v) fails.push(`card ${i + 1} row ${j + 1}: blank ${r.dataset.lcsPos} != ${v}`);
+          });
+          return;
+        }
         const want = [[`${a}*${b}`, p], [`${b}*${a}`, p], [`${p}/${a}`, b], [`${p}/${b}`, a]];
         rows.forEach((r, j) => {
           if (r.dataset.lcsEq !== want[j][0]) fails.push(`card ${i + 1} row ${j + 1}: eq ${r.dataset.lcsEq} != ${want[j][0]}`);

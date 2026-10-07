@@ -1,0 +1,17 @@
+{
+  "id": "wave-varcore-pt",
+  "_note": "Fact Families 2026-10-07: the published 6-house pages (G1-220, G1-221) rebuilt with the roof at full size (it was squeezed to half size, its numbers ~10 px); same wave id → same deck ids and numbers",
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G1-220",
+    "G1-221"
+  ]
+}

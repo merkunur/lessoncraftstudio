@@ -5,6 +5,7 @@ module.exports = {
   ...base,
   id: 'G1-220',
   slug: 'fact-family-houses-20',
-  difficulty: { 1: {"max":20,"cards":6,"cols":2,"rows":3}, 2: {"max":20,"cards":6,"cols":2,"rows":3}, 3: {"max":20,"cards":6,"cols":2,"rows":3} },
+  // Level Set 2026-10-07: level 1 easier, level 2 the published page (unchanged), level 3 harder
+  difficulty: { 1: {"max":20,"bridge":"no","cards":4,"cols":2,"rows":2}, 2: {"max":20,"cards":6,"cols":2,"rows":3}, 3: {"max":20,"bridge":"yes","cards":6,"cols":2,"rows":3,"blank":"mixed"} },
   i18n: { en: { title: "Fact Family Houses to 20", instruction: "Use the three numbers on the roof. Complete the four related facts." } },
 };

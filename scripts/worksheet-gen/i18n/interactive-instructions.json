@@ -1614,5 +1614,20 @@
    "no": "Se på hvert kort. Trykk på tallet som skal stå der ? står. Er det to ?, er det samme tall begge steder.",
    "fi": "Katso jokaista korttia. Napauta lukua, joka kuuluu ?-merkin paikalle. Jos ?-merkkejä on kaksi, ne ovat sama luku."
   }
+ },
+ "fact-families": {
+  "choose": {
+   "en": "Look at the roof. Tap the roof number that goes where the ? is.",
+   "de": "Schau auf das Dach. Tippe die Dachzahl an, die für das Fragezeichen eingesetzt wird.",
+   "es": "Mira el tejado. Toca el número del tejado que va en lugar del ?.",
+   "fr": "Regarde le toit. Touche le nombre du toit qui remplace le ?.",
+   "it": "Guarda il tetto. Tocca il numero del tetto che va al posto del ?.",
+   "pt": "Observe o telhado. Toque no número do telhado que vai no lugar do ?.",
+   "nl": "Kijk naar het dak. Tik op het dakgetal dat op de plaats van het ? hoort.",
+   "sv": "Titta på taket. Tryck på talet från taket som ska stå där ? står.",
+   "da": "Se på taget. Tryk på det tal fra taget, der skal stå i stedet for ?.",
+   "no": "Se på taket. Trykk på tallet fra taket som skal stå der ? står.",
+   "fi": "Katso kattoa. Napauta katon lukua, joka kuuluu ?-merkin paikalle."
+  }
  }
 }

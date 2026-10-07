@@ -24,7 +24,8 @@ module.exports = {
   gradeBand: 'G1',
   assetClass: 'icon-placement',
   exerciseType: 'doubles-halves',
-  themeAxis: { applicable: true, minNouns: 1, excludeBw: true },
+  // levelSetBw (Level Set 2026-10-07): the pictures are only counted, so a black-and-white theme's line art serves a NEW copy
+  themeAxis: { applicable: true, minNouns: 1, excludeBw: true, levelSetBw: true },
   difficulty: {
     1: { cards: 4, cols: 2, rows: 2, dMin: 1, dMax: 4, hMin: 1, hMax: 4, icon: 52, perRow: 2, numeric: false },
     2: { cards: 6, cols: 2, rows: 3, dMin: 2, dMax: 6, hMin: 2, hMax: 6, icon: 40, perRow: 3, numeric: false },
@@ -37,7 +38,18 @@ module.exports = {
     },
   },
 
+  // Level Set 2026-10-07: the screen version + answer key of every NEW page (lib/doubles-halves-screen.js)
+  interactive: require('../../lib/doubles-halves-screen.js').interactiveFor(),
+  /** Level Set copies: what a page asks (build-waves compares copies by these) */
+  levelSetWords(m) { return [...(m.doubles || []).map((n) => 'd' + n), ...(m.halves || []).map((n) => 'h' + n)]; },
+
   build({ theme, difficulty, locale }, ctx) {
+    // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/doubles-halves-screen.js').screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2), theme });
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
@@ -76,14 +88,25 @@ module.exports = {
     for (let i = 0; i < Math.max(nD, nH); i++) {
       if (i < nD) {
       const n = doubles[i];
-      const stage = d.numeric ? dotPanel({ w: 250, h: 56 }) : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: Math.ceil(n / Math.ceil(n / d.perRow)) })}</div>`;
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}"${opsAttr}>${pill('double')}${stage}` +
-        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}</div></div>`);
+      // backwards with pictures (Level Set 2026-10-07, native + teaching review: two shown groups let the child count one
+      // group instead of thinking backwards): the WHOLE group of 2n, unsplit — the child halves it in the head
+      const stage = d.numeric ? dotPanel({ w: 250, h: 56 })
+        : d.inverse ? `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-wrap:wrap;gap:6px;justify-content:center" data-lcs-whole>${Array.from({ length: 2 * n }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`
+        : `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%">${mirrorGroups({ src, n, iconPx: d.icon, perRow: Math.ceil(n / Math.ceil(n / d.perRow)) })}</div>`;
+      // d.inverse (Level Set 2026-10-07, the harder level): think backwards — `▢ + ▢ = 14` (which number was doubled?)
+      const dStrip = d.inverse
+        ? `${answerBox({ w: 64, h: 48, answer: n })}${OP('+')}${answerBox({ w: 64, h: 48, answer: n })}${OP('=')}${NUM(2 * n)}`
+        : `${NUM(n)}${OP('+')}${NUM(n)}${OP('=')}${answerBox({ w: 64, h: 48, answer: 2 * n })}`;
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="double" data-lcs-n="${n}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}>${pill('double')}${stage}` +
+        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${dStrip}</div></div>`);
       }
       if (i >= nH) continue;
       const m = halves[i];
       let hstage = d.numeric ? dotPanel({ w: 250, h: 56 }) : '';
-      if (!d.numeric) {
+      if (!d.numeric && d.inverse) {
+        // backwards with pictures: ONE half only — the child doubles it to find the whole
+        hstage = `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-wrap:wrap;gap:6px;justify-content:center" data-lcs-onehalf>${Array.from({ length: m }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`;
+      } else if (!d.numeric) {
         const row = () => `<div style="display:flex;gap:6px" data-lcs-row>${Array.from({ length: m }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${d.icon}px;height:${d.icon}px">`).join('')}</div>`;
         const w = m * d.icon + (m - 1) * 6;
         // The scissor rule is drawn 20px wider than the icon row it cuts, and
@@ -98,8 +121,12 @@ module.exports = {
         hstage = `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px;width:100%;display:flex;flex-direction:column;align-items:center;gap:6px">${row()}` +
           `<svg width="${sw}" height="10" viewBox="0 0 ${sw} 10" aria-hidden="true"><line x1="2" y1="5" x2="${sw - 2}" y2="5" stroke="#F2784B" stroke-width="2.5" stroke-dasharray="7 5"/><line x1="2" y1="1" x2="2" y2="9" stroke="#F2784B" stroke-width="2.5"/><line x1="${sw - 2}" y1="1" x2="${sw - 2}" y2="9" stroke="#F2784B" stroke-width="2.5"/></svg>${row()}</div>`;
       }
-      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}>${pill('half')}${hstage}` +
-        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}</div></div>`);
+      // d.inverse: `▢ = 7 + 7` (which number has 7 as its half?)
+      const hStrip = d.inverse
+        ? `${answerBox({ w: 64, h: 48, answer: 2 * m })}${OP('=')}${NUM(m)}${OP('+')}${NUM(m)}`
+        : `${NUM(2 * m)}${OP('=')}${answerBox({ w: 64, h: 48, answer: m })}${OP('+')}${answerBox({ w: 64, h: 48, answer: m })}`;
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px;justify-content:space-evenly" data-lcs-op="half" data-lcs-n="${m}"${opsAttr}${d.inverse ? ' data-lcs-inv="1"' : ''}>${pill('half')}${hstage}` +
+        `<div style="display:flex;align-items:center;gap:8px" data-lcs-strip>${hStrip}</div></div>`);
     }
     return { bodyHtml: cardGrid({ cards, cols: d.cols, rows: d.rows }), meta: { doubles, halves } };
   },
@@ -118,7 +145,20 @@ module.exports = {
         const strip = it.querySelector('[data-lcs-strip]').textContent.replace(/\s+/g, ' ');
         const pill = it.querySelector('[data-lcs-pill]');
         if (!pill || !pill.textContent.trim()) fails.push(`card ${i + 1}: pill missing`);
-        if (op === 'double') {
+        const inv = it.dataset.lcsInv === '1';
+        if (inv) {
+          // think backwards: ▢ + ▢ = 2n (double) / ▢ = n + n (half)
+          const want = op === 'double' ? `${n},${n}` : String(2 * n), hidden = op === 'double' ? n : 2 * n;
+          if (boxes.join(',') !== want) fails.push(`card ${i + 1}: inverse ${op} answers ${boxes}`);
+          if (new RegExp(`(^|\\D)${hidden}(\\D|$)`).test(strip)) fails.push(`card ${i + 1}: answer ${hidden} printed`);
+          // pictures never show the split: a double shows the whole 2n unsplit, a half shows one half (n)
+          if (it.querySelector('[data-lcs-g1],[data-lcs-g2],[data-lcs-row]')) fails.push(`card ${i + 1}: backwards card shows the split`);
+          const whole = it.querySelector('[data-lcs-whole]'), one = it.querySelector('[data-lcs-onehalf]');
+          if (op === 'double' && whole && whole.querySelectorAll('img').length !== 2 * n) fails.push(`card ${i + 1}: whole group ${whole.querySelectorAll('img').length}, want ${2 * n}`);
+          if (op === 'half' && one && one.querySelectorAll('img').length !== n) fails.push(`card ${i + 1}: half ${one.querySelectorAll('img').length}, want ${n}`);
+          if (op === 'double' && one) fails.push(`card ${i + 1}: a double card shows a half`);
+          if (op === 'half' && whole) fails.push(`card ${i + 1}: a half card shows the whole`);
+        } else if (op === 'double') {
           if (boxes.join(',') !== String(2 * n)) fails.push(`card ${i + 1}: double answer ${boxes}`);
           if (new RegExp(`(^|\\D)${2 * n}(\\D|$)`).test(strip)) fails.push(`card ${i + 1}: answer ${2 * n} printed`);
           const g1 = it.querySelectorAll('[data-lcs-g1] img').length, g2 = it.querySelectorAll('[data-lcs-g2] img').length;

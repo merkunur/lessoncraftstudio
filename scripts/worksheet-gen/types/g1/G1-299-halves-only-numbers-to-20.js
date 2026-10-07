@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-299',
   slug: 'halves-only-numbers-to-20',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-07: level 1 easier, level 2 the published page (unchanged), level 3 harder
+  difficulty: { 1: { ...D, ...{"cards":6,"cols":2,"rows":3,"hMin":1,"hMax":6} }, 2: D, 3: { ...D, ...{"inverse":true} } },
   i18n: { en: { title: "Halves to 20: Just the Numbers", instruction: "Split each number into two equal parts. No pictures to count." } },
   themeAxis: {"applicable":false},
 };

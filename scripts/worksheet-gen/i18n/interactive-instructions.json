@@ -1599,5 +1599,20 @@
    "no": "Regn ut hver divisjon. Trykk på svaret med riktig rest.",
    "fi": "Laske jokainen jakolasku. Napauta vastausta, jossa jakojäännös on pienempi kuin jakaja."
   }
+ },
+ "doubles-halves": {
+  "choose": {
+   "en": "Look at each card. Tap the number that goes where the ? is. If there are two ?, they are the same number.",
+   "de": "Schau dir jede Karte an. Tippe die Zahl an, die an die Stelle vom ? gehört. Stehen zwei ? da, ist es beide Male dieselbe Zahl.",
+   "es": "Mira cada tarjeta. Toca el número que va en lugar del ?. Si hay dos ?, es el mismo número.",
+   "fr": "Regarde chaque carte. Touche le nombre qui remplace le ?. S'il y a deux ?, c'est le même nombre.",
+   "it": "Guarda ogni scheda. Tocca il numero che va al posto del ?. Se ci sono due ?, è lo stesso numero.",
+   "pt": "Observe cada cartão. Toque no número que vai no lugar do ?. Se houver dois ?, é o mesmo número.",
+   "nl": "Kijk naar elke kaart. Tik op het getal dat op de plaats van het ? hoort. Staan er twee ?, dan is het twee keer hetzelfde getal.",
+   "sv": "Titta på varje kort. Tryck på talet som ska stå där ? står. Finns det två ?, är det samma tal.",
+   "da": "Se på hvert kort. Tryk på det tal, der skal stå i stedet for ?. Er der to ?, er det samme tal begge steder.",
+   "no": "Se på hvert kort. Trykk på tallet som skal stå der ? står. Er det to ?, er det samme tall begge steder.",
+   "fi": "Katso jokaista korttia. Napauta lukua, joka kuuluu ?-merkin paikalle. Jos ?-merkkejä on kaksi, ne ovat sama luku."
+  }
  }
 }

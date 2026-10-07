@@ -163,7 +163,8 @@ module.exports = {
     if (n !== count) throw new Error(`${this.id}: level picture has ${n} dots, the level counts ${count}`);
     if (alpha && alpha.length < count) throw new Error(`${this.id}: ${loc} strip has ${alpha.length} letters < ${count}`);
     const values = alpha ? alpha.slice(0, count) : null;
-    const figOpts = { count, step: d.step || 1, startAt: d.startAt, values, lite: !!d.lite, labelPx: d.labelPx || 20 };
+    const figOpts = { count, step: d.step || 1, startAt: d.startAt, values, lite: true,   // the picture alone, centred and enlarged on every level (operator 2026-10-07)
+      labelPx: d.labelPx || 20 };
     const pool = d2dPool(sc, n, figOpts, alpha ? alpha.length : null);
     const sv = (ctx && (ctx.seedVariant || ctx.variant)) || 1;
     if (!pool.length || sv - 1 >= pool.length) throw new Error(`${this.id}: no picture left for copy ${sv} (pool ${pool.length}) — REFUSED`);

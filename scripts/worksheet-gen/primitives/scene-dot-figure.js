@@ -40,16 +40,25 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
   const t = tokens;
   const fit = scene.fit && scene.fit[count];
   if (!fit || !fit.ok) throw new Error(`sceneDotFigure: ${scene.id} has no ${count}-dot outline`);
-  const s = width / 600, height = Math.round(560 * s);
-  const pts = fit.pts.map(([x, y]) => [x * s, y * s]);
-  const polyPx = pts;
+  const s0 = width / 600, height = Math.round(560 * s0);
   // v2: the art depends on the dot count — the outline is erased only along the stretch the dots replace
   const g = lite ? fit.liteInk : fit.ink;
   const open = !fit.closed;   // the dots cover a stretch: the rest of the outline is the picture's own line
   const CELL = 600 / g.w;
+  // CENTRED (operator 2026-10-07: "why didn't you center the images in the frame?"): what is printed — the lines and the
+  // dots — is measured, centred in the frame, and enlarged (at most 2.4×) to fill the frame ("you should also make the images bigger"), leaving room for the numbers
+  let bx0 = Infinity, by0 = Infinity, bx1 = -Infinity, by1 = -Infinity;
+  for (let y = 0; y < g.h; y++) for (let x = 0; x < g.w; x++) if (g.s.charCodeAt(y * g.w + x) === 49) { bx0 = Math.min(bx0, x * CELL); by0 = Math.min(by0, y * CELL); bx1 = Math.max(bx1, (x + 1) * CELL); by1 = Math.max(by1, (y + 1) * CELL); }
+  for (const [x, y] of fit.pts) { bx0 = Math.min(bx0, x); by0 = Math.min(by0, y); bx1 = Math.max(bx1, x); by1 = Math.max(by1, y); }
+  const margin = labelPx * 2 + 10;
+  const s = s0 * Math.max(1, Math.min(2.4, (width - 2 * margin) / ((bx1 - bx0) * s0), (height - 2 * margin) / ((by1 - by0) * s0)));   // never smaller than the scene: the dots keep their spacing
+  const ox = (width - (bx1 - bx0) * s) / 2 - bx0 * s, oy = (height - (by1 - by0) * s) / 2 - by0 * s;
+  const pts = fit.pts.map(([x, y]) => [ox + x * s, oy + y * s]);
+  const polyPx = pts;
   const cellHit = (grid, box) => {
-    const x0 = Math.max(0, Math.floor(box.x / s / CELL)), x1 = Math.min(grid.w - 1, Math.floor((box.x + box.w) / s / CELL));
-    const y0 = Math.max(0, Math.floor(box.y / s / CELL)), y1 = Math.min(grid.h - 1, Math.floor((box.y + box.h) / s / CELL));
+    const x0 = Math.max(0, Math.floor((box.x - ox) / s / CELL)), x1 = Math.min(grid.w - 1, Math.floor((box.x + box.w - ox) / s / CELL));
+    const y0 = Math.max(0, Math.floor((box.y - oy) / s / CELL)), y1 = Math.min(grid.h - 1, Math.floor((box.y + box.h - oy) / s / CELL));
+    if (x1 < 0 || y1 < 0 || x0 > grid.w - 1 || y0 > grid.h - 1) return false;
     for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) if (grid.s.charCodeAt(y * grid.w + x) === 49) return true;
     return false;
   };
@@ -57,7 +66,7 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, li
   const parts = [];
   // the scene: frame, then the art (picture units, scaled)
   parts.push(el('rect', { x: 1.5, y: 1.5, width: width - 3, height: height - 3, rx: 14, fill: '#FFFFFF', stroke: t.color.ink, 'stroke-width': 3 }));
-  parts.push(el('g', { transform: `scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd' })));
+  parts.push(el('g', { transform: `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd' })));
 
   // v2: no pre-printed remainder — the rest of the outline is the picture's own line (the operator's review: a grey
   // straight remainder reads as a continuation of the dots, not as the picture)

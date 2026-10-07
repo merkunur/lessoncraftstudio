@@ -137,7 +137,11 @@ function enumerate(plan) {
     // Per-type override map wins over the wave-wide default; default 1 keeps
     // every pre-variant wave byte-identical.
     const variantsForType = (plan.variants && plan.variants[spec.id]) || plan.variantsPerType || 1;
-    const themed = spec.themeAxis && spec.themeAxis.applicable;
+    const copyMap0 = plan.levels && plan.levels[spec.id];
+    // spec.levelSetThemeless (Doubles and Halves 2026-10-07): a numbers-only face of a picture family — its published page
+    // carried a theme it never draws; its Level Set copies are themeless (no theme in any copy)
+    const themed = spec.themeAxis && spec.themeAxis.applicable &&
+      !(spec.levelSetThemeless && copyMap0 && Object.values(copyMap0).every((l) => l.every((c) => c && typeof c === 'object' && !c.theme)));
     // A copy may also be { "copy": N, "theme": "<cache theme>" } — each copy on its own theme
     // (Level Set: a new copy of a themed type = new words, never the same pool twice). Those
     // copies are pinned: the render retry must never swap the theme the wave builder verified.

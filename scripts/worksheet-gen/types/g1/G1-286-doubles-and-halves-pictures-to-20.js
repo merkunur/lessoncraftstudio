@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-286',
   slug: 'doubles-and-halves-pictures-to-20',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-07: level 1 easier, level 2 the published page (unchanged), level 3 harder
+  difficulty: { 1: { ...D, ...{"dMin":3,"dMax":6,"hMin":3,"hMax":6,"icon":28,"perRow":3} }, 2: D, 3: { ...D, ...{"inverse":true,"cards":6,"cols":2,"rows":3} } },
   i18n: { en: { title: "Doubles and Halves with Pictures to 20", instruction: "Some cards ask for the double, others for the half." } },
 };

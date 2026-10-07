@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-297',
   slug: 'halves-only-to-20',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-07: level 1 easier, level 2 the published page (unchanged), level 3 harder
+  difficulty: { 1: { ...D, ...{"cards":4,"cols":2,"rows":2,"hMin":3,"hMax":6,"icon":30} }, 2: D, 3: { ...D, ...{"inverse":true} } },
   i18n: { en: { title: "Halves to 20 with Pictures", instruction: "Bigger groups of pictures to halve, all the way up to twenty." } },
 };

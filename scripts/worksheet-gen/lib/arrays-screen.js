@@ -16,7 +16,7 @@
  * and the right array ringed on build-array pages.
  */
 'use strict';
-const { slotFor, numberChoices } = require('./answer-slots.js');
+const {slotFor, numberChoices, tappingRhythm } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
 const SCR_W = 660, OPT_H = 100;
@@ -46,7 +46,10 @@ function screenOrKey(mode, built, ctx, loc) {
   if (!A || !A.length) throw new Error(`arrays screen: ${mode} has no answer data`);
   const out = { bodyHtml: built.bodyHtml, meta: built.meta };
   if (ctx.interactive) {
-    const pageSig = A.map((x) => x.q).join(',') + '|';
+    // + locale and copy (2026-10-07): the number pages are identical in every locale — keyed by the facts alone, one page's
+    // layout repeated eleven times
+    const pageSig = A.map((x) => x.q).join(',') + '|' + loc + '/' + ((ctx && ctx.variant) || '') + '|';
+    const slotsSoFar = [];
     const items = A.map((x, i) => {
       const at = slotFor(x.a + '|' + i, 3);   // never i % 3 (a diagonal tell, 2026-10-06)
       if (x.choose) {
@@ -55,7 +58,12 @@ function screenOrKey(mode, built, ctx, loc) {
       }
       // the right number is smallest / middle / largest equally often (2026-10-06: "one too few, one too many" put it
       // in the middle on 99% of cards)
-      const nc = numberChoices(x.a, x.d, pageSig + x.q + '|' + i, { min: 1 });   // the page joins the hash: a fact that recurs on many pages must not keep one rank
+      // min 0 (2026-10-07): a small answer needs two smaller wrong numbers, or it is the smallest option too often
+      const nc = numberChoices(x.a, x.d, pageSig + x.q + '|' + i, { min: 0 });
+      // a page whose answer slots tap out a rhythm (1st, 2nd, 3rd, 1st …) moves this card's answer one place
+      const prev = A.slice(0, i).map((y, j) => slotsSoFar[j]).filter((v) => v != null);
+      if (i >= 3 && tappingRhythm([...prev, nc.at], 3)) { const v = nc.opts.splice(nc.at, 1)[0]; nc.at = (nc.at + 1) % 3; nc.opts.splice(nc.at, 0, v); }
+      slotsSoFar[i] = nc.at;   // the page joins the hash: a fact that recurs on many pages must not keep one rank
       const z = ZOOM[mode] || 1.4;
       const top = `<div style="zoom:${z};display:flex;justify-content:center">${x.visual}</div>` + row(`<span style="display:inline-flex;align-items:center;gap:8px;zoom:1.5">${x.eq}</span>`);
       return item(`data-lcs-word="${i + 1}" data-lcs-q="${x.q}"`, top, numOpts(nc.opts, nc.at));

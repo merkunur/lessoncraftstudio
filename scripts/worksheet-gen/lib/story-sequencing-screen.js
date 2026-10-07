@@ -97,7 +97,9 @@ function screen(built, d, loc) {
       const o = others[hash(id + '|' + m.stories) % others.length];
       const top = row(`<span style="display:block;width:170px">${pic(s, 1, 170, 'scr' + i + 'b')}</span>` + queryBox(170) + `<span style="display:block;width:170px">${pic(s, last, 170, 'scr' + i + 'e')}</span>`, 12);
       // one story on the page (level 1) gets the beginning again as a fourth choice
-      const opts = order([{ s, rank: mid, correct: true }, { s, rank: last }, { s: o, rank: o.sub3[1] }, ...(ids.length === 1 ? [{ s, rank: 1 }] : [])], id + '|bme');
+      // the page salt + card joins the key (2026-10-07: keyed by the story alone, a story laid out its choices the same
+      // way on every page and in every language — pooled, "tap the first" beat chance)
+      const opts = order([{ s, rank: mid, correct: true }, { s, rank: last }, { s: o, rank: o.sub3[1] }, ...(ids.length === 1 ? [{ s, rank: 1 }] : [])], SALT + id + '|bme|' + i);
       return choiceItem(`data-lcs-story="${esc(id)}" data-lcs-face="middle"`, top, opts, ids.length === 1 ? 136 : 170, i);
     });
   } else if (d.mode === 'sequencing-sentences') {

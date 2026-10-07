@@ -7,7 +7,7 @@
  * numbers, each placed by a collision pass (outward first): never on another number or dot, never off the stage, on
  * free paper when there is any near the dot, else over a line on a white backing that hides the line under it. Same data attributes as primitives/dot-figure.js, so K-285 verify() checks it.
  *
- * { scene, count, step=1, startAt=1, window=null, values=null, lite=false, labelPx=20, width=640 }
+ * { scene, count, step=1, startAt=1, values=null, lite=false, labelPx=20, width=640 }
  *   → { svg, points:[[x,y]…] px, labels:[v…], width, height }
  * Throws when a number has no free place (the page is refused; the wave takes the next picture).
  */
@@ -36,14 +36,16 @@ function segHitsBox(p, q, b, pad = 2) {
 }
 const overlaps = (a, b) => !(a.x + a.w < b.x || b.x + b.w < a.x || a.y + a.h < b.y || b.y + b.h < a.y);
 
-function sceneDotFigure({ scene, count, step = 1, startAt = 1, window = null, values = null, lite = false, labelPx = 20, width = 640 }) {
+function sceneDotFigure({ scene, count, step = 1, startAt = 1, values = null, lite = false, labelPx = 20, width = 640 }) {
   const t = tokens;
   const fit = scene.fit && scene.fit[count];
   if (!fit || !fit.ok) throw new Error(`sceneDotFigure: ${scene.id} has no ${count}-dot outline`);
   const s = width / 600, height = Math.round(560 * s);
   const pts = fit.pts.map(([x, y]) => [x * s, y * s]);
   const polyPx = pts;
-  const g = lite ? scene.liteInk : scene.ink;
+  // v2: the art depends on the dot count — the outline is erased only along the stretch the dots replace
+  const g = lite ? fit.liteInk : fit.ink;
+  const open = !fit.closed;   // the dots cover a stretch: the rest of the outline is the picture's own line
   const CELL = 600 / g.w;
   const cellHit = (grid, box) => {
     const x0 = Math.max(0, Math.floor(box.x / s / CELL)), x1 = Math.min(grid.w - 1, Math.floor((box.x + box.w) / s / CELL));
@@ -55,58 +57,60 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, window = null, va
   const parts = [];
   // the scene: frame, then the art (picture units, scaled)
   parts.push(el('rect', { x: 1.5, y: 1.5, width: width - 3, height: height - 3, rx: 14, fill: '#FFFFFF', stroke: t.color.ink, 'stroke-width': 3 }));
-  parts.push(el('g', { transform: `scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, el('path', { d: lite ? scene.lite : scene.art, fill: t.color.ink, 'fill-rule': 'evenodd' })));
+  parts.push(el('g', { transform: `scale(${s.toFixed(5)})`, 'data-lcs-scene-art': '1' }, el('path', { d: lite ? fit.lite : fit.art, fill: t.color.ink, 'fill-rule': 'evenodd' })));
 
-  if (window && window < count) {
-    const rem = pts.slice(window - 1).concat([pts[0]]);
-    parts.push(el('polyline', {
-      points: rem.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' '),
-      fill: 'none', stroke: t.color.grid, 'stroke-width': 3, 'stroke-linejoin': 'round', 'stroke-linecap': 'round',
-      'data-lcs-preprinted': '1',
-    }));
-  }
-  const labelled = window ? Math.min(window, count) : count;
+  // v2: no pre-printed remainder — the rest of the outline is the picture's own line (the operator's review: a grey
+  // straight remainder reads as a continuation of the dots, not as the picture)
+  const labelled = count;
   const vals = [];
   for (let k = 0; k < labelled; k++) vals.push(values ? values[k] : startAt + k * step);
   // number places: outward along the corner's bisector, then the compass, at growing distances
   const boxes = [];
-  const dotBoxes = pts.map(([x, y]) => ({ x: x - dotR - 5, y: y - dotR - 5, w: 2 * (dotR + 5), h: 2 * (dotR + 5) }));
+  const dotBoxes = pts.map(([x, y]) => ({ x: x - dotR - 3, y: y - dotR - 3, w: 2 * (dotR + 3), h: 2 * (dotR + 3) }));   // verify() wants r + 2 clear
   const placed = [];
   const n = pts.length;
   for (let i = 0; i < labelled; i++) {
-    const p = pts[i], prev = pts[(i - 1 + n) % n], next = pts[(i + 1) % n];
+    const p = pts[i], prev = open && i === 0 ? [2 * p[0] - pts[1][0], 2 * p[1] - pts[1][1]] : pts[(i - 1 + n) % n], next = open && i === n - 1 ? [2 * p[0] - pts[n - 2][0], 2 * p[1] - pts[n - 2][1]] : pts[(i + 1) % n];
     const u1 = norm([prev[0] - p[0], prev[1] - p[1]]), u2 = norm([next[0] - p[0], next[1] - p[1]]);
     let bis = norm([u1[0] + u2[0], u1[1] + u2[1]]);
     if (Math.hypot(bis[0], bis[1]) < 1e-6) bis = norm([-u1[1], u1[0]]);
-    const dir = insidePoly([p[0] + bis[0] * 8, p[1] + bis[1] * 8], polyPx) ? [-bis[0], -bis[1]] : bis;
+    // outward = away from the hero (its silhouette; the dot polygon is not the shape when the dots cover a stretch)
+    const inHero = (q) => scene.body ? cellHit(scene.body, { x: q[0] - 1, y: q[1] - 1, w: 2, h: 2 }) : insidePoly(q, polyPx);
+    const dir = inHero([p[0] + bis[0] * 10, p[1] + bis[1] * 10]) ? [-bis[0], -bis[1]] : bis;
     const txt = String(vals[i]);
-    // the label's box as the browser measures it (getBBox, Baloo 2 700, dominant-baseline central — measured 2026-10-06:
-    // height 1.6 em centred on y; digits ≤ 0.6 em wide, letters ≤ 0.85 em ('m'); K-285 verify() checks that box)
-    const bw = Math.ceil(labelPx * (/^\d+$/.test(txt) ? 0.6 : 0.88) * [...txt].length + 2), bh = Math.ceil(labelPx * 1.6);
+    // the number's INK box (canvas measureText, Baloo 2 700, central baseline — measured 2026-10-07): digits 0.47 em above
+    // the centre and 0.20 below, ≤ 0.55 em wide each; letters 0.58 above (å) and 0.38 below (g, j), ≤ 0.8 em wide (æ);
+    // + 2 px. K-285 verify() measures the same ink. (The 1.6 em text box is mostly empty space: with it, numbers on
+    // neighbouring dots "collided" while their ink was far apart.)
+    const isNum = /^\d+$/.test(txt), up = labelPx * (isNum ? 0.47 : 0.58) + 2, down = labelPx * (isNum ? 0.2 : 0.38) + 2;
+    const bw = Math.ceil(labelPx * (isNum ? 0.55 : 0.8) * [...txt].length + 4), bh = Math.ceil(up + down);
     const compass = [[0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0], [-1, -1], [0.5, -1], [1, -0.5], [1, 0.5], [0.5, 1], [-0.5, 1], [-1, 0.5], [-1, -0.5], [-0.5, -1]].map(norm);
     const cands = [];
     for (const d of [labelPx * 0.85, labelPx * 1.2, labelPx * 1.6]) cands.push([p[0] + dir[0] * d, p[1] + dir[1] * d]);
     for (const d of [labelPx * 0.75, labelPx * 0.85, labelPx * 1.05, labelPx * 1.2, labelPx * 1.4, labelPx * 1.6, labelPx * 2.1]) for (const c of compass) cands.push([p[0] + c[0] * d, p[1] + c[1] * d]);
     let got = null;
     // pass 1: free paper only; pass 2 (a busy scene): over a line, on a white backing that hides the line under it
-    for (const pass of [1, 2]) for (const [cx, cy] of cands) {
+    // v2 scenes (the picture keeps its own lines): every number on free paper outside the picture — never a white patch
+    // over the drawing; a picture that cannot give every number such a place is refused
+    for (const pass of (scene.v === 2 ? [1] : [1, 2])) for (const [cx, cy] of cands) {
       if (got) break;
-      const box = { x: cx - bw / 2, y: cy - bh / 2, w: bw, h: bh };
+      const box = { x: cx - bw / 2, y: cy - up, w: bw, h: bh };
       if (box.x < 6 || box.y < 6 || box.x + box.w > width - 6 || box.y + box.h > height - 6) continue;
-      // two numbers never touch: a clear gap of a third of a numeral between them, so 190 and 180 read as two numbers
-      const gap = labelPx / 3, padded = { x: box.x - gap, y: box.y - gap, w: box.w + 2 * gap, h: box.h + 2 * gap };
+      // two numbers never touch: a quarter em between their ink boxes, so 190 and 180 read as two numbers
+      const gap = labelPx / 4, padded = { x: box.x - gap, y: box.y - gap, w: box.w + 2 * gap, h: box.h + 2 * gap };
       if (boxes.some((b) => overlaps(b, padded)) || dotBoxes.some((b) => overlaps(b, box))) continue;
       // never on the line the child will draw (any segment of the dot path, the closing one included)
-      if (pts.some((q, j) => segHitsBox(q, pts[(j + 1) % n], box))) continue;
+      if (pts.some((q, j) => !(open && j === n - 1) && segHitsBox(q, pts[(j + 1) % n], box))) continue;
       // a number belongs to ONE dot: clearly nearer its own dot than any other (a child reads the nearest dot)
       const own = Math.hypot(cx - p[0], cy - p[1]);
       if (pts.some((q, j) => j !== i && Math.hypot(cx - q[0], cy - q[1]) * 0.88 < own)) continue;
       const onInk = cellHit(g, box);
       // free paper first: no line, and not inside another drawing (a number in a barn door reads as part of the barn)
-      if (pass === 1 && (onInk || (!lite && scene.obj && cellHit(scene.obj, box)))) continue;
+      // pass 1 also keeps the number off the hero itself (outside the outline, as on a good printed sheet)
+      if (pass === 1 && (onInk || (!lite && scene.obj && cellHit(scene.obj, box)) || (scene.body && cellHit(scene.body, box)))) continue;
       got = { cx, cy, box, halo: onInk };
     }
-    if (!got) throw new Error(`sceneDotFigure: ${scene.id}: no free place for number ${txt}`);
+    if (!got) throw new Error(`sceneDotFigure: ${scene.id}: no free place for number ${txt} (dot ${i + 1})`);
     boxes.push(got.box); placed.push(got);
   }
   for (let k = 0; k < labelled; k++) {
@@ -126,8 +130,8 @@ function sceneDotFigure({ scene, count, step = 1, startAt = 1, window = null, va
   return {
     svg: svgRoot({ width, height, label: 'dot to dot picture' }, parts.join(''), {
       'data-lcs-prim': 'dot-figure', 'data-lcs-figure': scene.id, 'data-lcs-count': labelled,
-      'data-lcs-step': step, 'data-lcs-start': startAt, ...(values ? { 'data-lcs-labelmode': 'alpha' } : {}), ...(window ? { 'data-lcs-window': window } : {}),
-      'data-lcs-scene': scene.id, ...(lite ? { 'data-lcs-lite': '1' } : {}),
+      'data-lcs-step': step, 'data-lcs-start': startAt, ...(values ? { 'data-lcs-labelmode': 'alpha' } : {}),
+      'data-lcs-scene': scene.id, ...(open ? { 'data-lcs-open': '1' } : {}), ...(lite ? { 'data-lcs-lite': '1' } : {}),
     }),
     points: pts, labels: vals, width, height,
   };

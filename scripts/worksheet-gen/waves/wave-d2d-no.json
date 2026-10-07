@@ -30,69 +30,39 @@
     "K-285": {
       "1": [
         {
-          "copy": 17,
+          "copy": 11,
           "unit": null,
           "seedVariant": 1
         },
         {
-          "copy": 18,
+          "copy": 12,
           "unit": null,
           "seedVariant": 2
         },
         {
-          "copy": 19,
+          "copy": 13,
           "unit": null,
           "seedVariant": 3
         },
         {
-          "copy": 20,
+          "copy": 14,
           "unit": null,
           "seedVariant": 4
         },
         {
-          "copy": 21,
+          "copy": 15,
           "unit": null,
           "seedVariant": 5
         },
         {
-          "copy": 22,
+          "copy": 16,
           "unit": null,
           "seedVariant": 6
         },
         {
-          "copy": 23,
+          "copy": 17,
           "unit": null,
           "seedVariant": 7
-        },
-        {
-          "copy": 24,
-          "unit": null,
-          "seedVariant": 8
-        },
-        {
-          "copy": 25,
-          "unit": null,
-          "seedVariant": 9
-        },
-        {
-          "copy": 26,
-          "unit": null,
-          "seedVariant": 10
-        },
-        {
-          "copy": 27,
-          "unit": null,
-          "seedVariant": 11
-        },
-        {
-          "copy": 28,
-          "unit": null,
-          "seedVariant": 12
-        },
-        {
-          "copy": 29,
-          "unit": null,
-          "seedVariant": 13
         }
       ],
       "2": [
@@ -140,138 +110,63 @@
           "copy": 10,
           "unit": null,
           "seedVariant": 10
-        },
-        {
-          "copy": 11,
-          "unit": null,
-          "seedVariant": 11
-        },
-        {
-          "copy": 12,
-          "unit": null,
-          "seedVariant": 12
-        },
-        {
-          "copy": 13,
-          "unit": null,
-          "seedVariant": 13
-        },
-        {
-          "copy": 14,
-          "unit": null,
-          "seedVariant": 14
-        },
-        {
-          "copy": 15,
-          "unit": null,
-          "seedVariant": 15
-        },
-        {
-          "copy": 16,
-          "unit": null,
-          "seedVariant": 16
         }
       ],
       "3": [
         {
-          "copy": 30,
+          "copy": 18,
           "unit": null,
           "seedVariant": 1
         },
         {
-          "copy": 31,
+          "copy": 19,
           "unit": null,
           "seedVariant": 2
         },
         {
-          "copy": 32,
+          "copy": 20,
           "unit": null,
           "seedVariant": 3
         },
         {
-          "copy": 33,
+          "copy": 21,
           "unit": null,
           "seedVariant": 4
         },
         {
-          "copy": 34,
+          "copy": 22,
           "unit": null,
           "seedVariant": 5
         },
         {
-          "copy": 35,
+          "copy": 23,
           "unit": null,
           "seedVariant": 6
         },
         {
-          "copy": 36,
+          "copy": 24,
           "unit": null,
           "seedVariant": 7
         },
         {
-          "copy": 37,
+          "copy": 25,
           "unit": null,
           "seedVariant": 8
         },
         {
-          "copy": 38,
+          "copy": 26,
           "unit": null,
           "seedVariant": 9
         },
         {
-          "copy": 39,
+          "copy": 27,
           "unit": null,
           "seedVariant": 10
         },
         {
-          "copy": 40,
+          "copy": 28,
           "unit": null,
           "seedVariant": 11
-        },
-        {
-          "copy": 41,
-          "unit": null,
-          "seedVariant": 12
-        },
-        {
-          "copy": 42,
-          "unit": null,
-          "seedVariant": 13
-        },
-        {
-          "copy": 43,
-          "unit": null,
-          "seedVariant": 14
-        },
-        {
-          "copy": 44,
-          "unit": null,
-          "seedVariant": 15
-        },
-        {
-          "copy": 45,
-          "unit": null,
-          "seedVariant": 16
-        },
-        {
-          "copy": 46,
-          "unit": null,
-          "seedVariant": 17
-        },
-        {
-          "copy": 47,
-          "unit": null,
-          "seedVariant": 18
-        },
-        {
-          "copy": 48,
-          "unit": null,
-          "seedVariant": 19
-        },
-        {
-          "copy": 49,
-          "unit": null,
-          "seedVariant": 20
         }
       ]
     },
@@ -652,6 +547,11 @@
           "copy": 13,
           "unit": null,
           "seedVariant": 3
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 4
         }
       ]
     },

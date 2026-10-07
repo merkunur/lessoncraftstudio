@@ -31,7 +31,7 @@ for (const id of faces) {
       const r = T.build({ difficulty: lv, locale }, { variant: c, seedVariant: c, rng: Math.random });
       svg = (/<svg[\s\S]*?<\/svg>/.exec(r.bodyHtml) || [])[0];
       const pts = [...svg.matchAll(/data-lcs-dot="(\d+)" data-lcs-x="([\d.]+)" data-lcs-y="([\d.]+)"/g)].map((m) => [+m[2], +m[3]]);
-      svg = svg.replace(/<\/svg>\s*$/, `<polygon points="${pts.map((p) => p.join(',')).join(' ')}" fill="none" stroke="#F2784B" stroke-width="4" stroke-linejoin="round" opacity="0.8"/></svg>`);
+      svg = svg.replace(/<\/svg>\s*$/, `<${/data-lcs-open/.test(svg) ? 'polyline' : 'polygon'} points="${pts.map((p) => p.join(',')).join(' ')}" fill="none" stroke="#F2784B" stroke-width="4" stroke-linejoin="round" opacity="0.8"/></svg>`);
       cap += ` · ${r.meta.scene}${r.bodyHtml.includes('data-lcs-nostrip') ? ' · no strip' : ''}${svg.includes('data-lcs-lite') ? ' · lite' : ''}`;
     } catch (e) { cap += ' · ' + e.message.slice(0, 70); }
     tiles.push({ svg, cap });

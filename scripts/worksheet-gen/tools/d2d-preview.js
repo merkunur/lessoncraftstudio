@@ -31,11 +31,11 @@ const ids = (only || fs.readdirSync(DIR).filter((f) => f.endsWith('.json')).map(
         const f = sceneDotFigure({ scene, count: N, lite, labelPx });
         svg = f.svg;
         if (solved) {
-          const line = `<polygon points="${f.points.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ')}" fill="none" stroke="#F2784B" stroke-width="4" stroke-linejoin="round"/>`;
+          const line = `<${/data-lcs-open/.test(f.svg) ? "polyline" : "polygon"} points="${f.points.map(([x, y]) => x.toFixed(1) + ',' + y.toFixed(1)).join(' ')}" fill="none" stroke="#F2784B" stroke-width="4" stroke-linejoin="round"/>`;
           svg = svg.replace(/<\/svg>\s*$/, line + '</svg>');
         }
       } catch (e) { err = e.message; svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><rect width="${W}" height="${H}" fill="#fee"/><text x="20" y="60" font-size="22">${err.replace(/[<&]/g, '')}</text></svg>`; }
-      const cap = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="40"><rect width="${W}" height="40" fill="#fff"/><text x="10" y="28" font-family="Arial" font-size="24" font-weight="700">${id} · cx ${scene.fit[N].complexity} · iou ${scene.fit[N].iou}</text></svg>`;
+      const cap = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="40"><rect width="${W}" height="40" fill="#fff"/><text x="10" y="28" font-family="Arial" font-size="24" font-weight="700">${id} · cx ${scene.fit[N].complexity} · s ${scene.fit[N].s} · dev ${scene.fit[N].dev}</text></svg>`;
       const img = await sharp(Buffer.from(svg.includes('xmlns=') ? svg : svg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"'))).resize(W, H).png().toBuffer();
       tiles.push({ input: img, left: (j % COLS) * W, top: Math.floor(j / COLS) * (H + 40) + 40 });
       tiles.push({ input: Buffer.from(cap), left: (j % COLS) * W, top: Math.floor(j / COLS) * (H + 40) });

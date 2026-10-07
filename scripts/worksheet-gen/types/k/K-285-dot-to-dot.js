@@ -24,22 +24,22 @@ const sceneDotFigure = require('../../primitives/scene-dot-figure.js');
 const LS_BANDS = { low: [0, 1 / 3], mid: [1 / 3, 2 / 3], high: [2 / 3, 1], lowHalf: [0, 1 / 2], highHalf: [1 / 2, 1], all: [0, 1] };
 const EASY = { labelPx: 24, chip: 34, lite: true };
 const HARD = { labelPx: 18, strip: false };
+// v2 (2026-10-07, after the operator's review): the picture keeps its own lines; the numbered dots replace ONE stretch
+// of its outline (data/d2d fit[N]), so a face's dot count = the numbers it prints. No grey pre-printed remainder.
 const levelsFixed = (offset) => ({
   1: { ...EASY, scene: { n: 20, band: 'low', offset } },
   2: { scene: { n: 20, band: 'mid', offset } },
   3: { ...HARD, scene: { n: 20, band: 'high', offset } },
 });
-const levelsWindow = (offset) => ({   // the published page numbers 10 dots and pre-prints the rest of the outline
-  1: { ...EASY, scene: { n: 20, band: 'lowHalf', no10: true, offset } },
-  2: { scene: { n: 20, band: 'highHalf', no10: true, offset } },
-  3: { ...HARD, count: 10, window: null, scene: { n: 10, band: 'all', offset } },
+const levelsWindow = (offset) => ({   // 1-10, 11-20, 10 back to 1: ten numbers at every level
+  1: { ...EASY, count: 10, window: null, scene: { n: 10, band: 'low', offset } },
+  2: { count: 10, window: null, scene: { n: 10, band: 'mid', offset } },
+  3: { ...HARD, count: 10, window: null, scene: { n: 10, band: 'high', offset } },
 });
-const levelsOpen = (offset) => ({   // count by 2s / 5s / 10s: the published page numbers 10 dots and pre-prints the rest;
-  // the harder level numbers all 20 (2-40, 5-100, 10-200). 30 dots were tried: two- and three-digit numbers bunch on
-  // every outline that keeps its shape (read 2026-10-06)
-  1: { ...EASY, scene: { n: 20, band: 'low', offset } },
-  2: { scene: { n: 20, band: 'mid', offset } },
-  3: { ...HARD, window: null, scene: { n: 20, band: 'high', offset } },
+const levelsOpen = (offset) => ({   // count by 2s / 5s / 10s: ten numbers (2-20, 5-50, 10-100); the harder level twenty (2-40 …)
+  1: { ...EASY, count: 10, window: null, scene: { n: 10, band: 'low', offset } },
+  2: { count: 10, window: null, scene: { n: 10, band: 'mid', offset } },
+  3: { ...HARD, count: 20, window: null, scene: { n: 20, band: 'high', offset, avoid: [{ n: 10, band: 'low' }, { n: 10, band: 'mid' }] } },
 });
 const LEVEL_SET = {
   'K-285': levelsFixed(0),
@@ -51,11 +51,11 @@ const LEVEL_SET = {
   'G1-285': levelsOpen(0),
   'G2-304': levelsOpen(5),
   'G2-314': levelsOpen(10),
+  // the whole alphabet (level 3) has the fewest pictures; levels 1 and 2 leave those to it (no picture twice in a face)
   'K-309': {
-    1: { ...EASY, count: 10, scene: { n: 10, band: 'all', offset: 15 } },
-    2: { scene: { n: 20, band: 'mid', no10: true, offset: 15 } },
-    // the whole alphabet: never a picture levels 1 or 2 can print (their pools, without the placement test = a superset)
-    3: { ...HARD, count: 'alpha', scene: { n: 'alpha', band: 'highHalf', offset: 0, avoid: [{ n: 10, band: 'all' }, { n: 20, band: 'mid', no10: true }] } },
+    1: { ...EASY, count: 10, scene: { n: 10, band: 'all', offset: 15, avoid: [{ n: 'alpha', band: 'all' }, { n: 20, band: 'mid' }] } },
+    2: { count: 20, scene: { n: 20, band: 'mid', offset: 15, avoid: [{ n: 'alpha', band: 'all' }] } },
+    3: { ...HARD, count: 'alpha', scene: { n: 'alpha', band: 'all', offset: 0 } },
   },
 };
 let _scenes = null, _review = null;
@@ -70,7 +70,7 @@ function d2dScenes() {
 /** the pool of a level: scenes whose outline keeps its shape at n dots AND whose numbers all find a free place with
  *  this level's figure settings (fig = the sceneDotFigure options minus the scene), ordered by complexity, in the band */
 const _placeable = new Map();
-function d2dPool(sc, n, fig) {
+function d2dPool(sc, n, fig, alphaLen) {
   // pictures refused after reading their solved sheets (data/d2d/review.js); a refusal at n dots holds at every larger
   // count too (more dots follow the same tail, wing or ears more closely, so the same numbers bunch)
   const R = d2dReview(), refused = {};
@@ -81,12 +81,14 @@ function d2dPool(sc, n, fig) {
     if (!_placeable.has(key)) { let ok = true; try { sceneDotFigure({ scene: s, ...fig }); } catch (e) { ok = false; } _placeable.set(key, ok); }
     return _placeable.get(key);
   };
-  const avoid = new Set((sc.avoid || []).flatMap((a) => d2dPool(a, a.n).map((s) => s.id)));
-  const ok = d2dScenes().filter((s) => s.fit[n] && s.fit[n].ok && !refused[s.id] && !avoid.has(s.id) && !(sc.no10 && s.fit[10] && s.fit[10].ok) && fits(s));
+  const avoid = new Set((sc.avoid || []).flatMap((a) => { const an = a.n === 'alpha' ? alphaLen : a.n; return an ? d2dPool(a, an, null, alphaLen).map((s) => s.id) : []; }));
+  const ok = d2dScenes().filter((s) => s.fit[n] && s.fit[n].ok && !refused[s.id] && !avoid.has(s.id) && !(sc.no10 && s.fit[10] && s.fit[10].ok));
   const cx = (s) => (s.fit[20] && s.fit[20].complexity) || s.fit[n].complexity;
   ok.sort((a, b) => cx(a) - cx(b) || (a.id < b.id ? -1 : 1));
   const [lo, hi] = LS_BANDS[sc.band];
-  return ok.slice(Math.floor(lo * ok.length), Math.floor(hi * ok.length));
+  // the band is cut BEFORE the placement test: levels with different numeral sizes must cut the same bands, or one
+  // picture lands in two levels of a face (found 2026-10-07: G1-294 fish at L2 and L3)
+  return ok.slice(Math.floor(lo * ok.length), Math.floor(hi * ok.length)).filter(fits);
 }
 
 
@@ -115,7 +117,10 @@ module.exports = {
   levelSetWords: (m) => (m.scene ? [m.scene, '#' + m.scene] : [String(m.figure)]),
 
   build({ difficulty, locale }, ctx) {
-    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+    // the published page (level 2, copy 1) is built as before — EXCEPT the faces that printed a grey pre-drawn remainder
+    // (window): the operator's review 2026-10-07 ("the drawn part … as if the continuation of the connected dots"); those
+    // published pages are rebuilt as a scene page and republished in place
+    const fresh = !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1) || !!(this.difficulty[2] && this.difficulty[2].window);
     const lsKnobs = fresh && LEVEL_SET[this.id] && LEVEL_SET[this.id][difficulty];
     if (lsKnobs) return this._buildScene({ ...this.difficulty[2], ...lsKnobs }, (locale || 'en').slice(0, 2), ctx);
     const d = this.difficulty[difficulty];
@@ -158,8 +163,8 @@ module.exports = {
     if (n !== count) throw new Error(`${this.id}: level picture has ${n} dots, the level counts ${count}`);
     if (alpha && alpha.length < count) throw new Error(`${this.id}: ${loc} strip has ${alpha.length} letters < ${count}`);
     const values = alpha ? alpha.slice(0, count) : null;
-    const figOpts = { count, step: d.step || 1, startAt: d.startAt, window: d.window, values, lite: !!d.lite, labelPx: d.labelPx || 20 };
-    const pool = d2dPool(sc, n, figOpts);
+    const figOpts = { count, step: d.step || 1, startAt: d.startAt, values, lite: !!d.lite, labelPx: d.labelPx || 20 };
+    const pool = d2dPool(sc, n, figOpts, alpha ? alpha.length : null);
     const sv = (ctx && (ctx.seedVariant || ctx.variant)) || 1;
     if (!pool.length || sv - 1 >= pool.length) throw new Error(`${this.id}: no picture left for copy ${sv} (pool ${pool.length}) — REFUSED`);
     const scene = pool[((sc.offset || 0) + sv - 1) % pool.length];
@@ -223,7 +228,10 @@ module.exports = {
         seq = seq.concat(pts.slice(1, -1));
       }
       const n = seq.length;
-      for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) {
+      // an OPEN stretch (scene pages v2, data-lcs-open): the dots replace part of the outline; last dot → dot 1 is the
+      // picture's own line, not a segment the child draws
+      const open = svg.dataset.lcsOpen === '1', m = open ? n - 1 : n;
+      for (let i = 0; i < m; i++) for (let j = i + 1; j < m; j++) {
         if (j === i + 1 || (i === 0 && j === n - 1)) continue;
         if (seg(seq[i], seq[(i + 1) % n], seq[j], seq[(j + 1) % n])) fails.push(`path self-intersects at ${i + 1}/${j + 1}`);
       }
@@ -237,7 +245,16 @@ module.exports = {
         }
       }
       // labels: bboxes overlap no other label bbox, no dot circle; inside the stage
-      const boxes = labels.map((l) => l.getBBox());
+      // the numbers' INK boxes (2026-10-07): getBBox is the 1.6 em text box, mostly empty space above and below the
+      // glyphs; the ink is what a child sees touch. Measured with the page's own font (canvas 'middle' = SVG 'central').
+      const ctx2 = document.createElement('canvas').getContext('2d');
+      const boxes = labels.map((l) => {
+        const bb = l.getBBox(), cs = getComputedStyle(l);
+        ctx2.font = cs.fontWeight + ' ' + parseFloat(l.getAttribute('font-size') || cs.fontSize) + 'px ' + cs.fontFamily;
+        ctx2.textBaseline = 'middle';
+        const m = ctx2.measureText(l.textContent), y = +l.getAttribute('y');
+        return { x: bb.x, width: bb.width, y: y - m.actualBoundingBoxAscent, height: m.actualBoundingBoxAscent + m.actualBoundingBoxDescent };
+      });
       const svgBox = svg.getBBox();
       const W = +svg.getAttribute('width'), H = +svg.getAttribute('height');
       boxes.forEach((b, i) => {

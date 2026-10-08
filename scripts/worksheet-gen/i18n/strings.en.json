@@ -2677,11 +2677,11 @@
   },
   "G3-317": {
     "title": "Fractions on the Line",
-    "instruction": "The dot marks a fraction. Circle which one."
+    "instruction": "The dot marks a fraction. Circle that fraction."
   },
   "G3-318": {
     "title": "Twin Fractions",
-    "instruction": "Draw a line from each picture to its matching fraction."
+    "instruction": "Draw a line from each picture to the fraction that shows the same amount."
   },
   "G3-319": {
     "title": "Which Is Bigger?",
@@ -2697,7 +2697,7 @@
   },
   "G3-322": {
     "title": "Equal Partners",
-    "instruction": "Draw a line from each picture to its fraction."
+    "instruction": "Draw a line from each picture to the fraction that shows the same amount."
   },
   "G3-323": {
     "title": "Round to the Hundred",

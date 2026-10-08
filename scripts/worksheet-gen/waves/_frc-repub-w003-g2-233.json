@@ -1,0 +1,19 @@
+{
+  "id": "wave-003",
+  "_note": "Fractions 2026-10-08: the published es G2-233 level-2 picture pages (live themes fruits,vehicles) rebuilt for the corrected es instruction; same wave id + theme → same deck ids",
+  "seedEpoch": 1,
+  "locales": [
+    "es"
+  ],
+  "themes": [
+    "fruits",
+    "vehicles"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G2-233"
+  ]
+}

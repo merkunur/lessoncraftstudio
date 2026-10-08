@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Brøker på linjen",
-    "instruction": "Prikken markerer en brøk. Indkreds hvilken."
+    "instruction": "Prikken markerer en brøk. Indkreds den brøk."
   },
   "G3-318": {
     "title": "Brøktvillinger",
-    "instruction": "Tegn en streg fra hvert billede til dets matchende brøk."
+    "instruction": "Tegn en streg fra hvert billede til den brøk, der er lige så meget værd."
   },
   "G3-319": {
     "title": "Hvilken er størst?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Lige partnere",
-    "instruction": "Tegn en streg fra hvert billede til dets brøk."
+    "instruction": "Tegn en streg fra hvert billede til den brøk, der er lige så meget værd."
   },
   "G3-323": {
     "title": "Rund til hundrede",

@@ -553,7 +553,7 @@
   },
   "G2-230": {
     "title": "Halla la fracción",
-    "instruction": "Rodea la figura que muestra la fracción."
+    "instruction": "Encierra la figura que muestra la fracción."
   },
   "G2-231": {
     "title": "Fracciones amigas",
@@ -561,15 +561,15 @@
   },
   "G2-232": {
     "title": "¿Partes justas?",
-    "instruction": "Rodea cada figura cortada en partes IGUALES."
+    "instruction": "Encierra cada figura cortada en partes IGUALES."
   },
   "G2-233": {
     "title": "Reparte el conjunto",
-    "instruction": "Rodea la fracción de los dibujos. Escribe cuántos son."
+    "instruction": "Encierra la fracción de los dibujos. Escribe cuántos son."
   },
   "G2-234": {
     "title": "Córtalo bien",
-    "instruction": "Rodea la figura que muestra la fracción."
+    "instruction": "Encierra la figura que muestra la fracción."
   },
   "G2-235": {
     "title": "Mídelo",
@@ -681,27 +681,27 @@
   },
   "G3-317": {
     "title": "Fracciones en la recta",
-    "instruction": "El punto marca una fracción. Rodea cuál es."
+    "instruction": "El punto marca una fracción. Encierra esa fracción."
   },
   "G3-318": {
     "title": "Fracciones gemelas",
-    "instruction": "Une con una línea cada dibujo a su fracción correspondiente."
+    "instruction": "Une con una línea cada dibujo con la fracción equivalente."
   },
   "G3-319": {
     "title": "¿Cuál es mayor?",
-    "instruction": "Mira las dos barras. Rodea la fracción mayor."
+    "instruction": "Mira las dos barras. Encierra la fracción mayor."
   },
   "G3-320": {
     "title": "Fracción del grupo",
-    "instruction": "Rodea la fracción de los dibujos. Escribe cuántos son."
+    "instruction": "Encierra la fracción de los dibujos. Escribe cuántos son."
   },
   "G3-321": {
     "title": "Halla el entero",
-    "instruction": "La barra pequeña es una parte. Rodea la barra que muestra el ENTERO."
+    "instruction": "La barra pequeña es una parte. Encierra la barra que muestra el ENTERO."
   },
   "G3-322": {
     "title": "Parejas iguales",
-    "instruction": "Une con una línea cada dibujo a su fracción."
+    "instruction": "Une con una línea cada dibujo con la fracción equivalente."
   },
   "G3-323": {
     "title": "Redondea a la centena",
@@ -769,7 +769,7 @@
   },
   "G3-343": {
     "title": "Partes iguales",
-    "instruction": "Rodea cada figura cortada en partes IGUALES."
+    "instruction": "Encierra cada figura cortada en partes IGUALES."
   },
   "G3-344": {
     "title": "¿Cuánto tiempo pasó?",

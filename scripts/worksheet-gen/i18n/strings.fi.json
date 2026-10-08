@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Murtoluvut lukusuoralla",
-    "instruction": "Piste osoittaa murtoluvun. Ympyröi mikä."
+    "instruction": "Piste osoittaa murtoluvun. Ympyröi se murtoluku."
   },
   "G3-318": {
     "title": "Murtolukukaksoset",
-    "instruction": "Piirrä viiva jokaisesta kuvasta sopivaan murtolukuun."
+    "instruction": "Piirrä viiva jokaisesta kuvasta murtolukuun, joka on yhtä suuri."
   },
   "G3-319": {
     "title": "Kumpi on suurempi?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Yhtä suuret kaverit",
-    "instruction": "Piirrä viiva jokaisesta kuvasta sen murtolukuun."
+    "instruction": "Piirrä viiva jokaisesta kuvasta murtolukuun, joka on yhtä suuri."
   },
   "G3-323": {
     "title": "Pyöristä sataan",

@@ -1,0 +1,10 @@
+{
+  "id": "wave-fix2-d2",
+  "_note": "Fractions 2026-10-08: the published Find the Whole pages (G3-321 level 2, every locale) rebuilt — the wrong bars were one less and one more, so the whole was always the MIDDLE bar; same wave id → same deck ids",
+  "seedEpoch": 1,
+  "locales": ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [2],
+  "types": ["G3-321"]
+}

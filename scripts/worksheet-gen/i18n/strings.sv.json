@@ -549,27 +549,27 @@
   },
   "G2-229": {
     "title": "Tredjedelar, fjärdedelar",
-    "instruction": "Måla delen av varje figur."
+    "instruction": "Måla bråkdelen av varje figur."
   },
   "G2-230": {
     "title": "Hitta delen",
-    "instruction": "Ringa in figuren som visar delen."
+    "instruction": "Ringa in figuren som visar bråket."
   },
   "G2-231": {
     "title": "Delkompisar",
-    "instruction": "Dra ett streck från varje bild till dess del."
+    "instruction": "Dra ett streck från varje bild till rätt bråk."
   },
   "G2-232": {
     "title": "Lika delar?",
-    "instruction": "Ringa in varje figur som är delad i LIKA delar."
+    "instruction": "Ringa in varje figur som är delad i LIKA STORA delar."
   },
   "G2-233": {
     "title": "Dela mängden",
-    "instruction": "Ringa in delen av bilderna. Skriv hur många det är."
+    "instruction": "Ringa in bråkdelen av bilderna. Skriv hur många det är."
   },
   "G2-234": {
     "title": "Dela rätt",
-    "instruction": "Ringa in figuren som visar delen."
+    "instruction": "Ringa in figuren som visar bråket."
   },
   "G2-235": {
     "title": "Mät det",
@@ -673,27 +673,27 @@
   },
   "G3-315": {
     "title": "Vad heter delen?",
-    "instruction": "Skriv delen som de färgade delarna visar."
+    "instruction": "Skriv bråket som de färgade delarna visar."
   },
   "G3-316": {
     "title": "Färglägg delen",
-    "instruction": "Måla rätt antal delar för att visa varje del."
+    "instruction": "Måla rätt antal delar för att visa varje bråk."
   },
   "G3-317": {
     "title": "Delar på linjen",
-    "instruction": "Pricken markerar en del. Ringa in vilken."
+    "instruction": "Pricken markerar ett bråk. Ringa in det bråket."
   },
   "G3-318": {
     "title": "Deltvillingar",
-    "instruction": "Dra ett streck från varje bild till dess del som passar."
+    "instruction": "Dra ett streck från varje bild till bråket som är lika mycket värt."
   },
   "G3-319": {
     "title": "Vilken är större?",
-    "instruction": "Titta på båda staplarna. Ringa in den större delen."
+    "instruction": "Titta på båda staplarna. Ringa in det större bråket."
   },
   "G3-320": {
     "title": "Del av gruppen",
-    "instruction": "Ringa in delen av bilderna. Skriv hur många det är."
+    "instruction": "Ringa in bråkdelen av bilderna. Skriv hur många det är."
   },
   "G3-321": {
     "title": "Hitta det hela",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Lika kompisar",
-    "instruction": "Dra ett streck från varje bild till dess del."
+    "instruction": "Dra ett streck från varje bild till bråket som är lika mycket värt."
   },
   "G3-323": {
     "title": "Avrunda till hundratal",
@@ -769,7 +769,7 @@
   },
   "G3-343": {
     "title": "Lika delar",
-    "instruction": "Ringa in varje figur som är delad i LIKA delar."
+    "instruction": "Ringa in varje figur som är delad i LIKA STORA delar."
   },
   "G3-344": {
     "title": "Hur lång tid gick?",

@@ -1,0 +1,10 @@
+{
+  "id": "wave-fix2-en-13",
+  "_note": "Fractions 2026-10-08: the published English Find the Whole pages at levels 1 and 3 rebuilt (the whole was always the middle bar); same wave id → same deck ids",
+  "seedEpoch": 1,
+  "locales": ["en"],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [1, 3],
+  "types": ["G3-321"]
+}

@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Frações na reta",
-    "instruction": "O ponto marca uma fração. Circule qual é."
+    "instruction": "O ponto marca uma fração. Circule essa fração."
   },
   "G3-318": {
     "title": "Frações gêmeas",
-    "instruction": "Ligue cada figura à sua fração correspondente."
+    "instruction": "Ligue cada figura à fração equivalente."
   },
   "G3-319": {
     "title": "Qual é maior?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Pares iguais",
-    "instruction": "Ligue cada figura à sua fração."
+    "instruction": "Ligue cada figura à fração equivalente."
   },
   "G3-323": {
     "title": "Arredonde à centena",

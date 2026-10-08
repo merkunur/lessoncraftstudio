@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Brüche auf dem Zahlenstrahl",
-    "instruction": "Der Punkt zeigt einen Bruch. Kreise ein, welcher es ist."
+    "instruction": "Der Punkt zeigt einen Bruch. Kreise diesen Bruch ein."
   },
   "G3-318": {
     "title": "Bruch-Zwillinge",
-    "instruction": "Verbinde jedes Bild mit seinem passenden Bruch."
+    "instruction": "Verbinde jedes Bild mit dem Bruch, der gleich groß ist."
   },
   "G3-319": {
     "title": "Welcher ist größer?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Gleiche Partner",
-    "instruction": "Verbinde jedes Bild mit seinem Bruch."
+    "instruction": "Verbinde jedes Bild mit dem Bruch, der gleich groß ist."
   },
   "G3-323": {
     "title": "Auf Hunderter runden",

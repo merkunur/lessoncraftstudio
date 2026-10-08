@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Frazioni sulla linea",
-    "instruction": "Il puntino segna una frazione. Cerchia quale."
+    "instruction": "Il puntino segna una frazione. Cerchia quella giusta."
   },
   "G3-318": {
     "title": "Frazioni gemelle",
-    "instruction": "Traccia una linea da ogni immagine alla frazione corrispondente."
+    "instruction": "Traccia una linea da ogni immagine alla frazione equivalente."
   },
   "G3-319": {
     "title": "Quale è più grande?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Coppie uguali",
-    "instruction": "Traccia una linea da ogni immagine alla sua frazione."
+    "instruction": "Traccia una linea da ogni immagine alla frazione equivalente."
   },
   "G3-323": {
     "title": "Arrotonda al centinaio",

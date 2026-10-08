@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Fractions sur la ligne",
-    "instruction": "Le point marque une fraction. Entoure laquelle."
+    "instruction": "Le point marque une fraction. Entoure cette fraction."
   },
   "G3-318": {
     "title": "Fractions jumelles",
-    "instruction": "Trace un trait de chaque image vers la fraction qui correspond."
+    "instruction": "Trace un trait de chaque image vers la fraction équivalente."
   },
   "G3-319": {
     "title": "Laquelle est plus grande ?",
@@ -697,11 +697,11 @@
   },
   "G3-321": {
     "title": "Trouver le tout",
-    "instruction": "La petite barre est une part. Entoure la barre qui montre le TOUT."
+    "instruction": "La petite barre est une part. Entoure la barre qui montre l'UNITÉ."
   },
   "G3-322": {
     "title": "Partenaires égaux",
-    "instruction": "Trace un trait de chaque image vers sa fraction."
+    "instruction": "Trace un trait de chaque image vers la fraction équivalente."
   },
   "G3-323": {
     "title": "Arrondir à la centaine",

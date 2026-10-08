@@ -1972,7 +1972,7 @@
   },
   "G1-310": {
     "title": "Satataulun palat: täydennä luvut",
-    "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alle 10 enemmän, ylle 10 vähemmän."
+    "instruction": "Jokaisessa palassa on yksi luku. Kirjoita puuttuvat luvut: oikealle 1 enemmän, vasemmalle 1 vähemmän, alapuolelle 10 enemmän, yläpuolelle 10 vähemmän."
   },
   "G2-315": {
     "title": "Oikeinkirjoitus: {UNIT}",

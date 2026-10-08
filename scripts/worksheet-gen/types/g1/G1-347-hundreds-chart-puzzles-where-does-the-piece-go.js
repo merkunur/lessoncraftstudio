@@ -4,11 +4,13 @@ const base = require('./G1-310-hundreds-chart-puzzles.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"place","pieces":4,"piecePool":["sq3","plus","L3","T3","S","Z","sq3-holes"],"pieceCell":48,"pieceFont":20,"pieceGap":22,"boardCell":46,"boardFont":16,"guides":"edges"} };
+const D = { ...base.difficulty[2], ...{"mode":"place","pieces":4,"piecePool":["sq3","plus","L3","T3","S","Z","sq3-holes"],"pieceCell":48,"pieceFont":20,"pieceGap":22,"boardCell":52,"boardFont":17,"guides":"edges"} };
 module.exports = {
   ...base,
   id: 'G1-347',
   slug: 'hundreds-chart-puzzles-where-does-the-piece-go',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('place'),
+  // Level Set 2026-10-08: real easier / harder levels (level 2 = the published config) — level 1 three small pieces on a chart with more printed guides, level 3 odd shapes on a chart with only its first and last number
+  difficulty: { 1: { ...D, pieces: 3, piecePool: ['plus', 'bar-h3', 'bar-v3', 'L3', 'T3'], guides: 'rich' }, 2: D, 3: { ...D, piecePool: ['S', 'Z', 'sq3-holes', 'T3', 'L3'], guides: 'corners' } },
   i18n: { en: { title: "Where Does the Piece Go?", instruction: "Read the numbers on each piece, find its place on the empty chart and write them in." } },
 };

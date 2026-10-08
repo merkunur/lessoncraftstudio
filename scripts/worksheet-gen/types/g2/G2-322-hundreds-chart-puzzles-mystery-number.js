@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-322',
   slug: 'hundreds-chart-puzzles-mystery-number',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('riddle'),
+  // Level Set 2026-10-08: real easier / harder levels (level 2 = the published config) — level 1 both clues sideways, level 3 on the 101-200 chart
+  difficulty: { 1: { ...D, kinds: [1, 1] }, 2: D, 3: { ...D, unitOverride: '101-200' } },
   i18n: { en: { title: "Mystery Number: Two Arrows, One Square", instruction: "Follow both arrows. They point to the same square of the chart. Write the mystery number." } },
   gradeBand: "G2",
 };

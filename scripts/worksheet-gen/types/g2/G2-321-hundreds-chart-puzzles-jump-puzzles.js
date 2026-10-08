@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-321',
   slug: 'hundreds-chart-puzzles-jump-puzzles',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('jumps'),
+  // Level Set 2026-10-08: real easier / harder levels (level 2 = the published config) — level 1 two arrows, level 3 four arrows on the 101-200 chart
+  difficulty: { 1: { ...D, arrows: 2 }, 2: D, 3: { ...D, arrows: 4, unitOverride: '101-200', cols: 1 } },
   i18n: { en: { title: "Jump Puzzles: Follow the Arrows", instruction: "Start at the number and follow the arrows: up is 10 less, down is 10 more, left is 1 less, right is 1 more. Write where you land." } },
   gradeBand: "G2",
 };

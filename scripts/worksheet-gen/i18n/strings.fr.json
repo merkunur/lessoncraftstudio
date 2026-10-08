@@ -2258,7 +2258,7 @@
   },
   "G2-321": {
     "title": "Sauts dans le tableau des nombres : suis les flèches",
-    "instruction": "Pars du nombre et suis les flèches : en haut 10 de moins, en bas 10 de plus, à droite 1 de plus, à gauche 1 de moins. Écris où tu arrives."
+    "instruction": "Pars du nombre et suis les flèches : vers le haut 10 de moins, vers le bas 10 de plus, vers la droite 1 de plus, vers la gauche 1 de moins. Écris où tu arrives."
   },
   "G2-322": {
     "title": "Le nombre mystère : deux flèches, une case",

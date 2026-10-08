@@ -70,17 +70,22 @@ function numberItems(qs, salt) {
       if (!tappingRhythm(items.slice(0, k + 1).map((i) => i.at), 3)) break;
     }
   }
-  // a small answer has nothing below it but 0, so it is often the smallest option: no more than a third of a page's
-  // cards may have the answer smallest (or largest) — the others are re-drawn under another salt (guessability 2026-10-08)
+  // the answer's RANK among its options (smallest / middle / largest) is spread over the page: no rank holds more than
+  // a third (rounded up) of the cards. A small answer has nothing below it but 0, so it tends to be the smallest; capping
+  // only the ends pushed the answers into the MIDDLE ("tap the middle number" won 49%, Hundreds Chart 2026-10-08).
+  // Over-represented ranks are re-drawn under another salt, the item whose re-draw lands in the rarest rank first.
+  const rankOf = (it) => { const so = it.opts.slice().sort((a, b) => a - b); const r = so.indexOf(it.opts[it.at]); return r === 0 ? 0 : r === so.length - 1 ? 2 : 1; };
   const cap = Math.max(1, Math.ceil(items.length / 3));
-  for (const end of ['min', 'max']) {
-    const isEnd = (it) => it.opts[it.at] === (end === 'min' ? Math.min(...it.opts) : Math.max(...it.opts));
-    for (let s2 = 1; s2 < 60 && items.filter(isEnd).length > cap; s2++) {
-      const order = items.map((it, i) => i).filter((i) => isEnd(items[i]));
-      const j = order[s2 % order.length];
-      const r = numberChoices(items[j].x.ans, items[j].x.slips, page + j + '|' + items[j].x.q + '|' + end + s2, { min: 0, step: items[j].x.step || 1 });
-      items[j] = { x: items[j].x, ...r };
-    }
+  for (let s2 = 1; s2 < 200; s2++) {
+    const n = [0, 0, 0]; items.forEach((it) => n[rankOf(it)]++);
+    const over = [0, 1, 2].filter((r) => n[r] > cap);
+    if (!over.length) break;
+    const rare = [0, 1, 2].sort((a, b) => n[a] - n[b])[0];
+    const pool = items.map((it, i) => i).filter((i) => over.includes(rankOf(items[i])));
+    const j = pool[s2 % pool.length];
+    const r = numberChoices(items[j].x.ans, items[j].x.slips, page + j + '|' + items[j].x.q + '|rank' + s2, { min: 0, step: items[j].x.step || 1 });
+    const cand = { x: items[j].x, ...r };
+    if (rankOf(cand) === rare || !over.includes(rankOf(cand))) items[j] = cand;
   }
   return items.map(({ x, opts, at }, k) => itemBox(k, x.q, x.prompt + row(opts.map((v, j) => chip(j, String(v), j === at, NUM(v), 120)).join(''))));
 }
@@ -215,4 +220,4 @@ function interactiveFor(mode, which, scale) {
     metaAttrs: ['data-lcs-q'], instructionKey, screenHeight: 6000, oracle: (items) => oracle(items) };
 }
 
-module.exports = { screenOrKey, interactiveFor, oracle };
+module.exports = { screenOrKey, interactiveFor, oracle, numberItems, wrap, row, chip, itemBox, NUM, SYM };

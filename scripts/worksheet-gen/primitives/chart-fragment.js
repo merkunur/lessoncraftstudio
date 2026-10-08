@@ -285,7 +285,8 @@ function guideValues({ start = 1, end = 100, step = 1, guides = 'edges' }) {
   return out;
 }
 
-function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edges', targets = [], fontSize = 16 }, ctx) {
+// showAnswers (answer key, 2026-10-08): every target prints its number in coral; off = the page exactly as before
+function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edges', targets = [], fontSize = 16, showAnswers = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const cols = 10;
   const count = (end - start) / step + 1;
@@ -311,6 +312,7 @@ function chartOutline({ start = 1, end = 100, step = 1, cell = 46, guides = 'edg
       parts.push(label({ x: cx + cell / 2, y: cy + cell / 2 + 1, text: v, size: fontSize, color: t.color.inkSoft, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-guide': v } }));
     } else if (targetOf.has(v)) {
       parts.push(roundedRect({ x: cx, y: cy, w: cell, h: cell, r: 0, fill: t.color.white, data: { 'data-lcs-target': targetOf.get(v), 'data-lcs-answer': v } }));
+      if (showAnswers) parts.push(label({ x: cx + cell / 2, y: cy + cell / 2 + 1, text: v, size: fontSize, color: t.color.coral, fontFamily: t.font.display, weight: 800, data: { 'data-lcs-keyval': v } }));
     }
     if (c !== cols - 1) parts.push(line({ x1: cx + cell, y1: cy + 3, x2: cx + cell, y2: cy + cell - 3, strokeColor: t.color.inkSoft, strokeWidth: t.stroke.grid, cap: 'butt' }));
     if (r !== rows - 1) parts.push(line({ x1: cx + 3, y1: cy + cell, x2: cx + cell - 3, y2: cy + cell, strokeColor: t.color.inkSoft, strokeWidth: t.stroke.grid, cap: 'butt' }));

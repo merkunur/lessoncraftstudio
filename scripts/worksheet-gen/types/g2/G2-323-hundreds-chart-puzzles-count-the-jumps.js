@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-323',
   slug: 'hundreds-chart-puzzles-count-the-jumps',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('distance'),
+  // Level Set 2026-10-08: real easier / harder levels (level 2 = the published config) — level 1 up to 3 jumps each way, level 3 2 to 8 jumps on the 101-200 chart
+  difficulty: { 1: { ...D, counterMin: 1, counterMax: 3 }, 2: D, 3: { ...D, counterMin: 2, counterMax: 8, unitOverride: '101-200' } },
   i18n: { en: { title: "How Far Apart? Count the Jumps", instruction: "Count how many jumps down and how many jumps right take you from the first number to the second." } },
   gradeBand: "G2",
 };

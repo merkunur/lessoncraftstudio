@@ -72,7 +72,7 @@ if [ -d "$STAGE_ROOT" ]; then
   find "$STAGE_ROOT" -mindepth 1 -maxdepth 1 -type d -name '*.preband-backup' -mtime +7 -print0 |
   while IFS= read -r -d '' b; do
     echo "   $(basename "$b"): $(du -sm "$b" 2>/dev/null | cut -f1) MB"
-    [ $DRY = 0 ] && rm -rf -- "$b"
+    if [ $DRY = 0 ]; then rm -rf -- "$b"; fi
   done
 fi
 

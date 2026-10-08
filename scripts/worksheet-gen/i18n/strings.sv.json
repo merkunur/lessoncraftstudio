@@ -425,7 +425,7 @@
   },
   "G1-147": {
     "title": "Räkna och rita diagram",
-    "instruction": "Läs antalen. Måla en ruta i diagrammet för varje en."
+    "instruction": "Läs antalen. Måla lika många rutor i diagrammet som antalet."
   },
   "G1-148": {
     "title": "Hel timme",
@@ -739,7 +739,8 @@
   },
   "G3-332": {
     "title": "Staplar i stor skala",
-    "instruction": "Se upp — skalan räknar med 5! Skriv värdet på varje stapel."
+    "instruction": "Se upp — skalan går i steg om 5! Skriv värdet på varje stapel.",
+    "printTitle": "Staplar i femsteg"
   },
   "G3-333": {
     "title": "Varje bild betyder 5",
@@ -751,7 +752,8 @@
   },
   "G3-335": {
     "title": "Halvvägsmärken",
-    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många."
+    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många.",
+    "printTitle": "Halvor"
   },
   "G3-337": {
     "title": "Gå runt kanten",

@@ -409,15 +409,16 @@
   },
   "G1-142": {
     "title": "El que tiene más",
-    "instruction": "Mira el gráfico. Rodea el que tiene MÁS."
+    "instruction": "Mira la gráfica. Encierra el que tiene MÁS."
   },
   "G1-143": {
     "title": "Lee el gráfico de barras",
-    "instruction": "Lee cada barra. Escribe su número."
+    "instruction": "Lee cada barra. Escribe su número.",
+    "printTitle": "Lee la gráfica de barras"
   },
   "G1-144": {
     "title": "La barra más alta",
-    "instruction": "Mira las barras. Rodea la que tiene más."
+    "instruction": "Mira las barras. Encierra la que tiene más."
   },
   "G1-146": {
     "title": "Clasifica y cuenta",
@@ -425,7 +426,7 @@
   },
   "G1-147": {
     "title": "Cuenta y grafica",
-    "instruction": "Lee los conteos. Colorea un cuadro en el gráfico por cada uno."
+    "instruction": "Lee los conteos. Colorea un cuadro en la gráfica por cada uno."
   },
   "G1-148": {
     "title": "En punto",
@@ -582,7 +583,8 @@
   },
   "G2-237": {
     "title": "Detective de gráficos",
-    "instruction": "Usa el gráfico para resolver las dos preguntas con dibujos."
+    "instruction": "Usa la gráfica para resolver las dos preguntas con dibujos.",
+    "printTitle": "Detective de gráficas"
   },
   "G2-238": {
     "title": "Cada dibujo vale doble",
@@ -732,7 +734,8 @@
   },
   "G3-332": {
     "title": "Barras a gran escala",
-    "instruction": "Cuidado: ¡la escala cuenta de 5 en 5! Escribe el valor de cada barra."
+    "instruction": "Cuidado: ¡la escala cuenta de 5 en 5! Escribe el valor de cada barra.",
+    "printTitle": "Barras de 5 en 5"
   },
   "G3-333": {
     "title": "Cada dibujo vale 5",
@@ -740,11 +743,13 @@
   },
   "G3-334": {
     "title": "Construye el gráfico",
-    "instruction": "Usa la tabla. Colorea una barra por cada valor."
+    "instruction": "Usa la tabla. Colorea una barra por cada valor.",
+    "printTitle": "Construye la gráfica"
   },
   "G3-335": {
     "title": "Marcas a medio camino",
-    "instruction": "Cuenta las equis sobre cada número. Escribe cuántas hay."
+    "instruction": "Cuenta las equis sobre cada número. Escribe cuántas hay.",
+    "printTitle": "Medios en el diagrama de puntos"
   },
   "G3-337": {
     "title": "Recorre el borde",

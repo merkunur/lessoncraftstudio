@@ -22,6 +22,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
   'feelings',
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
+  'graphing-data',       // Graphs and Data (2026-10-08): tap the number on each graph, the one with the most, build the graph cell by cell
   'geometry',            // Geometry (2026-10-08): tap the number of sides/faces/edges/corners/mirror lines, the shape, every right angle
   'cloze',
   'color-by-number',     // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version

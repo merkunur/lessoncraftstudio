@@ -25,11 +25,13 @@ function localeFile(locale) {
 function resolveStrings(typeId, locale, spec) {
   const loc = locale !== 'en' && localeFile(locale);
   if (loc && loc[typeId] && loc[typeId].title && loc[typeId].instruction) {
-    return { title: loc[typeId].title, instruction: loc[typeId].instruction, source: 'locale' };
+    // printTitle (2026-10-08): a corrected heading PRINTED on the page (PDF / screen / key / the deck's visible h1) while
+    // `title` — the deck's search title, breadcrumb and type name — stays as published (metadata is never churned)
+    return { title: loc[typeId].title, instruction: loc[typeId].instruction, ...(loc[typeId].printTitle ? { printTitle: loc[typeId].printTitle } : {}), source: 'locale' };
   }
   const en = localeFile('en');
   if (en && en[typeId] && en[typeId].title && en[typeId].instruction) {
-    return { title: en[typeId].title, instruction: en[typeId].instruction, source: 'en' };
+    return { title: en[typeId].title, instruction: en[typeId].instruction, ...(en[typeId].printTitle ? { printTitle: en[typeId].printTitle } : {}), source: 'en' };
   }
   if (spec && spec.i18n && spec.i18n.en) {
     return { title: spec.i18n.en.title, instruction: spec.i18n.en.instruction, source: 'spec' };
@@ -57,7 +59,9 @@ function withLevelInstruction(strings, typeId, difficulty, locale) {
   // so the 2-prefix and 4-prefix levels need their own): { "title": "...", "instruction": "..." }
   if (s && typeof s === 'object') {
     if (!s.instruction) throw new Error('strings: ' + typeId + ' level ' + difficulty + ' ' + locale + ' entry has no instruction');
-    return { ...strings, instruction: s.instruction, ...(s.title ? { title: s.title } : {}) };
+    // a level's own title is printed as it is (it replaces any face printTitle)
+    if (s.title) { const { printTitle, ...rest } = strings; return { ...rest, instruction: s.instruction, title: s.title }; }
+    return { ...strings, instruction: s.instruction };
   }
   return { ...strings, instruction: s };
 }

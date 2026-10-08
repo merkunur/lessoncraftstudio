@@ -553,7 +553,8 @@
   },
   "G2-230": {
     "title": "Halla la fracción",
-    "instruction": "Encierra la figura que muestra la fracción."
+    "instruction": "Encierra la figura que muestra la fracción.",
+    "printTitle": "Encuentra la fracción"
   },
   "G2-231": {
     "title": "Fracciones amigas",
@@ -681,7 +682,8 @@
   },
   "G3-317": {
     "title": "Fracciones en la recta",
-    "instruction": "El punto marca una fracción. Encierra esa fracción."
+    "instruction": "El punto marca una fracción. Encierra esa fracción.",
+    "printTitle": "Fracciones en la recta numérica"
   },
   "G3-318": {
     "title": "Fracciones gemelas",
@@ -697,7 +699,8 @@
   },
   "G3-321": {
     "title": "Halla el entero",
-    "instruction": "La barra pequeña es una parte. Encierra la barra que muestra el ENTERO."
+    "instruction": "La barra pequeña es una parte. Encierra la barra que muestra el ENTERO.",
+    "printTitle": "Encuentra el entero"
   },
   "G3-322": {
     "title": "Parejas iguales",

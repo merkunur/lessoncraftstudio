@@ -681,7 +681,8 @@
   },
   "G3-317": {
     "title": "Breuken op de lijn",
-    "instruction": "De stip wijst een breuk aan. Omcirkel die breuk."
+    "instruction": "De stip wijst een breuk aan. Omcirkel die breuk.",
+    "printTitle": "Breuken op de getallenlijn"
   },
   "G3-318": {
     "title": "Tweelingbreuken",

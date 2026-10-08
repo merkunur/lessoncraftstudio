@@ -677,11 +677,13 @@
   },
   "G3-316": {
     "title": "Skravér brøken",
-    "instruction": "Farv det rigtige antal dele for at vise hver brøk."
+    "instruction": "Farv det rigtige antal dele for at vise hver brøk.",
+    "printTitle": "Farv brøken"
   },
   "G3-317": {
     "title": "Brøker på linjen",
-    "instruction": "Prikken markerer en brøk. Indkreds den brøk."
+    "instruction": "Prikken markerer en brøk. Indkreds den brøk.",
+    "printTitle": "Brøker på tallinjen"
   },
   "G3-318": {
     "title": "Brøktvillinger",

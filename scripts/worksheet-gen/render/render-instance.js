@@ -25,8 +25,10 @@ async function renderInstance(o) {
   // the same object comes back for every type without the axis.
   const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
   const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}) });
+  // the heading PRINTED on every page (a corrected printTitle when the face has one; the search title stays strings.title)
+  const head = strings.printTitle || strings.title;
   const html = buildPage({
-    title: strings.title,
+    title: head,
     instruction: strings.instruction,
     bodyHtml: built.bodyHtml,
     locale,
@@ -74,7 +76,7 @@ async function renderInstance(o) {
     if (!o.interactiveInstruction) throw new Error('render-instance: ' + type.id + ' is interactive but no interactiveInstruction was given for ' + locale);
     const screenBuilt = await again({ interactive: true });
     sameAs(screenBuilt, 'screen');
-    await load(buildPage({ title: strings.title, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
+    await load(buildPage({ title: head, instruction: o.interactiveInstruction, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
     const screenLints = await runLints(page, { gradeBand: type.gradeBand });
     // LANES mode (tap-edit): the lanes are drawn LIVE by the runtime; the page image is only the
     // header (title, instruction, checklist), cropped just below it. Items travel as DATA.
@@ -108,7 +110,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: got.clip });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');   // every key is MEASURED (qa/key-text-measure.js)
@@ -138,7 +140,7 @@ async function renderInstance(o) {
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });
       sameAs(keyBuilt, 'answer-key');
-      await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
       const keyPdf = base + '.key.pdf';
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
@@ -200,7 +202,7 @@ async function renderInstance(o) {
     // answer key: the printed page with every answer written in (a PDF for the teacher)
     const keyBuilt = await again({ answerKey: true });
     sameAs(keyBuilt, 'answer-key');
-    await load(buildPage({ title: strings.title + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+    await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
     const keyPdf = base + '.key.pdf';
     await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
     // Every answer key is MEASURED (operator ruling 2026-09-28 — a repeating mistake): an answer on a writing row

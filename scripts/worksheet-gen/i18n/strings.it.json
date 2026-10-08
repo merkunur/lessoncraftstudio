@@ -681,7 +681,8 @@
   },
   "G3-317": {
     "title": "Frazioni sulla linea",
-    "instruction": "Il puntino segna una frazione. Cerchia quella giusta."
+    "instruction": "Il puntino segna una frazione. Cerchia quella giusta.",
+    "printTitle": "Frazioni sulla linea dei numeri"
   },
   "G3-318": {
     "title": "Frazioni gemelle",
@@ -689,7 +690,8 @@
   },
   "G3-319": {
     "title": "Quale è più grande?",
-    "instruction": "Guarda le due barre. Cerchia la frazione più grande."
+    "instruction": "Guarda le due barre. Cerchia la frazione più grande.",
+    "printTitle": "Qual è più grande?"
   },
   "G3-320": {
     "title": "Frazione del gruppo",

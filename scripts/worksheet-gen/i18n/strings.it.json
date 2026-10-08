@@ -249,7 +249,8 @@
   },
   "K-076": {
     "title": "Ordina per lati",
-    "instruction": "Traccia una linea da ogni forma al suo numero di lati."
+    "instruction": "Traccia una linea da ogni forma al suo numero di lati.",
+    "printTitle": "Raggruppa per numero di lati"
   },
   "K-077": {
     "title": "Sequenze di forme",
@@ -597,7 +598,8 @@
   },
   "G2-241": {
     "title": "Ordina le forme",
-    "instruction": "Traccia una linea da ogni forma al suo numero di lati."
+    "instruction": "Traccia una linea da ogni forma al suo numero di lati.",
+    "printTitle": "Raggruppa le forme"
   },
   "G2-242": {
     "title": "Conta le facce",
@@ -605,11 +607,11 @@
   },
   "G2-243": {
     "title": "I solidi intorno a noi",
-    "instruction": "Traccia una linea da ogni solido all'oggetto con la sua forma."
+    "instruction": "Traccia una linea da ogni solido all'oggetto con la stessa forma."
   },
   "G2-244": {
     "title": "Piatto o solido?",
-    "instruction": "Traccia una linea da ogni forma al gruppo: piatte a sinistra, solidi a destra."
+    "instruction": "Traccia una linea da ogni forma al suo gruppo: figure piane a sinistra, solidi a destra."
   },
   "G2-245": {
     "title": "Conta gli spigoli",
@@ -621,7 +623,7 @@
   },
   "G2-247": {
     "title": "Asse di simmetria?",
-    "instruction": "La linea tratteggiata è un asse di simmetria? Cerchia il segno giusto o la croce."
+    "instruction": "La linea tratteggiata è un asse di simmetria? Cerchia la spunta o la croce."
   },
   "G2-248": {
     "title": "Trova l'immagine simmetrica",
@@ -747,7 +749,7 @@
   },
   "G3-337": {
     "title": "Cammina sul bordo",
-    "instruction": "Conta i lati unitari attorno a ogni rettangolo. Scrivi il perimetro."
+    "instruction": "Conta i lati dei quadretti attorno a ogni rettangolo. Scrivi il perimetro."
   },
   "G3-338": {
     "title": "Stesso spazio, nuova forma",
@@ -759,11 +761,11 @@
   },
   "G3-340": {
     "title": "Squadra dei quadrilateri",
-    "instruction": "Traccia una linea da ogni forma a quattro lati alla sua famiglia."
+    "instruction": "È un rettangolo? Anche i quadrati sono rettangoli. Collega ogni figura alla scatola giusta."
   },
   "G3-341": {
     "title": "Caccia agli angoli retti",
-    "instruction": "Cerchia ogni angolo RETTO (quelli con il quadratino)."
+    "instruction": "Cerchia ogni angolo retto (un angolo come quello di un quadrato)."
   },
   "G3-342": {
     "title": "Quanti assi di simmetria?",

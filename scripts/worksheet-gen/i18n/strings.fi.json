@@ -245,11 +245,12 @@
   },
   "K-075": {
     "title": "Laske sivut",
-    "instruction": "Laske jokaisen muodon sivut. Kirjoita luku."
+    "instruction": "Laske jokaisen kuvion sivut. Kirjoita luku."
   },
   "K-076": {
     "title": "Lajittele sivuilla",
-    "instruction": "Piirrä viiva jokaisesta muodosta sen sivujen lukumäärään."
+    "instruction": "Piirrä viiva jokaisesta kuviosta sen sivujen lukumäärään.",
+    "printTitle": "Lajittele sivujen määrän mukaan"
   },
   "K-077": {
     "title": "Muotojonot",
@@ -597,11 +598,12 @@
   },
   "G2-241": {
     "title": "Muotolajittelija",
-    "instruction": "Piirrä viiva jokaisesta muodosta sen sivujen lukumäärään."
+    "instruction": "Piirrä viiva jokaisesta kuviosta sen sivujen lukumäärään."
   },
   "G2-242": {
     "title": "Laske tahkot",
-    "instruction": "Kirjoita, montako tasaista tahkoa kullakin kappaleella on."
+    "instruction": "Kirjoita, montako tasaista pintaa kullakin kappaleella on.",
+    "printTitle": "Laske tasaiset pinnat"
   },
   "G2-243": {
     "title": "Kappaleet ympärillämme",
@@ -621,11 +623,12 @@
   },
   "G2-247": {
     "title": "Symmetria-akseli?",
-    "instruction": "Onko katkoviiva symmetria-akseli? Ympyröi rasti tai oikein-merkki."
+    "instruction": "Onko katkoviiva symmetria-akseli? Ympyröi kyllä tai ei."
   },
   "G2-248": {
     "title": "Etsi peilikuva",
-    "instruction": "Ympyröi kuva, joka on samanlainen molemmilla puolilla."
+    "instruction": "Ympyröi kuva, joka on samanlainen molemmilla puolilla.",
+    "printTitle": "Etsi symmetrinen kuva"
   },
   "G2-249": {
     "title": "Paljonko kello on?",
@@ -745,11 +748,11 @@
   },
   "G3-337": {
     "title": "Kierrä reuna",
-    "instruction": "Laske yksikkösärmät jokaisen suorakulmion ympäri. Kirjoita piiri."
+    "instruction": "Laske ruutujen sivut jokaisen suorakulmion ympäri. Kirjoita piiri."
   },
   "G3-338": {
     "title": "Sama ala, uusi muoto",
-    "instruction": "Ympyröi suorakulmio, joka peittää SAMAN määrän neliöitä."
+    "instruction": "Ympyröi suorakulmio, joka peittää SAMAN määrän ruutuja."
   },
   "G3-339": {
     "title": "Sama aita, uusi piha",
@@ -757,15 +760,16 @@
   },
   "G3-340": {
     "title": "Nelikulmiojoukko",
-    "instruction": "Piirrä viiva jokaisesta nelisivuisesta muodosta sen perheeseen."
+    "instruction": "Onko se suorakulmio? Myös neliöt ovat suorakulmioita. Piirrä viiva jokaisesta kuviosta oikeaan laatikkoon."
   },
   "G3-341": {
     "title": "Suorien kulmien jahti",
-    "instruction": "Ympyröi jokainen SUORA kulma (ne, joissa on pieni neliö)."
+    "instruction": "Ympyröi jokainen suora kulma (kulma kuin neliössä)."
   },
   "G3-342": {
     "title": "Montako akselia?",
-    "instruction": "Kirjoita, montako symmetria-akselia kullakin muodolla on."
+    "instruction": "Kirjoita, montako symmetria-akselia kullakin muodolla on.",
+    "printTitle": "Montako symmetria-akselia?"
   },
   "G3-343": {
     "title": "Yhtä suuret palat",

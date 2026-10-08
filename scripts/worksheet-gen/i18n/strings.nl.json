@@ -625,7 +625,8 @@
   },
   "G2-248": {
     "title": "Vind het spiegelplaatje",
-    "instruction": "Omcirkel het plaatje dat aan beide kanten gelijk is."
+    "instruction": "Omcirkel het plaatje dat aan beide kanten gelijk is.",
+    "printTitle": "Vind het symmetrische plaatje"
   },
   "G2-249": {
     "title": "Hoe laat is het?",
@@ -750,7 +751,7 @@
   },
   "G3-338": {
     "title": "Zelfde ruimte, nieuwe vorm",
-    "instruction": "Omcirkel de rechthoek die DEZELFDE hoeveelheid hokjes bedekt."
+    "instruction": "Omcirkel de rechthoek die EVENVEEL hokjes bedekt."
   },
   "G3-339": {
     "title": "Zelfde hek, nieuwe tuin",
@@ -758,11 +759,11 @@
   },
   "G3-340": {
     "title": "Vierhoekenploeg",
-    "instruction": "Trek een lijn van elke vierhoek naar zijn familie."
+    "instruction": "Is het een rechthoek? Vierkanten zijn ook rechthoeken. Trek een lijn van elke vorm naar de goede bak."
   },
   "G3-341": {
     "title": "Rechte hoeken zoeken",
-    "instruction": "Omcirkel elke RECHTE hoek (die met het kleine vierkantje)."
+    "instruction": "Omcirkel elke rechte hoek (een hoek zoals bij een vierkant)."
   },
   "G3-342": {
     "title": "Hoeveel spiegellijnen?",

@@ -601,7 +601,8 @@
   },
   "G2-242": {
     "title": "Tell flatene",
-    "instruction": "Skriv hvor mange flater hvert romlegeme har."
+    "instruction": "Skriv hvor mange plane flater hvert romlegeme har.",
+    "printTitle": "Tell de plane flatene"
   },
   "G2-243": {
     "title": "Romfigurer rundt oss",
@@ -609,7 +610,7 @@
   },
   "G2-244": {
     "title": "Flat eller romlig?",
-    "instruction": "Tegn en strek fra hver figur til kurven sin: flate figurer venstre, romlige høyre."
+    "instruction": "Tegn en strek fra hver figur til kurven sin: flate figurer til venstre, romfigurer til høyre."
   },
   "G2-245": {
     "title": "Tell kantene",
@@ -621,11 +622,13 @@
   },
   "G2-247": {
     "title": "Speillinje?",
-    "instruction": "Er den stiplede linja en speillinje? Sett ring rundt haken eller krysset."
+    "instruction": "Er den stiplede linja en symmetrilinje? Sett ring rundt haken eller krysset.",
+    "printTitle": "Symmetrilinje?"
   },
   "G2-248": {
     "title": "Finn speilbildet",
-    "instruction": "Sett ring rundt bildet som er likt på begge sider."
+    "instruction": "Sett ring rundt bildet som er likt på begge sider.",
+    "printTitle": "Finn det symmetriske bildet"
   },
   "G2-249": {
     "title": "Hva er klokka?",
@@ -758,15 +761,16 @@
   },
   "G3-340": {
     "title": "Firkantgjengen",
-    "instruction": "Tegn en strek fra hver firsidet figur til familien sin."
+    "instruction": "Er det et rektangel? Kvadrater er også rektangler. Tegn en strek fra hver figur til riktig boks."
   },
   "G3-341": {
     "title": "Rettvinkeljakt",
-    "instruction": "Sett ring rundt hver RETT vinkel (de med den lille firkanten)."
+    "instruction": "Sett ring rundt hver rett vinkel (et hjørne som i et kvadrat)."
   },
   "G3-342": {
     "title": "Hvor mange speillinjer?",
-    "instruction": "Skriv hvor mange speillinjer hver figur har."
+    "instruction": "Skriv hvor mange symmetrilinjer hver figur har.",
+    "printTitle": "Hvor mange symmetrilinjer?"
   },
   "G3-343": {
     "title": "Like deler",

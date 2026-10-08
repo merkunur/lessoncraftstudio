@@ -603,15 +603,16 @@
   },
   "G2-242": {
     "title": "Räkna sidoytorna",
-    "instruction": "Skriv hur många plana sidor varje kropp har."
+    "instruction": "Skriv hur många plana ytor varje kropp har.",
+    "printTitle": "Räkna de plana ytorna"
   },
   "G2-243": {
     "title": "Kroppar omkring oss",
-    "instruction": "Dra ett streck från varje kropp till saken med dess form."
+    "instruction": "Dra ett streck från varje kropp till saken som har samma form."
   },
   "G2-244": {
     "title": "Plan eller kropp?",
-    "instruction": "Dra ett streck till rätt låda: plana figurer vänster, kroppar höger."
+    "instruction": "Dra ett streck från varje figur till rätt låda: plana figurer till vänster, kroppar till höger."
   },
   "G2-245": {
     "title": "Räkna kanterna",
@@ -623,11 +624,13 @@
   },
   "G2-247": {
     "title": "Spegellinje?",
-    "instruction": "Är den streckade linjen en spegellinje? Ringa in bocken eller krysset."
+    "instruction": "Är den streckade linjen en symmetrilinje? Ringa in ja eller nej.",
+    "printTitle": "Symmetrilinje?"
   },
   "G2-248": {
     "title": "Hitta spegelbilden",
-    "instruction": "Ringa in bilden som är likadan på båda sidor."
+    "instruction": "Ringa in bilden som är likadan på båda sidor.",
+    "printTitle": "Hitta den symmetriska bilden"
   },
   "G2-249": {
     "title": "Vad är klockan?",
@@ -764,15 +767,16 @@
   },
   "G3-340": {
     "title": "Fyrhörningsgänget",
-    "instruction": "Dra ett streck från varje fyrsidig figur till dess familj."
+    "instruction": "Är det en rektangel? Kvadrater är också rektanglar. Dra ett streck från varje figur till rätt låda."
   },
   "G3-341": {
     "title": "Jakt på räta vinklar",
-    "instruction": "Ringa in varje RÄT vinkel (de med lilla rutan)."
+    "instruction": "Ringa in varje rät vinkel (ett hörn som i en kvadrat)."
   },
   "G3-342": {
     "title": "Hur många spegellinjer?",
-    "instruction": "Skriv hur många spegellinjer varje figur har."
+    "instruction": "Skriv hur många symmetrilinjer varje figur har.",
+    "printTitle": "Hur många symmetrilinjer?"
   },
   "G3-343": {
     "title": "Lika delar",

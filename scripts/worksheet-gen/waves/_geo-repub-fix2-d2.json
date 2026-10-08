@@ -1,0 +1,28 @@
+{
+  "_note": "Geometry 2026-10-08: every published geometry page rebuilt with the content fixes (right-angle marks, rectangle bins, solid objects, see-through solids, reviewed symmetry pictures, no cylinder on edges, native review); same wave id → same deck ids",
+  "seedEpoch": 1,
+  "themesPerType": 1,
+  "id": "wave-fix2-d2",
+  "locales": [
+    "da",
+    "de",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "it",
+    "nl",
+    "no",
+    "pt",
+    "sv"
+  ],
+  "themes": [],
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G2-242",
+    "G2-245",
+    "G2-246"
+  ]
+}

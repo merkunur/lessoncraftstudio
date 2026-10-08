@@ -249,7 +249,8 @@
   },
   "K-076": {
     "title": "Trier par côtés",
-    "instruction": "Trace un trait de chaque forme vers son nombre de côtés."
+    "instruction": "Trace un trait de chaque forme vers son nombre de côtés.",
+    "printTitle": "Trier selon le nombre de côtés"
   },
   "K-077": {
     "title": "Suites de formes",
@@ -601,15 +602,15 @@
   },
   "G2-242": {
     "title": "Compter les faces",
-    "instruction": "Écris combien de faces plates a chaque solide."
+    "instruction": "Écris combien de faces planes a chaque solide."
   },
   "G2-243": {
     "title": "Les solides autour de nous",
-    "instruction": "Trace un trait de chaque solide vers l'objet de sa forme."
+    "instruction": "Trace un trait de chaque solide vers l'objet qui a la même forme."
   },
   "G2-244": {
     "title": "Plat ou solide ?",
-    "instruction": "Trace un trait de chaque forme vers son bac : formes plates à gauche, solides à droite."
+    "instruction": "Trace un trait de chaque forme vers son bac : figures planes à gauche, solides à droite."
   },
   "G2-245": {
     "title": "Compter les arêtes",
@@ -758,11 +759,11 @@
   },
   "G3-340": {
     "title": "L'équipe des quadrilatères",
-    "instruction": "Trace un trait de chaque forme à quatre côtés vers sa famille."
+    "instruction": "Est-ce un rectangle ? Les carrés sont aussi des rectangles. Relie chaque forme à la bonne boîte."
   },
   "G3-341": {
     "title": "Chasse aux angles droits",
-    "instruction": "Entoure chaque angle DROIT (ceux avec le petit carré)."
+    "instruction": "Entoure chaque angle droit (un coin comme celui d'un carré)."
   },
   "G3-342": {
     "title": "Combien d'axes de symétrie ?",

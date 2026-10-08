@@ -2901,5 +2901,20 @@
    "no": "Den korte søylen viser brøken. Sett ring rundt søylen som viser det HELE.",
    "fi": "Pieni palkki näyttää murtoluvun. Ympyröi palkki, joka näyttää KOKONAISEN."
   }
+ },
+ "G3-337": {
+  "3": {
+   "en": "Add the side lengths all the way around. Write the perimeter.",
+   "de": "Addiere die Seitenlängen einmal rundherum. Schreibe den Umfang auf.",
+   "es": "Suma las medidas de los lados alrededor de la figura. Escribe el perímetro.",
+   "fr": "Additionne les longueurs des côtés tout autour. Écris le périmètre.",
+   "it": "Somma le lunghezze dei lati tutto intorno. Scrivi il perimetro.",
+   "pt": "Some as medidas dos lados em toda a volta. Escreva o perímetro.",
+   "nl": "Tel de lengtes van alle zijden bij elkaar op. Schrijf de omtrek op.",
+   "sv": "Lägg ihop sidornas längder hela vägen runt. Skriv omkretsen.",
+   "da": "Læg sidernes længder sammen hele vejen rundt. Skriv omkredsen.",
+   "no": "Legg sammen sidelengdene hele veien rundt. Skriv omkretsen.",
+   "fi": "Laske sivujen pituudet yhteen koko kierroksen ympäri. Kirjoita piiri."
+  }
  }
 }

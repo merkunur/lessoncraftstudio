@@ -625,7 +625,8 @@
   },
   "G2-248": {
     "title": "Das Spiegelbild finden",
-    "instruction": "Kreise das Bild ein, das auf beiden Seiten gleich aussieht."
+    "instruction": "Kreise das Bild ein, das auf beiden Seiten gleich aussieht.",
+    "printTitle": "Das symmetrische Bild finden"
   },
   "G2-249": {
     "title": "Wie spät ist es?",
@@ -757,11 +758,11 @@
   },
   "G3-340": {
     "title": "Vierecks-Familie",
-    "instruction": "Verbinde jedes Viereck mit seiner Familie."
+    "instruction": "Ist es ein Rechteck? Auch Quadrate sind Rechtecke. Verbinde jede Form mit dem richtigen Kasten."
   },
   "G3-341": {
     "title": "Jagd auf rechte Winkel",
-    "instruction": "Kreise jeden RECHTEN Winkel ein. Du erkennst ihn am kleinen Quadrat."
+    "instruction": "Kreise jeden rechten Winkel ein (eine Ecke wie beim Quadrat)."
   },
   "G3-342": {
     "title": "Wie viele Spiegelachsen?",

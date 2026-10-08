@@ -134,10 +134,6 @@
       ],
       "3": [
         {
-          "copy": 1,
-          "theme": "fruits"
-        },
-        {
           "copy": 2,
           "theme": "valentine bw 2"
         },
@@ -155,5 +151,6 @@
         }
       ]
     }
-  }
+  },
+  "_dropped": "2026-10-08: G3-320 level 3 fruits copy dropped — same title and slug as the published June page fractions-difficile-fruits-g3320"
 }

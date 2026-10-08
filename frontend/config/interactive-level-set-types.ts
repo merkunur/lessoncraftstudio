@@ -18,6 +18,8 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'days-and-months',     // Days and Months (2026-10-06): tap the names in order / the missing name / the full name of a short form
   'division-with-remainder', // Division with Remainders (2026-10-06): tap the answer with the right remainder
   'digraphs',
+  'doubles-halves',      // Doubles and Halves (2026-10-07): tap the double / the half / the missing number
+  'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
   'feelings',
   'cloze',
   'color-by-number',     // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version

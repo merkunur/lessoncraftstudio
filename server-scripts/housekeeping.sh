@@ -16,6 +16,7 @@
 #                                           reconcile-deck-canonicals.js, strip-deck-hreflang.js).
 #                                           Never read back; publish-wave step 4 adds one per deck
 #                                           on EVERY wave. 14 d keeps a rollback window.
+#   1c. _staging/*.preband-backup > 7 d — publish-wave preband copies of each staged wave.
 #   2. .publish-cli-staging/batch-* > 7 d — dry-run extraction dirs (bulk.js prunes them itself
 #                                           after a REAL publish since 6f7c9e04; dry-run-only
 #                                           batches are inspection output and expire here).
@@ -59,6 +60,20 @@ echo "1b. deck.html.precanonical-bak > 14 d in $DECKS"
 find "$DECKS" -type f -name 'deck.html.precanonical-bak' -mtime +14 -printf '%s\0' | sum_files; echo
 if [ $DRY = 0 ]; then
   find "$DECKS" -type f -name 'deck.html.precanonical-bak' -mtime +14 -delete
+fi
+
+# 1c. *.preband-backup dirs in the wave staging root older than 7 days — publish-wave STEP 1 (preband) copies every
+#     staged wave folder before re-banding it, beside the folder, and nothing removed them: 35 of them (2.4 GB) had
+#     piled up in _staging by 2026-10-08 (Level Set waves dh / ff / d2d / …). The published decks are the record.
+STAGE_ROOT=/var/www/lcs-media/_staging
+echo ""
+echo "1c. *.preband-backup > 7 d in $STAGE_ROOT"
+if [ -d "$STAGE_ROOT" ]; then
+  find "$STAGE_ROOT" -mindepth 1 -maxdepth 1 -type d -name '*.preband-backup' -mtime +7 -print0 |
+  while IFS= read -r -d '' b; do
+    echo "   $(basename "$b"): $(du -sm "$b" 2>/dev/null | cut -f1) MB"
+    [ $DRY = 0 ] && rm -rf -- "$b"
+  done
 fi
 
 # 2. stale publish-cli staging batches — remove extraction dirs, keep reports

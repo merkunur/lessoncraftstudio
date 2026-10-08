@@ -553,11 +553,13 @@
   },
   "G2-230": {
     "title": "Hitta delen",
-    "instruction": "Ringa in figuren som visar bråket."
+    "instruction": "Ringa in figuren som visar bråket.",
+    "printTitle": "Hitta bråket"
   },
   "G2-231": {
     "title": "Delkompisar",
-    "instruction": "Dra ett streck från varje bild till rätt bråk."
+    "instruction": "Dra ett streck från varje bild till rätt bråk.",
+    "printTitle": "Bråkkompisar"
   },
   "G2-232": {
     "title": "Lika delar?",
@@ -673,23 +675,28 @@
   },
   "G3-315": {
     "title": "Vad heter delen?",
-    "instruction": "Skriv bråket som de färgade delarna visar."
+    "instruction": "Skriv bråket som de färgade delarna visar.",
+    "printTitle": "Vilket bråk?"
   },
   "G3-316": {
     "title": "Färglägg delen",
-    "instruction": "Måla rätt antal delar för att visa varje bråk."
+    "instruction": "Måla rätt antal delar för att visa varje bråk.",
+    "printTitle": "Färglägg bråket"
   },
   "G3-317": {
     "title": "Delar på linjen",
-    "instruction": "Pricken markerar ett bråk. Ringa in det bråket."
+    "instruction": "Pricken markerar ett bråk. Ringa in det bråket.",
+    "printTitle": "Bråk på tallinjen"
   },
   "G3-318": {
     "title": "Deltvillingar",
-    "instruction": "Dra ett streck från varje bild till bråket som är lika mycket värt."
+    "instruction": "Dra ett streck från varje bild till bråket som är lika mycket värt.",
+    "printTitle": "Bråktvillingar"
   },
   "G3-319": {
     "title": "Vilken är större?",
-    "instruction": "Titta på båda staplarna. Ringa in det större bråket."
+    "instruction": "Titta på båda staplarna. Ringa in det större bråket.",
+    "printTitle": "Vilket är större?"
   },
   "G3-320": {
     "title": "Del av gruppen",

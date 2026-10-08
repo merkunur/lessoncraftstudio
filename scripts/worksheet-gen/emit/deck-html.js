@@ -245,7 +245,7 @@ function buildDeckHtml(o) {
     '</head>',
     '<body>',
     '<main id="lcs-app" aria-label="__APP_ARIA_LABEL__">',
-    '  <h1>' + esc(strings.title) + (themeName ? ' — ' + esc(themeName) : '') + '</h1>',
+    '  <h1>' + esc(strings.printTitle || strings.title) + (themeName ? ' — ' + esc(themeName) : '') + '</h1>',
     '  <p class="lcs-instruction">' + esc(ia ? ia.instruction : strings.instruction) + '</p>',
     '  <div class="lcs-worksheet">',
     (ia ? '    ' + ia.stageOpen : null),

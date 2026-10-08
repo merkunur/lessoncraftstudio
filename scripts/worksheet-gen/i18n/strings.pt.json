@@ -681,7 +681,8 @@
   },
   "G3-317": {
     "title": "Frações na reta",
-    "instruction": "O ponto marca uma fração. Circule essa fração."
+    "instruction": "O ponto marca uma fração. Circule essa fração.",
+    "printTitle": "Frações na reta numérica"
   },
   "G3-318": {
     "title": "Frações gêmeas",

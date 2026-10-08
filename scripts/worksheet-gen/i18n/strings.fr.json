@@ -681,7 +681,8 @@
   },
   "G3-317": {
     "title": "Fractions sur la ligne",
-    "instruction": "Le point marque une fraction. Entoure cette fraction."
+    "instruction": "Le point marque une fraction. Entoure cette fraction.",
+    "printTitle": "Fractions sur la droite graduée"
   },
   "G3-318": {
     "title": "Fractions jumelles",

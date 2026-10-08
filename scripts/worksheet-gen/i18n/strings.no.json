@@ -681,7 +681,8 @@
   },
   "G3-317": {
     "title": "Brøker på linja",
-    "instruction": "Prikken markerer en brøk. Sett ring rundt den brøken."
+    "instruction": "Prikken markerer en brøk. Sett ring rundt den brøken.",
+    "printTitle": "Brøker på tallinjen"
   },
   "G3-318": {
     "title": "Brøktvillinger",

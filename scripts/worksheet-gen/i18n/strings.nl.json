@@ -1970,7 +1970,8 @@
   },
   "G1-310": {
     "title": "Honderdveld puzzelstukken: vul de getallen in",
-    "instruction": "Op elk stuk staat één getal. Schrijf elk ontbrekend getal: 1 meer naar rechts, 1 minder naar links, 10 meer eronder en 10 minder erboven."
+    "instruction": "Op elk stuk staat één getal. Schrijf elk ontbrekend getal: 1 meer naar rechts, 1 minder naar links, 10 meer eronder en 10 minder erboven.",
+    "printTitle": "Puzzelstukken van het honderdveld: vul de getallen in"
   },
   "G2-315": {
     "title": "Spellingregel van de week: {UNIT}",

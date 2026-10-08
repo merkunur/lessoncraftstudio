@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G1-348',
   slug: 'hundreds-chart-puzzles-find-the-wrong-number',
-  difficulty: { 1: D, 2: D, 3: D },
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('error'),
+  // Level Set 2026-10-08: real easier / harder levels (level 2 = the published config) — level 1 errors one step away (±1, ±10), level 3 the subtle ones (a diagonal neighbour ±9 / ±11, a digit swap)
+  difficulty: { 1: { ...D, errorKinds: ['pm1', 'pm10'] }, 2: D, 3: { ...D, errorKinds: ['pm9', 'pm11', 'swap'] } },
   i18n: { en: { title: "Find the Wrong Number on the Piece", instruction: "One number on each piece is wrong. Circle it and write the right number in the box." } },
 };

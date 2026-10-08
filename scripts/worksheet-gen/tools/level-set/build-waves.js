@@ -110,7 +110,9 @@ function themelessWaves() {
     for (const [id, face] of Object.entries(cfg.faces)) {
       const spec = loadType(id);
       if (!cfg.include(loc, id, null)) continue;
-      const units = [null, ...((spec.unitAxis && typeof spec.unitAxis.units === 'function' && spec.unitAxis.units(loc)) || [])];
+      // cfg.noUnits (Hundreds Chart Puzzles, 2026-10-08): every copy on the exemplar range — a level may name its own
+      // chart, and a unit in the deck's title would then name the wrong one
+      const units = cfg.noUnits ? [null] : [null, ...((spec.unitAxis && typeof spec.unitAxis.units === 'function' && spec.unitAxis.units(loc)) || [])];
       const wholesOf = (lv, unit, sv, copy) => {
         const seed = instanceSeed({ typeId: spec.id, theme: null, difficulty: lv, seedEpoch: 1, variant: sv, unit });
         let meta = null;

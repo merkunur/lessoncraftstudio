@@ -54,6 +54,16 @@ const { chartFragment, chartOutline, guideValues, UNITS, shapeInfo, valueAt } = 
 const C3 = require('../../templates/components-b3.js');
 const { chartCompass } = C3;
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
+const { makeRng } = require('../../lib/rng.js');
+
+/** Level Set 2026-10-08: what a page ASKS (build-waves compares copies by these numbers) */
+function asksOf(m) {
+  if (m.mode === 'jumps') return m.chains.map((c) => c.start + '>' + c.answer);
+  if (m.mode === 'riddle') return m.riddles.map((r) => String(r.answer));
+  if (m.mode === 'distance') return m.pairs.map((p) => p.a + '>' + p.b);
+  if (m.mode === 'error') return m.pieces.map((p) => p.origin + ':' + p.wrongValue);
+  return (m.pieces || []).flatMap((p) => p.values || []).map(String);
+}
 
 const BANK = 'hundreds-chart-puzzles';
 const COLS = 10;
@@ -128,7 +138,7 @@ const ERROR_KINDS = ['pm1', 'pm10', 'pm9', 'pm11', 'swap'];
 const G2_COMPASS_CHIP = 36;   // the G2 element floor; the base's d1 legend keeps its own 32 (byte-identical)
 
 function faceUnit(d, bankLoc, unit) {
-  const u = unit || bankLoc.exemplar;
+  const u = d.unitOverride || unit || bankLoc.exemplar;   // Level Set 2026-10-08: a level may name its chart
   const U = UNITS[u];
   if (!U) throw new Error(`G1-310 ${d.mode}: unknown unit "${u}" (a key of UNITS: ${Object.keys(UNITS).join(', ')})`);
   if (U.g2Only && !FACE_G2.has(d.mode)) throw new Error(`G1-310 ${d.mode}: unit "${u}" is G2-face-only (a G1 face refuses it)`);
@@ -198,12 +208,12 @@ function buildPlace(G, items) {
   const rowW = frags.reduce((n, f) => n + f.width, 0) + (frags.length - 1) * d.pieceGap;
   if (rowW > 675) throw new Error(`G1-310 place: the piece row is ${rowW} > 675`);
   const targets = frags.map((f, k) => ({ k: k + 1, values: f.meta.values }));
-  const board = chartOutline({ start: U.start, end: U.end, step: U.step, cell, guides: d.guides, targets, fontSize: d.boardFont });
+  const board = chartOutline({ start: U.start, end: U.end, step: U.step, cell, guides: d.guides, targets, fontSize: d.boardFont, showAnswers: !!G.keyFill });
   const inner = `<div style="display:flex;justify-content:center">${board.svg}</div>` +
     `<div style="display:flex;justify-content:center;gap:${d.pieceGap}px">` +
     frags.map((f, k) => `<span data-lcs-piece="${k + 1}" style="display:inline-flex">${f.svg}</span>`).join('') + `</div>`;
   const stamps = `data-lcs-pieces-n="${placed.length}" data-lcs-guides="${d.guides}" data-lcs-cellpx="${d.pieceCell}" data-lcs-boardpx="${cell}"`;
-  return { inner, stamps, meta: { pieces: frags.map((f) => f.meta), boardCell: cell } };
+  return { inner, stamps, meta: { pieces: frags.map((f) => f.meta), boardCell: cell, guides: d.guides } };
 }
 
 /* ---------------- F2 jumps ---------------- */
@@ -247,7 +257,9 @@ function buildJumps(G, items) {
   const { d, U } = G;
   const chains = items || generateChains(G);
   const cards = chains.map((ch) => stage(C3.jumpChain({ start: ch.start, moves: ch.moves, step: U.step, answer: ch.answer == null ? null : ch.answer, showSteps: !!d.showSteps, pointer: d.pointer !== false, chip: d.chip, gap: d.gap })));
-  const inner = chartCompass({ step: U.step, chip: G2_COMPASS_CHIP }) + gridWrap(cardGrid({ cards, cols: GRID_COLS, rows: cards.length / GRID_COLS, numbered: true }));
+  // a chain of 4 arrows does not fit a half-width card (Level Set 2026-10-08): d.cols 1 lays the chains in one column
+  const cols = d.cols || GRID_COLS;
+  const inner = chartCompass({ step: U.step, chip: G2_COMPASS_CHIP }) + gridWrap(cardGrid({ cards, cols, rows: cards.length / cols, numbered: true }));
   const stamps = `data-lcs-items-n="${chains.length}" data-lcs-arrows="${d.arrows}" data-lcs-noreverse="${d.noReverse ? 1 : 0}"`;
   return { inner, stamps, meta: { chains } };
 }
@@ -261,7 +273,21 @@ function generateRiddles(G) {
     let ok = true;
     for (let i = 0; i < d.items; i++) {
       let rd = null;
-      for (let t = 0; t < 80 && !rd; t++) {
+      // Level Set 2026-10-08: kinds [1,1] = both clues sideways (from the left and from the right of the square),
+      // [10,10] = both vertical (from above and from below); [10,1] (the published face) keeps its draws below
+      const same = d.kinds && d.kinds.length === 2 && d.kinds[0] === d.kinds[1] ? d.kinds[0] : null;
+      for (let t = 0; t < 80 && !rd && same != null; t++) {
+        const r = same === 10 ? rng.int(1, rows - 2) : rng.int(0, rows - 1);
+        const c = same === 1 ? rng.int(1, COLS - 2) : rng.int(0, COLS - 1);
+        const target = valAt(U, r, c);
+        const pair = same === 1
+          ? [{ start: valAt(U, r, c - 1), move: 'R' }, { start: valAt(U, r, c + 1), move: 'L' }]
+          : [{ start: valAt(U, r - 1, c), move: 'D' }, { start: valAt(U, r + 1, c), move: 'U' }];
+        const clues = rng.int(0, 1) ? pair : pair.slice().reverse();
+        const vals = [target, clues[0].start, clues[1].start];
+        if (new Set(vals).size === 3 && vals.every((v) => !used.has(v))) rd = { clues, answer: target };
+      }
+      for (let t = 0; t < 80 && !rd && same == null; t++) {
         const r = rng.int(1, rows - 2), c = rng.int(0, COLS - 1);   // rows 1..rows-2: both tens clues legal
         const target = valAt(U, r, c);
         const tens = rng.pick([{ start: valAt(U, r - 1, c), move: 'D' }, { start: valAt(U, r + 1, c), move: 'U' }]);
@@ -291,11 +317,12 @@ function buildRiddle(G, items) {
 }
 
 /* ---------------- F4 error ---------------- */
-function wrongCandidates(U, trueVal, forbidden) {
+function wrongCandidates(U, trueVal, forbidden, kinds = ERROR_KINDS) {
   const out = [];
   const push = (v) => { if (Number.isInteger(v) && v >= U.start && v <= U.end && v !== trueVal && !forbidden.has(v) && !out.includes(v)) out.push(v); };
-  for (const k of [1, 10, 9, 11]) { push(trueVal + k * U.step); push(trueVal - k * U.step); }
-  push(digitSwap(trueVal));
+  // the level's kinds only (Level Set 2026-10-08: level 1 one step away, level 3 the subtle ones); all kinds = the published order
+  for (const k of [1, 10, 9, 11]) if (kinds.includes('pm' + k)) { push(trueVal + k * U.step); push(trueVal - k * U.step); }
+  if (kinds.includes('swap')) push(digitSwap(trueVal));
   return out;
 }
 function generateErrorPieces(G) {
@@ -316,8 +343,15 @@ function generateErrorPieces(G) {
       const anchorIdx = wrongIdx === p.anchorIdx ? rng.pick(cells.map((_, k) => k).filter((k) => k !== wrongIdx)) : p.anchorIdx;
       const o = posOf(U, p.origin);
       const trueVal = valAt(U, o.r + cells[wrongIdx][0], o.c + cells[wrongIdx][1]);
-      const cands = wrongCandidates(U, trueVal, forbidden);
+      let cands = wrongCandidates(U, trueVal, forbidden, d.errorKinds || ERROR_KINDS);
       if (!cands.length) { ok = false; return null; }
+      // a NEW page keeps the wrong number inside the piece's own range when it can: out of range it is the piece's
+      // largest or smallest number, and "tap the largest" won 37% on the screen (guessability 2026-10-09)
+      if (!G.published) {
+        const tv = cells.map(([cr, cc]) => valAt(U, o.r + cr, o.c + cc));
+        const inside = cands.filter((v) => v > Math.min(...tv) && v < Math.max(...tv));
+        if (inside.length) cands = inside;
+      }
       const wrongValue = rng.pick(cands);
       forbidden.add(wrongValue);
       return { ...p, anchorIdx, wrongIdx, wrongValue };
@@ -337,7 +371,7 @@ function buildError(G, items) {
     return stage(frag.svg + box, `;gap:${d.gap}px;justify-content:flex-start;padding-left:${d.padLeft}px`);   // padLeft keeps the piece clear of the 30 px badge under 3-line chrome (measured: centred = 27 px)
   });
   const inner = gridWrap(cardGrid({ cards, cols: GRID_COLS, rows: cards.length / GRID_COLS, numbered: true }));
-  const stamps = `data-lcs-pieces-n="${pieces.length}" data-lcs-clean-n="${d.cleanPieces || 0}" data-lcs-cellpx="${d.cell}" data-lcs-kinds="${ERROR_KINDS.join(',')}"`;
+  const stamps = `data-lcs-pieces-n="${pieces.length}" data-lcs-clean-n="${d.cleanPieces || 0}" data-lcs-cellpx="${d.cell}" data-lcs-kinds="${(d.errorKinds || ERROR_KINDS).join(',')}"`;
   return { inner, stamps, meta: { pieces } };
 }
 
@@ -378,7 +412,7 @@ function buildDistance(G, items) {
 
 function buildFace(bankLoc, d, { locale, unit, items }, ctx) {
   const { u, U } = faceUnit(d, bankLoc, unit);
-  const G = { d, u, U, rows: unitRows(U), rng: ctx.rng, locale };
+  const G = { d, u, U, rows: unitRows(U), rng: ctx.rng, locale, keyFill: !!ctx.keyFill, published: !!ctx.published };
   const B = { place: buildPlace, jumps: buildJumps, riddle: buildRiddle, error: buildError, distance: buildDistance }[d.mode];
   if (!B) throw new Error('G1-310: unknown mode ' + d.mode);
   const { inner, stamps, meta } = B(G, items || null);
@@ -647,6 +681,14 @@ function verifyFaceInPage() {
     if (items.length > 1 && (downs.size === 1 || rights.size === 1)) fails.push('distance: a counter is constant across the page');
   } else fails.push('unknown mode ' + mode);
   root.querySelectorAll('.ws-chart-compass').forEach((s) => { if (s.querySelector('[data-lcs-answer],[data-lcs-given],[data-lcs-anchor]')) fails.push('the compass carries ground truth'); });
+  // every item sits INSIDE its card (2026-10-08: a 4-arrow chain ran past both edges of a half-width card)
+  root.querySelectorAll('[data-lcs-chain],[data-lcs-riddle],[data-lcs-dist],[data-lcs-prim="chart-fragment"]').forEach((it, i) => {
+    const card = it.closest('.ws-card'); if (!card) return;
+    const a = it.getBoundingClientRect(), b = card.getBoundingClientRect();
+    const kids = [...it.querySelectorAll('*')].map((k) => k.getBoundingClientRect()).filter((r) => r.width > 0);
+    const L = Math.min(a.left, ...kids.map((r) => r.left)), R = Math.max(a.right, ...kids.map((r) => r.right));
+    if (L < b.left + 2 || R > b.right - 2) fails.push(`item ${i + 1} runs past its card (${Math.round(L - b.left)}px left, ${Math.round(b.right - R)}px right)`);
+  });
   const strips = root.querySelectorAll('.ws-chart-compass').length;
   if (mode === 'place' || mode === 'error') { if (strips) fails.push(`${mode}: a compass on a face that declares none`); } else if (strips !== 1) fails.push(`${mode}: ${strips} compass strips, want 1`);
   return fails;
@@ -659,6 +701,8 @@ module.exports = {
   assetClass: 'numeral-charts',
   exerciseType: 'hundreds-chart-puzzles',
   themeAxis: { applicable: false },
+  // Level Set 2026-10-08: the screen version + key (each face file names its own mode)
+  interactive: require('../../lib/hundreds-screen.js').interactiveFor('base'),
   unitAxis: {
     applicable: true,
     units: () => ['1-100', '0-99', '1-120', '101-200', 'tens'],
@@ -680,9 +724,22 @@ module.exports = {
     },
   },
 
+  /** Level Set copies: what a page asks */
+  levelSetWords(m) { return (m.asks || []).map(String); },
+
   build({ difficulty, locale, unit }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { locale: loc, unit }, ctx);
+    // Level Set 2026-10-08: level 2 copy 1 is the published page; every other page gets a screen version + key
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale, unit }, { ...ctx, interactive: false, answerKey: false });
+      // the key prints every answer: the same page again from a fresh stream of the same seed
+      const rebuildFilled = () => this.build({ difficulty, locale, unit }, { ...ctx, rng: makeRng(ctx.rng.seed), interactive: false, answerKey: false, keyFill: true });
+      return require('../../lib/hundreds-screen.js').screenOrKey(built, { ...ctx, locale: loc, rebuildFilled });
+    }
+    const b = this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { locale: loc, unit }, { ...ctx, published });
+    if (!published) b.meta = { ...b.meta, asks: asksOf(b.meta) };
+    return b;
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones.
@@ -714,10 +771,10 @@ module.exports = {
     if (!placed) throw new Error(`G1-310: no legal page for ${JSON.stringify(d.shapes)} on ${u} (anchorAt ${d.anchorAt})`);
 
     const cards = [];
-    const meta = { unit: u, start: U.start, end: U.end, step: U.step, pieces: [] };
+    const meta = { mode: 'base', unit: u, start: U.start, end: U.end, step: U.step, pieces: [] };
     const seen = new Set();
     for (const p of placed) {
-      const frag = chartFragment({ shape: p.shape, rot: p.rot, origin: p.origin, anchorIdx: p.anchorIdx, cell: d.cell, start: U.start, end: U.end, step: U.step, fontSize: d.fontSize, printed: 'anchor' });
+      const frag = chartFragment({ shape: p.shape, rot: p.rot, origin: p.origin, anchorIdx: p.anchorIdx, cell: d.cell, start: U.start, end: U.end, step: U.step, fontSize: d.fontSize, printed: ctx.keyFill ? 'all' : 'anchor' });
       for (const v of frag.meta.values) { if (seen.has(v)) throw new Error('G1-310: value ' + v + ' twice on the page'); seen.add(v); }
       cards.push(`<div class="ws-card-stage" style="padding:0">${frag.svg}</div>`);
       meta.pieces.push({ shape: p.shape, rot: p.rot, origin: p.origin, anchor: p.anchor, values: frag.meta.values });

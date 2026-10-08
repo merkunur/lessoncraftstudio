@@ -29,7 +29,7 @@
 // dir · id · fileSlug · baseFile · srcLevel · overrides · EN title · EN instruction · extra?
 const ROWS = [
   ['g1', 'G1-347', 'hundreds-chart-puzzles-where-does-the-piece-go', 'G1-310-hundreds-chart-puzzles.js', 2,
-    { mode: 'place', pieces: 4, piecePool: ['sq3', 'plus', 'L3', 'T3', 'S', 'Z', 'sq3-holes'], pieceCell: 48, pieceFont: 20, pieceGap: 22, boardCell: 46, boardFont: 16, guides: 'edges' },
+    { mode: 'place', pieces: 4, piecePool: ['sq3', 'plus', 'L3', 'T3', 'S', 'Z', 'sq3-holes'], pieceCell: 48, pieceFont: 20, pieceGap: 22, boardCell: 52, boardFont: 17, guides: 'edges' }   // 2026-10-08: board 46 → 52 (the page left a 22% empty band),
     'Where Does the Piece Go?',
     'Read the numbers on each piece, find its place on the empty chart and write them in.'],
   ['g2', 'G2-321', 'hundreds-chart-puzzles-jump-puzzles', 'G1-310-hundreds-chart-puzzles.js', 2,
@@ -52,5 +52,7 @@ const ROWS = [
     'Count how many jumps down and how many jumps right take you from the first number to the second.',
     { gradeBand: 'G2' }],
 ];
+// ⚠ Level Set 2026-10-08: the five type files carry hand-made level 1 / level 3 tables (`difficulty: {1, 2: D, 3}`);
+// a re-run of gen-b3var-specs must keep them (it writes {1: D, 2: D, 3: D}).
 const HANDWRITTEN = [];
 module.exports = { ROWS, HANDWRITTEN };

@@ -2282,7 +2282,8 @@
   },
   "G2-323": {
     "title": "Hur långt ifrån? Räkna hoppen i hundrarutan",
-    "instruction": "Räkna hur många hopp nedåt och hur många hopp åt höger du behöver för att komma från det första talet till det andra."
+    "instruction": "Räkna hur många hopp nedåt och hur många hopp åt höger du behöver för att komma från det första talet till det andra.",
+    "printTitle": "Hur långt ifrån varandra? Räkna hoppen i hundrarutan"
   },
   "G2-324": {
     "title": "Vilket är rätt? {UNIT}",

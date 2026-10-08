@@ -237,6 +237,29 @@ async function playSelect(page, html, oracle, locale) {
     st = await state();
     if (!st.celebrate) fails.push('the right choice did not reach the celebration');
     if (st.states.some((s, i) => (right[i] ? s !== 'right' : s))) fails.push('the right choice left wrong marks: ' + st.states.join(','));
+    if (B.ctx && B.ctx.countGroups) {
+      // count groups (Fractions shading): ANY parts of the right number are right — colour the LAST parts of each
+      // shape instead; then one shape with one part too many must fail
+      const reset = () => page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
+      const groups = {};
+      B.items.forEach((it, i) => { const g = it.meta['data-lcs-group']; (groups[g] = groups[g] || []).push(i); });
+      const want = (g) => right.filter((x, i) => x && B.items[i].meta['data-lcs-group'] === g).length;
+      await reset();
+      for (const g of Object.keys(groups)) for (const i of groups[g].slice(-want(g))) await tap(i);
+      await page.click('#lcs-check');
+      await new Promise((r) => setTimeout(r, 600));
+      st = await state();
+      if (!st.celebrate) fails.push('colouring OTHER parts of the right number did not reach the celebration');
+      await reset();
+      const g0 = Object.keys(groups)[0];
+      for (const g of Object.keys(groups)) for (const i of groups[g].slice(0, want(g) + (g === g0 ? 1 : 0))) await tap(i);
+      await page.click('#lcs-check');
+      await new Promise((r) => setTimeout(r, 600));
+      st = await state();
+      if (st.celebrate) fails.push('a shape with one part too many reached the celebration');
+      if (st.states[groups[g0][0]] !== 'wrong') fails.push('the over-coloured shape was not marked red');
+      continue;
+    }
     // wrong: one item to leave is chosen as well, one item to choose is missed
     await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; document.getElementById('lcs-reset').click(); });
     const leave = right.indexOf(false), miss = right.indexOf(true);
@@ -415,6 +438,7 @@ async function main() {
       const B = JSON.parse(j);
       B.answers = B.kind === 'tap-choice' ? B.answers.map((a, i) => (a + 1) % B.items[i].options.length)
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
+        : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
@@ -424,7 +448,7 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {

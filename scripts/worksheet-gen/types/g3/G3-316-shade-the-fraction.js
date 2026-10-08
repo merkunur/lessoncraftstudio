@@ -19,14 +19,26 @@ module.exports = {
   difficulty: {
     1: { ds: [2, 3, 4], cards: 4 },
     2: { ds: [3, 4, 6, 8], cards: 4 },
-    3: { ds: [4, 6, 8, 9], cards: 6 },
+    // Level Set 2026-10-08: level 3 keeps to the Grade 3 denominators (2, 3, 4, 6, 8 — no ninths), non-unit fractions
+    3: { ds: [6, 8], cards: 6, nonunit: true },
   },
   i18n: {
     en: { title: 'Shade the Fraction', instruction: 'Color the right number of parts to show each fraction.' },
   },
 
-  build({ difficulty }, ctx) {
+  fractionMode: 'shade',
+  // Level Set 2026-10-08: the screen version + answer key of every NEW page (lib/fractions-screen.js)
+  interactive: require('../../lib/fractions-screen.js').interactiveFor('shade', false),
+  levelSetWords(m) { return (m.asks || []).map(String); },
+
+  build({ difficulty, locale }, ctx) {
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/fractions-screen.js').screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2), mode: 'shade' });
+    }
     const d = this.difficulty[difficulty];
+    const asks = [], parsed = [];
     const rng = ctx.rng;
     const cards = [];
     const used = new Set();
@@ -34,12 +46,14 @@ module.exports = {
       let den, num, guard = 0;
       do {
         den = rng.pick(d.ds);
-        num = rng.int(1, den - 1);
+        num = d.nonunit ? rng.int(2, den - 1) : rng.int(1, den - 1);
         guard++;
       } while (used.has(num + '/' + den) && guard < 30);
       used.add(num + '/' + den);
       const shape = rng.pick(den <= 4 ? ['circle', 'bar', 'square'] : ['circle', 'bar', den === 6 || den === 8 || den === 9 ? 'square' : 'bar']);
       const fig = fractionShape({ shape, d: den, shaded: 0, size: shape === 'bar' ? 150 : 130 });
+      asks.push(`${num}/${den}:${den}${shape[0]}`);
+      parsed.push({ n: num, d: den, parts: den, shape });
       cards.push(
         `<div class="ws-card-stage" style="gap:30px" data-lcs-num="${num}" data-lcs-den="${den}">` +
         FRAC(num, den) +
@@ -47,7 +61,7 @@ module.exports = {
         fig.svg + `</div>`
       );
     }
-    return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: {} };
+    return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: published ? {} : { asks }, _cards: { mode: 'shade', items: parsed } };
   },
 
   async verify(page) {

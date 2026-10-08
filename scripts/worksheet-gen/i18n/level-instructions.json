@@ -2886,5 +2886,20 @@
    },
    "fi": "Katso katon kolmea lukua. Kirjoita jokaiseen laskuun puuttuva luku."
   }
+ },
+ "G3-321": {
+  "3": {
+   "en": "The small bar shows the fraction. Circle the bar that shows the WHOLE.",
+   "de": "Der kleine Streifen zeigt den Bruch. Kreise den Streifen ein, der das GANZE zeigt.",
+   "es": "La barra pequeña muestra la fracción. Encierra la barra que muestra el ENTERO.",
+   "fr": "La petite barre montre la fraction. Entoure la barre qui montre l'UNITÉ.",
+   "it": "La barra piccola mostra la frazione. Cerchia la barra che mostra l'INTERO.",
+   "pt": "A barra pequena mostra a fração. Circule a barra que mostra o INTEIRO.",
+   "nl": "De kleine staaf toont de breuk. Omcirkel de staaf die het GEHEEL toont.",
+   "sv": "Den lilla stapeln visar bråket. Ringa in stapeln som visar det HELA.",
+   "da": "Den lille bjælke viser brøken. Indkreds bjælken, der viser DET HELE.",
+   "no": "Den korte søylen viser brøken. Sett ring rundt søylen som viser det HELE.",
+   "fi": "Pieni palkki näyttää murtoluvun. Ympyröi palkki, joka näyttää KOKONAISEN."
+  }
  }
 }

@@ -89,7 +89,7 @@ function label({ x, y, text, size, color, fontFamily, weight, anchor, data }) {
  * thermometer, line plot axes all call this).
  * Returns { svg, xFor } where xFor(value) maps a value to an x coordinate.
  */
-function tickRow({ x, y, w, min, max, tickStep, majorEvery, tickH, majorH, strokeColor, strokeWidth, labelEvery, labelSize, labelColor, fontFamily, labelDy }) {
+function tickRow({ x, y, w, min, max, tickStep, majorEvery, tickH, majorH, strokeColor, strokeWidth, labelEvery, labelSize, labelColor, fontFamily, labelDy, labelText }) {
   const span = max - min;
   const xFor = (v) => x + ((v - min) / span) * w;
   const parts = [];
@@ -104,7 +104,7 @@ function tickRow({ x, y, w, min, max, tickStep, majorEvery, tickH, majorH, strok
     }));
     if (labelEvery && Math.round((v - min) / tickStep) % labelEvery === 0) {
       parts.push(label({
-        x: xFor(v), y: y + (labelDy == null ? majorH : labelDy), text: v,
+        x: xFor(v), y: y + (labelDy == null ? majorH : labelDy), text: labelText && labelText[v] != null ? labelText[v] : v,
         size: labelSize, color: labelColor, fontFamily, weight: 700,
         data: { 'data-lcs-ticklabel': v },
       }));

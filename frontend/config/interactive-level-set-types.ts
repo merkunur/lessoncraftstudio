@@ -21,6 +21,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'doubles-halves',      // Doubles and Halves (2026-10-07): tap the double / the half / the missing number
   'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
   'feelings',
+  'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
   'cloze',
   'color-by-number',     // the illustrated scenes + pictures (K-393/K-394, 2026-10-05): tap-to-colour screen version
   'column-arithmetic',   // Column Addition and Subtraction (2026-10-05): tap the right answer under each column problem

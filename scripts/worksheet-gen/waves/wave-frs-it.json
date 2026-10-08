@@ -1,0 +1,159 @@
+{
+  "id": "wave-frs-it",
+  "_note": "Level Set 2026-10-08: Fractions, fraction of a set. Level 1 one half of small sets, level 2 the published page, level 3 two thirds, three quarters … of the set. Visible to teachers, never indexed; PDF + interactive screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "it"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-233",
+    "G3-320"
+  ],
+  "levels": {
+    "G2-233": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "birds"
+        },
+        {
+          "copy": 2,
+          "theme": "sea life bw"
+        },
+        {
+          "copy": 3,
+          "theme": "flowers"
+        },
+        {
+          "copy": 4,
+          "theme": "travel and holiday bw"
+        },
+        {
+          "copy": 5,
+          "theme": "post office"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "zoo animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "reptiles and Amphibians"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 6,
+          "theme": "birds bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "shapes"
+        },
+        {
+          "copy": 2,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 3,
+          "theme": "4th of July"
+        },
+        {
+          "copy": 4,
+          "theme": "education bw"
+        },
+        {
+          "copy": 5,
+          "theme": "christmas"
+        }
+      ]
+    },
+    "G3-320": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 2,
+          "theme": "farm bw"
+        },
+        {
+          "copy": 3,
+          "theme": "christmas"
+        },
+        {
+          "copy": 4,
+          "theme": "home bw 2"
+        },
+        {
+          "copy": 5,
+          "theme": "furniture"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "sea life bw"
+        },
+        {
+          "copy": 3,
+          "theme": "hospital"
+        },
+        {
+          "copy": 4,
+          "theme": "travel and holiday bw"
+        },
+        {
+          "copy": 5,
+          "theme": "spring"
+        },
+        {
+          "copy": 6,
+          "theme": "Christmas bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "insects and bugs"
+        },
+        {
+          "copy": 2,
+          "theme": "zoo animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "summer"
+        },
+        {
+          "copy": 4,
+          "theme": "birds bw"
+        },
+        {
+          "copy": 5,
+          "theme": "accessories"
+        }
+      ]
+    }
+  }
+}

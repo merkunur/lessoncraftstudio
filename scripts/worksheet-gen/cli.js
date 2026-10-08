@@ -130,7 +130,7 @@ async function generate(args) {
     const interactive = r.interactive
       ? { kind: r.interactive.kind, items: r.interactive.items, marks: r.interactive.marks, instruction: interactiveInstruction(spec, it.locale, it.difficulty), preview: await buildPreviewJpeg(r.interactive.pngPath),
         // the robot gate's oracle needs the page's theme + level (it recomputes the answers from the vocabulary)
-        ctx: { theme: cacheTheme, difficulty: it.difficulty, level3: !!(spec.difficulty[it.difficulty] && spec.difficulty[it.difficulty].level3), ...(spec.interactive.ranksFromAnswers ? { ranksFromAnswers: true } : {}), ...(r.interactive.paint ? { paint: r.interactive.paint, design: r.meta && r.meta.design } : {}) } }
+        ctx: { theme: cacheTheme, difficulty: it.difficulty, level3: !!(spec.difficulty[it.difficulty] && spec.difficulty[it.difficulty].level3), ...(spec.interactive.ranksFromAnswers ? { ranksFromAnswers: true } : {}), ...(spec.interactive.countGroups ? { countGroups: true } : {}), ...(r.interactive.paint ? { paint: r.interactive.paint, design: r.meta && r.meta.design } : {}) } }
       : null;
     const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview, interactive });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf, answerKeyPath: r.interactive ? r.interactive.keyPdfPath : null });

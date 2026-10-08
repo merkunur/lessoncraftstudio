@@ -95,6 +95,8 @@ const CSS = [
   '.lcs-opt[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
   '.lcs-opt[data-state="right"]{box-shadow:0 0 0 6px #2E9E5B;background:rgba(46,158,91,.16)}',
   '.lcs-opt[data-state="wrong"]{box-shadow:0 0 0 6px #D64545;background:rgba(214,69,69,.16)}',
+  '.lcs-opt.lcs-part[aria-pressed="true"]{box-shadow:none;background:rgba(242,120,75,.62)}',
+  '.lcs-opt.lcs-part[data-state="right"]{background:rgba(46,158,91,.55)}.lcs-opt.lcs-part[data-state="wrong"]{background:rgba(214,69,69,.5)}',
   '.lcs-opt[data-state="missed"]{box-shadow:0 0 0 5px #D64545;background:transparent;outline:3px dashed #D64545;outline-offset:3px}',
   '.lcs-tools{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:10px;padding:10px 0;background:var(--cream)}',
   '.lcs-tool{min-width:64px;min-height:52px;border-radius:14px;border:3px solid #146B5E;background:#FFF;color:#146B5E;font-family:"Baloo 2",Nunito,sans-serif;font-size:1.6rem;font-weight:700;cursor:pointer}',
@@ -151,10 +153,11 @@ const JS_SELECT = [
   'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
   'function paint(){var any=false;for(var i=0;i<els.length;i++){els[i].setAttribute("aria-pressed",sel[i]?"true":"false");if(sel[i])any=true}chk.disabled=!any||phase!=="fill"}',
   'function tap(i){if(phase!=="fill")return;sel[i]=!sel[i];paint()}',
-  'function check(){phase="reviewed";var ok=0;for(var i=0;i<els.length;i++){var right=B.answers[i]===sel[i];if(right)ok++;if(sel[i])els[i].setAttribute("data-state",right?"right":"wrong");else if(!right)els[i].setAttribute("data-state","missed")}',
+  'function checkGroups(){var G={},ok=0,tot=0;for(var i=0;i<els.length;i++){var m=B.items[i].meta,g=m["data-lcs-group"];if(!G[g])G[g]={n:0,w:+m["data-lcs-want"],ix:[]};G[g].ix.push(i);if(sel[i])G[g].n++}for(var g in G){tot++;var gr=G[g],right=gr.n===gr.w;if(right)ok++;for(var k=0;k<gr.ix.length;k++){var j=gr.ix[k];if(sel[j])els[j].setAttribute("data-state",right?"right":"wrong")}}return [ok,tot]}',
+  'function check(){phase="reviewed";if(B.ctx&&B.ctx.countGroups){var r=checkGroups();prg.textContent=fmt(S.score,{n:r[0],total:r[1]});chk.hidden=true;rst.hidden=false;paint();if(r[0]===r[1]){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}return}var ok=0;for(var i=0;i<els.length;i++){var right=B.answers[i]===sel[i];if(right)ok++;if(sel[i])els[i].setAttribute("data-state",right?"right":"wrong");else if(!right)els[i].setAttribute("data-state","missed")}',
   'prg.textContent=fmt(S.score,{n:ok,total:els.length});chk.hidden=true;rst.hidden=false;paint();if(ok===els.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
   'function reset(){phase="fill";for(var i=0;i<els.length;i++){sel[i]=false;els[i].removeAttribute("data-state")}prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
-  'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("button");el.type="button";el.className="lcs-opt";el.setAttribute("aria-label",it.label);sel[i]=false;',
+  'function init(){for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("button");el.type="button";el.className=B.ctx&&B.ctx.countGroups?"lcs-opt lcs-part":"lcs-opt";el.setAttribute("aria-label",it.label);sel[i]=false;',
   'el.style.left=it.x+"%";el.style.top=it.y+"%";el.style.width=it.w+"%";el.style.height=it.h+"%";el.addEventListener("click",function(){tap(i)});ov.appendChild(el);els.push(el)})(i)}',
   'chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
   'chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
@@ -282,6 +285,18 @@ function buildInteractive(o) {
   } else if (o.kind === 'tap-select') {
     if (!answers.every((a) => a === true || a === false)) throw new Error('interactive-runtime: tap-select answers must be true / false');
     if (!answers.some((a) => a) || answers.every((a) => a)) throw new Error('interactive-runtime: tap-select needs both kinds of item (something to find, something to leave)');
+    // ctx.countGroups (Fractions 2026-10-08): items are the parts of shapes; a shape is right when the number of
+    // tapped parts is its "want" (any parts). Every item names its group and want; a want leaves parts untapped.
+    if (o.ctx && o.ctx.countGroups) {
+      const G = {};
+      for (const it of items) {
+        const g = it.meta && it.meta['data-lcs-group'], w = Number(it.meta && it.meta['data-lcs-want']);
+        if (g == null || !Number.isInteger(w) || w < 1) throw new Error('interactive-runtime: countGroups item without a group / want');
+        (G[g] = G[g] || { w, n: 0 }).n++;
+        if (G[g].w !== w) throw new Error('interactive-runtime: countGroups group ' + g + ' with two wants');
+      }
+      for (const g of Object.keys(G)) if (G[g].w >= G[g].n) throw new Error('interactive-runtime: countGroups group ' + g + ' wants ' + G[g].w + ' of ' + G[g].n + ' parts');
+    }
     for (const it of items) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: item ' + k + '=' + it[k] + ' outside the page');
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-spell') {

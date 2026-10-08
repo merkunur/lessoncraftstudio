@@ -681,11 +681,11 @@
   },
   "G3-317": {
     "title": "Breuken op de lijn",
-    "instruction": "De stip wijst een breuk aan. Omcirkel welke."
+    "instruction": "De stip wijst een breuk aan. Omcirkel die breuk."
   },
   "G3-318": {
     "title": "Tweelingbreuken",
-    "instruction": "Trek een lijn van elk plaatje naar zijn bijbehorende breuk."
+    "instruction": "Trek een lijn van elk plaatje naar de breuk die evenveel is."
   },
   "G3-319": {
     "title": "Welke is groter?",
@@ -701,7 +701,7 @@
   },
   "G3-322": {
     "title": "Gelijke maatjes",
-    "instruction": "Trek een lijn van elk plaatje naar zijn breuk."
+    "instruction": "Trek een lijn van elk plaatje naar de breuk die evenveel is."
   },
   "G3-323": {
     "title": "Afronden op honderdtal",

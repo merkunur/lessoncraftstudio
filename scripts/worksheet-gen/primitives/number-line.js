@@ -9,7 +9,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, line, circle, el, tickRow } = require('./_svg.js');
 
-function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [] }, ctx) {
+function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const padX = 26;
   // nt20-B `pointers` (G1-248): a coral arrow from a dashed answer box down to
@@ -31,6 +31,8 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
     tickH: 14, majorH: 14,
     strokeColor: t.color.ink, strokeWidth: 2,
     labelEvery, labelSize: 17, labelColor: t.color.ink, fontFamily: t.font.display, labelDy: 26,
+    // labelText (Fractions 2026-10-08): print a tick's label as other text (the fraction line's end reads 1, not 6)
+    ...(labelText ? { labelText } : {}),
   });
   parts.push(ticks.svg);
 

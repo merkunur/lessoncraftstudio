@@ -1,0 +1,159 @@
+{
+  "id": "wave-frs-pt",
+  "_note": "Level Set 2026-10-08: Fractions, fraction of a set. Level 1 one half of small sets, level 2 the published page, level 3 two thirds, three quarters … of the set. Visible to teachers, never indexed; PDF + interactive screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-233",
+    "G3-320"
+  ],
+  "levels": {
+    "G2-233": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "camping"
+        },
+        {
+          "copy": 2,
+          "theme": "sports bw"
+        },
+        {
+          "copy": 3,
+          "theme": "furniture"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 5,
+          "theme": "space"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "zoo animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "spring"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 6,
+          "theme": "classroom bw 2"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "summer"
+        },
+        {
+          "copy": 2,
+          "theme": "birds bw"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "farm bw"
+        },
+        {
+          "copy": 5,
+          "theme": "desserts and sweets"
+        }
+      ]
+    },
+    "G3-320": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "Things That Fly"
+        },
+        {
+          "copy": 2,
+          "theme": "food bw 3"
+        },
+        {
+          "copy": 3,
+          "theme": "clothing"
+        },
+        {
+          "copy": 4,
+          "theme": "nature bw"
+        },
+        {
+          "copy": 5,
+          "theme": "kitchen tools"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "sports bw"
+        },
+        {
+          "copy": 3,
+          "theme": "miscellaneous"
+        },
+        {
+          "copy": 4,
+          "theme": "vegetables bw"
+        },
+        {
+          "copy": 5,
+          "theme": "tools"
+        },
+        {
+          "copy": 6,
+          "theme": "Easter bw"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "music"
+        },
+        {
+          "copy": 2,
+          "theme": "zoo animals bw"
+        },
+        {
+          "copy": 3,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 4,
+          "theme": "apparel bw"
+        },
+        {
+          "copy": 5,
+          "theme": "breakfast"
+        }
+      ]
+    }
+  }
+}

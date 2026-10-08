@@ -1,0 +1,19 @@
+{
+  "id": "wave-008",
+  "_note": "Fractions 2026-10-08: the published sv G3-320 level-2 picture pages (live themes toys,vehicles) rebuilt for the corrected sv instruction; same wave id + theme → same deck ids",
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [
+    "toys",
+    "vehicles"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G3-320"
+  ]
+}

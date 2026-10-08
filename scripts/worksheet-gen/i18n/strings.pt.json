@@ -582,7 +582,7 @@
   },
   "G2-237": {
     "title": "Detetive do gráfico",
-    "instruction": "Use o gráfico para resolver as duas perguntas das figuras."
+    "instruction": "Use o gráfico para resolver as duas perguntas com figuras."
   },
   "G2-238": {
     "title": "Cada figura vale dois",
@@ -732,7 +732,8 @@
   },
   "G3-332": {
     "title": "Barras de escala grande",
-    "instruction": "Cuidado — a escala conta de 5 em 5! Escreva o valor de cada barra."
+    "instruction": "Cuidado — a escala conta de 5 em 5! Escreva o valor de cada barra.",
+    "printTitle": "Barras de 5 em 5"
   },
   "G3-333": {
     "title": "Cada figura vale 5",
@@ -744,7 +745,8 @@
   },
   "G3-335": {
     "title": "Marcas da metade",
-    "instruction": "Conte os X acima de cada número. Escreva quantos são."
+    "instruction": "Conte os X acima de cada número. Escreva quantos são.",
+    "printTitle": "Metades"
   },
   "G3-337": {
     "title": "Ande pela borda",

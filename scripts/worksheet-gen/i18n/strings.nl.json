@@ -417,7 +417,7 @@
   },
   "G1-144": {
     "title": "De hoogste staaf",
-    "instruction": "Kijk naar de staven. Omcirkel degene met de meeste."
+    "instruction": "Kijk naar de staven. Omcirkel het plaatje met de hoogste staaf."
   },
   "G1-146": {
     "title": "Sorteren en tellen",
@@ -593,7 +593,8 @@
   },
   "G2-240": {
     "title": "Lees de lijngrafiek",
-    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel."
+    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel.",
+    "printTitle": "Lees de kruisjesgrafiek"
   },
   "G2-241": {
     "title": "Vormensorteerder",
@@ -731,7 +732,8 @@
   },
   "G3-332": {
     "title": "Grote schaalstaven",
-    "instruction": "Let op — de schaal telt met 5! Schrijf de waarde van elke staaf op."
+    "instruction": "Let op — de schaal gaat met sprongen van 5! Schrijf de waarde van elke staaf op.",
+    "printTitle": "Staven in sprongen van 5"
   },
   "G3-333": {
     "title": "Elk plaatje is 5",
@@ -743,7 +745,8 @@
   },
   "G3-335": {
     "title": "Halverwegemarkeringen",
-    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel."
+    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel.",
+    "printTitle": "Halven"
   },
   "G3-337": {
     "title": "Loop langs de rand",

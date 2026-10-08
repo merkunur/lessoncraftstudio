@@ -733,7 +733,8 @@
   },
   "G3-332": {
     "title": "Barre a grande scala",
-    "instruction": "Attento: la scala conta di 5! Scrivi il valore di ogni barra."
+    "instruction": "Attenzione: la scala va di 5 in 5! Scrivi il valore di ogni barra.",
+    "printTitle": "Barre di 5 in 5"
   },
   "G3-333": {
     "title": "Ogni immagine vale 5",
@@ -745,7 +746,8 @@
   },
   "G3-335": {
     "title": "Segni a metà strada",
-    "instruction": "Conta le X sopra ogni numero. Scrivi quante sono."
+    "instruction": "Conta le X sopra ogni numero. Scrivi quante sono.",
+    "printTitle": "Le metà"
   },
   "G3-337": {
     "title": "Cammina sul bordo",

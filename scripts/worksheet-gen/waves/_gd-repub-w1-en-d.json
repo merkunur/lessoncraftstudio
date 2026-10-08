@@ -1,0 +1,20 @@
+{
+  "id": "wave-001",
+  "_note": "Graphs and Data 2026-10-08: every published page rebuilt — the page redesigned to use the whole page (half of it was empty), look-alike pictures replaced, every plotted number asked, the table Sort and Count names, native review; same wave id → same deck ids",
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [
+    "animals",
+    "shapes"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G1-144",
+    "G3-335"
+  ]
+}

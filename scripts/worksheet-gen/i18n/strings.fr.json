@@ -414,7 +414,8 @@
   },
   "G1-143": {
     "title": "Lire le graphique",
-    "instruction": "Lis chaque barre. Écris son nombre."
+    "instruction": "Lis chaque barre. Écris son nombre.",
+    "printTitle": "Lire le diagramme en barres"
   },
   "G1-144": {
     "title": "La barre la plus haute",
@@ -594,7 +595,7 @@
   },
   "G2-240": {
     "title": "Lire le diagramme",
-    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien."
+    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien il y en a."
   },
   "G2-241": {
     "title": "Trieur de formes",
@@ -731,7 +732,8 @@
   },
   "G3-332": {
     "title": "Barres à grande échelle",
-    "instruction": "Attention — l'échelle compte de 5 en 5 ! Écris la valeur de chaque barre."
+    "instruction": "Attention — l'échelle compte de 5 en 5 ! Écris la valeur de chaque barre.",
+    "printTitle": "Barres de 5 en 5"
   },
   "G3-333": {
     "title": "Chaque image vaut 5",
@@ -743,7 +745,8 @@
   },
   "G3-335": {
     "title": "Marques de mi-chemin",
-    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien."
+    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien il y en a.",
+    "printTitle": "Les demis"
   },
   "G3-337": {
     "title": "Le tour du contour",

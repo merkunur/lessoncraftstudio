@@ -421,11 +421,11 @@
   },
   "G1-146": {
     "title": "Sortér og tæl",
-    "instruction": "Tæl hver slags i stribben. Skriv det samlede antal i tabellen."
+    "instruction": "Tæl hver slags i striben. Skriv det samlede antal i tabellen."
   },
   "G1-147": {
     "title": "Tæl og tegn diagram",
-    "instruction": "Læs antallene. Farv en rude i diagrammet for hver."
+    "instruction": "Læs antallene. Farv lige så mange ruder i diagrammet, som antallet viser."
   },
   "G1-148": {
     "title": "Hele timer",
@@ -733,7 +733,8 @@
   },
   "G3-332": {
     "title": "Store skalasøjler",
-    "instruction": "Pas på — skalaen tæller med 5! Skriv værdien af hver søjle."
+    "instruction": "Pas på — skalaen går i spring på 5! Skriv værdien af hver søjle.",
+    "printTitle": "Søjler i femmerspring"
   },
   "G3-333": {
     "title": "Hvert billede betyder 5",
@@ -745,7 +746,8 @@
   },
   "G3-335": {
     "title": "Halvvejsmærker",
-    "instruction": "Tæl X-mærkerne over hvert tal. Skriv hvor mange."
+    "instruction": "Tæl X-mærkerne over hvert tal. Skriv hvor mange.",
+    "printTitle": "Halve"
   },
   "G3-337": {
     "title": "Gå langs kanten",

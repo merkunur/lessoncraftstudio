@@ -2727,7 +2727,8 @@
   },
   "G3-332": {
     "title": "Big Scale Bars",
-    "instruction": "Careful — the scale counts by 5! Write the value of each bar."
+    "instruction": "Careful — the scale counts by 5! Write the value of each bar.",
+    "printTitle": "Bars That Count by 5"
   },
   "G3-333": {
     "title": "Each Picture Means 5",

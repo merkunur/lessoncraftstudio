@@ -413,7 +413,7 @@
   },
   "G1-143": {
     "title": "Les søylediagrammet",
-    "instruction": "Les hver søyle. Skriv tallet sitt."
+    "instruction": "Les hver søyle. Skriv tallet til søylen."
   },
   "G1-144": {
     "title": "Den høyeste søylen",
@@ -585,7 +585,7 @@
   },
   "G2-238": {
     "title": "Hvert bilde teller dobbelt",
-    "instruction": "Hvert bilde står for 2! Skriv det virkelige antallet for hver rad."
+    "instruction": "Hvert bilde står for 2! Skriv det riktige antallet for hver rad."
   },
   "G2-239": {
     "title": "Fra tellestrek til diagram",
@@ -733,11 +733,12 @@
   },
   "G3-332": {
     "title": "Store søyler",
-    "instruction": "Pass på — skalaen teller med 5! Skriv verdien til hver søyle."
+    "instruction": "Pass på — skalaen går i steg på 5! Skriv verdien til hver søyle.",
+    "printTitle": "Søyler i femmersteg"
   },
   "G3-333": {
     "title": "Hvert bilde betyr 5",
-    "instruction": "Hvert bilde står for 5! Skriv det virkelige antallet for hver rad."
+    "instruction": "Hvert bilde står for 5! Skriv det riktige antallet for hver rad."
   },
   "G3-334": {
     "title": "Bygg diagrammet",
@@ -745,7 +746,8 @@
   },
   "G3-335": {
     "title": "Halvveismerker",
-    "instruction": "Tell kryssene over hvert tall. Skriv hvor mange."
+    "instruction": "Tell kryssene over hvert tall. Skriv hvor mange.",
+    "printTitle": "Halve"
   },
   "G3-337": {
     "title": "Gå rundt kanten",

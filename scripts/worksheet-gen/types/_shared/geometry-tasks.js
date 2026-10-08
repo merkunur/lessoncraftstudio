@@ -327,8 +327,9 @@ function makeGeometryType(cfg) {
             (DRAWN_SOLIDS.includes(k) ? solidSvg(k, 150) : shapeImg(k, 120)) + answerBox({ w: 64, h: 52, answer: SHAPES_3D[k][facet] }) + `</div>`);
           items.push({ ask: k, shape: k, ans: SHAPES_3D[k][facet] });
         });
-        // three solids (no pyramid at level 1 / no sphere at level 3, and no cylinder for edges) sit in one row
-        return out(cardGrid({ cards, cols: cards.length === 3 ? 3 : 2, rows: cards.length === 3 ? 1 : 2 }), { facet });
+        // three solids stack as three wide rows: in three columns the answer box beside a solid was squeezed to a
+        // sliver (live page 2026-10-08 — nothing overflowed, the box just shrank)
+        return out(cardGrid({ cards, cols: cards.length === 3 ? 1 : 2, rows: cards.length === 3 ? 3 : 2 }), { facet });
       }
 
       if (mode === 'solid-real') {
@@ -589,6 +590,9 @@ function makeGeometryType(cfg) {
             }
             if (SOLIDS[k][facet] !== +c.dataset.lcsCount) fails.push(`${k}: ${facet} fact wrong`);
             if (+c.querySelector('[data-lcs-answer]').dataset.lcsAnswer !== SOLIDS[k][facet]) fails.push(`${k}: answer mismatch`);
+            // the answer box keeps its full width (a flex row can shrink it to a sliver without any overflow)
+            const box = c.querySelector('[data-lcs-answer]'), bw = box.getBoundingClientRect().width;
+            if (bw < 56) fails.push(`${k}: answer box squeezed to ${Math.round(bw)}px`);
           });
         } else if (mode === 'solid-real') {
           const left = [...document.querySelectorAll('[data-lcs-left]')].map((e) => e.dataset.lcsLeft);

@@ -605,7 +605,7 @@
   },
   "G2-243": {
     "title": "Rumfigurer omkring os",
-    "instruction": "Tegn en streg fra hver rumfigur til tingen med dens form."
+    "instruction": "Tegn en streg fra hver rumfigur til tingen med samme form."
   },
   "G2-244": {
     "title": "Flad eller rumlig?",
@@ -621,11 +621,13 @@
   },
   "G2-247": {
     "title": "Spejllinje?",
-    "instruction": "Er den stiplede linje en spejllinje? Indkreds fluebenet eller krydset."
+    "instruction": "Er den stiplede linje en symmetriakse? Indkreds fluebenet eller krydset.",
+    "printTitle": "Symmetriakse?"
   },
   "G2-248": {
     "title": "Find spejlbilledet",
-    "instruction": "Indkreds billedet, der er ens på begge sider."
+    "instruction": "Indkreds billedet, der er ens på begge sider.",
+    "printTitle": "Find det symmetriske billede"
   },
   "G2-249": {
     "title": "Hvad er klokken?",
@@ -751,7 +753,7 @@
   },
   "G3-338": {
     "title": "Samme plads, ny form",
-    "instruction": "Indkreds rektanglet, der dækker det SAMME antal kvadrater."
+    "instruction": "Indkreds rektanglet, der dækker det SAMME antal tern."
   },
   "G3-339": {
     "title": "Samme hegn, ny have",
@@ -759,15 +761,16 @@
   },
   "G3-340": {
     "title": "Firkantholdet",
-    "instruction": "Tegn en streg fra hver firsidet figur til dens familie."
+    "instruction": "Er det et rektangel? Kvadrater er også rektangler. Tegn en streg fra hver figur til den rigtige kasse."
   },
   "G3-341": {
     "title": "Ret vinkel-jagt",
-    "instruction": "Indkreds hver RET vinkel (dem med det lille kvadrat)."
+    "instruction": "Sæt ring om hver ret vinkel (et hjørne som i et kvadrat)."
   },
   "G3-342": {
     "title": "Hvor mange spejllinjer?",
-    "instruction": "Skriv hvor mange spejllinjer hver figur har."
+    "instruction": "Skriv hvor mange symmetriakser hver figur har.",
+    "printTitle": "Hvor mange symmetriakser?"
   },
   "G3-343": {
     "title": "Lige store stykker",

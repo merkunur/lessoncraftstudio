@@ -32,11 +32,15 @@ const SHAPES_3D = {
 };
 
 // real-world lookalikes per solid (vocabKey + the cached theme holding it)
+// Every picture read on a contact sheet (2026-10-08). The shapes theme's "cone" is a cut-off cone (flat top), so no
+// object is matched to it; the old pairs were a strawberry for that cut-off cone and a BUCKET (which widens at the
+// top — itself a cut-off cone) for the cylinder, so two matches looked right. The first object is the published one.
 const SOLID_REAL_OBJECTS = {
-  sphere: [{ theme: 'toys', noun: 'ball' }],
-  cube: [{ theme: 'toys', noun: 'blocks' }],
-  cone: [{ theme: 'fruits', noun: 'strawberry' }],
-  cylinder: [{ theme: 'toys', noun: 'bucket' }],
+  sphere: [{ theme: 'toys', noun: 'ball' }, { theme: 'classroom', noun: 'globe' }],
+  cube: [{ theme: 'toys', noun: 'dice' }, { theme: 'toys', noun: 'blocks' }],
+  cylinder: [{ theme: 'At the Supermarket', noun: 'can' }, { theme: 'around the house', noun: 'toilet_paper' }, { theme: 'music', noun: 'drum' }, { theme: 'christmas', noun: 'candle' }],
+  // a TALL box like the drawing; a book (lying flat) looked too much like the squat "cube" picture
+  rectangular_box: [{ theme: 'around the house', noun: 'fridge' }, { theme: 'around the house', noun: 'refrigerator' }, { theme: 'kitchen tools', noun: 'refrigerator' }],
 };
 
 module.exports = { SHAPES_2D, SHAPES_3D, SOLID_REAL_OBJECTS };

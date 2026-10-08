@@ -22,7 +22,16 @@ module.exports = {
     en: { title: 'Flat or Solid?', instruction: 'Draw a line from each shape to its bin: flat shapes left, solid shapes right.' },
   },
 
-  build({ difficulty }, ctx) {
+  // Level Set 2026-10-08: the screen version (tap every solid) + answer key of every NEW page
+  interactive: require('../../lib/geometry-screen.js').interactiveFor('flat-solid'),
+  levelSetWords(m) { return [...(m.flat || []), ...(m.solid || [])].map(String); },
+
+  build({ difficulty, locale }, ctx) {
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
+      return require('../../lib/geometry-screen.js').screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2), mode: 'flat-solid' });
+    }
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const have = Object.keys(themeEntry('shapes').nouns);
@@ -50,6 +59,7 @@ module.exports = {
         `<div style="display:flex;justify-content:space-evenly;gap:30px">${bin('square', '2d')}${bin('cube', '3d')}</div>` +
         `</div>`,
       meta: { flat, solid },
+      _cards: { mode: 'flat-solid', items: items.map((it) => ({ shape: it.k, dim: it.dim })) },
     };
   },
 

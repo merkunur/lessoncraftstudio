@@ -606,7 +606,7 @@
   },
   "G2-243": {
     "title": "Cuerpos a nuestro alrededor",
-    "instruction": "Une con una línea cada cuerpo al objeto con su forma."
+    "instruction": "Une con una línea cada cuerpo con el objeto que tiene la misma forma."
   },
   "G2-244": {
     "title": "¿Plano o cuerpo?",
@@ -622,7 +622,7 @@
   },
   "G2-247": {
     "title": "¿Eje de simetría?",
-    "instruction": "¿La línea punteada es un eje de simetría? Rodea el visto o la cruz."
+    "instruction": "¿La línea punteada es un eje de simetría? Encierra la palomita o el tache."
   },
   "G2-248": {
     "title": "Halla el dibujo simétrico",
@@ -752,7 +752,7 @@
   },
   "G3-338": {
     "title": "Mismo espacio, nueva forma",
-    "instruction": "Rodea el rectángulo que cubre el MISMO número de cuadros."
+    "instruction": "Encierra el rectángulo que cubre el MISMO número de cuadritos."
   },
   "G3-339": {
     "title": "Misma cerca, nuevo patio",
@@ -760,11 +760,11 @@
   },
   "G3-340": {
     "title": "El equipo de cuatro lados",
-    "instruction": "Une con una línea cada figura de cuatro lados a su familia."
+    "instruction": "¿Es un rectángulo? Los cuadrados también son rectángulos. Une cada figura con la caja correcta."
   },
   "G3-341": {
     "title": "Caza de ángulos rectos",
-    "instruction": "Rodea cada ángulo RECTO (los que tienen el cuadradito)."
+    "instruction": "Encierra cada ángulo recto (una esquina como la de un cuadrado)."
   },
   "G3-342": {
     "title": "¿Cuántos ejes de simetría?",

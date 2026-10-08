@@ -2081,7 +2081,7 @@
   },
   "G2-243": {
     "title": "Solid Shapes Around Us",
-    "instruction": "Draw a line from each solid to the object with its shape."
+    "instruction": "Draw a line from each solid to the object with the same shape."
   },
   "G2-244": {
     "title": "Flat or Solid?",
@@ -2101,7 +2101,8 @@
   },
   "G2-248": {
     "title": "Find the Mirror Picture",
-    "instruction": "Circle the picture that is the same on both sides."
+    "instruction": "Circle the picture that is the same on both sides.",
+    "printTitle": "Find the Symmetric Picture"
   },
   "G2-249": {
     "title": "What Time Is It?",
@@ -2754,11 +2755,11 @@
   },
   "G3-340": {
     "title": "Quad Squad",
-    "instruction": "Draw a line from each four-sided shape to its family."
+    "instruction": "Is it a rectangle? Squares are rectangles too. Draw a line from each shape to the right box."
   },
   "G3-341": {
     "title": "Right-Angle Hunt",
-    "instruction": "Circle every RIGHT angle (the ones with the little square)."
+    "instruction": "Circle every right angle (a square corner)."
   },
   "G3-342": {
     "title": "How Many Mirror Lines?",

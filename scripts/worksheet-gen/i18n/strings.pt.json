@@ -249,7 +249,8 @@
   },
   "K-076": {
     "title": "Separe pelos lados",
-    "instruction": "Ligue cada forma ao seu número de lados."
+    "instruction": "Ligue cada forma ao seu número de lados.",
+    "printTitle": "Separe pelo número de lados"
   },
   "K-077": {
     "title": "Padrões de formas",
@@ -605,7 +606,7 @@
   },
   "G2-243": {
     "title": "Sólidos ao nosso redor",
-    "instruction": "Ligue cada sólido ao objeto com a forma dele."
+    "instruction": "Ligue cada sólido ao objeto que tem a mesma forma."
   },
   "G2-244": {
     "title": "Plano ou sólido?",
@@ -621,7 +622,8 @@
   },
   "G2-247": {
     "title": "Linha de espelho?",
-    "instruction": "A linha tracejada é uma linha de espelho? Circule o certo ou o errado."
+    "instruction": "A linha tracejada é um eixo de simetria? Circule o certo ou o errado.",
+    "printTitle": "Eixo de simetria?"
   },
   "G2-248": {
     "title": "Ache a figura espelhada",
@@ -746,7 +748,7 @@
   },
   "G3-337": {
     "title": "Ande pela borda",
-    "instruction": "Conte as bordas unitárias ao redor de cada retângulo. Escreva o perímetro."
+    "instruction": "Conte os lados dos quadradinhos ao redor de cada retângulo. Escreva o perímetro."
   },
   "G3-338": {
     "title": "Mesmo espaço, nova forma",
@@ -758,15 +760,16 @@
   },
   "G3-340": {
     "title": "Turma dos quadriláteros",
-    "instruction": "Ligue cada forma de quatro lados à sua família."
+    "instruction": "É um retângulo? Os quadrados também são retângulos. Ligue cada forma à caixa certa."
   },
   "G3-341": {
     "title": "Caça aos ângulos retos",
-    "instruction": "Circule cada ângulo RETO (os que têm o quadradinho)."
+    "instruction": "Circule cada ângulo reto (um canto como o de um quadrado)."
   },
   "G3-342": {
     "title": "Quantas linhas de espelho?",
-    "instruction": "Escreva quantas linhas de espelho cada forma tem."
+    "instruction": "Escreva quantos eixos de simetria cada forma tem.",
+    "printTitle": "Quantos eixos de simetria?"
   },
   "G3-343": {
     "title": "Partes iguais",

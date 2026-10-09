@@ -2367,7 +2367,9 @@
    "it": "Guarda l'immagine in alto, poi tocca ogni punto dell'immagine in basso che è diverso.",
    "nl": "Kijk goed naar het bovenste plaatje en tik dan in het onderste plaatje op elke plek die anders is.",
    "sv": "Titta noga på bilden ovanför och tryck sedan på varje ställe i bilden under som är annorlunda.",
-   "da": "Kig godt på billedet ovenover, og tryk så på hvert sted i billedet nedenunder, der er anderledes."
+   "da": "Kig godt på billedet ovenover, og tryk så på hvert sted i billedet nedenunder, der er anderledes.",
+   "no": "Se godt på bildet øverst, og trykk så på hvert sted i bildet nederst som er annerledes.",
+   "fi": "Katso tarkasti ylempää kuvaa ja napauta sitten alemmasta kuvasta jokaista kohtaa, joka on erilainen."
   },
   "fd-tapCount": {
    "en": "Find every difference in the bottom picture (some things may be gone), then tap the number that says how many there are.",
@@ -2378,7 +2380,9 @@
    "it": "Trova tutte le differenze nell'immagine in basso, poi tocca il numero che dice quante sono.",
    "nl": "Zoek elk verschil in het onderste plaatje en tik dan op het getal dat zegt hoeveel verschillen er zijn.",
    "sv": "Hitta varje fel i den nedre bilden (något kan också ha försvunnit) och tryck sedan på siffran som visar hur många fel det finns.",
-   "da": "Find hver fejl i det nederste billede (noget kan også være væk), og tryk så på det tal, der viser, hvor mange fejl der er."
+   "da": "Find hver fejl i det nederste billede (noget kan også være væk), og tryk så på det tal, der viser, hvor mange fejl der er.",
+   "no": "Finn hver feil i det nederste bildet (noe kan også være borte), og trykk så på tallet som viser hvor mange feil det er.",
+   "fi": "Etsi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja napauta sitten numeroa, joka kertoo, montako virhettä on."
   },
   "fd-tapMirror": {
    "en": "The bottom picture is flipped like a mirror. Tap every place in it that is still different.",
@@ -2389,7 +2393,9 @@
    "it": "L'immagine in basso è come riflessa in uno specchio. Tocca ogni punto che è ancora diverso.",
    "nl": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
    "sv": "Den nedre bilden är spegelvänd. Tryck på varje ställe i den som ändå är annorlunda.",
-   "da": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes."
+   "da": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes.",
+   "no": "Det nederste bildet er speilvendt. Trykk på hvert sted i det som likevel er annerledes.",
+   "fi": "Alempi kuva on peilikuva. Napauta siitä jokaista kohtaa, joka on silti erilainen."
   },
   "fd-tapMissing": {
    "en": "Tap every empty place in the bottom picture where something from the top picture is missing.",
@@ -2400,7 +2406,9 @@
    "it": "Tocca ogni posto vuoto dell'immagine in basso dove manca qualcosa dell'immagine in alto.",
    "nl": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
    "sv": "Tryck på varje tomt ställe i den nedre bilden där något från den övre bilden saknas.",
-   "da": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler."
+   "da": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler.",
+   "no": "Trykk på hvert tomme sted i det nederste bildet der noe fra det øverste bildet mangler.",
+   "fi": "Napauta alemmasta kuvasta jokaista tyhjää kohtaa, josta puuttuu jotain ylemmästä kuvasta."
   },
   "fd-tapPairs": {
    "en": "Each pair shows the same close-up twice. Tap the one place that is different in the second picture of every pair.",
@@ -2411,7 +2419,9 @@
    "it": "Ogni coppia mostra lo stesso particolare due volte. Tocca l'unica cosa diversa nella seconda immagine di ogni coppia.",
    "nl": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
    "sv": "Varje par visar samma utsnitt två gånger. Tryck på det enda ställe som är annorlunda i den andra bilden i varje par.",
-   "da": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det andet billede i hvert par."
+   "da": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det andet billede i hvert par.",
+   "no": "Hvert par viser det samme utsnittet to ganger. Trykk på det ene stedet som er annerledes i det andre bildet i hvert par.",
+   "fi": "Jokaisessa parissa on sama lähikuva kahdesti. Napauta jokaisen parin toisesta kuvasta sitä yhtä kohtaa, joka on erilainen."
   },
   "fd-tapWords": {
    "en": "Find what changed in the bottom picture, then tap the words of the things that changed.",
@@ -2422,7 +2432,9 @@
    "it": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate.",
    "nl": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn.",
    "sv": "Hitta vad som har ändrats i den nedre bilden och tryck sedan på orden för de saker som har ändrats.",
-   "da": "Find det, der er ændret i det nederste billede, og tryk så på ordene for de ting, der er ændret."
+   "da": "Find det, der er ændret i det nederste billede, og tryk så på ordene for de ting, der er ændret.",
+   "no": "Finn det som er endret i det nederste bildet, og trykk så på ordene for de tingene som er endret.",
+   "fi": "Etsi, mikä alemmassa kuvassa on muuttunut, ja napauta sitten niiden asioiden sanoja, jotka ovat muuttuneet."
   },
   "fd-tapPairs2": {
    "en": "Two pairs of pictures: in each pair, look at picture 1, then tap every place in picture 2 that is different.",
@@ -2433,7 +2445,9 @@
    "it": "Due coppie di immagini: in ogni coppia guarda l'immagine 1, poi tocca ogni punto dell'immagine 2 che è diverso.",
    "nl": "Twee paren plaatjes: kijk in elk paar naar plaatje 1 en tik dan in plaatje 2 op elke plek die anders is.",
    "sv": "Två bildpar: titta på bild 1 i varje par och tryck sedan på varje ställe i bild 2 som är annorlunda.",
-   "da": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes."
+   "da": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes.",
+   "no": "To bildepar: se på bilde 1 i hvert par, og trykk så på hvert sted i bilde 2 som er annerledes.",
+   "fi": "Kaksi kuvaparia: katso jokaisen parin kuvaa 1 ja napauta sitten kuvasta 2 jokaista kohtaa, joka on erilainen."
   }
  }
 }

@@ -84,6 +84,8 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Visuele waarneming', // nt2-G panel (tools/apply-b7-locale.js)
     sv: 'Visuell perception', // nt2-G panel (tools/apply-b7-locale.js)
     da: 'Visuel opmærksomhed', // nt2-G panel (tools/apply-b7-locale.js)
+    no: 'Visuell oppmerksomhet', // nt2-G panel (tools/apply-b7-locale.js)
+    fi: 'Visuaalinen hahmottaminen', // nt2-G panel (tools/apply-b7-locale.js)
   },
   // nt2-G how-to-draw (K-396): the primary art subject per locale (no CCSS); each locale's literal is ADDED by its
   // native panel through tools/apply-b7-locale.js (strandNames).
@@ -97,6 +99,8 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Kunstzinnige oriëntatie', // nt2-G panel (tools/apply-b7-locale.js)
     sv: 'Bild', // nt2-G panel (tools/apply-b7-locale.js)
     da: 'Billedkunst', // nt2-G panel (tools/apply-b7-locale.js)
+    no: 'Kunst og håndverk', // nt2-G panel (tools/apply-b7-locale.js)
+    fi: 'Kuvataide', // nt2-G panel (tools/apply-b7-locale.js)
   },
   'Science': {
     en: 'Science',

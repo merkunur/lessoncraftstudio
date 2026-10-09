@@ -1,0 +1,82 @@
+{
+  "starter": "Kuvassa 2",
+  "changeWords": [
+    "puuttuu",
+    "on uusi",
+    "on isompi",
+    "on pienempi",
+    "on siirtynyt",
+    "on kääntynyt",
+    "on vaihtunut"
+  ],
+  "strandNames": {
+    "Visual Perception": "Visuaalinen hahmottaminen"
+  },
+  "rail": {
+    "slug": "etsi-viisi-virhetta",
+    "name": "Etsi viisi virhettä"
+  },
+  "strings": {
+    "base": {
+      "title": "Etsi viisi virhettä: {UNIT}",
+      "instruction": "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
+    },
+    "three-big": {
+      "title": "Etsi kolme virhettä: {UNIT}",
+      "instruction": "Etsi alemmasta kuvasta ne 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+    },
+    "colour": {
+      "title": "Etsi virheet värikuvasta",
+      "instruction": "Ympyröi alemmasta värikuvasta ne 5 asiaa, jotka ovat erilaisia, rastita yksi ruutu jokaisesta ja katso tarkasti myös värejä."
+    },
+    "seven": {
+      "title": "Etsi seitsemän virhettä lammella",
+      "instruction": "Ympyröi 7 virhettä, 4 vasemmasta kuvaparista ja 3 oikeasta, ja rastita parin alta yksi ruutu jokaisesta virheestä."
+    },
+    "ten-pairs": {
+      "title": "Etsi kymmenen virhettä puutarhassa: vaikea",
+      "instruction": "Ympyröi 10 virhettä, 5 kummastakin kuvaparista, ja rastita parin alta yksi ruutu jokaisesta löytämästäsi virheestä."
+    },
+    "how-many": {
+      "title": "Montako virhettä löydät?",
+      "instruction": "Ympyröi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja kirjoita ruutuun, montako virhettä löysit."
+    },
+    "what-changed": {
+      "title": "Mikä muuttui? Rastita sanat",
+      "instruction": "Ympyröi alemmasta kuvasta 3 virhettä ja rastita sitten niiden asioiden sanat, jotka ovat muuttuneet."
+    },
+    "mirror-pair": {
+      "title": "Peilikuva: etsi virheet",
+      "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja taita viivaa pitkin tarkistaaksesi."
+    },
+    "missing": {
+      "title": "Mitä kuvasta puuttuu?",
+      "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain ylemmästä kuvasta, ja rastita yksi ruutu jokaisesta."
+    },
+    "pairs": {
+      "title": "Kuvaparit: etsi virhe",
+      "instruction": "Jokaisella rivillä on sama lähikuva kahdesti; ympyröi oikeanpuoleisesta kuvasta se yksi kohta, joka on erilainen, ja rastita rivin ruutu."
+    },
+    "write": {
+      "title": "Kirjoita, mikä on erilaista",
+      "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalistan sanoja."
+    }
+  },
+  "tap": {
+    "fd-tap": "Katso tarkasti ylempää kuvaa ja napauta sitten alemmasta kuvasta jokaista kohtaa, joka on erilainen.",
+    "fd-tapCount": "Etsi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja napauta sitten numeroa, joka kertoo, montako virhettä on.",
+    "fd-tapMirror": "Alempi kuva on peilikuva. Napauta siitä jokaista kohtaa, joka on silti erilainen.",
+    "fd-tapMissing": "Napauta alemmasta kuvasta jokaista tyhjää kohtaa, josta puuttuu jotain ylemmästä kuvasta.",
+    "fd-tapPairs": "Jokaisessa parissa on sama lähikuva kahdesti. Napauta jokaisen parin toisesta kuvasta sitä yhtä kohtaa, joka on erilainen.",
+    "fd-tapWords": "Etsi, mikä alemmassa kuvassa on muuttunut, ja napauta sitten niiden asioiden sanoja, jotka ovat muuttuneet.",
+    "fd-tapPairs2": "Kaksi kuvaparia: katso jokaisen parin kuvaa 1 ja napauta sitten kuvasta 2 jokaista kohtaa, joka on erilainen."
+  },
+  "numberWords": {
+    "3": "kolme",
+    "5": "viisi",
+    "7": "seitsemän",
+    "10": "kymmenen"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

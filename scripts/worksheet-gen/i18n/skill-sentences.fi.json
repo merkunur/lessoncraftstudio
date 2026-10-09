@@ -438,5 +438,13 @@
   "cursive-writing": {
     "full": "Kaunokirjoitus eli sidottu käsiala: kirjainten yhdistäminen toisiinsa. Suomessa perusopetus opettaa tekstausta ja näppäintaitoja, joten tätä aineistoa ei julkaista suomeksi.",
     "short": "Sidottu käsiala (ei suomeksi)"
+  },
+  "find-the-differences": {
+    "full": "Etsi viisi virhettä esiopetukseen sekä 1. ja 2. luokalle: vertaa kahta kuvaa, etsi ja ympyröi 3–10 virhettä, mukana vastaukset ja näytöllä napautettava versio.",
+    "short": "Vertaa kahta kuvaa ja etsi virheet"
+  },
+  "how-to-draw": {
+    "full": "Piirrä vaihe vaiheelta esiopetukseen sekä 1. ja 2. luokalle: rakenna eläin yksinkertaisista muodoista, seuraa viivoja, piirrä valmiiksi, ruudukon avulla tai muistista.",
+    "short": "Opi piirtämään eläimiä vaihe vaiheelta"
   }
 }

@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "kissa",
+      "stem": "kiss",
+      "n": "kissa"
+    },
+    "animals-bw-2-dog": {
+      "t": "koira",
+      "stem": "koir",
+      "n": "koira"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "kani",
+      "stem": "kani",
+      "n": "kani"
+    },
+    "farm-animals-bw-pony": {
+      "t": "hevonen",
+      "stem": "hevo",
+      "n": "hevonen"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "dinosaurus",
+      "stem": "dinosauru",
+      "n": "dinosaurus"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "kala",
+      "stem": "kal",
+      "n": "kala"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "sammakko",
+      "stem": "sammak",
+      "n": "sammakko"
+    },
+    "animals-bw-5-owl": {
+      "t": "pöllö",
+      "stem": "pöll",
+      "n": "pöllö"
+    },
+    "birds-bw-hummingbird": {
+      "t": "lintu",
+      "stem": "lin",
+      "n": "lintu"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "karhu",
+      "stem": "karhu",
+      "n": "karhu"
+    },
+    "easter-bw-butterfly": {
+      "t": "perhonen",
+      "stem": "perho",
+      "n": "perhonen"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "kissa",
+    "animals-bw-2-dog": "koira",
+    "animals-bw-4-rabbit-2": "kani",
+    "farm-animals-bw-pony": "hevonen",
+    "animals-bw-3-dinosaur": "dinosaurus",
+    "animals-bw-3-fish-2": "kala",
+    "animals-bw-3-frog-2": "sammakko",
+    "animals-bw-5-owl": "pöllö",
+    "birds-bw-hummingbird": "lintu",
+    "zoo-animals-bw-bear-2": "karhu",
+    "easter-bw-butterfly": "perhonen"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Karhuni on",
+      "Se osaa",
+      "Se tykkää"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Piirrä {L} vaihe vaiheelta",
+      "instruction": "Katso neljää numeroitua vaihetta ja piirrä kissa isolle paperille: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
+    },
+    "shapes": {
+      "title": "Piirrä {L} yksinkertaisista muodoista",
+      "instruction": "Piirrä paperilla jo olevien katkoviivamuotojen päälle, piirrä sitten koiran ääriviiva niiden ympärille ja viimeistele koira vaiheiden avulla."
+    },
+    "trace": {
+      "title": "Seuraa viivoja ja piirrä sitten {L} itse",
+      "instruction": "Seuraa harmaata kania kynälläsi ja piirrä sitten kani itse viereiseen tyhjään ruutuun."
+    },
+    "finish": {
+      "title": "Piirrä {N} valmiiksi",
+      "instruction": "Katso kokonaista hevosta, piirrä toiseen hevoseen puuttuvat viivat ja piirrä sitten oma hevonen alla olevaan ruutuun."
+    },
+    "grid": {
+      "title": "Piirrä {L} ruudukon avulla",
+      "instruction": "Katso dinosaurusta ruudukossa, piirrä se ruutu kerrallaan tyhjään ruudukkoon ja sitten vielä kerran ilman ruudukkoa."
+    },
+    "word": {
+      "title": "Piirrä {L} ja kirjoita sana",
+      "instruction": "Seuraa vaiheita ja piirrä kala ruutuun; kirjoita sitten alla olevan sanan päälle ja kirjoita se itse."
+    },
+    "scene": {
+      "title": "Piirrä {L} lammelle",
+      "instruction": "Seuraa vaiheita ja piirrä sitten sammakko kuvan tyhjälle lammelle."
+    },
+    "order": {
+      "title": "Laita vaiheet järjestykseen: piirrä {L}",
+      "instruction": "Vaiheet ovat sekaisin: kirjoita niiden viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten pöllö."
+    },
+    "copy-steps": {
+      "title": "Vaihe vaiheelta: piirrä {L}",
+      "instruction": "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko lintu isompana alla olevalle paperille."
+    },
+    "write": {
+      "title": "Piirrä {L} ja kirjoita siitä",
+      "instruction": "Piirrä karhu vaiheiden avulla ja kirjoita sitten viivoille kolme lausetta karhustasi; aloita valmiiksi kirjoitetuilla sanoilla."
+    },
+    "memory": {
+      "title": "Piirrä {L} muistista",
+      "instruction": "Katso perhosta, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isolle paperille.",
+      "foldWord": "taita"
+    }
+  }
+}

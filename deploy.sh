@@ -331,6 +331,9 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksh
 # nt5-F (b6): the same gate over the b6 matrix (cursive-writing sv/fi = 0 rows, refused);
 # HARD since 2026-09-25 (all 318 b6 landings + decks live).
 node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b6-designs/hub-expectations.json || { echo "ERROR: an nt5-F family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b6-designs/hub-expectations.json"; exit 1; }
+# nt2-G (b7): the two flagship families (find-the-differences + how-to-draw), 11 rows per key per locale;
+# HARD from the first deploy that carries the b7 landings (all 11 locales composed before deploy, 2026-10-09).
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b7-designs/hub-expectations.json || { echo "ERROR: an nt2-G family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b7-designs/hub-expectations.json"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

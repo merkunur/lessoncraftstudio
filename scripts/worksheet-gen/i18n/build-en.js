@@ -39,10 +39,26 @@ function buildEn() {
 }
 
 if (require.main === module) {
-  const out = buildEn();
+  const built = buildEn();
   const dst = path.join(__dirname, 'strings.en.json');
+  // MERGE, never overwrite (2026-10-10): strings.en.json is the SHIPPED text and carries hand edits the specs do not —
+  // printTitle fields and instruction rewrites made in the strings file after the spec was written. A full rebuild on
+  // 2026-10-09 (the b7 panel pipeline) silently dropped four printTitles and three instruction edits (G1-139, G1-252,
+  // G1-409, G1-411, G2-248, G3-317, G3-332); the b3 baseline drift check found it a day later. An existing id keeps its
+  // entry verbatim (a differing spec is REPORTED, never applied); a new id is added from its spec.
+  const existing = fs.existsSync(dst) ? JSON.parse(fs.readFileSync(dst, 'utf8')) : {};
+  const out = {};
+  const kept = [], added = [];
+  for (const id of Object.keys(built)) {
+    if (existing[id]) {
+      out[id] = existing[id];
+      if (existing[id].title !== built[id].title || existing[id].instruction !== built[id].instruction) kept.push(id);
+    } else { out[id] = built[id]; added.push(id); }
+  }
+  for (const id of Object.keys(existing)) if (!out[id]) out[id] = existing[id];   // an id with no spec on disk is kept, never dropped
   fs.writeFileSync(dst, JSON.stringify(out, null, 2) + '\n');
-  console.log('build-en: ' + Object.keys(out).length + ' types -> ' + dst + ' (title lint clean)');
+  console.log('build-en: ' + Object.keys(out).length + ' types -> ' + dst + ' (title lint clean); added ' + added.length + (added.length ? ' [' + added.join(', ') + ']' : ''));
+  if (kept.length) console.log('build-en: ' + kept.length + ' id(s) keep the strings file\'s hand-edited text over the spec: ' + kept.join(', ') + ' (align the spec if the strings file is wrong)');
 }
 
 module.exports = { buildEn };

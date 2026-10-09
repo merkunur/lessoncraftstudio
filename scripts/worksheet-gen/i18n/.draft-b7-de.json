@@ -1,0 +1,342 @@
+{
+  "locale": "de",
+  "types": {
+    "K-395": {
+      "title": "Finde 5 Unterschiede: {UNIT}",
+      "instruction": "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+    },
+    "K-397": {
+      "title": "Finde 3 Unterschiede: {UNIT}",
+      "instruction": "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+    },
+    "K-398": {
+      "title": "Fehlersuchbild in Farbe: Finde die Unterschiede",
+      "instruction": "Kreise im unteren bunten Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen; achte dabei auch auf die Farben."
+    },
+    "G1-412": {
+      "title": "Finde 7 Unterschiede am Teich",
+      "instruction": "Kreise die 7 Unterschiede ein, 4 im linken Bildpaar und 3 im rechten, und setze für jeden ein Häkchen in ein Kästchen darunter."
+    },
+    "G2-388": {
+      "title": "Finde 10 Unterschiede im Garten",
+      "instruction": "Kreise die 10 Unterschiede ein, 5 in jedem Bildpaar, und setze unter dem Paar für jeden gefundenen Unterschied ein Häkchen."
+    },
+    "G1-413": {
+      "title": "Wie viele Unterschiede findest du?",
+      "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest (etwas kann auch fehlen), und schreibe dann in das Kästchen, wie viele es sind."
+    },
+    "G1-414": {
+      "title": "Was hat sich verändert? Kreuze die Wörter an",
+      "instruction": "Kreise im unteren Bild die 3 Unterschiede ein und kreuze dann die Wörter der Dinge an, die sich verändert haben."
+    },
+    "G1-415": {
+      "title": "Spiegelbild: Finde die Unterschiede",
+      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge oder leeren Stellen ein, die anders sind, hake je ein Kästchen ab und falte zum Prüfen an der Linie."
+    },
+    "K-399": {
+      "title": "Was fehlt im Bild?",
+      "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt, und hake für jede ein Kästchen ab."
+    },
+    "K-400": {
+      "title": "Bildpaare: Finde den Unterschied",
+      "instruction": "Jede Reihe zeigt denselben Ausschnitt zweimal; kreise im rechten Bild die eine Stelle ein, die anders ist, und hake das Kästchen der Reihe ab."
+    },
+    "G2-389": {
+      "title": "Unterschiede finden und beschreiben",
+      "instruction": "Kreise die 3 Unterschiede ein (etwas kann fehlen) und schreibe zu jedem einen Satz auf die Zeilen; nimm die Wörter aus den beiden Streifen."
+    },
+    "K-396": {
+      "title": "{N} zeichnen lernen Schritt für Schritt",
+      "instruction": "Schau dir die vier nummerierten Schritte an und zeichne die Katze auf das große Papier: zuerst den Umriss, dann die orangen Linien von jedem Schritt."
+    },
+    "K-401": {
+      "title": "{U} aus einfachen Formen zeichnen",
+      "instruction": "Fahre zuerst die gestrichelten Formen auf dem Papier nach, zeichne dann den Umriss des Hundes darum und mache ihn mit den Schritten fertig."
+    },
+    "K-402": {
+      "title": "{U} nachfahren und dann selbst zeichnen",
+      "instruction": "Fahre den grauen Hasen mit dem Bleistift nach und zeichne den Hasen dann selbst in das leere Feld daneben."
+    },
+    "K-403": {
+      "title": "{U} fertig zeichnen",
+      "instruction": "Schau dir das ganze Pferd an, zeichne beim zweiten Pferd die fehlenden Linien ein und zeichne dann unten ein eigenes Pferd."
+    },
+    "G1-416": {
+      "title": "{U} mit dem Raster zeichnen",
+      "instruction": "Schau dir den Dinosaurier im Raster an, zeichne ihn Kästchen für Kästchen in das leere Raster und danach noch einmal ohne Raster."
+    },
+    "K-404": {
+      "title": "{U} zeichnen und das Wort schreiben",
+      "instruction": "Zeichne den Fisch mit den Schritten auf das Papier, fahre dann das Wort darunter nach und schreibe es noch einmal."
+    },
+    "G1-417": {
+      "title": "{U} am Teich zeichnen",
+      "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann in das Bild, auf die leere Stelle im Teich."
+    },
+    "G1-418": {
+      "title": "Schritte ordnen und {L} zeichnen",
+      "instruction": "Die Schritte sind durcheinander: Schreibe 1 bis 5 in der richtigen Reihenfolge in die Kästchen daneben und zeichne dann die Eule."
+    },
+    "G1-419": {
+      "title": "{U} Schritt für Schritt abzeichnen",
+      "instruction": "Zeichne in jedes Feld, was du im Schritt darüber siehst, jedes Mal mit den orangen Linien dazu, und unten dann den ganzen Vogel."
+    },
+    "G2-390": {
+      "title": "{U} zeichnen und darüber schreiben",
+      "instruction": "Zeichne den Bären mit den Schritten und schreibe dann drei Sätze über deinen Bären auf die Zeilen; beginne mit den gedruckten Wörtern."
+    },
+    "G2-391": {
+      "title": "{U} aus dem Gedächtnis zeichnen",
+      "instruction": "Schau dir den Schmetterling genau an, falte das Blatt an der Linie nach hinten, damit du ihn nicht mehr siehst, und zeichne ihn aus dem Gedächtnis."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "fehlersuchbilder",
+      "name": "Fehlersuchbilder"
+    },
+    "how-to-draw": {
+      "slug": "zeichnen-lernen",
+      "name": "Zeichnen lernen"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Fehlersuchbilder für Kindergarten und Grundschule: zwei Bilder genau vergleichen, 3 bis 10 Unterschiede finden und einkreisen, mit Lösung und Version zum Antippen am Bildschirm.",
+      "short": "Zwei Bilder vergleichen und die Unterschiede finden"
+    },
+    "how-to-draw": {
+      "full": "Zeichnen lernen Schritt für Schritt für Kindergarten und Grundschule: Tiere aus einfachen Formen aufbauen, nachfahren, vervollständigen oder aus dem Gedächtnis zeichnen.",
+      "short": "Tiere Schritt für Schritt zeichnen lernen"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Fehlersuchbilder zum Ausdrucken: Finde 3, 5, 7 oder 10 Unterschiede in Bildpaaren, bunten Bildern und Spiegelbildern, mit Lösung, für Kindergarten, Klasse 1 und Klasse 2.",
+    "how-to-draw": "Zeichnen lernen Schritt für Schritt zum Ausdrucken: Katze, Hund, Hase, Pferd und mehr aus einfachen Formen, mit Raster oder aus dem Gedächtnis zeichnen, vom Kindergarten bis Klasse 2."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Auf Bild 2 ist",
+      "changeWords": [
+        "weg",
+        "neu",
+        "größer",
+        "kleiner",
+        "verschoben",
+        "gespiegelt",
+        "anders"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuelle Wahrnehmung"
+      },
+      "rail": {
+        "slug": "fehlersuchbilder",
+        "name": "Fehlersuchbilder"
+      },
+      "strings": {
+        "base": {
+          "title": "Finde 5 Unterschiede: {UNIT}",
+          "instruction": "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+        },
+        "three-big": {
+          "title": "Finde 3 Unterschiede: {UNIT}",
+          "instruction": "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+        },
+        "colour": {
+          "title": "Fehlersuchbild in Farbe: Finde die Unterschiede",
+          "instruction": "Kreise im unteren bunten Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen; achte dabei auch auf die Farben."
+        },
+        "seven": {
+          "title": "Finde 7 Unterschiede am Teich",
+          "instruction": "Kreise die 7 Unterschiede ein, 4 im linken Bildpaar und 3 im rechten, und setze für jeden ein Häkchen in ein Kästchen darunter."
+        },
+        "ten-pairs": {
+          "title": "Finde 10 Unterschiede im Garten",
+          "instruction": "Kreise die 10 Unterschiede ein, 5 in jedem Bildpaar, und setze unter dem Paar für jeden gefundenen Unterschied ein Häkchen."
+        },
+        "how-many": {
+          "title": "Wie viele Unterschiede findest du?",
+          "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest (etwas kann auch fehlen), und schreibe dann in das Kästchen, wie viele es sind."
+        },
+        "what-changed": {
+          "title": "Was hat sich verändert? Kreuze die Wörter an",
+          "instruction": "Kreise im unteren Bild die 3 Unterschiede ein und kreuze dann die Wörter der Dinge an, die sich verändert haben."
+        },
+        "mirror-pair": {
+          "title": "Spiegelbild: Finde die Unterschiede",
+          "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge oder leeren Stellen ein, die anders sind, hake je ein Kästchen ab und falte zum Prüfen an der Linie."
+        },
+        "missing": {
+          "title": "Was fehlt im Bild?",
+          "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt, und hake für jede ein Kästchen ab."
+        },
+        "pairs": {
+          "title": "Bildpaare: Finde den Unterschied",
+          "instruction": "Jede Reihe zeigt denselben Ausschnitt zweimal; kreise im rechten Bild die eine Stelle ein, die anders ist, und hake das Kästchen der Reihe ab."
+        },
+        "write": {
+          "title": "Unterschiede finden und beschreiben",
+          "instruction": "Kreise die 3 Unterschiede ein (etwas kann fehlen) und schreibe zu jedem einen Satz auf die Zeilen; nimm die Wörter aus den beiden Streifen."
+        }
+      },
+      "tap": {
+        "fd-tap": "Schau dir das obere Bild genau an und tippe dann im unteren Bild auf jede Stelle, die anders ist.",
+        "fd-tapCount": "Finde im unteren Bild jeden Unterschied und tippe dann auf die Zahl, die sagt, wie viele es sind.",
+        "fd-tapMirror": "Das untere Bild ist spiegelverkehrt. Tippe auf jede Stelle darin, die trotzdem anders ist.",
+        "fd-tapMissing": "Tippe im unteren Bild auf jede leere Stelle, an der etwas aus dem oberen Bild fehlt.",
+        "fd-tapPairs": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf die eine Stelle, die anders ist.",
+        "fd-tapWords": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben.",
+        "fd-tapPairs2": "Zwei Bildpaare: Schau dir in jedem Paar Bild 1 genau an und tippe dann in Bild 2 auf jede Stelle, die anders ist."
+      },
+      "numberWords": {
+        "3": "drei",
+        "5": "fünf",
+        "7": "sieben",
+        "10": "zehn"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "eine Katze",
+          "stem": "Katze",
+          "n": "Katze"
+        },
+        "animals-bw-2-dog": {
+          "t": "einen Hund",
+          "stem": "Hund",
+          "n": "Hund"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "einen Hasen",
+          "stem": "Hase",
+          "n": "Hase"
+        },
+        "farm-animals-bw-pony": {
+          "t": "ein Pferd",
+          "stem": "Pferd",
+          "n": "Pferd"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "einen Dinosaurier",
+          "stem": "Dinosaurier",
+          "n": "Dinosaurier"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "einen Fisch",
+          "stem": "Fisch",
+          "n": "Fisch"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "einen Frosch",
+          "stem": "Frosch",
+          "n": "Frosch"
+        },
+        "animals-bw-5-owl": {
+          "t": "eine Eule",
+          "stem": "Eule",
+          "n": "Eule"
+        },
+        "birds-bw-hummingbird": {
+          "t": "einen Vogel",
+          "stem": "Vogel",
+          "n": "Vogel"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "einen Bären",
+          "stem": "Bär",
+          "n": "Bär"
+        },
+        "easter-bw-butterfly": {
+          "t": "einen Schmetterling",
+          "stem": "Schmetterling",
+          "n": "Schmetterling"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "Katze",
+        "animals-bw-2-dog": "Hund",
+        "animals-bw-4-rabbit-2": "Hase",
+        "farm-animals-bw-pony": "Pferd",
+        "animals-bw-3-dinosaur": "Dinosaurier",
+        "animals-bw-3-fish-2": "Fisch",
+        "animals-bw-3-frog-2": "Frosch",
+        "animals-bw-5-owl": "Eule",
+        "birds-bw-hummingbird": "Vogel",
+        "zoo-animals-bw-bear-2": "Bär",
+        "easter-bw-butterfly": "Schmetterling"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Mein Bär ist",
+          "Er kann",
+          "Er mag"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "{N} zeichnen lernen Schritt für Schritt",
+          "instruction": "Schau dir die vier nummerierten Schritte an und zeichne die Katze auf das große Papier: zuerst den Umriss, dann die orangen Linien von jedem Schritt."
+        },
+        "shapes": {
+          "title": "{U} aus einfachen Formen zeichnen",
+          "instruction": "Fahre zuerst die gestrichelten Formen auf dem Papier nach, zeichne dann den Umriss des Hundes darum und mache ihn mit den Schritten fertig."
+        },
+        "trace": {
+          "title": "{U} nachfahren und dann selbst zeichnen",
+          "instruction": "Fahre den grauen Hasen mit dem Bleistift nach und zeichne den Hasen dann selbst in das leere Feld daneben."
+        },
+        "finish": {
+          "title": "{U} fertig zeichnen",
+          "instruction": "Schau dir das ganze Pferd an, zeichne beim zweiten Pferd die fehlenden Linien ein und zeichne dann unten ein eigenes Pferd."
+        },
+        "grid": {
+          "title": "{U} mit dem Raster zeichnen",
+          "instruction": "Schau dir den Dinosaurier im Raster an, zeichne ihn Kästchen für Kästchen in das leere Raster und danach noch einmal ohne Raster."
+        },
+        "word": {
+          "title": "{U} zeichnen und das Wort schreiben",
+          "instruction": "Zeichne den Fisch mit den Schritten auf das Papier, fahre dann das Wort darunter nach und schreibe es noch einmal."
+        },
+        "scene": {
+          "title": "{U} am Teich zeichnen",
+          "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann in das Bild, auf die leere Stelle im Teich."
+        },
+        "order": {
+          "title": "Schritte ordnen und {L} zeichnen",
+          "instruction": "Die Schritte sind durcheinander: Schreibe 1 bis 5 in der richtigen Reihenfolge in die Kästchen daneben und zeichne dann die Eule."
+        },
+        "copy-steps": {
+          "title": "{U} Schritt für Schritt abzeichnen",
+          "instruction": "Zeichne in jedes Feld, was du im Schritt darüber siehst, jedes Mal mit den orangen Linien dazu, und unten dann den ganzen Vogel."
+        },
+        "write": {
+          "title": "{U} zeichnen und darüber schreiben",
+          "instruction": "Zeichne den Bären mit den Schritten und schreibe dann drei Sätze über deinen Bären auf die Zeilen; beginne mit den gedruckten Wörtern."
+        },
+        "memory": {
+          "title": "{U} aus dem Gedächtnis zeichnen",
+          "instruction": "Schau dir den Schmetterling genau an, falte das Blatt an der Linie nach hinten, damit du ihn nicht mehr siehst, und zeichne ihn aus dem Gedächtnis.",
+          "foldWord": "falte"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuelle Wahrnehmung",
+    "Art": "Kunst"
+  },
+  "enAudit": [
+    "K-401 shapes instruction says \"Draw the dotted shapes on the paper first\" while the three dotted ellipses are ALREADY printed on the paper (grey dashes): the child is meant to trace / go over them, not draw them; a literal reader draws a second set. Say \"trace the dotted shapes\".",
+    "G2-388 ten-pairs: the id record _records/b7var-id-allocation.json (and the FINAL §3 / §6 heading) still title the face \"Find 10 Differences at the Beach\" while the EN bank, the row and the page say \"in the Garden\" (kite-rich + ladybug-rich are garden scenes after the 2026-10-09 re-pin): the record and the landing headings disagree with the printed title.",
+    "K-396 base and G1-419 copy-steps instructions promise \"the orange lines of each step\" / \"adding the orange lines each time\", but the LAST step card (step 4 on the cat, fish, rabbit, hummingbird, bear ladders) is printed all black with no orange lines: the promise is false for one card in four on every face that shows the full ladder.",
+    "K-398 colour: \"the painted bottom picture\" — both pictures are painted (the top one too), and \"painted\" reads as if the child painted it; \"coloured\" is the plain word for the printed colour scene. Minor wording.",
+    "K-398 colour: \"one of them has changed colour\" is stated as exactly one, but the composer config only guarantees needColour (at least one colour op among the 5); if a seed composes two colour ops the sentence is false. The de instruction says \"achte dabei auch auf die Farben\" (look at the colours too) and promises no count of colour changes.",
+    "K-395 base: \"Look down from picture 1 to picture 2\" is a stacked-layout instruction baked into the string; it stays correct on the page and the screen (both stacked) but is an odd child-level verb; \"Compare picture 1 with picture 2\" is what a K teacher says. Minor."
+  ]
+}

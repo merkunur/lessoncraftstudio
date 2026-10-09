@@ -3037,7 +3037,7 @@
   },
   "G1-413": {
     "title": "¿Cuántas diferencias hay?",
-    "instruction": "Encierra en un círculo todas las diferencias que encuentres en la imagen de abajo y escribe en el cuadro cuántas encontraste."
+    "instruction": "Encierra en un círculo cada diferencia de la imagen de abajo (algo puede haber desaparecido) y escribe en el cuadro cuántas encontraste."
   },
   "G1-414": {
     "title": "¿Qué cambió? Marca las palabras",
@@ -3045,7 +3045,7 @@
   },
   "G1-415": {
     "title": "Imagen en espejo: busca las diferencias",
-    "instruction": "La imagen 2 está al revés, como en un espejo; encierra las 4 cosas aún diferentes, marca un cuadrito por cada una y dobla por la línea para revisar."
+    "instruction": "La imagen 2 está volteada como en un espejo: encierra las 4 cosas o lugares vacíos distintos, marca un cuadrito por cada uno y dobla para revisar."
   },
   "K-399": {
     "title": "¿Qué falta en la imagen de abajo?",

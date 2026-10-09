@@ -3055,7 +3055,7 @@
   },
   "G1-413": {
     "title": "Hoeveel verschillen zijn er?",
-    "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt en schrijf dan in het vakje hoeveel verschillen je hebt gevonden."
+    "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt (er kan ook iets weg zijn) en schrijf in het vakje hoeveel je er hebt gevonden."
   },
   "G1-414": {
     "title": "Wat is er veranderd? Vink de woorden aan",
@@ -3063,7 +3063,7 @@
   },
   "G1-415": {
     "title": "Spiegelbeeld: verschillen zoeken en vouwen",
-    "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen die toch anders zijn, zet voor elk een vinkje in een vakje en vouw dan op de lijn om na te kijken."
+    "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen of lege plekken die toch anders zijn, zet voor elk een vinkje en vouw op de lijn om na te kijken."
   },
   "K-399": {
     "title": "Wat ontbreekt er in het plaatje?",
@@ -3099,7 +3099,7 @@
   },
   "G1-417": {
     "title": "{U} bij de vijver tekenen",
-    "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege vijver waar hij zat."
+    "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege plek in de vijver."
   },
   "G1-418": {
     "title": "Zet de stappen op volgorde: {L} tekenen",

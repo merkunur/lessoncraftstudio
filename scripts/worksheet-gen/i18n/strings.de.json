@@ -3067,7 +3067,7 @@
   },
   "G1-413": {
     "title": "Wie viele Unterschiede findest du?",
-    "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest, und schreibe dann in das Kästchen, wie viele es sind."
+    "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest (etwas kann auch fehlen), und schreibe dann in das Kästchen, wie viele es sind."
   },
   "G1-414": {
     "title": "Was hat sich verändert? Kreuze die Wörter an",
@@ -3075,11 +3075,11 @@
   },
   "G1-415": {
     "title": "Spiegelbild: Finde die Unterschiede",
-    "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, hake je ein Kästchen ab und falte dann an der Linie, um zu prüfen."
+    "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge oder leeren Stellen ein, die anders sind, hake je ein Kästchen ab und falte zum Prüfen an der Linie."
   },
   "K-399": {
     "title": "Was fehlt im Bild?",
-    "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt."
+    "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt, und hake für jede ein Kästchen ab."
   },
   "K-400": {
     "title": "Bildpaare: Finde den Unterschied",

@@ -1,0 +1,346 @@
+{
+  "locale": "it",
+  "types": {
+    "K-395": {
+      "title": "Trova le 5 differenze: {UNIT}",
+      "instruction": "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+    },
+    "K-397": {
+      "title": "Trova le 3 grandi differenze: {UNIT}",
+      "instruction": "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+    },
+    "K-398": {
+      "title": "Gioco delle differenze a colori",
+      "instruction": "Cerchia le 5 cose diverse nell'immagine colorata in basso e metti una crocetta per ognuna: almeno una ha cambiato colore."
+    },
+    "G1-412": {
+      "title": "Trova le 7 differenze allo stagno",
+      "instruction": "Cerchia le 7 differenze, 4 nella coppia di immagini a sinistra e 3 in quella a destra, e metti una crocetta per ognuna."
+    },
+    "G2-388": {
+      "title": "Trova le 10 differenze in giardino: livello difficile",
+      "instruction": "Cerchia le 10 differenze, 5 in ogni coppia di immagini, e metti una crocetta sotto la coppia per ogni differenza che trovi."
+    },
+    "G1-413": {
+      "title": "Quante differenze ci sono? Conta e scrivi",
+      "instruction": "Cerchia ogni differenza che trovi nell'immagine in basso (qualcosa può anche mancare), poi scrivi nel riquadro quante ne hai trovate."
+    },
+    "G1-414": {
+      "title": "Che cosa è cambiato? Segna le parole giuste",
+      "instruction": "Cerchia le 3 differenze nell'immagine in basso, poi metti una crocetta accanto alle parole delle cose che sono cambiate."
+    },
+    "G1-415": {
+      "title": "Differenze allo specchio: piega e controlla",
+      "instruction": "L'immagine 2 è come allo specchio: cerchia le 4 cose o posti vuoti ancora diversi, metti una crocetta per ognuno, poi piega sulla linea e controlla."
+    },
+    "K-399": {
+      "title": "Che cosa manca? Cerchia il posto vuoto",
+      "instruction": "Cerchia i 3 posti vuoti nell'immagine in basso dove manca qualcosa dell'immagine in alto e metti una crocetta per ognuno."
+    },
+    "K-400": {
+      "title": "Coppie di immagini: trova la differenza",
+      "instruction": "Ogni riga mostra lo stesso particolare due volte: cerchia l'unica cosa diversa nell'immagine a destra e metti una crocetta nella casella."
+    },
+    "G2-389": {
+      "title": "Trova e descrivi le differenze",
+      "instruction": "Cerchia le 3 differenze (qualcosa può mancare), poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+    },
+    "K-396": {
+      "title": "Come disegnare {L} passo dopo passo",
+      "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee nuove di ogni passaggio."
+    },
+    "K-401": {
+      "title": "Disegna {L} partendo da forme semplici",
+      "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi disegna intorno il contorno del cane e completalo seguendo i passaggi."
+    },
+    "K-402": {
+      "title": "Disegno guidato: ripassa e poi disegna {L}",
+      "instruction": "Ripassa con la matita il coniglio grigio, poi disegna il coniglio da solo nel riquadro vuoto accanto."
+    },
+    "K-403": {
+      "title": "Completa il disegno di {L}",
+      "instruction": "Guarda il cavallo completo, disegna le linee che mancano sul secondo cavallo, poi disegna un cavallo tutto tuo nel riquadro in basso."
+    },
+    "G1-416": {
+      "title": "Disegna {L} con la griglia",
+      "instruction": "Guarda il dinosauro sulla griglia e disegnalo nella griglia vuota un quadrato alla volta, poi ancora una volta senza griglia."
+    },
+    "K-404": {
+      "title": "Disegna {L} e scrivi la parola",
+      "instruction": "Segui i passaggi per disegnare il pesce nel riquadro, poi ripassa la parola scritta sotto e scrivila ancora una volta."
+    },
+    "G1-417": {
+      "title": "Disegna {L} nello stagno",
+      "instruction": "Segui i passaggi, poi disegna la rana nell'immagine, nel posto vuoto sullo stagno."
+    },
+    "G1-418": {
+      "title": "Metti in ordine i passaggi: disegna {L}",
+      "instruction": "I passaggi sono in disordine: scrivi da 1 a 5 nelle caselle accanto per rimetterli in ordine, poi disegna il gufo."
+    },
+    "G1-419": {
+      "title": "Copia ogni passaggio: disegna {L}",
+      "instruction": "Disegna quello che vedi in ogni passaggio nel riquadro sotto, aggiungendo ogni volta le linee arancioni, poi tutto l'uccello nel riquadro grande."
+    },
+    "G2-390": {
+      "title": "Disegna {L} e poi scrivi tre frasi",
+      "instruction": "Disegna l'orso seguendo i passaggi, poi scrivi tre frasi sul tuo orso sulle righe, cominciando dalle parole già stampate."
+    },
+    "G2-391": {
+      "title": "Disegna {L} a memoria",
+      "instruction": "Guarda bene la farfalla, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "gioco-delle-differenze",
+      "name": "Gioco delle differenze"
+    },
+    "how-to-draw": {
+      "slug": "disegno-guidato",
+      "name": "Disegno guidato"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Il bambino confronta due immagini quasi uguali, scopre che cosa è cambiato e cerchia ogni differenza: un gioco di osservazione che allena la percezione visiva.",
+      "short": "Gioco delle differenze: osserva e cerchia"
+    },
+    "how-to-draw": {
+      "full": "Il bambino impara a disegnare un animale passo dopo passo: prima il contorno, poi i particolari, fino al disegno completo che realizza da solo nel suo riquadro.",
+      "short": "Imparare a disegnare animali passo dopo passo"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Giochi delle differenze da stampare per la scuola dell'infanzia e la primaria: 3, 5, 7 o 10 differenze da trovare, con la versione da toccare sullo schermo e le soluzioni.",
+    "how-to-draw": "Come disegnare un gatto, un cane, un coniglio o un pesce passo dopo passo: disegni guidati da stampare per la scuola dell'infanzia, la classe prima e la seconda."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Nell'immagine 2,",
+      "changeWords": [
+        "manca",
+        "è in più",
+        "è più grande",
+        "è più piccolo",
+        "ha cambiato posto",
+        "è al contrario",
+        "non è più uguale"
+      ],
+      "strandNames": {
+        "Visual Perception": "Percezione visiva"
+      },
+      "rail": {
+        "slug": "gioco-delle-differenze",
+        "name": "Gioco delle differenze"
+      },
+      "strings": {
+        "base": {
+          "title": "Trova le 5 differenze: {UNIT}",
+          "instruction": "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+        },
+        "three-big": {
+          "title": "Trova le 3 grandi differenze: {UNIT}",
+          "instruction": "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+        },
+        "colour": {
+          "title": "Gioco delle differenze a colori",
+          "instruction": "Cerchia le 5 cose diverse nell'immagine colorata in basso e metti una crocetta per ognuna: almeno una ha cambiato colore."
+        },
+        "seven": {
+          "title": "Trova le 7 differenze allo stagno",
+          "instruction": "Cerchia le 7 differenze, 4 nella coppia di immagini a sinistra e 3 in quella a destra, e metti una crocetta per ognuna."
+        },
+        "ten-pairs": {
+          "title": "Trova le 10 differenze in giardino: livello difficile",
+          "instruction": "Cerchia le 10 differenze, 5 in ogni coppia di immagini, e metti una crocetta sotto la coppia per ogni differenza che trovi."
+        },
+        "how-many": {
+          "title": "Quante differenze ci sono? Conta e scrivi",
+          "instruction": "Cerchia ogni differenza che trovi nell'immagine in basso (qualcosa può anche mancare), poi scrivi nel riquadro quante ne hai trovate."
+        },
+        "what-changed": {
+          "title": "Che cosa è cambiato? Segna le parole giuste",
+          "instruction": "Cerchia le 3 differenze nell'immagine in basso, poi metti una crocetta accanto alle parole delle cose che sono cambiate."
+        },
+        "mirror-pair": {
+          "title": "Differenze allo specchio: piega e controlla",
+          "instruction": "L'immagine 2 è come allo specchio: cerchia le 4 cose o posti vuoti ancora diversi, metti una crocetta per ognuno, poi piega sulla linea e controlla."
+        },
+        "missing": {
+          "title": "Che cosa manca? Cerchia il posto vuoto",
+          "instruction": "Cerchia i 3 posti vuoti nell'immagine in basso dove manca qualcosa dell'immagine in alto e metti una crocetta per ognuno."
+        },
+        "pairs": {
+          "title": "Coppie di immagini: trova la differenza",
+          "instruction": "Ogni riga mostra lo stesso particolare due volte: cerchia l'unica cosa diversa nell'immagine a destra e metti una crocetta nella casella."
+        },
+        "write": {
+          "title": "Trova e descrivi le differenze",
+          "instruction": "Cerchia le 3 differenze (qualcosa può mancare), poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+        }
+      },
+      "tap": {
+        "fd-tap": "Guarda l'immagine in alto, poi tocca ogni punto dell'immagine in basso che è diverso.",
+        "fd-tapCount": "Trova tutte le differenze nell'immagine in basso, poi tocca il numero che dice quante sono.",
+        "fd-tapMirror": "L'immagine in basso è come riflessa in uno specchio. Tocca ogni punto che è ancora diverso.",
+        "fd-tapMissing": "Tocca ogni posto vuoto dell'immagine in basso dove manca qualcosa dell'immagine in alto.",
+        "fd-tapPairs": "Ogni coppia mostra lo stesso particolare due volte. Tocca l'unica cosa diversa nella seconda immagine di ogni coppia.",
+        "fd-tapWords": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate.",
+        "fd-tapPairs2": "Due coppie di immagini: in ogni coppia guarda l'immagine 1, poi tocca ogni punto dell'immagine 2 che è diverso."
+      },
+      "numberWords": {
+        "3": "tre",
+        "5": "cinque",
+        "7": "sette",
+        "10": "dieci"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "un gatto",
+          "stem": "gatt",
+          "n": "Gatto"
+        },
+        "animals-bw-2-dog": {
+          "t": "un cane",
+          "stem": "cane",
+          "n": "Cane"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "un coniglio",
+          "stem": "conigli",
+          "n": "Coniglio"
+        },
+        "farm-animals-bw-pony": {
+          "t": "un cavallo",
+          "stem": "cavall",
+          "n": "Cavallo"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "un dinosauro",
+          "stem": "dinosaur",
+          "n": "Dinosauro"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "un pesce",
+          "stem": "pesc",
+          "n": "Pesce"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "una rana",
+          "stem": "rana",
+          "n": "Rana"
+        },
+        "animals-bw-5-owl": {
+          "t": "un gufo",
+          "stem": "guf",
+          "n": "Gufo"
+        },
+        "birds-bw-hummingbird": {
+          "t": "un uccello",
+          "stem": "uccell",
+          "n": "Uccello"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "un orso",
+          "stem": "ors",
+          "n": "Orso"
+        },
+        "easter-bw-butterfly": {
+          "t": "una farfalla",
+          "stem": "farfall",
+          "n": "Farfalla"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "gatto",
+        "animals-bw-2-dog": "cane",
+        "animals-bw-4-rabbit-2": "coniglio",
+        "farm-animals-bw-pony": "pony",
+        "animals-bw-3-dinosaur": "dinosauro",
+        "animals-bw-3-fish-2": "pesce",
+        "animals-bw-3-frog-2": "rana",
+        "animals-bw-5-owl": "gufo",
+        "birds-bw-hummingbird": "colibrì",
+        "zoo-animals-bw-bear-2": "orso",
+        "easter-bw-butterfly": "farfalla"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Il mio orso è",
+          "Il mio orso sa",
+          "Gli piace"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Come disegnare {L} passo dopo passo",
+          "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee nuove di ogni passaggio."
+        },
+        "shapes": {
+          "title": "Disegna {L} partendo da forme semplici",
+          "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi disegna intorno il contorno del cane e completalo seguendo i passaggi."
+        },
+        "trace": {
+          "title": "Disegno guidato: ripassa e poi disegna {L}",
+          "instruction": "Ripassa con la matita il coniglio grigio, poi disegna il coniglio da solo nel riquadro vuoto accanto."
+        },
+        "finish": {
+          "title": "Completa il disegno di {L}",
+          "instruction": "Guarda il cavallo completo, disegna le linee che mancano sul secondo cavallo, poi disegna un cavallo tutto tuo nel riquadro in basso."
+        },
+        "grid": {
+          "title": "Disegna {L} con la griglia",
+          "instruction": "Guarda il dinosauro sulla griglia e disegnalo nella griglia vuota un quadrato alla volta, poi ancora una volta senza griglia."
+        },
+        "word": {
+          "title": "Disegna {L} e scrivi la parola",
+          "instruction": "Segui i passaggi per disegnare il pesce nel riquadro, poi ripassa la parola scritta sotto e scrivila ancora una volta."
+        },
+        "scene": {
+          "title": "Disegna {L} nello stagno",
+          "instruction": "Segui i passaggi, poi disegna la rana nell'immagine, nel posto vuoto sullo stagno."
+        },
+        "order": {
+          "title": "Metti in ordine i passaggi: disegna {L}",
+          "instruction": "I passaggi sono in disordine: scrivi da 1 a 5 nelle caselle accanto per rimetterli in ordine, poi disegna il gufo."
+        },
+        "copy-steps": {
+          "title": "Copia ogni passaggio: disegna {L}",
+          "instruction": "Disegna quello che vedi in ogni passaggio nel riquadro sotto, aggiungendo ogni volta le linee arancioni, poi tutto l'uccello nel riquadro grande."
+        },
+        "write": {
+          "title": "Disegna {L} e poi scrivi tre frasi",
+          "instruction": "Disegna l'orso seguendo i passaggi, poi scrivi tre frasi sul tuo orso sulle righe, cominciando dalle parole già stampate."
+        },
+        "memory": {
+          "title": "Disegna {L} a memoria",
+          "instruction": "Guarda bene la farfalla, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande.",
+          "foldWord": "piega"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Percezione visiva",
+    "Art": "Arte e immagine"
+  },
+  "enAudit": [
+    "find-the-differences pairs (K-400): the EN bank title says 'Picture Pairs: Find the Differences' (plural) while the face has exactly ONE difference per row, the instruction says 'the one place that is different', and both the FINAL §3 and _records/b7var-id-allocation.json record 'Find the Difference' (singular): the bank and the record disagree, and the plural head contradicts the move.",
+    "how-to-draw scene (G1-417): the instruction says 'draw the frog BACK into the picture, on the empty pond where it WAS', but the page never shows the frog inside the picture (the steps show it alone), so 'back' and 'where it was' refer to a state the child has not seen; 'draw the frog on the empty pond' is what the page supports.",
+    "find-the-differences colour (K-398): the family is split between two spellings — the title and instruction say 'Color/colored' while the mode, the file slug (find-the-differences-in-colour), the FINAL and the allocation record say 'Colour'; pick one for the EN market (the US spelling is the deeper head) and align the record.",
+    "find-the-differences how-many (G1-413): the EN sweep render (seed null, d2) lands on SIX differences, of which the sixth is the removed roof window — a 'detail' erasure inside the house that reads as part of the drawing, not as a missing thing, and is much harder than the other five on a page whose count is secret; worth excluding 'detail' from the how-many kinds or pinning a seed without it.",
+    "find-the-differences three-big (K-397): the goose is MIRRORED in picture 2 (faces right instead of left) and is also the hero on the pond; for a first-ever comparison a flipped goose is subtle against the other two 'big' changes (a new butterfly, a smaller sun) — the 'big' promise of the title is honest for size/remove/add, less so for a mirror of a symmetric-looking bird.",
+    "find-the-differences what-changed (G1-414) / write (G2-389) / pairs (K-400): the drawing listed as 'bird' is a CHICK in every render (the garden chick, nature bw/bird); EN children say 'chick' for it, so the strip word 'bird' is a hypernym — acceptable, but the landing should not call it a bird when it names the pictures.",
+    "how-to-draw copy-steps (G1-419): the four boxes under the steps are 150 × 136 landscape while the hummingbird in each card is drawn at the same width, so the child must redraw a bird that fills the card into a box of the same size — fine — but the wide paper below is 387 × 350, nearly square, for a 1.106-ratio bird; the EN instruction 'then the whole bird below' does not say the paper is bigger, which is the point of the face.",
+    "how-to-draw finish (K-403): the 'second horse' copy lacks the eyelashes, nostril and mouth (the omitted 'features' step), yet keeps the pupils, so the copy reads as a complete, slightly sad horse rather than an unfinished one; a child may not see what is missing without the dot/ring badge being explained, and no string names the badges.",
+    "find-the-differences mirror-pair (G1-415): the EN instruction says 'tick a box for each, then fold on the line to check' but the four boxes sit UNDER picture 2 only (space-evenly, centred under the right picture) with no column label, so on a side-by-side page the boxes look like they belong to picture 2 alone; the EN wording 'tick a box for each' is fine, the layout cue is the gap.",
+    "how-to-draw base (K-396): the bank's UNITS comment and the FINAL §5 record the cat with steps:5 and a foldFloor, while the rendered K base shows FOUR steps and the instruction says 'four numbered steps' — the render is right for K (K_STEPS = 4); the bank/FINAL comment is stale and should say 4 (or record the fold)."
+  ]
+}

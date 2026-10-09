@@ -7,7 +7,7 @@
     "kleiner",
     "verplaatst",
     "omgedraaid",
-    "veranderd"
+    "anders"
   ],
   "strandNames": {
     "Visual Perception": "Visuele waarneming"
@@ -39,7 +39,7 @@
     },
     "how-many": {
       "title": "Hoeveel verschillen zijn er?",
-      "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt en schrijf dan in het vakje hoeveel verschillen je hebt gevonden."
+      "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt (er kan ook iets weg zijn) en schrijf in het vakje hoeveel je er hebt gevonden."
     },
     "what-changed": {
       "title": "Wat is er veranderd? Vink de woorden aan",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Spiegelbeeld: verschillen zoeken en vouwen",
-      "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen die toch anders zijn, zet voor elk een vinkje in een vakje en vouw dan op de lijn om na te kijken."
+      "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen of lege plekken die toch anders zijn, zet voor elk een vinkje en vouw op de lijn om na te kijken."
     },
     "missing": {
       "title": "Wat ontbreekt er in het plaatje?",

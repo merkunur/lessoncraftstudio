@@ -2,11 +2,11 @@
   "starter": "Sur l'image 2,",
   "changeWords": [
     "manque",
-    "en plus",
+    "est en plus",
     "a grandi",
     "a rétréci",
     "a bougé",
-    "à l'envers",
+    "est à l'envers",
     "a changé"
   ],
   "strandNames": {
@@ -27,7 +27,7 @@
     },
     "colour": {
       "title": "Jeu des différences en couleur",
-      "instruction": "Entoure les 5 choses qui ont changé dans l'image en couleur du bas et coche une case pour chacune : l'une d'elles a changé de couleur."
+      "instruction": "Entoure les 5 choses qui ont changé dans l'image en couleur du bas et coche une case pour chacune : au moins l'une d'elles a changé de couleur."
     },
     "seven": {
       "title": "Jeu des 7 erreurs à la mare",
@@ -39,7 +39,7 @@
     },
     "how-many": {
       "title": "Combien de différences ? Compte-les",
-      "instruction": "Entoure toutes les différences que tu trouves dans l'image du bas, puis écris dans la case combien tu en as trouvé."
+      "instruction": "Entoure chaque différence que tu trouves dans l'image du bas (quelque chose peut manquer), puis écris dans la case combien tu en as trouvé."
     },
     "what-changed": {
       "title": "Qu'est-ce qui a changé ? Coche les mots",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Images en miroir : plie et vérifie",
-      "instruction": "L'image 2 est en miroir : entoure les 4 choses encore différentes, coche une case pour chacune, puis plie sur la ligne pour vérifier."
+      "instruction": "L'image 2 est en miroir : entoure les 4 choses ou endroits vides différents, coche une case pour chacun, puis plie sur la ligne pour vérifier."
     },
     "missing": {
       "title": "Qu'est-ce qui manque dans l'image du bas ?",
@@ -65,7 +65,7 @@
   "tap": {
     "fd-tap": "Regarde l'image du haut, puis touche chaque endroit de l'image du bas qui est différent.",
     "fd-tapCount": "Trouve toutes les différences dans l'image du bas, puis touche le nombre qui dit combien il y en a.",
-    "fd-tapMirror": "L'image du bas est retournée comme dans un miroir. Touche chaque endroit qui est quand même différent.",
+    "fd-tapMirror": "L'image du bas est inversée comme dans un miroir. Touche chaque endroit qui est quand même différent.",
     "fd-tapMissing": "Touche chaque endroit vide de l'image du bas où il manque quelque chose de l'image du haut.",
     "fd-tapPairs": "Chaque paire montre le même gros plan deux fois. Touche le seul endroit qui est différent dans la deuxième image de chaque paire.",
     "fd-tapWords": "Trouve ce qui a changé dans l'image du bas, puis touche les mots des choses qui ont changé.",

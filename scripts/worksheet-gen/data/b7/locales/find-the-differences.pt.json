@@ -7,7 +7,7 @@
     "ficou menor",
     "mudou de lugar",
     "está ao contrário",
-    "mudou"
+    "está diferente"
   ],
   "strandNames": {
     "Visual Perception": "Discriminação visual"
@@ -39,7 +39,7 @@
     },
     "how-many": {
       "title": "Quantas diferenças você encontra?",
-      "instruction": "Circule todas as diferenças que você achar na figura de baixo e depois escreva no quadro quantas você encontrou."
+      "instruction": "Circule cada diferença que você achar na figura de baixo (algo pode ter sumido) e escreva no quadro quantas você encontrou."
     },
     "what-changed": {
       "title": "O que mudou? Marque as palavras",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Figuras no espelho: dobre e confira",
-      "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas que ainda estão diferentes, marque os quadradinhos e dobre na linha para conferir."
+      "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas ou lugares vazios diferentes, marque os quadradinhos e dobre na linha para conferir."
     },
     "missing": {
       "title": "O que está faltando? Circule o lugar vazio",

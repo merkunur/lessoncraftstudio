@@ -55,7 +55,7 @@
     },
     "K-402": {
       "title": "Rita över {L}, rita sedan själv",
-      "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+      "instruction": "Rita över den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
     },
     "K-403": {
       "title": "Rita färdigt {N}",
@@ -288,7 +288,7 @@
         },
         "trace": {
           "title": "Rita över {L}, rita sedan själv",
-          "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+          "instruction": "Rita över den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
         },
         "finish": {
           "title": "Rita färdigt {N}",

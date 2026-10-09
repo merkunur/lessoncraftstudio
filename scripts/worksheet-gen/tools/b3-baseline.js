@@ -36,6 +36,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { loadAllTypes } = require('../lib/load-types.js');
+const resetCounters = () => { for (const f of ['../primitives/animal-home.js', '../primitives/habitat-tile.js']) { try { require(f).resetUid(); } catch (e) { /* a primitive without the hook */ } } };
 const { makeRng, instanceSeed } = require('../lib/rng.js');
 const { resolveStrings } = require('../i18n/strings.js');
 const { enumerate } = require('../enumerate.js');
@@ -69,6 +70,7 @@ async function computeBuild(opts) {
       const key = `${id}|${theme || 'nothm'}|d${difficulty}|${locale}`;
       try {
         const rng = makeRng(instanceSeed({ typeId: id, theme, difficulty, seedEpoch: 1 }));
+        resetCounters();   // process-global clip-id counters (animal-home / habitat-tile) made the hash depend on the run's order
         const built = await type.build({ theme, difficulty, locale }, { rng });
         const strings = resolveStrings(id, locale, type);
         let body = built.bodyHtml;

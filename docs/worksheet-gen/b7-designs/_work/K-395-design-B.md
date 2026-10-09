@@ -1,0 +1,170 @@
+# K-395 `find-the-differences` : DESIGN B (2026-10-09) : "The Spotter's Ledger"
+
+(m) = measured 2026-10-09: node over all 297 `data/fd/*.json` (200 plain + 59 `-rich` + 38 singles; scratch `K-395-B-measure{,2,3}.js` in the session scratchpad) through the REAL `lib/fd-compose.js pickOps` + `lib/rng.js makeRng`, 6 to 30 seeds per scene, a scene counted IN when at least 50 % of its seeds compose; `lib/fd-scene.js renderPanel` (frame rx 18 / 6 units, ring = bbox inflated 10 units by the composer + 14 units by the ellipse, stroke 7 units, hotspots as `<rect>`); `render/render-instance.js:59-80` (`again({interactive:true})` / `again({answerKey:true})` rebuild the SAME instance, `spec.screenHeight` sets the screen page height, `sameAs` asserts identical meta); `page/page.css` (`.ws-page` inner 675, `.ws-lane` padding 12/16 + 2 border = inner 639 wide and budget minus 28 tall); the sheets `%TEMP%\spl\fd-sheets\line\{farm-cow,farm-cow-rich,forest-fox}.png`, `colour\{pond-duck,town-bus,winter-snowman}.png`, `fd\farm-cow-5-line-page.png`; the house renders `out/b6-sweep/en/{K-379,G1-399}-null-d2-en.png`. *est.* = not measured in the real render. No em-dashes.
+
+**Boundary.** This page is NOT K-061 "Spot the Differences" (an icon scatter with k icons swapped for other nouns; its bare-head titles in ten locales stay its own), NOT K-062 (find the two identical pictures) or K-063 "Mirror, Mirror" (pick the true mirror image of ONE icon; F7 here never asks which picture is the mirror, it says so and asks for crafted differences inside it), NOT `odd-one-out` / `visual-matching` (which picture is different), NOT `grid-copy` K-286/298-300 (copy squares), NOT `symmetry` G2-253/264/265 (draw the other half; F7 never asks to draw), NOT `color-by-number` K-393/394 (the SAME 200 scenes with numbered parts; this family never prints a number on a part), NOT `picture-writing` G2-278/299/300 (write to ONE picture; F10 writes about a difference between two), NOT the sibling `how-to-draw` K-396 (F8 circles an empty place; nothing here teaches drawing). It owns only: two engine renderings of one layered scene (`lib/fd-scene.js`), the second carrying N gated ops (`data/fd/<id>.json cands`, picked by `lib/fd-compose.js pickOps`), circled on paper, tapped on the screen, ringed on the key. **Visual signature:** the two pictures STACKED on the left (picture 1 over picture 2, the twin of every drawing straight below it), each with a white index TAB "1" / "2" hanging off its right edge like a card index, and on the right a cream LEDGER of N empty tick boxes the child ticks as each difference is found. Nothing else on the body: no text but the bank words of F6 / F10 and the starter of F10.
+
+## 1 Page concept (base)
+
+"Find 5 Differences on the Farm" (K). From across the room: two big square line pictures one above the other, a column of five empty boxes beside them. The idea in one sentence: **look down, not across.** Picture 1 sits over picture 2 with the same left edge, so every drawing's twin is directly below it; a child slides a finger down from the cloud to the cloud, from the barn to the barn. The pencil works on the BOTTOM picture, so the reference above stays uncovered for a right hand and for a left hand alike (side by side, a left-handed child's forearm lies across picture 1 while circling picture 2). The ledger answers the question every five-year-old asks halfway through: "how many have I got?" Five boxes = the five of the title; a tick per find; the teacher sees "done" at a glance and the count becomes a thing you can touch (one box per difference, one-to-one). And the printed page is the SCREEN page: `render-instance.js` builds the tap version from the same instance and the house rule stacks it; here paper and tablet show the same arrangement, the child does not re-learn the page.
+
+Why it is top quality: one focal apparatus (the stacked twins) as big as the budget allows (354 px wide, 0.59 px/unit, 12 % wider than the 315 of a side-by-side pair in the 639 lane, +26 % area); generous air (the ledger column carries five boxes and nothing else; 50 px of air under the pictures at the 722 budget); pencil-first (circles on the picture, ticks in 56 px boxes, a numeral box on F5, word ticks on F6, ruled rows on F10); no text in the body.
+
+## 2 Layout (d2, 722 body)
+
+The body is laid out directly in `.ws-page` (inner **675**), NOT inside a `.ws-lane` (a cream lane around two ink-framed pictures is a frame around frames, and its 28 px of vertical padding would cost 15 px of picture width). Root `<div class="fd-page" data-ws-content data-lcs-fd-count="5" data-lcs-fd-mode="base">`, `display:grid; grid-template-columns: 354px 18px 30px 273px; grid-template-rows: minmax(330px,1fr) 12px minmax(330px,1fr)`; the pictures never stretch (fixed SVG width), slack becomes bottom air.
+
+```
+x: 0        354  372 402                      675
+   +----------+ [1]                              <- tab 30 x 40 at y 14, hangs on the right frame edge
+   |          |      +-------------------------+
+   | picture 1|      | ledger card 273 x 348   |   cream #FBF3E4, border 2 #F5E9D2, r 14, padding 14
+   | 354 x 330|      |  1  [56]                |   numeral Baloo 2 700 20 teal, box 56 x 56 r 12,
+   |  0.59 ppu|      |  2  [56]                |   white, teal 2.5 stroke; row pitch 66 (56 + 10)
+   +----------+      |  3  [56]                |
+   gap 12            |  4  [56]                |
+   +----------+ [2]  |  5  [56]                |   5 x 56 + 4 x 10 + 2 x 14 = 348
+   |          |      +-------------------------+
+   | picture 2|                                     air
+   | 354 x 330|
+   |          |
+   +----------+
+height: 330 + 12 + 330 = 672 <= 677 (fi four-line title) <= 722 (3-line title + 3-line instruction)
+width:  354 + 18 + 30 + 273 = 675 = .ws-page inner
+```
+
+- **Picture** = `renderPanel(scene, ops, {mode, width:354, attrs:' data-lcs-fd-panel="1|2"'})`: height = round(354 x 560/600) = 330; **0.59 px/unit** (a 60-unit cloud = 35 px, a 270-unit hero = 159 px, the engine frame 6 units = 3.5 px, a 7-unit stroke = 4.1 px). Picture 1 carries no ops; picture 2 carries the composed ops; the print page passes neither `rings` nor `hotspots` (0 `data-lcs-fd-ring` on the print page, poison PR3).
+- **Index tab** (NEW `fdIndexTab`, section 5): 30 x 40, white, teal 2.5, right corners r 12, flat left edge overlapping the frame stroke by 1 px, numeral Baloo 2 700 22 teal; `position:absolute; left:353px; top:14px` inside the picture cell. **Why outside the frame (m):** 265 of 297 scenes carry a drawing or a candidate bbox inside the top-left 56-unit square (the sky props sit at x 22..82), 201 inside the top-right; a badge INSIDE the frame corner covers art on most scenes. The tab lives in the 18 + 30 gutter the ledger column leaves anyway, so it costs 0 px of picture.
+- **Ledger** (NEW `fdLedger`, section 5): `{n:5, box:56, gap:10, numerals:true}`; top-aligned with picture 1 (the column's y 0, never with picture 2: a 7-row ledger is 412 tall and a 5-word F6 column may wrap to 338, both overflow from y 342). Box sizes per band: **K 56 / G1 48 / G2 44** (the band's min element), tick room at least 36 px inside.
+- **Worst-case chrome:** the stack is 672 at the fi 677 budget (5 px slack); at 722 it leaves 50 px of bottom air; at the common 2-line chrome (781) 109 px of air under the pictures, which reads as a calm margin, not a hole (the pictures are width-bound at 354 only because they are height-bound at 677: `panelW = floor((677 - 12) / (2 x 560/600)) = 356`, taken as 354 for a 5 px margin; the engineer may raise it to 356 after measuring the fi four-line render).
+- **Measured (m) vs est.:** all picture / tab / ledger numbers are arithmetic on the engine's 600 x 560 frame and the house CSS; the ledger card height (348) assumes the numeral column 24 px wide *est.*; every bank-word width in section 6 *est.*
+
+## 3 Ladder
+
+| key | d1 | d2 (ships) | d3 |
+|---|---|---|---|
+| `mode` | `base` | **`base`** | `base` |
+| `count` (= `cfg.n`, = the title digit) | 4 | **5** | 6 |
+| `scene` (unitAxis, the `-rich` copy) | `farm-cow` (plain, 4 drawings: 4 composes at K *est.*; 5 does NOT, m 0/30) | **`farm-cow-rich`** (12 drawings, 40 cands; 5 at the K floor **30/30**, m) | `farm-cow-rich` |
+| `layout` | `stack` | **`stack`** | `stack` |
+| `panelW` / px per unit | 354 / 0.59 | **354 / 0.59** | 354 / 0.59 |
+| `floor` (`FLOORS[K]`: ring >= 25 px, area >= 1,200 units2, move >= 55 px = 93 units) | K | **K** | G1 (ring >= 21 px, area >= 900) |
+| `kinds` | remove add swap mirror scale | **remove add swap mirror scale move** | + detail |
+| `minSepPx` | 26 | **26** | 24 |
+| `ledger.box` | 56 | **56** | 48 |
+| `heroProb` | 0.6 | **0.6** | 0.6 |
+
+d2 is the best page because 5 is the Nordic genre count and the first number a child counts on one hand; the K floor is only reachable on densified scenes (plain scenes: **21 of 200** compose 5 at K, all 5-drawing garden scenes, m; rich: **54 of 59**), and 12 drawings at 0.59 px/unit is still a readable farmyard (the sheet `farm-cow-rich.png`, read). d1 (4) is the plain-scene page; d3 (6) adds `detail`.
+
+## 4 Answer-hiding + uniqueness
+
+The print page prints picture 1 and picture 2 and five EMPTY boxes; no ring, no hotspot rect, no numeral but the tab index and the ledger ordinals 1..5 (which count boxes, not differences; they are identical on every page of the face). The composer's `rings` go ONLY to the key render (`again({answerKey:true})` then `renderPanel(..., {rings})` on picture 2 + `fdLedger({ticks:[1,1,1,1,1]})` coral check marks); the hotspots go ONLY to the screen render. The child circles on picture 2 and ticks one box per find; a wrong page is visible to the teacher in three ways: a circle where the key has no ring, a ring where the child has no circle, a tick count other than 5. Uniqueness: every difference is one gated op on one drawing (`applyOps` throws on two ops per item); the composer keeps rings at least 26 printed px apart and in at least 3 quadrants, so no two circles can be read as one. **Ring-ellipse trap (seen on `fd\farm-cow-5-line-page.png`):** the key ellipse is the change box + 10 units (composer) + 14 units (renderPanel) each side, so two boxes 24 px apart print as rings that TOUCH (the cow ring and the barn-window ring on that page). Rule for the build: the composer's separation test runs on the RING boxes (`inflate(diff, 24)`), not on the change boxes, or `minSepPx` rises to 24 + 2 x 14 x 0.59 = 41 px on the change boxes; either way the key's rings never touch.
+
+## 5 Primitives / components
+
+**Reused (exact).** `lib/fd-scene.js renderPanel(scene, ops, {mode, width, rings, hotspots, attrs, clipId})` (two panels per page need distinct `clipId`s: `fdclip1` / `fdclip2`, else the second clipPath id collides) · `lib/fd-compose.js pickOps(scene, cfg, rng)` returning `{ops, rings, hotspots, quadrants}` · `lib/rng.js makeRng` (STRING seed) · `blankNumeralBox({w:88, h:64, answer:''})` (`templates/components-b3/ordinal-numbers.js:151`, m; F5) · `rulingBlock({rows:1, w:600, h:44, glyphH:20, starters:{0:starter}})` + `starterFontPx` (`templates/components-b2.js:76 / :69`, m; F10) · `wordBank({words, wordPx:17})` (`components-b2.js:228`, m; F10 nouns + change words; its 16 px `tick` is NOT used) · `primitives/_svg.js svgRoot el roundedRect circle label esc` · `primitives/_tokens.js color` · `lib/unit-axis.js` · `lib/b2-common.js vocab() excluded displayWord` · `data/cbn/designs.js names[loc]` for `{UNIT}`.
+
+**NOT used.** `.ws-lane` around the pictures (frames around ink frames; costs 28 px of the stack) · `countBadge(n)` (26 px teal disc with a 14 px numeral: below the K floor and the wrong colour weight beside an ink frame) · `cardGrid` (numbered badges inside cards) · `pillChoice` · any `<img>` (the panels are inline SVG, `assetClass:'icon-placement'` as K-393) · `iconScatter` / `mixedScatter` (K-061's mechanic) · `b3-picture-index` / `entriesFor` (the drawings are BW-dir srcs) · `cutLines` (nothing is cut; F7 FOLDS).
+
+**NEW in `templates/components-b7/find-the-differences.js`** (behind `templates/components-b7.js`; every export prefixed `fd`; inline CSS, class prefix `fd-`; the root of every face stamps `data-ws-content`):
+- `fdIndexTab({n, h=40, w=30})`: SVG 30 x 40, `path M0,0 H18 a12,12 0 0 1 12,12 V28 a12,12 0 0 1 -12,12 H0 Z` fill white, stroke teal 2.5, stroke-linejoin round; `<text x=15 y=20 font-family="Baloo 2" font-weight=700 font-size=22 fill=teal text-anchor=middle dominant-baseline=central>n</text>`; `data-lcs-fd-tab=n`. Min size 26 x 34 (the numeral 19 px).
+- `fdPicture({svg, w, tab})`: `<div class="fd-pic" style="position:relative;width:${w}px;flex:0 0 auto">${svg}<span style="position:absolute;left:${w-1}px;top:14px">${fdIndexTab({n:tab})}</span></div>`.
+- `fdStack({p1, p2, gap=12})`: the two pictures in a column; `fdColumns({left, right, gutter=18, tabW=30})`: the page grid of section 2.
+- `fdLedger({n, box=56, gap=10, numerals=true, ticks=null, orient='column'|'row'})`: a cream card (`background:#FBF3E4;border:2px solid #F5E9D2;border-radius:14px;padding:14px`), rows `<div class="fd-ledger-row" data-lcs-fd-box=i>` = `<span>` Baloo 2 700 20 teal (width 24, right-aligned) + 10 + `<span class="fd-box">` box x box, white, teal 2.5, r 12. `ticks[i]` truthy (key only) draws an SVG check inside: `path M12,30 L24,42 L44,16` coral stroke 5, round caps, scaled to the box. `orient:'row'` lays the boxes in one line (F4, F7, F9) with the numeral ABOVE each box (Baloo 16). Row pitch column: box + gap; row: box + 12.
+- `fdWordTicks({words:[{k, text, changed}], box=28, ticks=null})`: one `<div class="fd-wordtick" data-lcs-fd-word=k>` per word: box 28 x 28 (teal 2, r 6, white) + 10 + the word Nunito 800 18 ink, `white-space:normal` (a long de/fi noun wraps inside 273 - 28 - 28 - 10 = 207 px *est.*), min row height 36, gap 10; `data-lcs-fd-changed` only on changed words (stamped by the build from the ops, never from the bank); the key draws the coral check in the changed boxes.
+- `fdFoldLine({h, x})`: an absolutely positioned SVG 16 x h: `line x=8 y1=0 y2=h` stroke `#C8BFAE` (grid) 2 dasharray `8 6`, plus a fold glyph at top and bottom (`path M2,10 C2,2 14,2 14,10` teal 2, an arc = "fold over"; no text). `data-lcs-fd-fold="x"`.
+- `fdWindowRow({w1, w2, tab, tickBox})` (F9): `[window 1 260][40][window 2 260 + tab][14][tick box 56]`.
+- NO new `primitives/*.js`: nothing is drawn but boxes, tabs, a dashed line and a check mark, all `_svg.js` elements on the tokens.
+
+**Engine knobs the build asks for (additive, on `renderPanel`):** `flip:true` (F7: `transform="translate(600 0) scale(-1 1)"` on the layer group; rings / hotspots mirrored `[600 - x1, y0, 600 - x0, y1]`) and `viewBox:[x0, y0, w, h]` + `frame:'window'` (F9: a 3-unit frame on the crop). Both are in the pedagogy file section B (F7, F9); nothing else new in `lib/`.
+
+## 6 Locale slot structure
+
+- **Body text slots:** NONE on base / F1 / F2 / F3 / F4 / F5 / F7 / F8 / F9 (numerals only: tab index 1 / 2, ledger ordinals, the F5 answer box empty). **F6:** the word column, one `vocab()[key][loc][0]` per picture-1 drawing (5 on `garden-bunny`), `displayWord` (lower-case except de), Nunito 800 18, wrapping allowed inside 207 px *est.* (de "Schmetterling" 13 ch = 105 px *est.*, fi "lehmä" short; the +40 % reserve is the wrap, never a smaller font). **F10:** `wordBank` under the pictures (nouns + ALL change words, shuffled; wraps to 2 lines at 600 px: 110 px *est.*) and the starter on every ruled row (`starterFontPx` from `font-metrics.json`; de "Auf Bild 2" / fi "Kuvassa 2" / fr "Sur l'image 2," are the panel's literals; a starter longer than 40 % of the row, *est.* 240 px, is refused by `verify-ruling-starters.js`).
+- **Chrome slots:** title (Baloo 2 30, at most 3 lines; fi at most 4) and the ONE instruction sentence (Nunito 700 17, at most 150 chars, at most 3 lines) are the house strip; the instruction names the apparatus of the face: base "pictures + circle + tick box", F5 "+ box", F6 "+ words", F7 "+ fold line", F8 "+ empty place", F9 "+ rows", F10 "+ lines + bank".
+- **Fonts:** Baloo 2 for every numeral (tabs 22, ledger 20 / 16, F5 answer numeral at least 30 on the key); Nunito for words (18 F6, 17 bank, starter sized by metrics). **Font floor:** the smallest printed text is the F4 / F7 / F9 row-ledger ordinal at 16 px (above 9); the tap instruction on the screen is chrome.
+- **Where the panel can refuse without code:** a scene (`EXCLUDE_SCENES.<mode>.<loc>`), a word (`REFUSED_WORDS`), a change word (fewer than 4 safe literals refuses F10 in that locale). The ledger, tabs and fold line carry no language.
+
+## 7 Ten variation faces (F1..F10)
+
+Every face: the section 2 architecture unless stated; PDF + screen (the screen rule below) + key; `mode` knob + `verify()` branch; guards on `d.mode` / `d.count` / `d.layout` / `d.flip` / `d.rows` / `d.pairs`, never the level index. Pools are (m) at the face's own scale and band floor; "pinned" = the unit the wave publishes.
+
+**F1 Find 3 Differences (K, `mode:'three-big'`, pinned `pond-frog` plain).** DELTA: the ledger has THREE boxes at **64 px** (the biggest boxes of the family) and the pictures are the plain 4-drawing scene, so the page is the emptiest of the eleven: two near-empty pictures, three big boxes, three big changes (`kinds` remove add swap mirror scale, `minArea:1500`, ring at least 25 px). Layout = section 2 (354 x 330 stacked, 672). Pool (m): plain **162 / 200** (`pond-frog` 30/30), rich 68/68. Verify: count 3, every op kind in the big set, every area at least 1,500, ledger `n=3 box=64`. Query face: "find 3 differences / ache as 3 diferenças / spot the difference for 5 year olds / makkelijk / fácil".
+
+**F2 Find the Differences in Colour (K, `mode:'colour'`, pinned `pond-duck-rich`).** DELTA: both pictures PAINTED (`renderPanel mode:'colour'`, the reviewed crayons), the ledger boxes get a 4 px coralSoft inner band (the only face whose apparatus hints colour), and at least 1 difference is a crayon change (`needColour:true`, `minLumaDelta:40` so a B&W printer still shows it: the blue duck in the yellow duck's place, luma 127 vs 203). Layout = section 2. Pool (m, rich, K floor, luma delta at least 40): **52 / 59**; plain 30 / 200. Verify: at least 1 `colour` op; the raster diff on RGB; key = colour picture 2 + rings. Query face: "a color / colorido / en couleur / in colour".
+
+**F3 Find 7 Differences (G1, `mode:'seven-dense'`, pinned `garden-dog-rich`).** DELTA: ONE rich pair (13 drawings, 52 cands) stacked as section 2 with a **7-row ledger of 48 px boxes** (7 x 48 + 6 x 8 + 28 = 412 tall, beside picture 1 and the gap). **Layout for 7 = one pair, stacked at 0.59 (m: 35 of 59 rich scenes compose 7 separated, spread G1-floor differences at this scale; `garden-dog-rich` 30/30; at the side-by-side 0.53 the same class measures 30/59).** Why one pair: "jeu des 7 différences / jogo dos 7 erros" IS one busy picture pair; two pairs of 4 + 3 would be two puzzles wearing one title. Verify: count 7, the dense adds present on BOTH panels (same `data-lcs-fd-layer` idx 100 and up), ledger `n=7`. Query face: the 7 head (fr 27 / pt 32 / nl 30 harvested forms).
+
+**F4 Find 10 Differences (G2, `mode:'ten-pairs'`, pinned `farm-horse-rich` + `farm-sheep-rich`).** DELTA: TWO stacked pairs side by side (two columns of the family's vertical twins), 5 differences in each, and under each column a horizontal 5-box ledger row. **Layout for 10:**
+```
+[tab]        [tab]
++--300x280--+ 40 +--300x280--+   column A = scene A pic 1 over pic 2; column B = scene B
++--300x280--+    +--300x280--+   280 + 12 + 280 = 572; width 300 + 40 + 300 + 34 (B's tabs) = 674 <= 675
+ [44][44][44][44][44]  x2        ledger row 5 x 44 + 4 x 8 = 252 under each column, 10 above
+height 572 + 10 + 44 = 626 <= 677 ; px per unit 0.50
+```
+**Why two pairs (m): ten in ONE pair composes on 0 of 59 rich scenes at 0.59 (and at every print scale the caller measured); it composes on 20 / 59 only at 1.10, the screen scale, and print and screen must be the same instance (`sameAs`).** Two scenes of one theme (farm: 10 rich scenes), 5 each at the G2 floor at 0.517: **54 / 59** compose (both pinned units 30/30 at 0.59; the engineer re-measures at 0.50, the floors in units grow 3 %). The tabs of column A sit in the 40 gap (6 px clear of column B). Verify: per column the base rules with count 5; total 10 = the title digit; two `data-lcs-fd-scene` ids, same theme; two ledger rows of 5. Query face: "10 Unterschiede / 10 diferencias / 10 verschillen / 10 differenze / 10 erreurs" + the HARD tail.
+
+**F5 How Many Differences? (G1, `mode:'how-many'`, pinned `garden-butterfly-rich`).** DELTA: **no ledger** (a row of boxes would print the count); the column holds ONE `blankNumeralBox({w:88, h:64})` top-aligned with picture 2's top edge (y 342) and nothing else, so the eye goes picture 2 then the box. `countRange:[3,6]` drawn by the seed (m rich pools: 3 gives 68, 4 gives 68, 5 gives 54, 6 gives 47 of 59; the pinned unit passes all four); the shipped seed must land on 4 or 6 (never 5 = base, 3 = F1), recorded. Verify: no `\d` in the visible body / title / instruction; the box empty; the key prints the numeral (Baloo at least 30) + rings; pooled 400 seeds each value 25 % plus or minus 6. Screen: `tap-choice` on four number chips under picture 2. Query face: owned by the no-number title (K.CC.B.5, the family's only CCSS claim).
+
+**F6 What Changed? Tick the Words (G1, `mode:'what-changed'`, pinned `garden-bunny` plain).** DELTA: the ledger is a **WORD column** (`fdWordTicks`, 5 words x 28 px boxes, top-aligned with picture 1): sun · cloud · flower · tulip · rabbit in the locale's vocab, seeded shuffle; 3 differences (`kinds` remove swap mirror scale move detail, never `add`, never a same-key swap), at least 1 word stays unticked. Plain scenes only (a rich scene's 9 to 12 nouns are a list, not a bank; m plain pool **172 / 200**). Layout = section 2 with the word column 273 wide (5 x 36 + 4 x 10 = 220 *est.*). Verify: bank = exactly picture 1's nouns; `data-lcs-fd-changed` re-derived from the ops; pooled 400 seeds: changed words in each slot 60 % plus or minus 8; every word === `vocab()[key][loc][0]`. Screen: `tap-select` on the word tags. Query face: "what changed / was hat sich verändert / qué cambió ...".
+
+**F7 Mirror Pictures: Fold and Check (G1, `mode:'mirror-pair'`, pinned `forest-fox-rich`).** DELTA: the ONLY side-by-side face, and for a reason: the two pictures sit symmetric about a dashed **fold line** at x 337.5, picture 2 printed FLIPPED (`flip:true`); after circling, the child folds on the line and holds the page to the window: picture 2 folds back onto picture 1 and the 4 differences show as doubled lines (the self-check no other face can print, because only a mirrored picture 2 coincides with picture 1 under a fold).
+```
+[tab 30][ picture 1 300x280 ][ 15 ][ picture 2 300x280 ][tab 30]   30 + 300 + 15 + 300 + 30 = 675, symmetric
+                      fold line at 337.5 (fdFoldLine h 380)
+             [48][48][48][48]  ledger row centred under picture 2   280 + 14 + 48 = 342 + air
+```
+0.50 px/unit; `kinds` remove add swap scale (never mirror, never move: both invert under the flip); 4 ops. Pool (m, G1, 0.525): rich **59 / 59**, plain 63 / 200 (`forest-fox` plain does NOT compose 4 without move, so the rich copy is pinned; `forest-rabbit` plain is the no-densify fallback). Verify: picture 2 root `data-lcs-fd-flip="1"`; the browser diff draws picture 1 through `ctx.scale(-1,1)`; rings mirrored; fold line x = (right edge of pic 1 + left edge of pic 2) / 2 within 0.5 px and the two frames mirror-equal about it; no mirror / move op. Query face: "mirror / Spiegelbild / espejo / miroir ..." + differences (never "Mirror, Mirror").
+
+**F8 What Is Missing? (K, `mode:'missing'`, pinned `garden-chick` plain).** DELTA: picture 2 has EMPTY PLACES, and the ledger's three boxes are drawn **dashed** (grid colour, `8 6`) like the empty places they count; every op is `remove` (`noKindCap:true`), the ring circles the bbox the drawing left. Plain scenes (an absence is obvious in a 5-drawing scene; m plain **27 / 200**, the garden set; rich 58 / 59 as the reserve). Layout = section 2 with `box:56` dashed. Verify: every op `remove`; ink inside each ring at most 3 % of its area; the removed bbox overlaps no remaining layer by more than 10 %. Query face: "what is missing / was fehlt / qué falta ...".
+
+**F9 Picture Pairs: Find the Difference (K, `mode:'pairs'`, pinned `beach-sandcastle` plain).** DELTA: three ROWS of close-up windows, each window printed twice at **1.0 px/unit** (260 x 200 units = 260 x 200 px), one difference per row, a 56 px tick box at the end of each row (the ledger folded into the rows).
+```
+[ window 1 260x200 ][ 40 ][ window 2 260x200 ][tab][14][56]   260 + 40 + 260 + 30 + 14 + 56 = 660 <= 675
+rows 3 x 200 + 2 x 20 = 640 ; tabs "1" / "2" on the top row only (the rows below are read the same way)
+```
+`viewBox` crops (the op's `diff` box centred, clamped 12 units inside the frame, at least 12 units of air), three different drawings, windows overlapping less than 25 %. Pool (m, crude window rule at the K floor): plain **141 / 200**, rich 68 / 68. Verify: per row count 1 on the two window SVGs; 3 diff hotspots, at least 1 decoy per row (a decoy below 86 page px at 1.0 is dropped: the row then needs another drawing in the window, else the window re-centres); rows' items distinct. Screen: per row window 1 over window 2 at 560 wide. Query face: "picture pairs / one difference".
+
+**F10 Write What Is Different (G2, `mode:'write'`, pinned `garden-squirrel` plain).** DELTA: side-by-side pictures (the rows need the height), a word bank, four school-ruled rows each opening with the printed starter; no ledger (the four rows ARE the ledger: one sentence per difference).
+```
+[tab][ picture 1 300x280 ][ 15 ][ picture 2 300x280 ][tab]      0.50 px/unit
+wordBank: 5 nouns + ALL 6 change words, shuffled (1 line 69, 2 lines 110 est.)
+4 x rulingBlock({rows:1, w:600, h:44, glyphH:20, starters:{0:starter}})  4 x 50 = 200
+280 + 12 + 69 + 10 + 200 = 571 (2-line bank 612) <= 677
+```
+4 ops of 4 DIFFERENT kinds (`distinctKinds:true`; m plain **54 / 200**, rich 68 / 68; `garden-squirrel` in the plain list; the engineer confirms its five nouns carry 11-locale vocab as the other garden scenes do). Verify: rows empty; starter === the bank literal on every row; bank = all picture-1 nouns + all change words; no change word equals a noun; the key rings the picture and leaves the rows empty. Screen: the find part `tap-select`, no rows. Query face: "write about the differences / Unterschiede beschreiben ...".
+
+**Screen rule (every face).** `interactive:{kind:'tap-select'|..., item:'[data-lcs-fd-hotspot]', answerAttr:'data-lcs-fd-diff', labelAttr:'data-lcs-label', metaAttrs:['data-lcs-fd-hotspot','data-lcs-fd-layer'], instructionKey:'fd-tap', screenHeight:<per face>, oracle:fdOracle}`. The screen body = `fdStack` at the FULL `.ws-page` width: picture 1 over picture 2 at **675 px wide (1.125 px/unit; picture 2 at least 560 wide)**, tabs kept, ledger and rows dropped (the runtime counts). Hotspot = the ring box padded to at least **100 page px** square (89 units at 1.125), padded hotspots pairwise disjoint (the composer's separation on ring boxes guarantees it when both rings are at least 48 units; the engineer confirms on the pinned units, else `minSepPx` rises for the screen page only), decoys = unchanged drawings' bboxes padded the same and clipped away from every hotspot, dropped under 60 %; at least 4 targets, both kinds (`qa/verify-interactive.js playSelect`, TAP_MIN 44 at 360). `screenHeight`: base / F1 / F2 / F3 / F5 / F6 / F7 / F8 / F10 = chrome + 2 x 630 + 12 (+ F5 chips 60 / F6 tags 2 x 48); F4 = chrome + 4 x 630 + 3 x 12 (two pairs stacked, column A then B); F9 = chrome + 3 x (2 x 431 + 12) + 2 x 20 (each window at 560 wide = 2.15 px/unit). F7's screen keeps `flip`.
+
+**Why these ten.** They are the locked faces; the design gives each a DIFFERENT apparatus delta on one architecture (box count 3 / 5 / 7, painted + banded boxes, two columns + row ledgers, a lone numeral box, a word column, a fold line, dashed boxes, window rows, ruled rows), so a teacher tells them apart from across the room, and each delta is a `mode` + `verify()` branch, never a theme swap.
+**First to cut:** F9 (needs the `viewBox` engine knob and a per-row decoy rule; 0 harvest; the pairs idea survives inside F1's big-three page) then F6 (the word column is the one slot that wraps in de/fi; its move lives on in F10's bank).
+
+## 8 Two alternatives + recommendation
+
+**A. The classic side-by-side pair (the pedagogy file's layout, 315 x 294 in the 639 lane, 0.525 px/unit, 350 px of air below).** Rejected for the base: the pictures are smaller (12 % linear) than the stacked pair and the air is a hole under the puzzle; the left-handed forearm covers picture 1; the screen stacks anyway so paper differs from tablet; and the count has nowhere to live but the title. Kept where it is RIGHT: F7 (the fold needs symmetry about a vertical line) and F10 (the rows need the height).
+
+**B. "Fold and hold to the light" as the base.** The self-check is the most delightful thing on any of these pages, but it only works when picture 2 is mirrored (so it coincides under the fold) and only on line art (colour fills block the light); that makes it F7's delta, not the family's base, and a base printed mirrored would mislead every count face.
+
+**C. (chosen) The Spotter's Ledger: stacked twins + index tabs + a tick-box ledger.** Wins on size (354 vs 315), on ergonomics (pencil on the bottom picture for either hand), on print = screen, and on the count made tangible; it gives every face a column to put its apparatus in without shrinking the pictures (numeral box, word column, ledger rows), and it is nothing but tokens: boxes, tabs, a dashed line.
+
+## 9 Risks, mitigations, print check
+
+- **The K base needs densified scenes (m):** plain scenes compose 5 K-floor differences on 21 / 200 (all garden); the rich copies on 54 / 59. Mitigation: pin `farm-cow-rich`; d1 uses plain. **Human read of the rich copies is binding:** `farm-cow-rich.png` floats two `bird` props in the sky at x 52, y 60 / 140 (the drawing reads as a standing chick); `pond-duck` #28 plants a flower in the pond; the panel refuses such adds in `data/fd/review.js` and the composer re-checks an add's foot region. Only `farm-cow-rich` has a rich sheet today; the engineer sheets every pinned rich unit (`tools/fd-sheets.js --only=...`, line AND colour) before pinning.
+- **Ring ellipses touching on the key** (seen): separation on ring boxes, section 4.
+- **Overflow in long locales:** the body carries no sentence; F6 words wrap inside 207 px *est.* (a 3-line wrap of five words = 5 x 54 + 40 = 310, under 672, measured in the fi and de renders by the gate); F10's bank may take 2 lines (612, under 677); the chrome worst case (722 / 677) is budgeted on every stack (672 / 626 / 342 plus air / 640 / 571).
+- **Greyscale:** rings coral 7 units = 4 px print as mid-grey on white (visible); the F2 colour op survives B&W by `minLumaDelta:40` (Rec. 601 luma of the crayons in `fd-compose.js LUMA`); tabs, boxes and the fold line are teal / grid, ink-dark on a B&W printer; nothing is coral-vs-teal coded.
+- **Pencil space:** boxes at least 44 px (K 56); circles on the picture need rings at least 25 px, apart at least 26 px; the F5 numeral box 88 x 64; F10 rows 44 with a 20 px x-height.
+- **Fold line (F7):** a FOLD, not a cut: dashed grid line with fold-arc glyphs, never scissors; the key shows the fold too.
+- **The 9 px floor:** smallest text 16 px (row ledger ordinals); no text under 18 in a word slot.
+- **QA lint catches:** overflow, text under 9 px, off-token hex (the crayons inside `fd-panel` are whitelisted as K-393's are), a blank body (`data-ws-content`). **Only a human eye catches:** a dumped-looking rich scene; a prop in the wrong sky band; a difference a six-year-old cannot NAME (a 0.8 scale of a far barn); a word that is not what a child in that country says (REFUSED_WORDS); the fold line printed where a page-margin cut-off eats it (print the fi and de F7 renders and fold them).
+- **Corner art:** no badge inside the frame (265 / 297 scenes have art in the top-left 56-unit square); tabs outside, measured.
+- **Scene reuse:** a scene and its `-rich` copy count as ONE scene for the "never twice in one locale's family" rule; the pinned set uses 12 distinct scene bases (farm-cow, pond-frog, pond-duck, garden-dog, farm-horse, farm-sheep, garden-butterfly, garden-bunny, forest-fox, garden-chick, beach-sandcastle, garden-squirrel).
+
+## 10 Summary
+
+1. One architecture, "The Spotter's Ledger": picture 1 stacked over picture 2 at 354 x 330 (0.59 px/unit, +26 % area over side by side), index tabs "1" / "2" hanging off the right frame edge, a cream ledger of N tick boxes on the right; stack 672 under 677 / 722; no `.ws-lane`; no text in the body.
+2. Seven = ONE rich pair stacked (m 35 / 59 scenes, `garden-dog-rich` 30/30); ten = TWO stacked pairs side by side at 300 x 280 with a 5-box ledger row under each (ten in one pair composes on 0 / 59 at any print scale, m).
+3. Every face is a `mode` + a `verify()` branch with its own apparatus delta: 3 big boxes · painted pictures · 7 boxes · two columns · a lone numeral box · a word column · a fold line with a mirrored picture 2 · dashed boxes for empty places · three window rows · four ruled rows.
+4. The answer is never printed: rings and ticks only on the key, hotspots only on the screen (stacked at 675 wide, hotspots at least 100 page px), the same instance for all three (`sameAs`).
+5. Hard facts the build obeys: the K base needs the `-rich` scenes (plain 21 / 200); the composer separates RING boxes, not change boxes, or the key's rings touch; no badge inside a frame corner (265 / 297 scenes carry art there); the rich sheets are read by a human before a unit is pinned.

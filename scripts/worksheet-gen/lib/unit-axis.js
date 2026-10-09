@@ -28,8 +28,8 @@
 'use strict';
 const { slugify } = require('../../publish-cli/slug.js');
 
-const TOKEN_RE = /\{(U|L|UNIT|P|PU)\}/g;   // P / PU: the pair letter (Letter of the Week pair page, Level Set 2026-09-28)
-const TOKEN_TEST = /\{(U|L|UNIT|P|PU)\}/;   // non-global: .test() on a /g regex carries lastIndex between calls
+const TOKEN_RE = /\{(U|L|N|UNIT|P|PU)\}/g;   // N: the bare noun without its article (how-to-draw, b7 2026-10-09);   // P / PU: the pair letter (Letter of the Week pair page, Level Set 2026-09-28)
+const TOKEN_TEST = /\{(U|L|N|UNIT|P|PU)\}/;   // non-global: .test() on a /g regex carries lastIndex between calls
 
 function hasAxis(spec) { return !!(spec && spec.unitAxis && spec.unitAxis.applicable); }
 

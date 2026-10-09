@@ -27,8 +27,10 @@ async function runLints(page, { gradeBand }) {
     // The parts of a drawn story picture (primitives/story-art.js, 2026-10-01) are clipped by their own <svg> (the
     // picture is a window onto a larger scene) and painted from the story palette, which qa/verify-b6-story-panel.js
     // gates. The picture's <svg> box itself is still measured here; only what it clips is skipped.
-    // illustrations with their own governed palette: story panels (story-art.js PAL) and the Color by Number pictures + crayons (cbn-render.js PALETTE)
-    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"]'));
+    // illustrations with their own governed palette: story panels (story-art.js PAL), the Color by Number pictures + crayons
+    // (cbn-render.js PALETTE), and the nt2-G line-art panels (fd-scene.js: the same crayons + the scene ink; htd-steps.js: the
+    // drawing's own ink, both 2026-10-09) — each gated by its own family verify
+    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"], svg[data-lcs-prim="fd-panel"], svg[data-lcs-prim="htd-step"], svg[data-lcs-prim="htd-full"]'));
     // a picture CROPPED by an overflow:hidden strip (measured objects, ruler art bands) shows only the strip: measure that
     const visRect = (el) => { const c = el.tagName.toLowerCase() === 'img' && el.closest && el.closest('[data-lcs-art], [data-lcs-artband]'); return (c || el).getBoundingClientRect(); };
 

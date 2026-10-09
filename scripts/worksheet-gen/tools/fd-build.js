@@ -60,10 +60,14 @@ function freeSpot(scene, w, h, place) {
   const taken = scene.items.map((l) => l.bbox);
   const xs = []; for (let x = 30; x <= W - 30 - w; x += 12) xs.push(x);
   const ys = place === 'sky' ? [60, 100, 140, 180, 220].filter((y) => y + h / 2 < scene.hy - 24) : [548, 524, 500, 476, 452].filter((y) => y - h > scene.hy + 6);
+  // a ground prop never stands in a named water area (a mushroom in the pond, a flower in the sea)
+  const water = ((scene.bg && scene.bg.regions) || []).filter((r) => r.name === 'pond' || r.name === 'sea').map((r) => r.bbox);
+  const inWater = (px, py) => water.some((b) => px >= b[0] && px <= b[2] && py >= b[1] && py <= b[3]);
   for (const y of ys) for (const x of xs) {
     const bb = place === 'sky' ? [x, y - h / 2, x + w, y + h / 2] : [x, y - h, x + w, y];
     if (!inside(bb)) continue;
-    if (taken.some((t) => overlaps(t, bb, 10))) continue;
+    if (place === 'ground' && (inWater(x + w / 2, y - 2) || inWater(x + 4, y - 2) || inWater(x + w - 4, y - 2))) continue;
+    if (taken.some((t) => overlaps(t, bb, place === 'sky' ? 22 : 10))) continue;   // sky props keep clear air round them
     return { x: x + w / 2, y: place === 'sky' ? y : y, bb };
   }
   return null;
@@ -180,7 +184,7 @@ async function densify(spec) {
     const p = PROPS[src]; if (!p) continue;
     const probe = await F.layerFor({ src, x: 300, y: place === 'sky' ? 150 : 540, h: p.h, anchor: place === 'sky' ? 'c' : undefined }, { ...spec, items: [{ src }] }, 0, p.colour);
     const pw = probe.bbox[2] - probe.bbox[0], ph = probe.bbox[3] - probe.bbox[1];
-    const spot = freeSpot({ ...probeScene, items: taken.map((b) => ({ bbox: b })) }, pw, ph, place); if (!spot) continue;
+    const spot = freeSpot({ ...probeScene, items: taken.map((b) => ({ bbox: b })) }, pw, ph, place); if (!spot) continue;   // probeScene carries bg (water areas)
     extras.push({ src, x: spot.x, y: spot.y, h: p.h, anchor: place === 'sky' ? 'c' : undefined, colour: p.colour });
     taken.push(spot.bb);
   }

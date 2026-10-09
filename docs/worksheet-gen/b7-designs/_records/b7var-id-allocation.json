@@ -1,0 +1,211 @@
+{
+ "generated": "2026-10-09",
+ "next": {
+  "K": 405,
+  "G1": 420,
+  "G2": 392,
+  "G3": 402
+ },
+ "faces": [
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-397",
+   "title": "Find 3 Differences: Goose at the Pond",
+   "heading": "F1 : Find 3 Differences: Goose at the Pond (K, CODE `mode:'three-big'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-398",
+   "title": "Find the Differences in Colour",
+   "heading": "F2 : Find the Differences in Colour (K, CODE `mode:'colour'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 3,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-412",
+   "title": "Find 7 Differences at the Pond",
+   "heading": "F3 : Find 7 Differences at the Pond (G1, CODE `mode:'seven'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 4,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-388",
+   "title": "Find 10 Differences at the Beach",
+   "heading": "F4 : Find 10 Differences at the Beach (G2, CODE `mode:'ten-pairs'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-413",
+   "title": "How Many Differences?",
+   "heading": "F5 : How Many Differences? (G1, CODE `mode:'how-many'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 6,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-414",
+   "title": "What Changed? Tick the Words",
+   "heading": "F6 : What Changed? Tick the Words (G1, CODE `mode:'what-changed'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 7,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-415",
+   "title": "Mirror Pictures: Fold and Check",
+   "heading": "F7 : Mirror Pictures: Fold and Check (G1, CODE `mode:'mirror-pair'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 8,
+   "band": "K",
+   "dir": "k",
+   "id": "K-399",
+   "title": "What Is Missing?",
+   "heading": "F8 : What Is Missing? (K, CODE `mode:'missing'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 9,
+   "band": "K",
+   "dir": "k",
+   "id": "K-400",
+   "title": "Picture Pairs: Find the Difference",
+   "heading": "F9 : Picture Pairs: Find the Difference (K, CODE `mode:'pairs'`)"
+  },
+  {
+   "family": "K-395",
+   "key": "find-the-differences",
+   "face": 10,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-389",
+   "title": "Write What Is Different",
+   "heading": "F10 : Write What Is Different (G2, CODE `mode:'write'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-401",
+   "title": "Draw a Dog with Simple Shapes",
+   "heading": "F1 : Draw a Dog with Simple Shapes (K, CODE `mode:'shapes'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-402",
+   "title": "Trace, Then Draw a Rabbit",
+   "heading": "F2 : Trace, Then Draw a Rabbit (K, CODE `mode:'trace'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-403",
+   "title": "Finish the Horse Drawing",
+   "heading": "F3 : Finish the Horse Drawing (K, CODE `mode:'finish'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-416",
+   "title": "Draw a Dinosaur with the Grid",
+   "heading": "F4 : Draw a Dinosaur with the Grid (G1, CODE `mode:'grid'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-404",
+   "title": "Draw a Fish and Write the Word",
+   "heading": "F5 : Draw a Fish and Write the Word (K, CODE `mode:'word'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 6,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-417",
+   "title": "Draw a Frog at the Pond",
+   "heading": "F6 : Draw a Frog at the Pond (G1, CODE `mode:'scene'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 7,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-418",
+   "title": "Order the Steps: Drawing an Owl",
+   "heading": "F7 : Order the Steps: Drawing an Owl (G1, CODE `mode:'order'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 8,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-419",
+   "title": "Copy Each Step: Draw a Bird",
+   "heading": "F8 : Copy Each Step: Draw a Bird (G1, CODE `mode:'copy-steps'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 9,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-390",
+   "title": "Draw a Bear, Then Write About It",
+   "heading": "F9 : Draw a Bear, Then Write About It (G2, CODE `mode:'write'`)"
+  },
+  {
+   "family": "K-396",
+   "key": "how-to-draw",
+   "face": 10,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-391",
+   "title": "Draw a Butterfly from Memory",
+   "heading": "F10 : Draw a Butterfly from Memory (G2, CODE `mode:'memory'`)"
+  }
+ ]
+}

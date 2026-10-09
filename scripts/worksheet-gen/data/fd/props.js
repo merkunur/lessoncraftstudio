@@ -22,7 +22,8 @@ const PROPS = {
   'beach bw/starfish': { place: 'ground', h: 100, colour: ['orange'], alt: ['beach bw/seashell'] },
   'beach bw/beach_ball': { place: 'ground', h: 110, colour: ['red', 'yellow', 'blue', 'none'], alt: ['beach bw/bucket'] },
   'beach bw/bucket': { place: 'ground', h: 120, colour: ['red', 'yellow'], alt: ['beach bw/beach_ball'] },
-  'nature bw/bird': { place: 'sky', h: 60, colour: ['lightblue', 'orange'], alt: [] },
+  'nature bw/bird': { place: 'ground', h: 60, colour: ['lightblue', 'orange'], alt: [] },   // a STANDING chick: on the ground, never in the sky (designer B, 2026-10-09)
+  'birds bw/hummingbird': { place: 'sky', h: 70, colour: ['green', 'orange'], alt: ['nature bw/butterfly'] },
   'nature bw/butterfly': { place: 'sky', h: 70, colour: ['purple', 'orange'], alt: ['Easter bw/butterfly'] },
   'Easter bw/butterfly': { place: 'sky', h: 70, colour: ['purple', 'orange'], alt: ['nature bw/butterfly'] },
   'farm bw/hay': { place: 'ground', h: 120, colour: ['yellow'], alt: [] },
@@ -55,18 +56,18 @@ const PROPS = {
 };
 /** props a theme's scene may receive (ADD): sky and ground lists, in preference order */
 const THEME_PROPS = {
-  farm: { sky: ['nature bw/bird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['farm bw/hay', 'home and nature bw/flower', 'farm bw/fence', 'farm bw/watering_can', 'farm bw/wheelbarrow'] },
-  garden: { sky: ['nature bw/butterfly', 'nature bw/bird', 'home and nature bw/cloud'], ground: ['nature bw/mushroom', 'nature bw/flower', 'farm bw/watering_can', 'nature bw/ladybug', 'valentine bw 2/tulip'] },
-  pond: { sky: ['nature bw/bird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['nature bw/flower', 'nature bw/mushroom', 'valentine bw 2/tulip'] },
-  forest: { sky: ['nature bw/bird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['nature bw/mushroom', 'home and nature bw/flower', 'Easter bw/mushroom', 'nature bw/leaf'] },
-  savanna: { sky: ['nature bw/bird', 'home and nature bw/cloud'], ground: ['nature bw/cactus', 'nature bw/flower'] },
+  farm: { sky: ['birds bw/hummingbird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['nature bw/bird', 'farm bw/hay', 'home and nature bw/flower', 'farm bw/fence', 'farm bw/watering_can', 'farm bw/wheelbarrow'] },
+  garden: { sky: ['nature bw/butterfly', 'birds bw/hummingbird', 'home and nature bw/cloud'], ground: ['nature bw/bird', 'nature bw/mushroom', 'nature bw/flower', 'farm bw/watering_can', 'nature bw/ladybug', 'valentine bw 2/tulip'] },
+  pond: { sky: ['birds bw/hummingbird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['nature bw/bird', 'nature bw/flower', 'nature bw/mushroom', 'valentine bw 2/tulip'] },
+  forest: { sky: ['birds bw/hummingbird', 'home and nature bw/cloud', 'nature bw/butterfly'], ground: ['nature bw/bird', 'nature bw/mushroom', 'home and nature bw/flower', 'Easter bw/mushroom', 'nature bw/leaf'] },
+  savanna: { sky: ['home and nature bw/cloud'], ground: ['nature bw/bird', 'nature bw/cactus', 'nature bw/flower'] },
   sea: { sky: ['sea life bw/fish_3', 'sea life bw/clown_fish'], ground: ['beach bw/seashell', 'beach bw/starfish', 'beach bw 2/seashell_2'] },
-  beach: { sky: ['nature bw/bird', 'home and nature bw/cloud'], ground: ['beach bw/beach_ball', 'beach bw/bucket', 'beach bw/seashell', 'beach bw/starfish', 'beach bw/sandcastle'] },
-  desert: { sky: ['nature bw/bird', 'home and nature bw/cloud'], ground: ['nature bw/cactus'] },
+  beach: { sky: ['home and nature bw/cloud'], ground: ['nature bw/bird', 'beach bw/beach_ball', 'beach bw/bucket', 'beach bw/seashell', 'beach bw/starfish', 'beach bw/sandcastle'] },
+  desert: { sky: ['home and nature bw/cloud'], ground: ['nature bw/cactus'] },
   winter: { sky: ['home and nature bw/cloud', 'nature bw/snowflake'], ground: ['Christmas bw/snowman', 'Christmas bw/christmas_tree'] },
   night: { sky: ['nature bw/star', 'space bw/planet', 'space bw/planet_2'], ground: ['nature bw/mushroom'] },
   room: { sky: ['home and nature bw/frame'], ground: ['household bw/plant', 'toys bw/teddy_bear', 'toys bw 2/dice'] },
   table: { sky: ['home and nature bw/frame'], ground: ['home and nature bw/teacup', 'fruits bw/apple', 'dessert bw/cupcake', 'home and nature bw/bowl'] },
-  town: { sky: ['nature bw/bird', 'home and nature bw/cloud'], ground: ['home and nature bw/flower', 'farm bw/fence'] },
+  town: { sky: ['home and nature bw/cloud'], ground: ['nature bw/bird', 'home and nature bw/flower', 'farm bw/fence'] },
 };
 module.exports = { PROPS, THEME_PROPS };

@@ -185,6 +185,23 @@ async function buildSteps(src, opts = {}) {
     if (bi < 0) bi = 0;
     groups.splice(bi, 2, groups[bi].concat(groups[bi + 1]));
   }
+  // opts.foldFloor (share of ALL the ink, e.g. 0.08): a group too thin to be a step of its own folds into a neighbour —
+  // the adjacent group of the same class if there is one, else the smaller neighbour (the critic's rule, 2026-10-09:
+  // the cat's 2 % step was a two-line speck). Repeats until every group holds the floor or one group is left.
+  if (opts.foldFloor) {
+    const px = (g) => g.reduce((a, x) => a + x.px, 0);
+    const clsOf = (g) => Math.min(...g.map((x) => x.cls));
+    for (let guard = 0; guard < 20 && groups.length > 1; guard++) {
+      const i = groups.findIndex((g) => px(g) / total < opts.foldFloor);
+      if (i < 0) break;
+      const prev = i > 0 ? i - 1 : null, next = i + 1 < groups.length ? i + 1 : null;
+      let into;
+      if (prev != null && next != null) into = clsOf(groups[prev]) === clsOf(groups[i]) ? prev : clsOf(groups[next]) === clsOf(groups[i]) ? next : (px(groups[prev]) <= px(groups[next]) ? prev : next);
+      else into = prev != null ? prev : next;
+      const merged = into < i ? groups[into].concat(groups[i]) : groups[i].concat(groups[into]);
+      groups.splice(Math.min(into, i), 2, merged);
+    }
+  }
   const stepMasks = [outer];
   const stepClass = [];
   for (const g of groups) { const m = new Uint8Array(PW * PH); const set = new Set(g.map((s) => s.label)); for (let i = 0; i < m.length; i++) if (own[i] && set.has(own[i])) m[i] = 1; stepMasks.push(m); stepClass.push(Math.min(...g.map((s) => s.cls))); }
@@ -202,8 +219,17 @@ async function buildSteps(src, opts = {}) {
 }
 
 /** one step panel: the lines drawn so far in ink, this step's lines in `highlight` (coral) */
+/** the viewBox of a panel: the whole 600 × 560 frame, or (opts.viewBox === 'bbox') the drawing's own ink box with a
+ *  margin, so the drawing fills its card whatever its proportions; returns [x, y, w, h] in units */
+function panelBox(S, opts) {
+  if (opts.viewBox !== 'bbox' || !S.bbox) return [0, 0, W, H];
+  const m = opts.margin == null ? 16 : opts.margin;
+  const [x0, y0, x1, y1] = S.bbox;
+  return [x0 - m, y0 - m, (x1 - x0) + 2 * m, (y1 - y0) + 2 * m];
+}
 function stepSvg(S, k, opts = {}) {
-  const width = opts.width || 150, height = Math.round(width * H / W);
+  const vb = panelBox(S, opts);
+  const width = opts.width || 150, height = opts.height || Math.round(width * vb[3] / vb[2]);
   const ink = opts.ink || '#3A3530', hi = opts.highlight || '#F2784B';
   // opts.outline === false: the guides alone (a "shapes first" panel); opts.upTo: draw the steps 0..k in ink with NO
   // highlight (a "finish the drawing" model); opts.hiFill / opts.inkFill override the colours (a pale trace)
@@ -213,16 +239,17 @@ function stepSvg(S, k, opts = {}) {
   const guides = opts.shapes ? S.shapes.filter((sh) => sh.kind).map((sh) => sh.kind === 'ellipse'
     ? `<ellipse cx="${sh.cx}" cy="${sh.cy}" rx="${sh.rx}" ry="${sh.ry}" transform="rotate(${sh.angle} ${sh.cx} ${sh.cy})" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10"/>`
     : `<rect x="${sh.box.x}" y="${sh.box.y}" width="${sh.box.w}" height="${sh.box.h}" rx="${Math.min(sh.box.w, sh.box.h) * 0.18}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10"/>`).join('') : '';
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${width}" height="${height}" data-lcs-prim="htd-step" data-lcs-step="${k + 1}">${guides}${prev}${now}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.map((v) => +v.toFixed(1)).join(' ')}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet" data-lcs-prim="htd-step" data-lcs-step="${k + 1}">${guides}${prev}${now}</svg>`;
 }
 /** the whole drawing; opts.fill = its colour (a pale `grid` fill makes a trace model); opts.without = step indices to leave out
  *  (a "finish the drawing" model: the drawing minus one or two steps) */
 function fullSvg(S, opts = {}) {
-  const width = opts.width || 300, height = Math.round(width * H / W);
+  const vb = panelBox(S, opts);
+  const width = opts.width || 300, height = opts.height || Math.round(width * vb[3] / vb[2]);
   const fill = opts.fill || opts.ink || '#3A3530';
   const without = new Set(opts.without || []);
   const body = without.size ? S.steps.map((s, i) => (without.has(i) ? '' : `<path d="${s.d}" fill="${fill}"/>`)).join('') : `<path d="${S.full}" fill="${fill}"/>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${width}" height="${height}" data-lcs-prim="htd-full"${without.size ? ` data-lcs-htd-without="${[...without].join(',')}"` : ''}>${body}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.map((v) => +v.toFixed(1)).join(' ')}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet" data-lcs-prim="htd-full"${without.size ? ` data-lcs-htd-without="${[...without].join(',')}"` : ''}>${body}</svg>`;
 }
 
-module.exports = { buildSteps, stepSvg, fullSvg, fitShape, W, H };
+module.exports = { buildSteps, stepSvg, fullSvg, panelBox, fitShape, W, H };

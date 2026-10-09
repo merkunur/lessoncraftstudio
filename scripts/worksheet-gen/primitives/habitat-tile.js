@@ -50,6 +50,8 @@ const HABITAT_IDS = ['ocean', 'pond', 'forest', 'meadow', 'polar', 'savanna', 'r
 const SURFACE = { ocean: 50, pond: 60, forest: 100, meadow: 86, polar: 66, savanna: 92, rainforest: 118 };
 const f2 = (v) => +(+v).toFixed(2);
 let _uid = 0;
+/** reset the clip-id counter (tools/b3-baseline.js calls it before every build so a page hash never depends on what was built before it in the process) */
+function resetUid() { _uid = 0; }
 
 /** A smooth open path through pts (uniform Catmull-Rom -> cubic), starting with M. */
 function catmullOpen(pts) {
@@ -297,4 +299,4 @@ function habitatTile({ id, w = 300, frame = true, attrs } = {}) {
   return { svg, width: f2(w), height: h, meta: { id, surfaceY: SURFACE[id] } };
 }
 
-module.exports = { habitatTile, tileBody, HABITAT_IDS, SURFACE, VIEW_W, VIEW_H, MIN_W, catmullOpen, leafD };
+module.exports = { habitatTile, tileBody, HABITAT_IDS, SURFACE, VIEW_W, VIEW_H, MIN_W, catmullOpen, leafD, resetUid };

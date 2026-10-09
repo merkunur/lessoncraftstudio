@@ -124,6 +124,7 @@ async function generate(args) {
     const manifest = buildManifest({
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
       variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+      unitInSlug: plan.unitInSlug !== false,   // wave JSON "unitInSlug": false (nt2-G: one unit per face per locale, the landing's deck slug is <family>-<id>)
       indexable: plan.indexable !== false,   // wave JSON "indexable": false → visible to teachers, never indexed
       interactive: r.interactive ? { kind: r.interactive.kind } : null,
     });

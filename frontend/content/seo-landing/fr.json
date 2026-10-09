@@ -125242,7 +125242,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "ce1"
    },
    "eyebrow": "Fiche de mesures",
@@ -125254,7 +125254,7 @@
     "vehicules",
     "ce1"
    ],
-   "p1": "Cette fiche de mesures réunit deux instruments : trois verres doseurs gradués en millilitres et trois balances graduées en grammes — avec, sur les plateaux, des véhicules à peser. L'enfant lit le niveau du liquide sur chaque verre doseur, lit la position de l'aiguille sur chaque balance, puis écrit chaque mesure avec son unité : tant de millilitres, tant de grammes.",
+   "p1": "Cette fiche de mesures réunit deux instruments : trois verres doseurs gradués en millilitres et trois balances graduées en grammes — avec, sur les plateaux, des jouets à peser : un petit train, une poupée, un camion. L'enfant lit le niveau du liquide sur chaque verre doseur, lit la position de l'aiguille sur chaque balance, puis écrit chaque mesure avec son unité : tant de millilitres, tant de grammes.",
    "p2": "Lire une graduation est une compétence à part entière : repérer les traits numérotés, comprendre la valeur des intervalles, estimer entre deux repères. En travaillant deux grandeurs sur la même page, l'enfant apprend aussi à associer chaque unité à ce qu'elle mesure — les millilitres pour ce qui se verse, les grammes pour ce qui se pèse — et à ne jamais écrire un nombre de mesure sans son unité.",
    "p3": "La fiche s'imprime gratuitement en PDF et se prolonge à merveille dans la cuisine, avec un vrai verre doseur et une vraie balance. Côté fiches, la symétrie sur quadrillage cultive la même précision du regard, et les opérations posées sans retenue donnent aux nombres mesurés un terrain de calcul tout prêt. Avant d'écrire chaque mesure, on peut aussi demander une estimation — plus ou moins que la moitié du verre doseur ? — puis la comparer à la lecture réelle : c'est ainsi que se construit, peu à peu, le sens de l'ordre de grandeur.",
    "canonicalDeckSlug": "mesures-vehicules-g2252",
@@ -125277,7 +125277,7 @@
     }
    ],
    "title": "Masses et contenances CE1 – g et ml | à imprimer PDF",
-   "metaDescription": "Trois verres doseurs en millilitres et trois balances en grammes, des véhicules sur les plateaux : l'enfant lit et écrit chaque mesure. Fiche CE1 en PDF gratuit."
+   "metaDescription": "Trois verres doseurs en millilitres et trois balances en grammes, des jouets sur les plateaux : l'enfant lit et écrit chaque mesure. Fiche CE1 en PDF gratuit."
   },
   {
    "slug": "symetrie-quadrillage",
@@ -129241,7 +129241,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "ce1"
    },
    "eyebrow": "Fiche de mesures",
@@ -129253,8 +129253,8 @@
     "vehicules",
     "ce1"
    ],
-   "p1": "Cette fiche ne présente que des balances : six cadrans gradués en grammes, avec un véhicule posé sur chaque plateau — une voiture, un camion, un bus. L'enfant observe la position de l'aiguille, lit la graduation qu'elle indique et écrit la masse avec son unité, en g. Six pesées successives, le même geste de lecture répété sur un instrument unique.",
-   "p2": "La masse est une grandeur difficile à se représenter, parce qu'elle ne se voit pas. Deux objets de même taille peuvent avoir des masses très différentes, et rien sur le dessin ne le laisse deviner : seul l'instrument le dit. Cette fiche installe donc une idée essentielle, celle qu'on ne devine pas une mesure, on la lit. Les véhicules, dont les tailles varient à l'image, offrent d'ailleurs de bonnes occasions de discussion : le plus gros est-il forcément le plus lourd ? La réponse n'est pas dans le dessin, elle est sur le cadran.",
+   "p1": "Cette fiche ne présente que des balances : six cadrans gradués en grammes, avec un jouet posé sur chaque plateau — un ballon, un robot, une poupée. L'enfant observe la position de l'aiguille, lit la graduation qu'elle indique et écrit la masse avec son unité, en g. Six pesées successives, le même geste de lecture répété sur un instrument unique.",
+   "p2": "La masse est une grandeur difficile à se représenter, parce qu'elle ne se voit pas. Deux objets de même taille peuvent avoir des masses très différentes, et rien sur le dessin ne le laisse deviner : seul l'instrument le dit. Cette fiche installe donc une idée essentielle, celle qu'on ne devine pas une mesure, on la lit. Les jouets, dont les tailles varient à l'image, offrent d'ailleurs de bonnes occasions de discussion : le plus gros est-il forcément le plus lourd ? La réponse n'est pas dans le dessin, elle est sur le cadran.",
    "p3": "La fiche s'imprime gratuitement en PDF et devient passionnante avec une balance de cuisine à portée de main, pour vérifier de vraies masses. Elle fait la paire avec la lecture du verre doseur en millilitres, et les deux grandeurs se retrouvent ensuite mêlées dans la fiche des petites graduations, plus exigeante pour l'œil.",
    "canonicalDeckSlug": "mesures-vehicules-g2261",
    "carousel": [
@@ -129276,7 +129276,7 @@
     }
    ],
    "title": "Lire une balance CE1 – les grammes | à imprimer PDF",
-   "metaDescription": "Six balances graduées en grammes, des véhicules posés sur les plateaux : l'enfant lit l'aiguille et écrit la masse en g. Fiche CE1 gratuite en PDF."
+   "metaDescription": "Six balances graduées en grammes, des jouets posés sur les plateaux : l'enfant lit l'aiguille et écrit la masse en g. Fiche CE1 gratuite en PDF."
   },
   {
    "slug": "lire-les-petites-graduations",
@@ -129284,7 +129284,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "ce1"
    },
    "eyebrow": "Fiche de mesures",
@@ -129296,7 +129296,7 @@
     "vehicules",
     "ce1"
    ],
-   "p1": "Sur cette fiche, les graduations se resserrent. Verres doseurs et balances se partagent la page, mais les traits sont désormais fins : les niveaux tombent au 50 ml près, entre les repères numérotés, avec des véhicules sur les plateaux. L'enfant ne peut plus se contenter de lire un grand nombre écrit à côté du liquide ; il doit compter les petits traits depuis le repère précédent pour trouver la mesure exacte.",
+   "p1": "Sur cette fiche, les graduations se resserrent. Verres doseurs et balances se partagent la page, mais les traits sont désormais fins : les niveaux tombent au 50 ml près, entre les repères numérotés, avec des jouets sur les plateaux. L'enfant ne peut plus se contenter de lire un grand nombre écrit à côté du liquide ; il doit compter les petits traits depuis le repère précédent pour trouver la mesure exacte.",
    "p2": "C'est la véritable difficulté de la lecture d'échelle, et elle est cognitive avant d'être visuelle. Il faut comprendre que l'espace entre deux nombres écrits est lui-même partagé, puis déterminer la valeur d'un seul petit intervalle en divisant mentalement. Un enfant qui répond 150 au lieu de 250 n'a pas mal vu : il a compté les traits sans se demander ce que vaut chacun. Prendre l'habitude de vérifier d'abord la valeur d'un intervalle, avant même de regarder le niveau, résout à peu près toutes les erreurs de cette page.",
    "p3": "La fiche s'imprime gratuitement en PDF et fonctionne bien en petit groupe, où l'on compare les lectures avant de valider. Si les traits fins découragent, la lecture du verre doseur en millilitres revient à des repères plus larges ; à l'inverse, les grands verres doseurs jusqu'à 2000 ml augmentent les nombres plutôt que la finesse. La symétrie sur quadrillage entretient, elle aussi, cette précision du regard.",
    "canonicalDeckSlug": "mesures-vehicules-g2262",
@@ -129369,11 +129369,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "ce1"
    },
    "eyebrow": "Fiche de mesures",
-   "h1": "Masses et contenances : les animaux",
+   "h1": "Masses et contenances : les vêtements",
    "strand": "Grandeurs et mesures",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -129381,9 +129381,9 @@
     "animaux",
     "ce1"
    ],
-   "p1": "Cette édition de la fiche de mesures met des animaux sur les plateaux des balances. Trois verres doseurs gradués en millilitres et trois balances graduées en grammes se partagent la page ; sur les plateaux, un chat, un lapin ou un canard remplacent les véhicules habituels. L'enfant lit le niveau de chaque verre, la position de chaque aiguille, puis écrit chaque mesure avec son unité : tant de ml, tant de g.",
-   "p2": "L'habillage animalier n'est pas seulement plus sympathique, il ouvre une discussion que les objets inertes n'autorisent pas. Combien pèse vraiment un lapin ? Un canard est-il plus lourd qu'un chat ? Les enfants ont des intuitions très marquées sur ce sujet, souvent fausses, et confronter ces intuitions à ce qu'indique le cadran est exactement le travail que demande la notion de masse. On y apprend, l'air de rien, que l'estimation précède la mesure et que la mesure tranche.",
-   "p3": "La fiche s'imprime gratuitement en PDF et s'utilise très bien en alternance avec la version aux véhicules, pour vérifier que la lecture ne dépend pas du décor. Pour se concentrer sur un seul instrument, la lecture de la balance en grammes isole les masses, tandis que la lecture du verre doseur ne garde que les contenances. Et si le thème plaît, les petits problèmes en images sur les animaux poursuivent l'histoire côté calcul.",
+   "p1": "Cette édition de la fiche de mesures met des vêtements sur les plateaux des balances. Trois verres doseurs gradués en millilitres et trois balances graduées en grammes se partagent la page ; sur les plateaux, une casquette, une écharpe ou un jean remplacent les jouets habituels. L'enfant lit le niveau de chaque verre, la position de chaque aiguille, puis écrit chaque mesure avec son unité : tant de ml, tant de g.",
+   "p2": "Le thème des vêtements n'est pas seulement familier, il ouvre une discussion que des objets anonymes n'autorisent pas. Combien pèse vraiment une écharpe ? Un jean est-il plus lourd qu'une casquette ? Les enfants ont des intuitions très marquées sur ce sujet, souvent fausses, et confronter ces intuitions à ce qu'indique le cadran est exactement le travail que demande la notion de masse. On y apprend, l'air de rien, que l'estimation précède la mesure et que la mesure tranche.",
+   "p3": "La fiche s'imprime gratuitement en PDF et s'utilise très bien en alternance avec la version aux jouets, pour vérifier que la lecture ne dépend pas du décor. Pour se concentrer sur un seul instrument, la lecture de la balance en grammes isole les masses, tandis que la lecture du verre doseur ne garde que les contenances. Et pour poursuivre côté calcul, les petits problèmes en images remettent les quantités en jeu.",
    "canonicalDeckSlug": "mesures-animaux-g2252",
    "carousel": [
     {
@@ -129403,8 +129403,8 @@
      "href": "verres-doseurs-jusqu-a-2000-ml"
     }
    ],
-   "title": "Masses et contenances CE1 animaux | à imprimer PDF",
-   "metaDescription": "Trois verres doseurs en millilitres et trois balances en grammes avec des animaux sur les plateaux : lire et écrire chaque mesure. Fiche CE1 en PDF gratuit."
+   "title": "Masses et contenances CE1 vêtements | à imprimer PDF",
+   "metaDescription": "Trois verres doseurs en millilitres et trois balances en grammes avec des vêtements sur les plateaux : lire et écrire chaque mesure. Fiche CE1 en PDF gratuit."
   },
   {
    "slug": "symetrie-quadrillage-facile",

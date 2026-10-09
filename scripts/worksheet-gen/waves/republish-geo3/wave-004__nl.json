@@ -1,0 +1,47 @@
+{
+ "id": "wave-004",
+ "_note": "Geometry layout republish 2026-10-09 (operator: pages left half empty): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-244",
+  "G3-337",
+  "K-075"
+ ],
+ "levels": {
+  "G2-244": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G3-337": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-075": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

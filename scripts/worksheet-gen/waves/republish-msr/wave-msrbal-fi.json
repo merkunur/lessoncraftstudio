@@ -1,0 +1,48 @@
+{
+ "id": "wave-msrbal-fi",
+ "_note": "2026-10-09 operator ruling: the published balance pages (animals / vehicles) move to light objects with real weights — G2-252 animals → clothing, vehicles → toys; G2-261/262 vehicles → toys. Republished over their live slugs.",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-252",
+  "G2-261",
+  "G2-262"
+ ],
+ "levels": {
+  "G2-252": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "clothing"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  },
+  "G2-261": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  },
+  "G2-262": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  }
+ }
+}

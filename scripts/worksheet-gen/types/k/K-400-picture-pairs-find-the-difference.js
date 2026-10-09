@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-400',
   slug: 'picture-pairs-find-the-difference',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Picture Pairs: Find the Difference", instruction: "Each row shows the same close-up twice; circle the one thing that is different in the right picture of every row." } },
+  i18n: { en: { title: "Picture Pairs: Find the Difference", instruction: "Each row shows the same close-up twice; circle the one thing that is different in the right picture and tick the box of that row." } },
 };

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-399',
   slug: 'what-is-missing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "What Is Missing?", instruction: "Circle the 3 empty places in the bottom picture where something from the top picture is missing." } },
+  i18n: { en: { title: "What Is Missing?", instruction: "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each." } },
 };

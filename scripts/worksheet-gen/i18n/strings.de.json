@@ -3040,5 +3040,93 @@
   "K-394": {
     "title": "Malen nach Zahlen: {UNIT}",
     "instruction": "Male jeden Teil in der Farbe seiner Zahl aus."
+  },
+  "K-395": {
+    "title": "Finde 5 Unterschiede: {UNIT}",
+    "instruction": "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+  },
+  "K-396": {
+    "title": "{N} zeichnen lernen Schritt für Schritt",
+    "instruction": "Schau dir die vier nummerierten Schritte an und zeichne die Katze auf das große Papier: zuerst den Umriss, dann die orangen Linien von jedem Schritt."
+  },
+  "K-397": {
+    "title": "Finde 3 Unterschiede: {UNIT}",
+    "instruction": "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+  },
+  "K-398": {
+    "title": "Fehlersuchbild in Farbe: Finde die Unterschiede",
+    "instruction": "Kreise im unteren bunten Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen; achte dabei auch auf die Farben."
+  },
+  "G1-412": {
+    "title": "Finde 7 Unterschiede am Teich",
+    "instruction": "Kreise die 7 Unterschiede ein, 4 im linken Bildpaar und 3 im rechten, und setze für jeden ein Häkchen in ein Kästchen darunter."
+  },
+  "G2-388": {
+    "title": "Finde 10 Unterschiede im Garten",
+    "instruction": "Kreise die 10 Unterschiede ein, 5 in jedem Bildpaar, und setze unter dem Paar für jeden gefundenen Unterschied ein Häkchen."
+  },
+  "G1-413": {
+    "title": "Wie viele Unterschiede findest du?",
+    "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest, und schreibe dann in das Kästchen, wie viele es sind."
+  },
+  "G1-414": {
+    "title": "Was hat sich verändert? Kreuze die Wörter an",
+    "instruction": "Kreise im unteren Bild die 3 Unterschiede ein und kreuze dann die Wörter der Dinge an, die sich verändert haben."
+  },
+  "G1-415": {
+    "title": "Spiegelbild: Finde die Unterschiede",
+    "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, und falte das Blatt dann an der Linie, um es zu prüfen."
+  },
+  "K-399": {
+    "title": "Was fehlt im Bild?",
+    "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt."
+  },
+  "K-400": {
+    "title": "Bildpaare: Finde den Unterschied",
+    "instruction": "Jede Reihe zeigt denselben Bildausschnitt zweimal; kreise im rechten Bild jeder Reihe das eine Ding ein, das anders ist."
+  },
+  "G2-389": {
+    "title": "Unterschiede finden und beschreiben",
+    "instruction": "Kreise die 4 Unterschiede ein und schreibe dann zu jedem einen Satz auf die Zeilen; nimm dafür die Wörter aus den beiden Streifen."
+  },
+  "K-401": {
+    "title": "{U} aus einfachen Formen zeichnen",
+    "instruction": "Fahre zuerst die gestrichelten Formen auf dem Papier nach, zeichne dann den Umriss des Hundes darum und mache ihn mit den Schritten fertig."
+  },
+  "K-402": {
+    "title": "{U} nachfahren und dann selbst zeichnen",
+    "instruction": "Fahre den grauen Hasen mit dem Bleistift nach und zeichne den Hasen dann selbst in das leere Feld daneben."
+  },
+  "K-403": {
+    "title": "{U} fertig zeichnen",
+    "instruction": "Schau dir das ganze Pferd an, zeichne beim zweiten Pferd die fehlenden Linien ein und zeichne dann unten ein eigenes Pferd."
+  },
+  "G1-416": {
+    "title": "{U} mit dem Raster zeichnen",
+    "instruction": "Schau dir den Dinosaurier im Raster an, zeichne ihn Kästchen für Kästchen in das leere Raster und danach noch einmal ohne Raster."
+  },
+  "K-404": {
+    "title": "{U} zeichnen und das Wort schreiben",
+    "instruction": "Zeichne den Fisch mit den Schritten auf das Papier, fahre dann das Wort darunter nach und schreibe es noch einmal."
+  },
+  "G1-417": {
+    "title": "{U} am Teich zeichnen",
+    "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann in das Bild, auf das leere Ufer neben dem Teich."
+  },
+  "G1-418": {
+    "title": "Schritte ordnen und {L} zeichnen",
+    "instruction": "Die Schritte sind durcheinander: Schreibe 1 bis 5 in der richtigen Reihenfolge in die Kästchen daneben und zeichne dann die Eule."
+  },
+  "G1-419": {
+    "title": "{U} Schritt für Schritt abzeichnen",
+    "instruction": "Zeichne in jedes Feld, was du im Schritt darüber siehst, jedes Mal mit den orangen Linien dazu, und unten dann den ganzen Vogel."
+  },
+  "G2-390": {
+    "title": "{U} zeichnen und darüber schreiben",
+    "instruction": "Zeichne den Bären mit den Schritten und schreibe dann drei Sätze über deinen Bären auf die Zeilen; beginne mit den gedruckten Wörtern."
+  },
+  "G2-391": {
+    "title": "{U} aus dem Gedächtnis zeichnen",
+    "instruction": "Schau dir den Schmetterling genau an, falte das Blatt an der Linie nach hinten, damit du ihn nicht mehr siehst, und zeichne ihn aus dem Gedächtnis."
   }
 }

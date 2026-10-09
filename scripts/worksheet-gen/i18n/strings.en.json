@@ -993,31 +993,31 @@
   },
   "K-395": {
     "title": "Find 5 Differences: {UNIT}",
-    "instruction": "Look down from picture 1 to picture 2, circle the 5 things that are different and tick a box for each one."
+    "instruction": "Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one."
   },
   "K-396": {
     "title": "How to Draw {L} Step by Step",
-    "instruction": "Look at the four numbered steps and draw the cat on the big paper: first the outline, then the orange lines of each step."
+    "instruction": "Look at the four numbered steps and draw the cat on the big paper: first the outline, then the orange lines of the next steps."
   },
   "K-397": {
     "title": "Find 3 Differences: {UNIT}",
-    "instruction": "Find the 3 big things that are different in the bottom picture, circle them and tick the three boxes."
+    "instruction": "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
   },
   "K-398": {
     "title": "Find the Differences in Colour",
-    "instruction": "Circle the 5 things in the painted bottom picture that are different; one of them has changed colour."
+    "instruction": "Circle the 5 things in the coloured bottom picture that are different; at least one of them has a new colour."
   },
   "K-399": {
     "title": "What Is Missing?",
-    "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing."
+    "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each."
   },
   "K-400": {
     "title": "Picture Pairs: Find the Difference",
-    "instruction": "Each row shows the same close-up twice; circle the one thing that is different in the right picture of every row."
+    "instruction": "Each row shows the same close-up twice; circle the one thing that is different in the right picture and tick the box of that row."
   },
   "K-401": {
     "title": "Draw {L} with Simple Shapes",
-    "instruction": "Draw the dotted shapes on the paper first, then the dog's outline around them, and finish it with the steps."
+    "instruction": "Go over the dotted shapes already on the paper, then draw the dog's outline around them and finish it with the steps."
   },
   "K-402": {
     "title": "Trace, Then Draw {L}",
@@ -2053,7 +2053,7 @@
   },
   "G1-419": {
     "title": "Copy Each Step: Draw {L}",
-    "instruction": "Draw what you see in each step in the box under it, adding the orange lines each time, then the whole bird below."
+    "instruction": "Draw what you see in each step in the box under it, adding the orange lines as you go, then the whole bird below."
   },
   "G2-203": {
     "title": "Add the Blocks",

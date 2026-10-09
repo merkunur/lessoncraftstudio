@@ -439,5 +439,13 @@
   "cursive-writing": {
     "full": "Écrire en cursive sur lignage Seyès : les lettres minuscules, les majuscules, les attaches entre les lettres, des mots puis des phrases.",
     "short": "Écrire en cursive sur lignage Seyès"
+  },
+  "find-the-differences": {
+    "full": "L'enfant compare deux images presque identiques, repère ce qui a changé et entoure chaque différence : un jeu d'observation qui entraîne la discrimination visuelle.",
+    "short": "Jeu des différences : observer, comparer, entourer"
+  },
+  "how-to-draw": {
+    "full": "L'enfant apprend à dessiner un animal étape par étape : d'abord le contour, puis les détails, jusqu'au dessin complet qu'il réalise tout seul dans son cadre.",
+    "short": "Apprendre à dessiner des animaux étape par étape"
   }
 }

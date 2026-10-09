@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-401',
   slug: 'draw-with-simple-shapes',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Draw {L} with Simple Shapes", instruction: "Draw the dotted shapes on the paper first, then the dog's outline around them, and finish it with the steps." } },
+  i18n: { en: { title: "Draw {L} with Simple Shapes", instruction: "Go over the dotted shapes already on the paper, then draw the dog's outline around them and finish it with the steps." } },
 };

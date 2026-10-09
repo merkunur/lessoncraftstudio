@@ -2359,22 +2359,34 @@
  },
  "find-the-differences": {
   "fd-tap": {
-   "en": "Look at the top picture, then tap every place in the bottom picture that is different."
+   "en": "Look at the top picture, then tap every place in the bottom picture that is different.",
+   "de": "Schau dir das obere Bild genau an und tippe dann im unteren Bild auf jede Stelle, die anders ist.",
+   "fr": "Regarde l'image du haut, puis touche chaque endroit de l'image du bas qui est différent."
   },
   "fd-tapCount": {
-   "en": "Find every difference in the bottom picture, then tap the number that says how many there are."
+   "en": "Find every difference in the bottom picture, then tap the number that says how many there are.",
+   "de": "Finde im unteren Bild jeden Unterschied und tippe dann auf die Zahl, die sagt, wie viele es sind.",
+   "fr": "Trouve toutes les différences dans l'image du bas, puis touche le nombre qui dit combien il y en a."
   },
   "fd-tapMirror": {
-   "en": "The bottom picture is flipped like a mirror. Tap every place in it that is still different."
+   "en": "The bottom picture is flipped like a mirror. Tap every place in it that is still different.",
+   "de": "Das untere Bild ist spiegelverkehrt. Tippe auf jede Stelle darin, die trotzdem anders ist.",
+   "fr": "L'image du bas est retournée comme dans un miroir. Touche chaque endroit qui est quand même différent."
   },
   "fd-tapMissing": {
-   "en": "Tap every empty place in the bottom picture where something from the top picture is missing."
+   "en": "Tap every empty place in the bottom picture where something from the top picture is missing.",
+   "de": "Tippe im unteren Bild auf jede leere Stelle, an der etwas aus dem oberen Bild fehlt.",
+   "fr": "Touche chaque endroit vide de l'image du bas où il manque quelque chose de l'image du haut."
   },
   "fd-tapPairs": {
-   "en": "Each pair shows the same close-up twice. Tap the one thing that is different in the second picture of every pair."
+   "en": "Each pair shows the same close-up twice. Tap the one thing that is different in the second picture of every pair.",
+   "de": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf das eine Ding, das anders ist.",
+   "fr": "Chaque paire montre le même gros plan deux fois. Touche la seule chose qui est différente dans la deuxième image de chaque paire."
   },
   "fd-tapWords": {
-   "en": "Find what changed in the bottom picture, then tap the words of the things that changed."
+   "en": "Find what changed in the bottom picture, then tap the words of the things that changed.",
+   "de": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben.",
+   "fr": "Trouve ce qui a changé dans l'image du bas, puis touche les mots des choses qui ont changé."
   }
  }
 }

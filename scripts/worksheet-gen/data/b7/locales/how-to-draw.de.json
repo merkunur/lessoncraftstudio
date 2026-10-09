@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "eine Katze",
+      "stem": "Katze",
+      "n": "Katze"
+    },
+    "animals-bw-2-dog": {
+      "t": "einen Hund",
+      "stem": "Hund",
+      "n": "Hund"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "einen Hasen",
+      "stem": "Hase",
+      "n": "Hase"
+    },
+    "farm-animals-bw-pony": {
+      "t": "ein Pferd",
+      "stem": "Pferd",
+      "n": "Pferd"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "einen Dinosaurier",
+      "stem": "Dinosaurier",
+      "n": "Dinosaurier"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "einen Fisch",
+      "stem": "Fisch",
+      "n": "Fisch"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "einen Frosch",
+      "stem": "Frosch",
+      "n": "Frosch"
+    },
+    "animals-bw-5-owl": {
+      "t": "eine Eule",
+      "stem": "Eule",
+      "n": "Eule"
+    },
+    "birds-bw-hummingbird": {
+      "t": "einen Vogel",
+      "stem": "Vogel",
+      "n": "Vogel"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "einen Bären",
+      "stem": "Bär",
+      "n": "Bär"
+    },
+    "easter-bw-butterfly": {
+      "t": "einen Schmetterling",
+      "stem": "Schmetterling",
+      "n": "Schmetterling"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "Katze",
+    "animals-bw-2-dog": "Hund",
+    "animals-bw-4-rabbit-2": "Hase",
+    "farm-animals-bw-pony": "Pferd",
+    "animals-bw-3-dinosaur": "Dinosaurier",
+    "animals-bw-3-fish-2": "Fisch",
+    "animals-bw-3-frog-2": "Frosch",
+    "animals-bw-5-owl": "Eule",
+    "birds-bw-hummingbird": "Vogel",
+    "zoo-animals-bw-bear-2": "Bär",
+    "easter-bw-butterfly": "Schmetterling"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Mein Bär ist",
+      "Er kann",
+      "Er mag"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "{N} zeichnen lernen Schritt für Schritt",
+      "instruction": "Schau dir die vier nummerierten Schritte an und zeichne die Katze auf das große Papier: zuerst den Umriss, dann die orangen Linien von jedem Schritt."
+    },
+    "shapes": {
+      "title": "{U} aus einfachen Formen zeichnen",
+      "instruction": "Fahre zuerst die gestrichelten Formen auf dem Papier nach, zeichne dann den Umriss des Hundes darum und mache ihn mit den Schritten fertig."
+    },
+    "trace": {
+      "title": "{U} nachfahren und dann selbst zeichnen",
+      "instruction": "Fahre den grauen Hasen mit dem Bleistift nach und zeichne den Hasen dann selbst in das leere Feld daneben."
+    },
+    "finish": {
+      "title": "{U} fertig zeichnen",
+      "instruction": "Schau dir das ganze Pferd an, zeichne beim zweiten Pferd die fehlenden Linien ein und zeichne dann unten ein eigenes Pferd."
+    },
+    "grid": {
+      "title": "{U} mit dem Raster zeichnen",
+      "instruction": "Schau dir den Dinosaurier im Raster an, zeichne ihn Kästchen für Kästchen in das leere Raster und danach noch einmal ohne Raster."
+    },
+    "word": {
+      "title": "{U} zeichnen und das Wort schreiben",
+      "instruction": "Zeichne den Fisch mit den Schritten auf das Papier, fahre dann das Wort darunter nach und schreibe es noch einmal."
+    },
+    "scene": {
+      "title": "{U} am Teich zeichnen",
+      "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann in das Bild, auf das leere Ufer neben dem Teich."
+    },
+    "order": {
+      "title": "Schritte ordnen und {L} zeichnen",
+      "instruction": "Die Schritte sind durcheinander: Schreibe 1 bis 5 in der richtigen Reihenfolge in die Kästchen daneben und zeichne dann die Eule."
+    },
+    "copy-steps": {
+      "title": "{U} Schritt für Schritt abzeichnen",
+      "instruction": "Zeichne in jedes Feld, was du im Schritt darüber siehst, jedes Mal mit den orangen Linien dazu, und unten dann den ganzen Vogel."
+    },
+    "write": {
+      "title": "{U} zeichnen und darüber schreiben",
+      "instruction": "Zeichne den Bären mit den Schritten und schreibe dann drei Sätze über deinen Bären auf die Zeilen; beginne mit den gedruckten Wörtern."
+    },
+    "memory": {
+      "title": "{U} aus dem Gedächtnis zeichnen",
+      "instruction": "Schau dir den Schmetterling genau an, falte das Blatt an der Linie nach hinten, damit du ihn nicht mehr siehst, und zeichne ihn aus dem Gedächtnis.",
+      "foldWord": "falte"
+    }
+  }
+}

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-397',
   slug: 'find-3-differences',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Find 3 Differences: {UNIT}", instruction: "Find the 3 big things that are different in the bottom picture, circle them and tick the three boxes." } },
+  i18n: { en: { title: "Find 3 Differences: {UNIT}", instruction: "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes." } },
 };

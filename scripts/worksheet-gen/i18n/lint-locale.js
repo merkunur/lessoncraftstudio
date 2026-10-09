@@ -90,8 +90,10 @@ function lintLocale(locale) {
     const key = id.split('-')[0] + '|' + String(loc[id].title).toLowerCase();
     (byBandTitle[key] = byBandTitle[key] || []).push(id);
   }
+  // two titles that share a UNIT token on different unit-axis types (K-393 / K-394 "{UNIT}") never share a deck title:
+  // the unit resolves per deck (the same exemption as build-en.js, 2026-10-09)
   for (const [key, ids] of Object.entries(byBandTitle)) {
-    if (ids.length > 1) errors.push('strings: per-band title collision ' + key + ' -> ' + ids.join(', '));
+    if (ids.length > 1 && !(/\{(u|l|n|unit)\}/.test(key) && ids.every((id) => { try { const sp = require('../lib/load-types.js').loadAllTypes().find((t) => t.id === id); return sp && sp.unitAxis && sp.unitAxis.applicable; } catch (e) { return false; } }))) errors.push('strings: per-band title collision ' + key + ' -> ' + ids.join(', '));
   }
 
   // --- skill-sentences.<locale>.json ---

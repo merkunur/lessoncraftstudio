@@ -4758,18 +4758,26 @@
       },
       "find-the-differences": {
         "slug": {
-          "en": "find-the-differences"
+          "en": "find-the-differences",
+          "de": "fehlersuchbilder",
+          "fr": "jeu-des-differences"
         },
         "name": {
-          "en": "Find the Differences"
+          "en": "Find the Differences",
+          "de": "Fehlersuchbilder",
+          "fr": "Jeu des différences"
         }
       },
       "how-to-draw": {
         "slug": {
-          "en": "how-to-draw"
+          "en": "how-to-draw",
+          "de": "zeichnen-lernen",
+          "fr": "apprendre-a-dessiner"
         },
         "name": {
-          "en": "How to Draw"
+          "en": "How to Draw",
+          "de": "Zeichnen lernen",
+          "fr": "Apprendre à dessiner"
         }
       }
     },

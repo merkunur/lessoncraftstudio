@@ -41,7 +41,9 @@ const KINDS = {
 const UNITS = {
   base: 'garden-dog-rich', 'three-big': 'pond-goose', colour: 'pond-frog-rich',
   seven: ['pond-turtle-rich', 'pond-alligator-rich'], 'ten-pairs': ['kite-rich', 'ladybug-rich'],   // re-pinned 2026-10-09: the beach pair refuses 5 at the G2 floor on the rebuilt data; hero waived (see the row)
-  'how-many': 'house-rich', 'what-changed': 'garden-hedgehog',   // re-pinned 2026-10-09: garden-bunny read hero 14 % / tulip 88 % on the rebuilt data 'mirror-pair': 'forest-fox-rich',
+  'how-many': 'house-rich',
+  'what-changed': 'garden-hedgehog',   // re-pinned 2026-10-09: garden-bunny read hero 14 % / tulip 88 % on the rebuilt data
+  'mirror-pair': 'forest-fox-rich', 'mirror-pair': 'forest-fox-rich',
   missing: 'night-owl-rich',   // re-pinned 2026-10-09: farm-rooster-rich's removable props never fall in one quadrant (33/33/0/33) on the rebuilt data
   pairs: 'garden-ladybug-rich',   // re-pinned 2026-10-09: the ONLY unit in band once the window placer existed (10 of 388 compose, 1 in band); the FINAL's first-to-cut face, kept on its measured pool
   write: 'garden-bird',
@@ -67,20 +69,20 @@ function review() { try { return require('../fd/review.js'); } catch (e) { retur
 const FIND_THE_DIFFERENCES = {
   en: {
     starter: 'In picture 2,',
-    changeWords: ['missing', 'new', 'bigger', 'smaller', 'moved', 'flipped'],
+    changeWords: ['missing', 'new', 'bigger', 'smaller', 'moved', 'flipped', 'changed'],   // 'changed' = the swap kind (the fr panel's enAudit: the EN strip had no word for it)
     strandNames: { 'Visual Perception': 'Visual Perception' },
     rail: { slug: 'find-the-differences', name: 'Find the Differences' },
     strings: {
-      base: { title: 'Find 5 Differences: {UNIT}', instruction: 'Look down from picture 1 to picture 2, circle the 5 things that are different and tick a box for each one.' },
-      'three-big': { title: 'Find 3 Differences: {UNIT}', instruction: 'Find the 3 big things that are different in the bottom picture, circle them and tick the three boxes.' },
-      colour: { title: 'Find the Differences in Colour', instruction: 'Circle the 5 things in the painted bottom picture that are different; one of them has changed colour.' },
+      base: { title: 'Find 5 Differences: {UNIT}', instruction: 'Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one.' },
+      'three-big': { title: 'Find 3 Differences: {UNIT}', instruction: 'Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes.' },
+      colour: { title: 'Find the Differences in Colour', instruction: 'Circle the 5 things in the coloured bottom picture that are different; at least one of them has a new colour.' },
       seven: { title: 'Find 7 Differences at the Pond', instruction: 'Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each.' },
       'ten-pairs': { title: 'Find 10 Differences in the Garden', instruction: 'Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find.' },
       'how-many': { title: 'How Many Differences?', instruction: 'Circle every difference you find in the bottom picture, then write how many you found in the box.' },
       'what-changed': { title: 'What Changed? Tick the Words', instruction: 'Circle the 3 differences in the bottom picture, then tick the words of the things that changed.' },
       'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things that are still different, then fold on the line to check.' },
-      missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing.' },
-      pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one thing that is different in the right picture of every row.' },
+      missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each.' },
+      pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one thing that is different in the right picture and tick the box of that row.' },
       write: { title: 'Write What Is Different', instruction: 'Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips.' },
     },
     tap: {
@@ -176,7 +178,8 @@ function validateBank(block, loc) {
   if (!block.strandNames || !block.strandNames['Visual Perception']) errs.push("strandNames['Visual Perception'] missing");
   if (!block.rail || !/^[a-z0-9-]+$/.test(block.rail.slug || '')) errs.push('rail.slug must be ASCII a-z 0-9 -');
   if (block.rail && block.rail.name && K061_HEADS.includes(nfc(block.rail.name))) errs.push('rail.name is a K-061 title');
-  // rule 7 + 9: the pinned units exist, pairs share a theme, the bases are distinct
+  // rule 7 + 9: every mode has a pinned unit, the pinned units exist, pairs share a theme, the bases are distinct
+  for (const mode of MODES) if (!UNITS[mode] && !(block.unitOverrides || {})[mode]) errs.push(`${mode}: no pinned unit in UNITS`);
   const bases = new Set();
   for (const [mode, u] of Object.entries({ ...UNITS, ...(block.unitOverrides || {}) })) {
     const list = Array.isArray(u) ? u : [u];

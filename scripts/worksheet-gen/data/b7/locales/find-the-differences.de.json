@@ -1,0 +1,80 @@
+{
+  "starter": "Auf Bild 2",
+  "changeWords": [
+    "fehlt",
+    "ist neu",
+    "ist größer",
+    "ist kleiner",
+    "ist verschoben",
+    "ist gespiegelt"
+  ],
+  "strandNames": {
+    "Visual Perception": "Visuelle Wahrnehmung"
+  },
+  "rail": {
+    "slug": "fehlersuchbilder",
+    "name": "Fehlersuchbilder"
+  },
+  "strings": {
+    "base": {
+      "title": "Finde 5 Unterschiede: {UNIT}",
+      "instruction": "Vergleiche Bild 1 und Bild 2, kreise im unteren Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen in ein Kästchen."
+    },
+    "three-big": {
+      "title": "Finde 3 Unterschiede: {UNIT}",
+      "instruction": "Finde im unteren Bild die 3 großen Unterschiede, kreise sie ein und setze in jedes der drei Kästchen ein Häkchen."
+    },
+    "colour": {
+      "title": "Fehlersuchbild in Farbe: Finde die Unterschiede",
+      "instruction": "Kreise im unteren bunten Bild die 5 Dinge ein, die anders sind, und setze für jeden Unterschied ein Häkchen; achte dabei auch auf die Farben."
+    },
+    "seven": {
+      "title": "Finde 7 Unterschiede am Teich",
+      "instruction": "Kreise die 7 Unterschiede ein, 4 im linken Bildpaar und 3 im rechten, und setze für jeden ein Häkchen in ein Kästchen darunter."
+    },
+    "ten-pairs": {
+      "title": "Finde 10 Unterschiede im Garten",
+      "instruction": "Kreise die 10 Unterschiede ein, 5 in jedem Bildpaar, und setze unter dem Paar für jeden gefundenen Unterschied ein Häkchen."
+    },
+    "how-many": {
+      "title": "Wie viele Unterschiede findest du?",
+      "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest, und schreibe dann in das Kästchen, wie viele es sind."
+    },
+    "what-changed": {
+      "title": "Was hat sich verändert? Kreuze die Wörter an",
+      "instruction": "Kreise im unteren Bild die 3 Unterschiede ein und kreuze dann die Wörter der Dinge an, die sich verändert haben."
+    },
+    "mirror-pair": {
+      "title": "Spiegelbild: Finde die Unterschiede",
+      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, und falte das Blatt dann an der Linie, um es zu prüfen."
+    },
+    "missing": {
+      "title": "Was fehlt im Bild?",
+      "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt."
+    },
+    "pairs": {
+      "title": "Bildpaare: Finde den Unterschied",
+      "instruction": "Jede Reihe zeigt denselben Bildausschnitt zweimal; kreise im rechten Bild jeder Reihe das eine Ding ein, das anders ist."
+    },
+    "write": {
+      "title": "Unterschiede finden und beschreiben",
+      "instruction": "Kreise die 4 Unterschiede ein und schreibe dann zu jedem einen Satz auf die Zeilen; nimm dafür die Wörter aus den beiden Streifen."
+    }
+  },
+  "tap": {
+    "fd-tap": "Schau dir das obere Bild genau an und tippe dann im unteren Bild auf jede Stelle, die anders ist.",
+    "fd-tapCount": "Finde im unteren Bild jeden Unterschied und tippe dann auf die Zahl, die sagt, wie viele es sind.",
+    "fd-tapMirror": "Das untere Bild ist spiegelverkehrt. Tippe auf jede Stelle darin, die trotzdem anders ist.",
+    "fd-tapMissing": "Tippe im unteren Bild auf jede leere Stelle, an der etwas aus dem oberen Bild fehlt.",
+    "fd-tapPairs": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf das eine Ding, das anders ist.",
+    "fd-tapWords": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben."
+  },
+  "numberWords": {
+    "3": "drei",
+    "5": "fünf",
+    "7": "sieben",
+    "10": "zehn"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

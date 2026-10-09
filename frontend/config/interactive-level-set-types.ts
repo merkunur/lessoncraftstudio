@@ -22,6 +22,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
   'feelings',
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
+  'mental-math',         // Mental Math (2026-10-09): tap the missing number of each problem
   'measurement',         // Measurement (2026-10-09): tap a length, a temperature, cubes, ml or g; the rank 1-3; the heavier picture
   'hundreds-chart-puzzles', // Hundreds Chart Puzzles (2026-10-09): tap the number for the ? square, the wrong number, where the jumps land
   'graphing-data',       // Graphs and Data (2026-10-08): tap the number on each graph, the one with the most, build the graph cell by cell

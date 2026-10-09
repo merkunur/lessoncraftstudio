@@ -40,7 +40,7 @@ function cardFill(floor) {
   const F = floor || 0.3, fails = [], ratios = [];
   document.querySelectorAll('.ws-body .ws-card').forEach((card, i) => {
     const c = card.getBoundingClientRect();
-    const rs = [...card.querySelectorAll('[data-lcs-art], svg, img, .ws-answerbox, .ws-blankbox, .ws-pattern-chip, .ws-achip, [data-lcs-answer]')]
+    const rs = [...card.querySelectorAll('[data-lcs-art], .ws-card-stage > span, svg, img, .ws-answerbox, .ws-blankbox, .ws-pattern-chip, .ws-achip, [data-lcs-answer]')]
       .filter((e) => !e.closest('.ws-card-badge') && !(e.tagName.toLowerCase() === 'img' && e.closest('[data-lcs-art]')) && !(e.tagName.toLowerCase() === 'svg' && e.parentElement && e.parentElement.closest('svg')))
       .map((e) => e.getBoundingClientRect()).filter((r) => r.width > 2 && r.height > 2);
     if (!rs.length) return;

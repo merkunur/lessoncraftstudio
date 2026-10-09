@@ -143968,6 +143968,909 @@
    ],
    "title": "Experimentrapport flyta eller sjunka – åk 3 | skriva ut PDF gratis",
    "metaDescription": "En experimentrapport i fyra delar: min fråga, jag tror, det här hände och jag lärde mig. Frågor om en apelsin med skal och en lerbåt. Åk 3. Gratis PDF."
+  },
+  {
+   "slug": "finn-fem-fel-hund-i-tradgarden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Finn fem fel",
+   "h1": "Finn fem fel: Hund i trädgården",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "forskola"
+   ],
+   "p1": "En hund sitter i sin trädgård två gånger på den här sidan: bild 1 överst, bild 2 rakt under och en spalt med fem kryssrutor bredvid. Båda bilderna är ritade från samma förlaga, så barnets blick kan glida från den ena till den andra utan att leta efter rätt ställe. Fem saker är annorlunda i bild 2. På exemplaret som visas har blomman bytts ut mot en annan, en fjäril har bytts ut, en kolibri har vänt på sig, ett moln har blivit större och nyckelpigan är större; en annan utskrift av samma sida i serien finn-fem-fel drar sina fem fel på nytt, så sorten varierar (något saknas, något har kommit till, något är större eller mindre, något har flyttat sig eller vänt på sig) medan antalet alltid är fem.",
+   "p2": "Uppgiften är att jämföra, inte att gissa. Barnet tittar på en del av bild 1, letar upp samma del i bild 2 och avgör om den fortfarande stämmer. Det är samma visuella urskiljning som senare bär läsningen (b mot d, 6 mot 9) och det noggranna tittandet i NO, här gjort med en hund, moln och blommor. Kryssrutorna gör sökandet till en räkning: fem rutor, fem fynd, och barnet vet själv när sidan är klar.",
+   "p3": "Det här är grundsidan i serien. Syskonsidorna ändrar en sak var: tre stora fel för ett första försök, färgbilder, sju eller tio fel i två bildpar, ett hemligt antal, ord att kryssa i, en spegelvänd bild, saker som saknas, bildpar och en skrivsida. Varje version skrivs ut som PDF, öppnas som pekskärmsversion där barnet trycker på felen och kommer med facit där varje fel är inringat med en siffra. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-k395",
+   "carousel": [
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    },
+    {
+     "label": "Finn tio fel i trädgården",
+     "href": "finn-tio-fel-i-tradgarden-svar"
+    }
+   ],
+   "title": "Finn fem fel – arbetsblad för förskoleklass | PDF gratis att skriva ut",
+   "metaDescription": "Finn fem fel: en hund i trädgården ritad två gånger, fem fel i bild 2. Ringa in dem och kryssa i fem rutor. PDF för förskoleklass med facit och pekskärmsversion."
+  },
+  {
+   "slug": "hur-man-ritar-en-katt-steg-for-steg",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Hur man ritar en katt steg för steg",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "forskola"
+   ],
+   "p1": "Fyra numrerade steg löper nerför vänsterkanten på den här sidan, och resten av den är en enda stor streckad ruta. Steg 1 är kattens kontur för sig, ritad i orange; i steg 2 och 3 är de tidigare linjerna svarta och de nya orange, så att barnet ser exakt vad som läggs till varje gång; steg 4 visar den färdiga katten. Stegen är tagna ur själva teckningen, inte ritade om, och därför är katten på kortet och katten barnet siktar på samma katt. Det här är grundsidan i serien rita-steg-for-steg för förskoleklass.",
+   "p2": "Att rita efter steg lär ett barn att se ett helt djur som en kontur plus delar som läggs till i ordning, vilket är så vana tecknare arbetar och motsatsen till att börja med ett öga och få slut på plats. Att hålla barnets teckning på en stor ruta bredvid de små stegen tränar också blicken från förlaga till papper, en färdighet som skrivandet kommer att behöva.",
+   "p3": "Skriv ut på vanligt papper och ge barnet en blyertspenna; mer behövs inte, och det finns inget att rätta eftersom teckningen är barnets egen. Seriens tio andra sidor ändrar en sak var: prickade former att utgå från, en grå förlaga att rita över, en halvfärdig teckning att göra klar, ett rutnät, ett ord att skriva, ett motiv, hopblandade steg, en ruta för varje steg, tre meningar och att rita ur minnet. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-k396",
+   "carousel": [
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    },
+    {
+     "label": "Rita en dinosaurie ruta för ruta",
+     "href": "rita-en-dinosaurie-ruta-for-ruta"
+    }
+   ],
+   "title": "Hur man ritar en katt steg för steg | PDF gratis att skriva ut",
+   "metaDescription": "Hur man ritar en katt steg för steg: fyra numrerade steg längs kanten, varje stegs nya linjer i orange och en stor streckad ruta att rita i. PDF för förskoleklass."
+  },
+  {
+   "slug": "finn-tre-fel-hink-och-spade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-3-differences",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Finn tre fel",
+   "h1": "Finn tre stora fel: Hink och spade",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "forskola"
+   ],
+   "p1": "Tre fel, och vart och ett av dem stort: det här är sidan att ge ett barn som aldrig har jämfört två bilder förut. Strandmotivet med hink och spade, bollen, sjöstjärnan och två kycklingar är ritat två gånger, den ena bilden över den andra, och bara tre saker ändras i den nedre. På exemplaret som visas har solen blivit en måne, ett moln har blivit större och en kyckling är mycket större; små ändringar som en vriden detalj hålls med flit borta från den här sidan i serien finn-fem-fel, så att varje fel är stort som ett helt föremål.",
+   "p2": "Tre är ett antal som en fyraåring kan hålla i en hand, och de tre stora kryssrutorna bredvid bilderna passar det. Barnet ringar in varje fel i den nedre bilden och kryssar i en ruta, tittar sedan tillbaka och kollar att tre rutor är ikryssade och tre ringar ritade. Det som lärs in är metoden, i lugn takt: titta på en sak i den övre bilden, leta upp den nedanför, fråga om den fortfarande är likadan, gå vidare.",
+   "p3": "Skriv ut PDF:en för bordet, eller öppna pekskärmsversionen på en surfplatta där varje hittat fel tänds; facit ringar in de tre felen med siffrorna 1 till 3. När tre stora fel går lätt erbjuder grundsidan fem, och dammsidan sju i två bildpar. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-k397",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    },
+    {
+     "label": "Finn tio fel i trädgården",
+     "href": "finn-tio-fel-i-tradgarden-svar"
+    }
+   ],
+   "title": "Finn tre fel – arbetsblad för förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Finn tre fel för ett första försök: en strand med hink och spade ritad två gånger, tre stora fel, tre rutor. PDF för förskolan med facit och pekskärmsversion."
+  },
+  {
+   "slug": "hitta-felen-i-fargbilden-groda-vid-dammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-the-differences-in-colour",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Finn fem fel i färg",
+   "h1": "Hitta felen i färgbilden: Groda vid dammen",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "forskola"
+   ],
+   "p1": "Dammen är målad på den här sidan. En grön groda sitter på en blå damm under en gul sol, med en lila fjäril, kolibrier, en röd tulpan och två blå kycklingar, och hela motivet finns två gånger. Fem saker skiljer i den nedre färgbilden, och minst en av dem är enbart en färgändring: på exemplaret som visas har grodan blivit lila och fjärilen orange, medan ett moln har blivit större, en kyckling har vänt på sig och blomman har blivit en tulpan. Färgen är poängen med den här sidan i serien finn-fem-fel, så den skrivs ut i färg och fungerar bäst så; på en svartvit skrivare försvinner färgfelet och grundsidan passar bättre.",
+   "p2": "Att upptäcka att ett föremål har samma form på samma plats men en annan färg är en svårare jämförelse än att se att något är borta. Barnet måste hålla den övre grodans färg i minnet medan det tittar på den nedre. De fem kryssrutorna håller räkningen ärlig, och sidan ber barnet titta lika noga på färger som på former.",
+   "p3": "Varje sida i serien skrivs ut som PDF, öppnas som pekskärmsversion på surfplattan och har facit där de fem felen är inringade. Det här är seriens enda färgsida; syskonen är streckteckningar. De här sidorna jämför två bilder av samma motiv; måla efter nummer använder samma motiv till en annan uppgift, och spegelritning och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-k398",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    },
+    {
+     "label": "Finn tio fel i trädgården",
+     "href": "finn-tio-fel-i-tradgarden-svar"
+    }
+   ],
+   "title": "Finn fem fel i färg för förskoleklass | PDF gratis att skriva ut",
+   "metaDescription": "Finn felen i färg: en målad damm med groda ritad två gånger, fem fel, minst ett är bara en ny färg. Ringa in och kryssa i. PDF för förskoleklass med facit och pekskärm."
+  },
+  {
+   "slug": "finn-sju-fel-vid-dammen-tva-bildpar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-7-differences",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Finn sju fel",
+   "h1": "Finn sju fel vid dammen",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-1"
+   ],
+   "p1": "Sju fel på ett blad, fördelade på två dammotiv. Det vänstra bildparet visar en sköldpadda vid dammen med fyra fel mellan övre och nedre bild; det högra visar en krokodil med tre. Varje par har en egen rad kryssrutor under sig, 4 och 3, så ett barn som blir klart med ett motiv ser att det är färdigt innan nästa börjar. De fyra bilderna delar samma himmel, och det är därför flikarna 1 och 2 spelar roll: jämför övre med nedre inom ett par, aldrig vänster med höger. Det här är sjufelssidan i serien finn-fem-fel, skriven för årskurs 1.",
+   "p2": "Sju är antalet i många pysselböcker, och sidan gör skäl för det med mindre fel än förskolesidorna: på exemplaret som visas har en kyckling och en kolibri vänt på sig, en fjäril saknas, en tulpan är mindre, ett moln är större, en svamp är mindre och blomman har bytts ut mot en tulpan. Barnet måste söka av hela bilden i stället för att få syn på det enda stora, och de två paren ger två nya starter på samma blad.",
+   "p3": "PDF:en skriver ut de två paren sida vid sida; på surfplattan staplar pekskärmsversionen de fyra bilderna med samma 1- och 2-flikar och en linje mellan paren, och facit ringar in de sju felen med siffror. Tiofelssidan använder samma tvåparslayout för den svåraste versionen. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g1412",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn tio fel i trädgården",
+     "href": "finn-tio-fel-i-tradgarden-svar"
+    }
+   ],
+   "title": "Finn sju fel – arbetsblad för årskurs 1 | PDF gratis att skriva ut",
+   "metaDescription": "Finn sju fel: en sköldpadda och en krokodil vid dammen, varje motiv ritat två gånger, fyra fel till vänster och tre till höger. PDF för årskurs 1 med facit och pekskärm."
+  },
+  {
+   "slug": "finn-tio-fel-i-tradgarden-svar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-10-differences",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad: Finn tio fel",
+   "h1": "Finn tio fel i trädgården",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-2"
+   ],
+   "p1": "Tio fel är den svåra sidan. Två trädgårdsmotiv, ett med en drake och ett med en nyckelpiga, är ritade två gånger var, och fem saker ändras i varje par, med en rad om fem kryssrutor under vartdera. Här får felen vara små: på exemplaret som visas har draken flyttat sig lite, en tulpan saknas, en svamp är större, en fjäril är mindre och solen är borta i det vänstra paret; i det högra är en kolibri mindre, en liten nyckelpiga saknas, en kyckling är mindre, ett moln är större och ett moln har flyttat sig. Ett barn i årskurs 2 som tyckte dammsidan med sju fel var lätt är den läsare den här sidan i serien finn-fem-fel är skriven för.",
+   "p2": "Att söka efter tio små ändringar är ett arbete i uthållig uppmärksamhet. Tvåparslayouten ger det en struktur: gör klart drakparet, kryssa i fem rutor, börja sedan om på nyckelpigeparet. Sifferflikarna 1 och 2 på varje bild håller jämförelsen inom paret, eftersom de två motiven delar himmel och kan förväxlas i en hastig blick. Att ringa in varje fynd innan rutan kryssas stoppar det vanliga misstaget att räkna ett fel två gånger.",
+   "p3": "PDF:en skriver ut båda paren på ett blad; pekskärmsversionen staplar de fyra bilderna med samma flikar och en linje mellan paren; facit ringar in alla tio felen med siffror, fem per par, så rättningen tar en minut. Lättare syskon i serien erbjuder tre, fem och sju fel. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g2388",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Finn tio fel, svår – arbetsblad för årskurs 2 | PDF gratis att skriva ut",
+   "metaDescription": "Finn tio fel, den svåra sidan: två trädgårdsmotiv med en drake och en nyckelpiga, fem fel per bildpar. PDF för årskurs 2 med facit och pekskärmsversion."
+  },
+  {
+   "slug": "hur-manga-fel-rakna-och-skriv-siffran",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "how-many-differences",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Hur många fel?",
+   "h1": "Hur många fel hittar du? Räkna och skriv siffran",
+   "strand": "Visuell perception",
+   "standard": "K.CC.B.5",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-1"
+   ],
+   "p1": "Ingen talar om för barnet hur många fel det finns. Ett trädgårdsmotiv med en kyckling, kolibrier, fjärilar, blommor och en nyckelpiga är ritat två gånger, och det enda räkneverket på sidan är en tom ruta för en siffra. Barnet ringar in varje fel det hittar i den nedre bilden, även ställen där något bara är borta, och skriver sedan summan. Varje utskrift av den här sidan i serien finn-fem-fel drar sitt eget antal fel, så antalet är en verklig hemlighet och skrivs inte ut här.",
+   "p2": "Det här gör jämförelsen till räkning. Att hitta felen är det visuella arbetet; att hålla reda på ringarna och skriva siffran är räknearbetet, det som Lgr22 låter en elev i årskurs 1 göra med mängder av föremål. Eftersom instruktionen säger att något kan ha försvunnit räknas en tom plats som ett fynd, vilket hindrar barnet från att bara rapportera de fel som fortfarande syns.",
+   "p3": "Facit ringar in varje fel och skriver siffran i rutan; pekskärmsversionen ber barnet trycka på varje fel och sedan välja rätt siffra i en rad med fyra, 3 till 6. Grundsidan i serien säger antalet rakt ut, och det är versionen att börja med. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g1413",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Hur många fel? – arbetsblad för årskurs 1 | PDF gratis att skriva ut",
+   "metaDescription": "Finn felen och räkna dem: ett trädgårdsmotiv ritat två gånger, antalet fel hemligt. Ringa in varje fel, skriv hur många. PDF för årskurs 1 med facit och pekskärm."
+  },
+  {
+   "slug": "vad-har-andrats-kryssa-i-orden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-changed-tick-the-words",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Vad har ändrats?",
+   "h1": "Vad har ändrats? Kryssa i orden",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-1"
+   ],
+   "p1": "Bredvid de två bondgårdsbilderna står en spalt med sex ord: lada, sol, hö, ko, kolibri, moln. Tre saker är annorlunda i den nedre bilden, och när barnet har ringat in dem kryssar det i orden för de saker som har ändrats. Orden är bildens egna, och tre av de sex är störord som namnger saker som är kvar oförändrade. På det här bladet i serien finn-fem-fel är läsmängden sex substantiv och inget mer, vilket är lagom för årskurs 1.",
+   "p2": "Att para ihop ett fel med dess ord är bron från att titta till att tala. Ett barn som har sett att solen är borta måste sedan avgöra att ordet för den är sol, inte moln. Sidan erbjuder aldrig två ord för samma teckning, så varje kryss har ett rätt svar: där en bild har både en vanlig fågel och en namngiven listas bara det precisa ordet. Störorden gör kryssandet till ett beslut i stället för en vana.",
+   "p3": "Facit ringar in de tre felen och kryssar i de tre rätta orden; pekskärmsversionen ber barnet trycka på felen och sedan på orden. Syskonsidan Skriv vad som är annorlunda flyttar samma idé till meningar för årskurs 2. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g1414",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Vad har ändrats? Kryssa i orden – åk 1 | PDF gratis att skriva ut",
+   "metaDescription": "Finn felen och sätt ord på dem: ett bondgårdsmotiv ritat två gånger, tre fel, sex bildord. Ringa in felen, kryssa i orden. PDF för årskurs 1 med facit och pekskärm."
+  },
+  {
+   "slug": "spegelvand-bild-hitta-felen-vik-och-kolla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "mirror-pictures-find-the-differences",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Spegelvänd bild",
+   "h1": "Spegelvänd bild: hitta felen och vik för att kolla",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-1"
+   ],
+   "p1": "Bild 2 på den här sidan är vänd som i en spegel. En räv i skogen står till vänster, och dess spegelbild sitter till höger med en streckad viklinje emellan. Själva vändningen är inget fel: fyra saker är ändå ändrade inne i spegelbilden, och de kan vara något som saknas, något som bytts ut, något större eller mindre. På exemplaret som visas saknas en kyckling, ett moln är mindre, tulpanen är borta och ett annat moln är större. Fyra kryssrutor sitter under bild 2. När barnet har ringat in fyra saker lägger en vikning längs linjen den ena bilden över den andra, och mot ljuset syns var de inte stämmer. Det här är spegelsidan i serien finn-fem-fel för årskurs 1.",
+   "p2": "Att jämföra ett motiv med sin spegelbild ber barnet byta vänster mot höger i huvudet, samma rörelse som skiljer b från d och p från q. Allt sitter där man väntar sig när vändningen väl är förstådd; de fyra riktiga felen gömmer sig innanför det extra steget. Vikningen är självrättningen, så sidan rättar sig själv innan en vuxen ser den.",
+   "p3": "Facit ringar in de fyra felen och kryssar i rutorna; pekskärmsversionen visar de två bilderna staplade med den nedre spegelvänd och ber barnet trycka på varje riktigt fel. De här sidorna jämför två bilder av samma motiv; spegelritning, där barnet själv ritar den andra halvan, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g1415",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Spegelvänd bild: hitta felen – åk 1 | PDF gratis att skriva ut",
+   "metaDescription": "Hitta felen i en spegelvänd bild: en räv i skogen, bild 2 vänd som i en spegel, fyra riktiga fel. Vik längs linjen och kolla. PDF för årskurs 1 med facit och pekskärm."
+  },
+  {
+   "slug": "vad-saknas-ringa-in-det-tomma-stallet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-is-missing",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Vad saknas?",
+   "h1": "Vad saknas i bilden? Ringa in det tomma stället",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "forskola"
+   ],
+   "p1": "Inget byts ut, flyttas eller ändrar storlek på den här sidan: saker försvinner bara. En uggla sitter under månen med stjärnor, planeter och svampar i bild 1, och i bild 2 är tre av dessa saker borta, så att tomma ställen blir kvar på natthimlen och på marken. På exemplaret som visas saknas två planeter och en svamp. Barnet ringar in de tre tomma ställena och kryssar i tre rutor. Bara borttagning används på den här förskoleversionen i serien finn-fem-fel, så frågan förblir en enda fråga: vad fanns där, och finns det kvar?",
+   "p2": "Att lägga märke till frånvaro är svårare än att se en ändring, eftersom det inte finns något att titta på där saken satt. Barnet måste minnas den övre bilden medan det söker av den nedre, och det är minnesdelen av visuell jämförelse. Tre saker håller det inom räckhåll för en femåring, och en ring runt tomt papper är ett svar som känns bra att rita.",
+   "p3": "Facit ringar in de tre tomma ställena med siffror; pekskärmsversionen ber barnet trycka på varje tomt ställe i den nedre bilden. Grundsidan i serien blandar alla sorters ändringar och är steget efter den här. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-k399",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Vad saknas i bilden? – arbetsblad för förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Vad saknas: ett nattmotiv med en uggla ritat två gånger, tre saker borta. Ringa in de tomma ställena, kryssa i tre rutor. PDF för förskolan med facit och pekskärm."
+  },
+  {
+   "slug": "bildpar-ett-fel-i-varje-rad",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "picture-pairs-find-the-difference",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Bildpar",
+   "h1": "Bildpar: ett fel i varje rad",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "forskola"
+   ],
+   "p1": "I stället för ett stort motiv klipper den här sidan en trädgård i tre närbilder och visar var och en två gånger, sida vid sida på en rad. I varje rad är exakt en sak annorlunda i den högra bilden, och en kryssruta avslutar raden. Rutorna är stora och föremålen få, så barnet kan ta en rad i taget: på exemplaret som visas har en kolibri blivit större i första raden, solen saknas i den andra och en kyckling är större i den tredje. Idén i serien finn-fem-fel kommer här i sin minsta och lugnaste form för förskolan.",
+   "p2": "Ett fel per rad tar bort frågan om när man ska sluta. Barnet jämför två små bilder, hittar den enda ändringen, ringar in den, kryssar i rutan och går neråt. Eftersom ett fel kan vara något som är borta ber instruktionen om stället som är annorlunda i stället för saken, och en ring runt en tom bit papper är ett rätt svar.",
+   "p3": "Facit ringar in varje fel; pekskärmsversionen staplar radens två bilder och ber barnet trycka på det enda ställe som skiljer. Härifrån sätter trefels- och femfelssidorna i serien tillbaka jämförelsen i ett helt motiv. De här sidorna jämför två bilder av samma motiv; spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-k400",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Bildpar: hitta felet – förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Bildpar: tre rader med utsnitt ur en trädgård visade två gånger, ett fel per rad. Ringa in det, kryssa i rutan. PDF för förskolan med facit och pekskärmsversion."
+  },
+  {
+   "slug": "skriv-vad-som-ar-annorlunda-en-mening-per-fel",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "write-what-is-different",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad: Skriv vad som är annorlunda",
+   "h1": "Skriv vad som är annorlunda: en mening per fel",
+   "strand": "Visuell perception",
+   "slotTokens": [
+    "finn-fem-fel",
+    "ak-2"
+   ],
+   "p1": "Två bilder av en elefant under ett träd sitter sida vid sida, med tre fel mellan sig, och under dem löper två ordremsor: sex substantiv från bilden (träd, elefant, fågel, sol, blomma, moln) och sju ändringsord (har bytts ut, saknas, är mindre, är större, har kommit till, har flyttat sig, har vänt på sig). Tre linjerade rader börjar var och en med den förtryckta starten Bild 2:, och barnet gör klart en mening per fel genom att ta ett substantiv från första remsan och ett ändringsord från den andra. På exemplaret som visas har elefanten vänt på sig, ett moln saknas och solen är mindre. Det här är skrivsidan i serien finn-fem-fel för årskurs 2.",
+   "p2": "Att beskriva ett fel i en mening gör att barnet måste namnge både saken och vad som hänt med den: Bild 2: molnet saknas. Remsorna står för stavningen, så kraften går till jämförelsen och meningen, inte till att gissa bokstäver. Ett fel kan vara något som är borta, och det är därför ordet saknas finns på remsan och instruktionen säger det.",
+   "p3": "Facit ringar in de tre felen med siffror; pekskärmsversionen ber barnet trycka på felen innan det skriver. Syskonsidan Vad har ändrats? Kryssa i orden ber om samma bedömning med kryss i stället för meningar, ett år tidigare. De här sidorna jämför två bilder av samma motiv; bildskrivning, spegelritning, måla efter nummer och hitta den som inte passar har egna sidor.",
+   "canonicalDeckSlug": "finn-fem-fel-g2389",
+   "carousel": [
+    {
+     "label": "Finn fem fel: Hund i trädgården",
+     "href": "finn-fem-fel-hund-i-tradgarden"
+    },
+    {
+     "label": "Finn tre stora fel: Hink och spade",
+     "href": "finn-tre-fel-hink-och-spade"
+    },
+    {
+     "label": "Hitta felen i färgbilden: Groda vid dammen",
+     "href": "hitta-felen-i-fargbilden-groda-vid-dammen"
+    },
+    {
+     "label": "Finn sju fel vid dammen",
+     "href": "finn-sju-fel-vid-dammen-tva-bildpar"
+    }
+   ],
+   "title": "Skriv vad som är annorlunda – åk 2 | PDF gratis att skriva ut",
+   "metaDescription": "Finn felen och skriv om dem: ett motiv med en elefant ritat två gånger, tre fel, två ordremsor och tre skrivrader. PDF för årskurs 2 med facit och pekskärmsversion."
+  },
+  {
+   "slug": "rita-en-hund-av-enkla-former",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-simple-shapes",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en hund av enkla former",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "forskola"
+   ],
+   "p1": "Den stora rutan på den här sidan är inte tom. Fyra prickade former sitter redan där, en oval för huvudet, en för varje öra och en hög oval för kroppen, placerade precis där hundens delar ska vara. Barnet fyller i de prickade formerna, ritar hundens kontur runt dem och lägger sedan till nos, ben och svans från de fyra numrerade stegen till vänster. På korten växer hunden från kontur till färdig teckning med varje stegs nya linjer i orange, på samma sätt som på varje sida i serien rita-steg-for-steg för förskolan.",
+   "p2": "Former först är den äldsta ritlektionen som finns: ett huvud är en cirkel, en kropp en oval, och konturen följer efter. Att se de prickade ovalerna under den färdiga hunden visar barnet var en teckning kommer ifrån, och det kopplar tyst ihop ritandet med formnamnen i den tidiga geometrin. Eftersom formerna låser storlek och placering blir hunden stor och hel i stället för hopträngd i ett hörn.",
+   "p3": "Skriv ut och rita med blyertspenna; det finns inget att rätta, och ovalerna försvinner nästan under barnets egna linjer. Grundsidan i serien ger samma stora ruta utan något i, och kaninsidan ger en grå förlaga att rita över. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-k401",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    },
+    {
+     "label": "Rita en dinosaurie ruta för ruta",
+     "href": "rita-en-dinosaurie-ruta-for-ruta"
+    }
+   ],
+   "title": "Rita en hund av enkla former – förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Rita en hund av enkla former: fyra prickade ovaler i rutan för huvud, öron och kropp, fyra numrerade steg bredvid. Arbetsblad i PDF för förskolan att skriva ut."
+  },
+  {
+   "slug": "rita-over-kaninen-rita-sedan-sjalv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "trace-then-draw",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita över kaninen, rita sedan själv",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "forskola"
+   ],
+   "p1": "Två rutor delar den här sidan. Den vänstra rymmer en stor kanin tryckt i ljusgrått, klar att ritas över med blyertspenna; den högra är tom, för barnets egen kanin ritad efteråt. Överst löper de fyra stegen, konturen först, med varje stegs nya linjer i orange. Att rita över den grå kaninen lär handen vägen runt öronen och tassarna; att rita den igen bredvid, utan det grå, är förskolebarnets första teckning ur minnet av den form det just följt. Sidan hör till serien rita-steg-for-steg.",
+   "p2": "De två rutorna är lika stora med flit, så att den andra kaninen får plats att bli lika stor som den första. Att rita över ett helt djur är en annan övning än att spåra bokstäver: linjerna böjer, korsar och slingrar sig, och pennan måste hålla jämnt tryck under en lång sträcka. Att göra det en gång med stöd och en gång utan är hela metoden på den här sidan.",
+   "p3": "Skriv ut på vanligt papper; den grå förlagan blir ljus på vilken skrivare som helst och det finns inget att rätta. Hundsidan i serien tar bort den grå förlagan och ger prickade former i stället; hästsidan ger en halvfärdig häst att göra klar. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-k402",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    },
+    {
+     "label": "Rita en dinosaurie ruta för ruta",
+     "href": "rita-en-dinosaurie-ruta-for-ruta"
+    }
+   ],
+   "title": "Rita över kaninen, rita sedan själv – förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Rita över kaninen, rita sedan själv: en stor grå kanin att följa med pennan, en tom ruta för din egen kanin, fyra steg överst. Arbetsblad i PDF för förskolan."
+  },
+  {
+   "slug": "rita-fardigt-hasten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "finish-the-drawing",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita färdigt hästen",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "forskola"
+   ],
+   "p1": "En hel häst står till vänster på den här sidan, och till höger står samma häst ofärdig: konturen och ögonen finns, men manens linjer, mulen, hovarna och linjerna i ben och svans saknas. Ett litet ringmärke visar vilken som är den ofärdiga. Barnet tittar från den hela hästen till den ofärdiga, ritar dit det som saknas och ritar sedan en egen häst i den stora rutan under. Här finns ingen spegellinje och ingen halv bild; den här sidan i serien rita-steg-for-steg handlar om att jämföra två teckningar av samma häst.",
+   "p2": "Att hitta det som saknas och rita dit det är iakttagelse och ritande i ett enda drag. Barnet måste titta på förlagan del för del, vilket lär in djurets delar, och sedan sätta linjerna på rätt plats, vilket tränar handen. Den tredje rutan låter barnet pröva hela hästen när delarna har blivit bekanta.",
+   "p3": "Skriv ut och rita med blyertspenna; inget rättas. De saknade linjerna är valda så att luckan är tydlig för ett barn, och ring- och punktmärkena skiljer bara de två hästarna åt. Grundsidan i serien ger de fulla fyra stegen i stället för en förlaga att göra klar. Barnet ritar djuret från dess egna steg; symmetriritning, där halva bilden speglas, bokstavsspårning och kopiera rutor har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-k403",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita en dinosaurie ruta för ruta",
+     "href": "rita-en-dinosaurie-ruta-for-ruta"
+    }
+   ],
+   "title": "Rita färdigt hästen – arbetsblad för förskolan | PDF gratis att skriva ut",
+   "metaDescription": "Rita färdigt teckningen: en hel häst bredvid samma häst utan man, mule och hovar. Rita dit det som saknas, sedan en egen häst. Arbetsblad i PDF för förskolan."
+  },
+  {
+   "slug": "rita-en-dinosaurie-ruta-for-ruta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-the-grid",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en dinosaurie ruta för ruta",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-1"
+   ],
+   "p1": "En dinosaurie står i ett rutnät med fyra gånger fyra rutor överst till vänster på sidan. Bredvid finns ett tomt rutnät av samma storlek, och under båda en stor streckad ruta utan linjer. Barnet ritar av dinosaurien i det tomma rutnätet en ruta i taget, med blicken på var linjerna korsar varje ruta, och ritar den sedan en gång till i rutan utan rutnät. Rutnätet är ett rithjälpmedel, inte ett pixelpussel: linjer, inte ifyllda rutor, och det är det som skiljer den här sidan i serien rita-steg-for-steg för årskurs 1 från sidorna med kopiera rutor.",
+   "p2": "Att arbeta ruta för ruta delar en svår teckning i sexton lätta och lär barnet att titta på läge: huvudet sitter i den vänstra kolumnen, svansen når högerkanten i tredje raden. Den andra teckningen, utan rutnät, är där det tittandet betalar sig, för nu känner barnet dinosauriens proportioner efter att ha mätt dem.",
+   "p3": "Skriv ut på vanligt papper; inget rättas, och rutan utan linjer är större än rutnätet så att den andra dinosaurien får plats att bli lik den första. Grundsidan i serien använder numrerade steg i stället för ett rutnät. Barnet ritar djuret från dess egna steg eller rutor; kopiera rutor med pixelbilder, bokstavsspårning och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g1416",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita en dinosaurie ruta för ruta – årskurs 1 | PDF gratis att skriva ut",
+   "metaDescription": "Rita en dinosaurie ruta för ruta: dinosaurien i ett rutnät på 4 gånger 4, ett tomt rutnät att rita av i och en ruta utan linjer för att rita den igen. PDF för årskurs 1."
+  },
+  {
+   "slug": "rita-en-fisk-och-skriv-ordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-and-write-the-word",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en fisk och skriv ordet",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "forskola"
+   ],
+   "p1": "Under ritrutan på den här sidan löper skrivrader, och på den första står ordet fisk tryckt, med en grå kopia under att fylla i och en tom rad för att skriva det själv. De fyra stegen till vänster visar fisken från kontur till färdiga fjäll, med varje stegs nya linjer i orange. Barnet ritar fisken i den stora rutan och skriver sedan dess namn under: en bild, ett ord, båda gjorda av barnet. Den här sidan i serien rita-steg-for-steg knyter ritandet till de första veckornas skrivning i förskoleklassen.",
+   "p2": "Att rita en sak och sedan skriva dess ord är så tidigt ordförråd och handstil stöttar varandra. Ordet är kort och bokstäverna hör till dem ett barn i förskoleklass möter först; den grå kopian sitter på raden så att bokstavshöjden stämmer innan barnet skriver fritt på den tomma raden under. Fisken ritad ovanför ger ordet en betydelse som barnet just har skapat, och ordet ger teckningen ett namn att läsa upp för kompisen bredvid.",
+   "p3": "Skriv ut på vanligt papper och använd blyertspenna till både teckningen och ordet; inget rättas. Grundsidan i serien är samma teckning utan skrivrad; björnsidan ber om tre meningar i stället för ett ord. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-k404",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita en fisk och skriv ordet – förskoleklass | PDF gratis att skriva ut",
+   "metaDescription": "Rita en fisk i fyra steg och skriv sedan ordet fisk på skrivraden under: fyll först i det grå ordet, skriv det sedan själv. Arbetsblad i PDF för förskoleklass."
+  },
+  {
+   "slug": "rita-en-groda-vid-dammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-it-in-the-scene",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en groda vid dammen",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-1"
+   ],
+   "p1": "Rutan på den här sidan är redan en bild. Ett moln och en sol sitter på himlen, en tulpan växer på kanten, och dammen i mitten är tom. Överst visar fyra numrerade steg hur man ritar en groda, konturen först och sedan ögon, ben och prickar med varje stegs nya linjer i orange. Barnet övar grodan från stegen och ritar den sedan på den tomma dammen, så att den färdiga sidan är ett motiv i stället för ett djur som svävar på vitt papper. Det här är motivsidan i serien rita-steg-for-steg för årskurs 1.",
+   "p2": "Att placera en teckning inne i en bild kräver ett beslut som de vanliga sidorna slipper: hur stor ska grodan vara, och var exakt sitter den på dammen? Barn som kan rita ett djur kan ofta inte placera det än, och en förberedd bild med en tydlig tom plats lär ut placeringen utan ord. Solen, molnet och tulpanen ger också grodan en skala att hålla sig till.",
+   "p3": "Skriv ut på vanligt papper; inget rättas. Föremålen är ritade från samma bildbibliotek som dammsidorna i serien Finn fem fel, så grodsidan och de sidorna kan ingå i samma lektion. Grundsidan i serien ger en tom ruta i stället för ett motiv. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g1417",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita en groda vid dammen – arbetsblad åk 1 | PDF gratis att skriva ut",
+   "metaDescription": "Rita en groda in i ett motiv: fyra steg överst, sedan en dammbild med moln, sol och tulpan och en tom damm där grodan ska sitta. Arbetsblad i PDF för årskurs 1."
+  },
+  {
+   "slug": "ordna-stegen-rita-en-uggla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "order-the-drawing-steps",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Ordna stegen: rita en uggla",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-1"
+   ],
+   "p1": "Fem kort visar en uggla i fem stadier av att bli ritad, och de är tryckta i fel ordning. Bredvid varje kort finns en tom ruta. Barnet räknar ut vilket kort som kommer först, vilket som kommer sedan, och skriver 1 till 5 i rutorna innan det ritar ugglan i den stora rutan. Ledtråden sitter i färgerna: på varje kort är de redan ritade linjerna svarta och de just tillagda orange, så det kort vars orange linjer är svarta på ett annat kort kommer före det. Det här är ordningssidan i serien rita-steg-for-steg för årskurs 1.",
+   "p2": "Att sätta steg i ordning är sekvensering, samma tänkande som att ordna rutorna i en berättelse, använt på en ritprocedur. Första och sista kortet är lätta att se, den helt orange konturen och den färdiga ugglan, och de tre i mitten kräver den jämförelse som färgerna gör möjlig. Ett barn som har ordnat korten har förstått varför stegen går i den ordningen, vilket är mer än att kopiera dem.",
+   "p3": "Skriv ut på vanligt papper; ordningen kan stämmas av mot grundsidan i serien, som visar stegen i rätt följd, och teckningen rättas inte. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor, liksom bildsekvenserna med berättelser.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g1418",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Ordna stegen: rita en uggla – åk 1 | PDF gratis att skriva ut",
+   "metaDescription": "Ordna ritstegen: fem kort med en uggla i fel ordning, en ruta bredvid varje för siffrorna 1 till 5, och sedan ritar barnet ugglan. Arbetsblad i PDF för årskurs 1."
+  },
+  {
+   "slug": "rita-av-varje-steg-en-kolibri",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "copy-each-step",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita av varje steg: en kolibri",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-1"
+   ],
+   "p1": "Varje steg på den här sidan har sin egen ruta. Fyra kort överst visar en kolibri som växer från kontur till vingar och fjädrar, och rakt under varje kort finns en tom ruta i samma storlek, så att barnet ritar av steg 1, sedan steg 2 med dess nya linjer tillagda, och så vidare. Den större rutan längst ner är för hela fågeln, ritad större när alla fyra stegen är övade. Den sida i serien rita-steg-for-steg för årskurs 1 som ger mest stöd är den här.",
+   "p2": "Att rita av varje steg för sig gör att barnet ritar konturen fyra gånger och de tillagda linjerna i ordning, vilket sätter sig långt bättre än att titta på stegen en gång och rita den färdiga fågeln. De små rutorna håller varje försök kort; den stora rutan på slutet ber om samma teckning i ny storlek, vilket prövar om proportionerna har lärts in i stället för att följas med blicken.",
+   "p3": "Skriv ut på vanligt papper; inget rättas. Djuret är en kolibri, kallad fågel på sidan eftersom det är ordet ett barn använder. Grundsidan i serien visar samma slags steg med bara en stor ruta. Barnet ritar djuret från dess egna steg; bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g1419",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita av varje steg: en fågel – åk 1 | PDF gratis att skriva ut",
+   "metaDescription": "Rita av varje ritsteg: fyra kort med en kolibri, en tom ruta under varje kort att rita av det i, och en större ruta för hela fågeln. Arbetsblad i PDF för årskurs 1."
+  },
+  {
+   "slug": "rita-en-bjorn-och-skriv-om-den",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-then-write-about-it",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en björn och skriv om den",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-2"
+   ],
+   "p1": "Björnens fyra steg löper nerför vänsterkanten på den här sidan, konturen först med varje stegs nya linjer i orange, och den stora rutan för teckningen sitter bredvid. Under rutan finns tre linjerade skrivrader som var och en börjar med förtryckta ord: Min björn är, Den kan, Den tycker om. Barnet ritar björnen och gör sedan klart de tre meningarna om björnen det just ritat. Ritandet kommer först på den här sidan i serien rita-steg-for-steg för årskurs 2, och det är det som skiljer den från bildskrivning där bilden är given.",
+   "p2": "Att skriva om en teckning barnet själv har gjort ger meningarna ett ämne barnet redan bryr sig om och känner varje detalj i. Starterna låser meningarnas form, en beskrivning, en förmåga och en favorit, så skrivarbetet ligger i predikatet: Min björn är brun och stor. Den kan klättra i träd. Den tycker om honung. Tre meningar om en och samma figur är en liten berättande beskrivning, av det slag Lgr22 väntar sig i årskurs 2.",
+   "p3": "Skriv ut på vanligt papper; teckningen rättas inte och meningarna läses, inte poängsätts. Fisksidan i serien ber om ett ord där den här sidan ber om tre meningar. Barnet ritar djuret från dess egna steg; bildskrivning från en given bild, bokstavsspårning, kopiera rutor och symmetriritning har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g2390",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita en björn och skriv om den – åk 2 | PDF gratis att skriva ut",
+   "metaDescription": "Rita en björn i fyra steg och skriv sedan tre meningar om den på linjerade rader som börjar Min björn är, Den kan och Den tycker om. Arbetsblad i PDF för årskurs 2."
+  },
+  {
+   "slug": "rita-en-fjaril-ur-minnet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-from-memory",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad: Rita steg för steg",
+   "h1": "Rita en fjäril ur minnet",
+   "strand": "Bild",
+   "slotTokens": [
+    "rita-steg-for-steg",
+    "ak-2"
+   ],
+   "p1": "En liten fjäril sitter på en flik överst på den här sidan, en streckad linje löper tvärs över under den, och resten av bladet är en enda stor ruta. Barnet tittar på fjärilen så länge det vill, viker sidans överkant bakåt längs den streckade linjen så att förlagan är ur sikte, och ritar fjärilen ur minnet. När sidan viks upp igen hamnar förlaga och teckning bredvid varandra. Det här är minnessidan i serien rita-steg-for-steg för årskurs 2, och den har inga steg alls.",
+   "p2": "Att rita ur minnet ber barnet studera en bild med ett syfte, vilket är ett annat slags tittande än att rita av. Frågorna kommer av sig själva medan förlagan ännu syns: hur många vingar, var börjar antennerna, är kroppen lång eller kort? Ett symmetriskt djur är ett rimligt första motiv, för den som minns ena vingen har den andra.",
+   "p3": "Skriv ut på vanligt papper och vik längs linjen; det finns inget att rätta, och att jämföra teckningen med förlagan efter uppvikningen är hela genomgången, gärna med frågan vad som blev likt och vad som glömdes. Grundsidan i serien visar stegen i sin helhet för ett barn som ännu inte är redo att rita utan stöd. Barnet ritar djuret från sin egen iakttagelse; symmetriritning, bokstavsspårning och kopiera rutor har egna sidor.",
+   "canonicalDeckSlug": "rita-steg-for-steg-g2391",
+   "carousel": [
+    {
+     "label": "Hur man ritar en katt steg för steg",
+     "href": "hur-man-ritar-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Rita en hund av enkla former",
+     "href": "rita-en-hund-av-enkla-former"
+    },
+    {
+     "label": "Rita över kaninen, rita sedan själv",
+     "href": "rita-over-kaninen-rita-sedan-sjalv"
+    },
+    {
+     "label": "Rita färdigt hästen",
+     "href": "rita-fardigt-hasten"
+    }
+   ],
+   "title": "Rita en fjäril ur minnet – arbetsblad åk 2 | PDF gratis att skriva ut",
+   "metaDescription": "Rita en fjäril ur minnet: en liten fjäril på en flik, en streckad viklinje och en stor ruta under. Titta, vik undan förlagan, rita. Arbetsblad i PDF för årskurs 2."
   }
  ]
 }

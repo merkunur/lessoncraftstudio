@@ -1,5 +1,5 @@
 {
-  "starter": "På billede 2",
+  "starter": "Billede 2:",
   "changeWords": [
     "mangler",
     "er kommet til",
@@ -27,7 +27,7 @@
     },
     "colour": {
       "title": "Find fejlene i farvebilledet",
-      "instruction": "Sæt en ring om de 5 ting i det nederste farvebillede, der er anderledes, sæt kryds i en boks for hver, og kig godt på farverne."
+      "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
     },
     "seven": {
       "title": "Find syv fejl ved dammen",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Spejlvendt billede: find fejlene",
-      "instruction": "Billede 2 er spejlvendt: sæt ring om de 4 ting eller tomme steder, der stadig er anderledes, sæt kryds for hver, og fold langs linjen for at tjekke."
+      "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
     },
     "missing": {
       "title": "Hvad mangler i billedet?",
@@ -55,11 +55,11 @@
     },
     "pairs": {
       "title": "Billedpar: find fejlen",
-      "instruction": "Hver række viser det samme udsnit to gange; sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen på rækken."
+      "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
     },
     "write": {
       "title": "Skriv, hvad der er anderledes",
-      "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne; brug ordene i de to strimler."
+      "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne med ordene fra de to rammer."
     }
   },
   "tap": {
@@ -67,7 +67,7 @@
     "fd-tapCount": "Find hver fejl i det nederste billede (noget kan også være væk), og tryk så på det tal, der viser, hvor mange fejl der er.",
     "fd-tapMirror": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes.",
     "fd-tapMissing": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler.",
-    "fd-tapPairs": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det andet billede i hvert par.",
+    "fd-tapPairs": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det nederste billede i hvert par.",
     "fd-tapWords": "Find det, der er ændret i det nederste billede, og tryk så på ordene for de ting, der er ændret.",
     "fd-tapPairs2": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes."
   },

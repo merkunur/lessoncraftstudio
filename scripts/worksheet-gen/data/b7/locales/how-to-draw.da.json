@@ -85,11 +85,11 @@
     },
     "shapes": {
       "title": "Tegn {L} ud fra enkle former",
-      "instruction": "Tegn oven på de stiplede former, der allerede er på papiret, tegn så hundens omrids rundt om dem, og gør hunden færdig med trinnene."
+      "instruction": "Tegn oven på de stiplede former på papiret, tegn så hundens omrids rundt om dem, og tegn hunden færdig efter trinnene."
     },
     "trace": {
-      "title": "Følg {L} med blyanten, og tegn den selv",
-      "instruction": "Følg den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+      "title": "Tegn oven på {N}, og tegn den selv",
+      "instruction": "Tegn oven på den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
     },
     "finish": {
       "title": "Tegn {N} færdig",
@@ -101,19 +101,19 @@
     },
     "word": {
       "title": "Tegn {L}, og skriv ordet",
-      "instruction": "Følg trinnene, og tegn fisken i boksen; skriv så oven på ordet nedenunder, og skriv det selv."
+      "instruction": "Følg trinnene, tegn fisken i boksen, skriv så oven på det stiplede ord, og skriv ordet selv på den tomme linje."
     },
     "scene": {
       "title": "Tegn {L} ved dammen",
-      "instruction": "Følg trinnene, og tegn så frøen på den tomme dam i billedet."
+      "instruction": "Følg trinnene, og tegn så frøen i den tomme dam i billedet."
     },
     "order": {
       "title": "Sæt trinnene i rækkefølge: tegn {L}",
-      "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem i den rigtige rækkefølge, og tegn så uglen."
+      "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
     },
     "copy-steps": {
       "title": "Trin for trin: tegn {L}",
-      "instruction": "Tegn det, du ser i hvert trin, i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+      "instruction": "Tegn hvert trin i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
     },
     "write": {
       "title": "Tegn {L}, og skriv om den",

@@ -3028,7 +3028,7 @@
   },
   "K-398": {
     "title": "Find fejlene i farvebilledet",
-    "instruction": "Sæt en ring om de 5 ting i det nederste farvebillede, der er anderledes, sæt kryds i en boks for hver, og kig godt på farverne."
+    "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
   },
   "G1-412": {
     "title": "Find syv fejl ved dammen",
@@ -3048,7 +3048,7 @@
   },
   "G1-415": {
     "title": "Spejlvendt billede: find fejlene",
-    "instruction": "Billede 2 er spejlvendt: sæt ring om de 4 ting eller tomme steder, der stadig er anderledes, sæt kryds for hver, og fold langs linjen for at tjekke."
+    "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
   },
   "K-399": {
     "title": "Hvad mangler i billedet?",
@@ -3056,19 +3056,19 @@
   },
   "K-400": {
     "title": "Billedpar: find fejlen",
-    "instruction": "Hver række viser det samme udsnit to gange; sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen på rækken."
+    "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
   },
   "G2-389": {
     "title": "Skriv, hvad der er anderledes",
-    "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne; brug ordene i de to strimler."
+    "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne med ordene fra de to rammer."
   },
   "K-401": {
     "title": "Tegn {L} ud fra enkle former",
-    "instruction": "Tegn oven på de stiplede former, der allerede er på papiret, tegn så hundens omrids rundt om dem, og gør hunden færdig med trinnene."
+    "instruction": "Tegn oven på de stiplede former på papiret, tegn så hundens omrids rundt om dem, og tegn hunden færdig efter trinnene."
   },
   "K-402": {
-    "title": "Følg {L} med blyanten, og tegn den selv",
-    "instruction": "Følg den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+    "title": "Tegn oven på {N}, og tegn den selv",
+    "instruction": "Tegn oven på den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
   },
   "K-403": {
     "title": "Tegn {N} færdig",
@@ -3080,19 +3080,19 @@
   },
   "K-404": {
     "title": "Tegn {L}, og skriv ordet",
-    "instruction": "Følg trinnene, og tegn fisken i boksen; skriv så oven på ordet nedenunder, og skriv det selv."
+    "instruction": "Følg trinnene, tegn fisken i boksen, skriv så oven på det stiplede ord, og skriv ordet selv på den tomme linje."
   },
   "G1-417": {
     "title": "Tegn {L} ved dammen",
-    "instruction": "Følg trinnene, og tegn så frøen på den tomme dam i billedet."
+    "instruction": "Følg trinnene, og tegn så frøen i den tomme dam i billedet."
   },
   "G1-418": {
     "title": "Sæt trinnene i rækkefølge: tegn {L}",
-    "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem i den rigtige rækkefølge, og tegn så uglen."
+    "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
   },
   "G1-419": {
     "title": "Trin for trin: tegn {L}",
-    "instruction": "Tegn det, du ser i hvert trin, i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+    "instruction": "Tegn hvert trin i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
   },
   "G2-390": {
     "title": "Tegn {L}, og skriv om den",

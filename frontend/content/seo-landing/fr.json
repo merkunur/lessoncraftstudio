@@ -145992,6 +145992,909 @@
    ],
    "title": "Écriture cursive CE1 : copier une phrase | à imprimer en PDF gratuit",
    "metaDescription": "Trois phrases écrites en script à recopier en écriture cursive sur lignes Seyès ; la première est tracée en gris pour servir de modèle. Du CP au CE1."
+  },
+  {
+   "slug": "jeu-des-5-differences-chien-au-jardin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Jeu des 5 différences : le chien au jardin",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "maternelle"
+   ],
+   "p1": "Un chien est assis deux fois dans le jardin : l'image 1 en haut, l'image 2 juste en dessous, et une colonne de cinq cases à côté. Les deux images montrent la même scène faite des mêmes dessins, alors l'œil glisse d'un endroit à l'endroit identique en dessous sans chercher. Cinq choses sont différentes dans l'image 2. Sur la feuille montrée, un papillon a été remplacé, un colibri s'est retourné, un nuage a grandi, la fleur est une autre fleur et la coccinelle est plus grosse ; chaque nouvelle copie de cette page du jeu-des-differences tire ses cinq changements au sort, les sortes varient (quelque chose manque, est en plus, a grandi, a rétréci, a bougé ou est à l'envers), le nombre reste cinq.",
+   "p2": "La tâche, c'est comparer, pas deviner. L'enfant regarde une partie de l'image 1, retrouve la même partie dans l'image 2 et décide si elle est toujours pareille. C'est ce travail de discrimination visuelle qui portera plus tard la lecture (b ou d, 6 ou 9) et l'observation en découverte du monde, fait ici avec un chien, des nuages et des fleurs. Les cases transforment la recherche en comptage : cinq cases, cinq trouvailles, et l'enfant sait quand la page est finie.",
+   "p3": "C'est la page de base de la famille. Ses dix sœurs changent chacune une chose : trois grandes différences pour un premier essai, des images en couleur, sept ou dix différences en deux paires, un nombre secret, des mots à cocher, une image en miroir, des choses qui manquent, des paires d'images et une page d'écriture. Chaque page existe en PDF, en version à toucher sur tablette et avec son corrigé, où chaque changement est entouré et numéroté. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-k395",
+   "carousel": [
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    },
+    {
+     "label": "Trouve les 10 erreurs au jardin : niveau difficile",
+     "href": "trouve-les-10-erreurs-au-jardin-niveau-difficile"
+    }
+   ],
+   "title": "Jeu des 5 différences, maternelle, avec corrigé | PDF gratuit",
+   "metaDescription": "Jeu des différences : un chien au jardin dessiné deux fois, cinq changements dans l'image 2. Entoure, coche cinq cases. PDF maternelle avec corrigé et version à toucher."
+  },
+  {
+   "slug": "apprendre-a-dessiner-un-chat-etape-par-etape",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Apprendre à dessiner un chat étape par étape",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "maternelle"
+   ],
+   "p1": "Quatre étapes numérotées descendent le long du bord gauche de cette page, et le reste est une grande feuille en pointillés. L'étape 1 est le contour du chat seul, tracé en orange ; aux étapes 2 et 3, les traits précédents sont noirs et les nouveaux en orange, l'enfant voit donc exactement ce qui s'ajoute à chaque fois ; l'étape 4 montre le chat fini. Les étapes sont découpées dans le dessin lui-même, pas redessinées, c'est pourquoi le chat de la carte et le chat que l'enfant vise sont le même chat. C'est la page de base de la famille apprendre-a-dessiner pour la maternelle.",
+   "p2": "Dessiner à partir d'étapes apprend à voir un animal entier comme un contour plus des parties ajoutées dans l'ordre, ce que font les dessinateurs sûrs d'eux et le contraire de commencer par un œil et manquer de place. Garder le dessin de l'enfant sur une grande feuille à côté des petites étapes entraîne aussi le regard du modèle vers la page, un geste dont l'écriture aura besoin.",
+   "p3": "Imprime sur du papier ordinaire et donne un crayon à l'enfant ; il ne faut rien d'autre, et il n'y a rien à corriger puisque le dessin est le sien. Les dix autres pages de la famille changent chacune une chose : des formes en pointillés pour commencer, un modèle gris à repasser, une copie inachevée à compléter, un quadrillage, un mot à écrire, un décor, des étapes mélangées, une case pour chaque étape, trois phrases, et le dessin de mémoire. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-k396",
+   "carousel": [
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    },
+    {
+     "label": "Un dinosaure à dessiner sur quadrillage",
+     "href": "un-dinosaure-a-dessiner-sur-quadrillage"
+    }
+   ],
+   "title": "Apprendre à dessiner un chat étape par étape | PDF gratuit",
+   "metaDescription": "Dessiner un chat étape par étape : quatre étapes numérotées, les nouveaux traits de chaque étape en orange, une grande feuille pour dessiner. PDF maternelle à imprimer."
+  },
+  {
+   "slug": "cherche-les-3-grandes-differences-seau-et-pelle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-3-differences",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Cherche les 3 grandes différences : le seau et la pelle",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "maternelle"
+   ],
+   "p1": "Trois différences, et chacune est grande : voilà la page à donner à un enfant qui n'a encore jamais comparé deux images. La plage avec le seau et la pelle, le ballon, l'étoile de mer et deux poussins est dessinée deux fois, une image au-dessus de l'autre, et seules trois choses changent dans celle du bas. Sur la copie montrée, le soleil est devenu une lune, un nuage a grandi et un poussin est bien plus gros ; les petits changements, comme un détail tourné, sont laissés hors de cette page de maternelle exprès, pour que chaque différence ait la taille d'un objet entier.",
+   "p2": "Trois est un nombre qu'un enfant de quatre ans tient sur une main, et les trois grandes cases à côté des images y correspondent. L'enfant entoure chaque changement dans l'image du bas, coche une case, puis vérifie à la fin : trois ronds, trois coches. Ce qui s'apprend, c'est la méthode, lentement : regarder une chose en haut, la retrouver en bas, se demander si elle est encore pareille, passer à la suivante.",
+   "p3": "Imprime le PDF pour la table, ou ouvre la version à toucher sur une tablette, où chaque différence trouvée s'allume ; le corrigé entoure les trois changements avec les numéros 1 à 3. Quand les trois grandes viennent facilement, la page de base du jeu-des-differences en propose cinq, et la page de la mare sept en deux paires. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-k397",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    },
+    {
+     "label": "Trouve les 10 erreurs au jardin : niveau difficile",
+     "href": "trouve-les-10-erreurs-au-jardin-niveau-difficile"
+    }
+   ],
+   "title": "Jeu des 3 différences, maternelle, avec corrigé | PDF gratuit",
+   "metaDescription": "Jeu des différences pour un premier essai : une plage avec seau et pelle dessinée deux fois, trois grands changements, trois cases. PDF maternelle avec corrigé."
+  },
+  {
+   "slug": "jeu-des-differences-en-couleur-grenouille-a-la-mare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-the-differences-in-colour",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Jeu des différences en couleur : la grenouille à la mare",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "maternelle"
+   ],
+   "p1": "Cette mare est peinte. Une grenouille verte est posée sur une eau bleue sous un soleil jaune, avec un papillon violet, des colibris, une tulipe rouge et deux poussins, et toute la scène apparaît deux fois. Cinq choses diffèrent dans l'image du bas en couleur, et au moins l'une d'elles n'est qu'une couleur qui change : sur la feuille montrée, la grenouille est devenue violette et le papillon orange, un nuage a grandi, un poussin s'est retourné et la fleur est devenue une tulipe. La couleur est le cœur de cette page du jeu-des-differences, elle se lit donc imprimée en couleur ; sur une imprimante noir et blanc, le changement de couleur se perd et la page de base convient mieux.",
+   "p2": "Voir qu'un objet a la même forme au même endroit mais une autre couleur est une comparaison plus difficile que remarquer qu'une chose a disparu. L'enfant doit garder en tête la couleur de la grenouille du haut en regardant celle du bas. Les cinq cases gardent le compte honnête, et la consigne demande expressément de bien regarder les couleurs.",
+   "p3": "Chaque page de la famille existe en PDF, en version à toucher sur tablette et avec son corrigé qui entoure les cinq changements. C'est la seule page en couleur de la famille ; ses sœurs sont des dessins au trait. Ces pages comparent deux images d'une même scène ; le coloriage magique reprend les mêmes scènes pour une autre tâche, le dessin en miroir et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-k398",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    },
+    {
+     "label": "Trouve les 10 erreurs au jardin : niveau difficile",
+     "href": "trouve-les-10-erreurs-au-jardin-niveau-difficile"
+    }
+   ],
+   "title": "Jeu des différences en couleur, maternelle, corrigé | PDF gratuit",
+   "metaDescription": "Jeu des différences en couleur : une mare peinte avec une grenouille, dessinée deux fois, cinq changements dont une nouvelle couleur. PDF maternelle avec corrigé."
+  },
+  {
+   "slug": "jeu-des-7-erreurs-a-la-mare-deux-paires",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-7-differences",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Jeu des 7 erreurs à la mare",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "cp"
+   ],
+   "p1": "Sept erreurs sur une feuille, réparties sur deux scènes de mare. La paire de gauche montre une tortue au bord de la mare avec quatre changements entre le haut et le bas ; celle de droite, un crocodile avec trois. Chaque paire a sa propre rangée de cases dessous, 4 et 3, pour qu'un enfant voie qu'une scène est finie avant de commencer l'autre. Les quatre images partagent le même ciel, c'est pourquoi les onglets 1 et 2 comptent : on compare le haut avec le bas à l'intérieur d'une paire, jamais la gauche avec la droite. C'est la page des sept erreurs du jeu-des-differences pour le CP.",
+   "p2": "Sept est le nombre des cahiers de jeux, et la page le mérite avec des changements plus petits que les pages de maternelle : sur la copie montrée, un colibri s'est retourné, un papillon a disparu, une tulipe a rétréci, un nuage a grandi et un champignon est plus petit. L'enfant doit balayer toute l'image au lieu de repérer la grosse chose, et les deux paires offrent deux nouveaux départs sur une seule feuille.",
+   "p3": "Le PDF imprime les deux paires côte à côte ; sur tablette, la version à toucher empile les quatre images avec les mêmes badges 1 et 2 et une barre entre les paires, et le corrigé entoure les sept erreurs avec leurs numéros. La page des dix erreurs reprend la même disposition pour la version la plus difficile. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g1412",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Trouve les 10 erreurs au jardin : niveau difficile",
+     "href": "trouve-les-10-erreurs-au-jardin-niveau-difficile"
+    }
+   ],
+   "title": "Jeu des 7 erreurs pour le CP, avec corrigé | PDF gratuit à imprimer",
+   "metaDescription": "Jeu des 7 erreurs : une tortue et un crocodile à la mare, chaque scène dessinée deux fois, quatre erreurs à gauche, trois à droite. PDF CP avec corrigé."
+  },
+  {
+   "slug": "trouve-les-10-erreurs-au-jardin-niveau-difficile",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-10-differences",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Trouve les 10 erreurs au jardin : niveau difficile",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "ce1"
+   ],
+   "p1": "Dix erreurs, c'est la page difficile. Deux scènes de jardin, l'une avec un cerf-volant, l'autre avec une coccinelle, sont chacune dessinées deux fois, cinq choses changent dans chaque paire, et cinq cases attendent sous chacune. Les changements ont ici le droit d'être petits : un oiseau retourné, un papillon un peu plus petit, un nuage qui a bougé d'un rien, un détail disparu d'un dessin. Cette page du jeu-des-differences s'adresse à un enfant de CE1 qui a trouvé facile la page des sept erreurs à la mare.",
+   "p2": "Chercher dix petits changements demande de l'attention sur la durée. La disposition en deux paires lui donne une structure : finir la paire du cerf-volant, cocher cinq cases, puis repartir à zéro sur la paire de la coccinelle. Les onglets 1 et 2 sur chaque image gardent la comparaison à l'intérieur d'une paire, parce que les deux scènes partagent le même ciel et se confondent au premier coup d'œil. Entourer chaque trouvaille avant de cocher évite de compter deux fois la même erreur.",
+   "p3": "Le PDF met les deux paires sur une feuille ; la version à toucher empile les quatre images avec les mêmes badges et une barre entre les paires ; le corrigé entoure les dix erreurs numérotées, cinq par paire, et la correction prend une minute. Les pages plus faciles de la famille proposent trois, cinq et sept différences. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g2388",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Jeu des 10 erreurs, niveau difficile, CE1, corrigé | PDF gratuit",
+   "metaDescription": "Le jeu des erreurs difficile : deux scènes de jardin, un cerf-volant et une coccinelle, chacune dessinée deux fois, cinq erreurs par paire. PDF CE1 avec corrigé."
+  },
+  {
+   "slug": "combien-de-differences-compte-les",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "how-many-differences",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Combien de différences ? Compte-les et écris le nombre",
+   "strand": "Discrimination visuelle",
+   "standard": "K.CC.B.5",
+   "slotTokens": [
+    "jeu-des-differences",
+    "cp"
+   ],
+   "p1": "Personne ne dit à l'enfant combien il y a de différences. Une scène de jardin avec un poussin, un colibri, un papillon, des fleurs et une coccinelle est dessinée deux fois, et la seule case de la page est une case vide pour un nombre. L'enfant entoure chaque changement trouvé dans l'image du bas, y compris les endroits où quelque chose a simplement disparu, puis écrit le total. Sur la copie montrée, ce total est six, mais chaque copie imprimée de cette page du jeu-des-differences tire son propre nombre, le compte reste un vrai secret.",
+   "p2": "Comparer devient compter. Trouver les changements, c'est le travail des yeux ; tenir le compte des ronds et écrire le chiffre, c'est le travail de numération qu'un enfant de CP fait avec des collections d'objets. Comme la consigne dit que quelque chose peut avoir disparu, un endroit vide compte comme une trouvaille, et l'enfant ne signale pas seulement les changements encore visibles.",
+   "p3": "Le corrigé entoure chaque changement et écrit le nombre dans la case ; la version à toucher demande de toucher chaque différence puis de choisir le bon chiffre parmi quatre, de 3 à 6. La page de base de la famille annonce le nombre, c'est la version à utiliser en premier. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g1413",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Combien de différences ? Jeu pour le CP, corrigé | PDF gratuit",
+   "metaDescription": "Jeu des différences à nombre secret : une scène de jardin dessinée deux fois, combien de choses ont changé reste à trouver. Compte et écris. PDF CP avec corrigé."
+  },
+  {
+   "slug": "qu-est-ce-qui-a-change-coche-les-mots",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-changed-tick-the-words",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Qu'est-ce qui a changé ? Coche les mots",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "cp"
+   ],
+   "p1": "À côté des deux images de la ferme se tient une colonne de six mots : grange, soleil, foin, vache, colibri, nuage. Trois choses sont différentes dans l'image du bas, et après les avoir entourées, l'enfant coche les mots des choses qui ont changé. Les mots sont le vrai vocabulaire de l'image, et trois des six sont des leurres qui nomment des choses restées pareilles. Sur cette page du jeu-des-differences pour le CP, la lecture se limite à six noms et rien de plus.",
+   "p2": "Relier un changement à son mot est le pont entre regarder et parler. Un enfant qui a vu que le soleil a disparu doit ensuite décider que le mot pour cela est soleil, pas nuage. La page ne propose jamais deux mots pour un même dessin, chaque coche a une seule bonne réponse : quand une image montre un oiseau en général et un oiseau nommé, seul le mot précis figure dans la liste. Les leurres font du cochage une décision et non une habitude.",
+   "p3": "Le corrigé entoure les trois changements et coche les trois bons mots ; la version à toucher demande de toucher les changements puis les mots. Sa sœur, Trouve et décris les différences, passe la même idée en phrases pour le CE1. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g1414",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Qu'est-ce qui a changé ? Coche les mots, CP | PDF gratuit",
+   "metaDescription": "Trouver les différences et les nommer : une scène de ferme dessinée deux fois, trois changements et six mots à cocher. PDF CP avec corrigé et version à toucher."
+  },
+  {
+   "slug": "images-en-miroir-plie-et-verifie",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "mirror-pictures-find-the-differences",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Images en miroir : trouve les différences, plie et vérifie",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "cp"
+   ],
+   "p1": "L'image 2 de cette page est retournée comme dans un miroir. Un renard dans la forêt se tient à gauche, et son image en miroir à droite, avec une ligne de pliage en pointillés entre les deux. Le retournement lui-même n'est pas une différence : quatre choses sont quand même changées dans l'image en miroir, quelque chose qui manque, qui a été remplacé, qui est plus grand ou plus petit. Quatre cases attendent sous l'image 2. Quand l'enfant a entouré quatre endroits, plier la page le long de la ligne pose une image sur l'autre, et devant la lumière on voit où elles ne s'accordent pas. C'est la page en miroir du jeu-des-differences pour le CP.",
+   "p2": "Comparer une scène avec son image en miroir demande d'échanger la gauche et la droite dans sa tête, le même geste qui distingue b de d et p de q. Une fois le retournement compris, tout est à la place attendue ; les quatre vrais changements se cachent derrière cette étape en plus. Le pliage est l'autocontrôle : la page se corrige avant qu'un adulte ne la voie.",
+   "p3": "Le corrigé entoure les quatre changements et coche les cases ; la version à toucher montre les deux images l'une sous l'autre, celle du bas en miroir, et demande de toucher chaque vrai changement. Ces pages comparent deux images d'une même scène ; les pages de symétrie, où l'enfant dessine l'autre moitié d'une image, et le coloriage magique ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g1415",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Jeu des différences en miroir, CP, avec corrigé | PDF gratuit",
+   "metaDescription": "Jeu des différences en miroir : un renard dans la forêt, l'image 2 retournée, quatre vrais changements. Plie sur la ligne pour vérifier. PDF CP avec corrigé."
+  },
+  {
+   "slug": "qu-est-ce-qui-manque-entoure-l-endroit-vide",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-is-missing",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Qu'est-ce qui manque ? Entoure l'endroit vide",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "maternelle"
+   ],
+   "p1": "Rien n'est remplacé, déplacé ni agrandi sur cette page : des choses disparaissent, c'est tout. Un hibou est posé sous la lune avec des étoiles, des planètes et des champignons dans l'image 1, et dans l'image 2 trois de ces choses ont disparu, laissant des endroits vides dans le ciel de nuit et sur le sol. L'enfant entoure les trois endroits vides et coche trois cases. Seule la disparition est utilisée sur cette page de maternelle du jeu-des-differences, pour que la question reste une seule question : qu'y avait-il là, et y est-il encore ?",
+   "p2": "Remarquer une absence est plus difficile que remarquer un changement, parce qu'il n'y a rien à regarder là où la chose se trouvait. L'enfant doit se souvenir de l'image du haut pendant qu'il parcourt celle du bas, c'est la part de mémoire de la comparaison visuelle. Trois choses gardent la page à portée d'un enfant de cinq ans, et le rond tracé autour du papier vide est une réponse satisfaisante à écrire.",
+   "p3": "Le corrigé entoure les trois endroits vides avec des numéros ; la version à toucher demande de toucher chaque endroit vide de l'image du bas. La page de base de la famille mélange toutes les sortes de changements, c'est l'étape d'après. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-k399",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Qu'est-ce qui manque ? Jeu pour la maternelle | PDF gratuit",
+   "metaDescription": "Qu'est-ce qui manque : une nuit avec un hibou dessinée deux fois, trois choses disparues. Entoure les endroits vides, coche trois cases. PDF maternelle avec corrigé."
+  },
+  {
+   "slug": "paires-d-images-une-difference-par-ligne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "picture-pairs-find-the-difference",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Paires d'images : une différence par ligne",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "maternelle"
+   ],
+   "p1": "Au lieu d'une grande scène, cette page découpe un jardin en trois gros plans et montre chacun deux fois, côte à côte sur une ligne. Dans chaque ligne, une seule chose est différente dans l'image de droite, et une case termine la ligne. Les fenêtres sont grandes et les objets peu nombreux, un enfant prend une ligne à la fois : sur la copie montrée, un colibri a grandi dans la première ligne, le soleil a disparu de la deuxième et un poussin est plus gros dans la troisième. Le jeu-des-differences arrive ici sous sa forme la plus petite et la plus calme, pour la maternelle.",
+   "p2": "Une différence par ligne supprime la question de savoir quand s'arrêter. L'enfant compare deux petites images, trouve l'unique changement, l'entoure, coche la case et descend d'une ligne. Comme une différence peut être quelque chose qui a disparu, la consigne demande l'endroit qui est différent plutôt que la chose, et un rond autour d'un bout de papier vide est une bonne réponse.",
+   "p3": "Le corrigé entoure chaque changement ; la version à toucher empile les deux images d'une ligne et demande de toucher le seul endroit qui diffère. À partir d'ici, les pages des trois et des cinq différences de la famille remettent la comparaison dans une scène entière. Ces pages comparent deux images d'une même scène ; le dessin en miroir, le coloriage magique et le jeu de l'intrus ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-k400",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Paires d'images : trouve la différence, maternelle | PDF gratuit",
+   "metaDescription": "Paires d'images : trois lignes de gros plans d'un jardin montrés deux fois, une différence par ligne. Entoure-la, coche la case. PDF maternelle avec corrigé."
+  },
+  {
+   "slug": "trouve-et-decris-les-differences-une-phrase",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "write-what-is-different",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Jeu des différences",
+   "h1": "Trouve et décris les différences : une phrase par différence",
+   "strand": "Discrimination visuelle",
+   "slotTokens": [
+    "jeu-des-differences",
+    "ce1"
+   ],
+   "p1": "Deux images d'un éléphant sous un arbre sont côte à côte, avec trois changements entre elles, et dessous courent deux bandes de mots : six noms de l'image (arbre, éléphant, oiseau, soleil, fleur, nuage) et sept mots de changement (manque, en plus, a grandi, a rétréci, a bougé, à l'envers, a changé). Trois lignes commencent par l'amorce imprimée Sur l'image 2, et l'enfant complète une phrase par différence en prenant un nom dans la première bande et un mot de changement dans la seconde. C'est la page d'écriture du jeu-des-differences pour le CE1.",
+   "p2": "Décrire une différence dans une phrase oblige à nommer la chose et ce qui lui est arrivé : Sur l'image 2, le nuage manque. Les bandes fournissent l'orthographe pour que l'effort aille dans la comparaison et dans la phrase, pas dans les lettres à deviner. Une différence peut être quelque chose qui a disparu, c'est pourquoi le mot manque est sur la bande et la consigne le dit.",
+   "p3": "Le corrigé entoure les trois changements et coche les cases ; la version à toucher demande de toucher les différences avant d'écrire. Sa sœur Qu'est-ce qui a changé ? Coche les mots demande le même jugement un an plus tôt avec des coches au lieu de phrases. Ces pages comparent deux images d'une même scène ; l'écriture à partir d'une image, le dessin en miroir et le coloriage magique ont leurs propres pages.",
+   "canonicalDeckSlug": "jeu-des-differences-g2389",
+   "carousel": [
+    {
+     "label": "Jeu des 5 différences : le chien au jardin",
+     "href": "jeu-des-5-differences-chien-au-jardin"
+    },
+    {
+     "label": "Cherche les 3 grandes différences : le seau et la pelle",
+     "href": "cherche-les-3-grandes-differences-seau-et-pelle"
+    },
+    {
+     "label": "Jeu des différences en couleur : la grenouille à la mare",
+     "href": "jeu-des-differences-en-couleur-grenouille-a-la-mare"
+    },
+    {
+     "label": "Jeu des 7 erreurs à la mare",
+     "href": "jeu-des-7-erreurs-a-la-mare-deux-paires"
+    }
+   ],
+   "title": "Trouve et décris les différences, CE1, corrigé | PDF gratuit",
+   "metaDescription": "Trouver les différences et les écrire : un éléphant dessiné deux fois, trois changements, deux bandes de mots et trois lignes. PDF CE1 avec corrigé."
+  },
+  {
+   "slug": "dessiner-un-chien-avec-des-formes-simples",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-simple-shapes",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Dessiner un chien avec des formes simples",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "maternelle"
+   ],
+   "p1": "La grande feuille de cette page n'est pas vide. Quatre formes en pointillés y sont déjà, un ovale pour la tête, un pour chaque oreille et un ovale haut pour le corps, placés exactement là où vont les parties du chien. L'enfant repasse les formes en pointillés, dessine le contour du chien autour d'elles, puis ajoute le museau, les pattes et la queue d'après les quatre étapes numérotées à gauche. Sur les cartes, le chien grandit du contour au dessin fini, les nouveaux traits de chaque étape en orange, comme sur chaque page de la famille apprendre-a-dessiner pour la maternelle.",
+   "p2": "Les formes d'abord, c'est la plus vieille leçon de dessin qui soit : une tête est un rond, un corps un ovale, et le contour suit. Voir les ovales en pointillés sous le chien fini montre à un enfant d'où vient un dessin, et relie sans bruit le dessin aux noms des formes de la première géométrie. Comme les formes fixent la taille et la place, le chien sort grand et entier au lieu de se tasser dans un coin.",
+   "p3": "Imprime et dessine au crayon ; il n'y a rien à corriger. La page de base de la famille donne la même grande feuille sans rien dessus, et la page à repasser donne un modèle gris à recouvrir. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-k401",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    },
+    {
+     "label": "Un dinosaure à dessiner sur quadrillage",
+     "href": "un-dinosaure-a-dessiner-sur-quadrillage"
+    }
+   ],
+   "title": "Dessiner un chien avec des formes simples, maternelle | PDF gratuit",
+   "metaDescription": "Dessiner un chien à partir de formes simples : quatre ovales en pointillés déjà sur la feuille, quatre étapes numérotées à côté. PDF maternelle à imprimer."
+  },
+  {
+   "slug": "repasse-puis-dessine-un-lapin-tout-seul",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "trace-then-draw",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Repasse un lapin, puis dessine-le tout seul",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "maternelle"
+   ],
+   "p1": "Deux cadres se partagent cette page. Celui de gauche contient un grand lapin imprimé en gris pâle, prêt à être repassé au crayon ; celui de droite est vide, pour le lapin que l'enfant dessinera ensuite tout seul. En haut courent les quatre étapes, contour d'abord, avec les nouveaux traits de chaque étape en orange. Repasser le lapin gris apprend à la main le chemin autour des oreilles et des pattes ; le redessiner à côté, sans le gris, est pour un enfant de maternelle le premier dessin de mémoire de la forme qu'il vient de suivre.",
+   "p2": "Les deux cadres ont la même taille exprès, pour que le second lapin puisse être aussi grand que le premier. Repasser un animal entier n'est pas le même exercice que repasser des lettres : les traits tournent, se croisent et bouclent, et le crayon doit garder une pression régulière sur une longue course. Une fois avec aide et une fois sans, c'est toute la méthode de cette page de la famille apprendre-a-dessiner.",
+   "p3": "Imprime sur du papier ordinaire ; le modèle gris sort en ton clair sur toute imprimante et il n'y a rien à corriger. La page suivante de la famille enlève le modèle gris et propose des formes en pointillés ; la page à compléter propose un cheval à moitié dessiné. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-k402",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    },
+    {
+     "label": "Un dinosaure à dessiner sur quadrillage",
+     "href": "un-dinosaure-a-dessiner-sur-quadrillage"
+    }
+   ],
+   "title": "Repasse puis dessine un lapin, maternelle | PDF gratuit à imprimer",
+   "metaDescription": "Repasser puis dessiner un lapin : un grand lapin gris à repasser au crayon, un cadre vide à côté pour son propre lapin, quatre étapes en haut. PDF maternelle."
+  },
+  {
+   "slug": "termine-le-dessin-un-cheval-a-completer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "finish-the-drawing",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Termine le dessin : un cheval à compléter",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "maternelle"
+   ],
+   "p1": "Un cheval entier se tient à gauche de cette page, et à droite le même cheval inachevé : son contour et ses yeux sont là, mais la crinière, les traits du visage, les sabots et les traits des pattes et de la queue manquent. Un petit anneau marque le cheval inachevé. L'enfant regarde du cheval complet au cheval incomplet, dessine ce qui manque, puis dessine un cheval à lui sur la grande feuille en dessous. Il n'y a ici ni ligne de symétrie ni demi-image ; cette page de maternelle de la famille apprendre-a-dessiner compare deux dessins du même cheval.",
+   "p2": "Trouver ce qui manque et le dessiner, c'est observer et dessiner d'un seul geste. L'enfant doit regarder le modèle fini partie par partie, ce qui lui apprend les parties de l'animal, puis tracer les traits au bon endroit, ce qui lui apprend à conduire sa main. Le troisième cadre lui laisse essayer le cheval entier une fois les parties familières.",
+   "p3": "Imprime et dessine au crayon ; rien n'est corrigé. Les traits manquants sont choisis pour que le vide saute aux yeux d'un enfant, et l'anneau et le point servent seulement à distinguer les deux chevaux. La page de base de la famille donne les quatre étapes complètes au lieu d'un modèle à compléter. L'enfant dessine l'animal à partir de ses propres étapes ; le dessin symétrique, où l'on complète une moitié en miroir, et la copie sur quadrillage ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-k403",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Un dinosaure à dessiner sur quadrillage",
+     "href": "un-dinosaure-a-dessiner-sur-quadrillage"
+    }
+   ],
+   "title": "Termine le dessin : un cheval à compléter, maternelle | PDF gratuit",
+   "metaDescription": "Terminer le dessin : un cheval complet à côté du même cheval sans crinière ni traits du visage. Dessine ce qui manque, puis ton propre cheval. PDF maternelle."
+  },
+  {
+   "slug": "un-dinosaure-a-dessiner-sur-quadrillage",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-the-grid",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Un dinosaure à dessiner sur quadrillage",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "cp"
+   ],
+   "p1": "Un dinosaure se tient sur une grille de quatre cases sur quatre en haut à gauche de cette page. À côté, une grille vide de la même taille, et dessous, un cadre nu en pointillés. L'enfant copie le dinosaure dans la grille vide une case à la fois, en regardant où les traits coupent chaque case, puis le dessine encore une fois dans le cadre sans aucune grille. La grille est une aide au dessin, pas un puzzle de pixels : des traits, pas des cases coloriées, et c'est ce qui sépare cette page de CP de la famille apprendre-a-dessiner des pages de copie sur quadrillage.",
+   "p2": "Travailler case par case découpe un dessin difficile en seize dessins faciles et apprend à regarder la position : la tête est dans la case en haut à gauche, la queue atteint le bord droit à la troisième rangée. Le second dessin, sans grille, est là où ce regard porte ses fruits, car l'enfant connaît maintenant les proportions du dinosaure pour les avoir mesurées.",
+   "p3": "Imprime sur du papier ordinaire ; rien n'est corrigé, et le cadre nu a volontairement à peu près la taille de la grille pour que le second dinosaure puisse ressembler au premier. La page de base de la famille utilise des étapes numérotées au lieu d'une grille. L'enfant dessine l'animal à partir de ses propres étapes ou de ses cases ; les images en pixels à copier, le graphisme des lettres et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g1416",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Dessiner un dinosaure sur quadrillage, CP | PDF gratuit à imprimer",
+   "metaDescription": "Dessiner un dinosaure avec le quadrillage : le modèle sur une grille de 4 sur 4, une grille vide à côté, un cadre sans grille dessous. PDF CP à imprimer."
+  },
+  {
+   "slug": "dessine-un-poisson-et-ecris-le-mot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-and-write-the-word",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Dessine un poisson et écris le mot",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "maternelle"
+   ],
+   "p1": "Sous la feuille de dessin de cette page court une ligne d'écriture, et dessus est imprimé le mot poisson en lettres grises à repasser, avec de la place à côté pour l'écrire encore une fois. Les quatre étapes en haut montrent le poisson de son contour à ses écailles finies, les nouveaux traits de chaque étape en orange. L'enfant dessine le poisson sur la grande feuille, puis écrit son nom dessous : une image, un mot, les deux faits par l'enfant. Cette page de maternelle relie la famille apprendre-a-dessiner aux premières semaines d'écriture.",
+   "p2": "Dessiner une chose puis écrire son mot, c'est ainsi que le premier vocabulaire et l'écriture se soutiennent. Le mot est court et ses lettres sont parmi les premières qu'un enfant de maternelle rencontre ; le modèle à repasser est posé sur la ligne pour que la hauteur des lettres soit juste avant que l'enfant écrive seul. Le poisson dessiné au-dessus donne au mot un sens que l'enfant vient de fabriquer.",
+   "p3": "Imprime sur du papier ordinaire et fais le dessin et le mot au crayon ; rien n'est corrigé. La page de base de la famille est le même dessin sans la ligne d'écriture ; la page de l'ours demande trois phrases au lieu d'un mot. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-k404",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Dessine un poisson et écris le mot, maternelle | PDF gratuit à imprimer",
+   "metaDescription": "Dessiner un poisson en quatre étapes, puis écrire le mot poisson : une ligne d'écriture avec le mot à repasser et à recopier. PDF maternelle à imprimer."
+  },
+  {
+   "slug": "dessine-une-grenouille-au-bord-de-la-mare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-it-in-the-scene",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Dessine une grenouille au bord de la mare",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "cp"
+   ],
+   "p1": "La feuille de cette page est déjà une image. Un nuage et un soleil sont dans le ciel, une tulipe pousse sur la rive, et la mare au milieu est vide. En haut, quatre étapes numérotées montrent comment dessiner une grenouille, contour d'abord puis yeux, pattes et taches avec les nouveaux traits de chaque étape en orange. L'enfant s'entraîne à la grenouille d'après les étapes, puis la dessine sur la mare vide, pour que la page finie soit un décor et non un animal flottant sur du papier blanc. C'est la page avec décor de la famille apprendre-a-dessiner pour le CP.",
+   "p2": "Placer un dessin dans une image demande une décision que les pages nues ne posent pas : quelle taille pour la grenouille, et où exactement se pose-t-elle sur la mare ? Les enfants qui savent dessiner un animal ne savent souvent pas encore le placer, et un décor préparé avec un seul endroit vide évident enseigne cela sans un mot. Le soleil, le nuage et la tulipe donnent aussi à la grenouille une échelle à respecter.",
+   "p3": "Imprime sur du papier ordinaire ; rien n'est corrigé. Les éléments du décor viennent de la même banque d'images que les pages de la mare du jeu des différences, la page de la grenouille et ces pages tiennent donc dans une même séance. La page de base de la famille donne une feuille vide au lieu d'un décor. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g1417",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Dessine une grenouille au bord de la mare, CP | PDF gratuit à imprimer",
+   "metaDescription": "Dessiner une grenouille dans un décor : quatre étapes en haut, une mare avec un nuage, un soleil et une tulipe, et une mare vide pour la grenouille. PDF CP."
+  },
+  {
+   "slug": "remets-les-etapes-dans-l-ordre-dessiner-un-hibou",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "order-the-drawing-steps",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Remets les étapes dans l'ordre : dessiner un hibou",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "cp"
+   ],
+   "p1": "Cinq cartes montrent un hibou à cinq moments de son dessin, et elles sont imprimées dans le désordre. À côté de chaque carte, une case vide. L'enfant cherche quelle carte vient en premier, laquelle ensuite, écrit 1 à 5 dans les cases, puis dessine le hibou sur la feuille en dessous. L'indice est dans les couleurs : sur chaque carte, les traits déjà dessinés sont noirs et les traits qui viennent d'être ajoutés sont orange, donc la carte dont les traits orange sont noirs sur une autre vient avant elle. C'est la page de mise en ordre de la famille apprendre-a-dessiner pour le CP.",
+   "p2": "Mettre des étapes dans l'ordre, c'est le même raisonnement que remettre dans l'ordre les images d'une histoire, appliqué à une marche à suivre pour dessiner. La première et la dernière carte se repèrent vite, le contour tout en orange et le hibou fini, et les trois du milieu demandent la comparaison que les couleurs rendent possible. Un enfant qui a ordonné les cartes a compris pourquoi les étapes vont dans ce sens, ce qui est plus que les recopier.",
+   "p3": "Imprime sur du papier ordinaire ; l'ordre se vérifie sur la page de base de la famille, qui montre les étapes du hibou dans l'ordre, et le dessin n'est pas noté. L'enfant dessine l'animal à partir de ses propres étapes ; les images séquentielles d'une histoire, le graphisme des lettres et la copie sur quadrillage ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g1418",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Remets les étapes dans l'ordre : dessiner un hibou, CP | PDF gratuit",
+   "metaDescription": "Remettre les étapes dans l'ordre : cinq cartes d'un hibou mélangées, une case pour les numéros 1 à 5, puis une feuille pour dessiner le hibou. PDF CP."
+  },
+  {
+   "slug": "recopie-chaque-etape-dessine-un-oiseau",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "copy-each-step",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Recopie chaque étape : dessine un oiseau",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "cp"
+   ],
+   "p1": "Chaque étape de cette page a sa propre case. Quatre cartes en haut montrent un colibri qui grandit de son contour à ses ailes et ses plumes, et juste sous chaque carte se trouve une case vide de la même taille, pour que l'enfant recopie l'étape 1, puis l'étape 2 avec ses nouveaux traits, et ainsi de suite. La plus grande feuille en bas est pour l'oiseau entier, dessiné plus grand une fois les quatre étapes travaillées. De toutes les pages de la famille apprendre-a-dessiner pour le CP, c'est celle qui guide le plus.",
+   "p2": "Recopier chaque étape séparément fait dessiner le contour quatre fois et les traits ajoutés dans l'ordre, ce qui fixe la suite bien mieux que de regarder les étapes une fois et de dessiner l'oiseau fini. Les petites cases gardent chaque essai court ; la grande feuille à la fin demande le même dessin à une nouvelle taille, ce qui vérifie que les proportions sont apprises et non suivies à l'œil.",
+   "p3": "Imprime sur du papier ordinaire ; rien n'est corrigé. L'animal est un colibri, appelé oiseau sur la page parce que c'est le mot d'un enfant. La page de base de la famille montre le même genre d'étapes avec une seule grande feuille. L'enfant dessine l'animal à partir de ses propres étapes ; le graphisme des lettres, la copie sur quadrillage et le dessin symétrique ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g1419",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Recopie chaque étape : dessine un oiseau, CP | PDF gratuit à imprimer",
+   "metaDescription": "Recopier chaque étape : quatre cartes d'un colibri, une case vide sous chacune pour la recopier, une plus grande feuille pour l'oiseau entier. PDF CP."
+  },
+  {
+   "slug": "dessine-un-ours-puis-ecris-sur-ton-dessin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-then-write-about-it",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Dessine un ours, puis écris sur ton dessin",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "ce1"
+   ],
+   "p1": "Les quatre étapes d'un ours descendent le long du bord gauche de cette page, contour d'abord avec les nouveaux traits de chaque étape en orange, et la grande feuille pour le dessin est à côté. Sous la feuille, trois lignes d'écriture commencent chacune par des mots imprimés : Mon ours est, Il sait, Il aime. L'enfant dessine l'ours, puis termine les trois phrases sur l'ours qu'il vient de dessiner. Sur cette page de CE1 de la famille apprendre-a-dessiner, le dessin vient d'abord, et c'est ce qui la sépare des pages d'écriture où l'image est donnée.",
+   "p2": "Écrire sur un dessin que l'enfant a fait lui-même donne aux phrases un sujet qui lui tient déjà à cœur et dont il connaît chaque détail. Les amorces fixent la forme des phrases, une description, un savoir-faire et un goût, pour que le travail d'écriture porte sur la suite : Mon ours est brun et grand. Il sait grimper aux arbres. Il aime le miel. Trois phrases sur un personnage, c'est un petit morceau de description.",
+   "p3": "Imprime sur du papier ordinaire ; le dessin n'est pas noté et les phrases se lisent, elles ne se corrigent pas. La page du poisson de la famille demande un mot là où celle-ci demande trois phrases. L'enfant dessine l'animal à partir de ses propres étapes ; l'écriture à partir d'une image donnée, le graphisme des lettres et la copie sur quadrillage ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g2390",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Dessine un ours, puis écris sur ton dessin, CE1 | PDF gratuit à imprimer",
+   "metaDescription": "Dessiner un ours en quatre étapes, puis écrire trois phrases sur lui, sur des lignes qui commencent par Mon ours est, Il sait et Il aime. PDF CE1 pour dessiner et écrire."
+  },
+  {
+   "slug": "dessine-un-papillon-de-memoire",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-from-memory",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Apprendre à dessiner",
+   "h1": "Dessine un papillon de mémoire",
+   "strand": "Arts plastiques",
+   "slotTokens": [
+    "apprendre-a-dessiner",
+    "ce1"
+   ],
+   "p1": "Un petit papillon est posé sur un volet crème en haut de cette page, une ligne en pointillés passe dessous, et le reste de la feuille est une grande surface de dessin. L'enfant regarde le papillon aussi longtemps qu'il veut, replie le haut de la page vers l'arrière le long de la ligne pour cacher le modèle, et dessine le papillon de mémoire. Déplier la page ensuite met le modèle et le dessin côte à côte. C'est la page de mémoire de la famille apprendre-a-dessiner pour le CE1, et elle n'a aucune étape.",
+   "p2": "Dessiner de mémoire demande d'étudier une image dans un but, ce qui est un autre regard que celui de la copie. Les questions viennent d'elles-mêmes tant que le modèle est visible : combien d'ailes, où partent les antennes, le corps est-il long ou court ? Un animal symétrique est un premier sujet juste, parce que retenir une aile donne l'autre.",
+   "p3": "Imprime sur du papier ordinaire et plie le long de la ligne ; il n'y a rien à corriger, et comparer le dessin au modèle après avoir déplié est toute la révision. La page de base de la famille montre les étapes en entier pour un enfant qui n'est pas prêt à dessiner sans aide. L'enfant dessine l'animal d'après sa propre observation ; le dessin symétrique, le graphisme des lettres et la copie sur quadrillage ont leurs propres pages.",
+   "canonicalDeckSlug": "apprendre-a-dessiner-g2391",
+   "carousel": [
+    {
+     "label": "Apprendre à dessiner un chat étape par étape",
+     "href": "apprendre-a-dessiner-un-chat-etape-par-etape"
+    },
+    {
+     "label": "Dessiner un chien avec des formes simples",
+     "href": "dessiner-un-chien-avec-des-formes-simples"
+    },
+    {
+     "label": "Repasse un lapin, puis dessine-le tout seul",
+     "href": "repasse-puis-dessine-un-lapin-tout-seul"
+    },
+    {
+     "label": "Termine le dessin : un cheval à compléter",
+     "href": "termine-le-dessin-un-cheval-a-completer"
+    }
+   ],
+   "title": "Dessine un papillon de mémoire, CE1 | PDF gratuit à imprimer",
+   "metaDescription": "Dessiner un papillon de mémoire : un petit papillon sur un volet, une ligne de pliage, une grande feuille dessous. Regarde, replie, dessine. PDF CE1."
   }
  ]
 }

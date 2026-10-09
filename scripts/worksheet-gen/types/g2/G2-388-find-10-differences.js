@@ -4,7 +4,7 @@ const base = require('../k/K-395-find-the-differences.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"ten-pairs","count":10,"pairs":2,"perPair":[5,5],"units":["kite-rich","ladybug-rich"],"layout":"columns","floor":"G2","ppu":0.5,"panelW":314,"kinds":"line-all","heroProb":1,"heroWaived":"five per pair at the G2 floor: no rebuilt scene composes 5 separated differences without its hero (sweep 2026-10-09, 0 of 831 pairs in the hero band)","minSepPx":31,"excludeSrcs":true,"ledger":{"box":44}} };
+const D = { ...base.difficulty[2], ...{"mode":"ten-pairs","count":10,"pairs":2,"perPair":[5,5],"units":["kite-rich","ladybug-rich"],"layout":"columns","floor":"G2","ppu":0.5,"panelW":300,"kinds":"line-all","heroProb":1,"heroWaived":"five per pair at the G2 floor: no rebuilt scene composes 5 separated differences without its hero (sweep 2026-10-09, 0 of 831 pairs in the hero band)","minSepPx":31,"excludeSrcs":true,"ledger":{"box":56}} };
 module.exports = {
   ...base,
   id: 'G2-388',

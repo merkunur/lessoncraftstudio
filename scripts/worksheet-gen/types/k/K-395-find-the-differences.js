@@ -308,10 +308,13 @@ module.exports = {
       body = C7.fdColumns({ cells: [stack, '', '', right], widths: [pw, 18, 30, rightW] });
     } else if (layout === 'columns') {
       const cols = comp.panels.map((p, i) => {
-        const p1 = C7.fdPicture({ svg: pic(p, i, 1), w: pw, h: ph, tab: 1 });
-        const p2 = C7.fdPicture({ svg: pic(p, i, 2), w: pw, h: ph, tab: 2 });
-        const led = C7.fdLedger({ n: p.ops.length, box: (d.ledger && d.ledger.box) || 60, orient: 'row', ticks: key ? Array(p.ops.length).fill(1) : null, attrs: `data-lcs-fd-pair="${i}"` });
-        return `<div style="display:flex;flex-direction:column;align-items:center;gap:10px">${C7.fdStack({ p1, p2 })}${led}</div>`;
+        // the first column's tabs hang off its LEFT edge: a right-hand tab (28 px) under a 16-px column gap was covered by
+        // the second column's frame (the '1' half hidden on every two-pair page, 2026-10-10); 28 + 300 + 16 + 300 + 28 = 672 <= 675
+        const side = i === 0 ? 'left' : 'right';
+        const p1 = C7.fdPicture({ svg: pic(p, i, 1), w: pw, h: ph, tab: 1, tabSide: side });
+        const p2 = C7.fdPicture({ svg: pic(p, i, 2), w: pw, h: ph, tab: 2, tabSide: side });
+        const led = C7.fdLedger({ n: p.ops.length, box: (d.ledger && d.ledger.box) || 68, orient: 'row', ticks: key ? Array(p.ops.length).fill(1) : null, attrs: `data-lcs-fd-pair="${i}"` });
+        return `<div style="display:flex;flex-direction:column;align-items:center;gap:${d.ledgerGap || 22}px">${C7.fdStack({ p1, p2, gap: d.stackGap || 32 })}${led}</div>`;
       });
       body = `<div style="display:flex;justify-content:center;gap:16px;width:${PAGE_W}px;box-sizing:border-box">${cols.join('')}</div>`;
     } else if (layout === 'side') {

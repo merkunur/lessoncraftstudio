@@ -1,0 +1,338 @@
+{
+  "locale": "fi",
+  "types": {
+    "K-395": {
+      "title": "Etsi viisi virhettä: {UNIT}",
+      "instruction": "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
+    },
+    "K-397": {
+      "title": "Etsi kolme virhettä: {UNIT}",
+      "instruction": "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+    },
+    "K-398": {
+      "title": "Etsi virheet värikuvasta",
+      "instruction": "Ympyröi alemmasta värikuvasta ne 5 asiaa, jotka ovat erilaisia, rastita yksi ruutu jokaisesta ja katso tarkasti myös värejä."
+    },
+    "G1-412": {
+      "title": "Etsi seitsemän virhettä lammella",
+      "instruction": "Ympyröi 7 virhettä, 4 vasemmasta kuvaparista ja 3 oikeasta, ja rastita parin alta yksi ruutu jokaisesta virheestä."
+    },
+    "G2-388": {
+      "title": "Etsi kymmenen virhettä puutarhassa: vaikea",
+      "instruction": "Ympyröi 10 virhettä, 5 kummastakin kuvaparista, ja rastita parin alta yksi ruutu jokaisesta löytämästäsi virheestä."
+    },
+    "G1-413": {
+      "title": "Montako virhettä löydät?",
+      "instruction": "Ympyröi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja kirjoita ruutuun, montako virhettä löysit."
+    },
+    "G1-414": {
+      "title": "Mikä muuttui? Rastita sanat",
+      "instruction": "Ympyröi alemmasta kuvasta 3 virhettä ja rastita sitten niiden asioiden sanat, jotka ovat muuttuneet."
+    },
+    "G1-415": {
+      "title": "Peilikuva: etsi virheet",
+      "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja tarkista taittamalla viivaa pitkin."
+    },
+    "K-399": {
+      "title": "Mitä kuvasta puuttuu?",
+      "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain, mikä ylemmässä kuvassa on, ja rastita yksi ruutu jokaisesta."
+    },
+    "K-400": {
+      "title": "Kuvaparit: etsi virhe",
+      "instruction": "Jokaisella rivillä on sama lähikuva kahdesti; ympyröi oikeanpuoleisesta kuvasta se yksi kohta, joka on erilainen, ja rastita rivin ruutu."
+    },
+    "G2-389": {
+      "title": "Kirjoita, mikä on erilaista",
+      "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalaatikon sanoja."
+    },
+    "K-396": {
+      "title": "Piirrä {L} vaihe vaiheelta",
+      "instruction": "Katso neljää numeroitua vaihetta ja piirrä kissa isoon ruutuun: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
+    },
+    "K-401": {
+      "title": "Piirrä {L} yksinkertaisista muodoista",
+      "instruction": "Piirrä katkoviivamuotojen päälle, piirrä sitten niiden ympärille koiran ääriviiva ja viimeistele koira vaiheiden avulla."
+    },
+    "K-402": {
+      "title": "Seuraa viivoja ja piirrä sitten {L} itse",
+      "instruction": "Piirrä kynällä harmaan kanin viivojen päälle ja piirrä sitten kani itse viereiseen tyhjään ruutuun."
+    },
+    "K-403": {
+      "title": "Piirrä {N} valmiiksi",
+      "instruction": "Katso kokonaista hevosta, piirrä toiseen hevoseen puuttuvat viivat ja piirrä sitten oma hevonen alla olevaan ruutuun."
+    },
+    "G1-416": {
+      "title": "Piirrä {L} ruudukon avulla",
+      "instruction": "Katso dinosaurusta ruudukossa, piirrä se ruutu kerrallaan tyhjään ruudukkoon ja sitten vielä kerran ilman ruudukkoa."
+    },
+    "K-404": {
+      "title": "Piirrä {L} ja kirjoita sana",
+      "instruction": "Seuraa vaiheita ja piirrä kala ruutuun; kirjoita sitten harmaan sanan päälle ja kirjoita sana vielä itse tyhjälle riville."
+    },
+    "G1-417": {
+      "title": "Piirrä {L} lammelle",
+      "instruction": "Seuraa vaiheita ja piirrä sitten sammakko kuvan tyhjälle lammelle."
+    },
+    "G1-418": {
+      "title": "Laita vaiheet järjestykseen: piirrä {L}",
+      "instruction": "Vaiheet ovat sekaisin: kirjoita viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten pöllö."
+    },
+    "G1-419": {
+      "title": "Vaihe vaiheelta: piirrä {L}",
+      "instruction": "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko lintu isompana alimpaan ruutuun."
+    },
+    "G2-390": {
+      "title": "Piirrä {L} ja kirjoita siitä",
+      "instruction": "Piirrä karhu vaiheiden avulla ja kirjoita sitten viivoille kolme lausetta karhustasi; aloita valmiiksi kirjoitetuilla sanoilla."
+    },
+    "G2-391": {
+      "title": "Piirrä {L} muistista",
+      "instruction": "Katso perhosta, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isoon ruutuun."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "etsi-viisi-virhetta",
+      "name": "Etsi viisi virhettä"
+    },
+    "how-to-draw": {
+      "slug": "piirra-vaihe-vaiheelta",
+      "name": "Piirrä vaihe vaiheelta"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Etsi viisi virhettä esiopetukseen sekä 1. ja 2. luokalle: vertaa kahta kuvaa, etsi ja ympyröi 3–10 virhettä, mukana vastaukset ja näytöllä napautettava versio.",
+      "short": "Vertaa kahta kuvaa ja etsi virheet"
+    },
+    "how-to-draw": {
+      "full": "Piirrä vaihe vaiheelta esiopetukseen sekä 1. ja 2. luokalle: rakenna eläin yksinkertaisista muodoista, seuraa viivoja, piirrä valmiiksi, ruudukon avulla tai muistista.",
+      "short": "Opi piirtämään eläimiä vaihe vaiheelta"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Etsi viisi virhettä, tulostettava ja ilmainen: etsi 3, 5, 7 tai 10 virhettä kuvapareista, värikuvista ja peilikuvista, vastaukset mukana, esiopetukseen sekä 1. ja 2. luokalle.",
+    "how-to-draw": "Piirrä vaihe vaiheelta, tulostettava ja ilmainen: kissa, koira, kani, hevonen ja muita eläimiä yksinkertaisista muodoista, ruudukon avulla tai muistista, esiopetuksesta 2. luokalle."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Kuvassa 2",
+      "changeWords": [
+        "puuttuu",
+        "on uusi",
+        "on isompi",
+        "on pienempi",
+        "on siirtynyt",
+        "on kääntynyt",
+        "on vaihtunut"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuaalinen hahmottaminen"
+      },
+      "rail": {
+        "slug": "etsi-viisi-virhetta",
+        "name": "Etsi viisi virhettä"
+      },
+      "strings": {
+        "base": {
+          "title": "Etsi viisi virhettä: {UNIT}",
+          "instruction": "Vertaa kuvaa 1 sen alla olevaan kuvaan 2, ympyröi ne 5 asiaa, jotka ovat erilaisia, ja rastita yksi ruutu jokaisesta virheestä."
+        },
+        "three-big": {
+          "title": "Etsi kolme virhettä: {UNIT}",
+          "instruction": "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+        },
+        "colour": {
+          "title": "Etsi virheet värikuvasta",
+          "instruction": "Ympyröi alemmasta värikuvasta ne 5 asiaa, jotka ovat erilaisia, rastita yksi ruutu jokaisesta ja katso tarkasti myös värejä."
+        },
+        "seven": {
+          "title": "Etsi seitsemän virhettä lammella",
+          "instruction": "Ympyröi 7 virhettä, 4 vasemmasta kuvaparista ja 3 oikeasta, ja rastita parin alta yksi ruutu jokaisesta virheestä."
+        },
+        "ten-pairs": {
+          "title": "Etsi kymmenen virhettä puutarhassa: vaikea",
+          "instruction": "Ympyröi 10 virhettä, 5 kummastakin kuvaparista, ja rastita parin alta yksi ruutu jokaisesta löytämästäsi virheestä."
+        },
+        "how-many": {
+          "title": "Montako virhettä löydät?",
+          "instruction": "Ympyröi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja kirjoita ruutuun, montako virhettä löysit."
+        },
+        "what-changed": {
+          "title": "Mikä muuttui? Rastita sanat",
+          "instruction": "Ympyröi alemmasta kuvasta 3 virhettä ja rastita sitten niiden asioiden sanat, jotka ovat muuttuneet."
+        },
+        "mirror-pair": {
+          "title": "Peilikuva: etsi virheet",
+          "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja tarkista taittamalla viivaa pitkin."
+        },
+        "missing": {
+          "title": "Mitä kuvasta puuttuu?",
+          "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain, mikä ylemmässä kuvassa on, ja rastita yksi ruutu jokaisesta."
+        },
+        "pairs": {
+          "title": "Kuvaparit: etsi virhe",
+          "instruction": "Jokaisella rivillä on sama lähikuva kahdesti; ympyröi oikeanpuoleisesta kuvasta se yksi kohta, joka on erilainen, ja rastita rivin ruutu."
+        },
+        "write": {
+          "title": "Kirjoita, mikä on erilaista",
+          "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalaatikon sanoja."
+        }
+      },
+      "tap": {
+        "fd-tap": "Katso tarkasti ylempää kuvaa ja napauta sitten alemmasta kuvasta jokaista kohtaa, joka on erilainen.",
+        "fd-tapCount": "Etsi alemmasta kuvasta jokainen virhe (jotain voi myös puuttua) ja napauta sitten numeroa, joka kertoo, montako virhettä on.",
+        "fd-tapMirror": "Alempi kuva on peilikuva. Napauta siitä jokaista kohtaa, joka on silti erilainen.",
+        "fd-tapMissing": "Napauta alemmasta kuvasta jokaista tyhjää kohtaa, josta puuttuu jotain ylemmästä kuvasta.",
+        "fd-tapPairs": "Jokaisessa parissa on sama lähikuva kahdesti. Napauta jokaisen parin toisesta kuvasta sitä yhtä kohtaa, joka on erilainen.",
+        "fd-tapWords": "Etsi, mikä alemmassa kuvassa on muuttunut, ja napauta sitten niiden asioiden sanoja, jotka ovat muuttuneet.",
+        "fd-tapPairs2": "Kaksi kuvaparia: katso jokaisen parin kuvaa 1 ja napauta sitten kuvasta 2 jokaista kohtaa, joka on erilainen."
+      },
+      "numberWords": {
+        "3": "kolme",
+        "5": "viisi",
+        "7": "seitsemän",
+        "10": "kymmenen"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "kissa",
+          "stem": "kiss",
+          "n": "kissa"
+        },
+        "animals-bw-2-dog": {
+          "t": "koira",
+          "stem": "koir",
+          "n": "koira"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "kani",
+          "stem": "kani",
+          "n": "kani"
+        },
+        "farm-animals-bw-pony": {
+          "t": "hevonen",
+          "stem": "hevo",
+          "n": "hevonen"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "dinosaurus",
+          "stem": "dinosauru",
+          "n": "dinosaurus"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "kala",
+          "stem": "kal",
+          "n": "kala"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "sammakko",
+          "stem": "sammak",
+          "n": "sammakko"
+        },
+        "animals-bw-5-owl": {
+          "t": "pöllö",
+          "stem": "pöll",
+          "n": "pöllö"
+        },
+        "birds-bw-hummingbird": {
+          "t": "lintu",
+          "stem": "lin",
+          "n": "lintu"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "karhu",
+          "stem": "karhu",
+          "n": "karhu"
+        },
+        "easter-bw-butterfly": {
+          "t": "perhonen",
+          "stem": "perho",
+          "n": "perhonen"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "kissa",
+        "animals-bw-2-dog": "koira",
+        "animals-bw-4-rabbit-2": "kani",
+        "farm-animals-bw-pony": "hevonen",
+        "animals-bw-3-dinosaur": "dinosaurus",
+        "animals-bw-3-fish-2": "kala",
+        "animals-bw-3-frog-2": "sammakko",
+        "animals-bw-5-owl": "pöllö",
+        "birds-bw-hummingbird": "lintu",
+        "zoo-animals-bw-bear-2": "karhu",
+        "easter-bw-butterfly": "perhonen"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Karhuni on",
+          "Se osaa",
+          "Se tykkää"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Piirrä {L} vaihe vaiheelta",
+          "instruction": "Katso neljää numeroitua vaihetta ja piirrä kissa isoon ruutuun: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
+        },
+        "shapes": {
+          "title": "Piirrä {L} yksinkertaisista muodoista",
+          "instruction": "Piirrä katkoviivamuotojen päälle, piirrä sitten niiden ympärille koiran ääriviiva ja viimeistele koira vaiheiden avulla."
+        },
+        "trace": {
+          "title": "Seuraa viivoja ja piirrä sitten {L} itse",
+          "instruction": "Piirrä kynällä harmaan kanin viivojen päälle ja piirrä sitten kani itse viereiseen tyhjään ruutuun."
+        },
+        "finish": {
+          "title": "Piirrä {N} valmiiksi",
+          "instruction": "Katso kokonaista hevosta, piirrä toiseen hevoseen puuttuvat viivat ja piirrä sitten oma hevonen alla olevaan ruutuun."
+        },
+        "grid": {
+          "title": "Piirrä {L} ruudukon avulla",
+          "instruction": "Katso dinosaurusta ruudukossa, piirrä se ruutu kerrallaan tyhjään ruudukkoon ja sitten vielä kerran ilman ruudukkoa."
+        },
+        "word": {
+          "title": "Piirrä {L} ja kirjoita sana",
+          "instruction": "Seuraa vaiheita ja piirrä kala ruutuun; kirjoita sitten harmaan sanan päälle ja kirjoita sana vielä itse tyhjälle riville."
+        },
+        "scene": {
+          "title": "Piirrä {L} lammelle",
+          "instruction": "Seuraa vaiheita ja piirrä sitten sammakko kuvan tyhjälle lammelle."
+        },
+        "order": {
+          "title": "Laita vaiheet järjestykseen: piirrä {L}",
+          "instruction": "Vaiheet ovat sekaisin: kirjoita viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten pöllö."
+        },
+        "copy-steps": {
+          "title": "Vaihe vaiheelta: piirrä {L}",
+          "instruction": "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko lintu isompana alimpaan ruutuun."
+        },
+        "write": {
+          "title": "Piirrä {L} ja kirjoita siitä",
+          "instruction": "Piirrä karhu vaiheiden avulla ja kirjoita sitten viivoille kolme lausetta karhustasi; aloita valmiiksi kirjoitetuilla sanoilla."
+        },
+        "memory": {
+          "title": "Piirrä {L} muistista",
+          "instruction": "Katso perhosta, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isoon ruutuun.",
+          "foldWord": "taita"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuaalinen hahmottaminen",
+    "Art": "Kuvataide"
+  },
+  "enAudit": [
+    "[NSR-FLAG] This Finnish draft was authored by the build session from the brief and the finals (no native panel: the operator paused agents); a Finnish native check is required before publish.",
+    "[fi native panel 2026-10-09] Finnish draft reviewed by the native panel: 11 instruction strings reworded (see the panel report); titles, starter \"Kuvassa 2\", changeWords, nouns, starters and strand names confirmed natural."
+  ]
+}

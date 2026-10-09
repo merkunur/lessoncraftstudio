@@ -23,7 +23,7 @@
     },
     "three-big": {
       "title": "Etsi kolme virhettä: {UNIT}",
-      "instruction": "Etsi alemmasta kuvasta ne 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+      "instruction": "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
     },
     "colour": {
       "title": "Etsi virheet värikuvasta",
@@ -47,11 +47,11 @@
     },
     "mirror-pair": {
       "title": "Peilikuva: etsi virheet",
-      "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja taita viivaa pitkin tarkistaaksesi."
+      "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja tarkista taittamalla viivaa pitkin."
     },
     "missing": {
       "title": "Mitä kuvasta puuttuu?",
-      "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain ylemmästä kuvasta, ja rastita yksi ruutu jokaisesta."
+      "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain, mikä ylemmässä kuvassa on, ja rastita yksi ruutu jokaisesta."
     },
     "pairs": {
       "title": "Kuvaparit: etsi virhe",
@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Kirjoita, mikä on erilaista",
-      "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalistan sanoja."
+      "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalaatikon sanoja."
     }
   },
   "tap": {

@@ -3012,11 +3012,11 @@
   },
   "K-396": {
     "title": "Piirrä {L} vaihe vaiheelta",
-    "instruction": "Katso neljää numeroitua vaihetta ja piirrä kissa isolle paperille: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
+    "instruction": "Katso neljää numeroitua vaihetta ja piirrä kissa isoon ruutuun: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat."
   },
   "K-397": {
     "title": "Etsi kolme virhettä: {UNIT}",
-    "instruction": "Etsi alemmasta kuvasta ne 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
+    "instruction": "Etsi alemmasta kuvasta 3 isoa virhettä, ympyröi ne ja rastita 3 ruutua."
   },
   "K-398": {
     "title": "Etsi virheet värikuvasta",
@@ -3040,11 +3040,11 @@
   },
   "G1-415": {
     "title": "Peilikuva: etsi virheet",
-    "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja taita viivaa pitkin tarkistaaksesi."
+    "instruction": "Kuva 2 on peilikuva: ympyröi ne 4 asiaa tai tyhjää kohtaa, jotka ovat silti erilaisia, rastita ruutu jokaisesta ja tarkista taittamalla viivaa pitkin."
   },
   "K-399": {
     "title": "Mitä kuvasta puuttuu?",
-    "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain ylemmästä kuvasta, ja rastita yksi ruutu jokaisesta."
+    "instruction": "Ympyröi alemmasta kuvasta ne 3 tyhjää kohtaa, joista puuttuu jotain, mikä ylemmässä kuvassa on, ja rastita yksi ruutu jokaisesta."
   },
   "K-400": {
     "title": "Kuvaparit: etsi virhe",
@@ -3052,15 +3052,15 @@
   },
   "G2-389": {
     "title": "Kirjoita, mikä on erilaista",
-    "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalistan sanoja."
+    "instruction": "Ympyröi 3 virhettä (jotain voi puuttua) ja kirjoita sitten jokaisesta virheestä yksi lause viivoille; käytä kahden sanalaatikon sanoja."
   },
   "K-401": {
     "title": "Piirrä {L} yksinkertaisista muodoista",
-    "instruction": "Piirrä paperilla jo olevien katkoviivamuotojen päälle, piirrä sitten koiran ääriviiva niiden ympärille ja viimeistele koira vaiheiden avulla."
+    "instruction": "Piirrä katkoviivamuotojen päälle, piirrä sitten niiden ympärille koiran ääriviiva ja viimeistele koira vaiheiden avulla."
   },
   "K-402": {
     "title": "Seuraa viivoja ja piirrä sitten {L} itse",
-    "instruction": "Seuraa harmaata kania kynälläsi ja piirrä sitten kani itse viereiseen tyhjään ruutuun."
+    "instruction": "Piirrä kynällä harmaan kanin viivojen päälle ja piirrä sitten kani itse viereiseen tyhjään ruutuun."
   },
   "K-403": {
     "title": "Piirrä {N} valmiiksi",
@@ -3072,7 +3072,7 @@
   },
   "K-404": {
     "title": "Piirrä {L} ja kirjoita sana",
-    "instruction": "Seuraa vaiheita ja piirrä kala ruutuun; kirjoita sitten alla olevan sanan päälle ja kirjoita se itse."
+    "instruction": "Seuraa vaiheita ja piirrä kala ruutuun; kirjoita sitten harmaan sanan päälle ja kirjoita sana vielä itse tyhjälle riville."
   },
   "G1-417": {
     "title": "Piirrä {L} lammelle",
@@ -3080,11 +3080,11 @@
   },
   "G1-418": {
     "title": "Laita vaiheet järjestykseen: piirrä {L}",
-    "instruction": "Vaiheet ovat sekaisin: kirjoita niiden viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten pöllö."
+    "instruction": "Vaiheet ovat sekaisin: kirjoita viereisiin ruutuihin numerot 1–5 oikeassa järjestyksessä ja piirrä sitten pöllö."
   },
   "G1-419": {
     "title": "Vaihe vaiheelta: piirrä {L}",
-    "instruction": "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko lintu isompana alla olevalle paperille."
+    "instruction": "Piirrä jokaisen vaiheen kuva sen alla olevaan ruutuun, aina uudet viivat mukaan, ja piirrä sitten koko lintu isompana alimpaan ruutuun."
   },
   "G2-390": {
     "title": "Piirrä {L} ja kirjoita siitä",
@@ -3092,6 +3092,6 @@
   },
   "G2-391": {
     "title": "Piirrä {L} muistista",
-    "instruction": "Katso perhosta, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isolle paperille."
+    "instruction": "Katso perhosta, taita paperi taakse katkoviivaa pitkin niin, ettet näe sitä, ja piirrä se muistista isoon ruutuun."
   }
 }

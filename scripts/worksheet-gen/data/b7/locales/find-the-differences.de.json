@@ -1,12 +1,13 @@
 {
-  "starter": "Auf Bild 2",
+  "starter": "Auf Bild 2 ist",
   "changeWords": [
-    "fehlt",
-    "ist neu",
-    "ist größer",
-    "ist kleiner",
-    "ist verschoben",
-    "ist gespiegelt"
+    "weg",
+    "neu",
+    "größer",
+    "kleiner",
+    "verschoben",
+    "gespiegelt",
+    "anders"
   ],
   "strandNames": {
     "Visual Perception": "Visuelle Wahrnehmung"
@@ -38,7 +39,7 @@
     },
     "how-many": {
       "title": "Wie viele Unterschiede findest du?",
-      "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest, und schreibe dann in das Kästchen, wie viele es sind."
+      "instruction": "Kreise im unteren Bild jeden Unterschied ein, den du findest (etwas kann auch fehlen), und schreibe dann in das Kästchen, wie viele es sind."
     },
     "what-changed": {
       "title": "Was hat sich verändert? Kreuze die Wörter an",
@@ -46,11 +47,11 @@
     },
     "mirror-pair": {
       "title": "Spiegelbild: Finde die Unterschiede",
-      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, hake je ein Kästchen ab und falte dann an der Linie, um zu prüfen."
+      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge oder leeren Stellen ein, die anders sind, hake je ein Kästchen ab und falte zum Prüfen an der Linie."
     },
     "missing": {
       "title": "Was fehlt im Bild?",
-      "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt."
+      "instruction": "Kreise im unteren Bild die 3 leeren Stellen ein, an denen etwas aus dem oberen Bild fehlt, und hake für jede ein Kästchen ab."
     },
     "pairs": {
       "title": "Bildpaare: Finde den Unterschied",

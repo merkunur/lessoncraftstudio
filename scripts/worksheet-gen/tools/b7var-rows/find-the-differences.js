@@ -25,7 +25,7 @@ const ROWS = [
     { mode: 'how-many', countRange: [3, 6], unit: 'garden-bird-rich', layout: 'stack', floor: 'G1', kinds: ['remove', 'add', 'mirror', 'scale', 'move'], heroProb: 0.5, minSepPx: 31, box: { w: 88, h: 64 } },
     S['how-many'].title, S['how-many'].instruction, { gradeBand: 'G1' }],
   ['g1', 'G1-414', 'what-changed-tick-the-words', BASE, 2,
-    { mode: 'what-changed', itemFirst: true, count: 3, unit: 'farm-cow-rich', layout: 'stack', floor: 'G1', kinds: ['remove', 'swap', 'mirror', 'scale', 'move', 'detail'], noSameKeySwap: true, heroFront: 0.5, minSepPx: 31, box: 28, minUnticked: 1 },
+    { mode: 'what-changed', itemFirst: true, count: 3, unit: 'farm-cow-rich', layout: 'stack', floor: 'G1', kinds: ['remove', 'swap', 'mirror', 'scale', 'move'], noSameKeySwap: true, heroFront: 0.5, minSepPx: 31, box: 28, minUnticked: 1 },
     S['what-changed'].title, S['what-changed'].instruction, { gradeBand: 'G1' }],
   ['g1', 'G1-415', 'mirror-pictures-find-the-differences', BASE, 2,
     { mode: 'mirror-pair', count: 4, unit: 'forest-fox-rich', flip: true, layout: 'side', floor: 'G1', ppu: 0.5, panelW: 300, kinds: ['remove', 'add', 'swap', 'scale'], heroFront: 0.5, minSepPx: 27, fold: true, ledger: { box: 48 } },

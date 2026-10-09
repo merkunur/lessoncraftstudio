@@ -31,7 +31,7 @@
     },
     "G1-415": {
       "title": "Speilvendt bilde: finn feilene",
-      "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+      "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som er annerledes, kryss av for hver, og brett langs linja for å sjekke."
     },
     "K-399": {
       "title": "Hva mangler i bildet?",
@@ -164,7 +164,7 @@
         },
         "mirror-pair": {
           "title": "Speilvendt bilde: finn feilene",
-          "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+          "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som er annerledes, kryss av for hver, og brett langs linja for å sjekke."
         },
         "missing": {
           "title": "Hva mangler i bildet?",

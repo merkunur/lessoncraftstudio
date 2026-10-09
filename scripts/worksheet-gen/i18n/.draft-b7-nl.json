@@ -1,0 +1,345 @@
+{
+  "locale": "nl",
+  "types": {
+    "K-395": {
+      "title": "Zoek de 5 verschillen: {UNIT}",
+      "instruction": "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+    },
+    "K-397": {
+      "title": "Zoek de 3 verschillen: {UNIT}",
+      "instruction": "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+    },
+    "K-398": {
+      "title": "Verschillen zoeken in kleur",
+      "instruction": "Omcirkel in het onderste, gekleurde plaatje de 5 dingen die anders zijn en zet voor elk een vinkje in een vakje; let ook goed op de kleuren."
+    },
+    "G1-412": {
+      "title": "Zoek de 7 verschillen bij de vijver",
+      "instruction": "Omcirkel de 7 verschillen, 4 in het linkerpaar plaatjes en 3 in het rechterpaar, en zet voor elk verschil een vinkje in een vakje eronder."
+    },
+    "G2-388": {
+      "title": "Zoek de 10 verschillen in de tuin: moeilijk",
+      "instruction": "Omcirkel de 10 verschillen, 5 in elk paar plaatjes, en zet onder dat paar voor elk verschil dat je vindt een vinkje in een vakje."
+    },
+    "G1-413": {
+      "title": "Hoeveel verschillen zijn er?",
+      "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt (er kan ook iets weg zijn) en schrijf in het vakje hoeveel je er hebt gevonden."
+    },
+    "G1-414": {
+      "title": "Wat is er veranderd? Vink de woorden aan",
+      "instruction": "Omcirkel de 3 verschillen in het onderste plaatje en zet dan een vinkje bij de woorden van de dingen die veranderd zijn."
+    },
+    "G1-415": {
+      "title": "Spiegelbeeld: verschillen zoeken en vouwen",
+      "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen of lege plekken die toch anders zijn, zet voor elk een vinkje en vouw op de lijn om na te kijken."
+    },
+    "K-399": {
+      "title": "Wat ontbreekt er in het plaatje?",
+      "instruction": "Omcirkel in het onderste plaatje de 3 lege plekken waar iets uit het bovenste plaatje weg is, en zet voor elk een vinkje in een vakje."
+    },
+    "K-400": {
+      "title": "Plaatjesparen: zoek het verschil",
+      "instruction": "Elke rij laat twee keer hetzelfde stukje zien; omcirkel in het rechterplaatje de ene plek die anders is en zet een vinkje in het vakje van die rij."
+    },
+    "G2-389": {
+      "title": "Schrijf op wat er anders is",
+      "instruction": "Omcirkel de 3 verschillen (er kan ook iets weg zijn) en schrijf over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
+    },
+    "K-396": {
+      "title": "Hoe teken je {L}: stap voor stap",
+      "instruction": "Kijk naar de genummerde stappen en teken de kat in het grote vak: eerst de omtrek, dan steeds de oranje lijnen van de volgende stap erbij."
+    },
+    "K-401": {
+      "title": "{U} tekenen met simpele vormen",
+      "instruction": "Trek eerst de gestippelde vormen in het vak over, teken daar de omtrek van de hond omheen en maak de tekening af met de stappen."
+    },
+    "K-402": {
+      "title": "{U} overtrekken en dan zelf tekenen",
+      "instruction": "Trek het grijze konijn over met je potlood en teken het konijn daarna zelf in het lege vak ernaast."
+    },
+    "K-403": {
+      "title": "Maak de tekening van het {N} af",
+      "instruction": "Kijk goed naar het hele paard, teken bij het tweede paard de lijnen die ontbreken en teken daarna onderaan zelf een paard."
+    },
+    "G1-416": {
+      "title": "{U} tekenen met een raster",
+      "instruction": "Kijk naar de dinosaurus in het raster, teken hem hokje voor hokje na in het lege raster en daarna nog een keer zonder raster."
+    },
+    "K-404": {
+      "title": "{U} tekenen en het woord schrijven",
+      "instruction": "Teken de vis met de stappen in het vak, trek dan het woord eronder over en schrijf het nog een keer."
+    },
+    "G1-417": {
+      "title": "{U} bij de vijver tekenen",
+      "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege plek in de vijver."
+    },
+    "G1-418": {
+      "title": "Zet de stappen op volgorde: {L} tekenen",
+      "instruction": "De stappen staan door elkaar: schrijf 1 tot en met 5 in de vakjes ernaast, in de goede volgorde, en teken dan de uil."
+    },
+    "G1-419": {
+      "title": "Teken elke stap na: {L}",
+      "instruction": "Teken in elk vak wat je in de stap erboven ziet, steeds met de oranje lijnen erbij, en teken daarna de hele vogel in het grote vak."
+    },
+    "G2-390": {
+      "title": "Teken {L} en schrijf erover",
+      "instruction": "Teken de beer met de stappen en schrijf dan drie zinnen over jouw beer op de lijnen; begin met de woorden die er al staan."
+    },
+    "G2-391": {
+      "title": "{U} uit je hoofd tekenen",
+      "instruction": "Kijk goed naar de vlinder, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "verschillen-zoeken",
+      "name": "Verschillen zoeken"
+    },
+    "how-to-draw": {
+      "slug": "leren-tekenen",
+      "name": "Leren tekenen"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Verschillen zoeken voor kleuters, groep 3 en groep 4: twee plaatjes vergelijken, 3 tot 10 verschillen vinden en omcirkelen, met antwoordblad en een versie om aan te tikken.",
+      "short": "Twee plaatjes vergelijken en de verschillen vinden"
+    },
+    "how-to-draw": {
+      "full": "Stap voor stap leren tekenen voor kleuters, groep 3 en groep 4: dieren opbouwen uit simpele vormen, overtrekken, afmaken, met een raster natekenen of uit je hoofd tekenen.",
+      "short": "Dieren stap voor stap leren tekenen"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Zoek de verschillen om gratis te printen: vind 3, 5, 7 of 10 verschillen in plaatjesparen, gekleurde plaatjes en spiegelbeelden, met antwoorden, voor kleuters, groep 3 en groep 4.",
+    "how-to-draw": "Stap voor stap leren tekenen om gratis te printen: kat, hond, konijn, paard en meer tekenen met simpele vormen, met een raster of uit je hoofd, van kleuters tot groep 4."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Op plaatje 2 is",
+      "changeWords": [
+        "weg",
+        "nieuw",
+        "groter",
+        "kleiner",
+        "verplaatst",
+        "omgedraaid",
+        "anders"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuele waarneming"
+      },
+      "rail": {
+        "slug": "verschillen-zoeken",
+        "name": "Verschillen zoeken"
+      },
+      "strings": {
+        "base": {
+          "title": "Zoek de 5 verschillen: {UNIT}",
+          "instruction": "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+        },
+        "three-big": {
+          "title": "Zoek de 3 verschillen: {UNIT}",
+          "instruction": "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+        },
+        "colour": {
+          "title": "Verschillen zoeken in kleur",
+          "instruction": "Omcirkel in het onderste, gekleurde plaatje de 5 dingen die anders zijn en zet voor elk een vinkje in een vakje; let ook goed op de kleuren."
+        },
+        "seven": {
+          "title": "Zoek de 7 verschillen bij de vijver",
+          "instruction": "Omcirkel de 7 verschillen, 4 in het linkerpaar plaatjes en 3 in het rechterpaar, en zet voor elk verschil een vinkje in een vakje eronder."
+        },
+        "ten-pairs": {
+          "title": "Zoek de 10 verschillen in de tuin: moeilijk",
+          "instruction": "Omcirkel de 10 verschillen, 5 in elk paar plaatjes, en zet onder dat paar voor elk verschil dat je vindt een vinkje in een vakje."
+        },
+        "how-many": {
+          "title": "Hoeveel verschillen zijn er?",
+          "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt (er kan ook iets weg zijn) en schrijf in het vakje hoeveel je er hebt gevonden."
+        },
+        "what-changed": {
+          "title": "Wat is er veranderd? Vink de woorden aan",
+          "instruction": "Omcirkel de 3 verschillen in het onderste plaatje en zet dan een vinkje bij de woorden van de dingen die veranderd zijn."
+        },
+        "mirror-pair": {
+          "title": "Spiegelbeeld: verschillen zoeken en vouwen",
+          "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen of lege plekken die toch anders zijn, zet voor elk een vinkje en vouw op de lijn om na te kijken."
+        },
+        "missing": {
+          "title": "Wat ontbreekt er in het plaatje?",
+          "instruction": "Omcirkel in het onderste plaatje de 3 lege plekken waar iets uit het bovenste plaatje weg is, en zet voor elk een vinkje in een vakje."
+        },
+        "pairs": {
+          "title": "Plaatjesparen: zoek het verschil",
+          "instruction": "Elke rij laat twee keer hetzelfde stukje zien; omcirkel in het rechterplaatje de ene plek die anders is en zet een vinkje in het vakje van die rij."
+        },
+        "write": {
+          "title": "Schrijf op wat er anders is",
+          "instruction": "Omcirkel de 3 verschillen (er kan ook iets weg zijn) en schrijf over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
+        }
+      },
+      "tap": {
+        "fd-tap": "Kijk goed naar het bovenste plaatje en tik dan in het onderste plaatje op elke plek die anders is.",
+        "fd-tapCount": "Zoek elk verschil in het onderste plaatje en tik dan op het getal dat zegt hoeveel verschillen er zijn.",
+        "fd-tapMissing": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
+        "fd-tapMirror": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
+        "fd-tapPairs": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
+        "fd-tapWords": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn.",
+        "fd-tapPairs2": "Twee paren plaatjes: kijk in elk paar naar plaatje 1 en tik dan in plaatje 2 op elke plek die anders is."
+      },
+      "numberWords": {
+        "3": "drie",
+        "5": "vijf",
+        "7": "zeven",
+        "10": "tien"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "een kat",
+          "stem": "kat",
+          "n": "kat"
+        },
+        "animals-bw-2-dog": {
+          "t": "een hond",
+          "stem": "hond",
+          "n": "hond"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "een konijn",
+          "stem": "konijn",
+          "n": "konijn"
+        },
+        "farm-animals-bw-pony": {
+          "t": "een paard",
+          "stem": "paard",
+          "n": "paard"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "een dinosaurus",
+          "stem": "dinosaurus",
+          "n": "dinosaurus"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "een vis",
+          "stem": "vis",
+          "n": "vis"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "een kikker",
+          "stem": "kikker",
+          "n": "kikker"
+        },
+        "animals-bw-5-owl": {
+          "t": "een uil",
+          "stem": "uil",
+          "n": "uil"
+        },
+        "birds-bw-hummingbird": {
+          "t": "een vogel",
+          "stem": "vogel",
+          "n": "vogel"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "een beer",
+          "stem": "beer",
+          "n": "beer"
+        },
+        "easter-bw-butterfly": {
+          "t": "een vlinder",
+          "stem": "vlinder",
+          "n": "vlinder"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "kat",
+        "animals-bw-2-dog": "hond",
+        "animals-bw-4-rabbit-2": "konijn",
+        "farm-animals-bw-pony": "paard",
+        "animals-bw-3-dinosaur": "dinosaurus",
+        "animals-bw-3-fish-2": "vis",
+        "animals-bw-3-frog-2": "kikker",
+        "animals-bw-5-owl": "uil",
+        "birds-bw-hummingbird": "vogel",
+        "zoo-animals-bw-bear-2": "beer",
+        "easter-bw-butterfly": "vlinder"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Mijn beer is",
+          "Hij kan",
+          "Hij houdt van"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Hoe teken je {L}: stap voor stap",
+          "instruction": "Kijk naar de genummerde stappen en teken de kat in het grote vak: eerst de omtrek, dan steeds de oranje lijnen van de volgende stap erbij."
+        },
+        "shapes": {
+          "title": "{U} tekenen met simpele vormen",
+          "instruction": "Trek eerst de gestippelde vormen in het vak over, teken daar de omtrek van de hond omheen en maak de tekening af met de stappen."
+        },
+        "trace": {
+          "title": "{U} overtrekken en dan zelf tekenen",
+          "instruction": "Trek het grijze konijn over met je potlood en teken het konijn daarna zelf in het lege vak ernaast."
+        },
+        "finish": {
+          "title": "Maak de tekening van het {N} af",
+          "instruction": "Kijk goed naar het hele paard, teken bij het tweede paard de lijnen die ontbreken en teken daarna onderaan zelf een paard."
+        },
+        "grid": {
+          "title": "{U} tekenen met een raster",
+          "instruction": "Kijk naar de dinosaurus in het raster, teken hem hokje voor hokje na in het lege raster en daarna nog een keer zonder raster."
+        },
+        "word": {
+          "title": "{U} tekenen en het woord schrijven",
+          "instruction": "Teken de vis met de stappen in het vak, trek dan het woord eronder over en schrijf het nog een keer."
+        },
+        "scene": {
+          "title": "{U} bij de vijver tekenen",
+          "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege plek in de vijver."
+        },
+        "order": {
+          "title": "Zet de stappen op volgorde: {L} tekenen",
+          "instruction": "De stappen staan door elkaar: schrijf 1 tot en met 5 in de vakjes ernaast, in de goede volgorde, en teken dan de uil."
+        },
+        "copy-steps": {
+          "title": "Teken elke stap na: {L}",
+          "instruction": "Teken in elk vak wat je in de stap erboven ziet, steeds met de oranje lijnen erbij, en teken daarna de hele vogel in het grote vak."
+        },
+        "write": {
+          "title": "Teken {L} en schrijf erover",
+          "instruction": "Teken de beer met de stappen en schrijf dan drie zinnen over jouw beer op de lijnen; begin met de woorden die er al staan."
+        },
+        "memory": {
+          "title": "{U} uit je hoofd tekenen",
+          "instruction": "Kijk goed naar de vlinder, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak.",
+          "foldWord": "vouw"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuele waarneming",
+    "Art": "Kunstzinnige oriëntatie"
+  },
+  "enAudit": [
+    "K-403 finish (EN render): the omitted step on the second horse is only the nostril, the mouth line, the eyelashes and the inner mane strands; the copy reads as a COMPLETE pony with a blank face, not as an unfinished one, so 'draw the lines that are missing' asks a 5-year-old to spot four tiny details with no cue. Pedagogically the omitted step should be a visible part (a leg, the tail, an ear), or the landing must say the second horse is missing its face details.",
+    "G2-389 write + G1-414 what-changed (EN render + vocab): the small round chicks in elephant-rich / kangaroo-rich carry the vocab key 'bird', so the strip prints 'bird' while every child names that drawing 'chick'; in picture 2 of G2-389 one of the TWO chicks is flipped, so 'In picture 2, the bird is flipped' names two drawings at once (both are 'bird'). The strip word should be the drawing's own word, and a scene with two drawings of one key on a word face is a two-referent tell.",
+    "G1-415 mirror-pair (EN render + key): two of the four rings sit over EMPTY places (the tulip and one chick are removed), but the instruction says 'circle the 4 things that are still different' and never mentions an empty place, unlike the missing face; the mirror kinds include 'remove', so the string should name 'things or empty places'.",
+    "K-400 pairs (EN render): the print instruction says 'the right picture' while the tap string fd-tapPairs says 'the second picture'; both are true on their own surface, but the printed title 'Picture Pairs: Find the Differences' (plural) heads a page where each row has exactly ONE difference and the instruction says 'the one place' — the plural title and the singular instruction disagree on one page.",
+    "K-401 shapes (EN render): the paper prints FOUR dashed guides (head ellipse, two ear ellipses, body ellipse) and the instruction says 'go over the dotted shapes', fine; but step card 1 draws the same guides in grey UNDER the orange outline at card size, where the ear ellipses are 6 px and read as smudges. A K child cannot see on card 1 what the big guides on the paper are for; the card-1 guides either need to be the card's only content or be dropped.",
+    "K-396 base and G1-419 copy-steps: 'the orange lines of the next steps' / 'adding the orange lines as you go' still promise orange on every card after the first, but the LAST card (cat step 4, hummingbird step 4) is all black; the sentence is false for one card in four on both faces (the de and fr panels flagged it; it is still in the bank).",
+    "G1-413 how-many (EN key, the shipped seed): the count landed on 6 and two of the six differences are an empty place (the left hummingbird and the roof window are removed) while 'circle every difference you find in the bottom picture' never tells the child that a difference can be something GONE; a G1 child who only looks for changed things writes 4.",
+    "G1-412 seven (EN render): the two pairs share the same sky props (sun, two clouds, two hummingbirds, two butterflies at the same spots), so the eye sees FOUR near-identical pictures and may compare A1 with B1 instead of A1 with A2; nothing on the page says the pairs are two different scenes except the tab numbers. A thin divider or a 'left pair / right pair' label would carry the instruction's 'left pair' / 'right pair'.",
+    "G2-388 ten-pairs (EN render): the right pair's second picture carries a small hummingbird at the top that is clearly SMALLER than in picture 1, and the left pair's second picture a smaller butterfly: two 'scale' differences of the same kind on one page; honest, but a hard-face page would be better with ten distinct kinds (the title 'in the Garden' is right on the render, the id record still says 'at the Beach')."
+  ]
+}

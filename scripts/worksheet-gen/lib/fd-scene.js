@@ -229,7 +229,10 @@ function applyOps(scene, ops) {
     else if (op.kind === 'add') items.push({ ...op.layer, tf: '', fills: null });
     else if (op.kind === 'swap') items = items.map((l) => (l.idx === op.item ? { ...op.layer, idx: l.idx, tf: '', fills: null } : l));
     else if (op.kind === 'detail') items = items.map((l) => (l.idx === op.item ? { ...op.layer, tf: l.tf, fills: null } : l));
-    else if (op.kind === 'colour') items = items.map((l) => (l.idx === op.item ? { ...l, fills: { ...(l.fills || {}), [op.region]: op.colour } } : l));
+    // colour: EVERY part of the drawing that wears the target part's crayon takes the new one (a frog's body AND its legs
+    // turn purple together — a half-recoloured sprite read as broken, not as 'a frog of a new colour'; visual review 2026-10-09)
+    else if (op.kind === 'colour') items = items.map((l) => { if (l.idx !== op.item) return l; const base = (l.regions[op.region] || {}).colour; const fills = { ...(l.fills || {}) };
+      l.regions.forEach((r, k) => { if (k === op.region || (base && base !== 'none' && r.colour === base)) fills[k] = op.colour; }); return { ...l, fills }; });
     else if (op.kind === 'mirror' || op.kind === 'move' || op.kind === 'scale') items = items.map((l) => (l.idx === op.item ? { ...l, tf: (l.tf ? l.tf + ' ' : '') + transformOf(l, op) } : l));
     else throw new Error('fd-scene: unknown op ' + op.kind);
   }
@@ -263,7 +266,10 @@ function renderPanel(scene, ops, opts = {}) {
   const art = flip ? `<g transform="translate(${W} 0) scale(-1 1)">${bg}${layers}</g>` : bg + layers;
   const rings = (opts.rings || []).map((r0, i) => {
     const [x0, y0, x1, y1] = mx(r0);
-    const rx = (x1 - x0) / 2 + 14, ry = (y1 - y0) / 2 + 14, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    // the ring stays INSIDE the panel (8 units of margin): a change at the rim used to draw its ring half outside the frame,
+    // clipped by it and unreadable as 'this empty spot' (visual review 2026-10-09) — the box is pulled in before the ellipse
+    const M = 8, bx0 = Math.max(M, x0 - 14), by0 = Math.max(M, y0 - 14), bx1 = Math.min(W - M, x1 + 14), by1 = Math.min(H - M, y1 + 14);
+    const rx = (bx1 - bx0) / 2, ry = (by1 - by0) / 2, cx = (bx0 + bx1) / 2, cy = (by0 + by1) / 2;
     // opts.ringHalo: a 13-unit white stroke under the 7-unit coral ellipse (the ring reads over black ink on a mono print)
     // every ring part carries data-lcs-fd-ring so the browser diff strips it (the halo and the index disc are not picture content)
     const halo = opts.ringHalo ? `<ellipse cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" rx="${rx.toFixed(1)}" ry="${ry.toFixed(1)}" fill="none" stroke="#FFFFFF" stroke-width="13" data-lcs-fd-ring="halo"/>` : '';

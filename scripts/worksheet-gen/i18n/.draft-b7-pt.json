@@ -1,0 +1,347 @@
+{
+  "locale": "pt",
+  "types": {
+    "K-395": {
+      "title": "Jogo dos 5 erros: {UNIT}",
+      "instruction": "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+    },
+    "K-397": {
+      "title": "Ache as 3 diferenças: {UNIT}",
+      "instruction": "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+    },
+    "K-398": {
+      "title": "Jogo das diferenças colorido",
+      "instruction": "Circule as 5 coisas que mudaram na figura colorida de baixo e marque um quadradinho para cada uma: pelo menos uma delas mudou de cor."
+    },
+    "G1-412": {
+      "title": "Jogo dos 7 erros na lagoa",
+      "instruction": "Circule os 7 erros, 4 no par de figuras da esquerda e 3 no par da direita, e marque um quadradinho para cada erro que achar."
+    },
+    "G2-388": {
+      "title": "Jogo dos 10 erros no jardim: nível difícil",
+      "instruction": "Circule os 10 erros, 5 em cada par de figuras, e marque um quadradinho embaixo do par para cada erro que achar."
+    },
+    "G1-413": {
+      "title": "Quantas diferenças você encontra?",
+      "instruction": "Circule cada diferença que você achar na figura de baixo (algo pode ter sumido) e escreva no quadro quantas você encontrou."
+    },
+    "G1-414": {
+      "title": "O que mudou? Marque as palavras",
+      "instruction": "Circule as 3 diferenças na figura de baixo e depois marque as palavras das coisas que mudaram."
+    },
+    "G1-415": {
+      "title": "Figuras no espelho: dobre e confira",
+      "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas ou lugares vazios diferentes, marque os quadradinhos e dobre na linha para conferir."
+    },
+    "K-399": {
+      "title": "O que está faltando? Circule o lugar vazio",
+      "instruction": "Circule os 3 lugares vazios da figura de baixo onde falta algo que está na figura de cima e marque um quadradinho para cada um."
+    },
+    "K-400": {
+      "title": "Pares de figuras: ache a diferença em cada par",
+      "instruction": "Cada linha mostra o mesmo pedaço da figura duas vezes: circule o que está diferente na figura da direita e marque o quadradinho da linha."
+    },
+    "G2-389": {
+      "title": "Encontre e escreva as diferenças",
+      "instruction": "Circule as 3 diferenças (algo pode estar faltando) e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
+    },
+    "K-396": {
+      "title": "Como desenhar {L} passo a passo",
+      "instruction": "Olhe os quatro passos numerados e desenhe o gato no papel grande: primeiro o contorno e depois as linhas laranja dos outros passos."
+    },
+    "K-401": {
+      "title": "Desenhe {L} com formas simples",
+      "instruction": "Passe o lápis por cima das formas pontilhadas do papel, desenhe o contorno do cachorro em volta delas e termine com os passos."
+    },
+    "K-402": {
+      "title": "Cubra e depois desenhe {L} sozinho",
+      "instruction": "Cubra o coelho cinza-claro com o lápis e depois desenhe o coelho sozinho no quadro vazio ao lado."
+    },
+    "K-403": {
+      "title": "Complete o desenho de {L}",
+      "instruction": "Olhe o cavalo completo, desenhe no segundo cavalo as linhas que estão faltando e depois desenhe um cavalo sozinho no quadro de baixo."
+    },
+    "G1-416": {
+      "title": "Desenhe {L} com a ajuda da grade",
+      "instruction": "Olhe o dinossauro na grade, copie o desenho na grade vazia um quadradinho de cada vez e depois desenhe mais uma vez sem a grade."
+    },
+    "K-404": {
+      "title": "Desenhe {L} e escreva a palavra",
+      "instruction": "Siga os passos para desenhar o peixe no papel, depois cubra a palavra embaixo e escreva mais uma vez."
+    },
+    "G1-417": {
+      "title": "Desenhe {L} na beira da lagoa",
+      "instruction": "Siga os passos e depois desenhe o sapo na figura, no lugar vazio da lagoa."
+    },
+    "G1-418": {
+      "title": "Coloque os passos em ordem e desenhe {L}",
+      "instruction": "Os passos estão fora de ordem: escreva de 1 a 5 nos quadradinhos ao lado para colocar na ordem certa e depois desenhe a coruja."
+    },
+    "G1-419": {
+      "title": "Copie cada passo e desenhe {L}",
+      "instruction": "Desenhe no quadro de baixo o que você vê em cada passo, acrescentando as linhas laranja, e depois o beija-flor inteiro no quadro grande."
+    },
+    "G2-390": {
+      "title": "Desenhe {L} e escreva sobre ele",
+      "instruction": "Desenhe o urso seguindo os passos e depois escreva três frases sobre o seu urso nas linhas, começando pelas palavras já escritas."
+    },
+    "G2-391": {
+      "title": "Desenhe {L} de memória",
+      "instruction": "Olhe bem a borboleta, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe a borboleta de memória no papel grande."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "jogo-das-diferencas",
+      "name": "Jogo das diferenças"
+    },
+    "how-to-draw": {
+      "slug": "como-desenhar",
+      "name": "Como desenhar"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "A criança compara duas figuras quase iguais, percebe o que mudou e circula cada erro: um jogo de observação que desenvolve a atenção e a discriminação visual.",
+      "short": "Jogo dos erros: observar, comparar e circular"
+    },
+    "how-to-draw": {
+      "full": "A criança aprende a desenhar um animal passo a passo: primeiro o contorno, depois os detalhes, até fazer o desenho inteiro sozinha no seu próprio papel.",
+      "short": "Aprender a desenhar animais passo a passo"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Jogo dos 7 erros e jogo das diferenças para imprimir, da educação infantil ao 2º ano: 3, 5, 7 ou 10 erros para achar, com versão para a tela e gabarito.",
+    "how-to-draw": "Como desenhar um gato, um cachorro, um coelho ou um peixe passo a passo: modelos simples para imprimir, da educação infantil ao 2º ano."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Na figura 2,",
+      "changeWords": [
+        "sumiu",
+        "apareceu",
+        "ficou maior",
+        "ficou menor",
+        "mudou de lugar",
+        "está ao contrário",
+        "está diferente"
+      ],
+      "strandNames": {
+        "Visual Perception": "Discriminação visual"
+      },
+      "rail": {
+        "slug": "jogo-das-diferencas",
+        "name": "Jogo das diferenças"
+      },
+      "strings": {
+        "base": {
+          "title": "Jogo dos 5 erros: {UNIT}",
+          "instruction": "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+        },
+        "three-big": {
+          "title": "Ache as 3 diferenças: {UNIT}",
+          "instruction": "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+        },
+        "colour": {
+          "title": "Jogo das diferenças colorido",
+          "instruction": "Circule as 5 coisas que mudaram na figura colorida de baixo e marque um quadradinho para cada uma: pelo menos uma delas mudou de cor."
+        },
+        "seven": {
+          "title": "Jogo dos 7 erros na lagoa",
+          "instruction": "Circule os 7 erros, 4 no par de figuras da esquerda e 3 no par da direita, e marque um quadradinho para cada erro que achar."
+        },
+        "ten-pairs": {
+          "title": "Jogo dos 10 erros no jardim: nível difícil",
+          "instruction": "Circule os 10 erros, 5 em cada par de figuras, e marque um quadradinho embaixo do par para cada erro que achar."
+        },
+        "how-many": {
+          "title": "Quantas diferenças você encontra?",
+          "instruction": "Circule cada diferença que você achar na figura de baixo (algo pode ter sumido) e escreva no quadro quantas você encontrou."
+        },
+        "what-changed": {
+          "title": "O que mudou? Marque as palavras",
+          "instruction": "Circule as 3 diferenças na figura de baixo e depois marque as palavras das coisas que mudaram."
+        },
+        "mirror-pair": {
+          "title": "Figuras no espelho: dobre e confira",
+          "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas ou lugares vazios diferentes, marque os quadradinhos e dobre na linha para conferir."
+        },
+        "missing": {
+          "title": "O que está faltando? Circule o lugar vazio",
+          "instruction": "Circule os 3 lugares vazios da figura de baixo onde falta algo que está na figura de cima e marque um quadradinho para cada um."
+        },
+        "pairs": {
+          "title": "Pares de figuras: ache a diferença em cada par",
+          "instruction": "Cada linha mostra o mesmo pedaço da figura duas vezes: circule o que está diferente na figura da direita e marque o quadradinho da linha."
+        },
+        "write": {
+          "title": "Encontre e escreva as diferenças",
+          "instruction": "Circule as 3 diferenças (algo pode estar faltando) e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
+        }
+      },
+      "tap": {
+        "fd-tap": "Olhe a figura de cima e depois toque em cada lugar da figura de baixo que está diferente.",
+        "fd-tapCount": "Encontre todas as diferenças na figura de baixo e depois toque no número que mostra quantas são.",
+        "fd-tapMirror": "A figura de baixo está virada como no espelho. Toque em cada lugar que ainda está diferente.",
+        "fd-tapMissing": "Toque em cada lugar vazio da figura de baixo onde falta algo que está na figura de cima.",
+        "fd-tapPairs": "Cada par mostra o mesmo pedaço da figura duas vezes. Toque no que está diferente na segunda figura de cada par.",
+        "fd-tapWords": "Descubra o que mudou na figura de baixo e depois toque nas palavras das coisas que mudaram.",
+        "fd-tapPairs2": "Dois pares de figuras: em cada par, olhe a figura 1 e depois toque em cada lugar da figura 2 que está diferente."
+      },
+      "numberWords": {
+        "3": "três",
+        "5": "cinco",
+        "7": "sete",
+        "10": "dez"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "um gato",
+          "stem": "gato",
+          "n": "Gato"
+        },
+        "animals-bw-2-dog": {
+          "t": "um cachorro",
+          "stem": "cachorro",
+          "n": "Cachorro"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "um coelho",
+          "stem": "coelho",
+          "n": "Coelho"
+        },
+        "farm-animals-bw-pony": {
+          "t": "um cavalo",
+          "stem": "cavalo",
+          "n": "Cavalo"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "um dinossauro",
+          "stem": "dinossauro",
+          "n": "Dinossauro"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "um peixe",
+          "stem": "peixe",
+          "n": "Peixe"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "um sapo",
+          "stem": "sapo",
+          "n": "Sapo"
+        },
+        "animals-bw-5-owl": {
+          "t": "uma coruja",
+          "stem": "coruja",
+          "n": "Coruja"
+        },
+        "birds-bw-hummingbird": {
+          "t": "um beija-flor",
+          "stem": "beija-flor",
+          "n": "Beija-flor"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "um urso",
+          "stem": "urso",
+          "n": "Urso"
+        },
+        "easter-bw-butterfly": {
+          "t": "uma borboleta",
+          "stem": "borboleta",
+          "n": "Borboleta"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "gato",
+        "animals-bw-2-dog": "cachorro",
+        "animals-bw-4-rabbit-2": "coelho",
+        "farm-animals-bw-pony": "cavalo",
+        "animals-bw-3-dinosaur": "dinossauro",
+        "animals-bw-3-fish-2": "peixe",
+        "animals-bw-3-frog-2": "sapo",
+        "animals-bw-5-owl": "coruja",
+        "birds-bw-hummingbird": "beija-flor",
+        "zoo-animals-bw-bear-2": "urso",
+        "easter-bw-butterfly": "borboleta"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Meu urso é",
+          "Ele pode",
+          "Ele gosta de"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Como desenhar {L} passo a passo",
+          "instruction": "Olhe os quatro passos numerados e desenhe o gato no papel grande: primeiro o contorno e depois as linhas laranja dos outros passos."
+        },
+        "shapes": {
+          "title": "Desenhe {L} com formas simples",
+          "instruction": "Passe o lápis por cima das formas pontilhadas do papel, desenhe o contorno do cachorro em volta delas e termine com os passos."
+        },
+        "trace": {
+          "title": "Cubra e depois desenhe {L} sozinho",
+          "instruction": "Cubra o coelho cinza-claro com o lápis e depois desenhe o coelho sozinho no quadro vazio ao lado."
+        },
+        "finish": {
+          "title": "Complete o desenho de {L}",
+          "instruction": "Olhe o cavalo completo, desenhe no segundo cavalo as linhas que estão faltando e depois desenhe um cavalo sozinho no quadro de baixo."
+        },
+        "grid": {
+          "title": "Desenhe {L} com a ajuda da grade",
+          "instruction": "Olhe o dinossauro na grade, copie o desenho na grade vazia um quadradinho de cada vez e depois desenhe mais uma vez sem a grade."
+        },
+        "word": {
+          "title": "Desenhe {L} e escreva a palavra",
+          "instruction": "Siga os passos para desenhar o peixe no papel, depois cubra a palavra embaixo e escreva mais uma vez."
+        },
+        "scene": {
+          "title": "Desenhe {L} na beira da lagoa",
+          "instruction": "Siga os passos e depois desenhe o sapo na figura, no lugar vazio da lagoa."
+        },
+        "order": {
+          "title": "Coloque os passos em ordem e desenhe {L}",
+          "instruction": "Os passos estão fora de ordem: escreva de 1 a 5 nos quadradinhos ao lado para colocar na ordem certa e depois desenhe a coruja."
+        },
+        "copy-steps": {
+          "title": "Copie cada passo e desenhe {L}",
+          "instruction": "Desenhe no quadro de baixo o que você vê em cada passo, acrescentando as linhas laranja, e depois o beija-flor inteiro no quadro grande."
+        },
+        "write": {
+          "title": "Desenhe {L} e escreva sobre ele",
+          "instruction": "Desenhe o urso seguindo os passos e depois escreva três frases sobre o seu urso nas linhas, começando pelas palavras já escritas."
+        },
+        "memory": {
+          "title": "Desenhe {L} de memória",
+          "instruction": "Olhe bem a borboleta, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe a borboleta de memória no papel grande.",
+          "foldWord": "dobre"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Discriminação visual",
+    "Art": "Arte"
+  },
+  "enAudit": [
+    "find-the-differences colour (K-398) and mirror-pair (G1-415): both pages print a ledger of tick boxes (5 and 4) that the EN instruction never names: colour stops at 'at least one of them has a new colour', mirror-pair at 'fold on the line to check'. The same unnamed-apparatus class the earlier panels flagged on missing / pairs (since fixed in the bank) is still open on these two faces.",
+    "find-the-differences pairs (K-400): the EN print instruction and fd-tapPairs say 'circle / tap the ONE THING that is different' while the face's kinds include remove: on the EN render row 2 the butterfly is GONE in the right window, so the 'thing' to circle is an empty place that the sentence never mentions (missing / fd-tapMissing names it, pairs does not).",
+    "find-the-differences write (G2-389), observed on the EN render: the swap turned the flower into a TULIP in a scene whose picture 1 already holds a tulip, so picture 2 shows two tulips and the noun strip offers both 'tulip' and 'flower': 'In picture 2, the flower changed' and 'In picture 2, the tulip is new' are both true for one ring. K-395 FINAL §3 F10 refuses an ADD whose vocab key is already a noun of picture 1 but says nothing about a SWAP into one; the same two-right-answers tell applies to what-changed (G1-414), where a swap into an existing noun lets the child tick either word.",
+    "find-the-differences pairs (K-400) screen: fd-tapPairs says 'the second picture of every pair' while the print instruction says 'the right picture of every row' — on the screen the windows are STACKED (second = lower), on paper they are side by side (second = right): both strings are true on their own surface, but the title 'Picture Pairs' + 'right picture' pair of literals cannot be reused on the screen; a locale that writes one instruction for both surfaces must say 'second', never 'right'.",
+    "how-to-draw shapes (K-401), on the EN render: the three printed guides are the two EAR ellipses and the body ellipse; the HEAD (the biggest round part of the dog) has no guide at all, although K-396 FINAL §3 F1 calls the two small ellipses 'head ellipses'. 'Draw the dog's outline around them' therefore guides the ears and body and leaves the head unguided; the design text and the render disagree on what the small ellipses are.",
+    "how-to-draw trace (K-402): the instruction says 'Trace the GREY rabbit', but the trace fill is #C8BFAE (a warm beige / khaki) — on the render the rabbit reads light brown, not grey. A 5-year-old looking for a grey rabbit sees none; 'the light rabbit' / 'the pale rabbit' is what is printed (every locale inherits 'grey').",
+    "how-to-draw finish (K-403), on the EN render: the omitted step removes the eye's iris + pupil and the mane edge but leaves the eyelid arcs, so the copy reads as a pony with its eyes CLOSED (a complete, sleeping pony) rather than an unfinished one; 'the lines that are missing' is not visible as missing to a child, who sees two different ponies. The omit rule ('largest non-outline step') picked a step whose absence is a different expression, not a gap.",
+    "how-to-draw scene (G1-417): the instruction sends the frog to 'the empty bank NEXT TO the pond', but the removed hero's footprint (fd item 3, bbox [170,240,430,470]) sits ON the pond ellipse — in the colour face the same frog sits in the water. The sentence names a place (the bank beside the pond) that is not where the frog was; the honest wording is 'where the frog was' / 'on the pond'.",
+    "how-to-draw order (G1-418): on the EN render the all-orange card (step 1, no black ink) and the all-black card (step 5, no orange) are identifiable WITHOUT the reasoning the face teaches, so only three of the five numerals need the 'orange here is black there' comparison; the instruction's 'write 1 to 5 … in the right order' promises five decisions and the page offers three. Pedagogical observation, not a string defect.",
+    "find-the-differences pairs (K-400) title 'Picture Pairs: Find the Difference' ends in the singular 'Find the Difference' that the en trap row (K-395 FINAL §4) says never to use as a head ('find the difference math grade 1/2/3' = subtraction); it is a tail here, not the head, but it is the only EN title in the family carrying that exact string.",
+    "find-the-differences base (K-395) render still prints 'Look down from picture 1 to picture 2' and write (G2-389) still prints a change-word strip WITHOUT 'changed', while the bank now says 'Compare picture 1 with picture 2 below it' and carries 'changed': out/dev/K-395-face-*.png are stale against data/b7/find-the-differences.js (re-render before the panels' landing audit reads them)."
+  ]
+}

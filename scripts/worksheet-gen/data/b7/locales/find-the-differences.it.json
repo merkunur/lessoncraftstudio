@@ -2,11 +2,11 @@
   "starter": "Nell'immagine 2,",
   "changeWords": [
     "manca",
-    "c'è in più",
+    "è in più",
     "è più grande",
     "è più piccolo",
     "ha cambiato posto",
-    "guarda dall'altra parte",
+    "è al contrario",
     "non è più uguale"
   ],
   "strandNames": {
@@ -39,7 +39,7 @@
     },
     "how-many": {
       "title": "Quante differenze ci sono? Conta e scrivi",
-      "instruction": "Cerchia tutte le differenze che trovi nell'immagine in basso, poi scrivi nel riquadro quante ne hai trovate."
+      "instruction": "Cerchia ogni differenza che trovi nell'immagine in basso (qualcosa può anche mancare), poi scrivi nel riquadro quante ne hai trovate."
     },
     "what-changed": {
       "title": "Che cosa è cambiato? Segna le parole giuste",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Differenze allo specchio: piega e controlla",
-      "instruction": "L'immagine 2 è come riflessa in uno specchio: cerchia le 4 cose ancora diverse, metti una crocetta per ognuna, poi piega sulla linea e controlla."
+      "instruction": "L'immagine 2 è come allo specchio: cerchia le 4 cose o posti vuoti ancora diversi, metti una crocetta per ognuno, poi piega sulla linea e controlla."
     },
     "missing": {
       "title": "Che cosa manca? Cerchia il posto vuoto",

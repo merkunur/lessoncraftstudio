@@ -26,6 +26,9 @@ const FAMS = new Set(['find-the-differences', 'how-to-draw']);
 const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.zip')) : [];
 const f = [];
 if (!files.length) { console.error(`no ZIPs in ${dir}`); process.exit(1); }
+// the PINNED unit per face (tools/b7var-rows + the base d2 units): a ZIP generated before a pin changed carries the OLD scene
+// in its filename suffix (-u<unit>) — es/pt/nl pools shipped the ostrich word scene after the farm pin (2026-10-09)
+const PINS = (() => { const m = {}; try { for (const fam of ['find-the-differences', 'how-to-draw']) { const rows = require(path.join(ROOT, 'tools', 'b7var-rows', fam + '.js')); const R = rows.ROWS || rows.rows || rows; for (const r of (Array.isArray(R) ? R : [])) { const [, id, , , , ov] = r; const u = ov && ov.unit; if (id && u) m[id.toLowerCase().replace(/-/g, '')] = String(u).replace(/[^a-z0-9]/gi, '').toLowerCase(); } } } catch (e) { console.warn('[check-b7-zips] pins unreadable: ' + e.message); } return m; })();
 const thumbs = new Map();
 const perType = {};
 // the SEO description lives in deck.html's <meta name="description"> (the emitter bands it there), not in the manifest
@@ -35,6 +38,8 @@ for (const file of files) {
   const z = new AdmZip(path.join(dir, file));
   const names = new Set(z.getEntries().map((e) => e.entryName));
   let m; try { m = JSON.parse(z.readAsText('manifest.json')); } catch (e) { f.push(`${file}: no manifest.json`); continue; }
+  // pin staleness: the -u<unit> suffix of the filename must be the face's pinned unit
+  { const mm = file.match(/-(k\d+|g[123]\d+)-[^-]+-d\d-[a-z]{2}-u([a-z0-9]+)\.zip$/); if (mm && PINS[mm[1]] && PINS[mm[1]] !== mm[2]) f.push(`${file}: STALE unit ${mm[2]} (pin is ${PINS[mm[1]]})`); }
   const et = m.exercise_type;
   if (!FAMS.has(et)) f.push(`${file}: exercise_type "${et}" is not a b7 family`);
   perType[et] = (perType[et] || 0) + 1;

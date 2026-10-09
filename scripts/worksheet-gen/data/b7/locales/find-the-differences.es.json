@@ -3,11 +3,11 @@
   "changeWords": [
     "falta",
     "apareció",
-    "creció",
-    "se encogió",
+    "es más grande",
+    "es más chico",
     "se movió",
-    "mira al otro lado",
-    "cambió"
+    "está al revés",
+    "es diferente"
   ],
   "strandNames": {
     "Visual Perception": "Discriminación visual"
@@ -39,7 +39,7 @@
     },
     "how-many": {
       "title": "¿Cuántas diferencias hay?",
-      "instruction": "Encierra en un círculo todas las diferencias que encuentres en la imagen de abajo y escribe en el cuadro cuántas encontraste."
+      "instruction": "Encierra en un círculo cada diferencia de la imagen de abajo (algo puede haber desaparecido) y escribe en el cuadro cuántas encontraste."
     },
     "what-changed": {
       "title": "¿Qué cambió? Marca las palabras",
@@ -47,7 +47,7 @@
     },
     "mirror-pair": {
       "title": "Imagen en espejo: busca las diferencias",
-      "instruction": "La imagen 2 está al revés, como en un espejo; encierra las 4 cosas aún diferentes, marca un cuadrito por cada una y dobla por la línea para revisar."
+      "instruction": "La imagen 2 está volteada como en un espejo: encierra las 4 cosas o lugares vacíos distintos, marca un cuadrito por cada uno y dobla para revisar."
     },
     "missing": {
       "title": "¿Qué falta en la imagen de abajo?",

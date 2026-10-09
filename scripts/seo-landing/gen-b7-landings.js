@@ -55,6 +55,8 @@ const STANDARD = {
   // find-the-differences (K-395 §1 "CCSS en (honest)": visual discrimination has no CCSS code; ONLY the how-many face
   // claims K.CC.B.5 — count the circles, write the numeral). how-to-draw (K-396): none on any face.
   'G1-413': 'K.CC.B.5',
+  'K-395': null, 'K-397': null, 'K-398': null, 'G1-412': null, 'G2-388': null, 'G1-414': null, 'G1-415': null, 'K-399': null, 'K-400': null, 'G2-389': null,
+  'K-396': null, 'K-401': null, 'K-402': null, 'K-403': null, 'G1-416': null, 'K-404': null, 'G1-417': null, 'G1-418': null, 'G1-419': null, 'G2-390': null, 'G2-391': null,
 };
 
 // per-locale coordinate.level keys — must match the keys already in each corpus
@@ -219,7 +221,9 @@ for (const id of ORDER) {
     const h = freeClaim.hit(e[f] || '');
     if (h) errs.push(`${id}.${f}: free-claim "${h}" in a VISIBLE field (metadata only, operator ruling 2026-09-14)`);
   }
-  for (const f of [...VISIBLE, 'title', 'metaDescription']) {
+  // the answer-key ban is the how-to-draw family's: every find-the-differences deck SHIPS a key + a tap screen and its
+  // landing is required to say so (b7-landing-brief.md)
+  if (TYPES[id].family === 'how-to-draw') for (const f of [...VISIBLE, 'title', 'metaDescription']) {
     const m = ANSWER_KEY_CLAIM.exec(e[f] || '');
     if (m) errs.push(`${id}.${f}: promises an answer key ("${m[0]}") - these printables ship without one`);
   }

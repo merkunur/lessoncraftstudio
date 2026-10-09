@@ -1,0 +1,81 @@
+{
+  "starter": "Na figura 2,",
+  "changeWords": [
+    "sumiu",
+    "apareceu",
+    "ficou maior",
+    "ficou menor",
+    "mudou de lugar",
+    "está ao contrário",
+    "mudou"
+  ],
+  "strandNames": {
+    "Visual Perception": "Discriminação visual"
+  },
+  "rail": {
+    "slug": "jogo-das-diferencas",
+    "name": "Jogo das diferenças"
+  },
+  "strings": {
+    "base": {
+      "title": "Jogo dos 5 erros: {UNIT}",
+      "instruction": "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+    },
+    "three-big": {
+      "title": "Ache as 3 diferenças: {UNIT}",
+      "instruction": "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+    },
+    "colour": {
+      "title": "Jogo das diferenças colorido",
+      "instruction": "Circule as 5 coisas que mudaram na figura colorida de baixo e marque um quadradinho para cada uma: pelo menos uma delas mudou de cor."
+    },
+    "seven": {
+      "title": "Jogo dos 7 erros na lagoa",
+      "instruction": "Circule os 7 erros, 4 no par de figuras da esquerda e 3 no par da direita, e marque um quadradinho para cada erro que achar."
+    },
+    "ten-pairs": {
+      "title": "Jogo dos 10 erros no jardim: nível difícil",
+      "instruction": "Circule os 10 erros, 5 em cada par de figuras, e marque um quadradinho embaixo do par para cada erro que achar."
+    },
+    "how-many": {
+      "title": "Quantas diferenças você encontra?",
+      "instruction": "Circule todas as diferenças que você achar na figura de baixo e depois escreva no quadro quantas você encontrou."
+    },
+    "what-changed": {
+      "title": "O que mudou? Marque as palavras",
+      "instruction": "Circule as 3 diferenças na figura de baixo e depois marque as palavras das coisas que mudaram."
+    },
+    "mirror-pair": {
+      "title": "Figuras no espelho: dobre e confira",
+      "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas que ainda estão diferentes, marque os quadradinhos e dobre na linha para conferir."
+    },
+    "missing": {
+      "title": "O que está faltando? Circule o lugar vazio",
+      "instruction": "Circule os 3 lugares vazios da figura de baixo onde falta algo que está na figura de cima e marque um quadradinho para cada um."
+    },
+    "pairs": {
+      "title": "Pares de figuras: ache a diferença em cada par",
+      "instruction": "Cada linha mostra o mesmo pedaço da figura duas vezes: circule o que está diferente na figura da direita e marque o quadradinho da linha."
+    },
+    "write": {
+      "title": "Encontre e escreva as diferenças",
+      "instruction": "Circule as 4 diferenças e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
+    }
+  },
+  "tap": {
+    "fd-tap": "Olhe a figura de cima e depois toque em cada lugar da figura de baixo que está diferente.",
+    "fd-tapCount": "Encontre todas as diferenças na figura de baixo e depois toque no número que mostra quantas são.",
+    "fd-tapMirror": "A figura de baixo está virada como no espelho. Toque em cada lugar que ainda está diferente.",
+    "fd-tapMissing": "Toque em cada lugar vazio da figura de baixo onde falta algo que está na figura de cima.",
+    "fd-tapPairs": "Cada par mostra o mesmo pedaço da figura duas vezes. Toque no que está diferente na segunda figura de cada par.",
+    "fd-tapWords": "Descubra o que mudou na figura de baixo e depois toque nas palavras das coisas que mudaram."
+  },
+  "numberWords": {
+    "3": "três",
+    "5": "cinco",
+    "7": "sete",
+    "10": "dez"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

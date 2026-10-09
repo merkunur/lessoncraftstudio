@@ -3075,7 +3075,7 @@
   },
   "G1-415": {
     "title": "Spiegelbild: Finde die Unterschiede",
-    "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, und falte das Blatt dann an der Linie, um es zu prüfen."
+    "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, hake je ein Kästchen ab und falte dann an der Linie, um zu prüfen."
   },
   "K-399": {
     "title": "Was fehlt im Bild?",
@@ -3083,7 +3083,7 @@
   },
   "K-400": {
     "title": "Bildpaare: Finde den Unterschied",
-    "instruction": "Jede Reihe zeigt denselben Bildausschnitt zweimal; kreise im rechten Bild jeder Reihe das eine Ding ein, das anders ist."
+    "instruction": "Jede Reihe zeigt denselben Ausschnitt zweimal; kreise im rechten Bild die eine Stelle ein, die anders ist, und hake das Kästchen der Reihe ab."
   },
   "G2-389": {
     "title": "Unterschiede finden und beschreiben",
@@ -3111,7 +3111,7 @@
   },
   "G1-417": {
     "title": "{U} am Teich zeichnen",
-    "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann in das Bild, auf das leere Ufer neben dem Teich."
+    "instruction": "Übe den Frosch mit den Schritten und zeichne ihn dann wieder in das Bild, auf die leere Stelle im Teich."
   },
   "G1-418": {
     "title": "Schritte ordnen und {L} zeichnen",

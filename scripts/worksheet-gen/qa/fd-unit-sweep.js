@@ -102,7 +102,7 @@ for (const mode of MODES) {
     const rich = ids.filter((id) => /-rich$/.test(id));
     units = [];
     for (const a of rich) for (const b of rich) if (a < b && scenes[a].theme === scenes[b].theme && B.baseIdOf(a) !== B.baseIdOf(b) && (!THEMES || THEMES.has(scenes[a].theme))) units.push([a, b]);
-  } else units = ids.filter((id) => (mode === 'what-changed' || mode === 'write') ? !/-rich$/.test(id) : true);
+  } else units = ids.filter((id) => (mode === 'what-changed' || mode === 'write') ? /-rich$/.test(id) : true);   // word faces: RICH scenes (6-8 nouns; plain = 4 once the generic word is withheld)
   if (ONLY) units = units.filter((u) => (Array.isArray(u) ? u.some((x) => ONLY.has(x)) : ONLY.has(u)));
   const rows = [];
   for (const u of units) {

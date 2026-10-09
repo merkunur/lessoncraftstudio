@@ -4760,24 +4760,32 @@
         "slug": {
           "en": "find-the-differences",
           "de": "fehlersuchbilder",
-          "fr": "jeu-des-differences"
+          "fr": "jeu-des-differences",
+          "es": "busca-las-diferencias",
+          "pt": "jogo-das-diferencas"
         },
         "name": {
           "en": "Find the Differences",
           "de": "Fehlersuchbilder",
-          "fr": "Jeu des différences"
+          "fr": "Jeu des différences",
+          "es": "Busca las diferencias",
+          "pt": "Jogo das diferenças"
         }
       },
       "how-to-draw": {
         "slug": {
           "en": "how-to-draw",
           "de": "zeichnen-lernen",
-          "fr": "apprendre-a-dessiner"
+          "fr": "apprendre-a-dessiner",
+          "es": "como-dibujar",
+          "pt": "como-desenhar"
         },
         "name": {
           "en": "How to Draw",
           "de": "Zeichnen lernen",
-          "fr": "Apprendre à dessiner"
+          "fr": "Apprendre à dessiner",
+          "es": "Cómo dibujar",
+          "pt": "Como desenhar"
         }
       }
     },

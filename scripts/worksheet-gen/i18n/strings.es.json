@@ -3010,5 +3010,93 @@
   "K-394": {
     "title": "Colorea por números: {UNIT}",
     "instruction": "Colorea cada parte con el color de su número."
+  },
+  "K-395": {
+    "title": "Busca las 5 diferencias: {UNIT}",
+    "instruction": "Compara la imagen 1 con la imagen 2 de abajo, encierra en un círculo las 5 cosas diferentes y marca un cuadrito por cada una."
+  },
+  "K-396": {
+    "title": "Cómo dibujar {L} paso a paso",
+    "instruction": "Mira los cuatro pasos numerados y dibuja el gato en el papel grande: primero el contorno y luego las líneas naranjas de los pasos 2 y 3."
+  },
+  "K-397": {
+    "title": "Encuentra las 3 diferencias: {UNIT}",
+    "instruction": "Busca las 3 cosas grandes que cambiaron en la imagen de abajo, enciérralas en un círculo y marca los 3 cuadritos."
+  },
+  "K-398": {
+    "title": "Busca las diferencias a color",
+    "instruction": "Encierra en un círculo las 5 cosas diferentes de la imagen de abajo y marca un cuadrito por cada una; por lo menos una cambió de color."
+  },
+  "G1-412": {
+    "title": "Busca las 7 diferencias en el estanque",
+    "instruction": "Encierra en un círculo las 7 diferencias, 4 en el par de imágenes de la izquierda y 3 en el par de la derecha, y marca un cuadrito por cada una."
+  },
+  "G2-388": {
+    "title": "Encuentra las 10 diferencias en el jardín",
+    "instruction": "Encierra en un círculo las 10 diferencias, 5 en cada par de imágenes, y marca un cuadrito debajo del par por cada una que encuentres."
+  },
+  "G1-413": {
+    "title": "¿Cuántas diferencias hay?",
+    "instruction": "Encierra en un círculo todas las diferencias que encuentres en la imagen de abajo y escribe en el cuadro cuántas encontraste."
+  },
+  "G1-414": {
+    "title": "¿Qué cambió? Marca las palabras",
+    "instruction": "Encierra en un círculo las 3 diferencias de la imagen de abajo y después marca las palabras de las cosas que cambiaron."
+  },
+  "G1-415": {
+    "title": "Imagen en espejo: busca las diferencias",
+    "instruction": "La imagen 2 está al revés, como en un espejo; encierra las 4 cosas aún diferentes, marca un cuadrito por cada una y dobla por la línea para revisar."
+  },
+  "K-399": {
+    "title": "¿Qué falta en la imagen de abajo?",
+    "instruction": "Encierra en un círculo los 3 lugares vacíos de la imagen de abajo donde falta algo de la imagen de arriba y marca un cuadrito por cada uno."
+  },
+  "K-400": {
+    "title": "Parejas de imágenes: busca la diferencia",
+    "instruction": "Cada fila muestra el mismo pedacito dos veces; encierra en un círculo lo que cambió en la imagen de la derecha y marca el cuadrito de esa fila."
+  },
+  "G2-389": {
+    "title": "Encuentra y escribe las diferencias",
+    "instruction": "Encierra en un círculo las 4 diferencias y luego escribe una oración sobre cada una en los renglones, usando las palabras de las dos tiras."
+  },
+  "K-401": {
+    "title": "Dibuja {L} con figuras simples",
+    "instruction": "Repasa las figuras punteadas que ya están en el papel, dibuja el contorno del perro alrededor de ellas y termínalo siguiendo los pasos."
+  },
+  "K-402": {
+    "title": "Calca y luego dibuja {L}",
+    "instruction": "Calca el conejo gris con tu lápiz y luego dibuja el conejo tú solo en el recuadro vacío de al lado."
+  },
+  "K-403": {
+    "title": "Completa el dibujo de {L}",
+    "instruction": "Mira el caballo completo, dibuja las líneas que le faltan al segundo caballo y luego dibuja tu propio caballo en el recuadro de abajo."
+  },
+  "G1-416": {
+    "title": "Dibuja {L} en cuadrícula",
+    "instruction": "Mira el dinosaurio en la cuadrícula y dibújalo en la cuadrícula vacía, cuadro por cuadro; luego dibújalo otra vez sin cuadrícula."
+  },
+  "K-404": {
+    "title": "Dibuja {L} y escribe la palabra",
+    "instruction": "Sigue los pasos para dibujar el pez en el papel, luego repasa la palabra de abajo y escríbela una vez más."
+  },
+  "G1-417": {
+    "title": "Dibuja {L} en el estanque",
+    "instruction": "Sigue los pasos y luego dibuja la rana dentro de la escena, en el lugar vacío que hay sobre el estanque."
+  },
+  "G1-418": {
+    "title": "Ordena los pasos: dibujar {L}",
+    "instruction": "Los pasos están revueltos: escribe del 1 al 5 en los cuadros de al lado, en el orden correcto, y luego dibuja el búho en el papel."
+  },
+  "G1-419": {
+    "title": "Copia cada paso: dibuja {L}",
+    "instruction": "Dibuja lo que ves en cada paso en el recuadro de abajo, agregando cada vez las líneas nuevas, y al final el colibrí completo en el papel grande."
+  },
+  "G2-390": {
+    "title": "Dibuja {L} y escribe sobre tu dibujo",
+    "instruction": "Dibuja el oso siguiendo los pasos y luego escribe tres oraciones sobre tu oso en los renglones, empezando con las palabras impresas."
+  },
+  "G2-391": {
+    "title": "Dibuja {L} de memoria",
+    "instruction": "Mira la mariposa, dobla la hoja hacia atrás por la línea punteada para que ya no la veas y dibújala de memoria en el papel grande."
   }
 }

@@ -96,7 +96,20 @@ function composeAll(plan, rng) {
     const refusedOps = new Set((rec.REFUSED_OPS || {})[p.unit] || []);
     let cands = scene.cands.filter((c, i) => !refusedOps.has(i));
     if (plan.excludeSrcs && used.size) cands = cands.filter((c) => !used.has(srcOfCand(scene, c)));
-    if (plan.mode === 'write') { const keys = new Set(scene.items.map((l) => B.vocabKeyOf(l.src))); cands = cands.filter((c) => !(c.kind === 'add' && keys.has(B.vocabKeyOf(c.src)))); }
+    if (B.WORD_MODES.includes(plan.mode)) {
+      // the word faces: (1) an add / swap never brings in a key (or a key's family) the picture already holds — a second
+      // tulip makes 'the tulip is new' name two things; (2) the GENERIC member of a family with two members in the picture
+      // (the 'flower' beside a tulip, the 'bird' beside a hummingbird) is never changed and (wordsFor) never listed — a
+      // child who ticks 'flower' for a changed tulip is right by their own reading (the es + pt panels, 2026-10-09)
+      const keyOf = (idx) => { const l = scene.items.find((x) => x.idx === idx); return l ? B.vocabKeyOf(l.src) : null; };
+      const fams = new Set(scene.items.map((l) => B.wordFamily(B.vocabKeyOf(l.src))));
+      const clash = B.clashKeys(scene.items.map((l) => B.vocabKeyOf(l.src)));
+      cands = cands.filter((c) => {
+        if ((c.kind === 'add' || c.kind === 'swap') && c.src && fams.has(B.wordFamily(B.vocabKeyOf(c.src)))) return false;
+        if (c.item != null && clash.has(keyOf(c.item))) return false;
+        return true;
+      });
+    }
     // the picture-pairs face: a change must fit its close-up window with ≥ 12 units of air on every side (the ring box = change box + 10)
     // (measured: every scene refused until the EDGE rule was added — a change touching the scene's rim can never keep its air inside a window that must itself sit 8 units inside the frame)
     if (plan.window) cands = cands.filter((c) => { const b = c.diff || c.bbox; return b[2] - b[0] + 20 <= plan.window[0] - 24 && b[3] - b[1] + 20 <= plan.window[1] - 24 && b[0] - 10 >= 20 && b[1] - 10 >= 20 && b[2] + 10 <= W - 20 && b[3] + 10 <= H - 20; });
@@ -402,15 +415,20 @@ function wordsFor(panel, loc, rng) {
   const v = vocab();
   const changed = new Set(panel.ops.map((c) => c.item));
   const byKey = new Map();
+  const clash = B.clashKeys(panel.scene.items.map((l) => B.vocabKeyOf(l.src)));
   for (const l of panel.scene.items) {
     const k = B.vocabKeyOf(l.src);
+    if (clash.has(k)) { if (changed.has(l.idx)) throw new Error(`K-395: a clashing word (${k}) was changed — composeAll must refuse it`); continue; }
     const e = v[k];
     if (!e || !e[loc] || !e[loc][0]) throw new Error(`K-395: no ${loc} vocab for "${k}" (${l.src}) — refuse the scene for this locale`);
     const cur = byKey.get(k) || { k, text: displayWord(e[loc][0], loc), changed: false };
     if (changed.has(l.idx)) cur.changed = true;
     byKey.set(k, cur);
   }
-  return rng.shuffle([...byKey.values()]);
+  const all = [...byKey.values()];
+  const hit = all.filter((x) => x.changed), rest = rng.shuffle(all.filter((x) => !x.changed));
+  // capped: every changed noun + decoys up to B.WORD_CAP (a rich scene's 7-8 nouns would be a list, not a bank)
+  return rng.shuffle(hit.concat(rest.slice(0, Math.max(0, B.WORD_CAP - hit.length))));
 }
 
 /** the robot's oracle: re-compose from the seed + plan in the meta (never data-lcs-fd-diff); an item is true iff it holds a ring centre */

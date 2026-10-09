@@ -438,5 +438,13 @@
   "cursive-writing": {
     "full": "Cobrir e escrever as letras cursivas ligadas, das minúsculas às maiúsculas, das palavras às frases, relaciona a letra de forma com a cursiva e firma o traçado.",
     "short": "Letras, palavras e frases em letra cursiva."
+  },
+  "find-the-differences": {
+    "full": "A criança compara duas figuras quase iguais, percebe o que mudou e circula cada erro: um jogo de observação que desenvolve a atenção e a discriminação visual.",
+    "short": "Jogo dos erros: observar, comparar e circular"
+  },
+  "how-to-draw": {
+    "full": "A criança aprende a desenhar um animal passo a passo: primeiro o contorno, depois os detalhes, até fazer o desenho inteiro sozinha no seu próprio papel.",
+    "short": "Aprender a desenhar animais passo a passo"
   }
 }

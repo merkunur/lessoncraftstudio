@@ -171,7 +171,7 @@ async function main() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   const load = (m) => require(path.join(__dirname, '..', 'types', TYPES[m]));
-  const stackOf = () => page.evaluate(() => { const R = document.querySelector('[data-lcs-fd-count]'); const body = document.querySelector('.ws-body').getBoundingClientRect(); const low = Math.max(...[...R.querySelectorAll('*')].map((e) => e.getBoundingClientRect().bottom)); return { stack: Math.round(low - R.getBoundingClientRect().top), bodyH: Math.round(body.height), inside: low <= body.bottom + 0.5 }; });
+  const stackOf = () => page.evaluate(() => { const R = document.querySelector('[data-lcs-fd-count]'); const body = document.querySelector('.ws-body').getBoundingClientRect(); const low = Math.max(...[...R.querySelectorAll('*')].filter((e) => !(e instanceof SVGElement) || e.tagName.toLowerCase() === 'svg').map((e) => e.getBoundingClientRect().bottom)); return { stack: Math.round(low - R.getBoundingClientRect().top), bodyH: Math.round(body.height), inside: low <= body.bottom + 0.5 }; });
   const goto = async (f) => { await page.setViewport({ width: 703, height: 945, deviceScaleFactor: 1 }); await page.goto(require('url').pathToFileURL(f).href, { waitUntil: 'networkidle0' }); await page.evaluate(() => document.fonts.ready); };
   /** the screen page: the raster diff re-derived against the hotspots, per pair */
   const screenCheck = async (mode, count) => {

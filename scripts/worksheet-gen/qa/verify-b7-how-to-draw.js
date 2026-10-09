@@ -233,7 +233,7 @@ async function main() {
     {
       const fSpec = load('finish');
       const fHtml = (await fSpec.build({ difficulty: 2, locale: 'en', unit: 'farm-animals-bw-pony' }, { rng: makeRng('pr5') })).bodyHtml;
-      judge('PR5 the finish copy omitting the outline', await V(fHtml.replace(/data-lcs-omit="\d"/, 'data-lcs-omit="0"'), fSpec, 'pr5'), /copy omits the outline/);
+      judge('PR5 the finish copy omitting the outline', await V(fHtml.replace(/data-lcs-omit="[\d,]+"/, 'data-lcs-omit="0"'), fSpec, 'pr5'), /copy omits the outline/);
     }
     {
       const wSpec = load('word');

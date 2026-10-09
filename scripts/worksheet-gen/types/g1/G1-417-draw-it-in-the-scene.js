@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-417',
   slug: 'draw-it-in-the-scene',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Draw {L} at the Pond", instruction: "Follow the steps, then draw the frog back into the picture, on the empty pond where it was." } },
+  i18n: { en: { title: "Draw {L} at the Pond", instruction: "Follow the steps, then draw the frog on the empty pond in the picture." } },
   gradeBand: "G1",
 };

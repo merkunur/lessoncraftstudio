@@ -3008,5 +3008,93 @@
   "K-394": {
     "title": "Colora con i numeri: {UNIT}",
     "instruction": "Colora ogni parte con il colore del suo numero."
+  },
+  "K-395": {
+    "title": "Trova le 5 differenze: {UNIT}",
+    "instruction": "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+  },
+  "K-396": {
+    "title": "Come disegnare {L} passo dopo passo",
+    "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee arancioni dei passaggi successivi."
+  },
+  "K-397": {
+    "title": "Trova le 3 grandi differenze: {UNIT}",
+    "instruction": "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+  },
+  "K-398": {
+    "title": "Gioco delle differenze a colori",
+    "instruction": "Cerchia le 5 cose diverse nell'immagine colorata in basso e metti una crocetta per ognuna: almeno una ha cambiato colore."
+  },
+  "G1-412": {
+    "title": "Trova le 7 differenze allo stagno",
+    "instruction": "Cerchia le 7 differenze, 4 nella coppia di immagini a sinistra e 3 in quella a destra, e metti una crocetta per ognuna."
+  },
+  "G2-388": {
+    "title": "Trova le 10 differenze in giardino: livello difficile",
+    "instruction": "Cerchia le 10 differenze, 5 in ogni coppia di immagini, e metti una crocetta sotto la coppia per ogni differenza che trovi."
+  },
+  "G1-413": {
+    "title": "Quante differenze ci sono? Conta e scrivi",
+    "instruction": "Cerchia tutte le differenze che trovi nell'immagine in basso, poi scrivi nel riquadro quante ne hai trovate."
+  },
+  "G1-414": {
+    "title": "Che cosa è cambiato? Segna le parole giuste",
+    "instruction": "Cerchia le 3 differenze nell'immagine in basso, poi metti una crocetta accanto alle parole delle cose che sono cambiate."
+  },
+  "G1-415": {
+    "title": "Differenze allo specchio: piega e controlla",
+    "instruction": "L'immagine 2 è come riflessa in uno specchio: cerchia le 4 cose ancora diverse, metti una crocetta per ognuna, poi piega sulla linea e controlla."
+  },
+  "K-399": {
+    "title": "Che cosa manca? Cerchia il posto vuoto",
+    "instruction": "Cerchia i 3 posti vuoti nell'immagine in basso dove manca qualcosa dell'immagine in alto e metti una crocetta per ognuno."
+  },
+  "K-400": {
+    "title": "Coppie di immagini: trova la differenza",
+    "instruction": "Ogni riga mostra lo stesso particolare due volte: cerchia l'unica cosa diversa nell'immagine a destra e metti una crocetta nella casella."
+  },
+  "G2-389": {
+    "title": "Trova e descrivi le differenze",
+    "instruction": "Cerchia le 3 differenze, poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+  },
+  "K-401": {
+    "title": "Disegna {L} partendo da forme semplici",
+    "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi disegna intorno il contorno del cane e completalo seguendo i passaggi."
+  },
+  "K-402": {
+    "title": "Disegno guidato: ripassa e poi disegna {L}",
+    "instruction": "Ripassa con la matita il coniglio grigio, poi disegna il coniglio da solo nel riquadro vuoto accanto."
+  },
+  "K-403": {
+    "title": "Completa il disegno di {L}",
+    "instruction": "Guarda il cavallo completo, disegna le linee che mancano sul secondo cavallo, poi disegna un cavallo tutto tuo nel riquadro in basso."
+  },
+  "G1-416": {
+    "title": "Disegna {L} con la griglia",
+    "instruction": "Guarda il dinosauro sulla griglia e disegnalo nella griglia vuota un quadrato alla volta, poi ancora una volta senza griglia."
+  },
+  "K-404": {
+    "title": "Disegna {L} e scrivi la parola",
+    "instruction": "Segui i passaggi per disegnare il pesce nel riquadro, poi ripassa la parola scritta sotto e scrivila ancora una volta."
+  },
+  "G1-417": {
+    "title": "Disegna {L} nello stagno",
+    "instruction": "Segui i passaggi, poi disegna la rana nell'immagine, nel posto vuoto sullo stagno."
+  },
+  "G1-418": {
+    "title": "Metti in ordine i passaggi: disegna {L}",
+    "instruction": "I passaggi sono in disordine: scrivi da 1 a 5 nelle caselle accanto per rimetterli in ordine, poi disegna il gufo."
+  },
+  "G1-419": {
+    "title": "Copia ogni passaggio: disegna {L}",
+    "instruction": "Disegna quello che vedi in ogni passaggio nel riquadro sotto, aggiungendo ogni volta le linee arancioni, poi tutto l'uccello nel riquadro grande."
+  },
+  "G2-390": {
+    "title": "Disegna {L} e poi scrivi tre frasi",
+    "instruction": "Disegna l'orso seguendo i passaggi, poi scrivi tre frasi sul tuo orso sulle righe, cominciando dalle parole già stampate."
+  },
+  "G2-391": {
+    "title": "Disegna {L} a memoria",
+    "instruction": "Guarda bene la farfalla, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande."
   }
 }

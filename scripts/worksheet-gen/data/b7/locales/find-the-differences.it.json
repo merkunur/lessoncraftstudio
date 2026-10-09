@@ -1,0 +1,81 @@
+{
+  "starter": "Nell'immagine 2,",
+  "changeWords": [
+    "manca",
+    "c'è in più",
+    "è più grande",
+    "è più piccolo",
+    "ha cambiato posto",
+    "guarda dall'altra parte",
+    "non è più uguale"
+  ],
+  "strandNames": {
+    "Visual Perception": "Percezione visiva"
+  },
+  "rail": {
+    "slug": "gioco-delle-differenze",
+    "name": "Gioco delle differenze"
+  },
+  "strings": {
+    "base": {
+      "title": "Trova le 5 differenze: {UNIT}",
+      "instruction": "Confronta l'immagine 1 con l'immagine 2 qui sotto, cerchia le 5 cose che sono diverse e metti una crocetta nella casella per ognuna."
+    },
+    "three-big": {
+      "title": "Trova le 3 grandi differenze: {UNIT}",
+      "instruction": "Guarda bene l'immagine in alto, cerchia le 3 grandi differenze nell'immagine in basso e metti una crocetta nelle 3 caselle."
+    },
+    "colour": {
+      "title": "Gioco delle differenze a colori",
+      "instruction": "Cerchia le 5 cose diverse nell'immagine colorata in basso e metti una crocetta per ognuna: almeno una ha cambiato colore."
+    },
+    "seven": {
+      "title": "Trova le 7 differenze allo stagno",
+      "instruction": "Cerchia le 7 differenze, 4 nella coppia di immagini a sinistra e 3 in quella a destra, e metti una crocetta per ognuna."
+    },
+    "ten-pairs": {
+      "title": "Trova le 10 differenze in giardino: livello difficile",
+      "instruction": "Cerchia le 10 differenze, 5 in ogni coppia di immagini, e metti una crocetta sotto la coppia per ogni differenza che trovi."
+    },
+    "how-many": {
+      "title": "Quante differenze ci sono? Conta e scrivi",
+      "instruction": "Cerchia tutte le differenze che trovi nell'immagine in basso, poi scrivi nel riquadro quante ne hai trovate."
+    },
+    "what-changed": {
+      "title": "Che cosa è cambiato? Segna le parole giuste",
+      "instruction": "Cerchia le 3 differenze nell'immagine in basso, poi metti una crocetta accanto alle parole delle cose che sono cambiate."
+    },
+    "mirror-pair": {
+      "title": "Differenze allo specchio: piega e controlla",
+      "instruction": "L'immagine 2 è come riflessa in uno specchio: cerchia le 4 cose ancora diverse, metti una crocetta per ognuna, poi piega sulla linea e controlla."
+    },
+    "missing": {
+      "title": "Che cosa manca? Cerchia il posto vuoto",
+      "instruction": "Cerchia i 3 posti vuoti nell'immagine in basso dove manca qualcosa dell'immagine in alto e metti una crocetta per ognuno."
+    },
+    "pairs": {
+      "title": "Coppie di immagini: trova la differenza",
+      "instruction": "Ogni riga mostra lo stesso particolare due volte: cerchia l'unica cosa diversa nell'immagine a destra e metti una crocetta nella casella."
+    },
+    "write": {
+      "title": "Trova e descrivi le differenze",
+      "instruction": "Cerchia le 3 differenze, poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+    }
+  },
+  "tap": {
+    "fd-tap": "Guarda l'immagine in alto, poi tocca ogni punto dell'immagine in basso che è diverso.",
+    "fd-tapCount": "Trova tutte le differenze nell'immagine in basso, poi tocca il numero che dice quante sono.",
+    "fd-tapMirror": "L'immagine in basso è come riflessa in uno specchio. Tocca ogni punto che è ancora diverso.",
+    "fd-tapMissing": "Tocca ogni posto vuoto dell'immagine in basso dove manca qualcosa dell'immagine in alto.",
+    "fd-tapPairs": "Ogni coppia mostra lo stesso particolare due volte. Tocca l'unica cosa diversa nella seconda immagine di ogni coppia.",
+    "fd-tapWords": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate."
+  },
+  "numberWords": {
+    "3": "tre",
+    "5": "cinque",
+    "7": "sette",
+    "10": "dieci"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

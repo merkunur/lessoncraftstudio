@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-419',
   slug: 'copy-each-step',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Copy Each Step: Draw {L}", instruction: "Draw what you see in each step in the box under it, adding the orange lines as you go, then the whole bird below." } },
+  i18n: { en: { title: "Copy Each Step: Draw {L}", instruction: "Draw what you see in each step in the box under it, adding the new lines as you go, then the whole bird, bigger, on the paper below." } },
   gradeBand: "G1",
 };

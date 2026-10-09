@@ -4,12 +4,12 @@ const base = require('../k/K-395-find-the-differences.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"how-many","countRange":[3,6],"unit":"house-rich","layout":"stack","floor":"G1","kinds":"line-all","heroProb":0.5,"minSepPx":31,"box":{"w":88,"h":64}} };
+const D = { ...base.difficulty[2], ...{"mode":"how-many","countRange":[3,6],"unit":"garden-bird-rich","layout":"stack","floor":"G1","kinds":["remove","add","swap","mirror","scale","move"],"heroProb":0.5,"minSepPx":31,"box":{"w":88,"h":64}} };
 module.exports = {
   ...base,
   id: 'G1-413',
   slug: 'how-many-differences',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "How Many Differences?", instruction: "Circle every difference you find in the bottom picture, then write how many you found in the box." } },
+  i18n: { en: { title: "How Many Differences?", instruction: "Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box." } },
   gradeBand: "G1",
 };

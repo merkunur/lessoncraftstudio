@@ -39,10 +39,10 @@ const KINDS = {
 };
 /** the pinned unit per face (PROVISIONAL: re-measured on the rebuilt rich copies, FINAL §2 Risks); a pair = [A, B] of one theme */
 const UNITS = {
-  base: 'garden-dog-rich', 'three-big': 'pond-goose', colour: 'pond-frog-rich',
+  base: 'garden-dog-rich', 'three-big': 'beach-bucket-rich', colour: 'pond-frog-rich',
   seven: ['pond-turtle-rich', 'pond-alligator-rich'], 'ten-pairs': ['kite-rich', 'ladybug-rich'],   // re-pinned 2026-10-09: the beach pair refuses 5 at the G2 floor on the rebuilt data; hero waived (see the row)
-  'how-many': 'house-rich',
-  'what-changed': 'kangaroo-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
+  'how-many': 'garden-bird-rich',
+  'what-changed': 'ostrich-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
   'mirror-pair': 'forest-fox-rich', 'mirror-pair': 'forest-fox-rich',
   missing: 'night-owl-rich',   // re-pinned 2026-10-09: farm-rooster-rich's removable props never fall in one quadrant (33/33/0/33) on the rebuilt data
   pairs: 'garden-ladybug-rich',   // re-pinned 2026-10-09: the ONLY unit in band once the window placer existed (10 of 388 compose, 1 in band); the FINAL's first-to-cut face, kept on its measured pool
@@ -78,16 +78,16 @@ const FIND_THE_DIFFERENCES = {
       colour: { title: 'Find the Differences in Color', instruction: 'Circle the 5 things in the colored bottom picture that are different and tick a box for each; at least one of them has a new color.' },
       seven: { title: 'Find 7 Differences at the Pond', instruction: 'Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each.' },
       'ten-pairs': { title: 'Find 10 Differences in the Garden', instruction: 'Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find.' },
-      'how-many': { title: 'How Many Differences?', instruction: 'Circle every difference you find in the bottom picture, then write how many you found in the box.' },
+      'how-many': { title: 'How Many Differences?', instruction: 'Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box.' },
       'what-changed': { title: 'What Changed? Tick the Words', instruction: 'Circle the 3 differences in the bottom picture, then tick the words of the things that changed.' },
-      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things that are still different, tick a box for each, then fold on the line to check.' },
+      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check.' },
       missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each.' },
-      pairs: { title: 'Picture Pairs: Find the Differences', instruction: 'Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row.' },
-      write: { title: 'Write What Is Different', instruction: 'Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips.' },
+      pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row.' },
+      write: { title: 'Write What Is Different', instruction: 'Circle the 3 differences, then write one sentence about each one on the lines, using the words in the two strips.' },
     },
     tap: {
       'fd-tap': 'Look at the top picture, then tap every place in the bottom picture that is different.',
-      'fd-tapCount': 'Find every difference in the bottom picture, then tap the number that says how many there are.',
+      'fd-tapCount': 'Find every difference in the bottom picture (some things may be gone), then tap the number that says how many there are.',
       'fd-tapMirror': 'The bottom picture is flipped like a mirror. Tap every place in it that is still different.',
       'fd-tapMissing': 'Tap every empty place in the bottom picture where something from the top picture is missing.',
       'fd-tapPairs': 'Each pair shows the same close-up twice. Tap the one place that is different in the second picture of every pair.',
@@ -118,7 +118,7 @@ function clashKeys(keys) {
   for (const [f, ks] of byFam) if (ks.size >= 2 && ks.has(f)) out.add(f);
   return out;
 }
-const COUNT_OF = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10, 'what-changed': 3, 'mirror-pair': 4, missing: 3, pairs: 3, write: 4 };
+const COUNT_OF = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10, 'what-changed': 3, 'mirror-pair': 4, missing: 3, pairs: 3, write: 3 };
 const TAP_KEY = { base: 'fd-tap', 'three-big': 'fd-tap', colour: 'fd-tap', seven: 'fd-tap', 'ten-pairs': 'fd-tap', 'how-many': 'fd-tapCount', 'what-changed': 'fd-tapWords', 'mirror-pair': 'fd-tapMirror', missing: 'fd-tapMissing', pairs: 'fd-tapPairs', write: 'fd-tap' };
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv|atividade|printable/iu;
 const KEY_PROMISE = /answer key|with answers|mit lösung|con soluciones|com gabarito|avec corrigé|con soluzioni|met antwoorden|med facit|med svar|vastauksin|online|interactive/iu;

@@ -1,0 +1,81 @@
+{
+  "starter": "Op plaatje 2 is",
+  "changeWords": [
+    "weg",
+    "nieuw",
+    "groter",
+    "kleiner",
+    "verplaatst",
+    "omgedraaid",
+    "veranderd"
+  ],
+  "strandNames": {
+    "Visual Perception": "Visuele waarneming"
+  },
+  "rail": {
+    "slug": "verschillen-zoeken",
+    "name": "Verschillen zoeken"
+  },
+  "strings": {
+    "base": {
+      "title": "Zoek de 5 verschillen: {UNIT}",
+      "instruction": "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+    },
+    "three-big": {
+      "title": "Zoek de 3 verschillen: {UNIT}",
+      "instruction": "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+    },
+    "colour": {
+      "title": "Verschillen zoeken in kleur",
+      "instruction": "Omcirkel in het onderste, gekleurde plaatje de 5 dingen die anders zijn en zet voor elk een vinkje in een vakje; let ook goed op de kleuren."
+    },
+    "seven": {
+      "title": "Zoek de 7 verschillen bij de vijver",
+      "instruction": "Omcirkel de 7 verschillen, 4 in het linkerpaar plaatjes en 3 in het rechterpaar, en zet voor elk verschil een vinkje in een vakje eronder."
+    },
+    "ten-pairs": {
+      "title": "Zoek de 10 verschillen in de tuin: moeilijk",
+      "instruction": "Omcirkel de 10 verschillen, 5 in elk paar plaatjes, en zet onder dat paar voor elk verschil dat je vindt een vinkje in een vakje."
+    },
+    "how-many": {
+      "title": "Hoeveel verschillen zijn er?",
+      "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt en schrijf dan in het vakje hoeveel verschillen je hebt gevonden."
+    },
+    "what-changed": {
+      "title": "Wat is er veranderd? Vink de woorden aan",
+      "instruction": "Omcirkel de 3 verschillen in het onderste plaatje en zet dan een vinkje bij de woorden van de dingen die veranderd zijn."
+    },
+    "mirror-pair": {
+      "title": "Spiegelbeeld: verschillen zoeken en vouwen",
+      "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen die toch anders zijn, zet voor elk een vinkje in een vakje en vouw dan op de lijn om na te kijken."
+    },
+    "missing": {
+      "title": "Wat ontbreekt er in het plaatje?",
+      "instruction": "Omcirkel in het onderste plaatje de 3 lege plekken waar iets uit het bovenste plaatje weg is, en zet voor elk een vinkje in een vakje."
+    },
+    "pairs": {
+      "title": "Plaatjesparen: zoek het verschil",
+      "instruction": "Elke rij laat twee keer hetzelfde stukje zien; omcirkel in het rechterplaatje de ene plek die anders is en zet een vinkje in het vakje van die rij."
+    },
+    "write": {
+      "title": "Schrijf op wat er anders is",
+      "instruction": "Omcirkel de 3 verschillen en schrijf dan over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
+    }
+  },
+  "tap": {
+    "fd-tap": "Kijk goed naar het bovenste plaatje en tik dan in het onderste plaatje op elke plek die anders is.",
+    "fd-tapCount": "Zoek elk verschil in het onderste plaatje en tik dan op het getal dat zegt hoeveel verschillen er zijn.",
+    "fd-tapMissing": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
+    "fd-tapMirror": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
+    "fd-tapPairs": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
+    "fd-tapWords": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn."
+  },
+  "numberWords": {
+    "3": "drie",
+    "5": "vijf",
+    "7": "zeven",
+    "10": "tien"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

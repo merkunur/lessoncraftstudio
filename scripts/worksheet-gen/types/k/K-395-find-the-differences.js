@@ -104,7 +104,10 @@ function composeAll(plan, rng) {
       const keyOf = (idx) => { const l = scene.items.find((x) => x.idx === idx); return l ? B.vocabKeyOf(l.src) : null; };
       const fams = new Set(scene.items.map((l) => B.wordFamily(B.vocabKeyOf(l.src))));
       const clash = B.clashKeys(scene.items.map((l) => B.vocabKeyOf(l.src)));
+      const cnt = {}; for (const l of scene.items) { const k = B.vocabKeyOf(l.src); cnt[k] = (cnt[k] || 0) + 1; }
       cands = cands.filter((c) => {
+        // a key drawn twice (two chicks, two clouds) may only be REMOVED: 'the bird is flipped' would name two drawings
+        if (c.item != null && cnt[keyOf(c.item)] >= 2 && c.kind !== 'remove') return false;
         if ((c.kind === 'add' || c.kind === 'swap') && c.src && fams.has(B.wordFamily(B.vocabKeyOf(c.src)))) return false;
         if (c.item != null && clash.has(keyOf(c.item))) return false;
         return true;
@@ -114,7 +117,15 @@ function composeAll(plan, rng) {
     // (measured: every scene refused until the EDGE rule was added — a change touching the scene's rim can never keep its air inside a window that must itself sit 8 units inside the frame)
     if (plan.window) cands = cands.filter((c) => { const b = c.diff || c.bbox; return b[2] - b[0] + 20 <= plan.window[0] - 24 && b[3] - b[1] + 20 <= plan.window[1] - 24 && b[0] - 10 >= 20 && b[1] - 10 >= 20 && b[2] + 10 <= W - 20 && b[3] + 10 <= H - 20; });
     scene = { ...scene, cands };
-    const r = pickOps(scene, p.cfg, rng);
+    // a secret-count face (countRange): when the drawn count cannot be placed on this scene the count steps DOWN to
+    // the range floor — the page shows exactly what it holds and the child counts it (garden-bird-rich placed 6 on
+    // 399/400 seeds; the oracle replays the same loop, so the two agree)
+    let r;
+    if (plan.countRange) {
+      let n = p.cfg.n, err;
+      for (; n >= plan.countRange[0]; n--) { try { r = pickOps(scene, { ...p.cfg, n }, rng); break; } catch (e) { err = e; } }
+      if (!r) throw err;
+    } else r = pickOps(scene, p.cfg, rng);
     r.ops.forEach((c) => used.add(srcOfCand(scene, c)));
     count += r.ops.length;
     out.push({ unit: p.unit, scene, cfg: p.cfg, ops: r.ops, rings: r.rings, hotspots: r.hotspots, quadrants: r.quadrants });

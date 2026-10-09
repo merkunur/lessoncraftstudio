@@ -1,8 +1,8 @@
 {
-  "id": "wave-b7var-en",
+  "id": "wave-b7var-fr",
   "seedEpoch": 1,
   "locales": [
-    "en"
+    "fr"
   ],
   "themes": [
     "animals"
@@ -35,7 +35,7 @@
   ],
   "themeOverrides": {},
   "unitOverrides": {
-    "K-397": "beach-bucket-rich",
+    "K-397": "farm-horse-rich",
     "K-398": "pond-frog-rich",
     "K-399": "night-owl-rich",
     "K-400": "garden-ladybug-rich",

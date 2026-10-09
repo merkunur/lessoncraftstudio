@@ -4762,14 +4762,18 @@
           "de": "fehlersuchbilder",
           "fr": "jeu-des-differences",
           "es": "busca-las-diferencias",
-          "pt": "jogo-das-diferencas"
+          "pt": "jogo-das-diferencas",
+          "it": "gioco-delle-differenze",
+          "nl": "verschillen-zoeken"
         },
         "name": {
           "en": "Find the Differences",
           "de": "Fehlersuchbilder",
           "fr": "Jeu des différences",
           "es": "Busca las diferencias",
-          "pt": "Jogo das diferenças"
+          "pt": "Jogo das diferenças",
+          "it": "Gioco delle differenze",
+          "nl": "Verschillen zoeken"
         }
       },
       "how-to-draw": {
@@ -4778,14 +4782,18 @@
           "de": "zeichnen-lernen",
           "fr": "apprendre-a-dessiner",
           "es": "como-dibujar",
-          "pt": "como-desenhar"
+          "pt": "como-desenhar",
+          "it": "disegno-guidato",
+          "nl": "leren-tekenen"
         },
         "name": {
           "en": "How to Draw",
           "de": "Zeichnen lernen",
           "fr": "Apprendre à dessiner",
           "es": "Cómo dibujar",
-          "pt": "Como desenhar"
+          "pt": "Como desenhar",
+          "it": "Disegno guidato",
+          "nl": "Leren tekenen"
         }
       }
     },

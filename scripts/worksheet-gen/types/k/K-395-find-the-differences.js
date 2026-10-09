@@ -75,7 +75,7 @@ function clipDecoy(box, diffs) {
  */
 function planFor(d, mode, unitArg) {
   const base = B.cfgFor(mode, d);
-  if (mode === 'seven' || mode === 'ten-pairs') {
+  if (mode === 'seven' || mode === 'ten-pairs' || (mode === 'mirror-pair' && (Array.isArray(unitArg) || d.units))) {
     const units = Array.isArray(unitArg) ? unitArg : (d.units || B.UNITS[mode]);
     return { mode, panels: units.map((u, i) => ({ unit: u, cfg: { ...base, n: d.perPair[i] } })), excludeSrcs: !!d.excludeSrcs };
   }
@@ -235,7 +235,9 @@ module.exports = {
     let wins = null;
     if (mode === 'pairs') { wins = placeWindows(comp.panels[0], d.window || [260, 200], rng); meta.cells = wins.map((w) => w.cell).join(''); }
     const ppu = comp.panels[0].cfg.pxPerUnit;
-    const pw = layout === 'stack' ? 354 : (d.panelW || 300);
+    // the stack fills the body: 2 × 358 + 12 = 728 of the 733 px the tallest shipped chrome leaves (operator 2026-10-10: 'a big
+    // blank area at the bottom'); the side-by-side faces stay width-bound at 300
+    const pw = layout === 'stack' ? (d.panelW || 384) : (d.panelW || 300);
     const ph = Math.round(pw * H / W);
     const ringOpts = key ? { rings: true, ringHalo: true, ringIndex: true } : {};
     const pic = (p, i, n, extra = {}) => panelSvg(p, { width: pw, clipId: `fdclip${i}${n}`, attrs: ` data-lcs-fd-panel="${n}" data-lcs-fd-pair="${i}"`, ops: n === 2, ...(n === 2 && key ? { rings: p.rings, ringHalo: true, ringIndex: true } : {}), ...extra });
@@ -296,7 +298,7 @@ module.exports = {
         rightW = (d.box && d.box.w) || 88;
         right = `<div style="padding-top:${ph + 12}px">${C7.fdCountBox({ w: rightW, h: (d.box && d.box.h) || 64, answer: key ? String(count) : '' })}</div>`;
       } else if (mode === 'what-changed') {
-        rightW = 273;
+        rightW = 232;   // the word column narrowed so the 384-wide stack fits beside it (the longest shipped word, nl lieveheersbeestje, needs ~165)
         const words = wordsFor(p, loc, rng);
         right = C7.fdWordTicks({ words, box: d.box || 28, w: rightW, ticks: key ? words.map((x) => (x.changed ? 1 : 0)) : null, stamp: key });
       } else {
@@ -308,20 +310,29 @@ module.exports = {
       const cols = comp.panels.map((p, i) => {
         const p1 = C7.fdPicture({ svg: pic(p, i, 1), w: pw, h: ph, tab: 1 });
         const p2 = C7.fdPicture({ svg: pic(p, i, 2), w: pw, h: ph, tab: 2 });
-        const led = C7.fdLedger({ n: p.ops.length, box: (d.ledger && d.ledger.box) || 48, orient: 'row', ticks: key ? Array(p.ops.length).fill(1) : null, attrs: `data-lcs-fd-pair="${i}"` });
+        const led = C7.fdLedger({ n: p.ops.length, box: (d.ledger && d.ledger.box) || 60, orient: 'row', ticks: key ? Array(p.ops.length).fill(1) : null, attrs: `data-lcs-fd-pair="${i}"` });
         return `<div style="display:flex;flex-direction:column;align-items:center;gap:10px">${C7.fdStack({ p1, p2 })}${led}</div>`;
       });
-      body = `<div style="display:flex;justify-content:center;gap:40px;width:${PAGE_W}px;padding-right:34px;box-sizing:border-box">${cols.join('')}</div>`;
+      body = `<div style="display:flex;justify-content:center;gap:16px;width:${PAGE_W}px;box-sizing:border-box">${cols.join('')}</div>`;
     } else if (layout === 'side') {
-      const p = comp.panels[0];
       const flip = !!d.flip;
-      const p1 = C7.fdPicture({ svg: pic(p, 0, 1), w: pw, h: ph, tab: 1, tabSide: 'left' });
-      const p2 = C7.fdPicture({ svg: pic(p, 0, 2, { flip }), w: pw, h: ph, tab: 2 });
       const midW = PAGE_W - 60 - 2 * pw;   // 15 at 300-wide pictures
-      const foldH = ph + 40;
-      const mid = d.fold ? `<span style="width:${midW}px;flex:0 0 ${midW}px;display:flex;justify-content:center;margin-top:-20px">${C7.fdFoldLine({ h: foldH, x: PAGE_W / 2, w: midW })}</span>` : `<span style="width:${midW}px;flex:0 0 ${midW}px"></span>`;
-      const row = `<div style="display:flex;align-items:flex-start;justify-content:center;width:${PAGE_W}px">` +
-        `<span style="width:30px;flex:0 0 30px"></span>${p1}${mid}${p2}<span style="width:30px;flex:0 0 30px"></span></div>`;
+      // one row per panel. The mirror face carries TWO scenes of two differences each: a single side-by-side pair stopped at
+      // 57 % of the page (operator 2026-10-10); one fold line runs down the whole stack (drawn once, from the first row,
+      // in a zero-height box so it never adds to the row's height)
+      const rows = comp.panels.length, rowGap = d.rowGap || 14;
+      const rowOf = (p, i) => {
+        const p1 = C7.fdPicture({ svg: pic(p, i, 1), w: pw, h: ph, tab: i === 0 ? 1 : null, tabSide: 'left' });
+        const p2 = C7.fdPicture({ svg: pic(p, i, 2, { flip }), w: pw, h: ph, tab: i === 0 ? 2 : null });
+        const foldH = rows * ph + (rows - 1) * rowGap + 40;
+        const mid = d.fold && i === 0
+          ? `<span style="width:${midW}px;flex:0 0 ${midW}px;height:0;display:block;overflow:visible;margin-top:-20px;position:relative">${C7.fdFoldLine({ h: foldH, x: PAGE_W / 2, w: midW })}</span>`
+          : `<span style="width:${midW}px;flex:0 0 ${midW}px"></span>`;
+        return `<div style="display:flex;align-items:flex-start;justify-content:center;width:${PAGE_W}px" data-lcs-fd-siderow="${i}">` +
+          `<span style="width:30px;flex:0 0 30px"></span>${p1}${mid}${p2}<span style="width:30px;flex:0 0 30px"></span></div>`;
+      };
+      const row = comp.panels.map(rowOf).join(`<div style="height:${rowGap}px"></div>`);
+      const p = comp.panels[0];
       if (mode === 'write') {
         const nouns = wordsFor(p, loc, rng).map((x) => x.text);
         const change = rng.shuffle(blk.changeWords.slice());

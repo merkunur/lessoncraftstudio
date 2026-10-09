@@ -21,6 +21,11 @@ const fs = require('fs');
 const path = require('path');
 
 const LANE_PAD_Y = 2;             // the lane's vertical padding (the default 12 px would push a 660 stack past the 677 fi budget)
+// the body budgets (operator 2026-10-10: 'a big blank area at the bottom of the page'): measured in the browser over all 242 shipped
+// print pages, the shell body runs from the instruction to the footer rule — 766 px with a 1-2-line title and a 1-2-line instruction,
+// 733 px at the tallest shipped chrome (a 2-line title + a 3-line instruction, fi / pt). The ladder faces (a fixed-height lane) take
+// 728, the strip faces (a strip + a paper that grows) 740; a 3-line TITLE overflows and the render QA refuses the deck — shorten it.
+const BODY_LADDER = 728, BODY_STRIP = 740;
 const LANE_W = 639;               // .ws-lane inner width at the default horizontal padding
 const COLOR = require('../../primitives/_tokens.js').color;
 const TRACE_GREY = '#CBCBCB';   // the trace fill: a neutral light grey (K-402 says "the grey rabbit")
@@ -36,7 +41,7 @@ const D = {
 function block(locale) { return bank('how-to-draw', String(locale || 'en').slice(0, 2)); }
 function ratioOf(S) { const vb = Hd.panelBox(S, { viewBox: 'bbox' }); return vb[2] / vb[3]; }
 /** a paper of width w (or height h) at the drawing's own ratio, never taller than maxH */
-function paperSize(S, { w, h, maxH = 660, maxW = LANE_W }) {
+function paperSize(S, { w, h, maxH = BODY_STRIP, maxW = LANE_W }) {
   const r = ratioOf(S);
   let W = w, H = h;
   if (W && !H) H = Math.round(W / r);
@@ -85,9 +90,10 @@ module.exports = {
 
     if (mode === 'base' || mode === 'shapes' || mode === 'word' || mode === 'write') {
       // THE LADDER faces: cards down the rail, the paper (+ a lane or ruled rows) in the right column
-      const cardPx = d.cardPx || (mode === 'write' ? 118 : 150);
+      const H = d.bodyH || BODY_LADDER;
+      // the cards grow with the lane: 4 steps at 728 = 168 px cards (was 150 at 660); the write face keeps a narrower ladder for its rows
+      const cardPx = d.cardPx || Math.min(mode === 'write' ? 140 : 172, Math.floor((H - 20 - (n - 1) * 12) / n));
       const outer = cardPx + 6;
-      const H = 660;
       const colW = LANE_W - 16 - outer - 18;
       let right;
       if (mode === 'word') {
@@ -124,7 +130,7 @@ module.exports = {
       const row = d.rail === 'right' ? right + `<div style="width:18px;flex:0 0 18px"></div>` + ladderHtml : ladderHtml + `<div style="width:18px;flex:0 0 18px"></div>` + right;
       body = lane(`<div style="display:flex;align-items:flex-start;width:${LANE_W}px;height:${H}px">${row}</div>`);
     } else if (mode === 'order') {
-      const cardPx = d.cardPx || 118, outer = cardPx + 6, H = 660;
+      const H = d.bodyH || BODY_LADDER, cardPx = d.cardPx || Math.min(140, Math.floor((H - 20 - (n - 1) * 12) / n)), outer = cardPx + 6;
       const table = n === 5 ? B.COMMON.SCRAMBLE5 : B.COMMON.SCRAMBLE4;
       if ((n === 5 && d.scramble !== 'SCRAMBLE5') || (n === 4 && d.scramble !== 'SCRAMBLE4')) throw new Error(`K-396 order: ${unitSlug} has ${n} steps but the face asks ${d.scramble}`);
       const perm = B.drawScramble(table, rng);              // slot → step number
@@ -141,7 +147,9 @@ module.exports = {
       const strip = C7.htdStrip({ S, cardPx, badges: true, gap: 12, width: LANE_W });
       const stripH = 16 + cardPx + 6 + 6;
       const tw = d.twinW || 300;
-      const t = paperSize(S, { w: tw, maxH: 669 - stripH - 10 });
+      // the twin boxes take the lane's HEIGHT (a box taller than the drawing centres it with air): width-bound at 300 the pair
+      // stopped at 84 % of the page
+      const t = { w: tw, h: BODY_STRIP - stripH - 10 - 6 };
       const fill = d.traceFill === 'creamDeep' ? COLOR.creamDeep : TRACE_GREY;   // the instruction says GREY — COLOR.grid (#C8BFAE) printed beige
       const traceCard = C7.htdFullCard({ S, w: t.w - 6, h: t.h - 6, fill, frame: 'pencil', attrs: 'data-lcs-htd-trace="1"' });
       const twin = d.twin === false ? traceCard : C7.htdTwin({ left: traceCard, right: C7.htdPaper({ w: t.w, h: t.h, role: 'twin' }), gap: LANE_W - 2 * t.w > 20 ? LANE_W - 2 * t.w : 20 });
@@ -168,7 +176,7 @@ module.exports = {
       let paper = '';
       // the stack: lane 4 + rail 16 + 6 + the pair (ph + 6) + 12 + the paper ≤ 677 (FINAL §3 F3: the recorded 296 / 283 fallback applies, the card measures 4 px taller than designed)
       // a full card renders ph + 10 tall (measured: frame + badge seat)
-      if (d.paper) { const pp = paperSize(S, { w: d.paper.w, maxH: 677 - 4 - 16 - 6 - (ph + 10) - 12 }); paper = `<div style="margin-top:12px">${C7.htdPaper({ w: pp.w, h: pp.h, role: 'secondary' })}</div>`; }
+      if (d.paper) { const pp = paperSize(S, { h: BODY_STRIP - 4 - 16 - 6 - (ph + 10) - 12 - 12, maxW: LANE_W, maxH: BODY_STRIP }); paper = `<div style="margin-top:12px">${C7.htdPaper({ w: pp.w, h: pp.h, role: 'secondary' })}</div>`; }
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:0;width:${LANE_W}px">${stripRail}${pair}${paper}</div>`);
       meta.omit = omits.join(',');
     } else if (mode === 'grid') {
@@ -177,7 +185,7 @@ module.exports = {
       const g2 = C7.htdGrid({ cells, cellPx, frame: 'pencil', model: null, labels: !!d.labels, attrs: 'data-lcs-htd-gridrole="target"' });
       const gsize = cells * cellPx + 4 + (d.labels ? 22 : 0);
       const grids = `<div style="display:flex;gap:${LANE_W - 2 * gsize}px;justify-content:center;width:${LANE_W}px">${g1}${g2}</div>`;
-      const pp = paperSize(S, { h: (d.paper && d.paper.h) || 350, maxW: LANE_W, maxH: 669 - gsize - 12 });
+      const pp = paperSize(S, { h: BODY_STRIP - gsize - 12, maxW: LANE_W, maxH: BODY_STRIP - gsize - 12 });
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${LANE_W}px">${grids}${C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' })}</div>`);
     } else if (mode === 'scene') {
       const u = B.unitRecord(unitSlug);
@@ -189,7 +197,7 @@ module.exports = {
       const cardPx = d.cardPx || 118;
       const strip = d.steps === 'none' ? '' : C7.htdStrip({ S, cardPx, badges: true, gap: 12, width: LANE_W });
       const stripH = d.steps === 'none' ? 0 : 16 + cardPx + 6 + 6 + 10;
-      const sw = Math.min(d.sceneW || 540, Math.floor((669 - stripH - 5) * scene.w / scene.h));
+      const sw = Math.min(d.sceneW || LANE_W, Math.floor((BODY_STRIP - stripH - 5) * scene.w / scene.h));
       const bankHtml = C7.htdSceneBank({ scene, heroItem, w: sw, ring: !!d.heroRing, renderPanel: FD.renderPanel });
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${LANE_W}px">${strip}${bankHtml}</div>`);
       meta.scene = sceneId; meta.heroItem = heroItem;
@@ -200,7 +208,7 @@ module.exports = {
       const strip = C7.htdStrip({ S, cardPx, badges: true, gap, width: LANE_W, under: () => C7.htdPaper({ w: colW, h: boxH, role: 'stepBox' }) });
       const stripH = 16 + colW + 6 + 8 + boxH;
       let paper = '';
-      if (d.finalBox !== false) { const pp = paperSize(S, { h: (d.paper && d.paper.h) || 340, maxW: LANE_W, maxH: 669 - stripH - 12 }); paper = C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' }); }
+      if (d.finalBox !== false) { const pp = paperSize(S, { h: BODY_STRIP - stripH - 12, maxW: LANE_W, maxH: BODY_STRIP - stripH - 12 }); paper = C7.htdPaper({ w: pp.w, h: pp.h, role: 'primary' }); }
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${LANE_W}px">${strip}${paper}</div>`);
     } else if (mode === 'memory') {
       const mw = d.modelW || 220;
@@ -209,10 +217,10 @@ module.exports = {
       const flapH = mh + 6 + 24;
       const flap = C7.htdFlap({ w: LANE_W, h: flapH, inner: model });
       const fold = C7.htdFold({ w: 675, h: 24 });
-      const avail = 669 - flapH - 24 - 24;
+      const avail = BODY_STRIP - flapH - 24 - 24;
       let papers;
       if (d.secondBox) { const q = paperSize(S, { w: Math.floor((LANE_W - 20) / 2), maxH: avail }); papers = `<div style="display:flex;gap:20px">${C7.htdPaper({ w: q.w, h: q.h, role: 'primary' })}${C7.htdPaper({ w: q.w, h: q.h, role: 'primary' })}</div>`; }
-      else { const p = paperSize(S, { w: (d.paper && d.paper.w) || 620, maxH: avail }); papers = C7.htdPaper({ w: p.w, h: p.h, role: 'primary', guides: d.hintShapes ? { S } : null }); }
+      else { const p = { w: (d.paper && d.paper.w) || 620, h: avail }; papers = C7.htdPaper({ w: p.w, h: p.h, role: 'primary', guides: d.hintShapes ? { S } : null }); }
       const paperLane = `<div class="ws-lane" style="box-sizing:border-box;width:675px;padding:12px 16px;display:flex;justify-content:center">${papers}</div>`;
       body = `<div style="display:flex;flex-direction:column;align-items:center;gap:0;width:675px">${flap}${fold}${paperLane}</div>`;
     } else throw new Error(`K-396: mode "${mode}" is not built`);

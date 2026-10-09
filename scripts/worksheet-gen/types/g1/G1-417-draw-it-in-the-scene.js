@@ -4,7 +4,7 @@ const base = require('../k/K-396-how-to-draw.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"scene","unit":"animals-bw-3-frog-2","scene":"frog","heroItem":3,"steps":"all","orient":"strip","cardPx":118,"sceneW":540,"heroRing":false} };
+const D = { ...base.difficulty[2], ...{"mode":"scene","unit":"animals-bw-3-frog-2","scene":"frog","heroItem":3,"steps":"all","orient":"strip","cardPx":118,"sceneW":639,"heroRing":false} };
 module.exports = {
   ...base,
   id: 'G1-417',

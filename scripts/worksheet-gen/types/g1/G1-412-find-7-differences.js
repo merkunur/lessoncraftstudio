@@ -4,7 +4,7 @@ const base = require('../k/K-395-find-the-differences.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"seven","count":7,"pairs":2,"perPair":[4,3],"units":["pond-turtle-rich","pond-alligator-rich"],"layout":"columns","floor":"G1","ppu":0.5,"panelW":300,"kinds":"line-all","heroFront":0.5,"minSepPx":27,"excludeSrcs":true,"ledger":{"box":48}} };
+const D = { ...base.difficulty[2], ...{"mode":"seven","count":7,"pairs":2,"perPair":[4,3],"units":["pond-turtle-rich","pond-alligator-rich"],"layout":"columns","floor":"G1","ppu":0.5,"panelW":314,"kinds":"line-all","heroFront":0.5,"minSepPx":27,"excludeSrcs":true,"ledger":{"box":60}} };
 module.exports = {
   ...base,
   id: 'G1-412',

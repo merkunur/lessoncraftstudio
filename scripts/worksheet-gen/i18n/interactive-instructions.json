@@ -2356,5 +2356,25 @@
    "no": "Regn ut hvert stykke i hodet. Trykk på tallet som mangler.",
    "fi": "Laske jokainen tehtävä päässäsi ja napauta puuttuvaa lukua."
   }
+ },
+ "find-the-differences": {
+  "fd-tap": {
+   "en": "Look at the top picture, then tap every place in the bottom picture that is different."
+  },
+  "fd-tapCount": {
+   "en": "Find every difference in the bottom picture, then tap the number that says how many there are."
+  },
+  "fd-tapMirror": {
+   "en": "The bottom picture is flipped like a mirror. Tap every place in it that is still different."
+  },
+  "fd-tapMissing": {
+   "en": "Tap every empty place in the bottom picture where something from the top picture is missing."
+  },
+  "fd-tapPairs": {
+   "en": "Each pair shows the same close-up twice. Tap the one thing that is different in the second picture of every pair."
+  },
+  "fd-tapWords": {
+   "en": "Find what changed in the bottom picture, then tap the words of the things that changed."
+  }
  }
 }

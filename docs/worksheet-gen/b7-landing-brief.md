@@ -1,23 +1,26 @@
-# nt2-G — native landing-page brief (10 base types + their variation faces)
+# nt2-G — native landing-page brief (2 flagship base types + their 20 variation faces)
 
 You are a **three-agent native panel** for ONE locale — a **linguist**, a **primary-school
 teacher** of this grade band in that country, and an **SEO content writer**. You write the
 landing-page copy for the nt2-G batch of printable worksheet types in your language: 2 new
-worksheet families, each with a BASE page and up to five VARIATION faces (≤ 30 ids; your locale
+flagship worksheet families, each with a BASE page and TEN VARIATION faces (22 ids; your locale
 ships the ones its content panel did not refuse).
 
 A landing page is the page a teacher reaches from Google. It is the indexable surface for its
-worksheet: the deck itself is a printable, the landing is what ranks.
+worksheet: the deck itself is a printable (and, for find-the-differences, a tap screen with an
+answer key), the landing is what ranks.
 
-> ⭐ **YOUR JOB IS AN AUDIT OF THE RENDER, NOT COPYWRITING.** In the two previous batches the
+> ⭐ **YOUR JOB IS AN AUDIT OF THE RENDER, NOT COPYWRITING.** In the three previous batches the
 > landing panels — because they had to describe what is actually printed — found dozens of
 > defects that no automated gate could see: a title naming a shape the page never draws, an
 > instruction naming boxes that do not exist, a truth face printing one fact twice through two
 > frames, a cloze face repeating an answer, a title naming a five-verb pool the page draws two of.
 > **Describe what the child SEES on the shipped PNG, and quote numbers FROM THE RENDER** (how
-> many pictures, rows, signs, moons, continents, family members, blanks). **Report every
-> disagreement between the render and a string as a finding before you write about the page.** A
-> landing panel that only writes prose has wasted the cheapest review these sheets ever get.
+> many differences, pictures, rows, steps, boxes, words). **Report every disagreement between the
+> render and a string as a finding before you write about the page** — and for find-the-differences
+> OPEN THE KEY and name every ringed change in your language: a ring around a change a child
+> cannot NAME ("the leaf is a bit different") is a finding, and so is a change you cannot see.
+> A landing panel that only writes prose has wasted the cheapest review these sheets ever get.
 
 ## What you write
 
@@ -27,7 +30,7 @@ One file: `scripts/worksheet-gen/i18n/.landing-b7-<locale>.json`
 {
   "locale": "<locale>",
   "landings": {
-    "K-368": {
+    "K-395": {
       "slug": "...", "eyebrow": "...", "h1": "...", "title": "...",
       "metaDescription": "...", "strand": "...",
       "p1": "...", "p2": "...", "p3": "..."
@@ -38,120 +41,109 @@ One file: `scripts/worksheet-gen/i18n/.landing-b7-<locale>.json`
 ```
 
 Exactly the ids you are assigned, nothing else. Nine string fields each, no extras, plus the
-`findings` array (empty only if you genuinely found nothing — say so explicitly). A locale is
-written in halves (bases first, then faces, or by family) — the composer merges by slug and is
-idempotent, so halves land in any order and a corrected half is re-applied on its own.
+`findings` list.
 
-## Where the facts come from
+## What you read first
 
-- `scripts/worksheet-gen/out/b7-faces.<locale>.json` — the face table (`rows`): every id with its
-  family key, band, `isBase`, `mode`, the SHIPPED theme (`theme`; **every nt2-G family is
-  themeless**, so expect `null` — never invent one), whether it is `shipped` or `refused` (write
-  NOTHING for a refused id), the worksheet's own **title and instruction in your language**, and
-  `png` — the path of that face's **rendered page**.
-- **Open the PNG for every face you write about.** Describe what is actually on the page — how
-  many cards, what the child does, what is printed and what is blank. `png: null` means the render
-  is missing: report it, do not guess. The renders are under
-  `scripts/worksheet-gen/out/b7-sweep/<locale>/<ID>-null-d2-<locale>.png`.
-- `scripts/worksheet-gen/i18n/strings.<locale>.json` — the worksheet's title + instruction were
-  written by your locale's content panel. **The landing must agree with them.** If the render and
-  the string disagree, the render wins and the disagreement is a `finding`.
-- `frontend/content/seo-landing/<locale>.json` — the live corpus in your locale. Read a few of
-  your locale's newest printable landings (the nt10-E families: 2d-shapes, road-safety, plants, maps…) — they set the genre head, the register and the house voice. **This batch has NO base
-  landing yet — you write the base AND its faces**, so the base is the page that owns the bare
-  genre term and every face must own one distinguishing element instead.
+- The shipped pages for YOUR locale: `scripts/worksheet-gen/out/b7-sweep/<locale>/<id>…png` (the
+  print page; for find-the-differences also the `.screen.png` and the `.key.png`). Every number in
+  your copy comes from these.
+- Your locale's newest printable landings (the nt5-F / nt10-E families) — they set the register and
+  the house voice. **This batch has NO base landing yet — you write the base AND its faces**, so
+  the base is the page that owns the bare genre term and every face must own one distinguishing
+  element instead.
 - The family's design file `docs/worksheet-gen/b7-designs/<ID>-<key>.md`: §1 table B (your
   locale's genre head, slug and national strand literal), §3 (each face's **Query face** line —
   the long-tail head it owns, in several locales), §6 (the SEO copy pattern). It is a design-time
   guide, not the truth about the page — the PNG is.
-- **Your locale's SEO heads:** `docs/worksheet-gen/b7-designs/_work/_selection-seo-germanic.md`
-  (en · de · nl), `_selection-seo-romance.md` (es · pt · fr · it), `_selection-seo-nordic.md`
-  (sv · da · no · fi) — the harvested heads and tails per family, with what was measured and what
-  was ruled out. Title and meta target THOSE heads, not an English calque.
+- **Your locale's SEO heads:** `docs/worksheet-gen/b7-designs/_PANEL-FINDINGS.md` (the harvested
+  heads and tails per family and locale, with what was measured and what was ruled out) and
+  `_records/harvest-candidates.<locale>.json`. Title and meta target THOSE heads, not an English
+  calque.
 
-## The five families and what they are
+## The two families and what they are
 
-`story-sequencing` (K-379) · `healthy-habits` (K-380) · `habitats` (G1-398) · `sink-or-float`
-(G1-399) · `cursive-writing` (G2-377).
+`find-the-differences` (K-395, K band; FULLY INTERACTIVE — every deck has a PDF, a tap-the-differences
+screen and an answer key with numbered rings) · `how-to-draw` (K-396, K band; PDF ONLY — no key, no screen).
 
-⚠ Heads the design files fence off — read each final's §6 before titling: story-sequencing never a
-bare order word (science-sequence owns "Sequencing & Life Cycles" / "Reihenfolge & Lebenszyklen";
-pt/it "sequência lógica" / "sequenze logiche" are the PATTERNS genre) — every title carries a story
-word; healthy-habits never food / eating / Ernährung / "saludables" alone, never nl "gezonde
-gewoontes", never the K-374 "step by step" family; habitats never the live G1-202 title (Where Do
-Animals Live? · Waar wonen de dieren? · Var bor djuren? · Hvor bor dyrene?) and never a bare animal
-theme word; sink-or-float never the live G1-204 title (Sink or Float? · Schwimmt oder sinkt? ·
-¿Se hunde o flota? · Afunda ou Flutua? · Flotte ou coule ? · Galleggia o affonda? · Zinkt het of
-drijft het? · Sjunker eller flyter?), always an experiment/predict word, es never "flotación";
-cursive-writing never "tracing" / "nachspuren" / "Schwungübungen" / "Graphisme" / "Pregrafismo",
-no never "løkkeskrift", and each de title names the script its page shows (Vereinfachte or
-Lateinische Ausgangsschrift).
+⚠ Heads the design files fence off — read each final's §1 / §6 before titling:
+find-the-differences never the live K-061 bare head (Spot the Differences · Unterschiede entdecken ·
+Halla las diferencias · Ache as diferenças · Trouver les différences · Trova le differenze · Zoek de
+verschillen · Hitta skillnaderna · Find forskellene · Finn forskjellene · Etsi erot) — every title
+carries its COUNT (3 / 5 / 7 / 10, or your number word) or its MOVE; never "Mirror, Mirror" (K-063);
+never "which picture is different" (odd-one-out); the how-many face carries NO number anywhere.
+how-to-draw never "tracing" / "nachspuren" / "Schwungübungen" / "Graphisme" / "Pregrafismo" as a
+head, never "malen / colorear / colorir" (colouring), never K-286's grid words alone ("Raster /
+rutnät / ruudukko" only WITH the animal first), never K-379's story words on the order face; the
+animal in every title is the one the shipped page draws (the hummingbird face says "Bird" in the
+title where the market types "bird" — the landing names the species).
 
 ## The per-face query faces (the one distinguishing element each face owns)
 
-| family | base | F1 | F2 | F3 | F4 | F5 |
-|---|---|---|---|---|---|---|
-| story-sequencing | story sequencing (number the pictures) | K-381 cut and paste: first, next, last | G1-400 what happens next | G1-401 beginning, middle and end | G1-402 sequencing sentences | G2-378 retell / write the story |
-| healthy-habits | healthy habits and hygiene (habit ↔ what we need) | K-382 hand washing steps | G1-403 brushing teeth (before / during / after) | G1-404 stop the germs | G2-379 why we do healthy habits | G1-405 healthy habits chart for the week |
-| habitats | animal habitats (match the animal) | K-383 animal homes | G1-406 who does not live here | G2-380 how animals adapt | G1-407 what animals need | G2-381 my habitat report |
-| sink-or-float | sink or float experiment (predict and test) | G1-408 heavy or light (a balance scale) | G2-382 change the shape (clay boat) | G2-383 true or false: why things float | K-384 draw what floats and sinks | G3-400 my investigation / lab report |
-| cursive-writing | cursive lowercase letters | G2-384 cursive capitals | G2-385 letter connections | G2-386 cursive words with pictures | G2-387 reading cursive | G3-401 copy a sentence in cursive |
+| family | base | faces |
+|---|---|---|
+| find-the-differences | find 5 differences in one scene (K-395: Dog in the Garden) | K-397 find 3 BIG differences (first page) · K-398 the COLOURED pictures, one colour change · G1-412 7 differences as two pairs at the pond · G2-388 10 differences as two pairs at the beach (the hard page) · G1-413 how MANY differences (the count is secret, write the numeral) · G1-414 what CHANGED, tick the words · G1-415 MIRROR pictures, fold to check · K-399 what is MISSING, circle the empty place · K-400 picture PAIRS, one difference per row · G2-389 WRITE a sentence per difference |
+| how-to-draw | draw an animal step by step (K-396: a cat, four steps) | K-401 start with simple SHAPES (dog) · K-402 TRACE, then draw (rabbit) · K-403 FINISH the drawing (horse) · G1-416 draw with the GRID (dinosaur) · K-404 draw and write the WORD (fish) · G1-417 draw it in a SCENE (frog at the pond) · G1-418 ORDER the steps (owl) · G1-419 COPY each step (bird) · G2-390 draw, then WRITE about it (bear) · G2-391 draw from MEMORY (butterfly) |
+
+The animal / scene per face is the shipped unit in `scripts/worksheet-gen/tools/b7var-rows/<key>.js`
+(a wave may swap a market's demand leader through `unitOverrides`; the wave JSON and the render tell
+you which animal YOUR locale shipped — never assume the English one).
 
 ## ⚠ THE REFUSALS — a refused id carries NO landing
 
-Your face table marks them; the face table wins over this list.
-- **`cursive-writing` (G2-377 + G2-384 · G2-385 · G2-386 · G2-387 · G3-401)** — the WHOLE family is
-  REFUSED in **sv · fi** (no joined school script in Lgr22 / OPS 2014; no matching school font).
-  Those two locales write no cursive landing, and their hub rail must show nothing for the key.
-- Any further face your locale's content panel refused (e.g. cursive capitals in it / es) is
-  marked `shipped: false` — write nothing for it.
+Your face table marks them; the face table wins over this list. No face is refused by design in
+this batch. Any face your locale's content panel refused is marked `shipped: false` — write nothing
+for it.
 
-## ⚠ NO ANSWER KEY EXISTS — never promise one
+## ⚠ THE KEY AND THE SCREEN — say it for one family, never for the other
 
-These are printable-only decks and they ship **without an answer key**. No `title`,
-`metaDescription`, `h1` or body sentence may say *with answers · mit Lösungen · con respuestas ·
-com respostas · avec corrigé · con soluzioni · met antwoorden · med facit · med facitliste ·
-med fasit · vastauksineen*. The composer refuses the file on a hit. "with answers" is a real
-search tail for some of these heads and it is a **known loss** — take it deliberately, do not
-write the claim.
+**find-the-differences** decks ship a printable PDF, a tap-the-differences SCREEN and an ANSWER KEY
+(picture 2 with numbered rings, the ledger ticked). Every find landing SAYS so (the teacher is
+choosing a page partly for that): "with answer key / interactive version" in your words, in the
+meta and in p3 — it is a real search tail here and it is TRUE.
+
+**how-to-draw** decks are printable-only and ship **without an answer key or a screen**. No `title`,
+`metaDescription`, `h1` or body sentence of a how-to-draw landing may say *with answers · mit
+Lösungen · con respuestas · com respostas · avec corrigé · con soluzioni · met antwoorden · med facit ·
+med facitliste · med fasit · vastauksineen · online · interactive*. The composer refuses the file on
+a hit for that family.
 
 ## ⚠ QUOTE NUMBERS FROM THE RENDER AND THE SHIPPED CONFIG — never from the base's difficulty table
 
-When a landing describes its siblings ("the easier version has four pictures…"), it is tempting
-to read the numbers off the BASE spec's `difficulty` object. That is wrong: a variation spec
-spreads `{...base.difficulty[src], ...overrides}` into ALL THREE levels, so its real config is the
-base's source level with the face's overrides applied — and the overrides are exactly the
+When a landing describes its siblings ("the easier version has three differences…"), it is
+tempting to read the numbers off the BASE spec's `difficulty` object. That is wrong: a variation
+spec spreads `{...base.difficulty[src], ...overrides}` into ALL THREE levels, so its real config is
+the base's source level with the face's overrides applied — and the overrides are exactly the
 interesting part.
 
 **Open the face's row in `scripts/worksheet-gen/tools/b7var-rows/<key>.js`** (`ROWS` =
 `[dir, id, fileSlug, baseFile, srcLevel, overrides, enTitle, enInstruction]`), apply the overrides
 to the base's `difficulty[srcLevel]` in `types/<band>/<baseFile>`, and resolve at the level the
-wave ships (`difficulties: [2]`). If you quote a number — cards, rows, signs, moons, planets,
-continents, oceans, family members, word counts — it must come from the render or from that
-resolved config, never from the family's base table. **A landing describing a sibling resolves
-THAT sibling's own config.**
+wave ships (`difficulties: [2]`). If you quote a number — differences, pictures, rows, steps, boxes,
+words — it must come from the render or from that resolved config, never from the family's base
+table. **A landing describing a sibling resolves THAT sibling's own config.**
 
-⚠ **The render is ONE draw from a pool, and YOUR locale's draw.** A range-shaped claim ("up to
-six pictures", "signs from three kinds") is checked against the pool that generates it, not the
-instance in the picture. Read the generator and the bank (`scripts/worksheet-gen/data/b7/…`) for
-your locale. Locale data is not uniform: the habitat SET in `habitats` is per-locale data (de Wald/Wiese/Teich/Meer, Nordic forest/meadow/lake/sea, pt biomes, es-MX selva/bosque/mar/lago); the cursive SCRIPT and ruling are per-locale; the week start on the habits chart is your calendar convention.
+⚠ **The render is ONE draw from a pool, and YOUR locale's draw.** A find-the-differences page is
+composed by a seeded composer: WHICH things changed (the sun became a moon, the flower is gone) is
+this deck's draw — describe the KIND of change in general ("something is gone, something turned
+round, something grew") and the scene, never promise a particular change unless your render shows
+it. The COUNT is fixed per face (except how-many, where the shipped page's count is a secret you
+never print). A how-to-draw page is deterministic: its animal and its number of steps (4 or 5)
+are what you see.
 
 ## The strand field
 
 The `strand` chip carries your locale's national strand literal (framework NAME only; never a
 verbatim curriculum quotation):
-- **`healthy-habits`, `habitats`, `sink-or-float`:** the existing `Science` row (Science ·
-  Sachunterricht · Conocimiento del Medio · Ciências · Questionner le monde · Scienze · Oriëntatie
-  op jezelf en de wereld · Naturorienterande ämnen · Natur/teknologi · Naturfag · Ympäristöoppi),
-  or the health literal your content panel authored in `strandNames` for healthy-habits (a
-  health home is honest where the country teaches hygiene outside science). **No CCSS code**; NHES /
-  NGSS appear in the English prose only.
-- **`story-sequencing`:** your locale's reading / oral-language literal (Reading: Literature ·
-  Lesen / Sprechen und Zuhören · Lenguajes · Leitura/Oralidade · Langage oral · Ascolto e parlato ·
-  Mondelinge taalvaardigheid · Tala och lyssna / Berätta · Mundtlig dansk · Muntlig kommunikasjon ·
-  Vuorovaikutustilanteissa toimiminen) — the content panel's `strandNames` wins.
-- **`cursive-writing`:** your locale's handwriting / writing literal (Handwriting · Schreiben ·
-  Escritura · Escrita · Écriture · Scrittura · Schrijven · Skriva · Skriftlig dansk · Skriving).
+- **`find-the-differences`:** the NEW visual-perception row your content panel authored in
+  `strandNames` (Visual Perception · Visuelle Wahrnehmung · Discriminación visual · Discriminação
+  visual · Discrimination visuelle · Discriminazione visiva · Visuele waarneming · Visuell
+  perception · Visuel opmærksomhed · Visuell oppmerksomhet · Hahmottaminen) — the content panel's
+  literal wins. **No CCSS code** except the how-many face (K.CC.B.5), which the composer adds to
+  the JSON-LD; you never write it.
+- **`how-to-draw`:** your locale's art / visual-arts literal (Art · Kunst · Educación Artística ·
+  Arte · Arts plastiques · Arte e immagine · Kunstzinnige oriëntatie · Bild · Billedkunst · Kunst og
+  håndverk · Kuvataide) — the content panel's `strandNames` wins.
 
 Band honesty: where your country teaches a topic a year later or earlier than the page's band, the
 landing says so in its own words.
@@ -163,7 +155,7 @@ tier grants three PDF downloads a month. It may NOT appear in anything the teach
 page: **`h1`, `eyebrow`, `strand`, `p1`, `p2`, `p3` carry no free-claim** — no *free / gratis /
 kostenlos / gratuit / ilmainen / kosteloos …*, and no carrier phrase such as *frei zugänglich /
 vrij toegankelijk / sans frais / sin costo*. The composer refuses the file on a hit. Bare *frei /
-vrij / fritt* in a pedagogical sense ("freies Erzählen") is fine.
+vrij / fritt* in a pedagogical sense ("freies Zeichnen") is fine.
 
 ## Hard rules the composer enforces (it refuses to write on any failure)
 
@@ -173,7 +165,8 @@ vrij / fritt* in a pedagogical sense ("freies Erzählen") is fine.
 4. `slug` ASCII-kebab (`^[a-z0-9-]+$`), unique within your batch and against the whole live
    corpus. Fold accents the way your locale already does in `<locale>.json`
    (da ø→oe å→aa æ→ae; no ø→o; sv/fi ä→a ö→o; es ñ→n; de ä→ae ö→oe ü→ue ß→ss).
-5. No free-claim in the six visible fields (above). No answer-key claim anywhere. No U+00AD.
+5. No free-claim in the six visible fields (above). No answer-key / screen claim on a how-to-draw
+   page. No U+00AD.
 6. A refused id (`shipped: false` in the face table) may not carry a landing.
 7. A **slot token** should appear in `p1` — the family slug or the level key, VERBATIM in its
    slug form. Satisfy it where it reads naturally and ignore it where it does not; never distort
@@ -185,18 +178,25 @@ vrij / fritt* in a pedagogical sense ("freies Erzählen") is fine.
   distinguishing element (the query-face table above) and owns that query instead. Never write a
   face whose title is just the family head; that is the base's query and duplicating it is the one
   fatal case.
-- **No two siblings may open the same way — and the BASE is the nearest sibling of all.** Six
+- **No two siblings may open the same way — and the BASE is the nearest sibling of all.** Eleven
   pages sit next to each other in one family; if three of them begin "This worksheet helps
   children…" they compete with each other and with the base. Vary the opening, the structure and
   the emphasis. Target: 3-gram Jaccard under ~0.10 sibling-to-sibling and under ~0.25 against your
-  base. The gate FAILS a pair at ≥ 0.80 and WARNS from 0.65. Watch the fences against EXISTING pages too: G1-204 sink/float sort, G1-202 where-animals-live, K-203 healthy food, G1-207 food groups, science-sequence life cycles, K-374 crossing steps, the tracing families, animal-fact-file G2-318.
+  base. The gate FAILS a pair at ≥ 0.80 and WARNS from 0.65. Watch the fences against EXISTING
+  pages too: K-061 spot-the-difference (rail only), K-062 / K-063, odd-one-out, the colouring
+  families K-393 / K-394 (the SAME scenes), grid-copy K-286, symmetry G2-253, picture-writing
+  G2-278, dot-to-dot K-285, the tracing families, story-sequencing K-379.
 - Write for the **teacher deciding whether to print it**: what is on the page, what the child
   does, what it teaches, when you would use it. p3 is the place for the practical note — how it
-  prints, how it differs from its siblings, what to do next.
+  prints, the screen and key (find family only), how it differs from its siblings, what to do next.
+- **Boundary sentence on every find landing**, in your words: these pages compare two pictures of
+  one scene; mirror drawing, colouring by number and finding the odd one out have their own pages.
+  **Boundary sentence on every how-to-draw landing**: the child draws the animal from its own steps;
+  tracing letters, grid-copy pixels and symmetry drawing have their own pages.
 - Use your country's curriculum framework by NAME where it is natural (Lehrplan, BNCC, Lgr22,
   SLO-kerndoelen, OPS 2014, programmes officiels, Indicazioni nazionali, Fælles Mål, LK20). Never
-  write "Common Core" in a non-English page. The CCSS code (only the story-sequencing faces carry one) lives in the JSON-LD only — the composer adds it; you never
-  write it.
+  write "Common Core" in a non-English page. The one CCSS code (G1-413) lives in the JSON-LD only —
+  the composer adds it; you never write it.
 - **Banned throughout**: "fun and engaging", "perfect for", "dive into", "great way to", "boost",
   "unlock", "in no time", "watch as they learn", and the rest of that register. The gate matches
   these as English substrings, so they fail even inside a native sentence.
@@ -213,9 +213,10 @@ cd C:\Users\rkgen\lessoncraftstudio
 node scripts/seo-landing/gen-b7-landings.js <locale> scripts/worksheet-gen/i18n/.landing-b7-<locale>.json --dry-run
 ```
 
-It names every field that is short, long, duplicated, missing or carrying a free-claim or an
-answer-key claim, and lists the shipped ids your file does not cover yet. Fix and re-run. Do not
-stop before it prints `dry-run ok` for the ids you were assigned.
+It names every field that is short, long, duplicated, missing or carrying a free-claim or a
+forbidden answer-key claim, and lists the shipped ids your file does not cover yet. Fix and re-run.
+Do not stop before it prints `dry-run ok` for the ids you were assigned.
 
 **Then hand back:** the `dry-run ok` line, your `findings` list in full (this is the part a
-reviewer reads first), and any id you could not write and why.
+reviewer reads first — every ringed change you could not name, every number the render disagreed
+with), and any id you could not write and why.

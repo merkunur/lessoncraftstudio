@@ -1,0 +1,81 @@
+{
+ "source": "docs/worksheet-gen/b7-designs/README.md (hub-gate expectation matrix)",
+ "locales": [
+  "en",
+  "de",
+  "es",
+  "pt",
+  "fr",
+  "it",
+  "nl",
+  "sv",
+  "da",
+  "no",
+  "fi"
+ ],
+ "keys": {
+  "find-the-differences": {
+   "en": 11,
+   "de": 11,
+   "es": 11,
+   "pt": 11,
+   "fr": 11,
+   "it": 11,
+   "nl": 11,
+   "sv": 11,
+   "da": 11,
+   "no": 11,
+   "fi": 11
+  },
+  "how-to-draw": {
+   "en": 11,
+   "de": 11,
+   "es": 11,
+   "pt": 11,
+   "fr": 11,
+   "it": 11,
+   "nl": 11,
+   "sv": 11,
+   "da": 11,
+   "no": 11,
+   "fi": 11
+  }
+ },
+ "ceiling": {
+  "find-the-differences": {
+   "en": 11,
+   "de": 11,
+   "es": 11,
+   "pt": 11,
+   "fr": 11,
+   "it": 11,
+   "nl": 11,
+   "sv": 11,
+   "da": 11,
+   "no": 11,
+   "fi": 11
+  },
+  "how-to-draw": {
+   "en": 11,
+   "de": 11,
+   "es": 11,
+   "pt": 11,
+   "fr": 11,
+   "it": 11,
+   "nl": 11,
+   "sv": 11,
+   "da": 11,
+   "no": 11,
+   "fi": 11
+  }
+ },
+ "notes": {
+  "find-the-differences": "none at design",
+  "how-to-draw": "none at design; the word face (F5) contingent on the drawing's vocab word per locale"
+ },
+ "controls": {
+  "articles": 4,
+  "word-tracing": 7,
+  "letter-tracing": 6
+ }
+}

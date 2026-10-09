@@ -47,12 +47,19 @@ function pickOps(scene, cfg, rng) {
     !(cfg.minArea && c.area < cfg.minArea) &&
     // a crayon change invisible on a black-and-white printer (cfg.minLumaDelta): compare the old and new crayons' luma
     !(c.kind === 'colour' && cfg.minLumaDelta && lumaDelta(scene, c) < cfg.minLumaDelta));
-  if (pool.length < cfg.n) throw new Error(`fd-compose: ${scene.id} has ${pool.length} usable candidates for n=${cfg.n} (${cfg.mode}) — REFUSED`);
+  // cfg.noSameKeySwap: a swap whose partner is the same vocab key (a flower for a flower of another species) is a change a
+  // child cannot NAME; dropped from the pool on the word faces (K-395 FINAL §2, additive)
+  const keyOf = (src) => String(src || '').split('/').pop().replace(/_\d+$/, '').toLowerCase();
+  const pool2 = cfg.noSameKeySwap ? pool.filter((c) => !(c.kind === 'swap' && keyOf(c.src) === keyOf((scene.items.find((l) => l.idx === c.item) || {}).src))) : pool;
+  if (pool2.length < cfg.n) throw new Error(`fd-compose: ${scene.id} has ${pool2.length} usable candidates for n=${cfg.n} (${cfg.mode}) — REFUSED`);
   const n = cfg.n;
   const heroIdx = (scene.items.find((l) => l.hero) || {}).idx;
   for (let t = 0; t < TRIES; t++) {
     const heroAllowed = cfg.heroProb == null ? true : rng.next() < cfg.heroProb;
-    let order = rng.shuffle(pool.slice());
+    let order = rng.shuffle(pool2.slice());
+    // cfg.heroFront (0..1): on that share of tries ONE hero candidate is spliced to the FRONT, so the hero carries a difference
+    // on roughly that share of pages where its geometry allows (the allow-gate alone cannot raise a hero that rarely fits)
+    if (cfg.heroFront != null && heroIdx != null && heroAllowed && rng.next() < cfg.heroFront) { const hi = order.findIndex((c) => c.item === heroIdx); if (hi >= 0) { const [h] = order.splice(hi, 1); order.unshift(h); } }
     if (cfg.needColour) { const ci = order.findIndex((c) => c.kind === 'colour'); if (ci < 0) throw new Error(`fd-compose: ${scene.id} has no colour candidate — REFUSED`); const [c] = order.splice(ci, 1); order.unshift(c); }
     const chosen = [];
     for (const c of order) {

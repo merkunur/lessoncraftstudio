@@ -249,23 +249,45 @@ function layerSvg(l, mode, attrs) {
  * as data attributes on <rect>s the runtime captures); opts.attrs on the root.
  */
 function renderPanel(scene, ops, opts = {}) {
-  const mode = opts.mode || 'line', width = opts.width || W, height = Math.round(width * H / W);
+  const mode = opts.mode || 'line';
+  // opts.viewBox [x0, y0, w, h] (scene units) + frame 'window': a close-up crop (the picture-pairs face); default = the whole scene
+  const vb = opts.viewBox || [0, 0, W, H];
+  const width = opts.width || W, height = Math.round(width * vb[3] / vb[2]);
   const items = applyOps(scene, ops || []);
   const bgFill = (r) => (mode === 'colour' ? PALETTE[r.colour] || '#FFFFFF' : '#FFFFFF');
   const bg = scene.bg.regions.map((r) => `<path d="${r.d}" fill="${bgFill(r)}" stroke="${mode === 'colour' ? bgFill(r) : '#FFFFFF'}" stroke-width="3"/>`).join('') + `<path d="${scene.bg.ink}" fill="${INK}"/>`;
   const layers = items.map((l) => layerSvg(l, mode, ` data-lcs-fd-layer="${l.idx}"`)).join('');
-  const rings = (opts.rings || []).map(([x0, y0, x1, y1]) => {
-    const rx = (x1 - x0) / 2 + 14, ry = (y1 - y0) / 2 + 14;
-    return `<ellipse cx="${((x0 + x1) / 2).toFixed(1)}" cy="${((y0 + y1) / 2).toFixed(1)}" rx="${rx.toFixed(1)}" ry="${ry.toFixed(1)}" fill="none" stroke="#F2784B" stroke-width="7" data-lcs-fd-ring="1"/>`;
+  // opts.flip: the whole scene mirrored left-right (the mirror face); rings and hotspots are given in UNFLIPPED units and mirrored here
+  const flip = !!opts.flip;
+  const mx = (b) => (flip ? [W - b[2], b[1], W - b[0], b[3]] : b);
+  const art = flip ? `<g transform="translate(${W} 0) scale(-1 1)">${bg}${layers}</g>` : bg + layers;
+  const rings = (opts.rings || []).map((r0, i) => {
+    const [x0, y0, x1, y1] = mx(r0);
+    const rx = (x1 - x0) / 2 + 14, ry = (y1 - y0) / 2 + 14, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    // opts.ringHalo: a 13-unit white stroke under the 7-unit coral ellipse (the ring reads over black ink on a mono print)
+    // every ring part carries data-lcs-fd-ring so the browser diff strips it (the halo and the index disc are not picture content)
+    const halo = opts.ringHalo ? `<ellipse cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" rx="${rx.toFixed(1)}" ry="${ry.toFixed(1)}" fill="none" stroke="#FFFFFF" stroke-width="13" data-lcs-fd-ring="halo"/>` : '';
+    // opts.ringIndex: a coral disc with a white numeral at the ring's top-right (the key's ring numbers match the ledger)
+    const idx = opts.ringIndex ? `<circle cx="${(cx + rx * 0.72).toFixed(1)}" cy="${(cy - ry * 0.72).toFixed(1)}" r="16" fill="#F2784B" data-lcs-fd-ring="index"/><text x="${(cx + rx * 0.72).toFixed(1)}" y="${(cy - ry * 0.72 + 7).toFixed(1)}" text-anchor="middle" font-family="'Baloo 2',cursive" font-weight="700" font-size="22" fill="#FFFFFF" data-lcs-fd-ring="index">${i + 1}</text>` : '';
+    return halo + `<ellipse cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" rx="${rx.toFixed(1)}" ry="${ry.toFixed(1)}" fill="none" stroke="#F2784B" stroke-width="7" data-lcs-fd-ring="1"/>` + idx;
   }).join('');
   const hots = (opts.hotspots || []).map((h, i) => {
-    const [x0, y0, x1, y1] = h.bbox;
-    return `<rect x="${x0}" y="${y0}" width="${(x1 - x0).toFixed(1)}" height="${(y1 - y0).toFixed(1)}" fill="transparent" data-lcs-fd-hotspot="${i}"${h.diff ? ' data-lcs-fd-diff="1"' : ''} data-lcs-label="${esc(h.label || ('spot ' + (i + 1)))}"/>`;
+    const [x0, y0, x1, y1] = mx(h.bbox);
+    const meta = Object.entries(h.meta || {}).map(([k, v]) => ` ${k}="${esc(String(v))}"`).join('');
+    return `<rect x="${x0}" y="${y0}" width="${(x1 - x0).toFixed(1)}" height="${(y1 - y0).toFixed(1)}" fill="transparent" data-lcs-fd-hotspot="${i}"${h.diff ? ' data-lcs-fd-diff="1"' : ''} data-lcs-label="${esc(h.label || ('spot ' + (i + 1)))}"${meta}/>`;
   }).join('');
-  const frame = opts.frame === false ? '' : `<rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="18" fill="none" stroke="${INK}" stroke-width="6"/>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${width}" height="${height}" data-lcs-prim="fd-panel"${opts.attrs || ''}>` +
-    `<clipPath id="${opts.clipId || 'fdclip'}"><rect x="6" y="6" width="${W - 12}" height="${H - 12}" rx="15"/></clipPath>` +
-    `<rect width="${W}" height="${H}" fill="#FFFFFF"/><g clip-path="url(#${opts.clipId || 'fdclip'})">${bg}${layers}${rings}</g>${frame}${hots}</svg>`;
+  const clipId = opts.clipId || 'fdclip';
+  let frame, clip;
+  if (opts.frame === 'window') {
+    frame = `<rect x="${vb[0] + 1.5}" y="${vb[1] + 1.5}" width="${vb[2] - 3}" height="${vb[3] - 3}" rx="10" fill="none" stroke="${INK}" stroke-width="3"/>`;
+    clip = `<rect x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}" rx="10"/>`;
+  } else {
+    frame = opts.frame === false ? '' : `<rect x="3" y="3" width="${W - 6}" height="${H - 6}" rx="18" fill="none" stroke="${INK}" stroke-width="6"/>`;
+    clip = `<rect x="6" y="6" width="${W - 12}" height="${H - 12}" rx="15"/>`;
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.join(' ')}" width="${width}" height="${height}" data-lcs-prim="fd-panel"${flip ? ' data-lcs-fd-flip="1"' : ''}${opts.attrs || ''}>` +
+    `<clipPath id="${clipId}">${clip}</clipPath>` +
+    `<rect x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}" fill="#FFFFFF"/><g clip-path="url(#${clipId})">${art}${rings}</g>${frame}${hots}</svg>`;
 }
 
 /** inner parts of a layer that `detailVariant` may try: closed by the drawing's own lines, medium-sized */

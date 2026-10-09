@@ -52,16 +52,9 @@ freeClaim.selfTest();
  * sink-or-float and cursive name NHES / NGSS / state statutes in en PROSE only.
  */
 const STANDARD = {
-  // story-sequencing (K-379 §1: base RL.K.2 · F1 W.K.3 · F2 RL.1.7 · F3 W.1.3 · F4 RL.1.7 · F5 W.2.3)
-  'K-379': 'RL.K.2', 'K-381': 'W.K.3', 'G1-400': 'RL.1.7', 'G1-401': 'W.1.3', 'G1-402': 'RL.1.7', 'G2-378': 'W.2.3',
-  // healthy-habits (K-380 §1: no CCSS / NGSS hygiene standard; NHES named in en PROSE only)
-  'K-380': null, 'K-382': null, 'G1-403': null, 'G1-404': null, 'G2-379': null, 'G1-405': null,
-  // habitats (G1-398 §1: science, NONE on any face; NGSS K-ESS3-1 / 2-LS4-1 / 3-LS4-3 in en PROSE only)
-  'G1-398': null, 'K-383': null, 'G1-406': null, 'G2-380': null, 'G1-407': null, 'G2-381': null,
-  // sink-or-float (G1-399 §1: science, NONE; NGSS practice + 2-PS1-1 readiness in en PROSE only)
-  'G1-399': null, 'G1-408': null, 'G2-382': null, 'G2-383': null, 'K-384': null, 'G3-400': null,
-  // cursive-writing (G2-377 §1: CCSS 2010 omits cursive; state statutes in en PROSE only)
-  'G2-377': null, 'G2-384': null, 'G2-385': null, 'G2-386': null, 'G2-387': null, 'G3-401': null,
+  // find-the-differences (K-395 §1 "CCSS en (honest)": visual discrimination has no CCSS code; ONLY the how-many face
+  // claims K.CC.B.5 — count the circles, write the numeral). how-to-draw (K-396): none on any face.
+  'G1-413': 'K.CC.B.5',
 };
 
 // per-locale coordinate.level keys — must match the keys already in each corpus

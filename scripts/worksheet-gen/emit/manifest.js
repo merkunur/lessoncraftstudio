@@ -135,7 +135,9 @@ function buildManifest(o) {
     // and (via deck-html.js) drives the "Set N" title/description disambiguator —
     // so variant >1 yields a unique deterministic slug/title/desc, clearing the
     // §17.8.17 uniqueness HALT gates. variant 1 keeps the legacy compact type id.
-    variant_id: (variant > 1 ? variantIdForSpec(spec) + '-' + variant : variantIdForSpec(spec)) + (o.unit ? '-' + unitKey(o.unit) : ''),
+    // the unit joins the slug tail ONLY when the wave allows (Level Set: many units per type; nt2-G sets unitInSlug:false —
+    // one pinned unit per face per locale, and the landing's canonicalDeckSlug is <family>-<id>). The deckId keeps the unit.
+    variant_id: (variant > 1 ? variantIdForSpec(spec) + '-' + variant : variantIdForSpec(spec)) + (o.unit && o.unitInSlug !== false ? '-' + unitKey(o.unit) : ''),
     variant: variant,
     seo_trace: null,
   };

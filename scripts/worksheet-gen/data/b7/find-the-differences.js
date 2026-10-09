@@ -42,7 +42,7 @@ const UNITS = {
   base: 'garden-dog-rich', 'three-big': 'beach-bucket-rich', colour: 'pond-frog-rich',
   seven: ['pond-turtle-rich', 'pond-alligator-rich'], 'ten-pairs': ['kite-rich', 'ladybug-rich'],   // re-pinned 2026-10-09: the beach pair refuses 5 at the G2 floor on the rebuilt data; hero waived (see the row)
   'how-many': 'garden-bird-rich',
-  'what-changed': 'ostrich-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
+  'what-changed': 'farm-cow-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
   'mirror-pair': 'forest-fox-rich', 'mirror-pair': 'forest-fox-rich',
   missing: 'night-owl-rich',   // re-pinned 2026-10-09: farm-rooster-rich's removable props never fall in one quadrant (33/33/0/33) on the rebuilt data
   pairs: 'garden-ladybug-rich',   // re-pinned 2026-10-09: the ONLY unit in band once the window placer existed (10 of 388 compose, 1 in band); the FINAL's first-to-cut face, kept on its measured pool
@@ -83,11 +83,12 @@ const FIND_THE_DIFFERENCES = {
       'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check.' },
       missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each.' },
       pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row.' },
-      write: { title: 'Write What Is Different', instruction: 'Circle the 3 differences, then write one sentence about each one on the lines, using the words in the two strips.' },
+      write: { title: 'Write What Is Different', instruction: 'Circle the 3 differences (something may be gone), then write one sentence about each one on the lines, using the words in the two strips.' },
     },
     tap: {
       'fd-tap': 'Look at the top picture, then tap every place in the bottom picture that is different.',
       'fd-tapCount': 'Find every difference in the bottom picture (some things may be gone), then tap the number that says how many there are.',
+      'fd-tapPairs2': 'Two pairs of pictures: in each pair, look at picture 1, then tap every place in picture 2 that is different.',
       'fd-tapMirror': 'The bottom picture is flipped like a mirror. Tap every place in it that is still different.',
       'fd-tapMissing': 'Tap every empty place in the bottom picture where something from the top picture is missing.',
       'fd-tapPairs': 'Each pair shows the same close-up twice. Tap the one place that is different in the second picture of every pair.',
@@ -106,7 +107,7 @@ const TITLE_COUNT = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10 };
 const WORD_MODES = ['what-changed', 'write'];
 /** the word strip holds at most this many nouns: every changed one + seeded decoys (rich scenes, 2026-10-09) */
 const WORD_CAP = 6;
-const WORD_FAMILY = { flower: 'flower', tulip: 'flower', bird: 'bird', hummingbird: 'bird', chick: 'bird', duck: 'bird' };
+const WORD_FAMILY = { flower: 'flower', tulip: 'flower', bird: 'bird', hummingbird: 'bird', chick: 'bird', duck: 'bird', ostrich: 'bird', owl: 'bird', hen: 'bird', rooster: 'bird', chicken: 'bird', swan: 'bird', peacock: 'bird', parrot: 'bird', turkey: 'bird', goose: 'bird', flamingo: 'bird', penguin: 'bird', eagle: 'bird', crow: 'bird', pigeon: 'bird', seagull: 'bird', stork: 'bird', toucan: 'bird' };
 const wordFamily = (k) => WORD_FAMILY[k] || k;
 /** the GENERIC key (flower, bird) of every family with ≥ 2 distinct keys in the picture: it is never changed and never
  * listed, so the specific word (tulip, hummingbird) is the only word a child can give that drawing. Withholding both
@@ -119,7 +120,7 @@ function clashKeys(keys) {
   return out;
 }
 const COUNT_OF = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10, 'what-changed': 3, 'mirror-pair': 4, missing: 3, pairs: 3, write: 3 };
-const TAP_KEY = { base: 'fd-tap', 'three-big': 'fd-tap', colour: 'fd-tap', seven: 'fd-tap', 'ten-pairs': 'fd-tap', 'how-many': 'fd-tapCount', 'what-changed': 'fd-tapWords', 'mirror-pair': 'fd-tapMirror', missing: 'fd-tapMissing', pairs: 'fd-tapPairs', write: 'fd-tap' };
+const TAP_KEY = { base: 'fd-tap', 'three-big': 'fd-tap', colour: 'fd-tap', seven: 'fd-tapPairs2', 'ten-pairs': 'fd-tapPairs2', 'how-many': 'fd-tapCount', 'what-changed': 'fd-tapWords', 'mirror-pair': 'fd-tapMirror', missing: 'fd-tapMissing', pairs: 'fd-tapPairs', write: 'fd-tap' };
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv|atividade|printable/iu;
 const KEY_PROMISE = /answer key|with answers|mit lösung|con soluciones|com gabarito|avec corrigé|con soluzioni|met antwoorden|med facit|med svar|vastauksin|online|interactive/iu;
 const FORBIDDEN_VERB = { en: /(?<!\p{L})(draw|colou?r(?: \w+)? in|sort)(?!\p{L})/iu };   // "colour in" and "colour them in"
@@ -190,7 +191,7 @@ function validateBank(block, loc) {
   if (!Array.isArray(cw) || cw.length < 4 || cw.length > 8 || new Set(cw.map(nfc)).size !== cw.length) errs.push('changeWords: 4-8 distinct literals');
   // rule 5
   const tap = block.tap || {};
-  for (const k of ['fd-tap', 'fd-tapCount', 'fd-tapMirror', 'fd-tapMissing', 'fd-tapPairs', 'fd-tapWords']) { if (!tap[k]) errs.push(`tap.${k} missing`); else if ([...tap[k]].length > 150) errs.push(`tap.${k} > 150 chars`); }
+  for (const k of ['fd-tap', 'fd-tapCount', 'fd-tapMirror', 'fd-tapMissing', 'fd-tapPairs', 'fd-tapPairs2', 'fd-tapWords']) { if (!tap[k]) errs.push(`tap.${k} missing`); else if ([...tap[k]].length > 150) errs.push(`tap.${k} > 150 chars`); }
   // rule 6
   if (!block.strandNames || !block.strandNames['Visual Perception']) errs.push("strandNames['Visual Perception'] missing");
   if (!block.rail || !/^[a-z0-9-]+$/.test(block.rail.slug || '')) errs.push('rail.slug must be ASCII a-z 0-9 -');
@@ -208,7 +209,10 @@ function validateBank(block, loc) {
       for (const id of list) { const b = baseIdOf(id); if (bases.has(b)) errs.push(`${mode}: scene base ${b} is pinned on two faces`); bases.add(b); try { sceneName(id, loc); } catch (e) { errs.push(e.message); } }
       if (mode === 'what-changed' || mode === 'write') {
         const keys = new Set(sc[0].items.map((l) => vocabKeyOf(l.src)));
-        if (keys.size > 6) errs.push(`${mode}: ${list[0]} has ${keys.size} distinct nouns (≤ 6)`);
+        // the strip is capped at WORD_CAP (every changed noun + seeded decoys), so a rich scene's noun count is a POOL, not a
+        // list; what must hold is enough usable nouns for the count plus a decoy once the generic family words are withheld
+        const usable = [...keys].filter((k) => !clashKeys([...keys]).has(k)).length;
+        if (usable < (COUNT_OF[mode] || 3) + 1) errs.push(`${mode}: ${list[0]} has ${usable} usable nouns (< ${(COUNT_OF[mode] || 3) + 1})`);
         if (cw && cw.some((w) => [...keys].includes(nfc(w)))) errs.push(`${mode}: a change word equals a vocab key of ${list[0]}`);
       }
     }

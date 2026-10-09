@@ -439,5 +439,13 @@
   "cursive-writing": {
     "full": "Skrive små og store bogstaver i sammenhængende skrift, binde bogstaverne sammen, skrive og læse ord og skrive sætninger af fra trykte bogstaver.",
     "short": "Små og store bogstaver i sammenhængende skrift"
+  },
+  "find-the-differences": {
+    "full": "Find fem fejl til børnehaveklassen, 1. og 2. klasse: sammenlign to billeder, find og sæt ring om 3 til 10 fejl, med facit og en version, du kan trykke på direkte på skærmen.",
+    "short": "Sammenlign to billeder og find fejlene"
+  },
+  "how-to-draw": {
+    "full": "Tegn trin for trin til børnehaveklassen, 1. og 2. klasse: byg dyr af enkle former, følg stregerne, tegn færdig, tegn med gitter eller tegn efter hukommelsen.",
+    "short": "Lær at tegne dyr trin for trin"
   }
 }

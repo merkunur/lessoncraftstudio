@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Schrijf op wat er anders is",
-      "instruction": "Omcirkel de 3 verschillen en schrijf dan over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
+      "instruction": "Omcirkel de 3 verschillen (er kan ook iets weg zijn) en schrijf over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
     }
   },
   "tap": {
@@ -68,7 +68,8 @@
     "fd-tapMissing": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
     "fd-tapMirror": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
     "fd-tapPairs": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
-    "fd-tapWords": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn."
+    "fd-tapWords": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn.",
+    "fd-tapPairs2": "Twee paren plaatjes: kijk in elk paar naar plaatje 1 en tik dan in plaatje 2 op elke plek die anders is."
   },
   "numberWords": {
     "3": "drie",

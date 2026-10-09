@@ -269,10 +269,15 @@ module.exports = {
         body = C7.fdScreenStack({ panels: [p1, p2, `<div style="display:flex;flex-direction:column;gap:8px;width:675px;padding-top:4px">${rows.join('')}</div>`] });
       } else {
         const panels = [];
+        // a two-pair screen (seven / ten-pairs) is FOUR panels: each carries its index badge (1 / 2) in the corner and a
+        // divider separates the pairs — without them 'the top / bottom picture' named one panel each (the sv panel)
+        const badge = (n) => `<div style="position:absolute;left:10px;top:10px;pointer-events:none" data-lcs-fd-screen-tab="${n}">${C7.fdIndexTab({ n })}</div>`;
+        const wrap = (svg, n) => (comp.panels.length > 1 ? `<div style="position:relative">${svg}${badge(n)}</div>` : svg);
         comp.panels.forEach((p, i) => {
           const flip = !!d.flip;
-          panels.push(panelSvg(p, { width: sw, clipId: `fds${i}a`, attrs: ` data-lcs-fd-panel="1" data-lcs-fd-pair="${i}"`, ops: false }));
-          panels.push(panelSvg(p, { width: sw, clipId: `fds${i}b`, attrs: ` data-lcs-fd-panel="2" data-lcs-fd-pair="${i}"`, ops: true, flip, hotspots: screenHotspots(p, i, planMeta) }));
+          if (i > 0) panels.push('<div data-lcs-fd-pair-divider="1" style="height:4px;background:#C8BFAE;border-radius:2px;margin:10px 24px"></div>');
+          panels.push(wrap(panelSvg(p, { width: sw, clipId: `fds${i}a`, attrs: ` data-lcs-fd-panel="1" data-lcs-fd-pair="${i}"`, ops: false }), 1));
+          panels.push(wrap(panelSvg(p, { width: sw, clipId: `fds${i}b`, attrs: ` data-lcs-fd-panel="2" data-lcs-fd-pair="${i}"`, ops: true, flip, hotspots: screenHotspots(p, i, planMeta) }), 2));
         });
         body = C7.fdScreenStack({ panels });
       }

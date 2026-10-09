@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "en kat",
+      "stem": "kat",
+      "n": "katten"
+    },
+    "animals-bw-2-dog": {
+      "t": "en hund",
+      "stem": "hund",
+      "n": "hunden"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "en kanin",
+      "stem": "kanin",
+      "n": "kaninen"
+    },
+    "farm-animals-bw-pony": {
+      "t": "en hest",
+      "stem": "hest",
+      "n": "hesten"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "en dinosaur",
+      "stem": "dinosaur",
+      "n": "dinosauren"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "en fisk",
+      "stem": "fisk",
+      "n": "fisken"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "en frø",
+      "stem": "frø",
+      "n": "frøen"
+    },
+    "animals-bw-5-owl": {
+      "t": "en ugle",
+      "stem": "ugle",
+      "n": "uglen"
+    },
+    "birds-bw-hummingbird": {
+      "t": "en fugl",
+      "stem": "fugl",
+      "n": "fuglen"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "en bjørn",
+      "stem": "bjørn",
+      "n": "bjørnen"
+    },
+    "easter-bw-butterfly": {
+      "t": "en sommerfugl",
+      "stem": "sommerfugl",
+      "n": "sommerfuglen"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "kat",
+    "animals-bw-2-dog": "hund",
+    "animals-bw-4-rabbit-2": "kanin",
+    "farm-animals-bw-pony": "hest",
+    "animals-bw-3-dinosaur": "dinosaur",
+    "animals-bw-3-fish-2": "fisk",
+    "animals-bw-3-frog-2": "frø",
+    "animals-bw-5-owl": "ugle",
+    "birds-bw-hummingbird": "fugl",
+    "zoo-animals-bw-bear-2": "bjørn",
+    "easter-bw-butterfly": "sommerfugl"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Min bjørn er",
+      "Den kan",
+      "Den kan lide"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Tegn {L} trin for trin",
+      "instruction": "Kig på de fire nummererede trin, og tegn katten på det store papir: først omridset og så de nye streger, du ser i hvert trin."
+    },
+    "shapes": {
+      "title": "Tegn {L} ud fra enkle former",
+      "instruction": "Tegn oven på de stiplede former, der allerede er på papiret, tegn så hundens omrids rundt om dem, og gør hunden færdig med trinnene."
+    },
+    "trace": {
+      "title": "Følg {L} med blyanten, og tegn den selv",
+      "instruction": "Følg den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+    },
+    "finish": {
+      "title": "Tegn {N} færdig",
+      "instruction": "Kig på hele hesten, tegn de streger, der mangler på den anden hest, og tegn så din egen hest i boksen nedenunder."
+    },
+    "grid": {
+      "title": "Tegn {L} med gitter",
+      "instruction": "Kig på dinosauren i gitteret, tegn den felt for felt i det tomme gitter, og tegn den så en gang til uden gitter."
+    },
+    "word": {
+      "title": "Tegn {L}, og skriv ordet",
+      "instruction": "Følg trinnene, og tegn fisken i boksen; skriv så oven på ordet nedenunder, og skriv det selv."
+    },
+    "scene": {
+      "title": "Tegn {L} ved dammen",
+      "instruction": "Følg trinnene, og tegn så frøen på den tomme dam i billedet."
+    },
+    "order": {
+      "title": "Sæt trinnene i rækkefølge: tegn {L}",
+      "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem i den rigtige rækkefølge, og tegn så uglen."
+    },
+    "copy-steps": {
+      "title": "Trin for trin: tegn {L}",
+      "instruction": "Tegn det, du ser i hvert trin, i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+    },
+    "write": {
+      "title": "Tegn {L}, og skriv om den",
+      "instruction": "Tegn bjørnen med trinnene, og skriv så tre sætninger om din bjørn på linjerne; begynd med de ord, der allerede står der."
+    },
+    "memory": {
+      "title": "Tegn {L} efter hukommelsen",
+      "instruction": "Kig på sommerfuglen, fold papiret bagud langs den stiplede linje, så du ikke kan se den, og tegn den efter hukommelsen på det store papir.",
+      "foldWord": "fold"
+    }
+  }
+}

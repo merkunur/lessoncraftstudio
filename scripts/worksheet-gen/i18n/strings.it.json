@@ -3015,7 +3015,7 @@
   },
   "K-396": {
     "title": "Come disegnare {L} passo dopo passo",
-    "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee arancioni dei passaggi successivi."
+    "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee nuove di ogni passaggio."
   },
   "K-397": {
     "title": "Trova le 3 grandi differenze: {UNIT}",
@@ -3055,7 +3055,7 @@
   },
   "G2-389": {
     "title": "Trova e descrivi le differenze",
-    "instruction": "Cerchia le 3 differenze, poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+    "instruction": "Cerchia le 3 differenze (qualcosa può mancare), poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
   },
   "K-401": {
     "title": "Disegna {L} partendo da forme semplici",

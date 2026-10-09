@@ -1,0 +1,82 @@
+{
+  "starter": "På bild 2",
+  "changeWords": [
+    "saknas",
+    "har kommit till",
+    "är större",
+    "är mindre",
+    "har flyttat sig",
+    "har vänt på sig",
+    "har bytts ut"
+  ],
+  "strandNames": {
+    "Visual Perception": "Visuell perception"
+  },
+  "rail": {
+    "slug": "finn-fem-fel",
+    "name": "Finn fem fel"
+  },
+  "strings": {
+    "base": {
+      "title": "Finn fem fel: {UNIT}",
+      "instruction": "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
+    },
+    "three-big": {
+      "title": "Finn tre fel: {UNIT}",
+      "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
+    },
+    "colour": {
+      "title": "Hitta felen i färgbilden",
+      "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
+    },
+    "seven": {
+      "title": "Finn sju fel vid dammen",
+      "instruction": "Ringa in de 7 felen, 4 i det vänstra bildparet och 3 i det högra, och kryssa i en ruta under paret för varje fel."
+    },
+    "ten-pairs": {
+      "title": "Finn tio fel i trädgården",
+      "instruction": "Ringa in de 10 felen, 5 i varje bildpar, och kryssa i en ruta under paret för varje fel du hittar."
+    },
+    "how-many": {
+      "title": "Hur många fel hittar du?",
+      "instruction": "Ringa in varje fel i den nedre bilden (något kan också ha försvunnit) och skriv sedan i rutan hur många fel du hittade."
+    },
+    "what-changed": {
+      "title": "Vad har ändrats? Kryssa i orden",
+      "instruction": "Ringa in de 3 felen i den nedre bilden och kryssa sedan i orden för de saker som har ändrats."
+    },
+    "mirror-pair": {
+      "title": "Spegelvänd bild: hitta felen",
+      "instruction": "Bild 2 är spegelvänd; ringa in de 4 saker eller tomma ställen som ändå är annorlunda, kryssa i en ruta för varje och vik längs linjen för att kolla."
+    },
+    "missing": {
+      "title": "Vad saknas i bilden?",
+      "instruction": "Ringa in de 3 tomma ställen i den nedre bilden där något från den övre bilden saknas, och kryssa i en ruta för varje."
+    },
+    "pairs": {
+      "title": "Bildpar: hitta felet",
+      "instruction": "Varje rad visar samma utsnitt två gånger; ringa in det enda ställe som är annorlunda i den högra bilden och kryssa i rutan på den raden."
+    },
+    "write": {
+      "title": "Skriv vad som är annorlunda",
+      "instruction": "Ringa in de 3 felen (något kan saknas) och skriv sedan en mening om varje fel på raderna; använd orden i de två remsorna."
+    }
+  },
+  "tap": {
+    "fd-tap": "Titta noga på bilden ovanför och tryck sedan på varje ställe i bilden under som är annorlunda.",
+    "fd-tapCount": "Hitta varje fel i den nedre bilden (något kan också ha försvunnit) och tryck sedan på siffran som visar hur många fel det finns.",
+    "fd-tapMirror": "Den nedre bilden är spegelvänd. Tryck på varje ställe i den som ändå är annorlunda.",
+    "fd-tapMissing": "Tryck på varje tomt ställe i den nedre bilden där något från den övre bilden saknas.",
+    "fd-tapPairs": "Varje par visar samma utsnitt två gånger. Tryck på det enda ställe som är annorlunda i den andra bilden i varje par.",
+    "fd-tapWords": "Hitta vad som har ändrats i den nedre bilden och tryck sedan på orden för de saker som har ändrats.",
+    "fd-tapPairs2": "Två bildpar: titta på bild 1 i varje par och tryck sedan på varje ställe i bild 2 som är annorlunda."
+  },
+  "numberWords": {
+    "3": "tre",
+    "5": "fem",
+    "7": "sju",
+    "10": "tio"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

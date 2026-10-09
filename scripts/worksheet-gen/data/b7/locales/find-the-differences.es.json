@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Encuentra y escribe las diferencias",
-      "instruction": "Encierra en un círculo las 3 diferencias y luego escribe una oración sobre cada una en los renglones, usando las palabras de las dos tiras."
+      "instruction": "Encierra en un círculo las 3 diferencias (algo puede faltar) y escribe una oración sobre cada una en los renglones con las palabras de las dos tiras."
     }
   },
   "tap": {
@@ -68,7 +68,8 @@
     "fd-tapMirror": "La imagen de abajo está volteada como en un espejo. Toca cada lugar que aún sea diferente.",
     "fd-tapMissing": "Toca cada lugar vacío de la imagen de abajo donde falta algo de la imagen de arriba.",
     "fd-tapPairs": "Cada par muestra el mismo pedacito dos veces. Toca lo que cambió en la segunda imagen de cada par.",
-    "fd-tapWords": "Encuentra qué cambió en la imagen de abajo y luego toca las palabras de las cosas que cambiaron."
+    "fd-tapWords": "Encuentra qué cambió en la imagen de abajo y luego toca las palabras de las cosas que cambiaron.",
+    "fd-tapPairs2": "Dos pares de imágenes: en cada par, mira la imagen 1 y luego toca cada lugar de la imagen 2 que sea diferente."
   },
   "numberWords": {
     "3": "tres",

@@ -57,6 +57,15 @@ function pickOps(scene, cfg, rng) {
   for (let t = 0; t < TRIES; t++) {
     const heroAllowed = cfg.heroProb == null ? true : rng.next() < cfg.heroProb;
     let order = rng.shuffle(pool2.slice());
+    // cfg.itemFirst (the word faces): the walk meets every ITEM once before any item twice — a uniform shuffle of the
+    // candidates lets a cloud with twelve ops change on every seed while a hero with three never does (sun / cloud 100 %
+    // on the word pins, measured 2026-10-09). Round-robin over the items (an add keyed by its drawing), group order shuffled.
+    if (cfg.itemFirst) {
+      const groups = new Map();
+      for (const c of order) { const k = c.item != null ? 'i' + c.item : 'a' + c.src; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(c); }
+      const gs = rng.shuffle([...groups.values()]);
+      order = []; for (let d = 0; gs.some((g) => g.length > d); d++) for (const g of gs) if (g[d]) order.push(g[d]);
+    }
     // cfg.heroFront (0..1): on that share of tries ONE hero candidate is spliced to the FRONT, so the hero carries a difference
     // on roughly that share of pages where its geometry allows (the allow-gate alone cannot raise a hero that rarely fits)
     if (cfg.heroFront != null && heroIdx != null && heroAllowed && rng.next() < cfg.heroFront) { const hi = order.findIndex((c) => c.item === heroIdx); if (hi >= 0) { const [h] = order.splice(hi, 1); order.unshift(h); } }

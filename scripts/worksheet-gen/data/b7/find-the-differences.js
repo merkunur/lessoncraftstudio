@@ -42,11 +42,11 @@ const UNITS = {
   base: 'garden-dog-rich', 'three-big': 'pond-goose', colour: 'pond-frog-rich',
   seven: ['pond-turtle-rich', 'pond-alligator-rich'], 'ten-pairs': ['kite-rich', 'ladybug-rich'],   // re-pinned 2026-10-09: the beach pair refuses 5 at the G2 floor on the rebuilt data; hero waived (see the row)
   'how-many': 'house-rich',
-  'what-changed': 'garden-hedgehog',   // re-pinned 2026-10-09: garden-bunny read hero 14 % / tulip 88 % on the rebuilt data
+  'what-changed': 'kangaroo-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
   'mirror-pair': 'forest-fox-rich', 'mirror-pair': 'forest-fox-rich',
   missing: 'night-owl-rich',   // re-pinned 2026-10-09: farm-rooster-rich's removable props never fall in one quadrant (33/33/0/33) on the rebuilt data
   pairs: 'garden-ladybug-rich',   // re-pinned 2026-10-09: the ONLY unit in band once the window placer existed (10 of 388 compose, 1 in band); the FINAL's first-to-cut face, kept on its measured pool
-  write: 'garden-bird',
+  write: 'elephant-rich',   // re-pinned 2026-10-09 (2nd): rich pool, hero 0.35, quadrants 25/25/25/25
 };
 const BAND = { base: 'K', 'three-big': 'K', colour: 'K', seven: 'G1', 'ten-pairs': 'G2', 'how-many': 'G1', 'what-changed': 'G1', 'mirror-pair': 'G1', missing: 'K', pairs: 'K', write: 'G2' };
 const FD_DIR = path.join(__dirname, '..', 'fd');
@@ -75,14 +75,14 @@ const FIND_THE_DIFFERENCES = {
     strings: {
       base: { title: 'Find 5 Differences: {UNIT}', instruction: 'Compare picture 1 with picture 2 below it, circle the 5 things that are different and tick a box for each one.' },
       'three-big': { title: 'Find 3 Differences: {UNIT}', instruction: 'Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes.' },
-      colour: { title: 'Find the Differences in Colour', instruction: 'Circle the 5 things in the coloured bottom picture that are different; at least one of them has a new colour.' },
+      colour: { title: 'Find the Differences in Color', instruction: 'Circle the 5 things in the colored bottom picture that are different and tick a box for each; at least one of them has a new color.' },
       seven: { title: 'Find 7 Differences at the Pond', instruction: 'Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each.' },
       'ten-pairs': { title: 'Find 10 Differences in the Garden', instruction: 'Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find.' },
       'how-many': { title: 'How Many Differences?', instruction: 'Circle every difference you find in the bottom picture, then write how many you found in the box.' },
       'what-changed': { title: 'What Changed? Tick the Words', instruction: 'Circle the 3 differences in the bottom picture, then tick the words of the things that changed.' },
-      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things that are still different, then fold on the line to check.' },
+      'mirror-pair': { title: 'Mirror Pictures: Fold and Check', instruction: 'Picture 2 is flipped like a mirror; circle the 4 things that are still different, tick a box for each, then fold on the line to check.' },
       missing: { title: 'What Is Missing?', instruction: 'Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each.' },
-      pairs: { title: 'Picture Pairs: Find the Difference', instruction: 'Each row shows the same close-up twice; circle the one thing that is different in the right picture and tick the box of that row.' },
+      pairs: { title: 'Picture Pairs: Find the Differences', instruction: 'Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row.' },
       write: { title: 'Write What Is Different', instruction: 'Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips.' },
     },
     tap: {
@@ -90,7 +90,7 @@ const FIND_THE_DIFFERENCES = {
       'fd-tapCount': 'Find every difference in the bottom picture, then tap the number that says how many there are.',
       'fd-tapMirror': 'The bottom picture is flipped like a mirror. Tap every place in it that is still different.',
       'fd-tapMissing': 'Tap every empty place in the bottom picture where something from the top picture is missing.',
-      'fd-tapPairs': 'Each pair shows the same close-up twice. Tap the one thing that is different in the second picture of every pair.',
+      'fd-tapPairs': 'Each pair shows the same close-up twice. Tap the one place that is different in the second picture of every pair.',
       'fd-tapWords': 'Find what changed in the bottom picture, then tap the words of the things that changed.',
     },
     numberWords: { 3: 'three', 5: 'five', 7: 'seven', 10: 'ten' },
@@ -101,6 +101,23 @@ const FIND_THE_DIFFERENCES = {
 
 /** the faces whose TITLE carries the count (FINAL §5 rule 2); every other title carries no number */
 const TITLE_COUNT = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10 };
+/** the word faces (a strip of the picture's nouns): a hypernym and its hyponym are ONE family to a six-year-old — a
+ * changed tulip with 'flower' on the strip has two right answers; the family is never changed and never listed */
+const WORD_MODES = ['what-changed', 'write'];
+/** the word strip holds at most this many nouns: every changed one + seeded decoys (rich scenes, 2026-10-09) */
+const WORD_CAP = 6;
+const WORD_FAMILY = { flower: 'flower', tulip: 'flower', bird: 'bird', hummingbird: 'bird', chick: 'bird', duck: 'bird' };
+const wordFamily = (k) => WORD_FAMILY[k] || k;
+/** the GENERIC key (flower, bird) of every family with ≥ 2 distinct keys in the picture: it is never changed and never
+ * listed, so the specific word (tulip, hummingbird) is the only word a child can give that drawing. Withholding both
+ * members starved the faces: 1 scene in band of 171 (sweep 2026-10-09). */
+function clashKeys(keys) {
+  const byFam = new Map();
+  for (const k of new Set(keys)) { const f = wordFamily(k); if (!byFam.has(f)) byFam.set(f, new Set()); byFam.get(f).add(k); }
+  const out = new Set();
+  for (const [f, ks] of byFam) if (ks.size >= 2 && ks.has(f)) out.add(f);
+  return out;
+}
 const COUNT_OF = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10, 'what-changed': 3, 'mirror-pair': 4, missing: 3, pairs: 3, write: 4 };
 const TAP_KEY = { base: 'fd-tap', 'three-big': 'fd-tap', colour: 'fd-tap', seven: 'fd-tap', 'ten-pairs': 'fd-tap', 'how-many': 'fd-tapCount', 'what-changed': 'fd-tapWords', 'mirror-pair': 'fd-tapMirror', missing: 'fd-tapMissing', pairs: 'fd-tapPairs', write: 'fd-tap' };
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv|atividade|printable/iu;
@@ -223,4 +240,4 @@ function validateScenes(ids) {
 }
 
 // FIND_THE_DIFFERENCES FIRST: lib/b7-common.js bankModule() takes the module's first export as the locale map
-module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes };
+module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys };

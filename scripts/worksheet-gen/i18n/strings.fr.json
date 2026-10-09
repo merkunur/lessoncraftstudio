@@ -3062,7 +3062,7 @@
   },
   "G1-415": {
     "title": "Images en miroir : plie et vérifie",
-    "instruction": "L'image 2 est retournée comme dans un miroir : entoure les 4 choses qui sont quand même différentes, puis plie sur la ligne pour vérifier."
+    "instruction": "L'image 2 est en miroir : entoure les 4 choses encore différentes, coche une case pour chacune, puis plie sur la ligne pour vérifier."
   },
   "K-399": {
     "title": "Qu'est-ce qui manque dans l'image du bas ?",
@@ -3070,7 +3070,7 @@
   },
   "K-400": {
     "title": "Paires d'images : trouve la différence",
-    "instruction": "Chaque ligne montre le même gros plan deux fois : entoure la seule chose qui est différente dans l'image de droite, puis coche la case."
+    "instruction": "Chaque ligne montre le même gros plan deux fois : entoure le seul endroit qui est différent dans l'image de droite, puis coche la case."
   },
   "G2-389": {
     "title": "Trouve et décris les différences",
@@ -3098,7 +3098,7 @@
   },
   "G1-417": {
     "title": "Dessine {L} au bord de la mare",
-    "instruction": "Suis les étapes, puis dessine la grenouille dans l'image, sur l'herbe vide au bord de la mare."
+    "instruction": "Suis les étapes, puis dessine la grenouille dans l'image, à la place vide sur la mare."
   },
   "G1-418": {
     "title": "Remets les étapes dans l'ordre : dessiner {L}",

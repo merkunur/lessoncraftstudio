@@ -81,7 +81,7 @@ const HOW_TO_DRAW = {
       finish: { title: 'Finish the {N} Drawing', instruction: 'Look at the whole horse, draw the lines that are missing on the second horse, then draw a horse of your own below.' },
       grid: { title: 'Draw {L} with the Grid', instruction: 'Look at the dinosaur on the grid and draw it on the empty grid one square at a time, then once more without the grid.' },
       word: { title: 'Draw {L} and Write the Word', instruction: 'Follow the steps to draw the fish on the paper, then trace the word under it and write it once more.' },
-      scene: { title: 'Draw {L} at the Pond', instruction: 'Follow the steps, then draw the frog into the picture on the empty bank next to the pond.' },
+      scene: { title: 'Draw {L} at the Pond', instruction: 'Follow the steps, then draw the frog back into the picture, on the empty pond where it was.' },
       order: { title: 'Order the Steps: Drawing {L}', instruction: 'The steps are mixed up: write 1 to 5 in the boxes beside them in the right order, then draw the owl.' },
       'copy-steps': { title: 'Copy Each Step: Draw {L}', instruction: 'Draw what you see in each step in the box under it, adding the orange lines as you go, then the whole bird below.' },
       write: { title: 'Draw {L}, Then Write About It', instruction: 'Draw the bear with the steps, then write three sentences about your bear on the lines, starting with the printed words.' },

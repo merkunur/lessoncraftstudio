@@ -1,0 +1,81 @@
+{
+  "starter": "En la imagen 2,",
+  "changeWords": [
+    "falta",
+    "apareció",
+    "creció",
+    "se encogió",
+    "se movió",
+    "mira al otro lado",
+    "cambió"
+  ],
+  "strandNames": {
+    "Visual Perception": "Discriminación visual"
+  },
+  "rail": {
+    "slug": "busca-las-diferencias",
+    "name": "Busca las diferencias"
+  },
+  "strings": {
+    "base": {
+      "title": "Busca las 5 diferencias: {UNIT}",
+      "instruction": "Compara la imagen 1 con la imagen 2 de abajo, encierra en un círculo las 5 cosas diferentes y marca un cuadrito por cada una."
+    },
+    "three-big": {
+      "title": "Encuentra las 3 diferencias: {UNIT}",
+      "instruction": "Busca las 3 cosas grandes que cambiaron en la imagen de abajo, enciérralas en un círculo y marca los 3 cuadritos."
+    },
+    "colour": {
+      "title": "Busca las diferencias a color",
+      "instruction": "Encierra en un círculo las 5 cosas diferentes de la imagen de abajo y marca un cuadrito por cada una; por lo menos una cambió de color."
+    },
+    "seven": {
+      "title": "Busca las 7 diferencias en el estanque",
+      "instruction": "Encierra en un círculo las 7 diferencias, 4 en el par de imágenes de la izquierda y 3 en el par de la derecha, y marca un cuadrito por cada una."
+    },
+    "ten-pairs": {
+      "title": "Encuentra las 10 diferencias en el jardín",
+      "instruction": "Encierra en un círculo las 10 diferencias, 5 en cada par de imágenes, y marca un cuadrito debajo del par por cada una que encuentres."
+    },
+    "how-many": {
+      "title": "¿Cuántas diferencias hay?",
+      "instruction": "Encierra en un círculo todas las diferencias que encuentres en la imagen de abajo y escribe en el cuadro cuántas encontraste."
+    },
+    "what-changed": {
+      "title": "¿Qué cambió? Marca las palabras",
+      "instruction": "Encierra en un círculo las 3 diferencias de la imagen de abajo y después marca las palabras de las cosas que cambiaron."
+    },
+    "mirror-pair": {
+      "title": "Imagen en espejo: busca las diferencias",
+      "instruction": "La imagen 2 está al revés, como en un espejo; encierra las 4 cosas aún diferentes, marca un cuadrito por cada una y dobla por la línea para revisar."
+    },
+    "missing": {
+      "title": "¿Qué falta en la imagen de abajo?",
+      "instruction": "Encierra en un círculo los 3 lugares vacíos de la imagen de abajo donde falta algo de la imagen de arriba y marca un cuadrito por cada uno."
+    },
+    "pairs": {
+      "title": "Parejas de imágenes: busca la diferencia",
+      "instruction": "Cada fila muestra el mismo pedacito dos veces; encierra en un círculo lo que cambió en la imagen de la derecha y marca el cuadrito de esa fila."
+    },
+    "write": {
+      "title": "Encuentra y escribe las diferencias",
+      "instruction": "Encierra en un círculo las 4 diferencias y luego escribe una oración sobre cada una en los renglones, usando las palabras de las dos tiras."
+    }
+  },
+  "tap": {
+    "fd-tap": "Mira la imagen de arriba y luego toca cada lugar de la imagen de abajo que sea diferente.",
+    "fd-tapCount": "Encuentra todas las diferencias en la imagen de abajo y luego toca el número que dice cuántas hay.",
+    "fd-tapMirror": "La imagen de abajo está volteada como en un espejo. Toca cada lugar que aún sea diferente.",
+    "fd-tapMissing": "Toca cada lugar vacío de la imagen de abajo donde falta algo de la imagen de arriba.",
+    "fd-tapPairs": "Cada par muestra el mismo pedacito dos veces. Toca lo que cambió en la segunda imagen de cada par.",
+    "fd-tapWords": "Encuentra qué cambió en la imagen de abajo y luego toca las palabras de las cosas que cambiaron."
+  },
+  "numberWords": {
+    "3": "tres",
+    "5": "cinco",
+    "7": "siete",
+    "10": "diez"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

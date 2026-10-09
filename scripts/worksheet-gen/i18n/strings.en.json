@@ -1004,16 +1004,16 @@
     "instruction": "Find the 3 big things that are different in the bottom picture, circle them and tick the 3 boxes."
   },
   "K-398": {
-    "title": "Find the Differences in Colour",
-    "instruction": "Circle the 5 things in the coloured bottom picture that are different; at least one of them has a new colour."
+    "title": "Find the Differences in Color",
+    "instruction": "Circle the 5 things in the colored bottom picture that are different and tick a box for each; at least one of them has a new color."
   },
   "K-399": {
     "title": "What Is Missing?",
     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each."
   },
   "K-400": {
-    "title": "Picture Pairs: Find the Difference",
-    "instruction": "Each row shows the same close-up twice; circle the one thing that is different in the right picture and tick the box of that row."
+    "title": "Picture Pairs: Find the Differences",
+    "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row."
   },
   "K-401": {
     "title": "Draw {L} with Simple Shapes",
@@ -2037,7 +2037,7 @@
   },
   "G1-415": {
     "title": "Mirror Pictures: Fold and Check",
-    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things that are still different, then fold on the line to check."
+    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things that are still different, tick a box for each, then fold on the line to check."
   },
   "G1-416": {
     "title": "Draw {L} with the Grid",
@@ -2045,7 +2045,7 @@
   },
   "G1-417": {
     "title": "Draw {L} at the Pond",
-    "instruction": "Follow the steps, then draw the frog into the picture on the empty bank next to the pond."
+    "instruction": "Follow the steps, then draw the frog back into the picture, on the empty pond where it was."
   },
   "G1-418": {
     "title": "Order the Steps: Drawing {L}",

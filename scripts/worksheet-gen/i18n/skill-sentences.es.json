@@ -438,5 +438,13 @@
   "cursive-writing": {
     "full": "Letra cursiva para primaria: las vocales y las letras ligadas, mayúsculas con nombres, cómo unir dos letras, palabras, lectura en cursiva y oraciones para copiar.",
     "short": "Practicar la letra cursiva ligada en doble raya"
+  },
+  "find-the-differences": {
+    "full": "El niño compara dos imágenes casi iguales, descubre qué cambió y encierra cada diferencia en un círculo: un juego de observación que ejercita la discriminación visual.",
+    "short": "Busca las diferencias: observar, comparar y encerrar"
+  },
+  "how-to-draw": {
+    "full": "El niño aprende a dibujar un animal paso a paso: primero el contorno, luego los detalles, hasta terminar su propio dibujo completo en el recuadro grande.",
+    "short": "Cómo dibujar animales paso a paso"
   }
 }

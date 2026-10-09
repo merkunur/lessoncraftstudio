@@ -3032,5 +3032,93 @@
   "K-394": {
     "title": "Colorir por números: {UNIT}",
     "instruction": "Pinte cada parte com a cor do seu número."
+  },
+  "K-395": {
+    "title": "Jogo dos 5 erros: {UNIT}",
+    "instruction": "Compare a figura 1 com a figura 2 logo abaixo, circule as 5 coisas que estão diferentes e marque um quadradinho para cada uma."
+  },
+  "K-396": {
+    "title": "Como desenhar {L} passo a passo",
+    "instruction": "Olhe os quatro passos numerados e desenhe o gato no papel grande: primeiro o contorno e depois as linhas laranja dos outros passos."
+  },
+  "K-397": {
+    "title": "Ache as 3 diferenças: {UNIT}",
+    "instruction": "Procure as 3 coisas grandes que mudaram na figura de baixo, circule cada uma e marque os 3 quadradinhos."
+  },
+  "K-398": {
+    "title": "Jogo das diferenças colorido",
+    "instruction": "Circule as 5 coisas que mudaram na figura colorida de baixo e marque um quadradinho para cada uma: pelo menos uma delas mudou de cor."
+  },
+  "G1-412": {
+    "title": "Jogo dos 7 erros na lagoa",
+    "instruction": "Circule os 7 erros, 4 no par de figuras da esquerda e 3 no par da direita, e marque um quadradinho para cada erro que achar."
+  },
+  "G2-388": {
+    "title": "Jogo dos 10 erros no jardim: nível difícil",
+    "instruction": "Circule os 10 erros, 5 em cada par de figuras, e marque um quadradinho embaixo do par para cada erro que achar."
+  },
+  "G1-413": {
+    "title": "Quantas diferenças você encontra?",
+    "instruction": "Circule todas as diferenças que você achar na figura de baixo e depois escreva no quadro quantas você encontrou."
+  },
+  "G1-414": {
+    "title": "O que mudou? Marque as palavras",
+    "instruction": "Circule as 3 diferenças na figura de baixo e depois marque as palavras das coisas que mudaram."
+  },
+  "G1-415": {
+    "title": "Figuras no espelho: dobre e confira",
+    "instruction": "A figura 2 está virada como no espelho: circule as 4 coisas que ainda estão diferentes, marque os quadradinhos e dobre na linha para conferir."
+  },
+  "K-399": {
+    "title": "O que está faltando? Circule o lugar vazio",
+    "instruction": "Circule os 3 lugares vazios da figura de baixo onde falta algo que está na figura de cima e marque um quadradinho para cada um."
+  },
+  "K-400": {
+    "title": "Pares de figuras: ache a diferença em cada par",
+    "instruction": "Cada linha mostra o mesmo pedaço da figura duas vezes: circule o que está diferente na figura da direita e marque o quadradinho da linha."
+  },
+  "G2-389": {
+    "title": "Encontre e escreva as diferenças",
+    "instruction": "Circule as 4 diferenças e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
+  },
+  "K-401": {
+    "title": "Desenhe {L} com formas simples",
+    "instruction": "Passe o lápis por cima das formas pontilhadas do papel, desenhe o contorno do cachorro em volta delas e termine com os passos."
+  },
+  "K-402": {
+    "title": "Cubra e depois desenhe {L} sozinho",
+    "instruction": "Cubra o coelho cinza-claro com o lápis e depois desenhe o coelho sozinho no quadro vazio ao lado."
+  },
+  "K-403": {
+    "title": "Complete o desenho de {L}",
+    "instruction": "Olhe o cavalo completo, desenhe no segundo cavalo as linhas que estão faltando e depois desenhe um cavalo sozinho no quadro de baixo."
+  },
+  "G1-416": {
+    "title": "Desenhe {L} com a ajuda da grade",
+    "instruction": "Olhe o dinossauro na grade, copie o desenho na grade vazia um quadradinho de cada vez e depois desenhe mais uma vez sem a grade."
+  },
+  "K-404": {
+    "title": "Desenhe {L} e escreva a palavra",
+    "instruction": "Siga os passos para desenhar o peixe no papel, depois cubra a palavra embaixo e escreva mais uma vez."
+  },
+  "G1-417": {
+    "title": "Desenhe {L} na beira da lagoa",
+    "instruction": "Siga os passos e depois desenhe o sapo de volta na figura, no lugar vazio em cima da lagoa."
+  },
+  "G1-418": {
+    "title": "Coloque os passos em ordem e desenhe {L}",
+    "instruction": "Os passos estão fora de ordem: escreva de 1 a 5 nos quadradinhos ao lado para colocar na ordem certa e depois desenhe a coruja."
+  },
+  "G1-419": {
+    "title": "Copie cada passo e desenhe {L}",
+    "instruction": "Desenhe no quadro de baixo o que você vê em cada passo, acrescentando as linhas laranja, e depois o beija-flor inteiro no quadro grande."
+  },
+  "G2-390": {
+    "title": "Desenhe {L} e escreva sobre ele",
+    "instruction": "Desenhe o urso seguindo os passos e depois escreva três frases sobre o seu urso nas linhas, começando pelas palavras já escritas."
+  },
+  "G2-391": {
+    "title": "Desenhe {L} de memória",
+    "instruction": "Olhe bem a borboleta, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe a borboleta de memória no papel grande."
   }
 }

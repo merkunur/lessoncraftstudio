@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "un gato",
+      "stem": "gato",
+      "n": "Gato"
+    },
+    "animals-bw-2-dog": {
+      "t": "un perro",
+      "stem": "perro",
+      "n": "Perro"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "un conejo",
+      "stem": "conejo",
+      "n": "Conejo"
+    },
+    "farm-animals-bw-pony": {
+      "t": "un caballo",
+      "stem": "caballo",
+      "n": "Caballo"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "un dinosaurio",
+      "stem": "dinosaurio",
+      "n": "Dinosaurio"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "un pez",
+      "stem": "pez",
+      "n": "Pez"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "una rana",
+      "stem": "rana",
+      "n": "Rana"
+    },
+    "animals-bw-5-owl": {
+      "t": "un búho",
+      "stem": "búho",
+      "n": "Búho"
+    },
+    "birds-bw-hummingbird": {
+      "t": "un colibrí",
+      "stem": "colibrí",
+      "n": "Colibrí"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "un oso",
+      "stem": "oso",
+      "n": "Oso"
+    },
+    "easter-bw-butterfly": {
+      "t": "una mariposa",
+      "stem": "mariposa",
+      "n": "Mariposa"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "gato",
+    "animals-bw-2-dog": "perro",
+    "animals-bw-4-rabbit-2": "conejo",
+    "farm-animals-bw-pony": "caballo",
+    "animals-bw-3-dinosaur": "dinosaurio",
+    "animals-bw-3-fish-2": "pez",
+    "animals-bw-3-frog-2": "rana",
+    "animals-bw-5-owl": "búho",
+    "birds-bw-hummingbird": "colibrí",
+    "zoo-animals-bw-bear-2": "oso",
+    "easter-bw-butterfly": "mariposa"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Mi oso es",
+      "Puede",
+      "Le gusta"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Cómo dibujar {L} paso a paso",
+      "instruction": "Mira los cuatro pasos numerados y dibuja el gato en el papel grande: primero el contorno y luego las líneas naranjas de los pasos 2 y 3."
+    },
+    "shapes": {
+      "title": "Dibuja {L} con figuras simples",
+      "instruction": "Repasa las figuras punteadas que ya están en el papel, dibuja el contorno del perro alrededor de ellas y termínalo siguiendo los pasos."
+    },
+    "trace": {
+      "title": "Calca y luego dibuja {L}",
+      "instruction": "Calca el conejo gris con tu lápiz y luego dibuja el conejo tú solo en el recuadro vacío de al lado."
+    },
+    "finish": {
+      "title": "Completa el dibujo de {L}",
+      "instruction": "Mira el caballo completo, dibuja las líneas que le faltan al segundo caballo y luego dibuja tu propio caballo en el recuadro de abajo."
+    },
+    "grid": {
+      "title": "Dibuja {L} en cuadrícula",
+      "instruction": "Mira el dinosaurio en la cuadrícula y dibújalo en la cuadrícula vacía, cuadro por cuadro; luego dibújalo otra vez sin cuadrícula."
+    },
+    "word": {
+      "title": "Dibuja {L} y escribe la palabra",
+      "instruction": "Sigue los pasos para dibujar el pez en el papel, luego repasa la palabra de abajo y escríbela una vez más."
+    },
+    "scene": {
+      "title": "Dibuja {L} en el estanque",
+      "instruction": "Sigue los pasos y luego dibuja la rana dentro de la escena, en el lugar vacío que hay sobre el estanque."
+    },
+    "order": {
+      "title": "Ordena los pasos: dibujar {L}",
+      "instruction": "Los pasos están revueltos: escribe del 1 al 5 en los cuadros de al lado, en el orden correcto, y luego dibuja el búho en el papel."
+    },
+    "copy-steps": {
+      "title": "Copia cada paso: dibuja {L}",
+      "instruction": "Dibuja lo que ves en cada paso en el recuadro de abajo, agregando cada vez las líneas nuevas, y al final el colibrí completo en el papel grande."
+    },
+    "write": {
+      "title": "Dibuja {L} y escribe sobre tu dibujo",
+      "instruction": "Dibuja el oso siguiendo los pasos y luego escribe tres oraciones sobre tu oso en los renglones, empezando con las palabras impresas."
+    },
+    "memory": {
+      "title": "Dibuja {L} de memoria",
+      "instruction": "Mira la mariposa, dobla la hoja hacia atrás por la línea punteada para que ya no la veas y dibújala de memoria en el papel grande.",
+      "foldWord": "dobla"
+    }
+  }
+}

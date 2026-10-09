@@ -46,7 +46,7 @@
     },
     "mirror-pair": {
       "title": "Spiegelbild: Finde die Unterschiede",
-      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, und falte das Blatt dann an der Linie, um es zu prüfen."
+      "instruction": "Bild 2 ist spiegelverkehrt; kreise die 4 Dinge ein, die trotzdem anders sind, hake je ein Kästchen ab und falte dann an der Linie, um zu prüfen."
     },
     "missing": {
       "title": "Was fehlt im Bild?",
@@ -54,7 +54,7 @@
     },
     "pairs": {
       "title": "Bildpaare: Finde den Unterschied",
-      "instruction": "Jede Reihe zeigt denselben Bildausschnitt zweimal; kreise im rechten Bild jeder Reihe das eine Ding ein, das anders ist."
+      "instruction": "Jede Reihe zeigt denselben Ausschnitt zweimal; kreise im rechten Bild die eine Stelle ein, die anders ist, und hake das Kästchen der Reihe ab."
     },
     "write": {
       "title": "Unterschiede finden und beschreiben",
@@ -66,7 +66,7 @@
     "fd-tapCount": "Finde im unteren Bild jeden Unterschied und tippe dann auf die Zahl, die sagt, wie viele es sind.",
     "fd-tapMirror": "Das untere Bild ist spiegelverkehrt. Tippe auf jede Stelle darin, die trotzdem anders ist.",
     "fd-tapMissing": "Tippe im unteren Bild auf jede leere Stelle, an der etwas aus dem oberen Bild fehlt.",
-    "fd-tapPairs": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf das eine Ding, das anders ist.",
+    "fd-tapPairs": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf die eine Stelle, die anders ist.",
     "fd-tapWords": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben."
   },
   "numberWords": {

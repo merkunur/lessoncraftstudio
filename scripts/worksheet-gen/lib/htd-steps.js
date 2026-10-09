@@ -43,13 +43,22 @@ function bboxOf(m, PW, PH) {
 }
 
 /** ellipse of inertia of a region's pixels (scaled to the region's area) + coverage both ways */
-function fitShape(lab, label, PW, PH, bbox) {
+function fitShape(lab, label, PW, PH, bbox, extra = null, opts = {}) {
   const [bx0, by0, bx1, by1] = bbox.map((v) => Math.round(v * U));
+  // the part FILLED: its own pixels + the parts it encloses (`extra` labels) + the ink lines between them (unlabelled
+  // pixels inside the bbox touching a filled pixel) — a face is a ring round its eyes and nose, and the ring alone
+  // fails the ellipse test, so the head of a dog got no guide while its ears did (the es/pt panels, 2026-10-09)
+  const mask = new Uint8Array(PW * PH);
+  for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) { const l = lab[y * PW + x]; if (l === label || (extra && extra.has(l))) mask[y * PW + x] = 1; }
+  if (extra) for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) {
+    const p = y * PW + x; if (lab[p] !== 0 || mask[p]) continue;
+    for (let dy = -2; dy <= 2 && !mask[p]; dy++) for (let dx = -2; dx <= 2; dx++) { const yy = y + dy, xx = x + dx; if (yy >= 0 && yy < PH && xx >= 0 && xx < PW && mask[yy * PW + xx] === 1) { mask[p] = 2; break; } }
+  }
   let n = 0, sx = 0, sy = 0;
-  for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) if (lab[y * PW + x] === label) { n++; sx += x; sy += y; }
+  for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) if (mask[y * PW + x]) { n++; sx += x; sy += y; }
   if (!n) return null;
   const cx = sx / n, cy = sy / n; let sxx = 0, syy = 0, sxy = 0;
-  for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) if (lab[y * PW + x] === label) { const dx = x - cx, dy = y - cy; sxx += dx * dx; syy += dy * dy; sxy += dx * dy; }
+  for (let y = by0; y <= by1; y++) for (let x = bx0; x <= bx1; x++) if (mask[y * PW + x]) { const dx = x - cx, dy = y - cy; sxx += dx * dx; syy += dy * dy; sxy += dx * dy; }
   sxx /= n; syy /= n; sxy /= n;
   const tr = sxx + syy, det = sxx * syy - sxy * sxy, disc = Math.sqrt(Math.max(0, tr * tr / 4 - det));
   const l1 = tr / 2 + disc, l2 = Math.max(1e-6, tr / 2 - disc);
@@ -61,15 +70,18 @@ function fitShape(lab, label, PW, PH, bbox) {
   const pad = Math.ceil(Math.max(rx, ry));
   for (let y = Math.max(0, Math.round(cy - pad)); y <= Math.min(PH - 1, Math.round(cy + pad)); y++) for (let x = Math.max(0, Math.round(cx - pad)); x <= Math.min(PW - 1, Math.round(cx + pad)); x++) {
     const dx = x - cx, dy = y - cy, u = (dx * ca + dy * sa) / rx, v = (-dx * sa + dy * ca) / ry;
-    if (u * u + v * v <= 1) { inEll++; if (lab[y * PW + x] === label) inBoth++; }
+    if (u * u + v * v <= 1) { inEll++; if (mask[y * PW + x]) inBoth++; }
   }
   // the box alternative: the region's bbox (rounded) and how much of the region it holds
   const bw = (bx1 - bx0 + 1), bh = (by1 - by0 + 1);
   const boxFill = n / (bw * bh);
   const cov = inBoth / n, prec = inBoth / Math.max(1, inEll);
   // the guide: an ellipse when it covers the part well, a rounded box when the part fills its box (a truck body), else none
-  const kind = cov >= 0.75 && prec >= 0.75 ? 'ellipse' : boxFill >= 0.72 ? 'box' : null;
-  return { kind, cx: +(cx / U).toFixed(1), cy: +(cy / U).toFixed(1), rx: +(rx / U).toFixed(1), ry: +(ry / U).toFixed(1), angle: +(angle * 180 / Math.PI).toFixed(1),
+  // `major` (the two biggest parts): a loose ellipse (cov ≥ 0.6) is still the right START for a head with a snout —
+  // the dog's head had no guide while its ears did (es/pt panels, 2026-10-09); `loose:true` records it
+  const loose = !!(opts.major && cov >= 0.6 && prec >= 0.6);
+  const kind = cov >= 0.75 && prec >= 0.75 ? 'ellipse' : boxFill >= 0.72 ? 'box' : loose ? 'ellipse' : null;
+  return { kind, ...(kind === 'ellipse' && loose && !(cov >= 0.75 && prec >= 0.75) ? { loose: true } : {}), cx: +(cx / U).toFixed(1), cy: +(cy / U).toFixed(1), rx: +(rx / U).toFixed(1), ry: +(ry / U).toFixed(1), angle: +(angle * 180 / Math.PI).toFixed(1),
     coverage: +cov.toFixed(3), precision: +prec.toFixed(3), area: Math.round(n / (U * U)),
     box: { x: +(bx0 / U).toFixed(1), y: +(by0 / U).toFixed(1), w: +(bw / U).toFixed(1), h: +(bh / U).toFixed(1), fill: +boxFill.toFixed(3) } };
 }
@@ -211,7 +223,9 @@ async function buildSteps(src, opts = {}) {
   let missing = 0, extra = 0; for (let i = 0; i < ink.length; i++) { if (ink[i] && !union[i]) missing++; if (!ink[i] && union[i]) extra++; }
   const KIND = ['structure', 'features', 'details', 'details'];
   const steps = stepMasks.map((m, i) => { let px = 0; for (let j = 0; j < m.length; j++) px += m[j]; return { d: maskToPath(m, PW, PH), share: +(px / total).toFixed(3), bbox: bboxOf(m, PW, PH), kind: i === 0 ? 'outline' : KIND[stepClass[i - 1]] }; });
-  const big = regs.slice().sort((a, b) => b.area - a.area).slice(0, 4).map((r) => fitShape(seg.lab, r.label, PW, PH, r.bbox));
+  // a part's guide is fitted FILLED: with every region whose box sits inside its box (the eyes inside a face)
+  const inside = (s, r) => s !== r && s.bbox[0] >= r.bbox[0] && s.bbox[1] >= r.bbox[1] && s.bbox[2] <= r.bbox[2] && s.bbox[3] <= r.bbox[3];
+  const big = regs.slice().sort((a, b) => b.area - a.area).slice(0, 4).map((r, i) => fitShape(seg.lab, r.label, PW, PH, r.bbox, new Set(regs.filter((s) => inside(s, r)).map((s) => s.label)), { major: i < 2 }));
   return {
     src, w: W, h: H, fit, bbox: bboxOf(ink, PW, PH), full: seg.ink, steps, shapes: big.filter(Boolean), ...(opts.debug ? { debug: { groups, ordered } } : {}),
     stats: { totalPx: total, outerShare: +(nOuter / total).toFixed(3), strokes: strokes.length, details: details.length, parts: regs.length, missing, extra, dup, nSteps: steps.length },

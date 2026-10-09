@@ -105,7 +105,7 @@
     },
     "scene": {
       "title": "Dessine {L} au bord de la mare",
-      "instruction": "Suis les étapes, puis dessine la grenouille dans l'image, sur l'herbe vide au bord de la mare."
+      "instruction": "Suis les étapes, puis dessine la grenouille dans l'image, à la place vide sur la mare."
     },
     "order": {
       "title": "Remets les étapes dans l'ordre : dessiner {L}",

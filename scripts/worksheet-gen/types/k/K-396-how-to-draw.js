@@ -23,6 +23,7 @@ const path = require('path');
 const LANE_PAD_Y = 2;             // the lane's vertical padding (the default 12 px would push a 660 stack past the 677 fi budget)
 const LANE_W = 639;               // .ws-lane inner width at the default horizontal padding
 const COLOR = require('../../primitives/_tokens.js').color;
+const TRACE_GREY = '#CBCBCB';   // the trace fill: a neutral light grey (K-402 says "the grey rabbit")
 const upperFirst = (s) => (s ? s[0].toLocaleUpperCase() + s.slice(1) : s);
 
 /** the K-396 d1/d2/d3 ladder (FINAL §2); the faces re-point d2 with their own mode knobs */
@@ -141,14 +142,17 @@ module.exports = {
       const stripH = 16 + cardPx + 6 + 6;
       const tw = d.twinW || 300;
       const t = paperSize(S, { w: tw, maxH: 669 - stripH - 10 });
-      const fill = d.traceFill === 'creamDeep' ? COLOR.creamDeep : COLOR.grid;
+      const fill = d.traceFill === 'creamDeep' ? COLOR.creamDeep : TRACE_GREY;   // the instruction says GREY — COLOR.grid (#C8BFAE) printed beige
       const traceCard = C7.htdFullCard({ S, w: t.w - 6, h: t.h - 6, fill, frame: 'pencil', attrs: 'data-lcs-htd-trace="1"' });
       const twin = d.twin === false ? traceCard : C7.htdTwin({ left: traceCard, right: C7.htdPaper({ w: t.w, h: t.h, role: 'twin' }), gap: LANE_W - 2 * t.w > 20 ? LANE_W - 2 * t.w : 20 });
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${LANE_W}px">${strip}${twin}</div>`);
     } else if (mode === 'finish') {
       const pw = d.pairW || 296;
       const inner = pw - 6;
-      const shares = S.steps.map((s, i) => (i === 0 ? -1 : s.share));
+      // the omitted step must read as MISSING: never the outline, and never the last (details) step — without its
+      // iris and mane edge the pony read as a complete pony with its eyes closed (the pt panel, 2026-10-09). The
+      // biggest step between them (a tail, the legs, a wing) leaves a hole a child can see.
+      const shares = S.steps.map((s, i) => (i >= 1 && (i <= n - 2 || n < 3) ? s.share : -1));
       let omit = d.omit === 'last' ? n - 1 : shares.indexOf(Math.max(...shares));
       if (omit < 1 || S.steps[omit].share < B.COMMON.STEP_FLOOR) throw new Error(`K-396 finish: ${unitSlug} has no inner step ≥ 0.08 to omit`);
       const vb = Hd.panelBox(S, { viewBox: 'bbox' }), ph = Math.round(inner * vb[3] / vb[2]);
@@ -291,7 +295,7 @@ module.exports = {
       }
       if (mode === 'trace') {
         const t = R.querySelector('[data-lcs-htd-trace] path');
-        if (!t) fails.push('no trace'); else if (!['#C8BFAE', '#F5E9D2'].includes((t.getAttribute('fill') || '').toUpperCase())) fails.push('the trace is not a pale fill');
+        if (!t) fails.push('no trace'); else if (!['#CBCBCB', '#F5E9D2'].includes((t.getAttribute('fill') || '').toUpperCase())) fails.push('the trace is not a pale fill');
         const tr = R.querySelector('[data-lcs-htd-trace]'), tw = R.querySelector('[data-lcs-htd-role="twin"]');
         if (tr && tw && tr.getBoundingClientRect().left > tw.getBoundingClientRect().left) fails.push('the trace is not left of the paper');
       }

@@ -40,6 +40,8 @@ const VIEW = 120, MIN_PX = 72;
 const HOME_IDS = ['nest', 'hive', 'web', 'burrow', 'anthill', 'lodge'];
 const f2 = (v) => +(+v).toFixed(2);
 let _uid = 0;
+/** reset the clip-id counter (tools/b3-baseline.js calls it before every build so a page hash never depends on what was built before it in the process) */
+function resetUid() { _uid = 0; }
 
 function tuft(x, y, h, sw) {
   return el('path', { d: `M${x - 3} ${y} Q${x - 4} ${y - h / 2} ${x - 6} ${y - h} M${x} ${y} L${x} ${y - h - 2} M${x + 3} ${y} Q${x + 4} ${y - h / 2} ${x + 6} ${y - h}`, fill: 'none', stroke: T.teal, 'stroke-width': sw, 'stroke-linecap': 'round' });
@@ -159,4 +161,4 @@ function animalHome({ id, px = 88, attrs } = {}) {
   return { svg, meta: { id } };
 }
 
-module.exports = { animalHome, homeBody, HOME_IDS, VIEW, MIN_PX };
+module.exports = { animalHome, homeBody, HOME_IDS, VIEW, MIN_PX, resetUid };

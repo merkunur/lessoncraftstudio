@@ -20,11 +20,18 @@
  */
 'use strict';
 const TRIES = 60;
+// Rec. 601 luma of the crayons (lib/cbn-render.js PALETTE): a colour change must survive a black-and-white printer
+const LUMA = { red: 103, orange: 158, yellow: 203, lightgreen: 196, green: 134, lightblue: 200, blue: 127, purple: 128, pink: 182, brown: 118, grey: 173, black: 74, none: 255 };
 
 const gap = (a, b) => Math.max(b[0] - a[2], a[0] - b[2], b[1] - a[3], a[1] - b[3]);   // negative = overlap
 const quadrantOf = (b, W, H) => ((b[0] + b[2]) / 2 < W / 2 ? 0 : 1) + ((b[1] + b[3]) / 2 < H / 2 ? 0 : 2);
 const inflate = (b, m, W, H) => [Math.max(6, b[0] - m), Math.max(6, b[1] - m), Math.min(W - 6, b[2] + m), Math.min(H - 6, b[3] + m)];
 
+function lumaDelta(scene, c) {
+  const l = scene.items.find((x) => x.idx === c.item); const r = l && l.regions[c.region];
+  if (!r) return 999;
+  return Math.abs((LUMA[r.colour] == null ? 255 : LUMA[r.colour]) - (LUMA[c.colour] == null ? 255 : LUMA[c.colour]));
+}
 function pickOps(scene, cfg, rng) {
   const W = scene.w, H = scene.h;
   const ppu = cfg.pxPerUnit || 0.53, minRing = (cfg.minRingPx || 14) / ppu, minSep = (cfg.minSepPx || 24) / ppu;
@@ -33,21 +40,37 @@ function pickOps(scene, cfg, rng) {
   const pool = scene.cands.filter((c) => (cfg.mode === 'colour' || c.mode !== 'colour') && (!kinds || kinds.has(c.kind)) &&
     Math.min(c.bbox[2] - c.bbox[0], c.bbox[3] - c.bbox[1]) >= minRing &&
     // a drawing that jumped far changes two places; its change box must stay close to the drawing's own size
-    !(c.kind === 'move' && c.diff && boxArea(c.diff) > 1.8 * boxArea(c.bbox)));
+    !(c.kind === 'move' && c.diff && boxArea(c.diff) > 1.8 * boxArea(c.bbox)) &&
+    // a nudge too small to see at this face's print scale (cfg.minMovePx, printed px) is not a difference
+    !(c.kind === 'move' && cfg.minMovePx && Math.abs(c.dx || 0) * ppu < cfg.minMovePx) &&
+    // a change too small in changed pixels (cfg.minArea, units²) — the K faces want BIG differences
+    !(cfg.minArea && c.area < cfg.minArea) &&
+    // a crayon change invisible on a black-and-white printer (cfg.minLumaDelta): compare the old and new crayons' luma
+    !(c.kind === 'colour' && cfg.minLumaDelta && lumaDelta(scene, c) < cfg.minLumaDelta));
   if (pool.length < cfg.n) throw new Error(`fd-compose: ${scene.id} has ${pool.length} usable candidates for n=${cfg.n} (${cfg.mode}) — REFUSED`);
   const n = cfg.n;
+  const heroIdx = (scene.items.find((l) => l.hero) || {}).idx;
   for (let t = 0; t < TRIES; t++) {
+    const heroAllowed = cfg.heroProb == null ? true : rng.next() < cfg.heroProb;
     let order = rng.shuffle(pool.slice());
     if (cfg.needColour) { const ci = order.findIndex((c) => c.kind === 'colour'); if (ci < 0) throw new Error(`fd-compose: ${scene.id} has no colour candidate — REFUSED`); const [c] = order.splice(ci, 1); order.unshift(c); }
-    const chosen = [], used = new Set();
+    const chosen = [];
     for (const c of order) {
       if (chosen.length === n) break;
-      if (used.has(c.item)) continue;
-      // variety: no kind more than a third of the page (five 'scale' ops is one dull idea repeated)
-      if (chosen.filter((o) => o.kind === c.kind).length >= Math.max(2, Math.ceil(n / 3))) continue;
+      // one op per drawing (cfg.maxPerItem 2 lets a BIG drawing carry two of different kinds, e.g. a crayon change and an
+      // erased part, when their change boxes are separated — the ten-difference page)
+      const onItem = chosen.filter((o) => o.item === c.item);
+      if (onItem.length >= (cfg.maxPerItem || 1) || onItem.some((o) => o.kind === c.kind || o.kind === 'mirror' || o.kind === 'move' || o.kind === 'scale' || c.kind === 'mirror' || c.kind === 'move' || c.kind === 'scale')) continue;
+      // variety: no kind more than a third of the page (five 'scale' ops is one dull idea repeated); cfg.noKindCap lifts it
+      // (the remove-only face); cfg.distinctKinds demands every kind on the page to be different
+      const sameKind = chosen.filter((o) => o.kind === c.kind).length;
+      if (cfg.distinctKinds ? sameKind > 0 : !cfg.noKindCap && sameKind >= Math.max(2, Math.ceil(n / 3))) continue;
+      // the hero: cfg.heroProb (0..1) decides per PAGE whether the hero may carry a difference (drawn once per try)
+      if (heroIdx != null && c.item === heroIdx && !heroAllowed) continue;
       if (c.kind === 'add' && chosen.some((o) => o.kind === 'add' && o.src === c.src)) continue;
-      if (chosen.some((o) => gap(o.diff || o.bbox, c.diff || c.bbox) < minSep)) continue;
-      chosen.push(c); used.add(c.item);
+      // separation is measured between the RINGS the child sees (change box + 10 units each side), never the change boxes
+      if (chosen.some((o) => gap(inflate(o.diff || o.bbox, 10, W, H), inflate(c.diff || c.bbox, 10, W, H)) < minSep)) continue;
+      chosen.push(c);
     }
     if (chosen.length < n) continue;
     const qs = new Set(chosen.map((c) => quadrantOf(c.diff || c.bbox, W, H)));

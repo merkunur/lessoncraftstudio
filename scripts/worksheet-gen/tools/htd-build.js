@@ -26,8 +26,8 @@ let review = {}; try { review = require('../data/htd/review.js'); } catch (e) { 
     const ov = (review.OVERRIDES || {})[slug] || {};
     const t0 = Date.now();
     try {
-      const S = await Hd.buildSteps(src, { steps: ov.steps || 5 });
-      const rec = { v: 1, slug, src, sceneId: id, names: { en }, ...S, refused: (review.REFUSED || {})[slug] || null };
+      const S = await Hd.buildSteps(src, { steps: ov.steps || 5, foldFloor: ov.foldFloor || undefined });
+      const rec = { v: 1, slug, src, sceneId: id, names: { en }, override: ov, ...S, refused: (review.REFUSED || {})[slug] || null };
       fs.writeFileSync(path.join(OUT, slug + '.json'), JSON.stringify(rec));
       console.log(`${slug}: steps ${S.steps.length} shares ${S.steps.map((s) => s.share).join('/')} shapes ${S.shapes.filter((x) => x.kind).length} ${Date.now() - t0}ms`);
     } catch (e) { console.log(`${slug}: FAILED ${e.message}`); }

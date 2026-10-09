@@ -2394,7 +2394,7 @@
    "nl": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
    "sv": "Den nedre bilden är spegelvänd. Tryck på varje ställe i den som ändå är annorlunda.",
    "da": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes.",
-   "no": "Det nederste bildet er speilvendt. Trykk på hvert sted i det som likevel er annerledes.",
+   "no": "Bilde 2 er speilvendt. Trykk på hvert sted i det nederste bildet som likevel er annerledes.",
    "fi": "Alempi kuva on peilikuva. Napauta siitä jokaista kohtaa, joka on silti erilainen."
   },
   "fd-tapMissing": {
@@ -2420,7 +2420,7 @@
    "nl": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
    "sv": "Varje par visar samma utsnitt två gånger. Tryck på det enda ställe som är annorlunda i den andra bilden i varje par.",
    "da": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det nederste billede i hvert par.",
-   "no": "Hvert par viser det samme utsnittet to ganger. Trykk på det ene stedet som er annerledes i det andre bildet i hvert par.",
+   "no": "Hvert par viser det samme lille bildet to ganger. Trykk på det ene stedet som er annerledes i det andre bildet i paret.",
    "fi": "Jokaisessa parissa on sama lähikuva kahdesti. Napauta jokaisen parin toisesta kuvasta sitä yhtä kohtaa, joka on erilainen."
   },
   "fd-tapWords": {

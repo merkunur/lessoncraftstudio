@@ -64,10 +64,12 @@ node scripts/publish-cli/meter-deck-downloads.js --check --locale=$LOC --slugs-f
 tail -1 "$REC/$LOC-u-meter-check.log"
 node scripts/publish-cli/populate-and-inject-hreflang.js --confirm --locales=$ALL11 > "$REC/$LOC-u-hreflang.log" 2>&1 || { echo "HREFLANG FAILED"; tail -10 "$REC/$LOC-u-hreflang.log"; exit 2; }
 tail -1 "$REC/$LOC-u-hreflang.log"
-# the canonical repoint to the landing (the first publish's deck.html carried it after repoint-deck-canonical; the update path writes a bare deck.html)
-node scripts/seo-landing/repoint-deck-canonical.js --types=find-the-differences,how-to-draw --locale=$LOC > "$REC/$LOC-u-repoint.log" 2>&1 || { echo "REPOINT FAILED"; tail -10 "$REC/$LOC-u-repoint.log"; exit 2; }
-tail -1 "$REC/$LOC-u-repoint.log"
-# 4. audit
+# 4. audit — BEFORE the repoint: a landing-backed deck's canonical is the landing URL, which carries no trailing slash, so
+# an audit run after the repoint reports CANONICAL_NO_TRAILING_SLASH on every deck (the b6 decks carry the same canonical;
+# the first b7 publish audited before repointing and was clean)
 node scripts/publish-cli/audit-deck-html.js --slugs-file="$SL" --locales=$LOC > "$REC/$LOC-u-audit.log" 2>&1 || true
 tail -4 "$REC/$LOC-u-audit.log"
+# 5. the canonical repoint to the landing (the first publish's deck.html carried it after repoint-deck-canonical; the update path writes a bare deck.html)
+node scripts/seo-landing/repoint-deck-canonical.js --types=find-the-differences,how-to-draw --locale=$LOC > "$REC/$LOC-u-repoint.log" 2>&1 || { echo "REPOINT FAILED"; tail -10 "$REC/$LOC-u-repoint.log"; exit 2; }
+tail -1 "$REC/$LOC-u-repoint.log"
 echo "== $LOC REPUBLISHED — then: node scripts/publish-cli/audit-update-injections.js; bash scripts/publish-cli/restore-update-injections.sh confirm"

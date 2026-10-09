@@ -1161,7 +1161,8 @@
   },
   "G1-139": {
     "title": "Cube by Cube",
-    "instruction": "Each object sits on unit squares. Count them and write the length."
+    "instruction": "Each object sits on unit squares. Count them and write the length.",
+    "printTitle": "Square by Square"
   },
   "G1-140": {
     "title": "Short to Long",
@@ -1421,7 +1422,7 @@
   },
   "G1-252": {
     "title": "Read and Color: A Busy Page",
-    "instruction": "More pictures and more colors. Read each sentence carefully."
+    "instruction": "Six sentences and six colors. Read each sentence carefully."
   },
   "G1-255": {
     "title": "Number of the Day: Teen Numbers",
@@ -2013,7 +2014,7 @@
   },
   "G1-409": {
     "title": "Read and Color: Two Sentences",
-    "instruction": "Each box has two sentences. Read both. Color exactly the pictures each sentence tells you to."
+    "instruction": "Each box has two sentences. Read both. Then color exactly what each sentence tells you to."
   },
   "G1-410": {
     "title": "Read and Color: All Mixed Up",
@@ -2021,7 +2022,7 @@
   },
   "G1-411": {
     "title": "Read and Color: Stop at the Number",
-    "instruction": "There are more pictures than the sentence asks for. Read the number and color only that many."
+    "instruction": "There are more pictures than the sentence asks for. Read the number, color only that many, and stop."
   },
   "G1-412": {
     "title": "Find 7 Differences at the Pond",
@@ -2225,7 +2226,8 @@
   },
   "G2-248": {
     "title": "Find the Mirror Picture",
-    "instruction": "Circle the picture that is the same on both sides."
+    "instruction": "Circle the picture that is the same on both sides.",
+    "printTitle": "Find the Symmetric Picture"
   },
   "G2-249": {
     "title": "What Time Is It?",
@@ -2817,7 +2819,8 @@
   },
   "G3-317": {
     "title": "Fractions on the Line",
-    "instruction": "The dot marks a fraction. Circle that fraction."
+    "instruction": "The dot marks a fraction. Circle that fraction.",
+    "printTitle": "Fractions on the Number Line"
   },
   "G3-318": {
     "title": "Twin Fractions",
@@ -2865,7 +2868,8 @@
   },
   "G3-332": {
     "title": "Big Scale Bars",
-    "instruction": "Careful — the scale counts by 5! Write the value of each bar."
+    "instruction": "Careful — the scale counts by 5! Write the value of each bar.",
+    "printTitle": "Bars That Count by 5"
   },
   "G3-333": {
     "title": "Each Picture Means 5",

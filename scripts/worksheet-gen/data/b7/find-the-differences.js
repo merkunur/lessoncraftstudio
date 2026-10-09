@@ -43,7 +43,7 @@ const UNITS = {
   seven: ['pond-turtle-rich', 'pond-alligator-rich'], 'ten-pairs': ['kite-rich', 'ladybug-rich'],   // re-pinned 2026-10-09: the beach pair refuses 5 at the G2 floor on the rebuilt data; hero waived (see the row)
   'how-many': 'garden-bird-rich',
   'what-changed': 'farm-cow-rich',   // re-pinned 2026-10-09 (2nd): RICH scenes + the generic-word rule (plain = 4 usable nouns for 3 changes)
-  'mirror-pair': 'forest-fox-rich', 'mirror-pair': 'forest-fox-rich',
+  'mirror-pair': ['forest-fox-rich', 'forest-rabbit-rich'],   // two scenes of 2 differences each (2026-10-10): one side-by-side pair stopped at 57 % of the page
   missing: 'night-owl-rich',   // re-pinned 2026-10-09: farm-rooster-rich's removable props never fall in one quadrant (33/33/0/33) on the rebuilt data
   pairs: 'garden-ladybug-rich',   // re-pinned 2026-10-09: the ONLY unit in band once the window placer existed (10 of 388 compose, 1 in band); the FINAL's first-to-cut face, kept on its measured pool
   write: 'elephant-rich',   // re-pinned 2026-10-09 (2nd): rich pool, hero 0.35, quadrants 25/25/25/25

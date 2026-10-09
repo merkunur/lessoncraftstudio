@@ -1,0 +1,27 @@
+{
+ "id": "wave-nt20-nl",
+ "_note": "Mental Math layout republish 2026-10-09 (equations drawn large): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-208"
+ ],
+ "levels": {
+  "G1-208": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

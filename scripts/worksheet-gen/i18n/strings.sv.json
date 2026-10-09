@@ -1006,7 +1006,7 @@
   },
   "G1-208": {
     "title": "Huvudräkning till 20",
-    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+    "instruction": "Räkna ut varje uppgift i huvudet. Skriv talet som saknas i rutan."
   },
   "G1-209": {
     "title": "Räknefamiljer",
@@ -1190,7 +1190,7 @@
   },
   "G1-214": {
     "title": "Huvudräkning till 10",
-    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+    "instruction": "Räkna ut varje uppgift i huvudet. Skriv talet som saknas i rutan."
   },
   "G1-215": {
     "title": "Öppna utsagor till 20",
@@ -1198,11 +1198,11 @@
   },
   "G1-216": {
     "title": "Träna addition till 20",
-    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+    "instruction": "Räkna ut varje uppgift i huvudet. Skriv talet som saknas i rutan."
   },
   "G1-217": {
     "title": "Träna subtraktion till 20",
-    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+    "instruction": "Räkna ut varje uppgift i huvudet. Skriv talet som saknas i rutan."
   },
   "G1-218": {
     "title": "Öppna utsagor till 10",

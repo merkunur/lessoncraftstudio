@@ -2916,5 +2916,20 @@
    "no": "Legg sammen sidelengdene hele veien rundt. Skriv omkretsen.",
    "fi": "Laske sivujen pituudet yhteen koko kierroksen ympäri. Kirjoita piiri."
   }
+ },
+ "G1-208": {
+  "3": {
+   "en": "Work out the missing number in your head. Write it in the box.",
+   "de": "Welche Zahl fehlt im Kästchen? Rechne im Kopf und schreibe sie hinein.",
+   "es": "Calcula mentalmente qué número falta y escríbelo en la casilla.",
+   "fr": "Trouve le nombre manquant dans ta tête. Écris-le dans la case.",
+   "it": "Trova a mente il numero mancante e scrivilo nel riquadro.",
+   "pt": "Descubra de cabeça o número que falta e escreva no quadradinho.",
+   "nl": "Reken uit je hoofd uit welk getal in het vakje hoort. Schrijf het erin.",
+   "sv": "Vilket tal ska stå i rutan? Räkna ut det i huvudet och skriv talet.",
+   "da": "Regn ud i hovedet, hvilket tal der mangler. Skriv det i kassen.",
+   "no": "Regn ut i hodet hvilket tall som mangler. Skriv det i ruten.",
+   "fi": "Päättele puuttuva luku päässäsi. Kirjoita se laatikkoon."
+  }
  }
 }

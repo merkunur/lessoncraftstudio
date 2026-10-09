@@ -17,7 +17,9 @@ const { loadAllTypes } = require('../lib/load-types.js');
 function buildEn() {
   const out = {};
   const byBandTitle = {};
+  const unitTitled = new Set();   // unit-axis types whose title carries a unit token resolve to a DIFFERENT title per deck
   for (const spec of loadAllTypes()) {
+    if (spec.unitAxis && spec.unitAxis.applicable && /\{(U|L|N|UNIT)\}/i.test(spec.i18n && spec.i18n.en && spec.i18n.en.title || '')) unitTitled.add(spec.id);
     if (!spec.i18n || !spec.i18n.en || !spec.i18n.en.title || !spec.i18n.en.instruction) {
       throw new Error('build-en: spec ' + spec.id + ' missing i18n.en {title, instruction}');
     }
@@ -26,7 +28,9 @@ function buildEn() {
     const key = band + '|' + spec.i18n.en.title.toLowerCase();
     (byBandTitle[key] = byBandTitle[key] || []).push(spec.id);
   }
-  const dups = Object.entries(byBandTitle).filter(([, ids]) => ids.length > 1);
+  // two unit-axis types sharing a tokened title (K-393 / K-394 "Color by Number: {UNIT}", 2026-10-05) never share a
+  // DECK title: the unit resolves per deck. Only token-free (or non-unit) collisions are defects.
+  const dups = Object.entries(byBandTitle).filter(([, ids]) => ids.length > 1 && !ids.every((id) => unitTitled.has(id)));
   if (dups.length) {
     throw new Error('build-en: per-band title collisions (fix the spec titles):\n' +
       dups.map(([k, ids]) => '  ' + k + ' -> ' + ids.join(', ')).join('\n'));

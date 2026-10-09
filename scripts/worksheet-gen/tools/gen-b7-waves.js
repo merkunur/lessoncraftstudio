@@ -147,4 +147,4 @@ for (const loc of LOCALES) {
 }}
 
 if (require.main === module) main();
-module.exports = { candidates, tryBuild, measure, GENERAL, PREF, HARD };
+module.exports = { candidates, tryBuild, measure, unitFor, GENERAL, PREF, HARD };

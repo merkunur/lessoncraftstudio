@@ -1,0 +1,337 @@
+{
+  "locale": "da",
+  "types": {
+    "K-395": {
+      "title": "Find fem fejl: {UNIT}",
+      "instruction": "Sammenlign billede 1 med billede 2 nedenunder, sæt en ring om de 5 ting, der er anderledes, og sæt kryds i en boks for hver fejl."
+    },
+    "K-397": {
+      "title": "Find tre fejl: {UNIT}",
+      "instruction": "Find de 3 store fejl i det nederste billede, sæt en ring om dem, og sæt kryds i de 3 bokse."
+    },
+    "K-398": {
+      "title": "Find fejlene i farvebilledet",
+      "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+    },
+    "G1-412": {
+      "title": "Find syv fejl ved dammen",
+      "instruction": "Sæt en ring om de 7 fejl, 4 i det venstre billedpar og 3 i det højre, og sæt kryds i en boks under parret for hver fejl."
+    },
+    "G2-388": {
+      "title": "Find ti fejl i haven: svær",
+      "instruction": "Sæt en ring om de 10 fejl, 5 i hvert billedpar, og sæt kryds i en boks under parret for hver fejl, du finder."
+    },
+    "G1-413": {
+      "title": "Hvor mange fejl kan du finde?",
+      "instruction": "Sæt en ring om hver fejl i det nederste billede (noget kan også være væk), og skriv i boksen, hvor mange fejl du fandt."
+    },
+    "G1-414": {
+      "title": "Hvad er ændret? Sæt kryds ved ordene",
+      "instruction": "Sæt en ring om de 3 fejl i det nederste billede, og sæt så kryds ved ordene for de ting, der er ændret."
+    },
+    "G1-415": {
+      "title": "Spejlvendt billede: find fejlene",
+      "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+    },
+    "K-399": {
+      "title": "Hvad mangler i billedet?",
+      "instruction": "Sæt en ring om de 3 tomme steder i det nederste billede, hvor noget fra det øverste billede mangler, og sæt kryds i en boks for hver."
+    },
+    "K-400": {
+      "title": "Billedpar: find fejlen",
+      "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+    },
+    "G2-389": {
+      "title": "Skriv, hvad der er anderledes",
+      "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne med ordene fra de to rammer."
+    },
+    "K-396": {
+      "title": "Tegn {L} trin for trin",
+      "instruction": "Kig på de fire nummererede trin, og tegn katten på det store papir: først omridset og så de nye streger, du ser i hvert trin."
+    },
+    "K-401": {
+      "title": "Tegn {L} ud fra enkle former",
+      "instruction": "Tegn oven på de stiplede former på papiret, tegn så hundens omrids rundt om dem, og tegn hunden færdig efter trinnene."
+    },
+    "K-402": {
+      "title": "Tegn oven på {N}, og tegn den selv",
+      "instruction": "Tegn oven på den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+    },
+    "K-403": {
+      "title": "Tegn {N} færdig",
+      "instruction": "Kig på hele hesten, tegn de streger, der mangler på den anden hest, og tegn så din egen hest i boksen nedenunder."
+    },
+    "G1-416": {
+      "title": "Tegn {L} med gitter",
+      "instruction": "Kig på dinosauren i gitteret, tegn den felt for felt i det tomme gitter, og tegn den så en gang til uden gitter."
+    },
+    "K-404": {
+      "title": "Tegn {L}, og skriv ordet",
+      "instruction": "Følg trinnene, tegn fisken i boksen, skriv så oven på det stiplede ord, og skriv ordet selv på den tomme linje."
+    },
+    "G1-417": {
+      "title": "Tegn {L} ved dammen",
+      "instruction": "Følg trinnene, og tegn så frøen i den tomme dam i billedet."
+    },
+    "G1-418": {
+      "title": "Sæt trinnene i rækkefølge: tegn {L}",
+      "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
+    },
+    "G1-419": {
+      "title": "Trin for trin: tegn {L}",
+      "instruction": "Tegn hvert trin i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+    },
+    "G2-390": {
+      "title": "Tegn {L}, og skriv om den",
+      "instruction": "Tegn bjørnen med trinnene, og skriv så tre sætninger om din bjørn på linjerne; begynd med de ord, der allerede står der."
+    },
+    "G2-391": {
+      "title": "Tegn {L} efter hukommelsen",
+      "instruction": "Kig på sommerfuglen, fold papiret bagud langs den stiplede linje, så du ikke kan se den, og tegn den efter hukommelsen på det store papir."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "find-fem-fejl",
+      "name": "Find fem fejl"
+    },
+    "how-to-draw": {
+      "slug": "tegn-trin-for-trin",
+      "name": "Tegn trin for trin"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Find fem fejl til børnehaveklassen, 1. og 2. klasse: sammenlign to billeder, sæt ring om 3 til 10 fejl, med facitliste og en skærmudgave, hvor man trykker på fejlene.",
+      "short": "Sammenlign to billeder og find fejlene"
+    },
+    "how-to-draw": {
+      "full": "Tegn trin for trin til børnehaveklassen, 1. og 2. klasse: tegn dyr ud fra enkle former, tegn oven på, tegn færdig, tegn med gitter eller efter hukommelsen.",
+      "short": "Lær at tegne dyr trin for trin ud fra enkle former"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Find fem fejl til print, gratis: find 3, 5, 7 eller 10 fejl i billedpar, farvebilleder og spejlvendte billeder, med facitliste, til børnehaveklassen, 1. og 2. klasse.",
+    "how-to-draw": "Tegn trin for trin til print, gratis: kat, hund, kanin, hest og flere dyr ud fra enkle former, med gitter eller efter hukommelsen, fra børnehaveklassen til 2. klasse."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Billede 2:",
+      "changeWords": [
+        "mangler",
+        "er kommet til",
+        "er blevet større",
+        "er blevet mindre",
+        "har flyttet sig",
+        "er vendt om",
+        "er byttet ud"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuel opmærksomhed"
+      },
+      "rail": {
+        "slug": "find-fem-fejl",
+        "name": "Find fem fejl"
+      },
+      "strings": {
+        "base": {
+          "title": "Find fem fejl: {UNIT}",
+          "instruction": "Sammenlign billede 1 med billede 2 nedenunder, sæt en ring om de 5 ting, der er anderledes, og sæt kryds i en boks for hver fejl."
+        },
+        "three-big": {
+          "title": "Find tre fejl: {UNIT}",
+          "instruction": "Find de 3 store fejl i det nederste billede, sæt en ring om dem, og sæt kryds i de 3 bokse."
+        },
+        "colour": {
+          "title": "Find fejlene i farvebilledet",
+          "instruction": "Kig godt på farverne: sæt en ring om de 5 ting, der er anderledes i det nederste farvebillede, og sæt kryds i en boks for hver."
+        },
+        "seven": {
+          "title": "Find syv fejl ved dammen",
+          "instruction": "Sæt en ring om de 7 fejl, 4 i det venstre billedpar og 3 i det højre, og sæt kryds i en boks under parret for hver fejl."
+        },
+        "ten-pairs": {
+          "title": "Find ti fejl i haven: svær",
+          "instruction": "Sæt en ring om de 10 fejl, 5 i hvert billedpar, og sæt kryds i en boks under parret for hver fejl, du finder."
+        },
+        "how-many": {
+          "title": "Hvor mange fejl kan du finde?",
+          "instruction": "Sæt en ring om hver fejl i det nederste billede (noget kan også være væk), og skriv i boksen, hvor mange fejl du fandt."
+        },
+        "what-changed": {
+          "title": "Hvad er ændret? Sæt kryds ved ordene",
+          "instruction": "Sæt en ring om de 3 fejl i det nederste billede, og sæt så kryds ved ordene for de ting, der er ændret."
+        },
+        "mirror-pair": {
+          "title": "Spejlvendt billede: find fejlene",
+          "instruction": "Billede 2 er spejlvendt: sæt en ring om de 4 ting, der stadig er anderledes (noget kan mangle), sæt kryds for hver, og fold langs linjen og tjek."
+        },
+        "missing": {
+          "title": "Hvad mangler i billedet?",
+          "instruction": "Sæt en ring om de 3 tomme steder i det nederste billede, hvor noget fra det øverste billede mangler, og sæt kryds i en boks for hver."
+        },
+        "pairs": {
+          "title": "Billedpar: find fejlen",
+          "instruction": "Hver række viser det samme udsnit to gange: sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen ved rækken."
+        },
+        "write": {
+          "title": "Skriv, hvad der er anderledes",
+          "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne med ordene fra de to rammer."
+        }
+      },
+      "tap": {
+        "fd-tap": "Kig godt på billedet ovenover, og tryk så på hvert sted i billedet nedenunder, der er anderledes.",
+        "fd-tapCount": "Find hver fejl i det nederste billede (noget kan også være væk), og tryk så på det tal, der viser, hvor mange fejl der er.",
+        "fd-tapMirror": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes.",
+        "fd-tapMissing": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler.",
+        "fd-tapPairs": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det nederste billede i hvert par.",
+        "fd-tapWords": "Find det, der er ændret i det nederste billede, og tryk så på ordene for de ting, der er ændret.",
+        "fd-tapPairs2": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes."
+      },
+      "numberWords": {
+        "3": "tre",
+        "5": "fem",
+        "7": "syv",
+        "10": "ti"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "en kat",
+          "stem": "kat",
+          "n": "katten"
+        },
+        "animals-bw-2-dog": {
+          "t": "en hund",
+          "stem": "hund",
+          "n": "hunden"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "en kanin",
+          "stem": "kanin",
+          "n": "kaninen"
+        },
+        "farm-animals-bw-pony": {
+          "t": "en hest",
+          "stem": "hest",
+          "n": "hesten"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "en dinosaur",
+          "stem": "dinosaur",
+          "n": "dinosauren"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "en fisk",
+          "stem": "fisk",
+          "n": "fisken"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "en frø",
+          "stem": "frø",
+          "n": "frøen"
+        },
+        "animals-bw-5-owl": {
+          "t": "en ugle",
+          "stem": "ugle",
+          "n": "uglen"
+        },
+        "birds-bw-hummingbird": {
+          "t": "en fugl",
+          "stem": "fugl",
+          "n": "fuglen"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "en bjørn",
+          "stem": "bjørn",
+          "n": "bjørnen"
+        },
+        "easter-bw-butterfly": {
+          "t": "en sommerfugl",
+          "stem": "sommerfugl",
+          "n": "sommerfuglen"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "kat",
+        "animals-bw-2-dog": "hund",
+        "animals-bw-4-rabbit-2": "kanin",
+        "farm-animals-bw-pony": "hest",
+        "animals-bw-3-dinosaur": "dinosaur",
+        "animals-bw-3-fish-2": "fisk",
+        "animals-bw-3-frog-2": "frø",
+        "animals-bw-5-owl": "ugle",
+        "birds-bw-hummingbird": "fugl",
+        "zoo-animals-bw-bear-2": "bjørn",
+        "easter-bw-butterfly": "sommerfugl"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Min bjørn er",
+          "Den kan",
+          "Den kan lide"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Tegn {L} trin for trin",
+          "instruction": "Kig på de fire nummererede trin, og tegn katten på det store papir: først omridset og så de nye streger, du ser i hvert trin."
+        },
+        "shapes": {
+          "title": "Tegn {L} ud fra enkle former",
+          "instruction": "Tegn oven på de stiplede former på papiret, tegn så hundens omrids rundt om dem, og tegn hunden færdig efter trinnene."
+        },
+        "trace": {
+          "title": "Tegn oven på {N}, og tegn den selv",
+          "instruction": "Tegn oven på den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+        },
+        "finish": {
+          "title": "Tegn {N} færdig",
+          "instruction": "Kig på hele hesten, tegn de streger, der mangler på den anden hest, og tegn så din egen hest i boksen nedenunder."
+        },
+        "grid": {
+          "title": "Tegn {L} med gitter",
+          "instruction": "Kig på dinosauren i gitteret, tegn den felt for felt i det tomme gitter, og tegn den så en gang til uden gitter."
+        },
+        "word": {
+          "title": "Tegn {L}, og skriv ordet",
+          "instruction": "Følg trinnene, tegn fisken i boksen, skriv så oven på det stiplede ord, og skriv ordet selv på den tomme linje."
+        },
+        "scene": {
+          "title": "Tegn {L} ved dammen",
+          "instruction": "Følg trinnene, og tegn så frøen i den tomme dam i billedet."
+        },
+        "order": {
+          "title": "Sæt trinnene i rækkefølge: tegn {L}",
+          "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem, så de kommer i den rigtige rækkefølge, og tegn så uglen."
+        },
+        "copy-steps": {
+          "title": "Trin for trin: tegn {L}",
+          "instruction": "Tegn hvert trin i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+        },
+        "write": {
+          "title": "Tegn {L}, og skriv om den",
+          "instruction": "Tegn bjørnen med trinnene, og skriv så tre sætninger om din bjørn på linjerne; begynd med de ord, der allerede står der."
+        },
+        "memory": {
+          "title": "Tegn {L} efter hukommelsen",
+          "instruction": "Kig på sommerfuglen, fold papiret bagud langs den stiplede linje, så du ikke kan se den, og tegn den efter hukommelsen på det store papir.",
+          "foldWord": "fold"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuel opmærksomhed",
+    "Art": "Billedkunst"
+  },
+  "enAudit": [
+    "[NSR-FLAG] This Danish draft was authored by the build session from the brief and the finals (no native panel: the operator paused agents); a Danish native check is required before publish."
+  ]
+}

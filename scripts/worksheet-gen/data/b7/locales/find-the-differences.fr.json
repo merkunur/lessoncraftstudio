@@ -1,0 +1,81 @@
+{
+  "starter": "Sur l'image 2,",
+  "changeWords": [
+    "manque",
+    "en plus",
+    "a grandi",
+    "a rétréci",
+    "a bougé",
+    "à l'envers",
+    "a changé"
+  ],
+  "strandNames": {
+    "Visual Perception": "Discrimination visuelle"
+  },
+  "rail": {
+    "slug": "jeu-des-differences",
+    "name": "Jeu des différences"
+  },
+  "strings": {
+    "base": {
+      "title": "Jeu des 5 différences : {UNIT}",
+      "instruction": "Compare l'image 1 et l'image 2, entoure les 5 choses qui ont changé dans l'image 2, puis coche une case pour chacune."
+    },
+    "three-big": {
+      "title": "Cherche les 3 grandes différences : {UNIT}",
+      "instruction": "Regarde bien l'image du haut, entoure les 3 grandes différences dans l'image du bas, puis coche les 3 cases."
+    },
+    "colour": {
+      "title": "Jeu des différences en couleur",
+      "instruction": "Entoure les 5 choses qui ont changé dans l'image en couleur du bas et coche une case pour chacune : l'une d'elles a changé de couleur."
+    },
+    "seven": {
+      "title": "Jeu des 7 erreurs à la mare",
+      "instruction": "Entoure les 7 erreurs, 4 dans la paire d'images de gauche et 3 dans celle de droite, puis coche une case pour chaque erreur trouvée."
+    },
+    "ten-pairs": {
+      "title": "Trouve les 10 erreurs au jardin : niveau difficile",
+      "instruction": "Entoure les 10 erreurs, 5 dans chaque paire d'images, et coche une case sous la paire pour chaque erreur trouvée."
+    },
+    "how-many": {
+      "title": "Combien de différences ? Compte-les",
+      "instruction": "Entoure toutes les différences que tu trouves dans l'image du bas, puis écris dans la case combien tu en as trouvé."
+    },
+    "what-changed": {
+      "title": "Qu'est-ce qui a changé ? Coche les mots",
+      "instruction": "Entoure les 3 différences dans l'image du bas, puis coche les mots des choses qui ont changé."
+    },
+    "mirror-pair": {
+      "title": "Images en miroir : plie et vérifie",
+      "instruction": "L'image 2 est retournée comme dans un miroir : entoure les 4 choses qui sont quand même différentes, puis plie sur la ligne pour vérifier."
+    },
+    "missing": {
+      "title": "Qu'est-ce qui manque dans l'image du bas ?",
+      "instruction": "Entoure les 3 endroits vides de l'image du bas où il manque quelque chose de l'image du haut, puis coche une case pour chacun."
+    },
+    "pairs": {
+      "title": "Paires d'images : trouve la différence",
+      "instruction": "Chaque ligne montre le même gros plan deux fois : entoure la seule chose qui est différente dans l'image de droite, puis coche la case."
+    },
+    "write": {
+      "title": "Trouve et décris les différences",
+      "instruction": "Entoure les 4 différences, puis écris une phrase sur chacune sur les lignes, avec les mots des deux bandes."
+    }
+  },
+  "tap": {
+    "fd-tap": "Regarde l'image du haut, puis touche chaque endroit de l'image du bas qui est différent.",
+    "fd-tapCount": "Trouve toutes les différences dans l'image du bas, puis touche le nombre qui dit combien il y en a.",
+    "fd-tapMirror": "L'image du bas est retournée comme dans un miroir. Touche chaque endroit qui est quand même différent.",
+    "fd-tapMissing": "Touche chaque endroit vide de l'image du bas où il manque quelque chose de l'image du haut.",
+    "fd-tapPairs": "Chaque paire montre le même gros plan deux fois. Touche la seule chose qui est différente dans la deuxième image de chaque paire.",
+    "fd-tapWords": "Trouve ce qui a changé dans l'image du bas, puis touche les mots des choses qui ont changé."
+  },
+  "numberWords": {
+    "3": "trois",
+    "5": "cinq",
+    "7": "sept",
+    "10": "dix"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

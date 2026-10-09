@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "un chat",
+      "stem": "chat",
+      "n": "Chat"
+    },
+    "animals-bw-2-dog": {
+      "t": "un chien",
+      "stem": "chien",
+      "n": "Chien"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "un lapin",
+      "stem": "lapin",
+      "n": "Lapin"
+    },
+    "farm-animals-bw-pony": {
+      "t": "un cheval",
+      "stem": "cheval",
+      "n": "Cheval"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "un dinosaure",
+      "stem": "dinosaure",
+      "n": "Dinosaure"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "un poisson",
+      "stem": "poisson",
+      "n": "Poisson"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "une grenouille",
+      "stem": "grenouille",
+      "n": "Grenouille"
+    },
+    "animals-bw-5-owl": {
+      "t": "un hibou",
+      "stem": "hibou",
+      "n": "Hibou"
+    },
+    "birds-bw-hummingbird": {
+      "t": "un oiseau",
+      "stem": "oiseau",
+      "n": "Oiseau"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "un ours",
+      "stem": "ours",
+      "n": "Ours"
+    },
+    "easter-bw-butterfly": {
+      "t": "un papillon",
+      "stem": "papillon",
+      "n": "Papillon"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "chat",
+    "animals-bw-2-dog": "chien",
+    "animals-bw-4-rabbit-2": "lapin",
+    "farm-animals-bw-pony": "cheval",
+    "animals-bw-3-dinosaur": "dinosaure",
+    "animals-bw-3-fish-2": "poisson",
+    "animals-bw-3-frog-2": "grenouille",
+    "animals-bw-5-owl": "hibou",
+    "birds-bw-hummingbird": "oiseau",
+    "zoo-animals-bw-bear-2": "ours",
+    "easter-bw-butterfly": "papillon"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Mon ours est",
+      "Il peut",
+      "Il aime"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Apprendre à dessiner {L} étape par étape",
+      "instruction": "Regarde les quatre étapes numérotées et dessine le chat dans le grand cadre : d'abord le contour, puis les traits orange de chaque étape."
+    },
+    "shapes": {
+      "title": "Dessiner {L} avec des formes simples",
+      "instruction": "Repasse les formes en pointillés dans le cadre, dessine le contour du chien autour, puis termine-le avec les étapes."
+    },
+    "trace": {
+      "title": "Repasse, puis dessine {L} tout seul",
+      "instruction": "Repasse le lapin gris avec ton crayon, puis dessine le lapin tout seul dans le cadre vide à côté."
+    },
+    "finish": {
+      "title": "Termine le dessin : {L} à compléter",
+      "instruction": "Regarde le cheval complet, dessine les traits qui manquent sur le deuxième cheval, puis dessine un cheval tout seul dans le cadre du bas."
+    },
+    "grid": {
+      "title": "{U} à dessiner sur quadrillage",
+      "instruction": "Regarde le dinosaure sur le quadrillage et dessine-le sur le quadrillage vide, case par case, puis encore une fois sans quadrillage."
+    },
+    "word": {
+      "title": "Dessine {L} et écris le mot",
+      "instruction": "Suis les étapes pour dessiner le poisson dans le cadre, puis repasse le mot en dessous et écris-le encore une fois."
+    },
+    "scene": {
+      "title": "Dessine {L} au bord de la mare",
+      "instruction": "Suis les étapes, puis dessine la grenouille dans l'image, sur l'herbe vide au bord de la mare."
+    },
+    "order": {
+      "title": "Remets les étapes dans l'ordre : dessiner {L}",
+      "instruction": "Les étapes sont mélangées : écris 1 à 5 dans les cases à côté pour les remettre dans l'ordre, puis dessine le hibou."
+    },
+    "copy-steps": {
+      "title": "Recopie chaque étape : dessine {L}",
+      "instruction": "Dessine ce que tu vois à chaque étape dans la case en dessous, en ajoutant les traits orange, puis l'oiseau entier dans le grand cadre."
+    },
+    "write": {
+      "title": "Dessine {L}, puis écris sur ton dessin",
+      "instruction": "Dessine l'ours avec les étapes, puis écris trois phrases sur ton ours sur les lignes, en commençant par les mots déjà écrits."
+    },
+    "memory": {
+      "title": "Dessine {L} de mémoire",
+      "instruction": "Regarde bien le papillon, plie la page sur la ligne en pointillés pour le cacher, puis dessine-le de mémoire dans le grand cadre.",
+      "foldWord": "plie"
+    }
+  }
+}

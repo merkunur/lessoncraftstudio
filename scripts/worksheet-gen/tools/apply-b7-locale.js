@@ -90,6 +90,23 @@ for (const loc of WANT) {
     if (d.banks && d.banks[b]) { writeJson(p, d.banks[b]); nb++; }
     else if (fs.existsSync(p)) fs.unlinkSync(p);   // the family is fully refused in this locale
   }
+  // the 6 tap strings → i18n/interactive-instructions.json (what cli.js and b7-sweep-renders read; the bank block
+  // alone is NOT read by the generator — de/fr generated 0 FD decks until this write existed)
+  const fdBank = d.banks && d.banks['find-the-differences'];
+  if (fdBank && fdBank.tap) {
+    const iiPath = path.join(WG, 'i18n', 'interactive-instructions.json');
+    const ii = JSON.parse(fs.readFileSync(iiPath, 'utf8'));
+    const fam = ii['find-the-differences'] || (ii['find-the-differences'] = {});
+    for (const [key, text] of Object.entries(fdBank.tap)) {
+      if (!fam[key]) throw new Error(`${loc}: tap key ${key} is not an EN interactive-instruction key`);
+      fam[key][loc] = text;
+    }
+    for (const key of Object.keys(fam)) if (!fam[key][loc]) throw new Error(`${loc}: tap string ${key} missing from the draft`);
+    // the file is CRLF in the repo — keep its own line ending AND its ONE-space indent (a whole-file rewrite is a 4,700-line diff)
+    const iiRaw = fs.readFileSync(iiPath, 'utf8');
+    const eol = iiRaw.includes('\r\n') ? '\r\n' : '\n';
+    fs.writeFileSync(iiPath, JSON.stringify(ii, null, 1).replace(/\n/g, eol) + eol);
+  }
   // strand names (additive)
   for (const [strand, text] of Object.entries(d.strandNames || {})) {
     const re = new RegExp("^(\\s*)'" + strand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "': \\{\\n((?:.*\\n)*?)(\\s*)\\},", 'm');

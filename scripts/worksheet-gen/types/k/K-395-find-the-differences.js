@@ -63,7 +63,9 @@ function clipDecoy(box, diffs) {
     if (!cuts.length) return null;
     b = cuts.sort((p, q) => area(q) - area(p))[0];
   }
-  if (area(b) < 0.6 * a0 || Math.min(b[2] - b[0], b[3] - b[1]) < 80) return null;
+  // the runtime scales the page CROP (~735 px wide) to the 360 viewport: a 44 px target there is ≥ 90 page px = 80 units;
+  // measured by qa/verify-interactive.js on the first EN pool (decoys of 43 × 85 at 360 from an 80-unit floor)
+  if (area(b) < 0.6 * a0 || Math.min(b[2] - b[0], b[3] - b[1]) < 84) return null;   // 84 units = 94 page px = 46 px at 360 (80 measured 43)
   return b.map((v) => +v.toFixed(1));
 }
 
@@ -239,7 +241,7 @@ module.exports = {
         const p2 = panelSvg(p, { width: sw, clipId: 'fds2', attrs: ' data-lcs-fd-panel="2" data-lcs-fd-pair="0"', ops: true });
         const words = wordsFor(p, loc, rng);
         const m = Object.entries(planMeta).map(([k, v]) => ` ${k}="${esc(v)}"`).join('');
-        const rows = words.map((x) => `<div data-lcs-fd-hotspot="w-${esc(x.k)}" data-lcs-fd-word="${esc(x.k)}" data-lcs-label="${esc(x.text)}"${x.changed ? ' data-lcs-fd-diff="1"' : ''}${m} style="display:flex;align-items:center;justify-content:center;width:675px;height:64px;box-sizing:border-box;border:2px solid #146B5E;border-radius:14px;background:#FFFFFF;font-family:Nunito,sans-serif;font-weight:800;font-size:26px;color:#3A3530">${esc(x.text)}</div>`);
+        const rows = words.map((x) => `<div data-lcs-fd-hotspot="w-${esc(x.k)}" data-lcs-fd-word="${esc(x.k)}" data-lcs-label="${esc(x.text)}"${x.changed ? ' data-lcs-fd-diff="1"' : ''}${m} style="display:flex;align-items:center;justify-content:center;width:675px;height:96px;box-sizing:border-box;border:2px solid #146B5E;border-radius:14px;background:#FFFFFF;font-family:Nunito,sans-serif;font-weight:800;font-size:30px;color:#3A3530">${esc(x.text)}</div>`);
         body = C7.fdScreenStack({ panels: [p1, p2, `<div style="display:flex;flex-direction:column;gap:8px;width:675px;padding-top:4px">${rows.join('')}</div>`] });
       } else {
         const panels = [];
@@ -416,16 +418,25 @@ function fdOracle(items) {
   const m0 = (items.find((it) => it.meta && it.meta['data-lcs-fd-seed']) || {}).meta;
   if (!m0) throw new Error('fd oracle: no seed in the items');
   const plan = JSON.parse(m0['data-lcs-fd-plan']);
-  const comp = composeAll(plan, makeRng(m0['data-lcs-fd-seed']));
+  const rng = makeRng(m0['data-lcs-fd-seed']);
+  const comp = composeAll(plan, rng);
+  const wins = plan.window ? placeWindows(comp.panels[0], plan.window, rng) : null;
   const total = comp.count;
   return items.map((it) => {
     const m = it.meta || {};
     if (m['data-lcs-fd-count'] != null && m['data-lcs-fd-word'] == null && m['data-lcs-fd-box'] == null) return +m['data-lcs-fd-count'] === total;   // the how-many chips
     if (m['data-lcs-fd-word'] != null) { const key = m['data-lcs-fd-word']; const p = comp.panels[0]; return p.ops.some((c) => B.vocabKeyOf((p.scene.items.find((l) => l.idx === c.item) || {}).src) === key); }
-    const p = comp.panels[+m['data-lcs-fd-panel'] || 0];
-    if (!p || !m['data-lcs-fd-box']) return false;
+    if (!m['data-lcs-fd-box']) return false;
     const b = m['data-lcs-fd-box'].split(',').map(Number);
-    return p.rings.some((r) => { const cx = (r[0] + r[2]) / 2, cy = (r[1] + r[3]) / 2; return cx >= b[0] && cx <= b[2] && cy >= b[1] && cy <= b[3]; });
+    const inside = (r) => { const cx = (r[0] + r[2]) / 2, cy = (r[1] + r[3]) / 2; return cx >= b[0] && cx <= b[2] && cy >= b[1] && cy <= b[3]; };
+    if (plan.window) {
+      // the picture-pairs face: the panel index is the ROW; the row shows ONE op — replay the windows (the rng continues after the compose)
+      const row = +m['data-lcs-fd-panel'] || 0;
+      return inside(comp.panels[0].rings[wins[row].op]);
+    }
+    const p = comp.panels[+m['data-lcs-fd-panel'] || 0];
+    if (!p) return false;
+    return p.rings.some(inside);
   });
 }
 module.exports.fdOracle = fdOracle;

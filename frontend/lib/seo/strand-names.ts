@@ -76,11 +76,15 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   // design final's table B (docs/worksheet-gen/b7-designs/K-395-find-the-differences.md §1) is the panels' input.
   'Visual Perception': {
     en: 'Visual Perception',
+    de: 'Visuelle Wahrnehmung', // nt2-G panel (tools/apply-b7-locale.js)
+    fr: 'Discrimination visuelle', // nt2-G panel (tools/apply-b7-locale.js)
   },
   // nt2-G how-to-draw (K-396): the primary art subject per locale (no CCSS); each locale's literal is ADDED by its
   // native panel through tools/apply-b7-locale.js (strandNames).
   'Art': {
     en: 'Art',
+    de: 'Kunst', // nt2-G panel (tools/apply-b7-locale.js)
+    fr: 'Arts plastiques', // nt2-G panel (tools/apply-b7-locale.js)
   },
   'Science': {
     en: 'Science',

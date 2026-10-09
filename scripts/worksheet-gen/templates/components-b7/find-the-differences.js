@@ -67,10 +67,10 @@ function fdWindowRow({ w1, w2, gap = 40, tab = null, tab1 = null, box = 56, tick
     `<span style="width:30px;flex:0 0 30px;display:block;padding-top:14px">${tab != null ? fdIndexTab({ n: tab }) : ''}</span><span style="width:14px;flex:0 0 14px"></span>` +
     `<span data-lcs-fd-box="0" style="display:flex;align-items:center;justify-content:center;width:${box}px;height:${box}px;box-sizing:border-box;background:#FFFFFF;border:2.5px solid #146B5E;border-radius:12px">${ticked ? tick(box - 8) : ''}</span></div>`;
 }
-/** the how-many screen chips (tap-select items: exactly one is the count); meta carried for the oracle */
+/** the how-many screen chips (tap-select items: exactly one is the count; 96 px = a 44 px target once the page crop is scaled to 360) */
 function fdChoiceChips({ options, meta = {}, correct = null }) {
   const m = Object.entries(meta).map(([k, v]) => ` ${k}="${esc(v)}"`).join('');
-  const chips = options.map((o) => `<span class="ws-pill" data-lcs-fd-hotspot="c${o}" data-lcs-fd-count="${o}" data-lcs-label="${o}"${o === correct ? ' data-lcs-fd-diff="1"' : ''}${m} style="display:flex;align-items:center;justify-content:center;width:72px;height:72px;box-sizing:border-box;border-radius:50%;background:#FFFFFF;border:3px solid #146B5E;font-family:${BALOO};font-weight:700;font-size:32px;color:#146B5E">${o}</span>`).join('');
+  const chips = options.map((o) => `<span class="ws-pill" data-lcs-fd-hotspot="c${o}" data-lcs-fd-count="${o}" data-lcs-label="${o}"${o === correct ? ' data-lcs-fd-diff="1"' : ''}${m} style="display:flex;align-items:center;justify-content:center;width:96px;height:96px;box-sizing:border-box;border-radius:50%;background:#FFFFFF;border:3px solid #146B5E;font-family:${BALOO};font-weight:700;font-size:40px;color:#146B5E">${o}</span>`).join('');
   return `<div class="fd-chips" data-lcs-fd-chips="${options.length}" style="display:flex;gap:28px;justify-content:center;width:675px;padding-top:12px">${chips}</div>`;
 }
 /** the screen body: the panels stacked at the full page width (the runtime counts; no tabs, no ledger) */

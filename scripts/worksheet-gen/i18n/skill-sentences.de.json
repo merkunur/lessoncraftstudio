@@ -438,5 +438,13 @@
   "cursive-writing": {
     "full": "Schreibschrift in Vereinfachter und Lateinischer Ausgangsschrift: Buchstaben, Großbuchstaben, Verbindungen und Wörter nachspuren, Schreibschrift lesen und Sätze abschreiben.",
     "short": "Verbunden schreiben in VA und LA"
+  },
+  "find-the-differences": {
+    "full": "Fehlersuchbilder für Kindergarten und Grundschule: zwei Bilder genau vergleichen, 3 bis 10 Unterschiede finden und einkreisen, mit Lösung und Version zum Antippen am Bildschirm.",
+    "short": "Zwei Bilder vergleichen und die Unterschiede finden"
+  },
+  "how-to-draw": {
+    "full": "Zeichnen lernen Schritt für Schritt für Kindergarten und Grundschule: Tiere aus einfachen Formen aufbauen, nachfahren, vervollständigen oder aus dem Gedächtnis zeichnen.",
+    "short": "Tiere Schritt für Schritt zeichnen lernen"
   }
 }

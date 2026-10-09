@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-398',
   slug: 'find-the-differences-in-colour',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Find the Differences in Colour", instruction: "Circle the 5 things in the painted bottom picture that are different; one of them has changed colour." } },
+  i18n: { en: { title: "Find the Differences in Colour", instruction: "Circle the 5 things in the coloured bottom picture that are different; at least one of them has a new colour." } },
 };

@@ -1,0 +1,508 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-10-09T14:01:55.206Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "zoek de verschillen",
+    "zoek de 7 verschillen",
+    "verschillen zoeken",
+    "zoek de 5 verschillen"
+   ],
+   "requests": 28,
+   "productiveSeeds": 13,
+   "unique": 62,
+   "suggestions": [
+    "verschillen zoeken",
+    "verschillen zoeken in 2 excel bestanden",
+    "verschillen zoeken in 2 kolommen excel",
+    "verschillen zoeken in excel",
+    "verschillen zoeken kinderen",
+    "verschillen zoeken kleuters",
+    "verschillen zoeken spelletjes",
+    "verschillen zoeken tussen 2 pdf documenten",
+    "verschillen zoeken tussen 2 word documenten",
+    "verschillen zoeken volwassenen",
+    "werkblad zoek de verschillen kleuters",
+    "zoek de 10 verschillen volwassenen printen",
+    "zoek de 5 verschillen",
+    "zoek de 5 verschillen kerst",
+    "zoek de 5 verschillen kleuters",
+    "zoek de 5 verschillen makkelijk",
+    "zoek de 5 verschillen spelletjes",
+    "zoek de 5 verschillen winter",
+    "zoek de 7 verschillen",
+    "zoek de 7 verschillen engels",
+    "zoek de 7 verschillen halloween",
+    "zoek de 7 verschillen kerst",
+    "zoek de 7 verschillen kinderen",
+    "zoek de 7 verschillen pasen",
+    "zoek de 7 verschillen sinterklaas",
+    "zoek de 7 verschillen volwassenen",
+    "zoek de 7 verschillen zelf maken",
+    "zoek de 7 verschillen zomer",
+    "zoek de tien verschillen printen",
+    "zoek de verschillen",
+    "zoek de verschillen 5 jaar",
+    "zoek de verschillen afbeeldingen",
+    "zoek de verschillen boek",
+    "zoek de verschillen boek 5 jaar",
+    "zoek de verschillen boek kind",
+    "zoek de verschillen boek volwassenen",
+    "zoek de verschillen gratis printen",
+    "zoek de verschillen groep 3",
+    "zoek de verschillen groep 4",
+    "zoek de verschillen groep 5",
+    "zoek de verschillen kerst kleuters",
+    "zoek de verschillen kind",
+    "zoek de verschillen kinderen printen",
+    "zoek de verschillen kleuters",
+    "zoek de verschillen kleuters digibord",
+    "zoek de verschillen kleuters herfst",
+    "zoek de verschillen kleuters lente",
+    "zoek de verschillen kleuters sinterklaas",
+    "zoek de verschillen kleuters zomer",
+    "zoek de verschillen maken",
+    "zoek de verschillen moeilijk printen",
+    "zoek de verschillen printen",
+    "zoek de verschillen volwassenen",
+    "zoek de verschillen volwassenen printen",
+    "zoek de verschillen werkblad",
+    "zoek de verschillen werkblad groep 3",
+    "zoek de verschillen werkblad groep 4",
+    "zoek de verschillen werkblad groep 5",
+    "zoek de verschillen werkblad groep 6",
+    "zoek de verschillen werkblad groep 8",
+    "zoek de verschillen winter kleuters",
+    "zoek de verschillen zomer"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "leren tekenen",
+    "stap voor stap tekenen",
+    "hoe teken je",
+    "tekenen voor kinderen",
+    "tekenopdrachten"
+   ],
+   "requests": 35,
+   "productiveSeeds": 16,
+   "unique": 91,
+   "suggestions": [
+    "boek leren tekenen kleuters",
+    "hoe teken je",
+    "hoe teken je een hond",
+    "hoe teken je een kat",
+    "hoe teken je een konijn",
+    "hoe teken je een neus",
+    "hoe teken je een oog",
+    "hoe teken je een paard",
+    "hoe teken je een roos",
+    "hoe teken je een ster",
+    "hoe teken je in word",
+    "leren tekenen",
+    "leren tekenen boek",
+    "leren tekenen groep 3",
+    "leren tekenen kind",
+    "leren tekenen kind 10 jaar",
+    "leren tekenen kind 4 jaar",
+    "leren tekenen kind 6 jaar",
+    "leren tekenen kind 8 jaar",
+    "leren tekenen kind 9 jaar",
+    "leren tekenen kleuters",
+    "leren tekenen met potlood",
+    "leren tekenen volwassenen",
+    "leuke tekenopdrachten groep 5",
+    "rechte hoek leren tekenen met geodriehoek groep 5",
+    "stap voor stap tekenen",
+    "stap voor stap tekenen app",
+    "stap voor stap tekenen auto",
+    "stap voor stap tekenen boek",
+    "stap voor stap tekenen dieren",
+    "stap voor stap tekenen groep 3",
+    "stap voor stap tekenen groep 4",
+    "stap voor stap tekenen kawaii",
+    "stap voor stap tekenen kind",
+    "stap voor stap tekenen kind boek",
+    "stap voor stap tekenen kleuters",
+    "stap voor stap tekenen makkelijk",
+    "stap voor stap tekenen schattig",
+    "tekenen voor kinderen",
+    "tekenen voor kinderen 4 jaar",
+    "tekenen voor kinderen 5 jaar",
+    "tekenen voor kinderen 6 jaar",
+    "tekenen voor kinderen boek",
+    "tekenen voor kinderen online",
+    "tekenen voor kinderen van 10 jaar",
+    "tekenen voor kinderen van 7 jaar",
+    "tekenen voor kinderen van 8 jaar",
+    "tekenen voor kinderen van 9 jaar",
+    "tekenopdracht groep 3 4",
+    "tekenopdracht groep 3 dieren",
+    "tekenopdracht groep 3 herfst",
+    "tekenopdracht groep 3 kerst",
+    "tekenopdracht groep 3 lente",
+    "tekenopdracht groep 3 sinterklaas",
+    "tekenopdracht groep 3 voorjaar",
+    "tekenopdracht groep 3 winter",
+    "tekenopdracht groep 3 zomer",
+    "tekenopdracht groep 4 5",
+    "tekenopdracht groep 4 begin schooljaar",
+    "tekenopdracht groep 4 herfst",
+    "tekenopdracht groep 4 kerst",
+    "tekenopdracht groep 4 lente",
+    "tekenopdracht groep 4 nieuwjaar",
+    "tekenopdracht groep 4 sinterklaas",
+    "tekenopdracht groep 4 winter",
+    "tekenopdracht groep 4 zomer",
+    "tekenopdracht groep 5 herfst",
+    "tekenopdracht groep 5 kerst",
+    "tekenopdracht groep 5 lente",
+    "tekenopdracht groep 5 sinterklaas",
+    "tekenopdracht groep 5 start schooljaar",
+    "tekenopdracht groep 5 winter",
+    "tekenopdracht groep 5 zomer",
+    "tekenopdracht kleuters herfst",
+    "tekenopdracht kleuters kerst",
+    "tekenopdracht kleuters lente",
+    "tekenopdracht kleuters winter",
+    "tekenopdracht kleuters zomer",
+    "tekenopdracht werkblad",
+    "tekenopdrachten",
+    "tekenopdrachten bovenbouw",
+    "tekenopdrachten groep 3",
+    "tekenopdrachten groep 4",
+    "tekenopdrachten groep 5",
+    "tekenopdrachten groep 5 6",
+    "tekenopdrachten groep 6",
+    "tekenopdrachten groep 7",
+    "tekenopdrachten groep 8",
+    "tekenopdrachten kinderen",
+    "tekenopdrachten kleuters",
+    "tekenopdrachten volwassenen"
+   ]
+  }
+ },
+ "suggestions": {
+  "zoek de verschillen": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen",
+    "zoek de verschillen afbeeldingen",
+    "zoek de verschillen boek",
+    "zoek de verschillen volwassenen",
+    "zoek de verschillen kind",
+    "zoek de verschillen zomer",
+    "zoek de verschillen maken",
+    "zoek de verschillen boek volwassenen",
+    "zoek de verschillen boek kind",
+    "zoek de verschillen printen"
+   ]
+  },
+  "zoek de verschillen werkblad": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen werkblad",
+    "zoek de verschillen werkblad groep 3",
+    "zoek de verschillen werkblad groep 4",
+    "zoek de verschillen werkblad groep 5",
+    "zoek de verschillen werkblad groep 6",
+    "zoek de verschillen werkblad groep 8",
+    "werkblad zoek de verschillen kleuters"
+   ]
+  },
+  "zoek de verschillen printen": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen printen",
+    "zoek de verschillen volwassenen printen",
+    "zoek de verschillen kinderen printen",
+    "zoek de verschillen gratis printen",
+    "zoek de tien verschillen printen",
+    "zoek de verschillen moeilijk printen",
+    "zoek de 10 verschillen volwassenen printen"
+   ]
+  },
+  "zoek de verschillen kleuters": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen kleuters",
+    "zoek de verschillen kleuters zomer",
+    "zoek de verschillen kleuters digibord",
+    "zoek de verschillen kleuters sinterklaas",
+    "zoek de verschillen kleuters lente",
+    "zoek de verschillen kleuters herfst",
+    "zoek de 5 verschillen kleuters",
+    "zoek de verschillen kerst kleuters",
+    "zoek de verschillen winter kleuters",
+    "werkblad zoek de verschillen kleuters"
+   ]
+  },
+  "zoek de verschillen groep 3": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen groep 3",
+    "zoek de verschillen werkblad groep 3"
+   ]
+  },
+  "zoek de verschillen groep 4": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen groep 4",
+    "zoek de verschillen werkblad groep 4"
+   ]
+  },
+  "zoek de verschillen groep 5": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen groep 5",
+    "zoek de verschillen werkblad groep 5"
+   ]
+  },
+  "zoek de 7 verschillen": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de 7 verschillen volwassenen",
+    "zoek de 7 verschillen",
+    "zoek de 7 verschillen zelf maken",
+    "zoek de 7 verschillen kinderen",
+    "zoek de 7 verschillen zomer",
+    "zoek de 7 verschillen sinterklaas",
+    "zoek de 7 verschillen kerst",
+    "zoek de 7 verschillen pasen",
+    "zoek de 7 verschillen engels",
+    "zoek de 7 verschillen halloween"
+   ]
+  },
+  "verschillen zoeken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "verschillen zoeken",
+    "verschillen zoeken spelletjes",
+    "verschillen zoeken tussen 2 word documenten",
+    "verschillen zoeken in excel",
+    "verschillen zoeken in 2 excel bestanden",
+    "verschillen zoeken in 2 kolommen excel",
+    "verschillen zoeken kleuters",
+    "verschillen zoeken kinderen",
+    "verschillen zoeken tussen 2 pdf documenten",
+    "verschillen zoeken volwassenen"
+   ]
+  },
+  "verschillen zoeken kleuters": {
+   "candidate": "find-the-differences",
+   "s": [
+    "verschillen zoeken kleuters"
+   ]
+  },
+  "zoek de 5 verschillen": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de 5 verschillen",
+    "zoek de 5 verschillen kleuters",
+    "zoek de 5 verschillen makkelijk",
+    "zoek de 5 verschillen kerst",
+    "zoek de 5 verschillen spelletjes",
+    "zoek de 5 verschillen winter",
+    "zoek de verschillen 5 jaar",
+    "zoek de verschillen groep 5",
+    "zoek de verschillen boek 5 jaar",
+    "zoek de verschillen werkblad groep 5"
+   ]
+  },
+  "zoek de 5 verschillen werkblad": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de verschillen werkblad groep 5"
+   ]
+  },
+  "zoek de 5 verschillen kleuters": {
+   "candidate": "find-the-differences",
+   "s": [
+    "zoek de 5 verschillen kleuters"
+   ]
+  },
+  "leren tekenen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "leren tekenen",
+    "leren tekenen met potlood",
+    "leren tekenen kind",
+    "leren tekenen volwassenen",
+    "leren tekenen kind 8 jaar",
+    "leren tekenen boek",
+    "leren tekenen kind 10 jaar",
+    "leren tekenen kind 4 jaar",
+    "leren tekenen kind 6 jaar",
+    "leren tekenen kind 9 jaar"
+   ]
+  },
+  "leren tekenen kleuters": {
+   "candidate": "how-to-draw",
+   "s": [
+    "leren tekenen kleuters",
+    "boek leren tekenen kleuters"
+   ]
+  },
+  "leren tekenen groep 3": {
+   "candidate": "how-to-draw",
+   "s": [
+    "leren tekenen groep 3"
+   ]
+  },
+  "leren tekenen groep 5": {
+   "candidate": "how-to-draw",
+   "s": [
+    "rechte hoek leren tekenen met geodriehoek groep 5"
+   ]
+  },
+  "stap voor stap tekenen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "stap voor stap tekenen",
+    "stap voor stap tekenen kind",
+    "stap voor stap tekenen makkelijk",
+    "stap voor stap tekenen dieren",
+    "stap voor stap tekenen boek",
+    "stap voor stap tekenen kind boek",
+    "stap voor stap tekenen app",
+    "stap voor stap tekenen schattig",
+    "stap voor stap tekenen auto",
+    "stap voor stap tekenen kawaii"
+   ]
+  },
+  "stap voor stap tekenen kleuters": {
+   "candidate": "how-to-draw",
+   "s": [
+    "stap voor stap tekenen kleuters"
+   ]
+  },
+  "stap voor stap tekenen groep 3": {
+   "candidate": "how-to-draw",
+   "s": [
+    "stap voor stap tekenen groep 3"
+   ]
+  },
+  "stap voor stap tekenen groep 4": {
+   "candidate": "how-to-draw",
+   "s": [
+    "stap voor stap tekenen groep 4"
+   ]
+  },
+  "hoe teken je": {
+   "candidate": "how-to-draw",
+   "s": [
+    "hoe teken je een hond",
+    "hoe teken je een kat",
+    "hoe teken je",
+    "hoe teken je een neus",
+    "hoe teken je een ster",
+    "hoe teken je een paard",
+    "hoe teken je een konijn",
+    "hoe teken je in word",
+    "hoe teken je een roos",
+    "hoe teken je een oog"
+   ]
+  },
+  "tekenen voor kinderen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenen voor kinderen",
+    "tekenen voor kinderen van 10 jaar",
+    "tekenen voor kinderen 4 jaar",
+    "tekenen voor kinderen 6 jaar",
+    "tekenen voor kinderen 5 jaar",
+    "tekenen voor kinderen online",
+    "tekenen voor kinderen van 8 jaar",
+    "tekenen voor kinderen van 9 jaar",
+    "tekenen voor kinderen van 7 jaar",
+    "tekenen voor kinderen boek"
+   ]
+  },
+  "tekenopdrachten": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdrachten",
+    "tekenopdrachten volwassenen",
+    "tekenopdrachten groep 5",
+    "tekenopdrachten groep 4",
+    "tekenopdrachten groep 6",
+    "tekenopdrachten groep 8",
+    "tekenopdrachten bovenbouw",
+    "tekenopdrachten groep 3",
+    "tekenopdrachten groep 7",
+    "tekenopdrachten kinderen"
+   ]
+  },
+  "tekenopdrachten werkblad": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdracht werkblad"
+   ]
+  },
+  "tekenopdrachten kleuters": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdrachten kleuters",
+    "tekenopdracht kleuters lente",
+    "tekenopdracht kleuters zomer",
+    "tekenopdracht kleuters herfst",
+    "tekenopdracht kleuters kerst",
+    "tekenopdracht kleuters winter"
+   ]
+  },
+  "tekenopdrachten groep 3": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdrachten groep 3",
+    "tekenopdracht groep 3 zomer",
+    "tekenopdracht groep 3 lente",
+    "tekenopdracht groep 3 dieren",
+    "tekenopdracht groep 3 winter",
+    "tekenopdracht groep 3 4",
+    "tekenopdracht groep 3 herfst",
+    "tekenopdracht groep 3 sinterklaas",
+    "tekenopdracht groep 3 kerst",
+    "tekenopdracht groep 3 voorjaar"
+   ]
+  },
+  "tekenopdrachten groep 4": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdrachten groep 4",
+    "tekenopdracht groep 4 winter",
+    "tekenopdracht groep 4 zomer",
+    "tekenopdracht groep 4 herfst",
+    "tekenopdracht groep 4 lente",
+    "tekenopdracht groep 4 5",
+    "tekenopdracht groep 4 sinterklaas",
+    "tekenopdracht groep 4 nieuwjaar",
+    "tekenopdracht groep 4 kerst",
+    "tekenopdracht groep 4 begin schooljaar"
+   ]
+  },
+  "tekenopdrachten groep 5": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tekenopdrachten groep 5",
+    "tekenopdrachten groep 5 6",
+    "tekenopdracht groep 5 lente",
+    "tekenopdracht groep 5 winter",
+    "tekenopdracht groep 5 zomer",
+    "tekenopdracht groep 5 herfst",
+    "tekenopdracht groep 5 start schooljaar",
+    "tekenopdracht groep 5 sinterklaas",
+    "tekenopdracht groep 5 kerst",
+    "leuke tekenopdrachten groep 5"
+   ]
+  }
+ }
+}

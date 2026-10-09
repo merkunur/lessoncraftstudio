@@ -1,0 +1,17 @@
+{
+ "_about": "nt2-G (b7) genre heads per locale for the two operator-chosen flagship types (authored 2026-10-09 from native-market knowledge; the native panels audit and may add heads). es = MX, pt = BR, no = bokmål.",
+ "candidates": ["find-the-differences", "how-to-draw"],
+ "heads": {
+  "en": {"find-the-differences": ["find the differences", "spot the difference", "spot the difference printable", "find the difference puzzles for kids"], "how-to-draw": ["how to draw", "how to draw step by step", "directed drawing", "learn to draw for kids", "drawing worksheets"]},
+  "de": {"find-the-differences": ["finde die unterschiede", "fehlersuchbild", "suchbilder", "finde den fehler", "unterschiede finden"], "how-to-draw": ["zeichnen lernen", "zeichnen lernen schritt für schritt", "zeichnen lernen für kinder", "schritt für schritt zeichnen", "malen lernen"]},
+  "es": {"find-the-differences": ["busca las diferencias", "encuentra las diferencias", "juego de las diferencias", "encuentra los 7 errores"], "how-to-draw": ["cómo dibujar", "como dibujar paso a paso", "aprender a dibujar", "dibujos paso a paso para niños", "dibujos fáciles"]},
+  "pt": {"find-the-differences": ["jogo dos 7 erros", "encontre as diferenças", "ache as diferenças", "jogo das diferenças"], "how-to-draw": ["como desenhar", "como desenhar passo a passo", "aprender a desenhar", "desenho passo a passo", "desenhos fáceis"]},
+  "fr": {"find-the-differences": ["jeu des 7 erreurs", "cherche les différences", "trouve les différences", "jeu des différences"], "how-to-draw": ["apprendre à dessiner", "dessin étape par étape", "comment dessiner", "dessin facile", "apprendre à dessiner maternelle"]},
+  "it": {"find-the-differences": ["trova le differenze", "trova le 7 differenze", "gioco delle differenze", "scopri le differenze"], "how-to-draw": ["imparare a disegnare", "come disegnare", "disegnare passo dopo passo", "disegni facili", "disegno guidato"]},
+  "nl": {"find-the-differences": ["zoek de verschillen", "zoek de 7 verschillen", "verschillen zoeken", "zoek de 5 verschillen"], "how-to-draw": ["leren tekenen", "stap voor stap tekenen", "hoe teken je", "tekenen voor kinderen", "tekenopdrachten"]},
+  "sv": {"find-the-differences": ["hitta fem fel", "hitta skillnaderna", "finn fem fel", "hitta felen"], "how-to-draw": ["lära sig rita", "rita steg för steg", "hur man ritar", "lätta teckningar", "rita för barn"]},
+  "da": {"find-the-differences": ["find fem fejl", "find forskellene", "find 5 fejl", "find fejlene"], "how-to-draw": ["lær at tegne", "tegn trin for trin", "hvordan tegner man", "nemme tegninger", "tegning for børn"]},
+  "no": {"find-the-differences": ["finn fem feil", "finn forskjellene", "finn 5 feil", "finn feilene"], "how-to-draw": ["lære å tegne", "tegne steg for steg", "hvordan tegne", "enkle tegninger", "tegning for barn"]},
+  "fi": {"find-the-differences": ["etsi erot", "etsi viisi virhettä", "löydä erot", "etsi virheet"], "how-to-draw": ["opi piirtämään", "piirrä vaihe vaiheelta", "miten piirretään", "helppo piirustus", "piirustusohjeet lapsille"]}
+ }
+}

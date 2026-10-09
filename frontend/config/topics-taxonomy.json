@@ -699,6 +699,16 @@
       "default_subject": "letters",
       "default_age_range": "7-9",
       "exercise_type_axis_key": "cursive-writing"
+    },
+    "find-the-differences": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "find-the-differences"
+    },
+    "how-to-draw": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "how-to-draw"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -4744,6 +4754,22 @@
           "no": "Sammenhengende skrift",
           "fi": "Kaunokirjoitus",
           "de": "Schreibschrift"
+        }
+      },
+      "find-the-differences": {
+        "slug": {
+          "en": "find-the-differences"
+        },
+        "name": {
+          "en": "Find the Differences"
+        }
+      },
+      "how-to-draw": {
+        "slug": {
+          "en": "how-to-draw"
+        },
+        "name": {
+          "en": "How to Draw"
         }
       }
     },

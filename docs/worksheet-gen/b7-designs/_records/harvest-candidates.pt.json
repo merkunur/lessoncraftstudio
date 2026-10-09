@@ -1,0 +1,517 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-10-09T14:01:23.127Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "jogo dos 7 erros",
+    "encontre as diferenças",
+    "ache as diferenças",
+    "jogo das diferenças"
+   ],
+   "requests": 28,
+   "productiveSeeds": 15,
+   "unique": 71,
+   "suggestions": [
+    "7 erros jogo das diferenças para imprimir",
+    "ache as 15 diferenças",
+    "ache as 3 diferenças",
+    "ache as 7 diferenças",
+    "ache as diferenças",
+    "ache as diferenças fofuras",
+    "ache as diferenças nas imagens",
+    "ache as diferenças online",
+    "ache as diferenças para imprimir",
+    "atividade ache as diferenças",
+    "atividade de arte jogo dos 7 erros",
+    "atividade encontre as diferenças",
+    "atividade encontre as diferenças educação infantil",
+    "atividade infantil jogo dos 7 erros",
+    "atividade jogo das diferenças",
+    "atividade jogo das diferenças para educação infantil",
+    "atividade jogo dos 7 erros colorido",
+    "atividade jogo dos 7 erros dificil",
+    "atividade jogo dos 7 erros educação infantil",
+    "atividade jogo dos 7 erros para imprimir",
+    "encontre as diferenças",
+    "encontre as diferenças dificil",
+    "encontre as diferenças educação infantil",
+    "encontre as diferenças escola games",
+    "encontre as diferenças jogo",
+    "encontre as diferenças nas figuras",
+    "encontre as diferenças nas imagens",
+    "encontre as diferenças online",
+    "encontre as diferenças para imprimir",
+    "encontre as diferenças roblox",
+    "jogo ache as diferenças",
+    "jogo das 7 diferenças para imprimir",
+    "jogo das diferenças",
+    "jogo das diferenças educação infantil",
+    "jogo das diferenças grátis",
+    "jogo das diferenças inclusão educação infantil",
+    "jogo das diferenças infantil para imprimir",
+    "jogo das diferenças online",
+    "jogo das diferenças online grátis",
+    "jogo das diferenças para crianças",
+    "jogo das diferenças para educação infantil",
+    "jogo das diferenças para idosos",
+    "jogo das diferenças para idosos para imprimir",
+    "jogo das diferenças para imprimir",
+    "jogo das diferenças wordwall",
+    "jogo dos 7 erros",
+    "jogo dos 7 erros adulto",
+    "jogo dos 7 erros atividades",
+    "jogo dos 7 erros difícil",
+    "jogo dos 7 erros difícil com resposta",
+    "jogo dos 7 erros difícil para imprimir",
+    "jogo dos 7 erros educação infantil",
+    "jogo dos 7 erros educação infantil online",
+    "jogo dos 7 erros infantil",
+    "jogo dos 7 erros meio ambiente educação infantil",
+    "jogo dos 7 erros na educação infantil bncc",
+    "jogo dos 7 erros online",
+    "jogo dos 7 erros para educação infantil para imprimir",
+    "jogo dos 7 erros para imprimir",
+    "jogo dos 7 erros para imprimir 4 ano",
+    "jogo dos 7 erros para imprimir adulto",
+    "jogo dos 7 erros para imprimir colorido",
+    "jogo dos 7 erros para imprimir facil",
+    "jogo dos 7 erros para imprimir infantil",
+    "jogo dos 7 erros para imprimir nível difícil",
+    "jogo dos 7 erros para imprimir nível médio",
+    "jogo dos 7 erros para imprimir pdf",
+    "jogo dos 7 erros para imprimir turma da monica",
+    "jogo encontre as diferenças para imprimir",
+    "objetivo do jogo dos 7 erros na educação infantil",
+    "objetivo do jogo dos 7 erros na educação infantil bncc"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "como desenhar",
+    "como desenhar passo a passo",
+    "aprender a desenhar",
+    "desenho passo a passo",
+    "desenhos fáceis"
+   ],
+   "requests": 35,
+   "productiveSeeds": 14,
+   "unique": 87,
+   "suggestions": [
+    "aprender a desenhar",
+    "aprender a desenhar animais",
+    "aprender a desenhar do zero",
+    "aprender a desenhar facil",
+    "aprender a desenhar grátis",
+    "aprender a desenhar imprimir",
+    "aprender a desenhar infantil",
+    "aprender a desenhar passo a passo",
+    "aprender a desenhar passo a passo para iniciantes",
+    "aprender a desenhar pessoas",
+    "aprender a desenhar rosto",
+    "atividade de desenho passo a passo",
+    "atividade para criança aprender a desenhar",
+    "atividades para aprender a desenhar",
+    "como desenhar",
+    "como desenhar atividade",
+    "como desenhar capivara para imprimir",
+    "como desenhar educação infantil",
+    "como desenhar o goku",
+    "como desenhar o goku para imprimir",
+    "como desenhar o homem-aranha",
+    "como desenhar o neymar",
+    "como desenhar o neymar para imprimir",
+    "como desenhar o stitch",
+    "como desenhar o stitch para imprimir",
+    "como desenhar para imprimir",
+    "como desenhar para imprimir em 3d",
+    "como desenhar passo a passo",
+    "como desenhar passo a passo anime",
+    "como desenhar passo a passo fácil",
+    "como desenhar passo a passo o stitch",
+    "como desenhar passo a passo para iniciantes",
+    "como desenhar passo a passo pikachu",
+    "como desenhar passo a passo um cachorro",
+    "como desenhar passo a passo um gato",
+    "como desenhar passo a passo uma menina",
+    "como desenhar passo a passo uma pessoa",
+    "como desenhar um bebê para imprimir",
+    "como desenhar um cachorro",
+    "como desenhar um cachorro educação infantil",
+    "como desenhar um carro",
+    "como desenhar um carro educação infantil",
+    "como desenhar um cavalo",
+    "como desenhar um coelho educação infantil",
+    "como desenhar um elefante educação infantil",
+    "como desenhar um gato",
+    "como desenhar um gato educação infantil",
+    "como desenhar um jacaré educação infantil",
+    "como desenhar um leão educação infantil",
+    "como desenhar um rosto para imprimir",
+    "como desenhar um sapo educação infantil",
+    "como desenhar uma girafa para imprimir",
+    "como desenhar uma pessoa",
+    "como desenhar uma pessoa educação infantil",
+    "como desenhar uma pessoa para imprimir",
+    "desenho passo a passo",
+    "desenho passo a passo anime",
+    "desenho passo a passo bob esponja",
+    "desenho passo a passo cachorro",
+    "desenho passo a passo fácil",
+    "desenho passo a passo homem aranha",
+    "desenho passo a passo infantil",
+    "desenho passo a passo para desenhar",
+    "desenho passo a passo para imprimir",
+    "desenho passo a passo realista",
+    "desenho passo a passo rosto",
+    "desenhos de animais fáceis para imprimir",
+    "desenhos de flores fáceis para imprimir",
+    "desenhos fofos fáceis para imprimir",
+    "desenhos fáceis",
+    "desenhos fáceis de cria",
+    "desenhos fáceis de fazer",
+    "desenhos fáceis de fazer no papel",
+    "desenhos fáceis de fazer para imprimir",
+    "desenhos fáceis desenhos para colorir e imprimir grátis",
+    "desenhos fáceis e bonitos",
+    "desenhos fáceis e bonitos para imprimir",
+    "desenhos fáceis e fofos",
+    "desenhos fáceis e rápido",
+    "desenhos fáceis educação infantil",
+    "desenhos fáceis para colorir",
+    "desenhos fáceis para criança desenhar",
+    "desenhos fáceis para desenhar",
+    "desenhos fáceis para imprimir",
+    "desenhos fáceis para imprimir e colorir",
+    "desenhos infantis fáceis para imprimir",
+    "desenhos pequenos e fáceis para imprimir"
+   ]
+  }
+ },
+ "suggestions": {
+  "jogo dos 7 erros": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo dos 7 erros",
+    "jogo dos 7 erros para imprimir",
+    "jogo dos 7 erros difícil",
+    "jogo dos 7 erros online",
+    "jogo dos 7 erros adulto",
+    "jogo dos 7 erros difícil para imprimir",
+    "jogo dos 7 erros para imprimir pdf",
+    "jogo dos 7 erros para imprimir nível médio",
+    "jogo dos 7 erros infantil",
+    "jogo dos 7 erros difícil com resposta"
+   ]
+  },
+  "jogo dos 7 erros atividade": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo dos 7 erros atividades",
+    "atividade jogo dos 7 erros para imprimir",
+    "atividade jogo dos 7 erros educação infantil",
+    "atividade jogo dos 7 erros dificil",
+    "atividade jogo dos 7 erros colorido",
+    "atividade infantil jogo dos 7 erros",
+    "atividade de arte jogo dos 7 erros"
+   ]
+  },
+  "jogo dos 7 erros para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo dos 7 erros para imprimir",
+    "jogo dos 7 erros para imprimir pdf",
+    "jogo dos 7 erros para imprimir nível médio",
+    "jogo dos 7 erros para imprimir colorido",
+    "jogo dos 7 erros para imprimir adulto",
+    "jogo dos 7 erros para imprimir nível difícil",
+    "jogo dos 7 erros para imprimir infantil",
+    "jogo dos 7 erros para imprimir 4 ano",
+    "jogo dos 7 erros para imprimir facil",
+    "jogo dos 7 erros para imprimir turma da monica"
+   ]
+  },
+  "jogo dos 7 erros educação infantil": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo dos 7 erros educação infantil",
+    "jogo dos 7 erros educação infantil online",
+    "jogo dos 7 erros para educação infantil para imprimir",
+    "atividade jogo dos 7 erros educação infantil",
+    "jogo dos 7 erros na educação infantil bncc",
+    "jogo dos 7 erros meio ambiente educação infantil",
+    "objetivo do jogo dos 7 erros na educação infantil bncc",
+    "objetivo do jogo dos 7 erros na educação infantil"
+   ]
+  },
+  "encontre as diferenças": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encontre as diferenças",
+    "encontre as diferenças nas imagens",
+    "encontre as diferenças para imprimir",
+    "encontre as diferenças escola games",
+    "encontre as diferenças dificil",
+    "encontre as diferenças online",
+    "encontre as diferenças nas figuras",
+    "encontre as diferenças jogo",
+    "encontre as diferenças roblox",
+    "encontre as diferenças educação infantil"
+   ]
+  },
+  "encontre as diferenças atividade": {
+   "candidate": "find-the-differences",
+   "s": [
+    "atividade encontre as diferenças",
+    "atividade encontre as diferenças educação infantil"
+   ]
+  },
+  "encontre as diferenças para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encontre as diferenças para imprimir",
+    "jogo encontre as diferenças para imprimir"
+   ]
+  },
+  "encontre as diferenças educação infantil": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encontre as diferenças educação infantil",
+    "atividade encontre as diferenças educação infantil"
+   ]
+  },
+  "ache as diferenças": {
+   "candidate": "find-the-differences",
+   "s": [
+    "ache as diferenças",
+    "ache as diferenças nas imagens",
+    "ache as diferenças para imprimir",
+    "ache as diferenças online",
+    "ache as diferenças fofuras",
+    "ache as 3 diferenças",
+    "jogo ache as diferenças",
+    "ache as 7 diferenças",
+    "ache as 15 diferenças",
+    "atividade ache as diferenças"
+   ]
+  },
+  "ache as diferenças atividade": {
+   "candidate": "find-the-differences",
+   "s": [
+    "atividade ache as diferenças"
+   ]
+  },
+  "ache as diferenças para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "ache as diferenças para imprimir"
+   ]
+  },
+  "jogo das diferenças": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo das diferenças",
+    "jogo das diferenças grátis",
+    "jogo das diferenças online",
+    "jogo das diferenças para imprimir",
+    "jogo das diferenças online grátis",
+    "jogo das diferenças wordwall",
+    "jogo das diferenças para educação infantil",
+    "jogo das diferenças para crianças",
+    "jogo das diferenças para idosos",
+    "jogo das diferenças inclusão educação infantil"
+   ]
+  },
+  "jogo das diferenças atividade": {
+   "candidate": "find-the-differences",
+   "s": [
+    "atividade jogo das diferenças para educação infantil",
+    "atividade jogo das diferenças"
+   ]
+  },
+  "jogo das diferenças para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo das diferenças para imprimir",
+    "jogo das diferenças infantil para imprimir",
+    "7 erros jogo das diferenças para imprimir",
+    "jogo encontre as diferenças para imprimir",
+    "jogo das 7 diferenças para imprimir",
+    "jogo das diferenças para idosos para imprimir"
+   ]
+  },
+  "jogo das diferenças educação infantil": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jogo das diferenças educação infantil",
+    "jogo das diferenças inclusão educação infantil",
+    "atividade jogo das diferenças para educação infantil"
+   ]
+  },
+  "como desenhar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como desenhar",
+    "como desenhar um cachorro",
+    "como desenhar um gato",
+    "como desenhar o neymar",
+    "como desenhar uma pessoa",
+    "como desenhar o homem-aranha",
+    "como desenhar um carro",
+    "como desenhar o goku",
+    "como desenhar um cavalo",
+    "como desenhar o stitch"
+   ]
+  },
+  "como desenhar atividade": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como desenhar atividade"
+   ]
+  },
+  "como desenhar para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como desenhar para imprimir em 3d",
+    "como desenhar para imprimir",
+    "como desenhar capivara para imprimir",
+    "como desenhar o stitch para imprimir",
+    "como desenhar uma girafa para imprimir",
+    "como desenhar o neymar para imprimir",
+    "como desenhar um rosto para imprimir",
+    "como desenhar uma pessoa para imprimir",
+    "como desenhar o goku para imprimir",
+    "como desenhar um bebê para imprimir"
+   ]
+  },
+  "como desenhar educação infantil": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como desenhar educação infantil",
+    "como desenhar um gato educação infantil",
+    "como desenhar um cachorro educação infantil",
+    "como desenhar um sapo educação infantil",
+    "como desenhar um leão educação infantil",
+    "como desenhar uma pessoa educação infantil",
+    "como desenhar um coelho educação infantil",
+    "como desenhar um jacaré educação infantil",
+    "como desenhar um elefante educação infantil",
+    "como desenhar um carro educação infantil"
+   ]
+  },
+  "como desenhar passo a passo": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como desenhar passo a passo",
+    "como desenhar passo a passo para iniciantes",
+    "como desenhar passo a passo uma pessoa",
+    "como desenhar passo a passo um cachorro",
+    "como desenhar passo a passo um gato",
+    "como desenhar passo a passo fácil",
+    "como desenhar passo a passo anime",
+    "como desenhar passo a passo o stitch",
+    "como desenhar passo a passo pikachu",
+    "como desenhar passo a passo uma menina"
+   ]
+  },
+  "aprender a desenhar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "aprender a desenhar",
+    "aprender a desenhar infantil",
+    "aprender a desenhar do zero",
+    "aprender a desenhar passo a passo",
+    "aprender a desenhar passo a passo para iniciantes",
+    "aprender a desenhar animais",
+    "aprender a desenhar grátis",
+    "aprender a desenhar pessoas",
+    "aprender a desenhar facil",
+    "aprender a desenhar rosto"
+   ]
+  },
+  "aprender a desenhar atividade": {
+   "candidate": "how-to-draw",
+   "s": [
+    "atividades para aprender a desenhar",
+    "atividade para criança aprender a desenhar"
+   ]
+  },
+  "aprender a desenhar para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "aprender a desenhar imprimir"
+   ]
+  },
+  "desenho passo a passo": {
+   "candidate": "how-to-draw",
+   "s": [
+    "desenho passo a passo",
+    "desenho passo a passo anime",
+    "desenho passo a passo infantil",
+    "desenho passo a passo fácil",
+    "desenho passo a passo realista",
+    "desenho passo a passo para desenhar",
+    "desenho passo a passo homem aranha",
+    "desenho passo a passo cachorro",
+    "desenho passo a passo bob esponja",
+    "desenho passo a passo rosto"
+   ]
+  },
+  "desenho passo a passo atividade": {
+   "candidate": "how-to-draw",
+   "s": [
+    "atividade de desenho passo a passo"
+   ]
+  },
+  "desenho passo a passo para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "desenho passo a passo para imprimir"
+   ]
+  },
+  "desenhos fáceis": {
+   "candidate": "how-to-draw",
+   "s": [
+    "desenhos fáceis",
+    "desenhos fáceis para desenhar",
+    "desenhos fáceis de fazer",
+    "desenhos fáceis e bonitos",
+    "desenhos fáceis de fazer no papel",
+    "desenhos fáceis e rápido",
+    "desenhos fáceis de cria",
+    "desenhos fáceis e fofos",
+    "desenhos fáceis para criança desenhar",
+    "desenhos fáceis para colorir"
+   ]
+  },
+  "desenhos fáceis para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "desenhos fáceis para imprimir",
+    "desenhos fáceis para imprimir e colorir",
+    "desenhos fofos fáceis para imprimir",
+    "desenhos infantis fáceis para imprimir",
+    "desenhos de animais fáceis para imprimir",
+    "desenhos fáceis de fazer para imprimir",
+    "desenhos fáceis e bonitos para imprimir",
+    "desenhos de flores fáceis para imprimir",
+    "desenhos pequenos e fáceis para imprimir",
+    "desenhos fáceis desenhos para colorir e imprimir grátis"
+   ]
+  },
+  "desenhos fáceis educação infantil": {
+   "candidate": "how-to-draw",
+   "s": [
+    "desenhos fáceis educação infantil"
+   ]
+  }
+ }
+}

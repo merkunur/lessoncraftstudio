@@ -1,0 +1,234 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-10-09T14:02:11.348Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "hitta fem fel",
+    "hitta skillnaderna",
+    "finn fem fel",
+    "hitta felen"
+   ],
+   "requests": 28,
+   "productiveSeeds": 6,
+   "unique": 19,
+   "suggestions": [
+    "finn fem fel",
+    "finn fem fel barn",
+    "finn fem fel barn skriva ut",
+    "finn fem fel bilder",
+    "finn fem fel bilder att skriva ut",
+    "finn fem fel bok",
+    "finn fem fel engelska",
+    "finn fem fel gratis",
+    "finn fem fel gratis skriva ut",
+    "finn fem fel online",
+    "finn fem fel skriva ut",
+    "finn fem fel vuxna",
+    "finn fem fel vuxna skriva ut",
+    "hitta felen",
+    "hitta felen i bilden",
+    "hitta fem fel",
+    "hitta fem fel för barn",
+    "hitta fem fel spel",
+    "hitta skillnaderna"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "lära sig rita",
+    "rita steg för steg",
+    "hur man ritar",
+    "lätta teckningar",
+    "rita för barn"
+   ],
+   "requests": 35,
+   "productiveSeeds": 5,
+   "unique": 42,
+   "suggestions": [
+    "hur man ritar",
+    "hur man ritar djur",
+    "hur man ritar en enhörning",
+    "hur man ritar en hund",
+    "hur man ritar en häst",
+    "hur man ritar en kanin",
+    "hur man ritar en katt",
+    "hur man ritar en ros",
+    "hur man ritar kawaii",
+    "hur man ritar ögon",
+    "lära sig rita",
+    "lära sig rita app",
+    "lära sig rita app gratis",
+    "lära sig rita barn",
+    "lära sig rita barn app",
+    "lära sig rita bok",
+    "lära sig rita i cad",
+    "lära sig rita manga",
+    "lära sig rita steg för steg",
+    "lära sig rita vuxen",
+    "lätta teckningar",
+    "lätta teckningar att rita",
+    "rita av för barn",
+    "rita bilder för barn",
+    "rita djur för barn",
+    "rita enkelt för barn",
+    "rita för barn",
+    "rita för barn online",
+    "rita för små barn",
+    "rita kurs för barn",
+    "rita skattkarta för barn",
+    "rita steg för steg",
+    "rita steg för steg barn",
+    "rita steg för steg bok",
+    "rita steg för steg capybara",
+    "rita steg för steg djur",
+    "rita steg för steg hund",
+    "rita steg för steg kanin",
+    "rita steg för steg katt",
+    "rita steg för steg lätt",
+    "rita steg för steg minecraft",
+    "rita teckningar för barn"
+   ]
+  }
+ },
+ "suggestions": {
+  "hitta fem fel": {
+   "candidate": "find-the-differences",
+   "s": [
+    "hitta fem fel",
+    "hitta fem fel för barn",
+    "hitta fem fel spel",
+    "finn fem fel",
+    "finn fem fel gratis",
+    "finn fem fel barn",
+    "finn fem fel barn skriva ut",
+    "finn fem fel vuxna",
+    "finn fem fel skriva ut",
+    "finn fem fel engelska"
+   ]
+  },
+  "hitta fem fel skriva ut": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn fem fel skriva ut",
+    "finn fem fel barn skriva ut",
+    "finn fem fel vuxna skriva ut",
+    "finn fem fel gratis skriva ut",
+    "finn fem fel bilder att skriva ut"
+   ]
+  },
+  "hitta skillnaderna": {
+   "candidate": "find-the-differences",
+   "s": [
+    "hitta skillnaderna"
+   ]
+  },
+  "finn fem fel": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn fem fel",
+    "finn fem fel gratis",
+    "finn fem fel barn skriva ut",
+    "finn fem fel barn",
+    "finn fem fel online",
+    "finn fem fel vuxna",
+    "finn fem fel skriva ut",
+    "finn fem fel bilder",
+    "finn fem fel bok",
+    "finn fem fel gratis skriva ut"
+   ]
+  },
+  "finn fem fel skriva ut": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn fem fel skriva ut",
+    "finn fem fel barn skriva ut",
+    "finn fem fel vuxna skriva ut",
+    "finn fem fel gratis skriva ut",
+    "finn fem fel bilder att skriva ut"
+   ]
+  },
+  "hitta felen": {
+   "candidate": "find-the-differences",
+   "s": [
+    "hitta felen",
+    "hitta felen i bilden"
+   ]
+  },
+  "lära sig rita": {
+   "candidate": "how-to-draw",
+   "s": [
+    "lära sig rita",
+    "lära sig rita barn",
+    "lära sig rita app",
+    "lära sig rita app gratis",
+    "lära sig rita steg för steg",
+    "lära sig rita i cad",
+    "lära sig rita barn app",
+    "lära sig rita manga",
+    "lära sig rita vuxen",
+    "lära sig rita bok"
+   ]
+  },
+  "rita steg för steg": {
+   "candidate": "how-to-draw",
+   "s": [
+    "rita steg för steg",
+    "rita steg för steg djur",
+    "rita steg för steg barn",
+    "rita steg för steg lätt",
+    "rita steg för steg bok",
+    "rita steg för steg minecraft",
+    "rita steg för steg hund",
+    "rita steg för steg katt",
+    "rita steg för steg capybara",
+    "rita steg för steg kanin"
+   ]
+  },
+  "hur man ritar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "hur man ritar",
+    "hur man ritar en katt",
+    "hur man ritar kawaii",
+    "hur man ritar en häst",
+    "hur man ritar en hund",
+    "hur man ritar en kanin",
+    "hur man ritar djur",
+    "hur man ritar ögon",
+    "hur man ritar en ros",
+    "hur man ritar en enhörning"
+   ]
+  },
+  "lätta teckningar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "lätta teckningar",
+    "lätta teckningar att rita"
+   ]
+  },
+  "rita för barn": {
+   "candidate": "how-to-draw",
+   "s": [
+    "rita för barn",
+    "rita för barn online",
+    "rita skattkarta för barn",
+    "rita kurs för barn",
+    "rita teckningar för barn",
+    "rita enkelt för barn",
+    "rita bilder för barn",
+    "rita av för barn",
+    "rita djur för barn",
+    "rita för små barn"
+   ]
+  }
+ }
+}

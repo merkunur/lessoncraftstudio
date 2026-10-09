@@ -20,7 +20,7 @@ answer key), the landing is what ranks.
 > render and a string as a finding before you write about the page** — and for find-the-differences
 > OPEN THE KEY and name every ringed change in your language: a ring around a change a child
 > cannot NAME ("the leaf is a bit different") is a finding, and so is a change you cannot see.
-> A landing panel that only writes prose has wasted the cheapest review these sheets ever get.
+> A landing panel that only writes prose has wasted the cheapest review these sheets ever get. **On the COLOUR face open the colour render and name every white area INSIDE a drawing — a white wing cell, feather, petal or spot is an unpainted picture, not a style (operator 2026-10-09); clouds and eye whites are the only white a drawing may carry.**
 
 ## What you write
 

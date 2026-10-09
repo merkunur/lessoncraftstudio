@@ -118,7 +118,13 @@ async function candidatesFor(spec, scene) {
     for (const s of isHero ? [1.22, 0.8] : [1.35, 0.72]) await push({ kind: 'scale', item: l.idx, s });
     for (const dx of [w + 24, -(w + 24), 60, -60]) await push({ kind: 'move', item: l.idx, dx, dy: 0 });
     // colour: the two biggest parts, to a contrasting crayon
-    const big = l.regions.map((r, k) => [r, k]).filter(([r]) => r.r >= 9 && r.colour !== 'none').sort((a, b) => b[0].area - a[0].area).slice(0, isHero ? 2 : 1);
+    // colour: the two biggest parts (hero) / the biggest part (prop) to a contrasting crayon. A drawing made only of SMALL
+    // cells (a butterfly, a hummingbird, a chick: every part under MIN_PART_R) has no big part — its largest painted cell
+    // stands in, and the op recolours every cell of that crayon (paintSmallCells gave them all the same one), so the colour
+    // change can land on the sky props too: with only the sun, the tulip and the hero the colour face put 42 % of its rings
+    // in one quadrant (2026-10-10)
+    let big = l.regions.map((r, k) => [r, k]).filter(([r]) => r.r >= 9 && r.colour !== 'none').sort((a, b) => b[0].area - a[0].area).slice(0, isHero ? 2 : 1);
+    if (!big.length) big = l.regions.map((r, k) => [r, k]).filter(([r]) => r.colour && r.colour !== 'none').sort((a, b) => b[0].area - a[0].area).slice(0, 1);
     for (const [r, k] of big) await push({ kind: 'colour', item: l.idx, region: k, colour: CONTRAST[r.colour] || 'blue' }, 'colour');
     // detail: inner parts
     let nd = 0;

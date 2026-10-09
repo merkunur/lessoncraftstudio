@@ -1081,7 +1081,8 @@
   },
   "G1-139": {
     "title": "Cube by Cube",
-    "instruction": "Each object sits on unit squares. Count them and write the length."
+    "instruction": "Each object sits on unit squares. Count them and write the length.",
+    "printTitle": "Square by Square"
   },
   "G1-140": {
     "title": "Short to Long",

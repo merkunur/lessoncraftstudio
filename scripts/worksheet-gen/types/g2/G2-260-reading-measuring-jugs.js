@@ -6,6 +6,7 @@ module.exports = {
   id: 'G2-260',
   slug: 'reading-measuring-jugs',
   themeAxis: {"applicable":false},
-  difficulty: { 1: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":100,"weightsMax":0}, 2: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":100,"weightsMax":0}, 3: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":100,"weightsMax":0} },
+  interactive: require('../../lib/measurement-screen.js').interactiveFor('jugs'),
+  difficulty: { 1: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":100,"labelEvery":1,"weightsMax":0}, 2: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":100,"weightsMax":0}, 3: {"jugs":6,"balances":0,"cols":3,"rows":2,"jugMax":1000,"jugStep":50,"labelEvery":4,"weightsMax":0} },
   i18n: { en: { title: "Reading Measuring Jugs", instruction: "Read the scale on each jug. Write how many milliliters are inside." } },
 };

@@ -1,0 +1,37 @@
+{
+ "id": "wave-varcore-es",
+ "_note": "Measurement republish 2026-10-09: the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-260",
+  "G2-263"
+ ],
+ "levels": {
+  "G2-260": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G2-263": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

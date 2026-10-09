@@ -137,7 +137,7 @@
   },
   "K-038": {
     "title": "Pesado ou leve?",
-    "instruction": "Pense na vida real! Circule o mais PESADO."
+    "instruction": "Pense na vida real! Circule o MAIS PESADO."
   },
   "K-039": {
     "title": "Igual e diferente",
@@ -402,7 +402,7 @@
   },
   "G1-140": {
     "title": "Do curto ao comprido",
-    "instruction": "Meça cada objeto com seus quadradinhos. Numere de 1 (curto) a 3 (comprido)."
+    "instruction": "Meça cada objeto com seus quadradinhos. Numere de 1 (o mais curto) a 3 (o mais comprido)."
   },
   "G1-141": {
     "title": "Leia o gráfico de figuras",
@@ -574,7 +574,7 @@
   },
   "G2-235": {
     "title": "Meça",
-    "instruction": "Cada objeto começa no 0. Leia a régua e escreva quantas unidades de comprimento."
+    "instruction": "Cada objeto começa no 0. Leia a régua e escreva quantas unidades de comprimento ele tem."
   },
   "G2-236": {
     "title": "Quanto mais comprido?",

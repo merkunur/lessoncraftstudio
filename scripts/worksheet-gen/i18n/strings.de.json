@@ -397,7 +397,8 @@
   },
   "G1-139": {
     "title": "Würfel für Würfel",
-    "instruction": "Jeder Gegenstand liegt auf Kästchen. Zähle sie und schreibe die Länge auf."
+    "instruction": "Jeder Gegenstand liegt auf Kästchen. Zähle sie und schreibe die Länge auf.",
+    "printTitle": "Kästchen für Kästchen"
   },
   "G1-140": {
     "title": "Von kurz nach lang",

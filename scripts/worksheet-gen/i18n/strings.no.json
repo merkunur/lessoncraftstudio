@@ -397,7 +397,8 @@
   },
   "G1-139": {
     "title": "Kloss for kloss",
-    "instruction": "Hver ting står på enhetsruter. Tell dem og skriv lengden."
+    "instruction": "Hver ting står på enhetsruter. Tell dem og skriv lengden.",
+    "printTitle": "Rute for rute"
   },
   "G1-140": {
     "title": "Kort til lang",
@@ -788,7 +789,7 @@
   },
   "G3-346": {
     "title": "Klosstårn",
-    "instruction": "Tell alle klossene i hvert tårn. Skriv summen."
+    "instruction": "Tell alle klossene i hvert tårn. Skriv hvor mange klosser det er."
   },
   "G3-354": {
     "title": "Klokka på minuttet",

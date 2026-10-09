@@ -24,7 +24,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, el, roundedRect, line, label } = require('./_svg.js');
 
-function thermometer({ value, min = 0, max = 40, step = 5, height = 300, bands = null, numerals = true }, ctx) {
+function thermometer({ value, min = 0, max = 40, step = 5, height = 300, bands = null, numerals = true, labelEvery = 1 }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (value < min || value > max) throw new Error(`thermometer: value ${value} outside ${min}-${max}`);
   const W = 110, H = height;
@@ -63,7 +63,11 @@ function thermometer({ value, min = 0, max = 40, step = 5, height = 300, bands =
     // mercury
     roundedRect({ x: tubeX - 5, y: yFor(value), w: 10, h: H - bulbR - 5 - yFor(value), r: 4, fill: t.color.coral, data: { 'data-lcs-mercury': value } }),
   );
+  // labelEvery (2026-10-09, Measurement Level Set): a numeral on every Nth tick only, the other ticks shorter and
+  // thinner (per-degree marks between labelled fives). Default 1 = the pre-2026-10-09 output byte for byte.
   for (let v = min; v <= max; v += step) {
+    const lab = labelEvery <= 1 || Math.round((v - min) / step) % labelEvery === 0;
+    if (!lab) { parts.push(line({ x1: tubeX - tubeW / 2 - 7, y1: yFor(v), x2: tubeX - tubeW / 2 - 2, y2: yFor(v), strokeColor: t.color.ink, strokeWidth: 1.2, data: { 'data-lcs-minor': v } })); continue; }
     parts.push(line({ x1: tubeX - tubeW / 2 - 10, y1: yFor(v), x2: tubeX - tubeW / 2 - 2, y2: yFor(v), strokeColor: t.color.ink, strokeWidth: 2 }));
     if (numerals !== false) parts.push(label({ x: tubeX - tubeW / 2 - 26, y: yFor(v), text: v, size: 14, color: t.color.ink, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-tick': v } }));
   }

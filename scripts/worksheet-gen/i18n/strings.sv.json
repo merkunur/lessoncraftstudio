@@ -575,7 +575,7 @@
   },
   "G2-235": {
     "title": "Mät det",
-    "instruction": "Varje sak börjar vid 0. Läs linjalen och skriv hur många enheter lång."
+    "instruction": "Varje sak börjar vid 0. Läs linjalen och skriv hur många enheter lång den är."
   },
   "G2-236": {
     "title": "Hur mycket längre?",
@@ -794,7 +794,7 @@
   },
   "G3-346": {
     "title": "Kubtorn",
-    "instruction": "Räkna alla kuber i varje torn. Skriv summan."
+    "instruction": "Räkna alla kuber i varje torn. Skriv hur många kuber det är."
   },
   "G3-354": {
     "title": "Klockan på minuten",

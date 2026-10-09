@@ -1,0 +1,26 @@
+{
+ "id": "wave-varfananim-fi",
+ "_note": "Measurement republish 2026-10-09: the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-252"
+ ],
+ "levels": {
+  "G2-252": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  }
+ }
+}

@@ -71,6 +71,17 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   // nt10-D printable science families (human-body, five-senses, weather-symbols, recycling): the
   // national primary-science subject name per locale, authored by the design finals' table B
   // (docs/worksheet-gen/b4-designs/K-354..K-357); en is a readiness class (no CCSS code).
+  // nt2-G find-the-differences (K-395): visual discrimination has no CCSS code; each locale's literal is ADDED by its
+  // native panel through tools/apply-b7-locale.js (strandNames; the applier never overwrites an authored row) — the
+  // design final's table B (docs/worksheet-gen/b7-designs/K-395-find-the-differences.md §1) is the panels' input.
+  'Visual Perception': {
+    en: 'Visual Perception',
+  },
+  // nt2-G how-to-draw (K-396): the primary art subject per locale (no CCSS); each locale's literal is ADDED by its
+  // native panel through tools/apply-b7-locale.js (strandNames).
+  'Art': {
+    en: 'Art',
+  },
   'Science': {
     en: 'Science',
     de: 'Sachunterricht',

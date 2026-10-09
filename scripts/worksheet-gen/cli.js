@@ -32,7 +32,7 @@ const publishI18n = require('../publish-cli/i18n.js');
 function interactiveInstruction(spec, locale, difficulty) {
   const fam = INTERACTIVE_STRINGS[spec.exerciseType];
   // a spec may name a different screen instruction per level (Rhyming Words: sort level 3 adds a "fits none" cross)
-  const key = typeof spec.interactive.instructionKey === 'function' ? spec.interactive.instructionKey(difficulty) : spec.interactive.instructionKey;
+  const key = typeof spec.interactive.instructionKey === 'function' ? spec.interactive.instructionKey(difficulty, spec) : spec.interactive.instructionKey;
   const s = fam && fam[key] && fam[key][locale];
   if (!s) throw new Error('cli: no interactive instruction ' + spec.exerciseType + '.' + key + ' for ' + locale);
   return s;

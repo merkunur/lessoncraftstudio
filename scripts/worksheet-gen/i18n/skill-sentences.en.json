@@ -439,5 +439,13 @@
   "cursive-writing": {
     "full": "Tracing and writing joined letters in the school handwriting, practising the connections between letters and copying whole words builds a fluent, readable cursive hand.",
     "short": "Builds joined cursive letters, words and sentences."
+  },
+  "find-the-differences": {
+    "full": "Comparing two pictures of one scene, circling what is gone, new, turned round, bigger or moved and ticking a box for each find trains careful looking; every page has a tap version and an answer key.",
+    "short": "Builds careful looking by comparing two pictures of one scene."
+  },
+  "how-to-draw": {
+    "full": "Drawing an animal from four or five numbered steps, first the outline, then the big parts, the face and the details, gives children a way to draw any animal they like with their own pencil.",
+    "short": "Builds drawing an animal step by step from its outline."
   }
 }

@@ -336,7 +336,7 @@ module.exports = {
       if (mode === 'write') {
         const nouns = wordsFor(p, loc, rng).map((x) => x.text);
         const change = rng.shuffle(blk.changeWords.slice());
-        const strips = `<div style="display:flex;flex-direction:column;gap:8px;width:600px;align-items:center" data-lcs-fd-strips="2">${wordBank({ words: nouns.map((w) => ({ word: w })), wordPx: 17 })}${wordBank({ words: change.map((w) => ({ word: w })), wordPx: 17 })}</div>`;
+        const strips = `<div style="display:flex;flex-direction:column;gap:8px;width:${PAGE_W}px;align-items:center" data-lcs-fd-strips="2">${wordBank({ words: nouns.map((w) => ({ word: w })), wordPx: 17 })}${wordBank({ words: change.map((w) => ({ word: w })), wordPx: 17 })}</div>`;
         const rows = d.rows || 4;
         const ruled = `<div style="width:600px;line-height:0" data-lcs-fd-rows="${rows}">${Array.from({ length: rows }, () => rulingBlock({ rows: 1, w: 600, h: d.rowH || 44, glyphH: d.glyphH || 20, starters: { 0: blk.starter } })).join('<div style="height:6px"></div>')}</div>`;
         body = `<div style="display:flex;flex-direction:column;align-items:center;gap:12px;width:${PAGE_W}px">${row}${strips}<div style="height:-2px"></div>${ruled}</div>`;

@@ -146132,7 +146132,7 @@
     "jeu-des-differences",
     "maternelle"
    ],
-   "p1": "Cette mare est peinte. Une grenouille verte est posée sur une eau bleue sous un soleil jaune, avec un papillon violet, des colibris, une tulipe rouge et deux poussins, et toute la scène apparaît deux fois. Cinq choses diffèrent dans l'image du bas en couleur, et au moins l'une d'elles n'est qu'une couleur qui change : sur la feuille montrée, la grenouille est devenue violette, le soleil a disparu, un colibri a rétréci, un poussin a grandi et la tulipe rouge est devenue une fleur rose. La couleur est le cœur de cette page du jeu-des-differences, elle est donc à imprimer en couleur ; sur une imprimante noir et blanc, le changement de couleur se perd et la page de base convient mieux.",
+   "p1": "Cette mare est peinte. Une grenouille verte est posée sur une eau bleue sous un soleil jaune, avec un papillon violet, des colibris, une tulipe rouge et deux poussins, et toute la scène apparaît deux fois. Cinq choses diffèrent dans l'image du bas en couleur, et au moins l'une d'elles n'est qu'une couleur qui change : la grenouille elle-même peut devenir violette sans que rien d'autre ne bouge, le soleil peut laisser la place à une lune, une fleur peut être remplacée par une autre, et un poussin ou un nuage peut grandir ou rétrécir. La couleur est le cœur de cette page du jeu-des-differences, elle est donc à imprimer en couleur ; sur une imprimante noir et blanc, le changement de couleur se perd et la page de base convient mieux.",
    "p2": "Voir qu'un objet a la même forme au même endroit mais une autre couleur est une comparaison plus difficile que remarquer qu'une chose a disparu. L'enfant doit garder en tête la couleur de la grenouille du haut en regardant celle du bas. Les cinq cases tiennent le compte, et la consigne demande expressément de bien regarder les couleurs.",
    "p3": "Chaque page de la famille existe en PDF, en version tactile sur tablette et avec son corrigé qui entoure les cinq changements. C'est la seule page en couleur de la famille ; ses sœurs sont des dessins au trait. Ces pages comparent deux images d'une même scène ; le coloriage magique reprend les mêmes scènes pour une autre tâche, le dessin en miroir et le jeu de l'intrus ont leurs propres pages.",
    "canonicalDeckSlug": "jeu-des-differences-k398",
@@ -146338,9 +146338,9 @@
     "jeu-des-differences",
     "cp"
    ],
-   "p1": "L'image 2 de cette page est retournée comme dans un miroir. Un renard dans la forêt se tient à gauche, et son image en miroir à droite, avec une ligne de pliage en pointillés entre les deux. Le retournement lui-même n'est pas une différence : quatre choses sont quand même changées dans l'image en miroir, quelque chose qui manque, qui a été remplacé, qui est plus grand ou plus petit. Quatre cases attendent sous l'image 2. Quand l'enfant a entouré quatre endroits, plier la page le long de la ligne pose une image sur l'autre, et en regardant par transparence on voit où elles ne correspondent pas. C'est la page en miroir du jeu-des-differences pour le CP.",
+   "p1": "L'image 2 de cette page est retournée comme dans un miroir, et il y a deux scènes à comparer. Un renard dans la forêt occupe la rangée du haut, un lapin dans la même forêt la rangée du bas ; chaque image 1 se tient à gauche et son image en miroir à droite, avec une seule ligne de pliage en pointillés qui descend au milieu de la page. Le retournement lui-même n'est pas une différence : deux choses sont quand même changées dans chaque image en miroir, quatre en tout, quelque chose qui manque, qui a été remplacé, qui est plus grand ou plus petit. Quatre cases attendent sous l'image en bas à droite. Quand l'enfant a entouré quatre endroits, plier la page le long de la ligne pose chaque image sur sa jumelle, et en regardant par transparence on voit où elles ne correspondent pas. C'est la page en miroir du jeu-des-differences pour le CP.",
    "p2": "Comparer une scène avec son image en miroir demande d'échanger la gauche et la droite dans sa tête, le même geste qui distingue b de d et p de q. Une fois le retournement compris, tout est à la place attendue ; les quatre vrais changements se cachent derrière cette étape en plus. Le pliage sert d'autocorrection : la page se corrige avant qu'un adulte ne la voie.",
-   "p3": "Le corrigé entoure les quatre changements et coche les cases ; la version tactile montre les deux images l'une sous l'autre, celle du bas en miroir, et demande de toucher chaque vrai changement. Ces pages comparent deux images d'une même scène ; les pages de symétrie, où l'enfant dessine l'autre moitié d'une image, et le coloriage magique ont leurs propres pages.",
+   "p3": "Le corrigé entoure les quatre changements et coche les cases ; la version tactile montre chaque scène avec son image en miroir dessous et demande de toucher chaque vrai changement. Ces pages comparent deux images d'une même scène ; les pages de symétrie, où l'enfant dessine l'autre moitié d'une image, et le coloriage magique ont leurs propres pages.",
    "canonicalDeckSlug": "jeu-des-differences-g1415",
    "carousel": [
     {
@@ -146361,7 +146361,7 @@
     }
    ],
    "title": "Jeu des différences en miroir, CP, avec corrigé | PDF gratuit",
-   "metaDescription": "Jeu des différences en miroir : un renard dans la forêt, l'image 2 retournée, quatre vrais changements. Plie sur la ligne pour vérifier. PDF CP avec corrigé."
+   "metaDescription": "Jeu des différences en miroir : un renard et un lapin dans la forêt, chaque scène retournée, deux vrais changements chacune. Plie et vérifie. PDF CP avec corrigé."
   },
   {
    "slug": "qu-est-ce-qui-manque-entoure-l-endroit-vide",

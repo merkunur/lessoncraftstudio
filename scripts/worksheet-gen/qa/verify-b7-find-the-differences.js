@@ -248,6 +248,9 @@ async function main() {
       ok(!r.out.qa.lints.length, `${tag}: lints ${r.out.qa.lints.join(' | ')}`);
       ok(!r.out.interactive.lints.length, `${tag}: screen / key lints ${r.out.interactive.lints.join(' | ')}`);
       ok(r.st.stack <= 740 && r.st.inside, `${tag}: the stack is ${r.st.stack} px (> 740) or runs below the body`);
+      // the FILL floor (operator 2026-10-10: 'a big blank area at the bottom of the page'): a print page uses >= 85 % of the 733 px the
+      // tallest shipped chrome leaves — the faces were built to 660-677 and stopped at 54-87 % of the page
+      ok(r.st.stack >= 620, `${tag}: the stack is ${r.st.stack} px (< 620) — the page leaves a blank band at the bottom`);
       r.sc.forEach((x) => ok(false, `${tag} screen: ${x}`));
       r.sv.forEach((x) => ok(false, `${tag} screen verify: ${x}`));
       r.kv.forEach((x) => ok(false, `${tag} key verify: ${x}`));

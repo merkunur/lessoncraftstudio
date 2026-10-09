@@ -160397,7 +160397,7 @@
     "jogo-das-diferencas",
     "educacao-infantil"
    ],
-   "p1": "Esta lagoa é pintada. Um sapo verde está sentado sobre a água azul sob um sol amarelo, com uma borboleta roxa, beija-flores, uma tulipa vermelha e dois pintinhos, e a cena inteira aparece duas vezes. Cinco coisas estão diferentes na figura colorida de baixo, e pelo menos uma delas é só uma mudança de cor: na folha mostrada, o sapo ficou roxo, o sol sumiu, um beija-flor ficou menor, um pintinho ficou maior e a tulipa vermelha virou uma flor rosa. A cor é o centro desta página do jogo-das-diferencas, por isso ela deve ser impressa em cores; numa impressora em preto e branco a mudança de cor se perde e a página base serve melhor.",
+   "p1": "Esta lagoa é pintada. Um sapo verde está sentado sobre a água azul sob um sol amarelo, com uma borboleta roxa, beija-flores, uma tulipa vermelha e dois pintinhos, e a cena inteira aparece duas vezes. Cinco coisas estão diferentes na figura colorida de baixo, e pelo menos uma delas é só uma mudança de cor: o próprio sapo pode ficar roxo sem que mais nada nele mude, o sol pode dar lugar a uma lua, uma flor pode estar trocada por outra, e um pintinho ou uma nuvem pode ficar maior ou menor. A cor é o centro desta página do jogo-das-diferencas, por isso ela deve ser impressa em cores; numa impressora em preto e branco a mudança de cor se perde e a página base serve melhor.",
    "p2": "Perceber que um objeto tem a mesma forma no mesmo lugar, mas outra cor, é uma comparação mais difícil do que notar que algo sumiu. A criança precisa guardar na cabeça a cor do sapo de cima enquanto olha o de baixo. Os cinco quadradinhos mantêm a contagem certa, e a instrução pede para olhar bem as cores.",
    "p3": "Toda página da família imprime em PDF, abre como tela para tocar no tablet e vem com gabarito circulando as cinco mudanças. Esta é a única página colorida da família; as irmãs são desenhos em preto e branco. Estas páginas comparam duas figuras de uma mesma cena; o colorir por números usa as mesmas cenas para outra tarefa, o desenho no espelho e o jogo do intruso têm páginas próprias.",
    "canonicalDeckSlug": "jogo-das-diferencas-k398",
@@ -160603,9 +160603,9 @@
     "jogo-das-diferencas",
     "1o-ano"
    ],
-   "p1": "A figura 2 desta página está virada como num espelho. Uma raposa na floresta aparece à esquerda, e seu reflexo à direita, com uma linha pontilhada de dobra entre as duas. O reflexo em si não é uma diferença: quatro coisas continuam mudadas dentro da figura espelhada, algo que falta, algo trocado, algo maior ou menor. Quatro quadradinhos ficam sob a figura 2. Quando a criança circulou quatro lugares, dobrar a folha na linha põe uma figura sobre a outra, e contra a luz aparece onde elas não combinam. Esta é a página no espelho do jogo-das-diferencas para o 1º ano.",
+   "p1": "A figura 2 desta página está virada como num espelho, e há duas cenas para comparar. Na fileira de cima, uma raposa na floresta; na de baixo, um coelho na mesma floresta; cada figura 1 fica à esquerda e seu reflexo à direita, com uma única linha pontilhada de dobra descendo pelo meio da folha. O reflexo em si não é uma diferença: em cada figura espelhada duas coisas continuam mudadas, quatro ao todo, algo que falta, algo trocado, algo maior ou menor. Quatro quadradinhos ficam sob a figura de baixo, à direita. Quando a criança circulou quatro lugares, dobrar a folha na linha põe cada figura sobre a sua parceira, e contra a luz aparece onde elas não combinam. Esta é a página no espelho do jogo-das-diferencas para o 1º ano.",
    "p2": "Comparar uma cena com seu reflexo pede trocar esquerda e direita na cabeça, o mesmo movimento que separa b de d e p de q. Entendido o espelho, tudo está no lugar esperado; as quatro mudanças reais se escondem atrás desse passo a mais. A dobra é a autocorreção: a página se confere antes que um adulto a veja.",
-   "p3": "O gabarito circula as quatro mudanças e marca os quadradinhos; a tela para tocar mostra as duas figuras uma sobre a outra, a de baixo espelhada, e pede para tocar em cada mudança real. Estas páginas comparam duas figuras de uma mesma cena; as páginas de simetria, em que a criança desenha a outra metade de uma figura, e o colorir por números têm páginas próprias.",
+   "p3": "O gabarito circula as quatro mudanças e marca os quadradinhos; a tela para tocar mostra cada cena com seu reflexo logo abaixo e pede para tocar em cada mudança real. Estas páginas comparam duas figuras de uma mesma cena; as páginas de simetria, em que a criança desenha a outra metade de uma figura, e o colorir por números têm páginas próprias.",
    "canonicalDeckSlug": "jogo-das-diferencas-g1415",
    "carousel": [
     {
@@ -160626,7 +160626,7 @@
     }
    ],
    "title": "Jogo das diferenças no espelho, 1º ano, com gabarito | PDF grátis",
-   "metaDescription": "Jogo das diferenças no espelho: uma raposa na floresta, a figura 2 virada, quatro mudanças de verdade. Dobre na linha para conferir. PDF 1º ano com gabarito."
+   "metaDescription": "Jogo das diferenças no espelho: uma raposa e um coelho na floresta, cada cena virada, duas mudanças em cada uma. Dobre na linha e confira. PDF 1º ano com gabarito."
   },
   {
    "slug": "o-que-esta-faltando-circule-o-lugar-vazio",

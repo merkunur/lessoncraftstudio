@@ -151052,7 +151052,7 @@
     "finn-fem-feil",
     "1-trinn"
    ],
-   "p1": "Dammen er fargelagt på denne siden. En grønn frosk sitter på en blå dam under en gul sol, med en lilla sommerfugl, kolibrier, en rød tulipan og to blå kyllinger, og hele motivet finnes to ganger. Fem ting er forskjellige i det nederste fargebildet, og minst én av dem er bare en fargeendring: på eksemplaret som vises har frosken blitt lilla, mens sola mangler, en kolibri har blitt mindre, en kylling har blitt større og den røde tulipanen har blitt en rosa blomst. Fargen er poenget med denne siden i serien finn-fem-feil, så den skrives ut i farger og fungerer best slik; på en svart-hvitt-skriver forsvinner fargefeilen, og da passer grunnsiden bedre.",
+   "p1": "Dammen er fargelagt på denne siden. En grønn frosk sitter på en blå dam under en gul sol, med en lilla sommerfugl, kolibrier, en rød tulipan og to blå kyllinger, og hele motivet finnes to ganger. Fem ting er forskjellige i det nederste fargebildet, og minst én av dem er bare en fargeendring: frosken selv kan ha blitt lilla mens alt annet ved den er likt, sola kan være byttet ut med en måne, en blomst kan være byttet ut med en annen, og en kylling eller en sky kan ha blitt større eller mindre. Fargen er poenget med denne siden i serien finn-fem-feil, så den skrives ut i farger og fungerer best slik; på en svart-hvitt-skriver forsvinner fargefeilen, og da passer grunnsiden bedre.",
    "p2": "Å oppdage at en ting har samme form på samme sted, men en annen farge, er en vanskeligere sammenligning enn å se at noe er borte. Barnet må holde fargen på den øverste frosken i minnet mens det ser på den nederste. De fem rutene holder tellingen ærlig, og siden ber barnet se like nøye på farger som på former.",
    "p3": "Hver side i serien skrives ut som PDF, åpnes som versjon for berøringsskjerm på nettbrettet og har fasit der de fem feilene har fått ring. Dette er seriens eneste fargeside; søsknene er strektegninger. Disse sidene sammenligner to bilder av samme motiv; mal etter tall bruker de samme motivene til en annen oppgave, og speiltegning og finn den som ikke passer har egne sider.",
    "canonicalDeckSlug": "finn-fem-feil-k398",
@@ -151258,9 +151258,9 @@
     "finn-fem-feil",
     "2-trinn"
    ],
-   "p1": "Bilde 2 på denne siden er snudd som i et speil. En rev i skogen står til venstre, og speilbildet sitter til høyre med en stiplet brettelinje mellom. Selve speilingen er ingen feil: fire ting er likevel endret inne i speilbildet, og de kan være noe som mangler, noe som er byttet ut, noe som er større eller mindre. På eksemplaret som vises mangler en kylling, en sky er mindre, tulipanen er borte og en annen sky er større. Fire ruter står under bilde 2. Når barnet har satt ring rundt fire ting, legger en brett langs linja det ene bildet over det andre, og mot lyset ser man hvor de ikke stemmer. Dette er speilsiden i serien finn-fem-feil for 1. trinn.",
+   "p1": "Bilde 2 på denne siden er snudd som i et speil, og det er to motiver å sammenligne. I den øverste raden står en rev i skogen, i den nederste en kanin i den samme skogen; hvert bilde 1 står til venstre og speilbildet til høyre, med én stiplet brettelinje som går midt nedover siden. Selve speilingen er ingen feil: to ting er likevel endret inne i hvert speilbilde, fire til sammen, og de kan være noe som mangler, noe som er byttet ut, noe som er større eller mindre. Fire ruter står under bildet nederst til høyre. Når barnet har satt ring rundt fire ting, legger en brett langs linja hvert bilde over tvillingen sin, og mot lyset ser man hvor de ikke stemmer. Dette er speilsiden i serien finn-fem-feil for 1. trinn.",
    "p2": "Å sammenligne et motiv med speilbildet sitt ber barnet bytte venstre og høyre i hodet, den samme bevegelsen som skiller b fra d og p fra q. Alt står der man venter når speilingen først er forstått; de fire ekte feilene gjemmer seg innenfor det ekstra steget. Brettingen er selvkontrollen, så siden retter seg selv før en voksen ser den.",
-   "p3": "Fasiten setter ring rundt de fire feilene og krysser av rutene; skjermversjonen viser de to bildene over hverandre med det nederste speilvendt og ber barnet trykke på hver ekte feil. Disse sidene sammenligner to bilder av samme motiv; speiltegning, der barnet selv tegner den andre halvdelen, mal etter tall og finn den som ikke passer har egne sider.",
+   "p3": "Fasiten setter ring rundt de fire feilene og krysser av rutene; skjermversjonen viser hvert motiv med speilbildet sitt under og ber barnet trykke på hver ekte feil. Disse sidene sammenligner to bilder av samme motiv; speiltegning, der barnet selv tegner den andre halvdelen, mal etter tall og finn den som ikke passer har egne sider.",
    "canonicalDeckSlug": "finn-fem-feil-g1415",
    "carousel": [
     {
@@ -151281,7 +151281,7 @@
     }
    ],
    "title": "Speilvendt bilde: finn feilene – 1. trinn | til utskrift PDF gratis",
-   "metaDescription": "Finn feilene i et speilvendt bilde: en rev i skogen, bilde 2 snudd som i et speil, fire ekte feil. Brett langs linja og sjekk. PDF for 1. trinn med fasit og skjerm."
+   "metaDescription": "Finn feilene i speilvendte bilder: en rev og en kanin i skogen, hvert motiv snudd som i et speil, to ekte feil i hvert. Brett og sjekk. PDF for 1. trinn med fasit."
   },
   {
    "slug": "hva-mangler-i-bildet-sett-ring-rundt-det-tomme-stedet",

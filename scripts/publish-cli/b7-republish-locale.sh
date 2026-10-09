@@ -65,7 +65,7 @@ tail -1 "$REC/$LOC-u-meter-check.log"
 node scripts/publish-cli/populate-and-inject-hreflang.js --confirm --locales=$ALL11 > "$REC/$LOC-u-hreflang.log" 2>&1 || { echo "HREFLANG FAILED"; tail -10 "$REC/$LOC-u-hreflang.log"; exit 2; }
 tail -1 "$REC/$LOC-u-hreflang.log"
 # the canonical repoint to the landing (the first publish's deck.html carried it after repoint-deck-canonical; the update path writes a bare deck.html)
-node scripts/publish-cli/repoint-deck-canonical.js --types=find-the-differences,how-to-draw --locale=$LOC > "$REC/$LOC-u-repoint.log" 2>&1 || { echo "REPOINT FAILED"; tail -10 "$REC/$LOC-u-repoint.log"; exit 2; }
+node scripts/seo-landing/repoint-deck-canonical.js --types=find-the-differences,how-to-draw --locale=$LOC > "$REC/$LOC-u-repoint.log" 2>&1 || { echo "REPOINT FAILED"; tail -10 "$REC/$LOC-u-repoint.log"; exit 2; }
 tail -1 "$REC/$LOC-u-repoint.log"
 # 4. audit
 node scripts/publish-cli/audit-deck-html.js --slugs-file="$SL" --locales=$LOC > "$REC/$LOC-u-audit.log" 2>&1 || true

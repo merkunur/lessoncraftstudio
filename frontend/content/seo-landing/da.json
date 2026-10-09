@@ -152245,7 +152245,7 @@
     "find-fem-fejl",
     "boernehaveklasse"
    ],
-   "p1": "Dammen er malet på dette ark. En grøn frø sidder på en blå dam under en gul sol med en lilla sommerfugl, kolibrier, en rød tulipan og to blå kyllinger, og hele scenen vises to gange. Fem ting er anderledes på det nederste farvebillede, og mindst én af dem er kun en farve: på det viste ark er frøen blevet lilla, mens solen mangler, en kolibri er blevet mindre, en kylling er blevet større, og den røde tulipan er byttet ud med en lyserød blomst. Det er den eneste side i find-fem-fejl-familien, der printes i farver; alle de andre er stregtegninger.",
+   "p1": "Dammen er malet på dette ark. En grøn frø sidder på en blå dam under en gul sol med en lilla sommerfugl, kolibrier, en rød tulipan og to blå kyllinger, og hele scenen vises to gange. Fem ting er anderledes på det nederste farvebillede, og mindst én af dem er kun en farve: frøen selv kan være blevet lilla, mens alt andet ved den er det samme, solen kan være byttet ud med en måne, en blomst kan være byttet ud med en anden, og en kylling eller en sky kan være blevet større eller mindre. Det er den eneste side i find-fem-fejl-familien, der printes i farver; alle de andre er stregtegninger.",
    "p2": "Farven tilføjer en ny slags spørgsmål. Et barn, der leder efter noget, som er væk eller er vokset, skal her også spørge: har den samme farve? Det er en finere skelnen end form og størrelse, og den passer til børnehaveklassen, hvor farveordene allerede sidder fast. Instruktionen beder barnet kigge godt på farverne, før det sætter ring, og de fem bokse ved siden af tæller fundene.",
    "p3": "Siden printes bedst i farver, men den virker også i gråtoner, fordi de fleste fejl stadig kan ses; skærmudgaven på tablet viser farverne, som de er, og facitlisten ringer de fem ændringer ind med tal. Familiens grundside og de øvrige søskende er sort-hvide, så denne side er et godt skift midt i en række. Disse sider sammenligner to billeder af samme scene; spejltegning, mal efter tal og opgaver med at finde den, der ikke passer, har deres egne sider.",
    "canonicalDeckSlug": "find-fem-fejl-k398",
@@ -152451,9 +152451,9 @@
     "find-fem-fejl",
     "1-klasse"
    ],
-   "p1": "Billede 2 på dette ark er vendt som i et spejl. En ræv i skoven står til venstre, og dens spejlbillede står til højre med en stiplet foldelinje imellem. Selve spejlingen er ikke en fejl: fire ting er stadig ændret inde i det spejlvendte billede, og de kan være noget, der er væk, noget, der er byttet ud, noget, der er blevet større eller mindre. På den viste kopi mangler en kylling og tulipanen, en sky er blevet mindre, og en anden sky er blevet større. Fire bokse sidder under billede 2. Når barnet er færdigt, foldes arket langs linjen, så de to billeder ligger mod hinanden, og barnet kan tjekke, om tingene passer sammen. Det er find-fem-fejl-familiens spejlside.",
+   "p1": "Billede 2 på dette ark er vendt som i et spejl, og der er to scener at sammenligne. I den øverste række står en ræv i skoven, i den nederste en kanin i den samme skov; hvert billede 1 står til venstre og dets spejlbillede til højre med en enkelt stiplet foldelinje ned midt over arket. Selve spejlingen er ikke en fejl: to ting er stadig ændret inde i hvert spejlvendt billede, fire i alt, og de kan være noget, der er væk, noget, der er byttet ud, noget, der er blevet større eller mindre. Fire bokse sidder under billedet nederst til højre. Når barnet er færdigt, foldes arket langs linjen, så hvert billede ligger mod sin tvilling, og mod lyset kan barnet tjekke, om tingene passer sammen. Det er find-fem-fejl-familiens spejlside for 1. klasse.",
    "p2": "Spejlingen gør den velkendte opgave sværere på en bestemt måde: barnet kan ikke længere lede på samme sted, men må oversætte venstre til højre. Ræven, der kigger op mod venstre, kigger nu op mod højre, og en sky i det ene hjørne er flyttet til det andet. Det er den slags spejlvending, 1. klasse også møder i bogstaver som b og d, og den trænes her med skovens dyr uden et eneste bogstav.",
-   "p3": "Facitlisten ringer de fire ændringer ind og sætter kryds i boksene; skærmudgaven viser de to billeder over hinanden med det nederste spejlvendt og beder barnet trykke på hver rigtig ændring. Disse sider sammenligner to billeder af samme scene; symmetrisiderne, hvor barnet tegner den anden halvdel af et billede, mal efter tal og opgaver med at finde den, der ikke passer, har deres egne sider.",
+   "p3": "Facitlisten ringer de fire ændringer ind og sætter kryds i boksene; skærmudgaven viser hver scene med sit spejlbillede nedenunder og beder barnet trykke på hver rigtig ændring. Disse sider sammenligner to billeder af samme scene; symmetrisiderne, hvor barnet tegner den anden halvdel af et billede, mal efter tal og opgaver med at finde den, der ikke passer, har deres egne sider.",
    "canonicalDeckSlug": "find-fem-fejl-g1415",
    "carousel": [
     {
@@ -152474,7 +152474,7 @@
     }
    ],
    "title": "Spejlvendt billede: find 4 fejl, fold og tjek | til print PDF gratis",
-   "metaDescription": "Spejlvendt billede: en ræv i skoven og dens spejlbillede side om side, fire rigtige fejl bag spejlingen og en foldelinje. 1. klasse, PDF med facitliste og skærm."
+   "metaDescription": "Spejlvendt billede: en ræv og en kanin i skoven, hver scene spejlvendt, to rigtige fejl i hver og én foldelinje at tjekke med. 1. klasse, PDF med facitliste og skærm."
   },
   {
    "slug": "hvad-mangler-i-billedet-saet-ring-om-det-tomme-sted",

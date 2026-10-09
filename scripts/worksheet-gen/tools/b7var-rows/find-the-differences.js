@@ -37,7 +37,7 @@ const ROWS = [
     { mode: 'pairs', count: 3, rows: 3, unit: 'garden-ladybug-rich', layout: 'pairs', window: [272, 228], ppu: 1.0, floor: 'K', kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move'], noSameKeySwap: true, spread: 'none', minSepPx: 0 },
     S.pairs.title, S.pairs.instruction],
   ['g2', 'G2-389', 'write-what-is-different', BASE, 2,
-    { mode: 'write', itemFirst: true, count: 3, unit: 'elephant-rich', layout: 'side', floor: 'G1', ppu: 0.5, panelW: 300, kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move'], distinctKinds: true, noSameKeySwap: true, heroFront: 0.5, minSepPx: 27, rows: 3, glyphH: 24, rowH: 68 },
+    { mode: 'write', itemFirst: true, count: 3, unit: 'elephant-rich', layout: 'side', floor: 'G1', ppu: 0.5, panelW: 300, kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move'], distinctKinds: true, noSameKeySwap: true, heroFront: 0.5, minSepPx: 27, rows: 3, glyphH: 24, rowH: 62 },
     S.write.title, S.write.instruction, { gradeBand: 'G2' }],
 ];
 const HANDWRITTEN = [];

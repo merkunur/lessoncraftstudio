@@ -121150,7 +121150,7 @@
     "busca-las-diferencias",
     "preescolar"
    ],
-   "p1": "Este estanque está pintado. Una rana verde está sentada sobre el agua azul bajo un sol amarillo, con una mariposa morada, colibríes, un tulipán rojo y dos pollitos, y toda la escena aparece dos veces. Cinco cosas son diferentes en la imagen de abajo a color, y por lo menos una de ellas es solo un cambio de color: en la hoja que se muestra, la rana se volvió morada, falta el sol, un colibrí es más chico, un pollito es más grande y el tulipán rojo se convirtió en una flor rosa. El color es el centro de esta página de busca-las-diferencias, por eso se imprime a color; en una impresora en blanco y negro el cambio de color se pierde y la página base sirve mejor.",
+   "p1": "Este estanque está pintado. Una rana verde está sentada sobre el agua azul bajo un sol amarillo, con una mariposa morada, colibríes, un tulipán rojo y dos pollitos, y toda la escena aparece dos veces. Cinco cosas son diferentes en la imagen de abajo a color, y por lo menos una de ellas es solo un cambio de color: la rana misma puede volverse morada sin que cambie nada más en ella, el sol puede dejar su lugar a una luna, una flor puede estar cambiada por otra, y un pollito o una nube puede ser más grande o más chico. El color es el centro de esta página de busca-las-diferencias, por eso se imprime a color; en una impresora en blanco y negro el cambio de color se pierde y la página base sirve mejor.",
    "p2": "Notar que un objeto tiene la misma forma en el mismo lugar pero otro color es una comparación más difícil que notar que algo desapareció. El niño tiene que guardar en la cabeza el color de la rana de arriba mientras mira la de abajo. Los cinco cuadritos llevan la cuenta, y la instrucción pide fijarse bien en los colores.",
    "p3": "Cada página de la familia se imprime en PDF, se abre como pantalla para tocar en la tableta y trae sus respuestas con los cinco cambios encerrados. Esta es la única página a color de la familia; sus hermanas son dibujos en blanco y negro. Estas páginas comparan dos imágenes de una misma escena; el colorear por números usa las mismas escenas para otra tarea, el dibujo en espejo y el juego del intruso tienen sus propias páginas.",
    "canonicalDeckSlug": "busca-las-diferencias-k398",
@@ -121356,9 +121356,9 @@
     "busca-las-diferencias",
     "primer-grado"
    ],
-   "p1": "La imagen 2 de esta página está volteada como en un espejo. Un zorro en el bosque aparece a la izquierda, y su reflejo a la derecha, con una línea punteada para doblar entre los dos. El reflejo en sí no es una diferencia: cuatro cosas siguen cambiadas dentro de la imagen en espejo, algo que falta, algo cambiado por otra cosa, algo más grande o más chico. Cuatro cuadritos están bajo la imagen 2. Cuando el niño encerró cuatro lugares, doblar la hoja por la línea pone una imagen sobre la otra, y mirándola a contraluz se ve dónde no coinciden. Esta es la página en espejo de busca-las-diferencias para primer grado.",
+   "p1": "La imagen 2 de esta página está volteada como en un espejo, y hay dos escenas para comparar. En la fila de arriba hay un zorro en el bosque y en la de abajo un conejo en el mismo bosque; cada imagen 1 queda a la izquierda y su reflejo a la derecha, con una sola línea punteada para doblar que baja por el centro de la hoja. El reflejo en sí no es una diferencia: en cada imagen en espejo siguen cambiadas dos cosas, cuatro en total, algo que falta, algo cambiado por otra cosa, algo más grande o más chico. Cuatro cuadritos están bajo la imagen de abajo a la derecha. Cuando el niño encerró cuatro lugares, doblar la hoja por la línea pone cada imagen sobre su pareja, y mirándola a contraluz se ve dónde no coinciden. Esta es la página en espejo de busca-las-diferencias para primer grado.",
    "p2": "Comparar una escena con su reflejo pide cambiar izquierda por derecha en la cabeza, el mismo movimiento que distingue la b de la d y la p de la q. Entendido el reflejo, todo está en el lugar esperado; los cuatro cambios reales se esconden detrás de ese paso extra. El doblez es la autocorrección: la página se corrige sola antes de que la vea un adulto.",
-   "p3": "Las respuestas encierran los cuatro cambios y marcan los cuadritos; la versión para tocar muestra las dos imágenes una sobre otra, la de abajo en espejo, y pide tocar cada cambio real. Estas páginas comparan dos imágenes de una misma escena; las páginas de simetría, donde el niño dibuja la otra mitad de una imagen, y el colorear por números tienen sus propias páginas.",
+   "p3": "Las respuestas encierran los cuatro cambios y marcan los cuadritos; la versión para tocar muestra cada escena con su reflejo debajo y pide tocar cada cambio real. Estas páginas comparan dos imágenes de una misma escena; las páginas de simetría, donde el niño dibuja la otra mitad de una imagen, y el colorear por números tienen sus propias páginas.",
    "canonicalDeckSlug": "busca-las-diferencias-g1415",
    "carousel": [
     {
@@ -121379,7 +121379,7 @@
     }
    ],
    "title": "Busca las diferencias en espejo, primer grado, con respuestas | PDF gratis",
-   "metaDescription": "Busca las diferencias en espejo: un zorro en el bosque, la imagen 2 volteada, cuatro cambios de verdad. Dobla por la línea para revisar. PDF primer grado con respuestas."
+   "metaDescription": "Busca las diferencias en espejo: un zorro y un conejo en el bosque, cada escena volteada, dos cambios en cada una. Dobla y revisa. PDF primer grado con respuestas."
   },
   {
    "slug": "que-falta-en-la-imagen-de-abajo-encierra-el-lugar-vacio",

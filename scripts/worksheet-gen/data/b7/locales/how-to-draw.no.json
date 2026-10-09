@@ -88,8 +88,8 @@
       "instruction": "Tegn oppå de stiplede formene som allerede er på arket, tegn så omrisset av hunden rundt dem, og gjør hunden ferdig med stegene."
     },
     "trace": {
-      "title": "Følg {L} med blyanten, og tegn den selv",
-      "instruction": "Følg den grå kaninen med blyanten din, og tegn så kaninen selv i den tomme ruta ved siden av."
+      "title": "Tegn oppå {N}, og tegn den så selv",
+      "instruction": "Tegn oppå den grå kaninen med blyanten, og tegn så kaninen selv i den tomme ruta ved siden av."
     },
     "finish": {
       "title": "Tegn {N} ferdig",
@@ -113,7 +113,7 @@
     },
     "copy-steps": {
       "title": "Steg for steg: tegn {L}",
-      "instruction": "Tegn det du ser i hvert steg, i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket under."
+      "instruction": "Tegn hvert steg i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket nederst."
     },
     "write": {
       "title": "Tegn {L}, og skriv om den",

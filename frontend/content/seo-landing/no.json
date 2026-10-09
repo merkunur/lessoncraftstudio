@@ -150912,6 +150912,909 @@
    ],
    "title": "Skriv av setninger med sammenhengende skrift | til utskrift PDF gratis",
    "metaDescription": "Skriv av setninger med sammenhengende skrift, 4. trinn: tre trykte setninger, den første også i grått, og to skrivelinjer under hver. Fra trykt skrift til håndskrift."
+  },
+  {
+   "slug": "finn-fem-feil-hund-i-hagen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: finn fem feil · barnehage",
+   "h1": "Finn fem feil: Hund i hagen",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "1-trinn"
+   ],
+   "p1": "En hund sitter i hagen sin to ganger på dette arket: bilde 1 øverst, bilde 2 rett under og en stripe med fem ruter til å krysse av i ved siden av. Begge bildene er tegnet fra samme forelegg, så blikket kan gli fra det ene til det andre uten å lete etter riktig sted. Fem ting er annerledes i bilde 2. På eksemplaret som vises er blomsten byttet ut med en annen blomst, en sommerfugl er byttet ut, en kolibri er snudd, en sky har blitt større og marihøna har blitt større; et annet eksemplar av den samme siden i serien finn-fem-feil trekker sine fem feil på nytt, så typen varierer (noe mangler, noe har kommet til, noe er større eller mindre, noe har flyttet seg eller er snudd) mens antallet alltid er fem.",
+   "p2": "Oppgaven er å sammenligne, ikke å gjette. Barnet ser på én del av bilde 1, finner den samme delen i bilde 2 og avgjør om den fortsatt stemmer. Det er den samme visuelle oppmerksomheten som senere bærer lesingen (b mot d, 6 mot 9) og det nøye blikket i naturfag, her gjort med en hund, skyer og blomster. Rutene gjør letingen til en telling: fem ruter, fem funn, og barnet ser selv når arket er ferdig.",
+   "p3": "Dette er grunnsiden i serien. Søskensidene endrer én ting hver: tre store feil for et første forsøk, fargebilder, sju eller ti feil i to bildepar, et hemmelig antall, ord å krysse av, et speilvendt bilde, ting som mangler, bildepar og en skriveside. Hver versjon skrives ut som PDF, kan åpnes som en versjon for berøringsskjerm der barnet trykker på feilene, og kommer med fasit der hver feil har en ring med et tall. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-k395",
+   "carousel": [
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    },
+    {
+     "label": "Finn ti feil i hagen",
+     "href": "finn-ti-feil-i-hagen-vanskelig"
+    }
+   ],
+   "title": "Finn fem feil – oppgaveark for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Finn fem feil: en hund i hagen tegnet to ganger, fem feil i bilde 2. Sett ring rundt dem og kryss av i fem ruter. PDF for barnehagen med fasit og berøringsskjerm."
+  },
+  {
+   "slug": "hvordan-tegne-en-katt-steg-for-steg",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "base",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · barnehage",
+   "h1": "Hvordan tegne en katt steg for steg",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "1-trinn"
+   ],
+   "p1": "Fire nummererte steg går nedover venstre kant på denne siden, og resten er ett stort stiplet ark. Steg 1 er kattens omriss alene, tegnet i oransje; i steg 2 og 3 er de tidligere strekene svarte og de nye oransje, så barnet ser nøyaktig hva som legges til hver gang; steg 4 viser den ferdige katten. Stegene er hentet fra selve tegningen, ikke tegnet på nytt, og derfor er katten på kortet og katten barnet sikter mot den samme katten. Dette er grunnsiden i serien tegn-steg-for-steg for barnehagen og skolestart.",
+   "p2": "Å tegne etter steg lærer et barn å se et helt dyr som et omriss pluss deler som legges til i rekkefølge, slik vante tegnere arbeider, og det motsatte av å begynne med et øye og gå tom for plass. Å holde barnets tegning på et stort ark ved siden av de små stegene øver også blikket fra forelegg til papir, en ferdighet skrivingen kommer til å trenge.",
+   "p3": "Skriv ut på vanlig papir og gi barnet en blyant; mer trengs ikke, og det er ingenting å rette, for tegningen er barnets egen. Seriens ti andre sider endrer én ting hver: stiplede former å begynne med, et grått forelegg å tegne oppå, en halvferdig tegning å gjøre ferdig, et rutenett, et ord å skrive, et motiv, stokkede steg, en rute for hvert steg, tre setninger og å tegne etter hukommelsen. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-k396",
+   "carousel": [
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    },
+    {
+     "label": "Tegn en dinosaur rute for rute",
+     "href": "tegn-en-dinosaur-rute-for-rute"
+    }
+   ],
+   "title": "Hvordan tegne en katt steg for steg – barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Hvordan tegne en katt steg for steg: fire nummererte steg langs kanten, de nye strekene i oransje og et stort stiplet ark å tegne på. PDF for barnehagen."
+  },
+  {
+   "slug": "finn-tre-feil-botte-og-spade",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-3-differences",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: finn tre feil · barnehage",
+   "h1": "Finn tre store feil: Bøtte og spade",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "1-trinn"
+   ],
+   "p1": "Tre feil, og hver av dem er stor: dette er siden å gi et barn som aldri har sammenlignet to bilder før. Strandmotivet med bøtte og spade, en ball, en sjøstjerne og to kyllinger er tegnet to ganger, det ene bildet over det andre, og bare tre ting er endret i det nederste. På eksemplaret som vises har sola blitt en måne, en sky har blitt større og den ene kyllingen er mye større; små endringer, som en detalj som er snudd, er med vilje holdt unna denne siden i serien finn-fem-feil, slik at hver feil er like stor som en hel ting.",
+   "p2": "Tre er et antall en fireåring kan holde på én hånd, og de tre store rutene ved siden av bildene passer til det. Barnet setter ring rundt hver feil i det nederste bildet og krysser av i en rute, ser så tilbake og sjekker at tre ruter er krysset av og tre ringer er tegnet. Det som læres, er metoden, i rolig tempo: se på én ting i det øverste bildet, finn den igjen under, spør om den fortsatt er lik, gå videre.",
+   "p3": "Skriv ut PDF-en til bordet, eller åpne versjonen for berøringsskjerm på et nettbrett der hver feil barnet finner, lyser opp; fasiten setter ring rundt de tre feilene med tallene 1 til 3. Når tre store feil går lett, tilbyr grunnsiden fem, og damsiden sju i to bildepar. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-k397",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    },
+    {
+     "label": "Finn ti feil i hagen",
+     "href": "finn-ti-feil-i-hagen-vanskelig"
+    }
+   ],
+   "title": "Finn tre feil – første oppgaveark for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Finn tre feil for et første forsøk: en strand med bøtte og spade tegnet to ganger, tre store feil, tre ruter. PDF for barnehagen med fasit og berøringsskjerm."
+  },
+  {
+   "slug": "finn-feilene-i-fargebildet-frosk-ved-dammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-the-differences-in-colour",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: finn fem feil i farger · barnehage",
+   "h1": "Finn feilene i fargebildet: Frosk ved dammen",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "1-trinn"
+   ],
+   "p1": "Dammen er fargelagt på denne siden. En grønn frosk sitter på en blå dam under en gul sol, med en lilla sommerfugl, kolibrier, en rød tulipan og to blå kyllinger, og hele motivet finnes to ganger. Fem ting er forskjellige i det nederste fargebildet, og minst én av dem er bare en fargeendring: på eksemplaret som vises har frosken blitt lilla og sommerfuglen oransje, mens en sky har blitt større, en kylling er snudd og blomsten har blitt en tulipan. Fargen er poenget med denne siden i serien finn-fem-feil, så den skrives ut i farger og fungerer best slik; på en svart-hvitt-skriver forsvinner fargefeilen, og da passer grunnsiden bedre.",
+   "p2": "Å oppdage at en ting har samme form på samme sted, men en annen farge, er en vanskeligere sammenligning enn å se at noe er borte. Barnet må holde fargen på den øverste frosken i minnet mens det ser på den nederste. De fem rutene holder tellingen ærlig, og siden ber barnet se like nøye på farger som på former.",
+   "p3": "Hver side i serien skrives ut som PDF, åpnes som versjon for berøringsskjerm på nettbrettet og har fasit der de fem feilene har fått ring. Dette er seriens eneste fargeside; søsknene er strektegninger. Disse sidene sammenligner to bilder av samme motiv; mal etter tall bruker de samme motivene til en annen oppgave, og speiltegning og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-k398",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    },
+    {
+     "label": "Finn ti feil i hagen",
+     "href": "finn-ti-feil-i-hagen-vanskelig"
+    }
+   ],
+   "title": "Finn fem feil i farger – for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Finn feilene i farger: en fargelagt dam med en frosk tegnet to ganger, fem feil, minst én er bare en ny farge. PDF for barnehagen med fasit og berøringsskjerm."
+  },
+  {
+   "slug": "finn-sju-feil-ved-dammen-to-bildepar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-7-differences",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: finn sju feil · 1. trinn",
+   "h1": "Finn sju feil ved dammen",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "2-trinn"
+   ],
+   "p1": "Sju feil på ett ark, fordelt på to dammotiver. Det venstre bildeparet viser en skilpadde ved dammen med fire feil mellom øverste og nederste bilde; det høyre viser en krokodille med tre. Hvert par har sin egen rad med ruter under seg, 4 og 3, så et barn som blir ferdig med ett motiv, ser at det er fullført før det neste begynner. De fire bildene deler samme himmel, og derfor betyr fanene 1 og 2 noe: sammenlign øverst med nederst innenfor ett par, aldri venstre med høyre. Dette er sjufeilsiden i serien finn-fem-feil, skrevet for 1. trinn.",
+   "p2": "Sju er antallet i mange oppgavebøker, og siden gjør seg fortjent til det med mindre feil enn barnehagesidene: på eksemplaret som vises er en kylling og en kolibri snudd, en sommerfugl mangler og en tulipan har blitt mindre i det venstre paret; i det høyre har en sky blitt større, en sopp har blitt mindre og blomsten er byttet ut med en tulipan. Barnet må lete gjennom hele bildet i stedet for å få øye på det ene store, og de to parene gir to nye starter på samme ark.",
+   "p3": "PDF-en skriver ut de to parene side om side; på nettbrettet stabler skjermversjonen de fire bildene med de samme fanene 1 og 2 og en strek mellom parene, og fasiten setter ring rundt de sju feilene med tall. Tifeilsiden bruker den samme oppstillingen med to par til den vanskeligste versjonen. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g1412",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn ti feil i hagen",
+     "href": "finn-ti-feil-i-hagen-vanskelig"
+    }
+   ],
+   "title": "Finn sju feil – oppgaveark for 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn sju feil: en skilpadde og en krokodille ved dammen, hvert motiv tegnet to ganger, fire feil til venstre og tre til høyre. PDF for 1. trinn med fasit og skjerm."
+  },
+  {
+   "slug": "finn-ti-feil-i-hagen-vanskelig",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "find-10-differences",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: finn ti feil · 2. trinn",
+   "h1": "Finn ti feil i hagen",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "3-trinn"
+   ],
+   "p1": "Ti feil er den vanskelige siden. To hagemotiver, ett med en drage og ett med en marihøne, er tegnet to ganger hver, og fem ting er endret i hvert par, med en rad på fem ruter under hvert av dem. Her får feilene være små: på eksemplaret som vises har dragen flyttet seg litt, en tulipan mangler, en sopp har blitt større, en sommerfugl har blitt mindre og sola er borte i det venstre paret; i det høyre er en kolibri mindre, en liten marihøne mangler, en kylling er mindre, en sky har blitt større og en sky har flyttet seg. Et barn på 2. trinn som syntes damsiden med sju feil var lett, er leseren denne siden i serien finn-fem-feil er skrevet for.",
+   "p2": "Å lete etter ti små endringer er et arbeid i utholdende oppmerksomhet. Oppstillingen med to par gir det en struktur: gjør ferdig drageparet, kryss av fem ruter, og begynn så på nytt med marihøneparet. Tallfanene 1 og 2 på hvert bilde holder sammenligningen innenfor paret, siden de to motivene deler himmel og kan forveksles i et raskt blikk. Å sette ring rundt hvert funn før ruta krysses av, stopper den vanlige feilen med å telle én feil to ganger.",
+   "p3": "PDF-en skriver ut begge parene på ett ark; skjermversjonen stabler de fire bildene med de samme fanene og en strek mellom parene; fasiten setter ring rundt alle ti feilene med tall, fem per par, så rettingen tar et minutt. Lettere søsken i serien tilbyr tre, fem og sju feil. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g2388",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Finn ti feil, vanskelig – oppgaveark for 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn ti feil, den vanskelige siden: to hagemotiver med en drage og en marihøne, fem feil per bildepar. PDF for 2. trinn med fasit og versjon for berøringsskjerm."
+  },
+  {
+   "slug": "hvor-mange-feil-tell-og-skriv-tallet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "how-many-differences",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: hvor mange feil? · 1. trinn",
+   "h1": "Hvor mange feil finner du? Tell og skriv tallet",
+   "strand": "Visuell oppmerksomhet",
+   "standard": "K.CC.B.5",
+   "slotTokens": [
+    "finn-fem-feil",
+    "2-trinn"
+   ],
+   "p1": "Ingen forteller barnet hvor mange feil det er. Et hagemotiv med en kylling, kolibrier, sommerfugler, blomster og en marihøne er tegnet to ganger, og det eneste telleverket på siden er én tom rute til et tall. Barnet setter ring rundt hver feil det finner i det nederste bildet, også steder der noe bare er borte, og skriver så summen. Hvert eksemplar av denne siden i serien finn-fem-feil trekker sitt eget antall feil, så antallet er en ekte hemmelighet og står ikke her.",
+   "p2": "Dette gjør sammenligningen til telling. Å finne feilene er det visuelle arbeidet; å holde orden på ringene og skrive tallet er tellearbeidet, det LK20 lar en elev på 1. trinn gjøre med mengder av ting. Fordi instruksjonen sier at noe kan være borte, teller et tomt sted som et funn, og det hindrer barnet i bare å rapportere de feilene som fortsatt synes.",
+   "p3": "Fasiten setter ring rundt hver feil og skriver tallet i ruta; skjermversjonen ber barnet trykke på hver feil og så velge riktig tall i en rad på fire, 3 til 6. Grunnsiden i serien sier antallet rett ut, og det er versjonen å begynne med. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g1413",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Hvor mange feil? – oppgaveark for 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn feilene og tell dem: et hagemotiv tegnet to ganger, antallet feil er hemmelig. Sett ring rundt hver feil, skriv tallet. PDF for 1. trinn med fasit og skjerm."
+  },
+  {
+   "slug": "hva-er-endret-kryss-av-ordene",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-changed-tick-the-words",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: hva er endret? · 1. trinn",
+   "h1": "Hva er endret? Kryss av ordene",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "2-trinn"
+   ],
+   "p1": "Ved siden av de to gårdsbildene står en kolonne med seks ord: låve, sol, høy, ku, kolibri, sky. Tre ting er annerledes i det nederste bildet, og når barnet har satt ring rundt dem, krysser det av ordene for de tingene som er endret. Ordene er bildets egne, og tre av de seks er lureord som navngir ting som står uendret. På dette arket i serien finn-fem-feil er lesemengden seks substantiv og ikke mer, og det passer for 1. trinn.",
+   "p2": "Å koble en feil til ordet sitt er broen fra å se til å snakke. Et barn som har sett at sola er borte, må så avgjøre at ordet for den er sol, ikke sky. Siden tilbyr aldri to ord for samme tegning, så hvert kryss har ett riktig svar: der et bilde har både en vanlig fugl og en navngitt, står bare det presise ordet på lista. Lureordene gjør avkryssingen til en avgjørelse i stedet for en vane.",
+   "p3": "Fasiten setter ring rundt de tre feilene og krysser av de tre riktige ordene; skjermversjonen ber barnet trykke på feilene og så på ordene. Søskensiden Skriv hva som er annerledes flytter den samme ideen til setninger for 2. trinn. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g1414",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Hva er endret? Kryss av ordene – 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn feilene og sett ord på dem: et gårdsmotiv tegnet to ganger, tre feil, seks bildeord. Sett ring, kryss av ordene. PDF for 1. trinn med fasit og skjerm."
+  },
+  {
+   "slug": "speilvendt-bilde-finn-feilene-brett-og-sjekk",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "mirror-pictures-find-the-differences",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: speilvendt bilde · 1. trinn",
+   "h1": "Speilvendt bilde: finn feilene og brett for å sjekke",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "2-trinn"
+   ],
+   "p1": "Bilde 2 på denne siden er snudd som i et speil. En rev i skogen står til venstre, og speilbildet sitter til høyre med en stiplet brettelinje mellom. Selve speilingen er ingen feil: fire ting er likevel endret inne i speilbildet, og de kan være noe som mangler, noe som er byttet ut, noe som er større eller mindre. På eksemplaret som vises mangler en kylling, en sky er mindre, tulipanen er borte og en annen sky er større. Fire ruter står under bilde 2. Når barnet har satt ring rundt fire ting, legger en brett langs linja det ene bildet over det andre, og mot lyset ser man hvor de ikke stemmer. Dette er speilsiden i serien finn-fem-feil for 1. trinn.",
+   "p2": "Å sammenligne et motiv med speilbildet sitt ber barnet bytte venstre og høyre i hodet, den samme bevegelsen som skiller b fra d og p fra q. Alt står der man venter når speilingen først er forstått; de fire ekte feilene gjemmer seg innenfor det ekstra steget. Brettingen er selvkontrollen, så siden retter seg selv før en voksen ser den.",
+   "p3": "Fasiten setter ring rundt de fire feilene og krysser av rutene; skjermversjonen viser de to bildene over hverandre med det nederste speilvendt og ber barnet trykke på hver ekte feil. Disse sidene sammenligner to bilder av samme motiv; speiltegning, der barnet selv tegner den andre halvdelen, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g1415",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Speilvendt bilde: finn feilene – 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn feilene i et speilvendt bilde: en rev i skogen, bilde 2 snudd som i et speil, fire ekte feil. Brett langs linja og sjekk. PDF for 1. trinn med fasit og skjerm."
+  },
+  {
+   "slug": "hva-mangler-i-bildet-sett-ring-rundt-det-tomme-stedet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "what-is-missing",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: hva mangler? · barnehage",
+   "h1": "Hva mangler i bildet? Sett ring rundt det tomme stedet",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "1-trinn"
+   ],
+   "p1": "Ingenting byttes ut, flyttes eller endrer størrelse på denne siden: ting forsvinner bare. Ei ugle sitter under månen med stjerner, planeter og sopp i bilde 1, og i bilde 2 er tre av disse tingene borte, så det står tomme steder igjen på nattehimmelen og på bakken. På eksemplaret som vises mangler to planeter og en sopp. Barnet setter ring rundt de tre tomme stedene og krysser av tre ruter. Bare fjerning brukes på denne barnehageversjonen i serien finn-fem-feil, så spørsmålet forblir ett spørsmål: hva var der, og er det der fortsatt?",
+   "p2": "Å legge merke til fravær er vanskeligere enn å se en endring, for det er ingenting å se på der tingen sto. Barnet må huske det øverste bildet mens det leter gjennom det nederste, og det er minnedelen av visuell sammenligning. Tre ting holder det innen rekkevidde for en femåring, og en ring rundt tomt papir er et svar som er godt å tegne.",
+   "p3": "Fasiten setter ring rundt de tre tomme stedene med tall; skjermversjonen ber barnet trykke på hvert tomme sted i det nederste bildet. Grunnsiden i serien blander alle typer endringer og er steget etter denne. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-k399",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Hva mangler i bildet? – oppgaveark for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Hva mangler: ei ugle om natten tegnet to ganger, tre ting er borte. Sett ring rundt de tomme stedene, kryss av tre ruter. PDF for barnehagen med fasit og skjerm."
+  },
+  {
+   "slug": "bildepar-en-feil-i-hver-rad",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "picture-pairs-find-the-difference",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: bildepar · barnehage",
+   "h1": "Bildepar: én feil i hver rad",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "1-trinn"
+   ],
+   "p1": "I stedet for ett stort motiv klipper denne siden en hage i tre nærbilder og viser hvert av dem to ganger, side om side på en rad. I hver rad er nøyaktig én ting annerledes i bildet til høyre, og en rute avslutter raden. Rutene er store og tingene få, så barnet kan ta én rad om gangen: på eksemplaret som vises har en kolibri blitt større i første rad, sola mangler i den andre og en kylling er større i den tredje. Ideen i serien finn-fem-feil kommer her i sin minste og roligste form for barnehagen.",
+   "p2": "Én feil per rad fjerner spørsmålet om når man skal slutte. Barnet sammenligner to små bilder, finner den ene endringen, setter ring rundt den, krysser av i ruta og går nedover. Fordi en feil kan være noe som er borte, ber instruksjonen om stedet som er annerledes i stedet for tingen, og en ring rundt en tom bit papir er et riktig svar.",
+   "p3": "Fasiten setter ring rundt hver feil; skjermversjonen stabler radens to bilder og ber barnet trykke på det ene stedet som skiller seg ut. Herfra setter trefeil- og femfeilsidene i serien sammenligningen tilbake i ett helt motiv. Disse sidene sammenligner to bilder av samme motiv; speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-k400",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Bildepar: finn feilen – oppgaveark for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Bildepar: tre rader med små bilder fra en hage vist to ganger, én feil per rad. Sett ring rundt den, kryss av i ruta. PDF for barnehagen med fasit og skjerm."
+  },
+  {
+   "slug": "skriv-hva-som-er-annerledes-en-setning-per-feil",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "find-the-differences",
+    "mode": "write-what-is-different",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: skriv hva som er annerledes · 2. trinn",
+   "h1": "Skriv hva som er annerledes: én setning per feil",
+   "strand": "Visuell oppmerksomhet",
+   "slotTokens": [
+    "finn-fem-feil",
+    "3-trinn"
+   ],
+   "p1": "To bilder av en elefant under et tre står side om side med tre feil mellom seg, og under dem ligger to ordstriper: seks substantiv fra bildet (tre, elefant, fugl, sol, blomst, sky) og sju endringsord (er byttet ut, mangler, har blitt mindre, har blitt større, har kommet til, har flyttet seg, er snudd). Tre skrivelinjer begynner hver med den ferdigtrykte starten Bilde 2:, og barnet fullfører én setning per feil ved å ta et substantiv fra den første stripa og et endringsord fra den andre. På eksemplaret som vises er elefanten snudd, en sky mangler og sola har blitt mindre. Dette er skrivesiden i serien finn-fem-feil for 2. trinn.",
+   "p2": "Å beskrive en feil i en setning gjør at barnet må navngi både tingen og det som har skjedd med den: Bilde 2: skya mangler. Kolonet etter starten gjør at ordene fra stripene kan settes rett inn uten å bytte rekkefølge; barnet legger bare til -en eller -a på substantivet, slik det gjør når det snakker. Stripene står for stavingen, så kreftene går til sammenligningen og setningen, ikke til å gjette bokstaver. En feil kan være noe som er borte, og derfor står ordet mangler på stripa og instruksjonen sier det.",
+   "p3": "Fasiten setter ring rundt de tre feilene med tall; skjermversjonen ber barnet trykke på feilene før det skriver. Søskensiden Hva er endret? Kryss av ordene ber om den samme vurderingen med kryss i stedet for setninger, ett år tidligere. Disse sidene sammenligner to bilder av samme motiv; bildeskriving, speiltegning, mal etter tall og finn den som ikke passer har egne sider.",
+   "canonicalDeckSlug": "finn-fem-feil-g2389",
+   "carousel": [
+    {
+     "label": "Finn fem feil: Hund i hagen",
+     "href": "finn-fem-feil-hund-i-hagen"
+    },
+    {
+     "label": "Finn tre store feil: Bøtte og spade",
+     "href": "finn-tre-feil-botte-og-spade"
+    },
+    {
+     "label": "Finn feilene i fargebildet: Frosk ved dammen",
+     "href": "finn-feilene-i-fargebildet-frosk-ved-dammen"
+    },
+    {
+     "label": "Finn sju feil ved dammen",
+     "href": "finn-sju-feil-ved-dammen-to-bildepar"
+    }
+   ],
+   "title": "Skriv hva som er annerledes – 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Finn feilene og skriv om dem: en elefant tegnet to ganger, tre feil, to ordstriper og tre skrivelinjer. PDF for 2. trinn med fasit og berøringsskjerm."
+  },
+  {
+   "slug": "tegn-en-hund-av-enkle-former",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-simple-shapes",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · barnehage",
+   "h1": "Tegn en hund av enkle former",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "1-trinn"
+   ],
+   "p1": "Det store arket på denne siden er ikke tomt. Fire stiplede former står der allerede, en oval til hodet, én til hvert øre og en høy oval til kroppen, plassert nøyaktig der hundens deler skal være. Barnet tegner oppå de stiplede formene, tegner hundens omriss rundt dem og legger så til snute, bein og hale fra de fire nummererte stegene til venstre. På kortene vokser hunden fra omriss til ferdig tegning med hvert stegs nye streker i oransje, på samme måte som på hver side i serien tegn-steg-for-steg for barnehagen.",
+   "p2": "Former først er den eldste tegneleksjonen som finnes: et hode er en sirkel, en kropp en oval, og omrisset følger etter. Å se de stiplede ovalene under den ferdige hunden viser barnet hvor en tegning kommer fra, og det knytter stille tegningen til formnavnene i den tidlige geometrien. Fordi formene låser størrelse og plassering, blir hunden stor og hel i stedet for sammenklemt i et hjørne.",
+   "p3": "Skriv ut og tegn med blyant; det er ingenting å rette, og ovalene forsvinner nesten under barnets egne streker. Grunnsiden i serien gir det samme store arket uten noe på, og kaninsiden gir et grått forelegg å tegne oppå. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-k401",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    },
+    {
+     "label": "Tegn en dinosaur rute for rute",
+     "href": "tegn-en-dinosaur-rute-for-rute"
+    }
+   ],
+   "title": "Tegn en hund av enkle former – barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Tegn en hund av enkle former: fire stiplede ovaler i ruta til hode, ører og kropp, fire nummererte steg ved siden av. Oppgaveark i PDF for barnehagen til utskrift."
+  },
+  {
+   "slug": "tegn-oppa-kaninen-og-tegn-den-selv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "trace-then-draw",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · barnehage",
+   "h1": "Tegn oppå kaninen, og tegn den så selv",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "1-trinn"
+   ],
+   "p1": "To ruter deler denne siden. Den venstre rommer en stor kanin trykt i lysegrått, klar til å tegnes oppå med blyant; den høyre er tom, til barnets egen kanin tegnet etterpå. Øverst går de fire stegene, omrisset først, med hvert stegs nye streker i oransje. Å tegne oppå den grå kaninen lærer hånden veien rundt ørene og potene; å tegne den en gang til ved siden av, uten det grå, er barnehagebarnets første tegning etter hukommelsen av formen det nettopp fulgte. Siden hører til serien tegn-steg-for-steg.",
+   "p2": "De to rutene er like store med vilje, så den andre kaninen får plass til å bli like stor som den første. Å tegne oppå et helt dyr er en annen øvelse enn å spore bokstaver: strekene bøyer seg, krysser hverandre og slynger seg, og blyanten må holde jevnt trykk over en lang strekning. Å gjøre det én gang med støtte og én gang uten er hele metoden på denne siden.",
+   "p3": "Skriv ut på vanlig papir; det grå forelegget blir lyst på enhver skriver, og det er ingenting å rette. Hundesiden i serien tar bort det grå forelegget og gir stiplede former i stedet; hestesiden gir en halvferdig hest å gjøre ferdig. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-k402",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    },
+    {
+     "label": "Tegn en dinosaur rute for rute",
+     "href": "tegn-en-dinosaur-rute-for-rute"
+    }
+   ],
+   "title": "Tegn oppå kaninen, og tegn den selv – barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Tegn oppå kaninen, og tegn den så selv: en stor grå kanin å følge med blyanten, en tom rute til din egen kanin, fire steg øverst. Oppgaveark i PDF for barnehagen."
+  },
+  {
+   "slug": "tegn-hesten-ferdig",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "finish-the-drawing",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · barnehage",
+   "h1": "Tegn hesten ferdig",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "1-trinn"
+   ],
+   "p1": "En hel hest står til venstre på denne siden, og til høyre står den samme hesten uferdig: omrisset og øynene er der, men manen, mulen og strekene i beina og halen mangler. Et lite ringmerke viser hvilken som er den uferdige. Barnet ser fra den hele hesten til den uferdige, tegner inn det som mangler, og tegner så sin egen hest i den store ruta under. Her er det ingen speillinje og ikke noe halvt bilde; denne siden i serien tegn-steg-for-steg handler om å sammenligne to tegninger av den samme hesten.",
+   "p2": "Å finne det som mangler og tegne det inn er observasjon og tegning i én bevegelse. Barnet må se på forelegget del for del, og det lærer dyrets deler, og så sette strekene på riktig sted, og det øver hånden. Den tredje ruta lar barnet prøve hele hesten når delene har blitt kjente.",
+   "p3": "Skriv ut og tegn med blyant; ingenting rettes. De manglende strekene er valgt slik at hullet er tydelig for et barn, og ring- og prikkmerkene skiller bare de to hestene fra hverandre. Grunnsiden i serien gir de fire hele stegene i stedet for et forelegg å gjøre ferdig. Barnet tegner dyret etter sine egne steg; symmetritegning, der halve bildet speiles, bokstavsporing og kopier ruter har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-k403",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn en dinosaur rute for rute",
+     "href": "tegn-en-dinosaur-rute-for-rute"
+    }
+   ],
+   "title": "Tegn hesten ferdig – oppgaveark for barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Tegn tegningen ferdig: en hel hest ved siden av den samme hesten uten man, mule og streker i beina. Tegn det som mangler, så en egen hest. PDF for barnehagen."
+  },
+  {
+   "slug": "tegn-en-dinosaur-rute-for-rute",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-with-the-grid",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 1. trinn",
+   "h1": "Tegn en dinosaur rute for rute",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "2-trinn"
+   ],
+   "p1": "En dinosaur står i et rutenett med fire ganger fire ruter øverst til venstre på siden. Ved siden av ligger et tomt rutenett i samme størrelse, og under begge en stor stiplet rute uten streker. Barnet tegner av dinosauren i det tomme rutenettet én rute om gangen, med blikket på hvor strekene krysser hver rute, og tegner den så en gang til i ruta uten rutenett. Rutenettet er et tegnehjelpemiddel, ikke et pikselpuslespill: streker, ikke fylte ruter, og det er det som skiller denne siden i serien tegn-steg-for-steg for 1. trinn fra sidene med kopier ruter.",
+   "p2": "Å arbeide rute for rute deler en vanskelig tegning i seksten lette og lærer barnet å se på plassering: hodet sitter i den venstre kolonnen, halen når høyre kant i tredje rad. Den andre tegningen, uten rutenett, er der det blikket betaler seg, for nå kjenner barnet dinosaurens proporsjoner etter å ha målt dem.",
+   "p3": "Skriv ut på vanlig papir; ingenting rettes, og ruta uten streker er større enn rutenettet, så den andre dinosauren får plass til å ligne den første. Grunnsiden i serien bruker nummererte steg i stedet for et rutenett. Barnet tegner dyret etter sine egne steg eller ruter; kopier ruter med pikselbilder, bokstavsporing og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g1416",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Tegn en dinosaur med rutenett – 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn en dinosaur rute for rute: dinosauren i et rutenett på 4 ganger 4, et tomt rutenett å tegne av i og en rute uten streker til en tegning til. PDF for 1. trinn."
+  },
+  {
+   "slug": "tegn-en-fisk-og-skriv-ordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-and-write-the-word",
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · barnehage",
+   "h1": "Tegn en fisk, og skriv ordet",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "1-trinn"
+   ],
+   "p1": "Under tegneruta på denne siden går tre skrivelinjer: på den første står ordet fisk trykt, på den andre en grå kopi å skrive oppå, og den tredje er tom til å skrive det selv. De fire stegene til venstre viser fisken fra omriss til ferdige skjell, med hvert stegs nye streker i oransje. Barnet tegner fisken i den store ruta og skriver så navnet dens under: ett bilde, ett ord, begge laget av barnet. Denne siden i serien tegn-steg-for-steg knytter tegningen til de første ukene med skriving ved skolestart.",
+   "p2": "Å tegne en ting og så skrive ordet for den er slik tidlig ordforråd og håndskrift støtter hverandre. Ordet er kort, og bokstavene hører til dem et barn møter først; den grå kopien sitter på linja slik at bokstavhøyden stemmer før barnet skriver fritt på den tomme linja under. Fisken tegnet ovenfor gir ordet en betydning barnet nettopp har laget, og ordet gir tegningen et navn å lese opp for den som sitter ved siden av.",
+   "p3": "Skriv ut på vanlig papir og bruk blyant til både tegningen og ordet; ingenting rettes. Grunnsiden i serien er den samme tegningen uten skrivelinje; bjørnesiden ber om tre setninger i stedet for ett ord. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-k404",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Tegn en fisk, og skriv ordet – barnehagen | til utskrift PDF gratis",
+   "metaDescription": "Tegn en fisk i fire steg, og skriv så ordet fisk på linja under: skriv først oppå det grå ordet, skriv det så selv. PDF for barnehagen og skolestart."
+  },
+  {
+   "slug": "tegn-en-frosk-ved-dammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-it-in-the-scene",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 1. trinn",
+   "h1": "Tegn en frosk ved dammen",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "2-trinn"
+   ],
+   "p1": "Ruta på denne siden er allerede et bilde. En sky og en sol står på himmelen, en tulipan vokser ved kanten, og dammen i midten er tom. Øverst viser fire nummererte steg hvordan man tegner en frosk, omrisset først og så øyne, bein og prikker, med hvert stegs nye streker i oransje. Barnet øver på frosken fra stegene og tegner den så på den tomme dammen, slik at den ferdige siden er et motiv og ikke et dyr som svever på hvitt papir. Dette er motivsiden i serien tegn-steg-for-steg for 1. trinn.",
+   "p2": "Å plassere en tegning inne i et bilde krever en avgjørelse de vanlige sidene slipper: hvor stor skal frosken være, og hvor nøyaktig sitter den på dammen? Barn som kan tegne et dyr, kan ofte ikke plassere det ennå, og et forberedt bilde med ett tydelig tomt sted lærer plasseringen uten ord. Sola, skya og tulipanen gir også frosken en størrelse å holde seg til.",
+   "p3": "Skriv ut på vanlig papir; ingenting rettes. Tingene er tegnet fra det samme bildebiblioteket som damsidene i serien Finn fem feil, så froskesiden og de sidene kan brukes i samme time. Grunnsiden i serien gir et tomt ark i stedet for et motiv. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g1417",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Tegn en frosk ved dammen – oppgaveark 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn en frosk inn i et motiv: fire steg øverst, så et dambilde med sky, sol og tulipan og en tom dam der frosken skal sitte. Oppgaveark i PDF for 1. trinn."
+  },
+  {
+   "slug": "sett-stegene-i-rekkefolge-tegn-ei-ugle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "order-the-drawing-steps",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 1. trinn",
+   "h1": "Sett stegene i rekkefølge: tegn ei ugle",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "2-trinn"
+   ],
+   "p1": "Fem kort viser ei ugle i fem stadier av å bli tegnet, og de er trykt i feil rekkefølge. Ved siden av hvert kort er det en tom rute. Barnet finner ut hvilket kort som kommer først, hvilket som kommer så, og skriver 1 til 5 i rutene før det tegner ugla i den store ruta. Ledetråden ligger i fargene: på hvert kort er strekene som allerede er tegnet, svarte, og de som nettopp er lagt til, oransje, så kortet med oransje streker som er svarte på et annet kort, kommer før det. Dette er rekkefølgesiden i serien tegn-steg-for-steg for 1. trinn.",
+   "p2": "Å sette steg i rekkefølge er sekvensering, den samme tenkingen som å ordne rutene i en fortelling, brukt på en tegneprosedyre. Det første og det siste kortet er lette å se, det helt oransje omrisset og den ferdige ugla, og de tre i midten krever sammenligningen fargene gjør mulig. Et barn som har ordnet kortene, har forstått hvorfor stegene går i den rekkefølgen, og det er mer enn å kopiere dem.",
+   "p3": "Skriv ut på vanlig papir; rekkefølgen kan sjekkes mot grunnsiden i serien, som viser stegene i riktig rekkefølge, og tegningen rettes ikke. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider, og det har bildesekvensene med fortellinger også.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g1418",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Sett stegene i rekkefølge: ei ugle – 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Sett tegnestegene i rekkefølge: fem kort med ei ugle i feil rekkefølge, en rute ved hvert kort til tallene 1 til 5, og så tegner barnet ugla. PDF for 1. trinn."
+  },
+  {
+   "slug": "tegn-av-hvert-steg-en-kolibri",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "copy-each-step",
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 1. trinn",
+   "h1": "Tegn av hvert steg: en kolibri",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "2-trinn"
+   ],
+   "p1": "Hvert steg på denne siden har sin egen rute. Fire kort øverst viser en kolibri som vokser fra omriss til vinger og fjær, og rett under hvert kort er det en tom rute i samme størrelse, slik at barnet tegner av steg 1, så steg 2 med de nye strekene lagt til, og så videre. Den større ruta nederst er til hele fuglen, tegnet større når alle fire stegene er øvd. Den siden i serien tegn-steg-for-steg for 1. trinn som gir mest støtte, er denne.",
+   "p2": "Å tegne av hvert steg for seg gjør at barnet tegner omrisset fire ganger og de nye strekene i rekkefølge, og det setter seg langt bedre enn å se på stegene én gang og tegne den ferdige fuglen. De små rutene holder hvert forsøk kort; den store ruta til slutt ber om den samme tegningen i ny størrelse, og det prøver om proporsjonene er lært, ikke bare fulgt med blikket.",
+   "p3": "Skriv ut på vanlig papir; ingenting rettes. Dyret er en kolibri, kalt fugl på siden fordi det er ordet et barn bruker. Grunnsiden i serien viser samme type steg med bare én stor rute. Barnet tegner dyret etter sine egne steg; bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g1419",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Steg for steg: tegn en fugl – oppgaveark 1. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn av hvert tegnesteg: fire kort med en kolibri, en tom rute under hvert kort til å tegne det av i, og en større rute til hele fuglen. PDF for 1. trinn."
+  },
+  {
+   "slug": "tegn-en-bjorn-og-skriv-om-den",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-then-write-about-it",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 2. trinn",
+   "h1": "Tegn en bjørn, og skriv om den",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "3-trinn"
+   ],
+   "p1": "Bjørnens fire steg går nedover venstre kant på denne siden, omrisset først med hvert stegs nye streker i oransje, og den store ruta til tegningen ligger ved siden av. Under ruta er det tre skrivelinjer som hver begynner med ferdigtrykte ord: Bjørnen min er, Den kan, Den liker. Barnet tegner bjørnen og fullfører så de tre setningene om bjørnen det nettopp har tegnet. Tegningen kommer først på denne siden i serien tegn-steg-for-steg for 2. trinn, og det er det som skiller den fra bildeskriving, der bildet er gitt.",
+   "p2": "Å skrive om en tegning barnet selv har laget, gir setningene et emne barnet allerede bryr seg om og kjenner hver detalj i. Startene låser setningenes form, en beskrivelse, en evne og en favoritt, så skrivearbeidet ligger i resten: Bjørnen min er brun og stor. Den kan klatre i trær. Den liker honning. Tre setninger om én og samme figur er en liten beskrivende tekst, av det slaget LK20 venter seg på 2. trinn.",
+   "p3": "Skriv ut på vanlig papir; tegningen rettes ikke, og setningene leses, ikke poengsettes. Fiskesiden i serien ber om ett ord der denne siden ber om tre setninger. Barnet tegner dyret etter sine egne steg; bildeskriving fra et gitt bilde, bokstavsporing, kopier ruter og symmetritegning har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g2390",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Tegn en bjørn, og skriv om den – 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn en bjørn i fire steg, og skriv så tre setninger om den på linjer som begynner med Bjørnen min er, Den kan og Den liker. Oppgaveark i PDF for 2. trinn."
+  },
+  {
+   "slug": "tegn-en-sommerfugl-etter-hukommelsen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "how-to-draw",
+    "mode": "draw-from-memory",
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppgaveark: tegn steg for steg · 2. trinn",
+   "h1": "Tegn en sommerfugl etter hukommelsen",
+   "strand": "Kunst og håndverk",
+   "slotTokens": [
+    "tegn-steg-for-steg",
+    "3-trinn"
+   ],
+   "p1": "En liten sommerfugl sitter på en flik øverst på denne siden, en stiplet linje går tvers over under den, og resten av arket er én stor rute. Barnet ser på sommerfuglen så lenge det vil, bretter toppen av siden bakover langs den stiplede linja så forelegget er ute av syne, og tegner sommerfuglen etter hukommelsen. Når siden brettes opp igjen, ligger forelegg og tegning ved siden av hverandre. Dette er hukommelsessiden i serien tegn-steg-for-steg for 2. trinn, og den har ingen steg i det hele tatt.",
+   "p2": "Å tegne etter hukommelsen ber barnet studere et bilde med et formål, og det er en annen slags seing enn å tegne av. Spørsmålene kommer av seg selv mens forelegget ennå synes: hvor mange vinger, hvor begynner antennene, er kroppen lang eller kort? Et symmetrisk dyr er et rimelig første motiv, for den som husker den ene vingen, har den andre.",
+   "p3": "Skriv ut på vanlig papir og brett langs linja; det er ingenting å rette, og å sammenligne tegningen med forelegget etter oppbrettingen er hele gjennomgangen, gjerne med spørsmålet om hva som ble likt og hva som ble glemt. Grunnsiden i serien viser stegene i sin helhet for et barn som ennå ikke er klart til å tegne uten støtte. Barnet tegner dyret selv, her etter hukommelsen i stedet for etter steg; symmetritegning, bokstavsporing og kopier ruter har egne sider.",
+   "canonicalDeckSlug": "tegn-steg-for-steg-g2391",
+   "carousel": [
+    {
+     "label": "Hvordan tegne en katt steg for steg",
+     "href": "hvordan-tegne-en-katt-steg-for-steg"
+    },
+    {
+     "label": "Tegn en hund av enkle former",
+     "href": "tegn-en-hund-av-enkle-former"
+    },
+    {
+     "label": "Tegn oppå kaninen, og tegn den så selv",
+     "href": "tegn-oppa-kaninen-og-tegn-den-selv"
+    },
+    {
+     "label": "Tegn hesten ferdig",
+     "href": "tegn-hesten-ferdig"
+    }
+   ],
+   "title": "Tegn en sommerfugl etter hukommelsen – 2. trinn | til utskrift PDF gratis",
+   "metaDescription": "Tegn en sommerfugl etter hukommelsen: en liten sommerfugl på en flik, en stiplet brettelinje og en stor rute under. Se, brett bort, tegn. PDF for 2. trinn."
   }
  ]
 }

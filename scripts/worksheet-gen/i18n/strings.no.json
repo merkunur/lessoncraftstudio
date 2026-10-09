@@ -3037,7 +3037,7 @@
   },
   "K-398": {
     "title": "Finn feilene i fargebildet",
-    "instruction": "Sett ring rundt de 5 tingene i det nederste fargebildet som er annerledes, kryss av i en rute for hver, og se godt på fargene."
+    "instruction": "Se godt på fargene: sett ring rundt de 5 tingene som er annerledes i det nederste fargebildet, og kryss av i en rute for hver."
   },
   "G1-412": {
     "title": "Finn sju feil ved dammen",
@@ -3065,7 +3065,7 @@
   },
   "K-400": {
     "title": "Bildepar: finn feilen",
-    "instruction": "Hver rad viser det samme utsnittet to ganger; sett ring rundt det ene stedet som er annerledes i det høyre bildet, og kryss av i ruta på raden."
+    "instruction": "Hver rad viser det samme lille bildet to ganger; sett ring rundt det ene stedet som er annerledes i bildet til høyre, og kryss av i ruta på raden."
   },
   "G2-389": {
     "title": "Skriv hva som er annerledes",
@@ -3076,8 +3076,8 @@
     "instruction": "Tegn oppå de stiplede formene som allerede er på arket, tegn så omrisset av hunden rundt dem, og gjør hunden ferdig med stegene."
   },
   "K-402": {
-    "title": "Følg {L} med blyanten, og tegn den selv",
-    "instruction": "Følg den grå kaninen med blyanten din, og tegn så kaninen selv i den tomme ruta ved siden av."
+    "title": "Tegn oppå {N}, og tegn den så selv",
+    "instruction": "Tegn oppå den grå kaninen med blyanten, og tegn så kaninen selv i den tomme ruta ved siden av."
   },
   "K-403": {
     "title": "Tegn {N} ferdig",
@@ -3101,7 +3101,7 @@
   },
   "G1-419": {
     "title": "Steg for steg: tegn {L}",
-    "instruction": "Tegn det du ser i hvert steg, i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket under."
+    "instruction": "Tegn hvert steg i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket nederst."
   },
   "G2-390": {
     "title": "Tegn {L}, og skriv om den",

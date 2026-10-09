@@ -13,7 +13,7 @@ const ROWS = [
     { mode: 'three-big', count: 3, unit: 'beach-bucket-rich', layout: 'stack', floor: 'K', kinds: ['remove', 'add', 'swap', 'scale'], minArea: 1500, heroProb: 1.0, minSepPx: 27, ledger: { box: 64 } },
     S['three-big'].title, S['three-big'].instruction],
   ['k', 'K-398', 'find-the-differences-in-colour', BASE, 2,
-    { mode: 'colour', count: 5, unit: 'pond-frog-rich', layout: 'stack', floor: 'K', render: 'colour', needColour: true, minLumaDelta: 40, kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move', 'colour'], heroProb: 0.5, minSepPx: 27, ledger: { box: 56 } },
+    { mode: 'colour', count: 5, unit: 'pond-frog-rich', layout: 'stack', floor: 'K', render: 'colour', needColour: true, minLumaDelta: 40, kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move', 'colour'], heroProb: 0.4, minSepPx: 27, ledger: { box: 56 } },
     S.colour.title, S.colour.instruction],
   ['g1', 'G1-412', 'find-7-differences', BASE, 2,
     { mode: 'seven', count: 7, pairs: 2, perPair: [4, 3], units: ['pond-turtle-rich', 'pond-alligator-rich'], layout: 'columns', floor: 'G1', ppu: 0.5, panelW: 300, kinds: 'line-all', heroFront: 0.5, minSepPx: 27, excludeSrcs: true, ledger: { box: 48 } },

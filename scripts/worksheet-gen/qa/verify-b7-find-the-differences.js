@@ -84,6 +84,29 @@ async function main() {
     judge('P10 a candidate on the frame', f, /on the frame/);
     judge('P11 a standing bird in the sky', f, /standing bird sits in the sky/);
   }
+  // ---------------------------------------------------------------- the UNPAINTED-CELL rule (operator 2026-10-09: "the colorful find the
+  // differences images have unpainted spots"): on the colour face every small cell inside a drawing is painted; the only white a drawing
+  // keeps is an eye white (lib/fd-scene.js paintSmallCells). Assertion on the SHIPPED record of the colour face's pinned unit; poisons PR15
+  // (a record whose small cells are white) + PR16 (the engine rule switched off by its env flag, on a synthetic segmentation).
+  {
+    const F = require('../lib/fd-scene.js');
+    const unpainted = (rec) => { const f = []; for (const l of rec.items) { const regs = l.regions || []; const small = regs.filter((r) => r.r < 9); const sa = small.reduce((a, r) => a + r.area, 0); const wa = small.filter((r) => r.colour === 'none').reduce((a, r) => a + r.area, 0); if (sa && wa / sa > 0.05) f.push(`${rec.id}: ${l.src} has unpainted small cells (${Math.round(100 * wa / sa)} % of its small-cell area)`); } return f; };
+    const colourUnits = [].concat(B.UNITS.colour || []);
+    ok(colourUnits.length > 0, 'the colour face pins a unit');
+    for (const cu of colourUnits) { const u = unpainted(B.loadScene(cu)); ok(!u.length, 'unpainted cells on the colour face (' + cu + '): ' + u.join(' | ')); }
+    const bad = clone(B.loadScene(colourUnits[0])); for (const l of bad.items) for (const r of l.regions || []) if (r.r < 9) r.colour = 'none';
+    judge('PR15 a colour scene with white small cells', unpainted(bad), /unpainted small cells/);
+    const U = F.U, PW = 30, PH = 30, lab = new Uint16Array(PW * PH);
+    for (let y = 2; y < 28; y++) for (let x = 2; x < 16; x++) lab[y * PW + x] = 1;      // the big painted part
+    for (let y = 10; y < 14; y++) for (let x = 18; x < 22; x++) lab[y * PW + x] = 2;    // a small white cell beside it (ink between)
+    for (let y = 20; y < 26; y++) for (let x = 18; x < 24; x++) lab[y * PW + x] = 3;    // an eye white …
+    lab[23 * PW + 21] = 0;                                                               // … round its pupil
+    const regions = [{ label: 1, r: 12, area: 300, colour: 'green', bbox: [2 / U, 2 / U, 16 / U, 28 / U] }, { label: 2, r: 2, area: 16, colour: 'none', bbox: [18 / U, 10 / U, 22 / U, 14 / U] }, { label: 3, r: 2.5, area: 35, colour: 'none', bbox: [18 / U, 20 / U, 24 / U, 26 / U] }];
+    const painted = F.paintSmallCells(regions, { lab, PW });
+    ok(painted[1].colour === 'green' && painted[2].colour === 'none', `engine: the small cell takes its neighbour's colour (got ${painted[1].colour}) and the eye white stays white (got ${painted[2].colour})`);
+    process.env.FD_KEEP_WHITE_CELLS = '1'; const off = F.paintSmallCells(regions, { lab, PW }); delete process.env.FD_KEEP_WHITE_CELLS;
+    judge('PR16 the rule switched off', off[1].colour === 'none' ? ['the small cell stays unpainted with the rule off'] : [], /stays unpainted/);
+  }
 
   // ---------------------------------------------------------------- 2. the pooled census over the pins
   const CFG = { base: SPEC.difficulty[2] };

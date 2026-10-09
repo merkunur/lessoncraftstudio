@@ -31,6 +31,58 @@ const OPS = ['remove', 'mirror', 'move', 'scale', 'swap', 'add', 'detail', 'colo
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 
+/** true when region `r` surrounds an ink blob on all four sides (an eye white round its pupil) — the only white a drawing keeps */
+function enclosesInk(r, lab, PW, PH) {
+  const [bx0, by0, bx1, by1] = r.bbox.map((v) => Math.round(v * U));
+  for (let y = Math.max(0, by0); y <= Math.min(PH - 1, by1); y++) for (let x = Math.max(0, bx0); x <= Math.min(PW - 1, bx1); x++) {
+    if (lab[y * PW + x]) continue;   // not ink
+    let L = false, R = false, T = false, B = false;
+    for (let X = x - 1; X >= bx0 && !L; X--) if (lab[y * PW + X] === r.label) L = true;
+    for (let X = x + 1; X <= bx1 && X < PW && !R; X++) if (lab[y * PW + X] === r.label) R = true;
+    for (let Y = y - 1; Y >= by0 && !T; Y--) if (lab[Y * PW + x] === r.label) T = true;
+    for (let Y = y + 1; Y <= by1 && Y < PH && !B; Y++) if (lab[Y * PW + x] === r.label) B = true;
+    if (L && R && T && B) return true;
+  }
+  return false;
+}
+
+/**
+ * The UNPAINTED-CELL rule (operator, 2026-10-09: "the colorful find-the-differences images have unpainted spots"). The
+ * colours come from the reviewed Color-by-Number key, which numbers only the BIG parts; the drawing's small cells (a
+ * butterfly's wing cells, a hummingbird's feather stripes, a petal, a spot) carry no number and stay white there — on
+ * the colour face a white cell inside a painted drawing reads as unpainted. Every small white cell takes the colour of
+ * the painted part it borders (else the drawing's largest painted part); the only white a drawing keeps is an eye white
+ * (a cell that encloses its pupil, `enclosesInk`). Clouds (a single big part planned 'none') stay white by plan.
+ * `FD_KEEP_WHITE_CELLS=1` disables the rule — the family gate's poison, never a build setting.
+ */
+function paintSmallCells(regions, seg) {
+  if (process.env.FD_KEEP_WHITE_CELLS === '1') return regions;
+  const lab = seg.lab, PW = seg.PW, PH = lab.length / PW;
+  const painted = new Map(regions.filter((r) => r.colour && r.colour !== 'none').map((r) => [r.label, r.colour]));
+  if (!painted.size) return regions;
+  const big = regions.filter((r) => painted.has(r.label) && r.r >= MIN_PART_R).sort((a, b) => b.area - a.area);
+  const fallback = (big[0] || regions.filter((r) => painted.has(r.label)).sort((a, b) => b.area - a.area)[0]).colour;
+  return regions.map((r) => {
+    if (r.colour && r.colour !== 'none') return r;
+    if (r.r >= MIN_PART_R) return r;                 // a big part planned white stays white (a cloud)
+    if (enclosesInk(r, lab, PW, PH)) return r;         // an eye white round its pupil
+    const [bx0, by0, bx1, by1] = r.bbox.map((v) => Math.round(v * U));
+    const hits = new Map();
+    for (let y = Math.max(0, by0); y <= Math.min(PH - 1, by1); y++) for (let x = Math.max(0, bx0); x <= Math.min(PW - 1, bx1); x++) {
+      if (lab[y * PW + x] !== r.label) continue;
+      for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        for (let st = 2; st <= PROBE_PX; st += 2) {
+          const X = x + dx * st, Y = y + dy * st; if (X < 0 || Y < 0 || X >= PW || Y >= PH) break;
+          const b = lab[Y * PW + X];
+          if (b && b !== r.label) { if (painted.has(b)) hits.set(b, (hits.get(b) || 0) + 1); break; }
+        }
+      }
+    }
+    let best = null, bn = 0; for (const [k, v] of hits) if (v > bn) { bn = v; best = k; }
+    return { ...r, colour: best ? painted.get(best) : fallback };
+  });
+}
+
 /** regions of one segmentation that are NOT the paper, with colours by rank from `plan` (null plan = all white) */
 function colourRegions(seg, plan) {
   const regs = seg.regions.filter((r) => !r.outside);
@@ -42,7 +94,11 @@ function colourRegions(seg, plan) {
   const lab = seg.lab, PW = seg.PW, PH = lab.length / PW;
   for (const r of regs) {
     if (bigLabels.has(r.label)) continue;
-    if (r.r < TINY_R) { colourOf.set(r.label, 'none'); continue; }
+    // a tiny piece stays white ONLY when it is an eye white: a cell that ENCLOSES an ink blob (the pupil). Every other small
+    // cell — a wing cell, a feather stripe, a petal cell, a spot — takes the colour of the part it borders: on the textured
+    // library drawings those cells are most of the picture, and white cells read as UNPAINTED on the colour face
+    // (operator, 2026-10-09: 'the colorful find-the-differences images have unpainted spots'). Shines are painted over.
+    if (r.r < TINY_R && enclosesInk(r, lab, PW, PH)) { colourOf.set(r.label, 'none'); continue; }
     const [bx0, by0, bx1, by1] = r.bbox.map((v) => Math.round(v * U));
     const hits = new Map();
     for (let y = Math.max(0, by0); y <= Math.min(PH - 1, by1); y++) for (let x = Math.max(0, bx0); x <= Math.min(PW - 1, bx1); x++) {
@@ -58,7 +114,7 @@ function colourRegions(seg, plan) {
     let best = null, bn = 0; for (const [k, v] of hits) if (v > bn) { bn = v; best = k; }
     colourOf.set(r.label, best ? colourOf.get(best) : (plan && plan.length ? plan[0] : 'none'));
   }
-  return regs.map((r) => ({ d: r.d, area: Math.round(r.area), r: +r.r.toFixed(1), cx: +r.cx.toFixed(1), cy: +r.cy.toFixed(1), px: +r.px.toFixed(1), py: +r.py.toFixed(1), bbox: r.bbox.map((v) => +v.toFixed(1)), colour: colourOf.get(r.label) || 'none' }));
+  return regs.map((r) => ({ label: r.label, d: r.d, area: Math.round(r.area), r: +r.r.toFixed(1), cx: +r.cx.toFixed(1), cy: +r.cy.toFixed(1), px: +r.px.toFixed(1), py: +r.py.toFixed(1), bbox: r.bbox.map((v) => +v.toFixed(1)), colour: colourOf.get(r.label) || 'none' }));
 }
 
 function bboxOfRegions(regions) {
@@ -82,6 +138,7 @@ async function layerFor(item, spec, idx, planOverride, sampler) {
   const plan = planOverride !== undefined ? planOverride : (hero ? HERO[spec.id] : BG[item.src]) || null;
   let regions = colourRegions(seg, plan);
   if (sampler) regions = inheritColours(regions, sampler);
+  regions = paintSmallCells(regions, seg);
   const bb = inkBbox(ink, L.CW, L.CH);
   let inkPx = 0; for (let i = 0; i < ink.length; i++) inkPx += ink[i];
   // asymmetry of the SILHOUETTE: 1 − IoU(body, body mirrored about its own centre). A sun or a cloud mirrored reads as
@@ -173,6 +230,7 @@ async function detailVariant(layer, regionIdx, spec) {
   const plan = layer.hero ? HERO[spec.id] : BG[layer.src];
   let regions = colourRegions(seg2, plan || null);
   if (layer._cbn) regions = inheritColours(regions, layer._cbn);
+  regions = paintSmallCells(regions, seg2);
   return { ...layer, regions, ink: seg2.ink, bbox: inkBbox(out, PW, PH), _mask: out, _seg: seg2, variant: 'detail:' + regionIdx };
 }
 
@@ -314,4 +372,4 @@ function detailCandidates(layer, minR = 4, maxR = 22) {
   return out;
 }
 
-module.exports = { buildLayers, layerFor, backgroundFor, detailVariant, detailCandidates, applyOps, renderPanel, transformOf, newBbox, cbnSampler, OPS, W, H, PALETTE };
+module.exports = { buildLayers, layerFor, backgroundFor, detailVariant, detailCandidates, applyOps, renderPanel, transformOf, newBbox, cbnSampler, paintSmallCells, enclosesInk, OPS, W, H, PALETTE, U, PROBE_PX };

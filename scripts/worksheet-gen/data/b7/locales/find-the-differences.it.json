@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Trova e descrivi le differenze",
-      "instruction": "Cerchia le 3 differenze, poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
+      "instruction": "Cerchia le 3 differenze (qualcosa può mancare), poi scrivi una frase per ognuna sulle righe, usando le parole dei due riquadri."
     }
   },
   "tap": {
@@ -68,7 +68,8 @@
     "fd-tapMirror": "L'immagine in basso è come riflessa in uno specchio. Tocca ogni punto che è ancora diverso.",
     "fd-tapMissing": "Tocca ogni posto vuoto dell'immagine in basso dove manca qualcosa dell'immagine in alto.",
     "fd-tapPairs": "Ogni coppia mostra lo stesso particolare due volte. Tocca l'unica cosa diversa nella seconda immagine di ogni coppia.",
-    "fd-tapWords": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate."
+    "fd-tapWords": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate.",
+    "fd-tapPairs2": "Due coppie di immagini: in ogni coppia guarda l'immagine 1, poi tocca ogni punto dell'immagine 2 che è diverso."
   },
   "numberWords": {
     "3": "tre",

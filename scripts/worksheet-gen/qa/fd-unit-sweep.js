@@ -106,7 +106,7 @@ for (const mode of MODES) {
   if (ONLY) units = units.filter((u) => (Array.isArray(u) ? u.some((x) => ONLY.has(x)) : ONLY.has(u)));
   const rows = [];
   for (const u of units) {
-    if (mode === 'what-changed' || mode === 'write') { const v = vocab(); const keys = [...new Set(scenes[u].items.map((l) => B.vocabKeyOf(l.src)))]; if (keys.some((k) => !v[k] || !['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'].every((l) => v[k][l] && v[k][l][0]))) continue; if (keys.length > 6) continue; }
+    if (mode === 'what-changed' || mode === 'write') { const v = vocab(); const keys = [...new Set(scenes[u].items.map((l) => B.vocabKeyOf(l.src)))]; if (keys.some((k) => !v[k] || !['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'].every((l) => v[k][l] && v[k][l][0]))) continue; }   // (the > 6-noun skip is gone: the strip is capped at WORD_CAP, so a rich scene is a bank, not a list)
     const r = sweepUnit(mode, d, u, SEEDS);
     const j = judge(r, mode, SEEDS);
     rows.push({ ...r, ...j, name: Array.isArray(u) ? u.join('+') : u });

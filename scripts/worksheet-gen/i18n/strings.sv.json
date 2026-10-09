@@ -2996,5 +2996,93 @@
   "K-394": {
     "title": "Måla efter nummer: {UNIT}",
     "instruction": "Måla varje del med färgen som hör till dess nummer."
+  },
+  "K-395": {
+    "title": "Finn fem fel: {UNIT}",
+    "instruction": "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
+  },
+  "K-396": {
+    "title": "Hur man ritar {L} steg för steg",
+    "instruction": "Titta på de fyra numrerade stegen och rita katten i den stora rutan: först konturen, sedan de nya linjerna du ser i varje steg."
+  },
+  "K-397": {
+    "title": "Finn tre fel: {UNIT}",
+    "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
+  },
+  "K-398": {
+    "title": "Hitta felen i färgbilden",
+    "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
+  },
+  "G1-412": {
+    "title": "Finn sju fel vid dammen",
+    "instruction": "Ringa in de 7 felen, 4 i det vänstra bildparet och 3 i det högra, och kryssa i en ruta under paret för varje fel."
+  },
+  "G2-388": {
+    "title": "Finn tio fel i trädgården",
+    "instruction": "Ringa in de 10 felen, 5 i varje bildpar, och kryssa i en ruta under paret för varje fel du hittar."
+  },
+  "G1-413": {
+    "title": "Hur många fel hittar du?",
+    "instruction": "Ringa in varje fel i den nedre bilden (något kan också ha försvunnit) och skriv sedan i rutan hur många fel du hittade."
+  },
+  "G1-414": {
+    "title": "Vad har ändrats? Kryssa i orden",
+    "instruction": "Ringa in de 3 felen i den nedre bilden och kryssa sedan i orden för de saker som har ändrats."
+  },
+  "G1-415": {
+    "title": "Spegelvänd bild: hitta felen",
+    "instruction": "Bild 2 är spegelvänd; ringa in de 4 saker eller tomma ställen som ändå är annorlunda, kryssa i en ruta för varje och vik längs linjen för att kolla."
+  },
+  "K-399": {
+    "title": "Vad saknas i bilden?",
+    "instruction": "Ringa in de 3 tomma ställen i den nedre bilden där något från den övre bilden saknas, och kryssa i en ruta för varje."
+  },
+  "K-400": {
+    "title": "Bildpar: hitta felet",
+    "instruction": "Varje rad visar samma utsnitt två gånger; ringa in det enda ställe som är annorlunda i den högra bilden och kryssa i rutan på den raden."
+  },
+  "G2-389": {
+    "title": "Skriv vad som är annorlunda",
+    "instruction": "Ringa in de 3 felen (något kan saknas) och skriv sedan en mening om varje fel på raderna; använd orden i de två remsorna."
+  },
+  "K-401": {
+    "title": "Rita {L} av enkla former",
+    "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
+  },
+  "K-402": {
+    "title": "Fyll i {L}, rita sedan själv",
+    "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+  },
+  "K-403": {
+    "title": "Rita färdigt {N}",
+    "instruction": "Titta på hela hästen, rita de linjer som saknas på den andra hästen och rita sedan en egen häst i rutan under."
+  },
+  "G1-416": {
+    "title": "Rita {L} ruta för ruta",
+    "instruction": "Titta på dinosaurien i rutorna och rita av den ruta för ruta i de tomma rutorna, och sedan en gång till utan rutor."
+  },
+  "K-404": {
+    "title": "Rita {L} och skriv ordet",
+    "instruction": "Följ stegen och rita fisken i rutan, fyll sedan i ordet under och skriv det själv."
+  },
+  "G1-417": {
+    "title": "Rita {L} vid dammen",
+    "instruction": "Följ stegen och rita sedan grodan på den tomma dammen i bilden."
+  },
+  "G1-418": {
+    "title": "Ordna stegen: rita {L}",
+    "instruction": "Stegen har hamnat i fel ordning: skriv 1 till 5 i rutorna bredvid dem i rätt ordning och rita sedan ugglan."
+  },
+  "G1-419": {
+    "title": "Rita steg för steg: {L}",
+    "instruction": "Rita det du ser i varje steg i rutan under det, med de nya linjerna varje gång, och sedan hela fågeln, större, i den stora rutan."
+  },
+  "G2-390": {
+    "title": "Rita {L} och skriv om den",
+    "instruction": "Rita björnen med hjälp av stegen och skriv sedan tre meningar om din björn på raderna; börja med orden som redan står där."
+  },
+  "G2-391": {
+    "title": "Rita {L} ur minnet",
+    "instruction": "Titta på fjärilen, vik pappret bakåt längs den streckade linjen så att du inte ser den och rita den ur minnet i den stora rutan."
   }
 }

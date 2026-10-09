@@ -150,12 +150,12 @@ function htdFlap({ w = 639, h, inner }) {
   return `<div class="ws-lane" data-lcs-htd-flap style="box-sizing:border-box;width:${w + 36}px;height:${h}px;display:flex;align-items:center;justify-content:center">${inner}</div>`;
 }
 
-/** the fold: a dashed grid line across the page's inner width with two outward triangles */
+/** the fold: a plain dashed grid line across the page's inner width (the instruction says 'the dotted line'; arrowheads read as 'cut here') */
 function htdFold({ w = 675, h = 24 }) {
   const g = T.inkSoft;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" data-lcs-fold="1" style="display:block;flex:0 0 auto">` +
     `<line x1="16" y1="${h / 2}" x2="${w - 16}" y2="${h / 2}" stroke="${T.grid}" stroke-width="2.5" stroke-dasharray="8 6"/>` +
-    `<polygon points="2,${h / 2} 14,${h / 2 - 6} 14,${h / 2 + 6}" fill="${g}"/><polygon points="${w - 2},${h / 2} ${w - 14},${h / 2 - 6} ${w - 14},${h / 2 + 6}" fill="${g}"/></svg>`;
+    `</svg>`;
 }
 
 /** three school-ruled rows, each opening with a printed starter */

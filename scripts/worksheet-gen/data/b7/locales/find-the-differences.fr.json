@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Trouve et décris les différences",
-      "instruction": "Entoure les 3 différences, puis écris une phrase sur chacune sur les lignes, avec les mots des deux bandes."
+      "instruction": "Entoure les 3 différences (quelque chose peut manquer), puis écris une phrase sur chacune sur les lignes, avec les mots des deux bandes."
     }
   },
   "tap": {
@@ -68,7 +68,8 @@
     "fd-tapMirror": "L'image du bas est retournée comme dans un miroir. Touche chaque endroit qui est quand même différent.",
     "fd-tapMissing": "Touche chaque endroit vide de l'image du bas où il manque quelque chose de l'image du haut.",
     "fd-tapPairs": "Chaque paire montre le même gros plan deux fois. Touche le seul endroit qui est différent dans la deuxième image de chaque paire.",
-    "fd-tapWords": "Trouve ce qui a changé dans l'image du bas, puis touche les mots des choses qui ont changé."
+    "fd-tapWords": "Trouve ce qui a changé dans l'image du bas, puis touche les mots des choses qui ont changé.",
+    "fd-tapPairs2": "Deux paires d'images : dans chaque paire, regarde l'image 1, puis touche chaque endroit de l'image 2 qui est différent."
   },
   "numberWords": {
     "3": "trois",

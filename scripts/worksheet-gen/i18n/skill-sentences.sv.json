@@ -438,5 +438,13 @@
   "cursive-writing": {
     "full": "Skrivstil med sammanbundna bokstäver ingår inte i Lgr22, så den här sidtypen publiceras inte på svenska; eleverna skriver med gemena och versaler.",
     "short": "Skrivstil publiceras inte på svenska"
+  },
+  "find-the-differences": {
+    "full": "Finn fem fel för förskoleklass, åk 1 och åk 2: jämför två bilder, hitta och ringa in 3 till 10 fel, med facit och en version att trycka på direkt på skärmen.",
+    "short": "Jämför två bilder och hitta felen"
+  },
+  "how-to-draw": {
+    "full": "Rita steg för steg för förskoleklass, åk 1 och åk 2: bygg djur av enkla former, fyll i, rita färdigt, rita ruta för ruta eller rita ur minnet.",
+    "short": "Lär dig rita djur steg för steg"
   }
 }

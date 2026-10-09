@@ -81,7 +81,7 @@
   "strings": {
     "base": {
       "title": "Come disegnare {L} passo dopo passo",
-      "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee arancioni dei passaggi successivi."
+      "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee nuove di ogni passaggio."
     },
     "shapes": {
       "title": "Disegna {L} partendo da forme semplici",

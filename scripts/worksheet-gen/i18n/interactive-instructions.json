@@ -2365,7 +2365,9 @@
    "es": "Mira la imagen de arriba y luego toca cada lugar de la imagen de abajo que sea diferente.",
    "pt": "Olhe a figura de cima e depois toque em cada lugar da figura de baixo que está diferente.",
    "it": "Guarda l'immagine in alto, poi tocca ogni punto dell'immagine in basso che è diverso.",
-   "nl": "Kijk goed naar het bovenste plaatje en tik dan in het onderste plaatje op elke plek die anders is."
+   "nl": "Kijk goed naar het bovenste plaatje en tik dan in het onderste plaatje op elke plek die anders is.",
+   "sv": "Titta noga på bilden ovanför och tryck sedan på varje ställe i bilden under som är annorlunda.",
+   "da": "Kig godt på billedet ovenover, og tryk så på hvert sted i billedet nedenunder, der er anderledes."
   },
   "fd-tapCount": {
    "en": "Find every difference in the bottom picture (some things may be gone), then tap the number that says how many there are.",
@@ -2374,7 +2376,9 @@
    "es": "Encuentra todas las diferencias en la imagen de abajo y luego toca el número que dice cuántas hay.",
    "pt": "Encontre todas as diferenças na figura de baixo e depois toque no número que mostra quantas são.",
    "it": "Trova tutte le differenze nell'immagine in basso, poi tocca il numero che dice quante sono.",
-   "nl": "Zoek elk verschil in het onderste plaatje en tik dan op het getal dat zegt hoeveel verschillen er zijn."
+   "nl": "Zoek elk verschil in het onderste plaatje en tik dan op het getal dat zegt hoeveel verschillen er zijn.",
+   "sv": "Hitta varje fel i den nedre bilden (något kan också ha försvunnit) och tryck sedan på siffran som visar hur många fel det finns.",
+   "da": "Find hver fejl i det nederste billede (noget kan også være væk), og tryk så på det tal, der viser, hvor mange fejl der er."
   },
   "fd-tapMirror": {
    "en": "The bottom picture is flipped like a mirror. Tap every place in it that is still different.",
@@ -2383,7 +2387,9 @@
    "es": "La imagen de abajo está volteada como en un espejo. Toca cada lugar que aún sea diferente.",
    "pt": "A figura de baixo está virada como no espelho. Toque em cada lugar que ainda está diferente.",
    "it": "L'immagine in basso è come riflessa in uno specchio. Tocca ogni punto che è ancora diverso.",
-   "nl": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is."
+   "nl": "Het onderste plaatje is gespiegeld. Tik op elke plek die toch anders is.",
+   "sv": "Den nedre bilden är spegelvänd. Tryck på varje ställe i den som ändå är annorlunda.",
+   "da": "Det nederste billede er spejlvendt. Tryk på hvert sted i det, der stadig er anderledes."
   },
   "fd-tapMissing": {
    "en": "Tap every empty place in the bottom picture where something from the top picture is missing.",
@@ -2392,7 +2398,9 @@
    "es": "Toca cada lugar vacío de la imagen de abajo donde falta algo de la imagen de arriba.",
    "pt": "Toque em cada lugar vazio da figura de baixo onde falta algo que está na figura de cima.",
    "it": "Tocca ogni posto vuoto dell'immagine in basso dove manca qualcosa dell'immagine in alto.",
-   "nl": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is."
+   "nl": "Tik in het onderste plaatje op elke lege plek waar iets uit het bovenste plaatje weg is.",
+   "sv": "Tryck på varje tomt ställe i den nedre bilden där något från den övre bilden saknas.",
+   "da": "Tryk på hvert tomt sted i det nederste billede, hvor noget fra det øverste billede mangler."
   },
   "fd-tapPairs": {
    "en": "Each pair shows the same close-up twice. Tap the one place that is different in the second picture of every pair.",
@@ -2401,7 +2409,9 @@
    "es": "Cada par muestra el mismo pedacito dos veces. Toca lo que cambió en la segunda imagen de cada par.",
    "pt": "Cada par mostra o mesmo pedaço da figura duas vezes. Toque no que está diferente na segunda figura de cada par.",
    "it": "Ogni coppia mostra lo stesso particolare due volte. Tocca l'unica cosa diversa nella seconda immagine di ogni coppia.",
-   "nl": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is."
+   "nl": "Elk paar laat twee keer hetzelfde stukje zien. Tik in het tweede plaatje van elk paar op de ene plek die anders is.",
+   "sv": "Varje par visar samma utsnitt två gånger. Tryck på det enda ställe som är annorlunda i den andra bilden i varje par.",
+   "da": "Hvert par viser det samme udsnit to gange. Tryk på det ene sted, der er anderledes i det andet billede i hvert par."
   },
   "fd-tapWords": {
    "en": "Find what changed in the bottom picture, then tap the words of the things that changed.",
@@ -2410,7 +2420,20 @@
    "es": "Encuentra qué cambió en la imagen de abajo y luego toca las palabras de las cosas que cambiaron.",
    "pt": "Descubra o que mudou na figura de baixo e depois toque nas palavras das coisas que mudaram.",
    "it": "Trova che cosa è cambiato nell'immagine in basso, poi tocca le parole delle cose che sono cambiate.",
-   "nl": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn."
+   "nl": "Zoek wat er in het onderste plaatje veranderd is en tik dan op de woorden van de dingen die veranderd zijn.",
+   "sv": "Hitta vad som har ändrats i den nedre bilden och tryck sedan på orden för de saker som har ändrats.",
+   "da": "Find det, der er ændret i det nederste billede, og tryk så på ordene for de ting, der er ændret."
+  },
+  "fd-tapPairs2": {
+   "en": "Two pairs of pictures: in each pair, look at picture 1, then tap every place in picture 2 that is different.",
+   "de": "Zwei Bildpaare: Schau dir in jedem Paar Bild 1 genau an und tippe dann in Bild 2 auf jede Stelle, die anders ist.",
+   "fr": "Deux paires d'images : dans chaque paire, regarde l'image 1, puis touche chaque endroit de l'image 2 qui est différent.",
+   "es": "Dos pares de imágenes: en cada par, mira la imagen 1 y luego toca cada lugar de la imagen 2 que sea diferente.",
+   "pt": "Dois pares de figuras: em cada par, olhe a figura 1 e depois toque em cada lugar da figura 2 que está diferente.",
+   "it": "Due coppie di immagini: in ogni coppia guarda l'immagine 1, poi tocca ogni punto dell'immagine 2 che è diverso.",
+   "nl": "Twee paren plaatjes: kijk in elk paar naar plaatje 1 en tik dan in plaatje 2 op elke plek die anders is.",
+   "sv": "Två bildpar: titta på bild 1 i varje par och tryck sedan på varje ställe i bild 2 som är annorlunda.",
+   "da": "To billedpar: kig på billede 1 i hvert par, og tryk så på hvert sted i billede 2, der er anderledes."
   }
  }
 }

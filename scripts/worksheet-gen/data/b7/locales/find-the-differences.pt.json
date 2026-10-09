@@ -59,7 +59,7 @@
     },
     "write": {
       "title": "Encontre e escreva as diferenças",
-      "instruction": "Circule as 3 diferenças e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
+      "instruction": "Circule as 3 diferenças (algo pode estar faltando) e depois escreva uma frase sobre cada uma nas linhas, usando as palavras das duas faixas."
     }
   },
   "tap": {
@@ -68,7 +68,8 @@
     "fd-tapMirror": "A figura de baixo está virada como no espelho. Toque em cada lugar que ainda está diferente.",
     "fd-tapMissing": "Toque em cada lugar vazio da figura de baixo onde falta algo que está na figura de cima.",
     "fd-tapPairs": "Cada par mostra o mesmo pedaço da figura duas vezes. Toque no que está diferente na segunda figura de cada par.",
-    "fd-tapWords": "Descubra o que mudou na figura de baixo e depois toque nas palavras das coisas que mudaram."
+    "fd-tapWords": "Descubra o que mudou na figura de baixo e depois toque nas palavras das coisas que mudaram.",
+    "fd-tapPairs2": "Dois pares de figuras: em cada par, olhe a figura 1 e depois toque em cada lugar da figura 2 que está diferente."
   },
   "numberWords": {
     "3": "três",

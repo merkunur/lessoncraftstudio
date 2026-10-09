@@ -3013,5 +3013,93 @@
   "K-394": {
     "title": "Mal efter tal: {UNIT}",
     "instruction": "Farvelæg hver del med farven, der hører til dens tal."
+  },
+  "K-395": {
+    "title": "Find fem fejl: {UNIT}",
+    "instruction": "Sammenlign billede 1 med billede 2 nedenunder, sæt en ring om de 5 ting, der er anderledes, og sæt kryds i en boks for hver fejl."
+  },
+  "K-396": {
+    "title": "Tegn {L} trin for trin",
+    "instruction": "Kig på de fire nummererede trin, og tegn katten på det store papir: først omridset og så de nye streger, du ser i hvert trin."
+  },
+  "K-397": {
+    "title": "Find tre fejl: {UNIT}",
+    "instruction": "Find de 3 store fejl i det nederste billede, sæt en ring om dem, og sæt kryds i de 3 bokse."
+  },
+  "K-398": {
+    "title": "Find fejlene i farvebilledet",
+    "instruction": "Sæt en ring om de 5 ting i det nederste farvebillede, der er anderledes, sæt kryds i en boks for hver, og kig godt på farverne."
+  },
+  "G1-412": {
+    "title": "Find syv fejl ved dammen",
+    "instruction": "Sæt en ring om de 7 fejl, 4 i det venstre billedpar og 3 i det højre, og sæt kryds i en boks under parret for hver fejl."
+  },
+  "G2-388": {
+    "title": "Find ti fejl i haven: svær",
+    "instruction": "Sæt en ring om de 10 fejl, 5 i hvert billedpar, og sæt kryds i en boks under parret for hver fejl, du finder."
+  },
+  "G1-413": {
+    "title": "Hvor mange fejl kan du finde?",
+    "instruction": "Sæt en ring om hver fejl i det nederste billede (noget kan også være væk), og skriv i boksen, hvor mange fejl du fandt."
+  },
+  "G1-414": {
+    "title": "Hvad er ændret? Sæt kryds ved ordene",
+    "instruction": "Sæt en ring om de 3 fejl i det nederste billede, og sæt så kryds ved ordene for de ting, der er ændret."
+  },
+  "G1-415": {
+    "title": "Spejlvendt billede: find fejlene",
+    "instruction": "Billede 2 er spejlvendt: sæt ring om de 4 ting eller tomme steder, der stadig er anderledes, sæt kryds for hver, og fold langs linjen for at tjekke."
+  },
+  "K-399": {
+    "title": "Hvad mangler i billedet?",
+    "instruction": "Sæt en ring om de 3 tomme steder i det nederste billede, hvor noget fra det øverste billede mangler, og sæt kryds i en boks for hver."
+  },
+  "K-400": {
+    "title": "Billedpar: find fejlen",
+    "instruction": "Hver række viser det samme udsnit to gange; sæt en ring om det ene sted, der er anderledes i det højre billede, og sæt kryds i boksen på rækken."
+  },
+  "G2-389": {
+    "title": "Skriv, hvad der er anderledes",
+    "instruction": "Sæt en ring om de 3 fejl (noget kan mangle), og skriv så en sætning om hver fejl på linjerne; brug ordene i de to strimler."
+  },
+  "K-401": {
+    "title": "Tegn {L} ud fra enkle former",
+    "instruction": "Tegn oven på de stiplede former, der allerede er på papiret, tegn så hundens omrids rundt om dem, og gør hunden færdig med trinnene."
+  },
+  "K-402": {
+    "title": "Følg {L} med blyanten, og tegn den selv",
+    "instruction": "Følg den grå kanin med din blyant, og tegn så kaninen selv i den tomme boks ved siden af."
+  },
+  "K-403": {
+    "title": "Tegn {N} færdig",
+    "instruction": "Kig på hele hesten, tegn de streger, der mangler på den anden hest, og tegn så din egen hest i boksen nedenunder."
+  },
+  "G1-416": {
+    "title": "Tegn {L} med gitter",
+    "instruction": "Kig på dinosauren i gitteret, tegn den felt for felt i det tomme gitter, og tegn den så en gang til uden gitter."
+  },
+  "K-404": {
+    "title": "Tegn {L}, og skriv ordet",
+    "instruction": "Følg trinnene, og tegn fisken i boksen; skriv så oven på ordet nedenunder, og skriv det selv."
+  },
+  "G1-417": {
+    "title": "Tegn {L} ved dammen",
+    "instruction": "Følg trinnene, og tegn så frøen på den tomme dam i billedet."
+  },
+  "G1-418": {
+    "title": "Sæt trinnene i rækkefølge: tegn {L}",
+    "instruction": "Trinnene er blandet: skriv 1 til 5 i boksene ved siden af dem i den rigtige rækkefølge, og tegn så uglen."
+  },
+  "G1-419": {
+    "title": "Trin for trin: tegn {L}",
+    "instruction": "Tegn det, du ser i hvert trin, i boksen under det, med de nye streger hver gang, og tegn så hele fuglen større på papiret nedenunder."
+  },
+  "G2-390": {
+    "title": "Tegn {L}, og skriv om den",
+    "instruction": "Tegn bjørnen med trinnene, og skriv så tre sætninger om din bjørn på linjerne; begynd med de ord, der allerede står der."
+  },
+  "G2-391": {
+    "title": "Tegn {L} efter hukommelsen",
+    "instruction": "Kig på sommerfuglen, fold papiret bagud langs den stiplede linje, så du ikke kan se den, og tegn den efter hukommelsen på det store papir."
   }
 }

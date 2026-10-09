@@ -4764,7 +4764,9 @@
           "es": "busca-las-diferencias",
           "pt": "jogo-das-diferencas",
           "it": "gioco-delle-differenze",
-          "nl": "verschillen-zoeken"
+          "nl": "verschillen-zoeken",
+          "sv": "finn-fem-fel",
+          "da": "find-fem-fejl"
         },
         "name": {
           "en": "Find the Differences",
@@ -4773,7 +4775,9 @@
           "es": "Busca las diferencias",
           "pt": "Jogo das diferenças",
           "it": "Gioco delle differenze",
-          "nl": "Verschillen zoeken"
+          "nl": "Verschillen zoeken",
+          "sv": "Finn fem fel",
+          "da": "Find fem fejl"
         }
       },
       "how-to-draw": {
@@ -4784,7 +4788,9 @@
           "es": "como-dibujar",
           "pt": "como-desenhar",
           "it": "disegno-guidato",
-          "nl": "leren-tekenen"
+          "nl": "leren-tekenen",
+          "sv": "rita-steg-for-steg",
+          "da": "tegn-trin-for-trin"
         },
         "name": {
           "en": "How to Draw",
@@ -4793,7 +4799,9 @@
           "es": "Cómo dibujar",
           "pt": "Como desenhar",
           "it": "Disegno guidato",
-          "nl": "Leren tekenen"
+          "nl": "Leren tekenen",
+          "sv": "Rita steg för steg",
+          "da": "Tegn trin for trin"
         }
       }
     },

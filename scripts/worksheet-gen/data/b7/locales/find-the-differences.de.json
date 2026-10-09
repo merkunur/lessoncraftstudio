@@ -58,7 +58,7 @@
     },
     "write": {
       "title": "Unterschiede finden und beschreiben",
-      "instruction": "Kreise die 3 Unterschiede ein und schreibe dann zu jedem einen Satz auf die Zeilen; nimm dafür die Wörter aus den beiden Streifen."
+      "instruction": "Kreise die 3 Unterschiede ein (etwas kann fehlen) und schreibe zu jedem einen Satz auf die Zeilen; nimm die Wörter aus den beiden Streifen."
     }
   },
   "tap": {
@@ -67,7 +67,8 @@
     "fd-tapMirror": "Das untere Bild ist spiegelverkehrt. Tippe auf jede Stelle darin, die trotzdem anders ist.",
     "fd-tapMissing": "Tippe im unteren Bild auf jede leere Stelle, an der etwas aus dem oberen Bild fehlt.",
     "fd-tapPairs": "Jedes Paar zeigt denselben Bildausschnitt zweimal. Tippe im zweiten Bild jedes Paares auf die eine Stelle, die anders ist.",
-    "fd-tapWords": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben."
+    "fd-tapWords": "Finde, was sich im unteren Bild verändert hat, und tippe dann auf die Wörter der Dinge, die sich verändert haben.",
+    "fd-tapPairs2": "Zwei Bildpaare: Schau dir in jedem Paar Bild 1 genau an und tippe dann in Bild 2 auf jede Stelle, die anders ist."
   },
   "numberWords": {
     "3": "drei",

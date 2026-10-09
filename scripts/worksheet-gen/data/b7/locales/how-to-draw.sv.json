@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "en katt",
+      "stem": "katt",
+      "n": "katten"
+    },
+    "animals-bw-2-dog": {
+      "t": "en hund",
+      "stem": "hund",
+      "n": "hunden"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "en kanin",
+      "stem": "kanin",
+      "n": "kaninen"
+    },
+    "farm-animals-bw-pony": {
+      "t": "en häst",
+      "stem": "häst",
+      "n": "hästen"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "en dinosaurie",
+      "stem": "dinosaurie",
+      "n": "dinosaurien"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "en fisk",
+      "stem": "fisk",
+      "n": "fisken"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "en groda",
+      "stem": "groda",
+      "n": "grodan"
+    },
+    "animals-bw-5-owl": {
+      "t": "en uggla",
+      "stem": "uggla",
+      "n": "ugglan"
+    },
+    "birds-bw-hummingbird": {
+      "t": "en fågel",
+      "stem": "fågel",
+      "n": "fågeln"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "en björn",
+      "stem": "björn",
+      "n": "björnen"
+    },
+    "easter-bw-butterfly": {
+      "t": "en fjäril",
+      "stem": "fjäril",
+      "n": "fjärilen"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "katt",
+    "animals-bw-2-dog": "hund",
+    "animals-bw-4-rabbit-2": "kanin",
+    "farm-animals-bw-pony": "häst",
+    "animals-bw-3-dinosaur": "dinosaurie",
+    "animals-bw-3-fish-2": "fisk",
+    "animals-bw-3-frog-2": "groda",
+    "animals-bw-5-owl": "uggla",
+    "birds-bw-hummingbird": "fågel",
+    "zoo-animals-bw-bear-2": "björn",
+    "easter-bw-butterfly": "fjäril"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Min björn är",
+      "Den kan",
+      "Den tycker om"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Hur man ritar {L} steg för steg",
+      "instruction": "Titta på de fyra numrerade stegen och rita katten i den stora rutan: först konturen, sedan de nya linjerna du ser i varje steg."
+    },
+    "shapes": {
+      "title": "Rita {L} av enkla former",
+      "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
+    },
+    "trace": {
+      "title": "Fyll i {L}, rita sedan själv",
+      "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+    },
+    "finish": {
+      "title": "Rita färdigt {N}",
+      "instruction": "Titta på hela hästen, rita de linjer som saknas på den andra hästen och rita sedan en egen häst i rutan under."
+    },
+    "grid": {
+      "title": "Rita {L} ruta för ruta",
+      "instruction": "Titta på dinosaurien i rutorna och rita av den ruta för ruta i de tomma rutorna, och sedan en gång till utan rutor."
+    },
+    "word": {
+      "title": "Rita {L} och skriv ordet",
+      "instruction": "Följ stegen och rita fisken i rutan, fyll sedan i ordet under och skriv det själv."
+    },
+    "scene": {
+      "title": "Rita {L} vid dammen",
+      "instruction": "Följ stegen och rita sedan grodan på den tomma dammen i bilden."
+    },
+    "order": {
+      "title": "Ordna stegen: rita {L}",
+      "instruction": "Stegen har hamnat i fel ordning: skriv 1 till 5 i rutorna bredvid dem i rätt ordning och rita sedan ugglan."
+    },
+    "copy-steps": {
+      "title": "Rita steg för steg: {L}",
+      "instruction": "Rita det du ser i varje steg i rutan under det, med de nya linjerna varje gång, och sedan hela fågeln, större, i den stora rutan."
+    },
+    "write": {
+      "title": "Rita {L} och skriv om den",
+      "instruction": "Rita björnen med hjälp av stegen och skriv sedan tre meningar om din björn på raderna; börja med orden som redan står där."
+    },
+    "memory": {
+      "title": "Rita {L} ur minnet",
+      "instruction": "Titta på fjärilen, vik pappret bakåt längs den streckade linjen så att du inte ser den och rita den ur minnet i den stora rutan.",
+      "foldWord": "vik"
+    }
+  }
+}

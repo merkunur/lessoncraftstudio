@@ -1,5 +1,5 @@
 {
-  "starter": "På bild 2",
+  "starter": "Bild 2:",
   "changeWords": [
     "saknas",
     "har kommit till",
@@ -26,7 +26,7 @@
       "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
     },
     "colour": {
-      "title": "Hitta felen i färgbilden",
+      "title": "Finn felen i färgbilden",
       "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
     },
     "seven": {

@@ -88,7 +88,7 @@
       "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
     },
     "trace": {
-      "title": "Fyll i {L}, rita sedan själv",
+      "title": "Rita över {L}, rita sedan själv",
       "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
     },
     "finish": {

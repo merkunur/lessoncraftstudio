@@ -28,7 +28,7 @@ const f = [];
 if (!files.length) { console.error(`no ZIPs in ${dir}`); process.exit(1); }
 // the PINNED unit per face (tools/b7var-rows + the base d2 units): a ZIP generated before a pin changed carries the OLD scene
 // in its filename suffix (-u<unit>) — es/pt/nl pools shipped the ostrich word scene after the farm pin (2026-10-09)
-const PINS = (() => { const m = {}; try { for (const fam of ['find-the-differences', 'how-to-draw']) { const rows = require(path.join(ROOT, 'tools', 'b7var-rows', fam + '.js')); const R = rows.ROWS || rows.rows || rows; for (const r of (Array.isArray(R) ? R : [])) { const [, id, , , , ov] = r; const u = ov && ov.unit; if (id && u) m[id.toLowerCase().replace(/-/g, '')] = String(u).replace(/[^a-z0-9]/gi, '').toLowerCase(); } } } catch (e) { console.warn('[check-b7-zips] pins unreadable: ' + e.message); } return m; })();
+const PINS = (() => { const m = {}; try { for (const fam of ['find-the-differences', 'how-to-draw']) { const rows = require(path.join(ROOT, 'tools', 'b7var-rows', fam + '.js')); const R = rows.ROWS || rows.rows || rows; for (const r of (Array.isArray(R) ? R : [])) { const [, id, , , , ov] = r; const u = ov && (ov.unit || (Array.isArray(ov.units) ? ov.units.join('') : null)); if (id && u) m[id.toLowerCase().replace(/-/g, '')] = String(u).replace(/[^a-z0-9]/gi, '').toLowerCase(); } } } catch (e) { console.warn('[check-b7-zips] pins unreadable: ' + e.message); } return m; })();
 const thumbs = new Map();
 const perType = {};
 // the SEO description lives in deck.html's <meta name="description"> (the emitter bands it there), not in the manifest

@@ -26,7 +26,7 @@ const ROWS = [
     { mode: 'word', unit: 'animals-bw-3-fish-2', steps: 'all', orient: 'ladder', rail: 'left', cardPx: 150, paper: { w: 449 }, lane: { reps: 2, emptyLast: true, stack: true, glyphH: 40, h: 60 } },
     S.word.title, S.word.instruction],
   ['g1', 'G1-417', 'draw-it-in-the-scene', BASE, 2,
-    { mode: 'scene', unit: 'animals-bw-3-frog-2', scene: 'frog', heroItem: 3, steps: 'all', orient: 'strip', cardPx: 118, sceneW: 540, heroRing: false },
+    { mode: 'scene', unit: 'animals-bw-3-frog-2', scene: 'frog', heroItem: 3, steps: 'all', orient: 'strip', cardPx: 118, sceneW: 639, heroRing: false },
     S.scene.title, S.scene.instruction, { gradeBand: 'G1' }],
   ['g1', 'G1-418', 'order-the-drawing-steps', BASE, 2,
     { mode: 'order', unit: 'animals-bw-5-owl', steps: 5, orient: 'ladder', rail: 'left', cardPx: 118, answer: 'numeral', scramble: 'SCRAMBLE5', badges: false, beside: 'numeral' },

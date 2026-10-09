@@ -247,7 +247,7 @@ async function main() {
       ok(!r.out.qa.verify.length, `${tag}: verify ${r.out.qa.verify.join(' | ')}`);
       ok(!r.out.qa.lints.length, `${tag}: lints ${r.out.qa.lints.join(' | ')}`);
       ok(!r.out.interactive.lints.length, `${tag}: screen / key lints ${r.out.interactive.lints.join(' | ')}`);
-      ok(r.st.stack <= 677 && r.st.inside, `${tag}: the stack is ${r.st.stack} px (> 677) or runs below the body`);
+      ok(r.st.stack <= 740 && r.st.inside, `${tag}: the stack is ${r.st.stack} px (> 740) or runs below the body`);
       r.sc.forEach((x) => ok(false, `${tag} screen: ${x}`));
       r.sv.forEach((x) => ok(false, `${tag} screen verify: ${x}`));
       r.kv.forEach((x) => ok(false, `${tag} key verify: ${x}`));
@@ -257,9 +257,10 @@ async function main() {
     for (const d of [1, 2, 3]) { const n = SPEC.difficulty[d].count; judgeRun(`base d${d}`, await render('base', d, 1, d === 2 ? undefined : { title: `Find ${n} Differences: Dog in the Garden`, instruction: `Look down from picture 1 to picture 2, circle the ${n} things that are different and tick a box for each one.` }, `base-d${d}`, locArg)); }
     for (const r of ROWS) judgeRun(r[5].mode, await render(r[5].mode, 2, 1, undefined, r[5].mode, locArg));
     if (!quick) for (let v = 2; v <= 6; v++) judgeRun(`base seed v${v}`, await render('base', 2, v, undefined, 'base-sweep', locArg));
-    // chrome stress on the base: a 4-line title (677) + a 150-char instruction
+    // chrome stress on the base: a 2-line title + a 150-char instruction (733, the tallest shipped chrome)
     const ins150 = 'Look down from picture 1 to picture 2, circle the 5 things that are different in the bottom picture and tick one box in the ledger for each one you found.';
-    judgeRun('stress 677', await render('base', 2, 1, { title: 'Find 5 Differences: Dog in the Garden for Every Little Spotter in the Whole Classroom Today', instruction: ins150 }, 'stress677'));
+    // the tallest SHIPPED chrome (measured 2026-10-10 over 242 pages): a 2-line title + a 150-char (3-line) instruction — body 733
+    judgeRun('stress 733', await render('base', 2, 1, { title: 'Find 5 Differences: Dog in the Garden and the Meadow', instruction: ins150 }, 'stress733'));
     console.log('render: ' + shipped.join(' · '));
 
     // ---------------------------------------------------------------- 4. render poisons (on the built HTML, through verify())

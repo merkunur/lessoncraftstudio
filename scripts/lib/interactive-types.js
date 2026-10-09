@@ -41,6 +41,13 @@ function interactiveTypes() {
   if (keys.length < 10) {
     throw new Error('interactive-types: parsed only ' + keys.length + ' keys — the parser is broken, not the data');
   }
+  // the uniformly interactive PRINTABLE families (nt2-G, 2026-10-09): a second, optional literal; absent = none
+  const fam = src.indexOf('INTERACTIVE_PRINTABLE_FAMILIES');
+  if (fam !== -1) {
+    const fs0 = src.indexOf('new Set([', fam), fe = src.indexOf(']', fs0);
+    if (fs0 === -1 || fe === -1) throw new Error('interactive-types: could not parse the INTERACTIVE_PRINTABLE_FAMILIES Set literal');
+    for (const m of src.slice(fs0, fe).matchAll(/'([^']+)'/g)) keys.push(m[1]);
+  }
   _set = new Set(keys);
   return _set;
 }

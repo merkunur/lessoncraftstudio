@@ -1,0 +1,671 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-10-09T14:01:06.822Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "busca las diferencias",
+    "encuentra las diferencias",
+    "juego de las diferencias",
+    "encuentra los 7 errores"
+   ],
+   "requests": 28,
+   "productiveSeeds": 13,
+   "unique": 61,
+   "suggestions": [
+    "busca las 10 diferencias para imprimir",
+    "busca las 5 diferencias para imprimir",
+    "busca las 7 diferencias para imprimir",
+    "busca las diferencias",
+    "busca las diferencias dificiles para imprimir",
+    "busca las diferencias niños",
+    "busca las diferencias online",
+    "busca las diferencias para adolescentes",
+    "busca las diferencias para adultos",
+    "busca las diferencias para imprimir",
+    "busca las diferencias para imprimir adultos",
+    "busca las diferencias para niños",
+    "busca las diferencias para niños de 5 años",
+    "busca las diferencias para niños imprimir",
+    "busca las diferencias para niños pdf",
+    "busca las diferencias pdf",
+    "busca las diferencias primaria",
+    "encuentra las 10 diferencias para imprimir",
+    "encuentra las diferencias",
+    "encuentra las diferencias 4 primaria",
+    "encuentra las diferencias dificil",
+    "encuentra las diferencias fichas",
+    "encuentra las diferencias juegos",
+    "encuentra las diferencias meme",
+    "encuentra las diferencias para adultos",
+    "encuentra las diferencias para imprimir",
+    "encuentra las diferencias para imprimir a color pdf",
+    "encuentra las diferencias para imprimir adultos",
+    "encuentra las diferencias para imprimir adultos pdf",
+    "encuentra las diferencias para imprimir blanco y negro",
+    "encuentra las diferencias para imprimir dificil",
+    "encuentra las diferencias para imprimir niños",
+    "encuentra las diferencias para imprimir niños pdf",
+    "encuentra las diferencias para imprimir pdf",
+    "encuentra las diferencias para niños",
+    "encuentra las diferencias para niños de preescolar",
+    "encuentra las diferencias para niños de primaria",
+    "encuentra las diferencias para niños pdf",
+    "encuentra las diferencias pdf",
+    "encuentra las diferencias preescolar",
+    "encuentra las diferencias primaria",
+    "encuentra las diferencias primer grado",
+    "encuentra las diferencias primero de primaria",
+    "encuentra los 7 errores",
+    "ficha busca las diferencias",
+    "fichas encuentra las diferencias adultos",
+    "fichas encuentra las diferencias para niños",
+    "fichas encuentra las diferencias pdf",
+    "imprimir fichas encuentra las diferencias para niños",
+    "juego de diferencias para adultos para imprimir",
+    "juego de las 7 diferencias para imprimir",
+    "juego de las diferencias",
+    "juego de las diferencias gratis",
+    "juego de las diferencias la nacion",
+    "juego de las diferencias online",
+    "juego de las diferencias online gratis",
+    "juego de las diferencias para adultos",
+    "juego de las diferencias para imprimir",
+    "juego de las diferencias para niños",
+    "juego de las diferencias para niños imprimir",
+    "juego de las diferencias para niños online"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "cómo dibujar",
+    "como dibujar paso a paso",
+    "aprender a dibujar",
+    "dibujos paso a paso para niños",
+    "dibujos fáciles"
+   ],
+   "requests": 35,
+   "productiveSeeds": 23,
+   "unique": 159,
+   "suggestions": [
+    "aprender a dibujar",
+    "aprender a dibujar anime",
+    "aprender a dibujar con el lado derecho del cerebro",
+    "aprender a dibujar con el lado derecho del cerebro de betty edwards",
+    "aprender a dibujar desde cero",
+    "aprender a dibujar desde cero pdf",
+    "aprender a dibujar niños",
+    "aprender a dibujar online gratis",
+    "aprender a dibujar para niños",
+    "aprender a dibujar pdf",
+    "aprender a dibujar preescolar",
+    "aprender a dibujar primaria",
+    "como aprender a dibujar para niños de primaria",
+    "como dibujar fichas de domino",
+    "como dibujar fichas de rompecabezas",
+    "como dibujar letra a para imprimir",
+    "como dibujar para imprimir",
+    "como dibujar para imprimir en 3d",
+    "como dibujar paso a paso animales",
+    "como dibujar paso a paso animales para niños",
+    "como dibujar paso a paso anime",
+    "como dibujar paso a paso facil",
+    "como dibujar paso a paso para niños",
+    "como dibujar paso a paso una persona",
+    "como dibujar preescolar",
+    "como dibujar primer grado",
+    "como dibujar un gato preescolar",
+    "como dibujar un niño preescolar",
+    "como dibujar un perro preescolar",
+    "como dibujar una escuela preescolar",
+    "como dibujar una escuela primaria",
+    "como dibujar una escuela primaria facil para niños",
+    "cómo dibujar",
+    "cómo dibujar a stitch",
+    "cómo dibujar a stitch para imprimir",
+    "cómo dibujar actividades económicas primarias",
+    "cómo dibujar actividades primarias",
+    "cómo dibujar carátulas para primaria",
+    "cómo dibujar carátulas para primer grado",
+    "cómo dibujar educación primaria",
+    "cómo dibujar fichas",
+    "cómo dibujar fichas de ajedrez",
+    "cómo dibujar fuentes primarias",
+    "cómo dibujar las fichas del mundial",
+    "cómo dibujar muñecas para imprimir",
+    "cómo dibujar para primaria",
+    "cómo dibujar paso a paso",
+    "cómo dibujar paso a paso un caballo",
+    "cómo dibujar paso a paso un gato",
+    "cómo dibujar paso a paso un perro",
+    "cómo dibujar primaria",
+    "cómo dibujar un caballo para niños de segundo grado",
+    "cómo dibujar un capibara para imprimir",
+    "cómo dibujar un conejo",
+    "cómo dibujar un conejo preescolar",
+    "cómo dibujar un gato",
+    "cómo dibujar un gato para imprimir",
+    "cómo dibujar un gato para niños de segundo grado",
+    "cómo dibujar un gato para primer grado",
+    "cómo dibujar un niño",
+    "cómo dibujar un niño de primer grado",
+    "cómo dibujar un niño de segundo grado",
+    "cómo dibujar un niño para imprimir",
+    "cómo dibujar un niño para primer grado",
+    "cómo dibujar un oso preescolar",
+    "cómo dibujar un paisaje para segundo grado",
+    "cómo dibujar un pato para primer grado",
+    "cómo dibujar un perro",
+    "cómo dibujar un perro para imprimir",
+    "cómo dibujar un perro para niños de segundo grado",
+    "cómo dibujar un perro para primer grado",
+    "cómo dibujar un sapo para primer grado",
+    "cómo dibujar un árbol",
+    "cómo dibujar una estrella",
+    "cómo dibujar una ficha bibliográfica",
+    "cómo dibujar una ficha de quetzal",
+    "cómo dibujar una ficha de trabajo",
+    "cómo dibujar una ficha fácil",
+    "cómo dibujar una flor",
+    "cómo dibujar una gallina para primer grado",
+    "cómo dibujar una mariposa",
+    "cómo dibujar una mariposa para imprimir",
+    "cómo dibujar una mariposa para niños de segundo grado",
+    "cómo dibujar una niña para preescolar",
+    "cómo dibujar una primaria fácil",
+    "cómo dibujar una tortuga preescolar",
+    "cómo dibujar una vaca para niños de segundo grado",
+    "cómo dibujar una vaca para primer grado",
+    "cómo dibujar una vaca preescolar",
+    "cómo dibujar unas fichas de ajedrez",
+    "dibujos de fichas fáciles",
+    "dibujos en cuadrícula fáciles para primer grado",
+    "dibujos faciles a lápiz",
+    "dibujos faciles de hacer preescolar",
+    "dibujos faciles para colorear preescolar",
+    "dibujos faciles para imprimir gratis",
+    "dibujos faciles para imprimir pdf",
+    "dibujos faciles para niños de preescolar paso a paso",
+    "dibujos faciles primaria",
+    "dibujos faciles primer grado",
+    "dibujos faciles y bonitos preescolar",
+    "dibujos fáciles",
+    "dibujos fáciles de actividades primarias",
+    "dibujos fáciles de animales para niños de primer grado",
+    "dibujos fáciles de educación primaria",
+    "dibujos fáciles de fichas de ajedrez",
+    "dibujos fáciles de fuentes primarias",
+    "dibujos fáciles de hacer",
+    "dibujos fáciles de hacer para primer grado",
+    "dibujos fáciles de segundo grado",
+    "dibujos fáciles en cuadrícula para niños de segundo grado",
+    "dibujos fáciles para colorear para niños de primer grado",
+    "dibujos fáciles para dibujar",
+    "dibujos fáciles para imprimir",
+    "dibujos fáciles para imprimir de navidad",
+    "dibujos fáciles para imprimir de stitch",
+    "dibujos fáciles para imprimir en blanco y negro",
+    "dibujos fáciles para imprimir kawaii",
+    "dibujos fáciles para imprimir sin color",
+    "dibujos fáciles para imprimir y bonitos",
+    "dibujos fáciles para imprimir y colorear",
+    "dibujos fáciles para niños",
+    "dibujos fáciles para niños de 9 a 10 años",
+    "dibujos fáciles para niños de primer grado",
+    "dibujos fáciles para niños de segundo grado",
+    "dibujos fáciles para niños de segundo grado de primaria",
+    "dibujos fáciles para preescolares",
+    "dibujos fáciles para primaria",
+    "dibujos fáciles para primer grado de primaria",
+    "dibujos fáciles para primero primaria",
+    "dibujos fáciles para segundo grado",
+    "dibujos fáciles para segundo primaria",
+    "dibujos fáciles para tercero primaria",
+    "dibujos fáciles preescolar",
+    "dibujos fáciles preescolar frutas para colorear e imprimir",
+    "dibujos fáciles primaria portadas de noviembre",
+    "dibujos fáciles y bonitos",
+    "dibujos fáciles y bonitos a color",
+    "dibujos fáciles y bonitos a lápiz",
+    "dibujos fáciles y bonitos para primer grado",
+    "dibujos fáciles y bonitos pequeños",
+    "dibujos paso a paso para niños",
+    "dibujos paso a paso para niños de 5 años",
+    "dibujos paso a paso para niños de 6 años",
+    "dibujos paso a paso para niños de 7 años",
+    "dibujos paso a paso para niños de 8 años",
+    "dibujos paso a paso para niños de 9 años",
+    "dibujos paso a paso para niños de preescolar",
+    "dibujos paso a paso para niños de primaria",
+    "dibujos paso a paso para niños de primer grado",
+    "dibujos paso a paso para niños pdf",
+    "dibujos paso a paso para niños pequeños",
+    "dibujos paso a paso para preescolar",
+    "dibujos paso a paso para primaria",
+    "fichas aprender a dibujar",
+    "fichas para aprender a dibujar niños",
+    "fichas para aprender a dibujar para niños pdf",
+    "fichas para aprender a dibujar personas",
+    "fácil para niños de primaria"
+   ]
+  }
+ },
+ "suggestions": {
+  "busca las diferencias": {
+   "candidate": "find-the-differences",
+   "s": [
+    "busca las diferencias",
+    "busca las diferencias para niños",
+    "busca las diferencias para adultos",
+    "busca las diferencias para imprimir",
+    "busca las diferencias pdf",
+    "busca las diferencias niños",
+    "busca las diferencias para adolescentes",
+    "busca las diferencias online",
+    "busca las diferencias para niños pdf",
+    "busca las diferencias para niños de 5 años"
+   ]
+  },
+  "busca las diferencias ficha": {
+   "candidate": "find-the-differences",
+   "s": [
+    "ficha busca las diferencias"
+   ]
+  },
+  "busca las diferencias para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "busca las diferencias para imprimir",
+    "busca las diferencias para imprimir adultos",
+    "busca las 10 diferencias para imprimir",
+    "busca las diferencias para niños imprimir",
+    "busca las 7 diferencias para imprimir",
+    "busca las 5 diferencias para imprimir",
+    "busca las diferencias dificiles para imprimir"
+   ]
+  },
+  "busca las diferencias primaria": {
+   "candidate": "find-the-differences",
+   "s": [
+    "busca las diferencias primaria"
+   ]
+  },
+  "encuentra las diferencias": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias",
+    "encuentra las diferencias para niños",
+    "encuentra las diferencias para adultos",
+    "encuentra las diferencias para niños pdf",
+    "encuentra las diferencias dificil",
+    "encuentra las diferencias para imprimir",
+    "encuentra las diferencias para imprimir pdf",
+    "encuentra las diferencias juegos",
+    "encuentra las diferencias meme",
+    "encuentra las diferencias pdf"
+   ]
+  },
+  "encuentra las diferencias ficha": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias fichas",
+    "fichas encuentra las diferencias para niños",
+    "fichas encuentra las diferencias pdf",
+    "fichas encuentra las diferencias adultos",
+    "imprimir fichas encuentra las diferencias para niños"
+   ]
+  },
+  "encuentra las diferencias para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias para imprimir",
+    "encuentra las diferencias para imprimir pdf",
+    "encuentra las diferencias para imprimir adultos pdf",
+    "encuentra las diferencias para imprimir dificil",
+    "encuentra las diferencias para imprimir a color pdf",
+    "encuentra las diferencias para imprimir adultos",
+    "encuentra las diferencias para imprimir niños pdf",
+    "encuentra las diferencias para imprimir blanco y negro",
+    "encuentra las diferencias para imprimir niños",
+    "encuentra las 10 diferencias para imprimir"
+   ]
+  },
+  "encuentra las diferencias preescolar": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias preescolar",
+    "encuentra las diferencias para niños de preescolar"
+   ]
+  },
+  "encuentra las diferencias primer grado": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias primer grado"
+   ]
+  },
+  "encuentra las diferencias primaria": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra las diferencias primaria",
+    "encuentra las diferencias 4 primaria",
+    "encuentra las diferencias primero de primaria",
+    "encuentra las diferencias para niños de primaria"
+   ]
+  },
+  "juego de las diferencias": {
+   "candidate": "find-the-differences",
+   "s": [
+    "juego de las diferencias",
+    "juego de las diferencias para adultos",
+    "juego de las diferencias para niños",
+    "juego de las diferencias gratis",
+    "juego de las diferencias online",
+    "juego de las diferencias para imprimir",
+    "juego de las diferencias online gratis",
+    "juego de las diferencias la nacion",
+    "juego de las diferencias para niños imprimir",
+    "juego de las diferencias para niños online"
+   ]
+  },
+  "juego de las diferencias para imprimir": {
+   "candidate": "find-the-differences",
+   "s": [
+    "juego de las diferencias para imprimir",
+    "juego de las 7 diferencias para imprimir",
+    "juego de las diferencias para niños imprimir",
+    "juego de diferencias para adultos para imprimir"
+   ]
+  },
+  "encuentra los 7 errores": {
+   "candidate": "find-the-differences",
+   "s": [
+    "encuentra los 7 errores"
+   ]
+  },
+  "cómo dibujar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "cómo dibujar",
+    "cómo dibujar un perro",
+    "cómo dibujar un gato",
+    "cómo dibujar una flor",
+    "cómo dibujar un niño",
+    "cómo dibujar un conejo",
+    "cómo dibujar un árbol",
+    "cómo dibujar a stitch",
+    "cómo dibujar una mariposa",
+    "cómo dibujar una estrella"
+   ]
+  },
+  "cómo dibujar ficha": {
+   "candidate": "how-to-draw",
+   "s": [
+    "cómo dibujar fichas",
+    "cómo dibujar fichas de ajedrez",
+    "como dibujar fichas de domino",
+    "como dibujar fichas de rompecabezas",
+    "cómo dibujar una ficha bibliográfica",
+    "cómo dibujar una ficha de quetzal",
+    "cómo dibujar una ficha de trabajo",
+    "cómo dibujar una ficha fácil",
+    "cómo dibujar unas fichas de ajedrez",
+    "cómo dibujar las fichas del mundial"
+   ]
+  },
+  "cómo dibujar para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como dibujar para imprimir en 3d",
+    "como dibujar para imprimir",
+    "cómo dibujar muñecas para imprimir",
+    "cómo dibujar un capibara para imprimir",
+    "como dibujar letra a para imprimir",
+    "cómo dibujar una mariposa para imprimir",
+    "cómo dibujar un gato para imprimir",
+    "cómo dibujar un perro para imprimir",
+    "cómo dibujar a stitch para imprimir",
+    "cómo dibujar un niño para imprimir"
+   ]
+  },
+  "cómo dibujar preescolar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como dibujar preescolar",
+    "como dibujar un perro preescolar",
+    "como dibujar un niño preescolar",
+    "como dibujar una escuela preescolar",
+    "como dibujar un gato preescolar",
+    "cómo dibujar una vaca preescolar",
+    "cómo dibujar un conejo preescolar",
+    "cómo dibujar un oso preescolar",
+    "cómo dibujar una tortuga preescolar",
+    "cómo dibujar una niña para preescolar"
+   ]
+  },
+  "cómo dibujar primer grado": {
+   "candidate": "how-to-draw",
+   "s": [
+    "como dibujar primer grado",
+    "cómo dibujar carátulas para primer grado",
+    "cómo dibujar un niño para primer grado",
+    "cómo dibujar un sapo para primer grado",
+    "cómo dibujar un perro para primer grado",
+    "cómo dibujar un niño de primer grado",
+    "cómo dibujar un gato para primer grado",
+    "cómo dibujar un pato para primer grado",
+    "cómo dibujar una vaca para primer grado",
+    "cómo dibujar una gallina para primer grado"
+   ]
+  },
+  "cómo dibujar segundo grado": {
+   "candidate": "how-to-draw",
+   "s": [
+    "cómo dibujar un paisaje para segundo grado",
+    "cómo dibujar un niño de segundo grado",
+    "cómo dibujar un perro para niños de segundo grado",
+    "cómo dibujar una vaca para niños de segundo grado",
+    "cómo dibujar un gato para niños de segundo grado",
+    "cómo dibujar un caballo para niños de segundo grado",
+    "cómo dibujar una mariposa para niños de segundo grado"
+   ]
+  },
+  "cómo dibujar primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "cómo dibujar primaria",
+    "cómo dibujar actividades primarias",
+    "cómo dibujar educación primaria",
+    "cómo dibujar fuentes primarias",
+    "cómo dibujar una primaria fácil",
+    "cómo dibujar para primaria",
+    "como dibujar una escuela primaria",
+    "cómo dibujar carátulas para primaria",
+    "cómo dibujar actividades económicas primarias",
+    "como dibujar una escuela primaria facil para niños"
+   ]
+  },
+  "como dibujar paso a paso": {
+   "candidate": "how-to-draw",
+   "s": [
+    "cómo dibujar paso a paso",
+    "como dibujar paso a paso para niños",
+    "como dibujar paso a paso facil",
+    "como dibujar paso a paso animales",
+    "como dibujar paso a paso una persona",
+    "como dibujar paso a paso animales para niños",
+    "cómo dibujar paso a paso un perro",
+    "cómo dibujar paso a paso un gato",
+    "como dibujar paso a paso anime",
+    "cómo dibujar paso a paso un caballo"
+   ]
+  },
+  "aprender a dibujar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "aprender a dibujar",
+    "aprender a dibujar con el lado derecho del cerebro",
+    "aprender a dibujar desde cero",
+    "aprender a dibujar desde cero pdf",
+    "aprender a dibujar pdf",
+    "aprender a dibujar para niños",
+    "aprender a dibujar online gratis",
+    "aprender a dibujar anime",
+    "aprender a dibujar niños",
+    "aprender a dibujar con el lado derecho del cerebro de betty edwards"
+   ]
+  },
+  "aprender a dibujar ficha": {
+   "candidate": "how-to-draw",
+   "s": [
+    "fichas aprender a dibujar",
+    "fichas para aprender a dibujar para niños pdf",
+    "fichas para aprender a dibujar niños",
+    "fichas para aprender a dibujar personas"
+   ]
+  },
+  "aprender a dibujar preescolar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "aprender a dibujar preescolar"
+   ]
+  },
+  "aprender a dibujar primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "aprender a dibujar primaria",
+    "como aprender a dibujar para niños de primaria"
+   ]
+  },
+  "dibujos paso a paso para niños": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos paso a paso para niños",
+    "dibujos paso a paso para niños de primaria",
+    "dibujos paso a paso para niños de preescolar",
+    "dibujos paso a paso para niños de 7 años",
+    "dibujos paso a paso para niños pdf",
+    "dibujos paso a paso para niños de 5 años",
+    "dibujos paso a paso para niños de 9 años",
+    "dibujos paso a paso para niños pequeños",
+    "dibujos paso a paso para niños de 6 años",
+    "dibujos paso a paso para niños de 8 años"
+   ]
+  },
+  "dibujos paso a paso para niños preescolar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos paso a paso para niños de preescolar",
+    "dibujos paso a paso para preescolar",
+    "dibujos faciles para niños de preescolar paso a paso"
+   ]
+  },
+  "dibujos paso a paso para niños primer grado": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos paso a paso para niños de primer grado"
+   ]
+  },
+  "dibujos paso a paso para niños primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos paso a paso para niños de primaria",
+    "dibujos paso a paso para primaria"
+   ]
+  },
+  "dibujos fáciles": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos fáciles",
+    "dibujos fáciles y bonitos",
+    "dibujos fáciles y bonitos a color",
+    "dibujos fáciles de hacer",
+    "dibujos faciles a lápiz",
+    "dibujos fáciles para niños",
+    "dibujos fáciles y bonitos a lápiz",
+    "dibujos fáciles para dibujar",
+    "dibujos fáciles para niños de 9 a 10 años",
+    "dibujos fáciles y bonitos pequeños"
+   ]
+  },
+  "dibujos fáciles ficha": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos fáciles de fichas de ajedrez",
+    "dibujos de fichas fáciles"
+   ]
+  },
+  "dibujos fáciles para imprimir": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos fáciles para imprimir",
+    "dibujos fáciles para imprimir y colorear",
+    "dibujos faciles para imprimir gratis",
+    "dibujos fáciles para imprimir en blanco y negro",
+    "dibujos fáciles para imprimir y bonitos",
+    "dibujos fáciles para imprimir kawaii",
+    "dibujos fáciles para imprimir de stitch",
+    "dibujos faciles para imprimir pdf",
+    "dibujos fáciles para imprimir de navidad",
+    "dibujos fáciles para imprimir sin color"
+   ]
+  },
+  "dibujos fáciles preescolar": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos fáciles preescolar",
+    "dibujos fáciles preescolar frutas para colorear e imprimir",
+    "dibujos fáciles para preescolares",
+    "dibujos faciles para colorear preescolar",
+    "dibujos faciles y bonitos preescolar",
+    "dibujos faciles de hacer preescolar",
+    "dibujos faciles para niños de preescolar paso a paso"
+   ]
+  },
+  "dibujos fáciles primer grado": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos faciles primer grado",
+    "dibujos fáciles para primer grado de primaria",
+    "dibujos fáciles para niños de primer grado",
+    "dibujos fáciles de hacer para primer grado",
+    "dibujos fáciles y bonitos para primer grado",
+    "dibujos en cuadrícula fáciles para primer grado",
+    "dibujos fáciles de animales para niños de primer grado",
+    "dibujos fáciles para colorear para niños de primer grado"
+   ]
+  },
+  "dibujos fáciles segundo grado": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos fáciles para segundo grado",
+    "dibujos fáciles de segundo grado",
+    "dibujos fáciles para niños de segundo grado",
+    "dibujos fáciles para niños de segundo grado de primaria",
+    "dibujos fáciles en cuadrícula para niños de segundo grado"
+   ]
+  },
+  "dibujos fáciles primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dibujos faciles primaria",
+    "dibujos fáciles primaria portadas de noviembre",
+    "dibujos fáciles para primaria",
+    "dibujos fáciles de fuentes primarias",
+    "dibujos fáciles para primero primaria",
+    "dibujos fáciles de actividades primarias",
+    "dibujos fáciles de educación primaria",
+    "fácil para niños de primaria",
+    "dibujos fáciles para tercero primaria",
+    "dibujos fáciles para segundo primaria"
+   ]
+  }
+ }
+}

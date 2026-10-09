@@ -1,0 +1,715 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-10-09T14:00:50.657Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "jeu des 7 erreurs",
+    "cherche les différences",
+    "trouve les différences",
+    "jeu des différences"
+   ],
+   "requests": 28,
+   "productiveSeeds": 19,
+   "unique": 86,
+   "suggestions": [
+    "cherche et trouve les différences",
+    "cherche les différences",
+    "cherche les différences 7 lettres",
+    "cherche les différences mots croisés",
+    "chercher les différences entre 2 colonnes excel",
+    "chercher les différences entre deux images",
+    "cherchez les erreurs jeux à imprimer",
+    "fiche trouver les différences maternelle",
+    "jeu comparer des fractions ce1",
+    "jeu comparer des fractions ce2",
+    "jeu comparer des nombres ce1",
+    "jeu comparer des nombres cp",
+    "jeu des 5 différences maternelle",
+    "jeu des 7 différences ce1",
+    "jeu des 7 différences ce2",
+    "jeu des 7 différences cp",
+    "jeu des 7 différences maternelle",
+    "jeu des 7 différences à imprimer",
+    "jeu des 7 différences à imprimer adulte",
+    "jeu des 7 erreurs",
+    "jeu des 7 erreurs adulte",
+    "jeu des 7 erreurs ce1",
+    "jeu des 7 erreurs cp",
+    "jeu des 7 erreurs en ligne",
+    "jeu des 7 erreurs enfant",
+    "jeu des 7 erreurs facile",
+    "jeu des 7 erreurs france info",
+    "jeu des 7 erreurs gratuit",
+    "jeu des 7 erreurs maternelle",
+    "jeu des 7 erreurs maternelle à imprimer",
+    "jeu des 7 erreurs sécurité au travail",
+    "jeu des 7 erreurs à imprimer",
+    "jeu des 7 erreurs à imprimer adulte",
+    "jeu des 7 erreurs à imprimer enfant",
+    "jeu des 7 erreurs à imprimer pdf",
+    "jeu des 7 erreurs à imprimer pdf adulte",
+    "jeu des différences",
+    "jeu des différences 20 minutes",
+    "jeu des différences adultes à imprimer",
+    "jeu des différences ce1",
+    "jeu des différences ce2",
+    "jeu des différences cp",
+    "jeu des différences cp à imprimer",
+    "jeu des différences difficile",
+    "jeu des différences en ligne",
+    "jeu des différences enfant",
+    "jeu des différences gratuit",
+    "jeu des différences gratuit en ligne",
+    "jeu des différences maternelle",
+    "jeu des différences maternelle en ligne",
+    "jeu des différences maternelle pdf",
+    "jeu des différences maternelle à imprimer",
+    "jeu des différences à imprimer",
+    "jeu des différences à imprimer adulte",
+    "jeu des différences à imprimer difficile",
+    "jeu des différences à imprimer enfant",
+    "jeu des différences à imprimer gratuit",
+    "jeu des différences à imprimer halloween",
+    "jeu des différences à imprimer maternelle",
+    "jeu des différences à imprimer noel",
+    "jeu des différences à imprimer pdf",
+    "jeu des différences à imprimer pour personnes âgées",
+    "jeu des erreurs cp",
+    "jeu des erreurs maternelle",
+    "jeu trouver les différences à imprimer",
+    "jeux des 7 différences à imprimer en couleur",
+    "jeux des 7 erreurs à imprimer en couleur",
+    "jeux des 7 erreurs à imprimer gratuit",
+    "jeux des différences ce1 à imprimer",
+    "jeux trouver les erreurs à imprimer",
+    "trouve les différences",
+    "trouve les différences 1000+",
+    "trouve les différences june's journey",
+    "trouve les différences pdf",
+    "trouver les 10 erreurs à imprimer",
+    "trouver les 7 différences à imprimer",
+    "trouver les différences cp",
+    "trouver les différences en ligne",
+    "trouver les différences entre 2 images",
+    "trouver les différences halloween",
+    "trouver les différences jeux",
+    "trouver les différences maternelle",
+    "trouver les différences noel",
+    "trouver les différences à imprimer",
+    "trouver les différences à imprimer adultes",
+    "trouver les erreurs à imprimer"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "apprendre à dessiner",
+    "dessin étape par étape",
+    "comment dessiner",
+    "dessin facile",
+    "apprendre à dessiner maternelle"
+   ],
+   "requests": 35,
+   "productiveSeeds": 29,
+   "unique": 120,
+   "suggestions": [
+    "apprendre a dessiner cp",
+    "apprendre a dessiner cpf",
+    "apprendre a dessiner maternelle pdf",
+    "apprendre à colorier cp",
+    "apprendre à colorier maternelle",
+    "apprendre à dessiner",
+    "apprendre à dessiner animaux maternelle",
+    "apprendre à dessiner bonhomme maternelle",
+    "apprendre à dessiner ce1",
+    "apprendre à dessiner ce2",
+    "apprendre à dessiner cp",
+    "apprendre à dessiner cpf",
+    "apprendre à dessiner des animaux",
+    "apprendre à dessiner des fleurs maternelle",
+    "apprendre à dessiner des mangas",
+    "apprendre à dessiner enfant",
+    "apprendre à dessiner enfant à imprimer",
+    "apprendre à dessiner facile",
+    "apprendre à dessiner facile adulte",
+    "apprendre à dessiner facile maternelle",
+    "apprendre à dessiner gratuitement",
+    "apprendre à dessiner manga pour débutant",
+    "apprendre à dessiner maternelle",
+    "apprendre à dessiner pdf",
+    "apprendre à dessiner un bonhomme cp",
+    "apprendre à dessiner un loup maternelle",
+    "apprendre à dessiner un poisson maternelle",
+    "apprendre à dessiner un visage",
+    "apprendre à dessiner une maison maternelle",
+    "apprendre à dessiner à imprimer",
+    "coloriage facile cp",
+    "coloriage facile maternelle",
+    "coloriage facile maternelle à imprimer",
+    "comment dessiner",
+    "comment dessiner cp",
+    "comment dessiner la tour eiffel à imprimer",
+    "comment dessiner pour imprimer en 3d",
+    "comment dessiner un arbre",
+    "comment dessiner un arbre maternelle",
+    "comment dessiner un bonhomme cp",
+    "comment dessiner un bonhomme maternelle",
+    "comment dessiner un chat",
+    "comment dessiner un chat maternelle",
+    "comment dessiner un cheval",
+    "comment dessiner un chien",
+    "comment dessiner un lapin",
+    "comment dessiner un lapin maternelle",
+    "comment dessiner un loup maternelle",
+    "comment dessiner un poisson maternelle",
+    "comment dessiner un visage réaliste pour débutant",
+    "comment dessiner une fiche",
+    "comment dessiner une fille",
+    "comment dessiner une fleur",
+    "comment dessiner une fleur maternelle",
+    "comment dessiner une voiture maternelle",
+    "comment dessiner une étoile",
+    "dessin araignée facile ce1",
+    "dessin arbre facile ce2",
+    "dessin avion facile maternelle",
+    "dessin chat facile cp",
+    "dessin facile",
+    "dessin facile a faire",
+    "dessin facile animaux",
+    "dessin facile ce1",
+    "dessin facile ce2",
+    "dessin facile cp",
+    "dessin facile cp1",
+    "dessin facile enfant",
+    "dessin facile halloween",
+    "dessin facile kawaii",
+    "dessin facile maternelle",
+    "dessin facile maternelle noel",
+    "dessin facile mignon",
+    "dessin facile pour fille",
+    "dessin facile à faire et beau",
+    "dessin facile à faire pour débutant",
+    "dessin facile à imprimer",
+    "dessin facile à imprimer animaux",
+    "dessin facile à imprimer de noël",
+    "dessin facile à imprimer disney",
+    "dessin facile à imprimer gratuit",
+    "dessin facile à imprimer halloween",
+    "dessin facile à imprimer kawaii",
+    "dessin facile à imprimer pokémon",
+    "dessin facile à imprimer pour fille",
+    "dessin facile à imprimer stitch",
+    "dessin fleur étape par étape maternelle",
+    "dessin lapin facile maternelle",
+    "dessin loup facile cp",
+    "dessin maison facile pour cp",
+    "dessin oiseau facile cp",
+    "dessin oiseau facile maternelle",
+    "dessin par étape ce1",
+    "dessin par étape ce1 ce2",
+    "dessin par étape ce2",
+    "dessin par étape cp ce1",
+    "dessin par étape maternelle gs",
+    "dessin par étape maternelle ms",
+    "dessin poisson facile maternelle",
+    "dessin poule facile maternelle",
+    "dessin voiture facile maternelle",
+    "dessin étape par étape",
+    "dessin étape par étape adulte",
+    "dessin étape par étape chat",
+    "dessin étape par étape cp",
+    "dessin étape par étape disney",
+    "dessin étape par étape enfant",
+    "dessin étape par étape facile",
+    "dessin étape par étape manga",
+    "dessin étape par étape maternelle",
+    "dessin étape par étape stitch",
+    "dessin étape par étape à imprimer",
+    "dessin. papillon facile cp",
+    "fiche apprendre à dessiner",
+    "fiche dessin facile",
+    "j apprends à dessiner ce1",
+    "j apprends à dessiner ce2",
+    "j apprends à dessiner cp",
+    "j apprends à dessiner maternelle",
+    "j apprends à dessiner à imprimer"
+   ]
+  }
+ },
+ "suggestions": {
+  "jeu des 7 erreurs": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 erreurs",
+    "jeu des 7 erreurs adulte",
+    "jeu des 7 erreurs gratuit",
+    "jeu des 7 erreurs facile",
+    "jeu des 7 erreurs sécurité au travail",
+    "jeu des 7 erreurs à imprimer",
+    "jeu des 7 erreurs à imprimer pdf adulte",
+    "jeu des 7 erreurs enfant",
+    "jeu des 7 erreurs en ligne",
+    "jeu des 7 erreurs france info"
+   ]
+  },
+  "jeu des 7 erreurs à imprimer": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 erreurs à imprimer",
+    "jeu des 7 erreurs à imprimer pdf adulte",
+    "jeu des 7 erreurs à imprimer pdf",
+    "jeu des 7 erreurs à imprimer enfant",
+    "jeu des 7 erreurs à imprimer adulte",
+    "jeux des 7 erreurs à imprimer en couleur",
+    "jeux des 7 erreurs à imprimer gratuit",
+    "jeu des 7 différences à imprimer",
+    "jeu des 7 différences à imprimer adulte",
+    "jeux des 7 différences à imprimer en couleur"
+   ]
+  },
+  "jeu des 7 erreurs maternelle": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 erreurs maternelle",
+    "jeu des 7 erreurs maternelle à imprimer",
+    "jeu des 7 différences maternelle"
+   ]
+  },
+  "jeu des 7 erreurs cp": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 erreurs cp"
+   ]
+  },
+  "jeu des 7 erreurs ce1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 erreurs ce1",
+    "jeu des 7 différences ce1"
+   ]
+  },
+  "jeu des 7 erreurs ce2": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des 7 différences ce2"
+   ]
+  },
+  "cherche les différences": {
+   "candidate": "find-the-differences",
+   "s": [
+    "cherche les différences",
+    "cherche les différences 7 lettres",
+    "cherche les différences mots croisés",
+    "chercher les différences entre deux images",
+    "chercher les différences entre 2 colonnes excel",
+    "cherche et trouve les différences"
+   ]
+  },
+  "cherche les différences à imprimer": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouver les différences à imprimer",
+    "trouver les différences à imprimer adultes",
+    "jeu trouver les différences à imprimer",
+    "trouver les 7 différences à imprimer",
+    "cherchez les erreurs jeux à imprimer"
+   ]
+  },
+  "cherche les différences maternelle": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouver les différences maternelle",
+    "fiche trouver les différences maternelle"
+   ]
+  },
+  "cherche les différences cp": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouver les différences cp"
+   ]
+  },
+  "trouve les différences": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouve les différences",
+    "trouve les différences 1000+",
+    "trouve les différences pdf",
+    "trouver les différences à imprimer",
+    "trouve les différences june's journey",
+    "trouver les différences halloween",
+    "trouver les différences noel",
+    "trouver les différences en ligne",
+    "trouver les différences entre 2 images",
+    "trouver les différences jeux"
+   ]
+  },
+  "trouve les différences à imprimer": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouver les différences à imprimer",
+    "trouver les différences à imprimer adultes",
+    "trouver les erreurs à imprimer",
+    "jeu trouver les différences à imprimer",
+    "trouver les 7 différences à imprimer",
+    "jeux trouver les erreurs à imprimer",
+    "trouver les 10 erreurs à imprimer"
+   ]
+  },
+  "trouve les différences maternelle": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trouver les différences maternelle",
+    "fiche trouver les différences maternelle"
+   ]
+  },
+  "jeu des différences": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences",
+    "jeu des différences gratuit",
+    "jeu des différences à imprimer",
+    "jeu des différences 20 minutes",
+    "jeu des différences en ligne",
+    "jeu des différences difficile",
+    "jeu des différences gratuit en ligne",
+    "jeu des différences adultes à imprimer",
+    "jeu des différences enfant",
+    "jeu des différences à imprimer pour personnes âgées"
+   ]
+  },
+  "jeu des différences à imprimer": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences à imprimer",
+    "jeu des différences à imprimer pour personnes âgées",
+    "jeu des différences à imprimer gratuit",
+    "jeu des différences à imprimer difficile",
+    "jeu des différences à imprimer adulte",
+    "jeu des différences à imprimer maternelle",
+    "jeu des différences à imprimer pdf",
+    "jeu des différences à imprimer enfant",
+    "jeu des différences à imprimer halloween",
+    "jeu des différences à imprimer noel"
+   ]
+  },
+  "jeu des différences maternelle": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences maternelle",
+    "jeu des différences maternelle à imprimer",
+    "jeu des différences maternelle pdf",
+    "jeu des différences maternelle en ligne",
+    "jeu des erreurs maternelle",
+    "jeu des 7 différences maternelle",
+    "jeu des 5 différences maternelle",
+    "jeu des 7 erreurs maternelle",
+    "jeu des 7 erreurs maternelle à imprimer"
+   ]
+  },
+  "jeu des différences cp": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences cp",
+    "jeu des différences cp à imprimer",
+    "jeu des erreurs cp",
+    "jeu des 7 différences cp",
+    "jeu comparer des nombres cp"
+   ]
+  },
+  "jeu des différences ce1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences ce1",
+    "jeux des différences ce1 à imprimer",
+    "jeu des 7 différences ce1",
+    "jeu des 7 erreurs ce1",
+    "jeu comparer des nombres ce1",
+    "jeu comparer des fractions ce1"
+   ]
+  },
+  "jeu des différences ce2": {
+   "candidate": "find-the-differences",
+   "s": [
+    "jeu des différences ce2",
+    "jeu des 7 différences ce2",
+    "jeu comparer des fractions ce2"
+   ]
+  },
+  "apprendre à dessiner": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner",
+    "apprendre à dessiner facile",
+    "apprendre à dessiner gratuitement",
+    "apprendre à dessiner des mangas",
+    "apprendre à dessiner un visage",
+    "apprendre à dessiner pdf",
+    "apprendre à dessiner facile adulte",
+    "apprendre à dessiner enfant",
+    "apprendre à dessiner des animaux",
+    "apprendre à dessiner manga pour débutant"
+   ]
+  },
+  "apprendre à dessiner fiche": {
+   "candidate": "how-to-draw",
+   "s": [
+    "fiche apprendre à dessiner"
+   ]
+  },
+  "apprendre à dessiner à imprimer": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner à imprimer",
+    "apprendre à dessiner enfant à imprimer",
+    "j apprends à dessiner à imprimer"
+   ]
+  },
+  "apprendre à dessiner maternelle": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner maternelle",
+    "apprendre à colorier maternelle",
+    "apprendre à dessiner bonhomme maternelle",
+    "apprendre à dessiner facile maternelle",
+    "apprendre à dessiner animaux maternelle",
+    "j apprends à dessiner maternelle",
+    "apprendre à dessiner des fleurs maternelle",
+    "apprendre à dessiner un loup maternelle",
+    "apprendre à dessiner un poisson maternelle",
+    "apprendre à dessiner une maison maternelle"
+   ]
+  },
+  "apprendre à dessiner cp": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner cp",
+    "apprendre à dessiner cpf",
+    "apprendre à colorier cp",
+    "j apprends à dessiner cp",
+    "apprendre à dessiner un bonhomme cp"
+   ]
+  },
+  "apprendre à dessiner ce1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner ce1",
+    "j apprends à dessiner ce1"
+   ]
+  },
+  "apprendre à dessiner ce2": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner ce2",
+    "j apprends à dessiner ce2"
+   ]
+  },
+  "dessin étape par étape": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin étape par étape",
+    "dessin étape par étape adulte",
+    "dessin étape par étape disney",
+    "dessin étape par étape facile",
+    "dessin étape par étape maternelle",
+    "dessin étape par étape manga",
+    "dessin étape par étape enfant",
+    "dessin étape par étape cp",
+    "dessin étape par étape stitch",
+    "dessin étape par étape chat"
+   ]
+  },
+  "dessin étape par étape à imprimer": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin étape par étape à imprimer"
+   ]
+  },
+  "dessin étape par étape maternelle": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin étape par étape maternelle",
+    "dessin fleur étape par étape maternelle",
+    "dessin par étape maternelle gs",
+    "dessin par étape maternelle ms"
+   ]
+  },
+  "dessin étape par étape cp": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin étape par étape cp",
+    "dessin par étape cp ce1"
+   ]
+  },
+  "dessin étape par étape ce1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin par étape ce1",
+    "dessin par étape ce1 ce2"
+   ]
+  },
+  "dessin étape par étape ce2": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin par étape ce2"
+   ]
+  },
+  "comment dessiner": {
+   "candidate": "how-to-draw",
+   "s": [
+    "comment dessiner",
+    "comment dessiner un chat",
+    "comment dessiner un chien",
+    "comment dessiner un lapin",
+    "comment dessiner un visage réaliste pour débutant",
+    "comment dessiner un cheval",
+    "comment dessiner une étoile",
+    "comment dessiner un arbre",
+    "comment dessiner une fleur",
+    "comment dessiner une fille"
+   ]
+  },
+  "comment dessiner fiche": {
+   "candidate": "how-to-draw",
+   "s": [
+    "comment dessiner une fiche"
+   ]
+  },
+  "comment dessiner à imprimer": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner à imprimer",
+    "comment dessiner pour imprimer en 3d",
+    "apprendre à dessiner enfant à imprimer",
+    "comment dessiner la tour eiffel à imprimer"
+   ]
+  },
+  "comment dessiner maternelle": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner maternelle",
+    "apprendre a dessiner maternelle pdf",
+    "comment dessiner un bonhomme maternelle",
+    "comment dessiner un chat maternelle",
+    "comment dessiner un loup maternelle",
+    "comment dessiner un lapin maternelle",
+    "comment dessiner un arbre maternelle",
+    "comment dessiner un poisson maternelle",
+    "comment dessiner une voiture maternelle",
+    "comment dessiner une fleur maternelle"
+   ]
+  },
+  "comment dessiner cp": {
+   "candidate": "how-to-draw",
+   "s": [
+    "comment dessiner cp",
+    "apprendre a dessiner cp",
+    "apprendre a dessiner cpf",
+    "comment dessiner un bonhomme cp"
+   ]
+  },
+  "comment dessiner ce1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner ce1"
+   ]
+  },
+  "comment dessiner ce2": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner ce2"
+   ]
+  },
+  "dessin facile": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile",
+    "dessin facile a faire",
+    "dessin facile à faire et beau",
+    "dessin facile mignon",
+    "dessin facile kawaii",
+    "dessin facile pour fille",
+    "dessin facile halloween",
+    "dessin facile à faire pour débutant",
+    "dessin facile enfant",
+    "dessin facile animaux"
+   ]
+  },
+  "dessin facile fiche": {
+   "candidate": "how-to-draw",
+   "s": [
+    "fiche dessin facile"
+   ]
+  },
+  "dessin facile à imprimer": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile à imprimer",
+    "dessin facile à imprimer gratuit",
+    "dessin facile à imprimer kawaii",
+    "dessin facile à imprimer pour fille",
+    "dessin facile à imprimer stitch",
+    "dessin facile à imprimer animaux",
+    "dessin facile à imprimer halloween",
+    "dessin facile à imprimer de noël",
+    "dessin facile à imprimer disney",
+    "dessin facile à imprimer pokémon"
+   ]
+  },
+  "dessin facile maternelle": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile maternelle",
+    "dessin facile maternelle noel",
+    "coloriage facile maternelle",
+    "coloriage facile maternelle à imprimer",
+    "dessin oiseau facile maternelle",
+    "dessin voiture facile maternelle",
+    "dessin poisson facile maternelle",
+    "dessin avion facile maternelle",
+    "dessin lapin facile maternelle",
+    "dessin poule facile maternelle"
+   ]
+  },
+  "dessin facile cp": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile cp",
+    "dessin facile cp1",
+    "coloriage facile cp",
+    "dessin oiseau facile cp",
+    "dessin chat facile cp",
+    "dessin. papillon facile cp",
+    "dessin loup facile cp",
+    "dessin maison facile pour cp"
+   ]
+  },
+  "dessin facile ce1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile ce1",
+    "dessin araignée facile ce1"
+   ]
+  },
+  "dessin facile ce2": {
+   "candidate": "how-to-draw",
+   "s": [
+    "dessin facile ce2",
+    "dessin arbre facile ce2"
+   ]
+  },
+  "apprendre à dessiner maternelle à imprimer": {
+   "candidate": "how-to-draw",
+   "s": [
+    "apprendre à dessiner enfant à imprimer"
+   ]
+  }
+ }
+}

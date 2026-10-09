@@ -1,0 +1,188 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-10-09T14:02:59.432Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "etsi erot",
+    "etsi viisi virhettä",
+    "löydä erot",
+    "etsi virheet"
+   ],
+   "requests": 28,
+   "productiveSeeds": 5,
+   "unique": 13,
+   "suggestions": [
+    "etsi erot iltasanomat",
+    "etsi erot kuvasta",
+    "etsi erot lapsille",
+    "etsi erot tulostettava",
+    "etsi kuvasta viisi virhettä",
+    "etsi viisi virhettä",
+    "etsi viisi virhettä lapsille",
+    "etsi virheet",
+    "etsi virheet kuvasta",
+    "etsi virheet peli",
+    "etsi virheet tehtäviä",
+    "etsi virheet tehtäviä lapsille",
+    "älypää etsi virheet"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "opi piirtämään",
+    "piirrä vaihe vaiheelta",
+    "miten piirretään",
+    "helppo piirustus",
+    "piirustusohjeet lapsille"
+   ],
+   "requests": 35,
+   "productiveSeeds": 5,
+   "unique": 33,
+   "suggestions": [
+    "helppo piirustus",
+    "helppo piirustus hevonen",
+    "helppo piirustus idea",
+    "helppo piirustus ideoita",
+    "helppo piirustus kuva",
+    "helppo piirustus lapsille",
+    "helppo piirustus malli",
+    "helppo piirustus ohje",
+    "helppo piirustus video",
+    "helppo piirustusohjelma",
+    "miten piirretään huulet",
+    "miten piirretään kirja",
+    "miten piirretään lehti",
+    "miten piirretään lepakko",
+    "miten piirretään messi",
+    "miten piirretään pokemon",
+    "miten piirretään puu",
+    "miten piirretään rumi",
+    "miten piirretään rusetti",
+    "miten piirretään sydän",
+    "opi piirtämään",
+    "opi piirtämään eläimiä",
+    "opi piirtämään hevonen",
+    "opi piirtämään ihminen",
+    "opi piirtämään kirja",
+    "opi piirtämään kukkia",
+    "opi piirtämään lapsille",
+    "opi piirtämään lyijykynällä",
+    "opi piirtämään mangaa",
+    "piirrä eläimiä vaihe vaiheelta",
+    "piirrä mitä vain vaihe vaiheelta",
+    "piirrä vaihe vaiheelta",
+    "piirustusohjeita lapsille"
+   ]
+  }
+ },
+ "suggestions": {
+  "etsi erot": {
+   "candidate": "find-the-differences",
+   "s": [
+    "etsi erot iltasanomat",
+    "etsi erot kuvasta",
+    "etsi erot lapsille",
+    "etsi erot tulostettava"
+   ]
+  },
+  "etsi erot tulostettava": {
+   "candidate": "find-the-differences",
+   "s": [
+    "etsi erot tulostettava"
+   ]
+  },
+  "etsi viisi virhettä": {
+   "candidate": "find-the-differences",
+   "s": [
+    "etsi viisi virhettä lapsille",
+    "etsi viisi virhettä",
+    "etsi kuvasta viisi virhettä"
+   ]
+  },
+  "etsi virheet": {
+   "candidate": "find-the-differences",
+   "s": [
+    "etsi virheet tehtäviä lapsille",
+    "etsi virheet tehtäviä",
+    "etsi virheet kuvasta",
+    "etsi virheet",
+    "etsi virheet peli",
+    "älypää etsi virheet"
+   ]
+  },
+  "etsi virheet tehtäviä": {
+   "candidate": "find-the-differences",
+   "s": [
+    "etsi virheet tehtäviä lapsille",
+    "etsi virheet tehtäviä"
+   ]
+  },
+  "opi piirtämään": {
+   "candidate": "how-to-draw",
+   "s": [
+    "opi piirtämään hevonen",
+    "opi piirtämään ihminen",
+    "opi piirtämään kirja",
+    "opi piirtämään eläimiä",
+    "opi piirtämään lyijykynällä",
+    "opi piirtämään mangaa",
+    "opi piirtämään",
+    "opi piirtämään kukkia",
+    "opi piirtämään lapsille"
+   ]
+  },
+  "piirrä vaihe vaiheelta": {
+   "candidate": "how-to-draw",
+   "s": [
+    "piirrä vaihe vaiheelta",
+    "piirrä eläimiä vaihe vaiheelta",
+    "piirrä mitä vain vaihe vaiheelta"
+   ]
+  },
+  "miten piirretään": {
+   "candidate": "how-to-draw",
+   "s": [
+    "miten piirretään huulet",
+    "miten piirretään rusetti",
+    "miten piirretään lepakko",
+    "miten piirretään puu",
+    "miten piirretään pokemon",
+    "miten piirretään messi",
+    "miten piirretään rumi",
+    "miten piirretään sydän",
+    "miten piirretään kirja",
+    "miten piirretään lehti"
+   ]
+  },
+  "helppo piirustus": {
+   "candidate": "how-to-draw",
+   "s": [
+    "helppo piirustus ideoita",
+    "helppo piirustusohjelma",
+    "helppo piirustus malli",
+    "helppo piirustus idea",
+    "helppo piirustus",
+    "helppo piirustus ohje",
+    "helppo piirustus kuva",
+    "helppo piirustus lapsille",
+    "helppo piirustus hevonen",
+    "helppo piirustus video"
+   ]
+  },
+  "piirustusohjeet lapsille": {
+   "candidate": "how-to-draw",
+   "s": [
+    "piirustusohjeita lapsille"
+   ]
+  }
+ }
+}

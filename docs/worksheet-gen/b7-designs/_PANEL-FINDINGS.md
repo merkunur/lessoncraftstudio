@@ -1,0 +1,78 @@
+# nt2-G (b7) — THE LOCK (2026-10-09): the two flagship types, their heads ×11, their eleven faces, the click model
+
+The two types were CHOSEN BY THE OPERATOR (/goal 2026-10-09): **find-the-differences · how-to-draw**, each base + TEN variations × 11 locales = 242 worksheets, "the flagship of the website", art ONLY from the image library (B&W line drawings; colour too for find-the-differences), SEO target ≥ 500 clicks/day. The seeded 11-market autocomplete harvest (`_records/candidate-seeds.json` → `harvest-candidates.<loc>.json` ×11, 0 errors; summary `_records/harvest-candidates-summary.md`; every suggestion verbatim in `_records/harvest-dump.txt`) fixed the heads below. The native panels AUDIT these heads (they may add the heads their market types), never re-litigate the selection.
+
+## Raw harvest (unique suggestions; comparable only within a column)
+| type | en | de | es | pt | fr | it | nl | sv | da | no | fi |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| find-the-differences | 125 | 98 | 61 | 71 | 86 | 44 | 62 | 19 | 26 | 21 | 13 |
+| how-to-draw | 215 | 55 | 159 | 87 | 120 | 73 | 91 | 42 | 53 | 50 | 33 |
+
+## THE LOCK — keys, base ids, subject, rail names
+| # | id | family key | subject | base band | EN rail name | naming rule |
+|---|---|---|---|---|---|---|
+| 1 | K-395 | `find-the-differences` | spatial-reasoning | K | Find the Differences | the base owns the bare head WITH ITS COUNT ("Find 5 Differences": the Nordic genre name IS "find five errors" — sv *finn fem fel*, da *find fem fejl*, no *finn fem feil*, fi *etsi viisi virhettä*); every face carries ONE distinguishing element (a count 3 / 7 / 10, colour, mirror, missing, pairs, words, write); never "Suchbild"/"Wimmelbild" alone (de: hidden-picture genre), never Excel/adult/online tails; the live June `visual-discrimination` family (K-061 "Spot the Differences", de rail "Visuelle Wahrnehmung") keeps its titles — the new family never reuses "Spot the Differences" as an EN title head (it is the query alias in prose + meta) |
+| 2 | K-396 | `how-to-draw` | spatial-reasoning | K | How to Draw | **every title names the ANIMAL/THING drawn + the move** ("How to Draw a Cat Step by Step"): the harvest is per-animal in all 11 markets (nl *hoe teken je een hond/kat/konijn/paard*, sv *hur man ritar en hund/häst/kanin/katt*, da *hvordan tegner man en kat/hund/hest*, no *hvordan tegne en hund/katt/hest*, es *cómo dibujar un gato/perro/conejo/caballo para primer grado*, pt *como desenhar um gato/cachorro/coelho educação infantil*, fr *comment dessiner un chat/lapin/poisson maternelle*, it *come disegnare un gatto/cane/coniglio passo dopo passo*, de *Tiere zeichnen lernen Schritt für Schritt*); EN also owns **"directed drawing"** (the US classroom genre: K/1st/2nd/3rd grade, cat, dog, frog, bunny); never "tracing"/"nachspuren"/"Schwungübungen" (tracing families), never "colouring"/"malen" as the head (de *malen lernen* = painting), never a person/face/self-portrait (no library art, no drawn people in this batch), never a branded character (stitch, pokemon, minecraft — all over the harvest, all refused) |
+
+Variation faces take the next free ids by CONTENT band: **K-397+ · G1-412+ · G2-388+ · G3-402+** (`tools/alloc-b7var-ids.js` → `_records/b7var-id-allocation.json`, README order, TEN faces per family).
+
+## Per-locale genre heads (harvested; the panel writes the title from these, never from English)
+| loc | find-the-differences (base head · count form · colour · hard · easy · grade stamps) | how-to-draw (head · per-animal form · grade stamps · the "step" word) |
+|---|---|---|
+| en | find the differences / spot the difference · "find 3 / 7 / 8 / 10 differences" · "pictures" · "hard / difficult" · "easy / preschool" · kindergarten, 1st, 2nd, 3rd grade, "for 5 year olds" | how to draw … step by step · "how to draw a cat / dog / house / bird / flower easy for kindergarten step by step" · directed drawing (K, 1st, 2nd, 3rd grade; cat, dog, frog, bunny, seasons), guided drawing, learn to draw for kids printable, drawing worksheets for kindergarten, "finish the drawing worksheets", "grid drawing worksheets" · step by step |
+| de | Finde die Unterschiede / Finde den Fehler / Fehlersuchbild / Unterschiede finden · "finde 10 Unterschiede", "10 Unterschiede finden" · (colour: Bilder) · "schwer" · (Kinder) · Grundschule, Klasse 1, Klasse 2, Klasse 3, Kindergarten; seasons: Weihnachten, Winter | Zeichnen lernen Schritt für Schritt · "Tiere zeichnen lernen", "schritt für schritt zeichnen tiere / kinder pdf" · Grundschule, 1. Klasse, Kinder ab 4/7/8 · Schritt für Schritt (never "malen") |
+| es (MX) | Busca las diferencias / Encuentra las diferencias / Juego de las diferencias · "busca las 5 / 7 / 10 diferencias", "encuentra los 7 errores" · "a color" vs "blanco y negro" · "difícil" · "fácil, para niños de 5 años" · preescolar, primer grado, primaria; "fichas" | Cómo dibujar … paso a paso / Aprender a dibujar / Dibujos paso a paso · "cómo dibujar un gato / perro / conejo / caballo / vaca / gallina / pato / oso / tortuga / mariposa para primer grado / preescolar", "dibujos fáciles para niños de primer grado", "dibujos en cuadrícula fáciles para primer grado" · preescolar, primer grado, segundo grado · paso a paso |
+| pt (BR) | Jogo dos 7 erros / Encontre as diferenças / Ache as diferenças / Jogo das diferenças · "ache as 3 / 7 / 15 diferenças", "jogo dos 7 erros" · "colorido" · "difícil, nível médio" · "fácil" · educação infantil, 1º ano, 4 ano; "atividade", "com resposta" | Como desenhar … passo a passo / Aprender a desenhar / Desenho passo a passo · "como desenhar um gato / cachorro / coelho / cavalo / elefante / leão / sapo / jacaré / carro educação infantil", "desenhos fáceis para criança desenhar", "desenhos de animais fáceis" · educação infantil, infantil · passo a passo |
+| fr | Jeu des 7 différences / Jeu des 7 erreurs / Cherche les différences / Trouve les différences / Jeu des différences · "jeu des 5 différences maternelle", "trouver les 10 erreurs" · "en couleur" · "difficile" · "facile" · maternelle, CP, CE1, CE2; seasons: Noël, Halloween | Apprendre à dessiner / Dessin étape par étape / Comment dessiner … · "apprendre à dessiner un chat / lapin / poisson / loup / fleur / maison maternelle", "dessin chat facile cp", "dessin par étape ce1 ce2", "j'apprends à dessiner cp" · maternelle (MS, GS), CP, CE1, CE2 · étape par étape |
+| it | Trova le differenze / Gioco delle differenze / Scopri le differenze · "trova le 7 / 10 differenze" · (immagini) · "difficile" · (per bambini) · classe prima, classe seconda, scuola primaria, 7 anni; "schede" | Come disegnare … passo dopo passo / Disegno guidato / Imparare a disegnare · "come disegnare un gatto / cane / coniglio / cavallo / gufo passo dopo passo", "disegno guidato gatto / scuola infanzia / scuola primaria", "disegni facili classe prima" · scuola primaria, classe prima, scuola infanzia · passo dopo passo |
+| nl | Zoek de verschillen / Verschillen zoeken · "zoek de 5 / 7 / 10 verschillen" · (afbeeldingen) · "moeilijk" · "makkelijk" · kleuters, groep 3, groep 4, groep 5, "5 jaar"; seasons: kerst, winter, zomer, herfst, lente, sinterklaas, pasen | Stap voor stap tekenen / Leren tekenen / Hoe teken je … · "hoe teken je een hond / kat / konijn / paard / ster", "stap voor stap tekenen dieren / kleuters / groep 3 / groep 4", "tekenopdracht groep 3 / 4 / 5 + season", "tekenopdracht werkblad" · kleuters, groep 3, groep 4, groep 5 · stap voor stap |
+| sv | Finn fem fel / Hitta fem fel / Hitta skillnaderna / Hitta felen · (fem = the genre; "hitta felen i bilden") · (bilder) · (svår) · (barn, för barn) · barn; "att skriva ut" | Rita steg för steg / Lära sig rita / Hur man ritar … · "rita steg för steg hund / kanin / katt / djur / barn / lätt", "hur man ritar en hund / häst / kanin / katt / enhörning", "lätta teckningar", "rita djur för barn" · barn · steg för steg |
+| da | Find fem fejl / Find 5 fejl / Find forskellene / Find fejlene · ("find 5 fejl opgaver") · · "svær" · (børn) · børn; "til print"; season: jul | Tegn trin for trin / Lær at tegne / Hvordan tegner man … · "tegn en kat / hest / kanin / hund / dinosaur trin for trin", "lær at tegne dyr trin for trin", "nemme tegninger af dyr / hunde / katte", "hvordan tegner man en kat / hund / hest / kanin / blomst / enhjørning" · børn, børnehave · trin for trin |
+| no | Finn fem feil / Finn 5 feil / Finn forskjellene / Finn feilene · ("finn 5 feil oppgaver") · (bilder) · · (barn) · barn; seasons: jul, påske | Tegne steg for steg / Lære å tegne / Hvordan tegne … · "tegne hund / katt / hest / dinosaur / drage / enhjørning / dyr steg for steg", "enkle tegninger av dyr / hunder", "hvordan tegne en hund / katt / hest", "tegning for barn" · barn · steg for steg |
+| fi | Etsi erot / Etsi viisi virhettä / Etsi virheet · "etsi kuvasta viisi virhettä" · (kuvasta) · · "lapsille" · lapsille; "tulostettava" | Piirrä vaihe vaiheelta / Opi piirtämään / Piirustusohjeita lapsille · "opi piirtämään eläimiä / hevonen / kukkia", "helppo piirustus hevonen / lapsille", "piirrä eläimiä vaihe vaiheelta" · lapsille · vaihe vaiheelta |
+
+## The eleven faces per type (locked from the harvest + the plan; the studio DESIGNS them, it does not re-pick them)
+**find-the-differences** (every face: two pictures, the child circles; PDF + tap-the-differences screen + answer key with coral rings on EVERY deck — the family is uniformly interactive):
+- **base** Find 5 Differences (K): two B&W line-art scenes side by side, 5 crafted differences.
+- **F1** Find 3 Differences (pre-K/K): big stacked pictures, 3 large differences (the "easy / preschool / 5 year olds / makkelijk / fácil" tail).
+- **F2** Find the Differences in Colour (K): the painted scenes; one difference is a COLOUR change (es "a color", pt "colorido", fr "en couleur").
+- **F3** Find 7 Differences (G1): the "7 differences / 7 erreurs / 7 erros / 7 verschillen / 7 differenze" head.
+- **F4** Find 10 Differences (G2): denser scene, small details (de "10 Unterschiede", es "10 diferencias", nl "10 verschillen", it "10 differenze", fr "10 erreurs"; the "hard / schwer / difícil / moeilijk / svær" tail).
+- **F5** How Many Differences? (G1): the count is not told (3–6); find them, write the number (K.CC / counting link).
+- **F6** What Changed? (G1): a word bank of the scene's drawings (vocab literals ×11); tick the words of the things that changed (vocabulary + discrimination).
+- **F7** Mirror Pictures (K/G1): picture 2 is flipped left-right; find the differences anyway (laterality, pre-reading b/d).
+- **F8** What Is Missing? (K): picture 2 has things REMOVED only; circle the empty place / draw it back.
+- **F9** Picture Pairs (K): 3 single-picture pairs (the SECOND pictures), exactly one difference each — focused comparison.
+- **F10** Write What Is Different (G2): find + sentence frames per locale ("In picture 2 the … is …") on ruled rows (the find part stays checked; the writing is paper).
+**how-to-draw** (PDF only — the pencil is the point; no key, no screen; each face names its ANIMAL; the drawing per face is pinned, future expansion adds animals as units):
+- **base** How to Draw a Cat Step by Step (K): 5 step panels (new lines coral), one big practice box.
+- **F1** Draw a Dog with Simple Shapes (K): step 1 shows the fitted shapes (ellipses / rounded boxes) the drawing is built from.
+- **F2** Trace, Then Draw a Rabbit (K): dashed trace of the finished drawing, then a freehand box.
+- **F3** Finish the Horse Drawing (K/G1): the model complete beside a copy with parts missing; draw the missing parts (no mirror line — symmetry owns that).
+- **F4** Draw a Dinosaur with the Grid (G1): model over a 4×4 grid, empty grid beside (es "dibujos en cuadrícula", en "grid drawing worksheets").
+- **F5** Draw a Fish and Write the Word (K/G1): steps + a ruled line with the picture's noun (traceable literal ×11).
+- **F6** Draw a Frog in the Pond (G1): steps for the hero + a scene frame (ground line, two props) to draw the hero into.
+- **F7** Order the Steps: Drawing an Owl (K/G1): the step panels shuffled; number them 1–5 (procedural order; story-sequencing owns narrative).
+- **F8** Copy Each Step: Draw a Bird (G1): model step above, empty box below, for every step (guided practice).
+- **F9** Draw a Bear, Then Write About It (G2): steps + 3 ruled rows with starters (the child draws first; picture-writing owns writing to a given picture).
+- **F10** Draw a Butterfly from Memory (G2): look, fold the sheet, draw; the model small at the top, a fold mark, a big box.
+Animal availability (reviewed line drawings, `data/cbn/lineart-scenes.js SECOND`): cat · puppy · rabbit · pony (horse) · unicorn · dinosaur · triceratops · fish · frog · cow · hen · duck · bear · turtle · butterfly (garden-butterfly) · owl · elephant · lion · house · flower-pot · fire-truck · rocket · school-bus · tractor. A panel may swap a face's animal for its market's demand leader (sv/da/no "häst/hest", "enhörning/enhjørning", fr "loup" has no drawing → refuse that wish) — a per-locale UNIT choice, never a code change.
+
+## Cross-panel rulings the design files must obey
+1. **One art source per page** (library line drawings, composed by the engines; rings, boxes, grids, arrows, fold marks on the token palette; NOTHING hand-drawn by an agent — operator: "in the past you always failed in drawing good quality child friendly images").
+2. **Every difference is crafted and gated**: generated by `lib/fd-diff` ops (remove · add · mirror · move · scale · swap · detail · colour), proven by the raster gate (one visible component of printable size, inside the frame, never two differences touching), rings exactly over the change; never a random icon swap (the June K-061 mechanic).
+3. **find-the-differences is uniformly interactive** (every deck PDF + screen + key); **how-to-draw is uniformly PDF-only** (no face may promise a key or a screen).
+4. **A difference count in a title is the count on the page** (3 / 5 / 7 / 10) — gated.
+5. **Animals, not people**: no face, no person, no self-portrait, no branded character; every drawing a reviewed library picture.
+6. **No visible "free"**; the free-tier lead stays in SEO metadata only (operator ruling 2026-09-14).
+7. The nt10-E / nt5-F landing-audit classes (position tells, two right answers, a prompt naming its answer, pictures named differently, instructions naming undrawn apparatus) are gated per face in every locale (`_BUILD-BRIEF.md`).
+
+## Honest click model (9–15-month maturity; near-zero for the first 2–3 months)
+Method as nt5-F: per market, the harvest depth × the genre's evergreen weight, over 22 landings per locale. Both genres are evergreen classroom printables with broad parent demand (spot-the-difference is one of the deepest printable genres in en/de/fr/nl; per-animal drawing is deep in every market), and the pages are grade-stamped long tail, so the per-page expectation is above the nt5-F science types.
+| market | landings | low | mid | high |
+|---|---|---|---|---|
+| Germanic en/de/nl | 66 | 120 | 230 | 330 |
+| Romance es/pt/fr/it | 88 | 150 | 270 | 400 |
+| Nordic sv/da/no/fi | 88 | 40 | 90 | 150 |
+| **batch (242 landings)** | | **310** | **590** | **880** |
+The 121 find-the-differences DECK pages are an additional indexable surface (interactive puzzle pages), not counted. **The ≥ 500/day target sits below the mid band** — reachable if the titles hit the per-animal and per-count heads above, the landings are written from the render, and the pages get indexed (the site's binding constraint). A re-probe of the Nordic heads with corrected seeds (`_records/v2/`) runs before titles are final.

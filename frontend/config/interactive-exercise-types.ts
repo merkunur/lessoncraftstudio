@@ -85,9 +85,24 @@ export const INTERACTIVE_EXERCISE_TYPES: ReadonlySet<string> = new Set([
   'wordsearch',
 ]);
 
+/**
+ * Printable (worksheet-gen) families whose EVERY published deck ships a screen version AND an
+ * answer key — the nt2-G flagship `find-the-differences` (2026-10-09) is the first. The type-level
+ * claim stays expressible because the family is uniform (0 mixed): `scripts/audit-worksheet-formats.js`
+ * re-derives "all decks of the type have an answer key" from production and fails on drift, exactly
+ * as it does for the 29 apps. A family may enter this set ONLY when its publish path writes a key for
+ * every deck (`manifest.interactive` + answer-key.pdf from render-instance); a PDF-only family never does.
+ * Kept as its OWN literal below the app set so the two CommonJS parsers that read this file
+ * (`scripts/lib/interactive-types.js`, `scripts/verify-hub-type-rows.js`) keep reading the app set
+ * where they always did.
+ */
+export const INTERACTIVE_PRINTABLE_FAMILIES: ReadonlySet<string> = new Set([
+  'find-the-differences',
+]);
+
 /** True when this worksheet type has a browser-playable version. */
 export function isInteractiveType(exerciseType: string | null | undefined): boolean {
-  return !!exerciseType && INTERACTIVE_EXERCISE_TYPES.has(exerciseType);
+  return !!exerciseType && (INTERACTIVE_EXERCISE_TYPES.has(exerciseType) || INTERACTIVE_PRINTABLE_FAMILIES.has(exerciseType));
 }
 
 /** True when this worksheet type is a printable PDF only — the badged case. */

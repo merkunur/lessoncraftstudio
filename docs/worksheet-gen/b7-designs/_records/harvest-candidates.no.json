@@ -1,0 +1,243 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-10-09T14:02:43.453Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "finn fem feil",
+    "finn forskjellene",
+    "finn 5 feil",
+    "finn feilene"
+   ],
+   "requests": 28,
+   "productiveSeeds": 6,
+   "unique": 21,
+   "suggestions": [
+    "finn 5 feil",
+    "finn 5 feil barn",
+    "finn 5 feil bilder",
+    "finn 5 feil bok",
+    "finn 5 feil jul",
+    "finn 5 feil latter",
+    "finn 5 feil oppgaver",
+    "finn 5 feil påske",
+    "finn 5 feil spill",
+    "finn feilene",
+    "finn fem feil",
+    "finn fem feil barn",
+    "finn fem feil bilder",
+    "finn fem feil bok",
+    "finn fem feil engelsk",
+    "finn fem feil jul",
+    "finn fem feil latter",
+    "finn fem feil oppgaver",
+    "finn fem feil oppgaver barn",
+    "finn fem feil påske",
+    "finn forskjellene"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "lære å tegne",
+    "tegne steg for steg",
+    "hvordan tegne",
+    "enkle tegninger",
+    "tegning for barn"
+   ],
+   "requests": 35,
+   "productiveSeeds": 5,
+   "unique": 50,
+   "suggestions": [
+    "bil tegning for barn",
+    "dinosaur tegning for barn",
+    "enhjørning tegning for barn",
+    "enkle tegninger",
+    "enkle tegninger av dyr",
+    "enkle tegninger av hunder",
+    "enkle tegninger av mat",
+    "enkle tegninger av stitch",
+    "enkle tegninger for barn",
+    "enkle tegninger sommer",
+    "enkle tegninger steg for steg",
+    "enkle tegninger søte",
+    "enkle tegninger å tegne",
+    "halloween tegning for barn",
+    "hvordan tegne ansikt",
+    "hvordan tegne en fotball",
+    "hvordan tegne en hest",
+    "hvordan tegne en hund",
+    "hvordan tegne en katt",
+    "hvordan tegne en rose",
+    "hvordan tegne enhjørning",
+    "hvordan tegne i word",
+    "hvordan tegne norgespris",
+    "hvordan tegne strømavtale",
+    "lett tegning for barn",
+    "lære å tegne",
+    "lære å tegne ansikt",
+    "lære å tegne app",
+    "lære å tegne app gratis",
+    "lære å tegne bok",
+    "lære å tegne dyr",
+    "lære å tegne for barn",
+    "lære å tegne katt",
+    "lære å tegne med kull",
+    "lære å tegne step by step",
+    "påske tegning for barn",
+    "tegne ansikt steg for steg",
+    "tegne dinosaur steg for steg",
+    "tegne drage steg for steg",
+    "tegne dyr steg for steg",
+    "tegne enhjørning steg for steg",
+    "tegne hest steg for steg",
+    "tegne hund steg for steg",
+    "tegne katt steg for steg",
+    "tegne steg for steg",
+    "tegne steg for steg barn",
+    "tegning for barn",
+    "tegning for barn enkel",
+    "tegning for små barn",
+    "tegning kurs for barn"
+   ]
+  }
+ },
+ "suggestions": {
+  "finn fem feil": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn fem feil",
+    "finn fem feil oppgaver",
+    "finn fem feil bilder",
+    "finn fem feil oppgaver barn",
+    "finn fem feil latter",
+    "finn fem feil barn",
+    "finn fem feil bok",
+    "finn fem feil jul",
+    "finn fem feil påske",
+    "finn fem feil engelsk"
+   ]
+  },
+  "finn fem feil oppgaver": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn fem feil oppgaver",
+    "finn fem feil oppgaver barn"
+   ]
+  },
+  "finn forskjellene": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn forskjellene"
+   ]
+  },
+  "finn 5 feil": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn 5 feil",
+    "finn 5 feil oppgaver",
+    "finn 5 feil bilder",
+    "finn 5 feil spill",
+    "finn 5 feil latter",
+    "finn 5 feil barn",
+    "finn 5 feil bok",
+    "finn 5 feil jul",
+    "finn 5 feil påske"
+   ]
+  },
+  "finn 5 feil oppgaver": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn 5 feil oppgaver"
+   ]
+  },
+  "finn feilene": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finn feilene"
+   ]
+  },
+  "lære å tegne": {
+   "candidate": "how-to-draw",
+   "s": [
+    "lære å tegne",
+    "lære å tegne for barn",
+    "lære å tegne bok",
+    "lære å tegne ansikt",
+    "lære å tegne app gratis",
+    "lære å tegne katt",
+    "lære å tegne app",
+    "lære å tegne med kull",
+    "lære å tegne dyr",
+    "lære å tegne step by step"
+   ]
+  },
+  "tegne steg for steg": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tegne steg for steg",
+    "tegne steg for steg barn",
+    "tegne katt steg for steg",
+    "tegne hund steg for steg",
+    "tegne hest steg for steg",
+    "tegne ansikt steg for steg",
+    "tegne dinosaur steg for steg",
+    "tegne enhjørning steg for steg",
+    "tegne drage steg for steg",
+    "tegne dyr steg for steg"
+   ]
+  },
+  "hvordan tegne": {
+   "candidate": "how-to-draw",
+   "s": [
+    "hvordan tegne en katt",
+    "hvordan tegne en hund",
+    "hvordan tegne strømavtale",
+    "hvordan tegne i word",
+    "hvordan tegne norgespris",
+    "hvordan tegne en fotball",
+    "hvordan tegne ansikt",
+    "hvordan tegne en hest",
+    "hvordan tegne en rose",
+    "hvordan tegne enhjørning"
+   ]
+  },
+  "enkle tegninger": {
+   "candidate": "how-to-draw",
+   "s": [
+    "enkle tegninger",
+    "enkle tegninger av dyr",
+    "enkle tegninger for barn",
+    "enkle tegninger steg for steg",
+    "enkle tegninger å tegne",
+    "enkle tegninger av mat",
+    "enkle tegninger søte",
+    "enkle tegninger av stitch",
+    "enkle tegninger sommer",
+    "enkle tegninger av hunder"
+   ]
+  },
+  "tegning for barn": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tegning for barn",
+    "tegning for barn enkel",
+    "tegning kurs for barn",
+    "halloween tegning for barn",
+    "lett tegning for barn",
+    "enhjørning tegning for barn",
+    "tegning for små barn",
+    "dinosaur tegning for barn",
+    "bil tegning for barn",
+    "påske tegning for barn"
+   ]
+  }
+ }
+}

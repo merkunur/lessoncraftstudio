@@ -1,0 +1,291 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-10-09T14:02:27.402Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "find fem fejl",
+    "find forskellene",
+    "find 5 fejl",
+    "find fejlene"
+   ],
+   "requests": 28,
+   "productiveSeeds": 8,
+   "unique": 26,
+   "suggestions": [
+    "find 5 fejl",
+    "find 5 fejl bog",
+    "find 5 fejl børn",
+    "find 5 fejl børn bog",
+    "find 5 fejl børn print",
+    "find 5 fejl gratis",
+    "find 5 fejl opgaver",
+    "find 5 fejl opgaver børn",
+    "find 5 fejl print",
+    "find 5 fejl svær",
+    "find 5 fejl til print",
+    "find 5 fejl voksne",
+    "find fejlene",
+    "find fejlene i teksten",
+    "find fem fejl",
+    "find fem fejl bog",
+    "find fem fejl bøger",
+    "find fem fejl børn",
+    "find fem fejl gratis",
+    "find fem fejl jul",
+    "find fem fejl online",
+    "find fem fejl opgaver",
+    "find fem fejl opgaver børn",
+    "find fem fejl print",
+    "find fem fejl til print",
+    "find forskellene"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "lær at tegne",
+    "tegn trin for trin",
+    "hvordan tegner man",
+    "nemme tegninger",
+    "tegning for børn"
+   ],
+   "requests": 35,
+   "productiveSeeds": 9,
+   "unique": 53,
+   "suggestions": [
+    "3d tegning for børn",
+    "hvordan tegner man en blomst",
+    "hvordan tegner man en enhjørning",
+    "hvordan tegner man en hest",
+    "hvordan tegner man en hund",
+    "hvordan tegner man en is",
+    "hvordan tegner man en kanin",
+    "hvordan tegner man en kat",
+    "hvordan tegner man en næse",
+    "hvordan tegner man en rose",
+    "hvordan tegner man i word",
+    "hvordan tegner man til 3d printer",
+    "lær at tegne",
+    "lær at tegne ansigter",
+    "lær at tegne blomster",
+    "lær at tegne bog",
+    "lær at tegne dyr",
+    "lær at tegne dyr trin for trin",
+    "lær at tegne for børn",
+    "lær at tegne for voksne",
+    "lær at tegne manga",
+    "lær at tegne print",
+    "lær at tegne trin for trin",
+    "manga tegning for børn",
+    "nem tegning for børn",
+    "nemme tegninger",
+    "nemme tegninger af blomster",
+    "nemme tegninger af dyr",
+    "nemme tegninger af hunde",
+    "nemme tegninger af katte",
+    "nemme tegninger af piger",
+    "nemme tegninger af søde dyr",
+    "nemme tegninger man kan tegne",
+    "nemme tegninger på sten",
+    "nemme tegninger til børn",
+    "nemme tegninger til print",
+    "tegn dyr trin for trin",
+    "tegn en dinosaur trin for trin",
+    "tegn en hest trin for trin",
+    "tegn en kanin trin for trin",
+    "tegn en kat trin for trin",
+    "tegn hund trin for trin",
+    "tegn pokemon trin for trin",
+    "tegn stitch trin for trin",
+    "tegn trin for trin",
+    "tegn trin for trin børn",
+    "tegning børn der leger",
+    "tegning børn print",
+    "tegning børnehave",
+    "tegning for børn",
+    "tegning for børn københavn",
+    "tegning for børn odense",
+    "tegning kroppen for børn"
+   ]
+  }
+ },
+ "suggestions": {
+  "find fem fejl": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find fem fejl",
+    "find fem fejl online",
+    "find fem fejl opgaver",
+    "find fem fejl print",
+    "find fem fejl gratis",
+    "find fem fejl børn",
+    "find fem fejl bog",
+    "find fem fejl bøger",
+    "find fem fejl opgaver børn",
+    "find fem fejl jul"
+   ]
+  },
+  "find fem fejl opgaver": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find fem fejl opgaver",
+    "find fem fejl opgaver børn"
+   ]
+  },
+  "find fem fejl til print": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find fem fejl til print"
+   ]
+  },
+  "find forskellene": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find forskellene"
+   ]
+  },
+  "find 5 fejl": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find 5 fejl",
+    "find 5 fejl voksne",
+    "find 5 fejl børn",
+    "find 5 fejl print",
+    "find 5 fejl gratis",
+    "find 5 fejl børn print",
+    "find 5 fejl bog",
+    "find 5 fejl opgaver",
+    "find 5 fejl svær",
+    "find 5 fejl børn bog"
+   ]
+  },
+  "find 5 fejl opgaver": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find 5 fejl opgaver",
+    "find 5 fejl opgaver børn"
+   ]
+  },
+  "find 5 fejl til print": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find 5 fejl til print",
+    "find 5 fejl børn print"
+   ]
+  },
+  "find fejlene": {
+   "candidate": "find-the-differences",
+   "s": [
+    "find fejlene",
+    "find fejlene i teksten"
+   ]
+  },
+  "lær at tegne": {
+   "candidate": "how-to-draw",
+   "s": [
+    "lær at tegne",
+    "lær at tegne for børn",
+    "lær at tegne trin for trin",
+    "lær at tegne for voksne",
+    "lær at tegne manga",
+    "lær at tegne dyr",
+    "lær at tegne ansigter",
+    "lær at tegne bog",
+    "lær at tegne dyr trin for trin",
+    "lær at tegne blomster"
+   ]
+  },
+  "lær at tegne til print": {
+   "candidate": "how-to-draw",
+   "s": [
+    "lær at tegne print"
+   ]
+  },
+  "tegn trin for trin": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tegn trin for trin",
+    "tegn trin for trin børn",
+    "tegn pokemon trin for trin",
+    "tegn stitch trin for trin",
+    "tegn dyr trin for trin",
+    "tegn hund trin for trin",
+    "tegn en kat trin for trin",
+    "tegn en hest trin for trin",
+    "tegn en dinosaur trin for trin",
+    "tegn en kanin trin for trin"
+   ]
+  },
+  "hvordan tegner man": {
+   "candidate": "how-to-draw",
+   "s": [
+    "hvordan tegner man en hund",
+    "hvordan tegner man i word",
+    "hvordan tegner man en kat",
+    "hvordan tegner man en is",
+    "hvordan tegner man en hest",
+    "hvordan tegner man en kanin",
+    "hvordan tegner man en enhjørning",
+    "hvordan tegner man en rose",
+    "hvordan tegner man en næse",
+    "hvordan tegner man en blomst"
+   ]
+  },
+  "hvordan tegner man til print": {
+   "candidate": "how-to-draw",
+   "s": [
+    "hvordan tegner man til 3d printer"
+   ]
+  },
+  "nemme tegninger": {
+   "candidate": "how-to-draw",
+   "s": [
+    "nemme tegninger",
+    "nemme tegninger af dyr",
+    "nemme tegninger til børn",
+    "nemme tegninger af søde dyr",
+    "nemme tegninger på sten",
+    "nemme tegninger af blomster",
+    "nemme tegninger man kan tegne",
+    "nemme tegninger af hunde",
+    "nemme tegninger af katte",
+    "nemme tegninger af piger"
+   ]
+  },
+  "nemme tegninger til print": {
+   "candidate": "how-to-draw",
+   "s": [
+    "nemme tegninger til print"
+   ]
+  },
+  "tegning for børn": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tegning for børn",
+    "tegning for børn københavn",
+    "tegning for børn odense",
+    "manga tegning for børn",
+    "nem tegning for børn",
+    "3d tegning for børn",
+    "tegning kroppen for børn",
+    "tegning børnehave",
+    "tegning børn der leger",
+    "tegning børn print"
+   ]
+  },
+  "tegning for børn til print": {
+   "candidate": "how-to-draw",
+   "s": [
+    "tegning børn print"
+   ]
+  }
+ }
+}

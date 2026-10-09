@@ -1,0 +1,391 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-10-09T14:01:39.197Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 63,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "trova le differenze",
+    "trova le 7 differenze",
+    "gioco delle differenze",
+    "scopri le differenze"
+   ],
+   "requests": 28,
+   "productiveSeeds": 11,
+   "unique": 44,
+   "suggestions": [
+    "gioco delle differenze",
+    "gioco delle differenze da stampare",
+    "gioco delle differenze gratis",
+    "gioco delle differenze in due immagini",
+    "gioco delle differenze online",
+    "gioco delle differenze online gratis",
+    "gioco delle differenze per bambini",
+    "gioco delle differenze per bambini da stampare",
+    "gioco delle differenze per bambini online",
+    "gioco delle differenze wordwall",
+    "gioco scopri le differenze",
+    "gioco trova le differenze da stampare",
+    "le differenze classe prima",
+    "scheda didattica trova le differenze",
+    "schede trova le differenze scuola primaria",
+    "scopri le differenze",
+    "scopri le differenze in inglese",
+    "scopri le differenze per bambini",
+    "scopri le differenze settimana enigmistica",
+    "trova le 10 differenze da stampare",
+    "trova le 7 differenze",
+    "trova le differenze",
+    "trova le differenze 7 anni",
+    "trova le differenze adulti",
+    "trova le differenze adulti gratis",
+    "trova le differenze bambini pdf",
+    "trova le differenze classe prima",
+    "trova le differenze classe seconda",
+    "trova le differenze da stampare",
+    "trova le differenze da stampare difficile",
+    "trova le differenze da stampare gratis",
+    "trova le differenze da stampare pdf",
+    "trova le differenze da stampare per adulti",
+    "trova le differenze da stampare per bambini",
+    "trova le differenze immagini",
+    "trova le differenze immagini da stampare",
+    "trova le differenze in inglese",
+    "trova le differenze online",
+    "trova le differenze per bambini",
+    "trova le differenze per bambini da stampare",
+    "trova le differenze schede da stampare",
+    "trova le differenze scuola primaria",
+    "trova le differenze settimana enigmistica",
+    "wordwall trova le differenze classe prima"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "imparare a disegnare",
+    "come disegnare",
+    "disegnare passo dopo passo",
+    "disegni facili",
+    "disegno guidato"
+   ],
+   "requests": 35,
+   "productiveSeeds": 11,
+   "unique": 73,
+   "suggestions": [
+    "app disegno guidato",
+    "come disegnare",
+    "come disegnare 101 progetti passo dopo passo",
+    "come disegnare i solidi scuola primaria",
+    "come disegnare i triangoli scuola primaria",
+    "come disegnare minecraft passo dopo passo",
+    "come disegnare spider man passo dopo passo",
+    "come disegnare un cane",
+    "come disegnare un cane passo dopo passo",
+    "come disegnare un cavallo",
+    "come disegnare un coniglio",
+    "come disegnare un cubo scuola primaria",
+    "come disegnare un decagono scuola primaria",
+    "come disegnare un esagono scuola primaria",
+    "come disegnare un gatto",
+    "come disegnare un gatto facile",
+    "come disegnare un gatto passo dopo passo",
+    "come disegnare un gufo passo dopo passo",
+    "come disegnare un ottagono scuola primaria",
+    "come disegnare un parallelogramma scuola primaria",
+    "come disegnare un pentagono scuola primaria",
+    "come disegnare un rombo scuola primaria",
+    "come disegnare un volto",
+    "come disegnare un volto facile",
+    "come disegnare un volto scuola primaria",
+    "come disegnare una rosa",
+    "come disegnare una stella",
+    "disegnare passo dopo passo",
+    "disegni cute facili da stampare",
+    "disegni di pasqua facili da stampare",
+    "disegni facili",
+    "disegni facili a matita",
+    "disegni facili classe prima",
+    "disegni facili cute",
+    "disegni facili da copiare",
+    "disegni facili da disegnare",
+    "disegni facili da disegnare a mano libera",
+    "disegni facili da fare",
+    "disegni facili da stampare",
+    "disegni facili da stampare di natale",
+    "disegni facili da stampare e colorare",
+    "disegni facili da stampare gratis",
+    "disegni facili da stampare per bambini",
+    "disegni facili ma belli",
+    "disegni facili per bambini",
+    "disegni facili per bambini di 10 anni",
+    "disegni facili per bambini scuola primaria",
+    "disegni facili scuola primaria",
+    "disegni facili sul fair play scuola primaria",
+    "disegni halloween facili da stampare",
+    "disegni pixel art facili da stampare",
+    "disegni tecnologia facili scuola primaria",
+    "disegno guidato",
+    "disegno guidato babbo natale",
+    "disegno guidato gatto",
+    "disegno guidato per bambini",
+    "disegno guidato scuola infanzia",
+    "disegno guidato scuola primaria",
+    "disegno guidato significato",
+    "disegno tecnico guidato",
+    "fiori disegni facili da stampare",
+    "imparare a disegnare",
+    "imparare a disegnare a matita",
+    "imparare a disegnare adulti",
+    "imparare a disegnare bambini",
+    "imparare a disegnare facile",
+    "imparare a disegnare fumetti",
+    "imparare a disegnare gratis",
+    "imparare a disegnare libro",
+    "imparare a disegnare manga",
+    "imparare a disegnare passo dopo passo",
+    "imparare a disegnare scuola primaria",
+    "imparare a disegnare un volto"
+   ]
+  }
+ },
+ "suggestions": {
+  "trova le differenze": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le differenze",
+    "trova le differenze per bambini",
+    "trova le differenze immagini",
+    "trova le differenze in inglese",
+    "trova le differenze adulti",
+    "trova le differenze bambini pdf",
+    "trova le differenze adulti gratis",
+    "trova le differenze per bambini da stampare",
+    "trova le differenze settimana enigmistica",
+    "trova le differenze online"
+   ]
+  },
+  "trova le differenze scheda didattica": {
+   "candidate": "find-the-differences",
+   "s": [
+    "scheda didattica trova le differenze"
+   ]
+  },
+  "trova le differenze da stampare": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le differenze da stampare",
+    "trova le differenze da stampare per adulti",
+    "trova le differenze da stampare per bambini",
+    "trova le differenze da stampare pdf",
+    "trova le differenze da stampare gratis",
+    "trova le differenze da stampare difficile",
+    "trova le differenze immagini da stampare",
+    "trova le 10 differenze da stampare",
+    "gioco trova le differenze da stampare",
+    "trova le differenze schede da stampare"
+   ]
+  },
+  "trova le differenze scuola primaria": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le differenze scuola primaria",
+    "schede trova le differenze scuola primaria"
+   ]
+  },
+  "trova le differenze classe prima": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le differenze classe prima",
+    "wordwall trova le differenze classe prima",
+    "le differenze classe prima"
+   ]
+  },
+  "trova le differenze classe seconda": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le differenze classe seconda"
+   ]
+  },
+  "trova le 7 differenze": {
+   "candidate": "find-the-differences",
+   "s": [
+    "trova le 7 differenze",
+    "trova le differenze 7 anni"
+   ]
+  },
+  "gioco delle differenze": {
+   "candidate": "find-the-differences",
+   "s": [
+    "gioco delle differenze",
+    "gioco delle differenze gratis",
+    "gioco delle differenze per bambini",
+    "gioco delle differenze online",
+    "gioco delle differenze da stampare",
+    "gioco delle differenze per bambini online",
+    "gioco delle differenze online gratis",
+    "gioco delle differenze per bambini da stampare",
+    "gioco delle differenze wordwall",
+    "gioco delle differenze in due immagini"
+   ]
+  },
+  "gioco delle differenze da stampare": {
+   "candidate": "find-the-differences",
+   "s": [
+    "gioco delle differenze da stampare",
+    "gioco delle differenze per bambini da stampare"
+   ]
+  },
+  "scopri le differenze": {
+   "candidate": "find-the-differences",
+   "s": [
+    "scopri le differenze",
+    "scopri le differenze per bambini",
+    "scopri le differenze settimana enigmistica",
+    "scopri le differenze in inglese",
+    "gioco scopri le differenze"
+   ]
+  },
+  "scopri le differenze classe prima": {
+   "candidate": "find-the-differences",
+   "s": [
+    "le differenze classe prima"
+   ]
+  },
+  "imparare a disegnare": {
+   "candidate": "how-to-draw",
+   "s": [
+    "imparare a disegnare",
+    "imparare a disegnare bambini",
+    "imparare a disegnare a matita",
+    "imparare a disegnare gratis",
+    "imparare a disegnare facile",
+    "imparare a disegnare manga",
+    "imparare a disegnare fumetti",
+    "imparare a disegnare adulti",
+    "imparare a disegnare libro",
+    "imparare a disegnare un volto"
+   ]
+  },
+  "imparare a disegnare scuola primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "imparare a disegnare scuola primaria"
+   ]
+  },
+  "come disegnare": {
+   "candidate": "how-to-draw",
+   "s": [
+    "come disegnare",
+    "come disegnare un gatto",
+    "come disegnare un cane",
+    "come disegnare un volto",
+    "come disegnare una rosa",
+    "come disegnare un coniglio",
+    "come disegnare un cavallo",
+    "come disegnare un gatto facile",
+    "come disegnare una stella",
+    "come disegnare un volto facile"
+   ]
+  },
+  "come disegnare scuola primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "come disegnare un volto scuola primaria",
+    "come disegnare un pentagono scuola primaria",
+    "come disegnare un esagono scuola primaria",
+    "come disegnare un decagono scuola primaria",
+    "come disegnare un rombo scuola primaria",
+    "come disegnare un parallelogramma scuola primaria",
+    "come disegnare i triangoli scuola primaria",
+    "come disegnare un ottagono scuola primaria",
+    "come disegnare un cubo scuola primaria",
+    "come disegnare i solidi scuola primaria"
+   ]
+  },
+  "disegnare passo dopo passo": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegnare passo dopo passo",
+    "imparare a disegnare passo dopo passo",
+    "come disegnare minecraft passo dopo passo",
+    "come disegnare un gatto passo dopo passo",
+    "come disegnare un gufo passo dopo passo",
+    "come disegnare 101 progetti passo dopo passo",
+    "come disegnare un cane passo dopo passo",
+    "come disegnare spider man passo dopo passo"
+   ]
+  },
+  "disegni facili": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegni facili",
+    "disegni facili per bambini",
+    "disegni facili a matita",
+    "disegni facili ma belli",
+    "disegni facili da copiare",
+    "disegni facili per bambini di 10 anni",
+    "disegni facili da fare",
+    "disegni facili da disegnare",
+    "disegni facili da disegnare a mano libera",
+    "disegni facili cute"
+   ]
+  },
+  "disegni facili da stampare": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegni facili da stampare",
+    "disegni facili da stampare e colorare",
+    "disegni facili da stampare gratis",
+    "disegni facili da stampare per bambini",
+    "disegni facili da stampare di natale",
+    "fiori disegni facili da stampare",
+    "disegni cute facili da stampare",
+    "disegni halloween facili da stampare",
+    "disegni di pasqua facili da stampare",
+    "disegni pixel art facili da stampare"
+   ]
+  },
+  "disegni facili scuola primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegni facili scuola primaria",
+    "disegni tecnologia facili scuola primaria",
+    "disegni facili per bambini scuola primaria",
+    "disegni facili sul fair play scuola primaria"
+   ]
+  },
+  "disegni facili classe prima": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegni facili classe prima"
+   ]
+  },
+  "disegno guidato": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegno guidato per bambini",
+    "disegno guidato",
+    "disegno guidato scuola infanzia",
+    "disegno guidato scuola primaria",
+    "disegno guidato significato",
+    "disegno guidato babbo natale",
+    "disegno guidato gatto",
+    "disegno tecnico guidato",
+    "app disegno guidato"
+   ]
+  },
+  "disegno guidato scuola primaria": {
+   "candidate": "how-to-draw",
+   "s": [
+    "disegno guidato scuola primaria"
+   ]
+  }
+ }
+}

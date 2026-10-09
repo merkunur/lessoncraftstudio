@@ -1,0 +1,544 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-10-09T14:00:34.415Z",
+ "seedFile": "docs/worksheet-gen/b7-designs/_records/candidate-seeds.json",
+ "requestCount": 70,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "find-the-differences": {
+   "heads": [
+    "finde die unterschiede",
+    "fehlersuchbild",
+    "suchbilder",
+    "finde den fehler",
+    "unterschiede finden"
+   ],
+   "requests": 35,
+   "productiveSeeds": 26,
+   "unique": 98,
+   "suggestions": [
+    "10 unterschiede finden arbeitsblatt",
+    "bilder unterschiede finden zum ausdrucken",
+    "buchstaben suchbilder grundschule",
+    "fehler suchbilder zum ausdrucken",
+    "fehlersuchbild",
+    "fehlersuchbild erwachsene",
+    "fehlersuchbild grundschule",
+    "fehlersuchbild grundschule kostenlos",
+    "fehlersuchbild kinder",
+    "fehlersuchbild kinder zum ausdrucken",
+    "fehlersuchbild klasse 1",
+    "fehlersuchbild klasse 3",
+    "fehlersuchbild kostenlos",
+    "fehlersuchbild pdf",
+    "fehlersuchbild schwer",
+    "fehlersuchbild suchbilder zum ausdrucken",
+    "fehlersuchbild weihnachten grundschule",
+    "fehlersuchbild weihnachten zum ausdrucken",
+    "fehlersuchbild winter zum ausdrucken",
+    "fehlersuchbild zum ausdrucken",
+    "fehlersuchbild zum ausdrucken erwachsene",
+    "fehlersuchbild zum ausdrucken kostenlos",
+    "fehlersuchbilder",
+    "fehlersuchbilder für kinder zum ausdrucken gratis",
+    "fehlersuchbilder grundschule",
+    "fehlersuchbilder klasse 2",
+    "fehlersuchbilder zum ausdrucken",
+    "finde 10 fehler zum ausdrucken",
+    "finde 10 unterschiede zum ausdrucken",
+    "finde den fehler",
+    "finde den fehler 1 klasse",
+    "finde den fehler arbeitsblatt",
+    "finde den fehler bilder",
+    "finde den fehler bilder erwachsene",
+    "finde den fehler bilder erwachsene kostenlos",
+    "finde den fehler bilder erwachsene kostenlos zum ausdrucken",
+    "finde den fehler bilder erwachsene online",
+    "finde den fehler bilder erwachsene zum ausdrucken",
+    "finde den fehler bilder grundschule",
+    "finde den fehler bilder kinder",
+    "finde den fehler bilder kinder kostenlos",
+    "finde den fehler bilder kinder zum ausdrucken",
+    "finde den fehler bilder kostenlos",
+    "finde den fehler bilder zum ausdrucken",
+    "finde den fehler englisch",
+    "finde den fehler für erwachsene",
+    "finde den fehler grundschule",
+    "finde den fehler kinder ausdrucken",
+    "finde den fehler zum ausdrucken",
+    "finde die unterschiede",
+    "finde die unterschiede 100",
+    "finde die unterschiede bilder",
+    "finde die unterschiede bilder kinder",
+    "finde die unterschiede bilder kostenlos",
+    "finde die unterschiede kinder",
+    "finde die unterschiede kostenlos",
+    "finde die unterschiede kostenlos online spielen",
+    "finde die unterschiede pdf",
+    "finde die unterschiede spiele",
+    "finde die unterschiede zum ausdrucken",
+    "finde unterschiede arbeitsblatt",
+    "suchbilder",
+    "suchbilder 2 klasse",
+    "suchbilder 3. klasse",
+    "suchbilder arbeitsblatt",
+    "suchbilder für erwachsene",
+    "suchbilder für erwachsene kostenlos",
+    "suchbilder für erwachsene mit lösung",
+    "suchbilder für kinder",
+    "suchbilder für kinder 4 jahre",
+    "suchbilder für kinder grundschule",
+    "suchbilder für kinder kostenlos",
+    "suchbilder für kinder zum ausdrucken kostenlos",
+    "suchbilder für senioren kostenlos",
+    "suchbilder grundschule",
+    "suchbilder grundschule kostenlos",
+    "suchbilder kindergarten zum ausdrucken",
+    "suchbilder klasse 1",
+    "suchbilder kostenlos",
+    "suchbilder rätsel zum ausdrucken",
+    "suchbilder zum ausdrucken",
+    "suchbilder zum ausdrucken für erwachsene",
+    "suchbilder zum ausdrucken für kinder",
+    "suchbilder zum ausdrucken kostenlos",
+    "unterschiede finden",
+    "unterschiede finden 1 klasse",
+    "unterschiede finden arbeitsblatt",
+    "unterschiede finden bilder",
+    "unterschiede finden erwachsene",
+    "unterschiede finden grundschule",
+    "unterschiede finden kinder",
+    "unterschiede finden kinder zum ausdrucken",
+    "unterschiede finden kostenlos",
+    "unterschiede finden online",
+    "unterschiede finden rätsel",
+    "unterschiede finden spiel kostenlos",
+    "unterschiede finden zum ausdrucken",
+    "wimmel suchbilder zum ausdrucken"
+   ]
+  },
+  "how-to-draw": {
+   "heads": [
+    "zeichnen lernen",
+    "zeichnen lernen schritt für schritt",
+    "zeichnen lernen für kinder",
+    "schritt für schritt zeichnen",
+    "malen lernen"
+   ],
+   "requests": 35,
+   "productiveSeeds": 11,
+   "unique": 55,
+   "suggestions": [
+    "malen lernen",
+    "malen lernen 1 klasse",
+    "malen lernen app",
+    "malen lernen buch",
+    "malen lernen erwachsene",
+    "malen lernen für erwachsene kostenlos",
+    "malen lernen grundschule",
+    "malen lernen kinder",
+    "malen lernen kinder 4 jahre",
+    "malen lernen kinder 4 jahre vorlage",
+    "malen lernen mit acryl",
+    "malen lernen org",
+    "menschen malen lernen grundschule",
+    "menschen zeichnen lernen grundschule",
+    "portrait zeichnen lernen grundschule",
+    "schritt für schritt zeichnen",
+    "schritt für schritt zeichnen anleitung",
+    "schritt für schritt zeichnen erwachsene",
+    "schritt für schritt zeichnen grundschule",
+    "schritt für schritt zeichnen kinder",
+    "schritt für schritt zeichnen kinder buch",
+    "schritt für schritt zeichnen kinder pdf",
+    "schritt für schritt zeichnen kinder pdf kostenlos",
+    "schritt für schritt zeichnen lernen",
+    "schritt für schritt zeichnen pokemon",
+    "schritt für schritt zeichnen tiere",
+    "tiere zeichnen lernen grundschule",
+    "zeichnen lernen",
+    "zeichnen lernen 1 klasse",
+    "zeichnen lernen buch",
+    "zeichnen lernen erwachsene",
+    "zeichnen lernen für anfänger",
+    "zeichnen lernen für erwachsene kostenlos",
+    "zeichnen lernen für kinder",
+    "zeichnen lernen für kinder ab 10",
+    "zeichnen lernen für kinder ab 10 buch",
+    "zeichnen lernen für kinder ab 10 online",
+    "zeichnen lernen für kinder ab 12",
+    "zeichnen lernen für kinder ab 13",
+    "zeichnen lernen für kinder ab 4",
+    "zeichnen lernen für kinder ab 7",
+    "zeichnen lernen für kinder ab 8",
+    "zeichnen lernen für kinder ab 9",
+    "zeichnen lernen grundschule",
+    "zeichnen lernen schritt für schritt",
+    "zeichnen lernen schritt für schritt anleitung",
+    "zeichnen lernen schritt für schritt app",
+    "zeichnen lernen schritt für schritt app kostenlos",
+    "zeichnen lernen schritt für schritt buch",
+    "zeichnen lernen schritt für schritt erwachsene",
+    "zeichnen lernen schritt für schritt kinder",
+    "zeichnen lernen schritt für schritt online kostenlos",
+    "zeichnen lernen schritt für schritt pdf",
+    "zeichnen lernen schritt für schritt tiere",
+    "zeichnen lernen zum ausdrucken"
+   ]
+  }
+ },
+ "suggestions": {
+  "finde die unterschiede": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde die unterschiede",
+    "finde die unterschiede bilder",
+    "finde die unterschiede kostenlos",
+    "finde die unterschiede spiele",
+    "finde die unterschiede kinder",
+    "finde die unterschiede bilder kostenlos",
+    "finde die unterschiede 100",
+    "finde die unterschiede kostenlos online spielen",
+    "finde die unterschiede pdf",
+    "finde die unterschiede bilder kinder"
+   ]
+  },
+  "finde die unterschiede arbeitsblatt": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde unterschiede arbeitsblatt"
+   ]
+  },
+  "finde die unterschiede zum ausdrucken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde die unterschiede zum ausdrucken",
+    "finde 10 unterschiede zum ausdrucken"
+   ]
+  },
+  "fehlersuchbild": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbild",
+    "fehlersuchbild kinder",
+    "fehlersuchbild erwachsene",
+    "fehlersuchbilder",
+    "fehlersuchbilder zum ausdrucken",
+    "fehlersuchbild kostenlos",
+    "fehlersuchbilder für kinder zum ausdrucken gratis",
+    "fehlersuchbild pdf",
+    "fehlersuchbilder grundschule",
+    "fehlersuchbild schwer"
+   ]
+  },
+  "fehlersuchbild zum ausdrucken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbild zum ausdrucken",
+    "fehlersuchbild zum ausdrucken kostenlos",
+    "fehlersuchbild zum ausdrucken erwachsene",
+    "fehlersuchbild kinder zum ausdrucken",
+    "fehlersuchbild winter zum ausdrucken",
+    "fehlersuchbild suchbilder zum ausdrucken",
+    "fehlersuchbild weihnachten zum ausdrucken"
+   ]
+  },
+  "fehlersuchbild grundschule": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbild grundschule",
+    "fehlersuchbild grundschule kostenlos",
+    "fehlersuchbild weihnachten grundschule"
+   ]
+  },
+  "fehlersuchbild klasse 1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbild klasse 1"
+   ]
+  },
+  "fehlersuchbild klasse 2": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbilder klasse 2"
+   ]
+  },
+  "fehlersuchbild klasse 3": {
+   "candidate": "find-the-differences",
+   "s": [
+    "fehlersuchbild klasse 3"
+   ]
+  },
+  "suchbilder": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder",
+    "suchbilder für kinder",
+    "suchbilder für erwachsene",
+    "suchbilder kostenlos",
+    "suchbilder für erwachsene kostenlos",
+    "suchbilder für kinder kostenlos",
+    "suchbilder für erwachsene mit lösung",
+    "suchbilder zum ausdrucken",
+    "suchbilder für senioren kostenlos",
+    "suchbilder für kinder 4 jahre"
+   ]
+  },
+  "suchbilder arbeitsblatt": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder arbeitsblatt"
+   ]
+  },
+  "suchbilder zum ausdrucken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder zum ausdrucken",
+    "suchbilder zum ausdrucken kostenlos",
+    "suchbilder zum ausdrucken für kinder",
+    "suchbilder zum ausdrucken für erwachsene",
+    "wimmel suchbilder zum ausdrucken",
+    "fehlersuchbild suchbilder zum ausdrucken",
+    "suchbilder kindergarten zum ausdrucken",
+    "suchbilder rätsel zum ausdrucken",
+    "fehler suchbilder zum ausdrucken",
+    "suchbilder für kinder zum ausdrucken kostenlos"
+   ]
+  },
+  "suchbilder grundschule": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder grundschule",
+    "suchbilder grundschule kostenlos",
+    "buchstaben suchbilder grundschule",
+    "suchbilder für kinder grundschule"
+   ]
+  },
+  "suchbilder klasse 1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder klasse 1"
+   ]
+  },
+  "suchbilder klasse 2": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder 2 klasse"
+   ]
+  },
+  "suchbilder klasse 3": {
+   "candidate": "find-the-differences",
+   "s": [
+    "suchbilder 3. klasse"
+   ]
+  },
+  "finde den fehler": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde den fehler",
+    "finde den fehler bilder",
+    "finde den fehler bilder erwachsene",
+    "finde den fehler bilder erwachsene kostenlos",
+    "finde den fehler bilder kostenlos",
+    "finde den fehler englisch",
+    "finde den fehler bilder kinder",
+    "finde den fehler bilder kinder kostenlos",
+    "finde den fehler für erwachsene",
+    "finde den fehler bilder erwachsene online"
+   ]
+  },
+  "finde den fehler arbeitsblatt": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde den fehler arbeitsblatt"
+   ]
+  },
+  "finde den fehler zum ausdrucken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde den fehler zum ausdrucken",
+    "finde den fehler bilder zum ausdrucken",
+    "finde den fehler bilder erwachsene zum ausdrucken",
+    "finde den fehler bilder kinder zum ausdrucken",
+    "finde den fehler kinder ausdrucken",
+    "finde 10 fehler zum ausdrucken",
+    "finde den fehler bilder erwachsene kostenlos zum ausdrucken"
+   ]
+  },
+  "finde den fehler grundschule": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde den fehler grundschule",
+    "finde den fehler bilder grundschule"
+   ]
+  },
+  "finde den fehler klasse 1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "finde den fehler 1 klasse"
+   ]
+  },
+  "unterschiede finden": {
+   "candidate": "find-the-differences",
+   "s": [
+    "unterschiede finden",
+    "unterschiede finden bilder",
+    "unterschiede finden kinder",
+    "unterschiede finden erwachsene",
+    "unterschiede finden zum ausdrucken",
+    "unterschiede finden online",
+    "unterschiede finden kinder zum ausdrucken",
+    "unterschiede finden rätsel",
+    "unterschiede finden kostenlos",
+    "unterschiede finden spiel kostenlos"
+   ]
+  },
+  "unterschiede finden arbeitsblatt": {
+   "candidate": "find-the-differences",
+   "s": [
+    "unterschiede finden arbeitsblatt",
+    "10 unterschiede finden arbeitsblatt"
+   ]
+  },
+  "unterschiede finden zum ausdrucken": {
+   "candidate": "find-the-differences",
+   "s": [
+    "unterschiede finden zum ausdrucken",
+    "unterschiede finden kinder zum ausdrucken",
+    "bilder unterschiede finden zum ausdrucken"
+   ]
+  },
+  "unterschiede finden grundschule": {
+   "candidate": "find-the-differences",
+   "s": [
+    "unterschiede finden grundschule"
+   ]
+  },
+  "unterschiede finden klasse 1": {
+   "candidate": "find-the-differences",
+   "s": [
+    "unterschiede finden 1 klasse"
+   ]
+  },
+  "zeichnen lernen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen",
+    "zeichnen lernen für kinder ab 10",
+    "zeichnen lernen für kinder",
+    "zeichnen lernen für kinder ab 8",
+    "zeichnen lernen schritt für schritt",
+    "zeichnen lernen für anfänger",
+    "zeichnen lernen erwachsene",
+    "zeichnen lernen für kinder ab 12",
+    "zeichnen lernen buch",
+    "zeichnen lernen für erwachsene kostenlos"
+   ]
+  },
+  "zeichnen lernen zum ausdrucken": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen zum ausdrucken"
+   ]
+  },
+  "zeichnen lernen grundschule": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen grundschule",
+    "tiere zeichnen lernen grundschule",
+    "menschen zeichnen lernen grundschule",
+    "portrait zeichnen lernen grundschule"
+   ]
+  },
+  "zeichnen lernen klasse 1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen 1 klasse"
+   ]
+  },
+  "zeichnen lernen schritt für schritt": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen schritt für schritt",
+    "zeichnen lernen schritt für schritt pdf",
+    "zeichnen lernen schritt für schritt kinder",
+    "zeichnen lernen schritt für schritt erwachsene",
+    "zeichnen lernen schritt für schritt app kostenlos",
+    "zeichnen lernen schritt für schritt online kostenlos",
+    "zeichnen lernen schritt für schritt buch",
+    "zeichnen lernen schritt für schritt app",
+    "zeichnen lernen schritt für schritt tiere",
+    "zeichnen lernen schritt für schritt anleitung"
+   ]
+  },
+  "zeichnen lernen für kinder": {
+   "candidate": "how-to-draw",
+   "s": [
+    "zeichnen lernen für kinder ab 10",
+    "zeichnen lernen für kinder ab 8",
+    "zeichnen lernen für kinder",
+    "zeichnen lernen für kinder ab 12",
+    "zeichnen lernen für kinder ab 4",
+    "zeichnen lernen für kinder ab 9",
+    "zeichnen lernen für kinder ab 13",
+    "zeichnen lernen für kinder ab 7",
+    "zeichnen lernen für kinder ab 10 online",
+    "zeichnen lernen für kinder ab 10 buch"
+   ]
+  },
+  "schritt für schritt zeichnen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "schritt für schritt zeichnen kinder",
+    "schritt für schritt zeichnen erwachsene",
+    "schritt für schritt zeichnen",
+    "schritt für schritt zeichnen kinder pdf",
+    "schritt für schritt zeichnen kinder pdf kostenlos",
+    "schritt für schritt zeichnen tiere",
+    "schritt für schritt zeichnen lernen",
+    "schritt für schritt zeichnen kinder buch",
+    "schritt für schritt zeichnen pokemon",
+    "schritt für schritt zeichnen anleitung"
+   ]
+  },
+  "schritt für schritt zeichnen grundschule": {
+   "candidate": "how-to-draw",
+   "s": [
+    "schritt für schritt zeichnen grundschule"
+   ]
+  },
+  "malen lernen": {
+   "candidate": "how-to-draw",
+   "s": [
+    "malen lernen",
+    "malen lernen kinder",
+    "malen lernen erwachsene",
+    "malen lernen kinder 4 jahre vorlage",
+    "malen lernen mit acryl",
+    "malen lernen buch",
+    "malen lernen für erwachsene kostenlos",
+    "malen lernen app",
+    "malen lernen org",
+    "malen lernen kinder 4 jahre"
+   ]
+  },
+  "malen lernen grundschule": {
+   "candidate": "how-to-draw",
+   "s": [
+    "malen lernen grundschule",
+    "menschen malen lernen grundschule"
+   ]
+  },
+  "malen lernen klasse 1": {
+   "candidate": "how-to-draw",
+   "s": [
+    "malen lernen 1 klasse"
+   ]
+  }
+ }
+}

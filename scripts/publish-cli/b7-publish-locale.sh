@@ -51,14 +51,26 @@ grep -c 'collision; suffixed' "$REC/$LOC-confirm.log" | sed 's/^/suffixed slugs:
 # 3. OG images (all 11 locales named — the script's default is en,es,pt)
 node scripts/publish-cli/regenerate-og-images.js --slugs-file="$REC/$LOC-slugs.txt" --locales=$ALL11 > "$REC/$LOC-og.log" 2>&1 || { echo "OG FAILED — $REC/$LOC-og.log"; tail -20 "$REC/$LOC-og.log"; exit 2; }
 tail -3 "$REC/$LOC-og.log"
-# 4. hreflang siblings across every locale
-node scripts/publish-cli/populate-and-inject-hreflang.js --confirm --locales=$ALL11 > "$REC/$LOC-hreflang.log" 2>&1 || { echo "HREFLANG FAILED — $REC/$LOC-hreflang.log"; tail -20 "$REC/$LOC-hreflang.log"; exit 2; }
-tail -3 "$REC/$LOC-hreflang.log"
 # 4b. publish-wave STEP 6b + 6c — the bX-publish-locale scripts skipped them, so ~420 printable decks per locale
 #     shipped without the site header/footer (fixed catalogue-wide 2026-09-23). Both are idempotent per locale.
 node scripts/publish-cli/inject-analytics-beacon.js --locale=$LOC > "$REC/$LOC-beacon.log" 2>&1 || { echo "BEACON FAILED — $REC/$LOC-beacon.log"; tail -10 "$REC/$LOC-beacon.log"; exit 2; }
 node scripts/publish-cli/inject-deck-site-chrome.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-chrome.log" 2>&1 || { echo "SITE-CHROME FAILED — $REC/$LOC-chrome.log"; tail -10 "$REC/$LOC-chrome.log"; exit 2; }
 tail -1 "$REC/$LOC-chrome.log"
+# 4c. publish-wave STEP 5 + 6 + 6d + 6e — the end-of-deck topic links (per-locale internal links), the embed-hide style,
+#     the [Download PDF] [Answer key] [Make your own] strip (interactive decks; printable-only skipped by the injector) and
+#     the METER (every download through /api/quota/dl + the play wall on decks with a screen). All scoped to this
+#     locale's new slugs; all idempotent. (b3-b6 scripts skipped these — the b5/b6 decks shipped without a meter, §28.)
+node scripts/publish-cli/inject-deck-end-topic-links.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-endlinks.log" 2>&1 || { echo "END-LINKS FAILED — $REC/$LOC-endlinks.log"; tail -10 "$REC/$LOC-endlinks.log"; exit 2; }
+node scripts/publish-cli/inject-embed-hide-style.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-embedhide.log" 2>&1 || { echo "EMBED-HIDE FAILED — $REC/$LOC-embedhide.log"; tail -10 "$REC/$LOC-embedhide.log"; exit 2; }
+node scripts/publish-cli/inject-deck-actions.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-actions.log" 2>&1 || { echo "DECK-ACTIONS FAILED — $REC/$LOC-actions.log"; tail -10 "$REC/$LOC-actions.log"; exit 2; }
+tail -1 "$REC/$LOC-actions.log"
+node scripts/publish-cli/meter-deck-downloads.js --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-meter.log" 2>&1 || { echo "METER FAILED — $REC/$LOC-meter.log"; tail -10 "$REC/$LOC-meter.log"; exit 2; }
+tail -1 "$REC/$LOC-meter.log"
+node scripts/publish-cli/meter-deck-downloads.js --check --locale=$LOC --slugs-file="$REC/$LOC-slugs.txt" > "$REC/$LOC-meter-check.log" 2>&1 || { echo "METER CHECK FAILED — $REC/$LOC-meter-check.log"; tail -10 "$REC/$LOC-meter-check.log"; exit 2; }
+tail -1 "$REC/$LOC-meter-check.log"
+# 4d. hreflang siblings across every locale — LAST of the <head> writers (the block must stay last in <head>)
+node scripts/publish-cli/populate-and-inject-hreflang.js --confirm --locales=$ALL11 > "$REC/$LOC-hreflang.log" 2>&1 || { echo "HREFLANG FAILED — $REC/$LOC-hreflang.log"; tail -20 "$REC/$LOC-hreflang.log"; exit 2; }
+tail -3 "$REC/$LOC-hreflang.log"
 # 5. audit the new decks
 node scripts/publish-cli/audit-deck-html.js --slugs-file="$REC/$LOC-slugs.txt" --locales=$LOC > "$REC/$LOC-audit.log" 2>&1 || true
 tail -6 "$REC/$LOC-audit.log"

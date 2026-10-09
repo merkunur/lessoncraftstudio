@@ -11,7 +11,7 @@ const LOCS = ['en','de','es','pt','fr','it','nl','sv','da','no','fi'];
     await page.goto('file:///' + f.split(String.fromCharCode(92)).join('/'), { waitUntil: 'networkidle0', timeout: 60000 });
     const m = await page.evaluate(() => { const b = document.querySelector('[data-lcs-body]').getBoundingClientRect(); const c = document.querySelector('[data-ws-content]'); const cb = c ? c.getBoundingClientRect() : null; const ft = document.querySelector('.ws-foot').getBoundingClientRect(); const pg = document.querySelector('.ws-page') ? document.querySelector('.ws-page').getBoundingClientRect() : { height: 0 };
       // the lowest descendant of the content (an absolutely placed tab can sit below the content box)
-      let low = cb ? cb.bottom : 0; c && c.querySelectorAll('*').forEach((e) => { const r = e.getBoundingClientRect(); if (r.height && r.bottom > low) low = r.bottom; });
+      let low = cb ? cb.bottom : 0; c && [...c.querySelectorAll('*')].filter((e) => !(e instanceof SVGElement) || e.tagName.toLowerCase() === 'svg').forEach((e) => { const r = e.getBoundingClientRect(); if (r.height && r.bottom > low) low = r.bottom; });
       return { bodyTop: b.top, bodyH: b.height, bodyBottom: b.bottom, footTop: ft.top, contentBottom: low, contentTop: cb ? cb.top : 0, pageH: pg.height }; });
     (rows[id] = rows[id] || []).push({ loc, ...m }); }
   await browser.close();

@@ -124,7 +124,7 @@ async function main() {
       if (r.left < lane.left - 1 || r.right > lane.right + 1) f.push('a paper outside the page');
     }
     const body = document.querySelector('.ws-body').getBoundingClientRect();
-    const low = Math.max(...[...R.querySelectorAll('*')].map((e) => e.getBoundingClientRect().bottom));
+    const low = Math.max(...[...R.querySelectorAll('*')].filter((e) => !(e instanceof SVGElement) || e.tagName.toLowerCase() === 'svg').map((e) => e.getBoundingClientRect().bottom));
     if (low > body.bottom + 0.5) f.push(`the content runs ${Math.round(low - body.bottom)} px below the body`);
     return { f, bodyH: Math.round(body.height), stack: Math.round(low - R.getBoundingClientRect().top) };
   }, mode, band);

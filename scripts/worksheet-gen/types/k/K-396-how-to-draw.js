@@ -25,7 +25,7 @@ const LANE_PAD_Y = 2;             // the lane's vertical padding (the default 12
 // print pages, the shell body runs from the instruction to the footer rule — 766 px with a 1-2-line title and a 1-2-line instruction,
 // 733 px at the tallest shipped chrome (a 2-line title + a 3-line instruction, fi / pt). The ladder faces (a fixed-height lane) take
 // 728, the strip faces (a strip + a paper that grows) 740; a 3-line TITLE overflows and the render QA refuses the deck — shorten it.
-const BODY_LADDER = 728, BODY_STRIP = 740;
+const BODY_LADDER = 728, BODY_STRIP = 724;   // the strip stacks measure 8 px over their papers (lane padding + rail): 724 keeps them under the 733 body
 const LANE_W = 639;               // .ws-lane inner width at the default horizontal padding
 const COLOR = require('../../primitives/_tokens.js').color;
 const TRACE_GREY = '#CBCBCB';   // the trace fill: a neutral light grey (K-402 says "the grey rabbit")

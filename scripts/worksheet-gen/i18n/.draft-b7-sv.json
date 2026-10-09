@@ -1,0 +1,344 @@
+{
+  "locale": "sv",
+  "types": {
+    "K-395": {
+      "title": "Finn fem fel: {UNIT}",
+      "instruction": "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
+    },
+    "K-397": {
+      "title": "Finn tre fel: {UNIT}",
+      "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
+    },
+    "K-398": {
+      "title": "Finn felen i färgbilden",
+      "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
+    },
+    "G1-412": {
+      "title": "Finn sju fel vid dammen",
+      "instruction": "Ringa in de 7 felen, 4 i det vänstra bildparet och 3 i det högra, och kryssa i en ruta under paret för varje fel."
+    },
+    "G2-388": {
+      "title": "Finn tio fel i trädgården",
+      "instruction": "Ringa in de 10 felen, 5 i varje bildpar, och kryssa i en ruta under paret för varje fel du hittar."
+    },
+    "G1-413": {
+      "title": "Hur många fel hittar du?",
+      "instruction": "Ringa in varje fel i den nedre bilden (något kan också ha försvunnit) och skriv sedan i rutan hur många fel du hittade."
+    },
+    "G1-414": {
+      "title": "Vad har ändrats? Kryssa i orden",
+      "instruction": "Ringa in de 3 felen i den nedre bilden och kryssa sedan i orden för de saker som har ändrats."
+    },
+    "G1-415": {
+      "title": "Spegelvänd bild: hitta felen",
+      "instruction": "Bild 2 är spegelvänd; ringa in de 4 saker eller tomma ställen som ändå är annorlunda, kryssa i en ruta för varje och vik längs linjen för att kolla."
+    },
+    "K-399": {
+      "title": "Vad saknas i bilden?",
+      "instruction": "Ringa in de 3 tomma ställen i den nedre bilden där något från den övre bilden saknas, och kryssa i en ruta för varje."
+    },
+    "K-400": {
+      "title": "Bildpar: hitta felet",
+      "instruction": "Varje rad visar samma utsnitt två gånger; ringa in det enda ställe som är annorlunda i den högra bilden och kryssa i rutan på den raden."
+    },
+    "G2-389": {
+      "title": "Skriv vad som är annorlunda",
+      "instruction": "Ringa in de 3 felen (något kan saknas) och skriv sedan en mening om varje fel på raderna; använd orden i de två remsorna."
+    },
+    "K-396": {
+      "title": "Hur man ritar {L} steg för steg",
+      "instruction": "Titta på de fyra numrerade stegen och rita katten i den stora rutan: först konturen, sedan de nya linjerna du ser i varje steg."
+    },
+    "K-401": {
+      "title": "Rita {L} av enkla former",
+      "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
+    },
+    "K-402": {
+      "title": "Rita över {L}, rita sedan själv",
+      "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+    },
+    "K-403": {
+      "title": "Rita färdigt {N}",
+      "instruction": "Titta på hela hästen, rita de linjer som saknas på den andra hästen och rita sedan en egen häst i rutan under."
+    },
+    "G1-416": {
+      "title": "Rita {L} ruta för ruta",
+      "instruction": "Titta på dinosaurien i rutorna och rita av den ruta för ruta i de tomma rutorna, och sedan en gång till utan rutor."
+    },
+    "K-404": {
+      "title": "Rita {L} och skriv ordet",
+      "instruction": "Följ stegen och rita fisken i rutan, fyll sedan i ordet under och skriv det själv."
+    },
+    "G1-417": {
+      "title": "Rita {L} vid dammen",
+      "instruction": "Följ stegen och rita sedan grodan på den tomma dammen i bilden."
+    },
+    "G1-418": {
+      "title": "Ordna stegen: rita {L}",
+      "instruction": "Stegen har hamnat i fel ordning: skriv 1 till 5 i rutorna bredvid dem i rätt ordning och rita sedan ugglan."
+    },
+    "G1-419": {
+      "title": "Rita steg för steg: {L}",
+      "instruction": "Rita det du ser i varje steg i rutan under det, med de nya linjerna varje gång, och sedan hela fågeln, större, i den stora rutan."
+    },
+    "G2-390": {
+      "title": "Rita {L} och skriv om den",
+      "instruction": "Rita björnen med hjälp av stegen och skriv sedan tre meningar om din björn på raderna; börja med orden som redan står där."
+    },
+    "G2-391": {
+      "title": "Rita {L} ur minnet",
+      "instruction": "Titta på fjärilen, vik pappret bakåt längs den streckade linjen så att du inte ser den och rita den ur minnet i den stora rutan."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "finn-fem-fel",
+      "name": "Finn fem fel"
+    },
+    "how-to-draw": {
+      "slug": "rita-steg-for-steg",
+      "name": "Rita steg för steg"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Finn fem fel för förskoleklass, åk 1 och åk 2: jämför två bilder, hitta och ringa in 3 till 10 fel, med facit och en version att trycka på direkt på skärmen.",
+      "short": "Jämför två bilder och hitta felen"
+    },
+    "how-to-draw": {
+      "full": "Rita steg för steg för förskoleklass, åk 1 och åk 2: bygg djur av enkla former, fyll i, rita färdigt, rita ruta för ruta eller rita ur minnet.",
+      "short": "Lär dig rita djur steg för steg"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Finn fem fel att skriva ut gratis: hitta 3, 5, 7 eller 10 fel i bildpar, färgbilder och spegelvända bilder, med facit, för förskoleklass, åk 1 och åk 2.",
+    "how-to-draw": "Rita steg för steg att skriva ut gratis: katt, hund, kanin, häst och fler djur av enkla former, ruta för ruta eller ur minnet, från förskoleklass till åk 2."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Bild 2:",
+      "changeWords": [
+        "saknas",
+        "har kommit till",
+        "är större",
+        "är mindre",
+        "har flyttat sig",
+        "har vänt på sig",
+        "har bytts ut"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuell perception"
+      },
+      "rail": {
+        "slug": "finn-fem-fel",
+        "name": "Finn fem fel"
+      },
+      "strings": {
+        "base": {
+          "title": "Finn fem fel: {UNIT}",
+          "instruction": "Jämför bild 1 med bild 2 under den, ringa in de 5 saker som är annorlunda och kryssa i en ruta för varje fel du hittar."
+        },
+        "three-big": {
+          "title": "Finn tre fel: {UNIT}",
+          "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
+        },
+        "colour": {
+          "title": "Finn felen i färgbilden",
+          "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
+        },
+        "seven": {
+          "title": "Finn sju fel vid dammen",
+          "instruction": "Ringa in de 7 felen, 4 i det vänstra bildparet och 3 i det högra, och kryssa i en ruta under paret för varje fel."
+        },
+        "ten-pairs": {
+          "title": "Finn tio fel i trädgården",
+          "instruction": "Ringa in de 10 felen, 5 i varje bildpar, och kryssa i en ruta under paret för varje fel du hittar."
+        },
+        "how-many": {
+          "title": "Hur många fel hittar du?",
+          "instruction": "Ringa in varje fel i den nedre bilden (något kan också ha försvunnit) och skriv sedan i rutan hur många fel du hittade."
+        },
+        "what-changed": {
+          "title": "Vad har ändrats? Kryssa i orden",
+          "instruction": "Ringa in de 3 felen i den nedre bilden och kryssa sedan i orden för de saker som har ändrats."
+        },
+        "mirror-pair": {
+          "title": "Spegelvänd bild: hitta felen",
+          "instruction": "Bild 2 är spegelvänd; ringa in de 4 saker eller tomma ställen som ändå är annorlunda, kryssa i en ruta för varje och vik längs linjen för att kolla."
+        },
+        "missing": {
+          "title": "Vad saknas i bilden?",
+          "instruction": "Ringa in de 3 tomma ställen i den nedre bilden där något från den övre bilden saknas, och kryssa i en ruta för varje."
+        },
+        "pairs": {
+          "title": "Bildpar: hitta felet",
+          "instruction": "Varje rad visar samma utsnitt två gånger; ringa in det enda ställe som är annorlunda i den högra bilden och kryssa i rutan på den raden."
+        },
+        "write": {
+          "title": "Skriv vad som är annorlunda",
+          "instruction": "Ringa in de 3 felen (något kan saknas) och skriv sedan en mening om varje fel på raderna; använd orden i de två remsorna."
+        }
+      },
+      "tap": {
+        "fd-tap": "Titta noga på bilden ovanför och tryck sedan på varje ställe i bilden under som är annorlunda.",
+        "fd-tapCount": "Hitta varje fel i den nedre bilden (något kan också ha försvunnit) och tryck sedan på siffran som visar hur många fel det finns.",
+        "fd-tapMirror": "Den nedre bilden är spegelvänd. Tryck på varje ställe i den som ändå är annorlunda.",
+        "fd-tapMissing": "Tryck på varje tomt ställe i den nedre bilden där något från den övre bilden saknas.",
+        "fd-tapPairs": "Varje par visar samma utsnitt två gånger. Tryck på det enda ställe som är annorlunda i den andra bilden i varje par.",
+        "fd-tapWords": "Hitta vad som har ändrats i den nedre bilden och tryck sedan på orden för de saker som har ändrats.",
+        "fd-tapPairs2": "Två bildpar: titta på bild 1 i varje par och tryck sedan på varje ställe i bild 2 som är annorlunda."
+      },
+      "numberWords": {
+        "3": "tre",
+        "5": "fem",
+        "7": "sju",
+        "10": "tio"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "en katt",
+          "stem": "katt",
+          "n": "katten"
+        },
+        "animals-bw-2-dog": {
+          "t": "en hund",
+          "stem": "hund",
+          "n": "hunden"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "en kanin",
+          "stem": "kanin",
+          "n": "kaninen"
+        },
+        "farm-animals-bw-pony": {
+          "t": "en häst",
+          "stem": "häst",
+          "n": "hästen"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "en dinosaurie",
+          "stem": "dinosaurie",
+          "n": "dinosaurien"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "en fisk",
+          "stem": "fisk",
+          "n": "fisken"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "en groda",
+          "stem": "groda",
+          "n": "grodan"
+        },
+        "animals-bw-5-owl": {
+          "t": "en uggla",
+          "stem": "uggla",
+          "n": "ugglan"
+        },
+        "birds-bw-hummingbird": {
+          "t": "en fågel",
+          "stem": "fågel",
+          "n": "fågeln"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "en björn",
+          "stem": "björn",
+          "n": "björnen"
+        },
+        "easter-bw-butterfly": {
+          "t": "en fjäril",
+          "stem": "fjäril",
+          "n": "fjärilen"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "katt",
+        "animals-bw-2-dog": "hund",
+        "animals-bw-4-rabbit-2": "kanin",
+        "farm-animals-bw-pony": "häst",
+        "animals-bw-3-dinosaur": "dinosaurie",
+        "animals-bw-3-fish-2": "fisk",
+        "animals-bw-3-frog-2": "groda",
+        "animals-bw-5-owl": "uggla",
+        "birds-bw-hummingbird": "fågel",
+        "zoo-animals-bw-bear-2": "björn",
+        "easter-bw-butterfly": "fjäril"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Min björn är",
+          "Den kan",
+          "Den tycker om"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Hur man ritar {L} steg för steg",
+          "instruction": "Titta på de fyra numrerade stegen och rita katten i den stora rutan: först konturen, sedan de nya linjerna du ser i varje steg."
+        },
+        "shapes": {
+          "title": "Rita {L} av enkla former",
+          "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
+        },
+        "trace": {
+          "title": "Rita över {L}, rita sedan själv",
+          "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
+        },
+        "finish": {
+          "title": "Rita färdigt {N}",
+          "instruction": "Titta på hela hästen, rita de linjer som saknas på den andra hästen och rita sedan en egen häst i rutan under."
+        },
+        "grid": {
+          "title": "Rita {L} ruta för ruta",
+          "instruction": "Titta på dinosaurien i rutorna och rita av den ruta för ruta i de tomma rutorna, och sedan en gång till utan rutor."
+        },
+        "word": {
+          "title": "Rita {L} och skriv ordet",
+          "instruction": "Följ stegen och rita fisken i rutan, fyll sedan i ordet under och skriv det själv."
+        },
+        "scene": {
+          "title": "Rita {L} vid dammen",
+          "instruction": "Följ stegen och rita sedan grodan på den tomma dammen i bilden."
+        },
+        "order": {
+          "title": "Ordna stegen: rita {L}",
+          "instruction": "Stegen har hamnat i fel ordning: skriv 1 till 5 i rutorna bredvid dem i rätt ordning och rita sedan ugglan."
+        },
+        "copy-steps": {
+          "title": "Rita steg för steg: {L}",
+          "instruction": "Rita det du ser i varje steg i rutan under det, med de nya linjerna varje gång, och sedan hela fågeln, större, i den stora rutan."
+        },
+        "write": {
+          "title": "Rita {L} och skriv om den",
+          "instruction": "Rita björnen med hjälp av stegen och skriv sedan tre meningar om din björn på raderna; börja med orden som redan står där."
+        },
+        "memory": {
+          "title": "Rita {L} ur minnet",
+          "instruction": "Titta på fjärilen, vik pappret bakåt längs den streckade linjen så att du inte ser den och rita den ur minnet i den stora rutan.",
+          "foldWord": "vik"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuell perception",
+    "Art": "Bild"
+  },
+  "enAudit": [
+    "G1-412 seven + G2-388 ten-pairs (EN screen render + bank TAP_KEY): both two-pair faces reuse the base tap string fd-tap ('Look at the top picture, then tap every place in the bottom picture that is different'), but their screen is FOUR panels stacked (A1, A2, B1, B2) with no index tabs and no pair divider, so 'the top picture' and 'the bottom picture' name one panel each while the child must tap in panels 2 AND 4; nothing on the screen says the four panels are two pairs. The two-pair faces need their own tap string ('each pair of pictures: tap in the second one') or tabs/labels on the screen.",
+    "G1-414 what-changed + G2-389 write (EN key + bank WORD_FAMILY): on the savanna word scenes the strip prints 'bird' (the chick) beside 'ostrich', and on the EN what-changed key the ostrich IS one of the three changes (ring 1, mirrored); an ostrich is a bird to a six-year-old, so on any seed where the ostrich changes and the chick does not, 'bird' is a second defensible tick for the same drawing, the exact two-referent class WORD_FAMILY exists for, yet ostrich (like owl, hen, rooster, swan, peacock) is not a member of the bird family in the bank, so clashKeys never fires on these scenes.",
+    "G2-389 write (EN key): ring 2 sits over an EMPTY place (the cloud is removed) while the instruction says 'Circle the 3 differences' with no mention of an empty place, unlike mirror-pair and missing, which now say 'things or empty places'; the write face's kinds include remove, so the same wording belongs here (the strip word 'missing' is the only hint a child gets).",
+    "K-400 pairs (EN render + key, row 2): the one difference is the SUN removed, so the right window is a near-empty frame (a hummingbird and a cloud corner) and the child circles blank paper; the print instruction ('the one place that is different') allows it, but the tap string fd-tapPairs gives no cue that a difference can be an absence, while fd-tapMirror and fd-tapCount now do ('some things may be gone'); fd-tapPairs should say 'the one place or empty place'.",
+    "G1-413 how-many (EN key, seed null): the count lands on 6 with TWO empty places (the sun and the left flower removed) plus a tulip-to-flower swap (ring 5); a swap is neither 'gone' nor changed in place (a flower now stands where the tulip was), which is the hardest kind to count on the only face whose count is secret, and the parenthesis '(some things may be gone)' does not cover it. Worth excluding swap from the how-many kinds or saying 'changed or gone'.",
+    "G2-391 memory (EN render): the fold line is drawn with ARROWHEADS at both ends pointing outward; to a child that glyph reads as 'cut here' or 'this wide', not 'fold here' (a fold mark is a plain dashed line, sometimes with a small folded-corner glyph); nothing else on the page or in the instruction explains the arrows.",
+    "K-396 base + G1-419 copy-steps (EN bank): the instructions now say 'the new lines you see in each step' / 'adding the new lines as you go', which fixes the earlier 'orange lines' promise; however the base instruction still opens with 'Look at the four numbered steps' as a baked count, so a 5-step unit pinned through unitOverrides (the FINAL allows 5 at G1/G2) ships a false sentence; 'the numbered steps' carries no count and stays true.",
+    "K-397 three-big (EN render vs records): the sweep page reads 'Find 3 Differences: Rabbit on the Farm' while the row file pins savanna-giraffe-rich, the working-copy bank pins beach-bucket-rich and the FINAL names pond-goose; four sources, four units for one face, so a locale's title scene name is whatever the last re-pin left, and the landing brief cannot be written from any of them until one wins."
+  ]
+}

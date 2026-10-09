@@ -1,0 +1,337 @@
+{
+  "locale": "no",
+  "types": {
+    "K-395": {
+      "title": "Finn fem feil: {UNIT}",
+      "instruction": "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+    },
+    "K-397": {
+      "title": "Finn tre feil: {UNIT}",
+      "instruction": "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+    },
+    "K-398": {
+      "title": "Finn feilene i fargebildet",
+      "instruction": "Sett ring rundt de 5 tingene i det nederste fargebildet som er annerledes, kryss av i en rute for hver, og se godt på fargene."
+    },
+    "G1-412": {
+      "title": "Finn sju feil ved dammen",
+      "instruction": "Sett ring rundt de 7 feilene, 4 i det venstre bildeparet og 3 i det høyre, og kryss av i en rute under paret for hver feil."
+    },
+    "G2-388": {
+      "title": "Finn ti feil i hagen: vanskelig",
+      "instruction": "Sett ring rundt de 10 feilene, 5 i hvert bildepar, og kryss av i en rute under paret for hver feil du finner."
+    },
+    "G1-413": {
+      "title": "Hvor mange feil finner du?",
+      "instruction": "Sett ring rundt hver feil i det nederste bildet (noe kan også være borte), og skriv i ruta hvor mange feil du fant."
+    },
+    "G1-414": {
+      "title": "Hva er endret? Kryss av ordene",
+      "instruction": "Sett ring rundt de 3 feilene i det nederste bildet, og kryss så av ordene for de tingene som er endret."
+    },
+    "G1-415": {
+      "title": "Speilvendt bilde: finn feilene",
+      "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+    },
+    "K-399": {
+      "title": "Hva mangler i bildet?",
+      "instruction": "Sett ring rundt de 3 tomme stedene i det nederste bildet der noe fra det øverste bildet mangler, og kryss av i en rute for hver."
+    },
+    "K-400": {
+      "title": "Bildepar: finn feilen",
+      "instruction": "Hver rad viser det samme utsnittet to ganger; sett ring rundt det ene stedet som er annerledes i det høyre bildet, og kryss av i ruta på raden."
+    },
+    "G2-389": {
+      "title": "Skriv hva som er annerledes",
+      "instruction": "Sett ring rundt de 3 feilene (noe kan mangle), og skriv så en setning om hver feil på linjene; bruk ordene i de to stripene."
+    },
+    "K-396": {
+      "title": "Tegn {L} steg for steg",
+      "instruction": "Se på de fire nummererte stegene, og tegn katten på det store arket: først omrisset og så de nye strekene du ser i hvert steg."
+    },
+    "K-401": {
+      "title": "Tegn {L} av enkle former",
+      "instruction": "Tegn oppå de stiplede formene som allerede er på arket, tegn så omrisset av hunden rundt dem, og gjør hunden ferdig med stegene."
+    },
+    "K-402": {
+      "title": "Følg {L} med blyanten, og tegn den selv",
+      "instruction": "Følg den grå kaninen med blyanten din, og tegn så kaninen selv i den tomme ruta ved siden av."
+    },
+    "K-403": {
+      "title": "Tegn {N} ferdig",
+      "instruction": "Se på hele hesten, tegn strekene som mangler på den andre hesten, og tegn så din egen hest i ruta under."
+    },
+    "G1-416": {
+      "title": "Tegn {L} med rutenett",
+      "instruction": "Se på dinosauren i rutenettet, tegn den rute for rute i det tomme rutenettet, og tegn den så en gang til uten rutenett."
+    },
+    "K-404": {
+      "title": "Tegn {L}, og skriv ordet",
+      "instruction": "Følg stegene, og tegn fisken i ruta; skriv så oppå ordet under, og skriv det selv."
+    },
+    "G1-417": {
+      "title": "Tegn {L} ved dammen",
+      "instruction": "Følg stegene, og tegn så frosken på den tomme dammen i bildet."
+    },
+    "G1-418": {
+      "title": "Sett stegene i rekkefølge: tegn {L}",
+      "instruction": "Stegene er stokket om: skriv 1 til 5 i rutene ved siden av dem i riktig rekkefølge, og tegn så ugla."
+    },
+    "G1-419": {
+      "title": "Steg for steg: tegn {L}",
+      "instruction": "Tegn det du ser i hvert steg, i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket under."
+    },
+    "G2-390": {
+      "title": "Tegn {L}, og skriv om den",
+      "instruction": "Tegn bjørnen med stegene, og skriv så tre setninger om bjørnen din på linjene; begynn med ordene som allerede står der."
+    },
+    "G2-391": {
+      "title": "Tegn {L} etter hukommelsen",
+      "instruction": "Se på sommerfuglen, brett arket bakover langs den stiplede linja så du ikke ser den, og tegn den etter hukommelsen på det store arket."
+    }
+  },
+  "families": {
+    "find-the-differences": {
+      "slug": "finn-fem-feil",
+      "name": "Finn fem feil"
+    },
+    "how-to-draw": {
+      "slug": "tegn-steg-for-steg",
+      "name": "Tegn steg for steg"
+    }
+  },
+  "skills": {
+    "find-the-differences": {
+      "full": "Finn fem feil for barnehagen, 1. og 2. trinn: sammenlign to bilder, finn og sett ring rundt 3 til 10 feil, med fasit og en versjon du kan trykke på rett på skjermen.",
+      "short": "Sammenlign to bilder og finn feilene"
+    },
+    "how-to-draw": {
+      "full": "Tegn steg for steg for barnehagen, 1. og 2. trinn: bygg dyr av enkle former, følg strekene, tegn ferdig, tegn med rutenett eller tegn etter hukommelsen.",
+      "short": "Lær å tegne dyr steg for steg ut fra enkle former"
+    }
+  },
+  "topicMeta": {
+    "find-the-differences": "Finn fem feil til utskrift, gratis: finn 3, 5, 7 eller 10 feil i bildepar, fargebilder og speilvendte bilder, med fasit, for barnehagen, 1. og 2. trinn.",
+    "how-to-draw": "Tegn steg for steg til utskrift, gratis: katt, hund, kanin, hest og flere dyr av enkle former, med rutenett eller etter hukommelsen, fra barnehagen til 2. trinn."
+  },
+  "banks": {
+    "find-the-differences": {
+      "starter": "Bilde 2:",
+      "changeWords": [
+        "mangler",
+        "har kommet til",
+        "har blitt større",
+        "har blitt mindre",
+        "har flyttet seg",
+        "er snudd",
+        "er byttet ut"
+      ],
+      "strandNames": {
+        "Visual Perception": "Visuell oppmerksomhet"
+      },
+      "rail": {
+        "slug": "finn-fem-feil",
+        "name": "Finn fem feil"
+      },
+      "strings": {
+        "base": {
+          "title": "Finn fem feil: {UNIT}",
+          "instruction": "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+        },
+        "three-big": {
+          "title": "Finn tre feil: {UNIT}",
+          "instruction": "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+        },
+        "colour": {
+          "title": "Finn feilene i fargebildet",
+          "instruction": "Sett ring rundt de 5 tingene i det nederste fargebildet som er annerledes, kryss av i en rute for hver, og se godt på fargene."
+        },
+        "seven": {
+          "title": "Finn sju feil ved dammen",
+          "instruction": "Sett ring rundt de 7 feilene, 4 i det venstre bildeparet og 3 i det høyre, og kryss av i en rute under paret for hver feil."
+        },
+        "ten-pairs": {
+          "title": "Finn ti feil i hagen: vanskelig",
+          "instruction": "Sett ring rundt de 10 feilene, 5 i hvert bildepar, og kryss av i en rute under paret for hver feil du finner."
+        },
+        "how-many": {
+          "title": "Hvor mange feil finner du?",
+          "instruction": "Sett ring rundt hver feil i det nederste bildet (noe kan også være borte), og skriv i ruta hvor mange feil du fant."
+        },
+        "what-changed": {
+          "title": "Hva er endret? Kryss av ordene",
+          "instruction": "Sett ring rundt de 3 feilene i det nederste bildet, og kryss så av ordene for de tingene som er endret."
+        },
+        "mirror-pair": {
+          "title": "Speilvendt bilde: finn feilene",
+          "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+        },
+        "missing": {
+          "title": "Hva mangler i bildet?",
+          "instruction": "Sett ring rundt de 3 tomme stedene i det nederste bildet der noe fra det øverste bildet mangler, og kryss av i en rute for hver."
+        },
+        "pairs": {
+          "title": "Bildepar: finn feilen",
+          "instruction": "Hver rad viser det samme utsnittet to ganger; sett ring rundt det ene stedet som er annerledes i det høyre bildet, og kryss av i ruta på raden."
+        },
+        "write": {
+          "title": "Skriv hva som er annerledes",
+          "instruction": "Sett ring rundt de 3 feilene (noe kan mangle), og skriv så en setning om hver feil på linjene; bruk ordene i de to stripene."
+        }
+      },
+      "tap": {
+        "fd-tap": "Se godt på bildet øverst, og trykk så på hvert sted i bildet nederst som er annerledes.",
+        "fd-tapCount": "Finn hver feil i det nederste bildet (noe kan også være borte), og trykk så på tallet som viser hvor mange feil det er.",
+        "fd-tapMirror": "Det nederste bildet er speilvendt. Trykk på hvert sted i det som likevel er annerledes.",
+        "fd-tapMissing": "Trykk på hvert tomme sted i det nederste bildet der noe fra det øverste bildet mangler.",
+        "fd-tapPairs": "Hvert par viser det samme utsnittet to ganger. Trykk på det ene stedet som er annerledes i det andre bildet i hvert par.",
+        "fd-tapWords": "Finn det som er endret i det nederste bildet, og trykk så på ordene for de tingene som er endret.",
+        "fd-tapPairs2": "To bildepar: se på bilde 1 i hvert par, og trykk så på hvert sted i bilde 2 som er annerledes."
+      },
+      "numberWords": {
+        "3": "tre",
+        "5": "fem",
+        "7": "sju",
+        "10": "ti"
+      },
+      "refusals": {},
+      "unitOverrides": {}
+    },
+    "how-to-draw": {
+      "forms": {
+        "animals-bw-3-cat-2": {
+          "t": "en katt",
+          "stem": "katt",
+          "n": "katten"
+        },
+        "animals-bw-2-dog": {
+          "t": "en hund",
+          "stem": "hund",
+          "n": "hunden"
+        },
+        "animals-bw-4-rabbit-2": {
+          "t": "en kanin",
+          "stem": "kanin",
+          "n": "kaninen"
+        },
+        "farm-animals-bw-pony": {
+          "t": "en hest",
+          "stem": "hest",
+          "n": "hesten"
+        },
+        "animals-bw-3-dinosaur": {
+          "t": "en dinosaur",
+          "stem": "dinosaur",
+          "n": "dinosauren"
+        },
+        "animals-bw-3-fish-2": {
+          "t": "en fisk",
+          "stem": "fisk",
+          "n": "fisken"
+        },
+        "animals-bw-3-frog-2": {
+          "t": "en frosk",
+          "stem": "frosk",
+          "n": "frosken"
+        },
+        "animals-bw-5-owl": {
+          "t": "ei ugle",
+          "stem": "ugl",
+          "n": "ugla"
+        },
+        "birds-bw-hummingbird": {
+          "t": "en fugl",
+          "stem": "fugl",
+          "n": "fuglen"
+        },
+        "zoo-animals-bw-bear-2": {
+          "t": "en bjørn",
+          "stem": "bjørn",
+          "n": "bjørnen"
+        },
+        "easter-bw-butterfly": {
+          "t": "en sommerfugl",
+          "stem": "sommerfugl",
+          "n": "sommerfuglen"
+        }
+      },
+      "nouns": {
+        "animals-bw-3-cat-2": "katt",
+        "animals-bw-2-dog": "hund",
+        "animals-bw-4-rabbit-2": "kanin",
+        "farm-animals-bw-pony": "hest",
+        "animals-bw-3-dinosaur": "dinosaur",
+        "animals-bw-3-fish-2": "fisk",
+        "animals-bw-3-frog-2": "frosk",
+        "animals-bw-5-owl": "ugle",
+        "birds-bw-hummingbird": "fugl",
+        "zoo-animals-bw-bear-2": "bjørn",
+        "easter-bw-butterfly": "sommerfugl"
+      },
+      "starters": {
+        "zoo-animals-bw-bear-2": [
+          "Bjørnen min er",
+          "Den kan",
+          "Den liker"
+        ]
+      },
+      "unitOverrides": {},
+      "refusals": {},
+      "strings": {
+        "base": {
+          "title": "Tegn {L} steg for steg",
+          "instruction": "Se på de fire nummererte stegene, og tegn katten på det store arket: først omrisset og så de nye strekene du ser i hvert steg."
+        },
+        "shapes": {
+          "title": "Tegn {L} av enkle former",
+          "instruction": "Tegn oppå de stiplede formene som allerede er på arket, tegn så omrisset av hunden rundt dem, og gjør hunden ferdig med stegene."
+        },
+        "trace": {
+          "title": "Følg {L} med blyanten, og tegn den selv",
+          "instruction": "Følg den grå kaninen med blyanten din, og tegn så kaninen selv i den tomme ruta ved siden av."
+        },
+        "finish": {
+          "title": "Tegn {N} ferdig",
+          "instruction": "Se på hele hesten, tegn strekene som mangler på den andre hesten, og tegn så din egen hest i ruta under."
+        },
+        "grid": {
+          "title": "Tegn {L} med rutenett",
+          "instruction": "Se på dinosauren i rutenettet, tegn den rute for rute i det tomme rutenettet, og tegn den så en gang til uten rutenett."
+        },
+        "word": {
+          "title": "Tegn {L}, og skriv ordet",
+          "instruction": "Følg stegene, og tegn fisken i ruta; skriv så oppå ordet under, og skriv det selv."
+        },
+        "scene": {
+          "title": "Tegn {L} ved dammen",
+          "instruction": "Følg stegene, og tegn så frosken på den tomme dammen i bildet."
+        },
+        "order": {
+          "title": "Sett stegene i rekkefølge: tegn {L}",
+          "instruction": "Stegene er stokket om: skriv 1 til 5 i rutene ved siden av dem i riktig rekkefølge, og tegn så ugla."
+        },
+        "copy-steps": {
+          "title": "Steg for steg: tegn {L}",
+          "instruction": "Tegn det du ser i hvert steg, i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket under."
+        },
+        "write": {
+          "title": "Tegn {L}, og skriv om den",
+          "instruction": "Tegn bjørnen med stegene, og skriv så tre setninger om bjørnen din på linjene; begynn med ordene som allerede står der."
+        },
+        "memory": {
+          "title": "Tegn {L} etter hukommelsen",
+          "instruction": "Se på sommerfuglen, brett arket bakover langs den stiplede linja så du ikke ser den, og tegn den etter hukommelsen på det store arket.",
+          "foldWord": "brett"
+        }
+      }
+    }
+  },
+  "refusals": {},
+  "strandNames": {
+    "Visual Perception": "Visuell oppmerksomhet",
+    "Art": "Kunst og håndverk"
+  },
+  "enAudit": [
+    "[NSR-FLAG] This Norwegian (bokmål) draft was authored by the build session from the brief and the finals (no native panel: the operator paused agents); a Norwegian native check is required before publish."
+  ]
+}

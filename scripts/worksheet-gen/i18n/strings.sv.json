@@ -3010,7 +3010,7 @@
     "instruction": "Leta efter de 3 stora felen i den nedre bilden, ringa in dem och kryssa i de 3 rutorna."
   },
   "K-398": {
-    "title": "Hitta felen i färgbilden",
+    "title": "Finn felen i färgbilden",
     "instruction": "Ringa in de 5 saker i den nedre färgbilden som är annorlunda och kryssa i en ruta för varje; titta också noga på färgerna."
   },
   "G1-412": {
@@ -3050,7 +3050,7 @@
     "instruction": "Fyll i de prickade formerna som redan finns i rutan, rita sedan hundens kontur runt dem och gör klart hunden med stegen."
   },
   "K-402": {
-    "title": "Fyll i {L}, rita sedan själv",
+    "title": "Rita över {L}, rita sedan själv",
     "instruction": "Rita på den grå kaninen med din penna och rita sedan kaninen själv i den tomma rutan bredvid."
   },
   "K-403": {

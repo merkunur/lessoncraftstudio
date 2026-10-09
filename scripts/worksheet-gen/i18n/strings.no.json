@@ -3022,5 +3022,93 @@
   "K-394": {
     "title": "Fargelegg etter tall: {UNIT}",
     "instruction": "Fargelegg hver del med fargen som hører til tallet."
+  },
+  "K-395": {
+    "title": "Finn fem feil: {UNIT}",
+    "instruction": "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+  },
+  "K-396": {
+    "title": "Tegn {L} steg for steg",
+    "instruction": "Se på de fire nummererte stegene, og tegn katten på det store arket: først omrisset og så de nye strekene du ser i hvert steg."
+  },
+  "K-397": {
+    "title": "Finn tre feil: {UNIT}",
+    "instruction": "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+  },
+  "K-398": {
+    "title": "Finn feilene i fargebildet",
+    "instruction": "Sett ring rundt de 5 tingene i det nederste fargebildet som er annerledes, kryss av i en rute for hver, og se godt på fargene."
+  },
+  "G1-412": {
+    "title": "Finn sju feil ved dammen",
+    "instruction": "Sett ring rundt de 7 feilene, 4 i det venstre bildeparet og 3 i det høyre, og kryss av i en rute under paret for hver feil."
+  },
+  "G2-388": {
+    "title": "Finn ti feil i hagen: vanskelig",
+    "instruction": "Sett ring rundt de 10 feilene, 5 i hvert bildepar, og kryss av i en rute under paret for hver feil du finner."
+  },
+  "G1-413": {
+    "title": "Hvor mange feil finner du?",
+    "instruction": "Sett ring rundt hver feil i det nederste bildet (noe kan også være borte), og skriv i ruta hvor mange feil du fant."
+  },
+  "G1-414": {
+    "title": "Hva er endret? Kryss av ordene",
+    "instruction": "Sett ring rundt de 3 feilene i det nederste bildet, og kryss så av ordene for de tingene som er endret."
+  },
+  "G1-415": {
+    "title": "Speilvendt bilde: finn feilene",
+    "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+  },
+  "K-399": {
+    "title": "Hva mangler i bildet?",
+    "instruction": "Sett ring rundt de 3 tomme stedene i det nederste bildet der noe fra det øverste bildet mangler, og kryss av i en rute for hver."
+  },
+  "K-400": {
+    "title": "Bildepar: finn feilen",
+    "instruction": "Hver rad viser det samme utsnittet to ganger; sett ring rundt det ene stedet som er annerledes i det høyre bildet, og kryss av i ruta på raden."
+  },
+  "G2-389": {
+    "title": "Skriv hva som er annerledes",
+    "instruction": "Sett ring rundt de 3 feilene (noe kan mangle), og skriv så en setning om hver feil på linjene; bruk ordene i de to stripene."
+  },
+  "K-401": {
+    "title": "Tegn {L} av enkle former",
+    "instruction": "Tegn oppå de stiplede formene som allerede er på arket, tegn så omrisset av hunden rundt dem, og gjør hunden ferdig med stegene."
+  },
+  "K-402": {
+    "title": "Følg {L} med blyanten, og tegn den selv",
+    "instruction": "Følg den grå kaninen med blyanten din, og tegn så kaninen selv i den tomme ruta ved siden av."
+  },
+  "K-403": {
+    "title": "Tegn {N} ferdig",
+    "instruction": "Se på hele hesten, tegn strekene som mangler på den andre hesten, og tegn så din egen hest i ruta under."
+  },
+  "G1-416": {
+    "title": "Tegn {L} med rutenett",
+    "instruction": "Se på dinosauren i rutenettet, tegn den rute for rute i det tomme rutenettet, og tegn den så en gang til uten rutenett."
+  },
+  "K-404": {
+    "title": "Tegn {L}, og skriv ordet",
+    "instruction": "Følg stegene, og tegn fisken i ruta; skriv så oppå ordet under, og skriv det selv."
+  },
+  "G1-417": {
+    "title": "Tegn {L} ved dammen",
+    "instruction": "Følg stegene, og tegn så frosken på den tomme dammen i bildet."
+  },
+  "G1-418": {
+    "title": "Sett stegene i rekkefølge: tegn {L}",
+    "instruction": "Stegene er stokket om: skriv 1 til 5 i rutene ved siden av dem i riktig rekkefølge, og tegn så ugla."
+  },
+  "G1-419": {
+    "title": "Steg for steg: tegn {L}",
+    "instruction": "Tegn det du ser i hvert steg, i ruta under det, med de nye strekene hver gang, og tegn så hele fuglen større på arket under."
+  },
+  "G2-390": {
+    "title": "Tegn {L}, og skriv om den",
+    "instruction": "Tegn bjørnen med stegene, og skriv så tre setninger om bjørnen din på linjene; begynn med ordene som allerede står der."
+  },
+  "G2-391": {
+    "title": "Tegn {L} etter hukommelsen",
+    "instruction": "Se på sommerfuglen, brett arket bakover langs den stiplede linja så du ikke ser den, og tegn den etter hukommelsen på det store arket."
   }
 }

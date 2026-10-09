@@ -4766,7 +4766,9 @@
           "it": "gioco-delle-differenze",
           "nl": "verschillen-zoeken",
           "sv": "finn-fem-fel",
-          "da": "find-fem-fejl"
+          "da": "find-fem-fejl",
+          "no": "finn-fem-feil",
+          "fi": "etsi-viisi-virhetta"
         },
         "name": {
           "en": "Find the Differences",
@@ -4777,7 +4779,9 @@
           "it": "Gioco delle differenze",
           "nl": "Verschillen zoeken",
           "sv": "Finn fem fel",
-          "da": "Find fem fejl"
+          "da": "Find fem fejl",
+          "no": "Finn fem feil",
+          "fi": "Etsi viisi virhettä"
         }
       },
       "how-to-draw": {
@@ -4790,7 +4794,9 @@
           "it": "disegno-guidato",
           "nl": "leren-tekenen",
           "sv": "rita-steg-for-steg",
-          "da": "tegn-trin-for-trin"
+          "da": "tegn-trin-for-trin",
+          "no": "tegn-steg-for-steg",
+          "fi": "piirra-vaihe-vaiheelta"
         },
         "name": {
           "en": "How to Draw",
@@ -4801,7 +4807,9 @@
           "it": "Disegno guidato",
           "nl": "Leren tekenen",
           "sv": "Rita steg för steg",
-          "da": "Tegn trin for trin"
+          "da": "Tegn trin for trin",
+          "no": "Tegn steg for steg",
+          "fi": "Piirrä vaihe vaiheelta"
         }
       }
     },

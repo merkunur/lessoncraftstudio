@@ -439,5 +439,13 @@
   "cursive-writing": {
     "full": "Sammenhengende skrift: skrive små og store bokstaver bundet sammen, øve på bokstavforbindelser, skrive og lese ord og skrive av hele setninger.",
     "short": "Små og store bokstaver, ord og setninger"
+  },
+  "find-the-differences": {
+    "full": "Finn fem feil for barnehagen, 1. og 2. trinn: sammenlign to bilder, finn og sett ring rundt 3 til 10 feil, med fasit og en versjon du kan trykke på rett på skjermen.",
+    "short": "Sammenlign to bilder og finn feilene"
+  },
+  "how-to-draw": {
+    "full": "Tegn steg for steg for barnehagen, 1. og 2. trinn: bygg dyr av enkle former, følg strekene, tegn ferdig, tegn med rutenett eller tegn etter hukommelsen.",
+    "short": "Lær å tegne dyr steg for steg ut fra enkle former"
   }
 }

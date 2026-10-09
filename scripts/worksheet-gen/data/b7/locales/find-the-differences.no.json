@@ -1,0 +1,82 @@
+{
+  "starter": "På bilde 2",
+  "changeWords": [
+    "mangler",
+    "har kommet til",
+    "har blitt større",
+    "har blitt mindre",
+    "har flyttet seg",
+    "er snudd",
+    "er byttet ut"
+  ],
+  "strandNames": {
+    "Visual Perception": "Visuell oppmerksomhet"
+  },
+  "rail": {
+    "slug": "finn-fem-feil",
+    "name": "Finn fem feil"
+  },
+  "strings": {
+    "base": {
+      "title": "Finn fem feil: {UNIT}",
+      "instruction": "Sammenlign bilde 1 med bilde 2 under det, sett ring rundt de 5 tingene som er annerledes, og kryss av i en rute for hver feil."
+    },
+    "three-big": {
+      "title": "Finn tre feil: {UNIT}",
+      "instruction": "Finn de 3 store feilene i det nederste bildet, sett ring rundt dem, og kryss av i de 3 rutene."
+    },
+    "colour": {
+      "title": "Finn feilene i fargebildet",
+      "instruction": "Sett ring rundt de 5 tingene i det nederste fargebildet som er annerledes, kryss av i en rute for hver, og se godt på fargene."
+    },
+    "seven": {
+      "title": "Finn sju feil ved dammen",
+      "instruction": "Sett ring rundt de 7 feilene, 4 i det venstre bildeparet og 3 i det høyre, og kryss av i en rute under paret for hver feil."
+    },
+    "ten-pairs": {
+      "title": "Finn ti feil i hagen: vanskelig",
+      "instruction": "Sett ring rundt de 10 feilene, 5 i hvert bildepar, og kryss av i en rute under paret for hver feil du finner."
+    },
+    "how-many": {
+      "title": "Hvor mange feil finner du?",
+      "instruction": "Sett ring rundt hver feil i det nederste bildet (noe kan også være borte), og skriv i ruta hvor mange feil du fant."
+    },
+    "what-changed": {
+      "title": "Hva er endret? Kryss av ordene",
+      "instruction": "Sett ring rundt de 3 feilene i det nederste bildet, og kryss så av ordene for de tingene som er endret."
+    },
+    "mirror-pair": {
+      "title": "Speilvendt bilde: finn feilene",
+      "instruction": "Bilde 2 er speilvendt: sett ring rundt de 4 tingene eller tomme stedene som likevel er annerledes, kryss av for hver, og brett langs linja."
+    },
+    "missing": {
+      "title": "Hva mangler i bildet?",
+      "instruction": "Sett ring rundt de 3 tomme stedene i det nederste bildet der noe fra det øverste bildet mangler, og kryss av i en rute for hver."
+    },
+    "pairs": {
+      "title": "Bildepar: finn feilen",
+      "instruction": "Hver rad viser det samme utsnittet to ganger; sett ring rundt det ene stedet som er annerledes i det høyre bildet, og kryss av i ruta på raden."
+    },
+    "write": {
+      "title": "Skriv hva som er annerledes",
+      "instruction": "Sett ring rundt de 3 feilene (noe kan mangle), og skriv så en setning om hver feil på linjene; bruk ordene i de to stripene."
+    }
+  },
+  "tap": {
+    "fd-tap": "Se godt på bildet øverst, og trykk så på hvert sted i bildet nederst som er annerledes.",
+    "fd-tapCount": "Finn hver feil i det nederste bildet (noe kan også være borte), og trykk så på tallet som viser hvor mange feil det er.",
+    "fd-tapMirror": "Det nederste bildet er speilvendt. Trykk på hvert sted i det som likevel er annerledes.",
+    "fd-tapMissing": "Trykk på hvert tomme sted i det nederste bildet der noe fra det øverste bildet mangler.",
+    "fd-tapPairs": "Hvert par viser det samme utsnittet to ganger. Trykk på det ene stedet som er annerledes i det andre bildet i hvert par.",
+    "fd-tapWords": "Finn det som er endret i det nederste bildet, og trykk så på ordene for de tingene som er endret.",
+    "fd-tapPairs2": "To bildepar: se på bilde 1 i hvert par, og trykk så på hvert sted i bilde 2 som er annerledes."
+  },
+  "numberWords": {
+    "3": "tre",
+    "5": "fem",
+    "7": "sju",
+    "10": "ti"
+  },
+  "refusals": {},
+  "unitOverrides": {}
+}

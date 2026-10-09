@@ -22,11 +22,11 @@ const MSGS_FILE = path.join(__dirname, '..', '..', '..', 'frontend', 'messages',
 
 const SKILLS = {
   'find-the-differences': {
-    full: 'Comparing two pictures of one scene, circling what is gone, new, turned round, bigger or moved and ticking a box for each find trains careful looking; every page has a tap version and an answer key.',
+    full: 'Comparing two pictures of one scene, circling what is gone, new, turned, bigger or moved and ticking a box per find trains careful looking; every page has a tap version and a key.',
     short: 'Builds careful looking by comparing two pictures of one scene.',
   },
   'how-to-draw': {
-    full: 'Drawing an animal from four or five numbered steps, first the outline, then the big parts, the face and the details, gives children a way to draw any animal they like with their own pencil.',
+    full: 'Drawing an animal from four or five numbered steps, first the outline, then the big parts, the face and the details, shows children how to draw any animal with their own pencil.',
     short: 'Builds drawing an animal step by step from its outline.',
   },
 };
@@ -43,7 +43,7 @@ if (require.main === module) {
   const errs = [];
   const FREE = /\bfree\b/i;
   for (const [k, v] of Object.entries(SKILLS)) {
-    if (v.full.length < 60 || v.full.length > 200) errs.push(`${k}.full ${v.full.length}`);
+    if (v.full.length < 60 || v.full.length > 180) errs.push(`${k}.full ${v.full.length}`);
     if (v.short.length < 15 || v.short.length > 90) errs.push(`${k}.short ${v.short.length}`);
     if (FREE.test(v.full) || FREE.test(v.short)) errs.push(`${k}: skill sentence claims free`);
     if ((TOPIC_META[k] || '').length < 50) errs.push(`${k}.topicMeta short`);

@@ -951,6 +951,86 @@
     "title": "Draw What Floats and Sinks: A Sink or Float Drawing",
     "instruction": "Draw two things that float in the dashed boxes on the water and two that sink in the dashed boxes on the bottom."
   },
+  "K-385": {
+    "title": "Down Lines, Slants and Crosses",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-386": {
+    "title": "Circles, Squares and More Shapes",
+    "instruction": "Trace each shape with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-387": {
+    "title": "Picture to Picture",
+    "instruction": "Start at the orange dot next to the first picture. Trace the path all the way to the other picture."
+  },
+  "K-388": {
+    "title": "Sight Word of the Day: {UNIT}",
+    "instruction": "Read the word. Trace it, write it, and use it in sentences."
+  },
+  "K-389": {
+    "title": "Sight Word in Sentences: {UNIT}",
+    "instruction": "Read each sentence. Write the word “{UNIT}” on the line."
+  },
+  "K-390": {
+    "title": "Sight Word Sentence: {UNIT}",
+    "instruction": "Work through one sentence, step by step."
+  },
+  "K-391": {
+    "title": "Trace the Sentences: {UNIT}",
+    "instruction": "Trace each sentence. Then write it on the line below."
+  },
+  "K-392": {
+    "title": "Find the Sight Word: {UNIT}",
+    "instruction": "Color every box with the word “{UNIT}”. Count them and write the number."
+  },
+  "K-393": {
+    "title": "Color by Number: {UNIT}",
+    "instruction": "Color each part with the color of its number."
+  },
+  "K-394": {
+    "title": "Color by Number: {UNIT}",
+    "instruction": "Color each part with the color of its number."
+  },
+  "K-395": {
+    "title": "Find 5 Differences: {UNIT}",
+    "instruction": "Look down from picture 1 to picture 2, circle the 5 things that are different and tick a box for each one."
+  },
+  "K-396": {
+    "title": "How to Draw {L} Step by Step",
+    "instruction": "Look at the four numbered steps and draw the cat on the big paper: first the outline, then the orange lines of each step."
+  },
+  "K-397": {
+    "title": "Find 3 Differences: {UNIT}",
+    "instruction": "Find the 3 big things that are different in the bottom picture, circle them and tick the three boxes."
+  },
+  "K-398": {
+    "title": "Find the Differences in Colour",
+    "instruction": "Circle the 5 things in the painted bottom picture that are different; one of them has changed colour."
+  },
+  "K-399": {
+    "title": "What Is Missing?",
+    "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing."
+  },
+  "K-400": {
+    "title": "Picture Pairs: Find the Difference",
+    "instruction": "Each row shows the same close-up twice; circle the one thing that is different in the right picture of every row."
+  },
+  "K-401": {
+    "title": "Draw {L} with Simple Shapes",
+    "instruction": "Draw the dotted shapes on the paper first, then the dog's outline around them, and finish it with the steps."
+  },
+  "K-402": {
+    "title": "Trace, Then Draw {L}",
+    "instruction": "Trace the grey rabbit with your pencil, then draw the rabbit yourself in the empty box beside it."
+  },
+  "K-403": {
+    "title": "Finish the {N} Drawing",
+    "instruction": "Look at the whole horse, draw the lines that are missing on the second horse, then draw a horse of your own below."
+  },
+  "K-404": {
+    "title": "Draw {L} and Write the Word",
+    "instruction": "Follow the steps to draw the fish on the paper, then trace the word under it and write it once more."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -1081,8 +1161,7 @@
   },
   "G1-139": {
     "title": "Cube by Cube",
-    "instruction": "Each object sits on unit squares. Count them and write the length.",
-    "printTitle": "Square by Square"
+    "instruction": "Each object sits on unit squares. Count them and write the length."
   },
   "G1-140": {
     "title": "Short to Long",
@@ -1342,7 +1421,7 @@
   },
   "G1-252": {
     "title": "Read and Color: A Busy Page",
-    "instruction": "Six sentences and six colors. Read each sentence carefully."
+    "instruction": "More pictures and more colors. Read each sentence carefully."
   },
   "G1-255": {
     "title": "Number of the Day: Teen Numbers",
@@ -1932,6 +2011,50 @@
     "title": "Heavy or Light? Sink or Float on a Balance Scale",
     "instruction": "The scale shows which thing is heavier: circle the thing that floats in water."
   },
+  "G1-409": {
+    "title": "Read and Color: Two Sentences",
+    "instruction": "Each box has two sentences. Read both. Color exactly the pictures each sentence tells you to."
+  },
+  "G1-410": {
+    "title": "Read and Color: All Mixed Up",
+    "instruction": "Read each sentence. Find its pictures in the big box and color exactly as many as the sentence says."
+  },
+  "G1-411": {
+    "title": "Read and Color: Stop at the Number",
+    "instruction": "There are more pictures than the sentence asks for. Read the number and color only that many."
+  },
+  "G1-412": {
+    "title": "Find 7 Differences at the Pond",
+    "instruction": "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each."
+  },
+  "G1-413": {
+    "title": "How Many Differences?",
+    "instruction": "Circle every difference you find in the bottom picture, then write how many you found in the box."
+  },
+  "G1-414": {
+    "title": "What Changed? Tick the Words",
+    "instruction": "Circle the 3 differences in the bottom picture, then tick the words of the things that changed."
+  },
+  "G1-415": {
+    "title": "Mirror Pictures: Fold and Check",
+    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things that are still different, then fold on the line to check."
+  },
+  "G1-416": {
+    "title": "Draw {L} with the Grid",
+    "instruction": "Look at the dinosaur on the grid and draw it on the empty grid one square at a time, then once more without the grid."
+  },
+  "G1-417": {
+    "title": "Draw {L} at the Pond",
+    "instruction": "Follow the steps, then draw the frog into the picture on the empty bank next to the pond."
+  },
+  "G1-418": {
+    "title": "Order the Steps: Drawing {L}",
+    "instruction": "The steps are mixed up: write 1 to 5 in the boxes beside them in the right order, then draw the owl."
+  },
+  "G1-419": {
+    "title": "Copy Each Step: Draw {L}",
+    "instruction": "Draw what you see in each step in the box under it, adding the orange lines each time, then the whole bird below."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -2102,8 +2225,7 @@
   },
   "G2-248": {
     "title": "Find the Mirror Picture",
-    "instruction": "Circle the picture that is the same on both sides.",
-    "printTitle": "Find the Symmetric Picture"
+    "instruction": "Circle the picture that is the same on both sides."
   },
   "G2-249": {
     "title": "What Time Is It?",
@@ -2633,6 +2755,22 @@
     "title": "Reading Cursive: Match Each Word to Its Picture",
     "instruction": "Read each word in cursive and draw a line to its picture."
   },
+  "G2-388": {
+    "title": "Find 10 Differences in the Garden",
+    "instruction": "Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find."
+  },
+  "G2-389": {
+    "title": "Write What Is Different",
+    "instruction": "Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips."
+  },
+  "G2-390": {
+    "title": "Draw {L}, Then Write About It",
+    "instruction": "Draw the bear with the steps, then write three sentences about your bear on the lines, starting with the printed words."
+  },
+  "G2-391": {
+    "title": "Draw {L} from Memory",
+    "instruction": "Look at the butterfly, fold the page back on the dotted line so you cannot see it, and draw it from memory on the big paper."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count all the pictures. Write how many there are in all."
@@ -2679,8 +2817,7 @@
   },
   "G3-317": {
     "title": "Fractions on the Line",
-    "instruction": "The dot marks a fraction. Circle that fraction.",
-    "printTitle": "Fractions on the Number Line"
+    "instruction": "The dot marks a fraction. Circle that fraction."
   },
   "G3-318": {
     "title": "Twin Fractions",
@@ -2728,8 +2865,7 @@
   },
   "G3-332": {
     "title": "Big Scale Bars",
-    "instruction": "Careful — the scale counts by 5! Write the value of each bar.",
-    "printTitle": "Bars That Count by 5"
+    "instruction": "Careful — the scale counts by 5! Write the value of each bar."
   },
   "G3-333": {
     "title": "Each Picture Means 5",
@@ -2994,49 +3130,5 @@
   "G3-401": {
     "title": "Cursive Sentences to Copy",
     "instruction": "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
-  },
-  "K-385": {
-    "title": "Down Lines, Slants and Crosses",
-    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
-  },
-  "K-386": {
-    "title": "Circles, Squares and More Shapes",
-    "instruction": "Trace each shape with your pencil. Start at the orange dot and follow the arrow."
-  },
-  "K-387": {
-    "title": "Picture to Picture",
-    "instruction": "Start at the orange dot next to the first picture. Trace the path all the way to the other picture."
-  },
-  "G1-409": {
-    "title": "Read and Color: Two Sentences",
-    "instruction": "Each box has two sentences. Read both. Then color exactly what each sentence tells you to."
-  },
-  "G1-410": {
-    "title": "Read and Color: All Mixed Up",
-    "instruction": "Read each sentence. Find its pictures in the big box and color exactly as many as the sentence says."
-  },
-  "G1-411": {
-    "title": "Read and Color: Stop at the Number",
-    "instruction": "There are more pictures than the sentence asks for. Read the number, color only that many, and stop."
-  },
-  "K-388": {
-    "title": "Sight Word of the Day: {UNIT}",
-    "instruction": "Read the word. Trace it, write it, and use it in sentences."
-  },
-  "K-389": {
-    "title": "Sight Word in Sentences: {UNIT}",
-    "instruction": "Read each sentence. Write the word “{UNIT}” on the line."
-  },
-  "K-390": {
-    "title": "Sight Word Sentence: {UNIT}",
-    "instruction": "Work through one sentence, step by step."
-  },
-  "K-391": {
-    "title": "Trace the Sentences: {UNIT}",
-    "instruction": "Trace each sentence. Then write it on the line below."
-  },
-  "K-392": {
-    "title": "Find the Sight Word: {UNIT}",
-    "instruction": "Color every box with the word “{UNIT}”. Count them and write the number."
   }
 }

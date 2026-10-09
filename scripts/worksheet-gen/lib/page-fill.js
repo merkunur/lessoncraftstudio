@@ -13,7 +13,7 @@ function pageFill() {
   const bodyEl = document.querySelector('.ws-body');
   if (!bodyEl) return { covered: 0, band: 1, bandPx: 0, fails: ['no .ws-body'] };
   const body = bodyEl.getBoundingClientRect();
-  const sel = '[data-lcs-art], svg, img, .ws-answerbox, .ws-gcard, .ws-card, [data-lcs-frame], [data-lcs-table], .ws-pattern-slot, .ws-chip, [data-lcs-answer], [data-lcs-given]';
+  const sel = '[data-lcs-art], svg, img, .ws-bin, .ws-answerbox, .ws-gcard, .ws-card, [data-lcs-frame], [data-lcs-table], .ws-pattern-slot, .ws-chip, [data-lcs-answer], [data-lcs-given]';
   const iv = [...bodyEl.querySelectorAll(sel)].map((e) => e.getBoundingClientRect()).filter((r) => r.width > 2 && r.height > 2)
     .map((r) => [Math.max(r.top, body.top), Math.min(r.bottom, body.bottom)]).filter(([a, b]) => b > a).sort((a, b) => a[0] - b[0]);
   let covered = 0, cur = null, last = body.top; const gaps = [];

@@ -69,9 +69,10 @@ function unitRect(r, c, cell) {
 }
 
 // a plain rectangle with its side LENGTHS written on two adjacent sides (level 3 perimeter: no squares to count)
-function labelledRect(r, c) {
+function labelledRect(r, c, maxW, maxH) {
   const t = tokens;
-  const scale = Math.min(150 / c, 90 / r, 22);
+  // 2026-10-09: drawn to the card (maxW × maxH; the screen keeps the old 150 × 90)
+  const scale = Math.min((maxW || 150) / c, (maxH || 90) / r, maxW ? 40 : 22);
   const w = c * scale, h = r * scale, pad = 34;
   const parts = [
     roundedRect({ x: pad, y: 8, w, h, r: 3, fill: t.color.tealSoft, strokeColor: t.color.teal, strokeWidth: 3 }),
@@ -256,16 +257,18 @@ function makeGeometryType(cfg) {
         } else polys = rng.sample(polyAll, Math.min(6, d.rows + 2));
         // a NEW page draws about half its shapes itself (uneven, turned polygons with the level's numbers of sides)
         const sideSet = difficulty === 1 ? [3, 4] : difficulty === 3 ? [5, 6, 7, 8] : [3, 4, 5, 6, 7, 8];
+        // 2026-10-09: the shapes fill their cards (they were ~110 px in 330 × 390 / 215 × 390 cards)
+        const SZ = Math.min(6, polys.length) === 4 ? 230 : 180;
         polys.slice(0, 6).forEach((k, i) => {
           if (!published && i % 2 === 1) {
             const n = rng.pick(sideSet), P = polyPoints(n, rng), fill = POLY_FILL[i % 3];
             cards.push('<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-shape="poly" data-lcs-sides="' + n + '">' +
-              polySvg(P, 112, fill) + answerBox({ w: 64, h: 50, answer: n }) + '</div>');
+              polySvg(P, SZ, fill) + answerBox({ w: 64, h: 50, answer: n }) + '</div>');
             items.push({ ask: 'p' + n + ':' + Math.round(P[0][0]), shape: 'poly', P, fill, ans: n });
             return;
           }
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-shape="${k}" data-lcs-sides="${SHAPES_2D[k].sides}">` +
-            shapeImg(k, 110) + answerBox({ w: 64, h: 50, answer: SHAPES_2D[k].sides }) + `</div>`);
+            shapeImg(k, SZ) + answerBox({ w: 64, h: 50, answer: SHAPES_2D[k].sides }) + `</div>`);
           items.push({ ask: k, shape: k, ans: SHAPES_2D[k].sides });
         });
         return out(cardGrid({ cards, cols: cards.length === 4 ? 2 : 3, rows: 2 }));
@@ -411,15 +414,16 @@ function makeGeometryType(cfg) {
           let r, c, g = 0;
           // L1: small rectangles (sides up to 4); L3: bigger, side LENGTHS written on a plain rectangle (no squares)
           do {
-            if (difficulty === 1) { r = rng.int(1, 3); c = rng.int(2, 4); }
+            if (difficulty === 1) { r = rng.int(2, 3); c = rng.int(2, 4); }   // 2026-10-09: at least 2 rows (a 1 × 2 strip was a speck in its card)
             else if (difficulty === 3) { r = rng.int(3, 9); c = rng.int(4, 12); }
             else { r = rng.int(2, 5); c = rng.int(3, 8); }
             g++;
-          } while ((used.has(r + 'x' + c) || r === c && difficulty === 3) && g < 30);
+          } while ((used.has(r + 'x' + c) || r === c && difficulty === 3 || (difficulty === 2 && r === 2 && c >= 6)) && g < 30);   // 2026-10-09: no 2-row strip 6-8 long (a thin strip filled a quarter of its card)
           used.add(r + 'x' + c);
-          const cell = Math.min(30, Math.floor(230 / c), Math.floor(130 / r));
-          const fig = difficulty === 3 ? labelledRect(r, c) : unitRect(r, c, cell);
-          cards.push(`<div class="ws-card-stage" style="gap:26px;justify-content:space-between;padding:6px 16px">` +
+          // 2026-10-09: the rectangle fills its card (the old row layout left it small beside its box), the box underneath
+          const cell = Math.min(difficulty === 1 ? 90 : 80, Math.floor(280 / c), Math.floor(270 / r));
+          const fig = difficulty === 3 ? labelledRect(r, c, 230, 200) : unitRect(r, c, cell);
+          cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:22px;padding:6px 16px">` +
             fig + answerBox({ w: 72, h: 52, answer: 2 * (r + c) }) + `</div>`);
           items.push({ ask: r + 'x' + c, r, c, ans: 2 * (r + c), svg: difficulty === 3 ? labelledRect(r, c) : unitRect(r, c, Math.min(34, Math.floor(400 / c), Math.floor(200 / r))) });
         }
@@ -553,7 +557,7 @@ function makeGeometryType(cfg) {
     async verify(page) {
       const m = mode, f = facet;
       /* ⚠⚠ SY and the reviewed lists are PASSED IN, never re-declared. */
-      return page.evaluate(({ mode, facet, SY, REV, OBJ }) => {
+      const fails0 = await page.evaluate(({ mode, facet, SY, REV, OBJ }) => {
         const fails = [];
         const SIDES = { circle: 0, oval: 0, triangle: 3, square: 4, rectangle: 4, diamond: 4, trapezoid: 4, parallelogram: 4, pentagon: 5, hexagon: 6, heptagon: 7, octogon: 8 };
         const SOLIDS = {
@@ -691,6 +695,13 @@ function makeGeometryType(cfg) {
         return fails;
       }, { mode: m, facet: f, SY: SYMMETRY_COUNT, OBJ: SOLID_REAL_OBJECTS,
         REV: SYM_REVIEW });
+      // 2026-10-09 (operator: half-empty pages): the faces redesigned to fill their cards keep doing so
+      if (m === 'count-sides' || m === 'perimeter') {
+        const { cardFill } = require('../../lib/page-fill.js');
+        const cf = await page.evaluate(cardFill, 0.25);
+        return [...fails0, ...cf.fails];
+      }
+      return fails0;
     },
   };
 }

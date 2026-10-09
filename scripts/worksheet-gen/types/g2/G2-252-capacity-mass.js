@@ -59,22 +59,16 @@ module.exports = {
     // nt20-VAR: a jug-only page (balances:0) is THEMELESS — the theme rides
     // the balance-pan icons, and a themed slug over a page with no icons
     // would promise content the sheet doesn't show
-    // Level Set 2026-10-09: a NEW page puts on the pan only a light object whose real weight the weights could be
-    // (data/light-objects.js — an apple at 200 g, never an elephant at 350 g); the published page as it was
-    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    const LIGHT = published ? null : require('../../data/light-objects.js')[theme];
+    // 2026-10-09: EVERY page (the published ones too, operator ruling) puts on the pan only a light object whose real
+    // weight the weights could be (data/light-objects.js — an apple at 200 g, never an elephant or an airplane at 350 g).
+    // The published animals / vehicles pages moved to clothing / toys (their slugs kept).
+    const LIGHT = d.balances > 0 ? require('../../data/light-objects.js')[theme] : null;
     let pickNouns = [];
     let lightNouns = [];
-    if (d.balances > 0 && !published) {
+    if (d.balances > 0) {
       if (!LIGHT) throw new Error(`G2-252: theme ${theme} has no light objects for the balance`);
       lightNouns = labelSafeNouns(theme).filter((n) => LIGHT[n.noun]);
       if (lightNouns.length < 4) throw new Error(`G2-252: theme ${theme} has ${lightNouns.length} light objects < 4`);
-    } else if (d.balances > 0) {
-      const nouns = labelSafeNouns(theme);
-      if (nouns.length < (this.themeAxis.minNouns || 3)) {
-        throw new Error(`G2-252: theme ${theme} has ${nouns.length} nouns < 3`);
-      }
-      pickNouns = rng.sample(nouns, d.balances);
     }
     const usedJug = new Set();
     const cards = [];

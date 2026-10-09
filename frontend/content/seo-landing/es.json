@@ -100468,7 +100468,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "segundo-grado"
    },
    "eyebrow": "Ficha de medida",
@@ -100480,7 +100480,7 @@
     "vehiculos",
     "segundo-grado"
    ],
-   "p1": "Esta ficha de medida trabaja dos magnitudes en una sola hoja: capacidad y masa. Arriba, tres jarras medidoras llenas hasta distintos niveles, con su escala en mililitros para leer con cuidado. Abajo, tres balanzas con vehículos sobre los platillos —un camión, un coche, según la ronda— cuyo peso en gramos hay que averiguar leyendo la escala. En cada caso, el niño escribe la cantidad con su unidad: tantos ml, tantos g.",
+   "p1": "Esta ficha de medida trabaja dos magnitudes en una sola hoja: capacidad y masa. Arriba, tres jarras medidoras llenas hasta distintos niveles, con su escala en mililitros para leer con cuidado. Abajo, tres balanzas con juguetes sobre los platillos —un tren de juguete, una muñeca, un camión de juguete— cuyo peso en gramos hay que averiguar leyendo la escala. En cada caso, el niño escribe la cantidad con su unidad: tantos ml, tantos g.",
    "p2": "Leer instrumentos de medida es una destreza distinta de calcular: exige interpretar una escala, entender cuánto vale cada rayita intermedia y no perder la unidad por el camino. Trabajar capacidad y masa juntas, cada una con su instrumento, ayuda a los niños a distinguirlas de verdad —lo que cabe y lo que pesa— y a asociar cada magnitud con su unidad correcta. Es el mismo tipo de lectura que después pedirán los termómetros, las reglas y los gráficos.",
    "p3": "La ficha se imprime gratis en PDF; una jarra y una balanza de cocina reales la prolongan de maravilla. Para seguir leyendo esferas y escalas, la ficha de dibujar las agujas del reloj es la pareja perfecta, y los problemas con dibujos ponen las cantidades a trabajar. Comparar lo que marca la balanza de la hoja con lo que pesa un objeto real de casa fija la idea mejor que cualquier explicación.",
    "canonicalDeckSlug": "medicion-vehiculos-g2252",
@@ -100503,7 +100503,7 @@
     }
    ],
    "title": "Capacidad y masa – 2.º de primaria, ml y g | para imprimir PDF",
-   "metaDescription": "Capacidad y masa para 2.º: tres jarras medidoras en mililitros y tres balanzas en gramos con vehículos en los platillos. Ficha en PDF gratis para imprimir."
+   "metaDescription": "Capacidad y masa para 2.º: tres jarras medidoras en mililitros y tres balanzas en gramos con juguetes en los platillos. Ficha en PDF gratis para imprimir."
   },
   {
    "slug": "simetria-en-cuadricula",
@@ -104467,11 +104467,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "segundo-grado"
    },
    "eyebrow": "Ficha de medida",
-   "h1": "Leer la balanza en gramos: cuánto pesa cada vehículo",
+   "h1": "Leer la balanza en gramos: cuánto pesa cada juguete",
    "strand": "Medida",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -104479,7 +104479,7 @@
     "vehiculos",
     "segundo-grado"
    ],
-   "p1": "Toda la hoja es de balanzas: seis, sin ninguna jarra, cada una con un vehículo sobre el platillo —un camión, un coche, una moto, un autobús— y su aguja marcando una posición distinta en la escala. El niño lee dónde señala la aguja y escribe cuántos gramos pesa el objeto, con la unidad al lado. Seis pesadas seguidas del mismo tipo de instrumento, cambiando solo el vehículo y la cantidad.",
+   "p1": "Toda la hoja es de balanzas: seis, sin ninguna jarra, cada una con un juguete sobre el platillo —una pelota, un robot, una muñeca, un dinosaurio de juguete— y su aguja marcando una posición distinta en la escala. El niño lee dónde señala la aguja y escribe cuántos gramos pesa el objeto, con la unidad al lado. Seis pesadas seguidas del mismo tipo de instrumento, cambiando solo el juguete y la cantidad.",
    "p2": "El vocabulario de esta magnitud merece cuidado desde segundo. En el lenguaje de casa todo pesa, pero lo que la balanza mide es la masa, y la unidad es el gramo; conviene ir usando las dos palabras con naturalidad, sin convertirlo en una lección de física. Igual de útil es construir referencias: un paquete de galletas ronda los doscientos gramos, un litro de leche pasa del kilo. Con esas anclas, el niño detecta enseguida cuándo una lectura suya es imposible, que es la mejor forma de corregirse solo.",
    "p3": "La ficha se imprime gratis en PDF y pide a gritos una balanza de cocina al lado. Las jarras medidoras en mililitros son la hoja gemela para la capacidad, y la ficha de escalas con marcas de 50 ml afina la lectura de ambos instrumentos. Pesar dos objetos de casa y ordenarlos antes de mirar el número entrena la estimación.",
    "canonicalDeckSlug": "medicion-vehiculos-g2261",
@@ -104502,7 +104502,7 @@
     }
    ],
    "title": "Leer la balanza en gramos | para imprimir PDF",
-   "metaDescription": "Leer la balanza en gramos: seis balanzas con vehículos en los platillos para interpretar la escala y escribir la masa en g. Ficha de 2.º en PDF gratis."
+   "metaDescription": "Leer la balanza en gramos: seis balanzas con juguetes en los platillos para interpretar la escala y escribir la masa en g. Ficha de 2.º en PDF gratis."
   },
   {
    "slug": "escalas-con-marcas-de-50-ml",
@@ -104510,7 +104510,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "segundo-grado"
    },
    "eyebrow": "Ficha de medida",
@@ -104522,7 +104522,7 @@
     "vehiculos",
     "segundo-grado"
    ],
-   "p1": "Esta ficha mezcla jarras medidoras y balanzas con vehículos, pero con una diferencia importante: la graduación es mucho más fina. Entre número y número aparecen marcas intermedias que van de cincuenta en cincuenta, de modo que el nivel del líquido o la aguja de la balanza caen muchas veces en una rayita sin número escrito. El niño tiene que averiguar cuánto vale esa marca y escribir la cantidad exacta con su unidad, ml o g.",
+   "p1": "Esta ficha mezcla jarras medidoras y balanzas con juguetes, pero con una diferencia importante: la graduación es mucho más fina. Entre número y número aparecen marcas intermedias que van de cincuenta en cincuenta, de modo que el nivel del líquido o la aguja de la balanza caen muchas veces en una rayita sin número escrito. El niño tiene que averiguar cuánto vale esa marca y escribir la cantidad exacta con su unidad, ml o g.",
    "p2": "Aquí está el corazón de toda lectura de instrumentos: interpretar las divisiones que nadie ha numerado. El razonamiento es siempre el mismo —si entre el 200 y el 300 hay una sola raya, esa raya vale 250— y una vez comprendido sirve para el termómetro, la regla, el vaso medidor y el velocímetro del coche. Es también el punto en el que la medida se cruza con el conteo salteado: leer estas escalas es contar de cincuenta en cincuenta con los ojos, y quien no tenga esa serie automatizada irá a ciegas.",
    "p3": "Descarga la ficha gratis en PDF y pide que señale con el dedo las rayas mientras cuenta. Viene de las jarras medidoras en mililitros y de la balanza en gramos, donde cada instrumento se trabajó por separado, y desemboca en las jarras grandes hasta 2000 ml, que llevan la misma lectura a números mayores.",
    "canonicalDeckSlug": "medicion-vehiculos-g2262",
@@ -104595,11 +104595,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "segundo-grado"
    },
    "eyebrow": "Ficha de medida",
-   "h1": "Capacidad y masa con animales en la balanza",
+   "h1": "Capacidad y masa con ropa en la balanza",
    "strand": "Medida",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -104607,9 +104607,9 @@
     "animales",
     "segundo-grado"
    ],
-   "p1": "Esta edición de la ficha de medida pone animales sobre los platillos: un gato, un pato, un conejo esperando a que el niño averigüe su masa. Arriba de la hoja hay tres jarras medidoras con su escala en mililitros; abajo, tres balanzas con los animales encima y la aguja marcando su posición. En los seis casos hay que leer la escala y escribir la cantidad con su unidad correspondiente, ml para las jarras y g para las balanzas.",
-   "p2": "El cambio de objeto invita a una conversación que la versión de vehículos no provoca igual: ¿cuánto pesa de verdad un gato? Comparar la lectura de la hoja con lo que el niño cree saber de los animales activa la estimación, que es la otra mitad de la competencia de medir. Un resultado en gramos que suene raro para un elefante o para un pato lleva directamente a revisar la escala, y ese ir y venir entre el número leído y el sentido común es lo que convierte una lectura mecánica en medida comprendida.",
-   "p3": "La ficha se imprime gratis en PDF y funciona muy bien alternada con la edición de vehículos. Si conviene aislar una magnitud, las jarras medidoras en mililitros y la balanza en gramos la trabajan por separado, y los problemas con dibujos de animales continúan con los mismos protagonistas en otra área.",
+   "p1": "Esta edición de la ficha de medida pone ropa sobre los platillos: una gorra, una bufanda y unos jeans esperando a que el niño averigüe su masa. Arriba de la hoja hay tres jarras medidoras con su escala en mililitros; abajo, tres balanzas con las prendas encima y la aguja marcando su posición. En los seis casos hay que leer la escala y escribir la cantidad con su unidad correspondiente, ml para las jarras y g para las balanzas.",
+   "p2": "El cambio de objeto invita a una conversación que la versión de juguetes no provoca igual: ¿cuánto pesa de verdad una bufanda? Comparar la lectura de la hoja con lo que el niño cree saber de su propia ropa activa la estimación, que es la otra mitad de la competencia de medir. Un resultado en gramos que suene raro para unos jeans o para una gorra lleva directamente a revisar la escala, y ese ir y venir entre el número leído y el sentido común es lo que convierte una lectura mecánica en medida comprendida.",
+   "p3": "La ficha se imprime gratis en PDF y funciona muy bien alternada con la edición de juguetes. Si conviene aislar una magnitud, las jarras medidoras en mililitros y la balanza en gramos la trabajan por separado, y los problemas con dibujos ponen las cantidades a trabajar en otra área.",
    "canonicalDeckSlug": "medicion-animales-g2252",
    "carousel": [
     {
@@ -104629,8 +104629,8 @@
      "href": "jarras-medidoras-hasta-2000-ml"
     }
    ],
-   "title": "Capacidad y masa con animales | para imprimir PDF",
-   "metaDescription": "Capacidad y masa con animales: tres jarras medidoras en ml y tres balanzas con animales en el platillo para leer los gramos. PDF gratis para imprimir."
+   "title": "Capacidad y masa con ropa | para imprimir PDF",
+   "metaDescription": "Capacidad y masa con ropa: tres jarras medidoras en ml y tres balanzas con prendas en el platillo para leer los gramos. PDF gratis para imprimir."
   },
   {
    "slug": "simetria-en-cuadricula-facil",

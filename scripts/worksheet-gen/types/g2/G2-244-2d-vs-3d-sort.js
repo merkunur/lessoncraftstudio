@@ -41,7 +41,8 @@ module.exports = {
       ...flat.map((k) => ({ k, dim: '2d' })),
       ...solid.map((k) => ({ k, dim: '3d' })),
     ]);
-    const px = 72;
+    // 2026-10-09: bigger shapes and bins that use the page (the old page left its lower half empty)
+    const px = 104;
     const strip = items.map((it) =>
       `<span class="ws-pattern-slot" style="width:${px + 22}px;height:${px + 22}px" data-lcs-dim="${it.dim}" data-lcs-shape="${it.k}">` +
       `<img class="ws-icon" src="${fileUri('shapes', it.k)}" alt="" style="width:${px}px;height:${px}px"></span>`).join('');
@@ -49,14 +50,15 @@ module.exports = {
     // bin labels: a square (flat) vs a cube (solid)
     const bin = (labelKey, dim) =>
       `<div class="ws-bin" data-lcs-bin="${dim}">` +
-      `<span class="ws-bin-label"><img class="ws-icon" src="${fileUri('shapes', labelKey)}" alt="" style="width:40px;height:40px"></span>` +
+      `<span class="ws-bin-label"><img class="ws-icon" src="${fileUri('shapes', labelKey)}" alt="" style="width:44px;height:44px"></span>` +
       `</div>`;
+    const binRow = `<div style="display:flex;justify-content:space-evenly;gap:30px">${bin('square', '2d')}${bin('cube', '3d')}</div>`.replace(/class="ws-bin" /g, 'class="ws-bin" style="max-width:290px;height:300px" ');
 
     return {
       bodyHtml:
         `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;min-height:0;padding:10px 0">` +
         `<div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;max-width:640px;margin:0 auto">${strip}</div>` +
-        `<div style="display:flex;justify-content:space-evenly;gap:30px">${bin('square', '2d')}${bin('cube', '3d')}</div>` +
+        binRow +
         `</div>`,
       meta: { flat, solid },
       _cards: { mode: 'flat-solid', items: items.map((it) => ({ shape: it.k, dim: it.dim })) },
@@ -64,7 +66,7 @@ module.exports = {
   },
 
   async verify(page) {
-    return page.evaluate(() => {
+    const fails0 = await page.evaluate(() => {
       const fails = [];
       const flat2d = ['circle', 'oval', 'triangle', 'square', 'rectangle', 'diamond', 'trapezoid', 'parallelogram', 'pentagon', 'hexagon', 'heptagon', 'octogon'];
       const solid3d = ['cube', 'rectangular_box', 'sphere', 'cone', 'cylinder', 'pyramid'];
@@ -81,5 +83,9 @@ module.exports = {
       if (document.querySelectorAll('[data-lcs-bin]').length !== 2) fails.push('need exactly 2 bins');
       return fails;
     });
+    // 2026-10-09 (operator: half-empty pages): the page uses its height — shapes and bins, no empty half
+    const { pageFill } = require('../../lib/page-fill.js');
+    const pf = await page.evaluate(pageFill);
+    return [...fails0, ...pf.fails];
   },
 };

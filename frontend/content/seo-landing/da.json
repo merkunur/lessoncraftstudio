@@ -131521,7 +131521,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-klasse"
    },
    "eyebrow": "Måle-opgaveark",
@@ -131533,7 +131533,7 @@
     "koretojer",
     "2-klasse"
    ],
-   "p1": "På dette opgaveark arbejder barnet med to slags måleredskaber. Øverst står tre målebægre med væske, hvor stregerne på siden viser antallet af milliliter – barnet aflæser, hvor højt væsken når, og skriver svaret i ml. Nederst venter tre balancevægte, hvor små køretøjer fra arkets legetøjstema ligger på vægtskålene, og lodderne fortæller, hvor mange gram der skal til. Hvert svar skrives med den rigtige enhed, så ml og g ikke blandes sammen.",
+   "p1": "På dette opgaveark arbejder barnet med to slags måleredskaber. Øverst står tre målebægre med væske, hvor stregerne på siden viser antallet af milliliter – barnet aflæser, hvor højt væsken når, og skriver svaret i ml. Nederst venter tre balancevægte, hvor legetøj – et legetøjstog, en dukke, en legetøjslastbil – ligger på vægtskålene, og lodderne fortæller, hvor mange gram der skal til. Hvert svar skrives med den rigtige enhed, så ml og g ikke blandes sammen.",
    "p2": "At aflæse en skala er en færdighed for sig: Barnet skal finde ud af, hvad hver streg er værd, og tælle sig frem i spring – ofte i halvtredsere eller hundreder. Det er talforståelse og måling i én bevægelse. Samtidig grundlægges fornemmelsen for, hvad milliliter og gram egentlig er for størrelser, og vanen med altid at skrive enheden på svaret – en lille ting, der skiller de præcise fra de sjuskede hele skolelivet igennem. At de to redskaber står på samme side, inviterer desuden til samtalen om, hvad der egentlig måles – rumfang i det ene, vægt i det andet.",
    "p3": "Arket printes gratis som PDF og bliver ekstra levende, hvis der bagefter måles og vejes rigtigt i klassen eller ved køkkenbordet. Skalaaflæsningen har en nær slægtning i at tegne viserne på uret, hvor en anden slags skala skal mestres – og spejlbillede-arket med kvadratnet træner det samme skarpe blik for detaljer.",
    "canonicalDeckSlug": "maaling-koretojer-g2252",
@@ -135520,7 +135520,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-klasse"
    },
    "eyebrow": "Måle-opgaveark",
@@ -135532,7 +135532,7 @@
     "koretojer",
     "2-klasse"
    ],
-   "p1": "På denne side står seks balancevægte, og der er ikke et eneste målebæger. På den ene vægtskål ligger et lille køretøj – en bil, en bus, en traktor – og på den anden ligger lodder fra det klassiske loddesæt: 500 g, 200 g, 100 g og 50 g. Vægten er i balance, og derfor vejer køretøjet nøjagtig lige så meget som lodderne tilsammen. Barnet lægger loddernes værdier sammen og skriver svaret i gram.",
+   "p1": "På denne side står seks balancevægte, og der er ikke et eneste målebæger. På den ene vægtskål ligger et stykke legetøj – en bold, en robot, en dukke – og på den anden ligger lodder fra det klassiske loddesæt: 500 g, 200 g, 100 g og 50 g. Vægten er i balance, og derfor vejer legetøjet nøjagtig lige så meget som lodderne tilsammen. Barnet lægger loddernes værdier sammen og skriver svaret i gram.",
    "p2": "Balancen er en fysisk model af lighedstegnet, og det er hele pointen. Når vægtstangen står vandret, er de to sider lige store – ikke omtrent, men præcis – og barnet oplever, at et lighedstegn betyder balance og ikke bare her kommer svaret. Samtidig bliver additionen konkret: 500 plus 200 plus 100 er ikke et abstrakt stykke, men noget, der ligger og kan ses. Vær opmærksom på, at nogle børn tæller antallet af lodder i stedet for at lægge deres værdier sammen og svarer tre i stedet for 800 gram; et par sekunders samtale om, hvad der står på hvert lod, rydder det af vejen.",
    "p3": "Arket printes gratis som PDF og bliver dobbelt så godt, hvis der står en rigtig skålvægt i klassen bagefter. Skal rumfanget med, står målebægrene med milliliter klar, og siden med fine skalaer blander de to redskaber igen.",
    "canonicalDeckSlug": "maaling-koretojer-g2261",
@@ -135555,7 +135555,7 @@
     }
    ],
    "title": "Aflæs vægte i gram – 2. klasse | print PDF gratis",
-   "metaDescription": "Seks balancevægte med lodder og køretøjer på skålene: barnet lægger sammen og skriver vægten i gram. Ark til 2. klasse. Gratis PDF til print."
+   "metaDescription": "Seks balancevægte med lodder og legetøj på skålene: barnet lægger sammen og skriver vægten i gram. Ark til 2. klasse. Gratis PDF til print."
   },
   {
    "slug": "aflaes-skalaer-med-smaa-spring",
@@ -135563,7 +135563,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-klasse"
    },
    "eyebrow": "Måle-opgaveark",
@@ -135575,7 +135575,7 @@
     "koretojer",
     "2-klasse"
    ],
-   "p1": "Denne side blander de to redskaber igen – tre målebægre og tre balancevægte, seks kort i alt – men skalaerne er blevet finere. Stregerne på bægrene går nu i spring af halvtreds milliliter i stedet for hundrede, og på vægtene kan der ligge op til fire lodder over for køretøjet på skålen. Barnet aflæser hvert redskab og skriver svaret med den rigtige enhed, ml eller g.",
+   "p1": "Denne side blander de to redskaber igen – tre målebægre og tre balancevægte, seks kort i alt – men skalaerne er blevet finere. Stregerne på bægrene går nu i spring af halvtreds milliliter i stedet for hundrede, og på vægtene kan der ligge op til fire lodder over for legetøjet på skålen. Barnet aflæser hvert redskab og skriver svaret med den rigtige enhed, ml eller g.",
    "p2": "Finere streger kræver en anden slags aflæsning. Barnet kan ikke længere nøjes med at tælle tallene på skalaen, men må først finde ud af, hvad en enkelt streg er værd – står der 100 ved den ene mærkning og 200 ved den næste med en streg imellem, gælder halvtreds pr. streg. Den lille undersøgelse er selve færdigheden, og den går igen på ethvert måleredskab, barnet siden møder, fra lineal til termometer og litermål. På vægtsiden gør det fjerde lod det samme: fire tal skal lægges sammen i stedet for tre, så additionen bliver længere, og et overset lod koster hele svaret.",
    "p3": "Arket printes gratis som PDF og er den svære af målesiderne – gem det til efter de rene bæger- og vægtsider. Den samme skarpe aflæsning bruges, når viserne skal tegnes på uret, hvor minutstregerne kræver præcis samme opmærksomhed.",
    "canonicalDeckSlug": "maaling-koretojer-g2262",
@@ -135648,11 +135648,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "2-klasse"
    },
    "eyebrow": "Måle-opgaveark",
-   "h1": "Målebægre og vægte med dyr – aflæs ml og gram",
+   "h1": "Målebægre og vægte med tøj – aflæs ml og gram",
    "strand": "Geometri og måling",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -135660,9 +135660,9 @@
     "dyr",
     "2-klasse"
    ],
-   "p1": "Denne udgave af måle-arket har dyr på vægtskålene. Siden rummer seks kort: tre målebægre, hvor stregerne viser milliliter, og tre balancevægte, hvor et dyr – en kat, en pingvin, en elefant – ligger over for lodderne. Vægten er i balance, så dyret vejer nøjagtig det, lodderne siger tilsammen. Barnet aflæser hvert redskab og skriver svaret med den rigtige enhed, ml eller g.",
-   "p2": "Dyrene gør en forskel, man ikke skal underkende. Et billede, barnet holder af, får opgaven til at ligne en fortælling frem for en øvelse, og spørgsmålet hvor meget vejer pingvinen er langt lettere at stille end hvor mange gram viser vægten. Lad gerne klassen gætte, inden lodderne tælles sammen. Temaet åbner desuden for den samtale, der giver måling mening: vejer en kat virkelig 800 gram, eller er det for lidt? Her er tallene skolestuens og ikke zoologisk haves, og netop dén indvending er en fremragende matematiksamtale, hvor barnet skal bruge sin egen erfaring om vægt til at vurdere et resultat.",
-   "p3": "Arket printes gratis som PDF og passer ind i et tema om dyr. Vil man have køretøjer på skålene i stedet, findes den oprindelige udgave af målebægre og vægte, og skal ét redskab trænes for sig, står de rene sider med bægre eller med vægte klar.",
+   "p1": "Denne udgave af måle-arket har tøj på vægtskålene. Siden rummer seks kort: tre målebægre, hvor stregerne viser milliliter, og tre balancevægte, hvor et stykke tøj – en kasket, et halstørklæde, et par jeans – ligger over for lodderne. Vægten er i balance, så tøjet vejer nøjagtig det, lodderne siger tilsammen. Barnet aflæser hvert redskab og skriver svaret med den rigtige enhed, ml eller g.",
+   "p2": "Tøjet gør en forskel, man ikke skal underkende. Ting, barnet selv har på hver dag, får opgaven til at ligne hverdagen frem for en øvelse, og spørgsmålet hvor meget vejer halstørklædet er langt lettere at stille end hvor mange gram viser vægten. Lad gerne klassen gætte, inden lodderne tælles sammen. Temaet åbner desuden for den samtale, der giver måling mening: vejer et par jeans virkelig 400 gram, eller er det for lidt? Barnet kan selv mærke efter med sine egne bukser, og netop dén afprøvning er en fremragende matematiksamtale, hvor barnet skal bruge sin egen erfaring om vægt til at vurdere et resultat.",
+   "p3": "Arket printes gratis som PDF og passer ind i et tema om tøj. Vil man have legetøj på skålene i stedet, findes den oprindelige udgave af målebægre og vægte, og skal ét redskab trænes for sig, står de rene sider med bægre eller med vægte klar.",
    "canonicalDeckSlug": "maaling-dyr-g2252",
    "carousel": [
     {
@@ -135682,8 +135682,8 @@
      "href": "maalebaegre-op-til-2000-ml"
     }
    ],
-   "title": "Målebægre og vægte med dyr | print PDF gratis",
-   "metaDescription": "Tre målebægre med milliliter og tre balancevægte med dyr på skålen. Barnet aflæser og skriver svaret med enheden. 2. klasse. Gratis PDF til print."
+   "title": "Målebægre og vægte med tøj | print PDF gratis",
+   "metaDescription": "Tre målebægre med milliliter og tre balancevægte med tøj på skålen. Barnet aflæser og skriver svaret med enheden. 2. klasse. Gratis PDF til print."
   },
   {
    "slug": "nem-symmetritegning",

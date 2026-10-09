@@ -173303,7 +173303,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "grade-2"
    },
    "eyebrow": "Measurement Worksheet",
@@ -173312,10 +173312,10 @@
    "standard": "3.MD.A.2",
    "slotTokens": [
     "measurement",
-    "vehicles",
+    "toys",
     "grade-2"
    ],
-   "p1": "This Grade 2 measurement worksheet splits its page between capacity and mass, with a vehicles theme rolling through it. On one side, three measuring jugs hold liquid at different levels, and the child reads each scale to write the amount in milliliters. On the other, three balance scales weigh little vehicles, and the child reads off each mass in grams. Six readings in all, each one written down together with its unit.",
+   "p1": "This Grade 2 measurement worksheet splits its page between capacity and mass, with a toys theme running through it. On one side, three measuring jugs hold liquid at different levels, and the child reads each scale to write the amount in milliliters. On the other, three balance scales weigh toys — a toy train, a doll, a toy truck — and the child reads off each mass in grams. Six readings in all, each one written down together with its unit.",
    "p2": "Reading a scale is a skill of its own, separate from arithmetic: the child has to work out what each unlabeled tick mark is worth, follow the liquid level or the pointer to the right line, and report the number with its unit attached. Milliliters and grams also give children their first working feel for metric measurement — how much a jug really holds, how heavy a small object really is — turning abstract units into physical intuition they will use in science class and in the kitchen.",
    "p3": "Print the PDF free and follow up in the real world: a kitchen scale and a measuring cup turn this page into a hands-on afternoon. Column addition and subtraction handles the computation side of measurement work, and reading comprehension keeps the same careful-reading habit growing.",
    "canonicalDeckSlug": "measurement-vehicles-g2252",
@@ -177302,7 +177302,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "grade-2"
    },
    "eyebrow": "Measurement Worksheet",
@@ -177311,10 +177311,10 @@
    "standard": "3.MD.A.2",
    "slotTokens": [
     "measurement",
-    "vehicles",
+    "toys",
     "grade-2"
    ],
-   "p1": "Six balance scales share this Grade 2 page, and a little vehicle sits on one pan of each — a truck, a bus, a tractor — with gram weights stacked on the other pan until the two sides level out. The child adds up the weights and writes the vehicle's mass in grams underneath. No jugs here and no milliliters: six balances and a single unit for the whole page.",
+   "p1": "Six balance scales share this Grade 2 page, and a toy sits on one pan of each — a ball, a robot, a doll — with gram weights stacked on the other pan until the two sides level out. The child adds up the weights and writes the toy's mass in grams underneath. No jugs here and no milliliters: six balances and a single unit for the whole page.",
    "p2": "A pan balance teaches something a bathroom scale never can. It does not display a number; it makes a statement — these two sides are equal — and the child has to add the known weights in order to discover the unknown one. That is an equation in physical form, and it is the same idea that later turns into the missing number in 40 + ☐ = 65. It also makes mass concrete in a way that pictures of dials do not: 500 grams becomes a thing you would feel in your hand rather than a label to copy out.",
    "p3": "Print it free as a PDF and, if there is a balance in the school cupboard, weigh something real afterwards — nothing beats the actual object. Measuring jugs in milliliters is the capacity twin, the mixed page with fine 50 ml marks sharpens the reading further, and column addition keeps the adding of weights quick.",
    "canonicalDeckSlug": "measurement-vehicles-g2261",
@@ -177337,7 +177337,7 @@
     }
    ],
    "title": "Balance Scales in Grams | Free Printable PDF",
-   "metaDescription": "Balance scales worksheet: six pan balances with a vehicle on one side and gram weights on the other. Add the weights, write the mass. Free PDF."
+   "metaDescription": "Balance scales worksheet: six pan balances with a toy on one side and gram weights on the other. Add the weights, write the mass. Free PDF."
   },
   {
    "slug": "reading-scales-in-50-ml-steps",
@@ -177345,7 +177345,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "grade-2"
    },
    "eyebrow": "Measurement Worksheet",
@@ -177354,10 +177354,10 @@
    "standard": "3.MD.A.2",
    "slotTokens": [
     "measurement",
-    "vehicles",
+    "toys",
     "grade-2"
    ],
-   "p1": "The jugs and balances on this Grade 2 page are marked far more finely than usual: the ticks step in fifties, so a reading of 250 ml or 350 ml sits between the labelled hundreds rather than on one of them. Vehicles ride the balance pans as before. The child still reads each scale and writes the amount with its unit, but now the answer often lands on an unlabelled line and has to be worked out rather than simply seen.",
+   "p1": "The jugs and balances on this Grade 2 page are marked far more finely than usual: the ticks step in fifties, so a reading of 250 ml or 350 ml sits between the labelled hundreds rather than on one of them. Toys sit on the balance pans — a toy car, a doll, a ball. The child still reads each scale and writes the amount with its unit, but now the answer often lands on an unlabelled line and has to be worked out rather than simply seen.",
    "p2": "Fine scales are where scale reading turns into a real skill. Shown a level halfway between 200 and 300, a child who has only ever met labelled marks writes 200, or 300, or occasionally 250 by lucky guess. Counting the gaps, dividing, and naming the tick value is the method that survives every scale they will ever meet — thermometers, rulers, measuring spoons, the pointer on a kitchen dial. It rewards slowing down, which is precisely what measurement work should be teaching at this age.",
    "p3": "The worksheet prints free as a PDF, and it is worth reading one jug together aloud before letting the child loose on the rest. The plain measuring jugs page is the gentler starting point, balance scales in grams isolates the mass side, and the big jugs to 2000 ml take the same careful reading up into larger numbers.",
    "canonicalDeckSlug": "measurement-vehicles-g2262",
@@ -177430,21 +177430,21 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "grade-2"
    },
    "eyebrow": "Measurement Worksheet",
-   "h1": "Capacity and Mass with Animals: Jugs and Scales",
+   "h1": "Capacity and Mass with Clothing: Jugs and Scales",
    "strand": "Measurement & Data",
    "standard": "3.MD.A.2",
    "slotTokens": [
     "measurement",
-    "animals",
+    "clothing",
     "grade-2"
    ],
-   "p1": "This Grade 2 measurement page splits itself between capacity and mass, with animals sitting on the balance pans. Three measuring jugs hold liquid at different levels for the child to read in milliliters; three balances weigh a duck, a hedgehog, a cat against gram weights for the child to read in grams. Six readings altogether, each one written down together with its unit.",
-   "p2": "Animals on the pans invite a question that a page of boxes never does: which one is heavier, and by how much? That single follow-up turns a reading exercise into comparison, subtraction and a small science conversation — how heavy might a real hedgehog be, is a duck heavier than a cat, would any of them actually sit still on a school balance. Measurement lives in that talk at least as much as in the writing down, and a themed page gives a class something to argue about while the units and tick marks quietly do their work.",
-   "p3": "Print the PDF free and keep the comparison questions coming after the last box is filled. The vehicles edition of capacity and mass is the sibling sheet, reading measuring jugs isolates the capacity half, and balance scales in grams does the same for mass.",
+   "p1": "This Grade 2 measurement page splits itself between capacity and mass, with clothes lying on the balance pans. Three measuring jugs hold liquid at different levels for the child to read in milliliters; three balances weigh a cap, a scarf and a pair of jeans against gram weights for the child to read in grams. Six readings altogether, each one written down together with its unit.",
+   "p2": "Clothes on the pans invite a question that a page of boxes never does: which one is heavier, and by how much? That single follow-up turns a reading exercise into comparison, subtraction and a small science conversation — is a scarf really heavier than a cap, how much do our own jeans weigh, would a winter coat weigh more still. Measurement lives in that talk at least as much as in the writing down, and a themed page gives a class something to argue about while the units and tick marks quietly do their work.",
+   "p3": "Print the PDF free and keep the comparison questions coming after the last box is filled. The toys edition of capacity and mass is the sibling sheet, reading measuring jugs isolates the capacity half, and balance scales in grams does the same for mass.",
    "canonicalDeckSlug": "measurement-animals-g2252",
    "carousel": [
     {
@@ -177464,8 +177464,8 @@
      "href": "measuring-jugs-to-2000-ml"
     }
    ],
-   "title": "Capacity and Mass with Animals | Free Printable PDF",
-   "metaDescription": "Animal measurement worksheet: three jugs to read in milliliters and three balance scales weighing animals in grams. Free printable Grade 2 PDF."
+   "title": "Capacity and Mass with Clothing | Free Printable PDF",
+   "metaDescription": "Clothing measurement worksheet: three jugs to read in milliliters and three balance scales weighing clothes in grams. Free printable Grade 2 PDF."
   },
   {
    "slug": "easy-symmetry-drawing",

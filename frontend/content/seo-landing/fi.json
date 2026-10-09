@@ -131488,7 +131488,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-luokka"
    },
    "eyebrow": "Mittaamisen tehtävämoniste",
@@ -131500,7 +131500,7 @@
     "ajoneuvot",
     "2-luokka"
    ],
-   "p1": "Tällä monisteella mitataan kahdella tavalla. Sivun kolmessa mitta-astiassa on nestettä, ja lapsi lukee asteikolta, kuinka monta millilitraa astiassa on. Kolmella tasapainovaa'alla puolestaan punnitaan ajoneuvoja: vaakakupissa istuu vaikkapa auto tai lentokone, ja lapsi lukee vaa'an näyttämän grammoina. Jokainen lukema kirjoitetaan vastauslaatikkoon yhdessä yksikön kanssa, sillä pelkkä luku ei vielä kerro, puhutaanko millilitroista vai grammoista. Ajoneuvoteema tuo punnitsemiseen leikin makua: on hauska nähdä, kuinka paljon vaikkapa auto painaa vaakakupissa. Jokainen tehtävä luetaan omalta mittarilta, joten toistoa kertyy kuusi kertaa.",
+   "p1": "Tällä monisteella mitataan kahdella tavalla. Sivun kolmessa mitta-astiassa on nestettä, ja lapsi lukee asteikolta, kuinka monta millilitraa astiassa on. Kolmella tasapainovaa'alla puolestaan punnitaan leluja: vaakakupissa on vaikkapa leikkijuna, nukke tai leikkikuorma-auto, ja lapsi lukee vaa'an näyttämän grammoina. Jokainen lukema kirjoitetaan vastauslaatikkoon yhdessä yksikön kanssa, sillä pelkkä luku ei vielä kerro, puhutaanko millilitroista vai grammoista. Leluteema tuo punnitsemiseen leikin makua: on hauska nähdä, kuinka paljon vaikkapa nukke painaa vaakakupissa. Jokainen tehtävä luetaan omalta mittarilta, joten toistoa kertyy kuusi kertaa.",
    "p2": "Mitta-asteikon lukeminen on taito, jota tarvitaan keittiöstä luonnontieteen tunneille asti. Lapsi oppii katsomaan, mihin kohtaan asteikkoa pinta tai viisari asettuu, ja hahmottamaan asteikon välit, jotka eivät aina etene yksi kerrallaan. Kahden suureen rinnakkain kulkeminen auttaa ymmärtämään, että tilavuus ja massa ovat eri asioita, joita mitataan eri välineillä ja eri yksiköillä. Yksikön kirjoittaminen vastauksen perään kasvattaa täsmällisyyttä, joka on hyvän mittaamisen ydin. Toisella luokalla juuri asteikon välien tulkinta erottaa mekaanisen lukemisen todellisesta ymmärtämisestä, ja tämä sivu harjoittaa sitä molemmilla mittareilla.",
    "p3": "Moniste on ilmainen tulostettava PDF, ja sen jatkoksi sopii oikea mittailuhetki keittiössä desilitramitan ja vaa'an kanssa. Lukemien kanssa laskemista harjoittaa allekkain laskeminen ilman kymmenylitystä, jossa suuremmat luvut pysyvät hallinnassa sarakkeiden avulla. Arjen mittaamista jatkavat myös rahalaskut euroilla ja senteillä. Mittaava katse tarkentuu harjoitus harjoitukselta. Kun lukemat alkavat sujua paperilla, arjen mittarit kaupassa ja keittiössä muuttuvat kiinnostaviksi tutkimuskohteiksi.",
    "canonicalDeckSlug": "mittaaminen-ajoneuvot-g2252",
@@ -135487,7 +135487,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-luokka"
    },
    "eyebrow": "Massan mittaaminen",
@@ -135499,8 +135499,8 @@
     "ajoneuvot",
     "2-luokka"
    ],
-   "p1": "Tällä monisteella on kuusi tasapainovaakaa. Jokaisen vaa'an toisessa kupissa on punnittava esine, tällä sivulla ajoneuvo, esimerkiksi auto, lentokone tai laiva, ja toisessa kupissa on punnuksia, joissa lukee massa grammoina. Punnuksia on yhdestä kolmeen, ja lapsi laskee ne yhteen saadakseen selville, kuinka paljon esine painaa. Vastaus kirjoitetaan vaa'an alla olevaan laatikkoon. Sivulla ei ole lainkaan mitta-astioita, joten koko harjoitus keskittyy massaan. Punnukset on merkitty selvin numeroin, joten yhteenlasku onnistuu suoraan kuvasta. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin.",
-   "p2": "Tasapainovaaka on luokassa kiitollinen väline, koska se näyttää suoraan, mitä punnitseminen tarkoittaa: kaksi kuppia ovat samassa asennossa silloin, kun massat ovat yhtä suuret. Tämä sivu tekee samasta ajatuksesta paperiharjoituksen, ja samalla se harjoittaa yhteenlaskua mielekkäässä yhteydessä, sillä punnusten summa on esineen massa. Oikeat punnukset tai vaikkapa pakkausten painomerkinnät kannattaa ottaa mukaan tunnille, koska gramma on lapselle abstrakti yksikkö, kunnes sen saa käteen. Ajoneuvokuvat tuovat punnitsemiseen leikin makua ja herättävät helposti keskustelun siitä, mikä oikeasti painaa eniten. Vaa’an tasapaino on lisäksi hyvä kuva yhtäsuuruudesta, ja siihen palataan myöhemmin yhtälöiden yhteydessä. Kuusi vaakaa antaa saman ajatuksen toistua riittävästi, jotta punnitsemisen idea jää mieleen.",
+   "p1": "Tällä monisteella on kuusi tasapainovaakaa. Jokaisen vaa'an toisessa kupissa on punnittava esine, tällä sivulla lelu, esimerkiksi pallo, robotti tai nukke, ja toisessa kupissa on punnuksia, joissa lukee massa grammoina. Punnuksia on yhdestä kolmeen, ja lapsi laskee ne yhteen saadakseen selville, kuinka paljon esine painaa. Vastaus kirjoitetaan vaa'an alla olevaan laatikkoon. Sivulla ei ole lainkaan mitta-astioita, joten koko harjoitus keskittyy massaan. Punnukset on merkitty selvin numeroin, joten yhteenlasku onnistuu suoraan kuvasta. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin.",
+   "p2": "Tasapainovaaka on luokassa kiitollinen väline, koska se näyttää suoraan, mitä punnitseminen tarkoittaa: kaksi kuppia ovat samassa asennossa silloin, kun massat ovat yhtä suuret. Tämä sivu tekee samasta ajatuksesta paperiharjoituksen, ja samalla se harjoittaa yhteenlaskua mielekkäässä yhteydessä, sillä punnusten summa on esineen massa. Oikeat punnukset tai vaikkapa pakkausten painomerkinnät kannattaa ottaa mukaan tunnille, koska gramma on lapselle abstrakti yksikkö, kunnes sen saa käteen. Lelukuvat tuovat punnitsemiseen leikin makua ja herättävät helposti keskustelun siitä, mikä oikeasti painaa eniten. Vaa’an tasapaino on lisäksi hyvä kuva yhtäsuuruudesta, ja siihen palataan myöhemmin yhtälöiden yhteydessä. Kuusi vaakaa antaa saman ajatuksen toistua riittävästi, jotta punnitsemisen idea jää mieleen.",
    "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa. Tilavuuden puolella vastaava yhden välineen sivu on mitta-astioiden millilitrojen lukeminen. Kun molemmat suureet ovat tuttuja, tilavuus- ja massatehtävät yhdistävät ne samalle sivulle. Punnusten yhteenlaskua tukevat päässälaskut. Sivun voi tulostaa uudelleen, koska punnukset ja esineet arvotaan joka kerta.",
    "canonicalDeckSlug": "mittaaminen-ajoneuvot-g2261",
    "carousel": [
@@ -135522,7 +135522,7 @@
     }
    ],
    "title": "Lue vaa'an lukema grammoina – tulostettava PDF",
-   "metaDescription": "Kuusi tasapainovaakaa, joissa punnitaan ajoneuvoja: lapsi laskee punnukset yhteen ja kirjoittaa massan grammoina. Ilmainen tulostettava PDF."
+   "metaDescription": "Kuusi tasapainovaakaa, joissa punnitaan leluja: lapsi laskee punnukset yhteen ja kirjoittaa massan grammoina. Ilmainen tulostettava PDF."
   },
   {
    "slug": "mitta-asteikot-50-ml-valein",
@@ -135530,7 +135530,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "2-luokka"
    },
    "eyebrow": "Mittaamisen harjoitusmoniste",
@@ -135542,7 +135542,7 @@
     "ajoneuvot",
     "2-luokka"
    ],
-   "p1": "Tällä monisteella mitataan tarkemmin kuin aiemmilla sivuilla. Kolmen mitta-astian asteikko nousee viidenkymmenen millilitran välein, joten viivoja on kaksi kertaa enemmän kuin sadan millilitran asteikossa ja lukema voi osua myös sadan väliin. Kolmella vaa'alla punnitaan ajoneuvoja, ja punnuksia voi olla jopa neljä, jolloin niiden yhteenlasku vaatii huolellisuutta. Jokainen lukema kirjoitetaan vastauslaatikkoon yksikön kanssa, sillä sivulla on sekä millilitroja että grammoja. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin, ja mittarit vuorottelevat. Vastauslaatikko on jokaisen mittarin alla.",
+   "p1": "Tällä monisteella mitataan tarkemmin kuin aiemmilla sivuilla. Kolmen mitta-astian asteikko nousee viidenkymmenen millilitran välein, joten viivoja on kaksi kertaa enemmän kuin sadan millilitran asteikossa ja lukema voi osua myös sadan väliin. Kolmella vaa'alla punnitaan leluja, ja punnuksia voi olla jopa neljä, jolloin niiden yhteenlasku vaatii huolellisuutta. Jokainen lukema kirjoitetaan vastauslaatikkoon yksikön kanssa, sillä sivulla on sekä millilitroja että grammoja. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin, ja mittarit vuorottelevat. Vastauslaatikko on jokaisen mittarin alla.",
    "p2": "Tarkka asteikko paljastaa, onko lapsi todella oppinut lukemaan välit vai onko hän arvannut lukemat numeroiden perusteella. Yleisin virhe on lukea jokainen viiva sadaksi millilitraksi vain siksi, että edellisillä sivuilla niin oli. Siksi ensimmäinen kysymys jokaisen astian kohdalla kannattaa olla sama: kuinka paljon yksi väli on tässä astiassa? Sama tarkkuus koskee vaakaa, jossa neljän punnuksen summa on laskettava huolellisesti eikä silmämääräisesti. Tämä sivu on siis yhtä paljon huolellisuuden kuin mittaamisen harjoitus, ja juuri se erottaa mekaanisen lukemisen ymmärtämisestä. Kun sekä astia että vaaka ovat samalla sivulla, lapsen on myös muistettava vaihtaa yksikköä tehtävästä toiseen. Yksikön unohtaminen on tässä toinen tavallinen virhe, ja se kannattaa merkitä näkyviin heti.",
    "p3": "Moniste on ilmainen tulostettava PDF ja sopii hyvin mittaamisjakson loppupuolelle. Jos välit tuntuvat vaikeilta, palaa sadan millilitran asteikkoon omalla sivullaan. Suuremmilla luvuilla mitataan isoissa astioissa kahteentuhanteen millilitraan asti. Sivun voi tulostaa uudelleen, sillä lukemat arvotaan joka kerta uudestaan.",
    "canonicalDeckSlug": "mittaaminen-ajoneuvot-g2262",
@@ -135615,11 +135615,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "2-luokka"
    },
    "eyebrow": "Mittaamisen eläinversio",
-   "h1": "Tilavuus ja massa: eläimet",
+   "h1": "Tilavuus ja massa: vaatteet",
    "strand": "Mittaaminen",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -135627,9 +135627,9 @@
     "elaimet",
     "2-luokka"
    ],
-   "p1": "Tämä on tilavuus- ja massatehtävien eläinversio. Sivun kolmessa mitta-astiassa on nestettä, jonka määrän lapsi lukee asteikolta millilitroina, ja kolmella tasapainovaa'alla punnitaan eläimiä: vaakakupissa istuu vaikkapa kissa, pingviini tai norsu, ja punnukset toisessa kupissa kertovat massan grammoina. Lukema kirjoitetaan vastauslaatikkoon aina yksikön kanssa, koska sivulla on kaksi eri suuretta. Kuusi mittaria antaa harjoitusta molemmista mittaustavoista saman sivun aikana. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin, ja mittarit vuorottelevat. Punnukset on merkitty selvin numeroin, ja astioiden asteikot nousevat tasaisin välein.",
-   "p2": "Eläinkuvat tekevät punnitsemisesta heti puheenaiheen. Lapset alkavat luontevasti vertailla: kumpi painaa enemmän, kissa vai pingviini, ja miksi kuvan koko ei aina kerro totuutta. Juuri tämä keskustelu on massan opettamisen kannalta arvokasta, sillä koon ja painon sekoittaminen on lapsuuden sitkeimpiä käsityksiä. Sivu antaa siihen konkreettisen tarttumapinnan ilman, että tehtävän matemaattinen sisältö muuttuu miksikään. Samalla kaksi suuretta pysyy rinnakkain: tilavuus mitataan astialla ja millilitroina, massa vaa'alla ja grammoina. Vastaus kirjoitetaan aina yksikön kanssa, mikä pitää suureet erillään. Kuusi mittaria antaa molemmille suureille kolme toistoa, mikä riittää yhdeksi työskentelykerraksi.",
-   "p3": "Moniste on ilmainen tulostettava PDF ja toimii ajoneuvoaiheisen version rinnalla, kun mittaamista halutaan harjoitella lisää uudella kuvamaailmalla. Yhteen suureeseen keskittyvät mitta-astiasivu ja vaakasivu. Eläinaiheet sopivat hyvin myös ympäristöopin yhteyteen. Sivun voi tulostaa uudelleen, sillä eläimet ja lukemat arvotaan joka kerta.",
+   "p1": "Tämä on tilavuus- ja massatehtävien vaateversio. Sivun kolmessa mitta-astiassa on nestettä, jonka määrän lapsi lukee asteikolta millilitroina, ja kolmella tasapainovaa'alla punnitaan vaatteita: vaakakupissa on vaikkapa lippalakki, kaulahuivi tai farkut, ja punnukset toisessa kupissa kertovat massan grammoina. Lukema kirjoitetaan vastauslaatikkoon aina yksikön kanssa, koska sivulla on kaksi eri suuretta. Kuusi mittaria antaa harjoitusta molemmista mittaustavoista saman sivun aikana. Sivu on aseteltu kolmeen sarakkeeseen ja kahteen riviin, ja mittarit vuorottelevat. Punnukset on merkitty selvin numeroin, ja astioiden asteikot nousevat tasaisin välein.",
+   "p2": "Vaatekuvat tekevät punnitsemisesta heti puheenaiheen. Lapset alkavat luontevasti vertailla: kumpi painaa enemmän, kaulahuivi vai farkut, ja miksi kuvan koko ei aina kerro totuutta. Juuri tämä keskustelu on massan opettamisen kannalta arvokasta, sillä koon ja painon sekoittaminen on lapsuuden sitkeimpiä käsityksiä. Sivu antaa siihen konkreettisen tarttumapinnan ilman, että tehtävän matemaattinen sisältö muuttuu miksikään. Samalla kaksi suuretta pysyy rinnakkain: tilavuus mitataan astialla ja millilitroina, massa vaa'alla ja grammoina. Vastaus kirjoitetaan aina yksikön kanssa, mikä pitää suureet erillään. Kuusi mittaria antaa molemmille suureille kolme toistoa, mikä riittää yhdeksi työskentelykerraksi.",
+   "p3": "Moniste on ilmainen tulostettava PDF ja toimii leluaiheisen version rinnalla, kun mittaamista halutaan harjoitella lisää uudella kuvamaailmalla. Yhteen suureeseen keskittyvät mitta-astiasivu ja vaakasivu. Vaateaihe sopii hyvin myös vuodenaikojen ja sään käsittelyn yhteyteen.",
    "canonicalDeckSlug": "mittaaminen-elaimet-g2252",
    "carousel": [
     {
@@ -135649,8 +135649,8 @@
      "href": "isot-mitta-astiat-2000-ml"
     }
    ],
-   "title": "Tilavuus ja massa: eläimet – tulostettava PDF",
-   "metaDescription": "Kolme mitta-astiaa ja kolme vaakaa, joilla punnitaan eläimiä: lapsi lukee millilitrat ja grammat. Ilmainen tulostettava PDF-moniste 2. luokalle."
+   "title": "Tilavuus ja massa: vaatteet – tulostettava PDF",
+   "metaDescription": "Kolme mitta-astiaa ja kolme vaakaa, joilla punnitaan vaatteita: lapsi lukee millilitrat ja grammat. Ilmainen tulostettava PDF-moniste 2. luokalle."
   },
   {
    "slug": "helpot-peilikuvat",

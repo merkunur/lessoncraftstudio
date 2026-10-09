@@ -130244,7 +130244,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "3-trinn"
    },
    "eyebrow": "Måle-oppgaveark",
@@ -130256,7 +130256,7 @@
     "kjoretoy",
     "3-trinn"
    ],
-   "p1": "Dette arket tar barnet med inn i måleverdenen med to klassiske redskaper. Øverst står tre litermål med væske, og barnet leser av skalaen og skriver hvor mange milliliter det er i hvert. Nederst venter tre skålvekter med kjøretøy på veieskålene – en liten lastebil eller buss som skal veies – og barnet leser av vekten i gram. Til slutt skrives hvert svar med riktig enhet: ml for litermålene, g for vektene.",
+   "p1": "Dette arket tar barnet med inn i måleverdenen med to klassiske redskaper. Øverst står tre litermål med væske, og barnet leser av skalaen og skriver hvor mange milliliter det er i hvert. Nederst venter tre skålvekter med leker på veieskålene – et leketog, en dukke eller en lekelastebil som skal veies – og barnet leser av vekten i gram. Til slutt skrives hvert svar med riktig enhet: ml for litermålene, g for vektene.",
    "p2": "Å lese av en skala er en egen ferdighet som må øves, ikke noe som kommer av seg selv. Barnet må finne ut hva hver strek på skalaen er verdt, telle seg oppover i riktige hopp og lese av akkurat der væsken eller viseren stopper. Samtidig bygges følelsen for enhetene: hva milliliter og gram faktisk måler, og hvorfor svaret er meningsløst uten enheten bak tallet. Dette er praktisk matematikk som peker rett inn i hverdagen – mot baking, veiing og måling på kjøkkenbenken.",
    "p3": "Arket lastes ned gratis som PDF, og et målebeger og en kjøkkenvekt fra kjøkkenet ved siden av gjør økten helt konkret – les av på arket først, og mål etterpå i virkeligheten. Symmetriarket, der rutebilder skal speiles ferdig, passer godt sammen med dette for den som liker nøyaktig arbeid. Og den oppstilte regningen uten tierovergang holder tallarbeidet i gang parallelt med målingen.",
    "canonicalDeckSlug": "maling-kjoretoy-g2252",
@@ -134243,11 +134243,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "3-trinn"
    },
    "eyebrow": "Måle-oppgaveark",
-   "h1": "Lese av skålvekt i gram – seks vekter med kjøretøy",
+   "h1": "Lese av skålvekt i gram – seks vekter med leker",
    "strand": "Måling",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -134255,9 +134255,9 @@
     "kjoretoy",
     "3-trinn"
    ],
-   "p1": "Dette arket har seks skålvekter og ingenting annet. På den ene skåla står et kjøretøy – en lastebil, en buss, en traktor – og på den andre ligger loddene som holder vekta i balanse. Barnet ser på loddene, regner ut hvor mye de blir til sammen og skriver hvor mange gram kjøretøyet veier.",
+   "p1": "Dette arket har seks skålvekter og ingenting annet. På den ene skåla står en leke – en ball, en robot, en dukke – og på den andre ligger loddene som holder vekta i balanse. Barnet ser på loddene, regner ut hvor mye de blir til sammen og skriver hvor mange gram leken veier.",
    "p2": "Skålvekta er et fint redskap nettopp fordi den viser hva veiing egentlig er: en sammenligning. Tingen på den ene siden veier like mye som loddene på den andre, og barnet leser av vekten ved å legge sammen lodd i stedet for å lese et tall på et display. Det gir en helt annen forståelse av gram enn en digital kjøkkenvekt, og det gir samtidig ren addisjonstrening pakket inn i en praktisk situasjon. Balansetanken – like mye på hver side – er dessuten den samme tanken som ligger under likhetstegnet i matematikken. Å legge sammen lodd gir samtidig fin trening i å telle med hundre og femti om gangen, tall som går igjen i alt slags måleutstyr.",
-   "p3": "Arket lastes ned gratis som PDF. Litermålarket med milliliter er den andre halvparten av måletemaet, og grunnarket med tre litermål og tre vekter blander begge redskapene på én side. Vil dere ha samme oppgave med et annet motiv, finnes måling med dyr på skålene. Arket med fine 50-millilitersteg er neste utfordring når avlesningen skal bli enda mer nøyaktig.",
+   "p3": "Arket lastes ned gratis som PDF. Litermålarket med milliliter er den andre halvparten av måletemaet, og grunnarket med tre litermål og tre vekter blander begge redskapene på én side. Vil dere ha samme oppgave med et annet motiv, finnes måling med klær på skålene. Arket med fine 50-millilitersteg er neste utfordring når avlesningen skal bli enda mer nøyaktig.",
    "canonicalDeckSlug": "maling-kjoretoy-g2261",
    "carousel": [
     {
@@ -134278,7 +134278,7 @@
     }
    ],
    "title": "Lese av skålvekt i gram | utskrift PDF gratis",
-   "metaDescription": "Oppgaveark med seks skålvekter: kjøretøy på den ene skåla og lodd på den andre, og barnet skriver hvor mange gram tingen veier. Gratis PDF til utskrift."
+   "metaDescription": "Oppgaveark med seks skålvekter: en leke på den ene skåla og lodd på den andre, og barnet skriver hvor mange gram tingen veier. Gratis PDF til utskrift."
   },
   {
    "slug": "lese-skala-med-sma-steg",
@@ -134286,7 +134286,7 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "vehicles",
+    "theme": "toys",
     "level": "3-trinn"
    },
    "eyebrow": "Måle-oppgaveark",
@@ -134298,7 +134298,7 @@
     "kjoretoy",
     "3-trinn"
    ],
-   "p1": "Skalaen er finere på dette arket. Her går delstrekene i steg på 50 milliliter i stedet for hundre, og både litermål og skålvekter med kjøretøy er blandet på siden. Barnet må telle mindre hopp og lese av mer nøyaktig enn før – 150, 250, 350 – og skrive hvert svar med riktig enhet bak tallet. Både ml og g er i bruk på siden, så enheten må velges bevisst for hvert eneste svar.",
+   "p1": "Skalaen er finere på dette arket. Her går delstrekene i steg på 50 milliliter i stedet for hundre, og både litermål og skålvekter med leker er blandet på siden. Barnet må telle mindre hopp og lese av mer nøyaktig enn før – 150, 250, 350 – og skrive hvert svar med riktig enhet bak tallet. Både ml og g er i bruk på siden, så enheten må velges bevisst for hvert eneste svar.",
    "p2": "Feilen som dukker opp når skalaen blir finere, er nesten alltid den samme: barnet fortsetter å telle med de gamle stegene. Har man lest av litermål med hundre milliliter mellom strekene i noen uker, sitter hundretallet i hodet, og da leses 150 som 200. Derfor er dette arket viktigere enn vanskelighetsgraden alene skulle tilsi – det tvinger barnet til å sjekke skalaen på nytt før avlesningen begynner, hver eneste gang. Den vanen er hele forskjellen mellom å lese av et måleredskap og å gjette seg frem. En god rutine er å be barnet peke på to nummererte streker og si hvor mange delstreker som ligger mellom dem, før noe som helst leses av.",
    "p3": "Arket er gratis som PDF og passer godt når de enklere skalaene sitter. Litermålarket med hele hundretall er stedet å gå tilbake til hvis det butter, og de store målene til 2000 ml venter når nøyaktigheten er på plass.",
    "canonicalDeckSlug": "maling-kjoretoy-g2262",
@@ -134371,11 +134371,11 @@
    "coordinate": {
     "type": "measurement",
     "mode": null,
-    "theme": "animals",
+    "theme": "clothing",
     "level": "3-trinn"
    },
    "eyebrow": "Måle-oppgaveark",
-   "h1": "Måle liter og gram med dyr på vektskålene",
+   "h1": "Måle liter og gram med klær på vektskålene",
    "strand": "Måling",
    "standard": "3.MD.A.2",
    "slotTokens": [
@@ -134383,9 +134383,9 @@
     "dyr",
     "3-trinn"
    ],
-   "p1": "Dette er måleoppgaver med dyr på vektskålene. Tre litermål skal leses av i milliliter, og tre skålvekter viser et dyr på den ene skåla – en katt, en pingvin, en rev – med lodd på den andre som forteller hvor mange gram dyret veier. Barnet leser av hvert redskap og skriver svaret med riktig enhet, ml eller g.",
-   "p2": "Å veie dyr setter i gang samtaler som tall alene ikke gjør. Barn har ofte helt ville forestillinger om hva ting veier, og et ark der en katt og en pingvin står på hver sin vekt, inviterer til gjetting før avlesningen: hvem tror du veier mest? Slik estimering før måling er en av de mest verdifulle vanene i måleundervisningen, fordi den gir barnet noe å sammenligne svaret med. Kommer det et tall som er ti ganger for stort, oppdager barnet det selv i stedet for å skrive det ned uten å blunke. Etterpå kan klassen sortere dyrene fra letteste til tyngste ut fra svarene, og da blir gramtallene til noe barnet faktisk kan sammenligne.",
-   "p3": "Arket skrives ut gratis som PDF. Versjonen med kjøretøy på vektskålene gir samme oppgave med et annet motiv, og de rene vektarkene i gram gir mer trening på lodd og balanse. Labyrinten med dyr passer fint som lettere avslutning på økta. Litermålene opp til 2000 ml venter når volum skal øves videre.",
+   "p1": "Dette er måleoppgaver med klær på vektskålene. Tre litermål skal leses av i milliliter, og tre skålvekter viser et klesplagg på den ene skåla – en caps, et skjerf, en olabukse – med lodd på den andre som forteller hvor mange gram plagget veier. Barnet leser av hvert redskap og skriver svaret med riktig enhet, ml eller g.",
+   "p2": "Å veie klær setter i gang samtaler som tall alene ikke gjør. Barn har ofte helt ville forestillinger om hva ting veier, og et ark der et skjerf og en olabukse ligger på hver sin vekt, inviterer til gjetting før avlesningen: hvem tror du veier mest? Slik estimering før måling er en av de mest verdifulle vanene i måleundervisningen, fordi den gir barnet noe å sammenligne svaret med. Kommer det et tall som er ti ganger for stort, oppdager barnet det selv i stedet for å skrive det ned uten å blunke. Etterpå kan klassen sortere plaggene fra letteste til tyngste ut fra svarene, og da blir gramtallene til noe barnet faktisk kan sammenligne.",
+   "p3": "Arket skrives ut gratis som PDF. Versjonen med leker på vektskålene gir samme oppgave med et annet motiv, og de rene vektarkene i gram gir mer trening på lodd og balanse. Labyrinten med dyr passer fint som lettere avslutning på økta. Litermålene opp til 2000 ml venter når volum skal øves videre.",
    "canonicalDeckSlug": "maling-dyr-g2252",
    "carousel": [
     {
@@ -134405,8 +134405,8 @@
      "href": "litermal-til-2000-ml"
     }
    ],
-   "title": "Måle liter og gram med dyr | utskrift PDF gratis",
-   "metaDescription": "Oppgaveark med tre litermål i ml og tre skålvekter med dyr i gram: barnet gjetter først og leser av skalaen etterpå. Gratis PDF til utskrift."
+   "title": "Måle liter og gram med klær | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med tre litermål i ml og tre skålvekter med klær i gram: barnet gjetter først og leser av skalaen etterpå. Gratis PDF til utskrift."
   },
   {
    "slug": "enkel-symmetri",

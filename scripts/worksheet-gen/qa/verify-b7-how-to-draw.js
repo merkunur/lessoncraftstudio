@@ -182,6 +182,8 @@ async function main() {
       fl.f.forEach((x) => ok(false, `${mode}: ${x}`));
       lu.forEach((x) => ok(false, `${mode} greyscale: ${x}`));
       ok(fl.stack <= 740, `${mode}: the stack is ${fl.stack} px (> 740)`);
+      // the FILL floor (operator 2026-10-10): a print page uses >= 85 % of the body the tallest shipped chrome leaves (733)
+      ok(fl.stack >= 620, `${mode}: the stack is ${fl.stack} px (< 620) — the page leaves a blank band at the bottom`);
       shipped.push(`${mode} stack ${fl.stack}`);
     }
     if (!quick) for (let v = 2; v <= 13; v++) {

@@ -3028,5 +3028,93 @@
   "K-394": {
     "title": "Kleuren op nummer: {UNIT}",
     "instruction": "Kleur elk deel met de kleur van zijn nummer."
+  },
+  "K-395": {
+    "title": "Zoek de 5 verschillen: {UNIT}",
+    "instruction": "Vergelijk plaatje 1 met plaatje 2 eronder, omcirkel de 5 dingen die anders zijn en zet voor elk verschil een vinkje in een vakje."
+  },
+  "K-396": {
+    "title": "Hoe teken je {L}: stap voor stap",
+    "instruction": "Kijk naar de genummerde stappen en teken de kat in het grote vak: eerst de omtrek, dan steeds de oranje lijnen van de volgende stap erbij."
+  },
+  "K-397": {
+    "title": "Zoek de 3 verschillen: {UNIT}",
+    "instruction": "Zoek in het onderste plaatje de 3 grote dingen die anders zijn, omcirkel ze en zet een vinkje in de 3 vakjes."
+  },
+  "K-398": {
+    "title": "Verschillen zoeken in kleur",
+    "instruction": "Omcirkel in het onderste, gekleurde plaatje de 5 dingen die anders zijn en zet voor elk een vinkje in een vakje; let ook goed op de kleuren."
+  },
+  "G1-412": {
+    "title": "Zoek de 7 verschillen bij de vijver",
+    "instruction": "Omcirkel de 7 verschillen, 4 in het linkerpaar plaatjes en 3 in het rechterpaar, en zet voor elk verschil een vinkje in een vakje eronder."
+  },
+  "G2-388": {
+    "title": "Zoek de 10 verschillen in de tuin: moeilijk",
+    "instruction": "Omcirkel de 10 verschillen, 5 in elk paar plaatjes, en zet onder dat paar voor elk verschil dat je vindt een vinkje in een vakje."
+  },
+  "G1-413": {
+    "title": "Hoeveel verschillen zijn er?",
+    "instruction": "Omcirkel in het onderste plaatje elk verschil dat je vindt en schrijf dan in het vakje hoeveel verschillen je hebt gevonden."
+  },
+  "G1-414": {
+    "title": "Wat is er veranderd? Vink de woorden aan",
+    "instruction": "Omcirkel de 3 verschillen in het onderste plaatje en zet dan een vinkje bij de woorden van de dingen die veranderd zijn."
+  },
+  "G1-415": {
+    "title": "Spiegelbeeld: verschillen zoeken en vouwen",
+    "instruction": "Plaatje 2 is gespiegeld; omcirkel de 4 dingen die toch anders zijn, zet voor elk een vinkje in een vakje en vouw dan op de lijn om na te kijken."
+  },
+  "K-399": {
+    "title": "Wat ontbreekt er in het plaatje?",
+    "instruction": "Omcirkel in het onderste plaatje de 3 lege plekken waar iets uit het bovenste plaatje weg is, en zet voor elk een vinkje in een vakje."
+  },
+  "K-400": {
+    "title": "Plaatjesparen: zoek het verschil",
+    "instruction": "Elke rij laat twee keer hetzelfde stukje zien; omcirkel in het rechterplaatje de ene plek die anders is en zet een vinkje in het vakje van die rij."
+  },
+  "G2-389": {
+    "title": "Schrijf op wat er anders is",
+    "instruction": "Omcirkel de 3 verschillen en schrijf dan over elk verschil één zin op de lijnen; gebruik de woorden uit de twee stroken."
+  },
+  "K-401": {
+    "title": "{U} tekenen met simpele vormen",
+    "instruction": "Trek eerst de gestippelde vormen in het vak over, teken daar de omtrek van de hond omheen en maak de tekening af met de stappen."
+  },
+  "K-402": {
+    "title": "{U} overtrekken en dan zelf tekenen",
+    "instruction": "Trek het grijze konijn over met je potlood en teken het konijn daarna zelf in het lege vak ernaast."
+  },
+  "K-403": {
+    "title": "Maak de tekening van het {N} af",
+    "instruction": "Kijk goed naar het hele paard, teken bij het tweede paard de lijnen die ontbreken en teken daarna onderaan zelf een paard."
+  },
+  "G1-416": {
+    "title": "{U} tekenen met een raster",
+    "instruction": "Kijk naar de dinosaurus in het raster, teken hem hokje voor hokje na in het lege raster en daarna nog een keer zonder raster."
+  },
+  "K-404": {
+    "title": "{U} tekenen en het woord schrijven",
+    "instruction": "Teken de vis met de stappen in het vak, trek dan het woord eronder over en schrijf het nog een keer."
+  },
+  "G1-417": {
+    "title": "{U} bij de vijver tekenen",
+    "instruction": "Oefen de kikker met de stappen en teken hem dan in het plaatje, op de lege vijver waar hij zat."
+  },
+  "G1-418": {
+    "title": "Zet de stappen op volgorde: {L} tekenen",
+    "instruction": "De stappen staan door elkaar: schrijf 1 tot en met 5 in de vakjes ernaast, in de goede volgorde, en teken dan de uil."
+  },
+  "G1-419": {
+    "title": "Teken elke stap na: {L}",
+    "instruction": "Teken in elk vak wat je in de stap erboven ziet, steeds met de oranje lijnen erbij, en teken daarna de hele vogel in het grote vak."
+  },
+  "G2-390": {
+    "title": "Teken {L} en schrijf erover",
+    "instruction": "Teken de beer met de stappen en schrijf dan drie zinnen over jouw beer op de lijnen; begin met de woorden die er al staan."
+  },
+  "G2-391": {
+    "title": "{U} uit je hoofd tekenen",
+    "instruction": "Kijk goed naar de vlinder, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak."
   }
 }

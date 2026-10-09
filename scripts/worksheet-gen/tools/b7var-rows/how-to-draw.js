@@ -11,7 +11,7 @@ const S = require('../../data/b7/how-to-draw.js').HOW_TO_DRAW.en.strings;
 // dir · id · fileSlug · baseFile · srcLevel · overrides · EN title · EN instruction · extra
 const ROWS = [
   ['k', 'K-401', 'draw-with-simple-shapes', BASE, 2,
-    { mode: 'shapes', unit: 'animals-bw-2-dog', steps: 'all', orient: 'ladder', rail: 'left', cardPx: 150, shapesOnFirst: true, boxGuides: 'shapes', box: { w: 449, ratio: 'bbox' } },
+    { mode: 'shapes', unit: 'animals-bw-2-dog', steps: 'all', orient: 'ladder', rail: 'left', cardPx: 150, shapesOnFirst: false, boxGuides: 'shapes', box: { w: 449, ratio: 'bbox' } },
     S.shapes.title, S.shapes.instruction],
   ['k', 'K-402', 'trace-then-draw', BASE, 2,
     { mode: 'trace', unit: 'animals-bw-4-rabbit-2', steps: 'all', orient: 'strip', cardPx: 140, traceFill: 'grid', twin: true, twinW: 300 },

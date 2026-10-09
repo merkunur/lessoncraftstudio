@@ -440,5 +440,13 @@
   "cursive-writing": {
     "full": "Aan elkaar schrijven in verbonden schrift: kleine letters per lettergroep, hoofdletters met namen, letters verbinden, woorden en zinnen overschrijven en verbonden schrift lezen.",
     "short": "Letters, woorden en zinnen aan elkaar schrijven"
+  },
+  "find-the-differences": {
+    "full": "Verschillen zoeken voor kleuters, groep 3 en groep 4: twee plaatjes vergelijken, 3 tot 10 verschillen vinden en omcirkelen, met antwoordblad en een versie om aan te tikken.",
+    "short": "Twee plaatjes vergelijken en de verschillen vinden"
+  },
+  "how-to-draw": {
+    "full": "Stap voor stap leren tekenen voor kleuters, groep 3 en groep 4: dieren opbouwen uit simpele vormen, overtrekken, afmaken, met een raster natekenen of uit je hoofd tekenen.",
+    "short": "Dieren stap voor stap leren tekenen"
   }
 }

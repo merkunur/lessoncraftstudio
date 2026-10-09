@@ -997,7 +997,7 @@
   },
   "K-396": {
     "title": "How to Draw {L} Step by Step",
-    "instruction": "Look at the four numbered steps and draw the cat on the big paper: first the outline, then the orange lines of the next steps."
+    "instruction": "Look at the four numbered steps and draw the cat on the big paper: first the outline, then the new lines you see in each step."
   },
   "K-397": {
     "title": "Find 3 Differences: {UNIT}",
@@ -1012,7 +1012,7 @@
     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and tick a box for each."
   },
   "K-400": {
-    "title": "Picture Pairs: Find the Differences",
+    "title": "Picture Pairs: Find the Difference",
     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row."
   },
   "K-401": {
@@ -2029,7 +2029,7 @@
   },
   "G1-413": {
     "title": "How Many Differences?",
-    "instruction": "Circle every difference you find in the bottom picture, then write how many you found in the box."
+    "instruction": "Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box."
   },
   "G1-414": {
     "title": "What Changed? Tick the Words",
@@ -2037,7 +2037,7 @@
   },
   "G1-415": {
     "title": "Mirror Pictures: Fold and Check",
-    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things that are still different, tick a box for each, then fold on the line to check."
+    "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check."
   },
   "G1-416": {
     "title": "Draw {L} with the Grid",
@@ -2045,7 +2045,7 @@
   },
   "G1-417": {
     "title": "Draw {L} at the Pond",
-    "instruction": "Follow the steps, then draw the frog back into the picture, on the empty pond where it was."
+    "instruction": "Follow the steps, then draw the frog on the empty pond in the picture."
   },
   "G1-418": {
     "title": "Order the Steps: Drawing {L}",
@@ -2053,7 +2053,7 @@
   },
   "G1-419": {
     "title": "Copy Each Step: Draw {L}",
-    "instruction": "Draw what you see in each step in the box under it, adding the orange lines as you go, then the whole bird below."
+    "instruction": "Draw what you see in each step in the box under it, adding the new lines as you go, then the whole bird, bigger, on the paper below."
   },
   "G2-203": {
     "title": "Add the Blocks",
@@ -2761,7 +2761,7 @@
   },
   "G2-389": {
     "title": "Write What Is Different",
-    "instruction": "Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips."
+    "instruction": "Circle the 3 differences, then write one sentence about each one on the lines, using the words in the two strips."
   },
   "G2-390": {
     "title": "Draw {L}, Then Write About It",

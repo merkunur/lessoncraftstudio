@@ -152,13 +152,17 @@ module.exports = {
       // the omitted step must read as MISSING: never the outline, and never the last (details) step — without its
       // iris and mane edge the pony read as a complete pony with its eyes closed (the pt panel, 2026-10-09). The
       // biggest step between them (a tail, the legs, a wing) leaves a hole a child can see.
-      const shares = S.steps.map((s, i) => (i >= 1 && (i <= n - 2 || n < 3) ? s.share : -1));
-      let omit = d.omit === 'last' ? n - 1 : shares.indexOf(Math.max(...shares));
-      if (omit < 1 || S.steps[omit].share < B.COMMON.STEP_FLOOR) throw new Error(`K-396 finish: ${unitSlug} has no inner step ≥ 0.08 to omit`);
+      // omitting ONE inner step left a complete-looking animal (the it + nl panels, 2026-10-09: a pony 'with a blank
+      // face'); the copy now omits EVERY inner step but the last (details), so the gap is a visible part of the body
+      const innerSteps = S.steps.map((s, i) => i).filter((i) => i >= 1 && (i <= n - 2 || n < 3));
+      const omits = d.omit === 'last' ? [n - 1] : innerSteps;
+      const omitted = omits.reduce((a, k) => a + S.steps[k].share, 0);
+      if (!omits.length || omitted < B.COMMON.STEP_FLOOR) throw new Error(`K-396 finish: ${unitSlug} has no inner steps ≥ 0.08 to omit`);
+      const omit = omits[0];
       const vb = Hd.panelBox(S, { viewBox: 'bbox' }), ph = Math.round(inner * vb[3] / vb[2]);
       const model = C7.htdFullCard({ S, w: inner, h: ph, frame: 'card', badge: 'dot', attrs: 'data-lcs-htd-model="1"' });
-      const copies = d.copies === 2 ? [omit, (omit % (n - 1)) + 1] : [omit];
-      const copy = copies.map((k) => C7.htdFullCard({ S, w: inner, h: ph, without: [k], frame: 'pencil', badge: 'ring', attrs: `data-lcs-htd-copy="1" data-lcs-omit="${k}"` })).join('');
+      const copySets = d.copies === 2 ? omits.slice(0, 2).map((k) => [k]) : [omits];
+      const copy = copySets.map((ks) => C7.htdFullCard({ S, w: inner, h: ph, without: ks, frame: 'pencil', badge: 'ring', attrs: `data-lcs-htd-copy="1" data-lcs-omit="${ks.join(',')}"` })).join('');
       const pair = `<div style="display:flex;gap:${d.copies === 2 ? 20 : LANE_W - 2 * pw}px;justify-content:center;align-items:flex-start;width:${LANE_W}px">${model}${copy}</div>`;
       const stripRail = `<div style="width:${LANE_W}px;margin-bottom:6px">${C7.htdRail({ orient: 'strip', length: LANE_W })}</div>`;
       let paper = '';
@@ -166,7 +170,7 @@ module.exports = {
       // a full card renders ph + 10 tall (measured: frame + badge seat)
       if (d.paper) { const pp = paperSize(S, { w: d.paper.w, maxH: 677 - 4 - 16 - 6 - (ph + 10) - 12 }); paper = `<div style="margin-top:12px">${C7.htdPaper({ w: pp.w, h: pp.h, role: 'secondary' })}</div>`; }
       body = lane(`<div style="display:flex;flex-direction:column;align-items:center;gap:0;width:${LANE_W}px">${stripRail}${pair}${paper}</div>`);
-      meta.omit = omit;
+      meta.omit = omits.join(',');
     } else if (mode === 'grid') {
       const cells = d.cells || 4, cellPx = d.cellPx || 72;
       const g1 = C7.htdGrid({ cells, cellPx, frame: 'card', model: S, labels: !!d.labels, attrs: 'data-lcs-htd-gridrole="model"' });
@@ -286,8 +290,8 @@ module.exports = {
         const model = R.querySelector('[data-lcs-htd-model] path'), copies = [...R.querySelectorAll('[data-lcs-htd-copy]')];
         if (!model) fails.push('no model'); if (!copies.length) fails.push('no copy');
         for (const c of copies) {
-          const ps = c.querySelectorAll('path'); const omit = +c.dataset.lcsOmit;
-          if (!(omit >= 1)) fails.push('copy omits the outline or nothing');
+          const ps = c.querySelectorAll('path'); const omit = String(c.dataset.lcsOmit || '').split(',').filter(Boolean).map(Number);
+          if (!omit.length || omit.some((k) => !(k >= 1))) fails.push('copy omits the outline or nothing');
           if (c.querySelector('[data-lcs-htd-badge="ring"]') == null) fails.push('no ring badge on the copy');
           if ([...ps].some((p) => (p.getAttribute('fill') || '').toUpperCase() === '#F2784B')) fails.push('coral on the copy');
         }
@@ -333,7 +337,7 @@ module.exports = {
       }
       if (mode === 'shapes') {
         const g = R.querySelector('[data-lcs-htd-guides]'); if (!g || !g.querySelector('ellipse, rect')) fails.push('no shape guides in the paper');
-        if (!cards[0] || !cards[0].querySelector('ellipse, rect')) fails.push('card 1 shows no guide');
+        // card 1 carries NO guides any more (6 px ear ellipses read as smudges — the nl panel): the paper shows them large
       }
       // nothing textual in the body but badges, lane glyphs, starters, grid labels
       for (const t of R.querySelectorAll('text')) if (!t.closest('[data-lcs-htd-wordlane], [data-lcs-ruling-row], [data-lcs-htd-grid]')) fails.push('stray text in the body');

@@ -1,0 +1,128 @@
+{
+  "forms": {
+    "animals-bw-3-cat-2": {
+      "t": "un gatto",
+      "stem": "gatt",
+      "n": "Gatto"
+    },
+    "animals-bw-2-dog": {
+      "t": "un cane",
+      "stem": "cane",
+      "n": "Cane"
+    },
+    "animals-bw-4-rabbit-2": {
+      "t": "un coniglio",
+      "stem": "conigli",
+      "n": "Coniglio"
+    },
+    "farm-animals-bw-pony": {
+      "t": "un cavallo",
+      "stem": "cavall",
+      "n": "Cavallo"
+    },
+    "animals-bw-3-dinosaur": {
+      "t": "un dinosauro",
+      "stem": "dinosaur",
+      "n": "Dinosauro"
+    },
+    "animals-bw-3-fish-2": {
+      "t": "un pesce",
+      "stem": "pesc",
+      "n": "Pesce"
+    },
+    "animals-bw-3-frog-2": {
+      "t": "una rana",
+      "stem": "rana",
+      "n": "Rana"
+    },
+    "animals-bw-5-owl": {
+      "t": "un gufo",
+      "stem": "guf",
+      "n": "Gufo"
+    },
+    "birds-bw-hummingbird": {
+      "t": "un uccello",
+      "stem": "uccell",
+      "n": "Uccello"
+    },
+    "zoo-animals-bw-bear-2": {
+      "t": "un orso",
+      "stem": "ors",
+      "n": "Orso"
+    },
+    "easter-bw-butterfly": {
+      "t": "una farfalla",
+      "stem": "farfall",
+      "n": "Farfalla"
+    }
+  },
+  "nouns": {
+    "animals-bw-3-cat-2": "gatto",
+    "animals-bw-2-dog": "cane",
+    "animals-bw-4-rabbit-2": "coniglio",
+    "farm-animals-bw-pony": "pony",
+    "animals-bw-3-dinosaur": "dinosauro",
+    "animals-bw-3-fish-2": "pesce",
+    "animals-bw-3-frog-2": "rana",
+    "animals-bw-5-owl": "gufo",
+    "birds-bw-hummingbird": "colibrì",
+    "zoo-animals-bw-bear-2": "orso",
+    "easter-bw-butterfly": "farfalla"
+  },
+  "starters": {
+    "zoo-animals-bw-bear-2": [
+      "Il mio orso è",
+      "Il mio orso sa",
+      "Gli piace"
+    ]
+  },
+  "unitOverrides": {},
+  "refusals": {},
+  "strings": {
+    "base": {
+      "title": "Come disegnare {L} passo dopo passo",
+      "instruction": "Guarda i quattro passaggi numerati e disegna il gatto nel riquadro grande: prima il contorno, poi le linee arancioni dei passaggi successivi."
+    },
+    "shapes": {
+      "title": "Disegna {L} partendo da forme semplici",
+      "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi disegna intorno il contorno del cane e completalo seguendo i passaggi."
+    },
+    "trace": {
+      "title": "Disegno guidato: ripassa e poi disegna {L}",
+      "instruction": "Ripassa con la matita il coniglio grigio, poi disegna il coniglio da solo nel riquadro vuoto accanto."
+    },
+    "finish": {
+      "title": "Completa il disegno di {L}",
+      "instruction": "Guarda il cavallo completo, disegna le linee che mancano sul secondo cavallo, poi disegna un cavallo tutto tuo nel riquadro in basso."
+    },
+    "grid": {
+      "title": "Disegna {L} con la griglia",
+      "instruction": "Guarda il dinosauro sulla griglia e disegnalo nella griglia vuota un quadrato alla volta, poi ancora una volta senza griglia."
+    },
+    "word": {
+      "title": "Disegna {L} e scrivi la parola",
+      "instruction": "Segui i passaggi per disegnare il pesce nel riquadro, poi ripassa la parola scritta sotto e scrivila ancora una volta."
+    },
+    "scene": {
+      "title": "Disegna {L} nello stagno",
+      "instruction": "Segui i passaggi, poi disegna la rana nell'immagine, nel posto vuoto sullo stagno."
+    },
+    "order": {
+      "title": "Metti in ordine i passaggi: disegna {L}",
+      "instruction": "I passaggi sono in disordine: scrivi da 1 a 5 nelle caselle accanto per rimetterli in ordine, poi disegna il gufo."
+    },
+    "copy-steps": {
+      "title": "Copia ogni passaggio: disegna {L}",
+      "instruction": "Disegna quello che vedi in ogni passaggio nel riquadro sotto, aggiungendo ogni volta le linee arancioni, poi tutto l'uccello nel riquadro grande."
+    },
+    "write": {
+      "title": "Disegna {L} e poi scrivi tre frasi",
+      "instruction": "Disegna l'orso seguendo i passaggi, poi scrivi tre frasi sul tuo orso sulle righe, cominciando dalle parole già stampate."
+    },
+    "memory": {
+      "title": "Disegna {L} a memoria",
+      "instruction": "Guarda bene la farfalla, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande.",
+      "foldWord": "piega"
+    }
+  }
+}

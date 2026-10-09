@@ -4,12 +4,12 @@ const base = require('../k/K-395-find-the-differences.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"write","count":4,"unit":"elephant-rich","layout":"side","floor":"G1","ppu":0.5,"panelW":280,"kinds":["remove","add","swap","mirror","scale","move"],"distinctKinds":true,"noSameKeySwap":true,"heroFront":0.5,"minSepPx":27,"rows":4,"glyphH":20,"rowH":40} };
+const D = { ...base.difficulty[2], ...{"mode":"write","count":3,"unit":"elephant-rich","layout":"side","floor":"G1","ppu":0.5,"panelW":280,"kinds":["remove","add","swap","mirror","scale","move"],"distinctKinds":true,"noSameKeySwap":true,"heroFront":0.5,"minSepPx":27,"rows":3,"glyphH":20,"rowH":40} };
 module.exports = {
   ...base,
   id: 'G2-389',
   slug: 'write-what-is-different',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Write What Is Different", instruction: "Circle the 4 differences, then write one sentence about each one on the lines, using the words in the two strips." } },
+  i18n: { en: { title: "Write What Is Different", instruction: "Circle the 3 differences, then write one sentence about each one on the lines, using the words in the two strips." } },
   gradeBand: "G2",
 };

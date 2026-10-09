@@ -5,6 +5,7 @@ module.exports = {
   ...base,
   id: 'G2-262',
   slug: 'reading-scales-fine-marks',
-  difficulty: { 1: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":1000,"jugStep":50,"weightsMax":4}, 2: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":1000,"jugStep":50,"weightsMax":4}, 3: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":1000,"jugStep":50,"weightsMax":4} },
+  interactive: require('../../lib/measurement-screen.js').interactiveFor('jugsScales'),
+  difficulty: { 1: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":500,"jugStep":50,"weightsMax":2}, 2: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":1000,"jugStep":50,"weightsMax":4}, 3: {"jugs":3,"balances":3,"cols":3,"rows":2,"jugMax":500,"jugStep":25,"labelEvery":2,"weightsMax":4,"weightsMin":3} },
   i18n: { en: { title: "Reading Scales: Small Steps", instruction: "Read each measuring jug and balance scale. Write the amount with its unit." } },
 };

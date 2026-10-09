@@ -573,11 +573,11 @@
   },
   "G2-235": {
     "title": "Meten met de liniaal",
-    "instruction": "Elk voorwerp begint bij 0. Lees de liniaal en schrijf op hoeveel eenheden lang het is."
+    "instruction": "Elk voorwerp begint bij 0. Lees de liniaal af en schrijf op hoeveel eenheden lang het is."
   },
   "G2-236": {
     "title": "Hoeveel langer?",
-    "instruction": "Meet beide voorwerpen. Schrijf op hoeveel eenheden langer er één is."
+    "instruction": "Meet beide voorwerpen. Schrijf op hoeveel eenheden het ene voorwerp langer is dan het andere."
   },
   "G2-237": {
     "title": "Grafiekdetective",

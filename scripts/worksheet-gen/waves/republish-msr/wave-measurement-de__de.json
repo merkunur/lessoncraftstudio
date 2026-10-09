@@ -1,0 +1,163 @@
+{
+ "id": "wave-measurement-de",
+ "_note": "Measurement republish 2026-10-09: the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  3
+ ],
+ "types": [
+  "G1-139",
+  "G1-140",
+  "G2-236",
+  "K-038",
+  "G3-345",
+  "G3-346",
+  "G2-235"
+ ],
+ "levels": {
+  "G1-139": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "fruits"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  },
+  "G1-140": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  },
+  "G2-236": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  },
+  "K-038": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "fruits"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "fruits"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  },
+  "G3-345": {
+   "1": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G3-346": {
+   "1": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G2-235": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "toys"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  }
+ }
+}

@@ -8,6 +8,8 @@
  * d1: 2 jugs + 2 balances, coarse scales · d2: 3+3 · d3: 3+3 finer scales.
  */
 'use strict';
+const { pageFill, cardFill } = require('../../lib/page-fill.js');
+const CARD_FLOOR = 0.25;
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { answerBox } = require('../../templates/components.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
@@ -23,6 +25,7 @@ module.exports = {
   assetClass: 'measurement',
   exerciseType: 'measurement',
   themeAxis: { applicable: true, minNouns: 3 },
+  interactive: require('../../lib/measurement-screen.js').interactiveFor('jugsScales'),
   difficulty: {
     1: { jugs: 2, balances: 2, cols: 2, rows: 2, jugMax: 500, jugStep: 100, weightsMax: 2 },
     2: { jugs: 3, balances: 3, cols: 3, rows: 2, jugMax: 1000, jugStep: 100, weightsMax: 3 },
@@ -35,14 +38,38 @@ module.exports = {
     },
   },
 
-  build({ theme, difficulty }, ctx) {
+  // Level Set (2026-10-09, PDF + interactive): level 2 copy 1 is the published page; every other page gets a screen
+  // version + key from the questions collected (S) while the page is drawn — the same drawing, the same facts
+  build(args, ctx) {
+    const published = Number(args.difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const S = [];
+    const b = this._build(args, ctx, S);
+    if (published) return b;
+    b.meta = { ...b.meta, mode: this.id, asks: S.map((x) => String(x.ask)) };
+    if (ctx && (ctx.interactive || ctx.answerKey)) {
+      return require('../../lib/measurement-screen.js').screenOrKey(b, S, { ...ctx, locale: (args.locale || 'en').slice(0, 2), theme: args.theme });
+    }
+    return b;
+  },
+  levelSetWords(m) { return (m.asks || []).map(String); },
+
+  _build({ theme, difficulty }, ctx, S) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     // nt20-VAR: a jug-only page (balances:0) is THEMELESS — the theme rides
     // the balance-pan icons, and a themed slug over a page with no icons
     // would promise content the sheet doesn't show
+    // Level Set 2026-10-09: a NEW page puts on the pan only a light object whose real weight the weights could be
+    // (data/light-objects.js — an apple at 200 g, never an elephant at 350 g); the published page as it was
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const LIGHT = published ? null : require('../../data/light-objects.js')[theme];
     let pickNouns = [];
-    if (d.balances > 0) {
+    let lightNouns = [];
+    if (d.balances > 0 && !published) {
+      if (!LIGHT) throw new Error(`G2-252: theme ${theme} has no light objects for the balance`);
+      lightNouns = labelSafeNouns(theme).filter((n) => LIGHT[n.noun]);
+      if (lightNouns.length < 4) throw new Error(`G2-252: theme ${theme} has ${lightNouns.length} light objects < 4`);
+    } else if (d.balances > 0) {
       const nouns = labelSafeNouns(theme);
       if (nouns.length < (this.themeAxis.minNouns || 3)) {
         throw new Error(`G2-252: theme ${theme} has ${nouns.length} nouns < 3`);
@@ -51,6 +78,11 @@ module.exports = {
     }
     const usedJug = new Set();
     const cards = [];
+    // 2026-10-09: the jugs and balances fill their cards (were 150×226 / 198×182 whatever the grid, small in 2-column cards)
+    const two = d.cols === 2;
+    const JUG = two ? { w: 220, h: 330 } : { w: 180, h: 300 };
+    const BAL = two ? { w: 300, h: 250 } : { w: 198, h: 230 };
+    const iconPx = two ? 62 : 46;
 
     for (let i = 0; i < d.jugs; i++) {
       let v, guard = 0;
@@ -61,9 +93,13 @@ module.exports = {
         guard++;
       } while (usedJug.has(v) && guard < 60);
       usedJug.add(v);
-      const jg = jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: 2, unit: 'ml', w: 150, h: 226 });
+      const le = d.labelEvery || 2;
+      const jg = jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: d.labelEvery || 2, unit: 'ml', w: JUG.w, h: JUG.h });
+      const near = Math.round(v / (d.jugStep * le)) * d.jugStep * le;
+      S.push({ kind: 'num', unit: 'ml', q: `jug:${v}`, ask: v, ans: v, step: d.jugStep, slips: [v + d.jugStep, v - d.jugStep, near !== v ? near : v + d.jugStep * le, v + d.jugStep * le],
+        prompt: jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: le, unit: 'ml', w: 170, h: 300 }).svg });
       cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug">` +
+        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug" data-lcs-step="${d.jugStep}" data-lcs-labelevery="${d.labelEvery || 2}" data-lcs-jugmax="${d.jugMax}">` +
         jg.svg +
         `<div style="display:flex;align-items:center;gap:8px">` +
         answerBox({ w: 74, h: 46, answer: v }) +
@@ -72,23 +108,33 @@ module.exports = {
       );
     }
 
-    const usedW = new Set();
+    const usedW = new Set(), usedLight = new Set();
     for (let i = 0; i < d.balances; i++) {
-      let ws, sum, guard = 0;
+      let ws, sum, guard = 0, fits = [];
       do {
-        const k = rng.int(1, d.weightsMax);
+        const k = rng.int(d.weightsMin || 1, d.weightsMax);   // weightsMin: the level-3 tables (3-4 weights)
         ws = rng.sample(WEIGHTS, k);
         sum = ws.reduce((a, b) => a + b, 0);
         guard++;
-      } while (usedW.has(ws.slice().sort((a, b) => a - b).join(',')) && guard < 80);
+        // a different object on every pan (2026-10-09: a pineapple came back at another weight on one page)
+        if (LIGHT) fits = lightNouns.filter((n) => LIGHT[n.noun][0] <= sum && sum <= LIGHT[n.noun][1] && !usedLight.has(n.noun));
+      } while ((usedW.has(ws.slice().sort((a, b) => a - b).join(',')) || (LIGHT && !fits.length)) && guard < (LIGHT ? 3000 : 80));
+      if (LIGHT && !fits.length) throw new Error(`G2-252: theme ${theme}: no light object weighs ${sum} g`);
+      const lightPick = LIGHT ? rng.pick(fits) : null;
+      if (lightPick) usedLight.add(lightPick.noun);
       usedW.add(ws.slice().sort((a, b) => a - b).join(','));
       // 3-col grid ⇒ card inner width ≈ 200px — the balance must fit inside
-      const bal = balance({ tilt: 'level', w: 198, h: 182, rightWeights: ws, unit: 'g' });
+      const bal = balance({ tilt: 'level', w: BAL.w, h: BAL.h, rightWeights: ws, unit: 'g' });
       const pr = bal.panRects.left;
-      const iconPx = 44;
-      const noun = pickNouns[i % pickNouns.length];
+      const noun = lightPick || pickNouns[i % pickNouns.length];
+      const sm = Math.min(...ws);
+      const balHtml = (B, ic) => `<div style="position:relative;width:${B.width}px;height:${B.height}px">${B.svg}` +
+        `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" style="position:absolute;left:${(B.panRects.left.x + B.panRects.left.w / 2 - ic / 2).toFixed(1)}px;top:${(B.panRects.left.y + B.panRects.left.h - ic - 2).toFixed(1)}px;width:${ic}px;height:${ic}px"></div>`;
+      S.push({ kind: 'num', unit: 'g', q: `bal:${ws.join('+')}`, ask: sum, ans: sum, step: 50,
+        slips: [ws.length > 1 ? sum - sm : sum + 100, sum + sm, Math.max(...ws), sum + 50, sum - 50],
+        prompt: balHtml(balance({ tilt: 'level', w: 300, h: 230, rightWeights: ws, unit: 'g' }), 62) });
       cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-kind="balance" data-lcs-weightsum="${sum}">` +
+        `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-kind="balance" data-lcs-weightsum="${sum}"${lightPick ? ` data-lcs-real="${LIGHT[lightPick.noun].join('-')}"` : ''}>` +
         `<div style="position:relative;width:${bal.width}px;height:${bal.height}px">` +
         bal.svg +
         `<img class="ws-icon" src="${fileUri(theme, noun.noun)}" alt="" data-lcs-noun="${noun.vocabKey}" ` +
@@ -113,7 +159,7 @@ module.exports = {
   },
 
   async verify(page) {
-    return page.evaluate(() => {
+    const fails0 = await page.evaluate(() => {
       const fails = [];
       const cards = document.querySelectorAll('[data-lcs-card]');
       if (!cards.length) fails.push('no cards');
@@ -128,6 +174,7 @@ module.exports = {
           if (+box.dataset.lcsAnswer !== +j.dataset.lcsValue) fails.push(`card ${i + 1}: answer != jug value`);
           if (unit.dataset.lcsUnit !== 'ml') fails.push(`card ${i + 1}: unit != ml`);
           if (+j.dataset.lcsValue % 1 !== 0) fails.push(`card ${i + 1}: non-integer value`);
+          if (+j.dataset.lcsValue % +stage.dataset.lcsStep !== 0 || +j.dataset.lcsValue >= +stage.dataset.lcsJugmax) fails.push(`card ${i + 1}: ${j.dataset.lcsValue} not on a mark below the brim`);
         } else {
           const b = card.querySelector('[data-lcs-prim="balance"]');
           if (!b) { fails.push(`card ${i + 1}: no balance`); return; }
@@ -137,9 +184,13 @@ module.exports = {
           if (sum !== +stage.dataset.lcsWeightsum) fails.push(`card ${i + 1}: weights ${sum} != declared`);
           if (+box.dataset.lcsAnswer !== sum) fails.push(`card ${i + 1}: answer != ${sum}`);
           if (!card.querySelector('img[data-lcs-noun]')) fails.push(`card ${i + 1}: no object on the pan`);
+          if (stage.dataset.lcsReal) { const [lo, hi] = stage.dataset.lcsReal.split('-').map(Number); if (sum < lo || sum > hi) fails.push(`card ${i + 1}: the object weighs ${sum} g — it really weighs ${lo}-${hi} g`); }
         }
       });
       return fails;
     });
+    // 2026-10-09: the page and every card must USE their space (the drawings were small in big cards)
+    const pf = await page.evaluate(pageFill), cf = await page.evaluate(cardFill, CARD_FLOOR);
+    return [...fails0, ...pf.fails, ...cf.fails];
   },
 };

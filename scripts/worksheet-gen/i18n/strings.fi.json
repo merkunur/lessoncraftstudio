@@ -788,7 +788,7 @@
   },
   "G3-346": {
     "title": "Kuutiotornit",
-    "instruction": "Laske kaikki kuutiot jokaisessa tornissa. Kirjoita summa."
+    "instruction": "Laske kaikki kuutiot jokaisessa tornissa. Kirjoita kuutioiden määrä."
   },
   "G3-354": {
     "title": "Tarkka aika",

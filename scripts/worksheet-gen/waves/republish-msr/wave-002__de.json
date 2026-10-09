@@ -1,0 +1,92 @@
+{
+ "id": "wave-002",
+ "_note": "Measurement republish 2026-10-09: the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-140",
+  "G2-236",
+  "G1-139",
+  "G2-235",
+  "K-038",
+  "G3-345"
+ ],
+ "levels": {
+  "G1-140": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "fruits"
+    }
+   ]
+  },
+  "G2-236": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    },
+    {
+     "copy": 1,
+     "theme": "shapes"
+    }
+   ]
+  },
+  "G1-139": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "shapes"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  },
+  "G2-235": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "shapes"
+    },
+    {
+     "copy": 1,
+     "theme": "toys"
+    }
+   ]
+  },
+  "K-038": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "fruits"
+    },
+    {
+     "copy": 1,
+     "theme": "animals"
+    }
+   ]
+  },
+  "G3-345": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

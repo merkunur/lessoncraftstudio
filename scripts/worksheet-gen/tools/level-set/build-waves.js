@@ -165,7 +165,7 @@ function themelessWaves() {
             .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))
           : text
             ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
-            : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(lv === 2 && t.unit === null && t.sv === 1));
+            : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !((lv === 2 || (face.liveAt || []).includes(lv)) && t.unit === null && t.sv === 1));   // face.liveAt (Measurement 2026-10-09): levels whose copy 1 is ALSO a live page (June level 1 / 3 pages)
         // face.maxCopiesAt (Days and Months, 2026-10-06): a level whose copies could only reshuffle the same content gets
         // fewer copies (operator: "only copies that differ") — { <level>: n }
         const cap = (face.maxCopiesAt && face.maxCopiesAt[lv] !== undefined) ? face.maxCopiesAt[lv] : cfg.maxCopies;

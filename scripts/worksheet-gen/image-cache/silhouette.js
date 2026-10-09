@@ -110,4 +110,15 @@ async function artExtent(theme, noun) {
   return ext;
 }
 
-module.exports = { silhouetteUri, maskSignature, maskIoU, pickDistinctSilhouettes, artExtent };
+/** artExtent, synchronously, from data/art-extents.json (tools/build-art-extents.js — the same sharp measurement,
+ *  stored): a builder the wave tools call must be synchronous (Measurement Level Set 2026-10-09). Refuses a picture
+ *  it has no extent for — re-run the tool after the image cache changes. */
+let _extentFile = null;
+function artExtentSync(theme, noun) {
+  if (!_extentFile) _extentFile = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'art-extents.json'), 'utf8'));
+  const e = _extentFile[theme + '//' + noun];
+  if (!e) throw new Error('artExtentSync: no extent for ' + theme + '/' + noun + ' (run tools/build-art-extents.js)');
+  return { widthFrac: e[0], leftFrac: e[1], heightFrac: e[2], topFrac: e[3] };
+}
+
+module.exports = { silhouetteUri, maskSignature, maskIoU, pickDistinctSilhouettes, artExtent, artExtentSync };

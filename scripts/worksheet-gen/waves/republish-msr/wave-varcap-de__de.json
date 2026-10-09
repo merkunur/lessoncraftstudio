@@ -1,0 +1,35 @@
+{
+ "id": "wave-varcap-de",
+ "_note": "Measurement republish 2026-10-09: the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-261",
+  "G2-262"
+ ],
+ "levels": {
+  "G2-261": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    }
+   ]
+  },
+  "G2-262": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles"
+    }
+   ]
+  }
+ }
+}

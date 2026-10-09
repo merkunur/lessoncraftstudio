@@ -29,6 +29,8 @@ async function runLints(page, { gradeBand }) {
     // gates. The picture's <svg> box itself is still measured here; only what it clips is skipped.
     // illustrations with their own governed palette: story panels (story-art.js PAL) and the Color by Number pictures + crayons (cbn-render.js PALETTE)
     const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"]'));
+    // a picture CROPPED by an overflow:hidden strip (measured objects, ruler art bands) shows only the strip: measure that
+    const visRect = (el) => { const c = el.tagName.toLowerCase() === 'img' && el.closest && el.closest('[data-lcs-art], [data-lcs-artband]'); return (c || el).getBoundingClientRect(); };
 
     // 0. non-empty body: a worksheet must render at least one content unit.
     // Catches the "blank sheet" class (e.g. a themed generator finding no usable
@@ -46,7 +48,7 @@ async function runLints(page, { gradeBand }) {
     document.querySelectorAll('.ws-page *').forEach((el) => {
       if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;
       if (inArt(el)) return;
-      const r = el.getBoundingClientRect();
+      const r = visRect(el);
       if (r.width === 0 || r.height === 0) return;
       const fudge = 0.6; // sub-pixel rounding
       if (r.left < pb.left - fudge || r.right > pb.right + fudge ||
@@ -72,7 +74,7 @@ async function runLints(page, { gradeBand }) {
         if (el === foot || foot.contains(el)) return;
         if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;
         if (inArt(el)) return;
-        const r = el.getBoundingClientRect();
+        const r = visRect(el);
         if (r.width === 0 || r.height === 0) return;
         if (r.bottom > ft + 0.6 && (!worst || r.bottom > worst.bottom)) {
           worst = { bottom: r.bottom, tag: el.tagName.toLowerCase(), cls: el.className.baseVal || el.className };

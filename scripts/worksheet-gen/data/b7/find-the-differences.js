@@ -127,6 +127,23 @@ function clashKeys(keys) {
   for (const [f, ks] of byFam) if (ks.size >= 2 && ks.has(f)) out.add(f);
   return out;
 }
+// the Level Set scenes (data/fdx) carry more family members than the published scenes: a sailboat beside a boat, a lily
+// beside a flower (read 2026-10-10: 'sailboat' ticked while 'boat' sat unticked in the same list). Used ONLY for fdx units, so
+// the published pages keep their families byte for byte.
+const FDX_FAMILY = { ...WORD_FAMILY, boat: 'boat', sailboat: 'boat', yacht: 'boat', kayak: 'boat', ship: 'boat', cruise: 'boat', canoe: 'boat', submarine: 'boat',
+  lily: 'flower', rose: 'flower', sunflower: 'flower', daisy: 'flower', dove: 'bird', woodpecker: 'bird', kiwi: 'bird', pelican: 'bird', vulture: 'bird', hummingbird: 'bird',
+  car: 'car', van: 'car', jeep: 'car', suv: 'car', taxi: 'car', pickup: 'car', police_car: 'car',
+  bus: 'bus', minibus: 'bus', 'double-decker': 'bus', truck: 'truck', delivery_truck: 'truck', tanker_truck: 'truck', garbage_truck: 'truck', tow_truck: 'truck', fire_truck: 'truck', mixer_truck: 'truck', monster_truck: 'truck',
+  tree: 'tree', palm_tree: 'tree', christmas_tree: 'tree', fish: 'fish', clown_fish: 'fish', puffer: 'fish', fruit: 'fruit', vegetables: 'vegetables' };
+const wordFamilyFor = (k, unit) => (/^fdx-/.test(String(unit)) ? FDX_FAMILY[k] || k : wordFamily(k));
+function clashKeysFor(keys, unit) {
+  if (!/^fdx-/.test(String(unit))) return clashKeys(keys);
+  const byFam = new Map();
+  for (const k of new Set(keys)) { const f = FDX_FAMILY[k] || k; if (!byFam.has(f)) byFam.set(f, new Set()); byFam.get(f).add(k); }
+  const out = new Set();
+  for (const [f, ks] of byFam) if (ks.size >= 2 && ks.has(f)) out.add(f);
+  return out;
+}
 const COUNT_OF = { base: 5, 'three-big': 3, seven: 7, 'ten-pairs': 10, 'what-changed': 3, 'mirror-pair': 4, missing: 3, pairs: 3, write: 3 };
 const TAP_KEY = { base: 'fd-tap', 'three-big': 'fd-tap', colour: 'fd-tap', seven: 'fd-tapPairs2', 'ten-pairs': 'fd-tapPairs2', 'how-many': 'fd-tapCount', 'what-changed': 'fd-tapWords', 'mirror-pair': 'fd-tapMirror', missing: 'fd-tapMissing', pairs: 'fd-tapPairs', write: 'fd-tap' };
 const WORKSHEET_WORD = /arbeitsblatt|worksheet|werkblad|arbetsblad|arbejdsark|arbeidsark|feuille|(?<!\p{L})fiches?(?!\p{L})|ficha|scheda|tehtäv|atividade|printable/iu;
@@ -257,4 +274,4 @@ const LS_PAIR_TITLES = {
   seven: { en: 'Find 7 Differences: {UNIT}', de: 'Finde 7 Unterschiede: {UNIT}', fr: 'Jeu des 7 erreurs : {UNIT}', es: 'Busca las 7 diferencias: {UNIT}', pt: 'Jogo dos 7 erros: {UNIT}', it: 'Trova le 7 differenze: {UNIT}', nl: 'Zoek de 7 verschillen: {UNIT}', sv: 'Finn sju fel: {UNIT}', da: 'Find syv fejl: {UNIT}', no: 'Finn sju feil: {UNIT}', fi: 'Etsi seitsemän virhettä: {UNIT}' },
   'ten-pairs': { en: 'Find 10 Differences: {UNIT}', de: 'Finde 10 Unterschiede: {UNIT}', fr: 'Trouve les 10 erreurs : {UNIT}', es: 'Encuentra las 10 diferencias: {UNIT}', pt: 'Jogo dos 10 erros: {UNIT}', it: 'Trova le 10 differenze: {UNIT}', nl: 'Zoek de 10 verschillen: {UNIT}', sv: 'Finn tio fel: {UNIT}', da: 'Find ti fejl: {UNIT}', no: 'Finn ti feil: {UNIT}', fi: 'Etsi kymmenen virhettä: {UNIT}' },
 };
-module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, LS_PAIR_TITLES };
+module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, wordFamilyFor, clashKeysFor, LS_PAIR_TITLES };

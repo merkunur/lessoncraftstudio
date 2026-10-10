@@ -211,7 +211,13 @@ async function candidatesFor(spec, scene) {
       // (Level Set scenes: a swap never brings in a word another drawing of the scene already shows — two dice, read 2026-10-10)
       if (FDX) { const w = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); if (spec.items.some((i) => i.src !== l.src && w(i.src) === w(alt))) continue;
         // ...and never the SAME word as the drawing it replaces (a frog swapped for another frog drawing read as no change)
-        if (w(alt) === w(l.src)) continue; }
+        if (w(alt) === w(l.src)) continue;
+        // ...nor a LOOK-ALIKE (read 2026-10-10: an otter swapped for a beaver — two small brown animals; read-and-color's
+        // CONFUSABLES plus the look-alike families of the Level Set catalogue)
+        const RC = require('../lib/read-and-color.js');
+        const LOOK = [['otter', 'beaver', 'capybara', 'hamster', 'guinea_pig', 'mouse', 'rat', 'chinchilla', 'meerkat', 'squirrel', 'raccoon'], ['alligator', 'crocodile', 'lizard', 'chameleon'], ['frog', 'toad'], ['seal', 'walrus', 'sea_lion'], ['dolphin', 'whale', 'shark'], ['swan', 'goose', 'duck'], ['pigeon', 'dove', 'bird', 'crow'], ['donkey', 'horse', 'pony', 'mule'], ['camel', 'llama', 'alpaca'], ['leopard', 'tiger', 'cheetah', 'lion'], ['bee', 'wasp', 'fly'], ['boat', 'kayak', 'canoe', 'sailboat', 'yacht'], ['car', 'van', 'suv', 'jeep', 'pickup', 'taxi'], ['bus', 'minibus', 'camper'], ['truck', 'delivery_truck', 'tanker_truck', 'garbage_truck', 'tow_truck', 'mixer_truck', 'cement_mixer']];
+        const a = w(l.src), b = w(alt);
+        if (RC.confusable(a, b) || LOOK.some((g) => g.includes(a) && g.includes(b))) continue; }
       const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip, ...(FDX ? { stroke: FX.strokeFor(FX.boxOf({ src: alt, x: l.x, y: l.y, h: l.h })) } : {}) };
       const ap = propOf(alt, spec);
       const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? fxColourAt(alt, spec, it, ap.colour) : null);

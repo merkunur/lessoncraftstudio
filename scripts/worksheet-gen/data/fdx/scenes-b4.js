@@ -40,7 +40,7 @@ module.exports = (Sc) => [
   // winter / polar / mountain / desert
   Sc('winter-sleigh', 'Sleigh Ride', 'winter', 2, 'Christmas bw 2/sleigh', ['Christmas bw/christmas_tree', 'nature bw/snowflake', 'home and nature bw/cloud', 'Christmas bw 2/gift_box'], { level: 1, mirror: true, heroScale: 1.8 }),
   Sc('winter-cabin', 'Snowy Cabin', 'winter', 1, 'travel and holiday bw/log_cabin', ['Christmas bw/snowman', 'Christmas bw 2/reindeer', 'tools bw/shovel', 'Christmas bw/christmas_tree', 'nature bw/snowflake', 'home and nature bw/cloud', 'Christmas bw 2/ice_skates', 'Christmas bw 2/sack', 'Christmas bw/gift_box'], { level: 3, heroScale: 1.1 }),
-  Sc('polar-walrus', 'Walrus on the Ice', 'polar', 0, 'sea life bw/walrus', ['sea life bw/penguin', 'nature bw/snowflake', 'home and nature bw/cloud', 'vehicles bw 2/boat'], { level: 1, mirror: true, heroScale: 2.0 }),
+  Sc('polar-walrus', 'Walrus on the Ice', 'polar', 0, 'sea life bw/walrus', ['zoo animals bw/bear', 'nature bw/snowflake', 'home and nature bw/cloud', 'vehicles bw 2/boat'], { level: 1, mirror: true, heroScale: 2.0 }),
   Sc('mountain-yak', 'Yak in the Mountains', 'mountain', 2, 'farm animals bw/yak', ['home and nature bw/tree_2', 'animals bw 4/goat_2', 'farm animals bw/alpaca_2', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw 5/eagle', 'travel and holiday bw/backpack'], { mirror: true }),
   Sc('desert-snake', 'Snake in the Desert', 'desert', 0, 'animals bw 5/snake', ['beach bw/palm_tree', 'birds bw/vulture', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw/meerkat', 'animals bw/camel_2'], { mirror: true, heroScale: 2.0 }),
   // rooms

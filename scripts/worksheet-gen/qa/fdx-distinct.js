@@ -7,7 +7,9 @@
  *       moon, star, snowflake — do not count);
  *   (4) two scenes LOOK alike: their line renders (data/fd/<id>.json, 48 × 45 greyscale) differ by less than MIN_PIX
  *       (mean absolute difference, 0-255) — the measure a reader applies when two thumbnails sit side by side.
- * --poison runs each rule against a planted defect and must FAIL four times; the clean run must PASS.
+ *   (5) a scene mixes animals that never meet: Antarctic penguins with Arctic walruses / polar bears / narwhals (read
+ *       2026-10-10: four polar scenes did — a fact a teacher sees at once).
+ * --poison runs each rule against a planted defect and must FAIL five times; the clean run must PASS.
  *   node qa/fdx-distinct.js [--poison]
  */
 'use strict';
@@ -16,7 +18,8 @@ const F = require('../lib/fd-scene.js');
 const { SCENES } = require('../data/fdx/scenes.js');
 const MAX_LAYOUT = 4, MAX_JACCARD = 0.30, MIN_PIX = 9;
 const FILLER = /\/(sun|cloud|cloudy|moon|star|sky|snowflake)$/;
-const heroOf = (s) => (typeof s.hero === 'string' ? s.hero : s.hero.src);
+const HABITAT = [[/penguin/, /walrus|zoo animals bw\/bear$|polar_bear|narwhal/]];
+const heroOf =(s) => (typeof s.hero === 'string' ? s.hero : s.hero.src);
 const castOf = (s) => new Set(s.cast.map((c) => (typeof c === 'string' ? c : c.src)).filter((c) => !FILLER.test(c)));
 
 async function thumbs(list) {
@@ -43,6 +46,10 @@ function check(list, th) {
     const jac = inter < 2 ? 0 : inter / (a.size + b.size - inter || 1);   // two shared drawings at least (one shared tree is not a likeness)
     if (jac > MAX_JACCARD) fails.push(`cast ${casts[i][0]} ~ ${casts[j][0]} jaccard ${jac.toFixed(2)}`);
   }
+  for (const s of list) {
+    const all = [heroOf(s), ...s.cast.map((c) => (typeof c === 'string' ? c : c.src))];
+    for (const [a, b] of HABITAT) if (all.some((x) => a.test(x)) && all.some((x) => b.test(x))) fails.push(`habitat ${s.id}: ${all.filter((x) => a.test(x) || b.test(x)).join(', ')}`);
+  }
   if (th) {
     const ids = [...th.keys()];
     for (let i = 0; i < ids.length; i++) for (let j = i + 1; j < ids.length; j++) {
@@ -61,6 +68,7 @@ function check(list, th) {
       ['hero', [...SCENES, { ...b, id: 'p-hero', hero: heroOf(a), cast: [] }], null],
       ['layout', [...SCENES, ...Array.from({ length: MAX_LAYOUT + 1 }, (_, i) => ({ ...a, id: 'p-lay' + i, hero: 'p' + i, cast: ['x' + i], setting: 'zz', variant: 0, mirror: false }))], null],
       ['cast', [...SCENES, { ...a, id: 'p-cast', hero: 'p-cast-hero' }], null],
+      ['habitat', [...SCENES, { ...a, id: 'p-hab', hero: 'p-hab-hero', cast: ['animals bw/penguin', 'sea life bw/walrus'] }], null],
       ['look', SCENES, new Map([...th, ['p-look', th.get(a.id)]])],
     ];
     let killed = 0;

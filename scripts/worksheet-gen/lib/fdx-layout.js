@@ -222,6 +222,17 @@ function layoutOnce(spec, shrink, attempt = 0) {
       const behind = behindColour(sc, e.place, best.box);
       // (a grey ANIMAL turns brown, never blue: a blue cat on the grey lane, read 2026-10-10)
       if (behind && behind === best.it.colour[0] && SHADE[behind]) best.it.colour = [behind === 'grey' && e.cat.kind === 'animal' ? 'brown' : SHADE[behind]];
+      // ...and never the crayon of a COUNTER / wall area behind its middle (read 2026-10-10: an orange cat in front of the
+      // orange counter front read as a cut-out hole): every fixed point inside the drawing's box counts
+      const b = best.box, mid = [b[0] + (b[2] - b[0]) * 0.2, b[1] + (b[3] - b[1]) * 0.2, b[2] - (b[2] - b[0]) * 0.2, b[3] - (b[3] - b[1]) * 0.2];
+      const around = new Set((sc.fixed || []).filter((f) => f.at[0] >= mid[0] && f.at[0] <= mid[2] && f.at[1] >= mid[1] && f.at[1] <= mid[3]).map((f) => f.colour));
+      // a drawn counter / stall front spans the frame: its colour counts wherever the drawing's middle crosses its block
+      const cf = (sc.fixed || []).find((f) => f.name === 'counter');
+      if (cf) for (const bl of (sc.zones && sc.zones.blocks) || []) if (cf.at[1] >= bl[1] && cf.at[1] <= bl[3] && mid[2] > bl[0] && mid[0] < bl[2] && mid[3] > bl[1] && mid[1] < bl[3]) around.add(cf.colour);
+      if (Array.isArray(best.it.colour) && best.it.colour.length === 1 && around.has(best.it.colour[0])) {
+        const alt = [SHADE[best.it.colour[0]], ...(e.cat.colours || []), 'brown', 'grey', 'blue', 'purple'].find((c) => c && c !== 'none' && !around.has(c) && c !== behind);
+        if (alt) best.it.colour = [alt];
+      }
     }
     if (e.fixed) best.it.fixed = true;
     if (e.hero) best.it.hero = true;

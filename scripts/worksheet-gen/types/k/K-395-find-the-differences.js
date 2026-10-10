@@ -160,7 +160,15 @@ function composeAll(plan, rng) {
       let n = p.cfg.n, err;
       for (; n >= plan.countRange[0]; n--) { try { r = pickOps(scene, { ...p.cfg, n }, rng); break; } catch (e) { err = e; } }
       if (!r) throw err;
-    } else r = pickOps(scene, (B.WORD_MODES.includes(plan.mode) && /^fdx-/.test(String(p.unit))) ? { ...p.cfg, distinctWords: (src) => B.vocabKeyOf(src) } : p.cfg, rng);   // (a Level Set word face: one word per change)
+    } else {
+      const cfg = (B.WORD_MODES.includes(plan.mode) && /^fdx-/.test(String(p.unit))) ? { ...p.cfg, distinctWords: (src) => B.vocabKeyOf(src) } : p.cfg;   // (a Level Set word face: one word per change)
+      // a Level Set scene whose first composition is refused retries on its own seed stream (read 2026-10-10: a copy that
+      // composed on the allocator's seeds failed on its own); the published scenes never reach this branch
+      try { r = pickOps(scene, cfg, rng); } catch (e) {
+        if (!/^fdx-/.test(String(p.unit))) throw e;
+        for (let k = 1; k <= 8 && !r; k++) { try { r = pickOps(scene, cfg, makeRng('fdx-retry|' + p.unit + '|' + rng.int(0, 1e9) + '|' + k)); } catch (e2) { if (k === 8) throw e2; } }
+      }
+    }
     r.ops.forEach((c) => used.add(srcOfCand(scene, c)));
     count += r.ops.length;
     out.push({ unit: p.unit, scene, cfg: p.cfg, ops: r.ops, rings: r.rings, hotspots: r.hotspots, quadrants: r.quadrants });

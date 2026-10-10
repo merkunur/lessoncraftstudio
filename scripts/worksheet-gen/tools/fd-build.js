@@ -206,10 +206,12 @@ async function candidatesFor(spec, scene) {
     }
     // swap: a partner of the same kind at the same place and size
     const p = propOf(l.src, spec);
-    if (!isHero && p) for (const alt of p.alt.slice(0, 2)) {
+    if (!isHero && p) for (const alt of (FDX ? p.alt.filter((a) => a.split("/").pop().replace(/_\d+$/, "") !== l.src.split("/").pop().replace(/_\d+$/, "")) : p.alt).slice(0, 2)) {
       if (alt === l.src) continue;
       // (Level Set scenes: a swap never brings in a word another drawing of the scene already shows — two dice, read 2026-10-10)
-      if (FDX) { const w = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); if (spec.items.some((i) => i.src !== l.src && w(i.src) === w(alt))) continue; }
+      if (FDX) { const w = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); if (spec.items.some((i) => i.src !== l.src && w(i.src) === w(alt))) continue;
+        // ...and never the SAME word as the drawing it replaces (a frog swapped for another frog drawing read as no change)
+        if (w(alt) === w(l.src)) continue; }
       const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip, ...(FDX ? { stroke: FX.strokeFor(FX.boxOf({ src: alt, x: l.x, y: l.y, h: l.h })) } : {}) };
       const ap = propOf(alt, spec);
       const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? fxColourAt(alt, spec, it, ap.colour) : null);

@@ -1,944 +1,929 @@
 {
-  "faces": {
-    "K-395": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-beach-lighthouse"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-garden-snail"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-bed-cat@c"
-        }
-      ],
-      "2": [
-        {
-          "copy": 5,
-          "unit": "fdx-pond-swan"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-beach-pelican@c"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-toy-blocks"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-class-globe@c"
-        }
-      ],
-      "3": [
-        {
-          "copy": 9,
-          "unit": "fdx-toy-dino"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-garden-peacock@c"
-        }
-      ]
-    },
-    "K-397": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-park-ball"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-meadow-rabbit@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-desert-cactus"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-party-gifts@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-pond-duck"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-zoo-monkey@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-market-cart"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-river-otter@c"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-village-dog"
-        }
-      ],
-      "2": [
-        {
-          "copy": 11,
-          "unit": "fdx-farm-turkey@c"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-park-tennis"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-river-bear@c"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-lake-camper"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-winter-snowman@c"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-bed-hamster"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-bath-tub"
-        },
-        {
-          "copy": 18,
-          "unit": "fdx-market-dog@c"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-garden-cat"
-        }
-      ],
-      "3": [
-        {
-          "copy": 20,
-          "unit": "fdx-pond-goose@c"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-night-owl"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-garden-mower@c"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-polar-penguin"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-savanna-rhino@c"
-        },
-        {
-          "copy": 25,
-          "unit": "fdx-bakery-cake"
-        },
-        {
-          "copy": 26,
-          "unit": "fdx-party-dog@c"
-        },
-        {
-          "copy": 27,
-          "unit": "fdx-market-veg"
-        },
-        {
-          "copy": 28,
-          "unit": "fdx-bed-kitten@c"
-        }
-      ]
-    },
-    "K-398": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-river-hippo"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-night-house"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-night-camp"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-garden-peacock2"
-        }
-      ],
-      "2": [
-        {
-          "copy": 6,
-          "unit": "fdx-bakery-cat"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-party-bear"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-garden-hedgehog"
-        }
-      ],
-      "3": [
-        {
-          "copy": 9,
-          "unit": "fdx-forest-bear"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-park-rabbit"
-        }
-      ]
-    },
-    "G1-412": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-farm-pig|fdx-farm-donkey"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-forest-raccoon@c|fdx-forest-squirrel@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-winter-reindeer|fdx-winter-sleigh"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-bath-cat@c|fdx-bath-duck@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-park-skate|fdx-park-bird"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-winter-gifts@c|fdx-winter-snowman2@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-jungle-sloth|fdx-jungle-monkey2"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-mountain-hike@c|fdx-mountain-goat2@c"
-        }
-      ],
-      "2": [
-        {
-          "copy": 10,
-          "unit": "fdx-farm-cow|fdx-farm-horse"
-        },
-        {
-          "copy": 11,
-          "unit": "fdx-farm-crow@c|fdx-farm-piglet@c"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-meadow-ladybug|fdx-meadow-horse2"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-pond-alligator@c|fdx-pond-turtle@c"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-river-moose|fdx-river-croc"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-lake-kayak|fdx-lake-geese"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-zoo-penguin@c|fdx-zoo-giraffe@c"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-camp-night|fdx-camp-car"
-        }
-      ],
-      "3": [
-        {
-          "copy": 18,
-          "unit": "fdx-farm-alpaca@c|fdx-farm-ponies@c"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-meadow-horse|fdx-meadow-balloon"
-        },
-        {
-          "copy": 20,
-          "unit": "fdx-park-icecream@c|fdx-park-bike@c"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-forest-wolf|fdx-forest-kiwi"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-beach-icecream@c|fdx-beach-crab2@c"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-jungle-parrot|fdx-jungle-toucan"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-zoo-elephant@c|fdx-zoo-rhino@c"
-        }
-      ]
-    },
-    "G2-388": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-park-pigeons|fdx-park-dove"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-forest-hedgehog@c|fdx-forest-bear2@c"
-        }
-      ],
-      "2": [
-        {
-          "copy": 4,
-          "unit": "fdx-meadow-pony|fdx-meadow-kite"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-kitchen-cat@c|fdx-kitchen-kettle@c"
-        }
-      ],
-      "3": [
-        {
-          "copy": 7,
-          "unit": "fdx-kitchen-dog@c|fdx-kitchen-mouse@c"
-        }
-      ]
-    },
-    "G1-413": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-park-squirrel"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-beach-seal@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-living-dog"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-toy-horse@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-sea-jellyfish"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-bed-sleep@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-jungle-snake"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-toy-helicopter@c"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-bath-sink"
-        }
-      ],
-      "2": [
-        {
-          "copy": 11,
-          "unit": "fdx-meadow-fox"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-meadow-deer@c"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-beach-turtle"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-polar-ice@c"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-living-cat"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-toy-robot@c"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-picnic-rabbit"
-        },
-        {
-          "copy": 18,
-          "unit": "fdx-street-bus@c"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-savanna-elephant"
-        }
-      ],
-      "3": [
-        {
-          "copy": 20,
-          "unit": "fdx-sea-seahorse@c"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-beach-surf"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-sea-turtle@c"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-jungle-monkey"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-bed-teddy@c"
-        },
-        {
-          "copy": 25,
-          "unit": "fdx-bath-wash"
-        },
-        {
-          "copy": 26,
-          "unit": "fdx-living-tv@c"
-        },
-        {
-          "copy": 27,
-          "unit": "fdx-sea-clownfish"
-        }
-      ]
-    },
-    "G1-414": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-meadow-sheep@c"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-river-crocodile"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-bakery-cupcake@c"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-space-ufo"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-class-art@c"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-night-telescope"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-space-rocket@c"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-market-corn"
-        }
-      ],
-      "2": [
-        {
-          "copy": 10,
-          "unit": "fdx-farm-tractor"
-        },
-        {
-          "copy": 11,
-          "unit": "fdx-forest-owl@c"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-harbour-seal"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-savanna-lion@c"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-class-board"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-camp-camper@c"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-camp-van"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-station-luggage@c"
-        }
-      ],
-      "3": [
-        {
-          "copy": 18,
-          "unit": "fdx-savanna-leopard"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-savanna-jeep@c"
-        },
-        {
-          "copy": 20,
-          "unit": "fdx-harbour-yacht"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-savanna-ostrich@c"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-zoo-koala"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-night-cat@c"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-savanna-meerkat"
-        },
-        {
-          "copy": 25,
-          "unit": "fdx-farm-chicken@c"
-        }
-      ]
-    },
-    "G1-415": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-farm-bull|fdx-farm-scarecrow"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-farm-hen@c|fdx-farm-donkey2@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-beach-seagull|fdx-beach-umbrella"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-sea-submarine@c|fdx-sea-stingray@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-kitchen-fridge|fdx-kitchen-toaster"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-living-music@c|fdx-living-chinchilla@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-bakery-bread|fdx-bakery-donut"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-jungle-tiger@c|fdx-jungle-tiger2@c"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-party-music|fdx-party-cake"
-        }
-      ],
-      "2": [
-        {
-          "copy": 11,
-          "unit": "fdx-farm-farmer|fdx-farm-goat"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-farm-sheepdog@c|fdx-farm-rooster@c"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-farm-goose|fdx-farm-cow2"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-pond-ducks@c|fdx-pond-frog2@c"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-sea-octopus2|fdx-sea-whale2"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-polar-seal@c|fdx-polar-penguins@c"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-winter-skates|fdx-winter-penguin"
-        },
-        {
-          "copy": 18,
-          "unit": "fdx-savanna-elephant2@c|fdx-savanna-lion2@c"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-street-busy|fdx-street-police"
-        }
-      ],
-      "3": [
-        {
-          "copy": 20,
-          "unit": "fdx-park-dog@c|fdx-park-pram@c"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-zoo-hippo|fdx-zoo-lion"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-meadow-bee@c|fdx-meadow-fox2@c"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-forest-panda|fdx-forest-raccoon2"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-desert-oasis@c|fdx-desert-camel@c"
-        },
-        {
-          "copy": 25,
-          "unit": "fdx-desert-snake|fdx-desert-lizard"
-        },
-        {
-          "copy": 26,
-          "unit": "fdx-garden-bird@c|fdx-garden-tulips@c"
-        },
-        {
-          "copy": 27,
-          "unit": "fdx-harbour-pelican|fdx-harbour-crane"
-        },
-        {
-          "copy": 28,
-          "unit": "fdx-street-roadwork@c|fdx-street-car@c"
-        }
-      ]
-    },
-    "K-399": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-beach-hermit"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-sea-dolphin@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-class-science"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-picnic-dog@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-street-garbage"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-living-fire@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-bed-play"
-        }
-      ],
-      "2": [
-        {
-          "copy": 9,
-          "unit": "fdx-pond-otter"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-river-capybara@c"
-        },
-        {
-          "copy": 11,
-          "unit": "fdx-harbour-boat"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-winter-santa@c"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-living-cosy"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-street-fire@c"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-village-van"
-        },
-        {
-          "copy": 16,
-          "unit": "fdx-street-scooter@c"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-camp-signpost"
-        }
-      ],
-      "3": [
-        {
-          "copy": 18,
-          "unit": "fdx-beach-crab@c"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-winter-cabin"
-        },
-        {
-          "copy": 20,
-          "unit": "fdx-lake-swan@c"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-zoo-panda"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-mountain-goat@c"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-station-train"
-        },
-        {
-          "copy": 24,
-          "unit": "fdx-camp-tent@c"
-        },
-        {
-          "copy": 25,
-          "unit": "fdx-toy-train"
-        },
-        {
-          "copy": 26,
-          "unit": "fdx-bakery-mixer@c"
-        }
-      ]
-    },
-    "K-400": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-park-puppy"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-sea-whale@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-party-balloons"
-        }
-      ],
-      "2": [
-        {
-          "copy": 5,
-          "unit": "fdx-forest-fox@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-jungle-leopard"
-        }
-      ],
-      "3": [
-        {
-          "copy": 7,
-          "unit": "fdx-park-scooter@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-jungle-gorilla"
-        },
-        {
-          "copy": 9,
-          "unit": "fdx-forest-woodpecker"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-space-moon@c"
-        }
-      ]
-    },
-    "G2-389": {
-      "1": [
-        {
-          "copy": 2,
-          "unit": "fdx-sea-octopus"
-        },
-        {
-          "copy": 3,
-          "unit": "fdx-class-desk@c"
-        },
-        {
-          "copy": 4,
-          "unit": "fdx-night-bat"
-        },
-        {
-          "copy": 5,
-          "unit": "fdx-meadow-cow@c"
-        },
-        {
-          "copy": 6,
-          "unit": "fdx-mountain-eagle"
-        },
-        {
-          "copy": 7,
-          "unit": "fdx-savanna-hippo@c"
-        },
-        {
-          "copy": 8,
-          "unit": "fdx-class-computer"
-        }
-      ],
-      "2": [
-        {
-          "copy": 9,
-          "unit": "fdx-pond-flamingo@c"
-        },
-        {
-          "copy": 10,
-          "unit": "fdx-forest-deer"
-        },
-        {
-          "copy": 11,
-          "unit": "fdx-lake-bear@c"
-        },
-        {
-          "copy": 12,
-          "unit": "fdx-zoo-kangaroo"
-        },
-        {
-          "copy": 13,
-          "unit": "fdx-village-house@c"
-        },
-        {
-          "copy": 14,
-          "unit": "fdx-mountain-yak"
-        },
-        {
-          "copy": 15,
-          "unit": "fdx-picnic-ant@c"
-        }
-      ],
-      "3": [
-        {
-          "copy": 16,
-          "unit": "fdx-forest-moose"
-        },
-        {
-          "copy": 17,
-          "unit": "fdx-sea-shark@c"
-        },
-        {
-          "copy": 18,
-          "unit": "fdx-savanna-giraffe"
-        },
-        {
-          "copy": 19,
-          "unit": "fdx-mountain-llama@c"
-        },
-        {
-          "copy": 20,
-          "unit": "fdx-village-cabin"
-        },
-        {
-          "copy": 21,
-          "unit": "fdx-class-reading@c"
-        },
-        {
-          "copy": 22,
-          "unit": "fdx-village-bus"
-        },
-        {
-          "copy": 23,
-          "unit": "fdx-village-car@c"
-        }
-      ]
-    }
-  },
-  "colour": 104,
-  "line": 103,
-  "unused": [
-    "fdx-pond-frog",
-    "fdx-pond-beaver",
-    "fdx-polar-chick",
-    "fdx-savanna-zebra",
-    "fdx-mountain-bison",
-    "fdx-market-fruit",
-    "fdx-picnic-bear",
-    "fdx-polar-walrus",
-    "fdx-camp-fire",
-    "fdx-meadow-goat",
-    "fdx-pond-heron",
-    "fdx-living-plant",
-    "fdx-bed-clothes",
-    "fdx-kitchen-mouse2",
-    "fdx-lake-ducks"
-  ],
-  "_dropped": [
+ "faces": {
+  "K-395": {
+   "1": [
     {
-      "face": "G2-388",
-      "level": 3,
-      "copy": 6,
-      "unit": "fdx-kitchen-baking|fdx-kitchen-soup",
-      "why": "does not compose at its real seed (2026-10-10)"
+     "copy": 2,
+     "unit": "fdx-beach-lighthouse"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-night-house"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-bed-cat@c"
     }
-  ]
+   ],
+   "2": [
+    {
+     "copy": 5,
+     "unit": "fdx-pond-swan"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-pond-otter@c"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-beach-pelican"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-class-globe@c"
+    }
+   ],
+   "3": [
+    {
+     "copy": 9,
+     "unit": "fdx-kitchen-baking"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-toy-dino@c"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-toy-blocks"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-park-squirrel@c"
+    }
+   ]
+  },
+  "K-397": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-park-ball"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-river-crocodile@c"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-sea-submarine"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-desert-cactus@c"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-party-gifts"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-pond-duck@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-river-otter"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-market-dog@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-kitchen-mouse2"
+    }
+   ],
+   "2": [
+    {
+     "copy": 11,
+     "unit": "fdx-farm-turkey@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-park-tennis"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-river-bear@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-lake-camper"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-winter-snowman"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-bed-hamster@c"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-bath-tub"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-living-tv@c"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-jungle-tiger2"
+    }
+   ],
+   "3": [
+    {
+     "copy": 20,
+     "unit": "fdx-park-dog@c"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-jungle-gorilla"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-winter-cabin@c"
+    },
+    {
+     "copy": 23,
+     "unit": "fdx-garden-mower"
+    },
+    {
+     "copy": 24,
+     "unit": "fdx-savanna-rhino@c"
+    },
+    {
+     "copy": 25,
+     "unit": "fdx-bakery-cake"
+    },
+    {
+     "copy": 26,
+     "unit": "fdx-market-veg@c"
+    },
+    {
+     "copy": 27,
+     "unit": "fdx-toy-train"
+    },
+    {
+     "copy": 28,
+     "unit": "fdx-bed-kitten@c"
+    }
+   ]
+  },
+  "K-398": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-river-hippo"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-pond-alligator"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-garden-hedgehog"
+    }
+   ],
+   "2": [
+    {
+     "copy": 5,
+     "unit": "fdx-bakery-cat"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-party-bear"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-night-camp"
+    }
+   ],
+   "3": [
+    {
+     "copy": 8,
+     "unit": "fdx-forest-bear"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-kitchen-kettle"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-garden-tulips"
+    }
+   ]
+  },
+  "G1-412": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-farm-pig|fdx-farm-donkey"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-sea-octopus@c|fdx-sea-jellyfish@c"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-winter-reindeer|fdx-winter-sleigh"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-jungle-tiger@c|fdx-jungle-snake@c"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-kitchen-mouse|fdx-kitchen-toaster"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-bath-cat@c|fdx-bath-duck@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-sea-stingray|fdx-sea-clownfish"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-mountain-hike@c|fdx-mountain-goat2@c"
+    }
+   ],
+   "2": [
+    {
+     "copy": 10,
+     "unit": "fdx-farm-cow|fdx-farm-horse"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-farm-rooster@c|fdx-farm-crow@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-park-rabbit|fdx-park-bird"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-river-moose|fdx-river-croc"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-lake-kayak@c|fdx-lake-geese@c"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-winter-penguin|fdx-winter-gifts"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-zoo-penguin@c|fdx-zoo-elephant@c"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-village-dog|fdx-village-bus"
+    }
+   ],
+   "3": [
+    {
+     "copy": 18,
+     "unit": "fdx-farm-alpaca@c|fdx-farm-ponies@c"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-zoo-hippo|fdx-zoo-lion"
+    },
+    {
+     "copy": 20,
+     "unit": "fdx-meadow-ladybug@c|fdx-meadow-fox2@c"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-forest-wolf|fdx-forest-raccoon2"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-jungle-parrot@c|fdx-jungle-toucan@c"
+    },
+    {
+     "copy": 23,
+     "unit": "fdx-jungle-sloth|fdx-jungle-monkey2"
+    },
+    {
+     "copy": 24,
+     "unit": "fdx-garden-bird@c|fdx-garden-cat@c"
+    },
+    {
+     "copy": 25,
+     "unit": "fdx-forest-kiwi|fdx-forest-squirrel"
+    },
+    {
+     "copy": 26,
+     "unit": "fdx-zoo-rhino@c|fdx-zoo-monkey@c"
+    }
+   ]
+  },
+  "G2-388": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-park-pram|fdx-park-pigeons"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-forest-hedgehog@c|fdx-forest-bear2@c"
+    }
+   ],
+   "2": [
+    {
+     "copy": 4,
+     "unit": "fdx-park-icecream|fdx-park-dove"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-forest-deer@c|fdx-forest-panda@c"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-garden-snail|fdx-garden-peacock2"
+    }
+   ],
+   "3": [
+    {
+     "copy": 7,
+     "unit": "fdx-meadow-horse@c|fdx-meadow-kite@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-kitchen-cat|fdx-kitchen-dog"
+    }
+   ]
+  },
+  "G1-413": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-pond-beaver@c"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-forest-raccoon"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-living-dog@c"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-bakery-cupcake"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-toy-horse"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-market-cart@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-toy-helicopter"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-bath-sink@c"
+    }
+   ],
+   "2": [
+    {
+     "copy": 10,
+     "unit": "fdx-farm-tractor"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-forest-owl@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-beach-turtle"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-polar-penguin@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-living-cat"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-toy-robot@c"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-street-bus"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-street-police@c"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-savanna-elephant"
+    }
+   ],
+   "3": [
+    {
+     "copy": 19,
+     "unit": "fdx-pond-goose@c"
+    },
+    {
+     "copy": 20,
+     "unit": "fdx-garden-peacock"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-beach-surf@c"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-jungle-monkey"
+    },
+    {
+     "copy": 23,
+     "unit": "fdx-bed-teddy@c"
+    },
+    {
+     "copy": 24,
+     "unit": "fdx-bath-wash"
+    },
+    {
+     "copy": 25,
+     "unit": "fdx-picnic-rabbit@c"
+    },
+    {
+     "copy": 26,
+     "unit": "fdx-farm-chicken"
+    }
+   ]
+  },
+  "G1-414": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-meadow-sheep@c"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-beach-seal"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-class-desk@c"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-class-art"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-night-telescope"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-night-cat@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-class-computer"
+    }
+   ],
+   "2": [
+    {
+     "copy": 9,
+     "unit": "fdx-meadow-deer@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-sea-dolphin"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-sea-shark@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-savanna-giraffe"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-class-board@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-space-rocket"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-market-corn@c"
+    }
+   ],
+   "3": [
+    {
+     "copy": 16,
+     "unit": "fdx-sea-seahorse"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-savanna-jeep@c"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-harbour-yacht"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-savanna-ostrich@c"
+    },
+    {
+     "copy": 20,
+     "unit": "fdx-zoo-koala"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-mountain-yak@c"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-picnic-ant"
+    }
+   ]
+  },
+  "G1-415": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-farm-bull@c|fdx-farm-hen@c"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-farm-scarecrow|fdx-farm-donkey2"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-meadow-cow@c|fdx-meadow-goat@c"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-beach-seagull|fdx-beach-umbrella"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-living-music@c|fdx-living-chinchilla@c"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-bed-sleep|fdx-bed-clothes"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-bakery-bread|fdx-bakery-donut"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-pond-frog@c|fdx-pond-frog2@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-polar-walrus|fdx-polar-penguins"
+    }
+   ],
+   "2": [
+    {
+     "copy": 11,
+     "unit": "fdx-farm-farmer@c|fdx-farm-goat@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-farm-sheepdog|fdx-farm-goose"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-pond-turtle@c|fdx-pond-ducks@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-beach-icecream|fdx-beach-crab2"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-polar-ice@c|fdx-polar-seal@c"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-savanna-hippo|fdx-savanna-meerkat"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-savanna-elephant2@c|fdx-savanna-lion2@c"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-street-busy|fdx-street-scooter"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-street-roadwork@c|fdx-street-car@c"
+    }
+   ],
+   "3": [
+    {
+     "copy": 20,
+     "unit": "fdx-meadow-pony|fdx-meadow-balloon"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-farm-cow2@c|fdx-farm-piglet@c"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-meadow-bee|fdx-meadow-horse2"
+    },
+    {
+     "copy": 23,
+     "unit": "fdx-sea-octopus2@c|fdx-sea-whale2@c"
+    },
+    {
+     "copy": 24,
+     "unit": "fdx-desert-oasis|fdx-desert-camel"
+    },
+    {
+     "copy": 25,
+     "unit": "fdx-desert-snake@c|fdx-desert-lizard@c"
+    },
+    {
+     "copy": 26,
+     "unit": "fdx-party-dog|fdx-party-cake"
+    },
+    {
+     "copy": 27,
+     "unit": "fdx-harbour-pelican@c|fdx-harbour-crane@c"
+    },
+    {
+     "copy": 28,
+     "unit": "fdx-camp-night|fdx-camp-fire"
+    }
+   ]
+  },
+  "K-399": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-beach-hermit@c"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-sea-turtle"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-class-science@c"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-picnic-dog"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-street-garbage"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-living-fire@c"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-bed-play"
+    }
+   ],
+   "2": [
+    {
+     "copy": 9,
+     "unit": "fdx-meadow-fox@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-river-capybara"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-harbour-boat@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-winter-santa"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-living-cosy@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-street-fire"
+    },
+    {
+     "copy": 15,
+     "unit": "fdx-village-van@c"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-camp-signpost"
+    }
+   ],
+   "3": [
+    {
+     "copy": 17,
+     "unit": "fdx-beach-crab@c"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-night-owl"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-lake-swan@c"
+    },
+    {
+     "copy": 20,
+     "unit": "fdx-zoo-panda"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-mountain-goat@c"
+    },
+    {
+     "copy": 22,
+     "unit": "fdx-station-train"
+    },
+    {
+     "copy": 23,
+     "unit": "fdx-camp-tent@c"
+    },
+    {
+     "copy": 24,
+     "unit": "fdx-bakery-mixer"
+    }
+   ]
+  },
+  "K-400": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-park-puppy@c"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-sea-whale"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-party-balloons@c"
+    }
+   ],
+   "2": [
+    {
+     "copy": 5,
+     "unit": "fdx-forest-fox"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-jungle-leopard@c"
+    }
+   ],
+   "3": [
+    {
+     "copy": 7,
+     "unit": "fdx-park-scooter"
+    },
+    {
+     "copy": 8,
+     "unit": "fdx-kitchen-soup"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-forest-woodpecker@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-space-moon"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-village-car@c"
+    }
+   ]
+  },
+  "G2-389": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "fdx-meadow-rabbit"
+    },
+    {
+     "copy": 3,
+     "unit": "fdx-night-bat@c"
+    },
+    {
+     "copy": 4,
+     "unit": "fdx-space-ufo"
+    },
+    {
+     "copy": 5,
+     "unit": "fdx-mountain-eagle@c"
+    },
+    {
+     "copy": 6,
+     "unit": "fdx-village-cabin"
+    },
+    {
+     "copy": 7,
+     "unit": "fdx-camp-van@c"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "fdx-pond-flamingo"
+    },
+    {
+     "copy": 9,
+     "unit": "fdx-harbour-seal@c"
+    },
+    {
+     "copy": 10,
+     "unit": "fdx-lake-bear"
+    },
+    {
+     "copy": 11,
+     "unit": "fdx-zoo-kangaroo@c"
+    },
+    {
+     "copy": 12,
+     "unit": "fdx-village-house"
+    },
+    {
+     "copy": 13,
+     "unit": "fdx-zoo-giraffe@c"
+    },
+    {
+     "copy": 14,
+     "unit": "fdx-station-luggage"
+    }
+   ],
+   "3": [
+    {
+     "copy": 15,
+     "unit": "fdx-savanna-leopard@c"
+    },
+    {
+     "copy": 16,
+     "unit": "fdx-forest-moose"
+    },
+    {
+     "copy": 17,
+     "unit": "fdx-savanna-lion@c"
+    },
+    {
+     "copy": 18,
+     "unit": "fdx-mountain-llama"
+    },
+    {
+     "copy": 19,
+     "unit": "fdx-camp-camper@c"
+    },
+    {
+     "copy": 20,
+     "unit": "fdx-class-reading"
+    },
+    {
+     "copy": 21,
+     "unit": "fdx-camp-car@c"
+    }
+   ]
+  }
+ },
+ "colour": 103,
+ "line": 102,
+ "unused": [
+  "fdx-polar-chick",
+  "fdx-winter-skates",
+  "fdx-savanna-zebra",
+  "fdx-mountain-bison",
+  "fdx-market-fruit",
+  "fdx-picnic-bear",
+  "fdx-park-bike",
+  "fdx-kitchen-fridge",
+  "fdx-pond-heron",
+  "fdx-living-plant",
+  "fdx-party-music",
+  "fdx-winter-snowman2",
+  "fdx-lake-ducks"
+ ]
 }

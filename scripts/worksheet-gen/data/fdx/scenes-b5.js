@@ -7,7 +7,6 @@ module.exports = (Sc) => [
   Sc('farm-cow2', 'Cows in the Field', 'farmyard', 1, 'farm animals bw/cow', ['animals bw 3/cow_2', 'farm bw/windmill', 'farm bw/fence', 'birds bw 2/rooster', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw 4/pig'], { mirror: true, level: 3 }),
   Sc('farm-donkey2', 'Donkey and Cart', 'farmyard', 0, 'farm animals bw/donkey_2', ['farm bw/wheelbarrow', 'vehicles bw 2/pickup_2', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw 4/chicken'], { mirror: true,}),
   // park / playground
-  Sc('park-skate', 'Skateboard in the Park', 'park', 0, 'sports bw 2/skateboard', ['home and nature bw/tree', 'animals bw 5/dog_3', 'sports bw 2/basketball', 'nature bw/sun', 'home and nature bw/cloud'], { level: 1, heroScale: 2.4 }),
   Sc('park-icecream', 'Ice Cream in the Park', 'park', 2, 'vehicles bw 3/ice_cream_truck', ['home and nature bw/tree_3', 'nature bw/tree_2', 'farm animals bw/dog', 'birds bw/pigeon', 'sports bw 2/soccer_ball', 'nature bw/sun', 'home and nature bw/cloud', 'toys bw 2/pinwheel', 'vehicles bw 3/baby_carriage'], { level: 3, heroScale: 1.4 }),
   Sc('park-dove', 'Doves in the Park', 'park', 1, 'birds bw 2/bird_3', ['home and nature bw/tree_2', 'Easter bw/dove', 'home and nature bw/flower', 'nature bw/sun', 'home and nature bw/cloud', 'sports bw 2/jump_rope', 'home and nature bw/trash_can'], { mirror: true, heroScale: 2.0 }),
   // meadow

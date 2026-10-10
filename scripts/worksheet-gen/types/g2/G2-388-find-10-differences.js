@@ -9,7 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-388',
   slug: 'find-10-differences',
-  difficulty: { 1: D, 2: D, 3: D },
+  difficulty: { 1: { ...D, ...{"floor":"G1","kinds":["remove","add","swap","scale","mirror"]} }, 2: D, 3: { ...D, ...{"minSepPx":31,"heroProb":0.5} } },
   i18n: { en: { title: "Find 10 Differences in the Garden", instruction: "Circle the 10 differences, 5 in each pair of pictures, and tick a box under the pair for every one you find." } },
   gradeBand: "G2",
 };

@@ -86,14 +86,65 @@ function paintSmallCells(regions, seg) {
 /** regions of one segmentation that are NOT the paper, with colours by rank from `plan` (null plan = all white) */
 function colourRegions(seg, plan) {
   const regs = seg.regions.filter((r) => !r.outside);
+  if (plan && plan.sample) {
+    // a REFERENCE plan (Level Set scenes, 2026-10-10): the drawing was painted once, large, with its read plan; every part
+    // of this copy — whatever its size — takes the crayon found at the same place of that painting
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const r of regs) { x0 = Math.min(x0, r.bbox[0]); y0 = Math.min(y0, r.bbox[1]); x1 = Math.max(x1, r.bbox[2]); y1 = Math.max(y1, r.bbox[3]); }
+    const lab = seg.lab, PW = seg.PW, PH = lab.length / PW;
+    return regs.map((r) => {
+      let colour;
+      // (no eye-white rule here: the reference painting already keeps its eye whites, and the rule whitened a small
+      // copy's boots and shirt — any small cell holding a detail line 'encloses ink')
+      {
+        // the MAJORITY crayon over the part's own pixels (a small copy merges parts: a scarecrow's sleeve and its straw)
+        const votes = new Map();
+        const [bx0, by0, bx1, by1] = r.bbox.map((v) => Math.round(v * U));
+        const step = Math.max(1, Math.round(Math.sqrt(Math.max(1, (bx1 - bx0) * (by1 - by0)) / 400)));
+        for (let y = Math.max(0, by0); y <= Math.min(PH - 1, by1); y += step) for (let x = Math.max(0, bx0); x <= Math.min(PW - 1, bx1); x += step) {
+          if (lab[y * PW + x] !== r.label) continue;
+          const c = plan.sample((x / U - x0) / Math.max(1, x1 - x0), (y / U - y0) / Math.max(1, y1 - y0));
+          if (c) votes.set(c, (votes.get(c) || 0) + 1);
+        }
+        let best = null, n = 0; for (const [c, v] of votes) if (v > n) { n = v; best = c; }
+        colour = best || plan.sample((r.px - x0) / Math.max(1, x1 - x0), (r.py - y0) / Math.max(1, y1 - y0)) || plan.base || 'none';
+      }
+      return { label: r.label, d: r.d, area: Math.round(r.area), r: +r.r.toFixed(1), cx: +r.cx.toFixed(1), cy: +r.cy.toFixed(1), px: +r.px.toFixed(1), py: +r.py.toFixed(1), bbox: r.bbox.map((v) => +v.toFixed(1)), colour };
+    });
+  }
   const big = regs.filter((r) => r.r >= MIN_PART_R).sort((a, b) => b.area - a.area);
   const colourOf = new Map();
-  big.forEach((r, k) => colourOf.set(r.label, plan && plan.length ? plan[Math.min(k, plan.length - 1)] : 'none'));
+  const pinned = new Set();
+  if (plan && plan.points) {
+    // a POINT plan (Level Set scenes, data/fdx/catalog.js PLANS, 2026-10-10): each big part takes the colour of the
+    // nearest named point, in coordinates normalised to the drawing's own box — the same at every size, where a rank
+    // plan moved when a scene drew the drawing smaller and a part dropped under MIN_PART_R
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const r of regs) { x0 = Math.min(x0, r.bbox[0]); y0 = Math.min(y0, r.bbox[1]); x1 = Math.max(x1, r.bbox[2]); y1 = Math.max(y1, r.bbox[3]); }
+    const bw = Math.max(1, x1 - x0), bh = Math.max(1, y1 - y0);
+    for (const r of big) {
+      const fx = (r.px - x0) / bw, fy = (r.py - y0) / bh;
+      let best = plan.base || 'none', bd = Infinity;
+      for (const [px, py, c] of plan.points) { const d = (px - fx) ** 2 + (py - fy) ** 2; if (d < bd) { bd = d; best = c; } }
+      colourOf.set(r.label, best);
+    }
+    // a small cell near a named point (≤ 0.12 of the box) takes the nearest one too (a scarecrow's stick, its straw)
+    const labP = seg.lab, PWp = seg.PW, PHp = labP.length / PWp;
+    for (const r of regs) {
+      if (colourOf.has(r.label)) continue;
+      if (r.r < TINY_R + 3 && enclosesInk(r, labP, PWp, PHp)) continue;   // an eye white keeps its white
+      const fx = (r.px - x0) / bw, fy = (r.py - y0) / bh;
+      let bc = null, bd = 0.0144;   // within 0.12 of the box (used on the LARGE reference painting, where it was read)
+      for (const [px, py, c] of plan.points) { const d = (px - fx) ** 2 + (py - fy) ** 2; if (d <= bd) { bd = d; bc = c; } }
+      if (bc) { colourOf.set(r.label, bc); pinned.add(r.label); }
+    }
+    plan = [plan.base || 'none'];
+  } else big.forEach((r, k) => colourOf.set(r.label, plan && plan.length ? plan[Math.min(k, plan.length - 1)] : 'none'));
   // small pieces: the big part they border most (walk out of the piece across the ink), else white
   const bigLabels = new Set(big.map((r) => r.label));
   const lab = seg.lab, PW = seg.PW, PH = lab.length / PW;
   for (const r of regs) {
-    if (bigLabels.has(r.label)) continue;
+    if (bigLabels.has(r.label) || pinned.has(r.label)) continue;
     // a tiny piece stays white ONLY when it is an eye white: a cell that ENCLOSES an ink blob (the pupil). Every other small
     // cell — a wing cell, a feather stripe, a petal cell, a spot — takes the colour of the part it borders: on the textured
     // library drawings those cells are most of the picture, and white cells read as UNPAINTED on the colour face
@@ -130,12 +181,51 @@ function inkBbox(ink, PW, PH) {
   return x1 < 0 ? null : [x0 / U, y0 / U, (x1 + 1) / U, (y1 + 1) / U].map((v) => +v.toFixed(1));
 }
 
+/**
+ * the REFERENCE painting of a drawing for a Level Set plan: the drawing alone at 440 units, painted with its read plan
+ * (rank or point plan, the way it was checked on the colour sheets), reduced to a colour per pixel in the drawing's own
+ * box. Cached per src + plan + flip. Returns { sample(fx, fy) → colour name, base }.
+ */
+const REF = new Map();
+async function referenceFor(src, plan, flip) {
+  const key = src + '|' + JSON.stringify(plan) + '|' + (flip ? 1 : 0);
+  if (REF.has(key)) return REF.get(key);
+  const item = { src, x: 300, y: 540, h: 440, maxW: 560, flip: !!flip };
+  const ink = await L.compose({ stroke: 7, items: [item] });
+  const seg = L.segmentInk(ink, L.CW, L.CH, { unit: U });
+  let p = plan;
+  if (p && p.points && flip) p = { ...p, points: p.points.map(([x, y, c]) => [1 - x, y, c]) };
+  const regions = paintSmallCells(colourRegions(seg, p), seg);
+  const col = new Map(regions.map((r) => [r.label, r.colour]));
+  const bb = inkBbox(ink, L.CW, L.CH);
+  const PW = seg.PW, PH = seg.lab.length / PW;
+  const X0 = bb[0] * U, Y0 = bb[1] * U, BW = (bb[2] - bb[0]) * U, BH = (bb[3] - bb[1]) * U;
+  const ref = {
+    base: Array.isArray(plan) ? plan[0] : (plan && plan.base) || 'none',
+    sample(fx, fy) {
+      const cx = Math.round(X0 + fx * BW), cy = Math.round(Y0 + fy * BH);
+      for (let rad = 0; rad <= 14; rad += 2) for (let dy = -rad; dy <= rad; dy += 2) for (let dx = -rad; dx <= rad; dx += 2) {
+        if (rad && Math.abs(dx) !== rad && Math.abs(dy) !== rad) continue;
+        const X = cx + dx, Y = cy + dy; if (X < 0 || Y < 0 || X >= PW || Y >= PH) continue;
+        const l = seg.lab[Y * PW + X]; if (l && col.has(l)) return col.get(l);
+      }
+      return null;
+    },
+  };
+  REF.set(key, ref);
+  return ref;
+}
+
 /** one drawing composed alone at its scene placement → a layer */
 async function layerFor(item, spec, idx, planOverride, sampler) {
   const ink = await L.compose({ stroke: spec.stroke || 7, items: [item] });
   const seg = L.segmentInk(ink, L.CW, L.CH, { unit: U });
   const hero = idx === spec.items.length - 1;
-  const plan = planOverride !== undefined ? planOverride : (hero ? HERO[spec.id] : BG[item.src]) || null;
+  let plan = planOverride !== undefined ? planOverride : (hero ? HERO[spec.id] : BG[item.src]) || null;
+  // a Level Set drawing (spec.set 'fdx') samples its colours from its reference painting at every size
+  if (spec.set === 'fdx' && plan && !plan.sample) plan = await referenceFor(item.src, plan, item.flip);
+  // a point plan is authored on the unflipped drawing: a flipped drawing reads it mirrored
+  else if (plan && plan.points && item.flip) plan = { ...plan, points: plan.points.map(([x, y, c]) => [1 - x, y, c]) };
   let regions = colourRegions(seg, plan);
   if (sampler) regions = inheritColours(regions, sampler);
   regions = paintSmallCells(regions, seg);
@@ -151,7 +241,7 @@ async function layerFor(item, spec, idx, planOverride, sampler) {
     for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) { const a = body[y * L.CW + x], b = body[y * L.CW + (x0 + x1 - x)]; if (a && b) inter++; if (a || b) uni++; }
     asym = uni ? +(1 - inter / uni).toFixed(3) : 0;
   }
-  return { idx, src: item.src, x: item.x, y: item.y, h: item.h, flip: !!item.flip, hero, regions, ink: seg.ink, bbox: bb, inkUnits: Math.round(inkPx / (U * U)), asym, _mask: ink, _seg: seg, _cbn: sampler || null };
+  return { idx, src: item.src, x: item.x, y: item.y, h: item.h, flip: !!item.flip, hero, regions, ink: seg.ink, bbox: bb, inkUnits: Math.round(inkPx / (U * U)), asym, _mask: ink, _seg: seg, _cbn: sampler || null, _plan: plan };
 }
 
 /** the ground lines alone → the sky / ground / named areas, coloured by the scene's fixed points */
@@ -185,7 +275,10 @@ async function buildLayers(spec, opts = {}) {
     const it = spec.items[i];
     const inherit = sampler && (!spec.base || (baseItems && baseItems.some((b) => same(b, it))));
     const hero = i === spec.items.length - 1;
-    const plan = hero ? HERO[baseId] || null : (BG[it.src] || (it.colour || null));
+    // a Level Set scene's hero (data/fdx) has no Color by Number key: its catalogue plan rides on the item (it.colour)
+    // a Level Set scene's drawings carry their own read plan (it.colour): the Color by Number BG plans were reviewed
+    // together with per-piece overrides that do not exist here
+    const plan = spec.set === 'fdx' ? (it.colour || null) : hero ? HERO[baseId] || it.colour || null : (BG[it.src] || (it.colour || null));
     items.push(await layerFor(it, { ...spec, id: baseId }, i, plan, inherit ? sampler : null));
   }
   return { id: spec.id, w: W, h: H, hy: spec.hy || 0, theme: spec.theme || null, bg, items, inherited: !!sampler };
@@ -227,7 +320,9 @@ async function detailVariant(layer, regionIdx, spec) {
   // the merge must not have opened the drawing to the paper (an outside region gained the target's pixels)
   const o1 = seg.regions.filter((r) => r.outside).reduce((a, r) => a + r.area, 0), o2 = seg2.regions.filter((r) => r.outside).reduce((a, r) => a + r.area, 0);
   if (o2 > o1 + 2) return null;
-  const plan = layer.hero ? HERO[spec.id] : BG[layer.src];
+  // the layer's own plan when it carries one (a Level Set drawing has no Color by Number plan: HERO / BG are empty for it)
+  // (Color by Number scenes keep exactly the lookup they always had, so their records rebuild byte-identically)
+  const plan = spec.set === 'fdx' ? layer._plan : (layer.hero ? HERO[spec.id] : BG[layer.src]);
   let regions = colourRegions(seg2, plan || null);
   if (layer._cbn) regions = inheritColours(regions, layer._cbn);
   regions = paintSmallCells(regions, seg2);

@@ -54,6 +54,14 @@ const FD_DIR = path.join(__dirname, '..', 'fd');
 const vocabKeyOf = (src) => String(src || '').split('/').pop().replace(/_\d+$/, '').toLowerCase();
 const baseIdOf = (unit) => String(unit).replace(/-rich$/, '');
 function sceneName(unit, loc) {
+  // the Level Set scenes (data/fdx, 2026-10-10) carry their own names, authored per locale in data/fdx/names-i18n.js
+  if (/^fdx-/.test(String(unit))) {
+    let N = {}; try { N = require('../fdx/names-i18n.js').NAMES; } catch (e) { N = {}; }
+    const id = String(unit), own = (N[id] || {})[loc];
+    if (own) return own;
+    if (loc === 'en') { const s = require('../fdx/scenes.js').SCENES.find((x) => x.id === id); if (s) return s.names.en; }
+    throw new Error(`find-the-differences: no scene name for ${unit} in ${loc} (data/fdx/names-i18n.js)`);
+  }
   const d = DESIGNS.find((x) => x.id === baseIdOf(unit));
   if (!d || !d.names || !d.names[loc]) throw new Error(`find-the-differences: no scene name for ${unit} in ${loc}`);
   return d.names[loc];
@@ -244,4 +252,9 @@ function validateScenes(ids) {
 }
 
 // FIND_THE_DIFFERENCES FIRST: lib/b7-common.js bankModule() takes the module's first export as the locale map
-module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys };
+/** the seven / ten-pairs titles of the Level Set copies (2026-10-10): the face's own head + the shared setting's name */
+const LS_PAIR_TITLES = {
+  seven: { en: 'Find 7 Differences: {UNIT}', de: 'Finde 7 Unterschiede: {UNIT}', fr: 'Jeu des 7 erreurs : {UNIT}', es: 'Busca las 7 diferencias: {UNIT}', pt: 'Jogo dos 7 erros: {UNIT}', it: 'Trova le 7 differenze: {UNIT}', nl: 'Zoek de 7 verschillen: {UNIT}', sv: 'Finn sju fel: {UNIT}', da: 'Find syv fejl: {UNIT}', no: 'Finn sju feil: {UNIT}', fi: 'Etsi seitsemän virhettä: {UNIT}' },
+  'ten-pairs': { en: 'Find 10 Differences: {UNIT}', de: 'Finde 10 Unterschiede: {UNIT}', fr: 'Trouve les 10 erreurs : {UNIT}', es: 'Encuentra las 10 diferencias: {UNIT}', pt: 'Jogo dos 10 erros: {UNIT}', it: 'Trova le 10 differenze: {UNIT}', nl: 'Zoek de 10 verschillen: {UNIT}', sv: 'Finn tio fel: {UNIT}', da: 'Find ti fejl: {UNIT}', no: 'Finn ti feil: {UNIT}', fi: 'Etsi kymmenen virhettä: {UNIT}' },
+};
+module.exports = { FIND_THE_DIFFERENCES, MODES, FLOORS, SEP_PX, SCREEN_PAD_UNITS, QUADRANT_BAND, HERO_BAND, KINDS, LINE_ALL, UNITS, BAND, COUNT_OF, TAP_KEY, vocabKeyOf, baseIdOf, sceneName, loadScene, review, cfgFor, validateBank, validateScenes, WORD_MODES, WORD_CAP, WORD_FAMILY, wordFamily, clashKeys, LS_PAIR_TITLES };

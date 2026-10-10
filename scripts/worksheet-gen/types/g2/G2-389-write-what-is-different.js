@@ -9,7 +9,7 @@ module.exports = {
   ...base,
   id: 'G2-389',
   slug: 'write-what-is-different',
-  difficulty: { 1: D, 2: D, 3: D },
+  difficulty: { 1: { ...D, ...{"floor":"K","kinds":["remove","add","swap","scale"]} }, 2: D, 3: { ...D, ...{"floor":"G2"} } },
   i18n: { en: { title: "Write What Is Different", instruction: "Circle the 3 differences (something may be gone), then write one sentence about each one on the lines, using the words in the two strips." } },
   gradeBand: "G2",
 };

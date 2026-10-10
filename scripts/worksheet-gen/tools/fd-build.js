@@ -139,6 +139,8 @@ async function candidatesFor(spec, scene) {
       if (op.kind === 'mirror' && (l.asym < ASYM_MIN || area < 0.35 * l.inkUnits)) return null;
       // (Level Set scenes, read 2026-10-10: a mirrored sun at asym 0.123 passed the 0.12 floor and read as no change at
       // all — the new scenes take 0.20 and never mirror a sky filler)
+      // (and only a drawing that FACES somewhere — an animal, a person, a vehicle: a mirrored tulip read as no change, 2026-10-10)
+      if (op.kind === 'mirror' && FDX && !['animal', 'person', 'vehicle'].includes((FX.CATALOG.get(l.src) || {}).kind)) return null;
       if (op.kind === 'mirror' && FDX && (l.asym < 0.20 || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(l.src))) return null;
       // the drawing's new place: inside the frame, and not onto another drawing it did not already touch
       const nb = F.newBbox(l, op);
@@ -173,7 +175,7 @@ async function candidatesFor(spec, scene) {
     const w = l.bbox[2] - l.bbox[0];
     if (!isHero) await push({ kind: 'remove', item: l.idx });
     await push({ kind: 'mirror', item: l.idx });
-    for (const s of isHero ? [1.22, 0.8] : [1.35, 0.72]) await push({ kind: 'scale', item: l.idx, s });
+    for (const s of isHero ? (FDX ? [1.32, 0.74] : [1.22, 0.8]) : [1.35, 0.72])   // (Level Set: a 1.22 hero read as no change on a "3 big things" page, 2026-10-10) await push({ kind: 'scale', item: l.idx, s });
     for (const dx of [w + 24, -(w + 24), 60, -60]) await push({ kind: 'move', item: l.idx, dx, dy: 0 });
     // colour: the two biggest parts, to a contrasting crayon
     // colour: the two biggest parts (hero) / the biggest part (prop) to a contrasting crayon. A drawing made only of SMALL

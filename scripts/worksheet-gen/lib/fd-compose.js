@@ -97,6 +97,15 @@ function pickOps(scene, cfg, rng) {
         // ...nor through a swap (read 2026-10-10: a puzzle AND a telephone both turned into the same dice — two dice)
         const inWord = (o) => (o.kind === 'add' || o.kind === 'swap' ? wordOf(o.src) : null);
         if (inWord(c) && chosen.some((o) => inWord(o) === inWord(c))) continue;
+        // a word face (cfg.distinctWords): every change names its OWN word (read 2026-10-10: two planets removed — three
+        // changes but only two words to tick). The word of a change = the drawing it touches (and, for a swap, the one it
+        // brings in); a vocab key, so 'planet' and 'planet_2' are one word
+        if (cfg.distinctWords) {
+          const keyOf = (src) => (src ? cfg.distinctWords(src) : null);
+          const words = (o) => [keyOf(srcOfC(o)), o.kind === 'swap' ? keyOf(o.src) : null].filter(Boolean);
+          const mine = words(c);
+          if (chosen.some((o) => words(o).some((w) => mine.includes(w)))) continue;
+        }
       }
       // separation is measured between the RINGS the child sees (change box + 10 units each side), never the change boxes
       if (chosen.some((o) => gap(inflate(o.diff || o.bbox, 10, W, H), inflate(c.diff || c.bbox, 10, W, H)) < minSep)) continue;

@@ -19,6 +19,30 @@ const F = require('../lib/fd-scene.js');
 const L = require('../lib/cbn-lineart.js');
 const { SCENES, SECOND } = require('../data/cbn/lineart-scenes.js');
 const { PROPS, THEME_PROPS } = require('../data/fd/props.js');
+// --set=fdx: the ORIGINAL Level Set scenes (data/fdx/scenes.js laid out by lib/fdx-layout.js); their swap / add partners
+// come from the read catalogue (data/fdx/catalog.js) instead of data/fd/props.js. The CBN set builds exactly as before.
+const FDX = (process.argv.find((a) => a.startsWith('--set=')) || '') === '--set=fdx';
+const FX = FDX ? { ...require('../data/fdx/catalog.js'), ...require('../lib/fdx-layout.js'), TAGS: require('../lib/fdx-scenery.js').TAGS } : null;
+/** a catalogue drawing as a prop record { place, h, colour, alt } */
+function fxProp(src, spec) {
+  const c = FX.CATALOG.get(src); if (!c || c.refused) return null;
+  const place = c.places.includes('s') ? 'sky' : 'ground';
+  const tags = FX.TAGS[spec.setting] || [];
+  const inScene = new Set(spec.items.map((i) => i.src));
+  const alt = [...FX.CATALOG.values()].filter((o) => !o.refused && o.src !== src && !inScene.has(o.src) && o.kind === c.kind && o.places[0] === c.places[0] && Math.abs(o.h - c.h) <= 0.3 * c.h && o.tags.some((t) => tags.includes(t)) && !o.thin)
+    .sort((a, b) => Math.abs(a.h - c.h) - Math.abs(b.h - c.h) || (a.src < b.src ? -1 : 1)).map((o) => o.src);
+  return { place, h: Math.round(Math.max(place === 'sky' ? 60 : 70, c.h * (c.kind === 'object' || c.kind === 'food' ? 1.1 : 1.35))), colour: FX.PLANS[src] || [c.colours[0]], alt };   // one crayon per drawing (lib/fdx-layout.js)
+}
+const propOf = (src, spec) => (FDX ? fxProp(src, spec) : PROPS[src]);
+/** the theme props a scene may receive: CBN = data/fd/props.js THEME_PROPS; fdx = the setting's catalogue drawings not in the scene */
+function themeProps(spec) {
+  if (!FDX) return THEME_PROPS[spec.theme] || { sky: [], ground: [] };
+  const tags = FX.TAGS[spec.setting] || [], inScene = new Set(spec.items.map((i) => i.src));
+  const pool = [...FX.CATALOG.values()].filter((o) => !o.refused && !o.thin && !inScene.has(o.src) && o.tags.some((t) => tags.includes(t)) && o.kind !== 'building' && o.h <= 150);
+  const sky = pool.filter((o) => o.places[0] === 's').map((o) => o.src).sort();
+  const ground = pool.filter((o) => o.places[0] === 'g' && o.kind !== 'vehicle').map((o) => o.src).sort();
+  return { sky, ground };
+}
 const OUT = path.join(__dirname, '..', 'data', 'fd');
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
 const only = arg('only') ? new Set(arg('only').split(',')) : null;
@@ -59,9 +83,12 @@ const overlapArea = (a, b) => Math.max(0, Math.min(a[2], b[2]) - Math.max(a[0], 
 function freeSpot(scene, w, h, place) {
   const taken = scene.items.map((l) => l.bbox);
   const xs = []; for (let x = 30; x <= W - 30 - w; x += 12) xs.push(x);
-  const ys = place === 'sky' ? [60, 100, 140, 180, 220].filter((y) => y + h / 2 < scene.hy - 24) : [548, 524, 500, 476, 452].filter((y) => y - h > scene.hy + 6);
+  const z = scene.zones;
+  const ys = z && z.ground ? (place === 'sky' ? (z.sky ? [60, 100, 140, 180, 220].filter((y) => y >= z.sky.y0 - 30 && y <= z.sky.y1 + 30) : []) : [548, 524, 500, 476, 452, 428, 404].filter((y) => y >= z.ground.y0 && y <= z.ground.y1 + 4))
+    : place === 'sky' ? [60, 100, 140, 180, 220].filter((y) => y + h / 2 < scene.hy - 24) : [548, 524, 500, 476, 452].filter((y) => y - h > scene.hy + 6);
   // a ground prop never stands in a named water area (a mushroom in the pond, a flower in the sea)
   const water = ((scene.bg && scene.bg.regions) || []).filter((r) => r.name === 'pond' || r.name === 'sea').map((r) => r.bbox);
+  if (z && z.keepOut) water.push(...z.keepOut);
   const inWater = (px, py) => water.some((b) => px >= b[0] && px <= b[2] && py >= b[1] && py <= b[3]);
   for (const y of ys) for (const x of xs) {
     const bb = place === 'sky' ? [x, y - h / 2, x + w, y + h / 2] : [x, y - h, x + w, y];
@@ -111,6 +138,8 @@ async function candidatesFor(spec, scene) {
   const push = async (op, mode = 'line') => { const r = await test(op, mode); if (r) out.push(r); return r; };
   const hero = scene.items[scene.items.length - 1];
   for (const l of scene.items) {
+    // a drawing that is part of the scenery (a far barn, a window) is never a difference
+    if (spec.items[l.idx] && spec.items[l.idx].fixed) continue;
     const isHero = l.hero;
     const w = l.bbox[2] - l.bbox[0];
     if (!isHero) await push({ kind: 'remove', item: l.idx });
@@ -134,34 +163,39 @@ async function candidatesFor(spec, scene) {
       const r = await push({ kind: 'detail', item: l.idx, region: k, layer: v }); if (r) nd++;
     }
     // swap: a partner of the same kind at the same place and size
-    const p = PROPS[l.src];
+    const p = propOf(l.src, spec);
     if (!isHero && p) for (const alt of p.alt.slice(0, 2)) {
       if (alt === l.src) continue;
-      const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip };
-      const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, PROPS[alt] ? PROPS[alt].colour : null);
+      const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip, ...(FDX ? { stroke: FX.strokeFor(FX.boxOf({ src: alt, x: l.x, y: l.y, h: l.h })) } : {}) };
+      const ap = propOf(alt, spec);
+      const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? ap.colour : null);
       await push({ kind: 'swap', item: l.idx, src: alt, layer: lay });
     }
   }
   // add: theme props at a free spot (one sky, one ground), and one more of an existing ground prop (count)
-  const tp = THEME_PROPS[spec.theme] || { sky: [], ground: [] };
+  const tp = themeProps(spec);
   let added = 0;
   for (const place of ['sky', 'ground']) for (const src of tp[place]) {
     if (added >= 3) break;
-    const p = PROPS[src]; if (!p) continue;
+    const p = propOf(src, spec); if (!p) continue;
     const probe = await F.layerFor({ src, x: 300, y: place === 'sky' ? 150 : 540, h: p.h, anchor: place === 'sky' ? 'c' : undefined }, { ...spec, items: [{ src }] }, 0, p.colour);
     const pw = probe.bbox[2] - probe.bbox[0], ph = probe.bbox[3] - probe.bbox[1];
     const spot = freeSpot(scene, pw, ph, place); if (!spot) continue;
     const it = { src, x: spot.x, y: spot.y, h: p.h, anchor: place === 'sky' ? 'c' : undefined };
+    if (FDX) it.stroke = FX.strokeFor(FX.boxOf(it));
     const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, p.colour);
     lay.idx = 100 + added;
     const r = await push({ kind: 'add', item: lay.idx, src, layer: lay }); if (r) added++;
   }
   for (const l of scene.items) {
     if (l.hero || added >= 4) continue;
-    const p = PROPS[l.src]; if (!p || p.place !== 'ground') continue;
+    if (spec.items[l.idx] && spec.items[l.idx].fixed) continue;
+    const p = propOf(l.src, spec); if (!p || p.place !== 'ground') continue;
+    // (a counter / shelf drawing is never copied: its copy stood in mid-air at the counter's height, read 2026-10-10)
+    if (FDX && FX.CATALOG.get(l.src) && FX.CATALOG.get(l.src).places[0] !== 'g') continue;
     const pw = l.bbox[2] - l.bbox[0], ph = l.bbox[3] - l.bbox[1];
     const spot = freeSpot(scene, pw, ph, 'ground'); if (!spot) continue;
-    const it = { src: l.src, x: spot.x, y: l.y, h: l.h };
+    const it = { src: l.src, x: spot.x, y: l.y, h: l.h, ...(FDX ? { stroke: spec.items[l.idx] && spec.items[l.idx].stroke } : {}) };
     const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, p.colour);
     lay.idx = 100 + added;
     const r = await push({ kind: 'add', item: lay.idx, src: l.src, layer: lay, count: true }); if (r) added++;
@@ -169,7 +203,7 @@ async function candidatesFor(spec, scene) {
   void hero;
   return out;
 }
-function slimLayer(l) { const { _mask, _seg, _cbn, ...rest } = l; return rest; }
+function slimLayer(l) { const { _mask, _seg, _cbn, _plan, ...rest } = l; return rest; }
 
 /**
  * --rich: a DENSIFIED copy of a scene for the 7- and 10-difference faces: up to RICH extra theme props (sky and ground
@@ -201,7 +235,7 @@ async function densify(spec) {
 
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
-  const all = [...SCENES, ...SECOND];
+  const all = FDX ? require('../data/fdx/scenes.js').SCENES.map((s) => FX.layoutScene(s)) : [...SCENES, ...SECOND];
   const rich = process.argv.includes('--rich');
   let n = 0;
   for (const base of all) {
@@ -210,9 +244,11 @@ async function densify(spec) {
     const t0 = Date.now();
     const spec = rich ? await densify(base) : base;
     if (!spec) { console.log(`${base.id}: no room for ${RICH_MIN} extra props — no rich copy`); continue; }
-    const scene = await F.buildLayers(spec);
+    const scene = await F.buildLayers(spec, FDX ? { inherit: false } : {});
+    if (FDX) scene.zones = spec.zones;
     const cands = await candidatesFor(spec, scene);
     const rec = { v: 1, id: spec.id, base: spec.base || null, rich: spec.rich || 0, kind: spec.kind, theme: spec.theme, names: spec.names, hy: scene.hy, w: W, h: H, inherited: scene.inherited,
+      ...(FDX ? { set: 'fdx', setting: spec.setting, variant: spec.variant, level: spec.level, zones: spec.zones } : {}),
       bg: scene.bg, items: scene.items.map(slimLayer), cands };
     fs.writeFileSync(path.join(OUT, spec.id + '.json'), JSON.stringify(rec));
     const by = {}; for (const c of cands) by[c.kind] = (by[c.kind] || 0) + 1;

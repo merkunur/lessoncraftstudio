@@ -9,7 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-415',
   slug: 'mirror-pictures-find-the-differences',
-  difficulty: { 1: D, 2: D, 3: D },
+  difficulty: { 1: { ...D, ...{"floor":"K","kinds":["remove","add","scale"]} }, 2: D, 3: { ...D, ...{"floor":"G2"} } },
   i18n: { en: { title: "Mirror Pictures: Fold and Check", instruction: "Picture 2 is flipped like a mirror; circle the 4 things or empty places that are still different, tick a box for each, then fold on the line to check." } },
   gradeBand: "G1",
 };

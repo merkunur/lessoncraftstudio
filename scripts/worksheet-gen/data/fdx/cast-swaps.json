@@ -1,0 +1,177 @@
+{
+ "fdx-park-ball": {
+  "home and nature bw/tree": "nature bw/tree_2"
+ },
+ "fdx-forest-hedgehog": {
+  "nature bw/mushroom": "Easter bw/branch"
+ },
+ "fdx-forest-fox": {
+  "nature bw/mushroom": "Easter bw/branch"
+ },
+ "fdx-forest-woodpecker": {
+  "Easter bw/mushroom": "Easter bw/branch"
+ },
+ "fdx-camp-camper": {
+  "travel and holiday bw/tent": "travel and holiday bw/signpost"
+ },
+ "fdx-garden-snail": {
+  "home and nature bw/flower": "Easter bw/branch"
+ },
+ "fdx-farm-rooster": {
+  "farm bw/watering_can": "objects bw/bucket"
+ },
+ "fdx-meadow-ladybug": {
+  "home and nature bw/flower": "nature bw/plant"
+ },
+ "fdx-pond-duck": {
+  "animals bw 3/frog": "animals bw/frog"
+ },
+ "fdx-forest-wolf": {
+  "home and nature bw/tree_3": "nature bw/tree"
+ },
+ "fdx-beach-seagull": {
+  "beach bw/bucket": "beach bw 2/bag"
+ },
+ "fdx-sea-octopus2": {
+  "beach bw 2/seashell_2": "beach bw 2/seashell",
+  "sea life bw 2/starfish": "beach bw/starfish"
+ },
+ "fdx-zoo-lion": {
+  "zoo animals bw/giraffe": "animals bw 3/giraffe",
+  "zoo animals bw/flamingo": "animals bw 2/elephant"
+ },
+ "fdx-winter-sleigh": {
+  "Christmas bw 2/gift_box": "sports bw 2/ice_skate"
+ },
+ "fdx-winter-cabin": {
+  "tools bw/shovel": "apparel bw/boots"
+ },
+ "fdx-kitchen-kettle": {
+  "home bw/cuckoo_clock": "home bw/calendar"
+ },
+ "fdx-bed-play": {
+  "household bw/window": "home and nature bw/frame"
+ },
+ "fdx-class-art": {
+  "classroom bw 2/chair": "home bw 2/chair"
+ },
+ "fdx-bakery-bread": {
+  "food bw/croissant": "Easter bw 2/cookies"
+ },
+ "fdx-toy-train": {
+  "toys bw 2/teddy_bear": "toys bw/guitar",
+  "toys bw/drum": "animals bw 2/teddy_bear"
+ },
+ "fdx-bath-duck": {
+  "birds bw/duck": "household bw/spray",
+  "household bw/toilet": "home bw 2/washing_machine"
+ },
+ "fdx-party-cake": {
+  "dessert bw/cupcake": "Christmas bw/lollipop",
+  "valentine bw 2/gift": "Easter bw 2/gift",
+  "home bw/speaker": "education bw/gift_box"
+ },
+ "fdx-village-dog": {
+  "home and nature bw/tree_3": "nature bw/tree_2"
+ },
+ "fdx-farm-goose": {
+  "farm bw/fence": "objects bw/bucket",
+  "farm bw/hay": "farm bw/wheelbarrow",
+  "farm bw/watering_can": "farm bw/fence"
+ },
+ "fdx-park-dove": {
+  "home and nature bw/tree_2": "nature bw/tree_2"
+ },
+ "fdx-meadow-bee": {
+  "valentine bw 2/tulip": "Easter bw/branch"
+ },
+ "fdx-meadow-goat": {
+  "home and nature bw/tree_3": "nature bw/tree_2"
+ },
+ "fdx-pond-ducks": {
+  "animals bw 5/frog": "animals bw/turtle"
+ },
+ "fdx-river-otter": {
+  "birds bw 2/swan": "animals bw 3/duck"
+ },
+ "fdx-camp-signpost": {
+  "nature bw/campfire": "travel and holiday bw/campfire",
+  "travel and holiday bw/backpack": "classroom bw 2/backpack"
+ },
+ "fdx-desert-lizard": {
+  "animals bw/camel_2": "animals bw 5/camel",
+  "animals bw 5/snake": "animals bw 5/vulture"
+ },
+ "fdx-jungle-sloth": {
+  "animals bw 5/snake": "animals bw/alligator_2"
+ },
+ "fdx-zoo-penguin": {
+  "zoo animals bw/seal": "animals bw 2/koala",
+  "zoo animals bw/turtle": "animals bw 5/panda"
+ },
+ "fdx-winter-penguin": {
+  "Christmas bw 2/christmas_tree": "Christmas bw/christmas_tree",
+  "Christmas bw 2/ice_skates": "sports bw/ice_skate"
+ },
+ "fdx-bed-cat": {
+  "household bw/window": "household bw/curtain",
+  "classroom bw 2/backpack": "education bw/box"
+ },
+ "fdx-class-globe": {
+  "education bw/backpack": "classroom bw/briefcase"
+ },
+ "fdx-bakery-donut": {
+  "food bw 2/donut": "Christmas bw 2/cupcake"
+ },
+ "fdx-toy-helicopter": {
+  "toys bw 2/dice": "Christmas bw 2/snow_globe",
+  "toys bw/rocket": "toys bw/loader",
+  "toys bw/spinning_top": "toys bw/drum"
+ },
+ "fdx-bath-sink": {
+  "birds bw/duck": "household bw/spray"
+ },
+ "fdx-farm-piglet": {
+  "farm bw/hay": "home bw 2/bucket"
+ },
+ "fdx-farm-chicken": {
+  "farm bw/fence": "household bw/bucket"
+ },
+ "fdx-meadow-horse2": {
+  "nature bw/butterfly": "farm animals bw/bee_2"
+ },
+ "fdx-forest-bear2": {
+  "nature bw/tree_2": "nature bw/tree"
+ },
+ "fdx-jungle-monkey2": {
+  "animals bw 5/chameleon": "animals bw 5/crocodile"
+ },
+ "fdx-jungle-tiger2": {
+  "animals bw 5/crocodile": "animals bw/alligator",
+  "birds bw 2/bird_2": "animals bw/sloth"
+ },
+ "fdx-zoo-elephant": {
+  "zoo animals bw/flamingo": "animals bw 3/lion"
+ },
+ "fdx-winter-snowman2": {
+  "tools bw/shovel": "apparel bw/boots"
+ },
+ "fdx-garden-cat": {
+  "valentine bw 2/tulip": "Easter bw 2/lily",
+  "nature bw/butterfly": "Easter bw 2/dove"
+ },
+ "fdx-garden-peacock2": {
+  "nature bw/flower": "Easter bw 2/lily"
+ },
+ "fdx-camp-car": {
+  "travel and holiday bw/tent": "travel and holiday bw/signpost"
+ },
+ "fdx-lake-ducks": {
+  "vehicles bw/sailboat": "beach bw 2/boat_2",
+  "birds bw 2/swan": "animals bw 3/alligator_2"
+ },
+ "fdx-village-car": {
+  "home and nature bw/tree": "nature bw/tree_2",
+  "home and nature bw/flower": "nature bw/plant"
+ }
+}

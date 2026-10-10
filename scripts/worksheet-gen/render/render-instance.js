@@ -205,6 +205,8 @@ async function renderInstance(o) {
     await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
     const keyPdf = base + '.key.pdf';
     await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
+    // o.keyPng (reading sheets only, 2026-10-10): the key page as an image too
+    if (o.keyPng) await page.screenshot({ path: base + '.key.png', fullPage: true });
     // Every answer key is MEASURED (operator ruling 2026-09-28 — a repeating mistake): an answer on a writing row
     // must sit on the base rule with its x-height at the dashed midline, a gap-box answer must be centered, and no
     // ::after text may sit over a row. A failure fails the deck, so a misaligned key can never be published.

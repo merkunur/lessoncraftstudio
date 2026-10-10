@@ -317,7 +317,10 @@ async function compose(spec) {
     if (it.flip) img = img.flop();
     const { data, info } = await img.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     let pin = inkMask(data, info.width, info.height);
-    if (T) { const w = strokeWidth(pin, info.width, info.height); const k = Math.round((T - w) / 2); if (k > 0) pin = dilate(pin, info.width, info.height, k); }
+    // it.stroke (Find the Differences Level Set scenes, 2026-10-10): a drawing's own line weight — a small drawing keeps
+    // its detail with a thinner line; absent everywhere else, so the Color by Number art is unchanged
+    const Ti = it.stroke != null ? it.stroke : T;
+    if (Ti) { const w = strokeWidth(pin, info.width, info.height); const k = Math.round((Ti - w) / 2); if (k > 0) pin = dilate(pin, info.width, info.height, k); }
     if (it.mergeSmall) pin = mergeSmallParts(pin, info.width, info.height, it.mergeSmall === true ? 9 : it.mergeSmall);
     const body = it.noOcclude ? pin : silhouette(pin, info.width, info.height);
     const cx = Math.round(it.x * UNIT - info.width / 2);

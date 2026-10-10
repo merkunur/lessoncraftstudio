@@ -34,10 +34,12 @@ const PAD = B.SCREEN_PAD_UNITS;
 
 /** the K-395 d1/d2/d3 ladder (FINAL §2); the faces re-point d2 with their own mode knobs */
 const D = {
-  1: { mode: 'base', count: 4, unit: 'garden-dog', layout: 'stack', floor: 'K', kinds: ['remove', 'add', 'swap', 'mirror', 'scale'], heroProb: 0.5, minSepPx: 27, ledger: { box: 56 } },
+  // levels 1 and 3 (Level Set, 2026-10-10): the title says 5, so every level finds 5 — level 1 on a sparse scene with big
+  // plain changes, level 3 on a dense scene with the subtle kinds and the G1 floor (level 2 is the published page, unchanged)
+  1: { mode: 'base', count: 5, unit: 'garden-dog-rich', layout: 'stack', floor: 'K', kinds: ['remove', 'add', 'swap', 'scale'], minArea: 1800, heroProb: 0.5, minSepPx: 27, ledger: { box: 56 } },
   // heroFront 0.5 (measured 2026-10-09 on the REBUILT rich copy, 400 seeds): the dog changes on 47 % of pages (19 % with the allow-gate alone), quadrants 20/31/29/20
   2: { mode: 'base', count: 5, unit: 'garden-dog-rich', layout: 'stack', floor: 'K', kinds: ['remove', 'add', 'swap', 'mirror', 'scale', 'move'], heroProb: 0.5, heroFront: 0.5, minSepPx: 27, ledger: { box: 56 } },
-  3: { mode: 'base', count: 6, unit: 'garden-dog-rich', layout: 'stack', floor: 'G1', kinds: B.LINE_ALL, heroProb: 0.5, minSepPx: 27, ledger: { box: 48 } },
+  3: { mode: 'base', count: 5, unit: 'garden-dog-rich', layout: 'stack', floor: 'G1', kinds: B.LINE_ALL, heroProb: 0.5, minSepPx: 27, ledger: { box: 56 } },
 };
 
 function block(locale) { return bank('find-the-differences', String(locale || 'en').slice(0, 2)); }
@@ -73,16 +75,44 @@ function clipDecoy(box, diffs) {
  * The composition PLAN of a page: every panel's unit + config in compose order. build() and the oracle both run
  * `composeAll(plan, rng)` as the FIRST consumer of the rng, so the oracle's re-composition is the page's.
  */
+/**
+ * the close-up window of the picture-pairs face, in scene units. The Level Set scenes (data/fdx) draw their drawings
+ * bigger than the Color by Number scenes, so their window shows 1.15 × as much of the scene — printed at the same size
+ * (the panel's width is fixed, the viewBox scales). Published units keep the published window.
+ */
+const winOf = (d, unit) => { const w = d.window || [260, 200]; return /^fdx-/.test(String(unit || '')) ? [Math.round(w[0] * 1.15), Math.round(w[1] * 1.15)] : w; };
 function planFor(d, mode, unitArg) {
-  const base = B.cfgFor(mode, d);
+  // a Level Set copy may ask for a COLOUR rendering of a line face: its unit carries '@c' (data/fdx scenes, 2026-10-10;
+  // the half of the expansion that is painted). Published units never carry it, so their pages are unchanged.
+  const isCol = (u) => /@c$/.test(String(u || ''));
+  const strip = (u) => String(u).replace(/@c$/, '');
+  const colourCopy = Array.isArray(unitArg) ? unitArg.some(isCol) : isCol(unitArg);
+  if (colourCopy) unitArg = Array.isArray(unitArg) ? unitArg.map(strip) : strip(unitArg);
+  const base0 = B.cfgFor(mode, d);
+  const base = colourCopy ? { ...base0, mode: 'colour' } : base0;
   if (mode === 'seven' || mode === 'ten-pairs' || (mode === 'mirror-pair' && (Array.isArray(unitArg) || d.units))) {
     const units = Array.isArray(unitArg) ? unitArg : (d.units || B.UNITS[mode]);
     return { mode, panels: units.map((u, i) => ({ unit: u, cfg: { ...base, n: d.perPair[i] } })), excludeSrcs: !!d.excludeSrcs };
   }
   const unit = unitArg || d.unit || B.UNITS[mode];
   if (mode === 'how-many') return { mode, panels: [{ unit, cfg: base }], countRange: d.countRange };
-  if (mode === 'pairs') return { mode, panels: [{ unit, cfg: base }], window: d.window || [260, 200] };
+  if (mode === 'pairs') return { mode, panels: [{ unit, cfg: base }], window: winOf(d, unit) };
   return { mode, panels: [{ unit, cfg: base }] };
+}
+/**
+ * compose + (picture-pairs) place the close-up windows: when the windows cannot be placed the composition is drawn again
+ * on the same rng, up to 30 times (Level Set scenes, 2026-10-10: their bigger drawings rarely let the first three changes
+ * all fit a window). A page whose first composition fits — every published page — consumes the rng exactly as before.
+ * build() and the oracle both call this, so the oracle's replay is the page.
+ */
+function composeWithWindows(plan, rng) {
+  if (!plan.window) return { comp: composeAll(plan, rng), wins: null };
+  let err;
+  for (let k = 0; k < 30; k++) {
+    const comp = composeAll(plan, rng);
+    try { return { comp, wins: placeWindows(comp.panels[0], plan.window, rng) }; } catch (e) { err = e; if (!/pairs/.test(e.message)) throw e; }
+  }
+  throw err;
 }
 function composeAll(plan, rng) {
   const out = [];
@@ -105,7 +135,12 @@ function composeAll(plan, rng) {
       const fams = new Set(scene.items.map((l) => B.wordFamily(B.vocabKeyOf(l.src))));
       const clash = B.clashKeys(scene.items.map((l) => B.vocabKeyOf(l.src)));
       const cnt = {}; for (const l of scene.items) { const k = B.vocabKeyOf(l.src); cnt[k] = (cnt[k] || 0) + 1; }
+      // a Level Set scene (data/fdx): a drawing whose library word misnames it (catalogue 'noword': a porcupine that reads as a
+      // hedgehog, a rubber duck) is never changed or brought in on a word face
+      let NOWORD = new Set();
+      if (/^fdx-/.test(p.unit)) { const { CATALOG } = require('../../data/fdx/catalog.js'); NOWORD = new Set([...CATALOG.values()].filter((x) => x.noword).map((x) => x.src)); }
       cands = cands.filter((c) => {
+        if (NOWORD.size && (NOWORD.has(srcOfCand(scene, c)) || (c.src && NOWORD.has(c.src)))) return false;
         // a key drawn twice (two chicks, two clouds) may only be REMOVED: 'the bird is flipped' would name two drawings
         if (c.item != null && cnt[keyOf(c.item)] >= 2 && c.kind !== 'remove') return false;
         if ((c.kind === 'add' || c.kind === 'swap') && c.src && fams.has(B.wordFamily(B.vocabKeyOf(c.src)))) return false;
@@ -159,7 +194,9 @@ function placeWindows(panel, win, rng) {
       if (wins.some((o) => area(inter(o.box, box)) > 0.25 * ww * wh)) { ok = false; break; }
       // ≥ 1 UNCHANGED drawing with ≥ 60 % of its bbox inside (the row's decoy)
       const changed = new Set(panel.ops.map((c) => c.item));
-      const decoys = items.filter((l) => !changed.has(l.idx) && area(inter(l.bbox, box)) >= 0.6 * area(l.bbox)).map((l) => l.idx);
+      // (a Level Set scene's drawings are bigger: 40 % of one inside the window is a drawing the child can see and tap)
+      const share = /^fdx-/.test(String(panel.unit)) ? 0.4 : 0.6;
+      const decoys = items.filter((l) => !changed.has(l.idx) && area(inter(l.bbox, box)) >= share * area(l.bbox)).map((l) => l.idx);
       if (!decoys.length) { ok = false; break; }
       wins.push({ box, cell, decoys, op: i });
     }
@@ -181,7 +218,7 @@ function screenHotspots(panel, pIdx, meta, window) {
     if (!b) continue;
     hots.push({ bbox: b, diff: false, item: l.idx, label: l.src.split('/').pop(), meta: { ...meta, 'data-lcs-fd-layer': l.idx, 'data-lcs-fd-box': b.join(','), 'data-lcs-fd-panel': pIdx } });
   }
-  if (window) return hots.filter((h) => area(inter(h.bbox, window)) >= 0.6 * area(h.bbox)).map((h) => ({ ...h, bbox: inter(h.bbox, window) }));
+  if (window) return hots.filter((h) => area(inter(h.bbox, window)) >= (/^fdx-/.test(String(panel.unit)) ? 0.4 : 0.6) * area(h.bbox)).map((h) => ({ ...h, bbox: inter(h.bbox, window) }));
   return hots;
 }
 
@@ -202,11 +239,30 @@ module.exports = {
     applicable: true,
     units: () => [...new Set([].concat(...Object.values(B.UNITS).map((u) => (Array.isArray(u) ? [u.join('|'), ...u] : [u]))))],   // the pair faces' unit is 'a|b'
     exemplar: (loc, spec) => { const d = spec && spec.difficulty && spec.difficulty[2]; const u = d && (d.unit || (d.units && d.units[0])); return u || B.UNITS.base; },
-    tokens: (unit, loc) => { const name = B.sceneName(String(unit).split('|')[0], String(loc || 'en').slice(0, 2)); return { U: name, L: name, UNIT: name }; },
+    tokens: (unit, loc) => { const name = B.sceneName(String(unit).split('|')[0].replace(/@c$/, ''), String(loc || 'en').slice(0, 2)); return { U: name, L: name, UNIT: name }; },
   },
   difficulty: D,
   i18n: { en: { title: B.FIND_THE_DIFFERENCES.en.strings.base.title, instruction: B.FIND_THE_DIFFERENCES.en.strings.base.instruction } },
   levelSetWords: (m) => [m.unit, m.mode],
+  /**
+   * Level Set copies (data/fdx scenes, 2026-10-10): the seven / ten-pairs titles of the published pages name the POND and
+   * the GARDEN; a copy names the setting its two scenes share instead ("Find 7 Differences: On the Farm"). Published units
+   * never start with 'fdx-', so the published strings come back untouched.
+   */
+  copyStrings(s0, ctx) {
+    const unit = String((ctx && ctx.unit) || '');
+    if (!/^fdx-/.test(unit)) return s0;
+    const mode = ((this && this.difficulty && this.difficulty[2]) || {}).mode;
+    if (mode !== 'seven' && mode !== 'ten-pairs') return s0;
+    const loc = String((ctx && ctx.locale) || 'en').slice(0, 2);
+    const first = unit.split('|')[0].replace(/@c$/, '');
+    const sc = require('../../data/fdx/scenes.js').SCENES.find((x) => x.id === first);
+    const name = sc && require('../../data/fdx/names-i18n.js').SETTINGS[sc.setting][loc];
+    const tpl = (B.LS_PAIR_TITLES[mode] || {})[loc];
+    if (!name || !tpl) throw new Error(`K-395: no Level Set title for ${mode} / ${first} in ${loc}`);
+    const title = tpl.replace('{UNIT}', name);
+    return { ...s0, title, ...(s0.printTitle ? { printTitle: title } : {}) };
+  },
   interactive: {
     kind: 'tap-select', item: '[data-lcs-fd-hotspot]', answerAttr: 'data-lcs-fd-diff', labelAttr: 'data-lcs-label',
     metaAttrs: ['data-lcs-fd-hotspot', 'data-lcs-fd-layer', 'data-lcs-fd-box', 'data-lcs-fd-panel', 'data-lcs-fd-seed', 'data-lcs-fd-plan', 'data-lcs-fd-count', 'data-lcs-fd-word'],
@@ -225,7 +281,7 @@ module.exports = {
     const seed = rng.seed;
     const unitArg = unit ? (String(unit).includes('|') ? String(unit).split('|') : unit) : null;
     const plan = planFor(d, mode, unitArg);
-    const comp = composeAll(plan, rng);   // the FIRST rng use: the oracle replays it
+    const { comp, wins: pairWins } = composeWithWindows(plan, rng);   // the FIRST rng use: the oracle replays it
     const units = comp.panels.map((p) => p.unit);
     const count = comp.count;
     const screen = !!(ctx && ctx.interactive), key = !!(ctx && ctx.answerKey);
@@ -233,7 +289,7 @@ module.exports = {
     const planMeta = { 'data-lcs-fd-seed': seed, 'data-lcs-fd-plan': JSON.stringify(plan) };
     const layout = d.layout || 'stack';
     let wins = null;
-    if (mode === 'pairs') { wins = placeWindows(comp.panels[0], d.window || [260, 200], rng); meta.cells = wins.map((w) => w.cell).join(''); }
+    if (mode === 'pairs') { wins = pairWins; meta.cells = wins.map((w) => w.cell).join(''); }
     const ppu = comp.panels[0].cfg.pxPerUnit;
     // the stack fills the body: 2 × 358 + 12 = 728 of the 733 px the tallest shipped chrome leaves (operator 2026-10-10: 'a big
     // blank area at the bottom'); the side-by-side faces stay width-bound at 300
@@ -446,8 +502,11 @@ function wordsFor(panel, loc, rng) {
   const changed = new Set(panel.ops.map((c) => c.item));
   const byKey = new Map();
   const clash = B.clashKeys(panel.scene.items.map((l) => B.vocabKeyOf(l.src)));
+  let NOWORD = null;
+  if (/^fdx-/.test(panel.unit)) { const { CATALOG } = require('../../data/fdx/catalog.js'); NOWORD = new Set([...CATALOG.values()].filter((x) => x.noword).map((x) => x.src)); }
   for (const l of panel.scene.items) {
     const k = B.vocabKeyOf(l.src);
+    if (NOWORD && NOWORD.has(l.src)) continue;   // a misnamed drawing is never listed (Level Set scenes)
     if (clash.has(k)) { if (changed.has(l.idx)) throw new Error(`K-395: a clashing word (${k}) was changed — composeAll must refuse it`); continue; }
     const e = v[k];
     if (!e || !e[loc] || !e[loc][0]) throw new Error(`K-395: no ${loc} vocab for "${k}" (${l.src}) — refuse the scene for this locale`);
@@ -467,8 +526,7 @@ function fdOracle(items) {
   if (!m0) throw new Error('fd oracle: no seed in the items');
   const plan = JSON.parse(m0['data-lcs-fd-plan']);
   const rng = makeRng(m0['data-lcs-fd-seed']);
-  const comp = composeAll(plan, rng);
-  const wins = plan.window ? placeWindows(comp.panels[0], plan.window, rng) : null;
+  const { comp, wins } = composeWithWindows(plan, rng);
   const total = comp.count;
   return items.map((it) => {
     const m = it.meta || {};
@@ -492,3 +550,4 @@ module.exports.composeAll = composeAll;
 module.exports.planFor = planFor;
 module.exports.placeWindows = placeWindows;
 module.exports.screenHotspots = screenHotspots;
+module.exports.composeWithWindows = composeWithWindows;

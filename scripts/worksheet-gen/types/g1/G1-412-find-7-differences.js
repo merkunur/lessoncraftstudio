@@ -9,7 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-412',
   slug: 'find-7-differences',
-  difficulty: { 1: D, 2: D, 3: D },
+  difficulty: { 1: { ...D, ...{"floor":"K","kinds":["remove","add","swap","scale"]} }, 2: D, 3: { ...D, ...{"floor":"G2"} } },
   i18n: { en: { title: "Find 7 Differences at the Pond", instruction: "Circle the 7 differences, 4 in the left pair of pictures and 3 in the right pair, and tick a box for each." } },
   gradeBand: "G1",
 };

@@ -9,6 +9,6 @@ module.exports = {
   ...base,
   id: 'K-400',
   slug: 'picture-pairs-find-the-difference',
-  difficulty: { 1: D, 2: D, 3: D },
+  difficulty: { 1: { ...D, ...{"kinds":["remove","add","swap"]} }, 2: D, 3: { ...D, ...{"floor":"G1"} } },
   i18n: { en: { title: "Picture Pairs: Find the Difference", instruction: "Each row shows the same close-up twice; circle the one place that is different in the right picture and tick the box of that row." } },
 };

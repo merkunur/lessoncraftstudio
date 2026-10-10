@@ -238,4 +238,4 @@ function layoutOnce(spec, shrink, attempt = 0) {
   return { id: spec.id, set: 'fdx', kind: 'scene', theme: spec.setting, setting: spec.setting, variant: spec.variant || 0, hy: sc.hy, names: spec.names || {}, stroke: 7, lines: sc.lines, fixed: sc.fixed, zones: sc.zones, items, level: spec.level || 2 };
 }
 const STACKED = [];   // scenes where a drawing had to stand on another (reported by tools/fdx-stale.js callers)
-module.exports = { layoutScene, boxOf, aspectOf, strokeFor, STACKED };
+module.exports = { layoutScene, boxOf, aspectOf, strokeFor, STACKED, behindColour, SHADE };

@@ -34,6 +34,14 @@ function fxProp(src, spec) {
   return { place, h: Math.round(Math.max(place === 'sky' ? 60 : 70, c.h * (c.kind === 'object' || c.kind === 'food' ? 1.1 : 1.35))), colour: FX.PLANS[src] || [c.colours[0]], alt };   // one crayon per drawing (lib/fdx-layout.js)
 }
 const propOf = (src, spec) => (FDX ? fxProp(src, spec) : PROPS[src]);
+/** Level Set: an added / swapped drawing is never the crayon of what is behind it (read 2026-10-10: a green wheelbarrow
+ *  swapped onto green grass) — the same rule lib/fdx-layout.js applies to the scene's own drawings */
+function fxColourAt(src, spec, it, colour) {
+  if (!FDX || !Array.isArray(colour) || colour.length !== 1) return colour;
+  const c = FX.CATALOG.get(src); if (!c) return colour;
+  const b = FX.behindColour(spec, it.anchor === 'c' ? 's' : c.places[0], FX.boxOf(it));
+  return b && b === colour[0] && FX.SHADE[b] ? [b === 'grey' && c.kind === 'animal' ? 'brown' : FX.SHADE[b]] : colour;
+}
 /** the theme props a scene may receive: CBN = data/fd/props.js THEME_PROPS; fdx = the setting's catalogue drawings not in the scene */
 function themeProps(spec) {
   if (!FDX) return THEME_PROPS[spec.theme] || { sky: [], ground: [] };
@@ -181,7 +189,20 @@ async function candidatesFor(spec, scene) {
       if (FDX) { const w = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); if (spec.items.some((i) => i.src !== l.src && w(i.src) === w(alt))) continue; }
       const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip, ...(FDX ? { stroke: FX.strokeFor(FX.boxOf({ src: alt, x: l.x, y: l.y, h: l.h })) } : {}) };
       const ap = propOf(alt, spec);
-      const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? ap.colour : null);
+      const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? fxColourAt(alt, spec, it, ap.colour) : null);
+      // (Level Set scenes, read 2026-10-10: a dresser swapped for a small robot left the robot's feet on the teddy's head —
+      // a swapped drawing keeps the old baseline, so it never stands on another drawing's top edge)
+      if (FDX && lay && lay.bbox) {
+        const nb = lay.bbox;
+        const stacked = scene.items.some((o) => {
+          if (o.idx === l.idx || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(o.src)) return false;
+          const xo = Math.min(nb[2], o.bbox[2]) - Math.max(nb[0], o.bbox[0]);
+          if (xo <= 0.5 * Math.min(nb[2] - nb[0], o.bbox[2] - o.bbox[0])) return false;
+          const g = o.bbox[1] - nb[3];
+          return g >= -6 && g < 15;
+        });
+        if (stacked) continue;
+      }
       await push({ kind: 'swap', item: l.idx, src: alt, layer: lay });
     }
   }
@@ -199,7 +220,7 @@ async function candidatesFor(spec, scene) {
     const spot = freeSpot(scene, pw, ph, place); if (!spot) continue;
     const it = { src, x: spot.x, y: spot.y, h: p.h, anchor: place === 'sky' ? 'c' : undefined };
     if (FDX) it.stroke = FX.strokeFor(FX.boxOf(it));
-    const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, p.colour);
+    const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, fxColourAt(it.src, spec, it, p.colour));
     lay.idx = 100 + added;
     const r = await push({ kind: 'add', item: lay.idx, src, layer: lay }); if (r) added++;
   }
@@ -213,7 +234,7 @@ async function candidatesFor(spec, scene) {
     const spot = freeSpot(scene, pw, ph, 'ground'); if (!spot) continue;
     // (the copy stands where the free spot was FOUND — at the original's height it landed on another drawing, read 2026-10-10)
     const it = { src: l.src, x: spot.x, y: FDX ? spot.y : l.y, h: l.h, ...(FDX ? { stroke: spec.items[l.idx] && spec.items[l.idx].stroke } : {}) };
-    const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, p.colour);
+    const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, fxColourAt(it.src, spec, it, (FDX && spec.items[l.idx] && spec.items[l.idx].colour) || p.colour));
     lay.idx = 100 + added;
     const r = await push({ kind: 'add', item: lay.idx, src: l.src, layer: lay, count: true }); if (r) added++;
   }

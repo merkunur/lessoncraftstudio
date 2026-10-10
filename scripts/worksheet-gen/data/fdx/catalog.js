@@ -324,7 +324,7 @@ animals bw 5/koala|animal|110|g|outback,zoo|grey
 animals bw 5/leopard|animal|130|g|savanna,jungle,zoo|yellow,brown
 animals bw 5/lion|animal|150|g|savanna,zoo|yellow,orange
 animals bw 5/lion_2|animal|150|g|savanna,zoo|yellow,orange
-animals bw 5/lizard|animal|70|g|desert,jungle|green
+animals bw 5/lizard|animal|70|g|desert,jungle|green|noword: es 'lagarto' suggests a caiman in Mexico (native review 2026-10-10)
 animals bw 5/llama|animal|160|g|mountain,farm|none,brown
 animals bw 5/monkey|animal|110|g|jungle,zoo|brown,orange
 animals bw 5/monkey_2|animal|110|g|jungle,zoo|brown,orange
@@ -379,7 +379,7 @@ apparel bw/sock|object|60|w|clothes|green,red
 apparel bw/sunglasses|object|30|t|beach,clothes|black
 apparel bw/sweatshirt|X|||||solid black fills — not line art
 apparel bw/t-shirt|object|75|w|clothes|orange
-beach bw/anchor|object|90|g,w|harbour|grey
+beach bw/anchor|object|90|g,w|harbour|grey|noword: it 'ancora' is spelled like the adverb 'ancora' (native review 2026-10-10)
 beach bw/beach_ball|object|80|g|beach,park,playground|red,yellow,blue,none
 beach bw/bucket|object|80|g|beach|red,yellow
 beach bw/camera|object|50|t|beach,travel|grey,black
@@ -396,7 +396,7 @@ beach bw/parasol|object|190|g|beach,cafe|red,yellow
 beach bw/preserver_ring|object|80|w,g|harbour,beach,pool|red,none
 beach bw/sailboat|vehicle|170|a|sea,harbour,lake|none,red
 beach bw/sandcastle|building|130|g|beach|yellow,red
-beach bw/seashell|object|60|g|beach,reef|pink
+beach bw/seashell|object|60|g|beach,reef|pink|noword: da 'musling' is the living mussel, not the shell (native review 2026-10-10)
 beach bw/snorkeling_mask|object|60|t,g|beach|blue
 beach bw/starfish|animal|65|g,u|beach,reef|orange
 beach bw/suitcase|object|80|g|travel,station,bedroom|brown
@@ -420,10 +420,10 @@ beach bw 2/inflatable_ring|object|85|g,a|beach,pool|red
 beach bw 2/island|X|||||a whole little island with its own sand
 beach bw 2/lounger|object|100|g|beach,pool|blue,brown
 beach bw 2/sandcastle|building|140|g|beach|yellow,red
-beach bw 2/seashell|object|60|g|beach,reef|pink
-beach bw 2/seashell_2|object|60|g|beach,reef|orange
+beach bw 2/seashell|object|60|g|beach,reef|pink|noword: da 'musling' is the living mussel, not the shell (native review 2026-10-10)
+beach bw 2/seashell_2|object|60|g|beach,reef|orange|noword: da 'musling' is the living mussel, not the shell (native review 2026-10-10)
 beach bw 2/shorts|object|60|w,t|clothes,beach|blue
-beach bw 2/signpost|object|150|g|beach,forest,park,camp|brown
+beach bw 2/signpost|object|150|g|beach,forest,park,camp|brown|noword: fi 'opastekyltti' / pt 'placa de sinalização' are adult words (native review 2026-10-10)
 beach bw 2/snorkel|object|60|t,g|beach|blue
 beach bw 2/suitcase|object|100|g|travel,station|red
 beach bw 2/sunglasses|object|30|t|beach|black
@@ -436,7 +436,7 @@ birds bw/crow|animal|100|g|farm,field|black
 birds bw/duck|object|70|t,a|bathroom,pool,toyshop|yellow,orange|a rubber duck — never 'duck' on a word face
 birds bw/flamingo|animal|170|g|pond,zoo|pink
 birds bw/hummingbird|animal|70|s|garden,jungle|green,orange
-birds bw/kiwi|animal|80|g|forest|brown
+birds bw/kiwi|animal|80|g|forest|brown|noword: 'kiwi' reads as the fruit to a child (native review 2026-10-10)
 birds bw/owl|animal|100|g,t|forest,night|brown,orange
 birds bw/parrot|animal|130|g|jungle,zoo|red,blue,yellow
 birds bw/peacock|animal|150|g|garden,zoo|blue,green
@@ -498,7 +498,7 @@ classroom bw 2/calendar|object|80|w|classroom,kitchen|none,red
 classroom bw 2/chair|object|120|g|classroom,kitchen,livingroom|red
 classroom bw 2/computer|object|90|t|classroom,office|grey,lightblue
 classroom bw 2/dresser|object|130|g|bedroom,livingroom|brown,yellow
-classroom bw 2/earth|sky|90|s|space|blue,green
+classroom bw 2/earth|sky|90|s|space|blue,green|noword: fi 'maa' reads as ground; the Earth beside a planet makes 'planet' a second right answer (native review 2026-10-10)
 classroom bw 2/erlenmeyer_flask|object|60|t|lab|lightblue,green
 classroom bw 2/globe|object|80|t|classroom,library|blue,green
 classroom bw 2/human_torso|X|||||an anatomy chart
@@ -894,7 +894,7 @@ nature bw/bird|animal|70|g|garden,farm,park|yellow,orange
 nature bw/butterfly|animal|70|s|garden,meadow,park|purple,orange
 nature bw/cactus|plant|130|t,g|livingroom,classroom|green,orange|a POTTED cactus — never in a desert
 nature bw/campfire|object|90|g|camp,night|orange,brown
-nature bw/cloudy|sky|90|s|outdoor|none,yellow
+nature bw/cloudy|sky|90|s|outdoor|none,yellow|noword: 'cloudy' is an adjective in a list of nouns (native review 2026-10-10)
 nature bw/droplet|X|||||a lone water drop
 nature bw/fish|animal|70|u|sea,pond,aquarium|orange
 nature bw/flower|plant|130|g|garden,meadow|yellow,green
@@ -988,7 +988,7 @@ sea life bw 2/starfish|animal|75|g,u|beach,reef|orange
 sea life bw 2/stingray|animal|90|u|sea,reef|grey
 sea life bw 2/turtle|animal|80|u|sea,reef|green,brown
 sea life bw 2/whale|animal|80|u|sea|lightblue
-space bw/earth|sky|100|s|space|blue,green
+space bw/earth|sky|100|s|space|blue,green|noword: fi 'maa' reads as ground; the Earth beside a planet makes 'planet' a second right answer (native review 2026-10-10)
 space bw/meteor|sky|80|s|space|orange,grey
 space bw/planet|sky|90|s|space,night|orange,yellow
 space bw/planet_2|sky|90|s|space,night|purple,lightblue
@@ -1158,7 +1158,7 @@ travel and holiday bw/museum|building|180|g|town,street|grey
 travel and holiday bw/passport|X|||||printed word PASS
 travel and holiday bw/scuba_diving|object|70|t,g|beach|blue
 travel and holiday bw/shopping_cart|object|100|g|market,shop|grey,pink
-travel and holiday bw/signpost|object|160|g|forest,camp,park|brown
+travel and holiday bw/signpost|object|160|g|forest,camp,park|brown|noword: fi 'opastekyltti' / pt 'placa de sinalização' are adult words (native review 2026-10-10)
 travel and holiday bw/stage|building|160|g|fair,stage|red,brown
 travel and holiday bw/suitcase|object|90|g|travel,station|blue
 travel and holiday bw/sunglasses|object|30|t|beach|black

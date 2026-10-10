@@ -160,7 +160,7 @@ function composeAll(plan, rng) {
       let n = p.cfg.n, err;
       for (; n >= plan.countRange[0]; n--) { try { r = pickOps(scene, { ...p.cfg, n }, rng); break; } catch (e) { err = e; } }
       if (!r) throw err;
-    } else r = pickOps(scene, p.cfg, rng);
+    } else r = pickOps(scene, (B.WORD_MODES.includes(plan.mode) && /^fdx-/.test(String(p.unit))) ? { ...p.cfg, distinctWords: (src) => B.vocabKeyOf(src) } : p.cfg, rng);   // (a Level Set word face: one word per change)
     r.ops.forEach((c) => used.add(srcOfCand(scene, c)));
     count += r.ops.length;
     out.push({ unit: p.unit, scene, cfg: p.cfg, ops: r.ops, rings: r.rings, hotspots: r.hotspots, quadrants: r.quadrants });

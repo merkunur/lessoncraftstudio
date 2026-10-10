@@ -316,7 +316,9 @@ module.exports = {
         const p = comp.panels[0];
         const p1 = panelSvg(p, { width: sw, clipId: 'fds1', attrs: ' data-lcs-fd-panel="1" data-lcs-fd-pair="0"', ops: false });
         const p2 = panelSvg(p, { width: sw, clipId: 'fds2', attrs: ' data-lcs-fd-panel="2" data-lcs-fd-pair="0"', ops: true });
-        const opts = (d.countRange ? Array.from({ length: d.countRange[1] - d.countRange[0] + 1 }, (_, i) => d.countRange[0] + i) : [3, 4, 5, 6]);
+        // at least four chips, 3-6 (read 2026-10-10: level 1's range 3-4 showed only two — a coin toss); a wider range widens it
+        const lo = d.countRange ? Math.min(d.countRange[0], 3) : 3, hi = d.countRange ? Math.max(d.countRange[1], 6) : 6;
+        const opts = Array.from({ length: hi - lo + 1 }, (_, i) => lo + i);
         body = C7.fdScreenStack({ panels: [p1, p2, C7.fdChoiceChips({ options: opts, meta: planMeta, correct: count })] });   // the runtime's answer map reads the stamp; the robot's oracle recomposes
       } else if (mode === 'what-changed') {
         const p = comp.panels[0];
@@ -340,6 +342,9 @@ module.exports = {
         });
         body = C7.fdScreenStack({ panels });
       }
+      // a Level Set scene: every picture is KEPT in the screen image (render-instance crops below the lowest tappable spot;
+      // read 2026-10-10: a page whose lowest change sat high showed half a bottom picture — gate qa/fd-screen-crop.js)
+      if (comp.panels.some((p) => /^fdx-/.test(String(p.unit)))) body = body.replace(/ data-lcs-fd-panel="/g, ' data-lcs-keep="1" data-lcs-fd-panel="');
       return { bodyHtml: root(d, mode, units, count, body, 'data-lcs-fd-screen="1"'), meta };
     }
 

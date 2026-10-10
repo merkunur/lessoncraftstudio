@@ -110,7 +110,7 @@ function freeSpot(scene, w, h, place) {
       if (place === 'sky' && (z.mounds || []).some(([a, b2, top]) => bb[2] > a && bb[0] < b2 && bb[3] > top - 14)) continue;
       if (place === 'sky' && bb[3] > scene.hy - 24) continue;
     }
-    if (taken.some((t) => overlaps(t, bb, place === 'sky' ? 22 : 10))) continue;   // sky props keep clear air round them
+    if (taken.some((t) => overlaps(t, bb, place === 'sky' ? 22 : (z && z.ground ? 20 : 10)))) continue;   // sky props keep clear air round them (Level Set ground props 20: a briefcase pressed against the backpack read as one bag, 2026-10-10)
     return { x: x + w / 2, y: place === 'sky' ? y : y, bb };
   }
   return null;
@@ -148,6 +148,16 @@ async function candidatesFor(spec, scene) {
         const before = overlapArea(l.bbox, o.bbox), after = overlapArea(nb, o.bbox);
         if (after > before * 1.1 + 40) return null;
       }
+      // (Level Set scenes, read 2026-10-10: a television scaled up to 3 units from the dice read as one blob) — a moved or
+      // scaled drawing keeps 12 units of air from every drawing it did not already touch
+      if (FDX && op.kind !== 'mirror') {
+        const grow = (b, a) => [b[0] - a, b[1] - a, b[2] + a, b[3] + a];
+        for (const o of scene.items) {
+          if (o.idx === l.idx || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(o.src)) continue;
+          if (overlapArea(grow(l.bbox, 12), o.bbox) > 0) continue;   // already that close in picture 1
+          if (overlapArea(grow(nb, 12), o.bbox) > 0) return null;
+        }
+      }
       ring = nb;   // the ring and the tap target circle where the drawing IS in picture 2
     }
     const rec = { ...op, bbox: ring.map((v) => +v.toFixed(1)), diff: bb.map((v) => +v.toFixed(1)), area, mode: colour ? 'colour' : 'any' };
@@ -173,7 +183,17 @@ async function candidatesFor(spec, scene) {
     // in one quadrant (2026-10-10)
     let big = l.regions.map((r, k) => [r, k]).filter(([r]) => r.r >= 9 && r.colour !== 'none').sort((a, b) => b[0].area - a[0].area).slice(0, isHero ? 2 : 1);
     if (!big.length) big = l.regions.map((r, k) => [r, k]).filter(([r]) => r.colour && r.colour !== 'none').sort((a, b) => b[0].area - a[0].area).slice(0, 1);
-    for (const [r, k] of big) await push({ kind: 'colour', item: l.idx, region: k, colour: CONTRAST[r.colour] || 'blue' }, 'colour');
+    // (Level Set scenes, read 2026-10-10: a yellow moon recoloured BLUE on the blue night sky vanished) — the new crayon is
+    // never the colour, or the light/dark twin of the colour, of what the drawing stands on or against
+    const fam = (c) => ({ lightblue: 'blue', lightgreen: 'green' }[c] || c);
+    const behind = FDX && spec.items[l.idx] ? FX.behindColour(spec, (FX.CATALOG.get(l.src) || { places: ['g'] }).places[0], l.bbox) : null;
+    const pickColour = (from) => {
+      const want = CONTRAST[from] || 'blue';
+      if (!behind || fam(want) !== fam(behind)) return want;
+      return ['red', 'orange', 'purple', 'yellow', 'pink', 'blue', 'green'].find((c) => fam(c) !== fam(behind) && fam(c) !== fam(from)) || want;
+    };
+    // (Level Set scenes: never the sun / cloud / moon — a blue sun on page after page, read 2026-10-10)
+    if (!(FDX && /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(l.src))) for (const [r, k] of big) await push({ kind: 'colour', item: l.idx, region: k, colour: pickColour(r.colour) }, 'colour');
     // detail: inner parts
     let nd = 0;
     for (const k of F.detailCandidates(l)) {
@@ -202,6 +222,9 @@ async function candidatesFor(spec, scene) {
           return g >= -6 && g < 15;
         });
         if (stacked) continue;
+        // ...nor lands ON another drawing it did not already touch (read 2026-10-10: a teddy swapped for a table that
+        // covered the hamster) — the same rule a moved / scaled drawing obeys
+        if (scene.items.some((o) => o.idx !== l.idx && overlapArea(nb, o.bbox) > overlapArea(l.bbox, o.bbox) * 1.1 + 40)) continue;
       }
       await push({ kind: 'swap', item: l.idx, src: alt, layer: lay });
     }

@@ -97,6 +97,18 @@ function pickOps(scene, cfg, rng) {
         // ...nor through a swap (read 2026-10-10: a puzzle AND a telephone both turned into the same dice — two dice)
         const inWord = (o) => (o.kind === 'add' || o.kind === 'swap' ? wordOf(o.src) : null);
         if (inWord(c) && chosen.some((o) => inWord(o) === inWord(c))) continue;
+        // at most ONE change on the sky fillers (read 2026-10-10: the sun AND the cloud both shrunk — half the page's changes)
+        const sky = (o) => o.kind !== 'add' && /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(srcOfC(o) || '');
+        if (sky(c) && chosen.some(sky)) continue;
+        // the changed picture stays a picture: removals take at most 30 % of the area of the scene's real (non-sky) drawings
+        // (read 2026-10-10: a harbour lost its forklift and its life ring — the bottom picture was half empty)
+        if (c.kind === 'remove') {
+          const ar = (l) => (l.bbox[2] - l.bbox[0]) * (l.bbox[3] - l.bbox[1]);
+          const real = scene.items.filter((l) => !/\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(l.src));
+          const tot = real.reduce((a, l) => a + ar(l), 0) || 1;
+          const gone = [...chosen, c].filter((o) => o.kind === 'remove').map((o) => real.find((l) => l.idx === o.item)).filter(Boolean);
+          if (gone.reduce((a, l) => a + ar(l), 0) > 0.3 * tot) continue;
+        }
         // a word face (cfg.distinctWords): every change names its OWN word (read 2026-10-10: two planets removed — three
         // changes but only two words to tick). The word of a change = the drawing it touches (and, for a swap, the one it
         // brings in); a vocab key, so 'planet' and 'planet_2' are one word
@@ -112,7 +124,10 @@ function pickOps(scene, cfg, rng) {
       chosen.push(c);
     }
     if (chosen.length < n) continue;
-    const qs = new Set(chosen.map((c) => quadrantOf(c.diff || c.bbox, W, H)));
+    // the colour face PROMISES a new colour: the colour candidate spliced to the front can still be skipped (the hero gate),
+    // so a try without one is refused (read 2026-10-10: a kitchen page with five changes and no new colour)
+    if (cfg.needColour && !chosen.some((c) => c.kind === 'colour')) continue;
+    const qs =new Set(chosen.map((c) => quadrantOf(c.diff || c.bbox, W, H)));
     if ((cfg.spread || 'quadrants') === 'quadrants') {
       if (n >= 4 && qs.size < 3) continue;
       if (n <= 3 && qs.size < n) continue;

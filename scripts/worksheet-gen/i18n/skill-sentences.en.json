@@ -442,7 +442,8 @@
   },
   "find-the-differences": {
     "full": "Comparing two pictures of one scene, circling what is gone, new, turned, bigger or moved and ticking a box per find trains careful looking; every page has a tap version and a key.",
-    "short": "Builds careful looking by comparing two pictures of one scene."
+    "short": "Builds careful looking by comparing two pictures of one scene.",
+    "levelSetShort": "Trains careful looking at two pictures."
   },
   "how-to-draw": {
     "full": "Drawing an animal from four or five numbered steps, first the outline, then the big parts, the face and the details, shows children how to draw any animal with their own pencil.",

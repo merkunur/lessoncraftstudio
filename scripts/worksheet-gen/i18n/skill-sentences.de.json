@@ -441,7 +441,8 @@
   },
   "find-the-differences": {
     "full": "Fehlersuchbilder für Kindergarten und Grundschule: zwei Bilder genau vergleichen, 3 bis 10 Unterschiede finden und einkreisen, mit Lösung und Version zum Antippen am Bildschirm.",
-    "short": "Zwei Bilder vergleichen und die Unterschiede finden"
+    "short": "Zwei Bilder vergleichen und die Unterschiede finden",
+    "levelSetShort": "Zwei Bilder genau vergleichen."
   },
   "how-to-draw": {
     "full": "Zeichnen lernen Schritt für Schritt für Kindergarten und Grundschule: Tiere aus einfachen Formen aufbauen, nachfahren, vervollständigen oder aus dem Gedächtnis zeichnen.",

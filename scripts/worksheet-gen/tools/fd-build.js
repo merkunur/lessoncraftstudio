@@ -31,7 +31,9 @@ function fxProp(src, spec) {
   const inScene = new Set(spec.items.map((i) => i.src));
   const alt = [...FX.CATALOG.values()].filter((o) => !o.refused && o.src !== src && !inScene.has(o.src) && o.kind === c.kind && o.places[0] === c.places[0] && Math.abs(o.h - c.h) <= 0.3 * c.h && o.tags.some((t) => tags.includes(t)) && !o.thin)
     .sort((a, b) => Math.abs(a.h - c.h) - Math.abs(b.h - c.h) || (a.src < b.src ? -1 : 1)).map((o) => o.src);
-  return { place, h: Math.round(Math.max(place === 'sky' ? 60 : 70, c.h * (c.kind === 'object' || c.kind === 'food' ? 1.1 : 1.35))), colour: FX.PLANS[src] || [c.colours[0]], alt };   // one crayon per drawing (lib/fdx-layout.js)
+  // (a tiny creature stays tiny when it is ADDED too — read 2026-10-10: an added mouse bigger than the cat; lib/fdx-layout.js 'tiny')
+  const tiny = c.kind === 'animal' && c.h <= 70;
+  return { place, h: Math.round(tiny ? Math.max(52, c.h * 0.95) : Math.max(place === 'sky' ? 60 : 70, c.h * (c.kind === 'object' || c.kind === 'food' ? 1.1 : 1.35))), colour: FX.PLANS[src] || [c.colours[0]], alt };   // one crayon per drawing (lib/fdx-layout.js)
 }
 const propOf = (src, spec) => (FDX ? fxProp(src, spec) : PROPS[src]);
 /** Level Set: an added / swapped drawing is never the crayon of what is behind it (read 2026-10-10: a green wheelbarrow
@@ -141,6 +143,8 @@ async function candidatesFor(spec, scene) {
       // all — the new scenes take 0.20 and never mirror a sky filler)
       // (and only a drawing that FACES somewhere — an animal, a person, a vehicle: a mirrored tulip read as no change, 2026-10-10)
       if (op.kind === 'mirror' && FDX && !['animal', 'person', 'vehicle'].includes((FX.CATALOG.get(l.src) || {}).kind)) return null;
+      // (...and big enough for the flip to be seen: a mirrored chick 50 units tall read as no change, 2026-10-10)
+      if (op.kind === 'mirror' && FDX && Math.min(l.bbox[2] - l.bbox[0], l.bbox[3] - l.bbox[1]) < 64) return null;
       if (op.kind === 'mirror' && FDX && (l.asym < 0.20 || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(l.src))) return null;
       // the drawing's new place: inside the frame, and not onto another drawing it did not already touch
       const nb = F.newBbox(l, op);

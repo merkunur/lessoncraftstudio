@@ -132,8 +132,8 @@ function composeAll(plan, rng) {
       // (the 'flower' beside a tulip, the 'bird' beside a hummingbird) is never changed and (wordsFor) never listed — a
       // child who ticks 'flower' for a changed tulip is right by their own reading (the es + pt panels, 2026-10-09)
       const keyOf = (idx) => { const l = scene.items.find((x) => x.idx === idx); return l ? B.vocabKeyOf(l.src) : null; };
-      const fams = new Set(scene.items.map((l) => B.wordFamily(B.vocabKeyOf(l.src))));
-      const clash = B.clashKeys(scene.items.map((l) => B.vocabKeyOf(l.src)));
+      const fams = new Set(scene.items.map((l) => B.wordFamilyFor(B.vocabKeyOf(l.src), p.unit)));
+      const clash = B.clashKeysFor(scene.items.map((l) => B.vocabKeyOf(l.src)), p.unit);
       const cnt = {}; for (const l of scene.items) { const k = B.vocabKeyOf(l.src); cnt[k] = (cnt[k] || 0) + 1; }
       // a Level Set scene (data/fdx): a drawing whose library word misnames it (catalogue 'noword': a porcupine that reads as a
       // hedgehog, a rubber duck) is never changed or brought in on a word face
@@ -143,7 +143,7 @@ function composeAll(plan, rng) {
         if (NOWORD.size && (NOWORD.has(srcOfCand(scene, c)) || (c.src && NOWORD.has(c.src)))) return false;
         // a key drawn twice (two chicks, two clouds) may only be REMOVED: 'the bird is flipped' would name two drawings
         if (c.item != null && cnt[keyOf(c.item)] >= 2 && c.kind !== 'remove') return false;
-        if ((c.kind === 'add' || c.kind === 'swap') && c.src && fams.has(B.wordFamily(B.vocabKeyOf(c.src)))) return false;
+        if ((c.kind === 'add' || c.kind === 'swap') && c.src && fams.has(B.wordFamilyFor(B.vocabKeyOf(c.src), p.unit))) return false;
         if (c.item != null && clash.has(keyOf(c.item))) return false;
         return true;
       });
@@ -407,7 +407,7 @@ module.exports = {
       const row = comp.panels.map(rowOf).join(`<div style="height:${rowGap}px"></div>`);
       const p = comp.panels[0];
       if (mode === 'write') {
-        const nouns = wordsFor(p, loc, rng).map((x) => x.text);
+        const nouns = wordsFor(p, loc, rng, { swapWords: /^fdx-/.test(String(p.unit)) }).map((x) => x.text);
         const change = rng.shuffle(blk.changeWords.slice());
         const strips = `<div style="display:flex;flex-direction:column;gap:8px;width:${PAGE_W}px;align-items:center" data-lcs-fd-strips="2">${wordBank({ words: nouns.map((w) => ({ word: w })), wordPx: 17 })}${wordBank({ words: change.map((w) => ({ word: w })), wordPx: 17 })}</div>`;
         const rows = d.rows || 4;
@@ -511,11 +511,11 @@ module.exports = {
 };
 
 /** the what-changed / write word list: the DISTINCT nouns of picture 1 in a seeded shuffle, each with its vocab key */
-function wordsFor(panel, loc, rng) {
+function wordsFor(panel, loc, rng, o = {}) {
   const v = vocab();
   const changed = new Set(panel.ops.map((c) => c.item));
   const byKey = new Map();
-  const clash = B.clashKeys(panel.scene.items.map((l) => B.vocabKeyOf(l.src)));
+  const clash = B.clashKeysFor(panel.scene.items.map((l) => B.vocabKeyOf(l.src)), panel.unit);
   let NOWORD = null;
   if (/^fdx-/.test(panel.unit)) { const { CATALOG } = require('../../data/fdx/catalog.js'); NOWORD = new Set([...CATALOG.values()].filter((x) => x.noword).map((x) => x.src)); }
   for (const l of panel.scene.items) {
@@ -531,7 +531,9 @@ function wordsFor(panel, loc, rng) {
   // a NEW drawing's word belongs in the bank too (read 2026-10-10: "a frog is new" with no "frog" to copy — the write face
   // offers the chip "new"); only an add carries no item, so pages without one are untouched
   for (const c of panel.ops) {
-    if (c.kind !== 'add' || !c.src || (NOWORD && NOWORD.has(c.src))) continue;
+    // (the write face also needs the word of a SWAPPED-IN drawing — read 2026-10-10: an owl became a raccoon with no 'raccoon'
+    // to copy; the tick face ticks the replaced drawing's word, so it never receives this)
+    if (!(c.kind === 'add' || (o.swapWords && c.kind === 'swap')) || !c.src || (NOWORD && NOWORD.has(c.src))) continue;
     const k = B.vocabKeyOf(c.src);
     if (byKey.has(k)) { byKey.get(k).changed = true; continue; }
     const e = v[k];

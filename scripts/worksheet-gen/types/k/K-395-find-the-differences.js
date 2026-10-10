@@ -151,6 +151,9 @@ function composeAll(plan, rng) {
     // the picture-pairs face: a change must fit its close-up window with ≥ 12 units of air on every side (the ring box = change box + 10)
     // (measured: every scene refused until the EDGE rule was added — a change touching the scene's rim can never keep its air inside a window that must itself sit 8 units inside the frame)
     if (plan.window) cands = cands.filter((c) => { const b = c.diff || c.bbox; return b[2] - b[0] + 20 <= plan.window[0] - 24 && b[3] - b[1] + 20 <= plan.window[1] - 24 && b[0] - 10 >= 20 && b[1] - 10 >= 20 && b[2] + 10 <= W - 20 && b[3] + 10 <= H - 20; });
+    // (a Level Set close-up: a mirror only on a drawing that clearly faces one way — a sitting leopard flipped read as the
+    // same close-up twice, 2026-10-10; the whole-picture faces keep the 0.20 floor because the ring shows the whole drawing)
+    if (plan.window && /^fdx-/.test(String(p.unit))) cands = cands.filter((c) => c.kind !== 'mirror' || ((scene.items.find((l) => l.idx === c.item) || {}).asym || 0) >= 0.45);
     scene = { ...scene, cands };
     // a secret-count face (countRange): when the drawn count cannot be placed on this scene the count steps DOWN to
     // the range floor — the page shows exactly what it holds and the child counts it (garden-bird-rich placed 6 on

@@ -134,6 +134,16 @@ async function candidatesFor(spec, scene) {
     const area = comps.reduce((a, c) => a + c.area, 0);
     if (!inside(bb)) return null;
     if (Math.min(bb[2] - bb[0], bb[3] - bb[1]) < MIN_SIDE || area < MIN_AREA) return null;
+    // (Level Set scenes, read 2026-10-10: a toaster swapped for a coffee pot wiped half of the orange beside it) — a change
+    // that is not an ADD never reaches into another drawing: its changed pixels may cover at most 15 % of a neighbour's box
+    if (FDX && op.kind !== 'add') {
+      const ar = (b) => Math.max(1, (b[2] - b[0]) * (b[3] - b[1]));
+      for (const o of scene.items) {
+        if (o.idx === op.item || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(o.src)) continue;
+        const touched = comps.reduce((a, c) => a + overlapArea(c.bbox, o.bbox), 0);
+        if (touched > 0.15 * ar(o.bbox)) return null;
+      }
+    }
     let ring = bb;
     if (whole) {
       const l = scene.items.find((x) => x.idx === op.item);

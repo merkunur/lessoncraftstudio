@@ -20,6 +20,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'digraphs',
   'doubles-halves',      // Doubles and Halves (2026-10-07): tap the double / the half / the missing number
   'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
+  'find-the-differences', // Find the Differences (2026-10-10): tap every difference / the count / the changed words (original scenes)
   'feelings',
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
   'mental-math',         // Mental Math (2026-10-09): tap the missing number of each problem

@@ -175,7 +175,8 @@ async function candidatesFor(spec, scene) {
     const w = l.bbox[2] - l.bbox[0];
     if (!isHero) await push({ kind: 'remove', item: l.idx });
     await push({ kind: 'mirror', item: l.idx });
-    for (const s of isHero ? (FDX ? [1.32, 0.74] : [1.22, 0.8]) : [1.35, 0.72])   // (Level Set: a 1.22 hero read as no change on a "3 big things" page, 2026-10-10) await push({ kind: 'scale', item: l.idx, s });
+    // (Level Set: a 1.22 hero read as no change on a "3 big things" page, 2026-10-10)
+    for (const s of isHero ? (FDX ? [1.32, 0.74] : [1.22, 0.8]) : [1.35, 0.72]) await push({ kind: 'scale', item: l.idx, s });
     for (const dx of [w + 24, -(w + 24), 60, -60]) await push({ kind: 'move', item: l.idx, dx, dy: 0 });
     // colour: the two biggest parts, to a contrasting crayon
     // colour: the two biggest parts (hero) / the biggest part (prop) to a contrasting crayon. A drawing made only of SMALL

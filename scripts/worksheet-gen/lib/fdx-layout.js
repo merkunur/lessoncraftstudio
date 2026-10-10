@@ -93,6 +93,9 @@ function layoutOnce(spec, shrink, attempt = 0) {
     // INDOORS real sizes win (read 2026-10-10: a cat twice the size of the sofa, a teddy above the dresser, a hamster over its
     // bed): a room's hero is never blown up past 1.35 × its natural size, and furniture keeps a furniture size
     if (smallObj) base = c.h * 1.1;
+    // tiny creatures stay tiny (read 2026-10-10: a ladybug half the size of the cow): a non-hero animal of catalogue height ≤ 70
+    const tiny = !e.hero && c.kind === 'animal' && c.h <= 70;
+    if (tiny) base = c.h * 0.95;
     if (e.hero && vehicleOut) base = Math.max(base, Math.min(260, c.h * 1.75));   // (a camper van smaller than the tent)
     if (e.hero && c.kind === 'building') base = Math.max(base, Math.min(270, c.h * 1.45));   // (a hero cabin smaller than the snowman)
     // furniture = the house's own big things (a robot or a rocking horse is a TOY: read 2026-10-10, a robot as tall as the bed)
@@ -105,7 +108,7 @@ function layoutOnce(spec, shrink, attempt = 0) {
     if (furniture) base = Math.min(Math.max(base, c.h * 1.75), sc.hy - 70);   // (read 2026-10-10: a bed no bigger than the hamster; never taller than the wall)
     // a dense drawing shrunk too far prints as a black blob (a barn, a fence, a hay stack read on the first farm sheet):
     // the shrink retries never take a drawing under its FLOOR
-    const floor = c.kind === 'person' ? 170 : furniture ? 165 : toyHero ? 90 : e.hero ? (sc.indoor ? 110 : 150) : c.kind === 'building' ? 160 : c.kind === 'plant' && c.h >= 180 ? 175 : /fence|hay/.test(e.src) ? 105 : e.place === 't' || e.place === 'w' ? 62 : (c.kind === 'object' || c.kind === 'food') && c.h <= 90 ? Math.max(52, c.h * 1.05) : 80;   // a cake on a counter is naturally smaller
+    const floor = tiny ? 52 : c.kind === 'person' ? 170 : furniture ? 165 : toyHero ? 90 : e.hero ? (sc.indoor ? 110 : 150) : c.kind === 'building' ? 160 : c.kind === 'plant' && c.h >= 180 ? 175 : /fence|hay/.test(e.src) ? 105 : e.place === 't' || e.place === 'w' ? 62 : (c.kind === 'object' || c.kind === 'food') && c.h <= 90 ? Math.max(52, c.h * 1.05) : 80;   // a cake on a counter is naturally smaller
     e.floor = floor;
     // the floors are a minimum SIZE, not a minimum height: a flat drawing (a skateboard, a sports car) keeps its own
     // proportions — its height floor is divided by its width ratio (read 2026-10-10: a skateboard as wide as the path)
@@ -184,19 +187,35 @@ function layoutOnce(spec, shrink, attempt = 0) {
       const ov = (a, b) => Math.max(0, Math.min(a[2], b[2]) - Math.max(a[0], b[0])) * Math.max(0, Math.min(a[3], b[3]) - Math.max(a[1], b[1]));
       const tuckOk = (o) => e.place === 'g' && o.place === 'g' && !o.hero && !e.hero && o.kind !== 'building' && e.cat.kind !== 'building' && Math.abs(o.box[3] - box[3]) >= 30 && ov(o.box, box) <= 0 * Math.min(area(o.box), area(box));   // no tucking (read 2026-10-10: a pig behind hay bales reads as SITTING on them)
       if (taken.some((o) => !o.keep && !o.block && overlaps(o.box, box, AIR) && !tuckOk(o))) continue;
+      // never stacked (read 2026-10-10: a pelican's feet 9 units above a tanker's roof read as the pelican STANDING ON the
+      // truck): a drawing never sits just above (< 15 units) another it overlaps sideways by more than half — feet touching a roof
+      const stacked = (a, b) => { const xo = Math.min(a[2], b[2]) - Math.max(a[0], b[0]); if (xo <= 0.5 * Math.min(a[2] - a[0], b[2] - b[0])) return false; const g1 = b[1] - a[3], g2 = a[1] - b[3]; return (g1 >= -2 && g1 < 15) || (g2 >= -2 && g2 < 15); };
+      const isStacked = e.place !== 's' && e.place !== 'w' && taken.some((o) => !o.keep && !o.block && o.place !== 's' && o.place !== 'w' && stacked(o.box, box));   // a last resort only: scored down
       if (e.at) { best = { it, box, score: 0 }; break; }
       // keep apart from what is placed (max-min distance between box centres), a little jitter for variety
       const cx = (box[0] + box[2]) / 2, cy = (box[1] + box[3]) / 2;
       let md = 400; for (const o of taken) if (!o.keep && !o.block) md = Math.min(md, Math.hypot(cx - (o.box[0] + o.box[2]) / 2, cy - (o.box[1] + o.box[3]) / 2));
-      const score = md + rng.next() * 30;
+      const score = md + rng.next() * 30 - (isStacked ? 500 : 0);
       if (!best || score > best.score) best = { it, box, score };
     }
     if (!best) throw new Error(`${spec.id}: no room for ${e.src} (${e.place})`);
+    if (best.score < -300) STACKED.push(spec.id + ': ' + e.src);
     // ONE crayon per drawing (read 2026-10-10): lib/fd-scene colours parts by RANK and clamps every part past the plan's
     // end to its LAST colour, so a two-colour plan painted all but the largest part in the second crayon — a pink
     // rabbit, a black-headed dog, a black football. The first (main) colour paints the whole drawing; reviewed Color by
     // Number plans (data/cbn/lineart-colours.js BG) still win for the drawings they cover.
     best.it.colour = e.colour || PLANS[e.src] || [e.cat.colours[0]];
+    // a colourful page (read 2026-10-10: a toy corner painted red six times over): an object with other natural colours in
+    // its catalogue row takes the least-used of them once its first colour is already on two drawings (never an animal or
+    // a person — their colour is what they are)
+    if (!e.colour && !PLANS[e.src] && e.cat.kind !== 'animal' && e.cat.kind !== 'person' && e.cat.colours.length > 1) {
+      const used = {}; for (const p of placed) { const c = Array.isArray(p.it.colour) && p.it.colour.length === 1 ? p.it.colour[0] : null; if (c) used[c] = (used[c] || 0) + 1; }
+      const first = e.cat.colours[0];
+      if ((used[first] || 0) >= 2) {
+        const alt = e.cat.colours.slice(1).filter((c) => c !== 'none').sort((a, b) => (used[a] || 0) - (used[b] || 0))[0];
+        if (alt && (used[alt] || 0) < used[first]) best.it.colour = [alt];
+      }
+    }
     // never the crayon of what is behind it (read 2026-10-10: a light-blue whale vanished into the light-blue sea; a green
     // frog on green grass): a one-crayon drawing standing on / in an area of its own colour takes the neighbouring shade
     if (Array.isArray(best.it.colour) && best.it.colour.length === 1) {
@@ -218,4 +237,5 @@ function layoutOnce(spec, shrink, attempt = 0) {
   items.push(placed.find((p) => p.e.hero).it);
   return { id: spec.id, set: 'fdx', kind: 'scene', theme: spec.setting, setting: spec.setting, variant: spec.variant || 0, hy: sc.hy, names: spec.names || {}, stroke: 7, lines: sc.lines, fixed: sc.fixed, zones: sc.zones, items, level: spec.level || 2 };
 }
-module.exports = { layoutScene, boxOf, aspectOf, strokeFor };
+const STACKED = [];   // scenes where a drawing had to stand on another (reported by tools/fdx-stale.js callers)
+module.exports = { layoutScene, boxOf, aspectOf, strokeFor, STACKED };

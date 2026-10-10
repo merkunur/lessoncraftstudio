@@ -87,13 +87,21 @@ function freeSpot(scene, w, h, place) {
   const ys = z && z.ground ? (place === 'sky' ? (z.sky ? [60, 100, 140, 180, 220].filter((y) => y >= z.sky.y0 - 30 && y <= z.sky.y1 + 30) : []) : [548, 524, 500, 476, 452, 428, 404].filter((y) => y >= z.ground.y0 && y <= z.ground.y1 + 4))
     : place === 'sky' ? [60, 100, 140, 180, 220].filter((y) => y + h / 2 < scene.hy - 24) : [548, 524, 500, 476, 452].filter((y) => y - h > scene.hy + 6);
   // a ground prop never stands in a named water area (a mushroom in the pond, a flower in the sea)
-  const water = ((scene.bg && scene.bg.regions) || []).filter((r) => r.name === 'pond' || r.name === 'sea').map((r) => r.bbox);
+  const water = ((scene.bg && scene.bg.regions) || []).filter((r) => r.name === 'pond' || r.name === 'sea' || r.name === 'river' || r.name === 'lake' || r.name === 'road').map((r) => r.bbox);
   if (z && z.keepOut) water.push(...z.keepOut);
   const inWater = (px, py) => water.some((b) => px >= b[0] && px <= b[2] && py >= b[1] && py <= b[3]);
   for (const y of ys) for (const x of xs) {
     const bb = place === 'sky' ? [x, y - h / 2, x + w, y + h / 2] : [x, y - h, x + w, y];
     if (!inside(bb)) continue;
     if (place === 'ground' && (inWater(x + w / 2, y - 2) || inWater(x + 4, y - 2) || inWater(x + w - 4, y - 2))) continue;
+    // Level Set scenes: a ground drawing never covers more than 15 % of a pond / river / road, a sky drawing stays above
+    // every hill (read 2026-10-10: an added alligator standing in the pond, a dove sitting on a hill)
+    if (z && z.ground) {
+      const ovA = (a, b) => Math.max(0, Math.min(a[2], b[2]) - Math.max(a[0], b[0])) * Math.max(0, Math.min(a[3], b[3]) - Math.max(a[1], b[1]));
+      if (place === 'ground' && water.some((wb) => ovA(wb, bb) > 0.15 * w * h)) continue;
+      if (place === 'sky' && (z.mounds || []).some(([a, b2, top]) => bb[2] > a && bb[0] < b2 && bb[3] > top - 14)) continue;
+      if (place === 'sky' && bb[3] > scene.hy - 24) continue;
+    }
     if (taken.some((t) => overlaps(t, bb, place === 'sky' ? 22 : 10))) continue;   // sky props keep clear air round them
     return { x: x + w / 2, y: place === 'sky' ? y : y, bb };
   }
@@ -121,6 +129,9 @@ async function candidatesFor(spec, scene) {
       const l = scene.items.find((x) => x.idx === op.item);
       // a mirrored near-symmetric drawing (a sun, a cloud) barely changes: the change must be a real share of its ink
       if (op.kind === 'mirror' && (l.asym < ASYM_MIN || area < 0.35 * l.inkUnits)) return null;
+      // (Level Set scenes, read 2026-10-10: a mirrored sun at asym 0.123 passed the 0.12 floor and read as no change at
+      // all — the new scenes take 0.20 and never mirror a sky filler)
+      if (op.kind === 'mirror' && FDX && (l.asym < 0.20 || /\/(sun|cloud|cloudy|moon|star|snowflake)$/.test(l.src))) return null;
       // the drawing's new place: inside the frame, and not onto another drawing it did not already touch
       const nb = F.newBbox(l, op);
       if (!inside(nb)) return null;
@@ -166,6 +177,8 @@ async function candidatesFor(spec, scene) {
     const p = propOf(l.src, spec);
     if (!isHero && p) for (const alt of p.alt.slice(0, 2)) {
       if (alt === l.src) continue;
+      // (Level Set scenes: a swap never brings in a word another drawing of the scene already shows — two dice, read 2026-10-10)
+      if (FDX) { const w = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); if (spec.items.some((i) => i.src !== l.src && w(i.src) === w(alt))) continue; }
       const it = { src: alt, x: l.x, y: l.y, h: l.h, flip: l.flip, ...(FDX ? { stroke: FX.strokeFor(FX.boxOf({ src: alt, x: l.x, y: l.y, h: l.h })) } : {}) };
       const ap = propOf(alt, spec);
       const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, ap ? ap.colour : null);
@@ -174,6 +187,9 @@ async function candidatesFor(spec, scene) {
   }
   // add: theme props at a free spot (one sky, one ground), and one more of an existing ground prop (count)
   const tp = themeProps(spec);
+  // Level Set: a NEW drawing is never another drawing of a word the scene already shows (an owl beside the owl, a third
+  // ice skate) — that is what the count copy is for, and two of a word make 'which one is new?' a guess
+  if (FDX) { const wordOf = (x) => String(x).split('/').pop().replace(/_\d+$/, '').replace(/s$/, ''); const have = new Set(spec.items.map((i) => wordOf(i.src))); tp.sky = tp.sky.filter((x) => !have.has(wordOf(x))); tp.ground = tp.ground.filter((x) => !have.has(wordOf(x))); }
   let added = 0;
   for (const place of ['sky', 'ground']) for (const src of tp[place]) {
     if (added >= 3) break;
@@ -195,7 +211,8 @@ async function candidatesFor(spec, scene) {
     if (FDX && FX.CATALOG.get(l.src) && FX.CATALOG.get(l.src).places[0] !== 'g') continue;
     const pw = l.bbox[2] - l.bbox[0], ph = l.bbox[3] - l.bbox[1];
     const spot = freeSpot(scene, pw, ph, 'ground'); if (!spot) continue;
-    const it = { src: l.src, x: spot.x, y: l.y, h: l.h, ...(FDX ? { stroke: spec.items[l.idx] && spec.items[l.idx].stroke } : {}) };
+    // (the copy stands where the free spot was FOUND — at the original's height it landed on another drawing, read 2026-10-10)
+    const it = { src: l.src, x: spot.x, y: FDX ? spot.y : l.y, h: l.h, ...(FDX ? { stroke: spec.items[l.idx] && spec.items[l.idx].stroke } : {}) };
     const lay = await F.layerFor(it, { ...spec, items: [it] }, 0, p.colour);
     lay.idx = 100 + added;
     const r = await push({ kind: 'add', item: lay.idx, src: l.src, layer: lay, count: true }); if (r) added++;

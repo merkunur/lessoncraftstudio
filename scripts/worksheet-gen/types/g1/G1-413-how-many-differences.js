@@ -9,7 +9,7 @@ module.exports = {
   ...base,
   id: 'G1-413',
   slug: 'how-many-differences',
-  difficulty: { 1: { ...D, ...{"countRange":[3,4],"floor":"K","kinds":["remove","add","scale"]} }, 2: D, 3: { ...D, ...{"countRange":[5,7],"floor":"G2"} } },
+  difficulty: { 1: { ...D, ...{"countRange":[3,4],"floor":"K","kinds":["remove","add","scale"]} }, 2: D, 3: { ...D, ...{"countRange":[4,6],"floor":"G2"} } },
   i18n: { en: { title: "How Many Differences?", instruction: "Circle every difference in the bottom picture (some things may be gone), then write how many you found in the box." } },
   gradeBand: "G1",
 };

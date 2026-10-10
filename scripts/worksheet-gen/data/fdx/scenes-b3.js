@@ -50,7 +50,6 @@ module.exports = (Sc) => [
   Sc('street-garbage', 'Garbage Truck', 'street', 0, 'vehicles bw/garbage_truck', ['travel and holiday bw/museum', 'home and nature bw/tree', 'home and nature bw/trash_can', 'animals bw 4/cat', 'nature bw/sun', 'home and nature bw/cloud', 'vehicles bw 3/car'], { mirror: true }),
   // ---------------------------------------------------------------- station
   Sc('station-train', 'At the Station', 'station', 0, 'vehicles bw/train', ['travel and holiday bw/suitcase', 'beach bw 2/suitcase', 'travel and holiday bw/backpack', 'farm animals bw/pigeon', 'nature bw/sun', 'home and nature bw/cloud', 'vehicles bw 3/forklift'], { heroScale: 1.6 }),
-  Sc('station-steam', 'Steam Train', 'station', 1, 'vehicles bw 2/train', ['beach bw/suitcase_2', 'nature bw/sun', 'home and nature bw/cloud', 'classroom bw 2/backpack'], { level: 1, mirror: true, heroScale: 1.6 }),
   // ---------------------------------------------------------------- village
   Sc('village-house', 'House in the Village', 'village', 0, 'home and nature bw/house', ['home and nature bw/tree', 'vehicles bw 2/car', 'animals bw 4/cat', 'nature bw/sun', 'home and nature bw/cloud', 'home and nature bw/flower'], { heroScale: 1.2 }),
   Sc('village-van', 'Van in the Village', 'village', 1, 'vehicles bw 2/van', ['home and nature bw/house', 'home and nature bw/tree_2', 'nature bw/sun', 'home and nature bw/cloud'], { level: 1, mirror: true }),

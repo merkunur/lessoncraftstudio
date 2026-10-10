@@ -195,9 +195,10 @@ function placeWindows(panel, win, rng) {
       // ≥ 1 UNCHANGED drawing with ≥ 60 % of its bbox inside (the row's decoy)
       const changed = new Set(panel.ops.map((c) => c.item));
       // (a Level Set scene's drawings are bigger: 40 % of one inside the window is a drawing the child can see and tap)
-      const share = /^fdx-/.test(String(panel.unit)) ? 0.4 : 0.6;
+      const share = /^fdx-/.test(String(panel.unit)) ? 0.5 : 0.6;
       const decoys = items.filter((l) => !changed.has(l.idx) && area(inter(l.bbox, box)) >= share * area(l.bbox)).map((l) => l.idx);
-      if (!decoys.length) { ok = false; break; }
+      // (a Level Set close-up shows a little scene: at least TWO other drawings — a window of empty sky round one sun read as nothing)
+      if (decoys.length < (/^fdx-/.test(String(panel.unit)) ? 2 : 1)) { ok = false; break; }
       wins.push({ box, cell, decoys, op: i });
     }
     if (ok) return wins;
@@ -513,6 +514,16 @@ function wordsFor(panel, loc, rng) {
     const cur = byKey.get(k) || { k, text: displayWord(e[loc][0], loc), changed: false };
     if (changed.has(l.idx)) cur.changed = true;
     byKey.set(k, cur);
+  }
+  // a NEW drawing's word belongs in the bank too (read 2026-10-10: "a frog is new" with no "frog" to copy — the write face
+  // offers the chip "new"); only an add carries no item, so pages without one are untouched
+  for (const c of panel.ops) {
+    if (c.kind !== 'add' || !c.src || (NOWORD && NOWORD.has(c.src))) continue;
+    const k = B.vocabKeyOf(c.src);
+    if (byKey.has(k)) { byKey.get(k).changed = true; continue; }
+    const e = v[k];
+    if (!e || !e[loc] || !e[loc][0]) throw new Error(`K-395: no ${loc} vocab for "${k}" (${c.src}) — refuse the scene for this locale`);
+    byKey.set(k, { k, text: displayWord(e[loc][0], loc), changed: true });
   }
   const all = [...byKey.values()];
   const hit = all.filter((x) => x.changed), rest = rng.shuffle(all.filter((x) => !x.changed));

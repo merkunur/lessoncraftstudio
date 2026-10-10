@@ -42,6 +42,15 @@ function fit(spec, lv, unit) {
     const pl = P.planFor(d, mode, unit.includes('|') ? unit.split('|') : unit);
     let comp; try { comp = P.composeWithWindows(pl, makeRng('alloc2|' + spec.id + '|' + lv + '|' + unit + '|' + v)).comp; } catch (e) { return { ok: false, why: e.message.slice(0, 90) }; }
     for (const p of comp.panels) {
+      // the changed picture must still be a picture: removing 3 of 5 drawings left an empty field (K-399 L1, read
+      // 2026-10-10) — at most 40 % of the drawings go, and at least 3 real (non-sky) drawings stay
+      const gone = new Set(p.ops.filter((c) => c.kind === 'remove').map((c) => c.item));
+      const stay = p.scene.items.filter((l) => !gone.has(l.idx) && !/\/(sun|cloud|cloudy|moon|star|sky|snowflake)$/.test(l.src || ''));
+      // ...and by AREA (read 2026-10-10: a bedroom lost its bed and its window — 2 of 5 drawings, but the room was empty)
+      const ar = (l) => (l.bbox[2] - l.bbox[0]) * (l.bbox[3] - l.bbox[1]);
+      const goneArea = p.scene.items.filter((l) => gone.has(l.idx)).reduce((a, l) => a + ar(l), 0), allArea = p.scene.items.reduce((a, l) => a + ar(l), 0);
+      if (goneArea > 0.35 * allArea) return { ok: false, why: 'empties the picture (' + Math.round(100 * goneArea / allArea) + ' % of the drawing area removed)' };
+      if (gone.size > 0.4 * p.scene.items.length || stay.length < 3) return { ok: false, why: 'empties the picture (' + gone.size + ' of ' + p.scene.items.length + ' removed)' };
       const hIdx = (p.scene.items.find((l) => l.hero) || {}).idx;
       if (p.ops.some((c) => c.item === hIdx)) hero++;
       p.rings.forEach((r) => { quad[quadrantOf(r, 600, 560)]++; rings++; });
@@ -55,7 +64,7 @@ function fit(spec, lv, unit) {
   return { ok: true, heroShare, qmax };
 }
 
-const DENS = { 1: [1, 2], 2: [2, 1, 3], 3: [3, 2] };
+const DENS = { 1: [1, 2, 3], 2: [2, 1, 3], 3: [3, 2, 1] };   // preference order; levels also differ by change size + kinds, so a neighbour density is a valid fallback
 const slots = [];
 for (const [dir, id] of FACES) {
   const spec = load(dir, id);
@@ -131,3 +140,4 @@ fs.writeFileSync(path.join(ROOT, 'data', 'fdx', 'allocation.json'), JSON.stringi
 for (const [id, lvs] of Object.entries(faces)) console.log(id, Object.entries(lvs).map(([lv, l]) => 'L' + lv + ':' + l.length).join(' '));
 console.log(`pages ${colour + line} (colour ${colour}, line ${line}), scenes used ${used.size}/${have.length}, ${Math.round((Date.now() - t0) / 1000)} s`);
 for (const [k, v] of Object.entries(reasons)) if (((out[k.split(' ')[0]] || {})[+k.split(' L')[1]] || []).length < PER) console.log('  short', k, v.slice(0, 4).join(' · '));
+fs.writeFileSync(path.join(process.env.TEMP || ".", "fdx-alloc-reasons.json"), JSON.stringify(reasons, null, 1));

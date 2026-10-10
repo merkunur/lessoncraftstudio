@@ -1,0 +1,136 @@
+{
+  "_why": "2026-10-10: the 33 sparsest scenes (5-6 drawings) fitted no face — too few drawings to hold three separated changes and still be a picture (K-399 L1 read: 3 of 5 drawings removed left an empty field). Each gains 3 drawings that belong in its setting; applied after cast-swaps in data/fdx/scenes.js; qa/fdx-distinct.js still gates the result.",
+  "fdx-river-hippo": [
+    "animals bw/otter",
+    "travel and holiday bw/kayak"
+  ],
+  "fdx-forest-owl": [
+    "animals bw 2/porcupine",
+    "animals bw/snail",
+    "travel and holiday bw/signpost"
+  ],
+  "fdx-beach-hermit": [
+    "beach bw/sandcastle",
+    "beach bw/starfish",
+    "beach bw 2/deck_chair"
+  ],
+  "fdx-harbour-seal": [
+    "birds bw/pelican",
+    "vehicles bw/sailboat",
+    "vehicles bw 3/forklift"
+  ],
+  "fdx-lake-camper": [
+    "travel and holiday bw/kayak",
+    "animals bw 5/swan",
+    "objects bw/blanket"
+  ],
+  "fdx-polar-chick": [],
+  "fdx-winter-reindeer": [
+    "Christmas bw 2/santa_claus"
+  ],
+  "fdx-desert-cactus": [],
+  "fdx-jungle-tiger": [],
+  "fdx-zoo-koala": [
+    "animals bw 5/flamingo",
+    "animals bw 5/peacock",
+    "animals bw 3/camel"
+  ],
+  "fdx-mountain-llama": [
+    "animals bw 4/goat_2",
+    "animals bw 5/eagle",
+    "travel and holiday bw/mountain"
+  ],
+  "fdx-mountain-bison": [
+    "animals bw 4/goat"
+  ],
+  "fdx-street-fire": [
+    "vehicles bw 2/ambulance",
+    "tools bw/traffic_cone",
+    "animals bw 5/dog_3"
+  ],
+  "fdx-village-van": [
+    "animals bw/cat_2",
+    "home and nature bw/flower",
+    "home and nature bw/trash_can"
+  ],
+  "fdx-camp-camper": [
+    "travel and holiday bw/tent",
+    "nature bw/campfire"
+  ],
+  "fdx-garden-bird": [
+    "animals bw 2/mouse",
+    "farm bw/wheelbarrow",
+    "animals bw 5/hedgehog"
+  ],
+  "fdx-savanna-hippo": [
+    "animals bw/ostrich",
+    "animals bw/lion_2"
+  ],
+  "fdx-jungle-toucan": [
+    "animals bw 5/gorilla",
+    "animals bw 4/crocodile",
+    "birds bw 2/hummingbird"
+  ],
+  "fdx-winter-sleigh": [
+    "animals bw/reindeer"
+  ],
+  "fdx-polar-walrus": [
+    "animals bw/seal"
+  ],
+  "fdx-living-fire": [
+    "home and nature bw/frame",
+    "home bw/cuckoo_clock",
+    "animals bw 5/hamster"
+  ],
+  "fdx-toy-train": [
+    "toys bw/rocking_horse",
+    "toys bw 2/robot",
+    "toys bw/drum"
+  ],
+  "fdx-street-scooter": [
+    "vehicles bw 2/police_car",
+    "farm animals bw/pigeon",
+    "sports bw/skateboard"
+  ],
+  "fdx-camp-fire": [
+    "travel and holiday bw/backpack",
+    "vehicles bw/jeep",
+    "animals bw/raccoon_2"
+  ],
+  "fdx-farm-crow": [
+    "animals bw 4/goat",
+    "birds bw 2/turkey",
+    "animals bw 4/pig_2"
+  ],
+  "fdx-lake-geese": [
+    "travel and holiday bw/kayak",
+    "farm bw/duck",
+    "beach bw/sailboat"
+  ],
+  "fdx-savanna-meerkat": [
+    "animals bw 4/ostrich",
+    "animals bw 2/rhinoceros",
+    "animals bw 5/lion_2"
+  ],
+  "fdx-desert-lizard": [
+    "animals bw/camel_2",
+    "nature bw/pyramid",
+    "animals bw 5/snake"
+  ],
+  "fdx-jungle-snake": [
+    "animals bw 2/leopard"
+  ],
+  "fdx-winter-gifts": [
+    "Christmas bw 2/reindeer",
+    "sports bw/ice_skate",
+    "Christmas bw 2/snowman"
+  ],
+  "fdx-night-telescope": [
+    "animals bw 5/owl"
+  ],
+  "fdx-garden-hedgehog": [
+    "animals bw 3/bee_2",
+    "nature bw/ladybug",
+    "home and nature bw/flower"
+  ]
+}

@@ -84,6 +84,20 @@ function pickOps(scene, cfg, rng) {
       // the hero: cfg.heroProb (0..1) decides per PAGE whether the hero may carry a difference (drawn once per try)
       if (heroIdx != null && c.item === heroIdx && !heroAllowed) continue;
       if (c.kind === 'add' && chosen.some((o) => o.kind === 'add' && o.src === c.src)) continue;
+      // Level Set scenes (scene.set 'fdx'): a drawing removed in one place and the same drawing added in another reads as ONE
+      // move counted twice (read 2026-10-10: a mouse gone left of the cat and new right of it)
+      if (scene.set === 'fdx') {
+        const srcOfC = (o) => (o.kind === 'add' ? o.src : (scene.items.find((l) => l.idx === o.item) || {}).src);
+        // (generalised: a copy of a drawing never comes in while that drawing itself also changes — two frog changes on one page)
+        if (c.kind === 'add' && chosen.some((o) => o.kind !== 'add' && srcOfC(o) === c.src)) continue;
+        if (c.kind !== 'add' && chosen.some((o) => o.kind === 'add' && o.src === srcOfC(c))) continue;
+        // ...and two drawings of one WORD never both come in (two different ice skates added beside a third)
+        const wordOf = (x) => String(x || '').split('/').pop().replace(/_\d+$/, '').replace(/s$/, '');
+        if (c.kind === 'add' && chosen.some((o) => o.kind === 'add' && wordOf(o.src) === wordOf(c.src))) continue;
+        // ...nor through a swap (read 2026-10-10: a puzzle AND a telephone both turned into the same dice — two dice)
+        const inWord = (o) => (o.kind === 'add' || o.kind === 'swap' ? wordOf(o.src) : null);
+        if (inWord(c) && chosen.some((o) => inWord(o) === inWord(c))) continue;
+      }
       // separation is measured between the RINGS the child sees (change box + 10 units each side), never the change boxes
       if (chosen.some((o) => gap(inflate(o.diff || o.bbox, 10, W, H), inflate(c.diff || c.bbox, 10, W, H)) < minSep)) continue;
       chosen.push(c);

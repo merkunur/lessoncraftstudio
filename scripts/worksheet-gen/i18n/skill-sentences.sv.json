@@ -445,6 +445,8 @@
   },
   "how-to-draw": {
     "full": "Rita steg för steg för förskoleklass, åk 1 och åk 2: bygg djur av enkla former, fyll i, rita färdigt, rita ruta för ruta eller rita ur minnet.",
-    "short": "Lär dig rita djur steg för steg"
+    "short": "Lär dig rita djur steg för steg",
+    "levelSetFull": "Barnen lär sig rita en bild steg för steg: först konturen, sedan de nya linjerna i varje steg, tills hela teckningen är klar.",
+    "levelSetShort": "Lär dig rita steg för steg."
   }
 }

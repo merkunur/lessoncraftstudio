@@ -446,6 +446,8 @@
   },
   "how-to-draw": {
     "full": "Tegn steg for steg for barnehagen, 1. og 2. trinn: bygg dyr av enkle former, følg strekene, tegn ferdig, tegn med rutenett eller tegn etter hukommelsen.",
-    "short": "Lær å tegne dyr steg for steg ut fra enkle former"
+    "short": "Lær å tegne dyr steg for steg ut fra enkle former",
+    "levelSetFull": "Barna lærer å tegne et bilde steg for steg: først omrisset og så de nye strekene i hvert steg, til hele tegningen er ferdig.",
+    "levelSetShort": "Lær å tegne steg for steg."
   }
 }

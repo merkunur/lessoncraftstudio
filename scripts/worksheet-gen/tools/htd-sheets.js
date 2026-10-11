@@ -7,7 +7,7 @@
 'use strict';
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
 const Hd = require('../lib/htd-steps.js');
-const DIR = path.join(__dirname, '..', 'data', 'htd');
+const DIR = path.join(__dirname, '..', 'data', (process.argv.find((x) => x.startsWith('--set=')) || '--set=htd').slice(6));
 const arg = (k) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : null; };
 const only = arg('only') ? new Set(arg('only').split(',')) : null;
 const out = arg('out') || path.join(process.env.TEMP || '/tmp', 'spl', 'htd-sheets'); fs.mkdirSync(out, { recursive: true });

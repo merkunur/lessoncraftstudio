@@ -1,0 +1,914 @@
+{
+ "lsx-animals-bw-2-cat": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-2-dog": {
+  "finish1": 1,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-2-giraffe": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-2-raccoon": {
+  "finish1": 8,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-2-squirrel": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-alligator": {
+  "finish1": 2,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-cat-2": {
+  "finish1": 1,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-cat": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-chicken": {
+  "finish1": 0,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-cow": {
+  "finish1": 12,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-deer": {
+  "finish1": 6,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-dinosaur-2": {
+  "finish1": 9,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-dinosaur": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-dog": {
+  "finish1": 1,
+  "finish2": 9,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-donkey": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-fish-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-frog-2": {
+  "finish1": 2,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-hippopotamus-2": {
+  "finish1": 4,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-lion": {
+  "finish1": 0,
+  "finish2": 9,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-monkey": {
+  "finish1": 5,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-3-mouse": {
+  "finish1": 0,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-chick": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-duck-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-duck": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-goat": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-kangaroo": {
+  "finish1": 8,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-koala": {
+  "finish1": 0,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-mouse": {
+  "finish1": 4,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-rabbit-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-rabbit": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-rooster": {
+  "finish1": 21,
+  "finish2": 16,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-4-sheep": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-bat": {
+  "finish1": 7,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-bee": {
+  "finish1": 4,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-bird": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-bull": {
+  "finish1": 2,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-camel": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-chameleon": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-eagle": {
+  "finish1": 2,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-fox-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-fox": {
+  "finish1": 3,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-gorilla": {
+  "finish1": 18,
+  "finish2": 16,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-hippopotamus": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-leopard": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-ostrich": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-panda": {
+  "finish1": 0,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-peacock": {
+  "finish1": 2,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-penguin": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-reindeer": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-rhinoceros": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-sloth": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-snake": {
+  "finish1": 2,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-squirrel-2": {
+  "finish1": 7,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-squirrel": {
+  "finish1": 5,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-tiger": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-5-turtle": {
+  "finish1": 7,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-alligator-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-bat": {
+  "finish1": 4,
+  "finish2": 6,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-bear-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-beaver": {
+  "finish1": 0,
+  "finish2": 6,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-frog": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-koala": {
+  "finish1": 0,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-lion": {
+  "finish1": 12,
+  "finish2": 17,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-meerkat": {
+  "finish1": 3,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-otter": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-penguin-2": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-rabbit": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-raccoon-2": {
+  "finish1": 2,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-raccoon-3": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-animals-bw-tyrannosaurus-rex": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-2-boat": {
+  "finish1": 3,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-2-bucket": {
+  "finish1": 0,
+  "finish2": 18,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-2-crab": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-2-sandcastle": {
+  "finish1": 4,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-lighthouse": {
+  "finish1": 0,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-palm-tree": {
+  "finish1": 1,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-beach-bw-sandcastle": {
+  "finish1": 38,
+  "finish2": 35,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-flamingo": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-goose": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-ostrich": {
+  "finish1": 3,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-owl": {
+  "finish1": 0,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-parrot": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-toucan": {
+  "finish1": 2,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-2-turkey": {
+  "finish1": 1,
+  "finish2": 9,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-hummingbird": {
+  "finish1": 6,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-pelican": {
+  "finish1": 4,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-birds-bw-penguin": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-christmas-bw-2-santa-claus": {
+  "finish1": 1,
+  "finish2": 13,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-christmas-bw-2-snowman": {
+  "finish1": 8,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-christmas-bw-snowman": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-dessert-bw-cake": {
+  "finish1": 107,
+  "finish2": 65,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-dessert-bw-cupcake": {
+  "finish1": 0,
+  "finish2": 6,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-dessert-bw-sundae": {
+  "finish1": 7,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-easter-bw-2-chick": {
+  "finish1": 0,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-animals-bw-pony": {
+  "finish1": 0,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-animals-bw-unicorn": {
+  "finish1": 3,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-animals-bw-yak": {
+  "finish1": 6,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-cow": {
+  "finish1": 6,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-donkey": {
+  "finish1": 16,
+  "finish2": 5,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-duck-2": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-duck": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-goat": {
+  "finish1": 5,
+  "finish2": 5,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-horse": {
+  "finish1": 8,
+  "finish2": 8,
+  "finish3": 1,
+  "trace3": 1
+ },
+ "lsx-farm-bw-pig": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-rabbit": {
+  "finish1": 0,
+  "finish2": 15,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-rooster": {
+  "finish1": 9,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-scarecrow": {
+  "finish1": 1,
+  "finish2": 1,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-sheep": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-farm-bw-turkey": {
+  "finish1": 5,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-home-and-nature-bw-house": {
+  "finish1": 13,
+  "finish2": 9,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-household-bw-plant": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-2-octopus": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-2-seahorse": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-2-snail": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-2-starfish": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-2-turtle": {
+  "finish1": 8,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-crab": {
+  "finish1": 13,
+  "finish2": 13,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-dolphin": {
+  "finish1": 7,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-fish-3": {
+  "finish1": 2,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-jellyfish": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-lobster": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-narwhal": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-octopus": {
+  "finish1": 9,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-seahorse": {
+  "finish1": 7,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-sea-life-bw-shark": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-space-bw-rocket": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-toys-bw-drum": {
+  "finish1": 7,
+  "finish2": 7,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-toys-bw-robot": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-toys-bw-rocking-horse": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-toys-bw-teddy-bear": {
+  "finish1": 4,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-toys-bw-train": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-travel-and-holiday-bw-camper": {
+  "finish1": 6,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-travel-and-holiday-bw-campfire": {
+  "finish1": 28,
+  "finish2": 15,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-travel-and-holiday-bw-log-cabin": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vegetables-bw-2-mushroom": {
+  "finish1": 31,
+  "finish2": 31,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-2-dump-truck": {
+  "finish1": 21,
+  "finish2": 18,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-2-helicopter-2": {
+  "finish1": 0,
+  "finish2": 16,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-2-hot-air-balloon": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-2-rocket": {
+  "finish1": 4,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-3-boat": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-3-fire-truck": {
+  "finish1": 2,
+  "finish2": 3,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-3-ice-cream-truck": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-3-police-car": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-3-van": {
+  "finish1": 7,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-ambulance": {
+  "finish1": 1,
+  "finish2": 2,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-bus-2": {
+  "finish1": 3,
+  "finish2": 3,
+  "finish3": 2,
+  "trace3": 2
+ },
+ "lsx-vehicles-bw-bus": {
+  "finish1": 4,
+  "finish2": 4,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-vehicles-bw-garbage-truck": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-zoo-animals-bw-bear-2": {
+  "finish1": 18,
+  "finish2": 13,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-zoo-animals-bw-porcupine": {
+  "finish1": 0,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-zoo-animals-bw-reindeer": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ },
+ "lsx-zoo-animals-bw-rhinoceros": {
+  "finish1": 1,
+  "finish2": 0,
+  "finish3": 0,
+  "trace3": 0
+ }
+}

@@ -445,6 +445,8 @@
   },
   "how-to-draw": {
     "full": "El niño aprende a dibujar un animal paso a paso: primero el contorno, luego los detalles, hasta terminar su propio dibujo completo en el recuadro grande.",
-    "short": "Cómo dibujar animales paso a paso"
+    "short": "Cómo dibujar animales paso a paso",
+    "levelSetFull": "El niño aprende a dibujar una imagen paso a paso: primero el contorno y luego las líneas nuevas de cada paso, hasta terminar su propio dibujo.",
+    "levelSetShort": "Aprender a dibujar paso a paso."
   }
 }

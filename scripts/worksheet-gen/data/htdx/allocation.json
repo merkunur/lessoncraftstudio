@@ -1,0 +1,917 @@
+{
+ "faces": {
+  "G1-419": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-animals-bw-5-fox"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-space-bw-rocket"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-vehicles-bw-bus"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-sea-life-bw-narwhal"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-5-reindeer"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-raccoon-3"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-3-hippopotamus-2"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-3-dinosaur-2"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-3-deer"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-animals-bw-3-donkey"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-animals-bw-5-gorilla"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-vehicles-bw-3-ice-cream-truck"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-beach-bw-2-sandcastle"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-farm-animals-bw-yak"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-3-alligator"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-animals-bw-5-camel"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-sea-life-bw-fish-3"
+    }
+   ]
+  },
+  "G1-418": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-animals-bw-4-rabbit-2"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-animals-bw-4-chick"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-farm-bw-sheep"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-birds-bw-2-goose"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-sea-life-bw-seahorse"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-christmas-bw-snowman"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-farm-bw-pig"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-2-squirrel"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-5-leopard"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-farm-animals-bw-pony"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-home-and-nature-bw-house"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-sea-life-bw-2-turtle"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-3-mouse"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-animals-bw-beaver"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-lion"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-animals-bw-5-bull"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-animals-bw-3-dog"
+    }
+   ]
+  },
+  "G1-417": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-birds-bw-2-parrot"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-vehicles-bw-3-van"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-birds-bw-2-owl"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-farm-bw-duck-2"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-zoo-animals-bw-bear-2"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-dessert-bw-cake"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-meerkat"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-toys-bw-rocking-horse"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-3-cat"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-animals-bw-5-snake"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-vehicles-bw-2-hot-air-balloon"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-vehicles-bw-3-fire-truck"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-birds-bw-2-turkey"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-travel-and-holiday-bw-log-cabin"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-5-eagle"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-beach-bw-lighthouse"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-sea-life-bw-2-octopus"
+    }
+   ]
+  },
+  "K-404": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-birds-bw-penguin"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-birds-bw-2-toucan"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-beach-bw-2-bucket"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-animals-bw-3-chicken"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-sea-life-bw-shark"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-5-panda"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-farm-bw-goat"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-3-cow"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-sea-life-bw-crab"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-animals-bw-3-frog-2"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-household-bw-plant"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-animals-bw-3-monkey"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-toys-bw-robot"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-farm-bw-rooster"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-4-kangaroo"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-animals-bw-koala"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-animals-bw-2-giraffe"
+    }
+   ]
+  },
+  "G2-390": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-animals-bw-5-bird"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-sea-life-bw-dolphin"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-sea-life-bw-2-snail"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-animals-bw-otter"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-bat"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-5-penguin"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-5-bee"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-birds-bw-2-ostrich"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-farm-bw-horse"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-sea-life-bw-jellyfish"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-animals-bw-5-rhinoceros"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-birds-bw-2-flamingo"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-5-sloth"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-animals-bw-5-tiger"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-birds-bw-hummingbird"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-farm-animals-bw-unicorn"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-zoo-animals-bw-porcupine"
+    }
+   ]
+  },
+  "K-402": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-toys-bw-teddy-bear"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-dessert-bw-cupcake"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-vehicles-bw-3-boat"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-beach-bw-palm-tree"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-sea-life-bw-2-starfish"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-4-sheep"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-toys-bw-drum"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-birds-bw-pelican"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-tyrannosaurus-rex"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-vegetables-bw-2-mushroom"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-dessert-bw-sundae"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-farm-bw-scarecrow"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-travel-and-holiday-bw-campfire"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-easter-bw-2-chick"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-4-goat"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-animals-bw-5-ostrich"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-animals-bw-bear-2"
+    }
+   ]
+  },
+  "K-401": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-animals-bw-3-cat-2"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-animals-bw-5-chameleon"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-farm-bw-cow"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-animals-bw-5-squirrel"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-5-panda"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-toys-bw-teddy-bear"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-2-raccoon"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-4-koala"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-3-fish-2"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-vegetables-bw-2-mushroom"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-animals-bw-3-hippopotamus-2"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-animals-bw-5-tiger"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-5-bull"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-farm-animals-bw-yak"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-4-kangaroo"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-easter-bw-2-chick"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-animals-bw-5-bee"
+    }
+   ]
+  },
+  "K-403": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-toys-bw-train"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-animals-bw-4-duck-2"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-animals-bw-rabbit"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-sea-life-bw-lobster"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-vehicles-bw-2-helicopter-2"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-frog"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-3-dinosaur"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-zoo-animals-bw-rhinoceros"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-sea-life-bw-2-seahorse"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-beach-bw-2-crab"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-zoo-animals-bw-reindeer"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-vehicles-bw-ambulance"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-vehicles-bw-3-police-car"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-vehicles-bw-garbage-truck"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-5-fox-2"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-christmas-bw-2-snowman"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-animals-bw-alligator-2"
+    }
+   ]
+  },
+  "G1-416": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-travel-and-holiday-bw-camper"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-vehicles-bw-2-dump-truck"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-vehicles-bw-2-rocket"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-farm-bw-turkey"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-4-mouse"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-2-dog"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-animals-bw-5-peacock"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-christmas-bw-2-santa-claus"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-3-lion"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-vehicles-bw-bus-2"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-animals-bw-4-rooster"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-animals-bw-2-cat"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-4-rabbit"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-animals-bw-raccoon-2"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-animals-bw-5-bat"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-farm-bw-donkey"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-sea-life-bw-octopus"
+    }
+   ]
+  },
+  "G2-391": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-christmas-bw-snowman"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-zoo-animals-bw-bear-2"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-animals-bw-2-dog"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-animals-bw-3-cat-2"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-5-chameleon"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-animals-bw-3-cow"
+    }
+   ],
+   "2": [
+    {
+     "copy": 8,
+     "unit": "lsx-beach-bw-sandcastle"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-4-duck"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-5-squirrel-2"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-animals-bw-5-hippopotamus"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-beach-bw-2-boat"
+    }
+   ],
+   "3": [
+    {
+     "copy": 13,
+     "unit": "lsx-farm-bw-rabbit"
+    },
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-5-leopard"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-animals-bw-2-giraffe"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-vehicles-bw-garbage-truck"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-birds-bw-hummingbird"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-travel-and-holiday-bw-campfire"
+    }
+   ]
+  },
+  "K-396": {
+   "1": [
+    {
+     "copy": 2,
+     "unit": "lsx-farm-bw-goat"
+    },
+    {
+     "copy": 3,
+     "unit": "lsx-animals-bw-5-squirrel"
+    },
+    {
+     "copy": 4,
+     "unit": "lsx-farm-bw-cow"
+    },
+    {
+     "copy": 5,
+     "unit": "lsx-toys-bw-teddy-bear"
+    },
+    {
+     "copy": 6,
+     "unit": "lsx-animals-bw-5-panda"
+    },
+    {
+     "copy": 7,
+     "unit": "lsx-christmas-bw-snowman"
+    },
+    {
+     "copy": 8,
+     "unit": "lsx-zoo-animals-bw-bear-2"
+    },
+    {
+     "copy": 9,
+     "unit": "lsx-animals-bw-2-dog"
+    },
+    {
+     "copy": 10,
+     "unit": "lsx-animals-bw-5-chameleon"
+    },
+    {
+     "copy": 11,
+     "unit": "lsx-vegetables-bw-2-mushroom"
+    },
+    {
+     "copy": 12,
+     "unit": "lsx-animals-bw-5-bee"
+    },
+    {
+     "copy": 13,
+     "unit": "lsx-animals-bw-3-hippopotamus-2"
+    }
+   ],
+   "2": [
+    {
+     "copy": 14,
+     "unit": "lsx-animals-bw-5-turtle"
+    },
+    {
+     "copy": 15,
+     "unit": "lsx-animals-bw-penguin-2"
+    },
+    {
+     "copy": 16,
+     "unit": "lsx-farm-bw-duck"
+    },
+    {
+     "copy": 17,
+     "unit": "lsx-farm-bw-horse"
+    },
+    {
+     "copy": 18,
+     "unit": "lsx-toys-bw-drum"
+    },
+    {
+     "copy": 19,
+     "unit": "lsx-birds-bw-pelican"
+    },
+    {
+     "copy": 20,
+     "unit": "lsx-sea-life-bw-lobster"
+    },
+    {
+     "copy": 21,
+     "unit": "lsx-dessert-bw-sundae"
+    },
+    {
+     "copy": 22,
+     "unit": "lsx-animals-bw-3-deer"
+    },
+    {
+     "copy": 23,
+     "unit": "lsx-vehicles-bw-2-helicopter-2"
+    },
+    {
+     "copy": 24,
+     "unit": "lsx-household-bw-plant"
+    },
+    {
+     "copy": 25,
+     "unit": "lsx-animals-bw-5-snake"
+    }
+   ],
+   "3": [
+    {
+     "copy": 26,
+     "unit": "lsx-vehicles-bw-3-police-car"
+    },
+    {
+     "copy": 27,
+     "unit": "lsx-birds-bw-2-flamingo"
+    },
+    {
+     "copy": 28,
+     "unit": "lsx-home-and-nature-bw-house"
+    },
+    {
+     "copy": 29,
+     "unit": "lsx-vehicles-bw-3-ice-cream-truck"
+    },
+    {
+     "copy": 30,
+     "unit": "lsx-animals-bw-3-monkey"
+    },
+    {
+     "copy": 31,
+     "unit": "lsx-beach-bw-lighthouse"
+    },
+    {
+     "copy": 32,
+     "unit": "lsx-animals-bw-5-camel"
+    },
+    {
+     "copy": 33,
+     "unit": "lsx-animals-bw-beaver"
+    },
+    {
+     "copy": 34,
+     "unit": "lsx-animals-bw-5-sloth"
+    },
+    {
+     "copy": 35,
+     "unit": "lsx-farm-bw-pig"
+    },
+    {
+     "copy": 36,
+     "unit": "lsx-vehicles-bw-ambulance"
+    },
+    {
+     "copy": 37,
+     "unit": "lsx-toys-bw-robot"
+    }
+   ]
+  }
+ },
+ "short": []
+}

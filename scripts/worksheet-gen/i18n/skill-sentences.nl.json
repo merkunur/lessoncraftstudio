@@ -448,6 +448,8 @@
   },
   "how-to-draw": {
     "full": "Stap voor stap leren tekenen voor kleuters, groep 3 en groep 4: dieren opbouwen uit simpele vormen, overtrekken, afmaken, met een raster natekenen of uit je hoofd tekenen.",
-    "short": "Dieren stap voor stap leren tekenen"
+    "short": "Dieren stap voor stap leren tekenen",
+    "levelSetFull": "Kinderen leren een tekening stap voor stap maken: eerst de omtrek, dan de nieuwe lijnen van elke stap, tot de hele tekening klaar is.",
+    "levelSetShort": "Stap voor stap leren tekenen."
   }
 }

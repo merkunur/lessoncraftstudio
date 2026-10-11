@@ -1,0 +1,1151 @@
+{
+  "id": "wave-htl-no",
+  "_note": "How to Draw Level Set 2026-10-11: one library B&W drawing per worksheet (data/htdx, lessons read on contact sheets), levels by drawing complexity and support. Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "unitInSlug": false,
+  "seedEpoch": 1,
+  "locales": [
+    "no"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-419",
+    "G1-418",
+    "G1-417",
+    "K-404",
+    "G2-390",
+    "K-402",
+    "K-401",
+    "K-403",
+    "G1-416",
+    "G2-391",
+    "K-396"
+  ],
+  "levels": {
+    "G1-419": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-animals-bw-5-fox",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-space-bw-rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-vehicles-bw-bus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-sea-life-bw-narwhal",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-5-reindeer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-raccoon-3",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-3-hippopotamus-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-3-dinosaur-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-3-deer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-animals-bw-3-donkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-animals-bw-5-gorilla",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-vehicles-bw-3-ice-cream-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-beach-bw-2-sandcastle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-farm-animals-bw-yak",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-3-alligator",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-animals-bw-5-camel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-sea-life-bw-fish-3",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-418": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-animals-bw-4-rabbit-2",
+          "seedVariant": 4
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-animals-bw-4-chick",
+          "seedVariant": 2
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-farm-bw-sheep",
+          "seedVariant": 2
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-birds-bw-2-goose",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-sea-life-bw-seahorse",
+          "seedVariant": 45
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-christmas-bw-snowman",
+          "seedVariant": 6
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-farm-bw-pig",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-2-squirrel",
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-5-leopard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-farm-animals-bw-pony",
+          "seedVariant": 3
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-home-and-nature-bw-house",
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-sea-life-bw-2-turtle",
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-3-mouse",
+          "seedVariant": 22
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-animals-bw-beaver",
+          "seedVariant": 3
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-lion",
+          "seedVariant": 12
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-animals-bw-5-bull",
+          "seedVariant": 4
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-animals-bw-3-dog",
+          "seedVariant": 2
+        }
+      ]
+    },
+    "G1-417": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-birds-bw-2-parrot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-vehicles-bw-3-van",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-birds-bw-2-owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-farm-bw-duck-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-zoo-animals-bw-bear-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-dessert-bw-cake",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-meerkat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-toys-bw-rocking-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-3-cat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-animals-bw-5-snake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-vehicles-bw-2-hot-air-balloon",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-vehicles-bw-3-fire-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-birds-bw-2-turkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-travel-and-holiday-bw-log-cabin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-5-eagle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-beach-bw-lighthouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-sea-life-bw-2-octopus",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-404": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-birds-bw-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-birds-bw-2-toucan",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-beach-bw-2-bucket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-animals-bw-3-chicken",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-sea-life-bw-shark",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-5-panda",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-farm-bw-goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-3-cow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-sea-life-bw-crab",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-animals-bw-3-frog-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-household-bw-plant",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-animals-bw-3-monkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-toys-bw-robot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-farm-bw-rooster",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-4-kangaroo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-animals-bw-koala",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-animals-bw-2-giraffe",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-390": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-animals-bw-5-bird",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-sea-life-bw-dolphin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-sea-life-bw-2-snail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-animals-bw-otter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-bat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-5-penguin",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-5-bee",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-birds-bw-2-ostrich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-farm-bw-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-sea-life-bw-jellyfish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-animals-bw-5-rhinoceros",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-birds-bw-2-flamingo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-5-sloth",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-animals-bw-5-tiger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-birds-bw-hummingbird",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-farm-animals-bw-unicorn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-zoo-animals-bw-porcupine",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-402": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-toys-bw-teddy-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-dessert-bw-cupcake",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-vehicles-bw-3-boat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-beach-bw-palm-tree",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-sea-life-bw-2-starfish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-4-sheep",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-toys-bw-drum",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-birds-bw-pelican",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-tyrannosaurus-rex",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-vegetables-bw-2-mushroom",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-dessert-bw-sundae",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-farm-bw-scarecrow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-travel-and-holiday-bw-campfire",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-easter-bw-2-chick",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-4-goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-animals-bw-5-ostrich",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-animals-bw-bear-2",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-401": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-animals-bw-3-cat-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-animals-bw-5-chameleon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-farm-bw-cow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-animals-bw-5-squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-5-panda",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-toys-bw-teddy-bear",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-2-raccoon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-4-koala",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-3-fish-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-vegetables-bw-2-mushroom",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-animals-bw-3-hippopotamus-2",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-animals-bw-5-tiger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-5-bull",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-farm-animals-bw-yak",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-4-kangaroo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-easter-bw-2-chick",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-animals-bw-5-bee",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-403": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-toys-bw-train",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-animals-bw-4-duck-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-animals-bw-rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-sea-life-bw-lobster",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-vehicles-bw-2-helicopter-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-frog",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-3-dinosaur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-zoo-animals-bw-rhinoceros",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-sea-life-bw-2-seahorse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-beach-bw-2-crab",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-zoo-animals-bw-reindeer",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-vehicles-bw-ambulance",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-vehicles-bw-3-police-car",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-vehicles-bw-garbage-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-5-fox-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-christmas-bw-2-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-animals-bw-alligator-2",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-416": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-travel-and-holiday-bw-camper",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-vehicles-bw-2-dump-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-vehicles-bw-2-rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-farm-bw-turkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-4-mouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-2-dog",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-animals-bw-5-peacock",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-christmas-bw-2-santa-claus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-3-lion",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-vehicles-bw-bus-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-animals-bw-4-rooster",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-animals-bw-2-cat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-4-rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-animals-bw-raccoon-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-animals-bw-5-bat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-farm-bw-donkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-sea-life-bw-octopus",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-391": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-christmas-bw-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-zoo-animals-bw-bear-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-animals-bw-2-dog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-animals-bw-3-cat-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-5-chameleon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-animals-bw-3-cow",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 8,
+          "unit": "lsx-beach-bw-sandcastle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-4-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-5-squirrel-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-animals-bw-5-hippopotamus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-beach-bw-2-boat",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "lsx-farm-bw-rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-5-leopard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-animals-bw-2-giraffe",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-vehicles-bw-garbage-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-birds-bw-hummingbird",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-travel-and-holiday-bw-campfire",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-396": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "lsx-farm-bw-goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "lsx-animals-bw-5-squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "lsx-farm-bw-cow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "lsx-toys-bw-teddy-bear",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "lsx-animals-bw-5-panda",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "lsx-christmas-bw-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "lsx-zoo-animals-bw-bear-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "lsx-animals-bw-2-dog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "lsx-animals-bw-5-chameleon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "lsx-vegetables-bw-2-mushroom",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "lsx-animals-bw-5-bee",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "lsx-animals-bw-3-hippopotamus-2",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 14,
+          "unit": "lsx-animals-bw-5-turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "lsx-animals-bw-penguin-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "lsx-farm-bw-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "lsx-farm-bw-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "lsx-toys-bw-drum",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "lsx-birds-bw-pelican",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "lsx-sea-life-bw-lobster",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "lsx-dessert-bw-sundae",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "lsx-animals-bw-3-deer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "lsx-vehicles-bw-2-helicopter-2",
+          "seedVariant": 1
+        },
+        {
+          "copy": 24,
+          "unit": "lsx-household-bw-plant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "lsx-animals-bw-5-snake",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 26,
+          "unit": "lsx-vehicles-bw-3-police-car",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "lsx-birds-bw-2-flamingo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "lsx-home-and-nature-bw-house",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "lsx-vehicles-bw-3-ice-cream-truck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "lsx-animals-bw-3-monkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "lsx-beach-bw-lighthouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "lsx-animals-bw-5-camel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "lsx-animals-bw-beaver",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "lsx-animals-bw-5-sloth",
+          "seedVariant": 1
+        },
+        {
+          "copy": 35,
+          "unit": "lsx-farm-bw-pig",
+          "seedVariant": 1
+        },
+        {
+          "copy": 36,
+          "unit": "lsx-vehicles-bw-ambulance",
+          "seedVariant": 1
+        },
+        {
+          "copy": 37,
+          "unit": "lsx-toys-bw-robot",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

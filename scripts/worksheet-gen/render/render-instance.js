@@ -23,8 +23,13 @@ async function renderInstance(o) {
 
   // unit axis: {U}/{L}/{UNIT} resolve HERE (the sheet prints strings.title) —
   // the same object comes back for every type without the axis.
-  const strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
+  let strings = resolveUnitTokens((o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en, type, unit, locale);
   const built = await type.build({ theme, difficulty, locale, unit }, { rng, variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}) });
+  // instance tokens (b8 F13, 2026-10-12): a build may name values only it knows — the letter a hop run ends on — as
+  // { LAST: 'R' }; they fill {LAST} in the instruction on every page (print, screen, key) and in the deck (r.strings).
+  // An unfilled token is refused: a child must never read '{LAST}'.
+  if (built.tokens) strings = { ...strings, instruction: String(strings.instruction).replace(/{([A-Z]+)}/g, (m0, k) => (built.tokens[k] != null ? built.tokens[k] : m0)) };
+  if (/{[A-Z]+}/.test(strings.instruction || '')) throw new Error('render-instance: ' + type.id + ' instruction keeps an unfilled token: ' + strings.instruction);
   // the heading PRINTED on every page (a corrected printTitle when the face has one; the search title stays strings.title)
   const head = strings.printTitle || strings.title;
   const html = buildPage({
@@ -115,7 +120,7 @@ async function renderInstance(o) {
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');   // every key is MEASURED (qa/key-text-measure.js)
       interactive = { kind: spec.kind, items, marks: got.marks, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
-      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
     }
     // PAINT mode (tap-paint, Color by Number 2026-10-04): the page's own line drawing is laid exactly over the screen
     // render (the parts are irregular shapes, not boxes); the crayons of the key are the palette. Items = the coloured
@@ -147,7 +152,7 @@ async function renderInstance(o) {
       const { PALETTE } = require('../lib/cbn-render.js');
       interactive = { kind: spec.kind, items: got.items.map((it) => ({ ...it, meta: { 'data-lcs-region': String(it.region) } })), paint: { art: got.art, crayons: got.crayons, hex: PALETTE },
         pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
-      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
     }
     // TRACE mode (trace-path, Handmade Mazes b8 2026-10-11): the maze graph the page DECLARES (data-lcs-hm-graph on
     // the scene SVG, body px) is converted to % of the screen crop; the two mouths become edges to virtual start / goal
@@ -167,16 +172,17 @@ async function renderInstance(o) {
         // every route gets its own virtual start (its disc) and goal (its flag); one route on every face but F7
         const RTs = G.routes || [{ route: G.route, s: G.s, g: G.g, start: G.mouths.start, goal: G.mouths.goal }];
         const routes = RTs.map((rt) => {
-          const vS = nodes.length, vG = nodes.length + 1;
-          nodes.push(P(rt.start[rt.start.length - 1]), P(rt.goal[rt.goal.length - 1]));
-          edges.push({ a: vS, b: rt.s, pts: rt.start.slice().reverse().map(P) }, { a: rt.g, b: vG, pts: rt.goal.map(P) });
+          const vS = nodes.length; nodes.push(P(rt.start[rt.start.length - 1])); edges.push({ a: vS, b: rt.s, pts: rt.start.slice().reverse().map(P) });
+          // an open-ended route (F13: the run stops on its last cell, no flag) has no virtual goal
+          if (!rt.goal) return { start: vS, goal: rt.g, path: [vS].concat(rt.route) };
+          const vG = nodes.length; nodes.push(P(rt.goal[rt.goal.length - 1])); edges.push({ a: rt.g, b: vG, pts: rt.goal.map(P) });
           return { start: vS, goal: vG, path: [vS].concat(rt.route, [vG]) };
         });
         const path = routes[0].path;
         // looped label faces: the labels and the rule travel with the graph (the robot recomputes the one valid path from
         // them); every face carries its answer path (the runtime compares the drawn path with it: on a looped page the goal
         // is reachable along wrong routes, so reaching it is not enough)
-        const labels = G.labels ? G.labels.concat(routes.flatMap(() => [null, null])) : null;
+        const labels = G.labels ? G.labels.concat(nodes.slice(G.labels.length).map(() => null)) : null;
         return { trace: { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
       });
       if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
@@ -191,7 +197,7 @@ async function renderInstance(o) {
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
       interactive = { kind: spec.kind, items: got.trace.routes.map((_r, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: got.trace.routes[i].path.join('-') })),
         trace: got.trace, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
-      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
     }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
@@ -258,7 +264,7 @@ async function renderInstance(o) {
     interactive = { kind: spec.kind, items: geo, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
   }
 
-  return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+  return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
 }
 
 module.exports = { renderInstance };

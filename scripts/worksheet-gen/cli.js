@@ -123,7 +123,7 @@ async function generate(args) {
     const imagesUsed = scrapeImagesUsed(r.html, cacheManifest);
     const manifest = buildManifest({
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+      variant: it.variant, unit: it.unit || null, deckId: deckId, generatedAt: new Date().toISOString(), strings: r.strings || strings, imagesUsed,
       unitInSlug: plan.unitInSlug !== false,   // wave JSON "unitInSlug": false (nt2-G: one unit per face per locale, the landing's deck slug is <family>-<id>)
       indexable: plan.indexable !== false,   // wave JSON "indexable": false → visible to teachers, never indexed
       interactive: r.interactive ? { kind: r.interactive.kind } : null,
@@ -133,7 +133,7 @@ async function generate(args) {
         // the robot gate's oracle needs the page's theme + level (it recomputes the answers from the vocabulary)
         ctx: { theme: cacheTheme, difficulty: it.difficulty, level3: !!(spec.difficulty[it.difficulty] && spec.difficulty[it.difficulty].level3), ...(spec.interactive.ranksFromAnswers ? { ranksFromAnswers: true } : {}), ...(spec.interactive.countGroups ? { countGroups: true } : {}), ...(r.interactive.paint ? { paint: r.interactive.paint, design: r.meta && r.meta.design } : {}), ...(r.interactive.trace ? { trace: r.interactive.trace } : {}) } }
       : null;
-    const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview, interactive });
+    const deckHtml = buildDeckHtml({ manifest, spec, strings: r.strings || strings, locale: it.locale, preview, interactive });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf, answerKeyPath: r.interactive ? r.interactive.keyPdfPath : null });
     return { ok: true };
   }

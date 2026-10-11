@@ -363,4 +363,120 @@ function composeScene(spec, maze, opts = {}) {
   return { svg, stamp, placed, missing };
 }
 
-module.exports = { composeScene, ink, standing, centred };
+/**
+ * composeStrands(spec, sx, opts) — the F8 page (tangled lines): no corridors. A sky, a hill band at the bottom, k
+ * STRINGS in one ink from k numbered holders (bottom) to k goals (top), each string a sky-coloured halo under its ink
+ * so that, redrawn over the other at a crossing, the upper string visibly passes OVER (the lower one shows a break).
+ * Above each goal a dashed answer box (paper only; the key writes the holder's number in it).
+ * sx = generateStrands() result, in BODY px. The stamp declares one edge per string (strand: true) and every crossing
+ * as a footprint, so the oracle checks each string is drawn whole from its disc to its knot.
+ */
+function composeStrands(spec, sx, opts = {}) {
+  const Wb = 675, Hb = spec.H; const S = spec.strings; const parts = []; const placed = [], missing = [];
+  const k = sx.strands.length; const ink = S.ink, halo = S.halo || spec.sky, w = S.width || 10;
+  parts.push(`<rect width="${Wb}" height="${Hb}" fill="${spec.sky}"/>`);
+  // the hill band the holders stand on
+  const hy = spec.hillY; parts.push(`<path d="M0 ${hy + 14} C${Wb * 0.28} ${hy - 12} ${Wb * 0.62} ${hy + 18} ${Wb} ${hy} V${Hb} H0 Z" fill="${spec.hill}"/>`);
+  for (const c of spec.cast || []) { const a = c.centre ? centred(c.src, c.at[0], c.at[1], c.h) : standing(c.src, c.at[0], c.at[1], c.h); placed.push({ src: c.src, box: a.box }); parts.push(a.svg); }
+  const d = (pts) => 'M' + pts.map((p) => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' L');
+  const full = sx.strands.map((st, s) => [[spec.discXY[s][0], spec.discXY[s][1]]].concat(st.pts, [[st.end[0], spec.knotY]]));
+  // the strings: every halo, then every ink; then at each crossing the UPPER string's local piece again (halo + ink)
+  for (const pts of full) parts.push(`<path d="${d(pts)}" fill="none" stroke="${halo}" stroke-width="${w + 8}" stroke-linecap="round" stroke-linejoin="round"/>`);
+  for (const pts of full) parts.push(`<path d="${d(pts)}" fill="none" stroke="${ink}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" data-lcs-hm-string="1"/>`);
+  for (const c of sx.crossings) {
+    const pts = full[c.over].filter((p) => Math.hypot(p[0] - c.x, p[1] - c.y) < 26);
+    if (pts.length < 2) continue;
+    parts.push(`<path d="${d(pts)}" fill="none" stroke="${halo}" stroke-width="${w + 8}" stroke-linecap="butt" stroke-linejoin="round"/>`);
+    parts.push(`<path d="${d(pts)}" fill="none" stroke="${ink}" stroke-width="${w}" stroke-linecap="butt" stroke-linejoin="round"/>`);
+  }
+  // the key: each string in its own colour over the ink
+  const KEY_COL = ['#2F5BD3', '#7B3FB8', '#C98A12', '#8A5A2B', '#2E8B6A'];
+  if (opts.key) full.forEach((pts, s) => parts.push(`<path d="${d(pts)}" fill="none" stroke="${KEY_COL[s % KEY_COL.length]}" stroke-width="${w * 0.7}" stroke-linecap="round" stroke-linejoin="round" opacity=".85" data-lcs-hm-key="${s + 1}"/>`));
+  // the goals at the top, each standing on its string's knot; the knots; the answer boxes above them
+  spec.goals.forEach((g, slot) => {
+    const x = spec.slotX[slot]; const a = standing(g.src, x, spec.knotY + 2, g.h); placed.push({ src: g.src, box: a.box }); parts.push(a.svg);
+    parts.push(`<circle cx="${x}" cy="${spec.knotY}" r="${(w * 0.75).toFixed(1)}" fill="${ink}"/>`);
+    if (!opts.screen) {
+      parts.push(`<rect x="${x - 24}" y="${spec.boxY}" width="48" height="48" rx="8" fill="#FFFFFF" stroke="#146B5E" stroke-width="2.5" stroke-dasharray="7 5" data-lcs-paper-only="1"/>`);
+      const holder = sx.perm.indexOf(slot);
+      if (opts.key) parts.push(`<text x="${x}" y="${spec.boxY + 35}" text-anchor="middle" font-family="'Baloo 2', Nunito, sans-serif" font-weight="700" font-size="30" fill="#F2784B" data-lcs-hm-key-n="${holder + 1}">${holder + 1}</text>`);
+    }
+  });
+  // the holders and their numbered discs at the bottom
+  spec.holders.forEach((h, s) => {
+    const a = standing(h.src, spec.slotX[s], spec.holderFeetY, h.h); placed.push({ src: h.src, box: a.box }); parts.push(a.svg);
+    const [cx, cy] = spec.discXY[s];
+    parts.push(`<g data-lcs-hm-start="${s + 1}" transform="translate(${cx} ${cy})"><circle r="22" fill="#146B5E" stroke="#FFFFFF" stroke-width="3"/><text y="9" text-anchor="middle" font-family="'Baloo 2', Nunito, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF">${s + 1}</text></g>`);
+  });
+  for (const [nm, b] of placed.map((p) => [p.src, p.box])) if (b[0] < 3 || b[1] < 3 || b[2] > Wb - 3 || b[3] > Hb - 3) missing.push(nm + ' cut by the frame');
+  const r1 = (pts) => pts.map((p) => [+p[0].toFixed(1), +p[1].toFixed(1)]);
+  // the string's end node is its own last point; a short real mouth runs on to the knot (a zero-length mouth edge
+  // cannot be traced onto — 2026-10-12, the robot stopped one step short of every goal)
+  const nodes = sx.strands.map((st) => st.start).concat(sx.strands.map((st) => st.end));
+  const stamp = {
+    strands: true, W: w, fill: ink, nodes: r1(nodes),
+    edges: sx.strands.map((st, s) => ({ a: s, b: k + s, pts: r1(st.pts) })),
+    mouths: { start: r1([spec.discXY[0], sx.strands[0].start]), goal: r1([sx.strands[0].end, [sx.strands[0].end[0], spec.knotY]]) },
+    routes: sx.strands.map((st, s) => ({ route: [s, k + s], s, g: k + s, start: r1([spec.discXY[s], st.start]), goal: r1([st.end, [st.end[0], spec.knotY]]) })),
+    route: [0, k], s: 0, g: k, tree: false, line: false,
+    art: placed.map((p) => p.box.map((v) => +v.toFixed(1))),
+    stand: sx.crossings.map((c) => [+c.x.toFixed(1), +c.y.toFixed(1), w + 8]).concat(spec.discXY.map((p) => [p[0], p[1], 30]), sx.strands.map((st) => [+st.end[0].toFixed(1), spec.knotY, w + 2])),
+  };
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${Wb}" height="${Hb}" viewBox="0 0 ${Wb} ${Hb}" data-lcs-prim="hm-scene" data-lcs-hm-graph='${JSON.stringify(stamp)}'>`
+    + `<defs><clipPath id="hmclip"><rect width="${Wb}" height="${Hb}" rx="18"/></clipPath></defs><g clip-path="url(#hmclip)">${parts.join('')}</g>`
+    + `<rect x="1.5" y="1.5" width="${Wb - 3}" height="${Hb - 3}" rx="18" fill="none" stroke="#146B5E" stroke-width="3"/></svg>`;
+  return { svg, stamp, placed, missing };
+}
+
+/**
+ * composeHex(spec, hx, opts) — the F13 page (letter hop): no corridors. A meadow, a honeycomb silhouette, pointy-top
+ * hexagon cells each holding one capital in the school letterforms; a start disc under the run's first cell pointing
+ * into it, the bear beside the disc, the honey pot at the comb's top-right corner (decoration, never a marker — a flag
+ * on the last cell would give the run's end away; the instruction names the last letter instead).
+ * hx = generateHexHop() result, in BODY px. The stamp declares the cell centres as nodes, every touching pair as an
+ * edge (the screen's ink hops centre to centre), the run as the one route (open-ended: it stops on its last cell).
+ */
+function composeHex(spec, hx, opts = {}) {
+  const Wb = 675, Hb = spec.H; const X = spec.hex; const parts = []; const placed = [], missing = [];
+  const LS = require('../data/tracing/letter-strokes.js'); const R0 = X.cellW / Math.sqrt(3);
+  parts.push(`<rect width="${Wb}" height="${Hb}" fill="${spec.field}"/>`);
+  parts.push(`<rect x="${X.comb[0]}" y="${X.comb[1]}" width="${X.comb[2]}" height="${X.comb[3]}" rx="44" fill="${X.combFill}"/>`);
+  const hexPath = (cx, cy, r) => 'M' + [0, 1, 2, 3, 4, 5].map((i) => { const a = (-90 + 60 * i) * Math.PI / 180; return (cx + r * Math.cos(a)).toFixed(1) + ' ' + (cy + r * Math.sin(a)).toFixed(1); }).join(' L') + ' Z';
+  const onRun = new Set(hx.route);
+  hx.P.forEach(([cx, cy], v) => parts.push(`<path d="${hexPath(cx, cy, R0 - 1.5)}" fill="${opts.key && onRun.has(v) ? '#FBD3C2' : X.cellFill}" stroke="${X.cellEdge}" stroke-width="3" data-lcs-hm-cell="${v}"/>`));
+  if (opts.key) parts.push(`<path d="M${hx.route.map((v) => hx.P[v][0].toFixed(1) + ' ' + hx.P[v][1].toFixed(1)).join(' L')}" fill="none" stroke="#F2784B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".7" data-lcs-hm-key="1"/>`);
+  // the letters: the platform's school letterforms (an unknown glyph throws), centred on the cap band
+  hx.P.forEach(([cx, cy], v) => {
+    const lab = hx.labels.get(v); const g = LS.glyphFor(lab); const k = (X.capH || 34) / 68; const ix = (g.ink.x0 + g.ink.x1) / 2;
+    parts.push(`<g transform="translate(${(cx - ix * k).toFixed(2)} ${(cy - 50 * k).toFixed(2)}) scale(${k.toFixed(4)})" fill="none" stroke="#3A3530" stroke-width="${(4.5 / k).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" data-lcs-hm-label="${lab}">${g.strokes.map((s) => `<path d="${s.d}"/>`).join('')}</g>`);
+  });
+  // the start disc under the first cell, pointing up into it; the bear beside it on the side with room
+  const f = hx.P[hx.s]; const disc = [f[0], f[1] + R0 + 26];
+  const bearX = disc[0] > Wb / 2 ? disc[0] - 82 : disc[0] + 82;
+  const bear = standing(spec.hero.src, bearX, Hb - 6, spec.hero.h); placed.push({ src: spec.hero.src, box: bear.box }); parts.push(bear.svg);
+  const pot = standing(spec.goal.src, spec.goal.at[0], spec.goal.at[1], spec.goal.h); placed.push({ src: spec.goal.src, box: pot.box }); parts.push(pot.svg);
+  for (const c of spec.cast || []) {
+    const a = centred(c.src, c.at[0], c.at[1], c.h);
+    if (a.box[2] > bear.box[0] - 6 && a.box[0] < bear.box[2] + 6 && a.box[3] > bear.box[1] - 6) continue;   // never on the bear
+    placed.push({ src: c.src, box: a.box }); parts.push(a.svg);
+  }
+  parts.push(`<g data-lcs-hm-start="1" transform="translate(${disc[0].toFixed(1)} ${disc[1].toFixed(1)})"><circle r="22" fill="#146B5E" stroke="#FFFFFF" stroke-width="3"/><path d="M-8 -10 L11 0 L-8 10 L-3 0 Z" fill="#FFFFFF" transform="rotate(-90)"/></g>`);
+  for (const [nm, b] of placed.map((p) => [p.src, p.box])) if (b[0] < 3 || b[1] < 3 || b[2] > Wb - 3 || b[3] > Hb - 3) missing.push(nm + ' cut by the frame');
+  // no drawing over a cell
+  for (const p of placed) for (const [cx, cy] of hx.P) if (cx > p.box[0] - R0 * 0.7 && cx < p.box[2] + R0 * 0.7 && cy > p.box[1] - R0 * 0.7 && cy < p.box[3] + R0 * 0.7) { missing.push(p.src + ' over a cell'); break; }
+  const r1 = (pts) => pts.map((p) => [+p[0].toFixed(1), +p[1].toFixed(1)]);
+  const edges = []; hx.adj.forEach((nb, a) => nb.forEach((b) => { if (a < b) edges.push({ a, b, pts: r1([0, 0.25, 0.5, 0.75, 1].map((t) => [hx.P[a][0] + (hx.P[b][0] - hx.P[a][0]) * t, hx.P[a][1] + (hx.P[b][1] - hx.P[a][1]) * t])) }); }));
+  const stamp = {
+    hex: true, W: 30, fill: X.cellFill, cellR: +R0.toFixed(1), nodes: r1(hx.P), edges,
+    routes: [{ route: hx.route, s: hx.s, g: hx.g, start: r1([disc, f]), goal: null }],
+    route: hx.route, s: hx.s, g: hx.g, tree: false, line: false,
+    labels: hx.P.map((_, v) => hx.labels.get(v)), rule: { kind: 'seq', seq: hx.run, openEnd: true },
+    art: placed.map((p) => p.box.map((v) => +v.toFixed(1))), stand: [[+disc[0].toFixed(1), +disc[1].toFixed(1), 30]],
+  };
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${Wb}" height="${Hb}" viewBox="0 0 ${Wb} ${Hb}" data-lcs-prim="hm-scene" data-lcs-hm-graph='${JSON.stringify(stamp)}'>`
+    + `<defs><clipPath id="hmclip"><rect width="${Wb}" height="${Hb}" rx="18"/></clipPath></defs><g clip-path="url(#hmclip)">${parts.join('')}</g>`
+    + `<rect x="1.5" y="1.5" width="${Wb - 3}" height="${Hb - 3}" rx="18" fill="none" stroke="#146B5E" stroke-width="3"/></svg>`;
+  return { svg, stamp, placed, missing };
+}
+
+module.exports = { composeScene, composeStrands, composeHex, ink, standing, centred };

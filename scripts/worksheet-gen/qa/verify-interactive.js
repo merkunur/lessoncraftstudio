@@ -456,6 +456,9 @@ async function playTrace(page, html, oracle) {
     const r0 = routes[0]; let dead = null;
     for (let i = 1; i < r0.length - 1 && !dead; i++) { const off = T.edges.filter((e) => e.a === r0[i] || e.b === r0[i]).map((e) => (e.a === r0[i] ? e.b : e.a)).find((k) => k !== r0[i - 1] && k !== r0[i + 1]); if (off !== undefined) dead = r0.slice(0, i + 1).concat([off]); }
     if (dead) { await drag(dead); st = await check(); if (st.celebrate) fails.push(`${w}px: a dead end reached the celebration`); }
+    // 4. several routes (F7 babies, F8 strings): only the FIRST route drawn must not celebrate — every route counts.
+    //    A string page has no walls and no dead ends, so without this a grader that passes everything survived (2026-10-12)
+    if (routes.length > 1) { await reset(); await drag(routes[0]); st = await check(); if (st.celebrate) fails.push(`${w}px: one route of ${routes.length} reached the celebration`); }
   }
   return fails;
 }
@@ -496,7 +499,7 @@ async function main() {
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
         : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
-        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); T.routes[0].goal = leaf; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf]); return B.answers; })()
+        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);

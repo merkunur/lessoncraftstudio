@@ -11,6 +11,7 @@
  *   (3) REACH:    the start mouth reaches the goal mouth on M;
  *   (4) UNIQUE (tree faces): the walkable road encloses no patch of field (any second way closes a ring round one) —
  *                 exact at every road width, unlike a wall-across-each-route-edge cut (false on short wide edges);
+ *   STRANDS (F8): MISSING + EXTRA, then each string continuous from its start to its knot (no reach / unique).
  *   looped faces skip (4) and are judged by the label search on the declared graph instead (pedagogy P1), which is
  *   sound because (1) + (2) prove the page's corridors are exactly the declared ones.
  *
@@ -72,6 +73,18 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const issues = [];
   const { data, info } = await sharp(png).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const w = info.width, h = info.height; const [fr, fg, fb] = hex(graph.fill);
+  // HEX (F13 letter hop): cells, not corridors. Every cell must show its own fill on a ring inside it (clear of its
+  // letter): a drawing laid over a cell would hide a letter of the run or of a decoy.
+  if (graph.hex) {
+    const [cr, cg, cb] = hex(graph.fill); const rr = graph.cellR * 0.7;
+    graph.nodes.forEach(([cx, cy], v) => {
+      let ok = 0;
+      for (let k2 = 0; k2 < 16; k2++) { const a2 = k2 * Math.PI / 8; const x = Math.round((cx + Math.cos(a2) * rr) * scale), y = Math.round((cy + Math.sin(a2) * rr) * scale);
+        if (x < 0 || y < 0 || x >= w || y >= h) continue; const q = (y * w + x) * 4; if (Math.abs(data[q] - cr) <= tol && Math.abs(data[q + 1] - cg) <= tol && Math.abs(data[q + 2] - cb) <= tol) ok++; }
+      if (ok < 12) issues.push('cell ' + v + ' is covered (' + ok + '/16 of its ring shows the cell)');
+    });
+    return issues;
+  }
   const M = new Uint8Array(w * h);
   const D = await rasterDeclared(graph, w, h, scale);
   // only the scene inside its ROUNDED frame is judged: outside the 18 px corners the page's own paper shows, which may
@@ -116,6 +129,19 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const mc = clusters(miss, w, minCluster * scale * scale), xc = clusters(extra, w, minCluster * scale * scale);
   for (const c of mc) issues.push(`a corridor is covered at (${(c.x / scale) | 0}, ${(c.y / scale) | 0}), ${c.a} px`);
   for (const c of xc) issues.push(`corridor colour painted outside the maze at (${(c.x / scale) | 0}, ${(c.y / scale) | 0}), ${c.a} px`);
+  // STRANDS (F8 tangled lines): no corridors, no reach between strings. Each string must be drawn WHOLE — its own ink,
+  // within its own declared stroke, continuous from its start to its knot (the breaks where it passes UNDER another
+  // string are declared crossing footprints). A flood confined to one string cannot jump to another at a crossing.
+  if (graph.strands) {
+    for (const [i, rt] of (graph.routes || []).entries()) {
+      const e = graph.edges[i]; const Di = morph(await rasterDeclared({ W: graph.W, edges: [e], mouths: {} }, w, h, scale), w, h, k, true);
+      const walkI = new Uint8Array(M.length); for (let q = 0; q < M.length; q++) walkI[q] = Di[q] && (M[q] || stand[q]) ? 1 : 0;
+      const RR = Math.max(3, Math.round(graph.W * scale * 0.6));
+      const fl = flood(walkI, w, disc(e.pts[0], scale, w, h, RR));
+      if (!disc(e.pts[e.pts.length - 1], scale, w, h, RR).some((q) => fl[q])) issues.push('string ' + (i + 1) + ' is broken on the page');
+    }
+    return issues;
+  }
   // reach: from the outer end of the start mouth to the outer end of the goal mouth, on the PAGE pixels
   const sm = graph.mouths && graph.mouths.start, gm = graph.mouths && graph.mouths.goal;
   if (!sm || !gm) { issues.push('no start / goal mouth declared'); return issues; }

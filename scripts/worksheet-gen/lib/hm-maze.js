@@ -443,4 +443,208 @@ function generateForest(cfg, rnd) {
   return { fail: lastFail };
 }
 
-module.exports = { generateTree, generateLooped, generateLayers, generateStreets, generateForest, gateTree };
+/** a polyline through `b` with each interior corner rounded by a quadratic of radius `r` (`n` samples per corner);
+ *  straight runs are sampled every ~10 px so the measuring gates see the drawn shape */
+function roundedPts(b, r, n) {
+  const out = [b[0]]; const lerp = (p, q, t) => [p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t];
+  const run = (p, q) => { const L = Math.hypot(q[0] - p[0], q[1] - p[1]); const m = Math.max(1, Math.ceil(L / 10)); for (let j = 1; j <= m; j++) out.push(lerp(p, q, j / m)); };
+  let from = b[0];
+  for (let i = 1; i < b.length - 1; i++) {
+    const p = b[i], a = b[i - 1], c = b[i + 1]; const la = Math.hypot(p[0] - a[0], p[1] - a[1]), lc = Math.hypot(c[0] - p[0], c[1] - p[1]);
+    const ra = Math.min(r, la / 2), rc = Math.min(r, lc / 2); const in0 = lerp(p, a, ra / la), out0 = lerp(p, c, rc / lc);
+    run(from, in0);
+    for (let j = 1; j <= n; j++) { const t = j / n; out.push([(1 - t) * (1 - t) * in0[0] + 2 * (1 - t) * t * p[0] + t * t * out0[0], (1 - t) * (1 - t) * in0[1] + 2 * (1 - t) * t * p[1] + t * t * out0[1]]); }
+    from = out0;
+  }
+  run(from, b[b.length - 1]); return out;
+}
+/** a uniform Catmull-Rom curve through `b` (end points repeated), `n` samples per span */
+function catmullPts(b, n) {
+  const P = [b[0]].concat(b, [b[b.length - 1]]); const out = [];
+  for (let i = 1; i < P.length - 2; i++) for (let j = 0; j < n; j++) {
+    const t = j / n, t2 = t * t, t3 = t2 * t; const p0 = P[i - 1], p1 = P[i], p2 = P[i + 1], p3 = P[i + 2];
+    out.push([0, 1].map((c) => 0.5 * (2 * p1[c] + (-p0[c] + p2[c]) * t + (2 * p0[c] - 5 * p1[c] + 4 * p2[c] - p3[c]) * t2 + (-p0[c] + 3 * p1[c] - 3 * p2[c] + p3[c]) * t3)));
+  }
+  out.push(b[b.length - 1]); return out;
+}
+
+/**
+ * STRANDS (F8 tangled lines, design B 3.8): k strings from k holders at the bottom to k goals at the top, no junctions,
+ * no choices — each string crosses others and the child follows it to its end. A swap SCHEDULE over M levels decides
+ * the crossings (each swap of two neighbouring strings within a level = one crossing); the strings are drawn as smooth
+ * curves through their slot positions at the level boundaries.
+ * cfg: k  M  slotX [x…] (k slot centres)  levelY [yBottom, yTop]  wobble (± x at boundaries)  crossings [lo,hi]  K
+ *      gates.strands { angle (min crossing angle, deg), apart (min px between crossing points), near [px, run]
+ *                      (no two strings within px for more than run px outside 20 px of a crossing), ratio (length) }
+ * Schedule gates (FINAL §3 F8): crossings in band; the end permutation is a DERANGEMENT (no string ends straight above
+ * where it starts); every string crosses ≥ 2 others; never the same partner twice in a row; every level ≥ 1 crossing.
+ * The DRAWN curves are then measured: exactly the scheduled crossings (smoothing may never add one), their angles,
+ * their spacing, near-runs, the length ratio.
+ * Returns { strands: [{ pts, start, end, from (slot), to (slot) }], crossings: [{ x, y, a, b, over }], perm, m }.
+ */
+function generateStrands(cfg, rnd) {
+  const k = cfg.k, M = cfg.M; const [yB, yT] = cfg.levelY; const SG = (cfg.gates && cfg.gates.strands) || {};
+  const K = cfg.K || 400; let lastFail = null;
+  const fail = (r) => { lastFail = r; if (cfg.tally) for (const x of r) { const kk = String(x).replace(/[0-9.]+/g, '#'); cfg.tally[kk] = (cfg.tally[kk] || 0) + 1; } };
+  const segX = (a, b, c, d) => { // intersection of segments ab and cd → [x, y, ta] or null
+    const r1 = [b[0] - a[0], b[1] - a[1]], r2 = [d[0] - c[0], d[1] - c[1]]; const den = r1[0] * r2[1] - r1[1] * r2[0]; if (Math.abs(den) < 1e-9) return null;
+    const t = ((c[0] - a[0]) * r2[1] - (c[1] - a[1]) * r2[0]) / den, u = ((c[0] - a[0]) * r1[1] - (c[1] - a[1]) * r1[0]) / den;
+    return t >= 0 && t <= 1 && u >= 0 && u <= 1 ? [a[0] + t * r1[0], a[1] + t * r1[1], t] : null; };
+  for (let t = 0; t < K; t++) {
+    // 1. the schedule: per level a non-empty set of disjoint neighbouring swaps
+    const at = [...Array(k).keys()];   // at[pos] = strand
+    const levels = []; const partners = [...Array(k)].map(() => []);
+    for (let l = 0; l < M; l++) {
+      const sw = [];
+      const order = H.shuffle([...Array(k - 1).keys()], rnd);
+      // a swap is allowed only if neither string's previous crossing was with the other (never the same partner twice
+      // in a row — drawn at random a pair that just crossed swaps straight back, 2026-10-12: 0 of 20 schedules passed)
+      const fresh = (q) => { const x = at[q], y = at[q + 1]; const lx = partners[x][partners[x].length - 1], ly = partners[y][partners[y].length - 1]; return lx !== y && ly !== x; };
+      for (const q of order) if (fresh(q) && !sw.some((x) => Math.abs(x - q) < 2) && rnd() < (cfg.swapP || 0.62)) sw.push(q);
+      if (!sw.length) { const q = order.find(fresh); if (q === undefined) break; sw.push(q); }
+      for (const q of sw) { const a = at[q], b = at[q + 1]; partners[a].push(b); partners[b].push(a); at[q] = b; at[q + 1] = a; }
+      levels.push(sw);
+    }
+    if (levels.length < M) { fail(['a level with no fresh crossing']); continue; }
+    const nX = levels.reduce((n, sw) => n + sw.length, 0);
+    const endPos = []; at.forEach((s, pos) => { endPos[s] = pos; });
+    const f = [];
+    if (cfg.crossings && (nX < cfg.crossings[0] || nX > cfg.crossings[1])) f.push('crossings ' + nX);
+    if (endPos.some((pos, s) => pos === s)) f.push('not a derangement');
+    for (let s = 0; s < k; s++) {
+      if (new Set(partners[s]).size < 2) f.push('string ' + (s + 1) + ' crosses one other');
+      for (let i = 1; i < partners[s].length; i++) if (partners[s][i] === partners[s][i - 1]) { f.push('string ' + (s + 1) + ' meets the same string twice in a row'); break; }
+    }
+    if (f.length) { fail(f); continue; }
+    // 2. the geometry: each strand's slot at every level boundary, wobbled, then a smooth curve
+    const ys = [...Array(M + 1).keys()].map((l) => yB + (yT - yB) * l / M);
+    const pos = [...Array(k).keys()]; const bnd = [...Array(k)].map(() => []);
+    for (let l = 0; l <= M; l++) {
+      for (let s = 0; s < k; s++) bnd[s].push([cfg.slotX[pos[s]] + (l === 0 || l === M ? 0 : (rnd() - 0.5) * 2 * (cfg.wobble || 0)), ys[l]]);
+      if (l < M) for (const q of levels[l]) { const a = pos.indexOf(q), b = pos.indexOf(q + 1); pos[a] = q + 1; pos[b] = q; }
+    }
+    // straight runs between level boundaries (so every crossing keeps its exact geometric angle — a Catmull-Rom curve
+    // bends a diagonal into an S and flattens it right where the crossing is) with only the corners rounded
+    const pts = bnd.map((b) => roundedPts(b, cfg.cornerR || 16, 8));
+    // 3. measure the DRAWN curves
+    const xs = [];
+    for (let a = 0; a < k; a++) for (let b = a + 1; b < k; b++) {
+      const A = pts[a], B = pts[b];
+      for (let i = 1; i < A.length; i++) for (let j = 1; j < B.length; j++) {
+        const x = segX(A[i - 1], A[i], B[j - 1], B[j]); if (!x) continue;
+        const da = [A[i][0] - A[i - 1][0], A[i][1] - A[i - 1][1]], db = [B[j][0] - B[j - 1][0], B[j][1] - B[j - 1][1]];
+        let ang = Math.abs(Math.atan2(da[0] * db[1] - da[1] * db[0], da[0] * db[0] + da[1] * db[1])) * 180 / Math.PI; if (ang > 90) ang = 180 - ang;
+        xs.push({ x: x[0], y: x[1], a, b, ang });
+      }
+    }
+    if (xs.length !== nX) { fail(['drawn crossings ' + xs.length + ' ≠ scheduled ' + nX]); continue; }
+    if (SG.angle != null && xs.some((c) => c.ang < SG.angle)) { fail(['crossing angle ' + Math.min(...xs.map((c) => c.ang)).toFixed(0)]); continue; }
+    let apartOk = true; for (let i = 0; i < xs.length && apartOk; i++) for (let j = i + 1; j < xs.length; j++) if (Math.hypot(xs[i].x - xs[j].x, xs[i].y - xs[j].y) < (SG.apart || 0)) { apartOk = false; break; }
+    if (!apartOk) { fail(['crossings too close']); continue; }
+    if (SG.near) {
+      const [np, run] = SG.near; let bad = null;
+      for (let a = 0; a < k && !bad; a++) for (let b = a + 1; b < k && !bad; b++) {
+        let len = 0;
+        for (let i = 1; i < pts[a].length; i++) {
+          const p = pts[a][i]; const nearX = xs.some((c) => Math.hypot(c.x - p[0], c.y - p[1]) < 20);
+          const d = Math.min(...pts[b].map((q) => Math.hypot(q[0] - p[0], q[1] - p[1])));
+          if (d < np && !nearX) { len += Math.hypot(p[0] - pts[a][i - 1][0], p[1] - pts[a][i - 1][1]); if (len > run) { bad = 'strings ' + (a + 1) + '/' + (b + 1) + ' run close'; break; } } else len = 0;
+        }
+      }
+      if (bad) { fail([bad]); continue; }
+    }
+    const lens = pts.map((p) => p.reduce((n, q, i) => (i ? n + Math.hypot(q[0] - p[i - 1][0], q[1] - p[i - 1][1]) : 0), 0));
+    if (SG.ratio != null && Math.min(...lens) < SG.ratio * Math.max(...lens)) { fail(['length ratio ' + (Math.min(...lens) / Math.max(...lens)).toFixed(2)]); continue; }
+    // which string passes OVER at each crossing: alternate along each string where possible (over, under, over …)
+    const seen = [...Array(k)].map(() => 0);
+    for (const c of xs.sort((p, q) => q.y - p.y)) { const aOver = seen[c.a] % 2 === 0; c.over = aOver ? c.a : c.b; seen[c.a]++; seen[c.b]++; }
+    return { strands: pts.map((p, s) => ({ pts: p, start: p[0], end: p[p.length - 1], from: s, to: endPos[s] })), crossings: xs, perm: endPos, attempts: t + 1,
+      m: { crossings: nX, minAngle: Math.min(...xs.map((c) => c.ang)), ratio: Math.min(...lens) / Math.max(...lens) } };
+  }
+  return { fail: lastFail };
+}
+
+/**
+ * HEX HOP (F13 letter hop, design B 3.13): no corridors. A pointy-top honeycomb (cols × rows, odd rows shifted half a
+ * cell); a RUN of `run` letters taken from the alphabet at a seeded start (so the child begins mid-alphabet, not at A)
+ * is laid as a self-avoiding walk of touching cells from a bottom-row cell; every other cell carries a decoy letter.
+ * cfg: cols rows cellW rowPitch x0 y0 run startIdx [lo, hi] K  gates.hex { turns, near:[every, share], up }
+ * Gates (FINAL §3 F13): EXACTLY ONE valid run on the page (searched from every cell that holds the run's first letter);
+ * ≥ turns direction changes; beside EVERY step ≥ 1 near-miss decoy (the next-but-one letter, the previous letter, a
+ * look-alike, the letters just outside the run) and beside ≥ share of steps ≥ 2; the letter after the run's end
+ * never touches the last cell (the child must stop there); up-moves ≤ up of the steps.
+ * Returns { P (cell centres), adj (all touching cells), labels: Map, route (the run's cells), s, g, run (letters), m }.
+ */
+function generateHexHop(cfg, seq, rnd, lookalike) {
+  const C = cfg.cols, R = cfg.rows, N = C * R; const HG = (cfg.gates && cfg.gates.hex) || {};
+  const id = (c, r) => r * C + c; const col = (v) => v % C, row = (v) => Math.floor(v / C);
+  const P = []; for (let r = 0; r < R; r++) for (let c = 0; c < C; c++) P.push([cfg.x0 + c * cfg.cellW + (r % 2) * cfg.cellW / 2, cfg.y0 + r * cfg.rowPitch]);
+  const adj = P.map(() => []);
+  for (let r = 0; r < R; r++) for (let c = 0; c < C; c++) {
+    const v = id(c, r); const nb = [[c - 1, r], [c + 1, r]];
+    const dc = r % 2 ? [0, 1] : [-1, 0];   // odd rows sit half a cell to the right
+    for (const rr of [r - 1, r + 1]) for (const d of dc) nb.push([c + d, rr]);
+    for (const [cc, rr] of nb) if (cc >= 0 && cc < C && rr >= 0 && rr < R) adj[v].push(id(cc, rr));
+  }
+  const K = cfg.K || 600; let lastFail = null;
+  const fail = (r) => { lastFail = r; if (cfg.tally) for (const x of r) { const kk = String(x).replace(/[0-9.]+/g, '#'); cfg.tally[kk] = (cfg.tally[kk] || 0) + 1; } };
+  const dirOf = (a, b) => Math.round(Math.atan2(P[b][1] - P[a][1], P[b][0] - P[a][0]) * 3 / Math.PI);
+  for (let t = 0; t < K; t++) {
+    const si = cfg.startIdx[0] + Math.floor(rnd() * (cfg.startIdx[1] - cfg.startIdx[0] + 1));
+    const run = seq.slice(si, si + cfg.run); if (run.length < cfg.run) { fail(['alphabet too short']); continue; }
+    // 1. the walk: self-avoiding from a bottom-row cell, leaning upward, never into a dead pocket
+    const walk = [id(Math.floor(rnd() * C), R - 1)]; const on = new Set(walk);
+    while (walk.length < cfg.run) {
+      const v = walk[walk.length - 1]; const nx = adj[v].filter((w) => !on.has(w));
+      if (!nx.length) break;
+      const w = nx.map((x) => [x, (row(x) < row(v) ? 1.0 : row(x) === row(v) ? 0.9 : 0.45) * rnd()]).sort((a, b) => b[1] - a[1])[0][0];
+      walk.push(w); on.add(w);
+    }
+    if (walk.length < cfg.run) { fail(['walk stuck']); continue; }
+    let turns = 0, ups = 0;
+    for (let i = 1; i < walk.length; i++) { if (row(walk[i]) < row(walk[i - 1])) ups++; if (i > 1 && dirOf(walk[i - 2], walk[i - 1]) !== dirOf(walk[i - 1], walk[i])) turns++; }
+    if (HG.turns != null && turns < HG.turns) { fail(['turns ' + turns]); continue; }
+    if (HG.up != null && ups > HG.up * (walk.length - 1)) { fail(['up moves ' + ups]); continue; }
+    // 2. the letters: the run on the walk, near-miss decoys beside it, any other letters elsewhere
+    const labels = new Map(); walk.forEach((v, i) => labels.set(v, run[i]));
+    const after = seq[si + cfg.run], before = seq[si - 1];
+    // look-alikes are lists ({ M: ['N', 'W'] }): spread them in as single letters (2026-10-12: a whole list became one
+    // cell's 'letter'), and keep only letters of this alphabet
+    const nearOf = (i) => [run[i + 1], run[i - 1], ...((lookalike && lookalike[run[i]]) || []), before, after].filter((x) => typeof x === 'string' && x !== run[i] && seq.includes(x));
+    const others = seq.filter((x) => !run.includes(x));
+    for (let v = 0; v < N; v++) {
+      if (labels.has(v)) continue;
+      const besideStep = walk.map((u, i) => (adj[u].includes(v) ? i : -1)).filter((i) => i >= 0);
+      if (besideStep.length && rnd() < 0.8) { const i = besideStep[Math.floor(rnd() * besideStep.length)]; const pool = nearOf(i); labels.set(v, pool[Math.floor(rnd() * pool.length)]); }
+      else labels.set(v, (rnd() < 0.5 ? run : others.length ? others : run)[Math.floor(rnd() * (rnd() < 0.5 ? run.length : (others.length || run.length)))] || run[0]);
+    }
+    // repair: a step with no near-miss neighbour gets one (a free cell beside the choice point takes a near letter; never
+    // the letter after the run beside its last cell) — left to chance, most rejected pages failed only this
+    for (let i = 1; i < walk.length; i++) {
+      const near = nearOf(i); const free = adj[walk[i - 1]].filter((w) => !on.has(w));
+      if (!free.length || free.some((w) => near.includes(labels.get(w)))) continue;
+      const w = free[Math.floor(rnd() * free.length)]; const pick = near.filter((x) => !(x === after && adj[walk[walk.length - 1]].includes(w)));
+      if (pick.length) labels.set(w, pick[Math.floor(rnd() * pick.length)]);
+    }
+    // the letter after the run never touches its last cell
+    if (after && adj[walk[walk.length - 1]].some((w) => labels.get(w) === after)) { fail(['the next letter touches the end']); continue; }
+    // near misses beside every step (the choice made from walk[i-1] to walk[i])
+    let every = true, two = 0;
+    for (let i = 1; i < walk.length; i++) {
+      const near = new Set(nearOf(i)); const n = adj[walk[i - 1]].filter((w) => !on.has(w) && near.has(labels.get(w))).length;
+      if (n < 1) every = false; if (n >= 2) two++;
+    }
+    if (HG.near && (!every || two < HG.near[1] * (walk.length - 1))) { fail(['near misses' + (every ? ' ' + two : ' (a step with none)')]); continue; }
+    // every cell holds exactly one letter of this alphabet
+    if ([...labels.values()].some((x) => typeof x !== 'string' || !seq.includes(x))) { fail(['a cell without a letter']); continue; }
+    // EXACTLY ONE valid run on the whole page
+    let count = 0;
+    const dfs = (v, i, seen) => { if (count > 1) return; if (i === run.length - 1) { count++; return; } for (const w of adj[v]) if (!seen.has(w) && labels.get(w) === run[i + 1]) { seen.add(w); dfs(w, i + 1, seen); seen.delete(w); } };
+    for (let v = 0; v < N; v++) if (labels.get(v) === run[0]) dfs(v, 0, new Set([v]));
+    if (count !== 1) { fail(['valid runs ' + count]); continue; }
+    return { P, adj, labels, route: walk, s: walk[0], g: walk[walk.length - 1], run, attempts: t + 1, m: { start: si, turns, ups, nearTwo: two } };
+  }
+  return { fail: lastFail };
+}
+
+module.exports = { generateTree, generateLooped, generateLayers, generateStreets, generateForest, generateStrands, generateHexHop, gateTree };

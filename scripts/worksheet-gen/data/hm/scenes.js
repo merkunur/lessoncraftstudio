@@ -168,7 +168,7 @@ const SCENES = {
       box: { w: 675, h: 700 }, frame: { x0: 52, y0: 46, x1: 623, y1: 654 }, r: 104, minAngle: 55, W: 36, branches: 8, size: [1, 3], fill: 0, loops: 5, K: 260,
       gates: { clear: 53 },
     },
-    labels: { rule: 'pred', op: '+', target: 10, a: [0, 10], b: [0, 10], route: 10, glyph: 'text', fontPx: 26, shape: 'pill', size: [96, 50], stoneR: 48, decoyCount: 10, badge: true },
+    labels: { rule: 'pred', op: '+', target: 10, a: [0, 10], b: [0, 10], route: 10, glyph: 'text', fontPx: 26, shape: 'pill', size: [86, 48], stoneR: 44, decoyCount: 10, badge: true },
     hero: { src: 'zoo animals/giraffe', h: 110 },
     goal: { src: 'tree/baobab', h: 132 },
     cast: [{ src: 'zoo animals/elephant', h: 70, optional: true }, { src: 'zoo animals/zebra', h: 62, optional: true }, { src: 'zoo animals/rhinoceros', h: 56, optional: true }, { src: 'birds/ostrich', h: 64, optional: true }, { src: 'zoo animals/meerkat', h: 46, optional: true }, { src: 'zoo animals/gazelle', h: 56, optional: true }],
@@ -184,7 +184,7 @@ const SCENES = {
       box: { w: 675, h: 700 }, frame: { x0: 52, y0: 46, x1: 623, y1: 654 }, r: 104, minAngle: 55, W: 36, branches: 8, size: [1, 3], fill: 0, loops: 5, K: 260,
       gates: { clear: 53 },
     },
-    labels: { rule: 'pred', op: '-', target: [8, 9], a: [10, 18], b: [2, 9], route: 8, glyph: 'text', fontPx: 26, shape: 'pill', size: [100, 50], stoneR: 50, decoyCount: 8, badge: true },
+    labels: { rule: 'pred', op: '-', target: [8, 9], a: [10, 18], b: [2, 9], route: 8, glyph: 'text', fontPx: 26, shape: 'pill', size: [86, 48], stoneR: 44, decoyCount: 8, badge: true },
     hero: { src: 'bakery/gingerbread_man', h: 88 },
     goal: { src: 'desserts and sweets/cake', h: 88 },
     cast: [{ src: 'desserts and sweets/cupcake', h: 54, optional: true }, { src: 'desserts and sweets/donut', h: 48, optional: true }, { src: 'desserts and sweets/lollipop', h: 60, optional: true }, { src: 'desserts and sweets/ice_cream', h: 60, optional: true }, { src: 'desserts and sweets/candy_cane', h: 56, optional: true }, { src: 'desserts and sweets/macaron', h: 40, optional: true }, { src: 'desserts and sweets/popsicle', h: 56, optional: true }],
@@ -335,6 +335,37 @@ const SCENES = {
     cast: [{ src: 'flowers/cornflower', h: 46, optional: true }, { src: 'flowers/buttercup', h: 44, optional: true },
       { src: 'insects and bugs/butterfly', h: 36, optional: true }, { src: 'insects and bugs/bee', h: 30, optional: true }],
     texture: { n: 22, gap: 44, kinds: ['tuft', 'dot'], colours: { tuft: ['#D9BE6E', '#CDB062'], dot: ['#F2A7C4', '#E58A4E'] } },
+  },
+  // ------------------------------------------------------------------ F8 G1-423 tangled lines: whose kite?
+  // No corridors and no choices (generator 'strands', composer composeStrands): four strings from four numbered holders
+  // at the bottom to four goals at the top, crossing 8-10 times over six levels (a swap schedule: the end order is a
+  // derangement, every string crosses at least two others, never the same one twice in a row). The child follows each
+  // string and writes the holder's number in the box above the goal. Straight runs between levels keep every crossing
+  // at its geometric angle (53°); corners rounded; over / under drawn with a sky-coloured halo.
+  'hilltop-kites': {
+    H: 716, sky: '#CFE6F5', hill: '#9FCF7C', hillY: 600,
+    strings: { ink: '#4A3F36', width: 10 },
+    slotX: [127, 267, 407, 547], knotY: 158, boxY: 16, holderFeetY: 708,
+    discXY: [[127, 606], [267, 606], [407, 606], [547, 606]],
+    goals: [{ src: 'spring/kite', h: 72 }, { src: 'beach/kite', h: 72 }, { src: 'Things That Fly/kite', h: 74 }, { src: 'Things That Fly/balloon', h: 70 }],
+    holders: [{ src: 'forest creatures/fox', h: 64 }, { src: 'forest creatures/raccoon', h: 62 }, { src: 'forest creatures/squirrel', h: 62 }, { src: 'forest creatures/badger', h: 52 }],
+    cast: [{ src: 'weather/cloud', at: [52, 330], h: 38, centre: true }, { src: 'Things That Fly/bird', at: [626, 300], h: 34, centre: true }, { src: 'flowers/clover', at: [44, 704], h: 30 }],
+    maze: {
+      gen: 'strands', k: 4, M: 6, slotX: [127, 267, 407, 547], levelY: [580, 168], wobble: 12, swapP: 0.85, crossings: [8, 10], K: 1500,
+      gates: { strands: { angle: 50, apart: 30, near: [14, 40], ratio: 0.8 } },
+    },
+  },
+  // ------------------------------------------------------------------ F13 G1-426 letter hop: the bear's honeycomb
+  // No corridors (generator 'hex', composer composeHex): a 7 × 7 honeycomb, a run of 14 capitals from a seeded MID
+  // letter (the Nordic alphabets end on their last letter), exactly one valid run, near-miss decoys beside every step.
+  // The start disc points into the run's first cell; no flag (it would mark the end) — the instruction names {LAST}.
+  'honeycomb-bear': {
+    H: 716, field: '#F3DE95',
+    hex: { cellW: 85, comb: [8, 80, 659, 562], combFill: '#F7D27A', cellFill: '#FFF6D6', cellEdge: '#E0B44E', capH: 34 },
+    hero: { src: 'forest creatures/bear', h: 70 },
+    goal: { src: 'breakfast/honey', h: 58, at: [640, 82] },
+    cast: [{ src: 'insects and bugs/bee', at: [44, 44], h: 32 }, { src: 'flowers/sunflower', at: [36, 674], h: 58 }, { src: 'flowers/clover', at: [646, 694], h: 28 }],
+    maze: { gen: 'hex', cols: 7, rows: 7, cellW: 85, rowPitch: 74, x0: 61, y0: 136, run: 14, K: 2000, gates: { hex: { turns: 5, near: [1, 0.5], up: 0.65 } } },
   },
 };
 

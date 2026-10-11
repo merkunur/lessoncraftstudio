@@ -12,10 +12,10 @@
  */
 'use strict';
 const { generateTree } = require('../../lib/hm-maze.js');
-const { composeScene } = require('../../lib/hm-scene.js');
+const { composeScene, composeStrands, composeHex } = require('../../lib/hm-scene.js');
 const { SCENES } = require('../../data/hm/scenes.js');
 const { withSlots } = require('../../lib/hm-slots.js');
-const { generateLooped, generateLayers, generateStreets, generateForest } = require('../../lib/hm-maze.js');
+const { generateLooped, generateLayers, generateStreets, generateForest, generateStrands, generateHexHop } = require('../../lib/hm-maze.js');
 const R = require('../../lib/hm-rules.js');
 const { COLLATION } = require('../../data/b2/collation.js');
 
@@ -44,7 +44,12 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
   const T = Math.max(tries, sc.tries || 0);
   for (let t = 0; t < T; t++) {
     let m;
-    if (sc.labels && sc.labels.rule === 'seq') {
+    if (sc.maze.gen === 'hex') {
+      // F13: a 14-letter run from a seeded mid-alphabet start; the Nordic alphabets (Å / Ö at the end) end on their last letter
+      const seq = sequenceFor({ alphabet: true, case: 'upper' }, locale); const L = seq.length; const n = sc.maze.run;
+      const loc = String(locale || 'en').slice(0, 2); const startIdx = ['sv', 'da', 'no', 'fi'].includes(loc) ? [L - n, L - n] : [4, L - n];
+      m = generateHexHop({ ...sc.maze, startIdx }, seq, rng.next, R.LOOKALIKE_UPPER);
+    } else if (sc.labels && sc.labels.rule === 'seq') {
       const seq = sequenceFor(sc.labels, locale); const L = sc.labels;
       const r = (L.rByLen && L.rByLen[seq.length]) || sc.maze.r;
       const kind = L.alphabet ? (L.case === 'lower' ? 'lower' : 'upper') : 'number';
@@ -78,6 +83,7 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
     } else if (sc.maze.gen === 'layers') m = generateLayers(sc.maze, rng.next);   // F5: soil levels joined by shafts
     else if (sc.maze.gen === 'streets') m = generateStreets(sc.maze, rng.next);     // F6: a street lattice, ONE shortest way
     else if (sc.maze.gen === 'forest') m = generateForest({ ...sc.maze, paddocks: sc.paddocks }, rng.next);   // F7: k trees, baby → mother by a derangement
+    else if (sc.maze.gen === 'strands') m = generateStrands(sc.maze, rng.next);     // F8: strings through crossings, no choices
     else m = generateTree(sc.maze, rng.next);
     if (m && !m.fail) return { sc, m };
     last = m && m.fail;
@@ -94,13 +100,26 @@ function traceOracle(B) {
   for (const e of T.edges) { adj[e.a].push(e.b); adj[e.b].push(e.a); }
   // a LOOPED label face: the one path whose interior labels obey the printed rule (the path is [virtual start, start
   // station, …labelled stations…, goal station, virtual goal]); exactly one, or the page is wrong
+  // an open-ended letter run (F13 hex hop): a dense honeycomb has astronomically many simple paths, so search only along
+  // the alphabet — from the start, every next cell must touch the last and carry the next letter; exactly one run
+  if (T.rule && T.rule.openEnd && T.rule.kind === 'seq') {
+    return T.routes.map((r) => {
+      const seq = T.rule.seq; const found = [];
+      const go = (path) => { if (found.length > 1) return; const v = path[path.length - 1]; const i = path.length - 2;   // path[0] = the virtual start
+        if (i === seq.length - 1) { found.push(path.slice()); return; }
+        for (const w of adj[v]) if (!path.includes(w) && T.labels[w] === seq[i + 1]) { path.push(w); go(path); path.pop(); } };
+      for (const w of adj[r.start]) if (T.labels[w] === seq[0]) go([r.start, w]);
+      if (found.length !== 1) throw new Error('K-405 oracle: ' + found.length + ' valid letter runs on the page');
+      return found[0];
+    });
+  }
   if (T.rule) {
     const R = require('../../lib/hm-rules.js');
     const rule = T.rule.kind === 'seq' ? R.seqRule(T.rule.seq) : T.rule.kind === 'pred' ? R.predRule(T.rule) : T.rule.kind === 'ops' ? R.opsRule(T.rule) : T.rule.kind === 'sound' ? R.soundRule(T.rule) : T.rule.kind === 'collect' ? R.collectRule(T.rule) : T.rule.kind === 'avoid' ? R.avoidRule(T.rule) : null;
     if (!rule) throw new Error('K-405 oracle: unknown rule ' + T.rule.kind);
     return T.routes.map((r) => {
       const label = new Map(T.labels.map((l, i) => [i, l]));
-      const found = R.validPaths(adj, r.start, r.goal, label, (L) => rule.valid(L.slice(1, -1)));
+      const found = R.validPaths(adj, r.start, r.goal, label, (L) => rule.valid(T.rule.openEnd ? L.slice(1) : L.slice(1, -1)));
       if (found.paths.length !== 1) throw new Error('K-405 oracle: ' + found.paths.length + ' valid paths on the page');
       return found.paths[0];
     });
@@ -176,16 +195,17 @@ module.exports = {
     let sc, m, out, lastMissing = [];
     for (let a = 0; a < 12; a++) {
       ({ sc, m } = mazeFor(d.scene, ctx.rng, 12, locale));
-      out = composeScene(sc, m, { key, rnd: ctx.rng.next, screen: !!(ctx && ctx.interactive) });
+      out = sc.maze.gen === 'strands' ? composeStrands(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : sc.maze.gen === 'hex' ? composeHex(sc, m, { key }) : composeScene(sc, m, { key, rnd: ctx.rng.next, screen: !!(ctx && ctx.interactive) });
       if (!out.missing.length) break;
       lastMissing = out.missing;
     }
     if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + lastMissing.join(', '));
-    const meta = { mode: d.mode, scene: d.scene, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route.join('-') };
+    const meta = { mode: d.mode, scene: d.scene, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route ? m.route.join('-') : m.perm.join('-'), crossings: m.m.crossings };
     // T2 faces: the scene (640) + a 12 px gap + a 64 px LEGEND STRIP under it, language-free (design C, F6 F9 F10 F18)
     const strip = sc.strip ? stripSvg(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : '';
     const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px">${out.svg}${strip}</div>`;
-    return { bodyHtml, meta };
+    // F13 names the run's last letter in its instruction ({LAST}, filled by render-instance on every page)
+    return { bodyHtml, meta, ...(m.run ? { tokens: { LAST: m.run[m.run.length - 1] } } : {}) };
   },
 
   async verify(page) {

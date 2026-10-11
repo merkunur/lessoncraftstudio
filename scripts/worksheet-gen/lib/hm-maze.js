@@ -87,4 +87,68 @@ function generateTree(cfg, rnd) {
   return { fail: lastFail };
 }
 
-module.exports = { generateTree, gateTree };
+/**
+ * LOOPED label maze (faces F9-F19, pedagogy P1). cfg as generateTree plus:
+ *   seqLen   interior route stations (the rule's answer length); route = seqLen + 2 mouths
+ *   loops    extra candidate edges (never route–route, degree ≤ 4)
+ *   stoneR   the stone's radius (a stone sits on its station; clearance stoneR + W/2 + 8 from every other corridor)
+ *   label(adj, route, rnd) → { label: Map, ...stats } | null   (the face's assigner, lib/hm-rules.js)
+ *   rule     { valid(labels, path) }                            (the face's rule)
+ *   lgates   { decoys, nearShare }                              (assigner stats gates)
+ * Gates (P1): exactly ONE valid simple path, and it is the route; ≥ 4 simple paths; every shortest path is wrong;
+ * rule route ≥ shortest + 3 stations; ≥ 50 % of wrong exits along the route still reach the goal.
+ */
+function generateLooped(cfg, rnd) {
+  const fr = cfg.frame;
+  const P = H.poisson(rnd, { x0: fr.x0, y0: fr.y0, x1: fr.x1, y1: fr.y1, r: cfg.r, keep: cfg.keep || [] });
+  const Gc = H.gabriel(P, cfg.r * (cfg.rmaxK || 2.05), cfg.minAngle || 55);
+  const s = H.nearest(P, cfg.start), g = H.nearest(P, cfg.goal);
+  if (s < 0 || g < 0 || s === g) return { fail: ['no mouth stations'] };
+  const K = cfg.K || 150; let lastFail = null;
+  const n = cfg.seqLen + 2;
+  for (let k = 0; k < K; k++) {
+    const t = H.buildLooped(P, Gc, s, g, { routeLen: [n, n], branches: cfg.branches, size: cfg.size, bNewest: cfg.bNewest, fill: cfg.fill, loops: cfg.loops, tries: cfg.tries || 30 }, rnd);
+    if (!t) { lastFail = ['no route of ' + n]; continue; }
+    const mid = H.mids(P, t.adj, rnd, 0);
+    const { chains, S } = H.chainsOf(P, t.adj, mid);
+    if (cfg.box) {
+      const half = cfg.W / 2 + 3.5 + 6; let out = null;
+      for (const [kk, ss] of Object.entries(S)) for (const p of ss) if (p[0] < half || p[1] < half || p[0] > cfg.box.w - half || p[1] > cfg.box.h - half) { out = kk; break; }
+      if (out) { lastFail = ['corridor ' + out + ' leaves the box']; continue; }
+    }
+    const clear = H.minClear(S);
+    if (cfg.gates && cfg.gates.clear != null && clear < cfg.gates.clear) { lastFail = ['clear ' + clear.toFixed(1)]; continue; }
+    // stones keep clear of every corridor not incident to their station
+    if (cfg.stoneR) {
+      let bad = null; const need = cfg.stoneR + cfg.W / 2 + 8;
+      for (let v = 0; v < P.length && !bad; v++) { if (!t.adj[v].length || v === s || v === g) continue;
+        for (const [kk, ss] of Object.entries(S)) { const [a, b] = kk.split('-').map(Number); if (a === v || b === v) continue; for (const q of ss) if (H.dist(q, P[v]) < need) { bad = 'stone ' + v + ' on corridor ' + kk; break; } if (bad) break; } }
+      if (bad) { lastFail = [bad]; continue; }
+    }
+    const lab = cfg.label(t.adj, t.route, rnd);
+    if (!lab) { lastFail = ['labels']; continue; }
+    const lg = cfg.lgates || {};
+    if (lg.decoys != null && lab.decoys < lg.decoys) { lastFail = ['decoys ' + lab.decoys]; continue; }
+    if (lg.nearShare != null && lab.nearShare < lg.nearShare) { lastFail = ['nearShare ' + lab.nearShare.toFixed(2)]; continue; }
+    if (lg.reversals != null && (lab.reversals || 0) < lg.reversals) { lastFail = ['reversals ' + (lab.reversals || 0)]; continue; }
+    const R = require('./hm-rules.js');
+    const vp = R.validPaths(t.adj, s, g, lab.label, cfg.rule.valid);
+    if (!vp.exhausted) { lastFail = ['search not exhausted']; continue; }
+    if (vp.paths.length !== 1 || vp.paths[0].join('-') !== t.route.join('-')) { lastFail = ['valid paths ' + vp.paths.length]; continue; }
+    const all = H.simplePaths(t.adj, s, g, 300000);
+    if (all.length < 4) { lastFail = ['paths ' + all.length]; continue; }
+    let minLen = 1e9; for (const p of all) minLen = Math.min(minLen, p.length);
+    if (all.some((p) => p.length === minLen && p.join('-') === t.route.join('-'))) { lastFail = ['the shortest path is the rule route']; continue; }
+    if (t.route.length - minLen < 3) { lastFail = ['extra ' + (t.route.length - minLen)]; continue; }
+    let wrong = 0, live = 0;
+    for (let i = 1; i < t.route.length - 1; i++) for (const w of t.adj[t.route[i]]) { if (w === t.route[i - 1] || w === t.route[i + 1]) continue; wrong++; if (H.reaches(t.adj, w, g, t.route[i])) live++; }
+    if (wrong && live / wrong < 0.5) { lastFail = ['live ' + (live / wrong).toFixed(2)]; continue; }
+    const mouths = mouthChains(cfg, P, s, g, S);
+    if (mouths.fail) { lastFail = [mouths.fail]; continue; }
+    return { P, adj: t.adj, mid, chains: chains.concat(mouths.chains), S, mouthS: mouths.S, route: t.route, s, g, loops: t.loops, labels: lab.label,
+      m: { route: t.route.length, paths: all.length, shortest: minLen, live: wrong ? live / wrong : 1, decoys: lab.decoys, nearShare: lab.nearShare, clear }, W: cfg.W, attempts: k + 1 };
+  }
+  return { fail: lastFail };
+}
+
+module.exports = { generateTree, generateLooped, gateTree };

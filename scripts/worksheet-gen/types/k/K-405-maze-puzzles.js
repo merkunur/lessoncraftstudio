@@ -14,6 +14,10 @@
 const { generateTree } = require('../../lib/hm-maze.js');
 const { composeScene } = require('../../lib/hm-scene.js');
 const { SCENES } = require('../../data/hm/scenes.js');
+const { withSlots } = require('../../lib/hm-slots.js');
+const { generateLooped } = require('../../lib/hm-maze.js');
+const R = require('../../lib/hm-rules.js');
+const { COLLATION } = require('../../data/b2/collation.js');
 
 const D = {
   1: { mode: 'base', scene: 'orchard-hedgehog' },
@@ -22,11 +26,28 @@ const D = {
 };
 
 /** build the gated maze for a scene from the instance rng (the FIRST rng use; the oracle replays it) */
-function mazeFor(sceneId, rng, tries = 12) {
-  const sc = SCENES[sceneId]; if (!sc) throw new Error('K-405: unknown scene ' + sceneId);
+/** the label sequence a face's rule walks, for a locale (the locale's own school alphabet / the number run) */
+function sequenceFor(L, locale) {
+  const loc = String(locale || 'en').slice(0, 2);
+  if (L.alphabet) { const C = COLLATION[loc]; if (!C) throw new Error('K-405: no collation for ' + loc); return C.strip.map((c) => (L.case === 'lower' ? c : c.toLocaleUpperCase(loc))); }
+  if (L.numbers) { const out = []; for (let v = L.numbers[0]; v <= L.numbers[1]; v += L.numbers[2] || 1) out.push(String(v)); return out; }
+  throw new Error('K-405: the label config names no sequence');
+}
+
+function mazeFor(sceneId, rng, tries = 12, locale) {
+  if (!SCENES[sceneId]) throw new Error('K-405: unknown scene ' + sceneId);
+  const sc = withSlots(SCENES[sceneId]);
   let last = null;
   for (let t = 0; t < tries; t++) {
-    const m = generateTree(sc.maze, rng.next);
+    let m;
+    if (sc.labels && sc.labels.rule === 'seq') {
+      const seq = sequenceFor(sc.labels, locale); const L = sc.labels;
+      const r = (L.rByLen && L.rByLen[seq.length]) || sc.maze.r;
+      const kind = L.alphabet ? (L.case === 'lower' ? 'lower' : 'upper') : 'number';
+      const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 28)]);   // a stone must not reach under the hero / goal
+      m = generateLooped({ ...sc.maze, keep, r, seqLen: seq.length, stoneR: L.stoneR || (L.size ? Math.max(L.size[0], L.size[1]) / 2 : 28), label: (adj, route, rnd) => R.assignSequence(adj, route, seq, rnd, kind), rule: R.seqRule(seq), lgates: { decoys: L.decoyCount || Math.ceil((L.decoyMin || 0.55) * seq.length), nearShare: L.nearShare == null ? 0.9 : L.nearShare, reversals: L.reversalMin } }, rng.next);
+      if (m && !m.fail) m.ruleStamp = { kind: 'seq', seq };
+    } else m = generateTree(sc.maze, rng.next);
     if (m && !m.fail) return { sc, m };
     last = m && m.fail;
   }
@@ -40,6 +61,19 @@ function mazeFor(sceneId, rng, tries = 12) {
 function traceOracle(B) {
   const T = B.ctx.trace; const adj = T.nodes.map(() => []);
   for (const e of T.edges) { adj[e.a].push(e.b); adj[e.b].push(e.a); }
+  // a LOOPED label face: the one path whose interior labels obey the printed rule (the path is [virtual start, start
+  // station, …labelled stations…, goal station, virtual goal]); exactly one, or the page is wrong
+  if (T.rule) {
+    const R = require('../../lib/hm-rules.js');
+    const rule = T.rule.kind === 'seq' ? R.seqRule(T.rule.seq) : null;
+    if (!rule) throw new Error('K-405 oracle: unknown rule ' + T.rule.kind);
+    return T.routes.map((r) => {
+      const label = new Map(T.labels.map((l, i) => [i, l]));
+      const found = R.validPaths(adj, r.start, r.goal, label, (L) => rule.valid(L.slice(1, -1)));
+      if (found.paths.length !== 1) throw new Error('K-405 oracle: ' + found.paths.length + ' valid paths on the page');
+      return found.paths[0];
+    });
+  }
   return T.routes.map((r) => {
     const prev = new Map([[r.start, -1]]); const q = [r.start];
     while (q.length) { const c = q.shift(); if (c === r.goal) break; for (const n of adj[c]) if (!prev.has(n)) { prev.set(n, c); q.push(n); } }
@@ -66,9 +100,9 @@ module.exports = {
   mazeFor,
   interactive: { kind: 'trace-path', instructionKey: () => 'mz-base', oracle: traceOracle },
 
-  build({ difficulty }, ctx) {
+  build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
-    const { sc, m } = mazeFor(d.scene, ctx.rng);
+    const { sc, m } = mazeFor(d.scene, ctx.rng, 12, locale);
     const key = !!(ctx && ctx.answerKey);
     const out = composeScene(sc, m, { key, rnd: ctx.rng.next });
     if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + out.missing.join(', '));

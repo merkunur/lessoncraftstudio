@@ -416,18 +416,25 @@ async function playTrace(page, html, oracle) {
   for (const w of WIDTHS) {
     await page.setViewport({ width: w, height: 1100, deviceScaleFactor: 1 });
     await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    // the layout must SETTLE before the stage is measured (2026-10-11: the web font loaded mid-run, the header grew 18 px,
+    // and every drag point after it missed its corridor)
+    // (bounded: a lazy / offscreen image may never fire load)
+    await page.evaluate(async () => { await document.fonts.ready; await Promise.race([Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; })))), new Promise((r) => setTimeout(r, 3000))]); await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); });
     const B = await page.evaluate(() => window.DECK_BUNDLE);
     if (!B || !B.ctx || !B.ctx.trace) { fails.push(`${w}px: no trace bundle`); return fails; }
     const T = B.ctx.trace;
-    const routes = oracle(B);
+    let routes; try { routes = oracle(B); } catch (e) { fails.push(w + 'px: oracle: ' + e.message); return fails; }
     const box = async () => page.evaluate(() => { const r = document.getElementById('lcs-stage').getBoundingClientRect(); return { x: r.left, y: r.top + window.scrollY, w: r.width, h: r.height }; });
     const scr = (p, b) => [b.x + p[0] * b.w / 100, b.y + p[1] * b.h / 100 - (0)];
     const edgeOf = (a, c) => T.edges.find((e) => (e.a === a && e.b === c) || (e.a === c && e.b === a));
+    // one pointer sample per animation frame, as a finger produces them (a robot faster than the frame rate gets its moves
+    // merged by the browser into one far jump, which the runtime rightly refuses: ink never jumps across a wall)
+    const frame = () => page.evaluate(() => new Promise((r) => requestAnimationFrame(() => r())));
     const drag = async (seq) => {
       await page.evaluate(() => window.scrollTo(0, 0)); const b = await box();
       const s = scr(T.nodes[seq[0]], b); await page.mouse.move(s[0], s[1]); await page.mouse.down();
       for (let i = 1; i < seq.length; i++) { const e = edgeOf(seq[i - 1], seq[i]); if (!e) { await page.mouse.up(); return false; }
-        const pts = e.a === seq[i - 1] ? e.pts : e.pts.slice().reverse(); for (const p of pts.slice(1)) { const q = scr(p, b); await page.mouse.move(q[0], q[1], { steps: 2 }); } }
+        const pts = e.a === seq[i - 1] ? e.pts : e.pts.slice().reverse(); for (const p of pts.slice(1)) { const q = scr(p, b); await page.mouse.move(q[0], q[1], { steps: 2 }); await frame(); } }
       await page.mouse.up(); return true;
     };
     const check = async () => { await page.evaluate(() => { const c = document.getElementById('lcs-check'); if (c && !c.disabled && !c.hidden) c.click(); }); await new Promise((r) => setTimeout(r, 650));
@@ -439,7 +446,7 @@ async function playTrace(page, html, oracle) {
     // 1. the oracle's route(s)
     for (const r of routes) if (!(await drag(r))) fails.push(`${w}px: the oracle route uses an undeclared edge`);
     let st = await check();
-    if (!st.celebrate) fails.push(`${w}px: the correct route did not reach the celebration`);
+    if (!st.celebrate) { const dbg = await page.evaluate(() => { const t = window.__lcsTrace; return t ? { stack: t.R()[0].stack.join('-'), path: (t.T.routes[0].path || []).join('-') } : null; }); fails.push(`${w}px: the correct route did not reach the celebration` + (dbg ? ` (drawn ${dbg.stack} | answer ${dbg.path})` : '')); }
     // 2. a straight drag start → goal across the walls
     await reset();
     { const b = await box(); const s = scr(T.nodes[T.routes[0].start], b), g = scr(T.nodes[T.routes[0].goal], b); await page.mouse.move(s[0], s[1]); await page.mouse.down(); await page.mouse.move(g[0], g[1], { steps: 40 }); await page.mouse.up(); }
@@ -489,7 +496,7 @@ async function main() {
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
         : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
-        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); T.routes[0].goal = leaf; return B.answers; })()
+        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); T.routes[0].goal = leaf; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf]); return B.answers; })()
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
@@ -498,7 +505,7 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var done=r.stack[r.stack.length-1]===T.routes[k].goal;', 'var done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {

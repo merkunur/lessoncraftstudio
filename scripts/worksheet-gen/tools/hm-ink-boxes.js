@@ -23,7 +23,7 @@ const resolve = require('../image-cache/resolve.js');
   const BW = /\bbw(\s+\d+)?$/i;
   let n = 0;
   for (const [theme, t] of Object.entries(m.themes)) {
-    if (BW.test(theme)) continue;
+    // B&W themes included since 2026-10-11 (the maze + colouring face draws line art)
     for (const [noun, e] of Object.entries(t.nouns)) {
       const file = path.join(__dirname, '..', 'cache', 'themes', theme, noun + '@3x.webp');
       if (!fs.existsSync(file)) continue;
@@ -42,5 +42,5 @@ const resolve = require('../image-cache/resolve.js');
   const dst = path.join(__dirname, '..', 'data', 'hm', 'ink-boxes.json');
   fs.mkdirSync(path.dirname(dst), { recursive: true });
   fs.writeFileSync(dst, JSON.stringify(out, null, 0).replace(/},"/g, '},\n"') + '\n');
-  console.log('measured', n, 'colour drawings →', path.relative(process.cwd(), dst));
+  console.log('measured', n, 'drawings →', path.relative(process.cwd(), dst));
 })();

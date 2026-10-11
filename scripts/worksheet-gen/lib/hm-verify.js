@@ -73,8 +73,30 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const { data, info } = await sharp(png).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const w = info.width, h = info.height; const [fr, fg, fb] = hex(graph.fill);
   const M = new Uint8Array(w * h);
-  for (let i = 0; i < M.length; i++) { const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2]; M[i] = Math.abs(r - fr) <= tol && Math.abs(g - fg) <= tol && Math.abs(b - fb) <= tol ? 1 : 0; }
   const D = await rasterDeclared(graph, w, h, scale);
+  // only the scene inside its ROUNDED frame is judged: outside the 18 px corners the page's own paper shows, which may
+  // be the corridor colour (a white cloud road) without being part of the picture (2026-10-11, the dawn sky face)
+  const FR = 18 * scale;   // the frame's corner radius (scene px 18)
+  const inFrame = (x, y) => { const X = Math.min(Math.max(x, FR), w - FR), Y = Math.min(Math.max(y, FR), h - FR); return Math.hypot(x - X, y - Y) <= FR - 1; };
+  if (graph.line) {
+    // LINE-ART page (the colouring face): road and sand are both blank paper; only INK separates them. M = the paper
+    // reachable from the start disc without crossing ink (luma < 170), passing through the declared marker footprints
+    // (an outlined start disc would otherwise trap the flood) — so M is exactly the region the child's pencil can walk.
+    const ink = new Uint8Array(w * h);
+    for (let i = 0; i < ink.length; i++) ink[i] = (0.299 * data[i * 4] + 0.587 * data[i * 4 + 1] + 0.114 * data[i * 4 + 2]) < 170 ? 1 : 0;
+    const stand0 = new Uint8Array(w * h);
+    for (const [sx, sy, sr] of graph.stand || []) for (const p of disc([sx, sy], scale, w, h, Math.round(sr * scale))) stand0[p] = 1;
+    const Dd0 = morph(D, w, h, Math.max(2, Math.round(2 * scale)), true);
+    // inside a hero / goal footprint only the declared road is walkable (a drawing standing on its mouth hides the
+    // road's ink cap: its own blank paper must not open the road onto the sand); everywhere else ANY paper is walkable,
+    // so a missing wall between two roads still leaks and is still caught
+    const pass = new Uint8Array(w * h); for (let i = 0; i < pass.length; i++) pass[i] = stand0[i] ? (Dd0[i] ? 1 : 0) : (!ink[i] ? 1 : 0);
+    const sm0 = graph.mouths.start;
+    const reachedPaper = flood(pass, w, disc(sm0[sm0.length - 1], scale, w, h, Math.max(3, Math.round(graph.W * scale * 0.3))));
+    for (let i = 0; i < M.length; i++) M[i] = reachedPaper[i] && !ink[i] ? 1 : 0;
+  } else {
+    for (let i = 0; i < M.length; i++) { const r = data[i * 4], g = data[i * 4 + 1], b = data[i * 4 + 2]; M[i] = Math.abs(r - fr) <= tol && Math.abs(g - fg) <= tol && Math.abs(b - fb) <= tol ? 1 : 0; }
+  }
   const k = Math.max(2, Math.round(2 * scale));
   const De = morph(D, w, h, k, false), Dd = morph(D, w, h, k, true);
   // the hero and the goal STAND on their mouth ends: their declared footprints (graph.stand: [[x, y, r]] scene px)
@@ -82,11 +104,12 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const stand = new Uint8Array(M.length);
   for (const [sx, sy, sr] of graph.stand || []) for (const p of disc([sx, sy], scale, w, h, Math.round(sr * scale))) stand[p] = 1;
   const miss = new Uint8Array(M.length), extra = new Uint8Array(M.length);
+  // a declared drawing (island art, the hero, the goal) is never a stray road.
   // declared art (graph.art: ink boxes [x0, y0, x1, y1]) may carry pale pixels of the corridor colour (an eye highlight): it is
   // excluded from EXTRA only; a drawing over a corridor is still MISSING (it covers the road)
   const art = new Uint8Array(M.length);
   for (const [a0, b0, a1, b1] of graph.art || []) for (let y = Math.max(0, Math.floor(b0 * scale)); y < Math.min(h, Math.ceil(b1 * scale)); y++) for (let x = Math.max(0, Math.floor(a0 * scale)); x < Math.min(w, Math.ceil(a1 * scale)); x++) art[y * w + x] = 1;
-  for (let i = 0; i < M.length; i++) { miss[i] = De[i] && !M[i] && !stand[i] ? 1 : 0; extra[i] = M[i] && !Dd[i] && !art[i] ? 1 : 0; }
+  for (let i = 0; i < M.length; i++) { miss[i] = De[i] && !M[i] && !stand[i] ? 1 : 0; extra[i] = M[i] && !Dd[i] && !art[i] && !stand[i] && inFrame(i % w, (i / w) | 0) ? 1 : 0; }
   // the start / goal markers stand ON the mouths: the walk passes through their footprint (M ∪ stand, clipped to the
   // declared corridors so a marker can never open a way between two corridors)
   const walk = new Uint8Array(M.length); for (let i = 0; i < M.length; i++) walk[i] = M[i] || (stand[i] && Dd[i]) ? 1 : 0;

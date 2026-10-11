@@ -163,7 +163,8 @@ function buildTree(P, G, s, g, o, rnd) {
     }
   }
   // a root that never grew is a one-edge stub: remove it
-  for (const b of R) if (b.nodes.length === 1) { const v = b.w, c = route[b.i]; adj[c] = adj[c].filter((x) => x !== v); adj[v] = []; claimed.delete(v); }
+  // label faces keep one-station branches: a single stone with a near-miss label IS the wrong choice the child rejects
+  if (!o.keepStubs) for (const b of R) if (b.nodes.length === 1) { const v = b.w, c = route[b.i]; adj[c] = adj[c].filter((x) => x !== v); adj[v] = []; claimed.delete(v); }
   if (o.fill) {
     const br = new Set([...claimed].filter((v) => !route.includes(v)));
     grew = true;
@@ -178,7 +179,7 @@ function buildTree(P, G, s, g, o, rnd) {
 
 /** LOOPED graph: a route-first tree + `loops` extra candidate edges (never route–route, degree ≤ 4, never at a mouth). */
 function buildLooped(P, G, s, g, o, rnd) {
-  const b = buildTree(P, G, s, g, { lo: o.routeLen[0], hi: o.routeLen[1], branches: o.branches, size: o.size, bNewest: o.bNewest == null ? 0.6 : o.bNewest, fill: o.fill, noNearGoal: 0, tries: o.tries || 30 }, rnd);
+  const b = buildTree(P, G, s, g, { lo: o.routeLen[0], hi: o.routeLen[1], branches: o.branches, size: o.size, bNewest: o.bNewest == null ? 0.6 : o.bNewest, fill: o.fill, noNearGoal: 0, keepStubs: o.keepStubs !== false, tries: o.tries || 30 }, rnd);
   if (!b) return null;
   const { adj, route } = b; const onR = new Set(route); const live = (v) => adj[v].length > 0;
   let cand = [];

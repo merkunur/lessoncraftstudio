@@ -2449,5 +2449,10 @@
    "no": "To bildepar: se på bilde 1 i hvert par, og trykk så på hvert sted i bilde 2 som er annerledes.",
    "fi": "Kaksi kuvaparia: katso jokaisen parin kuvaa 1 ja napauta sitten kuvasta 2 jokaista kohtaa, joka on erilainen."
   }
+ },
+ "maze-puzzles": {
+  "mz-base": {
+   "en": "Start at the green circle with the arrow. Drag along the path to the flag."
+  }
  }
 }

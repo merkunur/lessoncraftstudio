@@ -1,0 +1,619 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-10-11T18:14:42.900Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 105,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrinth",
+    "labyrinth kinder",
+    "labyrinth rätsel",
+    "irrgarten",
+    "labyrinth für kinder"
+   ],
+   "requests": 35,
+   "productiveSeeds": 22,
+   "unique": 95,
+   "suggestions": [
+    "irrgarten",
+    "irrgarten alfsee",
+    "irrgarten arbeitsblatt",
+    "irrgarten bollewick",
+    "irrgarten der sinne",
+    "irrgarten hannover",
+    "irrgarten in der nähe",
+    "irrgarten kleinwelka",
+    "irrgarten kreuzworträtsel",
+    "irrgarten labyrinth zum ausdrucken",
+    "irrgarten norddeich",
+    "irrgarten rätsel",
+    "irrgarten zum ausdrucken",
+    "kinder labyrinth zum ausdrucken pdf",
+    "labyrinth",
+    "labyrinth arbeitsblatt",
+    "labyrinth arbeitsblatt einfach",
+    "labyrinth arbeitsblatt erstellen",
+    "labyrinth arbeitsblatt grundschule",
+    "labyrinth arbeitsblatt kinder",
+    "labyrinth arbeitsblatt kindergarten",
+    "labyrinth arbeitsblatt kostenlos",
+    "labyrinth arbeitsblatt pdf",
+    "labyrinth arbeitsblatt schwer",
+    "labyrinth arbeitsblatt vorschule",
+    "labyrinth chronicles",
+    "labyrinth englisch",
+    "labyrinth film",
+    "labyrinth für kinder",
+    "labyrinth für kinder ausflug",
+    "labyrinth für kinder ausmalen",
+    "labyrinth für kinder erklärt",
+    "labyrinth für kinder in der nähe",
+    "labyrinth für kinder malen",
+    "labyrinth für kinder pdf",
+    "labyrinth für kinder zum ausdrucken",
+    "labyrinth für kinder zum ausdrucken kostenlos",
+    "labyrinth für kinder zum ausdrucken pdf",
+    "labyrinth grundschule",
+    "labyrinth grundschule kostenlos",
+    "labyrinth grundschule pdf",
+    "labyrinth in der nähe",
+    "labyrinth junior",
+    "labyrinth kinder",
+    "labyrinth kinder 1 klasse",
+    "labyrinth kinder 10 jahre",
+    "labyrinth kinder 3 jahre zum ausdrucken",
+    "labyrinth kinder 4 jahre",
+    "labyrinth kinder 4 jahre zum ausdrucken",
+    "labyrinth kinder 5 jahre zum ausdrucken",
+    "labyrinth kinder 6 jahre zum ausdrucken",
+    "labyrinth kinder 8 jahre zum ausdrucken",
+    "labyrinth kinder arbeitsblatt",
+    "labyrinth kinder ausdrucken kostenlos",
+    "labyrinth kinder zum ausdrucken",
+    "labyrinth kindermuseum",
+    "labyrinth kindermuseum berlin",
+    "labyrinth klasse 1",
+    "labyrinth klasse 2",
+    "labyrinth klasse 3",
+    "labyrinth mathe grundschule",
+    "labyrinth rätsel",
+    "labyrinth rätsel 1 klasse",
+    "labyrinth rätsel erstellen",
+    "labyrinth rätsel für erwachsene",
+    "labyrinth rätsel für kinder zum ausdrucken",
+    "labyrinth rätsel grundschule",
+    "labyrinth rätsel kinder",
+    "labyrinth rätsel kinder ausdrucken",
+    "labyrinth rätsel kinder pdf",
+    "labyrinth rätsel kinder zum ausdrucken",
+    "labyrinth rätsel mit lösung",
+    "labyrinth rätsel pdf",
+    "labyrinth rätsel schwer",
+    "labyrinth rätsel schwer zum ausdrucken",
+    "labyrinth rätsel zum ausdrucken",
+    "labyrinth rätsel zum ausdrucken kostenlos",
+    "labyrinth spiel",
+    "labyrinth spiel kinder zum ausdrucken",
+    "labyrinth vögel grundschule kostenlos ausdrucken",
+    "labyrinth zum ausdrucken",
+    "labyrinth zum ausdrucken 1 klasse",
+    "labyrinth zum ausdrucken für erwachsene",
+    "labyrinth zum ausdrucken kinder",
+    "labyrinth zum ausdrucken kindergarten",
+    "labyrinth zum ausdrucken kostenlos",
+    "labyrinth zum ausdrucken mittelschwer",
+    "labyrinth zum ausdrucken pdf",
+    "labyrinth zum ausdrucken pdf kinder",
+    "labyrinth zum ausdrucken schwer",
+    "labyrinth zum ausdrucken sehr schwer",
+    "labyrinthfische",
+    "labyrinthitis",
+    "mathe labyrinth 1 klasse",
+    "mathe labyrinth 2 klasse"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "buchstaben labyrinth",
+    "abc labyrinth",
+    "alphabet labyrinth"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 16,
+   "suggestions": [
+    "abc labyrinth",
+    "buchstaben labyrinth",
+    "buchstaben labyrinth erstellen",
+    "labyrinth abc book",
+    "labyrinth abc storybook",
+    "labyrinth alphabet",
+    "labyrinthe alphabet ce1",
+    "labyrinthe alphabet cp",
+    "labyrinthe alphabet cursive",
+    "labyrinthe alphabet gs",
+    "labyrinthe alphabet ms",
+    "labyrinthe alphabet script",
+    "labyrinthe alphabet à imprimer",
+    "magnetisches alphabet labyrinth",
+    "montessori magnetisches alphabet labyrinth",
+    "pan's labyrinth abc iview"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "zahlen labyrinth",
+    "zahlenlabyrinth",
+    "rechenlabyrinth",
+    "mathe labyrinth"
+   ],
+   "requests": 28,
+   "productiveSeeds": 11,
+   "unique": 18,
+   "suggestions": [
+    "haba zahlenlabyrinth",
+    "labyrinth mathe grundschule",
+    "magnetisches zahlenlabyrinth",
+    "magnetspiel zahlenlabyrinth",
+    "mathe labyrinth",
+    "mathe labyrinth 1 klasse",
+    "mathe labyrinth 2 klasse",
+    "mathe labyrinth vorlage",
+    "rechenlabyrinth",
+    "rechenlabyrinth 1 klasse",
+    "rechenlabyrinth 2 klasse",
+    "rechenlabyrinth klasse 3",
+    "wordwall zahlen labyrinth",
+    "zahlen labyrinth",
+    "zahlenlabyrinth",
+    "zahlenlabyrinth grundschule",
+    "zahlenlabyrinth lösung",
+    "zahlenlabyrinth pdf"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "einfaches labyrinth",
+    "labyrinth kindergarten",
+    "labyrinth vorschule"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 23,
+   "suggestions": [
+    "arbeitsblatt labyrinth kindergarten",
+    "einfaches labyrinth",
+    "einfaches labyrinth kinder",
+    "einfaches labyrinth zeichnen",
+    "einfaches labyrinth zum ausdrucken",
+    "labyrinth arbeitsblatt kindergarten",
+    "labyrinth arbeitsblatt vorschule",
+    "labyrinth aufgaben vorschule",
+    "labyrinth basteln kindergarten",
+    "labyrinth für kindergarten",
+    "labyrinth für kindergartenkinder",
+    "labyrinth kindergarten",
+    "labyrinth kindergarten zum ausdrucken",
+    "labyrinth rätsel kindergarten",
+    "labyrinth rätsel vorschule",
+    "labyrinth spiel kindergarten",
+    "labyrinth vorlage kindergarten",
+    "labyrinth vorschule",
+    "labyrinth vorschule ausdrucken",
+    "labyrinth vorschule pdf",
+    "sehr einfaches labyrinth",
+    "vorschule labyrinth kinder",
+    "vorschule labyrinth zum ausdrucken"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrinth": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth",
+    "labyrinth film",
+    "labyrinth spiel",
+    "labyrinth in der nähe",
+    "labyrinth chronicles",
+    "labyrinthitis",
+    "labyrinth englisch",
+    "labyrinth zum ausdrucken",
+    "labyrinthfische",
+    "labyrinth junior"
+   ]
+  },
+  "labyrinth arbeitsblatt": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth arbeitsblatt",
+    "labyrinth arbeitsblatt kinder",
+    "labyrinth arbeitsblatt grundschule",
+    "labyrinth arbeitsblatt schwer",
+    "labyrinth arbeitsblatt kindergarten",
+    "labyrinth arbeitsblatt erstellen",
+    "labyrinth arbeitsblatt kostenlos",
+    "labyrinth arbeitsblatt vorschule",
+    "labyrinth arbeitsblatt einfach",
+    "labyrinth arbeitsblatt pdf"
+   ]
+  },
+  "labyrinth zum ausdrucken": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth zum ausdrucken",
+    "labyrinth zum ausdrucken kostenlos",
+    "labyrinth zum ausdrucken kinder",
+    "labyrinth zum ausdrucken pdf",
+    "labyrinth zum ausdrucken für erwachsene",
+    "labyrinth zum ausdrucken schwer",
+    "labyrinth zum ausdrucken mittelschwer",
+    "labyrinth zum ausdrucken sehr schwer",
+    "labyrinth zum ausdrucken kindergarten",
+    "labyrinth zum ausdrucken pdf kinder"
+   ]
+  },
+  "labyrinth grundschule": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth grundschule",
+    "labyrinth grundschule kostenlos",
+    "labyrinth grundschule pdf",
+    "labyrinth mathe grundschule",
+    "labyrinth arbeitsblatt grundschule",
+    "labyrinth rätsel grundschule",
+    "labyrinth vögel grundschule kostenlos ausdrucken"
+   ]
+  },
+  "labyrinth klasse 1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth klasse 1",
+    "labyrinth rätsel 1 klasse",
+    "mathe labyrinth 1 klasse",
+    "labyrinth kinder 1 klasse",
+    "labyrinth zum ausdrucken 1 klasse"
+   ]
+  },
+  "labyrinth klasse 2": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth klasse 2",
+    "mathe labyrinth 2 klasse"
+   ]
+  },
+  "labyrinth klasse 3": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth klasse 3"
+   ]
+  },
+  "labyrinth kinder": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kindermuseum berlin",
+    "labyrinth kinder",
+    "labyrinth kinder zum ausdrucken",
+    "labyrinth kindermuseum",
+    "labyrinth kinder 8 jahre zum ausdrucken",
+    "labyrinth kinder ausdrucken kostenlos",
+    "labyrinth kinder 6 jahre zum ausdrucken",
+    "labyrinth kinder 10 jahre",
+    "labyrinth kinder 4 jahre",
+    "labyrinth kinder 4 jahre zum ausdrucken"
+   ]
+  },
+  "labyrinth kinder arbeitsblatt": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kinder arbeitsblatt"
+   ]
+  },
+  "labyrinth kinder zum ausdrucken": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kinder zum ausdrucken",
+    "kinder labyrinth zum ausdrucken pdf",
+    "labyrinth für kinder zum ausdrucken kostenlos",
+    "labyrinth spiel kinder zum ausdrucken",
+    "labyrinth rätsel kinder zum ausdrucken",
+    "labyrinth kinder 8 jahre zum ausdrucken",
+    "labyrinth kinder 4 jahre zum ausdrucken",
+    "labyrinth kinder 6 jahre zum ausdrucken",
+    "labyrinth kinder 5 jahre zum ausdrucken",
+    "labyrinth kinder 3 jahre zum ausdrucken"
+   ]
+  },
+  "labyrinth kinder klasse 1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kinder 1 klasse"
+   ]
+  },
+  "labyrinth rätsel": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth rätsel",
+    "labyrinth rätsel kinder",
+    "labyrinth rätsel zum ausdrucken",
+    "labyrinth rätsel für erwachsene",
+    "labyrinth rätsel kinder ausdrucken",
+    "labyrinth rätsel erstellen",
+    "labyrinth rätsel mit lösung",
+    "labyrinth rätsel kinder pdf",
+    "labyrinth rätsel schwer",
+    "labyrinth rätsel pdf"
+   ]
+  },
+  "labyrinth rätsel zum ausdrucken": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth rätsel zum ausdrucken",
+    "labyrinth rätsel zum ausdrucken kostenlos",
+    "labyrinth rätsel schwer zum ausdrucken",
+    "labyrinth rätsel kinder zum ausdrucken"
+   ]
+  },
+  "labyrinth rätsel grundschule": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth rätsel grundschule"
+   ]
+  },
+  "labyrinth rätsel klasse 1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth rätsel 1 klasse"
+   ]
+  },
+  "irrgarten": {
+   "candidate": "picture-maze",
+   "s": [
+    "irrgarten",
+    "irrgarten alfsee",
+    "irrgarten in der nähe",
+    "irrgarten hannover",
+    "irrgarten bollewick",
+    "irrgarten der sinne",
+    "irrgarten kleinwelka",
+    "irrgarten rätsel",
+    "irrgarten kreuzworträtsel",
+    "irrgarten norddeich"
+   ]
+  },
+  "irrgarten arbeitsblatt": {
+   "candidate": "picture-maze",
+   "s": [
+    "irrgarten arbeitsblatt"
+   ]
+  },
+  "irrgarten zum ausdrucken": {
+   "candidate": "picture-maze",
+   "s": [
+    "irrgarten zum ausdrucken",
+    "irrgarten labyrinth zum ausdrucken"
+   ]
+  },
+  "labyrinth für kinder": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth für kinder",
+    "labyrinth für kinder zum ausdrucken",
+    "labyrinth für kinder zum ausdrucken kostenlos",
+    "labyrinth für kinder ausflug",
+    "labyrinth für kinder in der nähe",
+    "labyrinth für kinder zum ausdrucken pdf",
+    "labyrinth für kinder erklärt",
+    "labyrinth für kinder ausmalen",
+    "labyrinth für kinder pdf",
+    "labyrinth für kinder malen"
+   ]
+  },
+  "labyrinth für kinder arbeitsblatt": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kinder arbeitsblatt"
+   ]
+  },
+  "labyrinth für kinder zum ausdrucken": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth für kinder zum ausdrucken",
+    "labyrinth für kinder zum ausdrucken kostenlos",
+    "labyrinth für kinder zum ausdrucken pdf",
+    "labyrinth rätsel für kinder zum ausdrucken",
+    "labyrinth spiel kinder zum ausdrucken"
+   ]
+  },
+  "labyrinth für kinder klasse 1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinth kinder 1 klasse"
+   ]
+  },
+  "buchstaben labyrinth": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "buchstaben labyrinth erstellen",
+    "buchstaben labyrinth"
+   ]
+  },
+  "abc labyrinth": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "abc labyrinth",
+    "labyrinth abc book",
+    "labyrinth abc storybook",
+    "pan's labyrinth abc iview"
+   ]
+  },
+  "alphabet labyrinth": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinth alphabet",
+    "magnetisches alphabet labyrinth",
+    "montessori magnetisches alphabet labyrinth",
+    "labyrinthe alphabet à imprimer",
+    "labyrinthe alphabet cp",
+    "labyrinthe alphabet gs",
+    "labyrinthe alphabet cursive",
+    "labyrinthe alphabet ce1",
+    "labyrinthe alphabet ms",
+    "labyrinthe alphabet script"
+   ]
+  },
+  "zahlen labyrinth": {
+   "candidate": "number-maze",
+   "s": [
+    "zahlen labyrinth",
+    "wordwall zahlen labyrinth"
+   ]
+  },
+  "zahlenlabyrinth": {
+   "candidate": "number-maze",
+   "s": [
+    "zahlenlabyrinth",
+    "zahlenlabyrinth grundschule",
+    "zahlenlabyrinth pdf",
+    "zahlenlabyrinth lösung",
+    "magnetspiel zahlenlabyrinth",
+    "magnetisches zahlenlabyrinth",
+    "haba zahlenlabyrinth"
+   ]
+  },
+  "zahlenlabyrinth grundschule": {
+   "candidate": "number-maze",
+   "s": [
+    "zahlenlabyrinth grundschule"
+   ]
+  },
+  "rechenlabyrinth": {
+   "candidate": "number-maze",
+   "s": [
+    "rechenlabyrinth",
+    "rechenlabyrinth 2 klasse",
+    "rechenlabyrinth klasse 3",
+    "rechenlabyrinth 1 klasse"
+   ]
+  },
+  "rechenlabyrinth klasse 1": {
+   "candidate": "number-maze",
+   "s": [
+    "rechenlabyrinth 1 klasse"
+   ]
+  },
+  "rechenlabyrinth klasse 2": {
+   "candidate": "number-maze",
+   "s": [
+    "rechenlabyrinth 2 klasse"
+   ]
+  },
+  "rechenlabyrinth klasse 3": {
+   "candidate": "number-maze",
+   "s": [
+    "rechenlabyrinth klasse 3"
+   ]
+  },
+  "mathe labyrinth": {
+   "candidate": "number-maze",
+   "s": [
+    "mathe labyrinth",
+    "mathe labyrinth 2 klasse",
+    "mathe labyrinth 1 klasse",
+    "mathe labyrinth vorlage",
+    "labyrinth mathe grundschule"
+   ]
+  },
+  "mathe labyrinth grundschule": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinth mathe grundschule"
+   ]
+  },
+  "mathe labyrinth klasse 1": {
+   "candidate": "number-maze",
+   "s": [
+    "mathe labyrinth 1 klasse"
+   ]
+  },
+  "mathe labyrinth klasse 2": {
+   "candidate": "number-maze",
+   "s": [
+    "mathe labyrinth 2 klasse"
+   ]
+  },
+  "einfaches labyrinth": {
+   "candidate": "easy-maze",
+   "s": [
+    "einfaches labyrinth",
+    "einfaches labyrinth zum ausdrucken",
+    "einfaches labyrinth zeichnen",
+    "einfaches labyrinth kinder",
+    "sehr einfaches labyrinth"
+   ]
+  },
+  "einfaches labyrinth zum ausdrucken": {
+   "candidate": "easy-maze",
+   "s": [
+    "einfaches labyrinth zum ausdrucken"
+   ]
+  },
+  "labyrinth kindergarten": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinth kindergarten zum ausdrucken",
+    "labyrinth kindergarten",
+    "arbeitsblatt labyrinth kindergarten",
+    "labyrinth vorlage kindergarten",
+    "labyrinth rätsel kindergarten",
+    "labyrinth basteln kindergarten",
+    "labyrinth spiel kindergarten",
+    "labyrinth für kindergarten",
+    "labyrinth für kindergartenkinder"
+   ]
+  },
+  "labyrinth kindergarten arbeitsblatt": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinth arbeitsblatt kindergarten"
+   ]
+  },
+  "labyrinth kindergarten zum ausdrucken": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinth kindergarten zum ausdrucken"
+   ]
+  },
+  "labyrinth vorschule": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinth vorschule pdf",
+    "labyrinth vorschule",
+    "labyrinth vorschule ausdrucken",
+    "vorschule labyrinth kinder",
+    "labyrinth rätsel vorschule",
+    "labyrinth arbeitsblatt vorschule",
+    "labyrinth aufgaben vorschule"
+   ]
+  },
+  "labyrinth vorschule arbeitsblatt": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinth arbeitsblatt vorschule"
+   ]
+  },
+  "labyrinth vorschule zum ausdrucken": {
+   "candidate": "easy-maze",
+   "s": [
+    "vorschule labyrinth zum ausdrucken"
+   ]
+  }
+ }
+}

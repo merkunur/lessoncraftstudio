@@ -1,0 +1,11 @@
+# K-405 lead notes (the build lead's rulings on the studio's open items, 2026-10-11)
+
+The critic treats these as binding inputs; each cites what was checked.
+
+1. **Face 19 replaced (pedagogy file): ACCEPTED.** The arrow-code maze had 0 harvest hits in all 11 markets and sat next to the `treasure-hunt` app; the G2 running-total maze within 100 (2.NBT.B.5) has demand in en / de / es / fr / nl ("math maze 2nd grade", "Rechenlabyrinth 2. Klasse", "laberinto de sumas y restas para segundo grado", "labyrinthe maths CE1", "doolhof groep 4").
+2. **Rule P1 (label faces use looped graphs): ACCEPTED** and sent to designer B. The raster oracle's bridge test proves uniqueness only on trees; looped faces prove "raster graph = declared graph" + the label search.
+3. **Letterforms: the letter stones and letter labels use the platform's school letterforms, not Baloo 2.** `scripts/worksheet-gen/data/tracing/letter-strokes.js` (`glyphFor`, `textGlyphs`, `splinePath`; source of truth `mini tools/alphabet-trace-core.js`, type-panel-ruled) carries all 52 letters A-Z a-z with **single-storey school `a` and `g`**, counter-clockwise round forms, b/d-safe forms, plus COMPOSED ÄÖÜÅÁÀÂÉÈÊËÍÓÔÕÚÙÑ áàâãäåéèêëíìîïñóòôõöúùûüýÿ and NEW_GLYPHS Æ Ø ø æ ç Ç ß. Rendered as a SOLID round-capped stroke (not the dashed tracing style), in ink. This answers the pedagogy open item on Baloo's double-storey `a`. Unknown glyph = THROW (the module's own contract), so a locale's alphabet that needs a missing glyph fails the build, never substitutes.
+4. **fr face 12 cursive:** the vendored `LCS Cursive fr-moderne` (b6 cursive-writing, `scripts/worksheet-gen/assets/cursive-fonts.css`) is allowed; its 1-2 px Linux-vs-Windows rendering difference is judged on the PC (the b6 rule).
+5. **Face 18 cards from several themes: ACCEPTED as apparatus**, with a guard: the card pictures come from the CR + FN families only (never FO machines or house objects next to the scene's critters), and the scene cast (the hero, the goal, the scene props) keeps one family.
+6. **Answer-free page:** no face prints its answer; the key carries it.
+7. **Interactive contract:** one kind for the family, `trace-path`. Faces whose answer is also written (6 block count, 8 matches, 19 goal number) are checked on screen by the route only; the written box is a paper-only extension (its digit is in the key).

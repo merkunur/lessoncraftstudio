@@ -1,0 +1,380 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-10-11T18:16:05.409Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 77,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labirinto",
+    "labirinti per bambini",
+    "labirinti da stampare",
+    "gioco del labirinto"
+   ],
+   "requests": 28,
+   "productiveSeeds": 12,
+   "unique": 70,
+   "suggestions": [
+    "attività labirinto scuola primaria",
+    "brio gioco del labirinto",
+    "disegni labirinti per bambini da stampare",
+    "disegno labirinto da stampare",
+    "gioco del labirinto",
+    "gioco del labirinto di pac man",
+    "gioco del labirinto horror",
+    "gioco del labirinto in legno",
+    "gioco del labirinto magico",
+    "gioco del labirinto online",
+    "gioco del labirinto per bambini",
+    "gioco del labirinto spaventoso",
+    "gioco del labirinto wordwall",
+    "gioco labirinto da stampare",
+    "labirinti da stampare",
+    "labirinti da stampare 10 anni",
+    "labirinti da stampare 5 anni",
+    "labirinti da stampare 6 anni",
+    "labirinti da stampare 7 anni",
+    "labirinti da stampare 8 anni",
+    "labirinti da stampare gratis",
+    "labirinti da stampare pdf",
+    "labirinti da stampare per adulti",
+    "labirinti da stampare per bambini",
+    "labirinti facili per bambini da stampare",
+    "labirinti per bambini",
+    "labirinti per bambini 3 anni da stampare",
+    "labirinti per bambini 5 anni da stampare",
+    "labirinti per bambini 6 anni da stampare",
+    "labirinti per bambini da stampare",
+    "labirinti per bambini da stampare 4 anni",
+    "labirinti per bambini da stampare difficili",
+    "labirinti per bambini da stampare gratis",
+    "labirinti per bambini da stampare pdf",
+    "labirinti per bambini di 4 anni",
+    "labirinti per bambini online",
+    "labirinti per bambini pdf",
+    "labirinto",
+    "labirinto borges",
+    "labirinto classe prima",
+    "labirinto classe prima primaria",
+    "labirinto classe seconda",
+    "labirinto da stampare",
+    "labirinto da stampare 4 anni",
+    "labirinto da stampare bambini",
+    "labirinto da stampare difficile",
+    "labirinto da stampare e colorare",
+    "labirinto da stampare pdf",
+    "labirinto del fauno",
+    "labirinto del latemar",
+    "labirinto della masone",
+    "labirinto di arianna",
+    "labirinto di cnosso",
+    "labirinto di hort",
+    "labirinto difficilissimo da stampare",
+    "labirinto facile da stampare",
+    "labirinto gioco da stampare",
+    "labirinto luche",
+    "labirinto luche testo",
+    "labirinto matematico scuola primaria",
+    "labirinto scheda didattica",
+    "labirinto scuola primaria",
+    "schede didattiche labirinti per bambini da stampare",
+    "wordwall italiano labirinto classe seconda",
+    "wordwall labirinto classe prima",
+    "wordwall labirinto classe seconda",
+    "wordwall labirinto classe terza",
+    "wordwall labirinto matematica classe prima",
+    "wordwall labirinto matematica classe seconda",
+    "wordwall labirinto scuola primaria"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "labirinto alfabeto",
+    "labirinto delle lettere"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 5,
+   "suggestions": [
+    "atividade labirinto alfabeto",
+    "labirinto alfabeto",
+    "labirinto alfabeto wordwall",
+    "labirinto do alfabeto para imprimir",
+    "labirinto magnetico alfabeto"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "labirinto dei numeri",
+    "labirinto matematico"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 12,
+   "suggestions": [
+    "jogo labirinto matemática",
+    "labirinto dei numeri",
+    "labirinto dei numeri gioco",
+    "labirinto dei numeri ludi",
+    "labirinto dei numeri ludic",
+    "labirinto dei numeri wordwall",
+    "labirinto matematico",
+    "labirinto matematico para imprimir",
+    "labirinto matematico scuola primaria",
+    "labirinto matematico wordwall",
+    "labirinto matemática 3 ano",
+    "ludicamente labirinto matematico"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "labirinti facili",
+    "labirinti scuola dell'infanzia",
+    "labirinto facile per bambini"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 15,
+   "suggestions": [
+    "labirinti facili",
+    "labirinti facili da disegnare",
+    "labirinti facili da stampare",
+    "labirinti facili pdf",
+    "labirinti facili per bambini",
+    "labirinti facili per bambini da stampare",
+    "labirinti facilissimi",
+    "labirinti scuola dell infanzia",
+    "labirinto difficile per bambini da stampare",
+    "labirinto facile per bambini",
+    "labirinto per bambini da stampare",
+    "percorsi e labirinti per la scuola dell infanzia",
+    "pianeta bambini labirinti facili",
+    "schede labirinti facili",
+    "wordwall labirinti facili"
+   ]
+  }
+ },
+ "suggestions": {
+  "labirinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto della masone",
+    "labirinto",
+    "labirinto del fauno",
+    "labirinto luche",
+    "labirinto borges",
+    "labirinto luche testo",
+    "labirinto del latemar",
+    "labirinto di hort",
+    "labirinto di cnosso",
+    "labirinto di arianna"
+   ]
+  },
+  "labirinto scheda didattica": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto scheda didattica"
+   ]
+  },
+  "labirinto da stampare": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto da stampare",
+    "labirinto da stampare bambini",
+    "labirinto da stampare pdf",
+    "labirinto da stampare difficile",
+    "labirinto da stampare e colorare",
+    "labirinto da stampare 4 anni",
+    "labirinto gioco da stampare",
+    "disegno labirinto da stampare",
+    "labirinto facile da stampare",
+    "labirinto difficilissimo da stampare"
+   ]
+  },
+  "labirinto scuola primaria": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto scuola primaria",
+    "labirinto matematico scuola primaria",
+    "attività labirinto scuola primaria",
+    "wordwall labirinto scuola primaria"
+   ]
+  },
+  "labirinto classe prima": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto classe prima",
+    "wordwall labirinto classe prima",
+    "labirinto classe prima primaria",
+    "wordwall labirinto matematica classe prima"
+   ]
+  },
+  "labirinto classe seconda": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto classe seconda",
+    "wordwall labirinto classe seconda",
+    "wordwall italiano labirinto classe seconda",
+    "wordwall labirinto matematica classe seconda"
+   ]
+  },
+  "labirinto classe terza": {
+   "candidate": "picture-maze",
+   "s": [
+    "wordwall labirinto classe terza"
+   ]
+  },
+  "labirinti per bambini": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinti per bambini da stampare",
+    "labirinti per bambini",
+    "labirinti per bambini pdf",
+    "labirinti per bambini da stampare pdf",
+    "labirinti per bambini da stampare gratis",
+    "labirinti per bambini online",
+    "labirinti per bambini 6 anni da stampare",
+    "labirinti per bambini di 4 anni",
+    "labirinti per bambini 3 anni da stampare",
+    "labirinti per bambini da stampare difficili"
+   ]
+  },
+  "labirinti per bambini da stampare": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinti per bambini da stampare",
+    "labirinti per bambini da stampare pdf",
+    "labirinti per bambini da stampare gratis",
+    "labirinti per bambini da stampare difficili",
+    "labirinti per bambini da stampare 4 anni",
+    "disegni labirinti per bambini da stampare",
+    "labirinti facili per bambini da stampare",
+    "labirinti per bambini 6 anni da stampare",
+    "labirinti per bambini 5 anni da stampare",
+    "schede didattiche labirinti per bambini da stampare"
+   ]
+  },
+  "labirinti da stampare": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinti da stampare",
+    "labirinti da stampare pdf",
+    "labirinti da stampare 5 anni",
+    "labirinti da stampare 10 anni",
+    "labirinti da stampare 6 anni",
+    "labirinti da stampare 7 anni",
+    "labirinti da stampare per bambini",
+    "labirinti da stampare per adulti",
+    "labirinti da stampare gratis",
+    "labirinti da stampare 8 anni"
+   ]
+  },
+  "gioco del labirinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "gioco del labirinto",
+    "gioco del labirinto per bambini",
+    "gioco del labirinto horror",
+    "gioco del labirinto online",
+    "gioco del labirinto di pac man",
+    "gioco del labirinto spaventoso",
+    "gioco del labirinto wordwall",
+    "gioco del labirinto in legno",
+    "gioco del labirinto magico",
+    "brio gioco del labirinto"
+   ]
+  },
+  "gioco del labirinto da stampare": {
+   "candidate": "picture-maze",
+   "s": [
+    "gioco labirinto da stampare"
+   ]
+  },
+  "labirinto alfabeto": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labirinto alfabeto",
+    "labirinto alfabeto wordwall",
+    "labirinto magnetico alfabeto",
+    "atividade labirinto alfabeto",
+    "labirinto do alfabeto para imprimir"
+   ]
+  },
+  "labirinto dei numeri": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto dei numeri",
+    "labirinto dei numeri ludic",
+    "labirinto dei numeri wordwall",
+    "labirinto dei numeri gioco",
+    "labirinto dei numeri ludi"
+   ]
+  },
+  "labirinto matematico": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto matematico",
+    "labirinto matematico scuola primaria",
+    "labirinto matematico wordwall",
+    "labirinto matematico para imprimir",
+    "ludicamente labirinto matematico",
+    "labirinto matemática 3 ano",
+    "jogo labirinto matemática"
+   ]
+  },
+  "labirinto matematico scuola primaria": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto matematico scuola primaria"
+   ]
+  },
+  "labirinti facili": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinti facili per bambini",
+    "labirinti facili per bambini da stampare",
+    "labirinti facili da stampare",
+    "labirinti facili",
+    "labirinti facili da disegnare",
+    "labirinti facilissimi",
+    "labirinti facili pdf",
+    "wordwall labirinti facili",
+    "schede labirinti facili",
+    "pianeta bambini labirinti facili"
+   ]
+  },
+  "labirinti facili da stampare": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinti facili da stampare",
+    "labirinti facili per bambini da stampare"
+   ]
+  },
+  "labirinti scuola dell'infanzia": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinti scuola dell infanzia",
+    "percorsi e labirinti per la scuola dell infanzia"
+   ]
+  },
+  "labirinto facile per bambini": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto facile per bambini"
+   ]
+  },
+  "labirinto facile per bambini da stampare": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto per bambini da stampare",
+    "labirinto difficile per bambini da stampare"
+   ]
+  }
+ }
+}

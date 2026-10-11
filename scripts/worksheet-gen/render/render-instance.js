@@ -149,6 +149,39 @@ async function renderInstance(o) {
         pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
       return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
     }
+    // TRACE mode (trace-path, Handmade Mazes b8 2026-10-11): the maze graph the page DECLARES (data-lcs-hm-graph on
+    // the scene SVG, body px) is converted to % of the screen crop; the two mouths become edges to virtual start / goal
+    // nodes (the start disc, the goal flag) so the child's ink begins at the disc and must reach the flag.
+    if (spec.kind === 'trace-path') {
+      const got = await page.evaluate(() => {
+        const full = document.querySelector('[data-lcs-page]').getBoundingClientRect();
+        const svg = document.querySelector('svg[data-lcs-prim="hm-scene"]');
+        if (!svg) return null;
+        const r = svg.getBoundingClientRect(), vbw = svg.viewBox.baseVal.width, k = r.width / vbw;
+        const h = Math.min(full.height, r.bottom - full.top + 24);
+        window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: h };
+        const G = JSON.parse(svg.getAttribute('data-lcs-hm-graph'));
+        const P = (p) => [+(((r.left - full.left) + p[0] * k) / full.width * 100).toFixed(3), +(((r.top - full.top) + p[1] * k) / h * 100).toFixed(3)];
+        const nodes = G.nodes.map(P); const vS = nodes.length, vG = nodes.length + 1;
+        nodes.push(P(G.mouths.start[G.mouths.start.length - 1]), P(G.mouths.goal[G.mouths.goal.length - 1]));
+        const edges = G.edges.map((e) => ({ a: e.a, b: e.b, pts: e.pts.map(P) }));
+        edges.push({ a: vS, b: G.s, pts: G.mouths.start.slice().reverse().map(P) }, { a: G.g, b: vG, pts: G.mouths.goal.map(P) });
+        return { trace: { nodes, edges, routes: [{ start: vS, goal: vG }], aspect: full.width / h, pageW: full.width / k, w: G.W }, route: [vS].concat(G.route, [vG]) };
+      });
+      if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
+      const screenPng = base + '.screen.png';
+      await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
+      const keyBuilt = await again({ answerKey: true });
+      sameAs(keyBuilt, 'answer-key');
+      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      const keyPdf = base + '.key.pdf';
+      await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
+      if (o.keyPng) await page.screenshot({ path: base + '.key.png', fullPage: true });
+      const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
+      interactive = { kind: spec.kind, items: got.trace.routes.map((_, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: got.route.join('-') })),
+        trace: got.trace, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
+    }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
     const geo = await page.evaluate((sp) => {

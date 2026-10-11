@@ -1,0 +1,331 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-10-11T18:16:26.578Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "doolhof",
+    "doolhof kinderen",
+    "doolhof printen",
+    "doolhofspel"
+   ],
+   "requests": 28,
+   "productiveSeeds": 12,
+   "unique": 54,
+   "suggestions": [
+    "3d doolhofspel",
+    "doolhof",
+    "doolhof boek kinderen",
+    "doolhof engels",
+    "doolhof gratis printen",
+    "doolhof groep 3",
+    "doolhof groep 4",
+    "doolhof groep 5",
+    "doolhof herfst kleuters",
+    "doolhof kinderen",
+    "doolhof kinderen limburg",
+    "doolhof kinderen papier",
+    "doolhof kinderen printen",
+    "doolhof kinderen spel",
+    "doolhof kleurplaat kleuters",
+    "doolhof kleurplaten printen",
+    "doolhof kleuters",
+    "doolhof maken",
+    "doolhof maken printen",
+    "doolhof met kinderen",
+    "doolhof om te printen",
+    "doolhof printen",
+    "doolhof printen kind",
+    "doolhof printen moeilijk",
+    "doolhof puzzel",
+    "doolhof puzzel groep 3",
+    "doolhof puzzel groep 4",
+    "doolhof puzzel kinderen",
+    "doolhof puzzel kleuters",
+    "doolhof puzzel printen",
+    "doolhof ruurlo",
+    "doolhof spel",
+    "doolhof spel hema",
+    "doolhof spel printen",
+    "doolhof spelletje kleuters",
+    "doolhof spelletjes printen",
+    "doolhof tegelen",
+    "doolhof tekenen",
+    "doolhof tekenen kinderen",
+    "doolhof tekening printen",
+    "doolhof twist",
+    "doolhof utrecht",
+    "doolhof voor kinderen",
+    "doolhof werkblad",
+    "doolhof werkblad groep 2",
+    "doolhof werkblad groep 3",
+    "doolhof werkblad groep 4",
+    "doolhof werkblad groep 5",
+    "doolhof werkblad groep 6",
+    "doolhof werkblad groep 7",
+    "doolhof werkblad kleuters",
+    "doolhof werkblad moeilijk",
+    "doolhofspel",
+    "werkblad doolhof kleuters"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "letterdoolhof",
+    "alfabet doolhof",
+    "abc doolhof"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 5,
+   "suggestions": [
+    "alfabet doolhof",
+    "letterdoolhof",
+    "letterdoolhof kleuters",
+    "letterdoolhof maken",
+    "montessori magnetisch alfabet doolhof"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "cijferdoolhof",
+    "rekendoolhof",
+    "getallendoolhof"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 10,
+   "suggestions": [
+    "cijferdoolhof",
+    "cijferdoolhof groep 2",
+    "cijferdoolhof groep 3",
+    "cijferdoolhof kleuters",
+    "cijferdoolhof lente",
+    "cijferdoolhof sinterklaas",
+    "cijferdoolhof tot 20",
+    "cijferdoolhof winter",
+    "rekendoolhof",
+    "rekendoolhof tot 10"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "makkelijk doolhof",
+    "doolhof kleuters",
+    "doolhof peuters"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 11,
+   "suggestions": [
+    "doolhof herfst kleuters",
+    "doolhof kleurplaat kleuters",
+    "doolhof kleuters",
+    "doolhof peuters",
+    "doolhof puzzel kleuters",
+    "doolhof spelletje kleuters",
+    "doolhof spelletjes voor peuters",
+    "doolhof werkblad kleuters",
+    "makkelijk doolhof",
+    "makkelijk doolhof tekenen",
+    "werkblad doolhof kleuters"
+   ]
+  }
+ },
+ "suggestions": {
+  "doolhof": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof",
+    "doolhof ruurlo",
+    "doolhof spel",
+    "doolhof utrecht",
+    "doolhof tegelen",
+    "doolhof engels",
+    "doolhof puzzel",
+    "doolhof twist",
+    "doolhof maken",
+    "doolhof tekenen"
+   ]
+  },
+  "doolhof werkblad": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof werkblad",
+    "doolhof werkblad groep 3",
+    "doolhof werkblad groep 4",
+    "doolhof werkblad groep 2",
+    "doolhof werkblad groep 5",
+    "doolhof werkblad moeilijk",
+    "doolhof werkblad groep 7",
+    "doolhof werkblad kleuters",
+    "doolhof werkblad groep 6"
+   ]
+  },
+  "doolhof printen": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof printen",
+    "doolhof printen kind",
+    "doolhof printen moeilijk",
+    "doolhof puzzel printen",
+    "doolhof spelletjes printen",
+    "doolhof maken printen",
+    "doolhof tekening printen",
+    "doolhof gratis printen",
+    "doolhof kleurplaten printen",
+    "doolhof om te printen"
+   ]
+  },
+  "doolhof kleuters": {
+   "candidate": "easy-maze",
+   "s": [
+    "doolhof kleuters",
+    "doolhof kleurplaat kleuters",
+    "doolhof spelletje kleuters",
+    "werkblad doolhof kleuters",
+    "doolhof puzzel kleuters",
+    "doolhof herfst kleuters"
+   ]
+  },
+  "doolhof groep 3": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof groep 3",
+    "doolhof werkblad groep 3",
+    "doolhof puzzel groep 3"
+   ]
+  },
+  "doolhof groep 4": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof groep 4",
+    "doolhof werkblad groep 4",
+    "doolhof puzzel groep 4"
+   ]
+  },
+  "doolhof groep 5": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof groep 5",
+    "doolhof werkblad groep 5"
+   ]
+  },
+  "doolhof kinderen": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof kinderen",
+    "doolhof kinderen printen",
+    "doolhof kinderen papier",
+    "doolhof kinderen limburg",
+    "doolhof kinderen spel",
+    "doolhof voor kinderen",
+    "doolhof tekenen kinderen",
+    "doolhof puzzel kinderen",
+    "doolhof met kinderen",
+    "doolhof boek kinderen"
+   ]
+  },
+  "doolhof kinderen printen": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof kinderen printen"
+   ]
+  },
+  "doolhofspel": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhofspel",
+    "doolhof spel hema",
+    "3d doolhofspel"
+   ]
+  },
+  "doolhofspel printen": {
+   "candidate": "picture-maze",
+   "s": [
+    "doolhof spel printen"
+   ]
+  },
+  "letterdoolhof": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letterdoolhof",
+    "letterdoolhof maken",
+    "letterdoolhof kleuters"
+   ]
+  },
+  "letterdoolhof kleuters": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letterdoolhof kleuters"
+   ]
+  },
+  "alfabet doolhof": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alfabet doolhof",
+    "montessori magnetisch alfabet doolhof"
+   ]
+  },
+  "cijferdoolhof": {
+   "candidate": "number-maze",
+   "s": [
+    "cijferdoolhof",
+    "cijferdoolhof groep 3",
+    "cijferdoolhof kleuters",
+    "cijferdoolhof tot 20",
+    "cijferdoolhof groep 2",
+    "cijferdoolhof sinterklaas",
+    "cijferdoolhof lente",
+    "cijferdoolhof winter"
+   ]
+  },
+  "cijferdoolhof kleuters": {
+   "candidate": "number-maze",
+   "s": [
+    "cijferdoolhof kleuters"
+   ]
+  },
+  "cijferdoolhof groep 3": {
+   "candidate": "number-maze",
+   "s": [
+    "cijferdoolhof groep 3"
+   ]
+  },
+  "rekendoolhof": {
+   "candidate": "number-maze",
+   "s": [
+    "rekendoolhof",
+    "rekendoolhof tot 10"
+   ]
+  },
+  "makkelijk doolhof": {
+   "candidate": "easy-maze",
+   "s": [
+    "makkelijk doolhof",
+    "makkelijk doolhof tekenen"
+   ]
+  },
+  "doolhof kleuters werkblad": {
+   "candidate": "easy-maze",
+   "s": [
+    "doolhof werkblad kleuters"
+   ]
+  },
+  "doolhof peuters": {
+   "candidate": "easy-maze",
+   "s": [
+    "doolhof peuters",
+    "doolhof spelletjes voor peuters"
+   ]
+  }
+ }
+}

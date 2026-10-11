@@ -1,0 +1,817 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-10-11T18:15:04.188Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrinthe",
+    "labyrinthe enfant",
+    "jeu de labyrinthe",
+    "labyrinthe à imprimer"
+   ],
+   "requests": 28,
+   "productiveSeeds": 24,
+   "unique": 132,
+   "suggestions": [
+    "autonomie labyrinthe ce2",
+    "exercice labyrinthe ce1",
+    "exercice labyrinthe cp",
+    "exercice labyrinthes ce2",
+    "fiche labyrinthe cp",
+    "fiche labyrinthe gs",
+    "fiche labyrinthe maternelle",
+    "fiche labyrinthe ms",
+    "fiche labyrinthe à imprimer",
+    "jeu de labyrinthe",
+    "jeu de labyrinthe adulte",
+    "jeu de labyrinthe en bois",
+    "jeu de labyrinthe en ligne",
+    "jeu de labyrinthe en ligne 6 ans",
+    "jeu de labyrinthe en ligne gratuit",
+    "jeu de labyrinthe enfant",
+    "jeu de labyrinthe enfant a imprimer",
+    "jeu de labyrinthe gratuit",
+    "jeu de labyrinthe maternelle",
+    "jeu de labyrinthe scratch",
+    "jeu de labyrinthe à imprimer",
+    "jeu de societe labyrinthe enfant",
+    "jeu labyrinthe adulte à imprimer",
+    "jeu labyrinthe ce1",
+    "jeu labyrinthe cp",
+    "jeu labyrinthe à imprimer enfant",
+    "jeu labyrinthe à imprimer gratuit",
+    "jeux de lecture à imprimer ce1",
+    "jeux de lecture à imprimer ce2",
+    "jeux de lecture à imprimer cp",
+    "jeux de logique à imprimer ce1",
+    "jeux de logique à imprimer ce2",
+    "jeux de rébus à imprimer",
+    "jeux fractions à imprimer ce1",
+    "jeux fractions à imprimer ce2",
+    "jeux logico mathématiques à imprimer ce2",
+    "jeux logico mathématiques à imprimer cp",
+    "jeux maths à imprimer cp",
+    "jeux mathématiques à imprimer ce1",
+    "jeux mathématiques à imprimer ce2",
+    "jeux mathématiques à imprimer maternelle",
+    "jeux à imprimer 6ème",
+    "jeux à imprimer ce1",
+    "jeux à imprimer ce1 ce2",
+    "jeux à imprimer ce2",
+    "jeux à imprimer ce2 cm1",
+    "jeux à imprimer cp",
+    "jeux à imprimer cp ce1",
+    "jeux à imprimer enfants",
+    "jeux éducatifs à imprimer ce1",
+    "jeux éducatifs à imprimer cp",
+    "labyrinthe",
+    "labyrinthe 2",
+    "labyrinthe alphabet ce1",
+    "labyrinthe alphabet cp",
+    "labyrinthe beaugency",
+    "labyrinthe calcul ce1",
+    "labyrinthe calcul ce2",
+    "labyrinthe calcul cp",
+    "labyrinthe ce1",
+    "labyrinthe ce1 ce2",
+    "labyrinthe ce1 à imprimer",
+    "labyrinthe ce2",
+    "labyrinthe ce2 cm1",
+    "labyrinthe ce2 à imprimer",
+    "labyrinthe cp",
+    "labyrinthe cp ce1",
+    "labyrinthe cp en ligne",
+    "labyrinthe cp pdf",
+    "labyrinthe cp à imprimer",
+    "labyrinthe de pan",
+    "labyrinthe enfant",
+    "labyrinthe enfant 3 ans",
+    "labyrinthe enfant 4 ans",
+    "labyrinthe enfant 4 ans à imprimer",
+    "labyrinthe enfant 5 ans",
+    "labyrinthe enfant 5 ans à imprimer",
+    "labyrinthe enfant 6 ans",
+    "labyrinthe enfant 7 ans",
+    "labyrinthe enfant 8 ans",
+    "labyrinthe enfant ce1",
+    "labyrinthe enfant cp",
+    "labyrinthe enfant maternelle",
+    "labyrinthe enfant à imprimer",
+    "labyrinthe enfant à imprimer 4 ans",
+    "labyrinthe enfant à imprimer 5 ans",
+    "labyrinthe enfant à imprimer 7 ans",
+    "labyrinthe enfant à imprimer 8 ans",
+    "labyrinthe enfant à imprimer gratuit",
+    "labyrinthe facile maternelle à imprimer",
+    "labyrinthe fiche",
+    "labyrinthe fiche maternelle",
+    "labyrinthe film",
+    "labyrinthe halloween",
+    "labyrinthe jeu enfant à imprimer",
+    "labyrinthe jeux",
+    "labyrinthe lettre cp",
+    "labyrinthe mais",
+    "labyrinthe maternelle",
+    "labyrinthe maternelle en ligne",
+    "labyrinthe maternelle facile",
+    "labyrinthe maternelle gs",
+    "labyrinthe maternelle ms",
+    "labyrinthe maternelle ps",
+    "labyrinthe maternelle ps à imprimer",
+    "labyrinthe maternelle à imprimer",
+    "labyrinthe maths ce1",
+    "labyrinthe maths ce2",
+    "labyrinthe minotoror",
+    "labyrinthe multiplication ce2",
+    "labyrinthe niveau ce1",
+    "labyrinthe niveau cp",
+    "labyrinthe noel maternelle",
+    "labyrinthe nombres ce2",
+    "labyrinthe pop corn",
+    "labyrinthe à imprimer",
+    "labyrinthe à imprimer 10 ans",
+    "labyrinthe à imprimer 5 ans",
+    "labyrinthe à imprimer 5 ans pdf",
+    "labyrinthe à imprimer 6 ans",
+    "labyrinthe à imprimer 8 ans",
+    "labyrinthe à imprimer ce1",
+    "labyrinthe à imprimer ce2",
+    "labyrinthe à imprimer cp",
+    "labyrinthe à imprimer difficile",
+    "labyrinthe à imprimer difficile pdf",
+    "labyrinthe à imprimer enfant",
+    "labyrinthe à imprimer maternelle",
+    "labyrinthe à imprimer pdf gratuit",
+    "labyrinthe à imprimer pdf maternelle",
+    "labyrinthe à imprimer pour adulte",
+    "rébus à imprimer enfant"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "labyrinthe alphabet",
+    "labyrinthe des lettres",
+    "labyrinthe abc"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 27,
+   "suggestions": [
+    "labyrinth abc",
+    "labyrinth abc book",
+    "labyrinth abc storybook",
+    "labyrinthe alphabet",
+    "labyrinthe alphabet ce1",
+    "labyrinthe alphabet cp",
+    "labyrinthe alphabet cursive",
+    "labyrinthe alphabet gs",
+    "labyrinthe alphabet maternelle",
+    "labyrinthe alphabet ms",
+    "labyrinthe alphabet script",
+    "labyrinthe alphabet à imprimer",
+    "labyrinthe avec des lettres",
+    "labyrinthe des lettres",
+    "labyrinthe des lettres bout de gomme",
+    "labyrinthe des lettres capitales",
+    "labyrinthe des lettres cp",
+    "labyrinthe des lettres de l alphabet",
+    "labyrinthe des lettres gs",
+    "labyrinthe des lettres maternelle",
+    "labyrinthe des lettres ms",
+    "labyrinthe lettre cp",
+    "labyrinthe lettre maternelle",
+    "labyrinthe lettres cursives",
+    "labyrinthe magnetique alphabet",
+    "maze abc",
+    "maze abcd"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "labyrinthe des nombres",
+    "labyrinthe numérique",
+    "labyrinthe maths"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 21,
+   "suggestions": [
+    "jeux labyrinthe maths",
+    "labyrinthe des nombres",
+    "labyrinthe des nombres ce1",
+    "labyrinthe des nombres ce2",
+    "labyrinthe des nombres cm1",
+    "labyrinthe des nombres cp",
+    "labyrinthe des nombres gs",
+    "labyrinthe des nombres maternelle",
+    "labyrinthe des nombres ms",
+    "labyrinthe maths",
+    "labyrinthe maths 6ème",
+    "labyrinthe maths ce1",
+    "labyrinthe maths ce2",
+    "labyrinthe maths cm1",
+    "labyrinthe maths cm2",
+    "labyrinthe maths cp",
+    "labyrinthe nombres décimaux",
+    "labyrinthe nombres relatifs",
+    "labyrinthe numérique",
+    "maze maths",
+    "maze maths game"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "labyrinthe facile",
+    "labyrinthe maternelle",
+    "labyrinthe petite section"
+   ],
+   "requests": 21,
+   "productiveSeeds": 12,
+   "unique": 42,
+   "suggestions": [
+    "fiche labyrinthe maternelle",
+    "labyrinthe difficile à imprimer",
+    "labyrinthe difficile à imprimer gratuit",
+    "labyrinthe difficile à imprimer pdf",
+    "labyrinthe enfant ce1",
+    "labyrinthe enfant cp",
+    "labyrinthe enfant à imprimer",
+    "labyrinthe enfant à imprimer 4 ans",
+    "labyrinthe enfant à imprimer 5 ans",
+    "labyrinthe enfant à imprimer 7 ans",
+    "labyrinthe enfant à imprimer 8 ans",
+    "labyrinthe enfant à imprimer gratuit",
+    "labyrinthe facile",
+    "labyrinthe facile 3 ans",
+    "labyrinthe facile a faire",
+    "labyrinthe facile cp",
+    "labyrinthe facile enfant",
+    "labyrinthe facile maternelle",
+    "labyrinthe facile maternelle à imprimer",
+    "labyrinthe facile scratch",
+    "labyrinthe facile à dessiner",
+    "labyrinthe facile à imprimer",
+    "labyrinthe facile à imprimer pdf",
+    "labyrinthe fiche maternelle",
+    "labyrinthe jeu enfant à imprimer",
+    "labyrinthe maternelle",
+    "labyrinthe maternelle en ligne",
+    "labyrinthe maternelle facile",
+    "labyrinthe maternelle gs",
+    "labyrinthe maternelle ms",
+    "labyrinthe maternelle ps",
+    "labyrinthe maternelle ps à imprimer",
+    "labyrinthe maternelle à imprimer",
+    "labyrinthe moyenne section",
+    "labyrinthe moyenne section pdf",
+    "labyrinthe moyenne section à imprimer",
+    "labyrinthe noel maternelle",
+    "labyrinthe petite section",
+    "labyrinthe petite section maternelle",
+    "labyrinthe petite section à imprimer",
+    "labyrinthe pour petite section",
+    "labyrinthe très difficile à imprimer"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrinthe": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe",
+    "labyrinthe film",
+    "labyrinthe mais",
+    "labyrinthe de pan",
+    "labyrinthe pop corn",
+    "labyrinthe 2",
+    "labyrinthe beaugency",
+    "labyrinthe halloween",
+    "labyrinthe jeux",
+    "labyrinthe minotoror"
+   ]
+  },
+  "labyrinthe fiche": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe fiche",
+    "labyrinthe fiche maternelle",
+    "fiche labyrinthe ms",
+    "fiche labyrinthe cp",
+    "fiche labyrinthe gs",
+    "fiche labyrinthe à imprimer"
+   ]
+  },
+  "labyrinthe à imprimer": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe à imprimer",
+    "labyrinthe à imprimer pdf gratuit",
+    "labyrinthe à imprimer difficile pdf",
+    "labyrinthe à imprimer 10 ans",
+    "labyrinthe à imprimer 5 ans pdf",
+    "labyrinthe à imprimer 6 ans",
+    "labyrinthe à imprimer 8 ans",
+    "labyrinthe à imprimer pour adulte",
+    "labyrinthe à imprimer 5 ans",
+    "labyrinthe à imprimer difficile"
+   ]
+  },
+  "labyrinthe maternelle": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe maternelle",
+    "labyrinthe maternelle à imprimer",
+    "labyrinthe maternelle ms",
+    "labyrinthe maternelle gs",
+    "labyrinthe maternelle ps",
+    "labyrinthe maternelle ps à imprimer",
+    "labyrinthe maternelle en ligne",
+    "labyrinthe maternelle facile",
+    "fiche labyrinthe maternelle",
+    "labyrinthe noel maternelle"
+   ]
+  },
+  "labyrinthe cp": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe cp",
+    "labyrinthe cp à imprimer",
+    "labyrinthe cp pdf",
+    "labyrinthe cp ce1",
+    "labyrinthe cp en ligne",
+    "labyrinthe alphabet cp",
+    "exercice labyrinthe cp",
+    "labyrinthe lettre cp",
+    "labyrinthe niveau cp",
+    "labyrinthe calcul cp"
+   ]
+  },
+  "labyrinthe ce1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe ce1",
+    "labyrinthe ce1 à imprimer",
+    "labyrinthe ce1 ce2",
+    "labyrinthe calcul ce1",
+    "labyrinthe maths ce1",
+    "labyrinthe cp ce1",
+    "labyrinthe alphabet ce1",
+    "exercice labyrinthe ce1",
+    "labyrinthe niveau ce1",
+    "labyrinthe enfant ce1"
+   ]
+  },
+  "labyrinthe ce2": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe ce2",
+    "labyrinthe ce2 à imprimer",
+    "labyrinthe ce2 cm1",
+    "labyrinthe calcul ce2",
+    "labyrinthe multiplication ce2",
+    "labyrinthe ce1 ce2",
+    "labyrinthe maths ce2",
+    "exercice labyrinthes ce2",
+    "autonomie labyrinthe ce2",
+    "labyrinthe nombres ce2"
+   ]
+  },
+  "labyrinthe enfant": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe enfant",
+    "labyrinthe enfant à imprimer",
+    "labyrinthe enfant 4 ans",
+    "labyrinthe enfant 5 ans",
+    "labyrinthe enfant 6 ans",
+    "labyrinthe enfant 4 ans à imprimer",
+    "labyrinthe enfant 5 ans à imprimer",
+    "labyrinthe enfant 8 ans",
+    "labyrinthe enfant 7 ans",
+    "labyrinthe enfant 3 ans"
+   ]
+  },
+  "labyrinthe enfant fiche": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe fiche maternelle"
+   ]
+  },
+  "labyrinthe enfant à imprimer": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe enfant à imprimer",
+    "labyrinthe enfant à imprimer gratuit",
+    "labyrinthe enfant à imprimer 4 ans",
+    "labyrinthe enfant à imprimer 5 ans",
+    "labyrinthe enfant à imprimer 8 ans",
+    "labyrinthe enfant à imprimer 7 ans",
+    "labyrinthe maternelle à imprimer",
+    "labyrinthe jeu enfant à imprimer",
+    "labyrinthe maternelle ps à imprimer",
+    "labyrinthe facile maternelle à imprimer"
+   ]
+  },
+  "labyrinthe enfant maternelle": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe enfant maternelle"
+   ]
+  },
+  "labyrinthe enfant cp": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe enfant cp"
+   ]
+  },
+  "labyrinthe enfant ce1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe enfant ce1"
+   ]
+  },
+  "jeu de labyrinthe": {
+   "candidate": "picture-maze",
+   "s": [
+    "jeu de labyrinthe",
+    "jeu de labyrinthe à imprimer",
+    "jeu de labyrinthe en ligne",
+    "jeu de labyrinthe gratuit",
+    "jeu de labyrinthe en ligne gratuit",
+    "jeu de labyrinthe enfant",
+    "jeu de labyrinthe en ligne 6 ans",
+    "jeu de labyrinthe en bois",
+    "jeu de labyrinthe scratch",
+    "jeu de labyrinthe adulte"
+   ]
+  },
+  "jeu de labyrinthe à imprimer": {
+   "candidate": "picture-maze",
+   "s": [
+    "jeu de labyrinthe à imprimer",
+    "jeu labyrinthe à imprimer gratuit",
+    "jeu labyrinthe à imprimer enfant",
+    "jeu labyrinthe adulte à imprimer",
+    "jeux de rébus à imprimer"
+   ]
+  },
+  "jeu de labyrinthe maternelle": {
+   "candidate": "picture-maze",
+   "s": [
+    "jeu de labyrinthe maternelle",
+    "jeu de labyrinthe enfant",
+    "jeu de labyrinthe enfant a imprimer",
+    "jeu de societe labyrinthe enfant"
+   ]
+  },
+  "jeu de labyrinthe cp": {
+   "candidate": "picture-maze",
+   "s": [
+    "jeu labyrinthe cp"
+   ]
+  },
+  "jeu de labyrinthe ce1": {
+   "candidate": "picture-maze",
+   "s": [
+    "jeu labyrinthe ce1"
+   ]
+  },
+  "labyrinthe à imprimer fiche": {
+   "candidate": "picture-maze",
+   "s": [
+    "fiche labyrinthe à imprimer"
+   ]
+  },
+  "labyrinthe à imprimer maternelle": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe à imprimer maternelle",
+    "labyrinthe à imprimer enfant",
+    "labyrinthe à imprimer pdf maternelle",
+    "jeux à imprimer enfants",
+    "rébus à imprimer enfant",
+    "jeux mathématiques à imprimer maternelle"
+   ]
+  },
+  "labyrinthe à imprimer cp": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe à imprimer cp",
+    "jeux à imprimer cp",
+    "jeux à imprimer cp ce1",
+    "jeux éducatifs à imprimer cp",
+    "jeux maths à imprimer cp",
+    "jeux logico mathématiques à imprimer cp",
+    "jeux de lecture à imprimer cp"
+   ]
+  },
+  "labyrinthe à imprimer ce1": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe à imprimer ce1",
+    "jeux à imprimer ce1",
+    "jeux à imprimer ce1 ce2",
+    "jeux à imprimer 6ème",
+    "jeux fractions à imprimer ce1",
+    "jeux à imprimer cp ce1",
+    "jeux mathématiques à imprimer ce1",
+    "jeux éducatifs à imprimer ce1",
+    "jeux de lecture à imprimer ce1",
+    "jeux de logique à imprimer ce1"
+   ]
+  },
+  "labyrinthe à imprimer ce2": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthe à imprimer ce2",
+    "jeux à imprimer ce2",
+    "jeux à imprimer ce2 cm1",
+    "jeux à imprimer 6ème",
+    "jeux fractions à imprimer ce2",
+    "jeux mathématiques à imprimer ce2",
+    "jeux à imprimer ce1 ce2",
+    "jeux de lecture à imprimer ce2",
+    "jeux logico mathématiques à imprimer ce2",
+    "jeux de logique à imprimer ce2"
+   ]
+  },
+  "labyrinthe alphabet": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet",
+    "labyrinthe alphabet cp",
+    "labyrinthe alphabet à imprimer",
+    "labyrinthe alphabet gs",
+    "labyrinthe alphabet ce1",
+    "labyrinthe alphabet cursive",
+    "labyrinthe alphabet script",
+    "labyrinthe alphabet ms",
+    "labyrinthe alphabet maternelle",
+    "labyrinthe magnetique alphabet"
+   ]
+  },
+  "labyrinthe alphabet à imprimer": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet à imprimer"
+   ]
+  },
+  "labyrinthe alphabet maternelle": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet maternelle",
+    "labyrinthe lettre maternelle"
+   ]
+  },
+  "labyrinthe alphabet cp": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet cp",
+    "labyrinthe lettre cp",
+    "labyrinthe alphabet cursive"
+   ]
+  },
+  "labyrinthe alphabet ce1": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet ce1"
+   ]
+  },
+  "labyrinthe des lettres": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe des lettres cp",
+    "labyrinthe des lettres",
+    "labyrinthe des lettres gs",
+    "labyrinthe des lettres bout de gomme",
+    "labyrinthe des lettres maternelle",
+    "labyrinthe des lettres ms",
+    "labyrinthe des lettres capitales",
+    "labyrinthe avec des lettres",
+    "labyrinthe lettres cursives",
+    "labyrinthe des lettres de l alphabet"
+   ]
+  },
+  "labyrinthe des lettres à imprimer": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet à imprimer"
+   ]
+  },
+  "labyrinthe des lettres maternelle": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe des lettres maternelle",
+    "labyrinthe alphabet maternelle"
+   ]
+  },
+  "labyrinthe des lettres cp": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe des lettres cp",
+    "labyrinthe des lettres capitales",
+    "labyrinthe alphabet cp"
+   ]
+  },
+  "labyrinthe des lettres ce1": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labyrinthe alphabet ce1"
+   ]
+  },
+  "labyrinthe abc": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "maze abc",
+    "maze abcd",
+    "labyrinth abc book",
+    "labyrinth abc",
+    "labyrinth abc storybook"
+   ]
+  },
+  "labyrinthe des nombres": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe des nombres",
+    "labyrinthe des nombres cp",
+    "labyrinthe des nombres maternelle",
+    "labyrinthe des nombres ce2",
+    "labyrinthe des nombres gs",
+    "labyrinthe des nombres ce1",
+    "labyrinthe des nombres cm1",
+    "labyrinthe des nombres ms",
+    "labyrinthe nombres relatifs",
+    "labyrinthe nombres décimaux"
+   ]
+  },
+  "labyrinthe des nombres maternelle": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe des nombres maternelle"
+   ]
+  },
+  "labyrinthe des nombres cp": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe des nombres cp"
+   ]
+  },
+  "labyrinthe des nombres ce1": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe des nombres ce1"
+   ]
+  },
+  "labyrinthe des nombres ce2": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe des nombres ce2"
+   ]
+  },
+  "labyrinthe numérique": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe numérique"
+   ]
+  },
+  "labyrinthe maths": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe maths",
+    "labyrinthe maths 6ème",
+    "labyrinthe maths ce1",
+    "labyrinthe maths cp",
+    "labyrinthe maths ce2",
+    "labyrinthe maths cm1",
+    "labyrinthe maths cm2",
+    "jeux labyrinthe maths",
+    "maze maths",
+    "maze maths game"
+   ]
+  },
+  "labyrinthe maths cp": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe maths cp"
+   ]
+  },
+  "labyrinthe maths ce1": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe maths ce1"
+   ]
+  },
+  "labyrinthe maths ce2": {
+   "candidate": "number-maze",
+   "s": [
+    "labyrinthe maths ce2"
+   ]
+  },
+  "labyrinthe facile": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe facile",
+    "labyrinthe facile à imprimer",
+    "labyrinthe facile à imprimer pdf",
+    "labyrinthe facile enfant",
+    "labyrinthe facile à dessiner",
+    "labyrinthe facile scratch",
+    "labyrinthe facile maternelle",
+    "labyrinthe facile a faire",
+    "labyrinthe facile maternelle à imprimer",
+    "labyrinthe facile 3 ans"
+   ]
+  },
+  "labyrinthe facile à imprimer": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe facile à imprimer",
+    "labyrinthe facile à imprimer pdf",
+    "labyrinthe difficile à imprimer",
+    "labyrinthe difficile à imprimer pdf",
+    "labyrinthe difficile à imprimer gratuit",
+    "labyrinthe facile maternelle à imprimer",
+    "labyrinthe très difficile à imprimer"
+   ]
+  },
+  "labyrinthe facile maternelle": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe facile maternelle",
+    "labyrinthe facile maternelle à imprimer"
+   ]
+  },
+  "labyrinthe facile cp": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe facile cp"
+   ]
+  },
+  "labyrinthe maternelle fiche": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe fiche maternelle"
+   ]
+  },
+  "labyrinthe maternelle à imprimer": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe maternelle à imprimer",
+    "labyrinthe enfant à imprimer",
+    "labyrinthe enfant à imprimer gratuit",
+    "labyrinthe enfant à imprimer 4 ans",
+    "labyrinthe enfant à imprimer 8 ans",
+    "labyrinthe enfant à imprimer 5 ans",
+    "labyrinthe enfant à imprimer 7 ans",
+    "labyrinthe maternelle ps à imprimer",
+    "labyrinthe facile maternelle à imprimer",
+    "labyrinthe jeu enfant à imprimer"
+   ]
+  },
+  "labyrinthe maternelle cp": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe enfant cp"
+   ]
+  },
+  "labyrinthe maternelle ce1": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe enfant ce1"
+   ]
+  },
+  "labyrinthe petite section": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe petite section",
+    "labyrinthe petite section à imprimer",
+    "labyrinthe petite section maternelle",
+    "labyrinthe moyenne section",
+    "labyrinthe moyenne section à imprimer",
+    "labyrinthe moyenne section pdf",
+    "labyrinthe pour petite section"
+   ]
+  },
+  "labyrinthe petite section à imprimer": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe petite section à imprimer",
+    "labyrinthe moyenne section à imprimer"
+   ]
+  },
+  "labyrinthe petite section maternelle": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrinthe petite section maternelle"
+   ]
+  }
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-10-11T18:17:32.822Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 70,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrintti",
+    "labyrintti lapsille",
+    "sokkelo",
+    "labyrinttitehtävä"
+   ],
+   "requests": 28,
+   "productiveSeeds": 8,
+   "unique": 29,
+   "suggestions": [
+    "labyrintti helsinki",
+    "labyrintti kirja lapsille",
+    "labyrintti kuva",
+    "labyrintti lapsille",
+    "labyrintti piirros",
+    "labyrintti puutarha",
+    "labyrintti sanat",
+    "labyrintti synonyymi",
+    "labyrintti tampere",
+    "labyrintti tehtäviä",
+    "labyrintti tehtäviä lapsille",
+    "labyrintti tehtävä lapsille",
+    "labyrintti tulostettava",
+    "labyrintti tuuri",
+    "labyrinttikalat",
+    "labyrinttipelin kuula",
+    "labyrinttitehtävä lapsille",
+    "sokkelo lapsille",
+    "sokkelo tulostettava",
+    "sokkelo värityskuva",
+    "sokkeloinen",
+    "sokkeloinen englanniksi",
+    "sokkeloinen liike",
+    "sokkelopilvenpiirtäjän arvoitus",
+    "sokkelopuu huutokaupat",
+    "sokkelopuu pariliiteri",
+    "sokkeloripsimonni",
+    "sokkelot",
+    "tulostettavia labyrintti tehtäviä"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "kirjainlabyrintti",
+    "aakkoslabyrintti"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "number-maze": {
+   "heads": [
+    "numerolabyrintti",
+    "matikkalabyrintti"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "easy-maze": {
+   "heads": [
+    "helppo labyrintti",
+    "labyrintti esikoulu"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "helppo labyrintti"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrintti": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintti synonyymi",
+    "labyrintti helsinki",
+    "labyrintti kuva",
+    "labyrinttipelin kuula",
+    "labyrintti tampere",
+    "labyrintti piirros",
+    "labyrintti tuuri",
+    "labyrinttikalat",
+    "labyrintti sanat",
+    "labyrintti puutarha"
+   ]
+  },
+  "labyrintti tehtäviä": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintti tehtäviä lapsille",
+    "labyrintti tehtäviä",
+    "tulostettavia labyrintti tehtäviä"
+   ]
+  },
+  "labyrintti tulostettava": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintti tulostettava"
+   ]
+  },
+  "labyrintti lapsille": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintti lapsille",
+    "labyrintti tehtävä lapsille",
+    "labyrintti kirja lapsille"
+   ]
+  },
+  "labyrintti lapsille tehtäviä": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintti tehtäviä lapsille"
+   ]
+  },
+  "sokkelo": {
+   "candidate": "picture-maze",
+   "s": [
+    "sokkeloinen liike",
+    "sokkelot",
+    "sokkeloinen",
+    "sokkelo värityskuva",
+    "sokkeloripsimonni",
+    "sokkelopilvenpiirtäjän arvoitus",
+    "sokkelo lapsille",
+    "sokkelopuu huutokaupat",
+    "sokkeloinen englanniksi",
+    "sokkelopuu pariliiteri"
+   ]
+  },
+  "sokkelo tulostettava": {
+   "candidate": "picture-maze",
+   "s": [
+    "sokkelo tulostettava"
+   ]
+  },
+  "labyrinttitehtävä": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinttitehtävä lapsille"
+   ]
+  },
+  "helppo labyrintti": {
+   "candidate": "easy-maze",
+   "s": [
+    "helppo labyrintti"
+   ]
+  }
+ }
+}

@@ -34,7 +34,7 @@ function resolveStrings(typeId, locale, spec) {
     return { title: en[typeId].title, instruction: en[typeId].instruction, ...(en[typeId].printTitle ? { printTitle: en[typeId].printTitle } : {}), source: 'en' };
   }
   if (spec && spec.i18n && spec.i18n.en) {
-    return { title: spec.i18n.en.title, instruction: spec.i18n.en.instruction, source: 'spec' };
+    return { title: spec.i18n.en.title, instruction: spec.i18n.en.instruction, ...(spec.i18n.en.printTitle ? { printTitle: spec.i18n.en.printTitle } : {}), source: 'spec' };
   }
   throw new Error('strings: no strings for type ' + typeId + ' (run i18n/build-en.js)');
 }

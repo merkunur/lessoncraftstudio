@@ -1,0 +1,1387 @@
+{
+ "locale": "en",
+ "market": {
+  "hl": "en",
+  "gl": "us"
+ },
+ "generatedAt": "2026-10-11T18:14:18.414Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 126,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "maze",
+    "mazes for kids",
+    "maze puzzles for kids",
+    "picture maze",
+    "help the find the way maze",
+    "maze activity"
+   ],
+   "requests": 42,
+   "productiveSeeds": 27,
+   "unique": 177,
+   "suggestions": [
+    "1st grade maze passages",
+    "1st grade maze worksheets free printable",
+    "activities for 1 5 year olds",
+    "children's activities for 5 year olds",
+    "crossword puzzles for kids 1st grade",
+    "crossword puzzles for kids 2nd grade",
+    "crossword puzzles for kids 3rd grade",
+    "dibels maze 3rd grade",
+    "easy children's activities",
+    "easy mazes for 5 year olds",
+    "free maze puzzles for kids printable",
+    "free printable maze puzzles for kids pdf",
+    "halloween activities for 5 year olds",
+    "human body activities for 1st grade",
+    "human body activities for 3rd grade",
+    "kindergarten maze activity",
+    "kindergarten maze book",
+    "kindergarten maze free",
+    "kindergarten maze printable",
+    "kindergarten maze worksheets free",
+    "kindergarten maze worksheets pdf",
+    "kindergarten mazes for kids printable",
+    "logic puzzles for kids 3rd grade",
+    "math maze 1st grade",
+    "math maze 2nd grade",
+    "math maze 3rd grade",
+    "math puzzles for kids 2nd grade",
+    "math puzzles for kids 3rd grade",
+    "math puzzles for kids worksheets",
+    "maze",
+    "maze 1st grade",
+    "maze 2nd grade",
+    "maze 2nd grade dibels",
+    "maze 2nd grade practice",
+    "maze 3rd grade",
+    "maze 3rd grade practice",
+    "maze activity",
+    "maze activity book",
+    "maze activity books for kids",
+    "maze activity for kids",
+    "maze activity for kindergarten",
+    "maze activity page",
+    "maze activity pages for kids",
+    "maze activity preschool",
+    "maze activity printable",
+    "maze activity sheet",
+    "maze activity sheets",
+    "maze activity sheets for kids",
+    "maze activity sheets for kindergarten",
+    "maze activity sheets for preschoolers",
+    "maze activity sheets free",
+    "maze activity sheets pdf",
+    "maze activity sheets printable",
+    "maze activity worksheet",
+    "maze activity worksheet pdf",
+    "maze activity worksheets",
+    "maze children's printable free",
+    "maze comprehension 2nd grade",
+    "maze for 1st graders",
+    "maze for 3rd graders",
+    "maze for kids grade 1",
+    "maze for kids kindergarten",
+    "maze for kids printable free pdf",
+    "maze for kids printable pdf free download",
+    "maze for kids worksheet pdf",
+    "maze for second graders",
+    "maze game kindergarten",
+    "maze game printable",
+    "maze game printable for adults",
+    "maze game printable for kids",
+    "maze game printable free",
+    "maze game printable pdf",
+    "maze game worksheets",
+    "maze games for kids printable",
+    "maze grade 1",
+    "maze grade 3",
+    "maze grade 3 progress monitoring",
+    "maze kindergarten",
+    "maze kindergarten pdf",
+    "maze kindergarten printable free",
+    "maze kindergarten worksheets",
+    "maze passages 2nd grade",
+    "maze passages 3rd grade pdf",
+    "maze picture for kids printable",
+    "maze picture for scratch",
+    "maze picture kids",
+    "maze practice 3rd grade free",
+    "maze preschool printable",
+    "maze printable",
+    "maze printable 2nd grade",
+    "maze printable easy",
+    "maze printable for adults",
+    "maze printable for kids",
+    "maze printable for kids free",
+    "maze printable for kids hard",
+    "maze printable free",
+    "maze printable hard",
+    "maze printable pdf",
+    "maze printable sheets",
+    "maze puzzle for kids worksheet",
+    "maze puzzles for kids",
+    "maze puzzles for kids book",
+    "maze puzzles for kids easy",
+    "maze puzzles for kids free",
+    "maze puzzles for kids hard",
+    "maze puzzles for kids online",
+    "maze puzzles for kids pdf",
+    "maze puzzles for kids printable",
+    "maze puzzles for kids printable pdf",
+    "maze runner",
+    "maze runner 2",
+    "maze runner 3",
+    "maze runner books",
+    "maze runner cast",
+    "maze runner movies",
+    "maze runner movies in order",
+    "maze runner where to watch",
+    "maze test 2nd grade",
+    "maze test 3rd grade",
+    "maze walk activity for kindergarten",
+    "maze worksheet 1st grade",
+    "maze worksheet grade 1",
+    "maze worksheet kindergarten",
+    "maze worksheet printable",
+    "maze worksheets",
+    "maze worksheets for 2nd graders",
+    "maze worksheets for 3rd graders",
+    "maze worksheets for adults",
+    "maze worksheets for grade 1",
+    "maze worksheets for grade 2",
+    "maze worksheets for grade 2 pdf",
+    "maze worksheets for grade 3",
+    "maze worksheets for kids",
+    "maze worksheets for kids printable",
+    "maze worksheets for kindergarten",
+    "maze worksheets free",
+    "maze worksheets pdf",
+    "mazel tov",
+    "mazes for 1st graders printable",
+    "mazes for kids",
+    "mazes for kids easy",
+    "mazes for kids free",
+    "mazes for kids free printable",
+    "mazes for kids free printable pdf",
+    "mazes for kids hard",
+    "mazes for kids near me",
+    "mazes for kids online",
+    "mazes for kids printable",
+    "mazes for kids printable easy",
+    "mazes for kids printable free",
+    "mazes for kids printable hard",
+    "mazes for kids printable pdf",
+    "mazes for kids worksheets",
+    "mazes for kindergarten printable",
+    "number 5 activities for preschoolers",
+    "picture maze",
+    "picture maze book",
+    "picture maze for kids",
+    "picture maze game",
+    "picture maze generator",
+    "picture maze maker",
+    "picture maze printable",
+    "picture maze puzzle",
+    "picture maze solver",
+    "puzzles for kids 1st grade",
+    "puzzles for kids 2nd grade",
+    "puzzles for kids grade 2 pdf",
+    "puzzles for kids grade 3",
+    "puzzles for kids printable",
+    "puzzles for kids printable free",
+    "puzzles for kids worksheets",
+    "puzzles for kindergarten kids",
+    "puzzles for kindergarten kids online",
+    "sample activities for grade 3",
+    "what are children's activities",
+    "what should a child be able to do at 5",
+    "word puzzles for kids grade 3"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "alphabet maze",
+    "abc maze",
+    "letter maze",
+    "abc order maze"
+   ],
+   "requests": 28,
+   "productiveSeeds": 13,
+   "unique": 50,
+   "suggestions": [
+    "a to z alphabet maze printable",
+    "abc activities for 4 year olds",
+    "abc alphabetical order list",
+    "abc games for preschool",
+    "abc how to write for preschool",
+    "abc maze",
+    "abc maze chase",
+    "abc maze for kids",
+    "abc maze for kids printable",
+    "abc maze game",
+    "abc maze printable",
+    "abc maze puzzle",
+    "abc maze wordwall",
+    "abc maze worksheet",
+    "abc mazedonisch",
+    "abc order maze",
+    "alphabet book ideas for preschool",
+    "alphabet ideas for kindergarten",
+    "alphabet ideas for preschool",
+    "alphabet maze",
+    "alphabet maze aa",
+    "alphabet maze activity",
+    "alphabet maze for kids",
+    "alphabet maze for kids printable",
+    "alphabet maze for kindergarten",
+    "alphabet maze game",
+    "alphabet maze meaning",
+    "alphabet maze pdf",
+    "alphabet maze printable",
+    "alphabet maze printable free",
+    "alphabet maze worksheet",
+    "alphabet maze worksheet pdf",
+    "alphabet maze worksheets",
+    "alphabet maze worksheets for kindergarten",
+    "free alphabet maze worksheets",
+    "free printable alphabet maze worksheet",
+    "free printable letter maze worksheets",
+    "letter b maze worksheets",
+    "letter m maze worksheets",
+    "letter maze for kindergarten",
+    "letter maze for preschool",
+    "letter maze free printable",
+    "letter maze game",
+    "letter maze generator",
+    "letter maze generator free",
+    "letter maze kindergarten",
+    "letter maze printable",
+    "letter maze worksheets",
+    "letter maze worksheets pdf",
+    "letter mazes"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "number maze",
+    "counting maze",
+    "skip counting maze",
+    "math maze"
+   ],
+   "requests": 28,
+   "productiveSeeds": 20,
+   "unique": 94,
+   "suggestions": [
+    "3rd grade math examples",
+    "count hours work",
+    "count how many worksheets",
+    "counting atoms maze",
+    "counting maze",
+    "counting maze toy",
+    "counting maze worksheet",
+    "magnetic counting maze",
+    "magnetic counting maze board",
+    "magnetic counting maze lakeshore",
+    "math apps for 3rd grade",
+    "math at home games",
+    "math centers kindergarten ideas",
+    "math crossword puzzle 1st grade",
+    "math crossword puzzle 2nd grade",
+    "math crossword puzzle 3rd grade",
+    "math maze 1st grade",
+    "math maze 2nd grade",
+    "math maze 3rd grade",
+    "math maze for grade 1",
+    "math maze game",
+    "math maze grade 1",
+    "math maze grade 3",
+    "math maze kids",
+    "math maze kindergarten",
+    "math maze multiplication",
+    "math maze printable",
+    "math maze printable free",
+    "math maze printable pdf",
+    "math maze template",
+    "math maze worksheet grade 1",
+    "math maze worksheet grade 3",
+    "math maze worksheet grade 7",
+    "math maze worksheet pdf",
+    "math maze worksheets",
+    "math maze worksheets for grade 3",
+    "math maze worksheets free",
+    "math mazes",
+    "math mazes free printable",
+    "math programs for 5 year olds",
+    "math puzzle 1st grade",
+    "math puzzle 2nd grade",
+    "math puzzle 3rd grade",
+    "math puzzle grade 1",
+    "math puzzle grade 3 printable",
+    "math puzzle kindergarten",
+    "math puzzle printable",
+    "math puzzle printable free",
+    "math puzzle printable pdf",
+    "math puzzle worksheets 2nd grade",
+    "math puzzle worksheets 3rd grade",
+    "math puzzle worksheets 5th grade",
+    "math puzzle worksheets for grade 1",
+    "math puzzle worksheets for grade 2",
+    "math puzzle worksheets for grade 3",
+    "math puzzle worksheets for grade 4",
+    "math puzzle worksheets high school pdf",
+    "math puzzle worksheets pdf",
+    "number and counting activities for preschool",
+    "number grid puzzle 2nd grade",
+    "number maze",
+    "number maze 1988",
+    "number maze challenge",
+    "number maze computer game",
+    "number maze game",
+    "number maze generator",
+    "number maze kids",
+    "number maze kindergarten",
+    "number maze printable",
+    "number maze puzzle",
+    "number maze worksheet",
+    "number maze worksheet for kindergarten",
+    "number maze worksheet pdf",
+    "number maze worksheet with answers",
+    "number maze worksheets",
+    "number mazes for kids",
+    "number puzzle 3rd grade",
+    "number puzzle kindergarten",
+    "number puzzle printable",
+    "number puzzle worksheets",
+    "skip counting activities",
+    "skip counting by 10 maze",
+    "skip counting by 2 maze",
+    "skip counting by 3 maze",
+    "skip counting by 5 maze",
+    "skip counting examples",
+    "skip counting explained",
+    "skip counting maze free printable",
+    "skip counting maze worksheet",
+    "skip counting mazes",
+    "skip counting mazes free",
+    "skip counting mazes printable",
+    "unknown number puzzle 3rd grade",
+    "what kind of math do kindergarteners do"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "easy maze",
+    "easy mazes for preschoolers",
+    "mazes for toddlers",
+    "simple maze for kids"
+   ],
+   "requests": 28,
+   "productiveSeeds": 15,
+   "unique": 89,
+   "suggestions": [
+    "5 year old kid is called",
+    "basic maze for kids",
+    "bead mazes for toddlers",
+    "children's activities for 5 year olds",
+    "easy activities for 5th graders",
+    "easy activities for kindergarten",
+    "easy children's activities",
+    "easy children's activities at home",
+    "easy fun activities for preschoolers",
+    "easy kids maze printable",
+    "easy maze",
+    "easy maze coloring pages",
+    "easy maze for kids printable pdf free download",
+    "easy maze kids",
+    "easy maze kindergarten",
+    "easy maze pdf",
+    "easy maze print",
+    "easy maze printable",
+    "easy maze printable for kids",
+    "easy maze printable free",
+    "easy maze printable pdf",
+    "easy maze puzzles",
+    "easy maze puzzles for kids",
+    "easy maze to draw",
+    "easy maze worksheet",
+    "easy maze worksheets",
+    "easy maze worksheets for kids",
+    "easy maze worksheets for kindergarten",
+    "easy maze worksheets for preschoolers",
+    "easy mazes for 5 year olds",
+    "easy mazes for kids",
+    "easy mazes for kids free",
+    "easy mazes for kids pdf",
+    "easy mazes for kids printable",
+    "easy mazes for kids printable free",
+    "easy mazes for kids printable pdf",
+    "easy mazes for kids to draw",
+    "easy mazes for kindergarten",
+    "easy mazes for preschoolers",
+    "easy mazes for preschoolers printable",
+    "easy mazes for toddlers",
+    "easy projects for preschoolers",
+    "free mazes for toddlers",
+    "free printable easy mazes for preschoolers",
+    "free printable mazes for toddlers",
+    "how to keep a toddler entertained",
+    "how to write a simple children's book",
+    "human body activities for toddlers",
+    "kid maze printable",
+    "kid maze printable free",
+    "kindergarten simple maze for kids",
+    "magnetic mazes for toddlers",
+    "marble mazes for toddlers",
+    "maze for kids kindergarten",
+    "maze for kids printable pdf free download",
+    "maze for kindergarten printable free",
+    "maze for toddlers online",
+    "mazes for kids printable",
+    "mazes for kids printable easy",
+    "mazes for kids printable free",
+    "mazes for kids printable hard",
+    "mazes for kids printable pdf",
+    "mazes for kids worksheets",
+    "mazes for kindergarten printable",
+    "mazes for preschoolers printable",
+    "mazes for toddlers",
+    "mazes for toddlers pdf",
+    "mazes for toddlers printable",
+    "simple children's book ideas",
+    "simple labyrinth for kids",
+    "simple maze for kids",
+    "simple maze for kids free",
+    "simple maze for kids free printable",
+    "simple maze for kids online",
+    "simple maze for kids pdf",
+    "simple maze for kids png",
+    "simple maze for kids printable",
+    "simple maze printable",
+    "simple maze printable free",
+    "simple maze printable pdf free",
+    "simple maze worksheets",
+    "simple maze worksheets for kids",
+    "simple maze worksheets kindergarten",
+    "simple maze worksheets preschool",
+    "simple mazes for kids printable pdf",
+    "simple mazes for preschoolers printable",
+    "simple toys for 5 year olds",
+    "what activities to do at home with toddlers",
+    "what are children's activities"
+   ]
+  }
+ },
+ "suggestions": {
+  "maze": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze runner",
+    "mazel tov",
+    "maze",
+    "maze runner movies in order",
+    "maze runner cast",
+    "maze runner where to watch",
+    "maze runner movies",
+    "maze runner 3",
+    "maze runner books",
+    "maze runner 2"
+   ]
+  },
+  "maze worksheets": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze worksheets",
+    "maze worksheets for kids",
+    "maze worksheets for kindergarten",
+    "maze worksheets for grade 2",
+    "maze worksheets free",
+    "maze worksheets pdf",
+    "maze worksheets for grade 1",
+    "maze worksheets for grade 3",
+    "maze worksheets for grade 2 pdf",
+    "maze worksheets for adults"
+   ]
+  },
+  "maze printable": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze printable",
+    "maze printable for kids",
+    "maze printable free",
+    "maze printable pdf",
+    "maze printable for adults",
+    "maze printable hard",
+    "maze printable for kids free",
+    "maze printable sheets",
+    "maze printable for kids hard",
+    "maze printable easy"
+   ]
+  },
+  "maze kindergarten": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze kindergarten worksheets",
+    "maze kindergarten",
+    "maze kindergarten pdf",
+    "maze kindergarten printable free",
+    "kindergarten maze printable",
+    "kindergarten maze worksheets pdf",
+    "kindergarten maze worksheets free",
+    "kindergarten maze activity",
+    "kindergarten maze book",
+    "kindergarten maze free"
+   ]
+  },
+  "maze 1st grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze 1st grade",
+    "maze for 1st graders",
+    "math maze 1st grade",
+    "maze worksheet 1st grade",
+    "maze grade 1",
+    "mazes for 1st graders printable",
+    "1st grade maze worksheets free printable",
+    "1st grade maze passages"
+   ]
+  },
+  "maze 2nd grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze 2nd grade",
+    "maze 2nd grade practice",
+    "maze 2nd grade dibels",
+    "maze for second graders",
+    "maze passages 2nd grade",
+    "math maze 2nd grade",
+    "maze test 2nd grade",
+    "maze printable 2nd grade",
+    "maze comprehension 2nd grade",
+    "maze worksheets for 2nd graders"
+   ]
+  },
+  "maze 3rd grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze 3rd grade",
+    "maze 3rd grade practice",
+    "maze grade 3",
+    "maze grade 3 progress monitoring",
+    "maze for 3rd graders",
+    "dibels maze 3rd grade",
+    "math maze 3rd grade",
+    "maze test 3rd grade",
+    "maze passages 3rd grade pdf",
+    "maze practice 3rd grade free"
+   ]
+  },
+  "mazes for kids": {
+   "candidate": "picture-maze",
+   "s": [
+    "mazes for kids",
+    "mazes for kids printable",
+    "mazes for kids free printable",
+    "mazes for kids free",
+    "mazes for kids printable pdf",
+    "mazes for kids online",
+    "mazes for kids near me",
+    "mazes for kids easy",
+    "mazes for kids hard",
+    "mazes for kids free printable pdf"
+   ]
+  },
+  "mazes for kids worksheets": {
+   "candidate": "picture-maze",
+   "s": [
+    "mazes for kids worksheets",
+    "puzzles for kids worksheets",
+    "mazes for kids printable",
+    "mazes for kids printable free",
+    "mazes for kids printable pdf",
+    "mazes for kids printable hard",
+    "mazes for kids printable easy",
+    "maze for kids worksheet pdf",
+    "maze worksheets for kids printable",
+    "math puzzles for kids worksheets"
+   ]
+  },
+  "mazes for kids printable": {
+   "candidate": "picture-maze",
+   "s": [
+    "mazes for kids printable",
+    "mazes for kids printable free",
+    "mazes for kids printable pdf",
+    "mazes for kids printable hard",
+    "mazes for kids printable easy",
+    "maze for kids printable pdf free download",
+    "maze for kids printable free pdf",
+    "puzzles for kids printable",
+    "puzzles for kids printable free",
+    "mazes for kindergarten printable"
+   ]
+  },
+  "mazes for kids kindergarten": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze for kids kindergarten",
+    "puzzles for kindergarten kids",
+    "puzzles for kindergarten kids online",
+    "kindergarten mazes for kids printable",
+    "easy mazes for 5 year olds",
+    "children's activities for 5 year olds",
+    "what are children's activities",
+    "what should a child be able to do at 5"
+   ]
+  },
+  "mazes for kids 1st grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "puzzles for kids 1st grade",
+    "maze for kids grade 1",
+    "crossword puzzles for kids 1st grade",
+    "easy mazes for 5 year olds",
+    "easy children's activities",
+    "human body activities for 1st grade"
+   ]
+  },
+  "mazes for kids 2nd grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "puzzles for kids 2nd grade",
+    "puzzles for kids grade 2 pdf",
+    "crossword puzzles for kids 2nd grade",
+    "math puzzles for kids 2nd grade",
+    "easy mazes for 5 year olds",
+    "what are children's activities"
+   ]
+  },
+  "mazes for kids 3rd grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "puzzles for kids grade 3",
+    "math puzzles for kids 3rd grade",
+    "crossword puzzles for kids 3rd grade",
+    "logic puzzles for kids 3rd grade",
+    "word puzzles for kids grade 3",
+    "easy mazes for 5 year olds",
+    "human body activities for 3rd grade",
+    "sample activities for grade 3"
+   ]
+  },
+  "maze puzzles for kids": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze puzzles for kids",
+    "maze puzzles for kids printable",
+    "maze puzzles for kids online",
+    "maze puzzles for kids pdf",
+    "maze puzzles for kids printable pdf",
+    "maze puzzles for kids easy",
+    "maze puzzles for kids hard",
+    "maze puzzles for kids free",
+    "maze puzzles for kids book",
+    "maze puzzle for kids worksheet"
+   ]
+  },
+  "maze puzzles for kids worksheets": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze puzzle for kids worksheet",
+    "maze puzzles for kids printable",
+    "maze puzzles for kids printable pdf",
+    "maze games for kids printable",
+    "free maze puzzles for kids printable"
+   ]
+  },
+  "maze puzzles for kids printable": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze puzzles for kids printable",
+    "maze puzzles for kids printable pdf",
+    "maze games for kids printable",
+    "free maze puzzles for kids printable",
+    "maze puzzle for kids worksheet",
+    "free printable maze puzzles for kids pdf"
+   ]
+  },
+  "picture maze": {
+   "candidate": "picture-maze",
+   "s": [
+    "picture maze",
+    "picture maze printable",
+    "picture maze for kids",
+    "picture maze generator",
+    "picture maze book",
+    "picture maze game",
+    "picture maze solver",
+    "picture maze puzzle",
+    "picture maze maker",
+    "maze picture for scratch"
+   ]
+  },
+  "picture maze worksheets": {
+   "candidate": "picture-maze",
+   "s": [
+    "picture maze printable"
+   ]
+  },
+  "picture maze printable": {
+   "candidate": "picture-maze",
+   "s": [
+    "picture maze printable",
+    "maze picture for kids printable"
+   ]
+  },
+  "picture maze kindergarten": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze picture kids"
+   ]
+  },
+  "maze activity": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze activity for kids",
+    "maze activity",
+    "maze activity sheet",
+    "maze activity book",
+    "maze activity page",
+    "maze activity printable",
+    "maze activity sheets for kids",
+    "maze activity pages for kids",
+    "maze activity worksheet",
+    "maze activity books for kids"
+   ]
+  },
+  "maze activity worksheets": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze activity worksheets",
+    "maze kindergarten worksheets",
+    "maze game worksheets",
+    "maze activity worksheet pdf",
+    "maze activity sheets",
+    "maze activity sheets for kids",
+    "maze activity sheets printable",
+    "maze activity sheets pdf",
+    "maze activity sheets for preschoolers",
+    "maze activity sheets free"
+   ]
+  },
+  "maze activity printable": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze activity printable",
+    "maze game printable",
+    "maze worksheet printable",
+    "maze game printable for kids",
+    "maze children's printable free",
+    "maze game printable for adults",
+    "maze game printable pdf",
+    "maze kindergarten printable free",
+    "maze game printable free",
+    "maze preschool printable"
+   ]
+  },
+  "maze activity kindergarten": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze worksheet kindergarten",
+    "maze game kindergarten",
+    "maze activity preschool",
+    "maze activity for kindergarten",
+    "maze activity sheets for kindergarten",
+    "maze walk activity for kindergarten",
+    "easy mazes for 5 year olds",
+    "number 5 activities for preschoolers",
+    "halloween activities for 5 year olds",
+    "activities for 1 5 year olds"
+   ]
+  },
+  "maze activity 1st grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze worksheet 1st grade",
+    "maze worksheet grade 1"
+   ]
+  },
+  "maze activity 3rd grade": {
+   "candidate": "picture-maze",
+   "s": [
+    "maze worksheets for 3rd graders",
+    "human body activities for 3rd grade",
+    "sample activities for grade 3"
+   ]
+  },
+  "alphabet maze": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alphabet maze",
+    "alphabet maze worksheet",
+    "alphabet maze printable free",
+    "alphabet maze game",
+    "alphabet maze for kids",
+    "alphabet maze printable",
+    "alphabet maze meaning",
+    "alphabet maze aa",
+    "alphabet maze activity",
+    "alphabet maze pdf"
+   ]
+  },
+  "alphabet maze worksheets": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alphabet maze worksheets for kindergarten",
+    "alphabet maze worksheets",
+    "letter maze worksheets",
+    "letter maze worksheets pdf",
+    "alphabet maze worksheet pdf",
+    "alphabet maze printable",
+    "alphabet maze printable free",
+    "free alphabet maze worksheets"
+   ]
+  },
+  "alphabet maze printable": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alphabet maze printable free",
+    "alphabet maze printable",
+    "letter maze printable",
+    "abc maze printable",
+    "alphabet maze worksheet",
+    "alphabet maze worksheets for kindergarten",
+    "alphabet maze worksheet pdf",
+    "free printable alphabet maze worksheet",
+    "alphabet maze for kids printable",
+    "a to z alphabet maze printable"
+   ]
+  },
+  "alphabet maze kindergarten": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze kindergarten",
+    "alphabet maze for kindergarten",
+    "alphabet maze worksheets for kindergarten",
+    "alphabet ideas for kindergarten",
+    "alphabet book ideas for preschool",
+    "alphabet ideas for preschool"
+   ]
+  },
+  "abc maze": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "abc maze",
+    "abc maze worksheet",
+    "abc maze game",
+    "abc maze for kids",
+    "abc maze printable",
+    "abc maze for kids printable",
+    "abc maze puzzle",
+    "abc maze wordwall",
+    "abc maze chase",
+    "abc mazedonisch"
+   ]
+  },
+  "abc maze worksheets": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze worksheets",
+    "letter maze worksheets pdf",
+    "abc maze worksheet",
+    "abc maze printable"
+   ]
+  },
+  "abc maze printable": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "abc maze printable",
+    "letter maze printable",
+    "abc maze worksheet",
+    "abc maze for kids printable"
+   ]
+  },
+  "abc maze kindergarten": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze kindergarten",
+    "abc how to write for preschool",
+    "abc activities for 4 year olds",
+    "abc games for preschool"
+   ]
+  },
+  "letter maze": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter mazes",
+    "letter maze printable",
+    "letter maze for preschool",
+    "letter maze worksheets",
+    "letter maze generator",
+    "letter maze worksheets pdf",
+    "letter maze for kindergarten",
+    "letter maze free printable",
+    "letter maze game",
+    "letter maze generator free"
+   ]
+  },
+  "letter maze worksheets": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze worksheets",
+    "letter maze worksheets pdf",
+    "alphabet maze worksheets for kindergarten",
+    "alphabet maze worksheets",
+    "letter maze printable",
+    "letter b maze worksheets",
+    "letter m maze worksheets",
+    "free printable letter maze worksheets"
+   ]
+  },
+  "letter maze printable": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze printable",
+    "alphabet maze printable",
+    "alphabet maze printable free",
+    "letter maze worksheets",
+    "letter maze worksheets pdf",
+    "letter maze free printable",
+    "free printable letter maze worksheets"
+   ]
+  },
+  "letter maze kindergarten": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "letter maze kindergarten"
+   ]
+  },
+  "abc order maze": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "abc order maze",
+    "abc alphabetical order list"
+   ]
+  },
+  "number maze": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze",
+    "number maze computer game",
+    "number maze game",
+    "number mazes for kids",
+    "number maze worksheet",
+    "number maze printable",
+    "number maze challenge",
+    "number maze generator",
+    "number maze 1988",
+    "number maze puzzle"
+   ]
+  },
+  "number maze worksheets": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze worksheets",
+    "number puzzle worksheets",
+    "number maze worksheet for kindergarten",
+    "number maze worksheet pdf",
+    "number maze worksheet with answers",
+    "number maze printable"
+   ]
+  },
+  "number maze printable": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze printable",
+    "number puzzle printable",
+    "number maze worksheet"
+   ]
+  },
+  "number maze kindergarten": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze kindergarten",
+    "number puzzle kindergarten",
+    "number maze kids",
+    "number maze worksheet for kindergarten"
+   ]
+  },
+  "number maze 2nd grade": {
+   "candidate": "number-maze",
+   "s": [
+    "number grid puzzle 2nd grade"
+   ]
+  },
+  "number maze 3rd grade": {
+   "candidate": "number-maze",
+   "s": [
+    "number puzzle 3rd grade",
+    "unknown number puzzle 3rd grade"
+   ]
+  },
+  "counting maze": {
+   "candidate": "number-maze",
+   "s": [
+    "counting maze worksheet",
+    "counting maze",
+    "counting maze toy",
+    "magnetic counting maze",
+    "skip counting mazes",
+    "magnetic counting maze board",
+    "skip counting maze free printable",
+    "skip counting maze worksheet",
+    "magnetic counting maze lakeshore",
+    "counting atoms maze"
+   ]
+  },
+  "counting maze worksheets": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze worksheets",
+    "counting maze worksheet",
+    "count how many worksheets",
+    "count hours work"
+   ]
+  },
+  "counting maze printable": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze printable",
+    "counting maze worksheet",
+    "skip counting mazes printable",
+    "skip counting maze free printable"
+   ]
+  },
+  "counting maze kindergarten": {
+   "candidate": "number-maze",
+   "s": [
+    "number maze kindergarten",
+    "number and counting activities for preschool"
+   ]
+  },
+  "skip counting maze": {
+   "candidate": "number-maze",
+   "s": [
+    "skip counting mazes",
+    "skip counting maze free printable",
+    "skip counting maze worksheet",
+    "skip counting mazes free",
+    "skip counting mazes printable",
+    "skip counting by 2 maze",
+    "skip counting by 5 maze",
+    "skip counting by 3 maze",
+    "skip counting by 10 maze",
+    "skip counting examples"
+   ]
+  },
+  "skip counting maze worksheets": {
+   "candidate": "number-maze",
+   "s": [
+    "skip counting maze worksheet",
+    "skip counting maze free printable",
+    "skip counting examples",
+    "skip counting explained",
+    "skip counting activities"
+   ]
+  },
+  "skip counting maze printable": {
+   "candidate": "number-maze",
+   "s": [
+    "skip counting mazes printable",
+    "skip counting maze worksheet",
+    "skip counting maze free printable",
+    "skip counting examples",
+    "skip counting explained",
+    "skip counting activities"
+   ]
+  },
+  "math maze": {
+   "candidate": "number-maze",
+   "s": [
+    "math mazes",
+    "math maze printable",
+    "math maze worksheets",
+    "math mazes free printable",
+    "math maze worksheet pdf",
+    "math maze game",
+    "math maze multiplication",
+    "math maze for grade 1",
+    "math maze 2nd grade",
+    "math maze template"
+   ]
+  },
+  "math maze worksheets": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze worksheets",
+    "math maze worksheets for grade 3",
+    "math maze worksheets free",
+    "math puzzle worksheets pdf",
+    "math puzzle worksheets for grade 1",
+    "math puzzle worksheets for grade 3",
+    "math puzzle worksheets high school pdf",
+    "math puzzle worksheets for grade 2",
+    "math puzzle worksheets for grade 4",
+    "math puzzle worksheets 5th grade"
+   ]
+  },
+  "math maze printable": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze printable",
+    "math maze printable free",
+    "math maze printable pdf",
+    "math puzzle printable",
+    "math puzzle printable pdf",
+    "math puzzle printable free",
+    "math maze worksheet pdf",
+    "math maze worksheets",
+    "math maze worksheet grade 1",
+    "math maze worksheet grade 7"
+   ]
+  },
+  "math maze kindergarten": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze kindergarten",
+    "math puzzle kindergarten",
+    "math maze kids",
+    "math at home games",
+    "math programs for 5 year olds",
+    "what kind of math do kindergarteners do",
+    "math centers kindergarten ideas"
+   ]
+  },
+  "math maze 1st grade": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze 1st grade",
+    "math puzzle 1st grade",
+    "math maze grade 1",
+    "math puzzle grade 1",
+    "math crossword puzzle 1st grade",
+    "math at home games"
+   ]
+  },
+  "math maze 2nd grade": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze 2nd grade",
+    "math puzzle 2nd grade",
+    "math crossword puzzle 2nd grade",
+    "math puzzle worksheets 2nd grade"
+   ]
+  },
+  "math maze 3rd grade": {
+   "candidate": "number-maze",
+   "s": [
+    "math maze 3rd grade",
+    "math puzzle 3rd grade",
+    "math maze grade 3",
+    "math puzzle grade 3 printable",
+    "math crossword puzzle 3rd grade",
+    "math puzzle worksheets 3rd grade",
+    "math maze worksheet grade 3",
+    "3rd grade math examples",
+    "math apps for 3rd grade"
+   ]
+  },
+  "easy maze": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy maze",
+    "easy mazes for kids",
+    "easy mazes for kids printable",
+    "easy maze printable",
+    "easy maze to draw",
+    "easy maze worksheet",
+    "easy mazes for 5 year olds",
+    "easy maze pdf",
+    "easy mazes for kids printable free",
+    "easy maze coloring pages"
+   ]
+  },
+  "easy maze worksheets": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy maze worksheets",
+    "easy maze worksheets for kindergarten",
+    "easy maze worksheets for preschoolers",
+    "easy maze worksheets for kids",
+    "simple maze worksheets",
+    "easy maze printable",
+    "easy maze puzzles for kids",
+    "easy maze printable for kids",
+    "easy maze puzzles",
+    "easy maze printable free"
+   ]
+  },
+  "easy maze printable": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy maze printable",
+    "easy maze printable for kids",
+    "easy maze printable free",
+    "easy maze printable pdf",
+    "simple maze printable",
+    "kid maze printable",
+    "simple maze printable free",
+    "kid maze printable free",
+    "simple maze printable pdf free",
+    "easy maze print"
+   ]
+  },
+  "easy maze kindergarten": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy maze kindergarten",
+    "easy maze kids",
+    "easy kids maze printable",
+    "easy maze worksheets for kindergarten",
+    "easy mazes for 5 year olds",
+    "easy activities for kindergarten",
+    "easy activities for 5th graders",
+    "easy children's activities at home"
+   ]
+  },
+  "easy mazes for preschoolers": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy mazes for preschoolers",
+    "easy mazes for preschoolers printable",
+    "easy mazes for kids",
+    "easy mazes for kids pdf",
+    "easy mazes for kindergarten",
+    "easy mazes for toddlers",
+    "easy mazes for kids free",
+    "easy mazes for kids to draw",
+    "easy maze worksheets for preschoolers",
+    "free printable easy mazes for preschoolers"
+   ]
+  },
+  "easy mazes for preschoolers worksheets": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy maze worksheets for preschoolers",
+    "easy mazes for 5 year olds",
+    "easy children's activities",
+    "easy children's activities at home",
+    "easy fun activities for preschoolers"
+   ]
+  },
+  "easy mazes for preschoolers printable": {
+   "candidate": "easy-maze",
+   "s": [
+    "easy mazes for preschoolers printable",
+    "easy mazes for kids printable",
+    "easy mazes for kids printable free",
+    "easy mazes for kids printable pdf",
+    "easy maze for kids printable pdf free download",
+    "free printable easy mazes for preschoolers",
+    "easy mazes for 5 year olds",
+    "easy projects for preschoolers",
+    "easy children's activities"
+   ]
+  },
+  "mazes for toddlers": {
+   "candidate": "easy-maze",
+   "s": [
+    "mazes for toddlers",
+    "mazes for toddlers printable",
+    "mazes for toddlers pdf",
+    "maze for toddlers online",
+    "bead mazes for toddlers",
+    "easy mazes for toddlers",
+    "magnetic mazes for toddlers",
+    "free mazes for toddlers",
+    "marble mazes for toddlers",
+    "free printable mazes for toddlers"
+   ]
+  },
+  "mazes for toddlers worksheets": {
+   "candidate": "easy-maze",
+   "s": [
+    "mazes for kids worksheets",
+    "easy mazes for 5 year olds",
+    "easy children's activities",
+    "human body activities for toddlers"
+   ]
+  },
+  "mazes for toddlers printable": {
+   "candidate": "easy-maze",
+   "s": [
+    "mazes for toddlers printable",
+    "mazes for kids printable",
+    "mazes for kids printable free",
+    "mazes for kindergarten printable",
+    "mazes for kids printable pdf",
+    "mazes for preschoolers printable",
+    "mazes for kids printable hard",
+    "mazes for kids printable easy",
+    "maze for kids printable pdf free download",
+    "maze for kindergarten printable free"
+   ]
+  },
+  "mazes for toddlers kindergarten": {
+   "candidate": "easy-maze",
+   "s": [
+    "maze for kids kindergarten",
+    "easy mazes for 5 year olds",
+    "what are children's activities",
+    "what activities to do at home with toddlers",
+    "children's activities for 5 year olds",
+    "how to keep a toddler entertained"
+   ]
+  },
+  "simple maze for kids": {
+   "candidate": "easy-maze",
+   "s": [
+    "simple maze for kids",
+    "simple maze for kids printable",
+    "simple maze for kids free",
+    "simple maze for kids pdf",
+    "simple maze for kids free printable",
+    "simple maze for kids online",
+    "simple maze for kids png",
+    "simple mazes for kids printable pdf",
+    "basic maze for kids",
+    "simple labyrinth for kids"
+   ]
+  },
+  "simple maze for kids worksheets": {
+   "candidate": "easy-maze",
+   "s": [
+    "simple maze for kids printable",
+    "simple mazes for kids printable pdf",
+    "simple maze for kids free printable",
+    "simple maze worksheets for kids",
+    "simple maze worksheets kindergarten",
+    "simple maze worksheets preschool",
+    "easy children's activities at home",
+    "easy children's activities"
+   ]
+  },
+  "simple maze for kids printable": {
+   "candidate": "easy-maze",
+   "s": [
+    "simple maze for kids printable",
+    "simple mazes for kids printable pdf",
+    "simple mazes for preschoolers printable",
+    "simple maze for kids free printable",
+    "simple children's book ideas",
+    "how to write a simple children's book"
+   ]
+  },
+  "simple maze for kids kindergarten": {
+   "candidate": "easy-maze",
+   "s": [
+    "kindergarten simple maze for kids",
+    "simple toys for 5 year olds",
+    "5 year old kid is called"
+   ]
+  }
+ }
+}

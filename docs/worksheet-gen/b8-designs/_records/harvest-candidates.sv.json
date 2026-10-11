@@ -1,0 +1,183 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-10-11T18:16:42.940Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 70,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrint",
+    "labyrint för barn",
+    "labyrint skriva ut",
+    "labyrintspel"
+   ],
+   "requests": 28,
+   "productiveSeeds": 7,
+   "unique": 35,
+   "suggestions": [
+    "labyrint",
+    "labyrint arbetsblad",
+    "labyrint barn skriva ut",
+    "labyrint barn utskrift",
+    "labyrint barnkanalen",
+    "labyrint barnprogram",
+    "labyrint barnprogram karaktärer",
+    "labyrint barnprogram robotar",
+    "labyrint barnprogram svt",
+    "labyrint bok för barn",
+    "labyrint för barn",
+    "labyrint korsord",
+    "labyrint majsfält",
+    "labyrint memory skriv ut",
+    "labyrint pyssel skriva ut",
+    "labyrint skriva ut",
+    "labyrint skriva ut gratis",
+    "labyrint spel",
+    "labyrint spel för barn",
+    "labyrint svt",
+    "labyrinter för barn att skriva ut",
+    "labyrinth",
+    "labyrinth dahlia",
+    "labyrinth spel",
+    "labyrintit",
+    "labyrintspel",
+    "labyrintspel barn",
+    "labyrintspel brio",
+    "labyrintspel brio lekia",
+    "labyrintspel brio special edition",
+    "labyrintspel kula",
+    "labyrintspel med kula",
+    "labyrintspel pokemon",
+    "labyrintspel trä",
+    "labyrintspelet"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "bokstavslabyrint",
+    "alfabetslabyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "number-maze": {
+   "heads": [
+    "sifferlabyrint",
+    "mattelabyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "easy-maze": {
+   "heads": [
+    "enkel labyrint",
+    "labyrint förskola"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 5,
+   "suggestions": [
+    "enkel labyrint",
+    "labyrint förskola",
+    "labyrinten förskola sollentuna",
+    "labyrintens förskola värmdö",
+    "rita enkel labyrint"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrint": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint",
+    "labyrinth",
+    "labyrint svt",
+    "labyrintit",
+    "labyrint spel",
+    "labyrint majsfält",
+    "labyrint korsord",
+    "labyrinth dahlia",
+    "labyrinth spel",
+    "labyrint barnprogram"
+   ]
+  },
+  "labyrint arbetsblad": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint arbetsblad"
+   ]
+  },
+  "labyrint skriva ut": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint skriva ut",
+    "labyrint skriva ut gratis",
+    "labyrint pyssel skriva ut",
+    "labyrint barn skriva ut",
+    "labyrint memory skriv ut"
+   ]
+  },
+  "labyrint för barn": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint för barn",
+    "labyrinter för barn att skriva ut",
+    "labyrint bok för barn",
+    "labyrint spel för barn",
+    "labyrint barnprogram",
+    "labyrint barnprogram robotar",
+    "labyrint barnkanalen",
+    "labyrint barnprogram svt",
+    "labyrint barn utskrift",
+    "labyrint barnprogram karaktärer"
+   ]
+  },
+  "labyrint för barn skriva ut": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinter för barn att skriva ut",
+    "labyrint barn skriva ut"
+   ]
+  },
+  "labyrintspel": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintspel",
+    "labyrintspel brio",
+    "labyrintspelet",
+    "labyrintspel med kula",
+    "labyrintspel kula",
+    "labyrintspel barn",
+    "labyrintspel trä",
+    "labyrintspel brio special edition",
+    "labyrintspel brio lekia",
+    "labyrintspel pokemon"
+   ]
+  },
+  "enkel labyrint": {
+   "candidate": "easy-maze",
+   "s": [
+    "enkel labyrint",
+    "rita enkel labyrint"
+   ]
+  },
+  "labyrint förskola": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrint förskola",
+    "labyrinten förskola sollentuna",
+    "labyrintens förskola värmdö"
+   ]
+  }
+ }
+}

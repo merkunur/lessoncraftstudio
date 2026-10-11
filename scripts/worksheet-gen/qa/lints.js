@@ -30,7 +30,7 @@ async function runLints(page, { gradeBand }) {
     // illustrations with their own governed palette: story panels (story-art.js PAL), the Color by Number pictures + crayons
     // (cbn-render.js PALETTE), and the nt2-G line-art panels (fd-scene.js: the same crayons + the scene ink; htd-steps.js: the
     // drawing's own ink, both 2026-10-09) — each gated by its own family verify
-    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"], svg[data-lcs-prim="fd-panel"], svg[data-lcs-prim="htd-step"], svg[data-lcs-prim="htd-full"]'));
+    const inArt = (el) => el.tagName.toLowerCase() !== 'svg' && !!(el.closest && el.closest('svg[data-lcs-story-panel], svg[data-lcs-prim="cbn-art"], svg[data-lcs-prim="cbn-crayon"], svg[data-lcs-prim="fd-panel"], svg[data-lcs-prim="htd-step"], svg[data-lcs-prim="htd-full"], svg[data-lcs-prim="hm-scene"]'));
     // a picture CROPPED by an overflow:hidden strip (measured objects, ruler art bands) shows only the strip: measure that
     const visRect = (el) => { const c = el.tagName.toLowerCase() === 'img' && el.closest && el.closest('[data-lcs-art], [data-lcs-artband]'); return (c || el).getBoundingClientRect(); };
 

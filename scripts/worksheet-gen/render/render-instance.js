@@ -166,7 +166,12 @@ async function renderInstance(o) {
         nodes.push(P(G.mouths.start[G.mouths.start.length - 1]), P(G.mouths.goal[G.mouths.goal.length - 1]));
         const edges = G.edges.map((e) => ({ a: e.a, b: e.b, pts: e.pts.map(P) }));
         edges.push({ a: vS, b: G.s, pts: G.mouths.start.slice().reverse().map(P) }, { a: G.g, b: vG, pts: G.mouths.goal.map(P) });
-        return { trace: { nodes, edges, routes: [{ start: vS, goal: vG }], aspect: full.width / h, pageW: full.width / k, w: G.W }, route: [vS].concat(G.route, [vG]) };
+        const path = [vS].concat(G.route, [vG]);
+        // looped label faces: the labels and the rule travel with the graph (the robot recomputes the one valid path from
+        // them); every face carries its answer path (the runtime compares the drawn path with it: on a looped page the goal
+        // is reachable along wrong routes, so reaching it is not enough)
+        const labels = G.labels ? G.labels.concat([null, null]) : null;
+        return { trace: { nodes, edges, routes: [{ start: vS, goal: vG, path }], aspect: full.width / h, pageW: full.width / k, w: G.W, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
       });
       if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
       const screenPng = base + '.screen.png';

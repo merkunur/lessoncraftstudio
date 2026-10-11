@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-423',
   slug: 'tangled-lines-puzzle',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Tangled Lines Puzzle: Whose Kite Is It?", instruction: "Follow each string from an animal to its kite. Write the animal's number in the box by the kite.", printTitle: "Whose Kite Is It?" } },
+  i18n: { en: { title: "Tangled Lines Puzzle: Whose Kite Is It?", instruction: "Follow each string from an animal to its kite. Write the animal's number in the box above the kite.", printTitle: "Whose Kite Is It?" } },
   gradeBand: "G1",
 };

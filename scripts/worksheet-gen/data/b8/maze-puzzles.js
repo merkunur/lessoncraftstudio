@@ -61,7 +61,7 @@ const EN_STRINGS = {
     title: 'Big Picture Maze for 1st Grade: The Orangutan in the Jungle',
     printTitle: 'Help the Orangutan Find the Banana Tree',
     instruction: 'Look at the whole maze first. Then draw the orangutan\'s way to the banana tree.',
-    tap: 'Look first. Then drag from the green circle to the banana tree. If a path stops, go back.',
+    tap: 'Look first, then drag from the green circle to the banana tree. If a path stops, go back.',
   },
   river: {
     title: 'River Maze: Sail the Boat to the Teddy Bear',
@@ -90,7 +90,7 @@ const EN_STRINGS = {
   'tangled-lines': {
     title: 'Tangled Lines Puzzle: Whose Kite Is It?',
     printTitle: 'Whose Kite Is It?',
-    instruction: 'Follow each string from an animal to its kite. Write the animal\'s number in the box by the kite.',
+    instruction: 'Follow each string from an animal to its kite. Write the animal\'s number in the box above the kite.',
     tap: 'Drag along each string from the animal to its kite.',
   },
   collect: {
@@ -156,7 +156,7 @@ const EN_STRINGS = {
   'running-total': {
     title: 'Math Maze for 2nd Grade: Add and Subtract Within 100',
     printTitle: 'Bring the Crane Its Number',
-    instruction: 'Start with the truck\'s number and change it at every sign you pass. Find the road that ends on the crane\'s number.',
+    instruction: 'Start with the truck\'s number and write the new number in each sign\'s box. Find the road that ends on the crane\'s number.',
     tap: 'Start at the green circle. Drag along the road that ends on the crane\'s number.',
   },
   'maze-colouring': {

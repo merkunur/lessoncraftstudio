@@ -352,6 +352,8 @@ function composeScene(spec, maze, opts = {}) {
     nodes: maze.P.map(tr).map((p) => [+p[0].toFixed(1), +p[1].toFixed(1)]),
     edges: Object.entries(S).map(([k, pts]) => { const [a, b] = k.split('-').map(Number); return { a, b, pts: r1(pts) }; }),
     mouths: { start: r1(ms), goal: r1(mg) }, route: maze.route, s: maze.s, g: maze.g, tree: !maze.loops, line: LINE,
+    // which teaching message the screen gives when the goal is reached a wrong way (emit/interactive-runtime.js HINT)
+    hint: maze.ruleStamp && ['collect', 'avoid', 'shortest'].includes(maze.ruleStamp.kind) ? maze.ruleStamp.kind : (MULTI ? 'babies' : null),
     art: placed.map((p) => p.box.map((v) => +v.toFixed(1))),
     ...(maze.labels ? { labels: maze.P.map((_, i) => (maze.labels.has(i) ? maze.labels.get(i) : null)), rule: maze.ruleStamp || null } : {}),
     ...(MULTI ? { routes: RT.map((rt) => ({ route: rt.route, s: rt.s, g: rt.g, start: r1(rt.mouthS.start.map(tr)), goal: r1(rt.mouthS.goal.map(tr)) })) } : {}),

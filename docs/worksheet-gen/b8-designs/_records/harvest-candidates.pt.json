@@ -1,0 +1,500 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-10-11T18:15:47.399Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labirinto",
+    "labirinto infantil",
+    "labirinto para imprimir",
+    "jogo do labirinto"
+   ],
+   "requests": 28,
+   "productiveSeeds": 13,
+   "unique": 70,
+   "suggestions": [
+    "atividade de labirinto para imprimir difíceis",
+    "atividade labirinto 5 ano",
+    "atividade labirinto difícil para imprimir",
+    "atividade labirinto educação infantil",
+    "atividades de labirinto para educação infantil para imprimir",
+    "atividades de labirinto para imprimir pdf",
+    "atividades educativas labirinto para imprimir",
+    "brincadeira labirinto educação infantil",
+    "jogo africano labirinto para imprimir",
+    "jogo do labirinto",
+    "jogo do labirinto amarelo",
+    "jogo do labirinto com susto no final",
+    "jogo do labirinto do exorcista",
+    "jogo do labirinto educação infantil",
+    "jogo do labirinto online",
+    "jogo do labirinto para imprimir",
+    "jogo do labirinto susto",
+    "jogo do labirinto terror",
+    "jogo do labirinto terror susto",
+    "jogo do labirinto wordwall",
+    "jogo labirinto educação infantil",
+    "jogo labirinto infantil para imprimir",
+    "jogo labirinto para imprimir pdf",
+    "jogo labirinto tabuleiro para imprimir",
+    "labirinto",
+    "labirinto a magia do tempo",
+    "labirinto atividade",
+    "labirinto atividade dificil",
+    "labirinto atividade educação infantil",
+    "labirinto atividade facil",
+    "labirinto atividade imprimir",
+    "labirinto atividade infantil",
+    "labirinto atividade para imprimir",
+    "labirinto atividade pdf",
+    "labirinto atividades educativas",
+    "labirinto do fauno",
+    "labirinto do fauno livro",
+    "labirinto do terror",
+    "labirinto educação infantil",
+    "labirinto educação infantil imprimir",
+    "labirinto educação infantil objetivos",
+    "labirinto educação infantil para imprimir",
+    "labirinto filme",
+    "labirinto infantil",
+    "labirinto infantil atividade",
+    "labirinto infantil brinquedo",
+    "labirinto infantil dificil",
+    "labirinto infantil facil",
+    "labirinto infantil jogo",
+    "labirinto infantil online",
+    "labirinto infantil para imprimir",
+    "labirinto infantil para imprimir pdf",
+    "labirinto infantil pdf",
+    "labirinto no chao educação infantil",
+    "labirinto ordem paranormal",
+    "labirinto ouvido",
+    "labirinto para educação infantil",
+    "labirinto para imprimir",
+    "labirinto para imprimir adulto",
+    "labirinto para imprimir difícil",
+    "labirinto para imprimir e colorir",
+    "labirinto para imprimir educação infantil",
+    "labirinto para imprimir grátis",
+    "labirinto para imprimir infantil",
+    "labirinto para imprimir nível difícil",
+    "labirinto para imprimir nível médio",
+    "labirinto para imprimir pdf",
+    "labirinto simples educação infantil",
+    "labirinto verde",
+    "wordwall labirinto educação infantil"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "labirinto do alfabeto",
+    "labirinto das letras",
+    "labirinto abc"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 11,
+   "suggestions": [
+    "atividade labirinto das letras",
+    "atividade labirinto do alfabeto",
+    "labirinto abc",
+    "labirinto com as letras do alfabeto",
+    "labirinto das letras",
+    "labirinto das letras wordwall",
+    "labirinto do alfabeto",
+    "labirinto do alfabeto para imprimir",
+    "labirinto do alfabeto wordwall",
+    "labirinto magnetico do alfabeto",
+    "labirinto sao thome das letras"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "labirinto dos números",
+    "labirinto numérico",
+    "labirinto matemático"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 12,
+   "suggestions": [
+    "atividade labirinto dos numeros",
+    "labirinto dos números",
+    "labirinto dos números inteiros",
+    "labirinto dos números racionais",
+    "labirinto matematico scuola primaria",
+    "labirinto matemática 3 ano",
+    "labirinto matemático",
+    "labirinto matemático 6 ano",
+    "labirinto matemático jogo",
+    "labirinto matemático para imprimir",
+    "labirinto numérico",
+    "wordwall labirinto matemática"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "labirinto fácil",
+    "labirinto educação infantil",
+    "labirinto simples"
+   ],
+   "requests": 21,
+   "productiveSeeds": 11,
+   "unique": 36,
+   "suggestions": [
+    "atividade labirinto educação infantil",
+    "atividade labirinto fácil",
+    "atividade labirinto simples educação infantil",
+    "atividades de labirinto para educação infantil para imprimir",
+    "brincadeira labirinto educação infantil",
+    "coordenação motora atividade labirinto educação infantil",
+    "desenho de labirinto simples para imprimir",
+    "jogo labirinto educação infantil",
+    "labirinto atividade facil",
+    "labirinto educação infantil",
+    "labirinto educação infantil imprimir",
+    "labirinto educação infantil objetivos",
+    "labirinto educação infantil para imprimir",
+    "labirinto facil educação infantil",
+    "labirinto facil png",
+    "labirinto fácil",
+    "labirinto fácil de desenhar",
+    "labirinto fácil de fazer",
+    "labirinto fácil para criança",
+    "labirinto fácil para imprimir",
+    "labirinto mais difícil do mundo",
+    "labirinto muito fácil",
+    "labirinto no chao educação infantil",
+    "labirinto para educação infantil",
+    "labirinto simples",
+    "labirinto simples atividade",
+    "labirinto simples desenho",
+    "labirinto simples educação infantil",
+    "labirinto simples imprimir",
+    "labirinto simples online",
+    "labirinto simples para crianças",
+    "labirinto simples para imprimir",
+    "labirinto simples png",
+    "labirinto simples wordwall",
+    "objetivo da atividade labirinto educação infantil",
+    "wordwall labirinto educação infantil"
+   ]
+  }
+ },
+ "suggestions": {
+  "labirinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto do fauno",
+    "labirinto",
+    "labirinto filme",
+    "labirinto ouvido",
+    "labirinto a magia do tempo",
+    "labirinto verde",
+    "labirinto para imprimir",
+    "labirinto ordem paranormal",
+    "labirinto do terror",
+    "labirinto do fauno livro"
+   ]
+  },
+  "labirinto atividade": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto atividade",
+    "labirinto atividade infantil",
+    "labirinto atividade para imprimir",
+    "labirinto atividade dificil",
+    "labirinto atividades educativas",
+    "labirinto atividade educação infantil",
+    "labirinto atividade facil",
+    "labirinto atividade pdf",
+    "atividade labirinto difícil para imprimir",
+    "atividade labirinto 5 ano"
+   ]
+  },
+  "labirinto para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto para imprimir",
+    "labirinto para imprimir educação infantil",
+    "labirinto para imprimir nível médio",
+    "labirinto para imprimir pdf",
+    "labirinto para imprimir infantil",
+    "labirinto para imprimir adulto",
+    "labirinto para imprimir difícil",
+    "labirinto para imprimir nível difícil",
+    "labirinto para imprimir e colorir",
+    "labirinto para imprimir grátis"
+   ]
+  },
+  "labirinto educação infantil": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto educação infantil",
+    "labirinto educação infantil imprimir",
+    "labirinto educação infantil objetivos",
+    "atividade labirinto educação infantil",
+    "labirinto simples educação infantil",
+    "labirinto para educação infantil",
+    "wordwall labirinto educação infantil",
+    "brincadeira labirinto educação infantil",
+    "jogo labirinto educação infantil",
+    "labirinto no chao educação infantil"
+   ]
+  },
+  "labirinto infantil": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto infantil",
+    "labirinto infantil para imprimir",
+    "labirinto infantil brinquedo",
+    "labirinto infantil para imprimir pdf",
+    "labirinto infantil facil",
+    "labirinto infantil online",
+    "labirinto infantil dificil",
+    "labirinto infantil jogo",
+    "labirinto infantil pdf",
+    "labirinto infantil atividade"
+   ]
+  },
+  "labirinto infantil atividade": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto infantil atividade"
+   ]
+  },
+  "labirinto infantil para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto infantil para imprimir",
+    "labirinto infantil para imprimir pdf",
+    "jogo labirinto infantil para imprimir",
+    "labirinto educação infantil para imprimir",
+    "atividades de labirinto para educação infantil para imprimir"
+   ]
+  },
+  "labirinto para imprimir atividade": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto atividade imprimir",
+    "atividade de labirinto para imprimir difíceis",
+    "atividades de labirinto para imprimir pdf",
+    "atividades educativas labirinto para imprimir"
+   ]
+  },
+  "labirinto para imprimir educação infantil": {
+   "candidate": "picture-maze",
+   "s": [
+    "labirinto para imprimir educação infantil",
+    "atividades de labirinto para educação infantil para imprimir"
+   ]
+  },
+  "jogo do labirinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "jogo do labirinto terror",
+    "jogo do labirinto",
+    "jogo do labirinto do exorcista",
+    "jogo do labirinto susto",
+    "jogo do labirinto amarelo",
+    "jogo do labirinto terror susto",
+    "jogo do labirinto wordwall",
+    "jogo do labirinto com susto no final",
+    "jogo do labirinto para imprimir",
+    "jogo do labirinto online"
+   ]
+  },
+  "jogo do labirinto para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "jogo do labirinto para imprimir",
+    "jogo labirinto para imprimir pdf",
+    "jogo africano labirinto para imprimir",
+    "jogo labirinto tabuleiro para imprimir",
+    "jogo labirinto infantil para imprimir"
+   ]
+  },
+  "jogo do labirinto educação infantil": {
+   "candidate": "picture-maze",
+   "s": [
+    "jogo do labirinto educação infantil"
+   ]
+  },
+  "labirinto do alfabeto": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labirinto do alfabeto",
+    "labirinto do alfabeto para imprimir",
+    "labirinto do alfabeto wordwall",
+    "atividade labirinto do alfabeto",
+    "labirinto magnetico do alfabeto",
+    "labirinto com as letras do alfabeto"
+   ]
+  },
+  "labirinto do alfabeto atividade": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "atividade labirinto do alfabeto"
+   ]
+  },
+  "labirinto do alfabeto para imprimir": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labirinto do alfabeto para imprimir"
+   ]
+  },
+  "labirinto das letras": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labirinto das letras",
+    "labirinto das letras wordwall",
+    "atividade labirinto das letras",
+    "labirinto sao thome das letras"
+   ]
+  },
+  "labirinto das letras atividade": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "atividade labirinto das letras"
+   ]
+  },
+  "labirinto abc": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "labirinto abc"
+   ]
+  },
+  "labirinto dos números": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto dos números",
+    "labirinto dos números racionais",
+    "labirinto dos números inteiros"
+   ]
+  },
+  "labirinto dos números atividade": {
+   "candidate": "number-maze",
+   "s": [
+    "atividade labirinto dos numeros"
+   ]
+  },
+  "labirinto numérico": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto numérico"
+   ]
+  },
+  "labirinto matemático": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto matemático",
+    "labirinto matemático para imprimir",
+    "labirinto matemático jogo",
+    "labirinto matemático 6 ano",
+    "labirinto matemática 3 ano",
+    "wordwall labirinto matemática",
+    "labirinto matematico scuola primaria"
+   ]
+  },
+  "labirinto matemático para imprimir": {
+   "candidate": "number-maze",
+   "s": [
+    "labirinto matemático para imprimir"
+   ]
+  },
+  "labirinto fácil": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto fácil",
+    "labirinto fácil para imprimir",
+    "labirinto fácil de desenhar",
+    "labirinto fácil de fazer",
+    "labirinto fácil para criança",
+    "labirinto facil educação infantil",
+    "labirinto facil png",
+    "atividade labirinto fácil",
+    "labirinto muito fácil",
+    "labirinto mais difícil do mundo"
+   ]
+  },
+  "labirinto fácil atividade": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto atividade facil"
+   ]
+  },
+  "labirinto fácil para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto fácil para imprimir"
+   ]
+  },
+  "labirinto fácil educação infantil": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto facil educação infantil"
+   ]
+  },
+  "labirinto educação infantil atividade": {
+   "candidate": "easy-maze",
+   "s": [
+    "atividade labirinto educação infantil",
+    "atividade labirinto simples educação infantil",
+    "coordenação motora atividade labirinto educação infantil",
+    "objetivo da atividade labirinto educação infantil"
+   ]
+  },
+  "labirinto educação infantil para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto educação infantil para imprimir",
+    "atividades de labirinto para educação infantil para imprimir"
+   ]
+  },
+  "labirinto simples": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto simples",
+    "labirinto simples para imprimir",
+    "labirinto simples educação infantil",
+    "labirinto simples para crianças",
+    "labirinto simples atividade",
+    "labirinto simples desenho",
+    "labirinto simples png",
+    "labirinto simples online",
+    "labirinto simples wordwall",
+    "labirinto simples imprimir"
+   ]
+  },
+  "labirinto simples atividade": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto simples atividade",
+    "atividade labirinto simples educação infantil"
+   ]
+  },
+  "labirinto simples para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto simples para imprimir",
+    "labirinto simples imprimir",
+    "desenho de labirinto simples para imprimir"
+   ]
+  },
+  "labirinto simples educação infantil": {
+   "candidate": "easy-maze",
+   "s": [
+    "labirinto simples educação infantil",
+    "atividade labirinto simples educação infantil"
+   ]
+  }
+ }
+}

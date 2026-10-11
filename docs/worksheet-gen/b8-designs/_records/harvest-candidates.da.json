@@ -1,0 +1,245 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-10-11T18:16:59.177Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 70,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrint",
+    "labyrint for børn",
+    "labyrint print",
+    "labyrintspil"
+   ],
+   "requests": 28,
+   "productiveSeeds": 11,
+   "unique": 45,
+   "suggestions": [
+    "3d print labyrinth",
+    "gratis labyrint print",
+    "labyrint",
+    "labyrint 1 klasse",
+    "labyrint 2. klasse",
+    "labyrint børn print",
+    "labyrint børnehave",
+    "labyrint børnemuseum berlin",
+    "labyrint børnespil",
+    "labyrint for børn",
+    "labyrint krydsord",
+    "labyrint opgaver",
+    "labyrint opgaver 0. klasse",
+    "labyrint opgaver 1. klasse",
+    "labyrint opgaver børn",
+    "labyrint opgaver dansk",
+    "labyrint opgaver for børn",
+    "labyrint opgaver indskoling",
+    "labyrint opgaver print",
+    "labyrint opgaver svær",
+    "labyrint opgaver til børn gratis",
+    "labyrint opgaver til print",
+    "labyrint print",
+    "labyrint print børn",
+    "labyrint print selv",
+    "labyrint på tysk",
+    "labyrint samsø",
+    "labyrint spil",
+    "labyrint til print",
+    "labyrinten",
+    "labyrinten film",
+    "labyrinth",
+    "labyrinth movie",
+    "labyrinth printable",
+    "labyrinth spillet original brio",
+    "labyrinthia",
+    "labyrintspil",
+    "labyrintspil brio",
+    "labyrintspil i træ",
+    "labyrintspil med kugle",
+    "labyrintspil med pokemon",
+    "labyrintspil med vippeplade",
+    "labyrintspill 4 i 1",
+    "labyrintspill med kule",
+    "svær labyrint print"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "bogstavlabyrint",
+    "alfabet labyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "alfabet labyrint"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "tallabyrint",
+    "matematik labyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "matematik labyrinter"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "nem labyrint",
+    "labyrint børnehave"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "labyrint børnehave",
+    "nem labyrint"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrint": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrinthia",
+    "labyrint",
+    "labyrint krydsord",
+    "labyrinth",
+    "labyrint samsø",
+    "labyrint spil",
+    "labyrinten",
+    "labyrinth movie",
+    "labyrinten film",
+    "labyrint på tysk"
+   ]
+  },
+  "labyrint opgaver": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint opgaver",
+    "labyrint opgaver børn",
+    "labyrint opgaver indskoling",
+    "labyrint opgaver print",
+    "labyrint opgaver til børn gratis",
+    "labyrint opgaver dansk",
+    "labyrint opgaver svær",
+    "labyrint opgaver 1. klasse",
+    "labyrint opgaver 0. klasse"
+   ]
+  },
+  "labyrint til print": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint til print",
+    "labyrint opgaver til print",
+    "labyrint print",
+    "labyrint print børn",
+    "labyrint print selv",
+    "labyrinth printable"
+   ]
+  },
+  "labyrint 1. klasse": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint 1 klasse",
+    "labyrint opgaver 1. klasse"
+   ]
+  },
+  "labyrint 2. klasse": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint 2. klasse"
+   ]
+  },
+  "labyrint for børn": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint for børn",
+    "labyrint opgaver for børn",
+    "labyrint børn print",
+    "labyrint børnehave",
+    "labyrint børnespil",
+    "labyrint børnemuseum berlin"
+   ]
+  },
+  "labyrint for børn opgaver": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint opgaver børn"
+   ]
+  },
+  "labyrint for børn til print": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint børn print"
+   ]
+  },
+  "labyrint print": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint print",
+    "labyrint print selv",
+    "labyrint print børn",
+    "labyrinth printable",
+    "labyrint til print",
+    "labyrint opgaver print",
+    "gratis labyrint print",
+    "3d print labyrinth",
+    "svær labyrint print"
+   ]
+  },
+  "labyrint print opgaver": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint opgaver print"
+   ]
+  },
+  "labyrintspil": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintspil med kugle",
+    "labyrintspil",
+    "labyrintspil med vippeplade",
+    "labyrintspil i træ",
+    "labyrintspil med pokemon",
+    "labyrintspil brio",
+    "labyrintspill 4 i 1",
+    "labyrinth spillet original brio",
+    "labyrintspill med kule"
+   ]
+  },
+  "alfabet labyrint": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alfabet labyrint"
+   ]
+  },
+  "matematik labyrint": {
+   "candidate": "number-maze",
+   "s": [
+    "matematik labyrinter"
+   ]
+  },
+  "nem labyrint": {
+   "candidate": "easy-maze",
+   "s": [
+    "nem labyrint"
+   ]
+  },
+  "labyrint børnehave": {
+   "candidate": "easy-maze",
+   "s": [
+    "labyrint børnehave"
+   ]
+  }
+ }
+}

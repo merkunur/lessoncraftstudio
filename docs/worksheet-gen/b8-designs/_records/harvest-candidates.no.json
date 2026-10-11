@@ -1,0 +1,191 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-10-11T18:17:15.517Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 70,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "labyrint",
+    "labyrint for barn",
+    "labyrint utskrift",
+    "labyrintspill"
+   ],
+   "requests": 28,
+   "productiveSeeds": 8,
+   "unique": 29,
+   "suggestions": [
+    "labyrint",
+    "labyrint barn utskrift",
+    "labyrint barnbok",
+    "labyrint barne tv",
+    "labyrint barnkanalen",
+    "labyrint barnkanalen hela avsnitt",
+    "labyrint barnprogram",
+    "labyrint barnprogram daidalos",
+    "labyrint barnprogram robotar",
+    "labyrint brettspill",
+    "labyrint for barn",
+    "labyrint kryssord",
+    "labyrint nrk",
+    "labyrint oppgaver",
+    "labyrint oppgaver barn",
+    "labyrint spill",
+    "labyrint spill barn",
+    "labyrint utskrift",
+    "labyrinten",
+    "labyrinth",
+    "labyrinth movie",
+    "labyrinth oslo",
+    "labyrintitt",
+    "labyrintspill",
+    "labyrintspill 4 i 1",
+    "labyrintspill brio",
+    "labyrintspill i tre",
+    "labyrintspill med kule",
+    "labyrintspillet original brio"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "bokstavlabyrint",
+    "alfabet labyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "alfabet labyrint"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "tallabyrint",
+    "matte labyrint"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "labyrinth matte",
+    "labyrinth matte painting",
+    "matte labyrint"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "enkel labyrint",
+    "labyrint barnehage"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "enkel labyrint",
+    "rita enkel labyrint"
+   ]
+  }
+ },
+ "suggestions": {
+  "labyrint": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint",
+    "labyrinth",
+    "labyrint kryssord",
+    "labyrint spill",
+    "labyrinten",
+    "labyrint nrk",
+    "labyrintitt",
+    "labyrinth movie",
+    "labyrinth oslo",
+    "labyrint brettspill"
+   ]
+  },
+  "labyrint oppgaver": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint oppgaver barn",
+    "labyrint oppgaver"
+   ]
+  },
+  "labyrint til utskrift": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint utskrift"
+   ]
+  },
+  "labyrint for barn": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint for barn",
+    "labyrint barne tv",
+    "labyrint barnprogram",
+    "labyrint barn utskrift",
+    "labyrint spill barn",
+    "labyrint barnprogram robotar",
+    "labyrint barnkanalen",
+    "labyrint barnprogram daidalos",
+    "labyrint barnkanalen hela avsnitt",
+    "labyrint barnbok"
+   ]
+  },
+  "labyrint for barn oppgaver": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint oppgaver barn"
+   ]
+  },
+  "labyrint for barn til utskrift": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint barn utskrift"
+   ]
+  },
+  "labyrint utskrift": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrint utskrift",
+    "labyrint barn utskrift"
+   ]
+  },
+  "labyrintspill": {
+   "candidate": "picture-maze",
+   "s": [
+    "labyrintspill",
+    "labyrintspill i tre",
+    "labyrintspill brio",
+    "labyrintspill med kule",
+    "labyrintspill 4 i 1",
+    "labyrintspillet original brio"
+   ]
+  },
+  "alfabet labyrint": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "alfabet labyrint"
+   ]
+  },
+  "matte labyrint": {
+   "candidate": "number-maze",
+   "s": [
+    "matte labyrint",
+    "labyrinth matte painting",
+    "labyrinth matte"
+   ]
+  },
+  "enkel labyrint": {
+   "candidate": "easy-maze",
+   "s": [
+    "enkel labyrint",
+    "rita enkel labyrint"
+   ]
+  }
+ }
+}

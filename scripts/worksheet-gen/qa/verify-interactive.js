@@ -404,6 +404,55 @@ async function playSpell(page, html, oracle, locale) {
   return fails;
 }
 
+/**
+ * trace-path (Handmade Mazes, b8 2026-10-11): REAL pointer drags along the corridor samples. The oracle returns each
+ * route's node list computed from the declared graph (never the page's answer map). Per width: the oracle's route
+ * must end in the celebration; a straight drag start → goal across the walls and a drag into a dead end must not.
+ */
+async function playTrace(page, html, oracle) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 1100, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const B = await page.evaluate(() => window.DECK_BUNDLE);
+    if (!B || !B.ctx || !B.ctx.trace) { fails.push(`${w}px: no trace bundle`); return fails; }
+    const T = B.ctx.trace;
+    const routes = oracle(B);
+    const box = async () => page.evaluate(() => { const r = document.getElementById('lcs-stage').getBoundingClientRect(); return { x: r.left, y: r.top + window.scrollY, w: r.width, h: r.height }; });
+    const scr = (p, b) => [b.x + p[0] * b.w / 100, b.y + p[1] * b.h / 100 - (0)];
+    const edgeOf = (a, c) => T.edges.find((e) => (e.a === a && e.b === c) || (e.a === c && e.b === a));
+    const drag = async (seq) => {
+      await page.evaluate(() => window.scrollTo(0, 0)); const b = await box();
+      const s = scr(T.nodes[seq[0]], b); await page.mouse.move(s[0], s[1]); await page.mouse.down();
+      for (let i = 1; i < seq.length; i++) { const e = edgeOf(seq[i - 1], seq[i]); if (!e) { await page.mouse.up(); return false; }
+        const pts = e.a === seq[i - 1] ? e.pts : e.pts.slice().reverse(); for (const p of pts.slice(1)) { const q = scr(p, b); await page.mouse.move(q[0], q[1], { steps: 2 }); } }
+      await page.mouse.up(); return true;
+    };
+    const check = async () => { await page.evaluate(() => { const c = document.getElementById('lcs-check'); if (c && !c.disabled && !c.hidden) c.click(); }); await new Promise((r) => setTimeout(r, 650));
+      return page.evaluate(() => ({ celebrate: !document.getElementById('lcs-celebration').hidden })); };
+    const reset = () => page.evaluate(() => { document.getElementById('lcs-cele-close').click(); });
+    // 0. the controls are real targets (measured BEFORE play: Check hides itself once used)
+    const btn = await page.evaluate(() => { const c = document.getElementById('lcs-check').getBoundingClientRect(); return [c.width, c.height]; });
+    if (btn[1] < TAP_MIN) fails.push(`${w}px: the Check button is ${Math.round(btn[1])} px tall`);
+    // 1. the oracle's route(s)
+    for (const r of routes) if (!(await drag(r))) fails.push(`${w}px: the oracle route uses an undeclared edge`);
+    let st = await check();
+    if (!st.celebrate) fails.push(`${w}px: the correct route did not reach the celebration`);
+    // 2. a straight drag start → goal across the walls
+    await reset();
+    { const b = await box(); const s = scr(T.nodes[T.routes[0].start], b), g = scr(T.nodes[T.routes[0].goal], b); await page.mouse.move(s[0], s[1]); await page.mouse.down(); await page.mouse.move(g[0], g[1], { steps: 40 }); await page.mouse.up(); }
+    st = await check(); if (st.celebrate) fails.push(`${w}px: a straight drag across the walls reached the celebration`);
+    // 3. into a dead end (the first branch off the oracle route that is not its next node)
+    await reset();
+    const r0 = routes[0]; let dead = null;
+    for (let i = 1; i < r0.length - 1 && !dead; i++) { const off = T.edges.filter((e) => e.a === r0[i] || e.b === r0[i]).map((e) => (e.a === r0[i] ? e.b : e.a)).find((k) => k !== r0[i - 1] && k !== r0[i + 1]); if (off !== undefined) dead = r0.slice(0, i + 1).concat([off]); }
+    if (dead) { await drag(dead); st = await check(); if (st.celebrate) fails.push(`${w}px: a dead end reached the celebration`); }
+  }
+  return fails;
+}
+
 async function main() {
   const folder = process.argv[2];
   const poison = process.argv.includes('--poison');
@@ -440,6 +489,7 @@ async function main() {
         : B.kind === 'tap-edit' ? B.answers.map((lane) => lane.map((w) => ({ cap: !w.cap, mark: w.mark })))
         : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
+        : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); T.routes[0].goal = leaf; return B.answers; })()
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
@@ -447,13 +497,13 @@ async function main() {
     });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
-      ['no tap targets', d.html.replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['no tap targets', d.html.replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var done=r.stack[r.stack.length-1]===T.routes[k].goal;', 'var done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -462,7 +512,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

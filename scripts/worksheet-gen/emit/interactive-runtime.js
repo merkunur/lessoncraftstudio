@@ -40,7 +40,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -124,6 +124,7 @@ const CSS = [
   '.lcs-crayon{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:14px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
   '.lcs-crayon[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
   '.lcs-crayon:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-ink{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}',
   '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools{display:none !important}}',
 ].join('\n');
 
@@ -231,6 +232,61 @@ const JS_PAINT = [
   '})();',
 ].join('\n');
 
+/*
+ * trace-path (Handmade Mazes, b8 2026-10-11): the child DRAGS along the maze's corridors. ctx.trace = { nodes:[[x,y]…]
+ * (% of the stage), edges:[{a,b,pts:[[x,y]…]}] (each corridor's own curve samples, a→b), routes:[{start, goal}],
+ * aspect (stage w / h) }. The ink snaps to the graph: a press within the snap radius of a route's tip picks that route;
+ * moving along an edge incident to the tip draws partial ink, passing 92 % advances the tip, moving back along the
+ * previous edge retracts. Ink cannot cross a wall (it only ever lies on declared corridors). Check = every route's tip
+ * is its goal; a short route gets a red ring at its tip, never a hint of the way. Measured in the prototype with real
+ * drags at 360 and 768 px (control passes; a straight drag across walls, a dead end both fail; retract + finish passes).
+ */
+const JS_TRACE = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,T=B.ctx.trace,phase="fill",cur=-1;',
+  'var st=document.getElementById("lcs-stage"),ov=document.getElementById("lcs-overlay"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'var VW=1000,VH=1000/T.aspect,ns="http://www.w3.org/2000/svg",ink=document.createElementNS(ns,"svg");',
+  'ink.setAttribute("viewBox","0 0 "+VW+" "+VH);ink.setAttribute("preserveAspectRatio","none");ink.setAttribute("class","lcs-ink");ink.setAttribute("aria-hidden","true");ov.appendChild(ink);',
+  'var inc=T.nodes.map(function(){return[]});T.edges.forEach(function(e,i){inc[e.a].push(i);inc[e.b].push(i)});',
+  'var R=[];function fresh(){R=T.routes.map(function(r){return{stack:[r.start],part:null,bad:false}})}fresh();',
+  'var COL=["#2F5BD3","#7B3FB8","#C98A12","#8A5A2B"];',
+  'function px(p){var w=st.clientWidth,h=st.clientHeight;return[p[0]*w/100,p[1]*h/100]}',
+  'function vb(p){return(p[0]*VW/100).toFixed(1)+","+(p[1]*VH/100).toFixed(1)}',
+  'function from(e,n){return e.a===n?e.pts:e.pts.slice().reverse()}',
+  'function edge(a,b){for(var i=0;i<inc[a].length;i++){var e=T.edges[inc[a][i]];if(e.a===b||e.b===b)return inc[a][i]}return -1}',
+  'function proj(pts,q){var best={d:1e9,t:0},L=0,acc=[0],i;for(i=1;i<pts.length;i++){L+=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);acc.push(L)}',
+  ' for(i=1;i<pts.length;i++){var a=pts[i-1],b=pts[i],dx=b[0]-a[0],dy=b[1]-a[1],ll=dx*dx+dy*dy,u=ll?((q[0]-a[0])*dx+(q[1]-a[1])*dy)/ll:0;u=Math.max(0,Math.min(1,u));',
+  '  var x=a[0]+u*dx,y=a[1]+u*dy,d=Math.hypot(q[0]-x,q[1]-y);if(d<best.d)best={d:d,t:L?(acc[i-1]+u*Math.sqrt(ll))/L:0}}return best}',
+  'function snap(){return Math.max(44,st.clientWidth*0.133)}',
+  'function inkW(){return Math.max(12,T.w*0.42)*VW/T.pageW}',
+  'function draw(){var s="";R.forEach(function(r,k){var pts=[T.nodes[r.stack[0]]];',
+  ' for(var i=1;i<r.stack.length;i++){var e=T.edges[edge(r.stack[i-1],r.stack[i])];pts=pts.concat(from(e,r.stack[i-1]).slice(1))}',
+  ' var col=r.done?"#2E9E5B":COL[k%COL.length];',
+  ' if(pts.length>1)s+=\'<polyline points="\'+pts.map(vb).join(" ")+\'" fill="none" stroke="\'+col+\'" stroke-width="\'+inkW().toFixed(1)+\'" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>\';',
+  ' if(r.part){var e2=T.edges[r.part.e],pp=from(e2,r.stack[r.stack.length-1]),n=Math.max(1,Math.round(r.part.t*(pp.length-1)));s+=\'<polyline points="\'+pp.slice(0,n+1).map(vb).join(" ")+\'" fill="none" stroke="\'+col+\'" stroke-width="\'+inkW().toFixed(1)+\'" stroke-linecap="round" opacity=".55"/>\'}',
+  ' var tip=T.nodes[r.stack[r.stack.length-1]];s+=\'<circle cx="\'+(tip[0]*VW/100).toFixed(1)+\'" cy="\'+(tip[1]*VH/100).toFixed(1)+\'" r="\'+(inkW()*0.95).toFixed(1)+\'" fill="\'+(r.bad?"none":col)+\'" stroke="\'+(r.bad?"#D64545":"#FFFFFF")+\'" stroke-width="\'+(r.bad?6:3)+\'"/>\'});',
+  ' ink.innerHTML=s;chk.disabled=phase!=="fill"||!R.some(function(r){return r.stack.length>1})}',
+  'function local(ev){var b=st.getBoundingClientRect();return[ev.clientX-b.left,ev.clientY-b.top]}',
+  'function move(q){var r=R[cur],tip=r.stack[r.stack.length-1],best=null;',
+  ' inc[tip].forEach(function(ei){var e=T.edges[ei],o=proj(from(e,tip).map(px),q);if(o.d<snap()&&(!best||o.d<best.d))best={e:ei,d:o.d,t:o.t}});',
+  ' if(!best){r.part=null;draw();return}',
+  ' var e=T.edges[best.e],other=e.a===tip?e.b:e.a,back=r.stack.length>1&&other===r.stack[r.stack.length-2];',
+  ' if(best.t>0.92){if(back)r.stack.pop();else if(r.stack.indexOf(other)<0)r.stack.push(other);r.part=null}',
+  ' else if(back||r.stack.indexOf(other)>=0)r.part=null;else r.part={e:best.e,t:best.t};draw()}',
+  'st.addEventListener("pointerdown",function(ev){if(phase!=="fill")return;var q=local(ev);cur=-1;var bd=1e9;R.forEach(function(r,k){var t=px(T.nodes[r.stack[r.stack.length-1]]),d=Math.hypot(q[0]-t[0],q[1]-t[1]);if(d<snap()&&d<bd){bd=d;cur=k}});',
+  ' if(cur>=0){R[cur].bad=false;try{st.setPointerCapture(ev.pointerId)}catch(e){}ev.preventDefault();move(q)}});',
+  'st.addEventListener("pointermove",function(ev){if(cur>=0)move(local(ev))});',
+  'function up(){cur=-1;R.forEach(function(r){r.part=null});draw()}st.addEventListener("pointerup",up);st.addEventListener("pointercancel",up);',
+  'function check(){phase="reviewed";var ok=0;R.forEach(function(r,k){var done=r.stack[r.stack.length-1]===T.routes[k].goal;r.done=done;r.bad=!done;if(done)ok++});',
+  ' prg.textContent=fmt(S.score,{n:ok,total:R.length});chk.hidden=true;rst.hidden=false;draw();if(ok===R.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function reset(){phase="fill";fresh();prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;draw()}',
+  'function init(){st.style.touchAction="none";chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  ' chk.addEventListener("click",check);rst.addEventListener("click",reset);document.getElementById("lcs-cele-close").addEventListener("click",reset);window.__lcsTrace={R:function(){return R},T:T,px:px};draw()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
 const JS = [
   '(function(){',
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
@@ -260,7 +316,7 @@ function buildInteractive(o) {
   if (!KINDS.has(o.kind)) throw new Error('interactive-runtime: unknown kind ' + o.kind);
   const items = o.items || [];
   // one item is a whole task for tap-spell / tap-choice (Story Sequencing level 1, 2026-10-01: one story to put in order)
-  if (items.length < ((o.kind === 'tap-spell' || o.kind === 'tap-choice') ? 1 : 2)) throw new Error('interactive-runtime: fewer than 2 items');
+  if (items.length < ((o.kind === 'tap-spell' || o.kind === 'tap-choice' || o.kind === 'trace-path') ? 1 : 2)) throw new Error('interactive-runtime: fewer than 2 items');
   const answers = items.map((it) => it.answer);
   const inPage = (v) => Number.isFinite(v) && v >= -5 && v <= 105;
   const round = (v) => Math.round(v * 1000) / 1000;
@@ -323,6 +379,14 @@ function buildInteractive(o) {
     for (const it of items) if (!cols.has(it.answer) || !P.hex[it.answer]) throw new Error('interactive-runtime: tap-paint part ' + it.region + ' wants "' + it.answer + '", not a crayon of the key');
     for (const c of P.crayons) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(c[k])) throw new Error('interactive-runtime: crayon ' + k + ' outside the page');
     bundleItems = items.map((it) => ({ region: String(it.region), label: it.label || '', meta: it.meta || {} }));
+  } else if (o.kind === 'trace-path') {
+    const T = o.ctx && o.ctx.trace;
+    if (!T || !Array.isArray(T.nodes) || !Array.isArray(T.edges) || !Array.isArray(T.routes) || !T.routes.length) throw new Error('interactive-runtime: trace-path needs ctx.trace {nodes, edges, routes}');
+    for (const p of T.nodes) if (!inPage(p[0]) || !inPage(p[1])) throw new Error('interactive-runtime: trace-path node outside the page');
+    for (const e of T.edges) { if (!(e.a >= 0 && e.a < T.nodes.length && e.b >= 0 && e.b < T.nodes.length) || !Array.isArray(e.pts) || e.pts.length < 2) throw new Error('interactive-runtime: trace-path edge malformed'); for (const p of e.pts) if (!inPage(p[0]) || !inPage(p[1])) throw new Error('interactive-runtime: trace-path edge leaves the page'); }
+    for (const r of T.routes) if (!(r.start >= 0 && r.start < T.nodes.length && r.goal >= 0 && r.goal < T.nodes.length) || r.start === r.goal) throw new Error('interactive-runtime: trace-path route malformed');
+    if (!(T.aspect > 0) || !(T.pageW > 0) || !(T.w > 0)) throw new Error('interactive-runtime: trace-path needs aspect, pageW, w');
+    bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -359,7 +423,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
   };
 }
 

@@ -1,0 +1,683 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-10-11T18:15:25.538Z",
+ "seedFile": "docs/worksheet-gen/b8-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-maze": {
+   "heads": [
+    "laberinto",
+    "laberintos para niños",
+    "laberinto para imprimir",
+    "juego de laberinto"
+   ],
+   "requests": 28,
+   "productiveSeeds": 19,
+   "unique": 124,
+   "suggestions": [
+    "actividades de laberintos para niños de primaria",
+    "actividades laberintos para niños preescolar",
+    "dibujos de laberintos para niños de preescolar",
+    "ficha laberinto 3 años",
+    "ficha laberinto 4 años",
+    "ficha laberinto 5 años",
+    "ficha laberinto 6 años",
+    "ficha laberinto dificil",
+    "ficha laberinto primaria",
+    "fichas de laberintos para niños de 3 años",
+    "fichas de laberintos para niños de 4 a 5 años",
+    "fichas de laberintos para niños de 5 años",
+    "fichas laberinto dragon city",
+    "imagenes de laberintos para niños de preescolar",
+    "imagenes de laberintos para niños de primaria",
+    "imagenes de laberintos para niños para imprimir",
+    "juego de laberinto",
+    "juego de laberinto 3d",
+    "juego de laberinto aterrador",
+    "juego de laberinto con bolita",
+    "juego de laberinto de canicas",
+    "juego de laberinto gratis",
+    "juego de laberinto para imprimir",
+    "juego de laberinto para niños",
+    "juego de laberinto para niños de preescolar",
+    "juego de laberinto para niños para imprimir",
+    "juego de laberinto terror",
+    "juego de laberintos online",
+    "juego de laberintos para imprimir",
+    "juego laberinto dificil para imprimir",
+    "juegos de laberintos para niños de preescolar",
+    "juegos laberintos para niños para imprimir",
+    "laberinto",
+    "laberinto 1 primaria",
+    "laberinto 2 primaria",
+    "laberinto 3 primaria",
+    "laberinto 4 primaria",
+    "laberinto actividad preescolar",
+    "laberinto canserbero",
+    "laberinto de ecuaciones de primer grado pdf",
+    "laberinto de la soledad",
+    "laberinto de numeros para primer grado",
+    "laberinto de sumas para primer grado",
+    "laberinto de tim burton",
+    "laberinto del fauno",
+    "laberinto del fauno cinepolis",
+    "laberinto del fauno donde ver",
+    "laberinto ecuaciones de primer grado",
+    "laberinto ecuaciones segundo grado",
+    "laberinto facil preescolar",
+    "laberinto ficha",
+    "laberinto ficha infantil",
+    "laberinto ficha pdf",
+    "laberinto juego de mesa para imprimir",
+    "laberinto matematico preescolar",
+    "laberinto matematico primaria",
+    "laberinto niños preescolar",
+    "laberinto niños primaria",
+    "laberinto para colorear preescolar",
+    "laberinto para imprimir",
+    "laberinto para imprimir 5 años",
+    "laberinto para imprimir adultos",
+    "laberinto para imprimir dificil",
+    "laberinto para imprimir facil",
+    "laberinto para imprimir gratis",
+    "laberinto para imprimir muy dificil",
+    "laberinto para imprimir niños",
+    "laberinto para imprimir pdf",
+    "laberinto para imprimir preescolar",
+    "laberinto para niños de primer grado",
+    "laberinto para niños de segundo grado",
+    "laberinto para preescolar",
+    "laberinto para preescolar online",
+    "laberinto para primaria",
+    "laberinto para primer grado",
+    "laberinto para primer grado de primaria",
+    "laberinto para segundo grado",
+    "laberinto pelicula",
+    "laberinto preescolar",
+    "laberinto preescolar para imprimir",
+    "laberinto primaria",
+    "laberinto primaria pdf",
+    "laberinto primer grado",
+    "laberinto segundo grado",
+    "laberintos biblicos para niños para imprimir",
+    "laberintos cristianos para niños para imprimir",
+    "laberintos dificiles para niños de primaria",
+    "laberintos faciles para niños de preescolar",
+    "laberintos matematicos para niños de primaria",
+    "laberintos para imprimir",
+    "laberintos para imprimir para niños preescolares",
+    "laberintos para niños",
+    "laberintos para niños de 10 a 12 años",
+    "laberintos para niños de 10 a 12 años para imprimir pdf",
+    "laberintos para niños de 4 años",
+    "laberintos para niños de 5 años",
+    "laberintos para niños de 8 a 10 años",
+    "laberintos para niños de preescolar",
+    "laberintos para niños de preescolar online",
+    "laberintos para niños de preescolar para colorear",
+    "laberintos para niños de primaria",
+    "laberintos para niños de primaria para imprimir",
+    "laberintos para niños de primaria pdf",
+    "laberintos para niños de primer grado",
+    "laberintos para niños de primer grado de primaria",
+    "laberintos para niños de primero de primaria",
+    "laberintos para niños de segundo de primaria",
+    "laberintos para niños de segundo grado",
+    "laberintos para niños de segundo grado de primaria",
+    "laberintos para niños de tercero de primaria",
+    "laberintos para niños fichas",
+    "laberintos para niños para imprimir",
+    "laberintos para niños para imprimir dificiles",
+    "laberintos para niños para imprimir faciles",
+    "laberintos para niños para imprimir gratis",
+    "laberintos para niños para imprimir pdf",
+    "laberintos para niños pdf",
+    "laberintos para niños pequeños para imprimir",
+    "laberintos para niños preescolar",
+    "laberintos para niños preescolar pdf",
+    "laberintos para niños primaria",
+    "multiplicacion laberinto primer grado recursos didacticos",
+    "wordwall laberinto preescolar",
+    "wordwall laberinto primer grado"
+   ]
+  },
+  "alphabet-maze": {
+   "heads": [
+    "laberinto del abecedario",
+    "laberinto de letras",
+    "laberinto abc"
+   ],
+   "requests": 21,
+   "productiveSeeds": 4,
+   "unique": 15,
+   "suggestions": [
+    "laberinto abc",
+    "laberinto con las letras del abecedario",
+    "laberinto de letras",
+    "laberinto de letras juego",
+    "laberinto de letras para imprimir",
+    "laberinto de letras para niños",
+    "laberinto de letras pdf",
+    "laberinto de letras wordwall",
+    "laberinto de seis letras",
+    "laberinto del abecedario",
+    "laberinto del abecedario para niños",
+    "laberinto letras de canciones",
+    "laberinto letras y acordes",
+    "laberinto sopa de letras",
+    "mito laberinto abc"
+   ]
+  },
+  "number-maze": {
+   "heads": [
+    "laberinto de números",
+    "laberinto numérico",
+    "laberinto de sumas"
+   ],
+   "requests": 21,
+   "productiveSeeds": 10,
+   "unique": 31,
+   "suggestions": [
+    "laberinto de numeros para imprimir",
+    "laberinto de numeros para preescolar",
+    "laberinto de numeros para primer grado",
+    "laberinto de números",
+    "laberinto de números con signo",
+    "laberinto de números del 1 al 10",
+    "laberinto de números del 1 al 100",
+    "laberinto de números del 1 al 20",
+    "laberinto de números del 1 al 50",
+    "laberinto de números enteros",
+    "laberinto de números enteros resuelto",
+    "laberinto de números negativos",
+    "laberinto de números para niños",
+    "laberinto de sumas",
+    "laberinto de sumas para primer grado",
+    "laberinto de sumas restas y multiplicaciones",
+    "laberinto de sumas wordwall",
+    "laberinto de sumas y restas",
+    "laberinto de sumas y restas para imprimir",
+    "laberinto de sumas y restas para niños",
+    "laberinto de sumas y restas para primer grado",
+    "laberinto de sumas y restas para segundo grado",
+    "laberinto de sumas y restas pdf",
+    "laberinto de sumas y restas resueltos",
+    "laberinto de sumas y restas wordwall",
+    "laberinto numerico del 1 al 20",
+    "laberinto numerico para imprimir",
+    "laberinto numerico para niños",
+    "laberinto numérico",
+    "laberinto numérico con operaciones matemáticas",
+    "wordwall laberinto sumas primer grado"
+   ]
+  },
+  "easy-maze": {
+   "heads": [
+    "laberinto fácil",
+    "laberintos para preescolar",
+    "laberintos fáciles para niños"
+   ],
+   "requests": 21,
+   "productiveSeeds": 8,
+   "unique": 34,
+   "suggestions": [
+    "imagenes de laberintos faciles para niños",
+    "laberinto facil niños",
+    "laberinto facil para imprimir",
+    "laberinto facil para niños",
+    "laberinto facil para niños de 4 años",
+    "laberinto facil png",
+    "laberinto facil preescolar",
+    "laberinto fácil",
+    "laberinto fácil de dibujar",
+    "laberinto fácil de hacer",
+    "laberinto fácil para imprimir",
+    "laberinto fácil y rápido",
+    "laberinto fácil y sencillo",
+    "laberintos faciles para niños",
+    "laberintos faciles para niños de 3 años",
+    "laberintos faciles para niños de 4 años",
+    "laberintos faciles para niños de 5 años",
+    "laberintos faciles para niños de 6 años",
+    "laberintos faciles para niños de preescolar",
+    "laberintos faciles para niños de preescolar para imprimir",
+    "laberintos faciles para niños imprimir",
+    "laberintos faciles para niños para imprimir",
+    "laberintos faciles para niños pdf",
+    "laberintos faciles para niños pequeños",
+    "laberintos para colorear preescolar",
+    "laberintos para grado preescolar",
+    "laberintos para niños preescolar",
+    "laberintos para preescolar",
+    "laberintos para preescolar 1",
+    "laberintos para preescolar 3",
+    "laberintos para preescolar online",
+    "laberintos para preescolar para imprimir",
+    "laberintos para preescolar pdf",
+    "laberintos sencillos para preescolar"
+   ]
+  }
+ },
+ "suggestions": {
+  "laberinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto del fauno",
+    "laberinto",
+    "laberinto del fauno cinepolis",
+    "laberinto pelicula",
+    "laberintos para niños",
+    "laberinto del fauno donde ver",
+    "laberintos para imprimir",
+    "laberinto de la soledad",
+    "laberinto de tim burton",
+    "laberinto canserbero"
+   ]
+  },
+  "laberinto ficha": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto ficha",
+    "laberinto ficha infantil",
+    "laberinto ficha pdf",
+    "ficha laberinto 5 años",
+    "ficha laberinto primaria",
+    "ficha laberinto 3 años",
+    "ficha laberinto dificil",
+    "ficha laberinto 4 años",
+    "fichas laberinto dragon city",
+    "ficha laberinto 6 años"
+   ]
+  },
+  "laberinto para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto para imprimir",
+    "laberinto para imprimir pdf",
+    "laberinto para imprimir niños",
+    "laberinto para imprimir dificil",
+    "laberinto para imprimir gratis",
+    "laberinto para imprimir facil",
+    "laberinto para imprimir adultos",
+    "laberinto para imprimir 5 años",
+    "laberinto para imprimir muy dificil"
+   ]
+  },
+  "laberinto preescolar": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto preescolar",
+    "laberinto preescolar para imprimir",
+    "laberinto para preescolar",
+    "laberinto para preescolar online",
+    "laberinto facil preescolar",
+    "laberinto actividad preescolar",
+    "wordwall laberinto preescolar",
+    "laberinto niños preescolar",
+    "laberinto matematico preescolar",
+    "laberinto para colorear preescolar"
+   ]
+  },
+  "laberinto primer grado": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto primer grado",
+    "laberinto para primer grado",
+    "wordwall laberinto primer grado",
+    "laberinto para primer grado de primaria",
+    "multiplicacion laberinto primer grado recursos didacticos",
+    "laberinto ecuaciones de primer grado",
+    "laberinto para niños de primer grado",
+    "laberinto de sumas para primer grado",
+    "laberinto de ecuaciones de primer grado pdf",
+    "laberinto de numeros para primer grado"
+   ]
+  },
+  "laberinto segundo grado": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto segundo grado",
+    "laberinto para segundo grado",
+    "laberinto ecuaciones segundo grado",
+    "laberinto para niños de segundo grado"
+   ]
+  },
+  "laberinto primaria": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto primaria",
+    "laberinto primaria pdf",
+    "laberinto matematico primaria",
+    "laberinto para primaria",
+    "laberinto 3 primaria",
+    "ficha laberinto primaria",
+    "laberinto 1 primaria",
+    "laberinto 2 primaria",
+    "laberinto niños primaria",
+    "laberinto 4 primaria"
+   ]
+  },
+  "laberintos para niños": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños",
+    "laberintos para niños para imprimir",
+    "laberintos para niños de preescolar",
+    "laberintos para niños de 10 a 12 años",
+    "laberintos para niños de primaria",
+    "laberintos para niños pdf",
+    "laberintos para niños de 10 a 12 años para imprimir pdf",
+    "laberintos para niños de 5 años",
+    "laberintos para niños de 8 a 10 años",
+    "laberintos para niños de 4 años"
+   ]
+  },
+  "laberintos para niños ficha": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños fichas",
+    "fichas de laberintos para niños de 4 a 5 años",
+    "fichas de laberintos para niños de 5 años",
+    "fichas de laberintos para niños de 3 años"
+   ]
+  },
+  "laberintos para niños para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños para imprimir",
+    "laberintos para niños para imprimir pdf",
+    "laberintos para niños para imprimir gratis",
+    "laberintos para niños para imprimir dificiles",
+    "laberintos para niños para imprimir faciles",
+    "laberintos cristianos para niños para imprimir",
+    "laberintos para niños pequeños para imprimir",
+    "laberintos biblicos para niños para imprimir",
+    "juegos laberintos para niños para imprimir",
+    "imagenes de laberintos para niños para imprimir"
+   ]
+  },
+  "laberintos para niños preescolar": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños preescolar",
+    "laberintos para niños preescolar pdf",
+    "actividades laberintos para niños preescolar",
+    "laberintos para niños de preescolar online",
+    "laberintos para imprimir para niños preescolares",
+    "laberintos faciles para niños de preescolar",
+    "laberintos para niños de preescolar para colorear",
+    "imagenes de laberintos para niños de preescolar",
+    "dibujos de laberintos para niños de preescolar",
+    "juegos de laberintos para niños de preescolar"
+   ]
+  },
+  "laberintos para niños primer grado": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños de primer grado",
+    "laberintos para niños de primer grado de primaria"
+   ]
+  },
+  "laberintos para niños segundo grado": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños de segundo grado",
+    "laberintos para niños de segundo grado de primaria"
+   ]
+  },
+  "laberintos para niños primaria": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberintos para niños primaria",
+    "laberintos para niños de primaria pdf",
+    "laberintos matematicos para niños de primaria",
+    "laberintos para niños de primero de primaria",
+    "laberintos para niños de primaria para imprimir",
+    "laberintos dificiles para niños de primaria",
+    "laberintos para niños de segundo de primaria",
+    "laberintos para niños de tercero de primaria",
+    "imagenes de laberintos para niños de primaria",
+    "actividades de laberintos para niños de primaria"
+   ]
+  },
+  "laberinto para imprimir preescolar": {
+   "candidate": "picture-maze",
+   "s": [
+    "laberinto para imprimir preescolar"
+   ]
+  },
+  "juego de laberinto": {
+   "candidate": "picture-maze",
+   "s": [
+    "juego de laberinto",
+    "juego de laberinto para niños",
+    "juego de laberinto aterrador",
+    "juego de laberinto terror",
+    "juego de laberintos para imprimir",
+    "juego de laberinto con bolita",
+    "juego de laberintos online",
+    "juego de laberinto de canicas",
+    "juego de laberinto 3d",
+    "juego de laberinto gratis"
+   ]
+  },
+  "juego de laberinto para imprimir": {
+   "candidate": "picture-maze",
+   "s": [
+    "juego de laberinto para imprimir",
+    "juego de laberinto para niños para imprimir",
+    "juego laberinto dificil para imprimir",
+    "laberinto juego de mesa para imprimir"
+   ]
+  },
+  "juego de laberinto preescolar": {
+   "candidate": "picture-maze",
+   "s": [
+    "juego de laberinto para niños de preescolar"
+   ]
+  },
+  "laberinto del abecedario": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "laberinto del abecedario para niños",
+    "laberinto del abecedario",
+    "laberinto con las letras del abecedario"
+   ]
+  },
+  "laberinto de letras": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "laberinto de letras",
+    "laberinto de letras para niños",
+    "laberinto de letras para imprimir",
+    "laberinto de letras wordwall",
+    "laberinto de letras juego",
+    "laberinto de letras pdf",
+    "laberinto letras de canciones",
+    "laberinto sopa de letras",
+    "laberinto de seis letras",
+    "laberinto letras y acordes"
+   ]
+  },
+  "laberinto de letras para imprimir": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "laberinto de letras para imprimir"
+   ]
+  },
+  "laberinto abc": {
+   "candidate": "alphabet-maze",
+   "s": [
+    "laberinto abc",
+    "mito laberinto abc"
+   ]
+  },
+  "laberinto de números": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de números",
+    "laberinto de números del 1 al 100",
+    "laberinto de números del 1 al 10",
+    "laberinto de números enteros",
+    "laberinto de números del 1 al 20",
+    "laberinto de números enteros resuelto",
+    "laberinto de números para niños",
+    "laberinto de números con signo",
+    "laberinto de números del 1 al 50",
+    "laberinto de números negativos"
+   ]
+  },
+  "laberinto de números para imprimir": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de numeros para imprimir"
+   ]
+  },
+  "laberinto de números preescolar": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de numeros para preescolar"
+   ]
+  },
+  "laberinto de números primer grado": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de numeros para primer grado"
+   ]
+  },
+  "laberinto numérico": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto numérico",
+    "laberinto numérico con operaciones matemáticas",
+    "laberinto numerico para niños",
+    "laberinto numerico para imprimir",
+    "laberinto numerico del 1 al 20"
+   ]
+  },
+  "laberinto numérico para imprimir": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto numerico para imprimir"
+   ]
+  },
+  "laberinto de sumas": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de sumas y restas",
+    "laberinto de sumas",
+    "laberinto de sumas y restas pdf",
+    "laberinto de sumas y restas resueltos",
+    "laberinto de sumas y restas para segundo grado",
+    "laberinto de sumas y restas wordwall",
+    "laberinto de sumas y restas para niños",
+    "laberinto de sumas wordwall",
+    "laberinto de sumas restas y multiplicaciones"
+   ]
+  },
+  "laberinto de sumas para imprimir": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de sumas y restas para imprimir"
+   ]
+  },
+  "laberinto de sumas primer grado": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de sumas para primer grado",
+    "laberinto de sumas y restas para primer grado",
+    "wordwall laberinto sumas primer grado"
+   ]
+  },
+  "laberinto de sumas segundo grado": {
+   "candidate": "number-maze",
+   "s": [
+    "laberinto de sumas y restas para segundo grado"
+   ]
+  },
+  "laberinto fácil": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberinto facil para niños",
+    "laberinto fácil de dibujar",
+    "laberinto fácil",
+    "laberinto fácil de hacer",
+    "laberinto fácil para imprimir",
+    "laberinto fácil y rápido",
+    "laberinto fácil y sencillo",
+    "laberinto facil png",
+    "laberinto facil niños",
+    "laberinto facil para niños de 4 años"
+   ]
+  },
+  "laberinto fácil para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberinto facil para imprimir"
+   ]
+  },
+  "laberinto fácil preescolar": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberinto facil preescolar"
+   ]
+  },
+  "laberintos para preescolar": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberintos para preescolar",
+    "laberintos para preescolar para imprimir",
+    "laberintos para preescolar pdf",
+    "laberintos para preescolar online",
+    "laberintos para preescolar 3",
+    "laberintos para preescolar 1",
+    "laberintos sencillos para preescolar",
+    "laberintos para niños preescolar",
+    "laberintos para colorear preescolar",
+    "laberintos para grado preescolar"
+   ]
+  },
+  "laberintos para preescolar para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberintos para preescolar para imprimir",
+    "laberintos faciles para niños de preescolar para imprimir"
+   ]
+  },
+  "laberintos fáciles para niños": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberintos faciles para niños",
+    "laberintos faciles para niños de preescolar",
+    "laberintos faciles para niños pdf",
+    "laberintos faciles para niños de 4 años",
+    "laberintos faciles para niños de 3 años",
+    "laberintos faciles para niños de 5 años",
+    "laberintos faciles para niños imprimir",
+    "laberintos faciles para niños de 6 años",
+    "laberintos faciles para niños pequeños",
+    "imagenes de laberintos faciles para niños"
+   ]
+  },
+  "laberintos fáciles para niños para imprimir": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberintos faciles para niños para imprimir",
+    "laberintos faciles para niños de preescolar para imprimir"
+   ]
+  },
+  "laberintos fáciles para niños preescolar": {
+   "candidate": "easy-maze",
+   "s": [
+    "laberintos faciles para niños de preescolar",
+    "laberintos faciles para niños de preescolar para imprimir"
+   ]
+  }
+ }
+}

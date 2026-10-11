@@ -450,5 +450,9 @@
     "short": "Builds drawing an animal step by step from its outline.",
     "levelSetFull": "Children learn to draw a picture step by step: first the outline, then the new lines of each step, until the whole drawing is theirs.",
     "levelSetShort": "Builds step-by-step drawing skills."
+  },
+  "maze-puzzles": {
+    "full": "Drawing one line through a picture maze, choosing the next letter, number or sum at each fork, builds planning and pencil control; every page has a draw-the-way screen and a key.",
+    "short": "Builds planning by drawing one way through a picture maze."
   }
 }

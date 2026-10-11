@@ -142,32 +142,54 @@ function buildTree(P, G, s, g, o, rnd) {
   }
   juncs = sortBy(juncs, (j) => -(j.tow ? 1 : 0) * 0.5 + (rnd() - 0.5), rnd);
   const bNewest = o.bNewest == null ? 0.7 : o.bNewest;
-  const used = new Set(); let nL = 0, nR = 0; const R = [];
-  for (const j of juncs) {
-    if (R.length >= o.branches) break; if (used.has(j.i) || claimed.has(j.w)) continue;
-    if (R.some((r) => Math.abs(r.i - j.i) < 2) && rnd() < 0.7) continue;
-    const want = nL - nR >= 2 ? 'R' : nR - nL >= 2 ? 'L' : null; if (want && j.side !== want) continue;
-    used.add(j.i); claimed.add(j.w); link(route[j.i], j.w);
-    R.push({ ...j, st: [j.w], nodes: [j.w], tgt: o.size[0] + Math.floor(rnd() * (o.size[1] - o.size[0] + 1)) });
-    if (j.side === 'L') nL++; else nR++;
-  }
-  let grew = true;
-  while (grew) {
-    grew = false;
-    for (const b of R) {
-      if (b.nodes.length >= b.tgt || !b.st.length) continue;
-      const ci = b.nodes.length < 3 ? b.st.length - 1 : (rnd() < bNewest ? b.st.length - 1 : Math.floor(rnd() * b.st.length)); const tip = b.st[ci];
-      const nb = G[tip].filter((w) => !claimed.has(w)); if (!nb.length) { b.st.splice(ci, 1); grew = true; continue; }
-      const w = b.nodes.length < 3 ? sortBy(nb, (x) => dist(P[x], P[g]), rnd)[0] : nb[Math.floor(rnd() * nb.length)];
-      claimed.add(w); link(tip, w); b.nodes.push(w); b.st.push(w); grew = true;
+  const used = new Set(); let nL = 0, nR = 0; let R = [];
+  const tried = new Set();   // junction candidates already spent (a pruned stub's candidate is never re-tried)
+  const place = () => {
+    for (const j of juncs) {
+      if (R.length >= o.branches) break; const key = j.i + ':' + j.w;
+      if (tried.has(key) || used.has(j.i) || claimed.has(j.w)) continue;
+      if (R.some((r) => Math.abs(r.i - j.i) < 2) && rnd() < 0.7) continue;
+      const want = nL - nR >= 2 ? 'R' : nR - nL >= 2 ? 'L' : null; if (want && j.side !== want) continue;
+      tried.add(key); used.add(j.i); claimed.add(j.w); link(route[j.i], j.w);
+      R.push({ ...j, st: [j.w], nodes: [j.w], tgt: o.size[0] + Math.floor(rnd() * (o.size[1] - o.size[0] + 1)) });
+      if (j.side === 'L') nL++; else nR++;
+    }
+  };
+  const growAll = () => {
+    let grew = true;
+    while (grew) {
+      grew = false;
+      for (const b of R) {
+        if (b.nodes.length >= b.tgt || !b.st.length) continue;
+        const ci = b.nodes.length < 3 ? b.st.length - 1 : (rnd() < bNewest ? b.st.length - 1 : Math.floor(rnd() * b.st.length)); const tip = b.st[ci];
+        const nb = G[tip].filter((w) => !claimed.has(w)); if (!nb.length) { b.st.splice(ci, 1); grew = true; continue; }
+        const w = b.nodes.length < 3 ? sortBy(nb, (x) => dist(P[x], P[g]), rnd)[0] : nb[Math.floor(rnd() * nb.length)];
+        claimed.add(w); link(tip, w); b.nodes.push(w); b.st.push(w); grew = true;
+      }
+    }
+  };
+  place(); growAll();
+  // a root that never grew is a one-edge stub: remove it, and REFILL its slot from the junctions not yet tried (up to
+  // two more passes). 2026-10-11: on a sparse graph (the wide-road faces, r 104-150) most first-pass branches died as
+  // stubs, so a page asked for 2-4 dead ends got 0-1 and failed its gate on 19 point sets in 20. A first pass that
+  // already succeeds is unchanged (no refill runs).
+  // label faces keep one-station branches: a single stone with a near-miss label IS the wrong choice the child rejects
+  if (!o.keepStubs) {
+    for (let pass = 0; pass < 3; pass++) {
+      const dead = R.filter((b) => b.nodes.length === 1);
+      if (!dead.length) break;
+      for (const b of dead) {
+        const v = b.w, c = route[b.i]; adj[c] = adj[c].filter((x) => x !== v); adj[v] = []; claimed.delete(v);
+        used.delete(b.i); if (b.side === 'L') nL--; else nR--;
+      }
+      R = R.filter((b) => b.nodes.length > 1);
+      if (pass === 2) break;
+      const before = R.length; place(); if (R.length === before) break; growAll();
     }
   }
-  // a root that never grew is a one-edge stub: remove it
-  // label faces keep one-station branches: a single stone with a near-miss label IS the wrong choice the child rejects
-  if (!o.keepStubs) for (const b of R) if (b.nodes.length === 1) { const v = b.w, c = route[b.i]; adj[c] = adj[c].filter((x) => x !== v); adj[v] = []; claimed.delete(v); }
   if (o.fill) {
     const br = new Set([...claimed].filter((v) => !route.includes(v)));
-    grew = true;
+    let grew = true;
     while (grew) {
       grew = false;
       for (const v of [...br]) { const nb = G[v].filter((w) => !claimed.has(w)); if (!nb.length || rnd() < 0.5) continue;

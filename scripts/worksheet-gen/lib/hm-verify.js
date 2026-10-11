@@ -9,8 +9,8 @@
  *   (2) EXTRA:    M \ dilate(D, 2) has no cluster > `minCluster` px  → nothing else is painted in the corridor colour
  *                 (a leak, a background patch the child could read as road);
  *   (3) REACH:    the start mouth reaches the goal mouth on M;
- *   (4) UNIQUE (tree faces): for every route edge, cutting M across that edge's midpoint disconnects start and goal
- *                 (every route edge is a bridge on the PAGE ⇒ exactly one route);
+ *   (4) UNIQUE (tree faces): the walkable road encloses no patch of field (any second way closes a ring round one) —
+ *                 exact at every road width, unlike a wall-across-each-route-edge cut (false on short wide edges);
  *   looped faces skip (4) and are judged by the label search on the declared graph instead (pedagogy P1), which is
  *   sound because (1) + (2) prove the page's corridors are exactly the declared ones.
  *
@@ -123,21 +123,20 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const S0 = disc(sm[sm.length - 1], scale, w, h, R), G0 = disc(gm[gm.length - 1], scale, w, h, R);
   const reached = flood(walk, w, S0);
   if (!G0.some((p) => reached[p])) { issues.push('the goal cannot be reached on the page'); return issues; }
+  // UNIQUE (tree faces): the road the child can walk must ENCLOSE NOTHING. On a tree the field between the roads is one
+  // piece that reaches the frame; any second way — a real loop, or two roads painted into each other — closes a ring of
+  // road round a patch of field, which then reaches neither the frame nor the page edge. Exact on the pixels, whatever the
+  // road width. (It replaces a wall-across-each-route-edge cut, 2026-10-11: on a 72 px preschool road two edges leaving
+  // one station stay painted together for ~80 px, so a wall at a short edge's midpoint is walked round INSIDE the
+  // junction — a false "second way" on a maze with exactly one.) Ink specks inside a junction (the ends of two outline
+  // strokes) are far smaller than any patch a loop can enclose: patches under (W/2)² scene px are ignored.
   if (graph.tree) {
-    const byKey = {}; for (const e of graph.edges) byKey[e.a < e.b ? e.a + '-' + e.b : e.b + '-' + e.a] = e;
-    for (let i = 0; i < graph.route.length - 1; i++) {
-      const a = graph.route[i], b = graph.route[i + 1]; const e = byKey[a < b ? a + '-' + b : b + '-' + a];
-      if (!e) { issues.push('route edge ' + a + '-' + b + ' is not declared'); continue; }
-      const mid = e.pts[Math.floor(e.pts.length / 2)], pre = e.pts[Math.floor(e.pts.length / 2) - 1];
-      const tx = mid[0] - pre[0], ty = mid[1] - pre[1], L = Math.hypot(tx, ty) || 1; const nx = -ty / L, ny = tx / L;
-      const cut = Uint8Array.from(walk); const half = graph.W * 0.9;
-      for (let s = -half; s <= half; s += 0.5) for (let q = -2; q <= 2; q += 0.5) {
-        const x = Math.round((mid[0] + nx * s + (tx / L) * q) * scale), y = Math.round((mid[1] + ny * s + (ty / L) * q) * scale);
-        if (x >= 0 && y >= 0 && x < w && y < h) cut[y * w + x] = 0;
-      }
-      const r2 = flood(cut, w, S0);
-      if (G0.some((p) => r2[p])) issues.push('a second way around route edge ' + a + '-' + b + ' (not unique)');
-    }
+    const field = new Uint8Array(walk.length); for (let i = 0; i < walk.length; i++) field[i] = reached[i] ? 0 : 1;
+    const seeds = [];
+    for (let i = 0; i < field.length; i++) { const x = i % w, y = (i / w) | 0; if (field[i] && (x === 0 || y === 0 || x === w - 1 || y === h - 1 || !inFrame(x, y))) seeds.push(i); }
+    const outside = flood(field, w, seeds);
+    const inner = new Uint8Array(field.length); for (let i = 0; i < field.length; i++) inner[i] = field[i] && !outside[i] ? 1 : 0;
+    for (const c of clusters(inner, w, (graph.W * scale / 2) ** 2)) issues.push(`the road closes a ring round (${(c.x / scale) | 0}, ${(c.y / scale) | 0}): a second way (not unique)`);
   }
   return issues;
 }

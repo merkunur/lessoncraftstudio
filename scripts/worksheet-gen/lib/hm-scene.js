@@ -36,7 +36,8 @@ const href = (src) => require('url').pathToFileURL(fileOf(src)).href;
 function standing(src, fx, fy, h, flip) {
   const b = ink(src); const S = h / b.h;                    // the square's side so the ink is h tall
   const x = fx - (b.foot) * S, y = fy - (b.t + b.h) * S;    // feet = ink bottom at its foot x
-  const box = [x + b.l * S, y + b.t * S, x + (b.l + b.w) * S, y + (b.t + b.h) * S];
+  let box = [x + b.l * S, y + b.t * S, x + (b.l + b.w) * S, y + (b.t + b.h) * S];
+  if (flip) { const ax = 2 * (x + S / 2); box = [ax - box[2], box[1], ax - box[0], box[3]]; }   // the ink box mirrors with the drawing
   const t = flip ? ` transform="translate(${(2 * (x + S / 2)).toFixed(1)} 0) scale(-1 1)"` : '';
   const svg = `<image href="${href(src)}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${S.toFixed(1)}" height="${S.toFixed(1)}"${t} data-lcs-hm-art="${src}"/>`;
   return { svg, box, S };
@@ -99,6 +100,20 @@ function composeScene(spec, maze, opts = {}) {
   const taken = [];
   const placed = [], missing = [];
   const free = (x, y, r) => taken.every((t) => Math.hypot(t[0] - x, t[1] - y) >= t[2] + r + 4);
+  // the RULE BADGE (predicate faces): a teal disc with the target, printed once, on the free island nearest the start
+  //    disc (never on a road: it is chosen from the island discs)
+  //    (running total: the START load beside the start in teal, the TARGET beside the goal in coral)
+  const badges = !(maze.ruleStamp && spec.labels && spec.labels.badge) ? []
+    : maze.ruleStamp.kind === 'pred' ? [{ v: maze.ruleStamp.target, at: 'start', fill: '#146B5E' }]
+      : maze.ruleStamp.kind === 'ops' ? [{ v: maze.ruleStamp.start, at: 'start', fill: '#146B5E' }, { v: maze.ruleStamp.target, at: 'goal', fill: '#F2784B' }] : [];
+  for (const bd of badges) {
+    const ms0 = bd.at === 'start' ? maze.mouthS.start : maze.mouthS.goal; const st0 = ms0[ms0.length - 1];
+    const sx = st0[0], sy = st0[1] + oy; const R0 = String(bd.v).length > 2 ? 34 : 30;
+    const disc = isl.filter((d) => d[2] >= R0 + 2 && free(d[0], d[1], R0)).sort((p, q) => Math.hypot(p[0] - sx, p[1] - sy) - Math.hypot(q[0] - sx, q[1] - sy))[0];
+    if (!disc) { missing.push('rule badge'); continue; }
+    taken.push([disc[0], disc[1], R0]); placed.push({ src: 'badge', box: [disc[0] - R0, disc[1] - R0, disc[0] + R0, disc[1] + R0] });
+    parts.push('<g data-lcs-hm-badge="' + bd.v + '" data-lcs-hm-badge-at="' + bd.at + '"><circle cx="' + disc[0].toFixed(1) + '" cy="' + disc[1].toFixed(1) + '" r="' + R0 + '" fill="' + bd.fill + '" stroke="#FFFFFF" stroke-width="3"/><text x="' + disc[0].toFixed(1) + '" y="' + (disc[1] + 10).toFixed(1) + '" text-anchor="middle" font-family="&quot;Baloo 2&quot;, Nunito, sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">' + bd.v + '</text></g>');
+  }
   const cast = (spec.cast || []).slice().sort((a, b) => b.h - a.h);
   for (const c of cast) {
     const b = ink(c.src); const wpx = c.h * b.w / b.h; const need = Math.max(wpx, c.h) / 2 + 3;   // a disc holding the ink box minus its transparent corners (the box diagonal refused every jungle drawing)
@@ -158,10 +173,22 @@ function composeScene(spec, maze, opts = {}) {
     const L = spec.labels; const LS = require('../data/tracing/letter-strokes.js');
     for (const [v, lab] of maze.labels) {
       const [cx, cy] = tr(maze.P[v]);
+      // obstacles stand ON the road with no disc (a sleeping walrus; a thin-ice hole drawn as a dark oval)
+      if (L.rule === 'avoid') {
+        if (lab === 'hole') parts.push('<ellipse cx="' + cx.toFixed(1) + '" cy="' + cy.toFixed(1) + '" rx="24" ry="14" fill="#5E9FC0" stroke="#3F7FA0" stroke-width="2.5" data-lcs-hm-stone="' + v + '"/><path d="M' + (cx - 12).toFixed(1) + ' ' + (cy - 2).toFixed(1) + ' q6 -5 12 0 q6 5 12 0" fill="none" stroke="#CFE3EF" stroke-width="2"/>');
+        else parts.push(centred(lab, cx, cy, L.obstacleH || 40).svg);
+        stoneStand.push([+cx.toFixed(1), +cy.toFixed(1), 30]);
+        continue;
+      }
       const shape = L.shape || 'circle'; const sw = L.size ? L.size[0] : (L.stoneR || 28) * 2, shh = L.size ? L.size[1] : (L.stoneR || 28) * 2;
       if (shape === 'circle') parts.push(`<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(sw / 2).toFixed(1)}" fill="${L.fill || '#FFFFFF'}" stroke="${L.edge || '#146B5E'}" stroke-width="2.5" data-lcs-hm-stone="${v}"/>`);
       else parts.push(`<rect x="${(cx - sw / 2).toFixed(1)}" y="${(cy - shh / 2).toFixed(1)}" width="${sw}" height="${shh}" rx="${(shh / 2).toFixed(1)}" fill="${L.fill || '#FFFFFF'}" stroke="${L.edge || '#146B5E'}" stroke-width="2.5" data-lcs-hm-stone="${v}"/>`);
-      if (L.glyph === 'letters') {
+      if (L.glyph === 'picture') {
+        // the picture's INK diagonal fits inside the disc (2026-10-11: a wrapped sweet and a kayak are twice as wide as
+        // tall; sized by height alone they spilled over the card onto the road)
+        const ib = ink(lab), fitH = 0.95 * Math.min(sw, shh) / Math.hypot(1, ib.w / ib.h);
+        const a = centred(lab, cx, cy, Math.min(L.picH || 46, fitH)); parts.push(a.svg);
+      } else if (L.glyph === 'letters') {
         const g = LS.glyphFor(lab); const capH = L.capH || 30; const k = capH / 68;   // the source box: caps 16 → 84
         const ix = (g.ink.x0 + g.ink.x1) / 2, iy = L.case === 'lower' ? 64 : 50;       // centre on the cap / x-height band
         parts.push(`<g transform="translate(${(cx - ix * k).toFixed(2)} ${(cy - iy * k).toFixed(2)}) scale(${k.toFixed(4)})" fill="none" stroke="#3A3530" stroke-width="${(4.5 / k).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" data-lcs-hm-label="${lab}">${g.strokes.map((s) => `<path d="${s.d}"/>`).join('')}</g>`);
@@ -184,6 +211,11 @@ function composeScene(spec, maze, opts = {}) {
   for (const [nm, bx] of [['hero', hero.box], ['goal', goal.box]]) for (const [sx, sy, sr] of stoneStand) {
     const qx = Math.max(bx[0], Math.min(sx, bx[2])), qy = Math.max(bx[1], Math.min(sy, bx[3]));
     if (Math.hypot(qx - sx, qy - sy) < sr - 4) missing.push(nm + ' drawing over a stone');
+  }
+  // a hero / goal drawing sits wholly inside the rounded frame (2026-10-11: the polar bear, the igloo and the rabbit were cut
+  // off by the frame edge — a cropped goal reads as a mistake on the page)
+  for (const [nm, bx] of [['hero', hero.box], ['goal', goal.box]]) {
+    if (bx[0] < 3 || bx[1] < 3 || bx[2] > Wb - 3 || bx[3] > Hb - 3) missing.push(nm + ' drawing cut by the frame');
   }
   parts.push(goal.svg, hero.svg);
   // 6. markers: start disc at the start mouth end, pointing along the mouth into the maze (a NOTCHED chevron: a near-

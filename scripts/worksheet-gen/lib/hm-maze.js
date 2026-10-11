@@ -127,12 +127,14 @@ function generateLooped(cfg, rnd) {
     }
     const lab = cfg.label(t.adj, t.route, rnd);
     if (!lab) { lastFail = ['labels']; continue; }
+    // a rule that depends on the assignment (running total: start + target are drawn by the assigner)
+    const rule = cfg.ruleFor ? cfg.ruleFor(lab) : cfg.rule;
     const lg = cfg.lgates || {};
     if (lg.decoys != null && lab.decoys < lg.decoys) { lastFail = ['decoys ' + lab.decoys]; continue; }
     if (lg.nearShare != null && lab.nearShare < lg.nearShare) { lastFail = ['nearShare ' + lab.nearShare.toFixed(2)]; continue; }
     if (lg.reversals != null && (lab.reversals || 0) < lg.reversals) { lastFail = ['reversals ' + (lab.reversals || 0)]; continue; }
     const R = require('./hm-rules.js');
-    const vp = R.validPaths(t.adj, s, g, lab.label, cfg.rule.valid);
+    const vp = R.validPaths(t.adj, s, g, lab.label, rule.valid);
     if (!vp.exhausted) { lastFail = ['search not exhausted']; continue; }
     if (vp.paths.length !== 1 || vp.paths[0].join('-') !== t.route.join('-')) { lastFail = ['valid paths ' + vp.paths.length]; continue; }
     const all = H.simplePaths(t.adj, s, g, 300000);
@@ -143,9 +145,11 @@ function generateLooped(cfg, rnd) {
     let wrong = 0, live = 0;
     for (let i = 1; i < t.route.length - 1; i++) for (const w of t.adj[t.route[i]]) { if (w === t.route[i - 1] || w === t.route[i + 1]) continue; wrong++; if (H.reaches(t.adj, w, g, t.route[i])) live++; }
     if (wrong && live / wrong < 0.5) { lastFail = ['live ' + (live / wrong).toFixed(2)]; continue; }
+    // the shortest physical path ends NEAR the goal number (a plausible shortcut), design F19
+    if (cfg.nearMissShortest) { const shortest = all.filter((p) => p.length === minLen)[0]; const tot = shortest.slice(1, -1).reduce((x, v) => x + require('./hm-rules.js').opValue(lab.label.get(v)), lab.start); if (!cfg.nearMissShortest.includes(Math.abs(tot - lab.target))) { lastFail = ['shortest total ' + tot + ' vs ' + lab.target]; continue; } }
     const mouths = mouthChains(cfg, P, s, g, S);
     if (mouths.fail) { lastFail = [mouths.fail]; continue; }
-    return { P, adj: t.adj, mid, chains: chains.concat(mouths.chains), S, mouthS: mouths.S, route: t.route, s, g, loops: t.loops, labels: lab.label,
+    return { P, adj: t.adj, mid, chains: chains.concat(mouths.chains), S, mouthS: mouths.S, route: t.route, s, g, loops: t.loops, labels: lab.label, assigned: lab,
       m: { route: t.route.length, paths: all.length, shortest: minLen, live: wrong ? live / wrong : 1, decoys: lab.decoys, nearShare: lab.nearShare, clear }, W: cfg.W, attempts: k + 1 };
   }
   return { fail: lastFail };

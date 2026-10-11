@@ -61,7 +61,8 @@ for (const loc of WANT) {
   let n = 0;
   for (const id of ALL_IDS) {
     if (refusals[id]) { delete strings[id]; continue; }
-    strings[id] = { title: d.types[id].title, instruction: d.types[id].instruction }; n++;
+    // b8: the printed story heading travels as printTitle (i18n/strings.js prints it; the search title stays `title`)
+    strings[id] = { title: d.types[id].title, instruction: d.types[id].instruction, ...(d.types[id].printTitle ? { printTitle: d.types[id].printTitle } : {}) }; n++;
   }
   writeJson(sp, strings);
   // skills
@@ -90,19 +91,19 @@ for (const loc of WANT) {
     if (d.banks && d.banks[b]) { writeJson(p, d.banks[b]); nb++; }
     else if (fs.existsSync(p)) fs.unlinkSync(p);   // the family is fully refused in this locale
   }
-  // the 6 tap strings → i18n/interactive-instructions.json (what cli.js and b8-sweep-renders read; the bank block
-  // alone is NOT read by the generator — de/fr generated 0 FD decks until this write existed)
-  const fdBank = d.banks && d.banks['find-the-differences'];
-  if (fdBank && fdBank.tap) {
+  // the maze screen strings → i18n/interactive-instructions.json `maze-puzzles`.mz-<mode>.<loc> (what cli.js reads; the
+  // bank block alone is NOT read by the generator — the b7 two-places trap). Every EN key must get its locale string.
+  const mzBank = d.banks && d.banks['maze-puzzles'];
+  if (mzBank && mzBank.strings) {
     const iiPath = path.join(WG, 'i18n', 'interactive-instructions.json');
     const ii = JSON.parse(fs.readFileSync(iiPath, 'utf8'));
-    const fam = ii['find-the-differences'] || (ii['find-the-differences'] = {});
-    for (const [key, text] of Object.entries(fdBank.tap)) {
+    const fam = ii['maze-puzzles'] || (ii['maze-puzzles'] = {});
+    for (const [mode, st] of Object.entries(mzBank.strings)) {
+      const key = 'mz-' + mode;
       if (!fam[key]) throw new Error(`${loc}: tap key ${key} is not an EN interactive-instruction key`);
-      fam[key][loc] = text;
+      if (!st.tap) throw new Error(`${loc}: mode ${mode} has no tap string`);
+      fam[key][loc] = st.tap;
     }
-    for (const key of Object.keys(fam)) if (!fam[key][loc]) throw new Error(`${loc}: tap string ${key} missing from the draft`);
-    // the file is CRLF in the repo — keep its own line ending AND its ONE-space indent (a whole-file rewrite is a 4,700-line diff)
     const iiRaw = fs.readFileSync(iiPath, 'utf8');
     const eol = iiRaw.includes('\r\n') ? '\r\n' : '\n';
     fs.writeFileSync(iiPath, JSON.stringify(ii, null, 1).replace(/\n/g, eol) + eol);

@@ -95,7 +95,41 @@ const path = require('path');
 const fs = require('fs');
 const HTD_DIR = path.join(__dirname, '..', 'htd');
 const _steps = new Map();
+/* ---- the LEVEL SET units (2026-10-11): 'lsx-<slug>' = a lesson of data/htdx (the interior engine, read on contact sheets,
+   data/htdx/review.js), named in data/htdx/names.js. The eleven published units above never resolve here. */
+const isLs = (slug) => /^lsx-/.test(String(slug || ''));
+let _ls = null;
+function lsData() {
+  if (!_ls) { const D = path.join(__dirname, '..', 'htdx'); _ls = { units: require(path.join(D, 'units.js')).UNITS, names: require(path.join(D, 'names.js')).NAMES }; }
+  return _ls;
+}
+function lsUnits() { return lsData().units; }
+function lsName(unit, loc) {
+  const u = unitRecord(unit), e = (lsData().names[u.key] || {})[String(loc || '').slice(0, 2)];
+  if (!e) throw new Error(`how-to-draw: no Level Set name for ${unit} (${u.key}) in "${loc}"`);
+  return e;
+}
+/** the write face's three printed starters for a Level Set unit, from the noun and its gender (data/htdx/names.js) */
+function lsStarters(unit, loc) {
+  const l = String(loc || '').slice(0, 2), e = lsName(unit, l), w = e.n, g = e.g;
+  const low = w.toLocaleLowerCase(l), up = w.charAt(0).toLocaleUpperCase(l) + w.slice(1);
+  switch (l) {
+    case 'en': return [`My ${low} is`, 'It can', 'It likes'];
+    case 'de': return g === 'f' ? [`Meine ${w} ist`, 'Sie kann', 'Sie mag'] : g === 'n' ? [`Mein ${w} ist`, 'Es kann', 'Es mag'] : [`Mein ${w} ist`, 'Er kann', 'Er mag'];
+    case 'fr': return g === 'f' ? [`${/^[aeiouhéèêâîôû]/i.test(low) ? 'Mon' : 'Ma'} ${low} est`, 'Elle peut', 'Elle aime'] : [`Mon ${low} est`, 'Il peut', 'Il aime'];
+    case 'es': return [`Mi ${low} es`, 'Puede', 'Le gusta'];
+    case 'it': return g === 'f' ? [`La mia ${low} è`, `La mia ${low} sa`, 'Le piace'] : [`Il mio ${low} è`, `Il mio ${low} sa`, 'Gli piace'];
+    case 'pt': return g === 'f' ? [`Minha ${low} é`, 'Ela pode', 'Ela gosta de'] : [`Meu ${low} é`, 'Ele pode', 'Ele gosta de'];
+    case 'nl': return g === 'h' ? [`Mijn ${low} is`, 'Het kan', 'Het houdt van'] : [`Mijn ${low} is`, 'Hij kan', 'Hij houdt van'];
+    case 'sv': return g === 't' ? [`Mitt ${low} är`, 'Det kan', 'Det tycker om'] : [`Min ${low} är`, 'Den kan', 'Den tycker om'];
+    case 'da': return g === 't' ? [`Mit ${low} er`, 'Det kan', 'Det kan lide'] : [`Min ${low} er`, 'Den kan', 'Den kan lide'];
+    case 'no': return g === 'n' ? [`Mitt ${low} er`, 'Det kan', 'Det liker'] : [`Min ${low} er`, 'Den kan', 'Den liker'];
+    case 'fi': return [`${up} on`, 'Se osaa', 'Se tykkää'];
+    default: throw new Error('how-to-draw: no Level Set starters for ' + l);
+  }
+}
 function unitRecord(slug) {
+  if (isLs(slug)) { const u = lsUnits().find((x) => x.slug === slug); if (!u) throw new Error(`how-to-draw: "${slug}" is not a Level Set unit (data/htdx/units.js)`); return u; }
   const u = UNITS.find((x) => x.slug === slug);
   if (!u) throw new Error(`how-to-draw: "${slug}" is not a unit of the family`);
   return u;
@@ -103,9 +137,9 @@ function unitRecord(slug) {
 /** the lesson of a unit: THROWS on a missing build, a refusal, or an inexact union (never a silent fallback) */
 function stepsFor(slug) {
   if (_steps.has(slug)) return _steps.get(slug);
-  unitRecord(slug);
-  const f = path.join(HTD_DIR, slug + '.json');
-  if (!fs.existsSync(f)) throw new Error(`how-to-draw: data/htd/${slug}.json is absent (node tools/htd-build.js --only=${slug})`);
+  const rec = unitRecord(slug);
+  const f = isLs(slug) ? path.join(__dirname, '..', 'htdx', rec.htdx + '.json') : path.join(HTD_DIR, slug + '.json');
+  if (!fs.existsSync(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htd-build.js${isLs(slug) ? ' --set=htdx' : ''} --only=${isLs(slug) ? rec.htdx : slug})`);
   const S = JSON.parse(fs.readFileSync(f, 'utf8'));
   if (S.refused) throw new Error(`how-to-draw: ${slug} is REFUSED in data/htd/review.js: ${S.refused}`);
   if (!S.stats || S.stats.missing || S.stats.extra || S.stats.dup) throw new Error(`how-to-draw: ${slug} steps do not partition the drawing (missing ${S.stats && S.stats.missing}, extra ${S.stats && S.stats.extra})`);
@@ -116,9 +150,15 @@ function unitFor(block, mode) {
   const face = FACES[mode]; if (!face) throw new Error(`how-to-draw: unknown mode "${mode}"`);
   return (block && block.unitOverrides && block.unitOverrides[mode]) || face.unit;
 }
-function formFor(block, unit) { const f = block.forms && block.forms[unit]; if (!f || !f.t || !f.stem) throw new Error(`how-to-draw: no title form for ${unit} in this locale`); return f; }
-function nounFor(block, unit) { const n = block.nouns && block.nouns[unit]; if (!n) throw new Error(`how-to-draw: no noun for ${unit} in this locale (nulled = the word face is refused here)`); return n; }
-function startersFor(block, unit) { const s = block.starters && block.starters[unit]; if (!s || s.length !== 3) throw new Error(`how-to-draw: ${unit} needs exactly 3 starters in this locale`); return s; }
+function formFor(block, unit, loc) {
+  if (isLs(unit)) { const e = lsName(unit, loc); return { t: e.t, stem: e.n, n: e.n }; }
+  const f = block.forms && block.forms[unit]; if (!f || !f.t || !f.stem) throw new Error(`how-to-draw: no title form for ${unit} in this locale`); return f; }
+function nounFor(block, unit, loc) {
+  if (isLs(unit)) { const e = lsName(unit, loc); if (!e.word) throw new Error(`how-to-draw: ${unit} has no traceable word in ${loc}`); return e.word; }
+  const n = block.nouns && block.nouns[unit]; if (!n) throw new Error(`how-to-draw: no noun for ${unit} in this locale (nulled = the word face is refused here)`); return n; }
+function startersFor(block, unit, loc) {
+  if (isLs(unit)) return lsStarters(unit, loc);
+  const s = block.starters && block.starters[unit]; if (!s || s.length !== 3) throw new Error(`how-to-draw: ${unit} needs exactly 3 starters in this locale`); return s; }
 
 /** the K-379 scramble law for n cards: not the identity, not the reverse, forward chain ≤ 1, backward chain ≤ 1, fixed points ≤ 1 */
 function lawN(perm) {
@@ -204,4 +244,4 @@ function validateBank(block, loc) {
   return errs;
 }
 
-module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, stepsFor, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank };
+module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank };

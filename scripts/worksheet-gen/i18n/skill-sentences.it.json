@@ -446,6 +446,8 @@
   },
   "how-to-draw": {
     "full": "Il bambino impara a disegnare un animale passo dopo passo: prima il contorno, poi i particolari, fino al disegno completo che realizza da solo nel suo riquadro.",
-    "short": "Imparare a disegnare animali passo dopo passo"
+    "short": "Imparare a disegnare animali passo dopo passo",
+    "levelSetFull": "Il bambino impara a disegnare una figura passo dopo passo: prima il contorno, poi le linee nuove di ogni passaggio, fino al disegno completo.",
+    "levelSetShort": "Imparare a disegnare passo dopo passo."
   }
 }

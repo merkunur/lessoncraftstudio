@@ -153,6 +153,48 @@ async function buildSteps(src, opts = {}) {
   const thick = new Map(), pxOf = new Map();
   for (let i = 0; i < PW * PH; i++) { const c = own[i]; if (!c) continue; pxOf.set(c, (pxOf.get(c) || 0) + 1); if (DT[i] / 3 > (thick.get(c) || 0)) thick.set(c, DT[i] / 3); }
   const strokeW = L.strokeWidth(ink, PW, PH) / 2;   // half the typical line width in px
+  // opts.interior (Level Set 2026-10-11, new lessons only — data/htdx): a line OWNED by a big part counts as structure only
+  // where it DIVIDES two big parts (a head from a body, a leg from a belly). A line lying inside one big part — an eyelid,
+  // a mouth, a marking, a fur tuft — is a feature of that part: it becomes its own stroke (one per connected piece) and is
+  // ordered top to bottom with the other features, so the two eyes and the mouth of a face are drawn in ONE step (the
+  // default engine put one eye's lid in the head step and the other eye two steps later).
+  const pseudo = [];
+  if (opts.interior) {
+    const big = new Set(owners.filter((r) => r.area / bodyArea >= 0.03).map((r) => r.label));
+    const R = 13, ST = 2;
+    const interior = new Uint8Array(PW * PH);
+    for (let i = 0; i < PW * PH; i++) {
+      if (!inner[i] || !big.has(own[i])) continue;
+      const x = i % PW, y = (i / PW) | 0; let other = 0;
+      for (let dy = -R; dy <= R && !other; dy += ST) {
+        const yy = y + dy; if (yy < 0 || yy >= PH) continue;
+        for (let dx = -R; dx <= R; dx += ST) {
+          const xx = x + dx; if (xx < 0 || xx >= PW) continue;
+          const l = seg.lab[yy * PW + xx];
+          if (l && l !== own[i] && big.has(l)) { other = 1; break; }
+        }
+      }
+      if (!other) interior[i] = 1;
+    }
+    // connected pieces of interior ink (8-connected) → pseudo owners, labels above every region label
+    let next = 1 + Math.max(0, ...regs.map((r) => r.label));
+    const seen = new Uint8Array(PW * PH);
+    for (let i = 0; i < PW * PH; i++) {
+      if (!interior[i] || seen[i]) continue;
+      const lab = next++; const stack = [i]; seen[i] = 1; let n = 0, sx = 0, sy = 0, th = 0;
+      while (stack.length) {
+        const p = stack.pop(); own[p] = lab; n++; const px = p % PW, py = (p / PW) | 0; sx += px; sy += py; if (DT[p] / 3 > th) th = DT[p] / 3;
+        for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+          const qx = px + dx, qy = py + dy; if (qx < 0 || qy < 0 || qx >= PW || qy >= PH) continue;
+          const q = qy * PW + qx; if (interior[q] && !seen[q]) { seen[q] = 1; stack.push(q); }
+        }
+      }
+      const blob = th > strokeW * 1.6;
+      pseudo.push({ label: lab, px: n, def: lab, defArea: 0, cls: n / total >= 0.005 ? 1 : blob ? 2 : 3, blob, cx: sx / n, cy: sy / n, band: Math.floor(sy / n / U / 40) });
+    }
+    // the big parts keep only their divider pixels
+    pxOf.clear(); for (let i = 0; i < PW * PH; i++) { const c = own[i]; if (c) pxOf.set(c, (pxOf.get(c) || 0) + 1); }
+  }
   const strokes = owners.filter((r) => pxOf.get(r.label)).map((r) => {
     const px = pxOf.get(r.label), share = r.area / bodyArea;
     const blob = (thick.get(r.label) || 0) > strokeW * 1.6;
@@ -162,6 +204,7 @@ async function buildSteps(src, opts = {}) {
     const cls = share >= 0.03 ? 0 : share >= 0.004 && !texture ? 1 : blob ? 2 : 3;
     return { label: r.label, px, def: r.label, defArea: r.area, cls, blob, cx: r.cx * U, cy: r.cy * U, band: Math.floor(r.cy / 40) };
   });
+  strokes.push(...pseudo);
   const details = strokes.filter((s) => s.cls >= 2);
   // order: structure by the size of the part it defines (big first); then everything else TOP TO BOTTOM in 40-unit
   // bands (so the face — eyes, pupils, nose, whiskers — is drawn in one step whatever its classes), left to right
@@ -197,6 +240,23 @@ async function buildSteps(src, opts = {}) {
     if (bi < 0) bi = 0;
     groups.splice(bi, 2, groups[bi].concat(groups[bi + 1]));
   }
+  // opts.interior: a PAIR (two eyes, two ears, two cheeks, two legs — similar size, one height) is drawn in one step: the
+  // later member moves up into the earlier member's group
+  if (opts.interior) {
+    const size = (s) => s.defArea || s.px;
+    const ib = bboxOf(ink, PW, PH); const pairDx = 0.4 * (ib[2] - ib[0]) * U;   // a pair sits close: never an eye and a spot across the body
+    for (let moved = true, guard = 0; moved && guard < 200; guard++) {
+      moved = false;
+      for (let a = 0; a < groups.length && !moved; a++) for (const s of groups[a]) {
+        if (moved) break;
+        for (let b = a + 1; b < groups.length && !moved; b++) {
+          const k = groups[b].findIndex((t) => Math.abs(t.cy - s.cy) < 30 * U && Math.max(size(t), size(s)) / Math.max(1, Math.min(size(t), size(s))) <= 1.8 && Math.abs(t.cx - s.cx) > 20 * U && Math.abs(t.cx - s.cx) <= pairDx && (t.cls === s.cls || (t.cls <= 1 && s.cls <= 1)) && s.cls <= 2 && t.cls <= 2);
+          if (k >= 0 && groups[b].length > 1) { groups[a].push(groups[b].splice(k, 1)[0]); moved = true; }
+          else if (k >= 0 && groups[b].length === 1) { groups[a].push(groups[b][0]); groups.splice(b, 1); moved = true; }
+        }
+      }
+    }
+  }
   // opts.foldFloor (share of ALL the ink, e.g. 0.08): a group too thin to be a step of its own folds into a neighbour —
   // the adjacent group of the same class if there is one, else the smaller neighbour (the critic's rule, 2026-10-09:
   // the cat's 2 % step was a two-line speck). Repeats until every group holds the floor or one group is left.
@@ -217,17 +277,59 @@ async function buildSteps(src, opts = {}) {
   const stepMasks = [outer];
   const stepClass = [];
   for (const g of groups) { const m = new Uint8Array(PW * PH); const set = new Set(g.map((s) => s.label)); for (let i = 0; i < m.length; i++) if (own[i] && set.has(own[i])) m[i] = 1; stepMasks.push(m); stepClass.push(Math.min(...g.map((s) => s.cls))); }
+  // opts.interior: a step owns no HAIRLINES. The rim of a line can be claimed by the part on its other side, which leaves a
+  // 1-px sliver of the line in an earlier step — a faint ghost of the line on every card before it, and on a 'finish' copy
+  // (read 2026-10-11). A pixel of step k that an opening (erode 1 px, dilate 1 px) removes moves to the step most of its
+  // neighbours belong to; repeated until stable, so the union stays the ink pixel for pixel.
+  if (opts.interior) {
+    const lab = new Int8Array(PW * PH).fill(-1);
+    stepMasks.forEach((m, k) => { for (let j = 0; j < m.length; j++) if (m[j]) lab[j] = k; });
+    for (let round = 0; round < 6; round++) {
+      let moved = 0;
+      for (let k = 0; k < stepMasks.length; k++) {
+        const m = new Uint8Array(PW * PH); for (let j = 0; j < m.length; j++) m[j] = lab[j] === k ? 1 : 0;
+        const notm = new Uint8Array(PW * PH); for (let j = 0; j < m.length; j++) notm[j] = m[j] ? 0 : 1;
+        const er = dilateMask(notm, PW, PH, 1); const eroded = new Uint8Array(PW * PH); for (let j = 0; j < m.length; j++) eroded[j] = m[j] && !er[j] ? 1 : 0;
+        const opened = dilateMask(eroded, PW, PH, 1);
+        for (let j = 0; j < m.length; j++) {
+          if (!m[j] || (opened[j] && m[j])) continue;
+          const x = j % PW, y = (j / PW) | 0, votes = new Map();
+          for (let dy = -2; dy <= 2; dy++) for (let dx = -2; dx <= 2; dx++) { const xx = x + dx, yy = y + dy; if (xx < 0 || yy < 0 || xx >= PW || yy >= PH) continue; const l = lab[yy * PW + xx]; if (l >= 0 && l !== k) votes.set(l, (votes.get(l) || 0) + 1); }
+          let best = -1, bv = 0; for (const [l, v] of votes) if (v > bv) { bv = v; best = l; }
+          if (best >= 0) { lab[j] = best; moved++; }
+        }
+      }
+      if (!moved) break;
+    }
+    stepMasks.forEach((m, k) => { for (let j = 0; j < m.length; j++) m[j] = lab[j] === k ? 1 : 0; });
+  }
   // gate: the union is the ink, pixel-exact
   const union = new Uint8Array(PW * PH); let dup = 0;
   for (const m of stepMasks) for (let i = 0; i < m.length; i++) if (m[i]) { if (union[i]) dup++; union[i] = 1; }
   let missing = 0, extra = 0; for (let i = 0; i < ink.length; i++) { if (ink[i] && !union[i]) missing++; if (!ink[i] && union[i]) extra++; }
   const KIND = ['structure', 'features', 'details', 'details'];
   const steps = stepMasks.map((m, i) => { let px = 0; for (let j = 0; j < m.length; j++) px += m[j]; return { d: maskToPath(m, PW, PH), share: +(px / total).toFixed(3), bbox: bboxOf(m, PW, PH), kind: i === 0 ? 'outline' : KIND[stepClass[i - 1]] }; });
+  // opts.interior (Level Set): the KEPT drawing for every omission a face may ask for, traced straight from the pixel masks —
+  // a copy drawn as 'the steps minus some' or 'the whole minus a mask' leaves a faint ghost of every removed line (read 2026-10-11).
+  // Keys: the omitted step indices joined by ',' — each single inner step, every inner step but the last, every inner step.
+  let keep = null;
+  if (opts.interior && stepMasks.length >= 3) {
+    keep = {};
+    const n = stepMasks.length, sets = [];
+    for (let i = 1; i < n; i++) sets.push([i]);
+    sets.push(Array.from({ length: n - 2 }, (_, k) => k + 1), Array.from({ length: n - 1 }, (_, k) => k + 1));
+    for (const set of sets) {
+      const key = set.join(','); if (keep[key] != null || !set.length) continue;
+      const omit = new Set(set), m = new Uint8Array(PW * PH);
+      stepMasks.forEach((sm, i) => { if (!omit.has(i)) for (let j = 0; j < m.length; j++) if (sm[j]) m[j] = 1; });
+      keep[key] = maskToPath(m, PW, PH);
+    }
+  }
   // a part's guide is fitted FILLED: with every region whose box sits inside its box (the eyes inside a face)
   const inside = (s, r) => s !== r && s.bbox[0] >= r.bbox[0] && s.bbox[1] >= r.bbox[1] && s.bbox[2] <= r.bbox[2] && s.bbox[3] <= r.bbox[3];
   const big = regs.slice().sort((a, b) => b.area - a.area).slice(0, 4).map((r, i) => fitShape(seg.lab, r.label, PW, PH, r.bbox, new Set(regs.filter((s) => inside(s, r)).map((s) => s.label)), { major: i < 2 }));
   return {
-    src, w: W, h: H, fit, bbox: bboxOf(ink, PW, PH), full: seg.ink, steps, shapes: big.filter(Boolean), ...(opts.debug ? { debug: { groups, ordered } } : {}),
+    src, w: W, h: H, fit, bbox: bboxOf(ink, PW, PH), full: seg.ink, steps, ...(keep ? { keep } : {}), shapes: big.filter(Boolean), ...(opts.debug ? { debug: { groups, ordered } } : {}),
     stats: { totalPx: total, outerShare: +(nOuter / total).toFixed(3), strokes: strokes.length, details: details.length, parts: regs.length, missing, extra, dup, nSteps: steps.length },
   };
 }
@@ -262,7 +364,12 @@ function fullSvg(S, opts = {}) {
   const width = opts.width || 300, height = opts.height || Math.round(width * vb[3] / vb[2]);
   const fill = opts.fill || opts.ink || '#3A3530';
   const without = new Set(opts.without || []);
-  const body = without.size ? S.steps.map((s, i) => (without.has(i) ? '' : `<path d="${s.d}" fill="${fill}"/>`)).join('') : `<path d="${S.full}" fill="${fill}"/>`;
+  // opts.merge (Level Set): the WHOLE drawing as one path, the removed steps masked out — separate per-step paths leave a faint
+  // anti-aliased ghost of every removed line, and painting them out in white cuts the outline where lines meet (read 2026-10-11)
+  const mid = 'htdm' + Math.abs([...without].join('') .split('').reduce((h, c) => (h * 31 + c.charCodeAt(0)) | 0, S.full.length));
+  const maskDef = `<defs><mask id="${mid}" maskUnits="userSpaceOnUse" x="-100" y="-100" width="800" height="760"><rect x="-100" y="-100" width="800" height="760" fill="#fff"/><path d="${S.steps.filter((s, i) => without.has(i)).map((s) => s.d).join(' ')}" fill="#000" stroke="#000" stroke-width="${opts.maskStroke == null ? 1.1 : opts.maskStroke}" stroke-linejoin="round"/></mask></defs>`;
+  const keyW = [...without].sort((a, b) => a - b).join(',');
+  const body = without.size && opts.merge && S.keep && S.keep[keyW] != null ? `<path d="${S.keep[keyW]}" fill="${fill}" data-lcs-htd-kept="${keyW}"/>` : without.size ? (opts.merge ? maskDef + `<path d="${S.full}" fill="${fill}" mask="url(#${mid})" data-lcs-htd-masked="1"/>` : S.steps.map((s, i) => (without.has(i) ? '' : `<path d="${s.d}" fill="${fill}"/>`)).join('')) : `<path d="${S.full}" fill="${fill}"/>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.map((v) => +v.toFixed(1)).join(' ')}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet" data-lcs-prim="htd-full"${without.size ? ` data-lcs-htd-without="${[...without].join(',')}"` : ''}>${body}</svg>`;
 }
 

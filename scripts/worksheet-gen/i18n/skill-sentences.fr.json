@@ -446,6 +446,8 @@
   },
   "how-to-draw": {
     "full": "L'enfant apprend à dessiner un animal étape par étape : d'abord le contour, puis les détails, jusqu'au dessin complet qu'il réalise tout seul dans son cadre.",
-    "short": "Apprendre à dessiner des animaux étape par étape"
+    "short": "Apprendre à dessiner des animaux étape par étape",
+    "levelSetFull": "L'enfant apprend à dessiner une image étape par étape : d'abord le contour, puis les nouveaux traits de chaque étape, jusqu'au dessin complet.",
+    "levelSetShort": "Apprendre à dessiner étape par étape."
   }
 }

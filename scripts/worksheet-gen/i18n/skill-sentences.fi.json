@@ -445,6 +445,8 @@
   },
   "how-to-draw": {
     "full": "Piirrä vaihe vaiheelta esiopetukseen sekä 1. ja 2. luokalle: rakenna eläin yksinkertaisista muodoista, seuraa viivoja, piirrä valmiiksi, ruudukon avulla tai muistista.",
-    "short": "Opi piirtämään eläimiä vaihe vaiheelta"
+    "short": "Opi piirtämään eläimiä vaihe vaiheelta",
+    "levelSetFull": "Lapsi oppii piirtämään kuvan vaihe vaiheelta: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat, kunnes koko piirustus on valmis.",
+    "levelSetShort": "Opi piirtämään vaihe vaiheelta."
   }
 }

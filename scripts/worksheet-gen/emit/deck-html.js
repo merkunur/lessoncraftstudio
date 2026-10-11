@@ -197,7 +197,8 @@ function buildDeckHtml(o) {
     printOrPlay: word(locale, 'download_pdf', 'Download the free PDF'),
     educationalLevelLocalized: levelLocalized,
     titleConfig: TITLE_CONFIG[locale] || TITLE_CONFIG._default,
-    skillSentence: skill.full || '',
+    // (a Level Set deck may carry its own full sentence: the how-to-draw family sentence names an ANIMAL, the set has vehicles)
+    skillSentence: (manifest.indexable === false && skill.levelSetFull) || skill.full || '',
     // Level Set decks (indexable:false) may carry a band-fitting short sentence of their own (`levelSetShort`) when the
     // family's short sentence pushes their description past 170 or leaves it under 120; published decks never read it
     skillSentenceShort: (manifest.indexable === false && skill.levelSetShort) || skill.short || '',

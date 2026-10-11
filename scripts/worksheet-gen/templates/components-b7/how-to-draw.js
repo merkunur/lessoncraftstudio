@@ -51,17 +51,17 @@ function htdPaper({ w, h, role = 'primary', free = false, guides = null, attrs =
     const shapes = (guides.S.shapes || []).filter((x) => x.kind).map((sh) => sh.kind === 'ellipse'
       ? `<ellipse cx="${sh.cx}" cy="${sh.cy}" rx="${sh.rx}" ry="${sh.ry}" transform="rotate(${sh.angle} ${sh.cx} ${sh.cy})" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10" vector-effect="non-scaling-stroke"/>`
       : `<rect x="${sh.box.x}" y="${sh.box.y}" width="${sh.box.w}" height="${sh.box.h}" rx="${Math.min(sh.box.w, sh.box.h) * 0.18}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10" vector-effect="non-scaling-stroke"/>`).join('');
-    const outline = guides.outline ? `<path d="${guides.S.full}" fill="${T.creamDeep}"/>` : '';
+    const outline = guides.outline ? `<path d="${guides.S.full}" fill="${T.creamDeep}" data-lcs-htd-pale="1"/>` : '';
     inner = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.map((v) => +v.toFixed(1)).join(' ')}" width="${w - 5}" height="${h - 5}" preserveAspectRatio="xMidYMid meet" data-lcs-htd-guides="${(guides.S.shapes || []).filter((x) => x.kind).length}" style="position:absolute;left:0;top:0;display:block">${outline}${shapes}</svg>`;
   }
   return `<span data-lcs-htd-box="${w}x${h}" data-lcs-htd-role="${role}"${free ? ' data-lcs-htd-free="1"' : ''} ${attrs} style="position:relative;display:block;box-sizing:border-box;width:${w}px;height:${h}px;background:${T.white};border:2.5px dashed ${T.coral};border-radius:12px;flex:0 0 auto;overflow:hidden">${inner}</span>`;
 }
 
 /** the whole drawing (or the drawing minus some steps, or a pale trace) in a card or in a dashed pencil frame */
-function htdFullCard({ S, w, h = null, without = [], fill = null, frame = 'card', badge = null, attrs = '' }) {
+function htdFullCard({ S, w, h = null, without = [], fill = null, frame = 'card', badge = null, attrs = '', merge = false }) {
   const vb = Hd.panelBox(S, { viewBox: 'bbox' });
   const hh = h || Math.round(w * vb[3] / vb[2]);
-  const svg = Hd.fullSvg(S, { width: w, height: hh, viewBox: 'bbox', fill: fill || T.ink, without });
+  const svg = Hd.fullSvg(S, { width: w, height: hh, viewBox: 'bbox', fill: fill || T.ink, without, merge });
   const b = badge ? htdBadge(null, { kind: badge }).replace('style="', `style="left:-${BADGE / 2 - 2}px;top:-${BADGE / 2 - 2}px;`) : '';
   const border = frame === 'pencil' ? `2.5px dashed ${T.coral}` : `${CARD_BORDER}px solid ${T.creamDeep}`;
   return `<div data-lcs-htd-fullcard="${frame}"${without.length ? ` data-lcs-htd-without="${without.join(',')}"` : ''} ${attrs} style="position:relative;box-sizing:border-box;width:${w + 6}px;height:${hh + 6}px;padding:${CARD_INSET}px;border:${border};border-radius:12px;background:${T.white};flex:0 0 auto;line-height:0;display:flex;align-items:center;justify-content:center">${b}${svg}</div>`;

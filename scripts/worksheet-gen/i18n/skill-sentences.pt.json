@@ -445,6 +445,8 @@
   },
   "how-to-draw": {
     "full": "A criança aprende a desenhar um animal passo a passo: primeiro o contorno, depois os detalhes, até fazer o desenho inteiro sozinha no seu próprio papel.",
-    "short": "Aprender a desenhar animais passo a passo"
+    "short": "Aprender a desenhar animais passo a passo",
+    "levelSetFull": "A criança aprende a desenhar uma figura passo a passo: primeiro o contorno, depois as linhas novas de cada passo, até terminar o seu desenho.",
+    "levelSetShort": "Aprender a desenhar passo a passo."
   }
 }

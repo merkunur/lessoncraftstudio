@@ -446,6 +446,8 @@
   },
   "how-to-draw": {
     "full": "Zeichnen lernen Schritt für Schritt für Kindergarten und Grundschule: Tiere aus einfachen Formen aufbauen, nachfahren, vervollständigen oder aus dem Gedächtnis zeichnen.",
-    "short": "Tiere Schritt für Schritt zeichnen lernen"
+    "short": "Tiere Schritt für Schritt zeichnen lernen",
+    "levelSetFull": "Kinder lernen, ein Bild Schritt für Schritt zu zeichnen: zuerst den Umriss, dann die neuen Linien jedes Schritts, bis die ganze Zeichnung fertig ist.",
+    "levelSetShort": "Schritt für Schritt zeichnen lernen."
   }
 }

@@ -447,6 +447,8 @@
   },
   "how-to-draw": {
     "full": "Drawing an animal from four or five numbered steps, first the outline, then the big parts, the face and the details, shows children how to draw any animal with their own pencil.",
-    "short": "Builds drawing an animal step by step from its outline."
+    "short": "Builds drawing an animal step by step from its outline.",
+    "levelSetFull": "Children learn to draw a picture step by step: first the outline, then the new lines of each step, until the whole drawing is theirs.",
+    "levelSetShort": "Builds step-by-step drawing skills."
   }
 }

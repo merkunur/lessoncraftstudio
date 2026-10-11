@@ -1,0 +1,201 @@
+{
+ "generated": "2026-10-11",
+ "next": {
+  "K": 414,
+  "G1": 429,
+  "G2": 394,
+  "G3": 402
+ },
+ "faces": [
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-406",
+   "title": "My First Maze",
+   "heading": "F2 : My First Maze (PreK, PARAM, `mode:'first-maze'`, K-406)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 2,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-420",
+   "title": "Big Picture Maze",
+   "heading": "F3 : Big Picture Maze (G1, PARAM, `mode:'big-maze'`, G1-420)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-407",
+   "title": "River Maze",
+   "heading": "F4 : River Maze (K, CODE `mode:'river'`, K-407)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 4,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-421",
+   "title": "Underground Maze",
+   "heading": "F5 : Underground Maze (G1, CODE `mode:'burrow'`, G1-421)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 5,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-422",
+   "title": "Town Maze: the Shortest Way",
+   "heading": "F6 : Town Maze: the Shortest Way (G1, CODE `mode:'shortest-way'`, G1-422)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 6,
+   "band": "K",
+   "dir": "k",
+   "id": "K-408",
+   "title": "Babies and Mothers",
+   "heading": "F7 : Babies and Mothers (K, CODE `mode:'babies-mothers'`, K-408)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 7,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-423",
+   "title": "Tangled Lines: Whose Kite?",
+   "heading": "F8 : Tangled Lines: Whose Kite? (G1, CODE `mode:'tangled-lines'`, G1-423)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 8,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-424",
+   "title": "Collect on the Way",
+   "heading": "F9 : Collect on the Way (G1, CODE `mode:'collect'`, G1-424)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 9,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-425",
+   "title": "Avoid the Walruses",
+   "heading": "F10 : Avoid the Walruses (G1, CODE `mode:'avoid'`, G1-425)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 10,
+   "band": "K",
+   "dir": "k",
+   "id": "K-409",
+   "title": "ABC Maze, Capitals",
+   "heading": "F11 : ABC Maze, Capitals (K, CODE `mode:'abc-capitals'`, K-409)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 11,
+   "band": "K",
+   "dir": "k",
+   "id": "K-410",
+   "title": "abc Maze, Small Letters",
+   "heading": "F12 : abc Maze, Small Letters (K; fr CP cursive; CODE `mode:'abc-lowercase'`, K-410)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 12,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-426",
+   "title": "Letter Hop from the Middle",
+   "heading": "F13 : Letter Hop from the Middle (G1, CODE `mode:'letter-hop'`, G1-426)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 13,
+   "band": "K",
+   "dir": "k",
+   "id": "K-411",
+   "title": "Number Maze 1 to 20",
+   "heading": "F14 : Number Maze 1 to 20 (K; de it G1; CODE `mode:'numbers-20'`, K-411)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 14,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-392",
+   "title": "Skip-Counting Maze by 5s",
+   "heading": "F15 : Skip-Counting Maze by 5s (G2, CODE `mode:'skip-5'`, G2-392)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 15,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-427",
+   "title": "Addition Maze: Sums That Make 10",
+   "heading": "F16 : Addition Maze: Sums That Make 10 (G1, CODE `mode:'make-10'`, G1-427)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 16,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-428",
+   "title": "Subtraction Maze Within 20",
+   "heading": "F17 : Subtraction Maze Within 20 (G1, CODE `mode:'subtract-20'`, G1-428)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 17,
+   "band": "K",
+   "dir": "k",
+   "id": "K-412",
+   "title": "First-Sound Maze",
+   "heading": "F18 : First-Sound Maze (K, CODE `mode:'first-sound'`, K-412)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 18,
+   "band": "G2",
+   "dir": "g2",
+   "id": "G2-393",
+   "title": "Math Maze Within 100: Running Total",
+   "heading": "F19 : Math Maze Within 100: Running Total (G2, CODE `mode:'running-total'`, G2-393)"
+  },
+  {
+   "family": "K-405",
+   "key": "maze-puzzles",
+   "face": 19,
+   "band": "K",
+   "dir": "k",
+   "id": "K-413",
+   "title": "Maze Colouring Page",
+   "heading": "F20 : Maze Colouring Page (K, CODE `mode:'maze-colouring'`, K-413)"
+  }
+ ]
+}

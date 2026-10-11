@@ -38,7 +38,9 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
   if (!SCENES[sceneId]) throw new Error('K-405: unknown scene ' + sceneId);
   const sc = withSlots(SCENES[sceneId]);
   let last = null;
-  for (let t = 0; t < tries; t++) {
+  // a scene may raise its own attempt budget (a sparse wide-road tree builds on ~40 % of point sets: 24 tries ≈ 5e-6 page failure)
+  const T = Math.max(tries, sc.tries || 0);
+  for (let t = 0; t < T; t++) {
     let m;
     if (sc.labels && sc.labels.rule === 'seq') {
       const seq = sequenceFor(sc.labels, locale); const L = sc.labels;
@@ -47,6 +49,30 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
       const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 28)]);   // a stone must not reach under the hero / goal
       m = generateLooped({ ...sc.maze, keep, r, seqLen: seq.length, stoneR: L.stoneR || (L.size ? Math.max(L.size[0], L.size[1]) / 2 : 28), label: (adj, route, rnd) => R.assignSequence(adj, route, seq, rnd, kind), rule: R.seqRule(seq), lgates: { decoys: L.decoyCount || Math.ceil((L.decoyMin || 0.55) * seq.length), nearShare: L.nearShare == null ? 0.9 : L.nearShare, reversals: L.reversalMin } }, rng.next);
       if (m && !m.fail) m.ruleStamp = { kind: 'seq', seq };
+    } else if (sc.labels && sc.labels.rule === 'pred') {
+      const L = sc.labels; const target = Array.isArray(L.target) ? L.target[Math.floor(rng.next() * L.target.length)] : L.target;
+      const pools = R.factPools({ op: L.op, target, a: L.a, b: L.b });
+      const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 40)]);
+      m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || (L.size ? Math.max(L.size[0], L.size[1]) / 2 : 40), label: (adj, route, rnd) => R.assignPredicate(adj, route, pools, rnd), rule: R.predRule({ target }), lgates: { decoys: L.decoyCount } }, rng.next);
+      if (m && !m.fail) m.ruleStamp = { kind: 'pred', target };
+    } else if (sc.labels && sc.labels.rule === 'ops') {
+      const L = sc.labels; const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 36)]);
+      m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignOps(adj, route, rnd, { opSet: L.opSet, startRange: L.start, range: L.range }), ruleFor: (lab) => R.opsRule({ start: lab.start, target: lab.target }), nearMissShortest: L.nearMissShortest, lgates: { decoys: L.decoyCount } }, rng.next);
+      if (m && !m.fail) m.ruleStamp = { kind: 'ops', start: m.assigned.start, target: m.assigned.target };
+    } else if (sc.labels && sc.labels.rule === 'sound') {
+      const L = sc.labels; const loc = String(locale || 'en').slice(0, 2); const pool = require('../../data/hm/sound-pools.json')[loc];
+      if (!pool) throw new Error('K-405: no first-sound pool for ' + loc);
+      const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 36)]);
+      m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignSound(adj, route, pool, rnd, L.laterLMin || 3), rule: R.soundRule({ good: pool.l.map((c) => c.src) }), lgates: { decoys: L.decoyCount } }, rng.next);
+      if (m && !m.fail) m.ruleStamp = { kind: 'sound', good: pool.l.map((c) => c.src) };
+    } else if (sc.labels && (sc.labels.rule === 'collect' || sc.labels.rule === 'avoid')) {
+      const L = sc.labels; const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 28)]);
+      const collect = L.rule === 'collect';
+      const stamp = collect ? { kind: 'collect', item: L.item, n: L.n } : { kind: 'avoid', kinds: L.kinds };
+      m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 28,
+        label: (adj, route, rnd) => (collect ? R.assignCollect(adj, route, rnd, { item: L.item, n: L.n }) : R.assignAvoid(adj, route, rnd, { kinds: L.kinds, count: L.count })),
+        rule: collect ? R.collectRule(stamp) : R.avoidRule(stamp), lgates: {} }, rng.next);
+      if (m && !m.fail) m.ruleStamp = stamp;
     } else m = generateTree(sc.maze, rng.next);
     if (m && !m.fail) return { sc, m };
     last = m && m.fail;
@@ -65,7 +91,7 @@ function traceOracle(B) {
   // station, …labelled stations…, goal station, virtual goal]); exactly one, or the page is wrong
   if (T.rule) {
     const R = require('../../lib/hm-rules.js');
-    const rule = T.rule.kind === 'seq' ? R.seqRule(T.rule.seq) : null;
+    const rule = T.rule.kind === 'seq' ? R.seqRule(T.rule.seq) : T.rule.kind === 'pred' ? R.predRule(T.rule) : T.rule.kind === 'ops' ? R.opsRule(T.rule) : T.rule.kind === 'sound' ? R.soundRule(T.rule) : T.rule.kind === 'collect' ? R.collectRule(T.rule) : T.rule.kind === 'avoid' ? R.avoidRule(T.rule) : null;
     if (!rule) throw new Error('K-405 oracle: unknown rule ' + T.rule.kind);
     return T.routes.map((r) => {
       const label = new Map(T.labels.map((l, i) => [i, l]));
@@ -80,6 +106,29 @@ function traceOracle(B) {
     if (!prev.has(r.goal)) throw new Error('K-405 oracle: goal unreachable in the declared graph');
     const p = []; for (let c = r.goal; c !== -1; c = prev.get(c)) p.unshift(c); return p;
   });
+}
+
+/**
+ * the LEGEND STRIP of a T2 face (675 × 64, no words): collect = the item picture, its count as a numeral and one
+ * tick circle per item; avoid = each obstacle kind inside a coral "not" ring; sound = the hero's card + a sound glyph.
+ */
+function stripSvg(sc, m) {
+  const { centred } = require('../../lib/hm-scene.js');
+  const W = 675, H = 64, parts = [`<rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="16" fill="#FBF3E4" stroke="#146B5E" stroke-width="2"/>`];
+  const st = m.ruleStamp || {};
+  if (st.kind === 'collect') {
+    parts.push(centred(st.item, 170, 32, 50).svg);
+    parts.push(`<text x="250" y="44" text-anchor="middle" font-family="&quot;Baloo 2&quot;, Nunito, sans-serif" font-weight="700" font-size="34" fill="#146B5E">${st.n}</text>`);
+    for (let i = 0; i < st.n; i++) parts.push(`<circle cx="${320 + i * 46}" cy="32" r="15" fill="#FFFFFF" stroke="#146B5E" stroke-width="3"/>`);
+  } else if (st.kind === 'avoid') {
+    st.kinds.forEach((k, i) => {
+      const cx = W / 2 + (i - (st.kinds.length - 1) / 2) * 120;
+      if (k === 'hole') parts.push(`<ellipse cx="${cx}" cy="32" rx="22" ry="13" fill="#5E9FC0" stroke="#3F7FA0" stroke-width="2.5"/>`);
+      else parts.push(centred(k, cx, 32, 40).svg);
+      parts.push(`<circle cx="${cx}" cy="32" r="27" fill="none" stroke="#F2784B" stroke-width="4"/><line x1="${cx - 19}" y1="${32 + 19}" x2="${cx + 19}" y2="${32 - 19}" stroke="#F2784B" stroke-width="4" stroke-linecap="round" opacity=".75"/>`);
+    });
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" data-lcs-prim="hm-strip">${parts.join('')}</svg>`;
 }
 
 module.exports = {
@@ -98,16 +147,26 @@ module.exports = {
     },
   },
   mazeFor,
-  interactive: { kind: 'trace-path', instructionKey: () => 'mz-base', oracle: traceOracle },
+  interactive: { kind: 'trace-path', instructionKey: (difficulty, spec) => 'mz-' + ((spec.difficulty[difficulty] || spec.difficulty[2]).mode || 'base'), oracle: traceOracle },
 
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
-    const { sc, m } = mazeFor(d.scene, ctx.rng, 12, locale);
+    // a maze the composer cannot dress (no island big enough for a required drawing) is replaced by the next maze from
+    // the same rng — print, screen and key replay the identical sequence, so they stay one instance (2026-10-11: a
+    // denser jungle left the toucan no room; one refusal failed the whole page)
     const key = !!(ctx && ctx.answerKey);
-    const out = composeScene(sc, m, { key, rnd: ctx.rng.next });
-    if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + out.missing.join(', '));
+    let sc, m, out, lastMissing = [];
+    for (let a = 0; a < 6; a++) {
+      ({ sc, m } = mazeFor(d.scene, ctx.rng, 12, locale));
+      out = composeScene(sc, m, { key, rnd: ctx.rng.next });
+      if (!out.missing.length) break;
+      lastMissing = out.missing;
+    }
+    if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + lastMissing.join(', '));
     const meta = { mode: d.mode, scene: d.scene, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route.join('-') };
-    const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;align-items:flex-start;justify-content:center">${out.svg}</div>`;
+    // T2 faces: the scene (640) + a 12 px gap + a 64 px LEGEND STRIP under it, language-free (design C, F6 F9 F10 F18)
+    const strip = sc.strip ? stripSvg(sc, m) : '';
+    const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px">${out.svg}${strip}</div>`;
     return { bodyHtml, meta };
   },
 

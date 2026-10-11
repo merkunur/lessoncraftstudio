@@ -1,0 +1,8566 @@
+{
+ "_about": "b8 F18 first-sound card pools (tools/hm-sound-pools.js). l = /l/-onset route cards; decoy = stop / vowel onset; laterL = the word contains l later.",
+ "en": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopard"
+   },
+   {
+    "src": "fruits/lemon",
+    "word": "Lemon"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Llama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lamb"
+   },
+   {
+    "src": "beach/lighthouse",
+    "word": "Lighthouse"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lantern"
+   },
+   {
+    "src": "camping/log",
+    "word": "Log"
+   },
+   {
+    "src": "desserts and sweets/lollipop",
+    "word": "Lollipop"
+   },
+   {
+    "src": "forest creatures/ladybug",
+    "word": "Ladybug"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lizard"
+   },
+   {
+    "src": "spring/leaf",
+    "word": "Leaf"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Cat",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Camel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dog",
+    "word": "Dog",
+    "laterL": false
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Dolphin",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Donkey",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Duck",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elephant",
+    "laterL": true
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orangutan",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Owl",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Penguin",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Pig",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiger",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Turtle",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Apple",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Apricot",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banana",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Blackberry",
+    "laterL": true
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Blueberry",
+    "laterL": true
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Coconut",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Grapefruit",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiwi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pear",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Persimmon",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Peach",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Pineapple",
+    "laterL": true
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Pomegranate",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Calf",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Bee",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Bull",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Duckling",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/goat",
+    "word": "Goat",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Goose",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Ox",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Turkey",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Bag",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Basket",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/butter",
+    "word": "Butter",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Broccoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Cake",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Cart",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Candy",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Carrot",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Cookie",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/corn",
+    "word": "Corn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Cucumber",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Donut",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/garlic",
+    "word": "Garlic",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Oil",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Pepper",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Pie",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Potato",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Pretzels",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Pumpkin",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomato",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/toothbrush",
+    "word": "Toothbrush",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Bun",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Cupcake",
+    "laterL": false
+   },
+   {
+    "src": "bakery/croissant",
+    "word": "Croissant",
+    "laterL": false
+   },
+   {
+    "src": "bakery/doughnut",
+    "word": "Doughnut",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Pretzel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Tart",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Boat",
+    "laterL": false
+   },
+   {
+    "src": "beach/cabana",
+    "word": "Cabana",
+    "laterL": false
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Bucket",
+    "laterL": false
+   },
+   {
+    "src": "beach/cloud",
+    "word": "Cloud",
+    "laterL": true
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Cooler",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Crab",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Island",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelican",
+    "laterL": true
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Umbrella",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Cardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Canary",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Dove",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Crow",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crane",
+    "word": "Crane",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Eagle",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/kingfisher",
+    "word": "Kingfisher",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/ostrich",
+    "word": "Ostrich",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Peacock",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/pigeon",
+    "word": "Pigeon",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Toucan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/biscuit",
+    "word": "Biscuit",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/oatmeal",
+    "word": "Oatmeal",
+    "laterL": true
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pancake",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Porridge",
+    "laterL": false
+   },
+   {
+    "src": "camping/backpack",
+    "word": "Backpack",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Binoculars",
+    "laterL": true
+   },
+   {
+    "src": "camping/bear",
+    "word": "Bear",
+    "laterL": false
+   },
+   {
+    "src": "camping/cabin",
+    "word": "Cabin",
+    "laterL": false
+   },
+   {
+    "src": "camping/camper",
+    "word": "Camper",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Canoe",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Compass",
+    "laterL": false
+   },
+   {
+    "src": "camping/deer",
+    "word": "Deer",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Grill",
+    "laterL": true
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kayak",
+    "laterL": false
+   },
+   {
+    "src": "camping/kettle",
+    "word": "Kettle",
+    "laterL": true
+   },
+   {
+    "src": "camping/oar",
+    "word": "Oar",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Pinecone",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Tent",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/popsicle",
+    "word": "Popsicle",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Aster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/carnation",
+    "word": "Carnation",
+    "laterL": false
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Clover",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Columbine",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Cornflower",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Crocus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/daffodil",
+    "word": "Daffodil",
+    "laterL": true
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orchid",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Peony",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Trillium",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulip",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/ant",
+    "word": "Ant",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Badger",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Beaver",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/butterfly",
+    "word": "Butterfly",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Grasshopper",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/porcupine",
+    "word": "Porcupine",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/angelfish",
+    "word": "Angelfish",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/clownfish",
+    "word": "Clownfish",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Octopus",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orca",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Oyster",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Pufferfish",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tuna",
+    "laterL": false
+   },
+   {
+    "src": "pets/cockatiel",
+    "word": "Cockatiel",
+    "laterL": true
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Goldfish",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Cobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bicycle",
+    "word": "Bicycle",
+    "laterL": true
+   },
+   {
+    "src": "spring/bud",
+    "word": "Bud",
+    "laterL": false
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Bunny",
+    "laterL": false
+   },
+   {
+    "src": "spring/garden",
+    "word": "Garden",
+    "laterL": false
+   },
+   {
+    "src": "spring/grass",
+    "word": "Grass",
+    "laterL": false
+   },
+   {
+    "src": "summer/barbecue",
+    "word": "Barbecue",
+    "laterL": false
+   },
+   {
+    "src": "summer/beach",
+    "word": "Beach",
+    "laterL": false
+   },
+   {
+    "src": "summer/pool",
+    "word": "Pool",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asparagus",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Beetroot",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Cabbage",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Cauliflower",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Eggplant",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Parsnip",
+    "laterL": false
+   },
+   {
+    "src": "winter/coat",
+    "word": "Coat",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Earmuffs",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Icicle",
+    "laterL": true
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Igloo",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antelope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Armadillo",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazelle",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Kangaroo",
+    "laterL": false
+   }
+  ]
+ },
+ "de": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopard"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lamm"
+   },
+   {
+    "src": "beach/lighthouse",
+    "word": "Leuchtturm"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Laterne"
+   },
+   {
+    "src": "desserts and sweets/lollipop",
+    "word": "Lutscher"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libelle"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Katze",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kamel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfin",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Esel",
+    "laterL": true
+   },
+   {
+    "src": "animals/duck",
+    "word": "Ente",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefant",
+    "laterL": true
+   },
+   {
+    "src": "animals/giraffe",
+    "word": "Giraffe",
+    "laterL": false
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Elch",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pinguin",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiger",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Geier",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Apfel",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Aprikose",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banane",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Brombeere",
+    "laterL": false
+   },
+   {
+    "src": "fruits/cherry",
+    "word": "Kirsche",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Blaubeere",
+    "laterL": true
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kokosnuss",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Grapefruit",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiwi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Birne",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Kaki",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Granatapfel",
+    "laterL": true
+   },
+   {
+    "src": "fruits/strawberry",
+    "word": "Erdbeere",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Kalb",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Biene",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Küken",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Entchen",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Gans",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Ochse",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Truthahn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Tüte",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Korb",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/butter",
+    "word": "Butter",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Brokkoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Kuchen",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Karotte",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cheese",
+    "word": "Käse",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Keks",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Gurke",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Donut",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/garlic",
+    "word": "Knoblauch",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/mushroom",
+    "word": "Pilz",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Öl",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Paprika",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Kartoffel",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Brezeln",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Kürbis",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomate",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Brötchen",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cheesecake",
+    "word": "Käsekuchen",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Brezel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Torte",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Boot",
+    "laterL": false
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Kühlbox",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Krabbe",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Insel",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikan",
+    "laterL": true
+   },
+   {
+    "src": "beach/swimsuit",
+    "word": "Badeanzug",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Kardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanarienvogel",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Taube",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Krähe",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Adler",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Elster",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tukan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Brei",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Bär",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kanu",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompass",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Grill",
+    "laterL": true
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajak",
+    "laterL": false
+   },
+   {
+    "src": "camping/map",
+    "word": "Karte",
+    "laterL": false
+   },
+   {
+    "src": "camping/mountain",
+    "word": "Berg",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Tannenzapfen",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Aster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalee",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Klee",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akelei",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Kornblume",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krokus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlie",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orchidee",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunie",
+    "laterL": false
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulpe",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/ant",
+    "word": "Ameise",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Dachs",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Biber",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Igel",
+    "laterL": true
+   },
+   {
+    "src": "insects and bugs/centipede",
+    "word": "Tausendfüßler",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/angelfish",
+    "word": "Kaiserfisch",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Oktopus",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orca",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Kugelfisch",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Garnele",
+    "laterL": true
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Goldfisch",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Kobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bud",
+    "word": "Knospe",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Blume",
+    "laterL": true
+   },
+   {
+    "src": "spring/garden",
+    "word": "Garten",
+    "laterL": false
+   },
+   {
+    "src": "spring/grass",
+    "word": "Gras",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kohl",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Blumenkohl",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinake",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Ohrenschützer",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglu",
+    "laterL": true
+   },
+   {
+    "src": "winter/sweater",
+    "word": "Pullover",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Gürteltier",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/cheetah",
+    "word": "Gepard",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazelle",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Känguru",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/meerkat",
+    "word": "Erdmännchen",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/monkey",
+    "word": "Affe",
+    "laterL": false
+   }
+  ]
+ },
+ "es": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopardo"
+   },
+   {
+    "src": "animals/wolf",
+    "word": "Lobo"
+   },
+   {
+    "src": "fruits/lemon",
+    "word": "Limón"
+   },
+   {
+    "src": "At the Supermarket/can",
+    "word": "Lata"
+   },
+   {
+    "src": "birds 2/parrot",
+    "word": "Loro"
+   },
+   {
+    "src": "breakfast/milk",
+    "word": "Leche"
+   },
+   {
+    "src": "camping/flashlight",
+    "word": "Linterna"
+   },
+   {
+    "src": "camping/moon",
+    "word": "Luna"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libélula"
+   },
+   {
+    "src": "forest creatures/earthworm",
+    "word": "Lombriz"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lagarto"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Gato",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Camello",
+    "laterL": true
+   },
+   {
+    "src": "animals/dog",
+    "word": "Perro",
+    "laterL": false
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfín",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Burro",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Pato",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefante",
+    "laterL": true
+   },
+   {
+    "src": "animals/fish",
+    "word": "Pez",
+    "laterL": false
+   },
+   {
+    "src": "animals/hippopotamus",
+    "word": "Hipopótamo",
+    "laterL": false
+   },
+   {
+    "src": "animals/horse",
+    "word": "Caballo",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Alce",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orangután",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Búho",
+    "laterL": false
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pingüino",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tigre",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Tortuga",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Buitre",
+    "laterL": false
+   },
+   {
+    "src": "animals/whale",
+    "word": "Ballena",
+    "laterL": true
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Aguacate",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Plátano",
+    "laterL": true
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Arándano",
+    "laterL": false
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Coco",
+    "laterL": false
+   },
+   {
+    "src": "fruits/fig",
+    "word": "Higo",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Toronja",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pera",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Caqui",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Durazno",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Piña",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Granada",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Becerro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Abeja",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Toro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Pollito",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Pollo",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Patito",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/foal",
+    "word": "Potro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goat",
+    "word": "Cabra",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/hen",
+    "word": "Gallina",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Ganso",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Buey",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Gallo",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Bolsa",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Tocino",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Canasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Brócoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Pastel",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Carrito",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Dulce",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Galleta",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/corn",
+    "word": "Elote",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Pepino",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Dona",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/garlic",
+    "word": "Ajo",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Aceite",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Pimiento",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Pay",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Palomitas",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Papa",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Pretzels",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Calabaza",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/rice",
+    "word": "Arroz",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomate",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/water",
+    "word": "Agua",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Bollo",
+    "laterL": true
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Panquecito",
+    "laterL": false
+   },
+   {
+    "src": "bakery/croissant",
+    "word": "Cuerno",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Pretzel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Tarta",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Bote",
+    "laterL": false
+   },
+   {
+    "src": "beach/cabana",
+    "word": "Cabaña",
+    "laterL": false
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Cubeta",
+    "laterL": false
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Hielera",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Cangrejo",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Isla",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelícano",
+    "laterL": true
+   },
+   {
+    "src": "beach/seashell",
+    "word": "Concha",
+    "laterL": false
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Paraguas",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Cardenal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Canario",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Paloma",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Cuervo",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Águila",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/falcon",
+    "word": "Halcón",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/heron",
+    "word": "Garza",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Colibrí",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Urraca",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/ostrich",
+    "word": "Avestruz",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/quail",
+    "word": "Codorniz",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/robin",
+    "word": "Petirrojo",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/sparrow",
+    "word": "Gorrión",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/swallow",
+    "word": "Golondrina",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tucán",
+    "laterL": false
+   },
+   {
+    "src": "birds/hornbill",
+    "word": "Cálao",
+    "laterL": true
+   },
+   {
+    "src": "breakfast/oatmeal",
+    "word": "Avena",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Hotcake",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Gachas",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Binoculares",
+    "laterL": true
+   },
+   {
+    "src": "camping/bear",
+    "word": "Oso",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Canoa",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Brújula",
+    "laterL": true
+   },
+   {
+    "src": "camping/forest",
+    "word": "Bosque",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Parrilla",
+    "laterL": true
+   },
+   {
+    "src": "camping/hammock",
+    "word": "Hamaca",
+    "laterL": false
+   },
+   {
+    "src": "camping/kettle",
+    "word": "Tetera",
+    "laterL": false
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Ardilla",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudín",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Áster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/carnation",
+    "word": "Clavel",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Trébol",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Aguileña",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Aciano",
+    "laterL": false
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Azafrán",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dalia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/hibiscus",
+    "word": "Hibisco",
+    "laterL": false
+   },
+   {
+    "src": "flowers/hydrangea",
+    "word": "Hortensia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orquídea",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Peonía",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Trilio",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipán",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/ant",
+    "word": "Hormiga",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Tejón",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Castor",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Erizo",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/porcupine",
+    "word": "Puercoespín",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/spider",
+    "word": "Araña",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/wasp",
+    "word": "Avispa",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Pulpo",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orca",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Ostra",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shark",
+    "word": "Tiburón",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Camarón",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Atún",
+    "laterL": false
+   },
+   {
+    "src": "pets/ferret",
+    "word": "Hurón",
+    "laterL": false
+   },
+   {
+    "src": "pets/hamster",
+    "word": "Hámster",
+    "laterL": false
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Camaleón",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Caimán",
+    "laterL": false
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Cobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bicycle",
+    "word": "Bicicleta",
+    "laterL": true
+   },
+   {
+    "src": "spring/bud",
+    "word": "Brote",
+    "laterL": false
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Conejito",
+    "laterL": false
+   },
+   {
+    "src": "spring/grass",
+    "word": "Pasto",
+    "laterL": false
+   },
+   {
+    "src": "spring/rainbow",
+    "word": "Arcoíris",
+    "laterL": false
+   },
+   {
+    "src": "spring/raincoat",
+    "word": "Impermeable",
+    "laterL": true
+   },
+   {
+    "src": "summer/beach",
+    "word": "Playa",
+    "laterL": true
+   },
+   {
+    "src": "summer/pool",
+    "word": "Alberca",
+    "laterL": true
+   },
+   {
+    "src": "summer/sand",
+    "word": "Arena",
+    "laterL": false
+   },
+   {
+    "src": "summer/t-shirt",
+    "word": "Camiseta",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Espárrago",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Betabel",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Col",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Coliflor",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/celery",
+    "word": "Apio",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Berenjena",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/squash",
+    "word": "Calabacín",
+    "laterL": true
+   },
+   {
+    "src": "winter/coat",
+    "word": "Abrigo",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Orejeras",
+    "laterL": false
+   },
+   {
+    "src": "winter/hockey",
+    "word": "Hockey",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Carámbano",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglú",
+    "laterL": true
+   },
+   {
+    "src": "winter/skiing",
+    "word": "Esquiar",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antílope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Armadillo",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bisonte",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gacela",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorila",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Canguro",
+    "laterL": false
+   }
+  ]
+ },
+ "pt": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopardo"
+   },
+   {
+    "src": "animals/wolf",
+    "word": "Lobo"
+   },
+   {
+    "src": "fruits/lemon",
+    "word": "Limão"
+   },
+   {
+    "src": "fruits/orange",
+    "word": "Laranja"
+   },
+   {
+    "src": "At the Supermarket/can",
+    "word": "Lata"
+   },
+   {
+    "src": "breakfast/milk",
+    "word": "Leite"
+   },
+   {
+    "src": "camping/flashlight",
+    "word": "Lanterna"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lampião"
+   },
+   {
+    "src": "camping/moon",
+    "word": "Lua"
+   },
+   {
+    "src": "forest creatures/caterpillar",
+    "word": "Lagarta"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libélula"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lagarto"
+   },
+   {
+    "src": "pets/gecko",
+    "word": "Lagartixa"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Gato",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Camelo",
+    "laterL": true
+   },
+   {
+    "src": "animals/dog",
+    "word": "Cachorro",
+    "laterL": false
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Golfinho",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Burro",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Pato",
+    "laterL": false
+   },
+   {
+    "src": "animals/fish",
+    "word": "Peixe",
+    "laterL": false
+   },
+   {
+    "src": "animals/horse",
+    "word": "Cavalo",
+    "laterL": true
+   },
+   {
+    "src": "animals/koala",
+    "word": "Coala",
+    "laterL": true
+   },
+   {
+    "src": "animals/owl",
+    "word": "Coruja",
+    "laterL": false
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pinguim",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Porco",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tigre",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Tartaruga",
+    "laterL": false
+   },
+   {
+    "src": "animals/whale",
+    "word": "Baleia",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Damasco",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banana",
+    "laterL": false
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Coco",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Toranja",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiwi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pera",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Caqui",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Pêssego",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Bezerro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Touro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Pintinho",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Galinha",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Patinho",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/foal",
+    "word": "Potro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goat",
+    "word": "Cabra",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Ganso",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Boi",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Galo",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Peru",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Brócolis",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Bolo",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Carrinho",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Doce",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Biscoito",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Pepino",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/ham",
+    "word": "Presunto",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/mushroom",
+    "word": "Cogumelo",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Pimentão",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Torta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Pipoca",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Batata",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Pretzels",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomate",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguete",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Pãozinho",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Cupcake",
+    "laterL": false
+   },
+   {
+    "src": "bakery/croissant",
+    "word": "Croissant",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Pretzel",
+    "laterL": true
+   },
+   {
+    "src": "beach/boat",
+    "word": "Barco",
+    "laterL": false
+   },
+   {
+    "src": "beach/chair",
+    "word": "Cadeira",
+    "laterL": false
+   },
+   {
+    "src": "beach/cabana",
+    "word": "Cabana",
+    "laterL": false
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Balde",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Caranguejo",
+    "laterL": false
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelicano",
+    "laterL": true
+   },
+   {
+    "src": "beach/rock",
+    "word": "Pedra",
+    "laterL": false
+   },
+   {
+    "src": "beach/seashell",
+    "word": "Concha",
+    "laterL": false
+   },
+   {
+    "src": "beach/spade",
+    "word": "Pazinha",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Cardeal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Canário",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Pomba",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Corvo",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hawk",
+    "word": "Gavião",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/heron",
+    "word": "Garça",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Pega",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Pavão",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/pigeon",
+    "word": "Pombo",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/quail",
+    "word": "Codorna",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/sparrow",
+    "word": "Pardal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tucano",
+    "laterL": false
+   },
+   {
+    "src": "birds/hornbill",
+    "word": "Calau",
+    "laterL": true
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Panqueca",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Binóculos",
+    "laterL": true
+   },
+   {
+    "src": "camping/camper",
+    "word": "Trailer",
+    "laterL": true
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Canoa",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Bússola",
+    "laterL": true
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Caiaque",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Pinha",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Barraca",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/popsicle",
+    "word": "Picolé",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudim",
+    "laterL": false
+   },
+   {
+    "src": "flowers/carnation",
+    "word": "Cravo",
+    "laterL": false
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Trevo",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dália",
+    "laterL": true
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Peônia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petúnia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Trillium",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipa",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Texugo",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Castor",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/butterfly",
+    "word": "Borboleta",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Gafanhoto",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Polvo",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Baiacu",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shark",
+    "word": "Tubarão",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Camarão",
+    "laterL": false
+   },
+   {
+    "src": "pets/cockatiel",
+    "word": "Calopsita",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Camaleão",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Cobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bicycle",
+    "word": "Bicicleta",
+    "laterL": true
+   },
+   {
+    "src": "spring/bud",
+    "word": "Botão",
+    "laterL": false
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Coelhinho",
+    "laterL": true
+   },
+   {
+    "src": "spring/grass",
+    "word": "Grama",
+    "laterL": false
+   },
+   {
+    "src": "summer/beach",
+    "word": "Praia",
+    "laterL": false
+   },
+   {
+    "src": "summer/pool",
+    "word": "Piscina",
+    "laterL": false
+   },
+   {
+    "src": "summer/t-shirt",
+    "word": "Camiseta",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Beterraba",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Berinjela",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinaca",
+    "laterL": false
+   },
+   {
+    "src": "winter/coat",
+    "word": "Casaco",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Tatu",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bisão",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazela",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorila",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Canguru",
+    "laterL": false
+   }
+  ]
+ },
+ "fr": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Léopard"
+   },
+   {
+    "src": "animals/rabbit",
+    "word": "Lapin"
+   },
+   {
+    "src": "animals/wolf",
+    "word": "Loup"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "breakfast/milk",
+    "word": "Lait"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lanterne"
+   },
+   {
+    "src": "camping/moon",
+    "word": "Lune"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libellule"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lézard"
+   },
+   {
+    "src": "winter/sled",
+    "word": "Luge"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/dolphin",
+    "word": "Dauphin",
+    "laterL": false
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Âne",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Canard",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Éléphant",
+    "laterL": true
+   },
+   {
+    "src": "animals/fish",
+    "word": "Poisson",
+    "laterL": false
+   },
+   {
+    "src": "animals/moose",
+    "word": "Élan",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Cochon",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tigre",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Tortue",
+    "laterL": false
+   },
+   {
+    "src": "animals/woodpecker",
+    "word": "Pic",
+    "laterL": false
+   },
+   {
+    "src": "animals/whale",
+    "word": "Baleine",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Pomme",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Abricot",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocat",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banane",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Pamplemousse",
+    "laterL": true
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaye",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Poire",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Pêche",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Grenade",
+    "laterL": false
+   },
+   {
+    "src": "fruits/watermelon",
+    "word": "Pastèque",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Abeille",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Taureau",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Poussin",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Poulet",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Caneton",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/foal",
+    "word": "Poulain",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/hen",
+    "word": "Poule",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Bœuf",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Coq",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Dinde",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Panier",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/butter",
+    "word": "Beurre",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Brocoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Gâteau",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Bonbon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Carotte",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Biscuit",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Concombre",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Beignet",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/jam",
+    "word": "Confiture",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pâtes",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Poivron",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Tarte",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Bretzels",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomate",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Cupcake",
+    "laterL": false
+   },
+   {
+    "src": "bakery/croissant",
+    "word": "Croissant",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Bretzel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Tartelette",
+    "laterL": true
+   },
+   {
+    "src": "bakery/waffle",
+    "word": "Gaufre",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Bateau",
+    "laterL": false
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Glacière",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Crabe",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Île",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pélican",
+    "laterL": true
+   },
+   {
+    "src": "beach/seashell",
+    "word": "Coquillage",
+    "laterL": true
+   },
+   {
+    "src": "beach/snorkel",
+    "word": "Tuba",
+    "laterL": false
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Parapluie",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Cardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Canari",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Colombe",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Corbeau",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crane",
+    "word": "Grue",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hawk",
+    "word": "Épervier",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Colibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Pie",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Paon",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/pigeon",
+    "word": "Pigeon",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/quail",
+    "word": "Caille",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Toucan",
+    "laterL": false
+   },
+   {
+    "src": "birds/hornbill",
+    "word": "Calao",
+    "laterL": true
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Crêpe",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Porridge",
+    "laterL": false
+   },
+   {
+    "src": "camping/cabin",
+    "word": "Cabane",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Canoë",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Boussole",
+    "laterL": true
+   },
+   {
+    "src": "camping/grill",
+    "word": "Gril",
+    "laterL": true
+   },
+   {
+    "src": "camping/frog",
+    "word": "Grenouille",
+    "laterL": true
+   },
+   {
+    "src": "camping/kettle",
+    "word": "Bouilloire",
+    "laterL": true
+   },
+   {
+    "src": "camping/map",
+    "word": "Carte",
+    "laterL": false
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Écureuil",
+    "laterL": true
+   },
+   {
+    "src": "camping/tent",
+    "word": "Tente",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Aster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalée",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Trèfle",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Bleuet",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Crocus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orchidée",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Pivoine",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Pétunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/sunflower",
+    "word": "Tournesol",
+    "laterL": true
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Trille",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipe",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Blaireau",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Castor",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/butterfly",
+    "word": "Papillon",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/spider",
+    "word": "Araignée",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/wasp",
+    "word": "Guêpe",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Pieuvre",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orque",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/seaweed",
+    "word": "Algue",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Crevette",
+    "laterL": false
+   },
+   {
+    "src": "pets/cockatiel",
+    "word": "Calopsitte",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Caméléon",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Cobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bud",
+    "word": "Bourgeon",
+    "laterL": false
+   },
+   {
+    "src": "summer/barbecue",
+    "word": "Barbecue",
+    "laterL": false
+   },
+   {
+    "src": "summer/beach",
+    "word": "Plage",
+    "laterL": true
+   },
+   {
+    "src": "summer/pool",
+    "word": "Piscine",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asperge",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Betterave",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Panais",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/squash",
+    "word": "Courge",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Glaçon",
+    "laterL": true
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Igloo",
+    "laterL": true
+   },
+   {
+    "src": "winter/sleigh",
+    "word": "Traîneau",
+    "laterL": false
+   },
+   {
+    "src": "winter/sweater",
+    "word": "Pull",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Tatou",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/cheetah",
+    "word": "Guépard",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazelle",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorille",
+    "laterL": true
+   }
+  ]
+ },
+ "it": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopardo"
+   },
+   {
+    "src": "animals/wolf",
+    "word": "Lupo"
+   },
+   {
+    "src": "fruits/lemon",
+    "word": "Limone"
+   },
+   {
+    "src": "fruits/raspberry",
+    "word": "Lampone"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "At the Supermarket/can",
+    "word": "Lattina"
+   },
+   {
+    "src": "breakfast/milk",
+    "word": "Latte"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lanterna"
+   },
+   {
+    "src": "camping/moon",
+    "word": "Luna"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libellula"
+   },
+   {
+    "src": "forest creatures/earthworm",
+    "word": "Lombrico"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lucertola"
+   },
+   {
+    "src": "forest creatures/snail",
+    "word": "Lumaca"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Gatto",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Cammello",
+    "laterL": true
+   },
+   {
+    "src": "animals/dog",
+    "word": "Cane",
+    "laterL": false
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfino",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Asino",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Anatra",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefante",
+    "laterL": true
+   },
+   {
+    "src": "animals/fish",
+    "word": "Pesce",
+    "laterL": false
+   },
+   {
+    "src": "animals/hippopotamus",
+    "word": "Ippopotamo",
+    "laterL": false
+   },
+   {
+    "src": "animals/horse",
+    "word": "Cavallo",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Alce",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orango",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Gufo",
+    "laterL": false
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pinguino",
+    "laterL": false
+   },
+   {
+    "src": "animals/raccoon",
+    "word": "Procione",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tigre",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Tartaruga",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Avvoltoio",
+    "laterL": true
+   },
+   {
+    "src": "animals/woodpecker",
+    "word": "Picchio",
+    "laterL": false
+   },
+   {
+    "src": "animals/whale",
+    "word": "Balena",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Albicocca",
+    "laterL": true
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banana",
+    "laterL": false
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Cocco",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Pompelmo",
+    "laterL": true
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pera",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Cachi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Pesca",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "fruits/watermelon",
+    "word": "Anguria",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Ape",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Toro",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Pulcino",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Pollo",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Anatroccolo",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/foal",
+    "word": "Puledro",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/goat",
+    "word": "Capra",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/hen",
+    "word": "Gallina",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Oca",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Bue",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Gallo",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Tacchino",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Pancetta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/butter",
+    "word": "Burro",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Broccoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Torta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Carrello",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Caramella",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Carota",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Biscotto",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/garlic",
+    "word": "Aglio",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/ham",
+    "word": "Prosciutto",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Olio",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Peperone",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Patata",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Pretzel",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Pomodoro",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/water",
+    "word": "Acqua",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Panino",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Cupcake",
+    "laterL": false
+   },
+   {
+    "src": "bakery/croissant",
+    "word": "Cornetto",
+    "laterL": false
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Crostata",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Barca",
+    "laterL": false
+   },
+   {
+    "src": "beach/cabana",
+    "word": "Cabina",
+    "laterL": false
+   },
+   {
+    "src": "beach/crab",
+    "word": "Granchio",
+    "laterL": false
+   },
+   {
+    "src": "beach/hat",
+    "word": "Cappello",
+    "laterL": true
+   },
+   {
+    "src": "beach/island",
+    "word": "Isola",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pellicano",
+    "laterL": true
+   },
+   {
+    "src": "beach/seashell",
+    "word": "Conchiglia",
+    "laterL": true
+   },
+   {
+    "src": "beach/spade",
+    "word": "Paletta",
+    "laterL": true
+   },
+   {
+    "src": "beach/snorkel",
+    "word": "Boccaglio",
+    "laterL": true
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Ombrello",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Cardinale",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Canarino",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Colomba",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Corvo",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crane",
+    "word": "Gru",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Aquila",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/heron",
+    "word": "Airone",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Colibrì",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Gazza",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Pavone",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/pigeon",
+    "word": "Piccione",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/robin",
+    "word": "Pettirosso",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/sparrow",
+    "word": "Passero",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tucano",
+    "laterL": false
+   },
+   {
+    "src": "birds/hornbill",
+    "word": "Bucero",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pancake",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Porridge",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Binocolo",
+    "laterL": true
+   },
+   {
+    "src": "camping/bear",
+    "word": "Orso",
+    "laterL": false
+   },
+   {
+    "src": "camping/cabin",
+    "word": "Capanna",
+    "laterL": false
+   },
+   {
+    "src": "camping/camper",
+    "word": "Camper",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Canoa",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Bussola",
+    "laterL": true
+   },
+   {
+    "src": "camping/grill",
+    "word": "Griglia",
+    "laterL": true
+   },
+   {
+    "src": "camping/hammock",
+    "word": "Amaca",
+    "laterL": false
+   },
+   {
+    "src": "camping/kettle",
+    "word": "Bollitore",
+    "laterL": true
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Pigna",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Tenda",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Budino",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Astro",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/carnation",
+    "word": "Garofano",
+    "laterL": false
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Trifoglio",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Aquilegia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Croco",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dalia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/hibiscus",
+    "word": "Ibisco",
+    "laterL": false
+   },
+   {
+    "src": "flowers/hydrangea",
+    "word": "Ortensia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orchidea",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Peonia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Trillium",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipano",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Tasso",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Castoro",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Cavalletta",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/mouse",
+    "word": "Topo",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/porcupine",
+    "word": "Porcospino",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Polpo",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orca",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Ostrica",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/scallop",
+    "word": "Capasanta",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Gambero",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tonno",
+    "laterL": false
+   },
+   {
+    "src": "pets/cockatiel",
+    "word": "Calopsitta",
+    "laterL": true
+   },
+   {
+    "src": "pets/hamster",
+    "word": "Criceto",
+    "laterL": false
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Camaleonte",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligatore",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Cobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bicycle",
+    "word": "Bicicletta",
+    "laterL": true
+   },
+   {
+    "src": "spring/bud",
+    "word": "Bocciolo",
+    "laterL": true
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Coniglietto",
+    "laterL": true
+   },
+   {
+    "src": "spring/grass",
+    "word": "Erba",
+    "laterL": false
+   },
+   {
+    "src": "spring/rainbow",
+    "word": "Arcobaleno",
+    "laterL": true
+   },
+   {
+    "src": "spring/raincoat",
+    "word": "Impermeabile",
+    "laterL": true
+   },
+   {
+    "src": "summer/barbecue",
+    "word": "Barbecue",
+    "laterL": false
+   },
+   {
+    "src": "summer/pool",
+    "word": "Piscina",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asparago",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Barbabietola",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Cavolo",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Cavolfiore",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinaca",
+    "laterL": false
+   },
+   {
+    "src": "winter/coat",
+    "word": "Cappotto",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Paraorecchie",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Igloo",
+    "laterL": true
+   },
+   {
+    "src": "winter/walrus",
+    "word": "Tricheco",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Armadillo",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bisonte",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazzella",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Canguro",
+    "laterL": false
+   }
+  ]
+ },
+ "nl": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Luipaard"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lam"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lantaarn"
+   },
+   {
+    "src": "desserts and sweets/lollipop",
+    "word": "Lolly"
+   },
+   {
+    "src": "forest creatures/dragonfly",
+    "word": "Libel"
+   },
+   {
+    "src": "forest creatures/ladybug",
+    "word": "Lieveheersbeestje"
+   },
+   {
+    "src": "zoo animals/sloth",
+    "word": "Luiaard"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Kat",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kameel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Dolfijn",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Ezel",
+    "laterL": true
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Olifant",
+    "laterL": true
+   },
+   {
+    "src": "animals/horse",
+    "word": "Paard",
+    "laterL": false
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Eland",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pinguïn",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tijger",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Appel",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Abrikoos",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banaan",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Braam",
+    "laterL": false
+   },
+   {
+    "src": "fruits/cherry",
+    "word": "Kers",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Bosbes",
+    "laterL": false
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kokosnoot",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiwi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaja",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Peer",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Kaki",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Perzik",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Kalf",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Bij",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Kuiken",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Kip",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Os",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Kalkoen",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Tas",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/butter",
+    "word": "Boter",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Broccoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Taart",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cheese",
+    "word": "Kaas",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Koekje",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Komkommer",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Donut",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/garlic",
+    "word": "Knoflook",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/mushroom",
+    "word": "Paddenstoel",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Olie",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Paprika",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Pretzels",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Pompoen",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomaat",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/toothbrush",
+    "word": "Tandenborstel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Broodje",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cheesecake",
+    "word": "Kaastaart",
+    "laterL": false
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Pretzel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Taartje",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Boot",
+    "laterL": false
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Emmer",
+    "laterL": false
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Koelbox",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Krab",
+    "laterL": false
+   },
+   {
+    "src": "beach/jellyfish",
+    "word": "Kwal",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikaan",
+    "laterL": true
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Paraplu",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Kardinaal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanarie",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Duif",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Kraai",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Adelaar",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibrie",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/magpie",
+    "word": "Ekster",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Pauw",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/quail",
+    "word": "Kwartel",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Toekan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pannenkoek",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Pap",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Beer",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kano",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompas",
+    "laterL": false
+   },
+   {
+    "src": "camping/forest",
+    "word": "Bos",
+    "laterL": false
+   },
+   {
+    "src": "camping/frog",
+    "word": "Kikker",
+    "laterL": false
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajak",
+    "laterL": false
+   },
+   {
+    "src": "camping/map",
+    "word": "Kaart",
+    "laterL": false
+   },
+   {
+    "src": "camping/mountain",
+    "word": "Berg",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Dennenappel",
+    "laterL": true
+   },
+   {
+    "src": "camping/tent",
+    "word": "Tent",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Aster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/carnation",
+    "word": "Anjer",
+    "laterL": false
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Klaver",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akelei",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Korenbloem",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krokus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orchidee",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Pioenroos",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Drieblad",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulp",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Das",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Bever",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Egel",
+    "laterL": true
+   },
+   {
+    "src": "insects and bugs/centipede",
+    "word": "Duizendpoot",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Octopus",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/orca",
+    "word": "Orka",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Kogelvis",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tonijn",
+    "laterL": false
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Kameleon",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "spring/bud",
+    "word": "Knop",
+    "laterL": false
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Konijntje",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Bloem",
+    "laterL": true
+   },
+   {
+    "src": "spring/garden",
+    "word": "Tuin",
+    "laterL": false
+   },
+   {
+    "src": "summer/barbecue",
+    "word": "Barbecue",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asperge",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kool",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Bloemkool",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinaak",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglo",
+    "laterL": true
+   },
+   {
+    "src": "winter/sweater",
+    "word": "Trui",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bizon",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Kangoeroe",
+    "laterL": false
+   }
+  ]
+ },
+ "sv": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopard"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lamm"
+   },
+   {
+    "src": "At the Supermarket/onion",
+    "word": "Lök"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lykta"
+   },
+   {
+    "src": "forest creatures/caterpillar",
+    "word": "Larv"
+   },
+   {
+    "src": "spring/leaf",
+    "word": "Löv"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Katt",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kamel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfin",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Åsna",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Anka",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefant",
+    "laterL": true
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Älg",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orangutang",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Uggla",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pingvin",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Gris",
+    "laterL": false
+   },
+   {
+    "src": "animals/raccoon",
+    "word": "Tvättbjörn",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiger",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Gam",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Äpple",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Aprikos",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avokado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banan",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Björnbär",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Blåbär",
+    "laterL": true
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kokosnöt",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Grapefrukt",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Päron",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Persimon",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Persika",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Granatäpple",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Kalv",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Bi",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Ankunge",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Gås",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Oxe",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Tupp",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Kalkon",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Påse",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Korg",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Broccoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Tårta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Kundvagn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Godis",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cheese",
+    "word": "Ost",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Kaka",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Gurka",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Olja",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Paprika",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Paj",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Potatis",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Kringlor",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Pumpa",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/sausage",
+    "word": "Korv",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomat",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/toothbrush",
+    "word": "Tandborste",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Bulle",
+    "laterL": true
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Kringla",
+    "laterL": true
+   },
+   {
+    "src": "beach/boat",
+    "word": "Båt",
+    "laterL": false
+   },
+   {
+    "src": "beach/crab",
+    "word": "Krabba",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Ö",
+    "laterL": false
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikan",
+    "laterL": true
+   },
+   {
+    "src": "beach/rock",
+    "word": "Klippa",
+    "laterL": true
+   },
+   {
+    "src": "beach/swimsuit",
+    "word": "Baddräkt",
+    "laterL": false
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Paraply",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Kardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanariefågel",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Duva",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Kråka",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Örn",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/kingfisher",
+    "word": "Kungsfiskare",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Påfågel",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tukan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pannkaka",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Gröt",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Björn",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kanot",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompass",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Grill",
+    "laterL": true
+   },
+   {
+    "src": "camping/frog",
+    "word": "Groda",
+    "laterL": false
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajak",
+    "laterL": false
+   },
+   {
+    "src": "camping/map",
+    "word": "Karta",
+    "laterL": false
+   },
+   {
+    "src": "camping/mountain",
+    "word": "Berg",
+    "laterL": false
+   },
+   {
+    "src": "camping/oar",
+    "word": "Åra",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Kotte",
+    "laterL": false
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Ekorre",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Tält",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/popsicle",
+    "word": "Isglass",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Aster",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Klöver",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akleja",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Blåklint",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krokus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/daffodil",
+    "word": "Påsklilja",
+    "laterL": true
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orkidé",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Pion",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Treblad",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulpan",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Grävling",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Bäver",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Gräshoppa",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Igelkott",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/porcupine",
+    "word": "Piggsvin",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/centipede",
+    "word": "Tusenfoting",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/angelfish",
+    "word": "Ängelfisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Bläckfisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Ostron",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Blåsfisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/scallop",
+    "word": "Pilgrimsmussla",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tonfisk",
+    "laterL": false
+   },
+   {
+    "src": "pets/ferret",
+    "word": "Iller",
+    "laterL": true
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Guldfisk",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Kameleont",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Kobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bud",
+    "word": "Knopp",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Blomma",
+    "laterL": true
+   },
+   {
+    "src": "spring/garden",
+    "word": "Trädgård",
+    "laterL": false
+   },
+   {
+    "src": "spring/grass",
+    "word": "Gräs",
+    "laterL": false
+   },
+   {
+    "src": "spring/nest",
+    "word": "Bo",
+    "laterL": false
+   },
+   {
+    "src": "summer/pool",
+    "word": "Pool",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Blomkål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Aubergine",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Palsternacka",
+    "laterL": true
+   },
+   {
+    "src": "winter/coat",
+    "word": "Kappa",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Öronvärmare",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Istapp",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Igloo",
+    "laterL": true
+   },
+   {
+    "src": "winter/sweater",
+    "word": "Tröja",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilop",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Bältdjur",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gasell",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/monkey",
+    "word": "Apa",
+    "laterL": false
+   }
+  ]
+ },
+ "da": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopard"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lam"
+   },
+   {
+    "src": "At the Supermarket/onion",
+    "word": "Løg"
+   },
+   {
+    "src": "camping/flashlight",
+    "word": "Lommelygte"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lanterne"
+   },
+   {
+    "src": "forest creatures/caterpillar",
+    "word": "Larve"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Kat",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kamel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfin",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Æsel",
+    "laterL": true
+   },
+   {
+    "src": "animals/duck",
+    "word": "And",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefant",
+    "laterL": true
+   },
+   {
+    "src": "animals/giraffe",
+    "word": "Giraf",
+    "laterL": false
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Elg",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orangutang",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Ugle",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pingvin",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Gris",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiger",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Grib",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Æble",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Abrikos",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avocado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banan",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Brombær",
+    "laterL": false
+   },
+   {
+    "src": "fruits/cherry",
+    "word": "Kirsebær",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Blåbær",
+    "laterL": true
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kokosnød",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Grapefrugt",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiwi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pære",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Kaki",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Granatæble",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Kalv",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Bi",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Tyr",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Kylling",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Ælling",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/goat",
+    "word": "Ged",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Gås",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/ox",
+    "word": "Okse",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Kalkun",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Pose",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Kurv",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Broccoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Kage",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Indkøbsvogn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Gulerod",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cheese",
+    "word": "Ost",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Agurk",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Doughnut",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Olie",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Peberfrugt",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Tærte",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Kartoffel",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Kringler",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Græskar",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/sausage",
+    "word": "Pølse",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomat",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/toothbrush",
+    "word": "Tandbørste",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguette",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bun",
+    "word": "Bolle",
+    "laterL": true
+   },
+   {
+    "src": "bakery/pretzel",
+    "word": "Kringle",
+    "laterL": true
+   },
+   {
+    "src": "beach/boat",
+    "word": "Båd",
+    "laterL": false
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Køletaske",
+    "laterL": true
+   },
+   {
+    "src": "beach/crab",
+    "word": "Krabbe",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Ø",
+    "laterL": false
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikan",
+    "laterL": true
+   },
+   {
+    "src": "beach/rock",
+    "word": "Klippe",
+    "laterL": true
+   },
+   {
+    "src": "beach/swimsuit",
+    "word": "Badedragt",
+    "laterL": false
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Paraply",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Kardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanariefugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Due",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Krage",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Ørn",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/kingfisher",
+    "word": "Isfugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Påfugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tukan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/biscuit",
+    "word": "Kiks",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pandekage",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Grød",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Kikkert",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Bjørn",
+    "laterL": false
+   },
+   {
+    "src": "camping/camper",
+    "word": "Autocamper",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kano",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompas",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Grill",
+    "laterL": true
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajak",
+    "laterL": false
+   },
+   {
+    "src": "camping/kettle",
+    "word": "Elkedel",
+    "laterL": true
+   },
+   {
+    "src": "camping/map",
+    "word": "Kort",
+    "laterL": false
+   },
+   {
+    "src": "camping/mountain",
+    "word": "Bjerg",
+    "laterL": false
+   },
+   {
+    "src": "camping/oar",
+    "word": "Åre",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Grankogle",
+    "laterL": true
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Egern",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Telt",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/popsicle",
+    "word": "Ispind",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Budding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Asters",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Azalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Kløver",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akeleje",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Kornblomst",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krokus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/daffodil",
+    "word": "Påskelilje",
+    "laterL": true
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orkidé",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Pæon",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Treblad",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipan",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Grævling",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Bæver",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Græshoppe",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Pindsvin",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/spider",
+    "word": "Edderkop",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/centipede",
+    "word": "Tusindben",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/worm",
+    "word": "Orm",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/angelfish",
+    "word": "Kejserfisk",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/clownfish",
+    "word": "Klovnfisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Blæksprutte",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Østers",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Kuglefisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/scallop",
+    "word": "Kammusling",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/seaweed",
+    "word": "Tang",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tun",
+    "laterL": false
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Guldfisk",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Kamæleon",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Kobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bud",
+    "word": "Knop",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Blomst",
+    "laterL": true
+   },
+   {
+    "src": "spring/grass",
+    "word": "Græs",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asparges",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Blomkål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Aubergine",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinak",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Ørevarmere",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Istap",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglo",
+    "laterL": true
+   },
+   {
+    "src": "winter/sledding",
+    "word": "Kælkning",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Bæltedyr",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/cheetah",
+    "word": "Gepard",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gazelle",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Kænguru",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/monkey",
+    "word": "Abe",
+    "laterL": false
+   }
+  ]
+ },
+ "no": {
+  "l": [
+   {
+    "src": "animals/leopard",
+    "word": "Leopard"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Lama"
+   },
+   {
+    "src": "farm animals/lamb",
+    "word": "Lam"
+   },
+   {
+    "src": "At the Supermarket/onion",
+    "word": "Løk"
+   },
+   {
+    "src": "camping/flashlight",
+    "word": "Lommelykt"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lykt"
+   },
+   {
+    "src": "forest creatures/caterpillar",
+    "word": "Larve"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Katt",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kamel",
+    "laterL": true
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfin",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Esel",
+    "laterL": true
+   },
+   {
+    "src": "animals/duck",
+    "word": "And",
+    "laterL": false
+   },
+   {
+    "src": "animals/elephant",
+    "word": "Elefant",
+    "laterL": true
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/moose",
+    "word": "Elg",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Orangutang",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Ugle",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pingvin",
+    "laterL": false
+   },
+   {
+    "src": "animals/pig",
+    "word": "Gris",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiger",
+    "laterL": false
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Gribb",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Eple",
+    "laterL": true
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Aprikos",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avokado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/banana",
+    "word": "Banan",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Bjørnebær",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blueberry",
+    "word": "Blåbær",
+    "laterL": true
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kokosnøtt",
+    "laterL": false
+   },
+   {
+    "src": "fruits/grapefruit",
+    "word": "Grapefrukt",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaya",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Pære",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Kaki",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pomegranate",
+    "word": "Granateple",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/calf",
+    "word": "Kalv",
+    "laterL": true
+   },
+   {
+    "src": "farm animals/bee",
+    "word": "Bie",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/bull",
+    "word": "Okse",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Andunge",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/goose",
+    "word": "Gås",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Kalkun",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Pose",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Bacon",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Kurv",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Brokkoli",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Kake",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Godteri",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Gulrot",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cheese",
+    "word": "Ost",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Agurk",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Olje",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Paprika",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Pai",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Potet",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pretzels",
+    "word": "Kringle",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Gresskar",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/sausage",
+    "word": "Pølse",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomat",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/toothbrush",
+    "word": "Tannbørste",
+    "laterL": false
+   },
+   {
+    "src": "bakery/bagel",
+    "word": "Bagel",
+    "laterL": true
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Baguett",
+    "laterL": false
+   },
+   {
+    "src": "bakery/brownie",
+    "word": "Brownie",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cheesecake",
+    "word": "Ostekake",
+    "laterL": false
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Terte",
+    "laterL": false
+   },
+   {
+    "src": "beach/boat",
+    "word": "Båt",
+    "laterL": false
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Bøtte",
+    "laterL": false
+   },
+   {
+    "src": "beach/crab",
+    "word": "Krabbe",
+    "laterL": false
+   },
+   {
+    "src": "beach/island",
+    "word": "Øy",
+    "laterL": false
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikan",
+    "laterL": true
+   },
+   {
+    "src": "beach/swimsuit",
+    "word": "Badedrakt",
+    "laterL": false
+   },
+   {
+    "src": "beach/umbrella",
+    "word": "Paraply",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Kardinal",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanarifugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Due",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/crow",
+    "word": "Kråke",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Ørn",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/kingfisher",
+    "word": "Isfugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/peacock",
+    "word": "Påfugl",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tukan",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pannekake",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Grøt",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Bjørn",
+    "laterL": false
+   },
+   {
+    "src": "camping/camper",
+    "word": "Bobil",
+    "laterL": true
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kano",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompass",
+    "laterL": false
+   },
+   {
+    "src": "camping/grill",
+    "word": "Grill",
+    "laterL": true
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajakk",
+    "laterL": false
+   },
+   {
+    "src": "camping/map",
+    "word": "Kart",
+    "laterL": false
+   },
+   {
+    "src": "camping/oar",
+    "word": "Åre",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Kongle",
+    "laterL": true
+   },
+   {
+    "src": "camping/river",
+    "word": "Elv",
+    "laterL": true
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Ekorn",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Telt",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/popsicle",
+    "word": "Ispinne",
+    "laterL": false
+   },
+   {
+    "src": "desserts and sweets/pudding",
+    "word": "Pudding",
+    "laterL": false
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Asters",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Asalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Kløver",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akeleie",
+    "laterL": true
+   },
+   {
+    "src": "flowers/cornflower",
+    "word": "Kornblomst",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krokus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/daffodil",
+    "word": "Påskelilje",
+    "laterL": true
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Dahlia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/forsythia",
+    "word": "Gullbusk",
+    "laterL": true
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orkidé",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Peon",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Treblad",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulipan",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/badger",
+    "word": "Grevling",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/beaver",
+    "word": "Bever",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/grasshopper",
+    "word": "Gresshoppe",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/hedgehog",
+    "word": "Piggsvin",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/spider",
+    "word": "Edderkopp",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/centipede",
+    "word": "Tusenbein",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/clownfish",
+    "word": "Klovnefisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/octopus",
+    "word": "Blekksprut",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Østers",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Kulefisk",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/scallop",
+    "word": "Kamskjell",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/seaweed",
+    "word": "Tang",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tunfisk",
+    "laterL": false
+   },
+   {
+    "src": "pets/ferret",
+    "word": "Ilder",
+    "laterL": true
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Gullfisk",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Kameleon",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligator",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Kobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bud",
+    "word": "Knopp",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Blomst",
+    "laterL": true
+   },
+   {
+    "src": "spring/grass",
+    "word": "Gress",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Asparges",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Blomkål",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/eggplant",
+    "word": "Aubergine",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Pastinakk",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Ørevarmere",
+    "laterL": false
+   },
+   {
+    "src": "winter/icicle",
+    "word": "Istapp",
+    "laterL": false
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglo",
+    "laterL": true
+   },
+   {
+    "src": "winter/sledding",
+    "word": "Aking",
+    "laterL": false
+   },
+   {
+    "src": "winter/sweater",
+    "word": "Genser",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilope",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/armadillo",
+    "word": "Beltedyr",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/bison",
+    "word": "Bison",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/cheetah",
+    "word": "Gepard",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/gazelle",
+    "word": "Gasell",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/gorilla",
+    "word": "Gorilla",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Kenguru",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/monkey",
+    "word": "Ape",
+    "laterL": false
+   }
+  ]
+ },
+ "fi": {
+  "l": [
+   {
+    "src": "animals/bat",
+    "word": "Lepakko"
+   },
+   {
+    "src": "animals/leopard",
+    "word": "Leopardi"
+   },
+   {
+    "src": "animals/seagull",
+    "word": "Lokki"
+   },
+   {
+    "src": "animals/sheep",
+    "word": "Lammas"
+   },
+   {
+    "src": "farm animals/cow",
+    "word": "Lehmä"
+   },
+   {
+    "src": "farm animals/llama",
+    "word": "Laama"
+   },
+   {
+    "src": "At the Supermarket/bread",
+    "word": "Leipä"
+   },
+   {
+    "src": "beach/kite",
+    "word": "Leija"
+   },
+   {
+    "src": "beach/shovel",
+    "word": "Lapio"
+   },
+   {
+    "src": "camping/lantern",
+    "word": "Lyhty"
+   },
+   {
+    "src": "forest creatures/ladybug",
+    "word": "Leppäkerttu"
+   },
+   {
+    "src": "forest creatures/lizard",
+    "word": "Lisko"
+   },
+   {
+    "src": "spring/bird",
+    "word": "Lintu"
+   },
+   {
+    "src": "spring/birdhouse",
+    "word": "Linnunpönttö"
+   },
+   {
+    "src": "spring/leaf",
+    "word": "Lehti"
+   },
+   {
+    "src": "summer/cap",
+    "word": "Lippis"
+   },
+   {
+    "src": "winter/snowflake",
+    "word": "Lumihiutale"
+   },
+   {
+    "src": "winter/snowman",
+    "word": "Lumiukko"
+   },
+   {
+    "src": "zoo animals/sloth",
+    "word": "Laiskiainen"
+   }
+  ],
+  "decoy": [
+   {
+    "src": "animals/cat",
+    "word": "Kissa",
+    "laterL": false
+   },
+   {
+    "src": "animals/camel",
+    "word": "Kameli",
+    "laterL": true
+   },
+   {
+    "src": "animals/dog",
+    "word": "Koira",
+    "laterL": false
+   },
+   {
+    "src": "animals/dolphin",
+    "word": "Delfiini",
+    "laterL": true
+   },
+   {
+    "src": "animals/donkey",
+    "word": "Aasi",
+    "laterL": false
+   },
+   {
+    "src": "animals/duck",
+    "word": "Ankka",
+    "laterL": false
+   },
+   {
+    "src": "animals/fish",
+    "word": "Kala",
+    "laterL": true
+   },
+   {
+    "src": "animals/fox",
+    "word": "Kettu",
+    "laterL": false
+   },
+   {
+    "src": "animals/giraffe",
+    "word": "Kirahvi",
+    "laterL": false
+   },
+   {
+    "src": "animals/koala",
+    "word": "Koala",
+    "laterL": true
+   },
+   {
+    "src": "animals/orangutan",
+    "word": "Oranki",
+    "laterL": false
+   },
+   {
+    "src": "animals/owl",
+    "word": "Pöllö",
+    "laterL": true
+   },
+   {
+    "src": "animals/panda",
+    "word": "Panda",
+    "laterL": false
+   },
+   {
+    "src": "animals/penguin",
+    "word": "Pingviini",
+    "laterL": false
+   },
+   {
+    "src": "animals/raccoon",
+    "word": "Pesukarhu",
+    "laterL": false
+   },
+   {
+    "src": "animals/tiger",
+    "word": "Tiikeri",
+    "laterL": false
+   },
+   {
+    "src": "animals/turtle",
+    "word": "Kilpikonna",
+    "laterL": true
+   },
+   {
+    "src": "animals/vulture",
+    "word": "Korppikotka",
+    "laterL": false
+   },
+   {
+    "src": "animals/woodpecker",
+    "word": "Tikka",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apple",
+    "word": "Omena",
+    "laterL": false
+   },
+   {
+    "src": "fruits/apricot",
+    "word": "Aprikoosi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/avocado",
+    "word": "Avokado",
+    "laterL": false
+   },
+   {
+    "src": "fruits/blackberry",
+    "word": "Karhunvatukka",
+    "laterL": false
+   },
+   {
+    "src": "fruits/cherry",
+    "word": "Kirsikka",
+    "laterL": false
+   },
+   {
+    "src": "fruits/coconut",
+    "word": "Kookospähkinä",
+    "laterL": false
+   },
+   {
+    "src": "fruits/kiwi",
+    "word": "Kiivi",
+    "laterL": false
+   },
+   {
+    "src": "fruits/papaya",
+    "word": "Papaija",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pear",
+    "word": "Päärynä",
+    "laterL": false
+   },
+   {
+    "src": "fruits/persimmon",
+    "word": "Persimoni",
+    "laterL": false
+   },
+   {
+    "src": "fruits/peach",
+    "word": "Persikka",
+    "laterL": false
+   },
+   {
+    "src": "fruits/pineapple",
+    "word": "Ananas",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chick",
+    "word": "Tipu",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/chicken",
+    "word": "Kana",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/duckling",
+    "word": "Ankanpoikanen",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/rooster",
+    "word": "Kukko",
+    "laterL": false
+   },
+   {
+    "src": "farm animals/turkey",
+    "word": "Kalkkuna",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/bag",
+    "word": "Kassi",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/bacon",
+    "word": "Pekoni",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/basket",
+    "word": "Kori",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/broccoli",
+    "word": "Parsakaali",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/cake",
+    "word": "Kakku",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cart",
+    "word": "Ostoskärry",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/candy",
+    "word": "Karkki",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/carrot",
+    "word": "Porkkana",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cookie",
+    "word": "Keksi",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/cucumber",
+    "word": "Kurkku",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/donut",
+    "word": "Donitsi",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/ham",
+    "word": "Kinkku",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/oil",
+    "word": "Öljy",
+    "laterL": true
+   },
+   {
+    "src": "At the Supermarket/pasta",
+    "word": "Pasta",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pepper",
+    "word": "Paprika",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pie",
+    "word": "Piirakka",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pizza",
+    "word": "Pizza",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/popcorn",
+    "word": "Popcorn",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/potato",
+    "word": "Peruna",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/pumpkin",
+    "word": "Kurpitsa",
+    "laterL": false
+   },
+   {
+    "src": "At the Supermarket/tomato",
+    "word": "Tomaatti",
+    "laterL": false
+   },
+   {
+    "src": "bakery/baguette",
+    "word": "Patonki",
+    "laterL": false
+   },
+   {
+    "src": "bakery/cupcake",
+    "word": "Kuppikakku",
+    "laterL": false
+   },
+   {
+    "src": "bakery/tart",
+    "word": "Torttu",
+    "laterL": false
+   },
+   {
+    "src": "beach/chair",
+    "word": "Tuoli",
+    "laterL": true
+   },
+   {
+    "src": "beach/bucket",
+    "word": "Ämpäri",
+    "laterL": false
+   },
+   {
+    "src": "beach/cloud",
+    "word": "Pilvi",
+    "laterL": true
+   },
+   {
+    "src": "beach/cooler",
+    "word": "Kylmälaukku",
+    "laterL": true
+   },
+   {
+    "src": "beach/pelican",
+    "word": "Pelikaani",
+    "laterL": true
+   },
+   {
+    "src": "beach/rock",
+    "word": "Kallio",
+    "laterL": true
+   },
+   {
+    "src": "beach/sailboat",
+    "word": "Purjevene",
+    "laterL": false
+   },
+   {
+    "src": "beach/sun",
+    "word": "Aurinko",
+    "laterL": false
+   },
+   {
+    "src": "beach/sunglasses",
+    "word": "Aurinkolasit",
+    "laterL": true
+   },
+   {
+    "src": "beach/sunscreen",
+    "word": "Aurinkovoide",
+    "laterL": false
+   },
+   {
+    "src": "beach/swimsuit",
+    "word": "Uimapuku",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/cardinal",
+    "word": "Punakardinaali",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/canary",
+    "word": "Kanarialintu",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/dove",
+    "word": "Kyyhky",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/eagle",
+    "word": "Kotka",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/hummingbird",
+    "word": "Kolibri",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/macaw",
+    "word": "Ara",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/kingfisher",
+    "word": "Kuningaskalastaja",
+    "laterL": true
+   },
+   {
+    "src": "birds 2/pigeon",
+    "word": "Kyyhkynen",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/robin",
+    "word": "Punarinta",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/swallow",
+    "word": "Pääskynen",
+    "laterL": false
+   },
+   {
+    "src": "birds 2/toucan",
+    "word": "Tukaani",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/oatmeal",
+    "word": "Kaurapuuro",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/pancake",
+    "word": "Pannukakku",
+    "laterL": false
+   },
+   {
+    "src": "breakfast/porridge",
+    "word": "Puuro",
+    "laterL": false
+   },
+   {
+    "src": "camping/binoculars",
+    "word": "Kiikari",
+    "laterL": false
+   },
+   {
+    "src": "camping/bear",
+    "word": "Karhu",
+    "laterL": false
+   },
+   {
+    "src": "camping/canoe",
+    "word": "Kanootti",
+    "laterL": false
+   },
+   {
+    "src": "camping/compass",
+    "word": "Kompassi",
+    "laterL": false
+   },
+   {
+    "src": "camping/deer",
+    "word": "Peura",
+    "laterL": false
+   },
+   {
+    "src": "camping/kayak",
+    "word": "Kajakki",
+    "laterL": false
+   },
+   {
+    "src": "camping/map",
+    "word": "Kartta",
+    "laterL": false
+   },
+   {
+    "src": "camping/oar",
+    "word": "Airo",
+    "laterL": false
+   },
+   {
+    "src": "camping/pinecone",
+    "word": "Käpy",
+    "laterL": false
+   },
+   {
+    "src": "camping/squirrel",
+    "word": "Orava",
+    "laterL": false
+   },
+   {
+    "src": "camping/tent",
+    "word": "Teltta",
+    "laterL": true
+   },
+   {
+    "src": "desserts and sweets/milkshake",
+    "word": "Pirtelö",
+    "laterL": true
+   },
+   {
+    "src": "flowers/aster",
+    "word": "Asteri",
+    "laterL": false
+   },
+   {
+    "src": "flowers/azalea",
+    "word": "Atsalea",
+    "laterL": true
+   },
+   {
+    "src": "flowers/clover",
+    "word": "Apila",
+    "laterL": true
+   },
+   {
+    "src": "flowers/columbine",
+    "word": "Akileija",
+    "laterL": true
+   },
+   {
+    "src": "flowers/crocus",
+    "word": "Krookus",
+    "laterL": false
+   },
+   {
+    "src": "flowers/dahlia",
+    "word": "Daalia",
+    "laterL": true
+   },
+   {
+    "src": "flowers/forsythia",
+    "word": "Onnenpensas",
+    "laterL": false
+   },
+   {
+    "src": "flowers/orchid",
+    "word": "Orkidea",
+    "laterL": false
+   },
+   {
+    "src": "flowers/peony",
+    "word": "Pioni",
+    "laterL": false
+   },
+   {
+    "src": "flowers/petunia",
+    "word": "Petunia",
+    "laterL": false
+   },
+   {
+    "src": "flowers/sunflower",
+    "word": "Auringonkukka",
+    "laterL": false
+   },
+   {
+    "src": "flowers/trillium",
+    "word": "Kolmilehti",
+    "laterL": true
+   },
+   {
+    "src": "flowers/tulip",
+    "word": "Tulppaani",
+    "laterL": true
+   },
+   {
+    "src": "forest creatures/butterfly",
+    "word": "Perhonen",
+    "laterL": false
+   },
+   {
+    "src": "forest creatures/porcupine",
+    "word": "Piikkisika",
+    "laterL": false
+   },
+   {
+    "src": "insects and bugs/wasp",
+    "word": "Ampiainen",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/angelfish",
+    "word": "Enkelikala",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/oyster",
+    "word": "Osteri",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/pufferfish",
+    "word": "Pallokala",
+    "laterL": true
+   },
+   {
+    "src": "ocean life/scallop",
+    "word": "Kampasimpukka",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/shrimp",
+    "word": "Katkarapu",
+    "laterL": false
+   },
+   {
+    "src": "ocean life/tuna",
+    "word": "Tonnikala",
+    "laterL": true
+   },
+   {
+    "src": "pets/goldfish",
+    "word": "Kultakala",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/chameleon",
+    "word": "Kameleontti",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/alligator",
+    "word": "Alligaattori",
+    "laterL": true
+   },
+   {
+    "src": "reptiles and Amphibians/cobra",
+    "word": "Kobra",
+    "laterL": false
+   },
+   {
+    "src": "spring/bicycle",
+    "word": "Polkupyörä",
+    "laterL": true
+   },
+   {
+    "src": "spring/bunny",
+    "word": "Pupu",
+    "laterL": false
+   },
+   {
+    "src": "spring/flower",
+    "word": "Kukka",
+    "laterL": false
+   },
+   {
+    "src": "spring/garden",
+    "word": "Puutarha",
+    "laterL": false
+   },
+   {
+    "src": "spring/nest",
+    "word": "Pesä",
+    "laterL": false
+   },
+   {
+    "src": "summer/swimming",
+    "word": "Uinti",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/asparagus",
+    "word": "Parsa",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/beetroot",
+    "word": "Punajuuri",
+    "laterL": false
+   },
+   {
+    "src": "vegetables/cabbage",
+    "word": "Kaali",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/cauliflower",
+    "word": "Kukkakaali",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/parsnip",
+    "word": "Palsternakka",
+    "laterL": true
+   },
+   {
+    "src": "vegetables/squash",
+    "word": "Kesäkurpitsa",
+    "laterL": false
+   },
+   {
+    "src": "winter/coat",
+    "word": "Takki",
+    "laterL": false
+   },
+   {
+    "src": "winter/earmuffs",
+    "word": "Korvalapput",
+    "laterL": true
+   },
+   {
+    "src": "winter/igloo",
+    "word": "Iglu",
+    "laterL": true
+   },
+   {
+    "src": "winter/sledding",
+    "word": "Kelkkailu",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/antelope",
+    "word": "Antilooppi",
+    "laterL": true
+   },
+   {
+    "src": "zoo animals/kangaroo",
+    "word": "Kenguru",
+    "laterL": false
+   },
+   {
+    "src": "zoo animals/monkey",
+    "word": "Apina",
+    "laterL": false
+   }
+  ]
+ }
+}

@@ -2453,6 +2453,63 @@
  "maze-puzzles": {
   "mz-base": {
    "en": "Start at the green circle with the arrow. Drag along the path to the flag."
+  },
+  "mz-first-maze": {
+   "en": "Start at the green circle. Drag along the wide road to the ball."
+  },
+  "mz-big-maze": {
+   "en": "Look first. Then drag from the green circle to the banana tree. If a path stops, go back."
+  },
+  "mz-river": {
+   "en": "Start at the green circle. Drag through the water to the teddy bear."
+  },
+  "mz-burrow": {
+   "en": "Start at the green circle. Drag through the tunnels to the raspberry."
+  },
+  "mz-shortest-way": {
+   "en": "Drag the shortest way from the green circle to the green car."
+  },
+  "mz-babies-mothers": {
+   "en": "Drag from each baby to its own mother."
+  },
+  "mz-tangled-lines": {
+   "en": "Drag along each string from the animal to its kite."
+  },
+  "mz-collect": {
+   "en": "Drag from the green circle to the bucket. Pass every carrot on the way."
+  },
+  "mz-avoid": {
+   "en": "Drag from the green circle to the igloo. Do not pass a walrus or a hole."
+  },
+  "mz-abc-capitals": {
+   "en": "Start at the green circle. At every fork, drag to the next letter."
+  },
+  "mz-abc-lowercase": {
+   "en": "Start at the green circle. At every fork, drag to the next small letter."
+  },
+  "mz-letter-hop": {
+   "en": "Start at the cell by the bear. Tap the next letter in a cell that touches it."
+  },
+  "mz-numbers-20": {
+   "en": "Start at the green circle. At every fork, drag to the next number."
+  },
+  "mz-skip-5": {
+   "en": "Start at the green circle. Drag from cloud to cloud, counting by 5s."
+  },
+  "mz-make-10": {
+   "en": "Start at the green circle. Drag only over the stones whose sum is 10."
+  },
+  "mz-subtract-20": {
+   "en": "Start at the green circle. Drag only over the stones whose answer is the gingerbread man's number."
+  },
+  "mz-first-sound": {
+   "en": "Start at the green circle. Drag only over pictures that start like lion."
+  },
+  "mz-running-total": {
+   "en": "Start at the green circle. Drag along the road that ends on the crane's number."
+  },
+  "mz-maze-colouring": {
+   "en": "Start at the green circle. Drag along the path to the sandcastle."
   }
  }
 }

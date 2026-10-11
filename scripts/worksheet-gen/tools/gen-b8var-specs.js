@@ -83,8 +83,10 @@ function emit(row) {
   if (lv) lines.push('  difficulty: { 1: { ...D, ...' + JSON.stringify(lv[1] || {}) + ' }, 2: D, 3: { ...D, ...' + JSON.stringify(lv[3] || {}) + ' } },');
   else lines.push('  difficulty: { 1: D, 2: D, 3: D },');
   const ins = instr === null ? '' : ', instruction: ' + JSON.stringify(instr);
-  lines.push('  i18n: { en: { title: ' + JSON.stringify(title) + ins + ' } },');
-  if (extra) for (const k of Object.keys(extra)) if (k !== 'levels') lines.push('  ' + k + ': ' + JSON.stringify(extra[k]) + ',');
+  // printTitle (b8, 2026-10-11): the story heading PRINTED on the page; the search head stays in `title`
+  const pt = extra && extra.printTitle ? ', printTitle: ' + JSON.stringify(extra.printTitle) : '';
+  lines.push('  i18n: { en: { title: ' + JSON.stringify(title) + ins + pt + ' } },');
+  if (extra) for (const k of Object.keys(extra)) if (k !== 'levels' && k !== 'printTitle') lines.push('  ' + k + ': ' + JSON.stringify(extra[k]) + ',');
   lines.push('};');
   const file = path.join(ROOT, 'types', dir, id + '-' + slug + '.js');
   // never silently undo a hand edit (Level Set work edits generated specs): an existing file that differs from what

@@ -56,6 +56,6 @@ module.exports = (Sc) => [
   Sc('zoo-kangaroo', 'Kangaroo at the Zoo', 'zoo', 0, 'animals bw/kangaroo', ['zoo animals bw/koala', 'zoo animals bw/leopard', 'zoo animals bw/yak', 'nature bw/sun', 'home and nature bw/cloud', 'valentine bw/balloon', 'zoo animals bw/flamingo'], { mirror: true }),
   // ---------------------------------------------------------------- mountain
   Sc('mountain-goat', 'Goat in the Mountains', 'mountain', 0, 'animals bw 5/goat', ['farm animals bw/alpaca_2', 'animals bw 5/eagle', 'travel and holiday bw/cabin', 'nature bw/tree', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw 2/yak'], { heroScale: 1.9 }),
-  Sc('mountain-llama', 'Llama in the Mountains', 'mountain', 1, 'animals bw/llama', ['home and nature bw/tree_3', 'nature bw/sun', 'home and nature bw/cloud', 'farm animals bw/alpaca'], { level: 1, mirror: true }),
+  Sc('mountain-llama', 'Llama in the Mountains', 'mountain', 1, 'animals bw/llama', ['home and nature bw/tree_3', 'nature bw/sun', 'home and nature bw/cloud', 'animals bw 5/chinchilla'], { level: 1, mirror: true }),
   Sc('mountain-bison', 'Bison in the Mountains', 'mountain', 2, 'animals bw/bison', ['animals bw 4/llama', 'travel and holiday bw/log_cabin', 'farm animals bw/yak', 'nature bw/sun', 'home and nature bw/cloud'], { level: 3 }),
 ];

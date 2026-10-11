@@ -15,7 +15,7 @@ const { generateTree } = require('../../lib/hm-maze.js');
 const { composeScene } = require('../../lib/hm-scene.js');
 const { SCENES } = require('../../data/hm/scenes.js');
 const { withSlots } = require('../../lib/hm-slots.js');
-const { generateLooped } = require('../../lib/hm-maze.js');
+const { generateLooped, generateLayers, generateStreets, generateForest } = require('../../lib/hm-maze.js');
 const R = require('../../lib/hm-rules.js');
 const { COLLATION } = require('../../data/b2/collation.js');
 
@@ -36,7 +36,9 @@ function sequenceFor(L, locale) {
 
 function mazeFor(sceneId, rng, tries = 12, locale) {
   if (!SCENES[sceneId]) throw new Error('K-405: unknown scene ' + sceneId);
-  const sc = withSlots(SCENES[sceneId]);
+  let sc = withSlots(SCENES[sceneId]);
+  // a face whose signs are pills tells the generator their real size (a copy: the shared scene data is never mutated)
+  if (sc.labels && sc.labels.size) sc = { ...sc, maze: { ...sc.maze, stoneSize: sc.labels.size } };
   let last = null;
   // a scene may raise its own attempt budget (a sparse wide-road tree builds on ~40 % of point sets: 24 tries ≈ 5e-6 page failure)
   const T = Math.max(tries, sc.tries || 0);
@@ -73,7 +75,10 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
         label: (adj, route, rnd) => (collect ? R.assignCollect(adj, route, rnd, { item: L.item, n: L.n }) : R.assignAvoid(adj, route, rnd, { kinds: L.kinds, count: L.count })),
         rule: collect ? R.collectRule(stamp) : R.avoidRule(stamp), lgates: {} }, rng.next);
       if (m && !m.fail) m.ruleStamp = stamp;
-    } else m = generateTree(sc.maze, rng.next);
+    } else if (sc.maze.gen === 'layers') m = generateLayers(sc.maze, rng.next);   // F5: soil levels joined by shafts
+    else if (sc.maze.gen === 'streets') m = generateStreets(sc.maze, rng.next);     // F6: a street lattice, ONE shortest way
+    else if (sc.maze.gen === 'forest') m = generateForest({ ...sc.maze, paddocks: sc.paddocks }, rng.next);   // F7: k trees, baby → mother by a derangement
+    else m = generateTree(sc.maze, rng.next);
     if (m && !m.fail) return { sc, m };
     last = m && m.fail;
   }
@@ -100,10 +105,13 @@ function traceOracle(B) {
       return found.paths[0];
     });
   }
+  // no rule: the route is the SHORTEST way (a tree has one way; a street lattice has many, and the page is only right
+  // when exactly one of them is shortest — counted here from the declared graph, never read from the answer)
   return T.routes.map((r) => {
-    const prev = new Map([[r.start, -1]]); const q = [r.start];
-    while (q.length) { const c = q.shift(); if (c === r.goal) break; for (const n of adj[c]) if (!prev.has(n)) { prev.set(n, c); q.push(n); } }
+    const prev = new Map([[r.start, -1]]); const dist = new Map([[r.start, 0]]); const cnt = new Map([[r.start, 1]]); const q = [r.start];
+    while (q.length) { const c = q.shift(); for (const n of adj[c]) { if (!dist.has(n)) { dist.set(n, dist.get(c) + 1); cnt.set(n, cnt.get(c)); prev.set(n, c); q.push(n); } else if (dist.get(n) === dist.get(c) + 1) cnt.set(n, cnt.get(n) + cnt.get(c)); } }
     if (!prev.has(r.goal)) throw new Error('K-405 oracle: goal unreachable in the declared graph');
+    if (cnt.get(r.goal) !== 1) throw new Error('K-405 oracle: ' + cnt.get(r.goal) + ' shortest ways on the page');
     const p = []; for (let c = r.goal; c !== -1; c = prev.get(c)) p.unshift(c); return p;
   });
 }
@@ -112,7 +120,7 @@ function traceOracle(B) {
  * the LEGEND STRIP of a T2 face (675 × 64, no words): collect = the item picture, its count as a numeral and one
  * tick circle per item; avoid = each obstacle kind inside a coral "not" ring; sound = the hero's card + a sound glyph.
  */
-function stripSvg(sc, m) {
+function stripSvg(sc, m, o = {}) {
   const { centred } = require('../../lib/hm-scene.js');
   const W = 675, H = 64, parts = [`<rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="16" fill="#FBF3E4" stroke="#146B5E" stroke-width="2"/>`];
   const st = m.ruleStamp || {};
@@ -120,6 +128,16 @@ function stripSvg(sc, m) {
     parts.push(centred(st.item, 170, 32, 50).svg);
     parts.push(`<text x="250" y="44" text-anchor="middle" font-family="&quot;Baloo 2&quot;, Nunito, sans-serif" font-weight="700" font-size="34" fill="#146B5E">${st.n}</text>`);
     for (let i = 0; i < st.n; i++) parts.push(`<circle cx="${320 + i * 46}" cy="32" r="15" fill="#FFFFFF" stroke="#146B5E" stroke-width="3"/>`);
+  } else if (st.kind === 'shortest') {
+    // the unit: ONE street piece with its cover = 1 (so "how many" means covers driven over); the box is for the answer
+    const C = sc.corridor, SC = sc.streets || {};
+    parts.push(`<path d="M110 32 H210" stroke="${C.edge}" stroke-width="${28 + 2 * (C.outline || 3.5)}" stroke-linecap="round"/><path d="M110 32 H210" stroke="${C.fill}" stroke-width="28" stroke-linecap="round"/>`);
+    parts.push(`<circle cx="160" cy="32" r="${SC.coverR || 7}" fill="${SC.cover || '#B9B4AB'}" stroke="${SC.coverEdge || '#8F8A82'}" stroke-width="1.6"/>`);
+    parts.push(`<text x="270" y="43" text-anchor="middle" font-family="&quot;Baloo 2&quot;, Nunito, sans-serif" font-weight="700" font-size="32" fill="#146B5E">= 1</text>`);
+    if (!o.screen) {
+      parts.push(`<rect x="430" y="6" width="52" height="52" rx="8" fill="#FFFFFF" stroke="#146B5E" stroke-width="2.5" stroke-dasharray="7 5" data-lcs-paper-only="1"/>`);
+      if (o.key) parts.push(`<text x="456" y="45" text-anchor="middle" font-family="&quot;Baloo 2&quot;, Nunito, sans-serif" font-weight="700" font-size="32" fill="#F2784B" data-lcs-hm-key-n="${st.n}">${st.n}</text>`);
+    }
   } else if (st.kind === 'avoid') {
     st.kinds.forEach((k, i) => {
       const cx = W / 2 + (i - (st.kinds.length - 1) / 2) * 120;
@@ -156,16 +174,16 @@ module.exports = {
     // denser jungle left the toucan no room; one refusal failed the whole page)
     const key = !!(ctx && ctx.answerKey);
     let sc, m, out, lastMissing = [];
-    for (let a = 0; a < 6; a++) {
+    for (let a = 0; a < 12; a++) {
       ({ sc, m } = mazeFor(d.scene, ctx.rng, 12, locale));
-      out = composeScene(sc, m, { key, rnd: ctx.rng.next });
+      out = composeScene(sc, m, { key, rnd: ctx.rng.next, screen: !!(ctx && ctx.interactive) });
       if (!out.missing.length) break;
       lastMissing = out.missing;
     }
     if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + lastMissing.join(', '));
     const meta = { mode: d.mode, scene: d.scene, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route.join('-') };
     // T2 faces: the scene (640) + a 12 px gap + a 64 px LEGEND STRIP under it, language-free (design C, F6 F9 F10 F18)
-    const strip = sc.strip ? stripSvg(sc, m) : '';
+    const strip = sc.strip ? stripSvg(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : '';
     const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px">${out.svg}${strip}</div>`;
     return { bodyHtml, meta };
   },

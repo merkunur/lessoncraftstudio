@@ -25,7 +25,7 @@ const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
 
 async function rasterDeclared(graph, w, h, scale) {
   const pl = (pts) => `<polyline points="${pts.map((p) => (p[0] * scale).toFixed(1) + ',' + (p[1] * scale).toFixed(1)).join(' ')}"/>`;
-  const lines = graph.edges.map((e) => pl(e.pts)).concat(Object.values(graph.mouths || {}).map(pl)).join('');
+  const lines = graph.edges.map((e) => pl(e.pts)).concat(Object.values(graph.mouths || {}).map(pl), (graph.routes || []).flatMap((rt) => [pl(rt.start), pl(rt.goal)])).join('');   // F7: every route's mouths
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><g fill="none" stroke="#000" stroke-width="${graph.W * scale}" stroke-linecap="round" stroke-linejoin="round">${lines}</g></svg>`;
   const { data } = await sharp(Buffer.from(svg)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   const m = new Uint8Array(w * h); for (let i = 0; i < m.length; i++) m[i] = data[i * 4 + 3] > 128 ? 1 : 0;
@@ -123,6 +123,16 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   const S0 = disc(sm[sm.length - 1], scale, w, h, R), G0 = disc(gm[gm.length - 1], scale, w, h, R);
   const reached = flood(walk, w, S0);
   if (!G0.some((p) => reached[p])) { issues.push('the goal cannot be reached on the page'); return issues; }
+  // F7 (several routes): each baby's road reaches its OWN mother and touches no other road — flooding from start i
+  // must not reach any other route's start or goal (two trees painted into each other would give a baby two homes)
+  if (graph.routes && graph.routes.length > 1) {
+    const ends = graph.routes.map((rt) => ({ s: disc(rt.start[rt.start.length - 1], scale, w, h, R), g: disc(rt.goal[rt.goal.length - 1], scale, w, h, R) }));
+    ends.forEach((e, i) => {
+      const fl = flood(walk, w, e.s);
+      if (!e.g.some((p) => fl[p])) issues.push('baby ' + (i + 1) + ' cannot reach its mother on the page');
+      ends.forEach((o, j) => { if (j !== i && (o.g.some((p) => fl[p]) || o.s.some((p) => fl[p]))) issues.push('road ' + (i + 1) + ' runs into road ' + (j + 1)); });
+    });
+  }
   // UNIQUE (tree faces): the road the child can walk must ENCLOSE NOTHING. On a tree the field between the roads is one
   // piece that reaches the frame; any second way — a real loop, or two roads painted into each other — closes a ring of
   // road round a patch of field, which then reaches neither the frame nor the page edge. Exact on the pixels, whatever the
@@ -135,7 +145,10 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
     const seeds = [];
     for (let i = 0; i < field.length; i++) { const x = i % w, y = (i / w) | 0; if (field[i] && (x === 0 || y === 0 || x === w - 1 || y === h - 1 || !inFrame(x, y))) seeds.push(i); }
     const outside = flood(field, w, seeds);
-    const inner = new Uint8Array(field.length); for (let i = 0; i < field.length; i++) inner[i] = field[i] && !outside[i] ? 1 : 0;
+    // a declared drawing or footprint standing INSIDE a widened road (a bug in its burrow chamber, the raspberry in its
+    // store) is enclosed by road and is not a
+    // loop: declared art pixels are not counted (an island inside a real loop still shows its own bare field round it)
+    const inner = new Uint8Array(field.length); for (let i = 0; i < field.length; i++) inner[i] = field[i] && !outside[i] && !art[i] && !stand[i] ? 1 : 0;
     for (const c of clusters(inner, w, (graph.W * scale / 2) ** 2)) issues.push(`the road closes a ring round (${(c.x / scale) | 0}, ${(c.y / scale) | 0}): a second way (not unique)`);
   }
   return issues;

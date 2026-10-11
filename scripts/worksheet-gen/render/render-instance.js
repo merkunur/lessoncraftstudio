@@ -162,16 +162,22 @@ async function renderInstance(o) {
         window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: h };
         const G = JSON.parse(svg.getAttribute('data-lcs-hm-graph'));
         const P = (p) => [+(((r.left - full.left) + p[0] * k) / full.width * 100).toFixed(3), +(((r.top - full.top) + p[1] * k) / h * 100).toFixed(3)];
-        const nodes = G.nodes.map(P); const vS = nodes.length, vG = nodes.length + 1;
-        nodes.push(P(G.mouths.start[G.mouths.start.length - 1]), P(G.mouths.goal[G.mouths.goal.length - 1]));
+        const nodes = G.nodes.map(P);
         const edges = G.edges.map((e) => ({ a: e.a, b: e.b, pts: e.pts.map(P) }));
-        edges.push({ a: vS, b: G.s, pts: G.mouths.start.slice().reverse().map(P) }, { a: G.g, b: vG, pts: G.mouths.goal.map(P) });
-        const path = [vS].concat(G.route, [vG]);
+        // every route gets its own virtual start (its disc) and goal (its flag); one route on every face but F7
+        const RTs = G.routes || [{ route: G.route, s: G.s, g: G.g, start: G.mouths.start, goal: G.mouths.goal }];
+        const routes = RTs.map((rt) => {
+          const vS = nodes.length, vG = nodes.length + 1;
+          nodes.push(P(rt.start[rt.start.length - 1]), P(rt.goal[rt.goal.length - 1]));
+          edges.push({ a: vS, b: rt.s, pts: rt.start.slice().reverse().map(P) }, { a: rt.g, b: vG, pts: rt.goal.map(P) });
+          return { start: vS, goal: vG, path: [vS].concat(rt.route, [vG]) };
+        });
+        const path = routes[0].path;
         // looped label faces: the labels and the rule travel with the graph (the robot recomputes the one valid path from
         // them); every face carries its answer path (the runtime compares the drawn path with it: on a looped page the goal
         // is reachable along wrong routes, so reaching it is not enough)
-        const labels = G.labels ? G.labels.concat([null, null]) : null;
-        return { trace: { nodes, edges, routes: [{ start: vS, goal: vG, path }], aspect: full.width / h, pageW: full.width / k, w: G.W, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
+        const labels = G.labels ? G.labels.concat(routes.flatMap(() => [null, null])) : null;
+        return { trace: { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
       });
       if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
       const screenPng = base + '.screen.png';
@@ -183,7 +189,7 @@ async function renderInstance(o) {
       await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
       if (o.keyPng) await page.screenshot({ path: base + '.key.png', fullPage: true });
       const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
-      interactive = { kind: spec.kind, items: got.trace.routes.map((_, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: got.route.join('-') })),
+      interactive = { kind: spec.kind, items: got.trace.routes.map((_r, i) => ({ label: 'route ' + (i + 1), meta: { 'data-lcs-hm-route': String(i) }, answer: got.trace.routes[i].path.join('-') })),
         trace: got.trace, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
       return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive };
     }

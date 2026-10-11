@@ -111,17 +111,17 @@ const SCENES = {
   },
 
   // ------------------------------------------------------------------ F12 K-410 abc maze (small letters): the clownfish swims home to the coral
-  'reef-clownfish': {
+  'reef-clownfish': { tries: 40,
     H: 716, band: { h: 8, sky: '#69BBC7', hill: '#69BBC7' },
     field: '#7FCBD5', corridor: { fill: '#EAF8FA', edge: '#4F9FAD', outline: 3.5 },
     slots: ['TL', 'BR'],
     maze: {
-      box: { w: 675, h: 700 }, frame: { x0: 40, y0: 40, x1: 635, y1: 660 }, r: 72, minAngle: 55, W: 44, branches: 12, size: [1, 3], fill: 0, loops: 7, K: 260,
-      gates: { clear: 61 },
+      box: { w: 675, h: 700 }, frame: { x0: 40, y0: 40, x1: 635, y1: 660 }, r: 72, minAngle: 55, W: 42, branches: 12, size: [1, 3], fill: 0, loops: 7, K: 260,
+      gates: { clear: 59 },   // W 42 + 17 (2026-10-11: at W 44 the 29-letter Nordic alphabets built 2-4 pages in 8; 10/10 at W 42)
     },
     labels: { rule: 'seq', alphabet: true, case: 'lower', glyph: 'letters', stoneR: 28, capH: 36, rByLen: { 21: 76, 26: 72, 27: 72, 29: 68 }, decoyMin: 0.55, nearShare: 0.9, reversalMin: 4 },
     hero: { src: 'ocean life/clownfish', h: 66 },
-    goal: { src: 'ocean life/coral', h: 104 },
+    goal: { src: 'ocean life/coral', h: 88 },
     cast: [{ src: 'ocean life/octopus', h: 58 }, { src: 'ocean life/jellyfish', h: 54, optional: true }, { src: 'ocean life/starfish', h: 44 }, { src: 'ocean life/pufferfish', h: 46, optional: true },
       { src: 'ocean life/sea_horse', h: 52, optional: true }, { src: 'ocean life/seaweed', h: 60, optional: true }, { src: 'ocean life/crab', h: 42, optional: true }, { src: 'ocean life/ray', h: 48, optional: true }],
     texture: { n: 26, gap: 36, kinds: ['bubble', 'bubble', 'dot'], colours: { bubble: ['#B4E1EA', '#A6D9E3'], dot: ['#B4E1EA'] } },
@@ -160,7 +160,7 @@ const SCENES = {
   },
 
   // ------------------------------------------------------------------ F16 G1-427 addition maze, sums that make 10: the giraffe to the baobab
-  'savanna-giraffe': {
+  'savanna-giraffe': { tries: 30,
     H: 716, band: { h: 8, sky: '#E9C98A', hill: '#E9C98A' },
     field: '#E9C98A', corridor: { fill: '#FBEFE2', edge: '#C88E5F', outline: 3.5 },
     slots: ['BR', 'TL'],
@@ -176,7 +176,7 @@ const SCENES = {
   },
 
   // ------------------------------------------------------------------ F17 G1-428 subtraction maze within 20: the gingerbread man to the cake
-  'candy-gingerbread': {
+  'candy-gingerbread': { tries: 24,
     H: 716, band: { h: 8, sky: '#CDEEDF', hill: '#CDEEDF' },
     field: '#CDEEDF', corridor: { fill: '#FFF4F7', edge: '#E5A2BA', outline: 3.5 },
     slots: ['BC', 'TL'],
@@ -192,15 +192,15 @@ const SCENES = {
   },
 
   // ------------------------------------------------------------------ F19 G2-393 math maze within 100, running total: the dump truck to the crane
-  'site-dumptruck': {
+  'site-dumptruck': { tries: 40,
     H: 716, band: { h: 8, sky: '#D9C7A6', hill: '#D9C7A6' },
     field: '#D9C7A6', corridor: { fill: '#FBF3E2', edge: '#A9855A', outline: 3.5 },
     slots: ['R', 'L'],
     maze: {
-      box: { w: 675, h: 700 }, frame: { x0: 46, y0: 46, x1: 629, y1: 654 }, r: 104, minAngle: 55, W: 32, branches: 7, size: [1, 3], fill: 0, loops: 5, K: 400,
+      box: { w: 675, h: 700 }, frame: { x0: 46, y0: 46, x1: 629, y1: 654 }, r: 98, minAngle: 55, W: 32, branches: 7, size: [1, 3], fill: 1, loops: 5, K: 400,
       gates: { clear: 49 },
     },
-    labels: { rule: 'ops', opSet: [10, -10, 5, -5, 2, -2, 1, -1], start: [20, 60], range: [0, 100], route: 8, glyph: 'text', fontPx: 26, shape: 'pill', size: [68, 44], stoneR: 34, decoyCount: 7, badge: true, nearMissShortest: [1, 2, 5, 10] },
+    labels: { rule: 'ops', opSet: [10, -10, 5, -5, 2, -2, 1, -1], start: [20, 60], range: [0, 100], route: 8, glyph: 'text', fontPx: 26, shape: 'pill', size: [72, 70], radius: 16, stoneR: 44, decoyCount: 7, badge: true, totals: 'inline', nearMissShortest: [1, 2, 5, 10] },
     hero: { src: 'vehicles/dump_truck', h: 64 },
     goal: { src: 'vehicles/crane', h: 92 },
     cast: [{ src: 'vehicles/excavator', h: 60, optional: true }, { src: 'vehicles/cement_mixer', h: 56, optional: true }, { src: 'vehicles/forklift', h: 54, optional: true }, { src: 'vehicles/bulldozer', h: 56, optional: true }, { src: 'camping/log', h: 36, optional: true }, { src: 'camping/rock', h: 36, optional: true }],
@@ -253,6 +253,88 @@ const SCENES = {
     goal: { src: 'winter/igloo', h: 92 },
     cast: [{ src: 'winter/seal', h: 44, optional: true }, { src: 'winter/snowflake', h: 36, optional: true }, { src: 'winter/icicle', h: 40, optional: true }],
     texture: { n: 22, gap: 44, kinds: ['dot'], colours: { dot: ['#B3CFE2', '#A7C6DC'] } },
+  },
+
+  // ------------------------------------------------------------------ F5 G1-421 underground maze: the ant and its raspberry store
+  // A cross-section: sky + a grass line, three soil strata, tunnels on three levels joined by vertical shafts (generator
+  // 'layers'). The ant starts at its nest hole on the grass (TR) and goes down to the store chamber (BL); the way goes
+  // down, comes back UP once, and at least one shaft drops into a blind chamber (the tempting short descent).
+  // Deviations from the FINAL (measured 2026-10-11): bNewest 0.5 (bNewest 1 gives one dead end per branch root and a
+  // 14-station route offers 4-7 roots, so dead 6-8 was unreachable) and K 3000 (one tree in ~6000 passes every layer
+  // gate; 11/20 calls pass at K 3000, ~2.4 s).
+  'underground-ant': {
+    tries: 14,
+    H: 716, band: { h: 76, sky: '#E2F1F6', hill: '#9CCB6E', flat: { grass: '#9CCB6E', h: 18 } },
+    field: '#C99A6B', strata: [[180, '#B88559'], [400, '#A47149']],
+    corridor: { fill: '#F4E1C6', edge: '#8F6640', outline: 3.5 },
+    maze: {
+      gen: 'layers', box: { w: 675, h: 640 }, C: 10, colX: [48, 627], levelsY: [70, 290, 510], jitter: [6, 5],
+      W: 40, route: [12, 17], branches: 6, size: [2, 4], bNewest: 0.5, fill: 0, K: 3000,
+      start: [9, 0], goal: [0, 2], startMouth: [627, 2], goalMouth: [48, 556],
+      gates: { dead: [6, 8], stubs: 1, side: 0.67, wf: 0.6, clear: 53, layers: { changes: 3, ups: 1, shafts: [5, 7], deadShafts: 1, levelRun: 5 } },
+    },
+    hero: { src: 'forest creatures/ant', h: 56, at: [556, 0] },
+    goal: { src: 'fruits/raspberry', h: 46, at: [88, 598] },
+    // the store chamber round the goal, and blind chambers at dead ends, one bug each (one noun once per page)
+    chambers: { r: 30, goal: [84, 572, 42], bugH: 34, bugs: ['insects and bugs/worm', 'insects and bugs/centipede', 'Things That Fly/beetle', 'forest creatures/spider'] },
+    bandArt: [{ src: 'flowers/dandelion', x: 92, h: 58 }, { src: 'forest creatures/ladybug', x: 214, h: 26 }, { src: 'vegetables/carrot', x: 318, h: 56 }, { src: 'vegetables/radish', x: 430, h: 48 }],
+    texture: { n: 26, gap: 40, kinds: ['pebble', 'pebble', 'dot'], colours: { pebble: ['#8E6A49', '#9B7653'], dot: ['#7E5C3E'] } },
+  },
+
+  // ------------------------------------------------------------------ F6 G1-422 town maze: the tow truck and the green car
+  // A street lattice with loops (generator 'streets'): 5 × 5 crossings, 4-6 street pieces taken out, ONE shortest way
+  // (BFS count), the next way two pieces longer, at least one longer way that turns less, and the straight staircase
+  // toward the car blocked (detour ≥ 2). Every street piece carries one round cover — the unit the child counts and
+  // writes in the strip's box. The vehicles park in the side margins beside their mouth rows (drawn per maze).
+  // Deviations from the FINAL (2026-10-11): 5 × 5 crossings, not 6 × 5 — a 6-wide lattice leaves no margin for the
+  // parked truck and car, and the 4 × 4 blocks keep lawns wide enough for one object each; detour gate added.
+  'town-towtruck': {
+    H: 640, band: { h: 6, sky: '#BFDB98', hill: '#BFDB98' },
+    field: '#BFDB98', corridor: { fill: '#E4E2DE', edge: '#A9A49C', outline: 4 }, strip: true,
+    streets: { cover: '#B9B4AB', coverEdge: '#8F8A82', coverR: 7 },
+    maze: {
+      gen: 'streets', box: { w: 675, h: 634 }, C: 5, R: 5, colX: [125, 550], rowY: [44, 590], remove: [4, 6], W: 40,
+      startRows: [1, 2, 3], goalRows: [1, 2, 3], mouthX: [30, 645], park: [66, 27, 606], K: 1500,
+      gates: { streets: { shortest: [6, 9], next: 2, fewerTurns: true, routes: 3, detour: 2 } },
+    },
+    hero: { src: 'vehicles/tow_truck', h: 46 },
+    goal: { src: 'vehicles/car', h: 38 },
+    cast: [{ src: 'around the house/garage', h: 50, optional: true }, { src: 'camping/cabin', h: 50, optional: true }, { src: 'tree/oak', h: 58, optional: true },
+      { src: 'tree/poplar', h: 58, optional: true }, { src: 'around the house/mailbox', h: 44, optional: true }, { src: 'vehicles/bicycle', h: 36, optional: true },
+      { src: 'around the house/fence', h: 30, optional: true }, { src: 'vehicles/scooter', h: 38, optional: true }],
+    texture: { n: 16, gap: 46, kinds: ['tuft'], colours: { tuft: ['#A6CB7A', '#96BE68'] } },
+  },
+  // ------------------------------------------------------------------ F7 K-408 babies and mothers on the farm
+  // Three separate trees (generator 'forest'): baby i at the top of column i, the mothers in mown paddocks lower down,
+  // baby i's road leading to mother π(i) with π a derangement — no baby stands straight above its own mother, so the
+  // child follows the road rather than looking down. A road may reach a paddock from any side; one pair always goes the
+  // long way round beneath the paddocks. Babies ≤ 0.75 × the mother's height.
+  // Deviations from the FINAL (measured 2026-10-11): r 74 (r 84 leaves ~27 stations; one route took 14 of them) and
+  // paddocks at y 470 (at 540 no station fits beneath them, so no derangement can be routed); the routing uses a
+  // randomized shortest path over every pair order (the greedy search routed 0 of 200).
+  'farm-babies': {
+    tries: 30,
+    H: 716, band: { h: 40, sky: '#B9DDF0', hill: '#B9DDF0', fence: { rail: '#D9B07C', post: '#C29A66' } },
+    field: '#EED58A', corridor: { fill: '#F3F8E4', edge: '#A9C979', outline: 3.5 }, disc: 22,
+    paddockFill: '#D7EBAE', paddocks: [[112, 470, 58], [337, 470, 58], [562, 470, 58]],
+    babyFeet: [[112, 36], [337, 36], [562, 36]],
+    pairs: [
+      { baby: 'farm animals/chick', babyH: 40, mother: 'farm animals/hen', motherH: 62 },
+      { baby: 'farm animals/calf', babyH: 46, mother: 'farm animals/cow', motherH: 64 },
+      { baby: 'farm animals/foal', babyH: 48, mother: 'farm animals/horse', motherH: 66 },
+    ],
+    maze: {
+      gen: 'forest', box: { w: 675, h: 676 }, frame: { x0: 40, y0: 110, x1: 635, y1: 640 }, r: 74, minAngle: 55, W: 44, k: 3,
+      babyAt: [[112, 64], [337, 64], [562, 64]],
+      keep: [[112, 470, 58], [337, 470, 58], [562, 470, 58], [112, 30, 50], [337, 30, 50], [562, 30, 50]],
+      route: [3, 16], branches: 3, size: [1, 2], K: 1500, chordK: 0.75,
+      gates: { forest: { dead: [2, 4], junctions: 1, overlap: 0.4, ratio: 0.5, clear: 61 } },
+    },
+    hero: { src: 'farm animals/chick', h: 40, at: [112, 36] },
+    goal: { src: 'farm animals/hen', h: 62, at: [112, 500] },
+    cast: [{ src: 'flowers/cornflower', h: 46, optional: true }, { src: 'flowers/buttercup', h: 44, optional: true },
+      { src: 'insects and bugs/butterfly', h: 36, optional: true }, { src: 'insects and bugs/bee', h: 30, optional: true }],
+    texture: { n: 22, gap: 44, kinds: ['tuft', 'dot'], colours: { tuft: ['#D9BE6E', '#CDB062'], dot: ['#F2A7C4', '#E58A4E'] } },
   },
 };
 

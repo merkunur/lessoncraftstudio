@@ -21,7 +21,7 @@ const scenes = arg('scenes', Object.keys(SCENES).join(',')).split(',');
 const LOCS = arg('locales', 'en,de,fr,es,pt,it,nl,sv,da,no,fi').split(',');
 let bad = 0;
 for (const id of scenes) {
-  const perLocale = !!(SCENES[id].labels && ['seq', 'sound', 'pred', 'ops'].includes(SCENES[id].labels.rule));
+  const perLocale = !!(SCENES[id].labels && ['seq', 'sound', 'pred', 'ops'].includes(SCENES[id].labels.rule)) || (SCENES[id].maze && SCENES[id].maze.gen === 'hex');   // the hex hop draws the locale's alphabet
   for (const loc of perLocale ? LOCS : ['en']) {
     let ok = 0; const why = {}; const t0 = Date.now();
     for (let i = 1; i <= N; i++) {

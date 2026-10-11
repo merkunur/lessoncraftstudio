@@ -184,7 +184,9 @@ module.exports = {
     },
   },
   mazeFor,
-  interactive: { kind: 'trace-path', instructionKey: (difficulty, spec) => 'mz-' + ((spec.difficulty[difficulty] || spec.difficulty[2]).mode || 'base'), oracle: traceOracle },
+  interactive: { kind: 'trace-path', instructionKey: (difficulty, spec) => 'mz-' + ((spec.difficulty[difficulty] || spec.difficulty[2]).mode || 'base'), oracle: traceOracle,
+    // the screen's own words (Go back, Keep going, …): the family bank's chrome block — a locale without one REFUSES
+    chrome: (locale) => require('../../lib/b8-common.js').bank('maze-puzzles', locale).chrome },
 
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];

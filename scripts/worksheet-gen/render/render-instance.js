@@ -183,9 +183,11 @@ async function renderInstance(o) {
         // them); every face carries its answer path (the runtime compares the drawn path with it: on a looped page the goal
         // is reachable along wrong routes, so reaching it is not enough)
         const labels = G.labels ? G.labels.concat(nodes.slice(G.labels.length).map(() => null)) : null;
-        return { trace: { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
+        return { trace: { nodes, edges, routes, aspect: full.width / h, pageW: full.width / k, w: G.W, hint: G.hint || null, ...(labels ? { labels, rule: G.rule } : {}) }, route: path };
       });
       if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
+      // the family's runtime words (Go back, Keep going …) in the page's language — a locale without them refuses
+      if (spec.chrome) got.trace.chrome = spec.chrome(locale);
       const screenPng = base + '.screen.png';
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });

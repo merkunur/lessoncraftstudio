@@ -102,6 +102,16 @@ every landing ends with the boundary sentence against the grid-maze family. Clic
 - A word review cannot see a picture: the card pools were read on contact sheets, and per-locale refusals added after the native
   review (the parrot, the bird); the Norwegian vocabulary "Piggsvin" (= porcupine) was corrected to "Pinnsvin" in image-vocabulary.js.
 
-## 10 Publish
-(filled at publish: per-locale `b8-prepare-upload` / scp / `b8-publish-locale.sh` dry-run → predicted slugs = landing
-`canonicalDeckSlug` → `--confirm`, deploy, repoint, IndexNow, live checks.)
+## 10 Publish (2026-10-12, as run)
+1. Push the taxonomy + interactive family config FIRST and `git pull` on the server (no deploy needed): publish-cli reads the
+   family slug from `frontend/config/topics-taxonomy.json`; a stale server taxonomy silently ships ENGLISH slugs (§26 trap).
+2. Pools: `out/upload/wave-b8-<loc>-all` (fresh staging copied in) → `check-b8-zips.js <loc>` PASS → robot
+   `qa/verify-interactive.js <pool>` (20 played, 0 failed; ~30-60 min per locale when four run in parallel — never rebuild a pool
+   a robot is playing) → scp to `/var/www/lcs-media/_staging/b8-<loc>/`.
+3. `b8-publish-locale.sh <loc>` dry-run: ok = 20, 0 collisions; predicted slugs (`.publish-cli-staging/b8-<loc>-dry/_summary.txt`)
+   = the landings' `canonicalDeckSlug` (checked mechanically ×11) → `--confirm` (OG, beacon, site chrome, end links, embed-hide,
+   action strip — skipped for interactive printables, as for b7 — METER + check, hreflang, audit) → audit 20/20 clean ×11.
+   ⚠ An SSH drop mid-confirm does not stop the server-side script; check `/root/staging/b8/<loc>-*.log` before re-running.
+4. Commit the merged landings + the HARD hub gate in deploy.sh in ONE commit, push, `deploy.sh`.
+5. `repoint-deck-canonical.js --types=maze-puzzles --locale=<loc>` ×11, noindex-exempt refresh, IndexNow, live checks
+   (landing 200 ×11, a deck played on production, the hub rail entry with 20 cards).

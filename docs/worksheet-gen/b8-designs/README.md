@@ -1,5 +1,7 @@
 # b8 — Handmade Mazes (`maze-puzzles`): base K-405 + 19 faces × 11 locales = 220
 
+**STATUS: BUILT + LIVE 2026-10-12 — 220 decks (PDF + screen + key) + 220 landings, hub gate HARD. Method record: `METHOD-maze-puzzles.md`.**
+
 The flagship scene-maze family (operator /goal 2026-10-11): curving roads through a picture built from the image
 library, the start character and the goal drawn whole inside the frame, every page PDF + a draw-the-way screen
 (`trace-path`) + an answer key. A NEW family, separate from the grid `mazes` family (K-242 / K-270-272).

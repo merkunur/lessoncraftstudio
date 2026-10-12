@@ -146895,6 +146895,834 @@
    ],
    "title": "Dessine un papillon de mémoire, CE1 | PDF gratuit à imprimer",
    "metaDescription": "Dessiner un papillon de mémoire : un petit papillon sur un volet, une ligne de pliage, une grande feuille dessous. Regarde, replie, dessine. PDF CE1."
+  },
+  {
+   "slug": "jeu-de-labyrinthe-herisson-pommier",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Un verger d'automne remplit ce labyrinthe. En bas, dans un coin, un hérisson attend au rond vert de départ ; dans le coin opposé se dresse un pommier, marqué d'un petit drapeau. Entre les deux, des chemins de sable clair serpentent dans l'herbe, se séparent, puis se séparent encore. Certains chemins de côté filent longtemps vers l'arbre avant de s'arrêter net : l'enfant qui se précipite tombe dans une impasse et doit revenir sur ses pas. Sur les îlots d'herbe entre les chemins se cachent une souris, un escargot, une coccinelle, un papillon, un champignon et quelques fleurs des prés.",
+   "p2": "La consigne : tracer une seule ligne le long des chemins, du hérisson jusqu'au pommier. Deux choses travaillent ensemble. Les yeux anticipent, ils suivent un chemin pour voir où il mène avant que le crayon ne s'engage, et la main garde le trait dans un chemin sinueux. C'est exactement ce que l'on travaille en grande section : observer avant d'agir, et tenir son crayon avec assez de précision pour, plus tard, former les lettres. Les chemins sont assez larges pour une craie grasse et les virages sont doux ; la page demande de l'attention sans décourager les petites mains.",
+   "p3": "Chaque page existe en PDF à imprimer, en version écran où l'enfant glisse le doigt le long du chemin puis appuie sur Vérifier, et avec un corrigé où le chemin est tracé en couleur. C'est la première page d'une série de vingt labyrinthes illustrés : un premier labyrinthe pour la petite et la moyenne section, un grand labyrinthe dans la jungle, une rivière, des galeries sous la terre, les rues d'une ville, des bébés animaux qui retrouvent leur maman, des fils emmêlés, et des labyrinthes qui suivent l'alphabet, les nombres, les calculs et les sons. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k405",
+   "carousel": [
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    },
+    {
+     "label": "Labyrinthe souterrain : aide la fourmi dans ses galeries",
+     "href": "labyrinthe-souterrain-galeries-fourmi"
+    }
+   ],
+   "title": "Jeu de labyrinthe à imprimer : le hérisson et le pommier (maternelle)",
+   "metaDescription": "Labyrinthe pour la maternelle : guide le hérisson le long des chemins du verger jusqu'au pommier. PDF à imprimer, version écran à tracer au doigt et corrigé."
+  },
+  {
+   "slug": "mon-premier-labyrinthe-maternelle-chien-ballon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+   "strand": "Motricité fine et repérage dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "C'est le labyrinthe par lequel on commence. Un petit chien est assis au rond vert de départ, dans un parc au printemps, et son ballon l'attend à l'autre bout de la page. Un chemin très large les relie, assez large pour une grosse craie, avec seulement deux petits détours qui s'arrêtent vite. Autour du chemin, le parc est rempli d'images amies : un chat, un papillon, un oiseau, un cerisier en fleurs et une tulipe. La page se regarde d'abord comme une image avant de devenir une énigme.",
+   "p2": "Pour un enfant de trois ou quatre ans, le vrai travail se fait dans la main, pas dans la planification. Garder un trait entre deux bords, tourner avec le chemin, ne pas couper par l'herbe : c'est la maîtrise du geste dont l'enfant aura besoin plus tard pour le graphisme et les premières lettres. Les deux petits détours offrent un premier goût du choix : celui qui en suit un voit tout de suite qu'il s'arrête et revient sans se décourager. Racontez l'histoire à voix haute, le chien veut son ballon, et laissez l'enfant montrer le chemin d'abord avec le doigt, puis avec une craie.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant glisse le long du chemin puis appuie sur Vérifier, et avec un corrigé où le chemin est tracé en couleur. Quand cette page devient facile, les étapes suivantes de la même série sont le labyrinthe du hérisson dans le verger, la rivière et ses longues courbes, et le labyrinthe des bébés animaux avec trois chemins. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k406",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    },
+    {
+     "label": "Labyrinthe souterrain : aide la fourmi dans ses galeries",
+     "href": "labyrinthe-souterrain-galeries-fourmi"
+    }
+   ],
+   "title": "Mon premier labyrinthe pour la maternelle : le chien et le ballon",
+   "metaDescription": "Premier labyrinthe pour la petite et la moyenne section : un chemin très large, deux petits détours, un chien et son ballon. PDF à imprimer avec corrigé."
+  },
+  {
+   "slug": "grand-labyrinthe-cp-jungle-orang-outan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Un sol de forêt tropicale couvre toute la page, rempli de chemins étroits. Un orang-outan part du rond vert dans un coin, et un bananier l'attend dans le coin opposé, sous un toit de feuilles. Le chemin entre les deux est long et fait de nombreux allers-retours, et beaucoup de chemins de côté s'en détachent. Certains sont courts, d'autres s'enfoncent loin dans la jungle et ne s'arrêtent qu'après plusieurs virages. Un toucan, un perroquet, un paresseux, une grenouille, des palmiers et des fleurs tropicales occupent les îlots entre les chemins.",
+   "p2": "Cette page travaille l'anticipation, une compétence qu'un élève de CP est prêt à développer. La consigne demande de regarder tout le labyrinthe d'abord, puis seulement de tracer le chemin de l'orang-outan. L'enfant qui se lance tout de suite rencontre une impasse profonde, revient en arrière et recommence, et c'est bien le but : revenir sur ses pas apprend qu'un premier choix peut se vérifier et se corriger. Beaucoup d'enfants trouvent utile de partir du bananier sur un petit bout de chemin, puis de relier les deux morceaux.",
+   "p3": "Imprimez le PDF, utilisez la version écran où l'enfant glisse le long du chemin et peut revenir en arrière, ou comparez avec le corrigé, qui montre en couleur le seul bon chemin. Dans la même série, le labyrinthe du hérisson est la version plus douce pour la maternelle, et le labyrinthe de la ville demande le plus court de plusieurs chemins plutôt que le seul. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1420",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    },
+    {
+     "label": "Labyrinthe souterrain : aide la fourmi dans ses galeries",
+     "href": "labyrinthe-souterrain-galeries-fourmi"
+    }
+   ],
+   "title": "Grand labyrinthe CP à imprimer : l'orang-outan dans la jungle",
+   "metaDescription": "Grand labyrinthe dans la jungle pour le CP : longs chemins, impasses profondes, on observe d'abord et on trace ensuite. PDF à imprimer, version écran et corrigé."
+  },
+  {
+   "slug": "labyrinthe-de-la-riviere-bateau-nounours",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Dans ce labyrinthe, les chemins sont faits d'eau. Un ruisseau bleu serpente dans un jardin vert, et un petit bateau flotte au rond vert de départ, là où commence le ruisseau. À l'autre bout, un nounours est assis sur un petit ponton en bois et attend le bateau. Le ruisseau se divise en bras qui paraissent aussi accueillants que le courant principal, mais chacun s'arrête contre la berge. Sur les rives, on repère une grenouille, une libellule, un canard, un cygne, une tortue et un arbre.",
+   "p2": "Le ruisseau est dessiné avec de longues courbes douces plutôt qu'avec des angles, si bien que le trait de l'enfant devient un grand geste arrondi. C'est un bon entraînement pour les tracés courbes qui précèdent l'écriture de lettres comme c, o et s, tandis que les bras du ruisseau gardent la réflexion d'un vrai labyrinthe. L'enfant pilote d'abord le bateau avec le doigt en disant où va l'eau, puis trace une ligne qui reste dans l'eau, du bateau jusqu'au ponton.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant glisse le chemin du bateau puis appuie sur Vérifier, et avec un corrigé où le trajet dans l'eau est tracé en couleur. Elle fait partie d'une série de vingt labyrinthes illustrés ; le premier labyrinthe du chien est un départ plus facile, et le labyrinthe souterrain de la fourmi est l'étape suivante, avec des galeries sur trois niveaux. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k407",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe souterrain : aide la fourmi dans ses galeries",
+     "href": "labyrinthe-souterrain-galeries-fourmi"
+    }
+   ],
+   "title": "Labyrinthe de la rivière à imprimer : le bateau et le nounours",
+   "metaDescription": "Labyrinthe de la rivière pour la maternelle : suis le ruisseau bleu et ses bras jusqu'au nounours sur le ponton. Longues courbes douces. PDF à imprimer et corrigé."
+  },
+  {
+   "slug": "labyrinthe-souterrain-galeries-fourmi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Labyrinthe souterrain : aide la fourmi dans ses galeries",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Cette page montre la terre comme si on l'avait coupée en deux, comme une tranche de jardin. En haut, une fourmi se tient sur l'herbe près du rond vert de départ. Sous l'herbe, la terre brune est rangée en couches, et des galeries la traversent sur trois niveaux, reliées par de courts puits qui montent et descendent tout droit. Tout au fond, dans le coin opposé, une framboise repose dans une salle ronde : c'est là que la fourmi veut aller. D'autres petites salles abritent un ver de terre, un mille-pattes, un scarabée et une araignée, et certaines se trouvent au bout de galeries qui ne mènent nulle part ailleurs.",
+   "p2": "La nouveauté ici, c'est le haut et le bas. Le chemin vers la framboise ne fait pas que descendre : à un moment, la fourmi doit remonter par un puits avant de pouvoir redescendre, et le puits qui semble le plus rapide pour descendre peut finir en impasse. En racontant leur trajet, les enfants emploient le vocabulaire spatial qu'ils utilisent chaque jour au CP : au-dessus, en dessous, descendre le puits, longer la galerie du milieu, remonter tout en haut. La ligne se trace dans les galeries, de la fourmi jusqu'à la framboise.",
+   "p3": "Imprimez le PDF, utilisez la version écran où l'enfant glisse dans les galeries puis appuie sur Vérifier, ou comparez avec le corrigé, qui montre en couleur le chemin de la fourmi. Dans la même série, le labyrinthe de la rivière est une page plus douce pour la maternelle, et le labyrinthe de la ville transforme le problème en recherche du plus court chemin entre plusieurs rues. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1421",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe souterrain CP à imprimer : les galeries de la fourmi",
+   "metaDescription": "Labyrinthe souterrain pour le CP : la fourmi descend et remonte dans des galeries sur trois niveaux jusqu'à la framboise tout en bas. PDF à imprimer et corrigé."
+  },
+  {
+   "slug": "labyrinthe-de-la-ville-plus-court-chemin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Labyrinthe de la ville : trouve le plus court chemin",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Une petite ville vue d'en haut : des rues grises passent entre des carrés de pelouse verte, et des maisons, des arbres, un garage, un vélo, une trottinette et une boîte aux lettres se tiennent sur les bords du plan. Une dépanneuse attend au rond vert de départ d'un côté, une voiture verte est garée de l'autre. Contrairement à la plupart des labyrinthes, celui-ci a plusieurs chemins possibles : les rues se rejoignent sans cesse, et quelques-unes sont fermées par des barrières. Chaque morceau de rue entre deux carrefours porte une plaque d'égout ronde, et la bande sous le plan montre un morceau de rue avec sa plaque égal à 1, à côté d'une case vide.",
+   "p2": "La question n'est pas de savoir si l'on peut atteindre la voiture, mais quel chemin est le plus court. Beaucoup d'enfants pensent que le chemin qui tourne le moins est forcément le plus court, et cette page est construite pour qu'un chemin plus droit soit plus long. Compter tranche la question : chaque plaque est un morceau de rue, l'enfant compte les plaques sur un chemin, compare les chemins, trace le plus court et écrit son nombre dans la case. C'est un vrai raisonnement sur les longueurs, comme on l'amorce au CP, avec une image à la place d'une règle.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant trace un chemin pour la dépanneuse puis appuie sur Vérifier (un chemin plus long reçoit l'indice qu'il en existe un plus court), et avec un corrigé qui montre le plus court chemin et son nombre. Dans la même série, le grand labyrinthe de la jungle n'a qu'un seul chemin, et le labyrinthe de calcul jusqu'à 100 additionne et soustrait le long de la route. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1422",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe de la ville CP à imprimer : trouve le plus court chemin",
+   "metaDescription": "Labyrinthe de la ville pour le CP : plusieurs rues mènent à la voiture verte. Trace le plus court chemin de la dépanneuse et compte les morceaux de rue. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-bebes-animaux-maman-ferme",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Labyrinthe des bébés animaux : aide chaque petit à retrouver sa maman",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Trois bébés de la ferme sont alignés en haut d'un champ de foin en été : un poussin, un veau et un poulain, chacun près d'un rond de départ numéroté. Plus bas, trois mamans attendent dans des enclos ronds : une poule, une vache et une jument. Aucun petit ne se trouve juste au-dessus de sa maman, donc personne ne peut simplement descendre tout droit. Trois chemins séparés serpentent dans le champ entre eux, entrelacés comme des doigts, et chacun a ses propres petits détours.",
+   "p2": "Cette page réunit deux apprentissages de la maternelle. D'abord, l'enfant associe chaque petit à sa maman, ce qui est déjà une petite leçon de vocabulaire sur les familles d'animaux. Ensuite, il suit les chemins pour découvrir lequel ramène vraiment chaque petit chez lui. Les chemins ne se touchent jamais, mais ils courent côte à côte à travers le champ, et l'œil doit rester sur un seul chemin du début à la fin. Traiter les trois petits l'un après l'autre, avec une couleur différente pour chacun, garde les trajets bien séparés et rend la page facile à vérifier.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant glisse de chaque petit jusqu'à sa maman (un petit arrivé chez la mauvaise maman est signalé tout de suite), et avec un corrigé où chaque trajet a sa propre couleur. Dans la même série, les fils emmêlés demandent de suivre des lignes à travers des croisements, et le premier labyrinthe du chien est un départ tout en douceur. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k408",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe maternelle : les bébés animaux retrouvent leur maman",
+   "metaDescription": "Labyrinthe de la ferme pour la maternelle : le poussin, le veau et le poulain retrouvent leur maman par trois chemins séparés. PDF à imprimer, version écran, corrigé."
+  },
+  {
+   "slug": "fils-emmeles-a-qui-est-le-cerf-volant",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Fils emmêlés : à qui est le cerf-volant ?",
+   "strand": "Observation et logique",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Sur une colline battue par le vent, quatre animaux se tiennent en bas de la page, chacun près d'un rond numéroté : un renard, un raton laveur, un écureuil et un blaireau. Chacun tient un long fil. Tout en haut, dans le ciel, volent trois cerfs-volants et un ballon rouge, avec une case vide au-dessus de chacun. En montant, les quatre fils se croisent encore et encore, si bien qu'on ne peut pas dire d'un coup d'œil quel animal tient quel cerf-volant.",
+   "p2": "Sur cette page, il n'y a rien à choisir et aucune impasse : chaque fil mène quelque part. Tout l'enjeu est de suivre une ligne à travers chaque croisement sans sauter sur une autre. C'est le suivi visuel, le même travail de l'œil qui permet au lecteur de rester sur sa ligne. Les enfants réussissent mieux avec un doigt posé sur le fil, en avançant lentement à chaque croisement. Quand le fil arrive à un cerf-volant ou au ballon, le numéro de l'animal s'écrit dans la case au-dessus, et la page finie montre quatre réponses en haut.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant glisse le long de chaque fil, de l'animal jusqu'au bout, et avec un corrigé où chaque fil a sa propre couleur et les cases sont remplies. Dans la même série, le labyrinthe des bébés animaux ajoute des choix aux croisements, et le grand labyrinthe de la jungle demande d'anticiper un long chemin. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1423",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Fils emmêlés CP à imprimer : à qui est le cerf-volant ?",
+   "metaDescription": "Jeu de fils emmêlés pour le CP : suis quatre fils qui se croisent, des animaux jusqu'à trois cerfs-volants et un ballon, puis écris les numéros. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-ramasse-toutes-les-carottes-lapin",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Ramasse toutes les carottes : aide le lapin dans le potager",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Un potager vert remplit cette page, traversé par des allées de pierre. Un lapin part du rond vert, et un seau jaune attend à l'autre bout. Quatre carottes sont posées sur les allées, chacune sur un rond blanc, et la bande sous le potager montre une carotte, le nombre 4 et quatre ronds vides à cocher. Un escargot, une chenille, une salade, une citrouille et un arrosoir sont posés dans l'herbe. Les allées se rejoignent en boucles, donc il existe beaucoup de chemins vers le seau.",
+   "p2": "Atteindre le seau est facile ; le défi est d'y arriver avec les quatre carottes, sans prendre deux fois la même allée. Le chemin le plus court vers le seau oublie des carottes, alors l'enfant doit prévoir un trajet plus long qui passe par chacune. C'est planifier avec plusieurs objectifs à la fois, une étape au-delà d'un labyrinthe ordinaire où seule l'arrivée compte. Cocher un rond pour chaque carotte au passage donne une vérification simple : quatre coches et le seau, le travail est fini.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant trace le chemin du lapin puis appuie sur Vérifier (une carotte oubliée est entourée en rouge), et avec un corrigé qui montre le seul chemin qui ramasse toutes les carottes. Dans la même série, le labyrinthe de l'ours polaire renverse la règle : il faut éviter des obstacles au lieu de les ramasser. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1424",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe CP à imprimer : ramasse toutes les carottes du lapin",
+   "metaDescription": "Labyrinthe à objectifs pour le CP : le lapin doit atteindre le seau en passant par les quatre carottes, sans prendre deux fois le même chemin. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-evite-les-morses-ours-polaire",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Jeu de labyrinthe",
+   "h1": "Évite les morses : ramène l'ours polaire chez lui",
+   "strand": "Se repérer dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Des pistes blanches traversent la banquise de l'Arctique. Un ours polaire part du rond vert, et un igloo l'attend à l'autre bout. Plusieurs pistes mènent à l'igloo, mais des morses endormis sont couchés sur certaines, et des trous sombres dans la glace en coupent d'autres. La bande sous l'image montre un morse et un trou, chacun barré : la règle est claire avant même de lire, ne prends aucun chemin où il y a un morse ou un trou. Un phoque, des flocons et des glaçons décorent la banquise.",
+   "p2": "Le chemin rapide vers l'igloo est bloqué, et c'est tout l'intérêt de la page. L'enfant doit renoncer au chemin évident, vérifier chaque piste pour y repérer morses et trous, et choisir le seul chemin entièrement libre. Résister à sa première idée et garder une règle en tête pendant qu'on travaille, c'est une vraie compétence du CP, et le labyrinthe la rend visible : on peut montrer du doigt le morse exact sur lequel passe un mauvais chemin. La ligne se trace sur la piste sûre, de l'ours jusqu'à l'igloo.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant trace le chemin de l'ours puis appuie sur Vérifier (un chemin qui passe par un morse ou un trou est entouré en rouge), et avec un corrigé qui montre la seule piste sûre. Dans la même série, le labyrinthe du lapin renverse la règle et demande de ramasser toutes les carottes au lieu d'éviter des obstacles. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1425",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe CP à imprimer : évite les morses avec l'ours polaire",
+   "metaDescription": "Labyrinthe de l'ours polaire pour le CP : plusieurs pistes mènent à l'igloo, mais une seule sans morse endormi ni trou dans la glace. PDF à imprimer et corrigé."
+  },
+  {
+   "slug": "labyrinthe-des-lettres-capitales-fusee",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Labyrinthe des lettres",
+   "h1": "Labyrinthe des lettres capitales : envole-toi vers la lune de A à Z",
+   "strand": "Connaissance des lettres",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Un ciel de nuit avec des planètes, la Terre et une comète encadre ce labyrinthe des lettres. Une fusée part du rond vert, et la lune attend tout en haut. Les chemins sont parsemés de pierres blanches rondes, et chaque pierre porte une lettre capitale. Le bon chemin passe par tout l'alphabet dans l'ordre, de A à Z. Les autres pierres portent aussi des lettres, souvent celles que les enfants confondent : une lettre qui en saute une, la lettre d'avant, ou une lettre qui lui ressemble, comme E et F ou M et N.",
+   "p2": "À chaque embranchement, l'enfant récite l'alphabet jusque-là et choisit la pierre avec la capitale suivante. Réciter devient utiliser : savoir ce qui vient après une lettre sans chanter la comptine depuis le début. Comme les mauvaises pierres sont des pièges proches, deviner fonctionne rarement ; il faut connaître l'ordre. En grande section, connaître les lettres capitales et leur ordre fait partie des repères des programmes officiels pour entrer dans l'écrit, et cette page les travaille sous forme de jeu.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser la fusée de pierre en pierre puis appuie sur Vérifier, et avec un corrigé qui montre en couleur le chemin de A à Z. Dans la même série, le labyrinthe des minuscules sous la mer fait la même chose avec les petites lettres et les pièges b, d, p et q, et le jeu de la ruche commence au milieu de l'alphabet. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k409",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe des lettres capitales de A à Z : la fusée (maternelle)",
+   "metaDescription": "Labyrinthe de l'alphabet pour la grande section : à chaque embranchement, choisis la pierre avec la capitale suivante, de A à Z, pour mener la fusée à la lune."
+  },
+  {
+   "slug": "labyrinthe-des-lettres-minuscules-mer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Labyrinthe des lettres",
+   "h1": "Labyrinthe des lettres minuscules : rentre à la maison de a à z",
+   "strand": "Connaissance des lettres",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Sous la mer, un poisson-clown part du rond vert et nage vers un corail au bout du récif. Son chemin est un chenal d'eau claire parsemé de bulles rondes, et chaque bulle porte une petite lettre en script. Le bon chemin passe par l'alphabet en minuscules, dans l'ordre, de a à z. Autour du récif, on découvre une pieuvre, une méduse, une étoile de mer, un crabe, un hippocampe et des algues.",
+   "p2": "Les minuscules font trébucher beaucoup de jeunes lecteurs, car plusieurs sont des lettres miroirs : b et d, p et q. Ce labyrinthe place justement ces pièges. Là où le b est la lettre suivante sur le bon chemin, un d attend souvent sur le mauvais, si bien que l'enfant doit regarder la forme et pas seulement une lettre ronde avec une barre. Dire chaque lettre à voix haute en choisissant aide, tout comme écrire une fois les paires difficiles dans la marge avant de commencer.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser le poisson-clown de bulle en bulle puis appuie sur Vérifier, et avec un corrigé qui montre en couleur le chemin de a à z. Dans la même série, le labyrinthe de la fusée travaille les capitales, et le jeu de la ruche demande l'ordre à partir du milieu de l'alphabet. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k410",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe des lettres minuscules de a à z : la mer (maternelle)",
+   "metaDescription": "Labyrinthe des minuscules : guide le poisson-clown de bulle en bulle, de a à z, sans tomber dans les pièges b et d, p et q, jusqu'au corail. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-ordre-alphabetique-ruche",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Labyrinthe des lettres",
+   "h1": "Labyrinthe de l'ordre alphabétique : saute d'alvéole en alvéole",
+   "strand": "Connaissance des lettres",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Un grand rayon de miel en alvéoles hexagonales remplit cette page, et chaque alvéole contient une lettre capitale. Un ours est assis près d'un rond vert de départ, dont la flèche pointe vers la première alvéole. La suite ne commence pas à A : elle démarre quelque part au milieu de l'alphabet, et la consigne indique la lettre où elle s'arrête. Les autres alvéoles portent aussi des lettres, souvent des voisines dans l'alphabet, si bien qu'un saut distrait mène dans la mauvaise direction.",
+   "p2": "À partir de la première alvéole, l'enfant colorie à chaque fois la lettre suivante de l'alphabet dans une alvéole qui touche la précédente, puis la suivante, jusqu'à la dernière lettre. Le départ au milieu fait toute la difficulté : il faut savoir ce qui vient après une lettre sans l'aide de la comptine depuis A. C'est la connaissance de l'alphabet dont les élèves de CP ont besoin pour le dictionnaire, les listes de prénoms et le rangement par ordre alphabétique, travaillée ici saut par saut. Une seule chaîne d'alvéoles voisines fonctionne, donc le chemin colorié se vérifie facilement à la fin.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant glisse d'alvéole en alvéole puis appuie sur Vérifier, et avec un corrigé où la suite est coloriée. Dans la même série, le labyrinthe de la fusée et celui des minuscules sous la mer travaillent tout l'alphabet depuis le début, avec un choix à chaque embranchement. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1426",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe de l'ordre alphabétique CP à imprimer : la ruche",
+   "metaDescription": "Labyrinthe de l'ordre alphabétique pour le CP : pars d'une lettre au milieu de l'alphabet et colorie à chaque fois la lettre suivante dans une alvéole voisine."
+  },
+  {
+   "slug": "labyrinthe-des-nombres-1-a-20-train",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Labyrinthe des nombres",
+   "h1": "Labyrinthe des nombres de 1 à 20 : compte avec le train",
+   "strand": "Nombres et calculs",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Un petit train attend au rond vert de départ dans une vallée verte ; des sapins, un chevreuil et un lapin bordent les rails, et une cabane en bois attend au bout de la ligne. Les rails se séparent encore et encore, et des pierres rondes les jalonnent, chacune avec un nombre. Le bon chemin passe par les nombres de 1 à 20 dans l'ordre. Les autres pierres sont des pièges : des nombres qui sautent en avant, des nombres qui reculent et des nombres qui se répètent.",
+   "p2": "À chaque aiguillage, l'enfant continue à compter et choisit la pierre avec le nombre suivant. Compter jusqu'à 20 devient alors plus qu'une comptine : il faut savoir quel nombre vient ensuite à partir de n'importe quel point, et lire avec soin les nombres à deux chiffres. C'est entre 10 et 20 que les enfants de grande section se trompent le plus souvent ; ce sont donc les aiguillages où il vaut la peine de ralentir et de dire chaque nombre à voix haute. Compter tout haut en traçant aide aussi.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser le train de pierre en pierre puis appuie sur Vérifier, et avec un corrigé qui montre en couleur la ligne de 1 à 20. Dans la même série, le labyrinthe maths de CE1 compte de 5 en 5 jusqu'à 100, et les labyrinthes des lettres utilisent des lettres au lieu de nombres. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k411",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe des nombres de 1 à 20 à imprimer : le train (maternelle)",
+   "metaDescription": "Labyrinthe des nombres de 1 à 20 : compte le long des rails et choisis le nombre suivant à chaque aiguillage pour mener le petit train à la cabane. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-maths-ce1-compter-de-5-en-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Labyrinthe maths",
+   "h1": "Labyrinthe maths : compte de 5 en 5 jusqu'à l'arc-en-ciel",
+   "strand": "Nombres et calculs",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "ce1"
+   ],
+   "p1": "Une montgolfière s'élève du rond vert de départ dans un ciel d'aube. Son chemin est une route de nuages, et sur les nuages sont écrits des nombres. Tout en haut attend un arc-en-ciel. Le bon chemin compte de 5 en 5 : 5, 10, 15, 20 et ainsi de suite jusqu'à 100. Un avion en papier, une mouette et le soleil se partagent le ciel.",
+   "p2": "Compter de 5 en 5 fait partie du travail du CE1, et dans ce labyrinthe le pas est la règle. La plupart des mauvais nuages se terminent aussi par 0 ou 5, donc l'enfant ne peut pas prendre n'importe quel nombre qui a l'air juste : les mauvais nuages sautent trop loin, reculent ou répètent un nombre déjà passé. Pour choisir, il faut chaque fois ajouter 5 au nombre du dernier nuage. Compter à voix haute en traçant, et vérifier que chaque nombre a exactement 5 de plus, maintient la montgolfière sur la bonne route jusqu'à 100.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser la montgolfière de nuage en nuage puis appuie sur Vérifier, et avec un corrigé qui montre en couleur le chemin du comptage. Dans la même série, le labyrinthe des nombres compte de 1 à 20 pour la maternelle, et le labyrinthe des additions et soustractions garde un total jusqu'à 100 au fil des panneaux. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g2392",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe maths CE1 à imprimer : compter de 5 en 5 jusqu'à 100",
+   "metaDescription": "Labyrinthe maths pour le CE1 : saute de nuage en nuage en comptant de 5 en 5, de 5 à 100, pour mener la montgolfière à l'arc-en-ciel. PDF à imprimer et corrigé."
+  },
+  {
+   "slug": "labyrinthe-maths-cp-complements-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Labyrinthe maths",
+   "h1": "Labyrinthe maths : marche sur les additions qui font 10",
+   "strand": "Nombres et calculs",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Une savane poussiéreuse s'étend sur la page. Une girafe part du rond vert, à côté d'une pastille ronde marquée 10, et un baobab attend à l'autre bout. Les pistes passent sur des pierres plates, et chaque pierre porte une addition comme 6 + 4 ou 7 + 4. Un zèbre, un éléphant, un rhinocéros, une autruche, un suricate et une gazelle se tiennent dans la plaine autour des pistes.",
+   "p2": "La girafe ne peut marcher que sur les pierres dont la somme fait 10. Chaque pierre du bon chemin est un complément à 10, et les mauvaises pierres sont des pièges proches qui font 9 ou 11, souvent avec un nombre en commun avec une bonne paire, donc l'enfant doit vraiment calculer au lieu de reconnaître un nombre familier. Les compléments à 10 sont la base du calcul au CP, car une grande partie du calcul mental qui suit s'appuie sur eux. Au début, l'enfant peut dire chaque addition à voix haute ou compter sur ses doigts.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser la girafe sur les pierres puis appuie sur Vérifier, et avec un corrigé qui montre en couleur le chemin des compléments à 10. Dans la même série, le labyrinthe du bonhomme en pain d'épices travaille les soustractions jusqu'à 20, et le labyrinthe de CE1 calcule un total sur plusieurs panneaux. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1427",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe maths CP à imprimer : les compléments à 10",
+   "metaDescription": "Labyrinthe maths pour le CP : la girafe ne marche que sur les additions qui font 10 ; celles qui font 9 ou 11 sont des pièges. PDF à imprimer, version écran, corrigé."
+  },
+  {
+   "slug": "labyrinthe-des-soustractions-jusqu-a-20-pain-d-epices",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "cp"
+   },
+   "eyebrow": "Labyrinthe maths",
+   "h1": "Labyrinthe des soustractions jusqu'à 20 : le bonhomme en pain d'épices",
+   "strand": "Nombres et calculs",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "cp"
+   ],
+   "p1": "Un pays des bonbons aux chemins pastel remplit ce labyrinthe. Le bonhomme en pain d'épices part du rond vert, à côté d'une pastille ronde avec son nombre, et un gâteau attend à l'autre bout. Les chemins passent par des pierres, et chaque pierre porte une soustraction jusqu'à 20, comme 15 − 7. Des cupcakes, des beignets, des sucettes, des glaces, des sucres d'orge et des macarons décorent le pays entre les chemins.",
+   "p2": "La règle se dit vite : ne marche que sur les soustractions dont le résultat est le nombre du bonhomme en pain d'épices. Chaque pierre du bon chemin donne ce résultat ; les mauvaises donnent un de plus ou de moins, ou viennent d'une erreur courante, donc l'enfant doit calculer chacune. Soustraire à partir des nombres entre 10 et 20, c'est au CP que l'on construit les stratégies qui serviront longtemps, comme revenir d'abord à 10. Une petite file numérique ou des jetons sur la table aident bien pour les premières pierres.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser le bonhomme sur les pierres puis appuie sur Vérifier, et avec un corrigé qui montre en couleur le bon chemin. Dans la même série, le labyrinthe de la girafe travaille les compléments à 10, et le labyrinthe de CE1 additionne et soustrait jusqu'à 100. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g1428",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe des soustractions jusqu'à 20 (CP) : le pain d'épices",
+   "metaDescription": "Labyrinthe des soustractions jusqu'à 20 : le bonhomme en pain d'épices ne marche que sur les calculs dont le résultat est son nombre, jusqu'au gâteau. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-des-sons-comme-lion",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Labyrinthe des sons",
+   "h1": "Labyrinthe des sons : les images qui commencent comme lion",
+   "strand": "Conscience phonologique",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Une place de marché sablonneuse vue d'en haut sert de décor à ce labyrinthe des sons. Un lion part du rond vert, et un panier attend à l'autre bout. Sur les chemins sont posées des cartes rondes, chacune avec une image et aucun mot : des animaux, des fruits, des objets du quotidien. Le lion lui-même est l'indice, car les bonnes cartes commencent comme le mot lion.",
+   "p2": "L'enfant dit le nom de chaque image à voix haute et ne marche que sur les images qui commencent par le même son que lion, comme loup, lapin ou lanterne. Les mauvaises cartes commencent par d'autres sons, et quelques-unes ont un l plus loin dans le mot, comme tulipe ou gazelle : l'enfant qui guette n'importe quel l se trompe de chemin. Entendre le son du début d'un mot dit à voix haute est une compétence de conscience phonologique travaillée en grande section avant la lecture, et cette page la travaille uniquement avec des images, pour que même les enfants qui ne lisent pas encore puissent jouer.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant fait glisser le lion sur les cartes puis appuie sur Vérifier (une mauvaise carte est entourée en rouge), et avec un corrigé qui montre en couleur le chemin du lion. Dans la même série, les labyrinthes des lettres travaillent l'ordre de l'alphabet, et le premier labyrinthe du chien est un départ tout en douceur pour la tenue du crayon. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k412",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe des sons pour la maternelle : comme lion, à imprimer",
+   "metaDescription": "Labyrinthe des sons pour la grande section : dis le nom de chaque image et ne marche que sur celles qui commencent comme lion, jusqu'au panier. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-maths-ce1-additions-soustractions",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Labyrinthe maths",
+   "h1": "Labyrinthe maths jusqu'à 100 : apporte à la grue son nombre",
+   "strand": "Nombres et calculs",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "ce1"
+   ],
+   "p1": "Un chantier aux routes de terre remplit cette page. Un camion-benne rouge part du rond vert avec une pastille numérotée, et une grue jaune attend à l'autre bout avec son propre nombre. Le long des routes se dressent des panneaux arrondis, chacun avec un changement comme +10, −5 ou +2, et chaque panneau a une petite case pour écrire le nouveau total. Des pelleteuses, une bétonnière, un chariot élévateur, un bulldozer, des rondins et des rochers remplissent le chantier autour des routes.",
+   "p2": "L'enfant part du nombre du camion, suit une route et, sur cette route, écrit le nouveau nombre dans la case de chaque panneau au passage du camion. Une seule route arrive exactement au nombre de la grue. C'est un calcul en chaîne : ajouter et retirer des dizaines et des unités jusqu'à 100, le calcul mental que l'on pratique toute l'année au CE1, chaque étape étant écrite pour que les erreurs se retrouvent facilement. D'autres routes arrivent tout près du nombre de la grue, donc une étape faite trop vite se voit à l'arrivée.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant trace la route du camion puis appuie sur Vérifier, et avec un corrigé qui montre la bonne route et chaque total. Dans la même série, le labyrinthe maths compte de 5 en 5 jusqu'à 100, et le labyrinthe de la girafe travaille les compléments à 10. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-g2393",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe maths CE1 à imprimer : additions et soustractions",
+   "metaDescription": "Labyrinthe maths pour le CE1 : le camion-benne part d'un nombre, chaque panneau ajoute ou enlève, et un seul chemin arrive au nombre de la grue. PDF et corrigé."
+  },
+  {
+   "slug": "labyrinthe-a-colorier-crabe-plage",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Labyrinthe à colorier",
+   "h1": "Labyrinthe à colorier : le crabe à la plage",
+   "strand": "Motricité fine et repérage dans l'espace",
+   "slotTokens": [
+    "jeux-de-labyrinthe",
+    "maternelle"
+   ],
+   "p1": "Cette plage est dessinée uniquement en traits noirs, prête pour les crayons de couleur. Un crabe attend au départ, un château de sable se dresse à l'autre bout, et une large route bordée de deux traits serpente sur le sable entre les deux, avec quelques détours qui s'arrêtent. Autour de la route, toute une plage attend d'être coloriée : la mer en haut avec un bateau et un poisson, un palmier, un parasol, un ballon de plage, un seau et une étoile de mer.",
+   "p2": "La page demande trois choses à la suite. D'abord, l'enfant trouve le chemin du crabe et le trace. Ensuite, toute la route est coloriée, d'un bord à l'autre : un coloriage soigné dans une large bande, très bon pour la maîtrise du geste. Enfin vient la plage, coloriée comme l'enfant en a envie. Résoudre le labyrinthe avant le dessin donne un ordre naturel à la tâche, et une route coloriée montre clairement la réponse.",
+   "p3": "La page existe en PDF à imprimer, en version écran où l'enfant trace le chemin du crabe puis appuie sur Vérifier, et avec un corrigé où la route est remplie. Dans la même série, le premier labyrinthe du chien et le labyrinthe du hérisson dans le verger sont dessinés en couleur. Ce sont des labyrinthes illustrés qui racontent une histoire ; les labyrinthes quadrillés, les points à relier et le classement de mots ont leurs propres pages.",
+   "canonicalDeckSlug": "jeux-de-labyrinthe-k413",
+   "carousel": [
+    {
+     "label": "Jeu de labyrinthe : aide le hérisson à rejoindre le pommier",
+     "href": "jeu-de-labyrinthe-herisson-pommier"
+    },
+    {
+     "label": "Mon premier labyrinthe : aide le chien à rejoindre son ballon",
+     "href": "mon-premier-labyrinthe-maternelle-chien-ballon"
+    },
+    {
+     "label": "Grand labyrinthe : le chemin de l'orang-outan jusqu'au bananier",
+     "href": "grand-labyrinthe-cp-jungle-orang-outan"
+    },
+    {
+     "label": "Labyrinthe de la rivière : conduis le bateau jusqu'au nounours",
+     "href": "labyrinthe-de-la-riviere-bateau-nounours"
+    }
+   ],
+   "title": "Labyrinthe à colorier pour la maternelle : le crabe à la plage",
+   "metaDescription": "Labyrinthe à colorier pour la maternelle : trace le chemin du crabe jusqu'au château de sable, colorie toute la route, puis colorie la plage. PDF et corrigé."
   }
  ]
 }

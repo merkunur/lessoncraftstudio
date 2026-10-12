@@ -161160,6 +161160,834 @@
    ],
    "title": "Desenhe uma borboleta de memória, 2º ano | PDF grátis para imprimir",
    "metaDescription": "Desenhar uma borboleta de memória: uma borboleta pequena numa aba em cima, uma linha de dobra e um papel grande embaixo. Olhe, dobre, desenhe. PDF 2º ano."
+  },
+  {
+   "slug": "labirinto-infantil-ourico-macieira",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Um pomar no outono preenche este labirinto. Num canto de baixo, um ouriço espera no círculo verde de saída; no canto oposto fica uma macieira com uma bandeirinha. Entre os dois, caminhos de areia clara serpenteiam pela grama, se dividem e se dividem de novo. Alguns caminhos laterais avançam bastante em direção à árvore antes de terminar de repente: a criança que vai com pressa cai num beco sem saída e precisa voltar. Nas ilhas de grama entre os caminhos há um ratinho, um caracol, uma joaninha, uma borboleta, um cogumelo e algumas flores do campo.",
+   "p2": "A tarefa é traçar uma única linha pelos caminhos, do ouriço até a macieira. Duas coisas trabalham juntas. Os olhos planejam, seguem um caminho para ver aonde ele leva antes que o lápis avance, e a mão mantém o traço dentro de um caminho cheio de curvas. É exatamente o que se trabalha na educação infantil: observar antes de agir e segurar o lápis com a firmeza que, mais tarde, vai ajudar a escrever as letras. Os caminhos são largos o bastante para um giz de cera e as curvas são suaves, então a atividade desafia a atenção sem frustrar as mãos pequenas.",
+   "p3": "Cada folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o dedo pelo caminho e toca em Verificar, e com um gabarito em que o caminho aparece colorido. É a primeira folha de uma série de vinte labirintos ilustrados: um primeiro labirinto de coordenação motora, um labirinto grande na selva, um rio, túneis embaixo da terra, as ruas de uma cidade, filhotes que procuram a mãe, linhas emaranhadas e labirintos que seguem o alfabeto, os números, as somas e os sons iniciais. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k405",
+   "carousel": [
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    },
+    {
+     "label": "Labirinto subterrâneo: ajude a formiga pelos seus túneis",
+     "href": "labirinto-subterraneo-tuneis-formiga"
+    }
+   ],
+   "title": "Labirinto infantil para imprimir: o ouriço e a macieira | PDF",
+   "metaDescription": "Labirinto para a educação infantil: leve o ouriço pelos caminhos do pomar até a macieira. PDF para imprimir, versão na tela para traçar com o dedo e gabarito."
+  },
+  {
+   "slug": "labirinto-coordenacao-motora-cachorrinho-bola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+   "strand": "Coordenação motora fina",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "É com este labirinto que se começa. Um cachorrinho está sentado no círculo verde de saída, num parque na primavera, e sua bola espera do outro lado da folha. Um caminho bem largo liga os dois, largo o suficiente para um giz de cera grosso, com só dois desvios curtos que logo terminam. Em volta do caminho, o parque está cheio de figuras simpáticas: um gato, uma borboleta, um passarinho, uma cerejeira florida e uma tulipa. A folha parece primeiro um desenho para olhar e só depois um desafio.",
+   "p2": "Para uma criança de três ou quatro anos, o trabalho de verdade está na mão, não no planejamento. Manter a linha entre duas bordas, virar junto com o caminho e não cortar pela grama desenvolve a coordenação motora de que ela vai precisar depois para cobrir tracejados e escrever as primeiras letras. Os dois desvios curtos são o primeiro gostinho de escolher: quem segue um deles vê logo que termina e volta sem desanimar. Conte a história em voz alta, o cachorrinho quer a bola, e deixe a criança mostrar o caminho primeiro com o dedo e depois com o giz.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o dedo pelo caminho e toca em Verificar, e com um gabarito em que o caminho aparece colorido. Quando esta folha ficar fácil, os próximos passos da mesma série são o labirinto do ouriço no pomar, o labirinto do rio com suas curvas longas e o labirinto dos filhotes com três caminhos. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k406",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    },
+    {
+     "label": "Labirinto subterrâneo: ajude a formiga pelos seus túneis",
+     "href": "labirinto-subterraneo-tuneis-formiga"
+    }
+   ],
+   "title": "Labirinto de coordenação motora: o cachorrinho e a bola | PDF",
+   "metaDescription": "Primeiro labirinto para crianças de 3 e 4 anos: um caminho bem largo no parque, só dois desvios curtos, um cachorrinho e sua bola. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-grande-1-ano-selva-orangotango",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto grande: o caminho do orangotango até a bananeira",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "O chão de uma floresta tropical cobre toda a folha, cheio de caminhos estreitos. Um orangotango sai do círculo verde num canto e uma bananeira espera no canto oposto, embaixo de um teto de folhas. O caminho entre os dois é longo e vai e volta, e muitos caminhos laterais saem dele. Alguns são curtos, mas outros entram fundo na selva e só terminam depois de várias curvas. Um tucano, um papagaio, uma preguiça, um sapo, palmeiras e flores tropicais ocupam as ilhas entre os caminhos.",
+   "p2": "Esta folha trabalha o planejamento, uma habilidade que no 1º ano a criança já pode ampliar. O enunciado pede para olhar o labirinto inteiro primeiro e só depois traçar o caminho do orangotango. Quem começa a desenhar na hora cai num beco fundo, volta e tenta de novo, e esse é justamente o ponto: voltar ensina que uma primeira escolha pode ser conferida e mudada. Muitas crianças acham útil procurar um pedacinho do caminho a partir da bananeira e depois ligar as duas pontas.",
+   "p3": "Imprima o PDF, use a versão na tela, em que a criança desliza o dedo pelo caminho e pode voltar um passo, ou compare com o gabarito, que mostra colorido o único caminho certo. Na mesma série, o labirinto do ouriço é a versão mais leve para a educação infantil, e o labirinto da cidade pede o mais curto entre vários caminhos em vez do único. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1420",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    },
+    {
+     "label": "Labirinto subterrâneo: ajude a formiga pelos seus túneis",
+     "href": "labirinto-subterraneo-tuneis-formiga"
+    }
+   ],
+   "title": "Labirinto grande para o 1º ano: o orangotango na selva | PDF",
+   "metaDescription": "Labirinto grande na selva para o 1º ano: caminhos longos e becos sem saída fundos; primeiro observe, depois trace. PDF para imprimir, versão na tela e gabarito."
+  },
+  {
+   "slug": "labirinto-do-rio-barquinho-ursinho",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto do rio: leve o barquinho até o ursinho",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Neste labirinto, os caminhos são de água. Um riacho azul serpenteia por um jardim verde, e um barquinho de brinquedo flutua no círculo verde de saída, onde o riacho começa. Do outro lado, um ursinho de pelúcia está sentado num pequeno píer de madeira esperando o barquinho. O riacho se divide em braços que parecem tão convidativos quanto a correnteza principal, mas cada um termina na margem. Nas margens aparecem um sapo, uma libélula, um pato, um cisne, uma tartaruga e uma árvore.",
+   "p2": "O riacho é desenhado com curvas longas e suaves, sem cantos, então a linha da criança vira um grande movimento arredondado. Isso faz da folha um bom treino para os traçados curvos que vêm antes de escrever letras como c, o e s, enquanto os braços do riacho mantêm viva a parte de pensar do labirinto. A criança guia o barquinho primeiro com o dedo, dizendo para onde a água vai, e depois traça uma linha que fica dentro da água, do barquinho até o píer.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o caminho do barquinho e toca em Verificar, e com um gabarito em que o trajeto pela água aparece colorido. Ela faz parte de uma série de vinte labirintos ilustrados; o primeiro labirinto com o cachorrinho é um começo mais fácil, e o labirinto da formiga embaixo da terra é o próximo passo, com túneis em três níveis. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k407",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto subterrâneo: ajude a formiga pelos seus túneis",
+     "href": "labirinto-subterraneo-tuneis-formiga"
+    }
+   ],
+   "title": "Labirinto do rio para imprimir: o barquinho e o ursinho | PDF",
+   "metaDescription": "Labirinto do rio para a educação infantil: siga o riacho azul e seus braços até o ursinho de pelúcia no píer. Curvas longas e suaves. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-subterraneo-tuneis-formiga",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto subterrâneo: ajude a formiga pelos seus túneis",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Esta folha mostra a terra como se tivesse sido cortada, como uma fatia de jardim. Em cima, uma formiga está na grama, ao lado do círculo verde de saída. Embaixo da grama, a terra marrom está em camadas, e túneis correm por ela em três níveis, ligados por poços curtos que sobem e descem retinho. Lá no fundo, no canto oposto, há uma framboesa numa câmara redonda: é para lá que a formiga quer ir. Em outras camarinhas ficam uma minhoca, uma centopeia, um besouro e uma aranha, e algumas estão no fim de túneis que não levam a lugar nenhum.",
+   "p2": "A novidade aqui é o em cima e o embaixo. O caminho até a framboesa não só desce: em algum momento a formiga precisa subir de novo por um poço antes de continuar descendo, e o poço que parece o jeito mais rápido de descer pode terminar num beco sem saída. Ao contar o trajeto, as crianças usam o vocabulário de posição que usam todos os dias no 1º ano: em cima, embaixo, descer pelo poço, seguir o túnel do meio, voltar lá para cima. A linha é traçada pelos túneis, da formiga até a framboesa.",
+   "p3": "Imprima o PDF, use a versão na tela, em que a criança desliza o dedo pelos túneis e toca em Verificar, ou compare com o gabarito, que mostra colorido o caminho da formiga. Na mesma série, o labirinto do rio é uma folha mais leve para a educação infantil, e o labirinto da cidade transforma o desafio em procurar o caminho mais curto entre várias ruas. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1421",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto subterrâneo para o 1º ano: os túneis da formiga | PDF",
+   "metaDescription": "Labirinto subterrâneo para o 1º ano: a formiga desce e sobe por túneis em três níveis até a framboesa lá no fundo. PDF para imprimir, versão na tela e gabarito."
+  },
+  {
+   "slug": "labirinto-da-cidade-caminho-mais-curto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto da cidade: encontre o caminho mais curto",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Uma pequena cidade vista de cima: ruas cinzas passam entre quarteirões de grama verde, e nas bordas do mapa há casas, árvores, uma garagem, uma bicicleta, um patinete e uma caixa de correio. Um guincho espera no círculo verde de saída de um lado, e um carro verde está estacionado do outro. Diferente da maioria dos labirintos, este tem muitos caminhos: as ruas se encontram de novo e de novo, e algumas estão fechadas por barreiras. Cada pedaço de rua entre dois cruzamentos tem uma tampa de bueiro redonda, e a faixa embaixo do mapa mostra um pedaço de rua com sua tampa igual a 1, ao lado de um quadradinho vazio.",
+   "p2": "A pergunta não é se dá para chegar ao carro, e sim qual caminho é o mais curto. Muitas crianças acham que o caminho com menos curvas é o mais curto, e esta folha foi feita para que um caminho mais reto seja mais longo. Contar resolve a dúvida: cada tampa é um pedaço de rua, então a criança conta as tampas de um caminho, compara os caminhos, traça o mais curto e escreve o número no quadradinho. É raciocinar de verdade sobre comprimentos, como se começa a fazer no 1º ano, com um desenho no lugar de uma régua.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança traça um caminho para o guincho e toca em Verificar (um caminho mais longo recebe a dica de que existe um mais curto), e com um gabarito que mostra o caminho mais curto e seu número. Na mesma série, o labirinto grande da selva tem um único caminho, e o labirinto matemático até 100 faz contas ao longo da rua. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1422",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto da cidade para o 1º ano: o caminho mais curto | PDF",
+   "metaDescription": "Labirinto da cidade para o 1º ano: várias ruas levam ao carro verde. Trace o caminho mais curto para o guincho e conte os pedaços de rua. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-filhotes-e-suas-maes-fazenda",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Labirinto dos filhotes: ajude cada filhote a encontrar a mãe",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Três filhotes da fazenda estão enfileirados no alto de um campo de feno no verão: um pintinho, um bezerro e um potro, cada um ao lado de um círculo de saída numerado. Mais abaixo, três mães esperam em cercados redondos: uma galinha, uma vaca e uma égua. Nenhum filhote fica bem em cima da sua mãe, então ninguém pode simplesmente descer reto. Três caminhos separados serpenteiam pelo campo entre eles, entrelaçados como dedos, e cada caminho tem seus próprios desvios curtos.",
+   "p2": "Esta folha junta duas aprendizagens da educação infantil. Primeiro, a criança associa cada filhote à sua mãe, o que já é uma pequena aula de vocabulário sobre as famílias dos animais. Depois, segue os caminhos para descobrir qual deles leva de verdade cada filhote para casa. Os caminhos nunca se tocam, mas correm bem juntinhos pelo campo, então o olhar precisa ficar num só caminho do começo ao fim. Fazer os três filhotes um de cada vez, com uma cor diferente para cada, mantém os trajetos separados e deixa a folha fácil de conferir.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o dedo de cada filhote até a mãe (um filhote que chega à mãe errada é indicado na hora), e com um gabarito em que cada trajeto tem sua própria cor. Na mesma série, as linhas emaranhadas pedem para seguir fios pelos cruzamentos, e o primeiro labirinto do cachorrinho é um começo bem tranquilo. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k408",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto para a educação infantil: os filhotes e suas mães | PDF",
+   "metaDescription": "Labirinto da fazenda para a educação infantil: o pintinho, o bezerro e o potro encontram a mãe por três caminhos separados. PDF para imprimir, tela e gabarito."
+  },
+  {
+   "slug": "linhas-emaranhadas-de-quem-e-a-pipa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Linhas emaranhadas: de quem é a pipa?",
+   "strand": "Percepção visual",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Num morro cheio de vento, quatro animais estão na parte de baixo da folha, cada um ao lado de um círculo numerado: uma raposa, um guaxinim, um esquilo e um texugo. Cada um segura uma linha comprida. Lá em cima, no céu, voam três pipas e um balão vermelho, com um quadradinho vazio acima de cada um. Na subida, as quatro linhas se cruzam várias vezes, então não dá para saber de relance qual animal segura cada pipa.",
+   "p2": "Nesta folha não há nada para escolher nem becos sem saída: cada linha leva a algum lugar. O desafio todo é seguir uma linha em cada cruzamento sem pular para outra. É o acompanhamento visual, o mesmo trabalho dos olhos que o leitor usa para não perder a linha do texto. As crianças se saem melhor com um dedo sobre a linha, andando devagar em cada cruzamento. Quando a linha chega a uma pipa ou ao balão, o número do animal vai no quadradinho de cima, e a folha pronta mostra quatro respostas no alto.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o dedo por cada linha, do animal até o fim, e com um gabarito em que cada linha tem sua própria cor e os quadradinhos estão preenchidos. Na mesma série, o labirinto dos filhotes acrescenta escolhas nos cruzamentos, e o labirinto grande da selva pede para planejar um caminho longo. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1423",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Linhas emaranhadas para o 1º ano: de quem é a pipa? | PDF",
+   "metaDescription": "Desafio de linhas emaranhadas para o 1º ano: siga quatro linhas que se cruzam, dos animais até três pipas e um balão, e escreva os números. PDF e gabarito."
+  },
+  {
+   "slug": "labirinto-pegue-todas-as-cenouras-coelho",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Pegue todas as cenouras: ajude o coelho na horta",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Uma horta verde preenche esta folha, cortada por caminhos de pedra. Um coelho sai do círculo verde e um balde amarelo espera do outro lado. Quatro cenouras estão sobre os caminhos, cada uma num círculo branco, e a faixa embaixo da horta mostra uma cenoura, o número 4 e quatro círculos vazios para marcar. Um caracol, uma lagarta, uma alface, uma abóbora e um regador ficam na grama. Os caminhos se juntam em voltas, então há muitas maneiras de chegar ao balde.",
+   "p2": "Chegar ao balde é fácil; o desafio é chegar com as quatro cenouras, sem passar duas vezes pelo mesmo caminho. O caminho mais curto até o balde deixa cenouras para trás, então a criança precisa planejar um trajeto mais longo que passe por todas. É planejar com várias metas ao mesmo tempo, um passo além de um labirinto comum, em que só a chegada importa. Marcar um círculo para cada cenoura no caminho dá uma conferência simples: quatro marcas e o balde, tarefa cumprida.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança traça o caminho do coelho e toca em Verificar (uma cenoura esquecida é circulada em vermelho), e com um gabarito que mostra o único caminho que pega todas as cenouras. Na mesma série, o labirinto do urso-polar inverte a regra: lá é preciso desviar das coisas em vez de pegá-las. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1424",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto para o 1º ano: pegue todas as cenouras | PDF para imprimir",
+   "metaDescription": "Labirinto de coleta para o 1º ano: o coelho precisa chegar ao balde passando pelas quatro cenouras, sem repetir nenhum caminho. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-desvie-das-morsas-urso-polar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Atividade de labirinto",
+   "h1": "Desvie das morsas: leve o urso-polar para casa em segurança",
+   "strand": "Orientação espacial",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Trilhas brancas atravessam o gelo do mar Ártico. Um urso-polar sai do círculo verde e um iglu espera do outro lado. Várias trilhas chegam ao iglu, mas em algumas há morsas dormindo, e outras são cortadas por buracos escuros no gelo. A faixa embaixo da figura mostra uma morsa e um buraco, cada um riscado: a regra fica clara antes mesmo de ler, não pegue nenhum caminho com morsa ou buraco. Uma foca, flocos de neve e pingentes de gelo enfeitam o gelo.",
+   "p2": "O caminho rápido até o iglu está bloqueado, e é disso que trata a folha. A criança precisa deixar de lado o caminho óbvio, examinar cada trilha em busca de morsas e buracos e escolher o único caminho totalmente livre. Frear o primeiro impulso e manter uma regra na cabeça enquanto trabalha é uma habilidade real do 1º ano, e o labirinto a torna visível: dá para apontar exatamente a morsa por onde passa um caminho errado. A linha é traçada pela trilha segura, do urso até o iglu.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança traça o caminho do urso e toca em Verificar (um caminho que passa por uma morsa ou um buraco é circulado em vermelho), e com um gabarito que mostra a única trilha segura. Na mesma série, o labirinto do coelho inverte a regra e pede para pegar todas as cenouras em vez de desviar de obstáculos. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1425",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto para o 1º ano: desvie das morsas | PDF para imprimir",
+   "metaDescription": "Labirinto do urso-polar para o 1º ano: várias trilhas chegam ao iglu, mas só uma sem morsa dormindo e sem buraco no gelo. PDF para imprimir, versão na tela e gabarito."
+  },
+  {
+   "slug": "labirinto-do-alfabeto-foguete-lua",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Labirinto do alfabeto",
+   "h1": "Labirinto do alfabeto: voe até a lua de A a Z",
+   "strand": "Alfabetização",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Um céu noturno com planetas, a Terra e um cometa emoldura este labirinto das letras. Um foguete sai do círculo verde e a lua espera lá em cima. Os caminhos têm pedras brancas redondas, e cada pedra traz uma letra maiúscula. O caminho certo passa pelo alfabeto inteiro, em ordem, de A a Z. As outras pedras também trazem letras, muitas vezes as que as crianças confundem: uma letra que pula uma, a letra de antes ou uma parecida, como E e F ou M e N.",
+   "p2": "Em cada encruzilhada, a criança diz o alfabeto até ali e escolhe a pedra com a próxima maiúscula. Assim, recitar vira usar: saber que letra vem depois sem cantar desde o começo. Como as pedras erradas são armadilhas próximas, chutar quase nunca dá certo; é preciso conhecer a ordem. Conhecer as letras maiúsculas e sua ordem faz parte da aproximação com a escrita que a BNCC propõe para a educação infantil, e aqui isso é praticado como um jogo.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o foguete de pedra em pedra e toca em Verificar, e com um gabarito que mostra colorido o caminho de A a Z. Na mesma série, o labirinto das minúsculas no fundo do mar faz o mesmo com as letras pequenas e as armadilhas b, d, p e q, e o desafio da colmeia começa no meio do alfabeto. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k409",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto do alfabeto de A a Z: o foguete até a lua | PDF",
+   "metaDescription": "Labirinto do alfabeto para a educação infantil: em cada encruzilhada, escolha a pedra com a próxima letra maiúscula, de A a Z, e leve o foguete até a lua. PDF."
+  },
+  {
+   "slug": "labirinto-das-letras-minusculas-fundo-do-mar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Labirinto do alfabeto",
+   "h1": "Labirinto das letras minúsculas: nade para casa de a a z",
+   "strand": "Alfabetização",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "No fundo do mar, um peixe-palhaço sai do círculo verde e nada em direção a um coral no fim do recife. Seu caminho é um canal de água clara com bolhas redondas, e cada bolha traz uma letra minúscula. O caminho certo passa pelo alfabeto em minúsculas, em ordem, de a a z. Em volta do recife aparecem um polvo, uma água-viva, uma estrela-do-mar, um caranguejo, um cavalo-marinho e algas.",
+   "p2": "As minúsculas fazem muitos leitores iniciantes tropeçar, porque várias são letras espelhadas: b e d, p e q. Este labirinto coloca justamente essas armadilhas. Onde o b é a próxima letra do caminho certo, muitas vezes um d espera no caminho errado, então a criança precisa olhar a forma e não só uma letra redonda com uma haste. Ajuda dizer cada letra em voz alta ao escolher, e escrever uma vez os pares difíceis na margem antes de começar.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o peixe-palhaço de bolha em bolha e toca em Verificar, e com um gabarito que mostra colorido o caminho de a a z. Na mesma série, o labirinto do foguete pratica as maiúsculas, e o desafio da colmeia pede a ordem a partir do meio do alfabeto. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k410",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto das letras minúsculas de a a z: o fundo do mar | PDF",
+   "metaDescription": "Labirinto das minúsculas para a educação infantil: leve o peixe-palhaço de bolha em bolha, de a a z, sem cair nas armadilhas b e d, p e q. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "pule-as-letras-em-ordem-colmeia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Labirinto do alfabeto",
+   "h1": "Pule as letras em ordem: atravesse a colmeia do urso",
+   "strand": "Alfabetização",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Um grande favo de mel feito de casinhas hexagonais preenche esta folha, e cada casinha tem uma letra maiúscula. Um urso está sentado ao lado de um círculo verde de saída com uma seta que aponta para a primeira casinha. A sequência não começa no A: ela parte de algum ponto no meio do alfabeto, e o enunciado diz em que letra ela termina. As outras casinhas também têm letras, muitas delas vizinhas no alfabeto, então um pulo distraído leva para o lado errado.",
+   "p2": "A partir da primeira casinha, a criança pinta a próxima letra do alfabeto numa casinha que encosta na anterior, depois a seguinte, e assim até a última letra. Começar no meio é justamente o desafio: é preciso saber que letra vem depois sem a ajuda de cantar desde o A. É o conhecimento do alfabeto que as crianças do 1º ano usam no dicionário, nas listas de nomes e na ordem alfabética, praticado aqui pulo a pulo. Só uma corrente de casinhas vizinhas funciona, então o caminho pintado é fácil de conferir no final.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança desliza o dedo de casinha em casinha e toca em Verificar, e com um gabarito em que a sequência está pintada. Na mesma série, o labirinto do foguete e o das minúsculas no fundo do mar praticam o alfabeto inteiro desde o começo, com uma escolha em cada encruzilhada. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1426",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Ordem alfabética para o 1º ano: pule as letras da colmeia | PDF",
+   "metaDescription": "Labirinto de ordem alfabética para o 1º ano: comece numa letra do meio do alfabeto e pinte a próxima letra numa casinha vizinha. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-dos-numeros-de-1-a-20-trem",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Labirinto dos números",
+   "h1": "Labirinto dos números de 1 a 20: conte com o trem",
+   "strand": "Números",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Um trenzinho espera no círculo verde de saída num vale verde; pinheiros, um veado e um coelho ficam ao lado dos trilhos, e uma cabana de madeira espera no fim da linha. Os trilhos se dividem várias vezes, e ao longo deles há pedras redondas, cada uma com um número. O caminho certo passa pelos números de 1 a 20, em ordem. As outras pedras são armadilhas: números que pulam para a frente, números que voltam e números que se repetem.",
+   "p2": "Em cada desvio, a criança continua contando e escolhe a pedra com o próximo número. Assim, contar até 20 vira mais do que uma musiquinha: é preciso saber que número vem depois a partir de qualquer ponto e ler com cuidado os números de dois algarismos. É entre 10 e 20 que as crianças da educação infantil mais se confundem; por isso vale a pena ir mais devagar nesses desvios e dizer cada número em voz alta. Contar em voz alta enquanto traça também ajuda.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o trem de pedra em pedra e toca em Verificar, e com um gabarito que mostra colorida a linha de 1 a 20. Na mesma série, o labirinto matemático conta de 5 em 5 até 100, e os labirintos do alfabeto usam letras em vez de números. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k411",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto dos números de 1 a 20 para imprimir: o trem | PDF",
+   "metaDescription": "Labirinto dos números de 1 a 20: conte ao longo dos trilhos e escolha o próximo número em cada desvio para levar o trenzinho até a cabana. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-matematico-conte-de-5-em-5-balao",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Labirinto matemático",
+   "h1": "Labirinto matemático: conte de 5 em 5 até o arco-íris",
+   "strand": "Números",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "2o-ano"
+   ],
+   "p1": "Um balão de ar quente sobe do círculo verde de saída para um céu de amanhecer. Seu caminho é uma estrada de nuvens, e nas nuvens há números escritos. Lá em cima espera um arco-íris. O caminho certo conta de 5 em 5: 5, 10, 15, 20 e assim até 100. Um avião de papel, uma gaivota e o sol dividem o céu.",
+   "p2": "Contar de 5 em 5 é uma aprendizagem do 2º ano, e neste labirinto o salto é a regra. A maioria das nuvens erradas também termina em 0 ou em 5, então a criança não pode pegar qualquer número que pareça certo: as nuvens erradas pulam longe demais, voltam ou repetem um número que já passou. Para escolher, é preciso somar 5 ao número da última nuvem a cada vez. Contar em voz alta enquanto traça, e conferir que cada número tem exatamente 5 a mais, mantém o balão no rumo até o 100.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o balão de nuvem em nuvem e toca em Verificar, e com um gabarito que mostra colorido o caminho da contagem. Na mesma série, o labirinto dos números conta de 1 a 20 para a educação infantil, e o labirinto até 100 soma e subtrai de placa em placa. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g2392",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto matemático 2º ano: conte de 5 em 5 até 100 | PDF",
+   "metaDescription": "Labirinto matemático para o 2º ano: pule de nuvem em nuvem contando de 5 em 5, de 5 a 100, para levar o balão de ar quente ao arco-íris. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-matematico-1-ano-somas-que-dao-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Labirinto matemático",
+   "h1": "Labirinto matemático: pise só nas somas que dão 10",
+   "strand": "Números",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Uma savana empoeirada se estende pela folha. Uma girafa sai do círculo verde, ao lado de um círculo com o número 10, e um baobá espera do outro lado. Os caminhos passam por pedras chatas, e cada pedra traz uma soma como 6 + 4 ou 7 + 4. Uma zebra, um elefante, um rinoceronte, um avestruz, um suricato e uma gazela ficam na planície em volta dos caminhos.",
+   "p2": "A girafa só pode pisar nas pedras cuja soma dá 10. Cada pedra do caminho certo é um par que forma 10, e as pedras erradas são armadilhas próximas que dão 9 ou 11, muitas vezes com um número em comum com um par certo, então a criança precisa somar de verdade em vez de reconhecer um número conhecido. Os pares que formam 10 são a base da adição e da subtração no 1º ano, porque grande parte do cálculo mental que vem depois se apoia neles. No começo, a criança pode dizer cada soma em voz alta ou contar nos dedos.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva a girafa pelas pedras e toca em Verificar, e com um gabarito que mostra colorido o caminho das somas que dão 10. Na mesma série, o labirinto do boneco de gengibre pratica subtrações até 20, e o labirinto do 2º ano faz uma conta ao longo de várias placas. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1427",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto matemático 1º ano: somas que dão 10 | PDF para imprimir",
+   "metaDescription": "Labirinto matemático para o 1º ano: a girafa só pisa nas somas que dão 10; as que dão 9 ou 11 são armadilhas. PDF para imprimir, versão na tela e gabarito."
+  },
+  {
+   "slug": "labirinto-de-subtracao-ate-20-boneco-de-gengibre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "1o-ano"
+   },
+   "eyebrow": "Labirinto matemático",
+   "h1": "Labirinto de subtração até 20: ajude o boneco de gengibre",
+   "strand": "Números",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "1o-ano"
+   ],
+   "p1": "Um país de doces com caminhos em tons pastel preenche este labirinto. O boneco de gengibre sai do círculo verde, ao lado de um círculo com o número dele, e um bolo espera do outro lado. Os caminhos passam por pedras, e cada pedra traz uma subtração até 20, como 15 − 7. Cupcakes, rosquinhas, pirulitos, sorvetes, bengalas de doce e macarons enfeitam o país entre os caminhos.",
+   "p2": "A regra é rápida de dizer: pise só nas subtrações cujo resultado é o número do boneco de gengibre. Cada pedra do caminho certo dá esse resultado; as erradas erram por um ou vêm de um erro comum, então a criança precisa resolver cada uma. É subtraindo a partir de números entre 10 e 20 que, no 1º ano, se constroem as estratégias usadas por muitos anos, como voltar primeiro até o 10. Uma reta numérica curta ou tampinhas sobre a mesa ajudam bastante nas primeiras pedras.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o boneco de gengibre pelas pedras e toca em Verificar, e com um gabarito que mostra colorido o caminho certo. Na mesma série, o labirinto da girafa pratica as somas que dão 10, e o labirinto do 2º ano soma e subtrai até 100. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g1428",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto de subtração até 20 para o 1º ano: boneco de gengibre",
+   "metaDescription": "Labirinto de subtração até 20: o boneco de gengibre só pisa nas contas cujo resultado é o número dele, até chegar ao bolo. PDF para imprimir, versão na tela e gabarito."
+  },
+  {
+   "slug": "labirinto-dos-sons-iniciais-como-leao",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Labirinto dos sons",
+   "h1": "Labirinto dos sons iniciais: figuras que começam como leão",
+   "strand": "Consciência fonológica",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Uma praça de feira cor de areia vista de cima é o cenário deste labirinto dos sons. Um leão sai do círculo verde e um cesto espera do outro lado. Sobre os caminhos há cartões redondos, cada um com uma figura e nenhuma palavra: animais, frutas e coisas do dia a dia. O próprio leão é a pista, porque os cartões certos começam do jeito que começa a palavra leão.",
+   "p2": "A criança diz em voz alta o nome de cada figura e pisa só nas figuras que começam com o mesmo som de leão, como lua, leite ou laranja. Os cartões errados começam com outros sons, e alguns têm um l mais para o meio da palavra, como borboleta ou picolé: quem procura qualquer l erra o caminho. Ouvir o som inicial de uma palavra falada é uma habilidade de consciência fonológica que se trabalha na educação infantil antes da leitura, e esta folha a pratica só com figuras, para que também as crianças que ainda não leem possam brincar.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança leva o leão pelos cartões e toca em Verificar (um cartão errado é circulado em vermelho), e com um gabarito que mostra colorido o caminho do leão. Na mesma série, os labirintos do alfabeto praticam a ordem das letras, e o primeiro labirinto do cachorrinho é um começo tranquilo para a coordenação motora. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k412",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto dos sons iniciais para a educação infantil: como leão",
+   "metaDescription": "Labirinto dos sons iniciais para a educação infantil: diga o nome de cada figura e pise só nas que começam como leão, até o cesto. PDF para imprimir e gabarito."
+  },
+  {
+   "slug": "labirinto-matematico-2-ano-ate-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "2o-ano"
+   },
+   "eyebrow": "Labirinto matemático",
+   "h1": "Labirinto matemático até 100: leve ao guindaste o número dele",
+   "strand": "Números",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "2o-ano"
+   ],
+   "p1": "Um canteiro de obras com estradas de terra preenche esta folha. Um caminhão basculante vermelho sai do círculo verde com um número, e um guindaste amarelo espera do outro lado com o seu próprio número. Ao longo das estradas há placas arredondadas, cada uma com uma mudança como +10, −5 ou +2, e cada placa tem um quadradinho para escrever o novo resultado. Escavadeiras, uma betoneira, uma empilhadeira, um trator de esteira, toras e pedras enchem o canteiro em volta das estradas.",
+   "p2": "A criança começa com o número do caminhão, segue uma estrada e, nessa estrada, escreve o novo número no quadradinho de cada placa por onde o caminhão passa. Só uma estrada chega exatamente ao número do guindaste. É uma conta em cadeia: somar e subtrair dezenas e unidades até 100, o cálculo mental praticado o ano inteiro no 2º ano, com cada passo escrito para que os erros sejam fáceis de achar. Outras estradas chegam bem perto do número do guindaste, então um passo feito com pressa aparece no final.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança traça o caminho do caminhão e toca em Verificar, e com um gabarito que mostra o caminho certo e cada resultado. Na mesma série, o labirinto matemático conta de 5 em 5 até 100, e o labirinto da girafa pratica as somas que dão 10. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-g2393",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto matemático 2º ano: somar e subtrair até 100 | PDF",
+   "metaDescription": "Labirinto matemático para o 2º ano: o caminhão basculante começa com um número, cada placa soma ou subtrai, e só um caminho chega ao número do guindaste. PDF."
+  },
+  {
+   "slug": "labirinto-para-colorir-caranguejo-praia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "educacao-infantil"
+   },
+   "eyebrow": "Labirinto para colorir",
+   "h1": "Labirinto para colorir: o caranguejo na praia",
+   "strand": "Coordenação motora fina",
+   "slotTokens": [
+    "atividades-de-labirinto",
+    "educacao-infantil"
+   ],
+   "p1": "Esta praia foi desenhada só com linhas pretas, pronta para os lápis de cor. Um caranguejo espera na saída, um castelo de areia fica do outro lado, e um caminho largo com duas bordas serpenteia pela areia entre os dois, com alguns desvios que terminam. Em volta do caminho há uma praia inteira para colorir: o mar no alto com um barco e um peixe, um coqueiro, um guarda-sol, uma bola de praia, um balde e uma estrela-do-mar.",
+   "p2": "A folha pede três coisas, uma depois da outra. Primeiro, a criança encontra o caminho do caranguejo e o traça. Depois pinta todo o caminho, de borda a borda: uma pintura caprichada dentro de uma faixa larga, ótima para a coordenação motora. Por último vem a praia, pintada do jeito que a criança quiser. Resolver o labirinto antes do desenho dá uma ordem natural à tarefa, e um caminho pintado mostra a resposta com clareza.",
+   "p3": "A folha vem em PDF para imprimir, numa versão na tela em que a criança traça o caminho do caranguejo e toca em Verificar, e com um gabarito em que o caminho está preenchido. Na mesma série, o primeiro labirinto do cachorrinho e o labirinto do ouriço no pomar são desenhados em cores. São labirintos ilustrados que contam uma história; labirintos quadriculados, ligue os pontos e ordem de palavras têm páginas próprias.",
+   "canonicalDeckSlug": "atividades-de-labirinto-k413",
+   "carousel": [
+    {
+     "label": "Labirinto infantil: ajude o ouriço a chegar à macieira",
+     "href": "labirinto-infantil-ourico-macieira"
+    },
+    {
+     "label": "Labirinto de coordenação motora: ajude o cachorrinho a chegar à bola",
+     "href": "labirinto-coordenacao-motora-cachorrinho-bola"
+    },
+    {
+     "label": "Labirinto grande: o caminho do orangotango até a bananeira",
+     "href": "labirinto-grande-1-ano-selva-orangotango"
+    },
+    {
+     "label": "Labirinto do rio: leve o barquinho até o ursinho",
+     "href": "labirinto-do-rio-barquinho-ursinho"
+    }
+   ],
+   "title": "Labirinto para colorir: o caranguejo na praia | PDF para imprimir",
+   "metaDescription": "Labirinto para colorir para a educação infantil: trace o caminho do caranguejo até o castelo de areia, pinte todo o caminho e depois pinte a praia. PDF e gabarito."
   }
  ]
 }

@@ -40,7 +40,7 @@ for (const loc of LOCS) {
     if (typeof v.title === 'string') haveTitle.set(v.title, id);
     if (typeof v.instruction === 'string') haveInstr.set(v.instruction, id);
   }
-  let nBanks = 0;
+  let nBanks = 0; const checkedBefore = checked;
   for (const f of fs.readdirSync(BANK_DIR)) {
     if (!f.endsWith(`.${loc}.json`)) continue;
     const fam = f.slice(0, -(`.${loc}.json`).length);
@@ -64,7 +64,9 @@ for (const loc of LOCS) {
   }
   // a locale whose panel has not been applied yet has 0 banks: skipped, unless --all (the release run) demands every locale.
   if (nBanks === 0 && !process.argv.includes('--all')) { console.log(`skip ${loc}: not applied yet`); continue; }
-  if (nBanks < 2) { console.error(`VACUOUS: only ${nBanks} banks read for ${loc}`); process.exit(1); }   // b8: the two flagship families, neither refusable whole-family
+  // b8 is ONE family (maze-puzzles, 20 modes × title + instruction): the floor is the bank AND its strings, so a bank that
+  // lost its modes cannot pass as 'checked'
+  if (nBanks < 1 || checked - checkedBefore < 30) { console.error(`VACUOUS: ${nBanks} bank(s), ${checked - checkedBefore} strings read for ${loc}`); process.exit(1); }
   banksRead += nBanks;
 }
 console.log(`\n${checked} bank strings checked across ${banksRead} banks; ${divergences} not present in the built i18n`);

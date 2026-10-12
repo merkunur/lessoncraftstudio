@@ -4819,10 +4819,30 @@
       },
       "maze-puzzles": {
         "slug": {
-          "en": "maze-puzzles"
+          "en": "maze-puzzles",
+          "de": "labyrinth-raetsel",
+          "fr": "jeux-de-labyrinthe",
+          "es": "juegos-de-laberinto",
+          "pt": "atividades-de-labirinto",
+          "it": "percorsi-e-labirinti",
+          "nl": "doolhofpuzzels",
+          "sv": "labyrintpyssel",
+          "da": "labyrintopgaver",
+          "no": "labyrintoppgaver",
+          "fi": "labyrinttitehtavat"
         },
         "name": {
-          "en": "Maze Puzzles"
+          "en": "Maze Puzzles",
+          "de": "Labyrinth-Rätsel",
+          "fr": "Jeux de labyrinthe",
+          "es": "Juegos de laberinto",
+          "pt": "Atividades de labirinto",
+          "it": "Percorsi e labirinti",
+          "nl": "Doolhofpuzzels",
+          "sv": "Labyrintpyssel",
+          "da": "Labyrintopgaver",
+          "no": "Labyrintoppgaver",
+          "fi": "Labyrinttitehtävät"
         }
       }
     },

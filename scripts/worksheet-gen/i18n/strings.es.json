@@ -3098,5 +3098,105 @@
   "G2-391": {
     "title": "Dibuja {L} de memoria",
     "instruction": "Mira la mariposa, dobla la hoja hacia atrás por la línea punteada para que ya no la veas y dibújala de memoria en el papel grande."
+  },
+  "K-405": {
+    "title": "Laberinto para niños: el erizo y el manzano",
+    "instruction": "Ayuda al erizo a llegar al manzano. Dibuja una línea por el camino.",
+    "printTitle": "Ayuda al erizo a llegar al manzano"
+  },
+  "K-406": {
+    "title": "Mi primer laberinto para preescolar",
+    "instruction": "Ayuda al perrito a llegar a la pelota. Dibuja una línea por el camino ancho sin salirte de las orillas.",
+    "printTitle": "Ayuda al perrito a llegar a la pelota"
+  },
+  "G1-420": {
+    "title": "Laberinto grande para primer grado: la selva",
+    "instruction": "Primero mira todo el laberinto. Luego dibuja el camino del orangután hasta la mata de plátano.",
+    "printTitle": "Ayuda al orangután a encontrar la mata de plátano"
+  },
+  "K-407": {
+    "title": "Laberinto del río: el barquito y el osito",
+    "instruction": "Ayuda al barquito a navegar por el arroyo hasta el osito de peluche del muelle. Dibuja una línea por el agua.",
+    "printTitle": "Lleva el barquito hasta el osito"
+  },
+  "G1-421": {
+    "title": "Laberinto bajo tierra: los túneles de la hormiga",
+    "instruction": "Ayuda a la hormiga a bajar y subir por los túneles hasta la frambuesa. Dibuja una línea por el camino.",
+    "printTitle": "Ayuda a la hormiga a llegar a su frambuesa"
+  },
+  "G1-422": {
+    "title": "Laberinto de la ciudad: el camino más corto",
+    "instruction": "Muchas calles llevan al carro verde. Dibuja el camino más corto para la grúa y escribe cuántos tramos de calle recorre.",
+    "printTitle": "El camino más corto hasta el carro verde"
+  },
+  "K-408": {
+    "title": "Laberinto: las crías buscan a su mamá",
+    "instruction": "Ayuda a cada cría a encontrar a su propia mamá. Dibuja una línea de cada cría hasta su mamá.",
+    "printTitle": "Ayuda a cada cría a encontrar a su mamá"
+  },
+  "G1-423": {
+    "title": "Líneas enredadas: ¿de quién es el papalote?",
+    "instruction": "Sigue cada hilo desde un animal hasta su papalote o su globo. Escribe el número del animal en el cuadro de arriba.",
+    "printTitle": "¿De quién es el papalote?"
+  },
+  "G1-424": {
+    "title": "Laberinto: recoge todas las zanahorias",
+    "instruction": "Ayuda al conejo a llegar a la cubeta y recoge cada zanahoria en el camino. Marca un círculo por cada zanahoria.",
+    "printTitle": "Ayuda al conejo a recoger todas las zanahorias"
+  },
+  "G1-425": {
+    "title": "Laberinto: esquiva a las morsas",
+    "instruction": "Ayuda al oso polar a llegar al iglú. No pases por ninguna morsa ni por ningún hoyo en el hielo.",
+    "printTitle": "Lleva al oso polar a casa sin peligro"
+  },
+  "K-409": {
+    "title": "Laberinto del abecedario: el cohete a la luna",
+    "instruction": "Ayuda al cohete a volar hasta la luna. En cada cruce, ve a la piedra con la siguiente letra del abecedario.",
+    "printTitle": "Vuela a la luna de la A a la Z"
+  },
+  "K-410": {
+    "title": "Laberinto de letras minúsculas: el mar",
+    "instruction": "Ayuda al pez payaso a nadar hasta el coral. En cada cruce, ve a la burbuja con la siguiente letra minúscula.",
+    "printTitle": "Nada a casa de la a a la z"
+  },
+  "G1-426": {
+    "title": "Salta las letras en orden: el panal",
+    "instruction": "Empieza en la celda que señala la flecha. Colorea la siguiente letra del abecedario en una celda vecina, hasta llegar a la {LAST}.",
+    "printTitle": "Salta por el panal en orden alfabético"
+  },
+  "K-411": {
+    "title": "Laberinto de números del 1 al 20: el tren",
+    "instruction": "Ayuda al tren a llegar a la cabaña. En cada cruce, ve al número que sigue, del 1 al 20.",
+    "printTitle": "Cuenta con el tren hasta la cabaña"
+  },
+  "G2-392": {
+    "title": "Laberinto de números: cuenta de 5 en 5",
+    "instruction": "Ayuda al globo aerostático a llegar al arcoíris. Cuenta de 5 en 5 de nube en nube hasta el 100.",
+    "printTitle": "Cuenta de 5 en 5 hasta el arcoíris"
+  },
+  "G1-427": {
+    "title": "Laberinto de sumas que dan 10 para primer grado",
+    "instruction": "Ayuda a la jirafa a llegar al baobab. Pisa solo las piedras cuya suma da 10.",
+    "printTitle": "Pisa solo las sumas que dan 10"
+  },
+  "G1-428": {
+    "title": "Laberinto de restas hasta 20",
+    "instruction": "Mira el número junto al hombre de jengibre. Pisa solo las piedras cuyo resultado es ese número.",
+    "printTitle": "Ayuda al hombre de jengibre a llegar al pastel"
+  },
+  "K-412": {
+    "title": "Laberinto de sonidos iniciales: como león",
+    "instruction": "Di el nombre de cada dibujo. Pisa solo los dibujos que empiezan con el mismo sonido que león.",
+    "printTitle": "Dibujos que empiezan como león"
+  },
+  "G2-393": {
+    "title": "Laberinto de sumas y restas para segundo grado",
+    "instruction": "Empieza con el número del camión y escribe el nuevo número en el cuadro de cada letrero. Encuentra el camino que termina en el número de la grúa.",
+    "printTitle": "Lleva a la grúa su número"
+  },
+  "K-413": {
+    "title": "Laberinto para colorear: el cangrejo en la playa",
+    "instruction": "Dibuja el camino del cangrejo hasta el castillo de arena y colorea todo el camino. Luego colorea el dibujo de la playa.",
+    "printTitle": "Resuelve el laberinto y colorea la playa"
   }
 }

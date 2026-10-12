@@ -449,5 +449,9 @@
     "short": "Imparare a disegnare animali passo dopo passo",
     "levelSetFull": "Il bambino impara a disegnare una figura passo dopo passo: prima il contorno, poi le linee nuove di ogni passaggio, fino al disegno completo.",
     "levelSetShort": "Imparare a disegnare passo dopo passo."
+  },
+  "maze-puzzles": {
+    "full": "Tracciare una linea in un labirinto illustrato e scegliere a ogni incrocio la lettera, il numero o il calcolo successivo sviluppa pianificazione e tratto; con soluzioni.",
+    "short": "Sviluppa pianificazione e tratto in un labirinto illustrato."
   }
 }

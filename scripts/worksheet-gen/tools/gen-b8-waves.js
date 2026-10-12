@@ -119,7 +119,7 @@ function writeWave(id, locale, m) {
     themesPerType: 1, difficulties: [2],
     types: m.types.slice().sort(),
     themeOverrides: m.pins,
-    unitOverrides: m.units || {},
+    ...(m.units && Object.keys(m.units).length ? { unitOverrides: m.units } : {}),   // an empty map trips cli's unit-axis guard
     // find-the-differences decks ship PDF + tap screen + answer key (the family is uniformly interactive); how-to-draw
     // declares no `interactive`, so the same flag leaves it printable-only
     interactive: true,
@@ -139,12 +139,13 @@ const baseIds = new Set(FAMILIES.map(([id]) => id));
 const faceIds = new Set(alloc.faces.map((f) => f.id));
 const bases = all.filter((s) => baseIds.has(s.id));
 const faces = all.filter((s) => faceIds.has(s.id));
-if (bases.length !== 2 || faces.length !== 20) throw new Error(`expected 2 bases + 20 faces on disk, found ${bases.length} + ${faces.length}`);
+// the counts come from the family list and the id allocation (b8: 1 base + 19 faces), never from a constant
+if (bases.length !== baseIds.size || faces.length !== faceIds.size) throw new Error(`expected ${baseIds.size} bases + ${faceIds.size} faces on disk, found ${bases.length} + ${faces.length}`);
 
 for (const loc of LOCALES) {
   const mb = measure(bases, loc), mf = measure(faces, loc);
   const wb = writeWave('wave-b8-' + loc, loc, mb), wf = writeWave('wave-b8var-' + loc, loc, mf);
-  console.log(`${loc}: base ${wb.n}/2 (${wb.refused} refused, ${wb.themes} themes) · faces ${wf.n}/20 (${wf.refused} refused, ${wf.themes} themes)${DRY ? '  [dry-run]' : ''}`);
+  console.log(`${loc}: base ${wb.n}/${baseIds.size} (${wb.refused} refused, ${wb.themes} themes) · faces ${wf.n}/${faceIds.size} (${wf.refused} refused, ${wf.themes} themes)${DRY ? '  [dry-run]' : ''}`);
   for (const [id, why] of Object.entries({ ...mb.refused, ...mf.refused })) console.log('   refused ' + id + ': ' + why);
 }}
 

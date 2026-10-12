@@ -40,24 +40,24 @@ const { FAMILIES } = require(path.join(WSG, 'tools', 'gen-b8var-specs.js'));
 const ALLOC = require(path.join(ROOT, 'docs', 'worksheet-gen', 'b8-designs', '_records', 'b8var-id-allocation.json'));
 const { loadType } = require(path.join(WSG, 'lib', 'load-types.js'));
 const freeClaim = require(path.join(ROOT, 'scripts', 'lib', 'free-claim.js'));
-// b8 printables ship with NO answer key, so no field may promise one. Only the answer-KEY
-// collocations are banned - the bare word "answer" is correct prose on these very pages.
+// The answer-key ban below is the b7 how-to-draw family's (a PDF-only family). Every b8 maze deck SHIPS an answer key
+// and a draw-the-way screen, and its landing says so; the check never fires for maze-puzzles.
 const ANSWER_KEY_CLAIM = /with answers?|answer keys?|mit l\u00f6sung(?:en)?|con (?:las )?respuestas|com (?:as )?respostas|avec (?:le )?corrig\u00e9|con (?:le )?soluzioni|met (?:de )?antwoorden|med facit(?:liste)?|med fasit|vastauksineen|vastausten kanssa/i;
 freeClaim.selfTest();
 
 /**
  * Per-id CCSS code (JSON-LD `educationalAlignment.targetName`, the machine anchor in every
- * locale per §20.10), or null for a face with no honest standard. Transcribed from each b8
- * final §1 "CCSS (en, honest)" row: only story-sequencing carries CCSS; health, habitats,
- * sink-or-float and cursive name NHES / NGSS / state statutes in en PROSE only.
+ * locale per §20.10), or null for a face with no honest standard. Transcribed from the K-405
+ * final §1 "CCSS en (honest)" row.
  */
 const STANDARD = {
-  // find-the-differences (K-395 §1 "CCSS en (honest)": visual discrimination has no CCSS code; ONLY the how-many face
-  // claims K.CC.B.5 — count the circles, write the numeral). how-to-draw (K-396): none on any face.
-  'G1-413': 'K.CC.B.5',
-  'K-395': null, 'K-397': null, 'K-398': null, 'G1-412': null, 'G2-388': null, 'G1-414': null, 'G1-415': null, 'K-399': null, 'K-400': null, 'G2-389': null,
-  'K-396': null, 'K-401': null, 'K-402': null, 'K-403': null, 'G1-416': null, 'K-404': null, 'G1-417': null, 'G1-418': null, 'G1-419': null, 'G2-390': null, 'G2-391': null,
-};
+  // b8 Handmade Mazes (K-405 FINAL §1 "CCSS en (honest, d2)"): the letter, number, sound and maths faces only; the
+  // picture mazes (base, F2-F10, F13, F20) teach readiness (visual-motor integration, planning) — no K-2 code
+  'K-409': 'RF.K.1.d', 'K-410': 'RF.K.1.d', 'K-411': 'K.CC.A.1', 'G2-392': '2.NBT.A.2', 'G1-427': '1.OA.C.6', 'G1-428': '1.OA.C.6',
+  'K-412': 'RF.K.2.d', 'G2-393': '2.NBT.B.5',
+  'K-405': null, 'K-406': null, 'G1-420': null, 'K-407': null, 'G1-421': null, 'G1-422': null, 'K-408': null, 'G1-423': null,
+  'G1-424': null, 'G1-425': null, 'G1-426': null, 'K-413': null,
+}
 
 // per-locale coordinate.level keys — must match the keys already in each corpus
 // (measured: every locale's corpus already carries its G3 key from nt20/nt20-B)
@@ -98,7 +98,8 @@ const addType = (id, isBase) => {
 };
 for (const [baseId] of FAMILIES) addType(baseId, true);
 for (const f of ALLOC.faces) addType(f.id, false);
-if (Object.keys(TYPES).length !== 22) fail('face table has ' + Object.keys(TYPES).length + ' ids, expected 22');
+const WANT_N = FAMILIES.length + ALLOC.faces.length;   // b8: 1 base + 19 faces
+if (Object.keys(TYPES).length !== WANT_N) fail('face table has ' + Object.keys(TYPES).length + ' ids, expected ' + WANT_N);
 for (const id of Object.keys(STANDARD)) if (!TYPES[id]) fail('STANDARD names an id that is not a b8 type: ' + id);
 // a face's mode must be unique within its family — coordKey is type|mode|theme
 {
@@ -179,8 +180,14 @@ const deckSlugFor = (id) => {
 // Level = the id band, EXCEPT where the family's bank publishes per-locale levels per build mode
 // (cursive-writing: a locale's joined script starts in its own school year — fr CP for every face,
 // it/nl/pt split by face). A bank level must be one of this locale's level keys or the build aborts.
+// b8 level rulings (K-405 FINAL §1 table B): the PreK face is 'preschool' in en (other locales: their K key, the PreK
+// word rides in the title); where a country teaches the alphabet / counting to 20 in its first school year, the letter
+// and number faces sit there (de 1. Klasse, it classe prima for F11 F12 F14; nl groep 3 for F11 F12).
+const LEVEL_SHIFT = { de: ['abc-capitals', 'abc-lowercase', 'numbers-20'], it: ['abc-capitals', 'abc-lowercase', 'numbers-20'], nl: ['abc-capitals', 'abc-lowercase'] };
 const levelFor = (id) => {
   const t = TYPES[id];
+  if (t.buildMode === 'first-maze' && locale === 'en') return 'preschool';
+  if ((LEVEL_SHIFT[locale] || []).includes(t.buildMode)) return LEVEL_KEYS[locale].G1;
   const byBand = LEVEL_KEYS[locale][t.band];
   if (t.family !== 'cursive-writing') return byBand;
   let bank;

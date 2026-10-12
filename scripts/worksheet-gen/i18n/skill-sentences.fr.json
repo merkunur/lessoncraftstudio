@@ -449,5 +449,9 @@
     "short": "Apprendre à dessiner des animaux étape par étape",
     "levelSetFull": "L'enfant apprend à dessiner une image étape par étape : d'abord le contour, puis les nouveaux traits de chaque étape, jusqu'au dessin complet.",
     "levelSetShort": "Apprendre à dessiner étape par étape."
+  },
+  "maze-puzzles": {
+    "full": "Tracer une ligne dans un labyrinthe illustré et choisir à chaque croisement la lettre, le nombre ou le calcul suivant développe l'anticipation et le geste ; avec corrigé.",
+    "short": "Développe l'anticipation et le geste dans un labyrinthe."
   }
 }

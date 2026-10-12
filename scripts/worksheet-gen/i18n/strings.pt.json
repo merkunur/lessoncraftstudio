@@ -3120,5 +3120,105 @@
   "G2-391": {
     "title": "Desenhe {L} de memória",
     "instruction": "Olhe bem a borboleta, dobre a folha na linha pontilhada para não ver mais o desenho e depois desenhe a borboleta de memória no papel grande."
+  },
+  "K-405": {
+    "title": "Labirinto infantil: o ouriço e a macieira",
+    "instruction": "Ajude o ouriço a chegar à macieira. Desenhe uma linha pelo caminho.",
+    "printTitle": "Ajude o ouriço a chegar à macieira"
+  },
+  "K-406": {
+    "title": "Labirinto de coordenação motora: o cachorrinho",
+    "instruction": "Ajude o cachorrinho a chegar à bola. Desenhe uma linha no caminho largo sem sair das bordas.",
+    "printTitle": "Ajude o cachorrinho a chegar à bola"
+  },
+  "G1-420": {
+    "title": "Labirinto grande 1º ano: a selva",
+    "instruction": "Primeiro olhe o labirinto inteiro. Depois desenhe o caminho do orangotango até a bananeira.",
+    "printTitle": "Ajude o orangotango a encontrar a bananeira"
+  },
+  "K-407": {
+    "title": "Labirinto do rio: o barquinho e o ursinho",
+    "instruction": "Ajude o barquinho a descer o riacho até o ursinho de pelúcia no cais. Desenhe uma linha pela água.",
+    "printTitle": "Leve o barquinho até o ursinho"
+  },
+  "G1-421": {
+    "title": "Labirinto subterrâneo: os túneis da formiga",
+    "instruction": "Ajude a formiga a descer e subir pelos túneis até a framboesa. Desenhe uma linha pelo caminho.",
+    "printTitle": "Ajude a formiga a chegar à framboesa"
+  },
+  "G1-422": {
+    "title": "Labirinto da cidade: o caminho mais curto",
+    "instruction": "Muitas ruas levam ao carro verde. Desenhe o caminho mais curto para o guincho e escreva quantos trechos de rua ele percorre.",
+    "printTitle": "O caminho mais curto até o carro verde"
+  },
+  "K-408": {
+    "title": "Labirinto: os filhotes e suas mães",
+    "instruction": "Ajude cada filhote a encontrar a sua própria mãe. Desenhe uma linha de cada filhote até a mãe dele.",
+    "printTitle": "Ajude cada filhote a encontrar a mãe"
+  },
+  "G1-423": {
+    "title": "Linhas emaranhadas: de quem é a pipa?",
+    "instruction": "Siga cada linha de um animal até a pipa ou o balão dele. Escreva o número do animal no quadradinho acima.",
+    "printTitle": "De quem é a pipa?"
+  },
+  "G1-424": {
+    "title": "Labirinto: pegue todas as cenouras",
+    "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura no caminho. Marque um círculo para cada cenoura.",
+    "printTitle": "Ajude o coelho a pegar todas as cenouras"
+  },
+  "G1-425": {
+    "title": "Labirinto: desvie das morsas",
+    "instruction": "Ajude o urso-polar a chegar ao iglu. Não passe por nenhuma morsa nem por nenhum buraco no gelo.",
+    "printTitle": "Leve o urso-polar para casa em segurança"
+  },
+  "K-409": {
+    "title": "Labirinto do alfabeto: o foguete até a lua",
+    "instruction": "Ajude o foguete a voar até a lua. Em cada cruzamento, vá até a pedra com a próxima letra do alfabeto.",
+    "printTitle": "Voe até a lua de A a Z"
+  },
+  "K-410": {
+    "title": "Labirinto das letras minúsculas: o fundo do mar",
+    "instruction": "Ajude o peixe-palhaço a nadar até o coral. Em cada cruzamento, vá até a bolha com a próxima letra minúscula.",
+    "printTitle": "Nade para casa de a a z"
+  },
+  "G1-426": {
+    "title": "Pule as letras em ordem: a colmeia",
+    "instruction": "Comece na casinha para onde a seta aponta. Pinte a próxima letra do alfabeto em uma casinha vizinha, até chegar ao {LAST}.",
+    "printTitle": "Pule pela colmeia em ordem alfabética"
+  },
+  "K-411": {
+    "title": "Labirinto dos números de 1 a 20: o trem",
+    "instruction": "Ajude o trem a chegar à cabana. Em cada cruzamento, vá até o próximo número, de 1 a 20.",
+    "printTitle": "Conte com o trem até a cabana"
+  },
+  "G2-392": {
+    "title": "Labirinto matemático: conte de 5 em 5",
+    "instruction": "Ajude o balão de ar quente a chegar ao arco-íris. Conte de 5 em 5, de nuvem em nuvem, até 100.",
+    "printTitle": "Conte de 5 em 5 até o arco-íris"
+  },
+  "G1-427": {
+    "title": "Labirinto matemático 1º ano: somas que dão 10",
+    "instruction": "Ajude a girafa a chegar ao baobá. Pise só nas pedras cuja soma dá 10.",
+    "printTitle": "Pise só nas somas que dão 10"
+  },
+  "G1-428": {
+    "title": "Labirinto de subtração até 20",
+    "instruction": "Olhe o número ao lado do boneco de gengibre. Pise só nas pedras cujo resultado é esse número.",
+    "printTitle": "Ajude o boneco de gengibre a chegar ao bolo"
+  },
+  "K-412": {
+    "title": "Labirinto dos sons iniciais: como leão",
+    "instruction": "Diga o nome de cada figura. Pise só nas figuras que começam com o mesmo som de leão.",
+    "printTitle": "Figuras que começam como leão"
+  },
+  "G2-393": {
+    "title": "Labirinto matemático 2º ano: até 100",
+    "instruction": "Comece com o número do caminhão e escreva o novo número no quadradinho de cada placa. Ache o caminho que termina no número do guindaste.",
+    "printTitle": "Leve ao guindaste o número dele"
+  },
+  "K-413": {
+    "title": "Labirinto para colorir: o caranguejo na praia",
+    "instruction": "Desenhe o caminho do caranguejo até o castelo de areia e pinte o caminho todo. Depois pinte o desenho da praia.",
+    "printTitle": "Resolva o labirinto e pinte a praia"
   }
 }

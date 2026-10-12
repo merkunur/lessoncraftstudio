@@ -448,5 +448,9 @@
     "short": "Opi piirtämään eläimiä vaihe vaiheelta",
     "levelSetFull": "Lapsi oppii piirtämään kuvan vaihe vaiheelta: ensin ääriviiva ja sitten jokaisen vaiheen uudet viivat, kunnes koko piirustus on valmis.",
     "levelSetShort": "Opi piirtämään vaihe vaiheelta."
+  },
+  "maze-puzzles": {
+    "full": "Viivan piirtäminen kuvalabyrintin läpi ja seuraavan kirjaimen, luvun tai laskun valitseminen jokaisessa risteyksessä harjoittaa suunnittelua ja kynäotetta; vastauksineen.",
+    "short": "Harjoittaa suunnittelua ja kynäotetta kuvalabyrintissa."
   }
 }

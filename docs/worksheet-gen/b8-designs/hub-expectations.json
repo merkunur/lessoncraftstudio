@@ -1,0 +1,54 @@
+{
+ "source": "docs/worksheet-gen/b8-designs/README.md (hub-gate expectation matrix)",
+ "locales": [
+  "en",
+  "de",
+  "es",
+  "pt",
+  "fr",
+  "it",
+  "nl",
+  "sv",
+  "da",
+  "no",
+  "fi"
+ ],
+ "keys": {
+  "maze-puzzles": {
+   "en": 20,
+   "de": 20,
+   "es": 20,
+   "pt": 20,
+   "fr": 20,
+   "it": 20,
+   "nl": 20,
+   "sv": 20,
+   "da": 20,
+   "no": 20,
+   "fi": 20
+  }
+ },
+ "ceiling": {
+  "maze-puzzles": {
+   "en": 20,
+   "de": 20,
+   "es": 20,
+   "pt": 20,
+   "fr": 20,
+   "it": 20,
+   "nl": 20,
+   "sv": 20,
+   "da": 20,
+   "no": 20,
+   "fi": 20
+  }
+ },
+ "notes": {
+  "maze-puzzles": "no refusals"
+ },
+ "controls": {
+  "articles": 4,
+  "word-tracing": 7,
+  "letter-tracing": 6
+ }
+}

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-411',
   slug: 'number-maze-1-to-20',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Number Maze 1 to 20: The Little Train", instruction: "Help the train get to the cabin. At every fork, go to the next number from 1 to 20.", printTitle: "Count the Train to the Cabin" } },
+  i18n: { en: { title: "Number Maze 1 to 20: The Little Train", instruction: "Help the train get to the cabin. At every fork, go to the next number from 1 to 20.", printTitle: "Count Along with the Train to the Cabin" } },
 };

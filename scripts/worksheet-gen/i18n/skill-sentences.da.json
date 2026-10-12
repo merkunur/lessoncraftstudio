@@ -449,5 +449,9 @@
     "short": "Lær at tegne dyr trin for trin ud fra enkle former",
     "levelSetFull": "Børnene lærer at tegne et billede trin for trin: først omridset og så de nye streger i hvert trin, til hele tegningen er færdig.",
     "levelSetShort": "Lær at tegne et billede trin for trin."
+  },
+  "maze-puzzles": {
+    "full": "At tegne en streg gennem en billedlabyrint og ved hver vejgaffel vælge det næste bogstav, tal eller regnestykke træner planlægning og blyantsgreb; med facit.",
+    "short": "Træner planlægning og blyantsgreb i en billedlabyrint."
   }
 }

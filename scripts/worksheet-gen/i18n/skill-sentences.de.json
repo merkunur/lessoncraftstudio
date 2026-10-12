@@ -449,5 +449,9 @@
     "short": "Tiere Schritt für Schritt zeichnen lernen",
     "levelSetFull": "Kinder lernen, ein Bild Schritt für Schritt zu zeichnen: zuerst den Umriss, dann die neuen Linien jedes Schritts, bis die ganze Zeichnung fertig ist.",
     "levelSetShort": "Schritt für Schritt zeichnen lernen."
+  },
+  "maze-puzzles": {
+    "full": "Eine Linie durch ein Bilderlabyrinth zeichnen und an jeder Gabelung den nächsten Buchstaben, die nächste Zahl oder Aufgabe wählen: übt Planen und Stiftführung; mit Lösung.",
+    "short": "Übt Planen und Stiftführung im Bilderlabyrinth."
   }
 }

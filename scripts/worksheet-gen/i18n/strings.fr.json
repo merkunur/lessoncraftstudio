@@ -3115,5 +3115,105 @@
   "G2-391": {
     "title": "Dessine {L} de mémoire",
     "instruction": "Regarde bien le papillon, plie la page sur la ligne en pointillés pour le cacher, puis dessine-le de mémoire dans le grand cadre."
+  },
+  "K-405": {
+    "title": "Jeu de labyrinthe : le hérisson et le pommier",
+    "instruction": "Aide le hérisson à aller jusqu'au pommier. Trace une ligne le long du chemin.",
+    "printTitle": "Aide le hérisson à rejoindre le pommier"
+  },
+  "K-406": {
+    "title": "Mon premier labyrinthe : maternelle MS",
+    "instruction": "Aide le chien à aller jusqu'au ballon. Trace une ligne sur le large chemin sans dépasser les bords.",
+    "printTitle": "Aide le chien à rejoindre le ballon"
+  },
+  "G1-420": {
+    "title": "Grand labyrinthe CP : la jungle",
+    "instruction": "Regarde d'abord tout le labyrinthe. Trace ensuite le chemin de l'orang-outan jusqu'au bananier.",
+    "printTitle": "Aide l'orang-outan à trouver le bananier"
+  },
+  "K-407": {
+    "title": "Labyrinthe de la rivière : le bateau et le nounours",
+    "instruction": "Aide le bateau à descendre le ruisseau jusqu'au nounours sur le ponton. Trace une ligne dans l'eau.",
+    "printTitle": "Conduis le bateau jusqu'au nounours"
+  },
+  "G1-421": {
+    "title": "Labyrinthe souterrain : les galeries de la fourmi",
+    "instruction": "Aide la fourmi à descendre et remonter dans les galeries jusqu'à la framboise. Trace une ligne le long du chemin.",
+    "printTitle": "Aide la fourmi à rejoindre sa framboise"
+  },
+  "G1-422": {
+    "title": "Labyrinthe de la ville : le plus court chemin",
+    "instruction": "Beaucoup de rues mènent à la voiture verte. Trace le plus court chemin pour la dépanneuse et écris combien de morceaux de rue il compte.",
+    "printTitle": "Le plus court chemin jusqu'à la voiture verte"
+  },
+  "K-408": {
+    "title": "Labyrinthe : les bébés retrouvent leur maman",
+    "instruction": "Aide chaque bébé animal à retrouver sa maman. Trace une ligne de chaque bébé jusqu'à sa maman.",
+    "printTitle": "Aide chaque petit à retrouver sa maman"
+  },
+  "G1-423": {
+    "title": "Fils emmêlés : à qui est le cerf-volant ?",
+    "instruction": "Suis chaque fil d'un animal jusqu'à son cerf-volant ou son ballon. Écris le numéro de l'animal dans la case au-dessus.",
+    "printTitle": "À qui est le cerf-volant ?"
+  },
+  "G1-424": {
+    "title": "Labyrinthe : ramasse toutes les carottes",
+    "instruction": "Aide le lapin à aller jusqu'au seau en ramassant chaque carotte. Coche un rond pour chaque carotte.",
+    "printTitle": "Aide le lapin à ramasser toutes les carottes"
+  },
+  "G1-425": {
+    "title": "Labyrinthe : évite les morses",
+    "instruction": "Aide l'ours polaire à rejoindre l'igloo. Ne passe par aucun morse ni aucun trou dans la glace.",
+    "printTitle": "Ramène l'ours polaire chez lui"
+  },
+  "K-409": {
+    "title": "Labyrinthe des lettres capitales : la fusée",
+    "instruction": "Aide la fusée à voler jusqu'à la lune. À chaque croisement, va vers la pierre avec la lettre suivante de l'alphabet.",
+    "printTitle": "Envole-toi vers la lune de A à Z"
+  },
+  "K-410": {
+    "title": "Labyrinthe des lettres minuscules : la mer",
+    "instruction": "Aide le poisson-clown à nager jusqu'au corail. À chaque croisement, va vers la bulle avec la minuscule suivante.",
+    "printTitle": "Rentre à la maison à la nage, de a à z"
+  },
+  "G1-426": {
+    "title": "Labyrinthe de l'ordre alphabétique : la ruche",
+    "instruction": "Commence dans l'alvéole montrée par la flèche. Colorie la lettre suivante dans une alvéole voisine, jusqu'au {LAST}.",
+    "printTitle": "Saute d'alvéole en alvéole dans l'ordre alphabétique"
+  },
+  "K-411": {
+    "title": "Labyrinthe des nombres de 1 à 20 : le train",
+    "instruction": "Aide le train à aller jusqu'à la cabane. À chaque croisement, va vers le nombre suivant, de 1 à 20.",
+    "printTitle": "Compte avec le train jusqu'à la cabane"
+  },
+  "G2-392": {
+    "title": "Labyrinthe maths CE1 : compter de 5 en 5",
+    "instruction": "Aide la montgolfière à rejoindre l'arc-en-ciel. Compte de 5 en 5 de nuage en nuage, jusqu'à 100.",
+    "printTitle": "Compte de 5 en 5 jusqu'à l'arc-en-ciel"
+  },
+  "G1-427": {
+    "title": "Labyrinthe maths CP : les compléments à 10",
+    "instruction": "Aide la girafe à rejoindre le baobab. Marche seulement sur les pierres dont la somme fait 10.",
+    "printTitle": "Marche sur les additions qui font 10"
+  },
+  "G1-428": {
+    "title": "Labyrinthe des soustractions jusqu'à 20",
+    "instruction": "Regarde le nombre à côté du bonhomme en pain d'épices. Marche seulement sur les pierres dont le résultat est ce nombre.",
+    "printTitle": "Aide le bonhomme en pain d'épices à rejoindre le gâteau"
+  },
+  "K-412": {
+    "title": "Labyrinthe des sons : comme lion",
+    "instruction": "Dis le nom de chaque image. Marche seulement sur les images qui commencent par le même son que lion.",
+    "printTitle": "Les images qui commencent comme lion"
+  },
+  "G2-393": {
+    "title": "Labyrinthe maths CE1 : additions et soustractions",
+    "instruction": "Pars du nombre du camion et écris le nouveau nombre dans la case de chaque panneau. Trouve la route qui finit sur le nombre de la grue.",
+    "printTitle": "Apporte à la grue son nombre"
+  },
+  "K-413": {
+    "title": "Labyrinthe à colorier : le crabe à la plage",
+    "instruction": "Trace le chemin du crabe jusqu'au château de sable et colorie tout le chemin. Colorie ensuite le dessin de la plage.",
+    "printTitle": "Résous le labyrinthe, puis colorie la plage"
   }
 }

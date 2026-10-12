@@ -1,0 +1,139 @@
+{
+  "strings": {
+    "base": {
+      "title": "Labyrinth-Rätsel: Der Igel und der Apfelbaum",
+      "printTitle": "Hilf dem Igel zum Apfelbaum",
+      "instruction": "Hilf dem Igel, zum Apfelbaum zu kommen. Zeichne eine Linie entlang des Weges.",
+      "tap": "Beginne am grünen Kreis mit dem Pfeil. Ziehe den Weg entlang bis zur Fahne."
+    },
+    "first-maze": {
+      "title": "Mein erstes Labyrinth: Kita und Vorschule",
+      "printTitle": "Hilf dem Hund zum Ball",
+      "instruction": "Hilf dem Hund, zum Ball zu kommen. Zeichne eine Linie auf dem breiten Weg und bleib zwischen den Rändern.",
+      "tap": "Beginne am grünen Kreis. Ziehe auf dem breiten Weg bis zum Ball."
+    },
+    "big-maze": {
+      "title": "Großes Labyrinth-Rätsel 1. Klasse: Dschungel",
+      "printTitle": "Hilf dem Orang-Utan zur Bananenstaude",
+      "instruction": "Schau dir zuerst das ganze Labyrinth an. Zeichne dann den Weg des Orang-Utans zur Bananenstaude.",
+      "tap": "Schau zuerst und ziehe dann vom grünen Kreis bis zur Bananenstaude. Endet ein Weg, geh zurück."
+    },
+    "river": {
+      "title": "Fluss-Labyrinth: Das Boot zum Teddy",
+      "printTitle": "Fahr mit dem Boot zum Teddy",
+      "instruction": "Hilf dem Boot, den Bach entlang zum Teddy auf dem Steg zu fahren. Zeichne eine Linie durch das Wasser.",
+      "tap": "Beginne am grünen Kreis. Ziehe durch das Wasser bis zum Teddy."
+    },
+    "burrow": {
+      "title": "Labyrinth unter der Erde: Ameisengänge",
+      "printTitle": "Hilf der Ameise zu ihrer Himbeere",
+      "instruction": "Hilf der Ameise, durch die Gänge hinunter und hinauf zur Himbeere zu kommen. Zeichne eine Linie entlang des Weges.",
+      "tap": "Beginne am grünen Kreis. Ziehe durch die Gänge bis zur Himbeere."
+    },
+    "shortest-way": {
+      "title": "Stadt-Labyrinth: Finde den kürzesten Weg",
+      "printTitle": "Der kürzeste Weg zum grünen Auto",
+      "instruction": "Viele Straßen führen zum grünen Auto. Zeichne den kürzesten Weg für den Abschleppwagen und schreib auf, wie viele Straßenstücke es sind.",
+      "tap": "Ziehe den kürzesten Weg vom grünen Kreis bis zum grünen Auto."
+    },
+    "babies-mothers": {
+      "title": "Labyrinth: Tierkinder finden ihre Mütter",
+      "printTitle": "Hilf jedem Tierkind zu seiner Mutter",
+      "instruction": "Hilf jedem Tierkind, seine eigene Mutter zu finden. Zeichne von jedem Tierkind eine Linie zu seiner Mutter.",
+      "tap": "Ziehe von jedem Tierkind bis zu seiner eigenen Mutter."
+    },
+    "tangled-lines": {
+      "title": "Verflixte Schnüre: Wem gehört der Drachen?",
+      "printTitle": "Wem gehört der Drachen?",
+      "instruction": "Folge jeder Schnur von einem Tier bis zu seinem Drachen oder Ballon. Schreib die Nummer des Tieres in das Kästchen darüber.",
+      "tap": "Ziehe jede Schnur entlang vom Tier bis zu seinem Drachen oder Ballon."
+    },
+    "collect": {
+      "title": "Labyrinth: Sammle alle Karotten",
+      "printTitle": "Hilf dem Kaninchen, alle Karotten zu sammeln",
+      "instruction": "Hilf dem Kaninchen zum Eimer und sammle unterwegs jede Karotte ein. Kreuze für jede Karotte einen Kreis an.",
+      "tap": "Ziehe vom grünen Kreis bis zum Eimer. Komm an jeder Karotte vorbei."
+    },
+    "avoid": {
+      "title": "Labyrinth: Weiche den Walrossen aus",
+      "printTitle": "Bring den Eisbären sicher nach Hause",
+      "instruction": "Hilf dem Eisbären zum Iglu. Nimm keinen Weg, auf dem ein Walross oder ein Loch im Eis ist.",
+      "tap": "Ziehe vom grünen Kreis bis zum Iglu. Nimm keinen Weg mit einem Walross oder einem Loch."
+    },
+    "abc-capitals": {
+      "title": "ABC-Labyrinth: Mit der Rakete zum Mond",
+      "printTitle": "Flieg mit der Rakete von A bis Z zum Mond",
+      "instruction": "Hilf der Rakete, zum Mond zu fliegen. Geh an jeder Gabelung zu dem Stein mit dem nächsten Buchstaben im Alphabet.",
+      "tap": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zum nächsten Buchstaben."
+    },
+    "abc-lowercase": {
+      "title": "Buchstaben-Labyrinth: Kleine Buchstaben im Meer",
+      "printTitle": "Schwimm von a bis z nach Hause",
+      "instruction": "Hilf dem Clownfisch, zur Koralle zu schwimmen. Geh an jeder Gabelung zur Blase mit dem nächsten kleinen Buchstaben.",
+      "tap": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zum nächsten kleinen Buchstaben."
+    },
+    "letter-hop": {
+      "title": "ABC-Reihenfolge: Buchstaben-Hüpfspiel",
+      "printTitle": "Hüpf im ABC durch die Honigwaben",
+      "instruction": "Beginne in der Wabe, auf die der Pfeil zeigt. Male den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum {LAST}.",
+      "tap": "Beginne am grünen Kreis. Ziehe Wabe für Wabe zum nächsten Buchstaben im Alphabet."
+    },
+    "numbers-20": {
+      "title": "Zahlenlabyrinth bis 20: Die kleine Eisenbahn",
+      "printTitle": "Zähl mit dem Zug bis zur Hütte",
+      "instruction": "Hilf dem Zug, zur Hütte zu fahren. Geh an jeder Gabelung zur nächsten Zahl von 1 bis 20.",
+      "tap": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zur nächsten Zahl."
+    },
+    "skip-5": {
+      "title": "Mathe-Labyrinth 2. Klasse: In Fünferschritten",
+      "printTitle": "Zähl in Fünferschritten zum Regenbogen",
+      "instruction": "Hilf dem Heißluftballon zum Regenbogen. Zähle in Fünferschritten von Wolke zu Wolke bis 100.",
+      "tap": "Beginne am grünen Kreis. Ziehe von Wolke zu Wolke in Fünferschritten."
+    },
+    "make-10": {
+      "title": "Rechenlabyrinth 1. Klasse: Verliebte Zahlen",
+      "printTitle": "Tritt nur auf Aufgaben mit dem Ergebnis 10",
+      "instruction": "Hilf der Giraffe zum Affenbrotbaum. Tritt nur auf die Steine, deren Ergebnis 10 ist.",
+      "tap": "Beginne am grünen Kreis. Ziehe nur über die Steine mit dem Ergebnis 10."
+    },
+    "subtract-20": {
+      "title": "Rechenlabyrinth: Minusaufgaben bis 20",
+      "printTitle": "Hilf dem Lebkuchenmann zum Kuchen",
+      "instruction": "Schau dir die Zahl beim Lebkuchenmann an. Tritt nur auf die Steine, deren Ergebnis diese Zahl ist.",
+      "tap": "Ziehe nur über die Steine, deren Ergebnis die Zahl beim Lebkuchenmann ist."
+    },
+    "first-sound": {
+      "title": "Anlaut-Labyrinth: Wie Löwe",
+      "printTitle": "Bilder, die wie Löwe anfangen",
+      "instruction": "Sag den Namen jedes Bildes. Tritt nur auf Bilder, die mit demselben Laut anfangen wie Löwe.",
+      "tap": "Beginne am grünen Kreis. Ziehe nur über Bilder, die wie Löwe anfangen."
+    },
+    "running-total": {
+      "title": "Rechenlabyrinth 2. Klasse: Plus und Minus bis 100",
+      "printTitle": "Bring dem Kran seine Zahl",
+      "instruction": "Beginne mit der Zahl beim Kipplaster und schreib die neue Zahl in das Kästchen jedes Schildes. Finde den Weg, der bei der Zahl des Krans endet.",
+      "tap": "Beginne am grünen Kreis. Ziehe den Weg, der bei der Zahl des Krans endet."
+    },
+    "maze-colouring": {
+      "title": "Labyrinth zum Ausmalen: Krabbe am Strand",
+      "printTitle": "Löse das Labyrinth und male den Strand aus",
+      "instruction": "Zeichne den Weg der Krabbe zur Sandburg und male den ganzen Weg aus. Male dann das Strandbild aus.",
+      "tap": "Beginne am grünen Kreis. Ziehe den Weg entlang bis zur Sandburg."
+    }
+  },
+  "chrome": {
+    "mzGoBack": "Zurück",
+    "mzKeepGoing": "Mach weiter: Der Weg endet hier noch nicht.",
+    "mzLookAtRing": "Schau dir das Bild im roten Kreis an.",
+    "mzMissed": "Eine Karotte fehlt. Schau dir den roten Kreis an.",
+    "mzTwice": "Diesen Weg hast du schon benutzt.",
+    "mzAvoid": "Dieser Weg führt an etwas vorbei, dem du ausweichen sollst.",
+    "mzShorter": "Es gibt einen kürzeren Weg.",
+    "mzWrongHome": "Dieses Tierkind ist noch nicht bei seiner Mutter.",
+    "mzWaysHere": "Wege von hier",
+    "mzPathN": "Weg {n}",
+    "mzAt": "Halt {n}",
+    "mzDeadEnd": "Dieser Weg endet hier.",
+    "mzAtGoal": "Geschafft!"
+  }
+}

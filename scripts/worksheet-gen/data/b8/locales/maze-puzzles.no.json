@@ -25,7 +25,7 @@
       "tap": "Start ved den grønne sirkelen. Dra gjennom vannet fram til bamsen."
     },
     "burrow": {
-      "title": "Labyrint under jorden: mauregangene",
+      "title": "Labyrint under jorden: maurgangene",
       "printTitle": "Hjelp mauren fram til bringebæret",
       "instruction": "Hjelp mauren ned og opp gjennom gangene fram til bringebæret. Tegn en strek langs veien.",
       "tap": "Start ved den grønne sirkelen. Dra gjennom gangene fram til bringebæret."
@@ -37,7 +37,7 @@
       "tap": "Dra den korteste veien fra den grønne sirkelen fram til den grønne bilen."
     },
     "babies-mothers": {
-      "title": "Labyrint: ungene finner mammaen sin",
+      "title": "Labyrint: ungene finner mammaene sine",
       "printTitle": "Hjelp hver unge med å finne mammaen sin",
       "instruction": "Hjelp hver dyreunge med å finne sin egen mamma. Tegn en strek fra hver unge fram til mammaen dens.",
       "tap": "Dra fra hver unge fram til dens egen mamma."
@@ -51,7 +51,7 @@
     "collect": {
       "title": "Labyrint: plukk alle gulrøttene",
       "printTitle": "Hjelp kaninen med å plukke alle gulrøttene",
-      "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot på veien. Sett kryss i en sirkel for hver gulrot.",
+      "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot uten å gå samme vei to ganger. Sett kryss i en sirkel for hver gulrot.",
       "tap": "Dra fra den grønne sirkelen fram til bøtta. Gå forbi hver gulrot."
     },
     "avoid": {

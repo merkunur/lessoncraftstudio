@@ -52,7 +52,7 @@
     "collect": {
       "title": "Laberinto: recoge todas las zanahorias",
       "printTitle": "Ayuda al conejo a recoger todas las zanahorias",
-      "instruction": "Ayuda al conejo a llegar a la cubeta y recoge cada zanahoria en el camino. Marca un círculo por cada zanahoria.",
+      "instruction": "Ayuda al conejo a llegar a la cubeta y recoge cada zanahoria sin pasar dos veces por el mismo camino. Marca un círculo por cada zanahoria.",
       "tap": "Arrastra del círculo verde hasta la cubeta. Pasa por cada zanahoria."
     },
     "avoid": {

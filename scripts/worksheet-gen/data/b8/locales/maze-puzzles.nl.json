@@ -51,7 +51,7 @@
     "collect": {
       "title": "Doolhof: verzamel alle wortels",
       "printTitle": "Help het konijn alle wortels te verzamelen",
-      "instruction": "Help het konijn naar de emmer en verzamel onderweg elke wortel. Kruis voor elke wortel een rondje aan.",
+      "instruction": "Help het konijn naar de emmer en verzamel elke wortel, zonder een pad twee keer te nemen. Kruis voor elke wortel een rondje aan.",
       "tap": "Sleep van de groene cirkel naar de emmer. Kom langs elke wortel."
     },
     "avoid": {
@@ -69,7 +69,7 @@
     "abc-lowercase": {
       "title": "Letterdoolhof met kleine letters: de zee",
       "printTitle": "Zwem van a tot z naar huis",
-      "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de bel met de volgende kleine letter.",
+      "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de luchtbel met de volgende kleine letter.",
       "tap": "Begin bij de groene cirkel. Sleep bij elke splitsing naar de volgende kleine letter."
     },
     "letter-hop": {

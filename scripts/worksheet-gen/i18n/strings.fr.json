@@ -3158,7 +3158,7 @@
   },
   "G1-424": {
     "title": "Labyrinthe : ramasse toutes les carottes",
-    "instruction": "Aide le lapin à aller jusqu'au seau en ramassant chaque carotte. Coche un rond pour chaque carotte.",
+    "instruction": "Aide le lapin à aller jusqu'au seau en ramassant chaque carotte, sans passer deux fois par le même chemin. Coche un rond pour chaque carotte.",
     "printTitle": "Aide le lapin à ramasser toutes les carottes"
   },
   "G1-425": {
@@ -3178,7 +3178,7 @@
   },
   "G1-426": {
     "title": "Labyrinthe de l'ordre alphabétique : la ruche",
-    "instruction": "Commence dans l'alvéole montrée par la flèche. Colorie la lettre suivante dans une alvéole voisine, jusqu'au {LAST}.",
+    "instruction": "Commence dans l'alvéole montrée par la flèche. Colorie à chaque fois la lettre suivante dans une alvéole voisine, jusqu'au {LAST}.",
     "printTitle": "Saute d'alvéole en alvéole dans l'ordre alphabétique"
   },
   "K-411": {

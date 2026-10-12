@@ -38,7 +38,7 @@
       "tap": "Træk den korteste vej fra den grønne cirkel hen til den grønne bil."
     },
     "babies-mothers": {
-      "title": "Labyrint: ungerne finder deres mor",
+      "title": "Labyrint: ungerne finder deres mødre",
       "printTitle": "Hjælp hver unge med at finde sin mor",
       "instruction": "Hjælp hver dyreunge med at finde sin egen mor. Tegn en streg fra hver unge hen til dens mor.",
       "tap": "Træk fra hver unge hen til dens egen mor."
@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labyrint: saml alle gulerødder",
       "printTitle": "Hjælp kaninen med at samle alle gulerødder",
-      "instruction": "Hjælp kaninen hen til spanden, og saml hver gulerod på vejen. Sæt kryds i en cirkel for hver gulerod.",
+      "instruction": "Hjælp kaninen hen til spanden, og saml hver gulerod uden at gå den samme vej to gange. Sæt kryds i en cirkel for hver gulerod.",
       "tap": "Træk fra den grønne cirkel hen til spanden. Kom forbi hver gulerod."
     },
     "avoid": {

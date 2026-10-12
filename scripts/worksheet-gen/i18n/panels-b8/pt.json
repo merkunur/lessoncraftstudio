@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labirinto: pegue todas as cenouras",
       "printTitle": "Ajude o coelho a pegar todas as cenouras",
-      "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura no caminho. Marque um círculo para cada cenoura.",
+      "instruction": "Ajude o coelho a chegar ao balde e pegue cada cenoura sem passar duas vezes pelo mesmo caminho. Marque um círculo para cada cenoura.",
       "tap": "Arraste do círculo verde até o balde. Passe por todas as cenouras."
     },
     "avoid": {

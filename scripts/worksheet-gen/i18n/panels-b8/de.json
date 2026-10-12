@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labyrinth: Sammle alle Karotten",
       "printTitle": "Hilf dem Kaninchen, alle Karotten zu sammeln",
-      "instruction": "Hilf dem Kaninchen zum Eimer und sammle unterwegs jede Karotte ein. Kreuze für jede Karotte einen Kreis an.",
+      "instruction": "Hilf dem Kaninchen zum Eimer und sammle jede Karotte ein, ohne einen Weg zweimal zu gehen. Kreuze für jede Karotte einen Kreis an.",
       "tap": "Ziehe vom grünen Kreis bis zum Eimer. Komm an jeder Karotte vorbei."
     },
     "avoid": {
@@ -76,7 +76,7 @@
     "letter-hop": {
       "title": "ABC-Reihenfolge: Buchstaben-Hüpfspiel",
       "printTitle": "Hüpf im ABC durch die Honigwaben",
-      "instruction": "Beginne in der Wabe, auf die der Pfeil zeigt. Male den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum {LAST}.",
+      "instruction": "Beginne in der Wabe, auf die der Pfeil zeigt. Male immer den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum {LAST}.",
       "tap": "Beginne am grünen Kreis. Ziehe Wabe für Wabe zum nächsten Buchstaben im Alphabet."
     },
     "numbers-20": {

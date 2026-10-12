@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-424',
   slug: 'collect-the-carrots-maze',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Collect-the-Carrots Maze: The Rabbit's Garden", instruction: "Help the rabbit get to the bucket and pick up every carrot on the way. Tick a circle for each carrot.", printTitle: "Help the Rabbit Pick Up Every Carrot" } },
+  i18n: { en: { title: "Collect-the-Carrots Maze: The Rabbit's Garden", instruction: "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot.", printTitle: "Help the Rabbit Pick Up Every Carrot" } },
   gradeBand: "G1",
 };

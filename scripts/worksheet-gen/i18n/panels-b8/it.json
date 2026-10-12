@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labirinto: raccogli tutte le carote",
       "printTitle": "Aiuta il coniglio a raccogliere tutte le carote",
-      "instruction": "Aiuta il coniglio ad arrivare al secchiello raccogliendo ogni carota lungo la strada. Fai una crocetta in un cerchio per ogni carota.",
+      "instruction": "Aiuta il coniglio a raggiungere il secchiello raccogliendo ogni carota, senza ripetere una strada. Segna un cerchio per ogni carota.",
       "tap": "Trascina dal cerchio verde fino al secchiello. Passa da ogni carota."
     },
     "avoid": {

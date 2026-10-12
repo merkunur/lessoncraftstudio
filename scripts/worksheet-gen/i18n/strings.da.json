@@ -3133,7 +3133,7 @@
     "printTitle": "Den korteste vej hen til den grønne bil"
   },
   "K-408": {
-    "title": "Labyrint: ungerne finder deres mor",
+    "title": "Labyrint: ungerne finder deres mødre",
     "instruction": "Hjælp hver dyreunge med at finde sin egen mor. Tegn en streg fra hver unge hen til dens mor.",
     "printTitle": "Hjælp hver unge med at finde sin mor"
   },
@@ -3144,7 +3144,7 @@
   },
   "G1-424": {
     "title": "Labyrint: saml alle gulerødder",
-    "instruction": "Hjælp kaninen hen til spanden, og saml hver gulerod på vejen. Sæt kryds i en cirkel for hver gulerod.",
+    "instruction": "Hjælp kaninen hen til spanden, og saml hver gulerod uden at gå den samme vej to gange. Sæt kryds i en cirkel for hver gulerod.",
     "printTitle": "Hjælp kaninen med at samle alle gulerødder"
   },
   "G1-425": {

@@ -3136,7 +3136,7 @@
   },
   "G1-424": {
     "title": "Labyrintti: kerää kaikki porkkanat",
-    "instruction": "Auta kania pääsemään ämpärin luo ja kerää matkalla jokainen porkkana. Rastita yksi ympyrä jokaisesta porkkanasta.",
+    "instruction": "Auta kania pääsemään ämpärin luo ja kerää jokainen porkkana kulkematta samaa polkua kahdesti. Rastita yksi ympyrä jokaisesta porkkanasta.",
     "printTitle": "Auta kania keräämään kaikki porkkanat"
   },
   "G1-425": {
@@ -3175,7 +3175,7 @@
     "printTitle": "Astu vain laskuille, joiden summa on 10"
   },
   "G1-428": {
-    "title": "Vähennyslaskulabyrintti 20 asti",
+    "title": "Vähennyslaskulabyrintti 20:een asti",
     "instruction": "Katso piparkakku-ukon vieressä olevaa lukua. Astu vain kiville, joiden vastaus on se luku.",
     "printTitle": "Auta piparkakku-ukkoa pääsemään kakun luo"
   },

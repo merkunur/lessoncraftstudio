@@ -3132,7 +3132,7 @@
     "printTitle": "Styr båten fram til bamsen"
   },
   "G1-421": {
-    "title": "Labyrint under jorden: mauregangene",
+    "title": "Labyrint under jorden: maurgangene",
     "instruction": "Hjelp mauren ned og opp gjennom gangene fram til bringebæret. Tegn en strek langs veien.",
     "printTitle": "Hjelp mauren fram til bringebæret"
   },
@@ -3142,7 +3142,7 @@
     "printTitle": "Den korteste veien til den grønne bilen"
   },
   "K-408": {
-    "title": "Labyrint: ungene finner mammaen sin",
+    "title": "Labyrint: ungene finner mammaene sine",
     "instruction": "Hjelp hver dyreunge med å finne sin egen mamma. Tegn en strek fra hver unge fram til mammaen dens.",
     "printTitle": "Hjelp hver unge med å finne mammaen sin"
   },
@@ -3153,7 +3153,7 @@
   },
   "G1-424": {
     "title": "Labyrint: plukk alle gulrøttene",
-    "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot på veien. Sett kryss i en sirkel for hver gulrot.",
+    "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot uten å gå samme vei to ganger. Sett kryss i en sirkel for hver gulrot.",
     "printTitle": "Hjelp kaninen med å plukke alle gulrøttene"
   },
   "G1-425": {

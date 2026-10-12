@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labyrintti: kerää kaikki porkkanat",
       "printTitle": "Auta kania keräämään kaikki porkkanat",
-      "instruction": "Auta kania pääsemään ämpärin luo ja kerää matkalla jokainen porkkana. Rastita yksi ympyrä jokaisesta porkkanasta.",
+      "instruction": "Auta kania pääsemään ämpärin luo ja kerää jokainen porkkana kulkematta samaa polkua kahdesti. Rastita yksi ympyrä jokaisesta porkkanasta.",
       "tap": "Vedä vihreästä ympyrästä ämpärille. Kulje jokaisen porkkanan kautta."
     },
     "avoid": {
@@ -98,7 +98,7 @@
       "tap": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden summa on 10."
     },
     "subtract-20": {
-      "title": "Vähennyslaskulabyrintti 20 asti",
+      "title": "Vähennyslaskulabyrintti 20:een asti",
       "printTitle": "Auta piparkakku-ukkoa pääsemään kakun luo",
       "instruction": "Katso piparkakku-ukon vieressä olevaa lukua. Astu vain kiville, joiden vastaus on se luku.",
       "tap": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden vastaus on piparkakku-ukon luku."
@@ -143,7 +143,7 @@
   },
   "skill": {
     "full": "Viivan piirtäminen kuvalabyrintin läpi ja seuraavan kirjaimen, luvun tai laskun valitseminen jokaisessa risteyksessä harjoittaa suunnittelua ja kynäotetta; vastauksineen.",
-    "short": "Harjoittaa suunnittelua ja kynäotetta kuvalabyrintissa."
+    "short": "Harjoittaa suunnittelua ja kynäotetta."
   },
   "topicMeta": "Labyrinttitehtäviä lapsille: ohjaa siili, raketti tai jääkarhu kuvalabyrintin läpi, seuraa kirjaimia A:sta Ö:hön, lukuja 20:een asti, laske viiden välein tai etsi kymppiparit. Tulostettavat tehtävät vastauksineen esikoulusta 2. luokalle.",
   "refusals": {},

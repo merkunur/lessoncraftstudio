@@ -1,0 +1,225 @@
+{
+  "locale": "fi",
+  "landings": {
+    "K-405": {
+      "slug": "labyrintti-lapsille-siili-ja-omenapuu",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Labyrintti lapsille: auta siiliä omenapuun luo",
+      "title": "Labyrintti lapsille tulostettavaksi: siili ja omenapuu | PDF",
+      "metaDescription": "Labyrinttitehtävä esikouluun: ohjaa siili hedelmätarhan mutkittelevia polkuja pitkin omenapuun luo. Tulostettava PDF, näyttöversio sormella piirtämiseen ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Syksyinen hedelmätarha täyttää tämän labyrintin. Alakulmassa siili odottaa vihreän lähtöympyrän luona, ja vastakkaisessa kulmassa seisoo omenapuu, jonka vieressä on pieni lippu. Niiden välissä vaaleat hiekkapolut kiemurtelevat nurmikolla, haarautuvat ja haarautuvat taas. Jotkin sivupolut kulkevat pitkään puuta kohti ja päättyvät sitten yhtäkkiä, joten kiirehtijä päätyy umpikujaan ja joutuu palaamaan. Polkujen välisillä nurmisaarekkeilla istuvat hiiri, etana, leppäkerttu, perhonen, sieni ja muutama niittykukka.",
+      "p2": "Tehtävänä on piirtää yksi ainoa viiva polkuja pitkin siilistä omenapuuhun. Siinä toimii kaksi asiaa yhdessä. Silmät suunnittelevat ja seuraavat polkua nähdäkseen, minne se vie, ennen kuin kynä lähtee liikkeelle, ja käsi pitää viivan mutkittelevan tien sisällä. Juuri tätä harjoitellaan esikoulussa: ensin katsotaan, sitten toimitaan, ja kynää ohjataan niin varmasti, että siitä on myöhemmin apua kirjainten kirjoittamisessa. Polut ovat niin leveitä, että vahaliitu mahtuu niille, ja mutkat ovat loivia, joten sivu haastaa tarkkaavaisuutta lannistamatta pieniä käsiä.",
+      "p3": "Jokainen sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää sormella polkua pitkin ja painaa Tarkista, sekä ratkaisuna, jossa reitti on väritetty. Se on ensimmäinen sivu kahdenkymmenen kuvalabyrintin sarjassa: ensimmäinen labyrintti pienimmille, iso viidakkolabyrintti, joki, maanalaiset käytävät, kaupungin kadut, emoaan etsivät eläinten poikaset, sotkuiset narut sekä labyrintit, jotka seuraavat aakkosia, lukuja, laskuja ja alkuäänteitä. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-406": {
+      "slug": "ensimmainen-labyrinttini-koiranpentu-ja-pallo",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Ensimmäinen labyrinttini: auta koiranpentua pallon luo",
+      "title": "Ensimmäinen labyrinttini varhaiskasvatukseen: koiranpentu | PDF",
+      "metaDescription": "Ensimmäinen labyrintti varhaiskasvatukseen: hyvin leveä tie puiston läpi, vain kaksi lyhyttä sivupolkua, koiranpentu ja sen pallo. Tulostettava PDF ja ratkaisu.",
+      "strand": "Hienomotoriikka ja avaruudellinen hahmottaminen",
+      "p1": "Tästä labyrintista aloitetaan. Koiranpentu istuu vihreän lähtöympyrän luona keväisessä puistossa, ja sen pallo odottaa sivun toisella puolella. Hyvin leveä tie yhdistää ne, niin leveä, että paksu liitu mahtuu sille, ja siinä on vain kaksi lyhyttä sivupolkua, jotka loppuvat nopeasti. Tien ympärillä puisto on täynnä ystävällisiä kuvia: kissa, perhonen, lintu, kukkiva kirsikkapuu ja tulppaani. Sivu näyttää ensin katseltavalta kuvalta ja vasta sitten tehtävältä.",
+      "p2": "Kolmi- tai nelivuotiaalla varsinainen työ tapahtuu kädessä eikä suunnittelussa. Viivan pitäminen kahden reunan välissä, kääntyminen tien mukana ja se, ettei oikaise nurmikon yli, kehittävät kynänhallintaa, jota lapsi tarvitsee myöhemmin viivojen jäljentämisessä ja ensimmäisten kirjainten kirjoittamisessa. Kaksi lyhyttä sivupolkua ovat ensimmäinen pieni maistiainen valitsemisesta: toista seuraava näkee heti, että se loppuu, ja kääntyy takaisin pettymättä. Kertokaa tarina ääneen, koiranpentu haluaa pallonsa, ja antakaa lapsen näyttää reitti ensin sormella ja sitten liidulla. Sivun voi tehdä myös yhdessä aikuisen kanssa: aikuinen näyttää tien alun, ja lapsi jatkaa itse loppuun asti.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää tietä pitkin ja painaa Tarkista, sekä ratkaisuna, jossa reitti on väritetty. Kun tämä sivu käy helposti, seuraavat askeleet samassa sarjassa ovat siilin labyrintti hedelmätarhassa, jokilabyrintti pitkine mutkineen ja poikasten labyrintti, jossa on kolme tietä. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-420": {
+      "slug": "iso-labyrintti-1-luokka-viidakko-oranki",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Iso labyrintti: orangin reitti banaanipuun luo",
+      "title": "Iso labyrintti 1. luokalle: oranki viidakossa | Tulostettava PDF",
+      "metaDescription": "Iso viidakkolabyrintti 1. luokalle: pitkiä polkuja ja syviä umpikujia; ensin katsotaan, sitten piirretään. Oranki etsii banaanipuuta. Tulostettava PDF ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Sademetsän pohja täynnä kapeita polkuja peittää koko sivun. Oranki lähtee vihreästä ympyrästä yhdessä kulmassa, ja banaanipuu odottaa vastakkaisessa kulmassa lehtikaton alla. Reitti niiden välillä on pitkä ja kulkee edestakaisin, ja siitä haarautuu monta sivupolkua. Osa on lyhyitä, mutta osa kulkee syvälle viidakkoon ja päättyy vasta usean mutkan jälkeen. Tukaani, papukaija, laiskiainen, sammakko, palmut ja värikkäät viidakon kukat ovat polkujen välisillä saarekkeilla.",
+      "p2": "Tämä sivu harjoittaa ennakointia, taitoa, jota ensimmäisen luokan oppilas on valmis kehittämään. Ohje pyytää katsomaan ensin koko labyrintin ja vasta sitten piirtämään orangin reitin. Heti piirtämään ryhtyvä päätyy syvään umpikujaan, palaa ja yrittää uudelleen, ja juuri siitä on kyse: palaaminen opettaa, että ensimmäisen valinnan voi tarkistaa ja muuttaa. Monen lapsen on helpompi etsiä lyhyt pätkä reittiä banaanipuusta taaksepäin ja yhdistää sitten kaksi päätä. Kun reitti on löytynyt, lapsi voi kertoa kaverille, missä kohdissa hän joutui palaamaan ja miksi. Näin suunnittelusta tulee näkyvää, ja samalla harjoitellaan omasta ajattelusta puhumista, jota opetussuunnitelma painottaa kaikissa aineissa.",
+      "p3": "Tulosta PDF, käytä näyttöversiota, jossa lapsi vetää polkua pitkin ja voi palata askeleen takaisin, tai vertaa ratkaisuun, joka näyttää ainoan oikean reitin värillisenä. Samassa sarjassa siilin labyrintti on kevyempi versio esikouluun, ja kaupunkilabyrintti kysyy lyhintä useasta reitistä eikä ainoaa. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-407": {
+      "slug": "jokilabyrintti-vene-ja-nalle",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Jokilabyrintti: ohjaa vene nallen luo",
+      "title": "Jokilabyrintti lapsille: vene ja nalle | Tulostettava PDF",
+      "metaDescription": "Jokilabyrintti esikouluun: seuraa sinistä puroa ja sen sivuhaaroja laiturilla odottavan nallen luo. Pitkiä, pehmeitä mutkia. Tulostettava PDF ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Tässä labyrintissa tiet ovat vettä. Sininen puro kiemurtelee vihreän puutarhan läpi, ja leikkivene kelluu vihreän lähtöympyrän luona, siellä missä puro alkaa. Toisella puolella nalle istuu pienellä puulaiturilla ja odottaa venettä. Puro jakautuu sivuhaaroiksi, jotka näyttävät yhtä houkuttelevilta kuin pääuoma, mutta jokainen niistä päättyy rantaan. Rannoilla näkyvät sammakko, sudenkorento, ankka, joutsen, kilpikonna ja puu.",
+      "p2": "Puro on piirretty pitkin, pehmein mutkin ilman kulmia, joten lapsen viivasta tulee yksi suuri pyöreä liike. Siksi sivu sopii hyvin niiden pyöreiden liikkeiden harjoitteluun, jotka edeltävät c-, o- ja s-kirjainten kirjoittamista, ja sivuhaarat pitävät labyrintin ajattelun mukana. Lapsi ohjaa venettä ensin sormella ja kertoo, minne vesi virtaa, ja piirtää sitten viivan, joka pysyy vedessä veneestä laiturille asti. Sivun jälkeen lapsi voi kokeilla samaa liikettä ilmaan tai hiekkalaatikkoon: iso, pehmeä mutka ensin kädellä, sitten kynällä. Kun liike on tuttu, kirjainten kaaret syntyvät paperilla helpommin. Ratkaisusta näkee lopuksi, pysyikö viiva koko matkan vedessä.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää veneen reitin ja painaa Tarkista, sekä ratkaisuna, jossa reitti veden halki on väritetty. Se kuuluu kahdenkymmenen kuvalabyrintin sarjaan; ensimmäinen labyrintti koiranpennun kanssa on helpompi aloitus, ja muurahaisen maanalainen labyrintti on seuraava askel, jossa käytäviä on kolmessa kerroksessa. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-421": {
+      "slug": "maanalainen-labyrintti-muurahaisen-kaytavat",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Maanalainen labyrintti: auta muurahaista käytävissä",
+      "title": "Maanalainen labyrintti 1. luokalle: muurahaisen käytävät | PDF",
+      "metaDescription": "Maanalainen labyrintti 1. luokalle: muurahainen kulkee alas ja ylös kolmen kerroksen käytävissä vadelman luo aivan pohjalle. Tulostettava PDF ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Tämä sivu näyttää maan ikään kuin halkaistuna, kuin viipaleena puutarhasta. Ylhäällä muurahainen seisoo nurmella vihreän lähtöympyrän luona. Nurmen alla on ruskeaa multaa kerroksittain, ja sen läpi kulkee käytäviä kolmessa kerroksessa, ja niitä yhdistävät lyhyet kuilut, jotka kulkevat suoraan ylös ja alas. Aivan pohjalla, vastakkaisessa kulmassa, on vadelma pyöreässä kammiossa: sinne muurahainen haluaa. Muissa pienissä kammioissa ovat kastemato, juoksujalkainen, kovakuoriainen ja hämähäkki, ja osa niistä on käytävien päässä, jotka eivät johda mihinkään muualle.",
+      "p2": "Uutta tässä on ylhäällä ja alhaalla oleminen. Reitti vadelmalle ei vain laskeudu: jossain kohdassa muurahaisen täytyy kiivetä taas kuilua ylös ennen kuin matka jatkuu alaspäin, ja kuilu, joka näyttää nopeimmalta tieltä alas, voi päättyä umpikujaan. Kun lapset kertovat reitistään, he käyttävät paikkaa ilmaisevia sanoja, joita tarvitaan joka päivä ensimmäisellä luokalla: yllä, alla, kuilua alas, keskimmäistä käytävää pitkin, takaisin ylös. Viiva piirretään käytäviä pitkin muurahaisesta vadelmaan. Leikkikalun tai pienen hahmon avulla reitin voi myös kulkea pöydällä ennen piirtämistä, jolloin ylös ja alas -liike tuntuu kädessä.",
+      "p3": "Tulosta PDF, käytä näyttöversiota, jossa lapsi vetää käytäviä pitkin ja painaa Tarkista, tai vertaa ratkaisuun, joka näyttää muurahaisen reitin värillisenä. Samassa sarjassa jokilabyrintti on kevyempi sivu esikouluun, ja kaupunkilabyrintti muuttaa tehtävän lyhimmän reitin etsimiseksi monen kadun joukosta. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-422": {
+      "slug": "kaupunkilabyrintti-lyhin-reitti",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Kaupunkilabyrintti: etsi lyhin reitti vihreän auton luo",
+      "title": "Kaupunkilabyrintti 1. luokalle: etsi lyhin reitti | Tulostettava PDF",
+      "metaDescription": "Kaupunkilabyrintti 1. luokalle: monta katua vie vihreän auton luo. Piirrä hinausautolle lyhin reitti ja laske katupalat. Tulostettava PDF ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Pieni kaupunki ylhäältä katsottuna: harmaat kadut kulkevat vihreiden nurmikorttelien välissä, ja kartan reunoilla on taloja, puita, autotalli, polkupyörä, potkulauta ja postilaatikko. Hinausauto odottaa vihreän lähtöympyrän luona toisella puolella, ja vihreä auto on pysäköity toiselle puolelle. Toisin kuin useimmissa labyrinteissa, tässä on monta reittiä: kadut kohtaavat yhä uudelleen, ja muutama on suljettu puomeilla. Jokaisessa katupalassa kahden risteyksen välissä on yksi pyöreä kaivonkansi, ja kartan alla oleva raita näyttää katupalan, jossa kansi on yhtä kuin 1, sekä tyhjän ruudun.",
+      "p2": "Kysymys ei ole siitä, pääseekö autolle, vaan siitä, mikä reitti on lyhin. Moni lapsi uskoo, että reitti, jossa on vähiten mutkia, on lyhin, ja tämä sivu on tehty niin, että suorempi reitti on pidempi. Laskeminen ratkaisee asian: jokainen kansi on yksi katupala, joten lapsi laskee kannet reitin varrelta, vertaa reittejä, piirtää lyhimmän ja kirjoittaa sen luvun ruutuun. Se on aitoa pituuksien pohtimista, sellaista kuin ensimmäisellä luokalla aloitetaan, kuvan avulla viivoittimen sijaan.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää reitin hinausautolle ja painaa Tarkista (pidempi reitti saa vihjeen, että lyhyempikin löytyy), sekä ratkaisuna, joka näyttää lyhimmän reitin ja sen luvun. Samassa sarjassa ison viidakkolabyrintin läpi kulkee vain yksi reitti, ja matematiikkalabyrintti 100:aan asti laskee tien varrella. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-408": {
+      "slug": "labyrintti-poikaset-etsivat-emonsa",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Labyrintti: auta jokaista poikasta löytämään emonsa",
+      "title": "Labyrintti esikouluun: poikaset etsivät emonsa | Tulostettava PDF",
+      "metaDescription": "Maatilalabyrintti esikouluun: tipu, vasikka ja varsa löytävät oman emonsa kolmea erillistä tietä pitkin. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Kolme maatilan poikasta seisoo rivissä kesäisen heinäpellon yläreunassa: tipu, vasikka ja varsa, jokainen numeroidun lähtöympyrän luona. Alempana kolme emoa odottaa pyöreissä aitauksissa: kana, lehmä ja hevonen. Yksikään poikanen ei ole suoraan emonsa yläpuolella, joten kukaan ei pääse vain suoraan alas. Kolme erillistä tietä kiemurtelee pellolla niiden välissä, lomittain kuin sormet, ja jokaisella tiellä on omat lyhyet sivupolkunsa.",
+      "p2": "Tämä sivu yhdistää kaksi esikoulussa harjoiteltavaa asiaa. Ensin lapsi yhdistää jokaisen poikasen sen emoon, mikä on jo pieni sanastotunti eläinperheistä. Sitten lapsi seuraa teitä selvittääkseen, mikä niistä todella vie kunkin poikasen kotiin. Tiet eivät koskaan kosketa toisiaan, mutta ne kulkevat tiiviisti rinnakkain pellon poikki, joten katseen on pysyttävä yhdellä tiellä alusta loppuun. Kun poikaset tehdään yksi kerrallaan ja jokainen omalla värillään, reitit pysyvät erillään ja sivu on helppo tarkistaa. Ennen piirtämistä kannattaa yhdessä nimetä jokainen poikanen ja sen emo: tipu ja kana, vasikka ja lehmä, varsa ja hevonen.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää jokaiselta poikaselta sen emolle (väärän emon luo päätynyt poikanen näytetään heti), sekä ratkaisuna, jossa jokaisella reitillä on oma värinsä. Samassa sarjassa sotkuiset narut pyytävät seuraamaan viivoja risteysten läpi, ja ensimmäinen labyrintti koiranpennun kanssa on rauhallinen aloitus. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-423": {
+      "slug": "sotkuiset-narut-kenen-leija",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Sotkuiset narut: kenen leija se on?",
+      "title": "Sotkuiset narut 1. luokalle: kenen leija se on? | Tulostettava PDF",
+      "metaDescription": "Narutehtävä 1. luokalle: seuraa neljää ristiin kulkevaa narua eläimiltä kolmelle leijalle ja ilmapallolle ja kirjoita numerot. Tulostettava PDF ja ratkaisu.",
+      "strand": "Visuaalinen hahmottaminen",
+      "p1": "Tuulisella mäellä neljä eläintä seisoo sivun alareunassa, kukin numeroidun ympyrän luona: kettu, pesukarhu, orava ja mäyrä. Jokainen eläin pitelee pitkää narua. Ylhäällä taivaalla lentää kolme leijaa ja punainen ilmapallo, ja jokaisen yläpuolella on tyhjä ruutu. Matkalla ylös neljä narua menee ristiin yhä uudelleen, joten yhdellä silmäyksellä ei näe, mikä eläin pitelee mitäkin leijaa.",
+      "p2": "Tällä sivulla ei ole mitään valittavaa eikä umpikujia: jokainen naru vie jonnekin. Koko taito on seurata yhtä viivaa jokaisen risteyksen läpi hyppäämättä toiselle. Se on katseen ohjaamista, samaa silmien työtä, jota lukija tarvitsee pysyäkseen rivillä. Lapsilta se sujuu parhaiten sormi narun päällä, hitaasti jokaisen risteyksen läpi. Kun naru päättyy leijaan tai ilmapalloon, eläimen numero kirjoitetaan yläpuolella olevaan ruutuun, ja valmiin sivun yläreunassa on neljä vastausta. Kun kaikki narut on seurattu, lapsi voi tarkistaa vastauksensa itse: jokainen numero saa esiintyä ylhäällä vain kerran, koska jokaisella eläimellä on oma leijansa tai ilmapallonsa. Ratkaisusta voi lopuksi tarkistaa kaikki neljä numeroa.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää jokaista narua pitkin eläimestä narun päähän, sekä ratkaisuna, jossa jokaisella narulla on oma värinsä ja ruudut on täytetty. Samassa sarjassa poikasten labyrintti lisää valintoja risteyksiin, ja iso viidakkolabyrintti vaatii pitkän reitin suunnittelua. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-424": {
+      "slug": "labyrintti-keraa-kaikki-porkkanat-kani",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Kerää kaikki porkkanat: auta kania kasvimaalla",
+      "title": "Labyrintti 1. luokalle: kerää kaikki porkkanat | Tulostettava PDF",
+      "metaDescription": "Keräilylabyrintti 1. luokalle: kanin pitää päästä ämpärin luo ja kulkea matkalla kaikkien neljän porkkanan kautta käyttämättä samaa polkua kahdesti. PDF ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Vihreä kasvimaa täyttää sivun, ja sen halki kulkee kivipolkuja. Kani lähtee vihreästä ympyrästä, ja keltainen ämpäri odottaa toisella puolella. Polkuilla on neljä porkkanaa, kukin valkoisella ympyrällä, ja kasvimaan alla oleva raita näyttää porkkanan, luvun 4 ja neljä tyhjää ympyrää rastitettavaksi. Etana, toukka, salaatti, kurpitsa ja kastelukannu ovat nurmikolla. Polut yhtyvät silmukoiksi, joten ämpärille pääsee monta eri reittiä.",
+      "p2": "Ämpärille pääseminen on tässä helppoa; haaste on päästä sinne kaikkien neljän porkkanan kanssa käyttämättä yhtäkään polkua kahdesti. Lyhin reitti ämpärille jättää porkkanoita keräämättä, joten lapsen on suunniteltava pidempi reitti, joka kulkee jokaisen porkkanan kautta. Se on suunnittelua monen tavoitteen kanssa yhtä aikaa, askel pidemmälle kuin tavallinen labyrintti, jossa merkitsee vain perille pääsy. Jokaisesta ohitetusta porkkanasta rastitetaan yksi ympyrä, mikä antaa helpon tarkistuksen: neljä rastia ja ämpäri tarkoittavat, että tehtävä on valmis. Ennen piirtämistä voi kysyä: mistä porkkanasta kannattaa aloittaa ja mikä jää viimeiseksi? Ratkaisusta näkee lopuksi, mikä reitti kulkee kaikkien porkkanoiden kautta ja miksi lyhin tie ei riitä.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää kanin reitin ja painaa Tarkista (unohtunut porkkana saa punaisen ympyrän), sekä ratkaisuna, joka näyttää ainoan reitin, joka kerää kaikki porkkanat. Samassa sarjassa jääkarhun labyrintti kääntää säännön: siinä asioita pitää väistää eikä kerätä. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-425": {
+      "slug": "labyrintti-vaista-mursut-jaakarhu",
+      "eyebrow": "Labyrinttitehtävä",
+      "h1": "Väistä mursut: vie jääkarhu turvallisesti kotiin",
+      "title": "Labyrintti 1. luokalle: väistä mursut | Tulostettava PDF",
+      "metaDescription": "Jääkarhulabyrintti 1. luokalle: moni jälki vie iglulle, mutta vain yhdellä ei ole nukkuvaa mursua eikä reikää jäässä. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Avaruudellinen hahmottaminen",
+      "p1": "Valkoiset jäljet kulkevat Pohjoisen jäämeren jäällä. Jääkarhu lähtee vihreästä ympyrästä, ja iglu odottaa toisella puolella. Monta jälkeä vie iglulle, mutta joillakin makaa nukkuvia mursuja, ja toiset katkaisevat tummat reiät jäässä. Kuvan alla oleva raita näyttää mursun ja reiän, molemmat yliviivattuina: sääntö on selvä jo ennen lukemista, älä kulje tietä, jolla on mursu tai reikä. Hylje, lumihiutaleet ja jääpuikot koristavat jäätä.",
+      "p2": "Nopea tie iglulle on tukittu, ja juuri siitä sivussa on kyse. Lapsen täytyy jättää ilmeisin tie sikseen, tutkia jokainen jälki mursujen ja reikien varalta ja valita se yksi tie, joka on kokonaan vapaa. Ensimmäisen ajatuksen pidättäminen ja säännön pitäminen mielessä työskentelyn aikana on aito ensimmäisen luokan taito, ja labyrintti tekee sen näkyväksi: voi osoittaa tarkalleen sen mursun, jonka kautta väärä reitti kulkee. Viiva piirretään turvallista jälkeä pitkin jääkarhusta iglulle. Lopuksi lapsi voi osoittaa sormella jokaisen mursun ja reiän ja kertoa, minkä reitin se sulkee.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää jääkarhun reitin ja painaa Tarkista (mursun tai reiän kautta kulkeva reitti saa punaisen ympyrän), sekä ratkaisuna, joka näyttää ainoan turvallisen jäljen. Samassa sarjassa kanin labyrintti kääntää säännön ja pyytää keräämään kaikki porkkanat esteiden väistämisen sijaan. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-409": {
+      "slug": "labyrintti-a-sta-o-hon-raketti-kuuhun",
+      "eyebrow": "Kirjainlabyrintti",
+      "h1": "Labyrintti A:sta Ö:hön: lennä raketilla kuuhun",
+      "title": "Aakkoslabyrintti A:sta Ö:hön: raketti kuuhun | Tulostettava PDF",
+      "metaDescription": "Kirjainlabyrintti esikouluun: valitse jokaisessa risteyksessä kivi, jossa on seuraava iso kirjain A:sta Ö:hön, ja lennätä raketti kuuhun. Tulostettava PDF.",
+      "strand": "Lukemisen perustaidot",
+      "p1": "Yötaivas planeettoineen, Maa ja satelliitti kehystävät tämän kirjainlabyrintin. Raketti lähtee vihreästä ympyrästä, ja kuu odottaa ylhäällä. Poluilla on pyöreitä valkoisia kiviä, ja jokaisessa kivessä on iso kirjain. Oikea reitti kulkee koko aakkoston ohi järjestyksessä A:sta Ö:hön, ja Å, Ä ja Ö tulevat viimeisinä. Myös muissa kivissä on kirjaimia, usein juuri niitä, joita lapset sekoittavat: kirjain, joka hyppää yhden yli, edellinen kirjain tai samannäköinen kirjain, kuten E ja F tai M ja N.",
+      "p2": "Jokaisessa risteyksessä lapsi lausuu aakkoset siihen asti ja valitsee kiven, jossa on seuraava iso kirjain. Näin luettelemisesta tulee käyttämistä: tiedetään, mikä kirjain tulee seuraavaksi, laulamatta aakkoslaulua alusta. Koska väärät kivet ovat lähellä oikeaa, arvaaminen auttaa harvoin; järjestys pitää osata. Isojen kirjainten ja niiden järjestyksen tunteminen kuuluu esikoulussa lukemaan valmistautumiseen, ja tässä sitä harjoitellaan leikin keinoin. Jos aakkoset ovat vielä hataria, vieressä voi pitää aakkosnauhaa, josta seuraavan kirjaimen voi tarkistaa. Kun labyrintti sujuu, nauhan voi piilottaa ja yrittää uudelleen ilman sitä.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää raketin kivestä kiveen ja painaa Tarkista, sekä ratkaisuna, joka näyttää reitin A:sta Ö:hön värillisenä. Samassa sarjassa pienten kirjainten labyrintti meressä tekee saman pienillä kirjaimilla ja b-, d-, p- ja q-ansoilla, ja hunajakenno alkaa keskeltä aakkosia. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-410": {
+      "slug": "pienten-kirjainten-labyrintti-meri",
+      "eyebrow": "Kirjainlabyrintti",
+      "h1": "Pienten kirjainten labyrintti: ui kotiin a:sta ö:hön",
+      "title": "Pienten kirjainten labyrintti a:sta ö:hön: meri | Tulostettava PDF",
+      "metaDescription": "Pienten kirjainten labyrintti: ohjaa vuokkokala kuplasta kuplaan a:sta ö:hön b- ja d-, p- ja q-ansojen ohi. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Lukemisen perustaidot",
+      "p1": "Veden alla vuokkokala lähtee vihreästä ympyrästä ja ui kohti korallia riutan päässä. Sen reitti on kirkkaan veden kanava, jossa on pyöreitä kuplia, ja jokaisessa kuplassa on pieni kirjain. Oikea reitti kulkee pienten kirjainten aakkoston ohi järjestyksessä a:sta ö:hön. Riutan ympärillä näkyvät mustekala, meduusa, meritähti, rapu, merihevonen ja merilevää.",
+      "p2": "Pienet kirjaimet saavat monen lukemaan opettelevan kompastumaan, koska useat niistä ovat peilikuvia: b ja d sekä p ja q. Tämä labyrintti asettaa juuri nämä ansat. Kun b on oikean reitin seuraava kirjain, väärällä reitillä odottaa usein d, joten lapsen täytyy katsoa muotoa eikä vain pyöreää kirjainta, jossa on tikku. Auttaa, kun jokaisen kirjaimen sanoo ääneen valitessaan ja kirjoittaa vaikeat parit kerran marginaaliin ennen aloittamista. Pöydällä voi myös olla pienten kirjainten aakkosnauha, josta b:n, d:n, p:n ja q:n muodon voi tarkistaa tarvittaessa. Kun lapsi löytää ansan itse, se kannattaa sanoa ääneen: tämä on d, ei b. Ratkaisu näyttää lopuksi oikean reitin. Näin ansoja oppii huomaamaan itse.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää vuokkokalan kuplasta kuplaan ja painaa Tarkista, sekä ratkaisuna, joka näyttää reitin a:sta ö:hön värillisenä. Samassa sarjassa rakettilabyrintti harjoittaa isoja kirjaimia, ja hunajakenno kysyy järjestystä aakkosten keskeltä alkaen. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-426": {
+      "slug": "hypi-aakkosjarjestyksessa-hunajakenno",
+      "eyebrow": "Kirjainlabyrintti",
+      "h1": "Hypi aakkosjärjestyksessä: karhun hunajakennon läpi",
+      "title": "Aakkosjärjestys 1. luokalle: hypi hunajakennon läpi | PDF",
+      "metaDescription": "Kirjaintehtävä 1. luokalle: aloita kirjaimesta keskeltä aakkosia ja väritä aina seuraava kirjain viereisessä ruudussa Ö:hön asti. Tulostettava PDF ja ratkaisu.",
+      "strand": "Lukemisen perustaidot",
+      "p1": "Iso hunajakenno kuusikulmaisista ruuduista täyttää sivun, ja jokaisessa ruudussa on iso kirjain. Karhu istuu vihreän lähtöympyrän vieressä, ja ympyrän nuoli osoittaa ensimmäiseen ruutuun. Jono ei ala A:sta: se alkaa jostain aakkosten keskeltä ja jatkuu Ö:hön asti, aakkosten viimeiseen kirjaimeen, jonka ohje mainitsee. Muissakin ruuduissa on kirjaimia, usein aakkosten naapureita, joten huolimaton hyppy vie väärään suuntaan.",
+      "p2": "Ensimmäisestä ruudusta alkaen lapsi värittää aina aakkosten seuraavan kirjaimen ruudussa, joka on edellisen vieressä, sitten seuraavan ja niin edelleen viimeiseen kirjaimeen asti. Juuri aloittaminen keskeltä on haaste: on tiedettävä, mikä kirjain tulee jonkin kirjaimen jälkeen, ilman aakkoslaulun apua A:sta alkaen. Sitä aakkosten tuntemusta ensimmäisen luokan oppilaat tarvitsevat sanakirjoissa, nimilistoissa ja aakkosjärjestyksessä, ja tässä sitä harjoitellaan hyppy kerrallaan. Vain yksi toisiaan koskettavien ruutujen ketju toimii, joten väritetyn reitin voi lopuksi tarkistaa helposti. Sivun jälkeen voi kokeilla samaa nimilistan kanssa: mikä nimi tulee seuraavaksi aakkosjärjestyksessä? Silloin lapsi huomaa, että sama taito auttaa luokan omissa listoissa. Ratkaisusta näkee lopuksi koko oikean jonon.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää ruudusta ruutuun ja painaa Tarkista, sekä ratkaisuna, jossa jono on väritetty. Samassa sarjassa rakettilabyrintti ja pienten kirjainten labyrintti meressä harjoittavat koko aakkostoa alusta, ja jokaisessa risteyksessä valitaan. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-411": {
+      "slug": "numerolabyrintti-1-20-juna",
+      "eyebrow": "Numerolabyrintti",
+      "h1": "Numerolabyrintti 1–20: laske junan kanssa mökille",
+      "title": "Numerolabyrintti 1–20 esikouluun: juna mökille | Tulostettava PDF",
+      "metaDescription": "Numerolabyrintti 1–20: laske kiskoja pitkin ja valitse jokaisessa vaihteessa seuraava luku, niin pieni juna pääsee mökille. Tulostettava PDF ja ratkaisu.",
+      "strand": "Luvut ja laskutoimitukset",
+      "p1": "Pieni juna odottaa vihreän lähtöympyrän luona vihreässä laaksossa; kiskojen vieressä on kuusia, metsäkauris ja jänis, ja radan päässä odottaa puinen mökki. Kiskot haarautuvat yhä uudelleen, ja niiden varrella on pyöreitä kiviä, joissa jokaisessa on luku. Oikea reitti kulkee lukujen 1–20 ohi järjestyksessä. Muut kivet ovat ansoja: lukuja, jotka hyppäävät eteenpäin, lukuja, jotka palaavat taaksepäin, ja lukuja, jotka toistuvat.",
+      "p2": "Jokaisessa vaihteessa lapsi jatkaa laskemista ja valitsee kiven, jossa on seuraava luku. Näin 20:een laskemisesta tulee enemmän kuin loru: lapsen täytyy tietää, mikä luku tulee seuraavaksi mistä kohdasta tahansa, ja lukea kaksinumeroiset luvut huolellisesti. Lukujen 10 ja 20 välillä lapset erehtyvät useimmin, joten niissä vaihteissa kannattaa hidastaa ja sanoa jokainen luku ääneen. Ääneen laskeminen piirtämisen aikana auttaa myös. Kun juna on perillä, lapsi voi laskea koko radan vielä kerran ääneen ja osoittaa jokaista kiveä sormella. Näin lukujen järjestys ja numeroiden ulkonäkö kytkeytyvät toisiinsa. Ratkaisusta voi lopuksi tarkistaa, kulkiko juna oikeaa rataa. Näin lukujen järjestys vahvistuu.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää junan kivestä kiveen ja painaa Tarkista, sekä ratkaisuna, joka näyttää radan 1–20 värillisenä. Samassa sarjassa matematiikkalabyrintti laskee viiden välein sataan, ja kirjainlabyrinteissa luvut on korvattu kirjaimilla. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G2-392": {
+      "slug": "matematiikkalabyrintti-viiden-valein-kuumailmapallo",
+      "eyebrow": "Matematiikkalabyrintti",
+      "h1": "Matematiikkalabyrintti: laske viiden välein sateenkaarelle",
+      "title": "Matematiikkalabyrintti 2. luokalle: viiden välein sataan | PDF",
+      "metaDescription": "Matematiikkalabyrintti 2. luokalle: hyppää pilveltä pilvelle viiden välein laskien, 5:stä 100:aan, ja vie kuumailmapallo sateenkaarelle. Tulostettava PDF.",
+      "strand": "Luvut ja laskutoimitukset",
+      "p1": "Kuumailmapallo nousee vihreästä lähtöympyrästä aamutaivaalle. Sen reitti on pilvistä tehty katu, ja pilviin on kirjoitettu lukuja. Ylhäällä odottaa sateenkaari. Oikea reitti laskee viiden välein: 5, 10, 15, 20 ja niin edelleen sataan asti. Paperilennokki, lokki ja aurinko jakavat taivaan.",
+      "p2": "Viiden välein laskeminen kuuluu toiselle luokalle, ja tässä labyrintissa askel on sääntö. Useimmat väärätkin pilvet päättyvät nollaan tai viiteen, joten lapsi ei voi valita mitä tahansa oikealta näyttävää lukua: väärät pilvet hyppäävät liian pitkälle, palaavat taaksepäin tai toistavat luvun, joka on jo ohitettu. Valitakseen lapsen täytyy joka kerta lisätä 5 edellisen pilven lukuun. Ääneen laskeminen piirtäessä ja sen tarkistaminen, että jokainen luku on tasan 5 suurempi, pitää pallon oikealla kurssilla sataan asti. Sadan ruudukko tai lukujana pöydällä auttaa näkemään, että viiden välein laskiessa luvut päättyvät vuorotellen viiteen ja nollaan. Kun kuvio on huomattu, lapsi voi tarkistaa jokaisen pilven sen avulla. Ratkaisusta näkee lopuksi koko laskureitin, ja sitä vasten lapsi voi tarkistaa jokaisen pilven luvun.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää pallon pilveltä pilvelle ja painaa Tarkista, sekä ratkaisuna, joka näyttää laskureitin värillisenä. Samassa sarjassa numerolabyrintti laskee 1:stä 20:een esikoulussa, ja matematiikkalabyrintti 100:aan asti laskee plus- ja miinuslaskuja kyltiltä kyltille. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-427": {
+      "slug": "matematiikkalabyrintti-1-luokka-kymppiparit",
+      "eyebrow": "Matematiikkalabyrintti",
+      "h1": "Matematiikkalabyrintti: astu vain laskuille, joiden summa on 10",
+      "title": "Matematiikkalabyrintti 1. luokalle: kymppiparit | Tulostettava PDF",
+      "metaDescription": "Matematiikkalabyrintti 1. luokalle: kirahvi astuu vain yhteenlaskuille, joiden summa on 10; summat 9 ja 11 ovat ansoja. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Luvut ja laskutoimitukset",
+      "p1": "Pölyinen savanni levittäytyy sivulle. Kirahvi lähtee vihreästä ympyrästä pyöreän, luvulla 10 merkityn kyltin vierestä, ja apinanleipäpuu odottaa toisella puolella. Polut kulkevat litteiden kivien yli, ja jokaisessa kivessä on yhteenlasku, kuten 6 + 4 tai 7 + 4. Seepra, norsu, sarvikuono, strutsi, surikaatti ja gaselli seisovat tasangolla polkujen ympärillä.",
+      "p2": "Kirahvi saa astua vain kiville, joiden summa on 10. Jokainen oikean reitin kivi on kymppipari, ja väärät kivet ovat lähellä, summana 9 tai 11, usein niin, että niissä on sama luku kuin oikeassa parissa. Siksi lapsen täytyy todella laskea eikä vain tunnistaa tuttua lukua. Kymppiparit ovat ensimmäisen luokan yhteen- ja vähennyslaskun perusta, koska niin paljon myöhempää päässälaskua rakentuu niiden varaan. Aluksi lapsi voi sanoa jokaisen laskun ääneen tai laskea sormilla. Kymmenen helmen helminauha tai sormet auttavat näkemään, että 6 ja 4 täyttävät kymmenen yhdessä. Kun parit alkavat tuntua tutuilta, lapsi voi yrittää muistaa ne ennen laskemista. Ratkaisusta voi lopuksi tarkistaa oikean reitin kivet.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää kirahvin kivien yli ja painaa Tarkista, sekä ratkaisuna, joka näyttää kymppiparien reitin värillisenä. Samassa sarjassa piparkakku-ukon labyrintti harjoittaa vähennyslaskuja 20:een asti, ja toisen luokan matematiikkalabyrintti laskee useiden kylttien yli. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G1-428": {
+      "slug": "vahennyslaskulabyrintti-20-asti-piparkakku-ukko",
+      "eyebrow": "Matematiikkalabyrintti",
+      "h1": "Vähennyslaskulabyrintti 20:een asti: auta piparkakku-ukkoa",
+      "title": "Vähennyslaskulabyrintti 20:een asti 1. luokalle | Tulostettava PDF",
+      "metaDescription": "Vähennyslaskulabyrintti 20:een asti: piparkakku-ukko astuu vain laskuille, joiden vastaus on sen oma luku, kakulle asti. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Luvut ja laskutoimitukset",
+      "p1": "Pastellinväristen polkujen karkkimaa täyttää tämän labyrintin. Piparkakku-ukko lähtee vihreästä ympyrästä pyöreän kyltin vierestä, jossa on sen luku, ja kakku odottaa toisella puolella. Polut kulkevat kivien ohi, ja jokaisessa kivessä on vähennyslasku 20:een asti, kuten 15 − 7. Kuppikakut, donitsit, tikkarit, jäätelöt, karkkikepit ja macaronit koristavat maata polkujen välissä.",
+      "p2": "Sääntö on nopeasti sanottu: astu vain vähennyslaskuille, joiden vastaus on piparkakku-ukon luku. Jokaisessa oikean reitin kivessä on tuo vastaus; väärät kivet menevät yhdellä ohi tai syntyvät tavallisesta laskuvirheestä, joten lapsen täytyy laskea jokainen. Kun vähennetään luvuista 10:n ja 20:n väliltä, ensimmäisellä luokalla rakennetaan strategioita, joita käytetään pitkään, kuten paluu ensin kymmeneen. Lyhyt lukujana tai nappeja pöydällä auttaa hyvin ensimmäisten kivien kanssa. Kun reitti on löytynyt, lapsi voi tarkistaa yhden laskun lisäämällä: jos 15 − 7 on 8, niin 8 + 7 on 15. Näin yhteen- ja vähennyslasku tukevat toisiaan. Ratkaisusta voi lopuksi verrata omaa reittiä oikeaan ja katsoa, mikä lasku johti harhaan.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää piparkakku-ukon kivien yli ja painaa Tarkista, sekä ratkaisuna, joka näyttää oikean reitin värillisenä. Samassa sarjassa kirahvin labyrintti harjoittaa kymppipareja, ja toisen luokan matematiikkalabyrintti laskee plus- ja miinuslaskuja sataan asti. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-412": {
+      "slug": "alkuaannelabyrintti-kuin-leijona",
+      "eyebrow": "Äännelabyrintti",
+      "h1": "Alkuäännelabyrintti: kuvat, jotka alkavat kuin leijona",
+      "title": "Alkuäännelabyrintti esikouluun: kuin leijona | Tulostettava PDF",
+      "metaDescription": "Äännelabyrintti esikouluun: sano jokaisen kuvan nimi ääneen ja astu vain kuville, jotka alkavat samalla äänteellä kuin leijona, korille asti. PDF ja ratkaisu.",
+      "strand": "Kielellinen tietoisuus",
+      "p1": "Hiekanvärinen tori ylhäältä katsottuna on tämän äännelabyrintin näyttämö. Leijona lähtee vihreästä ympyrästä, ja kori odottaa toisella puolella. Poluilla on pyöreitä kortteja, joissa jokaisessa on kuva eikä yhtään sanaa: eläimiä, ruokaa ja arjen esineitä. Leijona itse on vihje, sillä oikeat kortit alkavat niin kuin sana leijona alkaa.",
+      "p2": "Lapsi sanoo jokaisen kuvan nimen ääneen ja astuu vain kuville, jotka alkavat samalla äänteellä kuin leijona, kuten lehmä, leija tai lumiukko. Väärät kortit alkavat muilla äänteillä, ja joissakin on l myöhemmin sanassa, kuten pelikaani tai kaali, joten se, joka etsii mitä tahansa l-äännettä, eksyy. Sanotun sanan alkuäänteen kuuleminen on osa kielellistä tietoisuutta, jota esikoulussa harjoitellaan ennen lukemista, ja tämä sivu harjoittaa sitä pelkillä kuvilla, jotta mukaan pääsevät myös lapset, jotka eivät vielä lue. Kun reitti on valmis, lapsi voi keksiä vielä omia sanoja, jotka alkavat l-äänteellä, ja piirtää niistä yhden sivun reunaan. Ratkaisusta näkee lopuksi, mitkä kortit kuuluivat leijonan reitille ja mitkä eivät.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää leijonan korttien yli ja painaa Tarkista (väärä kortti saa punaisen ympyrän), sekä ratkaisuna, joka näyttää leijonan reitin värillisenä. Samassa sarjassa kirjainlabyrintit harjoittavat aakkosjärjestystä, ja ensimmäinen labyrintti koiranpennun kanssa on rauhallinen aloitus kynäotteelle. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "G2-393": {
+      "slug": "matematiikkalabyrintti-2-luokka-100-asti",
+      "eyebrow": "Matematiikkalabyrintti",
+      "h1": "Matematiikkalabyrintti 100:aan asti: vie nosturille sen luku",
+      "title": "Matematiikkalabyrintti 2. luokalle: plus ja miinus 100:aan asti",
+      "metaDescription": "Matematiikkalabyrintti 2. luokalle: kuorma-auto aloittaa luvusta, jokainen kyltti lisää tai vähentää, ja vain yksi tie päättyy nosturin lukuun. PDF ja ratkaisu.",
+      "strand": "Luvut ja laskutoimitukset",
+      "p1": "Rakennustyömaa sorateineen täyttää sivun. Punainen kuorma-auto lähtee vihreästä ympyrästä luvun kanssa, ja keltainen nosturi odottaa toisella puolella omine lukuineen. Teiden varrella on pyöreäkulmaisia kylttejä, joissa jokaisessa on muutos, kuten +10, −5 tai +2, ja jokaisessa kyltissä on pieni ruutu uuden tuloksen kirjoittamista varten. Kaivinkoneet, betoniauto, trukki, puskutraktori, tukit ja kivet täyttävät työmaan teiden ympärillä.",
+      "p2": "Lapsi aloittaa kuorma-auton luvusta, seuraa yhtä tietä ja kirjoittaa sillä tiellä uuden luvun jokaisen kyltin ruutuun, jonka ohi kuorma-auto kulkee. Vain yksi tie päättyy tasan nosturin lukuun. Se on laskemista ketjussa: kymmenten ja ykkösten lisäämistä ja vähentämistä sadan sisällä, päässälaskua, jota toisella luokalla harjoitellaan koko vuoden, ja jokainen vaihe kirjoitetaan muistiin, jotta virheet on helppo löytää. Muut tiet päättyvät aivan nosturin luvun viereen, joten huolimaton vaihe näkyy maalissa. Lukujana tai sadan ruudukko auttaa niitä, joille kymmenen lisääminen ei vielä suju päässä. Lopuksi lapsi voi verrata omia välituloksiaan ratkaisun lukuihin ja etsiä, missä kohdassa mahdollinen virhe syntyi. Näin virheestä tulee oppimisen paikka.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää kuorma-auton tien ja painaa Tarkista, sekä ratkaisuna, joka näyttää oikean tien ja jokaisen välituloksen. Samassa sarjassa matematiikkalabyrintti laskee viiden välein sataan, ja kirahvin labyrintti harjoittaa kymppipareja. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    },
+    "K-413": {
+      "slug": "sokkelo-varityskuva-rapu-rannalla",
+      "eyebrow": "Labyrintti ja värityskuva",
+      "h1": "Labyrintti ja värityskuva: rapu rannalla",
+      "title": "Labyrintti ja värityskuva esikouluun: rapu rannalla | Tulostettava PDF",
+      "metaDescription": "Labyrintti ja värityskuva esikouluun: piirrä ravun reitti hiekkalinnalle, väritä koko tie ja sitten ranta. Tulostettava PDF, näyttöversio ja ratkaisu.",
+      "strand": "Hienomotoriikka ja avaruudellinen hahmottaminen",
+      "p1": "Tämä ranta on piirretty pelkillä mustilla viivoilla, valmiina värikynille. Rapu odottaa lähdössä, hiekkalinna seisoo toisella puolella, ja leveä tie kahden reunaviivan välissä kiemurtelee hiekalla, ja siinä on muutama sivupolku, joka päättyy. Tien ympärillä on kokonainen ranta väritettäväksi: ylhäällä meri, jossa on vene ja kala, palmu, aurinkovarjo, rantapallo, ämpäri ja meritähti.",
+      "p2": "Sivu pyytää kolmea asiaa peräkkäin. Ensin lapsi etsii ravun reitin ja piirtää sen. Sitten koko tie väritetään reunasta reunaan: huolellista värittämistä leveän kaistan sisällä, hyvää käden hallinnan harjoitusta. Viimeisenä tulee ranta, väritettynä niin kuin lapsi haluaa. Koska labyrintti ratkaistaan ennen kuvaa, tehtävällä on luonteva järjestys, ja väritetty tie näyttää vastauksen selvästi. Pienimmät voivat ensin seurata tietä sormella ja kertoa, minne rapu on menossa. Värittäessä kannattaa muistuttaa, että tie väritetään reunasta reunaan mutta ei reunojen yli, sillä juuri se harjoittaa käden hallintaa. Kun tie on väritetty, ratkaisusta voi tarkistaa, että lapsi löysi oikean reitin hiekkalinnalle, ja sen jälkeen ranta väritetään vapaasti omilla väreillä. Väreillä ei ole oikeita eikä vääriä.",
+      "p3": "Sivu on saatavilla tulostettavana PDF:nä, näyttöversiona, jossa lapsi vetää ravun reitin ja painaa Tarkista, sekä ratkaisuna, jossa tie on täytetty. Samassa sarjassa ensimmäinen labyrintti koiranpennun kanssa ja siilin labyrintti hedelmätarhassa on piirretty värillisinä. Nämä ovat tarinallisia kuvalabyrintteja; ruudukkolabyrinteilla, pisteestä pisteeseen -tehtävillä ja sanojen järjestämisellä on omat sivunsa."
+    }
+  }
+}

@@ -96,7 +96,7 @@ const EN_STRINGS = {
   collect: {
     title: 'Collect-the-Carrots Maze: The Rabbit\'s Garden',
     printTitle: 'Help the Rabbit Pick Up Every Carrot',
-    instruction: 'Help the rabbit get to the bucket and pick up every carrot on the way. Tick a circle for each carrot.',
+    instruction: 'Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot.',
     tap: 'Drag from the green circle to the bucket. Pass every carrot on the way.',
   },
   avoid: {

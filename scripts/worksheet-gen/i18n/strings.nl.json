@@ -3159,7 +3159,7 @@
   },
   "G1-424": {
     "title": "Doolhof: verzamel alle wortels",
-    "instruction": "Help het konijn naar de emmer en verzamel onderweg elke wortel. Kruis voor elke wortel een rondje aan.",
+    "instruction": "Help het konijn naar de emmer en verzamel elke wortel, zonder een pad twee keer te nemen. Kruis voor elke wortel een rondje aan.",
     "printTitle": "Help het konijn alle wortels te verzamelen"
   },
   "G1-425": {
@@ -3174,7 +3174,7 @@
   },
   "K-410": {
     "title": "Letterdoolhof met kleine letters: de zee",
-    "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de bel met de volgende kleine letter.",
+    "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de luchtbel met de volgende kleine letter.",
     "printTitle": "Zwem van a tot z naar huis"
   },
   "G1-426": {

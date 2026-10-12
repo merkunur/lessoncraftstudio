@@ -52,7 +52,7 @@
     "collect": {
       "title": "Labyrinthe : ramasse toutes les carottes",
       "printTitle": "Aide le lapin à ramasser toutes les carottes",
-      "instruction": "Aide le lapin à aller jusqu'au seau en ramassant chaque carotte. Coche un rond pour chaque carotte.",
+      "instruction": "Aide le lapin à aller jusqu'au seau en ramassant chaque carotte, sans passer deux fois par le même chemin. Coche un rond pour chaque carotte.",
       "tap": "Glisse du rond vert jusqu'au seau. Passe par chaque carotte."
     },
     "avoid": {
@@ -76,7 +76,7 @@
     "letter-hop": {
       "title": "Labyrinthe de l'ordre alphabétique : la ruche",
       "printTitle": "Saute d'alvéole en alvéole dans l'ordre alphabétique",
-      "instruction": "Commence dans l'alvéole montrée par la flèche. Colorie la lettre suivante dans une alvéole voisine, jusqu'au {LAST}.",
+      "instruction": "Commence dans l'alvéole montrée par la flèche. Colorie à chaque fois la lettre suivante dans une alvéole voisine, jusqu'au {LAST}.",
       "tap": "Commence au rond vert. Glisse d'alvéole en alvéole vers la lettre suivante de l'alphabet."
     },
     "numbers-20": {

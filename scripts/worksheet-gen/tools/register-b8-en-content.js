@@ -22,7 +22,7 @@ const MSGS_FILE = path.join(__dirname, '..', '..', '..', 'frontend', 'messages',
 
 const SKILL = {
   full: 'Drawing one line through a picture maze, choosing the next letter, number or sum at each fork, builds planning and pencil control; every page has a draw-the-way screen and a key.',
-  short: 'Builds planning by drawing one way through a picture maze.',
+  short: 'Builds planning: draw one way through a picture maze.',
 };
 const TOPIC_META = 'Maze puzzles for kids: guide a hedgehog, a rocket or a polar bear through a picture maze, follow letters A to Z or numbers 1 to 20, count by 5s or find sums that make 10. Printable PDFs with an answer key, preschool to grade 2.';
 

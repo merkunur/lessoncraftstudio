@@ -452,6 +452,7 @@
   },
   "maze-puzzles": {
     "full": "Å tegne en strek gjennom en bildelabyrint og ved hvert veiskille velge neste bokstav, tall eller regnestykke trener planlegging og blyantgrep; med fasit.",
-    "short": "Trener planlegging og blyantgrep i en bildelabyrint."
+    "short": "Trener planlegging og blyantgrep i en bildelabyrint.",
+    "levelSetShort": "Trener planlegging."
   }
 }

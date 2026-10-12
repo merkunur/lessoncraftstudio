@@ -43,7 +43,9 @@ function mouthChains(cfg, P, s, g, S) {
   const clearNeed = (cfg.W || 0) + 17;
   for (const [key, node, pt] of [['start', s, cfg.startMouth], ['goal', g, cfg.goalMouth]]) {
     if (!pt) continue;
-    const a = P[node]; const L = Math.hypot(pt[0] - a[0], pt[1] - a[1]); if (L < 4) continue;
+    // a mouth station ON its mouth point leaves no mouth to draw the start disc / flag along: refuse the maze (it used to
+    // crash the composer; 2026-10-12, Level Set slots)
+    const a = P[node]; const L = Math.hypot(pt[0] - a[0], pt[1] - a[1]); if (L < 4) return { fail: key + ' mouth degenerate' };
     const pts = []; for (let k = 0; k <= 16; k++) pts.push([a[0] + (pt[0] - a[0]) * k / 16, a[1] + (pt[1] - a[1]) * k / 16]);
     for (const [e, ss] of Object.entries(S)) {
       const [x, y] = e.split('-').map(Number); if (x === node || y === node) continue;

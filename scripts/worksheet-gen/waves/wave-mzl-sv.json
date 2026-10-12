@@ -1,0 +1,1230 @@
+{
+  "id": "wave-mzl-sv",
+  "_note": "Maze Puzzles Level Set 2026-10-12: original scenes (data/hmx), one scene per worksheet, three levels per face (data/hmx/levels.js). Visible to teachers, never indexed; PDF + draw-the-way screen + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "unitInSlug": false,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "K-405",
+    "K-406",
+    "G1-420",
+    "K-407",
+    "G1-421",
+    "G1-422",
+    "K-408",
+    "G1-423",
+    "G1-424",
+    "G1-425",
+    "G1-426",
+    "K-409",
+    "K-410",
+    "K-411",
+    "G2-392",
+    "G1-427",
+    "G1-428",
+    "G2-393",
+    "K-412",
+    "K-413"
+  ],
+  "levels": {
+    "K-405": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-meadow-lamb",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-garden-snail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-forest-squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-savanna-zebra",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-snow-sledding",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-night-owl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-town-firefighter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-dino-triceratops",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-reef-pufferfish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-forest-beaver",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-pond-swan",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 13,
+          "unit": "hmx-farm-pig",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "hmx-park-bike",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "hmx-autumn-mouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "hmx-desert-camel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "hmx-arctic-seal",
+          "seedVariant": 1
+        },
+        {
+          "copy": 18,
+          "unit": "hmx-rain-mail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 19,
+          "unit": "hmx-harbour-seagull",
+          "seedVariant": 1
+        },
+        {
+          "copy": 20,
+          "unit": "hmx-wheat-farmer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 21,
+          "unit": "hmx-candy-robot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 22,
+          "unit": "hmx-autumn-turkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 23,
+          "unit": "hmx-jungle-macaw",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 24,
+          "unit": "hmx-orchard-ox",
+          "seedVariant": 1
+        },
+        {
+          "copy": 25,
+          "unit": "hmx-pond-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 26,
+          "unit": "hmx-jungle-sloth",
+          "seedVariant": 1
+        },
+        {
+          "copy": 27,
+          "unit": "hmx-beach-turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 28,
+          "unit": "hmx-mountain-hike",
+          "seedVariant": 1
+        },
+        {
+          "copy": 29,
+          "unit": "hmx-blossom-bunny",
+          "seedVariant": 1
+        },
+        {
+          "copy": 30,
+          "unit": "hmx-camp-raccoon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 31,
+          "unit": "hmx-space-astronaut",
+          "seedVariant": 1
+        },
+        {
+          "copy": 32,
+          "unit": "hmx-sunset-donkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 33,
+          "unit": "hmx-snow-skier",
+          "seedVariant": 1
+        },
+        {
+          "copy": 34,
+          "unit": "hmx-camp-night-fox",
+          "seedVariant": 3
+        }
+      ]
+    },
+    "K-406": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-first-hamster",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-first-ladybug",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-first-girl",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-first-chicken",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 6,
+          "unit": "hmx-first-kitten",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-first-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-first-chick",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-first-dino-toy",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": "hmx-first-crab",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-first-turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-first-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "hmx-first-bird",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-420": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-big-monkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-big-badger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-big-rhino",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-big-bear",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 6,
+          "unit": "hmx-big-rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-big-santa",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-big-tortoise",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-big-seagull",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": "hmx-big-seahorse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-big-llama",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-big-parasaur",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "hmx-big-garbage",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-407": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-river-canoe",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-river-sailboat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-river-beaver",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-river-fishing-boat",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 6,
+          "unit": "hmx-river-kayak",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-river-duck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-river-turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-river-tug",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": "hmx-river-ship",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-river-yacht",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-river-puffin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "hmx-river-goose",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-421": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-burrow-mouse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-burrow-gopher",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-burrow-ferret",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-burrow-earthworm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-burrow-gerbil",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-burrow-chipmunk",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-burrow-bunny",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-burrow-meerkat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-burrow-snowy-fox",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-422": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-town-ambulance",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-town-motorcycle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-town-truck",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-town-bus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-town-van",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-town-racecar",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-town-jeep",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-town-mixer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-town-tractor",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-408": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-babies-meadow",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 3,
+          "unit": "hmx-babies-snow",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-423": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-strings-farm",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-strings-savanna",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-strings-forest",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-strings-beach",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-strings-pets",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-strings-kids",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-strings-snow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-strings-dinos",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-strings-jungle",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-424": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-collect-acorns",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-collect-fish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-collect-stars",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-collect-eggs",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 6,
+          "unit": "hmx-collect-flowers",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-collect-shells",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-collect-bananas",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-collect-apples",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": "hmx-collect-corn",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-collect-strawberries",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-collect-presents",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "hmx-collect-hibiscus",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-425": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-avoid-duckling",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-avoid-snowboard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-avoid-rabbit",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-avoid-penguin",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 6,
+          "unit": "hmx-avoid-fish",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-avoid-butterfly",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-avoid-toycar",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-avoid-ant",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 10,
+          "unit": "hmx-avoid-rocket",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-avoid-frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-avoid-raptor",
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": "hmx-avoid-gazelle",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-426": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-hop-frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-hop-astronaut",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 4,
+          "unit": "hmx-hop-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-hop-teddy",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": "hmx-hop-caterpillar",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-hop-fox",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-409": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-caps-airplane",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-caps-toytrain",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-caps-butterfly",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-caps-helicopter",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-caps-bicycle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-caps-whale",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-caps-submarine",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-caps-dragon",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-caps-monster-truck",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-410": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-lower-octopus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-lower-stork",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-lower-kangaroo",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-lower-snail",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-lower-parrot",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-lower-bull",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-lower-flamingo",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-lower-koala",
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-lower-hippo",
+          "seedVariant": 3
+        }
+      ]
+    },
+    "K-411": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-nums-cow",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-nums-deer",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-nums-excavator",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-nums-elephant",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-nums-dog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-nums-scooter",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-nums-camel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-nums-seal",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-nums-owl",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-392": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-skip-jet",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-skip-parrot",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 4,
+          "unit": "hmx-skip-eagle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-skip-sleigh",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": "hmx-skip-manatee",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-skip-helicopter",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-427": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-ten-bison",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-ten-leopard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-ten-rabbit",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-ten-sheep",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-ten-alligator",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-ten-brachio",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-ten-moose",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-ten-goat",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-ten-peacock",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G1-428": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-sub-snowman",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-sub-cat",
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-sub-bulldozer",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 5,
+          "unit": "hmx-sub-doll",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-sub-ladybug",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-sub-chinchilla",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 8,
+          "unit": "hmx-sub-rudolph",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-sub-squid",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-sub-owl",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "G2-393": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-run-firetruck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-run-camper",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 4,
+          "unit": "hmx-run-toytruck",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-run-subway",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": "hmx-run-forklift",
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": "hmx-run-ferry",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-412": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-sound-leopard",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-sound-tractor",
+          "seedVariant": 7
+        }
+      ],
+      "2": [
+        {
+          "copy": 4,
+          "unit": "hmx-sound-tiger",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-sound-panda",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": "hmx-sound-toucan",
+          "seedVariant": 1
+        }
+      ]
+    },
+    "K-413": {
+      "1": [
+        {
+          "copy": 2,
+          "unit": "hmx-colour-pig",
+          "seedVariant": 1
+        },
+        {
+          "copy": 3,
+          "unit": "hmx-colour-penguin",
+          "seedVariant": 1
+        },
+        {
+          "copy": 4,
+          "unit": "hmx-colour-squirrel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": "hmx-colour-octopus",
+          "seedVariant": 1
+        },
+        {
+          "copy": 6,
+          "unit": "hmx-colour-rocket",
+          "seedVariant": 1
+        }
+      ],
+      "2": [
+        {
+          "copy": 7,
+          "unit": "hmx-colour-horse",
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": "hmx-colour-hedgehog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 9,
+          "unit": "hmx-colour-camel",
+          "seedVariant": 1
+        },
+        {
+          "copy": 10,
+          "unit": "hmx-colour-bee",
+          "seedVariant": 1
+        },
+        {
+          "copy": 11,
+          "unit": "hmx-colour-ambulance",
+          "seedVariant": 1
+        },
+        {
+          "copy": 12,
+          "unit": "hmx-colour-tractor",
+          "seedVariant": 1
+        }
+      ],
+      "3": [
+        {
+          "copy": 13,
+          "unit": "hmx-colour-monkey",
+          "seedVariant": 1
+        },
+        {
+          "copy": 14,
+          "unit": "hmx-colour-turtle",
+          "seedVariant": 1
+        },
+        {
+          "copy": 15,
+          "unit": "hmx-colour-frog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 16,
+          "unit": "hmx-colour-dog",
+          "seedVariant": 1
+        },
+        {
+          "copy": 17,
+          "unit": "hmx-colour-snowman",
+          "seedVariant": 1
+        }
+      ]
+    }
+  }
+}

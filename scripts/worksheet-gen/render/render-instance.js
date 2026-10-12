@@ -187,7 +187,7 @@ async function renderInstance(o) {
       });
       if (!got) throw new Error(`render-instance: ${type.id} is trace-path but the screen has no maze scene`);
       // the family's runtime words (Go back, Keep going …) in the page's language — a locale without them refuses
-      if (spec.chrome) got.trace.chrome = spec.chrome(locale);
+      if (spec.chrome) got.trace.chrome = spec.chrome(locale, unit);
       const screenPng = base + '.screen.png';
       await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
       const keyBuilt = await again({ answerKey: true });

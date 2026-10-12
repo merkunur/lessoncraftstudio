@@ -113,7 +113,7 @@ async function generate(args) {
       variant: it.variant, seedVariant: it.seedVariant || null, buildExtra: it.buildExtra || null, unit: it.unit || null, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
       // wave "interactive": true (Level Set) + a type that declares `interactive` → screen version + answer key
       interactive: !!(plan.interactive && spec.interactive),
-      interactiveInstruction: plan.interactive && spec.interactive ? interactiveInstruction(spec, it.locale, it.difficulty) : null,
+      interactiveInstruction: plan.interactive && spec.interactive ? (strings.screenInstruction || interactiveInstruction(spec, it.locale, it.difficulty)) : null,
       answerKeySuffix: plan.interactive && spec.interactive ? publishI18n.resolve(it.locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value : null,
     });
     const fails = [].concat(r.qa.lints || [], r.qa.verify || [], (r.interactive && r.interactive.lints) || []);
@@ -129,7 +129,7 @@ async function generate(args) {
       interactive: r.interactive ? { kind: r.interactive.kind } : null,
     });
     const interactive = r.interactive
-      ? { kind: r.interactive.kind, items: r.interactive.items, marks: r.interactive.marks, instruction: interactiveInstruction(spec, it.locale, it.difficulty), preview: await buildPreviewJpeg(r.interactive.pngPath),
+      ? { kind: r.interactive.kind, items: r.interactive.items, marks: r.interactive.marks, instruction: (strings.screenInstruction) || interactiveInstruction(spec, it.locale, it.difficulty), preview: await buildPreviewJpeg(r.interactive.pngPath),
         // the robot gate's oracle needs the page's theme + level (it recomputes the answers from the vocabulary)
         ctx: { theme: cacheTheme, difficulty: it.difficulty, level3: !!(spec.difficulty[it.difficulty] && spec.difficulty[it.difficulty].level3), ...(spec.interactive.ranksFromAnswers ? { ranksFromAnswers: true } : {}), ...(spec.interactive.countGroups ? { countGroups: true } : {}), ...(r.interactive.paint ? { paint: r.interactive.paint, design: r.meta && r.meta.design } : {}), ...(r.interactive.trace ? { trace: r.interactive.trace } : {}) } }
       : null;

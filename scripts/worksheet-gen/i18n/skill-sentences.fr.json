@@ -452,6 +452,7 @@
   },
   "maze-puzzles": {
     "full": "Tracer une ligne dans un labyrinthe illustré et choisir à chaque croisement la lettre, le nombre ou le calcul suivant développe l'anticipation et le geste ; avec corrigé.",
-    "short": "Développe l'anticipation et le geste dans un labyrinthe."
+    "short": "Développe l'anticipation et le geste dans un labyrinthe.",
+    "levelSetShort": "Développe l'anticipation."
   }
 }

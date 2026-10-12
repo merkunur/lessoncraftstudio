@@ -19,6 +19,15 @@ const { generateLooped, generateLayers, generateStreets, generateForest, generat
 const R = require('../../lib/hm-rules.js');
 const { COLLATION } = require('../../data/b2/collation.js');
 
+/** the printed words of a Level Set scene in a locale (data/hmx/text/<loc>.js) — a missing entry REFUSES */
+function hmxText(unit, locale) {
+  const loc = String(locale || 'en').slice(0, 2); const id = String(unit).replace(/@.*$/, '');
+  let T; try { T = require('../../data/hmx/text/' + loc + '.js'); } catch (e) { throw new Error('K-405: no Level Set text file for ' + loc); }
+  const t = T[id]; if (!t) throw new Error('K-405: no Level Set text for ' + id + ' in ' + loc);
+  for (const k of ['title', 'printTitle', 'instruction', 'tap']) if (!t[k]) throw new Error('K-405: Level Set text ' + id + ' / ' + loc + ' has no ' + k);
+  return t;
+}
+
 const D = {
   1: { mode: 'base', scene: 'orchard-hedgehog' },
   2: { mode: 'base', scene: 'orchard-hedgehog' },
@@ -35,8 +44,11 @@ function sequenceFor(L, locale) {
 }
 
 function mazeFor(sceneId, rng, tries = 12, locale) {
-  if (!SCENES[sceneId]) throw new Error('K-405: unknown scene ' + sceneId);
-  let sc = withSlots(SCENES[sceneId]);
+  // a Level Set copy passes its resolved scene spec (lib/hmx.js) instead of a published scene id
+  const raw = (sceneId && typeof sceneId === 'object') ? sceneId : SCENES[sceneId];
+  if (!raw) throw new Error('K-405: unknown scene ' + sceneId);
+  if (raw !== SCENES[sceneId]) sceneId = raw.hmxId || 'hmx';
+  let sc = withSlots(raw);
   // a face whose signs are pills tells the generator their real size (a copy: the shared scene data is never mutated)
   if (sc.labels && sc.labels.size) sc = { ...sc, maze: { ...sc.maze, stoneSize: sc.labels.size } };
   let last = null;
@@ -67,7 +79,11 @@ function mazeFor(sceneId, rng, tries = 12, locale) {
       m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignOps(adj, route, rnd, { opSet: L.opSet, startRange: L.start, range: L.range }), ruleFor: (lab) => R.opsRule({ start: lab.start, target: lab.target }), nearMissShortest: L.nearMissShortest, lgates: { decoys: L.decoyCount } }, rng.next);
       if (m && !m.fail) m.ruleStamp = { kind: 'ops', start: m.assigned.start, target: m.assigned.target };
     } else if (sc.labels && sc.labels.rule === 'sound') {
-      const L = sc.labels; const loc = String(locale || 'en').slice(0, 2); const pool = require('../../data/hm/sound-pools.json')[loc];
+      const L = sc.labels; const loc = String(locale || 'en').slice(0, 2);
+      // a Level Set scene names its own onset (data/hmx/sound-pools.json: /t/, /p/); /l/ reads the published pool. The cue's own
+      // noun is never a card (the leopard is the cue on a leopard page).
+      let pool = L.target && L.target !== 'l' ? (require('../../data/hmx/sound-pools.json')[loc] || {})[L.target] : require('../../data/hm/sound-pools.json')[loc];
+      if (pool && sc.hmxId) { const cueNoun = String(sc.hero.src).split('/')[1]; pool = { ...pool, l: pool.l.filter((c) => c.src.split('/')[1] !== cueNoun) }; }
       if (!pool) throw new Error('K-405: no first-sound pool for ' + loc);
       const keep = (sc.maze.keep || []).map((k) => [k[0], k[1], k[2] + (L.stoneR || 36)]);
       m = generateLooped({ ...sc.maze, keep, seqLen: L.route, stoneR: L.stoneR || 36, label: (adj, route, rnd) => R.assignSound(adj, route, pool, rnd, L.laterLMin || 3), rule: R.soundRule({ good: pool.l.map((c) => c.src) }), lgates: { decoys: L.decoyCount } }, rng.next);
@@ -161,6 +177,7 @@ function stripSvg(sc, m, o = {}) {
     st.kinds.forEach((k, i) => {
       const cx = W / 2 + (i - (st.kinds.length - 1) / 2) * 120;
       if (k === 'hole') parts.push(`<ellipse cx="${cx}" cy="32" rx="22" ry="13" fill="#5E9FC0" stroke="#3F7FA0" stroke-width="2.5"/>`);
+      else if (String(k).startsWith('decor:')) parts.push(require('../../lib/hmx-scenery.js').decorSvg(k.slice(6), cx, 32, 1, { pal: sc.decorPal || {} }).svg);
       else parts.push(centred(k, cx, 32, 40).svg);
       parts.push(`<circle cx="${cx}" cy="32" r="27" fill="none" stroke="#F2784B" stroke-width="4"/><line x1="${cx - 19}" y1="${32 + 19}" x2="${cx + 19}" y2="${32 - 19}" stroke="#F2784B" stroke-width="4" stroke-linecap="round" opacity=".75"/>`);
     });
@@ -186,23 +203,39 @@ module.exports = {
   mazeFor,
   interactive: { kind: 'trace-path', instructionKey: (difficulty, spec) => 'mz-' + ((spec.difficulty[difficulty] || spec.difficulty[2]).mode || 'base'), oracle: traceOracle,
     // the screen's own words (Go back, Keep going, …): the family bank's chrome block — a locale without one REFUSES
-    chrome: (locale) => require('../../lib/b8-common.js').bank('maze-puzzles', locale).chrome },
+    chrome: (locale, unit) => {
+      const c = require('../../lib/b8-common.js').bank('maze-puzzles', locale).chrome;
+      // a Level Set collect scene names its own item in the "missed" hint (the bank's sentence names the carrot)
+      if (unit && /^hmx-/.test(String(unit))) { const t = hmxText(unit, locale); if (t.missed) return { ...c, mzMissed: t.missed }; }
+      return c;
+    } },
 
-  build({ difficulty, locale }, ctx) {
+  /** Level Set copies (data/hmx, 2026-10-12): every scene prints its own title, heading, instruction and screen line */
+  copyStrings(s0, ctx) {
+    const unit = String((ctx && ctx.unit) || '');
+    if (!/^hmx-/.test(unit)) return s0;
+    const t = hmxText(unit, ctx.locale);
+    return { ...s0, title: t.title, printTitle: t.printTitle, instruction: t.instruction, screenInstruction: t.tap };
+  },
+
+  build({ difficulty, locale, unit }, ctx) {
     const d = this.difficulty[difficulty];
+    const hmx = unit && /^hmx-/.test(String(unit));
+    const scene = hmx ? require('../../lib/hmx.js').resolveHmx(unit, difficulty, d.mode) : d.scene;
+    const sceneName = hmx ? String(unit) : d.scene;
     // a maze the composer cannot dress (no island big enough for a required drawing) is replaced by the next maze from
     // the same rng — print, screen and key replay the identical sequence, so they stay one instance (2026-10-11: a
     // denser jungle left the toucan no room; one refusal failed the whole page)
     const key = !!(ctx && ctx.answerKey);
     let sc, m, out, lastMissing = [];
     for (let a = 0; a < 12; a++) {
-      ({ sc, m } = mazeFor(d.scene, ctx.rng, 12, locale));
+      ({ sc, m } = mazeFor(scene, ctx.rng, 12, locale));
       out = sc.maze.gen === 'strands' ? composeStrands(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : sc.maze.gen === 'hex' ? composeHex(sc, m, { key }) : composeScene(sc, m, { key, rnd: ctx.rng.next, screen: !!(ctx && ctx.interactive) });
       if (!out.missing.length) break;
       lastMissing = out.missing;
     }
-    if (out.missing.length) throw new Error('K-405: scene ' + d.scene + ' could not place ' + lastMissing.join(', '));
-    const meta = { mode: d.mode, scene: d.scene, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route ? m.route.join('-') : m.perm.join('-'), crossings: m.m.crossings };
+    if (out.missing.length) throw new Error('K-405: scene ' + sceneName + ' could not place ' + lastMissing.join(', '));
+    const meta = { mode: d.mode, scene: sceneName, route: m.m.route, dead: m.m.dead, junctions: m.m.junctions, sol: m.route ? m.route.join('-') : m.perm.join('-'), crossings: m.m.crossings };
     // T2 faces: the scene (640) + a 12 px gap + a 64 px LEGEND STRIP under it, language-free (design C, F6 F9 F10 F18)
     const strip = sc.strip ? stripSvg(sc, m, { key, screen: !!(ctx && ctx.interactive) }) : '';
     const bodyHtml = `<div data-ws-content data-lcs-hm-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px">${out.svg}${strip}</div>`;

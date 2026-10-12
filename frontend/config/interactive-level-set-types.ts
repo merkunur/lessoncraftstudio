@@ -23,6 +23,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'find-the-differences', // Find the Differences (2026-10-10): tap every difference / the count / the changed words (original scenes)
   'feelings',
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
+  'maze-puzzles',        // Maze Puzzles (2026-10-12): draw the way along the roads (original scenes, three levels per face)
   'mental-math',         // Mental Math (2026-10-09): tap the missing number of each problem
   'measurement',         // Measurement (2026-10-09): tap a length, a temperature, cubes, ml or g; the rank 1-3; the heavier picture
   'hundreds-chart-puzzles', // Hundreds Chart Puzzles (2026-10-09): tap the number for the ? square, the wrong number, where the jumps land

@@ -454,6 +454,7 @@
   },
   "maze-puzzles": {
     "full": "Een lijn door een prentdoolhof tekenen en bij elke splitsing de volgende letter, het volgende getal of de volgende som kiezen oefent plannen en pengreep; met antwoorden.",
-    "short": "Oefent plannen en pengreep in een prentdoolhof."
+    "short": "Oefent plannen en pengreep in een prentdoolhof.",
+    "levelSetShort": "Oefent plannen."
   }
 }

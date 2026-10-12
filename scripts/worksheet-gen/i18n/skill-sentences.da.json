@@ -452,6 +452,7 @@
   },
   "maze-puzzles": {
     "full": "At tegne en streg gennem en billedlabyrint og ved hver vejgaffel vælge det næste bogstav, tal eller regnestykke træner planlægning og blyantsgreb; med facit.",
-    "short": "Træner planlægning og blyantsgreb i en billedlabyrint."
+    "short": "Træner planlægning og blyantsgreb i en billedlabyrint.",
+    "levelSetShort": "Træner planlægning."
   }
 }

@@ -451,6 +451,7 @@
   },
   "maze-puzzles": {
     "full": "Att rita en linje genom en bildlabyrint och vid varje vägskäl välja nästa bokstav, tal eller uppgift tränar planering och pennfattning; med facit.",
-    "short": "Tränar planering och pennfattning i en bildlabyrint."
+    "short": "Tränar planering och pennfattning i en bildlabyrint.",
+    "levelSetShort": "Tränar planering."
   }
 }

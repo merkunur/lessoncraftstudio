@@ -100,11 +100,20 @@ function composeScene(spec, maze, opts = {}) {
   const hx = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
   const LINE = spec.paint === 'line';   // the colouring face: ink lines on blank paper, nothing filled
   const INK = '#3A3530';
+  // Level Set scenes (data/hmx, 2026-10-12): drawn scenery — band motifs, ground patches (under the roads) and island decor.
+  // Published scenes carry none of these keys, so their pages are unchanged.
+  const SX = (spec.motifs || spec.patches || spec.decor) ? require('./hmx-scenery.js') : null;
+  const sceneryCtx = { W: Wb, oy, H: Hb, sky: spec.band.sky, hill: spec.band.hill, line: spec.paint === 'line' };
+  const bandArt = SX && spec.motifs ? SX.bandSvg(spec.motifs, sceneryCtx) : { far: '', near: '', colours: [] };
+  const patchArt = SX && spec.patches ? SX.patchSvg(spec.patches, sceneryCtx) : { svg: '', colours: [] };
+  const decorColours = [];
+  if (SX && spec.decor) for (const dc of spec.decor) decorColours.push(...SX.decorSvg(dc.k, 0, 0, 1, { pal: dc.pal || spec.decorPal || {} }).colours);
   if (!LINE) {
     const cf = hx(spec.corridor.fill);
     const tex = spec.texture ? [].concat(...Object.values(Array.isArray(spec.texture.colours) ? { all: spec.texture.colours } : spec.texture.colours)) : [];
     const strata = (spec.strata || []).map((st) => ['stratum', st[1]]).concat(spec.band.flat ? [['grass', spec.band.flat.grass]] : []);
-    for (const [what, col] of [['field', spec.field], ['sky', spec.band.sky], ['hill', spec.band.hill]].concat(tex.map((c) => ['texture', c]), strata)) {
+    const drawn = bandArt.colours.map((c) => ['band motif', c]).concat(patchArt.colours.map((c) => ['ground patch', c]), decorColours.map((c) => ['decor', c]));
+    for (const [what, col] of [['field', spec.field], ['sky', spec.band.sky], ['hill', spec.band.hill]].concat(tex.map((c) => ['texture', c]), strata, drawn)) {
       const d = Math.max(...hx(col).map((v, i) => Math.abs(v - cf[i])));
       if (d <= 36) throw new Error('hm-scene: the corridor colour ' + spec.corridor.fill + ' is too close to the ' + what + ' ' + col + ' (' + d + ')');
     }
@@ -112,12 +121,18 @@ function composeScene(spec, maze, opts = {}) {
   // 1. scenery
   if (LINE) {
     parts.push(`<rect width="${Wb}" height="${Hb}" fill="#FFFFFF"/>`);
+    if (spec.motifs) {
+      // a Level Set colouring scene draws its own line-art band (data/hmx): the horizon line, then its motifs
+      parts.push(`<path d="M0 ${oy + 8} C${Wb * 0.3} ${oy - 4} ${Wb * 0.62} ${oy + 18} ${Wb} ${oy + 4}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>`);
+      parts.push(bandArt.far, bandArt.near);
+    } else {
     // the sea band: its shore line + three wave lines (ink only, colourable)
     parts.push(`<path d="M0 ${oy + 8} C${Wb * 0.3} ${oy - 4} ${Wb * 0.62} ${oy + 18} ${Wb} ${oy + 4}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>`);
     for (const [y, x0, x1] of [[oy * 0.34, 40, 210], [oy * 0.58, 250, 430], [oy * 0.38, 470, 640]]) {
       let d = `M${x0} ${y.toFixed(1)}`; const n = 4, st = (x1 - x0) / n;
       for (let k = 0; k < n; k++) d += ` q${(st / 2).toFixed(1)} ${k % 2 ? 7 : -7} ${st.toFixed(1)} 0`;
       parts.push(`<path d="${d}" fill="none" stroke="${INK}" stroke-width="2.2" stroke-linecap="round"/>`);
+    }
     }
   } else {
     parts.push(`<rect width="${Wb}" height="${Hb}" fill="${spec.field}"/>`);
@@ -130,12 +145,15 @@ function composeScene(spec, maze, opts = {}) {
       parts.push(`<path d="${d} Z" fill="${spec.band.sky}"/>`);
       parts.push(`<path d="M0 ${oy - gh} ${Array.from({ length: 16 }, (_, i) => 'Q' + (i * 45 + 22) + ' ' + (oy - gh - 6) + ' ' + Math.min(Wb, i * 45 + 45) + ' ' + (oy - gh)).join(' ')} V${oy + 2} H0 Z" fill="${spec.band.flat.grass}"/>`);
     } else parts.push(`<path d="M0 0 H${Wb} V${oy + 8} C${Wb * 0.72} ${oy + 22} ${Wb * 0.32} ${oy - 10} 0 ${oy + 12} Z" fill="${spec.band.sky}"/>`);
-    if (!spec.band.flat) for (const hl of spec.band.hills || []) parts.push(`<path d="M${hl[0]} ${oy + 14} C${hl[0] + (hl[1] - hl[0]) * 0.2} ${oy + 14 - hl[2] * 1.3} ${hl[1] - (hl[1] - hl[0]) * 0.2} ${oy + 14 - hl[2] * 1.3} ${hl[1]} ${oy + 14} Z" fill="${spec.band.hill}"/>`);
+    if (patchArt.svg) parts.splice(1, 0, patchArt.svg);   // ground patches lie on the field, under the sky band and the roads
+    if (bandArt.far) parts.push(bandArt.far);
+    if (!spec.band.flat) for (const hl of spec.band.hills || [])parts.push(`<path d="M${hl[0]} ${oy + 14} C${hl[0] + (hl[1] - hl[0]) * 0.2} ${oy + 14 - hl[2] * 1.3} ${hl[1] - (hl[1] - hl[0]) * 0.2} ${oy + 14 - hl[2] * 1.3} ${hl[1]} ${oy + 14} Z" fill="${spec.band.hill}"/>`);
     // F7: a wooden fence along the top band (two rails on posts); the babies stand in front of it
     if (spec.band.fence) {
       const F = spec.band.fence; for (let x = 18; x < Wb; x += 64) parts.push(`<rect x="${x - 4}" y="${oy - 34}" width="8" height="34" rx="2" fill="${F.post}"/>`);
       for (const y of [oy - 28, oy - 14]) parts.push(`<rect x="0" y="${y}" width="${Wb}" height="7" rx="3" fill="${F.rail}"/>`);
     }
+    if (bandArt.near) parts.push(bandArt.near);
   }
   for (const ba of spec.bandArt || []) { const a = standing(ba.src, ba.x, oy + 12, ba.h); parts.push(a.svg); }
   for (const d of spec.dots || []) parts.push(`<ellipse cx="${d[0]}" cy="${d[1] + oy}" rx="${d[2]}" ry="${(d[2] * 0.62).toFixed(1)}" fill="${d[3]}"/>`);
@@ -222,6 +240,27 @@ function composeScene(spec, maze, opts = {}) {
   }
   for (const c of chamberList) if (c.bug) { const a = centred(c.bug, c.x, c.y, spec.chambers.bugH || 34); placed.push({ src: c.bug, box: a.box }); parts.push(a.svg); }
   if (spec.chambers && chamberList.filter((c) => c.bug).length < Math.min(2, spec.chambers.bugs.length)) missing.push('chambers (fewer than 2 blind ends with room)');
+  // 3a. drawn decor (Level Set scenes): each item on a free island disc, spread out (farthest from what is placed),
+  //     never on a road; optional — a dense maze leaves fewer islands, and decor is never required.
+  if (SX && spec.decor) {
+    for (const dc of spec.decor) {
+      const s = dc.s || 1; const need = SX.DECOR_R[dc.k] * s + 2;
+      for (let n = 0; n < (dc.n || 1); n++) {
+        let best = null, bd = -1;
+        for (const d of isl) {
+          if (d[2] < need || !free(d[0], d[1], need)) continue;
+          if (dc.zone && (d[1] < dc.zone[0] + oy || d[1] > dc.zone[1] + oy)) continue;
+          const dist = taken.length ? Math.min(...taken.map((t) => Math.hypot(t[0] - d[0], t[1] - d[1]) - t[2])) : 999;
+          if (dist > bd) { bd = dist; best = d; }
+        }
+        if (!best) break;
+        const a = SX.decorSvg(dc.k, best[0], best[1], s, { pal: dc.pal || spec.decorPal || {}, line: LINE });
+        taken.push([best[0], best[1], need]);
+        placed.push({ src: 'decor:' + dc.k, box: [best[0] - need, best[1] - need, best[0] + need, best[1] + need] });
+        parts.push(a.svg);
+      }
+    }
+  }
   // 3b. texture: small drawn motifs (grass tufts, fallen leaves, pebbles …) on the free island ground, never on a road
   //     or a drawing; flat fills in a darker / lighter tone of the field (the library's idiom). Seeded by opts.rnd.
   if (spec.texture && opts.rnd) {
@@ -251,6 +290,7 @@ function composeScene(spec, maze, opts = {}) {
       else if (kind === 'sand') { for (const [ox, oy2] of [[0, 0], [7, 4], [-6, 5]]) parts.push('<circle cx="' + r(x + ox) + '" cy="' + r(y + oy2) + '" r="1.8" fill="' + INK + '"/>'); }
       else if (kind === 'star') { const k = 4 + rnd() * 3; parts.push('<path d="M' + r(x) + ' ' + r(y - k) + ' Q' + r(x + 1) + ' ' + r(y - 1) + ' ' + r(x + k) + ' ' + r(y) + ' Q' + r(x + 1) + ' ' + r(y + 1) + ' ' + r(x) + ' ' + r(y + k) + ' Q' + r(x - 1) + ' ' + r(y + 1) + ' ' + r(x - k) + ' ' + r(y) + ' Q' + r(x - 1) + ' ' + r(y - 1) + ' ' + r(x) + ' ' + r(y - k) + ' Z" fill="' + c + '"/>'); }
       else if (kind === 'bubble') parts.push('<circle cx="' + r(x) + '" cy="' + r(y) + '" r="' + r(4 + rnd() * 5) + '" fill="none" stroke="' + c + '" stroke-width="2"/>');
+      else if (kind === 'linetuft') parts.push(`<path d="M${r(x - 6)} ${r(y)} L${r(x - 8)} ${r(y - 9)} M${r(x)} ${r(y)} L${r(x)} ${r(y - 12)} M${r(x + 6)} ${r(y)} L${r(x + 8)} ${r(y - 9)}" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>`);
       else if (kind === 'dot') parts.push(`<circle cx="${r(x)}" cy="${r(y)}" r="${r(3 + rnd() * 2)}" fill="${c}"/>`);
     }
   }
@@ -276,6 +316,22 @@ function composeScene(spec, maze, opts = {}) {
       // obstacles stand ON the road with no disc (a sleeping walrus; a thin-ice hole drawn as a dark oval)
       if (L.rule === 'avoid') {
         if (lab === 'hole') parts.push('<ellipse cx="' + cx.toFixed(1) + '" cy="' + cy.toFixed(1) + '" rx="24" ry="14" fill="#5E9FC0" stroke="#3F7FA0" stroke-width="2.5" data-lcs-hm-stone="' + v + '"/><path d="M' + (cx - 12).toFixed(1) + ' ' + (cy - 2).toFixed(1) + ' q6 -5 12 0 q6 5 12 0" fill="none" stroke="#CFE3EF" stroke-width="2"/>');
+        else if (String(lab).startsWith('decor:')) {
+          // a drawn obstacle (Level Set: a puddle, a rock pile), CENTRED on the road and wide enough to read as blocking it
+          // (a pile drawn at 1.15 from its own origin sat half on the grass: a child could not tell whether the road was shut)
+          const k = lab.slice(6);
+          parts.push(require('./hmx-scenery.js').decorSvg(k, cx - (k === 'rocks' ? 2 : 0), cy + (k === 'rocks' ? 3 : 0), 1.3, { pal: (spec.decorPal || {}) }).svg);
+          stoneStand.push([+cx.toFixed(1), +cy.toFixed(1), 38]);
+          continue;
+        }
+        else if (spec.hmxId) {
+          // Level Set: a wide animal (a shark, an alligator, a leopard) drawn 40 tall spilled past the stand the oracle
+          // allows; its INK diagonal fits inside a 38 stand instead (as a picture stone's does inside its disc)
+          const ib = ink(lab); const h = Math.min(L.obstacleH || 40, 0.95 * 2 * 38 / Math.hypot(1, ib.w / ib.h));
+          parts.push(centred(lab, cx, cy, h).svg);
+          stoneStand.push([+cx.toFixed(1), +cy.toFixed(1), 38]);
+          continue;
+        }
         else parts.push(centred(lab, cx, cy, L.obstacleH || 40).svg);
         stoneStand.push([+cx.toFixed(1), +cy.toFixed(1), 30]);
         continue;

@@ -451,6 +451,7 @@
   },
   "maze-puzzles": {
     "full": "Desenhar uma linha em um labirinto ilustrado e escolher em cada cruzamento a próxima letra, o próximo número ou a próxima conta desenvolve o planejamento e o traçado; com gabarito.",
-    "short": "Desenvolve planejamento e traçado em um labirinto ilustrado."
+    "short": "Desenvolve planejamento e traçado em um labirinto ilustrado.",
+    "levelSetShort": "Desenvolve o planejamento."
   }
 }

@@ -451,6 +451,7 @@
   },
   "maze-puzzles": {
     "full": "Dibujar una línea por un laberinto ilustrado y elegir en cada cruce la letra, el número o la operación que sigue desarrolla la planeación y el trazo; con respuestas.",
-    "short": "Desarrolla la planeación y el trazo en un laberinto."
+    "short": "Desarrolla la planeación y el trazo en un laberinto.",
+    "levelSetShort": "Desarrolla la planeación."
   }
 }

@@ -3084,5 +3084,105 @@
   "G2-391": {
     "title": "Rita {L} ur minnet",
     "instruction": "Titta på fjärilen, vik pappret bakåt längs den streckade linjen så att du inte ser den och rita den ur minnet i den stora rutan."
+  },
+  "K-405": {
+    "title": "Labyrint för barn: igelkotten och äppelträdet",
+    "instruction": "Hjälp igelkotten att komma till äppelträdet. Rita en linje längs vägen.",
+    "printTitle": "Hjälp igelkotten till äppelträdet"
+  },
+  "K-406": {
+    "title": "Min första labyrint: förskola",
+    "instruction": "Hjälp valpen att komma till bollen. Rita en linje på den breda vägen och håll dig innanför kanterna.",
+    "printTitle": "Hjälp valpen till bollen"
+  },
+  "G1-420": {
+    "title": "Stor labyrint åk 1: djungeln",
+    "instruction": "Titta först på hela labyrinten. Rita sedan orangutangens väg till bananträdet.",
+    "printTitle": "Hjälp orangutangen att hitta bananträdet"
+  },
+  "K-407": {
+    "title": "Flodlabyrint: båten och nallen",
+    "instruction": "Hjälp båten att åka längs bäcken till nallen på bryggan. Rita en linje genom vattnet.",
+    "printTitle": "Styr båten till nallen"
+  },
+  "G1-421": {
+    "title": "Labyrint under jorden: myrans gångar",
+    "instruction": "Hjälp myran att gå ner och upp genom gångarna till hallonet. Rita en linje längs vägen.",
+    "printTitle": "Hjälp myran till hallonet"
+  },
+  "G1-422": {
+    "title": "Stadslabyrint: hitta kortaste vägen",
+    "instruction": "Många gator leder till den gröna bilen. Rita den kortaste vägen för bärgningsbilen och skriv hur många gatubitar den kör.",
+    "printTitle": "Kortaste vägen till den gröna bilen"
+  },
+  "K-408": {
+    "title": "Labyrint: ungarna hittar sin mamma",
+    "instruction": "Hjälp varje djurunge att hitta sin egen mamma. Rita en linje från varje unge till dess mamma.",
+    "printTitle": "Hjälp varje unge att hitta sin mamma"
+  },
+  "G1-423": {
+    "title": "Trassliga snören: vems drake är det?",
+    "instruction": "Följ varje snöre från ett djur till dess drake eller ballong. Skriv djurets nummer i rutan ovanför.",
+    "printTitle": "Vems drake är det?"
+  },
+  "G1-424": {
+    "title": "Labyrint: plocka alla morötter",
+    "instruction": "Hjälp kaninen till hinken och plocka varje morot på vägen. Kryssa i en cirkel för varje morot.",
+    "printTitle": "Hjälp kaninen att plocka alla morötter"
+  },
+  "G1-425": {
+    "title": "Labyrint: undvik valrossarna",
+    "instruction": "Hjälp isbjörnen till igloon. Ta ingen väg där det ligger en valross eller ett hål i isen.",
+    "printTitle": "Hjälp isbjörnen hem utan fara"
+  },
+  "K-409": {
+    "title": "Labyrint från A till Ö: raketen till månen",
+    "instruction": "Hjälp raketen att flyga till månen. Vid varje vägskäl går du till stenen med nästa bokstav i alfabetet.",
+    "printTitle": "Flyg till månen från A till Ö"
+  },
+  "K-410": {
+    "title": "Labyrint med små bokstäver: havet",
+    "instruction": "Hjälp clownfisken att simma till korallen. Vid varje vägskäl går du till bubblan med nästa lilla bokstav.",
+    "printTitle": "Simma hem från a till ö"
+  },
+  "G1-426": {
+    "title": "Hoppa i bokstavsordning: bikakan",
+    "instruction": "Börja i rutan som pilen pekar på. Färglägg hela tiden nästa bokstav i alfabetet i en ruta bredvid, ända till {LAST}.",
+    "printTitle": "Hoppa genom bikakan i bokstavsordning"
+  },
+  "K-411": {
+    "title": "Sifferlabyrint 1–20: tåget",
+    "instruction": "Hjälp tåget att komma till stugan. Vid varje vägskäl går du till nästa tal, från 1 till 20.",
+    "printTitle": "Räkna med tåget till stugan"
+  },
+  "G2-392": {
+    "title": "Mattelabyrint åk 2: räkna med femsteg",
+    "instruction": "Hjälp luftballongen till regnbågen. Räkna med femsteg från moln till moln, ända till 100.",
+    "printTitle": "Räkna med femsteg till regnbågen"
+  },
+  "G1-427": {
+    "title": "Mattelabyrint åk 1: tiokamrater",
+    "instruction": "Hjälp giraffen till baobabträdet. Gå bara på stenarna där summan blir 10.",
+    "printTitle": "Gå bara på uppgifterna som blir 10"
+  },
+  "G1-428": {
+    "title": "Mattelabyrint: minus inom 20",
+    "instruction": "Titta på talet vid pepparkaksgubben. Gå bara på stenarna där svaret är det talet.",
+    "printTitle": "Hjälp pepparkaksgubben till tårtan"
+  },
+  "K-412": {
+    "title": "Labyrint första ljudet: som lejon",
+    "instruction": "Säg namnet på varje bild. Gå bara på bilder som börjar med samma ljud som lejon.",
+    "printTitle": "Bilder som börjar som lejon"
+  },
+  "G2-393": {
+    "title": "Mattelabyrint åk 2: plus och minus till 100",
+    "instruction": "Börja med lastbilens tal och skriv det nya talet i rutan vid varje skylt. Hitta vägen som slutar på lyftkranens tal.",
+    "printTitle": "Ge lyftkranen dess tal"
+  },
+  "K-413": {
+    "title": "Labyrint att färglägga: krabban på stranden",
+    "instruction": "Rita krabbans väg till sandslottet och färglägg hela vägen. Färglägg sedan strandbilden.",
+    "printTitle": "Lös labyrinten och färglägg stranden"
   }
 }

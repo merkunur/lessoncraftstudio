@@ -3096,5 +3096,105 @@
   "G2-391": {
     "title": "Disegna {L} a memoria",
     "instruction": "Guarda bene la farfalla, piega il foglio sulla linea tratteggiata per nasconderla e disegnala a memoria nel riquadro grande."
+  },
+  "K-405": {
+    "title": "Labirinto per bambini: il riccio e il melo",
+    "instruction": "Aiuta il riccio ad arrivare al melo. Traccia una linea lungo la strada.",
+    "printTitle": "Aiuta il riccio ad arrivare al melo"
+  },
+  "K-406": {
+    "title": "Il mio primo labirinto: scuola dell'infanzia",
+    "instruction": "Aiuta il cagnolino ad arrivare alla palla. Traccia una linea sulla strada larga senza uscire dai bordi.",
+    "printTitle": "Aiuta il cagnolino ad arrivare alla palla"
+  },
+  "G1-420": {
+    "title": "Labirinto grande classe prima: la giungla",
+    "instruction": "Prima guarda tutto il labirinto. Poi traccia la strada dell'orango fino al banano.",
+    "printTitle": "Aiuta l'orango a trovare il banano"
+  },
+  "K-407": {
+    "title": "Labirinto del fiume: la barchetta e l'orsetto",
+    "instruction": "Aiuta la barchetta a scendere lungo il ruscello fino all'orsacchiotto sul pontile. Traccia una linea nell'acqua.",
+    "printTitle": "Porta la barchetta fino all'orsetto"
+  },
+  "G1-421": {
+    "title": "Labirinto sotterraneo: le gallerie della formica",
+    "instruction": "Aiuta la formica a scendere e salire nelle gallerie fino al lampone. Traccia una linea lungo la strada.",
+    "printTitle": "Aiuta la formica ad arrivare al lampone"
+  },
+  "G1-422": {
+    "title": "Labirinto della città: la strada più breve",
+    "instruction": "Molte strade portano alla macchina verde. Traccia la strada più breve per il carro attrezzi e scrivi quanti pezzi di strada fa.",
+    "printTitle": "La strada più breve fino alla macchina verde"
+  },
+  "K-408": {
+    "title": "Labirinto: i cuccioli e le loro mamme",
+    "instruction": "Aiuta ogni cucciolo a trovare la sua mamma. Traccia una linea da ogni cucciolo fino alla sua mamma.",
+    "printTitle": "Aiuta ogni cucciolo a trovare la sua mamma"
+  },
+  "G1-423": {
+    "title": "Fili aggrovigliati: di chi è l'aquilone?",
+    "instruction": "Segui ogni filo da un animale fino al suo aquilone o palloncino. Scrivi il numero dell'animale nella casella sopra.",
+    "printTitle": "Di chi è l'aquilone?"
+  },
+  "G1-424": {
+    "title": "Labirinto: raccogli tutte le carote",
+    "instruction": "Aiuta il coniglio ad arrivare al secchiello raccogliendo ogni carota lungo la strada. Fai una crocetta in un cerchio per ogni carota.",
+    "printTitle": "Aiuta il coniglio a raccogliere tutte le carote"
+  },
+  "G1-425": {
+    "title": "Labirinto: evita i trichechi",
+    "instruction": "Aiuta l'orso polare ad arrivare all'igloo. Non passare né da un tricheco né da un buco nel ghiaccio.",
+    "printTitle": "Riporta a casa l'orso polare"
+  },
+  "K-409": {
+    "title": "Labirinto dell'alfabeto: il razzo verso la luna",
+    "instruction": "Aiuta il razzo a volare fino alla luna. A ogni incrocio vai alla pietra con la lettera successiva dell'alfabeto.",
+    "printTitle": "Vola verso la luna dalla A alla Z"
+  },
+  "K-410": {
+    "title": "Labirinto delle lettere minuscole: il mare",
+    "instruction": "Aiuta il pesce pagliaccio a nuotare fino al corallo. A ogni incrocio vai alla bolla con la minuscola successiva.",
+    "printTitle": "Nuota verso casa dalla a alla z"
+  },
+  "G1-426": {
+    "title": "Salta le lettere in ordine: il favo",
+    "instruction": "Parti dalla cella indicata dalla freccia. Colora la lettera successiva dell'alfabeto in una cella vicina, fino alla {LAST}.",
+    "printTitle": "Salta nel favo in ordine alfabetico"
+  },
+  "K-411": {
+    "title": "Labirinto dei numeri da 1 a 20: il trenino",
+    "instruction": "Aiuta il trenino ad arrivare alla baita. A ogni incrocio vai al numero successivo, da 1 a 20.",
+    "printTitle": "Conta con il trenino fino alla baita"
+  },
+  "G2-392": {
+    "title": "Labirinto matematico: conta di 5 in 5",
+    "instruction": "Aiuta la mongolfiera ad arrivare all'arcobaleno. Conta di 5 in 5 di nuvola in nuvola fino a 100.",
+    "printTitle": "Conta di 5 in 5 fino all'arcobaleno"
+  },
+  "G1-427": {
+    "title": "Labirinto matematico classe prima: amici del 10",
+    "instruction": "Aiuta la giraffa ad arrivare al baobab. Cammina solo sulle pietre la cui somma fa 10.",
+    "printTitle": "Cammina solo sulle somme che fanno 10"
+  },
+  "G1-428": {
+    "title": "Labirinto delle sottrazioni entro il 20",
+    "instruction": "Guarda il numero accanto all'omino di pan di zenzero. Cammina solo sulle pietre il cui risultato è quel numero.",
+    "printTitle": "Aiuta l'omino di pan di zenzero ad arrivare alla torta"
+  },
+  "K-412": {
+    "title": "Labirinto dei suoni iniziali: come leone",
+    "instruction": "Di' il nome di ogni figura. Cammina solo sulle figure che iniziano con lo stesso suono di leone.",
+    "printTitle": "Figure che iniziano come leone"
+  },
+  "G2-393": {
+    "title": "Labirinto matematico classe seconda: entro il 100",
+    "instruction": "Parti dal numero del camion e scrivi il nuovo numero nella casella di ogni cartello. Trova la strada che finisce sul numero della gru.",
+    "printTitle": "Porta alla gru il suo numero"
+  },
+  "K-413": {
+    "title": "Labirinto da colorare: il granchio in spiaggia",
+    "instruction": "Traccia la strada del granchio fino al castello di sabbia e colora tutta la strada. Poi colora il disegno della spiaggia.",
+    "printTitle": "Risolvi il labirinto e colora la spiaggia"
   }
 }

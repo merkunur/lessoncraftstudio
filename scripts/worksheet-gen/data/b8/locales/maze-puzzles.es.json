@@ -1,0 +1,139 @@
+{
+  "strings": {
+    "base": {
+      "title": "Laberinto para niños: el erizo y el manzano",
+      "printTitle": "Ayuda al erizo a llegar al manzano",
+      "instruction": "Ayuda al erizo a llegar al manzano. Dibuja una línea por el camino.",
+      "tap": "Empieza en el círculo verde con la flecha. Arrastra por el camino hasta la bandera."
+    },
+    "first-maze": {
+      "title": "Mi primer laberinto para preescolar",
+      "printTitle": "Ayuda al perrito a llegar a la pelota",
+      "instruction": "Ayuda al perrito a llegar a la pelota. Dibuja una línea por el camino ancho sin salirte de las orillas.",
+      "tap": "Empieza en el círculo verde. Arrastra por el camino ancho hasta la pelota."
+    },
+    "big-maze": {
+      "title": "Laberinto grande para primer grado: la selva",
+      "printTitle": "Ayuda al orangután a encontrar la mata de plátano",
+      "instruction": "Primero mira todo el laberinto. Luego dibuja el camino del orangután hasta la mata de plátano.",
+      "tap": "Mira primero y luego arrastra del círculo verde hasta la mata de plátano. Si un camino se acaba, regresa."
+    },
+    "river": {
+      "title": "Laberinto del río: el barquito y el osito",
+      "printTitle": "Lleva el barquito hasta el osito",
+      "instruction": "Ayuda al barquito a navegar por el arroyo hasta el osito de peluche del muelle. Dibuja una línea por el agua.",
+      "tap": "Empieza en el círculo verde. Arrastra por el agua hasta el osito."
+    },
+    "burrow": {
+      "title": "Laberinto bajo tierra: los túneles de la hormiga",
+      "printTitle": "Ayuda a la hormiga a llegar a su frambuesa",
+      "instruction": "Ayuda a la hormiga a bajar y subir por los túneles hasta la frambuesa. Dibuja una línea por el camino.",
+      "tap": "Empieza en el círculo verde. Arrastra por los túneles hasta la frambuesa."
+    },
+    "shortest-way": {
+      "title": "Laberinto de la ciudad: el camino más corto",
+      "printTitle": "El camino más corto hasta el carro verde",
+      "instruction": "Muchas calles llevan al carro verde. Dibuja el camino más corto para la grúa y escribe cuántos tramos de calle recorre.",
+      "tap": "Arrastra el camino más corto del círculo verde hasta el carro verde."
+    },
+    "babies-mothers": {
+      "title": "Laberinto: las crías buscan a su mamá",
+      "printTitle": "Ayuda a cada cría a encontrar a su mamá",
+      "instruction": "Ayuda a cada cría a encontrar a su propia mamá. Dibuja una línea de cada cría hasta su mamá.",
+      "tap": "Arrastra de cada cría hasta su propia mamá."
+    },
+    "tangled-lines": {
+      "title": "Líneas enredadas: ¿de quién es el papalote?",
+      "printTitle": "¿De quién es el papalote?",
+      "instruction": "Sigue cada hilo desde un animal hasta su papalote o su globo. Escribe el número del animal en el cuadro de arriba.",
+      "tap": "Arrastra por cada hilo desde el animal hasta su papalote o su globo."
+    },
+    "collect": {
+      "title": "Laberinto: recoge todas las zanahorias",
+      "printTitle": "Ayuda al conejo a recoger todas las zanahorias",
+      "instruction": "Ayuda al conejo a llegar a la cubeta y recoge cada zanahoria en el camino. Marca un círculo por cada zanahoria.",
+      "tap": "Arrastra del círculo verde hasta la cubeta. Pasa por cada zanahoria."
+    },
+    "avoid": {
+      "title": "Laberinto: esquiva a las morsas",
+      "printTitle": "Lleva al oso polar a casa sin peligro",
+      "instruction": "Ayuda al oso polar a llegar al iglú. No pases por ninguna morsa ni por ningún hoyo en el hielo.",
+      "tap": "Arrastra del círculo verde hasta el iglú sin pasar por una morsa ni por un hoyo."
+    },
+    "abc-capitals": {
+      "title": "Laberinto del abecedario: el cohete a la luna",
+      "printTitle": "Vuela a la luna de la A a la Z",
+      "instruction": "Ayuda al cohete a volar hasta la luna. En cada cruce, ve a la piedra con la siguiente letra del abecedario.",
+      "tap": "Empieza en el círculo verde. En cada cruce, arrastra a la siguiente letra."
+    },
+    "abc-lowercase": {
+      "title": "Laberinto de letras minúsculas: el mar",
+      "printTitle": "Nada a casa de la a a la z",
+      "instruction": "Ayuda al pez payaso a nadar hasta el coral. En cada cruce, ve a la burbuja con la siguiente letra minúscula.",
+      "tap": "Empieza en el círculo verde. En cada cruce, arrastra a la siguiente minúscula."
+    },
+    "letter-hop": {
+      "title": "Salta las letras en orden: el panal",
+      "printTitle": "Salta por el panal en orden alfabético",
+      "instruction": "Empieza en la celda que señala la flecha. Colorea la siguiente letra del abecedario en una celda vecina, hasta llegar a la {LAST}.",
+      "tap": "Empieza en el círculo verde. Arrastra celda por celda a la siguiente letra del abecedario."
+    },
+    "numbers-20": {
+      "title": "Laberinto de números del 1 al 20: el tren",
+      "printTitle": "Cuenta con el tren hasta la cabaña",
+      "instruction": "Ayuda al tren a llegar a la cabaña. En cada cruce, ve al número que sigue, del 1 al 20.",
+      "tap": "Empieza en el círculo verde. En cada cruce, arrastra al número que sigue."
+    },
+    "skip-5": {
+      "title": "Laberinto de números: cuenta de 5 en 5",
+      "printTitle": "Cuenta de 5 en 5 hasta el arcoíris",
+      "instruction": "Ayuda al globo aerostático a llegar al arcoíris. Cuenta de 5 en 5 de nube en nube hasta el 100.",
+      "tap": "Empieza en el círculo verde. Arrastra de nube en nube contando de 5 en 5."
+    },
+    "make-10": {
+      "title": "Laberinto de sumas que dan 10 para primer grado",
+      "printTitle": "Pisa solo las sumas que dan 10",
+      "instruction": "Ayuda a la jirafa a llegar al baobab. Pisa solo las piedras cuya suma da 10.",
+      "tap": "Empieza en el círculo verde. Arrastra solo por las piedras que dan 10."
+    },
+    "subtract-20": {
+      "title": "Laberinto de restas hasta 20",
+      "printTitle": "Ayuda al hombre de jengibre a llegar al pastel",
+      "instruction": "Mira el número junto al hombre de jengibre. Pisa solo las piedras cuyo resultado es ese número.",
+      "tap": "Empieza en el círculo verde. Arrastra solo por las piedras que dan el número del hombre de jengibre."
+    },
+    "first-sound": {
+      "title": "Laberinto de sonidos iniciales: como león",
+      "printTitle": "Dibujos que empiezan como león",
+      "instruction": "Di el nombre de cada dibujo. Pisa solo los dibujos que empiezan con el mismo sonido que león.",
+      "tap": "Empieza en el círculo verde. Arrastra solo por los dibujos que empiezan como león."
+    },
+    "running-total": {
+      "title": "Laberinto de sumas y restas para segundo grado",
+      "printTitle": "Lleva a la grúa su número",
+      "instruction": "Empieza con el número del camión y escribe el nuevo número en el cuadro de cada letrero. Encuentra el camino que termina en el número de la grúa.",
+      "tap": "Empieza en el círculo verde. Arrastra por el camino que termina en el número de la grúa."
+    },
+    "maze-colouring": {
+      "title": "Laberinto para colorear: el cangrejo en la playa",
+      "printTitle": "Resuelve el laberinto y colorea la playa",
+      "instruction": "Dibuja el camino del cangrejo hasta el castillo de arena y colorea todo el camino. Luego colorea el dibujo de la playa.",
+      "tap": "Empieza en el círculo verde. Arrastra por el camino hasta el castillo de arena."
+    }
+  },
+  "chrome": {
+    "mzGoBack": "Regresar",
+    "mzKeepGoing": "Sigue: el camino no termina aquí.",
+    "mzLookAtRing": "Mira el dibujo del círculo rojo.",
+    "mzMissed": "Falta una zanahoria. Mira el círculo rojo.",
+    "mzTwice": "Este camino ya lo usaste.",
+    "mzAvoid": "Este camino pasa por algo que hay que esquivar.",
+    "mzShorter": "Hay un camino más corto.",
+    "mzWrongHome": "Esta cría todavía no está con su mamá.",
+    "mzWaysHere": "Caminos desde aquí",
+    "mzPathN": "Camino {n}",
+    "mzAt": "Parada {n}",
+    "mzDeadEnd": "Este camino termina aquí.",
+    "mzAtGoal": "¡Llegaste!"
+  }
+}

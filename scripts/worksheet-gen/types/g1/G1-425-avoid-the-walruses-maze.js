@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-425',
   slug: 'avoid-the-walruses-maze',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Avoid the Walruses: Polar Bear Maze", instruction: "Help the polar bear get to the igloo. Do not pass a walrus or a hole in the ice.", printTitle: "Bring the Polar Bear Home Safely" } },
+  i18n: { en: { title: "Avoid the Walruses: Polar Bear Maze", instruction: "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.", printTitle: "Bring the Polar Bear Home Safely" } },
   gradeBand: "G1",
 };

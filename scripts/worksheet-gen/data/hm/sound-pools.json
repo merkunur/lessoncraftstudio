@@ -1588,10 +1588,6 @@
     "word": "Lata"
    },
    {
-    "src": "birds 2/parrot",
-    "word": "Loro"
-   },
-   {
     "src": "breakfast/milk",
     "word": "Leche"
    },
@@ -7591,7 +7587,7 @@
    },
    {
     "src": "forest creatures/hedgehog",
-    "word": "Piggsvin",
+    "word": "Pinnsvin",
     "laterL": false
    },
    {
@@ -7820,10 +7816,6 @@
    {
     "src": "forest creatures/lizard",
     "word": "Lisko"
-   },
-   {
-    "src": "spring/bird",
-    "word": "Lintu"
    },
    {
     "src": "spring/birdhouse",

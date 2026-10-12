@@ -3128,5 +3128,105 @@
   "G2-391": {
     "title": "{U} aus dem Gedächtnis zeichnen",
     "instruction": "Schau dir den Schmetterling genau an, falte das Blatt an der Linie nach hinten, damit du ihn nicht mehr siehst, und zeichne ihn aus dem Gedächtnis."
+  },
+  "K-405": {
+    "title": "Labyrinth-Rätsel: Der Igel und der Apfelbaum",
+    "instruction": "Hilf dem Igel, zum Apfelbaum zu kommen. Zeichne eine Linie entlang des Weges.",
+    "printTitle": "Hilf dem Igel zum Apfelbaum"
+  },
+  "K-406": {
+    "title": "Mein erstes Labyrinth: Kita und Vorschule",
+    "instruction": "Hilf dem Hund, zum Ball zu kommen. Zeichne eine Linie auf dem breiten Weg und bleib zwischen den Rändern.",
+    "printTitle": "Hilf dem Hund zum Ball"
+  },
+  "G1-420": {
+    "title": "Großes Labyrinth-Rätsel 1. Klasse: Dschungel",
+    "instruction": "Schau dir zuerst das ganze Labyrinth an. Zeichne dann den Weg des Orang-Utans zur Bananenstaude.",
+    "printTitle": "Hilf dem Orang-Utan zur Bananenstaude"
+  },
+  "K-407": {
+    "title": "Fluss-Labyrinth: Das Boot zum Teddy",
+    "instruction": "Hilf dem Boot, den Bach entlang zum Teddy auf dem Steg zu fahren. Zeichne eine Linie durch das Wasser.",
+    "printTitle": "Fahr mit dem Boot zum Teddy"
+  },
+  "G1-421": {
+    "title": "Labyrinth unter der Erde: Ameisengänge",
+    "instruction": "Hilf der Ameise, durch die Gänge hinunter und hinauf zur Himbeere zu kommen. Zeichne eine Linie entlang des Weges.",
+    "printTitle": "Hilf der Ameise zu ihrer Himbeere"
+  },
+  "G1-422": {
+    "title": "Stadt-Labyrinth: Finde den kürzesten Weg",
+    "instruction": "Viele Straßen führen zum grünen Auto. Zeichne den kürzesten Weg für den Abschleppwagen und schreib auf, wie viele Straßenstücke es sind.",
+    "printTitle": "Der kürzeste Weg zum grünen Auto"
+  },
+  "K-408": {
+    "title": "Labyrinth: Tierkinder finden ihre Mütter",
+    "instruction": "Hilf jedem Tierkind, seine eigene Mutter zu finden. Zeichne von jedem Tierkind eine Linie zu seiner Mutter.",
+    "printTitle": "Hilf jedem Tierkind zu seiner Mutter"
+  },
+  "G1-423": {
+    "title": "Verflixte Schnüre: Wem gehört der Drachen?",
+    "instruction": "Folge jeder Schnur von einem Tier bis zu seinem Drachen oder Ballon. Schreib die Nummer des Tieres in das Kästchen darüber.",
+    "printTitle": "Wem gehört der Drachen?"
+  },
+  "G1-424": {
+    "title": "Labyrinth: Sammle alle Karotten",
+    "instruction": "Hilf dem Kaninchen zum Eimer und sammle unterwegs jede Karotte ein. Kreuze für jede Karotte einen Kreis an.",
+    "printTitle": "Hilf dem Kaninchen, alle Karotten zu sammeln"
+  },
+  "G1-425": {
+    "title": "Labyrinth: Weiche den Walrossen aus",
+    "instruction": "Hilf dem Eisbären zum Iglu. Nimm keinen Weg, auf dem ein Walross oder ein Loch im Eis ist.",
+    "printTitle": "Bring den Eisbären sicher nach Hause"
+  },
+  "K-409": {
+    "title": "ABC-Labyrinth: Mit der Rakete zum Mond",
+    "instruction": "Hilf der Rakete, zum Mond zu fliegen. Geh an jeder Gabelung zu dem Stein mit dem nächsten Buchstaben im Alphabet.",
+    "printTitle": "Flieg mit der Rakete von A bis Z zum Mond"
+  },
+  "K-410": {
+    "title": "Buchstaben-Labyrinth: Kleine Buchstaben im Meer",
+    "instruction": "Hilf dem Clownfisch, zur Koralle zu schwimmen. Geh an jeder Gabelung zur Blase mit dem nächsten kleinen Buchstaben.",
+    "printTitle": "Schwimm von a bis z nach Hause"
+  },
+  "G1-426": {
+    "title": "ABC-Reihenfolge: Buchstaben-Hüpfspiel",
+    "instruction": "Beginne in der Wabe, auf die der Pfeil zeigt. Male den nächsten Buchstaben im Alphabet in einer Nachbarwabe aus, bis zum {LAST}.",
+    "printTitle": "Hüpf im ABC durch die Honigwaben"
+  },
+  "K-411": {
+    "title": "Zahlenlabyrinth bis 20: Die kleine Eisenbahn",
+    "instruction": "Hilf dem Zug, zur Hütte zu fahren. Geh an jeder Gabelung zur nächsten Zahl von 1 bis 20.",
+    "printTitle": "Zähl mit dem Zug bis zur Hütte"
+  },
+  "G2-392": {
+    "title": "Mathe-Labyrinth 2. Klasse: In Fünferschritten",
+    "instruction": "Hilf dem Heißluftballon zum Regenbogen. Zähle in Fünferschritten von Wolke zu Wolke bis 100.",
+    "printTitle": "Zähl in Fünferschritten zum Regenbogen"
+  },
+  "G1-427": {
+    "title": "Rechenlabyrinth 1. Klasse: Verliebte Zahlen",
+    "instruction": "Hilf der Giraffe zum Affenbrotbaum. Tritt nur auf die Steine, deren Ergebnis 10 ist.",
+    "printTitle": "Tritt nur auf Aufgaben mit dem Ergebnis 10"
+  },
+  "G1-428": {
+    "title": "Rechenlabyrinth: Minusaufgaben bis 20",
+    "instruction": "Schau dir die Zahl beim Lebkuchenmann an. Tritt nur auf die Steine, deren Ergebnis diese Zahl ist.",
+    "printTitle": "Hilf dem Lebkuchenmann zum Kuchen"
+  },
+  "K-412": {
+    "title": "Anlaut-Labyrinth: Wie Löwe",
+    "instruction": "Sag den Namen jedes Bildes. Tritt nur auf Bilder, die mit demselben Laut anfangen wie Löwe.",
+    "printTitle": "Bilder, die wie Löwe anfangen"
+  },
+  "G2-393": {
+    "title": "Rechenlabyrinth 2. Klasse: Plus und Minus bis 100",
+    "instruction": "Beginne mit der Zahl beim Kipplaster und schreib die neue Zahl in das Kästchen jedes Schildes. Finde den Weg, der bei der Zahl des Krans endet.",
+    "printTitle": "Bring dem Kran seine Zahl"
+  },
+  "K-413": {
+    "title": "Labyrinth zum Ausmalen: Krabbe am Strand",
+    "instruction": "Zeichne den Weg der Krabbe zur Sandburg und male den ganzen Weg aus. Male dann das Strandbild aus.",
+    "printTitle": "Löse das Labyrinth und male den Strand aus"
   }
 }

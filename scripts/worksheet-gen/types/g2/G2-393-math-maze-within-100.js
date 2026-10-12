@@ -10,6 +10,6 @@ module.exports = {
   id: 'G2-393',
   slug: 'math-maze-within-100',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Math Maze for 2nd Grade: Add and Subtract Within 100", instruction: "Start with the truck's number and write the new number in each sign's box. Find the road that ends on the crane's number.", printTitle: "Bring the Crane Its Number" } },
+  i18n: { en: { title: "Math Maze for 2nd Grade: Add and Subtract Within 100", instruction: "Start with the truck's number and, on your road, write the new number in each sign's box. Find the road that ends on the crane's number.", printTitle: "Bring the Crane Its Number" } },
   gradeBand: "G2",
 };

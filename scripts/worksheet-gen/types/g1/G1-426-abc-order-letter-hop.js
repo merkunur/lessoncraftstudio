@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-426',
   slug: 'abc-order-letter-hop',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "ABC Order Letter Hop: The Bear's Honeycomb", instruction: "Start in the cell the arrow points to. Colour each next letter of the alphabet in a touching cell, all the way to {LAST}.", printTitle: "Hop Through the Honeycomb in ABC Order" } },
+  i18n: { en: { title: "ABC Order Letter Hop: The Bear's Honeycomb", instruction: "Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to {LAST}.", printTitle: "Hop Through the Honeycomb in ABC Order" } },
   gradeBand: "G1",
 };

@@ -3101,5 +3101,105 @@
   "G2-391": {
     "title": "Tegn {L} efter hukommelsen",
     "instruction": "Kig på sommerfuglen, fold papiret bagud langs den stiplede linje, så du ikke kan se den, og tegn den efter hukommelsen på det store papir."
+  },
+  "K-405": {
+    "title": "Labyrint for børn: pindsvinet og æbletræet",
+    "instruction": "Hjælp pindsvinet hen til æbletræet. Tegn en streg langs vejen.",
+    "printTitle": "Hjælp pindsvinet hen til æbletræet"
+  },
+  "K-406": {
+    "title": "Min første labyrint: børnehave",
+    "instruction": "Hjælp hvalpen hen til bolden. Tegn en streg på den brede vej, og hold dig inden for kanterne.",
+    "printTitle": "Hjælp hvalpen hen til bolden"
+  },
+  "G1-420": {
+    "title": "Stor labyrint 1. klasse: junglen",
+    "instruction": "Se først på hele labyrinten. Tegn derefter orangutangens vej hen til banantræet.",
+    "printTitle": "Hjælp orangutangen med at finde banantræet"
+  },
+  "K-407": {
+    "title": "Flodlabyrint: båden og bamsen",
+    "instruction": "Hjælp båden ned ad åen hen til bamsen på bådebroen. Tegn en streg gennem vandet.",
+    "printTitle": "Sejl båden hen til bamsen"
+  },
+  "G1-421": {
+    "title": "Labyrint under jorden: myrens gange",
+    "instruction": "Hjælp myren ned og op gennem gangene hen til hindbærret. Tegn en streg langs vejen.",
+    "printTitle": "Hjælp myren hen til hindbærret"
+  },
+  "G1-422": {
+    "title": "Bylabyrint: find den korteste vej",
+    "instruction": "Mange gader fører hen til den grønne bil. Tegn den korteste vej for kranbilen, og skriv, hvor mange gadestykker den kører.",
+    "printTitle": "Den korteste vej hen til den grønne bil"
+  },
+  "K-408": {
+    "title": "Labyrint: ungerne finder deres mor",
+    "instruction": "Hjælp hver dyreunge med at finde sin egen mor. Tegn en streg fra hver unge hen til dens mor.",
+    "printTitle": "Hjælp hver unge med at finde sin mor"
+  },
+  "G1-423": {
+    "title": "Filtrede snore: hvis drage er det?",
+    "instruction": "Følg hver snor fra et dyr hen til dets drage eller ballon. Skriv dyrets nummer i boksen ovenover.",
+    "printTitle": "Hvis drage er det?"
+  },
+  "G1-424": {
+    "title": "Labyrint: saml alle gulerødder",
+    "instruction": "Hjælp kaninen hen til spanden, og saml hver gulerod på vejen. Sæt kryds i en cirkel for hver gulerod.",
+    "printTitle": "Hjælp kaninen med at samle alle gulerødder"
+  },
+  "G1-425": {
+    "title": "Labyrint: undgå hvalrosserne",
+    "instruction": "Hjælp isbjørnen hen til igloen. Tag ingen vej, hvor der ligger en hvalros eller et hul i isen.",
+    "printTitle": "Få isbjørnen sikkert hjem"
+  },
+  "K-409": {
+    "title": "Alfabetlabyrint fra A til Å: raketten",
+    "instruction": "Hjælp raketten med at flyve til månen. Gå hen til stenen med det næste bogstav i alfabetet, hver gang vejen deler sig.",
+    "printTitle": "Flyv til månen fra A til Å"
+  },
+  "K-410": {
+    "title": "Labyrint med små bogstaver: havet",
+    "instruction": "Hjælp klovnfisken med at svømme hen til koralen. Gå hen til boblen med det næste lille bogstav, hver gang vejen deler sig.",
+    "printTitle": "Svøm hjem fra a til å"
+  },
+  "G1-426": {
+    "title": "Hop i alfabetisk rækkefølge: bikagen",
+    "instruction": "Start i feltet, som pilen peger på. Farvelæg det næste bogstav i alfabetet i et felt ved siden af, helt til {LAST}.",
+    "printTitle": "Hop gennem bikagen i alfabetisk rækkefølge"
+  },
+  "K-411": {
+    "title": "Labyrint med tal 1-20: toget",
+    "instruction": "Hjælp toget hen til hytten. Gå hen til det næste tal, fra 1 til 20, hver gang vejen deler sig.",
+    "printTitle": "Tæl med toget hen til hytten"
+  },
+  "G2-392": {
+    "title": "Matematiklabyrint: tæl 5 ad gangen",
+    "instruction": "Hjælp luftballonen hen til regnbuen. Tæl 5 ad gangen fra sky til sky, helt til 100.",
+    "printTitle": "Tæl 5 ad gangen hen til regnbuen"
+  },
+  "G1-427": {
+    "title": "Matematiklabyrint 1. klasse: tiervenner",
+    "instruction": "Hjælp giraffen hen til baobabtræet. Gå kun på de sten, hvor summen er 10.",
+    "printTitle": "Gå kun på de stykker, der giver 10"
+  },
+  "G1-428": {
+    "title": "Matematiklabyrint: minus til 20",
+    "instruction": "Se på tallet ved honningkagemanden. Gå kun på de sten, hvor resultatet er det tal.",
+    "printTitle": "Hjælp honningkagemanden hen til kagen"
+  },
+  "K-412": {
+    "title": "Labyrint forlyd: som løve",
+    "instruction": "Sig navnet på hvert billede. Gå kun på billeder, der starter med samme lyd som løve.",
+    "printTitle": "Billeder, der starter som løve"
+  },
+  "G2-393": {
+    "title": "Matematiklabyrint 2. klasse: plus og minus til 100",
+    "instruction": "Start med lastbilens tal, og skriv det nye tal i boksen ved hvert skilt. Find vejen, der slutter på kranens tal.",
+    "printTitle": "Giv kranen dens tal"
+  },
+  "K-413": {
+    "title": "Labyrint til farvelægning: krabben på stranden",
+    "instruction": "Tegn krabbens vej hen til sandslottet, og farvelæg hele vejen. Farvelæg så strandbilledet.",
+    "printTitle": "Løs labyrinten, og farvelæg stranden"
   }
 }

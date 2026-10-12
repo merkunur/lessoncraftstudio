@@ -448,5 +448,9 @@
     "short": "Cómo dibujar animales paso a paso",
     "levelSetFull": "El niño aprende a dibujar una imagen paso a paso: primero el contorno y luego las líneas nuevas de cada paso, hasta terminar su propio dibujo.",
     "levelSetShort": "Aprender a dibujar paso a paso."
+  },
+  "maze-puzzles": {
+    "full": "Dibujar una línea por un laberinto ilustrado y elegir en cada cruce la letra, el número o la operación que sigue desarrolla la planeación y el trazo; con respuestas.",
+    "short": "Desarrolla la planeación y el trazo en un laberinto."
   }
 }

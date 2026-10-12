@@ -2452,64 +2452,264 @@
  },
  "maze-puzzles": {
   "mz-base": {
-   "en": "Start at the green circle with the arrow. Drag along the path to the flag."
+   "en": "Start at the green circle with the arrow. Drag along the path to the flag.",
+   "de": "Beginne am grünen Kreis mit dem Pfeil. Ziehe den Weg entlang bis zur Fahne.",
+   "fr": "Commence au rond vert avec la flèche. Glisse le long du chemin jusqu'au drapeau.",
+   "es": "Empieza en el círculo verde con la flecha. Arrastra por el camino hasta la bandera.",
+   "pt": "Comece no círculo verde com a seta. Arraste pelo caminho até a bandeira.",
+   "it": "Parti dal cerchio verde con la freccia. Trascina lungo la strada fino alla bandierina.",
+   "nl": "Begin bij de groene cirkel met de pijl. Sleep langs de weg naar de vlag.",
+   "sv": "Börja vid den gröna cirkeln med pilen. Dra längs vägen fram till flaggan.",
+   "da": "Start ved den grønne cirkel med pilen. Træk langs vejen hen til flaget.",
+   "no": "Start ved den grønne sirkelen med pilen. Dra langs veien fram til flagget.",
+   "fi": "Aloita vihreästä ympyrästä, jossa on nuoli. Vedä tietä pitkin lipulle asti."
   },
   "mz-first-maze": {
-   "en": "Start at the green circle. Drag along the wide road to the ball."
+   "en": "Start at the green circle. Drag along the wide road to the ball.",
+   "de": "Beginne am grünen Kreis. Ziehe auf dem breiten Weg bis zum Ball.",
+   "fr": "Commence au rond vert. Glisse sur le large chemin jusqu'au ballon.",
+   "es": "Empieza en el círculo verde. Arrastra por el camino ancho hasta la pelota.",
+   "pt": "Comece no círculo verde. Arraste pelo caminho largo até a bola.",
+   "it": "Parti dal cerchio verde. Trascina sulla strada larga fino alla palla.",
+   "nl": "Begin bij de groene cirkel. Sleep over de brede weg naar de bal.",
+   "sv": "Börja vid den gröna cirkeln. Dra på den breda vägen fram till bollen.",
+   "da": "Start ved den grønne cirkel. Træk på den brede vej hen til bolden.",
+   "no": "Start ved den grønne sirkelen. Dra på den brede veien fram til ballen.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä leveää tietä pitkin pallolle asti."
   },
   "mz-big-maze": {
-   "en": "Look first, then drag from the green circle to the banana tree. If a path stops, go back."
+   "en": "Look first, then drag from the green circle to the banana tree. If a path stops, go back.",
+   "de": "Schau zuerst und ziehe dann vom grünen Kreis bis zur Bananenstaude. Endet ein Weg, geh zurück.",
+   "fr": "Regarde d'abord, puis glisse du rond vert jusqu'au bananier. Si un chemin s'arrête, reviens en arrière.",
+   "es": "Mira primero y luego arrastra del círculo verde hasta la mata de plátano. Si un camino se acaba, regresa.",
+   "pt": "Olhe primeiro e depois arraste do círculo verde até a bananeira. Se um caminho acabar, volte.",
+   "it": "Guarda prima e poi trascina dal cerchio verde fino al banano. Se una strada finisce, torna indietro.",
+   "nl": "Kijk eerst en sleep dan van de groene cirkel naar de bananenboom. Houdt een weg op, ga dan terug.",
+   "sv": "Titta först och dra sedan från den gröna cirkeln till bananträdet. Tar en väg slut, gå tillbaka.",
+   "da": "Se først, og træk så fra den grønne cirkel hen til banantræet. Hvis en vej slutter, så gå tilbage.",
+   "no": "Se først, og dra så fra den grønne sirkelen fram til banantreet. Hvis en vei stopper, gå tilbake.",
+   "fi": "Katso ensin ja vedä sitten vihreästä ympyrästä banaanipuulle. Jos tie loppuu, palaa takaisin."
   },
   "mz-river": {
-   "en": "Start at the green circle. Drag through the water to the teddy bear."
+   "en": "Start at the green circle. Drag through the water to the teddy bear.",
+   "de": "Beginne am grünen Kreis. Ziehe durch das Wasser bis zum Teddy.",
+   "fr": "Commence au rond vert. Glisse dans l'eau jusqu'au nounours.",
+   "es": "Empieza en el círculo verde. Arrastra por el agua hasta el osito.",
+   "pt": "Comece no círculo verde. Arraste pela água até o ursinho.",
+   "it": "Parti dal cerchio verde. Trascina nell'acqua fino all'orsacchiotto.",
+   "nl": "Begin bij de groene cirkel. Sleep door het water naar de teddybeer.",
+   "sv": "Börja vid den gröna cirkeln. Dra genom vattnet fram till nallen.",
+   "da": "Start ved den grønne cirkel. Træk gennem vandet hen til bamsen.",
+   "no": "Start ved den grønne sirkelen. Dra gjennom vannet fram til bamsen.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä veden läpi nallelle asti."
   },
   "mz-burrow": {
-   "en": "Start at the green circle. Drag through the tunnels to the raspberry."
+   "en": "Start at the green circle. Drag through the tunnels to the raspberry.",
+   "de": "Beginne am grünen Kreis. Ziehe durch die Gänge bis zur Himbeere.",
+   "fr": "Commence au rond vert. Glisse dans les galeries jusqu'à la framboise.",
+   "es": "Empieza en el círculo verde. Arrastra por los túneles hasta la frambuesa.",
+   "pt": "Comece no círculo verde. Arraste pelos túneis até a framboesa.",
+   "it": "Parti dal cerchio verde. Trascina nelle gallerie fino al lampone.",
+   "nl": "Begin bij de groene cirkel. Sleep door de gangen naar de framboos.",
+   "sv": "Börja vid den gröna cirkeln. Dra genom gångarna fram till hallonet.",
+   "da": "Start ved den grønne cirkel. Træk gennem gangene hen til hindbærret.",
+   "no": "Start ved den grønne sirkelen. Dra gjennom gangene fram til bringebæret.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä käytäviä pitkin vadelmalle asti."
   },
   "mz-shortest-way": {
-   "en": "Drag the shortest way from the green circle to the green car."
+   "en": "Drag the shortest way from the green circle to the green car.",
+   "de": "Ziehe den kürzesten Weg vom grünen Kreis bis zum grünen Auto.",
+   "fr": "Glisse le long du plus court chemin, du rond vert jusqu'à la voiture verte.",
+   "es": "Arrastra el camino más corto del círculo verde hasta el carro verde.",
+   "pt": "Arraste o caminho mais curto do círculo verde até o carro verde.",
+   "it": "Trascina la strada più breve dal cerchio verde fino alla macchina verde.",
+   "nl": "Sleep de kortste weg van de groene cirkel naar de groene auto.",
+   "sv": "Dra den kortaste vägen från den gröna cirkeln till den gröna bilen.",
+   "da": "Træk den korteste vej fra den grønne cirkel hen til den grønne bil.",
+   "no": "Dra den korteste veien fra den grønne sirkelen fram til den grønne bilen.",
+   "fi": "Vedä lyhin reitti vihreästä ympyrästä vihreälle autolle."
   },
   "mz-babies-mothers": {
-   "en": "Drag from each baby to its own mother."
+   "en": "Drag from each baby to its own mother.",
+   "de": "Ziehe von jedem Tierkind bis zu seiner eigenen Mutter.",
+   "fr": "Glisse de chaque bébé jusqu'à sa maman.",
+   "es": "Arrastra de cada cría hasta su propia mamá.",
+   "pt": "Arraste de cada filhote até a sua própria mãe.",
+   "it": "Trascina da ogni cucciolo fino alla sua mamma.",
+   "nl": "Sleep van elk jong naar zijn eigen moeder.",
+   "sv": "Dra från varje unge till dess egen mamma.",
+   "da": "Træk fra hver unge hen til dens egen mor.",
+   "no": "Dra fra hver unge fram til dens egen mamma.",
+   "fi": "Vedä jokaiselta poikaselta sen omalle emolle."
   },
   "mz-tangled-lines": {
-   "en": "Drag along each string from the animal to its kite."
+   "en": "Drag along each string from the animal to its kite or balloon.",
+   "de": "Ziehe jede Schnur entlang vom Tier bis zu seinem Drachen oder Ballon.",
+   "fr": "Glisse le long de chaque fil, de l'animal jusqu'à son cerf-volant ou son ballon.",
+   "es": "Arrastra por cada hilo desde el animal hasta su papalote o su globo.",
+   "pt": "Arraste por cada linha, do animal até a pipa ou o balão dele.",
+   "it": "Trascina lungo ogni filo, dall'animale fino al suo aquilone o palloncino.",
+   "nl": "Sleep langs elk touwtje van het dier naar zijn vlieger of ballon.",
+   "sv": "Dra längs varje snöre från djuret till dess drake eller ballong.",
+   "da": "Træk langs hver snor fra dyret hen til dets drage eller ballon.",
+   "no": "Dra langs hver snor fra dyret fram til dragen eller ballongen dens.",
+   "fi": "Vedä jokaista narua pitkin eläimeltä sen leijalle tai ilmapallolle."
   },
   "mz-collect": {
-   "en": "Drag from the green circle to the bucket. Pass every carrot on the way."
+   "en": "Drag from the green circle to the bucket. Pass every carrot on the way.",
+   "de": "Ziehe vom grünen Kreis bis zum Eimer. Komm an jeder Karotte vorbei.",
+   "fr": "Glisse du rond vert jusqu'au seau. Passe par chaque carotte.",
+   "es": "Arrastra del círculo verde hasta la cubeta. Pasa por cada zanahoria.",
+   "pt": "Arraste do círculo verde até o balde. Passe por todas as cenouras.",
+   "it": "Trascina dal cerchio verde fino al secchiello. Passa da ogni carota.",
+   "nl": "Sleep van de groene cirkel naar de emmer. Kom langs elke wortel.",
+   "sv": "Dra från den gröna cirkeln till hinken. Gå förbi varje morot.",
+   "da": "Træk fra den grønne cirkel hen til spanden. Kom forbi hver gulerod.",
+   "no": "Dra fra den grønne sirkelen fram til bøtta. Gå forbi hver gulrot.",
+   "fi": "Vedä vihreästä ympyrästä ämpärille. Kulje jokaisen porkkanan kautta."
   },
   "mz-avoid": {
-   "en": "Drag from the green circle to the igloo. Do not pass a walrus or a hole."
+   "en": "Drag from the green circle to the igloo. Do not take a road with a walrus or a hole.",
+   "de": "Ziehe vom grünen Kreis bis zum Iglu. Nimm keinen Weg mit einem Walross oder einem Loch.",
+   "fr": "Glisse du rond vert jusqu'à l'igloo, sans passer par un morse ou un trou.",
+   "es": "Arrastra del círculo verde hasta el iglú sin pasar por una morsa ni por un hoyo.",
+   "pt": "Arraste do círculo verde até o iglu sem passar por uma morsa ou um buraco.",
+   "it": "Trascina dal cerchio verde fino all'igloo senza passare da un tricheco o da un buco.",
+   "nl": "Sleep van de groene cirkel naar de iglo. Neem geen weg met een walrus of een gat.",
+   "sv": "Dra från den gröna cirkeln till igloon. Ta ingen väg med en valross eller ett hål.",
+   "da": "Træk fra den grønne cirkel hen til igloen. Tag ingen vej med en hvalros eller et hul.",
+   "no": "Dra fra den grønne sirkelen fram til igloen. Ikke ta en vei med en hvalross eller et hull.",
+   "fi": "Vedä vihreästä ympyrästä igluun kulkematta mursun tai reiän ohi."
   },
   "mz-abc-capitals": {
-   "en": "Start at the green circle. At every fork, drag to the next letter."
+   "en": "Start at the green circle. At every fork, drag to the next letter.",
+   "de": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zum nächsten Buchstaben.",
+   "fr": "Commence au rond vert. À chaque croisement, glisse vers la lettre suivante.",
+   "es": "Empieza en el círculo verde. En cada cruce, arrastra a la siguiente letra.",
+   "pt": "Comece no círculo verde. Em cada cruzamento, arraste até a próxima letra.",
+   "it": "Parti dal cerchio verde. A ogni incrocio trascina alla lettera successiva.",
+   "nl": "Begin bij de groene cirkel. Sleep bij elke splitsing naar de volgende letter.",
+   "sv": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa bokstav.",
+   "da": "Start ved den grønne cirkel. Træk hen til det næste bogstav, hver gang vejen deler sig.",
+   "no": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste bokstav.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavalle kirjaimelle."
   },
   "mz-abc-lowercase": {
-   "en": "Start at the green circle. At every fork, drag to the next small letter."
+   "en": "Start at the green circle. At every fork, drag to the next small letter.",
+   "de": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zum nächsten kleinen Buchstaben.",
+   "fr": "Commence au rond vert. À chaque croisement, glisse vers la minuscule suivante.",
+   "es": "Empieza en el círculo verde. En cada cruce, arrastra a la siguiente minúscula.",
+   "pt": "Comece no círculo verde. Em cada cruzamento, arraste até a próxima minúscula.",
+   "it": "Parti dal cerchio verde. A ogni incrocio trascina alla minuscola successiva.",
+   "nl": "Begin bij de groene cirkel. Sleep bij elke splitsing naar de volgende kleine letter.",
+   "sv": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa lilla bokstav.",
+   "da": "Start ved den grønne cirkel. Træk hen til det næste lille bogstav, hver gang vejen deler sig.",
+   "no": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste lille bokstav.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavalle pienelle kirjaimelle."
   },
   "mz-letter-hop": {
-   "en": "Start at the green circle. Drag to the next letter of the alphabet, cell by cell."
+   "en": "Start at the green circle. Drag to the next letter of the alphabet, cell by cell.",
+   "de": "Beginne am grünen Kreis. Ziehe Wabe für Wabe zum nächsten Buchstaben im Alphabet.",
+   "fr": "Commence au rond vert. Glisse d'alvéole en alvéole vers la lettre suivante de l'alphabet.",
+   "es": "Empieza en el círculo verde. Arrastra celda por celda a la siguiente letra del abecedario.",
+   "pt": "Comece no círculo verde. Arraste de casinha em casinha até a próxima letra do alfabeto.",
+   "it": "Parti dal cerchio verde. Trascina di cella in cella alla lettera successiva dell'alfabeto.",
+   "nl": "Begin bij de groene cirkel. Sleep vakje voor vakje naar de volgende letter van het alfabet.",
+   "sv": "Börja vid den gröna cirkeln. Dra ruta för ruta till nästa bokstav i alfabetet.",
+   "da": "Start ved den grønne cirkel. Træk felt for felt hen til det næste bogstav i alfabetet.",
+   "no": "Start ved den grønne sirkelen. Dra rute for rute til neste bokstav i alfabetet.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä ruutu kerrallaan aakkosten seuraavalle kirjaimelle."
   },
   "mz-numbers-20": {
-   "en": "Start at the green circle. At every fork, drag to the next number."
+   "en": "Start at the green circle. At every fork, drag to the next number.",
+   "de": "Beginne am grünen Kreis. Ziehe an jeder Gabelung zur nächsten Zahl.",
+   "fr": "Commence au rond vert. À chaque croisement, glisse vers le nombre suivant.",
+   "es": "Empieza en el círculo verde. En cada cruce, arrastra al número que sigue.",
+   "pt": "Comece no círculo verde. Em cada cruzamento, arraste até o próximo número.",
+   "it": "Parti dal cerchio verde. A ogni incrocio trascina al numero successivo.",
+   "nl": "Begin bij de groene cirkel. Sleep bij elke splitsing naar het volgende getal.",
+   "sv": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa tal.",
+   "da": "Start ved den grønne cirkel. Træk hen til det næste tal, hver gang vejen deler sig.",
+   "no": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste tall.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavaan lukuun."
   },
   "mz-skip-5": {
-   "en": "Start at the green circle. Drag from cloud to cloud, counting by 5s."
+   "en": "Start at the green circle. Drag from cloud to cloud, counting by 5s.",
+   "de": "Beginne am grünen Kreis. Ziehe von Wolke zu Wolke in Fünferschritten.",
+   "fr": "Commence au rond vert. Glisse de nuage en nuage en comptant de 5 en 5.",
+   "es": "Empieza en el círculo verde. Arrastra de nube en nube contando de 5 en 5.",
+   "pt": "Comece no círculo verde. Arraste de nuvem em nuvem contando de 5 em 5.",
+   "it": "Parti dal cerchio verde. Trascina di nuvola in nuvola contando di 5 in 5.",
+   "nl": "Begin bij de groene cirkel. Sleep van wolk naar wolk en tel met sprongen van 5.",
+   "sv": "Börja vid den gröna cirkeln. Dra från moln till moln och räkna med femsteg.",
+   "da": "Start ved den grønne cirkel. Træk fra sky til sky, og tæl 5 ad gangen.",
+   "no": "Start ved den grønne sirkelen. Dra fra sky til sky, og tell fem og fem.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä pilveltä pilvelle viiden välein laskien."
   },
   "mz-make-10": {
-   "en": "Start at the green circle. Drag only over the stones whose sum is 10."
+   "en": "Start at the green circle. Drag only over the stones whose sum is 10.",
+   "de": "Beginne am grünen Kreis. Ziehe nur über die Steine mit dem Ergebnis 10.",
+   "fr": "Commence au rond vert. Glisse seulement sur les pierres qui font 10.",
+   "es": "Empieza en el círculo verde. Arrastra solo por las piedras que dan 10.",
+   "pt": "Comece no círculo verde. Arraste só pelas pedras que dão 10.",
+   "it": "Parti dal cerchio verde. Trascina solo sulle pietre che fanno 10.",
+   "nl": "Begin bij de groene cirkel. Sleep alleen over de stenen die 10 maken.",
+   "sv": "Börja vid den gröna cirkeln. Dra bara över stenarna som blir 10.",
+   "da": "Start ved den grønne cirkel. Træk kun hen over de sten, der giver 10.",
+   "no": "Start ved den grønne sirkelen. Dra bare over steinene som blir 10.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden summa on 10."
   },
   "mz-subtract-20": {
-   "en": "Start at the green circle. Drag only over the stones whose answer is the gingerbread man's number."
+   "en": "Start at the green circle. Drag only over the stones whose answer is the gingerbread man's number.",
+   "de": "Ziehe nur über die Steine, deren Ergebnis die Zahl beim Lebkuchenmann ist.",
+   "fr": "Commence au rond vert. Glisse seulement sur les pierres qui donnent le nombre du bonhomme.",
+   "es": "Empieza en el círculo verde. Arrastra solo por las piedras que dan el número del hombre de jengibre.",
+   "pt": "Comece no círculo verde. Arraste só pelas pedras que dão o número do boneco de gengibre.",
+   "it": "Parti dal cerchio verde. Trascina solo sulle pietre che danno il numero dell'omino.",
+   "nl": "Begin bij de groene cirkel. Sleep alleen over de stenen met het getal van het peperkoekmannetje als antwoord.",
+   "sv": "Börja vid den gröna cirkeln. Dra bara över stenarna där svaret är pepparkaksgubbens tal.",
+   "da": "Start ved den grønne cirkel. Træk kun hen over de sten, hvor resultatet er honningkagemandens tal.",
+   "no": "Start ved den grønne sirkelen. Dra bare over steinene der svaret er pepperkakemannens tall.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden vastaus on piparkakku-ukon luku."
   },
   "mz-first-sound": {
-   "en": "Start at the green circle. Drag only over pictures that start like lion."
+   "en": "Start at the green circle. Drag only over pictures that start like lion.",
+   "de": "Beginne am grünen Kreis. Ziehe nur über Bilder, die wie Löwe anfangen.",
+   "fr": "Commence au rond vert. Glisse seulement sur les images qui commencent comme lion.",
+   "es": "Empieza en el círculo verde. Arrastra solo por los dibujos que empiezan como león.",
+   "pt": "Comece no círculo verde. Arraste só pelas figuras que começam como leão.",
+   "it": "Parti dal cerchio verde. Trascina solo sulle figure che iniziano come leone.",
+   "nl": "Begin bij de groene cirkel. Sleep alleen over plaatjes die beginnen zoals leeuw.",
+   "sv": "Börja vid den gröna cirkeln. Dra bara över bilder som börjar som lejon.",
+   "da": "Start ved den grønne cirkel. Træk kun hen over billeder, der starter som løve.",
+   "no": "Start ved den grønne sirkelen. Dra bare over bilder som begynner som løve.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä vain kuvien yli, jotka alkavat kuin leijona."
   },
   "mz-running-total": {
-   "en": "Start at the green circle. Drag along the road that ends on the crane's number."
+   "en": "Start at the green circle. Drag along the road that ends on the crane's number.",
+   "de": "Beginne am grünen Kreis. Ziehe den Weg, der bei der Zahl des Krans endet.",
+   "fr": "Commence au rond vert. Glisse le long de la route qui finit sur le nombre de la grue.",
+   "es": "Empieza en el círculo verde. Arrastra por el camino que termina en el número de la grúa.",
+   "pt": "Comece no círculo verde. Arraste pelo caminho que termina no número do guindaste.",
+   "it": "Parti dal cerchio verde. Trascina lungo la strada che finisce sul numero della gru.",
+   "nl": "Begin bij de groene cirkel. Sleep langs de weg die eindigt op het getal van de kraan.",
+   "sv": "Börja vid den gröna cirkeln. Dra längs vägen som slutar på lyftkranens tal.",
+   "da": "Start ved den grønne cirkel. Træk langs vejen, der slutter på kranens tal.",
+   "no": "Start ved den grønne sirkelen. Dra langs veien som slutter på kranens tall.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä tietä pitkin, joka päättyy nosturin lukuun."
   },
   "mz-maze-colouring": {
-   "en": "Start at the green circle. Drag along the path to the sandcastle."
+   "en": "Start at the green circle. Drag along the path to the sandcastle.",
+   "de": "Beginne am grünen Kreis. Ziehe den Weg entlang bis zur Sandburg.",
+   "fr": "Commence au rond vert. Glisse le long du chemin jusqu'au château de sable.",
+   "es": "Empieza en el círculo verde. Arrastra por el camino hasta el castillo de arena.",
+   "pt": "Comece no círculo verde. Arraste pelo caminho até o castelo de areia.",
+   "it": "Parti dal cerchio verde. Trascina lungo la strada fino al castello di sabbia.",
+   "nl": "Begin bij de groene cirkel. Sleep langs de weg naar het zandkasteel.",
+   "sv": "Börja vid den gröna cirkeln. Dra längs vägen fram till sandslottet.",
+   "da": "Start ved den grønne cirkel. Træk langs vejen hen til sandslottet.",
+   "no": "Start ved den grønne sirkelen. Dra langs veien fram til sandslottet.",
+   "fi": "Aloita vihreästä ympyrästä. Vedä tietä pitkin hiekkalinnalle asti."
   }
  }
 }

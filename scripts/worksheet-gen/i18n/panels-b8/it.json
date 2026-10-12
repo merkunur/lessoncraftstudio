@@ -1,35 +1,150 @@
 {
   "locale": "it",
   "strings": {
-    "base": { "title": "Labirinto per bambini: il riccio e il melo", "printTitle": "Aiuta il riccio ad arrivare al melo", "instruction": "Aiuta il riccio ad arrivare al melo. Traccia una linea lungo la strada.", "tap": "Parti dal cerchio verde con la freccia. Trascina lungo la strada fino alla bandierina." },
-    "first-maze": { "title": "Il mio primo labirinto: scuola dell'infanzia", "printTitle": "Aiuta il cagnolino ad arrivare alla palla", "instruction": "Aiuta il cagnolino ad arrivare alla palla. Traccia una linea sulla strada larga senza uscire dai bordi.", "tap": "Parti dal cerchio verde. Trascina sulla strada larga fino alla palla." },
-    "big-maze": { "title": "Labirinto grande classe prima: la giungla", "printTitle": "Aiuta l'orango a trovare il banano", "instruction": "Prima guarda tutto il labirinto. Poi traccia la strada dell'orango fino al banano.", "tap": "Guarda prima e poi trascina dal cerchio verde fino al banano. Se una strada finisce, torna indietro." },
-    "river": { "title": "Labirinto del fiume: la barchetta e l'orsetto", "printTitle": "Porta la barchetta fino all'orsetto", "instruction": "Aiuta la barchetta a scendere lungo il ruscello fino all'orsacchiotto sul pontile. Traccia una linea nell'acqua.", "tap": "Parti dal cerchio verde. Trascina nell'acqua fino all'orsacchiotto." },
-    "burrow": { "title": "Labirinto sotterraneo: le gallerie della formica", "printTitle": "Aiuta la formica ad arrivare al lampone", "instruction": "Aiuta la formica a scendere e salire nelle gallerie fino al lampone. Traccia una linea lungo la strada.", "tap": "Parti dal cerchio verde. Trascina nelle gallerie fino al lampone." },
-    "shortest-way": { "title": "Labirinto della città: la strada più breve", "printTitle": "La strada più breve fino alla macchina verde", "instruction": "Molte strade portano alla macchina verde. Traccia la strada più breve per il carro attrezzi e scrivi quanti pezzi di strada fa.", "tap": "Trascina la strada più breve dal cerchio verde fino alla macchina verde." },
-    "babies-mothers": { "title": "Labirinto: i cuccioli e le loro mamme", "printTitle": "Aiuta ogni cucciolo a trovare la sua mamma", "instruction": "Aiuta ogni cucciolo a trovare la sua mamma. Traccia una linea da ogni cucciolo fino alla sua mamma.", "tap": "Trascina da ogni cucciolo fino alla sua mamma." },
-    "tangled-lines": { "title": "Fili aggrovigliati: di chi è l'aquilone?", "printTitle": "Di chi è l'aquilone?", "instruction": "Segui ogni filo da un animale fino al suo aquilone. Scrivi il numero dell'animale nella casella sopra l'aquilone.", "tap": "Trascina lungo ogni filo, dall'animale fino al suo aquilone." },
-    "collect": { "title": "Labirinto: raccogli tutte le carote", "printTitle": "Aiuta il coniglio a raccogliere tutte le carote", "instruction": "Aiuta il coniglio ad arrivare al secchiello raccogliendo ogni carota lungo la strada. Fai una crocetta in un cerchio per ogni carota.", "tap": "Trascina dal cerchio verde fino al secchiello. Passa da ogni carota." },
-    "avoid": { "title": "Labirinto: evita i trichechi", "printTitle": "Riporta a casa l'orso polare", "instruction": "Aiuta l'orso polare ad arrivare all'igloo. Non passare da nessun tricheco e da nessun buco nel ghiaccio.", "tap": "Trascina dal cerchio verde fino all'igloo senza passare da un tricheco o da un buco." },
-    "abc-capitals": { "title": "Labirinto dell'alfabeto: il razzo verso la luna", "printTitle": "Vola verso la luna dalla A alla Z", "instruction": "Aiuta il razzo a volare fino alla luna. A ogni incrocio vai alla pietra con la lettera successiva dell'alfabeto.", "tap": "Parti dal cerchio verde. A ogni incrocio trascina alla lettera successiva." },
-    "abc-lowercase": { "title": "Labirinto delle lettere minuscole: il mare", "printTitle": "Nuota verso casa dalla a alla z", "instruction": "Aiuta il pesce pagliaccio a nuotare fino al corallo. A ogni incrocio vai alla bolla con la minuscola successiva.", "tap": "Parti dal cerchio verde. A ogni incrocio trascina alla minuscola successiva." },
-    "letter-hop": { "title": "Salta le lettere in ordine: il favo", "printTitle": "Salta nel favo in ordine alfabetico", "instruction": "Parti dalla cella indicata dalla freccia. Colora la lettera successiva dell'alfabeto in una cella vicina, fino alla {LAST}.", "tap": "Parti dal cerchio verde. Trascina di cella in cella alla lettera successiva dell'alfabeto." },
-    "numbers-20": { "title": "Labirinto dei numeri da 1 a 20: il trenino", "printTitle": "Conta con il trenino fino alla capanna", "instruction": "Aiuta il trenino ad arrivare alla capanna. A ogni incrocio vai al numero successivo, da 1 a 20.", "tap": "Parti dal cerchio verde. A ogni incrocio trascina al numero successivo." },
-    "skip-5": { "title": "Labirinto matematico: conta di 5 in 5", "printTitle": "Conta di 5 in 5 fino all'arcobaleno", "instruction": "Aiuta la mongolfiera ad arrivare all'arcobaleno. Conta di 5 in 5 di nuvola in nuvola fino a 100.", "tap": "Parti dal cerchio verde. Trascina di nuvola in nuvola contando di 5 in 5." },
-    "make-10": { "title": "Labirinto matematico classe prima: amici del 10", "printTitle": "Cammina solo sulle somme che fanno 10", "instruction": "Aiuta la giraffa ad arrivare al baobab. Cammina solo sulle pietre la cui somma fa 10.", "tap": "Parti dal cerchio verde. Trascina solo sulle pietre che fanno 10." },
-    "subtract-20": { "title": "Labirinto delle sottrazioni entro il 20", "printTitle": "Aiuta l'omino di pan di zenzero ad arrivare alla torta", "instruction": "Guarda il numero accanto all'omino di pan di zenzero. Cammina solo sulle pietre il cui risultato è quel numero.", "tap": "Parti dal cerchio verde. Trascina solo sulle pietre che danno il numero dell'omino." },
-    "first-sound": { "title": "Labirinto dei suoni iniziali: come leone", "printTitle": "Figure che iniziano come leone", "instruction": "Di' il nome di ogni figura. Cammina solo sulle figure che iniziano con lo stesso suono di leone.", "tap": "Parti dal cerchio verde. Trascina solo sulle figure che iniziano come leone." },
-    "running-total": { "title": "Labirinto matematico classe seconda: entro il 100", "printTitle": "Porta alla gru il suo numero", "instruction": "Parti dal numero del camion e scrivi il nuovo numero nella casella di ogni cartello. Trova la strada che finisce sul numero della gru.", "tap": "Parti dal cerchio verde. Trascina lungo la strada che finisce sul numero della gru." },
-    "maze-colouring": { "title": "Labirinto da colorare: il granchio in spiaggia", "printTitle": "Risolvi il labirinto e colora la spiaggia", "instruction": "Traccia la strada del granchio fino al castello di sabbia e colora tutta la strada. Poi colora il disegno della spiaggia.", "tap": "Parti dal cerchio verde. Trascina lungo la strada fino al castello di sabbia." }
+    "base": {
+      "title": "Labirinto per bambini: il riccio e il melo",
+      "printTitle": "Aiuta il riccio ad arrivare al melo",
+      "instruction": "Aiuta il riccio ad arrivare al melo. Traccia una linea lungo la strada.",
+      "tap": "Parti dal cerchio verde con la freccia. Trascina lungo la strada fino alla bandierina."
+    },
+    "first-maze": {
+      "title": "Il mio primo labirinto: scuola dell'infanzia",
+      "printTitle": "Aiuta il cagnolino ad arrivare alla palla",
+      "instruction": "Aiuta il cagnolino ad arrivare alla palla. Traccia una linea sulla strada larga senza uscire dai bordi.",
+      "tap": "Parti dal cerchio verde. Trascina sulla strada larga fino alla palla."
+    },
+    "big-maze": {
+      "title": "Labirinto grande classe prima: la giungla",
+      "printTitle": "Aiuta l'orango a trovare il banano",
+      "instruction": "Prima guarda tutto il labirinto. Poi traccia la strada dell'orango fino al banano.",
+      "tap": "Guarda prima e poi trascina dal cerchio verde fino al banano. Se una strada finisce, torna indietro."
+    },
+    "river": {
+      "title": "Labirinto del fiume: la barchetta e l'orsetto",
+      "printTitle": "Porta la barchetta fino all'orsetto",
+      "instruction": "Aiuta la barchetta a scendere lungo il ruscello fino all'orsacchiotto sul pontile. Traccia una linea nell'acqua.",
+      "tap": "Parti dal cerchio verde. Trascina nell'acqua fino all'orsacchiotto."
+    },
+    "burrow": {
+      "title": "Labirinto sotterraneo: le gallerie della formica",
+      "printTitle": "Aiuta la formica ad arrivare al lampone",
+      "instruction": "Aiuta la formica a scendere e salire nelle gallerie fino al lampone. Traccia una linea lungo la strada.",
+      "tap": "Parti dal cerchio verde. Trascina nelle gallerie fino al lampone."
+    },
+    "shortest-way": {
+      "title": "Labirinto della città: la strada più breve",
+      "printTitle": "La strada più breve fino alla macchina verde",
+      "instruction": "Molte strade portano alla macchina verde. Traccia la strada più breve per il carro attrezzi e scrivi quanti pezzi di strada fa.",
+      "tap": "Trascina la strada più breve dal cerchio verde fino alla macchina verde."
+    },
+    "babies-mothers": {
+      "title": "Labirinto: i cuccioli e le loro mamme",
+      "printTitle": "Aiuta ogni cucciolo a trovare la sua mamma",
+      "instruction": "Aiuta ogni cucciolo a trovare la sua mamma. Traccia una linea da ogni cucciolo fino alla sua mamma.",
+      "tap": "Trascina da ogni cucciolo fino alla sua mamma."
+    },
+    "tangled-lines": {
+      "title": "Fili aggrovigliati: di chi è l'aquilone?",
+      "printTitle": "Di chi è l'aquilone?",
+      "instruction": "Segui ogni filo da un animale fino al suo aquilone o palloncino. Scrivi il numero dell'animale nella casella sopra.",
+      "tap": "Trascina lungo ogni filo, dall'animale fino al suo aquilone o palloncino."
+    },
+    "collect": {
+      "title": "Labirinto: raccogli tutte le carote",
+      "printTitle": "Aiuta il coniglio a raccogliere tutte le carote",
+      "instruction": "Aiuta il coniglio ad arrivare al secchiello raccogliendo ogni carota lungo la strada. Fai una crocetta in un cerchio per ogni carota.",
+      "tap": "Trascina dal cerchio verde fino al secchiello. Passa da ogni carota."
+    },
+    "avoid": {
+      "title": "Labirinto: evita i trichechi",
+      "printTitle": "Riporta a casa l'orso polare",
+      "instruction": "Aiuta l'orso polare ad arrivare all'igloo. Non passare né da un tricheco né da un buco nel ghiaccio.",
+      "tap": "Trascina dal cerchio verde fino all'igloo senza passare da un tricheco o da un buco."
+    },
+    "abc-capitals": {
+      "title": "Labirinto dell'alfabeto: il razzo verso la luna",
+      "printTitle": "Vola verso la luna dalla A alla Z",
+      "instruction": "Aiuta il razzo a volare fino alla luna. A ogni incrocio vai alla pietra con la lettera successiva dell'alfabeto.",
+      "tap": "Parti dal cerchio verde. A ogni incrocio trascina alla lettera successiva."
+    },
+    "abc-lowercase": {
+      "title": "Labirinto delle lettere minuscole: il mare",
+      "printTitle": "Nuota verso casa dalla a alla z",
+      "instruction": "Aiuta il pesce pagliaccio a nuotare fino al corallo. A ogni incrocio vai alla bolla con la minuscola successiva.",
+      "tap": "Parti dal cerchio verde. A ogni incrocio trascina alla minuscola successiva."
+    },
+    "letter-hop": {
+      "title": "Salta le lettere in ordine: il favo",
+      "printTitle": "Salta nel favo in ordine alfabetico",
+      "instruction": "Parti dalla cella indicata dalla freccia. Colora la lettera successiva dell'alfabeto in una cella vicina, fino alla {LAST}.",
+      "tap": "Parti dal cerchio verde. Trascina di cella in cella alla lettera successiva dell'alfabeto."
+    },
+    "numbers-20": {
+      "title": "Labirinto dei numeri da 1 a 20: il trenino",
+      "printTitle": "Conta con il trenino fino alla baita",
+      "instruction": "Aiuta il trenino ad arrivare alla baita. A ogni incrocio vai al numero successivo, da 1 a 20.",
+      "tap": "Parti dal cerchio verde. A ogni incrocio trascina al numero successivo."
+    },
+    "skip-5": {
+      "title": "Labirinto matematico: conta di 5 in 5",
+      "printTitle": "Conta di 5 in 5 fino all'arcobaleno",
+      "instruction": "Aiuta la mongolfiera ad arrivare all'arcobaleno. Conta di 5 in 5 di nuvola in nuvola fino a 100.",
+      "tap": "Parti dal cerchio verde. Trascina di nuvola in nuvola contando di 5 in 5."
+    },
+    "make-10": {
+      "title": "Labirinto matematico classe prima: amici del 10",
+      "printTitle": "Cammina solo sulle somme che fanno 10",
+      "instruction": "Aiuta la giraffa ad arrivare al baobab. Cammina solo sulle pietre la cui somma fa 10.",
+      "tap": "Parti dal cerchio verde. Trascina solo sulle pietre che fanno 10."
+    },
+    "subtract-20": {
+      "title": "Labirinto delle sottrazioni entro il 20",
+      "printTitle": "Aiuta l'omino di pan di zenzero ad arrivare alla torta",
+      "instruction": "Guarda il numero accanto all'omino di pan di zenzero. Cammina solo sulle pietre il cui risultato è quel numero.",
+      "tap": "Parti dal cerchio verde. Trascina solo sulle pietre che danno il numero dell'omino."
+    },
+    "first-sound": {
+      "title": "Labirinto dei suoni iniziali: come leone",
+      "printTitle": "Figure che iniziano come leone",
+      "instruction": "Di' il nome di ogni figura. Cammina solo sulle figure che iniziano con lo stesso suono di leone.",
+      "tap": "Parti dal cerchio verde. Trascina solo sulle figure che iniziano come leone."
+    },
+    "running-total": {
+      "title": "Labirinto matematico classe seconda: entro il 100",
+      "printTitle": "Porta alla gru il suo numero",
+      "instruction": "Parti dal numero del camion e scrivi il nuovo numero nella casella di ogni cartello. Trova la strada che finisce sul numero della gru.",
+      "tap": "Parti dal cerchio verde. Trascina lungo la strada che finisce sul numero della gru."
+    },
+    "maze-colouring": {
+      "title": "Labirinto da colorare: il granchio in spiaggia",
+      "printTitle": "Risolvi il labirinto e colora la spiaggia",
+      "instruction": "Traccia la strada del granchio fino al castello di sabbia e colora tutta la strada. Poi colora il disegno della spiaggia.",
+      "tap": "Parti dal cerchio verde. Trascina lungo la strada fino al castello di sabbia."
+    }
   },
   "chrome": {
-    "mzGoBack": "Indietro", "mzKeepGoing": "Continua: la strada non finisce qui.", "mzLookAtRing": "Guarda la figura nel cerchio rosso.",
-    "mzMissed": "Manca una carota. Guarda il cerchio rosso.", "mzTwice": "Questa strada l'hai già usata.", "mzAvoid": "Questa strada passa da qualcosa da evitare.",
-    "mzShorter": "C'è una strada più breve.", "mzWrongHome": "Questo cucciolo non è ancora con la sua mamma.", "mzWaysHere": "Strade da qui",
-    "mzPathN": "Strada {n}", "mzAt": "Tappa {n}", "mzDeadEnd": "Questa strada finisce qui.", "mzAtGoal": "Ce l'hai fatta!"
+    "mzGoBack": "Indietro",
+    "mzKeepGoing": "Continua: la strada non finisce qui.",
+    "mzLookAtRing": "Guarda la figura nel cerchio rosso.",
+    "mzMissed": "Manca una carota. Guarda il cerchio rosso.",
+    "mzTwice": "Questa strada l'hai già usata.",
+    "mzAvoid": "Questa strada passa da qualcosa da evitare.",
+    "mzShorter": "C'è una strada più breve.",
+    "mzWrongHome": "Questo cucciolo non è ancora con la sua mamma.",
+    "mzWaysHere": "Strade da qui",
+    "mzPathN": "Strada {n}",
+    "mzAt": "Tappa {n}",
+    "mzDeadEnd": "Questa strada finisce qui.",
+    "mzAtGoal": "Ce l'hai fatta!"
   },
-  "family": { "slug": "percorsi-e-labirinti", "name": "Percorsi e labirinti" },
-  "skill": { "full": "Tracciare una linea in un labirinto illustrato e scegliere a ogni incrocio la lettera, il numero o il calcolo successivo sviluppa pianificazione e tratto; con soluzioni.", "short": "Sviluppa pianificazione e tratto in un labirinto illustrato." },
+  "family": {
+    "slug": "percorsi-e-labirinti",
+    "name": "Percorsi e labirinti"
+  },
+  "skill": {
+    "full": "Tracciare una linea in un labirinto illustrato e scegliere a ogni incrocio la lettera, il numero o il calcolo successivo sviluppa pianificazione e tratto; con soluzioni.",
+    "short": "Sviluppa pianificazione e tratto in un labirinto illustrato."
+  },
   "topicMeta": "Percorsi e labirinti per bambini: guida un riccio, un razzo o un orso polare, segui le lettere dalla A alla Z, i numeri fino a 20, conta di 5 in 5 o trova le somme che fanno 10. Da stampare con soluzioni, dalla scuola dell'infanzia alla seconda.",
   "refusals": {},
   "enAudit": []

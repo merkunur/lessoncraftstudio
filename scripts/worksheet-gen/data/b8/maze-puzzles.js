@@ -90,8 +90,8 @@ const EN_STRINGS = {
   'tangled-lines': {
     title: 'Tangled Lines Puzzle: Whose Kite Is It?',
     printTitle: 'Whose Kite Is It?',
-    instruction: 'Follow each string from an animal to its kite. Write the animal\'s number in the box above the kite.',
-    tap: 'Drag along each string from the animal to its kite.',
+    instruction: 'Follow each string from an animal to its kite or balloon. Write the animal\'s number in the box above it.',
+    tap: 'Drag along each string from the animal to its kite or balloon.',
   },
   collect: {
     title: 'Collect-the-Carrots Maze: The Rabbit\'s Garden',
@@ -102,8 +102,8 @@ const EN_STRINGS = {
   avoid: {
     title: 'Avoid the Walruses: Polar Bear Maze',
     printTitle: 'Bring the Polar Bear Home Safely',
-    instruction: 'Help the polar bear get to the igloo. Do not pass a walrus or a hole in the ice.',
-    tap: 'Drag from the green circle to the igloo. Do not pass a walrus or a hole.',
+    instruction: 'Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.',
+    tap: 'Drag from the green circle to the igloo. Do not take a road with a walrus or a hole.',
   },
   'abc-capitals': {
     title: 'Alphabet Maze A to Z: Rocket to the Moon',
@@ -120,12 +120,12 @@ const EN_STRINGS = {
   'letter-hop': {
     title: 'ABC Order Letter Hop: The Bear\'s Honeycomb',
     printTitle: 'Hop Through the Honeycomb in ABC Order',
-    instruction: 'Start in the cell the arrow points to. Colour each next letter of the alphabet in a touching cell, all the way to {LAST}.',
+    instruction: 'Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to {LAST}.',
     tap: 'Start at the green circle. Drag to the next letter of the alphabet, cell by cell.',
   },
   'numbers-20': {
     title: 'Number Maze 1 to 20: The Little Train',
-    printTitle: 'Count the Train to the Cabin',
+    printTitle: 'Count Along with the Train to the Cabin',
     instruction: 'Help the train get to the cabin. At every fork, go to the next number from 1 to 20.',
     tap: 'Start at the green circle. At every fork, drag to the next number.',
   },
@@ -156,13 +156,13 @@ const EN_STRINGS = {
   'running-total': {
     title: 'Math Maze for 2nd Grade: Add and Subtract Within 100',
     printTitle: 'Bring the Crane Its Number',
-    instruction: 'Start with the truck\'s number and write the new number in each sign\'s box. Find the road that ends on the crane\'s number.',
+    instruction: 'Start with the truck\'s number and, on your road, write the new number in each sign\'s box. Find the road that ends on the crane\'s number.',
     tap: 'Start at the green circle. Drag along the road that ends on the crane\'s number.',
   },
   'maze-colouring': {
-    title: 'Maze Colouring Page: The Crab at the Beach',
-    printTitle: 'Solve the Maze, Then Colour the Beach',
-    instruction: 'Draw the crab\'s way to the sandcastle and colour the whole road. Then colour the beach picture.',
+    title: 'Maze Coloring Page: The Crab at the Beach',
+    printTitle: 'Solve the Maze, Then Color the Beach',
+    instruction: 'Draw the crab\'s way to the sandcastle and color the whole road. Then color the beach picture.',
     tap: 'Start at the green circle. Drag along the path to the sandcastle.',
   },
 };
@@ -173,7 +173,7 @@ const EN_CHROME = {
   mzKeepGoing: 'Keep going: the path does not end here.',
   mzLookAtRing: 'Look at the picture in the red ring.',
   mzMissed: 'A carrot was missed. Look at the red ring.',
-  mzTwice: 'This path is already used.',
+  mzTwice: 'You already used this path.',
   mzAvoid: 'This path passes something to avoid.',
   mzShorter: 'There is a shorter way.',
   mzWrongHome: 'This baby is not with its mother yet.',

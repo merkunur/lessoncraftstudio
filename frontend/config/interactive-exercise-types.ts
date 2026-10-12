@@ -98,6 +98,8 @@ export const INTERACTIVE_EXERCISE_TYPES: ReadonlySet<string> = new Set([
  */
 export const INTERACTIVE_PRINTABLE_FAMILIES: ReadonlySet<string> = new Set([
   'find-the-differences',
+  // b8 Handmade Mazes (2026-10-12): every maze deck ships PDF + a draw-the-way screen (trace-path) + an answer key
+  'maze-puzzles',
 ]);
 
 /** True when this worksheet type has a browser-playable version. */

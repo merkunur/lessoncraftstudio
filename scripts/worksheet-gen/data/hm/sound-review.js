@@ -31,5 +31,7 @@ const REFUSED_CARDS = new Map(Object.entries({
   'spring/puddle': 'a blue blob: not nameable',
   'winter/skating': 'an activity, not a thing',
   'winter/snowboarding': 'an activity, not a thing',
+  'birds 2/parrot': 'es: a Mexican child names it "perico", not "loro" (native review 2026-10-12)',
+  'spring/bird': 'fi: a bird picture is named by its kind (varpunen, tiainen), not "lintu" (native review 2026-10-12)',
 }));
 module.exports = { REFUSED_CARDS };

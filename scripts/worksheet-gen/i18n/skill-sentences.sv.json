@@ -448,5 +448,9 @@
     "short": "Lär dig rita djur steg för steg",
     "levelSetFull": "Barnen lär sig rita en bild steg för steg: först konturen, sedan de nya linjerna i varje steg, tills hela teckningen är klar.",
     "levelSetShort": "Lär dig rita steg för steg."
+  },
+  "maze-puzzles": {
+    "full": "Att rita en linje genom en bildlabyrint och vid varje vägskäl välja nästa bokstav, tal eller uppgift tränar planering och pennfattning; med facit.",
+    "short": "Tränar planering och pennfattning i en bildlabyrint."
   }
 }

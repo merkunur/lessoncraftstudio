@@ -30,7 +30,14 @@ function fileOf(src) {
   const [theme, noun] = src.split('/');
   return path.join(__dirname, '..', 'cache', 'themes', theme, noun + '@3x.webp');
 }
-const href = (src) => require('url').pathToFileURL(fileOf(src)).href;
+// the PAGE embeds the derived 512 px copy (image-cache/derive.js): a picture prints at <= 160 page px, so 512 device px
+// is ~300 dpi, and the 1536 px source made every maze PDF 5.7 MB (b7: 0.4 MB). Ink boxes stay measured on the source.
+function pageFileOf(src) {
+  const [theme, noun] = src.split('/');
+  const d = path.join(__dirname, '..', 'cache', 'themes-512', theme, noun + '@3x.webp');
+  return fs.existsSync(d) ? d : fileOf(src);
+}
+const href = (src) => require('url').pathToFileURL(pageFileOf(src)).href;
 
 /** an <image> whose INK is `h` px tall with its feet at (fx, fy); returns {svg, box:[x0,y0,x1,y1]} of the ink */
 function standing(src, fx, fy, h, flip) {

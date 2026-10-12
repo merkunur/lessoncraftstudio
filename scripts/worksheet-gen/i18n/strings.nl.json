@@ -3116,5 +3116,105 @@
   "G2-391": {
     "title": "{U} uit je hoofd tekenen",
     "instruction": "Kijk goed naar de vlinder, vouw het blad op de stippellijn naar achteren zodat je hem niet meer ziet, en teken hem uit je hoofd in het grote vak."
+  },
+  "K-405": {
+    "title": "Doolhofpuzzel: help de egel naar de appelboom",
+    "instruction": "Help de egel naar de appelboom. Teken een lijn langs de weg.",
+    "printTitle": "Help de egel naar de appelboom"
+  },
+  "K-406": {
+    "title": "Mijn eerste doolhof voor peuters",
+    "instruction": "Help het hondje naar de bal. Teken een lijn over de brede weg en blijf binnen de randen.",
+    "printTitle": "Help het hondje naar de bal"
+  },
+  "G1-420": {
+    "title": "Grote doolhofpuzzel groep 3: de jungle",
+    "instruction": "Kijk eerst naar het hele doolhof. Teken daarna de weg van de orang-oetan naar de bananenboom.",
+    "printTitle": "Help de orang-oetan de bananenboom te vinden"
+  },
+  "K-407": {
+    "title": "Rivierdoolhof: vaar de boot naar de teddybeer",
+    "instruction": "Help het bootje over de beek naar de teddybeer op de steiger. Teken een lijn door het water.",
+    "printTitle": "Vaar het bootje naar de teddybeer"
+  },
+  "G1-421": {
+    "title": "Doolhof onder de grond: de mierengangen",
+    "instruction": "Help de mier door de gangen naar beneden en naar boven, tot bij de framboos. Teken een lijn langs de weg.",
+    "printTitle": "Help de mier naar haar framboos"
+  },
+  "G1-422": {
+    "title": "Stadsdoolhof: zoek de kortste weg",
+    "instruction": "Veel straten gaan naar de groene auto. Teken de kortste weg voor de takelwagen en schrijf op hoeveel stukjes straat het zijn.",
+    "printTitle": "De kortste weg naar de groene auto"
+  },
+  "K-408": {
+    "title": "Doolhof: jonge dieren zoeken hun moeder",
+    "instruction": "Help elk jong dier zijn eigen moeder te vinden. Teken een lijn van elk jong naar zijn moeder.",
+    "printTitle": "Help elk jong dier zijn moeder te vinden"
+  },
+  "G1-423": {
+    "title": "Warrige lijnen: van wie is de vlieger?",
+    "instruction": "Volg elk touwtje van een dier naar zijn vlieger of ballon. Schrijf het nummer van het dier in het vakje erboven.",
+    "printTitle": "Van wie is de vlieger?"
+  },
+  "G1-424": {
+    "title": "Doolhof: verzamel alle wortels",
+    "instruction": "Help het konijn naar de emmer en verzamel onderweg elke wortel. Kruis voor elke wortel een rondje aan.",
+    "printTitle": "Help het konijn alle wortels te verzamelen"
+  },
+  "G1-425": {
+    "title": "Doolhof: ontwijk de walrussen",
+    "instruction": "Help de ijsbeer naar de iglo. Neem geen weg met een walrus of een gat in het ijs.",
+    "printTitle": "Breng de ijsbeer veilig thuis"
+  },
+  "K-409": {
+    "title": "Letterdoolhof A tot Z: de raket naar de maan",
+    "instruction": "Help de raket naar de maan te vliegen. Ga bij elke splitsing naar de steen met de volgende letter van het alfabet.",
+    "printTitle": "Vlieg van A tot Z naar de maan"
+  },
+  "K-410": {
+    "title": "Letterdoolhof met kleine letters: de zee",
+    "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de bel met de volgende kleine letter.",
+    "printTitle": "Zwem van a tot z naar huis"
+  },
+  "G1-426": {
+    "title": "Letterdoolhof: in ABC-volgorde door de honingraat",
+    "instruction": "Begin in het vakje waar de pijl naar wijst. Kleur de volgende letter van het alfabet in een vakje ernaast, tot aan de {LAST}.",
+    "printTitle": "Spring in ABC-volgorde door de honingraat"
+  },
+  "K-411": {
+    "title": "Getallendoolhof tot 20: het treintje",
+    "instruction": "Help het treintje naar de hut. Ga bij elke splitsing naar het volgende getal, van 1 tot 20.",
+    "printTitle": "Tel met het treintje naar de hut"
+  },
+  "G2-392": {
+    "title": "Rekendoolhof groep 4: tellen met sprongen van 5",
+    "instruction": "Help de luchtballon naar de regenboog. Tel met sprongen van 5 van wolk naar wolk, tot 100.",
+    "printTitle": "Tel met sprongen van 5 naar de regenboog"
+  },
+  "G1-427": {
+    "title": "Rekendoolhof groep 3: verliefde harten",
+    "instruction": "Help de giraf naar de baobab. Stap alleen op de stenen waarvan de som 10 is.",
+    "printTitle": "Stap alleen op sommen die 10 maken"
+  },
+  "G1-428": {
+    "title": "Rekendoolhof: minsommen tot 20",
+    "instruction": "Kijk naar het getal bij het peperkoekmannetje. Stap alleen op de stenen met dat getal als antwoord.",
+    "printTitle": "Help het peperkoekmannetje naar de taart"
+  },
+  "K-412": {
+    "title": "Doolhof met beginklanken: zoals leeuw",
+    "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als leeuw.",
+    "printTitle": "Plaatjes die beginnen zoals leeuw"
+  },
+  "G2-393": {
+    "title": "Rekendoolhof groep 4: plus en min tot 100",
+    "instruction": "Begin met het getal van de kiepwagen en schrijf het nieuwe getal in het vakje van elk bord. Zoek de weg die eindigt op het getal van de kraan.",
+    "printTitle": "Breng de kraan zijn getal"
+  },
+  "K-413": {
+    "title": "Doolhof kleurplaat: krab op het strand",
+    "instruction": "Teken de weg van de krab naar het zandkasteel en kleur de hele weg. Kleur daarna de strandtekening.",
+    "printTitle": "Los het doolhof op en kleur het strand"
   }
 }

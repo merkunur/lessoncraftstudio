@@ -1,35 +1,150 @@
 {
   "locale": "sv",
   "strings": {
-    "base": { "title": "Labyrint för barn: igelkotten och äppelträdet", "printTitle": "Hjälp igelkotten till äppelträdet", "instruction": "Hjälp igelkotten att komma till äppelträdet. Rita en linje längs vägen.", "tap": "Börja vid den gröna cirkeln med pilen. Dra längs vägen fram till flaggan." },
-    "first-maze": { "title": "Min första labyrint: förskola", "printTitle": "Hjälp valpen till bollen", "instruction": "Hjälp valpen att komma till bollen. Rita en linje på den breda vägen och håll dig innanför kanterna.", "tap": "Börja vid den gröna cirkeln. Dra på den breda vägen fram till bollen." },
-    "big-maze": { "title": "Stor labyrint åk 1: djungeln", "printTitle": "Hjälp orangutangen att hitta bananträdet", "instruction": "Titta först på hela labyrinten. Rita sedan orangutangens väg till bananträdet.", "tap": "Titta först och dra sedan från den gröna cirkeln till bananträdet. Tar en väg slut, gå tillbaka." },
-    "river": { "title": "Flodlabyrint: båten och nallen", "printTitle": "Styr båten till nallen", "instruction": "Hjälp båten att åka längs bäcken till nallen på bryggan. Rita en linje genom vattnet.", "tap": "Börja vid den gröna cirkeln. Dra genom vattnet fram till nallen." },
-    "burrow": { "title": "Labyrint under jorden: myrans gångar", "printTitle": "Hjälp myran till hallonet", "instruction": "Hjälp myran att gå ner och upp genom gångarna till hallonet. Rita en linje längs vägen.", "tap": "Börja vid den gröna cirkeln. Dra genom gångarna fram till hallonet." },
-    "shortest-way": { "title": "Stadslabyrint: hitta kortaste vägen", "printTitle": "Kortaste vägen till den gröna bilen", "instruction": "Många gator leder till den gröna bilen. Rita den kortaste vägen för bärgningsbilen och skriv hur många gatubitar den kör.", "tap": "Dra den kortaste vägen från den gröna cirkeln till den gröna bilen." },
-    "babies-mothers": { "title": "Labyrint: ungarna hittar sin mamma", "printTitle": "Hjälp varje unge att hitta sin mamma", "instruction": "Hjälp varje djurunge att hitta sin egen mamma. Rita en linje från varje unge till dess mamma.", "tap": "Dra från varje unge till dess egen mamma." },
-    "tangled-lines": { "title": "Trassliga snören: vems drake är det?", "printTitle": "Vems drake är det?", "instruction": "Följ varje snöre från ett djur till dess drake. Skriv djurets nummer i rutan ovanför draken.", "tap": "Dra längs varje snöre från djuret till dess drake." },
-    "collect": { "title": "Labyrint: plocka alla morötter", "printTitle": "Hjälp kaninen att plocka alla morötter", "instruction": "Hjälp kaninen till hinken och plocka varje morot på vägen. Kryssa i en cirkel för varje morot.", "tap": "Dra från den gröna cirkeln till hinken. Gå förbi varje morot." },
-    "avoid": { "title": "Labyrint: undvik valrossarna", "printTitle": "Hjälp isbjörnen hem utan fara", "instruction": "Hjälp isbjörnen till igloon. Gå inte förbi någon valross eller något hål i isen.", "tap": "Dra från den gröna cirkeln till igloon utan att gå förbi en valross eller ett hål." },
-    "abc-capitals": { "title": "Labyrint från A till Ö: raketen till månen", "printTitle": "Flyg till månen från A till Ö", "instruction": "Hjälp raketen att flyga till månen. Gå vid varje vägskäl till stenen med nästa bokstav i alfabetet.", "tap": "Börja vid den gröna cirkeln. Dra vid varje vägskäl till nästa bokstav." },
-    "abc-lowercase": { "title": "Labyrint med små bokstäver: havet", "printTitle": "Simma hem från a till ö", "instruction": "Hjälp clownfisken att simma till korallen. Gå vid varje vägskäl till bubblan med nästa lilla bokstav.", "tap": "Börja vid den gröna cirkeln. Dra vid varje vägskäl till nästa lilla bokstav." },
-    "letter-hop": { "title": "Hoppa i bokstavsordning: bikakan", "printTitle": "Hoppa genom bikakan i bokstavsordning", "instruction": "Börja i rutan som pilen pekar på. Färglägg nästa bokstav i alfabetet i en ruta bredvid, ända till {LAST}.", "tap": "Börja vid den gröna cirkeln. Dra ruta för ruta till nästa bokstav i alfabetet." },
-    "numbers-20": { "title": "Labyrint räkna 1-20: tåget", "printTitle": "Räkna med tåget till stugan", "instruction": "Hjälp tåget att komma till stugan. Gå vid varje vägskäl till nästa tal, från 1 till 20.", "tap": "Börja vid den gröna cirkeln. Dra vid varje vägskäl till nästa tal." },
-    "skip-5": { "title": "Mattelabyrint åk 2: hoppa 5 steg", "printTitle": "Räkna med femsteg till regnbågen", "instruction": "Hjälp luftballongen till regnbågen. Räkna med femsteg från moln till moln, ända till 100.", "tap": "Börja vid den gröna cirkeln. Dra från moln till moln och räkna med femsteg." },
-    "make-10": { "title": "Mattelabyrint åk 1: tiokamrater", "printTitle": "Gå bara på talen som blir 10", "instruction": "Hjälp giraffen till baobabträdet. Gå bara på stenarna där summan blir 10.", "tap": "Börja vid den gröna cirkeln. Dra bara över stenarna som blir 10." },
-    "subtract-20": { "title": "Mattelabyrint: minus inom 20", "printTitle": "Hjälp pepparkaksgubben till tårtan", "instruction": "Titta på talet vid pepparkaksgubben. Gå bara på stenarna där svaret är det talet.", "tap": "Börja vid den gröna cirkeln. Dra bara över stenarna där svaret är pepparkaksgubbens tal." },
-    "first-sound": { "title": "Labyrint första ljudet: som lejon", "printTitle": "Bilder som börjar som lejon", "instruction": "Säg namnet på varje bild. Gå bara på bilder som börjar med samma ljud som lejon.", "tap": "Börja vid den gröna cirkeln. Dra bara över bilder som börjar som lejon." },
-    "running-total": { "title": "Mattelabyrint åk 2: plus och minus till 100", "printTitle": "Ge lyftkranen dess tal", "instruction": "Börja med lastbilens tal och skriv det nya talet i rutan vid varje skylt. Hitta vägen som slutar på lyftkranens tal.", "tap": "Börja vid den gröna cirkeln. Dra längs vägen som slutar på lyftkranens tal." },
-    "maze-colouring": { "title": "Labyrint att färglägga: krabban på stranden", "printTitle": "Lös labyrinten och färglägg stranden", "instruction": "Rita krabbans väg till sandslottet och färglägg hela vägen. Färglägg sedan strandbilden.", "tap": "Börja vid den gröna cirkeln. Dra längs vägen fram till sandslottet." }
+    "base": {
+      "title": "Labyrint för barn: igelkotten och äppelträdet",
+      "printTitle": "Hjälp igelkotten till äppelträdet",
+      "instruction": "Hjälp igelkotten att komma till äppelträdet. Rita en linje längs vägen.",
+      "tap": "Börja vid den gröna cirkeln med pilen. Dra längs vägen fram till flaggan."
+    },
+    "first-maze": {
+      "title": "Min första labyrint: förskola",
+      "printTitle": "Hjälp valpen till bollen",
+      "instruction": "Hjälp valpen att komma till bollen. Rita en linje på den breda vägen och håll dig innanför kanterna.",
+      "tap": "Börja vid den gröna cirkeln. Dra på den breda vägen fram till bollen."
+    },
+    "big-maze": {
+      "title": "Stor labyrint åk 1: djungeln",
+      "printTitle": "Hjälp orangutangen att hitta bananträdet",
+      "instruction": "Titta först på hela labyrinten. Rita sedan orangutangens väg till bananträdet.",
+      "tap": "Titta först och dra sedan från den gröna cirkeln till bananträdet. Tar en väg slut, gå tillbaka."
+    },
+    "river": {
+      "title": "Flodlabyrint: båten och nallen",
+      "printTitle": "Styr båten till nallen",
+      "instruction": "Hjälp båten att åka längs bäcken till nallen på bryggan. Rita en linje genom vattnet.",
+      "tap": "Börja vid den gröna cirkeln. Dra genom vattnet fram till nallen."
+    },
+    "burrow": {
+      "title": "Labyrint under jorden: myrans gångar",
+      "printTitle": "Hjälp myran till hallonet",
+      "instruction": "Hjälp myran att gå ner och upp genom gångarna till hallonet. Rita en linje längs vägen.",
+      "tap": "Börja vid den gröna cirkeln. Dra genom gångarna fram till hallonet."
+    },
+    "shortest-way": {
+      "title": "Stadslabyrint: hitta kortaste vägen",
+      "printTitle": "Kortaste vägen till den gröna bilen",
+      "instruction": "Många gator leder till den gröna bilen. Rita den kortaste vägen för bärgningsbilen och skriv hur många gatubitar den kör.",
+      "tap": "Dra den kortaste vägen från den gröna cirkeln till den gröna bilen."
+    },
+    "babies-mothers": {
+      "title": "Labyrint: ungarna hittar sin mamma",
+      "printTitle": "Hjälp varje unge att hitta sin mamma",
+      "instruction": "Hjälp varje djurunge att hitta sin egen mamma. Rita en linje från varje unge till dess mamma.",
+      "tap": "Dra från varje unge till dess egen mamma."
+    },
+    "tangled-lines": {
+      "title": "Trassliga snören: vems drake är det?",
+      "printTitle": "Vems drake är det?",
+      "instruction": "Följ varje snöre från ett djur till dess drake eller ballong. Skriv djurets nummer i rutan ovanför.",
+      "tap": "Dra längs varje snöre från djuret till dess drake eller ballong."
+    },
+    "collect": {
+      "title": "Labyrint: plocka alla morötter",
+      "printTitle": "Hjälp kaninen att plocka alla morötter",
+      "instruction": "Hjälp kaninen till hinken och plocka varje morot på vägen. Kryssa i en cirkel för varje morot.",
+      "tap": "Dra från den gröna cirkeln till hinken. Gå förbi varje morot."
+    },
+    "avoid": {
+      "title": "Labyrint: undvik valrossarna",
+      "printTitle": "Hjälp isbjörnen hem utan fara",
+      "instruction": "Hjälp isbjörnen till igloon. Ta ingen väg där det ligger en valross eller ett hål i isen.",
+      "tap": "Dra från den gröna cirkeln till igloon. Ta ingen väg med en valross eller ett hål."
+    },
+    "abc-capitals": {
+      "title": "Labyrint från A till Ö: raketen till månen",
+      "printTitle": "Flyg till månen från A till Ö",
+      "instruction": "Hjälp raketen att flyga till månen. Vid varje vägskäl går du till stenen med nästa bokstav i alfabetet.",
+      "tap": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa bokstav."
+    },
+    "abc-lowercase": {
+      "title": "Labyrint med små bokstäver: havet",
+      "printTitle": "Simma hem från a till ö",
+      "instruction": "Hjälp clownfisken att simma till korallen. Vid varje vägskäl går du till bubblan med nästa lilla bokstav.",
+      "tap": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa lilla bokstav."
+    },
+    "letter-hop": {
+      "title": "Hoppa i bokstavsordning: bikakan",
+      "printTitle": "Hoppa genom bikakan i bokstavsordning",
+      "instruction": "Börja i rutan som pilen pekar på. Färglägg hela tiden nästa bokstav i alfabetet i en ruta bredvid, ända till {LAST}.",
+      "tap": "Börja vid den gröna cirkeln. Dra ruta för ruta till nästa bokstav i alfabetet."
+    },
+    "numbers-20": {
+      "title": "Sifferlabyrint 1–20: tåget",
+      "printTitle": "Räkna med tåget till stugan",
+      "instruction": "Hjälp tåget att komma till stugan. Vid varje vägskäl går du till nästa tal, från 1 till 20.",
+      "tap": "Börja vid den gröna cirkeln. Vid varje vägskäl drar du till nästa tal."
+    },
+    "skip-5": {
+      "title": "Mattelabyrint åk 2: räkna med femsteg",
+      "printTitle": "Räkna med femsteg till regnbågen",
+      "instruction": "Hjälp luftballongen till regnbågen. Räkna med femsteg från moln till moln, ända till 100.",
+      "tap": "Börja vid den gröna cirkeln. Dra från moln till moln och räkna med femsteg."
+    },
+    "make-10": {
+      "title": "Mattelabyrint åk 1: tiokamrater",
+      "printTitle": "Gå bara på uppgifterna som blir 10",
+      "instruction": "Hjälp giraffen till baobabträdet. Gå bara på stenarna där summan blir 10.",
+      "tap": "Börja vid den gröna cirkeln. Dra bara över stenarna som blir 10."
+    },
+    "subtract-20": {
+      "title": "Mattelabyrint: minus inom 20",
+      "printTitle": "Hjälp pepparkaksgubben till tårtan",
+      "instruction": "Titta på talet vid pepparkaksgubben. Gå bara på stenarna där svaret är det talet.",
+      "tap": "Börja vid den gröna cirkeln. Dra bara över stenarna där svaret är pepparkaksgubbens tal."
+    },
+    "first-sound": {
+      "title": "Labyrint första ljudet: som lejon",
+      "printTitle": "Bilder som börjar som lejon",
+      "instruction": "Säg namnet på varje bild. Gå bara på bilder som börjar med samma ljud som lejon.",
+      "tap": "Börja vid den gröna cirkeln. Dra bara över bilder som börjar som lejon."
+    },
+    "running-total": {
+      "title": "Mattelabyrint åk 2: plus och minus till 100",
+      "printTitle": "Ge lyftkranen dess tal",
+      "instruction": "Börja med lastbilens tal och skriv det nya talet i rutan vid varje skylt. Hitta vägen som slutar på lyftkranens tal.",
+      "tap": "Börja vid den gröna cirkeln. Dra längs vägen som slutar på lyftkranens tal."
+    },
+    "maze-colouring": {
+      "title": "Labyrint att färglägga: krabban på stranden",
+      "printTitle": "Lös labyrinten och färglägg stranden",
+      "instruction": "Rita krabbans väg till sandslottet och färglägg hela vägen. Färglägg sedan strandbilden.",
+      "tap": "Börja vid den gröna cirkeln. Dra längs vägen fram till sandslottet."
+    }
   },
   "chrome": {
-    "mzGoBack": "Tillbaka", "mzKeepGoing": "Fortsätt: vägen tar inte slut här.", "mzLookAtRing": "Titta på bilden i den röda cirkeln.",
-    "mzMissed": "En morot saknas. Titta på den röda cirkeln.", "mzTwice": "Den här vägen har du redan använt.", "mzAvoid": "Den här vägen går förbi något du ska undvika.",
-    "mzShorter": "Det finns en kortare väg.", "mzWrongHome": "Den här ungen är inte hos sin mamma än.", "mzWaysHere": "Vägar härifrån",
-    "mzPathN": "Väg {n}", "mzAt": "Hållplats {n}", "mzDeadEnd": "Den här vägen tar slut här.", "mzAtGoal": "Du klarade det!"
+    "mzGoBack": "Tillbaka",
+    "mzKeepGoing": "Fortsätt: vägen tar inte slut här.",
+    "mzLookAtRing": "Titta på bilden i den röda cirkeln.",
+    "mzMissed": "En morot saknas. Titta på den röda cirkeln.",
+    "mzTwice": "Den här vägen har du redan använt.",
+    "mzAvoid": "Den här vägen går förbi något du ska undvika.",
+    "mzShorter": "Det finns en kortare väg.",
+    "mzWrongHome": "Den här ungen är inte hos sin mamma än.",
+    "mzWaysHere": "Vägar härifrån",
+    "mzPathN": "Väg {n}",
+    "mzAt": "Hållplats {n}",
+    "mzDeadEnd": "Den här vägen tar slut här.",
+    "mzAtGoal": "Du klarade det!"
   },
-  "family": { "slug": "labyrintpyssel", "name": "Labyrintpyssel" },
-  "skill": { "full": "Att rita en linje genom en bildlabyrint och vid varje vägskäl välja nästa bokstav, tal eller uppgift tränar planering och pennfattning; med facit.", "short": "Tränar planering och pennfattning i en bildlabyrint." },
+  "family": {
+    "slug": "labyrintpyssel",
+    "name": "Labyrintpyssel"
+  },
+  "skill": {
+    "full": "Att rita en linje genom en bildlabyrint och vid varje vägskäl välja nästa bokstav, tal eller uppgift tränar planering och pennfattning; med facit.",
+    "short": "Tränar planering och pennfattning i en bildlabyrint."
+  },
   "topicMeta": "Labyrintpyssel för barn: led en igelkott, en raket eller en isbjörn genom en bildlabyrint, följ bokstäverna från A till Ö, talen till 20, räkna med femsteg eller hitta tiokamraterna. Att skriva ut med facit, förskola till åk 2.",
   "refusals": {},
   "enAudit": []

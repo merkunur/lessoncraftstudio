@@ -194998,6 +194998,834 @@
    ],
    "title": "Draw from Memory Worksheet: a Butterfly for Grade 2 | Free Printable PDF",
    "metaDescription": "Draw a butterfly from memory: a small butterfly on a flap, a dashed fold line and a big paper below. Look, fold the model away, draw it. Grade 2 PDF."
+  },
+  {
+   "slug": "picture-maze-hedgehog-apple-tree",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "An autumn orchard fills this kindergarten maze. A hedgehog waits at the green start circle in the bottom corner, and an apple tree stands at the far corner beside a little flag. Between them, light sandy paths curl through the grass, split, and split again. Some of the side paths run a long way toward the tree before they stop, so a child who rushes meets a dead end and has to come back. On the grassy islands between the paths sit a mouse, a snail, a ladybug, a butterfly, a mushroom and a few meadow flowers, all drawn in the same soft style as the hedgehog.",
+   "p2": "The job is to draw one line along the paths from the hedgehog to the apple tree. That asks for two things at once. The eyes plan ahead, following a path to see where it goes before the pencil commits, and the hand keeps the line inside a winding road. Teachers of five-year-olds will recognise both: looking before acting, and the steady pencil control that later carries letters. The paths are wide enough for a crayon and the turns are gentle, so the page stretches attention without frustrating small hands.",
+   "p3": "Every copy prints as a PDF, opens as a screen version where the child drags a finger along the paths and presses Check, and comes with an answer key that shows the way in colour. This is the first page of a family of twenty picture mazes: a first maze for preschool, a big jungle maze, a river, tunnels under the ground, town streets, babies finding their mothers, tangled kite strings, and mazes that follow the alphabet, numbers, sums and first sounds. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k405",
+   "carousel": [
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    },
+    {
+     "label": "Underground Maze: Help the Ant Through Its Tunnels",
+     "href": "underground-maze-ant-tunnels"
+    }
+   ],
+   "title": "Picture Maze for Kindergarten: Hedgehog and Apple Tree | Printable PDF",
+   "metaDescription": "Picture maze for kindergarten: guide the hedgehog along winding orchard paths to the apple tree. Printable PDF with a draw-the-way screen and an answer key."
+  },
+  {
+   "slug": "my-first-maze-preschool-puppy-ball",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "preschool"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "My First Maze: Help the Puppy Reach the Ball",
+   "strand": "Fine Motor & Visual-Spatial",
+   "slotTokens": [
+    "maze-puzzles",
+    "preschool"
+   ],
+   "p1": "This is the maze to start with. A puppy sits at the green start circle in a spring park, and its ball waits at the other end of the page. One very wide road joins them, wide enough for a chunky crayon, with only a couple of short side turns that stop quickly. Around the road the park is full of friendly pictures: a cat, a butterfly, a bird, a cherry tree in blossom and bright tulips, so the page feels like a picture to enjoy before it feels like a puzzle.",
+   "p2": "For a three- or four-year-old the real work is the hand, not the plan. Keeping a line inside two edges, turning with the road and not cutting across the grass builds the pencil control that tracing and early writing need later. The two short wrong turns add the first taste of choosing: a child who follows one sees it end straight away and comes back without losing heart. Say the story aloud together, the puppy wants its ball, and let the child show the way with a finger first, then with a crayon.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags along the road and presses Check, and has an answer key with the way drawn in colour. When this page feels easy, the next steps in the same family are the hedgehog orchard maze for kindergarten, the river maze with its long smooth curves, and the babies-and-mothers maze with three roads. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k406",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    },
+    {
+     "label": "Underground Maze: Help the Ant Through Its Tunnels",
+     "href": "underground-maze-ant-tunnels"
+    }
+   ],
+   "title": "My First Maze for Preschoolers: Puppy and Ball | Printable PDF",
+   "metaDescription": "A first maze for preschoolers: one very wide road through a spring park, two short wrong turns, a puppy and its ball. Printable PDF, screen version and answer key."
+  },
+  {
+   "slug": "big-maze-1st-grade-jungle-orangutan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A rainforest floor covers the whole page, crowded with narrow paths. An orangutan starts at the green circle in one corner, and a banana tree waits in the opposite corner under a leafy canopy. The way between them is long and twists back on itself, and many side paths branch off it. Some of those side paths are short, but others run deep into the jungle and only stop after several turns. A toucan, a parrot, a sloth, a frog, palm trees and bright jungle flowers sit on the islands between the paths.",
+   "p2": "This page is about planning, the skill a first grader is ready to stretch. The instruction asks the child to look at the whole maze first and only then draw the orangutan's way. Children who start drawing at once will meet a deep dead end, back up and try again, which is exactly the point: backtracking is how a maze teaches that a first choice can be checked and changed. Many children find it helps to work backwards from the banana tree for a short stretch, then join the two ends.",
+   "p3": "Print it as a PDF, use the screen version where the child drags along the path and can press Go back, or check the work against the answer key, which shows the one right way in colour. In the same family, the hedgehog orchard maze is the gentler kindergarten version, and the town maze asks for the shortest of several ways rather than the only one. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1420",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    },
+    {
+     "label": "Underground Maze: Help the Ant Through Its Tunnels",
+     "href": "underground-maze-ant-tunnels"
+    }
+   ],
+   "title": "Big Maze Puzzle for 1st Grade: Jungle Orangutan | Printable PDF",
+   "metaDescription": "A big jungle maze for 1st grade: long paths, deep dead ends and the orangutan's way to the banana tree. Plan first, then draw. PDF, screen version and answer key."
+  },
+  {
+   "slug": "river-maze-boat-teddy-bear",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "River Maze: Sail the Boat to the Teddy Bear",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "In this maze the roads are water. A blue stream winds across a green garden, and a toy boat floats at the green start circle where the stream begins. At the far end a teddy bear sits on a small wooden dock, waiting for the boat. The stream splits into side arms that look just as inviting as the main water, but each one ends against the bank. Along the banks you can spot a frog, a dragonfly, a duck, a swan, a turtle and a leafy tree.",
+   "p2": "The stream is drawn with long, smooth curves rather than sharp corners, so the line a child draws is a sweeping curve. That makes the page good practice for the curved strokes that come before writing letters such as c, o and s, while the side arms keep the thinking side of a maze alive. A child steers the boat with a finger first, saying where the water goes, and then draws a line that stays in the water from the boat to the dock.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the boat's way and presses Check, and comes with an answer key that shows the route through the water in colour. It sits in a family of twenty picture mazes; the first maze with the puppy is the easier start, and the underground ant maze is the next step up, with tunnels on three levels. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k407",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "Underground Maze: Help the Ant Through Its Tunnels",
+     "href": "underground-maze-ant-tunnels"
+    }
+   ],
+   "title": "River Maze for Kids: Sail the Boat to the Teddy Bear | Printable PDF",
+   "metaDescription": "A river maze for kindergarten: follow the blue stream and its side arms to the teddy bear on the dock. Long smooth curves. Printable PDF, screen version, answer key."
+  },
+  {
+   "slug": "underground-maze-ant-tunnels",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Underground Maze: Help the Ant Through Its Tunnels",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "This page shows the ground cut open, like a slice through a garden. At the top, an ant stands on the grass by the green start circle. Below the grass, brown soil is layered in bands, and tunnels run through it on three levels, joined by short shafts that go straight up and down. Deep down in the far corner, a raspberry sits in a round room: that is where the ant wants to go. Other little rooms hold a worm, a centipede, a beetle and a spider, and some of them are at the end of tunnels that lead nowhere else.",
+   "p2": "The new idea here is up and down. The way to the raspberry does not simply go downhill; at some point the ant has to climb back up a shaft before it can go down again, and the shaft that looks like the quickest way down may stop in a dead end. Talking it through builds position words a first grader is using every day: above, below, down the shaft, along the middle tunnel, back up to the top. The line is drawn along the tunnels from the ant to the raspberry.",
+   "p3": "Print it as a PDF, use the screen version where the child drags through the tunnels and presses Check, or compare with the answer key, which shows the ant's way in colour. In the same family, the river maze is a gentler kindergarten page, and the town maze turns the problem into finding the shortest of several streets. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1421",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Underground Maze for 1st Grade: The Ant's Tunnels | Printable PDF",
+   "metaDescription": "Underground maze for 1st grade: an ant goes down and up through tunnels on three levels to the raspberry in its deepest room. Printable PDF, screen version, answer key."
+  },
+  {
+   "slug": "town-maze-shortest-way",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Town Maze: Find the Shortest Way to the Green Car",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A small town is seen from above: grey streets run between green blocks of lawn, and houses, trees, a garage, a bike, a scooter and a mailbox stand along the edges of the map. A tow truck waits at the green start circle on one side, and a green car is parked on the other. Unlike most mazes, this one has many ways through: the streets join up again and again, and a few are closed by barriers. Every piece of street between two crossings carries one round manhole cover, and the strip under the map shows one street piece with its cover equal to 1, next to an empty box.",
+   "p2": "The question is not whether you can reach the car, but which way is shortest. Children often believe that the way with the fewest turns must be the shortest, and this page is built so that a straighter way is longer. Counting settles it: each cover is one street piece, so the child counts the covers along a way, compares ways, draws the shortest one and writes its number in the box. That is real first grade measurement thinking, done with a picture instead of a ruler.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags a way for the truck and presses Check (a longer way gets the hint that there is a shorter one), and comes with an answer key showing the shortest way and its count. In the same family, the big jungle maze has only one way through, and the running-total maze adds up signs along the road instead. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1422",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Town Maze for 1st Grade: Find the Shortest Way | Printable PDF",
+   "metaDescription": "Town maze for 1st grade: many streets lead to the green car. Draw the shortest way for the tow truck and count the street pieces it drives. PDF, screen, answer key."
+  },
+  {
+   "slug": "baby-animals-and-mothers-maze-farm",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Babies and Mothers Maze: Help Every Baby Find Its Mother",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "Three farm babies stand in a row at the top of a summer hayfield: a chick, a calf and a foal, each by a numbered start circle. Lower down, three mothers wait in round paddocks: a hen, a cow and a horse. No baby stands right above its own mother, so nobody can simply go straight down. Three separate roads wind across the field between them, interleaved like fingers, and each road has its own little side turns.",
+   "p2": "This page joins two kindergarten skills. First the child matches each baby to its mother, which is already a small vocabulary lesson about animal families. Then the child follows the roads to find which one really takes each baby home. The roads never touch, but they run close together and cross the field side by side, so the eye has to stay on one road from start to end. Doing the three babies one after the other, with a different colour for each, keeps the routes apart and makes the page easy to check.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags from each baby to its mother (a baby at the wrong home is shown at once), and comes with an answer key with each route in its own colour. In the same family, the tangled kite strings ask for following lines through crossings, and the first maze with the puppy is a gentler start. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k408",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Baby Animals and Mothers Maze for Kindergarten | Printable PDF",
+   "metaDescription": "Farm maze for kindergarten: a chick, a calf and a foal each find their own mother along three separate roads. Printable PDF, screen version and answer key."
+  },
+  {
+   "slug": "tangled-lines-puzzle-whose-kite",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Tangled Lines Puzzle: Whose Kite Is It?",
+   "strand": "Visual discrimination (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "On a windy hilltop, four animals stand at the bottom of the page, each by a numbered circle: a fox, a raccoon, a squirrel and a badger. Each one holds a long string. At the top of the sky fly three kites and a red balloon, with an empty box above each of them. The four strings cross and recross on the way up, so it is impossible to tell at a glance which animal holds which kite.",
+   "p2": "There are no choices to make on this page and no dead ends; every string goes somewhere. The whole skill is following one line through each crossing without jumping onto another one. That is visual tracking, the same eye work a reader uses to stay on one line of print. Children usually do best with a finger on the string, moving slowly through every crossing. When the string reaches a kite or the balloon, the animal's number goes in the box above it, so the finished page shows four answers at the top.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags along each string from its animal to its end, and comes with an answer key with every string drawn in its own colour and the boxes filled in. In the same family, the babies-and-mothers maze adds choices at the junctions, and the big jungle maze asks for planning a long way. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1423",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Tangled Lines Puzzle for 1st Grade: Whose Kite Is It? | Printable PDF",
+   "metaDescription": "A tangled lines puzzle for 1st grade: follow four crossing strings from the animals to three kites and a balloon, then write each number. PDF, screen version, key."
+  },
+  {
+   "slug": "collect-the-carrots-maze-rabbit",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Collect the Carrots: Help the Rabbit Pick Every Carrot",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A green vegetable garden fills this page, crossed by stone paths. A rabbit starts at the green circle, and a yellow bucket waits at the other end. Four carrots lie on the stone paths between the beds, each on a white circle, and the strip under the garden shows a carrot, the number 4 and four empty circles to tick. A snail, a caterpillar, a lettuce, a pumpkin and a watering can sit in the grass. The paths join up in loops, so there are many ways to reach the bucket.",
+   "p2": "Reaching the bucket is easy here; the challenge is reaching it with all four carrots and without walking any path twice. The shortest way to the bucket misses carrots, so the child has to plan a longer route that visits each one. That is planning with several goals at once, a step beyond an ordinary maze where only the end matters. Ticking a circle for each carrot as the line passes it gives a simple self-check: four ticks and the bucket means the job is done.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the rabbit's way and presses Check (a missed carrot is circled in red), and comes with an answer key showing the one way that collects every carrot. In the same family, the polar bear maze turns the rule around: there the child must avoid things instead of collecting them. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1424",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Collect-the-Carrots Maze for 1st Grade: Rabbit Garden | Printable PDF",
+   "metaDescription": "A collect-the-items maze for 1st grade: the rabbit must reach the bucket and pass all four carrots without using a path twice. PDF, screen version, answer key."
+  },
+  {
+   "slug": "avoid-the-walruses-polar-bear-maze",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Maze Puzzle",
+   "h1": "Avoid the Walruses: Get the Polar Bear Home Safely",
+   "strand": "Spatial reasoning (readiness)",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "White trails cross a sheet of Arctic sea ice. A polar bear starts at the green circle, and an igloo waits at the other end. Several trails reach the igloo, but sleeping walruses lie across some of them, and dark holes in the ice cut through others. The strip under the picture shows a walrus and a hole, each crossed out, so the rule is clear even before reading: do not take a road with a walrus or a hole. A seal, snowflakes and icicles decorate the ice.",
+   "p2": "The quick way to the igloo is blocked, which is the point of the page. A child has to hold back from the obvious path, check each trail for walruses and holes, and choose the one way that is completely clear. Holding back from the first idea and keeping a rule in mind while working is a real first grade skill, and a maze makes it visible: you can point to the exact walrus that a wrong route crosses. The line is drawn from the bear to the igloo along the safe trail.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the bear's way and presses Check (a route past a walrus or a hole is circled in red), and comes with an answer key showing the one safe trail. In the same family, the rabbit garden maze turns the rule around, asking the child to collect every carrot instead of avoiding things. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1425",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Avoid-the-Obstacles Maze for 1st Grade: Polar Bear | Printable PDF",
+   "metaDescription": "A polar bear maze for 1st grade: several ice trails reach the igloo, but only one has no sleeping walrus and no hole in the ice. PDF, screen version, answer key."
+  },
+  {
+   "slug": "alphabet-maze-a-to-z-rocket",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Alphabet Maze",
+   "h1": "Alphabet Maze A to Z: Fly the Rocket to the Moon",
+   "strand": "Reading: Foundational Skills",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "A night sky full of planets, the Earth and a comet frames this alphabet maze. A rocket starts at the green circle, and the moon waits at the top. The paths are dotted with round white stones, and every stone carries a capital letter. The right road passes the whole alphabet in order, from A to Z. The other stones carry letters too, often the ones children mix up: a letter that skips one ahead, the letter just before, or a look-alike such as E and F or M and N.",
+   "p2": "At every fork the child says the alphabet so far and picks the stone with the next capital letter. That turns reciting the alphabet into using it: knowing what comes after a letter without singing from the start. Because the wrong stones are near misses, a guess rarely works; the child has to know the order. Kindergarten teachers will recognise this as recognising and naming all the capital letters in order, one of the first reading foundations, practised here inside a game.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the rocket from stone to stone and presses Check, and comes with an answer key showing the A to Z road in colour. In the same family, the small-letter maze under the sea does the same with lowercase letters and b, d, p and q traps, and the honeycomb hop starts from a letter in the middle of the alphabet. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k409",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Alphabet Maze A to Z for Kindergarten: Rocket to the Moon | Printable PDF",
+   "metaDescription": "ABC maze for kindergarten: at every fork pick the stone with the next capital letter, A to Z, to fly the rocket to the moon. Printable PDF, screen version, answer key."
+  },
+  {
+   "slug": "lowercase-letter-maze-a-to-z-sea",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Alphabet Maze",
+   "h1": "Lowercase Letter Maze a to z: Swim Home Under the Sea",
+   "strand": "Reading: Foundational Skills",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "Under the sea, a clownfish starts at the green circle and swims toward a coral at the far end of the reef. Its way is a channel of clear water dotted with round bubbles, and every bubble carries a small letter. The right road passes the lowercase alphabet in order, from a to z. Around the reef you can find an octopus, a jellyfish, a starfish, a crab, a sea horse and seaweed.",
+   "p2": "Lowercase letters are where many young readers trip, because several of them are mirror images: b and d, p and q. This maze places those traps on purpose. Where b is the next letter on the right road, a d often waits on the wrong one, so a child has to look at the shape, not just at a round letter with a stick. Saying each letter aloud while choosing helps, and so does writing the tricky pairs once on the side of the page before starting.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the clownfish from bubble to bubble and presses Check, and comes with an answer key showing the a to z road in colour. In the same family, the rocket maze practises the capital letters, and the honeycomb hop asks for the order starting in the middle of the alphabet. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k410",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Lowercase Letter Maze a to z for Kindergarten: The Sea | Printable PDF",
+   "metaDescription": "Lowercase letter maze: guide the clownfish from bubble to bubble, a to z, past b and d, p and q traps, to the coral. Printable PDF, screen version, answer key."
+  },
+  {
+   "slug": "abc-order-letter-hop-honeycomb",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Alphabet Maze",
+   "h1": "ABC Order Letter Hop: Through the Bear's Honeycomb",
+   "strand": "Reading: Foundational Skills",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A big honeycomb fills this page, made of hexagon cells, each holding one capital letter. A bear sits beside a green start circle with an arrow that points into the first cell. The run does not start at A: it begins somewhere in the middle of the alphabet, and the instruction names the letter where it ends. The other cells hold letters too, many of them close neighbours in the alphabet, so a careless hop leads the wrong way.",
+   "p2": "From the first cell, the child colors the next letter of the alphabet in a cell that touches it, then the next, and so on to the last letter. Starting in the middle is the challenge: it asks what comes after a letter without the help of singing from A. That is the alphabet knowledge first graders need for dictionaries, class lists and alphabetical order, practised one hop at a time. Only one chain of touching cells works, so the colored path is easy to check at the end.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags from cell to cell and presses Check, and comes with an answer key with the run shaded in. In the same family, the rocket maze and the small-letter maze under the sea practise the whole alphabet from the start, choosing at every fork. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1426",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "ABC Order Maze for 1st Grade: Letter Hop Honeycomb | Printable PDF",
+   "metaDescription": "An ABC order maze for 1st grade: start at a letter in the middle of the alphabet and color each next letter in a touching honeycomb cell. PDF, screen version, key."
+  },
+  {
+   "slug": "number-maze-1-to-20-train",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Maze",
+   "h1": "Number Maze 1 to 20: Count Along with the Little Train",
+   "strand": "Counting & Cardinality",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "A little train stands at the green start circle in a green valley, with pine trees, a deer and a rabbit beside the tracks and a wooden cabin at the far end of the line. The tracks branch again and again, and round stones sit along them, each with a number. The right line passes the numbers 1 to 20 in order. The other stones are traps: numbers that skip ahead, numbers that go back, and numbers that repeat.",
+   "p2": "At every fork the child counts on and picks the stone with the next number. That makes counting to 20 more than a chant: it asks a child to know which number comes next from any point, and to read two-digit numbers carefully. The teen numbers are where kindergarten children most often slip, so the forks between 10 and 20 are where to slow down and say each number aloud. Counting aloud while drawing helps.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the train from stone to stone and presses Check, and comes with an answer key showing the 1 to 20 line in colour. In the same family, the skip-counting maze counts by 5s all the way to 100, and the alphabet mazes use letters instead of numbers. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k411",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Number Maze 1 to 20 for Kindergarten: The Little Train | Printable PDF",
+   "metaDescription": "Number maze 1 to 20: count along the railway and pick the next number at every fork to bring the little train to the cabin. Printable PDF, screen version, answer key."
+  },
+  {
+   "slug": "skip-counting-maze-by-5s-balloon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Math Maze",
+   "h1": "Skip Counting Maze by 5s: Fly the Balloon to the Rainbow",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-2"
+   ],
+   "p1": "A hot air balloon rises from the green start circle into a dawn sky. Its way is a road of clouds, and on the clouds sit numbers. At the top waits a rainbow. The right road counts by 5s: 5, 10, 15, 20 and on to 100. A paper airplane, a seagull and the sun share the sky.",
+   "p2": "Skip counting by 5s is a second grade standard, and this maze makes the step the rule. Most of the wrong clouds also end in 0 or 5, so a child cannot simply pick any number that looks right; the wrong clouds jump too far ahead, go back, or repeat a number already passed. To choose, the child has to add 5 to the number on the last cloud each time. Counting aloud while drawing, and checking that each number is exactly 5 more, keeps the balloon on course to 100.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the balloon from cloud to cloud and presses Check, and comes with an answer key showing the counting road in colour. In the same family, the number maze counts 1 to 20 for kindergarten, and the running-total maze keeps a total within 100 across plus and minus signs. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g2392",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Skip Counting Maze by 5s for 2nd Grade: Balloon to Rainbow | Printable PDF",
+   "metaDescription": "Skip counting maze for 2nd grade: hop from cloud to cloud counting by 5s from 5 to 100 to fly the hot air balloon to the rainbow. PDF, screen version, answer key."
+  },
+  {
+   "slug": "addition-maze-sums-that-make-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Math Maze",
+   "h1": "Addition Maze: Step Only on Sums That Make 10",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A dusty savanna stretches across the page. A giraffe starts at the green circle, next to a round badge showing 10, and a baobab tree waits at the far end. The tracks pass flat stones, and each stone carries an addition such as 6 + 4 or 7 + 4. A zebra, an elephant, a rhinoceros, an ostrich, a meerkat and a gazelle stand on the plains around the tracks.",
+   "p2": "The giraffe may only step on stones whose sum is 10. Every stone on the right road is a pair that makes 10, and the wrong stones are close misses that make 9 or 11, often sharing a number with a right pair, so a child really has to add rather than spot a familiar number. Pairs that make 10 are the backbone of first grade addition and subtraction, because so much later mental math leans on them. A child can say each sum aloud before choosing, or count on fingers at first.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the giraffe over the stones and presses Check, and comes with an answer key showing the road of tens in colour. In the same family, the gingerbread maze practises subtraction within 20, and the running-total maze keeps a total across several signs. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1427",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Addition Maze for 1st Grade: Sums That Make 10 | Printable PDF",
+   "metaDescription": "Addition maze for 1st grade: help the giraffe cross the savanna by stepping only on sums that make 10; sums of 9 and 11 are traps. PDF, screen version, answer key."
+  },
+  {
+   "slug": "subtraction-maze-within-20-gingerbread",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "grade-1"
+   },
+   "eyebrow": "Math Maze",
+   "h1": "Subtraction Maze Within 20: Help the Gingerbread Man",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-1"
+   ],
+   "p1": "A candy land of pastel paths fills this maze. The gingerbread man starts at the green circle, next to a round badge with his number, and a cake waits at the far end. The paths pass stones, and each stone carries a subtraction within 20, such as 15 − 7. Cupcakes, donuts, lollipops, ice cream, candy canes and macarons decorate the land between the paths.",
+   "p2": "The rule is simple to say: step only on the subtractions whose answer is the gingerbread man's number. Every stone on the right road has that answer, and the wrong stones miss it by one or come from a common slip, so a child has to work each one out. Subtracting from teen numbers is where first graders build the strategies they will use for years, such as going back to 10 first. A short number line or counters on the table are a good support for the first few stones.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the gingerbread man over the stones and presses Check, and comes with an answer key showing the right road in colour. In the same family, the giraffe maze practises sums that make 10, and the running-total maze adds and subtracts within 100. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g1428",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Subtraction Maze Within 20 for 1st Grade: Gingerbread Man | Printable PDF",
+   "metaDescription": "Subtraction maze within 20: the gingerbread man may only step on take-aways with his number as the answer, all the way to the cake. Printable PDF, screen, answer key."
+  },
+  {
+   "slug": "beginning-sounds-maze-lion",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Phonics Maze",
+   "h1": "Beginning Sounds Maze: Pictures That Start Like Lion",
+   "strand": "Phonological Awareness",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "A sandy market square seen from above is the setting of this phonics maze. A lion starts at the green circle and a basket waits at the far end. Along the paths sit round cards, each with a picture and no words: fruit, animals, tools and toys. The lion itself is the clue, because the right cards begin the way the word lion begins.",
+   "p2": "The child says the name of each picture aloud and steps only on the pictures that start with the same sound as lion, such as leaf, lemon or llama. The wrong cards start with other sounds, and a few of them have an l later in the word, like koala, so a child who listens only for any l will go wrong. Hearing the first sound of a spoken word is a kindergarten phonological awareness skill that comes before reading, and this page practises it with pictures only, so even children who do not read yet can do it.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the lion over the cards and presses Check (a wrong card is circled in red), and comes with an answer key showing the lion's road in colour. In the same family, the alphabet mazes practise letter order, and the first maze with the puppy is a gentle start for pencil control. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k412",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Beginning Sounds Maze for Kindergarten: Start Like Lion | Printable PDF",
+   "metaDescription": "Beginning sounds maze for kindergarten: say each picture and step only on the ones that start with the same sound as lion, all the way to the basket. PDF, screen, key."
+  },
+  {
+   "slug": "math-maze-2nd-grade-running-total-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Math Maze",
+   "h1": "Math Maze Within 100: Bring the Crane Its Number",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "maze-puzzles",
+    "grade-2"
+   ],
+   "p1": "A building site with dirt roads fills this page. A red dump truck starts at the green circle with a number badge, and a yellow construction crane waits at the other end with its own number. Along the roads stand rounded signs, each with a change such as +10, −5 or +2, and each sign has a small box for writing the new total. Diggers, a cement mixer, a forklift, a bulldozer, logs and rocks fill the site around the roads.",
+   "p2": "The child starts with the truck's number and follows a road, writing the new number in each sign's box as the truck passes it. Only one road ends exactly on the crane's number. That is a running total: a chain of adding and subtracting tens and ones within 100, the mental math second graders practise all year, with each step written down so mistakes are easy to find. Other roads end close to the crane's number, sometimes one or five away, so careless steps show up at the finish.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the truck's road and presses Check, and comes with an answer key showing the right road and every running total. In the same family, the skip-counting maze counts by 5s to 100, and the giraffe maze practises sums that make 10. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-g2393",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Math Maze for 2nd Grade: Add and Subtract Within 100 | Printable PDF",
+   "metaDescription": "Math maze for 2nd grade: the dump truck starts with a number, every sign adds or takes away, and one road ends on the crane's number. PDF, screen version, answer key."
+  },
+  {
+   "slug": "maze-coloring-page-crab-beach",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Maze Coloring Page",
+   "h1": "Maze Coloring Page: The Crab at the Beach",
+   "strand": "Fine Motor & Visual-Spatial",
+   "slotTokens": [
+    "maze-puzzles",
+    "kindergarten"
+   ],
+   "p1": "This beach is drawn in black lines only, ready for crayons. A crab waits at the start, a sandcastle stands at the far end, and a wide road with two outlined edges winds across the sand between them, with a few side turns that stop. Around the road there is a whole beach to color: the sea at the top with a boat and a fish, a palm tree, a parasol, a beach ball, a bucket and a starfish.",
+   "p2": "The page asks for three things in a row. First the child finds the crab's way and draws it. Then the whole road is colored in, from edge to edge, which is careful coloring inside a wide band and good practice for hand control. Last comes the beach picture, colored any way the child likes. Finishing the maze before the picture gives a natural order to the task, and a colored road is a clear way to show the answer.",
+   "p3": "The page prints as a PDF, works as a screen version where the child drags the crab's way and presses Check, and comes with an answer key with the road filled in. In the same family, the first maze with the puppy and the hedgehog orchard maze are drawn in full color. These are picture mazes with a story; square-grid mazes, dot-to-dot and word sorting have their own pages.",
+   "canonicalDeckSlug": "maze-puzzles-k413",
+   "carousel": [
+    {
+     "label": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
+     "href": "picture-maze-hedgehog-apple-tree"
+    },
+    {
+     "label": "My First Maze: Help the Puppy Reach the Ball",
+     "href": "my-first-maze-preschool-puppy-ball"
+    },
+    {
+     "label": "Big Picture Maze: The Orangutan's Way to the Banana Tree",
+     "href": "big-maze-1st-grade-jungle-orangutan"
+    },
+    {
+     "label": "River Maze: Sail the Boat to the Teddy Bear",
+     "href": "river-maze-boat-teddy-bear"
+    }
+   ],
+   "title": "Maze Coloring Page for Kindergarten: Crab at the Beach | Printable PDF",
+   "metaDescription": "A maze coloring page for kindergarten: draw the crab's way to the sandcastle, color the whole road, then color the beach picture. Printable PDF, screen, answer key."
   }
  ]
 }

@@ -144871,6 +144871,834 @@
    ],
    "title": "Rita en fjäril ur minnet – arbetsblad åk 2 | PDF gratis att skriva ut",
    "metaDescription": "Rita en fjäril ur minnet: en liten fjäril på en flik, en streckad viklinje och en stor ruta under. Titta, vik undan förlagan, rita. Arbetsblad i PDF för årskurs 2."
+  },
+  {
+   "slug": "labyrint-for-barn-igelkotten-appeltradet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "En fruktträdgård på hösten fyller den här labyrinten. I ett hörn längst ner väntar en igelkott vid den gröna startcirkeln, och i det motsatta hörnet står ett äppelträd med en liten flagga. Mellan dem slingrar sig ljusa sandstigar genom gräset, delar sig och delar sig igen. Några sidostigar går länge mot trädet innan de plötsligt tar slut, så den som rusar i väg hamnar i en återvändsgränd och får gå tillbaka. På gräsöarna mellan stigarna sitter en mus, en snigel, en nyckelpiga, en fjäril, en svamp och några ängsblommor.",
+   "p2": "Uppgiften är att dra ett enda streck längs stigarna, från igelkotten till äppelträdet. Två saker arbetar tillsammans. Ögonen planerar, de följer en stig för att se vart den leder innan pennan sätter i gång, och handen håller strecket inom en slingrande väg. Det är precis det som övas i förskolan och förskoleklassen: att titta först och göra sedan, och att hålla pennan så stadigt att det senare går att forma bokstäver. Stigarna är så breda att en vaxkrita får plats och svängarna är mjuka, så sidan utmanar uppmärksamheten utan att små händer tappar modet.",
+   "p3": "Varje sida finns som PDF att skriva ut, som skärmversion där barnet drar fingret längs stigen och trycker på Kontrollera, och med ett facit där vägen är färgad. Den är första sidan i en serie med tjugo tecknade labyrinter: en första labyrint för de minsta, en stor djungellabyrint, en flod, gångar under jorden, gator i en stad, djurungar som letar efter sin mamma, trassliga snören och labyrinter som följer alfabetet, talen, räkneuppgifterna och första ljudet. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k405",
+   "carousel": [
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    },
+    {
+     "label": "Labyrint under jorden: hjälp myran genom gångarna",
+     "href": "labyrint-under-jorden-myrans-gangar"
+    }
+   ],
+   "title": "Labyrint för barn att skriva ut: igelkotten och äppelträdet | PDF",
+   "metaDescription": "Labyrint för förskolan: led igelkotten längs de slingrande stigarna i fruktträdgården till äppelträdet. PDF att skriva ut, skärmversion att rita med fingret och facit."
+  },
+  {
+   "slug": "min-forsta-labyrint-forskola-valpen-bollen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Min första labyrint: hjälp valpen till bollen",
+   "strand": "Finmotorik och rumsuppfattning",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Det är med den här labyrinten man börjar. En valp sitter vid den gröna startcirkeln i en park på våren, och hans boll väntar i andra änden av sidan. En mycket bred väg förbinder dem, så bred att en tjock krita får plats, med bara två korta avstickare som snabbt tar slut. Runt vägen är parken full av vänliga bilder: en katt, en fjäril, en fågel, ett blommande körsbärsträd och en tulpan. Sidan ser först ut som en bild att titta på och först sedan som ett pyssel.",
+   "p2": "För ett barn på tre eller fyra år sitter det verkliga arbetet i handen, inte i planeringen. Att hålla strecket mellan två kanter, svänga med vägen och inte gena över gräset bygger den pennkontroll som barnet senare behöver för att följa förskrivna linjer och skriva de första bokstäverna. De två korta avstickarna är ett första litet smakprov på att välja: den som följer en av dem ser direkt att den tar slut och vänder utan att bli besviken. Berätta historien högt, valpen vill ha sin boll, och låt barnet visa vägen först med fingret och sedan med kritan.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar längs vägen och trycker på Kontrollera, och med ett facit där vägen är färgad. När den här sidan har blivit lätt är nästa steg i samma serie igelkottens labyrint i fruktträdgården, flodlabyrinten med sina långa kurvor och labyrinten med djurungarna och tre vägar. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k406",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    },
+    {
+     "label": "Labyrint under jorden: hjälp myran genom gångarna",
+     "href": "labyrint-under-jorden-myrans-gangar"
+    }
+   ],
+   "title": "Min första labyrint för förskolan: valpen och bollen | PDF",
+   "metaDescription": "En första labyrint för förskolan: en mycket bred väg genom parken, bara två korta avstickare, en valp och hans boll. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "stor-labyrint-ak-1-djungeln-orangutangen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Stor labyrint: orangutangens väg till bananträdet",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "En regnskogsbotten full av smala stigar täcker hela sidan. En orangutang startar vid den gröna cirkeln i ett hörn, och ett bananträd väntar i det motsatta hörnet under ett tak av löv. Vägen mellan dem är lång och går fram och tillbaka, och många sidostigar grenar av sig från den. Några är korta, andra går djupt in i djungeln och tar slut först efter flera svängar. En tukan, en papegoja, en sengångare, en groda, palmer och färgglada djungelblommor sitter på öarna mellan stigarna.",
+   "p2": "Den här sidan övar planering, en förmåga som barn i årskurs 1 är redo att utveckla. Instruktionen ber barnet att först titta på hela labyrinten och först därefter rita orangutangens väg. Den som börjar rita direkt hamnar i en djup återvändsgränd, går tillbaka och försöker igen, och det är just poängen: att gå tillbaka lär barnet att ett första val går att kontrollera och ändra. Många barn har nytta av att leta en bit baklänges från bananträdet och sedan knyta ihop de två ändarna.",
+   "p3": "Skriv ut PDF:en, använd skärmversionen där barnet drar längs stigen och kan backa ett steg, eller jämför med facit, som visar den enda rätta vägen i färg. I samma serie är igelkottens labyrint den mildare versionen för förskolan, och stadslabyrinten frågar efter den kortaste av flera vägar i stället för den enda. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1420",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    },
+    {
+     "label": "Labyrint under jorden: hjälp myran genom gångarna",
+     "href": "labyrint-under-jorden-myrans-gangar"
+    }
+   ],
+   "title": "Stor labyrint för åk 1: orangutangen i djungeln | PDF att skriva ut",
+   "metaDescription": "Stor djungellabyrint för åk 1: långa stigar och djupa återvändsgränder, titta först och rita sedan. Orangutangen letar efter bananträdet. PDF med facit."
+  },
+  {
+   "slug": "flodlabyrint-baten-och-nallen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Flodlabyrint: styr båten till nallen",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "I den här labyrinten är vägarna av vatten. En blå bäck slingrar sig genom en grön trädgård, och en leksaksbåt guppar vid den gröna startcirkeln, där bäcken börjar. På andra sidan sitter en nalle på en liten träbrygga och väntar på båten. Bäcken delar sig i sidoarmar som ser lika lockande ut som huvudfåran, men var och en tar slut vid stranden. Längs kanterna syns en groda, en trollslända, en anka, en svan, en sköldpadda och ett träd.",
+   "p2": "Bäcken är ritad med långa, mjuka kurvor i stället för hörn, så barnets streck blir en stor rund rörelse. Det gör sidan till en bra övning för de runda rörelser som kommer före skrivandet av bokstäver som c, o och s, medan sidoarmarna håller labyrintens tänkande vid liv. Barnet styr först båten med fingret och berättar vart vattnet rinner, och drar sedan ett streck som stannar i vattnet, från båten till bryggan.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar båtens väg och trycker på Kontrollera, och med ett facit där vägen genom vattnet är färgad. Den hör till en serie med tjugo tecknade labyrinter; den första labyrinten med valpen är en lättare start, och myrans labyrint under jorden är nästa steg, med gångar på tre nivåer. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k407",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Labyrint under jorden: hjälp myran genom gångarna",
+     "href": "labyrint-under-jorden-myrans-gangar"
+    }
+   ],
+   "title": "Flodlabyrint för barn att skriva ut: båten och nallen | PDF",
+   "metaDescription": "Flodlabyrint för förskolan: följ den blå bäcken och dess sidoarmar till nallen på bryggan. Långa, mjuka kurvor. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "labyrint-under-jorden-myrans-gangar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Labyrint under jorden: hjälp myran genom gångarna",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "Den här sidan visar marken som om den vore uppskuren, som en skiva av en trädgård. Överst står en myra på gräset vid den gröna startcirkeln. Under gräset ligger brun jord i lager, och genom den går gångar på tre nivåer, förbundna med korta schakt som går rakt upp och ner. Längst ner, i det motsatta hörnet, ligger ett hallon i en rund kammare: dit vill myran. I andra små kammare sitter en daggmask, en mångfoting, en skalbagge och en spindel, och några av dem ligger i slutet av gångar som inte leder någon annanstans.",
+   "p2": "Det nya här är uppe och nere. Vägen till hallonet går inte bara nedåt: någonstans måste myran klättra upp genom ett schakt igen innan det går vidare nedåt, och schaktet som ser ut som den snabbaste vägen ner kan sluta i en återvändsgränd. När barnen berättar om sin väg använder de lägesorden de behöver varje dag i årskurs 1: ovanför, under, ner i schaktet, genom mittengången, upp igen. Strecket dras genom gångarna, från myran till hallonet.",
+   "p3": "Skriv ut PDF:en, använd skärmversionen där barnet drar genom gångarna och trycker på Kontrollera, eller jämför med facit, som visar myrans väg i färg. I samma serie är flodlabyrinten en mildare sida för förskolan, och stadslabyrinten gör uppgiften till att hitta den kortaste av flera gator. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1421",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint under jorden för åk 1: myrans gångar | PDF att skriva ut",
+   "metaDescription": "Labyrint under jorden för åk 1: myran går ner och upp genom gångar på tre nivåer till hallonet längst ner. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "stadslabyrint-hitta-kortaste-vagen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Stadslabyrint: hitta kortaste vägen till den gröna bilen",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "En liten stad sedd uppifrån: grå gator går mellan gröna gräskvarter, och längs kanten av kartan står hus, träd, ett garage, en cykel, en sparkcykel och en brevlåda. En bärgningsbil väntar vid den gröna startcirkeln på ena sidan, och en grön bil står parkerad på den andra. Till skillnad från de flesta labyrinter finns här många vägar: gatorna möts om och om igen, och några är avstängda med bommar. Varje gatubit mellan två korsningar har ett runt brunnslock, och remsan under kartan visar en gatubit med lock lika med 1 bredvid en tom ruta.",
+   "p2": "Frågan är inte om man kommer fram till bilen, utan vilken väg som är kortast. Många barn tror att vägen med minst svängar är kortast, och den här sidan är gjord så att en rakare väg är längre. Att räkna avgör: varje lock är en gatubit, så barnet räknar locken längs en väg, jämför vägarna, ritar den kortaste och skriver talet i rutan. Det är riktigt resonerande om längd, så som det börjar i årskurs 1, med en bild i stället för en linjal.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar en väg för bärgningsbilen och trycker på Kontrollera (en längre väg får ledtråden att det finns en kortare), och med ett facit som visar den kortaste vägen och dess tal. I samma serie har den stora djungellabyrinten bara en enda väg, och mattelabyrinten till 100 räknar längs vägen. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1422",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Stadslabyrint för åk 1: hitta kortaste vägen | PDF att skriva ut",
+   "metaDescription": "Stadslabyrint för åk 1: många gator leder till den gröna bilen. Rita kortaste vägen för bärgningsbilen och räkna gatubitarna. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "labyrint-ungarna-hittar-sin-mamma",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Labyrint: hjälp varje djurunge att hitta sin mamma",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Tre djurungar från bondgården står på rad överst på en höäng på sommaren: en kyckling, en kalv och ett föl, var och en vid en numrerad startcirkel. Längre ner väntar tre mammor i runda hagar: en höna, en ko och ett sto. Ingen unge står rakt ovanför sin mamma, så ingen kan bara gå rakt ner. Tre skilda vägar slingrar sig över ängen mellan dem, flätade i varandra som fingrar, och varje väg har sina egna korta avstickare.",
+   "p2": "Den här sidan förenar två saker som barn i förskolan övar. Först parar barnet ihop varje unge med sin mamma, och det är redan en liten lektion i ord om djurfamiljer. Sedan följer barnet vägarna för att ta reda på vilken som verkligen leder varje unge hem. Vägarna rör aldrig varandra, men de går tätt intill varandra över ängen, så ögat måste stanna på en väg från början till slut. Den som tar ungarna en i taget, med en egen färg för varje, håller isär vägarna och kan lätt kontrollera sidan.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar från varje unge till dess mamma (en unge hos fel mamma visas direkt), och med ett facit där varje väg har sin egen färg. I samma serie ber de trassliga snörena barnet att följa linjer genom korsningar, och den första labyrinten med valpen är en lugn start. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k408",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint för förskolan: djurungarna hittar sina mammor | PDF",
+   "metaDescription": "Bondgårdslabyrint för förskolan: kycklingen, kalven och fölet hittar sin egen mamma på tre skilda vägar. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "trassliga-snoren-vems-drake-ar-det",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Trassliga snören: vems drake är det?",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "På en blåsig kulle står fyra djur längst ner på sidan, vart och ett vid en numrerad cirkel: en räv, en tvättbjörn, en ekorre och en grävling. Varje djur håller i ett långt snöre. Högst upp på himlen flyger tre drakar och en röd ballong, med en tom ruta ovanför var och en. På vägen upp korsar de fyra snörena varandra om och om igen, så man kan inte se med en gång vilket djur som håller vilken drake.",
+   "p2": "På den här sidan finns ingenting att välja och inga återvändsgränder: varje snöre leder någonstans. Hela konsten är att följa en linje genom varje korsning utan att hoppa över till en annan. Det är visuell följning, samma arbete för ögonen som en läsare behöver för att hålla sig på raden. Det går bäst med ett finger på snöret, sakta genom varje korsning. När snöret kommer fram till en drake eller ballongen skrivs djurets nummer i rutan ovanför, så att den färdiga sidan visar fyra svar överst.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar längs varje snöre, från djuret till slutet, och med ett facit där varje snöre har sin egen färg och rutorna är ifyllda. I samma serie lägger labyrinten med djurungarna till val vid vägskälen, och den stora djungellabyrinten kräver att man planerar en lång väg. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1423",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Trassliga snören för åk 1: vems drake är det? | PDF att skriva ut",
+   "metaDescription": "Snörpyssel för åk 1: följ fyra snören som korsar varandra, från djuren till tre drakar och en ballong, och skriv numren. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "labyrint-plocka-alla-morotter-kaninen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Plocka alla morötter: hjälp kaninen genom köksträdgården",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "En grön köksträdgård fyller sidan, genomkorsad av stenstigar. En kanin startar vid den gröna cirkeln, och en gul hink väntar på andra sidan. Fyra morötter ligger på stigarna, var och en på en vit cirkel, och remsan under trädgården visar en morot, talet 4 och fyra tomma ringar att bocka av. En snigel, en larv, ett salladshuvud, en pumpa och en vattenkanna finns i gräset. Stigarna sluter sig i slingor, så det finns många sätt att komma till hinken.",
+   "p2": "Att komma till hinken är lätt här; utmaningen är att komma dit med alla fyra morötterna, utan att använda någon stig två gånger. Den kortaste vägen till hinken lämnar morötter kvar, så barnet måste planera en längre väg som går förbi varenda en. Det är planering med flera mål på en gång, ett steg längre än en vanlig labyrint där bara målet räknas. Att bocka av en ring för varje morot som strecket passerar ger en enkel kontroll: fyra bockar och hinken betyder att uppgiften är klar.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar kaninens väg och trycker på Kontrollera (en morot som glömts får en röd ring), och med ett facit som visar den enda vägen som plockar alla morötter. I samma serie vänder isbjörnens labyrint på regeln: där ska barnet undvika saker i stället för att samla dem. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1424",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint för åk 1: plocka alla morötter | PDF att skriva ut",
+   "metaDescription": "Samlarlabyrint för åk 1: kaninen ska till hinken och på vägen förbi alla fyra morötterna, utan att ta samma stig två gånger. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "labyrint-undvik-valrossarna-isbjornen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Labyrintpyssel",
+   "h1": "Undvik valrossarna: hjälp isbjörnen hem utan fara",
+   "strand": "Rumsuppfattning (förberedande)",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "Vita spår går över havsisen i Arktis. En isbjörn startar vid den gröna cirkeln, och en igloo väntar på andra sidan. Flera spår leder till igloon, men på några ligger sovande valrossar, och andra skärs av mörka vakar i isen. Remsan under bilden visar en valross och en vak, båda överkorsade: regeln är tydlig redan innan man läser, ta ingen väg där det finns en valross eller ett hål. En säl, snöflingor och istappar pryder isen.",
+   "p2": "Den snabba vägen till igloon är spärrad, och det är just det sidan handlar om. Barnet måste låta den självklara vägen vara, granska varje spår efter valrossar och vakar och välja den enda väg som är helt fri. Att hålla tillbaka sin första idé och ha en regel i huvudet medan man arbetar är en verklig förmåga i årskurs 1, och labyrinten gör den synlig: man kan peka exakt på den valross som en felaktig väg går över. Strecket dras längs det säkra spåret, från isbjörnen till igloon.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar isbjörnens väg och trycker på Kontrollera (en väg över en valross eller ett hål får en röd ring), och med ett facit som visar det enda säkra spåret. I samma serie vänder kaninens labyrint på regeln och ber barnet att samla alla morötter i stället för att undvika hinder. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1425",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint för åk 1: undvik valrossarna | PDF att skriva ut",
+   "metaDescription": "Isbjörnslabyrint för åk 1: flera spår leder till igloon, men bara ett utan sovande valross och utan vak i isen. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "labyrint-fran-a-till-o-raketen-till-manen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Bokstavslabyrint",
+   "h1": "Labyrint från A till Ö: flyg raketen till månen",
+   "strand": "Bokstavskännedom",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "En natthimmel med planeter, jorden och en komet ramar in den här bokstavslabyrinten. En raket startar vid den gröna cirkeln, och månen väntar högst upp. På stigarna ligger runda vita stenar, och på varje sten står en stor bokstav. Den rätta vägen går förbi hela alfabetet i ordning, från A till Ö, med Å, Ä och Ö sist. Också på de andra stenarna står bokstäver, ofta just sådana som barn blandar ihop: en bokstav som hoppar över en, bokstaven före eller en som liknar den, som E och F eller M och N.",
+   "p2": "Vid varje vägskäl säger barnet alfabetet fram till dit och väljer stenen med nästa stora bokstav. Då blir rabblandet ett användande: att veta vilken bokstav som kommer efter utan att sjunga alfabetssången från början. Eftersom de felaktiga stenarna ligger så nära rätt svar fungerar gissningar sällan; barnet måste kunna ordningen. Att känna igen de stora bokstäverna och deras ordning hör till förskolans och förskoleklassens arbete inför läsningen, och här övas det som en lek.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar raketen från sten till sten och trycker på Kontrollera, och med ett facit som visar vägen från A till Ö i färg. I samma serie gör labyrinten med små bokstäver i havet samma sak med gemener och fällor vid b, d, p och q, och bikakan börjar mitt i alfabetet. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k409",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint från A till Ö: bokstäver i ordning med raketen | PDF",
+   "metaDescription": "Bokstavslabyrint för förskolan: välj vid varje vägskäl stenen med nästa versal, från A till Ö, och flyg raketen till månen. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "labyrint-med-sma-bokstaver-havet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Bokstavslabyrint",
+   "h1": "Labyrint med små bokstäver: simma hem från a till ö",
+   "strand": "Bokstavskännedom",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Under vattnet startar en clownfisk vid den gröna cirkeln och simmar mot en korall i slutet av revet. Hans väg är en kanal av klart vatten med runda bubblor, och i varje bubbla står en liten bokstav. Den rätta vägen går förbi alfabetet med små bokstäver, i ordning, från a till ö. Runt revet syns en bläckfisk, en manet, en sjöstjärna, en krabba, en sjöhäst och sjögräs.",
+   "p2": "Små bokstäver får många nybörjarläsare att snubbla, eftersom flera av dem är spegelbilder: b och d, p och q. Den här labyrinten placerar ut just de fällorna. Där b är nästa bokstav på den rätta vägen väntar ofta ett d på fel väg, så barnet måste titta på formen och inte bara på en rund bokstav med en pinne. Det hjälper att säga varje bokstav högt när man väljer, och att skriva de svåra paren en gång i marginalen innan man börjar.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar clownfisken från bubbla till bubbla och trycker på Kontrollera, och med ett facit som visar vägen från a till ö i färg. I samma serie övar raketlabyrinten de stora bokstäverna, och bikakan frågar efter ordningen från mitten av alfabetet. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k410",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint med små bokstäver från a till ö: havet | PDF att skriva ut",
+   "metaDescription": "Labyrint med små bokstäver: led clownfisken från bubbla till bubbla, från a till ö, förbi fällorna b och d, p och q. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "hoppa-i-bokstavsordning-bikakan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Bokstavslabyrint",
+   "h1": "Hoppa i bokstavsordning: genom björnens bikaka",
+   "strand": "Bokstavskännedom",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "En stor bikaka av sexkantiga rutor fyller sidan, och i varje ruta står en stor bokstav. En björn sitter bredvid en grön startcirkel med en pil som pekar in i den första rutan. Raden börjar inte vid A: den startar någonstans mitt i alfabetet och går ända till Ö, alfabetets sista bokstav, som instruktionen nämner. Också de andra rutorna har bokstäver, ofta grannar i alfabetet, så ett slarvigt hopp leder åt fel håll.",
+   "p2": "Från den första rutan färglägger barnet hela tiden nästa bokstav i alfabetet i en ruta som gränsar till den förra, sedan nästa, och så vidare till sista bokstaven. Att börja i mitten är själva utmaningen: man måste veta vilken bokstav som kommer efter en bokstav utan hjälp av alfabetssången från A. Det är den alfabetskunskap som barn i årskurs 1 behöver för ordlistor, namnlistor och alfabetisk ordning, här övad hopp för hopp. Bara en kedja av rutor som gränsar till varandra fungerar, så den färgade vägen är lätt att kontrollera till sist.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar från ruta till ruta och trycker på Kontrollera, och med ett facit där raden är färglagd. I samma serie övar raketlabyrinten och labyrinten med små bokstäver i havet hela alfabetet från början, med ett val vid varje vägskäl. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1426",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Bokstäver i ordning för åk 1: hoppa genom bikakan | PDF",
+   "metaDescription": "Bokstavspyssel för åk 1: börja vid en bokstav mitt i alfabetet och färglägg hela tiden nästa bokstav i en ruta bredvid, ända till Ö. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "sifferlabyrint-1-20-taget",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Sifferlabyrint",
+   "h1": "Sifferlabyrint 1–20: räkna med tåget till stugan",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Ett litet tåg väntar vid den gröna startcirkeln i en grön dal; vid rälsen står granar, ett rådjur och en kanin, och i slutet av banan väntar en trästuga. Rälsen delar sig om och om igen, och längs den ligger runda stenar, var och en med ett tal. Den rätta vägen går förbi talen från 1 till 20 i ordning. De andra stenarna är fällor: tal som hoppar framåt, tal som går bakåt och tal som kommer igen.",
+   "p2": "Vid varje växel räknar barnet vidare och väljer stenen med nästa tal. Då blir räknandet till 20 mer än en ramsa: barnet måste veta vilket tal som kommer härnäst från vilken punkt som helst, och läsa tvåsiffriga tal noga. Det är mellan 10 och 20 som barnen oftast tar fel, så vid de växlarna lönar det sig att sakta ner och säga varje tal högt. Att räkna högt medan man ritar hjälper också.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar tåget från sten till sten och trycker på Kontrollera, och med ett facit som visar banan från 1 till 20 i färg. I samma serie räknar mattelabyrinten för åk 2 med femsteg till 100, och bokstavslabyrinterna använder bokstäver i stället för tal. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k411",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Sifferlabyrint 1–20 för förskolan: tåget till stugan | PDF",
+   "metaDescription": "Sifferlabyrint från 1 till 20: räkna längs rälsen och välj nästa tal vid varje växel så att det lilla tåget kommer fram till stugan. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "mattelabyrint-ak-2-femsteg-ballongen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Mattelabyrint",
+   "h1": "Mattelabyrint: räkna med femsteg till regnbågen",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-2"
+   ],
+   "p1": "En luftballong stiger från den gröna startcirkeln upp i en morgonhimmel. Dess väg är en gata av moln, och på molnen står tal. Högst upp väntar en regnbåge. Den rätta vägen räknar med femsteg: 5, 10, 15, 20 och så vidare till 100. Ett pappersflygplan, en mås och solen delar på himlen.",
+   "p2": "Att räkna med femsteg hör till årskurs 2, och i den här labyrinten är steget regeln. De flesta felaktiga molnen slutar också på 0 eller 5, så barnet kan inte ta vilket tal som helst som ser rätt ut: de felaktiga molnen hoppar för långt fram, går bakåt eller upprepar ett tal som redan passerats. För att välja måste barnet varje gång lägga 5 till talet på det förra molnet. Att räkna högt medan man ritar, och att kontrollera att varje tal är exakt 5 mer, håller ballongen på rätt kurs till 100.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar ballongen från moln till moln och trycker på Kontrollera, och med ett facit som visar räknevägen i färg. I samma serie räknar sifferlabyrinten från 1 till 20 för förskolan, och mattelabyrinten till 100 räknar plus och minus från skylt till skylt. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g2392",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Mattelabyrint åk 2: räkna med femsteg till 100 | PDF att skriva ut",
+   "metaDescription": "Mattelabyrint för åk 2: hoppa från moln till moln och räkna med femsteg, från 5 till 100, så att luftballongen kommer till regnbågen. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "mattelabyrint-ak-1-tiokamrater",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Mattelabyrint",
+   "h1": "Mattelabyrint: gå bara på uppgifterna som blir 10",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "En dammig savann breder ut sig över sidan. En giraff startar vid den gröna cirkeln, bredvid en rund skylt med talet 10, och ett baobabträd väntar på andra sidan. Stigarna går över platta stenar, och på varje sten står en plusuppgift, som 6 + 4 eller 7 + 4. En zebra, en elefant, en noshörning, en struts, en surikat och en gasell står på slätten runt stigarna.",
+   "p2": "Giraffen får bara gå på stenar där summan är 10. Varje sten på den rätta vägen är ett par tiokamrater, och de felaktiga stenarna ligger nära med 9 eller 11, ofta med ett tal som också finns i ett rätt par, så barnet måste verkligen räkna i stället för att känna igen ett bekant tal. Tiokamraterna är grunden för addition och subtraktion i årskurs 1, eftersom så mycket huvudräkning senare vilar på dem. I början får barnet säga varje uppgift högt eller räkna på fingrarna.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar giraffen över stenarna och trycker på Kontrollera, och med ett facit som visar tiokamraternas väg i färg. I samma serie övar pepparkaksgubbens labyrint minus inom 20, och mattelabyrinten för åk 2 räknar vidare över flera skyltar. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1427",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Mattelabyrint åk 1: tiokamrater | PDF att skriva ut",
+   "metaDescription": "Mattelabyrint för åk 1: giraffen går bara på plusuppgifterna som blir 10; uppgifter som blir 9 eller 11 är fällor. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "mattelabyrint-minus-inom-20-pepparkaksgubben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Mattelabyrint",
+   "h1": "Mattelabyrint: minus inom 20 med pepparkaksgubben",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-1"
+   ],
+   "p1": "Ett godisland med stigar i pastellfärger fyller den här labyrinten. Pepparkaksgubben startar vid den gröna cirkeln, bredvid en rund skylt med hans tal, och en tårta väntar på andra sidan. Stigarna går förbi stenar, och på varje sten står en minusuppgift inom 20, som 15 − 7. Muffins, munkar, klubbor, glassar, polkagrisar och macarons pryder landet mellan stigarna.",
+   "p2": "Regeln är snabbt sagd: gå bara på de minusuppgifter där svaret är pepparkaksgubbens tal. Varje sten på den rätta vägen har det svaret; de felaktiga stenarna ger ett för mycket eller för lite eller kommer från ett vanligt räknefel, så barnet måste räkna ut varenda en. När man drar ifrån tal mellan 10 och 20 bygger barn i årskurs 1 upp strategier som de använder länge, till exempel att först gå tillbaka till 10. En kort tallinje eller knappar på bordet hjälper bra vid de första stenarna.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar pepparkaksgubben över stenarna och trycker på Kontrollera, och med ett facit som visar den rätta vägen i färg. I samma serie övar giraffens labyrint tiokamraterna, och mattelabyrinten för åk 2 räknar plus och minus till 100. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g1428",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Mattelabyrint åk 1: minus inom 20 | PDF att skriva ut",
+   "metaDescription": "Mattelabyrint med minus inom 20: pepparkaksgubben går bara på uppgifter där svaret är hans tal, ända fram till tårtan. PDF att skriva ut, skärmversion och facit."
+  },
+  {
+   "slug": "labyrint-forsta-ljudet-som-lejon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Ljudlabyrint",
+   "h1": "Labyrint första ljudet: bilder som börjar som lejon",
+   "strand": "Fonologisk medvetenhet",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Ett sandigt torg sett uppifrån är platsen för den här ljudlabyrinten. Ett lejon startar vid den gröna cirkeln, och en korg väntar på andra sidan. På stigarna ligger runda kort, var och en med en bild och utan ord: djur, mat och saker från vardagen. Lejonet själv är ledtråden, för de rätta korten börjar som ordet lejon börjar.",
+   "p2": "Barnet säger namnet på varje bild högt och går bara på de bilder som börjar med samma ljud som lejon, som lama, lök eller löv. De felaktiga korten börjar med andra ljud, och några har ett l längre in i ordet, som uggla eller tulpan, så den som letar efter vilket l som helst kommer fel. Att höra första ljudet i ett talat ord är en del av den fonologiska medvetenhet som övas i förskolan och förskoleklassen före läsningen, och den här sidan övar det bara med bilder, så att också barn som ännu inte läser kan vara med.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar lejonet över korten och trycker på Kontrollera (ett felaktigt kort får en röd ring), och med ett facit som visar lejonets väg i färg. I samma serie övar bokstavslabyrinterna alfabetets ordning, och den första labyrinten med valpen är en lugn start för pennkontrollen. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k412",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint första ljudet för förskolan: som lejon | PDF att skriva ut",
+   "metaDescription": "Ljudlabyrint för förskolan: säg namnet på varje bild och gå bara på dem som börjar med samma ljud som lejon, ända fram till korgen. PDF att skriva ut med facit."
+  },
+  {
+   "slug": "mattelabyrint-ak-2-plus-och-minus-till-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Mattelabyrint",
+   "h1": "Mattelabyrint till 100: ge lyftkranen dess tal",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "labyrintpyssel",
+    "ak-2"
+   ],
+   "p1": "En byggarbetsplats med grusvägar fyller sidan. En röd dumper startar vid den gröna cirkeln med ett tal på en skylt, och en gul lyftkran väntar på andra sidan med sitt eget tal. Längs vägarna står rundade skyltar, var och en med en förändring som +10, −5 eller +2, och varje skylt har en liten ruta att skriva det nya svaret i. Grävmaskiner, en betongbil, en gaffeltruck, en bulldozer, stockar och stenar fyller arbetsplatsen runt vägarna.",
+   "p2": "Barnet börjar med dumperns tal, följer en väg och skriver på den vägen det nya talet i rutan vid varje skylt som dumpern passerar. Bara en väg slutar precis på lyftkranens tal. Det är att räkna vidare i en kedja: lägga till och dra ifrån tiotal och ental inom 100, den huvudräkning som övas hela året i årskurs 2, med varje steg nedskrivet så att fel är lätta att hitta. Andra vägar slutar strax intill lyftkranens tal, så ett slarvigt steg syns vid målet.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar dumperns väg och trycker på Kontrollera, och med ett facit som visar den rätta vägen och varje delsvar. I samma serie räknar mattelabyrinten med femsteg till 100, och giraffens labyrint övar tiokamraterna. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-g2393",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Mattelabyrint åk 2: plus och minus till 100 | PDF att skriva ut",
+   "metaDescription": "Mattelabyrint för åk 2: dumpern startar med ett tal, varje skylt lägger till eller drar ifrån, och bara en väg slutar på lyftkranens tal. PDF med facit."
+  },
+  {
+   "slug": "labyrint-att-farglagga-krabban-pa-stranden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Labyrint att färglägga",
+   "h1": "Labyrint att färglägga: krabban på stranden",
+   "strand": "Finmotorik och rumsuppfattning",
+   "slotTokens": [
+    "labyrintpyssel",
+    "forskola"
+   ],
+   "p1": "Den här stranden är ritad bara med svarta linjer, redo för färgpennorna. En krabba väntar vid starten, ett sandslott står på andra sidan, och en bred väg med två kanter slingrar sig över sanden mellan dem, med några avstickare som tar slut. Runt vägen finns en hel strand att färglägga: havet överst med en båt och en fisk, en palm, ett parasoll, en badboll, en hink och en sjöstjärna.",
+   "p2": "Sidan ber om tre saker efter varandra. Först hittar barnet krabbans väg och ritar den. Sedan färgläggs hela vägen, från kant till kant: noggrann färgläggning inom ett brett band, bra för handens kontroll. Sist kommer stranden, färglagd hur barnet vill. Att labyrinten löses före bilden ger uppgiften en naturlig ordning, och en färgad väg visar svaret tydligt. För de yngsta går det bra att först följa vägen med fingret och berätta vart krabban ska, innan pennan kommer fram.",
+   "p3": "Sidan finns som PDF att skriva ut, som skärmversion där barnet drar krabbans väg och trycker på Kontrollera, och med ett facit där vägen är ifylld. I samma serie är den första labyrinten med valpen och igelkottens labyrint i fruktträdgården ritade i färg. Det här är tecknade labyrinter med en berättelse; rutlabyrinter, prick till prick och att ordna ord har egna sidor.",
+   "canonicalDeckSlug": "labyrintpyssel-k413",
+   "carousel": [
+    {
+     "label": "Labyrint för barn: hjälp igelkotten till äppelträdet",
+     "href": "labyrint-for-barn-igelkotten-appeltradet"
+    },
+    {
+     "label": "Min första labyrint: hjälp valpen till bollen",
+     "href": "min-forsta-labyrint-forskola-valpen-bollen"
+    },
+    {
+     "label": "Stor labyrint: orangutangens väg till bananträdet",
+     "href": "stor-labyrint-ak-1-djungeln-orangutangen"
+    },
+    {
+     "label": "Flodlabyrint: styr båten till nallen",
+     "href": "flodlabyrint-baten-och-nallen"
+    }
+   ],
+   "title": "Labyrint att färglägga för förskolan: krabban på stranden | PDF",
+   "metaDescription": "Labyrint att färglägga för förskolan: rita krabbans väg till sandslottet, färglägg hela vägen och sedan stranden. PDF att skriva ut, skärmversion och facit."
   }
  ]
 }

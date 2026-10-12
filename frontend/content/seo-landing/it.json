@@ -137278,6 +137278,834 @@
    ],
    "title": "Disegna una farfalla a memoria, classe seconda | PDF gratis da stampare",
    "metaDescription": "Disegnare una farfalla a memoria: una farfalla piccola su una linguetta, una linea di piega e un grande foglio sotto. Guarda, piega, disegna. PDF classe seconda."
+  },
+  {
+   "slug": "labirinto-per-bambini-riccio-melo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "Un frutteto in autunno riempie questo labirinto. In un angolo in basso, un riccio aspetta nel cerchio verde di partenza; nell'angolo opposto c'è un melo con una bandierina. Tra i due, sentieri di sabbia chiara serpeggiano nell'erba, si dividono e si dividono ancora. Alcuni sentieri laterali corrono a lungo verso l'albero prima di interrompersi di colpo: il bambino che va di fretta finisce in un vicolo cieco e deve tornare indietro. Sulle isole d'erba tra i sentieri ci sono un topolino, una lumaca, una coccinella, una farfalla, un fungo e qualche fiore di campo.",
+   "p2": "Il compito è tracciare un'unica linea lungo i sentieri, dal riccio al melo. Due cose lavorano insieme. Gli occhi pianificano, seguono un sentiero per vedere dove porta prima che la matita si muova, e la mano tiene il tratto dentro un percorso pieno di curve. È proprio ciò che si allena nella scuola dell'infanzia: osservare prima di agire e tenere la matita con la precisione che più avanti servirà per scrivere le lettere. I sentieri sono abbastanza larghi per un pastello a cera e le curve sono dolci, così la scheda sfida l'attenzione senza scoraggiare le mani piccole.",
+   "p3": "Ogni pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il dito lungo il sentiero e tocca Controlla, e con una scheda delle soluzioni in cui il percorso è colorato. È la prima pagina di una serie di venti labirinti illustrati: un primo labirinto per i più piccoli, un grande labirinto nella giungla, un fiume, gallerie sotto terra, le strade di una città, cuccioli che cercano la mamma, fili aggrovigliati e labirinti che seguono l'alfabeto, i numeri, i calcoli e i suoni iniziali. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k405",
+   "carousel": [
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    },
+    {
+     "label": "Labirinto sotterraneo: aiuta la formica nelle sue gallerie",
+     "href": "labirinto-sotterraneo-gallerie-formica"
+    }
+   ],
+   "title": "Labirinto per bambini da stampare: il riccio e il melo | PDF",
+   "metaDescription": "Labirinto per la scuola dell'infanzia: guida il riccio lungo i sentieri del frutteto fino al melo. PDF da stampare, versione a schermo da tracciare col dito e soluzioni."
+  },
+  {
+   "slug": "il-mio-primo-labirinto-infanzia-cagnolino-palla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+   "strand": "Motricità fine e orientamento",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "Si comincia da questo labirinto. Un cagnolino è seduto nel cerchio verde di partenza, in un parco in primavera, e la sua palla lo aspetta dall'altra parte della pagina. Un sentiero larghissimo li unisce, abbastanza largo per un grosso pastello, con solo due brevi deviazioni che finiscono subito. Intorno al sentiero il parco è pieno di figure amiche: un gatto, una farfalla, un uccellino, un ciliegio in fiore e un tulipano. La pagina si guarda prima come un disegno e solo dopo come un gioco da risolvere.",
+   "p2": "Per un bambino di tre o quattro anni il vero lavoro è nella mano, non nella pianificazione. Tenere una linea tra due bordi, girare insieme al sentiero e non tagliare per il prato costruisce il controllo della matita che servirà più avanti per ripassare i tratteggi e scrivere le prime lettere. Le due brevi deviazioni sono il primo assaggio della scelta: chi ne segue una vede subito che finisce e torna indietro senza scoraggiarsi. Raccontate la storia ad alta voce, il cagnolino vuole la sua palla, e lasciate che il bambino mostri il percorso prima con il dito e poi con il pastello.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il dito lungo il sentiero e tocca Controlla, e con una scheda delle soluzioni in cui il percorso è colorato. Quando questa pagina diventa facile, i passi successivi della stessa serie sono il labirinto del riccio nel frutteto, il labirinto del fiume con le sue lunghe curve e il labirinto dei cuccioli con tre sentieri. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k406",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    },
+    {
+     "label": "Labirinto sotterraneo: aiuta la formica nelle sue gallerie",
+     "href": "labirinto-sotterraneo-gallerie-formica"
+    }
+   ],
+   "title": "Il mio primo labirinto per la scuola dell'infanzia: il cagnolino",
+   "metaDescription": "Primo labirinto per bambini di 3 e 4 anni: un sentiero larghissimo nel parco, solo due brevi deviazioni, un cagnolino e la sua palla. PDF da stampare e soluzioni."
+  },
+  {
+   "slug": "labirinto-grande-classe-prima-giungla-orango",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto grande: il percorso dell'orango fino al banano",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Il suolo di una foresta tropicale copre tutta la pagina, pieno di sentieri stretti. Un orango parte dal cerchio verde in un angolo, e un banano lo aspetta nell'angolo opposto, sotto un tetto di foglie. Il percorso tra i due è lungo e va avanti e indietro, e da esso partono molti sentieri laterali. Alcuni sono brevi, altri si addentrano nella giungla e finiscono solo dopo diverse curve. Un tucano, un pappagallo, un bradipo, una rana, delle palme e fiori tropicali occupano le isole tra i sentieri.",
+   "p2": "Questa pagina allena la pianificazione, un'abilità che in classe prima i bambini possono già sviluppare. La consegna chiede di guardare prima tutto il labirinto e solo dopo tracciare il percorso dell'orango. Chi comincia subito a disegnare finisce in un vicolo cieco profondo, torna indietro e riprova, ed è proprio questo il punto: tornare indietro insegna che una prima scelta si può controllare e cambiare. A molti bambini aiuta cercare un breve tratto partendo dal banano e poi unire le due estremità.",
+   "p3": "Stampa il PDF, usa la versione a schermo in cui il bambino fa scorrere il dito lungo il sentiero e può tornare indietro di un passo, oppure confronta con la scheda delle soluzioni, che mostra colorato l'unico percorso giusto. Nella stessa serie, il labirinto del riccio è la versione più dolce per la scuola dell'infanzia, e il labirinto della città chiede la più breve tra diverse strade invece che l'unica. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1420",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    },
+    {
+     "label": "Labirinto sotterraneo: aiuta la formica nelle sue gallerie",
+     "href": "labirinto-sotterraneo-gallerie-formica"
+    }
+   ],
+   "title": "Labirinto grande per la classe prima: l'orango nella giungla | PDF",
+   "metaDescription": "Grande labirinto nella giungla per la classe prima: sentieri lunghi e vicoli ciechi profondi; prima si osserva, poi si traccia. PDF da stampare, schermo e soluzioni."
+  },
+  {
+   "slug": "labirinto-del-fiume-barchetta-orsetto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "In questo labirinto i sentieri sono d'acqua. Un ruscello azzurro serpeggia in un giardino verde, e una barchetta giocattolo galleggia nel cerchio verde di partenza, dove il ruscello comincia. Dall'altra parte un orsetto di peluche è seduto su un piccolo pontile di legno e aspetta la barchetta. Il ruscello si divide in bracci che sembrano invitanti quanto la corrente principale, ma ognuno finisce contro la riva. Lungo le rive si vedono una rana, una libellula, un'anatra, un cigno, una tartaruga e un albero.",
+   "p2": "Il ruscello è disegnato con curve lunghe e morbide invece che con angoli, così la linea del bambino diventa un grande gesto arrotondato. Per questo la pagina è un buon esercizio per i tratti curvi che vengono prima della scrittura di lettere come c, o e s, mentre i bracci del ruscello tengono viva la parte di ragionamento del labirinto. Il bambino guida prima la barchetta con il dito, dicendo dove va l'acqua, e poi traccia una linea che resta nell'acqua, dalla barchetta al pontile.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il percorso della barchetta e tocca Controlla, e con una scheda delle soluzioni in cui il tragitto nell'acqua è colorato. Fa parte di una serie di venti labirinti illustrati; il primo labirinto del cagnolino è un inizio più facile, e il labirinto della formica sotto terra è il passo successivo, con gallerie su tre livelli. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k407",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto sotterraneo: aiuta la formica nelle sue gallerie",
+     "href": "labirinto-sotterraneo-gallerie-formica"
+    }
+   ],
+   "title": "Labirinto del fiume da stampare: la barchetta e l'orsetto | PDF",
+   "metaDescription": "Labirinto del fiume per la scuola dell'infanzia: segui il ruscello azzurro e i suoi bracci fino all'orsetto sul pontile. Curve lunghe e morbide. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-sotterraneo-gallerie-formica",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto sotterraneo: aiuta la formica nelle sue gallerie",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Questa pagina mostra la terra come se fosse stata tagliata, come una fetta di giardino. In alto, una formica sta sull'erba accanto al cerchio verde di partenza. Sotto l'erba, la terra marrone è disposta a strati, e al suo interno corrono gallerie su tre livelli, collegate da brevi pozzi che salgono e scendono dritti. In fondo, nell'angolo opposto, c'è un lampone in una stanza rotonda: è lì che la formica vuole arrivare. In altre stanzette ci sono un lombrico, un millepiedi, uno scarabeo e un ragno, e alcune si trovano alla fine di gallerie che non portano da nessun'altra parte.",
+   "p2": "La novità qui è il sopra e il sotto. Il percorso verso il lampone non scende soltanto: a un certo punto la formica deve risalire un pozzo prima di poter scendere ancora, e il pozzo che sembra la via più veloce per scendere può finire in un vicolo cieco. Raccontando il tragitto, i bambini usano le parole di posizione che adoperano ogni giorno in classe prima: sopra, sotto, scendere nel pozzo, seguire la galleria di mezzo, risalire fino in cima. La linea si traccia nelle gallerie, dalla formica al lampone.",
+   "p3": "Stampa il PDF, usa la versione a schermo in cui il bambino fa scorrere il dito nelle gallerie e tocca Controlla, oppure confronta con la scheda delle soluzioni, che mostra colorato il percorso della formica. Nella stessa serie, il labirinto del fiume è una pagina più dolce per la scuola dell'infanzia, e il labirinto della città trasforma la sfida nella ricerca della strada più breve tra tante. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1421",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto sotterraneo per la classe prima: le gallerie della formica",
+   "metaDescription": "Labirinto sotterraneo per la classe prima: la formica scende e risale nelle gallerie su tre livelli fino al lampone in fondo. PDF da stampare, schermo e soluzioni."
+  },
+  {
+   "slug": "labirinto-della-citta-strada-piu-breve",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto della città: trova la strada più breve",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Una piccola città vista dall'alto: strade grigie passano tra isolati di prato verde, e ai bordi della mappa ci sono case, alberi, un garage, una bicicletta, un monopattino e una cassetta della posta. Un carro attrezzi aspetta nel cerchio verde di partenza da una parte, e una macchina verde è parcheggiata dall'altra. A differenza della maggior parte dei labirinti, questo ha molte strade possibili: le vie si incontrano di continuo e alcune sono chiuse da transenne. Ogni tratto di strada tra due incroci ha un tombino rotondo, e la striscia sotto la mappa mostra un tratto con il suo tombino uguale a 1, accanto a una casella vuota.",
+   "p2": "La domanda non è se si può arrivare alla macchina, ma quale strada è la più breve. Molti bambini pensano che la strada con meno curve sia la più breve, e questa pagina è costruita in modo che una strada più dritta sia più lunga. Contare risolve il dubbio: ogni tombino è un tratto di strada, quindi il bambino conta i tombini lungo un percorso, confronta i percorsi, traccia il più breve e scrive il suo numero nella casella. È un vero ragionamento sulle lunghezze, come si comincia a fare in classe prima, con un disegno al posto del righello.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino traccia una strada per il carro attrezzi e tocca Controlla (se il percorso è più lungo arriva il suggerimento che ne esiste uno più breve), e con una scheda delle soluzioni che mostra la strada più breve e il suo numero. Nella stessa serie, il grande labirinto della giungla ha un solo percorso, e il labirinto matematico entro il 100 calcola lungo la strada. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1422",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto della città per la classe prima: la strada più breve | PDF",
+   "metaDescription": "Labirinto della città per la classe prima: molte strade portano alla macchina verde. Traccia la più breve per il carro attrezzi e conta i tratti di strada."
+  },
+  {
+   "slug": "labirinto-cuccioli-e-mamme-fattoria",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Labirinto dei cuccioli: aiuta ogni cucciolo a trovare la sua mamma",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "Tre cuccioli della fattoria sono in fila in cima a un campo di fieno d'estate: un pulcino, un vitellino e un puledro, ognuno accanto a un cerchio di partenza numerato. Più in basso tre mamme aspettano in recinti rotondi: una gallina, una mucca e una cavalla. Nessun cucciolo si trova proprio sopra la sua mamma, quindi nessuno può semplicemente scendere dritto. Tre sentieri separati serpeggiano nel campo tra loro, intrecciati come dita, e ognuno ha le sue piccole deviazioni.",
+   "p2": "Questa pagina unisce due apprendimenti della scuola dell'infanzia. Prima il bambino abbina ogni cucciolo alla sua mamma, che è già una piccola lezione di lessico sulle famiglie degli animali. Poi segue i sentieri per scoprire quale riporta davvero ogni cucciolo a casa. I sentieri non si toccano mai, ma corrono vicini attraverso il campo, perciò lo sguardo deve restare su un solo sentiero dall'inizio alla fine. Fare i tre cuccioli uno dopo l'altro, con un colore diverso per ciascuno, tiene separati i percorsi e rende facile il controllo.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il dito da ogni cucciolo alla sua mamma (un cucciolo arrivato dalla mamma sbagliata viene segnalato subito), e con una scheda delle soluzioni in cui ogni percorso ha il suo colore. Nella stessa serie, i fili aggrovigliati chiedono di seguire linee attraverso gli incroci, e il primo labirinto del cagnolino è un inizio molto dolce. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k408",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto per la scuola dell'infanzia: i cuccioli e le loro mamme",
+   "metaDescription": "Labirinto della fattoria per la scuola dell'infanzia: il pulcino, il vitellino e il puledro trovano la mamma lungo tre sentieri separati. PDF da stampare e soluzioni."
+  },
+  {
+   "slug": "fili-aggrovigliati-di-chi-e-l-aquilone",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Fili aggrovigliati: di chi è l'aquilone?",
+   "strand": "Percezione visiva",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Su una collina ventosa, quattro animali stanno in fondo alla pagina, ognuno accanto a un cerchio numerato: una volpe, un procione, uno scoiattolo e un tasso. Ognuno tiene un lungo filo. In alto, nel cielo, volano tre aquiloni e un palloncino rosso, con una casella vuota sopra ciascuno. Salendo, i quattro fili si incrociano più e più volte, così non si capisce a colpo d'occhio quale animale tiene quale aquilone.",
+   "p2": "In questa pagina non c'è niente da scegliere e non ci sono vicoli ciechi: ogni filo porta da qualche parte. Tutta la sfida sta nel seguire una linea a ogni incrocio senza saltare su un'altra. È l'inseguimento visivo, lo stesso lavoro degli occhi che serve a chi legge per non perdere la riga. I bambini riescono meglio con un dito sul filo, avanzando piano a ogni incrocio. Quando il filo arriva a un aquilone o al palloncino, il numero dell'animale va nella casella sopra, e la pagina finita mostra quattro risposte in alto.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il dito lungo ogni filo, dall'animale fino alla fine, e con una scheda delle soluzioni in cui ogni filo ha il suo colore e le caselle sono compilate. Nella stessa serie, il labirinto dei cuccioli aggiunge scelte agli incroci, e il grande labirinto della giungla chiede di pianificare un percorso lungo. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1423",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Fili aggrovigliati per la classe prima: di chi è l'aquilone? | PDF",
+   "metaDescription": "Gioco dei fili aggrovigliati per la classe prima: segui quattro fili che si incrociano, dagli animali a tre aquiloni e un palloncino, e scrivi i numeri. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-raccogli-tutte-le-carote-coniglio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Raccogli tutte le carote: aiuta il coniglio nell'orto",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Un orto verde riempie questa pagina, attraversato da vialetti di pietra. Un coniglio parte dal cerchio verde e un secchiello giallo lo aspetta dall'altra parte. Quattro carote sono sui vialetti, ognuna in un cerchio bianco, e la striscia sotto l'orto mostra una carota, il numero 4 e quattro cerchi vuoti da spuntare. Una lumaca, un bruco, un cespo di lattuga, una zucca e un annaffiatoio stanno nell'erba. I vialetti si ricongiungono ad anello, quindi ci sono molti modi per arrivare al secchiello.",
+   "p2": "Arrivare al secchiello è facile; la sfida è arrivarci con tutte e quattro le carote, senza passare due volte per lo stesso vialetto. La strada più breve verso il secchiello lascia indietro delle carote, quindi il bambino deve pianificare un percorso più lungo che passi da ognuna. È pianificare con più obiettivi insieme, un passo oltre un labirinto normale in cui conta solo l'arrivo. Spuntare un cerchio per ogni carota raggiunta offre un controllo semplice: quattro segni e il secchiello vogliono dire lavoro finito.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino traccia il percorso del coniglio e tocca Controlla (una carota dimenticata viene cerchiata di rosso), e con una scheda delle soluzioni che mostra l'unico percorso che raccoglie tutte le carote. Nella stessa serie, il labirinto dell'orso polare capovolge la regola: lì bisogna evitare le cose invece di raccoglierle. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1424",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto per la classe prima: raccogli tutte le carote | PDF",
+   "metaDescription": "Labirinto per raccogliere, classe prima: il coniglio deve arrivare al secchiello passando per tutte e quattro le carote, senza ripetere un sentiero. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-evita-i-trichechi-orso-polare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Percorsi e labirinti",
+   "h1": "Evita i trichechi: riporta a casa l'orso polare",
+   "strand": "Orientamento spaziale",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Piste bianche attraversano il ghiaccio del mare Artico. Un orso polare parte dal cerchio verde e un igloo lo aspetta dall'altra parte. Diverse piste arrivano all'igloo, ma su alcune dormono dei trichechi, e altre sono interrotte da buchi scuri nel ghiaccio. La striscia sotto il disegno mostra un tricheco e un buco, entrambi barrati: la regola è chiara ancora prima di leggere, non prendere nessuna strada con un tricheco o un buco. Una foca, fiocchi di neve e ghiaccioli decorano il ghiaccio.",
+   "p2": "La via veloce verso l'igloo è bloccata, ed è proprio questo il senso della pagina. Il bambino deve mettere da parte la strada più ovvia, controllare ogni pista in cerca di trichechi e buchi e scegliere l'unico percorso del tutto libero. Frenare il primo impulso e tenere a mente una regola mentre si lavora è una vera abilità della classe prima, e il labirinto la rende visibile: si può indicare con il dito il tricheco preciso sopra cui passa una strada sbagliata. La linea si traccia lungo la pista sicura, dall'orso all'igloo.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino traccia il percorso dell'orso e tocca Controlla (una strada che passa da un tricheco o da un buco viene cerchiata di rosso), e con una scheda delle soluzioni che mostra l'unica pista sicura. Nella stessa serie, il labirinto del coniglio capovolge la regola e chiede di raccogliere tutte le carote invece di evitare ostacoli. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1425",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto per la classe prima: evita i trichechi | PDF da stampare",
+   "metaDescription": "Labirinto dell'orso polare per la classe prima: diverse piste arrivano all'igloo, ma una sola è senza trichechi addormentati e senza buchi nel ghiaccio. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-dell-alfabeto-razzo-luna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto dell'alfabeto",
+   "h1": "Labirinto dell'alfabeto: vola verso la luna dalla A alla Z",
+   "strand": "Lettere e alfabeto",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Un cielo notturno con pianeti, la Terra e una cometa fa da cornice a questo labirinto delle lettere. Un razzo parte dal cerchio verde e la luna aspetta in alto. Sui sentieri ci sono pietre bianche rotonde, e su ogni pietra c'è una lettera maiuscola. Il percorso giusto passa per tutto l'alfabeto italiano in ordine, dalla A alla Z, ventuno lettere senza J, K, W, X e Y. Anche le altre pietre portano lettere, spesso quelle che i bambini confondono: una lettera che ne salta una, la lettera precedente oppure una lettera simile, come E e F o M e N.",
+   "p2": "A ogni bivio il bambino recita l'alfabeto fin lì e sceglie la pietra con la maiuscola successiva. Così recitare diventa usare: sapere quale lettera viene dopo senza cantare la filastrocca dall'inizio. Poiché le pietre sbagliate sono trappole vicine, tirare a indovinare funziona di rado; bisogna conoscere l'ordine. Riconoscere le lettere maiuscole e il loro ordine è uno dei primi passi verso la lettura previsti dalle Indicazioni nazionali, e qui si allena come un gioco.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta il razzo di pietra in pietra e tocca Controlla, e con una scheda delle soluzioni che mostra colorato il percorso dalla A alla Z. Nella stessa serie, il labirinto delle minuscole nel mare fa lo stesso con le lettere piccole e le trappole b, d, p e q, e il gioco del favo comincia a metà dell'alfabeto. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k409",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto dell'alfabeto dalla A alla Z: il razzo verso la luna | PDF",
+   "metaDescription": "Labirinto dell'alfabeto per la classe prima: a ogni bivio scegli la pietra con la lettera maiuscola successiva, dalla A alla Z, e porta il razzo sulla luna. PDF."
+  },
+  {
+   "slug": "labirinto-delle-lettere-minuscole-mare",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto dell'alfabeto",
+   "h1": "Labirinto delle lettere minuscole: nuota verso casa dalla a alla z",
+   "strand": "Lettere e alfabeto",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Sott'acqua, un pesce pagliaccio parte dal cerchio verde e nuota verso un corallo alla fine della barriera. Il suo percorso è un canale d'acqua limpida con bolle rotonde, e in ogni bolla c'è una lettera minuscola. Il percorso giusto passa per l'alfabeto in minuscolo, in ordine, dalla a alla z. Intorno alla barriera si vedono un polpo, una medusa, una stella marina, un granchio, un cavalluccio marino e delle alghe.",
+   "p2": "Le minuscole fanno inciampare molti bambini che imparano a leggere, perché diverse sono lettere a specchio: b e d, p e q. Questo labirinto mette proprio queste trappole. Dove la b è la lettera successiva sul percorso giusto, spesso una d aspetta su quello sbagliato, così il bambino deve guardare la forma e non solo una lettera tonda con un'asta. Aiuta dire ogni lettera ad alta voce mentre si sceglie, e scrivere una volta le coppie difficili sul margine prima di cominciare.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta il pesce pagliaccio di bolla in bolla e tocca Controlla, e con una scheda delle soluzioni che mostra colorato il percorso dalla a alla z. Nella stessa serie, il labirinto del razzo allena le maiuscole, e il gioco del favo chiede l'ordine a partire da metà alfabeto. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k410",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto delle lettere minuscole dalla a alla z: il mare | PDF",
+   "metaDescription": "Labirinto delle minuscole per la classe prima: guida il pesce pagliaccio di bolla in bolla, dalla a alla z, senza cadere nelle trappole b e d, p e q. PDF e soluzioni."
+  },
+  {
+   "slug": "salta-le-lettere-in-ordine-favo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto dell'alfabeto",
+   "h1": "Salta le lettere in ordine: attraversa il favo dell'orso",
+   "strand": "Lettere e alfabeto",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Un grande favo di celle esagonali riempie questa pagina, e in ogni cella c'è una lettera maiuscola. Un orso è seduto accanto a un cerchio verde di partenza con una freccia che indica la prima cella. La serie non comincia dalla A: parte da qualche punto a metà alfabeto, e la consegna dice in quale lettera finisce. Anche le altre celle contengono lettere, molte delle quali vicine nell'alfabeto, quindi un salto distratto porta nella direzione sbagliata.",
+   "p2": "Dalla prima cella il bambino colora ogni volta la lettera successiva dell'alfabeto in una cella che tocca la precedente, poi quella dopo, e così fino all'ultima lettera. Partire a metà è proprio la sfida: bisogna sapere quale lettera viene dopo senza l'aiuto della filastrocca dalla A. È la conoscenza dell'alfabeto che in classe prima serve per il vocabolario, gli elenchi dei nomi e l'ordine alfabetico, allenata qui salto dopo salto. Solo una catena di celle vicine funziona, quindi alla fine il percorso colorato si controlla facilmente.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino fa scorrere il dito di cella in cella e tocca Controlla, e con una scheda delle soluzioni in cui la serie è colorata. Nella stessa serie, il labirinto del razzo e quello delle minuscole nel mare allenano tutto l'alfabeto dall'inizio, con una scelta a ogni bivio. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1426",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Ordine alfabetico per la classe prima: salta le lettere nel favo",
+   "metaDescription": "Labirinto dell'ordine alfabetico per la classe prima: parti da una lettera a metà alfabeto e colora la lettera successiva in una cella vicina. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-dei-numeri-da-1-a-20-trenino",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto dei numeri",
+   "h1": "Labirinto dei numeri da 1 a 20: conta con il trenino",
+   "strand": "Numeri",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Un trenino aspetta nel cerchio verde di partenza in una valle verde; accanto ai binari ci sono abeti, un capriolo e un coniglio, e una baita di legno aspetta alla fine della linea. I binari si dividono più e più volte, e lungo di essi ci sono pietre rotonde, ognuna con un numero. Il percorso giusto passa per i numeri da 1 a 20 in ordine. Le altre pietre sono trappole: numeri che saltano avanti, numeri che tornano indietro e numeri che si ripetono.",
+   "p2": "A ogni scambio il bambino continua a contare e sceglie la pietra con il numero successivo. Così contare fino a 20 diventa più di una filastrocca: bisogna sapere quale numero viene dopo partendo da qualsiasi punto e leggere con attenzione i numeri a due cifre. È tra 10 e 20 che i bambini sbagliano più spesso; per questo conviene rallentare a quegli scambi e dire ogni numero ad alta voce. Contare a voce alta mentre si traccia aiuta.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta il trenino di pietra in pietra e tocca Controlla, e con una scheda delle soluzioni che mostra colorata la linea da 1 a 20. Nella stessa serie, il labirinto matematico conta di 5 in 5 fino a 100, e i labirinti dell'alfabeto usano le lettere al posto dei numeri. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k411",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto dei numeri da 1 a 20 per la classe prima: il trenino | PDF",
+   "metaDescription": "Labirinto dei numeri da 1 a 20: conta lungo i binari e scegli il numero successivo a ogni scambio per portare il trenino fino alla baita. PDF da stampare e soluzioni."
+  },
+  {
+   "slug": "labirinto-matematico-conta-di-5-in-5-mongolfiera",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Labirinto matematico",
+   "h1": "Labirinto matematico: conta di 5 in 5 fino all'arcobaleno",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-seconda"
+   ],
+   "p1": "Una mongolfiera sale dal cerchio verde di partenza in un cielo all'alba. La sua strada è una via di nuvole, e sulle nuvole sono scritti dei numeri. In alto aspetta un arcobaleno. Il percorso giusto conta di 5 in 5: 5, 10, 15, 20 e così via fino a 100. Un aeroplanino di carta, un gabbiano e il sole si dividono il cielo.",
+   "p2": "Contare di 5 in 5 è un apprendimento della classe seconda, e in questo labirinto il salto è la regola. Anche la maggior parte delle nuvole sbagliate finisce con 0 o con 5, quindi il bambino non può prendere un numero qualsiasi che sembri giusto: le nuvole sbagliate saltano troppo avanti, tornano indietro o ripetono un numero già superato. Per scegliere bisogna aggiungere 5 al numero dell'ultima nuvola ogni volta. Contare ad alta voce mentre si traccia, e verificare che ogni numero sia esattamente 5 in più, tiene la mongolfiera sulla rotta fino a 100.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta la mongolfiera di nuvola in nuvola e tocca Controlla, e con una scheda delle soluzioni che mostra colorato il percorso del conteggio. Nella stessa serie, il labirinto dei numeri conta da 1 a 20, e il labirinto entro il 100 somma e sottrae di cartello in cartello. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g2392",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto matematico classe seconda: conta di 5 in 5 fino a 100",
+   "metaDescription": "Labirinto matematico per la classe seconda: salta di nuvola in nuvola contando di 5 in 5, da 5 a 100, e porta la mongolfiera all'arcobaleno. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-matematico-classe-prima-amici-del-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto matematico",
+   "h1": "Labirinto matematico: cammina solo sulle somme che fanno 10",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Una savana polverosa si stende sulla pagina. Una giraffa parte dal cerchio verde, accanto a un tondo con il numero 10, e un baobab la aspetta dall'altra parte. Le piste passano su pietre piatte, e su ogni pietra c'è un'addizione come 6 + 4 o 7 + 4. Una zebra, un elefante, un rinoceronte, uno struzzo, un suricato e una gazzella stanno nella pianura intorno alle piste.",
+   "p2": "La giraffa può camminare solo sulle pietre la cui somma fa 10. Ogni pietra del percorso giusto è una coppia di amici del 10, e le pietre sbagliate sono trappole vicine che fanno 9 o 11, spesso con un numero in comune con una coppia giusta, così il bambino deve davvero calcolare invece di riconoscere un numero noto. Gli amici del 10 sono la base dell'addizione e della sottrazione in classe prima, perché gran parte del calcolo mentale che segue si appoggia su di loro. All'inizio il bambino può dire ogni somma ad alta voce o contare sulle dita.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta la giraffa sulle pietre e tocca Controlla, e con una scheda delle soluzioni che mostra colorato il percorso degli amici del 10. Nella stessa serie, il labirinto dell'omino di pan di zenzero allena le sottrazioni entro il 20, e il labirinto della classe seconda tiene un conto lungo diversi cartelli. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1427",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto matematico classe prima: gli amici del 10 | PDF",
+   "metaDescription": "Labirinto matematico per la classe prima: la giraffa cammina solo sulle somme che fanno 10; quelle che fanno 9 o 11 sono trappole. PDF da stampare, schermo e soluzioni."
+  },
+  {
+   "slug": "labirinto-delle-sottrazioni-entro-il-20-pan-di-zenzero",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Labirinto matematico",
+   "h1": "Labirinto delle sottrazioni entro il 20: aiuta l'omino di pan di zenzero",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-prima"
+   ],
+   "p1": "Un paese dei dolci con sentieri color pastello riempie questo labirinto. L'omino di pan di zenzero parte dal cerchio verde, accanto a un tondo con il suo numero, e una torta lo aspetta dall'altra parte. I sentieri passano su pietre, e su ogni pietra c'è una sottrazione entro il 20, come 15 − 7. Cupcake, ciambelle, lecca-lecca, gelati, bastoncini di zucchero e macaron decorano il paese tra i sentieri.",
+   "p2": "La regola si dice in fretta: cammina solo sulle sottrazioni che hanno come risultato il numero dell'omino. Ogni pietra del percorso giusto dà quel risultato; quelle sbagliate danno uno in più o in meno o nascono da un errore comune, così il bambino deve risolverle tutte. È sottraendo da numeri tra 10 e 20 che in classe prima si costruiscono le strategie che servono per anni, come tornare prima al 10. Una breve linea dei numeri o dei gettoni sul banco aiutano molto per le prime pietre.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta l'omino sulle pietre e tocca Controlla, e con una scheda delle soluzioni che mostra colorato il percorso giusto. Nella stessa serie, il labirinto della giraffa allena gli amici del 10, e il labirinto della classe seconda somma e sottrae entro il 100. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g1428",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto delle sottrazioni entro il 20 per la classe prima | PDF",
+   "metaDescription": "Labirinto delle sottrazioni entro il 20: l'omino di pan di zenzero cammina solo sui calcoli che hanno come risultato il suo numero, fino alla torta. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-dei-suoni-iniziali-come-leone",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Labirinto dei suoni",
+   "h1": "Labirinto dei suoni iniziali: le figure che iniziano come leone",
+   "strand": "Consapevolezza fonologica",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "Una piazza del mercato color sabbia vista dall'alto è lo scenario di questo labirinto dei suoni. Un leone parte dal cerchio verde e un cesto lo aspetta dall'altra parte. Sui sentieri ci sono carte rotonde, ognuna con una figura e nessuna parola: animali, frutta e oggetti di tutti i giorni. Il leone stesso è l'indizio, perché le carte giuste iniziano come inizia la parola leone.",
+   "p2": "Il bambino dice ad alta voce il nome di ogni figura e cammina solo sulle figure che iniziano con lo stesso suono di leone, come lumaca, limone o latte. Le carte sbagliate iniziano con altri suoni, e alcune hanno una l più avanti nella parola, come cammello o gallo: chi cerca una l qualsiasi sbaglia strada. Sentire il suono iniziale di una parola detta ad alta voce è un'abilità di consapevolezza fonologica che si allena nella scuola dell'infanzia prima della lettura, e questa pagina la allena solo con figure, così possono giocare anche i bambini che non leggono ancora.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino porta il leone sulle carte e tocca Controlla (una carta sbagliata viene cerchiata di rosso), e con una scheda delle soluzioni che mostra colorato il percorso del leone. Nella stessa serie, i labirinti dell'alfabeto allenano l'ordine delle lettere, e il primo labirinto del cagnolino è un inizio dolce per il controllo della matita. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k412",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto dei suoni iniziali per la scuola dell'infanzia: come leone",
+   "metaDescription": "Labirinto dei suoni iniziali per la scuola dell'infanzia: di' il nome di ogni figura e cammina solo su quelle che iniziano come leone, fino al cesto. PDF e soluzioni."
+  },
+  {
+   "slug": "labirinto-matematico-classe-seconda-entro-il-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Labirinto matematico",
+   "h1": "Labirinto matematico entro il 100: porta alla gru il suo numero",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "classe-seconda"
+   ],
+   "p1": "Un cantiere con strade sterrate riempie questa pagina. Un camion ribaltabile rosso parte dal cerchio verde con un numero, e una gru gialla aspetta dall'altra parte con il suo numero. Lungo le strade ci sono cartelli arrotondati, ognuno con un cambiamento come +10, −5 o +2, e ogni cartello ha una piccola casella per scrivere il nuovo risultato. Escavatori, una betoniera, un muletto, un bulldozer, tronchi e rocce riempiono il cantiere intorno alle strade.",
+   "p2": "Il bambino parte dal numero del camion, segue una strada e, su quella strada, scrive il nuovo numero nella casella di ogni cartello davanti a cui passa il camion. Una sola strada arriva esattamente al numero della gru. È un calcolo a catena: aggiungere e togliere decine e unità entro il 100, il calcolo mentale che si allena tutto l'anno in classe seconda, con ogni passaggio scritto perché gli errori si trovino facilmente. Altre strade arrivano molto vicino al numero della gru, così un passaggio fatto di fretta si vede all'arrivo.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino traccia la strada del camion e tocca Controlla, e con una scheda delle soluzioni che mostra la strada giusta e ogni risultato. Nella stessa serie, il labirinto matematico conta di 5 in 5 fino a 100, e il labirinto della giraffa allena gli amici del 10. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-g2393",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto matematico classe seconda: addizioni e sottrazioni | PDF",
+   "metaDescription": "Labirinto matematico per la classe seconda: il camion ribaltabile parte da un numero, ogni cartello aggiunge o toglie, e una sola strada arriva al numero della gru."
+  },
+  {
+   "slug": "labirinto-da-colorare-granchio-spiaggia",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Labirinto da colorare",
+   "h1": "Labirinto da colorare: il granchio in spiaggia",
+   "strand": "Motricità fine e orientamento",
+   "slotTokens": [
+    "percorsi-e-labirinti",
+    "infanzia"
+   ],
+   "p1": "Questa spiaggia è disegnata solo con linee nere, pronta per le matite colorate. Un granchio aspetta alla partenza, un castello di sabbia sta dall'altra parte, e una strada larga con due bordi serpeggia sulla sabbia tra i due, con alcune deviazioni che finiscono. Intorno alla strada c'è un'intera spiaggia da colorare: il mare in alto con una barca e un pesce, una palma, un ombrellone, un pallone da spiaggia, un secchiello e una stella marina.",
+   "p2": "La pagina chiede tre cose, una dopo l'altra. Prima il bambino trova la strada del granchio e la traccia. Poi colora tutta la strada, da un bordo all'altro: una coloritura accurata dentro una fascia larga, ottima per il controllo della mano. Per ultima viene la spiaggia, colorata come il bambino preferisce. Risolvere il labirinto prima del disegno dà un ordine naturale al compito, e una strada colorata mostra chiaramente la risposta.",
+   "p3": "La pagina è disponibile in PDF da stampare, in una versione a schermo in cui il bambino traccia la strada del granchio e tocca Controlla, e con una scheda delle soluzioni in cui la strada è riempita. Nella stessa serie, il primo labirinto del cagnolino e il labirinto del riccio nel frutteto sono disegnati a colori. Sono labirinti illustrati che raccontano una storia; i labirinti a griglia, i giochi unisci i puntini e l'ordine delle parole hanno pagine proprie.",
+   "canonicalDeckSlug": "percorsi-e-labirinti-k413",
+   "carousel": [
+    {
+     "label": "Labirinto per bambini: aiuta il riccio ad arrivare al melo",
+     "href": "labirinto-per-bambini-riccio-melo"
+    },
+    {
+     "label": "Il mio primo labirinto: aiuta il cagnolino ad arrivare alla palla",
+     "href": "il-mio-primo-labirinto-infanzia-cagnolino-palla"
+    },
+    {
+     "label": "Labirinto grande: il percorso dell'orango fino al banano",
+     "href": "labirinto-grande-classe-prima-giungla-orango"
+    },
+    {
+     "label": "Labirinto del fiume: porta la barchetta fino all'orsetto",
+     "href": "labirinto-del-fiume-barchetta-orsetto"
+    }
+   ],
+   "title": "Labirinto da colorare per la scuola dell'infanzia: il granchio",
+   "metaDescription": "Labirinto da colorare per la scuola dell'infanzia: traccia la strada del granchio fino al castello di sabbia, colora tutta la strada e poi la spiaggia. PDF e soluzioni."
   }
  ]
 }

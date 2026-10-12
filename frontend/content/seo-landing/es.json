@@ -121913,6 +121913,834 @@
    ],
    "title": "Dibuja una mariposa de memoria, segundo grado | PDF gratis para imprimir",
    "metaDescription": "Dibujar una mariposa de memoria: una mariposa pequeña en una solapa, una línea para doblar y un papel grande abajo. Mira, dobla, dibuja. PDF segundo grado."
+  },
+  {
+   "slug": "laberinto-para-ninos-erizo-manzano",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "base",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Un huerto en otoño llena este laberinto. En una esquina de abajo, un erizo espera en el círculo verde de salida; en la esquina contraria está un manzano con una banderita. Entre los dos, caminos de arena clara serpentean por el pasto, se dividen y se vuelven a dividir. Algunos caminos laterales avanzan mucho hacia el árbol antes de cortarse de golpe: el niño que se apresura llega a un callejón sin salida y tiene que regresar. En las islas de pasto entre los caminos hay un ratón, un caracol, una catarina, una mariposa, un hongo y algunas flores del campo.",
+   "p2": "La tarea es trazar una sola línea por los caminos, del erizo al manzano. Ahí trabajan dos cosas a la vez. Los ojos planean, siguen un camino para ver a dónde lleva antes de que el lápiz avance, y la mano mantiene el trazo dentro de un camino lleno de curvas. Es justo lo que se trabaja en preescolar: observar antes de actuar y sostener el lápiz con la precisión que después necesitarán para escribir letras. Los caminos son tan anchos que cabe una crayola y las curvas son suaves, así que la hoja reta la atención sin frustrar a las manos pequeñas.",
+   "p3": "Cada hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el dedo por el camino y toca Revisar, y con una hoja de respuestas donde el camino aparece en color. Es la primera hoja de una serie de veinte laberintos ilustrados: un primer laberinto para los más pequeños, un laberinto grande en la selva, un río, túneles bajo tierra, las calles de una ciudad, crías que buscan a su mamá, hilos enredados y laberintos que siguen el abecedario, los números, las sumas y los sonidos iniciales. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k405",
+   "carousel": [
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    },
+    {
+     "label": "Laberinto bajo tierra: ayuda a la hormiga por sus túneles",
+     "href": "laberinto-bajo-tierra-tuneles-hormiga"
+    }
+   ],
+   "title": "Laberinto para niños de preescolar: el erizo y el manzano | PDF",
+   "metaDescription": "Laberinto para preescolar: guía al erizo por los caminos del huerto hasta el manzano. PDF para imprimir, con versión en pantalla para trazar con el dedo y respuestas."
+  },
+  {
+   "slug": "mi-primer-laberinto-preescolar-perrito-pelota",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "my-first-maze",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Con este laberinto se empieza. Un perrito está sentado en el círculo verde de salida, en un parque en primavera, y su pelota lo espera al otro lado de la hoja. Un camino muy ancho los une, tan ancho que cabe una crayola gruesa, con solo dos vueltas cortas que se acaban pronto. Alrededor del camino, el parque está lleno de dibujos amigables: un gato, una mariposa, un pajarito, un cerezo en flor y un tulipán. La hoja se mira primero como un dibujo y después como un acertijo.",
+   "p2": "Para un niño de tres o cuatro años, el verdadero trabajo está en la mano, no en planear. Mantener una línea entre dos bordes, dar vuelta con el camino y no cortar por el pasto desarrolla el control del lápiz que más adelante necesitará para repasar trazos y escribir sus primeras letras. Las dos vueltas cortas son la primera probadita de elegir: quien sigue una ve de inmediato que se acaba y regresa sin desanimarse. Cuenta la historia en voz alta, el perrito quiere su pelota, y deja que el niño muestre el camino primero con el dedo y luego con la crayola.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el dedo por el camino y toca Revisar, y con una hoja de respuestas donde el camino aparece en color. Cuando esta hoja ya resulte fácil, los siguientes pasos de la misma serie son el laberinto del erizo en el huerto, el laberinto del río con sus curvas largas y el laberinto de las crías con tres caminos. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k406",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    },
+    {
+     "label": "Laberinto bajo tierra: ayuda a la hormiga por sus túneles",
+     "href": "laberinto-bajo-tierra-tuneles-hormiga"
+    }
+   ],
+   "title": "Mi primer laberinto para preescolar: el perrito y la pelota | PDF",
+   "metaDescription": "Primer laberinto para niños de 3 y 4 años: un camino muy ancho por el parque, solo dos vueltas cortas, un perrito y su pelota. PDF para imprimir con respuestas."
+  },
+  {
+   "slug": "laberinto-grande-primer-grado-selva-orangutan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "big-picture-maze",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "El suelo de una selva tropical cubre toda la hoja, lleno de caminos angostos. Un orangután sale del círculo verde en una esquina y una mata de plátano lo espera en la esquina contraria, bajo un techo de hojas. El camino entre los dos es largo y va y viene, y de él salen muchos caminos laterales. Algunos son cortos, pero otros se meten muy adentro en la selva y solo se acaban después de varias vueltas. Un tucán, un perico, un perezoso, una rana, palmeras y flores tropicales ocupan las islas entre los caminos.",
+   "p2": "Esta hoja trabaja la planeación, una habilidad que en primer grado ya se puede ampliar. La indicación pide mirar primero todo el laberinto y solo después trazar el camino del orangután. Quien empieza a dibujar de inmediato llega a un callejón profundo, regresa y vuelve a intentar, y ese es justo el punto: regresar enseña que una primera elección se puede revisar y cambiar. A muchos niños les sirve buscar un tramo corto hacia atrás desde la mata de plátano y luego unir los dos extremos.",
+   "p3": "Imprime el PDF, usa la versión en pantalla donde el niño desliza el dedo por el camino y puede regresar un paso, o compara con la hoja de respuestas, que muestra en color el único camino correcto. En la misma serie, el laberinto del erizo es la versión más suave para preescolar, y el laberinto de la ciudad pide el más corto de varios caminos en lugar del único. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1420",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    },
+    {
+     "label": "Laberinto bajo tierra: ayuda a la hormiga por sus túneles",
+     "href": "laberinto-bajo-tierra-tuneles-hormiga"
+    }
+   ],
+   "title": "Laberinto grande para primer grado: la selva y el orangután | PDF",
+   "metaDescription": "Laberinto grande en la selva para primer grado: caminos largos y callejones profundos; primero se observa y luego se traza. PDF para imprimir, pantalla y respuestas."
+  },
+  {
+   "slug": "laberinto-del-rio-barquito-osito",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "river-maze",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto del río: lleva el barquito hasta el osito",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "En este laberinto, los caminos son de agua. Un arroyo azul serpentea por un jardín verde, y un barquito de juguete flota en el círculo verde de salida, donde empieza el arroyo. Al otro lado, un osito de peluche está sentado en un pequeño muelle de madera esperando al barquito. El arroyo se divide en brazos que se ven tan atractivos como la corriente principal, pero cada uno termina contra la orilla. En las orillas se ven una rana, una libélula, un pato, un cisne, una tortuga y un árbol.",
+   "p2": "El arroyo está dibujado con curvas largas y suaves en lugar de esquinas, así que la línea del niño se vuelve un gran trazo redondo. Eso hace de la hoja una buena práctica para los trazos curvos que vienen antes de escribir letras como la c, la o y la s, mientras los brazos del arroyo mantienen viva la parte de pensar del laberinto. El niño guía primero el barquito con el dedo diciendo hacia dónde va el agua, y luego traza una línea que se queda dentro del agua, del barquito al muelle.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el camino del barquito y toca Revisar, y con una hoja de respuestas donde el recorrido por el agua aparece en color. Forma parte de una serie de veinte laberintos ilustrados; el primer laberinto del perrito es un inicio más fácil, y el laberinto de la hormiga bajo tierra es el siguiente paso, con túneles en tres niveles. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k407",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto bajo tierra: ayuda a la hormiga por sus túneles",
+     "href": "laberinto-bajo-tierra-tuneles-hormiga"
+    }
+   ],
+   "title": "Laberinto del río para preescolar: el barquito y el osito | PDF",
+   "metaDescription": "Laberinto del río para preescolar: sigue el arroyo azul y sus brazos hasta el osito de peluche en el muelle. Curvas largas y suaves. PDF para imprimir con respuestas."
+  },
+  {
+   "slug": "laberinto-bajo-tierra-tuneles-hormiga",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "underground-maze",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto bajo tierra: ayuda a la hormiga por sus túneles",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Esta hoja muestra la tierra como si la hubieran cortado, como una rebanada de jardín. Arriba, una hormiga está sobre el pasto junto al círculo verde de salida. Debajo del pasto, la tierra café está en capas, y por ella corren túneles en tres niveles, unidos por pozos cortos que suben y bajan derechito. Hasta el fondo, en la esquina contraria, hay una frambuesa en una cámara redonda: ahí quiere llegar la hormiga. En otras camaritas hay una lombriz, un ciempiés, un escarabajo y una araña, y algunas están al final de túneles que no llevan a ningún otro lado.",
+   "p2": "Lo nuevo aquí es arriba y abajo. El camino a la frambuesa no solo baja: en algún momento la hormiga tiene que subir otra vez por un pozo antes de seguir bajando, y el pozo que parece el más rápido para bajar puede terminar en un callejón sin salida. Al contar su recorrido, los niños usan las palabras de ubicación que emplean todos los días en primer grado: arriba, abajo, bajar por el pozo, seguir el túnel de en medio, volver a subir. La línea se traza por los túneles, de la hormiga a la frambuesa.",
+   "p3": "Imprime el PDF, usa la versión en pantalla donde el niño desliza el dedo por los túneles y toca Revisar, o compara con la hoja de respuestas, que muestra en color el camino de la hormiga. En la misma serie, el laberinto del río es una hoja más suave para preescolar, y el laberinto de la ciudad convierte el reto en buscar el camino más corto entre varias calles. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1421",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto bajo tierra para primer grado: los túneles de la hormiga",
+   "metaDescription": "Laberinto bajo tierra para primer grado: la hormiga baja y sube por túneles en tres niveles hasta la frambuesa del fondo. PDF para imprimir, pantalla y respuestas."
+  },
+  {
+   "slug": "laberinto-de-la-ciudad-camino-mas-corto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "town-maze-shortest-way",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto de la ciudad: encuentra el camino más corto",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Una pequeña ciudad vista desde arriba: calles grises pasan entre manzanas de pasto verde, y en las orillas del plano hay casas, árboles, un garaje, una bicicleta, un scooter y un buzón. Una grúa espera en el círculo verde de salida de un lado, y un carro verde está estacionado del otro. A diferencia de casi todos los laberintos, este tiene muchos caminos: las calles se vuelven a juntar una y otra vez, y algunas están cerradas con barreras. Cada tramo de calle entre dos cruces tiene una tapa de alcantarilla redonda, y la franja debajo del plano muestra un tramo con su tapa igual a 1, junto a un cuadro vacío.",
+   "p2": "La pregunta no es si se puede llegar al carro, sino cuál camino es el más corto. Muchos niños creen que el camino con menos vueltas es el más corto, y esta hoja está hecha para que un camino más derecho sea más largo. Contar resuelve la duda: cada tapa es un tramo de calle, así que el niño cuenta las tapas de un camino, compara caminos, traza el más corto y escribe su número en el cuadro. Es razonar de verdad sobre longitudes, como se empieza a hacer en primer grado, con un dibujo en lugar de una regla.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño traza un camino para la grúa y toca Revisar (si el camino es más largo, aparece la pista de que hay uno más corto), y con una hoja de respuestas que muestra el camino más corto y su número. En la misma serie, el laberinto grande de la selva tiene un solo camino, y el laberinto de sumas y restas hasta 100 calcula a lo largo de la calle. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1422",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de la ciudad para primer grado: el camino más corto | PDF",
+   "metaDescription": "Laberinto de la ciudad para primer grado: varias calles llevan al carro verde. Traza el camino más corto para la grúa y cuenta los tramos de calle. PDF y respuestas."
+  },
+  {
+   "slug": "laberinto-crias-y-mamas-granja",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "babies-and-mothers-maze",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Laberinto de crías y mamás: ayuda a cada cría a encontrar a su mamá",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Tres crías de la granja están formadas en la parte de arriba de un campo de heno en verano: un pollito, un becerro y un potrillo, cada uno junto a un círculo de salida con número. Más abajo, tres mamás esperan en corrales redondos: una gallina, una vaca y una yegua. Ninguna cría está justo arriba de su mamá, así que ninguna puede bajar derechito. Tres caminos separados serpentean por el campo entre ellas, entrelazados como dedos, y cada uno tiene sus propias vueltas cortas.",
+   "p2": "Esta hoja junta dos aprendizajes de preescolar. Primero, el niño relaciona cada cría con su mamá, que ya es una pequeña lección de vocabulario sobre las familias de animales. Después sigue los caminos para descubrir cuál lleva de verdad a cada cría a casa. Los caminos nunca se tocan, pero corren muy juntos por el campo, así que la vista tiene que quedarse en un solo camino de principio a fin. Hacer las tres crías una por una, con un color distinto para cada una, mantiene separados los recorridos y hace fácil revisar la hoja.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el dedo de cada cría a su mamá (una cría que llega a la mamá equivocada se señala de inmediato), y con una hoja de respuestas donde cada recorrido tiene su propio color. En la misma serie, las líneas enredadas piden seguir hilos a través de cruces, y el primer laberinto del perrito es un inicio suave. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k408",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto para preescolar: las crías buscan a su mamá | PDF",
+   "metaDescription": "Laberinto de la granja para preescolar: el pollito, el becerro y el potrillo encuentran a su mamá por tres caminos separados. PDF para imprimir, pantalla y respuestas."
+  },
+  {
+   "slug": "lineas-enredadas-de-quien-es-el-papalote",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "tangled-lines-puzzle",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Líneas enredadas: ¿de quién es el papalote?",
+   "strand": "Saberes y Pensamiento Científico — Razonamiento lógico (preparación)",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "En una colina con mucho viento, cuatro animales están en la parte de abajo de la hoja, cada uno junto a un círculo con número: un zorro, un mapache, una ardilla y un tejón. Cada uno sostiene un hilo largo. Arriba, en el cielo, vuelan tres papalotes y un globo rojo, con un cuadro vacío encima de cada uno. Al subir, los cuatro hilos se cruzan una y otra vez, así que no se puede saber de un vistazo qué animal sostiene cada papalote.",
+   "p2": "En esta hoja no hay nada que elegir ni callejones sin salida: cada hilo lleva a algún lado. Todo el reto es seguir una línea en cada cruce sin brincar a otra. Es seguimiento visual, el mismo trabajo de los ojos que necesita un lector para no perder el renglón. A los niños les va mejor con un dedo sobre el hilo, avanzando despacio en cada cruce. Cuando el hilo llega a un papalote o al globo, el número del animal se escribe en el cuadro de arriba, y la hoja terminada muestra cuatro respuestas en la parte superior.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el dedo por cada hilo, del animal hasta el final, y con una hoja de respuestas donde cada hilo tiene su propio color y los cuadros están llenos. En la misma serie, el laberinto de las crías agrega decisiones en los cruces, y el laberinto grande de la selva pide planear un camino largo. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1423",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Líneas enredadas para primer grado: ¿de quién es el papalote? | PDF",
+   "metaDescription": "Acertijo de líneas enredadas para primer grado: sigue cuatro hilos que se cruzan, de los animales a tres papalotes y un globo, y escribe los números. PDF y respuestas."
+  },
+  {
+   "slug": "laberinto-recoge-todas-las-zanahorias-conejo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "collect-the-carrots-maze",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Recoge todas las zanahorias: ayuda al conejo en la huerta",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Una huerta verde llena esta hoja, cruzada por caminos de piedra. Un conejo sale del círculo verde y una cubeta amarilla lo espera al otro lado. Cuatro zanahorias están sobre los caminos, cada una en un círculo blanco, y la franja debajo de la huerta muestra una zanahoria, el número 4 y cuatro círculos vacíos para marcar. Un caracol, una oruga, una lechuga, una calabaza y una regadera están en el pasto. Los caminos se juntan formando vueltas, así que hay muchas formas de llegar a la cubeta.",
+   "p2": "Llegar a la cubeta es fácil; el reto es llegar con las cuatro zanahorias y sin repetir ningún camino. El camino más corto a la cubeta deja zanahorias atrás, así que el niño tiene que planear un recorrido más largo que pase por cada una. Es planear con varias metas a la vez, un paso más allá de un laberinto común, donde solo importa la llegada. Marcar un círculo por cada zanahoria al pasar da una revisión sencilla: cuatro marcas y la cubeta significan que la tarea está terminada.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño traza el camino del conejo y toca Revisar (una zanahoria olvidada se encierra en rojo), y con una hoja de respuestas que muestra el único camino que recoge todas las zanahorias. En la misma serie, el laberinto del oso polar invierte la regla: ahí hay que esquivar cosas en lugar de recogerlas. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1424",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto para primer grado: recoge todas las zanahorias | PDF",
+   "metaDescription": "Laberinto para recolectar en primer grado: el conejo debe llegar a la cubeta pasando por las cuatro zanahorias sin repetir ningún camino. PDF y hoja de respuestas."
+  },
+  {
+   "slug": "laberinto-esquiva-las-morsas-oso-polar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "avoid-the-walruses-maze",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Juego de laberinto",
+   "h1": "Esquiva a las morsas: lleva al oso polar a casa sin peligro",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Senderos blancos cruzan el hielo del mar Ártico. Un oso polar sale del círculo verde y un iglú lo espera al otro lado. Varios senderos llegan al iglú, pero en algunos hay morsas dormidas y otros están cortados por hoyos oscuros en el hielo. La franja debajo del dibujo muestra una morsa y un hoyo, cada uno tachado: la regla queda clara incluso antes de leer, no tomes ningún camino con una morsa o un hoyo. Una foca, copos de nieve y carámbanos adornan el hielo.",
+   "p2": "El camino rápido al iglú está bloqueado, y de eso se trata la hoja. El niño tiene que dejar a un lado el camino obvio, revisar cada sendero en busca de morsas y hoyos, y elegir el único camino que está completamente libre. Frenar la primera idea y tener una regla en mente mientras se trabaja es una habilidad real de primer grado, y el laberinto la hace visible: se puede señalar con el dedo la morsa exacta por la que pasa un camino equivocado. La línea se traza por el sendero seguro, del oso al iglú.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño traza el camino del oso y toca Revisar (un camino que pasa por una morsa o un hoyo se encierra en rojo), y con una hoja de respuestas que muestra el único sendero seguro. En la misma serie, el laberinto del conejo invierte la regla y pide recoger todas las zanahorias en lugar de esquivar obstáculos. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1425",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto para primer grado: esquiva a las morsas | PDF para imprimir",
+   "metaDescription": "Laberinto del oso polar para primer grado: varios senderos llegan al iglú, pero solo uno sin morsas dormidas ni hoyos en el hielo. PDF para imprimir con respuestas."
+  },
+  {
+   "slug": "laberinto-del-abecedario-cohete-luna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "alphabet-maze-capitals",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Laberinto del abecedario",
+   "h1": "Laberinto del abecedario: vuela a la luna de la A a la Z",
+   "strand": "Lenguajes — El abecedario",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Un cielo de noche con planetas, la Tierra y un cometa enmarca este laberinto de letras. Un cohete sale del círculo verde y la luna espera arriba. Los caminos tienen piedras blancas redondas, y cada piedra lleva una letra mayúscula. El camino correcto pasa por todo el abecedario en orden, de la A a la Z, con la Ñ en su lugar. Las otras piedras también llevan letras, muchas veces las que los niños confunden: una letra que se salta una, la letra anterior o una parecida, como E y F o M y N.",
+   "p2": "En cada cruce, el niño dice el abecedario hasta ese punto y elige la piedra con la siguiente mayúscula. Así, recitar se convierte en usar: saber qué letra sigue sin cantar desde el principio. Como las piedras equivocadas son trampas cercanas, adivinar casi nunca funciona; hay que conocer el orden. Conocer las letras mayúsculas y su orden es parte del acercamiento a la lengua escrita que propone el plan de estudios de preescolar, y aquí se practica como un juego.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el cohete de piedra en piedra y toca Revisar, y con una hoja de respuestas que muestra en color el camino de la A a la Z. En la misma serie, el laberinto de minúsculas en el mar hace lo mismo con las letras pequeñas y las trampas b, d, p y q, y el panal empieza a mitad del abecedario. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k409",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto del abecedario de la A a la Z: el cohete a la luna | PDF",
+   "metaDescription": "Laberinto del abecedario para preescolar: en cada cruce elige la piedra con la siguiente letra mayúscula, de la A a la Z con la Ñ, y lleva el cohete a la luna. PDF."
+  },
+  {
+   "slug": "laberinto-letras-minusculas-mar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "lowercase-letter-maze",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Laberinto del abecedario",
+   "h1": "Laberinto de letras minúsculas: nada a casa de la a a la z",
+   "strand": "Lenguajes — El abecedario",
+   "standard": "RF.K.1.d",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Bajo el mar, un pez payaso sale del círculo verde y nada hacia un coral al final del arrecife. Su camino es un canal de agua clara con burbujas redondas, y cada burbuja lleva una letra minúscula. El camino correcto pasa por el abecedario en minúsculas, en orden, de la a a la z. Alrededor del arrecife se pueden ver un pulpo, una medusa, una estrella de mar, un cangrejo, un caballito de mar y algas.",
+   "p2": "Las minúsculas hacen tropezar a muchos lectores principiantes porque varias son letras espejo: b y d, p y q. Este laberinto pone justo esas trampas. Donde la b es la siguiente letra del camino correcto, muchas veces espera una d en el camino equivocado, así que el niño tiene que fijarse en la forma y no solo en una letra redonda con un palito. Ayuda decir cada letra en voz alta al elegir, y escribir una vez las parejas difíciles en el margen antes de empezar.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el pez payaso de burbuja en burbuja y toca Revisar, y con una hoja de respuestas que muestra en color el camino de la a a la z. En la misma serie, el laberinto del cohete practica las mayúsculas, y el panal pide el orden empezando a mitad del abecedario. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k410",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de letras minúsculas de la a a la z: el mar | PDF",
+   "metaDescription": "Laberinto de minúsculas para preescolar: guía al pez payaso de burbuja en burbuja, de la a a la z, sin caer en las trampas b y d, p y q. PDF para imprimir y respuestas."
+  },
+  {
+   "slug": "salta-las-letras-en-orden-panal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "abc-order-letter-hop",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Laberinto del abecedario",
+   "h1": "Salta las letras en orden: cruza el panal del oso",
+   "strand": "Lenguajes — El abecedario",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Un gran panal de celdas hexagonales llena esta hoja, y cada celda tiene una letra mayúscula. Un oso está sentado junto a un círculo verde de salida con una flecha que apunta a la primera celda. La serie no empieza en la A: arranca en algún punto a mitad del abecedario, y la indicación dice en qué letra termina. Las demás celdas también tienen letras, muchas de ellas vecinas en el abecedario, así que un salto distraído lleva por mal camino.",
+   "p2": "Desde la primera celda, el niño colorea cada vez la siguiente letra del abecedario en una celda que toca a la anterior, luego la siguiente, y así hasta la última letra. Empezar a la mitad es justo el reto: hay que saber qué letra sigue sin la ayuda de cantar desde la A. Es el conocimiento del abecedario que los niños de primer grado necesitan para usar el diccionario, las listas de nombres y el orden alfabético, practicado aquí salto por salto. Solo una cadena de celdas vecinas funciona, así que el camino coloreado se revisa fácilmente al final.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el dedo de celda en celda y toca Revisar, y con una hoja de respuestas donde la serie está coloreada. En la misma serie, el laberinto del cohete y el de minúsculas en el mar practican todo el abecedario desde el principio, eligiendo en cada cruce. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1426",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Orden alfabético para primer grado: salta las letras del panal | PDF",
+   "metaDescription": "Laberinto de orden alfabético para primer grado: empieza en una letra a mitad del abecedario y colorea la siguiente letra en una celda vecina. PDF y respuestas."
+  },
+  {
+   "slug": "laberinto-de-numeros-del-1-al-20-tren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "number-maze-1-to-20",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Laberinto de números",
+   "h1": "Laberinto de números del 1 al 20: cuenta con el tren",
+   "strand": "Saberes y Pensamiento Científico — Matemáticas",
+   "standard": "K.CC.A.1",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Un trenecito espera en el círculo verde de salida en un valle verde; pinos, un venado y un conejo están junto a las vías, y una cabaña de madera espera al final de la línea. Las vías se dividen una y otra vez, y a lo largo de ellas hay piedras redondas, cada una con un número. El camino correcto pasa por los números del 1 al 20 en orden. Las otras piedras son trampas: números que se adelantan, números que regresan y números que se repiten.",
+   "p2": "En cada desvío, el niño sigue contando y elige la piedra con el número siguiente. Así, contar hasta 20 se vuelve más que una canción: hay que saber qué número sigue desde cualquier punto y leer con cuidado los números de dos cifras. Entre el 10 y el 20 es donde los niños de preescolar se equivocan más seguido; por eso conviene ir más despacio en esos desvíos y decir cada número en voz alta. Contar en voz alta mientras se traza también ayuda.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el tren de piedra en piedra y toca Revisar, y con una hoja de respuestas que muestra en color la línea del 1 al 20. En la misma serie, el laberinto de segundo grado cuenta de 5 en 5 hasta 100, y los laberintos del abecedario usan letras en lugar de números. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k411",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de números del 1 al 20 para preescolar: el tren | PDF",
+   "metaDescription": "Laberinto de números del 1 al 20: cuenta a lo largo de las vías y elige el siguiente número en cada desvío para llevar el trenecito a la cabaña. PDF con respuestas."
+  },
+  {
+   "slug": "laberinto-de-numeros-cuenta-de-5-en-5-globo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "skip-counting-maze-by-5s",
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Laberinto de números",
+   "h1": "Laberinto de números: cuenta de 5 en 5 hasta el arcoíris",
+   "strand": "Saberes y Pensamiento Científico — Matemáticas",
+   "standard": "2.NBT.A.2",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "segundo-grado"
+   ],
+   "p1": "Un globo aerostático sube desde el círculo verde de salida a un cielo de amanecer. Su camino es una calle de nubes, y en las nubes hay números escritos. Arriba espera un arcoíris. El camino correcto cuenta de 5 en 5: 5, 10, 15, 20 y así hasta 100. Un avión de papel, una gaviota y el sol comparten el cielo.",
+   "p2": "Contar de 5 en 5 es un aprendizaje de segundo grado, y en este laberinto el salto es la regla. La mayoría de las nubes equivocadas también terminan en 0 o en 5, así que el niño no puede tomar cualquier número que se vea bien: las nubes equivocadas saltan demasiado, regresan o repiten un número que ya pasó. Para elegir, hay que sumar 5 al número de la última nube cada vez. Contar en voz alta mientras se traza, y comprobar que cada número tiene exactamente 5 más, mantiene al globo en su ruta hasta el 100.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza el globo de nube en nube y toca Revisar, y con una hoja de respuestas que muestra en color el camino del conteo. En la misma serie, el laberinto de números cuenta del 1 al 20 para preescolar, y el laberinto de sumas y restas lleva una cuenta hasta 100 de letrero en letrero. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g2392",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto para segundo grado: cuenta de 5 en 5 hasta 100 | PDF",
+   "metaDescription": "Laberinto de números para segundo grado: salta de nube en nube contando de 5 en 5, del 5 al 100, para llevar el globo aerostático al arcoíris. PDF con respuestas."
+  },
+  {
+   "slug": "laberinto-de-sumas-que-dan-10-primer-grado",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "addition-maze-make-10",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Laberinto de sumas",
+   "h1": "Laberinto de sumas: pisa solo las sumas que dan 10",
+   "strand": "Saberes y Pensamiento Científico — Matemáticas",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Una sabana polvorienta se extiende por la hoja. Una jirafa sale del círculo verde, junto a un círculo con el número 10, y un baobab la espera al otro lado. Los caminos pasan por piedras planas, y cada piedra lleva una suma como 6 + 4 o 7 + 4. Una cebra, un elefante, un rinoceronte, un avestruz, un suricato y una gacela están en la llanura alrededor de los caminos.",
+   "p2": "La jirafa solo puede pisar las piedras cuya suma da 10. Cada piedra del camino correcto es una pareja que forma 10, y las piedras equivocadas son trampas cercanas que dan 9 u 11, muchas veces con un número en común con una pareja correcta, así que el niño tiene que sumar de verdad en lugar de reconocer un número conocido. Las parejas que forman 10 son la base de la suma y la resta en primer grado, porque gran parte del cálculo mental que sigue se apoya en ellas. Al principio, el niño puede decir cada suma en voz alta o contar con los dedos.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza la jirafa por las piedras y toca Revisar, y con una hoja de respuestas que muestra en color el camino de las sumas que dan 10. En la misma serie, el laberinto del hombre de jengibre practica restas hasta 20, y el laberinto de segundo grado lleva una cuenta a lo largo de varios letreros. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1427",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de sumas que dan 10 para primer grado | PDF para imprimir",
+   "metaDescription": "Laberinto de sumas para primer grado: la jirafa solo pisa las sumas que dan 10; las que dan 9 u 11 son trampas. PDF para imprimir, versión en pantalla y respuestas."
+  },
+  {
+   "slug": "laberinto-de-restas-hasta-20-hombre-de-jengibre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "subtraction-maze-within-20",
+    "theme": "",
+    "level": "primer-grado"
+   },
+   "eyebrow": "Laberinto de restas",
+   "h1": "Laberinto de restas hasta 20: ayuda al hombre de jengibre",
+   "strand": "Saberes y Pensamiento Científico — Matemáticas",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "primer-grado"
+   ],
+   "p1": "Un país de dulces con caminos de colores pastel llena este laberinto. El hombre de jengibre sale del círculo verde, junto a un círculo con su número, y un pastel lo espera al otro lado. Los caminos pasan por piedras, y cada piedra lleva una resta hasta 20, como 15 − 7. Panquecitos, donas, paletas, helados, bastones de dulce y macarons adornan el país entre los caminos.",
+   "p2": "La regla se dice rápido: pisa solo las restas cuyo resultado es el número del hombre de jengibre. Cada piedra del camino correcto da ese resultado; las equivocadas fallan por uno o salen de un error común, así que el niño tiene que resolver cada una. Restar a partir de números entre 10 y 20 es donde, en primer grado, se construyen las estrategias que se usan durante años, como regresar primero al 10. Una recta numérica corta o fichas sobre la mesa ayudan mucho con las primeras piedras.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza al hombre de jengibre por las piedras y toca Revisar, y con una hoja de respuestas que muestra en color el camino correcto. En la misma serie, el laberinto de la jirafa practica las sumas que dan 10, y el laberinto de segundo grado suma y resta hasta 100. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g1428",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de restas hasta 20 para primer grado: hombre de jengibre",
+   "metaDescription": "Laberinto de restas hasta 20: el hombre de jengibre solo pisa las restas cuyo resultado es su número, hasta llegar al pastel. PDF para imprimir, pantalla y respuestas."
+  },
+  {
+   "slug": "laberinto-de-sonidos-iniciales-como-leon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "beginning-sounds-maze",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Laberinto de sonidos",
+   "h1": "Laberinto de sonidos iniciales: dibujos que empiezan como león",
+   "strand": "Lenguajes — Correspondencias entre la oralidad y la escritura",
+   "standard": "RF.K.2.d",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Una plaza de mercado arenosa vista desde arriba es el escenario de este laberinto de sonidos. Un león sale del círculo verde y una canasta lo espera al otro lado. Sobre los caminos hay tarjetas redondas, cada una con un dibujo y sin palabras: animales, frutas y cosas de todos los días. El león mismo es la pista, porque las tarjetas correctas empiezan como empieza la palabra león.",
+   "p2": "El niño dice en voz alta el nombre de cada dibujo y pisa solo los dibujos que empiezan con el mismo sonido que león, como luna, leche o limón. Las tarjetas equivocadas empiezan con otros sonidos, y algunas tienen una l más adelante en la palabra, como delfín o bolsa: quien busca cualquier l se equivoca de camino. Escuchar el sonido inicial de una palabra dicha en voz alta es una habilidad de conciencia fonológica que se trabaja en preescolar antes de leer, y esta hoja la practica solo con dibujos, para que también puedan jugar los niños que todavía no leen.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño desliza al león por las tarjetas y toca Revisar (una tarjeta equivocada se encierra en rojo), y con una hoja de respuestas que muestra en color el camino del león. En la misma serie, los laberintos del abecedario practican el orden de las letras, y el primer laberinto del perrito es un inicio suave para el control del lápiz. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k412",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de sonidos iniciales para preescolar: como león | PDF",
+   "metaDescription": "Laberinto de sonidos iniciales para preescolar: di el nombre de cada dibujo y pisa solo los que empiezan como león, hasta la canasta. PDF para imprimir y respuestas."
+  },
+  {
+   "slug": "laberinto-de-sumas-y-restas-segundo-grado",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "math-maze-within-100",
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Laberinto de sumas y restas",
+   "h1": "Laberinto de sumas y restas hasta 100: lleva a la grúa su número",
+   "strand": "Saberes y Pensamiento Científico — Matemáticas",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "segundo-grado"
+   ],
+   "p1": "Una obra en construcción con caminos de tierra llena esta hoja. Un camión de volteo rojo sale del círculo verde con un número, y una grúa amarilla espera al otro lado con su propio número. A lo largo de los caminos hay letreros redondeados, cada uno con un cambio como +10, −5 o +2, y cada letrero tiene un cuadrito para escribir el nuevo resultado. Excavadoras, una revolvedora, un montacargas, un bulldozer, troncos y rocas llenan la obra alrededor de los caminos.",
+   "p2": "El niño empieza con el número del camión, sigue un camino y, en ese camino, escribe el nuevo número en el cuadrito de cada letrero por el que pasa el camión. Solo un camino llega exactamente al número de la grúa. Es una cuenta en cadena: sumar y restar decenas y unidades hasta 100, el cálculo mental que se practica todo el año en segundo grado, con cada paso por escrito para que los errores se encuentren fácilmente. Otros caminos llegan muy cerca del número de la grúa, así que un paso hecho con prisa se nota al final.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño traza el camino del camión y toca Revisar, y con una hoja de respuestas que muestra el camino correcto y cada resultado. En la misma serie, el laberinto de números cuenta de 5 en 5 hasta 100, y el laberinto de la jirafa practica las sumas que dan 10. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-g2393",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto de sumas y restas para segundo grado: hasta 100 | PDF",
+   "metaDescription": "Laberinto de sumas y restas para segundo grado: el camión de volteo empieza con un número, cada letrero suma o resta y solo un camino llega al número de la grúa."
+  },
+  {
+   "slug": "laberinto-para-colorear-cangrejo-playa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "maze-puzzles",
+    "mode": "maze-colouring-page",
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Laberinto para colorear",
+   "h1": "Laberinto para colorear: el cangrejo en la playa",
+   "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+   "slotTokens": [
+    "juegos-de-laberinto",
+    "preescolar"
+   ],
+   "p1": "Esta playa está dibujada solo con líneas negras, lista para los colores. Un cangrejo espera en la salida, un castillo de arena está al otro lado, y un camino ancho con dos bordes serpentea por la arena entre los dos, con algunas vueltas que se acaban. Alrededor del camino hay toda una playa para colorear: el mar arriba con un barco y un pez, una palmera, una sombrilla, una pelota de playa, una cubeta y una estrella de mar.",
+   "p2": "La hoja pide tres cosas, una tras otra. Primero, el niño encuentra el camino del cangrejo y lo traza. Después colorea todo el camino, de borde a borde: un coloreado cuidadoso dentro de una franja ancha, muy bueno para el control de la mano. Al final viene la playa, coloreada como el niño quiera. Resolver el laberinto antes del dibujo le da un orden natural a la tarea, y un camino coloreado muestra la respuesta con claridad.",
+   "p3": "La hoja viene en PDF para imprimir, en una versión en pantalla donde el niño traza el camino del cangrejo y toca Revisar, y con una hoja de respuestas donde el camino está relleno. En la misma serie, el primer laberinto del perrito y el laberinto del erizo en el huerto están dibujados a color. Son laberintos ilustrados que cuentan una historia; los laberintos de cuadrícula, los dibujos de unir puntos y el orden de palabras tienen sus propias páginas.",
+   "canonicalDeckSlug": "juegos-de-laberinto-k413",
+   "carousel": [
+    {
+     "label": "Laberinto para niños: ayuda al erizo a llegar al manzano",
+     "href": "laberinto-para-ninos-erizo-manzano"
+    },
+    {
+     "label": "Mi primer laberinto: ayuda al perrito a llegar a la pelota",
+     "href": "mi-primer-laberinto-preescolar-perrito-pelota"
+    },
+    {
+     "label": "Laberinto grande: el camino del orangután hasta la mata de plátano",
+     "href": "laberinto-grande-primer-grado-selva-orangutan"
+    },
+    {
+     "label": "Laberinto del río: lleva el barquito hasta el osito",
+     "href": "laberinto-del-rio-barquito-osito"
+    }
+   ],
+   "title": "Laberinto para colorear para preescolar: el cangrejo en la playa",
+   "metaDescription": "Laberinto para colorear para preescolar: traza el camino del cangrejo al castillo de arena, colorea todo el camino y luego colorea la playa. PDF con respuestas."
   }
  ]
 }

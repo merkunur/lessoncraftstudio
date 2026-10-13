@@ -33,6 +33,8 @@ const ROWS = [
     'Pencil Path Review', null],
 
   // ---- K-237 number tracing ----
+  // ⚠ Level Set 2026-10-13: K-249/K-250/K-251 now carry real L1/L3 (`modes` fade) + `unitAxis: { applicable: false }`.
+  // A re-run writes the old flat config back (L1 = L2 = L3) and lets them inherit K-237's per-number axis — restore by hand.
   ['k', 'K-249', 'number-tracing-0-4', 'K-237-number-tracing.js',
     { digits: [0, 1, 2, 3, 4], glyphH: 92, laneH: 128, reps: 4 },
     'Trace the Numbers 0 to 4', null],

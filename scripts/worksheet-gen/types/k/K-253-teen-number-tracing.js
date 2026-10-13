@@ -5,7 +5,7 @@
  * after 0-9. Same per-locale digit forms as K-237.
  */
 'use strict';
-const { strokeGlyphPairLane } = require('../../primitives/trace-path.js');
+const { digitFadeLane, strokeGlyphPairLane } = require('../../primitives/trace-path.js');
 const { FORMS, FORM_BY_LOCALE, BOX } = require('../../data/tracing/digit-strokes.js');
 
 const D = { glyphH: 52, laneH: 71, reps: 5 };
@@ -17,7 +17,12 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'number-tracing',
   themeAxis: { applicable: false },
-  difficulty: { 1: { ...D }, 2: { ...D }, 3: { ...D } },
+  // Level Set 2026-10-13: L1 every slot traced from its own dot · L2 published · L3 fade (trace, start dot only, two blank)
+  difficulty: {
+    1: { glyphH: 52, laneH: 71, modes: ['model', 'trace', 'trace', 'trace', 'trace'] },
+    2: { ...D },
+    3: { glyphH: 52, laneH: 71, modes: ['model', 'trace', 'dot', 'empty', 'empty'] },
+  },
   i18n: {
     en: {
       title: 'Trace the Teen Numbers 11 to 20',
@@ -31,6 +36,15 @@ module.exports = {
     void ctx;
     const laneW = 660;
     const lanes = [];
+    if (d.modes) {
+      // Level Set fading lanes (new pages only); the published d2 keeps the lanes below byte for byte
+      for (let n = 11; n <= 20; n++) {
+        const glyphs = n < 10 ? [form[n]] : [form[Math.floor(n / 10)], form[n % 10]];
+        const lane = digitFadeLane({ glyphs, box: BOX, w: laneW, h: d.laneH, glyphH: d.glyphH, modes: d.modes, number: n, label: `trace number ${n}` });
+        lanes.push(`<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-digit-lane="${n}">${lane.svg}</div>`);
+      }
+      return { bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly">${lanes.join('')}</div>`, meta: {} };
+    }
     for (let n = 11; n <= 20; n++) {
       const lane = strokeGlyphPairLane({
         tens: form[Math.floor(n / 10)], ones: form[n % 10], box: BOX,
@@ -45,6 +59,13 @@ module.exports = {
   },
 
   async verify(page) {
+    // Level Set fading pages: K-237's mode-aware check, plus the full range in order
+    if (await page.$('[data-lcs-prim="trace-number"]')) {
+      const fails = await require('./K-237-number-tracing.js').verify(page);
+      const got = await page.evaluate(() => [...document.querySelectorAll('[data-lcs-digit-lane]')].map((l) => +l.dataset.lcsDigitLane).join(','));
+      if (got !== Array.from({ length: 10 }, (_, k) => k + 11).join(',')) fails.push(`lanes ${got}, want 11-20 in order`);
+      return fails;
+    }
     return page.evaluate(() => {
       const fails = [];
       const lanes = document.querySelectorAll('[data-lcs-number-lane]');

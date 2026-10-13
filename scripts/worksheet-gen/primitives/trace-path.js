@@ -450,6 +450,7 @@ function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl, emp
   const yTop = yBase - glyphH;
   const parts = [schoolLines({ w, yTop, yBase })];
   const segW = w / reps;
+  const badgeJobs = [];
   for (let i = 0; i < reps; i++) {
     // emptyLast: the final slot stays BLANK on the school lines — the honest
     // "now write it yourself" spot (glyphLane convention, nt20-VAR K-251)
@@ -469,23 +470,142 @@ function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl, emp
         // large-lane-only (they were the clutter)
         dot: showGuides, arrow: showGuides, guideScale: inv * (fullGuides ? 1 : 0.72), dashScale: inv,
       });
-      if (showGuides && fullGuides && strokes.length > 1) {
-        g += el('circle', { cx: sx - 16 * inv, cy: sy - 11 * inv, r: 8 * inv, fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5 * inv });
-        g += el('text', {
-          x: sx - 16 * inv, y: sy - 11 * inv, 'font-family': tokens.font.display, 'font-size': Math.round(11 * inv),
-          'font-weight': 700, fill: tokens.color.coral, 'text-anchor': 'middle',
-          'dominant-baseline': 'central',
-        }, String(si + 1));
-      }
+      // 2026-10-13: badges were drawn at a FIXED offset (16 left, 11 up) of the start dot — 4, 5 and 9 start
+      // both strokes at (nearly) the same point, so badge 2 sat on top of badge 1 and the child never saw
+      // which stroke comes first. They are now placed in display space by placeBadge (the letter placer).
+      if (showGuides && fullGuides && strokes.length > 1) badgeJobs.push({ gx, s, si });
       return g;
     }).join('');
     parts.push(el('g', { transform: `translate(${gx.toFixed(1)} ${yTop.toFixed(1)}) scale(${scale.toFixed(4)})` }, inner));
   }
+  if (badgeJobs.length) parts.push(digitBadges(badgeJobs.map(({ gx, s, si }) => ({ x0: gx, y0: yTop, scale, strokes, s, n: si + 1, dotR: 5, arrowD: 14, arrowSz: 9 })), { w, h }));
   return {
     svg: svgRoot({ width: w, height: h, label: lbl || 'trace glyph' }, parts.join(''),
       { 'data-lcs-prim': 'trace-digit', 'data-lcs-reps': emptyLast ? reps - 1 : reps,
         'data-lcs-strokes': strokes.length,
         ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
+    width: w, height: h,
+  };
+}
+
+/**
+ * Stroke-order badges for ONE digit glyph, placed in display space by placeBadge (2026-10-13; the fixed
+ * offset buried badge 1 under badge 2 on 4, 5 and 9). jobs: { x0, y0, scale, strokes (the glyph), s (this
+ * stroke), n, dotR, arrowD, arrowSz } — x0/y0 = the glyph group's translate. Returns svg markup.
+ */
+function digitBadges(jobs, box, extra = {}) {
+  if (!jobs.length) return '';
+  const { x0, y0, scale, strokes } = jobs[0];
+  const at = (gx, gy) => ({ x: x0 + gx * scale, y: y0 + gy * scale });
+  // extra.ink / extra.obstacles: the OTHER glyph of a 10-20 slot (14: the 4's badge must clear the 1 beside it)
+  const ink = [...strokes.flatMap((st) => samplePath(st.d, at)), ...(extra.ink || [])];
+  const xs = ink.map((q) => q.x), ys = ink.map((q) => q.y);
+  const centre = { x: (Math.min(...xs) + Math.max(...xs)) / 2, y: (Math.min(...ys) + Math.max(...ys)) / 2 };
+  const obstacles = [...(extra.obstacles || [])];
+  const arrows = jobs.map((j) => {
+    const m = j.s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+    const d = at(+m[1], +m[2]);
+    const a = j.s.angle * Math.PI / 180;
+    const ax = d.x + Math.cos(a) * j.arrowD, ay = d.y + Math.sin(a) * j.arrowD;
+    const tri = [[j.arrowSz, 0], [-j.arrowSz * 0.4, j.arrowSz * 0.55], [-j.arrowSz * 0.4, -j.arrowSz * 0.55]]
+      .map(([u, v]) => [ax + u * Math.cos(a) - v * Math.sin(a), ay + u * Math.sin(a) + v * Math.cos(a)]);
+    obstacles.push({ x: d.x, y: d.y, r: j.dotR, box: { x0: d.x - j.dotR, x1: d.x + j.dotR, y0: d.y - j.dotR, y1: d.y + j.dotR } },
+      { x: ax, y: ay, r: j.arrowSz, box: { x0: Math.min(...tri.map((q) => q[0])), x1: Math.max(...tri.map((q) => q[0])), y0: Math.min(...tri.map((q) => q[1])), y1: Math.max(...tri.map((q) => q[1])) } });
+    return { x: ax, y: ay };
+  });
+  const placed = [];
+  return jobs.map((j, k) => {
+    const others = arrows.filter((_, q) => q !== k);
+    const b = placeBadge(arrows[k].x, arrows[k].y, j.s.angle, placed, { box: { w: box.w, h: box.h }, obstacles, ink, centre, own: arrows[k], others });
+    placed.push(b);
+    return el('circle', { cx: b.x.toFixed(1), cy: b.y.toFixed(1), r: BADGE_R, fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5, 'data-lcs-badge': String(j.n) }) +
+      el('text', { x: b.x.toFixed(1), y: b.y.toFixed(1), 'font-family': tokens.font.display, 'font-size': 11, 'font-weight': 700, fill: tokens.color.coral, 'text-anchor': 'middle', 'dominant-baseline': 'central' }, String(j.n));
+  }).join('');
+}
+
+/**
+ * Level Set 2026-10-13 — the FADING number lane (the level audit's recipe for number tracing:
+ * "dashed > dot-only > blank on the same lanes"). One lane = one number (1 glyph, or 2 for 10-20).
+ * `modes` = one entry per slot: 'model' (solid teal), 'trace' (dashed, its OWN start dot + arrow per stroke),
+ * 'dash' (dashed, no guides), 'dot' (ONLY the start dots — the child writes the number alone from there) or 'empty' (blank school lines).
+ * Stroke-order badges (badges:true, big lanes) on the first 'trace' slot only. Guides are drawn in display
+ * space outside the rep groups; every rep group stamps data-lcs-rep-mode and every guide data-lcs-rep.
+ * Published pages never call this (they use strokeGlyphLane / strokeGlyphPairLane).
+ */
+function digitFadeLane({ glyphs, box, w, h, glyphH, modes, badges = false, label: lbl, number }) {
+  const scale = glyphH / box.h;
+  // glyphs are spaced by their INK, not their 100-unit boxes: a 1 sits in the middle of its box, so box spacing
+  // printed 13 as "1  3" (read 2026-10-13). offs[k] = where glyph k's box starts, relative to the slot's ink start.
+  const inkX = glyphs.map((strokes) => {
+    const xs = strokes.flatMap((s) => samplePath(s.d, (x) => ({ x }))).map((q) => q.x);
+    return [Math.min(...xs), Math.max(...xs)];
+  });
+  const gap = Math.max(6, glyphH * 0.14);
+  const offs = [];
+  let cursor = 0;
+  inkX.forEach(([a, b], k) => { offs.push(cursor - a * scale); cursor += (b - a) * scale + (k < glyphs.length - 1 ? gap : 0); });
+  const totalW = cursor;
+  const yBase = h * 0.86;
+  const yTop = yBase - glyphH;
+  const big = glyphH >= 80;
+  const dotR = big ? 5 : 4, arrowD = big ? 16 : 12, arrowSz = big ? 9 : 6.5;
+  const segW = w / modes.length;
+  if (totalW > segW - 8) throw new Error(`digitFadeLane: ${number} does not fit ${modes.length} slots (${totalW.toFixed(0)} > ${(segW - 8).toFixed(0)})`);
+  const inv = 1 / scale;
+  const parts = [schoolLines({ w, yTop, yBase })];
+  const guides = [];
+  const firstTrace = modes.indexOf('trace');
+  modes.forEach((mode, i) => {
+    if (!['model', 'trace', 'dash', 'dot', 'empty'].includes(mode)) throw new Error(`digitFadeLane: unknown mode ${mode}`);
+    if (mode === 'empty') return;
+    const x0 = (i + 0.5) * segW - totalW / 2;
+    const inner = glyphs.map((strokes, gi) => {
+      const gx = x0 + offs[gi];
+      if (mode === 'trace' || mode === 'dot') {
+        const seen = [];
+        strokes.forEach((s) => {
+          const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+          const dx = gx + +m[1] * scale, dy = yTop + +m[2] * scale;
+          // starts closer than a dot's width share ONE dot (4: stem start 6 px from the slant start read as a blob)
+          const shared = seen.filter((p) => Math.hypot(p.x - dx, p.y - dy) < dotR * 2 + 2);
+          if (!shared.length) guides.push(el('circle', { cx: dx.toFixed(1), cy: dy.toFixed(1), r: dotR, fill: tokens.color.coral, 'data-lcs-rep': String(i) }));
+          seen.push({ x: dx, y: dy });
+          if (mode === 'trace') {
+            const a = s.angle * Math.PI / 180, d = arrowD + shared.length * (arrowSz + 4);
+            guides.push(arrowHead({ x: dx + Math.cos(a) * d, y: dy + Math.sin(a) * d, angleDeg: s.angle, size: arrowSz }).replace('<polygon', `<polygon data-lcs-rep="${i}"`));
+          }
+        });
+        if (mode === 'trace' && badges && i === firstTrace && strokes.length > 1) {
+          // the other glyph(s) of this slot: their ink, start dots and arrows are obstacles too
+          const extra = { ink: [], obstacles: [] };
+          glyphs.forEach((o, oi) => {
+            if (oi === gi) return;
+            const ox = x0 + offs[oi];
+            o.forEach((s) => {
+              for (const q of samplePath(s.d, (x, y) => ({ x: ox + x * scale, y: yTop + y * scale }))) extra.ink.push(q);
+              const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+              const dx = ox + +m[1] * scale, dy = yTop + +m[2] * scale, a = s.angle * Math.PI / 180;
+              const ax = dx + Math.cos(a) * arrowD, ay = dy + Math.sin(a) * arrowD;
+              extra.obstacles.push({ x: dx, y: dy, r: dotR, box: { x0: dx - dotR, x1: dx + dotR, y0: dy - dotR, y1: dy + dotR } },
+                { x: ax, y: ay, r: arrowSz, box: { x0: ax - arrowSz, x1: ax + arrowSz, y0: ay - arrowSz, y1: ay + arrowSz } });
+            });
+          });
+          guides.push(digitBadges(strokes.map((s, si) => ({ x0: gx, y0: yTop, scale, strokes, s, n: si + 1, dotR, arrowD, arrowSz })), { w, h }, extra));
+        }
+      }
+      if (mode === 'dot') return '';
+      const paths = strokes.map((s) => renderPath({ d: s.d, mode: mode === 'model' ? 'model' : 'trace', strokeW: 3.4 * inv, dot: false, arrow: false, dashScale: inv })).join('');
+      return el('g', { transform: `translate(${gx.toFixed(1)} ${yTop.toFixed(1)}) scale(${scale.toFixed(4)})` }, paths);
+    }).join('');
+    parts.push(el('g', { 'data-lcs-rep-mode': mode, 'data-lcs-rep': String(i) }, inner));
+  });
+  parts.push(guides.join(''));
+  const empties = modes.filter((m) => m === 'empty').length;
+  return {
+    svg: svgRoot({ width: w, height: h, label: lbl || `trace number ${number}` }, parts.join(''),
+      { 'data-lcs-prim': 'trace-number', 'data-lcs-number': String(number), 'data-lcs-modes': modes.join(','),
+        'data-lcs-strokes': glyphs.reduce((n, g) => n + g.length, 0), 'data-lcs-glyphs': glyphs.length,
+        ...(empties ? { 'data-lcs-empty-slot': String(empties) } : {}) }),
     width: w, height: h,
   };
 }
@@ -951,5 +1071,5 @@ function escText(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-module.exports = { placeBadge, samplePath, BADGE_R, STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, textLaneGeometry, LM,
+module.exports = { placeBadge, samplePath, BADGE_R, STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, digitFadeLane, digitBadges, textLaneGeometry, LM,
   strokeLetterLane, strokeWordLane, writingRow, schoolLines, renderPath, arrowHead };

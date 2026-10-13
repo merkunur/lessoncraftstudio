@@ -159,7 +159,10 @@ function themelessWaves() {
         const tries = single
           ? (lv === 2 ? [] : [{ unit: null, sv: 1 }])
           : unitMode
-          ? allUnits.filter((u) => cfg.noExemplarSkip || !(lv === 2 && u === pubUnit)).map((unit) => ({ unit, sv: 1 }))
+          // cfg.rangeToo (Number Tracing, 2026-10-13): a unit face whose published page is a RANGE also gets that range
+          // page at the non-core levels (unit null), before its one-unit pages
+          ? [...((cfg.rangeToo || []).includes(id) && lv !== 2 ? [{ unit: null, sv: 1 }] : []),
+            ...allUnits.filter((u) => cfg.noExemplarSkip || !(lv === 2 && u === pubUnit)).map((unit) => ({ unit, sv: 1 }))]
           : group
           ? groupUnits.flatMap((unit) => Array.from({ length: 12 }, (_, k) => ({ unit, sv: k + 1 })))
             .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))

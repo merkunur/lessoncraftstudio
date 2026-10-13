@@ -138,7 +138,12 @@ async function renderInstance(o) {
         const clone = svg.cloneNode(true);
         clone.removeAttribute('width'); clone.removeAttribute('height');
         clone.querySelectorAll('[data-lcs-colour]').forEach((p) => p.removeAttribute('data-lcs-colour'));
-        return { art: { ...pct(svg.getBoundingClientRect()), svg: clone.outerHTML }, items, crayons };
+        // the page's frame clips the picture to a rounded corner (overflow:hidden); the overlay must carry the same clip or
+        // its square corners cover the frame's curve. Inner radius = border-radius − border width, as % of the SVG box.
+        const sb = svg.getBoundingClientRect(), fs = getComputedStyle(svg.parentElement);
+        const inner = Math.max(0, parseFloat(fs.borderTopLeftRadius) - parseFloat(fs.borderTopWidth));
+        const clip = inner > 0 ? { rx: +(inner / sb.width * 100).toFixed(3), ry: +(inner / sb.height * 100).toFixed(3) } : {};
+        return { art: { ...pct(sb), ...clip, svg: clone.outerHTML }, items, crayons };
       });
       if (!got) throw new Error(`render-instance: ${type.id} is tap-paint but the screen has no cbn-art picture`);
       const screenPng = base + '.screen.png';

@@ -73,6 +73,7 @@
   },
   "K-021": {
     "title": "Edellä ja jäljessä",
+    "printTitle": "Edellinen ja seuraava",
     "instruction": "Kirjoita edellinen ja seuraava luku."
   },
   "K-022": {
@@ -366,7 +367,7 @@
   },
   "G1-130": {
     "title": "Väritä laskupolku",
-    "instruction": "Kaksi ruutua on väritetty aluksi. Väritä jokainen luku samaa laskutapaa."
+    "instruction": "Kaksi ruutua on väritetty aluksi. Väritä jokainen luku, joka kuuluu samaan lukujonoon."
   },
   "G1-131": {
     "title": "1 enemmän, 1 vähemmän",
@@ -717,6 +718,7 @@
   },
   "G3-326": {
     "title": "Murra sääntö",
+    "printTitle": "Keksi sääntö",
     "instruction": "Etsi jokaisen rivin sääntö. Kirjoita puuttuvat luvut."
   },
   "G3-327": {

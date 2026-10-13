@@ -362,11 +362,12 @@
   },
   "G1-129": {
     "title": "O quadro de cem",
-    "instruction": "Alguns números estão escondidos. Escreva cada um que falta na sua caixa."
+    "printTitle": "O quadro numérico até 100",
+    "instruction": "Alguns números estão escondidos. Escreva cada número que falta no seu quadradinho."
   },
   "G1-130": {
     "title": "Pinte o caminho",
-    "instruction": "Duas caixas já estão pintadas. Pinte cada número no mesmo padrão de contagem."
+    "instruction": "Dois quadradinhos já estão pintados. Pinte cada número no mesmo padrão de contagem."
   },
   "G1-131": {
     "title": "1 a mais, 1 a menos",

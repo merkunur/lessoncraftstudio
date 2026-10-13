@@ -361,11 +361,12 @@
   },
   "G1-129": {
     "title": "Hundrekartet",
+    "printTitle": "Hundreruta",
     "instruction": "Noen tall gjemmer seg. Skriv hvert tall som mangler i ruten sin."
   },
   "G1-130": {
     "title": "Fargelegg telleveien",
-    "instruction": "To ruter er fargelagt for å starte deg. Fargelegg hvert tall i samme tellemønster."
+    "instruction": "To ruter er allerede fargelagt. Fargelegg hvert tall i samme tellemønster."
   },
   "G1-131": {
     "title": "1 mer, 1 mindre",

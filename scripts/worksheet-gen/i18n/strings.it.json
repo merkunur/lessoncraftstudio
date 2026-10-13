@@ -65,10 +65,12 @@
   },
   "K-019": {
     "title": "Numeri mancanti al 10",
+    "printTitle": "Numeri mancanti fino a 10",
     "instruction": "Conta lungo la striscia. Scrivi ogni numero mancante."
   },
   "K-020": {
     "title": "Numeri mancanti al 20",
+    "printTitle": "Numeri mancanti fino a 20",
     "instruction": "Conta lungo la striscia. Scrivi ogni numero mancante."
   },
   "K-021": {
@@ -362,11 +364,12 @@
   },
   "G1-129": {
     "title": "La tavola del cento",
+    "printTitle": "La tabella del 100",
     "instruction": "Alcuni numeri si nascondono. Scrivi ogni numero mancante nel suo riquadro."
   },
   "G1-130": {
     "title": "Colora il percorso",
-    "instruction": "Due riquadri sono già colorati. Colora ogni numero con lo stesso ritmo di conteggio."
+    "instruction": "Due riquadri sono già colorati. Colora i numeri che seguono la stessa regola."
   },
   "G1-131": {
     "title": "1 in più, 1 in meno",

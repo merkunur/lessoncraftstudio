@@ -65,10 +65,12 @@
   },
   "K-019": {
     "title": "Números que faltan al 10",
+    "printTitle": "Números que faltan hasta el 10",
     "instruction": "Cuenta por la tira. Escribe cada número que falta."
   },
   "K-020": {
     "title": "Números que faltan al 20",
+    "printTitle": "Números que faltan hasta el 20",
     "instruction": "Cuenta por la tira. Escribe cada número que falta."
   },
   "K-021": {
@@ -81,6 +83,7 @@
   },
   "K-023": {
     "title": "Cuenta atrás para despegar",
+    "printTitle": "Cuenta regresiva: ¡a despegar!",
     "instruction": "Cuenta hacia atrás. Escribe cada número que falta."
   },
   "K-024": {
@@ -361,11 +364,12 @@
   },
   "G1-129": {
     "title": "El cuadro del cien",
+    "printTitle": "La tabla del 1 al 100",
     "instruction": "Algunos números se esconden. Escribe cada número que falta en su cuadro."
   },
   "G1-130": {
     "title": "Colorea el camino",
-    "instruction": "Dos cuadros ya están coloreados. Colorea cada número con el mismo patrón de conteo."
+    "instruction": "Dos cuadros ya están coloreados. Colorea los números que siguen el mismo patrón de conteo."
   },
   "G1-131": {
     "title": "1 más, 1 menos",
@@ -506,7 +510,7 @@
   },
   "G2-218": {
     "title": "Caza de números impares",
-    "instruction": "Rodea cada número IMPAR. Mira el último dígito para decidir."
+    "instruction": "Encierra cada número IMPAR. Fíjate en la última cifra para decidir."
   },
   "G2-219": {
     "title": "Duelo de números grandes",

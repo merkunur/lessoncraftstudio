@@ -2741,5 +2741,72 @@
    "no": "Se på delene og det hele. Trykk på tallet som mangler.",
    "fi": "Katso jokaista hajotelmaa ja napauta puuttuvaa lukua."
   }
+ },
+ "number-charts": {
+  "fill": {
+   "en": "Look at the box with the question mark. Tap the number that belongs in it.",
+   "de": "Schau auf das Kästchen mit dem Fragezeichen. Tippe die Zahl an, die hineingehört.",
+   "es": "Mira la casilla con el signo de interrogación. Toca el número que va ahí.",
+   "fr": "Regarde la case avec le point d’interrogation. Touche le nombre qui va dedans.",
+   "it": "Guarda la casella con il punto interrogativo. Tocca il numero che ci va.",
+   "pt": "Olhe o quadradinho com o ponto de interrogação. Toque no número que vai nele.",
+   "nl": "Kijk naar het vakje met het vraagteken. Tik op het getal dat erin hoort.",
+   "sv": "Titta på rutan med frågetecknet. Tryck på talet som ska stå där.",
+   "da": "Se på feltet med spørgsmålstegnet. Tryk på det tal, der skal stå der.",
+   "no": "Se på ruta med spørsmålstegnet. Trykk på tallet som skal stå der.",
+   "fi": "Katso ruutua, jossa on kysymysmerkki. Napauta lukua, joka kuuluu siihen."
+  },
+  "groups": {
+   "en": "Count the pictures group by group. Tap the total so far.",
+   "de": "Zähle die Bilder Gruppe für Gruppe. Tippe an, wie viele es bis hier sind.",
+   "es": "Cuenta los dibujos grupo por grupo. Toca el total hasta ahí.",
+   "fr": "Compte les images groupe par groupe. Touche le total jusqu’ici.",
+   "it": "Conta le figure gruppo per gruppo. Tocca il totale fino a lì.",
+   "pt": "Conte as figuras grupo por grupo. Toque no total até ali.",
+   "nl": "Tel de plaatjes groep voor groep. Tik op hoeveel het er tot dan toe zijn.",
+   "sv": "Räkna bilderna grupp för grupp. Tryck på hur många det är hittills.",
+   "da": "Tæl billederne gruppe for gruppe. Tryk på, hvor mange der er indtil nu.",
+   "no": "Tell bildene gruppe for gruppe. Trykk på hvor mange det er så langt.",
+   "fi": "Laske kuvat ryhmä kerrallaan. Napauta, montako niitä on tähän asti."
+  },
+  "machine": {
+   "en": "Use the machine’s rule. Tap the missing number.",
+   "de": "Rechne mit der Regel der Maschine. Tippe die fehlende Zahl an.",
+   "es": "Usa la regla de la máquina. Toca el número que falta.",
+   "fr": "Utilise la règle de la machine. Touche le nombre qui manque.",
+   "it": "Usa la regola della macchina. Tocca il numero che manca.",
+   "pt": "Use a regra da máquina. Toque no número que falta.",
+   "nl": "Gebruik de regel van de machine. Tik op het getal dat ontbreekt.",
+   "sv": "Använd maskinens regel. Tryck på talet som saknas.",
+   "da": "Brug maskinens regel. Tryk på det tal, der mangler.",
+   "no": "Bruk regelen til maskinen. Trykk på tallet som mangler.",
+   "fi": "Käytä koneen sääntöä. Napauta puuttuvaa lukua."
+  },
+  "odd": {
+   "en": "Tap every odd number. Look at the last digit to decide.",
+   "de": "Tippe jede ungerade Zahl an. Schau auf die letzte Ziffer.",
+   "es": "Toca cada número impar. Fíjate en la última cifra.",
+   "fr": "Touche chaque nombre impair. Regarde le dernier chiffre.",
+   "it": "Tocca ogni numero dispari. Guarda l’ultima cifra.",
+   "pt": "Toque em cada número ímpar. Olhe o último algarismo.",
+   "nl": "Tik op elk oneven getal. Kijk naar het laatste cijfer.",
+   "sv": "Tryck på varje udda tal. Titta på sista siffran.",
+   "da": "Tryk på hvert ulige tal. Se på det sidste ciffer.",
+   "no": "Trykk på hvert oddetall. Se på det siste sifferet.",
+   "fi": "Napauta jokaista paritonta lukua. Katso viimeistä numeroa."
+  },
+  "path": {
+   "en": "Two boxes are colored to start you off. Tap every number in the same counting pattern.",
+   "de": "Zwei Kästchen sind schon angemalt. Tippe alle Zahlen im gleichen Zählmuster an.",
+   "es": "Dos cuadros ya están coloreados. Toca los números que siguen el mismo patrón de conteo.",
+   "fr": "Deux cases colorées te montrent le départ. Touche chaque nombre de la même suite.",
+   "it": "Due riquadri sono già colorati. Tocca i numeri che seguono la stessa regola.",
+   "pt": "Dois quadradinhos já estão pintados. Toque em cada número do mesmo padrão de contagem.",
+   "nl": "Twee vakken zijn alvast gekleurd. Tik op elk getal in hetzelfde telpatroon.",
+   "sv": "Två rutor är redan målade. Tryck på varje tal i samma räknemönster.",
+   "da": "To ruder er allerede farvet. Tryk på hvert tal i det samme tællemønster.",
+   "no": "To ruter er allerede fargelagt. Trykk på hvert tall i det samme tellemønsteret.",
+   "fi": "Kaksi ruutua on jo väritetty. Napauta jokaista lukua, joka kuuluu samaan lukujonoon."
+  }
  }
 }

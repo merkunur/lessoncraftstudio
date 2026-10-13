@@ -1,0 +1,73 @@
+{
+ "id": "wave-010",
+ "_note": "Number Charts 2026-10-13: the live pages that change — Count in Groups, Odd Number Hunt and Number Machines redesigned to fill the page (same numbers), and the native-review text fixes of this locale — pinned to their original seed and theme",
+ "seedEpoch": 1,
+ "locales": [
+  "no"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-126",
+  "G1-129",
+  "G1-130",
+  "G2-218",
+  "G3-328"
+ ],
+ "levels": {
+  "G1-126": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "animals"
+    },
+    {
+     "copy": 1,
+     "theme": "shapes"
+    }
+   ]
+  },
+  "G1-129": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "animals"
+    },
+    {
+     "copy": 1,
+     "theme": "fruits"
+    }
+   ]
+  },
+  "G1-130": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G2-218": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G3-328": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

@@ -3220,5 +3220,21 @@
     "title": "Labirinto para colorir: o caranguejo na praia",
     "instruction": "Desenhe o caminho do caranguejo até o castelo de areia e pinte o caminho todo. Depois pinte o desenho da praia.",
     "printTitle": "Resolva o labirinto e pinte a praia"
+  },
+  "G3-402": {
+    "title": "Tabuada do 6",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-403": {
+    "title": "Tabuada do 7",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-404": {
+    "title": "Tabuada do 8",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-405": {
+    "title": "Tabuada do 9",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
   }
 }

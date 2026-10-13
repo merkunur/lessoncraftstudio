@@ -3228,5 +3228,21 @@
     "title": "Labyrinth zum Ausmalen: Krabbe am Strand",
     "instruction": "Zeichne den Weg der Krabbe zur Sandburg und male den ganzen Weg aus. Male dann das Strandbild aus.",
     "printTitle": "Löse das Labyrinth und male den Strand aus"
+  },
+  "G3-402": {
+    "title": "Das 6er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-403": {
+    "title": "Das 7er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-404": {
+    "title": "Das 8er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-405": {
+    "title": "Das 9er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
   }
 }

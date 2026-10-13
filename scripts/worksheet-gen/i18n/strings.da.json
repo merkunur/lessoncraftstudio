@@ -3201,5 +3201,21 @@
     "title": "Labyrint til farvelægning: krabben på stranden",
     "instruction": "Tegn krabbens vej hen til sandslottet, og farvelæg hele vejen. Farvelæg så strandbilledet.",
     "printTitle": "Løs labyrinten, og farvelæg stranden"
+  },
+  "G3-402": {
+    "title": "6-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-403": {
+    "title": "7-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-404": {
+    "title": "8-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-405": {
+    "title": "9-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
   }
 }

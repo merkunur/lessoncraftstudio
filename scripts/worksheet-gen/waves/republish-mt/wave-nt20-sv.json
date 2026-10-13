@@ -1,0 +1,27 @@
+{
+ "id": "wave-nt20-sv",
+ "_note": "Multiplication Tables layout republish 2026-10-13 (equations drawn large): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "sv"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G3-358"
+ ],
+ "levels": {
+  "G3-358": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

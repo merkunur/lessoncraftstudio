@@ -3198,5 +3198,21 @@
     "title": "Laberinto para colorear: el cangrejo en la playa",
     "instruction": "Dibuja el camino del cangrejo hasta el castillo de arena y colorea todo el camino. Luego colorea el dibujo de la playa.",
     "printTitle": "Resuelve el laberinto y colorea la playa"
+  },
+  "G3-402": {
+    "title": "La tabla del 6",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-403": {
+    "title": "La tabla del 7",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-404": {
+    "title": "La tabla del 8",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-405": {
+    "title": "La tabla del 9",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
   }
 }

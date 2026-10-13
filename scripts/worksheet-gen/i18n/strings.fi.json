@@ -3193,5 +3193,21 @@
     "title": "Labyrintti ja värityskuva: rapu rannalla",
     "instruction": "Piirrä ravun tie hiekkalinnalle ja väritä koko tie. Väritä sitten rantakuva.",
     "printTitle": "Ratkaise labyrintti ja väritä ranta"
+  },
+  "G3-402": {
+    "title": "6:n kertotaulu",
+    "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
+  },
+  "G3-403": {
+    "title": "7:n kertotaulu",
+    "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
+  },
+  "G3-404": {
+    "title": "8:n kertotaulu",
+    "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
+  },
+  "G3-405": {
+    "title": "9:n kertotaulu",
+    "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
   }
 }

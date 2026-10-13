@@ -3210,5 +3210,21 @@
     "title": "Labyrint til fargelegging: krabben på stranden",
     "instruction": "Tegn krabbens vei fram til sandslottet, og fargelegg hele veien. Fargelegg så strandbildet.",
     "printTitle": "Løs labyrinten, og fargelegg stranden"
+  },
+  "G3-402": {
+    "title": "6-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-403": {
+    "title": "7-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-404": {
+    "title": "8-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-405": {
+    "title": "9-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
   }
 }

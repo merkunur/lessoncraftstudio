@@ -3215,5 +3215,21 @@
     "title": "Labyrinthe à colorier : le crabe à la plage",
     "instruction": "Trace le chemin du crabe jusqu'au château de sable et colorie tout le chemin. Colorie ensuite le dessin de la plage.",
     "printTitle": "Résous le labyrinthe, puis colorie la plage"
+  },
+  "G3-402": {
+    "title": "La table de 6",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-403": {
+    "title": "La table de 7",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-404": {
+    "title": "La table de 8",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-405": {
+    "title": "La table de 9",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
   }
 }

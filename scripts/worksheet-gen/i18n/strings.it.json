@@ -3196,5 +3196,21 @@
     "title": "Labirinto da colorare: il granchio in spiaggia",
     "instruction": "Traccia la strada del granchio fino al castello di sabbia e colora tutta la strada. Poi colora il disegno della spiaggia.",
     "printTitle": "Risolvi il labirinto e colora la spiaggia"
+  },
+  "G3-402": {
+    "title": "La tabellina del 6",
+    "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
+  },
+  "G3-403": {
+    "title": "La tabellina del 7",
+    "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
+  },
+  "G3-404": {
+    "title": "La tabellina dell'8",
+    "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
+  },
+  "G3-405": {
+    "title": "La tabellina del 9",
+    "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
   }
 }

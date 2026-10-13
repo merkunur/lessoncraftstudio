@@ -397,7 +397,7 @@
   },
   "G1-138": {
     "title": "¿Dónde vive?",
-    "instruction": "Halla el número en la recta. Rodea su punto."
+    "instruction": "Busca el número en la recta. Encierra su punto."
   },
   "G1-139": {
     "title": "Cuadro a cuadro",
@@ -522,7 +522,7 @@
   },
   "G2-221": {
     "title": "Redondéalo",
-    "instruction": "Mira el punto. Rodea la decena a la que está más cerca."
+    "instruction": "Mira el punto. Encierra la decena a la que está más cerca."
   },
   "G2-222": {
     "title": "Lee los bloques",
@@ -714,7 +714,7 @@
   },
   "G3-323": {
     "title": "Redondea a la centena",
-    "instruction": "Mira el punto. Rodea la centena a la que está más cerca."
+    "instruction": "Mira el punto. Encierra la centena a la que está más cerca."
   },
   "G3-325": {
     "title": "Duelo de miles",

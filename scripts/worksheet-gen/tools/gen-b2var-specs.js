@@ -19,6 +19,8 @@
  * Idempotent: re-running overwrites exactly its own files.
  */
 'use strict';
+// ⚠ Number Lines Level Set 2026-10-13: the G1-248 variations (G1-274…281, G1-295, G2-305, G2-310) now carry real levels
+// (base.pointerLevels(D)) and read base.legacy[N] — re-running this script would flatten them back to {1:D,2:D,3:D}.
 const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');

@@ -710,7 +710,8 @@
   },
   "G3-323": {
     "title": "Rund til hundrede",
-    "instruction": "Se på prikken. Indkreds det hundrede, den er tættest på."
+    "instruction": "Se på prikken. Indkreds det hundrede, den er tættest på.",
+    "printTitle": "Rund af til hundrede"
   },
   "G3-325": {
     "title": "Tusind-dyst",

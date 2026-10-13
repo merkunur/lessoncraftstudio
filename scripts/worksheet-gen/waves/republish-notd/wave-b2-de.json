@@ -1,0 +1,27 @@
+{
+ "id": "wave-b2-de",
+ "_note": "Number of the Day republish 2026-10-13 (layout: before/after boxes inside their card, bigger tens/ones boxes, full-width number line; G1-257 numbers stop at 69 so counting on by tens stays within 99; de/es/fr/it/pt/fi instruction fixes, it ten-frame label): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-243"
+ ],
+ "levels": {
+  "G1-243": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

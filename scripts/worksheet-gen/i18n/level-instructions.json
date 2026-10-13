@@ -3228,5 +3228,35 @@
    "no": "Skriv tallet hver pil peker på, fra 0 til 10.",
    "fi": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10."
   }
+ },
+ "G1-255": {
+  "3": {
+   "en": "Look at the big number. Fill in every box on the page for that number.",
+   "de": "Zeichne die Zahl des Tages mit Zehnern und Einern und fülle jedes Kästchen aus.",
+   "es": "El número de hoy está entre el 11 y el 19. Llena todas las casillas.",
+   "fr": "Le nombre du jour est entre 11 et 19 : remplis tout.",
+   "it": "Il numero va da 11 a 19: riempi ogni riquadro.",
+   "pt": "O número fica entre 11 e 19: desenhe com blocos e preencha todos os quadros.",
+   "nl": "Vul alle vakken in bij het tienergetal: in woord, tientallen en tellen.",
+   "sv": "Dagens tal ligger mellan 11 och 20. Fyll i alla rutor på sidan.",
+   "da": "Dagens tal er mellem 11 og 20. Udfyld alle felterne på siden.",
+   "no": "Se på dagens tall mellom 11 og 20. Fyll ut hver rute på arket.",
+   "fi": "Piirrä päivän luku palikoilla ja täytä muut ruudut luvun mukaan."
+  }
+ },
+ "G1-256": {
+  "1": {
+   "en": "Find ten more and ten less than the number of the day.",
+   "de": "Rechne zu deiner Zahl 10 dazu und ziehe 10 ab.",
+   "es": "Calcula 10 más y 10 menos del número de hoy.",
+   "fr": "Calcule 10 de plus et 10 de moins.",
+   "it": "Trova dieci in più e dieci in meno.",
+   "pt": "Calcule 10 a mais e 10 a menos e mostre o número nos quadros de dez.",
+   "nl": "Vul alle vakken in en zoek tien meer en tien minder dan het getal.",
+   "sv": "Räkna ut tio mer och tio mindre än dagens tal.",
+   "da": "Find 10 mere og 10 mindre end dagens tal, og udfyld resten.",
+   "no": "Finn ti mer og ti mindre enn dagens tall, og fyll ut resten.",
+   "fi": "Etsi 10 enemmän ja 10 vähemmän kuin päivän luku."
+  }
  }
 }

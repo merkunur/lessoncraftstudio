@@ -19,6 +19,8 @@
  * Idempotent: re-running overwrites exactly its own files.
  */
 'use strict';
+// ⚠ Number of the Day Level Set 2026-10-13: G1-255 / G1-256 / G1-257 read base.levelsFor(id) (real levels; G1-257 L2 stops
+//   at 69). A re-run would overwrite them with one-level specs — skip those three or keep their hand-made files.
 // ⚠ Number Lines Level Set 2026-10-13: the G1-248 variations (G1-274…281, G1-295, G2-305, G2-310) now carry real levels
 // (base.pointerLevels(D)) and read base.legacy[N] — re-running this script would flatten them back to {1:D,2:D,3:D}.
 const fs = require('fs');

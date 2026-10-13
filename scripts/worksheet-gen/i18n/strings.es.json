@@ -1013,7 +1013,7 @@
   },
   "G1-210": {
     "title": "Números en letras",
-    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+    "instruction": "Lee el número y encierra la palabra que le corresponde."
   },
   "G1-211": {
     "title": "Contamos monedas",
@@ -1225,11 +1225,11 @@
   },
   "G1-223": {
     "title": "Números en letras hasta 20",
-    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+    "instruction": "Lee el número y encierra la palabra que le corresponde."
   },
   "G1-224": {
     "title": "Las decenas en letras: del 10 al 100",
-    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+    "instruction": "Lee el número y encierra la palabra que le corresponde."
   },
   "G1-225": {
     "title": "Une números con palabras",
@@ -1237,7 +1237,7 @@
   },
   "G1-226": {
     "title": "Números en letras hasta 50",
-    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+    "instruction": "Lee el número y encierra la palabra que le corresponde."
   },
   "G1-227": {
     "title": "Escribe los números en letras",

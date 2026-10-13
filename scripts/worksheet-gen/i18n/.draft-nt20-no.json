@@ -11,7 +11,7 @@
     "K-243": {"title": "Tiervenner", "instruction": "Finn tiervennene. Skriv tallet som mangler i den stiplede sirkelen."},
     "G1-208": {"title": "Hoderegning til 20", "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."},
     "G1-209": {"title": "Regnefamilier", "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."},
-    "G1-210": {"title": "Tallord", "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."},
+    "G1-210": {"title": "Tallord", "instruction": "Les tallet. Sett ring rundt tallordet som passer til det."},
     "G1-211": {"title": "Telle mynter", "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."},
     "G1-212": {"title": "Tegn viserne på klokka", "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."},
     "G1-213": {"title": "Regnefortellinger med bilder", "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."},

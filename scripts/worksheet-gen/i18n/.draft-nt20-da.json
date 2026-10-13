@@ -11,7 +11,7 @@
     "K-243": {"title": "Tiervenner op til 10", "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."},
     "G1-208": {"title": "Hovedregning op til 20", "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."},
     "G1-209": {"title": "Talfamilier i huset", "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."},
-    "G1-210": {"title": "Tal og talord", "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."},
+    "G1-210": {"title": "Tal og talord", "instruction": "Læs tallet. Sæt en ring om det ord, der passer til tallet."},
     "G1-211": {"title": "Tæl mønterne", "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."},
     "G1-212": {"title": "Tegn viserne på uret", "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."},
     "G1-213": {"title": "Regnehistorier med billeder", "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."},

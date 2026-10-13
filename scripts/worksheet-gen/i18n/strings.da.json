@@ -1010,7 +1010,7 @@
   },
   "G1-210": {
     "title": "Tal og talord",
-    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+    "instruction": "Læs tallet. Sæt en ring om det ord, der passer til tallet."
   },
   "G1-211": {
     "title": "Tæl mønterne",
@@ -1222,11 +1222,11 @@
   },
   "G1-223": {
     "title": "Talord op til 20",
-    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+    "instruction": "Læs tallet. Sæt en ring om det ord, der passer til tallet."
   },
   "G1-224": {
     "title": "Talord: hele tiere til 100",
-    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+    "instruction": "Læs tallet. Sæt en ring om det ord, der passer til tallet."
   },
   "G1-225": {
     "title": "Forbind tal og talord",
@@ -1234,7 +1234,7 @@
   },
   "G1-226": {
     "title": "Talord op til 50",
-    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+    "instruction": "Læs tallet. Sæt en ring om det ord, der passer til tallet."
   },
   "G1-227": {
     "title": "Skriv talordene",

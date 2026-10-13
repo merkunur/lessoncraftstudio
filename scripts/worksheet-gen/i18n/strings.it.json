@@ -1230,7 +1230,7 @@
   },
   "G1-225": {
     "title": "Collega numeri e parole",
-    "instruction": "Traccia una linea da ogni numero in cifre al numero in lettere."
+    "instruction": "Traccia una linea da ogni numero in cifre al suo numero in lettere."
   },
   "G1-226": {
     "title": "Numeri in lettere fino a 50",

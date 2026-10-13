@@ -1,0 +1,47 @@
+{
+ "id": "wave-var-core-es",
+ "_note": "Number Words native review fix 2026-10-13 (printed instruction text; nl G1-223 one = één): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-223",
+  "G1-224",
+  "G1-226"
+ ],
+ "levels": {
+  "G1-223": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G1-224": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G1-226": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

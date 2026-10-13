@@ -1,0 +1,263 @@
+{
+  "locale": "fi",
+  "types": {
+    "K-405": {
+      "title": "Labyrintti lapsille: siili ja omenapuu",
+      "printTitle": "Auta siiliä omenapuun luo",
+      "instruction": "Auta siiliä pääsemään omenapuun luo. Piirrä viiva tietä pitkin."
+    },
+    "K-406": {
+      "title": "Ensimmäinen labyrinttini: varhaiskasvatus",
+      "printTitle": "Auta koiranpentua pallon luo",
+      "instruction": "Auta koiranpentua pääsemään pallon luo. Piirrä viiva leveää tietä pitkin ja pysy reunojen sisällä."
+    },
+    "G1-420": {
+      "title": "Iso labyrintti 1. luokka: viidakko",
+      "printTitle": "Auta orankia löytämään banaanipuu",
+      "instruction": "Katso ensin koko labyrintti. Piirrä sitten orangin reitti banaanipuun luo."
+    },
+    "K-407": {
+      "title": "Jokilabyrintti: vene ja nalle",
+      "printTitle": "Ohjaa vene nallen luo",
+      "instruction": "Auta venettä kulkemaan purossa nallen luo laiturille. Piirrä viiva veden läpi."
+    },
+    "G1-421": {
+      "title": "Maanalainen labyrintti: muurahaisen käytävät",
+      "printTitle": "Auta muurahaista vadelman luo",
+      "instruction": "Auta muurahaista kulkemaan käytävissä alas ja ylös vadelman luo. Piirrä viiva tietä pitkin."
+    },
+    "G1-422": {
+      "title": "Kaupunkilabyrintti: lyhin reitti",
+      "printTitle": "Lyhin reitti vihreän auton luo",
+      "instruction": "Monta katua vie vihreän auton luo. Piirrä hinausautolle lyhin reitti ja kirjoita, kuinka monta katupalaa se ajaa."
+    },
+    "K-408": {
+      "title": "Labyrintti: poikaset etsivät emonsa",
+      "printTitle": "Auta jokaista poikasta löytämään emonsa",
+      "instruction": "Auta jokaista poikasta löytämään oma emonsa. Piirrä viiva jokaiselta poikaselta sen emon luo."
+    },
+    "G1-423": {
+      "title": "Sotkuiset narut: kenen leija?",
+      "printTitle": "Kenen leija se on?",
+      "instruction": "Seuraa jokaista narua eläimeltä sen leijalle tai ilmapallolle. Kirjoita eläimen numero sen yläpuolella olevaan ruutuun."
+    },
+    "G1-424": {
+      "title": "Labyrintti: kerää kaikki porkkanat",
+      "printTitle": "Auta kania keräämään kaikki porkkanat",
+      "instruction": "Auta kania pääsemään ämpärin luo ja kerää jokainen porkkana kulkematta samaa polkua kahdesti. Rastita yksi ympyrä jokaisesta porkkanasta."
+    },
+    "G1-425": {
+      "title": "Labyrintti: väistä mursut",
+      "printTitle": "Vie jääkarhu turvallisesti kotiin",
+      "instruction": "Auta jääkarhua pääsemään igluun. Älä kulje yhdenkään mursun tai jäässä olevan reiän ohi."
+    },
+    "K-409": {
+      "title": "Labyrintti A:sta Ö:hön: raketti kuuhun",
+      "printTitle": "Lennä kuuhun A:sta Ö:hön",
+      "instruction": "Auta rakettia lentämään kuuhun. Mene jokaisessa risteyksessä kivelle, jossa on aakkosten seuraava kirjain."
+    },
+    "K-410": {
+      "title": "Pienten kirjainten labyrintti: meri",
+      "printTitle": "Ui kotiin a:sta ö:hön",
+      "instruction": "Auta vuokkokalaa uimaan korallin luo. Mene jokaisessa risteyksessä kuplalle, jossa on seuraava pieni kirjain."
+    },
+    "G1-426": {
+      "title": "Hypi aakkosjärjestyksessä: hunajakenno",
+      "printTitle": "Hypi hunajakennon läpi aakkosjärjestyksessä",
+      "instruction": "Aloita ruudusta, johon nuoli osoittaa. Väritä aina aakkosten seuraava kirjain viereisessä ruudussa, kirjaimeen {LAST} asti."
+    },
+    "K-411": {
+      "title": "Numerolabyrintti 1–20: juna",
+      "printTitle": "Laske junan kanssa mökille asti",
+      "instruction": "Auta junaa pääsemään mökille. Mene jokaisessa risteyksessä seuraavaan lukuun, 1:stä 20:een."
+    },
+    "G2-392": {
+      "title": "Matematiikkalabyrintti: viiden välein",
+      "printTitle": "Laske viiden välein sateenkaarelle",
+      "instruction": "Auta kuumailmapalloa pääsemään sateenkaarelle. Laske viiden välein pilveltä pilvelle aina sataan asti."
+    },
+    "G1-427": {
+      "title": "Matematiikkalabyrintti 1. luokka: kymppiparit",
+      "printTitle": "Astu vain laskuille, joiden summa on 10",
+      "instruction": "Auta kirahvia pääsemään apinanleipäpuun luo. Astu vain kiville, joiden summa on 10."
+    },
+    "G1-428": {
+      "title": "Vähennyslaskulabyrintti 20:een asti",
+      "printTitle": "Auta piparkakku-ukkoa pääsemään kakun luo",
+      "instruction": "Katso piparkakku-ukon vieressä olevaa lukua. Astu vain kiville, joiden vastaus on se luku."
+    },
+    "K-412": {
+      "title": "Alkuäännelabyrintti: kuin leijona",
+      "printTitle": "Kuvat, jotka alkavat kuin leijona",
+      "instruction": "Sano jokaisen kuvan nimi. Astu vain kuville, jotka alkavat samalla äänteellä kuin leijona."
+    },
+    "G2-393": {
+      "title": "Matematiikkalabyrintti 2. luokka: 100 asti",
+      "printTitle": "Vie nosturille sen luku",
+      "instruction": "Aloita kuorma-auton luvusta ja kirjoita uusi luku jokaisen kyltin ruutuun. Etsi tie, joka päättyy nosturin lukuun."
+    },
+    "K-413": {
+      "title": "Labyrintti ja värityskuva: rapu rannalla",
+      "printTitle": "Ratkaise labyrintti ja väritä ranta",
+      "instruction": "Piirrä ravun tie hiekkalinnalle ja väritä koko tie. Väritä sitten rantakuva."
+    }
+  },
+  "families": {
+    "maze-puzzles": {
+      "slug": "labyrinttitehtavat",
+      "name": "Labyrinttitehtävät"
+    }
+  },
+  "skills": {
+    "maze-puzzles": {
+      "full": "Viivan piirtäminen kuvalabyrintin läpi ja seuraavan kirjaimen, luvun tai laskun valitseminen jokaisessa risteyksessä harjoittaa suunnittelua ja kynäotetta; vastauksineen.",
+      "short": "Harjoittaa suunnittelua ja kynäotetta."
+    }
+  },
+  "topicMeta": {
+    "maze-puzzles": "Labyrinttitehtäviä lapsille: ohjaa siili, raketti tai jääkarhu kuvalabyrintin läpi, seuraa kirjaimia A:sta Ö:hön, lukuja 20:een asti, laske viiden välein tai etsi kymppiparit. Tulostettavat tehtävät vastauksineen esikoulusta 2. luokalle."
+  },
+  "banks": {
+    "maze-puzzles": {
+      "strings": {
+        "base": {
+          "title": "Labyrintti lapsille: siili ja omenapuu",
+          "printTitle": "Auta siiliä omenapuun luo",
+          "instruction": "Auta siiliä pääsemään omenapuun luo. Piirrä viiva tietä pitkin.",
+          "tap": "Aloita vihreästä ympyrästä, jossa on nuoli. Vedä tietä pitkin lipulle asti."
+        },
+        "first-maze": {
+          "title": "Ensimmäinen labyrinttini: varhaiskasvatus",
+          "printTitle": "Auta koiranpentua pallon luo",
+          "instruction": "Auta koiranpentua pääsemään pallon luo. Piirrä viiva leveää tietä pitkin ja pysy reunojen sisällä.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä leveää tietä pitkin pallolle asti."
+        },
+        "big-maze": {
+          "title": "Iso labyrintti 1. luokka: viidakko",
+          "printTitle": "Auta orankia löytämään banaanipuu",
+          "instruction": "Katso ensin koko labyrintti. Piirrä sitten orangin reitti banaanipuun luo.",
+          "tap": "Katso ensin ja vedä sitten vihreästä ympyrästä banaanipuulle. Jos tie loppuu, palaa takaisin."
+        },
+        "river": {
+          "title": "Jokilabyrintti: vene ja nalle",
+          "printTitle": "Ohjaa vene nallen luo",
+          "instruction": "Auta venettä kulkemaan purossa nallen luo laiturille. Piirrä viiva veden läpi.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä veden läpi nallelle asti."
+        },
+        "burrow": {
+          "title": "Maanalainen labyrintti: muurahaisen käytävät",
+          "printTitle": "Auta muurahaista vadelman luo",
+          "instruction": "Auta muurahaista kulkemaan käytävissä alas ja ylös vadelman luo. Piirrä viiva tietä pitkin.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä käytäviä pitkin vadelmalle asti."
+        },
+        "shortest-way": {
+          "title": "Kaupunkilabyrintti: lyhin reitti",
+          "printTitle": "Lyhin reitti vihreän auton luo",
+          "instruction": "Monta katua vie vihreän auton luo. Piirrä hinausautolle lyhin reitti ja kirjoita, kuinka monta katupalaa se ajaa.",
+          "tap": "Vedä lyhin reitti vihreästä ympyrästä vihreälle autolle."
+        },
+        "babies-mothers": {
+          "title": "Labyrintti: poikaset etsivät emonsa",
+          "printTitle": "Auta jokaista poikasta löytämään emonsa",
+          "instruction": "Auta jokaista poikasta löytämään oma emonsa. Piirrä viiva jokaiselta poikaselta sen emon luo.",
+          "tap": "Vedä jokaiselta poikaselta sen omalle emolle."
+        },
+        "tangled-lines": {
+          "title": "Sotkuiset narut: kenen leija?",
+          "printTitle": "Kenen leija se on?",
+          "instruction": "Seuraa jokaista narua eläimeltä sen leijalle tai ilmapallolle. Kirjoita eläimen numero sen yläpuolella olevaan ruutuun.",
+          "tap": "Vedä jokaista narua pitkin eläimeltä sen leijalle tai ilmapallolle."
+        },
+        "collect": {
+          "title": "Labyrintti: kerää kaikki porkkanat",
+          "printTitle": "Auta kania keräämään kaikki porkkanat",
+          "instruction": "Auta kania pääsemään ämpärin luo ja kerää jokainen porkkana kulkematta samaa polkua kahdesti. Rastita yksi ympyrä jokaisesta porkkanasta.",
+          "tap": "Vedä vihreästä ympyrästä ämpärille. Kulje jokaisen porkkanan kautta."
+        },
+        "avoid": {
+          "title": "Labyrintti: väistä mursut",
+          "printTitle": "Vie jääkarhu turvallisesti kotiin",
+          "instruction": "Auta jääkarhua pääsemään igluun. Älä kulje yhdenkään mursun tai jäässä olevan reiän ohi.",
+          "tap": "Vedä vihreästä ympyrästä igluun kulkematta mursun tai reiän ohi."
+        },
+        "abc-capitals": {
+          "title": "Labyrintti A:sta Ö:hön: raketti kuuhun",
+          "printTitle": "Lennä kuuhun A:sta Ö:hön",
+          "instruction": "Auta rakettia lentämään kuuhun. Mene jokaisessa risteyksessä kivelle, jossa on aakkosten seuraava kirjain.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavalle kirjaimelle."
+        },
+        "abc-lowercase": {
+          "title": "Pienten kirjainten labyrintti: meri",
+          "printTitle": "Ui kotiin a:sta ö:hön",
+          "instruction": "Auta vuokkokalaa uimaan korallin luo. Mene jokaisessa risteyksessä kuplalle, jossa on seuraava pieni kirjain.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavalle pienelle kirjaimelle."
+        },
+        "letter-hop": {
+          "title": "Hypi aakkosjärjestyksessä: hunajakenno",
+          "printTitle": "Hypi hunajakennon läpi aakkosjärjestyksessä",
+          "instruction": "Aloita ruudusta, johon nuoli osoittaa. Väritä aina aakkosten seuraava kirjain viereisessä ruudussa, kirjaimeen {LAST} asti.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä ruutu kerrallaan aakkosten seuraavalle kirjaimelle."
+        },
+        "numbers-20": {
+          "title": "Numerolabyrintti 1–20: juna",
+          "printTitle": "Laske junan kanssa mökille asti",
+          "instruction": "Auta junaa pääsemään mökille. Mene jokaisessa risteyksessä seuraavaan lukuun, 1:stä 20:een.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä jokaisessa risteyksessä seuraavaan lukuun."
+        },
+        "skip-5": {
+          "title": "Matematiikkalabyrintti: viiden välein",
+          "printTitle": "Laske viiden välein sateenkaarelle",
+          "instruction": "Auta kuumailmapalloa pääsemään sateenkaarelle. Laske viiden välein pilveltä pilvelle aina sataan asti.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä pilveltä pilvelle viiden välein laskien."
+        },
+        "make-10": {
+          "title": "Matematiikkalabyrintti 1. luokka: kymppiparit",
+          "printTitle": "Astu vain laskuille, joiden summa on 10",
+          "instruction": "Auta kirahvia pääsemään apinanleipäpuun luo. Astu vain kiville, joiden summa on 10.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden summa on 10."
+        },
+        "subtract-20": {
+          "title": "Vähennyslaskulabyrintti 20:een asti",
+          "printTitle": "Auta piparkakku-ukkoa pääsemään kakun luo",
+          "instruction": "Katso piparkakku-ukon vieressä olevaa lukua. Astu vain kiville, joiden vastaus on se luku.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä vain kivien yli, joiden vastaus on piparkakku-ukon luku."
+        },
+        "first-sound": {
+          "title": "Alkuäännelabyrintti: kuin leijona",
+          "printTitle": "Kuvat, jotka alkavat kuin leijona",
+          "instruction": "Sano jokaisen kuvan nimi. Astu vain kuville, jotka alkavat samalla äänteellä kuin leijona.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä vain kuvien yli, jotka alkavat kuin leijona."
+        },
+        "running-total": {
+          "title": "Matematiikkalabyrintti 2. luokka: 100 asti",
+          "printTitle": "Vie nosturille sen luku",
+          "instruction": "Aloita kuorma-auton luvusta ja kirjoita uusi luku jokaisen kyltin ruutuun. Etsi tie, joka päättyy nosturin lukuun.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä tietä pitkin, joka päättyy nosturin lukuun."
+        },
+        "maze-colouring": {
+          "title": "Labyrintti ja värityskuva: rapu rannalla",
+          "printTitle": "Ratkaise labyrintti ja väritä ranta",
+          "instruction": "Piirrä ravun tie hiekkalinnalle ja väritä koko tie. Väritä sitten rantakuva.",
+          "tap": "Aloita vihreästä ympyrästä. Vedä tietä pitkin hiekkalinnalle asti."
+        }
+      },
+      "chrome": {
+        "mzGoBack": "Takaisin",
+        "mzKeepGoing": "Jatka: tie ei lopu tähän.",
+        "mzLookAtRing": "Katso punaisen ympyrän kuvaa.",
+        "mzMissed": "Yksi porkkana puuttuu. Katso punaista ympyrää.",
+        "mzTwice": "Olet jo kulkenut tätä tietä.",
+        "mzAvoid": "Tämä tie kulkee jonkin väistettävän ohi.",
+        "mzShorter": "Löytyy lyhyempi tie.",
+        "mzWrongHome": "Tämä poikanen ei ole vielä emonsa luona.",
+        "mzWaysHere": "Tiet tästä",
+        "mzPathN": "Tie {n}",
+        "mzAt": "Pysäkki {n}",
+        "mzDeadEnd": "Tämä tie loppuu tähän.",
+        "mzAtGoal": "Perillä!"
+      }
+    }
+  },
+  "refusals": {},
+  "enAudit": []
+}

@@ -1,0 +1,265 @@
+{
+  "locale": "no",
+  "types": {
+    "K-405": {
+      "title": "Labyrint for barn: pinnsvinet og epletreet",
+      "printTitle": "Hjelp pinnsvinet fram til epletreet",
+      "instruction": "Hjelp pinnsvinet fram til epletreet. Tegn en strek langs veien."
+    },
+    "K-406": {
+      "title": "Min første labyrint: barnehage",
+      "printTitle": "Hjelp valpen fram til ballen",
+      "instruction": "Hjelp valpen fram til ballen. Tegn en strek på den brede veien, og hold deg innenfor kantene."
+    },
+    "G1-420": {
+      "title": "Stor labyrint 2. trinn: jungelen",
+      "printTitle": "Hjelp orangutangen med å finne banantreet",
+      "instruction": "Se først på hele labyrinten. Tegn så orangutangens vei fram til banantreet."
+    },
+    "K-407": {
+      "title": "Elvelabyrint: båten og bamsen",
+      "printTitle": "Styr båten fram til bamsen",
+      "instruction": "Hjelp båten nedover bekken fram til bamsen på brygga. Tegn en strek gjennom vannet."
+    },
+    "G1-421": {
+      "title": "Labyrint under jorden: maurgangene",
+      "printTitle": "Hjelp mauren fram til bringebæret",
+      "instruction": "Hjelp mauren ned og opp gjennom gangene fram til bringebæret. Tegn en strek langs veien."
+    },
+    "G1-422": {
+      "title": "Bylabyrint: finn den korteste veien",
+      "printTitle": "Den korteste veien til den grønne bilen",
+      "instruction": "Mange gater fører til den grønne bilen. Tegn den korteste veien for bergingsbilen, og skriv hvor mange gatebiter den kjører."
+    },
+    "K-408": {
+      "title": "Labyrint: ungene finner mammaene sine",
+      "printTitle": "Hjelp hver unge med å finne mammaen sin",
+      "instruction": "Hjelp hver dyreunge med å finne sin egen mamma. Tegn en strek fra hver unge fram til mammaen dens."
+    },
+    "G1-423": {
+      "title": "Floker: hvem eier dragen?",
+      "printTitle": "Hvem eier dragen?",
+      "instruction": "Følg hver snor fra et dyr fram til dragen eller ballongen dens. Skriv dyrets nummer i ruten over."
+    },
+    "G1-424": {
+      "title": "Labyrint: plukk alle gulrøttene",
+      "printTitle": "Hjelp kaninen med å plukke alle gulrøttene",
+      "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot uten å gå samme vei to ganger. Sett kryss i en sirkel for hver gulrot."
+    },
+    "G1-425": {
+      "title": "Labyrint: unngå hvalrossene",
+      "printTitle": "Få isbjørnen trygt hjem",
+      "instruction": "Hjelp isbjørnen fram til igloen. Ikke ta en vei der det ligger en hvalross eller et hull i isen."
+    },
+    "K-409": {
+      "title": "Alfabetlabyrint fra A til Å: raketten",
+      "printTitle": "Fly til månen fra A til Å",
+      "instruction": "Hjelp raketten med å fly til månen. Gå ved hvert veiskille til steinen med neste bokstav i alfabetet."
+    },
+    "K-410": {
+      "title": "Labyrint med små bokstaver: havet",
+      "printTitle": "Svøm hjem fra a til å",
+      "instruction": "Hjelp klovnefisken med å svømme fram til korallen. Gå ved hvert veiskille til boblen med neste lille bokstav."
+    },
+    "G1-426": {
+      "title": "Hopp i alfabetisk rekkefølge: bikaken",
+      "printTitle": "Hopp gjennom bikaken i alfabetisk rekkefølge",
+      "instruction": "Start i ruten som pilen peker på. Fargelegg neste bokstav i alfabetet i en rute ved siden av, helt til {LAST}."
+    },
+    "K-411": {
+      "title": "Labyrint med tall 1-20: toget",
+      "printTitle": "Tell med toget fram til hytta",
+      "instruction": "Hjelp toget fram til hytta. Gå ved hvert veiskille til neste tall, fra 1 til 20."
+    },
+    "G2-392": {
+      "title": "Mattelabyrint 3. trinn: tell fem og fem",
+      "printTitle": "Tell fem og fem fram til regnbuen",
+      "instruction": "Hjelp luftballongen fram til regnbuen. Tell fem og fem fra sky til sky, helt til 100."
+    },
+    "G1-427": {
+      "title": "Mattelabyrint 2. trinn: tiervenner",
+      "printTitle": "Gå bare på regnestykkene som blir 10",
+      "instruction": "Hjelp sjiraffen fram til baobabtreet. Gå bare på steinene der summen er 10."
+    },
+    "G1-428": {
+      "title": "Mattelabyrint: minus til 20",
+      "printTitle": "Hjelp pepperkakemannen fram til kaka",
+      "instruction": "Se på tallet ved pepperkakemannen. Gå bare på steinene der svaret er det tallet."
+    },
+    "K-412": {
+      "title": "Labyrint første lyd: som løve",
+      "printTitle": "Bilder som begynner som løve",
+      "instruction": "Si navnet på hvert bilde. Gå bare på bilder som begynner med samme lyd som løve."
+    },
+    "G2-393": {
+      "title": "Mattelabyrint 3. trinn: pluss og minus til 100",
+      "printTitle": "Gi kranen tallet sitt",
+      "instruction": "Start med lastebilens tall, og skriv det nye tallet i ruten ved hvert skilt. Finn veien som slutter på kranens tall."
+    },
+    "K-413": {
+      "title": "Labyrint til fargelegging: krabben på stranden",
+      "printTitle": "Løs labyrinten, og fargelegg stranden",
+      "instruction": "Tegn krabbens vei fram til sandslottet, og fargelegg hele veien. Fargelegg så strandbildet."
+    }
+  },
+  "families": {
+    "maze-puzzles": {
+      "slug": "labyrintoppgaver",
+      "name": "Labyrintoppgaver"
+    }
+  },
+  "skills": {
+    "maze-puzzles": {
+      "full": "Å tegne en strek gjennom en bildelabyrint og ved hvert veiskille velge neste bokstav, tall eller regnestykke trener planlegging og blyantgrep; med fasit.",
+      "short": "Trener planlegging og blyantgrep i en bildelabyrint."
+    }
+  },
+  "topicMeta": {
+    "maze-puzzles": "Labyrintoppgaver for barn: led et pinnsvin, en rakett eller en isbjørn gjennom en bildelabyrint, følg bokstavene fra A til Å, tallene til 20, tell fem og fem eller finn tiervennene. Til utskrift med fasit, barnehage til 3. trinn."
+  },
+  "banks": {
+    "maze-puzzles": {
+      "strings": {
+        "base": {
+          "title": "Labyrint for barn: pinnsvinet og epletreet",
+          "printTitle": "Hjelp pinnsvinet fram til epletreet",
+          "instruction": "Hjelp pinnsvinet fram til epletreet. Tegn en strek langs veien.",
+          "tap": "Start ved den grønne sirkelen med pilen. Dra langs veien fram til flagget."
+        },
+        "first-maze": {
+          "title": "Min første labyrint: barnehage",
+          "printTitle": "Hjelp valpen fram til ballen",
+          "instruction": "Hjelp valpen fram til ballen. Tegn en strek på den brede veien, og hold deg innenfor kantene.",
+          "tap": "Start ved den grønne sirkelen. Dra på den brede veien fram til ballen."
+        },
+        "big-maze": {
+          "title": "Stor labyrint 2. trinn: jungelen",
+          "printTitle": "Hjelp orangutangen med å finne banantreet",
+          "instruction": "Se først på hele labyrinten. Tegn så orangutangens vei fram til banantreet.",
+          "tap": "Se først, og dra så fra den grønne sirkelen fram til banantreet. Hvis en vei stopper, gå tilbake."
+        },
+        "river": {
+          "title": "Elvelabyrint: båten og bamsen",
+          "printTitle": "Styr båten fram til bamsen",
+          "instruction": "Hjelp båten nedover bekken fram til bamsen på brygga. Tegn en strek gjennom vannet.",
+          "tap": "Start ved den grønne sirkelen. Dra gjennom vannet fram til bamsen."
+        },
+        "burrow": {
+          "title": "Labyrint under jorden: maurgangene",
+          "printTitle": "Hjelp mauren fram til bringebæret",
+          "instruction": "Hjelp mauren ned og opp gjennom gangene fram til bringebæret. Tegn en strek langs veien.",
+          "tap": "Start ved den grønne sirkelen. Dra gjennom gangene fram til bringebæret."
+        },
+        "shortest-way": {
+          "title": "Bylabyrint: finn den korteste veien",
+          "printTitle": "Den korteste veien til den grønne bilen",
+          "instruction": "Mange gater fører til den grønne bilen. Tegn den korteste veien for bergingsbilen, og skriv hvor mange gatebiter den kjører.",
+          "tap": "Dra den korteste veien fra den grønne sirkelen fram til den grønne bilen."
+        },
+        "babies-mothers": {
+          "title": "Labyrint: ungene finner mammaene sine",
+          "printTitle": "Hjelp hver unge med å finne mammaen sin",
+          "instruction": "Hjelp hver dyreunge med å finne sin egen mamma. Tegn en strek fra hver unge fram til mammaen dens.",
+          "tap": "Dra fra hver unge fram til dens egen mamma."
+        },
+        "tangled-lines": {
+          "title": "Floker: hvem eier dragen?",
+          "printTitle": "Hvem eier dragen?",
+          "instruction": "Følg hver snor fra et dyr fram til dragen eller ballongen dens. Skriv dyrets nummer i ruten over.",
+          "tap": "Dra langs hver snor fra dyret fram til dragen eller ballongen dens."
+        },
+        "collect": {
+          "title": "Labyrint: plukk alle gulrøttene",
+          "printTitle": "Hjelp kaninen med å plukke alle gulrøttene",
+          "instruction": "Hjelp kaninen fram til bøtta, og plukk hver gulrot uten å gå samme vei to ganger. Sett kryss i en sirkel for hver gulrot.",
+          "tap": "Dra fra den grønne sirkelen fram til bøtta. Gå forbi hver gulrot."
+        },
+        "avoid": {
+          "title": "Labyrint: unngå hvalrossene",
+          "printTitle": "Få isbjørnen trygt hjem",
+          "instruction": "Hjelp isbjørnen fram til igloen. Ikke ta en vei der det ligger en hvalross eller et hull i isen.",
+          "tap": "Dra fra den grønne sirkelen fram til igloen. Ikke ta en vei med en hvalross eller et hull."
+        },
+        "abc-capitals": {
+          "title": "Alfabetlabyrint fra A til Å: raketten",
+          "printTitle": "Fly til månen fra A til Å",
+          "instruction": "Hjelp raketten med å fly til månen. Gå ved hvert veiskille til steinen med neste bokstav i alfabetet.",
+          "tap": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste bokstav."
+        },
+        "abc-lowercase": {
+          "title": "Labyrint med små bokstaver: havet",
+          "printTitle": "Svøm hjem fra a til å",
+          "instruction": "Hjelp klovnefisken med å svømme fram til korallen. Gå ved hvert veiskille til boblen med neste lille bokstav.",
+          "tap": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste lille bokstav."
+        },
+        "letter-hop": {
+          "title": "Hopp i alfabetisk rekkefølge: bikaken",
+          "printTitle": "Hopp gjennom bikaken i alfabetisk rekkefølge",
+          "instruction": "Start i ruten som pilen peker på. Fargelegg neste bokstav i alfabetet i en rute ved siden av, helt til {LAST}.",
+          "tap": "Start ved den grønne sirkelen. Dra rute for rute til neste bokstav i alfabetet."
+        },
+        "numbers-20": {
+          "title": "Labyrint med tall 1-20: toget",
+          "printTitle": "Tell med toget fram til hytta",
+          "instruction": "Hjelp toget fram til hytta. Gå ved hvert veiskille til neste tall, fra 1 til 20.",
+          "tap": "Start ved den grønne sirkelen. Dra ved hvert veiskille til neste tall."
+        },
+        "skip-5": {
+          "title": "Mattelabyrint 3. trinn: tell fem og fem",
+          "printTitle": "Tell fem og fem fram til regnbuen",
+          "instruction": "Hjelp luftballongen fram til regnbuen. Tell fem og fem fra sky til sky, helt til 100.",
+          "tap": "Start ved den grønne sirkelen. Dra fra sky til sky, og tell fem og fem."
+        },
+        "make-10": {
+          "title": "Mattelabyrint 2. trinn: tiervenner",
+          "printTitle": "Gå bare på regnestykkene som blir 10",
+          "instruction": "Hjelp sjiraffen fram til baobabtreet. Gå bare på steinene der summen er 10.",
+          "tap": "Start ved den grønne sirkelen. Dra bare over steinene som blir 10."
+        },
+        "subtract-20": {
+          "title": "Mattelabyrint: minus til 20",
+          "printTitle": "Hjelp pepperkakemannen fram til kaka",
+          "instruction": "Se på tallet ved pepperkakemannen. Gå bare på steinene der svaret er det tallet.",
+          "tap": "Start ved den grønne sirkelen. Dra bare over steinene der svaret er pepperkakemannens tall."
+        },
+        "first-sound": {
+          "title": "Labyrint første lyd: som løve",
+          "printTitle": "Bilder som begynner som løve",
+          "instruction": "Si navnet på hvert bilde. Gå bare på bilder som begynner med samme lyd som løve.",
+          "tap": "Start ved den grønne sirkelen. Dra bare over bilder som begynner som løve."
+        },
+        "running-total": {
+          "title": "Mattelabyrint 3. trinn: pluss og minus til 100",
+          "printTitle": "Gi kranen tallet sitt",
+          "instruction": "Start med lastebilens tall, og skriv det nye tallet i ruten ved hvert skilt. Finn veien som slutter på kranens tall.",
+          "tap": "Start ved den grønne sirkelen. Dra langs veien som slutter på kranens tall."
+        },
+        "maze-colouring": {
+          "title": "Labyrint til fargelegging: krabben på stranden",
+          "printTitle": "Løs labyrinten, og fargelegg stranden",
+          "instruction": "Tegn krabbens vei fram til sandslottet, og fargelegg hele veien. Fargelegg så strandbildet.",
+          "tap": "Start ved den grønne sirkelen. Dra langs veien fram til sandslottet."
+        }
+      },
+      "chrome": {
+        "mzGoBack": "Tilbake",
+        "mzKeepGoing": "Fortsett: veien slutter ikke her.",
+        "mzLookAtRing": "Se på bildet i den røde sirkelen.",
+        "mzMissed": "Det mangler en gulrot. Se på den røde sirkelen.",
+        "mzTwice": "Den veien har du allerede brukt.",
+        "mzAvoid": "Denne veien går forbi noe du skal unngå.",
+        "mzShorter": "Det finnes en kortere vei.",
+        "mzWrongHome": "Denne ungen er ikke hos mammaen sin ennå.",
+        "mzWaysHere": "Veier herfra",
+        "mzPathN": "Vei {n}",
+        "mzAt": "Stopp {n}",
+        "mzDeadEnd": "Denne veien slutter her.",
+        "mzAtGoal": "Du klarte det!"
+      }
+    }
+  },
+  "refusals": {},
+  "enAudit": [
+    "image-vocabulary no hedgehog was Piggsvin (= porcupine); corrected to Pinnsvin 2026-10-12 (native review)."
+  ]
+}

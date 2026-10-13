@@ -1010,7 +1010,7 @@
   },
   "G1-210": {
     "title": "Lukusanat",
-    "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+    "instruction": "Lue luku huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
   },
   "G1-211": {
     "title": "Rahalaskut: eurot ja sentit",
@@ -1222,11 +1222,11 @@
   },
   "G1-223": {
     "title": "Lukusanat 0–20",
-    "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+    "instruction": "Lue luku huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
   },
   "G1-224": {
     "title": "Lukusanat: tasakymmenet 10–100",
-    "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+    "instruction": "Lue luku huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
   },
   "G1-225": {
     "title": "Yhdistä luku ja lukusana",
@@ -1234,7 +1234,7 @@
   },
   "G1-226": {
     "title": "Lukusanat 0–50",
-    "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+    "instruction": "Lue luku huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
   },
   "G1-227": {
     "title": "Kirjoita lukusanat",

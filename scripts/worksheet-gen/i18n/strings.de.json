@@ -325,11 +325,11 @@
   },
   "G1-118": {
     "title": "Hüpfen auf dem Zahlenstrahl",
-    "instruction": "Starte beim Punkt. Zähle die Sprünge. Schreibe das Plus-Ergebnis auf."
+    "instruction": "Starte beim Punkt. Zähle die Sprünge. Schreibe das Ergebnis auf."
   },
   "G1-119": {
     "title": "Zurückhüpfen und Abziehen",
-    "instruction": "Folge den Sprüngen rückwärts. Schreibe das Minus-Ergebnis auf."
+    "instruction": "Folge den Sprüngen rückwärts. Schreibe das Ergebnis auf."
   },
   "G1-120": {
     "title": "Zehner und Einer",

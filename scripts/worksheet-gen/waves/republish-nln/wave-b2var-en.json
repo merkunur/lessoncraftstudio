@@ -1,0 +1,18 @@
+{
+ "id": "wave-b2var-en",
+ "_note": "Number Lines 2026-10-13: 0-30, 0-50 and 60-100 arrow pages — two answer boxes overlapped or touched; arrows now at least 60 px apart — original seed + deck id",
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-276",
+  "G1-277",
+  "G2-310"
+ ]
+}

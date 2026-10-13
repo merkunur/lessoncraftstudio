@@ -519,7 +519,7 @@
   },
   "G2-221": {
     "title": "Pyöristä!",
-    "instruction": "Katso pistettä. Ympyröi kymmen, jota se on lähempänä."
+    "instruction": "Katso pistettä. Ympyröi kymmenluku, jota se on lähempänä."
   },
   "G2-222": {
     "title": "Lue palikat",
@@ -710,7 +710,7 @@
   },
   "G3-323": {
     "title": "Pyöristä sataan",
-    "instruction": "Katso pistettä. Ympyröi sata, jota se on lähempänä."
+    "instruction": "Katso pistettä. Ympyröi sataluku, jota se on lähempänä."
   },
   "G3-325": {
     "title": "Tuhansien kamppailu",

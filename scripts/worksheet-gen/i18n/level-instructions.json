@@ -3213,5 +3213,20 @@
    "no": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen.",
    "fi": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
   }
+ },
+ "G1-274": {
+  "3": {
+   "en": "Write the number each arrow points to, from 0 to 10.",
+   "de": "Lies am Zahlenstrahl bis 10 ab, wohin jeder Pfeil zeigt.",
+   "es": "La recta llega al 10 y solo marca el 0 y el 10.",
+   "fr": "Écris le nombre montré par chaque flèche, de 0 à 10.",
+   "it": "Ogni tacca vale 1: scrivi il numero della freccia.",
+   "pt": "Só o 0 e o 10 estão escritos: descubra onde a seta cai.",
+   "nl": "Elke pijl wijst naar een streepje op de lijn van 0 tot 10. Schrijf het getal.",
+   "sv": "En pil pekar på ett streck. Skriv talet mellan 0 och 10.",
+   "da": "Skriv det tal, hver pil peger på, på tallinjen fra 0 til 10.",
+   "no": "Skriv tallet hver pil peker på, fra 0 til 10.",
+   "fi": "Kirjoita luku, jota jokainen nuoli osoittaa lukusuoralla 0–10."
+  }
  }
 }

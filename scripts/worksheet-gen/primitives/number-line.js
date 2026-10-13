@@ -9,7 +9,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, line, circle, el, tickRow } = require('./_svg.js');
 
-function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null }, ctx) {
+function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps = [], marks = [], pointers = [], labelText = null, rings = [] }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const padX = 26;
   // nt20-B `pointers` (G1-248): a coral arrow from a dashed answer box down to
@@ -36,16 +36,20 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
   });
   parts.push(ticks.svg);
 
-  // jump arcs (each +tickStep hop) — quadratic arc with arrowhead
-  jumps.forEach(({ from, to }) => {
+  // jump arcs (each +tickStep hop) — quadratic arc with arrowhead. A jump may carry its own `step` (Number Lines
+  // 2026-10-13: "equal hops of 3" must be drawn as hops of 3 — unit arcs made a child count 15 hops for 5 hops of 3).
+  // Without `step` every published line renders byte-identically.
+  jumps.forEach(({ from, to, step }) => {
     const dir = to > from ? 1 : -1;
-    for (let v = from; v !== to; v += dir * tickStep) {
-      const x1 = ticks.xFor(v), x2 = ticks.xFor(v + dir * tickStep);
+    const hop = step || tickStep;
+    if (step && (to - from) % step !== 0) throw new Error(`numberLine: jump ${from}->${to} is not whole hops of ${step}`);
+    for (let v = from; v !== to; v += dir * hop) {
+      const x1 = ticks.xFor(v), x2 = ticks.xFor(v + dir * hop);
       const mx = (x1 + x2) / 2;
       parts.push(el('path', {
         d: `M ${x1} ${y - 6} Q ${mx} ${y - 46} ${x2} ${y - 6}`,
         fill: 'none', stroke: t.color.coral, 'stroke-width': 3, 'stroke-linecap': 'round',
-        'data-lcs-hop': `${v}->${v + dir * tickStep}`,
+        'data-lcs-hop': `${v}->${v + dir * hop}`,
       }));
       // arrowhead at landing
       const ax = dir > 0 ? -7 : 7;
@@ -60,7 +64,13 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
     parts.push(circle({ cx: ticks.xFor(v), cy: y, r: 7, fill: t.color.teal, data: { 'data-lcs-mark': v } }));
   });
 
-  pointers.forEach(({ value }) => {
+  // Number Lines Level Set 2026-10-13 (screen + key only; additive): a pointer may be `ask` (a coral ? in its box) or
+  // `show` (its answer written in the box); `rings` circles marks (the key of "circle its dot").
+  rings.forEach((v) => {
+    parts.push(circle({ cx: ticks.xFor(v), cy: y, r: 15, fill: 'none', strokeColor: t.color.coral, strokeWidth: 3, data: { 'data-lcs-ring': v } }));
+  });
+
+  pointers.forEach(({ value, ask, show }) => {
     const x = ticks.xFor(value);
     const boxW = 52, boxH = 44;
     // dashed answer box (white, coral dash) centred over the tick
@@ -69,6 +79,10 @@ function numberLine({ min, max, tickStep = 1, labelEvery = 1, width = 560, jumps
       fill: t.color.white, stroke: t.color.coral, 'stroke-width': 2.5, 'stroke-dasharray': '6 5',
       'data-lcs-pointer': value, 'data-lcs-answer': value,
     }));
+    if (ask || show) {
+      parts.push(el('text', { x, y: y - 8 - 30 - boxH / 2 + 9, 'text-anchor': 'middle', 'font-family': t.font.display, 'font-weight': 700,
+        'font-size': 26, fill: t.color.coral }, ask ? '?' : String(value)));
+    }
     // arrow shaft + head pointing at the tick
     parts.push(line({ x1: x, y1: y - 8 - 30, x2: x, y2: y - 10, strokeColor: t.color.coral, strokeWidth: 3, data: { 'data-lcs-pointer-arrow': value } }));
     parts.push(el('path', {

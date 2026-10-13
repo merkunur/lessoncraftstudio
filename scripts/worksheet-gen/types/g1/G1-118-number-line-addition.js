@@ -1,14 +1,16 @@
 /**
  * G1-118 — Number-line addition: hops drawn from a, land on a+b; the child
  * reads the jumps and completes a + b = []. Asset class 4 exemplar.
+ *
+ * Level Set 2026-10-13: level 2 is the published draw (below, rng calls unchanged); levels 1 and 3, the screen and the
+ * key come from types/_shared/number-line-tasks.js (NLT_LEVELS['G1-118'], mode 'add').
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
-const numberLine = require('../../primitives/number-line.js');
-const { answerBox } = require('../../templates/components.js');
+const NLT = require('../_shared/number-line-tasks.js');
+const NLS = require('../../lib/number-lines-screen.js');
 
-const NUM = (n) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:28px;color:#3A3530" data-lcs-num="${n}">${n}</span>`;
-const OP = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E">${ch}</span>`;
+const L = NLT.NLT_LEVELS['G1-118'];
 
 module.exports = {
   id: 'G1-118',
@@ -18,9 +20,9 @@ module.exports = {
   exerciseType: 'number-lines',
   themeAxis: { applicable: false },
   difficulty: {
-    1: { lineMax: 10, rows: 3 },
+    1: L[1],
     2: { lineMax: 20, rows: 3 },
-    3: { lineMax: 20, rows: 4 },
+    3: L[3],
   },
   i18n: {
     en: {
@@ -28,54 +30,30 @@ module.exports = {
       instruction: 'Start at the dot. Count the hops. Write the addition answer.',
     },
   },
+  interactive: NLS.interactiveFor('sum'),
+  levelSetWords(m) { return (m.asks || []).map(String); },
 
-  build({ difficulty }, ctx) {
-    const d = this.difficulty[difficulty];
+  build(args, ctx) {
+    const d = this.difficulty[args.difficulty];
     const rng = ctx.rng;
-    const cards = [];
-    for (let i = 0; i < d.rows; i++) {
-      const a = rng.int(0, d.lineMax - 2);
-      const b = rng.int(1, Math.min(6, d.lineMax - a));   // ≤6 hops stay readable
-      const nl = numberLine({
-        min: 0, max: d.lineMax,
-        labelEvery: d.lineMax > 10 ? 2 : 1,
-        width: 540,
-        jumps: [{ from: a, to: a + b }],
-        marks: [a],
-      });
-      cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-a="${a}" data-lcs-b="${b}">` +
-        nl.svg +
-        `<span style="display:inline-flex;align-items:center;gap:10px">` +
-        NUM(a) + OP('+') + NUM(b) + OP('=') + answerBox({ w: 60, h: 48, answer: a + b }) +
-        `</span></div>`
-      );
+    let rows;
+    if (d.v2) rows = NLT.buildRowsV2('add', d, rng, args.locale);
+    else {
+      rows = [];
+      for (let i = 0; i < d.rows; i++) {
+        const a = rng.int(0, d.lineMax - 2);
+        const b = rng.int(1, Math.min(6, d.lineMax - a));   // ≤6 hops stay readable
+        rows.push({ a, b, to: a + b, line: { min: 0, max: d.lineMax, labelEvery: d.lineMax > 10 ? 2 : 1, width: 540, jumps: [{ from: a, to: a + b }], marks: [a] } });
+      }
     }
-    return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: {} };
+    const cards = rows.map((r) => NLT.cardOf('add', r));
+    const b = { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows }), meta: { asks: rows.map(NLT.askOf) }, _rows: rows };
+    if (ctx && (ctx.interactive || ctx.answerKey)) return NLT.screenOrKey('add', b, args, ctx);
+    delete b._rows;
+    return b;
   },
 
   async verify(page) {
-    return page.evaluate(() => {
-      const fails = [];
-      document.querySelectorAll('[data-lcs-card]').forEach((card, i) => {
-        const a = parseInt(card.querySelector('[data-lcs-a]').dataset.lcsA, 10);
-        const b = parseInt(card.querySelector('[data-lcs-a]').dataset.lcsB, 10);
-        const svg = card.querySelector('[data-lcs-prim="number-line"]');
-        const hops = [...svg.querySelectorAll('[data-lcs-hop]')].map((e) => e.dataset.lcsHop);
-        if (hops.length !== b) fails.push(`row ${i + 1}: ${hops.length} hops != ${b}`);
-        // hops form the exact chain a -> a+b
-        for (let k = 0; k < b; k++) {
-          const want = `${a + k}->${a + k + 1}`;
-          if (!hops.includes(want)) fails.push(`row ${i + 1}: missing hop ${want}`);
-        }
-        const mark = svg.querySelector('[data-lcs-mark]');
-        if (!mark || parseInt(mark.dataset.lcsMark, 10) !== a) fails.push(`row ${i + 1}: start dot != ${a}`);
-        const box = card.querySelector('[data-lcs-answer]');
-        if (parseInt(box.dataset.lcsAnswer, 10) !== a + b) fails.push(`row ${i + 1}: sum mismatch`);
-        const max = parseInt(svg.dataset.lcsMax, 10);
-        if (a + b > max) fails.push(`row ${i + 1}: lands beyond the line`);
-      });
-      return fails;
-    });
+    return page.evaluate(NLT.verifyInPage, 'add');
   },
 };

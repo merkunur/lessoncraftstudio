@@ -45,7 +45,9 @@ function slotFor(key, n) {
  */
 function numberChoices(answer, slips, key, opt = {}) {
   const min = opt.min === undefined ? 0 : opt.min, max = opt.max === undefined ? Infinity : opt.max, step = opt.step || 1;
-  const ok = (v) => Number.isFinite(v) && v >= min && v <= max && v !== answer;
+  // opt.not (Number Lines 2026-10-13): numbers that may never be offered — a number PRINTED on the line is wrong at a glance
+  const not = opt.not || [];
+  const ok = (v) => Number.isFinite(v) && v >= min && v <= max && v !== answer && !not.includes(v);
   const pool = [];
   for (const v of slips || []) if (ok(v) && !pool.includes(v)) pool.push(v);
   for (let k = 1; k <= 12; k++) for (const v of [answer - k * step, answer + k * step]) if (ok(v) && !pool.includes(v)) pool.push(v);

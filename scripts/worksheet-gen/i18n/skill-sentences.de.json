@@ -29,7 +29,8 @@
   },
   "number-lines": {
     "full": "Sprünge auf dem Zahlenstrahl machen Plus, Minus und die Ordnung der Zahlen für junge Lernende sichtbar und greifbar.",
-    "short": "Macht Plus und Minus auf dem Zahlenstrahl sichtbar."
+    "short": "Macht Plus und Minus auf dem Zahlenstrahl sichtbar.",
+    "levelSetShort": "Rechnen und Zählen am Zahlenstrahl üben."
   },
   "base-ten": {
     "full": "Zehnerblöcke machen den abstrakten Stellenwert sichtbar und zählbar – Hunderter, Zehner und Einer auf einen Blick.",

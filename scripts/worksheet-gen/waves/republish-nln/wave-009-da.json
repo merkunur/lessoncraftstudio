@@ -1,0 +1,18 @@
+{
+ "id": "wave-009",
+ "_note": "Number Lines 2026-10-13: Multiplication Hops (G3-308) and Hop Down to Zero (G3-310) live pages redrawn with equal hops of k (they drew one arc per unit) — original seed + deck id; plus the native-review fixes of this locale's printed text (G3-323)",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G3-323",
+  "G3-308",
+  "G3-310"
+ ]
+}

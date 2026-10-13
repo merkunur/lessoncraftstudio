@@ -115,3 +115,53 @@ every landing ends with the boundary sentence against the grid-maze family. Clic
 4. Commit the merged landings + the HARD hub gate in deploy.sh in ONE commit, push, `deploy.sh`.
 5. `repoint-deck-canonical.js --types=maze-puzzles --locale=<loc>` ×11, noindex-exempt refresh, IndexNow, live checks
    (landing 200 ×11, a deck played on production, the hub rail entry with 20 cards).
+
+## 11 Level Set expansion (`mzl`, 2026-10-12/13)
+206 original scenes, one worksheet each, in 11 locales = **2,265 decks** (PDF + trace-path screen + answer key), noindex, no
+landing, listed on the hub under `?type=maze-puzzles`. pt has 205: `hmx-sound-tiger` is refused there (BR *tigre* begins [tʃ]).
+- **One scene = one worksheet.** A scene is a SKIN (`data/hmx/scenes-b1..b6.js`: setting, palette, band motifs, corridor
+  material, decor, hero, goal, cast, item/obstacle/cue) merged over the face's published `SCENES` entry, which keeps the topology,
+  labels and strip; `lib/hmx.js resolveHmx` adds the level preset (`data/hmx/levels.js`). The K-405 type builds a unit starting
+  `hmx-` from that; a page with no unit is byte-identical to the published one (hashed over all 220 coordinates).
+- **Levels never change a face's rule** (title and instruction stay true): L1 wider roads, shorter way, fewer dead ends and
+  decoys; L3 narrower, longer, more decoys. First-maze and colouring stay wide; label faces change station radius and decoys.
+- **Scenery** (`lib/hmx-scenery.js`) is drawn flat in library colours and is background only; a composer guard keeps every colour
+  near the corridor colour off the field, so the raster oracle (`lib/hm-verify.js`, unchanged) stays valid.
+- **Allocation:** `hmx-reliability.js --json` measures every scene × level (label faces × every locale); `mzl-allocate.js` spreads
+  each face's scenes over the levels where they build ≥ 70 % of draws; `mzl-pin.js` pins every copy to a seed that builds, so an
+  unlucky seed never reaches a page. Counts per face (L1/L2/L3): K-405 11/11/11 · K-406, G1-420, K-407, G1-424, G1-425 4/4/4 ·
+  G1-421, G1-422, G1-423, K-409, K-410, K-411, G1-427, G1-428 3/3/3 · G1-426, G2-392, G2-393 2/2/2 · K-412 2/2/1 · K-413 5/6/5 ·
+  K-408 1/1/0 (the library holds only four drawable baby/mother pairs — every "duck" is a duckling — so the face gets two
+  pages, recorded, not padded).
+- **Text** per scene × locale is built from per-locale NOUN tables (`data/hmx/text-src/<loc>.js` → `hmx-text.js`), EN first
+  (`hmx-en-text.js`) and audited against the render. `/t/` and `/p/` cue pools per locale: `data/hmx/sound-pools.json`.
+- **Gates:** `qa/hmx-distinct.js` (unique hero, goal ≤ 2, cast Jaccard, palette + thumbnail distance vs every scene and the 20
+  published), `tools/level-set/check-zips-mzl.js` (title ≤ 70, description 120-170, key + screen, noindex marker, counts), the
+  robot `qa/verify-interactive.js` on every deck in every locale (0 failed ×11).
+- **Reviews:** I read every EN page, key and screen on sheets (`mzl-sheet.js`) and samples of every locale; one visual reviewer
+  over EN; one native + pedagogy reviewer over `mzl-text-dump.js` (11 locales). Fixed at source: picture identity (a "pelican",
+  a "pegasus", a "porcupine" that were other animals → the porcupine hero became a foal), ecology (a penguin among Arctic animals),
+  tangled strings 3/4/5 by level, the river verb in every locale, two faces sharing a goal (butterfly → flower).
+
+**Traps paid for**
+- ⚠ A picture swap changes text in EVERY locale: add the new noun to all 10 `text-src` tables, rebuild the sound pools, re-pin.
+- ⚠ A rare unlucky seed builds an unreadable maze: never allocate on "it built once" — measure the rate, then pin.
+- ⚠ The robot writes its log only at the END and spends most of its time in Chrome, so a run looks idle from node's CPU. A
+  146-deck run takes ~3 h with several in parallel. I killed a healthy German run at 2 h as "stalled" and had to restart it.
+  Judge a stall by Chrome activity or elapsed time against the other locales, never by node CPU.
+- ⚠ A watcher that polls "is a robot process running?" catches the gap between two chained runs and exits early.
+- ⚠ `pgrep -f <script>` run over SSH matches its OWN command line (the script name is in the ssh argument), so a
+  "wait until the publish exits" loop never ends. Anchor it (`pgrep -f "^node .*publish-wave"`) or read the log's last line.
+
+**Publish (2026-10-13, as run)**
+- `publish-wave.js /var/www/lcs-media/_staging/mzl --locales=<11> --noindex --confirm` under `nohup` (batch-20261013015115):
+  2,265 INSERT, 0 UPDATE, 0 failed; mark-zips 2265 already marked; audit clean except TITLE_LENGTH_TOO_LONG (>60 chars) on
+  193 decks — accepted, these decks are noindex and the ≤70 title is the level-set rule.
+- Live checks: sitemap shards 0-3 unchanged (4941 / 4876 / 952 / 4783 before = after); 0 mzl decks in
+  `deck-noindex-exempt.map`; a deck per face per level (59 EN) answers with `X-Robots-Tag: noindex`, the noindex meta, the meter
+  and the trace screen; the hub `?type=maze-puzzles` lists them with the interactive play badge (en / de / fi).
+- Live PDFs: the 20 EN face printables + the colouring face in the 10 other locales pulled off the server and read on a
+  contact sheet (pymupdf render; the Read tool needs poppler, which is not installed).
+- Live play: the served `deck.html` + `manifest.json` of the same 30 decks re-zipped and played by the robot (production bytes,
+  after every publish-wave injection): 30 played, 0 failed.
+- Staging removed (`_staging/mzl`, its `.preband-backup` twin, the dry-run batch): ~8 GB.

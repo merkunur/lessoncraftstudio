@@ -28,6 +28,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'multiplication-tables', // Multiplication Tables (2026-10-13): tap the product or the missing factor of each fact
   'number-bonds',        // Number Bonds (2026-10-13): tap the missing part or whole of each bond
   'number-lines',        // Number Lines (2026-10-13): tap where the hops land, the number an arrow points to, the dot's letter, the nearer ten / hundred
+  'number-walls',        // Number Walls (2026-10-13): the printed page — tap an empty brick and TYPE its number (number pad)
   'number-charts',       // Number Charts (2026-10-13): tap the missing number of each strip / chart / machine, or every odd number / every number on the path
   'measurement',         // Measurement (2026-10-09): tap a length, a temperature, cubes, ml or g; the rank 1-3; the heavier picture
   'hundreds-chart-puzzles', // Hundreds Chart Puzzles (2026-10-09): tap the number for the ? square, the wrong number, where the jumps land

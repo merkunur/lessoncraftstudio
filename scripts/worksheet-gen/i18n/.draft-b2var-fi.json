@@ -99,7 +99,7 @@
     },
     "G1-266": {
       "title": "Lukupyramidi 10:een",
-      "instruction": "Ylin tiili on alempien summa. Rakenna pyramidit 10:een."
+      "instruction": "Jokainen tiili on kahden alla olevan tiilen summa. Mikään luku ei ylitä 10:tä."
     },
     "G1-267": {
       "title": "Lukupyramidi: neljä kerrosta",

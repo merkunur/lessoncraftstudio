@@ -39,7 +39,7 @@
     },
     "G1-246": {
       "title": "Pyramides de nombres",
-      "instruction": "Chaque brique est la somme des deux briques qui sont dessous. Complète les nombres qui manquent."
+      "instruction": "Chaque brique est la somme des deux briques situées en dessous. Complète les nombres qui manquent."
     },
     "G1-247": {
       "title": "Doubles et moitiés",

@@ -99,7 +99,7 @@
     },
     "G1-266": {
       "title": "Talpyramider op til 10",
-      "instruction": "Hver sten er summen af de to under den. Byg pyramiderne til 10."
+      "instruction": "Hver sten er summen af de to under den. Intet tal er over 10."
     },
     "G1-267": {
       "title": "Talpyramider med fire rækker",

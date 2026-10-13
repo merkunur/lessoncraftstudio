@@ -1611,7 +1611,7 @@
   },
   "G1-266": {
     "title": "Zahlenmauern bis 10",
-    "instruction": "Addiere immer zwei Steine; der oberste bleibt unter 10."
+    "instruction": "Addiere immer zwei Steine; der oberste ist höchstens 10."
   },
   "G1-267": {
     "title": "Zahlenmauern mit vier Reihen",

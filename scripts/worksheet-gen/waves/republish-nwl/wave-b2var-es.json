@@ -1,0 +1,27 @@
+{
+ "id": "wave-b2var-es",
+ "_note": "Number Walls native review fix 2026-10-13 (instruction text: de/fi/pt/da/fr G1-266, it/fr G1-246, es/fr G1-267, fr G1-268): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-267"
+ ],
+ "levels": {
+  "G1-267": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

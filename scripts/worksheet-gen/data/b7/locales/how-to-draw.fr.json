@@ -85,7 +85,7 @@
     },
     "shapes": {
       "title": "Dessiner {L} avec des formes simples",
-      "instruction": "Repasse les formes en pointillés dans le cadre, dessine le contour du chien autour, puis termine-le avec les étapes."
+      "instruction": "Repasse les formes en pointillés dans le cadre, puis termine le chien avec les nouveaux traits de chaque étape."
     },
     "trace": {
       "title": "Repasse, puis dessine {L} tout seul",

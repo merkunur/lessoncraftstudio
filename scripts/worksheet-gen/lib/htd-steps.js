@@ -352,7 +352,9 @@ function stepSvg(S, k, opts = {}) {
   const prev = opts.outline === false ? '' : S.steps.slice(0, k).map((s) => `<path d="${s.d}" fill="${ink}"/>`).join('');
   const now = opts.outline === false ? '' : S.steps[k] ? `<path d="${S.steps[k].d}" fill="${opts.upTo || (k === S.steps.length - 1 && opts.lastInInk) ? ink : hi}"/>` : '';
   const g = opts.guide || '#8A8276';
-  const guides = opts.shapes ? S.shapes.filter((sh) => sh.kind).map((sh) => sh.kind === 'ellipse'
+  const guides = opts.shapes ? S.shapes.filter((sh) => sh.kind).map((sh) => sh.kind === 'path'
+    ? `<path d="${sh.d}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10"/>`
+    : sh.kind === 'ellipse'
     ? `<ellipse cx="${sh.cx}" cy="${sh.cy}" rx="${sh.rx}" ry="${sh.ry}" transform="rotate(${sh.angle} ${sh.cx} ${sh.cy})" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10"/>`
     : `<rect x="${sh.box.x}" y="${sh.box.y}" width="${sh.box.w}" height="${sh.box.h}" rx="${Math.min(sh.box.w, sh.box.h) * 0.18}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10"/>`).join('') : '';
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.map((v) => +v.toFixed(1)).join(' ')}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet" data-lcs-prim="htd-step" data-lcs-step="${k + 1}">${guides}${prev}${now}</svg>`;

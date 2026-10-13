@@ -85,7 +85,7 @@
     },
     "shapes": {
       "title": "Disegna {L} partendo da forme semplici",
-      "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi disegna intorno il contorno del cane e completalo seguendo i passaggi."
+      "instruction": "Ripassa le forme tratteggiate già stampate nel riquadro, poi completa il cane con le linee nuove di ogni passaggio."
     },
     "trace": {
       "title": "Disegno guidato: ripassa e poi disegna {L}",

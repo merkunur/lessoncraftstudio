@@ -129,10 +129,14 @@ module.exports = {
     if (ls) d = { ...d, ...((LS_LEVELS[mode === 'copy-steps' ? 'copy' : mode] || {})[difficulty] || {}) };
     const bigShapes = (S0) => { const [x0, y0, x1, y1] = S0.bbox, A = (x1 - x0) * (y1 - y0); return S0.shapes.filter((g) => g.kind && (g.kind === 'ellipse' ? Math.PI * g.rx * g.ry : g.box.w * g.box.h) >= 0.04 * A); };
     B.formFor(blk, unitSlug, loc);   // the title form must exist for this locale (refusal, never a fallback)
-    const S = ls ? (() => { const S0 = B.stepsFor(unitSlug); return { ...S0, shapes: bigShapes(S0) }; })() : B.stepsFor(unitSlug);
+    // a page that prints DOTTED SHAPES draws a lesson drawn FROM the shapes (data/htdv, lib/htd-vector.js): every dotted
+    // segment is a line of the finished picture, so nothing is ever erased (operator 2026-10-12). Every other page keeps
+    // the library lesson.
+    const guidePage = (mode === 'shapes' && d.boxGuides !== 'none') || (mode === 'base' && !!d.guideShapes) || (mode === 'memory' && !!d.hintShapes);
+    const S = guidePage ? B.vectorStepsFor(unitSlug) : ls ? (() => { const S0 = B.stepsFor(unitSlug); return { ...S0, shapes: bigShapes(S0) }; })() : B.stepsFor(unitSlug);
     const n = S.steps.length;
     const rng = ctx.rng;
-    const meta = { unit: unitSlug, mode, steps: n };
+    const meta = { unit: unitSlug, mode, steps: n, ...(S.lesson === 'vector' ? { lesson: 'vector' } : {}) };
     let body;
 
     if (mode === 'base' || mode === 'shapes' || mode === 'word' || mode === 'write') {
@@ -158,8 +162,9 @@ module.exports = {
         right = `<div style="display:flex;flex-direction:column;align-items:center;gap:10px;width:${colW}px">${C7.htdPaper({ w: p.w, h: p.h, role: 'primary' })}${C7.htdRows({ starters, w: colW, rows, h: rowH, glyphH: d.glyphH || 24 })}</div>`;
         meta.starters = starters;
       } else {
-        const p = paperSize(S, { free: ls, w: (d.box && d.box.w) || colW, maxH: H });
-        const gS = d.guideCount ? { ...S, shapes: S.shapes.filter((x) => x.kind).slice(0, d.guideCount) } : S;   // (Level Set 3: the two biggest shapes only)
+        // a drawn-lesson page fills the lane: its box is HEIGHT-bound (a width-bound box left the dog page a third empty)
+        const p = guidePage && !ls ? paperSize(S, { free: true, w: colW, maxH: H }) : paperSize(S, { free: ls, w: (d.box && d.box.w) || colW, maxH: H });
+        const gS = d.guideCount ? { ...S, shapes: S.lesson === 'vector' ? S.shapes.filter((x) => x.major).slice(0, d.guideCount) : S.shapes.filter((x) => x.kind).slice(0, d.guideCount) } : S;   // (Level Set 3: the two biggest shapes only)
         const guides = mode === 'shapes' ? (d.boxGuides === 'none' ? null : { S: gS, outline: d.boxGuides === 'shapes+outline' }) : (d.guideShapes ? { S } : null);
         if (d.box && d.box.count === 2) {
           const q = paperSize(S, { free: ls, h: Math.floor((H - 10) / 2), maxW: colW });
@@ -288,7 +293,8 @@ module.exports = {
       body = `<div style="display:flex;flex-direction:column;align-items:center;gap:0;width:675px">${flap}${fold}${paperLane}</div>`;
     } else throw new Error(`K-396: mode "${mode}" is not built`);
 
-    return { bodyHtml: root(d, unitSlug, body), meta };
+    // only a drawn-lesson page carries the marker: every other page stays byte-identical to its published build
+    return { bodyHtml: S.lesson === 'vector' ? root(d, unitSlug, body).replace('data-lcs-how-to-draw ', 'data-lcs-how-to-draw data-lcs-htd-lesson="vector" ') : root(d, unitSlug, body), meta };
   },
 
   async verify(page) {
@@ -337,7 +343,7 @@ module.exports = {
         const [w, h] = b.dataset.lcsHtdBox.split('x').map(Number);
         const r = b.getBoundingClientRect();
         if (Math.abs(r.width - w) > 1.5 || Math.abs(r.height - h) > 1.5) fails.push(`box ${b.dataset.lcsHtdBox} renders ${Math.round(r.width)}x${Math.round(r.height)}`);
-        if (b.querySelector('path:not([data-lcs-htd-pale])')) fails.push('a drawing inside a paper');
+        if (b.querySelector('path:not([data-lcs-htd-pale]):not([data-lcs-htd-guide])')) fails.push('a drawing inside a paper');
         if (!inside(b)) fails.push('a paper outside the page');
         const role = b.dataset.lcsHtdRole;
         const floor = role === 'primary' ? primaryFloor : role === 'twin' ? 300 : role === 'secondary' ? 280 : role === 'stepBox' ? 100 : 0;
@@ -408,7 +414,7 @@ module.exports = {
         const cols = R.querySelectorAll('[data-lcs-htd-col]'); if (cols.length !== n) fails.push(`${cols.length} columns for ${n} cards`);
       }
       if (mode === 'shapes') {
-        const g = R.querySelector('[data-lcs-htd-guides]'); if (!g || !g.querySelector('ellipse, rect')) fails.push('no shape guides in the paper');
+        const g = R.querySelector('[data-lcs-htd-guides]'); if (!g || !g.querySelector('ellipse, rect, path')) fails.push('no shape guides in the paper');
         // card 1 carries NO guides any more (6 px ear ellipses read as smudges — the nl panel): the paper shows them large
       }
       // nothing textual in the body but badges, lane glyphs, starters, grid labels

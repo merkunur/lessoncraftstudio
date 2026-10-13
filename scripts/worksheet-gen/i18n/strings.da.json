@@ -361,11 +361,12 @@
   },
   "G1-129": {
     "title": "Hundredtabellen",
+    "printTitle": "Hundredetavlen",
     "instruction": "Nogle tal gemmer sig. Skriv hvert manglende tal i dets rude."
   },
   "G1-130": {
     "title": "Farv tællestien",
-    "instruction": "To ruder er farvet for at starte dig. Farv hvert tal i det samme tællemønster."
+    "instruction": "To ruder er allerede farvet. Farv hvert tal i det samme tællemønster."
   },
   "G1-131": {
     "title": "1 mere, 1 mindre",

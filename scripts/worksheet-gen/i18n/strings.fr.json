@@ -65,10 +65,12 @@
   },
   "K-019": {
     "title": "Nombres manquants à 10",
+    "printTitle": "Nombres manquants jusqu’à 10",
     "instruction": "Compte le long de la bande. Écris chaque nombre manquant."
   },
   "K-020": {
     "title": "Nombres manquants à 20",
+    "printTitle": "Nombres manquants jusqu’à 20",
     "instruction": "Compte le long de la bande. Écris chaque nombre manquant."
   },
   "K-021": {

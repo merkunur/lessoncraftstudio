@@ -1,6 +1,6 @@
 /**
  * hundredsChart — parametric 10×N number chart primitive (SVG).
- * params: { start=1, end=100, missing=[...numbers], highlights=[...numbers], cell=56 }
+ * params: { start=1, end=100, missing=[...numbers], highlights=[...numbers], cell=56, keyText=false, ask=null }
  * Missing cells render as dashed write-in cells; highlights get coralSoft fill.
  * meta carries the ground truth for QA.
  */
@@ -8,7 +8,7 @@
 const tokens = require('./_tokens.js');
 const { el, svgRoot, roundedRect, label } = require('./_svg.js');
 
-function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56 }, ctx) {
+function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56, keyText = false, ask = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const cols = 10;
   const count = end - start + 1;
@@ -35,6 +35,11 @@ function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], ce
         fill: t.color.white, strokeColor: t.color.coral, strokeWidth: 2, dash: '5 4',
         data: { 'data-lcs-missing': v },
       }));
+      // Level Set 2026-10-13 (additive, off by default): the answer key writes the number in its box; the screen marks
+      // the one asked with a coral "?"
+      if (keyText || v === ask) {
+        parts.push(label({ x: cx + cell / 2, y: cy + cell / 2 + 1, text: v === ask ? '?' : v, size: Math.round(cell * 0.36), color: t.color.coral, fontFamily: t.font.display, weight: 700 }));
+      }
     } else {
       if (isHi) {
         parts.push(roundedRect({ x: cx + 2, y: cy + 2, w: cell - 4, h: cell - 4, r: 5, fill: t.color.coralSoft, data: { 'data-lcs-highlight': v } }));

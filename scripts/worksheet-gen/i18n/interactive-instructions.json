@@ -2929,5 +2929,46 @@
    "no": "Trykk på en tom stein og skriv inn tallet.",
    "fi": "Napauta tyhjää tiiltä ja kirjoita siihen luku."
   }
+ },
+ "number-words": {
+  "circle": {
+   "en": "Read the number. Tap the word that matches it.",
+   "de": "Lies die Zahl. Tippe auf das Zahlwort, das genau dazu passt.",
+   "es": "Lee el número. Toca la palabra que le corresponde.",
+   "fr": "Lis le nombre. Appuie sur le mot qui lui correspond.",
+   "it": "Leggi il numero in cifre e tocca il numero in lettere che gli corrisponde.",
+   "pt": "Leia o número e toque no nome dele escrito por extenso.",
+   "nl": "Lees het getal. Tik op het woord dat erbij hoort.",
+   "sv": "Läs talet med siffror. Tryck på ordet som betyder samma tal.",
+   "da": "Læs tallet. Tryk på det ord, der passer til tallet.",
+   "no": "Les tallet. Trykk på tallordet som passer til det.",
+   "fi": "Lue luku. Napauta lukusanaa, joka tarkoittaa samaa lukua."
+  },
+  "match": {
+   "en": "Read each number. Tap its word.",
+   "de": "Lies jede Zahl. Tippe auf ihr Zahlwort.",
+   "es": "Lee cada número. Toca su nombre en letras.",
+   "fr": "Lis chaque nombre. Appuie sur le mot qui lui correspond.",
+   "it": "Leggi ogni numero in cifre e tocca il suo numero in lettere.",
+   "pt": "Leia cada número e toque na palavra que mostra como ele se escreve.",
+   "nl": "Lees elk getal. Tik op het woord dat erbij hoort.",
+   "sv": "Läs varje tal. Tryck på ordet som betyder samma tal.",
+   "da": "Læs hvert tal. Tryk på det talord, der passer.",
+   "no": "Les hvert tall. Trykk på tallordet som hører til.",
+   "fi": "Lue jokainen luku. Napauta sen lukusanaa."
+  },
+  "write": {
+   "en": "Find the matching word in the word bank. Tap the box and type the word.",
+   "de": "Suche das passende Zahlwort im Wörterkasten oben. Tippe auf das Feld und schreibe das Wort.",
+   "es": "Busca la palabra correspondiente en el banco de palabras. Toca el recuadro y escríbela.",
+   "fr": "Cherche le bon mot dans la liste en haut de la page. Appuie sur la case et écris le mot.",
+   "it": "Cerca la parola giusta nell'elenco in alto. Tocca il riquadro e scrivila.",
+   "pt": "Procure a palavra certa no banco de palavras. Toque no quadrinho e escreva a palavra.",
+   "nl": "Zoek het goede woord in de woordenlijst bovenaan. Tik op het vak en typ het woord.",
+   "sv": "Hitta rätt ord i ordbanken. Tryck på rutan och skriv ordet.",
+   "da": "Find det ord i ordbanken, der passer til tallet. Tryk på feltet, og skriv ordet.",
+   "no": "Finn det riktige tallordet i ordbanken øverst. Trykk på ruten og skriv det.",
+   "fi": "Etsi sanapankista oikea lukusana. Napauta ruutua ja kirjoita sana."
+  }
  }
 }

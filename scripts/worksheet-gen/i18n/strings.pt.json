@@ -1008,7 +1008,7 @@
   },
   "G1-210": {
     "title": "Números por extenso",
-    "instruction": "Leia o número e circule como ele se escreve por extenso."
+    "instruction": "Leia o número e circule o nome dele escrito por extenso."
   },
   "G1-211": {
     "title": "Contando moedas",
@@ -1220,11 +1220,11 @@
   },
   "G1-223": {
     "title": "Números por extenso até 20",
-    "instruction": "Leia o número e circule como ele se escreve por extenso."
+    "instruction": "Leia o número e circule o nome dele escrito por extenso."
   },
   "G1-224": {
     "title": "Dezenas por extenso: 10 a 100",
-    "instruction": "Leia o número e circule como ele se escreve por extenso."
+    "instruction": "Leia o número e circule o nome dele escrito por extenso."
   },
   "G1-225": {
     "title": "Ligue o número ao nome",
@@ -1232,7 +1232,7 @@
   },
   "G1-226": {
     "title": "Números por extenso até 50",
-    "instruction": "Leia o número e circule como ele se escreve por extenso."
+    "instruction": "Leia o número e circule o nome dele escrito por extenso."
   },
   "G1-227": {
     "title": "Escreva os números por extenso",

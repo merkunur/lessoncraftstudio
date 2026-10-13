@@ -46,7 +46,7 @@
     "G1-222": { "title": "Famiglie con il numero mancante", "instruction": "Usa i tre numeri sul tetto. Scrivi il numero mancante in ogni operazione." },
     "G1-223": { "title": "Numeri in lettere fino a 20", "instruction": "Leggi il numero in cifre e cerchia il numero in lettere che gli corrisponde." },
     "G1-224": { "title": "Le decine in lettere: da 10 a 100", "instruction": "Leggi il numero in cifre e cerchia il numero in lettere che gli corrisponde." },
-    "G1-225": { "title": "Collega numeri e parole", "instruction": "Traccia una linea da ogni numero in cifre al numero in lettere." },
+    "G1-225": { "title": "Collega numeri e parole", "instruction": "Traccia una linea da ogni numero in cifre al suo numero in lettere." },
     "G1-226": { "title": "Numeri in lettere fino a 50", "instruction": "Leggi il numero in cifre e cerchia il numero in lettere che gli corrisponde." },
     "G1-227": { "title": "Scrivi i numeri in lettere", "instruction": "Cerca la parola giusta nell'elenco in alto e copiala sulla riga." },
     "G1-228": { "title": "Contare le monete: primi passi", "instruction": "Conta le monete di ogni borsellino. Scrivi il totale nel riquadro." },

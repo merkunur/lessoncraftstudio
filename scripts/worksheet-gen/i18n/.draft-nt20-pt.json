@@ -11,7 +11,7 @@
     "K-243": {"title": "Amigos do 10", "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."},
     "G1-208": {"title": "Cálculo mental até 20", "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."},
     "G1-209": {"title": "Família de fatos", "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."},
-    "G1-210": {"title": "Números por extenso", "instruction": "Leia o número e circule como ele se escreve por extenso."},
+    "G1-210": {"title": "Números por extenso", "instruction": "Leia o número e circule o nome dele escrito por extenso."},
     "G1-211": {"title": "Contando moedas", "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."},
     "G1-212": {"title": "Desenhe os ponteiros", "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."},
     "G1-213": {"title": "Situações problema com figuras", "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."},

@@ -275,6 +275,89 @@ async function playSelect(page, html, oracle, locale) {
 }
 
 /**
+ * type-word (Number Words 2026-10-13): the child WRITES each word. The oracle recomputes every box's word from the
+ * stamped number (never the answer map). The robot taps each box and presses the REAL letter-pad keys; then checks:
+ * every pad key ≥ 44 px, the pad can type every answer, Check disabled while a box is empty · right words → all green
+ * + celebration · one misspelt word → exactly that box red, no celebration · Try again keeps the right words and
+ * empties the wrong one · the physical keyboard (capital letters too) reaches the celebration.
+ */
+async function playTypeWord(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      boxes: [...document.querySelectorAll('.lcs-wr')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      keys: [...document.querySelectorAll('#lcs-pad .lcs-key')].map((b) => { const r = b.getBoundingClientRect(); return { t: b.textContent, w: r.width, h: r.height, r: r.right, l: r.left }; }),
+      vw: document.documentElement.clientWidth,
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.boxes.length < 2 || info.boxes.length !== B.items.length) { fails.push(`${w}px: ${info.boxes.length} write boxes for ${B && B.items ? B.items.length : 0} items`); return fails; }
+    info.boxes.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: box ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: box ${i + 1} outside the viewport`);
+    });
+    if (info.keys.length < 22) fails.push(`${w}px: the letter pad has only ${info.keys.length} keys`);
+    info.keys.forEach((k) => { if (k.w < TAP_MIN || k.h < TAP_MIN) fails.push(`${w}px: pad key ${k.t} is ${Math.round(k.w)}x${Math.round(k.h)}`); if (k.l < -1 || k.r > info.vw + 1) fails.push(`${w}px: pad key ${k.t} outside the viewport`); });
+    if (w !== 768) continue;
+    let right;
+    try { right = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta })), locale, B.ctx || {}); } catch (e) { fails.push('oracle: ' + e.message); return fails; }
+    if (right.length !== B.items.length || right.some((v) => typeof v !== 'string' || !v)) { fails.push('the oracle gives no word for every box'); return fails; }
+    const SPACE = String.fromCharCode(0x2423);
+    const tapBox = (i) => page.evaluate((k) => document.querySelectorAll('.lcs-wr')[k].click(), i);
+    const pressPad = (c) => page.evaluate((t) => { const k = [...document.querySelectorAll('#lcs-pad .lcs-key')].find((b) => b.textContent === t); if (!k) return false; k.click(); return true; }, c === ' ' ? SPACE : c);
+    const writeBox = async (i, word) => { await tapBox(i); for (const c of [...word.toLocaleLowerCase(locale)]) if (!(await pressPad(c))) fails.push('no pad key ' + c); };
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-wr')].map((b) => b.getAttribute('data-state') || ''),
+      vals: [...document.querySelectorAll('.lcs-wr')].map((b) => b.textContent),
+      checkDisabled: document.getElementById('lcs-check').disabled,
+      over: [...document.querySelectorAll('.lcs-wr')].filter((b) => b.scrollWidth > b.clientWidth + 1).length,
+    }));
+    const press = (id) => page.evaluate((x) => { const e = document.getElementById(x); if (!e || e.hidden || e.disabled) return false; e.click(); return true; }, id);
+    const check = async () => { if (!(await press('lcs-check'))) fails.push('Check could not be pressed'); await new Promise((r) => setTimeout(r, 600)); return state(); };
+    for (let i = 0; i < right.length - 1; i++) await writeBox(i, right[i]);
+    let st = await state();
+    if (!st.checkDisabled) fails.push('Check enabled with an empty box');
+    if (st.over) fails.push(st.over + ' typed words spill out of their boxes');
+    for (let i = 0; i < right.length - 1; i++) if (st.vals[i] !== right[i].toLocaleLowerCase(locale)) { fails.push(`box ${i + 1} shows "${st.vals[i]}" after typing ${right[i]}`); break; }
+    // the last box: one misspelt word first (its last letter doubled)
+    const last = right[right.length - 1], wrongW = last + [...last].pop();
+    await writeBox(right.length - 1, wrongW);
+    st = await check();
+    if (st.celebrate) fails.push('a MISSPELT word reached the celebration');
+    const reds = st.states.map((s, i) => (s === 'wrong' ? i : -1)).filter((i) => i >= 0);
+    if (reds.length !== 1 || reds[0] !== right.length - 1) fails.push('one misspelt word marked boxes ' + JSON.stringify(reds) + ' red');
+    if (st.states.filter((s) => s === 'right').length !== right.length - 1) fails.push('the right words were not all marked green');
+    if (!(await press('lcs-reset'))) fails.push('no Try again after a misspelt word');
+    st = await state();
+    if (st.vals[right.length - 1] !== '') fails.push('Try again kept the misspelt word');
+    if (st.vals.slice(0, -1).some((v, i) => v !== right[i].toLocaleLowerCase(locale))) fails.push('Try again erased right words');
+    await writeBox(right.length - 1, last);
+    st = await check();
+    if (!st.celebrate) fails.push('the right words did not reach the celebration');
+    if (st.states.some((s) => s !== 'right')) fails.push('the right words left non-green boxes');
+    // the keyboard: start over, type each word with CAPITALS (Check is case-blind) and Enter to go on
+    if (!(await press('lcs-cele-close'))) fails.push('no Try again on the celebration');
+    st = await state();
+    if (st.vals.some((v) => v !== '')) { fails.push('starting over kept words'); return fails; }
+    await tapBox(0);
+    for (let i = 0; i < right.length; i++) {
+      // Puppeteer types a character outside its US layout WITHOUT a keydown (sendCharacter) — a real keyboard sends one
+      // (key: 'Ê'), so those letters are dispatched as the keydown a keyboard would send
+      for (const c of [...right[i]]) { const k = c === ' ' ? ' ' : c.toLocaleUpperCase(locale); if (/^[ -~]$/.test(k)) await page.keyboard.type(k); else await page.evaluate((key) => document.activeElement.dispatchEvent(new KeyboardEvent('keydown', { key, bubbles: true, cancelable: true })), k); }
+      if (i < right.length - 1) await page.keyboard.press('Enter');
+    }
+    st = await check();
+    if (!st.celebrate) fails.push('the keyboard path did not reach the celebration (' + JSON.stringify(st.vals) + ')');
+  }
+  return fails;
+}
+
+/**
  * type-number (Number Walls 2026-10-13): the child WRITES each number. The oracle recomputes every box's number from
  * the data the page stamps (never the answer map). The robot taps each box and presses the REAL number-pad buttons;
  * then checks: Check disabled while a box is empty · right numbers → all green + celebration · one wrong number →
@@ -578,6 +661,7 @@ async function main() {
         : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
+        : B.kind === 'type-word' ? B.answers.map((a) => a + [...a].pop())
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
@@ -585,12 +669,12 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'type-number': playType, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -599,7 +683,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'type-number': playType, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

@@ -229,11 +229,12 @@ async function renderInstance(o) {
             slots: [...el.querySelectorAll(sp.slot)].map((t) => box(t.getBoundingClientRect())),
           };
         }
-        if (sp.typeNum) {
+        if (sp.typeNum || sp.typeWord) {
           // type-number (Number Walls 2026-10-13): the item IS the empty box on the page; the child writes its number
           const meta = {};
           (sp.metaAttrs || []).forEach((a) => { meta[a] = el.getAttribute(a); });
-          return { ...box(r), answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '', meta };
+          // type-word (Number Words 2026-10-13): the same write box, its answer the WORD
+          return { ...box(r), answer: sp.typeWord ? (el.getAttribute(sp.answerAttr) || '') : Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '', meta };
         }
         if (sp.select) {
           // tap-select: the item itself is the target; its answer is true / false (the page's own mark)
@@ -259,7 +260,7 @@ async function renderInstance(o) {
           answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '',
         };
       });
-    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', typeNum: spec.kind === 'type-number', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', typeNum: spec.kind === 'type-number', typeWord: spec.kind === 'type-word', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)
@@ -273,7 +274,10 @@ async function renderInstance(o) {
     // Every answer key is MEASURED (operator ruling 2026-09-28 — a repeating mistake): an answer on a writing row
     // must sit on the base rule with its x-height at the dashed midline, a gap-box answer must be centered, and no
     // ::after text may sit over a row. A failure fails the deck, so a misaligned key can never be published.
-    const keyLints = judgeKey(await measureKeyPage(page), 'answer key');
+    // the key is a printed page too: it must not run into the footer (2026-10-13, Number Words: the key's longer title —
+    // "… — Answer key" — wrapped and pushed four-word cards onto the footer, which every page gate had passed)
+    const keyLints = judgeKey(await measureKeyPage(page), 'answer key')
+      .concat((await runLints(page, { gradeBand: type.gradeBand })).filter((l) => /footer overlap|exceeds page box/.test(l)).map((l) => 'answer key: ' + l));
     interactive = { kind: spec.kind, items: geo, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
   }
 

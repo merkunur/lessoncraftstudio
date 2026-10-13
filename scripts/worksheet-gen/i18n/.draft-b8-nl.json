@@ -1,0 +1,263 @@
+{
+  "locale": "nl",
+  "types": {
+    "K-405": {
+      "title": "Doolhofpuzzel: help de egel naar de appelboom",
+      "printTitle": "Help de egel naar de appelboom",
+      "instruction": "Help de egel naar de appelboom. Teken een lijn langs de weg."
+    },
+    "K-406": {
+      "title": "Mijn eerste doolhof voor peuters",
+      "printTitle": "Help het hondje naar de bal",
+      "instruction": "Help het hondje naar de bal. Teken een lijn over de brede weg en blijf binnen de randen."
+    },
+    "G1-420": {
+      "title": "Grote doolhofpuzzel groep 3: de jungle",
+      "printTitle": "Help de orang-oetan de bananenboom te vinden",
+      "instruction": "Kijk eerst naar het hele doolhof. Teken daarna de weg van de orang-oetan naar de bananenboom."
+    },
+    "K-407": {
+      "title": "Rivierdoolhof: vaar de boot naar de teddybeer",
+      "printTitle": "Vaar het bootje naar de teddybeer",
+      "instruction": "Help het bootje over de beek naar de teddybeer op de steiger. Teken een lijn door het water."
+    },
+    "G1-421": {
+      "title": "Doolhof onder de grond: de mierengangen",
+      "printTitle": "Help de mier naar haar framboos",
+      "instruction": "Help de mier door de gangen naar beneden en naar boven, tot bij de framboos. Teken een lijn langs de weg."
+    },
+    "G1-422": {
+      "title": "Stadsdoolhof: zoek de kortste weg",
+      "printTitle": "De kortste weg naar de groene auto",
+      "instruction": "Veel straten gaan naar de groene auto. Teken de kortste weg voor de takelwagen en schrijf op hoeveel stukjes straat het zijn."
+    },
+    "K-408": {
+      "title": "Doolhof: jonge dieren zoeken hun moeder",
+      "printTitle": "Help elk jong dier zijn moeder te vinden",
+      "instruction": "Help elk jong dier zijn eigen moeder te vinden. Teken een lijn van elk jong naar zijn moeder."
+    },
+    "G1-423": {
+      "title": "Warrige lijnen: van wie is de vlieger?",
+      "printTitle": "Van wie is de vlieger?",
+      "instruction": "Volg elk touwtje van een dier naar zijn vlieger of ballon. Schrijf het nummer van het dier in het vakje erboven."
+    },
+    "G1-424": {
+      "title": "Doolhof: verzamel alle wortels",
+      "printTitle": "Help het konijn alle wortels te verzamelen",
+      "instruction": "Help het konijn naar de emmer en verzamel elke wortel, zonder een pad twee keer te nemen. Kruis voor elke wortel een rondje aan."
+    },
+    "G1-425": {
+      "title": "Doolhof: ontwijk de walrussen",
+      "printTitle": "Breng de ijsbeer veilig thuis",
+      "instruction": "Help de ijsbeer naar de iglo. Neem geen weg met een walrus of een gat in het ijs."
+    },
+    "K-409": {
+      "title": "Letterdoolhof A tot Z: de raket naar de maan",
+      "printTitle": "Vlieg van A tot Z naar de maan",
+      "instruction": "Help de raket naar de maan te vliegen. Ga bij elke splitsing naar de steen met de volgende letter van het alfabet."
+    },
+    "K-410": {
+      "title": "Letterdoolhof met kleine letters: de zee",
+      "printTitle": "Zwem van a tot z naar huis",
+      "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de luchtbel met de volgende kleine letter."
+    },
+    "G1-426": {
+      "title": "Letterdoolhof: in ABC-volgorde door de honingraat",
+      "printTitle": "Spring in ABC-volgorde door de honingraat",
+      "instruction": "Begin in het vakje waar de pijl naar wijst. Kleur de volgende letter van het alfabet in een vakje ernaast, tot aan de {LAST}."
+    },
+    "K-411": {
+      "title": "Getallendoolhof tot 20: het treintje",
+      "printTitle": "Tel met het treintje naar de hut",
+      "instruction": "Help het treintje naar de hut. Ga bij elke splitsing naar het volgende getal, van 1 tot 20."
+    },
+    "G2-392": {
+      "title": "Rekendoolhof groep 4: tellen met sprongen van 5",
+      "printTitle": "Tel met sprongen van 5 naar de regenboog",
+      "instruction": "Help de luchtballon naar de regenboog. Tel met sprongen van 5 van wolk naar wolk, tot 100."
+    },
+    "G1-427": {
+      "title": "Rekendoolhof groep 3: verliefde harten",
+      "printTitle": "Stap alleen op sommen die 10 maken",
+      "instruction": "Help de giraf naar de baobab. Stap alleen op de stenen waarvan de som 10 is."
+    },
+    "G1-428": {
+      "title": "Rekendoolhof: minsommen tot 20",
+      "printTitle": "Help het peperkoekmannetje naar de taart",
+      "instruction": "Kijk naar het getal bij het peperkoekmannetje. Stap alleen op de stenen met dat getal als antwoord."
+    },
+    "K-412": {
+      "title": "Doolhof met beginklanken: zoals leeuw",
+      "printTitle": "Plaatjes die beginnen zoals leeuw",
+      "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als leeuw."
+    },
+    "G2-393": {
+      "title": "Rekendoolhof groep 4: plus en min tot 100",
+      "printTitle": "Breng de kraan zijn getal",
+      "instruction": "Begin met het getal van de kiepwagen en schrijf het nieuwe getal in het vakje van elk bord. Zoek de weg die eindigt op het getal van de kraan."
+    },
+    "K-413": {
+      "title": "Doolhof kleurplaat: krab op het strand",
+      "printTitle": "Los het doolhof op en kleur het strand",
+      "instruction": "Teken de weg van de krab naar het zandkasteel en kleur de hele weg. Kleur daarna de strandtekening."
+    }
+  },
+  "families": {
+    "maze-puzzles": {
+      "slug": "doolhofpuzzels",
+      "name": "Doolhofpuzzels"
+    }
+  },
+  "skills": {
+    "maze-puzzles": {
+      "full": "Een lijn door een prentdoolhof tekenen en bij elke splitsing de volgende letter, het volgende getal of de volgende som kiezen oefent plannen en pengreep; met antwoorden.",
+      "short": "Oefent plannen en pengreep in een prentdoolhof."
+    }
+  },
+  "topicMeta": {
+    "maze-puzzles": "Doolhofpuzzels voor kinderen: leid een egel, een raket of een ijsbeer door een prentdoolhof, volg de letters van A tot Z, de getallen tot 20, tel met sprongen van 5 of zoek de sommen die 10 maken. Om te printen met antwoorden, kleuters tot groep 4."
+  },
+  "banks": {
+    "maze-puzzles": {
+      "strings": {
+        "base": {
+          "title": "Doolhofpuzzel: help de egel naar de appelboom",
+          "printTitle": "Help de egel naar de appelboom",
+          "instruction": "Help de egel naar de appelboom. Teken een lijn langs de weg.",
+          "tap": "Begin bij de groene cirkel met de pijl. Sleep langs de weg naar de vlag."
+        },
+        "first-maze": {
+          "title": "Mijn eerste doolhof voor peuters",
+          "printTitle": "Help het hondje naar de bal",
+          "instruction": "Help het hondje naar de bal. Teken een lijn over de brede weg en blijf binnen de randen.",
+          "tap": "Begin bij de groene cirkel. Sleep over de brede weg naar de bal."
+        },
+        "big-maze": {
+          "title": "Grote doolhofpuzzel groep 3: de jungle",
+          "printTitle": "Help de orang-oetan de bananenboom te vinden",
+          "instruction": "Kijk eerst naar het hele doolhof. Teken daarna de weg van de orang-oetan naar de bananenboom.",
+          "tap": "Kijk eerst en sleep dan van de groene cirkel naar de bananenboom. Houdt een weg op, ga dan terug."
+        },
+        "river": {
+          "title": "Rivierdoolhof: vaar de boot naar de teddybeer",
+          "printTitle": "Vaar het bootje naar de teddybeer",
+          "instruction": "Help het bootje over de beek naar de teddybeer op de steiger. Teken een lijn door het water.",
+          "tap": "Begin bij de groene cirkel. Sleep door het water naar de teddybeer."
+        },
+        "burrow": {
+          "title": "Doolhof onder de grond: de mierengangen",
+          "printTitle": "Help de mier naar haar framboos",
+          "instruction": "Help de mier door de gangen naar beneden en naar boven, tot bij de framboos. Teken een lijn langs de weg.",
+          "tap": "Begin bij de groene cirkel. Sleep door de gangen naar de framboos."
+        },
+        "shortest-way": {
+          "title": "Stadsdoolhof: zoek de kortste weg",
+          "printTitle": "De kortste weg naar de groene auto",
+          "instruction": "Veel straten gaan naar de groene auto. Teken de kortste weg voor de takelwagen en schrijf op hoeveel stukjes straat het zijn.",
+          "tap": "Sleep de kortste weg van de groene cirkel naar de groene auto."
+        },
+        "babies-mothers": {
+          "title": "Doolhof: jonge dieren zoeken hun moeder",
+          "printTitle": "Help elk jong dier zijn moeder te vinden",
+          "instruction": "Help elk jong dier zijn eigen moeder te vinden. Teken een lijn van elk jong naar zijn moeder.",
+          "tap": "Sleep van elk jong naar zijn eigen moeder."
+        },
+        "tangled-lines": {
+          "title": "Warrige lijnen: van wie is de vlieger?",
+          "printTitle": "Van wie is de vlieger?",
+          "instruction": "Volg elk touwtje van een dier naar zijn vlieger of ballon. Schrijf het nummer van het dier in het vakje erboven.",
+          "tap": "Sleep langs elk touwtje van het dier naar zijn vlieger of ballon."
+        },
+        "collect": {
+          "title": "Doolhof: verzamel alle wortels",
+          "printTitle": "Help het konijn alle wortels te verzamelen",
+          "instruction": "Help het konijn naar de emmer en verzamel elke wortel, zonder een pad twee keer te nemen. Kruis voor elke wortel een rondje aan.",
+          "tap": "Sleep van de groene cirkel naar de emmer. Kom langs elke wortel."
+        },
+        "avoid": {
+          "title": "Doolhof: ontwijk de walrussen",
+          "printTitle": "Breng de ijsbeer veilig thuis",
+          "instruction": "Help de ijsbeer naar de iglo. Neem geen weg met een walrus of een gat in het ijs.",
+          "tap": "Sleep van de groene cirkel naar de iglo. Neem geen weg met een walrus of een gat."
+        },
+        "abc-capitals": {
+          "title": "Letterdoolhof A tot Z: de raket naar de maan",
+          "printTitle": "Vlieg van A tot Z naar de maan",
+          "instruction": "Help de raket naar de maan te vliegen. Ga bij elke splitsing naar de steen met de volgende letter van het alfabet.",
+          "tap": "Begin bij de groene cirkel. Sleep bij elke splitsing naar de volgende letter."
+        },
+        "abc-lowercase": {
+          "title": "Letterdoolhof met kleine letters: de zee",
+          "printTitle": "Zwem van a tot z naar huis",
+          "instruction": "Help de clownvis naar het koraal te zwemmen. Ga bij elke splitsing naar de luchtbel met de volgende kleine letter.",
+          "tap": "Begin bij de groene cirkel. Sleep bij elke splitsing naar de volgende kleine letter."
+        },
+        "letter-hop": {
+          "title": "Letterdoolhof: in ABC-volgorde door de honingraat",
+          "printTitle": "Spring in ABC-volgorde door de honingraat",
+          "instruction": "Begin in het vakje waar de pijl naar wijst. Kleur de volgende letter van het alfabet in een vakje ernaast, tot aan de {LAST}.",
+          "tap": "Begin bij de groene cirkel. Sleep vakje voor vakje naar de volgende letter van het alfabet."
+        },
+        "numbers-20": {
+          "title": "Getallendoolhof tot 20: het treintje",
+          "printTitle": "Tel met het treintje naar de hut",
+          "instruction": "Help het treintje naar de hut. Ga bij elke splitsing naar het volgende getal, van 1 tot 20.",
+          "tap": "Begin bij de groene cirkel. Sleep bij elke splitsing naar het volgende getal."
+        },
+        "skip-5": {
+          "title": "Rekendoolhof groep 4: tellen met sprongen van 5",
+          "printTitle": "Tel met sprongen van 5 naar de regenboog",
+          "instruction": "Help de luchtballon naar de regenboog. Tel met sprongen van 5 van wolk naar wolk, tot 100.",
+          "tap": "Begin bij de groene cirkel. Sleep van wolk naar wolk en tel met sprongen van 5."
+        },
+        "make-10": {
+          "title": "Rekendoolhof groep 3: verliefde harten",
+          "printTitle": "Stap alleen op sommen die 10 maken",
+          "instruction": "Help de giraf naar de baobab. Stap alleen op de stenen waarvan de som 10 is.",
+          "tap": "Begin bij de groene cirkel. Sleep alleen over de stenen die 10 maken."
+        },
+        "subtract-20": {
+          "title": "Rekendoolhof: minsommen tot 20",
+          "printTitle": "Help het peperkoekmannetje naar de taart",
+          "instruction": "Kijk naar het getal bij het peperkoekmannetje. Stap alleen op de stenen met dat getal als antwoord.",
+          "tap": "Begin bij de groene cirkel. Sleep alleen over de stenen met het getal van het peperkoekmannetje als antwoord."
+        },
+        "first-sound": {
+          "title": "Doolhof met beginklanken: zoals leeuw",
+          "printTitle": "Plaatjes die beginnen zoals leeuw",
+          "instruction": "Zeg de naam van elk plaatje. Stap alleen op plaatjes die met dezelfde klank beginnen als leeuw.",
+          "tap": "Begin bij de groene cirkel. Sleep alleen over plaatjes die beginnen zoals leeuw."
+        },
+        "running-total": {
+          "title": "Rekendoolhof groep 4: plus en min tot 100",
+          "printTitle": "Breng de kraan zijn getal",
+          "instruction": "Begin met het getal van de kiepwagen en schrijf het nieuwe getal in het vakje van elk bord. Zoek de weg die eindigt op het getal van de kraan.",
+          "tap": "Begin bij de groene cirkel. Sleep langs de weg die eindigt op het getal van de kraan."
+        },
+        "maze-colouring": {
+          "title": "Doolhof kleurplaat: krab op het strand",
+          "printTitle": "Los het doolhof op en kleur het strand",
+          "instruction": "Teken de weg van de krab naar het zandkasteel en kleur de hele weg. Kleur daarna de strandtekening.",
+          "tap": "Begin bij de groene cirkel. Sleep langs de weg naar het zandkasteel."
+        }
+      },
+      "chrome": {
+        "mzGoBack": "Terug",
+        "mzKeepGoing": "Ga door: de weg houdt hier niet op.",
+        "mzLookAtRing": "Kijk naar het plaatje in de rode cirkel.",
+        "mzMissed": "Er mist een wortel. Kijk naar de rode cirkel.",
+        "mzTwice": "Deze weg heb je al gebruikt.",
+        "mzAvoid": "Deze weg gaat langs iets wat je moet ontwijken.",
+        "mzShorter": "Er is een kortere weg.",
+        "mzWrongHome": "Dit jong is nog niet bij zijn moeder.",
+        "mzWaysHere": "Wegen vanaf hier",
+        "mzPathN": "Weg {n}",
+        "mzAt": "Halte {n}",
+        "mzDeadEnd": "Deze weg houdt hier op.",
+        "mzAtGoal": "Gelukt!"
+      }
+    }
+  },
+  "refusals": {},
+  "enAudit": []
+}

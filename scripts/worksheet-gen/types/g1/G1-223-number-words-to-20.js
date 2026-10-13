@@ -5,6 +5,8 @@ module.exports = {
   ...base,
   id: 'G1-223',
   slug: 'number-words-to-20',
-  difficulty: { 1: {"mode":"circle","min":3,"max":20,"cards":6,"cols":2,"rows":3}, 2: {"mode":"circle","min":3,"max":20,"cards":6,"cols":2,"rows":3}, 3: {"mode":"circle","min":3,"max":20,"cards":6,"cols":2,"rows":3} },
+  // Level Set 2026-10-13: real levels from the base table (level 2 = the published config). ⚠ a re-run of
+  // tools/gen-var-specs.js would flatten them back to one config — keep this line.
+  difficulty: base.levelsFor('G1-223'),
   i18n: { en: { title: "Number Words to 20", instruction: "Read the number. Circle the word that matches it." } },
 };

@@ -1,0 +1,27 @@
+{
+ "id": "wave-var-core-it",
+ "_note": "Number Words native review fix 2026-10-13 (printed instruction text; nl G1-223 one = één): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "it"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-225"
+ ],
+ "levels": {
+  "G1-225": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

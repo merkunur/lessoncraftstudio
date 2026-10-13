@@ -253,7 +253,7 @@ const LABELS = {
       "tensOnes": "Decine e unità",
       "tens": "decine",
       "ones": "unità",
-      "tenFrames": "Mostralo nelle tabelle del 10",
+      "tenFrames": "Mostralo nelle griglie del 10",
       "tally": "Segna con le stanghette",
       "beforeAfter": "Prima e dopo",
       "numberLine": "Trovalo sulla linea dei numeri",

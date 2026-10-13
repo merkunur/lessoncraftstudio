@@ -7,7 +7,7 @@
     "K-287": {"title": "Singolare e plurale", "instruction": "Leggi la parola al singolare. Poi ripassa la parola al plurale e scrivila tu sulla riga vuota."},
     "K-288": {"title": "Gli articoli determinativi", "instruction": "Di' ad alta voce il nome della figura. Cerchia l'articolo giusto da mettere davanti al nome."},
     "G1-242": {"title": "Leggi e colora", "instruction": "Leggi bene ogni frase. Poi colora solo le figure che dice la frase, con il colore giusto."},
-    "G1-243": {"title": "Il numero del giorno", "instruction": "Guarda il numero grande. Rappresentalo in tutti i riquadri della pagina."},
+    "G1-243": {"title": "Il numero del giorno", "instruction": "Guarda il numero grande. Completa tutti i riquadri per quel numero."},
     "G1-244": {"title": "Dettato muto: scrivi la parola", "instruction": "Di' il nome di ogni figura. Scrivi la parola sulla riga."},
     "G1-245": {"title": "Ordine alfabetico", "instruction": "Usa la striscia dell'alfabeto. Numera le parole da 1 a 6 in ordine alfabetico, poi scrivile in ordine sulle righe."},
     "G1-246": {"title": "Piramidi di numeri", "instruction": "Ogni mattone è la somma dei due mattoni sotto di lui. Scrivi i numeri che mancano."},
@@ -88,7 +88,7 @@
   "labels": {
     "numberOfDay": {
       "numberWord": "Scrivi il numero in lettere", "tensOnes": "Decine e unità", "tens": "decine", "ones": "unità",
-      "tenFrames": "Mostralo nelle tabelle del 10", "tally": "Segna con le stanghette", "beforeAfter": "Prima e dopo",
+      "tenFrames": "Mostralo nelle griglie del 10", "tally": "Segna con le stanghette", "beforeAfter": "Prima e dopo",
       "numberLine": "Trovalo sulla linea dei numeri", "drawIt": "Disegnalo con i blocchi",
       "tenMoreLess": "10 in più, 10 in meno", "oneMoreLess": "1 in più, 1 in meno",
       "countOn": "Conta in avanti", "countBack": "Conta all'indietro", "countOnTens": "Conta di 10 in 10"

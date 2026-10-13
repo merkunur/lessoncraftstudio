@@ -63,7 +63,7 @@
   },
   "G1-255": {
    "title": "El número del día: números del 11 al 19",
-   "instruction": "El número de hoy está entre el 11 y el 19."
+   "instruction": "El número de hoy está entre el 11 y el 19. Llena todas las casillas."
   },
   "G1-256": {
    "title": "El número del día: 10 más y 10 menos",
@@ -71,7 +71,7 @@
   },
   "G1-257": {
    "title": "El número del día: hasta el 99",
-   "instruction": "Hoy el número llega hasta 99: decenas y unidades."
+   "instruction": "El número de hoy tiene dos cifras: escríbelo en decenas y unidades y llena todas las casillas."
   },
   "G1-258": {
    "title": "Dictado mudo: con la primera letra",

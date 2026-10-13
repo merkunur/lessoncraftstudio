@@ -1,0 +1,186 @@
+{
+ "_note": "Level Set 2026-10-13 — Number Tracing: the per-number page strings ({N} = the number). `digit` = pages 0-9, `number` = pages 10-20 (fr chiffre/nombre, nl cijfer/getal, sv siffra/tal, de Ziffer/Zahl, fi numero/luku). i1/i2/i3 = the printed instruction at level 1/2/3. Read by K-237 copyStrings for NEW copies only (a unit is set); the published pages never read it.",
+ "en": {
+  "digit": {
+   "title": "Trace the Number {N}",
+   "i1": "Trace the number on every line. Start at the orange dot and follow the arrows.",
+   "i2": "Trace the number. Start at the orange dot and follow the arrows. Then write it yourself in the empty space.",
+   "i3": "Trace the number once. Then write it yourself: once from the orange dots, and twice in the empty spaces."
+  },
+  "number": {
+   "title": "Trace the Number {N}",
+   "i1": "Trace the number on every line. Start at the orange dot and follow the arrows.",
+   "i2": "Trace the number. Start at the orange dot and follow the arrows. Then write it yourself in the empty space.",
+   "i3": "Trace the number once. Then write it yourself: once from the orange dots, and twice in the empty spaces."
+  }
+ },
+ "de": {
+  "digit": {
+   "title": "Ziffer {N} schreiben",
+   "i1": "Spure die Ziffer in jeder Zeile nach. Beginne am orangen Punkt und folge den Pfeilen.",
+   "i2": "Spure die Ziffer nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe sie dann allein in das leere Feld.",
+   "i3": "Spure die Ziffer einmal nach. Schreibe sie dann allein: einmal ab den orangen Punkten und zweimal in die leeren Felder."
+  },
+  "number": {
+   "title": "Zahl {N} schreiben",
+   "i1": "Spure die Zahl in jeder Zeile nach. Beginne am orangen Punkt und folge den Pfeilen.",
+   "i2": "Spure die Zahl nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe sie dann allein in das leere Feld.",
+   "i3": "Spure die Zahl einmal nach. Schreibe sie dann allein: einmal ab den orangen Punkten und zweimal in die leeren Felder."
+  }
+ },
+ "es": {
+  "digit": {
+   "title": "Número {N} punteado",
+   "i1": "Repasa el número en cada renglón. Empieza en el punto naranja y sigue las flechas.",
+   "i2": "Repasa el número. Empieza en el punto naranja y sigue las flechas. Después, escríbelo tú en el espacio vacío.",
+   "i3": "Repasa el número una vez. Después, escríbelo tú: una vez desde los puntos naranjas y dos veces en los espacios vacíos."
+  },
+  "number": {
+   "title": "Número {N} punteado",
+   "i1": "Repasa el número en cada renglón. Empieza en el punto naranja y sigue las flechas.",
+   "i2": "Repasa el número. Empieza en el punto naranja y sigue las flechas. Después, escríbelo tú en el espacio vacío.",
+   "i3": "Repasa el número una vez. Después, escríbelo tú: una vez desde los puntos naranjas y dos veces en los espacios vacíos."
+  }
+ },
+ "fr": {
+  "digit": {
+   "title": "Écriture du chiffre {N}",
+   "i1": "Repasse le chiffre sur chaque ligne. Pars du point orange et suis les flèches.",
+   "i2": "Repasse le chiffre. Pars du point orange et suis les flèches. Puis écris-le tout seul dans la case vide.",
+   "i3": "Repasse le chiffre une fois. Puis écris-le tout seul : une fois à partir des points orange et deux fois dans les cases vides."
+  },
+  "number": {
+   "title": "Écriture du nombre {N}",
+   "i1": "Repasse le nombre sur chaque ligne. Pars du point orange et suis les flèches.",
+   "i2": "Repasse le nombre. Pars du point orange et suis les flèches. Puis écris-le tout seul dans la case vide.",
+   "i3": "Repasse le nombre une fois. Puis écris-le tout seul : une fois à partir des points orange et deux fois dans les cases vides."
+  }
+ },
+ "it": {
+  "digit": {
+   "title": "Il numero {N} tratteggiato",
+   "i1": "Ripassa il numero su ogni riga. Parti dal punto arancione e segui le frecce.",
+   "i2": "Ripassa il numero. Parti dal punto arancione e segui le frecce. Poi scrivilo tu nello spazio vuoto.",
+   "i3": "Ripassa il numero una volta. Poi scrivilo tu: una volta partendo dai punti arancioni e due volte negli spazi vuoti."
+  },
+  "number": {
+   "title": "Il numero {N} tratteggiato",
+   "i1": "Ripassa il numero su ogni riga. Parti dal punto arancione e segui le frecce.",
+   "i2": "Ripassa il numero. Parti dal punto arancione e segui le frecce. Poi scrivilo tu nello spazio vuoto.",
+   "i3": "Ripassa il numero una volta. Poi scrivilo tu: una volta partendo dai punti arancioni e due volte negli spazi vuoti."
+  }
+ },
+ "pt": {
+  "digit": {
+   "title": "Número {N} pontilhado",
+   "i1": "Cubra o número em cada linha. Comece no ponto laranja e siga as setas.",
+   "i2": "Cubra o número com o lápis. Comece no ponto laranja e siga as setas. Depois escreva o número sozinho no espaço vazio.",
+   "i3": "Cubra o número uma vez. Depois escreva o número sozinho: uma vez a partir dos pontos laranja e duas vezes nos espaços vazios."
+  },
+  "number": {
+   "title": "Número {N} pontilhado",
+   "i1": "Cubra o número em cada linha. Comece no ponto laranja e siga as setas.",
+   "i2": "Cubra o número com o lápis. Comece no ponto laranja e siga as setas. Depois escreva o número sozinho no espaço vazio.",
+   "i3": "Cubra o número uma vez. Depois escreva o número sozinho: uma vez a partir dos pontos laranja e duas vezes nos espaços vazios."
+  }
+ },
+ "nl": {
+  "digit": {
+   "title": "Het cijfer {N} schrijven",
+   "i1": "Trek het cijfer op elke regel na. Begin bij de oranje stip en volg de pijltjes.",
+   "i2": "Trek het cijfer na. Begin bij de oranje stip en volg de pijltjes. Schrijf het daarna zelf in het lege vakje.",
+   "i3": "Trek het cijfer één keer na. Schrijf het daarna zelf: één keer vanaf de oranje stippen en twee keer in de lege vakjes."
+  },
+  "number": {
+   "title": "Het getal {N} schrijven",
+   "i1": "Trek het getal op elke regel na. Begin bij de oranje stip en volg de pijltjes.",
+   "i2": "Trek het getal na. Begin bij de oranje stip en volg de pijltjes. Schrijf het daarna zelf in het lege vakje.",
+   "i3": "Trek het getal één keer na. Schrijf het daarna zelf: één keer vanaf de oranje stippen en twee keer in de lege vakjes."
+  }
+ },
+ "sv": {
+  "digit": {
+   "title": "Spåra siffran {N}",
+   "i1": "Spåra siffran på varje rad. Börja vid den orangea pricken och följ pilarna.",
+   "i2": "Spåra siffran. Börja vid den orangea pricken och följ pilarna. Skriv den sedan själv i den tomma rutan.",
+   "i3": "Spåra siffran en gång. Skriv den sedan själv: en gång från de orangea prickarna och två gånger i de tomma rutorna."
+  },
+  "number": {
+   "title": "Spåra talet {N}",
+   "i1": "Spåra talet på varje rad. Börja vid den orangea pricken och följ pilarna.",
+   "i2": "Spåra talet. Börja vid den orangea pricken och följ pilarna. Skriv det sedan själv i den tomma rutan.",
+   "i3": "Spåra talet en gång. Skriv det sedan själv: en gång från de orangea prickarna och två gånger i de tomma rutorna."
+  }
+ },
+ "da": {
+  "digit": {
+   "title": "Skriv tallet {N}",
+   "i1": "Skriv oven i tallet på hver linje. Start ved den orange prik, og følg pilene.",
+   "i2": "Skriv oven i tallet. Start ved den orange prik, og følg pilene. Skriv det derefter selv i det tomme felt.",
+   "i3": "Skriv oven i tallet én gang. Skriv det derefter selv: én gang fra de orange prikker og to gange i de tomme felter."
+  },
+  "number": {
+   "title": "Skriv tallet {N}",
+   "i1": "Skriv oven i tallet på hver linje. Start ved den orange prik, og følg pilene.",
+   "i2": "Skriv oven i tallet. Start ved den orange prik, og følg pilene. Skriv det derefter selv i det tomme felt.",
+   "i3": "Skriv oven i tallet én gang. Skriv det derefter selv: én gang fra de orange prikker og to gange i de tomme felter."
+  }
+ },
+ "no": {
+  "digit": {
+   "title": "Spor tallet {N}",
+   "i1": "Spor tallet på hver linje. Start på den oransje prikken og følg pilene.",
+   "i2": "Spor tallet. Start på den oransje prikken og følg pilene. Skriv det så selv på den tomme plassen.",
+   "i3": "Spor tallet én gang. Skriv det så selv: én gang fra de oransje prikkene og to ganger på de tomme plassene."
+  },
+  "number": {
+   "title": "Spor tallet {N}",
+   "i1": "Spor tallet på hver linje. Start på den oransje prikken og følg pilene.",
+   "i2": "Spor tallet. Start på den oransje prikken og følg pilene. Skriv det så selv på den tomme plassen.",
+   "i3": "Spor tallet én gang. Skriv det så selv: én gang fra de oransje prikkene og to ganger på de tomme plassene."
+  }
+ },
+ "fi": {
+  "digit": {
+   "title": "Numeron {N} kirjoitusharjoitus",
+   "i1": "Kirjoita numero viivoja pitkin jokaisella rivillä. Aloita oranssista pisteestä ja seuraa nuolia.",
+   "i2": "Kirjoita numero viivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita se sitten itse tyhjään kohtaan.",
+   "i3": "Kirjoita numero kerran viivoja pitkin. Kirjoita se sitten itse: kerran oransseista pisteistä alkaen ja kahdesti tyhjiin kohtiin."
+  },
+  "number": {
+   "title": "Luvun {N} kirjoitusharjoitus",
+   "i1": "Kirjoita luku viivoja pitkin jokaisella rivillä. Aloita oranssista pisteestä ja seuraa nuolia.",
+   "i2": "Kirjoita luku viivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kirjoita se sitten itse tyhjään kohtaan.",
+   "i3": "Kirjoita luku kerran viivoja pitkin. Kirjoita se sitten itse: kerran oransseista pisteistä alkaen ja kahdesti tyhjiin kohtiin."
+  }
+ },
+ "range3": {
+  "_note": "printed level-3 instruction of the RANGE pages: digit = K-237/K-249/K-250/K-251, number = K-252/K-253 (written into i18n/level-instructions.json by tools/level-set/apply-ntr-strings.js)",
+  "digit": {
+   "en": "Trace each number once. Then write it yourself: once from the orange dots, and twice in the empty spaces.",
+   "de": "Spure jede Zahl einmal nach. Schreibe sie dann allein: einmal ab den orangen Punkten und zweimal in die leeren Felder.",
+   "es": "Repasa cada número una vez. Después, escríbelo tú: una vez desde los puntos naranjas y dos veces en los espacios vacíos.",
+   "fr": "Repasse chaque chiffre une fois. Puis écris-le tout seul : une fois à partir des points orange et deux fois dans les cases vides.",
+   "it": "Ripassa ogni numero una volta. Poi scrivilo tu: una volta partendo dai punti arancioni e due volte negli spazi vuoti.",
+   "pt": "Cubra cada número uma vez. Depois escreva o número sozinho: uma vez a partir dos pontos laranja e duas vezes nos espaços vazios.",
+   "nl": "Trek elk cijfer één keer na. Schrijf het daarna zelf: één keer vanaf de oranje stippen en twee keer in de lege vakjes.",
+   "sv": "Spåra varje siffra en gång. Skriv den sedan själv: en gång från de orangea prickarna och två gånger i de tomma rutorna.",
+   "da": "Skriv oven i hvert tal én gang. Skriv det derefter selv: én gang fra de orange prikker og to gange i de tomme felter.",
+   "no": "Spor hvert tall én gang. Skriv det så selv: én gang fra de oransje prikkene og to ganger på de tomme plassene.",
+   "fi": "Kirjoita jokainen numero kerran viivoja pitkin. Kirjoita se sitten itse: kerran oransseista pisteistä alkaen ja kahdesti tyhjiin kohtiin."
+  },
+  "number": {
+   "en": "Trace each number once. Then write it yourself: once from the orange dots, and twice in the empty spaces.",
+   "de": "Spure jede Zahl einmal nach. Schreibe sie dann allein: einmal ab den orangen Punkten und zweimal in die leeren Felder.",
+   "es": "Repasa cada número una vez. Después, escríbelo tú: una vez desde los puntos naranjas y dos veces en los espacios vacíos.",
+   "fr": "Repasse chaque nombre une fois. Puis écris-le tout seul : une fois à partir des points orange et deux fois dans les cases vides.",
+   "it": "Ripassa ogni numero una volta. Poi scrivilo tu: una volta partendo dai punti arancioni e due volte negli spazi vuoti.",
+   "pt": "Cubra cada número uma vez. Depois escreva o número sozinho: uma vez a partir dos pontos laranja e duas vezes nos espaços vazios.",
+   "nl": "Trek elk getal één keer na. Schrijf het daarna zelf: één keer vanaf de oranje stippen en twee keer in de lege vakjes.",
+   "sv": "Spåra varje tal en gång. Skriv det sedan själv: en gång från de orangea prickarna och två gånger i de tomma rutorna.",
+   "da": "Skriv oven i hvert tal én gang. Skriv det derefter selv: én gang fra de orange prikker og to gange i de tomme felter.",
+   "no": "Spor hvert tall én gang. Skriv det så selv: én gang fra de oransje prikkene og to ganger på de tomme plassene.",
+   "fi": "Kirjoita jokainen luku kerran viivoja pitkin. Kirjoita se sitten itse: kerran oransseista pisteistä alkaen ja kahdesti tyhjiin kohtiin."
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "wave-var-core-it",
+ "_note": "Number Tracing republish 2026-10-13 (stroke-order badges of 4, 5 and 9 were drawn on top of each other — badge 1 hidden under badge 2; now placed beside their own stroke): the live 0-4 and 5-9 pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "it"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-249",
+  "K-250"
+ ],
+ "levels": {
+  "K-249": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-250": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

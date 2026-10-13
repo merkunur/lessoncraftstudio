@@ -2726,5 +2726,20 @@
    "no": "Regn ut hvert gangestykke. Trykk på tallet som mangler.",
    "fi": "Laske jokainen kertolasku ja napauta puuttuvaa lukua."
   }
+ },
+ "number-bonds": {
+  "screen": {
+   "en": "Look at each number bond. Tap the missing number.",
+   "de": "Schau dir jede Zahlzerlegung an. Tippe die fehlende Zahl an.",
+   "es": "Mira cada esquema. Toca el número que falta.",
+   "fr": "Observe chaque schéma. Touche le nombre qui manque.",
+   "it": "Guarda ogni schema e tocca il numero che manca.",
+   "pt": "Observe cada esquema e toque no número que falta.",
+   "nl": "Kijk naar elke splitsing. Tik op het getal dat mist.",
+   "sv": "Titta på varje uppdelning. Tryck på talet som fattas.",
+   "da": "Find det tal, der mangler, og tryk på det.",
+   "no": "Se på delene og det hele. Trykk på tallet som mangler.",
+   "fi": "Katso jokaista hajotelmaa ja napauta puuttuvaa lukua."
+  }
  }
 }

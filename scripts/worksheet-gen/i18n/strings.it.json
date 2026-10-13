@@ -3212,5 +3212,21 @@
   "G3-405": {
     "title": "La tabellina del 9",
     "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
+  },
+  "K-414": {
+    "title": "Amici del 6",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "K-415": {
+    "title": "Amici del 7",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "K-416": {
+    "title": "Amici dell'8",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "K-417": {
+    "title": "Amici del 9",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
   }
 }

@@ -3217,5 +3217,21 @@
   "G3-405": {
     "title": "9-tabellen",
     "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "K-414": {
+    "title": "Talvenner til 6",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-415": {
+    "title": "Talvenner til 7",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-416": {
+    "title": "Talvenner til 8",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-417": {
+    "title": "Talvenner til 9",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
   }
 }

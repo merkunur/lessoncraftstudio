@@ -1,0 +1,67 @@
+{
+ "id": "wave-varcore-es",
+ "_note": "Number Bonds es instruction fix 2026-10-13 (\"círculo de puntos\" read as the circle WITH dots on the dot pages → \"círculo vacío\"): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-273",
+  "K-274",
+  "K-275",
+  "K-276",
+  "K-277"
+ ],
+ "levels": {
+  "K-273": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-274": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-275": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-276": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  },
+  "K-277": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

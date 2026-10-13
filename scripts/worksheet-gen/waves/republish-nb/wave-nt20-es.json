@@ -1,0 +1,27 @@
+{
+ "id": "wave-nt20-es",
+ "_note": "Number Bonds es instruction fix 2026-10-13 (\"círculo de puntos\" read as the circle WITH dots on the dot pages → \"círculo vacío\"): the live pages of this wave, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "es"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-243"
+ ],
+ "levels": {
+  "K-243": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

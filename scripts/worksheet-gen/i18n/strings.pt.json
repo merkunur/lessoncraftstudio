@@ -3236,5 +3236,21 @@
   "G3-405": {
     "title": "Tabuada do 9",
     "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "K-414": {
+    "title": "Amigos do 6",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-415": {
+    "title": "Amigos do 7",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-416": {
+    "title": "Amigos do 8",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-417": {
+    "title": "Amigos do 9",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
   }
 }

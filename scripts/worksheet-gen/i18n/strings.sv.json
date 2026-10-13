@@ -3200,5 +3200,21 @@
   "G3-405": {
     "title": "9:ans tabell",
     "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "K-414": {
+    "title": "Talkamrater till 6",
+    "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-415": {
+    "title": "Talkamrater till 7",
+    "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-416": {
+    "title": "Talkamrater till 8",
+    "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-417": {
+    "title": "Talkamrater till 9",
+    "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
   }
 }

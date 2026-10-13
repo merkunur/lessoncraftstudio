@@ -997,7 +997,7 @@
   },
   "K-243": {
     "title": "Amigos del 10",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "G1-208": {
     "title": "Cálculo mental hasta 20",
@@ -1165,23 +1165,23 @@
   },
   "K-273": {
     "title": "Amigos del 5",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "K-274": {
     "title": "Descomposición de números hasta 10",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "K-275": {
     "title": "Amigos del 20",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "K-276": {
     "title": "Las partes y el todo",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "K-277": {
     "title": "Amigos del 10 con puntos",
-    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   },
   "G1-214": {
     "title": "Cálculo mental hasta 10",
@@ -3214,5 +3214,21 @@
   "G3-405": {
     "title": "La tabla del 9",
     "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "K-414": {
+    "title": "Amigos del 6",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "K-415": {
+    "title": "Amigos del 7",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "K-416": {
+    "title": "Amigos del 8",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "K-417": {
+    "title": "Amigos del 9",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
   }
 }

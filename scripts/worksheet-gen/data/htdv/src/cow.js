@@ -1,0 +1,35 @@
+'use strict';
+// a farm cow, front view: an oval head and a wide oval muzzle on a rounded-rectangle body; legs, ears and horns behind
+const { circle, ellipse, rrect } = require('../../../lib/htd-vector.js');
+module.exports = {
+  key: 'cow',
+  parts: [
+    { id: 'tail', step: 3, kind: 'line', w: 4.2, d: 'M420 300C462 300 468 340 460 380' },
+    { id: 'tuft', step: 3, d: 'M452 376C446 392 452 410 462 414C472 410 476 392 468 376Z' },
+    { id: 'leg-1', step: 2, d: rrect(184, 380, 52, 132, 20) },
+    { id: 'leg-2', step: 2, d: rrect(252, 380, 44, 122, 18) },
+    { id: 'leg-3', step: 2, d: rrect(304, 380, 44, 122, 18) },
+    { id: 'leg-4', step: 2, d: rrect(364, 380, 52, 132, 20) },
+    { id: 'hoof', step: 4, kind: 'line', w: 3.6, d: 'M186 490L234 490M254 482L294 482M306 482L346 482M366 490L414 490' },
+    { id: 'body', step: 1, guide: true, major: true, shape: 'rectangle', d: rrect(166, 244, 268, 196, 64) },
+    { id: 'horn-l', step: 2, d: 'M252 132C236 118 232 96 240 78C252 92 262 106 272 118Z' },
+    { id: 'horn-r', step: 2, d: 'M348 132C364 118 368 96 360 78C348 92 338 106 328 118Z' },
+    { id: 'ear-l', step: 2, d: ellipse(206, 160, 46, 20, -18) },
+    { id: 'ear-r', step: 2, d: ellipse(394, 160, 46, 20, 18) },
+    { id: 'head', step: 1, guide: true, major: true, shape: 'oval', d: ellipse(300, 190, 82, 92) },
+    { id: 'muzzle', step: 1, guide: true, shape: 'oval', d: ellipse(300, 262, 70, 44) },
+    { id: 'nostril-l', step: 3, kind: 'solid', d: ellipse(276, 262, 8, 11, -15) },
+    { id: 'nostril-r', step: 3, kind: 'solid', d: ellipse(324, 262, 8, 11, 15) },
+    { id: 'eye-l', step: 3, kind: 'solid', d: ellipse(268, 182, 12, 15) },
+    { id: 'eye-r', step: 3, kind: 'solid', d: ellipse(332, 182, 12, 15) },
+    { id: 'shine-l', step: 3, kind: 'shine', d: circle(271, 176, 4.5) },
+    { id: 'shine-r', step: 3, kind: 'shine', d: circle(335, 176, 4.5) },
+    { id: 'smile', step: 3, kind: 'line', w: 3.4, d: 'M280 288C292 296 308 296 320 288' },
+    { id: 'bell-strap', step: 4, kind: 'line', w: 3.4, d: 'M262 314C282 326 318 326 338 314' },
+    { id: 'bell', step: 4, d: 'M286 326L314 326C316 340 322 352 328 360L272 360C278 352 284 340 286 326Z' },
+    { id: 'clapper', step: 4, kind: 'solid', d: circle(300, 364, 5) },
+    { id: 'spot-1', step: 4, kind: 'solid', d: 'M190 290C204 270 236 278 236 302C236 326 206 334 194 320C186 310 184 298 190 290Z' },
+    { id: 'spot-2', step: 4, kind: 'solid', d: 'M372 360C388 346 414 356 410 380C406 404 380 406 370 392C364 382 364 368 372 360Z' },
+    { id: 'spot-head', step: 4, kind: 'solid', d: 'M318 120C334 112 356 124 354 144C352 160 334 164 324 154C316 144 310 128 318 120Z' },
+  ],
+};

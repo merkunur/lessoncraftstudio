@@ -85,7 +85,7 @@
     },
     "shapes": {
       "title": "Desenhe {L} com formas simples",
-      "instruction": "Passe o lápis por cima das formas pontilhadas do papel, desenhe o contorno do cachorro em volta delas e termine com os passos."
+      "instruction": "Passe o lápis por cima das formas pontilhadas do quadro e termine de desenhar o cachorro com as linhas novas de cada passo."
     },
     "trace": {
       "title": "Cubra e depois desenhe {L} sozinho",

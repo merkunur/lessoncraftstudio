@@ -51,7 +51,7 @@
     },
     "K-401": {
       "title": "Piirrä {L} yksinkertaisista muodoista",
-      "instruction": "Piirrä katkoviivamuotojen päälle, piirrä sitten niiden ympärille koiran ääriviiva ja viimeistele koira vaiheiden avulla."
+      "instruction": "Piirrä katkoviivamuotojen päälle ja viimeistele sitten koira jokaisen vaiheen uusilla viivoilla."
     },
     "K-402": {
       "title": "Seuraa viivoja ja piirrä sitten {L} itse",
@@ -284,7 +284,7 @@
         },
         "shapes": {
           "title": "Piirrä {L} yksinkertaisista muodoista",
-          "instruction": "Piirrä katkoviivamuotojen päälle, piirrä sitten niiden ympärille koiran ääriviiva ja viimeistele koira vaiheiden avulla."
+          "instruction": "Piirrä katkoviivamuotojen päälle ja viimeistele sitten koira jokaisen vaiheen uusilla viivoilla."
         },
         "trace": {
           "title": "Seuraa viivoja ja piirrä sitten {L} itse",

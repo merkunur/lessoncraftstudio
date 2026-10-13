@@ -76,7 +76,7 @@ const HOW_TO_DRAW = {
     refusals: {},
     strings: {
       base: { title: 'How to Draw {L} Step by Step', instruction: 'Look at the four numbered steps and draw the cat on the big paper: first the outline, then the new lines you see in each step.' },
-      shapes: { title: 'Draw {L} with Simple Shapes', instruction: 'Go over the dotted shapes already on the paper, then draw the dog\'s outline around them and finish it with the steps.' },
+      shapes: { title: 'Draw {L} with Simple Shapes', instruction: 'Go over the dotted shapes in the box, then finish the dog with the new lines of each step.' },
       trace: { title: 'Trace, Then Draw {L}', instruction: 'Trace the grey rabbit with your pencil, then draw the rabbit yourself in the empty box beside it.' },
       finish: { title: 'Finish the {N} Drawing', instruction: 'Look at the whole horse, draw the lines that are missing on the second horse, then draw a horse of your own below.' },
       grid: { title: 'Draw {L} with the Grid', instruction: 'Look at the dinosaur on the grid and draw it on the empty grid one square at a time, then once more without the grid.' },
@@ -144,6 +144,28 @@ function stepsFor(slug) {
   if (S.refused) throw new Error(`how-to-draw: ${slug} is REFUSED in data/htd/review.js: ${S.refused}`);
   if (!S.stats || S.stats.missing || S.stats.extra || S.stats.dup) throw new Error(`how-to-draw: ${slug} steps do not partition the drawing (missing ${S.stats && S.stats.missing}, extra ${S.stats && S.stats.extra})`);
   _steps.set(slug, S);
+  return S;
+}
+/* ---- the DRAWN lessons of the dotted-shape pages (data/htdv, 2026-10-13): unit → drawing ---- */
+const VECTOR = {
+  'animals-bw-2-dog': 'dog', 'animals-bw-2-raccoon': 'raccoon', 'animals-bw-3-cat-2': 'cat', 'animals-bw-3-cow': 'cow-spotted',
+  'animals-bw-3-fish-2': 'fish', 'animals-bw-3-hippopotamus-2': 'hippo', 'animals-bw-4-kangaroo': 'kangaroo', 'animals-bw-4-koala': 'koala',
+  'animals-bw-5-bull': 'bull', 'animals-bw-5-chameleon': 'chameleon', 'animals-bw-5-panda': 'panda', 'animals-bw-5-squirrel': 'squirrel',
+  'animals-bw-5-tiger': 'tiger', 'zoo-animals-bw-bear-2': 'bear', 'christmas-bw-snowman': 'snowman', 'easter-bw-2-chick': 'chick',
+  'farm-animals-bw-yak': 'yak', 'farm-bw-cow': 'cow', 'farm-bw-goat': 'goat', 'toys-bw-teddy-bear': 'teddy-bear',
+  'vegetables-bw-2-mushroom': 'mushroom', 'animals-bw-5-bee': 'bee',
+};
+const _vsteps = new Map();
+/** the drawn lesson of a dotted-shape page: THROWS when the unit has none (never a fitted fallback) or it broke a law */
+function vectorStepsFor(slug) {
+  const key = VECTOR[String(slug || '').replace(/^lsx-/, '')];
+  if (!key) throw new Error(`how-to-draw: ${slug} has no drawn lesson (data/htdv) — a dotted-shape page needs one`);
+  if (_vsteps.has(key)) return _vsteps.get(key);
+  const f = path.join(__dirname, '..', 'htdv', key + '.json');
+  if (!fs.existsSync(f)) throw new Error(`how-to-draw: ${f} is absent (node tools/htdv-build.js --only=${key})`);
+  const S = JSON.parse(fs.readFileSync(f, 'utf8'));
+  if (S.lesson !== 'vector' || (S.stats.fails && S.stats.fails.length) || S.stats.missing) throw new Error(`how-to-draw: ${key} breaks a law: ${(S.stats.fails || []).join('; ')}`);
+  _vsteps.set(key, S);
   return S;
 }
 function unitFor(block, mode) {
@@ -244,4 +266,4 @@ function validateBank(block, loc) {
   return errs;
 }
 
-module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank };
+module.exports = { HOW_TO_DRAW, COMMON, UNITS, FACES, MODES, isLs, lsUnits, lsName, lsStarters, stepsFor, vectorStepsFor, VECTOR, unitFor, unitRecord, formFor, nounFor, startersFor, lawN, drawScramble, validateBank };

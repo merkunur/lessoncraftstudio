@@ -48,7 +48,9 @@ function htdPaper({ w, h, role = 'primary', free = false, guides = null, attrs =
   if (guides && guides.S) {
     const vb = Hd.panelBox(guides.S, { viewBox: 'bbox' });
     const g = T.inkSoft;
-    const shapes = (guides.S.shapes || []).filter((x) => x.kind).map((sh) => sh.kind === 'ellipse'
+    const shapes = (guides.S.shapes || []).filter((x) => x.kind).map((sh) => sh.kind === 'path'
+      ? `<path d="${sh.d}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10" stroke-linecap="butt" vector-effect="non-scaling-stroke" data-lcs-htd-guide="${sh.shape}"/>`
+      : sh.kind === 'ellipse'
       ? `<ellipse cx="${sh.cx}" cy="${sh.cy}" rx="${sh.rx}" ry="${sh.ry}" transform="rotate(${sh.angle} ${sh.cx} ${sh.cy})" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10" vector-effect="non-scaling-stroke"/>`
       : `<rect x="${sh.box.x}" y="${sh.box.y}" width="${sh.box.w}" height="${sh.box.h}" rx="${Math.min(sh.box.w, sh.box.h) * 0.18}" fill="none" stroke="${g}" stroke-width="4" stroke-dasharray="14 10" vector-effect="non-scaling-stroke"/>`).join('');
     const outline = guides.outline ? `<path d="${guides.S.full}" fill="${T.creamDeep}" data-lcs-htd-pale="1"/>` : '';

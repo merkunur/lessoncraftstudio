@@ -133,12 +133,12 @@ function themelessWaves() {
         const html = buildDeckHtml({ manifest, spec, strings, locale: loc, preview: TINY });
         return ((/<title>([^<]*)<\/title>/.exec(html) || [])[1] || '').length <= (cfg.titleMax || 70);
       };
-      let next = 2;
+      let next = face.noPublished ? 1 : 2;   // a face with no published page numbers its copies from 1
       for (const lv of face.levels) {
         if (!cfg.include(loc, id, lv)) continue;
         const accepted = [];
         const out = [];
-        if (lv === 2) { try { accepted.push(wholesOf(2, null, 1, 1)); } catch (e) { continue; } }   // the published page
+        if (lv === 2 && !face.noPublished) { try { accepted.push(wholesOf(2, null, 1, 1)); } catch (e) { continue; } }   // the published page (face.noPublished: a NEW face — Multiplication Tables 6-9, 2026-10-13 — has none, so its copy 1 is built too)
         // a face may list SEVERAL text levels (Reading Comprehension: every level walks the native story pool)
         const tl = (cfg.textLevels || {})[id];
         const text = tl === lv || (Array.isArray(tl) && tl.includes(lv));
@@ -165,7 +165,7 @@ function themelessWaves() {
             .filter((t) => !(lv === 2 && t.sv === 1 && (cfg.groupFaces[id] === 'skipFirstAtCore') && (t.unit === null || t.unit === pubUnit)))
           : text
             ? Array.from({ length: cfg.maxCopies }, (_, k) => ({ unit: null, sv: k + 1 }))
-            : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !((lv === 2 || (face.liveAt || []).includes(lv)) && t.unit === null && t.sv === 1));   // face.liveAt (Measurement 2026-10-09): levels whose copy 1 is ALSO a live page (June level 1 / 3 pages)
+            : units.flatMap((unit) => Array.from({ length: face.seeds || cfg.seeds }, (_, k) => ({ unit, sv: k + 1 }))).filter((t) => !(((lv === 2 && !face.noPublished) || (face.liveAt || []).includes(lv)) && t.unit === null && t.sv === 1));   // face.liveAt (Measurement 2026-10-09): levels whose copy 1 is ALSO a live page (June level 1 / 3 pages)
         // face.maxCopiesAt (Days and Months, 2026-10-06): a level whose copies could only reshuffle the same content gets
         // fewer copies (operator: "only copies that differ") — { <level>: n }
         const cap = (face.maxCopiesAt && face.maxCopiesAt[lv] !== undefined) ? face.maxCopiesAt[lv] : cfg.maxCopies;

@@ -3134,5 +3134,21 @@
   "G3-401": {
     "title": "Cursive Sentences to Copy",
     "instruction": "Trace the grey sentence, then copy each printed sentence in cursive on the two lines below it."
+  },
+  "G3-402": {
+    "title": "Times Table of 6",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-403": {
+    "title": "Times Table of 7",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-404": {
+    "title": "Times Table of 8",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-405": {
+    "title": "Times Table of 9",
+    "instruction": "Multiply. Write each product in the box."
   }
 }

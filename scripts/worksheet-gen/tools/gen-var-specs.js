@@ -291,6 +291,8 @@ const ROWS = [
     'Regrouping Review', null],
 
   // ---- G3-358 times tables (the per-table query family) ----
+  // ⚠ Level Set 2026-10-13: these five files now read `difficulty: base.tableLevels(N)` (three real levels). A re-run
+  // writes the old flat config back (L1 = L2 = L3) — restore the tableLevels line afterwards, or leave them out.
   ...[[364, 2], [365, 5], [366, 10], [367, 3], [368, 4]].map(([n, table]) => ['g3', `G3-${n}`, `times-table-of-${table}`, 'G3-358-times-tables.js',
     { mode: 'table', table, cards: 10, cols: 2, rows: 5 },
     `Times Table of ${table}`, null]),

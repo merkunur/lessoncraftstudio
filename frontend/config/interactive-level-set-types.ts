@@ -25,6 +25,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
   'maze-puzzles',        // Maze Puzzles (2026-10-12): draw the way along the roads (original scenes, three levels per face)
   'mental-math',         // Mental Math (2026-10-09): tap the missing number of each problem
+  'multiplication-tables', // Multiplication Tables (2026-10-13): tap the product or the missing factor of each fact
   'measurement',         // Measurement (2026-10-09): tap a length, a temperature, cubes, ml or g; the rank 1-3; the heavier picture
   'hundreds-chart-puzzles', // Hundreds Chart Puzzles (2026-10-09): tap the number for the ? square, the wrong number, where the jumps land
   'graphing-data',       // Graphs and Data (2026-10-08): tap the number on each graph, the one with the most, build the graph cell by cell

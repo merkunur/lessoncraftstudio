@@ -3184,5 +3184,21 @@
     "title": "Labyrint att färglägga: krabban på stranden",
     "instruction": "Rita krabbans väg till sandslottet och färglägg hela vägen. Färglägg sedan strandbilden.",
     "printTitle": "Lös labyrinten och färglägg stranden"
+  },
+  "G3-402": {
+    "title": "6:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-403": {
+    "title": "7:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-404": {
+    "title": "8:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-405": {
+    "title": "9:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
   }
 }

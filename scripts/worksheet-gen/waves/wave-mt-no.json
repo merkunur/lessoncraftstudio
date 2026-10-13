@@ -1,0 +1,611 @@
+{
+  "id": "wave-mt-no",
+  "_note": "Level Set 2026-10-13: Multiplication Tables. Level 1 easier (the easy tables 2, 5, 10 mixed; a single table in order with x1, x5, x10 worked), level 2 the published page (a table: in order, counting down, turned around), level 3 harder (the missing number: a factor or the product, the facts mixed). New variations for the tables of 6, 7, 8 and 9. Visible to teachers, never indexed; PDF + interactive screen version + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "no"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G3-358",
+    "G3-364",
+    "G3-365",
+    "G3-366",
+    "G3-367",
+    "G3-368",
+    "G3-402",
+    "G3-403",
+    "G3-404",
+    "G3-405"
+  ],
+  "levels": {
+    "G3-358": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 10
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 22
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 53
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 5
+        }
+      ]
+    },
+    "G3-364": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 8
+        }
+      ]
+    },
+    "G3-365": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ]
+    },
+    "G3-366": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ]
+    },
+    "G3-367": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ]
+    },
+    "G3-368": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 9
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 17
+        }
+      ]
+    },
+    "G3-402": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ]
+    },
+    "G3-403": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 14
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 18
+        }
+      ]
+    },
+    "G3-404": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ]
+    },
+    "G3-405": {
+      "1": [
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 2
+        }
+      ],
+      "2": [
+        {
+          "copy": 1,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        }
+      ],
+      "3": [
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 17
+        }
+      ]
+    }
+  }
+}

@@ -5,6 +5,7 @@ module.exports = {
   ...base,
   id: 'G3-367',
   slug: 'times-table-of-3',
-  difficulty: { 1: {"mode":"table","table":3,"cards":10,"cols":2,"rows":5}, 2: {"mode":"table","table":3,"cards":10,"cols":2,"rows":5}, 3: {"mode":"table","table":3,"cards":10,"cols":2,"rows":5} },
+  // Level Set 2026-10-13: the three levels come from the base (tableLevels) — never write them here
+  difficulty: base.tableLevels(3),
   i18n: { en: { title: "Times Table of 3", instruction: "Multiply. Write each product in the box." } },
 };

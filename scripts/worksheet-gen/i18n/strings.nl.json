@@ -3216,5 +3216,21 @@
     "title": "Doolhof kleurplaat: krab op het strand",
     "instruction": "Teken de weg van de krab naar het zandkasteel en kleur de hele weg. Kleur daarna de strandtekening.",
     "printTitle": "Los het doolhof op en kleur het strand"
+  },
+  "G3-402": {
+    "title": "De tafel van 6",
+    "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+  },
+  "G3-403": {
+    "title": "De tafel van 7",
+    "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+  },
+  "G3-404": {
+    "title": "De tafel van 8",
+    "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+  },
+  "G3-405": {
+    "title": "De tafel van 9",
+    "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
   }
 }

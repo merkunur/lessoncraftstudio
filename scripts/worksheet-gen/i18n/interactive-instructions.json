@@ -2711,5 +2711,20 @@
    "no": "Start ved den grønne sirkelen. Dra langs veien fram til sandslottet.",
    "fi": "Aloita vihreästä ympyrästä. Vedä tietä pitkin hiekkalinnalle asti."
   }
+ },
+ "multiplication-tables": {
+  "screen": {
+   "en": "Multiply. Tap the missing number.",
+   "de": "Rechne jede Malaufgabe. Tippe die fehlende Zahl an.",
+   "es": "Resuelve cada multiplicación. Toca el número que falta.",
+   "fr": "Calcule chaque multiplication. Touche le nombre manquant.",
+   "it": "Risolvi ogni moltiplicazione e tocca il numero mancante.",
+   "pt": "Resolva cada multiplicação e toque no número que falta.",
+   "nl": "Reken elke keersom uit. Tik op het getal dat ontbreekt.",
+   "sv": "Räkna ut varje uppgift. Tryck på talet som saknas.",
+   "da": "Regn hvert gangestykke ud, og tryk på det manglende tal.",
+   "no": "Regn ut hvert gangestykke. Trykk på tallet som mangler.",
+   "fi": "Laske jokainen kertolasku ja napauta puuttuvaa lukua."
+  }
  }
 }

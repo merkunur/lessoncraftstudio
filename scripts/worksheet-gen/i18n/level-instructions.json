@@ -2931,5 +2931,272 @@
    "no": "Regn ut i hodet hvilket tall som mangler. Skriv det i ruten.",
    "fi": "Päättele puuttuva luku päässäsi. Kirjoita se laatikkoon."
   }
+ },
+ "G3-358": {
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-364": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-365": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-366": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-367": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-368": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-402": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-403": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-404": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
+ },
+ "G3-405": {
+  "1": {
+   "en": "Some products are already written. Multiply and write the other products in the boxes.",
+   "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
+   "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+   "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
+   "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
+   "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
+   "nl": "Een paar antwoorden staan er al. Reken de andere keersommen uit en schrijf de antwoorden in de vakjes.",
+   "sv": "Några produkter är redan ifyllda. Räkna ut de andra uppgifterna och skriv produkterna i rutorna.",
+   "da": "Nogle resultater er allerede skrevet. Regn de andre gangestykker ud, og skriv resultaterne i kasserne.",
+   "no": "Noen svar står der allerede. Regn ut de andre gangestykkene, og skriv svarene i rutene.",
+   "fi": "Osa vastauksista on jo valmiina. Laske muut kertolaskut ja kirjoita vastaukset laatikoihin."
+  },
+  "3": {
+   "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
+   "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
+   "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+   "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
+   "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
+   "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
+   "nl": "Welk getal ontbreekt? Reken elke keersom uit en schrijf het ontbrekende getal in het vakje.",
+   "sv": "Vilket tal saknas? Räkna ut varje uppgift och skriv talet som saknas i rutan.",
+   "da": "Hvilket tal mangler? Regn hvert gangestykke ud, og skriv det manglende tal i kassen.",
+   "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
+   "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
+  }
  }
 }

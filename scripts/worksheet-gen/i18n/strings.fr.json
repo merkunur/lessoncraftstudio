@@ -3231,5 +3231,21 @@
   "G3-405": {
     "title": "La table de 9",
     "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "K-414": {
+    "title": "Les compléments à 6",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-415": {
+    "title": "Les compléments à 7",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-416": {
+    "title": "Les compléments à 8",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-417": {
+    "title": "Les compléments à 9",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
   }
 }

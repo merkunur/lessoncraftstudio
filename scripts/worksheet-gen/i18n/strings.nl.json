@@ -3232,5 +3232,21 @@
   "G3-405": {
     "title": "De tafel van 9",
     "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+  },
+  "K-414": {
+    "title": "Splitsen van 6",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "K-415": {
+    "title": "Splitsen van 7",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "K-416": {
+    "title": "Splitsen van 8",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "K-417": {
+    "title": "Splitsen van 9",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
   }
 }

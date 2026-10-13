@@ -5,6 +5,8 @@ module.exports = {
   ...base,
   id: 'K-277',
   slug: 'number-bonds-ten-dots',
-  difficulty: { 1: {"wholeMin":10,"wholeMax":10,"dedupUnordered":true,"cards":4,"cols":2,"rows":2,"dots":true,"blanks":["a","b"],"size":232}, 2: {"wholeMin":10,"wholeMax":10,"dedupUnordered":true,"cards":4,"cols":2,"rows":2,"dots":true,"blanks":["a","b"],"size":232}, 3: {"wholeMin":10,"wholeMax":10,"dedupUnordered":true,"cards":4,"cols":2,"rows":2,"dots":true,"blanks":["a","b"],"size":232} },
+  // Level Set 2026-10-13: levels 1 and 3 from K-243 bondLevels (never pasted here — tools/gen-var-specs.js would flatten
+  // them); level 2 = the published config, exactly as it was.
+  difficulty: base.bondLevels('makeTen', {"wholeMin":10,"wholeMax":10,"dedupUnordered":true,"cards":4,"cols":2,"rows":2,"dots":true,"blanks":["a","b"],"size":232}),
   i18n: { en: { title: "Make Ten with Counting Dots", instruction: "Look at each number bond. Write the missing number in the dashed circle." } },
 };

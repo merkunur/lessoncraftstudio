@@ -3150,5 +3150,21 @@
   "G3-405": {
     "title": "Times Table of 9",
     "instruction": "Multiply. Write each product in the box."
+  },
+  "K-414": {
+    "title": "Number Bonds of 6",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-415": {
+    "title": "Number Bonds of 7",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-416": {
+    "title": "Number Bonds of 8",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-417": {
+    "title": "Number Bonds of 9",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
   }
 }

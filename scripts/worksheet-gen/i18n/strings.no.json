@@ -3226,5 +3226,21 @@
   "G3-405": {
     "title": "9-gangen",
     "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "K-414": {
+    "title": "Tallvenner til 6",
+    "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-415": {
+    "title": "Tallvenner til 7",
+    "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-416": {
+    "title": "Tallvenner til 8",
+    "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-417": {
+    "title": "Tallvenner til 9",
+    "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
   }
 }

@@ -60,13 +60,16 @@ function graphFor(C) {
 }
 
 /** number questions: [{ q, prompt, ans, slips, step }] → tap-choice items */
+/** the bounds of a question's wrong numbers: 0 and up by default; x.lo / x.hi (Number Bonds 2026-10-13: a part is never
+ *  bigger than its whole, a whole never smaller than its bigger part — else its size alone marks it wrong) */
+const lim = (x) => (x.lo === undefined && x.hi === undefined ? { min: 0, step: x.step || 1 } : { min: x.lo === undefined ? 0 : x.lo, max: x.hi, step: x.step || 1 });
 function numberItems(qs, salt) {
   const page = qs.map((x) => x.q).join('|') + '|' + salt + '|';
-  const items = qs.map((x, k) => ({ x, ...numberChoices(x.ans, x.slips, page + k + '|' + x.q, { min: 0, step: x.step || 1 }) }));
+  const items = qs.map((x, k) => ({ x, ...numberChoices(x.ans, x.slips, page + k + '|' + x.q, lim(x)) }));
   for (let k = 3; k < items.length; k++) {
     if (!tappingRhythm(items.slice(0, k + 1).map((i) => i.at), 3)) continue;
     for (let s = 1; s < 20; s++) {
-      items[k] = { x: items[k].x, ...numberChoices(items[k].x.ans, items[k].x.slips, page + k + '|' + items[k].x.q + '|' + s, { min: 0, step: items[k].x.step || 1 }) };
+      items[k] = { x: items[k].x, ...numberChoices(items[k].x.ans, items[k].x.slips, page + k + '|' + items[k].x.q + '|' + s, lim(items[k].x)) };
       if (!tappingRhythm(items.slice(0, k + 1).map((i) => i.at), 3)) break;
     }
   }
@@ -83,7 +86,7 @@ function numberItems(qs, salt) {
     const rare = [0, 1, 2].sort((a, b) => n[a] - n[b])[0];
     const pool = items.map((it, i) => i).filter((i) => over.includes(rankOf(items[i])));
     const j = pool[s2 % pool.length];
-    const r = numberChoices(items[j].x.ans, items[j].x.slips, page + j + '|' + items[j].x.q + '|rank' + s2, { min: 0, step: items[j].x.step || 1 });
+    const r = numberChoices(items[j].x.ans, items[j].x.slips, page + j + '|' + items[j].x.q + '|rank' + s2, lim(items[j].x));
     const cand = { x: items[j].x, ...r };
     if (rankOf(cand) === rare || !over.includes(rankOf(cand))) items[j] = cand;
   }

@@ -3209,5 +3209,21 @@
   "G3-405": {
     "title": "9:n kertotaulu",
     "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
+  },
+  "K-414": {
+    "title": "Luvun 6 hajotelmat",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "K-415": {
+    "title": "Luvun 7 hajotelmat",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "K-416": {
+    "title": "Luvun 8 hajotelmat",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "K-417": {
+    "title": "Luvun 9 hajotelmat",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
   }
 }

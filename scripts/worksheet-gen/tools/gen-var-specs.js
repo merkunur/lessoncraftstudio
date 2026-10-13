@@ -118,6 +118,8 @@ const ROWS = [
     { cols: 13, rows: 15, cell: 42 }, 'Giant Maze', null],
 
   // ---- K-243 number bonds ----
+  // ⚠ Level Set 2026-10-13: these five files now read `difficulty: base.bondLevels(<face>, <published d2>)` (three real
+  // levels). A re-run writes the old flat config back (L1 = L2 = L3) — restore the bondLevels line afterwards, or leave them out.
   ['k', 'K-273', 'number-bonds-to-5', 'K-243-number-bonds.js',
     { wholeMin: 5, wholeMax: 5, cards: 6, cols: 2, rows: 3, dots: true, blanks: ['a', 'b'], size: 196 },
     'Number Bonds to 5', null],

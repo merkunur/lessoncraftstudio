@@ -3244,5 +3244,21 @@
   "G3-405": {
     "title": "Das 9er-Einmaleins",
     "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "K-414": {
+    "title": "Die Zahl 6 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-415": {
+    "title": "Die Zahl 7 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-416": {
+    "title": "Die Zahl 8 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-417": {
+    "title": "Die Zahl 9 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
   }
 }

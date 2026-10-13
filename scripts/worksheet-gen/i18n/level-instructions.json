@@ -3198,5 +3198,20 @@
    "no": "Hvilket tall mangler? Regn ut hvert gangestykke, og skriv tallet som mangler i ruten.",
    "fi": "Mikä luku puuttuu? Laske jokainen kertolasku ja kirjoita puuttuva luku laatikkoon."
   }
+ },
+ "K-274": {
+  "3": {
+   "en": "Look at each number bond. Write the missing number in the dashed circle.",
+   "de": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis.",
+   "es": "Mira cada esquema. Escribe el número que falta en el círculo vacío.",
+   "fr": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés.",
+   "it": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato.",
+   "pt": "Observe cada esquema e escreva o número que falta no círculo pontilhado.",
+   "nl": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel.",
+   "sv": "Talet består av två delar. Skriv talet som fattas i den streckade cirkeln.",
+   "da": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal.",
+   "no": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen.",
+   "fi": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  }
  }
 }

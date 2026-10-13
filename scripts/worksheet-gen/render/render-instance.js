@@ -229,6 +229,12 @@ async function renderInstance(o) {
             slots: [...el.querySelectorAll(sp.slot)].map((t) => box(t.getBoundingClientRect())),
           };
         }
+        if (sp.typeNum) {
+          // type-number (Number Walls 2026-10-13): the item IS the empty box on the page; the child writes its number
+          const meta = {};
+          (sp.metaAttrs || []).forEach((a) => { meta[a] = el.getAttribute(a); });
+          return { ...box(r), answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '', meta };
+        }
         if (sp.select) {
           // tap-select: the item itself is the target; its answer is true / false (the page's own mark)
           const meta = {};
@@ -253,7 +259,7 @@ async function renderInstance(o) {
           answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '',
         };
       });
-    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', typeNum: spec.kind === 'type-number', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)

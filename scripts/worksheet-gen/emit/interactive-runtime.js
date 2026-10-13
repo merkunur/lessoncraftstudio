@@ -22,6 +22,13 @@
  *                spelled word with the answer (any tile with the same letter counts) and marks the item.
  *   tap-paint  — Color by Number (2026-10-04): the picture's own line drawing laid exactly over the page; the child taps a
  *                crayon in the key, then the parts to fill them. Check outlines each numbered part green or red.
+ *   type-number — Number Walls (Level Set 2026-10-13, operator: "kids need to WRITE the answers, not choose an option"):
+ *                the screen IS the printed page; every empty box on it is a write box laid exactly over it. Tap a box
+ *                (it lights), type with the number pad under the page (or the keyboard: digits, Backspace, Enter /
+ *                arrows = next box); the number appears inside the box in the page's own numerals. No options, no
+ *                auto-advance and no length limit tied to the answer (both would tell its size) — the cap is the
+ *                page's (ctx.maxDigits). Check when every box holds a number; each box turns green or red; "Try again"
+ *                keeps the right numbers and empties the wrong ones.
  *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
  *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
  *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
@@ -40,7 +47,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path']);
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path', 'type-number']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -125,7 +132,21 @@ const CSS = [
   '.lcs-crayon[aria-pressed="true"]{box-shadow:0 0 0 5px #146B5E;background:rgba(20,107,94,.12)}',
   '.lcs-crayon:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
   '.lcs-ink{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}',
-  '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools{display:none !important}}',
+  // type-number: the write box sits exactly on the printed empty box; the typed number is the page's numeral (Baloo 2 700, ink)
+  '.lcs-wr{position:absolute;margin:0;padding:0;border:0;background:transparent;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:"Baloo 2",Nunito,sans-serif;font-weight:700;line-height:1;color:#3A3530;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}',
+  '.lcs-wr:focus-visible{outline:4px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-wr[aria-pressed="true"]{box-shadow:0 0 0 4px #146B5E;background:rgba(20,107,94,.10)}',
+  '.lcs-wr[aria-pressed="true"]:empty::after{content:"";width:3px;height:46%;background:#146B5E;border-radius:2px;animation:lcs-caret 1s steps(1) infinite}',
+  '@keyframes lcs-caret{50%{opacity:0}}',
+  '.lcs-wr[data-state="right"]{box-shadow:0 0 0 5px #2E9E5B;background:rgba(46,158,91,.16);color:#1F7A44}',
+  '.lcs-wr[data-state="wrong"]{box-shadow:0 0 0 5px #D64545;background:rgba(214,69,69,.14);color:#B33A3A}',
+  '.lcs-pad{position:sticky;bottom:0;z-index:6;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;max-width:520px;margin:14px auto 0;padding:10px;background:#FBF3E4;border:2px solid #F0E4CB;border-radius:18px;box-shadow:0 -4px 16px rgba(58,53,48,.10)}',
+  '.lcs-key{min-height:52px;border-radius:14px;border:2px solid #146B5E;background:#FFF;color:#146B5E;font-family:"Baloo 2",Nunito,sans-serif;font-size:1.7rem;font-weight:700;line-height:1;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}',
+  '.lcs-key:active{background:#DDEBE8}',
+  '.lcs-key:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+  '.lcs-key--fn{background:#146B5E;color:#FFF}',
+  '.lcs-key[disabled]{opacity:.45;cursor:default}',
+  '@media print{.lcs-controls,#lcs-celebration,#lcs-overlay,.lcs-tools,.lcs-pad{display:none !important}}',
 ].join('\n');
 
 /* The runtime, as source lines (joined at emit; no template literals inside). */
@@ -290,6 +311,40 @@ const JS_TRACE = [
   '})();',
 ].join('\n');
 
+const JS_TYPE = [
+  '(function(){',
+  'var B=window.DECK_BUNDLE,S=B.strings,MX=(B.ctx&&B.ctx.maxDigits)||2,els=[],val=[],cur=0,phase="fill";',
+  'var ov=document.getElementById("lcs-overlay"),pad=document.getElementById("lcs-pad"),chk=document.getElementById("lcs-check"),rst=document.getElementById("lcs-reset"),prg=document.getElementById("lcs-progress"),cel=document.getElementById("lcs-celebration");',
+  'function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:""})}',
+  'function paint(){var all=true;for(var i=0;i<els.length;i++){els[i].textContent=val[i];els[i].setAttribute("aria-pressed",i===cur&&phase==="fill"?"true":"false");els[i].setAttribute("aria-label",(B.items[i].label||"")+(val[i]?" = "+val[i]:""));if(val[i]==="")all=false}',
+  ' chk.disabled=!all||phase!=="fill";var ks=pad.querySelectorAll(".lcs-key");for(var k=0;k<ks.length;k++)ks[k].disabled=phase!=="fill"}',
+  // the chosen box takes keyboard focus, so digits, Backspace and Enter act on it (never on the last button clicked)
+  'function sel(i){if(phase!=="fill")return;cur=i;paint();try{els[i].focus({preventScroll:true})}catch(e){}}',
+  'function firstEmpty(){for(var j=0;j<val.length;j++)if(val[j]==="")return j;return -1}',
+  'function type(d){if(phase!=="fill")return;if(cur<0||cur>=els.length){cur=firstEmpty();if(cur<0)return}if(val[cur].length>=MX)return;val[cur]+=d;paint()}',
+  'function back(){if(phase!=="fill"||cur<0)return;val[cur]=val[cur].slice(0,-1);paint()}',
+  // the pad is sticky at the bottom of the screen: a box that moves under it is scrolled up into view
+  'function show(i){if(i<0||!els[i])return;var r=els[i].getBoundingClientRect(),q=pad.getBoundingClientRect(),vh=window.innerHeight;var lim=q.top<vh?q.top:vh;if(r.bottom>lim-10)window.scrollBy(0,r.bottom-lim+18);else if(r.top<10)window.scrollBy(0,r.top-18)}',
+  'function step(dir){if(phase!=="fill"||!els.length)return;cur=dir<0?(cur<=0?els.length-1:cur-1):(cur+1)%els.length;paint();try{els[cur].focus({preventScroll:true})}catch(e){}show(cur)}',
+  'function check(){for(var i=0;i<val.length;i++)if(val[i]==="")return;phase="reviewed";var ok=0;for(var i=0;i<els.length;i++){var right=parseInt(val[i],10)===B.answers[i];els[i].setAttribute("data-state",right?"right":"wrong");if(right)ok++}',
+  ' prg.textContent=fmt(S.score,{n:ok,total:els.length});chk.hidden=true;rst.hidden=false;paint();if(ok===els.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById("lcs-cele-close");if(c)c.focus()},450)}}',
+  // Try again keeps the right numbers and empties the wrong ones (a child does not redo a whole wall for one slip)
+  'function retry(){phase="fill";var first=-1;for(var i=0;i<els.length;i++){if(els[i].getAttribute("data-state")==="wrong"){val[i]="";if(first<0)first=i}els[i].removeAttribute("data-state")}cur=first<0?0:first;prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint();show(cur)}',
+  'function reset(){phase="fill";for(var i=0;i<els.length;i++){val[i]="";els[i].removeAttribute("data-state")}cur=0;prg.textContent="";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}',
+  'function key(lab,fn,cls,aria){var b=document.createElement("button");b.type="button";b.className="lcs-key"+(cls?" "+cls:"");b.textContent=lab;b.setAttribute("aria-label",aria||lab);b.addEventListener("click",fn);pad.appendChild(b)}',
+  // a tall one-column screen (four-row walls) is capped at 520 px on a wide screen: the bricks stay big, the page short
+  'function cap(){var im=document.getElementById("lcs-worksheet-img"),ws=im&&im.closest(".lcs-worksheet");if(ws&&+im.getAttribute("height")>1.9*+im.getAttribute("width")){ws.style.maxWidth="520px";pad.style.maxWidth="520px"}}',
+  'function init(){cap();for(var i=0;i<B.items.length;i++){(function(i){var it=B.items[i],el=document.createElement("button");el.type="button";el.className="lcs-wr";val[i]="";',
+  ' el.style.left=it.x+"%";el.style.top=it.y+"%";el.style.width=it.w+"%";el.style.height=it.h+"%";el.style.fontSize=(it.w*0.36)+"cqw";el.addEventListener("click",function(){sel(i)});ov.appendChild(el);els.push(el)})(i)}',
+  ' ["1","2","3","4","5"].forEach(function(d){key(d,function(){type(d)})});key("\\u232B",back,"lcs-key--fn","\\u232B");["6","7","8","9","0"].forEach(function(d){key(d,function(){type(d)})});key("\\u2192",function(){step(1)},"lcs-key--fn","\\u2192");',
+  ' document.addEventListener("keydown",function(e){if(phase!=="fill"||e.ctrlKey||e.metaKey||e.altKey)return;var a=document.activeElement;if(/^[0-9]$/.test(e.key)){type(e.key);e.preventDefault()}else if(e.key==="Backspace"||e.key==="Delete"){back();e.preventDefault()}',
+  '  else if(e.key==="Enter"||e.key==="ArrowRight"||e.key==="ArrowDown"){if(e.key==="Enter"&&a&&a.classList&&(a.classList.contains("lcs-btn")||a.classList.contains("lcs-key")))return;step(1);e.preventDefault()}else if(e.key==="ArrowLeft"||e.key==="ArrowUp"){step(-1);e.preventDefault()}});',
+  ' chk.textContent=S.check;rst.textContent=S.tryAgain;document.getElementById("lcs-cele-title").textContent=S.youDidIt;document.getElementById("lcs-cele-print").textContent=S.print;document.getElementById("lcs-cele-close").textContent=S.tryAgain;',
+  ' chk.addEventListener("click",check);rst.addEventListener("click",retry);document.getElementById("lcs-cele-close").addEventListener("click",reset);paint()}',
+  'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();',
+  '})();',
+].join('\n');
+
 const JS = [
   '(function(){',
   'var B=window.DECK_BUNDLE,S=B.strings,items=[],order=[],phase="fill";',
@@ -390,6 +445,16 @@ function buildInteractive(o) {
     for (const r of T.routes) if (!(r.start >= 0 && r.start < T.nodes.length && r.goal >= 0 && r.goal < T.nodes.length) || r.start === r.goal) throw new Error('interactive-runtime: trace-path route malformed');
     if (!(T.aspect > 0) || !(T.pageW > 0) || !(T.w > 0)) throw new Error('interactive-runtime: trace-path needs aspect, pageW, w');
     bundleItems = items.map((it) => ({ label: it.label || '', meta: it.meta || {} }));
+  } else if (o.kind === 'type-number') {
+    // the child WRITES each number: integer answers, one box per empty box of the page, a digit cap from the page
+    const mx = o.ctx && o.ctx.maxDigits;
+    if (!(Number.isInteger(mx) && mx >= 1 && mx <= 4)) throw new Error('interactive-runtime: type-number needs ctx.maxDigits');
+    for (const it of items) {
+      if (!Number.isInteger(it.answer) || it.answer < 0) throw new Error('interactive-runtime: type-number answer ' + it.answer + ' is not a whole number');
+      if (String(it.answer).length > mx) throw new Error('interactive-runtime: type-number answer ' + it.answer + ' has more digits than the cap ' + mx);
+      for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: type-number box ' + k + '=' + it[k] + ' outside the page');
+    }
+    bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -411,7 +476,8 @@ function buildInteractive(o) {
   return {
     css: CSS,
     stageOpen: '<div class="lcs-stage" id="lcs-stage">',
-    stageClose: '<div id="lcs-overlay"></div></div>' + (o.kind === 'tap-edit' ? '\n<div class="lcs-tools" id="lcs-tools" role="toolbar"></div>\n<div id="lcs-lanes"></div>' : ''),
+    stageClose: '<div id="lcs-overlay"></div></div>' + (o.kind === 'tap-edit' ? '\n<div class="lcs-tools" id="lcs-tools" role="toolbar"></div>\n<div id="lcs-lanes"></div>' : '')
+      + (o.kind === 'type-number' ? '\n<div class="lcs-pad" id="lcs-pad" role="group"></div>' : ''),
     controls: [
       '<div class="lcs-controls">',
       '  <button type="button" class="lcs-btn" id="lcs-check" disabled>' + esc(S.check) + '</button>',
@@ -426,7 +492,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'type-number' ? JS_TYPE : o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
   };
 }
 

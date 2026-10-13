@@ -24,13 +24,17 @@ function pyramidValues(base) {
   return rows;
 }
 
-function numberWall({ base, blanks = [], brick = { w: 88, h: 52 }, radius = 8 }) {
+// Level Set 2026-10-13 (additive; every option absent = the published output byte for byte):
+//   answers  — the ANSWER KEY: each blank brick shows its number in coral (data-lcs-keytext)
+//   topGiven — stamps data-lcs-topgiven on THIS wall (a mixed page holds top-given and bottom-up walls)
+//   fontSize — the numeral size (the screen version draws bigger bricks)
+function numberWall({ base, blanks = [], brick = { w: 88, h: 52 }, radius = 8, answers = false, topGiven = false, fontSize = null }) {
   const t = tokens;
   const blankSet = new Set(Array.isArray(blanks) ? blanks : [...blanks]);
   const values = pyramidValues(base);
   const n = base.length;
   const W = n * brick.w + 4, H = n * brick.h + 4;
-  const fs = brick.w >= 84 ? 28 : 26;
+  const fs = fontSize || (brick.w >= 84 ? 28 : 26);
   const parts = [];
   for (let r = 0; r < values.length; r++) {
     const y = 2 + (n - 1 - r) * brick.h;
@@ -45,7 +49,10 @@ function numberWall({ base, blanks = [], brick = { w: 88, h: 52 }, radius = 8 })
         strokeColor: isBlank ? t.color.coral : t.color.teal, strokeWidth: 2.5,
         dash: isBlank ? '6 5' : undefined,
       });
-      const text = isBlank ? '' : el('text', {
+      const text = isBlank ? (answers ? el('text', {
+        x: x + brick.w / 2, y: y + brick.h / 2 + 1, 'font-family': t.font.display, 'font-size': fs, 'font-weight': 700,
+        fill: t.color.coral, 'text-anchor': 'middle', 'dominant-baseline': 'central', 'data-lcs-keytext': '1',
+      }, esc(v)) : '') : el('text', {
         x: x + brick.w / 2, y: y + brick.h / 2 + 1, 'font-family': t.font.display, 'font-size': fs, 'font-weight': 700,
         fill: t.color.ink, 'text-anchor': 'middle', 'dominant-baseline': 'central',
       }, esc(v));
@@ -58,6 +65,7 @@ function numberWall({ base, blanks = [], brick = { w: 88, h: 52 }, radius = 8 })
   return {
     svg: svgRoot({ width: W, height: H, label: `number wall with base ${base.join(', ')}` }, parts.join(''), {
       'data-lcs-prim': 'number-wall', 'data-lcs-rows': n, 'data-lcs-base': base.join(','),
+      ...(topGiven ? { 'data-lcs-topgiven': '1' } : {}),
     }),
     values, width: W, height: H,
   };

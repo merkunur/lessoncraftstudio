@@ -1476,7 +1476,7 @@
   },
   "G1-246": {
     "title": "Pyramides de nombres",
-    "instruction": "Chaque brique est la somme des deux briques qui sont dessous. Complète les nombres qui manquent."
+    "instruction": "Chaque brique est la somme des deux briques situées en dessous. Complète les nombres qui manquent."
   },
   "G1-247": {
     "title": "Doubles et moitiés",
@@ -1616,15 +1616,15 @@
   },
   "G1-266": {
     "title": "Pyramides de nombres jusqu'à 10",
-    "instruction": "Additionne les deux briques du dessous : jusqu'à 10."
+    "instruction": "Additionne les deux briques du dessous ; aucun nombre ne dépasse 10."
   },
   "G1-267": {
     "title": "Pyramides de nombres à quatre étages",
-    "instruction": "Ces pyramides comptent quatre étages."
+    "instruction": "Ces pyramides comptent quatre étages : additionne deux par deux jusqu'au sommet."
   },
   "G1-268": {
     "title": "Pyramides de nombres : la brique manquante",
-    "instruction": "Une brique du bas est restée vide."
+    "instruction": "Une brique du bas est restée vide : retrouve-la grâce à la brique du dessus."
   },
   "G1-270": {
     "title": "Doubles et moitiés jusqu'à 8",

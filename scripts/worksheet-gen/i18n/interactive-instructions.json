@@ -2914,5 +2914,20 @@
    "no": "Tell de like hoppene tilbake til null. Trykk på antall hopp.",
    "fi": "Laske yhtä suuret hypyt takaisin nollaan. Napauta hyppyjen määrää."
   }
+ },
+ "number-walls": {
+  "tap": {
+   "en": "Tap an empty brick, then type its number.",
+   "de": "Tippe auf einen leeren Stein und gib die Zahl ein.",
+   "es": "Toca un ladrillo vacío y escribe su número.",
+   "fr": "Touche une brique vide, puis écris le nombre.",
+   "it": "Tocca un mattone vuoto e scrivi il numero.",
+   "pt": "Toque em um tijolo vazio e digite o número dele.",
+   "nl": "Tik op een lege steen en typ het getal.",
+   "sv": "Tryck på en tom sten och skriv in talet.",
+   "da": "Tryk på en tom sten, og skriv tallet.",
+   "no": "Trykk på en tom stein og skriv inn tallet.",
+   "fi": "Napauta tyhjää tiiltä ja kirjoita siihen luku."
+  }
  }
 }

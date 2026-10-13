@@ -2,7 +2,9 @@
  * number-words — cardinal number words 0..100 for all 11 locales (G1-210).
  * School-register conventions (each table is native-ensemble-verified at the
  * locale fan; the traps each engine encodes):
- *  - fr: soixante-dix / quatre-vingts (+ -s only when final) / et-un forms
+ *  - fr: soixante-dix / quatre-vingts (+ -s only when final); the 1990 rectified spelling the 2016
+ *    programmes take as reference — EVERY compound hyphenated, incl. vingt-et-un … soixante-et-onze
+ *    (operator ruling 2026-10-14; was the traditional "vingt et un")
  *  - da: vigesimal tens (halvtreds/tres/halvfjerds/firs/halvfems), unit-first
  *  - de/nl: unit-first inversion (einundzwanzig / eenentwintig, nl trema ë)
  *  - no: post-reform forms (tjueen, femtien)
@@ -52,11 +54,11 @@ const fr = (n) => {
   const t = Math.floor(n / 10), u = n % 10;
   if (t <= 6) {
     if (u === 0) return tens[t];
-    if (u === 1) return `${tens[t]} et un`;
+    if (u === 1) return `${tens[t]}-et-un`;
     return `${tens[t]}-${ones[u]}`;
   }
   if (t === 7) { // 70-79: soixante + 10..19
-    if (n === 71) return 'soixante et onze';
+    if (n === 71) return 'soixante-et-onze';
     return `soixante-${ones[n - 60]}`;
   }
   if (t === 8) { // 80-89

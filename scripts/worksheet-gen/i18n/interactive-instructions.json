@@ -2970,5 +2970,111 @@
    "no": "Finn det riktige tallordet i ordbanken øverst. Trykk på ruten og skriv det.",
    "fi": "Etsi sanapankista oikea lukusana. Napauta ruutua ja kirjoita sana."
   }
+ },
+ "odd-and-even": {
+  "house": {
+   "en": "Tap a box in the right house and type the number: odd numbers in the odd house, even numbers in the even house.",
+   "de": "Tippe auf ein Kästchen im richtigen Haus und gib die Zahl ein: gerade Zahlen ins Haus „gerade“, ungerade Zahlen ins Haus „ungerade“.",
+   "es": "Toca una casilla de la casa correcta y escribe el número: los pares en la casa de los pares y los impares en la de los impares.",
+   "fr": "Touche une case de la bonne maison et écris le nombre : les nombres pairs dans la maison des pairs, les impairs dans celle des impairs.",
+   "it": "Tocca una casella della casa giusta e scrivi il numero: i pari nella casa dei pari, i dispari in quella dei dispari.",
+   "pt": "Toque em um quadrinho da casa certa e digite o número: os pares na casa dos pares e os ímpares na casa dos ímpares.",
+   "nl": "Tik op een vakje in het goede huis en typ het getal: even getallen in het even huis, oneven getallen in het oneven huis.",
+   "sv": "Tryck på en ruta i rätt hus och skriv in talet: udda tal i det udda huset, jämna tal i det jämna huset.",
+   "da": "Tryk på et felt i det rigtige hus, og skriv tallet: lige tal i det lige hus, ulige tal i det ulige hus.",
+   "no": "Trykk på en rute i riktig hus og skriv inn tallet: partall i partallshuset, oddetall i oddetallshuset.",
+   "fi": "Napauta ruutua oikeassa talossa ja kirjoita luku: parilliset parillisten taloon, parittomat parittomien taloon."
+  },
+  "proof": {
+   "en": "Look at the dots two by two. Tap each box and type the two equal parts, then what is left over.",
+   "de": "Schau dir die Punkte immer zu zweit an. Tippe auf jedes Kästchen und gib zuerst die zwei gleichen Teile ein, dann, was übrig bleibt.",
+   "es": "Mira los puntos de dos en dos. Toca cada casilla y escribe las dos partes iguales y lo que sobra.",
+   "fr": "Regarde les points deux par deux. Touche chaque case et écris les deux parts égales, puis ce qui reste.",
+   "it": "Guarda i puntini a due a due. Tocca ogni casella e scrivi le due parti uguali e quello che avanza.",
+   "pt": "Olhe os pontos de dois em dois. Toque em cada quadrinho e digite as duas partes iguais e o que sobra.",
+   "nl": "Kijk naar de stippen twee aan twee. Tik op elk vakje en typ de twee gelijke delen en wat overblijft.",
+   "sv": "Titta på punkterna två och två. Tryck på varje ruta och skriv in de två lika stora delarna och det som blir över.",
+   "da": "Se på prikkerne to og to. Tryk på hvert felt, og skriv de to ens dele og det, der er tilovers.",
+   "no": "Se på prikkene to og to. Trykk på hver rute og skriv inn de to like delene og det som blir til overs.",
+   "fi": "Katso pisteitä kaksi kerrallaan. Napauta jokaista ruutua ja kirjoita kaksi yhtä suurta osaa ja se, mitä jää yli."
+  },
+  "share": {
+   "en": "Share the pictures between the two friends. Type how many each friend gets and how many are left over. Is the number of pictures odd or even? Tap the answer.",
+   "de": "Teile die Bilder gerecht auf die zwei Kinder auf. Gib ein, wie viele jedes bekommt und wie viele übrig bleiben. Ist die Anzahl der Bilder gerade oder ungerade? Tippe die Antwort an.",
+   "es": "Reparte los dibujos entre los dos niños. Escribe cuántos recibe cada uno y cuántos sobran. ¿El número de dibujos es par o impar? Toca la respuesta.",
+   "fr": "Partage les images entre les deux enfants. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Touche la réponse.",
+   "it": "Dividi i disegni tra i due amici. Scrivi quanti ne riceve ognuno e quanti ne restano. Il numero dei disegni è pari o dispari? Tocca la risposta.",
+   "pt": "Divida as figuras entre os dois amigos. Digite quantas cada um recebe e quantas sobram. O total de figuras é par ou ímpar? Toque na resposta.",
+   "nl": "Verdeel de plaatjes tussen de twee vrienden. Typ hoeveel elk kind krijgt en wat er overblijft. Is het aantal plaatjes even of oneven? Tik op het goede woord.",
+   "sv": "Dela bilderna mellan de två kompisarna. Skriv in hur många var och en får och hur många som blir över. Är antalet bilder udda eller jämnt? Tryck på rätt ord.",
+   "da": "Del billederne mellem de to venner. Skriv hvor mange hver får, og hvad der er tilovers. Er antallet af billeder lige eller ulige? Tryk på det rigtige ord.",
+   "no": "Del bildene likt mellom de to vennene. Skriv inn hvor mange hver får og hvor mange som blir til overs. Er antallet bilder partall eller oddetall? Trykk på riktig ord.",
+   "fi": "Jaa kuvat kahden kaverin kesken. Kirjoita, montako kumpikin saa ja montako jää yli. Onko kuvien määrä parillinen vai pariton? Napauta oikeaa sanaa."
+  },
+  "count": {
+   "en": "Count the pictures in pairs. Type how many pairs you made. Is the number of pictures odd or even? Tap the answer.",
+   "de": "Zähle die Bilder immer zu zweit. Gib ein, wie viele Paare es sind. Ist die Anzahl der Bilder gerade oder ungerade? Tippe die Antwort an.",
+   "es": "Cuenta los dibujos de dos en dos. Escribe cuántas parejas formaste. ¿El número de dibujos es par o impar? Toca la respuesta.",
+   "fr": "Compte les images deux par deux. Écris combien de paires tu as formées. Le nombre d'images est-il pair ou impair ? Touche la réponse.",
+   "it": "Conta le figure a coppie. Scrivi quante coppie hai fatto. Il numero delle figure è pari o dispari? Tocca la risposta.",
+   "pt": "Conte as figuras de dois em dois. Digite quantos pares você fez. O número de figuras é par ou ímpar? Toque na resposta.",
+   "nl": "Tel de plaatjes in paren. Typ hoeveel paren je hebt gemaakt. Is het aantal plaatjes even of oneven? Tik op het goede woord.",
+   "sv": "Räkna bilderna två och två. Skriv in hur många par du gjorde. Är antalet bilder udda eller jämnt? Tryck på rätt ord.",
+   "da": "Tæl billederne to og to. Skriv hvor mange par du har lavet. Er antallet af billeder lige eller ulige? Tryk på det rigtige ord.",
+   "no": "Tell bildene to og to. Skriv inn hvor mange par du fikk. Er antallet bilder partall eller oddetall? Trykk på riktig ord.",
+   "fi": "Laske kuvat pareittain. Kirjoita, montako paria sait. Onko kuvien määrä parillinen vai pariton? Napauta oikeaa sanaa."
+  },
+  "ones": {
+   "en": "Read the rule at the top. Look only at the ones box of each number and tap the circle under even or odd.",
+   "de": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und tippe auf den Kreis unter gerade oder ungerade.",
+   "es": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y toca el círculo debajo de par o impar.",
+   "fr": "Lis la règle en haut. Regarde seulement la case des unités de chaque nombre et touche le rond sous pair ou impair.",
+   "it": "Leggi la regola in alto. Guarda solo la casella delle unità di ogni numero e tocca il cerchio sotto pari o dispari.",
+   "pt": "Leia a regra do alto. Olhe só o algarismo das unidades de cada número e toque no círculo embaixo de par ou ímpar.",
+   "nl": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en tik op het rondje onder even of oneven.",
+   "sv": "Läs regeln högst upp. Titta bara på entalsrutan i varje tal och tryck på ringen under udda eller jämnt.",
+   "da": "Læs reglen øverst. Se kun på enerfeltet i hvert tal, og tryk på cirklen under lige eller ulige.",
+   "no": "Les regelen øverst. Se bare på eneren i hvert tall og trykk på sirkelen under partall eller oddetall.",
+   "fi": "Lue sääntö ylhäältä. Katso vain luvun ykkösten ruutua ja napauta ympyrää oikean sanan alla."
+  },
+  "onesNoRule": {
+   "en": "Look only at the ones box of each number and tap the circle under even or odd.",
+   "de": "Schau nur auf das Einer-Kästchen jeder Zahl und tippe auf den Kreis unter gerade oder ungerade.",
+   "es": "Fíjate solo en la casilla de las unidades de cada número y toca el círculo debajo de par o impar.",
+   "fr": "Regarde seulement la case des unités de chaque nombre et touche le rond sous pair ou impair.",
+   "it": "Guarda solo la casella delle unità di ogni numero e tocca il cerchio sotto pari o dispari.",
+   "pt": "Olhe só o algarismo das unidades de cada número e toque no círculo embaixo de par ou ímpar.",
+   "nl": "Kijk alleen naar het vakje van de eenheden en tik op het rondje onder even of oneven.",
+   "sv": "Titta bara på entalsrutan i varje tal och tryck på ringen under udda eller jämnt.",
+   "da": "Se kun på enerfeltet i hvert tal, og tryk på cirklen under lige eller ulige.",
+   "no": "Se bare på eneren i hvert tall og trykk på sirkelen under partall eller oddetall.",
+   "fi": "Katso vain luvun ykkösten ruutua ja napauta ympyrää oikean sanan alla."
+  },
+  "sums": {
+   "en": "Do not add. Look at the underlined ones digit of each number, use the table, and tap the circle under even or odd.",
+   "de": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und tippe auf den Kreis unter gerade oder ungerade.",
+   "es": "No sumes. Mira la unidad subrayada de cada número, usa la tabla y toca el círculo debajo de par o impar.",
+   "fr": "N'additionne pas. Regarde le chiffre des unités souligné de chaque nombre, sers-toi du tableau et touche le rond sous pair ou impair.",
+   "it": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero, usa la tabella e tocca il cerchio sotto pari o dispari.",
+   "pt": "Não some. Olhe o algarismo sublinhado de cada número, use a tabela e toque no círculo embaixo de par ou ímpar.",
+   "nl": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en tik op het rondje onder even of oneven.",
+   "sv": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal, använd tabellen och tryck på ringen under udda eller jämnt.",
+   "da": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, brug tabellen, og tryk på cirklen under lige eller ulige.",
+   "no": "Ikke regn ut. Se på eneren som er understreket i hvert tall, bruk tabellen, og trykk på sirkelen under riktig svar.",
+   "fi": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa, käytä taulukkoa ja napauta ympyrää oikean sanan alla."
+  },
+  "sumsNoTable": {
+   "en": "Do not add. Look at the underlined ones digit of each number and tap the circle under even or odd.",
+   "de": "Rechne nicht. Schau auf die unterstrichenen Einer und tippe auf den Kreis unter gerade oder ungerade.",
+   "es": "No sumes. Mira la unidad subrayada de cada número y toca el círculo debajo de par o impar.",
+   "fr": "N'additionne pas. Regarde le chiffre des unités souligné de chaque nombre et touche le rond sous pair ou impair.",
+   "it": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero e tocca il cerchio sotto pari o dispari.",
+   "pt": "Não some. Olhe o algarismo sublinhado de cada número e toque no círculo embaixo de par ou ímpar.",
+   "nl": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden en tik op het rondje onder even of oneven.",
+   "sv": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal och tryck på ringen under udda eller jämnt.",
+   "da": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, og tryk på cirklen under lige eller ulige.",
+   "no": "Ikke regn ut. Se på eneren som er understreket i hvert tall, og trykk på sirkelen under riktig svar.",
+   "fi": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa ja napauta ympyrää oikean sanan alla."
+  }
  }
 }

@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Kan to venner dele likt?",
-      "instruction": "Del bildene likt mellom de to vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Sett så ring rundt riktig ord."
+      "instruction": "Del bildene mellom vennene, ett om gangen. Skriv hvor mange hver får og hvor mange som blir til overs. Er antallet bilder partall eller oddetall?"
     },
     "ones": {
       "title": "Partall og oddetall opp til 100: se på enerplassen",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "Partall eller oddetall? Tell bildene to og to",
-      "instruction": "Tell bildene og sett ring rundt dem to og to. Skriv hvor mange par du fikk, og sett så ring rundt partall eller oddetall."
+      "instruction": "Tell bildene og sett ring rundt dem to og to. Skriv hvor mange par du fikk. Er antallet bilder partall eller oddetall? Sett ring rundt riktig ord."
     }
   },
   "refuse": {},

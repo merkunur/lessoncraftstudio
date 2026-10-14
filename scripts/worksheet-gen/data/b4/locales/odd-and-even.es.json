@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "¿Se puede repartir entre dos? Par o impar",
-      "instruction": "Reparte los dibujos entre los dos niños, uno a cada uno por turnos. Escribe cuántos recibe cada uno y cuántos sobran. Rodea par o impar."
+      "instruction": "Reparte los dibujos uno a uno. Escribe cuántos recibe cada niño y cuántos sobran. ¿El total de dibujos es par o impar? Encierra la respuesta."
     },
     "ones": {
       "title": "Números pares e impares del 1 al 100: mira las unidades",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "¿Par o impar? Cuenta los dibujos en parejas",
-      "instruction": "Cuenta los dibujos y rodéalos de dos en dos. Escribe cuántas parejas formaste y rodea par o impar."
+      "instruction": "Cuenta los dibujos y enciérralos de dos en dos. Escribe cuántas parejas formaste. ¿El número de dibujos es par o impar? Encierra la respuesta."
     }
   },
   "refuse": {},

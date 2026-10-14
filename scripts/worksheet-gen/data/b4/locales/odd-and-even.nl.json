@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Kunnen twee vrienden eerlijk delen?",
-      "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven."
+      "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er over is. Is het aantal plaatjes even of oneven?"
     },
     "ones": {
       "title": "Even en oneven getallen tot 100: kijk naar de eenheden",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "Even of oneven? Tel de plaatjes in paren",
-      "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven."
+      "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt. Is het aantal plaatjes even of oneven? Omcirkel het goede woord."
     }
   },
   "refuse": {},

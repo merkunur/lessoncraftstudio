@@ -116,6 +116,23 @@ const NUMERAL = `font-family:${F.display},cursive;font-weight:700;font-size:26px
 function parity(n) { return n % 2 ? 'odd' : 'even'; }
 function posInt(v) { return Number.isInteger(v) && v >= 1; }
 function blankBox(o) { return require('../components-b3.js').blankNumeralBox(o); }   // call-time: the b3 namespace is complete by then
+/**
+ * Level Set 2026-10-14 (walk #61): one open box, or — on the ANSWER KEY — the same box with its answer written in it
+ * (coral, centred by flex, never by an offset). `key` null = the printed page's empty box, byte-identical.
+ */
+function ansBox({ w, h, attrs = '', key = null }) {
+  if (key === null || key === undefined) return blankBox({ w, h, attrs });
+  const px = Math.max(16, Math.min(30, Math.round(Math.min(h, w) * 0.62)));
+  return `<span class="ws-blankbox" ${attrs} data-lcs-answer="" data-lcs-keyed="1" style="width:${w}px;height:${h}px;flex:0 0 ${w}px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box">` +
+    `<span data-lcs-keynum style="font-family:${F.display},cursive;font-weight:700;font-size:${px}px;line-height:1;color:${T.coral}">${esc(String(key))}</span></span>`;
+}
+/** the key's tick: a teal check mark drawn inside the correct circle (an SVG — a ✓ glyph is outside the page fonts). */
+function checkMark(size) {
+  const s = Math.round(size * 0.62);
+  return svgRoot({ width: s, height: s, viewBox: '0 0 24 24', label: '' },
+    el('path', { d: 'M4 12.5 L10 18 L20 6', fill: 'none', stroke: T.coral, 'stroke-width': 3.4, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }),
+    { 'aria-hidden': 'true', 'data-lcs-keymark': '1', style: 'display:block' });
+}
 
 /* ------------------------------------------------------------------ the base */
 function chipStrip({ values, chip = 64, gap = 7, perRow = null, attrs = '' }) {
@@ -164,7 +181,7 @@ function houseShell({ parity: p, w, h }) {
     { 'aria-hidden': 'true', 'data-lcs-shell': p, style: 'position:absolute;left:0;top:0;display:block' });
 }
 
-function houseBin({ parity: p, label, w = 330, worked = [], boxes = {}, layout = {}, signW = 260 }) {
+function houseBin({ parity: p, label, w = 330, worked = [], boxes = {}, layout = {}, signW = 260, keyNums = null, boxAttrs = '', attrs = '' }) {
   if (p !== 'odd' && p !== 'even') throw new Error('houseBin: parity must be odd|even');
   if (typeof label !== 'string' || !label.trim()) throw new Error('houseBin: the sign needs a non-empty literal');
   if (!(w >= 300)) throw new Error(`houseBin: w ${w} < 300`);
@@ -182,8 +199,9 @@ function houseBin({ parity: p, label, w = 330, worked = [], boxes = {}, layout =
     `font-family:${F.body},sans-serif;font-weight:800;font-size:20px;line-height:1;color:${T.ink}">${esc(label)}</span>`;
   const tiles = worked.map((t) => workedTile({ n: t.n })).join('');
   const grid = `<div data-lcs-boxes="${B.cols * B.rows}" style="display:grid;grid-template-columns:repeat(${B.cols},${B.w}px);gap:${B.gapY}px ${B.gapX}px;justify-content:center">` +
-    Array.from({ length: B.cols * B.rows }, () => blankBox({ w: B.w, h: B.h })).join('') + `</div>`;
-  return `<div data-lcs-house="${p}" data-lcs-h="${h}" data-ws-content style="position:relative;width:${w}px;height:${h}px;flex:0 0 ${w}px">` +
+    Array.from({ length: B.cols * B.rows }, (_, i) => ansBox({ w: B.w, h: B.h, attrs: boxAttrs, key: keyNums && i < keyNums.length ? keyNums[i] : null })).join('') + `</div>`;
+  if (keyNums && keyNums.length > B.cols * B.rows) throw new Error(`houseBin: ${keyNums.length} key numerals for ${B.cols * B.rows} boxes`);
+  return `<div data-lcs-house="${p}" data-lcs-h="${h}" data-ws-content${attrs ? ' ' + attrs : ''} style="position:relative;width:${w}px;height:${h}px;flex:0 0 ${w}px">` +
     houseShell({ parity: p, w, h }) + layer(L.sign, sign) + layer(L.worked, tiles, 'gap:12px') + layer(L.grid, grid) + `</div>`;
 }
 
@@ -199,7 +217,7 @@ const CAPTION = `font-family:${F.body},sans-serif;font-weight:800;color:${T.inkS
  * corner). Both default OFF: the base gate's smoke measures the Phase-1 shape.
  * The panel stamps data-lcs-dot / data-lcs-pitch so verify() re-derives r.
  */
-function dotRowCard({ n, dot = 16, gap = 8, perRow = 10, boxW = 44, remW = 36, remLabel, eqFirst = false, fill = false }) {
+function dotRowCard({ n, dot = 16, gap = 8, perRow = 10, boxW = 44, remW = 36, remLabel, eqFirst = false, fill = false, boxH = 44, remH = 40, key = null, boxAttrs = {} }) {
   if (!posInt(n) || n > 20) throw new Error(`dotRowCard: n must be 1..20 (got ${n})`);
   if (typeof remLabel !== 'string' || !remLabel.trim()) throw new Error('dotRowCard: remLabel (the leftover literal) is required');
   if (!(dot >= 16 && gap >= 8 && perRow >= 5 && perRow <= 10)) throw new Error(`dotRowCard: dot ${dot} / gap ${gap} / perRow ${perRow} (dot >= 16, gap >= 8, perRow 5..10)`);
@@ -214,12 +232,12 @@ function dotRowCard({ n, dot = 16, gap = 8, perRow = 10, boxW = 44, remW = 36, r
     svgRoot({ width: svgW, height: svgH, label: '' }, dots.join(''), { 'aria-hidden': 'true', style: 'display:block' }) + `</div>`;
   const glyph = (t, col) => `<span data-lcs-eq style="font-family:${F.display},cursive;font-weight:700;font-size:22px;line-height:1;color:${col}">${t}</span>`;
   const rBox = `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:4px">` +
-    blankBox({ w: remW, h: 40, attrs: 'data-lcs-role="r"' }) +
+    ansBox({ w: remW, h: remH, attrs: 'data-lcs-role="r"' + (boxAttrs.r ? ' ' + boxAttrs.r : ''), key: key ? key.r : null }) +
     `<span data-lcs-caption style="${CAPTION};font-size:12px;line-height:16px;height:16px">${esc(remLabel)}</span></span>`;
-  const eq = `<div data-lcs-eqrow style="display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;flex:0 0 auto">` +
-    `<span data-lcs-num="${n}" style="${NUMERAL};height:44px;display:inline-flex;align-items:center">${n}</span>` + glyph('=', T.inkSoft) +
-    blankBox({ w: boxW, h: 44, attrs: 'data-lcs-role="a"' }) + glyph('+', T.teal) + blankBox({ w: boxW, h: 44, attrs: 'data-lcs-role="b"' }) + glyph('+', T.teal) + rBox + `</div>`;
-  return `<div data-lcs-proof data-lcs-n="${n}" style="display:flex;flex-direction:column;gap:10px${fill ? ';flex:1 1 auto;min-height:0' : ''}">${eqFirst ? eq + panel : panel + eq}</div>`;
+  const eq = `<div data-lcs-eqrow style="display:flex;align-items:center;justify-content:center;gap:8px;min-height:${boxH}px;flex:0 0 auto">` +
+    `<span data-lcs-num="${n}" style="${NUMERAL};height:${boxH}px;display:inline-flex;align-items:center">${n}</span>` + glyph('=', T.inkSoft) +
+    ansBox({ w: boxW, h: boxH, attrs: 'data-lcs-role="a"' + (boxAttrs.a ? ' ' + boxAttrs.a : ''), key: key ? key.a : null }) + glyph('+', T.teal) + ansBox({ w: boxW, h: boxH, attrs: 'data-lcs-role="b"' + (boxAttrs.b ? ' ' + boxAttrs.b : ''), key: key ? key.b : null }) + glyph('+', T.teal) + rBox + `</div>`;
+  return `<div data-lcs-proof data-lcs-n="${n}" data-lcs-per-row="${perRow}" style="display:flex;flex-direction:column;gap:10px${fill ? ';flex:1 1 auto;min-height:0' : ''}">${eqFirst ? eq + panel : panel + eq}</div>`;
 }
 
 function pile({ n, src, iconPx, perRow, gapX, gapY, w }) {
@@ -227,27 +245,67 @@ function pile({ n, src, iconPx, perRow, gapX, gapY, w }) {
   return `<div data-lcs-pile data-lcs-n="${n}" style="display:flex;flex-wrap:wrap;gap:${gapY}px ${gapX}px;width:${w}px;flex:0 0 ${w}px;justify-content:flex-start;align-content:center">${icons}</div>`;
 }
 
-function shareLane({ n, src, names, leftoverLabel, pills = '', iconPx = 44, perRow = 6 }) {
+/** slotPerRow (Level Set 2026-10-14, `vary`): the pile keeps the WIDEST row's slot, so every lane's columns line up while its own row is shorter. */
+function pileSlot(inner, slotPerRow, perRow, iconPx, gapX) {
+  if (!slotPerRow || slotPerRow === perRow) return inner;
+  const w = slotPerRow * iconPx + (slotPerRow - 1) * gapX;
+  return `<span data-lcs-pileslot style="display:inline-flex;align-items:center;width:${w}px;flex:0 0 ${w}px">${inner}</span>`;
+}
+function shareLane({ n, src, names, leftoverLabel, pills = '', iconPx = 44, perRow = 6, key = null, slotPerRow = null }) {
   if (!posInt(n) || n > 12) throw new Error(`shareLane: n must be 1..12 (got ${n})`);
   if (!Array.isArray(names) || names.length !== 2 || names[0] === names[1]) throw new Error('shareLane: two DIFFERENT names');
   if (typeof leftoverLabel !== 'string' || !leftoverLabel.trim()) throw new Error('shareLane: leftoverLabel is required');
   const plate = (name) => `<span data-lcs-plate data-lcs-name="${esc(name)}" style="display:inline-flex;flex-direction:column;align-items:center;gap:4px;width:64px;flex:0 0 64px">` +
     `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:14px;line-height:18px;height:18px;color:${T.ink};white-space:nowrap;max-width:64px;overflow:hidden">${esc(name)}</span>` +
-    blankBox({ w: 56, h: 44, attrs: 'data-lcs-role="each"' }) + `</span>`;
+    ansBox({ w: 56, h: 44, attrs: 'data-lcs-role="each"', key: key ? key.each : null }) + `</span>`;
   const left = `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:4px;width:84px;flex:0 0 84px">` +
-    `<span data-lcs-caption style="${CAPTION};font-size:14px;line-height:18px;height:18px">${esc(leftoverLabel)}</span>` + blankBox({ w: 44, h: 44, attrs: 'data-lcs-role="r"' }) + `</span>`;
-  return `<div class="ws-lane" data-lcs-share data-lcs-n="${n}" data-ws-content style="padding:4px 16px;display:flex;align-items:center;gap:12px;min-width:0">` +
-    pile({ n, src, iconPx, perRow, gapX: 4, gapY: 6, w: perRow * iconPx + (perRow - 1) * 4 }) +
+    `<span data-lcs-caption style="${CAPTION};font-size:14px;line-height:18px;height:18px">${esc(leftoverLabel)}</span>` + ansBox({ w: 44, h: 44, attrs: 'data-lcs-role="r"', key: key ? key.r : null }) + `</span>`;
+  return `<div class="ws-lane" data-lcs-share data-lcs-n="${n}" data-lcs-per-row="${perRow}" data-ws-content style="padding:4px 16px;display:flex;align-items:center;gap:12px;min-width:0">` +
+    pileSlot(pile({ n, src, iconPx, perRow, gapX: 4, gapY: 6, w: perRow * iconPx + (perRow - 1) * 4 }), slotPerRow, perRow, iconPx, 4) +
     `<span style="display:inline-flex;align-items:center;gap:8px">${plate(names[0])}${plate(names[1])}${left}${pills}</span></div>`;
 }
 
-function countLane({ n, src, pairsLabel, pills = '', iconPx = 44, perRow = 9 }) {
+function countLane({ n, src, pairsLabel, pills = '', iconPx = 44, perRow = 9, key = null, slotPerRow = null }) {
   if (!posInt(n) || n > 18) throw new Error(`countLane: n must be 1..18 (got ${n})`);
   if (typeof pairsLabel !== 'string' || !pairsLabel.trim()) throw new Error('countLane: pairsLabel is required');
   const col = `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:4px;width:56px;flex:0 0 56px">` +
-    `<span data-lcs-caption style="${CAPTION};font-size:14px;line-height:18px;height:18px">${esc(pairsLabel)}</span>` + blankBox({ w: 56, h: 44, attrs: 'data-lcs-role="pairs"' }) + `</span>`;
-  return `<div class="ws-lane" data-lcs-count data-lcs-n="${n}" data-ws-content style="padding:4px 16px;display:flex;align-items:center;gap:12px;min-width:0">` +
-    pile({ n, src, iconPx, perRow, gapX: 7, gapY: 6, w: perRow * iconPx + (perRow - 1) * 7 }) + col + pills + `</div>`;
+    `<span data-lcs-caption style="${CAPTION};font-size:14px;line-height:18px;height:18px">${esc(pairsLabel)}</span>` + ansBox({ w: 56, h: 44, attrs: 'data-lcs-role="pairs"', key: key ? key.pairs : null }) + `</span>`;
+  return `<div class="ws-lane" data-lcs-count data-lcs-n="${n}" data-lcs-per-row="${perRow}" data-ws-content style="padding:4px 16px;display:flex;align-items:center;gap:12px;min-width:0">` +
+    pileSlot(pile({ n, src, iconPx, perRow, gapX: 7, gapY: 6, w: perRow * iconPx + (perRow - 1) * 7 }), slotPerRow, perRow, iconPx, 7) + col + pills + `</div>`;
+}
+
+/**
+ * The SCREEN lanes (Level Set 2026-10-14): the same pile, rows and order as the printed lane, drawn bigger, with the
+ * write boxes at `box` px (>= 104 so a box is >= 44 px on a 360-px phone) and the two pills BIG and side by side under
+ * them. Every box stamps its role and the lane's n (the oracle recomputes the answer from n); the pills sit in a
+ * `[data-lcs-pills][data-lcs-keep]` row (the screen crop keeps them).
+ */
+const SCREEN_LANE = 'display:flex;flex-direction:column;align-items:stretch;gap:12px;padding:12px 16px;min-width:0';
+function screenPile({ n, src, iconPx, perRow }) {
+  const gapX = 6, w = perRow * iconPx + (perRow - 1) * gapX;
+  return `<div style="display:flex;justify-content:center">` + pile({ n, src, iconPx, perRow, gapX, gapY: 8, w }) + `</div>`;
+}
+function capBox({ label, box, attrs, labelAttr = '' }) {
+  return `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:6px;flex:0 0 auto">` +
+    `<span${labelAttr ? ' ' + labelAttr : ''} style="font-family:${F.body},sans-serif;font-weight:800;font-size:22px;line-height:28px;height:28px;color:${T.ink};white-space:nowrap">${esc(label)}</span>` +
+    blankBox({ w: box, h: box, attrs }) + `</span>`;
+}
+function shareLaneScreen({ n, src, names, leftoverLabel, pills, iconPx = 60, perRow = 6, box = 108 }) {
+  if (!Array.isArray(names) || names.length !== 2 || names[0] === names[1]) throw new Error('shareLaneScreen: two DIFFERENT names');
+  const q = `data-lcs-n="${n}"`;
+  return `<div class="ws-lane" data-lcs-share data-lcs-n="${n}" data-lcs-per-row="${perRow}" data-ws-content style="${SCREEN_LANE}">` +
+    screenPile({ n, src, iconPx, perRow }) +
+    `<div style="display:flex;justify-content:center;align-items:flex-end;gap:28px">` +
+    capBox({ label: names[0], box, attrs: `data-lcs-role="each" ${q} data-lcs-ans="${Math.floor(n / 2)}"`, labelAttr: `data-lcs-plate data-lcs-name="${esc(names[0])}"` }) +
+    capBox({ label: names[1], box, attrs: `data-lcs-role="each" ${q} data-lcs-ans="${Math.floor(n / 2)}"`, labelAttr: `data-lcs-plate data-lcs-name="${esc(names[1])}"` }) +
+    capBox({ label: leftoverLabel, box, attrs: `data-lcs-role="r" ${q} data-lcs-ans="${n % 2}"` }) + `</div>` +
+    `<div style="display:flex;justify-content:center">${pills}</div></div>`;
+}
+function countLaneScreen({ n, src, pairsLabel, pills, iconPx = 60, perRow = 9, box = 108 }) {
+  return `<div class="ws-lane" data-lcs-count data-lcs-n="${n}" data-lcs-per-row="${perRow}" data-ws-content style="${SCREEN_LANE}">` +
+    screenPile({ n, src, iconPx, perRow }) +
+    `<div style="display:flex;justify-content:center;align-items:flex-end;gap:28px">` +
+    capBox({ label: pairsLabel, box, attrs: `data-lcs-role="pairs" data-lcs-n="${n}" data-lcs-ans="${Math.floor(n / 2)}"` }) + pills + `</div></div>`;
 }
 
 function placeValueRow({ digits, boxW = 48, digitPx = 30, gap = 4 }) {
@@ -273,13 +331,14 @@ function placeValueRow({ digits, boxW = 48, digitPx = 30, gap = 4 }) {
  * omitted the border); a wider literal REFUSES (never a smaller font). Root
  * `[data-lcs-pills]`.
  */
-function parityPills({ chips, order, correct, h = 44, padX = 14 }) {
+function parityPills({ chips, order, correct, h = 44, padX = 14, px = 17, key = false, row = false, gap = 6, attrs = '' }) {
   if (!chips || typeof chips.odd !== 'string' || typeof chips.even !== 'string' || !chips.odd.trim() || !chips.even.trim()) throw new Error('parityPills: chips {odd, even}');
   if (!Array.isArray(order) || order.length !== 2 || order.slice().sort().join(',') !== 'even,odd') throw new Error('parityPills: order = a permutation of [odd, even]');
   if (correct !== 'odd' && correct !== 'even') throw new Error('parityPills: correct = odd|even');
   if (!(h >= 44)) throw new Error(`parityPills: h ${h} < 44 (the G1 floor)`);
-  return `<span data-lcs-pills style="display:inline-flex;flex-direction:column;gap:6px;flex:0 0 auto">` + order.map((p) =>
-    `<span class="ws-chip" data-lcs-pill="${p}"${p === correct ? ' data-lcs-correct="1"' : ''} style="width:auto;min-width:64px;height:${h}px;font-size:17px;border-radius:${h / 2}px;padding:0 ${padX}px;white-space:nowrap">${esc(chips[p])}</span>`).join('') + `</span>`;
+  // key (Level Set 2026-10-14): the right pill is ringed in coral, as a teacher circles it; row/h/px: the screen's big pills
+  return `<span data-lcs-pills${attrs ? ' ' + attrs : ''} style="display:inline-flex;flex-direction:${row ? 'row' : 'column'};gap:${gap}px;flex:0 0 auto">` + order.map((p) =>
+    `<span class="ws-chip" data-lcs-pill="${p}"${key || row ? ` data-lcs-label="${esc(chips[p])}"` : ''}${p === correct ? ' data-lcs-correct="1"' : ''} style="width:auto;min-width:${Math.max(64, h)}px;height:${h}px;font-size:${px}px;border-radius:${h / 2}px;padding:0 ${padX}px;white-space:nowrap${key && p === correct ? `;box-shadow:0 0 0 4px ${T.coral}` : ''}">${esc(chips[p])}</span>`).join('') + `</span>`;
 }
 
 const HEAD_LETTER = `font-family:${F.body},sans-serif;font-weight:800;font-size:14px;line-height:1;color:${T.inkSoft};white-space:nowrap`;
@@ -303,11 +362,11 @@ function columnHeads({ left = null, leftW = 64, leftGap = 4, right, rightKeys, r
 }
 
 /** Two EMPTY tick circles each centred in a `cell`-wide cell (so the column heads align over them). */
-function tickCells({ keys, correct, size, cell, gap }) {
+function tickCells({ keys, correct, size, cell, gap, key = false, labels = null }) {
   if (!(cell >= size)) throw new Error(`tickCells: cell ${cell} < circle ${size}`);
-  const ticks = tickPair({ keys, correct, size, gap: 0 });
+  const ticks = tickPair({ keys, correct, size, gap: 0, key, labels });
   // split the pair into two cells: re-wrap each circle
-  const circles = ticks.match(/<span class="ws-chip"[^>]*><\/span>/g);
+  const circles = ticks.match(/<span class="ws-chip"[^>]*>(?:<svg[\s\S]*?<\/svg>)?<\/span>/g);
   if (!circles || circles.length !== 2) throw new Error('tickCells: tickPair shape');
   return `<span data-lcs-ticks style="display:inline-flex;align-items:center;gap:${gap}px">` + circles.map((c) => `<span style="display:inline-flex;justify-content:center;width:${cell}px;flex:0 0 ${cell}px">${c}</span>`).join('') + `</span>`;
 }
@@ -319,12 +378,12 @@ function tickCells({ keys, correct, size, cell, gap }) {
  * Root `[data-lcs-pvlane][data-ws-content]`. Every numeral on the lane lives in
  * the two boxes; nothing else prints.
  */
-function pvLane({ digits, correct, keys = ['even', 'odd'], boxW = 64, digitPx = 34, circle = 60, cell = 76, gap = 8, padY = 4, padX = 8 }) {
+function pvLane({ digits, correct, keys = ['even', 'odd'], boxW = 64, digitPx = 34, circle = 60, cell = 76, gap = 8, padY = 4, padX = 8, key = false, labels = null, attrs = '' }) {
   const row = placeValueRow({ digits, boxW, digitPx });
   const v = digits[0] * 10 + digits[1];
   if (correct !== (v % 2 ? 'odd' : 'even')) throw new Error(`pvLane: correct "${correct}" for ${v}`);
-  return `<div class="ws-lane" data-lcs-pvlane data-ws-content style="padding:${padY}px ${padX}px;display:flex;align-items:center;justify-content:space-between;min-width:0;min-height:${boxW + 2 * padY + 4}px">` +
-    row + tickCells({ keys, correct, size: circle, cell, gap }) + `</div>`;
+  return `<div class="ws-lane" data-lcs-pvlane data-ws-content${attrs ? ' ' + attrs : ''} style="padding:${padY}px ${padX}px;display:flex;align-items:center;justify-content:space-between;min-width:0;min-height:${Math.max(boxW, circle) + 2 * padY + 4}px">` +
+    row + tickCells({ keys, correct, size: circle, cell, gap, key, labels }) + `</div>`;
 }
 
 const SUM_FONT = (px) => `font-family:${F.display},cursive;font-weight:700;font-size:${px}px;line-height:1;color:${T.ink};white-space:nowrap`;
@@ -338,21 +397,21 @@ const SUM_FONT = (px) => `font-family:${F.display},cursive;font-weight:700;font-
  * on the right. Root `[data-lcs-sumlane][data-ws-content]` > `[data-lcs-sum
  * data-lcs-a data-lcs-b]`. Never a sum, never an `=`, never a result box.
  */
-function sumLane({ a, b, correct, keys = ['even', 'odd'], px = 30, circle = 60, cell = 76, gap = 8, padY = 4, padX = 8 }) {
+function sumLane({ a, b, correct, keys = ['even', 'odd'], px = 30, circle = 60, cell = 76, gap = 8, padY = 4, padX = 8, key = false, labels = null, attrs = '' }) {
   if (!posInt(a) || !posInt(b) || a > 999 || b > 999) throw new Error(`sumLane: addends 1..999 (got ${a}, ${b})`);
   if (correct !== ((a + b) % 2 ? 'odd' : 'even')) throw new Error(`sumLane: correct "${correct}" for ${a} + ${b}`);
   if (!(px >= 22)) throw new Error(`sumLane: px ${px} < 22`);
   const addend = (n) => { const s = String(n); return `<span data-lcs-addend="${n}">${s.slice(0, -1)}<span data-lcs-ones style="display:inline-block;line-height:1;height:calc(0.767em + 3px);overflow:visible;border-bottom:2px solid ${T.coral}">${s.slice(-1)}</span></span>`; };
   const expr = `<span data-lcs-sum data-lcs-a="${a}" data-lcs-b="${b}" style="${SUM_FONT(px)};display:inline-block;padding-left:6px">${addend(a)} <span data-lcs-plus style="color:${T.teal}">+</span> ${addend(b)}</span>`;
-  return `<div class="ws-lane" data-lcs-sumlane data-ws-content style="padding:${padY}px ${padX}px;display:flex;align-items:center;justify-content:space-between;min-width:0;min-height:${circle + 2 * padY + 4}px">` +
-    expr + tickCells({ keys, correct, size: circle, cell, gap }) + `</div>`;
+  return `<div class="ws-lane" data-lcs-sumlane data-ws-content${attrs ? ' ' + attrs : ''} style="padding:${padY}px ${padX}px;display:flex;align-items:center;justify-content:space-between;min-width:0;min-height:${circle + 2 * padY + 4}px">` +
+    expr + tickCells({ keys, correct, size: circle, cell, gap, key, labels }) + `</div>`;
 }
 
-function tickPair({ keys = ['even', 'odd'], correct, size = 44, gap = 10 }) {
+function tickPair({ keys = ['even', 'odd'], correct, size = 44, gap = 10, key = false, labels = null }) {
   if (!Array.isArray(keys) || keys.length !== 2 || keys[0] === keys[1] || keys.some((k) => k !== 'odd' && k !== 'even')) throw new Error('tickPair: keys = a permutation of [even, odd]');
   if (!keys.includes(correct)) throw new Error('tickPair: correct must be one of the keys');
   return `<span data-lcs-ticks style="display:inline-flex;align-items:center;gap:${gap}px">` +
-    keys.map((k) => `<span class="ws-chip" data-lcs-tick="${k}"${k === correct ? ' data-lcs-correct="1"' : ''} style="width:${size}px;height:${size}px;flex:0 0 ${size}px"></span>`).join('') + `</span>`;
+    keys.map((k) => `<span class="ws-chip" data-lcs-tick="${k}"${labels ? ` data-lcs-label="${esc(labels[k])}"` : ''}${k === correct ? ' data-lcs-correct="1"' : ''} style="width:${size}px;height:${size}px;flex:0 0 ${size}px">${key && k === correct ? checkMark(size) : ''}</span>`).join('') + `</span>`;
 }
 
 function ruleStrip({ text, px = 15 }) {
@@ -370,4 +429,6 @@ function parityTable({ chips, order = ['ee', 'oo', 'eo'] }) {
 
 module.exports = { chipStrip, houseBin, workedTile, pairDots, houseHeight, HOUSE_LAYOUT: LAYOUT, HOUSE_BOXES: BOXES, dotRowCard, shareLane, countLane, placeValueRow, tickPair, ruleStrip, parityTable,
   // Phase 2 face-only components (2026-09-21)
-  parityPills, columnHeads, pvLane, sumLane };
+  parityPills, columnHeads, pvLane, sumLane,
+  // Level Set 2026-10-14 (walk #61): screen lanes + the key box
+  shareLaneScreen, countLaneScreen, ansBox };

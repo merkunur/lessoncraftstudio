@@ -44,10 +44,10 @@
 
     "G1-351": { "title": "Even en oneven getallen: het even huis en het oneven huis", "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien." },
     "G2-351": { "title": "Even of oneven? Schrijf twee gelijke delen", "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje." },
-    "G1-369": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven." },
+    "G1-369": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er over is. Is het aantal plaatjes even of oneven?" },
     "G2-352": { "title": "Even en oneven getallen tot 100: kijk naar de eenheden", "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven." },
     "G3-386": { "title": "Even of oneven som? Beslis zonder te rekenen", "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven." },
-    "G1-370": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven." },
+    "G1-370": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt. Is het aantal plaatjes even of oneven? Omcirkel het goede woord." },
 
     "G1-352": { "title": "Hij, zij of het: persoonlijke voornaamwoorden", "instruction": "Kijk naar het plaatje en lees het woord eronder. Omcirkel het woord dat we in plaats daarvan zeggen." },
     "G1-371": { "title": "Vervang de naam door een voornaamwoord", "instruction": "Lees de zin. Schrijf het woord uit het kader dat in de tweede zin de naam vervangt in het vakje." },
@@ -334,10 +334,10 @@
       "strings": {
         "base": { "title": "Even en oneven getallen: het even huis en het oneven huis", "instruction": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien." },
         "proof": { "title": "Even of oneven? Schrijf twee gelijke delen", "instruction": "Omcirkel de stippen twee aan twee. Schrijf het getal daarna als twee gelijke delen en zet wat overblijft in het kleine vakje." },
-        "share": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er overblijft. Omcirkel daarna even of oneven." },
+        "share": { "title": "Kunnen twee vrienden eerlijk delen?", "instruction": "Verdeel de plaatjes om de beurt tussen de twee vrienden. Schrijf hoeveel elk kind krijgt en wat er over is. Is het aantal plaatjes even of oneven?" },
         "ones": { "title": "Even en oneven getallen tot 100: kijk naar de eenheden", "instruction": "Lees de regel bovenaan. Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven." },
         "sums": { "title": "Even of oneven som? Beslis zonder te rekenen", "instruction": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden, gebruik de tabel en zet een vinkje bij even of oneven." },
-        "count": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt en omcirkel daarna even of oneven." }
+        "count": { "title": "Even of oneven? Tel de plaatjes in paren", "instruction": "Tel de plaatjes en omcirkel ze twee aan twee. Schrijf hoeveel paren je hebt gemaakt. Is het aantal plaatjes even of oneven? Omcirkel het goede woord." }
       },
       "refuse": {},
       "strand": "Getallen (SLO kerndoelen)"

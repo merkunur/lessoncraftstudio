@@ -111,12 +111,24 @@ const TWIN_GROUP = new Map();
 (QUESTION_WORDS.THING_TWINS || []).forEach((g, i) => g.forEach((k) => TWIN_GROUP.set(k, i)));
 if (!TWIN_GROUP.size) throw new Error('G1-351: QUESTION_WORDS.THING_TWINS is empty — the look-alike fence would be vacuous');
 const { GLOBAL } = require('../../data/b4/odd-and-even.js');
-const { chipStrip, houseBin, houseHeight, dotRowCard, shareLane, countLane, pvLane, sumLane, columnHeads, ruleStrip, parityTable, parityPills } = require('../../templates/components-b4.js');
+const { chipStrip, houseBin, houseHeight, dotRowCard, shareLane, countLane, pvLane, sumLane, columnHeads, ruleStrip, parityTable, parityPills, shareLaneScreen, countLaneScreen } = require('../../templates/components-b4.js');
 const { entriesFor, countable, fileUri } = require('../../lib/b2-common.js');
 const { SENTENCES } = require('../../data/b2/sentences.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 
 const KEY = 'odd-and-even';
+const { refusedPicture } = require('../../lib/picture-refusals.js');
+/*
+ * Pictures a NEW page never uses (Level Set 2026-10-14; every picture of the allowed themes opened on contact sheets):
+ * `all` — one picture that shows SEVERAL things (three eggs, three crayons, two dominoes, two cards, a pair of boots, a
+ * stack of pancakes, a block tower), a person (babies, a girl), a shop fitting (till, price tag), a toadstool. `share` —
+ * also nothing two friends would share (a slide, a swing, a sandbox). The published pages keep their pools.
+ */
+const PICTURE_OUT = {
+  all: new Set(['At the Supermarket|egg', 'At the Supermarket|cash_register', 'At the Supermarket|price_tag', 'At the Supermarket|mushroom', 'vegetables|mushroom',
+    'toys|baby_girl', 'toys|baby', 'toys|girl', 'toys|blocks', 'toys|crayons', 'toys|domino', 'toys|cards', 'desserts and sweets|pancake', 'accessories|rain_boots']),
+  share: new Set(['toys|slide', 'toys|swing', 'toys|sandbox']),
+};
 const ID = 'G1-351';
 const MAX_TRIES = 300;
 const MAX_RUN = 4;                 // no run of MORE than 4 consecutive chips ascending, or alternating in parity
@@ -394,10 +406,14 @@ const COLS = { headH: 28, laneGap: 8, colGap: 14, colW: 330, under: 12, cell: 76
 const ONES = { box: 64, digitPx: 34, circle: 60, ruleH: { one: 40, two: 60 } };
 const SUMS = { px: 30, circle: 60, tableH: 92 };
 const LANE_INNER = 639;
+// the SCREEN's one column of tick lanes (Level Set 2026-10-14): a tick circle >= 104 page px is >= 44 px on a 360-px phone
+const SCREEN_COL = { w: 640, box: 84, digitPx: 46, circle: 108, cell: 124, gap: 14, padX: 12, sumPx: 44 };
 const BW_THEME = /(?:^|[\s_-])(bw|sw|bn|nb|zw|sh|pb|mv|sv)$/i;    // the cache theme name ('animals bw') or a library dir with the localized marker
 const FACE_BUILD = { proof: '_buildProof', share: '_buildShare', ones: '_buildOnes', sums: '_buildSums', count: '_buildCount' };
 
 function must(cond, msg) { if (!cond) throw new Error(`${ID}: ${msg}`); }
+/** which drawing a build is asked for: the printed page, the screen version (ctx.interactive) or the answer key (ctx.answerKey) */
+function viewOf(ctx) { return ctx && ctx.interactive ? 'screen' : ctx && ctx.answerKey ? 'key' : 'page'; }
 function isAsc(a) { return a.length > 1 && a.every((v, i) => !i || v > a[i - 1]); }
 function shuffledNotAsc(rng, arr) { let o = arr; for (let t = 0; t < MAX_TRIES; t++) { o = rng.shuffle(arr); if (!isAsc(o) && !isAsc(o.slice().reverse())) return o; } return null; }
 /** k distinct numerals of the range with exactly `split` = [odd, even] (throws when the pools are short). */
@@ -410,6 +426,33 @@ function rangeGuard(range, minLo, maxHi, what) {
   must(Array.isArray(range) && range.length === 2 && range.every(Number.isInteger), `${what}: range must be [lo, hi]`);
   must(range[0] >= minLo && range[1] <= maxHi && range[1] > range[0], `${what}: range [${range}] outside ${minLo}..${maxHi}`);
 }
+
+/*
+ * THE LAST-ROW TELL (Level Set 2026-10-14, walk #61 — the design ruling the rows file asked for). A pile laid out in
+ * rows of w shows its last row: n − (rows − 1)·w. At ONE fixed width that row's parity is tied to n's (an even w keeps
+ * it, an odd w flips it once the pile wraps), so the picture hands over the odd/even answer — measured 100% on the
+ * published count page. `vary` gives every lane / card its OWN width, drawn so that within each parity half the lanes
+ * show a same-parity last row and half an opposite one (forced widths count first). The numbers, pictures and names of
+ * the page are drawn BEFORE the widths, so a page keeps its content; only the arrangement changes.
+ */
+function lastRowSame(n, w) { const rows = Math.ceil(n / w); return (n - (rows - 1) * w) % 2 === n % 2; }
+function balanceWidths(rng, ns, legal) {
+  const opts = ns.map((n) => { const ws = legal(n); return { same: ws.filter((w) => lastRowSame(n, w)), opp: ws.filter((w) => !lastRowSame(n, w)) }; });
+  if (opts.some((o) => !o.same.length && !o.opp.length)) return null;
+  const choice = opts.map((o) => (!o.opp.length ? 'same' : !o.same.length ? 'opp' : null));
+  // an odd-sized parity half rounds one way and the other half the other way, so the PAGE shows exactly half (when even)
+  let up = rng.int(0, 1) === 1;
+  for (const p of [0, 1]) {
+    const idx = ns.map((n, i) => (n % 2 === p ? i : -1)).filter((i) => i >= 0);
+    if (!idx.length) continue;
+    const want = idx.length % 2 ? (up ? Math.ceil(idx.length / 2) : Math.floor(idx.length / 2)) : idx.length / 2;
+    if (idx.length % 2) up = !up;
+    let same = idx.filter((i) => choice[i] === 'same').length;
+    for (const i of rng.shuffle(idx.filter((i) => choice[i] === null))) { choice[i] = same < want ? 'same' : 'opp'; if (choice[i] === 'same') same++; }
+  }
+  return opts.map((o, i) => rng.pick(o[choice[i]]));
+}
+function widthsFrom(lo, hi) { const out = []; for (let w = lo; w <= hi; w++) out.push(w); return out; }
 
 /** F1 — the resolved proof config: cards in [6, 16] (2 columns), range 2..20, the split, minTwoRow reachable, the stack under 677. */
 function resolveProof(d) {
@@ -426,7 +469,7 @@ function resolveProof(d) {
   const pitch = dot + gap, panelMin = 2 * pitch - gap + 12, cardMin = PROOF.eqH + 10 + panelMin, rows = cards / 2;
   const stack = rows * (cardMin + PROOF.cardChrome) + (rows - 1) * PROOF.gridGap;
   must(stack <= STACK.max, `proof: ${rows} cards of ${cardMin + PROOF.cardChrome} = ${stack} > ${STACK.max} (the 4-line fi chrome)`);
-  return { mode: 'proof', range: d.range.slice(), cards, rows, cols: 2, split, minTwoRow, perRow, dot, gap, pitch, panelMin, cardMin, stack, boxW: PROOF.boxW, remW: PROOF.remW };
+  return { mode: 'proof', range: d.range.slice(), cards, rows, cols: 2, split, minTwoRow, perRow, dot, gap, pitch, panelMin, cardMin, stack, boxW: PROOF.boxW, remW: PROOF.remW, vary: !!d.vary };
 }
 function composeProof(rng, cfg) {
   let ns = null;
@@ -439,7 +482,7 @@ function composeProof(rng, cfg) {
 /** F2 / F5 — the picture lanes: 6 lanes, pictures >= 44, the pile + columns <= 639, the lane 106, the stack <= 677. */
 function resolvePics(d, kind) {
   must(d.mode === kind, `resolvePics: mode ${d.mode} != ${kind}`);
-  const hiMax = kind === 'share' ? 12 : 18, loMin = kind === 'share' ? 3 : 8;
+  const hiMax = kind === 'share' ? 12 : 18, loMin = kind === 'share' ? 2 : 8;   // share from 2: the Level Set's level 1 (2026-10-14)
   rangeGuard(d.range, loMin, hiMax, kind);
   const lanes = d.lanes, iconPx = d.iconPx, perRow = d.perRow, split = (d.split || [Math.ceil(lanes / 2), Math.floor(lanes / 2)]).slice();
   must(Number.isInteger(lanes) && lanes >= 6 && lanes <= 12, `${kind}: lanes ${lanes} outside the G1 window [6, 12]`);
@@ -457,7 +500,8 @@ function resolvePics(d, kind) {
   const laneH = Math.max(pileH, pills ? 94 : 66) + 2 * PICS.lanePad + 4;
   const stack = lanes * laneH + (lanes - 1) * PICS.rowGap;
   must(stack <= STACK.max, `${kind}: ${lanes} lanes of ${laneH} = ${stack} > ${STACK.max} (the 4-line fi chrome)`);
-  return { mode: kind, range: d.range.slice(), lanes, iconPx, perRow, split, pills, pileW, rowW, laneH, stack, nameMax: null };
+  // vary (2026-10-14): perRow is then the WIDEST row a lane may use (its slot); each lane draws its own width <= it
+  return { mode: kind, range: d.range.slice(), lanes, iconPx, perRow, split, pills, pileW, rowW, laneH, stack, nameMax: null, vary: !!d.vary };
 }
 function composePics(rng, cfg, pool, namePool) {
   if (pool.length < cfg.lanes) return null;
@@ -626,7 +670,7 @@ function VERIFY_FACE() {
 
   if (mode === 'proof') {
     const cards = [...root.querySelectorAll('[data-lcs-proof]')];
-    const nCards = +D.lcsCards, [lo, hi] = D.lcsRange.split(',').map(Number), split = D.lcsSplit.split(',').map(Number), minTwoRow = +D.lcsMinTwoRow, dot = +D.lcsDot, pitch = +D.lcsPitch, perRow = +D.lcsPerRow;
+    const nCards = +D.lcsCards, [lo, hi] = D.lcsRange.split(',').map(Number), split = D.lcsSplit.split(',').map(Number), minTwoRow = +D.lcsMinTwoRow, dot = +D.lcsDot, pitch = +D.lcsPitch, perRowMax = +D.lcsPerRow;
     if (cards.length !== nCards) fails.push(`${cards.length} cards, config says ${nCards}`);
     if (nCards < 8 || nCards > 16) fails.push(`${nCards} items outside the G2 window [8, 16]`);
     const ns = cards.map((c) => +c.dataset.lcsN);
@@ -636,6 +680,9 @@ function VERIFY_FACE() {
     const seen = { odd: 0, even: 0 };
     cards.forEach((c, i) => {
       const n = ns[i], L = `card ${i + 1} (${n})`;
+      // the card's OWN row width (Level Set `vary`, 2026-10-14): 5..the page's widest, at most two rows
+      const perRow = c.dataset.lcsPerRow ? +c.dataset.lcsPerRow : perRowMax;
+      if (!(perRow >= 5 && perRow <= perRowMax) || Math.ceil(n / perRow) > 2) fails.push(`${L}: row width ${perRow} (5..${perRowMax}, at most two rows)`);
       if (!Number.isInteger(n) || n < lo || n > hi) fails.push(`${L}: outside [${lo}, ${hi}]`);
       seen[par(n)]++;
       const panel = c.querySelector('[data-lcs-dots]');
@@ -682,7 +729,7 @@ function VERIFY_FACE() {
     if (!cards.length) fails.push('non-vacuity: no cards');
   } else if (mode === 'share' || mode === 'count') {
     const lanes = [...root.querySelectorAll(mode === 'share' ? '[data-lcs-share]' : '[data-lcs-count]')];
-    const nLanes = +D.lcsLanes, [lo, hi] = D.lcsRange.split(',').map(Number), split = D.lcsSplit.split(',').map(Number), iconPx = +D.lcsIconPx, perRow = +D.lcsPerRow, pills = D.lcsPills === '1';
+    const nLanes = +D.lcsLanes, [lo, hi] = D.lcsRange.split(',').map(Number), split = D.lcsSplit.split(',').map(Number), iconPx = +D.lcsIconPx, perRowMax = +D.lcsPerRow, pills = D.lcsPills === '1';
     if (lanes.length !== nLanes) fails.push(`${lanes.length} lanes, config says ${nLanes}`);
     if (nLanes < 6 || nLanes > 12) fails.push(`${nLanes} items outside the G1 window [6, 12]`);
     const ns = lanes.map((l) => +l.dataset.lcsN);
@@ -691,6 +738,8 @@ function VERIFY_FACE() {
     const seen = { odd: 0, even: 0 }, srcs = new Set();
     lanes.forEach((lane, i) => {
       const n = ns[i], L = `lane ${i + 1} (${n})`;
+      const perRow = lane.dataset.lcsPerRow ? +lane.dataset.lcsPerRow : perRowMax;
+      if (!(perRow >= 3 && perRow <= perRowMax) || Math.ceil(n / perRow) > 2) fails.push(`${L}: row width ${perRow} (3..${perRowMax}, at most two rows)`);
       if (!Number.isInteger(n) || n < lo || n > hi) fails.push(`${L}: outside [${lo}, ${hi}]`);
       seen[par(n)]++;
       const pile = lane.querySelector('[data-lcs-pile]');
@@ -856,6 +905,108 @@ function VERIFY_FACE() {
   function isAscOrder(a) { return a.length > 1 && a.every((v, i) => !i || v > a[i - 1]); }
 }
 
+/* ------------------------------------------------------------------ Level Set (2026-10-14, walk #61) ------------------------------------------------------------------ */
+/*
+ * Real levels for the five faces (they all shipped `{1: D, 2: D, 3: D}`). Level 2 = the published config; levels 1 and 3
+ * change only knobs the face's printed title and instruction leave free (read in all eleven locales): smaller / bigger
+ * numbers, fewer / more items, and — where the instruction would be false — a level instruction
+ * (i18n/level-instructions.json: the ones page without its rule strip, the sums page without its table).
+ * `vary` (the last-row tell) is on at EVERY level of the three picture/dot faces, the published pages included
+ * (republished in place). ⚠ tools/gen-b4var-specs.js would flatten the face files back to one object — never re-run it.
+ */
+const LEVELS = {
+  'G2-351': { all: { vary: true }, 1: { range: [2, 12], minTwoRow: 0 }, 3: { range: [11, 20], minTwoRow: 8 } },
+  'G1-369': { all: { vary: true, perRow: 6 }, 1: { range: [2, 7] }, 3: { range: [7, 12] } },
+  'G2-352': { 1: { items: 10, range: [10, 49], maxOnesRepeat: 1, minEachParity: 5, minHigh: 0, circle: 76 }, 3: { items: 16, rule: false, minEachParity: 6, minHigh: 8, box: 56, digitPx: 30, circle: 56 } },
+  'G3-386': { 1: { range: [10, 99], items: 10, cases: { ee: 2, oo: 3, eo: 2, oe: 3 }, circle: 76 }, 3: { items: 16, table: false, cases: { ee: 4, oo: 4, eo: 4, oe: 4 } } },
+  'G1-370': { all: { vary: true }, 1: { range: [8, 13] }, 3: { range: [13, 18] } },
+};
+function levelsFor(id, D) {
+  const L = LEVELS[id];
+  if (!L) throw new Error(`${ID}: no Level Set levels for ${id}`);
+  const all = L.all || {};
+  return { 1: { ...D, ...all, ...L[1] }, 2: { ...D, ...all }, 3: { ...D, ...all, ...L[3] } };
+}
+
+/** the screen sentence key (i18n/interactive-instructions.json odd-and-even.<key>) — the level's own task */
+function screenKey(difficulty, spec) {
+  const d = spec.difficulty[difficulty] || {};
+  if (!d.mode) return 'house';
+  if (d.mode === 'ones') return d.rule === false ? 'onesNoRule' : 'ones';
+  if (d.mode === 'sums') return d.table === false ? 'sumsNoTable' : 'sums';
+  return d.mode;
+}
+const chipsOf = (locale) => loadBank(KEY, String(locale || 'en').slice(0, 2)).chips;
+const intList = (s) => String(s || '').split(',').filter(Boolean).map(Number);
+/*
+ * The robot's INDEPENDENT oracles: every answer recomputed from the numbers the page stamps (n % 2, floor(n / 2), the
+ * parity of a + b) — never from the page's answer marks. A pill / tick answer is the INDEX of the option whose label is
+ * the locale's chip word for that parity.
+ */
+function pickIndex(labels, n, locale) {
+  const want = chipsOf(locale)[parity(n)];
+  const hits = labels.map((l, i) => (String(l) === want ? i : -1)).filter((i) => i >= 0);
+  if (hits.length !== 1) throw new Error(`odd-and-even oracle: ${hits.length} options read "${want}" for ${n}`);
+  return hits[0];
+}
+const ORACLE = {
+  base(items) {
+    const pool = intList((items[0] && items[0].meta || {})['data-lcs-pool']);
+    if (!pool.length || pool.some((v) => !Number.isInteger(v) || v < 1)) throw new Error('odd-and-even oracle: no strip numbers');
+    return { boxes: items.map(() => null), sets: { odd: pool.filter((v) => v % 2), even: pool.filter((v) => !(v % 2)) } };
+  },
+  proof(items) {
+    return items.map((it) => {
+      const n = +(it.meta || {})['data-lcs-n'], role = (it.meta || {})['data-lcs-role'];
+      if (!Number.isInteger(n) || n < 1) throw new Error('odd-and-even oracle: no n on a proof box');
+      return role === 'r' ? n % 2 : pairsOf(n);
+    });
+  },
+  pics(items, locale, ctx) {
+    const boxes = items.map((it) => {
+      const n = +(it.meta || {})['data-lcs-n'], role = (it.meta || {})['data-lcs-role'];
+      if (!Number.isInteger(n) || n < 1) throw new Error('odd-and-even oracle: no n on a box');
+      return role === 'r' ? n % 2 : pairsOf(n);
+    });
+    const picks = ((ctx && ctx.picks) || []).map((p) => pickIndex(p.options.map((o) => o.label), +(p.meta || {})['data-lcs-n'], locale));
+    return { boxes, picks };
+  },
+  tick(items, locale) {
+    return items.map((it) => {
+      const q = String((it.meta || {})['data-lcs-q'] || '').split(':');
+      const n = q[0] === 'v' ? +q[1] : q[0] === 's' ? +q[1] + +q[2] : NaN;
+      if (!Number.isInteger(n)) throw new Error('odd-and-even oracle: no question on a tick row');
+      return pickIndex(it.options.map((o) => (typeof o === 'object' ? o.label : o)), n, locale);
+    });
+  },
+};
+/** the interactive declaration of one face (a face file sets `interactive: base.interactiveFor('<mode>')`) */
+function interactiveFor(mode) {
+  const common = { instructionKey: screenKey, maxDigits: () => 2 };
+  if (mode === 'base') {
+    return { ...common, kind: 'type-number', item: '[data-lcs-house] .ws-blankbox', answerAttr: 'data-lcs-ans', labelAttr: 'data-lcs-set',
+      metaAttrs: ['data-lcs-set', 'data-lcs-pool', 'data-lcs-members'], screenHeight: 2700,
+      // the runtime's sorting sets come from the HOUSES the page draws (data-lcs-members); the oracle recomputes them
+      screenCtx: (items) => { const sets = {}; for (const it of items) { const p = it.meta['data-lcs-set']; if (!sets[p]) sets[p] = intList(it.meta['data-lcs-members']); } return { sortSets: sets }; },
+      oracle: (items) => ORACLE.base(items) };
+  }
+  if (mode === 'proof') {
+    return { ...common, kind: 'type-number', item: '[data-lcs-proof] .ws-blankbox', answerAttr: 'data-lcs-ans', labelAttr: 'data-lcs-role',
+      metaAttrs: ['data-lcs-role', 'data-lcs-n'], screenHeight: 3500, oracle: (items) => ORACLE.proof(items) };
+  }
+  if (mode === 'share' || mode === 'count') {
+    return { ...common, kind: 'type-number', item: `[data-lcs-${mode}] .ws-blankbox`, answerAttr: 'data-lcs-ans', labelAttr: 'data-lcs-role',
+      metaAttrs: ['data-lcs-role', 'data-lcs-n'], screenHeight: mode === 'share' ? 3100 : 2400,
+      picks: { group: '[data-lcs-pills]', option: '[data-lcs-pill]', metaAttrs: ['data-lcs-n'] },
+      oracle: (items, locale, ctx) => ORACLE.pics(items, locale, ctx) };
+  }
+  if (mode === 'ones' || mode === 'sums') {
+    return { instructionKey: screenKey, kind: 'tap-choice', item: mode === 'ones' ? '[data-lcs-pvlane]' : '[data-lcs-sumlane]', option: '[data-lcs-tick]',
+      answerAttr: 'data-lcs-correct', labelAttr: 'data-lcs-q', metaAttrs: ['data-lcs-q'], screenHeight: 2700, oracle: (items, locale) => ORACLE.tick(items, locale) };
+  }
+  throw new Error(`${ID}: no interactive declaration for mode ${mode}`);
+}
+
 module.exports = {
   id: ID,
   slug: 'odd-house-even-house',
@@ -868,7 +1019,9 @@ module.exports = {
     1: { range: [1, 10], chips: 6, perRow: 6, worked: { count: 3, split: [2, 1] }, boxes: { cols: 3, rows: 2 }, splits: [[4, 5], [5, 4]] },
     2: { range: [1, 20], chips: 9, perRow: 9, worked: { count: 3, split: [2, 1] }, boxes: { cols: 4, rows: 2 }, splits: [[6, 6]] },
     // d3 is UNPUBLISHED (README: d2 is the only shipped level): 1..30, two chip rows of 6 (lane 164; 610 <= 677); 0 NEVER (critic ruling 3)
-    3: { range: [1, 30], chips: 12, perRow: 6, worked: { count: 2, split: [1, 1] }, boxes: { cols: 4, rows: 2 }, splits: [[7, 7]],
+    // Level Set 2026-10-14: THREE worked numbers (was 2) — the printed instruction says "Three numbers have moved in already"
+    // in all eleven locales, so a level-3 page with two would contradict it. 12 open + 3 worked = 15 = 8 + 7.
+    3: { range: [1, 30], chips: 12, perRow: 6, worked: { count: 3, split: [2, 1] }, boxes: { cols: 4, rows: 2 }, splits: [[8, 7], [7, 8]],
       house: { boxes: { w: 62, h: 60, gapX: 12, gapY: 14 }, layout: { sign: 140, worked: 196, grid: 270, pad: 20 } } },   // the compact 426 house under the 164 strip: 618
   },
   i18n: {
@@ -877,29 +1030,49 @@ module.exports = {
       instruction: 'Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs.',
     },
   },
-  parity, pairsOf, resolveBase, compose, maxAscRun, maxAltRun, orderOk, stripHeight, MAX_RUN,
+  parity, pairsOf, resolveBase, compose, maxAscRun, maxAltRun, orderOk, stripHeight, MAX_RUN, lastRowSame, balanceWidths,
+  levelsFor, interactiveFor,
+  interactive: interactiveFor('base'),
+  /** what makes a Level Set copy different: the numbers it asks about (themeless faces; the picture faces differ by theme) */
+  levelSetWords(m) { return m.rows ? m.rows.map((r) => r.a + '+' + r.b) : (m.order || []).map(String); },
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
+    // the published page = level 2, copy 1 (its picture pool stays exactly as published; every other page is a Level Set page)
+    const published = difficulty === 2 && ((ctx && (ctx.seedVariant || ctx.variant)) || 1) === 1;
+    return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc, published }, ctx);
   },
 
   /** The whole build over an INJECTED bank + config (the gate's poison seam); build() passes the real ones. */
-  _buildWith(bank, d, { theme, locale }, ctx) {
+  _buildWith(bank, d, { theme, locale, published = true }, ctx) {
     if (!d) throw new Error(`${ID}: no difficulty config`);
     const loc = (locale || 'en').slice(0, 2);
     if (!bank || !bank.chips || typeof bank.chips.odd !== 'string' || typeof bank.chips.even !== 'string' || !bank.chips.odd.trim() || !bank.chips.even.trim()) throw new Error(`${ID}: the ${loc} bank has no chips {odd, even}`);
     if (!Array.isArray(bank.houseOrder) || bank.houseOrder.slice().sort().join(',') !== 'even,odd') throw new Error(`${ID}: the ${loc} bank houseOrder must be a permutation of [odd, even]`);
     // Phase 2 faces — additive `mode` knob, dispatched BEFORE the base path touches the RNG
-    if (d.mode) return this._buildFace(bank, d, { theme, locale: loc }, ctx);
+    if (d.mode) return this._buildFace(bank, d, { theme, locale: loc, published }, ctx);
     const cfg = resolveBase(d, GLOBAL);
     const deal = compose(ctx.rng, cfg);
     if (!deal) throw new Error(`${ID}: no deal for chips ${cfg.chips} + worked ${cfg.worked.count} in [${cfg.range}] under the order rule — REFUSED`);
-    const houses = bank.houseOrder.map((p) => houseBin({
+    // Level Set 2026-10-14: the SCREEN (the same houses, twice the size, one under the other; every box is a write box
+    // that takes any open number of its parity — `data-lcs-set`) and the KEY (each open number written in its house, in
+    // strip order). The printed page passes neither and is byte-identical.
+    const view = viewOf(ctx);
+    const openOf = (p) => deal.order.filter((v) => parity(v) === p);
+    const houseList = bank.houseOrder.map((p) => houseBin({
       parity: p, label: bank.chips[p], w: HOUSE.w, h: HOUSE.h,
       worked: deal.worked[p].map((n) => ({ n })), boxes: { ...cfg.house.boxes, cols: cfg.boxes.cols, rows: cfg.boxes.rows }, layout: cfg.house.layout,
-    })).join('');
+      keyNums: view === 'key' ? openOf(p) : null,
+      boxAttrs: view === 'screen' ? `data-lcs-set="${p}" data-lcs-ans="0" data-lcs-pool="${deal.order.join(',')}" data-lcs-members="${openOf(p).join(',')}"` : '',
+      attrs: view === 'screen' ? 'data-lcs-keep' : '',
+    }));
     const strip = chipStrip({ values: deal.order, chip: CHIP, gap: CHIP_GAP, perRow: cfg.perRow });
+    if (view === 'screen') {
+      const body = `<div data-ws-content data-lcs-oae data-lcs-screen="base" style="flex:1;display:flex;flex-direction:column;align-items:center;gap:28px;min-height:0">` +
+        strip + houseList.map((h) => `<div style="zoom:2">${h}</div>`).join('') + `</div>`;
+      return { bodyHtml: body, meta: { face: 'base', order: deal.order, worked: deal.worked, split: deal.split, houseOrder: bank.houseOrder.slice(), stack: cfg.stack, houseH: cfg.houseH, gap: cfg.gap } };
+    }
+    const houses = houseList.join('');
     const bodyHtml = `<div data-ws-content data-lcs-oae data-lcs-chips="${cfg.chips}" data-lcs-worked="${cfg.worked.count}" data-lcs-boxes="${cfg.boxes.cols * cfg.boxes.rows}" ` +
       `data-lcs-split="${deal.split.odd},${deal.split.even}" data-lcs-range="${cfg.range[0]},${cfg.range[1]}" data-lcs-order="${bank.houseOrder.join(',')}" data-lcs-maxn="${cfg.maxN}" ` +
       `data-lcs-gap="${cfg.gap}" data-lcs-stack="${cfg.stack}" ` +
@@ -913,33 +1086,50 @@ module.exports = {
   },
 
   /** Phase 2: the five faces on the additive `mode` knob (design §3). Every builder resolves its config first (a refusal throws). */
-  _buildFace(bank, d, { theme, locale }, ctx) {
+  _buildFace(bank, d, { theme, locale, published }, ctx) {
     const fn = FACE_BUILD[d.mode];
     if (!fn) throw new Error(`${ID}: unknown mode "${d.mode}" (proof | share | ones | sums | count)`);
     if (!ctx || !ctx.rng) throw new Error(`${ID}: no rng in ctx`);
-    return this[fn](bank, d, { theme, locale }, ctx.rng);
+    return this[fn](bank, d, { theme, locale, published }, ctx.rng, viewOf(ctx));
   },
   _faceRoot(mode, stamps, style, inner) {
     const attrs = Object.entries(stamps).map(([k, v]) => `data-lcs-${k}="${v}"`).join(' ');
     return `<div data-ws-content data-lcs-oae data-lcs-mode="${mode}" ${attrs} style="${style}">${inner}</div>`;
   },
+  /** the screen's root: one column, top-anchored, the elements at their screen sizes (never verified as a printed page) */
+  _screenRoot(mode, inner) {
+    return `<div data-ws-content data-lcs-oae data-lcs-screen="${mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;gap:18px;min-height:0">${inner}</div>`;
+  },
 
   /** F1 `proof` (G2): 8 numbered cards, `n = [a] + [b] + [r]` over a panel of n bare dots the child rings two by two. */
-  _buildProof(bank, d, { locale }, rng) {
+  _buildProof(bank, d, { locale }, rng, view = 'page') {
     const cfg = resolveProof(d);
     if (typeof bank.leftover !== 'string' || !bank.leftover.trim()) throw new Error(`${ID}: the ${locale} bank has no leftover caption`);
     const deal = composeProof(rng, cfg);
     if (!deal) throw new Error(`${ID}: no proof deal for ${cfg.cards} cards in [${cfg.range}] (minTwoRow ${cfg.minTwoRow}) — REFUSED`);
-    const cards = deal.order.map((n) => `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0">` +
-      dotRowCard({ n, dot: cfg.dot, gap: cfg.gap, perRow: cfg.perRow, boxW: cfg.boxW, remW: cfg.remW, remLabel: bank.leftover, eqFirst: true, fill: true }) + `</div>`);
+    // vary (2026-10-14): each card its own row width (5..10, at most two rows) — the last-row tell, balanced per parity
+    const widths = cfg.vary ? balanceWidths(rng, deal.order, (n) => widthsFrom(Math.max(5, Math.ceil(n / 2)), cfg.perRow)) : deal.order.map(() => cfg.perRow);
+    if (!widths) throw new Error(`${ID}: no row widths for [${deal.order}] — REFUSED`);
+    const meta = { face: 'proof', order: deal.order, widths, expected: deal.order.map((n) => ({ n, a: pairsOf(n), b: pairsOf(n), r: n % 2 })), stack: cfg.stack, cfg };
+    if (view === 'screen') {
+      // one card per row, twice the size; every box a write box (>= 104 page px = 44 px on a phone)
+      const cards = deal.order.map((n, i) => `<div class="ws-card" data-lcs-keep style="zoom:2;width:320px;box-sizing:border-box;padding:12px">` +
+        dotRowCard({ n, dot: cfg.dot, gap: cfg.gap, perRow: widths[i], boxW: 54, boxH: 54, remW: 54, remH: 54, remLabel: bank.leftover, eqFirst: true,
+          boxAttrs: { a: `data-lcs-n="${n}" data-lcs-ans="${pairsOf(n)}"`, b: `data-lcs-n="${n}" data-lcs-ans="${pairsOf(n)}"`, r: `data-lcs-n="${n}" data-lcs-ans="${n % 2}"` } }) + `</div>`);
+      return { bodyHtml: this._screenRoot('proof', cards.join('')), meta };
+    }
+    const key = view === 'key';
+    const cards = deal.order.map((n, i) => `<div style="display:flex;flex-direction:column;flex:1 1 auto;min-height:0">` +
+      dotRowCard({ n, dot: cfg.dot, gap: cfg.gap, perRow: widths[i], boxW: cfg.boxW, remW: cfg.remW, remLabel: bank.leftover, eqFirst: true, fill: true, key: key ? { a: pairsOf(n), b: pairsOf(n), r: n % 2 } : null }) + `</div>`);
     const bodyHtml = this._faceRoot('proof',
       { cards: cfg.cards, rows: cfg.rows, range: cfg.range.join(','), split: cfg.split.join(','), 'min-two-row': cfg.minTwoRow, dot: cfg.dot, pitch: cfg.pitch, 'per-row': cfg.perRow, stack: cfg.stack },
       'flex:1 1 auto;display:flex;flex-direction:column;min-height:0', cardGrid({ cards, cols: cfg.cols, rows: cfg.rows, numbered: true }));
-    return { bodyHtml, meta: { face: 'proof', order: deal.order, expected: deal.order.map((n) => ({ n, a: pairsOf(n), b: pairsOf(n), r: n % 2 })), stack: cfg.stack, cfg } };
+    return { bodyHtml, meta };
   },
 
   /** The picture pool of a theme for a locale: countable entries, distinct by noun, never a B&W theme, never themeless. */
-  _picturePool(theme, locale) {
+  /** levelSetKind (Level Set 2026-10-14): a NEW page also drops the pictures read as wrong for this task (PICTURE_OUT) */
+  _picturePool(theme, locale, levelSetKind = null) {
     if (!theme || typeof theme !== 'string') throw new Error(`${ID}: the picture faces need a theme (the wave pins one; the numeral faces are themeless)`);
     if (BW_THEME.test(theme)) throw new Error(`${ID}: theme "${theme}" is a B&W theme (the picture faces take colour art only)`);
     const seen = new Set(), seenGroup = new Set();
@@ -947,6 +1137,7 @@ module.exports = {
       // at most ONE member of a look-alike group per page: a jaguar row beside a leopard row reads
       // as one animal counted twice. Measured 2026-09-22 over the two pinned themes × 11 locales ×
       // 25 seeds: 37 of 550 pages carried such a pair before this line, 0 after.
+      .filter((e) => !levelSetKind || !(refusedPicture(theme, e.noun) || PICTURE_OUT.all.has(theme + '|' + e.noun) || (PICTURE_OUT[levelSetKind] || new Set()).has(theme + '|' + e.noun)))
       .filter((e) => { const g = TWIN_GROUP.get(e.noun); if (g === undefined) return true; if (seenGroup.has(g)) return false; seenGroup.add(g); return true; });
   },
   _names(bank, locale) {
@@ -956,30 +1147,44 @@ module.exports = {
     if (pool.length < 2) throw new Error(`${ID}: fewer than 2 names of <= ${max} graphemes in SENTENCES.${locale}`);
     return pool;
   },
-  _pics(bank, d, { theme, locale }, rng, kind) {
+  _pics(bank, d, { theme, locale, published = true }, rng, kind, view = 'page') {
     const cfg = resolvePics(d, kind);
     const capKey = kind === 'share' ? 'leftover' : 'pairs';
     if (typeof bank[capKey] !== 'string' || !bank[capKey].trim()) throw new Error(`${ID}: the ${locale} bank has no ${capKey} caption`);
-    const pool = this._picturePool(theme, locale);
+    const pool = this._picturePool(theme, locale, published ? null : kind);
     if (pool.length < cfg.lanes) throw new Error(`${ID}: theme "${theme}" holds ${pool.length} countable nouns in ${locale}, the face needs ${cfg.lanes} — REFUSED (never a filler)`);
     const names = kind === 'share' ? this._names(bank, locale) : null;
     const deal = composePics(rng, cfg, pool, names);
     if (!deal) throw new Error(`${ID}: no ${kind} deal for ${cfg.lanes} lanes in [${cfg.range}] — REFUSED`);
+    // vary (2026-10-14): every lane its own row width (3..perRow, at most two rows), the last-row tell balanced per parity
+    const widths = cfg.vary ? balanceWidths(rng, deal.order, (n) => widthsFrom(Math.max(3, Math.ceil(n / 2)), cfg.perRow)) : deal.order.map(() => cfg.perRow);
+    if (!widths) throw new Error(`${ID}: no row widths for [${deal.order}] — REFUSED`);
     const srcs = deal.nouns.map((e) => fileUri(theme, e.noun));
-    const pills = (n) => (cfg.pills ? parityPills({ chips: bank.chips, order: bank.houseOrder, correct: parity(n) }) : '');
+    const expected = deal.order.map((n, i) => ({ n, noun: deal.nouns[i].noun, src: srcs[i], names: deal.names ? deal.names[i] : null, each: pairsOf(n), r: n % 2, pairs: pairsOf(n), parity: parity(n) }));
+    const meta = { face: kind, theme, order: deal.order, widths, nouns: deal.nouns.map((e) => e.noun), expected, stack: cfg.stack, cfg };
+    if (view === 'screen') {
+      // the same piles in the same rows, bigger; write boxes and the two pills BIG (>= 104 page px)
+      const big = (n, i) => parityPills({ chips: bank.chips, order: bank.houseOrder, correct: parity(n), h: 104, px: 32, padX: 30, row: true, gap: 24, attrs: `data-lcs-keep data-lcs-n="${n}" data-lcs-pick="${i}"` });
+      const lanes = deal.order.map((n, i) => (kind === 'share'
+        ? shareLaneScreen({ n, src: srcs[i], names: deal.names[i], leftoverLabel: bank.leftover, pills: big(n, i), perRow: widths[i] })
+        : countLaneScreen({ n, src: srcs[i], pairsLabel: bank.pairs, pills: big(n, i), perRow: widths[i] })));
+      return { bodyHtml: this._screenRoot(kind, `<div style="display:flex;flex-direction:column;gap:14px;width:100%">${lanes.join('')}</div>`), meta };
+    }
+    const key = view === 'key';
+    const pills = (n) => (cfg.pills ? parityPills({ chips: bank.chips, order: bank.houseOrder, correct: parity(n), key }) : '');
+    const slot = cfg.vary ? cfg.perRow : null;
     const lanes = deal.order.map((n, i) => (kind === 'share'
-      ? shareLane({ n, src: srcs[i], names: deal.names[i], leftoverLabel: bank.leftover, pills: pills(n), iconPx: cfg.iconPx, perRow: cfg.perRow })
-      : countLane({ n, src: srcs[i], pairsLabel: bank.pairs, pills: pills(n), iconPx: cfg.iconPx, perRow: cfg.perRow })));
+      ? shareLane({ n, src: srcs[i], names: deal.names[i], leftoverLabel: bank.leftover, pills: pills(n), iconPx: cfg.iconPx, perRow: widths[i], slotPerRow: slot, key: key ? { each: pairsOf(n), r: n % 2 } : null })
+      : countLane({ n, src: srcs[i], pairsLabel: bank.pairs, pills: pills(n), iconPx: cfg.iconPx, perRow: widths[i], slotPerRow: slot, key: key ? { pairs: pairsOf(n) } : null })));
     const bodyHtml = this._faceRoot(kind,
       { lanes: cfg.lanes, range: cfg.range.join(','), split: cfg.split.join(','), 'icon-px': cfg.iconPx, 'per-row': cfg.perRow, pills: cfg.pills ? 1 : 0, theme, stack: cfg.stack },
       `flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.lanes},minmax(${cfg.laneH}px,1fr));row-gap:${PICS.rowGap}px;align-content:stretch;min-height:0`, lanes.join(''));
-    const expected = deal.order.map((n, i) => ({ n, noun: deal.nouns[i].noun, src: srcs[i], names: deal.names ? deal.names[i] : null, each: pairsOf(n), r: n % 2, pairs: pairsOf(n), parity: parity(n) }));
-    return { bodyHtml, meta: { face: kind, theme, order: deal.order, nouns: deal.nouns.map((e) => e.noun), expected, stack: cfg.stack, cfg } };
+    return { bodyHtml, meta };
   },
   /** F2 `share` (G1, THEMED): n pictures dealt between two named plates, "each" x2 + "left over" boxes, the parity pill. */
-  _buildShare(bank, d, o, rng) { return this._pics(bank, d, o, rng, 'share'); },
+  _buildShare(bank, d, o, rng, view) { return this._pics(bank, d, o, rng, 'share', view); },
   /** F5 `count` (G1, THEMED): 11-18 pictures in rows of 9, the PAIRS box, the parity pill. */
-  _buildCount(bank, d, o, rng) { return this._pics(bank, d, o, rng, 'count'); },
+  _buildCount(bank, d, o, rng, view) { return this._pics(bank, d, o, rng, 'count', view); },
 
   /** The two-column tick grid shared by F3 / F4: a header row per column then `rows` lanes, column-major, filling the body. */
   _columns(cfg, headsHtml, lanesHtml) {
@@ -987,36 +1192,56 @@ module.exports = {
     return `<div data-lcs-cols style="flex:1 1 auto;display:grid;grid-template-columns:repeat(${cfg.cols},${COLS.colW}px);grid-template-rows:${COLS.headH}px repeat(${cfg.rows},minmax(${cfg.laneMin}px,1fr));grid-auto-flow:column;gap:${COLS.laneGap}px ${COLS.colGap}px;justify-content:center;align-content:stretch;min-height:0">` +
       col(0) + col(1) + `</div>`;
   },
+  /** The screen's ONE column of tick lanes (the heads once, on top). */
+  _screenColumn(headsHtml, lanesHtml) {
+    return `<div data-lcs-cols style="display:flex;flex-direction:column;gap:10px;width:${SCREEN_COL.w}px">${headsHtml}${lanesHtml.join('')}</div>`;
+  },
   /** F3 `ones` (G2): the rule strip, then 12 numbers 10-99 in tens / ones boxes (the ones box highlighted) with two tick circles each. */
-  _buildOnes(bank, d, { locale }, rng) {
+  _buildOnes(bank, d, { locale }, rng, view = 'page') {
     const cfg = resolveOnes(d);
     if (cfg.rule && (typeof bank.rule !== 'string' || !bank.rule.trim())) throw new Error(`${ID}: the ${locale} bank has no rule sentence`);
     if (!Array.isArray(bank.placeHeads) || bank.placeHeads.length !== 2) throw new Error(`${ID}: the ${locale} bank has no placeHeads`);
     const deal = composeOnes(rng, cfg);
     if (!deal) throw new Error(`${ID}: no ones deal for ${cfg.items} items in [${cfg.range}] — REFUSED`);
     const keys = bank.houseOrder.slice();
-    const heads = columnHeads({ left: bank.placeHeads, leftW: cfg.box, leftGap: 4, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: COLS.cell, rightGap: COLS.tickGap, padX: COLS.lanePadX + 2, h: COLS.headH });
-    const lanes = deal.order.map((v) => pvLane({ digits: [Math.floor(v / 10), v % 10], correct: parity(v), keys, boxW: cfg.box, digitPx: cfg.digitPx, circle: cfg.circle, cell: COLS.cell, gap: COLS.tickGap, padY: COLS.lanePadY, padX: COLS.lanePadX }));
+    const meta = { face: 'ones', order: deal.order, expected: deal.order.map((v) => ({ v, tens: Math.floor(v / 10), ones: v % 10, parity: parity(v) })), keys, stack: cfg.stack, cfg };
     const top = cfg.rule ? ruleStrip({ text: bank.rule, px: locale === 'fi' ? 14 : 15 }) + `<div style="flex:0 0 ${COLS.under}px"></div>` : '';
+    if (view === 'screen') {
+      const S = SCREEN_COL;
+      const heads = columnHeads({ left: bank.placeHeads, leftW: S.box, leftGap: 4, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: S.cell, rightGap: S.gap, padX: S.padX + 2, h: 32 });
+      const lanes = deal.order.map((v) => pvLane({ digits: [Math.floor(v / 10), v % 10], correct: parity(v), keys, boxW: S.box, digitPx: S.digitPx, circle: S.circle, cell: S.cell, gap: S.gap, padY: 6, padX: S.padX, labels: bank.chips, attrs: `data-lcs-q="v:${v}"` }));
+      return { bodyHtml: this._screenRoot('ones', (cfg.rule ? `<div style="width:${S.w}px">${ruleStrip({ text: bank.rule, px: 22 })}</div>` : '') + this._screenColumn(heads, lanes)), meta };
+    }
+    const key = view === 'key';
+    const heads = columnHeads({ left: bank.placeHeads, leftW: cfg.box, leftGap: 4, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: COLS.cell, rightGap: COLS.tickGap, padX: COLS.lanePadX + 2, h: COLS.headH });
+    const lanes = deal.order.map((v) => pvLane({ digits: [Math.floor(v / 10), v % 10], correct: parity(v), keys, boxW: cfg.box, digitPx: cfg.digitPx, circle: cfg.circle, cell: COLS.cell, gap: COLS.tickGap, padY: COLS.lanePadY, padX: COLS.lanePadX, key }));
     const bodyHtml = this._faceRoot('ones',
       { items: cfg.items, rows: cfg.rows, range: cfg.range.join(','), 'has-rule': cfg.rule ? 1 : 0, cover: cfg.cover ? 1 : 0, 'max-repeat': cfg.maxRep, 'min-parity': cfg.minEachParity, 'min-high': cfg.minHigh, box: cfg.box, circle: cfg.circle, keys: keys.join(','), 'lane-min': cfg.laneMin, stack: cfg.stack },
       'flex:1 1 auto;display:flex;flex-direction:column;min-height:0', top + this._columns(cfg, heads, lanes));
-    return { bodyHtml, meta: { face: 'ones', order: deal.order, expected: deal.order.map((v) => ({ v, tens: Math.floor(v / 10), ones: v % 10, parity: parity(v) })), keys, stack: cfg.stack, cfg } };
+    return { bodyHtml, meta };
   },
   /** F4 `sums` (G3): the parity table, then 12 rows `a + b` (three-digit addends, the ones digits underlined) with two tick circles each; never a sum. */
-  _buildSums(bank, d, { locale }, rng) {
+  _buildSums(bank, d, { locale }, rng, view = 'page') {
     const cfg = resolveSums(d);
     const deal = composeSums(rng, cfg);
     if (!deal) throw new Error(`${ID}: no sums deal for ${cfg.items} rows in [${cfg.range}] — REFUSED`);
     const keys = bank.houseOrder.slice();
-    const heads = columnHeads({ left: null, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: COLS.cell, rightGap: COLS.tickGap, padX: COLS.lanePadX + 2, h: COLS.headH });
-    const lanes = deal.rows.map((r) => sumLane({ a: r.a, b: r.b, correct: parity(r.a + r.b), keys, px: cfg.px, circle: cfg.circle, cell: COLS.cell, gap: COLS.tickGap, padY: COLS.lanePadY, padX: COLS.lanePadX }));
+    const meta = { face: 'sums', rows: deal.rows, expected: deal.rows.map((r) => ({ a: r.a, b: r.b, k: r.k, parity: parity(r.a + r.b) })), keys, stack: cfg.stack, cfg };
     const top = cfg.table ? parityTable({ chips: bank.chips, order: GLOBAL.tableOrder }) + `<div style="flex:0 0 ${COLS.under}px"></div>` : '';
+    if (view === 'screen') {
+      const S = SCREEN_COL;
+      const heads = columnHeads({ left: null, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: S.cell, rightGap: S.gap, padX: S.padX + 2, h: 32 });
+      const lanes = deal.rows.map((r) => sumLane({ a: r.a, b: r.b, correct: parity(r.a + r.b), keys, px: S.sumPx, circle: S.circle, cell: S.cell, gap: S.gap, padY: 6, padX: S.padX, labels: bank.chips, attrs: `data-lcs-q="s:${r.a}:${r.b}"` }));
+      return { bodyHtml: this._screenRoot('sums', (cfg.table ? `<div style="zoom:1.5">${parityTable({ chips: bank.chips, order: GLOBAL.tableOrder })}</div>` : '') + this._screenColumn(heads, lanes)), meta };
+    }
+    const key = view === 'key';
+    const heads = columnHeads({ left: null, right: keys.map((k) => bank.chips[k]), rightKeys: keys, rightW: COLS.cell, rightGap: COLS.tickGap, padX: COLS.lanePadX + 2, h: COLS.headH });
+    const lanes = deal.rows.map((r) => sumLane({ a: r.a, b: r.b, correct: parity(r.a + r.b), keys, px: cfg.px, circle: cfg.circle, cell: COLS.cell, gap: COLS.tickGap, padY: COLS.lanePadY, padX: COLS.lanePadX, key }));
     const casesStamp = ['ee', 'oo', 'eo', 'oe'].map((k) => `${k}:${cfg.cases[k]}`).join(',');
     const bodyHtml = this._faceRoot('sums',
       { items: cfg.items, rows: cfg.rows, range: cfg.range.join(','), 'has-table': cfg.table ? 1 : 0, cases: casesStamp, circle: cfg.circle, keys: keys.join(','), 'lane-min': cfg.laneMin, stack: cfg.stack },
       'flex:1 1 auto;display:flex;flex-direction:column;min-height:0', top + this._columns(cfg, heads, lanes));
-    return { bodyHtml, meta: { face: 'sums', rows: deal.rows, expected: deal.rows.map((r) => ({ a: r.a, b: r.b, k: r.k, parity: parity(r.a + r.b) })), keys, stack: cfg.stack, cfg } };
+    return { bodyHtml, meta };
   },
 
   resolveProof, resolvePics, resolveOnes, resolveSums, composeProof, composePics, composeOnes, composeSums,

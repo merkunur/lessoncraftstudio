@@ -215,6 +215,7 @@ async function renderInstance(o) {
       const lowest = Math.max(...[...document.querySelectorAll(sp.item + ', [data-lcs-keep]')].map((el) => el.getBoundingClientRect().bottom));
       const pg = { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
       window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: pg.height };
+      window.__lcsPg = pg;
       const pct = (v, base, size) => ((v - base) / size) * 100;
       const box = (r) => ({ x: pct(r.left, pg.left, pg.width), y: pct(r.top, pg.top, pg.height), w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
       return [...document.querySelectorAll(sp.item)].map((el) => {
@@ -261,6 +262,17 @@ async function renderInstance(o) {
         };
       });
     }, { item: spec.item, slot: spec.slot, option: spec.option, select: spec.kind === 'tap-select', spell: spec.kind === 'tap-spell', typeNum: spec.kind === 'type-number', typeWord: spec.kind === 'type-word', tile: spec.tile, metaAttrs: spec.metaAttrs, answerAttr: spec.answerAttr, labelAttr: spec.labelAttr });
+    // spec.picks (Odd and Even 2026-10-14, type-number): printed choices to TAP as well as the write boxes (circle odd or
+    // even) — one group per choice, its options measured against the same crop; the page's data-lcs-correct is the answer
+    const picks = spec.picks ? await page.evaluate((sp) => {
+      const pg = window.__lcsPg;
+      const box = (r) => ({ x: ((r.left - pg.left) / pg.width) * 100, y: ((r.top - pg.top) / pg.height) * 100, w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
+      return [...document.querySelectorAll(sp.group)].map((g) => {
+        const opts = [...g.querySelectorAll(sp.option)];
+        const meta = {}; (sp.metaAttrs || []).forEach((a) => { meta[a] = g.getAttribute(a); });
+        return { options: opts.map((o) => ({ ...box(o.getBoundingClientRect()), label: o.getAttribute('data-lcs-label') || o.textContent.trim() })), answer: opts.findIndex((o) => o.hasAttribute('data-lcs-correct')), meta };
+      });
+    }, spec.picks) : null;
     const screenPng = base + '.screen.png';
     await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
     // answer key: the printed page with every answer written in (a PDF for the teacher)
@@ -278,7 +290,7 @@ async function renderInstance(o) {
     // "… — Answer key" — wrapped and pushed four-word cards onto the footer, which every page gate had passed)
     const keyLints = judgeKey(await measureKeyPage(page), 'answer key')
       .concat((await runLints(page, { gradeBand: type.gradeBand })).filter((l) => /footer overlap|exceeds page box/.test(l)).map((l) => 'answer key: ' + l));
-    interactive = { kind: spec.kind, items: geo, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
+    interactive = { kind: spec.kind, items: geo, ...(picks ? { picks } : {}), pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
   }
 
   return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };

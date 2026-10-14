@@ -2554,7 +2554,7 @@
   },
   "G1-369": {
     "title": "Voiko jakaa tasan kahdelle?",
-    "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+    "instruction": "Jaa kuvat kahdelle kaverille yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli. Onko kuvien määrä parillinen vai pariton? Ympyröi."
   },
   "G2-352": {
     "title": "Parilliset ja parittomat luvut sataan asti",
@@ -2566,7 +2566,7 @@
   },
   "G1-370": {
     "title": "Parillinen vai pariton? Laske kuvat pareittain",
-    "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+    "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait. Onko kuvien määrä parillinen vai pariton? Ympyröi oikea sana."
   },
   "G1-371": {
     "title": "Korvaa nimi pronominilla",

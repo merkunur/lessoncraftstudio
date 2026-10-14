@@ -151,7 +151,7 @@
     },
     "G1-369": {
       "title": "Kan två kompisar dela lika?",
-      "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+      "instruction": "Dela bilderna mellan kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Är antalet bilder udda eller jämnt? Ringa in."
     },
     "G2-352": {
       "title": "Udda och jämna tal upp till 100: titta på entalet",
@@ -163,7 +163,7 @@
     },
     "G1-370": {
       "title": "Udda eller jämnt? Räkna bilderna parvis",
-      "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+      "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde. Är antalet bilder udda eller jämnt? Ringa in rätt ord."
     },
     "G1-352": {
       "title": "Pronomen: han, hon eller de",
@@ -1591,7 +1591,7 @@
         },
         "share": {
           "title": "Kan två kompisar dela lika?",
-          "instruction": "Dela bilderna mellan de två kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Ringa in udda eller jämnt."
+          "instruction": "Dela bilderna mellan kompisarna, en i taget. Skriv hur många var och en får och hur många som blir över. Är antalet bilder udda eller jämnt? Ringa in."
         },
         "ones": {
           "title": "Udda och jämna tal upp till 100: titta på entalet",
@@ -1603,7 +1603,7 @@
         },
         "count": {
           "title": "Udda eller jämnt? Räkna bilderna parvis",
-          "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde och ringa sedan in udda eller jämnt."
+          "instruction": "Räkna bilderna och ringa in dem två och två. Skriv hur många par du gjorde. Är antalet bilder udda eller jämnt? Ringa in rätt ord."
         }
       },
       "refuse": {},

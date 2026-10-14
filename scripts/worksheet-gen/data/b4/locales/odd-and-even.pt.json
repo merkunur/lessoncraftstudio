@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Dá para dividir igual entre dois amigos?",
-      "instruction": "Divida as figuras entre os dois amigos, uma de cada vez. Escreva quanto cada um recebe e quanto sobra, e circule a palavra certa."
+      "instruction": "Divida as figuras entre os dois amigos, uma por vez. Escreva quantas cada um recebe e quantas sobram. Circule a palavra certa para o total de figuras."
     },
     "ones": {
       "title": "Números pares e ímpares até 100: olhe a casa das unidades",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "Par ou ímpar? Conte as figuras de dois em dois",
-      "instruction": "Conte as figuras e circule de dois em dois. Escreva quantos pares você fez e circule a palavra certa."
+      "instruction": "Conte as figuras e circule de dois em dois. Escreva quantos pares você fez. O número de figuras é par ou ímpar? Circule a palavra certa."
     }
   },
   "refuse": {},

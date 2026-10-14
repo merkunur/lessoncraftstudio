@@ -50,6 +50,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
+const { JS_TYPE_PLUS } = require('./interactive-type-plus.js');
 const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path', 'type-number', 'type-word']);
 let _shared = null;
 function shared() {
@@ -492,6 +493,29 @@ function buildInteractive(o) {
       if (String(it.answer).length > mx) throw new Error('interactive-runtime: type-number answer ' + it.answer + ' has more digits than the cap ' + mx);
       for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: type-number box ' + k + '=' + it[k] + ' outside the page');
     }
+    // Level Set 2026-10-14 (Odd and Even): ctx.sortSets — boxes of a set take any number of it, each number once — and
+    // ctx.picks — printed choices to tap as well. Both opt-in; they select JS_TYPE_PLUS (every other deck keeps JS_TYPE).
+    const SS = o.ctx && o.ctx.sortSets, PK = o.ctx && o.ctx.picks;
+    if (SS) {
+      const keys = Object.keys(SS);
+      if (keys.length < 2) throw new Error('interactive-runtime: sortSets needs at least two sets');
+      const seen = new Set();
+      for (const k of keys) {
+        if (!Array.isArray(SS[k]) || !SS[k].length || SS[k].some((v) => !Number.isInteger(v) || v < 0 || String(v).length > mx)) throw new Error('interactive-runtime: sortSets.' + k + ' is not a list of whole numbers within the digit cap');
+        for (const v of SS[k]) { if (seen.has(v)) throw new Error('interactive-runtime: ' + v + ' belongs to two sets'); seen.add(v); }
+        const boxes = items.filter((it) => it.meta && it.meta['data-lcs-set'] === k).length;
+        if (boxes < SS[k].length) throw new Error('interactive-runtime: set ' + k + ' has ' + SS[k].length + ' numbers but ' + boxes + ' boxes');
+      }
+      for (const it of items) if (it.meta && it.meta['data-lcs-set'] && !SS[it.meta['data-lcs-set']]) throw new Error('interactive-runtime: a box of the unknown set ' + it.meta['data-lcs-set']);
+    }
+    if (PK) {
+      if (!Array.isArray(PK) || !PK.length) throw new Error('interactive-runtime: picks must be a non-empty list');
+      for (const p of PK) {
+        if (!Array.isArray(p.options) || p.options.length < 2) throw new Error('interactive-runtime: a pick with < 2 options');
+        if (!(Number.isInteger(p.answer) && p.answer >= 0 && p.answer < p.options.length)) throw new Error('interactive-runtime: a pick without exactly one right option');
+        for (const op of p.options) for (const k of ['x', 'y', 'w', 'h']) if (!inPage(op[k])) throw new Error('interactive-runtime: pick option ' + k + '=' + op[k] + ' outside the page');
+      }
+    }
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'type-word') {
     // the child WRITES each word: string answers, a letter pad that can type every one of them, a cap from the page
@@ -541,7 +565,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'type-number' ? JS_TYPE : o.kind === 'type-word' ? JS_WORD : o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'type-number' ? ((o.ctx && (o.ctx.sortSets || o.ctx.picks)) ? JS_TYPE_PLUS : JS_TYPE) : o.kind === 'type-word' ? JS_WORD : o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
   };
 }
 

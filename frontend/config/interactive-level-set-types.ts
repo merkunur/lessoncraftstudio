@@ -30,6 +30,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'number-lines',        // Number Lines (2026-10-13): tap where the hops land, the number an arrow points to, the dot's letter, the nearer ten / hundred
   'number-words',        // Number Words (2026-10-13): tap the word for each number / its matching word; the write page — tap the box and TYPE the word (letter pad)
   'number-walls',        // Number Walls (2026-10-13): the printed page — tap an empty brick and TYPE its number (number pad)
+  'odd-and-even',        // Odd and Even Numbers (2026-10-14): the printed page — TYPE each number into its house, the equal parts, the shares / pairs; tap odd or even
   'number-charts',       // Number Charts (2026-10-13): tap the missing number of each strip / chart / machine, or every odd number / every number on the path
   'measurement',         // Measurement (2026-10-09): tap a length, a temperature, cubes, ml or g; the rank 1-3; the heavier picture
   'hundreds-chart-puzzles', // Hundreds Chart Puzzles (2026-10-09): tap the number for the ? square, the wrong number, where the jumps land

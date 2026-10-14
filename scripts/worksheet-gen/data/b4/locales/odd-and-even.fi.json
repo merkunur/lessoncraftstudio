@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Voiko jakaa tasan kahdelle?",
-      "instruction": "Jaa kuvat kahden kaverin kesken, yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli, ja ympyröi vastaus."
+      "instruction": "Jaa kuvat kahdelle kaverille yksi kerrallaan. Kirjoita, montako kumpikin saa ja montako jää yli. Onko kuvien määrä parillinen vai pariton? Ympyröi."
     },
     "ones": {
       "title": "Parilliset ja parittomat luvut sataan asti",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "Parillinen vai pariton? Laske kuvat pareittain",
-      "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait, ja ympyröi sitten oikea sana."
+      "instruction": "Laske kuvat ja ympyröi ne kaksi kerrallaan. Kirjoita, montako paria sait. Onko kuvien määrä parillinen vai pariton? Ympyröi oikea sana."
     }
   },
   "refuse": {},

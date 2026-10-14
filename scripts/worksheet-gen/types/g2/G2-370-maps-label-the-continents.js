@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-370',
   slug: 'maps-label-the-continents',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14: real levels (G1-379 FACE_LEVELS) — a tools/gen-b5var-specs.js re-run would flatten this; re-add it
+  difficulty: base.levelsFor('G2-370', D),
   i18n: { en: { title: "Label the Continents", instruction: "Write the name of each numbered continent on its line. Use the names in the box." } },
   gradeBand: "G2",
 };

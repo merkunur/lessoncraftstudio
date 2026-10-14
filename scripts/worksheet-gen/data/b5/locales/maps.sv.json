@@ -112,7 +112,7 @@
     },
     "continents-oceans": {
       "title": "Världsdelar och världshav",
-      "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess siffra i rutan bredvid namnet."
+      "instruction": "Hitta varje världsdel och världshav på kartan och skriv dess nummer i rutan bredvid namnet."
     },
     "directions-on-map": {
       "title": "Väderstreck på kartan",

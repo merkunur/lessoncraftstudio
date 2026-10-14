@@ -140,7 +140,7 @@ function drawSolid(o, view, P) {
 function topOf(o) { return solidExtent(o)[5]; }
 function midY(o) { const e = solidExtent(o); return (e[2] + e[3]) / 2; }
 
-function topSideView({ model, view, box = 84, record } = {}) {
+function topSideView({ model, view, box = 84, record, turn = 0 } = {}) {
   const rec = record || MAPS.TOPSIDE[model];
   if (!rec) throw new Error(`top-side-view: unknown model "${model}"`);
   if (view !== 'side' && view !== 'top') throw new Error(`top-side-view: view "${view}" ∉ side | top`);
@@ -156,9 +156,15 @@ function topSideView({ model, view, box = 84, record } = {}) {
   const order = rec.solids.map((o, i) => ({ o, i }));
   if (view === 'side') order.sort((a, b) => midY(b.o) - midY(a.o) || a.i - b.i);
   else order.sort((a, b) => topOf(a.o) - topOf(b.o) || a.i - b.i);
-  const inner = order.map(({ o }) => drawSolid(o, view, P)).join('');
+  let inner = order.map(({ o }) => drawSolid(o, view, P)).join('');
+  // turn (Level Set 2026-10-14, F1 level 3): the TOP view turned a quarter about the tile centre — the thing lies
+  // another way round on the plan, so its width no longer matches the side view (the honest width cue is gone)
+  if (turn) {
+    if (view !== 'top' || ![90, 270].includes(turn)) throw new Error(`top-side-view: turn ${turn} (only 90 / 270, top view)`);
+    inner = `<g transform="rotate(${turn} ${box / 2} ${box / 2})">${inner}</g>`;
+  }
   const svg = svgRoot({ width: box, height: box, viewBox: `0 0 ${box} ${box}`, label: '' }, inner,
-    { 'data-lcs-prim': 'top-side-view', 'data-lcs-model': model, 'data-lcs-view': view, 'data-lcs-scale': f2(s), style: 'display:block;overflow:visible' });
+    { 'data-lcs-prim': 'top-side-view', 'data-lcs-model': model, 'data-lcs-view': view, 'data-lcs-scale': f2(s), ...(turn ? { 'data-lcs-turn': turn } : {}), style: 'display:block;overflow:visible' });
   return { svg, meta: { model, view, s, w, h, x0: ox } };
 }
 

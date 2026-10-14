@@ -5,6 +5,7 @@
  *
  * ⚠ LEVEL SET (2026-10-14): the family faces (G1-385 / K-375 / G1-386 / G2-362 / G1-387) now carry REAL levels
  * via base.levelsFor(id, D). A re-run would flatten them back to {1: D, 2: D, 3: D} — re-add the levelsFor line.
+ * The maps faces (K-377 / G2-369 / G2-370 / G2-371 / G3-396) do the same since the Map Skills Level Set (2026-10-14).
  *
  * Same shape as gen-b2var-specs.js (each emitted file spreads its base spec and
  * overrides {id, slug, difficulty, i18n} + declared extras only), with two

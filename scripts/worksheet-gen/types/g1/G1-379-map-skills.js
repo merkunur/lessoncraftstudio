@@ -24,8 +24,8 @@
  *       every key symbol has its count box)
  *       · tree + bush both in the key · cards print the WORD only · 44 px · <= 16 placed ·
  *       0..1 footpath (bridges = 1 + footpaths)                                        (ships)
- *   d3  key 6 (3 x 2) · asked 6 · counts 1..6 (>= 5 distinct) · no unasked · 44 px · <= 20
- *       placed · no footpath (a scaffold level, never shipped; no copy describes it)
+ *   d3  key 5 · asked 5 · counts 1..7 (>= 5 distinct) · tree + bush both asked · 44 px · <= 22 placed ·
+ *       no footpath (Level Set 2026-10-14: the bigger-count level; six cards were too narrow for long words)
  *
  * COMPOSER (locale-neutral: the same island, symbols, key order, counts and card order in all
  * 11 locales; only the words change): footpath config; key ids; key ORDER shuffled with the
@@ -81,12 +81,38 @@ const WM = require('../../primitives/world-map.js');
 const MS = require('../../primitives/map-symbol.js');
 const { WORLD_MAP: WM_DATA } = require('../../data/b5/world-map.js');
 /** F1 d1 scaffold pool leaves out the two hardest reads (chair, bucket) */
-const TOPVIEW_HARD = ['chair', 'bucket'];
+const TOPVIEW_HARD = ['chair', 'bucket', 'bookshelf'];   // bookshelf (Level Set 2026-10-14 review): a thin plain strip from above
 const DIR_VEC = { n: [0, -1], e: [1, 0], s: [0, 1], w: [-1, 0] };
 const PLACES = ['house', 'tree', 'bush', 'pond', 'bench', 'tent', 'flowerBed'];
 const WORLD_W = 635;          // the map inside its 2 px card frame: 635 + 2 x 2 = 639
 const TARGET_STACK = 700;     // FILL: the stack with every band at its 36 px cap reaches >= 85 % of an 814 body
 const GAP_CAP = 36;
+
+/* ------------------------------------------------------------ Level Set (2026-10-14)
+ * Every face's level 1 / level 3 (the variation files call base.levelsFor(id, D); a tools/gen-b5var-specs.js
+ * re-run would flatten them back to {1: D, 2: D, 3: D}). Level 2 = the published D, untouched. LS_L2 = what an
+ * L2 COPY changes (never the published copy 1 — build() checks seedVariant / variant). PDF only. */
+const FACE_LEVELS = {
+  // L1 four pairs from the easy pool; L3 the top views of the long / square things TURNED a quarter (six pairs were
+  // measured too tall: a 92 px row breaks the 100 px K item floor)
+  'K-377': { 1: { pairs: 4, classMix: [2, 1, 1], pool: 'ls-easy', box: 88, rowH: 112, itemW: 128, tileW: 112 }, 3: { pool: 'ls', turnTop: true } },
+  // L1 four upright roses, bigger, the four letters + words printed under them; L3 every rose turned
+  'G2-369': { 1: { roses: 4, rotations: [0, 0, 0, 0], givenUpright: ['e', 's', 'w', 'e'], px: 260, cardH: 290, wordStrip: true }, 3: { rotations: [90, 180, 270, 90, 180, 270] } },
+  // L1 two names already written as examples; L3 no word box (names from memory)
+  'G2-370': { 1: { givenLanes: 2 }, 3: { bank: false } },
+  // L1 two numbers already written as examples; L3 write each numbered place's NAME on a line (no list)
+  'G3-396': { 1: { givenIndex: 2 }, 3: { answer: 'write', perRow: 2, laneW: 257, laneH: 44, glyphH: 24 } },
+  // L1 the six rows with TWO pictures each (four or five rows left a 51 px blank band under the rows) (wider angles were measured infeasible on this island: 0/40 draws at outDeg >= 110);
+  // L3 a north arrow on the map instead of the compass rose, and the wrong pictures nearer the asked direction
+  // (still >= 60 degrees off: one right answer)
+  'G2-371': { 1: { chips: 2 }, 3: { inDeg: 25, outDeg: 60, northOnly: true } },
+};
+const LS_L2 = { 'K-377': { pool: 'ls' } };
+function levelsFor(id, D) {
+  const f = FACE_LEVELS[id];
+  if (!f) throw new Error(`${ID}: no Level Set levels for ${id}`);
+  return { 1: { ...D, ...f[1] }, 2: D, 3: { ...D, ...f[3] } };
+}
 
 const countBy = (arr, f) => arr.reduce((o, x) => { const k = f(x); o[k] = (o[k] || 0) + 1; return o; }, {});
 /** b is a cyclic shift of a by k (1..n-1) — a constant-offset order is a position tell */
@@ -104,7 +130,7 @@ function topViewLimits(models) {
   const f = [];
   const c = countBy(models, (k) => MAPS.TOPSIDE[k].cls);
   for (const [k, n] of Object.entries(c)) if (n > 2) f.push(`${n} ${k}-class models on one page (<= 2)`);
-  for (const [a, b] of MAPS.TOPSIDE_NEVER_TOGETHER) if (models.includes(a) && models.includes(b)) f.push(`${a} and ${b} on one page (never together)`);
+  for (const [a, b] of [...MAPS.TOPSIDE_NEVER_TOGETHER, ...MAPS.TOPSIDE_NEVER_TOGETHER_LS]) if (models.includes(a) && models.includes(b)) f.push(`${a} and ${b} on one page (never together)`);
   return f;
 }
 /** F4: numbering kinds must interleave (never every continent before every ocean or the reverse) */
@@ -130,7 +156,9 @@ const TYPE = {
     // landing round 1 (2026-09-23, en/de/es/fr panels): the key listed SIX symbols but printed FIVE count boxes (the
     // bench "unasked" read as a missing box under "find EACH thing from the map key"). Every key symbol now has its box.
     2: { island: 'isle-1', keySize: 5, cols: 3, asked: 5, countMax: 5, minDistinct: 4, unasked: 0, unaskedMax: 0, nearMiss: 'both-in-key', rowsShowSymbol: false, symPx: 44, placedMax: 16, footpaths: [[], ['P1'], ['P2']], northArrow: true, stripMax: 184 },
-    3: { island: 'isle-1', keySize: 6, cols: 3, asked: 6, countMax: 6, minDistinct: 5, unasked: 0, unaskedMax: 0, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 20, footpaths: [[]], northArrow: true, stripMax: 184 },
+    // Level Set (2026-10-14): six cards were measured too narrow for de "Blumenbeet" / fi "kukkamaa" — level 3 keeps the
+    // published five cards and asks BIGGER counts on a fuller map (1..7, >= 5 distinct, up to 22 symbols, tree + bush asked)
+    3: { island: 'isle-1', keySize: 5, cols: 3, asked: 5, countMax: 7, minDistinct: 5, unasked: 0, unaskedMax: 0, nearMiss: 'both-asked', rowsShowSymbol: false, symPx: 44, placedMax: 22, footpaths: [[]], northArrow: true, stripMax: 184 },
   },
   i18n: {
     en: {
@@ -139,9 +167,25 @@ const TYPE = {
     },
   },
 
+  /** Level Set (2026-10-14): the faces' level tables (variation files call base.levelsFor(id, D)). */
+  levelsFor,
+
+  /** Level Set: what makes a copy different (build-waves compares copies of a level by these tokens). */
+  levelSetWords(m) {
+    if (!m.layout) return [...Object.entries(m.counts || {}).map(([k, v]) => `${k}:${v}`), `fp:${(m.footpaths || []).join('')}`];
+    if (m.layout === 'top-view') return m.left.slice();
+    if (m.layout === 'compass-rose') return m.rots.map((r, i) => `${i}:${r}:${m.given[i]}`);
+    if (m.layout === 'continents' || m.layout === 'continents-oceans') return Object.entries(m.numbers).map(([k, v]) => `${k}:${v}`);
+    if (m.layout === 'directions-on-map') return [...m.rows.map((r) => `${r.start}>${r.dir}>${r.answer}`), ...m.places.map((p) => `${p.id}@${Math.round(p.x / 60)},${Math.round(p.y / 60)}`)];
+    throw new Error(`${ID}: levelSetWords: unknown layout ${m.layout}`);
+  },
+
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { locale: loc }, ctx);
+    let d = this.difficulty[difficulty];
+    const published = difficulty === 2 && ((ctx && (ctx.seedVariant || ctx.variant)) || 1) === 1;
+    if (!published && difficulty === 2 && LS_L2[this.id]) d = { ...d, ...LS_L2[this.id] };   // a Level Set L2 copy
+    return this._buildWith(loadBank(BANK, loc), d, { locale: loc }, ctx);
   },
 
   /** Pure composition over the resolved config (no bank): the locale-neutral draw. */
@@ -252,7 +296,11 @@ const TYPE = {
 
   /** F1 — the models and the right column's order. */
   _composeTopView(d, rng) {
-    const pool = Object.keys(MAPS.TOPSIDE).filter((k) => d.pool !== 'easy' || !TOPVIEW_HARD.includes(k));
+    // the published page draws from the ten original models (TOPSIDE_PUBLISHED, the original key order); a Level Set
+    // page (pool 'ls' / 'ls-easy') from every model
+    const keys = /^ls/.test(d.pool || '') ? Object.keys(MAPS.TOPSIDE) : MAPS.TOPSIDE_PUBLISHED;
+    const easy = d.pool === 'easy' || d.pool === 'ls-easy';
+    const pool = keys.filter((k) => !easy || !TOPVIEW_HARD.includes(k));
     const want = (d.classMix || []).slice().sort((a, b) => b - a).join();
     let left = null;
     for (let t = 0; t < TRIES && !left; t++) {
@@ -271,7 +319,10 @@ const TYPE = {
       right = o;
     }
     if (!right) throw new Error(`${ID}: no F1 right order clears the order rules`);
-    return { left, right };
+    if (!d.turnTop) return { left, right };
+    // L3: every long / square thing's top view turned a quarter (a circle looks the same either way)
+    const turns = right.map((m) => (MAPS.TOPSIDE[m].cls === 'circle' ? 0 : rng.pick([90, 270])));
+    return { left, right, turns };
   },
 
   /** F2 — rose rotations by card position and the one given letter per rose. */
@@ -415,10 +466,10 @@ const TYPE = {
       blocks.push(C5.viewHeads({ w: d.rowW, itemW: d.itemW, tileW: d.tileW }));
       c.left.forEach((m, i) => {
         const s = TSV.topSideView({ model: m, view: 'side', box: d.box });
-        const tp = TSV.topSideView({ model: c.right[i], view: 'top', box: d.box });
+        const tp = TSV.topSideView({ model: c.right[i], view: 'top', box: d.box, ...(c.turns && c.turns[i] ? { turn: c.turns[i] } : {}) });
         blocks.push(C5.viewPair({ leftModel: m, rightModel: c.right[i], side: { svg: s.svg, x0: s.meta.x0, w: s.meta.w }, top: tp.svg, box: d.box, itemW: d.itemW, tileW: d.tileW, rowH: d.rowH, w: d.rowW }));
       });
-      stamps = { left: c.left, right: c.right, box: d.box };
+      stamps = { left: c.left, right: c.right, box: d.box, ...(c.turns ? { turns: c.turns } : {}) };
       meta = c;
     } else if (L === 'compass-rose') {
       if (!(d.px >= 180)) throw new Error(`${ID}: F2 rose px ${d.px} < 180`);
@@ -426,7 +477,8 @@ const TYPE = {
       const lt = letters();
       const cards = c.rots.map((r, i) => C5.roseCard({ i, w: d.cardW, h: d.cardH, rose: CR.compassRose({ px: d.px, rotation: r, given: c.given[i], letters: lt }).svg }));
       for (let i = 0; i < cards.length; i += d.cols) blocks.push(C5.roseRow({ cards: cards.slice(i, i + d.cols) }));
-      stamps = { rots: c.rots, given: c.given, 'rot-set': d.rotations, cols: d.cols };
+      if (d.wordStrip) blocks.push(C5.dirStrip({ entries: MAPS.DIRS.map((x) => ({ dir: x, letter: lt[x], word: literal(bankLoc.dirWords, x, 'dirWords', loc) })) }));
+      stamps = { rots: c.rots, given: c.given, 'rot-set': d.rotations, cols: d.cols, ...(d.wordStrip ? { 'word-strip': true } : {}) };
       meta = c;
     } else if (L === 'continents' || L === 'continents-oceans') {
       const set = bankLoc.continentSet;
@@ -444,15 +496,23 @@ const TYPE = {
       const map = WM.worldMap({ w: WORLD_W, set, oceans, numbers: c.numbers });
       const mapH = map.height + 4;
       blocks.push(C5.worldMapCard({ map: map.svg }));
-      if (L === 'continents') {
-        const rows = Math.ceil(set.length / d.perRow);
-        const bankH = bankHeightEst(set.map((m) => names[m.id]));
-        const laneH = Math.max(d.laneH, Math.ceil((TARGET_STACK - mapH - bankH - GAP_CAP * (rows + 1)) / rows));
+      if (L === 'continents' || d.answer === 'write') {
+        // Level Set (2026-10-14): d.bank === false (L3) prints no word box; d.givenLanes (L1) writes that many names as
+        // examples; d.answer 'write' on the continents-oceans face (G3 L3) = one lane per numbered continent AND ocean
+        const ids2 = c.byNumber;
+        const withBank = d.bank !== false && L === 'continents';
+        const rows = Math.ceil(ids2.length / d.perRow);
+        const bankH = withBank ? bankHeightEst(set.map((m) => names[m.id])) : 0;   // the set order (the published estimate)
+        const laneH = Math.max(d.laneH, Math.ceil((TARGET_STACK - mapH - bankH - GAP_CAP * (rows + (withBank ? 1 : 0))) / rows));
         const glyphH = Math.round(d.glyphH * laneH / d.laneH);
-        blocks.push(C5.nameBank({ names: c.bank.map((id) => ({ id, name: names[id] })) }));
-        const lanes = c.byNumber.map((id, i) => C5.nameLane({ n: i + 1, answer: id, laneW: d.laneW, laneH, glyphH }));
+        if (withBank) blocks.push(C5.nameBank({ names: c.bank.map((id) => ({ id, name: names[id] })) }));
+        const given = d.givenLanes ? rng.sample(ids2, d.givenLanes) : [];
+        const lanes = ids2.map((id, i) => C5.nameLane({ n: i + 1, answer: id, laneW: d.laneW, laneH, glyphH, ...(given.includes(id) ? { given: names[id] } : {}) }));
         for (let i = 0; i < lanes.length; i += d.perRow) blocks.push(C5.laneRow({ lanes: lanes.slice(i, i + d.perRow) }));
-        stamps = { numbers: c.numbers, bank: c.bank, alpha, 'lane-h': laneH, 'glyph-h': glyphH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])) };
+        stamps = L === 'continents'
+          ? { numbers: c.numbers, bank: withBank ? c.bank : null, alpha, 'lane-h': laneH, 'glyph-h': glyphH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), ...(given.length ? { given } : {}) }
+          : { numbers: c.numbers, answer: 'write', alpha, kinds: c.kindOf, 'lane-h': laneH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), oceans };
+        if (L === 'continents' && !withBank) delete stamps.bank;
       } else {
         // a small locale set (<= narrowMax entries: 5 continents + 3 oceans) takes 2 wider columns, so its rows stay
         // near the 56 px entry instead of stretching to ~104 px to FILL the page (measured on the 8-entry shape)
@@ -460,9 +520,10 @@ const TYPE = {
         const nameW = cols === 2 ? d.index.nameW2 : d.index.nameW;
         const rows = Math.ceil(ids.length / cols);
         const rowH = Math.max(d.index.rowH, Math.ceil((TARGET_STACK - mapH - GAP_CAP * rows) / rows));
-        const entries = c.index.map((id) => ({ id, name: names[id], n: c.numbers[id], kind: c.kindOf[id] }));
+        const givenIdx = d.givenIndex ? rng.sample(c.index, d.givenIndex) : [];   // Level Set L1: worked examples
+        const entries = c.index.map((id) => ({ id, name: names[id], n: c.numbers[id], kind: c.kindOf[id], ...(givenIdx.includes(id) ? { given: true } : {}) }));
         for (let i = 0; i < entries.length; i += cols) blocks.push(C5.atlasRow({ entries: entries.slice(i, i + cols), nameW, box: d.index.box, rowH, gap: cols === 2 ? 31 : 13.5 }));
-        stamps = { numbers: c.numbers, index: c.index, alpha, kinds: c.kindOf, 'row-h': rowH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), oceans };
+        stamps = { numbers: c.numbers, index: c.index, alpha, kinds: c.kindOf, 'row-h': rowH, regions: Object.fromEntries(set.map((m) => [m.id, m.regions])), oceans, ...(givenIdx.length ? { given: givenIdx } : {}) };
       }
       meta = { ...c, names, alpha, antarctica: set.some((m) => m.regions.includes('antarctica')) };
     } else if (L === 'directions-on-map') {
@@ -470,11 +531,12 @@ const TYPE = {
       const lt = letters();
       const c = this._composeDirections(d, rng);
       if (d.forceRows) c.rows = d.forceRows.map((r) => ({ ...r }));   // the GATE's poison seam
-      const island = IM.islandMap({ w: d.islandW, symbols: c.places, footpaths: [], northArrow: null, symPx: d.symPx });
-      const rose = CR.compassRose({ px: d.rosePx, reference: true, letters: lt });
-      blocks.push(`<div data-lcs-dir-plate style="display:flex;align-items:flex-start;gap:10px;width:639px;flex:0 0 auto">` +
+      // Level Set L3 (d.northOnly): the map carries only its north arrow (the child works out east / south / west)
+      const island = IM.islandMap({ w: d.islandW, symbols: c.places, footpaths: [], northArrow: d.northOnly ? { letter: lt.n } : null, symPx: d.symPx });
+      const rose = d.northOnly ? null : CR.compassRose({ px: d.rosePx, reference: true, letters: lt });
+      blocks.push(`<div data-lcs-dir-plate style="display:flex;align-items:flex-start;${rose ? '' : 'justify-content:center;'}gap:10px;width:639px;flex:0 0 auto">` +
         `<div class="mp-field" style="line-height:0;outline:2px solid ${require('../../primitives/_tokens.js').color.teal};outline-offset:-2px;border-radius:2px">${island.svg}</div>` +
-        `<div data-lcs-ref-rose style="line-height:0">${rose.svg}</div></div>`);
+        (rose ? `<div data-lcs-ref-rose style="line-height:0">${rose.svg}</div>` : '') + `</div>`);
       const rowsHtml = c.rows.map((r, i) => C5.directionRow({ n: i + 1, start: r.start, dir: r.dir, answer: r.answer, word: words[r.dir],
         startSvg: MS.mapSymbol({ id: r.start, px: d.symPx }).svg, chips: r.chips.map((id) => ({ id, svg: MS.mapSymbol({ id, px: d.symPx }).svg })) }));
       if (d.legend) {
@@ -487,7 +549,7 @@ const TYPE = {
         blocks.push(`<div data-lcs-dir-body style="display:flex;align-items:stretch;gap:12px;width:639px;flex:1 1 auto;min-height:0">` +
           `<div data-lcs-dir-rows style="display:flex;flex-direction:column;flex:1 1 auto;min-width:0">${rowsHtml.join(C5.mpGap({ min: d.gapMin != null ? d.gapMin : 6 }))}</div>${legend}</div>`);
       } else rowsHtml.forEach((h) => blocks.push(h));
-      stamps = { 'in-deg': d.inDeg, 'out-deg': d.outDeg, chips: d.chips, pos: c.pos, legend: !!d.legend };
+      stamps = { 'in-deg': d.inDeg, 'out-deg': d.outDeg, chips: d.chips, pos: c.pos, legend: !!d.legend, ...(d.northOnly ? { 'north-only': true } : {}) };
       gapMin = 6;
       meta = c;
     }
@@ -555,7 +617,7 @@ const TYPE = {
           if (svg.querySelector('text')) fails.push(`a <text> in the ${view} view of ${it.dataset.lcsModel}`);
           const ib = await rasterInk(svg), px = +svg.getAttribute('width');
           const k = svg.getScreenCTM().a;   // px per unit (the primitive's viewBox is its own px box)
-          (facts.ext[it.dataset.lcsModel] = facts.ext[it.dataset.lcsModel] || {})[view] = { w: ib.w, h: ib.h, x0: ib.x0, x1: ib.x1, scale: +svg.dataset.lcsScale * k };
+          (facts.ext[it.dataset.lcsModel] = facts.ext[it.dataset.lcsModel] || {})[view] = { w: ib.w, h: ib.h, x0: ib.x0, x1: ib.x1, scale: +svg.dataset.lcsScale * k, turn: +(svg.dataset.lcsTurn || 0) };
           if (Math.max(ib.w, ib.h) < 56) fails.push(`the ${view} view of ${it.dataset.lcsModel} is ${Math.max(ib.w, ib.h).toFixed(0)} px (< the K floor 56)`);
           const ir = R(it); if (ir.width < 99.5 || ir.height < 99.5) fails.push(`${view} item ${it.dataset.lcsModel} is ${ir.width.toFixed(0)} x ${ir.height.toFixed(0)} (< 100)`);
           if (view === 'side' && !it.querySelector('[data-lcs-ground]')) fails.push(`the side view of ${it.dataset.lcsModel} has no ground line`);
@@ -563,6 +625,7 @@ const TYPE = {
         const stray = [...root.querySelectorAll('line, polyline')].filter((x) => !x.closest('[data-lcs-item], [data-lcs-view-glyph]'));
         if (stray.length) fails.push(`${stray.length} line(s) drawn between the columns (the child draws them)`);
         if (root.querySelectorAll('[data-lcs-view-glyph]').length !== 2) fails.push('the two view heads are missing');
+        facts.turns = J('turns');
       } else if (L === 'compass-rose') {
         const cards = [...root.querySelectorAll('[data-lcs-rose-card]')];
         facts.cards = [];
@@ -603,6 +666,12 @@ const TYPE = {
           facts.cards.push(card);
         }
         facts.rotSet = J('rot-set'); facts.cols = J('cols');
+        facts.wantStrip = !!J('word-strip');
+        facts.strip = [...root.querySelectorAll('[data-lcs-dir-strip]')].map((e) => {
+          const w = e.querySelector('[data-lcs-strip-word]');
+          if (w && R(w).right > R(e).right + 0.5) fails.push(`the strip word "${w.textContent}" spills out of its pill`);
+          return [e.dataset.lcsDirStrip, (e.querySelector('[data-lcs-strip-letter]') || {}).textContent, w ? w.textContent : ''];
+        });
       } else if (L === 'continents' || L === 'continents-oceans') {
         const svg = root.querySelector('svg[data-lcs-prim="world-map"]');
         if (!svg) { fails.push('no world map'); return { fails, facts }; }
@@ -637,12 +706,22 @@ const TYPE = {
           facts.leaders[id] = [x, y];
         }
         facts.numbers = J('numbers'); facts.regions = J('regions'); facts.alpha = J('alpha');
-        if (L === 'continents') {
+        facts.writeMode = J('answer') === 'write';
+        facts.givenStamp = J('given');
+        facts.indexCount = root.querySelectorAll('[data-lcs-index]').length;
+        if (L === 'continents' || facts.writeMode) {
           facts.bank = [...root.querySelectorAll('[data-lcs-bank-word]')].map((b) => [b.dataset.lcsBankWord, b.textContent.trim()]);
+          facts.bankStamp = J('bank');
           for (const b of root.querySelectorAll('.ws-bankword')) if (parseFloat(getComputedStyle(b).fontSize) < 17) fails.push('a bank name under 17 px');
           facts.lanes = [...root.querySelectorAll('[data-lcs-lane]')].map((l) => {
             const box = l.querySelector('.ws-blankbox'), num = l.querySelector('[data-lcs-lane-n]');
-            if (box.textContent.trim()) fails.push(`lane ${l.dataset.lcsLane} prints "${box.textContent.trim()}"`);
+            if (l.hasAttribute('data-lcs-given')) {
+              // a worked example: the name sits INSIDE the lane, on the ruling, and inside the box
+              const t = box.querySelector('text');
+              if (!t || !t.textContent.trim()) fails.push(`given lane ${l.dataset.lcsLane} prints no name`);
+              else { const tb = R(t), bb = R(box); if (tb.left < bb.left - 0.5 || tb.right > bb.right + 0.5 || tb.top < bb.top - 0.5 || tb.bottom > bb.bottom + 0.5) fails.push(`given lane ${l.dataset.lcsLane}: the name leaves its lane`); }
+              facts.givenLanes = (facts.givenLanes || []).concat([[+l.dataset.lcsLane, box.getAttribute('data-lcs-answer'), t ? t.textContent : '']]);
+            } else if (box.textContent.trim()) fails.push(`lane ${l.dataset.lcsLane} prints "${box.textContent.trim()}"`);
             if (R(box).height < 43.5) fails.push(`lane ${l.dataset.lcsLane} is ${R(box).height.toFixed(0)} px tall (< 44)`);
             if (num.textContent !== l.dataset.lcsLane) fails.push(`lane ${l.dataset.lcsLane} shows the number "${num.textContent}"`);
             return [+l.dataset.lcsLane, box.getAttribute('data-lcs-answer')];
@@ -650,7 +729,10 @@ const TYPE = {
         } else {
           facts.index = [...root.querySelectorAll('[data-lcs-index]')].map((e) => {
             const box = e.querySelector('[data-lcs-answer]'), nm = e.querySelector('[data-lcs-index-name]');
-            if (box.textContent.trim()) fails.push(`index box ${e.dataset.lcsIndex} prints "${box.textContent.trim()}"`);
+            if (box.hasAttribute('data-lcs-given')) {
+              if (box.textContent.trim() !== box.getAttribute('data-lcs-answer')) fails.push(`given index box ${e.dataset.lcsIndex} prints "${box.textContent.trim()}" ≠ its number`);
+              facts.givenIndex = (facts.givenIndex || []).concat([e.dataset.lcsIndex]);
+            } else if (box.textContent.trim()) fails.push(`index box ${e.dataset.lcsIndex} prints "${box.textContent.trim()}"`);
             const br = R(box); if (br.width < 43.5 || br.height < 39.5) fails.push(`index box ${e.dataset.lcsIndex} is ${br.width.toFixed(0)} x ${br.height.toFixed(0)} (< 44 x 40)`);
             if (parseFloat(getComputedStyle(nm).fontSize) < 17) fails.push(`index name ${e.dataset.lcsIndex} under 17 px`);
             const rg = document.createRange(); rg.selectNodeContents(nm);
@@ -665,8 +747,16 @@ const TYPE = {
       } else if (L === 'directions-on-map') {
         const field = root.querySelector('.mp-field svg[data-lcs-prim="island-map"]');
         if (!field) { fails.push('no island map'); return { fails, facts }; }
-        if (field.querySelector('[data-lcs-north]')) fails.push('a north arrow on the F5 island (the reference rose is the tool)');
-        if (field.querySelector('text')) fails.push('a letter / number on the plate (the G2-279 fence)');
+        facts.northOnly = !!J('north-only');
+        if (!facts.northOnly && field.querySelector('[data-lcs-north]')) fails.push('a north arrow on the F5 island (the reference rose is the tool)');
+        if (facts.northOnly) {
+          const na = field.querySelector('[data-lcs-north]');
+          if (!na) fails.push('north-only level: no north arrow on the island');
+          else if ((na.querySelector('[data-lcs-north-letter]') || {}).textContent !== na.dataset.lcsNorth) fails.push('the north-arrow letter ≠ its stamp');
+          else facts.northLetter = na.dataset.lcsNorth;
+          if (root.querySelector('[data-lcs-ref-rose]')) fails.push('north-only level: a reference rose is printed');
+        }
+        if ([...field.querySelectorAll('text')].some((t) => !t.closest('[data-lcs-north]'))) fails.push('a letter / number on the plate (the G2-279 fence)');
         const ctm = field.getScreenCTM();
         facts.at = {};
         const placed = [...field.querySelectorAll('svg[data-lcs-sym]')].filter((s) => s.dataset.lcsSym !== 'bridge');
@@ -723,7 +813,7 @@ const TYPE = {
           return { n: +r.dataset.lcsDirRow, start: r.dataset.lcsStart, dir: r.dataset.lcsDir, answer: r.dataset.lcsAnswer, chips: chips.map((c) => c.dataset.lcsChip), word: w.textContent };
         });
         const rose = root.querySelector('[data-lcs-ref-rose] svg[data-lcs-prim="compass-rose"][data-lcs-reference]');
-        if (!rose) fails.push('no reference rose');
+        if (!rose) { if (!facts.northOnly) fails.push('no reference rose'); }
         else {
           const k = R(rose).width / 200;
           facts.rose = [...rose.querySelectorAll('[data-lcs-ref]')].map((g) => { const t = g.querySelector('text'); if (+t.getAttribute('font-size') * k < 14) fails.push(`the reference rose letter renders ${(+t.getAttribute('font-size') * k).toFixed(1)} px (< 14)`); return [g.dataset.lcsDir, t.textContent]; });
@@ -744,8 +834,16 @@ const TYPE = {
       if (left.some((m, i) => right[i] === m)) fails.push('a model sits level with its own top view (not a derangement)');
       if (right.join() === left.slice().reverse().join()) fails.push('the right column is the left reversed (tell)');
       if (isRotation(left, right)) fails.push('the right column is the left shifted by a constant (tell)');
+      // Level Set L3: the turns stamp names exactly the long / square things, and the drawing carries that turn
+      if (F.turns) right.forEach((m, i) => {
+        const want = !!MAPS.TOPSIDE[m] && MAPS.TOPSIDE[m].cls !== 'circle';
+        if (want !== !!F.turns[i]) fails.push(`turn rule — the top view of ${m} ${F.turns[i] ? 'is' : 'is not'} turned`);
+        if (ext[m] && ext[m].top && ext[m].top.turn !== (F.turns[i] || 0)) fails.push(`${m}: the top view is drawn turned ${ext[m].top.turn}, the stamp says ${F.turns[i]}`);
+      });
+      else if (left.some((m) => ext[m] && ext[m].top && ext[m].top.turn)) fails.push('a top view is turned on a page with no turns stamp');
       for (const m of left) {
         const e = ext[m]; if (!e || !e.side || !e.top) continue;
+        if (e.top.turn) continue;   // a turned plan has no width registration (that is the point of the level)
         // per EDGE, in each view's own box (both centre the model's x-extent): the design's +-1 px ink rule (the tree's scalloped crown +-6 units)
         const tol = m === 'tree' ? 6 * e.side.scale : 1;
         const dx = Math.max(Math.abs(e.side.x0 - e.top.x0), Math.abs(e.side.x1 - e.top.x1));
@@ -759,6 +857,11 @@ const TYPE = {
       if (new Set(given).size < 3) fails.push(`the given letters [${given}] do not cover E, S and W`);
       if (isPeriodic(given)) fails.push(`the given letters [${given}] repeat periodically (tell)`);
       if (new Set(F.cards.map((c) => c.givenPos)).size < 2) fails.push('every given letter sits in the same box position (tell)');
+      if (F.wantStrip !== (F.strip.length > 0)) fails.push(`the word strip is ${F.strip.length ? 'printed' : 'missing'} (stamp ${F.wantStrip})`);
+      if (F.strip.length) {
+        if (F.strip.map((x) => x[0]).join() !== MAPS.DIRS.join()) fails.push(`the strip runs [${F.strip.map((x) => x[0])}] (want N E S W)`);
+        if (b) for (const [dir, letter, word] of F.strip) { if (letter !== b.dirLetters[dir]) fails.push(`strip ${dir}: letter "${letter}" ≠ dirLetters`); if (word !== b.dirWords[dir]) fails.push(`strip ${dir}: word "${word}" ≠ dirWords`); }
+      }
       const up = F.cards.map((c, i) => (c.rot === 0 ? i : -1)).filter((i) => i >= 0);
       if (up.length > 1 && F.cols && (new Set(up.map((i) => i % F.cols)).size < 2 || new Set(up.map((i) => Math.floor(i / F.cols))).size < 2)) fails.push('the upright roses form one line (tell)');
     } else if (layout === 'continents' || layout === 'continents-oceans') {
@@ -776,7 +879,33 @@ const TYPE = {
       const allIds = Object.keys(nums);
       if (allIds.map((id) => nums[id]).sort((a, c) => a - c).join() !== allIds.map((_, i) => i + 1).join()) fails.push('the numbers are not 1..N once each');
       const byNumber = allIds.slice().sort((a, c) => nums[a] - nums[c]);
-      if (layout === 'continents') {
+      const checkGiven = () => {
+        const gl = F.givenLanes || [];
+        const want = F.givenStamp || [];
+        if (gl.map((x) => x[1]).sort().join() !== want.slice().sort().join()) fails.push(`the written example lanes [${gl.map((x) => x[1])}] ≠ the stamp [${want}]`);
+        if (b) for (const [n, id, t] of gl) { const nm = (b.continentNames && b.continentNames[id]) || (b.oceanNames && b.oceanNames[id]); if (t !== nm) fails.push(`example lane ${n} prints "${t}" ≠ the name of ${id} "${nm}"`); }
+      };
+      if (layout === 'continents' && !F.bankStamp) {
+        // Level Set L3: no word box at all
+        if (F.bank.length) fails.push('a word box is printed on the no-bank level');
+        if (F.markers.some((m) => m.ocean)) fails.push('an ocean marker on the continents face');
+        F.lanes.forEach(([n, a], i) => { if (n !== i + 1) fails.push(`lane ${i + 1} is numbered ${n}`); if (a !== byNumber[n - 1]) fails.push(`lane ${n}: the hidden answer "${a}" ≠ member ${byNumber[n - 1]}`); });
+        if (F.lanes.length !== byNumber.length) fails.push(`${F.lanes.length} lanes for ${byNumber.length} continents`);
+        checkGiven();
+      } else if (layout === 'continents-oceans' && F.writeMode) {
+        // Level Set G3 L3: one lane per numbered continent AND ocean, no list
+        if (F.bank.length) fails.push('a word box is printed on the write level');
+        if (F.indexCount) fails.push('an index list is printed on the write level');
+        F.lanes.forEach(([n, a], i) => { if (n !== i + 1) fails.push(`lane ${i + 1} is numbered ${n}`); if (a !== byNumber[n - 1]) fails.push(`lane ${n}: the hidden answer "${a}" ≠ ${byNumber[n - 1]}`); });
+        if (F.lanes.length !== byNumber.length) fails.push(`${F.lanes.length} lanes for ${byNumber.length} continents and oceans`);
+        for (const oc of F.oceans || []) {
+          const ms = F.markers.filter((m) => m.id === oc);
+          if (ms.length !== (oc === 'pacific' ? 2 : 1)) fails.push(`ocean ${oc} shows ${ms.length} numerals`);
+        }
+        if (blockyKinds(byNumber.map((id) => (F.kinds || {})[id]))) fails.push('the numbering runs land-then-sea (tell)');
+        if ((F.givenLanes || []).length) fails.push('an example lane on the write level');
+      } else if (layout === 'continents') {
+        checkGiven();
         if (F.markers.some((m) => m.ocean)) fails.push('an ocean marker on the continents face');
         const bankIds = F.bank.map((x) => x[0]);
         if (bankIds.slice().sort().join() !== Object.keys(regs).sort().join()) fails.push(`the bank [${bankIds}] ≠ the set`);
@@ -789,6 +918,7 @@ const TYPE = {
       } else {
         const kinds = F.kinds || {};
         const idx = F.index.map((e) => e.id);
+        if ((F.givenIndex || []).slice().sort().join() !== (F.givenStamp || []).slice().sort().join()) fails.push(`the written example boxes [${F.givenIndex || []}] ≠ the stamp [${F.givenStamp || []}]`);
         if (idx.slice().sort().join() !== allIds.slice().sort().join()) fails.push(`the index [${idx}] ≠ continents ∪ oceans once each`);
         for (const e of F.index) {
           if (+e.answer !== nums[e.id]) fails.push(`index ${e.id}: the hidden answer ${e.answer} ≠ its number ${nums[e.id]}`);
@@ -835,6 +965,7 @@ const TYPE = {
       for (let i = 0; i < F.rows.length; i++) for (let j = i + 1; j < F.rows.length; j++) if (derivedAns[i] && derivedAns[j] && F.rows[i].start === derivedAns[j] && F.rows[j].start === derivedAns[i]) fails.push(`mirror pair — rows ${F.rows[i].n} and ${F.rows[j].n} swap start and answer (${F.rows[i].start} <-> ${F.rows[j].start})`);
       if (new Set(posSeq).size < 2 || isPeriodic(posSeq)) fails.push(`the correct chip positions [${posSeq}] are constant or periodic (tell)`);
       if (b && F.rose) for (const [dir, t] of F.rose) if (b.dirLetters[dir] !== t) fails.push(`the reference rose prints "${t}" at ${dir} ≠ dirLetters.${dir}`);
+      if (b && F.northOnly && F.northLetter !== b.dirLetters.n) fails.push(`the north arrow prints "${F.northLetter}" ≠ dirLetters.n`);
     }
     return fails;
   },

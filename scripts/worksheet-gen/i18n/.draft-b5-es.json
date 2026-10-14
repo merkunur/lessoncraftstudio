@@ -167,7 +167,7 @@
     },
     "G2-371": {
       "title": "Puntos cardinales en el mapa",
-      "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+      "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y encierra, de los tres dibujos, el que está en esa dirección."
     },
     "G2-358": {
       "title": "Sinónimos: rodea la palabra que significa lo mismo",
@@ -1302,7 +1302,7 @@
         },
         "directions-on-map": {
           "title": "Puntos cardinales en el mapa",
-          "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y rodea, de los tres dibujos, el que está en esa dirección."
+          "instruction": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y encierra, de los tres dibujos, el que está en esa dirección."
         }
       }
     },

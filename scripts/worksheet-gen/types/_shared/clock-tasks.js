@@ -410,7 +410,8 @@ function makeClockType(cfg) {
             continue;
           }
           const chips = order.map((v) =>
-            `<span class="ws-chip" style="width:auto;min-width:96px;height:48px;font-size:21px;padding:0 16px;border-radius:24px;white-space:nowrap" ` +
+            // day-part forms are long: a smaller chip keeps three on one row (two rows ran a five-card page into the footer)
+            `<span class="ws-chip" style="width:auto;min-width:${KIT.dayParts(loc) ? 0 : 96}px;height:48px;font-size:${KIT.dayParts(loc) ? 18 : 21}px;padding:0 ${KIT.dayParts(loc) ? 12 : 16}px;border-radius:24px;white-space:nowrap" ` +
             `data-lcs-choice="${v}"${v === correct ? ' data-lcs-correct="1"' : ''}>${v}</span>`).join('');
           cards.push(
             `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-h24="${h24}" data-lcs-m="${m}" data-lcs-dir="${dir}">` +

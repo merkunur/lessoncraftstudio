@@ -2610,7 +2610,7 @@
   },
   "G3-387": {
     "title": "Rund op eller ned? Sortér tallene",
-    "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+    "instruction": "Skal hvert tal rundes op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
   },
   "G3-388": {
     "title": "Afrunding til nærmeste 100",
@@ -2622,7 +2622,8 @@
   },
   "G3-390": {
     "title": "Hvilke tal bliver til 50?",
-    "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+    "instruction": "Sæt ring om hvert tal, der afrundes til tallet øverst. Se på cifret på enerpladsen.",
+    "printTitle": "Hvilke tal afrundes til 50?"
   },
   "G3-391": {
     "title": "Afrunding til nærmeste tier og hundrede",

@@ -227,7 +227,7 @@
   },
   "G3-390": {
    "title": "Mitkä luvut pyöristyvät lukuun 50?",
-   "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+   "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään lukuun. Katso kunkin luvun ykkösnumeroa."
   },
   "G3-391": {
    "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",
@@ -1634,7 +1634,7 @@
     },
     "inverse": {
      "title": "Mitkä luvut pyöristyvät lukuun 50?",
-     "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään kymmeneen. Katso kunkin luvun ykkösnumeroa."
+     "instruction": "Ympyröi jokainen luku, joka pyöristyy ylhäällä näkyvään lukuun. Katso kunkin luvun ykkösnumeroa."
     },
     "both": {
      "title": "Pyöristäminen kymmenien ja satojen tarkkuuteen",

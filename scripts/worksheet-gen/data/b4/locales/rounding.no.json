@@ -15,7 +15,7 @@
   "strings": {
     "base": {
       "title": "Avrunding til nærmeste tier",
-      "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er eneren 5 eller mer, runder du opp."
+      "instruction": "Rund av hvert tall til nærmeste tier og skriv det i ruta. Er einersifferet 5 eller mer, runder du opp."
     },
     "sort": {
       "title": "Rund opp eller ned? Sorter tallene",
@@ -31,7 +31,7 @@
     },
     "inverse": {
       "title": "Hvilke tall blir 50?",
-      "instruction": "Sett ring rundt hvert tall som blir tieren øverst på arket. Se på eneren i hvert tall."
+      "instruction": "Sett ring rundt hvert tall som rundes av til tallet øverst på arket. Se på einersifferet i hvert tall."
     },
     "both": {
       "title": "Avrunding til tier og hundrer",

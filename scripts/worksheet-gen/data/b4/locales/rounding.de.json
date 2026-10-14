@@ -19,7 +19,7 @@
     },
     "sort": {
       "title": "Aufrunden oder abrunden? Zahlen sortieren",
-      "instruction": "Wird jede Zahl zum nächsten Zehner aufgerundet oder abgerundet? Schreibe sie in den richtigen Kasten."
+      "instruction": "Wird die Zahl auf den Zehner aufgerundet oder abgerundet? Schreibe jede Zahl in den richtigen Kasten."
     },
     "hundred": {
       "title": "Zahlen runden auf Hunderter",
@@ -31,7 +31,7 @@
     },
     "inverse": {
       "title": "Welche Zahlen runden auf 50?",
-      "instruction": "Kreise jede Zahl ein, die auf den Zehner oben gerundet wird. Schau auf die Einerstelle jeder Zahl."
+      "instruction": "Kreise jede Zahl ein, die auf die Zehnerzahl oben gerundet wird. Schau auf die Einerziffer jeder Zahl."
     },
     "both": {
       "title": "Zahlen runden auf Zehner und Hunderter",

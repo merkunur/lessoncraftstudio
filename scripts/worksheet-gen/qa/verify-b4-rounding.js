@@ -908,7 +908,11 @@ async function main() {
       try { spec = loadType(row.id); } catch (e) { ok(false, `faces: ${row.id} not emitted (${e.message})`); continue; }
       row.spec = spec;
       ok(spec.i18n.en.title === row.title && spec.i18n.en.instruction === row.instruction && spec.gradeBand === 'G3' && spec.exerciseType === 'rounding' && spec.themeAxis && spec.themeAxis.applicable === false, `faces: ${row.id} emitted spec drifts from the row (title / gradeBand / themeless)`);
-      ok(JSON.stringify(spec.difficulty[2]) === JSON.stringify(row.D) && JSON.stringify(spec.difficulty[1]) === JSON.stringify(row.D), `faces: ${row.id} emitted difficulty != the row's resolved override`);
+      // Level Set 2026-10-14 (walk #63): level 2 = the row's config (the published page) plus the Level-Set-only knobs a
+      // published page never reads (the inverse face's per-copy `targets` / `band`); levels 1 / 3 are real levels now
+      const { targets: _t, band: _b, ...d2 } = spec.difficulty[2];
+      ok(JSON.stringify(d2) === JSON.stringify(row.D), `faces: ${row.id} emitted level 2 != the row's resolved override`);
+      ok(JSON.stringify(spec.difficulty[1]) !== JSON.stringify(spec.difficulty[2]) && JSON.stringify(spec.difficulty[3]) !== JSON.stringify(spec.difficulty[2]), `faces: ${row.id} levels 1 / 3 are not real levels (identical to level 2)`);
       // a title that names a number names what the d2 page shows
       const nums = (row.title.match(/\d+/g) || []).map(Number);
       const shown = faceNumbers(row.face, row.D);

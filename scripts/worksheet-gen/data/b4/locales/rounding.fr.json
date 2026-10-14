@@ -15,11 +15,11 @@
   "strings": {
     "base": {
       "title": "Arrondir à la dizaine",
-      "instruction": "Arrondis chaque nombre à la dizaine la plus proche et écris-le dans la case. Si le chiffre des unités est 5 ou davantage, arrondis au-dessus."
+      "instruction": "Arrondis chaque nombre à la dizaine la plus proche et écris-le dans la case. Si le chiffre des unités est 5 ou plus, arrondis à la dizaine supérieure."
     },
     "sort": {
       "title": "Arrondir au-dessus ou en dessous : range les nombres",
-      "instruction": "Chaque nombre s'arrondit-il au-dessus ou en dessous à la dizaine ? Écris-le dans la bonne boîte."
+      "instruction": "Chaque nombre s'arrondit-il à la dizaine inférieure ou à la dizaine supérieure ? Écris-le dans la bonne boîte."
     },
     "hundred": {
       "title": "Arrondir les nombres à la centaine",

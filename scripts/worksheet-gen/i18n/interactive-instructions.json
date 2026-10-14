@@ -3117,5 +3117,46 @@
    "no": "Trykk på en tom rute og skriv plassen med punktum, for eksempel 3.",
    "fi": "Napauta tyhjää ruutua ja kirjoita paikka pisteen kanssa, esimerkiksi 3."
   }
+ },
+ "rounding": {
+  "write": {
+   "en": "Tap a box, then type the number.",
+   "de": "Tippe auf ein Kästchen und gib die Zahl ein.",
+   "es": "Toca una casilla y escribe el número.",
+   "fr": "Touche une case, puis écris le nombre.",
+   "it": "Tocca una casella e scrivi il numero.",
+   "pt": "Toque em um quadrinho e digite o número.",
+   "nl": "Tik op een vakje en typ het getal.",
+   "sv": "Tryck på en ruta och skriv in talet.",
+   "da": "Tryk på et felt, og skriv tallet.",
+   "no": "Trykk på en rute og skriv inn tallet.",
+   "fi": "Napauta ruutua ja kirjoita siihen luku."
+  },
+  "sort": {
+   "en": "Tap a box in the right bin, then type the number.",
+   "de": "Tippe auf ein Kästchen im richtigen Kasten und gib die Zahl ein.",
+   "es": "Toca una casilla de la caja correcta y escribe el número.",
+   "fr": "Touche une case de la bonne boîte, puis écris le nombre.",
+   "it": "Tocca una casella del contenitore giusto e scrivi il numero.",
+   "pt": "Toque em um quadrinho da caixa certa e digite o número.",
+   "nl": "Tik op een vakje in de juiste bak en typ het getal.",
+   "sv": "Tryck på en ruta i rätt låda och skriv in talet.",
+   "da": "Tryk på et felt i den rigtige kasse, og skriv tallet.",
+   "no": "Trykk på en rute i riktig kurv og skriv inn tallet.",
+   "fi": "Napauta ruutua oikeassa laatikossa ja kirjoita siihen luku."
+  },
+  "circle": {
+   "en": "Tap every number that rounds to the ten shown at the top. Look at the ones digit of each number.",
+   "de": "Tippe jede Zahl an, die auf die Zehnerzahl oben gerundet wird. Schau auf die Einerziffer jeder Zahl.",
+   "es": "Toca todos los números que se redondean a la decena que aparece arriba. Fíjate en la cifra de las unidades de cada número.",
+   "fr": "Touche tous les nombres qui s'arrondissent à la dizaine écrite en haut. Regarde le chiffre des unités de chaque nombre.",
+   "it": "Tocca ogni numero che si arrotonda alla decina scritta in alto. Guarda la cifra delle unità.",
+   "pt": "Toque em todos os números que são arredondados para a dezena mostrada no alto. Olhe o algarismo das unidades.",
+   "nl": "Tik op elk getal dat je afrondt op het getal bovenaan. Kijk naar het laatste cijfer van elk getal.",
+   "sv": "Tryck på varje tal som avrundas till talet högst upp. Titta på entalssiffran i varje tal.",
+   "da": "Tryk på hvert tal, der afrundes til tallet øverst. Se på cifret på enerpladsen.",
+   "no": "Trykk på hvert tall som rundes av til tallet øverst. Se på einersifferet i hvert tall.",
+   "fi": "Napauta jokaista lukua, joka pyöristyy ylhäällä näkyvään lukuun. Katso kunkin luvun ykkösnumeroa."
+  }
  }
 }

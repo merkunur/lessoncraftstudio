@@ -76,6 +76,16 @@ function round(n, step) { return Math.floor(n / step + 0.5) * step; }
 function decidingDigit(n, step) { return Math.floor(n / (step / 10)) % 10; }
 function posInt(v) { return Number.isInteger(v) && v >= 0; }
 function blankBox(o) { return require('../components-b3.js').blankNumeralBox(o); }   // call-time: the b3 namespace is complete by then
+/**
+ * Level Set 2026-10-14 (walk #63): the write box with three views. Default = the printed blank box, byte-identical
+ * to blankBox (the published pages). `key` = the answer key: the same box with its answer written in, centred, coral.
+ * `attrs` ride on the box in every view (the screen stamps the robot's oracle inputs there). `px` = the key's numeral.
+ */
+function answerBox({ w, h, answer, attrs = '', key = false, px = 26 }) {
+  if (!key) return blankBox({ w, h, answer, attrs });
+  return `<span class="ws-blankbox" ${attrs} data-lcs-answer="${esc(answer)}" data-lcs-keybox style="width:${w}px;height:${h}px;flex:0 0 ${w}px;display:inline-flex;align-items:center;justify-content:center">` +
+    `<span data-lcs-keyval style="${DISPLAY};font-size:${px}px;line-height:1;color:${T.coral}">${esc(answer)}</span></span>`;
+}
 function checkStep(step, who) { if (step !== 10 && step !== 100) throw new Error(`${who}: step must be 10 or 100 (got ${step})`); }
 
 /* ------------------------------------------------------------------ the glyph */
@@ -166,7 +176,7 @@ function roundRuleBox({ step, lines, strip, minH = 96 }) {
 }
 
 /* ------------------------------------------------------------------ the line */
-function roundRow({ idx, n, step, answer, rel = 'approx', onesTint = false, rowH = 60, boxW = 84, boxH = 44, numeralW = 56 }) {
+function roundRow({ idx, n, step, answer, rel = 'approx', onesTint = false, rowH = 60, boxW = 84, boxH = 44, numeralW = 56, px = 28, glyph = 24, key = false, boxAttrs = '' }) {
   checkStep(step, 'roundRow');
   if (!posInt(n) || n < 1) throw new Error(`roundRow: n must be a positive integer (got ${n})`);
   if (n % step === 0) throw new Error(`roundRow: ${n} is a multiple of ${step} — not an item`);
@@ -177,9 +187,9 @@ function roundRow({ idx, n, step, answer, rel = 'approx', onesTint = false, rowH
   const numeral = onesTint ? digitsWithRule(n, step === 10 ? 0 : 1, 'data-lcs-tint') : esc(String(n));
   return `<span data-lcs-row data-lcs-n="${n}" data-lcs-step="${step}" style="display:inline-flex;align-items:center;height:${rowH}px;flex:0 0 auto">` +
     numBadge({ idx }) + `<span style="width:12px;flex:0 0 12px"></span>` +
-    `<span data-lcs-num style="display:inline-block;width:${numeralW}px;flex:0 0 ${numeralW}px;text-align:right;${DISPLAY};font-size:28px;line-height:1;color:${T.ink}">${numeral}</span>` +
-    `<span style="width:10px;flex:0 0 10px"></span>` + roundGlyph({ kind: rel, size: 24 }) + `<span style="width:10px;flex:0 0 10px"></span>` +
-    blankBox({ w: boxW, h: boxH, answer: String(want) }) + `</span>`;
+    `<span data-lcs-num style="display:inline-block;width:${numeralW}px;flex:0 0 ${numeralW}px;text-align:right;${DISPLAY};font-size:${px}px;line-height:1;color:${T.ink}">${numeral}</span>` +
+    `<span style="width:10px;flex:0 0 10px"></span>` + roundGlyph({ kind: rel, size: glyph }) + `<span style="width:10px;flex:0 0 10px"></span>` +
+    answerBox({ w: boxW, h: boxH, answer: String(want), key, attrs: boxAttrs, px: Math.round(px * 0.93) }) + `</span>`;
 }
 
 /* ------------------------------------------------------------------ F1: the numeral chip lane + the two arrow bins */
@@ -205,7 +215,7 @@ function roundChipLane({ values, step = 10, chip = 72, gap = 10, rowGap = 12, co
   return `<div class="ws-lane" data-lcs-chips data-ws-content style="display:flex;flex-wrap:wrap;justify-content:center;align-content:center;column-gap:${gap}px;row-gap:${rowGap}px;width:675px;max-width:${rowW + 36}px;margin:0 auto;min-height:${minH}px;height:${minH}px;box-sizing:border-box">${chips}</div>`;
 }
 
-function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 232, gap = 15, cols = 3, cellGap = 10, pillH = 40, pillPx = 18 }) {
+function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 232, gap = 15, cols = 3, cellGap = 10, pillH = 40, pillPx = 18, cellAttrs = null, keyVals = null, keyPx = 26 }) {
   for (const [k, v] of [['down', down], ['up', up]]) if (!v || typeof v.label !== 'string' || !v.label.trim()) throw new Error(`updownBins: ${k}.label is required`);
   if (!Number.isInteger(cells) || cells < 2) throw new Error(`updownBins: cells ${cells}`);
   if (cellH < 44) throw new Error(`updownBins: cellH ${cellH} < 44`);
@@ -218,7 +228,10 @@ function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 
   if (need > h) throw new Error(`updownBins: ${cells} cells of ${cellW} x ${cellH} need ${need} px, the bin is ${h}`);
   const bin = (dir, label) => {
     const arrow = dir === 'down' ? '↓' : '↑';
-    const grid = Array.from({ length: cells }, () => blankBox({ w: cellW, h: cellH, answer: '' })).join('');
+    // Level Set (walk #63): the screen stamps each cell with its bin (cellAttrs), the key writes the bin's numbers in (keyVals)
+    const grid = Array.from({ length: cells }, (_, k) => (keyVals && keyVals[dir] && keyVals[dir][k] != null
+      ? answerBox({ w: cellW, h: cellH, answer: String(keyVals[dir][k]), key: true, px: keyPx, attrs: cellAttrs ? cellAttrs(dir) : '' })
+      : blankBox({ w: cellW, h: cellH, answer: '', attrs: cellAttrs ? cellAttrs(dir) : '' }))).join('');
     return `<div class="ws-bin" data-lcs-bin="${dir}" data-lcs-cells="${cells}" data-ws-content style="max-width:${w}px;flex:0 0 ${w}px;height:${h}px;display:flex;flex-direction:column;align-items:center;padding:12px 0 0;border-top:3px dashed ${T.teal}">` +
       `<span class="ws-pill" data-lcs-bin-label="${dir}" style="height:${pillH}px;padding:6px 16px;${DISPLAY};font-size:${pillPx}px;color:${T.ink};white-space:nowrap;max-width:300px;gap:8px">` +
       `<span data-lcs-arrow="${dir}" style="color:${T.teal}">${arrow}</span><span data-lcs-bin-text>${esc(label)}</span></span>` +
@@ -228,7 +241,7 @@ function updownBins({ down, up, cells = 9, cellW = 84, cellH = 44, w = 330, h = 
 }
 
 /* ------------------------------------------------------------------ F3: the estimate row */
-function estimateRow({ idx, a, b, step = 10, rel = 'approx', exprW = 80, rowH = 48 }) {
+function estimateRow({ idx, a, b, step = 10, rel = 'approx', exprW = 80, rowH = 48, boxW = null, boxH = 44, px = 24, key = false, split = false, boxAttrs = '' }) {
   checkStep(step, 'estimateRow');
   if (!posInt(a) || !posInt(b) || a < 1 || b < 1) throw new Error('estimateRow: a, b must be positive integers');
   if (a % step === 0 || b % step === 0) throw new Error(`estimateRow: an addend is a multiple of ${step}`);
@@ -236,13 +249,21 @@ function estimateRow({ idx, a, b, step = 10, rel = 'approx', exprW = 80, rowH = 
   if (sum > 999) throw new Error(`estimateRow: rounded sum ${sum} >= 1000`);
   const sign = (s, color, w) => `<span style="display:inline-block;width:${w}px;text-align:center;${DISPLAY};font-size:24px;line-height:1;color:${color}">${s}</span>`;
   const sp = (w) => `<span style="width:${w}px;flex:0 0 ${w}px"></span>`;
+  // Level Set (walk #63): boxW = one width for all three boxes (three-digit answers need 84); key = the answers written
+  // in; boxAttrs = extra stamps on every box (the screen's oracle inputs); split = the screen's two-line row (the sum
+  // above, the three big boxes under it). Defaults = the published row, byte for byte.
+  const bw = (d) => (boxW == null ? d : boxW);
+  const box = (w, ans, role) => answerBox({ w: bw(w), h: boxH, answer: String(ans), attrs: `data-lcs-role="${role}"` + (boxAttrs ? ' ' + boxAttrs : ''), key, px: Math.round(px * 1.05) });
+  const boxes = box(68, ra, 'a') + sp(8) + sign('+', T.teal, 14) + sp(8) + box(68, rb, 'b') + sp(8) + sign('=', T.inkSoft, 13) + sp(8) + box(76, sum, 'sum');
+  const expr = `<span data-lcs-expr style="display:inline-block;width:${exprW}px;text-align:right;${DISPLAY};font-size:${px}px;line-height:1;color:${T.ink}">${a} + ${b}</span>`;
+  if (split) {
+    return `<span data-lcs-row data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-step="${step}" style="display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;height:${rowH}px">` +
+      `<span style="display:inline-flex;align-items:center">` + numBadge({ idx }) + sp(12) + expr + sp(10) + roundGlyph({ kind: rel, size: Math.round(px * 0.9) }) + `</span>` +
+      `<span style="display:inline-flex;align-items:center">${boxes}</span></span>`;
+  }
   return `<span data-lcs-row data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-step="${step}" style="display:inline-flex;align-items:center;height:${rowH}px">` +
-    numBadge({ idx }) + sp(12) +
-    `<span data-lcs-expr style="display:inline-block;width:${exprW}px;text-align:right;${DISPLAY};font-size:24px;line-height:1;color:${T.ink}">${a} + ${b}</span>` + sp(10) +
-    roundGlyph({ kind: rel, size: 24 }) + sp(10) +
-    blankBox({ w: 68, h: 44, answer: String(ra), attrs: 'data-lcs-role="a"' }) + sp(8) + sign('+', T.teal, 14) + sp(8) +
-    blankBox({ w: 68, h: 44, answer: String(rb), attrs: 'data-lcs-role="b"' }) + sp(8) + sign('=', T.inkSoft, 13) + sp(8) +
-    blankBox({ w: 76, h: 44, answer: String(sum), attrs: 'data-lcs-role="sum"' }) + `</span>`;
+    numBadge({ idx }) + sp(12) + expr + sp(10) +
+    roundGlyph({ kind: rel, size: 24 }) + sp(10) + boxes + `</span>`;
 }
 
 /* ------------------------------------------------------------------ F4: the target pill + the field */
@@ -255,7 +276,7 @@ function targetPill({ target, step = 10, rel = 'approx', h = 52, px = 28 }) {
 }
 
 /** F4's field: `values` in `perRow` pills, the even rows shifted `stagger` px right of the odd ones (a field, not a table; the row centred first, so both fit when rowW + 2·stagger <= 639); `gap` = x, `rowGap` = y (the pencil-ring reserve, >= 20 measured by the gate). */
-function numberField({ target, step = 10, values, pillW = 96, pillH = 52, gap = 24, rowGap = gap, stagger = 48, perRow = 4, px = 26 }) {
+function numberField({ target, step = 10, values, pillW = 96, pillH = 52, gap = 24, rowGap = gap, stagger = 48, perRow = 4, px = 26, mark = null }) {
   checkStep(step, 'numberField');
   if (!Array.isArray(values) || values.length < 4) throw new Error('numberField: values must be >= 4');
   if (new Set(values).size !== values.length) throw new Error('numberField: a value twice');
@@ -267,7 +288,14 @@ function numberField({ target, step = 10, values, pillW = 96, pillH = 52, gap = 
   if (rowW + 2 * stagger > LANE_INNER) throw new Error(`numberField: row ${rowW} shifted ${stagger} both ways > ${LANE_INNER}`);
   const rows = [];
   for (let i = 0; i < values.length; i += perRow) {
-    const pills = values.slice(i, i + perRow).map((v) => `<span class="ws-nchip" data-lcs-val="${v}" style="width:${pillW}px;height:${pillH}px;font-size:${px}px;color:${T.ink};border-width:2.5px">${v}</span>`).join('');
+    // Level Set (walk #63): mark 'screen' stamps each member data-lcs-in (the tap-select answer; the robot's oracle
+    // recomputes membership from the value), mark 'key' rings every member in coral (the answer key). null = the page.
+    const inT = (v) => round(v, step) === target;
+    const pills = values.slice(i, i + perRow).map((v) => {
+      const extra = mark === 'screen' && inT(v) ? ' data-lcs-in' : '';
+      const ring = mark === 'key' && inT(v) ? `;border-color:${T.coral};border-width:5px;background:${T.coralSoft}` : '';
+      return `<span class="ws-nchip" data-lcs-val="${v}"${extra} style="width:${pillW}px;height:${pillH}px;font-size:${px}px;color:${T.ink};border-width:2.5px${ring}">${v}</span>`;
+    }).join('');
     const odd = (i / perRow) % 2 === 1;
     // the even rows sit `stagger` px RIGHT of the odd rows (position:relative — a margin on a centred flex item would shift it by half)
     rows.push(`<div data-lcs-field-row style="display:flex;gap:${gap}px;justify-content:center;position:relative;left:${odd ? stagger : 0}px">${pills}</div>`);
@@ -281,18 +309,20 @@ function placePill({ step }) {
   return `<span class="ws-nchip" data-lcs-place="${step}" aria-hidden="true" style="width:44px;height:24px;flex:0 0 44px;font-size:15px;line-height:1">${step}</span>`;
 }
 
-function twoTargetRow({ idx, n, steps = [10, 100], answers, rel = 'approx', rowH = 44 }) {
+function twoTargetRow({ idx, n, steps = [10, 100], answers, rel = 'approx', rowH = 44, numeralW = 56, px = 28, glyph = 24, boxW = 84, boxH = 44, mid = 44, width = 380, key = false, boxAttrs = '' }) {
   if (!Array.isArray(steps) || steps.length !== 2 || steps[0] !== 10 || steps[1] !== 100) throw new Error('twoTargetRow: steps must be [10, 100]');
   if (!posInt(n) || n % 10 === 0) throw new Error(`twoTargetRow: n ${n} must not be a multiple of 10`);
   const want = steps.map((s) => round(n, s));
   if (want.some((v) => v > 999)) throw new Error(`twoTargetRow: a rounding of ${n} reaches 1000`);
   if (answers && (answers.length !== 2 || String(answers[0]) !== String(want[0]) || String(answers[1]) !== String(want[1]))) throw new Error(`twoTargetRow: answers ${answers} != ${want}`);
   const sp = (w) => `<span style="width:${w}px;flex:0 0 ${w}px"></span>`;
-  return `<span data-lcs-row data-lcs-n="${n}" data-lcs-steps="${steps.join(',')}" style="display:inline-flex;align-items:center;height:${rowH}px;width:380px">` +
+  // Level Set (walk #63): the size keys + key / boxAttrs default to the published row, byte for byte
+  const ba = (st) => `data-lcs-step="${st}"` + (boxAttrs ? ' ' + boxAttrs : '');
+  return `<span data-lcs-row data-lcs-n="${n}" data-lcs-steps="${steps.join(',')}" style="display:inline-flex;align-items:center;height:${rowH}px;width:${width}px">` +
     numBadge({ idx }) + sp(12) +
-    `<span data-lcs-num style="display:inline-block;width:56px;flex:0 0 56px;text-align:right;${DISPLAY};font-size:28px;line-height:1;color:${T.ink}">${n}</span>` + sp(10) +
-    roundGlyph({ kind: rel, size: 24 }) + sp(8) + blankBox({ w: 84, h: 44, answer: String(want[0]), attrs: 'data-lcs-step="10"' }) + sp(44) +
-    roundGlyph({ kind: rel, size: 24 }) + sp(8) + blankBox({ w: 84, h: 44, answer: String(want[1]), attrs: 'data-lcs-step="100"' }) + `</span>`;
+    `<span data-lcs-num style="display:inline-block;width:${numeralW}px;flex:0 0 ${numeralW}px;text-align:right;${DISPLAY};font-size:${px}px;line-height:1;color:${T.ink}">${n}</span>` + sp(10) +
+    roundGlyph({ kind: rel, size: glyph }) + sp(8) + answerBox({ w: boxW, h: boxH, answer: String(want[0]), attrs: ba(10), key, px: Math.round(px * 0.93) }) + sp(mid) +
+    roundGlyph({ kind: rel, size: glyph }) + sp(8) + answerBox({ w: boxW, h: boxH, answer: String(want[1]), attrs: ba(100), key, px: Math.round(px * 0.93) }) + `</span>`;
 }
 
 function placeHeader({ heads, cellW = 160, centres = [178, 338], w = 380 }) {

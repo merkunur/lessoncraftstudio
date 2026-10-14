@@ -2424,7 +2424,7 @@
   },
   "G2-346": {
     "title": "Arredondamento de números à dezena",
-    "instruction": "Arredonde cada número à dezena mais próxima e escreva na caixa. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
+    "instruction": "Arredonde cada número à dezena mais próxima e escreva-o no quadrinho. Se o algarismo das unidades for 5 ou mais, arredonde para cima."
   },
   "K-358": {
     "title": "Tangram fácil de 2 e 3 peças: desenhe as linhas",
@@ -2608,23 +2608,24 @@
   },
   "G3-387": {
     "title": "Arredondar para cima ou para baixo: separe os números",
-    "instruction": "Cada número é arredondado para cima ou para baixo na dezena? Escreva-o na caixa certa."
+    "instruction": "Cada número é arredondado para cima ou para baixo, para a dezena mais próxima? Escreva-o na caixa certa."
   },
   "G3-388": {
     "title": "Arredondamento de números à centena",
-    "instruction": "Arredonde cada número à centena mais próxima e escreva na caixa. Olhe o algarismo das dezenas."
+    "instruction": "Arredonde cada número à centena mais próxima e escreva-o no quadrinho. Olhe o algarismo das dezenas."
   },
   "G3-389": {
     "title": "Arredonde e estime a soma",
-    "instruction": "Arredonde os dois números à dezena mais próxima e escreva nas caixas. Depois some os números arredondados."
+    "instruction": "Arredonde os dois números à dezena mais próxima e escreva-os nos quadrinhos. Depois some os números arredondados."
   },
   "G3-390": {
     "title": "Quais números arredondam para 50?",
-    "instruction": "Circule todos os números que arredondam para a dezena mostrada no alto. Olhe o algarismo das unidades."
+    "instruction": "Circule todos os números que são arredondados para a dezena mostrada no alto. Olhe o algarismo das unidades.",
+    "printTitle": "Quais números são arredondados para 50?"
   },
   "G3-391": {
     "title": "Arredondamento à dezena e à centena",
-    "instruction": "Arredonde cada número duas vezes: à dezena na primeira caixa e à centena na segunda."
+    "instruction": "Arredonde cada número duas vezes: à dezena no primeiro quadrinho e à centena no segundo."
   },
   "K-368": {
     "title": "Figuras geométricas planas",

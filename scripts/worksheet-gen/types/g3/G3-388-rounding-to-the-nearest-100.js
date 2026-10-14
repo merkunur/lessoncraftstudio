@@ -9,7 +9,10 @@ module.exports = {
   ...base,
   id: 'G3-388',
   slug: 'rounding-to-the-nearest-100',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14 (walk #63): real levels 1 / 3 (G2-346 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b4var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-388', D),
+  interactive: base.interactiveFor('write'),
   i18n: { en: { title: "Rounding to the Nearest 100", instruction: "Round each number to the nearest hundred and write it in the box. Look at the tens digit." } },
   gradeBand: "G3",
 };

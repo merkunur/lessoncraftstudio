@@ -1774,7 +1774,7 @@
   },
   "G1-349": {
     "title": "Picture Clue Logic Puzzles: Cross Out and Find",
-    "instruction": "A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer."
+    "instruction": "A crossed-out picture means the child does not have it, a circled one means the child has it. Cross out on the grid, then circle each answer."
   },
   "G1-350": {
     "title": "Fill in the Blank Sentences",
@@ -2483,7 +2483,7 @@
   },
   "G2-319": {
     "title": "Logic Grid Puzzles: Three Clues, One Answer",
-    "instruction": "Read the clues. Cross out on the grid what cannot be true, tick what must be true, then circle the picture each child has."
+    "instruction": "Read the clues. Cross out on the grid what cannot be true, check what must be true, then circle the picture each child has."
   },
   "G2-320": {
     "title": "Antonyms with un-, dis-, in-",
@@ -2583,11 +2583,11 @@
   },
   "G2-344": {
     "title": "Logic Grid Puzzles with Yes, No and Either-Or Clues",
-    "instruction": "A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer."
+    "instruction": "A yes clue gets a check mark, a no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer."
   },
   "G2-345": {
     "title": "Read the Logic Grid: True or False",
-    "instruction": "The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false."
+    "instruction": "The grid is already solved. Read it, then circle the check mark if the sentence is true or the X if it is false."
   },
   "G2-346": {
     "title": "Rounding to the Nearest 10",
@@ -3041,7 +3041,7 @@
   },
   "G3-378": {
     "title": "4 by 4 Logic Grid Puzzles: Six Clues",
-    "instruction": "Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer."
+    "instruction": "Four children and four pictures. Use every clue: cross out what cannot be true and check what must be true until each row has one answer."
   },
   "G3-379": {
     "title": "Two-Attribute Logic Puzzles: Two Pictures per Child",

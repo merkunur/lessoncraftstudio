@@ -3588,5 +3588,109 @@
       "no": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de to bildene som ligger der.",
       "fi": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kahdesta kuvasta se, joka on siellä."
     }
+  },
+  "G2-344": {
+    "1": {
+      "en": "A yes clue gets a check mark and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.",
+      "de": "Ein Ja-Hinweis bekommt einen Haken, ein Entweder-oder-Hinweis streicht das dritte Bild. Löse die Tabelle und kreise ein.",
+      "es": "Una pista de sí lleva palomita y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta.",
+      "fr": "Un indice oui donne une coche, un indice « ou » barre la troisième image. Termine la grille, puis entoure chaque réponse.",
+      "it": "Un indizio sì vuole una spunta e un indizio con \"o\" barra il terzo disegno. Completa la griglia e cerchia le risposte.",
+      "pt": "Uma pista de sim ganha um certo e uma pista com \"ou\" risca a terceira figura. Complete a tabela e circule as respostas.",
+      "nl": "Ja: zet een vinkje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord.",
+      "sv": "Ja ger en bock och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar.",
+      "da": "Et ja-spor får et flueben, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar.",
+      "no": "En ja-ledetråd får en hake, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring.",
+      "fi": "Kyllä-vihje saa väkäsen ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
+    },
+    "3": {
+      "en": "A no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.",
+      "de": "Ein Nein-Hinweis bekommt ein Kreuz, ein Entweder-oder-Hinweis streicht das dritte Bild. Löse die Tabelle und kreise ein.",
+      "es": "Una pista de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta.",
+      "fr": "Un indice non donne une croix, un indice « ou » barre la troisième image. Termine la grille, puis entoure chaque réponse.",
+      "it": "Un indizio no vuole una crocetta e un indizio con \"o\" barra il terzo disegno. Completa la griglia e cerchia le risposte.",
+      "pt": "Uma pista de não ganha um xis e uma pista com \"ou\" risca a terceira figura. Complete a tabela e circule as respostas.",
+      "nl": "Nee: zet een kruisje. Of: streep het derde plaatje door. Maak het rooster af en omcirkel elk antwoord.",
+      "sv": "Nej ger ett kryss och antingen-eller stryker den tredje bilden. Gör rutnätet färdigt och ringa sedan in varje svar.",
+      "da": "Et nej-spor får et kryds, og et enten-eller-spor streger det tredje billede ud. Gør skemaet færdigt, og sæt ring om hvert svar.",
+      "no": "En nei-ledetråd får et kryss, en enten-eller-ledetråd stryker det tredje bildet. Løs tabellen og sett ring.",
+      "fi": "Ei-vihje saa ruksin ja jompikumpi-vihje ruksaa kolmannen kuvan. Täytä ruudukko ja ympyröi sitten vastaukset."
+    }
+  },
+  "G1-349": {
+    "1": {
+      "en": "A circled picture means the child has it. Cross out on the grid, then circle each answer.",
+      "de": "Ein eingekreistes Bild heißt: Das Kind hat es. Löse die Tabelle und kreise ein.",
+      "es": "Un dibujo encerrado en un círculo quiere decir que el niño sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta.",
+      "fr": "Une image entourée : l'enfant l'a. Barre sur la grille, puis entoure chaque réponse.",
+      "it": "Un disegno cerchiato vuol dire che il bambino ce l'ha. Barra sulla griglia, poi cerchia ogni risposta.",
+      "pt": "Uma figura circulada quer dizer que a criança tem. Risque na tabela e depois circule cada resposta.",
+      "nl": "Een omcirkeld plaatje betekent dat het kind het heeft. Streep door in het rooster en omcirkel dan elk antwoord.",
+      "sv": "En inringad bild betyder att barnet har den. Kryssa över i rutnätet och ringa sedan in varje svar.",
+      "da": "Et indringet billede betyder, at barnet har det. Sæt kryds i skemaet, og sæt ring om hvert svar.",
+      "no": "Et bilde med ring rundt betyr: Barnet har det. Løs tabellen og sett ring.",
+      "fi": "Ympyröity kuva tarkoittaa, että lapsella on se. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+    },
+    "3": {
+      "en": "A crossed-out picture means the child does not have it. Cross out on the grid, then circle each answer.",
+      "de": "Ein durchgestrichenes Bild heißt: Das Kind hat es nicht. Löse die Tabelle und kreise ein.",
+      "es": "Un dibujo tachado quiere decir que el niño no lo tiene. Tacha en la cuadrícula y encierra cada respuesta.",
+      "fr": "Une image barrée : l'enfant ne l'a pas. Barre sur la grille, puis entoure chaque réponse.",
+      "it": "Un disegno barrato vuol dire che il bambino non ce l'ha. Barra sulla griglia, poi cerchia ogni risposta.",
+      "pt": "Uma figura riscada quer dizer que a criança não tem. Risque na tabela e depois circule cada resposta.",
+      "nl": "Een doorgestreept plaatje heeft het kind niet. Streep door in het rooster en omcirkel dan elk antwoord.",
+      "sv": "En överstruken bild betyder att barnet inte har den. Kryssa över i rutnätet och ringa sedan in varje svar.",
+      "da": "Et overstreget billede betyder, at barnet ikke har det. Sæt kryds i skemaet, og sæt ring om hvert svar.",
+      "no": "Et bilde med strek over betyr: Barnet har det ikke. Løs tabellen og sett ring.",
+      "fi": "Ruksittu kuva tarkoittaa, että lapsella ei ole sitä. Ruksi ruudukosta ja ympyröi sitten vastaukset."
+    }
+  },
+  "G2-319": {
+    "1": {
+      "en": {
+        "title": "Logic Grid Puzzles: Two Clues, One Answer",
+        "instruction": "Read the clues. Cross out on the grid what cannot be true, check what must be true, then circle the picture each child has."
+      },
+      "de": {
+        "title": "Logicals: zwei Hinweise, eine Lösung",
+        "instruction": "Lies die Hinweise. Streiche in der Tabelle durch, was nicht stimmen kann, hake ab, was stimmen muss, und kreise dann das Bild jedes Kindes ein."
+      },
+      "es": {
+        "title": "Acertijos de lógica: dos pistas, una respuesta",
+        "instruction": "Lee las pistas. Tacha en la cuadrícula lo que no puede ser, pon palomita a lo que tiene que ser y encierra el dibujo de cada niño."
+      },
+      "fr": {
+        "title": "Logigrammes : deux indices, une réponse",
+        "instruction": "Lis les indices. Sur la grille, barre ce qui est impossible, coche ce qui est sûr, puis entoure l'image de chaque enfant."
+      },
+      "it": {
+        "title": "Logica a griglia: due indizi, una risposta",
+        "instruction": "Leggi gli indizi. Sulla griglia barra quello che non può essere, metti una spunta su quello che è sicuro, poi cerchia il disegno di ogni bambino."
+      },
+      "pt": {
+        "title": "Desafios de lógica: duas pistas, uma resposta",
+        "instruction": "Leia as pistas. Risque na tabela o que não pode ser, marque o que tem de ser e depois circule a figura de cada criança."
+      },
+      "nl": {
+        "title": "Logicapuzzels: twee aanwijzingen, één antwoord",
+        "instruction": "Lees de aanwijzingen. Streep in het rooster door wat niet kan, zet een vinkje bij wat zeker is en omcirkel dan het plaatje dat elk kind heeft."
+      },
+      "sv": {
+        "title": "Logikrutnät: två ledtrådar, ett svar",
+        "instruction": "Läs ledtrådarna. Kryssa över det som inte kan stämma i rutnätet, bocka av det som måste stämma och ringa sedan in bilden varje barn har."
+      },
+      "da": {
+        "title": "Logikopgaver: to spor, ét svar",
+        "instruction": "Læs sporene. Sæt kryds i skemaet ved det, der ikke kan passe, og flueben ved det, der skal passe. Sæt så ring om hvert barns billede."
+      },
+      "no": {
+        "title": "Logikkoppgaver: to ledetråder, én løsning",
+        "instruction": "Les ledetrådene. Sett strek over det som ikke kan stemme i tabellen, sett hake ved det som må stemme, og sett så ring rundt bildet til hvert barn."
+      },
+      "fi": {
+        "title": "Päättelypulmat: kaksi vihjettä, yksi vastaus",
+        "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
+      }
+    }
   }
 }

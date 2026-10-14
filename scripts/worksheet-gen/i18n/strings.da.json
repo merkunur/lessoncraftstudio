@@ -1994,7 +1994,7 @@
   },
   "G2-319": {
     "title": "Logikopgaver: tre spor, ét svar",
-    "instruction": "Læs sporene. Sæt kryds i skemaet ved det, der ikke kan passe, og flueben ved det, der må passe. Sæt så ring om hvert barns billede."
+    "instruction": "Læs sporene. Sæt kryds i skemaet ved det, der ikke kan passe, og flueben ved det, der skal passe. Sæt så ring om hvert barns billede."
   },
   "G3-377": {
     "title": "Division med rest: sæt ring om grupperne",
@@ -2362,7 +2362,7 @@
   },
   "G3-378": {
     "title": "Logikopgaver 4 gange 4: seks spor",
-    "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der må passe, til hver række har ét svar."
+    "instruction": "Fire børn og fire billeder. Brug alle sporene: sæt kryds ved det, der ikke kan passe, og flueben ved det, der skal passe, til hver række har ét svar."
   },
   "G1-349": {
     "title": "Logikopgaver med billedspor: streg ud, og find",

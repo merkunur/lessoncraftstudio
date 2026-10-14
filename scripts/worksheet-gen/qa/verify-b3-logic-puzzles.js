@@ -645,7 +645,12 @@ async function runFaces(page, note, addAssertions, report, seeds, bankAll, SETS)
     }
     note(type.gradeBand === fc.dir.toUpperCase(), `${fc.id}: gradeBand ${type.gradeBand} ≠ ${fc.dir.toUpperCase()}`);
     const D = type.difficulty[2];
-    note(JSON.stringify(type.difficulty[1]) === JSON.stringify(D) && JSON.stringify(type.difficulty[3]) === JSON.stringify(D), `${fc.id}: the three levels differ (a face is one config)`);
+    // Level Set (walk #69, 2026-10-15): the faces now carry REAL levels (G2-319 FACE_LEVELS). Level 2 must stay the published
+    // config exactly (the row's overrides on the base's d2); a level 1 / 3 that exists must DIFFER from it (a fake level is the defect)
+    const base = loadType('G2-319');
+    const want2 = row ? JSON.stringify({ ...base.difficulty[2], ...row[5] }) : null;
+    note(!!row && JSON.stringify(D) === want2, `${fc.id}: level 2 is not the published config (base d2 + the row)`);
+    for (const lv of [1, 3]) if (base.FACE_LEVELS[fc.id] && base.FACE_LEVELS[fc.id][lv]) note(JSON.stringify(type.difficulty[lv]) !== JSON.stringify(D), `${fc.id}: level ${lv} is the same config as level 2 (a fake level)`);
     const check = fc.path === 'base' ? (p, t, inj, job, o) => renderCheck(p, t, inj, job, { ...(o || {}), floors: fc.floors }) : faceCheck;
     const renders = [{ baseName: `${fc.id}-d2-${loc}`, tag: 'ship' }];
     for (const t of SETS.fan.filter((x) => x !== EXEMPLAR_THEME)) renders.push({ theme: t, baseName: `${fc.id}-d2-${loc}-${t.replace(/\s+/g, '_')}`, tag: 'theme' });

@@ -3346,5 +3346,46 @@
       "no": "Les hver gåte. Trykk på ruten og skriv familieordet.",
       "fi": "Lue jokainen arvoitus. Napauta ruutua ja kirjoita sukulaissana."
     }
+  },
+  "logic-puzzles": {
+    "grid": {
+      "en": "Tap a box once for a check mark, twice for an X, a third time to clear it. Give each child one check mark.",
+      "de": "Tippe einmal auf ein Kästchen für einen Haken, zweimal für ein Kreuz und ein drittes Mal zum Löschen. Gib jedem Kind genau einen Haken.",
+      "es": "Toca una casilla una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño.",
+      "fr": "Touche une case une fois pour une coche, deux fois pour une croix, une troisième fois pour effacer. Donne une coche à chaque enfant.",
+      "it": "Tocca una casella una volta per la spunta, due volte per la crocetta, una terza volta per cancellarla. Dai una spunta a ogni bambino.",
+      "pt": "Toque um quadradinho uma vez para pôr um certo, duas vezes para um xis e uma terceira vez para apagar. Dê um certo para cada criança.",
+      "nl": "Tik één keer op een vakje voor een vinkje, twee keer voor een kruisje en een derde keer om het weer leeg te maken. Geef elk kind één vinkje.",
+      "sv": "Tryck på en ruta en gång för en bock, två gånger för ett kryss och en tredje gång för att sudda ut den. Ge varje barn en bock.",
+      "da": "Tryk på et felt én gang for et flueben, to gange for et kryds og en tredje gang for at slette det. Giv hvert barn ét flueben.",
+      "no": "Trykk på en rute én gang for en hake, to ganger for et kryss og en tredje gang for å fjerne merket. Gi hvert barn én hake.",
+      "fi": "Napauta ruutua kerran, niin siihen tulee väkänen, kahdesti, niin tulee ruksi, ja kolmannen kerran, niin se tyhjenee. Anna jokaiselle lapselle yksi väkänen."
+    },
+    "grid-two": {
+      "en": "Tap a box once for a check mark, twice for an X, a third time to clear it. Give each child one check mark in each of the two top grids.",
+      "de": "Tippe einmal auf ein Kästchen für einen Haken, zweimal für ein Kreuz und ein drittes Mal zum Löschen. Gib jedem Kind in den beiden oberen Tabellen je einen Haken.",
+      "es": "Toca una casilla una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño en cada una de las dos cuadrículas de arriba.",
+      "fr": "Touche une case une fois pour une coche, deux fois pour une croix, une troisième fois pour effacer. Donne une coche à chaque enfant dans chacune des deux grilles du haut.",
+      "it": "Tocca una casella una volta per la spunta, due volte per la crocetta, una terza volta per cancellarla. Dai una spunta a ogni bambino in ciascuna delle due griglie in alto.",
+      "pt": "Toque um quadradinho uma vez para pôr um certo, duas vezes para um xis e uma terceira vez para apagar. Dê um certo para cada criança em cada uma das duas tabelas de cima.",
+      "nl": "Tik één keer op een vakje voor een vinkje, twee keer voor een kruisje en een derde keer om het weer leeg te maken. Geef elk kind één vinkje in elk van de twee bovenste roosters.",
+      "sv": "Tryck på en ruta en gång för en bock, två gånger för ett kryss och en tredje gång för att sudda ut den. Ge varje barn en bock i vart och ett av de två översta rutnäten.",
+      "da": "Tryk på et felt én gang for et flueben, to gange for et kryds og en tredje gang for at slette det. Giv hvert barn ét flueben i hvert af de to øverste skemaer.",
+      "no": "Trykk på en rute én gang for en hake, to ganger for et kryss og en tredje gang for å fjerne merket. Gi hvert barn én hake i hver av de to øverste tabellene.",
+      "fi": "Napauta ruutua kerran, niin siihen tulee väkänen, kahdesti, niin tulee ruksi, ja kolmannen kerran, niin se tyhjenee. Anna jokaiselle lapselle yksi väkänen kumpaankin ylempään ruudukkoon."
+    },
+    "read": {
+      "en": "Tap the check mark if the sentence is true, or the X if it is false.",
+      "de": "Tippe auf den Haken, wenn der Satz stimmt, oder auf das Kreuz, wenn er nicht stimmt.",
+      "es": "Toca la palomita si la oración es verdadera o la tacha si es falsa.",
+      "fr": "Touche la coche si la phrase est vraie, ou la croix si elle est fausse.",
+      "it": "Tocca la spunta se la frase è vera, o la crocetta se è falsa.",
+      "pt": "Toque no certo se a frase for verdadeira ou no xis se for falsa.",
+      "nl": "Tik op het vinkje als de zin klopt, of op het kruisje als hij niet klopt.",
+      "sv": "Tryck på bocken om meningen stämmer, eller på krysset om den inte stämmer.",
+      "da": "Tryk på fluebenet, hvis sætningen er rigtig, eller på krydset, hvis den er forkert.",
+      "no": "Trykk på haken hvis setningen er sann, eller på krysset hvis den er usann.",
+      "fi": "Napauta väkästä, jos lause on totta, tai ruksia, jos se ei ole totta."
+    }
   }
 }

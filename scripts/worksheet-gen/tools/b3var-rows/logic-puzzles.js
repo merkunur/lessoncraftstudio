@@ -43,16 +43,16 @@ const ROWS = [
   ['g2', 'G2-344', 'logic-puzzles-yes-no-either-or-clues', 'G2-319-logic-puzzles.js', 2,
     { clues: [2, 3], kinds: ['either', 'pos', 'neg', 'holderNot'], minEither: 1, maxPos: 1, pageMin: { pos: 1, either: 1 } },
     'Logic Grid Puzzles with Yes, No and Either-Or Clues',
-    'A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.'],
+    'A yes clue gets a check mark, a no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.'],
   ['g3', 'G3-378', 'logic-puzzles-4-by-4-six-clues', 'G2-319-logic-puzzles.js', 2,
     { size: 4, clues: [6, 6], kinds: ['neg', 'either'], maxEither: 2, headW: 104, namePx: 18, picPx: 52, answer: 'none' },
     '4 by 4 Logic Grid Puzzles: Six Clues',
-    'Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer.',
+    'Four children and four pictures. Use every clue: cross out what cannot be true and check what must be true until each row has one answer.',
     { gradeBand: 'G3' }],
   ['g1', 'G1-349', 'logic-puzzles-picture-clues', 'G2-319-logic-puzzles.js', 2,
     { mode: 'picture', clues: [2, 3], kinds: ['neg', 'pos'], maxPos: 1, pageMin: { pos: 1 }, cell: 56, ring: 56, bankPic: 44, bankW: 488, answer: 'circle' },
     'Picture Clue Logic Puzzles: Cross Out and Find',
-    'A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer.',
+    'A crossed-out picture means the child does not have it, a circled one means the child has it. Cross out on the grid, then circle each answer.',
     { gradeBand: 'G1' }],
   ['g3', 'G3-379', 'logic-puzzles-two-attributes', 'G2-319-logic-puzzles.js', 2,
     { mode: 'two-attr', attr2: ['fruits', 'pets'], cases: 1, clues: [4, 6], kinds: ['neg', 'pos', 'cross'], maxPos: 2, minCross: 1, answer: 'none' },
@@ -62,7 +62,7 @@ const ROWS = [
   ['g2', 'G2-345', 'logic-puzzles-read-the-grid-true-or-false', 'G2-319-logic-puzzles.js', 2,
     { mode: 'read', statements: 5, stmtKinds: ['has', 'hasNot', 'holderIs'], trueRange: [2, 3], maxNobody: 1, cell: 56, headW: 104, namePx: 18, glyph: 40, answer: 'none' },
     'Read the Logic Grid: True or False',
-    'The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false.'],
+    'The grid is already solved. Read it, then circle the check mark if the sentence is true or the X if it is false.'],
 ];
 const HANDWRITTEN = [];
 module.exports = { ROWS, HANDWRITTEN };

@@ -24,6 +24,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'find-the-differences', // Find the Differences (2026-10-10): tap every difference / the count / the changed words (original scenes)
   'feelings',
   'fractions',           // Fractions (2026-10-08): tap the picture / fraction / bar, colour the parts, tap equal shapes
+  'logic-puzzles',       // Logic Grid Puzzles (2026-10-15): tick / cross the printed grid (one tick per child is graded); read the grid: tap the tick or the cross
   'maze-puzzles',        // Maze Puzzles (2026-10-12): draw the way along the roads (original scenes, three levels per face)
   'mental-math',         // Mental Math (2026-10-09): tap the missing number of each problem
   'multiplication-tables', // Multiplication Tables (2026-10-13): tap the product or the missing factor of each fact

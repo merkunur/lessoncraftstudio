@@ -9,7 +9,10 @@ module.exports = {
   ...base,
   id: 'G3-379',
   slug: 'logic-puzzles-two-attributes',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-15 (walk #69): real levels 1 / 3 (G2-319 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b3var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-379', D),
+  interactive: base.interactiveFor('two-attr'),
   i18n: { en: { title: "Two-Attribute Logic Puzzles: Two Pictures per Child", instruction: "Each child has one picture from each set. Use the linking clues to fill all three grids." } },
   gradeBand: "G3",
 };

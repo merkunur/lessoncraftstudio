@@ -1,0 +1,445 @@
+{
+ "_note": "Level Set walk #69 (2026-10-15): extra names for NEW Logic Grid Puzzles pages only (the published level-2 copy 1 keeps the bank's 8). Picked from data/b4/pronouns-levelset.json; fi forms by rule, native-reviewed.",
+ "en": [
+  {
+   "nom": "Nora"
+  },
+  {
+   "nom": "Grace"
+  },
+  {
+   "nom": "Sara"
+  },
+  {
+   "nom": "Maya"
+  },
+  {
+   "nom": "Zoe"
+  },
+  {
+   "nom": "Kate"
+  },
+  {
+   "nom": "Noah"
+  },
+  {
+   "nom": "Liam"
+  },
+  {
+   "nom": "Owen"
+  },
+  {
+   "nom": "Omar"
+  },
+  {
+   "nom": "Adam"
+  },
+  {
+   "nom": "Theo"
+  }
+ ],
+ "de": [
+  {
+   "nom": "Frida"
+  },
+  {
+   "nom": "Clara"
+  },
+  {
+   "nom": "Ida"
+  },
+  {
+   "nom": "Greta"
+  },
+  {
+   "nom": "Ronja"
+  },
+  {
+   "nom": "Lara"
+  },
+  {
+   "nom": "Jonas"
+  },
+  {
+   "nom": "Felix"
+  },
+  {
+   "nom": "Emil"
+  },
+  {
+   "nom": "Anton"
+  },
+  {
+   "nom": "Theo"
+  },
+  {
+   "nom": "Oskar"
+  }
+ ],
+ "es": [
+  {
+   "nom": "Paula"
+  },
+  {
+   "nom": "Sara"
+  },
+  {
+   "nom": "Frida"
+  },
+  {
+   "nom": "Carmen"
+  },
+  {
+   "nom": "Diana"
+  },
+  {
+   "nom": "Ximena"
+  },
+  {
+   "nom": "Gael"
+  },
+  {
+   "nom": "Iker"
+  },
+  {
+   "nom": "Bruno"
+  },
+  {
+   "nom": "Iván"
+  },
+  {
+   "nom": "Pedro"
+  },
+  {
+   "nom": "Jorge"
+  }
+ ],
+ "fr": [
+  {
+   "nom": "Lina"
+  },
+  {
+   "nom": "Julia"
+  },
+  {
+   "nom": "Lucie"
+  },
+  {
+   "nom": "Clara"
+  },
+  {
+   "nom": "Eva"
+  },
+  {
+   "nom": "Nora"
+  },
+  {
+   "nom": "Malo"
+  },
+  {
+   "nom": "Paul"
+  },
+  {
+   "nom": "Adam"
+  },
+  {
+   "nom": "Enzo"
+  },
+  {
+   "nom": "Axel"
+  },
+  {
+   "nom": "Simon"
+  }
+ ],
+ "it": [
+  {
+   "nom": "Emma"
+  },
+  {
+   "nom": "Greta"
+  },
+  {
+   "nom": "Sara"
+  },
+  {
+   "nom": "Noemi"
+  },
+  {
+   "nom": "Elena"
+  },
+  {
+   "nom": "Irene"
+  },
+  {
+   "nom": "Pietro"
+  },
+  {
+   "nom": "Davide"
+  },
+  {
+   "nom": "Fabio"
+  },
+  {
+   "nom": "Giorgio"
+  },
+  {
+   "nom": "Stefano"
+  },
+  {
+   "nom": "Alessio"
+  }
+ ],
+ "pt": [
+  {
+   "nom": "Maria"
+  },
+  {
+   "nom": "Beatriz"
+  },
+  {
+   "nom": "Cecília"
+  },
+  {
+   "nom": "Luana"
+  },
+  {
+   "nom": "Sara"
+  },
+  {
+   "nom": "Rebeca"
+  },
+  {
+   "nom": "Heitor"
+  },
+  {
+   "nom": "Tiago"
+  },
+  {
+   "nom": "Bruno"
+  },
+  {
+   "nom": "Felipe"
+  },
+  {
+   "nom": "Murilo"
+  },
+  {
+   "nom": "Rafael"
+  }
+ ],
+ "nl": [
+  {
+   "nom": "Sophie"
+  },
+  {
+   "nom": "Nora"
+  },
+  {
+   "nom": "Saar"
+  },
+  {
+   "nom": "Yara"
+  },
+  {
+   "nom": "Fenna"
+  },
+  {
+   "nom": "Lieke"
+  },
+  {
+   "nom": "Levi"
+  },
+  {
+   "nom": "Thijs"
+  },
+  {
+   "nom": "Ruben"
+  },
+  {
+   "nom": "Stijn"
+  },
+  {
+   "nom": "Teun"
+  },
+  {
+   "nom": "Hugo"
+  }
+ ],
+ "sv": [
+  {
+   "nom": "Ebba"
+  },
+  {
+   "nom": "Astrid"
+  },
+  {
+   "nom": "Wilma"
+  },
+  {
+   "nom": "Selma"
+  },
+  {
+   "nom": "Freja"
+  },
+  {
+   "nom": "Signe"
+  },
+  {
+   "nom": "Isak"
+  },
+  {
+   "nom": "Arvid"
+  },
+  {
+   "nom": "Viktor"
+  },
+  {
+   "nom": "Albin"
+  },
+  {
+   "nom": "Anton"
+  },
+  {
+   "nom": "Filip"
+  }
+ ],
+ "da": [
+  {
+   "nom": "Emma"
+  },
+  {
+   "nom": "Liva"
+  },
+  {
+   "nom": "Agnes"
+  },
+  {
+   "nom": "Ellen"
+  },
+  {
+   "nom": "Nora"
+  },
+  {
+   "nom": "Anna"
+  },
+  {
+   "nom": "Lucas"
+  },
+  {
+   "nom": "Carl"
+  },
+  {
+   "nom": "Aksel"
+  },
+  {
+   "nom": "Magnus"
+  },
+  {
+   "nom": "Otto"
+  },
+  {
+   "nom": "Anton"
+  }
+ ],
+ "no": [
+  {
+   "nom": "Ingrid"
+  },
+  {
+   "nom": "Sara"
+  },
+  {
+   "nom": "Frida"
+  },
+  {
+   "nom": "Astrid"
+  },
+  {
+   "nom": "Selma"
+  },
+  {
+   "nom": "Thea"
+  },
+  {
+   "nom": "Filip"
+  },
+  {
+   "nom": "Oskar"
+  },
+  {
+   "nom": "Lukas"
+  },
+  {
+   "nom": "Henrik"
+  },
+  {
+   "nom": "Magnus"
+  },
+  {
+   "nom": "Olav"
+  }
+ ],
+ "fi": [
+  {
+   "nom": "Oona",
+   "ade": "Oonalla",
+   "gen": "Oonan"
+  },
+  {
+   "nom": "Enni",
+   "ade": "Ennillä",
+   "gen": "Ennin"
+  },
+  {
+   "nom": "Iida",
+   "ade": "Iidalla",
+   "gen": "Iidan"
+  },
+  {
+   "nom": "Inka",
+   "ade": "Inkalla",
+   "gen": "Inkan"
+  },
+  {
+   "nom": "Venla",
+   "ade": "Venlalla",
+   "gen": "Venlan"
+  },
+  {
+   "nom": "Essi",
+   "ade": "Essillä",
+   "gen": "Essin"
+  },
+  {
+   "nom": "Eetu",
+   "ade": "Eetulla",
+   "gen": "Eetun"
+  },
+  {
+   "nom": "Aapo",
+   "ade": "Aapolla",
+   "gen": "Aapon"
+  },
+  {
+   "nom": "Nooa",
+   "ade": "Nooalla",
+   "gen": "Nooan"
+  },
+  {
+   "nom": "Atte",
+   "ade": "Attella",
+   "gen": "Atten"
+  },
+  {
+   "nom": "Topi",
+   "ade": "Topilla",
+   "gen": "Topin"
+  },
+  {
+   "nom": "Elmo",
+   "ade": "Elmolla",
+   "gen": "Elmon"
+  }
+ ]
+}

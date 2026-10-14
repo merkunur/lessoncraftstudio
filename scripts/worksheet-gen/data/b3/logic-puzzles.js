@@ -121,19 +121,19 @@ const LOGIC_PUZZLES = {
     strings: {
       'G2-319': {
         title: 'Logic Grid Puzzles: Three Clues, One Answer',
-        instruction: 'Read the clues. Cross out on the grid what cannot be true, tick what must be true, then circle the picture each child has.',
+        instruction: 'Read the clues. Cross out on the grid what cannot be true, check what must be true, then circle the picture each child has.',
       },
       F1: {
         title: 'Logic Grid Puzzles with Yes, No and Either-Or Clues',
-        instruction: 'A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.',
+        instruction: 'A yes clue gets a check mark, a no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer.',
       },
       F2: {
         title: '4 by 4 Logic Grid Puzzles: Six Clues',
-        instruction: 'Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer.',
+        instruction: 'Four children and four pictures. Use every clue: cross out what cannot be true and check what must be true until each row has one answer.',
       },
       F3: {
         title: 'Picture Clue Logic Puzzles: Cross Out and Find',
-        instruction: 'A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer.',
+        instruction: 'A crossed-out picture means the child does not have it, a circled one means the child has it. Cross out on the grid, then circle each answer.',
       },
       F4: {
         // the second attribute is a PICTURE set (fruits; pets on the fruits fan), not the design's colour
@@ -144,7 +144,7 @@ const LOGIC_PUZZLES = {
       },
       F5: {
         title: 'Read the Logic Grid: True or False',
-        instruction: 'The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false.',
+        instruction: 'The grid is already solved. Read it, then circle the check mark if the sentence is true or the X if it is false.',
       },
     },
   },

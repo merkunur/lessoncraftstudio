@@ -5,6 +5,10 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const clock = require('../../primitives/clock.js');
+const { makeClockType, levelsFor } = require('../_shared/clock-tasks.js');
+// Level Set 2026-10-14: every Level Set page (and every screen / key) is built by the shared telling-time factory; the
+// published level-2 page keeps this file's own builder untouched below
+const LS = makeClockType({ id: 'G2-249', slug: 'telling-time-5-minutes', mode: 'read-circle', gradeBand: 'G23', i18n: {} });
 
 const fmt = (h, m) => `${h}:${String(m).padStart(2, '0')}`;
 
@@ -15,11 +19,9 @@ module.exports = {
   assetClass: 'clocks',
   exerciseType: 'telling-time',
   themeAxis: { applicable: false },
-  difficulty: {
-    1: { stepM: 30, cards: 4 },
-    2: { stepM: 5, cards: 4 },
-    3: { stepM: 5, cards: 6 },
-  },
+  difficulty: levelsFor('G2-249', { stepM: 5, cards: 4 }, { 1: { stepM: 30, cards: 4 }, 3: { stepM: 5, cards: 6 } }),
+  interactive: LS.interactive,
+  levelSetWords: LS.levelSetWords,
   i18n: {
     en: {
       title: 'What Time Is It?',
@@ -27,10 +29,13 @@ module.exports = {
     },
   },
 
-  build({ difficulty }, ctx) {
+  build(o, ctx) {
+    const { difficulty } = o;
     const d = this.difficulty[difficulty];
+    if (d.ls || (ctx && (ctx.interactive || ctx.answerKey))) return LS.build.call(this, o, ctx);
     const rng = ctx.rng;
     const cards = [];
+    const times = [];   // Level Set: what makes a copy different (meta only, never printed)
     const used = new Set();
     for (let i = 0; i < d.cards; i++) {
       let h, m;
@@ -41,6 +46,7 @@ module.exports = {
         guard++;
       } while (used.has(h + ':' + m) && guard < 50);
       used.add(h + ':' + m);
+      times.push(fmt(h, m));
       const face = clock({ h, m, size: d.cards > 4 ? 150 : 180 });
       // distractors: hands swapped reading + ±5min/±1h confusions
       const opts = new Set([fmt(h, m)]);
@@ -58,10 +64,12 @@ module.exports = {
         face.svg + `<div class="ws-choices">${choices}</div></div>`
       );
     }
-    return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: {} };
+    return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: { times } };
   },
 
   async verify(page) {
+    const ls = await LS.verify(page);
+    if (ls.length) return ls;
     return page.evaluate(() => {
       const fails = [];
       document.querySelectorAll('[data-lcs-card]').forEach((card, i) => {

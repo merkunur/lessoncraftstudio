@@ -778,7 +778,8 @@
   },
   "G3-344": {
     "title": "Hoeveel tijd verstreek?",
-    "instruction": "Vergelijk de twee klokken. Schrijf op hoeveel uur er verstreek."
+    "printTitle": "Hoeveel tijd is er voorbij?",
+    "instruction": "Vergelijk de twee klokken. Schrijf op hoeveel uur er voorbij is."
   },
   "G3-345": {
     "title": "Warm of koud?",

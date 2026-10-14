@@ -206,6 +206,35 @@ async function renderInstance(o) {
         trace: got.trace, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
       return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
     }
+    // SET-CLOCK (Telling Time Level Set 2026-10-14): each card's empty clock face — its centre and its face radius (the
+    // card stamps the face's radius / size, data-lcs-rf) in % of the crop; the child drags the hands onto it
+    if (spec.kind === 'set-clock') {
+      const got = await page.evaluate((sel) => {
+        const full = document.querySelector('[data-lcs-page]').getBoundingClientRect();
+        const els = [...document.querySelectorAll(sel)];
+        const lowest = Math.max(...els.map((el) => el.getBoundingClientRect().bottom));
+        const pg = { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
+        window.__lcsClip = { x: full.left + window.scrollX, y: full.top + window.scrollY, width: full.width, height: pg.height };
+        const items = els.map((el) => {
+          const svg = el.querySelector('svg[data-lcs-prim="clock"]'), r = svg.getBoundingClientRect(), rf = +el.getAttribute('data-lcs-rf');
+          return { cx: ((r.left + r.width / 2 - pg.left) / pg.width) * 100, cy: ((r.top + r.height / 2 - pg.top) / pg.height) * 100, r: (rf * r.width / pg.width) * 100,
+            answer: el.getAttribute('data-lcs-tq'), label: el.getAttribute('data-lcs-tq'), meta: { 'data-lcs-tq': el.getAttribute('data-lcs-tq'), 'data-lcs-step': el.getAttribute('data-lcs-step') } };
+        });
+        return { items, aspect: pg.width / pg.height };
+      }, spec.item);
+      if (!got.items.length || got.items.some((it) => !(it.r > 0))) throw new Error(`render-instance: ${type.id} set-clock screen without measurable clock faces`);
+      const screenPng = base + '.screen.png';
+      await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
+      const keyBuilt = await again({ answerKey: true });
+      sameAs(keyBuilt, 'answer-key');
+      await load(buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize }), '.key');
+      const keyPdf = base + '.key.pdf';
+      await page.pdf({ path: keyPdf, printBackground: true, preferCSSPageSize: true });
+      const keyLints = judgeKey(await measureKeyPage(page), 'answer key')
+        .concat((await runLints(page, { gradeBand: type.gradeBand })).filter((l) => /footer overlap|exceeds page box/.test(l)).map((l) => 'answer key: ' + l));
+      interactive = { kind: spec.kind, items: got.items, clock: { aspect: got.aspect, names: spec.clockNames(locale) }, pngPath: screenPng, keyPdfPath: keyPdf, lints: screenLints.concat(keyLints) };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
+    }
     // the screen picture is CROPPED just below the lowest item (no empty half page on a phone);
     // every rectangle is measured against that crop
     const geo = await page.evaluate((sp) => {

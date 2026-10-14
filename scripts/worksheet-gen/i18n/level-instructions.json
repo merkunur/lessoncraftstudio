@@ -3457,5 +3457,50 @@
    "no": "Se hvor nær mål hver løper er. Den som er nærmest, blir 1. Skriv 1., 2., 3. og 4.",
    "fi": "Katso, kuinka lähellä maaliviivaa jokainen kilpailija on. Lähin on 1. Kirjoita 1., 2., 3. ja 4."
   }
+ },
+ "G1-233": {
+  "1": {
+   "en": "Read the time. The minute hand is already drawn. Draw the hour hand on the clock.",
+   "de": "Lies die Uhrzeit. Der Minutenzeiger ist schon eingezeichnet. Zeichne den Stundenzeiger in die Uhr ein.",
+   "es": "Lee la hora. La manecilla de los minutos ya está dibujada. Dibuja la manecilla de las horas en el reloj.",
+   "fr": "Lis l'heure sur l'étiquette. La grande aiguille est déjà dessinée. Dessine la petite aiguille sur l'horloge.",
+   "it": "Leggi l'ora scritta sotto. La lancetta dei minuti è già disegnata. Disegna la lancetta delle ore sull'orologio.",
+   "pt": "Leia a hora no visor. O ponteiro dos minutos já está desenhado. Desenhe o ponteiro das horas.",
+   "nl": "Lees de tijd onder de klok. De grote wijzer is al getekend. Teken de kleine wijzer.",
+   "sv": "Läs tiden på lappen. Minutvisaren är redan ritad. Rita timvisaren på klockan.",
+   "da": "Læs klokkeslættet. Den store viser er allerede tegnet. Tegn den lille viser på uret.",
+   "no": "Les klokkeslettet. Minuttviseren er allerede tegnet. Tegn timeviseren på klokka.",
+   "fi": "Lue aika kellon alta. Minuuttiviisari on jo piirretty. Piirrä kelloon tuntiviisari."
+  }
+ },
+ "G1-234": {
+  "1": {
+   "en": "Read the time. The minute hand is already drawn. Draw the hour hand on the clock.",
+   "de": "Lies die Uhrzeit. Der Minutenzeiger ist schon eingezeichnet. Zeichne den Stundenzeiger in die Uhr ein.",
+   "es": "Lee la hora. La manecilla de los minutos ya está dibujada. Dibuja la manecilla de las horas en el reloj.",
+   "fr": "Lis l'heure sur l'étiquette. La grande aiguille est déjà dessinée. Dessine la petite aiguille sur l'horloge.",
+   "it": "Leggi l'ora scritta sotto. La lancetta dei minuti è già disegnata. Disegna la lancetta delle ore sull'orologio.",
+   "pt": "Leia a hora no visor. O ponteiro dos minutos já está desenhado. Desenhe o ponteiro das horas.",
+   "nl": "Lees de tijd onder de klok. De grote wijzer is al getekend. Teken de kleine wijzer.",
+   "sv": "Läs tiden på lappen. Minutvisaren är redan ritad. Rita timvisaren på klockan.",
+   "da": "Læs klokkeslættet. Den store viser er allerede tegnet. Tegn den lille viser på uret.",
+   "no": "Les klokkeslettet. Minuttviseren er allerede tegnet. Tegn timeviseren på klokka.",
+   "fi": "Lue aika kellon alta. Minuuttiviisari on jo piirretty. Piirrä kelloon tuntiviisari."
+  }
+ },
+ "G1-235": {
+  "1": {
+   "en": "Read the time. The minute hand is already drawn. Draw the hour hand on the clock.",
+   "de": "Lies die Uhrzeit. Der Minutenzeiger ist schon eingezeichnet. Zeichne den Stundenzeiger in die Uhr ein.",
+   "es": "Lee la hora. La manecilla de los minutos ya está dibujada. Dibuja la manecilla de las horas en el reloj.",
+   "fr": "Lis l'heure sur l'étiquette. La grande aiguille est déjà dessinée. Dessine la petite aiguille sur l'horloge.",
+   "it": "Leggi l'ora scritta sotto. La lancetta dei minuti è già disegnata. Disegna la lancetta delle ore sull'orologio.",
+   "pt": "Leia a hora no visor. O ponteiro dos minutos já está desenhado. Desenhe o ponteiro das horas.",
+   "nl": "Lees de tijd onder de klok. De grote wijzer is al getekend. Teken de kleine wijzer.",
+   "sv": "Läs tiden på lappen. Minutvisaren är redan ritad. Rita timvisaren på klockan.",
+   "da": "Læs klokkeslættet. Den store viser er allerede tegnet. Tegn den lille viser på uret.",
+   "no": "Les klokkeslettet. Minuttviseren er allerede tegnet. Tegn timeviseren på klokka.",
+   "fi": "Lue aika kellon alta. Minuuttiviisari on jo piirretty. Piirrä kelloon tuntiviisari."
+  }
  }
 }

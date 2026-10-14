@@ -738,6 +738,92 @@ async function playTrace(page, html, oracle) {
   return fails;
 }
 
+/**
+ * set-clock (Telling Time Level Set 2026-10-14): the robot DRAGS the hands with real pointer moves. The oracle gives each
+ * clock's time (the printed digital time); the robot turns the minute hand to it and the hour hand to its true place
+ * ((h + m/60) × 30°). Checks: every face has a hit area and its hand handles are ≥ 44 px · Check stays disabled until every
+ * clock is touched · the hour hand pointing AT the hour number on a clock that is not o'clock (one hour off on an o'clock
+ * clock) → that clock red, no celebration · Try again resets the hands · the right hands → every clock green + celebration
+ * · a minute hand one step off → red.
+ */
+async function playSetClock(page, html, oracle) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    await page.evaluate(async () => { await document.fonts.ready; await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); });
+    const info = await page.evaluate(() => ({
+      faces: document.querySelectorAll('.lcs-face').length,
+      hands: [...document.querySelectorAll('.lcs-hand')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height }; }),
+      bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !Array.isArray(B.items) || info.faces !== B.items.length) { fails.push(`${w}px: ${info.faces} clock faces for ${B && B.items ? B.items.length : 0} items`); return fails; }
+    info.hands.forEach((o, i) => { if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: hand handle ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)}`); });
+    if (w !== 768) continue;
+    let times;
+    try { times = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta }))); } catch (e) { fails.push('oracle: ' + e.message); return fails; }
+    const state = () => page.evaluate(() => ({ celebrate: !document.getElementById('lcs-celebration').hidden, states: window.__lcsClock.K.map((k) => k.state || ''), checkDisabled: document.getElementById('lcs-check').disabled }));
+    // one real drag: press at the hand's tip, move round the face to the angle, release
+    const dragHand = async (i, hand, toDeg) => {
+      await page.evaluate((k) => document.querySelectorAll('.lcs-face')[k].scrollIntoView({ block: 'center' }), i);
+      const g = await page.evaluate((k, hd) => {
+        const C = window.__lcsClock, K = C.K[k], st = document.getElementById('lcs-stage').getBoundingClientRect();
+        const a = (hd === 'h' ? K.H : K.M) * Math.PI / 180, L = (hd === 'h' ? 0.5 : 0.76) * K.R;
+        const sx = st.width / C.VW, sy = st.height / C.VH;
+        return { cx: st.left + K.cx * sx, cy: st.top + K.cy * sy, R: K.R * sx, tx: st.left + (K.cx + Math.sin(a) * L) * sx, ty: st.top + (K.cy - Math.cos(a) * L) * sy };
+      }, i, hand);
+      await page.mouse.move(g.tx, g.ty);
+      await page.mouse.down();
+      const L = (hand === 'h' ? 0.5 : 0.76) * g.R, rad = toDeg * Math.PI / 180;
+      await page.mouse.move(g.cx + Math.sin(rad) * L, g.cy - Math.cos(rad) * L, { steps: 8 });
+      await page.mouse.up();
+    };
+    const setClock = async (i, h, m, hourDeg) => {
+      const fixed = String(B.items[i].meta['data-lcs-step']) === '0';
+      if (!fixed) await dragHand(i, 'm', m * 6);
+      await dragHand(i, 'h', hourDeg != null ? hourDeg : ((h % 12) + m / 60) * 30);
+    };
+    const press = (id) => page.evaluate((x) => { const e = document.getElementById(x); if (!e || e.hidden || e.disabled) return false; e.click(); return true; }, id);
+    const parsed = times.map((t) => String(t).split(':').map(Number));
+    // all but the last clock → Check stays disabled
+    for (let i = 0; i < parsed.length - 1; i++) await setClock(i, parsed[i][0], parsed[i][1]);
+    let st = await state();
+    if (!st.checkDisabled) fails.push('Check enabled with an untouched clock');
+    // the last clock wrong: the hour hand AT the hour number (from :30 on) or at the NEXT number (before :30) — never within 15° of right
+    const [lh, lm] = parsed[parsed.length - 1];
+    await setClock(parsed.length - 1, lh, lm, lm < 30 ? ((lh % 12) + 1) * 30 : (lh % 12) * 30);
+    if (!(await press('lcs-check'))) fails.push('Check could not be pressed');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (st.celebrate) fails.push('a WRONG hour hand reached the celebration');
+    if (st.states[st.states.length - 1] !== 'wrong' || st.states.slice(0, -1).some((x) => x !== 'right')) fails.push('one wrong hour hand gave ' + st.states.join(','));
+    // Try again: the hands go back; all right → celebration
+    if (!(await press('lcs-reset'))) fails.push('no Try again');
+    st = await state();
+    if (!st.checkDisabled) fails.push('Try again did not reset the hands');
+    for (let i = 0; i < parsed.length; i++) await setClock(i, parsed[i][0], parsed[i][1]);
+    if (!(await press('lcs-check'))) fails.push('Check could not be pressed (right hands)');
+    await new Promise((r) => setTimeout(r, 600));
+    st = await state();
+    if (!st.celebrate) fails.push('the right hands did not reach the celebration (' + st.states.join(',') + ')');
+    // a minute hand one step off on the first clock whose minute hand is free
+    const free = B.items.findIndex((it) => String(it.meta['data-lcs-step']) !== '0');
+    if (free >= 0) {
+      await press('lcs-cele-close');
+      for (let i = 0; i < parsed.length; i++) await setClock(i, parsed[i][0], parsed[i][1]);
+      await dragHand(free, 'm', ((parsed[free][1] + 5) % 60) * 6);
+      await press('lcs-check');
+      await new Promise((r) => setTimeout(r, 600));
+      st = await state();
+      if (st.celebrate || st.states[free] !== 'wrong') fails.push('a minute hand one step off was not marked wrong');
+    }
+  }
+  return fails;
+}
+
 async function main() {
   const folder = process.argv[2];
   const poison = process.argv.includes('--poison');
@@ -779,6 +865,7 @@ async function main() {
         : B.kind === 'type-number' && B.ctx && (B.ctx.sortSets || B.ctx.picks) ? (() => { const S = B.ctx.sortSets; if (S) { const k = Object.keys(S); const t = S[k[0]]; S[k[0]] = S[k[1]]; S[k[1]] = t; } (B.ctx.picks || []).forEach((p) => { p.answer = (p.answer + 1) % p.options.length; }); return B.answers.map((a) => a + 1); })()
         : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
         : B.kind === 'type-word' ? B.answers.map((a) => a + [...a].pop())
+        : B.kind === 'set-clock' ? B.answers.map((a) => { const p = String(a).split(':'); return ((+p[0] % 12) + 1) + ':' + p[1]; })
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
         : B.answers.map((a) => (a % B.answers.length) + 1);
       return 'window.DECK_BUNDLE=' + JSON.stringify(B) + ';</script>';
@@ -786,14 +873,14 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace("el.addEventListener('click', function () { sel(i); });", '').replace("place(el, o); el.addEventListener('click', function () { tapPick(j, k); });", 'place(el, o);').replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++').replace('var right=hourOk&&minOk;', 'var right=true;')],
     ];
     // a deck whose write boxes carry accepted alternates (Ordinal Numbers 2026-10-14): a runtime that ignores them must be caught
     if (/"data-lcs-alts":"[^"]+"/.test(d.html)) cases.push(['alternates ignored', d.html.replace('function ALT(i,v){', 'function ALT(i,v){return false;')]);
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play))(page, html, d.oracle, d.locale);
+      const fails = await (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock }[d.kind] || play))(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -802,7 +889,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await (isPlus(d.html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play))(page, d.html, d.oracle, d.locale);
+    const fails = await (isPlus(d.html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock }[d.kind] || play))(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

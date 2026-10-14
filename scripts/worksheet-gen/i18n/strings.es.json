@@ -434,11 +434,12 @@
   },
   "G1-148": {
     "title": "En punto",
-    "instruction": "Lee cada reloj. Rodea la hora correcta."
+    "instruction": "Lee cada reloj. Encierra la hora correcta."
   },
   "G1-149": {
     "title": "¿Y media de qué?",
-    "instruction": "Lee cada reloj. Rodea la hora correcta."
+    "printTitle": "Horas y media",
+    "instruction": "Lee cada reloj. Encierra la hora correcta."
   },
   "G1-150": {
     "title": "Relojes en pareja",
@@ -636,11 +637,11 @@
   },
   "G2-249": {
     "title": "¿Qué hora es?",
-    "instruction": "Lee cada reloj. Rodea la hora correcta."
+    "instruction": "Lee cada reloj. Encierra la hora correcta."
   },
   "G2-250": {
     "title": "Cuartos de hora",
-    "instruction": "Lee cada reloj. Rodea la hora correcta."
+    "instruction": "Lee cada reloj. Encierra la hora correcta."
   },
   "G3-301": {
     "title": "Arreglos grandes",
@@ -797,11 +798,11 @@
   },
   "G3-354": {
     "title": "Hora exacta",
-    "instruction": "Lee cada reloj. Rodea la hora correcta."
+    "instruction": "Lee cada reloj. Encierra la hora correcta."
   },
   "G3-355": {
     "title": "Reloj de 12 y 24 horas",
-    "instruction": "Convierte cada hora. Rodea la forma correcta."
+    "instruction": "Convierte cada hora. Encierra la forma correcta."
   },
   "G3-356": {
     "title": "Suma y resta de tiempo",
@@ -1021,7 +1022,8 @@
   },
   "G1-212": {
     "title": "Dibuja las agujas del reloj",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas del reloj",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-213": {
     "title": "Problemas con dibujos",
@@ -1265,23 +1267,28 @@
   },
   "G1-233": {
     "title": "Dibuja las agujas: la hora en punto",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas: la hora en punto",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-234": {
     "title": "Dibuja las agujas: y media",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas: y media",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-235": {
     "title": "Dibuja las agujas: y cuarto y menos cuarto",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas: cuartos de hora",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-236": {
     "title": "Dibuja las agujas: de 5 en 5 minutos",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas: de 5 en 5 minutos",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-237": {
     "title": "Dibuja las agujas: repaso de horas",
-    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+    "printTitle": "Dibuja las manecillas: repaso de horas",
+    "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."
   },
   "G1-238": {
     "title": "Problemas de sumas",

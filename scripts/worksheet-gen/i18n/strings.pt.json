@@ -431,10 +431,12 @@
   },
   "G1-148": {
     "title": "Na hora certa",
+    "printTitle": "Horas em ponto",
     "instruction": "Leia cada relógio. Circule a hora certa."
   },
   "G1-149": {
     "title": "Meia hora de quê?",
+    "printTitle": "Horas e meia",
     "instruction": "Leia cada relógio. Circule a hora certa."
   },
   "G1-150": {

@@ -128,6 +128,21 @@ function screenConfig(d) {
   if (d.mode === 'generations') Object.assign(s, { rowH: 170, rowMax: 190 });
   return s;
 }
+const escA = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+/** a plain empty write box for a screen (the child TYPES — no handwriting lines to sit letters on) */
+function screenBox({ w, h, attrs }) {
+  return `<span class="fam-slot" ${attrs} style="box-sizing:border-box;display:block;width:${w}px;height:${h}px;background:${tokens.color.white};border:2.5px dashed ${tokens.color.coral};border-radius:12px"></span>`;
+}
+/** Read the Clues on a screen: an empty name box (same stamps as nameBox) */
+function screenNameBox({ w, h, answer, attrs = '' }) {
+  return `<span class="ws-blankbox" ${attrs} data-lcs-answer="${escA(answer)}" data-lcs-namebox="" style="box-sizing:border-box;display:block;width:${w}px;height:${h}px;background:${tokens.color.white};border:2.5px dashed ${tokens.color.coral};border-radius:12px"></span>`;
+}
+/** Riddles on a screen: number + the riddle (the gap a short line) on one line, the empty write box under it */
+function screenRiddleRow({ n, before, after, path, answer, word, alts }) {
+  const box = screenBox({ w: 360, h: 96, attrs: `data-lcs-riddle-path="${escA(path)}" data-lcs-answer="${escA(answer)}" data-lcs-word="${escA(word)}" data-lcs-alts="${escA(alts.join('|'))}"` });
+  return `<div class="fam-riddle" data-lcs-riddle="${n}" style="display:flex;align-items:flex-start;gap:12px;flex:0 0 auto">` + C5.famNumberDisc({ n, d: 34, px: 22 }) +
+    `<div style="display:flex;flex-direction:column;gap:8px"><p data-lcs-riddle-text="" style="margin:0;font-family:${tokens.font.body},sans-serif;font-weight:700;font-size:28px;line-height:36px;color:${tokens.color.ink}">${escA(before)}____${escA(after)}</p>${box}</div></div>`;
+}
 /** Generations on a screen: the word over a big write box */
 function screenPlacard({ wordKey, text, answer, gen }) {
   const { blankNumeralBox } = require('../../templates/components-b3.js');
@@ -566,7 +581,7 @@ function faceTreeClues(bankLoc, d, locale, rng, over) {
     const p = persons.find((q) => q.id === n.id);
     const style = `position:absolute;left:${(n.cx - d.plate[0] / 2).toFixed(2)}px;top:${(n.y + d.frame[1] + d.plateGap).toFixed(2)}px;width:${d.plate[0]}px;height:${d.plate[1]}px;display:flex`;
     const at = `data-lcs-plate-for="${p.id}" data-lcs-plate-path="${p.path}"`;
-    return `<div style="${style}">` + (emptyIds.has(p.id) ? C5.nameBox({ w: d.plate[0], h: d.plate[1], answer: nameOf[p.id].name, attrs: d.screen ? `${at} data-lcs-clue="${((clues.find((c) => c.path === p.path) || {}).text || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` : at }) : C5.famGivenPlate({ text: nameOf[p.id].name, w: d.plate[0], h: d.plate[1], attrs: at })) + `</div>`;
+    return `<div style="${style}">` + (emptyIds.has(p.id) ? (d.screen ? screenNameBox : C5.nameBox)({ w: d.plate[0], h: d.plate[1], answer: nameOf[p.id].name, attrs: d.screen ? `${at} data-lcs-clue="${((clues.find((c) => c.path === p.path) || {}).text || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` : at }) : C5.famGivenPlate({ text: nameOf[p.id].name, w: d.plate[0], h: d.plate[1], attrs: at })) + `</div>`;
   }).join('');
   const stage = C5.familyStage({ persons, frame: { w: d.frame[0], h: d.frame[1] }, nodeW: d.plate[0], labelH: d.plateGap + d.plate[1], rowGap: d.rowGap, plates: false, badges: {}, egoId: ego.id, egoName: egoRec.name, skin: 'tree', w: BODY_W, overlay });
   let list = C5.clueList({ clues, rowH: d.clueH, rowMax: d.clueMax });
@@ -619,8 +634,7 @@ function faceRiddles(bankLoc, d, locale, rng, over) {
     const row = C5.riddleRow({ n: i + 1, before: before.replace(/\s+$/, ' ').replace(/^\s+/, ''), after, path: p, answer: answers[p], slotW: d.slot[0], slotH: d.slot[1], rowH: d.rowH, rowMax: d.rowMax });
     if (!d.screen) return row;
     const lit = literal(bankLoc, answers[p], locale).text;
-    const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
-    return row.replace(`data-lcs-answer="${answers[p]}"`, `data-lcs-answer="${answers[p]}" data-lcs-word="${esc(lit)}" data-lcs-alts="${esc(FS.altsOf(lit).join('|'))}"`).replace(/font-size:18px;line-height:26px/, 'font-size:28px;line-height:38px');
+    return screenRiddleRow({ n: i + 1, before: before.replace(/\s+$/, ' ').replace(/^\s+/, ''), after, path: p, answer: answers[p], word: lit, alts: FS.altsOf(lit) });
   }).join('') + `</div>`;
   const bandH = d.frame[1] + 8 + 13;
   const rowsH = paths.length * d.rowH + (paths.length - 1) * d.rowGap, rowsMax = paths.length * d.rowMax + (paths.length - 1) * d.rowGap;

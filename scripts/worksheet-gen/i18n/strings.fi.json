@@ -1746,7 +1746,7 @@
   },
   "G2-302": {
     "title": "Koordinaatit 6×6-ruudukossa",
-    "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla."
+    "instruction": "Etsi jokainen ruutu kirjaimen ja numeron avulla ja väritä se oikealla värillä."
   },
   "G2-303": {
     "title": "Koordinaatit 10×10-ruudukossa",
@@ -1854,7 +1854,7 @@
   },
   "G2-308": {
     "title": "Koordinaatit: kirjoita ruutujen tunnukset",
-    "instruction": "Kuva on jo väritetty. Kirjoita värin ruudut listaan."
+    "instruction": "Kuva on jo väritetty. Kirjoita jokaisen ruudun tunnus sen värin listaan."
   },
   "K-309": {
     "title": "Yhdistä pisteet aakkosjärjestyksessä a–t",

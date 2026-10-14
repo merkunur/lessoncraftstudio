@@ -1,0 +1,357 @@
+{
+  "id": "wave-grc-sv",
+  "_note": "Level Set 2026-10-14: Grid Coordinates. Level 1 easier (a 6x6 grid; on the 6x6 and 10x10 pages a smaller picture with the codes listed in reading order; on Write the Codes a small picture with fewer codes to write), level 2 the published page with a new picture, level 3 harder (the 10x10 grid; more colour groups on the 6x6 page; a bigger picture on the 10x10 page; an 8x8 grid on Write the Codes). Every copy of a level is a different picture. Visible to teachers, never indexed; PDF only.",
+  "indexable": false,
+  "interactive": false,
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G2-279",
+    "G2-302",
+    "G2-303",
+    "G2-308"
+  ],
+  "levels": {
+    "G2-279": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 10
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 7
+        }
+      ]
+    },
+    "G2-302": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 9
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 13
+        }
+      ]
+    },
+    "G2-303": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 6
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 6
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 12
+        }
+      ]
+    },
+    "G2-308": {
+      "1": [
+        {
+          "copy": 7,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 8,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 9,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 10,
+          "unit": null,
+          "seedVariant": 7
+        },
+        {
+          "copy": 11,
+          "unit": null,
+          "seedVariant": 11
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 3,
+          "unit": null,
+          "seedVariant": 3
+        },
+        {
+          "copy": 4,
+          "unit": null,
+          "seedVariant": 4
+        },
+        {
+          "copy": 5,
+          "unit": null,
+          "seedVariant": 5
+        },
+        {
+          "copy": 6,
+          "unit": null,
+          "seedVariant": 8
+        }
+      ],
+      "3": [
+        {
+          "copy": 12,
+          "unit": null,
+          "seedVariant": 1
+        },
+        {
+          "copy": 13,
+          "unit": null,
+          "seedVariant": 2
+        },
+        {
+          "copy": 14,
+          "unit": null,
+          "seedVariant": 8
+        },
+        {
+          "copy": 15,
+          "unit": null,
+          "seedVariant": 12
+        },
+        {
+          "copy": 16,
+          "unit": null,
+          "seedVariant": 13
+        }
+      ]
+    }
+  }
+}

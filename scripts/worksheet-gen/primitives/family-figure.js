@@ -54,8 +54,9 @@ const AGE_GEOM = {
     shoulders: 'M 22 120 C 22 104 30 96 40 94 L 60 94 C 70 96 78 104 78 120 Z', collar: 'M 43 94 Q 50 101 57 94',
     eyes: [[40, 53], [60, 53]], eyeR: 3.8, mouth: 'M 42.5 63.5 Q 50 73 57.5 63.5 Z', nose: null,
     cheeks: [[32, 62], [68, 62]], cheekR: 4.6, ears: [[22, 54], [78, 54]], earR: [4, 6] },
-  baby: { head: { cx: 50, cy: 62, rx: 30, ry: 29 }, neck: null,
-    shoulders: 'M 26 120 C 26 106 34 100 42 99 L 58 99 C 66 100 74 106 74 120 Z', collar: 'M 42 100 Q 50 107 58 100',
+  // the baby: a short chubby neck joins the head to the shoulders (operator 2026-10-14: 'the baby doesn't have a neck' — the head floated 8 units above them)
+  baby: { head: { cx: 50, cy: 62, rx: 30, ry: 29 }, neck: { x: 43, y: 84, w: 14, h: 14 },
+    shoulders: 'M 24 120 C 24 105 32 97 41 96 L 59 96 C 68 97 76 105 76 120 Z', collar: 'M 42 96 Q 50 103 58 96',
     eyes: [[40, 63], [60, 63]], eyeR: 3.8, mouth: 'M 43.5 73 Q 50 81 56.5 73 Z', nose: null,
     cheeks: [[31, 72], [69, 72]], cheekR: 4.6, ears: [[20, 64], [80, 64]], earR: [4, 6] },
 };

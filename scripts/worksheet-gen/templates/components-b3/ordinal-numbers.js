@@ -91,7 +91,7 @@ function pictureTile({ theme, item, tile, pic, idx }) {
     `<img class="ws-icon" src="${fileUri(theme, item.noun)}" style="width:${pic}px;height:${pic}px"></span>`;
 }
 
-function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true, band = true, start = 'left', flagScale = 1, under = 'band', given = null, answers = null }) {
+function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true, band = true, start = 'left', flagScale = 1, under = 'band', given = null, answers = null, cellPx = 26 }) {
   const n = items.length;
   const w = n * tile + (n - 1) * gap;
   const rows = [];
@@ -109,7 +109,7 @@ function lineUpStrip({ theme, items, tile = 76, pic = 64, gap = 5, arrow = true,
       const idxAttr = answers ? ` data-lcs-box="${i}"` : '';   // stamped only on the F1 path (byte-identical otherwise)
       return g != null
         ? `<span data-lcs-given="${esc(g)}"${idxAttr} style="display:inline-flex;align-items:center;justify-content:center;width:${tile - 8}px;height:44px;` +
-          `background:${T.white};border:2px solid ${T.creamDeep};border-radius:10px;font-family:${F.display},cursive;font-weight:700;font-size:26px;color:${T.ink}">${esc(g)}</span>`
+          `background:${T.white};border:2px solid ${T.creamDeep};border-radius:10px;font-family:${F.display},cursive;font-weight:700;font-size:${cellPx}px;color:${T.ink}">${esc(g)}</span>`
         : blankNumeralBox({ w: tile - 8, h: 44, answer: (answers && answers[i] != null) ? answers[i] : '', attrs: idxAttr.trim() });
     });
     rows.push(`<div style="display:flex;gap:${gap + 8}px;width:${w}px;justify-content:space-between">${cells.join('')}</div>`);

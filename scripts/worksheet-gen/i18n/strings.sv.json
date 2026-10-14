@@ -2077,7 +2077,7 @@
     "instruction": "Hitta varje liten bild i sin rad och skriv vilken plats den står på. Räkna från flaggan."
   },
   "K-336": {
-    "title": "Ordningstal från andra hållet: börja vid flaggan",
+    "title": "Ordningstal åt båda hållen: börja vid flaggan",
     "instruction": "Leta först upp flaggan: den kan stå i vilken ände som helst. Börja där, räkna till talet på brickan och gör märket som brickan visar."
   },
   "G1-318": {

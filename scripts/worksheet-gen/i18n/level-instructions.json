@@ -3442,5 +3442,20 @@
    "no": "Ikke regn ut. Se på eneren som er understreket i hvert tall, og sett kryss ved riktig svar.",
    "fi": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa ja rastita, millainen summa on."
   }
+ },
+ "G1-318": {
+  "1": {
+   "en": "Look how close each runner is to the finish line. The nearest is 1st. Write 1st, 2nd, 3rd and 4th.",
+   "de": "Schau, wie nah jeder Läufer am Ziel ist. Wer dem Ziel am nächsten ist, wird 1. Schreibe die Plätze 1. bis 4. auf.",
+   "es": "Mira qué tan cerca de la meta está cada corredor. El más cercano es el 1.º. Escribe 1.º, 2.º, 3.º y 4.º.",
+   "fr": "Regarde qui est le plus près de l'arrivée : c'est le 1er. Écris 1er, 2e, 3e et 4e.",
+   "it": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è il 1º. Scrivi 1º, 2º, 3º e 4º.",
+   "pt": "Veja quem está mais perto da linha de chegada. O mais perto é o 1º. Escreva 1º, 2º, 3º e 4º.",
+   "nl": "Kijk hoe dicht elke renner bij de finish is. De dichtstbijzijnde is 1e. Schrijf 1e, 2e, 3e en 4e.",
+   "sv": "Titta hur nära mållinjen varje löpare är. Den närmaste är 1:a. Skriv 1:a, 2:a, 3:e och 4:e.",
+   "da": "Se, hvor tæt hver løber er på målstregen. Den nærmeste er nr. 1. Skriv 1., 2., 3. og 4.",
+   "no": "Se hvor nær mål hver løper er. Den som er nærmest, blir 1. Skriv 1., 2., 3. og 4.",
+   "fi": "Katso, kuinka lähellä maaliviivaa jokainen kilpailija on. Lähin on 1. Kirjoita 1., 2., 3. ja 4."
+  }
  }
 }

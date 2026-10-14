@@ -1,0 +1,22 @@
+{
+  "id": "wave-b5-no",
+  "seedEpoch": 1,
+  "locales": [
+    "no"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-370"
+  ],
+  "themeOverrides": {},
+  "_refused": {
+    "G1-380": "G1-380: no is REFUSED whole-family (design §1: its teams are owned by spelling-rules / syllable-reading or fall below 3 teams x 6 pictured words) — refuse"
+  },
+  "_note": "Republish 2026-10-14 (Family Members Level Set walk #66): the published family pages with the redrawn cast (operator: the elderly figures were scary — the whole family redrawn). Same wave id + seeds as the live decks (nt10-E 2026-09-23); every other byte unchanged (out/tmp/fam/ident.js: 66/66 identical with the figures masked). The tree template (G1-387) draws no people and is not republished."
+}

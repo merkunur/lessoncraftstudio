@@ -3,6 +3,9 @@
  * gen-b5var-specs.js — nt10-E (b5) variation faces: emits the thin variation spec
  * modules for the LAST batch of 20 printable types (bases shipped 2026-09-14).
  *
+ * ⚠ LEVEL SET (2026-10-14): the family faces (G1-385 / K-375 / G1-386 / G2-362 / G1-387) now carry REAL levels
+ * via base.levelsFor(id, D). A re-run would flatten them back to {1: D, 2: D, 3: D} — re-add the levelsFor line.
+ *
  * Same shape as gen-b2var-specs.js (each emitted file spreads its base spec and
  * overrides {id, slug, difficulty, i18n} + declared extras only), with two
  * differences bought by this batch's scale:

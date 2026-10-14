@@ -15,7 +15,7 @@
  *     m  hairBottom <= head cy - 4; a [data-lcs-beard] only on m, and it
  *     touches the chin (its lowest point within 3 units of the chin);
  *   - the eye disc radius x scale >= 1.8 px at the rendered size;
- *   - elder hair fill === grid, every other age's hair === ink;
+ *   - elder hair fill === white (2026-10-14), every other age's hair === ink;
  *   - the outline renders 3 px (stroke-width x scale) on the head;
  *   - the tint set of the f looks === the tint set of the m looks, per age;
  *   - >= 6 looks per (age, sex) (baby: one); tokens only; no <text>, no <image>;
@@ -102,13 +102,22 @@ function checkFigure(svg, { age, sex, look }) {
     if (m.hairBottom == null) f.push(`${tag}: no hair`);
     else if (sex === 'f' && !(m.hairBottom >= m.chin - 6 + 8 - 1e-6)) f.push(`${tag}: f hair reaches y ${m.hairBottom.toFixed(1)} < jaw + 8 = ${(m.chin - 6 + 8).toFixed(1)}`);
     else if (sex === 'm' && !(m.hairBottom <= m.H.cy - 4 + 1e-6)) f.push(`${tag}: m hair reaches y ${m.hairBottom.toFixed(1)} > ear top ${(m.H.cy - 4).toFixed(1)}`);
-    const want = age === 'elder' ? tokens.color.grid.toUpperCase() : tokens.color.ink.toUpperCase();
-    if (m.hairFills.length !== 1 || m.hairFills[0] !== want) f.push(`${tag}: hair fill ${m.hairFills.join('/')} ≠ ${want} (${age === 'elder' ? 'grey' : 'ink'})`);
+    const want = age === 'elder' ? tokens.color.white.toUpperCase() : tokens.color.ink.toUpperCase();
+    if (m.hairFills.length !== 1 || m.hairFills[0] !== want) f.push(`${tag}: hair fill ${m.hairFills.join('/')} ≠ ${want} (${age === 'elder' ? 'white' : 'ink'})`);
   }
   if (m.beardCount) {
     if (sex !== 'm') f.push(`${tag}: a beard on an f look`);
     if (look.includes('beard') && Math.abs(m.beardBottom - m.chin) > 8) f.push(`${tag}: the beard does not reach the chin`);
   }
+  // THE MOUTH STAYS VISIBLE (cast redraw 2026-10-14: the old grandpa moustache sat over the mouth and read as a frown):
+  // the smile's centre must lie outside every beard / moustache shape (point-in-polygon on the sampled outline)
+  { const mouth = tagsWith(svg, 'data-lcs-mouth')[0];
+    const me = mouth && shapeExtent(mouth);
+    if (!me) f.push(`${tag}: no mouth`);
+    else { const mx = (me.x0 + me.x1) / 2, my = (me.y0 + me.y1) / 2;
+      for (const b of tagsWith(svg, 'data-lcs-beard')) { const d = / d="([^"]+)"/.exec(b); if (!d) continue; const pts = pathPoints(d[1]); let inside = false;
+        for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) { const [xi, yi] = pts[i], [xj, yj] = pts[j]; if ((yi > my) !== (yj > my) && mx < (xj - xi) * (my - yi) / (yj - yi) + xi) inside = !inside; }
+        if (inside) f.push(`${tag}: a beard / moustache covers the mouth`); } } }
   // ELDER MALE CUE (landing review 2026-09-23: a curly-haired grandpa read as mum): beard / moustache on the face, or a bald crown
   if (age === 'elder' && sex === 'm' && !m.beardOnFace && m.crownCovered) f.push(`${tag}: grandpa has no male cue (no beard / moustache on the face and the crown is covered)`);
   if (m.eyeR * m.scale < 1.8 - 1e-9) f.push(`${tag}: eye disc ${(m.eyeR * m.scale).toFixed(2)} px < 1.8`);
@@ -138,7 +147,7 @@ function nodePass() {
     }
   }
   // elders: glasses on 3 looks per sex
-  for (const sex of ['f', 'm']) ok(FF.lookIds('elder', sex).filter((l) => FF.ELDER_GLASSES.has(sex + ':' + l)).length === 3, `elder ${sex}: glasses not on exactly 3 looks`);
+  for (const sex of ['f', 'm']) ok(FF.lookIds('elder', sex).every((l) => FF.ELDER_GLASSES.has(sex + ':' + l)), `elder ${sex}: an elder look without glasses`);
   // throws
   const throws = (fn) => { try { fn(); return false; } catch (e) { return true; } };
   ok(throws(() => FF.familyFigure({ age: 'adult', sex: 'f', look: 'bun', px: 71, id: 'a' })), 'px 71 does not throw');
@@ -149,12 +158,13 @@ function nodePass() {
 /* ---- poisons: doctored markup, each must fail for ITS reason */
 function poisons() {
   const cases = [
-    { name: 'f hair stops at y 62', age: 'adult', sex: 'f', look: 'bob-fringe', edit: (s) => s.replace(/(<path d=")M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 74 74 Q 50 79 26 74 Z/, '$1M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z'), want: /f hair reaches y 6[0-9]/ },
-    { name: 'm with a ponytail', age: 'adult', sex: 'm', look: 'short', edit: (s) => s.replace('<ellipse cx="50" cy="44"', `<path d="M 63 24 C 84 22 90 48 84 78 C 79 70 74 54 67 40 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="44"`), want: /m hair reaches y 7/ },
-    { name: 'elder with ink hair', age: 'elder', sex: 'f', look: 'bun', edit: (s) => s.split(`fill="${tokens.color.grid}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`).join(`fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`), want: /hair fill .* ≠ #C8BFAE/ },
+    { name: 'f hair stops at y 62', age: 'adult', sex: 'f', look: 'bob-fringe', edit: (s) => s.replace(/(<path d=")[^"]+(?="[^>]*data-lcs-hair)/, '$1M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z'), want: /f hair reaches y 6[0-9]/ },
+    { name: 'm with a ponytail', age: 'adult', sex: 'm', look: 'short', edit: (s) => s.replace('<ellipse cx="50" cy="50"', `<path d="M 63 24 C 84 22 90 48 84 78 C 79 70 74 54 67 40 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="50"`), want: /m hair reaches y 7/ },
+    { name: 'elder with ink hair', age: 'elder', sex: 'f', look: 'bun', edit: (s) => s.split(`fill="${tokens.color.white}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`).join(`fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3.75" stroke-linejoin="round" data-lcs-hair`), want: /hair fill .* ≠ #FFFFFF/ },
     { name: 'grandpa (curly-short) without his moustache', age: 'elder', sex: 'm', look: 'curly-short', edit: (s) => s.replace(/<path [^>]*data-lcs-beard=""\/>/, ''), want: /grandpa has no male cue/ },
-    { name: 'bald grandpa given a full cap of hair', age: 'elder', sex: 'm', look: 'bald-crown', edit: (s) => s.replace('<ellipse cx="50" cy="44"', `<path d="M 31 39 C 29 22 39 16 50 16 C 61 16 71 22 69 39 Z" fill="${tokens.color.grid}" stroke="${tokens.color.teal}" stroke-width="3.75" data-lcs-hair=""/><ellipse cx="50" cy="44"`), want: /grandpa has no male cue/ },
+    { name: 'bald grandpa given a full cap of hair', age: 'elder', sex: 'm', look: 'bald-crown', edit: (s) => s.replace('<ellipse cx="50" cy="50"', `<path d="M 26 44 C 24 18 39 14 50 14 C 61 14 76 18 74 44 C 66 34 58 30 50 30 C 42 30 34 34 26 44 Z" fill="${tokens.color.white}" stroke="${tokens.color.teal}" stroke-width="3.75" data-lcs-hair=""/><ellipse cx="50" cy="50"`), want: /grandpa has no male cue/ },
     { name: 'off-palette garment', age: 'child', sex: 'm', look: 'crew', edit: (s) => s.replace(/data-lcs-garment=""/, 'data-lcs-garment="" data-x="#123456"'), want: /off-palette #123456/ },
+    { name: 'moustache moved over the mouth', age: 'elder', sex: 'm', look: 'curly-short', edit: (s) => s.replace(/(<path d=")[^"]+("[^>]*data-lcs-beard)/, '$1M 36 64 C 40 58 46 60 50 62 C 54 60 60 58 64 64 C 58 70 42 70 36 64 Z$2'), want: /covers the mouth/ },
   ];
   for (const c of cases) {
     const r = FF.familyFigure({ age: c.age, sex: c.sex, look: c.look, px: 96, id: 'p' });

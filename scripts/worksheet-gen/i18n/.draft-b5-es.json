@@ -803,14 +803,14 @@
         "FZ": "{name} es la tía de {egoName}, la hermana de su papá.",
         "MB": "{name} es el tío de {egoName}, el hermano de su mamá.",
         "FB": "{name} es el tío de {egoName}, el hermano de su papá.",
-        "MZD": "{name} es prima de {egoName}: es hija de la hermana de su mamá.",
-        "MZS": "{name} es primo de {egoName}: es hijo de la hermana de su mamá.",
-        "MBD": "{name} es prima de {egoName}: es hija del hermano de su mamá.",
-        "MBS": "{name} es primo de {egoName}: es hijo del hermano de su mamá.",
-        "FZD": "{name} es prima de {egoName}: es hija de la hermana de su papá.",
-        "FZS": "{name} es primo de {egoName}: es hijo de la hermana de su papá.",
-        "FBD": "{name} es prima de {egoName}: es hija del hermano de su papá.",
-        "FBS": "{name} es primo de {egoName}: es hijo del hermano de su papá."
+        "MZD": "{name} es la prima de {egoName}, la hija de la hermana de su mamá.",
+        "MZS": "{name} es el primo de {egoName}, el hijo de la hermana de su mamá.",
+        "MBD": "{name} es la prima de {egoName}, la hija del hermano de su mamá.",
+        "MBS": "{name} es el primo de {egoName}, el hijo del hermano de su mamá.",
+        "FZD": "{name} es la prima de {egoName}, la hija de la hermana de su papá.",
+        "FZS": "{name} es el primo de {egoName}, el hijo de la hermana de su papá.",
+        "FBD": "{name} es la prima de {egoName}, la hija del hermano de su papá.",
+        "FBS": "{name} es el primo de {egoName}, el hijo del hermano de su papá."
       },
       "riddleFrames": {
         "MM": "{egoName} le dice ___ a la mamá de su mamá.",

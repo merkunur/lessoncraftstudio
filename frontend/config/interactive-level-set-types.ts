@@ -19,6 +19,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
   'division-with-remainder', // Division with Remainders (2026-10-06): tap the answer with the right remainder
   'digraphs',
   'doubles-halves',      // Doubles and Halves (2026-10-07): tap the double / the half / the missing number
+  'family',             // Family Members (2026-10-14): type the person's number / 1-2-3 for each generation / the name from a clue / the riddle's family word
   'fact-families',       // Fact Families (2026-10-07): tap the roof number that completes each fact
   'find-the-differences', // Find the Differences (2026-10-10): tap every difference / the count / the changed words (original scenes)
   'feelings',
@@ -76,4 +77,5 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'rhyming-words': ['g1346'],   // Write Your Own Rhymes: open answers (Level Set 2026-09-30)
   'story-sequencing': ['g2378'],   // Retell the Story with Starters: open writing (Level Set 2026-10-01)
   '2d-shapes': ['k372'],   // Draw on Dot Paper: a drawing has more than one right answer (Level Set 2026-10-04)
+  family: ['k375', 'g1387'],   // Trace and Write (handwriting) + the Tree Template (open drawing) (Level Set 2026-10-14)
 };

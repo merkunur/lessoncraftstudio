@@ -83,7 +83,7 @@
   },
   "G1-316": {
    "title": "Ordinali in parole: collega alla figura",
-   "instruction": "Leggi ogni parola ordinale e collega con una linea la figura che sta in quel posto, contando dalla bandierina."
+   "instruction": "Leggi ogni parola ordinale e collegala con una linea alla figura che sta in quel posto, contando dalla bandierina."
   },
   "G1-317": {
    "title": "In che posto è? Scrivi il numero ordinale",
@@ -95,7 +95,7 @@
   },
   "G1-318": {
    "title": "Chi vince la gara? Scrivi il posto",
-   "instruction": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è 1º. Scrivi 1º, 2º, 3º, 4º, 5º e 6º."
+   "instruction": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è il 1º. Scrivi 1º, 2º, 3º, 4º, 5º e 6º."
   },
   "K-321": {
    "title": "I giorni della settimana in ordine",
@@ -19226,7 +19226,7 @@
     },
     "F2": {
      "title": "Ordinali in parole: collega alla figura",
-     "instruction": "Leggi ogni parola ordinale e collega con una linea la figura che sta in quel posto, contando dalla bandierina."
+     "instruction": "Leggi ogni parola ordinale e collegala con una linea alla figura che sta in quel posto, contando dalla bandierina."
     },
     "F3": {
      "title": "In che posto è? Scrivi il numero ordinale",
@@ -19238,7 +19238,7 @@
     },
     "F5": {
      "title": "Chi vince la gara? Scrivi il posto",
-     "instruction": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è 1º. Scrivi 1º, 2º, 3º, 4º, 5º e 6º."
+     "instruction": "Guarda quanto è vicino al traguardo ogni corridore. Il più vicino è il 1º. Scrivi 1º, 2º, 3º, 4º, 5º e 6º."
     }
    }
   },

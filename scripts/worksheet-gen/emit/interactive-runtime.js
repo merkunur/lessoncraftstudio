@@ -359,6 +359,8 @@ const JS_WORD = [
   "var ov=document.getElementById(\"lcs-overlay\"),pad=document.getElementById(\"lcs-pad\"),chk=document.getElementById(\"lcs-check\"),rst=document.getElementById(\"lcs-reset\"),prg=document.getElementById(\"lcs-progress\"),cel=document.getElementById(\"lcs-celebration\");",
   "function fmt(s,v){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return v[k]!=null?v[k]:\"\"})}",
   "function fold(w){return String(w).normalize(\"NFC\").toLocaleLowerCase(LOC).replace(/\\s+/g,\" \").trim()}",
+  // accepted alternates ride the box meta (data-lcs-alts, "|"-separated; Ordinal Numbers 2026-10-14) — absent elsewhere
+  "function ALT(i,v){var a=String(((B.items[i]||{}).meta||{})[\"data-lcs-alts\"]||\"\").split(\"|\");for(var j=0;j<a.length;j++)if(a[j]&&fold(a[j])===fold(v))return true;return false}",
   "function fit(i){var el=els[i],it=B.items[i],n=Math.max(5,val[i].length);el.style.fontSize=Math.min(it.h*ASP*0.5,it.w*1.6/n)+\"cqw\"}",
   "function paint(){var all=true;for(var i=0;i<els.length;i++){els[i].textContent=val[i];fit(i);els[i].setAttribute(\"aria-pressed\",i===cur&&phase===\"fill\"?\"true\":\"false\");els[i].setAttribute(\"aria-label\",(B.items[i].label||\"\")+(val[i]?\" = \"+val[i]:\"\"));if(val[i]===\"\")all=false}",
   " chk.disabled=!all||phase!==\"fill\";var ks=pad.querySelectorAll(\".lcs-key\");for(var k=0;k<ks.length;k++)ks[k].disabled=phase!==\"fill\"}",
@@ -368,7 +370,7 @@ const JS_WORD = [
   "function back(){if(phase!==\"fill\"||cur<0)return;val[cur]=val[cur].slice(0,-1);paint()}",
   "function show(i){if(i<0||!els[i])return;var r=els[i].getBoundingClientRect(),q=pad.getBoundingClientRect(),vh=window.innerHeight;var lim=q.top<vh?q.top:vh;if(r.bottom>lim-10)window.scrollBy(0,r.bottom-lim+18);else if(r.top<10)window.scrollBy(0,r.top-18)}",
   "function step(dir){if(phase!==\"fill\"||!els.length)return;cur=dir<0?(cur<=0?els.length-1:cur-1):(cur+1)%els.length;paint();try{els[cur].focus({preventScroll:true})}catch(e){}show(cur)}",
-  "function check(){for(var i=0;i<val.length;i++)if(val[i]===\"\")return;phase=\"reviewed\";var ok=0;for(var i=0;i<els.length;i++){var right=fold(val[i])===fold(B.answers[i]);els[i].setAttribute(\"data-state\",right?\"right\":\"wrong\");if(right)ok++}",
+  "function check(){for(var i=0;i<val.length;i++)if(val[i]===\"\")return;phase=\"reviewed\";var ok=0;for(var i=0;i<els.length;i++){var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);els[i].setAttribute(\"data-state\",right?\"right\":\"wrong\");if(right)ok++}",
   " prg.textContent=fmt(S.score,{n:ok,total:els.length});chk.hidden=true;rst.hidden=false;paint();if(ok===els.length){setTimeout(function(){cel.hidden=false;var c=document.getElementById(\"lcs-cele-close\");if(c)c.focus()},450)}}",
   "function retry(){phase=\"fill\";var first=-1;for(var i=0;i<els.length;i++){if(els[i].getAttribute(\"data-state\")===\"wrong\"){val[i]=\"\";if(first<0)first=i}els[i].removeAttribute(\"data-state\")}cur=first<0?0:first;prg.textContent=\"\";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint();show(cur)}",
   "function reset(){phase=\"fill\";for(var i=0;i<els.length;i++){val[i]=\"\";els[i].removeAttribute(\"data-state\")}cur=0;prg.textContent=\"\";chk.hidden=false;rst.hidden=true;cel.hidden=true;paint()}",

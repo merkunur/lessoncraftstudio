@@ -442,7 +442,7 @@
       "instruction": "Zoek elk klein plaatje in zijn rij en schrijf op welke plaats het staat. Tel vanaf de vlag."
     },
     "F4": {
-      "title": "Rangtelwoorden vanaf de andere kant: begin bij de vlag",
+      "title": "Rangtelwoorden vanaf twee kanten: begin bij de vlag",
       "instruction": "Zoek eerst de vlag: die kan aan beide kanten staan. Begin daar, tel tot het getal op het fiche en zet het teken dat erop staat."
     },
     "F5": {

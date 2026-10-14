@@ -353,6 +353,14 @@ async function playTypeWord(page, html, oracle, locale) {
     }
     st = await check();
     if (!st.celebrate) fails.push('the keyboard path did not reach the celebration (' + JSON.stringify(st.vals) + ')');
+    // accepted alternates (Ordinal Numbers 2026-10-14): every box written with its first alternate, if any
+    const alts = B.items.map((it) => String((it.meta || {})['data-lcs-alts'] || '').split('|').filter(Boolean));
+    if (alts.some((a) => a.length)) {
+      if (!(await press('lcs-cele-close'))) fails.push('no Try again before the alternates');
+      for (let i = 0; i < right.length; i++) await writeBox(i, alts[i][0] || right[i]);
+      st = await check();
+      if (!st.celebrate) fails.push('an accepted alternate was marked wrong (' + JSON.stringify(st.vals) + ')');
+    }
   }
   return fails;
 }
@@ -778,8 +786,10 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace("el.addEventListener('click', function () { sel(i); });", '').replace("place(el, o); el.addEventListener('click', function () { tapPick(j, k); });", 'place(el, o);').replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
+    // a deck whose write boxes carry accepted alternates (Ordinal Numbers 2026-10-14): a runtime that ignores them must be caught
+    if (/"data-lcs-alts":"[^"]+"/.test(d.html)) cases.push(['alternates ignored', d.html.replace('function ALT(i,v){', 'function ALT(i,v){return false;')]);
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }

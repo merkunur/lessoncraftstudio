@@ -57,9 +57,18 @@
  * rule and 12 px head needs 24 — recorded in _work/K-320-build.md).
  */
 'use strict';
-const { entriesFor, sampleEntries, fileUri } = require('../../lib/b2-common.js');
+const { entriesFor: rawEntriesFor, sampleEntries, fileUri } = require('../../lib/b2-common.js');
+const { distinctPictures } = require('../../lib/distinct-pictures.js');
+// one noun per artwork (Level Set 2026-10-14): two vocab keys can draw the same picture ("4th of July" liberty = statue);
+// a line-up showing one picture twice has two answers. No published theme carries such a pair (builds unchanged).
+const entriesFor = (theme, loc) => distinctPictures(theme, rawEntriesFor(theme, loc));
+// "which place" asks the child to FIND a small picture in its line: never a theme of near-identical pictures
+// (three suns and two clouds in weather, a row of yellow faces in emotions, four feet in body parts) — contact sheets 2026-10-14
+const WHERE_DENY = new Set(['emotions', 'weather', 'body parts']);
 const { bank: loadBank, ordinalFor } = require('../../lib/b3-common.js');
 const { lineUpPanel, lineUpStrip, ordinalChip, wordChipRow, queryCell, finishLine, raceLane, blankNumeralBox } = require('../../templates/components-b3.js');
+const ordScreen = require('../../lib/ordinal-numbers-screen.js');
+const { letterPad } = require('../../lib/letter-pad.js');
 
 const BANK = 'ordinals';
 const LANE_INNER = 647;   // .ws-lane with the inline padding:10px 12px override (675 − 24 − 4)
@@ -195,7 +204,7 @@ function buildWrite(bankLoc, d, { theme, loc, pool }, rng) {
       genders.push(g);
       if (blanks.includes(i)) { given.push(null); answers.push(lit); } else { given.push(lit); answers.push(null); }
     }
-    const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'box', given, answers });
+    const strip = lineUpStrip({ theme, items, tile: d.tile, pic: d.pic, gap: d.gap, start, flagScale: d.flagScale || 1.5, under: 'box', given, answers, ...(d.cellPx ? { cellPx: d.cellPx } : {}) });
     panels.push(lineUpPanel({
       strip: strip.html, below: '', minH, justify: 'center',
       attrs: `data-lcs-strip data-lcs-order="${items.map((it) => it.noun).join(',')}" data-lcs-start="${start}" data-lcs-n="${d.n}" data-lcs-blank="${d.blank}" data-lcs-blanks="${blanks.join(',')}" data-lcs-genders="${genders.join(',')}"`,
@@ -221,7 +230,12 @@ function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
     const seen = new Set();
     for (const it of items) { if (seen.has(it.noun)) throw new Error('K-320 words: duplicate noun in a strip: ' + it.noun); seen.add(it.noun); }
     const start = sides[s];
-    const chosen = rng.sample(ks, d.words);
+    let chosen = rng.sample(ks, d.words);
+    // Level Set 2026-10-14 (L3 only): at least `minHigh` of the words name a place from 7th on (the page runs to 10th)
+    for (let t = 0; d.minHigh && chosen.filter((k) => k >= 7).length < d.minHigh; t++) {
+      if (t > 200) throw new Error('K-320 words: no word set with ' + d.minHigh + ' places from 7th on');
+      chosen = rng.sample(ks, d.words);
+    }
     let order = null;
     for (let attempt = 0; attempt < 200 && !order; attempt++) {
       const cand = rng.shuffle(chosen);
@@ -251,6 +265,7 @@ function buildWords(bankLoc, d, { theme, loc, pool }, rng) {
 /** F3 — which place: a pictured query per cell; the child writes the numeral. Lookalike nouns never share a strip. */
 function buildWhere(bankLoc, d, { theme, loc, pool }, rng) {
   if (!(d.queries >= 1 && d.queries <= d.n)) throw new Error(`K-320 where: queries ${d.queries} outside 1..n ${d.n}`);
+  if (WHERE_DENY.has(theme)) throw new Error(`K-320 where: theme "${theme}" has near-identical pictures (refused)`);
   const clone = d.clone || 56;
   if (clone < G1_FLOOR) throw new Error('K-320 where: clone ' + clone + ' < the G1 floor');
   const groups = (bankLoc.lookalikes && bankLoc.lookalikes[theme]) || [];
@@ -339,13 +354,76 @@ function buildRace(bankLoc, d, { theme, locale }, rng) {
   return { bodyHtml, meta: { runners: runners.map((r) => [r.noun, r.x, r.rank]) } };
 }
 
+/* ------------------------------------------------------------------ Level Set 2026-10-14 (walk #62) */
+// The published config of every face (what its June variation file spread over base d2) — level 2 of each face IS this
+// object, so every published page builds byte-identically. Levels 1 and 3 add the support / stretch.
+const FACE_PUB = {
+  'K-336': { start: 'mixed' },
+  'G1-315': { layout: 'write', strips: 3, n: 8, tile: 76, pic: 60, gap: 5, given: 4, blank: 4, start: 'left', flagScale: 1.5 },
+  'G1-316': { layout: 'words', strips: 2, n: 8, tile: 76, pic: 60, gap: 5, words: 5, start: 'left', flagScale: 1.5 },
+  'G1-317': { layout: 'where', strips: 3, n: 8, tile: 76, pic: 64, gap: 5, queries: 2, clone: 56, start: 'left', flagScale: 1.5 },
+  'G1-318': { layout: 'race', lanes: 6, sep: 44, pic: 64, rowH: 96, laneW: 543, step: 88, jitter: 12, x0: 26 },
+};
+const FACE_LEVELS = {
+  // 5 in line (the base d1) from either end · 8 in line with the tick mark too (the base d3) from either end
+  'K-336': { 1: { start: 'mixed' }, 3: { start: 'mixed' } },
+  // 5 in line, 3 places given · 10 in line, only 3 given (7 to write, never 4 in a row)
+  'G1-315': { 1: { n: 5, tile: 100, pic: 84, gap: 12, given: 3, blank: 2 }, 3: { n: 10, tile: 62, pic: 50, gap: 3, given: 3, blank: 7, cellPx: 20 } },
+  // 5 pictures, 4 words · 10 pictures to the tenth, 5 words, at least 2 from the 7th on
+  'G1-316': { 1: { n: 5, tile: 100, pic: 84, gap: 12, words: 4 }, 3: { n: 10, tile: 62, pic: 50, gap: 3, words: 5, minHigh: 2 } },
+  // lines of 5 · lines of 10, 3 pictures to find in each
+  'G1-317': { 1: { n: 5, tile: 100, pic: 84, gap: 12 }, 3: { n: 10, tile: 62, pic: 50, gap: 3, queries: 3 } },
+  // 4 runners with wide gaps (ladder audit: TWO levels only — past 6 runners it is an eyesight task, not ordinals)
+  'G1-318': { 1: { lanes: 4, step: 120 } },
+};
+/** the three (race: two) levels of a face; ⚠ a re-run of tools/gen-b3var-specs.js would flatten them — keep the calls */
+function levelsFor(id, difficulty) {
+  if (id === 'K-320') return { 1: { ...difficulty[1], allowBw: true }, 2: { ...difficulty[2], allowBw: true }, 3: { ...difficulty[3], allowBw: true } };
+  const pub = { ...difficulty[2], ...FACE_PUB[id] };
+  const L = FACE_LEVELS[id];
+  if (!L) throw new Error('K-320 levelsFor: no levels for ' + id);
+  if (id === 'K-336') return { 1: { ...difficulty[1], ...L[1] }, 2: pub, 3: { ...difficulty[3], ...L[3] } };
+  const out = { 1: { ...pub, ...L[1] }, 2: pub };
+  if (L[3]) out[3] = { ...pub, ...L[3] };
+  return out;
+}
+/** the layout a resolved config draws */
+const layoutOf = (d) => (d.layout && d.layout !== 'base' ? d.layout : 'base');
+/** the screen version of a face: tap the picture (mark / words) or type the place (write / which place / race) */
+function interactiveFor(layout) {
+  if (layout === 'base' || layout === 'words') {
+    return {
+      kind: 'tap-choice', item: '[data-lcs-item]', option: '[data-lcs-opt]', answerAttr: 'data-lcs-correct', labelAttr: 'data-lcs-word',
+      metaAttrs: ['data-lcs-k', 'data-lcs-start', 'data-lcs-order'], instructionKey: layout === 'words' ? 'word' : 'tap', screenHeight: 9000,
+      oracle: (items) => ordScreen.choiceOracle(items),
+    };
+  }
+  return {
+    kind: 'type-word', item: '[data-lcs-wbox]', answerAttr: 'data-lcs-answer', labelAttr: 'data-lcs-label',
+    metaAttrs: ['data-lcs-idx-of', 'data-lcs-n', 'data-lcs-start', 'data-lcs-gender', 'data-lcs-qnoun', 'data-lcs-order', 'data-lcs-x', 'data-lcs-xs', 'data-lcs-alts'],
+    instructionKey: 'write', screenHeight: 4000,
+    // the pad: digits + the whole alphabet + every mark the locale's notation uses (º ª . :) — never only the answer's characters
+    wordPad: (d, locale) => {
+      const loc = String(locale || 'en').slice(0, 2);
+      const b = loadBank(BANK, loc);
+      const forms = Object.values(b.notation).concat(Object.values(b.notationF || {}), ordScreen.allAlts(loc));
+      return letterPad(loc, forms.concat(['0123456789']));
+    },
+    oracle: (items, locale) => ordScreen.writeOracle(items, locale),
+  };
+}
+
 module.exports = {
+  levelsFor, interactiveFor,
+  // the pictures a copy shows (build-waves reuseThemes: a second copy on a theme must show mostly other pictures)
+  levelSetWords(m) { return m.runners ? m.runners.map((r) => r[0]) : [...new Set((m.strips || []).flatMap((s) => s.order))]; },
+  interactive: interactiveFor('base'),
   id: 'K-320',
   slug: 'ordinal-numbers',
   gradeBand: 'K',
   assetClass: 'icon-placement',
   exerciseType: 'ordinal-numbers',
-  themeAxis: { applicable: true, minNouns: 10, excludeBw: true },
+  themeAxis: { applicable: true, minNouns: 10, excludeBw: true, levelSetBw: true },
   difficulty: {
     1: { strips: 3, n: 5, tile: 100, pic: 84, gap: 12, chips: 2, kMax: 5, distinct: false, maxRepeat: 2, mustInclude: [1, 5], anyOf: null, actions: ['circle', 'cross'], chipPx: 30, pillH: 48, start: 'left', flagScale: 1.5 },
     2: { strips: 3, n: 7, tile: 84, pic: 72, gap: 8, chips: 2, kMax: 7, distinct: true, maxRepeat: 1, mustInclude: [1], anyOf: [6, 7], actions: ['circle', 'cross'], chipPx: 30, pillH: 44, start: 'left', flagScale: 1.5 },
@@ -360,7 +438,12 @@ module.exports = {
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    return this._buildWith(loadBank(BANK, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);
+    const d = this.difficulty[difficulty];
+    const built = this._buildWith(loadBank(BANK, loc), d, { theme, locale: loc }, ctx);
+    // Level Set 2026-10-14: the screen version / the answer key of the SAME draw (render-instance asserts the meta)
+    if (ctx && ctx.interactive) return ordScreen.screen(layoutOf(d), d, built, { theme, loc, entries: entriesFor(theme, loc) });
+    if (ctx && ctx.answerKey) return ordScreen.key(layoutOf(d), built, { loc });
+    return built;
   },
 
   /** The whole build over an INJECTED bank + resolved config (the gate's poison seam); build() passes the real ones. */
@@ -370,7 +453,8 @@ module.exports = {
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     if (!theme) throw new Error('K-320: a theme is required (themed type)');
-    if (BW_MARK.test(theme)) throw new Error(`K-320: theme "${theme}" is a B&W theme — the base excludes BW art (refused)`);
+    const bwTheme = /(^|\s)(bw|sw|bn|nb|zw|sh|pb|mv|sv)(\s+\d+)?$/i.test(theme);
+    if (bwTheme && !d.allowBw) throw new Error(`K-320: theme "${theme}" is a B&W theme — the base excludes BW art (refused)`);
     if (d.kMax > d.n) throw new Error(`K-320: kMax ${d.kMax} > n ${d.n}`);
     const stripW = d.n * d.tile + (d.n - 1) * d.gap;
     if (stripW > LANE_INNER) throw new Error(`K-320: strip ${stripW} > lane inner ${LANE_INNER}`);
@@ -412,7 +496,7 @@ module.exports = {
       }));
       meta.strips.push({ order: items.map((it) => it.noun), start, chips: chips.map((c) => [c.k, c.action, c.target]) });
     }
-    const bodyHtml = `<div data-lcs-ordinal-page data-lcs-theme="${theme}" data-lcs-locale="${loc}" data-lcs-kmax="${d.kMax}" ` +
+    const bodyHtml = `<div data-lcs-ordinal-page${bwTheme ? ' data-lcs-bw="1"' : ''} data-lcs-theme="${theme}" data-lcs-locale="${loc}" data-lcs-kmax="${d.kMax}" ` +
       `data-lcs-distinct="${d.distinct ? 1 : 0}" data-lcs-maxrep="${d.maxRepeat || 0}" data-lcs-must="${(d.mustInclude || []).join(',')}" ` +
       `data-lcs-anyof="${(d.anyOf || []).join(',')}" data-lcs-actions="${d.actions.join(',')}" data-lcs-startmode="${d.start}" ` +
       `data-lcs-pic="${d.pic}" data-lcs-pillh="${d.pillH}" ` +
@@ -739,3 +823,6 @@ module.exports = {
     });
   },
 };
+// Level Set 2026-10-14: the base's three levels may draw a black-and-white theme on NEW pages (allowBw; the published
+// level-2 page is a colour theme and builds unchanged)
+module.exports.difficulty = levelsFor('K-320', module.exports.difficulty);

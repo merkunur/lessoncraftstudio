@@ -46,6 +46,7 @@ const { svgRoot, el, esc } = require('../../primitives/_svg.js');
 const { mapSymbol } = require('../../primitives/map-symbol.js');
 const { blankNumeralBox } = require('../components-b3.js');
 const { writingRow } = require('../../primitives/trace-path.js');
+const { seatOnRow } = require('../../lib/key-on-row.js');
 
 const T = tokens.color;
 const F = tokens.font;
@@ -182,6 +183,14 @@ function roseRow({ cards, w = 639, gap = 15 }) {
   return `<div data-lcs-rose-row style="display:flex;justify-content:center;gap:${gap}px;width:${w}px;flex:0 0 auto">${cards.join('')}</div>`;
 }
 
+/** Level Set F2 level 1 (2026-10-14): the four letters with their direction words, under the roses (a scaffold). */
+function dirStrip({ entries, w = 639 }) {
+  const cell = (e) => `<span data-lcs-dir-strip="${e.dir}" style="display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 14px 0 6px;box-sizing:border-box;border:2px solid ${T.teal};border-radius:24px;background:${T.white}">` +
+    `<span data-lcs-strip-letter style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;flex:0 0 36px;border-radius:50%;background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:20px;line-height:1">${esc(e.letter)}</span>` +
+    `<span data-lcs-strip-word style="font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.1;color:${T.ink};white-space:nowrap">${esc(e.word)}</span></span>`;
+  return `<div data-lcs-word-strip style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;width:${w}px;flex:0 0 auto">${entries.map(cell).join('')}</div>`;
+}
+
 function worldMapCard({ map, w = 639 }) {
   return `<div data-lcs-world-card style="width:${w}px;box-sizing:border-box;border:2px solid ${T.teal};border-radius:10px;overflow:hidden;line-height:0;flex:0 0 auto">${map}</div>`;
 }
@@ -191,10 +200,12 @@ function nameBank({ names, w = 639, px = 17 }) {
     names.map((n) => `<span class="ws-bankword" style="font-size:${px}px" data-lcs-bank-word="${esc(n.id)}"><span>${esc(n.name)}</span></span>`).join('') + `</div>`;
 }
 
-function nameLane({ n, answer, laneW, laneH, glyphH }) {
+function nameLane({ n, answer, laneW, laneH, glyphH, given }) {
   // the ruling is laneW - 3 wide inside a border-box lane of laneW x (laneH + 3): its 1.5 px frame never pushes the svg out (measured: a 3 px spill under the footer)
-  const row = writingRow({ w: laneW - 3, h: laneH, glyphH, xHeight: true }).svg;
-  return `<div data-lcs-lane="${n}" style="display:flex;align-items:center;gap:10px">` +
+  let row = writingRow({ w: laneW - 3, h: laneH, glyphH, xHeight: true }).svg;
+  // Level Set (2026-10-14): a worked example — the name seated on the row's own base rule (lib/key-on-row.js), in ink
+  if (given) row = seatOnRow(row, given, { fill: T.ink, font: 'nunito-700', em: 0.62 });
+  return `<div data-lcs-lane="${n}"${given ? ' data-lcs-given' : ''} style="display:flex;align-items:center;gap:10px">` +
     `<span data-lcs-lane-n style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 40px;box-sizing:content-box;border-radius:50%;background:${T.coral};border:2px solid ${T.white};box-shadow:0 0 0 1.5px ${T.coral};font-family:${F.display},cursive;font-weight:700;font-size:21px;color:${T.white}">${n}</span>` +
     `<span class="ws-blankbox" data-lcs-answer="${esc(answer)}" style="box-sizing:border-box;width:${laneW}px;height:${laneH + 3}px;line-height:0;border:1.5px solid ${T.grid};overflow:hidden">${row}</span></div>`;
 }
@@ -206,7 +217,10 @@ function atlasRow({ entries, nameW = 150, box = [44, 40], rowH = 56, w = 639, ga
   const items = entries.map((e) =>
     `<div data-lcs-index="${esc(e.id)}" data-lcs-kind="${e.kind}" style="display:flex;align-items:center;gap:10px;width:${nameW + 10 + box[0]}px;height:${rowH}px;box-sizing:border-box;border-bottom:1.5px dotted ${T.grid}">` +
     `<span data-lcs-index-name style="display:block;width:${nameW}px;font-family:${F.body},sans-serif;font-weight:800;font-size:17px;line-height:1.2;color:${T.ink};overflow-wrap:normal;word-break:normal;hyphens:manual">${esc(e.name)}</span>` +
-    blankNumeralBox({ w: box[0], h: box[1], answer: String(e.n), attrs: `data-lcs-index-box="${esc(e.id)}"` }) + `</div>`).join('');
+    (e.given
+      // Level Set (2026-10-14): a worked example — the number already written in the box
+      ? `<span class="ws-blankbox" data-lcs-index-box="${esc(e.id)}" data-lcs-answer="${esc(String(e.n))}" data-lcs-given style="width:${box[0]}px;height:${box[1]}px;flex:0 0 ${box[0]}px;display:inline-flex;align-items:center;justify-content:center;font-family:${F.display},cursive;font-weight:700;font-size:24px;line-height:1;color:${T.ink}">${esc(String(e.n))}</span>`
+      : blankNumeralBox({ w: box[0], h: box[1], answer: String(e.n), attrs: `data-lcs-index-box="${esc(e.id)}"` })) + `</div>`).join('');
   return `<div data-lcs-index-row style="display:flex;gap:${gap}px;width:${w}px;justify-content:flex-start;flex:0 0 auto">${items}</div>`;
 }
 
@@ -235,4 +249,4 @@ function directionRow({ n, start, startSvg, word, dir, chips, answer }) {
 }
 
 module.exports = { mapSheet, legendBand, legendHeight, countStrip, northArrow,
-  mpGap, viewGlyph, viewPair, viewHeads, roseCard, roseRow, worldMapCard, nameBank, nameLane, laneRow, atlasRow, directionRow, dirLegend };
+  mpGap, viewGlyph, viewPair, viewHeads, roseCard, roseRow, dirStrip, worldMapCard, nameBank, nameLane, laneRow, atlasRow, directionRow, dirLegend };

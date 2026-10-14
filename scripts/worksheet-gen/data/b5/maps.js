@@ -154,7 +154,55 @@ const TOPSIDE = {
     { type: 'box', x0: 16, x1: 84, y0: 16, y1: 84, z0: 0, z1: 6, fill: 'ink' },
     { type: 'frustum', cx: 50, cy: 50, r0: 22, r1: 3, z0: 6, z1: 85, fill: 'coral', bands: [[30, 38], [54, 62]] },
   ] },
+  /* ---- Level Set models (2026-10-14): new pages only. The published F1 page draws from TOPSIDE_PUBLISHED (the ten
+   *      above), so its draw never changes; every model below is built from the same solids and read on a contact sheet. */
+  stool: { cls: 'circle', solids: [
+    { type: 'box', x0: 30, x1: 36, y0: 40, y1: 46, z0: 0, z1: 44, fill: 'tealSoft' },
+    { type: 'box', x0: 64, x1: 70, y0: 40, y1: 46, z0: 0, z1: 44, fill: 'tealSoft' },
+    { type: 'box', x0: 47, x1: 53, y0: 64, y1: 70, z0: 0, z1: 44, fill: 'tealSoft' },
+    { type: 'cyl', cx: 50, cy: 50, r: 24, z0: 44, z1: 52, fill: 'coralSoft' },
+  ] },
+  lamp: { cls: 'circle', solids: [
+    { type: 'cyl', cx: 50, cy: 50, r: 16, z0: 0, z1: 5, fill: 'ink' },
+    { type: 'cyl', cx: 50, cy: 50, r: 2.5, z0: 5, z1: 56, fill: 'ink' },
+    { type: 'frustum', cx: 50, cy: 50, r0: 31, r1: 16, z0: 56, z1: 85, fill: 'coralSoft' },
+  ] },
+  umbrella: { cls: 'circle', solids: [
+    { type: 'cyl', cx: 50, cy: 50, r: 2.5, z0: 0, z1: 70, fill: 'ink' },
+    { type: 'frustum', cx: 50, cy: 50, r0: 44, r1: 3, z0: 62, z1: 82, fill: 'coral', bands: [[66, 70]] },
+  ] },
+  cake: { cls: 'circle', solids: [
+    { type: 'cyl', cx: 50, cy: 50, r: 36, z0: 0, z1: 24, fill: 'coralSoft' },
+    { type: 'cyl', cx: 50, cy: 50, r: 22, z0: 24, z1: 44, fill: 'white' },
+    { type: 'cyl', cx: 42, cy: 50, r: 2.5, z0: 44, z1: 58, fill: 'coral' },
+    { type: 'cyl', cx: 58, cy: 50, r: 2.5, z0: 44, z1: 58, fill: 'coral' },
+    { type: 'cyl', cx: 50, cy: 60, r: 2.5, z0: 44, z1: 58, fill: 'coral' },
+  ] },
+  sofa: { cls: 'rect', solids: [
+    { type: 'box', x0: 6, x1: 94, y0: 28, y1: 72, z0: 0, z1: 24, fill: 'tealSoft' },
+    { type: 'box', x0: 6, x1: 94, y0: 60, y1: 72, z0: 24, z1: 56, fill: 'tealSoft' },
+    { type: 'box', x0: 6, x1: 18, y0: 28, y1: 72, z0: 24, z1: 44, fill: 'white' },
+    { type: 'box', x0: 82, x1: 94, y0: 28, y1: 72, z0: 24, z1: 44, fill: 'white' },
+  ] },
+  bus: { cls: 'rect', solids: [
+    { type: 'cylY', cx: 22, cz: 10, r: 10, y0: 32, y1: 68, fill: 'ink' },
+    { type: 'cylY', cx: 78, cz: 10, r: 10, y0: 32, y1: 68, fill: 'ink' },
+    { type: 'box', x0: 4, x1: 96, y0: 30, y1: 70, z0: 10, z1: 58, fill: 'coralSoft' },
+    { type: 'box', x0: 10, x1: 90, y0: 29.5, y1: 30, z0: 36, z1: 50, fill: 'white' },
+    { type: 'box', x0: 10, x1: 90, y0: 40, y1: 60, z0: 58, z1: 59, fill: 'white' },
+  ] },
+  bookshelf: { cls: 'rect', solids: [
+    { type: 'box', x0: 14, x1: 86, y0: 40, y1: 60, z0: 0, z1: 90, fill: 'tealSoft' },
+    { type: 'box', x0: 18, x1: 82, y0: 39.5, y1: 40, z0: 28, z1: 31, fill: 'white' },
+    { type: 'box', x0: 18, x1: 82, y0: 39.5, y1: 40, z0: 58, z1: 61, fill: 'white' },
+  ] },
+  giftBox: { cls: 'square', solids: [
+    { type: 'box', x0: 20, x1: 80, y0: 20, y1: 80, z0: 0, z1: 56, fill: 'coral' },
+    { type: 'box', x0: 46, x1: 54, y0: 19.5, y1: 80.5, z0: 0, z1: 56.5, fill: 'white' },
+    { type: 'box', x0: 19.5, x1: 80.5, y0: 46, y1: 54, z0: 56, z1: 56.6, fill: 'white' },
+  ] },
 };
+const TOPSIDE_PUBLISHED = ['cup', 'bucket', 'roundTable', 'tree', 'rectTable', 'bed', 'car', 'house', 'chair', 'cone'];
 
 const MAPS = {
   SYMBOLS: ['house', 'tree', 'bush', 'pond', 'bench', 'tent', 'flowerBed', 'bridge'],
@@ -165,6 +213,9 @@ const MAPS = {
   DIRS: ['n', 'e', 's', 'w'],   // clockwise; rose position 0..3 = up, right, down, left at rot 0
   TOPSIDE,
   TOPSIDE_NEVER_TOGETHER: [['cup', 'bucket'], ['rectTable', 'bed']],
+  /** Level Set look-alike pairs (new models only, so the published draw is unchanged) */
+  TOPSIDE_NEVER_TOGETHER_LS: [['roundTable', 'stool'], ['rectTable', 'stool'], ['lamp', 'umbrella'], ['lamp', 'cake'], ['bus', 'car']],
+  TOPSIDE_PUBLISHED,
   REGIONS: ['northAmerica', 'southAmerica', 'europe', 'asia', 'africa', 'oceania', 'antarctica'],
   OCEAN_IDS: ['pacific', 'atlantic', 'indian', 'arctic', 'southern'],
   LEADER_MEMBERS: { arctic: { void: 'topLeft', target: [-155, 77] }, southern: { void: 'bottomLeft', target: [-130, -62] }, antarctica: { void: 'bottomRight', target: [140, -80] } },

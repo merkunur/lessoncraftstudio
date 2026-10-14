@@ -3517,5 +3517,76 @@
       "no": "Les hver gåte og skriv riktig familieord på streken.",
       "fi": "Lue jokainen arvoitus ja kirjoita viivalle oikea sukulaissana; sama sana voi sopia useampaan arvoitukseen."
     }
+  },
+  "G2-370": {
+    "1": {
+      "en": "Two names are already written. Write the names of the other numbered continents on their lines. Use the names in the box.",
+      "de": "Zwei Namen stehen schon da. Schreibe die Namen der anderen nummerierten Kontinente auf ihre Linien, die Namen stehen im Kasten.",
+      "es": "Ya hay dos nombres escritos. Escribe en sus líneas los nombres de los demás continentes con número, usando los nombres del recuadro.",
+      "fr": "Deux noms sont déjà écrits. Écris le nom des autres continents sur leur ligne, en t’aidant des noms de l’encadré.",
+      "it": "Due nomi sono già scritti. Scrivi i nomi degli altri continenti numerati sulle loro righe, usando i nomi del riquadro.",
+      "pt": "Dois nomes já estão escritos. Escreva o nome dos outros continentes numerados na linha de cada um, usando os nomes do quadro.",
+      "nl": "Twee namen staan er al. Schrijf de namen van de andere genummerde werelddelen op hun lijn, de namen staan in het kader.",
+      "sv": "Två namn är redan skrivna. Skriv namnen på de andra numrerade världsdelarna på deras rader och ta namnen från rutan.",
+      "da": "To navne er allerede skrevet. Skriv navnene på de andre nummererede verdensdele på deres linjer; navnene står i boksen.",
+      "no": "To navn er allerede skrevet. Skriv navnene på de andre nummererte verdensdelene på strekene og ta navnene fra ruten.",
+      "fi": "Kaksi nimeä on jo kirjoitettu. Kirjoita muiden numeroitujen maanosien nimet niiden viivoille ja ota nimet laatikosta."
+    },
+    "3": {
+      "en": "Write the name of each numbered continent on its line.",
+      "de": "Schreibe den Namen jedes nummerierten Kontinents auf seine Linie.",
+      "es": "Escribe en su línea el nombre de cada continente con número.",
+      "fr": "Écris le nom de chaque continent sur sa ligne.",
+      "it": "Scrivi il nome di ogni continente sulla sua riga.",
+      "pt": "Olhe o mapa-múndi e escreva o nome de cada continente numerado na linha dele.",
+      "nl": "Schrijf de naam van elk genummerd werelddeel op zijn lijn.",
+      "sv": "Skriv namnet på varje numrerad världsdel på dess rad.",
+      "da": "Skriv navnet på hver nummereret verdensdel på dens linje.",
+      "no": "Skriv navnet på hver nummerert verdensdel på streken.",
+      "fi": "Kirjoita jokaisen numeroidun maanosan nimi sen viivalle."
+    }
+  },
+  "G3-396": {
+    "1": {
+      "en": "Two numbers are already written. Find the other continents and oceans on the map and write each number in the box next to its name.",
+      "de": "Zwei Zahlen stehen schon da. Finde die anderen Kontinente und Ozeane auf der Karte und schreibe jede Zahl in das Kästchen neben dem Namen.",
+      "es": "Ya hay dos números escritos. Busca en el mapa los demás continentes y océanos y escribe cada número en el cuadro junto a su nombre.",
+      "fr": "Deux numéros sont déjà écrits. Trouve les autres continents et océans sur la carte et écris chaque numéro dans la case à côté de son nom.",
+      "it": "Due numeri sono già scritti. Trova sulla carta gli altri continenti e oceani e scrivi ogni numero nel riquadro accanto al nome.",
+      "pt": "Dois números já estão escritos. Encontre os outros continentes e oceanos no mapa e escreva cada número no quadrinho ao lado do nome.",
+      "nl": "Twee nummers staan er al. Zoek de andere werelddelen en oceanen op de kaart en schrijf elk nummer in het vakje naast de naam.",
+      "sv": "Två nummer är redan skrivna. Hitta de andra världsdelarna och världshaven på kartan och skriv varje nummer i rutan bredvid namnet.",
+      "da": "To tal er allerede skrevet. Find de andre verdensdele og verdenshave på kortet, og skriv hvert tal i feltet ved navnet.",
+      "no": "To tall er allerede skrevet. Finn de andre verdensdelene og verdenshavene på kartet og skriv hvert tall i ruten ved siden av navnet.",
+      "fi": "Kaksi numeroa on jo kirjoitettu. Etsi muut maanosat ja valtameret kartalta ja kirjoita jokainen numero nimen viereiseen ruutuun."
+    },
+    "3": {
+      "en": "Find each numbered continent and ocean on the map and write its name on the line with the same number.",
+      "de": "Finde jeden nummerierten Kontinent und Ozean auf der Karte und schreibe seinen Namen auf die Linie mit derselben Zahl.",
+      "es": "Busca en el mapa cada continente y océano con número y escribe su nombre en la línea con el mismo número.",
+      "fr": "Trouve chaque continent et chaque océan numéroté sur la carte et écris son nom sur la ligne qui porte le même numéro.",
+      "it": "Trova sulla carta ogni continente e oceano numerato e scrivi il suo nome sulla riga con lo stesso numero.",
+      "pt": "Encontre no mapa cada continente e oceano numerado e escreva o nome dele na linha com o mesmo número.",
+      "nl": "Zoek elk genummerd werelddeel en elke oceaan op de kaart en schrijf de naam op de lijn met hetzelfde nummer.",
+      "sv": "Hitta varje numrerad världsdel och varje världshav på kartan och skriv namnet på raden med samma nummer.",
+      "da": "Find hver nummereret verdensdel og hvert verdenshav på kortet, og skriv navnet på linjen med samme tal.",
+      "no": "Finn hver nummerert verdensdel og hvert verdenshav på kartet og skriv navnet på streken med samme tall.",
+      "fi": "Etsi kartalta jokainen numeroitu maanosa ja valtameri ja kirjoita sen nimi viivalle, jossa on sama numero."
+    }
+  },
+  "G2-371": {
+    "1": {
+      "en": "Start at the first picture on the map, look the way the word says, and circle the one of the two pictures that lies that way.",
+      "de": "Finde das erste Bild auf der Karte, schau in die Richtung, die das Wort nennt, und kreise von den zwei Bildern das ein, das dort liegt.",
+      "es": "Busca el primer dibujo en el mapa, mira hacia donde dice la palabra y encierra, de los dos dibujos, el que está en esa dirección.",
+      "fr": "Trouve la première image sur la carte, regarde dans la direction écrite et entoure celle des deux images qui s’y trouve.",
+      "it": "Trova la prima figura sulla mappa, guarda nella direzione scritta e cerchia quella delle due figure che si trova lì.",
+      "pt": "Encontre a primeira figura no mapa, olhe para o lado que a palavra indica e circule, das duas figuras, a que está daquele lado.",
+      "nl": "Zoek het eerste plaatje op de kaart, kijk in de richting van het woord en omcirkel het plaatje van de twee dat daar ligt.",
+      "sv": "Hitta den första bilden på kartan, titta åt det håll som ordet säger och ringa in den av de två bilderna som ligger där.",
+      "da": "Find det første billede på kortet, se i den retning, ordet siger, og sæt ring om det af de to billeder, der ligger dér.",
+      "no": "Finn det første bildet på kartet, se i retningen ordet sier, og ring rundt det av de to bildene som ligger der.",
+      "fi": "Etsi kartalta ensimmäinen kuva, katso siihen suuntaan, jonka sana kertoo, ja rengasta kahdesta kuvasta se, joka on siellä."
+    }
   }
 }

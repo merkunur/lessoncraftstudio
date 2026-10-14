@@ -163,7 +163,7 @@
     },
     "G3-396": {
       "title": "Verdensdele og verdenshave",
-      "instruction": "Find hver verdensdel og hvert verdenshav på kortet, og skriv dets tal i feltet ved navnet."
+      "instruction": "Find hver verdensdel og hvert verdenshav på kortet, og skriv tallet i feltet ved navnet."
     },
     "G2-371": {
       "title": "Verdenshjørner på kortet",
@@ -1488,7 +1488,7 @@
         },
         "continents-oceans": {
           "title": "Verdensdele og verdenshave",
-          "instruction": "Find hver verdensdel og hvert verdenshav på kortet, og skriv dets tal i feltet ved navnet."
+          "instruction": "Find hver verdensdel og hvert verdenshav på kortet, og skriv tallet i feltet ved navnet."
         },
         "directions-on-map": {
           "title": "Verdenshjørner på kortet",

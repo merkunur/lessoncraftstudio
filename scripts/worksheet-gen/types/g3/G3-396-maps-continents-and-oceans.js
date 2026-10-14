@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G3-396',
   slug: 'maps-continents-and-oceans',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14: real levels (G1-379 FACE_LEVELS) — a tools/gen-b5var-specs.js re-run would flatten this; re-add it
+  difficulty: base.levelsFor('G3-396', D),
   i18n: { en: { title: "Continents and Oceans", instruction: "Find each continent and ocean on the map. Write its number in the box next to its name." } },
   gradeBand: "G3",
 };

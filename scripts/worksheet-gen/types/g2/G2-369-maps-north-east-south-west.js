@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-369',
   slug: 'maps-north-east-south-west',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14: real levels (G1-379 FACE_LEVELS) — a tools/gen-b5var-specs.js re-run would flatten this; re-add it
+  difficulty: base.levelsFor('G2-369', D),
   i18n: { en: { title: "North, East, South, West: Label the Four Directions", instruction: "The orange tip on each compass rose points north; write the three missing letters in the empty boxes." } },
   gradeBand: "G2",
 };

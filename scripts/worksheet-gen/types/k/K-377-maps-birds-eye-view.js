@@ -9,7 +9,8 @@ module.exports = {
   ...base,
   id: 'K-377',
   slug: 'maps-birds-eye-view',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14: real levels (G1-379 FACE_LEVELS) — a tools/gen-b5var-specs.js re-run would flatten this; re-add it
+  difficulty: base.levelsFor('K-377', D),
   i18n: { en: { title: "Bird's-Eye View: From the Side and From Above", instruction: "Each thing is drawn from the side. Draw a line to the same thing seen from above." } },
   gradeBand: "K",
 };

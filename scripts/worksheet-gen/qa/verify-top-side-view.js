@@ -33,6 +33,9 @@ const H = require('./b5-maps-harness.js');
 
 const PALETTE = new Set(Object.values(tokens.color).map((c) => c.toUpperCase()));
 const CLASSES = { cup: 'circle', bucket: 'circle', roundTable: 'circle', tree: 'circle', rectTable: 'rect', bed: 'rect', car: 'rect', house: 'rect', chair: 'square', cone: 'square' };
+// Level Set (2026-10-14): eight more models for NEW pages only; the published page keeps drawing from the ten above
+const LS_CLASSES = { stool: 'circle', lamp: 'circle', umbrella: 'circle', cake: 'circle', sofa: 'rect', bus: 'rect', bookshelf: 'rect', giftBox: 'square' };
+Object.assign(CLASSES, LS_CLASSES);
 let assertions = 0;
 const fails = [];
 function ok(c, m) { assertions++; if (!c) fails.push(m); return !!c; }
@@ -99,7 +102,9 @@ function pairRule(m, side, top, s) {
 
 async function main() {
   const models = Object.keys(MAPS.TOPSIDE);
-  ok(models.slice().sort().join() === Object.keys(CLASSES).sort().join(), `TOPSIDE models [${models}] ≠ the design's ten`);
+  ok(models.slice().sort().join() === Object.keys(CLASSES).sort().join(), `TOPSIDE models [${models}] ≠ the design's ten + the Level Set eight`);
+  ok(JSON.stringify(MAPS.TOPSIDE_PUBLISHED) === JSON.stringify(['cup', 'bucket', 'roundTable', 'tree', 'rectTable', 'bed', 'car', 'house', 'chair', 'cone']), 'TOPSIDE_PUBLISHED ≠ the ten published models in their original order (the published draw would change)');
+  ok(JSON.stringify(MAPS.TOPSIDE_NEVER_TOGETHER_LS) === JSON.stringify([['roundTable', 'stool'], ['rectTable', 'stool'], ['lamp', 'umbrella'], ['lamp', 'cake'], ['bus', 'car']]), 'Level Set never-together pairs ≠ the review (2026-10-14)');
   for (const m of models) ok(MAPS.TOPSIDE[m].cls === CLASSES[m], `${m}: class ${MAPS.TOPSIDE[m].cls} ≠ ${CLASSES[m]}`);
   ok(JSON.stringify(MAPS.TOPSIDE_NEVER_TOGETHER) === JSON.stringify([['cup', 'bucket'], ['rectTable', 'bed']]), 'never-together pairs ≠ the design');
   const items = [];

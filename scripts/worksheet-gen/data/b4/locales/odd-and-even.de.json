@@ -26,7 +26,7 @@
     },
     "share": {
       "title": "Gerecht teilen: gerade oder ungerade?",
-      "instruction": "Teile die Bilder abwechselnd auf die zwei Kinder auf. Schreibe, wie viele jedes bekommt und wie viele übrig bleiben. Kreise ein."
+      "instruction": "Teile die Bilder abwechselnd auf. Schreib, wie viele jedes Kind bekommt und wie viele übrig sind. Ist die Bilderzahl gerade oder ungerade? Kreise ein."
     },
     "ones": {
       "title": "Gerade und ungerade Zahlen bis 100",
@@ -38,7 +38,7 @@
     },
     "count": {
       "title": "Gerade oder ungerade? Bilder paarweise zählen",
-      "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind, und kreise gerade oder ungerade ein."
+      "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind. Ist die Anzahl der Bilder gerade oder ungerade? Kreise ein."
     }
   },
   "refuse": {},

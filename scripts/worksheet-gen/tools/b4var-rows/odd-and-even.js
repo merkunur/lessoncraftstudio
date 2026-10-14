@@ -67,7 +67,7 @@ const ROWS = [
     // the type caps this face at 2 rows; 132 of 132 builds succeed at [3,8], 0 refusals.
     // ⚠ The sibling G1-370 CANNOT be fixed this way — see its own note below.
     { mode: 'share', range: [3, 8], lanes: 6, iconPx: 44, perRow: 5, split: [3, 3], pills: true },
-    'Can Two Friends Share Fairly?', 'Share the pictures between the two friends, one each in turn. Write how many each friend gets and how many are left over, then circle odd or even.',
+    'Can Two Friends Share Fairly?', 'Share the pictures, one each in turn. Write how many each friend gets and how many are left. Is the number of pictures odd or even? Circle it.',
     THEMED],
   ['g2', 'G2-352', 'odd-and-even-under-100-look-at-the-ones-box', 'G1-351-odd-and-even.js', 2,
     { mode: 'ones', range: [10, 99], items: 12, rule: true, onesCover: true, maxOnesRepeat: 2, minEachParity: 4, minHigh: 4, box: 64, digitPx: 34, circle: 60 },
@@ -92,7 +92,7 @@ const ROWS = [
     // It is PARTIAL in the same sense as G2-351: the page asks for the number of PAIRS as well, and
     // that still needs the full count; the tell hands over only the odd/even chip.
     { mode: 'count', range: [11, 18], lanes: 6, iconPx: 44, perRow: 9, split: [3, 3], pills: true },
-    'Odd or Even? Count the Pictures in Pairs', 'Count the pictures and circle them two by two. Write how many pairs you made, then circle odd or even.',
+    'Odd or Even? Count the Pictures in Pairs', 'Count the pictures and circle them two by two. Write how many pairs you made. Is the number of pictures odd or even? Circle it.',
     THEMED],
 ];
 const HANDWRITTEN = [];

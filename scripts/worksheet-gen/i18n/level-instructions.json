@@ -3348,5 +3348,99 @@
    "no": "Spor hvert tall én gang. Skriv det så selv: én gang fra de oransje prikkene og to ganger på de tomme plassene.",
    "fi": "Kirjoita jokainen luku kerran viivoja pitkin. Kirjoita se sitten itse: kerran oransseista pisteistä alkaen ja kahdesti tyhjiin kohtiin."
   }
+ },
+ "G1-351": {
+  "1": {
+   "en": "Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs.",
+   "de": {
+    "title": "Gerade und ungerade Zahlen bis 10",
+    "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare."
+   },
+   "es": {
+    "title": "Números pares e impares hasta el 10",
+    "instruction": "Escribe cada número en la casa que le corresponde: la de los pares o la de los impares. Tres números ya viven ahí y muestran sus parejas."
+   },
+   "fr": {
+    "title": "Nombres pairs et impairs jusqu'à 10",
+    "instruction": "Écris chaque nombre dans la maison qui lui convient : celle des pairs ou celle des impairs. Trois nombres y habitent déjà."
+   },
+   "it": {
+    "title": "Numeri pari e dispari fino a 10",
+    "instruction": "Scrivi ogni numero nella casa a cui appartiene, la casa dei pari o quella dei dispari. Tre numeri sono già dentro e mostrano le loro coppie."
+   },
+   "pt": {
+    "title": "Números pares e ímpares até 10",
+    "instruction": "Escreva cada número na casa a que ele pertence. Três números já moram lá e mostram como ficam de dois em dois."
+   },
+   "nl": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien.",
+   "sv": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par.",
+   "da": "Skriv hvert tal i det hus, hvor det hører til. Tre tal er allerede flyttet ind og viser deres par.",
+   "no": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine.",
+   "fi": {
+    "title": "Parilliset ja parittomat luvut 10:een asti",
+    "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+   }
+  },
+  "3": {
+   "en": "Write each number in the house where it belongs, the odd house or the even house. Three numbers have moved in already and show their pairs.",
+   "de": {
+    "title": "Gerade und ungerade Zahlen bis 30",
+    "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare."
+   },
+   "es": {
+    "title": "Números pares e impares hasta el 30",
+    "instruction": "Escribe cada número en la casa que le corresponde: la de los pares o la de los impares. Tres números ya viven ahí y muestran sus parejas."
+   },
+   "fr": {
+    "title": "Nombres pairs et impairs jusqu'à 30",
+    "instruction": "Écris chaque nombre dans la maison qui lui convient : celle des pairs ou celle des impairs. Trois nombres y habitent déjà."
+   },
+   "it": {
+    "title": "Numeri pari e dispari fino a 30",
+    "instruction": "Scrivi ogni numero nella casa a cui appartiene, la casa dei pari o quella dei dispari. Tre numeri sono già dentro e mostrano le loro coppie."
+   },
+   "pt": {
+    "title": "Números pares e ímpares até 30",
+    "instruction": "Escreva cada número na casa a que ele pertence. Três números já moram lá e mostram como ficam de dois em dois."
+   },
+   "nl": "Schrijf elk getal in het huis waar het hoort. Drie getallen wonen er al en laten hun paren zien.",
+   "sv": "Skriv varje tal i det hus där det hör hemma, det udda huset eller det jämna huset. Tre tal har redan flyttat in och visar sina par.",
+   "da": "Skriv hvert tal i det hus, hvor det hører til. Tre tal er allerede flyttet ind og viser deres par.",
+   "no": "Skriv hvert tall i huset der det hører hjemme, partall eller oddetall. Tre tall har flyttet inn og viser parene sine.",
+   "fi": {
+    "title": "Parilliset ja parittomat luvut 30:een asti",
+    "instruction": "Kirjoita jokainen luku oikeaan taloon: parillisten tai parittomien. Kolme lukua on jo muuttanut ja näyttää parinsa."
+   }
+  }
+ },
+ "G2-352": {
+  "3": {
+   "en": "Look only at the ones box of each number and tick the circle under even or odd.",
+   "de": "Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab.",
+   "es": "Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar.",
+   "fr": "Regarde seulement la case des unités de chaque nombre et coche le rond sous pair ou impair.",
+   "it": "Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari.",
+   "pt": "Olhe só o algarismo das unidades de cada número e marque o círculo certo.",
+   "nl": "Kijk alleen naar het vakje van de eenheden en zet een vinkje onder even of oneven.",
+   "sv": "Titta bara på entalsrutan i varje tal och sätt ett kryss i ringen under udda eller jämnt.",
+   "da": "Se kun på enerfeltet i hvert tal, og sæt et kryds i cirklen under lige eller ulige.",
+   "no": "Se bare på eneren i hvert tall og sett kryss i sirkelen under partall eller oddetall.",
+   "fi": "Katso vain luvun ykkösten ruutua ja rastita ympyrä oikean sanan alta."
+  }
+ },
+ "G3-386": {
+  "3": {
+   "en": "Do not add. Look at the underlined ones digit of each number and tick whether the sum is even or odd.",
+   "de": "Rechne nicht. Schau auf die unterstrichenen Einer und hake ab, ob die Summe gerade oder ungerade ist.",
+   "es": "No sumes. Mira la unidad subrayada de cada número y marca si la suma es par o impar.",
+   "fr": "N'additionne pas. Regarde le chiffre des unités souligné de chaque nombre et coche si la somme est paire ou impaire.",
+   "it": "Non fare il calcolo. Guarda la cifra delle unità sottolineata di ogni numero e segna se la somma è pari o dispari.",
+   "pt": "Não some. Olhe o algarismo sublinhado de cada número e marque se a soma é par ou ímpar.",
+   "nl": "Niet optellen. Kijk naar het onderstreepte cijfer van de eenheden en zet een vinkje bij even of oneven.",
+   "sv": "Räkna inte ut summan. Titta på entalet som är understruket i varje tal och kryssa för om summan är udda eller jämn.",
+   "da": "Du skal ikke lægge sammen. Se på det understregede ciffer på enerpladsen, og sæt kryds ved lige eller ulige.",
+   "no": "Ikke regn ut. Se på eneren som er understreket i hvert tall, og sett kryss ved riktig svar.",
+   "fi": "Älä laske. Katso kummankin luvun alleviivattua ykkösnumeroa ja rastita, millainen summa on."
+  }
  }
 }

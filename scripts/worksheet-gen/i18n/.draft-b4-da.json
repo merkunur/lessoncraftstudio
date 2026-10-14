@@ -147,7 +147,7 @@
     },
     "G1-369": {
       "title": "Kan to venner dele ligeligt?",
-      "instruction": "Del billederne mellem de to venner, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Sæt ring om lige eller ulige."
+      "instruction": "Del billederne mellem vennerne, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Er antallet af billeder lige eller ulige? Sæt ring."
     },
     "G2-352": {
       "title": "Lige og ulige tal op til 100: se på enerfeltet",
@@ -159,7 +159,7 @@
     },
     "G1-370": {
       "title": "Lige eller ulige? Tæl billederne to og to",
-      "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet, og sæt så ring om lige eller ulige."
+      "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet. Er antallet af billeder lige eller ulige? Sæt ring om det rigtige ord."
     },
     "G1-352": {
       "title": "Personlige stedord",
@@ -1348,7 +1348,7 @@
         },
         "share": {
           "title": "Kan to venner dele ligeligt?",
-          "instruction": "Del billederne mellem de to venner, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Sæt ring om lige eller ulige."
+          "instruction": "Del billederne mellem vennerne, én ad gangen. Skriv hvor mange hver får, og hvad der er tilovers. Er antallet af billeder lige eller ulige? Sæt ring."
         },
         "ones": {
           "title": "Lige og ulige tal op til 100: se på enerfeltet",
@@ -1360,7 +1360,7 @@
         },
         "count": {
           "title": "Lige eller ulige? Tæl billederne to og to",
-          "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet, og sæt så ring om lige eller ulige."
+          "instruction": "Tæl billederne, og sæt ring om dem to og to. Skriv hvor mange par du har lavet. Er antallet af billeder lige eller ulige? Sæt ring om det rigtige ord."
         }
       },
       "refuse": {},

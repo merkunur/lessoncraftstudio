@@ -155,7 +155,7 @@
     },
     "G1-369": {
       "title": "Peut-on partager entre deux enfants ?",
-      "instruction": "Donne les images aux deux enfants, une chacun à tour de rôle. Écris combien chacun reçoit et ce qui reste, puis entoure pair ou impair."
+      "instruction": "Donne les images aux deux enfants, une chacun. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Entoure-le."
     },
     "G2-352": {
       "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
@@ -167,7 +167,7 @@
     },
     "G1-370": {
       "title": "Pair ou impair ? Compte les images deux par deux",
-      "instruction": "Compte les images et entoure-les deux par deux. Écris combien de paires tu as formées, puis entoure pair ou impair."
+      "instruction": "Compte les images et entoure-les deux par deux. Écris combien de paires tu as formées. Le nombre d'images est-il pair ou impair ? Entoure la réponse."
     },
     "G1-352": {
       "title": "Les pronoms personnels sujets",
@@ -1595,7 +1595,7 @@
         },
         "share": {
           "title": "Peut-on partager entre deux enfants ?",
-          "instruction": "Donne les images aux deux enfants, une chacun à tour de rôle. Écris combien chacun reçoit et ce qui reste, puis entoure pair ou impair."
+          "instruction": "Donne les images aux deux enfants, une chacun. Écris combien chacun reçoit et ce qui reste. Le nombre d'images est-il pair ou impair ? Entoure-le."
         },
         "ones": {
           "title": "Nombres pairs et impairs jusqu'à 100 : le chiffre des unités",
@@ -1607,7 +1607,7 @@
         },
         "count": {
           "title": "Pair ou impair ? Compte les images deux par deux",
-          "instruction": "Compte les images et entoure-les deux par deux. Écris combien de paires tu as formées, puis entoure pair ou impair."
+          "instruction": "Compte les images et entoure-les deux par deux. Écris combien de paires tu as formées. Le nombre d'images est-il pair ou impair ? Entoure la réponse."
         }
       },
       "refuse": {},

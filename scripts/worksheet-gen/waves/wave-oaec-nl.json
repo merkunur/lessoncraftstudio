@@ -1,0 +1,90 @@
+{
+  "id": "wave-oaec-nl",
+  "_note": "Level Set 2026-10-14: Odd and Even Numbers with pictures. Level 1 easier (smaller piles), level 2 the published page, level 3 harder (bigger piles in two rows). Every lane has its own row width, so the shape of a pile never gives away odd or even. Visible to teachers, never indexed; PDF + interactive screen version (type the numbers, tap odd or even) + answer key.",
+  "indexable": false,
+  "interactive": true,
+  "seedEpoch": 1,
+  "locales": [
+    "nl"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    1,
+    2,
+    3
+  ],
+  "types": [
+    "G1-370"
+  ],
+  "levels": {
+    "G1-370": {
+      "1": [
+        {
+          "copy": 1,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 2,
+          "theme": "vegetables"
+        },
+        {
+          "copy": 3,
+          "theme": "accessories"
+        },
+        {
+          "copy": 4,
+          "theme": "desserts and sweets"
+        },
+        {
+          "copy": 5,
+          "theme": "fruits"
+        }
+      ],
+      "2": [
+        {
+          "copy": 2,
+          "theme": "zoo animals"
+        },
+        {
+          "copy": 3,
+          "theme": "bakery"
+        },
+        {
+          "copy": 4,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 5,
+          "theme": "ocean life"
+        },
+        {
+          "copy": 6,
+          "theme": "toys"
+        }
+      ],
+      "3": [
+        {
+          "copy": 1,
+          "theme": "pets"
+        },
+        {
+          "copy": 2,
+          "theme": "At the Supermarket"
+        },
+        {
+          "copy": 3,
+          "theme": "farm animals"
+        },
+        {
+          "copy": 4,
+          "theme": "flowers"
+        },
+        {
+          "copy": 5,
+          "theme": "toys"
+        }
+      ]
+    }
+  }
+}

@@ -2554,7 +2554,7 @@
   },
   "G1-369": {
     "title": "Si può dividere in due? Pari o dispari",
-    "instruction": "Dividi i disegni tra i due amici, uno a testa a turno. Scrivi quanti ne riceve ognuno e quanti ne restano, poi cerchia pari o dispari."
+    "instruction": "Dividi i disegni tra i due amici, uno a testa. Scrivi quanti ne riceve ognuno e quanti ne restano. Il numero dei disegni è pari o dispari? Cerchia."
   },
   "G2-352": {
     "title": "Numeri pari e dispari fino a 100: guarda le unità",
@@ -2566,7 +2566,7 @@
   },
   "G1-370": {
     "title": "Pari o dispari? Conta le figure a coppie",
-    "instruction": "Conta le figure e cerchiale a due a due. Scrivi quante coppie hai fatto, poi cerchia pari o dispari."
+    "instruction": "Conta le figure e cerchiale a due a due. Scrivi quante coppie hai fatto. Il numero delle figure è pari o dispari? Cerchia la risposta."
   },
   "G1-371": {
     "title": "Sostituisci il nome con un pronome",

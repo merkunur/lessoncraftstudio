@@ -605,7 +605,7 @@ async function main() {
       assertRender('d2 en 677 chrome', r4, { chips: 9, worked: 3, stripH: 92, stack: 638 });
       console.log(`render d2 en 677 chrome: body ${r4.m.body.h.toFixed(1)} lowest ${Math.round(r4.m.lowest)} vs foot ${Math.round(r4.m.foot)} (slack ${Math.round(r4.m.body.h - 638)})`);
       const r3 = await renderWith(page, TYPE, { difficulty: 3, baseName: 'G1-351-gate-d3-en-chrome677', strings: CHROME.four });
-      assertRender('d3 en 677 chrome', r3, { chips: 12, worked: 2, stripH: 164, stack: 618 });
+      assertRender('d3 en 677 chrome', r3, { chips: 12, worked: 3, stripH: 164, stack: 618 });   // Level Set 2026-10-14: three worked numbers (the instruction says three)
       console.log(`render d3 en 677 chrome: body ${r3.m.body.h.toFixed(1)} lowest ${Math.round(r3.m.lowest)} vs foot ${Math.round(r3.m.foot)} (stack 618, slack ${Math.round(r3.m.body.h - 618)})`);
     }
 
@@ -958,6 +958,7 @@ async function main() {
             let b;
             try { b = spec.build({ theme: FACE_THEME[mode], difficulty: 2, locale: 'en' }, { rng }); } catch (e) { ok(false, `sweep ${id} seed ${s}: ${e.message}`); continue; }
             const E = b.meta.expected;
+            if (mode === 'proof') { const W = b.meta.widths, ns0 = E.map((e) => e.n); const same = ns0.filter((n, i) => { const r = Math.ceil(n / W[i]); return (n - (r - 1) * W[i]) % 2 === n % 2; }).length; ok(Array.isArray(W) && Math.abs(same * 2 - ns0.length) <= 2, `sweep ${id} seed ${s}: the last dot row's parity matches on ${same} of ${ns0.length} cards (want half, one off at most)`); }
             if (mode === 'proof') { const ns = E.map((e) => e.n); ok(new Set(ns).size === 8 && ns.filter((n) => n % 2).length === 4 && ns.filter((n) => n > 10).length >= 2 && ns.every((n) => n >= 3 && n <= 20) && !ns.every((v, i) => !i || v > ns[i - 1]), `sweep ${id} seed ${s}: ${ns}`); sets.add(ns.slice().sort((a, c) => a - c).join()); }
             else if (mode === 'share' || mode === 'count') { const ns = E.map((e) => e.n), [lo, hi] = spec.difficulty[2].range; ok(new Set(ns).size === 6 && ns.filter((n) => n % 2).length === 3 && ns.every((n) => n >= lo && n <= hi) && new Set(E.map((e) => e.noun)).size === 6 && (mode !== 'share' || E.every((e) => e.names[0] !== e.names[1])), `sweep ${id} seed ${s}: ${ns} / ${E.map((e) => e.noun)}`); sets.add(ns.slice().sort((a, c) => a - c).join() + '|' + E.map((e) => e.noun).sort().join()); 
               // ⚠ PARITY TELL, measured in BOTH directions. At any fixed row width the short
@@ -965,7 +966,8 @@ async function main() {
               // range straddles the one-row/two-row boundary. `share` is configured so exactly
               // half the lanes match and half invert (50.0% over 792 measured lanes); `count`
               // cannot be fixed inside its 2-row cap and is a recorded exception.
-              if (mode === 'share') { const p = spec.difficulty[2].perRow; const same = ns.filter((n) => (((n % p) || p) % 2) === (n % 2)).length; ok(same * 2 === ns.length, `sweep ${id} seed ${s}: the last row's parity matches the pile on ${same} of ${ns.length} lanes — a child reading only the short bottom line has a rule (want exactly half)`); }
+              // Level Set 2026-10-14 (`vary`): every lane draws its OWN row width — read the widths the page used
+              { const W = b.meta.widths; const same = ns.filter((n, i) => { const r = Math.ceil(n / W[i]); return (n - (r - 1) * W[i]) % 2 === n % 2; }).length; ok(Array.isArray(W) && W.length === ns.length && same * 2 === ns.length, `sweep ${id} seed ${s}: the last row's parity matches the pile on ${same} of ${ns.length} lanes — a child reading only the short bottom line has a rule (want exactly half)`); }
             }
             else if (mode === 'ones') { const vs = E.map((e) => e.v); const ones = {}; vs.forEach((v) => { ones[v % 10] = (ones[v % 10] || 0) + 1; }); ok(new Set(vs).size === 12 && Object.keys(ones).length === 10 && Object.values(ones).every((c) => c <= 2) && vs.filter((v) => v % 2).length >= 4 && vs.filter((v) => !(v % 2)).length >= 4 && vs.filter((v) => v >= 50).length >= 4 && vs.every((v) => v >= 10 && v <= 99), `sweep ${id} seed ${s}: ${vs}`); sets.add(vs.slice().sort((a, c) => a - c).join()); }
             else { const ks = {}; E.forEach((e) => { ks[e.k] = (ks[e.k] || 0) + 1; }); const all = E.flatMap((e) => [e.a, e.b]); ok(['ee', 'oo', 'eo', 'oe'].every((k) => ks[k] >= 3) && new Set(all).size === 24 && all.every((v) => v >= 100 && v <= 999), `sweep ${id} seed ${s}: cases ${JSON.stringify(ks)} distinct ${new Set(all).size}`); sets.add(all.join()); }
@@ -997,7 +999,7 @@ async function main() {
         cfgThrows(() => TYPE.resolveProof({ ...D('proof'), cards: 7 }), /cards 7 must be even/, 'config proof cards 7');
         cfgThrows(() => TYPE.resolveProof({ ...D('proof'), range: [3, 10], minTwoRow: 2 }), /only 0 numerals > 10/, 'config proof minTwoRow 2 in [3, 10]');
         cfgThrows(() => TYPE.resolveProof({ ...D('proof'), cards: 16, split: [8, 8], dotPx: 24, dotGap: 12 }), /> 677/, 'config proof 16 cards of 24 px dots (stack > 677)');
-        cfgThrows(() => TYPE.resolvePics({ ...D('share'), range: [5, 13] }, 'share'), /range \[5,13\] outside 3\.\.12/, 'config share range [5, 13] (a third picture row)');
+        cfgThrows(() => TYPE.resolvePics({ ...D('share'), range: [5, 13] }, 'share'), /range \[5,13\] outside 2\.\.12/, 'config share range [5, 13] (a third picture row)');
         cfgThrows(() => TYPE.resolvePics({ ...D('share'), iconPx: 40 }, 'share'), /iconPx 40 < the G1 floor 44/, 'config share iconPx 40 (the pedagogy\'s 9..15 at 40)');
         cfgThrows(() => TYPE.resolvePics({ ...D('count'), range: [11, 20] }, 'count'), /range \[11,20\] outside 8\.\.18/, 'config count range [11, 20]');
         cfgThrows(() => TYPE.resolvePics({ ...D('count'), perRow: 10 }, 'count'), /> 639/, 'config count perRow 10 (the lane row 683 > 639)');

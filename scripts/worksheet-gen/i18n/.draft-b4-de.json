@@ -45,10 +45,10 @@
 
     "G1-351": { "title": "Gerade und ungerade Zahlen bis 20", "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare." },
     "G2-351": { "title": "Gerade oder ungerade? Zwei gleiche Summanden", "instruction": "Kreise die Punkte immer zu zweit ein. Schreibe die Zahl als zwei gleiche Teile und in das kleine Kästchen, was übrig bleibt." },
-    "G1-369": { "title": "Gerecht teilen: gerade oder ungerade?", "instruction": "Teile die Bilder abwechselnd auf die zwei Kinder auf. Schreibe, wie viele jedes bekommt und wie viele übrig bleiben. Kreise ein." },
+    "G1-369": { "title": "Gerecht teilen: gerade oder ungerade?", "instruction": "Teile die Bilder abwechselnd auf. Schreib, wie viele jedes Kind bekommt und wie viele übrig sind. Ist die Bilderzahl gerade oder ungerade? Kreise ein." },
     "G2-352": { "title": "Gerade und ungerade Zahlen bis 100", "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab." },
     "G3-386": { "title": "Summe gerade oder ungerade? Ohne zu rechnen", "instruction": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und hake ab, ob die Summe gerade oder ungerade ist." },
-    "G1-370": { "title": "Gerade oder ungerade? Bilder paarweise zählen", "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind, und kreise gerade oder ungerade ein." },
+    "G1-370": { "title": "Gerade oder ungerade? Bilder paarweise zählen", "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind. Ist die Anzahl der Bilder gerade oder ungerade? Kreise ein." },
 
     "G1-352": { "title": "Personalpronomen: er, sie oder es", "instruction": "Schau dir das Bild an und lies das Wort darunter. Kreise das Wort ein, das wir stattdessen sagen können." },
     "G1-371": { "title": "Personalpronomen einsetzen", "instruction": "Lies den Satz. Schreibe das Wort aus dem Kasten, das im zweiten Satz den Namen ersetzt, in das Kästchen." },
@@ -316,10 +316,10 @@
       "strings": {
         "base": { "title": "Gerade und ungerade Zahlen bis 20", "instruction": "Schreibe jede Zahl in das Haus, in das sie gehört: gerade oder ungerade. Drei Zahlen wohnen schon dort und zeigen ihre Paare." },
         "proof": { "title": "Gerade oder ungerade? Zwei gleiche Summanden", "instruction": "Kreise die Punkte immer zu zweit ein. Schreibe die Zahl als zwei gleiche Teile und in das kleine Kästchen, was übrig bleibt." },
-        "share": { "title": "Gerecht teilen: gerade oder ungerade?", "instruction": "Teile die Bilder abwechselnd auf die zwei Kinder auf. Schreibe, wie viele jedes bekommt und wie viele übrig bleiben. Kreise ein." },
+        "share": { "title": "Gerecht teilen: gerade oder ungerade?", "instruction": "Teile die Bilder abwechselnd auf. Schreib, wie viele jedes Kind bekommt und wie viele übrig sind. Ist die Bilderzahl gerade oder ungerade? Kreise ein." },
         "ones": { "title": "Gerade und ungerade Zahlen bis 100", "instruction": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab." },
         "sums": { "title": "Summe gerade oder ungerade? Ohne zu rechnen", "instruction": "Rechne nicht. Schau auf die unterstrichenen Einer, nutze die Tabelle und hake ab, ob die Summe gerade oder ungerade ist." },
-        "count": { "title": "Gerade oder ungerade? Bilder paarweise zählen", "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind, und kreise gerade oder ungerade ein." }
+        "count": { "title": "Gerade oder ungerade? Bilder paarweise zählen", "instruction": "Zähle die Bilder und kreise sie immer zu zweit ein. Schreibe, wie viele Paare es sind. Ist die Anzahl der Bilder gerade oder ungerade? Kreise ein." }
       },
       "refuse": {},
       "strand": "Zahlen und Operationen"

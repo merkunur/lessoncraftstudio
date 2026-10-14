@@ -3,6 +3,10 @@
  * gen-b4var-specs.js — nt10-D (b4) variation faces: emits the thin variation spec
  * modules for the LAST batch of 20 printable types (bases shipped 2026-09-14).
  *
+ * ⚠ LEVEL SET (2026-10-14): the odd-and-even faces (G2-351 G1-369 G2-352 G3-386 G1-370) now carry REAL levels and a
+ * screen version (`base.levelsFor` / `base.interactiveFor`, hand-edited). Re-running this generator on them would
+ * flatten their levels back to `{1: D, 2: D, 3: D}` and drop the screens — never re-run it on that family.
+ *
  * Same shape as gen-b2var-specs.js (each emitted file spreads its base spec and
  * overrides {id, slug, difficulty, i18n} + declared extras only), with two
  * differences bought by this batch's scale:

@@ -433,6 +433,114 @@ async function playType(page, html, oracle, locale) {
   return fails;
 }
 
+/**
+ * type-number PLUS (Odd and Even 2026-10-14): write boxes that take any number of a SET (the odd house / the even house:
+ * each number once, spare boxes may stay empty) and printed choices to TAP as well (circle odd or even). The oracle
+ * recomputes {boxes, sets, picks} from the stamped numbers. The robot: Check disabled until everything is placed ·
+ * everything right → all green + celebration · a number in the WRONG house (or a wrong box number) → exactly that box
+ * red · a wrong pick → that pick red · Try again keeps the right ones · every box, key and option >= 44 px.
+ */
+async function playTypePlus(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      boxes: [...document.querySelectorAll('.lcs-wr')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      opts: [...document.querySelectorAll('.lcs-opt')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      keys: [...document.querySelectorAll('#lcs-pad .lcs-key')].map((b) => { const r = b.getBoundingClientRect(); return { t: b.textContent, w: r.width, h: r.height }; }),
+      vw: document.documentElement.clientWidth, bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle, C = B.ctx || {};
+    if (!B || info.boxes.length !== B.items.length || !B.items.length) { fails.push(w + 'px: ' + info.boxes.length + ' write boxes for ' + (B ? B.items.length : 0) + ' items'); return fails; }
+    const nOpts = (C.picks || []).reduce((n, p) => n + p.options.length, 0);
+    if (info.opts.length !== nOpts) fails.push(w + 'px: ' + info.opts.length + ' tap options for ' + nOpts);
+    [...info.boxes.map((o, i) => ['box ' + (i + 1), o]), ...info.opts.map((o, i) => ['option ' + (i + 1), o])].forEach(([n, o]) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(w + 'px: ' + n + ' is ' + Math.round(o.w) + 'x' + Math.round(o.h) + ' < ' + TAP_MIN);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(w + 'px: ' + n + ' outside the viewport');
+    });
+    info.keys.forEach((k) => { if (k.w < TAP_MIN || k.h < TAP_MIN) fails.push(w + 'px: pad key ' + k.t + ' is ' + Math.round(k.w) + 'x' + Math.round(k.h)); });
+    if (w !== 768) continue;
+    let O;
+    try { O = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta })), locale, C); } catch (e) { fails.push('oracle: ' + e.message); return fails; }
+    if (!O || !Array.isArray(O.boxes) || O.boxes.length !== B.items.length) { fails.push('the oracle gives no answer list'); return fails; }
+    // the plan: fixed boxes get their number; each set's numbers go into that set's boxes in order
+    const plan = O.boxes.map((v) => (v === null ? '' : String(v)));
+    if (O.sets) {
+      for (const [k, nums] of Object.entries(O.sets)) {
+        const slots = B.items.map((it, i) => (it.meta && it.meta['data-lcs-set'] === k ? i : -1)).filter((i) => i >= 0);
+        if (slots.length < nums.length) { fails.push('set ' + k + ': ' + nums.length + ' numbers for ' + slots.length + ' boxes'); return fails; }
+        nums.forEach((n, j) => { plan[slots[j]] = String(n); });
+      }
+    }
+    const picks = O.picks || [];
+    const tapBox = (i) => page.evaluate((k) => document.querySelectorAll('.lcs-wr')[k].click(), i);
+    const pressPad = (d) => page.evaluate((t) => { const k = [...document.querySelectorAll('#lcs-pad .lcs-key')].find((b) => b.textContent === t); if (!k) return false; k.click(); return true; }, d);
+    const writeBox = async (i, v) => { await tapBox(i); for (let q = 0; q < 3; q++) await pressPad('\u232B'); for (const d of String(v)) if (!(await pressPad(d))) fails.push('no pad key ' + d); };
+    const optIndex = (j, k) => (C.picks || []).slice(0, j).reduce((n, p) => n + p.options.length, 0) + k;
+    const tapOpt = (j, k) => page.evaluate((x) => document.querySelectorAll('.lcs-opt')[x].click(), optIndex(j, k));
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      states: [...document.querySelectorAll('.lcs-wr')].map((b) => b.getAttribute('data-state') || ''),
+      ostates: [...document.querySelectorAll('.lcs-opt')].map((b) => b.getAttribute('data-state') || ''),
+      vals: [...document.querySelectorAll('.lcs-wr')].map((b) => b.textContent),
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    const press = (id) => page.evaluate((x) => { const e = document.getElementById(x); if (!e || e.hidden || e.disabled) return false; e.click(); return true; }, id);
+    const check = async () => { if (!(await press('lcs-check'))) fails.push('Check could not be pressed'); await new Promise((r) => setTimeout(r, 600)); return state(); };
+    const filled = plan.map((v, i) => (v !== '' ? i : -1)).filter((i) => i >= 0);
+    if (!filled.length) { fails.push('nothing to write'); return fails; }
+    // 1. everything but the last box → Check stays disabled
+    for (const i of filled.slice(0, -1)) await writeBox(i, plan[i]);
+    for (let j = 0; j < picks.length; j++) await tapOpt(j, picks[j]);
+    let st = await state();
+    if (!st.checkDisabled) fails.push('Check enabled before every number is written');
+    // 2. the last number WRONG: a set number goes into the other house, a fixed box gets ±1
+    const last = filled[filled.length - 1];
+    let wrongAt = last, wrongVal;
+    const setOf = (i) => B.items[i].meta && B.items[i].meta['data-lcs-set'];
+    if (setOf(last)) {
+      const other = B.items.map((it, i) => (it.meta && it.meta['data-lcs-set'] && it.meta['data-lcs-set'] !== setOf(last) && plan[i] === '' ? i : -1)).find((i) => i >= 0);
+      if (other === undefined) { fails.push('no spare box in another set'); return fails; }
+      wrongAt = other; wrongVal = plan[last];
+    } else wrongVal = String(+plan[last] > 0 ? +plan[last] - 1 : +plan[last] + 1);
+    await writeBox(wrongAt, wrongVal);
+    st = await check();
+    if (st.celebrate) fails.push('a WRONG number reached the celebration');
+    const reds = st.states.map((x, i) => (x === 'wrong' ? i : -1)).filter((i) => i >= 0);
+    if (reds.length !== 1 || reds[0] !== wrongAt) fails.push('one wrong number marked boxes ' + JSON.stringify(reds) + ' red (want ' + wrongAt + ')');
+    if (st.states.filter((x) => x === 'right').length !== filled.length - 1) fails.push('the right numbers were not all green');
+    if (st.ostates.some((x) => x === 'wrong')) fails.push('a right pick was marked wrong');
+    // 3. Try again: the wrong box empties, the rest stays
+    if (!(await press('lcs-reset'))) fails.push('no Try again after a wrong number');
+    st = await state();
+    if (st.vals[wrongAt] !== '') fails.push('Try again kept the wrong number');
+    if (filled.slice(0, -1).some((i) => st.vals[i] !== plan[i])) fails.push('Try again erased right numbers');
+    await writeBox(last, plan[last]);
+    // 4. a wrong PICK (when the page has any): that pick red, no celebration
+    if (picks.length) {
+      const j = picks.length - 1, nk = C.picks[j].options.length;
+      await tapOpt(j, (picks[j] + 1) % nk);
+      st = await check();
+      if (st.celebrate) fails.push('a WRONG pick reached the celebration');
+      const ored = st.ostates.map((x, i) => (x === 'wrong' ? i : -1)).filter((i) => i >= 0);
+      if (ored.length !== 1 || ored[0] !== optIndex(j, (picks[j] + 1) % nk)) fails.push('one wrong pick marked options ' + JSON.stringify(ored) + ' red');
+      if (!(await press('lcs-reset'))) fails.push('no Try again after a wrong pick');
+      await tapOpt(j, picks[j]);
+    }
+    // 5. all right → celebration
+    st = await check();
+    if (!st.celebrate) fails.push('the right answers did not reach the celebration (' + st.vals.join(',') + ')');
+    if (st.states.some((x, i) => plan[i] !== '' && x !== 'right')) fails.push('the right numbers left non-green boxes');
+  }
+  return fails;
+}
+
+/** a type-number deck that sorts into sets or carries picks (its bundle ctx says so) */
+function isPlus(html) { const m = /window\.DECK_BUNDLE=(\{.*?\});<\/script>/.exec(html); if (!m) return false; const B = JSON.parse(m[1]); return B.kind === 'type-number' && !!(B.ctx && (B.ctx.sortSets || B.ctx.picks)); }
+
 async function play(page, html, oracle, locale) {
   const fails = [];
   const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
@@ -660,6 +768,7 @@ async function main() {
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
         : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
+        : B.kind === 'type-number' && B.ctx && (B.ctx.sortSets || B.ctx.picks) ? (() => { const S = B.ctx.sortSets; if (S) { const k = Object.keys(S); const t = S[k[0]]; S[k[0]] = S[k[1]]; S[k[1]] = t; } (B.ctx.picks || []).forEach((p) => { p.answer = (p.answer + 1) % p.options.length; }); return B.answers.map((a) => a + 1); })()
         : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
         : B.kind === 'type-word' ? B.answers.map((a) => a + [...a].pop())
         : B.kind === 'tap-spell' ? B.answers.map((a) => { const g = [...a]; const k = g.findIndex((c, i) => i > 0 && c.toLowerCase() !== g[0].toLowerCase()); if (k > 0) [g[0], g[k]] = [g[k], g[0]]; return g.join(''); })
@@ -668,13 +777,13 @@ async function main() {
     });
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
-      ['no tap targets', d.html.replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
+      ['no tap targets', d.html.replace("el.addEventListener('click', function () { sel(i); });", '').replace("place(el, o); el.addEventListener('click', function () { tapPick(j, k); });", 'place(el, o);').replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++')],
     ];
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, html, d.oracle, d.locale);
+      const fails = await (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play))(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -683,7 +792,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play)(page, d.html, d.oracle, d.locale);
+    const fails = await (isPlus(d.html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace }[d.kind] || play))(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

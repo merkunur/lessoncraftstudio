@@ -1,0 +1,111 @@
+{
+ "id": "wave-shop-fr",
+ "_note": "Shopping Math fr Level Set copies: que elides before a vowel name (2026-10-14, walk #65), pinned",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G2-276",
+  "G2-289",
+  "G2-290",
+  "G2-294"
+ ],
+ "levels": {
+  "G2-276": {
+   "2": [
+    {
+     "copy": 20,
+     "theme": "toys"
+    }
+   ],
+   "3": [
+    {
+     "copy": 22,
+     "theme": "At the Supermarket"
+    },
+    {
+     "copy": 27,
+     "theme": "clothing"
+    },
+    {
+     "copy": 30,
+     "theme": "music"
+    }
+   ]
+  },
+  "G2-289": {
+   "1": [
+    {
+     "copy": 3,
+     "theme": "classroom"
+    },
+    {
+     "copy": 5,
+     "theme": "toys"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "classroom"
+    }
+   ]
+  },
+  "G2-290": {
+   "1": [
+    {
+     "copy": 2,
+     "theme": "At the Supermarket"
+    },
+    {
+     "copy": 3,
+     "theme": "music"
+    },
+    {
+     "copy": 4,
+     "theme": "clothing"
+    }
+   ],
+   "2": [
+    {
+     "copy": 5,
+     "theme": "accessories"
+    }
+   ],
+   "3": [
+    {
+     "copy": 3,
+     "theme": "At the Supermarket"
+    }
+   ]
+  },
+  "G2-294": {
+   "2": [
+    {
+     "copy": 3,
+     "theme": "breakfast"
+    },
+    {
+     "copy": 6,
+     "theme": "classroom"
+    }
+   ],
+   "3": [
+    {
+     "copy": 4,
+     "theme": "accessories"
+    }
+   ]
+  }
+ }
+}

@@ -213,6 +213,8 @@ const ROWS = [
     { cards: 6, stepM: [60, 30, 15] }, 'Draw the Hands: Mixed Times', null],
 
   // ---- G1-213 word problems (fruits-pinned wave; animals fan rides base id) ----
+  // ⚠ Word Problems Level Set 2026-10-14: G1-238…241 now read `difficulty: base.levelsFor(<id>, <published D>)` (real
+  // levels from G1-213 FACE_LEVELS). A re-run would flatten them back to {1:D,2:D,3:D} — keep their hand-edited files.
   ['g1', 'G1-238', 'addition-word-problems', 'G1-213-word-problems.js',
     { max: 20, problems: 2, iconMax: 12, opsPattern: ['add'] },
     'Addition Word Problems', null],

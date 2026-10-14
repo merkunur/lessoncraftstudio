@@ -23,14 +23,14 @@ const FRAMES = {
     ],
     "frames": {
       "add": [
-        "{name} has {n1} {noun}. Then {name} finds {n2} more. How many {noun} are there now?",
+        "{name} has {n1} {noun}. Then {name} finds {n2} more. How many {noun} does {name} have now?",
         "There are {n1} {noun} in the box. {name} puts in {n2} more. How many {noun} are in the box now?",
         "{name} sees {n1} {noun}. Then {name} sees {n2} more. How many {noun} does {name} see in all?",
         "{name} counts {n1} {noun}. A friend brings {n2} more. How many {noun} are there in all?"
       ],
       "sub": [
         "{name} has {n1} {noun}. {name} gives {n2} away. How many {noun} are left?",
-        "There are {n1} {noun} on the table. {n2} fall down. How many {noun} are left?",
+        "There are {n1} {noun} on the table. {n2} fall down. How many {noun} are still on the table?",
         "{name} collects {n1} {noun}. Then {name} loses {n2}. How many {noun} are left?"
       ]
     }
@@ -106,7 +106,7 @@ const FRAMES = {
       "add": [
         "{name} a {n1} {noun}. {name} trouve encore {n2} {noun}. Combien cela fait-il en tout ?",
         "{name} voit {n1} {noun}. Puis {name} voit encore {n2} {noun}. Combien y en a-t-il en tout ?",
-        "{name} a {n1} {noun}. Un ami donne {n2} {noun} à {name}. Combien y en a-t-il en tout ?",
+        "{name} a {n1} {noun}. Un ami donne {n2} {noun} à {name}. Combien de {noun} {name} a-t-{il} maintenant ?",
         "Dans un panier, il y a {n1} {noun}. {name} ajoute {n2} {noun}. Combien y en a-t-il maintenant ?"
       ],
       "sub": [
@@ -137,9 +137,9 @@ const FRAMES = {
         "{name} conta {n1} {noun} e um amigo conta mais {n2} {noun}. Qual é o total de {noun} dos dois juntos?"
       ],
       "sub": [
-        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. Qual é o total de {noun} que sobra?",
-        "{name} tem {n1} {noun} e perde {n2} {noun}. Qual é o total de {noun} agora?",
-        "{name} conta {n1} {noun} e tira {n2} {noun}. Qual é o total de {noun} que resta?"
+        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. {Q} {noun} sobram para {name}?",
+        "{name} tem {n1} {noun} e perde {n2} {noun}. {Q} {noun} {name} tem agora?",
+        "{name} conta {n1} {noun} e tira {n2} {noun}. {Q} {noun} restam?"
       ]
     }
   },
@@ -164,9 +164,9 @@ const FRAMES = {
         "{name} mette {n1} {noun} nel cesto. Poi ne aggiunge ancora {n2}. Qual è il totale?"
       ],
       "sub": [
-        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. Qual è il totale adesso?",
-        "{name} ha {n1} {noun}. Ne perde {n2} al parco. Qual è il totale alla fine?",
-        "{name} conta {n1} {noun}. Ne dà via {n2}. Qual è il totale che resta?"
+        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. {Q} {noun} ha ancora {name}?",
+        "{name} ha {n1} {noun}. Ne perde {n2} al parco. {Q} {noun} ha ancora {name}?",
+        "{name} conta {n1} {noun}. Ne dà via {n2}. {Q} {noun} restano?"
       ]
     }
   },

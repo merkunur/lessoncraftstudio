@@ -137,9 +137,9 @@
         "{name} mette {n1} {noun} nel cesto. Poi ne aggiunge ancora {n2}. Qual è il totale?"
       ],
       "sub": [
-        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. Qual è il totale adesso?",
-        "{name} ha {n1} {noun}. Ne perde {n2} al parco. Qual è il totale alla fine?",
-        "{name} conta {n1} {noun}. Ne dà via {n2}. Qual è il totale che resta?"
+        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. {Q} {noun} ha ancora {name}?",
+        "{name} ha {n1} {noun}. Ne perde {n2} al parco. {Q} {noun} ha ancora {name}?",
+        "{name} conta {n1} {noun}. Ne dà via {n2}. {Q} {noun} restano?"
       ]
     }
   },

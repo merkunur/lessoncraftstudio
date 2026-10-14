@@ -133,7 +133,7 @@
       "add": [
         "{name} a {n1} {noun}. {name} trouve encore {n2} {noun}. Combien cela fait-il en tout ?",
         "{name} voit {n1} {noun}. Puis {name} voit encore {n2} {noun}. Combien y en a-t-il en tout ?",
-        "{name} a {n1} {noun}. Un ami donne {n2} {noun} à {name}. Combien y en a-t-il en tout ?",
+        "{name} a {n1} {noun}. Un ami donne {n2} {noun} à {name}. Combien de {noun} {name} a-t-{il} maintenant ?",
         "Dans un panier, il y a {n1} {noun}. {name} ajoute {n2} {noun}. Combien y en a-t-il maintenant ?"
       ],
       "sub": [

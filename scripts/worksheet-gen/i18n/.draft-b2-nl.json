@@ -866,7 +866,7 @@
       ],
       "share": [
         "{name} verdeelt {n1} {noun} eerlijk over {n2} kinderen. Hoeveel {noun} krijgt elk kind?",
-        "{name} doet {n1} {noun} eerlijk in {n2} dozen. Hoeveel {noun} komen er in elke doos?",
+        "{name} doet {n1} {noun} in {n2} dozen, in elke doos evenveel. Hoeveel {noun} komen er in elke doos?",
         "{name} maakt van {n1} {noun} precies {n2} gelijke groepjes. Hoeveel {noun} zitten er in elk groepje?"
       ],
       "group": [

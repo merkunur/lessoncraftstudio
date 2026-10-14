@@ -201,9 +201,9 @@
     "frames": {
       "mul": [
         "{name} hat {n1} Kisten. In jeder Kiste sind {n2} {noun}. Wie viele {noun} hat {name} insgesamt?",
-        "{name} füllt {n1} Tüten mit je {n2} {noun}. Wie viele {noun} sind das zusammen?",
+        "{name} füllt {n1} Tüten. In jede Tüte kommen {n2} {noun}. Wie viele {noun} sind das zusammen?",
         "{name} hat {n1} Regale. In jedem Regal sind {n2} {noun}. Wie viele {noun} sind das insgesamt?",
-        "{name} sieht {n1} Reihen mit je {n2} {noun}. Wie viele {noun} sind das zusammen?"
+        "{name} sieht {n1} Reihen. In jeder Reihe sind {n2} {noun}. Wie viele {noun} sind das zusammen?"
       ],
       "share": [
         "{name} verteilt {n1} {noun} gerecht an {n2} Kinder. Wie viele {noun} bekommt jedes Kind?",
@@ -212,8 +212,8 @@
       ],
       "group": [
         "{name} hat {n1} {noun}. {name} packt immer {n2} {noun} in eine Tüte. Wie viele Tüten braucht {name}?",
-        "Es gibt {n1} {noun}. {name} bildet Gruppen mit je {n2} {noun}. Wie viele Gruppen sind das?",
-        "{name} packt {n1} {noun} in Kisten mit je {n2} {noun}. Wie viele Kisten braucht {name}?"
+        "Es gibt {n1} {noun}. {name} bildet Gruppen. In jede Gruppe kommen {n2} {noun}. Wie viele Gruppen sind das?",
+        "{name} packt {n1} {noun} in Kisten. In jede Kiste kommen {n2} {noun}. Wie viele Kisten braucht {name}?"
       ]
     }
   },

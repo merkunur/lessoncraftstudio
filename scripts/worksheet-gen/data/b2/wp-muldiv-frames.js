@@ -55,9 +55,9 @@ const WP_MULDIV = {
     "frames": {
       "mul": [
         "{name} hat {n1} Kisten. In jeder Kiste sind {n2} {noun}. Wie viele {noun} hat {name} insgesamt?",
-        "{name} füllt {n1} Tüten mit je {n2} {noun}. Wie viele {noun} sind das zusammen?",
+        "{name} füllt {n1} Tüten. In jede Tüte kommen {n2} {noun}. Wie viele {noun} sind das zusammen?",
         "{name} hat {n1} Regale. In jedem Regal sind {n2} {noun}. Wie viele {noun} sind das insgesamt?",
-        "{name} sieht {n1} Reihen mit je {n2} {noun}. Wie viele {noun} sind das zusammen?"
+        "{name} sieht {n1} Reihen. In jeder Reihe sind {n2} {noun}. Wie viele {noun} sind das zusammen?"
       ],
       "share": [
         "{name} verteilt {n1} {noun} gerecht an {n2} Kinder. Wie viele {noun} bekommt jedes Kind?",
@@ -66,8 +66,8 @@ const WP_MULDIV = {
       ],
       "group": [
         "{name} hat {n1} {noun}. {name} packt immer {n2} {noun} in eine Tüte. Wie viele Tüten braucht {name}?",
-        "Es gibt {n1} {noun}. {name} bildet Gruppen mit je {n2} {noun}. Wie viele Gruppen sind das?",
-        "{name} packt {n1} {noun} in Kisten mit je {n2} {noun}. Wie viele Kisten braucht {name}?"
+        "Es gibt {n1} {noun}. {name} bildet Gruppen. In jede Gruppe kommen {n2} {noun}. Wie viele Gruppen sind das?",
+        "{name} packt {n1} {noun} in Kisten. In jede Kiste kommen {n2} {noun}. Wie viele Kisten braucht {name}?"
       ]
     }
   },
@@ -156,9 +156,9 @@ const WP_MULDIV = {
         "{name} vê {n1} fileiras de {noun}. Cada fileira tem {n2} {noun}. Qual é o total de {noun}?"
       ],
       "share": [
-        "{name} reparte {n1} {noun} igualmente entre {n2} amigos. Qual é o total de {noun} de cada amigo?",
-        "{name} coloca {n1} {noun} em {n2} sacolas, com a mesma quantidade em cada uma. Qual é o total de {noun} em cada sacola?",
-        "{name} divide {n1} {noun} igualmente em {n2} caixas. Qual é o total de {noun} em cada caixa?"
+        "{name} reparte {n1} {noun} igualmente entre {n2} amigos. {Q} {noun} cada amigo recebe?",
+        "{name} coloca {n1} {noun} em {n2} sacolas, com a mesma quantidade em cada uma. {Q} {noun} ficam em cada sacola?",
+        "{name} divide {n1} {noun} igualmente em {n2} caixas. {Q} {noun} ficam em cada caixa?"
       ],
       "group": [
         "{name} tem {n1} {noun}. {name} coloca {n2} {noun} em cada sacola. Quantas sacolas {name} enche?",
@@ -188,7 +188,7 @@ const WP_MULDIV = {
         "{name} vede {n1} file di {noun}. In ogni fila ci sono {n2} {noun}. Qual è il totale di {noun}?"
       ],
       "share": [
-        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. Qual è il numero di {noun} di ogni amico?",
+        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. {Q} {noun} riceve ogni amico?",
         "{name} mette {n1} {noun} in {n2} scatole, con lo stesso numero in ogni scatola. Qual è il numero di {noun} in ogni scatola?",
         "{name} forma {n2} gruppi uguali con {n1} {noun}. Qual è il numero di {noun} in ogni gruppo?"
       ],
@@ -221,7 +221,7 @@ const WP_MULDIV = {
       ],
       "share": [
         "{name} verdeelt {n1} {noun} eerlijk over {n2} kinderen. Hoeveel {noun} krijgt elk kind?",
-        "{name} doet {n1} {noun} eerlijk in {n2} dozen. Hoeveel {noun} komen er in elke doos?",
+        "{name} doet {n1} {noun} in {n2} dozen, in elke doos evenveel. Hoeveel {noun} komen er in elke doos?",
         "{name} maakt van {n1} {noun} precies {n2} gelijke groepjes. Hoeveel {noun} zitten er in elk groepje?"
       ],
       "group": [
@@ -506,7 +506,7 @@ const WP_MULDIV = {
     "frames": {
       "mul": [
         "{name} tekee {n1} ryhmää. Jokaisessa ryhmässä on {n2} {noun}. Kuinka monta {noun} {name} laittaa ryhmiin yhteensä?",
-        "Pöydällä on {n1} riviä. Jokaisessa rivissä on {n2} {noun}. Kuinka monta {noun} {name} laskee yhteensä?",
+        "{name} näkee pöydällä {n1} riviä. Jokaisessa rivissä on {n2} {noun}. Kuinka monta {noun} {name} laskee yhteensä?",
         "{name} avaa {n1} laatikkoa. Jokaisessa laatikossa on {n2} {noun}. Kuinka monta {noun} laatikoissa on kaikkiaan?",
         "{name} näkee {n1} riviä. Joka rivissä on {n2} {noun}. Kuinka monta {noun} {name} näkee?"
       ],

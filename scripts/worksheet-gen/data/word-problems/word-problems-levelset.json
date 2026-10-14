@@ -1,0 +1,725 @@
+{
+  "_note": "Level Set 2026-10-14 (walk #65, Word Problems). NEW PAGES ONLY — the published pages (level 2, copy 1) read data/word-problems/frames.js and data/b2/wp-muldiv-frames.js untouched. Slots: {name} {name2} (always a different child) {n1} {n2} {n3} {noun} (plural; fi partitive); {Q} = the gender-agreeing 'how many' (es Cuántos/Cuántas, pt Quantos/Quantas, it Quanti/Quante); fr {il} / {il2} = the pronoun of {name} / {name2} (nameGender). No other pronouns. Kinds: add n1+n2 · sub n1-n2 · addChange n1 -> n3, answer n3-n1 · subChange n1 -> n3, answer n1-n3 · compare n1 vs n2, answer n1-n2 · mul n1 groups of n2 · share n1 into n2 · group n1 in groups of n2.",
+  "en": {
+    "names": [
+      "Ava",
+      "Noah",
+      "Zoe",
+      "Sam",
+      "Ella",
+      "Jack",
+      "Ruby",
+      "Omar"
+    ],
+    "add": [
+      "{name} has {n1} {noun} in a bag. {name} puts in {n2} more. How many {noun} are in the bag now?",
+      "{name} gets {n1} {noun} on Monday and {n2} {noun} on Tuesday. How many {noun} does {name} get in all?",
+      "There are {n1} {noun} on the table. {name} brings {n2} more. How many {noun} are on the table now?",
+      "{name} has {n1} {noun}. {name2} has {n2} {noun}. How many {noun} do {name} and {name2} have together?",
+      "{name} finds {n1} {noun} in the morning and {n2} {noun} after lunch. How many {noun} does {name} find in all?",
+      "{name} buys {n1} {noun}. Then {name} buys {n2} more. How many {noun} does {name} buy in all?"
+    ],
+    "sub": [
+      "There are {n1} {noun} in a box. {name} takes out {n2}. How many {noun} are still in the box?",
+      "{name} has {n1} {noun}. {name} gives {n2} {noun} to {name2}. How many {noun} does {name} have now?",
+      "There are {n1} {noun} on a shelf. {n2} {noun} fall off. How many {noun} are still on the shelf?",
+      "{name} has {n1} {noun}. {name} hides {n2} {noun} behind a box. How many {noun} can {name} still see?",
+      "There are {n1} {noun} in a basket. {name} takes {n2} {noun} home. How many {noun} are still in the basket?",
+      "{name} and {name2} have {n1} {noun}. {name2} takes {n2} {noun} home. How many {noun} are left for {name}?"
+    ],
+    "addChange": [
+      "{name} has {n1} {noun}. {name} gets some more. Now {name} has {n3} {noun}. How many {noun} did {name} get?",
+      "There are {n1} {noun} in a box. {name} puts in some more. Now there are {n3} {noun} in the box. How many {noun} did {name} put in?",
+      "{name} finds {n1} {noun}. Then {name} finds some more. Now {name} has {n3} {noun}. How many {noun} did {name} find the second time?",
+      "{name} has {n1} {noun}. {name2} gives {name} some more. Now {name} has {n3} {noun}. How many {noun} did {name2} give {name}?",
+      "There are {n1} {noun} on the table. {name} brings some more. Now there are {n3} {noun} on the table. How many {noun} did {name} bring?"
+    ],
+    "subChange": [
+      "{name} has {n1} {noun}. {name} gives some away. Now {name} has {n3} {noun}. How many {noun} did {name} give away?",
+      "There are {n1} {noun} in a box. {name} takes some out. Now there are {n3} {noun} in the box. How many {noun} did {name} take out?",
+      "{name} has {n1} {noun}. Some {noun} get lost. Now {name} has {n3} {noun}. How many {noun} got lost?",
+      "There are {n1} {noun} on a shelf. Some fall off. Now there are {n3} {noun} on the shelf. How many {noun} fell off?",
+      "{name} has {n1} {noun}. {name} gives some to {name2}. Now {name} has {n3} {noun}. How many {noun} did {name2} get?"
+    ],
+    "compare": [
+      "{name} has {n1} {noun}. {name2} has {n2} {noun}. How many more {noun} does {name} have than {name2}?",
+      "{name} has {n1} {noun}. {name2} has {n2} {noun}. How many fewer {noun} does {name2} have than {name}?",
+      "There are {n1} {noun} in a red box and {n2} {noun} in a blue box. How many more {noun} are in the red box?",
+      "{name} finds {n1} {noun}. {name2} finds {n2} {noun}. How many more {noun} does {name} find than {name2}?",
+      "{name} has {n1} {noun}. {name2} has {n2} {noun}. How many more {noun} does {name2} need to have as many as {name}?"
+    ],
+    "mul": [
+      "{name} buys {n1} packs. Each pack has {n2} {noun}. How many {noun} does {name} buy?",
+      "{name} puts {n2} {noun} on each of {n1} plates. How many {noun} are on the plates?",
+      "There are {n1} baskets. Each basket holds {n2} {noun}. How many {noun} are there in all?"
+    ],
+    "share": [
+      "{n2} children share {n1} {noun} fairly. How many {noun} does each child get?",
+      "{name} puts {n1} {noun} on {n2} plates, the same number on each plate. How many {noun} are on each plate?",
+      "{name} puts {n1} {noun} into {n2} baskets, the same number in each basket. How many {noun} go in each basket?"
+    ],
+    "group": [
+      "{name} has {n1} {noun}. {name} gives all of them away, {n2} to each child. How many children get {noun}?",
+      "{name} puts {n1} {noun} on plates, {n2} {noun} on each plate. How many plates does {name} use?",
+      "{name} puts {n1} {noun} into baskets, {n2} {noun} in each basket. How many baskets does {name} fill?"
+    ]
+  },
+  "de": {
+    "names": [
+      "Mila",
+      "Jonas",
+      "Clara",
+      "Elias",
+      "Ida",
+      "Luis",
+      "Marie",
+      "Anton"
+    ],
+    "add": [
+      "{name} hat {n1} {noun} in einer Tasche. {name} legt noch {n2} {noun} dazu. Wie viele {noun} sind jetzt in der Tasche?",
+      "{name} bekommt am Montag {n1} {noun} und am Dienstag {n2} {noun}. Wie viele {noun} bekommt {name} zusammen?",
+      "Auf dem Tisch liegen {n1} {noun}. {name} bringt noch {n2} {noun}. Wie viele {noun} liegen jetzt auf dem Tisch?",
+      "{name} hat {n1} {noun}. {name2} hat {n2} {noun}. Wie viele {noun} haben {name} und {name2} zusammen?",
+      "{name} findet am Morgen {n1} {noun} und am Nachmittag {n2} {noun}. Wie viele {noun} findet {name} insgesamt?",
+      "{name} kauft {n1} {noun}. Dann kauft {name} noch {n2} {noun}. Wie viele {noun} kauft {name} insgesamt?"
+    ],
+    "sub": [
+      "In einer Kiste sind {n1} {noun}. {name} nimmt {n2} {noun} heraus. Wie viele {noun} sind noch in der Kiste?",
+      "{name} hat {n1} {noun}. {name} gibt {name2} {n2} {noun}. Wie viele {noun} hat {name} jetzt noch?",
+      "Auf einem Regal liegen {n1} {noun}. {n2} {noun} fallen herunter. Wie viele {noun} liegen noch auf dem Regal?",
+      "{name} hat {n1} {noun}. {name} versteckt {n2} {noun} hinter einer Kiste. Wie viele {noun} kann {name} noch sehen?",
+      "In einem Korb sind {n1} {noun}. {name} nimmt {n2} {noun} mit nach Hause. Wie viele {noun} sind noch im Korb?",
+      "{name} und {name2} haben zusammen {n1} {noun}. {name2} nimmt {n2} {noun} mit nach Hause. Wie viele {noun} bleiben für {name} übrig?"
+    ],
+    "addChange": [
+      "{name} hat {n1} {noun}. {name} bekommt noch welche dazu. Jetzt hat {name} {n3} {noun}. Wie viele {noun} hat {name} dazubekommen?",
+      "In einer Kiste sind {n1} {noun}. {name} legt noch welche hinein. Jetzt sind {n3} {noun} in der Kiste. Wie viele {noun} hat {name} hineingelegt?",
+      "{name} findet {n1} {noun}. Dann findet {name} noch welche. Jetzt hat {name} {n3} {noun}. Wie viele {noun} hat {name} noch gefunden?",
+      "{name} hat {n1} {noun}. {name2} schenkt {name} noch welche. Jetzt hat {name} {n3} {noun}. Wie viele {noun} hat {name2} {name} geschenkt?",
+      "Auf dem Tisch liegen {n1} {noun}. {name} bringt noch welche. Jetzt liegen {n3} {noun} auf dem Tisch. Wie viele {noun} hat {name} gebracht?"
+    ],
+    "subChange": [
+      "{name} hat {n1} {noun}. {name} verschenkt einige. Jetzt hat {name} noch {n3} {noun}. Wie viele {noun} hat {name} verschenkt?",
+      "In einer Kiste sind {n1} {noun}. {name} nimmt einige heraus. Jetzt sind noch {n3} {noun} in der Kiste. Wie viele {noun} hat {name} herausgenommen?",
+      "{name} hat {n1} {noun}. Einige gehen verloren. Jetzt hat {name} noch {n3} {noun}. Wie viele {noun} sind verloren gegangen?",
+      "Auf einem Regal liegen {n1} {noun}. Einige fallen herunter. Jetzt liegen noch {n3} {noun} auf dem Regal. Wie viele {noun} sind heruntergefallen?",
+      "{name} hat {n1} {noun}. {name} gibt {name2} einige davon. Jetzt hat {name} noch {n3} {noun}. Wie viele {noun} hat {name2} bekommen?"
+    ],
+    "compare": [
+      "{name} hat {n1} {noun}. {name2} hat {n2} {noun}. Wie viele {noun} hat {name} mehr als {name2}?",
+      "{name} hat {n1} {noun}. {name2} hat {n2} {noun}. Wie viele {noun} hat {name2} weniger als {name}?",
+      "In einer roten Kiste sind {n1} {noun}, in einer blauen Kiste sind {n2} {noun}. Wie viele {noun} sind in der roten Kiste mehr?",
+      "{name} findet {n1} {noun}. {name2} findet {n2} {noun}. Wie viele {noun} findet {name} mehr als {name2}?",
+      "{name} hat {n1} {noun}. {name2} hat {n2} {noun}. Wie viele {noun} braucht {name2} noch, um genauso viele zu haben wie {name}?"
+    ],
+    "mul": [
+      "{name} kauft {n1} Packungen. In jeder Packung sind {n2} {noun}. Wie viele {noun} kauft {name}?",
+      "{name} legt auf jeden von {n1} Tellern {n2} {noun}. Wie viele {noun} liegen auf den Tellern?",
+      "Es stehen {n1} Körbe da. In jedem Korb sind {n2} {noun}. Wie viele {noun} sind es insgesamt?"
+    ],
+    "share": [
+      "{n2} Kinder teilen sich {n1} {noun} gerecht. Wie viele {noun} bekommt jedes Kind?",
+      "{name} legt {n1} {noun} gleichmäßig auf {n2} Teller. Wie viele {noun} liegen auf jedem Teller?",
+      "{name} verteilt {n1} {noun} gleichmäßig auf {n2} Körbe. Wie viele {noun} kommen in jeden Korb?"
+    ],
+    "group": [
+      "{name} hat {n1} {noun}. {name} verteilt alle, jedes Kind bekommt {n2} {noun}. Wie viele Kinder bekommen {noun}?",
+      "{name} legt {n1} {noun} auf Teller, immer {n2} {noun} auf einen Teller. Wie viele Teller braucht {name}?",
+      "{name} legt {n1} {noun} in Körbe. In jeden Korb passen {n2} {noun}. Wie viele Körbe füllt {name}?"
+    ]
+  },
+  "es": {
+    "names": [
+      "Regina",
+      "Santiago",
+      "Ximena",
+      "Emiliano",
+      "Renata",
+      "Leonardo",
+      "Fernanda",
+      "Iker"
+    ],
+    "add": [
+      "{name} tiene {n1} {noun} en una bolsa. Mete {n2} {noun} más. ¿{Q} {noun} hay ahora en la bolsa?",
+      "{name} recibe {n1} {noun} el lunes y {n2} {noun} el martes. ¿{Q} {noun} recibe en total?",
+      "Hay {n1} {noun} en la mesa. {name} trae {n2} {noun} más. ¿{Q} {noun} hay ahora en la mesa?",
+      "{name} tiene {n1} {noun}. {name2} tiene {n2} {noun}. ¿{Q} {noun} tienen entre {name} y {name2}?",
+      "{name} encuentra {n1} {noun} en la mañana y {n2} {noun} en la tarde. ¿{Q} {noun} encuentra en total?",
+      "{name} compra {n1} {noun}. Después compra {n2} {noun} más. ¿{Q} {noun} compra en total?"
+    ],
+    "sub": [
+      "Hay {n1} {noun} en una caja. {name} saca {n2} {noun}. ¿{Q} {noun} quedan en la caja?",
+      "{name} tiene {n1} {noun}. Le da {n2} {noun} a {name2}. ¿{Q} {noun} tiene {name} ahora?",
+      "Hay {n1} {noun} en un estante. Se caen {n2} {noun}. ¿{Q} {noun} quedan en el estante?",
+      "{name} tiene {n1} {noun}. Esconde {n2} {noun} detrás de una caja. ¿{Q} {noun} puede ver todavía?",
+      "Hay {n1} {noun} en una canasta. {name} se lleva {n2} {noun} a su casa. ¿{Q} {noun} quedan en la canasta?",
+      "{name} y {name2} tienen {n1} {noun}. {name2} se lleva {n2} {noun} a su casa. ¿{Q} {noun} le quedan a {name}?"
+    ],
+    "addChange": [
+      "{name} tiene {n1} {noun}. Le dan más {noun}. Ahora tiene {n3} {noun}. ¿{Q} {noun} le dieron?",
+      "Hay {n1} {noun} en una caja. {name} mete más {noun}. Ahora hay {n3} {noun} en la caja. ¿{Q} {noun} metió {name}?",
+      "{name} encuentra {n1} {noun}. Luego encuentra más {noun}. Ahora tiene {n3} {noun}. ¿{Q} {noun} encontró después?",
+      "{name} tiene {n1} {noun}. {name2} le regala más {noun}. Ahora {name} tiene {n3} {noun}. ¿{Q} {noun} le regaló {name2}?",
+      "Hay {n1} {noun} en la mesa. {name} trae más {noun}. Ahora hay {n3} {noun} en la mesa. ¿{Q} {noun} trajo {name}?"
+    ],
+    "subChange": [
+      "{name} tiene {n1} {noun}. Regala parte de sus {noun}. Ahora tiene {n3} {noun}. ¿{Q} {noun} regaló?",
+      "Hay {n1} {noun} en una caja. {name} saca {noun} de la caja. Ahora quedan {n3} {noun}. ¿{Q} {noun} sacó {name}?",
+      "{name} tiene {n1} {noun}. Pierde parte de sus {noun}. Ahora tiene {n3} {noun}. ¿{Q} {noun} perdió?",
+      "Hay {n1} {noun} en un estante. Se caen {noun} al piso. Ahora quedan {n3} {noun} en el estante. ¿{Q} {noun} se cayeron?",
+      "{name} tiene {n1} {noun}. Le da parte de sus {noun} a {name2}. Ahora {name} tiene {n3} {noun}. ¿{Q} {noun} recibió {name2}?"
+    ],
+    "compare": [
+      "{name} tiene {n1} {noun}. {name2} tiene {n2} {noun}. ¿{Q} {noun} más que {name2} tiene {name}?",
+      "{name} tiene {n1} {noun}. {name2} tiene {n2} {noun}. ¿{Q} {noun} menos que {name} tiene {name2}?",
+      "Hay {n1} {noun} en una caja roja y {n2} {noun} en una caja azul. ¿{Q} {noun} más hay en la caja roja?",
+      "{name} encuentra {n1} {noun}. {name2} encuentra {n2} {noun}. ¿{Q} {noun} más que {name2} encuentra {name}?",
+      "{name} tiene {n1} {noun}. {name2} tiene {n2} {noun}. ¿{Q} {noun} más necesita {name2} para tener la misma cantidad que {name}?"
+    ],
+    "mul": [
+      "{name} compra {n1} paquetes. Cada paquete trae {n2} {noun}. ¿{Q} {noun} compra en total?",
+      "{name} pone {n2} {noun} en cada uno de {n1} platos. ¿{Q} {noun} hay en los platos?",
+      "Hay {n1} canastas. En cada canasta hay {n2} {noun}. ¿{Q} {noun} hay en total?"
+    ],
+    "share": [
+      "{n2} niños se reparten {n1} {noun} en partes iguales. ¿{Q} {noun} recibe cada niño?",
+      "{name} pone {n1} {noun} en {n2} platos, la misma cantidad en cada plato. ¿{Q} {noun} hay en cada plato?",
+      "{name} reparte {n1} {noun} en {n2} canastas por igual. ¿{Q} {noun} van en cada canasta?"
+    ],
+    "group": [
+      "{name} reparte sus {n1} {noun}, {n2} a cada niño. ¿A cuántos niños les da {noun}?",
+      "{name} pone {n1} {noun} en platos, {n2} {noun} en cada plato. ¿Cuántos platos usa {name}?",
+      "{name} pone {n1} {noun} en canastas. En cada canasta caben {n2} {noun}. ¿Cuántas canastas llena {name}?"
+    ]
+  },
+  "fr": {
+    "names": [
+      "Jade",
+      "Gabriel",
+      "Louise",
+      "Arthur",
+      "Alice",
+      "Raphaël",
+      "Rose",
+      "Adam"
+    ],
+    "nameGender": {
+      "Léa": "f",
+      "Chloé": "f",
+      "Emma": "f",
+      "Inès": "f",
+      "Jade": "f",
+      "Louise": "f",
+      "Alice": "f",
+      "Rose": "f",
+      "Hugo": "m",
+      "Louis": "m",
+      "Nathan": "m",
+      "Jules": "m",
+      "Gabriel": "m",
+      "Arthur": "m",
+      "Raphaël": "m",
+      "Adam": "m"
+    },
+    "add": [
+      "{name} a {n1} {noun} dans un sac. {name} en ajoute {n2}. Combien de {noun} y a-t-il maintenant dans le sac ?",
+      "{name} reçoit {n1} {noun} lundi et {n2} {noun} mardi. Combien de {noun} reçoit {name} en tout ?",
+      "Il y a {n1} {noun} sur la table. {name} en apporte {n2} de plus. Combien de {noun} y a-t-il sur la table maintenant ?",
+      "{name} a {n1} {noun}. {name2} a {n2} {noun}. Combien de {noun} ont {name} et {name2} ensemble ?",
+      "{name} trouve {n1} {noun} le matin et {n2} {noun} l'après-midi. Combien de {noun} trouve {name} en tout ?",
+      "{name} achète {n1} {noun}, puis encore {n2} {noun}. Combien de {noun} achète {name} en tout ?"
+    ],
+    "sub": [
+      "Il y a {n1} {noun} dans une boîte. {name} en sort {n2}. Combien de {noun} reste-t-il dans la boîte ?",
+      "{name} a {n1} {noun}. {name} en donne {n2} à {name2}. Combien de {noun} reste-t-il à {name} ?",
+      "Il y a {n1} {noun} sur une étagère. {n2} {noun} tombent. Combien de {noun} reste-t-il sur l'étagère ?",
+      "{name} a {n1} {noun}. {name} en cache {n2} derrière une boîte. Combien de {noun} sont encore visibles ?",
+      "Il y a {n1} {noun} dans un panier. {name} en emporte {n2} à la maison. Combien de {noun} reste-t-il dans le panier ?",
+      "{name} et {name2} ont {n1} {noun}. {name2} en emporte {n2} à la maison. Combien de {noun} reste-t-il pour {name} ?"
+    ],
+    "addChange": [
+      "{name} a {n1} {noun}. {name2} lui en donne d'autres. Maintenant, {name} a {n3} {noun}. Combien de {noun} donne {name2} ?",
+      "Il y a {n1} {noun} dans une boîte. {name} en ajoute d'autres. Maintenant, il y a {n3} {noun} dans la boîte. Combien de {noun} ajoute {name} ?",
+      "{name} trouve {n1} {noun}, puis en trouve encore. Maintenant, {name} a {n3} {noun}. Combien de {noun} trouve {name} la deuxième fois ?",
+      "Il y a {n1} {noun} sur la table. {name} en apporte d'autres. Maintenant, il y a {n3} {noun} sur la table. Combien de {noun} apporte {name} ?",
+      "{name} achète {n1} {noun}, puis en achète encore. Maintenant, {name} a {n3} {noun}. Combien de {noun} achète {name} la deuxième fois ?"
+    ],
+    "subChange": [
+      "{name} a {n1} {noun}. {name} en donne à {name2}. Maintenant, {name} a {n3} {noun}. Combien de {noun} reçoit {name2} ?",
+      "Il y a {n1} {noun} dans une boîte. {name} en sort une partie. Maintenant, il reste {n3} {noun} dans la boîte. Combien de {noun} sort {name} ?",
+      "{name} a {n1} {noun}. {name} en perd une partie. Maintenant, {name} a {n3} {noun}. Combien de {noun} perd {name} ?",
+      "Il y a {n1} {noun} sur une étagère. Une partie tombe. Maintenant, il reste {n3} {noun} sur l'étagère. Combien de {noun} tombent ?",
+      "Il y a {n1} {noun} dans un panier. {name} en emporte une partie à la maison. Il reste {n3} {noun} dans le panier. Combien de {noun} emporte {name} ?"
+    ],
+    "compare": [
+      "{name} a {n1} {noun}. {name2} a {n2} {noun}. Combien de {noun} {name} a-t-{il} de plus que {name2} ?",
+      "{name} a {n1} {noun}. {name2} a {n2} {noun}. Combien de {noun} {name2} a-t-{il2} de moins que {name} ?",
+      "Il y a {n1} {noun} dans une boîte rouge et {n2} {noun} dans une boîte bleue. Combien de {noun} y a-t-il de plus dans la boîte rouge ?",
+      "{name} trouve {n1} {noun}. {name2} en trouve {n2}. Combien de {noun} {name} trouve-t-{il} de plus que {name2} ?",
+      "{name} a {n1} {noun}. {name2} a {n2} {noun}. Combien de {noun} manque-t-il à {name2} pour en avoir autant que {name} ?"
+    ],
+    "mul": [
+      "{name} achète {n1} paquets. Dans chaque paquet, il y a {n2} {noun}. Combien de {noun} achète {name} en tout ?",
+      "{name} pose {n2} {noun} sur chacune des {n1} assiettes. Combien de {noun} y a-t-il sur les assiettes ?",
+      "Il y a {n1} paniers. Chaque panier contient {n2} {noun}. Combien de {noun} y a-t-il en tout ?"
+    ],
+    "share": [
+      "{n2} enfants se partagent {n1} {noun} en parts égales. Combien de {noun} reçoit chaque enfant ?",
+      "{name} pose {n1} {noun} sur {n2} assiettes, autant sur chaque assiette. Combien de {noun} y a-t-il sur chaque assiette ?",
+      "{name} répartit {n1} {noun} dans {n2} paniers, autant dans chaque panier. Combien de {noun} y a-t-il dans chaque panier ?"
+    ],
+    "group": [
+      "{name} distribue ses {n1} {noun} : chaque enfant en reçoit {n2}. Combien d'enfants reçoivent des {noun} ?",
+      "{name} pose {n1} {noun} sur des assiettes, {n2} {noun} par assiette. Combien d'assiettes faut-il ?",
+      "{name} range {n1} {noun} dans des paniers. Un panier contient {n2} {noun}. Combien de paniers {name} remplit-{il} ?"
+    ]
+  },
+  "it": {
+    "names": [
+      "Ginevra",
+      "Tommaso",
+      "Beatrice",
+      "Riccardo",
+      "Emma",
+      "Gabriele",
+      "Chiara",
+      "Edoardo"
+    ],
+    "add": [
+      "{name} ha {n1} {noun} in una borsa. Ne aggiunge {n2}. {Q} {noun} ci sono adesso nella borsa?",
+      "{name} riceve {n1} {noun} lunedì e {n2} {noun} martedì. {Q} {noun} riceve in tutto?",
+      "Sul tavolo ci sono {n1} {noun}. {name} ne porta ancora {n2}. {Q} {noun} ci sono adesso sul tavolo?",
+      "{name} ha {n1} {noun}. {name2} ha {n2} {noun}. {Q} {noun} hanno {name} e {name2} in tutto?",
+      "{name} trova {n1} {noun} la mattina e {n2} {noun} il pomeriggio. {Q} {noun} trova in tutto?",
+      "{name} compra {n1} {noun}. Poi ne compra ancora {n2}. {Q} {noun} compra in tutto?"
+    ],
+    "sub": [
+      "In una scatola ci sono {n1} {noun}. {name} ne tira fuori {n2}. {Q} {noun} restano nella scatola?",
+      "{name} ha {n1} {noun}. Ne dà {n2} a {name2}. {Q} {noun} restano a {name}?",
+      "Su uno scaffale ci sono {n1} {noun}. Ne cadono {n2}. {Q} {noun} restano sullo scaffale?",
+      "{name} ha {n1} {noun}. Ne nasconde {n2} dietro una scatola. {Q} {noun} si vedono ancora?",
+      "In un cesto ci sono {n1} {noun}. {name} ne porta a casa {n2}. {Q} {noun} restano nel cesto?",
+      "{name} e {name2} hanno {n1} {noun}. {name2} ne porta a casa {n2}. {Q} {noun} restano a {name}?"
+    ],
+    "addChange": [
+      "{name} ha {n1} {noun}. {name2} gliene regala ancora. Adesso {name} ha {n3} {noun}. {Q} {noun} regala {name2}?",
+      "In una scatola ci sono {n1} {noun}. {name} ne aggiunge ancora. Adesso nella scatola ci sono {n3} {noun}. {Q} {noun} aggiunge {name}?",
+      "{name} trova {n1} {noun}, poi ne trova ancora. Adesso ha {n3} {noun}. {Q} {noun} trova la seconda volta?",
+      "Sul tavolo ci sono {n1} {noun}. {name} ne porta ancora. Adesso sul tavolo ci sono {n3} {noun}. {Q} {noun} porta {name}?",
+      "{name} compra {n1} {noun}, poi ne compra ancora. Adesso ha {n3} {noun}. {Q} {noun} compra la seconda volta?"
+    ],
+    "subChange": [
+      "{name} ha {n1} {noun}. Ne regala una parte a {name2}. Adesso {name} ha {n3} {noun}. {Q} {noun} riceve {name2}?",
+      "In una scatola ci sono {n1} {noun}. {name} ne tira fuori una parte. Adesso nella scatola ci sono {n3} {noun}. {Q} {noun} tira fuori {name}?",
+      "{name} ha {n1} {noun}. Ne perde una parte. Adesso ha {n3} {noun}. {Q} {noun} perde?",
+      "Su uno scaffale ci sono {n1} {noun}. Una parte cade a terra. Adesso sullo scaffale ci sono {n3} {noun}. {Q} {noun} cadono?",
+      "In un cesto ci sono {n1} {noun}. {name} ne porta a casa una parte. Nel cesto restano {n3} {noun}. {Q} {noun} porta a casa {name}?"
+    ],
+    "compare": [
+      "{name} ha {n1} {noun}. {name2} ha {n2} {noun}. {Q} {noun} ha {name} in più di {name2}?",
+      "{name} ha {n1} {noun}. {name2} ha {n2} {noun}. {Q} {noun} ha {name2} in meno di {name}?",
+      "In una scatola rossa ci sono {n1} {noun} e in una scatola blu ci sono {n2} {noun}. {Q} {noun} ci sono in più nella scatola rossa?",
+      "{name} trova {n1} {noun}. {name2} ne trova {n2}. {Q} {noun} trova {name} in più di {name2}?",
+      "{name} ha {n1} {noun}. {name2} ha {n2} {noun}. {Q} {noun} mancano a {name2} per averne lo stesso numero di {name}?"
+    ],
+    "mul": [
+      "{name} compra {n1} confezioni. In ogni confezione ci sono {n2} {noun}. {Q} {noun} compra in tutto?",
+      "{name} mette {n2} {noun} su ognuno di {n1} piatti. {Q} {noun} ci sono sui piatti?",
+      "Ci sono {n1} cesti. In ogni cesto ci sono {n2} {noun}. {Q} {noun} ci sono in tutto?"
+    ],
+    "share": [
+      "{n2} bambini si dividono {n1} {noun} in parti uguali. {Q} {noun} riceve ogni bambino?",
+      "{name} mette {n1} {noun} su {n2} piatti, lo stesso numero su ogni piatto. {Q} {noun} ci sono su ogni piatto?",
+      "{name} divide {n1} {noun} in {n2} cesti in parti uguali. {Q} {noun} vanno in ogni cesto?"
+    ],
+    "group": [
+      "{name} ha {n1} {noun}. Ne dà {n2} a ogni bambino finché non ne restano più. Quanti bambini ricevono {noun}?",
+      "{name} mette {n1} {noun} sui piatti, {n2} {noun} per piatto. Quanti piatti usa {name}?",
+      "{name} mette {n1} {noun} nei cesti. In un cesto stanno {n2} {noun}. Quanti cesti riempie {name}?"
+    ]
+  },
+  "pt": {
+    "names": [
+      "Manuela",
+      "Rafael",
+      "Valentina",
+      "Gabriel",
+      "Cecília",
+      "Heitor",
+      "Lívia",
+      "Bernardo"
+    ],
+    "add": [
+      "{name} tem {n1} {noun} em uma sacola e coloca mais {n2} {noun}. {Q} {noun} há agora na sacola?",
+      "{name} ganha {n1} {noun} na segunda-feira e {n2} {noun} na terça-feira. {Q} {noun} {name} ganha ao todo?",
+      "Há {n1} {noun} na mesa. {name} traz mais {n2} {noun}. {Q} {noun} há agora na mesa?",
+      "{name} tem {n1} {noun}. {name2} tem {n2} {noun}. {Q} {noun} {name} e {name2} têm ao todo?",
+      "{name} encontra {n1} {noun} de manhã e {n2} {noun} à tarde. {Q} {noun} {name} encontra ao todo?",
+      "{name} compra {n1} {noun} e depois compra mais {n2} {noun}. {Q} {noun} {name} compra ao todo?"
+    ],
+    "sub": [
+      "Há {n1} {noun} em uma caixa. {name} tira {n2} {noun}. {Q} {noun} ficam na caixa?",
+      "{name} tem {n1} {noun} e dá {n2} {noun} para {name2}. {Q} {noun} {name} tem agora?",
+      "Há {n1} {noun} em uma prateleira. {n2} {noun} caem. {Q} {noun} ficam na prateleira?",
+      "{name} tem {n1} {noun} e esconde {n2} {noun} atrás de uma caixa. {Q} {noun} ainda dá para ver?",
+      "Há {n1} {noun} em uma cesta. {name} leva {n2} {noun} para casa. {Q} {noun} ficam na cesta?",
+      "{name} e {name2} têm {n1} {noun}. {name2} leva {n2} {noun} para casa. {Q} {noun} ficam com {name}?"
+    ],
+    "addChange": [
+      "{name} tem {n1} {noun} e ganha mais {noun}. Agora {name} tem {n3} {noun}. {Q} {noun} {name} ganhou?",
+      "Há {n1} {noun} em uma caixa. {name} coloca mais {noun} na caixa. Agora há {n3} {noun} na caixa. {Q} {noun} {name} colocou?",
+      "{name} encontra {n1} {noun} e depois encontra mais {noun}. Agora {name} tem {n3} {noun}. {Q} {noun} {name} encontrou depois?",
+      "{name} tem {n1} {noun}. {name2} dá mais {noun} para {name}. Agora {name} tem {n3} {noun}. {Q} {noun} {name2} deu?",
+      "Há {n1} {noun} na mesa. {name} traz mais {noun}. Agora há {n3} {noun} na mesa. {Q} {noun} {name} trouxe?"
+    ],
+    "subChange": [
+      "{name} tem {n1} {noun} e dá uma parte para {name2}. Agora {name} tem {n3} {noun}. {Q} {noun} {name2} ganhou?",
+      "Há {n1} {noun} em uma caixa. {name} tira uma parte. Agora há {n3} {noun} na caixa. {Q} {noun} {name} tirou?",
+      "{name} tem {n1} {noun} e perde uma parte. Agora {name} tem {n3} {noun}. {Q} {noun} {name} perdeu?",
+      "Há {n1} {noun} em uma prateleira. Uma parte cai no chão. Agora há {n3} {noun} na prateleira. {Q} {noun} caíram?",
+      "Há {n1} {noun} em uma cesta. {name} leva uma parte para casa. Ficam {n3} {noun} na cesta. {Q} {noun} {name} levou?"
+    ],
+    "compare": [
+      "{name} tem {n1} {noun}. {name2} tem {n2} {noun}. {Q} {noun} {name} tem a mais que {name2}?",
+      "{name} tem {n1} {noun}. {name2} tem {n2} {noun}. {Q} {noun} {name2} tem a menos que {name}?",
+      "Há {n1} {noun} em uma caixa vermelha e {n2} {noun} em uma caixa azul. {Q} {noun} a caixa vermelha tem a mais?",
+      "{name} encontra {n1} {noun}. {name2} encontra {n2} {noun}. {Q} {noun} {name} encontra a mais que {name2}?",
+      "{name} tem {n1} {noun}. {name2} tem {n2} {noun}. {Q} {noun} faltam para {name2} ter a mesma quantidade que {name}?"
+    ],
+    "mul": [
+      "{name} compra {n1} pacotes. Cada pacote tem {n2} {noun}. {Q} {noun} {name} compra ao todo?",
+      "{name} coloca {n2} {noun} em cada um de {n1} pratos. {Q} {noun} há nos pratos?",
+      "Há {n1} cestas. Cada cesta tem {n2} {noun}. {Q} {noun} há ao todo?"
+    ],
+    "share": [
+      "{n2} crianças dividem {n1} {noun} igualmente. {Q} {noun} cada criança recebe?",
+      "{name} coloca {n1} {noun} em {n2} pratos, a mesma quantidade em cada prato. {Q} {noun} há em cada prato?",
+      "{name} distribui {n1} {noun} igualmente em {n2} cestas. {Q} {noun} vão em cada cesta?"
+    ],
+    "group": [
+      "{name} tem {n1} {noun} e distribui todas as unidades: cada criança ganha {n2}. Quantas crianças ganham {noun}?",
+      "{name} coloca {n1} {noun} em pratos, {n2} {noun} em cada prato. Quantos pratos {name} usa?",
+      "{name} guarda {n1} {noun} em cestas. Em cada cesta cabem {n2} {noun}. Quantas cestas {name} enche?"
+    ]
+  },
+  "nl": {
+    "names": [
+      "Sophie",
+      "Noah",
+      "Mila",
+      "Levi",
+      "Saar",
+      "Bram",
+      "Fenna",
+      "Mees"
+    ],
+    "add": [
+      "{name} heeft {n1} {noun} in een tas. {name} doet er nog {n2} bij. Hoeveel {noun} zitten er nu in de tas?",
+      "{name} krijgt op maandag {n1} {noun} en op dinsdag {n2} {noun}. Hoeveel {noun} krijgt {name} in totaal?",
+      "Er liggen {n1} {noun} op tafel. {name} brengt er nog {n2}. Hoeveel {noun} liggen er nu op tafel?",
+      "{name} heeft {n1} {noun}. {name2} heeft {n2} {noun}. Hoeveel {noun} hebben {name} en {name2} samen?",
+      "{name} vindt 's ochtends {n1} {noun} en 's middags {n2} {noun}. Hoeveel {noun} vindt {name} in totaal?",
+      "{name} koopt {n1} {noun}. Daarna koopt {name} er nog {n2}. Hoeveel {noun} koopt {name} in totaal?"
+    ],
+    "sub": [
+      "In een doos zitten {n1} {noun}. {name} haalt er {n2} uit. Hoeveel {noun} zitten er nog in de doos?",
+      "{name} heeft {n1} {noun}. {name} geeft er {n2} aan {name2}. Hoeveel {noun} heeft {name} nu nog?",
+      "Op een plank liggen {n1} {noun}. Er vallen er {n2} af. Hoeveel {noun} liggen er nog op de plank?",
+      "{name} heeft {n1} {noun}. {name} verstopt er {n2} achter een doos. Hoeveel {noun} kan {name} nog zien?",
+      "In een mand liggen {n1} {noun}. {name} neemt er {n2} mee naar huis. Hoeveel {noun} liggen er nog in de mand?",
+      "{name} en {name2} hebben {n1} {noun}. {name2} neemt er {n2} mee naar huis. Hoeveel {noun} blijven er over voor {name}?"
+    ],
+    "addChange": [
+      "{name} heeft {n1} {noun}. {name} krijgt er nog wat bij. Nu heeft {name} {n3} {noun}. Hoeveel {noun} heeft {name} erbij gekregen?",
+      "In een doos zitten {n1} {noun}. {name} doet er nog wat bij. Nu zitten er {n3} {noun} in de doos. Hoeveel {noun} heeft {name} erbij gedaan?",
+      "{name} vindt {n1} {noun}. Daarna vindt {name} er nog wat. Nu heeft {name} {n3} {noun}. Hoeveel {noun} heeft {name} later gevonden?",
+      "{name} heeft {n1} {noun}. {name2} geeft {name} er nog wat. Nu heeft {name} {n3} {noun}. Hoeveel {noun} heeft {name2} gegeven?",
+      "Er liggen {n1} {noun} op tafel. {name} brengt er nog wat. Nu liggen er {n3} {noun} op tafel. Hoeveel {noun} heeft {name} gebracht?"
+    ],
+    "subChange": [
+      "{name} heeft {n1} {noun}. {name} geeft er wat weg. Nu heeft {name} nog {n3} {noun}. Hoeveel {noun} heeft {name} weggegeven?",
+      "In een doos zitten {n1} {noun}. {name} haalt er wat uit. Nu zitten er nog {n3} {noun} in de doos. Hoeveel {noun} heeft {name} eruit gehaald?",
+      "{name} heeft {n1} {noun}. {name} raakt er wat kwijt. Nu heeft {name} nog {n3} {noun}. Hoeveel {noun} is {name} kwijtgeraakt?",
+      "Op een plank liggen {n1} {noun}. Er vallen er wat af. Nu liggen er nog {n3} {noun} op de plank. Hoeveel {noun} zijn er afgevallen?",
+      "{name} heeft {n1} {noun}. {name} geeft er wat aan {name2}. Nu heeft {name} nog {n3} {noun}. Hoeveel {noun} heeft {name2} gekregen?"
+    ],
+    "compare": [
+      "{name} heeft {n1} {noun}. {name2} heeft {n2} {noun}. Hoeveel {noun} heeft {name} meer dan {name2}?",
+      "{name} heeft {n1} {noun}. {name2} heeft {n2} {noun}. Hoeveel {noun} heeft {name2} minder dan {name}?",
+      "In een rode doos zitten {n1} {noun} en in een blauwe doos {n2} {noun}. Hoeveel {noun} zitten er meer in de rode doos?",
+      "{name} vindt {n1} {noun}. {name2} vindt {n2} {noun}. Hoeveel {noun} vindt {name} meer dan {name2}?",
+      "{name} heeft {n1} {noun}. {name2} heeft {n2} {noun}. Hoeveel {noun} heeft {name2} nog nodig om er evenveel te hebben als {name}?"
+    ],
+    "mul": [
+      "{name} koopt {n1} pakjes. In elk pakje zitten {n2} {noun}. Hoeveel {noun} koopt {name} in totaal?",
+      "{name} legt {n2} {noun} op elk van {n1} borden. Hoeveel {noun} liggen er op de borden?",
+      "Er staan {n1} manden. In elke mand zitten {n2} {noun}. Hoeveel {noun} zijn dat samen?"
+    ],
+    "share": [
+      "{n2} kinderen verdelen {n1} {noun} eerlijk. Hoeveel {noun} krijgt elk kind?",
+      "{name} legt {n1} {noun} op {n2} borden, op elk bord evenveel. Hoeveel {noun} liggen er op elk bord?",
+      "{name} verdeelt {n1} {noun} eerlijk over {n2} manden. Hoeveel {noun} gaan er in elke mand?"
+    ],
+    "group": [
+      "{name} heeft {n1} {noun} en deelt ze allemaal uit: elk kind krijgt er {n2}. Hoeveel kinderen krijgen {noun}?",
+      "{name} legt {n1} {noun} op borden, {n2} {noun} op elk bord. Hoeveel borden heeft {name} nodig?",
+      "{name} doet {n1} {noun} in manden. In een mand passen {n2} {noun}. Hoeveel manden vult {name}?"
+    ]
+  },
+  "sv": {
+    "names": [
+      "Ebba",
+      "Nils",
+      "Wilma",
+      "Leo",
+      "Astrid",
+      "Ludvig",
+      "Selma",
+      "Axel"
+    ],
+    "add": [
+      "{name} har {n1} {noun} i en påse. {name} lägger i {n2} {noun} till. Hur många {noun} är det i påsen nu?",
+      "{name} får {n1} {noun} på måndagen och {n2} {noun} på tisdagen. Hur många {noun} får {name} sammanlagt?",
+      "Det ligger {n1} {noun} på bordet. {name} kommer med {n2} {noun} till. Hur många {noun} ligger på bordet nu?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hur många {noun} har {name} och {name2} tillsammans?",
+      "{name} hittar {n1} {noun} på morgonen och {n2} {noun} på eftermiddagen. Hur många {noun} hittar {name} sammanlagt?",
+      "{name} köper {n1} {noun}. Sedan köper {name} {n2} {noun} till. Hur många {noun} köper {name} sammanlagt?"
+    ],
+    "sub": [
+      "Det ligger {n1} {noun} i en låda. {name} tar ut {n2} {noun}. Hur många {noun} ligger kvar i lådan?",
+      "{name} har {n1} {noun}. {name} ger {n2} {noun} till {name2}. Hur många {noun} har {name} kvar?",
+      "Det ligger {n1} {noun} på en hylla. {n2} {noun} ramlar ner. Hur många {noun} ligger kvar på hyllan?",
+      "{name} har {n1} {noun}. {name} gömmer {n2} {noun} bakom en låda. Hur många {noun} kan {name} fortfarande se?",
+      "Det ligger {n1} {noun} i en korg. {name} tar med sig {n2} {noun} hem. Hur många {noun} ligger kvar i korgen?",
+      "{name} och {name2} har {n1} {noun}. {name2} tar med sig {n2} {noun} hem. Hur många {noun} blir kvar åt {name}?"
+    ],
+    "addChange": [
+      "{name} har {n1} {noun}. {name} får några till. Nu har {name} {n3} {noun}. Hur många {noun} fick {name}?",
+      "Det ligger {n1} {noun} i en låda. {name} lägger i några till. Nu ligger det {n3} {noun} i lådan. Hur många {noun} lade {name} i?",
+      "{name} hittar {n1} {noun}. Sedan hittar {name} några till. Nu har {name} {n3} {noun}. Hur många {noun} hittade {name} sedan?",
+      "{name} har {n1} {noun}. {name2} ger {name} några till. Nu har {name} {n3} {noun}. Hur många {noun} fick {name} av {name2}?",
+      "Det ligger {n1} {noun} på bordet. {name} kommer med några till. Nu ligger det {n3} {noun} på bordet. Hur många {noun} kom {name} med?"
+    ],
+    "subChange": [
+      "{name} har {n1} {noun}. {name} ger bort några. Nu har {name} {n3} {noun} kvar. Hur många {noun} gav {name} bort?",
+      "Det ligger {n1} {noun} i en låda. {name} tar ut några. Nu ligger det {n3} {noun} kvar i lådan. Hur många {noun} tog {name} ut?",
+      "{name} har {n1} {noun}. Några försvinner. Nu har {name} {n3} {noun} kvar. Hur många {noun} försvann?",
+      "Det ligger {n1} {noun} på en hylla. Några ramlar ner. Nu ligger det {n3} {noun} kvar på hyllan. Hur många {noun} ramlade ner?",
+      "{name} har {n1} {noun}. {name} ger några till {name2}. Nu har {name} {n3} {noun} kvar. Hur många {noun} fick {name2}?"
+    ],
+    "compare": [
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hur många fler {noun} har {name} än {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hur många färre {noun} har {name2} än {name}?",
+      "I en röd låda ligger {n1} {noun} och i en blå låda ligger {n2} {noun}. Hur många fler {noun} ligger i den röda lådan?",
+      "{name} hittar {n1} {noun}. {name2} hittar {n2} {noun}. Hur många fler {noun} hittar {name} än {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hur många {noun} till behöver {name2} för att ha lika många som {name}?"
+    ],
+    "mul": [
+      "{name} köper {n1} paket. I varje paket finns {n2} {noun}. Hur många {noun} köper {name} sammanlagt?",
+      "{name} lägger {n2} {noun} på var och en av {n1} tallrikar. Hur många {noun} ligger på tallrikarna?",
+      "Det står {n1} korgar. I varje korg ligger {n2} {noun}. Hur många {noun} är det sammanlagt?"
+    ],
+    "share": [
+      "{n2} barn delar lika på {n1} {noun}. Hur många {noun} får varje barn?",
+      "{name} lägger {n1} {noun} på {n2} tallrikar, lika många på varje. Hur många {noun} ligger på varje tallrik?",
+      "{name} fördelar {n1} {noun} lika i {n2} korgar. Hur många {noun} hamnar i varje korg?"
+    ],
+    "group": [
+      "{name} delar ut alla sina {n1} {noun}, {n2} till varje barn. Hur många barn får {noun}?",
+      "{name} lägger {n1} {noun} på tallrikar, {n2} {noun} på varje tallrik. Hur många tallrikar behöver {name}?",
+      "{name} lägger {n1} {noun} i korgar. I en korg får det plats {n2} {noun}. Hur många korgar fyller {name}?"
+    ]
+  },
+  "da": {
+    "names": [
+      "Ella",
+      "Karl",
+      "Asta",
+      "Viggo",
+      "Agnes",
+      "Felix",
+      "Lærke",
+      "Malthe"
+    ],
+    "add": [
+      "{name} har {n1} {noun} i en pose. {name} lægger {n2} {noun} mere i posen. Hvor mange {noun} er der nu i posen?",
+      "{name} får {n1} {noun} mandag og {n2} {noun} tirsdag. Hvor mange {noun} får {name} i alt?",
+      "Der ligger {n1} {noun} på bordet. {name} kommer med {n2} {noun} mere. Hvor mange {noun} ligger der nu på bordet?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange {noun} har {name} og {name2} tilsammen?",
+      "{name} finder {n1} {noun} om morgenen og {n2} {noun} om eftermiddagen. Hvor mange {noun} finder {name} i alt?",
+      "{name} køber {n1} {noun}. Bagefter køber {name} {n2} {noun} mere. Hvor mange {noun} køber {name} i alt?"
+    ],
+    "sub": [
+      "Der ligger {n1} {noun} i en kasse. {name} tager {n2} {noun} op af kassen. Hvor mange {noun} er der tilbage i kassen?",
+      "{name} har {n1} {noun}. {name} giver {n2} {noun} til {name2}. Hvor mange {noun} har {name} tilbage?",
+      "Der ligger {n1} {noun} på en hylde. {n2} {noun} falder ned. Hvor mange {noun} ligger der tilbage på hylden?",
+      "{name} har {n1} {noun}. {name} gemmer {n2} {noun} bag en kasse. Hvor mange {noun} kan {name} stadig se?",
+      "Der ligger {n1} {noun} i en kurv. {name} tager {n2} {noun} med hjem. Hvor mange {noun} er der tilbage i kurven?",
+      "{name} og {name2} har {n1} {noun}. {name2} tager {n2} {noun} med hjem. Hvor mange {noun} er der tilbage til {name}?"
+    ],
+    "addChange": [
+      "{name} har {n1} {noun}. {name} får nogle flere. Nu har {name} {n3} {noun}. Hvor mange {noun} fik {name}?",
+      "Der ligger {n1} {noun} i en kasse. {name} lægger nogle flere i. Nu ligger der {n3} {noun} i kassen. Hvor mange {noun} lagde {name} i?",
+      "{name} finder {n1} {noun}. Bagefter finder {name} nogle flere. Nu har {name} {n3} {noun}. Hvor mange {noun} fandt {name} bagefter?",
+      "{name} har {n1} {noun}. {name2} giver {name} nogle flere. Nu har {name} {n3} {noun}. Hvor mange {noun} fik {name} af {name2}?",
+      "Der ligger {n1} {noun} på bordet. {name} kommer med nogle flere. Nu ligger der {n3} {noun} på bordet. Hvor mange {noun} kom {name} med?"
+    ],
+    "subChange": [
+      "{name} har {n1} {noun}. {name} giver nogle væk. Nu har {name} {n3} {noun} tilbage. Hvor mange {noun} gav {name} væk?",
+      "Der ligger {n1} {noun} i en kasse. {name} tager nogle op. Nu ligger der {n3} {noun} tilbage i kassen. Hvor mange {noun} tog {name} op?",
+      "{name} har {n1} {noun}. {name} mister nogle. Nu har {name} {n3} {noun} tilbage. Hvor mange {noun} mistede {name}?",
+      "Der ligger {n1} {noun} på en hylde. Nogle falder ned. Nu ligger der {n3} {noun} tilbage på hylden. Hvor mange {noun} faldt ned?",
+      "{name} har {n1} {noun}. {name} giver nogle til {name2}. Nu har {name} {n3} {noun} tilbage. Hvor mange {noun} fik {name2}?"
+    ],
+    "compare": [
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange flere {noun} har {name} end {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange færre {noun} har {name2} end {name}?",
+      "Der ligger {n1} {noun} i en rød kasse og {n2} {noun} i en blå kasse. Hvor mange flere {noun} ligger der i den røde kasse?",
+      "{name} finder {n1} {noun}. {name2} finder {n2} {noun}. Hvor mange flere {noun} finder {name} end {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange {noun} mere skal {name2} have for at have lige så mange som {name}?"
+    ],
+    "mul": [
+      "{name} køber {n1} pakker. I hver pakke er der {n2} {noun}. Hvor mange {noun} køber {name} i alt?",
+      "{name} lægger {n2} {noun} på hver af {n1} tallerkener. Hvor mange {noun} ligger der på tallerkenerne?",
+      "Der står {n1} kurve. I hver kurv er der {n2} {noun}. Hvor mange {noun} er der i alt?"
+    ],
+    "share": [
+      "{n2} børn deler {n1} {noun} ligeligt. Hvor mange {noun} får hvert barn?",
+      "{name} lægger {n1} {noun} på {n2} tallerkener med lige mange på hver. Hvor mange {noun} ligger der på hver tallerken?",
+      "{name} fordeler {n1} {noun} ligeligt i {n2} kurve. Hvor mange {noun} kommer der i hver kurv?"
+    ],
+    "group": [
+      "{name} deler alle sine {n1} {noun} ud, {n2} til hvert barn. Hvor mange børn får {noun}?",
+      "{name} lægger {n1} {noun} på tallerkener med {n2} {noun} på hver. Hvor mange tallerkener skal {name} bruge?",
+      "{name} lægger {n1} {noun} i kurve. Der kan være {n2} {noun} i en kurv. Hvor mange kurve fylder {name}?"
+    ]
+  },
+  "no": {
+    "names": [
+      "Ingrid",
+      "Filip",
+      "Olivia",
+      "Isak",
+      "Frida",
+      "Henrik",
+      "Maja",
+      "Sander"
+    ],
+    "add": [
+      "{name} har {n1} {noun} i en pose. {name} legger {n2} {noun} til i posen. Hvor mange {noun} er det i posen nå?",
+      "{name} får {n1} {noun} på mandag og {n2} {noun} på tirsdag. Hvor mange {noun} får {name} til sammen?",
+      "Det ligger {n1} {noun} på bordet. {name} kommer med {n2} {noun} til. Hvor mange {noun} ligger det på bordet nå?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange {noun} har {name} og {name2} til sammen?",
+      "{name} finner {n1} {noun} om morgenen og {n2} {noun} om ettermiddagen. Hvor mange {noun} finner {name} til sammen?",
+      "{name} kjøper {n1} {noun}. Etterpå kjøper {name} {n2} {noun} til. Hvor mange {noun} kjøper {name} til sammen?"
+    ],
+    "sub": [
+      "Det ligger {n1} {noun} i en eske. {name} tar ut {n2} {noun}. Hvor mange {noun} ligger igjen i esken?",
+      "{name} har {n1} {noun}. {name} gir {n2} {noun} til {name2}. Hvor mange {noun} har {name} igjen?",
+      "Det ligger {n1} {noun} på en hylle. {n2} {noun} faller ned. Hvor mange {noun} ligger igjen på hylla?",
+      "{name} har {n1} {noun}. {name} gjemmer {n2} {noun} bak en eske. Hvor mange {noun} kan {name} fortsatt se?",
+      "Det ligger {n1} {noun} i en kurv. {name} tar med seg {n2} {noun} hjem. Hvor mange {noun} ligger igjen i kurven?",
+      "{name} og {name2} har {n1} {noun}. {name2} tar med seg {n2} {noun} hjem. Hvor mange {noun} blir igjen til {name}?"
+    ],
+    "addChange": [
+      "{name} har {n1} {noun}. {name} får noen til. Nå har {name} {n3} {noun}. Hvor mange {noun} fikk {name}?",
+      "Det ligger {n1} {noun} i en eske. {name} legger noen til i esken. Nå ligger det {n3} {noun} i esken. Hvor mange {noun} la {name} i?",
+      "{name} finner {n1} {noun}. Etterpå finner {name} noen til. Nå har {name} {n3} {noun}. Hvor mange {noun} fant {name} etterpå?",
+      "{name} har {n1} {noun}. {name2} gir {name} noen til. Nå har {name} {n3} {noun}. Hvor mange {noun} fikk {name} av {name2}?",
+      "Det ligger {n1} {noun} på bordet. {name} kommer med noen til. Nå ligger det {n3} {noun} på bordet. Hvor mange {noun} kom {name} med?"
+    ],
+    "subChange": [
+      "{name} har {n1} {noun}. {name} gir bort noen. Nå har {name} {n3} {noun} igjen. Hvor mange {noun} ga {name} bort?",
+      "Det ligger {n1} {noun} i en eske. {name} tar ut noen. Nå ligger det {n3} {noun} igjen i esken. Hvor mange {noun} tok {name} ut?",
+      "{name} har {n1} {noun}. {name} mister noen. Nå har {name} {n3} {noun} igjen. Hvor mange {noun} mistet {name}?",
+      "Det ligger {n1} {noun} på en hylle. Noen faller ned. Nå ligger det {n3} {noun} igjen på hylla. Hvor mange {noun} falt ned?",
+      "{name} har {n1} {noun}. {name} gir noen til {name2}. Nå har {name} {n3} {noun} igjen. Hvor mange {noun} fikk {name2}?"
+    ],
+    "compare": [
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange flere {noun} har {name} enn {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange færre {noun} har {name2} enn {name}?",
+      "I en rød eske ligger det {n1} {noun}, og i en blå eske ligger det {n2} {noun}. Hvor mange flere {noun} ligger det i den røde esken?",
+      "{name} finner {n1} {noun}. {name2} finner {n2} {noun}. Hvor mange flere {noun} finner {name} enn {name2}?",
+      "{name} har {n1} {noun}. {name2} har {n2} {noun}. Hvor mange {noun} til trenger {name2} for å ha like mange som {name}?"
+    ],
+    "mul": [
+      "{name} kjøper {n1} pakker. I hver pakke er det {n2} {noun}. Hvor mange {noun} kjøper {name} til sammen?",
+      "{name} legger {n2} {noun} på hver av {n1} tallerkener. Hvor mange {noun} ligger det på tallerkenene?",
+      "Det står {n1} kurver. I hver kurv er det {n2} {noun}. Hvor mange {noun} er det i alt?"
+    ],
+    "share": [
+      "{n2} barn deler {n1} {noun} likt. Hvor mange {noun} får hvert barn?",
+      "{name} legger {n1} {noun} på {n2} tallerkener, like mange på hver. Hvor mange {noun} ligger det på hver tallerken?",
+      "{name} fordeler {n1} {noun} likt i {n2} kurver. Hvor mange {noun} havner i hver kurv?"
+    ],
+    "group": [
+      "{name} deler ut alle de {n1} {noun}, {n2} til hvert barn. Hvor mange barn får {noun}?",
+      "{name} legger {n1} {noun} på tallerkener, {n2} {noun} på hver tallerken. Hvor mange tallerkener trenger {name}?",
+      "{name} legger {n1} {noun} i kurver. Det er plass til {n2} {noun} i en kurv. Hvor mange kurver fyller {name}?"
+    ]
+  },
+  "fi": {
+    "names": [
+      "Ella",
+      "Eino",
+      "Lilja",
+      "Toivo",
+      "Pihla",
+      "Oliver",
+      "Venla",
+      "Elias"
+    ],
+    "add": [
+      "{name} laittaa pussiin {n1} {noun}. Sitten {name} laittaa pussiin vielä {n2} {noun}. Kuinka monta {noun} pussissa on nyt?",
+      "{name} saa maanantaina {n1} {noun} ja tiistaina {n2} {noun}. Kuinka monta {noun} {name} saa yhteensä?",
+      "Pöydällä on {n1} {noun}. {name} tuo vielä {n2} {noun}. Kuinka monta {noun} pöydällä on nyt?",
+      "{name} kerää {n1} {noun}. {name2} kerää {n2} {noun}. Kuinka monta {noun} he keräävät yhteensä?",
+      "{name} ostaa {n1} {noun}. Sitten {name} ostaa vielä {n2} {noun}. Kuinka monta {noun} {name} ostaa yhteensä?",
+      "Laatikossa on {n1} {noun}. {name} tuo laatikkoon vielä {n2} {noun}. Kuinka monta {noun} laatikossa on nyt?"
+    ],
+    "sub": [
+      "Laatikossa on {n1} {noun}. {name} ottaa laatikosta {n2} {noun}. Kuinka monta {noun} laatikkoon jää?",
+      "{name} saa {n1} {noun}. {name} antaa {n2} {noun} kaverille. Kuinka monta {noun} jää jäljelle?",
+      "Hyllyllä on {n1} {noun}. {n2} {noun} putoaa lattialle. Kuinka monta {noun} hyllylle jää?",
+      "{name} kerää {n1} {noun} ja piilottaa {n2} {noun} laatikon taakse. Kuinka monta {noun} näkyy vielä?",
+      "Korissa on {n1} {noun}. {name} vie {n2} {noun} kotiin. Kuinka monta {noun} koriin jää?",
+      "{name} ostaa {n1} {noun}. Matkalla {name} hukkaa {n2} {noun}. Kuinka monta {noun} {name} tuo kotiin?"
+    ],
+    "addChange": [
+      "{name} saa ensin {n1} {noun} ja sitten vielä lisää. Nyt {name} on saanut {n3} {noun}. Kuinka monta {noun} {name} sai lisää?",
+      "Laatikossa on {n1} {noun}. {name} laittaa laatikkoon lisää. Nyt laatikossa on {n3} {noun}. Kuinka monta {noun} {name} laittoi lisää?",
+      "{name} löytää {n1} {noun}. Sitten {name} löytää vielä lisää. Nyt {name} on löytänyt {n3} {noun}. Kuinka monta {noun} {name} löysi lisää?",
+      "Pöydällä on {n1} {noun}. {name} tuo pöydälle lisää. Nyt pöydällä on {n3} {noun}. Kuinka monta {noun} {name} toi?",
+      "{name} ostaa {n1} {noun}. Sitten {name} ostaa vielä lisää. Nyt {name} on ostanut {n3} {noun}. Kuinka monta {noun} {name} osti lisää?"
+    ],
+    "subChange": [
+      "Laatikossa on {n1} {noun}. {name} ottaa laatikosta osan. Nyt laatikossa on {n3} {noun}. Kuinka monta {noun} {name} otti?",
+      "Hyllyllä on {n1} {noun}. Osa putoaa lattialle. Nyt hyllyllä on {n3} {noun}. Kuinka monta {noun} putosi?",
+      "Korissa on {n1} {noun}. {name} vie osan kotiin. Nyt korissa on {n3} {noun}. Kuinka monta {noun} {name} vei kotiin?",
+      "{name} kerää {n1} {noun}. Matkalla {name} hukkaa osan. Nyt {name} kantaa {n3} {noun}. Kuinka monta {noun} {name} hukkasi?",
+      "Pöydällä on {n1} {noun}. {name} antaa osan kaverille. Nyt pöydällä on {n3} {noun}. Kuinka monta {noun} {name} antoi?"
+    ],
+    "compare": [
+      "{name} kerää {n1} {noun}. {name2} kerää {n2} {noun}. Kuinka monta {noun} enemmän {name} kerää kuin {name2}?",
+      "{name} löytää {n1} {noun}. {name2} löytää {n2} {noun}. Kuinka monta {noun} vähemmän {name2} löytää kuin {name}?",
+      "Punaisessa laatikossa on {n1} {noun} ja sinisessä laatikossa {n2} {noun}. Kuinka monta {noun} enemmän punaisessa laatikossa on?",
+      "{name} ostaa {n1} {noun}. {name2} ostaa {n2} {noun}. Kuinka monta {noun} enemmän {name} ostaa kuin {name2}?",
+      "{name} kerää {n1} {noun}. {name2} kerää {n2} {noun}. Kuinka monta {noun} {name2} vielä tarvitsee, jotta molemmilla olisi yhtä monta?"
+    ],
+    "mul": [
+      "{name} ostaa {n1} pakettia. Jokaisessa paketissa on {n2} {noun}. Kuinka monta {noun} {name} ostaa yhteensä?",
+      "Pöydällä on {n1} lautasta. {name} laittaa jokaiselle lautaselle {n2} {noun}. Kuinka monta {noun} lautasilla on yhteensä?",
+      "Hyllyllä on {n1} koria. Jokaisessa korissa on {n2} {noun}. Kuinka monta {noun} koreissa on yhteensä?"
+    ],
+    "share": [
+      "{n2} lasta jakaa {n1} {noun} tasan. Kuinka monta {noun} jokainen lapsi saa?",
+      "{name} jakaa {n1} {noun} tasan {n2} lautaselle. Kuinka monta {noun} jokaiselle lautaselle tulee?",
+      "{name} jakaa {n1} {noun} tasan {n2} koriin. Kuinka monta {noun} jokaiseen koriin tulee?"
+    ],
+    "group": [
+      "{name} jakaa kaikki {n1} {noun}. Jokainen lapsi saa {n2} {noun}. Kuinka monta lasta saa {n2} {noun}?",
+      "{name} laittaa {n1} {noun} lautasille, {n2} {noun} jokaiselle lautaselle. Kuinka monta lautasta {name} tarvitsee?",
+      "{name} laittaa {n1} {noun} koreihin. Yhteen koriin mahtuu {n2} {noun}. Kuinka monta koria {name} täyttää?"
+    ]
+  }
+}

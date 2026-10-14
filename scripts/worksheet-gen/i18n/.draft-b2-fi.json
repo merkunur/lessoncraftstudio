@@ -263,7 +263,7 @@
     "frames": {
       "mul": [
         "{name} tekee {n1} ryhmää. Jokaisessa ryhmässä on {n2} {noun}. Kuinka monta {noun} {name} laittaa ryhmiin yhteensä?",
-        "Pöydällä on {n1} riviä. Jokaisessa rivissä on {n2} {noun}. Kuinka monta {noun} {name} laskee yhteensä?",
+        "{name} näkee pöydällä {n1} riviä. Jokaisessa rivissä on {n2} {noun}. Kuinka monta {noun} {name} laskee yhteensä?",
         "{name} avaa {n1} laatikkoa. Jokaisessa laatikossa on {n2} {noun}. Kuinka monta {noun} laatikoissa on kaikkiaan?",
         "{name} näkee {n1} riviä. Joka rivissä on {n2} {noun}. Kuinka monta {noun} {name} näkee?"
       ],

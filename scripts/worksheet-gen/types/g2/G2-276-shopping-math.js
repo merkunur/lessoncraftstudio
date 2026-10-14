@@ -208,6 +208,8 @@ module.exports = {
       // a change frame authored without an end mark after the coin row gets its period ("… mit (20) Wie viel" → "… mit (20). Wie viel")
       sentence = sentence.replace(/\{coins\}\s+(?=[\p{Lu}¿¡])/u, '{coins}. ');
       let html = sentence.replace(/\{name\}/g, name);
+      // fr: que elides before a name that starts with a vowel ("Est-ce qu'Inès", not "Est-ce que Inès" — live defect fixed 2026-10-14)
+      if (loc === 'fr') html = html.replace(/(^|[\s(])que (?=[AEIOUYÀÂÉÈÊÎÔŒ])/g, '$1qu\'');
       refs.forEach((r, i) => { html = html.replace(`{item${i + 1}}`, icon(r)); });
       // the coins render INLINE at the {coins} slot
       if (html.includes('{coins}')) { html = html.replace('{coins}', extra); extra = ''; }

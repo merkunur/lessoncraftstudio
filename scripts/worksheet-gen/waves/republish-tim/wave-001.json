@@ -1,0 +1,27 @@
+{
+ "id": "wave-001",
+ "_note": "Telling Time review fixes 2026-10-14 (walk #64): the live pages of this wave that carry a corrected mistake, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-149"
+ ],
+ "levels": {
+  "G1-149": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

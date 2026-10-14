@@ -780,6 +780,7 @@
   },
   "G3-344": {
     "title": "Combien de temps passé ?",
+    "printTitle": "Combien de temps s'est écoulé ?",
     "instruction": "Compare les deux horloges. Écris combien d'heures se sont passées."
   },
   "G3-345": {

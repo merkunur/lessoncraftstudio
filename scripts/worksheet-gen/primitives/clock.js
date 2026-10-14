@@ -1,6 +1,11 @@
 /**
  * clock — analog clock-face primitive (SVG) at an arbitrary time.
- * params: { h, m, size=150 }
+ * params: { h, m, size=150, hands='both'|'none'|'minute', numerals=true, minuteMarks=true, minuteRing=false }
+ * Telling Time Level Set (2026-10-14) options — all additive, the defaults draw the published clocks byte-identically:
+ *   hands:'minute'   only the minute hand (the child draws the hour hand — level 1 of the draw-the-hands pages)
+ *   numerals:false   a plain face: hour ticks, no 1-12 (the stretch level reads the hands by position)
+ *   minuteMarks:false no one-minute ticks (only the twelve hour ticks)
+ *   minuteRing:true  the face shrinks and 5, 10 … 55 are printed outside it (the support level of 5-minute times)
  * Hour hand gets the proportional offset (h + m/60); minute ticks; the 12
  * numerals in Baloo. meta carries both hand angles for QA.
  */
@@ -8,11 +13,11 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, circle, el, label } = require('./_svg.js');
 
-function clock({ h, m, size = 150, hands = 'both' }, ctx) {
+function clock({ h, m, size = 150, hands = 'both', numerals = true, minuteMarks = true, minuteRing = false }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (h < 0 || h > 12 || m < 0 || m > 59) throw new Error(`clock: invalid time ${h}:${m}`);
   const c = size / 2;
-  const rFace = c - 4;
+  const rFace = minuteRing ? c - 4 - size * 0.12 : c - 4;
   const parts = [
     circle({ cx: c, cy: c, r: rFace, fill: t.color.white, strokeColor: t.color.teal, strokeWidth: 4 }),
   ];
@@ -21,6 +26,7 @@ function clock({ h, m, size = 150, hands = 'both' }, ctx) {
   for (let k = 0; k < 60; k++) {
     const a = (k / 60) * 2 * Math.PI - Math.PI / 2;
     const isHour = k % 5 === 0;
+    if (!isHour && !minuteMarks) continue;
     const r1 = rFace - (isHour ? 9 : 5);
     parts.push(el('line', {
       x1: c + Math.cos(a) * r1, y1: c + Math.sin(a) * r1,
@@ -28,8 +34,16 @@ function clock({ h, m, size = 150, hands = 'both' }, ctx) {
       stroke: t.color.teal, 'stroke-width': isHour ? 2.5 : 1, 'stroke-linecap': 'round',
     }));
   }
+  // the minute ring (5, 10 … 55 outside the face; 0 is not printed — the 12 stands there)
+  if (minuteRing) {
+    for (let k = 1; k < 12; k++) {
+      const a = (k / 12) * 2 * Math.PI - Math.PI / 2;
+      const rr = rFace + size * 0.07;
+      parts.push(label({ x: c + Math.cos(a) * rr, y: c + Math.sin(a) * rr, text: k * 5, size: Math.round(size * 0.085), color: t.color.coral, fontFamily: t.font.display, weight: 700, data: { 'data-lcs-ring': k * 5 } }));
+    }
+  }
   // numerals
-  for (let k = 1; k <= 12; k++) {
+  for (let k = 1; k <= 12 && numerals; k++) {
     const a = (k / 12) * 2 * Math.PI - Math.PI / 2;
     const rNum = rFace - size * 0.155;
     parts.push(label({
@@ -53,14 +67,14 @@ function clock({ h, m, size = 150, hands = 'both' }, ctx) {
   // meta + data-lcs-h/m still carry the TARGET time for QA; the coral center
   // dot stays as the "start your hands here" anchor (design-panel lock).
   if (hands !== 'none') {
-    parts.push(hand(hourAngle, rFace * 0.48, 6, t.color.ink, 'hourhand'));
+    if (hands !== 'minute') parts.push(hand(hourAngle, rFace * 0.48, 6, t.color.ink, 'hourhand'));
     parts.push(hand(minuteAngle, rFace * 0.72, 4.5, t.color.coral, 'minutehand'));
   }
-  parts.push(circle({ cx: c, cy: c, r: hands === 'none' ? 7 : 5.5, fill: hands === 'none' ? t.color.coral : t.color.teal }));
+  parts.push(circle({ cx: c, cy: c, r: hands !== 'both' ? 7 : 5.5, fill: hands !== 'both' ? t.color.coral : t.color.teal }));
 
   return {
     svg: svgRoot({ width: size, height: size, label: `clock showing ${h}:${String(m).padStart(2, '0')}` },
-      parts.join(''), { 'data-lcs-prim': 'clock', 'data-lcs-h': h, 'data-lcs-m': m }),
+      parts.join(''), { 'data-lcs-prim': 'clock', 'data-lcs-h': h, 'data-lcs-m': m, ...(hands === 'minute' ? { 'data-lcs-hands': 'minute' } : {}), ...(minuteRing ? { 'data-lcs-ring': '1' } : {}), ...(numerals ? {} : { 'data-lcs-plain': '1' }) }),
     meta: { h, m, hourAngle, minuteAngle },
     width: size,
     height: size,

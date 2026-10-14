@@ -13,7 +13,7 @@
     "G1-209": {"title": "Casitas de sumas y restas", "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."},
     "G1-210": {"title": "Números en letras", "instruction": "Lee el número y encierra la palabra que le corresponde."},
     "G1-211": {"title": "Contamos monedas", "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."},
-    "G1-212": {"title": "Dibuja las agujas del reloj", "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."},
+    "G1-212": {"title": "Dibuja las agujas del reloj", "instruction": "Lee la hora. Dibuja la manecilla de las horas y la de los minutos en el reloj."},
     "G1-213": {"title": "Problemas con dibujos", "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."},
     "G2-251": {"title": "Sumas y restas sin llevar", "instruction": "Suma o resta en columnas, empezando siempre por las unidades."},
     "G2-252": {"title": "Capacidad y masa", "instruction": "Lee cada jarra medidora y cada balanza. Escribe la cantidad con su unidad."},

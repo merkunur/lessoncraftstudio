@@ -3158,5 +3158,124 @@
    "no": "Trykk på hvert tall som rundes av til tallet øverst. Se på einersifferet i hvert tall.",
    "fi": "Napauta jokaista lukua, joka pyöristyy ylhäällä näkyvään lukuun. Katso kunkin luvun ykkösnumeroa."
   }
+ },
+ "telling-time": {
+  "choose": {
+   "en": "Tap the time that matches each clock.",
+   "de": "Tippe bei jeder Uhr auf die passende Uhrzeit.",
+   "es": "Toca la hora que corresponde a cada reloj.",
+   "fr": "Touche l'heure qui correspond à chaque horloge.",
+   "it": "Tocca l'ora giusta per ogni orologio.",
+   "pt": "Toque na hora certa de cada relógio.",
+   "nl": "Tik bij elke klok op de juiste tijd.",
+   "sv": "Tryck på tiden som passar till varje klocka.",
+   "da": "Tryk på det klokkeslæt, der passer til hvert ur.",
+   "no": "Trykk på tiden som passer til hver klokke.",
+   "fi": "Napauta jokaisen kellon kohdalla oikeaa aikaa."
+  },
+  "convert": {
+   "en": "Tap the matching way to write each time.",
+   "de": "Tippe bei jeder Uhrzeit auf die passende Schreibweise.",
+   "es": "Toca la forma correcta de escribir cada hora.",
+   "fr": "Touche la bonne façon d'écrire chaque heure.",
+   "it": "Tocca il modo giusto di scrivere ogni ora.",
+   "pt": "Toque no jeito certo de escrever cada horário.",
+   "nl": "Tik bij elke tijd op de juiste schrijfwijze.",
+   "sv": "Tryck på rätt sätt att skriva varje tid.",
+   "da": "Tryk på den rigtige måde at skrive hvert klokkeslæt på.",
+   "no": "Trykk på riktig måte å skrive hver tid på.",
+   "fi": "Napauta jokaisen ajan oikeaa kirjoitustapaa."
+  },
+  "match": {
+   "en": "Tap the digital time that matches each clock.",
+   "de": "Tippe bei jeder Uhr auf die passende digitale Uhrzeit.",
+   "es": "Toca la hora digital que corresponde a cada reloj.",
+   "fr": "Touche l'heure numérique qui correspond à chaque horloge.",
+   "it": "Tocca l'ora digitale giusta per ogni orologio.",
+   "pt": "Toque na hora digital certa de cada relógio.",
+   "nl": "Tik bij elke klok op de juiste digitale tijd.",
+   "sv": "Tryck på den digitala tid som passar till varje klocka.",
+   "da": "Tryk på det digitale klokkeslæt, der passer til hvert ur.",
+   "no": "Trykk på den digitale tiden som passer til hver klokke.",
+   "fi": "Napauta jokaisen kellon kohdalla oikeaa digitaalista aikaa."
+  },
+  "hours": {
+   "en": "Tap a box, then type how many hours passed.",
+   "de": "Tippe auf ein Kästchen und gib ein, wie viele Stunden vergangen sind.",
+   "es": "Toca una casilla y escribe cuántas horas pasaron.",
+   "fr": "Touche une case, puis écris combien d'heures se sont passées.",
+   "it": "Tocca una casella e scrivi quante ore sono passate.",
+   "pt": "Toque em um quadrinho e digite quantas horas passaram.",
+   "nl": "Tik op een vakje en typ hoeveel uur er voorbij is.",
+   "sv": "Tryck på en ruta och skriv in hur många timmar som gick.",
+   "da": "Tryk på et felt, og skriv hvor mange timer der gik.",
+   "no": "Trykk på en rute og skriv inn hvor mange timer som gikk.",
+   "fi": "Napauta ruutua ja kirjoita, montako tuntia kului."
+  },
+  "arith": {
+   "en": "Tap a box and type the new time: the hours in the first box, the minutes in the second.",
+   "de": "Tippe auf ein Kästchen und gib die neue Uhrzeit ein: die Stunden ins erste Kästchen, die Minuten ins zweite.",
+   "es": "Toca una casilla y escribe la hora nueva: las horas en la primera casilla y los minutos en la segunda.",
+   "fr": "Touche une case et écris la nouvelle heure : les heures dans la première case, les minutes dans la deuxième.",
+   "it": "Tocca una casella e scrivi la nuova ora: le ore nella prima casella, i minuti nella seconda.",
+   "pt": "Toque em um quadrinho e digite a nova hora: as horas no primeiro quadrinho e os minutos no segundo.",
+   "nl": "Tik op een vakje en typ de nieuwe tijd: de uren in het eerste vakje, de minuten in het tweede.",
+   "sv": "Tryck på en ruta och skriv in den nya tiden: timmarna i den första rutan, minuterna i den andra.",
+   "da": "Tryk på et felt, og skriv det nye klokkeslæt: timerne i det første felt og minutterne i det andet.",
+   "no": "Trykk på en rute og skriv inn den nye tiden: timene i den første ruta, minuttene i den andre.",
+   "fi": "Napauta ruutua ja kirjoita uusi aika: tunnit ensimmäiseen ruutuun, minuutit toiseen."
+  },
+  "draw": {
+   "en": "Drag the short hand and the long hand so that each clock shows its time.",
+   "de": "Ziehe den kurzen und den langen Zeiger so, dass jede Uhr ihre Uhrzeit zeigt.",
+   "es": "Arrastra la manecilla corta y la manecilla larga para que cada reloj marque su hora.",
+   "fr": "Fais glisser la petite et la grande aiguille pour que chaque horloge montre son heure.",
+   "it": "Trascina la lancetta corta e quella lunga perché ogni orologio segni la sua ora.",
+   "pt": "Arraste o ponteiro curto e o ponteiro comprido para que cada relógio mostre a sua hora.",
+   "nl": "Sleep de kleine en de grote wijzer zo dat elke klok zijn tijd aanwijst.",
+   "sv": "Dra den korta och den långa visaren så att varje klocka visar sin tid.",
+   "da": "Træk den lille og den store viser, så hvert ur viser sit klokkeslæt.",
+   "no": "Dra den korte og den lange viseren slik at hver klokke viser tiden sin.",
+   "fi": "Vedä lyhyt ja pitkä viisari niin, että jokainen kello näyttää oman aikansa."
+  },
+  "drawHour": {
+   "en": "The long minute hand is already there. Drag the short hour hand so that each clock shows its time.",
+   "de": "Der lange Minutenzeiger ist schon da. Ziehe den kurzen Stundenzeiger so, dass jede Uhr ihre Uhrzeit zeigt.",
+   "es": "La manecilla larga de los minutos ya está puesta. Arrastra la manecilla corta de las horas para que cada reloj marque su hora.",
+   "fr": "La grande aiguille est déjà placée. Fais glisser la petite aiguille pour que chaque horloge montre son heure.",
+   "it": "La lancetta lunga dei minuti c'è già. Trascina la lancetta corta delle ore perché ogni orologio segni la sua ora.",
+   "pt": "O ponteiro comprido dos minutos já está no lugar. Arraste o ponteiro curto das horas para que cada relógio mostre a sua hora.",
+   "nl": "De grote wijzer staat er al. Sleep de kleine wijzer zo dat elke klok zijn tijd aanwijst.",
+   "sv": "Den långa minutvisaren står redan rätt. Dra den korta timvisaren så att varje klocka visar sin tid.",
+   "da": "Den store viser står der allerede. Træk den lille viser, så hvert ur viser sit klokkeslæt.",
+   "no": "Den lange minuttviseren står allerede riktig. Dra den korte timeviseren slik at hver klokke viser tiden sin.",
+   "fi": "Pitkä minuuttiviisari on jo paikallaan. Vedä lyhyt tuntiviisari niin, että jokainen kello näyttää oman aikansa."
+  },
+  "hourHand": {
+   "en": "hour hand",
+   "de": "Stundenzeiger",
+   "es": "manecilla de las horas",
+   "fr": "petite aiguille",
+   "it": "lancetta delle ore",
+   "pt": "ponteiro das horas",
+   "nl": "kleine wijzer",
+   "sv": "timvisare",
+   "da": "lille viser",
+   "no": "timeviser",
+   "fi": "tuntiviisari"
+  },
+  "minuteHand": {
+   "en": "minute hand",
+   "de": "Minutenzeiger",
+   "es": "manecilla de los minutos",
+   "fr": "grande aiguille",
+   "it": "lancetta dei minuti",
+   "pt": "ponteiro dos minutos",
+   "nl": "grote wijzer",
+   "sv": "minutvisare",
+   "da": "store viser",
+   "no": "minuttviser",
+   "fi": "minuuttiviisari"
+  }
  }
 }

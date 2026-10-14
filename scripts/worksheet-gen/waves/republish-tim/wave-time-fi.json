@@ -1,0 +1,177 @@
+{
+ "id": "wave-time-fi",
+ "_note": "Telling Time review fixes 2026-10-14 (walk #64): the live pages of this wave that carry a corrected mistake, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-149",
+  "G3-355",
+  "G3-356"
+ ],
+ "levels": {
+  "G1-149": {
+   "2": [
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 5
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 6
+    },
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 7
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 8
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 9
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 10
+    }
+   ]
+  },
+  "G3-355": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 5
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 6
+    },
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 7
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 8
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 9
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 10
+    }
+   ]
+  },
+  "G3-356": {
+   "2": [
+    {
+     "copy": 1,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 5
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 6
+    },
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 7
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 8
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 9
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 10
+    }
+   ]
+  }
+ }
+}

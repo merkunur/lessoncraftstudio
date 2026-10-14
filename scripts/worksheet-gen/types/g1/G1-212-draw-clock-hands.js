@@ -6,18 +6,15 @@
  * that would reuse the E10 idiom table). CCSS 1.MD.B.3 / DE Uhrzeit Klasse 1-2.
  */
 'use strict';
-const { makeClockType } = require('../_shared/clock-tasks.js');
+const { makeClockType, levelsFor } = require('../_shared/clock-tasks.js');
 
 module.exports = makeClockType({
   id: 'G1-212',
   slug: 'draw-the-clock-hands',
   mode: 'draw',
   gradeBand: 'G1',
-  difficulty: {
-    1: { cards: 4, stepM: 60 },  // full hours
-    2: { cards: 4, stepM: 30 },  // hours + half hours
-    3: { cards: 6, stepM: 15 },  // quarter hours
-  },
+  // full hours / hours + half hours (published) / quarter hours — Level Set stamps from clock-tasks FACE_LEVELS
+  difficulty: levelsFor('G1-212', { cards: 4, stepM: 30 }, { 1: { cards: 4, stepM: 60 }, 3: { cards: 6, stepM: 15 } }),
   i18n: {
     en: {
       title: 'Draw the Clock Hands',

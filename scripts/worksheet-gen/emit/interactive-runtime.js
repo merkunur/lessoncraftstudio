@@ -32,6 +32,8 @@
  *   type-word  — Number Words (Level Set 2026-10-13): type-number for WORDS — the printed page, a write box over each
  *                line, a LETTER pad (the locale's whole alphabet + the characters its words use, ctx.keys) and the
  *                keyboard; the cap is the page's (ctx.maxChars). Check compares case-insensitively, exact spelling.
+ *   set-clock  — Telling Time (Level Set 2026-10-14): the draw-the-hands pages; the child drags the hour and minute hands
+ *                onto every empty clock face of the printed page (emit/interactive-set-clock.js).
  *   tap-edit   — sentences drawn LIVE as word buttons (not over the image: they must stay
  *                >= 44 px on a phone). A tool row — Aa and the level's marks — and a tap on a
  *                word: Aa toggles its capital, a mark goes after it (tap again = off). Check
@@ -51,7 +53,8 @@ const path = require('path');
 const vm = require('vm');
 
 const { JS_TYPE_PLUS } = require('./interactive-type-plus.js');
-const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path', 'type-number', 'type-word']);
+const { JS_SET_CLOCK, CSS_SET_CLOCK } = require('./interactive-set-clock.js');
+const KINDS = new Set(['tap-order', 'tap-choice', 'tap-edit', 'tap-select', 'tap-spell', 'tap-paint', 'trace-path', 'type-number', 'type-word', 'set-clock']);
 let _shared = null;
 function shared() {
   if (_shared) return _shared;
@@ -530,6 +533,18 @@ function buildInteractive(o) {
       for (const k of ['x', 'y', 'w', 'h']) if (!inPage(it[k])) throw new Error('interactive-runtime: type-word box ' + k + '=' + it[k] + ' outside the page');
     }
     bundleItems = items.map((it) => ({ x: round(it.x), y: round(it.y), w: round(it.w), h: round(it.h), label: it.label || '', meta: it.meta || {} }));
+  } else if (o.kind === 'set-clock') {
+    // the child sets the hands: one clock face per item, its centre + radius in % of the stage, its time "h:mm"
+    const K = o.ctx && o.ctx.clock;
+    if (!K || !(K.aspect > 0) || !K.names || !K.names.hour || !K.names.minute) throw new Error('interactive-runtime: set-clock needs ctx.clock {aspect, names}');
+    for (const it of items) {
+      if (!/^([1-9]|1[0-2]):[0-5]\d$/.test(String(it.answer))) throw new Error('interactive-runtime: set-clock answer "' + it.answer + '" is not a clock time');
+      if (!inPage(it.cx) || !inPage(it.cy) || !(it.r > 1 && it.r < 50)) throw new Error('interactive-runtime: set-clock face outside the page');
+      const st = String(it.meta && it.meta['data-lcs-step']);
+      if (!['0', '1', '5'].includes(st)) throw new Error('interactive-runtime: set-clock step "' + st + '"');
+      if (st === '5' && +String(it.answer).split(':')[1] % 5) throw new Error('interactive-runtime: set-clock time ' + it.answer + ' off the five-minute snap');
+    }
+    bundleItems = items.map((it) => ({ cx: round(it.cx), cy: round(it.cy), r: round(it.r), label: it.label || '', meta: it.meta || {} }));
   } else if (o.kind === 'tap-edit') {
     if (!/^[.?!]+$/.test(o.marks || '')) throw new Error('interactive-runtime: tap-edit needs the level marks');
     for (const it of items) {
@@ -549,7 +564,7 @@ function buildInteractive(o) {
   const bundle = { kind: o.kind, locale: o.locale, strings: S, ctx: o.ctx || null, items: bundleItems, answers, ...(ranks ? { ranks } : {}), ...(o.kind === 'tap-edit' ? { marks: o.marks } : {}) };
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   return {
-    css: CSS,
+    css: o.kind === 'set-clock' ? CSS + '\n' + CSS_SET_CLOCK : CSS,
     stageOpen: '<div class="lcs-stage" id="lcs-stage">',
     stageClose: '<div id="lcs-overlay"></div></div>' + (o.kind === 'tap-edit' ? '\n<div class="lcs-tools" id="lcs-tools" role="toolbar"></div>\n<div id="lcs-lanes"></div>' : '')
       + (o.kind === 'type-number' || o.kind === 'type-word' ? '\n<div class="lcs-pad" id="lcs-pad" role="group"></div>' : ''),
@@ -567,7 +582,7 @@ function buildInteractive(o) {
       '</div></div>',
     ].join('\n'),
     // `<` escaped inside the JSON so no string can close the script element
-    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'type-number' ? ((o.ctx && (o.ctx.sortSets || o.ctx.picks)) ? JS_TYPE_PLUS : JS_TYPE) : o.kind === 'type-word' ? JS_WORD : o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : JS) + '</script>',
+    script: '<script>window.DECK_BUNDLE=' + JSON.stringify(bundle).replace(/</g, '\\u003c') + ';</script>\n<script>' + (o.kind === 'type-number' ? ((o.ctx && (o.ctx.sortSets || o.ctx.picks)) ? JS_TYPE_PLUS : JS_TYPE) : o.kind === 'type-word' ? JS_WORD : o.kind === 'tap-choice' ? JS_CHOICE : o.kind === 'tap-edit' ? JS_EDIT : o.kind === 'tap-select' ? JS_SELECT : o.kind === 'tap-spell' ? JS_SPELL : o.kind === 'tap-paint' ? JS_PAINT : o.kind === 'trace-path' ? JS_TRACE : o.kind === 'set-clock' ? JS_SET_CLOCK : JS) + '</script>',
   };
 }
 

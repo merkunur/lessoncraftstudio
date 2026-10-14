@@ -1,0 +1,27 @@
+{
+ "id": "wave-var-fananim-it",
+ "_note": "Word Problems review fixes 2026-10-14 (walk #65): the live pages of this wave whose story the native + pedagogy review corrected, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "it"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-213"
+ ],
+ "levels": {
+  "G1-213": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "animals",
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

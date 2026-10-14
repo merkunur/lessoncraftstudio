@@ -207,7 +207,7 @@
         "{name} vede {n1} file di {noun}. In ogni fila ci sono {n2} {noun}. Qual è il totale di {noun}?"
       ],
       "share": [
-        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. Qual è il numero di {noun} di ogni amico?",
+        "{name} divide {n1} {noun} in parti uguali fra {n2} amici. {Q} {noun} riceve ogni amico?",
         "{name} mette {n1} {noun} in {n2} scatole, con lo stesso numero in ogni scatola. Qual è il numero di {noun} in ogni scatola?",
         "{name} forma {n2} gruppi uguali con {n1} {noun}. Qual è il numero di {noun} in ogni gruppo?"
       ],

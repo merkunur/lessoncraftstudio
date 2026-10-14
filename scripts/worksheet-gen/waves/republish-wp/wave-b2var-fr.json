@@ -1,0 +1,37 @@
+{
+ "id": "wave-b2var-fr",
+ "_note": "Word Problems review fixes 2026-10-14 (walk #65): the live pages of this wave whose story the native + pedagogy review corrected, pinned",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-290",
+  "G2-294"
+ ],
+ "levels": {
+  "G2-290": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles",
+     "seedVariant": 1
+    }
+   ]
+  },
+  "G2-294": {
+   "2": [
+    {
+     "copy": 1,
+     "theme": "vehicles",
+     "seedVariant": 1
+    }
+   ]
+  }
+ }
+}

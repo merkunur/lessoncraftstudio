@@ -212,9 +212,9 @@
         "{name} vê {n1} fileiras de {noun}. Cada fileira tem {n2} {noun}. Qual é o total de {noun}?"
       ],
       "share": [
-        "{name} reparte {n1} {noun} igualmente entre {n2} amigos. Qual é o total de {noun} de cada amigo?",
-        "{name} coloca {n1} {noun} em {n2} sacolas, com a mesma quantidade em cada uma. Qual é o total de {noun} em cada sacola?",
-        "{name} divide {n1} {noun} igualmente em {n2} caixas. Qual é o total de {noun} em cada caixa?"
+        "{name} reparte {n1} {noun} igualmente entre {n2} amigos. {Q} {noun} cada amigo recebe?",
+        "{name} coloca {n1} {noun} em {n2} sacolas, com a mesma quantidade em cada uma. {Q} {noun} ficam em cada sacola?",
+        "{name} divide {n1} {noun} igualmente em {n2} caixas. {Q} {noun} ficam em cada caixa?"
       ],
       "group": [
         "{name} tem {n1} {noun}. {name} coloca {n2} {noun} em cada sacola. Quantas sacolas {name} enche?",

@@ -9,6 +9,7 @@ module.exports = {
   ...base,
   id: 'G3-372',
   slug: 'division-word-problems-sharing',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14: level 2 = the published config D; levels 1 / 3 from G3-370 FACE_LEVELS (⚠ never regenerate this line)
+  difficulty: base.levelsFor('G3-372', D),
   i18n: { en: { title: "Division Word Problems: Sharing", instruction: "Each story shares things out. Deal them into the boxes." } },
 };

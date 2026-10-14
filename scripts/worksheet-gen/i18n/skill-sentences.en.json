@@ -169,7 +169,8 @@
   },
   "word-problems": {
     "full": "Reading a short story, checking the picture, and writing the answer turns arithmetic into real problem solving.",
-    "short": "Builds word-problem solving with picture support."
+    "short": "Builds word-problem solving with picture support.",
+    "levelSetShort": "Story problems with picture support."
   },
   "column-arithmetic": {
     "full": "Working one place-value column at a time builds the careful written method used for bigger and bigger numbers.",

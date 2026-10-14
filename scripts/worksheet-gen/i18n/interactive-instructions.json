@@ -3277,5 +3277,20 @@
    "no": "minuttviser",
    "fi": "minuuttiviisari"
   }
+ },
+ "word-problems": {
+  "read": {
+   "en": "Read each story. Tap a box and type the answer.",
+   "de": "Lies jede Geschichte. Tippe auf ein Kästchen und gib die Antwort ein.",
+   "es": "Lee cada problema. Toca un recuadro y escribe la respuesta.",
+   "fr": "Lis chaque histoire. Touche une case et écris la réponse.",
+   "it": "Leggi ogni storia. Tocca una casella e scrivi la risposta.",
+   "pt": "Leia cada história. Toque em um quadrinho e digite a resposta.",
+   "nl": "Lees elk verhaaltje. Tik op een vakje en typ het antwoord.",
+   "sv": "Läs varje berättelse. Tryck på en ruta och skriv in svaret.",
+   "da": "Læs hver historie. Tryk på en boks, og skriv svaret.",
+   "no": "Les hver fortelling. Trykk på en boks og skriv inn svaret.",
+   "fi": "Lue jokainen tarina. Napauta ruutua ja kirjoita vastaus."
+  }
  }
 }

@@ -137,9 +137,9 @@
         "{name} conta {n1} {noun} e um amigo conta mais {n2} {noun}. Qual é o total de {noun} dos dois juntos?"
       ],
       "sub": [
-        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. Qual é o total de {noun} que sobra?",
-        "{name} tem {n1} {noun} e perde {n2} {noun}. Qual é o total de {noun} agora?",
-        "{name} conta {n1} {noun} e tira {n2} {noun}. Qual é o total de {noun} que resta?"
+        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. {Q} {noun} sobram para {name}?",
+        "{name} tem {n1} {noun} e perde {n2} {noun}. {Q} {noun} {name} tem agora?",
+        "{name} conta {n1} {noun} e tira {n2} {noun}. {Q} {noun} restam?"
       ]
     }
   },

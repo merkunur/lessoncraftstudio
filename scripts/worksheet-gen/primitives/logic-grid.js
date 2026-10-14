@@ -146,7 +146,7 @@ function notMark(px) {
 }
 
 /* ------------------------------------------------------------------ Phase-2 faces (additive) */
-function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx = 22, picPx = 56, puzzle = 0 }) {
+function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx = 22, picPx = 56, puzzle = 0, solved = null }) {
   if (!Array.isArray(names) || !Array.isArray(pics) || !Array.isArray(pics2) || !names.length) throw new Error('lGrid: names, pics, pics2 must be non-empty arrays');
   const n = names.length;
   if (pics.length !== n || pics2.length !== n) throw new Error('lGrid: pics and pics2 must each carry ' + n + ' entries');
@@ -183,6 +183,15 @@ function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx =
   cellsOf('np', headW, hdrH);
   cellsOf('nc', xi, hdrH);
   cellsOf('pc', headW, yi);
+  // Level Set 2026-10-15 (the answer key): solved = {np, nc} prints a teal tick in every solution cell of the three bodies
+  // and a coral cross in every other cell (pc row k = attr-2 picture k, column p = attr-1 picture p). Absent = byte-identical.
+  if (solved) {
+    if (!Array.isArray(solved.np) || !Array.isArray(solved.nc) || solved.np.length !== n || solved.nc.length !== n) throw new Error('lGrid: solved needs {np, nc} of length ' + n);
+    const put = (g, x0, y0, yes) => { for (let rr = 0; rr < n; rr++) for (let c = 0; c < n; c++) { const y = yes(rr, c); parts.push(mark(y ? 'yes' : 'no', x0 + c * cell + cell / 2, y0 + rr * cell + cell / 2, cell * 0.4, { 'data-lcs-mark': y ? 1 : 0, 'data-lcs-mark-cell': g + ':' + rr + ':' + c })); } };
+    put('np', headW, hdrH, (a, p) => solved.np[a] === p);
+    put('nc', xi, hdrH, (a, c) => solved.nc[a] === c);
+    put('pc', headW, yi, (k, p) => solved.nc[solved.np.indexOf(p)] === k);
+  }
   const svg = svgRoot({ width: W, height: H, label: 'two-attribute elimination grid' }, parts, { 'data-lcs-prim': 'logic-lgrid', 'data-lcs-cell-px': cell, 'data-lcs-size': n, style: 'display:block' });
   const img = (c, extra, left, top) => '<img class="ws-icon" src="' + esc(c.src) + '" alt="' + esc(c.alt || '') + '" ' + extra + ' style="position:absolute;left:' + left + 'px;top:' + top + 'px;width:' + picPx + 'px;height:' + picPx + 'px">';
   const imgs = [
@@ -190,7 +199,7 @@ function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx =
     ...pics2.map((c, j) => img(c, 'data-lcs-col="' + (n + j) + '"', xi + j * cell + (cell - picPx) / 2, (hdrH - picPx) / 2)),
     ...pics2.map((c, k) => img(c, 'data-lcs-rowpic="' + k + '"', (headW - picPx) / 2, yi + k * cell + (cell - picPx) / 2)),
   ].join('');
-  const html = '<div data-lcs-grid="' + puzzle + '" data-lcs-mode="blank" data-lcs-lgrid="np,nc,pc" style="position:relative;width:' + W + 'px;height:' + H + 'px;flex:0 0 auto">' + svg + imgs + '</div>';
+  const html = '<div data-lcs-grid="' + puzzle + '" data-lcs-mode="' + (solved ? 'solved' : 'blank') + '" data-lcs-lgrid="np,nc,pc" style="position:relative;width:' + W + 'px;height:' + H + 'px;flex:0 0 auto">' + svg + imgs + '</div>';
   return { html, width: W, height: H };
 }
 

@@ -2004,7 +2004,7 @@
   },
   "G2-319": {
     "title": "Acertijos de lógica: tres pistas, una respuesta",
-    "instruction": "Lee las pistas. Tacha en la cuadrícula lo que no puede ser, marca lo que tiene que ser y rodea el dibujo de cada niño."
+    "instruction": "Lee las pistas. Tacha en la cuadrícula lo que no puede ser, pon palomita a lo que tiene que ser y encierra el dibujo de cada niño."
   },
   "G3-377": {
     "title": "Divisiones con residuo: encierra los grupos",
@@ -2364,15 +2364,15 @@
   },
   "G2-344": {
     "title": "Acertijos de lógica con pistas de sí, no y o",
-    "instruction": "Una pista de sí lleva palomita, una de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y rodea cada respuesta."
+    "instruction": "Una pista de sí lleva palomita, una de no lleva tacha y una pista con \"o\" tacha el tercer dibujo. Completa la cuadrícula y encierra cada respuesta."
   },
   "G3-378": {
     "title": "Acertijos de lógica de 4 por 4: seis pistas",
-    "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y marca lo que tiene que ser hasta que cada fila tenga una respuesta."
+    "instruction": "Cuatro niños y cuatro dibujos. Usa todas las pistas: tacha lo que no puede ser y pon palomita a lo que tiene que ser hasta que cada fila tenga una respuesta."
   },
   "G1-349": {
     "title": "Acertijos con pistas de dibujos: tacha y encuentra",
-    "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno rodeado, que sí lo tiene. Tacha en la cuadrícula y rodea cada respuesta."
+    "instruction": "Un dibujo tachado quiere decir que el niño no lo tiene; uno encerrado en un círculo, que sí lo tiene. Tacha en la cuadrícula y encierra cada respuesta."
   },
   "G3-379": {
     "title": "Acertijos de dos atributos: dos dibujos por niño",
@@ -2380,7 +2380,7 @@
   },
   "G2-345": {
     "title": "Lee la cuadrícula: ¿verdadero o falso?",
-    "instruction": "La cuadrícula ya está resuelta. Léela y rodea la palomita si la oración es verdadera o la tacha si es falsa."
+    "instruction": "La cuadrícula ya está resuelta. Léela y encierra la palomita si la oración es verdadera o la tacha si es falsa."
   },
   "G3-380": {
     "title": "Reparte y escribe cuánto sobra",

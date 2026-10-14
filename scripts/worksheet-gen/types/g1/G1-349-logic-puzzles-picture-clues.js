@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G1-349',
   slug: 'logic-puzzles-picture-clues',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Picture Clue Logic Puzzles: Cross Out and Find", instruction: "A crossed-out picture means the child does not have it, a ringed one means the child has it. Cross out on the grid, then circle each answer." } },
+  // Level Set 2026-10-15 (walk #69): real levels 1 / 3 (G2-319 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b3var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G1-349', D),
+  i18n: { en: { title: "Picture Clue Logic Puzzles: Cross Out and Find", instruction: "A crossed-out picture means the child does not have it, a circled one means the child has it. Cross out on the grid, then circle each answer." } },
   gradeBand: "G1",
 };

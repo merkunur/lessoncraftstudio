@@ -9,6 +9,8 @@ module.exports = {
   ...base,
   id: 'G2-344',
   slug: 'logic-puzzles-yes-no-either-or-clues',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Logic Grid Puzzles with Yes, No and Either-Or Clues", instruction: "A yes clue gets a tick, a no clue gets a cross and an either-or clue crosses out the third picture. Finish the grid, then circle each answer." } },
+  // Level Set 2026-10-15 (walk #69): real levels 1 / 3 (G2-319 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b3var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G2-344', D),
+  i18n: { en: { title: "Logic Grid Puzzles with Yes, No and Either-Or Clues", instruction: "A yes clue gets a check mark, a no clue gets an X and an either-or clue crosses out the third picture. Finish the grid, then circle each answer." } },
 };

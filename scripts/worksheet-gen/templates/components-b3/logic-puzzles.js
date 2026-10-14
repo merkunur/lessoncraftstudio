@@ -44,12 +44,13 @@ const { notMark, markGlyph } = require('../../primitives/logic-grid.js');
 const T = tokens.color;
 const F = tokens.font;
 
-function clueRow({ n, html, w }) {
+function clueRow({ n, html, w, px }) {
   if (!(n >= 1)) throw new Error('clueRow: n must be >= 1');
   if (typeof html !== 'string' || !html.trim()) throw new Error('clueRow: html must be a non-empty string');
-  const badge = `<span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;flex:0 0 26px;border-radius:50%;` +
-    `background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:15px;line-height:1;margin-top:5px">${n}</span>`;
-  const text = `<span style="flex:1 1 auto;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.35;color:${T.ink}" data-lcs-clue-text>${html}</span>`;
+  const b = px ? Math.round(px * 1.45) : 26, bf = px ? Math.round(px * 0.85) : 15;
+  const badge = `<span style="display:inline-flex;align-items:center;justify-content:center;width:${b}px;height:${b}px;flex:0 0 ${b}px;border-radius:50%;` +
+    `background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:${bf}px;line-height:1;margin-top:${px ? Math.round(px * 0.25) : 5}px">${n}</span>`;
+  const text = `<span style="flex:1 1 auto;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:${px || 18}px;line-height:1.35;color:${T.ink}" data-lcs-clue-text>${html}</span>`;
   return `<div data-lcs-clue="${n - 1}" style="display:flex;align-items:flex-start;gap:8px;${w ? `width:${w}px;` : ''}">${badge}${text}</div>`;
 }
 
@@ -61,7 +62,8 @@ function answerBank({ rows, pic = 36, w = 675, stack = false }) {
   const chipH = stack ? 72 : 48;
   const chips = rows.map((r, i) => {
     if (!r || typeof r.name !== 'string' || !r.name.trim() || !Array.isArray(r.pics) || !r.pics.length) throw new Error('answerBank: row ' + i + ' needs {name, pics[]}');
-    const pics = r.pics.map((p) => `<img class="ws-icon" src="${esc(p.src)}" alt="${esc(p.alt || '')}" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px">`).join('');
+    // p.on (Level Set answer key, 2026-10-15): the right picture of the row is circled — absent = byte-identical
+    const pics = r.pics.map((p) => `<img class="ws-icon" src="${esc(p.src)}" alt="${esc(p.alt || '')}" style="width:${pic}px;height:${pic}px;flex:0 0 ${pic}px${p.on ? `;border-radius:50%;box-shadow:0 0 0 3px ${T.teal}` : ''}"${p.on ? ' data-lcs-key-on="1"' : ''}>`).join('');
     const name = `<span style="font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1;color:${T.ink};white-space:nowrap">${esc(r.name)}</span>`;
     const inner = stack
       ? `${name}<span style="display:inline-flex;gap:4px;margin-top:6px">${pics}</span>`
@@ -73,15 +75,15 @@ function answerBank({ rows, pic = 36, w = 675, stack = false }) {
 }
 
 /* ------------------------------------------------------------------ Phase-2 faces (additive) */
-function pictureClue({ n, name, src, alt, not, pic = 56, col }) {
+function pictureClue({ n, name, src, alt, not, pic = 56, col, namePx }) {
   if (!(n >= 1)) throw new Error('pictureClue: n must be >= 1');
   if (typeof name !== 'string' || !name.trim()) throw new Error('pictureClue: name must be a non-empty string');
   if (typeof src !== 'string' || !src) throw new Error('pictureClue: src required');
   if (!(pic >= 44)) throw new Error('pictureClue: ring ' + pic + ' < the G1 floor 44');
   const inner = Math.round(pic * 48 / 56);
   const r = pic / 2 - 2;
-  const tile = `<span data-lcs-nametile style="display:inline-flex;align-items:center;height:32px;padding:0 10px;border:2px solid ${T.teal};border-radius:8px;background:${T.white};` +
-    `font-family:${F.body},sans-serif;font-weight:800;font-size:16px;line-height:1;color:${T.ink};white-space:nowrap;box-sizing:border-box">${esc(name)}</span>`;
+  const tile = `<span data-lcs-nametile style="display:inline-flex;align-items:center;height:${namePx ? Math.round(namePx * 2) : 32}px;padding:0 10px;border:2px solid ${T.teal};border-radius:8px;background:${T.white};` +
+    `font-family:${F.body},sans-serif;font-weight:800;font-size:${namePx || 16}px;line-height:1;color:${T.ink};white-space:nowrap;box-sizing:border-box">${esc(name)}</span>`;
   const ring = `<svg xmlns="http://www.w3.org/2000/svg" width="${pic}" height="${pic}" viewBox="0 0 ${pic} ${pic}" aria-hidden="true" style="position:absolute;left:0;top:0">` +
     `<circle cx="${pic / 2}" cy="${pic / 2}" r="${r}" fill="${T.white}" stroke="${not ? T.coral : T.teal}" stroke-width="2.5"/></svg>`;
   const img = `<img class="ws-icon" src="${esc(src)}" alt="${esc(alt || '')}" data-lcs-pic="${col}" style="position:absolute;left:${(pic - inner) / 2}px;top:${(pic - inner) / 2}px;width:${inner}px;height:${inner}px;${not ? 'opacity:.85' : ''}">`;
@@ -90,20 +92,25 @@ function pictureClue({ n, name, src, alt, not, pic = 56, col }) {
     `<span data-lcs-ring style="position:relative;display:inline-block;width:${pic}px;height:${pic}px;flex:0 0 ${pic}px">${ring}${img}${cross}</span></div>`;
 }
 
-function glyphChip({ kind, px = 40 }) {
+function glyphChip({ kind, px = 40, attrs = '', on = false }) {
   if (kind !== 'yes' && kind !== 'no') throw new Error('glyphChip: kind must be yes|no');
   if (!(px >= 36)) throw new Error('glyphChip: ' + px + ' < the G2 floor 36');
-  return `<span data-lcs-glyph="${kind}" style="display:inline-flex;align-items:center;justify-content:center;width:${px}px;height:${px}px;flex:0 0 ${px}px;` +
-    `border-radius:50%;border:2px solid ${T.teal};background:${T.white};box-sizing:border-box;line-height:0">${markGlyph(kind, px - 8)}</span>`;
+  return `<span data-lcs-glyph="${kind}"${attrs ? ' ' + attrs : ''} style="display:inline-flex;align-items:center;justify-content:center;width:${px}px;height:${px}px;flex:0 0 ${px}px;` +
+    `border-radius:50%;border:2px solid ${T.teal};background:${T.white};box-sizing:border-box;line-height:0${on ? `;box-shadow:0 0 0 4px ${T.teal}` : ''}">${markGlyph(kind, px - 8)}</span>`;
 }
 
-function statementRow({ n, html, glyph = 40 }) {
+function statementRow({ n, html, glyph = 40, truth = null, mode = null, px }) {
+  // Level Set (2026-10-15): mode 'screen' stamps the true glyph data-lcs-correct (the tap-choice answer) + a label on both;
+  // mode 'key' circles the true glyph. Absent = byte-identical.
+  const ga = (k) => (mode === 'screen' ? `data-lcs-label="${k === 'yes' ? '✓' : '✗'}"${(truth ? 'yes' : 'no') === k ? ' data-lcs-correct' : ''}` : '');
+  const gon = (k) => mode === 'key' && (truth ? 'yes' : 'no') === k;
   if (!(n >= 1)) throw new Error('statementRow: n must be >= 1');
   if (typeof html !== 'string' || !html.trim()) throw new Error('statementRow: html must be a non-empty string');
-  const badge = `<span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;flex:0 0 26px;border-radius:50%;` +
-    `background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:15px;line-height:1">${n}</span>`;
-  const text = `<span style="flex:1 1 auto;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:18px;line-height:1.35;color:${T.ink}" data-lcs-stmt-text>${html}</span>`;
-  return `<div data-lcs-stmt="${n - 1}" style="display:flex;align-items:center;gap:8px;min-height:${glyph}px">${badge}${text}${glyphChip({ kind: 'yes', px: glyph })}${glyphChip({ kind: 'no', px: glyph }).replace('style="', 'style="margin-left:-2px;')}</div>`;   // badge 26 + 3 gaps 24 + 2 chips 80 - 2 = 128 (text = column - 128)
+  const b = px ? Math.round(px * 1.45) : 26, bf = px ? Math.round(px * 0.85) : 15;
+  const badge = `<span style="display:inline-flex;align-items:center;justify-content:center;width:${b}px;height:${b}px;flex:0 0 ${b}px;border-radius:50%;` +
+    `background:${T.teal};color:${T.white};font-family:${F.display},cursive;font-weight:700;font-size:${bf}px;line-height:1">${n}</span>`;
+  const text = `<span style="flex:1 1 auto;min-width:0;font-family:${F.body},sans-serif;font-weight:800;font-size:${px || 18}px;line-height:1.35;color:${T.ink}" data-lcs-stmt-text>${html}</span>`;
+  return `<div data-lcs-stmt="${n - 1}" style="display:flex;align-items:center;gap:8px;min-height:${glyph}px">${badge}${text}${glyphChip({ kind: 'yes', px: glyph, attrs: ga('yes'), on: gon('yes') })}${glyphChip({ kind: 'no', px: glyph, attrs: ga('no'), on: gon('no') }).replace('style="', 'style="margin-left:-2px;')}</div>`;   // badge 26 + 3 gaps 24 + 2 chips 80 - 2 = 128 (text = column - 128)
 }
 
 module.exports = { clueRow, answerBank, pictureClue, glyphChip, statementRow };

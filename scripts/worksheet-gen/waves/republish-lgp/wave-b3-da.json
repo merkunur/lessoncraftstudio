@@ -1,0 +1,31 @@
+{
+ "id": "wave-b3-da",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [
+  "animals",
+  "forest creatures",
+  "pets"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-319"
+ ],
+ "themeOverrides": {
+  "K-318": "animals",
+  "K-320": "animals",
+  "K-324": "animals",
+  "G1-305": "animals",
+  "G1-308": "animals",
+  "G2-318": "forest creatures",
+  "G2-319": "pets",
+  "G3-377": "animals"
+ },
+ "_refused": {},
+ "_note": "Republish 2026-10-15 (Logic Grid Puzzles walk #69 native review): the same published page with corrected wording — live title/description kept."
+}

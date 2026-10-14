@@ -9,7 +9,9 @@ module.exports = {
   ...base,
   id: 'G3-378',
   slug: 'logic-puzzles-4-by-4-six-clues',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "4 by 4 Logic Grid Puzzles: Six Clues", instruction: "Four children and four pictures. Use every clue: cross out what cannot be true and tick what must be true until each row has one answer." } },
+  // Level Set 2026-10-15 (walk #69): real levels 1 / 3 (G2-319 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b3var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-378', D),
+  i18n: { en: { title: "4 by 4 Logic Grid Puzzles: Six Clues", instruction: "Four children and four pictures. Use every clue: cross out what cannot be true and check what must be true until each row has one answer." } },
   gradeBand: "G3",
 };

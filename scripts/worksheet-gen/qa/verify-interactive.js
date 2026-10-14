@@ -195,6 +195,91 @@ async function playChoice(page, html, oracle, locale) {
   return fails;
 }
 
+/**
+ * mark-grid (Logic Grid Puzzles, Level Set 2026-10-15): every cell cycles empty → tick → cross → empty. The oracle SOLVES
+ * the stamped clues (never the answer map). Checks: every cell ≥ 44 px and on screen at every width · one tap = tick, two =
+ * cross, three = clear · Check disabled until every graded row holds a tick · the oracle's ticks (+ crosses everywhere
+ * else, which are working and never graded) → celebration, every ticked cell green · Try again after a wrong tick keeps
+ * the right rows · a wrong tick in row 1 → no celebration, a red cell · two ticks in one row → that row wrong.
+ */
+async function playGrid(page, html, oracle, locale) {
+  const fails = [];
+  const file = path.join(os.tmpdir(), 'lcs-verify-interactive-' + process.pid + '.html');
+  fs.writeFileSync(file, html, 'utf8');
+  for (const w of WIDTHS) {
+    await page.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+    await page.goto(require('url').pathToFileURL(file).href, { waitUntil: 'load' });
+    const info = await page.evaluate(() => ({
+      cells: [...document.querySelectorAll('.lcs-cell')].map((b) => { const r = b.getBoundingClientRect(); return { w: r.width, h: r.height, l: r.left, r: r.right }; }),
+      vw: document.documentElement.clientWidth, bundle: window.DECK_BUNDLE,
+    }));
+    const B = info.bundle;
+    if (!B || !B.ctx || !B.ctx.grid || info.cells.length < 9 || info.cells.length !== B.ctx.grid.cells.length) { fails.push(`${w}px: ${info.cells.length} cells`); return fails; }
+    info.cells.forEach((o, i) => {
+      if (o.w < TAP_MIN || o.h < TAP_MIN) fails.push(`${w}px: cell ${i + 1} is ${Math.round(o.w)}x${Math.round(o.h)} < ${TAP_MIN}`);
+      if (o.l < -1 || o.r > info.vw + 1) fails.push(`${w}px: cell ${i + 1} outside the viewport`);
+    });
+    if (w !== 768) continue;
+    let right;
+    try { right = oracle(B.items.map((it) => ({ label: it.label, meta: it.meta })), locale, B.ctx); } catch (e) { fails.push('oracle: ' + e.message); return fails; }
+    if (right.length !== B.items.length) { fails.push('the oracle gives no answer for every row'); return fails; }
+    const C = B.ctx.grid.cells;
+    const rowKey = (k) => C[k].g + ':' + C[k].r;
+    const itemOf = {}; B.items.forEach((it, i) => { itemOf[it.meta['data-lcs-row']] = i; });
+    const cellAt = (i, col) => C.findIndex((c) => c.g + ':' + c.r === B.items[i].meta['data-lcs-row'] && c.c === col);
+    const tap = (k) => page.evaluate((x) => document.querySelectorAll('.lcs-cell')[x].click(), k);
+    const state = () => page.evaluate(() => ({
+      celebrate: !document.getElementById('lcs-celebration').hidden,
+      marks: [...document.querySelectorAll('.lcs-cell')].map((b) => b.getAttribute('data-mark') || ''),
+      states: [...document.querySelectorAll('.lcs-cell')].map((b) => b.getAttribute('data-state') || ''),
+      checkDisabled: document.getElementById('lcs-check').disabled,
+    }));
+    const settle = () => new Promise((r) => setTimeout(r, 600));
+    // tap a cell until it shows the wanted mark ('tick' | 'cross' | '') — at most three taps, or the cycle is broken
+    const setMark = async (k, want) => { for (let t = 0; t < 3; t++) { if ((await state()).marks[k] === want) return true; await tap(k); } return (await state()).marks[k] === want; };
+    // the cycle on the first cell
+    await tap(0); let st = await state(); if (st.marks[0] !== 'tick') fails.push('one tap did not draw a tick');
+    await tap(0); st = await state(); if (st.marks[0] !== 'cross') fails.push('two taps did not draw a cross');
+    await tap(0); st = await state(); if (st.marks[0] !== '') fails.push('three taps did not clear the cell');
+    if (!st.checkDisabled) fails.push('Check enabled with no tick');
+    // the oracle's ticks, a cross on every other cell of every graded row (working — never graded)
+    for (let i = 0; i < right.length; i++) {
+      const k = cellAt(i, right[i]);
+      if (k < 0) { fails.push('the oracle column ' + right[i] + ' is no cell of row ' + B.items[i].meta['data-lcs-row']); return fails; }
+      await tap(k);
+    }
+    for (let k = 0; k < C.length; k++) if (itemOf[rowKey(k)] !== undefined && C[k].c !== right[itemOf[rowKey(k)]]) { await tap(k); await tap(k); }
+    st = await state();
+    if (st.checkDisabled) fails.push('Check still disabled with a tick in every row');
+    await page.click('#lcs-check'); await settle(); st = await state();
+    if (!st.celebrate) fails.push('the oracle ticks did not reach the celebration');
+    const greens = st.states.filter((s) => s === 'right').length;
+    if (greens !== right.length || st.states.some((s) => s === 'wrong')) fails.push(`the right ticks left ${greens}/${right.length} green, wrong: ${st.states.filter((s) => s === 'wrong').length}`);
+    // a wrong tick in row 1: move it one column on
+    await page.evaluate(() => { document.getElementById('lcs-celebration').hidden = true; });
+    await page.evaluate(() => document.getElementById('lcs-reset').click());
+    const n0 = B.ctx.grid.cases[0].n;
+    const kR = cellAt(0, right[0]), kW = cellAt(0, (right[0] + 1) % n0);
+    if (!(await setMark(kR, '')) || !(await setMark(kW, 'tick'))) fails.push('the tap cycle could not set a cell');
+    st = await state();
+    if (st.marks[kW] !== 'tick' || st.marks[kR] !== '') { fails.push('could not move the row-1 tick (marks ' + st.marks[kR] + '/' + st.marks[kW] + ')'); return fails; }
+    await page.click('#lcs-check'); await settle(); st = await state();
+    if (st.celebrate) fails.push('a WRONG tick reached the celebration');
+    if (st.states[kW] !== 'wrong') fails.push('the wrong tick was not marked red');
+    if (st.states.filter((s) => s === 'right').length !== right.length - 1) fails.push('a wrong tick changed the other rows');
+    // Try again: the wrong tick goes, the right rows stay
+    await page.evaluate(() => document.getElementById('lcs-reset').click());
+    st = await state();
+    if (st.marks[kW] !== '') fails.push('Try again kept the wrong tick');
+    if (st.marks.filter((x) => x === 'tick').length !== right.length - 1) fails.push('Try again lost right ticks');
+    // two ticks in one row is wrong
+    await setMark(kR, 'tick'); await setMark(kW, 'tick');
+    await page.click('#lcs-check'); await settle(); st = await state();
+    if (st.celebrate || st.states[kR] !== 'wrong') fails.push('two ticks in one row were not marked wrong');
+  }
+  return fails;
+}
+
 /** tap-select: every item toggles; the oracle recomputes which items are to be chosen. */
 async function playSelect(page, html, oracle, locale) {
   const fails = [];
@@ -861,6 +946,7 @@ async function main() {
         : B.kind === 'tap-select' && B.ctx && B.ctx.countGroups ? (B.items.forEach((it) => { const w = +it.meta['data-lcs-want']; it.meta['data-lcs-want'] = String(w > 1 ? w - 1 : w + 1); }), B.answers)
         : B.kind === 'tap-select' ? B.answers.map((a) => !a)
         : B.kind === 'trace-path' ? (() => { const T = B.ctx.trace; const leaf = T.nodes.map((_, i) => i).find((i) => i !== T.routes[0].start && i !== T.routes[0].goal && T.edges.filter((e) => e.a === i || e.b === i).length === 1); const alt = leaf !== undefined ? leaf : (() => { const p0 = T.routes[0].path || [], prev = p0[p0.length - 2]; return T.edges.filter((e) => e.a === prev || e.b === prev).map((e) => (e.a === prev ? e.b : e.a)).find((q) => !p0.includes(q)); })(); /* a graph with no leaf (F13 honeycomb): the last step goes to another touching cell */ T.routes[0].goal = alt; const leaf2 = alt; if (T.routes[0].path) T.routes[0].path = T.routes[0].path.slice(0, -1).concat([leaf2]); return B.answers; })()
+        : B.kind === 'mark-grid' ? B.answers.map((a) => (a + 1) % B.ctx.grid.cases[0].n)
         : B.kind === 'tap-paint' ? (() => { const cs = B.ctx.paint.crayons.map((c) => c.colour); return B.answers.map((a) => cs[(cs.indexOf(a) + 1) % cs.length]); })()
         : B.kind === 'type-number' && B.ctx && (B.ctx.sortSets || B.ctx.picks) ? (() => { const S = B.ctx.sortSets; if (S) { const k = Object.keys(S); const t = S[k[0]]; S[k[0]] = S[k[1]]; S[k[1]] = t; } (B.ctx.picks || []).forEach((p) => { p.answer = (p.answer + 1) % p.options.length; }); return B.answers.map((a) => a + 1); })()
         : B.kind === 'type-number' ? B.answers.map((a) => a + 1)
@@ -873,14 +959,14 @@ async function main() {
     const cases = [
       ['wrong answer map', shiftAnswers(d.html)],
       ['no tap targets', d.html.replace("el.addEventListener('click', function () { sel(i); });", '').replace("place(el, o); el.addEventListener('click', function () { tapPick(j, k); });", 'place(el, o);').replace('st.addEventListener("pointerdown"', 'st.addEventListener("xpointerdown"').replace('ov.appendChild(el);', '').replace('host.appendChild(el);', '').replace('ov.appendChild(t);', '')],
-      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++').replace('var right=hourOk&&minOk;', 'var right=true;')],
+      ['a runtime that marks everything right', d.html.replace('var right=B.answers[i]===order.indexOf(i)+1;', 'var right=true;').replace('var right=B.answers[i]===R(order.indexOf(i));', 'var right=true;').replace('var right=B.answers[i]===pick[i];', 'var right=true;').replace('var right=B.answers[i]===sel[i];', 'var right=true;').replace('right=gr.n===gr.w;', 'right=true;').replace('var right=fold(w)===fold(B.answers[i]);', 'var right=true;').replace('var right=parseInt(val[i],10)===B.answers[i];', 'var right=true;').replace('var R = function (x) { return x; };', 'var R = function (x) { return true; };').replace('var right=fold(val[i])===fold(B.answers[i]);', 'var right=true;').replace('var right=fold(val[i])===fold(B.answers[i])||ALT(i,val[i]);', 'var right=true;').replace('right=fill[it.region]===B.answers[i];', 'right=true;').replace('var rt=T.routes[k],done=rt.path?r.stack.join("-")===rt.path.join("-"):r.stack[r.stack.length-1]===rt.goal;', 'var rt=T.routes[k],done=true;').replace('L.el.setAttribute("data-state",right?"right":"wrong");if(right)ok++', 'right=true;L.el.setAttribute("data-state","right");ok++').replace('var right=hourOk&&minOk;', 'var right=true;').replace('right=t.length===1&&G.cells[t[0]].c===B.answers[i]', 'right=true')],
     ];
     // a deck whose write boxes carry accepted alternates (Ordinal Numbers 2026-10-14): a runtime that ignores them must be caught
     if (/"data-lcs-alts":"[^"]+"/.test(d.html)) cases.push(['alternates ignored', d.html.replace('function ALT(i,v){', 'function ALT(i,v){return false;')]);
     let killed = 0;
     for (const [name, html] of cases) {
       if (html === d.html) { console.log('POISON NOT APPLIED: ' + name); continue; }
-      const fails = await (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock }[d.kind] || play))(page, html, d.oracle, d.locale);
+      const fails = await (isPlus(html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock, 'mark-grid': playGrid }[d.kind] || play))(page, html, d.oracle, d.locale);
       console.log((fails.length ? '  ✓ killed: ' : '  ✗ SURVIVED: ') + name + (fails.length ? ' (' + fails[0] + ')' : ''));
       if (fails.length) killed++;
     }
@@ -889,7 +975,7 @@ async function main() {
     process.exit(killed === cases.length ? 0 : 1);
   }
   for (const d of decks) {
-    const fails = await (isPlus(d.html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock }[d.kind] || play))(page, d.html, d.oracle, d.locale);
+    const fails = await (isPlus(d.html) ? playTypePlus : ({ 'type-number': playType, 'type-word': playTypeWord, 'tap-choice': playChoice, 'tap-edit': playEdit, 'tap-select': playSelect, 'tap-spell': playSpell, 'tap-paint': playPaint, 'trace-path': playTrace, 'set-clock': playSetClock, 'mark-grid': playGrid }[d.kind] || play))(page, d.html, d.oracle, d.locale);
     checked++;
     if (fails.length) { bad++; console.log('FAIL ' + d.f + ': ' + fails.join('; ')); }
   }

@@ -3,6 +3,10 @@
  * gen-b3var-specs.js — nt20-C (b3) variation faces: emits the thin variation spec
  * modules for the LAST batch of 20 printable types (bases shipped 2026-09-14).
  *
+ * ⚠ LEVEL SET (2026-10-15, walk #69): the logic-puzzles faces (G2-344 G3-378 G1-349 G3-379 G2-345) carry REAL levels
+ * (`base.levelsFor`, hand-edited). Re-running this generator on them would flatten their levels back to
+ * `{1: D, 2: D, 3: D}` — never re-run it on that family.
+ *
  * Same shape as gen-b2var-specs.js (each emitted file spreads its base spec and
  * overrides {id, slug, difficulty, i18n} + declared extras only), with two
  * differences bought by this batch's scale:

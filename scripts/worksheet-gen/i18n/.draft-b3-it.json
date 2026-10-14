@@ -37279,11 +37279,11 @@
     ],
     "cross": [
      "Chi ha {pic} ha anche {pic2}.",
-     "Insieme a {pic} c'è sempre {pic2}."
+     "Il bambino che ha {pic} ha anche {pic2}."
     ],
     "crossNot": [
      "Chi ha {pic} non ha {pic2}.",
-     "Insieme a {pic} non c'è mai {pic2}."
+     "Il bambino che ha {pic} non ha {pic2}."
     ]
    },
    "truth": {

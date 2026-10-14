@@ -1,0 +1,71 @@
+{
+ "id": "wave-b3var-pt",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [
+  "At the Supermarket",
+  "animals",
+  "around the house",
+  "clothing",
+  "farm animals",
+  "forest creatures",
+  "fruits",
+  "pets",
+  "toys",
+  "vehicles",
+  "zoo animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G3-378"
+ ],
+ "themeOverrides": {
+  "K-329": "around the house",
+  "K-330": "clothing",
+  "K-336": "vehicles",
+  "K-347": "fruits",
+  "K-348": "vehicles",
+  "K-349": "toys",
+  "K-350": "zoo animals",
+  "G1-312": "zoo animals",
+  "G1-313": "around the house",
+  "G1-314": "toys",
+  "G1-315": "zoo animals",
+  "G1-316": "farm animals",
+  "G1-317": "pets",
+  "G1-318": "animals",
+  "G1-324": "animals",
+  "G1-325": "zoo animals",
+  "G1-326": "around the house",
+  "G1-327": "clothing",
+  "G1-328": "At the Supermarket",
+  "G1-329": "toys",
+  "G1-338": "zoo animals",
+  "G1-339": "farm animals",
+  "G1-340": "fruits",
+  "G1-341": "toys",
+  "G1-342": "vehicles",
+  "G1-349": "vehicles",
+  "G2-339": "forest creatures",
+  "G2-340": "forest creatures",
+  "G2-341": "forest creatures",
+  "G2-342": "forest creatures",
+  "G2-343": "forest creatures",
+  "G2-344": "fruits",
+  "G2-345": "zoo animals",
+  "G3-378": "toys",
+  "G3-379": "pets",
+  "G3-380": "fruits"
+ },
+ "_refused": {
+  "G2-329": "G2-316: pt REFUSES the link face (refuse.F1 — the joint is no decision / has no joint here)",
+  "G2-330": "G2-316: pt cut pool has 7 pictured wholes <= 14 letters, need 8 (refuse)",
+  "G2-331": "G2-316: pt REFUSES the match face (refuse.F3)"
+ },
+ "_note": "Republish 2026-10-15 (Logic Grid Puzzles walk #69 native review): the same published page with corrected wording — live title/description kept."
+}

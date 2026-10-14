@@ -9,6 +9,9 @@ module.exports = {
   ...base,
   id: 'G2-345',
   slug: 'logic-puzzles-read-the-grid-true-or-false',
-  difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Read the Logic Grid: True or False", instruction: "The grid is already solved. Read it, then circle the tick if the sentence is true or the cross if it is false." } },
+  // Level Set 2026-10-15 (walk #69): real levels 1 / 3 (G2-319 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b3var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G2-345', D),
+  interactive: base.interactiveFor('read'),
+  i18n: { en: { title: "Read the Logic Grid: True or False", instruction: "The grid is already solved. Read it, then circle the check mark if the sentence is true or the X if it is false." } },
 };

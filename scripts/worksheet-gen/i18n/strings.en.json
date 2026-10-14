@@ -2427,7 +2427,7 @@
   },
   "G2-303": {
     "title": "Grid Coordinates on a 10x10 Grid",
-    "instruction": "A bigger grid with more squares. Work through the list carefully."
+    "instruction": "Find each square on the big grid by its letter and number. Color it to reveal the picture."
   },
   "G2-304": {
     "title": "Dot-to-Dot: Count by Fives",
@@ -2443,7 +2443,7 @@
   },
   "G2-308": {
     "title": "Grid Coordinates: Write the Codes",
-    "instruction": "The picture is colored in. Write each square in the list for its color."
+    "instruction": "The picture is colored in. Write the code of each square in the list for its color."
   },
   "G2-310": {
     "title": "Where on the Number Line? 60 to 100",

@@ -231,7 +231,7 @@
   },
   "G2-303": {
    "title": "Coordenadas en una cuadrícula de 10x10",
-   "instruction": "Cuadrícula de 10 por 10 y muchas más casillas."
+   "instruction": "Busca cada casilla por su letra y su número, como B2, y coloréala con el color de su grupo."
   },
   "G3-371": {
    "title": "Problemas de multiplicación",
@@ -379,7 +379,7 @@
   },
   "G2-308": {
    "title": "Coordenadas: escribe tú los códigos",
-   "instruction": "Cada casilla va en la lista de su color."
+   "instruction": "El dibujo ya está coloreado. Escribe el código de cada casilla en la lista de su color."
   },
   "G2-310": {
    "title": "La recta numérica del 60 al 100",

@@ -259,7 +259,7 @@
     },
     "G2-303": {
       "title": "Pixel art sur quadrillage 10 x 10",
-      "instruction": "Plus grand : 10 sur 10, et bien plus de codes."
+      "instruction": "Quadrillage 10 x 10 : repère chaque case par son code, comme B2, et colorie-la."
     },
     "G2-304": {
       "title": "Points à relier de 5 en 5",

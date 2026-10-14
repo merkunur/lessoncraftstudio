@@ -256,10 +256,12 @@ const ROWS = [
     'Write About the Picture: Your Own Words', 'No sentence starters this time. Use the word bank and write your own story.'],
 
   // ---------------- G2-279 grid-coordinates ----------------
+  // ⚠ Level Set 2026-10-14: the three levels of G2-302/303/308 live in G2-279 LS_LEVELS (levelsFor) and are read
+  // by the base build — the {1:D,2:D,3:D} this tool writes stays the PUBLISHED config only. Never move levels here.
   ['g2', 'G2-302', 'grid-coordinates-6x6', 'G2-279-grid-coordinates.js', 1, {},
     'Grid Coordinates on a 6x6 Grid', 'Find each square by its letter and number. Color it to reveal the picture.'],
   ['g2', 'G2-303', 'grid-coordinates-10x10', 'G2-279-grid-coordinates.js', 3, {},
-    'Grid Coordinates on a 10x10 Grid', 'A bigger grid with more squares. Work through the list carefully.'],
+    'Grid Coordinates on a 10x10 Grid', 'Find each square on the big grid by its letter and number. Color it to reveal the picture.'],
 
   // ---------------- G3-370 word-problems ----------------
   // Group-op faces carry a smaller icon and a lower product ceiling so the strip
@@ -421,7 +423,7 @@ const ROWS = [
   // deliberately: those figures fill 18-25 cells (a page of writing) where the
   // 8x8 figures fill 29-36 (too much).
   ['g2', 'G2-308', 'grid-coordinates-write-the-codes', 'G2-279-grid-coordinates.js', 1, { inverse: true },
-    'Grid Coordinates: Write the Codes', 'The picture is colored in. Write each square in the list for its color.'],
+    'Grid Coordinates: Write the Codes', 'The picture is colored in. Write the code of each square in the list for its color.'],
 
   // ABC dot-to-dot: the dots are joined in ALPHABET order, not number order — a
   // different ordering system and a genuine pre-K/K printable genre. The sequence

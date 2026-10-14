@@ -10,5 +10,5 @@ module.exports = {
   id: 'G2-308',
   slug: 'grid-coordinates-write-the-codes',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Grid Coordinates: Write the Codes", instruction: "The picture is colored in. Write each square in the list for its color." } },
+  i18n: { en: { title: "Grid Coordinates: Write the Codes", instruction: "The picture is colored in. Write the code of each square in the list for its color." } },
 };

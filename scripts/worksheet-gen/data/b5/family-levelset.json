@@ -1,0 +1,253 @@
+{
+  "_note": "Level Set 2026-10-14 (walk #66, Family Members): NEW riddle frames for the relation-riddles face (new pages only; the published bank is untouched). Two families, written in each locale's published riddle pattern: the parent of an aunt / uncle (answer = a grandparent word; key 'MZ.M' = the mother of MZ = MM, see _paths) and the child of an aunt / uncle (answer = a cousin word; key = the kin path MZD …). Answers are re-derived from the kin map, never stored here. _bloodSide: the locales (and keys) whose aunt / uncle word names the blood side (fi eno / setä also cover an uncle by marriage in everyday use — review 2026-10-14 — so fi keeps only the cousin riddles) — only there is \"the aunt's mother\" always the grandmother (an English aunt may be an aunt by marriage).",
+  "_paths": {
+    "MZ.M": "MM",
+    "MZ.F": "MF",
+    "MB.M": "MM",
+    "MB.F": "MF",
+    "FZ.M": "FM",
+    "FZ.F": "FF",
+    "FB.M": "FM",
+    "FB.F": "FF"
+  },
+  "en": {
+    "riddleFrames": {
+      "MZ.M": "{egoGen} aunt's mom is {egoGen} ___.",
+      "MZ.F": "{egoGen} aunt's dad is {egoGen} ___.",
+      "MB.M": "{egoGen} uncle's mom is {egoGen} ___.",
+      "MB.F": "{egoGen} uncle's dad is {egoGen} ___.",
+      "FZ.M": "{egoGen} aunt's mom is {egoGen} ___.",
+      "FZ.F": "{egoGen} aunt's dad is {egoGen} ___.",
+      "FB.M": "{egoGen} uncle's mom is {egoGen} ___.",
+      "FB.F": "{egoGen} uncle's dad is {egoGen} ___.",
+      "MZD": "{egoGen} aunt's daughter is {egoGen} ___.",
+      "MZS": "{egoGen} aunt's son is {egoGen} ___.",
+      "MBD": "{egoGen} uncle's daughter is {egoGen} ___.",
+      "MBS": "{egoGen} uncle's son is {egoGen} ___.",
+      "FZD": "{egoGen} aunt's daughter is {egoGen} ___.",
+      "FZS": "{egoGen} aunt's son is {egoGen} ___.",
+      "FBD": "{egoGen} uncle's daughter is {egoGen} ___.",
+      "FBS": "{egoGen} uncle's son is {egoGen} ___."
+    }
+  },
+  "de": {
+    "riddleFrames": {
+      "MZ.M": "Die Mutter von {egoGen} Tante ist {egoGen} ___.",
+      "MZ.F": "Der Vater von {egoGen} Tante ist {egoGen} ___.",
+      "MB.M": "Die Mutter von {egoGen} Onkel ist {egoGen} ___.",
+      "MB.F": "Der Vater von {egoGen} Onkel ist {egoGen} ___.",
+      "FZ.M": "Die Mutter von {egoGen} Tante ist {egoGen} ___.",
+      "FZ.F": "Der Vater von {egoGen} Tante ist {egoGen} ___.",
+      "FB.M": "Die Mutter von {egoGen} Onkel ist {egoGen} ___.",
+      "FB.F": "Der Vater von {egoGen} Onkel ist {egoGen} ___.",
+      "MZD": "Die Tochter von {egoGen} Tante ist {egoGen} ___.",
+      "MZS": "Der Sohn von {egoGen} Tante ist {egoGen} ___.",
+      "MBD": "Die Tochter von {egoGen} Onkel ist {egoGen} ___.",
+      "MBS": "Der Sohn von {egoGen} Onkel ist {egoGen} ___.",
+      "FZD": "Die Tochter von {egoGen} Tante ist {egoGen} ___.",
+      "FZS": "Der Sohn von {egoGen} Tante ist {egoGen} ___.",
+      "FBD": "Die Tochter von {egoGen} Onkel ist {egoGen} ___.",
+      "FBS": "Der Sohn von {egoGen} Onkel ist {egoGen} ___."
+    }
+  },
+  "es": {
+    "riddleFrames": {
+      "MZ.M": "{egoName} le dice ___ a la mamá de su tía.",
+      "MZ.F": "{egoName} le dice ___ al papá de su tía.",
+      "MB.M": "{egoName} le dice ___ a la mamá de su tío.",
+      "MB.F": "{egoName} le dice ___ al papá de su tío.",
+      "FZ.M": "{egoName} le dice ___ a la mamá de su tía.",
+      "FZ.F": "{egoName} le dice ___ al papá de su tía.",
+      "FB.M": "{egoName} le dice ___ a la mamá de su tío.",
+      "FB.F": "{egoName} le dice ___ al papá de su tío.",
+      "MZD": "La hija de la tía de {egoName} es ___ de {egoName}.",
+      "MZS": "El hijo de la tía de {egoName} es ___ de {egoName}.",
+      "MBD": "La hija del tío de {egoName} es ___ de {egoName}.",
+      "MBS": "El hijo del tío de {egoName} es ___ de {egoName}.",
+      "FZD": "La hija de la tía de {egoName} es ___ de {egoName}.",
+      "FZS": "El hijo de la tía de {egoName} es ___ de {egoName}.",
+      "FBD": "La hija del tío de {egoName} es ___ de {egoName}.",
+      "FBS": "El hijo del tío de {egoName} es ___ de {egoName}."
+    }
+  },
+  "pt": {
+    "riddleFrames": {
+      "MZ.M": "A mãe da tia {egoGen} é ___ {egoGen}.",
+      "MZ.F": "O pai da tia {egoGen} é ___ {egoGen}.",
+      "MB.M": "A mãe do tio {egoGen} é ___ {egoGen}.",
+      "MB.F": "O pai do tio {egoGen} é ___ {egoGen}.",
+      "FZ.M": "A mãe da tia {egoGen} é ___ {egoGen}.",
+      "FZ.F": "O pai da tia {egoGen} é ___ {egoGen}.",
+      "FB.M": "A mãe do tio {egoGen} é ___ {egoGen}.",
+      "FB.F": "O pai do tio {egoGen} é ___ {egoGen}.",
+      "MZD": "A filha da tia {egoGen} é ___ {egoGen}.",
+      "MZS": "O filho da tia {egoGen} é ___ {egoGen}.",
+      "MBD": "A filha do tio {egoGen} é ___ {egoGen}.",
+      "MBS": "O filho do tio {egoGen} é ___ {egoGen}.",
+      "FZD": "A filha da tia {egoGen} é ___ {egoGen}.",
+      "FZS": "O filho da tia {egoGen} é ___ {egoGen}.",
+      "FBD": "A filha do tio {egoGen} é ___ {egoGen}.",
+      "FBS": "O filho do tio {egoGen} é ___ {egoGen}."
+    }
+  },
+  "fr": {
+    "riddleFrames": {
+      "MZ.M": "La maman de la tante de {egoName}, c’est ___.",
+      "MZ.F": "Le papa de la tante de {egoName}, c’est ___.",
+      "MB.M": "La maman de l’oncle de {egoName}, c’est ___.",
+      "MB.F": "Le papa de l’oncle de {egoName}, c’est ___.",
+      "FZ.M": "La maman de la tante de {egoName}, c’est ___.",
+      "FZ.F": "Le papa de la tante de {egoName}, c’est ___.",
+      "FB.M": "La maman de l’oncle de {egoName}, c’est ___.",
+      "FB.F": "Le papa de l’oncle de {egoName}, c’est ___.",
+      "MZD": "La fille de la tante de {egoName}, c’est ___.",
+      "MZS": "Le fils de la tante de {egoName}, c’est ___.",
+      "MBD": "La fille de l’oncle de {egoName}, c’est ___.",
+      "MBS": "Le fils de l’oncle de {egoName}, c’est ___.",
+      "FZD": "La fille de la tante de {egoName}, c’est ___.",
+      "FZS": "Le fils de la tante de {egoName}, c’est ___.",
+      "FBD": "La fille de l’oncle de {egoName}, c’est ___.",
+      "FBS": "Le fils de l’oncle de {egoName}, c’est ___."
+    }
+  },
+  "it": {
+    "riddleFrames": {
+      "MZ.M": "La mamma della zia di {egoName} è ___.",
+      "MZ.F": "Il papà della zia di {egoName} è ___.",
+      "MB.M": "La mamma dello zio di {egoName} è ___.",
+      "MB.F": "Il papà dello zio di {egoName} è ___.",
+      "FZ.M": "La mamma della zia di {egoName} è ___.",
+      "FZ.F": "Il papà della zia di {egoName} è ___.",
+      "FB.M": "La mamma dello zio di {egoName} è ___.",
+      "FB.F": "Il papà dello zio di {egoName} è ___.",
+      "MZD": "La figlia della zia di {egoName} è ___.",
+      "MZS": "Il figlio della zia di {egoName} è ___.",
+      "MBD": "La figlia dello zio di {egoName} è ___.",
+      "MBS": "Il figlio dello zio di {egoName} è ___.",
+      "FZD": "La figlia della zia di {egoName} è ___.",
+      "FZS": "Il figlio della zia di {egoName} è ___.",
+      "FBD": "La figlia dello zio di {egoName} è ___.",
+      "FBS": "Il figlio dello zio di {egoName} è ___."
+    }
+  },
+  "nl": {
+    "riddleFrames": {
+      "MZ.M": "De mama van {egoGen} tante is {egoGen} ___.",
+      "MZ.F": "De papa van {egoGen} tante is {egoGen} ___.",
+      "MB.M": "De mama van {egoGen} oom is {egoGen} ___.",
+      "MB.F": "De papa van {egoGen} oom is {egoGen} ___.",
+      "FZ.M": "De mama van {egoGen} tante is {egoGen} ___.",
+      "FZ.F": "De papa van {egoGen} tante is {egoGen} ___.",
+      "FB.M": "De mama van {egoGen} oom is {egoGen} ___.",
+      "FB.F": "De papa van {egoGen} oom is {egoGen} ___.",
+      "MZD": "De dochter van {egoGen} tante is {egoGen} ___.",
+      "MZS": "De zoon van {egoGen} tante is {egoGen} ___.",
+      "MBD": "De dochter van {egoGen} oom is {egoGen} ___.",
+      "MBS": "De zoon van {egoGen} oom is {egoGen} ___.",
+      "FZD": "De dochter van {egoGen} tante is {egoGen} ___.",
+      "FZS": "De zoon van {egoGen} tante is {egoGen} ___.",
+      "FBD": "De dochter van {egoGen} oom is {egoGen} ___.",
+      "FBS": "De zoon van {egoGen} oom is {egoGen} ___."
+    }
+  },
+  "sv": {
+    "riddleFrames": {
+      "MZ.M": "{egoGen} mosters mamma är {egoGen} ___.",
+      "MZ.F": "{egoGen} mosters pappa är {egoGen} ___.",
+      "MB.M": "{egoGen} morbrors mamma är {egoGen} ___.",
+      "MB.F": "{egoGen} morbrors pappa är {egoGen} ___.",
+      "FZ.M": "{egoGen} fasters mamma är {egoGen} ___.",
+      "FZ.F": "{egoGen} fasters pappa är {egoGen} ___.",
+      "FB.M": "{egoGen} farbrors mamma är {egoGen} ___.",
+      "FB.F": "{egoGen} farbrors pappa är {egoGen} ___.",
+      "MZD": "{egoGen} mosters dotter är {egoGen} ___.",
+      "MZS": "{egoGen} mosters son är {egoGen} ___.",
+      "MBD": "{egoGen} morbrors dotter är {egoGen} ___.",
+      "MBS": "{egoGen} morbrors son är {egoGen} ___.",
+      "FZD": "{egoGen} fasters dotter är {egoGen} ___.",
+      "FZS": "{egoGen} fasters son är {egoGen} ___.",
+      "FBD": "{egoGen} farbrors dotter är {egoGen} ___.",
+      "FBS": "{egoGen} farbrors son är {egoGen} ___."
+    }
+  },
+  "da": {
+    "riddleFrames": {
+      "MZ.M": "{egoGen} mosters mor er {egoGen} ___.",
+      "MZ.F": "{egoGen} mosters far er {egoGen} ___.",
+      "MB.M": "{egoGen} morbrors mor er {egoGen} ___.",
+      "MB.F": "{egoGen} morbrors far er {egoGen} ___.",
+      "FZ.M": "{egoGen} fasters mor er {egoGen} ___.",
+      "FZ.F": "{egoGen} fasters far er {egoGen} ___.",
+      "FB.M": "{egoGen} farbrors mor er {egoGen} ___.",
+      "FB.F": "{egoGen} farbrors far er {egoGen} ___.",
+      "MZD": "{egoGen} mosters datter er {egoGen} ___.",
+      "MZS": "{egoGen} mosters søn er {egoGen} ___.",
+      "MBD": "{egoGen} morbrors datter er {egoGen} ___.",
+      "MBS": "{egoGen} morbrors søn er {egoGen} ___.",
+      "FZD": "{egoGen} fasters datter er {egoGen} ___.",
+      "FZS": "{egoGen} fasters søn er {egoGen} ___.",
+      "FBD": "{egoGen} farbrors datter er {egoGen} ___.",
+      "FBS": "{egoGen} farbrors søn er {egoGen} ___."
+    }
+  },
+  "no": {
+    "riddleFrames": {
+      "MZ.M": "{egoGen} mosters mamma er {egoGen} ___.",
+      "MZ.F": "{egoGen} mosters pappa er {egoGen} ___.",
+      "MB.M": "{egoGen} morbrors mamma er {egoGen} ___.",
+      "MB.F": "{egoGen} morbrors pappa er {egoGen} ___.",
+      "FZ.M": "{egoGen} fasters mamma er {egoGen} ___.",
+      "FZ.F": "{egoGen} fasters pappa er {egoGen} ___.",
+      "FB.M": "{egoGen} farbrors mamma er {egoGen} ___.",
+      "FB.F": "{egoGen} farbrors pappa er {egoGen} ___.",
+      "MZD": "{egoGen} mosters datter er {egoGen} ___.",
+      "MZS": "{egoGen} mosters sønn er {egoGen} ___.",
+      "MBD": "{egoGen} morbrors datter er {egoGen} ___.",
+      "MBS": "{egoGen} morbrors sønn er {egoGen} ___.",
+      "FZD": "{egoGen} fasters datter er {egoGen} ___.",
+      "FZS": "{egoGen} fasters sønn er {egoGen} ___.",
+      "FBD": "{egoGen} farbrors datter er {egoGen} ___.",
+      "FBS": "{egoGen} farbrors sønn er {egoGen} ___."
+    }
+  },
+  "fi": {
+    "riddleFrames": {
+      "MZ.M": "{egoGen} tädin äiti on {egoGen} ___.",
+      "MZ.F": "{egoGen} tädin isä on {egoGen} ___.",
+      "MB.M": "{egoGen} enon äiti on {egoGen} ___.",
+      "MB.F": "{egoGen} enon isä on {egoGen} ___.",
+      "FZ.M": "{egoGen} tädin äiti on {egoGen} ___.",
+      "FZ.F": "{egoGen} tädin isä on {egoGen} ___.",
+      "FB.M": "{egoGen} setän äiti on {egoGen} ___.",
+      "FB.F": "{egoGen} setän isä on {egoGen} ___.",
+      "MZD": "{egoGen} tädin tytär on {egoGen} ___.",
+      "MZS": "{egoGen} tädin poika on {egoGen} ___.",
+      "MBD": "{egoGen} enon tytär on {egoGen} ___.",
+      "MBS": "{egoGen} enon poika on {egoGen} ___.",
+      "FZD": "{egoGen} tädin tytär on {egoGen} ___.",
+      "FZS": "{egoGen} tädin poika on {egoGen} ___.",
+      "FBD": "{egoGen} setän tytär on {egoGen} ___.",
+      "FBS": "{egoGen} setän poika on {egoGen} ___."
+    }
+  },
+  "_bloodSide": {
+    "sv": [
+      "MZ",
+      "FZ",
+      "MB",
+      "FB"
+    ],
+    "da": [
+      "MZ",
+      "FZ",
+      "MB",
+      "FB"
+    ],
+    "no": [
+      "MZ",
+      "FZ",
+      "MB",
+      "FB"
+    ]
+  }
+}

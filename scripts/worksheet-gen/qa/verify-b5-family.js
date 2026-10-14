@@ -402,7 +402,8 @@ async function main() {
     ok(m.figs.length >= 4 && Math.min(...m.figs) >= 72 - 0.6, `${tag}: a bust ${Math.min(...m.figs).toFixed(1)} px < 72`);
     ok(Math.min(...m.frames) >= 80 - 0.6, `${tag}: a frame ${Math.min(...m.frames).toFixed(1)} wide < 80`);
     ok(m.chips.length >= 3 && m.chips.every((c) => c.h >= 56 - 0.6 && !c.clip), `${tag}: a chip < 56 tall or clipped`);
-    ok(m.boxes.length === m.chips.length && m.boxes.every((b) => Math.abs(b.w - 64) < 1 && Math.abs(b.h - 56) < 1), `${tag}: a numeral box ≠ 64 x 56`);
+    // Level Set 2026-10-14: level 1 draws taller word rows (kinH 76) — the box is 64 wide and exactly as tall as its chip, never under 56
+    ok(m.boxes.length === m.chips.length && m.boxes.every((b, i) => Math.abs(b.w - 64) < 1 && b.h >= 56 - 0.6 && Math.abs(b.h - m.chips[i].h) < 1), `${tag}: a numeral box ≠ 64 wide x its chip's height (>= 56)`);
     ok(m.minFont >= 16 - 0.01, `${tag}: body text ${m.minFont} px < 16`);
     ok(m.lowest <= m.foot + 0.5, `${tag}: content reaches the footer (${m.lowest.toFixed(1)} > ${m.foot.toFixed(1)})`);
     ok(m.imgs === 0, `${tag}: ${m.imgs} <img> on the page`);
@@ -584,7 +585,7 @@ async function main() {
     { const f0 = figuresOk(base.bodyHtml, 'PR4 control'); ok(f0.length === 0, `PR4 control: ${f0.join(' | ')}`);
       // a generic poison: cap the lowest point of every hair path on the first adult f figure at y 62
       const m = /<svg [^>]*data-lcs-age="adult" data-lcs-sex="f"[^>]*>[\s\S]*?<\/svg>/.exec(base.bodyHtml);
-      const bad = m[0].replace(/(<(?:path|circle|ellipse)[^>]*data-lcs-hair=""\/>)/g, '').replace('<ellipse cx="50" cy="44"', `<path d="M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="44"`);
+      const bad = m[0].replace(/(<(?:path|circle|ellipse)[^>]*data-lcs-hair=""\/>)/g, '').replace('<ellipse cx="50" cy="50"', `<path d="M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="50"`);
       expectFail('PR4 an f look with hair to y 62 on the page', figuresOk(base.bodyHtml.replace(m[0], bad), 'PR4'), /f hair reaches y 62/); }
     // PR8 — a codeColors fill
     { const bad = base.bodyHtml.replace(`fill="${tokens.color.tealSoft}" data-lcs-crown=""`, `fill="${tokens.codeColors.codeRed}" data-lcs-crown=""`);

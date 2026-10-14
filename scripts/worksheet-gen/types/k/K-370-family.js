@@ -69,6 +69,7 @@ const tokens = require('../../primitives/_tokens.js');
 const FF = require('../../primitives/family-figure.js');
 const { makeRng } = require('../../lib/rng.js');
 const { FAMILY_NEUTRAL } = require('../../data/b5/family.js');
+const FS = require('../../lib/family-screen.js');
 
 const ID = 'K-370';
 const KEY = 'family';
@@ -118,6 +119,26 @@ function literal(bankLoc, wordKey, loc) {
   if (/[{}\d]/.test(w.text)) throw new Error(`${ID}: ${loc} words.${wordKey} "${w.text}" carries a slot or a digit`);
   return w;
 }
+
+/** the screen redraw of a face config: bigger write boxes (>= 104 page px reach the 44 px tap floor at 360 wide) */
+function screenConfig(d) {
+  const s = { ...d, screen: true };
+  if (d.mode === 'tree-clues') Object.assign(s, { plate: [150, 100], clueH: 48, clueMax: 60 });
+  if (d.mode === 'relation-riddles') Object.assign(s, { slot: [230, 104], rowH: 120, rowMax: 140, bankPx: 26, bankH: 52 });
+  if (d.mode === 'generations') Object.assign(s, { rowH: 170, rowMax: 190 });
+  return s;
+}
+/** Generations on a screen: the word over a big write box */
+function screenPlacard({ wordKey, text, answer, gen }) {
+  const { blankNumeralBox } = require('../../templates/components-b3.js');
+  const e = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  return `<div class="fam-placard" data-lcs-genword="${e(wordKey)}" data-lcs-gen="${gen}" style="box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:205px;height:100%;padding:6px 4px;background:${tokens.color.white};border:2.5px solid ${tokens.color.teal};border-radius:14px">` +
+    `<span data-lcs-gen-chip="" style="width:195px;text-align:center;font-family:${tokens.font.body},sans-serif;font-weight:800;font-size:26px;line-height:1.1;color:${tokens.color.ink}">${e(text)}</span>` +
+    blankNumeralBox({ w: 104, h: 104, answer: String(answer), attrs: `data-lcs-genbox="" data-lcs-word="${e(wordKey)}"` }) + '</div>';
+}
+
+/** a Level Set copy's signature: who is drawn, which side the grandparents are, the ego's name */
+function lsSig(persons, grandSide, egoName) { return ['fam:' + persons.map((p) => p.path || 'ego').sort().join(','), 'side:' + (grandSide || '-'), 'ego:' + egoName]; }
 
 /**
  * The browser half of verify() (serialised into page.evaluate; self-contained).
@@ -340,7 +361,8 @@ function fillFrame(frame, ego, locale) {
 /** F1 generations — order kin WORDS by generation (a picture legend, no figure beside a word) */
 function faceGenerations(bankLoc, d, locale, rng, over) {
   const kin = bankLoc.kin;
-  const ok = (bankLoc.generationOK || []).filter((wk) => !(bankLoc.f1Exclude || []).includes(wk));
+  const ok = (bankLoc.generationOK || []).filter((wk) => !(bankLoc.f1Exclude || []).includes(wk))
+    .filter((wk) => !d.directOnly || Object.keys(kin).filter((p) => kin[p] === wk).every((p) => DIRECT.has(p)));
   const byGen = [[], [], []];
   for (const wk of ok) {
     const w = literal(bankLoc, wk, locale);
@@ -356,7 +378,9 @@ function faceGenerations(bankLoc, d, locale, rng, over) {
     const cyc = byGen.map((a) => rng.shuffle(a));
     const cand = [];
     for (let r = 0; r < d.rows; r++) {
-      const trio = [0, 1, 2].map((g) => cyc[g][r % cyc[g].length]);
+      // level 1 (direct line only, two words per generation): the cycle would repeat a trio every two rows — draw each
+      // row's words freely instead (the published config keeps the cycle)
+      const trio = d.freeDraw ? [0, 1, 2].map((g) => rng.pick(cyc[g])) : [0, 1, 2].map((g) => cyc[g][r % cyc[g].length]);
       const perm = rng.pick(PERMS);
       cand.push(perm.map((g) => ({ wordKey: trio[g], gen: g })));
     }
@@ -381,11 +405,13 @@ function faceGenerations(bankLoc, d, locale, rng, over) {
   const band0 = d.rowH + 8, bandMax = d.rowMax + 8;
   const grid = `<div class="fam-genrows" data-lcs-genrows="" style="display:flex;flex-direction:column;align-items:center;gap:${d.rowGap}px;height:100%">` +
     rows.map((row, ri) => `<div data-lcs-genrow-band="${ri}" style="box-sizing:border-box;display:flex;gap:10px;padding:4px;background:${tokens.color.creamDeep};border-radius:18px;flex:1 1 ${band0}px;min-height:${band0}px;max-height:${bandMax}px">` +
-      row.map((c) => C5.genPlacard({ wordKey: c.wordKey, text: literal(bankLoc, c.wordKey, locale).text, answer: c.gen + 1, gen: c.gen, px: d.chipPx, h: 'fill', boxW: d.box[0], boxH: d.box[1] }).replace('class="fam-placard"', `class="fam-placard" data-lcs-genrow="${ri}"`)).join('') + `</div>`).join('') + `</div>`;
+      row.map((c) => (d.screen ? screenPlacard({ wordKey: c.wordKey, text: literal(bankLoc, c.wordKey, locale).text, answer: c.gen + 1, gen: c.gen })
+        : C5.genPlacard({ wordKey: c.wordKey, text: literal(bankLoc, c.wordKey, locale).text, answer: c.gen + 1, gen: c.gen, px: d.chipPx, h: 'fill', boxW: d.box[0], boxH: d.box[1] })).replace('class="fam-placard"', `class="fam-placard" data-lcs-genrow="${ri}"`)).join('') + `</div>`).join('') + `</div>`;
   const gridH = d.rows * band0 + (d.rows - 1) * d.rowGap, gridMax = d.rows * bandMax + (d.rows - 1) * d.rowGap;
   return { blocks: [rail.html, grid], gaps: [24], gapMax: [40], blockStyles: [null, `flex:1 1 ${gridH}px;min-height:${gridH}px;max-height:${gridMax}px;display:flex;flex-direction:column`],
     stackH: rail.height + 24 + gridH, stackMax: rail.height + 40 + gridMax,
-    meta: { rows: rows.map((r) => r.map((c) => c.wordKey)), answers: rows.map((r) => r.map((c) => c.gen + 1)) } };
+    rootAttrs: d.directOnly ? ' data-lcs-direct-only="1"' : '',
+    meta: { rows: rows.map((r) => r.map((c) => c.wordKey)), answers: rows.map((r) => r.map((c) => c.gen + 1)), lsSig: rows.map((r) => r.map((c) => c.wordKey).join('+')) } };
 }
 
 /** F2 trace-words — a small tree where EVERY person but the ego is numbered; the words to trace sit
@@ -394,10 +420,11 @@ function faceGenerations(bankLoc, d, locale, rng, over) {
  *  carried neither a number nor a word). The child finds person N, traces that person's word in the
  *  panel and writes it again on line N. */
 function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
-  const comp = this._compose({ grand: true, baby: false }, rng);
+  const comp = this._compose(d.ls ? d : { grand: true, baby: false }, rng);
   const { persons } = comp;
   assertConventional(persons);
   if (!over.sameSize) olderTaller(persons, d.frame[1]);
+  const unnumbered = !!(over.unnumberBank || d.unnumberBank);
   const kin = bankLoc.kin;
   const excl = new Set(bankLoc.f2Exclude || []);
   const nonEgo = persons.filter((p) => p.path !== '');
@@ -448,7 +475,7 @@ function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
   const byWord = Object.fromEntries(rows.map((r) => [r.answer, r.badge]));
   let bankBadges = bank.map((w) => byWord[w]);
   if (over.bankBadges) bankBadges = over.bankBadges(bankBadges);
-  const panel = C5.famTraceBank({ words: bank, badges: over.unnumberBank ? null : bankBadges, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.bankGap, gapMax: d.bankGapMax, pad });
+  const panel = C5.famTraceBank({ words: bank, badges: unnumbered ? null : bankBadges, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.bankGap, gapMax: d.bankGapMax, pad });
   const lines = C5.famWriteRows({ rows, laneW: d.laneW, trioH: d.trioH, glyphH: d.glyphH, gap: d.rowGap, gapMax: d.rowGapMax });
   const colW = BODY_W - d.stageW - d.colGap;
   const col = `<div style="display:flex;flex-direction:column;height:100%;width:${colW}px">` +
@@ -458,8 +485,8 @@ function faceTraceWords(bankLoc, d, locale, rng, over = {}) {
   const block = `<div data-lcs-trace-layout="" style="display:flex;align-items:center;gap:${d.colGap}px;width:${BODY_W}px;height:100%">` +
     `<div style="flex:0 0 ${d.stageW}px">${stage.html}</div><div style="flex:0 0 auto;align-self:stretch">${col}</div></div>`;
   const reading = stage.tree.nodes.filter((nd) => badges[nd.id] != null).sort((a, b) => a.row - b.row || a.cx - b.cx).map((nd) => badges[nd.id]);
-  return { blocks: [block], gaps: [], blockStyles: [`flex:1 1 ${h}px;min-height:${h}px;max-height:${Math.max(h, colMax)}px;display:flex`], stackH: h, stackMax: Math.max(h, colMax), rootAttrs: ` data-lcs-grand-side="${comp.grandSide}" data-lcs-reading="${reading.join(',')}"`,
-    meta: { grandSide: comp.grandSide, egoName, words: rows.map((r) => r.answer), bank, reading, stageH: stage.height } };
+  return { blocks: [block], gaps: [], blockStyles: [`flex:1 1 ${h}px;min-height:${h}px;max-height:${Math.max(h, colMax)}px;display:flex`], stackH: h, stackMax: Math.max(h, colMax), rootAttrs: ` data-lcs-grand-side="${comp.grandSide || ''}" data-lcs-reading="${reading.join(',')}"${d.unnumberBank ? ' data-lcs-unnumbered="1"' : ''}`,
+    meta: { grandSide: comp.grandSide, egoName, words: rows.map((r) => r.answer), bank, reading, stageH: stage.height, lsSig: lsSig(persons, comp.grandSide, egoName) } };
 }
 /** the RESOLVED glyph height of a word in the F2 stacked lane (trace-path.js strokeWordLane, the silent shrink) */
 function f2Glyph(text, d) {
@@ -474,12 +501,12 @@ function f2Glyph(text, d) {
 /** The older sibling (path Z / B) drawn TALLER than the ego (landing review 2026-09-23, K-370 + K-375: an
  *  older sister the child's size read as a twin) — the G1-386 sizes: older fills its frame, the ego at 0.76. */
 function olderTaller(persons, frameH) {
-  const older = persons.find((p) => p.path === 'Z' || p.path === 'B'), egoP = persons.find((p) => p.path === '');
-  if (older && egoP) { older.bustPx = frameH - 12; egoP.bustPx = Math.max(72, Math.round(frameH * 0.76)); }
+  const olders = persons.filter((p) => p.path === 'Z' || p.path === 'B'), egoP = persons.find((p) => p.path === '');
+  if (olders.length && egoP) { for (const o of olders) o.bustPx = frameH - 12; egoP.bustPx = Math.max(72, Math.round(frameH * 0.76)); }
 }
 /** F3 tree-clues — a given tree with name plates; four clues fill the four empty plates */
 function faceTreeClues(bankLoc, d, locale, rng, over) {
-  const comp = over.compose ? over.compose(d, rng) : this._compose({ grand: true, baby: false, sideline: d.sideline }, rng);
+  const comp = over.compose ? over.compose(d, rng) : this._compose(d.ls ? d : { grand: true, baby: false, sideline: d.sideline }, rng);
   const { persons } = comp;
   assertConventional(persons);
   // review round 1: the Z / B path IS the older sibling (several locales' clue frames say "older brother"),
@@ -496,20 +523,33 @@ function faceTreeClues(bankLoc, d, locale, rng, over) {
   const ego = persons.find((p) => p.path === '');
   const fPool = namePool(bankLoc, 'f', locale), mPool = namePool(bankLoc, 'm', locale);
   const egoRec = (ego.sex === 'f' ? fPool : mPool)[rng.int(0, 5)];
+  // Level Set copies name the other people from the wider native pool (lsNames: the family names + 60 more)
+  const oPool = (sex) => (d.ls && bankLoc.lsNames ? bankLoc.lsNames.filter((n) => n.sex === sex) : sex === 'f' ? fPool : mPool);
   const used = new Set([egoRec.name]);
   const nameOf = { [ego.id]: egoRec };
   for (const p of persons) {
     if (p === ego) continue;
-    const pool = rng.shuffle(p.sex === 'f' ? fPool : mPool).filter((n) => !used.has(n.name));
+    const pool = rng.shuffle(oPool(p.sex)).filter((n) => !used.has(n.name));
     if (!pool.length) throw new Error(`${ID}: ${locale} runs out of ${p.sex} names`);
     nameOf[p.id] = pool[0]; used.add(pool[0].name);
   }
   // empty plates: the sideline adult + the parent of the same sex (a same-(age, sex) pair) + two more
-  const side = persons.find((p) => /^[MF][ZB]$/.test(p.path));
-  if (!side) throw new Error(`${ID}: tree-clues needs the sideline aunt / uncle`);
-  const twin = persons.find((p) => p !== side && p.age === side.age && p.sex === side.sex);
-  const rest = rng.shuffle(persons.filter((p) => p !== ego && p !== side && p !== twin));
-  const empty = over.empty ? over.empty(persons) : [side, twin, ...rest.slice(0, d.clues - 2)];
+  let empty;
+  if (d.directOnlyClues) {
+    // Level 1: two clues on the direct line — a parent and the grandparent of the SAME sex (both names are girls' or
+    // both boys' names, so a name is placed by reading the relation word, never by the name alone)
+    const sx = rng.pick(['f', 'm']);
+    const par = persons.find((p) => p.path === (sx === 'f' ? 'M' : 'F'));
+    const gp = persons.find((p) => FT.GRAND.includes(p.path) && p.sex === sx);
+    if (!par || !gp) throw new Error(`${ID}: tree-clues level 1 needs a parent and a grandparent of one sex`);
+    empty = over.empty ? over.empty(persons) : [par, gp];
+  } else {
+    const side = persons.find((p) => /^[MF][ZB]$/.test(p.path));
+    if (!side) throw new Error(`${ID}: tree-clues needs the sideline aunt / uncle`);
+    const twin = persons.find((p) => p !== side && p.age === side.age && p.sex === side.sex);
+    const rest = rng.shuffle(persons.filter((p) => p !== ego && p !== side && p !== twin));
+    empty = over.empty ? over.empty(persons) : [side, twin, ...rest.slice(0, d.clues - 2)];
+  }
   const emptyIds = new Set(empty.map((p) => p.id));
   const tree0 = FT.familyTree({ persons, frame: { w: d.frame[0], h: d.frame[1] }, nodeW: d.plate[0], labelH: d.plateGap + d.plate[1], rowGap: d.rowGap, plates: false, w: BODY_W });
   const reading = tree0.nodes.filter((n) => emptyIds.has(n.id)).sort((a, b) => a.row - b.row || a.cx - b.cx).map((n) => n.id);
@@ -526,34 +566,40 @@ function faceTreeClues(bankLoc, d, locale, rng, over) {
     const p = persons.find((q) => q.id === n.id);
     const style = `position:absolute;left:${(n.cx - d.plate[0] / 2).toFixed(2)}px;top:${(n.y + d.frame[1] + d.plateGap).toFixed(2)}px;width:${d.plate[0]}px;height:${d.plate[1]}px;display:flex`;
     const at = `data-lcs-plate-for="${p.id}" data-lcs-plate-path="${p.path}"`;
-    return `<div style="${style}">` + (emptyIds.has(p.id) ? C5.nameBox({ w: d.plate[0], h: d.plate[1], answer: nameOf[p.id].name, attrs: at }) : C5.famGivenPlate({ text: nameOf[p.id].name, w: d.plate[0], h: d.plate[1], attrs: at })) + `</div>`;
+    return `<div style="${style}">` + (emptyIds.has(p.id) ? C5.nameBox({ w: d.plate[0], h: d.plate[1], answer: nameOf[p.id].name, attrs: d.screen ? `${at} data-lcs-clue="${((clues.find((c) => c.path === p.path) || {}).text || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` : at }) : C5.famGivenPlate({ text: nameOf[p.id].name, w: d.plate[0], h: d.plate[1], attrs: at })) + `</div>`;
   }).join('');
   const stage = C5.familyStage({ persons, frame: { w: d.frame[0], h: d.frame[1] }, nodeW: d.plate[0], labelH: d.plateGap + d.plate[1], rowGap: d.rowGap, plates: false, badges: {}, egoId: ego.id, egoName: egoRec.name, skin: 'tree', w: BODY_W, overlay });
-  const list = C5.clueList({ clues, rowH: d.clueH, rowMax: d.clueMax });
+  let list = C5.clueList({ clues, rowH: d.clueH, rowMax: d.clueMax });
+  if (d.screen) list = list.replace(/font-size:18px/g, 'font-size:28px').replace(/white-space:nowrap/g, 'white-space:normal');
   const listH = clues.length * d.clueH, listMax = clues.length * d.clueMax;
   return { blocks: [stage.html, list], gaps: [d.gap], gapMax: [d.gapMax], blockStyles: [null, `flex:1 1 ${listH}px;min-height:${listH}px;max-height:${listMax}px;display:flex;flex-direction:column`],
     stackH: stage.height + d.gap + listH, stackMax: stage.height + d.gapMax + listMax,
-    rootAttrs: ` data-lcs-grand-side="${comp.grandSide}" data-lcs-ego-name="${egoRec.name}"`,
-    meta: { grandSide: comp.grandSide, egoName: egoRec.name, empty: empty.map((p) => p.path), clues: clues.map((c) => c.path), stageH: stage.height } };
+    rootAttrs: ` data-lcs-grand-side="${comp.grandSide}" data-lcs-ego-name="${egoRec.name}"${d.directOnlyClues ? ' data-lcs-direct-clues="1"' : ''}`,
+    meta: { grandSide: comp.grandSide, egoName: egoRec.name, empty: empty.map((p) => p.path), clues: clues.map((c) => c.path), stageH: stage.height,
+      lsSig: [...lsSig(persons, comp.grandSide, egoRec.name), ...empty.map((p) => 'name:' + nameOf[p.id].name)] } };
 }
 
 /** F4 relation-riddles — compose two relations; write the one kin word from the bank (no tree) */
 function faceRiddles(bankLoc, d, locale, rng, over) {
   const kin = bankLoc.kin;
-  const paths = FAMILY_NEUTRAL.riddlePathsD2;
-  const answers = Object.fromEntries(paths.map((p) => { const wk = kin[p]; if (!wk) throw new Error(`${ID}: ${locale} kin has no ${p}`); literal(bankLoc, wk, locale); return [p, wk]; }));
+  // the published page keeps its June draw order (sex, look, name); a Level Set copy draws its name first (the riddle
+  // set is checked on the printed wording, which carries the name)
+  let egoSex = d.riddleSet ? rng.pick(['f', 'm']) : null;
+  let egoRec = d.riddleSet ? namePool(bankLoc, egoSex, locale)[rng.int(0, 5)] : null;
+  const paths = d.riddleSet ? pickRiddles(bankLoc, d, rng, locale, egoRec) : FAMILY_NEUTRAL.riddlePathsD2;
+  const answers = Object.fromEntries(paths.map((p) => { const wk = kin[RIDDLE_PATH(p)]; if (!wk) throw new Error(`${ID}: ${locale} kin has no ${p}`); literal(bankLoc, wk, locale); return [p, wk]; }));
   for (const p of paths) if (!bankLoc.riddleFrames || !bankLoc.riddleFrames[p]) throw new Error(`${ID}: ${locale} has no riddle frame for ${p} (refuse)`);
   const distinct = [...new Set(Object.values(answers))];
   const dist = bankLoc.distractors || [];
   for (const x of dist) { literal(bankLoc, x, locale); if (distinct.includes(x)) throw new Error(`${ID}: ${locale} distractor ${x} fits a riddle`); }
-  const egoSex = rng.pick(['f', 'm']);
+  if (!d.riddleSet) egoSex = rng.pick(['f', 'm']);
   const ego = { id: 'ego', path: '', sex: egoSex, age: 'child', look: rng.pick(FF.lookIds('child', egoSex)), tint: makeRng(String(rng.seed) + '|garment').pick(TINTS) };
-  const egoRec = namePool(bankLoc, egoSex, locale)[rng.int(0, 5)];
+  if (!d.riddleSet) egoRec = namePool(bankLoc, egoSex, locale)[rng.int(0, 5)];
   let order = null;
   for (let t = 0; t < TRIES && !order; t++) {
     const o = rng.shuffle(paths);
     if (o.some((p, i) => i > 0 && answers[p] === answers[o[i - 1]])) continue;                 // two riddles with one answer never adjacent
-    const gs = o.map((p) => FT.genOf(p));
+    const gs = o.map((p) => FT.genOf(RIDDLE_PATH(p)));
     if (monotone(gs)) continue;                                                                 // not grandparents-first / aunts-first
     order = o;
   }
@@ -566,17 +612,63 @@ function faceRiddles(bankLoc, d, locale, rng, over) {
   const bankHtml = `<div class="ws-scene-banner ws-bank" data-lcs-bank-banner="" style="flex:1 1 auto;margin:0;flex-wrap:wrap">` +
     bankWords.map((wk) => `<span class="ws-bankword" data-lcs-bank-word="${wk}" style="font-size:${d.bankPx}px;height:${d.bankH}px;box-sizing:border-box">${literal(bankLoc, wk, locale).text.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</span>`).join('') + `</div>`;
   const card = C5.famEgoCard({ person: ego, name: egoRec.name, w: d.frame[0], h: d.frame[1] });
-  const band = `<div data-lcs-riddle-band="" style="display:flex;align-items:center;gap:16px;width:${BODY_W - 36}px;margin:0 auto">${card}${bankHtml}</div>`;
+  const band = `<div data-lcs-riddle-band="" style="display:flex;align-items:center;${d.noBank ? 'justify-content:center;' : ''}gap:16px;width:${BODY_W - 36}px;margin:0 auto">${card}${d.noBank ? '' : bankHtml}</div>`;
   const rowsHtml = `<div data-lcs-riddles="" style="display:flex;flex-direction:column;gap:${d.rowGap}px;width:${BODY_W - 36}px;margin:0 auto;height:100%">` + order.map((p, i) => {
     const txt = fillFrame(bankLoc.riddleFrames[p], egoRec, locale);
     const [before, after] = txt.split('___');
-    return C5.riddleRow({ n: i + 1, before: before.replace(/\s+$/, ' ').replace(/^\s+/, ''), after, path: p, answer: answers[p], slotW: d.slot[0], slotH: d.slot[1], rowH: d.rowH, rowMax: d.rowMax });
+    const row = C5.riddleRow({ n: i + 1, before: before.replace(/\s+$/, ' ').replace(/^\s+/, ''), after, path: p, answer: answers[p], slotW: d.slot[0], slotH: d.slot[1], rowH: d.rowH, rowMax: d.rowMax });
+    if (!d.screen) return row;
+    const lit = literal(bankLoc, answers[p], locale).text;
+    const esc = (x) => String(x).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    return row.replace(`data-lcs-answer="${answers[p]}"`, `data-lcs-answer="${answers[p]}" data-lcs-word="${esc(lit)}" data-lcs-alts="${esc(FS.altsOf(lit).join('|'))}"`).replace(/font-size:18px;line-height:26px/, 'font-size:28px;line-height:38px');
   }).join('') + `</div>`;
   const bandH = d.frame[1] + 8 + 13;
   const rowsH = paths.length * d.rowH + (paths.length - 1) * d.rowGap, rowsMax = paths.length * d.rowMax + (paths.length - 1) * d.rowGap;
   return { blocks: [band, rowsHtml], gaps: [12], gapMax: [40], blockStyles: [null, `flex:1 1 ${rowsH}px;min-height:${rowsH}px;max-height:${rowsMax}px;display:flex;flex-direction:column`],
-    stackH: bandH + 12 + rowsH, stackMax: bandH + 40 + rowsMax, rootAttrs: ` data-lcs-ego-name="${egoRec.name}"`,
-    meta: { egoName: egoRec.name, order, answers: order.map((p) => answers[p]), bank: bankWords } };
+    stackH: bandH + 12 + rowsH, stackMax: bandH + 40 + rowsMax, rootAttrs: ` data-lcs-ego-name="${egoRec.name}"${d.noBank ? ' data-lcs-no-bank="1"' : ''}`,
+    meta: { egoName: egoRec.name, order, answers: order.map((p) => answers[p]), bank: d.noBank ? [] : bankWords, lsSig: [...order.map((p) => 'r:' + p), 'ego:' + egoRec.name] } };
+}
+
+/**
+ * Level Set riddles: the copy's set of riddle paths. Groups: G the four grandparents, S the four aunts / uncles
+ * (both published), A the parents of an aunt / uncle and C their children (data/b5/family-levelset.json).
+ *   easy    6 of G + S (>= 2 each)         mixed   8 with >= 2 of A          cousins 8 with >= 2 of C (fewer when the
+ *   locale has fewer distinct cousin words and no repeats are allowed).
+ * Never two riddles with the same printed wording; a locale whose instruction does not say "one word can fit more
+ * than one riddle" (repeatsNote false: sv / da / no) never repeats an answer on a page.
+ */
+function pickRiddles(bankLoc, d, rng, locale, egoRec) {
+  const kin = bankLoc.kin, frames = bankLoc.riddleFrames;
+  const G = ['MM', 'FM', 'MF', 'FF'], S = ['MZ', 'FZ', 'MB', 'FB'];
+  // A only where the aunt / uncle word itself says the blood side (sv / da / no moster, farbror …; fi eno, setä): an English
+  // 'aunt' may be an aunt by marriage, and HER mother is not the child's grandmother (pedagogy check 2026-10-14)
+  const A = ['MZ.M', 'MZ.F', 'MB.M', 'MB.F', 'FZ.M', 'FZ.F', 'FB.M', 'FB.F'].filter((k) => (LS_DATA._bloodSide || {})[locale] && LS_DATA._bloodSide[locale].includes(k.slice(0, 2)));
+  const C = ['MZD', 'MZS', 'MBD', 'MBS', 'FZD', 'FZS', 'FBD', 'FBS'];
+  for (const k of [...G, ...S, ...(d.riddleSet === 'easy' ? [] : A), ...(d.riddleSet === 'easy' ? [] : C)]) {
+    if (!frames[k]) throw new Error(`${ID}: ${locale} has no riddle frame for ${k} (refuse)`);
+    if (!kin[RIDDLE_PATH(k)]) throw new Error(`${ID}: ${locale} kin has no answer for ${k}`);
+  }
+  const noRepeat = !bankLoc.repeatsNote;
+  const text = (k) => fillFrame(frames[k], egoRec, locale);
+  const want = d.riddleSet === 'easy' ? { n: 6, need: [[G, 2], [S, 2]] }
+    : d.riddleSet === 'mixed' ? { n: 8, need: [[A.length ? A : C, 2]] }
+    : { n: 8, need: [[C, Math.min(2, new Set(C.map((k) => kin[RIDDLE_PATH(k)])).size)]] };
+  const pool = d.riddleSet === 'easy' ? [...G, ...S] : d.riddleSet === 'mixed' ? [...G, ...S, ...(A.length ? A : C)] : [...G, ...S, ...A, ...C];
+  for (let t = 0; t < TRIES; t++) {
+    const pick = [], texts = new Set(), ans = new Set();
+    const add = (k) => {
+      if (pick.includes(k) || texts.has(text(k))) return false;
+      if (noRepeat && ans.has(kin[RIDDLE_PATH(k)])) return false;
+      // at most three riddles share an answer (fi: every cousin is serkku — more could never be kept apart on the page)
+      if (pick.filter((q) => kin[RIDDLE_PATH(q)] === kin[RIDDLE_PATH(k)]).length >= 3) return false;
+      pick.push(k); texts.add(text(k)); ans.add(kin[RIDDLE_PATH(k)]); return true;
+    };
+    for (const [grp, n] of want.need) { let got = 0; for (const k of rng.shuffle(grp)) { if (got >= n) break; if (add(k)) got++; } }
+    for (const k of rng.shuffle(pool)) { if (pick.length >= want.n) break; add(k); }
+    const okNeed = want.need.every(([grp, n]) => pick.filter((k) => grp.includes(k)).length >= n);
+    if (pick.length === want.n && okNeed) return pick;
+  }
+  throw new Error(`${ID}: ${locale} no admissible ${d.riddleSet} riddle set in ${TRIES} tries`);
 }
 
 /** F5 tree-template — the OPEN frame tree (no verify of answers; structure only) */
@@ -589,7 +681,7 @@ function faceTemplate(bankLoc, d, locale) {
 
 /** the data a face's browser verify needs (never the stamps under test) */
 function faceVerifyData(b, mode) {
-  return { mode, ID, kin: b.kin, words: b.words, names: b.names || [], clueFrames: b.clueFrames || {}, riddleFrames: b.riddleFrames || {}, distractors: b.distractors || [],
+  return { mode, ID, kin: b.kin, words: b.words, names: b.lsNames || b.names || [], clueFrames: b.clueFrames || {}, riddleFrames: b.riddleFrames || {}, riddlePaths: LS_DATA._paths || {}, distractors: b.distractors || [],
     generationOK: b.generationOK || [], meWord: b.meWord || '', forbidden: b.forbiddenInTemplate || [],
     FL: { K: { element: 56, bust: 72, frameW: 80 }, G1: { element: 44, bust: 72, frameW: 80 }, G2: { element: 36, bust: 72, frameW: 80 } } };
 }
@@ -599,7 +691,7 @@ function faceVerifyData(b, mode) {
  * Every answer is re-derived from the kin GRAPH + the bank literals, never from the stamp under test.
  */
 function browserVerifyFace(data) {
-  const { mode, ID, kin, words, names, clueFrames, riddleFrames, distractors, generationOK, meWord, forbidden, FL } = data;
+  const { mode, ID, kin, words, names, clueFrames, riddleFrames, riddlePaths, distractors, generationOK, meWord, forbidden, FL } = data;
   const fails = [];
   const root = document.querySelector(`[data-lcs-family][data-lcs-type="${ID}"]`);
   if (!root) return [`${ID}: no family root`];
@@ -745,7 +837,8 @@ function browserVerifyFace(data) {
     }
     if (reverse > 1) fails.push(`${reverse} rows in reverse order (at most one)`);
     for (let s = 0; s < 3; s++) for (const [g, n] of Object.entries(slotGen[s])) if (n > Math.ceil(rowList.length / 2)) fails.push(`slot ${s + 1} holds generation ${+g + 1} in ${n} of ${rowList.length} rows (an answer-position tell)`);
-    if (side < Math.min(4, rowList.length)) fails.push(`${side} rows carry a sideline word (want >= 4 — "grand-" must not be the only cue)`);
+    if (root.dataset.lcsDirectOnly) { if (side) fails.push(`${side} rows carry a sideline word on a direct-line page (level 1)`); }
+    else if (side < Math.min(4, rowList.length)) fails.push(`${side} rows carry a sideline word (want >= 4 — "grand-" must not be the only cue)`);
   }
 
   if (mode === 'trace-words' || mode === 'tree-clues') {
@@ -794,10 +887,12 @@ function browserVerifyFace(data) {
       if (!bankEl) fails.push('no trace panel');
       if (bankWords.slice().sort().join('|') !== rowWords.slice().sort().join('|')) fails.push(`the trace panel holds ${bankWords.join('/')} for lines ${rowWords.join('/')}`);
       // landing review 2026-09-23: each word to trace carries the number of the person it names (re-derived from the graph)
+      const panelUnnumbered = !!root.dataset.lcsUnnumbered;   // level 3: the words to trace carry NO number (find the word yourself)
       for (const l of lanes) {
         const discs = l.querySelectorAll('[data-lcs-bank-disc] text');
         const want = rows.find((r) => r.dataset.lcsAnswer === l.dataset.lcsText);
-        if (discs.length !== 1) fails.push(`panel word ${l.dataset.lcsText}: ${discs.length} number discs (want its person's number)`);
+        if (panelUnnumbered) { if (discs.length) fails.push(`panel word ${l.dataset.lcsText} carries a number on an unnumbered page`); }
+        else if (discs.length !== 1) fails.push(`panel word ${l.dataset.lcsText}: ${discs.length} number discs (want its person's number)`);
         else if (!want || discs[0].textContent.trim() !== want.dataset.lcsBadge) fails.push(`panel word ${l.dataset.lcsText} is numbered ${discs[0].textContent.trim()}, its person is ${want ? want.dataset.lcsBadge : '?'}`);
       }
       { const bust = (sel) => { const g = svg.querySelector(sel); const fg = g && g.querySelector('svg[data-lcs-figure]');
@@ -857,7 +952,8 @@ function browserVerifyFace(data) {
       if (new Set(named).size !== named.length) fails.push('two plates carry the same name');
       const empty = plates.filter((pl) => !pl.given);
       const cells = empty.map((pl) => { const p = persons.find((q) => q.id === pl.id); return p ? p.age + p.sex : '?'; });
-      if (new Set(cells).size === cells.length) fails.push('the empty plates hold no same-(age, sex) pair — a name could be placed from the figure alone');
+      if (root.dataset.lcsDirectClues) { const sx = empty.map((pl) => { const p = persons.find((q) => q.id === pl.id); return p ? p.sex : '?'; }); if (new Set(sx).size !== 1) fails.push('level 1: the two empty plates are not of one sex — a name could be placed from the name alone'); }
+      else if (new Set(cells).size === cells.length) fails.push('the empty plates hold no same-(age, sex) pair — a name could be placed from the figure alone');
       const clues = [...root.querySelectorAll('[data-lcs-clue-path]')];
       if (clues.length !== empty.length) fails.push(`${clues.length} clues for ${empty.length} empty plates`);
       const ego = names.find((n) => n.name === egoName) || { name: egoName, gen: null };
@@ -894,7 +990,10 @@ function browserVerifyFace(data) {
     const ego = names.find((n) => n.name === egoName);
     if (!ego) fails.push(`the ego name ${egoName} is not a bank name`);
     if (!card || card.querySelector('[data-lcs-plate]').textContent.trim() !== egoName) fails.push('the ego card does not show the ego name');
+    const noBank = !!root.dataset.lcsNoBank;   // level 3: no word bank (write the word from memory)
     const bank = [...root.querySelectorAll('[data-lcs-bank-word]')];
+    if (noBank && bank.length) fails.push('a word bank on a no-bank page');
+    if (!noBank && !bank.length) fails.push('no word bank');
     const bankKeys = bank.map((b) => b.dataset.lcsBankWord);
     if (new Set(bankKeys).size !== bankKeys.length) fails.push('the bank repeats a word');
     for (const b of bank) { const wk = b.dataset.lcsBankWord; if (!words[wk] || b.textContent !== words[wk].text) fails.push(`bank ${wk}: printed "${b.textContent}" ≠ the bank literal`); if (rect(b).height < FL.G2.element - 0.6) fails.push(`bank ${wk}: ${rect(b).height.toFixed(1)} px < ${FL.G2.element}`); }
@@ -903,9 +1002,9 @@ function browserVerifyFace(data) {
     for (const r of rows) {
       const slot = r.querySelector('[data-lcs-riddle-path]');
       const path = slot.dataset.lcsRiddlePath;
-      const want = kin[path];
+      const want = kin[(riddlePaths || {})[path] || path];
       if (slot.dataset.lcsAnswer !== want) fails.push(`riddle ${path}: slot answer ${slot.dataset.lcsAnswer} ≠ kin.${path} = ${want}`);
-      if (!bankKeys.includes(want)) fails.push(`riddle ${path}: its answer ${want} is not in the bank`);
+      if (!noBank && !bankKeys.includes(want)) fails.push(`riddle ${path}: its answer ${want} is not in the bank`);
       ans.push(want);
       const txt = r.querySelector('[data-lcs-riddle-text]');
       const printed = [...txt.childNodes].filter((n) => n !== slot).map((n) => n.textContent).join('');
@@ -926,10 +1025,10 @@ function browserVerifyFace(data) {
     if (wrapped > 2) fails.push(`${wrapped} riddles wrap (at most 2)`);
     for (let i = 1; i < ans.length; i++) if (ans[i] === ans[i - 1]) fails.push(`riddles ${i} and ${i + 1} share the answer ${ans[i]} (never adjacent)`);
     // review round 1: EVERY bank word answers at least one riddle on this page (no word left over)
-    const unused = bankKeys.filter((k) => !ans.includes(k));
+    const unused = noBank ? [] : bankKeys.filter((k) => !ans.includes(k));
     if (unused.length) fails.push(`bank word(s) ${unused.join(', ')} answer no riddle on the page`);
     void distractors;
-    const gs = rows.map((r) => genOf(r.querySelector('[data-lcs-riddle-path]').dataset.lcsRiddlePath));
+    const gs = rows.map((r) => { const k = r.querySelector('[data-lcs-riddle-path]').dataset.lcsRiddlePath; return genOf((riddlePaths || {})[k] || k); });
     if (gs.every((v, i) => !i || v >= gs[i - 1]) || gs.every((v, i) => !i || v <= gs[i - 1])) fails.push('the riddles run grouped by generation (an answer-position tell)');
   }
 
@@ -1001,6 +1100,104 @@ function browserVerifyFace(data) {
   return fails;
 }
 
+/* ==================================================================== LEVEL SET (walk #66, 2026-10-14) */
+/**
+ * composeLS — the family of a NEW Level Set copy: `d.ls` = { grand, kids:[Z|B|Zy|By …], side:'Z'|'B'|null,
+ * cousin:'D'|'S'|null }. Always the ONE structure (mother + father + their children), at most one grand couple
+ * on one side, the aunt / uncle and the cousin on the grand side (their lines need the grandparents drawn).
+ * Looks and garment tints follow the legacy rules (one tint per generation row, no shared look in a cell).
+ */
+function composeLS(d, rng) {
+  const v = d.ls;
+  if ((v.side || v.cousin) && !v.grand) throw new Error(`${ID}: a sideline relative needs the grandparents drawn`);
+  if (v.cousin && !v.side) throw new Error(`${ID}: a cousin needs the aunt / uncle drawn`);
+  const grandSide = v.grand ? (rng.next() < 0.5 ? 'M' : 'F') : null;
+  const egoSex = rng.pick(['f', 'm']);
+  const SEX = { Z: 'f', B: 'm', Zy: 'f', By: 'm' };
+  const persons = [{ path: 'M', sex: 'f', age: 'adult' }, { path: 'F', sex: 'm', age: 'adult' }];
+  if (grandSide) persons.push({ path: grandSide + 'M', sex: 'f', age: 'elder' }, { path: grandSide + 'F', sex: 'm', age: 'elder' });
+  if (v.side) persons.push({ path: grandSide + v.side, sex: SEX[v.side], age: 'adult' });
+  if (v.cousin) persons.push({ path: grandSide + v.side + v.cousin, sex: v.cousin === 'D' ? 'f' : 'm', age: 'child' });
+  const kids = [{ path: '', sex: egoSex, age: 'child' }, ...v.kids.map((k) => ({ path: k, sex: SEX[k], age: /y$/.test(k) ? 'baby' : 'child' }))];
+  persons.push(...rng.shuffle(kids));
+  const cells = {};
+  for (const p of persons) (cells[p.age + '|' + p.sex] = cells[p.age + '|' + p.sex] || []).push(p);
+  for (const [k, ps] of Object.entries(cells)) {
+    const [age, sex] = k.split('|');
+    const looks = rng.sample(FF.lookIds(age, sex), ps.length);
+    ps.forEach((p, i) => { p.look = looks[i]; });
+  }
+  const rowTint = makeRng(String(rng.seed) + '|garment').shuffle(TINTS);
+  for (const p of persons) p.tint = rowTint[FT.genOf(p.path)];
+  persons.forEach((p, i) => { p.id = 'p' + i; });
+  return { persons, grandSide, egoSex };
+}
+
+/**
+ * The Level Set bank: the published bank PLUS (new pages only) the native-panel names of the Personal Pronouns
+ * Level Set (data/b4/pronouns-levelset.json, 60 per locale, sex-tagged) as `lsNames` for the people who are not
+ * the ego (the ego keeps the family bank's names: they carry the genitives the frames need), and the new riddle
+ * frames of data/b5/family-levelset.json (riddles + the kin of their composed paths). Published pages never read it.
+ */
+const LS_DATA = (() => { try { return require('../../data/b5/family-levelset.json'); } catch (e) { return {}; } })();
+/** the person a riddle key names: a kin path, or a composed one ('MZ.M' = the mother of MZ = MM) */
+const RIDDLE_PATH = (k) => (LS_DATA._paths || {})[k] || k;
+const PRON = (() => { try { return require('../../data/b4/pronouns-levelset.json'); } catch (e) { return {}; } })();
+function levelSetBank(b, loc) {
+  const own = new Set((b.names || []).map((n) => n.name));
+  const extra = ((PRON[loc] && PRON[loc].names) || []).filter((n) => !own.has(n.name) && /^\p{Lu}[\p{L}'-]+$/u.test(n.name) && n.name.length <= 9)
+    .map((n) => ({ name: n.name, sex: n.gender }));
+  const L = LS_DATA[loc] || {};
+  return { ...b, lsNames: [...(b.names || []), ...extra], riddleFrames: { ...b.riddleFrames, ...(L.riddleFrames || {}) }, lsAlts: L.alts || {} };
+}
+
+/**
+ * The ladder of every face (level 2 = the published config D; `lsVariants` shape the NEW copies, picked by seed).
+ *   base   L1 parents + the ego + one or two siblings (no grandparents) · L2 + one grand couple · L3 + a third
+ *          child or the aunt / uncle (7 people).
+ *   generations  L1 direct-line words only, 4 rows · L3 7 rows, a sideline word in every row.
+ *   trace-words  L1 parents + two children (4 words, bigger frames) · L3 the words to trace UNNUMBERED (find the
+ *          person N on the tree, KNOW their word, find it in the panel).
+ *   tree-clues   L1 two clues, the direct line only · L3 five clues, the aunt / uncle AND a cousin on the tree.
+ *   relation-riddles  L1 six riddles (grandparents + aunts / uncles) · L2 eight from grandparents, aunts / uncles
+ *          and "the aunt's mom" · L3 eight with cousins, NO word bank.
+ *   tree-template  L1 three small frames on the shelf · L3 six (one copy per level: a blank template has no content
+ *          to vary).
+ */
+function levelsFor(id, D, T) {
+  if (D) { D = { ...D }; delete D.lsVariants; }   // a face spreads the base level 2: never inherit the base copies
+  const K = { grand: true };
+  if (id === 'K-370') {
+    // level 1 has two generations only: bigger frames and word rows fill the page (the d1 draft left half of it blank)
+    const d1 = { mode: 'base', grand: false, baby: false, frame: [176, 206], chipPx: 26, chipW: 236, kinH: 76, register: 'K', fillGap: 40 };
+    const d3 = { mode: 'base', grand: true, baby: true, frame: [104, 122], chipPx: 22, register: 'K', fillGap: 40 };
+    return {
+      1: { ...d1, lsVariants: [['Z'], ['By'], ['B'], ['Zy'], ['Z', 'By'], ['B', 'Zy']].map((kids) => ({ ls: { grand: false, kids } })) },
+      2: { ...D, lsVariants: [['B'], ['Zy'], ['Z'], ['By']].map((kids) => ({ ls: { ...K, kids } })) },
+      3: { ...d3, lsVariants: [{ kids: ['Z'], side: 'B' }, { kids: ['B', 'Zy'] }, { kids: ['By'], side: 'Z' }, { kids: ['Z', 'By'] }, { kids: ['B'], side: 'Z' }, { kids: ['Zy'], side: 'B' }].map((x) => ({ ls: { ...K, ...x } })) },
+    };
+  }
+  if (id === 'G1-385') return { 1: { ...D, rows: 4, minSideline: 0, maxPerSlot: 2, directOnly: true, freeDraw: true, rowH: 76, rowMax: 92, lsBank: true }, 2: D, 3: { ...D, rows: 7, minSideline: 7, freeDraw: true, rowH: 54, rowMax: 62, rowGap: 6, lsBank: true } };
+  if (id === 'K-375') return {
+    1: { ...D, frame: [80, 120], lsVariants: [['Z', 'B'], ['Z', 'By'], ['B', 'Zy'], ['B', 'Z']].map((kids) => ({ ls: { grand: false, kids } })) },
+    2: { ...D, lsVariants: [['B'], ['Z']].map((kids) => ({ ls: { ...K, kids } })) },
+    3: { ...D, unnumberBank: true, lsVariants: [['Z'], ['B']].map((kids) => ({ ls: { ...K, kids } })) },
+  };
+  if (id === 'G1-386') return {
+    1: { ...D, clues: 2, directOnlyClues: true, frame: [92, 112], rowGap: 30, gap: 20, clueH: 40, clueMax: 40, lsVariants: [['Z'], ['B'], ['Zy'], ['By']].map((kids) => ({ ls: { ...K, kids } })) },
+    2: { ...D, lsVariants: [{ kids: ['B'], side: 'B' }, { kids: ['Z'], side: 'Z' }, { kids: ['By'], side: 'Z' }, { kids: ['Zy'], side: 'B' }].map((x) => ({ ls: { ...K, ...x } })) },
+    3: { ...D, clues: 5, frame: [80, 94], rowGap: 20, lsVariants: [{ side: 'Z', cousin: 'S' }, { side: 'B', cousin: 'D' }, { side: 'Z', cousin: 'D' }, { side: 'B', cousin: 'S' }].map((x) => ({ ls: { ...K, kids: ['Z'], ...x } })) },
+  };
+  if (id === 'G2-362') return {
+    1: { ...D, rows: 6, riddleSet: 'easy', rowH: 58, rowMax: 72, lsBank: true },
+    2: { ...D, lsVariants: [{ riddleSet: 'mixed' }], lsBank: true },
+    3: { ...D, riddleSet: 'cousins', noBank: true, lsBank: true },
+  };
+  // the template: level 1 = three small frames on the shelf; no level 3 (frame-tree.js holds four, and an open template has no 'harder')
+  if (id === 'G1-387') return { 1: { ...D, shelf: 3 }, 2: D, 3: D };
+  throw new Error(`${ID}: no Level Set ladder for ${id}`);
+}
+
 const TYPE = {
   id: ID,
   slug: KEY,
@@ -1026,13 +1223,37 @@ const TYPE = {
 
   build({ difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
-    const d = this.difficulty[difficulty];
+    let d = this.difficulty[difficulty];
     if (!d) throw new Error(`${ID}: no difficulty ${difficulty}`);
-    return this._buildWith(loadBank(KEY, loc), d, { locale: loc }, ctx);
+    // Level Set 2026-10-14: a level may carry `lsVariants` — the family / page shape of each NEW copy, picked by the
+    // copy's seed (seedVariant). The published page (level 2, seedVariant 1 or none) never reads them: it is built
+    // from the June config through the untouched legacy draw, so it stays byte-identical but for the new drawings.
+    const sv = (ctx && ctx.seedVariant) || 1;
+    const published = difficulty === 2 && sv === 1;
+    if (!published && d.lsVariants) {
+      const v = d.lsVariants[(sv - 1) % d.lsVariants.length];
+      d = { ...d, ...v, lsVariants: undefined, lsLevel: difficulty };
+    }
+    const bankLoc = d.lsLevel || (!published && d.lsBank) ? levelSetBank(loadBank(KEY, loc), loc) : loadBank(KEY, loc);
+    if (ctx && (ctx.interactive || ctx.answerKey)) {
+      // the screen redraws the page bigger (its heights differ): the printed page's meta is the instance's identity
+      const printed = this._buildWith(bankLoc, d, { locale: loc }, { ...ctx, interactive: false, answerKey: false, rng: makeRng(ctx.rng.seed) });
+      const out = this._buildWith(bankLoc, d, { locale: loc }, { ...ctx, rng: makeRng(ctx.rng.seed) });
+      return { ...out, meta: printed.meta };
+    }
+    return this._buildWith(bankLoc, d, { locale: loc }, ctx);
   },
+
+  /** the Level Set ladder of a face (variation files call it; ⚠ a re-run of tools/gen-b5var-specs.js would
+   *  flatten their difficulty back to one config — keep the call). */
+  levelsFor(id, D) { return levelsFor(id, D, this); },
+
+  /** what makes one copy different from another (build-waves: copies of a level share few of these) */
+  levelSetWords(m) { return (m && m.lsSig) || []; },
 
   /** the family graph for a resolved config (seeded, locale-neutral) */
   _compose(d, rng) {
+    if (d.ls) return composeLS(d, rng);
     const grandSide = d.grand ? (rng.next() < 0.5 ? 'M' : 'F') : null;
     const egoSex = rng.pick(['f', 'm']);
     const sibSex = rng.pick(['f', 'm']);
@@ -1128,17 +1349,24 @@ const TYPE = {
     }
     if (!order) throw new Error(`${ID}: no admissible word order in ${TRIES} tries`);
     const rows = order.map((a) => ({ wordKey: a.wordKey, text: a.word.text, answer: badges[a.person.id] }));
-    const block = C5.kinWordBlock({ rows, px: d.chipPx, chipW: 196, boxW: 64, boxH: K_ELEMENT });
-    const blockH = Math.ceil(rows.length / 2) * K_ELEMENT + (Math.ceil(rows.length / 2) - 1) * 8;
+    const screen = !!(ctx && ctx.interactive);
+    let block = screen ? C5.kinWordBlock({ rows, px: 28, chipW: 200, boxW: 104, boxH: 104, colGap: 24, rowGap: 14 }) : C5.kinWordBlock({ rows, px: d.chipPx, chipW: d.chipW || 196, boxW: 64, boxH: d.kinH || K_ELEMENT });
+    if (screen) {
+      // each write box carries its word and the drawn badges (the robot's oracle reads these, never the answer)
+      const map = nonEgo.map((p) => p.path + ':' + badges[p.id]).join(',');
+      let i = 0;
+      block = block.replace(/data-lcs-kinbox=""/g, () => `data-lcs-kinbox="" data-lcs-kinword="${rows[i++].wordKey}" data-lcs-badges="${map}"`);
+    }
+    const blockH = Math.ceil(rows.length / 2) * (d.kinH || K_ELEMENT) + (Math.ceil(rows.length / 2) - 1) * 8;
     const stackH = stage.height + STAGE_GAP + blockH;
-    if (stackH > STACK_MAX) throw new Error(`${ID}: stack ${stackH} px > ${STACK_MAX} (the 677 chrome)`);
+    if (!screen && stackH > STACK_MAX) throw new Error(`${ID}: stack ${stackH} px > ${STACK_MAX} (the 677 chrome)`);
     const bodyHtml = `<div class="fam-page" data-ws-content="" data-lcs-family="" data-lcs-type="${ID}" data-lcs-mode="base" data-lcs-locale="${locale}"` +
       ` data-lcs-grand-side="${comp.grandSide || ''}" data-lcs-reading="${reading.join(',')}" data-lcs-stack="${stackH}"` +
       ` style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
       `<div style="flex:0 0 auto">${stage.html}</div>${d.fillGap ? spacer(STAGE_GAP, d.fillGap) : `<div style="flex:0 0 ${STAGE_GAP}px"></div>`}<div style="flex:0 0 auto">${block}</div></div>`;
     return {
-      bodyHtml,
-      meta: { mode: 'base', grandSide: comp.grandSide, egoName, people: persons.length, asked: rows.map((r) => r.wordKey), answers: rows.map((r) => r.answer), reading, stackH, stageH: stage.height },
+      bodyHtml: ctx && ctx.answerKey ? FS.fillKey(bodyHtml, bankLoc.words) : bodyHtml,
+      meta: { mode: 'base', grandSide: comp.grandSide, egoName, people: persons.length, asked: rows.map((r) => r.wordKey), answers: rows.map((r) => r.answer), reading, stackH, stageH: stage.height, lsSig: lsSig(persons, comp.grandSide, egoName) },
     };
   },
 
@@ -1151,13 +1379,14 @@ const TYPE = {
   _buildFace(bankLoc, d, { locale }, ctx, over = {}) {
     const rng = ctx.rng;
     const fn = { generations: faceGenerations, 'trace-words': faceTraceWords, 'tree-clues': faceTreeClues, 'relation-riddles': faceRiddles, 'tree-template': faceTemplate }[d.mode];
-    const out = fn.call(this, bankLoc, d, locale, rng, over);
-    if (out.stackH > STACK_MAX) throw new Error(`${ID}: ${d.mode} stack ${out.stackH} px > ${STACK_MAX} (the 677 chrome)`);
+    const screen = !!(ctx && ctx.interactive);
+    const out = fn.call(this, bankLoc, screen ? screenConfig(d) : d, locale, rng, { ...over, ctx });
+    if (!screen && out.stackH > STACK_MAX) throw new Error(`${ID}: ${d.mode} stack ${out.stackH} px > ${STACK_MAX} (the 677 chrome)`);
     const bodyHtml = `<div class="fam-page" data-ws-content="" data-lcs-family="" data-lcs-type="${ID}" data-lcs-mode="${d.mode}" data-lcs-face="${d.mode}" data-lcs-locale="${locale}"` +
       ` data-lcs-stack="${out.stackH}"${out.rootAttrs || ''} style="display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:${BODY_W}px;margin:0 auto">` +
       out.blocks.map((b, i) => (i ? spacer(out.gaps[i - 1], (out.gapMax || [])[i - 1]) : '') +
         `<div data-lcs-block="${i}" style="${(out.blockStyles || [])[i] || 'flex:0 0 auto'}">${b}</div>`).join('') + `</div>`;
-    return { bodyHtml, meta: { mode: d.mode, stackH: out.stackH, stackMax: out.stackMax || out.stackH, ...out.meta } };
+    return { bodyHtml: ctx && ctx.answerKey ? FS.fillKey(bodyHtml, bankLoc.words) : bodyHtml, meta: { mode: d.mode, stackH: out.stackH, stackMax: out.stackMax || out.stackH, ...out.meta } };
   },
 
   async verify(page) {
@@ -1165,11 +1394,15 @@ const TYPE = {
     if (!info || !info.loc) return [`${ID}: no family root`];
     const loc = info.loc;
     let b;
-    try { b = loadBank(KEY, loc); } catch (e) { return [`${ID}: ${e.message}`]; }
+    try { b = levelSetBank(loadBank(KEY, loc), loc); } catch (e) { return [`${ID}: ${e.message}`]; }
     if (info.mode && info.mode !== 'base') return page.evaluate(browserVerifyFace, faceVerifyData(b, info.mode));
     return page.evaluate(browserVerify, { kin: b.kin, words: b.words, ID, K: { element: K_ELEMENT, bust: K_BUST, frameW: K_FRAME_W } });
   },
 };
+// Level Set 2026-10-14: the base ladder (level 2 stays the published June config; its new copies carry lsVariants)
+TYPE.difficulty = levelsFor(ID, TYPE.difficulty[2], TYPE);
+// the screen version (Level Set): Who Is Who? = type the person's number into the box beside each family word
+TYPE.interactive = FS.SPECS.who;
 TYPE._browserVerify = browserVerify;
 
 module.exports = TYPE;

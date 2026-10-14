@@ -3334,17 +3334,17 @@
       "fi": "Lue vihjeet. Napauta sukupuussa tyhjää nimiruutua ja kirjoita nimi."
     },
     "riddle": {
-      "en": "Read each riddle. Tap the line and type the family word.",
-      "de": "Lies jedes Rätsel. Tippe auf die Linie und schreibe das Familienwort.",
-      "es": "Lee cada adivinanza. Toca la línea y escribe la palabra de la familia.",
-      "pt": "Leia cada adivinha. Toque na linha e digite a palavra da família.",
-      "fr": "Lis chaque devinette. Touche la ligne et écris le mot de la famille.",
-      "it": "Leggi ogni indovinello. Tocca la riga e scrivi la parola della famiglia.",
-      "nl": "Lees elk raadsel. Tik op de lijn en typ het familiewoord.",
-      "sv": "Läs varje gåta. Tryck på raden och skriv familjeordet.",
-      "da": "Læs hver gåde. Tryk på linjen, og skriv familieordet.",
-      "no": "Les hver gåte. Trykk på streken og skriv familieordet.",
-      "fi": "Lue jokainen arvoitus. Napauta viivaa ja kirjoita sukulaissana."
+      "en": "Read each riddle. Tap the box and type the family word.",
+      "de": "Lies jedes Rätsel. Tippe auf das Kästchen und schreibe das Familienwort.",
+      "es": "Lee cada adivinanza. Toca el recuadro y escribe la palabra de la familia.",
+      "pt": "Leia cada adivinha. Toque no quadrinho e digite a palavra da família.",
+      "fr": "Lis chaque devinette. Touche la case et écris le mot de la famille.",
+      "it": "Leggi ogni indovinello. Tocca il riquadro e scrivi la parola della famiglia.",
+      "nl": "Lees elk raadsel. Tik op het vak en typ het familiewoord.",
+      "sv": "Läs varje gåta. Tryck på rutan och skriv familjeordet.",
+      "da": "Læs hver gåde. Tryk på feltet, og skriv familieordet.",
+      "no": "Les hver gåte. Trykk på ruten og skriv familieordet.",
+      "fi": "Lue jokainen arvoitus. Napauta ruutua ja kirjoita sukulaissana."
     }
   }
 }

@@ -1021,13 +1021,13 @@ function viewOf(ctx) { return ctx && ctx.interactive ? 'screen' : ctx && ctx.ans
 function screenify(html) {
   return html.replace('style="flex:1;display:grid;', 'style="flex:0 0 auto;display:grid;').replace(/minmax\((\d+)px, 1fr\)/g, '$1px');
 }
-/** the screen sizes: every write box >= 92 page px tall (>= 44 px on a 360 phone); the numbers >= 40 px */
+/** the screen sizes: every write box >= 104 page px tall (the screen draws at 0.467: >= 44 px on a 360 phone, measured by the robot); the numbers >= 40 px */
 const SCREEN = {
-  row: { rowH: 100, rowGap: 18, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 92 },
-  sort: { cellW: 100, cellH: 92, cellGap: 8, cellCols: 3, binW: 330, pillH: 44, pillPx: 20 },
-  estimate: { rowH: 158, rowGap: 22, px: 38, exprW: 210, boxW: 118, boxH: 92 },
-  inverse: { pillW: 126, pillH: 96, px: 36, gap: 24, rowGap: 30, stagger: 28, perRow: 4 },
-  both: { rowH: 100, rowGap: 16, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 92, mid: 24, width: 500, centres: [246, 434] },
+  row: { rowH: 112, rowGap: 18, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 104 },
+  sort: { cellW: 100, cellH: 104, cellGap: 8, cellCols: 3, binW: 330, pillH: 44, pillPx: 20 },
+  estimate: { rowH: 170, rowGap: 22, px: 38, exprW: 210, boxW: 118, boxH: 104 },
+  inverse: { pillW: 126, pillH: 104, px: 36, gap: 24, rowGap: 30, stagger: 28, perRow: 4 },
+  both: { rowH: 112, rowGap: 16, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 104, mid: 24, width: 500, centres: [246, 434] },
 };
 
 /* the screen sentences (i18n/interactive-instructions.json rounding.<key>) */

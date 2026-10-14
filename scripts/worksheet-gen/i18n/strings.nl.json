@@ -2423,7 +2423,7 @@
   },
   "G2-346": {
     "title": "Afronden op tientallen: schrijf het tiental",
-    "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven."
+    "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan af naar boven."
   },
   "K-358": {
     "title": "Makkelijke tangramfiguren van 2 en 3 stukken: teken de lijnen",
@@ -2599,7 +2599,7 @@
   },
   "G3-387": {
     "title": "Naar boven of naar beneden? Sorteer de getallen",
-    "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
+    "instruction": "Rond je elk getal af naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
   },
   "G3-388": {
     "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen",
@@ -2611,7 +2611,8 @@
   },
   "G3-390": {
     "title": "Welke getallen worden 50?",
-    "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal."
+    "instruction": "Omcirkel elk getal dat je afrondt op het getal bovenaan. Kijk naar het laatste cijfer van elk getal.",
+    "printTitle": "Welke getallen rond je af op 50?"
   },
   "G3-391": {
     "title": "Afronden op tientallen en honderdtallen",

@@ -6,6 +6,7 @@
  * ⚠ LEVEL SET (2026-10-14): the odd-and-even faces (G2-351 G1-369 G2-352 G3-386 G1-370) now carry REAL levels and a
  * screen version (`base.levelsFor` / `base.interactiveFor`, hand-edited). Re-running this generator on them would
  * flatten their levels back to `{1: D, 2: D, 3: D}` and drop the screens — never re-run it on that family.
+ * The same holds for the rounding faces (G3-387 G3-388 G3-389 G3-390 G3-391, Level Set walk #63, 2026-10-14).
  *
  * Same shape as gen-b2var-specs.js (each emitted file spreads its base spec and
  * overrides {id, slug, difficulty, i18n} + declared extras only), with two

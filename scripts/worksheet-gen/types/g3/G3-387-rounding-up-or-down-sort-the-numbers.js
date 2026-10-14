@@ -9,7 +9,10 @@ module.exports = {
   ...base,
   id: 'G3-387',
   slug: 'rounding-up-or-down-sort-the-numbers',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14 (walk #63): real levels 1 / 3 (G2-346 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b4var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-387', D),
+  interactive: base.interactiveFor('sort'),
   i18n: { en: { title: "Rounding Up or Down? Sort the Numbers", instruction: "Does each number round up or down to the nearest ten? Write it in the right bin." } },
   gradeBand: "G3",
 };

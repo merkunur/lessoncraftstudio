@@ -2611,7 +2611,7 @@
   },
   "G3-387": {
     "title": "Aufrunden oder abrunden? Zahlen sortieren",
-    "instruction": "Wird jede Zahl zum nächsten Zehner aufgerundet oder abgerundet? Schreibe sie in den richtigen Kasten."
+    "instruction": "Wird die Zahl auf den Zehner aufgerundet oder abgerundet? Schreibe jede Zahl in den richtigen Kasten."
   },
   "G3-388": {
     "title": "Zahlen runden auf Hunderter",
@@ -2623,7 +2623,8 @@
   },
   "G3-390": {
     "title": "Welche Zahlen runden auf 50?",
-    "instruction": "Kreise jede Zahl ein, die auf den Zehner oben gerundet wird. Schau auf die Einerstelle jeder Zahl."
+    "instruction": "Kreise jede Zahl ein, die auf die Zehnerzahl oben gerundet wird. Schau auf die Einerziffer jeder Zahl.",
+    "printTitle": "Welche Zahlen werden auf 50 gerundet?"
   },
   "G3-391": {
     "title": "Zahlen runden auf Zehner und Hunderter",

@@ -92,6 +92,8 @@ function decidingDigit(n, step) { return Math.floor(n / (step / 10)) % 10; }
 /** Does rounding n to step change the digit ABOVE the step (95..99 -> 100)? */
 function carries(n, step) { return Math.floor(round(n, step) / (step * 10)) !== Math.floor(n / (step * 10)); }
 function isUp(n, step) { return decidingDigit(n, step) >= 5; }
+/** The chain-rounding trap at the hundred (Level Set 2026-10-14): tens digit 4, ones 5-9 — 449 rounds to 400; a child who rounds the ones first reaches 450 and then 500. */
+function isTrap(n) { return n % 100 >= 45 && n % 100 <= 49; }
 
 /**
  * The resolved base config for d (+ the bank): every guard on the RESULT.
@@ -109,7 +111,10 @@ function resolveBase(d, bank) {
     onesTint: !!d.onesTint, rule: d.rule !== false, rowH: d.rowH || 60, rowGap: d.rowGap == null ? 14 : d.rowGap,
     worked: G.worked[steps.length > 1 ? 'both' : steps[0]],
     relation: bank.relation,
+    trapMax: d.trapMax == null ? Infinity : d.trapMax,   // Level Set level 1 of the hundred: no chain-rounding trap at all
+    trapMin: d.trapMin || 0,   // Level Set (walk #63): lines whose tens digit is 4 with ones 5-9 (449 -> 400, never the chain 450 -> 500)
   };
+  if (cfg.trapMin && cfg.step !== 100) throw new Error(`${ID}: trapMin is a hundreds rule (the chain-rounding trap), step ${cfg.step}`);
   if (!Number.isInteger(cfg.min) || !Number.isInteger(cfg.max) || cfg.min < 11 || cfg.max > G.max || cfg.min >= cfg.max) throw new Error(`${ID}: range ${cfg.min}..${cfg.max} must sit inside 11..${G.max}`);
   if (!Number.isInteger(cfg.items) || cfg.items < 8 || cfg.items > 16) throw new Error(`${ID}: ${cfg.items} items outside the G2-3 window [8, 16]`);
   if (cfg.cols !== 1 && cfg.cols !== 2) throw new Error(`${ID}: cols ${cfg.cols} must be 1 or 2`);
@@ -195,6 +200,8 @@ function compose(rng, cfg) {
     if (carry > cfg.carryMax || carry < cfg.carryMin) continue;
     if (cfg.mix) for (const [k, c] of Object.entries(cfg.mix)) if (items.filter((n) => String(n).length === +k).length !== c) { ok = false; break; }
     if (!ok) continue;
+    if (cfg.trapMin && items.filter(isTrap).length < cfg.trapMin) continue;
+    if (Number.isFinite(cfg.trapMax) && items.filter(isTrap).length > cfg.trapMax) continue;
     // 5. the line order
     return rng.shuffle(items);
   }
@@ -278,6 +285,9 @@ function VERIFY_BASE() {
   if (downs < downMin) fails.push(`${downs} round down < downMin ${downMin}`);
   if (carry > carryMax) fails.push(`${carry} carry cases > carryMax ${carryMax}`);
   if (carry < carryMin) fails.push(`${carry} carry cases < carryMin ${carryMin}`);
+  const trapMin = +(D.lcsTrapmin || 0);
+  if (D.lcsTrapmax !== undefined && ns.filter((n) => n % 100 >= 45 && n % 100 <= 49).length > +D.lcsTrapmax) fails.push(`${ns.filter((n) => n % 100 >= 45 && n % 100 <= 49).length} chain-rounding traps > trapMax ${D.lcsTrapmax}`);
+  if (trapMin && ns.filter((n) => n % 100 >= 45 && n % 100 <= 49).length < trapMin) fails.push(`${ns.filter((n) => n % 100 >= 45 && n % 100 <= 49).length} chain-rounding traps (tens 4, ones 5-9) < trapMin ${trapMin}`);
   if (mix) for (const [k, c] of Object.entries(mix)) { const have = ns.filter((n) => String(n).length === +k).length; if (have !== c) fails.push(`${have} ${k}-digit numbers, mix says ${c}`); }
   const hist = {};
   ns.forEach((n) => { const d = deciding(n, step); hist[d] = (hist[d] || 0) + 1; });
@@ -424,7 +434,7 @@ function resolveSort(d, bank) {
   const cellRows = Math.ceil(cfg.cells / cfg.cellCols);
   cfg.binH = 12 + cfg.pillH + 12 + cellRows * cfg.cellH + (cellRows - 1) * cfg.cellGap + 16;
   cfg.stack = (cfg.rule ? RULE_H + GAP : 0) + cfg.laneH + GAP + cfg.binH;
-  if (cfg.stack > STACK_MAX) throw new Error(`${ID} sort: stack ${cfg.stack} > ${STACK_MAX} (the fi four-line chrome)`);
+  if (cfg.stack > STACK_MAX && !d._screen) throw new Error(`${ID} sort: stack ${cfg.stack} > ${STACK_MAX} (the fi four-line chrome)`);
   return cfg;
 }
 
@@ -450,7 +460,7 @@ function resolveEstimate(d, bank) {
   const exprMax = String(cfg.addMax).length * 2 + 3;   // "88 + 88" = 7 glyph slots
   if (exprMax > 7 && cfg.exprW < 130) throw new Error(`${ID} estimate: three-digit addends need exprW >= 130 (got ${cfg.exprW})`);
   cfg.stack = (cfg.rule ? RULE_H + GAP : 0) + LANE_PAD + cfg.items * cfg.rowH + (cfg.items - 1) * cfg.rowGap;
-  if (cfg.stack > STACK_MAX) throw new Error(`${ID} estimate: stack ${cfg.stack} > ${STACK_MAX}`);
+  if (cfg.stack > STACK_MAX && !d._screen) throw new Error(`${ID} estimate: stack ${cfg.stack} > ${STACK_MAX}`);
   return cfg;
 }
 /** The pool of unordered pairs a < b under cfg (both roundable, exact and rounded sums under the caps, never the worked pair). */
@@ -495,7 +505,7 @@ function resolveInverse(d, bank) {
     nearMiss: Array.isArray(d.nearMiss) ? d.nearMiss.slice() : [], fiveIn: d.fiveIn !== false, digitCover: d.digitCover !== false, rule: d.rule !== false,
     pillW: d.pillW || 96, pillH: d.pillH || 52, gap: d.gap == null ? 24 : d.gap, rowGap: d.rowGap == null ? (d.gap == null ? 24 : d.gap) : d.rowGap, stagger: d.stagger == null ? 48 : d.stagger, perRow: d.perRow || 4, px: d.px || 26,
     targetH: d.targetH || 52, targetPx: d.targetPx || 28, fieldGap: d.fieldGap == null ? 16 : d.fieldGap,
-    worked: G.worked.inverse[step], relation: bank.relation,
+    worked: d.worked != null ? d.worked : G.worked.inverse[step], relation: bank.relation,
   };
   if (!Number.isInteger(cfg.target) || cfg.target % step !== 0 || cfg.target < 2 * step || cfg.target > G.max - step) throw new Error(`${ID} inverse: target ${cfg.target} is not a multiple of ${step} inside the range`);
   if (!Number.isInteger(cfg.pills) || cfg.pills < 8 || cfg.pills > 16 || cfg.pills % cfg.perRow !== 0) throw new Error(`${ID} inverse: ${cfg.pills} pills must be 8..16 and fill rows of ${cfg.perRow}`);
@@ -505,6 +515,9 @@ function resolveInverse(d, bank) {
   const isMember = (v) => round(v, step) === cfg.target;
   cfg.memberPool = []; cfg.otherPool = [];
   for (let v = cfg.range[0]; v <= cfg.range[1]; v++) { if (v % step === 0 || v === cfg.target) continue; (isMember(v) ? cfg.memberPool : cfg.otherPool).push(v); }
+  // Level Set level 1: every non-member at least `farFrom` away from the target (another ten — no near miss to weigh)
+  cfg.farFrom = d.farFrom || 0;
+  if (cfg.farFrom) cfg.otherPool = cfg.otherPool.filter((v) => Math.abs(v - cfg.target) >= cfg.farFrom);
   cfg.five = cfg.target - step / 2;
   if (cfg.fiveIn && !cfg.memberPool.includes(cfg.five)) throw new Error(`${ID} inverse: the 5 case ${cfg.five} is not in the range`);
   for (const v of cfg.nearMiss) { if (!inRange(v) || v % step === 0 || isMember(v)) throw new Error(`${ID} inverse: near miss ${v} must be a non-member in range`); }
@@ -517,7 +530,7 @@ function resolveInverse(d, bank) {
   const rows = cfg.pills / cfg.perRow;
   cfg.fieldH = rows * cfg.pillH + (rows - 1) * cfg.rowGap;
   cfg.stack = (cfg.rule ? RULE_H + GAP : 0) + LANE_PAD + cfg.targetH + cfg.fieldGap + cfg.fieldH;
-  if (cfg.stack > STACK_MAX) throw new Error(`${ID} inverse: stack ${cfg.stack} > ${STACK_MAX}`);
+  if (cfg.stack > STACK_MAX && !d._screen) throw new Error(`${ID} inverse: stack ${cfg.stack} > ${STACK_MAX}`);
   return cfg;
 }
 /** F4's deal: exactly `members` members (the 5 case always in when fiveIn), the near misses always in, the rest non-members; every ones digit 1..9 present when digitCover; shuffled. */
@@ -540,7 +553,7 @@ function resolveBoth(d, bank) {
   const cfg = {
     face: 'both', steps, min: d.min, max: d.max, items: d.items, cols: d.cols || 1, fiveMin: fm ? { 10: fm[10], 100: fm[100] } : null,
     upMin: d.upMin || 0, downMin: d.downMin || 0, digitMax: d.digitMax == null ? 2 : d.digitMax, digitDistinct: d.digitDistinct || 0, carryMax: d.carryMax == null ? Infinity : d.carryMax,
-    rule: d.rule !== false, rowH: d.rowH || 44, rowGap: d.rowGap == null ? 10 : d.rowGap, worked: G.worked.both, relation: bank.relation, heads: { 10: bank.heads && bank.heads[10], 100: bank.heads && bank.heads[100] },
+    rule: d.rule !== false, rowH: d.rowH || 44, rowGap: d.rowGap == null ? 10 : d.rowGap, worked: G.worked.both, trapMin: d.trapMin || 0, relation: bank.relation, heads: { 10: bank.heads && bank.heads[10], 100: bank.heads && bank.heads[100] },
   };
   if (!Number.isInteger(cfg.min) || !Number.isInteger(cfg.max) || cfg.min < 101 || cfg.max > 949 || cfg.min >= cfg.max) throw new Error(`${ID} both: range ${cfg.min}..${cfg.max} must sit inside 101..949 (round(n, 100) <= 999)`);
   if (!Number.isInteger(cfg.items) || cfg.items < 6 || cfg.items > 12) throw new Error(`${ID} both: ${cfg.items} lines outside [6, 12]`);
@@ -553,7 +566,7 @@ function resolveBoth(d, bank) {
   for (const s of steps) if (typeof cfg.heads[s] !== 'string' || !cfg.heads[s].trim()) throw new Error(`${ID}: the bank has no heads[${s}] literal — refuse`);
   if (!Number.isInteger(cfg.worked) || cfg.worked % 10 === 0 || round(cfg.worked, 100) > G.max) throw new Error(`${ID} both: the worked example ${cfg.worked} is not roundable at both places`);
   cfg.stack = (cfg.rule ? RULE_H + GAP : 0) + LANE_PAD + 24 + 6 + cfg.items * cfg.rowH + (cfg.items - 1) * cfg.rowGap;
-  if (cfg.stack > STACK_MAX) throw new Error(`${ID} both: stack ${cfg.stack} > ${STACK_MAX}`);
+  if (cfg.stack > STACK_MAX && !d._screen) throw new Error(`${ID} both: stack ${cfg.stack} > ${STACK_MAX}`);
   return cfg;
 }
 /** F5's pool: in range, ones digit != 0 (both roundings non-trivial), round(n, 100) <= 999, never the worked number. */
@@ -595,6 +608,7 @@ function composeBoth(rng, cfg) {
     if (!ok) continue;
     if (items.filter((n) => carries(n, 10)).length > cfg.carryMax) continue;
     if (items.filter((n) => Math.floor(n / 10) % 10 === 5).length < cfg.fiveMin[100]) continue;
+    if (cfg.trapMin && items.filter(isTrap).length < cfg.trapMin) continue;
     return rng.shuffle(items);
   }
   return null;
@@ -828,6 +842,7 @@ function VERIFY_FACE(face) {
     const mem = vs.filter((v) => round(v, step) === target).length;
     if (mem !== members) fails.push(`${mem} members re-derived, config says ${members}`);
     for (const v of nearMiss) if (!vs.includes(v)) fails.push(`near miss ${v} is missing from the field`);
+    if (D.lcsFarfrom) for (const v of vs) if (round(v, step) !== target && Math.abs(v - target) < +D.lcsFarfrom) fails.push(`non-member ${v} is closer than ${D.lcsFarfrom} to the target ${target} (level 1: only clearly-far numbers)`);
     if (fiveIn && !vs.includes(target - step / 2)) fails.push(`the 5 case ${target - step / 2} is missing from the field`);
     if (digitCover) { const seenD = new Set(vs.map((v) => deciding(v, step))); for (let dd = 1; dd <= 9; dd++) if (!seenD.has(dd)) fails.push(`deciding digit ${dd} never appears (digitCover)`); }
     // ring room: neighbours >= 20 px apart in x (within a row) and y (between rows)
@@ -891,6 +906,7 @@ function VERIFY_FACE(face) {
     if (Object.keys(hist).length < digitDistinct) fails.push(`${Object.keys(hist).length} distinct ones digits < ${digitDistinct}`);
     const carry = ns.filter((n) => carries(n, 10)).length;
     if (carry > carryMax) fails.push(`${carry} carry cases at the ten > carryMax ${carryMax}`);
+    { const tm = +(D.lcsTrapmin || 0); const tr = ns.filter((n) => n % 100 >= 45 && n % 100 <= 49).length; if (tm && tr < tm) fails.push(`${tr} chain-rounding traps (tens 4, ones 5-9) < trapMin ${tm}`); }
     // the header: exactly two cells, the bank heads, centred on the boxes
     const heads = [...root.querySelectorAll('[data-lcs-head]')];
     if (heads.map((h) => h.dataset.lcsHead).join(',') !== '10,100') fails.push(`header cells ${heads.map((h) => h.dataset.lcsHead).join(',')} (want 10, 100)`);
@@ -939,6 +955,165 @@ function VERIFY_FACE(face) {
   return fails;
 }
 
+/* ------------------------------------------------------------------ Level Set (walk #63, 2026-10-14): levels, screens, keys ------------------------------------------------------------------ */
+/*
+ * Level 2 of every face is its published config, untouched (the 66 published pages are byte-identical: built HEAD vs
+ * tree, every knob below is read only when present). Levels 1 / 3 per face are config only — every knob is stamped and
+ * re-checked by VERIFY_BASE / VERIFY_FACE from the stamps. The base keeps its own d1 / d3 (YES-NOW in the ladder).
+ * ⚠ The face files are generated by tools/gen-b4var-specs.js; they now call levelsFor / interactiveFor — a re-run of the
+ * generator would flatten them back to {1: D, 2: D, 3: D}.
+ */
+const FACE_LEVELS = {
+  // sort: two-digit numbers only, no x95 bridge, ten chips / three-digit only, two bridges (x95 -> next hundred), fifteen chips, twelve cells a bin, no rule box
+  'G3-387': {
+    1: { min: 11, max: 99, mix: null, items: 10, carryMax: 0, splitMin: 4, splitMax: 6, chip: 80, chipPx: 30, chipCols: 5, cellH: 80 },
+    3: { min: 101, max: 994, mix: null, items: 15, carryMin: 2, carryMax: 3, splitMin: 6, splitMax: 9, cells: 12, cellH: 60, cellGap: 12, chip: 76, chipCols: 5, rule: false },
+  },
+  // hundred: twelve lines, the deciding (tens) digit tinted / sixteen lines, no rule box, two chain-rounding traps (449 -> 400)
+  'G3-388': {
+    1: { items: 12, max: 899, onesTint: true, trapMax: 0 },
+    3: { items: 16, rule: false, trapMin: 2 },
+  },
+  // estimate: small addends (sums up to 80), six roomy rows / three-digit addends, sums up to 999, no rule box
+  'G3-389': {
+    1: { addMin: 11, addMax: 49, sumMax: 80, roundedSumMax: 100, items: 6, upMin: 4, downMin: 4, rowH: 64, rowGap: 26 },
+    3: { addMin: 26, addMax: 489, sumMax: 999, roundedSumMax: 999, items: 8, exprW: 140, boxW: 84, rule: false, rowH: 60, rowGap: 16 },
+  },
+  // inverse: twelve pills from the two tens beside the target / sixteen pills around a HUNDREDS ten (345 in, 344 / 355 out), no rule box
+  'G3-390': {
+    all: { targets: [50, 30, 70, 40, 60, 20, 80], band: 20 },
+    1: { pills: 12, members: 5, band: 20, farFrom: 10, pillW: 120, pillH: 96, px: 36, gap: 30, rowGap: 60, stagger: 30 },
+    3: { targets: [350, 150, 650, 250, 450, 750, 550, 850], band: 30, pills: 16, members: 6, pillW: 120, pillH: 96, px: 34, gap: 30, rowGap: 50, stagger: 30, rule: false },
+  },
+  // both: six lines, no ones-digit bridge / ten lines, three fives at each place, two chain-rounding traps, no rule box
+  'G3-391': {
+    1: { items: 6, digitDistinct: 5, carryMax: 0, rowH: 64, rowGap: 24 },
+    3: { items: 10, fiveMin: { 10: 3, 100: 3 }, digitMax: 3, digitDistinct: 7, carryMax: 3, trapMin: 2, rule: false, rowH: 48, rowGap: 12 },
+  },
+};
+/** the three levels of a face: level 2 = D (the published config) + the `all` knobs, which a published page never reads */
+function levelsFor(id, D) {
+  const L = FACE_LEVELS[id];
+  if (!L) throw new Error(`${ID}: no Level Set levels for ${id}`);
+  const all = L.all || {};
+  return { 1: { ...D, ...all, ...L[1] }, 2: { ...D, ...all }, 3: { ...D, ...all, ...L[3] } };
+}
+
+/** the inverse face's target for a copy: seed variant 1 (the published page and every level's first copy) = targets[0] */
+function targetOf(d, sv) {
+  if (!Array.isArray(d.targets) || !d.targets.length) return d.target;
+  return d.targets[((Number(sv) || 1) - 1) % d.targets.length];
+}
+/** the config of one copy of the inverse face: its target, the band of numbers around it, the near misses and a worked example far from it */
+function targetConfig(d, sv) {
+  if (!Array.isArray(d.targets) || !d.band) return d;
+  const t = targetOf(d, sv);
+  const range = [Math.max(11, t - d.band), t + d.band - 1];
+  const inR = (v) => v >= range[0] && v <= range[1];
+  // the worked example: never in the field's range, never rounding to the target (83 = the published one)
+  const worked = [G.worked.inverse[10], 23, 97, 14].find((w) => !inR(w) && round(w, 10) !== t);
+  return { ...d, target: t, range, nearMiss: d.farFrom ? [] : [t - 6, t + 5], worked };
+}
+
+/** which drawing a build is asked for: the printed page, the screen version (ctx.interactive) or the answer key (ctx.answerKey) */
+function viewOf(ctx) { return ctx && ctx.interactive ? 'screen' : ctx && ctx.answerKey ? 'key' : 'page'; }
+/** the screen page is as tall as its content (the screen shell is much taller than a sheet — a 1fr lane would spread the lines over it) */
+function screenify(html) {
+  return html.replace('style="flex:1;display:grid;', 'style="flex:0 0 auto;display:grid;').replace(/minmax\((\d+)px, 1fr\)/g, '$1px');
+}
+/** the screen sizes: every write box >= 92 page px tall (>= 44 px on a 360 phone); the numbers >= 40 px */
+const SCREEN = {
+  row: { rowH: 100, rowGap: 18, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 92 },
+  sort: { cellW: 100, cellH: 92, cellGap: 8, cellCols: 3, binW: 330, pillH: 44, pillPx: 20 },
+  estimate: { rowH: 158, rowGap: 22, px: 38, exprW: 210, boxW: 118, boxH: 92 },
+  inverse: { pillW: 126, pillH: 96, px: 36, gap: 24, rowGap: 30, stagger: 28, perRow: 4 },
+  both: { rowH: 100, rowGap: 16, px: 44, numeralW: 96, glyph: 32, boxW: 124, boxH: 92, mid: 24, width: 500, centres: [246, 434] },
+};
+
+/* the screen sentences (i18n/interactive-instructions.json rounding.<key>) */
+const TAP = require('../../i18n/interactive-instructions.json').rounding || {};
+function modeOf(d) { return d.mode || (Array.isArray(d.steps) && d.steps.length > 1 ? 'both' : 'write'); }
+/**
+ * The robot's INDEPENDENT oracles: every answer recomputed from the numbers the screen stamps on its boxes / pills
+ * (n, step, a, b, the page's chip values, the target) with its own half-up rule — never from the page's answer marks.
+ */
+const rnd = (n, s) => Math.floor(n / s + 0.5) * s;
+const ints = (v) => String(v || '').split(',').filter(Boolean).map(Number);
+const ORACLE = {
+  write(items) {
+    return items.map((it) => {
+      const m = it.meta || {};
+      if (m['data-lcs-role']) {
+        const a = +m['data-lcs-a'], b = +m['data-lcs-b'];
+        if (!Number.isInteger(a) || !Number.isInteger(b)) throw new Error('rounding oracle: no addends on an estimate box');
+        return m['data-lcs-role'] === 'a' ? rnd(a, 10) : m['data-lcs-role'] === 'b' ? rnd(b, 10) : rnd(a, 10) + rnd(b, 10);
+      }
+      const n = +m['data-lcs-n'], s = +m['data-lcs-step'];
+      if (!Number.isInteger(n) || (s !== 10 && s !== 100)) throw new Error('rounding oracle: no number / step on a box');
+      return rnd(n, s);
+    });
+  },
+  sort(items) {
+    const pool = ints((items[0] && items[0].meta || {})['data-lcs-pool']);
+    if (!pool.length) throw new Error('rounding oracle: no chip numbers');
+    return { boxes: items.map(() => null), sets: { down: pool.filter((v) => v % 10 < 5), up: pool.filter((v) => v % 10 >= 5) } };
+  },
+  circle(items) {
+    return items.map((it) => {
+      const v = +(it.meta || {})['data-lcs-val'], t = +(it.meta || {})['data-lcs-target'];
+      if (!Number.isInteger(v) || !Number.isInteger(t)) throw new Error('rounding oracle: no value / target on a pill');
+      return rnd(v, 10) === t;
+    });
+  },
+};
+/** the interactive declaration of one face (base / hundred / both / estimate write; sort sorts into the bins; inverse taps) */
+function interactiveFor(mode) {
+  if (mode === 'write' || mode === 'both' || mode === 'estimate') {
+    return { kind: 'type-number', item: '[data-lcs-round] .ws-blankbox', answerAttr: 'data-lcs-answer', labelAttr: mode === 'estimate' ? 'data-lcs-role' : 'data-lcs-n',
+      metaAttrs: ['data-lcs-n', 'data-lcs-step', 'data-lcs-role', 'data-lcs-a', 'data-lcs-b'], instructionKey: 'write', screenHeight: mode === 'estimate' ? 2400 : 2000,
+      maxDigits: () => 3, oracle: (items) => ORACLE.write(items) };
+  }
+  if (mode === 'sort') {
+    return { kind: 'type-number', item: '[data-lcs-bins] .ws-blankbox', answerAttr: 'data-lcs-answer', labelAttr: 'data-lcs-set',
+      metaAttrs: ['data-lcs-set', 'data-lcs-pool', 'data-lcs-members'], instructionKey: 'sort', screenHeight: 2000, maxDigits: () => 3,
+      screenCtx: (items) => { const sets = {}; for (const it of items) { const p = it.meta['data-lcs-set']; if (!sets[p]) sets[p] = ints(it.meta['data-lcs-members']); } return { sortSets: sets }; },
+      oracle: (items) => ORACLE.sort(items) };
+  }
+  if (mode === 'inverse') {
+    return { kind: 'tap-select', item: '[data-lcs-field] .ws-nchip', answerAttr: 'data-lcs-in', labelAttr: 'data-lcs-val',
+      metaAttrs: ['data-lcs-val', 'data-lcs-target'], instructionKey: 'circle', screenHeight: 2000, oracle: (items) => ORACLE.circle(items) };
+  }
+  throw new Error(`${ID}: no interactive declaration for mode ${mode}`);
+}
+/**
+ * The strings of one copy: the inverse face's title names ITS target (the "50" of the title swapped — present exactly
+ * once in every locale, asserted); the screen sentence = the printed instruction + how to answer on a screen (the
+ * inverse face: its own full sentence, since the child taps instead of circling).
+ */
+function copyStrings(s, o) {
+  const d = this.difficulty[o.difficulty] || {};
+  const mode = modeOf(d);
+  const loc = String(o.locale || 'en').slice(0, 2);
+  let out = { ...s };
+  if (mode === 'inverse') {
+    const t = targetOf(d, o.seedVariant);
+    for (const k of ['title', 'printTitle']) {
+      if (out[k] == null) continue;
+      if ((String(out[k]).match(/(?<!\d)50(?!\d)/g) || []).length !== 1) throw new Error(`${ID}: the ${loc} ${k} of the inverse face must name 50 exactly once ("${out[k]}")`);
+      out[k] = String(out[k]).replace(/(?<!\d)50(?!\d)/, String(t));
+    }
+  }
+  const key = mode === 'inverse' ? 'circle' : mode === 'sort' ? 'sort' : 'write';
+  const tap = TAP[key] && TAP[key][loc];
+  if (tap) out.screenInstruction = key === 'circle' ? tap : out.instruction + ' ' + tap;
+  return out;
+}
+/** what makes a Level Set copy different: the numbers it asks about */
+function levelSetWords(m) {
+  if (m.pairs) return m.pairs.map((p) => p.slice().sort((x, y) => x - y).join('+'));
+  return (m.items || m.values || []).map(String);
+}
+
 module.exports = {
   id: ID,
   slug: 'rounding-numbers',
@@ -962,6 +1137,8 @@ module.exports = {
   },
   round, decidingDigit, carries, isUp, resolveBase, pool, compose,
   resolveSort, resolveEstimate, pairPool, samplePairs, resolveInverse, sampleField, resolveBoth, poolBoth, composeBoth, STACK_MAX,
+  isTrap, levelsFor, interactiveFor, targetOf, targetConfig, FACE_LEVELS, SCREEN, copyStrings, levelSetWords,
+  interactive: interactiveFor('write'),
 
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
@@ -977,12 +1154,17 @@ module.exports = {
     // Phase 2 faces — the additive `mode` knob, dispatched BEFORE the base path touches the RNG
     if (d.mode) return this._buildFace(bank, d, { locale: loc }, ctx);
     if (Array.isArray(d.steps) && d.steps.length > 1) return this._buildBoth(bank, d, { locale: loc }, ctx);
+    const view = viewOf(ctx);
     const cfg = resolveBase(d, bank);
     const step = cfg.step;
     for (const s of cfg.steps) for (const dir of ['up', 'down']) if (typeof bank[dir][s] !== 'string' || !bank[dir][s].trim()) throw new Error(`${ID}: the ${loc} bank has no ${dir}[${s}] literal — refuse`);
     const items = compose(rng, cfg);
     if (!items) throw new Error(`${ID}: no deal for ${cfg.items} items in ${cfg.min}..${cfg.max} at step ${step} under the quotas (fiveMin ${cfg.fiveMin}, up ${cfg.upMin}, down ${cfg.downMin}, carry ${cfg.carryMin}..${cfg.carryMax}, digitMax ${cfg.digitMax}) — REFUSED`);
     const rel = cfg.relation;
+    // Level Set (walk #63): the SCREEN draws the same lines bigger (a box a finger can hit on a phone); page + key keep
+    // the printed sizes; the key writes each answer in its box
+    const sc = view === 'screen' ? SCREEN.row : null;
+    const rowH = sc ? sc.rowH : cfg.rowH, rowGap = sc ? sc.rowGap : cfg.rowGap;
     // the rule box
     let ruleHtml = '';
     if (cfg.rule) {
@@ -993,20 +1175,26 @@ module.exports = {
       });
     }
     // the lines, column-major (1..rows down the left column, then the right)
-    const rowsHtml = items.map((n, i) => C4.roundRow({ idx: i + 1, n, step, answer: round(n, step), rel, onesTint: cfg.onesTint, rowH: cfg.rowH })).join('');
-    const laneMin = 24 + cfg.rows * cfg.rowH + (cfg.rows - 1) * cfg.rowGap;
-    const lane = `<div class="ws-lane" data-lcs-lines data-ws-content style="display:grid;grid-template-rows:repeat(${cfg.rows},${cfg.rowH}px);grid-auto-flow:column;grid-template-columns:repeat(${cfg.cols},1fr);row-gap:${cfg.rowGap}px;justify-items:center;align-content:space-evenly;min-height:${laneMin}px">${rowsHtml}</div>`;
+    const rowsHtml = items.map((n, i) => C4.roundRow({
+      idx: i + 1, n, step, answer: round(n, step), rel, onesTint: cfg.onesTint, rowH,
+      ...(sc ? { px: sc.px, numeralW: sc.numeralW, glyph: sc.glyph, boxW: sc.boxW, boxH: sc.boxH, boxAttrs: `data-lcs-n="${n}" data-lcs-step="${step}"` } : {}),
+      ...(view === 'key' ? { key: true } : {}),
+    })).join('');
+    const laneMin = 24 + cfg.rows * rowH + (cfg.rows - 1) * rowGap;
+    const lane = `<div class="ws-lane" data-lcs-lines data-ws-content style="display:grid;grid-template-rows:repeat(${cfg.rows},${rowH}px);grid-auto-flow:column;grid-template-columns:repeat(${cfg.cols},1fr);row-gap:${rowGap}px;justify-items:center;align-content:space-evenly;min-height:${laneMin}px">${rowsHtml}</div>`;
     const stamps = [
       ['step', step], ['items', cfg.items], ['cols', cfg.cols], ['mix', cfg.mix ? Object.entries(cfg.mix).map(([k, c]) => `${k}:${c}`).join(';') : ''],
       ['fivemin', cfg.fiveMin], ['upmin', cfg.upMin], ['downmin', cfg.downMin], ['carrymax', Number.isFinite(cfg.carryMax) ? cfg.carryMax : ''], ['carrymin', cfg.carryMin],
       ['digitcover', cfg.digitCover ? 1 : 0], ['digitmax', cfg.digitMax], ['min', cfg.min], ['max', cfg.max], ['example', cfg.worked], ['rule', cfg.rule ? 1 : 0],
       ['onestint', cfg.onesTint ? 1 : 0], ['down', bank.down[step]], ['up', bank.up[step]], ['rel', rel],
+      ...(cfg.trapMin ? [['trapmin', cfg.trapMin]] : []),   // Level Set only: a published page carries no new stamp
+      ...(Number.isFinite(cfg.trapMax) ? [['trapmax', cfg.trapMax]] : []),
     ].map(([k, v]) => `data-lcs-${k}="${String(v).replace(/"/g, '&quot;')}"`).join(' ');
     const rows = cfg.rule ? `auto minmax(${laneMin}px, 1fr)` : `minmax(${laneMin}px, 1fr)`;
     const bodyHtml = `<div data-ws-content data-lcs-round ${stamps} style="flex:1;display:grid;grid-template-rows:${rows};row-gap:12px;min-height:0">${ruleHtml}${lane}</div>`;
     return {
-      bodyHtml,
-      meta: { face: 'base', step, items, answers: items.map((n) => round(n, step)), worked: cfg.worked, stack: (cfg.rule ? 96 + 12 : 0) + laneMin },
+      bodyHtml: view === 'screen' ? screenify(bodyHtml) : bodyHtml,
+      meta: { face: 'base', step, items, answers: items.map((n) => round(n, step)), worked: cfg.worked, stack: (cfg.rule ? 96 + 12 : 0) + 24 + cfg.rows * cfg.rowH + (cfg.rows - 1) * cfg.rowGap },
     };
   },
 
@@ -1029,29 +1217,42 @@ module.exports = {
 
   /* ---- F1 sort: the rule box, the chip lane, the two arrow bins (nothing written but the sorting) */
   _buildSort(bank, d, { locale }, ctx) {
+    const view = viewOf(ctx);
     const cfg = resolveSort(d, bank);
     literals(bank, cfg.steps, locale);
     const items = compose(ctx.rng, cfg);
     if (!items) throw new Error(`${ID} sort: no deal for ${cfg.items} chips in ${cfg.min}..${cfg.max} under the quotas — REFUSED`);
     const step = cfg.step, rel = cfg.relation;
+    // the screen draws the bins' cells big enough to tap (the content and its order are the page's)
+    const g = view === 'screen' ? resolveSort({ ...d, ...SCREEN.sort, _screen: true }, bank) : cfg;
+    const ups = items.filter((n) => isUp(n, step)), downs = items.filter((n) => !isUp(n, step));
     const ruleHtml = cfg.rule ? this._ruleBox(bank, cfg, [C4.workedLine({ n: cfg.worked, step, px: 30, rel })], decidingDigit(cfg.worked, step)) : '';
     const lane = C4.roundChipLane({ values: items, step, chip: cfg.chip, gap: cfg.chipGap, rowGap: cfg.chipRowGap, cols: cfg.chipCols, px: cfg.chipPx });
-    const bins = C4.updownBins({ down: { label: bank.down[step] }, up: { label: bank.up[step] }, cells: cfg.cells, cellW: cfg.cellW, cellH: cfg.cellH, cellGap: cfg.cellGap, cols: cfg.cellCols, w: cfg.binW, h: cfg.binH, pillH: cfg.pillH, pillPx: cfg.pillPx });
+    const binOpts = {
+      down: { label: bank.down[step] }, up: { label: bank.up[step] }, cells: cfg.cells, cellW: g.cellW, cellH: g.cellH, cellGap: g.cellGap, cols: g.cellCols, w: g.binW, h: g.binH, pillH: g.pillH, pillPx: g.pillPx,
+    };
+    // screen: every cell knows its bin + the page's numbers (the robot's oracle sorts them itself); key: each bin's numbers written in
+    if (view === 'screen') binOpts.cellAttrs = (dir) => `data-lcs-set="${dir}" data-lcs-pool="${items.join(',')}" data-lcs-members="${(dir === 'up' ? ups : downs).join(',')}"`;
+    if (view === 'key') binOpts.keyVals = { down: downs, up: ups };
+    const bins = C4.updownBins(binOpts);
     const stamps = [
       ['mode', 'sort'], ['step', step], ['items', cfg.items], ['mix', cfg.mix ? Object.entries(cfg.mix).map(([k, c]) => `${k}:${c}`).join(';') : ''], ['fivemin', cfg.fiveMin],
       ['splitmin', cfg.splitMin], ['splitmax', cfg.splitMax], ['cells', cfg.cells], ['carrymax', Number.isFinite(cfg.carryMax) ? cfg.carryMax : ''], ['digitcover', cfg.digitCover ? 1 : 0], ['digitmax', cfg.digitMax],
       ['min', cfg.min], ['max', cfg.max], ['example', cfg.worked], ['rule', cfg.rule ? 1 : 0], ['chip', cfg.chip], ['chipcols', cfg.chipCols], ['cellw', cfg.cellW], ['cellh', cfg.cellH], ['laneh', cfg.laneH], ['binh', cfg.binH], ['stack', cfg.stack],
       ['down', bank.down[step]], ['up', bank.up[step]], ['rel', rel],
+      ...(cfg.carryMin ? [['carrymin', cfg.carryMin]] : []),
     ];
-    const rows = (cfg.rule ? 'auto ' : '') + `${cfg.laneH}px ${cfg.binH}px`;
+    const rows = (cfg.rule ? 'auto ' : '') + `${cfg.laneH}px ${g.binH}px`;
+    const body = this._faceRoot({ stamps, ruleHtml, content: lane + bins, rows, topAnchored: true });
     return {
-      bodyHtml: this._faceRoot({ stamps, ruleHtml, content: lane + bins, rows, topAnchored: true }),
-      meta: { face: 'sort', step, items, split: { up: items.filter((n) => isUp(n, step)).length, down: items.filter((n) => !isUp(n, step)).length }, worked: cfg.worked, stack: cfg.stack },
+      bodyHtml: view === 'screen' ? screenify(body) : body,
+      meta: { face: 'sort', step, items, split: { up: ups.length, down: downs.length }, worked: cfg.worked, stack: cfg.stack },
     };
   },
 
   /* ---- F3 estimate: `a + b [glyph] [ ] + [ ] = [ ]`, one column */
   _buildEstimate(bank, d, { locale }, ctx) {
+    const view = viewOf(ctx);
     const cfg = resolveEstimate(d, bank);
     literals(bank, cfg.steps, locale);
     const pairs = samplePairs(ctx.rng, cfg);
@@ -1059,70 +1260,98 @@ module.exports = {
     const step = cfg.step, rel = cfg.relation;
     const [w1, w2] = cfg.worked;
     const ruleHtml = cfg.rule ? this._ruleBox(bank, cfg, [C4.workedLine({ expr: `${w1} + ${w2}`, a: w1, b: w2, step, px: 26, rel })], decidingDigit(w2, step)) : '';
-    const rowsHtml = pairs.map(([a, b], i) => C4.estimateRow({ idx: i + 1, a, b, step, rel, exprW: cfg.exprW, rowH: cfg.rowH })).join('');
-    const laneMin = LANE_PAD + cfg.items * cfg.rowH + (cfg.items - 1) * cfg.rowGap;
-    const lane = `<div class="ws-lane" data-lcs-lines data-ws-content style="display:grid;grid-auto-rows:${cfg.rowH}px;row-gap:${cfg.rowGap}px;justify-items:center;align-content:space-evenly;min-height:${laneMin}px">${rowsHtml}</div>`;
+    const sc = view === 'screen' ? SCREEN.estimate : null;
+    const rowH = sc ? sc.rowH : cfg.rowH, rowGap = sc ? sc.rowGap : cfg.rowGap;
+    const rowsHtml = pairs.map(([a, b], i) => {
+      const o = { idx: i + 1, a, b, step, rel, exprW: sc ? sc.exprW : cfg.exprW, rowH };
+      if (d.boxW) o.boxW = d.boxW;   // Level Set: three-digit answers need 84-wide boxes
+      if (sc) Object.assign(o, { split: true, px: sc.px, boxW: sc.boxW, boxH: sc.boxH, boxAttrs: `data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-step="${step}"` });
+      if (view === 'key') o.key = true;
+      return C4.estimateRow(o);
+    }).join('');
+    const laneMin = LANE_PAD + cfg.items * rowH + (cfg.items - 1) * rowGap;
+    const lane = `<div class="ws-lane" data-lcs-lines data-ws-content style="display:grid;grid-auto-rows:${rowH}px;row-gap:${rowGap}px;justify-items:center;align-content:space-evenly;min-height:${laneMin}px">${rowsHtml}</div>`;
     const stamps = [
       ['mode', 'estimate'], ['step', step], ['items', cfg.items], ['addmin', cfg.addMin], ['addmax', cfg.addMax], ['summax', cfg.sumMax], ['roundedsummax', cfg.roundedSumMax],
       ['fivemin', cfg.fiveMin], ['upmin', cfg.upMin], ['downmin', cfg.downMin], ['digitcover', cfg.digitCover ? 1 : 0], ['digitmax', cfg.digitMax], ['example', `${w1}+${w2}`], ['rule', cfg.rule ? 1 : 0],
       ['rowh', cfg.rowH], ['rowgap', cfg.rowGap], ['stack', cfg.stack], ['down', bank.down[step]], ['up', bank.up[step]], ['rel', rel],
     ];
     const rows = (cfg.rule ? 'auto ' : '') + `minmax(${laneMin}px, 1fr)`;
+    const body = this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: false });
     return {
-      bodyHtml: this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: false }),
+      bodyHtml: view === 'screen' ? screenify(body) : body,
       meta: { face: 'estimate', step, pairs, answers: pairs.map(([a, b]) => [round(a, step), round(b, step), round(a, step) + round(b, step)]), worked: cfg.worked, stack: cfg.stack },
     };
   },
 
   /* ---- F4 inverse: the target pill over a staggered field of numeral pills; the child circles every member */
-  _buildInverse(bank, d, { locale }, ctx) {
+  _buildInverse(bank, d0, { locale }, ctx) {
+    const view = viewOf(ctx);
+    const d = targetConfig(d0, ctx && ctx.seedVariant);   // Level Set: each copy rounds to its own ten (the published copy keeps 50)
     const cfg = resolveInverse(d, bank);
     literals(bank, cfg.steps, locale);
     const values = sampleField(ctx.rng, cfg);
     if (!values) throw new Error(`${ID} inverse: no deal for ${cfg.pills} pills around ${cfg.target} under the quotas — REFUSED`);
     const step = cfg.step, rel = cfg.relation;
+    const g = view === 'screen' ? { ...cfg, ...SCREEN.inverse } : cfg;
     const ruleHtml = cfg.rule ? this._ruleBox(bank, cfg, [C4.workedLine({ n: cfg.worked, step, px: 30, rel })], decidingDigit(cfg.worked, step)) : '';
     const pill = C4.targetPill({ target: cfg.target, step, rel, h: cfg.targetH, px: cfg.targetPx });
-    const field = C4.numberField({ target: cfg.target, step, values, pillW: cfg.pillW, pillH: cfg.pillH, gap: cfg.gap, rowGap: cfg.rowGap, stagger: cfg.stagger, perRow: cfg.perRow, px: cfg.px });
-    const laneH = LANE_PAD + cfg.targetH + cfg.fieldGap + cfg.fieldH;
+    const fo = { target: cfg.target, step, values, pillW: g.pillW, pillH: g.pillH, gap: g.gap, rowGap: g.rowGap, stagger: g.stagger, perRow: g.perRow, px: g.px };
+    if (view !== 'page') fo.mark = view;
+    let field = C4.numberField(fo);
+    if (view === 'screen') field = field.replace(/class="ws-nchip" data-lcs-val=/g, `class="ws-nchip" data-lcs-target="${cfg.target}" data-lcs-val=`);
+    const rowsN = cfg.pills / cfg.perRow;
+    const laneH = LANE_PAD + cfg.targetH + cfg.fieldGap + rowsN * g.pillH + (rowsN - 1) * g.rowGap;
     const lane = `<div class="ws-lane" data-lcs-inverse-lane data-ws-content style="display:flex;flex-direction:column;align-items:center;gap:${cfg.fieldGap}px;height:${laneH}px;box-sizing:border-box">${pill}${field}</div>`;
     const stamps = [
       ['mode', 'inverse'], ['step', step], ['target', cfg.target], ['pills', cfg.pills], ['members', cfg.members], ['range-lo', cfg.range[0]], ['range-hi', cfg.range[1]], ['nearmiss', cfg.nearMiss.join(',')],
-      ['fivein', cfg.fiveIn ? 1 : 0], ['digitcover', cfg.digitCover ? 1 : 0], ['example', cfg.worked], ['rule', cfg.rule ? 1 : 0], ['pillw', cfg.pillW], ['pillh', cfg.pillH], ['laneh', laneH], ['stack', cfg.stack],
+      ['fivein', cfg.fiveIn ? 1 : 0], ['digitcover', cfg.digitCover ? 1 : 0], ['example', cfg.worked], ['rule', cfg.rule ? 1 : 0], ['pillw', cfg.pillW], ['pillh', cfg.pillH], ['laneh', LANE_PAD + cfg.targetH + cfg.fieldGap + cfg.fieldH], ['stack', cfg.stack],
       ['down', bank.down[step]], ['up', bank.up[step]], ['rel', rel],
+      ...(cfg.farFrom ? [['farfrom', cfg.farFrom]] : []),
     ];
     const rows = (cfg.rule ? 'auto ' : '') + `${laneH}px`;
+    const body = this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: true });
     return {
-      bodyHtml: this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: true }),
+      bodyHtml: view === 'screen' ? screenify(body) : body,
       meta: { face: 'inverse', step, target: cfg.target, values, members: values.filter((v) => round(v, step) === cfg.target), worked: cfg.worked, stack: cfg.stack },
     };
   },
 
   /* ---- F5 both (`steps:[10, 100]`, the PARAM face whose quotas are per place): a header of the two place words, two boxes per line */
   _buildBoth(bank, d, { locale }, ctx) {
+    const view = viewOf(ctx);
     const cfg = resolveBoth(d, bank);
     literals(bank, [10], locale);
     const items = composeBoth(ctx.rng, cfg);
     if (!items) throw new Error(`${ID} both: no deal for ${cfg.items} lines in ${cfg.min}..${cfg.max} under the per-place quotas — REFUSED`);
     const rel = cfg.relation;
+    const sc = view === 'screen' ? SCREEN.both : null;
+    const rowH = sc ? sc.rowH : cfg.rowH, rowGap = sc ? sc.rowGap : cfg.rowGap;
     const ruleHtml = cfg.rule ? C4.roundRuleBox({
       step: 10,
       lines: [C4.workedLine({ n: cfg.worked, step: 10, px: 26, rel, placePill: true }), C4.workedLine({ n: cfg.worked, step: 100, px: 26, rel, placePill: true })],
       strip: C4.digitStrip({ step: 10, ring: decidingDigit(cfg.worked, 10), captions: { down: bank.down[10], up: bank.up[10] } }),
     }) : '';
-    const header = C4.placeHeader({ heads: [cfg.heads[10], cfg.heads[100]] });
-    const rowsHtml = items.map((n, i) => C4.twoTargetRow({ idx: i + 1, n, steps: [10, 100], answers: [round(n, 10), round(n, 100)], rel, rowH: cfg.rowH })).join('');
-    const laneMin = LANE_PAD + 24 + 6 + cfg.items * cfg.rowH + (cfg.items - 1) * cfg.rowGap;
+    const header = sc ? C4.placeHeader({ heads: [cfg.heads[10], cfg.heads[100]], centres: sc.centres, w: sc.width }) : C4.placeHeader({ heads: [cfg.heads[10], cfg.heads[100]] });
+    const rowsHtml = items.map((n, i) => {
+      const o = { idx: i + 1, n, steps: [10, 100], answers: [round(n, 10), round(n, 100)], rel, rowH };
+      if (sc) Object.assign(o, { numeralW: sc.numeralW, px: sc.px, glyph: sc.glyph, boxW: sc.boxW, boxH: sc.boxH, mid: sc.mid, width: sc.width, boxAttrs: `data-lcs-n="${n}"` });
+      if (view === 'key') o.key = true;
+      return C4.twoTargetRow(o);
+    }).join('');
+    const laneMin = LANE_PAD + 24 + 6 + cfg.items * rowH + (cfg.items - 1) * rowGap;
     const lane = `<div class="ws-lane" data-lcs-lines data-ws-content style="display:flex;flex-direction:column;align-items:center;min-height:${laneMin}px">${header}` +
-      `<div data-lcs-two-rows style="flex:1;display:grid;grid-auto-rows:${cfg.rowH}px;row-gap:${cfg.rowGap}px;justify-items:center;align-content:space-evenly;padding-top:6px;min-height:${cfg.items * cfg.rowH + (cfg.items - 1) * cfg.rowGap + 6}px">${rowsHtml}</div></div>`;
+      `<div data-lcs-two-rows style="flex:1;display:grid;grid-auto-rows:${rowH}px;row-gap:${rowGap}px;justify-items:center;align-content:space-evenly;padding-top:6px;min-height:${cfg.items * rowH + (cfg.items - 1) * rowGap + 6}px">${rowsHtml}</div></div>`;
     const stamps = [
       ['face', 'both'], ['steps', '10,100'], ['items', cfg.items], ['min', cfg.min], ['max', cfg.max], ['fivemin10', cfg.fiveMin[10]], ['fivemin100', cfg.fiveMin[100]], ['upmin', cfg.upMin], ['downmin', cfg.downMin],
       ['digitmax', cfg.digitMax], ['digitdistinct', cfg.digitDistinct], ['carrymax', Number.isFinite(cfg.carryMax) ? cfg.carryMax : ''], ['example', cfg.worked], ['rule', cfg.rule ? 1 : 0], ['rowh', cfg.rowH], ['rowgap', cfg.rowGap], ['stack', cfg.stack],
       ['head10', cfg.heads[10]], ['head100', cfg.heads[100]], ['down', bank.down[10]], ['up', bank.up[10]], ['rel', rel],
+      ...(cfg.trapMin ? [['trapmin', cfg.trapMin]] : []),
     ];
     const rows = (cfg.rule ? 'auto ' : '') + `minmax(${laneMin}px, 1fr)`;
+    const body = this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: false });
     return {
-      bodyHtml: this._faceRoot({ stamps, ruleHtml, content: lane, rows, topAnchored: false }),
+      bodyHtml: view === 'screen' ? screenify(body) : body,
       meta: { face: 'both', steps: [10, 100], items, answers: items.map((n) => [round(n, 10), round(n, 100)]), worked: cfg.worked, stack: cfg.stack },
     };
   },

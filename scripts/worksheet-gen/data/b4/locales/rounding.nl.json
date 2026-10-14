@@ -15,11 +15,11 @@
   "strings": {
     "base": {
       "title": "Afronden op tientallen: schrijf het tiental",
-      "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan naar boven."
+      "instruction": "Rond elk getal af op het tiental en schrijf het in het vakje. Is het laatste cijfer 5 of meer, rond dan af naar boven."
     },
     "sort": {
       "title": "Naar boven of naar beneden? Sorteer de getallen",
-      "instruction": "Gaat elk getal naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
+      "instruction": "Rond je elk getal af naar boven of naar beneden op het tiental? Schrijf het in de juiste bak."
     },
     "hundred": {
       "title": "Afronden op honderdtallen: kijk naar het cijfer van de tientallen",
@@ -31,7 +31,7 @@
     },
     "inverse": {
       "title": "Welke getallen worden 50?",
-      "instruction": "Omcirkel elk getal dat op het tiental bovenaan uitkomt. Kijk naar het laatste cijfer van elk getal."
+      "instruction": "Omcirkel elk getal dat je afrondt op het getal bovenaan. Kijk naar het laatste cijfer van elk getal."
     },
     "both": {
       "title": "Afronden op tientallen en honderdtallen",

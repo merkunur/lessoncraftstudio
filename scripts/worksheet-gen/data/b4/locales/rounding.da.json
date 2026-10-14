@@ -19,7 +19,7 @@
     },
     "sort": {
       "title": "Rund op eller ned? Sortér tallene",
-      "instruction": "Runder hvert tal op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
+      "instruction": "Skal hvert tal rundes op eller ned til nærmeste tier? Skriv tallet i den rigtige kasse."
     },
     "hundred": {
       "title": "Afrunding til nærmeste 100",
@@ -31,7 +31,7 @@
     },
     "inverse": {
       "title": "Hvilke tal bliver til 50?",
-      "instruction": "Sæt ring om hvert tal, der bliver til tieren øverst. Se på cifret på enerpladsen."
+      "instruction": "Sæt ring om hvert tal, der afrundes til tallet øverst. Se på cifret på enerpladsen."
     },
     "both": {
       "title": "Afrunding til nærmeste tier og hundrede",

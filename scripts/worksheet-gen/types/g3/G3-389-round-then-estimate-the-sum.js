@@ -9,7 +9,10 @@ module.exports = {
   ...base,
   id: 'G3-389',
   slug: 'round-then-estimate-the-sum',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14 (walk #63): real levels 1 / 3 (G2-346 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b4var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-389', D),
+  interactive: base.interactiveFor('estimate'),
   i18n: { en: { title: "Round, then Estimate the Sum", instruction: "Round both numbers to the nearest ten and write them in the boxes. Then add the rounded numbers." } },
   gradeBand: "G3",
 };

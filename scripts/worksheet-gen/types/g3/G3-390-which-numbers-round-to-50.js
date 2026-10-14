@@ -9,7 +9,10 @@ module.exports = {
   ...base,
   id: 'G3-390',
   slug: 'which-numbers-round-to-50',
-  difficulty: { 1: D, 2: D, 3: D },
+  // Level Set 2026-10-14 (walk #63): real levels 1 / 3 (G2-346 FACE_LEVELS); level 2 = D, the published page.
+  // ⚠ tools/gen-b4var-specs.js would flatten this back to { 1: D, 2: D, 3: D } — do not re-run it for this family.
+  difficulty: base.levelsFor('G3-390', D),
+  interactive: base.interactiveFor('inverse'),
   i18n: { en: { title: "Which Numbers Round to 50?", instruction: "Circle every number that rounds to the ten shown at the top. Look at the ones digit of each number." } },
   gradeBand: "G3",
 };

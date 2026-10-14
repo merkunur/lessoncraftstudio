@@ -15,7 +15,7 @@
   "strings": {
     "base": {
       "title": "Avrundning till närmaste tiotal",
-      "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalet 5 eller mer, avrundar du uppåt."
+      "instruction": "Avrunda varje tal till närmaste tiotal och skriv det i rutan. Är entalssiffran 5 eller mer, avrundar du uppåt."
     },
     "sort": {
       "title": "Uppåt eller nedåt? Sortera talen",
@@ -23,7 +23,7 @@
     },
     "hundred": {
       "title": "Avrundning till hundratal: skriv talet",
-      "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på entalet och tiotalet."
+      "instruction": "Avrunda varje tal till närmaste hundratal och skriv det i rutan. Titta på tiotalssiffran."
     },
     "estimate": {
       "title": "Avrunda först, gör sedan ett överslag",
@@ -31,7 +31,7 @@
     },
     "inverse": {
       "title": "Vilka tal blir 50?",
-      "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalet i varje tal."
+      "instruction": "Ringa in varje tal som avrundas till talet högst upp. Titta på entalssiffran i varje tal."
     },
     "both": {
       "title": "Avrundning till tiotal och hundratal",

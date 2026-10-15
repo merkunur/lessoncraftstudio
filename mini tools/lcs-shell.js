@@ -798,6 +798,7 @@
       if (task.setup) task.setup(tool);
       if (tool.render) tool.render();
       renderAnswerSurface(task);
+      if (typeof postActivityResize === 'function') postActivityResize();
       /* Legacy feedback element — wipe even though Direction A hides it. */
       if (feedbackEl) {
         feedbackEl.classList.remove('open', 'celebrate', 'tryagain');
@@ -1028,9 +1029,24 @@
        switches and state changes that no activity-chrome call site sees. */
     window.addEventListener('resize', postActivityResize);
     requestAnimationFrame(postActivityResize);
-    if (!tool.tasks && !tool.nextTask && typeof ResizeObserver !== 'undefined') {
+    /* [2026-10-16, activities → tool bar] Activities observe the box too. The
+       feedback path the note above guarded against is gone: the TOOL-BAR
+       block in lcs-shell.css removed every vh floor from .lcs-app.activity
+       (the card hugs its content), so a taller iframe cannot make the card
+       taller. What remained without the observer was the operator's defect:
+       a round with nine animals, or "Mix them up" turning rows into a ring,
+       grew the card and the iframe kept its old height — Check clipped.
+       An oscillation guard stays as the belt: a height that bounces back to
+       the value before last is a loop, and the broadcast stops there. */
+    if (typeof ResizeObserver !== 'undefined') {
       try {
-        new ResizeObserver(function () { postActivityResize(); }).observe(app);
+        var _hPrev = 0, _hPrev2 = 0;
+        new ResizeObserver(function () {
+          var h = Math.ceil(app.getBoundingClientRect().height) + 2;
+          if (h === _hPrev2 && h !== _hPrev) return;   // A→B→A: feedback, stop
+          _hPrev2 = _hPrev; _hPrev = h;
+          postActivityResize();
+        }).observe(app);
       } catch (e) { /* no observer — the initial + resize hooks still fire */ }
     }
 

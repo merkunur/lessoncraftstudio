@@ -2978,25 +2978,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy è una gallina indaffarata che sistema le sue uova in scatole che ne contengono esattamente dieci l’una: a ogni turno compaiono alcune scatole piene e il bambino le conta di dieci in dieci per scoprire quante uova ci sono in tutto, toccando poi il numero totale, da 20 fino a 100.",
-        "È il primo passo verso il calcolo veloce: contando di dieci in dieci il bambino capisce che ogni scatola è una decina e che saltare di dieci — 10, 20, 30… — è molto più rapido e sicuro che contare le uova a una a una.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è senza registrazione, senza timer e senza punteggio, così il bambino può esercitarsi con calma e senza pressioni."
+        "Posy mette le uova in scatole da dieci e il bambino le conta nel modo veloce. Tocca ogni scatola sullo scaffale e riceve un'etichetta con il totale fin lì – 10, 20, 30 –: la quarta scatola dice 40 e l'ultima dice quante uova sono; poi tocca quel numero sulla barra. In un round di impacchettamento lo scaffale parte vuoto e il bambino aggiunge scatole finché l'ultima mostra il numero richiesto. Funziona nel browser, senza installare nulla e senza account.",
+        "Una scatola è disegnata come un vassoio con coperchio e due file di cinque alveoli, così una scatola rappresenta chiaramente dieci, non uno. Le etichette rendono visibile il contare di dieci in dieci: ogni scatola porta il totale fino a sé, ed è proprio questo contare di dieci in dieci. I due errori tipici hanno il loro aiuto: toccare 10 come se ogni scatola avesse un uovo solo ricorda che una scatola sono dieci uova; toccare il numero sbagliato si vede sulla barra. Conta di nuovo cancella le etichette per un secondo giro.",
+        "Contare di dieci in dieci fino a 100, come indicano le Indicazioni nazionali: leggere un gruppo di decine e costruirne uno. Senza timer né punteggio: si conta con calma, con le mani."
       ],
       "practices": [
-        "Contare di dieci in dieci fino a 100",
-        "Riconoscere che ogni scatola piena è una decina",
-        "Trovare il totale saltando di dieci invece di contare a uno a uno",
-        "Leggere e riconoscere i numeri entro il 100"
+        "Etichettare ogni scatola con il totale fin lì – 10, 20, 30 – invece di contare uno per uno",
+        "Leggere l'ultima scatola come totale delle uova",
+        "Impacchettare una quantità di uova con scatole da dieci",
+        "Costruire la sequenza delle decine fino a 100"
       ],
       "howToPlay": [
-        "Guarda le scatole piene: ognuna contiene dieci uova, cioè una decina.",
-        "Conta le scatole di dieci in dieci — 10, 20, 30… — fino ad arrivare all’ultima.",
-        "Tocca il numero che indica il totale delle uova in tutto."
+        "Tocca ogni scatola sullo scaffale. Un'etichetta con la decina successiva ci cade sopra: 10, 20, 30…",
+        "Quando ogni scatola ha l'etichetta, l'ultima dice quante uova sono: tocca quel numero sulla barra e premi Verifica.",
+        "Nel round di impacchettamento aggiungi scatole dalla cassa finché l'ultima mostra il numero; tocca una scatola per toglierne una. Senza timer, senza punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a contare di dieci in dieci fino a 100 con sicurezza.",
-        "Tuo figlio impara a vedere ogni scatola come una decina e a ragionare per gruppi di dieci.",
-        "Tuo figlio impara a riconoscere i numeri entro il 100 e a trovarne il totale."
+        "Contare di dieci in dieci fino a 100",
+        "Vedere che una scatola da dieci si conta come dieci e che l'ultima scatola dà il totale",
+        "Costruire una quantità di uova con scatole da dieci"
       ]
     },
     "clock-elapsed.what-time.3-md-a-1": {

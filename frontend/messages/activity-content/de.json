@@ -2402,25 +2402,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy die Henne sortiert ihre Eier — immer zehn Stück in eine Schachtel. Jede volle Schachtel trägt die Zahl „10“, denn darin steckt genau ein Zehner. Dein Kind zählt nun nicht jedes einzelne Ei, sondern die vollen Schachteln in Zehnerschritten: 10, 20, 30 … und tippt am Ende die Gesamtzahl an.",
-        "Dahinter steckt eine wichtige Idee aus dem Bereich „Zählen und Mengen“ des Lehrplans der Grundschule: das Bündeln. Wer erkennt, dass eine Schachtel für einen ganzen Zehner steht, muss nicht mühsam Ei für Ei zählen, sondern springt in Zehnerschritten voran. So entsteht die Zehnerreihe — die schnelle, sichere Art, Mengen bis 100 zu bestimmen, und zugleich eine wichtige Grundlage für das Rechnen in Klasse 2.",
-        "Die Übung lädt zum ruhigen Ausprobieren ein. Es gibt keine Zeituhr, keine Punkte und keinen Wettlauf — nur Posy, ihre Eierschachteln und so viele Versuche, wie dein Kind möchte."
+        "Posy packt ihre Eier in Zehner-Schachteln, und das Kind zählt sie auf die schnelle Art. Jede Schachtel im Regal bekommt beim Antippen eine Marke mit der Zwischensumme – 10, 20, 30 –, sodass die vierte Schachtel 40 sagt und die letzte Schachtel verrät, wie viele Eier es sind; dann wird diese Zahl auf der Leiste angetippt. Beim Packen beginnt das Regal leer und das Kind fügt Schachteln hinzu, bis die letzte die gesuchte Zahl zeigt. Läuft im Browser, ohne Installation und ohne Konto.",
+        "Eine Schachtel ist als Tablett mit Deckel und zwei Reihen à fünf Eiermulden gezeichnet – eine Schachtel steht sichtbar für zehn, nicht für eins. Die Marken machen das Zählen in Zehnerschritten sichtbar: Jede Schachtel trägt die Summe bis dahin, und genau das heißt Zählen in Zehnerschritten. Die zwei typischen Fehler bekommen eigene Hilfe – wer auf 10 tippt, als läge in jeder Schachtel nur ein Ei, wird erinnert, dass eine Schachtel zehn Eier sind; wer die falsche Zahl antippt, merkt es auf der Leiste. „Noch mal zählen“ löscht die Marken für einen zweiten Durchgang.",
+        "Zählen in Zehnerschritten bis 100, wie der Lehrplan es vorsieht – eine Zehnergruppe ablesen und eine bauen. Kein Timer, keine Punkte – ruhiges Zählen mit den Händen."
       ],
       "practices": [
-        "In Zehnerschritten zählen: 10, 20, 30 …",
-        "Bündeln verstehen — jede Schachtel ist ein Zehner",
-        "Mengen bis 100 schnell bestimmen, ohne einzeln zu zählen",
-        "Die Zehnerreihe sicher aufsagen und anwenden"
+        "Jede Schachtel mit der Zwischensumme markieren – 10, 20, 30 – statt einzeln zu zählen",
+        "Die letzte Schachtel als Gesamtzahl der Eier ablesen",
+        "Eine vorgegebene Anzahl Eier mit Zehner-Schachteln packen",
+        "Die Zehnerreihe bis 100 aufbauen"
       ],
       "howToPlay": [
-        "In jeder Schachtel liegen genau zehn Eier.",
-        "Zähle die vollen Schachteln in Zehnerschritten: 10, 20, 30 …",
-        "Tippe die Gesamtzahl an."
+        "Tippe jede Schachtel im Regal an. Eine Marke mit dem nächsten Zehner landet darauf: 10, 20, 30 …",
+        "Wenn jede Schachtel eine Marke hat, sagt die letzte, wie viele Eier es sind – tippe diese Zahl auf der Leiste an und drücke „Prüfen“.",
+        "Beim Packen fügst du aus der Kiste Schachteln hinzu, bis die letzte die Zahl zeigt; tippe eine Schachtel an, um eine wegzunehmen. Ohne Timer, ohne Punkte."
       ],
       "learningGoals": [
-        "Die Zehnerreihe bis 100 sicher zählen",
-        "Verstehen, dass zehn Eier einen Zehner bilden (Bündeln)",
-        "Den schnellen Weg vom Bündel zur Gesamtzahl gehen"
+        "In Zehnerschritten bis 100 zählen",
+        "Verstehen, dass eine Zehner-Schachtel als zehn zählt und die letzte Schachtel die Gesamtzahl nennt",
+        "Eine Anzahl Eier aus Zehner-Schachteln bauen"
       ]
     },
     "clock-elapsed.what-time.3-md-a-1": {

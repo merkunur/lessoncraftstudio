@@ -3460,25 +3460,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy the hen packs her eggs into cartons that each hold exactly ten, and the child counts a few full cartons by tens — 10, 20, 30… — to tap the total number of eggs. It's an interactive Kindergarten counting activity that plays right in the browser with no sign-up and nothing to install.",
-        "Each carton is drawn as a lidded box with ten eggs in two rows of five and a '10' tag, so a child can see that one carton stands for a group of ten, not one. That is the big idea: counting the fast way, by tens, instead of one egg at a time. The answer choices are chosen to catch the two common slips — counting the cartons by ones (so 4 cartons looks like '4') and going one ten too far — so the child has to count the groups of ten correctly.",
-        "It is aligned to Common Core K.CC.A.1 — counting to 100 by tens. No timer, no score — just calm, playful practice."
+        "Posy packs her eggs in cartons of ten, and the child counts them the fast way. Tap each carton on the shelf and it gets a tag with the running total — 10, 20, 30 — so the fourth carton says 40 and the last carton tells how many eggs; then tap that number on the rail. In a packing round the shelf starts empty and the child adds cartons until the last one says the number asked for. It runs in the browser, with nothing to install and no account.",
+        "A carton is drawn as a lidded tray with two rows of five egg cells, so one carton plainly stands for ten, not one. The tags make counting by tens visible: each carton wears the total so far, which is what counting by tens means. The two usual slips get their own help — tapping 10 as if the shelf held one egg per carton brings the reminder that a carton is ten eggs, and picking the wrong number is caught on the rail. Count again clears the tags for a second run.",
+        "It is aligned to Common Core K.CC.A.1 — counting to 100 by tens, both reading a group of tens and building one. No timer, no score — just calm, hands-on counting."
       ],
       "practices": [
-        "Counting groups of ten by tens — 10, 20, 30 — instead of by ones",
-        "Understanding that one full carton stands for ten eggs",
-        "Choosing the right total and avoiding the count-by-ones slip",
-        "Building the rote ten-counting sequence up toward 100"
+        "Tagging each carton with the running total — 10, 20, 30 — instead of counting by ones",
+        "Reading the last carton as the total number of eggs",
+        "Packing a given number of eggs with cartons of ten",
+        "Building the ten-counting sequence up to 100"
       ],
       "howToPlay": [
-        "Look at Posy's full cartons, each holding ten eggs.",
-        "Count them by tens — 10, 20, 30 — and tap the total number of eggs.",
-        "A warm check confirms a correct count and offers an easy retry, with no timer and no score."
+        "Tap each carton on the shelf. A tag with the next ten lands on it: 10, 20, 30…",
+        "When every carton has a tag, the last one tells how many eggs — tap that number on the rail and press Check.",
+        "In a packing round, add cartons from the crate until the last one says the number; tap a carton to take one off. No timer, no score."
       ],
       "learningGoals": [
         "Count to 100 by tens — the focus of Common Core K.CC.A.1",
-        "Understand that counting equal groups of ten is faster than counting by ones",
-        "Build the place-value foundation that tens-and-ones work later depends on"
+        "See that a carton of ten is counted as ten, and the last carton names the total",
+        "Build a number of eggs from cartons of ten"
       ]
     },
     "pronoun.case.l-1-1-d": {

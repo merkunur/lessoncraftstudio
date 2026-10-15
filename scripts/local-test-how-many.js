@@ -204,7 +204,7 @@ function serve() {
     /* the iframe contract: every height change is broadcast (the operator's
        clipped-Check defect) — listen for the shell's resize message */
     await page.evaluate(() => { window.__lastResize = null; window.addEventListener('message', e => { if (e.data && e.data.type === 'lcs-activity-resize') window.__lastResize = e.data.height; }); });
-    await clickCenter(page, '.hm-mix', 0); await wait(400);
+    await clickCenter(page, '.hm-mix', 0); await wait(1300);
     const st6b = await state(page);
     const rs = await page.evaluate(() => ({ sent: window.__lastResize, app: Math.ceil(document.querySelector('.lcs-app').getBoundingClientRect().height) }));
     is(rs.sent !== null && Math.abs(rs.sent - rs.app) <= 6, `[${loc}] Mix broadcasts the new card height to the iframe (sent ${rs.sent}, card ${rs.app})`);

@@ -1504,6 +1504,29 @@
         "Barnet forstår at en trekant er en trekant selv når farge, størrelse eller retning endrer seg.",
         "Barnet bygger den egenskapsbaserte tenkningen som det å sortere og navngi former er avhengig av."
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy pakker eggene sine i kartonger med ti, og barnet teller dem på den raske måten. Trykk på hver kartong på hylla, så får den en lapp med summen så langt – 10, 20, 30 – så den fjerde kartongen sier 40 og den siste kartongen sier hvor mange egg det er; trykk så på det tallet på tallrekken. I en pakkerunde er hylla tom fra start, og barnet legger til kartonger til den siste viser tallet det spørres etter. Kjører i nettleseren, uten installasjon og uten konto.",
+        "En kartong er tegnet som et brett med lokk og to rader med fem eggehull, så én kartong står tydelig for ti, ikke én. Lappene gjør telling med tiere synlig: hver kartong bærer summen fram til seg selv, og det er akkurat det telling med tiere betyr. De to vanlige feilene får egen hjelp – å trykke på 10 som om hver kartong bare hadde ett egg, gir påminnelsen om at en kartong er ti egg, og å trykke på feil tall ses på tallrekken. Tell igjen fjerner lappene for en runde til.",
+        "Tilpasset LK20: telle med tiere opp til 100 – lese av en gruppe tiere og bygge en. Ingen timer, ingen poeng – rolig telling med hendene."
+      ],
+      "practices": [
+        "Gi hver kartong en lapp med summen så langt – 10, 20, 30 – i stedet for å telle én og én",
+        "Lese av den siste kartongen som det totale antallet egg",
+        "Pakke et gitt antall egg med kartonger med ti",
+        "Bygge tiertellingen opp til 100"
+      ],
+      "howToPlay": [
+        "Trykk på hver kartong på hylla. En lapp med neste tier lander på den: 10, 20, 30 …",
+        "Når alle kartongene har en lapp, sier den siste hvor mange egg det er – trykk på det tallet på tallrekken, og trykk på Sjekk.",
+        "I en pakkerunde legger du til kartonger fra kassen til den siste viser tallet; trykk på en kartong for å ta bort en. Ingen timer, ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle med tiere opp til 100",
+        "Se at en kartong med ti telles som ti, og at den siste kartongen gir summen",
+        "Bygge et antall egg av kartonger med ti"
+      ]
     }
   }
 }

@@ -2972,25 +2972,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "A galinha Posy guarda os ovos dela em caixas que têm exatamente 10 ovos cada uma. Em vez de contar ovo por ovo, dá para contar as caixas cheias de 10 em 10 — 10, 20, 30… A criança olha as caixas, conta de dez em dez e toca no total de ovos.",
-        "Contar de 10 em 10 é um jeito rápido e esperto de contar muitos objetos de uma vez. Cada caixa cheia é uma dezena, ou seja, um grupo de dez. Contando as caixas, a criança chega até 100 sem precisar contar um ovo de cada vez — e vai percebendo como os grupos de dez ajudam a contar bem mais depressa.",
-        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — só a criança, a Posy e as caixas de ovos, no ritmo dela. Está alinhada à BNCC, na unidade temática Números, e é uma boa base para contar e começar a agrupar em dezenas."
+        "A Posy guarda os ovos em caixas de dez, e a criança conta do jeito rápido. Toque em cada caixa da prateleira e ela recebe uma etiqueta com o total até ali — 10, 20, 30 —, assim a quarta caixa diz 40 e a última diz quantos ovos são; depois toque nesse número na barra. Numa rodada de embalar, a prateleira começa vazia e a criança acrescenta caixas até a última mostrar o número pedido. Funciona no navegador, sem instalar nada e sem conta.",
+        "Cada caixa é desenhada como uma bandeja com tampa e duas fileiras de cinco casinhas de ovo, então uma caixa claramente vale dez, não um. As etiquetas tornam visível a contagem de 10 em 10: cada caixa carrega o total até ela, e é isso que contar de 10 em 10 significa. Os dois erros comuns têm ajuda própria: tocar em 10 como se cada caixa tivesse um ovo só traz o lembrete de que uma caixa são dez ovos, e tocar no número errado aparece na barra. Contar de novo apaga as etiquetas para uma segunda tentativa.",
+        "Alinhado à BNCC: contar de 10 em 10 até 100 — ler um grupo de dezenas e montar um. Sem cronômetro, sem pontuação — só contagem calma, com as mãos."
       ],
       "practices": [
-        "Contar de 10 em 10 — 10, 20, 30… até 100",
-        "Entender que cada caixa cheia é uma dezena e vale 10",
-        "Chegar ao total contando as caixas cheias",
-        "Perceber que contar em grupos é mais rápido que contar um por um"
+        "Etiquetar cada caixa com o total até ali — 10, 20, 30 — em vez de contar de um em um",
+        "Ler a última caixa como o total de ovos",
+        "Embalar uma quantidade de ovos com caixas de dez",
+        "Montar a sequência das dezenas até 100"
       ],
       "howToPlay": [
-        "Veja as caixas cheias de ovos da Posy",
-        "Conte de 10 em 10, uma caixa de cada vez",
-        "Toque no número total de ovos"
+        "Toque em cada caixa da prateleira. Uma etiqueta com a próxima dezena cai sobre ela: 10, 20, 30…",
+        "Quando todas tiverem etiqueta, a última diz quantos ovos são: toque nesse número na barra e aperte Verificar.",
+        "Numa rodada de embalar, acrescente caixas do engradado até a última mostrar o número; toque numa caixa para tirar uma. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Eu conto de 10 em 10 até 100",
-        "Eu sei que cada caixa cheia vale 10",
-        "Eu acho o total contando as caixas"
+        "Contar de 10 em 10 até 100",
+        "Ver que uma caixa de dez vale dez e que a última caixa dá o total",
+        "Montar uma quantidade de ovos com caixas de dez"
       ]
     },
     "clock-elapsed.what-time.3-md-a-1": {

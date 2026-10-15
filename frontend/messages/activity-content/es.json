@@ -999,25 +999,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy la gallina acomoda sus huevos en cajas: cada caja llena guarda exactamente diez huevos, una decena. Tu pequeño no cuenta huevo por huevo —cuenta las cajas de diez en diez: diez, veinte, treinta…— y al final toca el número total.",
-        "Aquí vive una idea importante del primer grado: agrupar de diez en diez. Quien reconoce que una caja llena vale una decena —diez huevos— no tiene que contar de uno en uno, sino que avanza a saltos: 10, 20, 30, 40… Así se forma la serie de las decenas, la manera rápida y ordenada de saber cuántos hay hasta 100, y una base del sistema decimal y del valor posicional.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: el niño agrupa y cuenta a su propio ritmo, con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con totales de 20 hasta 100."
+        "Posy guarda sus huevos en cajas de diez y tu peque los cuenta de la forma rápida. Toca cada caja del estante y recibe una etiqueta con el total acumulado —10, 20, 30—, así la cuarta caja dice 40 y la última dice cuántos huevos hay; después toca ese número en la barra. En una ronda de empacar, el estante empieza vacío y hay que agregar cajas hasta que la última muestre el número pedido. Funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Cada caja está dibujada como una bandeja con tapa y dos filas de cinco huecos, así que una caja representa claramente diez, no uno. Las etiquetas hacen visible el conteo de diez en diez: cada caja lleva el total hasta ahí, y eso es contar de diez en diez. Los dos errores típicos tienen su propia ayuda: tocar 10 como si cada caja tuviera un solo huevo trae el recordatorio de que una caja son diez huevos, y tocar el número equivocado se nota en la barra. Contar otra vez borra las etiquetas para un segundo intento.",
+        "Contar de diez en diez hasta 100, como marca el plan de estudios de preescolar y primero: leer un grupo de decenas y armar uno. Sin cronómetro ni puntaje: se cuenta con calma y con las manos."
       ],
       "practices": [
-        "Reconocer que cada caja llena guarda exactamente diez huevos, una decena, sin necesidad de contar huevo por huevo.",
-        "Contar las cajas de diez en diez —diez, veinte, treinta, cuarenta…— avanzando una decena por cada caja.",
-        "Tocar el número total de huevos, del grupo al total, con cantidades que crecen de 20 hasta 100.",
-        "Descubrir que agrupar de diez en diez es una forma rápida y ordenada de saber cuántos huevos hay en total."
+        "Etiquetar cada caja con el total acumulado —10, 20, 30— en lugar de contar de uno en uno",
+        "Leer la última caja como el total de huevos",
+        "Empacar una cantidad de huevos con cajas de diez",
+        "Armar la secuencia de las decenas hasta 100"
       ],
       "howToPlay": [
-        "En cada caja hay exactamente diez huevos.",
-        "Cuenta las cajas llenas de diez en diez: 10, 20, 30…",
-        "Toca el número total de huevos."
+        "Toca cada caja del estante. Una etiqueta con la siguiente decena cae sobre ella: 10, 20, 30…",
+        "Cuando todas tienen etiqueta, la última dice cuántos huevos hay: toca ese número en la barra y presiona Comprobar.",
+        "En una ronda de empacar, agrega cajas desde el cajón hasta que la última muestre el número; toca una caja para quitar una. Sin cronómetro, sin puntaje."
       ],
       "learningGoals": [
-        "Contar de diez en diez hasta cien apoyándose en grupos concretos (las cajas-decena).",
-        "Reconocer la decena como un grupo de diez y comprender que agrupar de diez en diez organiza la cantidad.",
-        "Relacionar el grupo con el total, sentando las bases del sistema decimal y del valor posicional que se trabaja en primer grado."
+        "Contar de diez en diez hasta 100",
+        "Ver que una caja de diez se cuenta como diez y que la última caja da el total",
+        "Armar una cantidad de huevos con cajas de diez"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

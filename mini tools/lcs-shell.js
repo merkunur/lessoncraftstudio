@@ -1043,11 +1043,17 @@
        the German card 18px clipped on production.) */
     if (typeof ResizeObserver !== 'undefined') {
       try {
-        var _bursts = [];
+        var _bursts = [], _trail = null;
         new ResizeObserver(function () {
           var now = Date.now();
           _bursts = _bursts.filter(function (t) { return now - t < 1000; });
-          if (_bursts.length >= 8) return;               // runaway: stay quiet this second
+          if (_bursts.length >= 30) {
+            /* runaway or a legitimate burst (three settings reloads in a row):
+               stay quiet this second, but never swallow the LAST height —
+               one trailing broadcast at the end of the window carries it */
+            if (!_trail) _trail = setTimeout(function () { _trail = null; _bursts = []; postActivityResize(); }, 1000 - (now - _bursts[0]) + 20);
+            return;
+          }
           _bursts.push(now);
           postActivityResize();
         }).observe(app);

@@ -1413,25 +1413,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "In het kippenhok van Posy is het altijd een gezellige drukte. Posy de kip scharrelt rond en legt haar eieren, en elke volle eierdoos krijgt precies tien eieren — geen ei meer, geen ei minder. Zo staan de eierdozen keurig op een rij, klaar om samen geteld te worden.",
-        "Omdat elke eierdoos precies tien eieren bevat, hoeft je kind niet elk ei apart te tellen. Het telt met sprongen van tien: 10, 20, 30… helemaal tot het bij het totaal is. Zo oefent je kind het tellen met tiensprongen tot 100 — ook wel verkort tellen genoemd — en leert het volle eierdozen zien als tientallen. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 4.",
-        "Er is geen klok en geen score. Je kind mag rustig tellen en zo vaak opnieuw beginnen als het wil. Een verkeerde tik is geen fout — het is gewoon een kans om samen nog eens te tellen, want elke eierdoos is tien en niet één."
+        "Posy pakt haar eieren in dozen van tien, en het kind telt ze op de snelle manier. Tik elke doos op de plank aan en er landt een kaartje met het tussentotaal – 10, 20, 30 –, zodat de vierde doos 40 zegt en de laatste doos zegt hoeveel eieren het zijn; tik daarna dat getal op de balk aan. In een inpakronde begint de plank leeg en voegt het kind dozen toe tot de laatste het gevraagde getal laat zien. Werkt in de browser, zonder installatie en zonder account.",
+        "Een doos is getekend als een bakje met deksel en twee rijen van vijf eiervakjes, zodat één doos duidelijk tien is, niet één. De kaartjes maken tellen met sprongen van tien zichtbaar: elke doos draagt het totaal tot daar, en dat is precies wat tellen met tienen betekent. De twee gewone fouten krijgen eigen hulp: op 10 tikken alsof er in elke doos één ei zit brengt de herinnering dat een doos tien eieren is, en het verkeerde getal aantikken zie je op de balk. Opnieuw tellen wist de kaartjes voor een tweede ronde.",
+        "Afgestemd op de kerndoelen: tellen met sprongen van tien tot 100 – een groep tientallen aflezen en er een bouwen. Geen timer, geen score – rustig tellen met je handen."
       ],
       "practices": [
-        "Tellen met sprongen van tien",
-        "Volle eierdozen zien als tientallen",
-        "Het totaal tot 100 aflezen",
-        "Snel tellen zonder elk ei apart te tellen"
+        "Elke doos een kaartje met het tussentotaal geven – 10, 20, 30 – in plaats van één voor één tellen",
+        "De laatste doos aflezen als het totaal aantal eieren",
+        "Een gevraagd aantal eieren inpakken met dozen van tien",
+        "De rij van tientallen tot 100 opbouwen"
       ],
       "howToPlay": [
-        "Kijk hoeveel volle eierdozen Posy heeft",
-        "Tel met sprongen van tien — 10, 20, 30…",
-        "Tik op het totale aantal eieren"
+        "Tik elke doos op de plank aan. Er landt een kaartje met het volgende tiental op: 10, 20, 30…",
+        "Als elke doos een kaartje heeft, zegt de laatste hoeveel eieren het zijn: tik dat getal op de balk aan en druk op Controleer.",
+        "In een inpakronde voeg je dozen uit de krat toe tot de laatste het getal laat zien; tik op een doos om er een weg te halen. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Tellen met tiensprongen tot 100",
-        "Een tiental herkennen als een groepje van tien eieren",
-        "Getallen tot 100 aflezen en aanwijzen"
+        "Tellen met sprongen van tien tot 100",
+        "Zien dat een doos van tien als tien telt en dat de laatste doos het totaal geeft",
+        "Een aantal eieren bouwen met dozen van tien"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

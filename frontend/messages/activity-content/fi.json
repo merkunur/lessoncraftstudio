@@ -1446,6 +1446,29 @@
         "Lapsi ymmärtää yhteenlaskun yhteen kokoamisena ja vähennyslaskun pois ottamisena.",
         "Lapsi rakentaa mallintamisen tavan, johon sanalliset tehtävät ja laskulauseet nojaavat."
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy pakkaa munansa kymmenen munan kennoihin, ja lapsi laskee ne nopealla tavalla. Napauta jokaista hyllyn kennoa, niin se saa lapun, jossa on summa siihen asti – 10, 20, 30 –, joten neljäs kenno sanoo 40 ja viimeinen kenno kertoo, kuinka monta munaa on; napauta sitten sitä lukua lukurivillä. Pakkauskierroksella hylly on aluksi tyhjä ja lapsi lisää kennoja, kunnes viimeinen näyttää pyydetyn luvun. Toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kenno on piirretty kannelliseksi alustaksi, jossa on kaksi riviä ja viisi munakoloa rivissä, joten yksi kenno tarkoittaa selvästi kymmentä, ei yhtä. Laput tekevät kymmenittäin laskemisen näkyväksi: jokainen kenno kantaa summaa itseensä asti, ja juuri sitä kymmenittäin laskeminen tarkoittaa. Kaksi tavallista virhettä saavat oman avun – 10:n napauttaminen ikään kuin joka kennossa olisi vain yksi muna tuo muistutuksen, että kenno on kymmenen munaa, ja väärän luvun napauttaminen näkyy lukurivillä. Laske uudelleen tyhjentää laput toista kierrosta varten.",
+        "Yhteensopiva OPS 2014:n kanssa: laske kymmenittäin sataan asti – lue kymmenten ryhmä ja rakenna sellainen. Ei ajastinta, ei pisteitä – rauhallista laskemista käsillä."
+      ],
+      "practices": [
+        "Jokaiselle kennolle lappu, jossa on summa siihen asti – 10, 20, 30 – yksitellen laskemisen sijaan",
+        "Viimeisen kennon lukeminen munien kokonaismääränä",
+        "Annetun munamäärän pakkaaminen kymmenen munan kennoihin",
+        "Kymmenlukujonon rakentaminen sataan asti"
+      ],
+      "howToPlay": [
+        "Napauta jokaista hyllyn kennoa. Sen päälle putoaa lappu, jossa on seuraava kymmenluku: 10, 20, 30…",
+        "Kun jokaisella kennolla on lappu, viimeinen kertoo, kuinka monta munaa on – napauta sitä lukua lukurivillä ja paina Tarkista.",
+        "Pakkauskierroksella lisää kennoja laatikosta, kunnes viimeinen näyttää luvun; napauta kennoa ottaaksesi yhden pois. Ei ajastinta, ei pisteitä."
+      ],
+      "learningGoals": [
+        "Laskea kymmenittäin sataan asti",
+        "Nähdä, että kymmenen munan kenno lasketaan kymmenenä ja viimeinen kenno kertoo summan",
+        "Rakentaa munamäärä kymmenen munan kennoista"
+      ]
     }
   }
 }

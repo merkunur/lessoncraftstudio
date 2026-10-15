@@ -2361,6 +2361,29 @@
         "Veta att veckodagar, månader, högtider och språk skrivs med liten bokstav på svenska.",
         "Förbereda arbetet med ordklasser i årskurs 4–6 — eleven väljer rätt ord i meningen men behöver inte namnge någon ordklass."
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy packar sina ägg i kartonger med tio, och barnet räknar dem på det snabba sättet. Tryck på varje kartong på hyllan så får den en lapp med summan så långt – 10, 20, 30 – så den fjärde kartongen säger 40 och den sista kartongen säger hur många ägg det är; tryck sedan på det talet på talraden. I en packomgång är hyllan tom från början och barnet lägger till kartonger tills den sista visar det tal som efterfrågas. Körs i webbläsaren, utan installation och utan konto.",
+        "En kartong är ritad som en bricka med lock och två rader med fem äggfack, så en kartong står tydligt för tio, inte ett. Lapparna gör räkning med tiotal synlig: varje kartong bär summan fram till sig, och det är precis vad räkning med tiotal betyder. De två vanliga felen får egen hjälp – att trycka på 10 som om varje kartong bara hade ett ägg ger påminnelsen att en kartong är tio ägg, och att trycka på fel tal syns på talraden. Räkna igen rensar lapparna för ett andra varv.",
+        "Anpassat till Lgr22: räkna med tiotal upp till 100 – läsa av en grupp tiotal och bygga en. Ingen timer, inga poäng – lugn räkning med händerna."
+      ],
+      "practices": [
+        "Ge varje kartong en lapp med summan så långt – 10, 20, 30 – i stället för att räkna ett i taget",
+        "Läsa av den sista kartongen som det totala antalet ägg",
+        "Packa ett givet antal ägg med kartonger om tio",
+        "Bygga tiotalsräkningen upp till 100"
+      ],
+      "howToPlay": [
+        "Tryck på varje kartong på hyllan. En lapp med nästa tiotal landar på den: 10, 20, 30 …",
+        "När alla kartonger har en lapp säger den sista hur många ägg det är – tryck på det talet på talraden och tryck på Kontrollera.",
+        "I en packomgång lägger du till kartonger från lådan tills den sista visar talet; tryck på en kartong för att ta bort en. Ingen timer, inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna med tiotal upp till 100",
+        "Se att en kartong med tio räknas som tio och att den sista kartongen anger summan",
+        "Bygga ett antal ägg av kartonger om tio"
+      ]
     }
   }
 }

@@ -1515,6 +1515,29 @@
         "Barnet kan gå fra at tælle talfakta frem til at huske dem hurtigt",
         "Barnet kan opbygge den sikre regning, som plus og minus i 1. klasse bygger på"
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy pakker sine æg i bakker med ti, og barnet tæller dem på den hurtige måde. Tryk på hver bakke på hylden, så får den en mærkat med summen indtil nu – 10, 20, 30 – så den fjerde bakke siger 40, og den sidste bakke siger hvor mange æg der er; tryk derefter på det tal på talrækken. I en pakkerunde er hylden tom fra start, og barnet lægger bakker til, indtil den sidste viser det tal der bliver bedt om. Kører i browseren, uden installation og uden konto.",
+        "En æggebakke er tegnet som en bakke med låg og to rækker med fem æggehuller, så én bakke tydeligt står for ti, ikke én. Mærkaterne gør tælling med tiere synlig: hver bakke bærer summen frem til sig selv, og det er netop, hvad det vil sige at tælle med tiere. De to almindelige fejl får deres egen hjælp – at trykke på 10, som om hver bakke kun havde ét æg, giver påmindelsen om, at en bakke er ti æg, og at trykke på det forkerte tal ses på talrækken. Tæl igen rydder mærkaterne til en runde mere.",
+        "Tilpasset Fælles Mål: tæl med tiere op til 100 – aflæs en gruppe tiere og byg en. Ingen timer, ingen point – rolig tælling med hænderne."
+      ],
+      "practices": [
+        "Give hver bakke en mærkat med summen indtil nu – 10, 20, 30 – i stedet for at tælle én ad gangen",
+        "Aflæse den sidste bakke som det samlede antal æg",
+        "Pakke et givet antal æg med bakker med ti",
+        "Bygge tiertællingen op til 100"
+      ],
+      "howToPlay": [
+        "Tryk på hver bakke på hylden. En mærkat med den næste tier lander på den: 10, 20, 30 …",
+        "Når alle bakker har en mærkat, siger den sidste hvor mange æg der er – tryk på det tal på talrækken, og tryk på Tjek.",
+        "I en pakkerunde lægger du bakker fra kassen til, indtil den sidste viser tallet; tryk på en bakke for at tage en af. Ingen timer, ingen point."
+      ],
+      "learningGoals": [
+        "Tælle med tiere op til 100",
+        "Se at en bakke med ti tælles som ti, og at den sidste bakke giver summen",
+        "Bygge et antal æg af bakker med ti"
+      ]
     }
   }
 }

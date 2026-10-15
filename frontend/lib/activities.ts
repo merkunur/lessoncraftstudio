@@ -47,6 +47,7 @@ export interface ActivityRow {
 
 const MANIFEST_FILES = [
   'how-many-activities.json',
+  'egg-cartons-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',
   'cvc-builder-activities.json',

@@ -1459,24 +1459,25 @@
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
-        "Posy la poule adore ranger ses œufs par dix ! Chaque boîte contient exactement dix œufs — une dizaine bien pleine. Comme toutes les boîtes sont pleines, le plus rapide n'est pas de compter les œufs un par un : il suffit de compter les boîtes de dix en dix — 10, 20, 30… — puis de toucher le total. Votre enfant découvre ainsi qu'une boîte, ce n'est pas « un », c'est « dix », et que compter par paquets de dix va bien plus vite.",
-        "Compter de dix en dix jusqu'à 100 et organiser une collection en dizaines, c'est la première rencontre avec les nombres jusqu'à 100 au CP. Ce jeu construit le sens du nombre et prépare en douceur la numération décimale (les dizaines et les unités), sans jamais réciter dans le vide : chaque « dix » est une vraie boîte que l'on voit. L'activité fonctionne directement dans le navigateur, sans minuteur, sans score et sans compte à créer ; l'enfant avance à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Posy range ses œufs dans des boîtes de dix, et l'enfant les compte à la manière rapide : de dix en dix. Il touche chaque boîte de l'étagère : une étiquette avec le total en cours s'y pose – 10, 20, 30 –, la quatrième boîte dit donc 40 et la dernière boîte dit combien il y a d'œufs ; il touche ensuite ce nombre sur la bande numérique. Dans une manche d'emballage, l'étagère est vide au départ et l'enfant ajoute des boîtes jusqu'à ce que la dernière affiche le nombre demandé. Dans le navigateur, sans installation ni compte.",
+        "Une boîte est dessinée comme un plateau à couvercle avec deux rangées de cinq alvéoles : une boîte représente clairement dix, pas un. Les étiquettes rendent visible le comptage de dix en dix : chaque boîte porte le total jusqu'à elle, et c'est exactement cela, compter de dix en dix. Les deux erreurs habituelles ont leur aide – toucher 10 comme si chaque boîte ne contenait qu'un œuf rappelle qu'une boîte, c'est dix œufs ; toucher le mauvais nombre se voit sur la bande. Recompter efface les étiquettes pour un second essai.",
+        "Compter de dix en dix jusqu'à 100, comme le demandent les programmes – lire un groupe de dizaines et en construire un. Sans chronomètre ni score : on compte calmement, avec les mains."
       ],
       "practices": [
-        "Compter de dix en dix jusqu'à 100",
-        "Reconnaître qu'une boîte pleine vaut dix œufs — une dizaine",
-        "Dénombrer une collection organisée en dizaines",
-        "Associer une quantité comptée au bon nombre écrit",
-        "Comprendre que compter par paquets de dix est plus rapide que un par un"
+        "Étiqueter chaque boîte avec le total en cours – 10, 20, 30 – au lieu de compter un par un",
+        "Lire la dernière boîte comme le nombre total d'œufs",
+        "Emballer un nombre d'œufs donné avec des boîtes de dix",
+        "Construire la suite des dizaines jusqu'à 100"
       ],
       "howToPlay": [
-        "Regarde les boîtes pleines de Posy : chaque boîte contient dix œufs.",
-        "Compte les boîtes de dix en dix — 10, 20, 30… — puis touche le nombre total d'œufs."
+        "Touche chaque boîte de l'étagère. Une étiquette avec la dizaine suivante se pose dessus : 10, 20, 30…",
+        "Quand chaque boîte a son étiquette, la dernière dit combien il y a d'œufs : touche ce nombre sur la bande numérique, puis appuie sur Vérifier.",
+        "Pour emballer, ajoute des boîtes depuis la caisse jusqu'à ce que la dernière affiche le nombre ; touche une boîte pour en enlever une. Pas de chronomètre, pas de score."
       ],
       "learningGoals": [
         "Compter de dix en dix jusqu'à 100",
-        "Structurer une collection en dizaines",
-        "Préparer la numération décimale"
+        "Voir qu'une boîte de dix se compte comme dix et que la dernière boîte donne le total",
+        "Construire un nombre d'œufs avec des boîtes de dix"
       ]
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {

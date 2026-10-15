@@ -123,7 +123,7 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
             </div>
             <p className="font-lcsBody text-sm md:text-base text-lcs-teal/80 leading-relaxed">{t('setIntro')}</p>
             <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-lcsBody text-sm text-lcs-teal/75">
-              {ladder.answerKeyCount > 0 && <li>✓ {t('answerKeys')}</li>}
+              {ladder.answerKeyCount > 0 && <li>✓ {t('answerKeys', { count: ladder.answerKeyCount })}</li>}
               {ladder.interactiveCount > 0 && <li>▶ {t('interactiveCount', { count: ladder.interactiveCount })}</li>}
             </ul>
           </header>

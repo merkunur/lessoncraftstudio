@@ -4620,7 +4620,7 @@
   },
   "levelSets": {
     "heading": "Level Sets",
-    "hubIntro": "The same skill at three levels — an easier page, the core page for the grade and a harder one — with several pages at every level and an answer key for each. Hand out all three in one lesson.",
+    "hubIntro": "The same skill at up to three levels — an easier page, the core page for the grade and a harder one — with several pages at each level. Give each child the right level in the same lesson.",
     "core": "Core",
     "levelN": "Level {n}",
     "rungEasy": "An easier version of the same task",
@@ -4631,17 +4631,17 @@
     "openSet": "Open the set",
     "allSets": "All Level Sets",
     "setWord": "Set {n}",
-    "indexTitle": "Level Sets — worksheets at three levels",
-    "indexDescription": "Every worksheet type that comes at three levels, with several pages per level and answer keys. Choose the level each child needs.",
-    "indexIntro": "Every worksheet type that comes at three levels. Open a set, then print or play the level each child needs.",
+    "indexTitle": "Level Sets — worksheets at up to three levels",
+    "indexDescription": "Every worksheet type that comes in levels, with several pages per level. Choose the level each child needs.",
+    "indexIntro": "Every worksheet type that comes in levels. Open a set, then print the level each child needs, or open it on screen.",
     "setTitle": "{title} — Level Set",
-    "setDescription": "{title} at three levels — easier, core and harder — with answer keys and several pages per level.",
-    "setIntro": "One skill, three levels. Give each child the page that fits: the pages share one layout and one answer-key convention, so one explanation serves the whole class.",
-    "playLabel": "Play",
+    "setDescription": "{title} at up to three levels — easier, core and harder — with several pages per level.",
+    "setIntro": "One skill, three levels. Give each child the page that fits: the pages share one layout, so one explanation serves the whole class.",
+    "playLabel": "Do it on screen",
     "moreOfType": "More sets of this type",
     "backToHub": "All worksheets",
-    "interactiveCount": "{count, plural, one {# page plays in the browser} other {# pages play in the browser}}",
-    "answerKeys": "Answer key for every PDF",
+    "interactiveCount": "{count, plural, one {# page can be done on screen} other {# pages can be done on screen}}",
+    "answerKeys": "{count, plural, one {# answer key} other {# answer keys}}",
     "emptyRung": "No page at this level yet"
   },
   "deckLadder": {
@@ -4649,7 +4649,7 @@
     "levelOf": "Level {n} of {total}",
     "morePages": "More pages at this level",
     "openSet": "See the whole set",
-    "landingHeading": "This worksheet at three levels",
-    "landingBody": "The same task also comes as an easier and a harder page, with more practice pages at every level."
+    "landingHeading": "This worksheet at different levels",
+    "landingBody": "The same task also comes at other levels, with more practice pages at every level."
   }
 }

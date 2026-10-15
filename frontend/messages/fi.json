@@ -3089,7 +3089,7 @@
   },
   "levelSets": {
     "heading": "Tasosarjat",
-    "hubIntro": "Sama taito kolmella tasolla – helpompi tehtävä, luokka-asteen perustehtävä ja vaikeampi tehtävä – useita tehtäviä joka tasolla ja jokaiseen vastaukset. Jaa kaikki kolme samalla tunnilla.",
+    "hubIntro": "Sama taito enintään kolmella tasolla – helpompi tehtävä, luokka-asteen perustehtävä ja vaikeampi tehtävä – useita tehtäviä joka tasolla. Anna jokaiselle lapselle oma tasonsa samalla tunnilla.",
     "core": "Perus",
     "levelN": "Taso {n}",
     "rungEasy": "Helpompi versio samasta tehtävästä",
@@ -3100,17 +3100,17 @@
     "openSet": "Avaa sarja",
     "allSets": "Kaikki tasosarjat",
     "setWord": "Sarja {n}",
-    "indexTitle": "Tasosarjat – tehtävät kolmella tasolla",
-    "indexDescription": "Kaikki tehtävätyypit, jotka löytyvät kolmella tasolla, useita tehtäviä tasoa kohden ja vastaukset. Valitse jokaiselle lapselle sopiva taso.",
-    "indexIntro": "Kaikki tehtävätyypit, jotka löytyvät kolmella tasolla. Avaa sarja ja tulosta tai pelaa se taso, jonka kukin lapsi tarvitsee.",
+    "indexTitle": "Tasosarjat – tehtävät enintään kolmella tasolla",
+    "indexDescription": "Kaikki tehtävätyypit, joita on usealla tasolla, useita tehtäviä tasoa kohden. Valitse jokaiselle lapselle sopiva taso.",
+    "indexIntro": "Kaikki tehtävätyypit, joita on usealla tasolla. Avaa sarja ja tulosta se taso, jonka kukin lapsi tarvitsee, tai tee se näytöllä.",
     "setTitle": "{title} – tasosarja",
-    "setDescription": "{title} kolmella tasolla – helpompi, perus ja vaikeampi – vastauksineen ja useine tehtävineen tasoa kohden.",
-    "setIntro": "Yksi taito, kolme tasoa. Anna jokaiselle lapselle sopiva tehtävä: kaikilla on sama asettelu ja samanlaiset vastaukset, joten yksi ohjeistus riittää koko luokalle.",
-    "playLabel": "Pelaa",
+    "setDescription": "{title} enintään kolmella tasolla – helpompi, perus ja vaikeampi – ja useita tehtäviä joka tasolla.",
+    "setIntro": "Yksi taito, kolme tasoa. Anna jokaiselle lapselle sopiva tehtävä: kaikilla on sama asettelu, joten yksi ohjeistus riittää koko luokalle.",
+    "playLabel": "Tee näytöllä",
     "moreOfType": "Lisää tämän tyypin sarjoja",
     "backToHub": "Kaikki tehtävät",
-    "interactiveCount": "{count, plural, one {# tehtävän voi pelata selaimessa} other {# tehtävää voi pelata selaimessa}}",
-    "answerKeys": "Vastaukset jokaiseen PDF-tiedostoon",
+    "interactiveCount": "{count, plural, one {# tehtävän voi tehdä näytöllä} other {# tehtävää voi tehdä näytöllä}}",
+    "answerKeys": "{count, plural, one {# vastaussivu} other {# vastaussivua}}",
     "emptyRung": "Tällä tasolla ei ole vielä tehtävää"
   },
   "deckLadder": {
@@ -3118,7 +3118,7 @@
     "levelOf": "Taso {n}/{total}",
     "morePages": "Lisää tehtäviä tällä tasolla",
     "openSet": "Katso koko sarja",
-    "landingHeading": "Tämä tehtävä kolmella tasolla",
-    "landingBody": "Sama tehtävä on saatavilla myös helpompana ja vaikeampana versiona, ja joka tasolla on lisää harjoitustehtäviä."
+    "landingHeading": "Tämä tehtävä usealla tasolla",
+    "landingBody": "Sama tehtävä on saatavilla myös muilla tasoilla, ja joka tasolla on lisää harjoitustehtäviä."
   }
 }

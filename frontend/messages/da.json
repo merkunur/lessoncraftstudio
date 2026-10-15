@@ -3097,8 +3097,8 @@
   },
   "levelSets": {
     "heading": "Niveausæt",
-    "hubIntro": "Samme færdighed på tre niveauer – et lettere ark, klassetrinnets grundark og et sværere – med flere ark på hvert niveau og facitliste til hvert. Del alle tre ud i samme lektion.",
-    "core": "Grund",
+    "hubIntro": "Samme færdighed på op til tre niveauer – et lettere ark, klassetrinnets grundark og et sværere – med flere ark på hvert niveau. Giv hvert barn sit niveau i samme lektion.",
+    "core": "Mellem",
     "levelN": "Niveau {n}",
     "rungEasy": "En lettere udgave af samme opgave",
     "rungCore": "Arket på klassetrinnets niveau",
@@ -3108,17 +3108,17 @@
     "openSet": "Åbn sættet",
     "allSets": "Alle niveausæt",
     "setWord": "Sæt {n}",
-    "indexTitle": "Niveausæt – arbejdsark på tre niveauer",
-    "indexDescription": "Alle typer arbejdsark, der findes på tre niveauer, med flere ark pr. niveau og facitlister. Vælg det niveau, hvert barn har brug for.",
-    "indexIntro": "Alle typer arbejdsark, der findes på tre niveauer. Åbn et sæt, og print eller spil det niveau, hvert barn har brug for.",
+    "indexTitle": "Niveausæt – arbejdsark på op til tre niveauer",
+    "indexDescription": "Alle typer arbejdsark, der findes på flere niveauer, med flere ark pr. niveau. Vælg det niveau, hvert barn har brug for.",
+    "indexIntro": "Alle typer arbejdsark, der findes på flere niveauer. Åbn et sæt, og print det niveau, hvert barn har brug for, eller løs det på skærmen.",
     "setTitle": "{title} – niveausæt",
-    "setDescription": "{title} på tre niveauer – lettere, grund og sværere – med facitlister og flere ark pr. niveau.",
-    "setIntro": "Én færdighed, tre niveauer. Giv hvert barn det ark, der passer: alle ark har samme layout og samme facitliste, så én forklaring rækker til hele klassen.",
-    "playLabel": "Spil",
+    "setDescription": "{title} på op til tre niveauer – lettere, mellem og sværere – med flere ark pr. niveau.",
+    "setIntro": "Én færdighed, tre niveauer. Giv hvert barn det ark, der passer: alle ark har samme layout, så én forklaring rækker til hele klassen.",
+    "playLabel": "Løs på skærmen",
     "moreOfType": "Flere sæt af denne type",
     "backToHub": "Alle arbejdsark",
-    "interactiveCount": "{count, plural, one {# ark kan spilles i browseren} other {# ark kan spilles i browseren}}",
-    "answerKeys": "Facitliste til hver PDF",
+    "interactiveCount": "{count, plural, one {# ark kan løses på skærmen} other {# ark kan løses på skærmen}}",
+    "answerKeys": "{count, plural, one {# facitliste} other {# facitlister}}",
     "emptyRung": "Endnu intet ark på dette niveau"
   },
   "deckLadder": {
@@ -3126,7 +3126,7 @@
     "levelOf": "Niveau {n} af {total}",
     "morePages": "Flere ark på dette niveau",
     "openSet": "Se hele sættet",
-    "landingHeading": "Dette arbejdsark på tre niveauer",
-    "landingBody": "Samme opgave findes også som et lettere og et sværere ark, med flere øveark på hvert niveau."
+    "landingHeading": "Dette arbejdsark på flere niveauer",
+    "landingBody": "Samme opgave findes også på andre niveauer, med flere øveark på hvert niveau."
   }
 }

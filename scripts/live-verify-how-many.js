@@ -68,7 +68,8 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       const mixOn = await frame.evaluate(() => { const m = document.querySelector('.hm-mix'); return m && !m.disabled; });
       if (mixOn) { await frame.click('.hm-mix'); await wait(500); }
       const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); const chk = f.contentDocument.querySelector('.lcs-activity-check').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height, checkBottom: chk.bottom }; }, frameEl);
-      is(fit.frameH >= fit.cardH - 8 && fit.checkBottom <= fit.frameH + 1,   // the shell rounds up and the iframe animates its height; the control inside the frame is the test `[${loc} @${w}] iframe grows with the card after Next/Mix (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)}, Check bottom ${fit.checkBottom.toFixed(0)})`);
+      /* the shell rounds up and the iframe animates its height; the control inside the frame is the test */
+      is(fit.frameH >= fit.cardH - 8 && fit.checkBottom <= fit.frameH + 1, `[${loc} @${w}] iframe grows with the card after Next/Mix (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)}, Check bottom ${fit.checkBottom.toFixed(0)})`);
       await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}.png`), fullPage: w < 500 });
       await page.close();
     }

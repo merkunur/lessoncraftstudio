@@ -82,7 +82,11 @@ function levelName(levelSlug, locale) {
   const ax = TAXONOMY.axes['educational-level'];
   for (const k of Object.keys(ax)) {
     const e = ax[k];
-    if (e.slug && e.slug[locale] === levelSlug) return String((e.name && (e.name[locale] || e.name.en)) || k).replace(/\s*\(.*\)\s*$/, '');
+    if (e.slug && e.slug[locale] === levelSlug) {
+      // "kindergarten (ages 5-7)" → "Kindergarten": the parenthetical goes, the label gets an initial capital
+      const n = String((e.name && (e.name[locale] || e.name.en)) || k).replace(/\s*\(.*\)\s*$/, '');
+      return n.charAt(0).toUpperCase() + n.slice(1);
+    }
   }
   return null;
 }

@@ -4630,7 +4630,11 @@
     "answerKeys": "{count, plural, one {# gabarito} other {# gabaritos}}",
     "emptyRung": "Ainda não há ficha neste nível",
     "teacherSheet": "Registro da turma (PDF)",
-    "teacherSheetAria": "Baixar o registro da turma de {title}"
+    "teacherSheetAria": "Baixar o registro da turma de {title}",
+    "pathway": "Trilha de aprendizagem",
+    "previousSet": "Conjunto anterior",
+    "nextSet": "Próximo conjunto",
+    "allInStrand": "{count, plural, one {Todos os # conjuntos desta unidade} other {Todos os # conjuntos desta unidade}}"
   },
   "deckLadder": {
     "heading": "Esta ficha faz parte de um conjunto por nível",

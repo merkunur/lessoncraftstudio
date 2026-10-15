@@ -4645,7 +4645,11 @@
     "answerKeys": "{count, plural, one {# soluzione} other {# soluzioni}}",
     "emptyRung": "Nessuna scheda a questo livello per ora",
     "teacherSheet": "Griglia della classe (PDF)",
-    "teacherSheetAria": "Scarica la griglia della classe di {title}"
+    "teacherSheetAria": "Scarica la griglia della classe di {title}",
+    "pathway": "Percorso",
+    "previousSet": "Set precedente",
+    "nextSet": "Set successivo",
+    "allInStrand": "{count, plural, one {Tutti i # set di questo ambito} other {Tutti i # set di questo ambito}}"
   },
   "deckLadder": {
     "heading": "Questa scheda fa parte di un set a livelli",

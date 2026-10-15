@@ -3144,7 +3144,11 @@
     "answerKeys": "{count, plural, one {# corrigé} other {# corrigés}}",
     "emptyRung": "Pas encore de fiche à ce niveau",
     "teacherSheet": "Fiche de suivi de la classe (PDF)",
-    "teacherSheetAria": "Télécharger la fiche de suivi de la classe pour {title}"
+    "teacherSheetAria": "Télécharger la fiche de suivi de la classe pour {title}",
+    "pathway": "Parcours",
+    "previousSet": "Série précédente",
+    "nextSet": "Série suivante",
+    "allInStrand": "{count, plural, one {Toutes les # séries de ce domaine} other {Toutes les # séries de ce domaine}}"
   },
   "deckLadder": {
     "heading": "Cette fiche fait partie d’une série par niveau",

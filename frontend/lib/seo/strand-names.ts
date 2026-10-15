@@ -138,6 +138,12 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     fr: 'Questionner le monde : se repérer dans l’espace', // nt10-E panel (tools/apply-b5-locale.js)
     it: 'Storia, geografia ed educazione civica', // nt10-E panel (tools/apply-b5-locale.js)
     da: 'Natur/teknologi og historie', // nt10-E panel (tools/apply-b5-locale.js)
+    de: 'Sachunterricht', // Level Sets v2 pathway (2026-10-15)
+    pt: 'Ciências Humanas', // Level Sets v2 pathway (2026-10-15)
+    nl: 'Oriëntatie op jezelf en de wereld', // Level Sets v2 pathway (2026-10-15)
+    sv: 'Samhällsorienterande ämnen', // Level Sets v2 pathway (2026-10-15)
+    no: 'Samfunnsfag', // Level Sets v2 pathway (2026-10-15)
+    fi: 'Ympäristöoppi', // Level Sets v2 pathway (2026-10-15)
   },
   // Grown incrementally as the K.MD.A.2 "Comparing Length" activity fans out
   // per locale (each ship adds its sub-key). Absent locales fall back to en.
@@ -320,6 +326,37 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     pt: 'Números', // BNCC não tem eixo "Frações" separado — as frações vivem na unidade temática "Números" (pt fan-out; fox-forge 3.NF.A.1)
     nl: 'Getallen', // SLO heeft geen apart breuken-domein — breuken vallen onder getalbegrip (kerndoel 26); mirror de/es/pt (nl fan-out; fox-forge 3.NF.A.1)
     it: 'Numeri: le frazioni', // nt20-C panel (tools/apply-b3-locale.js)
+    fr: 'Nombres et calcul', // Level Sets v2 pathway (2026-10-15)
+    sv: 'Taluppfattning och tals användning', // Level Sets v2 pathway (2026-10-15)
+    da: 'Tal og algebra', // Level Sets v2 pathway (2026-10-15)
+    no: 'Tall og tallforståelse', // Level Sets v2 pathway (2026-10-15)
+    fi: 'Luvut ja laskutoimitukset', // Level Sets v2 pathway (2026-10-15)
+  },
+  'Handwriting': { // Level Sets v2 pathway (2026-10-15): tracing, pre-writing, cursive
+    en: 'Handwriting',
+    de: 'Handschrift',
+    es: 'Grafomotricidad y escritura',
+    fr: 'Graphisme et écriture',
+    it: 'Pregrafismo e scrittura',
+    pt: 'Caligrafia',
+    nl: 'Schrijfmotoriek',
+    sv: 'Handstil',
+    da: 'Håndskrift',
+    no: 'Håndskrift',
+    fi: 'Käsinkirjoitus',
+  },
+  'Logical Reasoning': { // Level Sets v2 pathway (2026-10-15): logic grid puzzles
+    en: 'Logical Reasoning',
+    de: 'Logisches Denken',
+    es: 'Razonamiento lógico',
+    fr: 'Raisonnement logique',
+    it: 'Ragionamento logico',
+    pt: 'Raciocínio lógico',
+    nl: 'Logisch redeneren',
+    sv: 'Logiskt tänkande',
+    da: 'Logisk tænkning',
+    no: 'Logisk tenkning',
+    fi: 'Looginen päättely',
   },
 };
 

@@ -3124,7 +3124,11 @@
     "answerKeys": "{count, plural, one {# antwoordblad} other {# antwoordbladen}}",
     "emptyRung": "Nog geen blad op dit niveau",
     "teacherSheet": "Klassenoverzicht (PDF)",
-    "teacherSheetAria": "Download het klassenoverzicht van {title}"
+    "teacherSheetAria": "Download het klassenoverzicht van {title}",
+    "pathway": "Leerlijn",
+    "previousSet": "Vorige set",
+    "nextSet": "Volgende set",
+    "allInStrand": "{count, plural, one {Alle # sets in dit domein} other {Alle # sets in dit domein}}"
   },
   "deckLadder": {
     "heading": "Dit werkblad hoort bij een niveauset",

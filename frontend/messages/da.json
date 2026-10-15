@@ -3121,7 +3121,11 @@
     "answerKeys": "{count, plural, one {# facitliste} other {# facitlister}}",
     "emptyRung": "Endnu intet ark på dette niveau",
     "teacherSheet": "Klasseoversigt (PDF)",
-    "teacherSheetAria": "Hent klasseoversigten til {title}"
+    "teacherSheetAria": "Hent klasseoversigten til {title}",
+    "pathway": "Læringsforløb",
+    "previousSet": "Forrige sæt",
+    "nextSet": "Næste sæt",
+    "allInStrand": "{count, plural, one {Alle # sæt i dette område} other {Alle # sæt i dette område}}"
   },
   "deckLadder": {
     "heading": "Dette arbejdsark er en del af et niveausæt",

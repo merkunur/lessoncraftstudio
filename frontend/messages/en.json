@@ -4644,7 +4644,11 @@
     "answerKeys": "{count, plural, one {# answer key} other {# answer keys}}",
     "emptyRung": "No page at this level yet",
     "teacherSheet": "Class sheet (PDF)",
-    "teacherSheetAria": "Download the class sheet for {title}"
+    "teacherSheetAria": "Download the class sheet for {title}",
+    "pathway": "Pathway",
+    "previousSet": "Previous set",
+    "nextSet": "Next set",
+    "allInStrand": "{count, plural, one {All # sets in this strand} other {All # sets in this strand}}"
   },
   "deckLadder": {
     "heading": "This worksheet is part of a Level Set",

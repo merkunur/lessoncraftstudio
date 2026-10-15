@@ -3124,7 +3124,11 @@
     "answerKeys": "{count, plural, one {# facit} other {# facit}}",
     "emptyRung": "Inget blad på den här nivån ännu",
     "teacherSheet": "Klassöversikt (PDF)",
-    "teacherSheetAria": "Ladda ner klassöversikten för {title}"
+    "teacherSheetAria": "Ladda ner klassöversikten för {title}",
+    "pathway": "Lärväg",
+    "previousSet": "Föregående set",
+    "nextSet": "Nästa set",
+    "allInStrand": "{count, plural, one {Alla # set i det här området} other {Alla # set i det här området}}"
   },
   "deckLadder": {
     "heading": "Det här arbetsbladet ingår i ett nivåset",

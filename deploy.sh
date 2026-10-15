@@ -178,6 +178,14 @@ node scripts/seo-landing/augment-landings-real-content.js --locales=all \
   && echo "   ✅ landing augment refreshed" \
   || echo "   ⚠️  landing augment failed (landings render without real-content sections)"
 
+# 1b-ii. Refresh the LEVEL SET augment (Level Sets v2, 2026-10-15): per landing, the easy / core / hard
+# pages of its worksheet face, read from the deck manifests on disk, written to
+# /var/www/lcs-media/landings-augment/levels-<locale>.json. NON-FATAL like 1b-i — absent file ⇒ no block.
+echo "📄 Refreshing landing Level Set augment..."
+node scripts/seo-landing/augment-landings-levels.js --locales=all \
+  && echo "   ✅ landing Level Set augment refreshed" \
+  || echo "   ⚠️  landing Level Set augment failed (landings render without the three-levels block)"
+
 echo "📄 Regenerating static worksheet landings..."
 node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landings \
   && echo "   ✅ static landings regenerated" \
@@ -243,6 +251,7 @@ node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "E
 # byte-exact inject/remove round trip on a real production deck. Browser-free.
 echo "🔎 deck-actions strip guard..."
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-actions.test.js || { echo "ERROR: the deck action strip is broken — a locale lost its deckActions strings, a maker landing slug vanished, or /tools/ or /api/quota/dl moved. See scripts/lib/deck-actions.js"; exit 1; }
+node /opt/lessoncraftstudio/scripts/publish-cli/deck-ladder.test.js || { echo "ERROR: the deck ladder strip is broken — a locale lost its deckLadder/levelSets strings, the set route moved, or the injector no longer round-trips. See scripts/lib/deck-ladder.js"; exit 1; }
 # the free-tier policy on every deck page (2026-10-01): metered PDF links, no "free" label, the play wall on screen versions
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-metering.test.js || { echo "ERROR: deck metering is broken — a deck page could give its PDF or screen version away unlimited. See scripts/lib/deck-metering.js"; exit 1; }
 

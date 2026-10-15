@@ -1,10 +1,15 @@
 import { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
+import { setsIndexPath } from '@/lib/level-sets';
+import { loadLadders } from '@/lib/level-sets-db';
+import { ladderCardProps } from '@/lib/level-sets-view';
+import LevelSetsSection from '@/components/worksheets/LevelSetsSection';
 import {
   Axis,
   getAxisName,
@@ -747,6 +752,30 @@ async function renderSubjectGradeHub(
     60,
   ).filter((l) => !hubShownLandingSlugs.has(l.slug));
 
+  /* Level Sets v2 (2026-10-15, operator decision 1): an ADDITIVE "Level Sets"
+     section — the ladders (easy / core / hard pages of one worksheet face) of
+     this subject's types at THIS grade (landing level = the locale's slug, as
+     hubLandingLevel above). Title / meta / h1 / canonical untouched. */
+  const subjectTypes = new Set(exerciseTypeKeysForSubject(subjectKey));
+  const hubLadders = (await loadLadders(locale)).filter((l) => subjectTypes.has(l.type) && l.level === hubLandingLevel);
+  let levelSetsSection: ReactNode = null;
+  if (hubLadders.length > 0) {
+    const [tLs, tWsCard] = await Promise.all([
+      getTranslations({ locale, namespace: 'levelSets' }),
+      getTranslations({ locale, namespace: 'worksheetsPage.card' }),
+    ]);
+    const lsStrings = { interactiveMark: tWsCard('interactiveMark'), printOnly: tWsCard('printOnly') };
+    levelSetsSection = (
+      <LevelSetsSection
+        heading={`${tLs('heading')} · ${h1}`}
+        intro={tLs('hubIntro')}
+        cards={hubLadders.slice(0, 12).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, i < 4))}
+        allHref={setsIndexPath(locale)}
+        allLabel={tLs('allSets')}
+      />
+    );
+  }
+
   // Internal-link mesh — the money links that concentrate PageRank on the hubs.
   const otherGrades: Array<{ label: string; href: string }> = [];
   for (const g of HUB_GRADE_KEYS) {
@@ -851,6 +880,8 @@ async function renderSubjectGradeHub(
           ))}
           {updatedLine && <p className="mt-3 text-sm text-ink-500">{updatedLine}</p>}
         </header>
+
+        {levelSetsSection}
 
         {decks.length > 0 && (
           <DeckGridClient

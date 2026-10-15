@@ -428,6 +428,15 @@ function main() {
     runStep(`METER — meter-deck-downloads (${loc})`, 'meter-deck-downloads.js', [`--locale=${loc}`, ...scopeArg]);
   }
 
+  // STEP 6f — LADDER (Level Sets v2, 2026-10-15): the "Level Set · Level n of 3 · [Easy][Core][Hard] · See the whole
+  // set" strip above the worksheet on every worksheet-gen deck that belongs to a face ladder (≥ 2 pages). The strip
+  // carries the SIBLINGS, which only exist once the wave is on disk, so it is a post-publish injection by
+  // construction; the collect pass always reads the whole locale (a new copy changes the counts on its siblings'
+  // strips, which --slugs-file widens the inject pass to). App decks are never touched. SoT scripts/lib/deck-ladder.js.
+  for (const loc of args.locales) {
+    runStep(`LADDER — inject-deck-ladder (${loc})`, 'inject-deck-ladder.js', [`--locale=${loc}`, ...scopeArg]);
+  }
+
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);

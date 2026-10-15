@@ -3094,5 +3094,39 @@
       "toolsHeading": "Undervisningsværktøjer"
     },
     "planTag": "Lærerabonnementet"
+  },
+  "levelSets": {
+    "heading": "Niveausæt",
+    "hubIntro": "Samme færdighed på tre niveauer – et lettere ark, klassetrinnets grundark og et sværere – med flere ark på hvert niveau og facitliste til hvert. Del alle tre ud i samme lektion.",
+    "core": "Grund",
+    "levelN": "Niveau {n}",
+    "rungEasy": "En lettere udgave af samme opgave",
+    "rungCore": "Arket på klassetrinnets niveau",
+    "rungHard": "En sværere udgave af samme opgave",
+    "pages": "{count, plural, one {# ark} other {# ark}}",
+    "levels": "{count, plural, one {# niveau} other {# niveauer}}",
+    "openSet": "Åbn sættet",
+    "allSets": "Alle niveausæt",
+    "setWord": "Sæt {n}",
+    "indexTitle": "Niveausæt – arbejdsark på tre niveauer",
+    "indexDescription": "Alle typer arbejdsark, der findes på tre niveauer, med flere ark pr. niveau og facitlister. Vælg det niveau, hvert barn har brug for.",
+    "indexIntro": "Alle typer arbejdsark, der findes på tre niveauer. Åbn et sæt, og print eller spil det niveau, hvert barn har brug for.",
+    "setTitle": "{title} – niveausæt",
+    "setDescription": "{title} på tre niveauer – lettere, grund og sværere – med facitlister og flere ark pr. niveau.",
+    "setIntro": "Én færdighed, tre niveauer. Giv hvert barn det ark, der passer: alle ark har samme layout og samme facitliste, så én forklaring rækker til hele klassen.",
+    "playLabel": "Spil",
+    "moreOfType": "Flere sæt af denne type",
+    "backToHub": "Alle arbejdsark",
+    "interactiveCount": "{count, plural, one {# ark kan spilles i browseren} other {# ark kan spilles i browseren}}",
+    "answerKeys": "Facitliste til hver PDF",
+    "emptyRung": "Endnu intet ark på dette niveau"
+  },
+  "deckLadder": {
+    "heading": "Dette arbejdsark er en del af et niveausæt",
+    "levelOf": "Niveau {n} af {total}",
+    "morePages": "Flere ark på dette niveau",
+    "openSet": "Se hele sættet",
+    "landingHeading": "Dette arbejdsark på tre niveauer",
+    "landingBody": "Samme opgave findes også som et lettere og et sværere ark, med flere øveark på hvert niveau."
   }
 }

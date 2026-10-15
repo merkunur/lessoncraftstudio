@@ -4603,5 +4603,39 @@
       "toolsHeading": "Ferramentas de sala de aula"
     },
     "planTag": "Plano Professor"
+  },
+  "levelSets": {
+    "heading": "Séries por nível",
+    "hubIntro": "A mesma habilidade em três níveis – uma ficha mais fácil, a ficha base do ano e uma mais difícil – com várias fichas por nível e gabarito para cada uma. Distribua as três em uma só aula.",
+    "core": "Base",
+    "levelN": "Nível {n}",
+    "rungEasy": "Uma versão mais fácil da mesma atividade",
+    "rungCore": "A ficha no nível do ano",
+    "rungHard": "Uma versão mais difícil da mesma atividade",
+    "pages": "{count, plural, one {# ficha} other {# fichas}}",
+    "levels": "{count, plural, one {# nível} other {# níveis}}",
+    "openSet": "Abrir a série",
+    "allSets": "Todas as séries por nível",
+    "setWord": "Conjunto {n}",
+    "indexTitle": "Séries por nível – fichas em três níveis",
+    "indexDescription": "Todos os tipos de ficha que existem em três níveis, com várias fichas por nível e gabaritos. Escolha o nível de que cada criança precisa.",
+    "indexIntro": "Todos os tipos de ficha que existem em três níveis. Abra uma série e imprima ou jogue o nível de que cada criança precisa.",
+    "setTitle": "{title} – série por nível",
+    "setDescription": "{title} em três níveis – mais fácil, base e mais difícil – com gabaritos e várias fichas por nível.",
+    "setIntro": "Uma habilidade, três níveis. Dê a cada criança a ficha certa: todas têm o mesmo layout e o mesmo gabarito, então uma única explicação serve para a turma inteira.",
+    "playLabel": "Jogar",
+    "moreOfType": "Mais séries deste tipo",
+    "backToHub": "Todas as fichas",
+    "interactiveCount": "{count, plural, one {# ficha pode ser jogada no navegador} other {# fichas podem ser jogadas no navegador}}",
+    "answerKeys": "Gabarito para cada PDF",
+    "emptyRung": "Ainda não há ficha neste nível"
+  },
+  "deckLadder": {
+    "heading": "Esta ficha faz parte de uma série por nível",
+    "levelOf": "Nível {n} de {total}",
+    "morePages": "Mais fichas deste nível",
+    "openSet": "Ver a série completa",
+    "landingHeading": "Esta ficha em três níveis",
+    "landingBody": "A mesma atividade também existe em uma ficha mais fácil e em uma mais difícil, com mais fichas de prática em cada nível."
   }
 }

@@ -3097,5 +3097,39 @@
       "toolsHeading": "Hulpmiddelen voor in de klas"
     },
     "planTag": "Leerkracht-abonnement"
+  },
+  "levelSets": {
+    "heading": "Niveausets",
+    "hubIntro": "Dezelfde vaardigheid op drie niveaus – een makkelijker blad, het kernblad voor de groep en een moeilijker blad – met meerdere bladen per niveau en bij elk de antwoorden. Deel alle drie uit in één les.",
+    "core": "Kern",
+    "levelN": "Niveau {n}",
+    "rungEasy": "Een makkelijkere versie van dezelfde opdracht",
+    "rungCore": "Het blad op groepsniveau",
+    "rungHard": "Een moeilijkere versie van dezelfde opdracht",
+    "pages": "{count, plural, one {# blad} other {# bladen}}",
+    "levels": "{count, plural, one {# niveau} other {# niveaus}}",
+    "openSet": "Set openen",
+    "allSets": "Alle niveausets",
+    "setWord": "Set {n}",
+    "indexTitle": "Niveausets – werkbladen op drie niveaus",
+    "indexDescription": "Elk werkbladtype dat op drie niveaus bestaat, met meerdere bladen per niveau en antwoorden. Kies het niveau dat elk kind nodig heeft.",
+    "indexIntro": "Elk werkbladtype dat op drie niveaus bestaat. Open een set en print of speel het niveau dat elk kind nodig heeft.",
+    "setTitle": "{title} – niveauset",
+    "setDescription": "{title} op drie niveaus – makkelijker, kern en moeilijker – met antwoorden en meerdere bladen per niveau.",
+    "setIntro": "Eén vaardigheid, drie niveaus. Geef elk kind het blad dat past: alle bladen hebben dezelfde opmaak en dezelfde antwoordvorm, dus één uitleg volstaat voor de hele klas.",
+    "playLabel": "Spelen",
+    "moreOfType": "Meer sets van dit type",
+    "backToHub": "Alle werkbladen",
+    "interactiveCount": "{count, plural, one {# blad is in de browser te spelen} other {# bladen zijn in de browser te spelen}}",
+    "answerKeys": "Antwoorden bij elke PDF",
+    "emptyRung": "Nog geen blad op dit niveau"
+  },
+  "deckLadder": {
+    "heading": "Dit werkblad hoort bij een niveauset",
+    "levelOf": "Niveau {n} van {total}",
+    "morePages": "Meer bladen op dit niveau",
+    "openSet": "Bekijk de hele set",
+    "landingHeading": "Dit werkblad op drie niveaus",
+    "landingBody": "Dezelfde opdracht bestaat ook als makkelijker en als moeilijker blad, met extra oefenbladen op elk niveau."
   }
 }

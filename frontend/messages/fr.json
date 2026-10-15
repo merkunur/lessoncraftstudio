@@ -3117,5 +3117,39 @@
       "toolsHeading": "Outils de classe"
     },
     "planTag": "Abonnement Enseignant"
+  },
+  "levelSets": {
+    "heading": "Séries par niveau",
+    "hubIntro": "La même compétence à trois niveaux – une fiche plus facile, la fiche de base du niveau de classe et une plus difficile – avec plusieurs fiches par niveau et un corrigé pour chacune. Distribuez les trois dans une même séance.",
+    "core": "Base",
+    "levelN": "Niveau {n}",
+    "rungEasy": "Une version plus facile de la même tâche",
+    "rungCore": "La fiche du niveau de la classe",
+    "rungHard": "Une version plus difficile de la même tâche",
+    "pages": "{count, plural, one {# fiche} other {# fiches}}",
+    "levels": "{count, plural, one {# niveau} other {# niveaux}}",
+    "openSet": "Ouvrir la série",
+    "allSets": "Toutes les séries par niveau",
+    "setWord": "Série {n}",
+    "indexTitle": "Séries par niveau – des fiches à trois niveaux",
+    "indexDescription": "Tous les types de fiches disponibles à trois niveaux, avec plusieurs fiches par niveau et des corrigés. Choisissez le niveau dont chaque enfant a besoin.",
+    "indexIntro": "Tous les types de fiches disponibles à trois niveaux. Ouvrez une série, puis imprimez ou jouez le niveau dont chaque enfant a besoin.",
+    "setTitle": "{title} – série par niveau",
+    "setDescription": "{title} à trois niveaux – plus facile, base et plus difficile – avec corrigés et plusieurs fiches par niveau.",
+    "setIntro": "Une compétence, trois niveaux. Donnez à chaque enfant la fiche qui lui convient : toutes partagent la même mise en page et le même corrigé, une seule explication suffit donc pour toute la classe.",
+    "playLabel": "Jouer",
+    "moreOfType": "D’autres séries de ce type",
+    "backToHub": "Toutes les fiches",
+    "interactiveCount": "{count, plural, one {# fiche se joue dans le navigateur} other {# fiches se jouent dans le navigateur}}",
+    "answerKeys": "Un corrigé pour chaque PDF",
+    "emptyRung": "Pas encore de fiche à ce niveau"
+  },
+  "deckLadder": {
+    "heading": "Cette fiche fait partie d’une série par niveau",
+    "levelOf": "Niveau {n} sur {total}",
+    "morePages": "D’autres fiches de ce niveau",
+    "openSet": "Voir toute la série",
+    "landingHeading": "Cette fiche à trois niveaux",
+    "landingBody": "La même tâche existe aussi en fiche plus facile et en fiche plus difficile, avec d’autres fiches d’entraînement à chaque niveau."
   }
 }

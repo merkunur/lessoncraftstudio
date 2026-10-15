@@ -3086,5 +3086,39 @@
       "toolsHeading": "Työkalut luokkaan"
     },
     "planTag": "Opettajatilaus"
+  },
+  "levelSets": {
+    "heading": "Tasosarjat",
+    "hubIntro": "Sama taito kolmella tasolla – helpompi tehtävä, luokka-asteen perustehtävä ja vaikeampi tehtävä – useita tehtäviä joka tasolla ja jokaiseen vastaukset. Jaa kaikki kolme samalla tunnilla.",
+    "core": "Perus",
+    "levelN": "Taso {n}",
+    "rungEasy": "Helpompi versio samasta tehtävästä",
+    "rungCore": "Luokka-asteen tasoinen tehtävä",
+    "rungHard": "Vaikeampi versio samasta tehtävästä",
+    "pages": "{count, plural, one {# tehtävä} other {# tehtävää}}",
+    "levels": "{count, plural, one {# taso} other {# tasoa}}",
+    "openSet": "Avaa sarja",
+    "allSets": "Kaikki tasosarjat",
+    "setWord": "Sarja {n}",
+    "indexTitle": "Tasosarjat – tehtävät kolmella tasolla",
+    "indexDescription": "Kaikki tehtävätyypit, jotka löytyvät kolmella tasolla, useita tehtäviä tasoa kohden ja vastaukset. Valitse jokaiselle lapselle sopiva taso.",
+    "indexIntro": "Kaikki tehtävätyypit, jotka löytyvät kolmella tasolla. Avaa sarja ja tulosta tai pelaa se taso, jonka kukin lapsi tarvitsee.",
+    "setTitle": "{title} – tasosarja",
+    "setDescription": "{title} kolmella tasolla – helpompi, perus ja vaikeampi – vastauksineen ja useine tehtävineen tasoa kohden.",
+    "setIntro": "Yksi taito, kolme tasoa. Anna jokaiselle lapselle sopiva tehtävä: kaikilla on sama asettelu ja samanlaiset vastaukset, joten yksi ohjeistus riittää koko luokalle.",
+    "playLabel": "Pelaa",
+    "moreOfType": "Lisää tämän tyypin sarjoja",
+    "backToHub": "Kaikki tehtävät",
+    "interactiveCount": "{count, plural, one {# tehtävän voi pelata selaimessa} other {# tehtävää voi pelata selaimessa}}",
+    "answerKeys": "Vastaukset jokaiseen PDF-tiedostoon",
+    "emptyRung": "Tällä tasolla ei ole vielä tehtävää"
+  },
+  "deckLadder": {
+    "heading": "Tämä tehtävä kuuluu tasosarjaan",
+    "levelOf": "Taso {n}/{total}",
+    "morePages": "Lisää tehtäviä tällä tasolla",
+    "openSet": "Katso koko sarja",
+    "landingHeading": "Tämä tehtävä kolmella tasolla",
+    "landingBody": "Sama tehtävä on saatavilla myös helpompana ja vaikeampana versiona, ja joka tasolla on lisää harjoitustehtäviä."
   }
 }

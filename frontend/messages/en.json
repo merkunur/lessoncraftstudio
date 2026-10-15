@@ -4617,5 +4617,39 @@
       "toolsHeading": "Classroom tools"
     },
     "planTag": "Teacher plan"
+  },
+  "levelSets": {
+    "heading": "Level Sets",
+    "hubIntro": "The same skill at three levels — an easier page, the core page for the grade and a harder one — with several pages at every level and an answer key for each. Hand out all three in one lesson.",
+    "core": "Core",
+    "levelN": "Level {n}",
+    "rungEasy": "An easier version of the same task",
+    "rungCore": "The grade-level page",
+    "rungHard": "A harder version of the same task",
+    "pages": "{count, plural, one {# page} other {# pages}}",
+    "levels": "{count, plural, one {# level} other {# levels}}",
+    "openSet": "Open the set",
+    "allSets": "All Level Sets",
+    "setWord": "Set {n}",
+    "indexTitle": "Level Sets — worksheets at three levels",
+    "indexDescription": "Every worksheet type that comes at three levels, with several pages per level and answer keys. Choose the level each child needs.",
+    "indexIntro": "Every worksheet type that comes at three levels. Open a set, then print or play the level each child needs.",
+    "setTitle": "{title} — Level Set",
+    "setDescription": "{title} at three levels — easier, core and harder — with answer keys and several pages per level.",
+    "setIntro": "One skill, three levels. Give each child the page that fits: the pages share one layout and one answer-key convention, so one explanation serves the whole class.",
+    "playLabel": "Play",
+    "moreOfType": "More sets of this type",
+    "backToHub": "All worksheets",
+    "interactiveCount": "{count, plural, one {# page plays in the browser} other {# pages play in the browser}}",
+    "answerKeys": "Answer key for every PDF",
+    "emptyRung": "No page at this level yet"
+  },
+  "deckLadder": {
+    "heading": "This worksheet is part of a Level Set",
+    "levelOf": "Level {n} of {total}",
+    "morePages": "More pages at this level",
+    "openSet": "See the whole set",
+    "landingHeading": "This worksheet at three levels",
+    "landingBody": "The same task also comes as an easier and a harder page, with more practice pages at every level."
   }
 }

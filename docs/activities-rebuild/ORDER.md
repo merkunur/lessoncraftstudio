@@ -17,7 +17,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 11 |  | K | K.CC.B.5 | `choice-board.how-many-group.k-c-c-b-5` | choice-board-activity | How Many Are There? — Kindergarten Counting |
 | 12 |  | K | K.CC.B.5 | `mamas-roll-call.numeral-trace.k-cc-b-5` | mamas-roll-call-activity | Mama's Roll Call — Count Out That Many (0 to 9) |
 | 13 |  | K | K.CC.B.5 | `mochi-feast.count-out.k-cc-b-5` | mochi-feast-activity | Feed Mochi — Count Out Treats (Kindergarten Counting Game) |
-| 14 | BUILT 2026-10-15 → `how-many-activity` (the Counting Table), awaiting operator | K | K.CC.B.5 | `ten-frame.how-many.0-10.animals` | ten-frame-activity | How Many Animals? Count 0 to 10 — Ten Frame Activity |
+| 14 | LIVE 2026-10-16 → `how-many-activity` (the Counting Table); operator review pending | K | K.CC.B.5 | `ten-frame.how-many.0-10.animals` | ten-frame-activity | How Many Animals? Count 0 to 10 — Ten Frame Activity |
 | 15 |  | K | K.CC.B.5 | `twinsies.count-twin.k-cc-b-5` | twinsies-activity | Twinsies — Count How Many & Count Out That Many (Kindergarten) |
 | 16 |  | K | K.CC.B.5 | `wondering-jar.estimate-jar.k-cc-b-5` | wondering-jar-activity | The Wondering Jar — Guess, Then Count to Find Out (Kindergarten) |
 | 17 |  | K | K.CC.C.6 | `choice-board.which-more.k-c-c-6` | choice-board-activity | Which Group Has More? — Kindergarten Counting |

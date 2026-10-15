@@ -136,6 +136,9 @@ function buildLadders(facts) {
     if (l.total < 2) { byCode.delete(code); continue; }
     for (const r of RUNGS) {
       l.pages[r].sort((a, b) => (Number(b.indexable) - Number(a.indexable)) || (a.copy - b.copy) || (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0));
+      // Position within the rung (1-based). Themeless copies are numbered ONCE across levels by the
+      // generator (easy 7, 8, 9 …), which reads as nonsense to a teacher — labels use the position.
+      l.pages[r].forEach((p, i) => { p.pos = i + 1; p.rungSize = l.pages[r].length; });
     }
   }
   return byCode;
@@ -254,11 +257,11 @@ function cssRules() {
   ].join('');
 }
 
-/** Label of a sibling page: its localized theme, else "Set N", else its title. */
+/** Label of a sibling page: its localized theme, else "Set N" by position within its level, else its title. */
 function pageLabel(p, locale) {
   const tn = themeName(p.theme, locale);
   if (tn) return tn;
-  if (p.copy > 1) return fill(strings(locale).setWord, { n: p.copy });
+  if (p.pos && p.rungSize > 1) return fill(strings(locale).setWord, { n: p.pos });
   return p.title || p.slug;
 }
 

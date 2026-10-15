@@ -81,7 +81,7 @@ var L = ladders.get('g1245');
 ok(L.pages.core[0].slug === 'abc-animals-g1245' && L.pages.core[1].slug === 'abc-camping-g1245-3', 'core: published first, then copies');
 ok(L.pages.easy.map(function (p) { return p.copy; }).join() === '1,5' && L.pages.hard.length === 1, 'easy/hard by copy');
 ok(lib.pageLabel(L.pages.easy[1], 'en') === 'Beach' && lib.pageLabel(L.pages.easy[1], 'de') === 'Strand', 'sibling label = localized theme');
-ok(lib.pageLabel({ theme: null, copy: 3 }, 'de') === 'Set 3', 'themeless sibling label = Set N');
+ok(lib.pageLabel({ theme: null, copy: 7, pos: 3, rungSize: 5 }, 'de') === 'Set 3', 'themeless sibling label = Set N by POSITION in the level, not the generator copy number');
 // Parity with the TypeScript model on the same inputs (same regexes, same eligibility).
 var ts = fs.readFileSync(path.join(lib.REPO_ROOT, 'frontend', 'lib', 'level-sets.ts'), 'utf8');
 ok(/\/-\(\(\?:k\|g\\d\)\\d\{3\}\)\(\?:-\\d\+\)\?\$\//.test(ts), 'TS model uses the same variation-code regex');

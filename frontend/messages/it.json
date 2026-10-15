@@ -4501,17 +4501,17 @@
       "h1": "Ogni lezione, in perfetto equilibrio.",
       "fanLabel": "Schede d'esempio dal catalogo, nella tua lingua",
       "ctaWorksheets": "Sfoglia le schede",
-      "ctaActivities": "Prova un'attività",
+      "ctaMakers": "Prova un generatore di schede",
       "scope": "Dall'infanzia alla classe terza, nella tua lingua.",
       "pillar1Count": "40.000+",
       "pillar1Label": "schede da stampare",
-      "pillar1Gloss": "Stampa il PDF o gioca online: per lo più si correggono da sole.",
-      "pillar2Label": "Attività pronte da giocare",
-      "pillar2Gloss": "Il bambino gioca: è l'attività a correggere le risposte.",
+      "pillar1Gloss": "In set a livelli: un'abilità su tre livelli, con griglia della classe. Stampa il PDF o gioca online.",
+      "pillar2Label": "Generatori di schede",
+      "pillar2Gloss": "Scegli immagini e parole, crea la tua: da stampare o da giocare.",
       "pillar3Label": "Strumenti didattici",
       "pillar3Gloss": "Uno scaffale intero: orologio, abaco, bilancia e molti altri.",
-      "pillar4Label": "Generatori di schede",
-      "pillar4Gloss": "Scegli immagini e parole, crea la tua: da stampare o da giocare."
+      "pillar4Label": "Attività pronte da giocare",
+      "pillar4Gloss": "Il bambino gioca: è l'attività a correggere le risposte."
     },
     "ticks": {
       "teach": "Insegna",
@@ -4585,24 +4585,25 @@
       "chipNoAds": "Niente pubblicità sulle pagine degli alunni"
     },
     "teacher": {
-      "heading": "Inizia gratis. Togli i limiti quando vuoi.",
-      "body": "Tutto si prova gratis, senza carta: 10 partite interattive al giorno e 3 download PDF al mese con un account gratuito. Il piano Insegnante toglie i limiti, sblocca la versione completa di ogni strumento e salva quello che crei.",
+      "heading": "A cosa serve il piano Insegnante",
+      "body": "Una classe, tre livelli della stessa abilità e nessuna ora in più per prepararli. Il piano Insegnante apre ogni set a tutti i suoi livelli, ogni griglia della classe e ogni tappa del percorso: nella tua lingua, con le soluzioni.",
       "freeTitle": "Gratis",
       "freeTag": "Parti da qui — senza carta",
-      "free1": "Tutti gli strumenti e i generatori, da provare gratis",
+      "free1": "Sfoglia tutte le schede, i set a livelli e i percorsi",
       "free2": "10 partite interattive al giorno",
       "free3": "3 download PDF al mese con un account gratuito",
-      "free4": "Sfoglia tutto il catalogo",
+      "free4": "Tutti gli strumenti e i generatori, da provare gratis",
       "freeCta": "Inizia gratis — senza carta",
       "teacherTitle": "Insegnante",
       "teacherPrice": "{price} $ all'anno",
       "teacherMonthly": "oppure {monthly} $ al mese",
-      "teacher1": "Gioco e download illimitati",
+      "teacher1": "Gioco e download illimitati: ogni livello di ogni set, ogni griglia della classe",
       "teacher2": "Ogni strumento al completo — stampa, salvataggio, tutto il repertorio",
-      "teacher3": "Salva e raccogli quello che crei",
+      "teacher3": "Raccolte e uno spazio di lavoro per tutto ciò che usi in classe",
       "teacher4": "Link di condivisione e codici QR per la classe",
       "teacherCta": "Scopri il piano Insegnante",
-      "reassure": "Nessuna carta per iniziare · un unico piano · annulla quando vuoi"
+      "reassure": "Nessuna carta per iniziare · un unico piano · annulla quando vuoi",
+      "honest": "I download mensili di un account gratuito bastano per qualche pagina di un set. Il piano copre il set intero, e tutti quelli dopo."
     },
     "close": {
       "line1": "La lezione di domani",
@@ -4617,7 +4618,16 @@
       "sub": "Tutto il catalogo — per classe, per argomento, per abilità — e in più ogni strumento didattico.",
       "toolsHeading": "Strumenti per la classe"
     },
-    "planTag": "Piano Insegnante"
+    "planTag": "Piano Insegnante",
+    "set": {
+      "roomHeading": "Schede che esistono a più livelli",
+      "roomBody": "Un set a livelli è un'abilità su tre livelli: una pagina più facile, la pagina del livello della classe e una più difficile, con più pagine per ogni livello. Stampa il PDF con le soluzioni o aprilo sullo schermo: molte pagine si correggono da sole.",
+      "eyebrow": "Un set a livelli, appeso per intero",
+      "caption": "Tre livelli di un'abilità, e la griglia della classe che ti dice quale pagina dare a quale bambino.",
+      "sheetLabel": "Griglia della classe",
+      "planTag": "Ogni livello, ogni pagina: piano Insegnante",
+      "wallHeading": "Venti tipi di scheda, una pagina per ciascuno: una selezione nuova ogni giorno"
+    }
   },
   "levelSets": {
     "heading": "Set a livelli",

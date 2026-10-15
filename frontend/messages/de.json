@@ -4301,17 +4301,17 @@
       "h1": "Hier hängt alles zusammen.",
       "fanLabel": "Beispiel-Arbeitsblätter aus der Bibliothek — in deiner Sprache",
       "ctaWorksheets": "Arbeitsblätter durchstöbern",
-      "ctaActivities": "Aktivität ausprobieren",
+      "ctaMakers": "Einen Generator ausprobieren",
       "scope": "Von der Vorschule bis zur dritten Klasse, in deiner Sprache.",
       "pillar1Count": "Über 40.000",
       "pillar1Label": "Arbeitsblätter zum Ausdrucken",
-      "pillar1Gloss": "Als PDF drucken oder online lösen – meist mit Selbstkontrolle.",
-      "pillar2Label": "Aktivitäten zum Losspielen",
-      "pillar2Gloss": "Das Kind spielt – die Aktivität prüft die Antworten.",
+      "pillar1Gloss": "In Niveau-Sets: eine Fertigkeit auf drei Stufen, mit Klassenübersicht. Als PDF drucken oder online lösen.",
+      "pillar2Label": "Arbeitsblatt-Generatoren",
+      "pillar2Gloss": "Wähle Bilder und Wörter, bau dein Blatt – drucken oder spielen.",
       "pillar3Label": "Unterrichts-Tools",
       "pillar3Gloss": "Ein ganzes Regal voll: Uhr, Zahlenstrahl, Waage und vieles mehr.",
-      "pillar4Label": "Arbeitsblatt-Generatoren",
-      "pillar4Gloss": "Wähle Bilder und Wörter, bau dein Blatt – drucken oder spielen."
+      "pillar4Label": "Aktivitäten zum Losspielen",
+      "pillar4Gloss": "Das Kind spielt – die Aktivität prüft die Antworten."
     },
     "ticks": {
       "teach": "Zeigen",
@@ -4385,24 +4385,25 @@
       "chipNoAds": "Keine Werbung auf Kinderseiten"
     },
     "teacher": {
-      "heading": "Starte kostenlos. Heb die Limits auf, wenn du so weit bist.",
-      "body": "Alles lässt sich kostenlos ausprobieren, ganz ohne Karte: 10 interaktive Runden pro Tag und 3 PDF-Downloads pro Monat mit einem kostenlosen Konto. Das Lehrkraft-Abo hebt die Limits auf, schaltet den vollen Umfang jedes Tools frei und speichert, was du baust.",
+      "heading": "Wofür das Lehrkraft-Abo da ist",
+      "body": "Eine Klasse, drei Stufen derselben Fertigkeit – und keine Extrastunden, um sie zu erstellen. Das Lehrkraft-Abo öffnet jedes Niveau-Set auf jeder Stufe, jede Klassenübersicht und jeden Schritt des Lernwegs – in deiner Sprache, mit Lösungen.",
       "freeTitle": "Kostenlos",
       "freeTag": "Starte hier — ohne Karte",
-      "free1": "Alle Tools und Generatoren zum Ausprobieren",
+      "free1": "Alle Arbeitsblätter, Niveau-Sets und Lernwege durchstöbern",
       "free2": "10 interaktive Runden pro Tag",
       "free3": "3 PDF-Downloads pro Monat mit einem kostenlosen Konto",
-      "free4": "Die ganze Bibliothek durchstöbern",
+      "free4": "Alle Tools und Generatoren zum Ausprobieren",
       "freeCta": "Kostenlos starten — ohne Karte",
       "teacherTitle": "Lehrkraft",
       "teacherPrice": "${price} pro Jahr",
       "teacherMonthly": "oder ${monthly}/Monat",
-      "teacher1": "Unbegrenzt spielen und herunterladen",
+      "teacher1": "Unbegrenzt spielen und herunterladen: jede Stufe jedes Sets, jede Klassenübersicht",
       "teacher2": "Der volle Umfang jedes Tools — drucken, speichern, das ganze Repertoire",
-      "teacher3": "Speichern und sammeln, was du baust",
+      "teacher3": "Sammlungen und ein Arbeitsbereich für alles, womit du unterrichtest",
       "teacher4": "Links und Klassen-QR-Codes teilen",
       "teacherCta": "Zum Lehrkraft-Abo",
-      "reassure": "Ohne Karte starten · ein fester Preis · jederzeit kündbar"
+      "reassure": "Ohne Karte starten · ein fester Preis · jederzeit kündbar",
+      "honest": "Die monatlichen Downloads eines kostenlosen Kontos reichen für ein paar Seiten eines Sets. Das Abo reicht für das ganze Set – und für jedes weitere."
     },
     "close": {
       "line1": "Die Stunde von morgen",
@@ -4417,7 +4418,16 @@
       "sub": "Die ganze Bibliothek — nach Klasse, nach Thema, nach Kompetenz — und dazu alle Unterrichts-Tools.",
       "toolsHeading": "Tools für den Unterricht"
     },
-    "planTag": "Lehrkraft-Abo"
+    "planTag": "Lehrkraft-Abo",
+    "set": {
+      "roomHeading": "Arbeitsblätter in Stufen",
+      "roomBody": "Ein Niveau-Set ist eine Fertigkeit auf drei Stufen: eine leichtere Seite, die Seite auf Klassenstufenniveau und eine schwerere – mit mehreren Seiten je Stufe. Druck das PDF mit Lösungsblatt aus oder öffne es am Bildschirm – viele Seiten kontrollieren sich selbst.",
+      "eyebrow": "Ein Niveau-Set, komplett aufgehängt",
+      "caption": "Drei Stufen einer Fertigkeit – und die Klassenübersicht, die dir sagt, welches Kind welche Seite bekommt.",
+      "sheetLabel": "Klassenübersicht",
+      "planTag": "Jede Stufe, jede Seite: Lehrkraft-Abo",
+      "wallHeading": "Zwanzig Arbeitsblatt-Typen, je eine Seite – jeden Tag eine neue Auswahl"
+    }
   },
   "levelSets": {
     "heading": "Niveau-Sets",

@@ -18,6 +18,7 @@ import {
   type RoomStrings,
   type InstrumentCard,
   type AlcoveCard,
+  type WallWork,
 } from '@/components/homepage-v10/Rooms';
 import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
 import { embedAnchor } from '@/lib/seo/embed-anchor-text';
@@ -26,8 +27,16 @@ import { canonicalUrl, localePath } from '@/lib/seo/url';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { resolveActivityById } from '@/lib/activities';
+import { getAxisName } from '@/lib/taxonomy';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
-import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
+import {
+  selectShowcaseDecks,
+  fallbackShowcase,
+  selectWallDecks,
+  fallbackWall,
+  type ShowcaseDeck,
+} from '@/lib/showcase-decks';
+import { loadSetExhibit, fallbackExhibit, type SetExhibit } from '@/lib/homepage-set-exhibit';
 // BOTH stylesheets: v10 reuses the twelve instrument machines and the design
 // tokens from homepage-v6/ rather than copying them, which is why the root
 // div below keeps the `hv6` class (token scope + focus ring) alongside hv10.
@@ -35,6 +44,7 @@ import '@/components/homepage-v6/homepage-v6.css';
 import '@/components/homepage-v10/homepage-v10.css';
 
 // Promoted 2026-08-02: homepage v10 "THE GALLERY OF LESSONS".
+// v10.2 (2026-10-15): the gallery shows the NEW product structure.
 //
 // The gallery is DRAWN; the art is REAL. The architecture — cornice, wall,
 // panelled dado, oak floor in one-point perspective, museum pedestals — is
@@ -46,16 +56,27 @@ import '@/components/homepage-v10/homepage-v10.css';
 // that scales, not a per-device rearrangement — enforced by the dedicated
 // gate at scripts/audit-hero-identity.js (poison-tested: clean <=4.7,
 // broken 94.6). Past it the building continues through six numbered rooms
-// (I-VI) plus an unnumbered exit, all wearing the same fabric, so scrolling
-// reads as walking. ⚠ The numerals are HARDCODED per room component in
-// Rooms.tsx, not derived from position — reordering rooms here means
-// editing those literals too, or the gallery renders I, III, II.
+// plus an unnumbered exit, all wearing the same fabric, so scrolling reads
+// as walking. The rooms are walked in the operator's order (2026-10-15):
+// worksheets, makers, tools, activities, then share and plans; the numeral
+// is a PROP passed here, so the order below is the only place it is set.
 //
-// i18n: nothing here is machine-translated and nothing new was authored.
-// Prose comes from the `homepageV6` namespace (already native x11 and
-// already tier-truthful), instrument names from MANIPULATIVES (native per
-// tool), and the room numbers are Roman numerals — language-neutral by
-// construction.
+// WHAT v10.2 CHANGED. The page was designed when the catalogue was the 29
+// generator apps; the product is now Level Sets (every worksheet face at up
+// to three levels, with a class sheet and a pathway) across ~140 worksheet
+// types. So: the lead placard names the structure, the hero's lead frame is
+// a set triptych, the Print Room comes first and hangs one Level Set in
+// full above a wall of one work of EVERY published type (rotated daily, each
+// under its type's name), and the plans room is rebuilt around what the
+// Teacher plan is for. The H1, the <title>, the meta description and the
+// canonical are unchanged — this is an indexed page.
+//
+// i18n: the new strings (`homepageV6.set.*`, the rebuilt `teacher.*`, the
+// lead gloss and `hero.ctaMakers`) were authored per locale in the shipped
+// register and reviewed by one native + pedagogy reviewer before deploy;
+// nothing is machine-translated. Level words, "Open the set", "All Level
+// Sets", "Pathway" and the worksheet-type plaques come from the shipped
+// `levelSets.*` strings and the taxonomy.
 //
 // Approved on /[locale]/preview/homepage-v10, which stays as the visual-diff
 // safety net (same pattern as the v3/v4/v6 promotions). The v6 components
@@ -168,7 +189,7 @@ const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-k
 // lands a visitor on a paywall.
 const TOUCHABLE = 'rekenrek';
 
-/* Room II's four exhibits. Chosen from the 54 activities complete in ALL
+/* The Playroom's four exhibits. Chosen from the 54 activities complete in ALL
    ELEVEN locales, not from the 204 — the visually obvious picks exist only in
    en/de, which would have left seven languages with a broken room. Four
    distinct shapes across four strands. */
@@ -184,55 +205,71 @@ function localized(map: Record<string, string> | undefined, locale: string) {
 }
 
 /* ── The print room's wall size ───────────────────────────────────────────────
-   Room II hangs a RECTANGLE, not a ragged stack. The CSS lays the wall out at
-   5 / 3 / 2 columns (see `.hv10-hang`), and 15 divides evenly by 5 and by 3, so
-   the only width that cannot fill its last row is the 2-column phone band —
-   where the stylesheet hides exactly one tile.
+   The wall hangs a RECTANGLE, not a ragged stack. The CSS lays it out at
+   5 / 4 / 3 / 2 columns (see `.hv10-hang`) and hides down to the largest
+   whole-row multiple per band: 20 / 20 / 18 / 12. So the page always sends
+   exactly TWENTY works. selectWallDecks returns one deck per published type
+   (every locale has over a hundred types), and the curated EN fallback tops
+   it up if it ever returns short — a real worksheet in the wrong language
+   beats a hole in the wall. */
+const WALL_TARGET = 20;
 
-   Until 2026-08-05 the wall got 11 tiles and read 5 / 5 / 1 on a desktop: two
-   full rows and one lonely worksheet, which looks like a catalogue that ran out
-   of stock rather than one holding tens of thousands of decks.
-
-   `fullRows` is the graceful-degradation guard, not the mechanism: if a locale
-   ever yields fewer than 15 decks, drop to the largest multiple of 5 rather
-   than re-introducing a ragged row. It should never fire — SHOWCASE_TYPES
-   carries 24 curated types and every one of them has decks in every locale. */
-const HANG_TARGET = 15;
-function fullRows(available: number): number {
-  return available >= HANG_TARGET ? HANG_TARGET : Math.max(0, Math.floor(available / 5) * 5);
-}
+/* The hall: five frames (the sixth is the set triptych) plus the one deck the
+   Dispatch room turns around for the loan label. selectShowcaseDecks hands
+   back `count - 1` usable thumbs. */
+const HALL_COUNT = 7;
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
   const tv = await getTranslations({ locale, namespace: 'homepageV6' });
+  const tLs = await getTranslations({ locale, namespace: 'levelSets' });
 
   const schemas = buildSchemas(locale, t('ogTitle'), t('description'));
 
-  // ONE showcase fetch feeds the whole building: the hall's salon hang (6)
-  // and the print room's wall (the rest). DB failure -> the curated EN
-  // fallback set; a real worksheet in the wrong language beats an empty wall.
-  //
-  // 22 = 1 reserved + 6 for the hall + 15 for the print room. The +1 is because
-  // selectShowcaseDecks reserves decks[0] as `featured` and hands back
-  // slice(1, count) as `thumbs`, so asking for N yields N-1 usable tiles.
-  // ⚠ The real ceiling is SHOWCASE_TYPES.length (it takes at most one deck per
-  // type), so raising this number alone does nothing — the type list has to be
-  // long enough too. It is: 24.
-  let decks: ShowcaseDeck[] = [];
+  // The hall's salon hang + the loan-label deck: six generator-type decks in
+  // the visitor's language (the curated EN fallback when the DB is out).
+  let hall: ShowcaseDeck[] = [];
   try {
-    let sel = await selectShowcaseDecks(locale, 22);
-    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(22);
-    decks = sel.thumbs;
+    let sel = await selectShowcaseDecks(locale, HALL_COUNT);
+    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(HALL_COUNT);
+    hall = sel.thumbs;
   } catch {
-    decks = fallbackShowcase(22).thumbs;
+    hall = fallbackShowcase(HALL_COUNT).thumbs;
+  }
+
+  // The wall: one work of EVERY published type, rotated daily.
+  let wallDecks: ShowcaseDeck[] = [];
+  try {
+    wallDecks = await selectWallDecks(locale, WALL_TARGET);
+  } catch {
+    wallDecks = [];
+  }
+  if (wallDecks.length < WALL_TARGET) {
+    const seen = new Set(wallDecks.map((d) => d.slug));
+    for (const d of fallbackWall(WALL_TARGET)) {
+      if (wallDecks.length >= WALL_TARGET) break;
+      if (!seen.has(d.slug)) wallDecks.push(d);
+    }
+  }
+  const works: WallWork[] = wallDecks.map((d) => ({
+    deck: d,
+    label: getAxisName('exercise-type', d.exerciseType, locale) || titleFor(d),
+  }));
+
+  // The set: one Level Set, shown in the hero, the Print Room and the plans room.
+  let exhibit: SetExhibit | null = null;
+  try {
+    exhibit = await loadSetExhibit(locale, tLs);
+  } catch {
+    exhibit = fallbackExhibit(locale, tLs);
   }
 
   // One builder for both routes (components/homepage-v10/hero-strings.ts):
   // the preview route is the gate target and must never drift from this page.
   const hero = heroStrings(tv);
 
-  /* THE LOAN LABEL (Room V, second half). Every string it needs was already
+  /* THE LOAN LABEL (Dispatch, second half). Every string it needs was already
      natively authored in all eleven locales for the v3 embed section, so the
      rebuilt block cost no translation round and nothing here is machine-
      translated. `homepageV3.embedShare.body` is deliberately NOT used: it
@@ -251,10 +288,18 @@ export default async function HomePage({ params }: { params: { locale: string } 
     playBody: tv('practice.body'),
     playCta: tv('practice.browseActivities'),
 
-    printH2: tv('paper.heading'),
-    printBody: tv('paper.body'),
+    printH2: tv('set.roomHeading'),
+    printBody: tv('set.roomBody'),
     printCta: tv('practice.browseWorksheets'),
-    activitiesCta: tv('practice.browseActivities'),
+    makersCta: tv('hero.ctaMakers'),
+    setEyebrow: tv('set.eyebrow'),
+    setCaption: tv('set.caption'),
+    setSheetLabel: tv('set.sheetLabel'),
+    setPlanTag: tv('set.planTag'),
+    pathwayLabel: tLs('pathway'),
+    openSet: tLs('openSet'),
+    allSets: tLs('allSets'),
+    wallHeading: tv('set.wallHeading'),
 
     studioH2: tv('make.heading'),
     studioBody: tv('make.body'),
@@ -265,6 +310,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
     plansH2: tv('teacher.heading'),
     plansBody: tv('teacher.body'),
+    plansNote: tv('teacher.honest'),
+    plansReassure: tv('teacher.reassure'),
     freeTitle: tv('teacher.freeTitle'),
     freePrice: tv('teacher.freeTag'),
     // Price interpolated from the product constant, never typed: marketing
@@ -297,12 +344,13 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
     closeH2: `${tv('close.line1')} ${tv('close.line2')}`,
     closeBody: tv('close.body'),
-    closeCtaPrimary: tv('close.ctaPrimary'),
+    // The way out is the plan (v10.2): the same CTA the plans room carries.
+    closeCtaPrimary: tv('teacher.teacherCta'),
     closeCtaSecondary: tv('close.ctaSecondary'),
   };
 
-  /* Room II's exhibits, resolved per locale. Titles and slugs are native in
-     all eleven languages already; the grade band comes from the shared
+  /* The Playroom's exhibits, resolved per locale. Titles and slugs are native
+     in all eleven languages already; the grade band comes from the shared
      seo.educational_level namespace, which is likewise native x11. A row that
      fails to resolve is DROPPED rather than rendered half-blank. */
   const tg = await getTranslations({ locale, namespace: 'seo.educational_level' });
@@ -348,7 +396,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
      brandHref is the deck directory too rather than the deck's landing page:
      resolving a landing means building the per-locale landing index, which
      the homepage otherwise never loads. Both targets are real pages. */
-  const embedDeck = decks[3];
+  const embedDeck = hall[5] ?? hall[0];
   const anchor = embedAnchor(locale);
   const embed = embedDeck
     ? {
@@ -396,13 +444,18 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
       {/* div, not main: LocaleLayoutClient already wraps children in <main>. */}
       <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
-        <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
-        <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-        <PrintRoom locale={locale} decks={decks.slice(6, 6 + fullRows(decks.length - 6))} strings={rooms} />
-        <Playroom locale={locale} strings={rooms} activities={alcoves} />
-        <Studio locale={locale} strings={rooms} />
-        <Dispatch locale={locale} strings={rooms} deck={embedDeck} embed={embed} />
-        <MembersRoom locale={locale} strings={rooms} />
+        <GrandHall
+          locale={locale}
+          decks={hall.slice(0, 5)}
+          setPages={exhibit ? exhibit.pages.map((p) => p.thumbnailUrl) : undefined}
+          strings={hero}
+        />
+        <PrintRoom locale={locale} numeral="I" works={works} exhibit={exhibit} strings={rooms} />
+        <Studio locale={locale} numeral="II" strings={rooms} />
+        <InstrumentHall locale={locale} numeral="III" strings={rooms} instruments={instruments} live={live} />
+        <Playroom locale={locale} numeral="IV" strings={rooms} activities={alcoves} />
+        <Dispatch locale={locale} numeral="V" strings={rooms} deck={embedDeck} embed={embed} />
+        <MembersRoom locale={locale} numeral="VI" strings={rooms} exhibit={exhibit} />
         <Exit locale={locale} strings={rooms} />
 
         {/* The catalogue at the back of the building — the crawl-bait mesh

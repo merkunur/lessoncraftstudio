@@ -2980,17 +2980,17 @@
       "h1": "Varje lektion hänger ihop.",
       "fanLabel": "Exempel på arbetsblad ur biblioteket, på ditt språk",
       "ctaWorksheets": "Se arbetsbladen",
-      "ctaActivities": "Prova en aktivitet",
+      "ctaMakers": "Prova en arbetsbladsgenerator",
       "scope": "Från förskolan till trean, på ditt språk.",
       "pillar1Count": "40 000+",
       "pillar1Label": "utskrivbara arbetsblad",
-      "pillar1Gloss": "Skriv ut som PDF eller spela online – de flesta rättar sig själva.",
-      "pillar2Label": "Aktiviteter redo att spela",
-      "pillar2Gloss": "Barnet spelar, aktiviteten rättar – ingen inloggning behövs.",
+      "pillar1Gloss": "I nivåset: en färdighet på tre nivåer, med klassöversikt. Skriv ut som PDF eller spela online.",
+      "pillar2Label": "Arbetsblads­generatorer",
+      "pillar2Gloss": "Välj bilder och ord, gör ditt eget – att skriva ut eller spela.",
       "pillar3Label": "Klassrumsverktyg",
       "pillar3Gloss": "En hel hylla för tavlan: klocka, tallinje, våg och många fler.",
-      "pillar4Label": "Arbetsblads­generatorer",
-      "pillar4Gloss": "Välj bilder och ord, gör ditt eget – att skriva ut eller spela."
+      "pillar4Label": "Spelklara aktiviteter",
+      "pillar4Gloss": "Barnet spelar, aktiviteten rättar – ingen inloggning behövs."
     },
     "ticks": {
       "teach": "Undervisa",
@@ -3064,24 +3064,25 @@
       "chipNoAds": "Inga annonser på elevsidor"
     },
     "teacher": {
-      "heading": "Börja gratis. Ta bort gränserna när du är redo.",
-      "body": "Allt är gratis att prova, utan kort: 10 interaktiva spelomgångar om dagen och 3 PDF-nedladdningar i månaden med ett gratiskonto. Lärarplanen tar bort gränserna, låser upp verktygens hela djup och sparar det du bygger.",
+      "heading": "Vad Lärarplanen är till för",
+      "body": "En klass, tre nivåer av samma färdighet, och inga extra timmar för att göra dem. Lärarplanen öppnar varje nivåset på varje nivå, varje klassöversikt och varje steg i lärstigen – på ditt språk, med facit.",
       "freeTitle": "Gratis",
       "freeTag": "Börja här — inget kort",
-      "free1": "Alla verktyg och generatorer, gratis att prova",
+      "free1": "Bläddra bland alla arbetsblad, nivåset och lärstigar",
       "free2": "10 spelomgångar om dagen",
       "free3": "3 PDF-nedladdningar i månaden med ett gratiskonto",
-      "free4": "Bläddra i hela biblioteket",
+      "free4": "Alla verktyg och generatorer, gratis att prova",
       "freeCta": "Börja gratis — inget kort",
       "teacherTitle": "Lärare",
       "teacherPrice": "{price} $ per år",
       "teacherMonthly": "eller {monthly} $/månad",
-      "teacher1": "Obegränsat spelande och nedladdningar",
+      "teacher1": "Obegränsat spelande och nedladdningar: varje nivå i varje set, varje klassöversikt",
       "teacher2": "Verktygens hela djup — skriv ut, spara, hela repertoaren",
-      "teacher3": "Spara och samla det du bygger",
+      "teacher3": "Samlingar och en arbetsyta för allt du undervisar med",
       "teacher4": "Dela länkar och QR-koder till klassen",
       "teacherCta": "Se Lärarplanen",
-      "reassure": "Inget kort för att börja · ett fast pris · avsluta när du vill"
+      "reassure": "Inget kort för att börja · ett fast pris · avsluta när du vill",
+      "honest": "Ett gratiskontos nedladdningar per månad räcker till några sidor av ett set. Planen räcker till hela setet – och varje set efter det."
     },
     "close": {
       "line1": "Morgondagens lektion",
@@ -3096,7 +3097,16 @@
       "sub": "Hela biblioteket — per årskurs, ämne och färdighet — plus alla klassrumsverktyg.",
       "toolsHeading": "Klassrumsverktyg"
     },
-    "planTag": "Lärarplanen"
+    "planTag": "Lärarplanen",
+    "set": {
+      "roomHeading": "Arbetsblad som finns i nivåer",
+      "roomBody": "Ett nivåset är en färdighet på tre nivåer: en lättare sida, sidan på årskursens nivå och en svårare sida, med flera sidor på varje nivå. Skriv ut PDF:en med facit, eller öppna den på skärmen – många sidor rättar sig själva.",
+      "eyebrow": "Ett nivåset, upphängt i sin helhet",
+      "caption": "Tre nivåer av en färdighet, och klassöversikten som visar vilket barn som får vilken sida.",
+      "sheetLabel": "Klassöversikt",
+      "planTag": "Varje nivå, varje sida: Lärarplanen",
+      "wallHeading": "Tjugo arbetsbladstyper, en sida av varje – ett nytt urval varje dag"
+    }
   },
   "levelSets": {
     "heading": "Nivåset",

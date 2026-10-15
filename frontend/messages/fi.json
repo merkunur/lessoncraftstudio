@@ -2969,17 +2969,17 @@
       "h1": "Jokainen oppitunti, tasapainossa.",
       "fanLabel": "Näytteitä kirjaston tehtäväarkeista, omalla kielelläsi",
       "ctaWorksheets": "Selaa tehtäväarkkeja",
-      "ctaActivities": "Kokeile harjoitusta",
+      "ctaMakers": "Kokeile tehtävägeneraattoria",
       "scope": "Esiopetuksesta kolmannelle luokalle, omalla kielelläsi.",
       "pillar1Count": "40 000+",
       "pillar1Label": "tulostettavaa tehtäväarkkia",
-      "pillar1Gloss": "Tulosta PDF:nä tai pelaa verkossa – useimmat tarkistavat itsensä.",
-      "pillar2Label": "Heti pelattavat harjoitukset",
-      "pillar2Gloss": "Lapsi pelaa, harjoitus tarkistaa vastaukset.",
+      "pillar1Gloss": "Tasosarjoina: yksi taito kolmella tasolla ja luokan seurantalomake. Tulosta PDF tai pelaa verkossa.",
+      "pillar2Label": "Tehtävä­generaattorit",
+      "pillar2Gloss": "Valitse kuvat ja sanat – tee omasi, tulosta tai pelaa.",
       "pillar3Label": "Opetustyökalut luokan eteen",
       "pillar3Gloss": "Kokonainen välineistö: kello, lukusuora, vaaka ja paljon muuta.",
-      "pillar4Label": "Tehtävä­generaattorit",
-      "pillar4Gloss": "Valitse kuvat ja sanat – tee omasi, tulosta tai pelaa."
+      "pillar4Label": "Heti pelattavat harjoitukset",
+      "pillar4Gloss": "Lapsi pelaa, harjoitus tarkistaa vastaukset."
     },
     "ticks": {
       "teach": "Opeta",
@@ -3053,24 +3053,25 @@
       "chipNoAds": "Ei mainoksia oppilaiden sivuilla"
     },
     "teacher": {
-      "heading": "Aloita ilmaiseksi. Poista rajat, kun olet valmis.",
-      "body": "Kaikkea voi kokeilla ilmaiseksi, ilman korttia: 10 interaktiivista pelikertaa päivässä ja 3 PDF-latausta kuukaudessa ilmaisella tilillä. Opettajatilaus poistaa rajat, avaa työkalut täyteen laajuuteensa ja tallentaa sen, minkä rakennat.",
+      "heading": "Mihin Opettajatilaus on tarkoitettu",
+      "body": "Yksi luokka, saman taidon kolme tasoa – eikä yhtään ylimääräistä tuntia niiden tekemiseen. Opettajatilaus avaa jokaisen tasosarjan jokaisella tasolla, jokaisen luokan seurantalomakkeen ja oppimispolun jokaisen askeleen – omalla kielelläsi, vastauksineen.",
       "freeTitle": "Ilmainen",
       "freeTag": "Aloita tästä – ei korttia",
-      "free1": "Kaikki työkalut ja generaattorit kokeiltavissa ilmaiseksi",
+      "free1": "Selaa kaikkia tehtäväarkkeja, tasosarjoja ja oppimispolkuja",
       "free2": "10 interaktiivista pelikertaa päivässä",
       "free3": "3 PDF-latausta kuukaudessa ilmaisella tilillä",
-      "free4": "Selaa koko kirjastoa",
+      "free4": "Kaikki työkalut ja generaattorit kokeiltavissa ilmaiseksi",
       "freeCta": "Aloita ilmaiseksi – ei korttia",
       "teacherTitle": "Opettaja",
       "teacherPrice": "{price} $ vuodessa",
       "teacherMonthly": "tai {monthly} $/kk",
-      "teacher1": "Rajaton pelaaminen ja lataaminen",
+      "teacher1": "Rajaton pelaaminen ja lataaminen: jokaisen sarjan jokainen taso, jokainen luokan seurantalomake",
       "teacher2": "Jokaisen työkalun täysi laajuus – tulostus, tallennus ja koko harjoitusvalikoima",
-      "teacher3": "Tallenna ja kokoa tekemäsi",
+      "teacher3": "Kokoelmat ja työtila kaikelle, millä opetat",
       "teacher4": "Jakolinkit ja luokan QR-koodit",
       "teacherCta": "Tutustu Opettajatilaukseen",
-      "reassure": "Ei korttia aloittamiseen · yksi kiinteä tilaus · peru milloin tahansa"
+      "reassure": "Ei korttia aloittamiseen · yksi kiinteä tilaus · peru milloin tahansa",
+      "honest": "Ilmaisen tilin kuukausilataukset riittävät muutamaan sivuun yhdestä sarjasta. Tilaus riittää koko sarjaan – ja jokaiseen sen jälkeen."
     },
     "close": {
       "line1": "Huominen oppitunti",
@@ -3085,7 +3086,16 @@
       "sub": "Koko kirjasto luokka-asteen, aiheen ja taidon mukaan – ja lisäksi kaikki työkalut.",
       "toolsHeading": "Työkalut luokkaan"
     },
-    "planTag": "Opettajatilaus"
+    "planTag": "Opettajatilaus",
+    "set": {
+      "roomHeading": "Tehtäväarkit kolmella tasolla",
+      "roomBody": "Tasosarja on yksi taito kolmella tasolla: helpompi sivu, luokka-asteen sivu ja vaikeampi sivu, ja jokaisella tasolla useita sivuja. Tulosta PDF vastauksineen tai avaa se ruudulla – monet sivut tarkistavat itsensä.",
+      "eyebrow": "Yksi tasosarja, kokonaan esillä",
+      "caption": "Yhden taidon kolme tasoa – ja luokan seurantalomake, joka kertoo, mikä sivu kuuluu kenellekin lapselle.",
+      "sheetLabel": "Luokan seurantalomake",
+      "planTag": "Jokainen taso, jokainen sivu: Opettajatilaus",
+      "wallHeading": "Kaksikymmentä tehtäväarkkityyppiä, yksi sivu kustakin – uusi valikoima joka päivä"
+    }
   },
   "levelSets": {
     "heading": "Tasosarjat",

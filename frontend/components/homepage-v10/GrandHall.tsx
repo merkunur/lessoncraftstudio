@@ -9,6 +9,8 @@ import type { HeroStrings } from '@/components/homepage-v10/hero-strings';
 /* ───────────────────────────────────────────────────────────────────────────
    THE GRAND HALL — the hero of homepage v10 "The Gallery of Lessons".
    v10.1 (2026-09-03): the placard band.
+   v10.2 (2026-10-15): the set triptych in the lead frame; placards in the
+   order worksheets → makers → tools → activities; "Try a worksheet maker".
 
    ONE composition at every viewport from 320 to 2560. Not a responsive
    rearrangement: the same picture, scaled. The poster is 2:1 (it was 3:2
@@ -38,6 +40,13 @@ import type { HeroStrings } from '@/components/homepage-v10/hero-strings';
    poster in v10). `scripts/audit-hero-identity.js` now asserts that the type
    layer holds exactly one child (the H1) and that no band element strays
    into the stage; `scripts/audit-hero-fold.js` asserts the fold itself.
+
+   THE TRIPTYCH (v10.2). The large left frame no longer holds one worksheet
+   but the three pages of ONE Level Set — easier, core, harder — fanned
+   inside one mat. It occupies exactly the box FRAMES[0] always had, so the
+   identity gate's frame census and pairwise-overlap census are unchanged;
+   what changed is the picture inside the moulding. The pages come from the
+   same set the Print Room exhibits in full (lib/homepage-set-exhibit.ts).
    ─────────────────────────────────────────────────────────────────────── */
 
 /* The floor line. The rooms below keep their own horizon (48 on a 3:2
@@ -55,7 +64,7 @@ const POSTER_H = 50;
    v10 pushed the largest works to the extremes and let the small frame
    overlap the large one; a curator hangs nothing across anything. The
    identity gate now measures pairwise overlap, so this table cannot regress
-   silently. */
+   silently. FRAMES[0] is the triptych frame. */
 const FRAMES = [
   { x: 2.5, y: 9.6, w: 11, tilt: '-1.1deg' },
   { x: 15.2, y: 8.6, w: 7.4, tilt: '0.9deg' },
@@ -90,16 +99,20 @@ const PLINTHS = [
 
 type Props = {
   locale: string;
+  /** Five published worksheets for FRAMES[1..5]. */
   decks: ShowcaseDeck[];
+  /** The three pages of one Level Set (easier, core, harder) for FRAMES[0]. */
+  setPages?: string[];
   strings: HeroStrings;
 };
 
-/* Each placard is a link to the hub it names, in the pillar order the copy
-   panel locked: the library first (the number is the anchor), the
-   differentiator last. */
-const PILLAR_HREFS = ['worksheets', 'activities', 'tools', 'worksheet-makers'] as const;
+/* Each placard is a link to the hub it names, in the operator's order for
+   the whole page (2026-10-15): the library first (the number is the anchor),
+   then what makes more of it, then what is taught with, then what is played. */
+const PILLAR_HREFS = ['worksheets', 'worksheet-makers', 'tools', 'activities'] as const;
 
-export default function GrandHall({ locale, decks, strings }: Props) {
+export default function GrandHall({ locale, decks, setPages, strings }: Props) {
+  const triptych = setPages && setPages.length === 3 ? setPages : null;
   return (
     <header className="hv10-field" data-testid="hero-section">
       <div
@@ -118,11 +131,14 @@ export default function GrandHall({ locale, decks, strings }: Props) {
 
         {/* ── the salon hang: real published worksheets ── */}
         {FRAMES.map((f, i) => {
-          const deck = decks[i % Math.max(decks.length, 1)];
+          const isSet = i === 0 && triptych;
+          // decks[0..4] fill frames 1..5; the triptych frame takes no deck
+          // unless it has no set to show.
+          const deck = isSet ? null : decks[(i === 0 ? 0 : i - 1) % Math.max(decks.length, 1)];
           return (
             <div
               key={i}
-              className="hv10-frame"
+              className={`hv10-frame${isSet ? ' is-set' : ''}`}
               style={
                 {
                   '--x': f.x,
@@ -133,7 +149,23 @@ export default function GrandHall({ locale, decks, strings }: Props) {
                 } as React.CSSProperties
               }
             >
-              {deck ? (
+              {isSet ? (
+                <div className="hv10-set-stack">
+                  {triptych.map((src, k) => (
+                    <span key={k} className="hv10-set-page" style={{ ['--i' as string]: k }}>
+                      <Image
+                        src={src}
+                        alt=""
+                        width={480}
+                        height={620}
+                        sizes="(max-width: 640px) 20vw, 150px"
+                        priority
+                        quality={72}
+                      />
+                    </span>
+                  ))}
+                </div>
+              ) : deck ? (
                 <Image
                   src={deck.thumbnailUrl}
                   alt=""
@@ -237,8 +269,8 @@ export default function GrandHall({ locale, decks, strings }: Props) {
           <Link href={`/${locale}/worksheets`} className="hv10-cta is-primary">
             {strings.ctaWorksheets}
           </Link>
-          <Link href={`/${locale}/activities`} className="hv10-cta is-ghost">
-            {strings.ctaActivities}
+          <Link href={`/${locale}/worksheet-makers`} className="hv10-cta is-ghost">
+            {strings.ctaMakers}
           </Link>
         </div>
         <p className="hv10-scope">{strings.scope}</p>

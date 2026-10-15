@@ -2980,17 +2980,17 @@
       "h1": "Elke les hangt samen.",
       "fanLabel": "Voorbeeldwerkbladen uit de bibliotheek, in jouw taal",
       "ctaWorksheets": "Bekijk de werkbladen",
-      "ctaActivities": "Probeer een activiteit",
+      "ctaMakers": "Probeer een werkblad-maker",
       "scope": "Voor kinderen van drie tot negen jaar, in jouw taal.",
       "pillar1Count": "40.000+",
       "pillar1Label": "printbare werkbladen",
-      "pillar1Gloss": "Print de pdf of speel online — de meeste kijken zichzelf na.",
-      "pillar2Label": "Kant-en-klare activiteiten",
-      "pillar2Gloss": "Een kind speelt, de activiteit kijkt de antwoorden na.",
+      "pillar1Gloss": "In niveausets: één vaardigheid op drie niveaus, met klassenoverzicht. Print de pdf of speel online.",
+      "pillar2Label": "Werkblad-makers",
+      "pillar2Gloss": "Kies plaatjes en woorden, maak je eigen werkblad — print of speel.",
       "pillar3Label": "Hulpmiddelen voor in de klas",
       "pillar3Gloss": "Een hele kast vol: klok, rekenrek, getallenlijn, balans en meer.",
-      "pillar4Label": "Werkblad-makers",
-      "pillar4Gloss": "Kies plaatjes en woorden, maak je eigen werkblad — print of speel."
+      "pillar4Label": "Kant-en-klare activiteiten",
+      "pillar4Gloss": "Een kind speelt, de activiteit kijkt de antwoorden na."
     },
     "ticks": {
       "teach": "Lesgeven",
@@ -3064,24 +3064,25 @@
       "chipNoAds": "Geen advertenties op leerlingpagina's"
     },
     "teacher": {
-      "heading": "Begin gratis. Ga onbeperkt verder wanneer je zover bent.",
-      "body": "Alles is gratis te proberen, zonder kaart: 10 keer interactief spelen per dag en 3 pdf-downloads per maand met een gratis account. Het Leerkracht-abonnement haalt de limieten weg, opent de volledige diepgang van elk hulpmiddel en bewaart wat je maakt.",
+      "heading": "Waar het Leerkracht-abonnement voor is",
+      "body": "Eén klas, drie niveaus van dezelfde vaardigheid, en geen extra uren om ze te maken. Het Leerkracht-abonnement opent elke niveauset op elk niveau, elk klassenoverzicht en elke stap van de leerlijn — in jouw taal, met antwoordbladen.",
       "freeTitle": "Gratis",
       "freeTag": "Begin hier — geen kaart nodig",
-      "free1": "Alle hulpmiddelen en makers, gratis te proberen",
+      "free1": "Blader door alle werkbladen, niveausets en leerlijnen",
       "free2": "10 keer interactief spelen per dag",
       "free3": "3 pdf-downloads per maand met een gratis account",
-      "free4": "Blader door de hele bibliotheek",
+      "free4": "Alle hulpmiddelen en makers, gratis te proberen",
       "freeCta": "Gratis beginnen — geen kaart nodig",
       "teacherTitle": "Leerkracht",
       "teacherPrice": "${price} per jaar",
       "teacherMonthly": "of ${monthly}/maand",
-      "teacher1": "Onbeperkt spelen en downloaden",
+      "teacher1": "Onbeperkt spelen en downloaden: elk niveau van elke set, elk klassenoverzicht",
       "teacher2": "De volledige diepgang van elk hulpmiddel — printen, bewaren, het hele repertoire",
-      "teacher3": "Bewaar en verzamel wat je maakt",
+      "teacher3": "Collecties en een werkruimte voor alles waarmee je lesgeeft",
       "teacher4": "Deellinks en QR-codes voor je klas",
       "teacherCta": "Bekijk het Leerkracht-abonnement",
-      "reassure": "Geen kaart nodig om te starten · één vast abonnement · altijd opzegbaar"
+      "reassure": "Geen kaart nodig om te starten · één vast abonnement · altijd opzegbaar",
+      "honest": "Met de maandelijkse downloads van een gratis account kom je tot een paar pagina's van één set. Met het abonnement tot de hele set — en elke set daarna."
     },
     "close": {
       "line1": "De les van morgen",
@@ -3096,7 +3097,16 @@
       "sub": "De hele bibliotheek — per groep, per onderwerp, per vaardigheid — plus elk hulpmiddel voor in de klas.",
       "toolsHeading": "Hulpmiddelen voor in de klas"
     },
-    "planTag": "Leerkracht-abonnement"
+    "planTag": "Leerkracht-abonnement",
+    "set": {
+      "roomHeading": "Werkbladen in drie niveaus",
+      "roomBody": "Een niveauset is één vaardigheid op drie niveaus: een makkelijkere pagina, de pagina op groepsniveau en een moeilijkere, met meerdere pagina's per niveau. Print de pdf met antwoordblad, of open hem op het scherm — veel pagina's kijken zichzelf na.",
+      "eyebrow": "Eén niveauset, helemaal opgehangen",
+      "caption": "Drie niveaus van één vaardigheid, en het klassenoverzicht dat je vertelt welk kind welke pagina krijgt.",
+      "sheetLabel": "Klassenoverzicht",
+      "planTag": "Elk niveau, elke pagina: Leerkracht-abonnement",
+      "wallHeading": "Twintig werkbladtypes, elk één pagina — elke dag een nieuwe selectie"
+    }
   },
   "levelSets": {
     "heading": "Niveausets",

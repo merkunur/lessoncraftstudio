@@ -4486,17 +4486,17 @@
       "h1": "Cada aula, em perfeito equilíbrio.",
       "fanLabel": "Exemplos de fichas da biblioteca, no seu idioma",
       "ctaWorksheets": "Conheça as fichas",
-      "ctaActivities": "Jogue uma atividade",
+      "ctaMakers": "Experimente um gerador de fichas",
       "scope": "Da educação infantil ao terceiro ano, no seu idioma.",
       "pillar1Count": "40.000+",
       "pillar1Label": "fichas para imprimir",
-      "pillar1Gloss": "Imprima o PDF ou jogue no navegador; a maioria se corrige sozinha.",
-      "pillar2Label": "Atividades prontas para jogar",
-      "pillar2Gloss": "A criança joga; a atividade confere as respostas.",
+      "pillar1Gloss": "Em conjuntos por nível: uma habilidade em três níveis, com registro da turma. Imprima o PDF ou jogue online.",
+      "pillar2Label": "Geradores de fichas",
+      "pillar2Gloss": "Escolha imagens e palavras. Crie a sua, para imprimir ou jogar.",
       "pillar3Label": "Ferramentas de ensino",
       "pillar3Gloss": "Uma estante inteira de instrumentos: relógio, ábaco, balança…",
-      "pillar4Label": "Geradores de fichas",
-      "pillar4Gloss": "Escolha imagens e palavras. Crie a sua, para imprimir ou jogar."
+      "pillar4Label": "Atividades prontas para jogar",
+      "pillar4Gloss": "A criança joga; a atividade confere as respostas."
     },
     "ticks": {
       "teach": "Ensinar",
@@ -4570,24 +4570,25 @@
       "chipNoAds": "Sem anúncios nas páginas dos alunos"
     },
     "teacher": {
-      "heading": "Comece grátis. Passe para o ilimitado quando quiser.",
-      "body": "Tudo é grátis para experimentar, sem cartão: 10 jogadas interativas por dia e 3 downloads de PDF por mês com uma conta grátis. O plano Professor remove os limites, abre toda a profundidade de cada ferramenta e salva o que você cria.",
+      "heading": "Para que serve o plano Professor",
+      "body": "Uma turma, três níveis da mesma habilidade e nenhuma hora extra para prepará-los. O plano Professor abre cada conjunto em todos os níveis, cada registro da turma e cada passo da trilha de aprendizagem: no seu idioma, com os gabaritos.",
       "freeTitle": "Grátis",
       "freeTag": "Comece por aqui — sem cartão",
-      "free1": "Todas as ferramentas e geradores, grátis para experimentar",
+      "free1": "Navegue por todas as fichas, conjuntos por nível e trilhas",
       "free2": "10 jogadas interativas por dia",
       "free3": "3 downloads de PDF por mês com uma conta grátis",
-      "free4": "Navegue por toda a biblioteca",
+      "free4": "Todas as ferramentas e geradores, grátis para experimentar",
       "freeCta": "Começar grátis — sem cartão",
       "teacherTitle": "Professor",
       "teacherPrice": "${price} por ano",
       "teacherMonthly": "ou ${monthly}/mês",
-      "teacher1": "Jogadas e downloads ilimitados",
+      "teacher1": "Jogadas e downloads ilimitados: cada nível de cada conjunto, cada registro da turma",
       "teacher2": "Toda a profundidade de cada ferramenta — imprimir, salvar, o repertório completo",
-      "teacher3": "Salve e organize o que você cria",
+      "teacher3": "Coleções e um espaço de trabalho para tudo o que você usa em aula",
       "teacher4": "Links de compartilhamento e QR codes da turma",
       "teacherCta": "Conheça o plano Professor",
-      "reassure": "Sem cartão para começar · um plano único · cancele quando quiser"
+      "reassure": "Sem cartão para começar · um plano único · cancele quando quiser",
+      "honest": "Os downloads mensais de uma conta grátis chegam a poucas páginas de um conjunto. O plano chega ao conjunto inteiro, e a todos os seguintes."
     },
     "close": {
       "line1": "A aula de amanhã",
@@ -4602,7 +4603,16 @@
       "sub": "A biblioteca inteira — por ano, por tema, por habilidade — e todas as ferramentas de sala de aula.",
       "toolsHeading": "Ferramentas de sala de aula"
     },
-    "planTag": "Plano Professor"
+    "planTag": "Plano Professor",
+    "set": {
+      "roomHeading": "Fichas que vêm em níveis",
+      "roomBody": "Um conjunto por nível é uma habilidade em três níveis: uma página mais fácil, a página do nível da turma e uma mais difícil, com várias páginas em cada nível. Imprima o PDF com o gabarito ou abra na tela, onde muitas páginas se corrigem sozinhas.",
+      "eyebrow": "Um conjunto por nível, pendurado inteiro",
+      "caption": "Três níveis de uma habilidade, e o registro da turma que diz qual página vai para qual criança.",
+      "sheetLabel": "Registro da turma",
+      "planTag": "Cada nível, cada página: plano Professor",
+      "wallHeading": "Vinte tipos de ficha, uma página de cada: uma seleção nova a cada dia"
+    }
   },
   "levelSets": {
     "heading": "Conjuntos por nível",

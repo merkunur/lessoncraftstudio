@@ -4500,17 +4500,17 @@
       "h1": "Every lesson, hanging together.",
       "fanLabel": "Sample worksheets from the library, in your language",
       "ctaWorksheets": "Browse the worksheets",
-      "ctaActivities": "Try an activity",
+      "ctaMakers": "Try a worksheet maker",
       "scope": "From preschool to third grade, in your language.",
       "pillar1Count": "40,000+",
       "pillar1Label": "printable worksheets",
-      "pillar1Gloss": "Print the PDF, or play online, where most check themselves.",
-      "pillar2Label": "Ready-to-play activities",
-      "pillar2Gloss": "A child plays; the activity checks the answers.",
+      "pillar1Gloss": "In Level Sets: one skill at three levels, with a class sheet. Print the PDF, or play online.",
+      "pillar2Label": "Worksheet makers",
+      "pillar2Gloss": "Pick pictures and words. Make your own, to print or play.",
       "pillar3Label": "Classroom tools",
       "pillar3Gloss": "A full shelf of instruments: clock, number line, balance and more.",
-      "pillar4Label": "Worksheet makers",
-      "pillar4Gloss": "Pick pictures and words. Make your own, to print or play."
+      "pillar4Label": "Ready-to-play activities",
+      "pillar4Gloss": "A child plays; the activity checks the answers."
     },
     "ticks": {
       "teach": "Teach",
@@ -4584,24 +4584,25 @@
       "chipNoAds": "No ads on student pages"
     },
     "teacher": {
-      "heading": "Start free. Go unlimited when you're ready.",
-      "body": "Everything is free to try, no card: 10 interactive plays a day, and 3 PDF downloads a month with a free account. The Teacher plan removes the limits, opens every tool’s full depth, and saves what you build.",
+      "heading": "What the Teacher plan is for",
+      "body": "One class, three levels of the same skill, and no extra hours making them. The Teacher plan opens every Level Set at every level, every class sheet and every step of the pathway — in your language, with the answer keys.",
       "freeTitle": "Free",
       "freeTag": "Start here — no card",
-      "free1": "All the tools and makers, free to try",
+      "free1": "Browse every worksheet, Level Set and pathway",
       "free2": "10 interactive plays a day",
       "free3": "3 PDF downloads a month with a free account",
-      "free4": "Browse the entire library",
+      "free4": "All the tools and makers, free to try",
       "freeCta": "Start free — no card",
       "teacherTitle": "Teacher",
       "teacherPrice": "${price} per year",
       "teacherMonthly": "or ${monthly}/month",
-      "teacher1": "Unlimited play and downloads",
+      "teacher1": "Unlimited play and downloads: every level of every set, every class sheet",
       "teacher2": "Every tool’s full depth — print, save, the whole repertoire",
-      "teacher3": "Save and collect what you build",
+      "teacher3": "Collections and a workspace for everything you teach with",
       "teacher4": "Share links and class QR codes",
       "teacherCta": "See the Teacher plan",
-      "reassure": "No card to start · one flat plan · cancel anytime"
+      "reassure": "No card to start · one flat plan · cancel anytime",
+      "honest": "A free account’s monthly downloads cover a few pages of one set. The plan covers the whole set — and every set after it."
     },
     "close": {
       "line1": "Tomorrow's lesson",
@@ -4616,7 +4617,16 @@
       "sub": "The whole library — by grade, by topic, by skill — plus every classroom tool.",
       "toolsHeading": "Classroom tools"
     },
-    "planTag": "Teacher plan"
+    "planTag": "Teacher plan",
+    "set": {
+      "roomHeading": "Worksheets that come in levels",
+      "roomBody": "A Level Set is one skill at three levels: an easier page, the grade-level page and a harder one, with several pages at each level. Print the PDF with its answer key, or open it on screen, where many pages check themselves.",
+      "eyebrow": "One Level Set, hung in full",
+      "caption": "Three levels of one skill, and the class sheet that tells you which child gets which page.",
+      "sheetLabel": "Class sheet",
+      "planTag": "Every level, every page: Teacher plan",
+      "wallHeading": "Twenty worksheet types, one page each — a new selection every day"
+    }
   },
   "levelSets": {
     "heading": "Level Sets",

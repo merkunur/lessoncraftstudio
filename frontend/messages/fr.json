@@ -3000,17 +3000,17 @@
       "h1": "Chaque leçon, suspendue au même fil.",
       "fanLabel": "Quelques fiches de la bibliothèque, en exemple et dans votre langue",
       "ctaWorksheets": "Parcourir les fiches",
-      "ctaActivities": "Essayer une activité",
+      "ctaMakers": "Essayer un générateur de fiches",
       "scope": "De la maternelle au CE2, dans votre langue.",
       "pillar1Count": "40 000+",
       "pillar1Label": "fiches à imprimer",
-      "pillar1Gloss": "Imprimez le PDF ou jouez en ligne : la plupart s'autocorrigent.",
-      "pillar2Label": "Activités prêtes à jouer",
-      "pillar2Gloss": "L'enfant joue ; l'activité corrige les réponses.",
+      "pillar1Gloss": "En séries par niveau : une compétence, trois niveaux, une fiche de suivi. Imprimez le PDF ou jouez en ligne.",
+      "pillar2Label": "Générateurs de fiches",
+      "pillar2Gloss": "Vos images, vos mots : créez vos fiches, à imprimer ou à jouer.",
       "pillar3Label": "Outils de classe",
       "pillar3Gloss": "Toute une panoplie d'outils : horloge, droite numérique, balance…",
-      "pillar4Label": "Générateurs de fiches",
-      "pillar4Gloss": "Vos images, vos mots : créez vos fiches, à imprimer ou à jouer."
+      "pillar4Label": "Activités prêtes à jouer",
+      "pillar4Gloss": "L'enfant joue ; l'activité corrige les réponses."
     },
     "ticks": {
       "teach": "Enseigner",
@@ -3084,24 +3084,25 @@
       "chipNoAds": "Aucune publicité sur les pages élèves"
     },
     "teacher": {
-      "heading": "Commencez gratuitement. Passez en illimité quand vous voulez.",
-      "body": "Tout s'essaie gratuitement, sans carte : 10 parties interactives par jour, et 3 téléchargements PDF par mois avec un compte gratuit. L'abonnement Enseignant lève les limites, débloque toute la profondeur de chaque outil et enregistre ce que vous créez.",
+      "heading": "À quoi sert l'abonnement Enseignant",
+      "body": "Une classe, trois niveaux d'une même compétence, et pas une heure de plus à les préparer. L'abonnement Enseignant ouvre chaque série à tous ses niveaux, chaque fiche de suivi et chaque étape du parcours : dans votre langue, avec les corrigés.",
       "freeTitle": "Gratuit",
       "freeTag": "Commencez ici — sans carte",
-      "free1": "Tous les outils et générateurs, à essayer gratuitement",
+      "free1": "Parcourez toutes les fiches, les séries par niveau et les parcours",
       "free2": "10 parties interactives par jour",
       "free3": "3 téléchargements PDF par mois avec un compte gratuit",
-      "free4": "Toute la bibliothèque à parcourir",
+      "free4": "Tous les outils et générateurs, à essayer gratuitement",
       "freeCta": "Commencer gratuitement — sans carte",
       "teacherTitle": "Enseignant",
       "teacherPrice": "{price} $ par an",
       "teacherMonthly": "ou {monthly} $ par mois",
-      "teacher1": "Jeu et téléchargements illimités",
+      "teacher1": "Jeu et téléchargements illimités : chaque niveau de chaque série, chaque fiche de suivi",
       "teacher2": "Toute la profondeur de chaque outil — impression, enregistrement, répertoire complet",
-      "teacher3": "Enregistrez et classez ce que vous créez",
+      "teacher3": "Des collections et un espace de travail pour tout ce qui sert en classe",
       "teacher4": "Liens de partage et QR codes de classe",
       "teacherCta": "Voir l'abonnement Enseignant",
-      "reassure": "Sans carte pour commencer · un seul tarif · résiliable à tout moment"
+      "reassure": "Sans carte pour commencer · un seul tarif · résiliable à tout moment",
+      "honest": "Les téléchargements mensuels d'un compte gratuit couvrent quelques pages d'une série. L'abonnement couvre la série entière, et toutes celles qui suivent."
     },
     "close": {
       "line1": "La leçon de demain",
@@ -3116,7 +3117,16 @@
       "sub": "Toute la bibliothèque — par niveau, par sujet, par compétence — et tous les outils de classe.",
       "toolsHeading": "Outils de classe"
     },
-    "planTag": "Abonnement Enseignant"
+    "planTag": "Abonnement Enseignant",
+    "set": {
+      "roomHeading": "Des fiches qui existent à plusieurs niveaux",
+      "roomBody": "Une série par niveau, c'est une compétence à trois niveaux : une page plus facile, la page du niveau de la classe et une page plus difficile, avec plusieurs pages à chaque niveau. Imprimez le PDF avec son corrigé, ou ouvrez-le à l'écran : beaucoup de pages s'autocorrigent.",
+      "eyebrow": "Une série par niveau, exposée en entier",
+      "caption": "Trois niveaux d'une même compétence, et la fiche de suivi qui vous dit quelle page donner à quel enfant.",
+      "sheetLabel": "Fiche de suivi",
+      "planTag": "Chaque niveau, chaque page : abonnement Enseignant",
+      "wallHeading": "Vingt types de fiches, une page de chaque : une sélection nouvelle chaque jour"
+    }
   },
   "levelSets": {
     "heading": "Séries par niveau",

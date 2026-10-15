@@ -651,7 +651,7 @@
        880 Hz on success / 440 Hz on retry, screen-reader announce,
        prefers-reduced-motion respect on the confetti.
        ===================================================================== */
-    var promptEl, progressEl, feedbackEl, answerEl, checkBtnEl, nextBtnEl;
+    var promptEl, progressEl, feedbackEl, answerEl, checkBtnEl, nextBtnEl, bubbleEl;
     var currentTaskIndex = 0, tasksCompleted = 0, currentTask = null;
     /* Per-session round order: a Fisher–Yates permutation of the task
        indices, built once per mount and rebuilt only when the pool length
@@ -664,6 +664,18 @@
     function ensureActivityChrome() {
       if (!tool.tasks && !tool.nextTask) return false;
       app.classList.add('activity');
+      /* Tool-bar layout (activities → tool bar, 2026-10-15, operator-authorised
+         protected-core change). Two opt-in flags an engine may declare:
+           layout: 'split' → at ≥700px the stage sits left and the bubble +
+                             answer surface + actions sit in a right column
+                             (the Learning Clock shape);
+           wide: true      → the manipulative width tiers (lcs-shell.css:125)
+                             apply to this activity too.
+         Nothing opts in until its rebuild wave; every other activity keeps
+         the stacked shape, which this change re-proportions (see the CSS
+         block "TOOL-BAR ACTIVITY CHROME"). */
+      if (tool.layout === 'split') app.classList.add('split');
+      if (tool.wide) app.classList.add('wide');
 
       /* prompt banner — between header and stage. Wraps a text span + a
          speaker button so the kid (pre-reader) can hear the prompt via
@@ -691,18 +703,36 @@
          CARD (not the page header) as a pill with TASKS DONE label + count.
          Rendered as a div directly inside .lcs-app, before the prompt. */
       progressEl = el('div', 'lcs-activity-progress');
-      var progLabel = el('span', 'lcs-activity-progress-label');
+      var progLabel = el('span', 'lcs-activity-progress-label lcs-sr-only');
       progLabel.textContent = i18n.chrome('tasksDoneLabel') || 'TASKS DONE';
       var progPill = el('span', 'lcs-activity-progress-pill');
       progPill.textContent = '0';
       progressEl.append(progLabel, progPill);
-      app.insertBefore(progressEl, promptEl);
+      /* 2026-10-15 tool-bar chrome: the count is a chip at the head of the
+         controls row (title left, chip + controls right — the tool header),
+         not a floating "TASKS DONE" row between header and prompt. The label
+         stays for screen readers (lcs-sr-only) and as the chip's tooltip. */
+      progressEl.setAttribute('title', i18n.chrome('tasksDoneLabel') || 'TASKS DONE');
+      controls.insertBefore(progressEl, controls.firstChild);
 
       /* feedback overlay — sibling of stage inside .lcs-app so the tool's
          render() (which clears `stage.innerHTML`) doesn't wipe it. */
       feedbackEl = el('div', 'lcs-activity-feedback');
       feedbackEl.setAttribute('role', 'status');
       app.insertBefore(feedbackEl, stage.nextSibling);
+
+      /* Feedback BUBBLE (2026-10-15): a speech-bubble card under the stage
+         (beside it in the split layout) that carries "Great!" / the hint.
+         The task line keeps its text — on the reference tools the task never
+         changes colour or wording, the apparatus answers. The prompt still
+         receives the .celebrate/.tryagain classes (gates + local tests read
+         them); the CSS neutralises their colour change. In flow, shown on
+         Check (display:none until then) — both Check branches re-broadcast
+         the card height so the iframe grows with it. */
+      bubbleEl = el('div', 'lcs-activity-bubble');
+      bubbleEl.setAttribute('role', 'status');
+      bubbleEl.setAttribute('aria-live', 'polite');
+      app.insertBefore(bubbleEl, feedbackEl.nextSibling);
 
       /* answer surface + action row — below the stage */
       answerEl = el('div', 'lcs-activity-answer');
@@ -763,6 +793,7 @@
       else promptEl.textContent = promptStr;
       if (hintSpan) hintSpan.textContent = '';
       promptEl.classList.remove('celebrate', 'tryagain');
+      showBubble('', null);
       api.announce(promptStr);
       if (task.setup) task.setup(tool);
       if (tool.render) tool.render();
@@ -847,6 +878,14 @@
       return undefined;
     }
 
+    function showBubble(text, kind) {
+      if (!bubbleEl) return;
+      bubbleEl.textContent = text || '';
+      bubbleEl.classList.remove('celebrate', 'tryagain');
+      if (kind) bubbleEl.classList.add(kind);
+      bubbleEl.classList.toggle('show', !!text);
+    }
+
     function onCheckClick() {
       if (!currentTask) return;
       var answer = readAnswer(currentTask);
@@ -860,7 +899,7 @@
       if (ok) {
         Audio.pop(880);
         promptEl.classList.add('celebrate');
-        if (textSpan) textSpan.textContent = i18n.chrome('celebrate');
+        showBubble(i18n.chrome('celebrate'), 'celebrate');
         if (hintSpan) hintSpan.textContent = '';
         api.announce(i18n.chrome('celebrate'));
         tasksCompleted += 1;
@@ -876,9 +915,10 @@
         promptEl.classList.add('tryagain');
         var hintKey = currentTask.hintKey && currentTask.hintKey(tool, answer);
         var hintMsg = hintKey ? api.t(hintKey) : i18n.chrome('tryAgain');
-        if (hintSpan) hintSpan.textContent = hintMsg;
+        showBubble(hintMsg, 'tryagain');
         api.announce(i18n.chrome('tryAgain') + ' — ' + hintMsg);
         api.track('task:check', { id: currentTask.id, ok: false });
+        if (typeof postActivityResize === 'function') postActivityResize();
         /* After the shake settles, clear the tryagain prompt-state so the
            kid sees the original prompt again (matches the previous
            auto-dismiss UX). */

@@ -57,6 +57,11 @@ import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
 import { collapsedSheetSlugs, expandHubRows, levelSetRows, rowIsPrintOnly, variationCode, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
 import { isPrintOnlyType } from '@/config/interactive-exercise-types';
 import { INTERACTIVE_LEVEL_SET_TYPES, LEVEL_SET_PRINT_ONLY_VARIATIONS } from '@/config/interactive-level-set-types';
+import { laddersOfType, setsIndexPath, type Ladder, type LadderDeckRow } from '@/lib/level-sets';
+import { laddersFromRows } from '@/lib/level-sets-db';
+import { featuredLadders, ladderCardProps } from '@/lib/level-sets-view';
+import LevelSetsSection from '@/components/worksheets/LevelSetsSection';
+import { dlHref as dlHrefShared } from '@/lib/metered-download';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -176,7 +181,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
  * hub can meter downloads at all.
  */
 function dlHref(locale: string, deckSlug: string, kind: 'pdf' | 'answer'): string {
-  return `/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(deckSlug)}&kind=${kind}`;
+  return dlHrefShared(locale, deckSlug, kind);
 }
 
 function toSearchParamsString(sp: Record<string, string | string[] | undefined>): string {
@@ -219,12 +224,17 @@ export default async function AllWorksheetsPage({
   const factsBySlug = new Map<string, DeckFacts>();
   const publishedTypes = new Set<string>();
   let totalCount = 0;
+  /* Level Sets v2 (2026-10-15): the same rows also build the LADDERS (one per
+     worksheet-gen face: easy / core / hard pages) the hub shows as a section —
+     two more selected columns, no second query. */
+  let ladders: Ladder[] = [];
   try {
     const decks = await prisma.deck.findMany({
       where: { language: locale, status: 'published', contentLanguage: null },
-      select: { slug: true, title: true, answerKeyUrl: true, exerciseType: true },
+      select: { slug: true, title: true, answerKeyUrl: true, exerciseType: true, exerciseMode: true, indexable: true },
     });
     totalCount = decks.length;
+    ladders = laddersFromRows(locale, decks as LadderDeckRow[]);
     for (const d of decks) {
       publishedTypes.add(d.exerciseType);
       const raw = d.title as Record<string, string> | null;
@@ -533,6 +543,29 @@ export default async function AllWorksheetsPage({
     interactiveMark: t('card.interactiveMark'),
   };
 
+  /* ---- the Level Sets section (additive; operator decision 1, 2026-10-15) ----
+     Default page: the fullest ladder of each of up to 8 types. A chosen type:
+     that type's ladders (all of them, up to 12), heading "Level Sets · <type>".
+     Level- or theme-only filters show no section (a ladder spans levels). The
+     indexed grid, rail, title and meta below are untouched. */
+  const tLs = await getTranslations({ locale, namespace: 'levelSets' });
+  const lsCardStrings = { interactiveMark: cardLabels.interactiveMark, printOnly: cardLabels.printOnly };
+  const sectionLadders = filters.type
+    ? laddersOfType(ladders, filters.type).slice(0, 12)
+    : (!filters.level && !filters.theme && page === 1 ? featuredLadders(ladders, 8) : []);
+  const sectionHeading = filters.type
+    ? `${tLs('heading')} · ${getAxisName('exercise-type', filters.type, locale) || filters.type}`
+    : tLs('heading');
+  const levelSetsSection = sectionLadders.length > 0 ? (
+    <LevelSetsSection
+      heading={sectionHeading}
+      intro={filters.type ? undefined : tLs('hubIntro')}
+      cards={sectionLadders.map((l, i) => ladderCardProps(l, locale, tLs, lsCardStrings, i < EAGER_CARDS))}
+      allHref={setsIndexPath(locale)}
+      allLabel={tLs('allSets')}
+    />
+  ) : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
@@ -560,6 +593,8 @@ export default async function AllWorksheetsPage({
             </div>
           ) : (
             <>
+              {levelSetsSection}
+
               {/* The tab bar spans the full content width, above the shell,
                   because it scopes the rail as well as the grid. */}
               <CatalogTabs

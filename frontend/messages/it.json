@@ -4618,5 +4618,39 @@
       "toolsHeading": "Strumenti per la classe"
     },
     "planTag": "Piano Insegnante"
+  },
+  "levelSets": {
+    "heading": "Set a livelli",
+    "hubIntro": "La stessa abilità su tre livelli – una scheda più facile, la scheda base della classe e una più difficile – con più schede per ogni livello e le soluzioni di ciascuna. Distribuisci tutte e tre in una sola lezione.",
+    "core": "Base",
+    "levelN": "Livello {n}",
+    "rungEasy": "Una versione più facile dello stesso compito",
+    "rungCore": "La scheda al livello della classe",
+    "rungHard": "Una versione più difficile dello stesso compito",
+    "pages": "{count, plural, one {# scheda} other {# schede}}",
+    "levels": "{count, plural, one {# livello} other {# livelli}}",
+    "openSet": "Apri il set",
+    "allSets": "Tutti i set a livelli",
+    "setWord": "Set {n}",
+    "indexTitle": "Set a livelli – schede su tre livelli",
+    "indexDescription": "Tutti i tipi di scheda disponibili su tre livelli, con più schede per livello e soluzioni. Scegli il livello di cui ogni bambino ha bisogno.",
+    "indexIntro": "Tutti i tipi di scheda disponibili su tre livelli. Apri un set, poi stampa o gioca il livello di cui ogni bambino ha bisogno.",
+    "setTitle": "{title} – set a livelli",
+    "setDescription": "{title} su tre livelli – più facile, base e più difficile – con soluzioni e più schede per livello.",
+    "setIntro": "Un’abilità, tre livelli. Dai a ogni bambino la scheda giusta: tutte hanno lo stesso impaginato e le stesse soluzioni, così una sola spiegazione basta per tutta la classe.",
+    "playLabel": "Gioca",
+    "moreOfType": "Altri set di questo tipo",
+    "backToHub": "Tutte le schede",
+    "interactiveCount": "{count, plural, one {# scheda si gioca nel browser} other {# schede si giocano nel browser}}",
+    "answerKeys": "Soluzioni per ogni PDF",
+    "emptyRung": "Nessuna scheda a questo livello per ora"
+  },
+  "deckLadder": {
+    "heading": "Questa scheda fa parte di un set a livelli",
+    "levelOf": "Livello {n} di {total}",
+    "morePages": "Altre schede di questo livello",
+    "openSet": "Vedi tutto il set",
+    "landingHeading": "Questa scheda su tre livelli",
+    "landingBody": "Lo stesso compito esiste anche in una scheda più facile e in una più difficile, con altre schede di esercizio a ogni livello."
   }
 }

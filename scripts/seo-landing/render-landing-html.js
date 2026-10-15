@@ -103,6 +103,49 @@ function loadAugment(locale) {
   return data;
 }
 
+/* -------- Level Set augment (Level Sets v2, 2026-10-15; operator decision 2) --------
+ * Per-locale `levels-<locale>.json` produced by scripts/seo-landing/augment-landings-levels.js
+ * on Hetzner from the deck manifests: for each landing whose worksheet face has ≥ 2 pages,
+ * the easy / core / hard rungs with their counts and a few sibling pages. Rendered as ONE
+ * additive block ("This worksheet at three levels"); landing prose / title / meta / h1 are
+ * untouched. OPTIONAL like the real-content augment: absent file ⇒ no block. */
+const deckLadder = require('../lib/deck-ladder');
+const _lvlCache = {};
+function loadLevelsAugment(locale) {
+  if (locale in _lvlCache) return _lvlCache[locale];
+  let data = null;
+  try {
+    const p = path.join(AUGMENT_DIR, `levels-${locale}.json`);
+    if (fs.existsSync(p)) data = JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch (e) { data = null; }
+  _lvlCache[locale] = data;
+  return data;
+}
+/** The "three levels" block for a landing, or '' when its face has no ladder. */
+function levelsBlockHtml(locale, lv) {
+  if (!lv || !lv.code || !Array.isArray(lv.rungs) || lv.rungs.length < 2) return '';
+  const s = deckLadder.strings(locale);
+  const msgs = loadMessages(locale) || {};
+  const dl = (msgs.deckLadder) || {};
+  const heading = dl.landingHeading || 'This worksheet at three levels';
+  const body = dl.landingBody || '';
+  const set = deckLadder.setUrl(locale, lv.code);
+  const rungs = lv.rungs.map((r, i) => {
+    const word = deckLadder.rungWord(r.rung, locale);
+    const sib = (r.siblings || []).slice(0, 3).map((p) =>
+      `<a href="${esc(deckLadder.deckUrl(locale, p.slug))}">${esc(p.label)}</a>`).join(' · ');
+    return `    <li${r.rung === lv.mine ? ' class="is-mine"' : ''}><a class="rung" href="${esc(set + '#level-' + r.rung)}"><b>${i + 1}</b> ${esc(word)} <i>${r.count}</i></a>${sib ? `<span class="sib">${sib}</span>` : ''}</li>`;
+  }).join('\n');
+  return `
+<section class="levels">
+  <h2>${esc(heading)}</h2>
+${body ? `  <p>${esc(body)}</p>\n` : ''}  <ul>
+${rungs}
+  </ul>
+  <p class="all"><a href="${esc(set)}">${esc(s.openSet)} →</a></p>
+</section>`;
+}
+
 /* -------- landing → subject×grade hub equity link (Unit 12, 2026-07-06) --------
  * Funnels the 30k-landing graph into the ~139 demand-aligned money hubs. The link
  * universe is the committed manifest of LIVE indexable hubs (regenerated from
@@ -905,6 +948,25 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 .facts ul{list-style:none;display:flex;flex-wrap:wrap;gap:.5rem .75rem;margin-bottom:.5rem}
 .facts li{display:inline-flex;align-items:center;gap:.375rem;background:var(--teal-soft);color:var(--teal-deep);font-weight:600;font-size:.875rem;border-radius:9999px;padding:.375rem .75rem}
 .facts .updated{font-size:.8125rem;color:var(--ink-500);margin-top:.25rem}
+.levels{max-width:48rem;background:#fff;border:2px solid var(--teal-deep);border-radius:1rem;padding:1.25rem 1.5rem;margin-bottom:3rem;box-shadow:0 2px 8px rgba(20,30,28,.06)}
+.levels h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.125rem;color:var(--ink-900);margin-bottom:.5rem}
+.levels p{color:var(--ink-700);font-size:.9375rem;margin-bottom:.75rem}
+.levels ul{list-style:none;display:flex;flex-direction:column;gap:.5rem;margin-bottom:.75rem}
+.levels li{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}
+.levels .rung{display:inline-flex;align-items:center;gap:.5rem;min-height:36px;padding:0 .875rem 0 .25rem;border-radius:9999px;border:2px solid var(--teal-deep);color:var(--teal-deep);font-weight:700;font-size:.9375rem;text-decoration:none;background:#fff}
+.levels .rung b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--teal-deep);color:#fff;font-size:.8125rem}
+.levels .rung i{font-style:normal;font-weight:600;color:var(--ink-500)}
+.levels li.is-mine .rung{background:var(--teal-deep);color:#fff}
+.levels li.is-mine .rung b{background:#fff;color:var(--teal-deep)}
+.levels li.is-mine .rung i{color:rgba(255,255,255,.8)}
+.levels .rung:hover{background:var(--teal-soft)}
+.levels li.is-mine .rung:hover{background:var(--teal-deep)}
+.levels .sib{font-size:.875rem;color:var(--ink-500)}
+.levels .sib a{color:var(--teal-deep);font-weight:600;text-decoration:none}
+.levels .sib a:hover{text-decoration:underline}
+.levels .all{margin:0;font-weight:700}
+.levels .all a{color:var(--coral-deep,#9A4521);text-decoration:none}
+.levels .all a:hover{text-decoration:underline}
 .wordlist{max-width:48rem;margin-bottom:3rem}
 .wordlist h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;color:var(--ink-900);margin-bottom:1rem}
 .wordlist ul{list-style:none;display:flex;flex-wrap:wrap;gap:.5rem}
@@ -1144,6 +1206,10 @@ ${aug.siblingThumbs.map((s, i) => {
     }
   }
 
+  /* ---------- Level Set block (Level Sets v2; absent augment → empty) ---------- */
+  const lvAll = loadLevelsAugment(locale);
+  const levelsHtml = levelsBlockHtml(locale, (lvAll && lvAll[l.slug]) || null);
+
   const mesh = getRelatedLandings(locale, l);
   const meshCol = (heading, items) => items.length === 0 ? '' : `
     <div>
@@ -1296,6 +1362,7 @@ ${printOnly
       <p>${esc(l.p3)}</p>
     </section>
 ${factsHtml}
+${levelsHtml}
 ${wordsHtml}
 ${problemsHtml}
 ${printOnly ? '' : `    <section class="play-section">

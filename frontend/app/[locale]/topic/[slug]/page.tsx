@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { notFound, permanentRedirect, redirect } from 'next/navigation';
@@ -30,6 +31,10 @@ import {
 } from '@/lib/topic-decks';
 import { topicOgImage } from '@/lib/seo/topic-og-image';
 import { landingSlugForDeck, canonicalDeckAssets, getLandingsByType, getLandingsByTheme, getLandingsByLevel } from '@/lib/seo/landing-content';
+import { laddersOfType, setsIndexPath } from '@/lib/level-sets';
+import { loadLadders } from '@/lib/level-sets-db';
+import { ladderCardProps } from '@/lib/level-sets-view';
+import LevelSetsSection from '@/components/worksheets/LevelSetsSection';
 import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
 import RelatedActivitiesStrip from '@/components/activities/RelatedActivitiesStrip';
 import { listActivitiesByGrade, type ActivityRow } from '@/lib/activities';
@@ -720,6 +725,35 @@ export default async function TopicPage({
         : getLandingsByLevel(locale, axisKey)
   ).slice(0, 80).map((l) => ({ slug: l.slug, h1: l.h1 }));
 
+  /* Level Sets v2 (2026-10-15, operator decision 1): an ADDITIVE "Level Sets"
+     section on the indexed topic hubs — the ladders (easy / core / hard pages
+     of one worksheet face) of this exercise type, or of this grade. Theme hubs
+     carry none (a ladder spans themes). Title / meta / h1 / canonical of the
+     hub are untouched; the section adds cards + internal links only. */
+  let levelSetsSection: ReactNode = null;
+  if (axis !== 'theme') {
+    const allLadders = await loadLadders(locale);
+    const hubLadders = axis === 'exercise-type'
+      ? laddersOfType(allLadders, axisKey)
+      : allLadders.filter((l) => l.level === (getAxisSlug('educational-level', axisKey, locale) || axisKey));
+    if (hubLadders.length > 0) {
+      const [tLs, tWs] = await Promise.all([
+        getTranslations({ locale, namespace: 'levelSets' }),
+        getTranslations({ locale, namespace: 'worksheetsPage.card' }),
+      ]);
+      const lsStrings = { interactiveMark: tWs('interactiveMark'), printOnly: tWs('printOnly') };
+      levelSetsSection = (
+        <LevelSetsSection
+          heading={`${tLs('heading')} · ${topicName}`}
+          intro={tLs('hubIntro')}
+          cards={hubLadders.slice(0, 12).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, i < 4))}
+          allHref={setsIndexPath(locale)}
+          allLabel={tLs('allSets')}
+        />
+      );
+    }
+  }
+
   return (
     <>
       <script
@@ -798,6 +832,8 @@ export default async function TopicPage({
           overrideKey={axisKey}
           topicName={topicName}
         />
+
+        {levelSetsSection}
 
         {/* Arc 6b — Filter sidebar (left rail desktop) + main content
             (sort, active chips, deck grid, pagination). Mobile: filter

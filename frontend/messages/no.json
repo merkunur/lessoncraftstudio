@@ -3104,8 +3104,8 @@
   },
   "levelSets": {
     "heading": "Nivåsett",
-    "hubIntro": "Samme ferdighet på tre nivåer – et lettere ark, trinnets grunnark og et vanskeligere – med flere ark på hvert nivå og fasit til hvert. Del ut alle tre i samme time.",
-    "core": "Grunn",
+    "hubIntro": "Samme ferdighet på opptil tre nivåer – et lettere ark, trinnets grunnark og et vanskeligere – med flere ark på hvert nivå. Gi hvert barn sitt nivå i samme time.",
+    "core": "Middels",
     "levelN": "Nivå {n}",
     "rungEasy": "En lettere utgave av samme oppgave",
     "rungCore": "Arket på trinnets nivå",
@@ -3115,25 +3115,25 @@
     "openSet": "Åpne settet",
     "allSets": "Alle nivåsett",
     "setWord": "Sett {n}",
-    "indexTitle": "Nivåsett – arbeidsark på tre nivåer",
-    "indexDescription": "Alle typer arbeidsark som finnes på tre nivåer, med flere ark per nivå og fasit. Velg det nivået hvert barn trenger.",
-    "indexIntro": "Alle typer arbeidsark som finnes på tre nivåer. Åpne et sett, og skriv ut eller spill det nivået hvert barn trenger.",
+    "indexTitle": "Nivåsett – arbeidsark på opptil tre nivåer",
+    "indexDescription": "Alle typer arbeidsark som finnes på flere nivåer, med flere ark per nivå. Velg det nivået hvert barn trenger.",
+    "indexIntro": "Alle typer arbeidsark som finnes på flere nivåer. Åpne et sett, og skriv ut det nivået hvert barn trenger, eller løs det på skjermen.",
     "setTitle": "{title} – nivåsett",
-    "setDescription": "{title} på tre nivåer – lettere, grunn og vanskeligere – med fasit og flere ark per nivå.",
-    "setIntro": "Én ferdighet, tre nivåer. Gi hvert barn arket som passer: alle arkene har samme oppsett og samme fasit, så én forklaring holder for hele klassen.",
-    "playLabel": "Spill",
+    "setDescription": "{title} på opptil tre nivåer – lettere, middels og vanskeligere – med flere ark per nivå.",
+    "setIntro": "Én ferdighet, tre nivåer. Gi hvert barn arket som passer: alle arkene har samme oppsett, så én forklaring holder for hele klassen.",
+    "playLabel": "Løs på skjermen",
     "moreOfType": "Flere sett av denne typen",
     "backToHub": "Alle arbeidsark",
-    "interactiveCount": "{count, plural, one {# ark kan spilles i nettleseren} other {# ark kan spilles i nettleseren}}",
-    "answerKeys": "Fasit til hver PDF",
+    "interactiveCount": "{count, plural, one {# ark kan løses på skjermen} other {# ark kan løses på skjermen}}",
+    "answerKeys": "{count, plural, one {# fasit} other {# fasiter}}",
     "emptyRung": "Ingen ark på dette nivået ennå"
   },
   "deckLadder": {
-    "heading": "Dette arbeidsarket er del av et nivåsett",
+    "heading": "Dette arbeidsarket er en del av et nivåsett",
     "levelOf": "Nivå {n} av {total}",
     "morePages": "Flere ark på dette nivået",
     "openSet": "Se hele settet",
-    "landingHeading": "Dette arbeidsarket på tre nivåer",
-    "landingBody": "Samme oppgave finnes også som et lettere og et vanskeligere ark, med flere øvingsark på hvert nivå."
+    "landingHeading": "Dette arbeidsarket på flere nivåer",
+    "landingBody": "Samme oppgave finnes også på andre nivåer, med flere øvingsark på hvert nivå."
   }
 }

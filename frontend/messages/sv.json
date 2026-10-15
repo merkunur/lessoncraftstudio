@@ -3100,8 +3100,8 @@
   },
   "levelSets": {
     "heading": "Nivåset",
-    "hubIntro": "Samma färdighet på tre nivåer – ett lättare blad, årskursens grundblad och ett svårare – med flera blad på varje nivå och facit till vart och ett. Dela ut alla tre på samma lektion.",
-    "core": "Grund",
+    "hubIntro": "Samma färdighet på upp till tre nivåer – ett lättare blad, årskursens grundblad och ett svårare – med flera blad på varje nivå. Ge varje barn rätt nivå på samma lektion.",
+    "core": "Mellan",
     "levelN": "Nivå {n}",
     "rungEasy": "En lättare version av samma uppgift",
     "rungCore": "Bladet på årskursens nivå",
@@ -3111,17 +3111,17 @@
     "openSet": "Öppna setet",
     "allSets": "Alla nivåset",
     "setWord": "Set {n}",
-    "indexTitle": "Nivåset – arbetsblad på tre nivåer",
-    "indexDescription": "Varje typ av arbetsblad som finns på tre nivåer, med flera blad per nivå och facit. Välj den nivå varje barn behöver.",
-    "indexIntro": "Varje typ av arbetsblad som finns på tre nivåer. Öppna ett set och skriv ut eller spela den nivå varje barn behöver.",
+    "indexTitle": "Nivåset – arbetsblad på upp till tre nivåer",
+    "indexDescription": "Varje typ av arbetsblad som finns på flera nivåer, med flera blad per nivå. Välj den nivå varje barn behöver.",
+    "indexIntro": "Varje typ av arbetsblad som finns på flera nivåer. Öppna ett set och skriv ut den nivå varje barn behöver, eller gör den på skärmen.",
     "setTitle": "{title} – nivåset",
-    "setDescription": "{title} på tre nivåer – lättare, grund och svårare – med facit och flera blad per nivå.",
-    "setIntro": "En färdighet, tre nivåer. Ge varje barn det blad som passar: alla blad har samma layout och samma facit, så en enda genomgång räcker för hela klassen.",
-    "playLabel": "Spela",
+    "setDescription": "{title} på upp till tre nivåer – lättare, mellan och svårare – med flera blad per nivå.",
+    "setIntro": "En färdighet, tre nivåer. Ge varje barn det blad som passar: alla blad har samma layout, så en enda genomgång räcker för hela klassen.",
+    "playLabel": "Gör på skärmen",
     "moreOfType": "Fler set av den här typen",
     "backToHub": "Alla arbetsblad",
-    "interactiveCount": "{count, plural, one {# blad går att spela i webbläsaren} other {# blad går att spela i webbläsaren}}",
-    "answerKeys": "Facit till varje PDF",
+    "interactiveCount": "{count, plural, one {# blad går att göra på skärmen} other {# blad går att göra på skärmen}}",
+    "answerKeys": "{count, plural, one {# facit} other {# facit}}",
     "emptyRung": "Inget blad på den här nivån ännu"
   },
   "deckLadder": {
@@ -3129,7 +3129,7 @@
     "levelOf": "Nivå {n} av {total}",
     "morePages": "Fler blad på den här nivån",
     "openSet": "Se hela setet",
-    "landingHeading": "Det här arbetsbladet på tre nivåer",
-    "landingBody": "Samma uppgift finns också som ett lättare och ett svårare blad, med fler övningsblad på varje nivå."
+    "landingHeading": "Det här arbetsbladet på flera nivåer",
+    "landingBody": "Samma uppgift finns också på andra nivåer, med fler övningsblad på varje nivå."
   }
 }

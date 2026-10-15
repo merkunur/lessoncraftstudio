@@ -34,7 +34,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       is(!!frameEl, `[${loc} @${w}] the page embeds how-many-activity.html`);
       if (!frameEl) { await page.close(); continue; }
       const src = await page.evaluate(f => f.getAttribute('src'), frameEl);
-      is(/v=9\.723/.test(src), `[${loc} @${w}] wrapper version 9.723 in the iframe src (${src})`);
+      is(/v=9\.724/.test(src), `[${loc} @${w}] wrapper version 9.724 in the iframe src (${src})`);
       const frame = await frameEl.contentFrame();
       await frame.waitForFunction(() => window.HowManyActivity && window.HowManyActivity.theme && document.querySelectorAll('.hm-pic').length === window.HowManyActivity.st.n, { timeout: 30000 });
       await wait(500);
@@ -62,6 +62,13 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       await frame.click('.lcs-activity-check'); await wait(300);
       const ok = await frame.evaluate(() => ({ cel: document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), txt: document.querySelector('.lcs-activity-bubble').textContent }));
       is(ok.cel, `[${loc} @${w}] right numeral → celebrates ("${ok.txt}")`);
+      /* the operator's defect: after Next and after "Mix them up" the card grows and
+         the iframe must grow with it — the Check button must stay inside the iframe */
+      await frame.click('.lcs-activity-next'); await wait(500);
+      const mixOn = await frame.evaluate(() => { const m = document.querySelector('.hm-mix'); return m && !m.disabled; });
+      if (mixOn) { await frame.click('.hm-mix'); await wait(500); }
+      const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); const chk = f.contentDocument.querySelector('.lcs-activity-check').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height, checkBottom: chk.bottom }; }, frameEl);
+      is(fit.frameH >= fit.cardH - 2 && fit.checkBottom <= fit.frameH + 1, `[${loc} @${w}] iframe grows with the card after Next/Mix (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)}, Check bottom ${fit.checkBottom.toFixed(0)})`);
       await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}.png`), fullPage: w < 500 });
       await page.close();
     }

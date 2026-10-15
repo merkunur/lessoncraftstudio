@@ -201,8 +201,13 @@ function serve() {
     is((await state(page)).tags.length === 0 && (await page.evaluate(() => document.querySelectorAll('.hm-pic.is-tagged').length)) === 0, `[${loc}] Count again clears every tag`);
     const mixEnabled = await page.evaluate(() => !document.querySelector('.hm-mix').disabled);
     is(mixEnabled, `[${loc}] Mix is offered for six`);
-    await clickCenter(page, '.hm-mix', 0); await wait(60);
+    /* the iframe contract: every height change is broadcast (the operator's
+       clipped-Check defect) — listen for the shell's resize message */
+    await page.evaluate(() => { window.__lastResize = null; window.addEventListener('message', e => { if (e.data && e.data.type === 'lcs-activity-resize') window.__lastResize = e.data.height; }); });
+    await clickCenter(page, '.hm-mix', 0); await wait(400);
     const st6b = await state(page);
+    const rs = await page.evaluate(() => ({ sent: window.__lastResize, app: Math.ceil(document.querySelector('.lcs-app').getBoundingClientRect().height) }));
+    is(rs.sent !== null && Math.abs(rs.sent - rs.app) <= 6, `[${loc}] Mix broadcasts the new card height to the iframe (sent ${rs.sent}, card ${rs.app})`);
     is(st6b.n === st6.n && st6b.arr !== st6.arr && (await page.evaluate(() => document.querySelectorAll('.hm-pic').length)) === st6.n, `[${loc}] Mix keeps n=${st6.n} and changes the arrangement (${st6.arr} → ${st6b.arr})`);
     await page.evaluate(() => { window.HowManyActivity.api.settings.arrangement = 'line'; window.HowManyActivity.onSettings('arrangement', 'line'); });
     await wait(150);

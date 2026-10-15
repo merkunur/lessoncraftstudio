@@ -252,6 +252,8 @@ node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "E
 echo "🔎 deck-actions strip guard..."
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-actions.test.js || { echo "ERROR: the deck action strip is broken — a locale lost its deckActions strings, a maker landing slug vanished, or /tools/ or /api/quota/dl moved. See scripts/lib/deck-actions.js"; exit 1; }
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-ladder.test.js || { echo "ERROR: the deck ladder strip is broken — a locale lost its deckLadder/levelSets strings, the set route moved, or the injector no longer round-trips. See scripts/lib/deck-ladder.js"; exit 1; }
+# the Level Set PATHWAY (phase 3): every strand named x11, every type placed once (ladder-export coverage is measured on the PC)
+node /opt/lessoncraftstudio/scripts/verify-level-set-pathways.js > /tmp/lcs-pathway-gate.log 2>&1 || { cat /tmp/lcs-pathway-gate.log | grep FAIL; echo "ERROR: the Level Set pathway is broken — a strand lost a locale name or a type is placed twice. See content/level-set-pathways/sequence.json"; exit 1; }
 # the free-tier policy on every deck page (2026-10-01): metered PDF links, no "free" label, the play wall on screen versions
 node /opt/lessoncraftstudio/scripts/publish-cli/deck-metering.test.js || { echo "ERROR: deck metering is broken — a deck page could give its PDF or screen version away unlimited. See scripts/lib/deck-metering.js"; exit 1; }
 

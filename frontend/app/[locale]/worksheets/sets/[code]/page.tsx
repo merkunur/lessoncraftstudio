@@ -29,8 +29,9 @@ import { deckAssets } from '@/lib/seo/landing-content';
 import { levelChip, worksheetSubject } from '@/lib/worksheets-catalog';
 import { dlHref } from '@/lib/metered-download';
 import { RUNGS, setPath, setsIndexPath, teacherSheetHref, type Ladder, type Rung } from '@/lib/level-sets';
-import { loadLadder, loadLaddersOfType, teacherSheetExists } from '@/lib/level-sets-db';
+import { loadLadder, loadLadders, teacherSheetExists } from '@/lib/level-sets-db';
 import { ladderCardProps, rungWord } from '@/lib/level-sets-view';
+import { pathwayNeighbours, strandAnchor } from '@/lib/level-set-pathways';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import LadderCard from '@/components/worksheets/LadderCard';
@@ -67,7 +68,10 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
     getTranslations({ locale, namespace: 'nav.categories' }),
   ]);
-  const siblings = (await loadLaddersOfType(locale, ladder.type)).filter((l) => l.code !== ladder.code);
+  // every ladder of the locale: the pathway neighbours (phase 3) need the whole subject × grade sequence
+  const allLadders = await loadLadders(locale);
+  const siblings = allLadders.filter((l) => l.type === ladder.type && l.code !== ladder.code);
+  const nb = pathwayNeighbours(locale, allLadders, ladder.code);
 
   const typeLabel = getAxisName('exercise-type', ladder.type, locale) || ladder.type;
   const typeSlug = getAxisSlug('exercise-type', ladder.type, locale) || ladder.type;
@@ -123,6 +127,26 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-lcs-teal text-lcs-cream">{t('levels', { count: ladder.rungCount })}</span>
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-[#FFFDF8] ring-1 ring-lcs-teal/20 text-lcs-teal">{t('pages', { count: ladder.pageCount })}</span>
             </div>
+            {/* Phase 3: where this set sits in the subject × grade PATHWAY — strand + previous / next set.
+                "Next" never dead-ends before the catalogue does (it crosses into the next grade's same strand). */}
+            {nb && (
+              <nav aria-label={t('pathway')} className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-1 font-lcsBody text-sm text-lcs-teal/80">
+                <span>
+                  <span className="font-bold text-lcs-teal">{t('pathway')}:</span>{' '}
+                  <Link href={`${setsIndexPath(locale)}#${strandAnchor(nb.subject, nb.grade, nb.strand)}`} prefetch={false} className="hover:underline">{nb.strandLabel}</Link>
+                </span>
+                {nb.previous && (
+                  <Link href={setPath(locale, nb.previous.code)} prefetch={false} className="hover:underline">
+                    ← <span className="sr-only">{t('previousSet')}: </span>{nb.previous.title}
+                  </Link>
+                )}
+                {nb.next && (
+                  <Link href={setPath(locale, nb.next.code)} prefetch={false} className="font-bold text-lcs-coral-deep hover:underline">
+                    <span className="sr-only">{t('nextSet')}: </span>{nb.next.title} →
+                  </Link>
+                )}
+              </nav>
+            )}
             <p className="font-lcsBody text-sm md:text-base text-lcs-teal/80 leading-relaxed">{t('setIntro')}</p>
             <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-lcsBody text-sm text-lcs-teal/75">
               {ladder.answerKeyCount > 0 && <li>✓ {t('answerKeys', { count: ladder.answerKeyCount })}</li>}

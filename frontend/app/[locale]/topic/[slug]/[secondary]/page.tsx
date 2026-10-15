@@ -9,7 +9,8 @@ import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
 import { setsIndexPath } from '@/lib/level-sets';
 import { loadLadders } from '@/lib/level-sets-db';
 import { ladderCardProps } from '@/lib/level-sets-view';
-import LevelSetsSection from '@/components/worksheets/LevelSetsSection';
+import { pathwayFor, strandAnchor, GRADE_ORDER, type GradeKey } from '@/lib/level-set-pathways';
+import PathwaySection from '@/components/worksheets/PathwaySection';
 import {
   Axis,
   getAxisName,
@@ -756,20 +757,32 @@ async function renderSubjectGradeHub(
      section — the ladders (easy / core / hard pages of one worksheet face) of
      this subject's types at THIS grade (landing level = the locale's slug, as
      hubLandingLevel above). Title / meta / h1 / canonical untouched. */
-  const subjectTypes = new Set(exerciseTypeKeysForSubject(subjectKey));
-  const hubLadders = (await loadLadders(locale)).filter((l) => subjectTypes.has(l.type) && l.level === hubLandingLevel);
+  /* Phase 3 (2026-10-15): the section is the ORDERED PATHWAY of this subject at this grade —
+     strands in teaching order (content/level-set-pathways/sequence.json), each capped at 4 cards
+     with a link to the rest on the sets index. A ladder's grade = its landing level, else its
+     catalogue-id prefix (lib/level-set-pathways.ts). */
+  const gradeKey = (GRADE_ORDER as readonly string[]).includes(levelKey) ? (levelKey as GradeKey) : null;
+  const pathway = gradeKey ? pathwayFor(locale, await loadLadders(locale), subjectKey, gradeKey) : [];
   let levelSetsSection: ReactNode = null;
-  if (hubLadders.length > 0) {
+  if (pathway.length > 0 && gradeKey) {
     const [tLs, tWsCard] = await Promise.all([
       getTranslations({ locale, namespace: 'levelSets' }),
       getTranslations({ locale, namespace: 'worksheetsPage.card' }),
     ]);
     const lsStrings = { interactiveMark: tWsCard('interactiveMark'), printOnly: tWsCard('printOnly') };
+    const PER_STRAND = 4;
     levelSetsSection = (
-      <LevelSetsSection
+      <PathwaySection
         heading={`${tLs('heading')} · ${h1}`}
         intro={tLs('hubIntro')}
-        cards={hubLadders.slice(0, 12).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, i < 4))}
+        strands={pathway.map((s, si) => ({
+          key: s.strand,
+          heading: s.strandLabel,
+          total: s.ladders.length,
+          cards: s.ladders.slice(0, PER_STRAND).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, si === 0 && i < 4)),
+          allHref: `${setsIndexPath(locale)}#${strandAnchor(subjectKey, gradeKey, s.strand)}`,
+          allLabel: tLs('allInStrand', { count: s.ladders.length }),
+        }))}
         allHref={setsIndexPath(locale)}
         allLabel={tLs('allSets')}
       />

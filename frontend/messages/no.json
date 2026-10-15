@@ -3128,7 +3128,11 @@
     "answerKeys": "{count, plural, one {# fasit} other {# fasiter}}",
     "emptyRung": "Ingen ark på dette nivået ennå",
     "teacherSheet": "Klasseoversikt (PDF)",
-    "teacherSheetAria": "Last ned klasseoversikten for {title}"
+    "teacherSheetAria": "Last ned klasseoversikten for {title}",
+    "pathway": "Læringsløp",
+    "previousSet": "Forrige sett",
+    "nextSet": "Neste sett",
+    "allInStrand": "{count, plural, one {Alle # sett i dette området} other {Alle # sett i dette området}}"
   },
   "deckLadder": {
     "heading": "Dette arbeidsarket er en del av et nivåsett",

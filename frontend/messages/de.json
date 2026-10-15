@@ -4445,7 +4445,11 @@
     "answerKeys": "{count, plural, one {# Lösungsblatt} other {# Lösungsblätter}}",
     "emptyRung": "Auf dieser Stufe noch kein Blatt",
     "teacherSheet": "Klassenübersicht (PDF)",
-    "teacherSheetAria": "Klassenübersicht zu {title} herunterladen"
+    "teacherSheetAria": "Klassenübersicht zu {title} herunterladen",
+    "pathway": "Lernweg",
+    "previousSet": "Vorheriges Set",
+    "nextSet": "Nächstes Set",
+    "allInStrand": "{count, plural, one {Alle # Sets in diesem Bereich} other {Alle # Sets in diesem Bereich}}"
   },
   "deckLadder": {
     "heading": "Dieses Arbeitsblatt gehört zu einem Niveau-Set",

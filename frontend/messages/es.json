@@ -4643,7 +4643,11 @@
     "answerKeys": "{count, plural, one {# solución} other {# soluciones}}",
     "emptyRung": "Todavía no hay ficha en este nivel",
     "teacherSheet": "Registro del grupo (PDF)",
-    "teacherSheetAria": "Descargar el registro del grupo de {title}"
+    "teacherSheetAria": "Descargar el registro del grupo de {title}",
+    "pathway": "Ruta de aprendizaje",
+    "previousSet": "Conjunto anterior",
+    "nextSet": "Siguiente conjunto",
+    "allInStrand": "{count, plural, one {Todos los # conjuntos de este eje} other {Todos los # conjuntos de este eje}}"
   },
   "deckLadder": {
     "heading": "Esta ficha forma parte de un conjunto por nivel",

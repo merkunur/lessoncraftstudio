@@ -3113,7 +3113,11 @@
     "answerKeys": "{count, plural, one {# vastaussivu} other {# vastaussivua}}",
     "emptyRung": "Tällä tasolla ei ole vielä tehtävää",
     "teacherSheet": "Luokan seurantalomake (PDF)",
-    "teacherSheetAria": "Lataa luokan seurantalomake: {title}"
+    "teacherSheetAria": "Lataa luokan seurantalomake: {title}",
+    "pathway": "Oppimispolku",
+    "previousSet": "Edellinen sarja",
+    "nextSet": "Seuraava sarja",
+    "allInStrand": "{count, plural, one {Kaikki # sarjaa tällä osa-alueella} other {Kaikki # sarjaa tällä osa-alueella}}"
   },
   "deckLadder": {
     "heading": "Tämä tehtävä kuuluu tasosarjaan",

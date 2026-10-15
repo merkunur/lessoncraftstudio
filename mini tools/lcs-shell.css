@@ -882,3 +882,156 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   }
 }
 .lcs-app.activity .lcs-title { text-align: center; }
+
+/* =====================================================================
+   TOOL-BAR ACTIVITY CHROME — 2026-10-15 (operator-authorised protected-core
+   change; plan "activities → tool bar", reference bar = Number Talk Easel,
+   Learning Clock, Place Value Lab, Pattern Bench).
+   ---------------------------------------------------------------------
+   WHY. Measured on the rendered QA sheets: the activity chrome above made
+   the PROMPT the hero (48px display text, the biggest thing on screen),
+   stacked a centred title + a button row + a floating "TASKS DONE" row
+   above it, and gave the card a 66.67vh floor — so the apparatus (a 24px
+   owl, option cards with 12px cherries) sat small in a tall empty card.
+   The four reference tools do the opposite: title left + controls right,
+   a ~20px task line, the apparatus filling the card, feedback in a bubble
+   beside the apparatus.
+
+   WHAT. Every rule below is scoped to `.lcs-app.activity` and sits LAST in
+   the cascade, so it wins ties against the v7 block above and leaves the
+   manipulative tools byte-identical (proved by scripts/snap-mini-tools.js
+   --compare over ten tools × three widths before/after).
+     1. header = the tool header at ≥601px (title left, chip + controls right)
+     2. the progress count is a chip at the head of the controls row
+     3. the task line is small (17-24px), never recoloured by feedback
+     4. the card hugs its content (no vh floor) — the empty band is gone
+     5. Check / Next at tool-chip scale
+     6. a feedback BUBBLE under (split: beside) the stage, shown on Check
+     7. `.split` (opt-in, tool.layout:'split') — two columns at ≥700px
+     8. `.wide`  (opt-in, tool.wide:true)     — the manipulative width tiers
+   The apparatus itself (art, size, invention) is each engine's job — the
+   rebuild waves; this block only stops the chrome from fighting it.
+   ===================================================================== */
+
+/* 1. Header — the tool header at every width ≥ 601px. */
+@media (min-width: 601px) {
+  .lcs-app.activity .lcs-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--lcs-gap);
+  }
+  .lcs-app.activity .lcs-controls { align-self: center; }
+  .lcs-app.activity .lcs-title { text-align: left; }
+}
+.lcs-app.activity .lcs-title { font-size: clamp(20px, 3.4vmin, 28px); }
+.lcs-app.activity .lcs-header { padding-bottom: 0; }
+
+/* 2. Progress chip — inside the controls row, tool-control size. */
+.lcs-app.activity .lcs-activity-progress {
+  align-self: center;
+  padding: 0; margin: 0; gap: 0;
+  font-size: 0; letter-spacing: 0;
+}
+.lcs-app.activity .lcs-activity-progress-pill {
+  min-width: var(--lcs-tap); height: var(--lcs-tap);
+  display: grid; place-items: center;
+  padding: 0 12px;
+  border-radius: var(--lcs-radius-sm);
+  font-family: var(--lcs-font-display); font-weight: 700; font-size: 18px;
+  color: var(--lcs-structure); background: var(--lcs-surface);
+  box-shadow: 0 3px 0 rgba(20, 30, 28, 0.10), 0 4px 10px rgba(20, 30, 28, 0.08);
+}
+
+/* 3. Task line — small, ≤ 2 lines, speaker 36px, never recoloured. */
+.lcs-app.activity .lcs-activity-prompt {
+  font-size: clamp(17px, 2.4vmin, 24px) !important;
+  line-height: 1.3;
+  letter-spacing: 0;
+  padding: 2px var(--lcs-pad) 0;
+  gap: 4px;
+}
+.lcs-app.activity .lcs-activity-prompt-row { gap: 8px; }
+.lcs-app.activity .lcs-activity-speak { width: 36px; height: 36px; }
+.lcs-app.activity .lcs-activity-speak svg { width: 18px; height: 18px; }
+.lcs-app.activity .lcs-activity-prompt-hint { display: none; }
+.lcs-app.activity .lcs-activity-prompt.celebrate,
+.lcs-app.activity .lcs-activity-prompt.tryagain {
+  color: var(--lcs-structure);
+  transform: none;
+  animation: none;
+}
+
+/* 4. The card hugs its content. */
+.lcs-app.activity {
+  min-height: 0;
+  gap: clamp(10px, 1.8vmin, 16px);
+  padding-block: clamp(14px, 2.4vmin, 24px);
+}
+.lcs-app.activity .lcs-stage { padding-block: clamp(6px, 1.4vmin, 12px); }
+.lcs-app.activity .lcs-activity-actions { margin-top: 0; padding-top: 0; }
+
+/* 5. Check / Next at tool-chip scale. */
+.lcs-app.activity .lcs-activity-check,
+.lcs-app.activity .lcs-activity-next {
+  min-height: 52px;
+  min-width: 140px;
+  padding: 0 28px;
+  font-size: clamp(17px, 2.2vmin, 20px);
+}
+
+/* 6. Feedback bubble — reserved height, so Check never jumps. */
+.lcs-app.activity .lcs-activity-bubble {
+  position: relative;
+  margin: 6px var(--lcs-pad) 0;
+  min-height: 52px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  border: 2px solid var(--lcs-structure-soft);
+  background: var(--lcs-surface);
+  color: var(--lcs-ink);
+  font-family: var(--lcs-font-body);
+  font-weight: 700;
+  font-size: clamp(15px, 2vmin, 18px);
+  line-height: 1.3;
+  display: none; align-items: center; justify-content: center;
+  text-align: center;
+}
+.lcs-app.activity .lcs-activity-bubble::before {
+  content: '';
+  position: absolute; top: -9px; left: 50%;
+  width: 14px; height: 14px;
+  transform: translateX(-50%) rotate(45deg);
+  background: inherit;
+  border-left: 2px solid; border-top: 2px solid; border-color: inherit;
+}
+.lcs-app.activity .lcs-activity-bubble.show { display: flex; }
+.lcs-app.activity .lcs-activity-bubble.celebrate { border-color: var(--lcs-good);   color: #1E7A4C; background: #EEF8F2; }
+.lcs-app.activity .lcs-activity-bubble.tryagain  { border-color: var(--lcs-accent); color: #B3512A; background: #FDF1EB; }
+
+/* 7. Split layout (opt-in) — stage left, bubble + answer + actions right. */
+@media (min-width: 700px) {
+  .lcs-app.activity.split {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(220px, 1fr);
+    grid-template-areas:
+      "head   head"
+      "prompt prompt"
+      "stage  bubble"
+      "stage  answer"
+      "stage  actions";
+    grid-template-rows: auto auto auto auto 1fr;
+    align-items: start;
+    column-gap: var(--lcs-gap);
+  }
+  .lcs-app.activity.split .lcs-header          { grid-area: head; }
+  .lcs-app.activity.split .lcs-activity-prompt { grid-area: prompt; text-align: left; align-items: flex-start; }
+  .lcs-app.activity.split .lcs-stage           { grid-area: stage; }
+  .lcs-app.activity.split .lcs-activity-bubble { grid-area: bubble; margin-top: 0; }
+  .lcs-app.activity.split .lcs-activity-answer { grid-area: answer; padding-top: 0; }
+  .lcs-app.activity.split .lcs-activity-actions{ grid-area: actions; justify-content: flex-start; }
+}
+
+/* 8. Wide tiers (opt-in) — the same tiers as the manipulatives (line ~125). */
+@media (min-width: 1367px) and (min-height: 880px)  { .lcs-app.activity.wide { max-width: min(1240px, 92vw); } }
+@media (min-width: 1800px) and (min-height: 1150px) { .lcs-app.activity.wide { max-width: min(1800px, 92vw); } }

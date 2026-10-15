@@ -565,7 +565,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.722';
+  const ACTIVITY_WRAPPER_VERSION = '9.723';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +
@@ -675,8 +675,11 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               iframe to the card's real content height; pairs with
               lcs-shell.css dropping the card's mobile min-height. */}
           <style dangerouslySetInnerHTML={{ __html:
-            '.lcs-prototype-iframe-wrapper iframe { min-height: 66.67vh !important; }' +
-            '@media (max-width: 767px) { .lcs-prototype-iframe-wrapper iframe { min-height: 360px !important; } }'
+            /* 2026-10-15 (activities → tool bar): the 66.67vh desktop floor was
+               the blank band under every short activity — the card hugs its
+               content now (lcs-shell.css TOOL-BAR block drops the card's own
+               vh floor), so the iframe hugs the card at every width. */
+            '.lcs-prototype-iframe-wrapper iframe { min-height: 320px !important; }'
           }} />
           <div className="lcs-prototype-iframe-wrapper relative z-10">
             <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />

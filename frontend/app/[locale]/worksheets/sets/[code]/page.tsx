@@ -90,8 +90,10 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
   ]);
 
   const present = RUNGS.filter((r) => ladder.pages[r].length > 0);
-  const pageLabel = (p: { title: string; theme: string | null; copy: number }) =>
-    p.theme ? `${ladder.title} — ${p.theme}` : (p.copy > 1 ? `${ladder.title} · ${t('setWord', { n: p.copy })}` : ladder.title);
+  // Themeless copies are numbered ONCE across levels by the generator (easy 7, 8, 9 …), which reads as nonsense
+  // to a teacher — label them by their POSITION within the level instead (Set 1, 2, 3). Mirrors deck-ladder.js.
+  const pageLabel = (p: { title: string; theme: string | null }, pos: number, rungSize: number) =>
+    p.theme ? `${ladder.title} — ${p.theme}` : (rungSize > 1 ? `${ladder.title} · ${t('setWord', { n: pos })}` : ladder.title);
 
   return (
     <>
@@ -155,7 +157,7 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
                       href={assets.deckDir}
                       external
                       thumbnailSrc={wwwImg(assets.thumbnail)}
-                      title={pageLabel(p)}
+                      title={pageLabel(p, j + 1, ladder.pages[r].length)}
                       levelLabel={rungWord(r, locale, t)}
                       typeLabel={typeLabel}
                       subject={subject}

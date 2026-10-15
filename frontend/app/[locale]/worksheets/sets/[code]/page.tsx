@@ -28,8 +28,8 @@ import { wwwImg } from '@/lib/img-host';
 import { deckAssets } from '@/lib/seo/landing-content';
 import { levelChip, worksheetSubject } from '@/lib/worksheets-catalog';
 import { dlHref } from '@/lib/metered-download';
-import { RUNGS, setPath, setsIndexPath, type Ladder, type Rung } from '@/lib/level-sets';
-import { loadLadder, loadLaddersOfType } from '@/lib/level-sets-db';
+import { RUNGS, setPath, setsIndexPath, teacherSheetHref, type Ladder, type Rung } from '@/lib/level-sets';
+import { loadLadder, loadLaddersOfType, teacherSheetExists } from '@/lib/level-sets-db';
 import { ladderCardProps, rungWord } from '@/lib/level-sets-view';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
@@ -128,6 +128,25 @@ export default async function LevelSetPage({ params }: { params: { locale: strin
               {ladder.answerKeyCount > 0 && <li>✓ {t('answerKeys', { count: ladder.answerKeyCount })}</li>}
               {ladder.interactiveCount > 0 && <li>▶ {t('interactiveCount', { count: ladder.interactiveCount })}</li>}
             </ul>
+            {/* The set's TEACHER SHEET (phase 2): placement rule + class grid, one light PDF per set behind
+                the metered proxy (counts as a PDF download, policy unchanged). Shown only where the file
+                exists on this server. Plain <a>: the proxy 302s. */}
+            {teacherSheetExists(locale, ladder.code) && (
+              <p className="mt-4">
+                <a
+                  href={teacherSheetHref(locale, ladder.code)}
+                  rel="nofollow"
+                  target="_blank"
+                  aria-label={t('teacherSheetAria', { title: ladder.title })}
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-lcs-teal bg-[#FFFDF8] px-4 py-2 font-lcsBody text-sm font-bold text-lcs-teal hover:bg-lcs-teal/10"
+                >
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" />
+                  </svg>
+                  {t('teacherSheet')}
+                </a>
+              </p>
+            )}
           </header>
 
           {/* Jump strip: one chip per rung, anchored to its section. */}

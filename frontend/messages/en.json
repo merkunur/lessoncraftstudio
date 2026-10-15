@@ -4642,7 +4642,9 @@
     "backToHub": "All worksheets",
     "interactiveCount": "{count, plural, one {# page can be done on screen} other {# pages can be done on screen}}",
     "answerKeys": "{count, plural, one {# answer key} other {# answer keys}}",
-    "emptyRung": "No page at this level yet"
+    "emptyRung": "No page at this level yet",
+    "teacherSheet": "Class sheet (PDF)",
+    "teacherSheetAria": "Download the class sheet for {title}"
   },
   "deckLadder": {
     "heading": "This worksheet is part of a Level Set",
@@ -4651,5 +4653,18 @@
     "openSet": "See the whole set",
     "landingHeading": "This worksheet at different levels",
     "landingBody": "The same task also comes at other levels, with more practice pages at every level."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Class sheet",
+    "teacherCopy": "Teacher’s copy",
+    "setHeading": "The set",
+    "placementHeading": "Choosing each child’s level",
+    "placementStart": "Start every child on the core page.",
+    "placementUp": "Almost all answers right: give the harder page next time.",
+    "placementDown": "Several answers wrong: give the easier page, then back to the core page the time after.",
+    "placementRecord": "Tick the level each child has reached and write the date.",
+    "notes": "Notes",
+    "levelN": "Level {n}",
+    "placementSame": "Otherwise: another core page next time."
   }
 }

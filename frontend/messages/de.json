@@ -4443,7 +4443,9 @@
     "backToHub": "Alle Arbeitsblätter",
     "interactiveCount": "{count, plural, one {# Blatt lässt sich am Bildschirm bearbeiten} other {# Blätter lassen sich am Bildschirm bearbeiten}}",
     "answerKeys": "{count, plural, one {# Lösungsblatt} other {# Lösungsblätter}}",
-    "emptyRung": "Auf dieser Stufe noch kein Blatt"
+    "emptyRung": "Auf dieser Stufe noch kein Blatt",
+    "teacherSheet": "Klassenübersicht (PDF)",
+    "teacherSheetAria": "Klassenübersicht zu {title} herunterladen"
   },
   "deckLadder": {
     "heading": "Dieses Arbeitsblatt gehört zu einem Niveau-Set",
@@ -4452,5 +4454,18 @@
     "openSet": "Das ganze Set ansehen",
     "landingHeading": "Dieses Arbeitsblatt in mehreren Stufen",
     "landingBody": "Dieselbe Aufgabe gibt es auch auf anderen Stufen, mit weiteren Übungsblättern auf jeder Stufe."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Klassenübersicht",
+    "teacherCopy": "Für die Lehrkraft",
+    "setHeading": "Das Set",
+    "placementHeading": "Die Kinder einstufen",
+    "placementStart": "Jedes Kind beginnt mit dem Standardblatt.",
+    "placementUp": "Fast alles richtig: beim nächsten Mal das schwerere Blatt.",
+    "placementDown": "Mehrere Fehler: das leichtere Blatt, danach zurück zum Standardblatt.",
+    "placementRecord": "Kreuzen Sie die erreichte Stufe an und tragen Sie das Datum ein.",
+    "notes": "Bemerkungen",
+    "levelN": "Stufe {n}",
+    "placementSame": "Sonst: beim nächsten Mal ein weiteres Blatt der Stufe Mittel."
   }
 }

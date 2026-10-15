@@ -3122,7 +3122,9 @@
     "backToHub": "Alla arbetsblad",
     "interactiveCount": "{count, plural, one {# blad går att göra på skärmen} other {# blad går att göra på skärmen}}",
     "answerKeys": "{count, plural, one {# facit} other {# facit}}",
-    "emptyRung": "Inget blad på den här nivån ännu"
+    "emptyRung": "Inget blad på den här nivån ännu",
+    "teacherSheet": "Klassöversikt (PDF)",
+    "teacherSheetAria": "Ladda ner klassöversikten för {title}"
   },
   "deckLadder": {
     "heading": "Det här arbetsbladet ingår i ett nivåset",
@@ -3131,5 +3133,18 @@
     "openSet": "Se hela setet",
     "landingHeading": "Det här arbetsbladet på flera nivåer",
     "landingBody": "Samma uppgift finns också på andra nivåer, med fler övningsblad på varje nivå."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Klassöversikt",
+    "teacherCopy": "Till läraren",
+    "setHeading": "Setet",
+    "placementHeading": "Hitta rätt nivå för varje barn",
+    "placementStart": "Alla barn börjar med mellanbladet.",
+    "placementUp": "Nästan allt rätt: nästa gång det svårare bladet.",
+    "placementDown": "Flera fel: det lättare bladet, sedan tillbaka till mellanbladet.",
+    "placementRecord": "Bocka för den nivå varje barn har nått och skriv datum.",
+    "notes": "Anteckningar",
+    "levelN": "Nivå {n}",
+    "placementSame": "Annars: nästa gång ett nytt mellanblad."
   }
 }

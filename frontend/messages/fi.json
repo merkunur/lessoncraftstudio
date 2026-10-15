@@ -3111,7 +3111,9 @@
     "backToHub": "Kaikki tehtävät",
     "interactiveCount": "{count, plural, one {# tehtävän voi tehdä näytöllä} other {# tehtävää voi tehdä näytöllä}}",
     "answerKeys": "{count, plural, one {# vastaussivu} other {# vastaussivua}}",
-    "emptyRung": "Tällä tasolla ei ole vielä tehtävää"
+    "emptyRung": "Tällä tasolla ei ole vielä tehtävää",
+    "teacherSheet": "Luokan seurantalomake (PDF)",
+    "teacherSheetAria": "Lataa luokan seurantalomake: {title}"
   },
   "deckLadder": {
     "heading": "Tämä tehtävä kuuluu tasosarjaan",
@@ -3120,5 +3122,18 @@
     "openSet": "Katso koko sarja",
     "landingHeading": "Tämä tehtävä usealla tasolla",
     "landingBody": "Sama tehtävä on saatavilla myös muilla tasoilla, ja joka tasolla on lisää harjoitustehtäviä."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Luokan seurantalomake",
+    "teacherCopy": "Opettajalle",
+    "setHeading": "Sarja",
+    "placementHeading": "Oikea taso jokaiselle lapselle",
+    "placementStart": "Jokainen lapsi aloittaa perustehtävästä.",
+    "placementUp": "Lähes kaikki oikein: seuraavalla kerralla vaikeampi tehtävä.",
+    "placementDown": "Useita virheitä: helpompi tehtävä ja sitten takaisin perustehtävään.",
+    "placementRecord": "Merkitse rasti lapsen saavuttaman tason kohdalle ja kirjoita päivämäärä.",
+    "notes": "Huomioita",
+    "levelN": "Taso {n}",
+    "placementSame": "Muuten: seuraavalla kerralla uusi perustehtävä."
   }
 }

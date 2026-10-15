@@ -3132,7 +3132,7 @@
     "pathway": "Læringsløp",
     "previousSet": "Forrige sett",
     "nextSet": "Neste sett",
-    "allInStrand": "{count, plural, one {Alle # sett i dette området} other {Alle # sett i dette området}}"
+    "allInStrand": "{count, plural, one {Det eneste settet i dette området} other {Alle # sett i dette området}}"
   },
   "deckLadder": {
     "heading": "Dette arbeidsarket er en del av et nivåsett",

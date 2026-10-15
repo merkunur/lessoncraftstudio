@@ -3148,7 +3148,7 @@
     "pathway": "Parcours",
     "previousSet": "Série précédente",
     "nextSet": "Série suivante",
-    "allInStrand": "{count, plural, one {Toutes les # séries de ce domaine} other {Toutes les # séries de ce domaine}}"
+    "allInStrand": "{count, plural, one {La seule série de ce domaine} other {Toutes les # séries de ce domaine}}"
   },
   "deckLadder": {
     "heading": "Cette fiche fait partie d’une série par niveau",

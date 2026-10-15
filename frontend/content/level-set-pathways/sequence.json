@@ -1,26 +1,166 @@
 {
   "$comment": "Level Sets v2 phase 3 (2026-10-15): the TEACHING ORDER of the worksheet-gen types that carry Level Set ladders, per subject, grouped by strand. Strand keys are STRAND_NAMES keys (frontend/lib/seo/strand-names.ts — each national framework's domain name x11). ONE order serves all 11 locales (ladder face codes are catalogue-wide); the GRADE of a ladder is its landing level or its code prefix (lib/level-set-pathways.ts). Every type with a ladder appears exactly once (scripts/verify-level-set-pathways.js). Within a type, faces follow catalogue-id order (base first). Reviewed by one pedagogy reviewer before ship.",
   "math": [
-    { "strand": "Counting & Cardinality", "types": ["number-tracing", "dot-to-dot", "number-words", "ordinal-numbers", "number-of-the-day"] },
-    { "strand": "Operations & Algebraic Thinking", "types": ["number-bonds", "doubles-halves", "fact-families", "mental-math", "number-walls", "word-problems", "odd-and-even", "arrays-multiplication", "multiplication-tables", "division-with-remainder"] },
-    { "strand": "Number & Operations in Base Ten", "types": ["number-charts", "hundreds-chart-puzzles", "number-lines", "rounding", "column-arithmetic"] },
-    { "strand": "Number & Operations—Fractions", "types": ["fractions"] },
-    { "strand": "Measurement & Data", "types": ["measurement", "days-and-months", "calendar", "telling-time", "money", "graphing-data"] },
-    { "strand": "Geometry", "types": ["2d-shapes", "geometry"] }
+    {
+      "strand": "Counting & Cardinality",
+      "types": [
+        "number-tracing",
+        "dot-to-dot",
+        "number-words",
+        "ordinal-numbers"
+      ]
+    },
+    {
+      "strand": "Operations & Algebraic Thinking",
+      "types": [
+        "number-bonds",
+        "word-problems",
+        "doubles-halves",
+        "fact-families",
+        "mental-math",
+        "number-walls",
+        "odd-and-even",
+        "arrays-multiplication",
+        "multiplication-tables",
+        "division-with-remainder"
+      ]
+    },
+    {
+      "strand": "Number & Operations in Base Ten",
+      "types": [
+        "number-of-the-day",
+        "number-charts",
+        "hundreds-chart-puzzles",
+        "number-lines",
+        "column-arithmetic",
+        "rounding"
+      ]
+    },
+    {
+      "strand": "Number & Operations—Fractions",
+      "types": [
+        "fractions"
+      ]
+    },
+    {
+      "strand": "Measurement & Data",
+      "types": [
+        "measurement",
+        "days-and-months",
+        "calendar",
+        "telling-time",
+        "money",
+        "graphing-data"
+      ]
+    },
+    {
+      "strand": "Geometry",
+      "types": [
+        "2d-shapes",
+        "geometry",
+        "grid-coordinates"
+      ]
+    }
   ],
   "letters": [
-    { "strand": "Handwriting", "types": ["pre-writing", "letter-tracing", "word-tracing", "cursive-writing"] },
-    { "strand": "Reading: Foundational Skills", "types": ["sound-boxes", "rhyming-words", "digraphs", "syllable-split", "syllable-reading", "sight-words", "write-the-word", "read-and-color", "read-and-do", "cloze"] },
-    { "strand": "Vocabulary Acquisition and Use", "types": ["picture-word-cards", "opposites", "synonyms", "feelings", "family", "all-about-me"] },
-    { "strand": "Language", "types": ["articles", "singular-plural", "pronouns", "question-words", "verb-forms", "word-classes", "capitals-punctuation", "spelling-rules", "alphabetical-order", "compound-words", "word-parts"] },
-    { "strand": "Reading: Literature", "types": ["story-sequencing", "reading-comprehension"] },
-    { "strand": "Writing", "types": ["sentence-building", "picture-writing"] }
+    {
+      "strand": "Handwriting",
+      "types": [
+        "pre-writing",
+        "letter-tracing",
+        "word-tracing",
+        "cursive-writing"
+      ]
+    },
+    {
+      "strand": "Phonological Awareness",
+      "types": [
+        "rhyming-words",
+        "sound-boxes"
+      ]
+    },
+    {
+      "strand": "Reading: Foundational Skills",
+      "types": [
+        "sight-words",
+        "syllable-reading",
+        "digraphs",
+        "syllable-split",
+        "write-the-word",
+        "read-and-color",
+        "read-and-do",
+        "cloze"
+      ]
+    },
+    {
+      "strand": "Vocabulary Acquisition and Use",
+      "types": [
+        "picture-word-cards",
+        "all-about-me",
+        "family",
+        "feelings",
+        "opposites",
+        "synonyms"
+      ]
+    },
+    {
+      "strand": "Language",
+      "types": [
+        "capitals-punctuation",
+        "question-words",
+        "singular-plural",
+        "articles",
+        "pronouns",
+        "alphabetical-order",
+        "verb-forms",
+        "word-classes",
+        "compound-words",
+        "spelling-rules",
+        "word-parts"
+      ]
+    },
+    {
+      "strand": "Reading: Literature",
+      "types": [
+        "story-sequencing",
+        "reading-comprehension"
+      ]
+    },
+    {
+      "strand": "Writing",
+      "types": [
+        "sentence-building",
+        "picture-writing"
+      ]
+    }
   ],
   "spatial-reasoning": [
-    { "strand": "Visual Perception", "types": ["maze-puzzles", "find-the-differences", "how-to-draw", "grid-coordinates"] },
-    { "strand": "Social Studies", "types": ["maps"] }
+    {
+      "strand": "Visual Perception",
+      "types": [
+        "maze-puzzles",
+        "find-the-differences"
+      ]
+    },
+    {
+      "strand": "Art",
+      "types": [
+        "how-to-draw"
+      ]
+    },
+    {
+      "strand": "Social Studies",
+      "types": [
+        "maps"
+      ]
+    }
   ],
   "logic": [
-    { "strand": "Logical Reasoning", "types": ["logic-puzzles"] }
+    {
+      "strand": "Logical Reasoning",
+      "types": [
+        "logic-puzzles"
+      ]
+    }
   ]
 }

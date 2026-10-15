@@ -324,7 +324,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     de: 'Zahlen und Operationen', // KMK Primarstufe has no separate „Brüche" Leitidee — basic Bruchteile sit under „Zahlen und Operationen" (de fan-out; fox-forge 3.NF.A.1)
     es: 'Sentido numérico', // SEP/NEM: una fracción es un número; no hay eje de fracciones aparte en primaria → viven en "Sentido numérico" (es fan-out; fox-forge 3.NF.A.1)
     pt: 'Números', // BNCC não tem eixo "Frações" separado — as frações vivem na unidade temática "Números" (pt fan-out; fox-forge 3.NF.A.1)
-    nl: 'Getallen', // SLO heeft geen apart breuken-domein — breuken vallen onder getalbegrip (kerndoel 26); mirror de/es/pt (nl fan-out; fox-forge 3.NF.A.1)
+    nl: 'Verhoudingen (breuken)', // SLO heeft geen apart breuken-domein — breuken vallen onder getalbegrip (kerndoel 26); mirror de/es/pt (nl fan-out; fox-forge 3.NF.A.1)
     it: 'Numeri: le frazioni', // nt20-C panel (tools/apply-b3-locale.js)
     fr: 'Nombres et calcul', // Level Sets v2 pathway (2026-10-15)
     sv: 'Taluppfattning och tals användning', // Level Sets v2 pathway (2026-10-15)
@@ -334,16 +334,16 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   },
   'Handwriting': { // Level Sets v2 pathway (2026-10-15): tracing, pre-writing, cursive
     en: 'Handwriting',
-    de: 'Handschrift',
+    de: 'Schreiben: Handschrift',
     es: 'Grafomotricidad y escritura',
     fr: 'Graphisme et écriture',
     it: 'Pregrafismo e scrittura',
-    pt: 'Caligrafia',
-    nl: 'Schrijfmotoriek',
-    sv: 'Handstil',
+    pt: 'Escrita: traçado das letras',
+    nl: 'Schrijven (handschrift)',
+    sv: 'Att skriva för hand',
     da: 'Håndskrift',
     no: 'Håndskrift',
-    fi: 'Käsinkirjoitus',
+    fi: 'Käsinkirjoittaminen',
   },
   'Logical Reasoning': { // Level Sets v2 pathway (2026-10-15): logic grid puzzles
     en: 'Logical Reasoning',

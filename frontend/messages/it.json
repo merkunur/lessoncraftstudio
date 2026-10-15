@@ -4649,7 +4649,7 @@
     "pathway": "Percorso",
     "previousSet": "Set precedente",
     "nextSet": "Set successivo",
-    "allInStrand": "{count, plural, one {Tutti i # set di questo ambito} other {Tutti i # set di questo ambito}}"
+    "allInStrand": "{count, plural, one {L’unico set di questo ambito} other {Tutti i # set di questo ambito}}"
   },
   "deckLadder": {
     "heading": "Questa scheda fa parte di un set a livelli",

@@ -333,7 +333,7 @@
     "ten-frame.how-many.0-10.animals": {
       "about": [
         "A table of animals and one question: how many? The child taps each animal to count it — a numbered tag drops on it — then taps the numeral on the rail that tells how many. The animals sit in a line, in rows, in a circle or scattered, exactly the four arrangements Kindergarten counting asks for. It runs in the browser, with nothing to install and no account.",
-        "This is counting with the three principles built into the material. An animal can be tagged only once (one-to-one), the tags are numbered in the order they were given (stable order), and the last tag glows because the last number said is the answer (cardinality). If something is skipped, the hint names it and the uncounted animal pulses. Two free moves — Count again and Mix them up — let a child discover that the order does not matter and that the number stays the same when the animals move.",
+        "This is counting with the three principles built into the material. An animal can be tagged only once (one-to-one), the tags are numbered in the order they were given (stable order), and the last tag glows because the last number said is the answer (cardinality). If something is skipped, the hint names it and the uncounted animal pulses. Two extra moves — Count again and Mix them up — let a child discover that the order does not matter and that the number stays the same when the animals move.",
         "It is the first half of Common Core K.CC.B.5 — counting to answer \"how many?\" about things arranged in a line, an array or a circle, or scattered; this table runs 0 to 10, the standard continues to 20. No timer, no score — just calm, hands-on counting."
       ],
       "practices": [

@@ -1036,15 +1036,19 @@
        taller. What remained without the observer was the operator's defect:
        a round with nine animals, or "Mix them up" turning rows into a ring,
        grew the card and the iframe kept its old height — Check clipped.
-       An oscillation guard stays as the belt: a height that bounces back to
-       the value before last is a loop, and the broadcast stops there. */
+       A runaway guard stays as the belt: more than eight broadcasts inside one
+       second is a loop, and the observer goes quiet for that second. (An
+       A→B→A check was tried first and silenced a LEGITIMATE return — Next
+       hides the bubble, Mix grows the mat back to the same height — leaving
+       the German card 18px clipped on production.) */
     if (typeof ResizeObserver !== 'undefined') {
       try {
-        var _hPrev = 0, _hPrev2 = 0;
+        var _bursts = [];
         new ResizeObserver(function () {
-          var h = Math.ceil(app.getBoundingClientRect().height) + 2;
-          if (h === _hPrev2 && h !== _hPrev) return;   // A→B→A: feedback, stop
-          _hPrev2 = _hPrev; _hPrev = h;
+          var now = Date.now();
+          _bursts = _bursts.filter(function (t) { return now - t < 1000; });
+          if (_bursts.length >= 8) return;               // runaway: stay quiet this second
+          _bursts.push(now);
           postActivityResize();
         }).observe(app);
       } catch (e) { /* no observer — the initial + resize hooks still fire */ }

@@ -34,7 +34,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       is(!!frameEl, `[${loc} @${w}] the page embeds how-many-activity.html`);
       if (!frameEl) { await page.close(); continue; }
       const src = await page.evaluate(f => f.getAttribute('src'), frameEl);
-      is(/v=9\.724/.test(src), `[${loc} @${w}] wrapper version 9.724 in the iframe src (${src})`);
+      is(/v=9\.725/.test(src), `[${loc} @${w}] wrapper version 9.725 in the iframe src (${src})`);
       const frame = await frameEl.contentFrame();
       await frame.waitForFunction(() => window.HowManyActivity && window.HowManyActivity.theme && document.querySelectorAll('.hm-pic').length === window.HowManyActivity.st.n, { timeout: 30000 });
       await wait(500);

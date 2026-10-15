@@ -3125,7 +3125,7 @@
     "pathway": "Læringsforløb",
     "previousSet": "Forrige sæt",
     "nextSet": "Næste sæt",
-    "allInStrand": "{count, plural, one {Alle # sæt i dette område} other {Alle # sæt i dette område}}"
+    "allInStrand": "{count, plural, one {Det eneste sæt i dette område} other {Alle # sæt i dette område}}"
   },
   "deckLadder": {
     "heading": "Dette arbejdsark er en del af et niveausæt",

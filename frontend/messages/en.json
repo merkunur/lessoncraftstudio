@@ -4648,7 +4648,7 @@
     "pathway": "Pathway",
     "previousSet": "Previous set",
     "nextSet": "Next set",
-    "allInStrand": "{count, plural, one {All # sets in this strand} other {All # sets in this strand}}"
+    "allInStrand": "{count, plural, one {The only set in this strand} other {All # sets in this strand}}"
   },
   "deckLadder": {
     "heading": "This worksheet is part of a Level Set",

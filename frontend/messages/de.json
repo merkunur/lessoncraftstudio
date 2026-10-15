@@ -4449,7 +4449,7 @@
     "pathway": "Lernweg",
     "previousSet": "Vorheriges Set",
     "nextSet": "Nächstes Set",
-    "allInStrand": "{count, plural, one {Alle # Sets in diesem Bereich} other {Alle # Sets in diesem Bereich}}"
+    "allInStrand": "{count, plural, one {Das einzige Set in diesem Bereich} other {Alle # Sets in diesem Bereich}}"
   },
   "deckLadder": {
     "heading": "Dieses Arbeitsblatt gehört zu einem Niveau-Set",

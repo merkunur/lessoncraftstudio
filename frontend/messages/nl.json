@@ -3128,7 +3128,7 @@
     "pathway": "Leerlijn",
     "previousSet": "Vorige set",
     "nextSet": "Volgende set",
-    "allInStrand": "{count, plural, one {Alle # sets in dit domein} other {Alle # sets in dit domein}}"
+    "allInStrand": "{count, plural, one {De enige set in dit domein} other {Alle # sets in dit domein}}"
   },
   "deckLadder": {
     "heading": "Dit werkblad hoort bij een niveauset",

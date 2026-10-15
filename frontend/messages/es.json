@@ -4647,7 +4647,7 @@
     "pathway": "Ruta de aprendizaje",
     "previousSet": "Conjunto anterior",
     "nextSet": "Siguiente conjunto",
-    "allInStrand": "{count, plural, one {Todos los # conjuntos de este eje} other {Todos los # conjuntos de este eje}}"
+    "allInStrand": "{count, plural, one {El único conjunto de este eje} other {Todos los # conjuntos de este eje}}"
   },
   "deckLadder": {
     "heading": "Esta ficha forma parte de un conjunto por nivel",

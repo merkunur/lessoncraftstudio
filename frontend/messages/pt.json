@@ -4628,7 +4628,9 @@
     "backToHub": "Todas as fichas",
     "interactiveCount": "{count, plural, one {# ficha pode ser feita na tela} other {# fichas podem ser feitas na tela}}",
     "answerKeys": "{count, plural, one {# gabarito} other {# gabaritos}}",
-    "emptyRung": "Ainda não há ficha neste nível"
+    "emptyRung": "Ainda não há ficha neste nível",
+    "teacherSheet": "Registro da turma (PDF)",
+    "teacherSheetAria": "Baixar o registro da turma de {title}"
   },
   "deckLadder": {
     "heading": "Esta ficha faz parte de um conjunto por nível",
@@ -4637,5 +4639,18 @@
     "openSet": "Ver o conjunto completo",
     "landingHeading": "Esta ficha em vários níveis",
     "landingBody": "A mesma atividade também existe em outros níveis, com mais fichas de prática em cada nível."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Registro da turma",
+    "teacherCopy": "Para o professor",
+    "setHeading": "O conjunto",
+    "placementHeading": "Como definir o nível de cada criança",
+    "placementStart": "Toda criança começa pela ficha média.",
+    "placementUp": "Quase tudo certo: na próxima vez, a ficha mais difícil.",
+    "placementDown": "Vários erros: a ficha mais fácil e depois volta para a ficha média.",
+    "placementRecord": "Marque o nível que cada criança alcançou e anote a data.",
+    "notes": "Observações",
+    "levelN": "Nível {n}",
+    "placementSame": "Caso contrário: na próxima vez, outra ficha média."
   }
 }

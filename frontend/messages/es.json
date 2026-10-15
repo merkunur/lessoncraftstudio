@@ -4641,7 +4641,9 @@
     "backToHub": "Todas las fichas",
     "interactiveCount": "{count, plural, one {# ficha se puede resolver en pantalla} other {# fichas se pueden resolver en pantalla}}",
     "answerKeys": "{count, plural, one {# solución} other {# soluciones}}",
-    "emptyRung": "Todavía no hay ficha en este nivel"
+    "emptyRung": "Todavía no hay ficha en este nivel",
+    "teacherSheet": "Registro del grupo (PDF)",
+    "teacherSheetAria": "Descargar el registro del grupo de {title}"
   },
   "deckLadder": {
     "heading": "Esta ficha forma parte de un conjunto por nivel",
@@ -4650,5 +4652,18 @@
     "openSet": "Ver el conjunto completo",
     "landingHeading": "Esta ficha en varios niveles",
     "landingBody": "La misma actividad también viene en otros niveles, con más fichas de práctica en cada nivel."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Registro del grupo",
+    "teacherCopy": "Para el docente",
+    "setHeading": "El conjunto",
+    "placementHeading": "Cómo ubicar a cada niño",
+    "placementStart": "Todos empiezan con la ficha intermedia.",
+    "placementUp": "Casi todo bien: la próxima vez, la ficha más difícil.",
+    "placementDown": "Varios errores: la ficha más fácil y luego regresa a la intermedia.",
+    "placementRecord": "Marca el nivel que alcanzó cada niño y anota la fecha.",
+    "notes": "Notas",
+    "levelN": "Nivel {n}",
+    "placementSame": "Si no: la próxima vez, otra ficha intermedia."
   }
 }

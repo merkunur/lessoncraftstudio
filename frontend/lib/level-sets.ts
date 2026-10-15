@@ -219,3 +219,18 @@ export function levelNumber(ladder: Ladder, rung: Rung): { n: number; total: num
   const present = RUNGS.filter((r) => ladder.pages[r].length > 0);
   return { n: present.indexOf(rung) + 1, total: present.length };
 }
+
+/**
+ * Where the per-set TEACHER SHEETS live on the server (Level Sets v2 phase 2, 2026-10-15):
+ * `<LEVEL_SETS_DIR>/<locale>/<code>-teacher-sheet.pdf`, served by nginx at
+ * `/<locale>/level-sets/<code>-teacher-sheet.pdf` and reached ONLY through the metered proxy
+ * (`/api/quota/dl?kind=record`). A light PDF outside the deck tree — no deck row, no deck page.
+ */
+export const LEVEL_SETS_DIR = '/var/www/lcs-media/level-sets';
+export function teacherSheetFile(locale: string, code: string): string {
+  return `${LEVEL_SETS_DIR}/${locale}/${code}-teacher-sheet.pdf`;
+}
+/** The metered href of a set's teacher sheet. */
+export function teacherSheetHref(locale: string, code: string): string {
+  return `/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(code)}&kind=record`;
+}

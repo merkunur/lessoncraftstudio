@@ -3119,7 +3119,9 @@
     "backToHub": "Alle arbejdsark",
     "interactiveCount": "{count, plural, one {# ark kan løses på skærmen} other {# ark kan løses på skærmen}}",
     "answerKeys": "{count, plural, one {# facitliste} other {# facitlister}}",
-    "emptyRung": "Endnu intet ark på dette niveau"
+    "emptyRung": "Endnu intet ark på dette niveau",
+    "teacherSheet": "Klasseoversigt (PDF)",
+    "teacherSheetAria": "Hent klasseoversigten til {title}"
   },
   "deckLadder": {
     "heading": "Dette arbejdsark er en del af et niveausæt",
@@ -3128,5 +3130,18 @@
     "openSet": "Se hele sættet",
     "landingHeading": "Dette arbejdsark på flere niveauer",
     "landingBody": "Samme opgave findes også på andre niveauer, med flere øveark på hvert niveau."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Klasseoversigt",
+    "teacherCopy": "Til læreren",
+    "setHeading": "Sættet",
+    "placementHeading": "Find det rette niveau til hvert barn",
+    "placementStart": "Alle børn begynder med mellemarket.",
+    "placementUp": "Næsten alt rigtigt: næste gang det sværere ark.",
+    "placementDown": "Flere fejl: det lettere ark, og derefter tilbage til mellemarket.",
+    "placementRecord": "Sæt kryds ved det niveau, hvert barn har nået, og skriv datoen.",
+    "notes": "Noter",
+    "levelN": "Niveau {n}",
+    "placementSame": "Ellers: næste gang et nyt mellemark."
   }
 }

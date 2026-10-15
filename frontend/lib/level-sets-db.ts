@@ -7,7 +7,8 @@
  */
 import { prisma } from '@/lib/prisma';
 import { getMonolingualLandings } from '@/lib/seo/landing-content';
-import { buildLadders, landingByCode, type Ladder, type LadderDeckRow } from '@/lib/level-sets';
+import { existsSync } from 'fs';
+import { buildLadders, landingByCode, teacherSheetFile, type Ladder, type LadderDeckRow } from '@/lib/level-sets';
 
 const SELECT = { slug: true, title: true, exerciseType: true, exerciseMode: true, answerKeyUrl: true, indexable: true } as const;
 
@@ -63,4 +64,9 @@ export async function loadLaddersOfType(locale: string, type: string): Promise<L
     console.warn('[level-sets] loadLaddersOfType failed:', (err as Error).message);
     return [];
   }
+}
+
+/** True when the set's teacher sheet exists on this server (render-time check; absent in local dev). */
+export function teacherSheetExists(locale: string, code: string): boolean {
+  try { return existsSync(teacherSheetFile(locale, code)); } catch { return false; }
 }

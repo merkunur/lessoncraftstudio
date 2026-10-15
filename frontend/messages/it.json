@@ -4643,7 +4643,9 @@
     "backToHub": "Tutte le schede",
     "interactiveCount": "{count, plural, one {# scheda si svolge a schermo} other {# schede si svolgono a schermo}}",
     "answerKeys": "{count, plural, one {# soluzione} other {# soluzioni}}",
-    "emptyRung": "Nessuna scheda a questo livello per ora"
+    "emptyRung": "Nessuna scheda a questo livello per ora",
+    "teacherSheet": "Griglia della classe (PDF)",
+    "teacherSheetAria": "Scarica la griglia della classe di {title}"
   },
   "deckLadder": {
     "heading": "Questa scheda fa parte di un set a livelli",
@@ -4652,5 +4654,18 @@
     "openSet": "Vedi tutto il set",
     "landingHeading": "Questa scheda su più livelli",
     "landingBody": "Lo stesso compito esiste anche ad altri livelli, con altre schede di esercizio a ogni livello."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Griglia della classe",
+    "teacherCopy": "Per l’insegnante",
+    "setHeading": "Il set",
+    "placementHeading": "Come scegliere il livello",
+    "placementStart": "Ogni bambino comincia dalla scheda media.",
+    "placementUp": "Quasi tutto giusto: la prossima volta la scheda più difficile.",
+    "placementDown": "Diversi errori: la scheda più facile, poi di nuovo quella media.",
+    "placementRecord": "Spunta il livello raggiunto da ogni bambino e scrivi la data.",
+    "notes": "Note",
+    "levelN": "Livello {n}",
+    "placementSame": "Altrimenti: la prossima volta un’altra scheda media."
   }
 }

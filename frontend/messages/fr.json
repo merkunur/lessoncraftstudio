@@ -3142,7 +3142,9 @@
     "backToHub": "Toutes les fiches",
     "interactiveCount": "{count, plural, one {# fiche se fait à l’écran} other {# fiches se font à l’écran}}",
     "answerKeys": "{count, plural, one {# corrigé} other {# corrigés}}",
-    "emptyRung": "Pas encore de fiche à ce niveau"
+    "emptyRung": "Pas encore de fiche à ce niveau",
+    "teacherSheet": "Fiche de suivi de la classe (PDF)",
+    "teacherSheetAria": "Télécharger la fiche de suivi de la classe pour {title}"
   },
   "deckLadder": {
     "heading": "Cette fiche fait partie d’une série par niveau",
@@ -3151,5 +3153,18 @@
     "openSet": "Voir toute la série",
     "landingHeading": "Cette fiche à plusieurs niveaux",
     "landingBody": "La même tâche existe aussi à d’autres niveaux, avec d’autres fiches d’entraînement à chaque niveau."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Fiche de suivi de la classe",
+    "teacherCopy": "Pour l’enseignant",
+    "setHeading": "La série",
+    "placementHeading": "Positionner chaque enfant",
+    "placementStart": "Chaque enfant commence par la fiche moyenne.",
+    "placementUp": "Presque tout juste : la fiche plus difficile la prochaine fois.",
+    "placementDown": "Plusieurs erreurs : la fiche plus facile, puis retour à la fiche moyenne.",
+    "placementRecord": "Cochez le niveau atteint par chaque enfant et notez la date.",
+    "notes": "Remarques",
+    "levelN": "Niveau {n}",
+    "placementSame": "Sinon : une autre fiche moyenne la prochaine fois."
   }
 }

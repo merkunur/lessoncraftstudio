@@ -3126,7 +3126,9 @@
     "backToHub": "Alle arbeidsark",
     "interactiveCount": "{count, plural, one {# ark kan løses på skjermen} other {# ark kan løses på skjermen}}",
     "answerKeys": "{count, plural, one {# fasit} other {# fasiter}}",
-    "emptyRung": "Ingen ark på dette nivået ennå"
+    "emptyRung": "Ingen ark på dette nivået ennå",
+    "teacherSheet": "Klasseoversikt (PDF)",
+    "teacherSheetAria": "Last ned klasseoversikten for {title}"
   },
   "deckLadder": {
     "heading": "Dette arbeidsarket er en del av et nivåsett",
@@ -3135,5 +3137,18 @@
     "openSet": "Se hele settet",
     "landingHeading": "Dette arbeidsarket på flere nivåer",
     "landingBody": "Samme oppgave finnes også på andre nivåer, med flere øvingsark på hvert nivå."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Klasseoversikt",
+    "teacherCopy": "Til læreren",
+    "setHeading": "Settet",
+    "placementHeading": "Finn riktig nivå for hvert barn",
+    "placementStart": "Alle barn begynner med arket på middels nivå.",
+    "placementUp": "Nesten alt riktig: neste gang det vanskeligere arket.",
+    "placementDown": "Flere feil: det lettere arket, og så tilbake til arket på middels nivå.",
+    "placementRecord": "Kryss av for nivået hvert barn har nådd, og skriv datoen.",
+    "notes": "Merknader",
+    "levelN": "Nivå {n}",
+    "placementSame": "Ellers: neste gang et nytt ark på middels nivå."
   }
 }

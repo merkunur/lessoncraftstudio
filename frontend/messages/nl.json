@@ -3122,7 +3122,9 @@
     "backToHub": "Alle werkbladen",
     "interactiveCount": "{count, plural, one {# blad is op het scherm te maken} other {# bladen zijn op het scherm te maken}}",
     "answerKeys": "{count, plural, one {# antwoordblad} other {# antwoordbladen}}",
-    "emptyRung": "Nog geen blad op dit niveau"
+    "emptyRung": "Nog geen blad op dit niveau",
+    "teacherSheet": "Klassenoverzicht (PDF)",
+    "teacherSheetAria": "Download het klassenoverzicht van {title}"
   },
   "deckLadder": {
     "heading": "Dit werkblad hoort bij een niveauset",
@@ -3131,5 +3133,18 @@
     "openSet": "Bekijk de hele set",
     "landingHeading": "Dit werkblad op meerdere niveaus",
     "landingBody": "Dezelfde opdracht bestaat ook op andere niveaus, met extra oefenbladen op elk niveau."
+  },
+  "levelSetSheet": {
+    "titleSuffix": "Klassenoverzicht",
+    "teacherCopy": "Voor de leerkracht",
+    "setHeading": "De set",
+    "placementHeading": "Elk kind op het juiste niveau",
+    "placementStart": "Elk kind begint met het basisblad.",
+    "placementUp": "Bijna alles goed: de volgende keer het moeilijkere blad.",
+    "placementDown": "Meerdere fouten: het makkelijkere blad, daarna terug naar het basisblad.",
+    "placementRecord": "Vink het bereikte niveau aan en noteer de datum.",
+    "notes": "Opmerkingen",
+    "levelN": "Niveau {n}",
+    "placementSame": "Anders: de volgende keer nog een basisblad."
   }
 }

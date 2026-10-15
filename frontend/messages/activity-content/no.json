@@ -286,25 +286,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "En tierramme viser en gruppe dyrebrikker og stiller ett enkelt spørsmål: hvor mange? Barnet teller dyrene — alt fra 0 til 10 — og skriver tallet som passer på tastaturet. Dette er en interaktiv telleaktivitet for skolestart som spilles rett i nettleseren, uten nedlasting og uten konto.",
-        "Dette er svarsiden av telling. I stedet for å bygge et tall leser barnet en mengde som allerede er der, og navngir den med et skrevet tall. Fordi brikkene ligger i de to radene i en tierramme, kan barnet etter hvert kjenne igjen mengder med et blikk — en full øverste rad er fem, en full ramme er ti — og kontrollere ved å telle én etter én. Det steget fra telling til ett enkelt skrevet tall er selve kjernen i tallforståelse.",
-        "Aktiviteten følger LK20 innenfor tall og telling — å telle for å svare på «hvor mange?» om gjenstander som ligger ordnet i en ramme. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+        "Et bord fullt av dyr og ett spørsmål: hvor mange? Barnet trykker på hvert dyr for å telle det – en nummerert lapp lander på dyret – og trykker så på tallrekken på det tallet som sier hvor mange det er. Dyrene står på rekke, i rader, i en ring eller spredt: akkurat de fire oppstillingene som telling på 1. trinn handler om. Kjører i nettleseren, uten installasjon og uten konto.",
+        "De tre telleprinsippene sitter i materialet: et dyr kan bare få én lapp (en-til-en), lappene nummereres i den rekkefølgen de ble gitt (stabil tallrekke), og den siste lappen lyser fordi det sist sagte tallet er svaret (kardinalitet). Hoppes et dyr over, sier hintet det, og det utalte dyret pulserer. To frie trekk – Tell igjen og Bland dem – lar barnet oppdage at rekkefølgen ikke spiller noen rolle, og at antallet er det samme når dyrene flytter seg.",
+        "Tilpasset LK20: telle opp til 10 ting for å svare på \"hvor mange?\". Ingen timer, ingen poeng – rolig telling med hendene."
       ],
       "practices": [
-        "Telle en gruppe dyr som vises på en tierramme.",
-        "Svare på «hvor mange?» med det riktige skrevne tallet.",
-        "Kjenne igjen fem og ti ut fra radene i rammen.",
-        "Koble en telt mengde til tallet sitt, fra 0 til 10."
+        "Gi hvert dyr én lapp mens man teller høyt",
+        "Svare på \"hvor mange?\" med tallet på rekken",
+        "Telle ting på rekke, i rader, i en ring og spredt",
+        "Sjekke at en gruppe telt i en annen rekkefølge gir det samme tallet"
       ],
       "howToPlay": [
-        "Se på tierrammen og tell hvor mange dyr du ser.",
-        "Skriv det tallet på tastaturet og trykk på Sjekk.",
-        "Ikke helt riktig? Tell igjen og prøv en gang til — det er ingen tidtaker og ingen poeng."
+        "Trykk på hvert dyr for å telle det, og si tallet. En nummerert lapp lander på det.",
+        "Når alle dyr har en lapp, lyser den siste: trykk på det tallet på rekken, og trykk så på Sjekk.",
+        "Prøv Tell igjen eller Bland dem: rekkefølgen endrer seg, antallet er det samme. Ingen timer, ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan telle for å svare på hvor mange om opptil ti gjenstander.",
-        "Barnet kan navngi en mengde med tallet som passer.",
-        "Barnet bygger tallforståelsen som det å lese og skrive tall hviler på."
+        "Telle opp til 10 ting for å svare på \"hvor mange?\"",
+        "Telle en-til-en og si det siste tallet som antallet",
+        "Telle ting på rekke, i rader, i en ring og spredt"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

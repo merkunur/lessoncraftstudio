@@ -285,25 +285,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "En tierramme viser en gruppe dyr, og stiller ét enkelt spørgsmål: hvor mange? Barnet tæller dyrene — alt fra 0 til 10 — og skriver det tal, der passer, på taltastaturet. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "Det er den svarende side af at tælle. I stedet for at bygge et tal læser barnet et antal, der allerede er der, og navngiver det med et skrevet tal. Fordi dyrene står i tierrammens to rækker, kan barnet med tiden genkende antal med et blik — en fuld øverste række er fem, en fuld ramme er ti — og tjekke ved at tælle ét ad gangen. Det skridt fra at tælle til ét skrevet tal er kernen i antalsforståelse.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at tælle for at svare på \"hvor mange?\" om ting på en ramme. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Et bord fuld af dyr og ét spørgsmål: hvor mange? Barnet trykker på hvert dyr for at tælle det – en nummereret mærkat lander på dyret – og trykker derefter på talrækken på det tal, der siger hvor mange der er. Dyrene står på række, i rækker, i rundkreds eller spredt: netop de fire opstillinger, som tælling i børnehaveklassen handler om. Kører i browseren, uden installation og uden konto.",
+        "De tre tælleprincipper sidder i materialet: et dyr kan kun få én mærkat (en-til-en), mærkaterne nummereres i den rækkefølge, de blev givet (stabil talrække), og den sidste mærkat lyser, fordi det sidst sagte tal er svaret (kardinalitet). Springes et dyr over, siger hintet det, og det utalte dyr pulserer. To frie træk – Tæl igen og Bland dem – lader barnet opdage, at rækkefølgen er ligegyldig, og at antallet er det samme, når dyrene flytter sig.",
+        "Tilpasset Fælles Mål: tæl op til 10 ting for at svare på \"hvor mange?\". Ingen timer, ingen point – rolig tælling med hænderne."
       ],
       "practices": [
-        "Tælle en gruppe dyr på en tierramme",
-        "Svare på \"hvor mange?\" med det rigtige skrevne tal",
-        "Genkende fem og ti ud fra rammens rækker",
-        "Matche et optalt antal med tallet fra 0 til 10"
+        "Give hvert dyr én mærkat, mens man tæller højt",
+        "Svare på \"hvor mange?\" med tallet på rækken",
+        "Tælle ting på række, i rækker, i rundkreds og spredt",
+        "Tjekke, at en gruppe talt i en anden rækkefølge giver det samme tal"
       ],
       "howToPlay": [
-        "Barnet ser tierrammen og tæller, hvor mange dyr det ser.",
-        "Barnet skriver tallet på taltastaturet og trykker på Tjek.",
-        "Passer det ikke? Barnet kan tælle igen og prøve en gang til — der er ingen timer og ingen point."
+        "Tryk på hvert dyr for at tælle det, og sig tallet. En nummereret mærkat lander på det.",
+        "Når alle dyr har en mærkat, lyser den sidste: tryk på det tal på rækken, og tryk så på Tjek.",
+        "Prøv Tæl igen eller Bland dem: rækkefølgen ændrer sig, antallet er det samme. Ingen timer, ingen point."
       ],
       "learningGoals": [
-        "Barnet kan tælle for at svare på, hvor mange der er, om op til ti ting",
-        "Barnet kan navngive et antal med det tal, der passer",
-        "Barnet kan opbygge den antalsforståelse, som det at læse og skrive tal afhænger af"
+        "Tælle op til 10 ting for at svare på \"hvor mange?\"",
+        "Tælle en-til-en og sige det sidste tal som antallet",
+        "Tælle ting på række, i rækker, i rundkreds og spredt"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

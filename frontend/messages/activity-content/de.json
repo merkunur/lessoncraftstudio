@@ -3000,25 +3000,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Ein Zehnerfeld zeigt eine Gruppe von Tier-Plättchen und stellt eine einfache Frage: Wie viele? Das Kind zählt die Tiere — irgendwo zwischen 0 und 10 — und tippt die passende Zahl auf dem Zahlenfeld ein. Diese interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "Dies ist die antwortende Seite des Zählens. Statt eine Zahl aufzubauen, liest das Kind eine Menge ab, die schon da ist, und benennt sie mit einer geschriebenen Zahl. Weil die Plättchen in den zwei Reihen eines Zehnerfeldes liegen, kann ein Kind Mengen allmählich auf einen Blick erkennen — eine volle obere Reihe ist fünf, ein volles Feld ist zehn — und durch Zählen Stück für Stück nachprüfen. Dieser Schritt vom Zählen zu einer einzigen geschriebenen Zahl ist der Kern des Zahlverständnisses.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — zählen, um „wie viele?“ zu beantworten, bei Gegenständen, die auf einem Feld angeordnet sind. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Ein Tisch voller Tiere und eine Frage: Wie viele? Das Kind tippt jedes Tier an, um es zu zählen – eine nummerierte Marke landet darauf – und tippt dann auf der Zahlenleiste die Zahl an, die sagt, wie viele es sind. Die Tiere stehen in einer Reihe, in Reihen, im Kreis oder verstreut – genau die vier Anordnungen, die das Zählen im Vorschulalter braucht. Läuft im Browser, ohne Installation und ohne Konto.",
+        "Die drei Zählprinzipien stecken im Material: Ein Tier kann nur einmal markiert werden (Eins-zu-eins-Zuordnung), die Marken sind in der Reihenfolge nummeriert, in der sie vergeben wurden (stabile Zahlwortreihe), und die letzte Marke leuchtet, weil die zuletzt genannte Zahl die Antwort ist (Kardinalität). Wird ein Tier übersprungen, benennt der Hinweis das und das ungezählte Tier pulsiert. Mit „Noch mal zählen“ und „Neu verteilen“ entdeckt das Kind, dass die Reihenfolge egal ist und die Anzahl gleich bleibt, wenn sich die Tiere bewegen.",
+        "Mengen bis 10 erfassen und zählen, wie der Lehrplan es für die Eingangsstufe vorsieht. Kein Timer, keine Punkte – ruhiges Zählen mit den Händen."
       ],
       "practices": [
-        "Eine Gruppe Tiere zählen, die auf einem Zehnerfeld gezeigt wird.",
-        "„Wie viele?“ mit der richtigen geschriebenen Zahl beantworten.",
-        "Fünf und zehn an den Reihen des Feldes erkennen.",
-        "Eine gezählte Menge ihrer Zahl von 0 bis 10 zuordnen."
+        "Jedes Tier beim lauten Zählen genau einmal markieren",
+        "Die Frage „Wie viele?“ mit der Zahl auf der Leiste beantworten",
+        "Dinge in einer Reihe, in Reihen, im Kreis und verstreut zählen",
+        "Prüfen, dass eine neu gezählte Gruppe dieselbe Anzahl hat"
       ],
       "howToPlay": [
-        "Schau auf das Zehnerfeld und zähle, wie viele Tiere du siehst.",
-        "Tippe diese Zahl auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
-        "Stimmt es noch nicht? Zähle noch einmal und versuch es erneut — es gibt keinen Timer und keine Punkte."
+        "Tippe jedes Tier an und sag die Zahl dazu. Eine nummerierte Marke landet darauf.",
+        "Wenn jedes Tier eine Marke hat, leuchtet die letzte – tippe diese Zahl auf der Leiste an und drücke „Prüfen“.",
+        "Probiere „Noch mal zählen“ oder „Neu verteilen“: Die Reihenfolge ändert sich, die Anzahl bleibt. Ohne Timer, ohne Punkte."
       ],
       "learningGoals": [
-        "Zählen, um „wie viele?“ bei bis zu zehn Gegenständen zu beantworten.",
-        "Eine Menge mit der passenden geschriebenen Zahl benennen.",
-        "Das Zahlverständnis aufbauen, auf dem das Lesen und Schreiben von Zahlen beruht."
+        "Bis 10 zählen und die Frage „Wie viele?“ beantworten",
+        "Eins-zu-eins markieren und die letzte Zahl als Anzahl nennen",
+        "Dinge in einer Reihe, in Reihen, im Kreis und verstreut zählen"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

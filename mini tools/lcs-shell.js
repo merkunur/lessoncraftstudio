@@ -899,9 +899,15 @@
       if (ok) {
         Audio.pop(880);
         promptEl.classList.add('celebrate');
-        showBubble(i18n.chrome('celebrate'), 'celebrate');
+        /* A task may name its own celebration (task.celebrateKey, interpolated
+           with promptArgs) — "Yes — 7!" teaches more than "Great!". Falls
+           back to the chrome string. */
+        var celebrateMsg = currentTask.celebrateKey
+          ? interpolate(api.t(currentTask.celebrateKey), currentTask.promptArgs || {})
+          : i18n.chrome('celebrate');
+        showBubble(celebrateMsg, 'celebrate');
         if (hintSpan) hintSpan.textContent = '';
-        api.announce(i18n.chrome('celebrate'));
+        api.announce(celebrateMsg);
         tasksCompleted += 1;
         var progPill = progressEl && progressEl.querySelector('.lcs-activity-progress-pill');
         if (progPill) progPill.textContent = String(tasksCompleted);

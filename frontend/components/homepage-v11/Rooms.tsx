@@ -3,7 +3,59 @@ import Image from 'next/image';
 import LiveToolEmbedV10 from '@/components/homepage-v6/LiveToolEmbedV6';
 import EmbedCopy from '@/components/homepage-v10/EmbedCopy';
 import ActivityVignette from '@/components/homepage-v10/ActivityVignettes';
-import { titleFor, type RoomStrings as RoomStringsV10, type AlcoveCard } from '@/components/homepage-v10/Rooms';
+import { titleFor, type AlcoveCard } from '@/components/homepage-v10/Rooms';
+
+/* The v10.1 RoomStrings this withdrawn preview was built against, frozen
+   here on 2026-10-15 when v10.2 changed the live type (numeral prop, the set
+   exhibit, the rebuilt plans room). A withdrawn preview must not track the
+   live page; it keeps compiling against the shape it was written for. */
+type RoomStringsV10 = {
+  instrumentsH2: string;
+  instrumentsBody: string;
+  instrumentsCta: string;
+  playH2: string;
+  playBody: string;
+  playCta: string;
+  printH2: string;
+  printBody: string;
+  printCta: string;
+  activitiesCta: string;
+  studioH2: string;
+  studioBody: string;
+  studioMakerAlt: string;
+  studioPlay: string;
+  studioPrint: string;
+  studioCta: string;
+  plansH2: string;
+  plansBody: string;
+  freeTitle: string;
+  freePrice: string;
+  teacherPrice: string;
+  freeItems: string[];
+  freeCta: string;
+  teacherTitle: string;
+  teacherItems: string[];
+  teacherCta: string;
+  shareH2: string;
+  shareBody: string;
+  shareQrAlt: string;
+  shareChips: string[];
+  planTag: string;
+  /* THE LOAN LABEL. Every one of these is an existing native string in all
+     eleven locales — nothing was authored or machine-translated for this
+     block. embedHeadA/B are the two authored lines of one sentence. */
+  embedHeadA: string;
+  embedHeadB: string;
+  embedCaption: string;
+  embedCopy: string;
+  embedCopied: string;
+  embedFact1: string;
+  embedFact2: string;
+  closeH2: string;
+  closeBody: string;
+  closeCtaPrimary: string;
+  closeCtaSecondary: string;
+};
 import FrontOfRoom, { type EaselPanel } from '@/components/homepage-v11/FrontOfRoom';
 import ExitShelf, { type ShelfItem } from '@/components/homepage-v11/ExitShelf';
 import Slip from '@/components/homepage-v11/Slip';

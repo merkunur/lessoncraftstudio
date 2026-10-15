@@ -13,6 +13,11 @@
  * law, 2026-09-03): the size of the worksheet library, written with each
  * locale's own thousands separator. `scripts/audit-hero-copy.js` enforces
  * that no other hero key carries a digit and none carries a price word.
+ *
+ * v10.2 (2026-10-15): the pillars read worksheets → makers → tools →
+ * activities (the operator's order for the whole page), the lead gloss names
+ * the Level Set structure, and the ghost CTA is "Try a worksheet maker"
+ * (`hero.ctaMakers`; `hero.ctaActivities` is retired and the gate refuses it).
  */
 export type HeroPillar = {
   /** The large numeral on the lead card only ("40,000+"). */
@@ -28,7 +33,7 @@ export type HeroStrings = {
   /** Small scope line under the CTAs: grade band + language, in words. */
   scope: string;
   ctaWorksheets: string;
-  ctaActivities: string;
+  ctaMakers: string;
   pillars: [HeroPillar, HeroPillar, HeroPillar, HeroPillar];
 };
 
@@ -38,7 +43,7 @@ export function heroStrings(t: (key: string) => string): HeroStrings {
     hallLabel: t('hero.fanLabel'),
     scope: t('hero.scope'),
     ctaWorksheets: t('hero.ctaWorksheets'),
-    ctaActivities: t('hero.ctaActivities'),
+    ctaMakers: t('hero.ctaMakers'),
     pillars: [
       { count: t('hero.pillar1Count'), label: t('hero.pillar1Label'), gloss: t('hero.pillar1Gloss') },
       { label: t('hero.pillar2Label'), gloss: t('hero.pillar2Gloss') },

@@ -4,6 +4,7 @@ import LiveToolEmbedV10 from '@/components/homepage-v6/LiveToolEmbedV6';
 import EmbedCopy from '@/components/homepage-v10/EmbedCopy';
 import ActivityVignette, { type ActivityVignetteKind } from '@/components/homepage-v10/ActivityVignettes';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
+import type { SetExhibit } from '@/lib/homepage-set-exhibit';
 
 /* ───────────────────────────────────────────────────────────────────────────
    THE ROOMS — homepage v10 "The Gallery of Lessons".
@@ -16,6 +17,13 @@ import type { ShowcaseDeck } from '@/lib/showcase-decks';
 
    The gallery is drawn; the art is real. Every frame holds a published
    worksheet and every pedestal carries an actual apparatus render.
+
+   v10.2 (2026-10-15): the rooms are walked in the operator's order —
+   worksheets, makers, tools, activities, then share and plans — so the
+   numeral is a PROP each page passes, not a literal inside the room (the
+   v10 literals meant a reorder rendered I, III, II). The Print Room now
+   hangs one Level Set in full above a wall of every worksheet type, and the
+   plans room is rebuilt around what the Teacher plan is for.
    ─────────────────────────────────────────────────────────────────────── */
 
 type Wall = 'green' | 'terracotta' | 'light' | 'ochre';
@@ -74,7 +82,7 @@ export function titleFor(deck: ShowcaseDeck): string {
   return titleMap[deck.language] || deck.slug;
 }
 
-/* ── ROOM I — The Instrument Hall ──────────────────────────────────────────
+/* ── The Instrument Hall ───────────────────────────────────────────────────
    The teaching tools, standing as objects. These are the real apparatus
    renders at /mini-tools/tool-previews/<key>.webp — flat-vector drawings of
    the actual instruments, which is why nothing had to be illustrated for
@@ -84,18 +92,20 @@ export type InstrumentCard = { key: string; name: string; note: string };
 
 export function InstrumentHall({
   locale,
+  numeral,
   strings,
   instruments,
   live,
 }: {
   locale: string;
+  numeral: string;
   strings: RoomStrings;
   instruments: InstrumentCard[];
   live: { src: string; name: string; previewUrl: string; ctaLabel: string; note: string; liveTag: string };
 }) {
   return (
     <Room id="instruments" wall="terracotta">
-      <p className="hv10-room-label" aria-hidden="true">I</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.instrumentsH2}</h2>
       <p className="hv10-room-body">{strings.instrumentsBody}</p>
 
@@ -147,14 +157,13 @@ export function InstrumentHall({
   );
 }
 
-/* ── ROOM III — The Playroom ───────────────────────────────────────────────
-   The activities: 204 curriculum-aligned things a child does, which until now
-   had no room of their own on this page.
+/* ── The Playroom ─────────────────────────────────────────────────────────
+   The activities: 204 curriculum-aligned things a child does.
 
-   Lit alcoves rather than another bench — Room I is a bench, and repeating it
-   would make the two rooms read as one. Each exhibit is animated CSS, because
-   the 204 preview images are static and four more raster files would add
-   weight to the page's heaviest asset class.
+   Lit alcoves rather than another bench — the Instrument Hall is a bench,
+   and repeating it would make the two rooms read as one. Each exhibit is
+   animated CSS, because the 204 preview images are static and four more
+   raster files would add weight to the page's heaviest asset class.
 
    ⚠ The four were chosen from the 54 activities complete in ALL ELEVEN
    locales, not from the 204. The obvious picks — Pip's Stacking Fence, Bo's
@@ -171,16 +180,18 @@ export type AlcoveCard = {
 
 export function Playroom({
   locale,
+  numeral,
   strings,
   activities,
 }: {
   locale: string;
+  numeral: string;
   strings: RoomStrings;
   activities: AlcoveCard[];
 }) {
   return (
     <Room id="activities" wall="ochre">
-      <p className="hv10-room-label" aria-hidden="true">III</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.playH2}</h2>
       <p className="hv10-room-body">{strings.playBody}</p>
 
@@ -209,49 +220,128 @@ export function Playroom({
   );
 }
 
-/* ── ROOM II — The Print Room ──────────────────────────────────────────────
-   The library, hung salon-style. This is the room where density is safe:
-   unlike the hall, it can reflow, so it holds as many works as the width
-   allows. */
+/* ── The Print Room ───────────────────────────────────────────────────────
+   The library, in two hangs.
+
+   THE EXHIBIT (v10.2). One Level Set hung in full: the easier, the core and
+   the harder page of one worksheet face, each a real published deck, beside
+   the set's class sheet — the teacher-held page that says which child gets
+   which level. This is the product unit the Level Sets v2 restructure made
+   visible on the hubs, shown here where most visitors first arrive. The
+   plan tag on it is the page's first contextual conversion: every level and
+   every page of every set is what "unlimited downloads" means.
+
+   THE WALL. Twenty works, one of EVERY worksheet type the locale publishes
+   (lib/showcase-decks.ts selectWallDecks — the 29 apps and the printable
+   families alike, rotated daily), each under a plaque naming its type in
+   the visitor's language from the taxonomy. The count and the CSS are a
+   matched pair: `.hv10-hang` declares the column count per band and hides
+   down to the largest whole-row multiple, so the wall is a rectangle at
+   every width — see the long note in the stylesheet. */
+export type WallWork = { deck: ShowcaseDeck; label: string };
+
 export function PrintRoom({
   locale,
-  decks,
+  numeral,
+  works,
+  exhibit,
   strings,
 }: {
   locale: string;
-  decks: ShowcaseDeck[];
+  numeral: string;
+  works: WallWork[];
+  exhibit: SetExhibit | null;
   strings: RoomStrings;
 }) {
   return (
     <Room id="printroom" wall="green" floor={false}>
-      <p className="hv10-room-label" aria-hidden="true">II</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.printH2}</h2>
       <p className="hv10-room-body">{strings.printBody}</p>
 
-      {/* Fifteen works, always. `.hv10-hang` declares the column count per
-          band and hides down to the largest whole-row multiple, so the wall
-          is a rectangle at every width — see the long note in the stylesheet.
-          The count and the CSS are a matched pair: changing one without the
-          other brings the ragged row back. */}
+      {exhibit ? (
+        <section className="hv10-exhibit" aria-labelledby="hv10-exhibit-h">
+          <div className="hv10-exhibit-art">
+            {exhibit.pages.map((p, i) => (
+              <a key={p.rung} className="hv10-exhibit-frame" href={p.href} style={{ ['--tilt' as string]: TILTS[i] }}>
+                <span className="hv10-exhibit-mat">
+                  <Image
+                    src={p.thumbnailUrl}
+                    alt={`${exhibit.title} — ${p.levelLabel}`}
+                    width={480}
+                    height={620}
+                    sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 190px"
+                    quality={74}
+                  />
+                </span>
+                <span className="hv10-exhibit-plaque">{p.levelLabel}</span>
+              </a>
+            ))}
+            {exhibit.sheetSrc ? (
+              <span className="hv10-exhibit-frame is-sheet" style={{ ['--tilt' as string]: TILTS[3] }}>
+                <span className="hv10-exhibit-mat">
+                  <Image
+                    src={exhibit.sheetSrc}
+                    alt={strings.setSheetLabel}
+                    width={560}
+                    height={753}
+                    sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 190px"
+                    quality={74}
+                  />
+                </span>
+                <span className="hv10-exhibit-plaque">{strings.setSheetLabel}</span>
+              </span>
+            ) : null}
+          </div>
+          <div className="hv10-exhibit-text">
+            <p className="hv10-exhibit-eyebrow">{strings.setEyebrow}</p>
+            <h3 id="hv10-exhibit-h" className="hv10-exhibit-h">{exhibit.title}</h3>
+            <p className="hv10-exhibit-meta">
+              {exhibit.typeLabel}
+              {exhibit.gradeLabel ? ` · ${exhibit.gradeLabel}` : ''}
+            </p>
+            <p className="hv10-exhibit-caption">{strings.setCaption}</p>
+            {exhibit.strandLabel ? (
+              <p className="hv10-exhibit-pathway">
+                <span>{strings.pathwayLabel}</span> {exhibit.strandLabel}
+              </p>
+            ) : null}
+            <div>
+              <span className="hv10-plan-tag">{strings.setPlanTag}</span>
+            </div>
+            <div className="hv10-exhibit-links">
+              <Link href={exhibit.href} className="hv10-cta is-primary" prefetch={false}>
+                {strings.openSet}
+              </Link>
+              <Link href={exhibit.indexHref} className="hv10-cta is-ghost" prefetch={false}>
+                {strings.allSets}
+              </Link>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <h3 className="hv10-wall-h">{strings.wallHeading}</h3>
       <div className="hv10-hang">
-        {decks.slice(0, 15).map((d, i) => (
+        {works.slice(0, 20).map((w, i) => (
           <a
-            key={d.id}
+            key={w.deck.id}
             className="hv10-work"
-            href={`https://www.lessoncraftstudio.com/${d.language}/decks/${d.slug}/`}
+            href={`https://www.lessoncraftstudio.com/${w.deck.language}/decks/${w.deck.slug}/`}
             style={{ ['--tilt' as string]: TILTS[i % TILTS.length] }}
           >
-            <Image
-              src={d.thumbnailUrl}
-              alt={titleFor(d)}
-              width={480}
-              height={620}
-              /* Tracks the declared column count above, not the old auto-fit
-                 behaviour: 2 / 3 / 4 / 5 columns. The desktop tile grew from
-                 ~170px to ~203px when the count stopped jumping to six. */
-              sizes="(max-width: 479px) 45vw, (max-width: 639px) 30vw, (max-width: 879px) 23vw, 210px"
-              quality={72}
-            />
+            <span className="hv10-work-frame">
+              <Image
+                src={w.deck.thumbnailUrl}
+                alt={titleFor(w.deck)}
+                width={480}
+                height={620}
+                /* Tracks the declared column count: 2 / 3 / 4 / 5 columns. */
+                sizes="(max-width: 479px) 45vw, (max-width: 639px) 30vw, (max-width: 879px) 23vw, 210px"
+                quality={72}
+              />
+            </span>
+            <span className="hv10-work-plaque">{w.label}</span>
           </a>
         ))}
       </div>
@@ -260,22 +350,22 @@ export function PrintRoom({
         <Link href={`/${locale}/worksheets`} className="hv10-cta is-primary">
           {strings.printCta}
         </Link>
-        <Link href={`/${locale}/activities`} className="hv10-cta is-ghost">
-          {strings.activitiesCta}
+        <Link href={`/${locale}/worksheet-makers`} className="hv10-cta is-ghost">
+          {strings.makersCta}
         </Link>
       </div>
     </Room>
   );
 }
 
-/* ── ROOM IV — The Studio ─────────────────────────────────────────────────
+/* ── The Studio ───────────────────────────────────────────────────────────
    Where the work is made. The maker screenshot is committed art at
    /homepage/maker.webp, with per-locale re-renders alongside it. */
-export function Studio({ locale, strings }: { locale: string; strings: RoomStrings }) {
+export function Studio({ locale, numeral, strings }: { locale: string; numeral: string; strings: RoomStrings }) {
   const dir = locale === 'en' ? '' : `${locale}/`;
   return (
     <Room id="studio" wall="light">
-      <p className="hv10-room-label" aria-hidden="true">IV</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.studioH2}</h2>
       <p className="hv10-room-body">{strings.studioBody}</p>
 
@@ -325,15 +415,37 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
   );
 }
 
-/* ── ROOM VI — The Members' Room ───────────────────────────────────────────
+/* ── The Teacher's Room (plans) ───────────────────────────────────────────
+   v10.2: rebuilt around what the plan is FOR. The value comes before the
+   ask: the differentiation problem in one sentence, then the two columns —
+   what a free visitor has today, what the plan opens — and, in the Teacher
+   column, the same Level Set the Print Room exhibits, in miniature, so the
+   abstract "unlimited" has a picture.
+
    ⚠ TIER TRUTH. These claims are about code behaviour, so they come from
    frontend/lib/quota.ts (PLAYS_PER_DAY = 10, DOWNLOADS_PER_MONTH = 3,
    anonymous downloads = 0) and the price from SUBSCRIPTION_PRODUCT. Never
    hardcode a price and never exceed the pricing page. */
-export function MembersRoom({ locale, strings }: { locale: string; strings: RoomStrings }) {
+export function MembersRoom({
+  locale,
+  numeral,
+  strings,
+  exhibit,
+}: {
+  locale: string;
+  numeral: string;
+  strings: RoomStrings;
+  exhibit: SetExhibit | null;
+}) {
+  const minis = exhibit
+    ? [
+        ...exhibit.pages.map((p) => ({ key: p.rung, src: p.thumbnailUrl, w: 480, h: 620 })),
+        ...(exhibit.sheetSrc ? [{ key: 'sheet', src: exhibit.sheetSrc, w: 560, h: 753 }] : []),
+      ]
+    : [];
   return (
     <Room id="plans" wall="green" floor={false}>
-      <p className="hv10-room-label" aria-hidden="true">VI</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.plansH2}</h2>
       <p className="hv10-room-body">{strings.plansBody}</p>
 
@@ -353,6 +465,15 @@ export function MembersRoom({ locale, strings }: { locale: string; strings: Room
         <div className="hv10-plan is-teacher">
           <h3>{strings.teacherTitle}</h3>
           <p className="hv10-plan-price">{strings.teacherPrice}</p>
+          {minis.length ? (
+            <div className="hv10-plan-mini" aria-hidden="true">
+              {minis.map((m) => (
+                <span key={m.key} className="hv10-plan-mini-page">
+                  <Image src={m.src} alt="" width={m.w} height={m.h} sizes="90px" quality={60} />
+                </span>
+              ))}
+            </div>
+          ) : null}
           <ul>
             {strings.teacherItems.map((s) => (
               <li key={s}>{s}</li>
@@ -363,13 +484,14 @@ export function MembersRoom({ locale, strings }: { locale: string; strings: Room
           </Link>
         </div>
       </div>
+      <p className="hv10-plan-note">{strings.plansNote}</p>
+      <p className="hv10-plan-reassure">{strings.plansReassure}</p>
     </Room>
   );
 }
 
-/* ── ROOM V — The Dispatch ────────────────────────────────────────────────
+/* ── The Dispatch ─────────────────────────────────────────────────────────
    How the work reaches the class: one link, one QR code, no student accounts.
-   This was missing from the page entirely.
 
    ⚠ TIER TRUTH: minting a durable share link is subscriber-gated — every one
    of /api/activities/share, /api/play-links and /api/worksheets/hosted calls
@@ -378,11 +500,13 @@ export function MembersRoom({ locale, strings }: { locale: string; strings: Room
    generator behind it (/api/qr) is real and restricted to our own URLs. */
 export function Dispatch({
   locale,
+  numeral,
   strings,
   deck,
   embed,
 }: {
   locale: string;
+  numeral: string;
   strings: RoomStrings;
   deck?: ShowcaseDeck;
   /** The real embed snippet for `deck`, built server-side. See THE LOAN LABEL. */
@@ -390,7 +514,7 @@ export function Dispatch({
 }) {
   return (
     <Room id="share" wall="terracotta">
-      <p className="hv10-room-label" aria-hidden="true">V</p>
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
       <h2 className="hv10-room-h2">{strings.shareH2}</h2>
       <p className="hv10-room-body">{strings.shareBody}</p>
 
@@ -434,9 +558,6 @@ export function Dispatch({
           landing page, for a real published deck, with a button that really
           copies it. Beside it, the same worksheet already hanging on their
           site, drawn as a lighter room of this same gallery.
-
-          It replaces a 1116x168 glass strip that carried one sentence and a
-          pill: it named the feature and explained nothing about it.
 
           ⚠ TIER TRUTH: embedded play is genuinely free AND UNMETERED —
           lcs-meter.js:24 returns early when window.top !== window.self, so
@@ -515,7 +636,8 @@ export function Dispatch({
 }
 
 /* ── THE EXIT ──────────────────────────────────────────────────────────────
-   The close, and the catalogue at the back of the building. */
+   The close, and the catalogue at the back of the building. v10.2: the
+   primary way out is the plan; the library is the other door. */
 export function Exit({ locale, strings }: { locale: string; strings: RoomStrings }) {
   return (
     <Room id="close" wall="terracotta">
@@ -523,7 +645,7 @@ export function Exit({ locale, strings }: { locale: string; strings: RoomStrings
         <h2 className="hv10-room-h2">{strings.closeH2}</h2>
         <p className="hv10-room-body">{strings.closeBody}</p>
         <div className="hv10-room-ctas">
-          <Link href={`/${locale}/tools`} className="hv10-cta is-primary">
+          <Link href={`/${locale}/pricing`} className="hv10-cta is-primary">
             {strings.closeCtaPrimary}
           </Link>
           <Link href={`/${locale}/worksheets`} className="hv10-cta is-ghost">
@@ -545,7 +667,18 @@ export type RoomStrings = {
   printH2: string;
   printBody: string;
   printCta: string;
-  activitiesCta: string;
+  makersCta: string;
+  /* The set exhibit (v10.2). The level words, "Open the set", "All Level
+     Sets" and "Pathway" are the shipped `levelSets.*` strings — nothing
+     re-authored. */
+  setEyebrow: string;
+  setCaption: string;
+  setSheetLabel: string;
+  setPlanTag: string;
+  pathwayLabel: string;
+  openSet: string;
+  allSets: string;
+  wallHeading: string;
   studioH2: string;
   studioBody: string;
   studioMakerAlt: string;
@@ -554,6 +687,8 @@ export type RoomStrings = {
   studioCta: string;
   plansH2: string;
   plansBody: string;
+  plansNote: string;
+  plansReassure: string;
   freeTitle: string;
   freePrice: string;
   teacherPrice: string;

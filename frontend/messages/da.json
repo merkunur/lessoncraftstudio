@@ -2977,17 +2977,17 @@
       "h1": "Undervisning, der hænger sammen.",
       "fanLabel": "Et udvalg af arbejdsark fra biblioteket, på dit sprog",
       "ctaWorksheets": "Se arbejdsarkene",
-      "ctaActivities": "Prøv en aktivitet",
+      "ctaMakers": "Prøv en arbejdsark-generator",
       "scope": "Fra børnehaveklassen til tredje klasse, på dit sprog.",
       "pillar1Count": "40.000+",
       "pillar1Label": "printklare arbejdsark",
-      "pillar1Gloss": "Print som PDF eller løs online – de fleste retter sig selv.",
-      "pillar2Label": "Spilleklare aktiviteter",
-      "pillar2Gloss": "Barnet spiller, og aktiviteten retter selv svarene.",
+      "pillar1Gloss": "I niveausæt: én færdighed på tre niveauer, med klasseoversigt. Print som PDF eller løs online.",
+      "pillar2Label": "Arbejdsark-generatorer",
+      "pillar2Gloss": "Vælg billeder og ord. Lav dit eget ark til print eller online.",
       "pillar3Label": "Tavleværktøjer",
       "pillar3Gloss": "En hel reol: ur, kugleramme, tallinje, balancevægt og meget mere.",
-      "pillar4Label": "Arbejdsark-generatorer",
-      "pillar4Gloss": "Vælg billeder og ord. Lav dit eget ark til print eller online."
+      "pillar4Label": "Spilleklare aktiviteter",
+      "pillar4Gloss": "Barnet spiller, og aktiviteten retter selv svarene."
     },
     "ticks": {
       "teach": "Undervis",
@@ -3061,24 +3061,25 @@
       "chipNoAds": "Ingen reklamer på elevsider"
     },
     "teacher": {
-      "heading": "Start gratis. Fjern grænserne, når du er klar.",
-      "body": "Alt er gratis at prøve, uden kort: 10 interaktive spil om dagen og 3 PDF-downloads om måneden med en gratis konto. Lærerabonnementet fjerner grænserne, åbner den fulde dybde i hvert værktøj og gemmer det, du bygger.",
+      "heading": "Hvad Lærerabonnementet er til",
+      "body": "Én klasse, tre niveauer af samme færdighed, og ingen ekstra timer til at lave dem. Lærerabonnementet åbner hvert niveausæt på hvert niveau, hver klasseoversigt og hvert trin i læringsforløbet – på dit sprog, med facit.",
       "freeTitle": "Gratis",
       "freeTag": "Start her — uden kort",
-      "free1": "Alle værktøjer og generatorer — gratis at prøve",
+      "free1": "Se alle arbejdsark, niveausæt og læringsforløb",
       "free2": "10 interaktive spil om dagen",
       "free3": "3 PDF-downloads om måneden med en gratis konto",
-      "free4": "Se hele biblioteket",
+      "free4": "Alle værktøjer og generatorer — gratis at prøve",
       "freeCta": "Start gratis — uden kort",
       "teacherTitle": "Lærer",
       "teacherPrice": "{price} $ om året",
       "teacherMonthly": "eller {monthly} $/md.",
-      "teacher1": "Ubegrænset spil og downloads",
+      "teacher1": "Ubegrænset spil og downloads: hvert niveau i hvert sæt, hver klasseoversigt",
       "teacher2": "Den fulde dybde i hvert værktøj — print, gem, hele repertoiret",
-      "teacher3": "Gem og saml det, du bygger",
+      "teacher3": "Samlinger og et arbejdsrum til alt det, du underviser med",
       "teacher4": "Del links og QR-koder til klassen",
       "teacherCta": "Se Lærerabonnementet",
-      "reassure": "Intet kort for at starte · én fast pris · opsig når som helst"
+      "reassure": "Intet kort for at starte · én fast pris · opsig når som helst",
+      "honest": "En gratis kontos månedlige downloads rækker til nogle få sider af ét sæt. Abonnementet rækker til hele sættet – og hvert sæt efter det."
     },
     "close": {
       "line1": "Morgendagens time",
@@ -3093,7 +3094,16 @@
       "sub": "Hele biblioteket — efter klassetrin, emne og færdighed — plus alle undervisningsværktøjer.",
       "toolsHeading": "Undervisningsværktøjer"
     },
-    "planTag": "Lærerabonnementet"
+    "planTag": "Lærerabonnementet",
+    "set": {
+      "roomHeading": "Arbejdsark, der findes i niveauer",
+      "roomBody": "Et niveausæt er én færdighed på tre niveauer: en lettere side, siden på klassetrinnets niveau og en sværere side, med flere sider på hvert niveau. Print PDF'en med facit, eller åbn den på skærmen – mange sider retter sig selv.",
+      "eyebrow": "Ét niveausæt, hængt helt op",
+      "caption": "Tre niveauer af én færdighed, og klasseoversigten, der viser, hvilket barn der får hvilken side.",
+      "sheetLabel": "Klasseoversigt",
+      "planTag": "Hvert niveau, hver side: Lærerabonnementet",
+      "wallHeading": "Tyve typer arbejdsark, én side af hver – et nyt udvalg hver dag"
+    }
   },
   "levelSets": {
     "heading": "Niveausæt",

@@ -4,7 +4,8 @@
  *
  * Reads `homepageV6.hero` in every locale file and asserts:
  *   (a) KEY PARITY — every locale carries exactly EN's key set, and none of
- *       the retired keys (sub / microLine / countsLine / ctaTools) survives
+ *       the retired keys (sub / microLine / countsLine / ctaTools /
+ *       ctaActivities — v10.2 replaced it with ctaMakers) survives
  *       anywhere. A retired key is stale copy in a slot nobody renders.
  *   (b) DIGITS — the marketing surface carries NO numerals (the v9.1
  *       no-counts law), with ONE operator-scoped exception: `pillar1Count`,
@@ -33,7 +34,7 @@ const path = require('path');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const MESSAGES = path.join(__dirname, '..', 'frontend', 'messages');
 const COUNT_KEY = 'pillar1Count';
-const RETIRED = ['sub', 'microLine', 'countsLine', 'ctaTools'];
+const RETIRED = ['sub', 'microLine', 'countsLine', 'ctaTools', 'ctaActivities'];
 const MIN_KEYS = 12;
 /* Digit-bearing tokens that are NAMES, not counts, and have no digit-free
    form a native would write: fr "CE2" (cours élémentaire 2e année) is the

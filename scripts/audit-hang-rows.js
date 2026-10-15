@@ -27,6 +27,11 @@
  * plainly renders 5. offsetTop is the layout position and ignores the
  * transform.
  *
+ * v10.2 (2026-10-15): the wall holds TWENTY works, each a frame plus a plaque
+ * naming its type. Expected: 20 at >=640px (5x4 / 4x5), 18 at 480-639 (3x6),
+ * 12 below 480 (2x6). The gate's rule is unchanged — every row full — and
+ * `.hv10-work` is still the grid child it measures.
+ *
  * The sweep deliberately includes ±1px around every breakpoint: the layout it
  * replaced sat on two sub-3px knife-edges, and that class of bug hides
  * between round numbers.

@@ -237,6 +237,60 @@ export function fallbackShowcase(count: number = SHOWCASE_COUNT): ShowcaseSelect
   return { featured: decks[0] ?? null, thumbs: decks.slice(1, count) };
 }
 
+/* ── THE WALL (homepage v10.2, 2026-10-15) ───────────────────────────────────
+   The print room's wall used to hang the same 25 generator types as the hall,
+   which is why the operator read the page as "only generator worksheets". The
+   wall now draws from EVERY exercise type the locale has published — the 29
+   apps and the ~110 printable families alike — one deck per type, and the
+   WHOLE wall changes each day: the type list is rotated by `count` per UTC day,
+   so a visitor who returns tomorrow sees twenty different types, and the full
+   catalogue comes round in about a week. Within a day the selection is stable
+   (ISR-cache-friendly, like dayRotation above).
+
+   Colour decks are preferred per type by candidatesForType; a type with no
+   candidate is skipped and the next in the rotation backfills it, so the wall
+   is always `count` tiles when the locale has that many types (every locale
+   has over a hundred). The two types below are never hung: cryptogram is a
+   text-only decode page, and math-worksheet is above the K-2 ceiling. */
+const WALL_EXCLUDED_TYPES = new Set(['cryptogram', 'math-worksheet']);
+
+export async function selectWallDecks(locale: string, count: number): Promise<ShowcaseDeck[]> {
+  const rows = await prisma.deck.findMany({
+    where: { language: locale, status: 'published', contentLanguage: null },
+    select: { exerciseType: true },
+    distinct: ['exerciseType'],
+  });
+  const types = rows
+    .map((r) => r.exerciseType)
+    .filter((t): t is string => !!t && !WALL_EXCLUDED_TYPES.has(t))
+    .sort();
+  if (types.length === 0) return [];
+  const day = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+  const start = (day * count) % types.length;
+  const ordered = [...types.slice(start), ...types.slice(0, start)];
+  // A few spare types so one without a candidate is backfilled, not missing.
+  const window = ordered.slice(0, Math.min(ordered.length, count + 6));
+  const perType = await Promise.all(window.map((t) => candidatesForType(t, locale)));
+
+  const usedThemes = new Set<string>();
+  const decks: ShowcaseDeck[] = [];
+  for (const cands of perType) {
+    if (decks.length >= count) break;
+    let pick = cands.find((d) => !usedThemes.has(themeOf(d)));
+    if (!pick) pick = cands[0];
+    if (!pick) continue;
+    decks.push(pick);
+    const th = themeOf(pick);
+    if (th) usedThemes.add(th);
+  }
+  return decks;
+}
+
+/** The wall's no-DB fallback: the first `count` curated EN decks, in list order. */
+export function fallbackWall(count: number): ShowcaseDeck[] {
+  return fallbackShowcase(FALLBACK_SLUGS.length + 1).thumbs.slice(0, count);
+}
+
 export async function selectShowcaseDecks(
   locale: string,
   count: number = SHOWCASE_COUNT,

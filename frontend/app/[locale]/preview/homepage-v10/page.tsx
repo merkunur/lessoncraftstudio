@@ -1,27 +1,26 @@
 /* Homepage v10 "THE GALLERY OF LESSONS" — preview route (noindex).
+   v10.2 (2026-10-15): mirrors the live page's new structure exactly — the set
+   triptych, the Print Room first with the exhibit and the twenty-work wall,
+   the rebuilt plans room, the rooms in the operator's order.
 
    ── i18n ──────────────────────────────────────────────────────────────────
-   Every word on this page is already natively authored in all eleven
-   languages. Nothing here is machine-translated and nothing new had to be
-   written, because:
+   Every word on this page is natively authored in all eleven languages.
+   Nothing here is machine-translated:
 
-     · the prose comes from the `homepageV6` namespace, which was authored by
-       native panels and is already tier-truthful;
+     · the prose comes from the `homepageV6` namespace (native panels; the
+       v10.2 keys reviewed by one native + pedagogy reviewer before deploy);
      · the instrument names and taglines come from `MANIPULATIVES`, which
        carries all eleven locales per tool;
+     · the level words, set links and worksheet-type plaques come from the
+       shipped `levelSets.*` strings and the taxonomy;
      · the room numbers are ROMAN NUMERALS — language-neutral by
        construction, so the gallery device costs no translation at all.
 
-   That is the whole reason this page can ship in eleven languages today
-   rather than after a translation round. If a future room needs genuinely
-   new prose, it goes through the native panel per §A.13.48 — never through
-   a machine translation step.
-
-   The showcase fetch mirrors the live page exactly (one fetch of 22, sliced
-   6 to the hall and 15 to the print room) so promotion is an import swap in
-   app/[locale]/page.tsx. ⚠ This file is a near-duplicate of that one and is
-   the visual-diff safety net: an edit made there and not here means every
-   gate pointed at this route measures the OLD composition. */
+   The data path mirrors the live page exactly (the hall's six generator
+   decks, the wall's twenty all-type decks, the one Level Set) so promotion
+   is an import swap in app/[locale]/page.tsx. ⚠ This file is a near-duplicate
+   of that one and is the visual-diff safety net: an edit made there and not
+   here means every gate pointed at this route measures the OLD composition. */
 
 import { getTranslations } from 'next-intl/server';
 import GrandHall from '@/components/homepage-v10/GrandHall';
@@ -38,12 +37,21 @@ import {
   type RoomStrings,
   type InstrumentCard,
   type AlcoveCard,
+  type WallWork,
 } from '@/components/homepage-v10/Rooms';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { resolveActivityById } from '@/lib/activities';
+import { getAxisName } from '@/lib/taxonomy';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
-import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
+import {
+  selectShowcaseDecks,
+  fallbackShowcase,
+  selectWallDecks,
+  fallbackWall,
+  type ShowcaseDeck,
+} from '@/lib/showcase-decks';
+import { loadSetExhibit, fallbackExhibit, type SetExhibit } from '@/lib/homepage-set-exhibit';
 import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
 import { embedAnchor } from '@/lib/seo/embed-anchor-text';
 import { deckAssets } from '@/lib/seo/landing-content';
@@ -59,7 +67,7 @@ const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-k
    the signature never lands a visitor on a paywall. */
 const TOUCHABLE = 'rekenrek';
 
-/* Room II's four exhibits. Chosen from the 54 activities complete in ALL
+/* The Playroom's four exhibits. Chosen from the 54 activities complete in ALL
    ELEVEN locales, not from the 204 — the visually obvious picks exist only in
    en/de, which would have left seven languages with a broken room. Four
    distinct shapes across four strands. */
@@ -74,26 +82,49 @@ function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
 }
 
-/* Mirrors app/[locale]/page.tsx exactly — see the long note there. 15 tiles is
-   the print room's wall size; `fullRows` is only the degradation guard. */
-const HANG_TARGET = 15;
-function fullRows(available: number): number {
-  return available >= HANG_TARGET ? HANG_TARGET : Math.max(0, Math.floor(available / 5) * 5);
-}
+/* Mirrors app/[locale]/page.tsx exactly — see the long notes there. */
+const WALL_TARGET = 20;
+const HALL_COUNT = 7;
 
 export default async function HomepageV10Preview({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepageV6' });
+  const tLs = await getTranslations({ locale, namespace: 'levelSets' });
 
-  let decks: ShowcaseDeck[] = [];
+  let hall: ShowcaseDeck[] = [];
   try {
-    let sel = await selectShowcaseDecks(locale, 22);
+    let sel = await selectShowcaseDecks(locale, HALL_COUNT);
     // DB empty/unreachable -> the curated EN fallback set (a real worksheet
     // in the wrong language beats an empty wall).
-    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(22);
-    decks = sel.thumbs;
+    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(HALL_COUNT);
+    hall = sel.thumbs;
   } catch {
-    decks = fallbackShowcase(22).thumbs;
+    hall = fallbackShowcase(HALL_COUNT).thumbs;
+  }
+
+  let wallDecks: ShowcaseDeck[] = [];
+  try {
+    wallDecks = await selectWallDecks(locale, WALL_TARGET);
+  } catch {
+    wallDecks = [];
+  }
+  if (wallDecks.length < WALL_TARGET) {
+    const seen = new Set(wallDecks.map((d) => d.slug));
+    for (const d of fallbackWall(WALL_TARGET)) {
+      if (wallDecks.length >= WALL_TARGET) break;
+      if (!seen.has(d.slug)) wallDecks.push(d);
+    }
+  }
+  const works: WallWork[] = wallDecks.map((d) => ({
+    deck: d,
+    label: getAxisName('exercise-type', d.exerciseType, locale) || titleFor(d),
+  }));
+
+  let exhibit: SetExhibit | null = null;
+  try {
+    exhibit = await loadSetExhibit(locale, tLs);
+  } catch {
+    exhibit = fallbackExhibit(locale, tLs);
   }
 
   // One builder for both routes (components/homepage-v10/hero-strings.ts):
@@ -115,10 +146,18 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     playBody: t('practice.body'),
     playCta: t('practice.browseActivities'),
 
-    printH2: t('paper.heading'),
-    printBody: t('paper.body'),
+    printH2: t('set.roomHeading'),
+    printBody: t('set.roomBody'),
     printCta: t('practice.browseWorksheets'),
-    activitiesCta: t('practice.browseActivities'),
+    makersCta: t('hero.ctaMakers'),
+    setEyebrow: t('set.eyebrow'),
+    setCaption: t('set.caption'),
+    setSheetLabel: t('set.sheetLabel'),
+    setPlanTag: t('set.planTag'),
+    pathwayLabel: tLs('pathway'),
+    openSet: tLs('openSet'),
+    allSets: tLs('allSets'),
+    wallHeading: t('set.wallHeading'),
 
     studioH2: t('make.heading'),
     studioBody: t('make.body'),
@@ -129,6 +168,8 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
 
     plansH2: t('teacher.heading'),
     plansBody: t('teacher.body'),
+    plansNote: t('teacher.honest'),
+    plansReassure: t('teacher.reassure'),
     freeTitle: t('teacher.freeTitle'),
     freePrice: t('teacher.freeTag'),
     teacherPrice: t('teacher.teacherPrice', { price: SUBSCRIPTION_PRODUCT.priceUsd }),
@@ -159,12 +200,12 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
 
     closeH2: `${t('close.line1')} ${t('close.line2')}`,
     closeBody: t('close.body'),
-    closeCtaPrimary: t('close.ctaPrimary'),
+    closeCtaPrimary: t('teacher.teacherCta'),
     closeCtaSecondary: t('close.ctaSecondary'),
   };
 
-  /* Room II's exhibits, resolved per locale. Titles and slugs are native in
-     all eleven languages already; the grade band comes from the shared
+  /* The Playroom's exhibits, resolved per locale. Titles and slugs are native
+     in all eleven languages already; the grade band comes from the shared
      seo.educational_level namespace, which is likewise native x11. A row that
      fails to resolve is DROPPED rather than rendered half-blank. */
   const tg = await getTranslations({ locale, namespace: 'seo.educational_level' });
@@ -197,7 +238,7 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
   /* The loan label's REAL snippet — mirrors app/[locale]/page.tsx exactly.
      See the long note there for why iframeUrl and brandHref are both the
      deck directory. */
-  const embedDeck = decks[3];
+  const embedDeck = hall[5] ?? hall[0];
   const anchor = embedAnchor(locale);
   const embed = embedDeck
     ? {
@@ -225,13 +266,18 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
 
   return (
     <div className="hv10-page">
-      <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
-      <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-      <PrintRoom locale={locale} decks={decks.slice(6, 6 + fullRows(decks.length - 6))} strings={rooms} />
-      <Playroom locale={locale} strings={rooms} activities={alcoves} />
-      <Studio locale={locale} strings={rooms} />
-      <Dispatch locale={locale} strings={rooms} deck={embedDeck} embed={embed} />
-      <MembersRoom locale={locale} strings={rooms} />
+      <GrandHall
+        locale={locale}
+        decks={hall.slice(0, 5)}
+        setPages={exhibit ? exhibit.pages.map((p) => p.thumbnailUrl) : undefined}
+        strings={hero}
+      />
+      <PrintRoom locale={locale} numeral="I" works={works} exhibit={exhibit} strings={rooms} />
+      <Studio locale={locale} numeral="II" strings={rooms} />
+      <InstrumentHall locale={locale} numeral="III" strings={rooms} instruments={instruments} live={live} />
+      <Playroom locale={locale} numeral="IV" strings={rooms} activities={alcoves} />
+      <Dispatch locale={locale} numeral="V" strings={rooms} deck={embedDeck} embed={embed} />
+      <MembersRoom locale={locale} numeral="VI" strings={rooms} exhibit={exhibit} />
       <Exit locale={locale} strings={rooms} />
       {/* The catalogue at the back of the building — the crawl-bait link
           mesh. It alone carries the page past the 140-internal-link floor. */}

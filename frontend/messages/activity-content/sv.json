@@ -397,25 +397,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "En tioram visar en grupp djur, och ställer en enkel fråga: hur många? Barnet räknar djuren — var som helst från 0 till 10 — och skriver siffran som stämmer på knappsatsen. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
-        "Det här är räkningens svarssida. I stället för att bygga ett tal läser barnet ett antal som redan finns där och namnger det med en skriven siffra. Eftersom djuren sitter i tioramens två rader kan barnet börja känna igen mängder med en blick — en full översta rad är fem, en full ram är tio — och kontrollera genom att räkna ett och ett. Det steget, från att räkna till en enda skriven siffra, är själva kärnan i antalsuppfattning.",
-        "Aktiviteten följer Lgr22: att räkna för att svara på \"hur många?\" om föremål ordnade på en ram. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Ett bord fullt av djur och en enda fråga: hur många? Barnet trycker på varje djur för att räkna det – en numrerad lapp landar på djuret – och trycker sedan på talraden på det tal som säger hur många det är. Djuren står på rad, i rader, i en ring eller utspridda: precis de fyra uppställningar som räkning i förskoleklass handlar om. Körs i webbläsaren, utan installation och utan konto.",
+        "De tre räkneprinciperna sitter i materialet: ett djur kan bara få en lapp (ett-till-ett), lapparna numreras i den ordning de gavs (stabil räkneramsa) och den sista lappen lyser eftersom det sist sagda talet är svaret (kardinalitet). Hoppas ett djur över säger ledtråden det, och det oräknade djuret pulserar. Två fria drag – Räkna igen och Blanda om – låter barnet upptäcka att ordningen inte spelar någon roll och att antalet är detsamma när djuren flyttar sig.",
+        "Anpassat till Lgr22: räkna föremål upp till 10 för att svara på \"hur många?\". Ingen timer, inga poäng – lugn räkning med händerna."
       ],
       "practices": [
-        "Räkna en grupp djur som visas på en tioram",
-        "Svara på \"hur många?\" med rätt skrivet tal",
-        "Känna igen fem och tio utifrån ramens rader",
-        "Para ihop ett räknat antal med dess siffra 0 till 10"
+        "Ge varje djur en lapp medan man räknar högt",
+        "Svara på \"hur många?\" med talet på raden",
+        "Räkna saker på rad, i rader, i en ring och utspridda",
+        "Kolla att en grupp som räknas i en annan ordning blir samma tal"
       ],
       "howToPlay": [
-        "Titta på tioramen och räkna hur många djur du ser.",
-        "Skriv talet på knappsatsen och tryck på Kontrollera.",
-        "Inte riktigt rätt? Räkna igen och försök en gång till — det finns ingen tid och inga poäng."
+        "Tryck på varje djur för att räkna det och säg talet. En numrerad lapp landar på det.",
+        "När alla djur har en lapp lyser den sista: tryck på det talet på raden och tryck sedan på Kolla.",
+        "Prova Räkna igen eller Blanda om: ordningen ändras, antalet är detsamma. Ingen timer, inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan räkna för att svara på hur många om upp till tio föremål",
-        "Barnet kan namnge ett antal med den siffra som stämmer",
-        "Barnet bygger den antalsuppfattning som att läsa och skriva tal vilar på"
+        "Räkna upp till 10 föremål för att svara på \"hur många?\"",
+        "Räkna ett-till-ett och säga det sista talet som antalet",
+        "Räkna föremål på rad, i rader, i en ring och utspridda"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

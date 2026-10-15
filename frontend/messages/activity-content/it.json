@@ -1529,25 +1529,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "La tabella del dieci mostra un gruppo di animali e pone una sola domanda semplice: quanti? Il bambino conta gli animali — da 0 fino a 10 — e scrive la cifra corrispondente sul tastierino. È un'attività di conteggio interattiva per la scuola dell'infanzia, che funziona direttamente nel browser, senza installare nulla e senza account.",
-        "Questo è il lato del «rispondere» nel contare. Invece di costruire un numero, il bambino legge una quantità già presente e la nomina con un numero scritto. Poiché gli animali stanno nelle due righe della tabella del dieci, il bambino può cominciare a riconoscere le quantità a colpo d'occhio — una riga in alto piena è cinque, una tabella piena è dieci — e poi verificare contando uno per uno. Questo passaggio dal contare a un unico numero scritto è il cuore della cardinalità.",
-        "L'attività è allineata alle Indicazioni nazionali: contare per rispondere alla domanda «quanti?» su oggetti disposti su una tabella. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Un tavolo pieno di animali e una sola domanda: quanti sono? Il bambino tocca ogni animale per contarlo – un'etichetta numerata gli cade sopra – poi tocca sulla barra il numero che dice quanti sono. Gli animali sono in fila, in righe, in cerchio o sparsi: proprio le quattro disposizioni che il contare chiede alla scuola dell'infanzia. Funziona nel browser, senza installare nulla e senza account.",
+        "I tre principi del contare sono nel materiale: un animale può ricevere una sola etichetta (corrispondenza uno a uno), le etichette sono numerate nell'ordine in cui sono state date (ordine stabile) e l'ultima etichetta si illumina perché l'ultimo numero detto è la risposta (cardinalità). Se ne salta uno, il suggerimento lo dice e l'animale non contato si ingrandisce due volte. Due mosse libere – Conta di nuovo e Mescola – fanno scoprire che l'ordine non conta e che la quantità resta la stessa quando gli animali si spostano.",
+        "Contare raccolte fino a 10 elementi, come indicano le Indicazioni nazionali. Senza timer né punteggio: si conta con calma, con le mani."
       ],
       "practices": [
-        "Contare un gruppo di animali mostrato sulla tabella del dieci.",
-        "Rispondere a «quanti?» con il numero scritto corretto.",
-        "Riconoscere il cinque e il dieci dalle righe della tabella.",
-        "Abbinare una quantità contata alla sua cifra, da 0 a 10."
+        "Mettere un'etichetta a ogni animale contando a voce alta",
+        "Rispondere a «quanti sono?» con il numero sulla barra",
+        "Contare oggetti in fila, in righe, in cerchio e sparsi",
+        "Verificare che un gruppo contato in un altro ordine dia lo stesso numero"
       ],
       "howToPlay": [
-        "Il bambino guarda la tabella del dieci e conta quanti animali vede.",
-        "Scrive quel numero sul tastierino e preme «Controlla».",
-        "Se non è corretto, conta di nuovo e riprova: non c'è timer né punteggio."
+        "Tocca ogni animale per contarlo dicendo il numero. Un'etichetta numerata gli cade sopra.",
+        "Quando ogni animale ha l'etichetta, l'ultima si illumina: tocca quel numero sulla barra e premi Controlla.",
+        "Prova Conta di nuovo o Mescola: l'ordine cambia, la quantità resta. Senza timer, senza punteggio."
       ],
       "learningGoals": [
-        "Contare per rispondere a «quanti?» fino a dieci oggetti.",
-        "Nominare una quantità con la cifra scritta corrispondente.",
-        "Costruire la cardinalità su cui si fondano la lettura e la scrittura dei numeri."
+        "Contare fino a 10 oggetti per rispondere a «quanti sono?»",
+        "Etichettare uno a uno e dire l'ultimo numero come totale",
+        "Contare oggetti in fila, in righe, in cerchio e sparsi"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

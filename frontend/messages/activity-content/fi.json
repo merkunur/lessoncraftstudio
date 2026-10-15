@@ -285,25 +285,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Kymmenruudukko näyttää joukon eläinhahmoja ja kysyy yhden yksinkertaisen kysymyksen: kuinka monta? Lapsi laskee eläimet — niitä on 0–10 — ja kirjoittaa oikean luvun näppäimistöllä. Tämä on vuorovaikutteinen laskemisen tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tämä on laskemisen vastaava puoli. Sen sijaan, että lapsi rakentaisi luvun, hän lukee valmiin lukumäärän ja nimeää sen kirjoitetulla luvulla. Koska eläimet ovat kymmenruudukon kahdella rivillä, lapsi voi alkaa tunnistaa määriä yhdellä silmäyksellä — täysi ylärivi on viisi, täysi ruudukko kymmenen — ja tarkistaa laskemalla yksitellen. Tuo siirtyminen laskemisesta yhteen kirjoitettuun lukuun on lukumäärän ymmärtämisen ydin.",
-        "Tehtävä on OPS 2014:n mukainen: lapsi laskee vastatakseen kysymykseen \"kuinka monta?\" ruudukolle asetelluista esineistä. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Pöydällinen eläimiä ja yksi kysymys: kuinka monta? Lapsi napauttaa jokaista eläintä laskeakseen sen – eläimen päälle putoaa numeroitu lappu – ja napauttaa sitten lukurivillä numeroa, joka kertoo, kuinka monta niitä on. Eläimet ovat jonossa, riveissä, ympyrässä tai hajallaan: juuri ne neljä asettelua, joita laskeminen esiopetuksessa tarvitsee. Toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kolme laskemisen periaatetta ovat sisäänrakennettuina: eläin voi saada vain yhden lapun (yksi yhteen -vastaavuus), laput numeroidaan siinä järjestyksessä kuin ne annettiin (vakaa lukujono) ja viimeinen lappu hehkuu, koska viimeksi sanottu luku on vastaus (kardinaalisuus). Jos jokin eläin jää väliin, vihje kertoo sen ja laskematta jäänyt eläin sykkii. Kaksi vapaata siirtoa – Laske uudelleen ja Sekoita – antavat lapsen huomata, ettei järjestyksellä ole väliä ja että lukumäärä pysyy samana, kun eläimet siirtyvät.",
+        "Yhteensopiva OPS 2014:n kanssa: laske enintään 10 esinettä vastataksesi kysymykseen \"kuinka monta?\". Ei ajastinta, ei pisteitä – rauhallista laskemista käsillä."
       ],
       "practices": [
-        "Laskee kymmenruudukolla näkyvän eläinjoukon.",
-        "Vastaa kysymykseen \"kuinka monta?\" oikealla kirjoitetulla luvulla.",
-        "Tunnistaa viiden ja kymmenen ruudukon riveistä.",
-        "Yhdistää lasketun lukumäärän sitä vastaavaan lukuun 0–10."
+        "Jokaiselle eläimelle yksi lappu ääneen laskien",
+        "Kysymykseen \"kuinka monta?\" vastaaminen lukurivin numerolla",
+        "Esineiden laskeminen jonossa, riveissä, ympyrässä ja hajallaan",
+        "Sen tarkistaminen, että eri järjestyksessä laskettu ryhmä antaa saman luvun"
       ],
       "howToPlay": [
-        "Katso kymmenruudukkoa ja laske, kuinka monta eläintä näet.",
-        "Kirjoita tuo luku näppäimistöllä ja paina Tarkista.",
-        "Meneekö pieleen? Laske uudelleen ja kokeile vielä kerran — ei ajastinta eikä pisteitä."
+        "Napauta jokaista eläintä ja sano luku. Numeroitu lappu putoaa sen päälle.",
+        "Kun jokaisella eläimellä on lappu, viimeinen hehkuu: napauta sitä numeroa lukurivillä ja paina Tarkista.",
+        "Kokeile Laske uudelleen tai Sekoita: järjestys vaihtuu, lukumäärä pysyy. Ei ajastinta, ei pisteitä."
       ],
       "learningGoals": [
-        "Lapsi laskee vastatakseen kysymykseen \"kuinka monta?\" enintään kymmenestä esineestä.",
-        "Lapsi nimeää lukumäärän sitä vastaavalla kirjoitetulla luvulla.",
-        "Lapsi kehittää lukumäärän ymmärtämistä, johon lukujen lukeminen ja kirjoittaminen nojaavat."
+        "Laskea enintään 10 esinettä ja vastata kysymykseen \"kuinka monta?\"",
+        "Laskea yksi yhteen ja sanoa viimeinen luku lukumääränä",
+        "Laskea esineitä jonossa, riveissä, ympyrässä ja hajallaan"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

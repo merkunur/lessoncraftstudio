@@ -332,25 +332,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "A ten-frame shows a group of animal counters and asks one simple question: how many? The child counts the animals — anywhere from 0 to 10 — and types the matching numeral on the keypad. It's an interactive Kindergarten counting activity that runs right in the browser, with nothing to install and no account.",
-        "This is the answering side of counting. Instead of building a number, the child reads a quantity that is already there and names it with a written number. Because the counters sit in the two rows of a ten-frame, a child can begin to recognize amounts at a glance — a full top row is five, a full frame is ten — and check by counting one by one. That move from counting to a single written numeral is the heart of cardinality.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" questions about objects arranged on a frame. No timer, no score — just calm, playful practice."
+        "A table of animals and one question: how many? The child taps each animal to count it — a numbered tag drops on it — then taps the numeral on the rail that tells how many. The animals sit in a line, in rows, in a circle or scattered, exactly the four arrangements Kindergarten counting asks for. It runs in the browser, with nothing to install and no account.",
+        "This is counting with the three principles built into the material. An animal can be tagged only once (one-to-one), the tags are numbered in the order they were given (stable order), and the last tag glows because the last number said is the answer (cardinality). If something is skipped, the hint names it and the uncounted animal pulses. Two free moves — Count again and Mix them up — let a child discover that the order does not matter and that the number stays the same when the animals move.",
+        "It is the first half of Common Core K.CC.B.5 — counting to answer \"how many?\" about things arranged in a line, an array or a circle, or scattered; this table runs 0 to 10, the standard continues to 20. No timer, no score — just calm, hands-on counting."
       ],
       "practices": [
-        "Counting a group of animals shown on a ten-frame",
-        "Answering \"how many?\" with the correct written number",
-        "Recognizing five and ten from the rows of the frame",
-        "Matching a counted quantity to its numeral 0 to 10"
+        "Tagging each animal once while counting out loud",
+        "Answering \"how many?\" with the numeral on the rail",
+        "Counting things in a line, in rows, in a circle and scattered",
+        "Checking that a group counted in a new order is still the same number"
       ],
       "howToPlay": [
-        "Look at the ten-frame and count how many animals you see.",
-        "Type that number on the keypad and press Check.",
-        "Not quite? Count again and try once more — there is no timer and no score."
+        "Tap each animal to count it and say its number. A numbered tag lands on it.",
+        "When every animal has a tag, the last tag glows — tap that number on the rail, then press Check.",
+        "Try Count again or Mix them up: the order changes, the number stays the same. There is no timer and no score."
       ],
       "learningGoals": [
-        "Count to answer how many about up to ten objects — the focus of Common Core K.CC.B.5",
-        "Name a quantity with the matching written numeral",
-        "Build the cardinality that reading and writing numbers depends on"
+        "Count to answer how many about up to ten objects — the first half of Common Core K.CC.B.5",
+        "Use one-to-one tagging and name the last number as the total",
+        "Count objects in a line, an array, a circle and a scattered group"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

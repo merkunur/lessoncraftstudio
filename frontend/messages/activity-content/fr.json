@@ -2378,25 +2378,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Un cadre de dix montre un groupe de jetons-animaux et pose une seule question toute simple : combien ? L'enfant compte les animaux — de 0 à 10 — et tape le nombre correspondant sur le clavier. C'est une activité de numération interactive pour la maternelle, qui se joue directement dans le navigateur, sans rien installer et sans compte.",
-        "C'est ici le versant « réponse » du comptage. Au lieu de construire un nombre, l'enfant lit une quantité déjà présente et la nomme avec un nombre écrit. Comme les jetons sont placés dans les deux rangées du cadre de dix, l'enfant peut commencer à reconnaître des quantités d'un coup d'œil — une rangée du haut pleine, c'est cinq, un cadre entier, c'est dix — et vérifier en comptant un par un. Ce passage du comptage à un seul nombre écrit est au cœur de la cardinalité.",
-        "Cette activité est alignée sur les programmes officiels : compter pour répondre à la question « combien ? » à propos d'objets disposés sur un cadre. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Une table d'animaux et une seule question : combien ? L'enfant touche chaque animal pour le compter – une étiquette numérotée se pose dessus – puis il touche, sur la bande numérique, le nombre qui dit combien il y en a. Les animaux sont en ligne, en rangées, en cercle ou éparpillés : les quatre dispositions du dénombrement en maternelle. Dans le navigateur, sans installation ni compte.",
+        "Les trois principes du comptage sont dans le matériel : un animal ne peut recevoir qu'une étiquette (correspondance terme à terme), les étiquettes sont numérotées dans l'ordre où elles ont été posées (suite stable des nombres), et la dernière étiquette brille parce que le dernier nombre dit est la réponse (cardinalité). Si un animal est oublié, l'indice le dit et l'animal non compté grossit deux fois. Deux gestes libres – Recompter et Mélanger – font découvrir que l'ordre ne change rien et que le nombre reste le même quand les animaux bougent.",
+        "Dénombrer des quantités jusqu'à 10, comme le demandent les programmes de maternelle. Sans chronomètre ni score : on compte calmement, avec les mains."
       ],
       "practices": [
-        "Compter un groupe d'animaux affiché sur un cadre de dix.",
-        "Répondre à « combien ? » avec le bon nombre écrit.",
-        "Reconnaître cinq et dix grâce aux rangées du cadre.",
-        "Associer une quantité comptée à son nombre écrit, de 0 à 10."
+        "Poser une étiquette sur chaque animal en comptant à voix haute",
+        "Répondre à « combien ? » avec le nombre de la bande numérique",
+        "Compter des objets en ligne, en rangées, en cercle et éparpillés",
+        "Vérifier qu'un groupe recompté dans un autre ordre donne le même nombre"
       ],
       "howToPlay": [
-        "Regarde le cadre de dix et compte combien d'animaux tu vois.",
-        "Tape ce nombre sur le clavier et appuie sur Vérifier.",
-        "Pas tout à fait ? Recompte et essaie encore — il n'y a ni minuteur, ni score."
+        "Touche chaque animal pour le compter en disant le nombre. Une étiquette numérotée se pose dessus.",
+        "Quand chaque animal a son étiquette, la dernière brille : touche ce nombre sur la bande numérique, puis appuie sur Vérifier.",
+        "Essaie Recompter ou Mélanger : l'ordre change, le nombre reste le même. Pas de chronomètre, pas de score."
       ],
       "learningGoals": [
-        "Compter pour répondre à « combien ? » à propos de quantités allant jusqu'à dix.",
-        "Nommer une quantité avec le nombre écrit correspondant.",
-        "Construire la cardinalité dont dépendent la lecture et l'écriture des nombres."
+        "Dénombrer jusqu'à 10 objets pour répondre à « combien ? »",
+        "Compter terme à terme et nommer le dernier nombre comme total",
+        "Compter des objets en ligne, en rangées, en cercle et éparpillés"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

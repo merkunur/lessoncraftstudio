@@ -1,1349 +1,1277 @@
 [
-  {
-    "id": "ten-frame.count-to-10.make-n.animals",
-    "tool": "ten-frame-activity",
-    "task_template": "make-n",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.CC.B.4",
-      "grade": "K",
-      "strand": "Counting & Cardinality"
+ {
+  "id": "ten-frame.count-to-10.make-n.animals",
+  "tool": "ten-frame-activity",
+  "task_template": "make-n",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.CC.B.4",
+   "grade": "K",
+   "strand": "Counting & Cardinality"
+  },
+  "params": {
+   "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "range": {
+    "min": 0,
+    "max": 10
+   },
+   "frames": 1
+  },
+  "theme": "animals",
+  "slug": {
+   "en": "count-to-10-with-animals",
+   "de": "bis-10-zaehlen-mit-tieren",
+   "es": "contar-hasta-10-con-animales",
+   "fr": "compter-jusqu-a-10-avec-des-animaux",
+   "it": "contare-fino-a-10-con-animali",
+   "pt": "contar-ate-10-com-animais",
+   "nl": "tellen-tot-10-met-dieren",
+   "sv": "rakna-till-10-med-djur",
+   "da": "tael-til-10-med-dyr",
+   "no": "tell-til-10-med-dyr",
+   "fi": "laske-10-elaimilla"
+  },
+  "page_title": {
+   "en": "Count to 10 with Animals — Ten Frame Activity",
+   "de": "Mengenbilder bis 10 üben – Zehnerfeld online (Kindergarten)",
+   "es": "Contar hasta 10 con animales — Marco de diez",
+   "fr": "Apprendre à compter jusqu'à 10 – jeu en ligne (maternelle)",
+   "it": "Contare fino a 10 con animali — Tabella del dieci",
+   "pt": "Contar até 10 com animais — Quadro de dez",
+   "nl": "Tellen tot 10 met dieren — Tienraam",
+   "sv": "Räkna till 10 med djur — Tioram",
+   "da": "Tæl til 10 med dyr — Tierramme",
+   "no": "Tell til 10 med dyr — Tierramme",
+   "fi": "Laske 10 saakka eläimillä — Kymmenruudukko"
+  },
+  "page_intro": {
+   "en": "Practise counting from 0 to 10 on a ten-frame using animal counters. Aligned to Common Core K.CC.B.4 — connect counting to cardinality.",
+   "de": "Statt Würfelbildern: Mengen bis 10 im Zehnerfeld legen und auf einen Blick erfassen. Online üben, ohne Anmeldung – für Kita und Vorschule.",
+   "es": "Practica contar de 0 a 10 en un marco de diez con animales. Alineado con el currículo oficial — relacionar conteo y cardinalidad.",
+   "fr": "Apprendre à compter jusqu'à 10 en plaçant des animaux sur un cadre de dix, à son rythme. En ligne, sans inscription.",
+   "it": "Esercitati a contare da 0 a 10 su una tabella del dieci con animali. Allineato alle Indicazioni nazionali — collegare conteggio e cardinalità.",
+   "pt": "Pratique contar de 0 a 10 num quadro de dez com animais. Alinhado à BNCC — relacionar contagem e cardinalidade.",
+   "nl": "Oefen tellen van 0 tot 10 op een tienraam met dieren. Afgestemd op de kerndoelen — tellen koppelen aan kardinaliteit.",
+   "sv": "Öva på att räkna från 0 till 10 i en tioram med djur. Anpassat till Lgr22 — koppla räknande till kardinalitet.",
+   "da": "Øv at tælle fra 0 til 10 på en tierramme med dyr. Tilpasset Fælles Mål — forbind tælling med kardinalitet.",
+   "no": "Øv på å telle fra 0 til 10 på en tierramme med dyr. Tilpasset LK20 — knytt telling til kardinalitet.",
+   "fi": "Harjoittele laskemaan 0–10 kymmenruudukolla eläimillä. Yhteensopiva OPS 2014:n kanssa — yhdistä laskeminen kardinaliteettiin."
+  },
+  "kid_prompt_template": "taskMake"
+ },
+ {
+  "id": "ten-frame.count-to-20.make-n.fruits",
+  "tool": "ten-frame-activity",
+  "task_template": "make-n",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.CC.B.4",
+   "grade": "K",
+   "strand": "Counting & Cardinality"
+  },
+  "params": {
+   "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "range": {
+    "min": 0,
+    "max": 20
+   },
+   "frames": 2
+  },
+  "theme": "fruits",
+  "slug": {
+   "en": "count-to-20-with-fruits",
+   "de": "bis-20-zaehlen-mit-fruechten",
+   "es": "contar-hasta-20-con-frutas",
+   "fr": "compter-jusqu-a-20-avec-des-fruits",
+   "it": "contare-fino-a-20-con-frutta",
+   "pt": "contar-ate-20-com-frutas",
+   "nl": "tellen-tot-20-met-fruit",
+   "sv": "rakna-till-20-med-frukter",
+   "da": "tael-til-20-med-frugter",
+   "no": "tell-til-20-med-frukt",
+   "fi": "laske-20-hedelmilla"
+  },
+  "page_title": {
+   "en": "Count to 20 with Fruits — Double Ten Frame Activity",
+   "de": "Zwanzigerfeld – Zählen bis 20 online üben (Kindergarten)",
+   "es": "Contar hasta 20 con frutas — Marco de diez doble",
+   "fr": "Compter jusqu'à 20 – cadre de dix double, en ligne (GS)",
+   "it": "Contare fino a 20 con frutta — Doppia tabella del dieci",
+   "pt": "Contar até 20 com frutas — Quadro de dez duplo",
+   "nl": "Tellen tot 20 met fruit — Dubbel tienraam",
+   "sv": "Räkna till 20 med frukter — Dubbel tioram",
+   "da": "Tæl til 20 med frugter — Dobbelt tierramme",
+   "no": "Tell til 20 med frukt — Dobbel tierramme",
+   "fi": "Laske 20 saakka hedelmillä — Kaksoiskymmenruudukko"
+  },
+  "page_intro": {
+   "en": "Practise counting from 0 to 20 on a double ten-frame using fruit counters. Aligned to Common Core K.CC.B.4 — extend cardinality past 10.",
+   "de": "Zwanzigerfeld üben: im doppelten Zehnerfeld Mengen bis 20 legen und zählen – mit Früchten. Online üben, ohne Anmeldung.",
+   "es": "Practica contar de 0 a 20 en un marco de diez doble con frutas. Alineado con el currículo oficial — extender la cardinalidad más allá de 10.",
+   "fr": "Compter jusqu'à 20 avec des fruits sur un cadre de dix double : placer, compter, vérifier. En ligne, sans inscription.",
+   "it": "Esercitati a contare da 0 a 20 su una doppia tabella del dieci con frutta. Allineato alle Indicazioni nazionali — estendere la cardinalità oltre 10.",
+   "pt": "Pratique contar de 0 a 20 num quadro de dez duplo com frutas. Alinhado à BNCC — estender a cardinalidade além de 10.",
+   "nl": "Oefen tellen van 0 tot 20 op een dubbel tienraam met fruit. Afgestemd op de kerndoelen — kardinaliteit voorbij 10.",
+   "sv": "Öva på att räkna från 0 till 20 i en dubbel tioram med frukter. Anpassat till Lgr22 — utöka kardinaliteten över 10.",
+   "da": "Øv at tælle fra 0 til 20 på en dobbelt tierramme med frugter. Tilpasset Fælles Mål — udvid kardinaliteten ud over 10.",
+   "no": "Øv på å telle fra 0 til 20 på en dobbel tierramme med frukt. Tilpasset LK20 — utvid kardinaliteten forbi 10.",
+   "fi": "Harjoittele laskemaan 0–20 kaksoiskymmenruudukolla hedelmillä. Yhteensopiva OPS 2014:n kanssa — laajenna kardinaliteetti yli kymmenen."
+  },
+  "kid_prompt_template": "taskMake"
+ },
+ {
+  "id": "ten-frame.write-numeral.0-20.fruits",
+  "tool": "ten-frame-activity",
+  "task_template": "how-many",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.CC.A.3",
+   "grade": "K",
+   "strand": "Counting & Cardinality"
+  },
+  "params": {
+   "targets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "range": {
+    "min": 0,
+    "max": 20
+   },
+   "frames": 2
+  },
+  "theme": "fruits",
+  "slug": {
+   "en": "write-the-number-0-to-20-with-fruits",
+   "de": "zahlen-0-bis-20-schreiben-mit-fruechten",
+   "es": "escribir-numeros-0-a-20-con-frutas",
+   "fr": "ecrire-nombres-0-a-20-avec-des-fruits",
+   "it": "scrivere-numeri-0-a-20-con-frutta",
+   "pt": "escrever-numeros-0-a-20-com-frutas",
+   "nl": "getallen-0-tot-20-schrijven-met-fruit",
+   "sv": "skriva-siffror-0-till-20-med-frukter",
+   "da": "skrive-tal-0-til-20-med-frugter",
+   "no": "skrive-tall-0-til-20-med-frukt",
+   "fi": "kirjoita-numero-0-20-hedelmilla"
+  },
+  "page_title": {
+   "en": "Write the Number 0 to 20 with Fruits — Double Ten Frame",
+   "de": "Zahlen 0 bis 20 schreiben mit Früchten — Doppeltes Zehnerfeld",
+   "es": "Escribir números de 0 a 20 con frutas — Marco de diez doble",
+   "fr": "Les chiffres en maternelle – écrire de 0 à 20, en ligne (GS)",
+   "it": "Scrivere i numeri da 0 a 20 con frutta — Doppia tabella del dieci",
+   "pt": "Escrever números de 0 a 20 com frutas — Quadro de dez duplo",
+   "nl": "Getallen 0 tot 20 schrijven met fruit — Dubbel tienraam",
+   "sv": "Skriva siffror 0 till 20 med frukter — Dubbel tioram",
+   "da": "Skrive tal 0 til 20 med frugter — Dobbelt tierramme",
+   "no": "Skrive tall 0 til 20 med frukt — Dobbel tierramme",
+   "fi": "Kirjoita numero 0–20 hedelmillä — Kaksoiskymmenruudukko"
+  },
+  "page_intro": {
+   "en": "Count the fruits on the double ten-frame and write the numeral 0 to 20. Aligned to Common Core K.CC.A.3 — represent a number of objects with a written numeral.",
+   "de": "Zähle die Früchte auf dem doppelten Zehnerfeld und schreibe die Zahl 0 bis 20. An den Lehrplänen ausgerichtet — eine Anzahl mit Ziffern darstellen.",
+   "es": "Cuenta las frutas en el marco de diez doble y escribe el número de 0 a 20. Alineado con el currículo oficial — representar una cantidad con cifras.",
+   "fr": "Les chiffres en maternelle : compter les fruits puis écrire le nombre, de 0 à 20, sur un cadre de dix. En ligne, sans inscription.",
+   "it": "Conta la frutta sulla doppia tabella del dieci e scrivi il numero da 0 a 20. Allineato alle Indicazioni nazionali — rappresentare una quantità con un numero scritto.",
+   "pt": "Conta as frutas no quadro de dez duplo e escreve o número de 0 a 20. Alinhado à BNCC — representar uma quantidade com um numeral.",
+   "nl": "Tel het fruit op het dubbel tienraam en schrijf het getal 0 tot 20. Afgestemd op de kerndoelen — een aantal weergeven met een geschreven cijfer.",
+   "sv": "Räkna frukterna i den dubbla tioramen och skriv siffran 0 till 20. Anpassat till Lgr22 — representera ett antal med en skriven siffra.",
+   "da": "Tæl frugterne på den dobbelte tierramme og skriv tallet 0 til 20. Tilpasset Fælles Mål — repræsentér en mængde med et tal.",
+   "no": "Tell frukten på den doble tierrammen og skriv tallet 0 til 20. Tilpasset LK20 — representér et antall med et skrevet tall.",
+   "fi": "Laske hedelmät kaksoiskymmenruudukolla ja kirjoita numero 0–20. Yhteensopiva OPS 2014:n kanssa — esitä määrä kirjoitetulla numerolla."
+  },
+  "kid_prompt_template": "taskHowMany"
+ },
+ {
+  "id": "ten-frame.teen-numbers.make-n",
+  "tool": "ten-frame-activity",
+  "task_template": "make-n",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.NBT.A.1",
+   "grade": "K",
+   "strand": "Number & Operations in Base Ten"
+  },
+  "params": {
+   "targets": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "range": {
+    "min": 0,
+    "max": 20
+   },
+   "frames": 2
+  },
+  "theme": null,
+  "slug": {
+   "en": "teen-numbers-11-to-19",
+   "de": "zahlen-11-bis-19",
+   "es": "numeros-11-a-19",
+   "fr": "nombres-11-a-19",
+   "it": "numeri-11-a-19",
+   "pt": "numeros-11-a-19",
+   "nl": "getallen-11-tot-19",
+   "sv": "siffror-11-till-19",
+   "da": "tal-11-til-19",
+   "no": "tall-11-til-19",
+   "fi": "luvut-11-19"
+  },
+  "page_title": {
+   "en": "Teen Numbers 11 to 19 — Double Ten Frame Activity",
+   "de": "Zahlen 11 bis 19 — Doppeltes Zehnerfeld",
+   "es": "Números 11 a 19 — Marco de diez doble",
+   "fr": "Nombres de 11 à 19 — Cadre de dix double",
+   "it": "Numeri da 11 a 19 — Doppia tabella del dieci",
+   "pt": "Números 11 a 19 — Quadro de dez duplo",
+   "nl": "Getallen 11 tot 19 — Dubbel tienraam",
+   "sv": "Siffror 11 till 19 — Dubbel tioram",
+   "da": "Tal 11 til 19 — Dobbelt tierramme",
+   "no": "Tall 11 til 19 — Dobbel tierramme",
+   "fi": "Luvut 11–19 — Kaksoiskymmenruudukko"
+  },
+  "page_intro": {
+   "en": "Build teen numbers 11 to 19 as \"a full ten and some more.\" The double ten-frame shows ten ones plus the extra ones. Aligned to Common Core K.NBT.A.1.",
+   "de": "Baue Zahlen von 11 bis 19 als „ein volles Zehnerfeld und einige mehr\". Das doppelte Zehnerfeld zeigt zehn Einer plus die zusätzlichen. An den Lehrplänen ausgerichtet.",
+   "es": "Construye los números 11 a 19 como «un diez completo y algunos más». El marco de diez doble muestra diez unidades más las adicionales. Alineado con el currículo oficial.",
+   "fr": "Construis les nombres de 11 à 19 comme « un dizaine complète et quelques unités ». Le cadre de dix double montre dix unités plus les autres. Conforme aux programmes officiels.",
+   "it": "Costruisci i numeri da 11 a 19 come «un dieci pieno e altri ancora». La doppia tabella del dieci mostra dieci unità più altre. Allineato alle Indicazioni nazionali.",
+   "pt": "Constrói os números 11 a 19 como «uma dezena completa e mais alguns». O quadro de dez duplo mostra dez unidades mais as adicionais. Alinhado à BNCC.",
+   "nl": "Bouw getallen 11 tot 19 als \"een volle tien en nog wat meer\". Het dubbele tienraam toont tien enen plus de extra's. Afgestemd op de kerndoelen.",
+   "sv": "Bygg siffror 11 till 19 som \"en hel tia och några till\". Den dubbla tioramen visar tio ettor plus de extra. Anpassat till Lgr22.",
+   "da": "Byg tal 11 til 19 som \"en fuld tier og lidt mere\". Den dobbelte tierramme viser ti enere plus de ekstra. Tilpasset Fælles Mål.",
+   "no": "Bygg tall 11 til 19 som \"en hel tier og noen til\". Den doble tierrammen viser ti enere pluss de ekstra. Tilpasset LK20.",
+   "fi": "Rakenna luvut 11–19 muodossa \"täysi kymmen ja muutama lisää\". Kaksoiskymmenruudukko näyttää kymmenen ykköstä plus lisät. Yhteensopiva OPS 2014:n kanssa."
+  },
+  "kid_prompt_template": "taskMake"
+ },
+ {
+  "id": "ten-frame.show-the-operation.k-oa-a-1",
+  "tool": "ten-frame-activity",
+  "task_template": "represent-operation",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.1",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "problems": [
+    {
+     "a": 3,
+     "b": 2,
+     "op": "+"
     },
-    "params": {
-      "targets": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "range": {
-        "min": 0,
-        "max": 10
+    {
+     "a": 4,
+     "b": 3,
+     "op": "+"
+    },
+    {
+     "a": 5,
+     "b": 4,
+     "op": "+"
+    },
+    {
+     "a": 2,
+     "b": 6,
+     "op": "+"
+    },
+    {
+     "a": 1,
+     "b": 5,
+     "op": "+"
+    },
+    {
+     "a": 5,
+     "b": 2,
+     "op": "−"
+    },
+    {
+     "a": 8,
+     "b": 3,
+     "op": "−"
+    },
+    {
+     "a": 7,
+     "b": 4,
+     "op": "−"
+    },
+    {
+     "a": 9,
+     "b": 6,
+     "op": "−"
+    },
+    {
+     "a": 6,
+     "b": 2,
+     "op": "−"
+    }
+   ],
+   "frames": 1
+  },
+  "theme": null,
+  "slug": {
+   "en": "show-the-operation",
+   "de": "plus-und-minus-im-zehnerfeld-zeigen",
+   "es": "sumar-y-restar-en-el-marco-de-diez",
+   "it": "rappresenta-addizioni-e-sottrazioni-sulla-tabella-del-dieci",
+   "pt": "representar-adicao-subtracao-quadro-de-dez",
+   "fr": "representer-addition-soustraction-cadre-de-dix",
+   "nl": "optellen-en-aftrekken-op-het-tienraam",
+   "sv": "addition-och-subtraktion-pa-tioram",
+   "da": "addition-og-subtraktion-paa-tierrammen",
+   "no": "vis-pluss-og-minus-pa-tierammen",
+   "fi": "yhteen-ja-vahennyslasku-kymmenruudukossa"
+  },
+  "page_title": {
+   "en": "Show the Operation — Add & Subtract on a Ten Frame",
+   "de": "Plusaufgaben bis 10 – im Zehnerfeld zeigen und üben",
+   "es": "Sumar y Restar en el Marco de Diez",
+   "it": "Rappresenta Addizioni e Sottrazioni sulla Tabella del Dieci",
+   "pt": "Representar Adição e Subtração no Quadro de Dez",
+   "fr": "Addition maternelle – cadre de dix, exercice en ligne (GS)",
+   "nl": "Optellen En Aftrekken Op Het Tienraam",
+   "sv": "Addition och subtraktion på tioram",
+   "da": "Addition Og Subtraktion På Tierrammen",
+   "no": "Vis Pluss Og Minus På Tierammen",
+   "fi": "Yhteen- ja Vähennyslasku Kymmenruudukossa"
+  },
+  "page_intro": {
+   "en": "Represent addition and subtraction on a ten-frame with counters. For \"3 + 2\", place 3 counters then 2 more in a second colour to see the two parts make 5; for \"5 − 2\", start with 5 and take 2 away. Aligned to Common Core K.OA.A.1 — represent addition and subtraction with objects, fingers, and drawings.",
+   "de": "Plusaufgaben bis 10 mit Bildern: Plus und Minus im Zehnerfeld legen und verstehen. Online üben, ohne Anmeldung – anschaulich und warm.",
+   "es": "Representa sumas y restas en un marco de diez con fichas de colores. Para 3 + 2, coloca 3 fichas y agrega 2 más de otro color; para 5 − 2, comienza con 5 fichas y quita 2. Una forma concreta y divertida de que los niños vean los números, alineada a los planes y programas de estudio de la SEP.",
+   "it": "I bambini imparano a rappresentare addizioni e sottrazioni sulla tabella del dieci usando i gettoni: per 3 + 2 mettono prima 3 gettoni e poi ne aggiungono 2 di un altro colore, per 5 − 2 partono da 5 e ne tolgono 2. Con questi semplici gesti scoprono in modo concreto come i numeri si compongono e si scompongono fino a dieci. Un'attività calorosa e senza fretta, allineata alle Indicazioni nazionali.",
+   "pt": "Nesta atividade, as crianças representam adição e subtração num quadro de dez usando fichas coloridas. Para 3 + 2, a criança coloca 3 fichas e depois mais 2 de outra cor; para 5 − 2, começa com 5 fichas e tira 2. É uma forma concreta e acolhedora de visualizar como os números se juntam e se separam, alinhada à BNCC.",
+   "fr": "L'addition en maternelle : représenter une addition ou une soustraction sur un cadre de dix, en manipulant. En ligne, sans inscription.",
+   "nl": "Leg met fiches op het tienraam zien hoe optellen en aftrekken werkt. Voor 3 + 2 leg je eerst 3 fiches neer en daarna nog 2 in een andere kleur; voor 5 − 2 begin je met 5 fiches en haal je er 2 weg. Zo zien kleuters het rekenen echt voor zich, afgestemd op de SLO-kerndoelen.",
+   "sv": "På den här aktiviteten visar barnet addition och subtraktion på en tioram med hjälp av markörer. För 3 + 2 lägger barnet först 3 markörer och sedan 2 till i en annan färg; för 5 − 2 börjar barnet med 5 markörer och tar bort 2. Ett tryggt och konkret sätt att utforska tal upp till tio, anpassad till Lgr22.",
+   "da": "Lær de små at vise både addition og subtraktion på en tierramme med brikker. Til 3 + 2 lægger barnet først 3 brikker og derefter 2 mere i en anden farve, og til 5 − 2 starter det med 5 brikker og tager 2 væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+   "no": "Her viser barna addisjon og subtraksjon på en tierramme med tellebrikker. For 3 + 2 legger de tre brikker og så to til i en ny farge, og for 5 − 2 starter de med fem brikker og tar to bort. Aktiviteten er tilpasset rammeplanen og kompetansemålene i LK20.",
+   "fi": "Tällä toiminnolla lapsi kuvaa yhteen- ja vähennyslaskuja kymmenruudukossa siirtämällä laskupelimerkkejä ruutuihin. Laskussa 3 + 2 lapsi asettaa ensin kolme merkkiä ja lisää sitten kaksi toisenväristä merkkiä, ja laskussa 5 − 2 hän aloittaa viidellä merkillä ja ottaa kaksi pois. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja tukee luvun ja lukumäärän hahmottamista lempeästi ja leikkien."
+  },
+  "kid_prompt_template": "taskRepresentAdd"
+ },
+ {
+  "id": "ten-frame.solve-the-story.k-oa-a-2",
+  "tool": "ten-frame-activity",
+  "task_template": "word-problem",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.2",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "frames": 1,
+   "byLocale": {
+    "en": {
+     "rounds": [
+      {
+       "text": "3 birds sit on a branch. 2 more birds land. How many birds are there now?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
       },
-      "frames": 1
-    },
-    "theme": "animals",
-    "slug": {
-      "en": "count-to-10-with-animals",
-      "de": "bis-10-zaehlen-mit-tieren",
-      "es": "contar-hasta-10-con-animales",
-      "fr": "compter-jusqu-a-10-avec-des-animaux",
-      "it": "contare-fino-a-10-con-animali",
-      "pt": "contar-ate-10-com-animais",
-      "nl": "tellen-tot-10-met-dieren",
-      "sv": "rakna-till-10-med-djur",
-      "da": "tael-til-10-med-dyr",
-      "no": "tell-til-10-med-dyr",
-      "fi": "laske-10-elaimilla"
-    },
-    "page_title": {
-      "en": "Count to 10 with Animals — Ten Frame Activity",
-      "de": "Mengenbilder bis 10 üben – Zehnerfeld online (Kindergarten)",
-      "es": "Contar hasta 10 con animales — Marco de diez",
-      "fr": "Apprendre à compter jusqu'à 10 – jeu en ligne (maternelle)",
-      "it": "Contare fino a 10 con animali — Tabella del dieci",
-      "pt": "Contar até 10 com animais — Quadro de dez",
-      "nl": "Tellen tot 10 met dieren — Tienraam",
-      "sv": "Räkna till 10 med djur — Tioram",
-      "da": "Tæl til 10 med dyr — Tierramme",
-      "no": "Tell til 10 med dyr — Tierramme",
-      "fi": "Laske 10 saakka eläimillä — Kymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Practise counting from 0 to 10 on a ten-frame using animal counters. Aligned to Common Core K.CC.B.4 — connect counting to cardinality.",
-      "de": "Statt Würfelbildern: Mengen bis 10 im Zehnerfeld legen und auf einen Blick erfassen. Online üben, ohne Anmeldung – für Kita und Vorschule.",
-      "es": "Practica contar de 0 a 10 en un marco de diez con animales. Alineado con el currículo oficial — relacionar conteo y cardinalidad.",
-      "fr": "Apprendre à compter jusqu'à 10 en plaçant des animaux sur un cadre de dix, à son rythme. En ligne, sans inscription.",
-      "it": "Esercitati a contare da 0 a 10 su una tabella del dieci con animali. Allineato alle Indicazioni nazionali — collegare conteggio e cardinalità.",
-      "pt": "Pratique contar de 0 a 10 num quadro de dez com animais. Alinhado à BNCC — relacionar contagem e cardinalidade.",
-      "nl": "Oefen tellen van 0 tot 10 op een tienraam met dieren. Afgestemd op de kerndoelen — tellen koppelen aan kardinaliteit.",
-      "sv": "Öva på att räkna från 0 till 10 i en tioram med djur. Anpassat till Lgr22 — koppla räknande till kardinalitet.",
-      "da": "Øv at tælle fra 0 til 10 på en tierramme med dyr. Tilpasset Fælles Mål — forbind tælling med kardinalitet.",
-      "no": "Øv på å telle fra 0 til 10 på en tierramme med dyr. Tilpasset LK20 — knytt telling til kardinalitet.",
-      "fi": "Harjoittele laskemaan 0–10 kymmenruudukolla eläimillä. Yhteensopiva OPS 2014:n kanssa — yhdistä laskeminen kardinaliteettiin."
-    },
-    "kid_prompt_template": "taskMake"
-  },
-  {
-    "id": "ten-frame.count-to-20.make-n.fruits",
-    "tool": "ten-frame-activity",
-    "task_template": "make-n",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.CC.B.4",
-      "grade": "K",
-      "strand": "Counting & Cardinality"
-    },
-    "params": {
-      "targets": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "range": {
-        "min": 0,
-        "max": 20
+      {
+       "text": "4 apples are in a basket. You put in 3 more. How many apples are there now?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
       },
-      "frames": 2
-    },
-    "theme": "fruits",
-    "slug": {
-      "en": "count-to-20-with-fruits",
-      "de": "bis-20-zaehlen-mit-fruechten",
-      "es": "contar-hasta-20-con-frutas",
-      "fr": "compter-jusqu-a-20-avec-des-fruits",
-      "it": "contare-fino-a-20-con-frutta",
-      "pt": "contar-ate-20-com-frutas",
-      "nl": "tellen-tot-20-met-fruit",
-      "sv": "rakna-till-20-med-frukter",
-      "da": "tael-til-20-med-frugter",
-      "no": "tell-til-20-med-frukt",
-      "fi": "laske-20-hedelmilla"
-    },
-    "page_title": {
-      "en": "Count to 20 with Fruits — Double Ten Frame Activity",
-      "de": "Zwanzigerfeld – Zählen bis 20 online üben (Kindergarten)",
-      "es": "Contar hasta 20 con frutas — Marco de diez doble",
-      "fr": "Compter jusqu'à 20 – cadre de dix double, en ligne (GS)",
-      "it": "Contare fino a 20 con frutta — Doppia tabella del dieci",
-      "pt": "Contar até 20 com frutas — Quadro de dez duplo",
-      "nl": "Tellen tot 20 met fruit — Dubbel tienraam",
-      "sv": "Räkna till 20 med frukter — Dubbel tioram",
-      "da": "Tæl til 20 med frugter — Dobbelt tierramme",
-      "no": "Tell til 20 med frukt — Dobbel tierramme",
-      "fi": "Laske 20 saakka hedelmillä — Kaksoiskymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Practise counting from 0 to 20 on a double ten-frame using fruit counters. Aligned to Common Core K.CC.B.4 — extend cardinality past 10.",
-      "de": "Zwanzigerfeld üben: im doppelten Zehnerfeld Mengen bis 20 legen und zählen – mit Früchten. Online üben, ohne Anmeldung.",
-      "es": "Practica contar de 0 a 20 en un marco de diez doble con frutas. Alineado con el currículo oficial — extender la cardinalidad más allá de 10.",
-      "fr": "Compter jusqu'à 20 avec des fruits sur un cadre de dix double : placer, compter, vérifier. En ligne, sans inscription.",
-      "it": "Esercitati a contare da 0 a 20 su una doppia tabella del dieci con frutta. Allineato alle Indicazioni nazionali — estendere la cardinalità oltre 10.",
-      "pt": "Pratique contar de 0 a 20 num quadro de dez duplo com frutas. Alinhado à BNCC — estender a cardinalidade além de 10.",
-      "nl": "Oefen tellen van 0 tot 20 op een dubbel tienraam met fruit. Afgestemd op de kerndoelen — kardinaliteit voorbij 10.",
-      "sv": "Öva på att räkna från 0 till 20 i en dubbel tioram med frukter. Anpassat till Lgr22 — utöka kardinaliteten över 10.",
-      "da": "Øv at tælle fra 0 til 20 på en dobbelt tierramme med frugter. Tilpasset Fælles Mål — udvid kardinaliteten ud over 10.",
-      "no": "Øv på å telle fra 0 til 20 på en dobbel tierramme med frukt. Tilpasset LK20 — utvid kardinaliteten forbi 10.",
-      "fi": "Harjoittele laskemaan 0–20 kaksoiskymmenruudukolla hedelmillä. Yhteensopiva OPS 2014:n kanssa — laajenna kardinaliteetti yli kymmenen."
-    },
-    "kid_prompt_template": "taskMake"
-  },
-  {
-    "id": "ten-frame.how-many.0-10.animals",
-    "tool": "ten-frame-activity",
-    "task_template": "how-many",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.CC.B.5",
-      "grade": "K",
-      "strand": "Counting & Cardinality"
-    },
-    "params": {
-      "targets": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "range": {
-        "min": 0,
-        "max": 10
+      {
+       "text": "2 ducks swim in the pond. 4 more ducks join them. How many ducks are there now?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
       },
-      "frames": 1
-    },
-    "theme": "animals",
-    "slug": {
-      "en": "how-many-animals-0-to-10",
-      "de": "wie-viele-tiere-0-bis-10",
-      "es": "cuantos-animales-0-a-10",
-      "fr": "combien-d-animaux-0-a-10",
-      "it": "quanti-animali-0-a-10",
-      "pt": "quantos-animais-0-a-10",
-      "nl": "hoeveel-dieren-0-tot-10",
-      "sv": "hur-manga-djur-0-till-10",
-      "da": "hvor-mange-dyr-0-til-10",
-      "no": "hvor-mange-dyr-0-til-10",
-      "fi": "kuinka-monta-elainta-0-10"
-    },
-    "page_title": {
-      "en": "How Many Animals? Count 0 to 10 — Ten Frame Activity",
-      "de": "Mengen erfassen – Zählen 0 bis 10 im Zehnerfeld, online",
-      "es": "¿Cuántos animales? Contar de 0 a 10 — Marco de diez",
-      "fr": "Dénombrer des quantités jusqu'à 10 – exercice en ligne (GS)",
-      "it": "Quanti animali? Contare da 0 a 10 — Tabella del dieci",
-      "pt": "Quantos animais? Contar de 0 a 10 — Quadro de dez",
-      "nl": "Hoeveel dieren? Tellen van 0 tot 10 — Tienraam",
-      "sv": "Hur många djur? Räkna 0 till 10 — Tioram",
-      "da": "Hvor mange dyr? Tæl 0 til 10 — Tierramme",
-      "no": "Hvor mange dyr? Tell 0 til 10 — Tierramme",
-      "fi": "Kuinka monta eläintä? Laske 0–10 — Kymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Look at the ten-frame and answer how many animals you see. Aligned to Common Core K.CC.B.5 — count to answer \"how many?\" up to 20 things.",
-      "de": "Mengen erfassen und zählen: Wie viele Tiere sind im Zehnerfeld? Anzahlen von 0 bis 10 sicher erkennen. Online, ohne Anmeldung.",
-      "es": "Mira el marco de diez y di cuántos animales ves. Alineado con el currículo oficial — contar para responder «¿cuántos?».",
-      "fr": "Dénombrer des quantités de 0 à 10 sur un cadre de dix : combien d'animaux y a-t-il à chaque fois ? En ligne, sans inscription.",
-      "it": "Guarda la tabella del dieci e di' quanti animali vedi. Allineato alle Indicazioni nazionali — contare per rispondere a «quanti?».",
-      "pt": "Olha o quadro de dez e diz quantos animais vês. Alinhado à BNCC — contar para responder «quantos?».",
-      "nl": "Kijk naar het tienraam en zeg hoeveel dieren je ziet. Afgestemd op de kerndoelen — tellen om \"hoeveel?\" te beantwoorden.",
-      "sv": "Titta på tioramen och säg hur många djur du ser. Anpassat till Lgr22 — räkna för att svara på \"hur många?\".",
-      "da": "Se på tierrammen og sig hvor mange dyr du ser. Tilpasset Fælles Mål — tæl for at svare på \"hvor mange?\".",
-      "no": "Se på tierrammen og si hvor mange dyr du ser. Tilpasset LK20 — tell for å svare på \"hvor mange?\".",
-      "fi": "Katso kymmenruudukkoa ja sano, kuinka monta eläintä näet. Yhteensopiva OPS 2014:n kanssa — laske vastataksesi \"kuinka monta?\"."
-    },
-    "kid_prompt_template": "taskHowMany"
-  },
-  {
-    "id": "ten-frame.write-numeral.0-20.fruits",
-    "tool": "ten-frame-activity",
-    "task_template": "how-many",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.CC.A.3",
-      "grade": "K",
-      "strand": "Counting & Cardinality"
-    },
-    "params": {
-      "targets": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "range": {
-        "min": 0,
-        "max": 20
+      {
+       "text": "5 children play in the park. 4 more children come. How many children are there now?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
       },
-      "frames": 2
-    },
-    "theme": "fruits",
-    "slug": {
-      "en": "write-the-number-0-to-20-with-fruits",
-      "de": "zahlen-0-bis-20-schreiben-mit-fruechten",
-      "es": "escribir-numeros-0-a-20-con-frutas",
-      "fr": "ecrire-nombres-0-a-20-avec-des-fruits",
-      "it": "scrivere-numeri-0-a-20-con-frutta",
-      "pt": "escrever-numeros-0-a-20-com-frutas",
-      "nl": "getallen-0-tot-20-schrijven-met-fruit",
-      "sv": "skriva-siffror-0-till-20-med-frukter",
-      "da": "skrive-tal-0-til-20-med-frugter",
-      "no": "skrive-tall-0-til-20-med-frukt",
-      "fi": "kirjoita-numero-0-20-hedelmilla"
-    },
-    "page_title": {
-      "en": "Write the Number 0 to 20 with Fruits — Double Ten Frame",
-      "de": "Zahlen 0 bis 20 schreiben mit Früchten — Doppeltes Zehnerfeld",
-      "es": "Escribir números de 0 a 20 con frutas — Marco de diez doble",
-      "fr": "Les chiffres en maternelle – écrire de 0 à 20, en ligne (GS)",
-      "it": "Scrivere i numeri da 0 a 20 con frutta — Doppia tabella del dieci",
-      "pt": "Escrever números de 0 a 20 com frutas — Quadro de dez duplo",
-      "nl": "Getallen 0 tot 20 schrijven met fruit — Dubbel tienraam",
-      "sv": "Skriva siffror 0 till 20 med frukter — Dubbel tioram",
-      "da": "Skrive tal 0 til 20 med frugter — Dobbelt tierramme",
-      "no": "Skrive tall 0 til 20 med frukt — Dobbel tierramme",
-      "fi": "Kirjoita numero 0–20 hedelmillä — Kaksoiskymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Count the fruits on the double ten-frame and write the numeral 0 to 20. Aligned to Common Core K.CC.A.3 — represent a number of objects with a written numeral.",
-      "de": "Zähle die Früchte auf dem doppelten Zehnerfeld und schreibe die Zahl 0 bis 20. An den Lehrplänen ausgerichtet — eine Anzahl mit Ziffern darstellen.",
-      "es": "Cuenta las frutas en el marco de diez doble y escribe el número de 0 a 20. Alineado con el currículo oficial — representar una cantidad con cifras.",
-      "fr": "Les chiffres en maternelle : compter les fruits puis écrire le nombre, de 0 à 20, sur un cadre de dix. En ligne, sans inscription.",
-      "it": "Conta la frutta sulla doppia tabella del dieci e scrivi il numero da 0 a 20. Allineato alle Indicazioni nazionali — rappresentare una quantità con un numero scritto.",
-      "pt": "Conta as frutas no quadro de dez duplo e escreve o número de 0 a 20. Alinhado à BNCC — representar uma quantidade com um numeral.",
-      "nl": "Tel het fruit op het dubbel tienraam en schrijf het getal 0 tot 20. Afgestemd op de kerndoelen — een aantal weergeven met een geschreven cijfer.",
-      "sv": "Räkna frukterna i den dubbla tioramen och skriv siffran 0 till 20. Anpassat till Lgr22 — representera ett antal med en skriven siffra.",
-      "da": "Tæl frugterne på den dobbelte tierramme og skriv tallet 0 til 20. Tilpasset Fælles Mål — repræsentér en mængde med et tal.",
-      "no": "Tell frukten på den doble tierrammen og skriv tallet 0 til 20. Tilpasset LK20 — representér et antall med et skrevet tall.",
-      "fi": "Laske hedelmät kaksoiskymmenruudukolla ja kirjoita numero 0–20. Yhteensopiva OPS 2014:n kanssa — esitä määrä kirjoitetulla numerolla."
-    },
-    "kid_prompt_template": "taskHowMany"
-  },
-  {
-    "id": "ten-frame.teen-numbers.make-n",
-    "tool": "ten-frame-activity",
-    "task_template": "make-n",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.NBT.A.1",
-      "grade": "K",
-      "strand": "Number & Operations in Base Ten"
-    },
-    "params": {
-      "targets": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
-      ],
-      "range": {
-        "min": 0,
-        "max": 20
+      {
+       "text": "7 balloons float in the air. 3 balloons pop. How many balloons are left?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
       },
-      "frames": 2
-    },
-    "theme": null,
-    "slug": {
-      "en": "teen-numbers-11-to-19",
-      "de": "zahlen-11-bis-19",
-      "es": "numeros-11-a-19",
-      "fr": "nombres-11-a-19",
-      "it": "numeri-11-a-19",
-      "pt": "numeros-11-a-19",
-      "nl": "getallen-11-tot-19",
-      "sv": "siffror-11-till-19",
-      "da": "tal-11-til-19",
-      "no": "tall-11-til-19",
-      "fi": "luvut-11-19"
-    },
-    "page_title": {
-      "en": "Teen Numbers 11 to 19 — Double Ten Frame Activity",
-      "de": "Zahlen 11 bis 19 — Doppeltes Zehnerfeld",
-      "es": "Números 11 a 19 — Marco de diez doble",
-      "fr": "Nombres de 11 à 19 — Cadre de dix double",
-      "it": "Numeri da 11 a 19 — Doppia tabella del dieci",
-      "pt": "Números 11 a 19 — Quadro de dez duplo",
-      "nl": "Getallen 11 tot 19 — Dubbel tienraam",
-      "sv": "Siffror 11 till 19 — Dubbel tioram",
-      "da": "Tal 11 til 19 — Dobbelt tierramme",
-      "no": "Tall 11 til 19 — Dobbel tierramme",
-      "fi": "Luvut 11–19 — Kaksoiskymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Build teen numbers 11 to 19 as \"a full ten and some more.\" The double ten-frame shows ten ones plus the extra ones. Aligned to Common Core K.NBT.A.1.",
-      "de": "Baue Zahlen von 11 bis 19 als „ein volles Zehnerfeld und einige mehr\". Das doppelte Zehnerfeld zeigt zehn Einer plus die zusätzlichen. An den Lehrplänen ausgerichtet.",
-      "es": "Construye los números 11 a 19 como «un diez completo y algunos más». El marco de diez doble muestra diez unidades más las adicionales. Alineado con el currículo oficial.",
-      "fr": "Construis les nombres de 11 à 19 comme « un dizaine complète et quelques unités ». Le cadre de dix double montre dix unités plus les autres. Conforme aux programmes officiels.",
-      "it": "Costruisci i numeri da 11 a 19 come «un dieci pieno e altri ancora». La doppia tabella del dieci mostra dieci unità più altre. Allineato alle Indicazioni nazionali.",
-      "pt": "Constrói os números 11 a 19 como «uma dezena completa e mais alguns». O quadro de dez duplo mostra dez unidades mais as adicionais. Alinhado à BNCC.",
-      "nl": "Bouw getallen 11 tot 19 als \"een volle tien en nog wat meer\". Het dubbele tienraam toont tien enen plus de extra's. Afgestemd op de kerndoelen.",
-      "sv": "Bygg siffror 11 till 19 som \"en hel tia och några till\". Den dubbla tioramen visar tio ettor plus de extra. Anpassat till Lgr22.",
-      "da": "Byg tal 11 til 19 som \"en fuld tier og lidt mere\". Den dobbelte tierramme viser ti enere plus de ekstra. Tilpasset Fælles Mål.",
-      "no": "Bygg tall 11 til 19 som \"en hel tier og noen til\". Den doble tierrammen viser ti enere pluss de ekstra. Tilpasset LK20.",
-      "fi": "Rakenna luvut 11–19 muodossa \"täysi kymmen ja muutama lisää\". Kaksoiskymmenruudukko näyttää kymmenen ykköstä plus lisät. Yhteensopiva OPS 2014:n kanssa."
-    },
-    "kid_prompt_template": "taskMake"
-  },
-  {
-    "id": "ten-frame.show-the-operation.k-oa-a-1",
-    "tool": "ten-frame-activity",
-    "task_template": "represent-operation",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.OA.A.1",
-      "grade": "K",
-      "strand": "Operations & Algebraic Thinking"
-    },
-    "params": {
-      "problems": [
-        {
-          "a": 3,
-          "b": 2,
-          "op": "+"
-        },
-        {
-          "a": 4,
-          "b": 3,
-          "op": "+"
-        },
-        {
-          "a": 5,
-          "b": 4,
-          "op": "+"
-        },
-        {
-          "a": 2,
-          "b": 6,
-          "op": "+"
-        },
-        {
-          "a": 1,
-          "b": 5,
-          "op": "+"
-        },
-        {
-          "a": 5,
-          "b": 2,
-          "op": "−"
-        },
-        {
-          "a": 8,
-          "b": 3,
-          "op": "−"
-        },
-        {
-          "a": 7,
-          "b": 4,
-          "op": "−"
-        },
-        {
-          "a": 9,
-          "b": 6,
-          "op": "−"
-        },
-        {
-          "a": 6,
-          "b": 2,
-          "op": "−"
-        }
-      ],
-      "frames": 1
-    },
-    "theme": null,
-    "slug": {
-      "en": "show-the-operation",
-      "de": "plus-und-minus-im-zehnerfeld-zeigen",
-      "es": "sumar-y-restar-en-el-marco-de-diez",
-      "it": "rappresenta-addizioni-e-sottrazioni-sulla-tabella-del-dieci",
-      "pt": "representar-adicao-subtracao-quadro-de-dez",
-      "fr": "representer-addition-soustraction-cadre-de-dix",
-      "nl": "optellen-en-aftrekken-op-het-tienraam",
-      "sv": "addition-och-subtraktion-pa-tioram",
-      "da": "addition-og-subtraktion-paa-tierrammen",
-      "no": "vis-pluss-og-minus-pa-tierammen",
-      "fi": "yhteen-ja-vahennyslasku-kymmenruudukossa"
-    },
-    "page_title": {
-      "en": "Show the Operation — Add & Subtract on a Ten Frame",
-      "de": "Plusaufgaben bis 10 – im Zehnerfeld zeigen und üben",
-      "es": "Sumar y Restar en el Marco de Diez",
-      "it": "Rappresenta Addizioni e Sottrazioni sulla Tabella del Dieci",
-      "pt": "Representar Adição e Subtração no Quadro de Dez",
-      "fr": "Addition maternelle – cadre de dix, exercice en ligne (GS)",
-      "nl": "Optellen En Aftrekken Op Het Tienraam",
-      "sv": "Addition och subtraktion på tioram",
-      "da": "Addition Og Subtraktion På Tierrammen",
-      "no": "Vis Pluss Og Minus På Tierammen",
-      "fi": "Yhteen- ja Vähennyslasku Kymmenruudukossa"
-    },
-    "page_intro": {
-      "en": "Represent addition and subtraction on a ten-frame with counters. For \"3 + 2\", place 3 counters then 2 more in a second colour to see the two parts make 5; for \"5 − 2\", start with 5 and take 2 away. Aligned to Common Core K.OA.A.1 — represent addition and subtraction with objects, fingers, and drawings.",
-      "de": "Plusaufgaben bis 10 mit Bildern: Plus und Minus im Zehnerfeld legen und verstehen. Online üben, ohne Anmeldung – anschaulich und warm.",
-      "es": "Representa sumas y restas en un marco de diez con fichas de colores. Para 3 + 2, coloca 3 fichas y agrega 2 más de otro color; para 5 − 2, comienza con 5 fichas y quita 2. Una forma concreta y divertida de que los niños vean los números, alineada a los planes y programas de estudio de la SEP.",
-      "it": "I bambini imparano a rappresentare addizioni e sottrazioni sulla tabella del dieci usando i gettoni: per 3 + 2 mettono prima 3 gettoni e poi ne aggiungono 2 di un altro colore, per 5 − 2 partono da 5 e ne tolgono 2. Con questi semplici gesti scoprono in modo concreto come i numeri si compongono e si scompongono fino a dieci. Un'attività calorosa e senza fretta, allineata alle Indicazioni nazionali.",
-      "pt": "Nesta atividade, as crianças representam adição e subtração num quadro de dez usando fichas coloridas. Para 3 + 2, a criança coloca 3 fichas e depois mais 2 de outra cor; para 5 − 2, começa com 5 fichas e tira 2. É uma forma concreta e acolhedora de visualizar como os números se juntam e se separam, alinhada à BNCC.",
-      "fr": "L'addition en maternelle : représenter une addition ou une soustraction sur un cadre de dix, en manipulant. En ligne, sans inscription.",
-      "nl": "Leg met fiches op het tienraam zien hoe optellen en aftrekken werkt. Voor 3 + 2 leg je eerst 3 fiches neer en daarna nog 2 in een andere kleur; voor 5 − 2 begin je met 5 fiches en haal je er 2 weg. Zo zien kleuters het rekenen echt voor zich, afgestemd op de SLO-kerndoelen.",
-      "sv": "På den här aktiviteten visar barnet addition och subtraktion på en tioram med hjälp av markörer. För 3 + 2 lägger barnet först 3 markörer och sedan 2 till i en annan färg; för 5 − 2 börjar barnet med 5 markörer och tar bort 2. Ett tryggt och konkret sätt att utforska tal upp till tio, anpassad till Lgr22.",
-      "da": "Lær de små at vise både addition og subtraktion på en tierramme med brikker. Til 3 + 2 lægger barnet først 3 brikker og derefter 2 mere i en anden farve, og til 5 − 2 starter det med 5 brikker og tager 2 væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
-      "no": "Her viser barna addisjon og subtraksjon på en tierramme med tellebrikker. For 3 + 2 legger de tre brikker og så to til i en ny farge, og for 5 − 2 starter de med fem brikker og tar to bort. Aktiviteten er tilpasset rammeplanen og kompetansemålene i LK20.",
-      "fi": "Tällä toiminnolla lapsi kuvaa yhteen- ja vähennyslaskuja kymmenruudukossa siirtämällä laskupelimerkkejä ruutuihin. Laskussa 3 + 2 lapsi asettaa ensin kolme merkkiä ja lisää sitten kaksi toisenväristä merkkiä, ja laskussa 5 − 2 hän aloittaa viidellä merkillä ja ottaa kaksi pois. Tehtävä on OPS 2014 -opetussuunnitelman mukainen ja tukee luvun ja lukumäärän hahmottamista lempeästi ja leikkien."
-    },
-    "kid_prompt_template": "taskRepresentAdd"
-  },
-  {
-    "id": "ten-frame.solve-the-story.k-oa-a-2",
-    "tool": "ten-frame-activity",
-    "task_template": "word-problem",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.OA.A.2",
-      "grade": "K",
-      "strand": "Operations & Algebraic Thinking"
-    },
-    "params": {
-      "frames": 1,
-      "byLocale": {
-        "en": {
-          "rounds": [
-            {
-              "text": "3 birds sit on a branch. 2 more birds land. How many birds are there now?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "4 apples are in a basket. You put in 3 more. How many apples are there now?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 ducks swim in the pond. 4 more ducks join them. How many ducks are there now?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 children play in the park. 4 more children come. How many children are there now?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "7 balloons float in the air. 3 balloons pop. How many balloons are left?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "8 cookies are on a plate. You eat 2 cookies. How many cookies are left?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 fish swim in a tank. 4 fish swim away. How many fish are left?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "9 flowers grow in a pot. 5 flowers are picked. How many flowers are left?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "de": {
-          "rounds": [
-            {
-              "text": "3 Vögel sitzen auf einem Ast. 2 weitere Vögel landen dazu. Wie viele Vögel sind es jetzt?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "4 Äpfel liegen in einem Korb. Du legst 3 weitere Äpfel hinein. Wie viele Äpfel sind es jetzt?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 Enten schwimmen im Teich. 4 weitere Enten kommen dazu. Wie viele Enten sind es jetzt?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 Kinder spielen im Park. 4 weitere Kinder kommen dazu. Wie viele Kinder sind es jetzt?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "7 Luftballons schweben in der Luft. 3 Luftballons platzen. Wie viele Luftballons sind noch übrig?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "8 Kekse liegen auf einem Teller. Du isst 2 Kekse. Wie viele Kekse sind noch übrig?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 Fische schwimmen in einem Becken. 4 Fische schwimmen davon. Wie viele Fische sind noch übrig?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "9 Blumen wachsen in einem Topf. 5 Blumen werden gepflückt. Wie viele Blumen sind noch übrig?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "es": {
-          "rounds": [
-            {
-              "text": "3 pájaros están en el árbol. Llegan 2 pájaros más. ¿Cuántos pájaros hay ahora?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Hay 4 manzanas en la cesta. Ponemos 3 manzanas más. ¿Cuántas manzanas hay en total?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 patitos nadan en el estanque. Llegan 4 patitos más. ¿Cuántos patitos hay ahora?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 niños juegan en el parque. Vienen 4 niños más. ¿Cuántos niños hay en total?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Tienes 7 globos. Se revientan 3 globos. ¿Cuántos globos quedan?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Hay 8 galletas en el plato. Te comes 2 galletas. ¿Cuántas galletas quedan?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 peces nadan juntos. 4 peces se alejan nadando. ¿Cuántos peces quedan?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "En el jardín hay 9 flores. Cortamos 5 flores. ¿Cuántas flores quedan?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "it": {
-          "rounds": [
-            {
-              "text": "In giardino ci sono 3 uccellini. Ne arrivano altri 2 che si posano vicino. Quanti uccellini ci sono adesso in tutto?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "In un cestino ci sono 4 mele. La mamma ne mette altre 3. Quante mele ci sono ora nel cestino?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "Nello stagno nuotano 2 anatre. Poi arrivano altre 4 anatre a nuotare insieme. Quante anatre ci sono adesso?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "Al parco giocano 5 bambini. Ne arrivano altri 4 a giocare con loro. Quanti bambini ci sono ora in tutto?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Marco tiene 7 palloncini colorati. Ne scoppiano 3. Quanti palloncini gli rimangono?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Sul tavolo ci sono 8 biscotti. Ne mangiamo 2. Quanti biscotti restano sul tavolo?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "Nella vasca ci sono 6 pesciolini. Poi 4 nuotano via lontano. Quanti pesciolini rimangono nella vasca?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Nel prato ci sono 9 fiori. La bambina ne raccoglie 5. Quanti fiori restano nel prato?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "pt": {
-          "rounds": [
-            {
-              "text": "3 passarinhos estão pousados no galho. Mais 2 passarinhos chegam voando. Quantos passarinhos há agora no galho?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Tem 4 maçãs na cesta. A Lia coloca mais 3 maçãs na cesta. Quantas maçãs há agora na cesta?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 patinhos estão nadando no lago. Mais 4 patinhos vêm nadando juntos. Quantos patinhos há agora no lago?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 crianças estão brincando no parque. Mais 4 crianças chegam para brincar. Quantas crianças há agora no parque?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "O Téo tem 7 balões coloridos. 3 balões estouram. Quantos balões sobraram para o Téo?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Tem 8 biscoitos no prato. A Bia come 2 biscoitos. Quantos biscoitos sobraram no prato?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 peixinhos estão no aquário. 4 peixinhos nadam para longe. Quantos peixinhos sobraram no aquário?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Tem 9 flores no jardim. A Nina colhe 5 flores. Quantas flores sobraram no jardim?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "fr": {
-          "rounds": [
-            {
-              "text": "3 oiseaux sont sur la branche. 2 autres oiseaux arrivent. Combien d'oiseaux y a-t-il en tout ?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Il y a 4 pommes dans le panier. On en ajoute 3 de plus. Combien de pommes y a-t-il en tout ?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 canards nagent sur l'étang. 4 autres canards les rejoignent. Combien de canards y a-t-il en tout ?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 enfants jouent dans le jardin. 4 autres enfants arrivent. Combien d'enfants y a-t-il en tout ?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Il y a 7 ballons. 3 ballons éclatent. Combien de ballons reste-t-il ?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Il y a 8 biscuits sur l'assiette. On en mange 2. Combien de biscuits reste-t-il ?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 poissons nagent dans le bocal. 4 poissons s'en vont. Combien de poissons reste-t-il ?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Il y a 9 fleurs dans le jardin. On en cueille 5. Combien de fleurs reste-t-il ?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "nl": {
-          "rounds": [
-            {
-              "text": "Er zitten 3 vogels op het hek. Er komen 2 vogels bij. Hoeveel vogels zijn er nu?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "In het mandje liggen 4 appels. Je legt er 3 appels bij. Hoeveel appels zijn het nu?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "Er zwemmen 2 eendjes in de vijver. Er komen 4 eendjes bij. Hoeveel eendjes zijn er nu?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "Er spelen 5 kinderen in de zandbak. Er komen 4 kinderen bij. Hoeveel kinderen zijn er nu?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Je hebt 7 ballonnen. Er knappen 3 ballonnen. Hoeveel ballonnen heb je nog?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Op het bord liggen 8 koekjes. Je eet er 2 koekjes op. Hoeveel koekjes liggen er nog?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "Er zwemmen 6 visjes in de kom. Er zwemmen 4 visjes weg. Hoeveel visjes zijn er nog?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "In de tuin staan 9 bloemen. Je plukt er 5 bloemen. Hoeveel bloemen staan er nog?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "sv": {
-          "rounds": [
-            {
-              "text": "3 fåglar sitter på en gren. 2 fåglar till landar. Hur många fåglar är det nu?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Det ligger 4 äpplen i korgen. Du lägger 3 äpplen till. Hur många äpplen är det nu?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 ankor simmar i dammen. 4 ankor till kommer dit. Hur många ankor är det nu?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 barn leker på gården. 4 barn till kommer. Hur många barn är det nu?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Du har 7 ballonger. 3 ballonger spricker. Hur många ballonger är kvar?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Det finns 8 kakor på fatet. Du äter 2 kakor. Hur många kakor är kvar?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 fiskar simmar tillsammans. 4 fiskar simmar bort. Hur många fiskar är kvar?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Det står 9 blommor i vasen. Du plockar 5 blommor. Hur många blommor är kvar?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "da": {
-          "rounds": [
-            {
-              "text": "3 fugle sidder på grenen. 2 fugle mere lander ved siden af dem. Hvor mange fugle er der nu?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Der ligger 4 æbler i kurven. Du lægger 3 æbler mere ned i kurven. Hvor mange æbler er der i alt?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 ællinger svømmer på søen. 4 ællinger mere kommer hen til dem. Hvor mange ællinger er der nu?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "5 børn leger i haven. 4 børn mere kommer ud og leger med. Hvor mange børn er der i alt?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Du har 7 balloner. 3 balloner springer. Hvor mange balloner er der tilbage?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Der står 8 småkager på tallerkenen. Du spiser 2 småkager. Hvor mange småkager er der tilbage?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "6 fisk svømmer i dammen. 4 fisk svømmer væk. Hvor mange fisk er der tilbage?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Der står 9 blomster i vasen. Du plukker 5 blomster. Hvor mange blomster er der tilbage?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "no": {
-          "rounds": [
-            {
-              "text": "Det sitter 3 fugler på grenen. 2 fugler til lander. Hvor mange fugler er det nå?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Det ligger 4 epler i kurven. Du legger 3 epler til. Hvor mange epler er det nå?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "Det svømmer 2 ender i dammen. 4 ender til kommer. Hvor mange ender er det nå?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "Det leker 5 barn på lekeplassen. 4 barn til kommer. Hvor mange barn er det nå?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Du har 7 ballonger. 3 ballonger sprekker. Hvor mange ballonger er igjen?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Det ligger 8 kjeks på fatet. Du spiser 2 kjeks. Hvor mange kjeks er igjen?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "Det svømmer 6 fisker i bollen. 4 fisker svømmer vekk. Hvor mange fisker er igjen?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Det står 9 blomster i hagen. 5 blomster blir plukket. Hvor mange blomster er igjen?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        },
-        "fi": {
-          "rounds": [
-            {
-              "text": "3 lintua istuu oksalla. 2 lintua lentää lisää oksalle. Kuinka monta lintua oksalla on nyt?",
-              "a": 3,
-              "b": 2,
-              "op": "+",
-              "answer": 5
-            },
-            {
-              "text": "Korissa on 4 omenaa. Laitat koriin vielä 3 omenaa. Kuinka monta omenaa korissa on nyt?",
-              "a": 4,
-              "b": 3,
-              "op": "+",
-              "answer": 7
-            },
-            {
-              "text": "2 ankkaa ui lammessa. 4 ankkaa tulee uimaan lisää. Kuinka monta ankkaa lammessa on nyt?",
-              "a": 2,
-              "b": 4,
-              "op": "+",
-              "answer": 6
-            },
-            {
-              "text": "Puistossa leikkii 5 lasta. Vielä 4 lasta tulee leikkimään. Kuinka monta lasta puistossa on nyt?",
-              "a": 5,
-              "b": 4,
-              "op": "+",
-              "answer": 9
-            },
-            {
-              "text": "Ilmassa leijuu 7 ilmapalloa. 3 ilmapalloa puhkeaa. Kuinka monta ilmapalloa on jäljellä?",
-              "a": 7,
-              "b": 3,
-              "op": "−",
-              "answer": 4
-            },
-            {
-              "text": "Lautasella on 8 keksiä. Syöt 2 keksiä. Kuinka monta keksiä on jäljellä?",
-              "a": 8,
-              "b": 2,
-              "op": "−",
-              "answer": 6
-            },
-            {
-              "text": "Akvaariossa ui 6 kalaa. 4 kalaa ui pois. Kuinka monta kalaa on jäljellä?",
-              "a": 6,
-              "b": 4,
-              "op": "−",
-              "answer": 2
-            },
-            {
-              "text": "Ruukussa kasvaa 9 kukkaa. 5 kukkaa poimitaan. Kuinka monta kukkaa on jäljellä?",
-              "a": 9,
-              "b": 5,
-              "op": "−",
-              "answer": 4
-            }
-          ]
-        }
+      {
+       "text": "8 cookies are on a plate. You eat 2 cookies. How many cookies are left?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 fish swim in a tank. 4 fish swim away. How many fish are left?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "9 flowers grow in a pot. 5 flowers are picked. How many flowers are left?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
       }
+     ]
     },
-    "theme": null,
-    "slug": {
-      "en": "solve-the-story",
-      "de": "textaufgaben-bis-10",
-      "es": "problemas-de-sumar-y-restar-hasta-10",
-      "it": "problemi-addizione-sottrazione-entro-10",
-      "pt": "problemas-de-adicao-e-subtracao-ate-10",
-      "fr": "problemes-additions-soustractions-jusqu-a-10",
-      "nl": "verhaaltjessommen-tot-10",
-      "sv": "rakna-ut-textuppgifter-inom-10",
-      "da": "regnehistorier-inden-for-10",
-      "no": "tekstoppgaver-innenfor-10",
-      "fi": "sanalliset-tehtavat-kymppiin"
+    "de": {
+     "rounds": [
+      {
+       "text": "3 Vögel sitzen auf einem Ast. 2 weitere Vögel landen dazu. Wie viele Vögel sind es jetzt?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "4 Äpfel liegen in einem Korb. Du legst 3 weitere Äpfel hinein. Wie viele Äpfel sind es jetzt?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 Enten schwimmen im Teich. 4 weitere Enten kommen dazu. Wie viele Enten sind es jetzt?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 Kinder spielen im Park. 4 weitere Kinder kommen dazu. Wie viele Kinder sind es jetzt?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "7 Luftballons schweben in der Luft. 3 Luftballons platzen. Wie viele Luftballons sind noch übrig?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "8 Kekse liegen auf einem Teller. Du isst 2 Kekse. Wie viele Kekse sind noch übrig?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 Fische schwimmen in einem Becken. 4 Fische schwimmen davon. Wie viele Fische sind noch übrig?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "9 Blumen wachsen in einem Topf. 5 Blumen werden gepflückt. Wie viele Blumen sind noch übrig?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
     },
-    "page_title": {
-      "en": "Solve the Story — Add & Subtract Word Problems on a Ten Frame",
-      "de": "Rechnen in der Vorschule – Aufgaben bis 10 online üben",
-      "es": "Problemas de Sumar y Restar Hasta 10",
-      "it": "Problemi di Addizione e Sottrazione Entro il 10",
-      "pt": "Problemas de Adição e Subtração até 10 no Quadro de Dez",
-      "fr": "Problèmes de maths CP – exercice en ligne (jusqu'à 10)",
-      "nl": "Verhaaltjessommen Tot 10 Op Het Tienraam",
-      "sv": "Räkna ut textuppgifter inom 10",
-      "da": "Regnehistorier Inden For 10",
-      "no": "Tekstoppgaver Innenfor 10",
-      "fi": "Sanalliset Tehtävät Kymppiin"
+    "es": {
+     "rounds": [
+      {
+       "text": "3 pájaros están en el árbol. Llegan 2 pájaros más. ¿Cuántos pájaros hay ahora?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Hay 4 manzanas en la cesta. Ponemos 3 manzanas más. ¿Cuántas manzanas hay en total?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 patitos nadan en el estanque. Llegan 4 patitos más. ¿Cuántos patitos hay ahora?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 niños juegan en el parque. Vienen 4 niños más. ¿Cuántos niños hay en total?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Tienes 7 globos. Se revientan 3 globos. ¿Cuántos globos quedan?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Hay 8 galletas en el plato. Te comes 2 galletas. ¿Cuántas galletas quedan?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 peces nadan juntos. 4 peces se alejan nadando. ¿Cuántos peces quedan?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "En el jardín hay 9 flores. Cortamos 5 flores. ¿Cuántas flores quedan?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
     },
-    "page_intro": {
-      "en": "Solve addition and subtraction word problems within 10 using a ten-frame. Read each short story — like \"3 birds sit, 2 more land, how many now?\" — place counters on the frame to model it, then type how many there are. Aligned to Common Core K.OA.A.2 — solve word problems with objects and drawings.",
-      "de": "Rechnen für die Vorschule: kleine Textaufgaben bis 10 mit dem Zehnerfeld lösen – Plus und Minus anschaulich. Online, ohne Anmeldung.",
-      "es": "Resuelve problemas verbales de sumar y restar hasta el número 10 usando un marco de diez. Los niños leen una situación cercana y amable, mueven las fichas y descubren cuántos hay en total o cuántos quedan. Una práctica de cálculo mental temprano alineada a los planes y programas de estudio de la SEP.",
-      "it": "Risolvi semplici problemi di addizione e sottrazione entro il 10 usando la tabella del dieci. Ogni storia accompagna i bambini a contare, aggiungere e togliere con immagini chiare e un tono sereno. Attività allineata alle Indicazioni nazionali.",
-      "pt": "Nesta atividade, as crianças resolvem problemas de palavras de adição e subtração até 10 usando um quadro de dez para representar e contar as quantidades. Cada história convida a criança a ler a situação, montar os números no quadro e descobrir quantos sobraram ou quantos há ao todo. Atividade alinhada à BNCC para a Educação Infantil.",
-      "fr": "Petits problèmes de maths CP en ligne : additions et soustractions jusqu'à 10 en images. En ligne, sans inscription.",
-      "nl": "Op deze pagina oefenen kleuters met eenvoudige verhaaltjessommen: optellen en aftrekken tot 10 met behulp van een tienraam. De kinderen lezen een herkenbaar verhaaltje, leggen de hoeveelheden op het tienraam en zoeken samen het antwoord. Deze oefening is afgestemd op de SLO-kerndoelen voor het jonge kind.",
-      "sv": "Lös addition och subtraktion i textuppgifter inom 10 med hjälp av en tioram. Barnet läser en kort vardagshändelse, fyller i tioramen och räknar ut svaret steg för steg. Övningen är anpassad till Lgr22.",
-      "da": "Øv dig i at løse regnehistorier med plus og minus inden for 10 ved hjælp af en tierramme. Børnene læser en lille historie, lægger tællebrikker på tierrammen og finder svaret ved at tælle med og tælle væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
-      "no": "Øv på å løse tekstoppgaver med addisjon og subtraksjon innenfor 10 ved hjelp av en tierramme. Barnet leser en liten fortelling, finner tallene og regner ut svaret med tierrammen som støtte. Aktiviteten er tilpasset kompetansemålene i matematikk i Læreplanverket LK20.",
-      "fi": "Ratkaise yhteen- ja vähennyslaskujen sanallisia tehtäviä kymppiin asti kymmenruudukon ja laskupalikoiden avulla. Lapsi lukee lyhyen tarinan, asettaa laskupalikat kymmenruudukkoon ja löytää vastauksen konkreettisesti laskemalla. Tehtävät ovat OPS 2014 -opetussuunnitelman mukaisia."
+    "it": {
+     "rounds": [
+      {
+       "text": "In giardino ci sono 3 uccellini. Ne arrivano altri 2 che si posano vicino. Quanti uccellini ci sono adesso in tutto?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "In un cestino ci sono 4 mele. La mamma ne mette altre 3. Quante mele ci sono ora nel cestino?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "Nello stagno nuotano 2 anatre. Poi arrivano altre 4 anatre a nuotare insieme. Quante anatre ci sono adesso?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "Al parco giocano 5 bambini. Ne arrivano altri 4 a giocare con loro. Quanti bambini ci sono ora in tutto?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Marco tiene 7 palloncini colorati. Ne scoppiano 3. Quanti palloncini gli rimangono?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Sul tavolo ci sono 8 biscotti. Ne mangiamo 2. Quanti biscotti restano sul tavolo?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "Nella vasca ci sono 6 pesciolini. Poi 4 nuotano via lontano. Quanti pesciolini rimangono nella vasca?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Nel prato ci sono 9 fiori. La bambina ne raccoglie 5. Quanti fiori restano nel prato?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
     },
-    "kid_prompt_template": "taskStoryProblem"
+    "pt": {
+     "rounds": [
+      {
+       "text": "3 passarinhos estão pousados no galho. Mais 2 passarinhos chegam voando. Quantos passarinhos há agora no galho?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Tem 4 maçãs na cesta. A Lia coloca mais 3 maçãs na cesta. Quantas maçãs há agora na cesta?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 patinhos estão nadando no lago. Mais 4 patinhos vêm nadando juntos. Quantos patinhos há agora no lago?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 crianças estão brincando no parque. Mais 4 crianças chegam para brincar. Quantas crianças há agora no parque?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "O Téo tem 7 balões coloridos. 3 balões estouram. Quantos balões sobraram para o Téo?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Tem 8 biscoitos no prato. A Bia come 2 biscoitos. Quantos biscoitos sobraram no prato?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 peixinhos estão no aquário. 4 peixinhos nadam para longe. Quantos peixinhos sobraram no aquário?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Tem 9 flores no jardim. A Nina colhe 5 flores. Quantas flores sobraram no jardim?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "fr": {
+     "rounds": [
+      {
+       "text": "3 oiseaux sont sur la branche. 2 autres oiseaux arrivent. Combien d'oiseaux y a-t-il en tout ?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Il y a 4 pommes dans le panier. On en ajoute 3 de plus. Combien de pommes y a-t-il en tout ?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 canards nagent sur l'étang. 4 autres canards les rejoignent. Combien de canards y a-t-il en tout ?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 enfants jouent dans le jardin. 4 autres enfants arrivent. Combien d'enfants y a-t-il en tout ?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Il y a 7 ballons. 3 ballons éclatent. Combien de ballons reste-t-il ?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Il y a 8 biscuits sur l'assiette. On en mange 2. Combien de biscuits reste-t-il ?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 poissons nagent dans le bocal. 4 poissons s'en vont. Combien de poissons reste-t-il ?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Il y a 9 fleurs dans le jardin. On en cueille 5. Combien de fleurs reste-t-il ?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "nl": {
+     "rounds": [
+      {
+       "text": "Er zitten 3 vogels op het hek. Er komen 2 vogels bij. Hoeveel vogels zijn er nu?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "In het mandje liggen 4 appels. Je legt er 3 appels bij. Hoeveel appels zijn het nu?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "Er zwemmen 2 eendjes in de vijver. Er komen 4 eendjes bij. Hoeveel eendjes zijn er nu?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "Er spelen 5 kinderen in de zandbak. Er komen 4 kinderen bij. Hoeveel kinderen zijn er nu?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Je hebt 7 ballonnen. Er knappen 3 ballonnen. Hoeveel ballonnen heb je nog?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Op het bord liggen 8 koekjes. Je eet er 2 koekjes op. Hoeveel koekjes liggen er nog?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "Er zwemmen 6 visjes in de kom. Er zwemmen 4 visjes weg. Hoeveel visjes zijn er nog?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "In de tuin staan 9 bloemen. Je plukt er 5 bloemen. Hoeveel bloemen staan er nog?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "sv": {
+     "rounds": [
+      {
+       "text": "3 fåglar sitter på en gren. 2 fåglar till landar. Hur många fåglar är det nu?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Det ligger 4 äpplen i korgen. Du lägger 3 äpplen till. Hur många äpplen är det nu?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 ankor simmar i dammen. 4 ankor till kommer dit. Hur många ankor är det nu?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 barn leker på gården. 4 barn till kommer. Hur många barn är det nu?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Du har 7 ballonger. 3 ballonger spricker. Hur många ballonger är kvar?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Det finns 8 kakor på fatet. Du äter 2 kakor. Hur många kakor är kvar?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 fiskar simmar tillsammans. 4 fiskar simmar bort. Hur många fiskar är kvar?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Det står 9 blommor i vasen. Du plockar 5 blommor. Hur många blommor är kvar?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "da": {
+     "rounds": [
+      {
+       "text": "3 fugle sidder på grenen. 2 fugle mere lander ved siden af dem. Hvor mange fugle er der nu?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Der ligger 4 æbler i kurven. Du lægger 3 æbler mere ned i kurven. Hvor mange æbler er der i alt?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 ællinger svømmer på søen. 4 ællinger mere kommer hen til dem. Hvor mange ællinger er der nu?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "5 børn leger i haven. 4 børn mere kommer ud og leger med. Hvor mange børn er der i alt?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Du har 7 balloner. 3 balloner springer. Hvor mange balloner er der tilbage?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Der står 8 småkager på tallerkenen. Du spiser 2 småkager. Hvor mange småkager er der tilbage?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "6 fisk svømmer i dammen. 4 fisk svømmer væk. Hvor mange fisk er der tilbage?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Der står 9 blomster i vasen. Du plukker 5 blomster. Hvor mange blomster er der tilbage?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "no": {
+     "rounds": [
+      {
+       "text": "Det sitter 3 fugler på grenen. 2 fugler til lander. Hvor mange fugler er det nå?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Det ligger 4 epler i kurven. Du legger 3 epler til. Hvor mange epler er det nå?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "Det svømmer 2 ender i dammen. 4 ender til kommer. Hvor mange ender er det nå?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "Det leker 5 barn på lekeplassen. 4 barn til kommer. Hvor mange barn er det nå?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Du har 7 ballonger. 3 ballonger sprekker. Hvor mange ballonger er igjen?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Det ligger 8 kjeks på fatet. Du spiser 2 kjeks. Hvor mange kjeks er igjen?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "Det svømmer 6 fisker i bollen. 4 fisker svømmer vekk. Hvor mange fisker er igjen?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Det står 9 blomster i hagen. 5 blomster blir plukket. Hvor mange blomster er igjen?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    },
+    "fi": {
+     "rounds": [
+      {
+       "text": "3 lintua istuu oksalla. 2 lintua lentää lisää oksalle. Kuinka monta lintua oksalla on nyt?",
+       "a": 3,
+       "b": 2,
+       "op": "+",
+       "answer": 5
+      },
+      {
+       "text": "Korissa on 4 omenaa. Laitat koriin vielä 3 omenaa. Kuinka monta omenaa korissa on nyt?",
+       "a": 4,
+       "b": 3,
+       "op": "+",
+       "answer": 7
+      },
+      {
+       "text": "2 ankkaa ui lammessa. 4 ankkaa tulee uimaan lisää. Kuinka monta ankkaa lammessa on nyt?",
+       "a": 2,
+       "b": 4,
+       "op": "+",
+       "answer": 6
+      },
+      {
+       "text": "Puistossa leikkii 5 lasta. Vielä 4 lasta tulee leikkimään. Kuinka monta lasta puistossa on nyt?",
+       "a": 5,
+       "b": 4,
+       "op": "+",
+       "answer": 9
+      },
+      {
+       "text": "Ilmassa leijuu 7 ilmapalloa. 3 ilmapalloa puhkeaa. Kuinka monta ilmapalloa on jäljellä?",
+       "a": 7,
+       "b": 3,
+       "op": "−",
+       "answer": 4
+      },
+      {
+       "text": "Lautasella on 8 keksiä. Syöt 2 keksiä. Kuinka monta keksiä on jäljellä?",
+       "a": 8,
+       "b": 2,
+       "op": "−",
+       "answer": 6
+      },
+      {
+       "text": "Akvaariossa ui 6 kalaa. 4 kalaa ui pois. Kuinka monta kalaa on jäljellä?",
+       "a": 6,
+       "b": 4,
+       "op": "−",
+       "answer": 2
+      },
+      {
+       "text": "Ruukussa kasvaa 9 kukkaa. 5 kukkaa poimitaan. Kuinka monta kukkaa on jäljellä?",
+       "a": 9,
+       "b": 5,
+       "op": "−",
+       "answer": 4
+      }
+     ]
+    }
+   }
   },
-  {
-    "id": "ten-frame.quick-facts-to-5.k-oa-a-5",
-    "tool": "ten-frame-activity",
-    "task_template": "quick-fact",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.OA.A.5",
-      "grade": "K",
-      "strand": "Operations & Algebraic Thinking"
+  "theme": null,
+  "slug": {
+   "en": "solve-the-story",
+   "de": "textaufgaben-bis-10",
+   "es": "problemas-de-sumar-y-restar-hasta-10",
+   "it": "problemi-addizione-sottrazione-entro-10",
+   "pt": "problemas-de-adicao-e-subtracao-ate-10",
+   "fr": "problemes-additions-soustractions-jusqu-a-10",
+   "nl": "verhaaltjessommen-tot-10",
+   "sv": "rakna-ut-textuppgifter-inom-10",
+   "da": "regnehistorier-inden-for-10",
+   "no": "tekstoppgaver-innenfor-10",
+   "fi": "sanalliset-tehtavat-kymppiin"
+  },
+  "page_title": {
+   "en": "Solve the Story — Add & Subtract Word Problems on a Ten Frame",
+   "de": "Rechnen in der Vorschule – Aufgaben bis 10 online üben",
+   "es": "Problemas de Sumar y Restar Hasta 10",
+   "it": "Problemi di Addizione e Sottrazione Entro il 10",
+   "pt": "Problemas de Adição e Subtração até 10 no Quadro de Dez",
+   "fr": "Problèmes de maths CP – exercice en ligne (jusqu'à 10)",
+   "nl": "Verhaaltjessommen Tot 10 Op Het Tienraam",
+   "sv": "Räkna ut textuppgifter inom 10",
+   "da": "Regnehistorier Inden For 10",
+   "no": "Tekstoppgaver Innenfor 10",
+   "fi": "Sanalliset Tehtävät Kymppiin"
+  },
+  "page_intro": {
+   "en": "Solve addition and subtraction word problems within 10 using a ten-frame. Read each short story — like \"3 birds sit, 2 more land, how many now?\" — place counters on the frame to model it, then type how many there are. Aligned to Common Core K.OA.A.2 — solve word problems with objects and drawings.",
+   "de": "Rechnen für die Vorschule: kleine Textaufgaben bis 10 mit dem Zehnerfeld lösen – Plus und Minus anschaulich. Online, ohne Anmeldung.",
+   "es": "Resuelve problemas verbales de sumar y restar hasta el número 10 usando un marco de diez. Los niños leen una situación cercana y amable, mueven las fichas y descubren cuántos hay en total o cuántos quedan. Una práctica de cálculo mental temprano alineada a los planes y programas de estudio de la SEP.",
+   "it": "Risolvi semplici problemi di addizione e sottrazione entro il 10 usando la tabella del dieci. Ogni storia accompagna i bambini a contare, aggiungere e togliere con immagini chiare e un tono sereno. Attività allineata alle Indicazioni nazionali.",
+   "pt": "Nesta atividade, as crianças resolvem problemas de palavras de adição e subtração até 10 usando um quadro de dez para representar e contar as quantidades. Cada história convida a criança a ler a situação, montar os números no quadro e descobrir quantos sobraram ou quantos há ao todo. Atividade alinhada à BNCC para a Educação Infantil.",
+   "fr": "Petits problèmes de maths CP en ligne : additions et soustractions jusqu'à 10 en images. En ligne, sans inscription.",
+   "nl": "Op deze pagina oefenen kleuters met eenvoudige verhaaltjessommen: optellen en aftrekken tot 10 met behulp van een tienraam. De kinderen lezen een herkenbaar verhaaltje, leggen de hoeveelheden op het tienraam en zoeken samen het antwoord. Deze oefening is afgestemd op de SLO-kerndoelen voor het jonge kind.",
+   "sv": "Lös addition och subtraktion i textuppgifter inom 10 med hjälp av en tioram. Barnet läser en kort vardagshändelse, fyller i tioramen och räknar ut svaret steg för steg. Övningen är anpassad till Lgr22.",
+   "da": "Øv dig i at løse regnehistorier med plus og minus inden for 10 ved hjælp af en tierramme. Børnene læser en lille historie, lægger tællebrikker på tierrammen og finder svaret ved at tælle med og tælle væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+   "no": "Øv på å løse tekstoppgaver med addisjon og subtraksjon innenfor 10 ved hjelp av en tierramme. Barnet leser en liten fortelling, finner tallene og regner ut svaret med tierrammen som støtte. Aktiviteten er tilpasset kompetansemålene i matematikk i Læreplanverket LK20.",
+   "fi": "Ratkaise yhteen- ja vähennyslaskujen sanallisia tehtäviä kymppiin asti kymmenruudukon ja laskupalikoiden avulla. Lapsi lukee lyhyen tarinan, asettaa laskupalikat kymmenruudukkoon ja löytää vastauksen konkreettisesti laskemalla. Tehtävät ovat OPS 2014 -opetussuunnitelman mukaisia."
+  },
+  "kid_prompt_template": "taskStoryProblem"
+ },
+ {
+  "id": "ten-frame.quick-facts-to-5.k-oa-a-5",
+  "tool": "ten-frame-activity",
+  "task_template": "quick-fact",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.5",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "frames": 1,
+   "problems": [
+    {
+     "a": 2,
+     "b": 1,
+     "op": "+",
+     "answer": 3,
+     "choices": [
+      4,
+      3,
+      5
+     ]
     },
-    "params": {
-      "frames": 1,
-      "problems": [
-        {
-          "a": 2,
-          "b": 1,
-          "op": "+",
-          "answer": 3,
-          "choices": [
-            4,
-            3,
-            5
-          ]
-        },
-        {
-          "a": 2,
-          "b": 2,
-          "op": "+",
-          "answer": 4,
-          "choices": [
-            3,
-            4,
-            2
-          ]
-        },
-        {
-          "a": 2,
-          "b": 3,
-          "op": "+",
-          "answer": 5,
-          "choices": [
-            5,
-            3,
-            4
-          ]
-        },
-        {
-          "a": 1,
-          "b": 3,
-          "op": "+",
-          "answer": 4,
-          "choices": [
-            5,
-            4,
-            3
-          ]
-        },
-        {
-          "a": 5,
-          "b": 2,
-          "op": "−",
-          "answer": 3,
-          "choices": [
-            4,
-            7,
-            3
-          ]
-        },
-        {
-          "a": 4,
-          "b": 1,
-          "op": "−",
-          "answer": 3,
-          "choices": [
-            2,
-            3,
-            1
-          ]
-        },
-        {
-          "a": 3,
-          "b": 1,
-          "op": "−",
-          "answer": 2,
-          "choices": [
-            3,
-            2,
-            4
-          ]
-        },
-        {
-          "a": 5,
-          "b": 1,
-          "op": "−",
-          "answer": 4,
-          "choices": [
-            6,
-            4,
-            3
-          ]
-        }
-      ]
+    {
+     "a": 2,
+     "b": 2,
+     "op": "+",
+     "answer": 4,
+     "choices": [
+      3,
+      4,
+      2
+     ]
     },
-    "theme": null,
-    "slug": {
-      "en": "quick-facts-to-5",
-      "de": "schnelles-kopfrechnen-bis-5",
-      "es": "sumas-y-restas-hasta-5",
-      "it": "calcoli-rapidi-entro-il-5",
-      "pt": "fatos-rapidos-ate-5",
-      "fr": "additions-soustractions-rapides-jusqua-5",
-      "nl": "snel-rekenen-tot-5",
-      "sv": "snabba-tal-upp-till-5",
-      "da": "hurtige-talfakta-til-5",
-      "no": "raske-regnefakta-til-5",
-      "fi": "pikalaskut-viiteen"
+    {
+     "a": 2,
+     "b": 3,
+     "op": "+",
+     "answer": 5,
+     "choices": [
+      5,
+      3,
+      4
+     ]
     },
-    "page_title": {
-      "en": "Quick Facts to 5 — Add & Subtract Fluently",
-      "de": "Zahlenraum 5 – Plus und Minus flüssig üben (online)",
-      "es": "Sumas y Restas Hasta el 5 — Calcula con Fluidez",
-      "it": "Calcoli Rapidi Entro il 5 — Addizioni e Sottrazioni con Sicurezza",
-      "pt": "Fatos Rápidos Até 5 — Somar e Subtrair com Fluência",
-      "fr": "Additions et Soustractions Rapides Jusqu'à 5",
-      "nl": "Snel Rekenen Tot 5 — Vlot Optellen En Aftrekken",
-      "sv": "Snabba tal upp till 5 — addera och subtrahera med säkerhet",
-      "da": "Hurtige Talfakta Til 5 — Plus Og Minus",
-      "no": "Raske Regnefakta Til 5 – Pluss Og Minus",
-      "fi": "Pikalaskut Viiteen — Yhteen- Ja Vähennyslaskut Sujuvasti"
+    {
+     "a": 1,
+     "b": 3,
+     "op": "+",
+     "answer": 4,
+     "choices": [
+      5,
+      4,
+      3
+     ]
     },
-    "page_intro": {
-      "en": "Build fluency with addition and subtraction facts within 5. See a quick fact like 3 + 2 or 5 − 2, then tap the answer fast — a ten-frame is there if you want to check. Aligned to Common Core K.OA.A.5 — fluently add and subtract within 5.",
-      "de": "Rechnen im Zahlenraum 5: Plus- und Minusaufgaben bis 5 sicher und flüssig lösen – im Zehnerfeld. Online üben, ohne Anmeldung.",
-      "es": "Practica las operaciones de suma y resta hasta el 5 usando un marco de diez, para que tu peque reconozca cada resultado de un vistazo y con confianza. Ve la operación (por ejemplo, 3 + 2) y toca la respuesta con seguridad, afianzando el cálculo mental sin prisas ni presión. Una actividad pensada para ganar fluidez y recordar las combinaciones básicas con calma, alineada a los planes y programas de estudio de la SEP.",
-      "it": "Su questa pagina i bambini esercitano la padronanza delle addizioni e sottrazioni entro il 5, usando la tabella del dieci per visualizzare i numeri e richiamare i risultati con sicurezza. Vedono un calcolo come \"3 + 2 = ?\" e toccano la risposta giusta, allenando il richiamo rapido e tranquillo dei fatti numerici di base. Un'attività serena e amichevole, allineata alle Indicazioni nazionali.",
-      "pt": "Nesta atividade, as crianças praticam os fatos de adição e subtração até 5 em um quadro de dez, tocando a resposta com confiança e tranquilidade. A repetição amigável fortalece a memória rápida desses fatos, ajudando cada criança a reconhecer as combinações sem precisar contar tudo de novo. Conteúdo alinhado à BNCC.",
-      "fr": "Avec ce cadre de dix, votre enfant s'entraîne à reconnaître rapidement les additions et soustractions dont le résultat ne dépasse pas 5. En voyant « 3 + 2 = ? », il apprend à donner la bonne réponse en toute confiance, sans hésitation et sans compter sur ses doigts. Une activité douce et rassurante pour gagner en aisance avec les petits nombres, alignée aux programmes officiels.",
-      "nl": "Met dit tienraam oefent je kleuter het vlot optellen en aftrekken van sommen tot 5, zoals \"3 + 2 = ?\". De som verschijnt en je kind tikt rustig en zelfverzekerd het juiste antwoord aan, zodat de getalbeelden tot 5 vanzelf gaan herkennen. Een fijne manier om vlotte rekenfeiten op te bouwen, afgestemd op de SLO-kerndoelen.",
-      "sv": "Här övar barnen på att snabbt komma ihåg addition och subtraktion inom 5 med hjälp av en tioram. När barnet ser \"3 + 2 = ?\" stödjer tioramen den trygga och säkra återkallningen av talkombinationer, helt utan tävling eller tidtagning. Aktiviteten bygger en lugn taluppfattning steg för steg och är anpassad till Lgr22.",
-      "da": "Øv flydende plus- og minus-talfakta inden for 5 på en tierramme, hvor barnet ser et regnestykke som \"3 + 2 = ?\" og roligt finder det rigtige svar. Med tierrammen som tryg støtte træner barnet sikker, hurtig genkaldelse af tallene op til 5 — i sit eget tempo og helt uden konkurrence. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
-      "no": "Øv på rask gjenkjenning av pluss- og minusfakta innenfor 5 ved hjelp av en tierramme. Barnet ser et regnestykke som «3 + 2 = ?» og tapper svaret raskt fra valgene, slik at de bygger trygg og sikker tallforståelse. Aktiviteten er tilpasset rammeverket LK20.",
-      "fi": "Tällä tehtävällä lapsi harjoittelee yhteen- ja vähennyslaskuja lukualueella 0–5 kymmenruudukon avulla. Lapsi näkee laskun, kuten 3 + 2 = ?, ja valitsee oikean vastauksen — tavoitteena on rauhallinen, varma muistista laskeminen ilman kiirettä. Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen."
+    {
+     "a": 5,
+     "b": 2,
+     "op": "−",
+     "answer": 3,
+     "choices": [
+      4,
+      7,
+      3
+     ]
     },
-    "kid_prompt_template": "taskQuickAdd"
-  }
+    {
+     "a": 4,
+     "b": 1,
+     "op": "−",
+     "answer": 3,
+     "choices": [
+      2,
+      3,
+      1
+     ]
+    },
+    {
+     "a": 3,
+     "b": 1,
+     "op": "−",
+     "answer": 2,
+     "choices": [
+      3,
+      2,
+      4
+     ]
+    },
+    {
+     "a": 5,
+     "b": 1,
+     "op": "−",
+     "answer": 4,
+     "choices": [
+      6,
+      4,
+      3
+     ]
+    }
+   ]
+  },
+  "theme": null,
+  "slug": {
+   "en": "quick-facts-to-5",
+   "de": "schnelles-kopfrechnen-bis-5",
+   "es": "sumas-y-restas-hasta-5",
+   "it": "calcoli-rapidi-entro-il-5",
+   "pt": "fatos-rapidos-ate-5",
+   "fr": "additions-soustractions-rapides-jusqua-5",
+   "nl": "snel-rekenen-tot-5",
+   "sv": "snabba-tal-upp-till-5",
+   "da": "hurtige-talfakta-til-5",
+   "no": "raske-regnefakta-til-5",
+   "fi": "pikalaskut-viiteen"
+  },
+  "page_title": {
+   "en": "Quick Facts to 5 — Add & Subtract Fluently",
+   "de": "Zahlenraum 5 – Plus und Minus flüssig üben (online)",
+   "es": "Sumas y Restas Hasta el 5 — Calcula con Fluidez",
+   "it": "Calcoli Rapidi Entro il 5 — Addizioni e Sottrazioni con Sicurezza",
+   "pt": "Fatos Rápidos Até 5 — Somar e Subtrair com Fluência",
+   "fr": "Additions et Soustractions Rapides Jusqu'à 5",
+   "nl": "Snel Rekenen Tot 5 — Vlot Optellen En Aftrekken",
+   "sv": "Snabba tal upp till 5 — addera och subtrahera med säkerhet",
+   "da": "Hurtige Talfakta Til 5 — Plus Og Minus",
+   "no": "Raske Regnefakta Til 5 – Pluss Og Minus",
+   "fi": "Pikalaskut Viiteen — Yhteen- Ja Vähennyslaskut Sujuvasti"
+  },
+  "page_intro": {
+   "en": "Build fluency with addition and subtraction facts within 5. See a quick fact like 3 + 2 or 5 − 2, then tap the answer fast — a ten-frame is there if you want to check. Aligned to Common Core K.OA.A.5 — fluently add and subtract within 5.",
+   "de": "Rechnen im Zahlenraum 5: Plus- und Minusaufgaben bis 5 sicher und flüssig lösen – im Zehnerfeld. Online üben, ohne Anmeldung.",
+   "es": "Practica las operaciones de suma y resta hasta el 5 usando un marco de diez, para que tu peque reconozca cada resultado de un vistazo y con confianza. Ve la operación (por ejemplo, 3 + 2) y toca la respuesta con seguridad, afianzando el cálculo mental sin prisas ni presión. Una actividad pensada para ganar fluidez y recordar las combinaciones básicas con calma, alineada a los planes y programas de estudio de la SEP.",
+   "it": "Su questa pagina i bambini esercitano la padronanza delle addizioni e sottrazioni entro il 5, usando la tabella del dieci per visualizzare i numeri e richiamare i risultati con sicurezza. Vedono un calcolo come \"3 + 2 = ?\" e toccano la risposta giusta, allenando il richiamo rapido e tranquillo dei fatti numerici di base. Un'attività serena e amichevole, allineata alle Indicazioni nazionali.",
+   "pt": "Nesta atividade, as crianças praticam os fatos de adição e subtração até 5 em um quadro de dez, tocando a resposta com confiança e tranquilidade. A repetição amigável fortalece a memória rápida desses fatos, ajudando cada criança a reconhecer as combinações sem precisar contar tudo de novo. Conteúdo alinhado à BNCC.",
+   "fr": "Avec ce cadre de dix, votre enfant s'entraîne à reconnaître rapidement les additions et soustractions dont le résultat ne dépasse pas 5. En voyant « 3 + 2 = ? », il apprend à donner la bonne réponse en toute confiance, sans hésitation et sans compter sur ses doigts. Une activité douce et rassurante pour gagner en aisance avec les petits nombres, alignée aux programmes officiels.",
+   "nl": "Met dit tienraam oefent je kleuter het vlot optellen en aftrekken van sommen tot 5, zoals \"3 + 2 = ?\". De som verschijnt en je kind tikt rustig en zelfverzekerd het juiste antwoord aan, zodat de getalbeelden tot 5 vanzelf gaan herkennen. Een fijne manier om vlotte rekenfeiten op te bouwen, afgestemd op de SLO-kerndoelen.",
+   "sv": "Här övar barnen på att snabbt komma ihåg addition och subtraktion inom 5 med hjälp av en tioram. När barnet ser \"3 + 2 = ?\" stödjer tioramen den trygga och säkra återkallningen av talkombinationer, helt utan tävling eller tidtagning. Aktiviteten bygger en lugn taluppfattning steg för steg och är anpassad till Lgr22.",
+   "da": "Øv flydende plus- og minus-talfakta inden for 5 på en tierramme, hvor barnet ser et regnestykke som \"3 + 2 = ?\" og roligt finder det rigtige svar. Med tierrammen som tryg støtte træner barnet sikker, hurtig genkaldelse af tallene op til 5 — i sit eget tempo og helt uden konkurrence. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+   "no": "Øv på rask gjenkjenning av pluss- og minusfakta innenfor 5 ved hjelp av en tierramme. Barnet ser et regnestykke som «3 + 2 = ?» og tapper svaret raskt fra valgene, slik at de bygger trygg og sikker tallforståelse. Aktiviteten er tilpasset rammeverket LK20.",
+   "fi": "Tällä tehtävällä lapsi harjoittelee yhteen- ja vähennyslaskuja lukualueella 0–5 kymmenruudukon avulla. Lapsi näkee laskun, kuten 3 + 2 = ?, ja valitsee oikean vastauksen — tavoitteena on rauhallinen, varma muistista laskeminen ilman kiirettä. Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen."
+  },
+  "kid_prompt_template": "taskQuickAdd"
+ }
 ]

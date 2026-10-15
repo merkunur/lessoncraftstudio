@@ -2565,25 +2565,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Un marco de diez muestra un grupo de fichas con animales y hace una pregunta sencilla: ¿cuántos? El niño o la niña cuenta los animales (de 0 a 10) y escribe el numeral que coincide en el teclado. Es una actividad de conteo para preescolar (kínder), interactiva, que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "Este es el lado de «responder» del conteo. En lugar de armar un número, el niño o la niña lee una cantidad que ya está ahí y la nombra con un número escrito. Como las fichas se acomodan en las dos filas del marco de diez, poco a poco puede reconocer cantidades de un vistazo (una fila de arriba llena son cinco, el marco completo son diez) y comprobar contando de uno en uno. Ese paso de contar a un solo numeral escrito es el corazón de la cardinalidad.",
-        "Está alineada con los planes y programas de estudio (SEP): contar para responder a la pregunta «¿cuántos?» sobre objetos acomodados en un marco. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Una mesa con animales y una sola pregunta: ¿cuántos hay? El niño toca cada animal para contarlo —una etiqueta numerada cae sobre él— y después toca en la barra el número que dice cuántos hay. Los animales están en fila, en varias filas, en círculo o dispersos: justo las cuatro disposiciones que pide el conteo en preescolar. Funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Los tres principios del conteo están en el material: un animal solo puede recibir una etiqueta (correspondencia uno a uno), las etiquetas se numeran en el orden en que se pusieron (orden estable) y la última etiqueta brilla porque el último número dicho es la respuesta (cardinalidad). Si se salta alguno, la pista lo dice y el animal sin contar se agranda dos veces. Dos movimientos libres —Contar otra vez y Mezclar— dejan descubrir que el orden no importa y que la cantidad sigue igual cuando los animales se mueven.",
+        "Contar colecciones de hasta 10 elementos, como marca el plan de estudios de preescolar. Sin cronómetro ni puntaje: se cuenta con calma y con las manos."
       ],
       "practices": [
-        "Contar un grupo de animales mostrado en un marco de diez.",
-        "Responder «¿cuántos?» con el número escrito correcto.",
-        "Reconocer el cinco y el diez a partir de las filas del marco.",
-        "Relacionar una cantidad contada con su numeral del 0 al 10."
+        "Poner una etiqueta a cada animal mientras se cuenta en voz alta",
+        "Responder «¿cuántos hay?» con el número de la barra",
+        "Contar cosas en fila, en varias filas, en círculo y dispersas",
+        "Comprobar que un grupo contado en otro orden sigue siendo el mismo número"
       ],
       "howToPlay": [
-        "Mira el marco de diez y cuenta cuántos animales ves.",
-        "Escribe ese número en el teclado y pulsa Comprobar.",
-        "¿No salió a la primera? Cuenta otra vez e inténtalo de nuevo: no hay temporizador ni puntuación."
+        "Toca cada animal para contarlo diciendo el número. Una etiqueta numerada cae sobre él.",
+        "Cuando todos tienen etiqueta, la última brilla: toca ese número en la barra y presiona Revisar.",
+        "Prueba Contar otra vez o Mezclar: el orden cambia, la cantidad sigue igual. Sin cronómetro, sin puntaje."
       ],
       "learningGoals": [
-        "Contar para responder «¿cuántos?» sobre hasta diez objetos.",
-        "Nombrar una cantidad con el numeral escrito que le corresponde.",
-        "Formar la cardinalidad de la que dependen la lectura y la escritura de números."
+        "Contar hasta 10 objetos para responder «¿cuántos hay?»",
+        "Etiquetar uno a uno y nombrar el último número como total",
+        "Contar objetos en fila, en varias filas, en círculo y dispersos"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

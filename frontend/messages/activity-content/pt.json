@@ -1033,25 +1033,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Um quadro de dez mostra um grupo de animais e faz uma pergunta simples: quantos? A criança conta os animais — de 0 a 10 — e digita o número correspondente no teclado numérico. É uma atividade de contagem interativa para a educação infantil, que roda direto no navegador, sem instalar nada e sem conta.",
-        "Este é o lado de “responder” da contagem. Em vez de montar um número, a criança lê uma quantidade que já está ali e a nomeia com um número escrito. Como os animais ficam nas duas fileiras do quadro de dez, ela começa a reconhecer quantidades de relance — uma fileira de cima cheia é cinco, o quadro inteiro cheio é dez — e confere contando um por um. Essa passagem da contagem para um único número escrito é o coração da ideia de quantidade.",
-        "A atividade está alinhada à BNCC, no campo de Números, na ideia de contar para responder “quantos?” sobre objetos organizados em um quadro. Sem cronômetro e sem pontuação — só prática calma e divertida."
+        "Uma mesa com animais e uma só pergunta: quantos são? A criança toca em cada animal para contá-lo — uma etiqueta numerada cai sobre ele — e depois toca, na barra, no número que diz quantos são. Os animais ficam em fila, em linhas, em círculo ou espalhados: exatamente as quatro disposições que a contagem na Educação Infantil pede. Funciona no navegador, sem instalar nada e sem conta.",
+        "Os três princípios da contagem estão no material: um animal só pode receber uma etiqueta (correspondência um a um), as etiquetas são numeradas na ordem em que foram dadas (ordem estável) e a última etiqueta brilha porque o último número dito é a resposta (cardinalidade). Se algum for pulado, a dica avisa e o animal não contado cresce duas vezes. Dois movimentos livres — Contar de novo e Misturar — deixam a criança descobrir que a ordem não importa e que a quantidade continua a mesma quando os animais mudam de lugar.",
+        "Alinhado à BNCC: contar coleções de até 10 elementos para responder «quantos?». Sem cronômetro, sem pontuação — só contagem calma, com as mãos."
       ],
       "practices": [
-        "Contar um grupo de animais mostrado em um quadro de dez.",
-        "Responder “quantos?” com o número escrito correto.",
-        "Reconhecer o cinco e o dez pelas fileiras do quadro.",
-        "Combinar uma quantidade contada com o seu número, de 0 a 10."
+        "Colocar uma etiqueta em cada animal contando em voz alta",
+        "Responder «quantos são?» com o número da barra",
+        "Contar coisas em fila, em linhas, em círculo e espalhadas",
+        "Conferir que um grupo contado em outra ordem continua sendo o mesmo número"
       ],
       "howToPlay": [
-        "Olhe o quadro de dez e conte quantos animais você vê.",
-        "Digite esse número no teclado numérico e toque em Verificar.",
-        "Não acertou? Conte de novo e tente mais uma vez — não há cronômetro nem pontuação."
+        "Toque em cada animal para contá-lo dizendo o número. Uma etiqueta numerada cai sobre ele.",
+        "Quando todos tiverem etiqueta, a última brilha: toque nesse número na barra e aperte Verificar.",
+        "Experimente Contar de novo ou Misturar: a ordem muda, a quantidade continua. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Contar para responder “quantos?” sobre até dez objetos.",
-        "Nomear uma quantidade com o número escrito correspondente.",
-        "Construir a noção de quantidade de que a leitura e a escrita dos números dependem."
+        "Contar até 10 objetos para responder «quantos?»",
+        "Etiquetar um a um e dizer o último número como total",
+        "Contar objetos em fila, em linhas, em círculo e espalhados"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

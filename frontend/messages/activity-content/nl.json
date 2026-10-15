@@ -2425,25 +2425,25 @@
     },
     "ten-frame.how-many.0-10.animals": {
       "about": [
-        "Een tienraam toont een groepje dier-fiches en stelt één eenvoudige vraag: hoeveel? Je kind telt de dieren — ergens tussen 0 en 10 — en typt het bijbehorende cijfer op het toetsenblok. Het is een interactieve telactiviteit voor de kleuterklas die direct in de browser werkt, zonder installatie en zonder account.",
-        "Dit is de antwoord-kant van tellen. In plaats van een getal te bouwen, leest je kind een hoeveelheid die er al staat en benoemt die met een geschreven getal. Omdat de fiches in de twee rijen van een tienraam liggen, kan je kind hoeveelheden in één oogopslag leren herkennen — een volle bovenste rij is vijf, een vol raam is tien — en daarna één voor één natellen. Die stap van tellen naar één geschreven cijfer is de kern van het hoeveelheidsbegrip.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: tellen om de vraag 'hoeveel?' te beantwoorden over voorwerpen op een raam. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een tafel vol dieren en één vraag: hoeveel? Het kind tikt elk dier aan om het te tellen – er landt een kaartje met een getal op – en tikt daarna op de getallenbalk het getal aan dat zegt hoeveel het er zijn. De dieren staan op een rij, in rijen, in een kring of verspreid: precies de vier opstellingen die tellen bij kleuters vraagt. Werkt in de browser, zonder installatie en zonder account.",
+        "De drie telprincipes zitten in het materiaal: een dier kan maar één kaartje krijgen (één-op-één), de kaartjes zijn genummerd in de volgorde waarin ze gegeven zijn (vaste telrij) en het laatste kaartje licht op omdat het laatst gezegde getal het antwoord is (kardinaliteit). Wordt er een dier overgeslagen, dan zegt de hint dat en wordt het ongetelde dier even groter. Met Opnieuw tellen en Husselen ontdekt het kind dat de volgorde niet uitmaakt en dat het aantal gelijk blijft als de dieren verschuiven.",
+        "Afgestemd op de kerndoelen: tellen tot 10 om \"hoeveel?\" te beantwoorden. Geen timer, geen score – rustig tellen met je handen."
       ],
       "practices": [
-        "Een groepje dieren tellen dat op een tienraam staat",
-        "De vraag 'hoeveel?' beantwoorden met het juiste geschreven getal",
-        "Vijf en tien herkennen aan de rijen van het raam",
-        "Een getelde hoeveelheid koppelen aan het cijfer 0 tot 10"
+        "Elk dier één kaartje geven terwijl je hardop telt",
+        "\"Hoeveel?\" beantwoorden met het getal op de balk",
+        "Dingen op een rij, in rijen, in een kring en verspreid tellen",
+        "Nagaan dat een groep die je in een andere volgorde telt hetzelfde aantal heeft"
       ],
       "howToPlay": [
-        "Bekijk het tienraam en tel hoeveel dieren je ziet.",
-        "Typ dat getal op het toetsenblok en druk op Controleer.",
-        "Net niet? Tel nog eens en probeer het opnieuw — er is geen timer en geen score."
+        "Tik elk dier aan om het te tellen en zeg het getal. Er landt een kaartje met een getal op.",
+        "Als elk dier een kaartje heeft, licht het laatste op: tik dat getal op de balk aan en druk op Controleer.",
+        "Probeer Opnieuw tellen of Husselen: de volgorde verandert, het aantal blijft. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind telt om 'hoeveel?' te beantwoorden over maximaal tien voorwerpen.",
-        "Het kind benoemt een hoeveelheid met het bijbehorende geschreven cijfer.",
-        "Het kind bouwt het hoeveelheidsbegrip op waar het lezen en schrijven van getallen op steunt."
+        "Tot 10 tellen om \"hoeveel?\" te beantwoorden",
+        "Eén-op-één tellen en het laatste getal als totaal noemen",
+        "Dingen op een rij, in rijen, in een kring en verspreid tellen"
       ]
     },
     "ten-frame.write-numeral.0-20.fruits": {

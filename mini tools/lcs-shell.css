@@ -936,12 +936,16 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .lcs-app.activity .lcs-activity-progress-pill {
   min-width: var(--lcs-tap); height: var(--lcs-tap);
   display: grid; place-items: center;
-  padding: 0 12px;
+  padding: 0 6px;
   border-radius: var(--lcs-radius-sm);
   font-family: var(--lcs-font-display); font-weight: 700; font-size: 18px;
   color: var(--lcs-structure); background: var(--lcs-surface);
   box-shadow: 0 3px 0 rgba(20, 30, 28, 0.10), 0 4px 10px rgba(20, 30, 28, 0.08);
 }
+
+/* five controls (chip + settings + sound + fullscreen + reset) must sit on one
+   row inside a 274px phone card: 5×44 + 4×6 = 244 */
+@media (max-width: 600px) { .lcs-app.activity .lcs-controls { gap: 6px; } }
 
 /* 3. Task line — small, ≤ 2 lines, speaker 36px, never recoloured. */
 .lcs-app.activity .lcs-activity-prompt {
@@ -962,14 +966,24 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   animation: none;
 }
 
-/* 4. The card hugs its content. */
+/* 4. The card hugs its content — and uses its width. The v7 rule gave an
+   activity 9.5vw of side padding below 768px, i.e. 134 of the 704px the
+   live iframe has (a tool pads 24px and fills the iframe). The apparatus
+   gets the width the tools get: 16-32px of padding, full width ≥ 600px. */
 .lcs-app.activity {
   min-height: 0;
   gap: clamp(10px, 1.8vmin, 16px);
   padding-block: clamp(14px, 2.4vmin, 24px);
+  padding-inline: clamp(16px, 4vw, 32px);
 }
+/* a phone gets the full width too (the v7 95vw margins cost a 320px phone the
+   12px that keep eleven 44px rail chips on two rows); the page provides its
+   own gutter around the iframe */
+.lcs-app.activity { max-width: 100%; }
+@media (min-width: 600px) { .lcs-app.activity { max-width: min(100%, 720px); } }
+@media (min-width: 768px) { .lcs-app.activity { max-width: max(720px, 60vw); } }
 .lcs-app.activity .lcs-stage { padding-block: clamp(6px, 1.4vmin, 12px); }
-.lcs-app.activity .lcs-activity-actions { margin-top: 0; padding-top: 0; }
+.lcs-app.activity .lcs-activity-actions { margin-top: 0; padding-top: 0; padding-bottom: 0; }
 
 /* 5. Check / Next at tool-chip scale. */
 .lcs-app.activity .lcs-activity-check,

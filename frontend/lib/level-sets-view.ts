@@ -61,15 +61,20 @@ export function ladderCardProps(
 }
 
 /**
- * Ladders for a "featured" strip: the fullest sets first (three rungs, most
- * pages), one per type so eight cards show eight skills, not eight faces of
- * one type.
+ * Ladders for a "featured" strip: one per type so eight cards show eight
+ * skills, not eight faces of one type. Ranked by what a teacher sees as the
+ * strongest set — all three rungs, a screen version, answer keys — with the
+ * page count CAPPED at 15, so the every-theme PDF-only expansions (picture
+ * cards, tracing) do not crowd out the three-level sets with screens (read on
+ * the first live render, 2026-10-15).
  */
 export function featuredLadders(ladders: Ladder[], max: number): Ladder[] {
+  const score = (l: Ladder) =>
+    l.rungCount * 100 + (l.interactiveCount > 0 ? 50 : 0) + (l.answerKeyCount > 0 ? 20 : 0) + Math.min(l.pageCount, 15);
   const seenType = new Set<string>();
   return ladders
     .slice()
-    .sort((a, b) => b.rungCount - a.rungCount || b.pageCount - a.pageCount || a.title.localeCompare(b.title))
+    .sort((a, b) => score(b) - score(a) || a.title.localeCompare(b.title))
     .filter((l) => (seenType.has(l.type) ? false : (seenType.add(l.type), true)))
     .slice(0, max);
 }

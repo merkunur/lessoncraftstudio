@@ -4666,5 +4666,19 @@
     "notes": "Observações",
     "levelN": "Nível {n}",
     "placementSame": "Caso contrário: na próxima vez, outra ficha média."
+  },
+  "activityShare": {
+    "button": "Compartilhar com a turma",
+    "sharing": "Criando o link…",
+    "modalIntro": "Compartilhe esta atividade com a sua turma.",
+    "qrAlt": "QR code desta atividade",
+    "linkLabel": "Link da atividade",
+    "copy": "Copiar link",
+    "copied": "Copiado!",
+    "openActivity": "Abrir a atividade",
+    "downloadQr": "Baixar o QR code",
+    "shareNote": "Os alunos escaneiam o QR code ou abrem o link, sem conta e sem aplicativo. O link funciona em qualquer aparelho.",
+    "savedToWorkspace": "Salvo no seu espaço de trabalho — Minhas atividades compartilhadas",
+    "close": "Fechar"
   }
 }

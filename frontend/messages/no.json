@@ -3164,5 +3164,19 @@
     "notes": "Merknader",
     "levelN": "Nivå {n}",
     "placementSame": "Ellers: neste gang et nytt ark på middels nivå."
+  },
+  "activityShare": {
+    "button": "Del med klassen",
+    "sharing": "Lager lenke …",
+    "modalIntro": "Del denne aktiviteten med klassen din.",
+    "qrAlt": "QR-kode for denne aktiviteten",
+    "linkLabel": "Lenke til aktiviteten",
+    "copy": "Kopier lenke",
+    "copied": "Kopiert!",
+    "openActivity": "Åpne aktiviteten",
+    "downloadQr": "Last ned QR-kode",
+    "shareNote": "Elevene skanner QR-koden eller åpner lenken – uten konto og uten app. Lenken virker på alle enheter.",
+    "savedToWorkspace": "Lagret i arbeidsområdet ditt – Mine delte aktiviteter",
+    "close": "Lukk"
   }
 }

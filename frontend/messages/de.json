@@ -4481,5 +4481,19 @@
     "notes": "Bemerkungen",
     "levelN": "Stufe {n}",
     "placementSame": "Sonst: beim nächsten Mal ein weiteres Blatt der Stufe Mittel."
+  },
+  "activityShare": {
+    "button": "Mit der Klasse teilen",
+    "sharing": "Link wird erstellt …",
+    "modalIntro": "Teilen Sie diese Aktivität mit Ihrer Klasse.",
+    "qrAlt": "QR-Code für diese Aktivität",
+    "linkLabel": "Link zur Aktivität",
+    "copy": "Link kopieren",
+    "copied": "Kopiert!",
+    "openActivity": "Aktivität öffnen",
+    "downloadQr": "QR-Code herunterladen",
+    "shareNote": "Die Kinder scannen den QR-Code oder öffnen den Link – ohne Konto, ohne App. Der Link funktioniert auf jedem Gerät.",
+    "savedToWorkspace": "Gespeichert in Ihrem Arbeitsbereich – Von mir geteilte Aktivitäten",
+    "close": "Schließen"
   }
 }

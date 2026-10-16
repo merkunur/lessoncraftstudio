@@ -3157,5 +3157,19 @@
     "notes": "Noter",
     "levelN": "Niveau {n}",
     "placementSame": "Ellers: næste gang et nyt mellemark."
+  },
+  "activityShare": {
+    "button": "Del med klassen",
+    "sharing": "Opretter link …",
+    "modalIntro": "Del denne aktivitet med din klasse.",
+    "qrAlt": "QR-kode til denne aktivitet",
+    "linkLabel": "Link til aktiviteten",
+    "copy": "Kopiér link",
+    "copied": "Kopieret!",
+    "openActivity": "Åbn aktiviteten",
+    "downloadQr": "Download QR-kode",
+    "shareNote": "Eleverne scanner QR-koden eller åbner linket – uden konto og uden app. Linket virker på alle enheder.",
+    "savedToWorkspace": "Gemt i dit arbejdsområde – Mine delte aktiviteter",
+    "close": "Luk"
   }
 }

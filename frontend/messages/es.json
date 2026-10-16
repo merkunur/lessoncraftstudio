@@ -4679,5 +4679,19 @@
     "notes": "Notas",
     "levelN": "Nivel {n}",
     "placementSame": "Si no: la próxima vez, otra ficha intermedia."
+  },
+  "activityShare": {
+    "button": "Compartir con tu grupo",
+    "sharing": "Creando el enlace…",
+    "modalIntro": "Comparte esta actividad con tu grupo.",
+    "qrAlt": "Código QR de esta actividad",
+    "linkLabel": "Enlace de la actividad",
+    "copy": "Copiar enlace",
+    "copied": "¡Copiado!",
+    "openActivity": "Abrir la actividad",
+    "downloadQr": "Descargar el código QR",
+    "shareNote": "Los alumnos escanean el código QR o abren el enlace, sin cuenta ni aplicación. El enlace funciona en cualquier dispositivo.",
+    "savedToWorkspace": "Guardado en tu espacio de trabajo — Mis actividades compartidas",
+    "close": "Cerrar"
   }
 }

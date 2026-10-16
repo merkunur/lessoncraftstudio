@@ -94,10 +94,14 @@ console.log('\n[N2] hideReadout still does what it is for');
   const acts = JSON.parse(fs.readFileSync(path.join(DIR, 'ten-frame-activities.json'), 'utf8'));
   const rows = acts.activities || acts;
   const ids = rows.map((a) => a.id);
-  is(ids.indexOf('ten-frame.how-many.0-10.animals') !== -1,
-    'the K.CC.B.5 how-many activity is still shipped (it is what this protects)');
-  is(ids.indexOf('ten-frame.write-numeral.0-20.fruits') !== -1,
-    'and the K.CC.A.3 write-numeral activity');
+  /* 2026-10-16: both activities this was written for have left the shared engine in the one-by-one
+     rebuild (#1 the Counting Table, #8 the Fruit Crates) — each is a typed-answer instrument with its own
+     core now; the guard stays because the engine still serves how-many style tasks */
+  const own = (f) => JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8')).map((a) => a.id);
+  is(ids.indexOf('ten-frame.how-many.0-10.animals') === -1 && own('how-many-activities.json').indexOf('ten-frame.how-many.0-10.animals') !== -1,
+    'the K.CC.B.5 how-many activity is served by its own instrument (how-many-activities.json)');
+  is(ids.indexOf('ten-frame.write-numeral.0-20.fruits') === -1 && own('fruit-crates-activities.json').indexOf('ten-frame.write-numeral.0-20.fruits') !== -1,
+    'and the K.CC.A.3 write-numeral activity by the Fruit Crates (fruit-crates-activities.json)');
 }
 
 console.log('\n[N3] POISON — the check fires on the shape of the original defect');

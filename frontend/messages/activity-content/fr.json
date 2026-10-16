@@ -2404,24 +2404,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Un cadre de dix double montre un groupe de jetons-fruits, et l'enfant écrit le nombre correspondant à la quantité — de 0 à 20 — en le tapant sur le clavier. Comme un cadre rempli vaut dix, l'enfant peut surcompter à partir de dix pour les nombres de onze à vingt. C'est une activité de numération interactive pour la maternelle, qui fonctionne dans le navigateur, sans rien à installer et sans inscription.",
-        "Cette activité relie le comptage à l'écriture. L'enfant lit une quantité déjà disposée sur deux cadres de dix et la nomme avec un chiffre écrit, y compris les nombres à deux chiffres au-delà de dix, plus difficiles. Comme un cadre complet vaut dix, il surcompte à partir de dix au lieu de repartir de un à chaque fois, puis note ce qu'il a compté sous forme de nombre écrit — le lien entre la quantité et le symbole. Cette activité d'écriture des nombres de 0 à 20 suit les programmes officiels et se pratique sans note ni chrono."
+        "Deux cagettes en bois de dix cases chacune : le double cadre de dix de la classe, rempli de vrais fruits en images. Les fruits tombent case après case, une rangée de cinq, puis la suivante, et l’enfant écrit combien il y en a sur une ardoise avec les touches des chiffres, de 0 à 20. Quand le nombre est juste, l’ardoise devient dorée, le dernier fruit porte le nombre et on l’entend. Cette activité de numération interactive fonctionne dans le navigateur, sans rien à installer.",
+        "Les cagettes sont faites pour les nombres de onze à vingt. Une cagette pleine, c’est dix : quatorze, c’est une cagette pleine et encore quatre — et dans le nombre écrit 14, le 1 est pour la cagette pleine et le 4 pour le reste. Un nombre faux est nommé comme le ferait l’enseignant : 41 pour 14, les chiffres sont inversés ; 4 pour 14 ne compte que la deuxième cagette ; 10 pour 14, seulement la première ; et un nombre devant des cagettes vides demande quel nombre veut dire « aucun ». Puis les cagettes aident sans donner la réponse : dès six fruits, 5, 10 et 15 apparaissent d’abord sur les fruits, pour partir de là et surcompter ; après une deuxième erreur, les nombres avancent sur les fruits et s’arrêtent sur un point d’interrogation posé sur le dernier. C’est l’enfant qui dit le dernier nombre.",
+        "L’activité suit les programmes officiels : écrire les nombres de 0 à 20 et représenter une quantité par un nombre écrit. L’enseignant choisit les nombres jusqu’à 10 (une cagette) ou jusqu’à 20, et peut activer le coup d’œil rapide : un tissu couvre les cagettes après un instant et « Regarder » le soulève — on lit alors les fruits par rangées de cinq au lieu de les compter un par un. Ni chrono ni score."
       ],
       "practices": [
-        "Compter un groupe de fruits affiché sur un cadre de dix double.",
-        "Écrire le nombre de 0 à 20 correspondant à la quantité comptée.",
-        "Surcompter à partir d'un cadre complet pour les nombres de onze à vingt.",
-        "Relier une quantité à son symbole écrit."
+        "Lire un double cadre de dix : une cagette pleine vaut dix, une rangée pleine vaut cinq",
+        "Écrire le nombre de 0 à 20 qui dit combien il y a de fruits",
+        "Surcompter à partir de 5, 10 ou 15 au lieu de repartir de un",
+        "Écrire les nombres de onze à vingt avec les chiffres dans le bon ordre"
       ],
       "howToPlay": [
-        "Regarde le cadre de dix double et compte combien de fruits tu vois.",
-        "Tape ce nombre sur le clavier, y compris les nombres au-delà de dix, et appuie sur Vérifier.",
-        "Pas tout à fait ? Recompte et réessaie une fois de plus — il n'y a ni chrono ni score."
+        "Regarde les cagettes et compte les fruits : une cagette pleine, c’est dix.",
+        "Écris le nombre sur l’ardoise avec les touches et appuie sur Vérifier.",
+        "Pas encore ? Regarde ce que montrent les cagettes : pars du nombre écrit sur un fruit et continue à compter. Après un deuxième essai, les nombres avancent jusqu’à un point d’interrogation : dis le nombre qui va là.",
+        "Un nombre juste rend l’ardoise dorée ; Suivant apporte de nouvelles cagettes."
       ],
       "learningGoals": [
-        "Représenter une quantité jusqu'à 20 objets par un nombre écrit.",
-        "Écrire les nombres de 0 à 20, y compris les nombres à deux chiffres.",
-        "Construire la capacité à lire et écrire les nombres dont dépend toute la notation mathématique ultérieure."
+        "Représenter une quantité jusqu’à 20 objets par un nombre écrit",
+        "Lire un nombre de onze à vingt comme dix et encore quelques unités, et écrire ses deux chiffres dans l’ordre",
+        "Surcompter à partir d’une rangée de cinq ou d’une dizaine pleine"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

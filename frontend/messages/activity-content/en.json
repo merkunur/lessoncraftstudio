@@ -355,25 +355,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "A double ten-frame shows a group of fruit counters, and the child writes the numeral for how many — counting anywhere from 0 to 20 and typing the number on the keypad. Because a full frame is ten, the child can count on for the teen and twenty numbers. This interactive Kindergarten counting activity runs in the browser with nothing to install and no account.",
-        "This activity joins counting to writing. The child reads a quantity that is already laid out across two ten-frames and names it with a written numeral, including the harder two-digit numbers past ten. Because a full frame is ten, the child can count on from ten for the teen and twenty numbers rather than starting at one every time, and then record what they counted as a written number — the connection between amount and symbol.",
-        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
+        "Two wooden fruit crates, ten boxes each — the double ten-frame of the classroom, filled with real fruit pictures. The fruit drops in box by box, one row of five, then the next, and the child writes how many on a slate with number keys, from 0 to 20. When the number is right the slate turns gold, the last fruit carries the number and it is spoken. This interactive Kindergarten counting activity runs in the browser with nothing to install.",
+        "The crates are built for the teen numbers. A full crate is ten, so fourteen is a full crate and four more — and in the written 14 the 1 is for the full crate and the 4 for the rest. A wrong number is named the way a teacher would name it: 41 for 14 has the digits the other way round, 4 for 14 counts only the second crate, 10 for 14 only the first, and any number on empty crates asks which number means none. Then the crates help without giving the answer away: first, from six fruits up, the numbers 5, 10 and 15 appear on the fruit, so the child can start there and count on; after a second miss the count-on numbers run along the fruit and stop at a question mark on the last one. The child still says the final number.",
+        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. Teachers can choose numbers to 10 (one crate) or to 20, and a quick look: a cloth covers the crates after a moment and Peek lifts it again, so the fruit is read by its rows of five rather than one by one. No timer, no score."
       ],
       "practices": [
-        "Counting a group of fruit shown on a double ten-frame",
-        "Writing the numeral 0 to 20 for the amount counted",
-        "Counting on from a full ten for teen and twenty numbers",
-        "Connecting a quantity to its written number symbol"
+        "Reading a double ten-frame: a full crate is ten, a full row is five",
+        "Writing the numeral 0 to 20 for the amount in the crates",
+        "Counting on from 5, 10 or 15 instead of starting again at one",
+        "Writing teen numbers with the digits in the right order"
       ],
       "howToPlay": [
-        "Look at the double ten-frame and count how many pieces of fruit you see.",
-        "Type that number on the keypad, including numbers past ten, and press Check.",
-        "Not quite? Count again and try once more — there is no timer and no score."
+        "Look at the crates and count the fruit — a full crate is ten.",
+        "Write the number on the slate with the number keys and press Check.",
+        "Not yet? Read what the crates show: start at the number on a fruit and count on. After a second try the numbers run to a question mark — say the number that goes there.",
+        "A right number turns the slate gold; Next brings new crates."
       ],
       "learningGoals": [
         "Represent a count of up to 20 objects with a written numeral — the focus of Common Core K.CC.A.3",
-        "Write the numbers 0 to 20, including two-digit numbers",
-        "Build the read-and-write number skill that all later math notation depends on"
+        "Read a teen number as ten and some more ones, and write its two digits in order",
+        "Count on from a known row of five or a full ten"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

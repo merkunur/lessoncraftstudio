@@ -308,25 +308,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Kaksoiskymmenruudukossa näkyy joukko hedelmiä, ja lapsi kirjoittaa numeron, joka kertoo, montako niitä on — laskien mitä tahansa väliltä 0–20 ja kirjoittaen luvun näppäimistöllä. Koska täysi ruudukko on kymmenen, lapsi voi laskea siitä eteenpäin myös kymmentä suuremmat luvut. Tämä vuorovaikutteinen esiopetuksen lukumääräharjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
-        "Harjoitus yhdistää laskemisen ja kirjoittamisen. Lapsi lukee määrän, joka on jo aseteltu kahteen kymmenruudukkoon, ja nimeää sen kirjoitetulla numerolla, myös vaikeampien kaksinumeroisten lukujen osalta. Koska täysi ruudukko on kymmenen, lapsi voi laskea kymmenestä eteenpäin kymmentä suuremmat luvut sen sijaan, että aloittaisi joka kerta yhdestä, ja kirjata sitten laskemansa kirjoitettuna lukuna — yhteys määrän ja symbolin välillä.",
-        "Harjoitus on OPS 2014:n mukainen: lapsi esittää lukumäärän kirjoitetulla numerolla 0–20. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Kaksi puista hedelmälaatikkoa, kummassakin kymmenen lokeroa – luokan kaksoiskymmenruudukko täynnä oikeita hedelmäkuvia. Hedelmät putoavat lokero kerrallaan, ensin yksi viiden rivi, sitten seuraava, ja lapsi kirjoittaa numeronäppäimillä tauluun, montako niitä on, 0–20. Kun luku on oikein, taulu muuttuu kultaiseksi, viimeisessä hedelmässä on luku ja se luetaan ääneen. Interaktiivinen laskemisharjoitus toimii selaimessa, eikä mitään tarvitse asentaa.",
+        "Laatikot on tehty luvuille yhdestätoista kahteenkymmeneen. Täysi laatikko on kymmenen, joten neljätoista on täysi laatikko ja vielä neljä – ja kirjoitetussa luvussa 14 ykkönen tarkoittaa täyttä laatikkoa ja nelonen loppuja. Väärä luku nimetään niin kuin opettaja sen sanoisi: 41 luvun 14 sijaan on numerot väärin päin, 4 luvun 14 sijaan laskee vain toisen laatikon, 10 luvun 14 sijaan vain ensimmäisen, ja luku tyhjien laatikoiden kohdalla kysyy, mikä luku tarkoittaa ”ei yhtään”. Sen jälkeen laatikot auttavat paljastamatta vastausta: kun hedelmiä on vähintään kuusi, hedelmiin ilmestyvät ensin luvut 5, 10 ja 15, jotta lapsi voi aloittaa niistä ja laskea eteenpäin; toisen virheen jälkeen luvut jatkuvat hedelmästä toiseen ja pysähtyvät viimeisen hedelmän kysymysmerkkiin. Viimeisen luvun lapsi sanoo itse.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi kirjoittaa luvut 0–20 ja esittää lukumäärän kirjoitetulla luvulla. Opettaja valitsee luvut 10:een asti (yksi laatikko) tai 20:een asti ja voi ottaa käyttöön pikavilkaisun: kangas peittää laatikot hetken päästä, ja ”Kurkista” nostaa sen taas – näin hedelmät luetaan viiden hedelmän riveinä eikä laskemalla yksitellen. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Laskee kaksoiskymmenruudukossa näkyvän hedelmäjoukon.",
-        "Kirjoittaa numeron 0–20 lasketulle määrälle.",
-        "Laskee täydestä kymmenestä eteenpäin kymmentä suuremmat luvut.",
-        "Yhdistää lukumäärän sitä vastaavaan kirjoitettuun lukusymboliin."
+        "Kaksoiskymmenruudukon lukeminen: täysi laatikko on kymmenen, täysi rivi viisi",
+        "Luvun 0–20 kirjoittaminen laatikoiden hedelmien määrästä",
+        "Eteenpäin laskeminen luvuista 5, 10 tai 15 sen sijaan, että aloittaisi taas ykkösestä",
+        "Lukujen 11–20 kirjoittaminen numerot oikeassa järjestyksessä"
       ],
       "howToPlay": [
-        "Katso kaksoiskymmenruudukkoa ja laske, montako hedelmää näet.",
-        "Kirjoita tuo luku näppäimistöllä, myös kymmentä suuremmat luvut, ja paina Tarkista.",
-        "Eikö osunut oikeaan? Laske uudelleen ja yritä vielä kerran — ei ajastinta eikä pisteitä."
+        "Katso laatikoita ja laske hedelmät – täysi laatikko on kymmenen.",
+        "Kirjoita luku tauluun näppäimillä ja paina Tarkista.",
+        "Ei vielä? Katso, mitä laatikot näyttävät: aloita hedelmän päällä olevasta luvusta ja laske eteenpäin. Toisen yrityksen jälkeen luvut jatkuvat kysymysmerkkiin asti – sano luku, joka kuuluu sen paikalle.",
+        "Oikea luku tekee taulusta kultaisen; Seuraava tuo uudet laatikot."
       ],
       "learningGoals": [
-        "Lapsi esittää enintään 20 esineen lukumäärän kirjoitetulla numerolla.",
-        "Lapsi kirjoittaa luvut 0–20, mukaan lukien kaksinumeroiset luvut.",
-        "Lapsi rakentaa luvun lukemisen ja kirjoittamisen taitoa, johon kaikki myöhempi matematiikan merkintä perustuu."
+        "Lapsi esittää enintään 20 esineen lukumäärän kirjoitetulla luvulla",
+        "Lapsi lukee luvun 11–20 kymmenenä ja muutamana lisää ja kirjoittaa sen kaksi numeroa oikeassa järjestyksessä",
+        "Lapsi laskee eteenpäin täydestä viiden rivistä tai täydestä kymmenestä"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

@@ -1596,6 +1596,29 @@
         "Forstå at 13 og 31 er ulike tall fordi rekkefølgen på sifrene betyr noe",
         "Kjenne igjen et tall enten det er håndskrevet eller trykt"
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Et glass med leker og en tom etikett på lokket. Barnet teller – hver leke får et merke når man trykker på den – og skriver med talltastene hvor mange det er; sifrene står på etiketten. Når man sjekker, holdes etiketten mot glasset: lekene stiller seg på like mange plasser som etiketten sier, og stemmer den, blir den gyllen og sitter fast mens tallet blir sagt høyt. I den andre typen runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på leker på hylla så de faller nedi, til glasset rommer så mange. En interaktiv øvelse i å telle og skrive tall for 1. trinn, som kjører rett i nettleseren på nettbrett, mobil og datamaskin – uten installasjon og uten konto.",
+        "Kjernen er veien fram og tilbake mellom antall og tall: et telt antall blir et skrevet tall, og et skrevet tall blir et antall igjen. Opp til ti ligger lekene løst; fra elleve til tjue står de i rekker, så øyet ikke mister plassen sin. En feil etikett besvares av glasset, ikke av et rødt kryss: en for liten etikett lar leker stå uten plass, en for stor lar stiplede plasser stå tomme, og feilen får et navn – sifrene motsatt vei (41 for 14), bare enerne (4 for 14), tallet som betyr «ingen» (0 for et tomt glass). I innstillingene holder tallene seg til 10 for en gruppe som nettopp har begynt, eller man velger bare tellerundene eller bare fyllrundene.",
+        "Øvelsen følger LK20: å telle antall opp til 20 og skrive tallet. Uten tidtaker og uten poeng – rolig og leken øving."
+      ],
+      "practices": [
+        "Telle opptil 20 leker og holde orden med et merke på hver",
+        "Skrive tallet som sier hvor mange det er – også tallene 11–19 og null",
+        "Lese et tall og legge så mange leker i glasset",
+        "Sammenligne et skrevet tall med det virkelige antallet og se hvor det slår feil"
+      ],
+      "howToPlay": [
+        "Trykk på hver leke mens du teller, og skriv så hvor mange det er med talltastene.",
+        "Trykk på Sjekk: stemmer etiketten, sitter den fast; ellers viser glasset lekene som er til overs, eller plassene som står tomme.",
+        "Når tallet allerede står på etiketten, trykker du på leker på hylla til glasset rommer så mange; «Neste» gir et nytt glass."
+      ],
+      "learningGoals": [
+        "Skrive tallene 0 til 20 og vise et antall med et tall",
+        "Forstå at 14 og 41 er ulike tall, og at et tomt glass er 0",
+        "Gå begge veier mellom en gruppe ting og tallet som hører til"
+      ]
     }
   }
 }

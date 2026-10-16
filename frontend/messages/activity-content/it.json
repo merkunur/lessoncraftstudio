@@ -3208,25 +3208,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Rivet, il procione, ha una piccola fucina che trasforma il tesoro sparso — ghiande, bottoni, lucciole e biglie — in carte da collezione: il bambino conta quello che trova e forgia il numero che dice quanti sono.",
-        "L’attività allena a contare «quanti sono» e a scrivere e forgiare il numero corrispondente fino a 20, compreso lo zero — perché anche una bustina vuota ha il suo numero — riconoscendo che il numero rappresenta la quantità.",
-        "Segue le Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
+        "Un barattolo di vetro pieno di giocattoli con un’etichetta vuota sul coperchio. Il bambino conta – ogni giocattolo riceve un segno quando lo si tocca – e scrive quanti sono con i tasti dei numeri; le cifre compaiono sull’etichetta. Al controllo l’etichetta viene accostata al barattolo: i giocattoli si sistemano in tanti posti quanti ne dice l’etichetta, e se è giusta diventa dorata e si attacca, mentre il numero viene detto ad alta voce. Nell’altro tipo di turno l’etichetta è già scritta e il barattolo è vuoto: il bambino tocca i giocattoli sulla mensola per farli cadere dentro, finché il barattolo ne contiene altrettanti. Un’attività interattiva per contare e scrivere i numeri, per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L’idea centrale è l’andata e ritorno del lavoro sui numeri: una quantità contata diventa un numero scritto, e un numero scritto torna a essere una quantità. Fino a dieci i giocattoli stanno sparsi; da undici a venti stanno in file, così l’occhio non perde il segno. A un’etichetta sbagliata risponde il barattolo, non una croce rossa: un’etichetta troppo piccola lascia giocattoli senza posto, una troppo grande lascia posti vuoti tratteggiati, e l’errore ha un nome – le cifre al contrario (41 per 14), solo le unità (4 per 14), il numero che vuol dire «nessuno» (0 per un barattolo vuoto). Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure si scelgono solo i turni del contare o solo quelli del riempire.",
+        "L’attività segue le Indicazioni nazionali per la classe prima, ambito «Numeri»: contare raccolte fino a 20 e scrivere il numero. Senza timer e senza punteggio: un esercizio calmo e giocoso."
       ],
       "practices": [
-        "Contare quanti sono, toccando ogni oggetto una volta sola",
-        "Scrivere e forgiare il numero corrispondente fino a 20",
-        "Capire che anche lo zero è un numero",
-        "Contare solo gli oggetti giusti, ignorando i distrattori"
+        "Contare una raccolta di giocattoli fino a 20 segnando ciascuno",
+        "Scrivere il numero che dice quanti sono, compresi i numeri da 11 a 19 e lo zero",
+        "Leggere un numero e mettere altrettanti giocattoli nel barattolo",
+        "Confrontare un numero scritto con la quantità reale e vedere dove sbaglia"
       ],
       "howToPlay": [
-        "Tocca ogni tesoro per contarlo, uno alla volta",
-        "Tira la leva per forgiare il numero che dice quanti sono",
-        "Colleziona le carte nel tuo album"
+        "Tocca ogni giocattolo mentre conti, poi scrivi quanti sono con i tasti dei numeri.",
+        "Premi Verifica: se l’etichetta è giusta, si attacca; se no, il barattolo mostra i giocattoli in più o i posti rimasti vuoti.",
+        "Quando l’etichetta è già scritta, tocca i giocattoli sulla mensola finché il barattolo ne contiene altrettanti; «Avanti» porta un barattolo nuovo."
       ],
       "learningGoals": [
-        "Tuo figlio impara a contare quanti sono",
-        "Tuo figlio impara a scrivere il numero fino a 20",
-        "Tuo figlio impara a capire che lo zero è un numero"
+        "Scrivere i numeri da 0 a 20 e rappresentare una quantità con un numero scritto",
+        "Capire che 14 e 41 sono numeri diversi e che un barattolo vuoto è 0",
+        "Passare nei due sensi da un gruppo di oggetti al numero che lo nomina"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

@@ -52,6 +52,7 @@ const MANIFEST_FILES = [
   'constellation-activities.json',
   'writing-line-activities.json',
   'letterbox-activities.json',
+  'jar-label-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',
   'cvc-builder-activities.json',

@@ -3529,25 +3529,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Rivet the raccoon turns loose treasure — acorns, buttons, fireflies, marbles — into collector cards, and the child counts the pack (even an empty one, which is zero) then forges the numeral that says how many. It's an interactive Kindergarten counting-and-writing activity that runs in the browser with no account.",
-        "The numeral is built from the very things being counted, so writing the number is tied to the count, not separated from it. The rounds keep the thinking fresh: count and forge, handle an empty pack as zero, count only the acorns mixed in among other objects, fix a card that claims the wrong number, build the matching pack, and even work backward — read a numeral like 7 and show that many. Scattered, row, and ten-frame arrangements mean a child counts the objects rather than recognizing a familiar shape.",
-        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing how many with a written numeral. No timer, no score — just calm, playful practice."
+        "A glass jar of toys with an empty label on its lid. The child counts — every toy takes a mark when it is tapped — and writes how many on the number keys; the digits appear on the label. Check lays the label against the jar: the toys file into as many places as the label says, and if the label is right it turns gold and sticks while the number is spoken. In the other kind of round the label is already written and the jar is empty: the child taps toys on the shelf to drop them in until the jar holds that many. An interactive Kindergarten counting-and-writing activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "The big idea is the two-way link in numeral work: a count of things becomes a written number, and a written number becomes a count of things. Up to ten the toys sit loosely; from eleven to twenty they stand in rows, so the eye can keep its place. A wrong label is answered by the jar, not by a cross: a label too small leaves toys standing without a place, a label too big leaves empty dashed places, and the slip is named — the digits the other way round (41 for 14), only the ones (4 for 14), the number that means none (0 for an empty jar). Settings keep the numbers to 10 for a class that is starting, or choose only the counting rounds or only the filling rounds.",
+        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
       ],
       "practices": [
-        "Counting a set of objects and writing the numeral that names how many",
-        "Understanding that an empty group is zero",
-        "Counting only a named kind of object mixed in among others",
-        "Checking whether a written numeral matches the real count"
+        "Count a set of up to 20 toys, keeping track with a mark on each one",
+        "Write the numeral that tells how many, including the teen numbers and zero",
+        "Read a numeral and put that many toys in the jar",
+        "Check a written number against the real count and see where it is off"
       ],
       "howToPlay": [
-        "Count the acorns, buttons, or fireflies on the card.",
-        "Forge the numeral that tells how many — or, in reverse rounds, show that many for a given numeral.",
-        "A warm check confirms a correct card, with no timer and no score."
+        "Tap each toy as you count it, then write how many on the number keys.",
+        "Press Check: if the label is right, it sticks; if not, the jar shows the toys left over or the places still empty.",
+        "When the label is already written, tap toys on the shelf until the jar holds that many; Next brings a new jar."
       ],
       "learningGoals": [
         "Write numbers 0 to 20 and represent a count with a written numeral — the focus of Common Core K.CC.A.3",
-        "Connect counting a group of objects to the numeral that names it",
-        "Build the number-writing foundation that later math work depends on"
+        "Understand that 14 and 41 are different numbers, and that an empty jar is 0",
+        "Move both ways between a group of objects and the number that names it"
       ]
     },
     "roary-roar-meter.shades.l-2-5-b": {

@@ -1538,6 +1538,29 @@
         "Ymmärtää, että 13 ja 31 ovat eri lukuja, koska numeroiden järjestyksellä on väliä",
         "Tunnistaa luku, olipa se käsin kirjoitettu tai painettu"
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Lasipurkki täynnä leluja ja tyhjä etiketti kannessa. Lapsi laskee – jokainen lelu saa merkin, kun sitä napauttaa – ja kirjoittaa numeronäppäimillä, montako niitä on; numerot ilmestyvät etikettiin. Tarkistettaessa etiketti asetetaan purkkia vasten: lelut asettuvat niin moneen paikkaan kuin etiketti sanoo, ja jos etiketti on oikein, se muuttuu kultaiseksi ja tarttuu kiinni samalla kun luku sanotaan ääneen. Toisenlaisella kierroksella luku on jo etiketissä ja purkki on tyhjä: lapsi napauttaa hyllyn leluja, niin ne putoavat sisään, kunnes purkissa on yhtä monta. Interaktiivinen laskemisen ja lukujen kirjoittamisen harjoitus esiopetukseen ja 1. luokalle, joka toimii selaimessa tabletilla, puhelimella ja tietokoneella – ilman asennusta ja ilman tiliä.",
+        "Ydin on kaksisuuntainen yhteys määrän ja luvun välillä: laskettu määrä muuttuu kirjoitetuksi luvuksi, ja kirjoitettu luku muuttuu taas määräksi. Kymmeneen asti lelut ovat purkissa vapaasti; yhdestätoista kahteenkymmeneen ne seisovat riveissä, jotta silmä pysyy laskussa. Väärään etikettiin vastaa purkki, ei punainen rasti: liian pieni etiketti jättää leluja ilman paikkaa, liian suuri jättää katkoviivaiset paikat tyhjiksi, ja virhe saa nimen – numerot toisin päin (41, kun pitäisi olla 14), vain ykköset (4, kun pitäisi olla 14), luku, joka tarkoittaa ”ei yhtään” (0 tyhjälle purkille). Asetuksista luvut pysyvät 10:een asti vasta aloittavalle ryhmälle, tai valitaan vain laskemiskierrokset tai vain täyttökierrokset.",
+        "Harjoitus noudattaa OPS 2014:ää: lukumäärän laskeminen 20:een asti ja luvun kirjoittaminen. Ei ajastinta eikä pisteitä – rauhallista ja leikkisää harjoittelua."
+      ],
+      "practices": [
+        "Laskea enintään 20 lelua ja pitää lukua merkitsemällä jokaisen",
+        "Kirjoittaa luku, joka kertoo määrän – myös luvut 11–19 ja nolla",
+        "Lukea luku ja laittaa purkkiin yhtä monta lelua",
+        "Verrata kirjoitettua lukua todelliseen määrään ja nähdä, missä se menee pieleen"
+      ],
+      "howToPlay": [
+        "Napauta jokaista lelua laskiessasi ja kirjoita sitten numeronäppäimillä, montako niitä on.",
+        "Paina Tarkista: jos etiketti on oikein, se tarttuu kiinni; jos ei, purkki näyttää yli jäävät lelut tai tyhjiksi jäävät paikat.",
+        "Kun luku on jo etiketissä, napauta hyllyn leluja, kunnes purkissa on yhtä monta; ”Seuraava” tuo uuden purkin."
+      ],
+      "learningGoals": [
+        "Kirjoittaa luvut 0–20 ja merkitä lukumäärä kirjoitettuna lukuna",
+        "Ymmärtää, että 14 ja 41 ovat eri lukuja ja että tyhjä purkki on 0",
+        "Kulkea molempiin suuntiin esinejoukon ja sitä nimeävän luvun välillä"
+      ]
     }
   }
 }

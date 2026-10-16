@@ -2632,25 +2632,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Rivet, der Waschbär, hat in seiner kleinen Werkstatt eine glänzende Zähl-Schmiede gebaut. Hier wird keine Zahl ausgesucht — hier wird sie geschmiedet! Du reißt ein Päckchen auf, und heraus purzeln kleine Schätze: Eicheln, Knöpfe, Glühwürmchen oder Murmeln. Du tippst jeden Schatz genau einmal an und zählst ihn ab, eins nach dem anderen. Dann ziehst du am Hebel — und die Presse prägt aus deiner Anzahl die passende Zahl. Die „3“ entsteht, weil du drei Dinge gezählt hast. Die Zahl wird von deinem Zählen gemacht.",
-        "Manchmal ist das Päckchen leer — dann prägt die Presse die Null, denn die Null ist auch eine Zahl und sagt: „hier ist nichts.“ Mal ziehen die Schätze in einer Parade an dir vorbei und du zählst beim Vorbeimarschieren mit. Mal liegen verschiedene Dinge durcheinander und du zählst nur eine Sorte. Und manchmal hat Rivet selbst schon eine Zahl geprägt — dann zählst du nach und sagst, ob sie stimmt oder nicht. So lernst du, deinem eigenen Zählen zu vertrauen und nachzuprüfen.",
-        "Es gibt auch Runden, in denen du andersherum arbeitest: Ein Zettel zeigt eine Zahl, und du legst genau so viele Schätze in den Beutel. Bei dieser Zähl-Schmiede gibt es keine Uhr, keine Punkte und keinen Wettlauf — du darfst in deinem eigenen Tempo zählen, prägen und so oft ausprobieren, wie du magst. Orientiert am Lehrplan der Grundschule, Leitidee „Zählen und Mengen“."
+        "Ein Glas voller Spielsachen mit einem leeren Etikett auf dem Deckel. Das Kind zählt – jedes Spielzeug bekommt beim Antippen ein Zeichen – und schreibt mit den Zifferntasten, wie viele es sind; die Ziffern erscheinen auf dem Etikett. Beim Prüfen wird das Etikett ans Glas gehalten: Die Spielsachen rücken in so viele Plätze, wie das Etikett sagt, und stimmt es, wird es golden und klebt, während die Zahl gesprochen wird. In der anderen Art von Aufgabe steht die Zahl schon auf dem Etikett und das Glas ist leer: Das Kind tippt Spielsachen im Regal an, damit sie hineinfallen, bis das Glas so viele enthält. Eine interaktive Zähl- und Schreibübung für Klasse 1, die direkt im Browser auf Tablet, Handy und Computer läuft – ohne Installation und ohne Konto.",
+        "Der Kern ist die Verbindung in beide Richtungen: Aus einer gezählten Menge wird eine geschriebene Zahl, und aus einer geschriebenen Zahl wird eine Menge. Bis zehn liegen die Spielsachen locker im Glas, von elf bis zwanzig stehen sie in Reihen, damit das Auge nicht die Stelle verliert. Ein falsches Etikett beantwortet das Glas, kein rotes Kreuz: Ein zu kleines Etikett lässt Spielsachen ohne Platz stehen, ein zu großes lässt gestrichelte Plätze leer, und der Fehler bekommt einen Namen – die Ziffern andersherum (41 statt 14), nur die Einer (4 statt 14), die Zahl für „keins“ (0 bei einem leeren Glas). In den Einstellungen bleiben die Zahlen bis 10 für eine Klasse am Anfang, oder man wählt nur die Zähl- oder nur die Füllaufgaben.",
+        "Die Übung folgt der Leitidee „Zahlen und Operationen“ des Lehrplans der Grundschule: Anzahlen bis 20 bestimmen und als Zahl schreiben. Ohne Zeitdruck und ohne Punkte – ruhiges, spielerisches Üben."
       ],
       "practices": [
-        "Jeden Gegenstand genau einmal abzählen — eins-zu-eins, ohne Auslassen oder Doppeltzählen.",
-        "Verstehen, dass das letzte Zählwort die ganze Anzahl angibt (Kardinalzahlprinzip).",
-        "Eine gezählte Menge mit der richtigen Zahl darstellen — auch die Null für die leere Menge.",
-        "Die eigene Zahl prüfen, nachzählen und die Zahl-Menge-Zuordnung in beide Richtungen erfassen."
+        "Eine Menge von bis zu 20 Spielsachen zählen und dabei jedes mit einem Zeichen festhalten",
+        "Die Zahl schreiben, die sagt, wie viele es sind – auch die Zahlen von 11 bis 19 und die Null",
+        "Eine Zahl lesen und so viele Spielsachen ins Glas legen",
+        "Eine geschriebene Zahl mit der wirklichen Anzahl vergleichen und sehen, wo sie nicht stimmt"
       ],
       "howToPlay": [
-        "Reiße das Päckchen auf und tippe jeden Schatz einmal an, während du laut mitzählst.",
-        "Ziehe am Hebel — die Presse prägt aus deiner Anzahl die passende Zahl.",
-        "Bei Umkehr-Runden liest du die Zahl auf dem Zettel und legst genau so viele Schätze in den Beutel."
+        "Tippe jedes Spielzeug an, während du zählst, und schreib dann mit den Zifferntasten, wie viele es sind.",
+        "Drücke auf Prüfen: Stimmt das Etikett, klebt es; wenn nicht, zeigt das Glas die Spielsachen, die übrig sind, oder die Plätze, die leer bleiben.",
+        "Steht die Zahl schon auf dem Etikett, tippe Spielsachen im Regal an, bis das Glas so viele enthält; „Weiter“ bringt ein neues Glas."
       ],
       "learningGoals": [
-        "Ich kann eine Menge bis 20 sicher abzählen und mit der richtigen Zahl darstellen — auch die Null.",
-        "Ich kann unter verschiedenen Dingen nur eine Sorte zählen und eine fertige Zahl durch Nachzählen prüfen.",
-        "Ich verstehe, dass jede Zahl genau einer Anzahl entspricht — und kann aus einer Zahl wieder die passende Menge legen."
+        "Ich kann Zahlen von 0 bis 20 schreiben und eine Anzahl als Zahl aufschreiben.",
+        "Ich weiß, dass 14 und 41 verschiedene Zahlen sind und dass ein leeres Glas 0 ist.",
+        "Ich kann von einer Menge zur Zahl und von der Zahl zur Menge gehen."
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

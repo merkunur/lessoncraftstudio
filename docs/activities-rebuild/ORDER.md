@@ -7,7 +7,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 1 | LIVE 2026-10-16 → `egg-cartons-activity` (the Ten-Shelf), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.A.1 | `posy-egg-cartons.count-tens.k-cc-a-1` | posy-egg-cartons-activity | Posy's Egg Cartons — Count by Tens to 100 (Kindergarten) |
 | 2 | LIVE 2026-10-16 → `next-number-activity` (the Peek Path), 11 locales; operator review pending | K | K.CC.A.2 | `choice-board.next-number.k-cc-a-2` | choice-board-activity | What Number Comes Next? — Kindergarten Counting |
 | 3 | LIVE 2026-10-16 → `constellation-activity` (the Constellation Thread), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.A.2 | `star-stitcher.connect-sequence.k-cc-a-2` | star-stitcher-activity | Count the Stars Awake — Counting On from a Number (Kindergarten) |
-| 4 |  | K | K.CC.A.3 | `digby-number-trace.numeral-formation.k-cc-a-3` | digby-number-trace-activity | Digby's Number Trace — Write Every Number 0 to 9 (Kindergarten) |
+| 4 | LIVE 2026-10-16 → `writing-line-activity` (the Fading Line), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.A.3 | `digby-number-trace.numeral-formation.k-cc-a-3` | digby-number-trace-activity | Digby's Number Trace — Write Every Number 0 to 9 (Kindergarten) |
 | 5 |  | K | K.CC.A.3 | `pips-round.mail-route.k-cc-a-3` | pips-round-activity | Pip's Round — Read the House Numbers |
 | 6 |  | K | K.CC.A.3 | `rivets-number-forge.numeral-album.k-cc-a-3` | rivets-number-forge-activity | Rivet's Number Forge — Count and Write the Numeral 0 to 20 |
 | 7 |  | K | K.CC.A.3 | `ten-frame.write-numeral.0-20.fruits` | ten-frame-activity | Write the Number 0 to 20 with Fruits — Double Ten Frame |

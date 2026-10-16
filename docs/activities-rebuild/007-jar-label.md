@@ -12,7 +12,7 @@ Replaces `rivets-number-forge.numeral-album.k-cc-a-3` (a drawn raccoon, foil pac
 ## Apparatus
 
 - **The jar** (`.jl-jar`): a lid band (`.jl-lid`) carrying the label (`.jl-label`, the typed digits in print; a pencil button on phones opens the pad) and the glass body (`.jl-body`) with the toys in a grid — 5 columns from 560 px, 4 below; picture = cell − gap; ≤ 10 toys sit with a small seeded jitter (loose), 11–20 in straight rows. Marks (`.jl-mark`) toggle per toy. On Check the places appear (`.jl-place`): ticked for the first *a* toys, coral-ringed leftovers beyond *a*, dashed empty places beyond *n*.
-- **The pad** (`.jl-pad`): keys 1–9, 0, erase (≥ 44 px). From 560 px a two-column pad standing beside the jar; below 560 a floating pad over the lower jar, opened from the lid's pencil and closed by Done or a tap outside.
+- **The pad** (`.jl-pad`): keys 1–9, 0, erase (≥ 44 px). From 560 px one aligned row of eleven keys under the full-width jar (1 2 3 … 9 0 ⌫ — the operator's 2026-10-16 note "the numbers are not aligned" retired the two-column side pad); below 560 a floating pad over the lower jar, opened from the lid's pencil and closed by Done or a tap outside.
 - **The shelf** (`.jl-shelf`, fill rounds): a row of toys; tap one → it drops into the jar; tap a toy in the jar → it goes back.
 - **A note** (`.jl-note`) under the jar carrying the numerals the hint cannot ("3 left over", "2 empty places").
 - Settings drawer: Numbers (to 10 / to 20), Rounds (both / count & write / fill the jar).
@@ -25,7 +25,7 @@ Slip table (count rounds, a = written, n = in the jar): a = n → right · n = 0
 
 ## Layout
 
-Stacked shell; the stage itself is two columns from 560 px (jar + pad), one column below with the floating pad. No `vh`. Budget at 320 × 640: lid 48 + body (5 rows × 67 + 8 + 12) = 403 with no standing note on a phone (the note under the jar is shown beside the pad only; slip notes always) — measured Check bottom 623 of 640.
+Stacked shell; the jar spans the stage, the key row under it from 560 px, the floating pad below 560. No `vh`. Budget at 320 × 640: lid 48 + body (5 rows × 67 + 8 + 12) = 403 with no standing note on a phone (the note under the jar is shown beside the pad only; slip notes always) — measured Check bottom 623 of 640.
 
 ## Strings (×11, one reviewer)
 

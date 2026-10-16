@@ -182,15 +182,15 @@ var JarLabelActivity = {
   },
   _layout: function () {
     var L = this._L = JarLabelCore.layout(this._width());
-    this._wrap.classList.toggle('is-side', L.mode === 'side');
+    this._wrap.classList.toggle('is-row', L.mode === 'row');
     this._wrap.classList.toggle('is-stack', L.mode === 'stack');
     this._wrap.style.setProperty('--jl-cell', L.cell + 'px');
     this._wrap.style.setProperty('--jl-pic', L.pic + 'px');
     this._wrap.style.setProperty('--jl-gap', L.gap + 'px');
     this._wrap.style.setProperty('--jl-jarpad', L.jarPad + 'px');
-    this._wrap.style.setProperty('--jl-padw', L.padW + 'px');
+    this._wrap.style.setProperty('--jl-key', L.key + 'px');
     this._wrap.style.setProperty('--jl-cols', String(L.cols));
-    if (L.mode === 'side') { this._padOpen = false; this._unwatchOutside(); }
+    if (L.mode === 'row') { this._padOpen = false; this._unwatchOutside(); }
   },
   _watchWidth: function () {
     var self = this;
@@ -274,8 +274,8 @@ var JarLabelActivity = {
       else if (c.slip === 'fillMore') { nk = 'noteNeed'; args = { k: c.k }; }
       else if (c.slip === 'fillFewer') { nk = 'noteOver'; args = { k: c.k }; }
     }
-    /* the standing note only where the stage has room for it (beside the pad); a phone keeps its fold for the jar */
-    if (!nk && !st.done && L.mode === 'side') nk = count ? 'noteCount' : 'noteFill';
+    /* the standing note only where the stage has room for it (a wide stage); a phone keeps its fold for the jar */
+    if (!nk && !st.done && L.mode === 'row') nk = count ? 'noteCount' : 'noteFill';
     this._note.textContent = nk ? interp(t(nk), args) : '';
     this._note.classList.toggle('is-slip', !!(c && !c.ok && nk && /^note(Left|Empty|Need|Over)$/.test(nk)));
     this._note.hidden = !nk;
@@ -393,11 +393,10 @@ function injectJarLabelCSS() {
   if (jlCssDone || typeof document === 'undefined') return;
   jlCssDone = true;
   var css = ''
-  + '.jl-wrap{width:100%;position:relative;display:flex;flex-direction:column;align-items:stretch;gap:6px;--jl-cell:96px;--jl-pic:92px;--jl-gap:4px;--jl-jarpad:8px;--jl-padw:112px;--jl-cols:5;--jl-glass:#EAF4F6;--jl-glass2:#D7E9EC;}'
-  + '.jl-main{display:flex;gap:12px;align-items:flex-start;width:100%;}'
+  + '.jl-wrap{width:100%;position:relative;display:flex;flex-direction:column;align-items:stretch;gap:6px;--jl-cell:96px;--jl-pic:92px;--jl-gap:4px;--jl-jarpad:8px;--jl-key:52px;--jl-cols:5;--jl-glass:#EAF4F6;--jl-glass2:#D7E9EC;}'
+  + '.jl-main{display:flex;flex-direction:column;gap:8px;align-items:stretch;width:100%;}'
   /* the jar */
   + '.jl-jar{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;align-items:stretch;}'
-  + '.jl-wrap.is-side .jl-jar{flex:0 0 calc(100% - 12px - var(--jl-padw));width:calc(100% - 12px - var(--jl-padw));}'
   + '.jl-lid{height:46px;box-sizing:border-box;margin:0 6%;border-radius:12px 12px 4px 4px;background:var(--lcs-structure);display:flex;align-items:center;justify-content:center;gap:8px;position:relative;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18);}'
   + '.jl-label{min-width:72px;height:32px;box-sizing:border-box;padding:0 12px;border-radius:7px;background:#FFFDF6;border:2px solid var(--lcs-line);font-family:var(--lcs-font-display);font-weight:800;font-size:22px;line-height:28px;color:var(--lcs-ink);text-align:center;transition:background .25s,border-color .25s;}'
   + '.jl-label.is-empty::before{content:"";display:inline-block;width:22px;height:3px;border-radius:2px;background:var(--lcs-line);vertical-align:middle;}'
@@ -415,11 +414,13 @@ function injectJarLabelCSS() {
   + '.jl-cell.is-ticked .jl-mark{transform:scale(1);background:var(--lcs-good);} .jl-cell.is-ticked .jl-mark::after{content:"";position:absolute;left:6px;top:3px;width:5px;height:9px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg);}'
   + '.jl-cell.is-over{box-shadow:inset 0 0 0 3px var(--lcs-accent);border-radius:14px;} .jl-cell.is-over .jl-mark{transform:scale(0);} .jl-cell.is-over .jl-toy{opacity:1;}'
   /* the pad */
-  + '.jl-pad{display:grid;grid-template-columns:repeat(2,52px);gap:4px;box-sizing:border-box;padding:6px;border-radius:16px;background:var(--lcs-surface);border:2px solid var(--lcs-line);flex:0 0 auto;width:var(--jl-padw);} .jl-pad[hidden]{display:none;}'
-  + '.jl-key{height:52px;border-radius:12px;border:2px solid var(--lcs-structure-soft);background:#fff;font-family:var(--lcs-font-display);font-weight:800;font-size:22px;color:var(--lcs-structure);cursor:pointer;touch-action:manipulation;display:grid;place-items:center;}'
+  /* the keys: one aligned row under the jar — 1 2 3 4 5 6 7 8 9 0 ⌫ */
+  + '.jl-pad{display:grid;grid-template-columns:repeat(11,var(--jl-key));gap:4px;justify-content:center;box-sizing:border-box;padding:6px;border-radius:16px;background:var(--lcs-surface);border:2px solid var(--lcs-line);margin:0 auto;} .jl-pad[hidden]{display:none;}'
+  + '.jl-key{height:var(--jl-key);border-radius:12px;border:2px solid var(--lcs-structure-soft);background:#fff;font-family:var(--lcs-font-display);font-weight:800;font-size:22px;color:var(--lcs-structure);cursor:pointer;touch-action:manipulation;display:grid;place-items:center;}'
   + '.jl-key:hover{background:var(--lcs-structure-soft);} .jl-key:disabled{opacity:.4;cursor:default;} .jl-key:focus-visible{outline:3px solid var(--lcs-structure);outline-offset:2px;}'
   + '.jl-key-erase{color:var(--lcs-accent);} .jl-key-done{grid-column:1 / -1;font-size:17px;background:var(--lcs-structure);color:#fff;border-color:var(--lcs-structure);} .jl-key-done[hidden]{display:none;}'
-  + '.jl-wrap.is-stack .jl-pad{position:absolute;left:50%;transform:translateX(-50%);bottom:0;z-index:6;grid-template-columns:repeat(3,56px);width:auto;box-shadow:0 10px 24px rgba(20,30,28,.22);}'
+  + '.jl-wrap.is-row .jl-key-done{display:none;}'
+  + '.jl-wrap.is-stack .jl-pad{position:absolute;left:50%;transform:translateX(-50%);bottom:0;z-index:6;grid-template-columns:repeat(3,56px);width:auto;margin:0;box-shadow:0 10px 24px rgba(20,30,28,.22);}'
   + '.jl-wrap.is-stack .jl-key{height:50px;}'
   /* the shelf */
   + '.jl-shelf{display:flex;gap:8px;justify-content:center;align-items:center;box-sizing:border-box;padding:8px 10px;border-radius:14px;background:var(--lcs-surface-2);border:2px solid var(--lcs-line);min-height:calc(var(--jl-shelfpic) + 20px);} .jl-shelf[hidden]{display:none;}'

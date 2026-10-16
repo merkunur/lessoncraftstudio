@@ -64,7 +64,7 @@ function serve() {
     const toys = cells.filter(c => c.classList.contains('is-toy'));
     const img = toys[0] && toys[0].querySelector('img');
     const ir = img ? img.getBoundingClientRect() : null;
-    const mode = document.querySelector('.jl-wrap').classList.contains('is-side') ? 'side' : 'stack';
+    const mode = document.querySelector('.jl-wrap').classList.contains('is-row') ? 'row' : 'stack';
     return { toys: toys.length, visibleToys: toys.filter(vis).length, marked: cells.filter(c => c.classList.contains('is-marked')).length, ticked: cells.filter(c => c.classList.contains('is-ticked')).length, over: cells.filter(c => c.classList.contains('is-over')).length, empty: cells.filter(c => c.classList.contains('is-place')).length,
       img: img ? { src: img.getAttribute('src'), alt: img.alt, w: ir.width, nat: img.naturalWidth } : null, label: document.querySelector('.jl-label').textContent, labelAria: document.querySelector('.jl-label').getAttribute('aria-label'), stuck: document.querySelector('.jl-label').classList.contains('is-stuck'), wrongLabel: document.querySelector('.jl-label').classList.contains('is-wrong'),
       padShown: !document.querySelector('.jl-pad').hidden, pencilShown: !document.querySelector('.jl-pencil').hidden, shelf: document.querySelector('.jl-shelf').hidden ? 0 : document.querySelectorAll('.jl-shelf-toy').length, note: document.querySelector('.jl-note').hidden ? null : document.querySelector('.jl-note').textContent, noteSlip: document.querySelector('.jl-note').classList.contains('is-slip'), mode, keysDisabled: [...document.querySelectorAll('.jl-key:not(.jl-key-erase):not(.jl-key-done)')].every(k => k.disabled), eraseDisabled: document.querySelector('.jl-key-erase').disabled };
@@ -104,7 +104,8 @@ function serve() {
       let st = await state(page), tag = `[${loc} ${R.id}]`, v = await view(page);
       is(st.id === R.id && st.kind === R.kind && st.n === R.n && st.noun === R.noun && !st.done && st.typed === '' && st.marked === 0, `${tag} fresh state`);
       is((await promptText(page)) === interp(S(R.kind === 'fill' ? 'promptFill' : 'promptCount'), { n: R.n }), `${tag} prompt`);
-      is(v.mode === 'side' && v.padShown === (R.kind === 'count') && !v.pencilShown && v.shelf === (R.kind === 'fill' ? 6 : 0), `${tag} side layout: pad ${v.padShown}, shelf ${v.shelf}`);
+      is(v.mode === 'row' && v.padShown === (R.kind === 'count') && !v.pencilShown && v.shelf === (R.kind === 'fill' ? 6 : 0), `${tag} row layout: pad ${v.padShown}, shelf ${v.shelf}`);
+      if (R.kind === 'count') { const pk = await page.evaluate(() => { const jar = document.querySelector('.jl-jar').getBoundingClientRect(), pad = document.querySelector('.jl-pad').getBoundingClientRect(), ks = [...document.querySelectorAll('.jl-key')].filter(k => k.offsetParent !== null), keys = ks.map(k => k.getBoundingClientRect()); return { below: pad.top >= jar.bottom - 1, oneRow: new Set(keys.map(k => Math.round(k.top))).size === 1, order: ks.map(k => k.textContent).join(''), keyMin: Math.min(...keys.map(k => Math.min(k.width, k.height))) }; }); is(pk.below && pk.oneRow && pk.order === '1234567890⌫' && pk.keyMin >= 44, `${tag} eleven keys in one row under the jar, in order, ≥ 44 px (${pk.order}, ${pk.keyMin.toFixed(0)})`); }
       if (R.kind === 'count') {
         is(v.toys === R.n && v.visibleToys === R.n && v.empty === 0 && v.label === '' && v.labelAria === S('labelEmpty') && v.note === S('noteCount'), `${tag} ${R.n} toys in the jar, the label empty, noteCount (side mode)`);
         if (R.n) is(!!v.img && /^\/image-library-webp\/themes\/toys\//.test(v.img.src) && v.img.nat > 0 && v.img.w >= 96 && v.img.alt === label(R.noun, loc), `${tag} library toy ${R.noun} ≥ 96 px (${v.img && v.img.w.toFixed(0)}), alt "${v.img && v.img.alt}"`);
@@ -195,7 +196,7 @@ function serve() {
     is(m.overflow <= 2, `${tag} no overflow`);
     is(v.img && v.img.w >= (w >= 700 ? 96 : 64), `${tag} toy ${v.img && v.img.w.toFixed(0)} px`);
     is(m.checkBottom <= m.innerH + 1, `${tag} twenty toys: Check at ${m.checkBottom.toFixed(0)} within ${m.innerH}`);
-    if (L.mode === 'side') { is(!m.padHidden && m.keyMin >= 44, `${tag} the pad stands beside the jar, keys ≥ 44 (${m.keyMin.toFixed(0)})`); }
+    if (L.mode === 'row') { is(!m.padHidden && m.keyMin >= 44 && Math.abs(m.keyMin - L.key) <= 1, `${tag} the key row under the jar, keys ${m.keyMin.toFixed(0)} ≥ 44`); }
     else {
       is(m.padHidden && v.pencilShown, `${tag} the pad is folded away; the pencil shows`);
       await clickSel(page, '.jl-pencil'); const m2 = await page.evaluate(() => { const pad = document.querySelector('.jl-pad').getBoundingClientRect(), wrap = document.querySelector('.jl-wrap').getBoundingClientRect(), keys = [...document.querySelectorAll('.jl-key')].map(k => k.getBoundingClientRect()); return { inside: pad.left >= wrap.left - 1 && pad.right <= wrap.right + 1 && pad.bottom <= wrap.bottom + 1, keyMin: Math.min(...keys.map(k => Math.min(k.width, k.height))), shown: !document.querySelector('.jl-pad').hidden }; });

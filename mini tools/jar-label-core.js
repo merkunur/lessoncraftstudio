@@ -115,17 +115,19 @@
   }
 
   /* ---- layout ---- */
-  /* W = the stage content width. From 560: 5 columns, the pad beside the jar (two columns of keys) —
-     pictures reach 96 px from W = 640 (the live desktop stage is 647–672); below 560: 4 columns, the pad floating. Cell = floor((inner − (cols−1)·gap) / cols); picture = cell − gap. */
+  /* W = the stage content width. From 560 ('row'): the jar spans the width, 5 columns, and the eleven keys
+     stand in ONE ROW under it (1 2 3 … 9 0 ⌫ — the numbers aligned in order, operator 2026-10-16); below 560
+     ('stack'): 4 columns, the pad floating over the jar. Cell = floor((inner − (cols−1)·gap) / cols); picture = cell − gap. */
   function layout(W) {
     if (W >= 560) {
-      var padW = 112, gap = 2, jarW = W - 12 - padW, pad = 8, innerW = jarW - 2 * pad;
-      var cell = Math.floor((innerW - 4 * gap) / 5);
-      return { mode: 'side', cols: 5, gap: gap, padW: padW, jarW: jarW, jarPad: pad, cell: cell, pic: cell - gap };
+      var gap = 4, pad = 8, innerW = W - 2 * pad;
+      var cell = Math.min(112, Math.floor((innerW - 4 * gap) / 5));   /* capped so a jar of twenty + the key row fits 1366 × 900 */
+      var key = Math.min(52, Math.floor((W - 10 * 4) / 11));
+      return { mode: 'row', cols: 5, gap: gap, padW: 0, key: key, jarW: W, jarPad: pad, cell: cell, pic: cell - gap };
     }
     var g = 2, jp = 6, inner = W - 2 * jp;
     var c = Math.floor((inner - 3 * g) / 4);
-    return { mode: 'stack', cols: 4, gap: g, padW: 0, jarW: W, jarPad: jp, cell: c, pic: c - g };
+    return { mode: 'stack', cols: 4, gap: g, padW: 0, key: 50, jarW: W, jarPad: jp, cell: c, pic: c - g };
   }
   function rowsFor(n, cols) { return Math.max(1, Math.ceil(n / cols)); }
   /* a toy's offset inside its cell (loose up to ten, straight above) */

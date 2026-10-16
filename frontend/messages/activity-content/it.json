@@ -1483,25 +1483,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "«Forma 3», «Forma 7», «Forma 10»: il bambino costruisce il numero toccando le caselle di una tabella del dieci per inserire esattamente quel numero di gettoni a forma di animale, poi preme «Controlla». È un'attività interattiva di conteggio per la scuola dell'infanzia, per i numeri da 0 a 10, che funziona nel browser senza nulla da installare e senza account.",
-        "È la tabella del dieci a rendere tutto questo più del semplice contare a memoria. Le sue due file da cinque danno a ogni numero una forma che il bambino può riconoscere — il 4 riempie quasi tutta la fila in alto, il 10 riempie l'intera tabella — così il conteggio comincia a collegarsi a quanto è davvero un numero. Il bambino decide quanti animali mettere e può aggiungerne o toglierne prima di controllare, mantenendo l'attenzione sul conteggio uno-a-uno invece che sull'indovinare.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del conteggio e della cardinalità: comprendere la relazione tra i numeri e le quantità e collegare il conteggio alla cardinalità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Un biglietto mostra un numero e al binario aspetta un treno da dieci posti, insieme a tanti animali. Il bambino tocca gli animali uno alla volta — ognuno salta nel posto libero successivo — e preme Partenza quando sul treno ce ne sono esattamente quanti ne indica il biglietto. È un’attività interattiva di conteggio fino a 10 che funziona nel browser, senza installare nulla e senza account.",
+        "La parte difficile del contare una quantità è sapere quando fermarsi, e il treno è costruito proprio su questo: aspettano sempre più animali di quanti ne chieda il biglietto, quindi il bambino deve tenere il conto e decidere. I dieci posti sono una tabella del dieci — due file da cinque, riempite a partire dal davanti —, così sette si vede come una fila piena e altri due. Quando il conto non torna, il treno numera i passeggeri perché il bambino veda il motivo, ed è il bambino a correggere; l’aiuto non sposta mai un animale. In alcuni turni il treno si ferma di nuovo e il nuovo biglietto indica uno in più o uno in meno: il bambino fa salire o scendere un solo animale invece di ricominciare.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: associare un numero a ogni oggetto, sapere che l’ultimo numero detto indica quanti sono e che ogni numero successivo è uno in più. L’insegnante sceglie biglietti fino a 5 o fino a 10 e se i numeri del conteggio compaiono quando salgono gli animali o sono detti ad alta voce dal bambino. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare esattamente il numero di animali indicato dalla consegna.",
-        "Mettere un gettone per casella con un conteggio uno-a-uno attento.",
-        "Vedere ogni numero da 0 a 10 prendere forma sulla tabella del dieci a due file.",
-        "Collegare il numero detto o scritto a una quantità reale."
+        "Contare esattamente tanti animali quanti ne indica il biglietto",
+        "Mettere un animale per posto e dire un numero per ciascuno",
+        "Fermarsi al numero giusto: l’ultimo numero contato dice quanti sono",
+        "Cambiare il treno di un solo animale quando il biglietto dice uno in più o uno in meno"
       ],
       "howToPlay": [
-        "Leggi la consegna per vedere quale numero formare, come «Forma 7».",
-        "Tocca le caselle della tabella del dieci per inserire esattamente quel numero di gettoni-animale, poi premi «Controlla».",
-        "Non è giusto? Aggiungi o togli gettoni e riprova — non c'è timer e non c'è punteggio."
+        "Leggi il numero sul biglietto.",
+        "Tocca gli animali sul marciapiede per farli salire sul treno, uno alla volta. Tocca il treno per far scendere l’ultimo animale.",
+        "Quando sul treno ci sono tanti animali quanti ne indica il biglietto, premi Partenza.",
+        "Troppi o troppo pochi? Il treno dice quanti sono a bordo: fanne scendere qualcuno o salire altri e premi di nuovo Partenza. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Formare qualsiasi numero da 0 a 10 con i gettoni su una tabella del dieci.",
-        "Collegare il conteggio al «quanti sono», così che l'ultimo numero contato indichi la quantità.",
-        "Costruire il senso del numero sulla tabella del dieci su cui poggiano le prime addizioni e il valore posizionale."
+        "Contare raccolte fino a 10 oggetti",
+        "Sapere che l’ultimo numero contato dice quanti sono, e fermarsi lì",
+        "Capire che il numero successivo è uno in più e il precedente uno in meno"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

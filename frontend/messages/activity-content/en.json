@@ -286,25 +286,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Make 3,\" \"Make 7,\" \"Make 10\" — the child builds the number by tapping squares on a single ten-frame to drop in exactly that many animal counters, then presses Check. It's an interactive Kindergarten counting activity for numbers 0 to 10 that runs in the browser with nothing to install and no account.",
-        "The ten-frame is what makes this more than rote counting. Its two rows of five give each number a shape a child can recognize — four fills most of the top row, ten fills the whole frame — so counting starts to connect to how much a number really is. The child decides how many animals to place and can add or take some away before checking, which keeps the focus on one-to-one counting rather than guessing.",
-        "It is aligned to Common Core K.CC.B.4 — understanding the relationship between numbers and quantities and connecting counting to cardinality. No timer, no score — just calm, playful practice."
+        "A ticket shows a number, and a train with ten seats waits at a platform full of animals. The child taps the animals one at a time — each one hops into the next seat — and presses Go when the train holds exactly as many as the ticket says. It's an interactive Kindergarten counting activity for numbers to 10 that runs in the browser with nothing to install and no account.",
+        "The hard part of making a number is knowing when to stop, and the train is built around it: more animals wait than any ticket asks for, so the child has to keep the count and decide. The ten seats are a ten-frame — two rows of five, filled from the front — so seven reads as a full row and two more. When the count is wrong, the train numbers its passengers so the child can see why, and the child fixes it; the help never moves an animal. On some rounds the train stops again and the new ticket is one more or one fewer, so the child puts on or lets off just one animal instead of starting over.",
+        "It is aligned to Common Core K.CC.B.4 — one number for each object, the last number said tells how many, and each next number is one more. Teachers can choose tickets up to 5 or up to 10, and counting numbers shown as the animals get on or said aloud by the child. No timer, no score."
       ],
       "practices": [
-        "Counting out exactly the number of animals the prompt names",
-        "Placing one counter per square with careful one-to-one counting",
-        "Seeing each number 0 to 10 take shape on the two-row ten-frame",
-        "Connecting the spoken or written number to a real quantity"
+        "Counting out exactly as many animals as the ticket shows",
+        "Putting one animal in each seat and saying one number for each",
+        "Stopping at the right number — the last number counted tells how many",
+        "Changing the train by just one when the ticket is one more or one fewer"
       ],
       "howToPlay": [
-        "Read the prompt to see which number to make, like Make 7.",
-        "Tap the squares of the ten-frame to place exactly that many animal counters, then press Check.",
-        "Not quite? Add or remove counters and try again — there is no timer and no score."
+        "Read the number on the ticket.",
+        "Tap animals on the platform to put them on the train, one at a time. Tap the train to let the last animal off.",
+        "When the train holds as many animals as the ticket says, press Go.",
+        "Too many or too few? The train says how many are on board — let some off or put more on and press Go again. No timer, no score."
       ],
       "learningGoals": [
-        "Make any number from 0 to 10 with counters on a ten-frame — the focus of Common Core K.CC.B.4",
-        "Connect counting to how many, so the last number counted tells the quantity",
-        "Build the ten-frame number sense that early addition and place value depend on"
+        "Connect counting to how many: one number for each object, and the last number tells how many — the focus of Common Core K.CC.B.4",
+        "Know that the last number counted tells how many, and stop there",
+        "See that the next number is one more, and the number before is one fewer"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

@@ -2954,25 +2954,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "Statt Würfelbildern: Mengen bis 10 im Zehnerfeld legen und auf einen Blick erfassen. „Lege 3\", „Lege 7\", „Lege 10\" — das Kind baut die Zahl, indem es auf die Felder eines Zehnerfeldes tippt und genau so viele Tierplättchen hineinlegt, und drückt dann auf Prüfen. Diese interaktive Zähl-Übung für den Kindergarten umfasst die Zahlen von 0 bis 10 und läuft ohne Installation und ohne Anmeldung im Browser.",
-        "Das Zehnerfeld macht aus dem Ganzen mehr als nur stures Zählen. Seine zwei Fünferreihen geben jeder Zahl eine Gestalt, die ein Kind wiedererkennt — vier füllt fast die obere Reihe, zehn füllt das ganze Feld — sodass sich das Zählen mit der Vorstellung verbindet, wie viel eine Zahl wirklich ist. Das Kind entscheidet selbst, wie viele Tiere es legt, und kann vor dem Prüfen welche dazulegen oder wegnehmen. So bleibt der Blick auf dem genauen Eins-zu-eins-Zählen statt auf dem Raten.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zählen und Anzahlen ausgerichtet — den Zusammenhang zwischen Zahlen und Mengen verstehen und das Zählen mit der Anzahl verknüpfen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Auf der Fahrkarte steht eine Zahl, und am Bahnsteig wartet ein Zug mit zehn Plätzen, daneben viele Tiere. Das Kind tippt die Tiere einzeln an – jedes hüpft auf den nächsten freien Platz – und drückt auf Abfahrt, wenn genau so viele im Zug sitzen, wie auf der Fahrkarte steht. Eine interaktive Zählübung für Zahlen bis 10, direkt im Browser, ohne Installation und ohne Konto.",
+        "Das Schwierige beim Abzählen einer Menge ist, rechtzeitig aufzuhören – und genau darum geht es hier: Es warten mehr Tiere, als die Fahrkarte verlangt, also muss das Kind mitzählen und selbst entscheiden. Die zehn Plätze sind ein Zehnerfeld – zwei Reihen zu je fünf, von vorn besetzt –, sodass man sieben als volle Reihe und zwei erkennt. Stimmt die Anzahl nicht, nummeriert der Zug seine Fahrgäste, damit das Kind sieht, warum, und das Kind korrigiert selbst; die Hilfe setzt nie ein Tier um. In manchen Runden hält der Zug noch einmal, und auf der neuen Fahrkarte steht eins mehr oder eins weniger – dann steigt genau ein Tier ein oder aus, statt dass das Kind von vorn beginnt.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: jedem Ding genau eine Zahl zuordnen, wissen, dass die zuletzt genannte Zahl die Anzahl angibt, und dass die nächste Zahl eins mehr ist. Lehrkräfte wählen Fahrkarten bis 5 oder bis 10 und ob die Zählzahlen beim Einsteigen angezeigt werden oder das Kind sie laut sagt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Genau so viele Tiere abzählen, wie die Aufgabe nennt.",
-        "Ein Plättchen pro Feld legen und dabei sorgfältig eins zu eins zählen.",
-        "Jede Zahl von 0 bis 10 auf dem zweireihigen Zehnerfeld Gestalt annehmen sehen.",
-        "Die gesprochene oder geschriebene Zahl mit einer echten Menge verbinden."
+        "Genau so viele Tiere abzählen, wie auf der Fahrkarte steht",
+        "Jedem Tier einen Platz und eine Zahl geben",
+        "An der richtigen Zahl aufhören – die zuletzt gezählte Zahl gibt die Anzahl an",
+        "Den Zug um genau eins verändern, wenn die Fahrkarte eins mehr oder eins weniger zeigt"
       ],
       "howToPlay": [
-        "Lies die Aufgabe, um zu sehen, welche Zahl du legen sollst, etwa „Lege 7\".",
-        "Tippe auf die Felder des Zehnerfeldes, um genau so viele Tierplättchen zu legen, und drücke dann auf Prüfen.",
-        "Noch nicht ganz richtig? Lege Plättchen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+        "Lies die Zahl auf der Fahrkarte.",
+        "Tippe Tiere auf dem Bahnsteig an, um sie einzeln in den Zug zu setzen. Tippe auf den Zug, dann steigt das letzte Tier aus.",
+        "Wenn so viele Tiere im Zug sitzen, wie auf der Fahrkarte steht, drücke auf Abfahrt.",
+        "Zu viele oder zu wenige? Der Zug zeigt, wie viele eingestiegen sind – lass welche aussteigen oder setze mehr hinein und drücke noch einmal auf Abfahrt. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Jede Zahl von 0 bis 10 mit Plättchen auf einem Zehnerfeld legen.",
-        "Das Zählen mit der Anzahl verbinden, sodass die zuletzt gezählte Zahl die Menge angibt.",
-        "Das Zehnerfeld-Verständnis aufbauen, auf das frühes Addieren und der Stellenwert angewiesen sind."
+        "Mengen bis 10 abzählen",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt, und dort aufhören",
+        "Erkennen, dass die nächste Zahl eins mehr und die vorige eins weniger ist"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

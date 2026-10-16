@@ -2337,25 +2337,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "« Fais 3 », « Fais 7 », « Fais 10 » : l'enfant construit le nombre en touchant les cases d'un cadre de dix pour y déposer exactement ce nombre de jetons-animaux, puis appuie sur « Vérifier ». C'est une activité de comptage interactive pour la maternelle, pour les nombres de 0 à 10, qui se joue dans le navigateur, sans rien installer et sans inscription.",
-        "C'est le cadre de dix qui transforme cela en bien plus qu'un comptage par cœur. Ses deux rangées de cinq donnent à chaque nombre une forme que l'enfant reconnaît — quatre remplit presque toute la rangée du haut, dix remplit tout le cadre — si bien que le comptage commence à se relier à « combien il y en a vraiment ». L'enfant décide combien d'animaux placer et peut en ajouter ou en retirer avant de vérifier, ce qui garde l'attention sur le comptage un à un plutôt que sur la devinette.",
-        "Cette activité de grande section est alignée sur les programmes officiels : comprendre le lien entre les nombres et les quantités, et relier le comptage à la cardinalité. Aucun minuteur, aucun score — juste une découverte calme et ludique."
+        "Un billet affiche un nombre, et un train de dix places attend au quai, où patientent de nombreux animaux. L’enfant touche les animaux un par un — chacun saute à la place libre suivante — puis appuie sur En route quand le train en porte exactement autant que l’indique le billet. C’est une activité interactive de dénombrement jusqu’à 10, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Le plus difficile pour constituer une collection, c’est de savoir quand s’arrêter, et tout le train est pensé pour cela : il y a toujours plus d’animaux qui attendent que le billet n’en demande, alors l’enfant doit garder le compte et décider. Les dix places forment un cadre de dix — deux rangées de cinq, remplies par l’avant —, si bien que sept se lit comme une rangée pleine et deux de plus. Quand le compte n’est pas bon, le train numérote ses passagers pour que l’enfant voie pourquoi, et c’est l’enfant qui corrige ; l’aide ne déplace jamais un animal. À certaines manches, le train s’arrête encore et le nouveau billet indique un de plus ou un de moins : l’enfant fait monter ou descendre un seul animal au lieu de tout recommencer.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : associer un nombre à chaque objet, savoir que le dernier nombre dit donne la quantité, et que le nombre suivant, c’est un de plus. L’enseignant choisit des billets jusqu’à 5 ou jusqu’à 10, et si les nombres du comptage s’affichent quand les animaux montent ou sont dits à voix haute par l’enfant. Ni chrono ni score."
       ],
       "practices": [
-        "Compter exactement le nombre d'animaux que la consigne demande.",
-        "Placer un jeton par case avec un comptage un à un soigneux.",
-        "Voir chaque nombre de 0 à 10 prendre forme sur le cadre de dix à deux rangées.",
-        "Relier le nombre dit ou écrit à une vraie quantité."
+        "Dénombrer exactement autant d’animaux que le billet l’indique",
+        "Mettre un animal par place et dire un nombre pour chacun",
+        "S’arrêter au bon nombre : le dernier nombre compté donne la quantité",
+        "Changer le train d’un seul animal quand le billet indique un de plus ou un de moins"
       ],
       "howToPlay": [
-        "Lis la consigne pour voir quel nombre faire, par exemple « Fais 7 ».",
-        "Touche les cases du cadre de dix pour placer exactement ce nombre de jetons-animaux, puis appuie sur « Vérifier ».",
-        "Pas tout à fait ? Ajoute ou retire des jetons et recommence — il n'y a ni minuteur, ni score."
+        "Lis le nombre sur le billet.",
+        "Touche les animaux sur le quai pour les faire monter dans le train, un par un. Touche le train pour faire descendre le dernier animal.",
+        "Quand le train porte autant d’animaux que l’indique le billet, appuie sur En route.",
+        "Trop ou pas assez ? Le train dit combien d’animaux sont à bord : fais-en descendre ou monter d’autres, puis appuie de nouveau sur En route. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Faire n'importe quel nombre de 0 à 10 avec des jetons sur un cadre de dix.",
-        "Relier le comptage à « combien il y en a », pour que le dernier nombre compté dise la quantité.",
-        "Construire le sens du nombre sur le cadre de dix dont dépendront les premières additions et la numération."
+        "Dénombrer une collection jusqu’à 10",
+        "Savoir que le dernier nombre compté donne la quantité, et s’arrêter là",
+        "Comprendre que le nombre suivant, c’est un de plus, et le précédent, un de moins"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

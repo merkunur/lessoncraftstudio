@@ -987,25 +987,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Faça 3\", \"Faça 7\", \"Faça 10\" — a criança constrói o número tocando nos quadradinhos de um quadro de dez para colocar exatamente essa quantidade de fichas de animais e depois toca em Verificar. É uma atividade interativa de contagem para a educação infantil, com números de 0 a 10, que funciona no navegador, sem instalar nada e sem conta.",
-        "O quadro de dez é o que faz isso ir além da contagem decorada. Suas duas fileiras de cinco dão a cada número uma forma que a criança reconhece — o quatro preenche quase toda a fileira de cima, o dez preenche o quadro inteiro — então contar começa a se ligar ao quanto um número realmente é. A criança decide quantos animais colocar e pode acrescentar ou tirar alguns antes de verificar, o que mantém o foco na contagem um a um, e não no chute.",
-        "A atividade está alinhada à BNCC, na relação entre contagem e cardinalidade — entender a ligação entre os números e as quantidades. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "Uma passagem mostra um número, e na plataforma um trem de dez lugares espera junto com muitos animais. A criança toca os animais um de cada vez — cada um pula para o próximo lugar livre — e aperta Partida quando o trem leva exatamente tantos quantos diz a passagem. É uma atividade interativa de contagem até 10 que funciona no navegador, sem instalar nada e sem conta.",
+        "O difícil de separar uma quantidade é saber a hora de parar, e o trem foi pensado para isso: sempre há mais animais esperando do que a passagem pede, então a criança precisa acompanhar a contagem e decidir. Os dez lugares formam um quadro de dez — duas fileiras de cinco, preenchidas a partir da frente —, e assim sete aparece como uma fileira cheia e mais dois. Quando a contagem não bate, o trem numera os passageiros para a criança ver por quê, e é ela quem corrige; a ajuda nunca muda um animal de lugar. Em algumas rodadas o trem para de novo e a passagem nova diz um a mais ou um a menos: a criança sobe ou desce um só animal em vez de começar tudo de novo.",
+        "A atividade está alinhada à BNCC, no campo dos números: associar um número a cada objeto, saber que o último número falado diz a quantidade e que cada número seguinte é um a mais. O professor escolhe passagens até 5 ou até 10 e se os números da contagem aparecem quando os animais sobem ou são falados em voz alta pela criança. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar exatamente a quantidade de animais que o enunciado pede.",
-        "Colocar uma ficha por quadradinho, com contagem cuidadosa de um a um.",
-        "Ver cada número de 0 a 10 ganhar forma no quadro de dez de duas fileiras.",
-        "Ligar o número falado ou escrito a uma quantidade de verdade."
+        "Separar exatamente tantos animais quanto mostra a passagem",
+        "Pôr um animal em cada lugar e dizer um número para cada um",
+        "Parar no número certo: o último número contado diz a quantidade",
+        "Mudar o trem em um só animal quando a passagem diz um a mais ou um a menos"
       ],
       "howToPlay": [
-        "Leia o enunciado para ver qual número fazer, como Faça 7.",
-        "Toque nos quadradinhos do quadro de dez para colocar exatamente essa quantidade de fichas de animais e depois toque em Verificar.",
-        "Errou? Acrescente ou tire fichas e tente de novo — não há cronômetro nem pontuação."
+        "Leia o número da passagem.",
+        "Toque nos animais da plataforma para colocá-los no trem, um de cada vez. Toque no trem para o último animal descer.",
+        "Quando o trem levar tantos animais quanto diz a passagem, aperte Partida.",
+        "Demais ou de menos? O trem diz quantos estão a bordo: tire alguns ou coloque mais e aperte Partida de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "A criança aprende a formar qualquer número de 0 a 10 com fichas num quadro de dez.",
-        "A criança liga a contagem ao quanto, de modo que o último número contado diz a quantidade.",
-        "A criança constrói o senso numérico do quadro de dez em que a adição inicial e o valor posicional vão se apoiar."
+        "Contar coleções de até 10 objetos",
+        "Saber que o último número contado diz a quantidade, e parar ali",
+        "Perceber que o número seguinte é um a mais e o anterior, um a menos"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

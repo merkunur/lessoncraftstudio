@@ -352,24 +352,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Gör 3\", \"Gör 7\", \"Gör 10\" — barnet bygger talet genom att trycka på rutorna i en tioram och lägga in precis så många djurmarkörer, och trycker sedan på Kontrollera. Det är en interaktiv räkneaktivitet för förskoleklass med talen 0 till 10 som körs i webbläsaren, utan att något behöver installeras och utan konto.",
-        "Tioramen är det som gör detta till mer än ramsräkning. Dess två rader med fem ger varje tal en form som barnet känner igen — fyra fyller större delen av översta raden, tio fyller hela ramen — så att räknandet börjar kopplas till hur mycket ett tal verkligen är. Barnet bestämmer själv hur många djur som ska läggas dit och kan lägga till eller ta bort några innan det kontrollerar, vilket håller fokus på ett-till-ett-räkning i stället för gissning. Aktiviteten passar förskoleklass och följer Lgr22."
+        "En biljett visar ett tal, och vid perrongen väntar ett tåg med tio platser tillsammans med en massa djur. Barnet trycker på djuren ett i taget – vart och ett hoppar till nästa lediga plats – och trycker på Avgång när det sitter exakt så många på tåget som det står på biljetten. Det är en interaktiv räkneaktivitet upp till 10 som fungerar i webbläsaren, utan installation och utan konto.",
+        "Det svåra med att räkna fram ett antal är att veta när man ska sluta, och tåget är byggt kring just det: det väntar alltid fler djur än biljetten kräver, så barnet måste hålla räkningen och bestämma själv. De tio platserna är en tioram – två rader med fem, som fylls framifrån –, så sju syns som en full rad och två till. Stämmer inte antalet numrerar tåget sina passagerare så att barnet ser varför, och barnet rättar själv; hjälpen flyttar aldrig ett djur. I vissa omgångar stannar tåget en gång till, och på den nya biljetten står det ett mer eller ett mindre – då kliver precis ett djur på eller av i stället för att barnet börjar om.",
+        "Aktiviteten följer Lgr22 – att ge varje sak ett tal, att veta att det sista talet säger hur många det är och att nästa tal är ett mer. Läraren väljer biljetter upp till 5 eller upp till 10 och om räknetalen ska synas när djuren kliver på eller sägas högt av barnet. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Räkna upp precis så många djur som uppgiften anger",
-        "Lägga en markör per ruta med noggrann ett-till-ett-räkning",
-        "Se varje tal från 0 till 10 ta form på tioramens två rader",
-        "Koppla det sagda eller skrivna talet till en verklig mängd"
+        "Räkna fram exakt så många djur som biljetten visar",
+        "Ge varje djur en egen plats och säga ett tal för varje djur",
+        "Sluta vid rätt tal – det sista talet man räknar säger hur många det är",
+        "Ändra tåget med precis ett när biljetten visar ett mer eller ett mindre"
       ],
       "howToPlay": [
-        "Läs uppgiften för att se vilket tal du ska göra, till exempel Gör 7.",
-        "Tryck på rutorna i tioramen för att lägga precis så många djurmarkörer, och tryck sedan på Kontrollera.",
-        "Blev det inte rätt? Lägg till eller ta bort markörer och försök igen — det finns ingen tid och inga poäng."
+        "Läs talet på biljetten.",
+        "Tryck på djur på perrongen för att sätta dem på tåget, ett i taget. Tryck på tåget så kliver det sista djuret av.",
+        "När det sitter lika många djur på tåget som det står på biljetten trycker du på Avgång.",
+        "För många eller för få? Tåget visar hur många som är ombord – låt några kliva av eller sätt på fler och tryck på Avgång igen. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan göra vilket tal som helst från 0 till 10 med markörer på en tioram",
-        "Barnet kan koppla räknandet till hur många, så att det sist räknade talet anger mängden",
-        "Barnet bygger den tioramskänsla för tal som tidig addition och platsvärde bygger på"
+        "Räkna fram antal upp till 10",
+        "Veta att det sista talet man räknar säger hur många det är, och sluta där",
+        "Se att nästa tal är ett mer och talet före ett mindre"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

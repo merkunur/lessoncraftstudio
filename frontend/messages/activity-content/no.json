@@ -1646,6 +1646,30 @@
         "Barnet forstår at antallet er det samme når tingene flyttes fra hverandre eller sammen",
         "Barnet forstår at hvert neste tall er én mer"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Mamma And har morgenopprop ved dammen. Kortet hennes viser prikker, og barnet sender nøyaktig så mange andunger fra flåten til land – ett trykk, én andunge som svømmer over. Så skriver barnet under på oppropet: trykker på tallstempelet for hvor mange som kom, og sporer tallet med fingeren i gjørma. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon og uten konto.",
+        "Mamma viser aldri et siffer (med mindre læreren velger det): barnet teller prikkene, teller opp like mange andunger og skriver tallet som sier hvor mange det er – sifferet er barnets eget svar. På flåten venter flere andunger enn Mamma ber om, så barnet må selv bestemme når det skal stoppe; et trykk på en andunge på land sender den tilbake. Andungene lander spredt, så å telle dem igjen er ekte telling. Sjekk ser først på land og så på underskriften og sier hva som mangler: for mange, for få, ikke noe tall ennå, et tall som ikke sier hvor mange som kom, eller et tall som ikke er sporet ennå. Etter en feil blir andungene på land nummerert, etter en ny også Mammas prikker. Hjelpen flytter aldri en andunge.",
+        "Aktiviteten er tilpasset LK20 – å telle antall, telle opp et gitt antall og skrive tallet som hører til. Læreren velger tall opptil 5 eller opptil 9, og om Mammas kort viser prikker eller tallet. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Telle prikkene på et kort og telle opp like mange andunger",
+        "Stoppe ved riktig tall – det siste tallet man teller, sier hvor mange det er",
+        "Skrive sifferet som sier hvor mange det er, strek for strek",
+        "Telle en spredt gruppe igjen for å sjekke"
+      ],
+      "howToPlay": [
+        "Tell prikkene på Mammas kort.",
+        "Trykk på flåten for å sende andunger til land, én om gangen. Trykk på en andunge på land for å sende den tilbake.",
+        "Trykk på tallstempelet for hvor mange som kom, og spor tallet i gjørma, fra den grønne prikken.",
+        "Trykk på Sjekk. Ikke helt? Hintet sier hva som mangler – rett det, og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle og telle opp antall opptil 9",
+        "Skrive sifferet som sier hvor mange gjenstander det er",
+        "Vite at det siste tallet man teller, sier hvor mange det er"
+      ]
     }
   }
 }

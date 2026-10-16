@@ -1658,6 +1658,30 @@
         "Barnet forstår, at antallet er det samme, når tingene flyttes fra hinanden eller sammen",
         "Barnet forstår, at hvert næste tal er én mere"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Mor And holder morgenopråb ved dammen. Hendes kort viser prikker, og barnet sender præcis så mange ællinger fra flåden ind til bredden – ét tryk, én ælling, der svømmer over. Så skriver barnet under på navneopråbet: trykker på talstemplet for, hvor mange der kom, og tegner tallet efter med fingeren i mudderet. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation og uden konto.",
+        "Mor viser aldrig et ciffer (medmindre læreren vælger det): barnet tæller prikkerne, tæller lige så mange ællinger af og skriver det tal, der siger, hvor mange der er – cifferet er barnets eget svar. På flåden venter flere ællinger, end Mor beder om, så barnet må selv beslutte, hvornår det skal stoppe; et tryk på en ælling ved bredden sender den tilbage. Ællingerne lander spredt, så at tælle dem igen er rigtig tælling. Tjek ser først på bredden og så på underskriften og siger, hvad der mangler: for mange, for få, intet tal endnu, et tal, der ikke siger, hvor mange der kom, eller et tal, der ikke er tegnet efter endnu. Efter en fejl bliver ællingerne ved bredden nummereret, efter endnu en også Mors prikker. Hjælpen flytter aldrig en ælling.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle antal, tælle et givet antal af og skrive det tal, der hører til. Læreren vælger tal op til 5 eller op til 9, og om Mors kort viser prikker eller tallet. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Tælle prikkerne på et kort og tælle lige så mange ællinger af",
+        "Stoppe ved det rigtige tal – det sidste tal, man tæller, siger, hvor mange der er",
+        "Skrive det ciffer, der siger, hvor mange der er, streg for streg",
+        "Tælle en spredt gruppe igen for at tjekke"
+      ],
+      "howToPlay": [
+        "Tæl prikkerne på Mors kort.",
+        "Tryk på flåden for at sende ællinger ind til bredden, én ad gangen. Tryk på en ælling ved bredden for at sende den tilbage.",
+        "Tryk på talstemplet for, hvor mange der kom, og tegn tallet efter i mudderet, fra den grønne prik.",
+        "Tryk på Tjek. Ikke helt? Hintet siger, hvad der mangler – ret det, og tryk på Tjek igen. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Tælle og tælle antal op til 9 af",
+        "Skrive det ciffer, der siger, hvor mange genstande der er",
+        "Vide, at det sidste tal, man tæller, siger, hvor mange der er"
+      ]
     }
   }
 }

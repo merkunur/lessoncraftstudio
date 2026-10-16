@@ -746,25 +746,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Amanece en el estanque y Mamá Pata sacude las plumas para pasar la lista de la mañana. Llama un número en voz alta —«seis», «ocho»— y tu peque le envía justo esa cantidad de patitos, sacándolos de la balsa uno por uno. Cuenta «uno… dos… tres» mientras cada patito nada hacia Mamá, sin prisas y sin apuntar antes de tiempo: la idea es contar de verdad, de a uno, hasta llegar a la cantidad que Mamá pidió.",
-        "Aquí está lo especial: mientras tu peque cuenta, nadie le dice si va bien o mal. No hay palomita ni sonido de acierto que lo detenga. Es él o ella quien decide cuándo ya envió suficientes patitos y cuándo parar; así aprende a vigilar su propio conteo y a confiar en él. Solo después «firma el pase de lista» formando la cifra en el lodo, trazo por trazo, como quien escribe su nombre. Si la cantidad de patitos coincide con lo que Mamá llamó, el pase queda sellado y el estanque respira tranquilo.",
-        "Cada mañana el pase cambia un poco: a veces Mamá pide un número, a veces solo los patitos amarillos entre los de muchos colores, a veces un patito por cada nenúfar para que ninguno se quede sin lugar. Otras veces hay que contar toda la parvada, o seguir contando mientras llegan más patitos nadando. No hay reloj, no hay puntos y nadie gana ni pierde: solo un estanque tranquilo donde contar se siente bien. (Alineada a los Planes y programas de estudio de la SEP para el preescolar, en el eje de Sentido numérico.)"
+        "Mamá Pata pasa lista en el estanque. Su tarjeta muestra puntos, y el niño manda exactamente esa cantidad de patitos de la balsa a la orilla: un toque, un patito que cruza nadando. Luego firma la lista: oprime el sello con el número de patitos que llegaron y traza ese número con el dedo en el lodo. Es una actividad interactiva de conteo que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Mamá nunca muestra el número escrito (salvo que el docente lo elija): el niño cuenta los puntos, cuenta la misma cantidad de patitos y escribe el número que dice cuántos hay, así que la cifra es su propia respuesta. En la balsa esperan más patitos de los que pide Mamá, por eso el niño tiene que decidir cuándo parar; tocar un patito de la orilla lo regresa. Los patitos llegan dispersos, así que volver a contarlos es contar de verdad. Comprobar revisa primero la orilla y luego la firma, y dice qué falta: demasiados, faltan, todavía no hay número, un número que no dice cuántos llegaron o un número que aún no se trazó. Tras un error, los patitos de la orilla se numeran; tras un segundo, también los puntos de Mamá. La ayuda nunca mueve un patito.",
+        "Está alineada con los planes y programas de estudio (SEP): contar colecciones, formar una colección de una cantidad dada y escribir el número que le corresponde. El docente elige números hasta 5 o hasta 9, y si la tarjeta de Mamá muestra puntos o el número. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar uno a uno hasta 9 para producir la cantidad que se pide.",
-        "Autocontrolar el propio conteo y decidir cuándo detenerse sin recibir señales.",
-        "Saber cuándo parar: enviar justo los patitos que pidió Mamá, ni uno más.",
-        "Asociar la cantidad contada con su cifra y formarla trazo por trazo."
+        "Contar los puntos de una tarjeta y contar la misma cantidad de patitos",
+        "Parar en el número correcto: el último número contado dice cuántos hay",
+        "Escribir el número que dice cuántos hay, trazo por trazo",
+        "Volver a contar una colección dispersa para comprobar"
       ],
       "howToPlay": [
-        "Escucha el número que llama Mamá Pata en el pase de lista.",
-        "Envíale exactamente esa cantidad de patitos, contándolos uno por uno desde la balsa.",
-        "Forma la cifra en el lodo, trazo por trazo, y sella el pase de lista."
+        "Cuenta los puntos de la tarjeta de Mamá.",
+        "Toca la balsa para mandar patitos a la orilla, uno por uno. Toca un patito de la orilla para regresarlo.",
+        "Oprime el sello con el número de patitos que llegaron y traza el número en el lodo, empezando en el punto verde.",
+        "Oprime Comprobar. ¿Todavía no? La pista dice qué falta: corrígelo y vuelve a oprimir Comprobar. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Cuento y produzco una cantidad hasta 9.",
-        "Me doy cuenta yo solo o yo sola cuándo llego a la cantidad que me pidieron.",
-        "Relaciono la cantidad con su número y lo escribo en el lodo."
+        "Contar y formar colecciones de hasta 9 elementos",
+        "Escribir el número que dice cuántos objetos hay",
+        "Saber que el último número contado dice cuántos hay"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

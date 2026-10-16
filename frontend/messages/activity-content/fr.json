@@ -3769,22 +3769,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Maman Cane fait l'appel du matin à la crique aux Coin-Coin ! Ton enfant lui envoie exactement le nombre de canetons qu'elle demande — il les compte un par un depuis le radeau, sans réaction du jeu, alors c'est lui qui décide quand s'arrêter — puis il signe l'appel en formant le chiffre dans la boue, trait après trait.",
-        "Constituer une collection d'un cardinal donné (envoyer « juste 6 »), dénombrer, et écrire le chiffre de 1 à 9 sont des attendus de la grande section de maternelle. Le jeu se joue sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
+        "Maman Cane fait l’appel du matin à la mare. Sa carte montre des points, et l’enfant envoie exactement autant de canetons du radeau vers la rive — une touche, un caneton qui traverse. Puis l’enfant signe l’appel : il appuie sur le tampon du nombre de canetons venus et repasse ce nombre du doigt dans la boue. C’est une activité interactive de numération qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Maman ne montre jamais de chiffre (sauf si l’enseignant le choisit) : l’enfant dénombre les points, constitue une collection de même quantité et écrit le nombre qui dit combien il y en a — le chiffre est sa propre réponse. Plus de canetons attendent sur le radeau que Maman n’en demande, alors l’enfant doit décider quand s’arrêter ; toucher un caneton sur la rive le renvoie. Les canetons arrivent éparpillés, donc les recompter, c’est vraiment compter. Vérifier regarde d’abord la rive, puis la signature, et dit ce qui manque : trop, pas assez, pas encore de nombre, un nombre qui ne dit pas combien sont venus, ou un nombre pas encore repassé. Après une erreur, les canetons de la rive sont numérotés ; après une deuxième, les points de Maman aussi. L’aide ne déplace jamais un caneton.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : dénombrer une collection, constituer une collection d’un cardinal donné et écrire le chiffre correspondant. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 9, et si la carte de Maman montre des points ou le nombre. Ni chrono ni score."
       ],
       "practices": [
-        "Envoyer un nombre précis de canetons (jusqu'à 9)",
-        "Compter une collection un par un",
-        "Écrire le chiffre qui dit combien de canetons sont partis"
+        "Dénombrer les points d’une carte et constituer une collection de même quantité",
+        "S’arrêter au bon nombre : le dernier nombre compté donne la quantité",
+        "Écrire le chiffre qui dit combien il y en a, trait après trait",
+        "Recompter une collection éparpillée pour vérifier"
       ],
       "howToPlay": [
-        "Touche les canetons pour en envoyer autant que Maman demande.",
-        "Écris le chiffre dans la boue pour signer l'appel."
+        "Compte les points sur la carte de Maman.",
+        "Touche le radeau pour envoyer les canetons sur la rive, un par un. Touche un caneton sur la rive pour le renvoyer.",
+        "Appuie sur le tampon du nombre de canetons venus et repasse le nombre dans la boue, en partant du point vert.",
+        "Appuie sur Vérifier. Pas tout à fait ? L’indice dit ce qui manque : corrige, puis appuie de nouveau sur Vérifier. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Constituer une collection d'un cardinal donné jusqu'à 9",
-        "Écrire le chiffre qui dit combien il y en a",
-        "Comprendre le zéro"
+        "Dénombrer et constituer une collection d’un cardinal donné jusqu’à 9",
+        "Écrire le chiffre qui dit combien il y a d’objets",
+        "Savoir que le dernier nombre compté donne la quantité"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

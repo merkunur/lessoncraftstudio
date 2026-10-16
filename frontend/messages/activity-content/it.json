@@ -3235,23 +3235,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "È mattina al laghetto e Mamma Papera fa l’appello: chiama i suoi anatroccoli e tuo figlio le manda dalla zattera esattamente il numero che chiede, contandoli uno per uno.",
-        "L’attività allena a contare la quantità giusta di anatroccoli e poi a scrivere il numero corrispondente.",
-        "È pensata sulle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
+        "Mamma Papera fa l’appello del mattino allo stagno. La sua carta mostra dei puntini, e il bambino manda esattamente quel numero di anatroccoli dalla zattera alla riva: un tocco, un anatroccolo che attraversa nuotando. Poi il bambino firma l’appello: preme il timbro con il numero di anatroccoli arrivati e ripassa quel numero con il dito nel fango. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla e senza account.",
+        "Mamma non mostra mai la cifra (a meno che l’insegnante non lo scelga): il bambino conta i puntini, conta altrettanti anatroccoli e scrive il numero che dice quanti sono, così la cifra è la sua risposta. Sulla zattera aspettano più anatroccoli di quanti ne chieda Mamma, quindi il bambino deve decidere quando fermarsi; toccare un anatroccolo sulla riva lo rimanda indietro. Gli anatroccoli arrivano sparsi, perciò ricontarli è contare davvero. Verifica guarda prima la riva, poi la firma, e dice che cosa manca: troppi, troppo pochi, ancora nessun numero, un numero che non dice quanti sono arrivati o un numero non ancora ripassato. Dopo un errore gli anatroccoli sulla riva vengono numerati; dopo un secondo anche i puntini di Mamma. L’aiuto non sposta mai un anatroccolo.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare raccolte, formare una raccolta di una quantità data e scrivere il numero corrispondente. L’insegnante sceglie numeri fino a 5 o fino a 9 e se la carta di Mamma mostra puntini o il numero. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare e mandare la quantità giusta di anatroccoli",
-        "Scrivere il numero che dice quanti sono",
-        "Contare solo gli anatroccoli giusti (per esempio solo quelli gialli)"
+        "Contare i puntini di una carta e contare altrettanti anatroccoli",
+        "Fermarsi al numero giusto: l’ultimo numero contato dice quanti sono",
+        "Scrivere la cifra che dice quanti sono, tratto dopo tratto",
+        "Ricontare una raccolta sparsa per controllare"
       ],
       "howToPlay": [
-        "Ascolta quanti anatroccoli vuole Mamma Papera",
-        "Mandane esattamente quel numero dalla zattera, contandoli uno a uno",
-        "Scrivi il numero nel fango per firmare l’appello"
+        "Conta i puntini sulla carta di Mamma.",
+        "Tocca la zattera per mandare gli anatroccoli sulla riva, uno alla volta. Tocca un anatroccolo sulla riva per rimandarlo indietro.",
+        "Premi il timbro con il numero di anatroccoli arrivati e ripassa il numero nel fango, partendo dal puntino verde.",
+        "Premi Verifica. Non ancora? Il suggerimento dice che cosa manca: correggi e premi di nuovo Verifica. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a contare e mandare la quantità giusta",
-        "Tuo figlio impara a scrivere il numero che dice quanti sono"
+        "Contare e formare raccolte fino a 9 elementi",
+        "Scrivere la cifra che dice quanti oggetti ci sono",
+        "Sapere che l’ultimo numero contato dice quanti sono"
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

@@ -111,6 +111,10 @@ function seedScript(row) {
     // seven ducks with the window open (the stays-open look), so the card shows the group in its five-and-two shape
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.api.settings.look='open';var i=t._pool.findIndex(function(r){return r.n===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();})();`;
   }
+  if (row.tool === 'roll-book-activity') {
+    // seven dots on Mama's card, six ducklings already on the bank, so the card shows the pond mid-roll
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();for(var s=0;s<6;s++)window.RollBookCore.send(t.st);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

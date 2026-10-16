@@ -37,30 +37,30 @@
    "fi": "kirjoita-numero-0-20-hedelmilla"
   },
   "page_title": {
-   "en": "Write the Number 0 to 20 with Fruits — Double Ten Frame",
-   "de": "Zahlen 0 bis 20 schreiben mit Früchten — Doppeltes Zehnerfeld",
-   "es": "Escribir números de 0 a 20 con frutas — Marco de diez doble",
-   "fr": "Les chiffres en maternelle – écrire de 0 à 20, en ligne (GS)",
-   "it": "Scrivere i numeri da 0 a 20 con frutta — Doppia tabella del dieci",
-   "pt": "Escrever números de 0 a 20 com frutas — Quadro de dez duplo",
-   "nl": "Getallen 0 tot 20 schrijven met fruit — Dubbel tienraam",
-   "sv": "Skriva siffror 0 till 20 med frukter — Dubbel tioram",
-   "da": "Skrive tal 0 til 20 med frugter — Dobbelt tierramme",
-   "no": "Skrive tall 0 til 20 med frukt — Dobbel tierramme",
-   "fi": "Kirjoita numero 0–20 hedelmillä — Kaksoiskymmenruudukko"
+   "en": "Write the Numbers 1 to 20 with Fruits — Double Ten Frame",
+   "de": "Zahlen 1 bis 20 schreiben mit Früchten — Doppeltes Zehnerfeld",
+   "es": "Escribir números de 1 a 20 con frutas — Marco de diez doble",
+   "fr": "Les chiffres en maternelle – écrire de 1 à 20, en ligne (GS)",
+   "it": "Scrivere i numeri da 1 a 20 con frutta — Doppia tabella del dieci",
+   "pt": "Escrever números de 1 a 20 com frutas — Quadro de dez duplo",
+   "nl": "Getallen 1 tot en met 20 schrijven met fruit — Dubbel tienraam",
+   "sv": "Skriva talen 1 till 20 med frukter — Dubbel tioram",
+   "da": "Skrive tal 1 til 20 med frugter — Dobbelt tierramme",
+   "no": "Skrive tall 1 til 20 med frukt — Dobbel tierramme",
+   "fi": "Kirjoita luvut 1–20 hedelmillä — Kaksoiskymmenruudukko"
   },
   "page_intro": {
-   "en": "Count the fruits on the double ten-frame and write the numeral 0 to 20. Aligned to Common Core K.CC.A.3 — represent a number of objects with a written numeral.",
-   "de": "Zähle die Früchte auf dem doppelten Zehnerfeld und schreibe die Zahl 0 bis 20. An den Lehrplänen ausgerichtet — eine Anzahl mit Ziffern darstellen.",
-   "es": "Cuenta las frutas en el marco de diez doble y escribe el número de 0 a 20. Alineado con el currículo oficial — representar una cantidad con cifras.",
-   "fr": "Les chiffres en maternelle : compter les fruits puis écrire le nombre, de 0 à 20, sur un cadre de dix. En ligne, sans inscription.",
-   "it": "Conta la frutta sulla doppia tabella del dieci e scrivi il numero da 0 a 20. Allineato alle Indicazioni nazionali — rappresentare una quantità con un numero scritto.",
-   "pt": "Conta as frutas no quadro de dez duplo e escreve o número de 0 a 20. Alinhado à BNCC — representar uma quantidade com um numeral.",
-   "nl": "Tel het fruit op het dubbel tienraam en schrijf het getal 0 tot 20. Afgestemd op de kerndoelen — een aantal weergeven met een geschreven cijfer.",
-   "sv": "Räkna frukterna i den dubbla tioramen och skriv siffran 0 till 20. Anpassat till Lgr22 — representera ett antal med en skriven siffra.",
-   "da": "Tæl frugterne på den dobbelte tierramme og skriv tallet 0 til 20. Tilpasset Fælles Mål — repræsentér en mængde med et tal.",
-   "no": "Tell frukten på den doble tierrammen og skriv tallet 0 til 20. Tilpasset LK20 — representér et antall med et skrevet tall.",
-   "fi": "Laske hedelmät kaksoiskymmenruudukolla ja kirjoita numero 0–20. Yhteensopiva OPS 2014:n kanssa — esitä määrä kirjoitetulla numerolla."
+   "en": "Count the fruits on the double ten-frame and write the numeral 1 to 20. Aligned to Common Core K.CC.A.3 — represent a number of objects with a written numeral.",
+   "de": "Zähle die Früchte auf dem doppelten Zehnerfeld und schreibe die Zahl 1 bis 20. An den Lehrplänen ausgerichtet — eine Anzahl mit Ziffern darstellen.",
+   "es": "Cuenta las frutas en el marco de diez doble y escribe el número de 1 a 20. Alineado con el currículo oficial — representar una cantidad con cifras.",
+   "fr": "Les chiffres en maternelle : compter les fruits puis écrire le nombre, de 1 à 20, sur un cadre de dix. En ligne, sans inscription.",
+   "it": "Conta la frutta sulla doppia tabella del dieci e scrivi il numero da 1 a 20. Allineato alle Indicazioni nazionali — rappresentare una quantità con un numero scritto.",
+   "pt": "Conta as frutas no quadro de dez duplo e escreve o número de 1 a 20. Alinhado à BNCC — representar uma quantidade com um numeral.",
+   "nl": "Tel het fruit op het dubbel tienraam en schrijf het getal 1 tot en met 20. Afgestemd op de kerndoelen — een aantal weergeven met een geschreven getal.",
+   "sv": "Räkna frukterna i den dubbla tioramen och skriv talet 1 till 20. Anpassat till Lgr22 — representera ett antal med ett skrivet tal.",
+   "da": "Tæl frugterne på den dobbelte tierramme og skriv tallet 1 til 20. Tilpasset Fælles Mål — repræsentér en mængde med et tal.",
+   "no": "Tell frukten på den doble tierrammen og skriv tallet 1 til 20. Tilpasset LK20 — representér et antall med et skrevet tall.",
+   "fi": "Laske hedelmät kaksoiskymmenruudukolla ja kirjoita luku 1–20. Yhteensopiva OPS 2014:n kanssa — esitä määrä kirjoitetulla luvulla."
   },
   "kid_prompt_template": "promptCrates"
  }

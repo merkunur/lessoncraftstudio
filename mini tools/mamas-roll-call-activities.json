@@ -132,7 +132,7 @@
       "nl": "mama-eend-eendjes-tellen-en-cijfer-schrijven-tot-9-groep-3"
     },
     "page_title": {
-      "en": "Mama's Roll Call — Count Out That Many (0 to 9)",
+      "en": "Mama's Roll Call — Count Out That Many (up to 9)",
       "de": "Zahlen schreiben lernen – zählen und Ziffern schreiben",
       "fr": "Associer quantité et chiffre – compter et écrire (GS, en ligne)",
       "es": "Pase de lista: cuenta y escribe el número (preescolar)",
@@ -146,8 +146,8 @@
       "fr": "Associer quantité et chiffre : compter la collection puis écrire le chiffre qui correspond, jusqu'à 9. En ligne, sans inscription.",
       "es": "Mamá Pata pasa lista: tu peque envía la cantidad exacta de patitos, los cuenta uno por uno y escribe la cifra en el lodo. Sin registro y alineada al plan de la SEP para el preescolar.",
       "pt": "Ajude a Mamãe Pata na chamada: envie exatamente o número de patinhos que ela pedir e escreva esse número no barro — até o zero! Sem cadastro. BNCC, 1º ano.",
-      "it": "Con Mamma Papera i bambini fanno l’appello al laghetto: contano la quantità giusta di anatroccoli, uno a uno, e poi scrivono il numero corrispondente da 0 a 9 — anche lo zero — in un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Bij Mama Eend doet je kind de ochtendronde aan de sloot: Mama roept een getal en je kind stuurt precies zoveel eendjes, één voor één afgeteld. Daarna schrijft het het juiste cijfer in de modder – van 0 tot en met 9, ook de nul. Online oefenen, zonder registratie. Afgestemd op de SLO-kerndoelen, groep 3."
+      "it": "Con Mamma Papera i bambini fanno l’appello al laghetto: contano la quantità giusta di anatroccoli, uno a uno, e poi scrivono il numero corrispondente. Un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Bij Mama Eend doet je kind de ochtendronde aan de sloot: Mama roept een getal en je kind stuurt precies zoveel eendjes, één voor één afgeteld. Daarna schrijft het het juiste cijfer in de modder. Online oefenen, zonder registratie. Afgestemd op de SLO-kerndoelen, groep 3."
     },
     "kid_prompt_template": "numeral-trace"
   }

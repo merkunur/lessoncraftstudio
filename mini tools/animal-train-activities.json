@@ -50,17 +50,17 @@
    "fi": "Laske 10 saakka eläimillä — Kymmenruudukko"
   },
   "page_intro": {
-   "en": "Practise counting from 0 to 10 on a ten-frame using animal counters. Aligned to Common Core K.CC.B.4 — connect counting to cardinality.",
+   "en": "Practise counting from 1 to 10 on a ten-frame using animal counters. Aligned to Common Core K.CC.B.4 — connect counting to cardinality.",
    "de": "Statt Würfelbildern: Mengen bis 10 im Zehnerfeld legen und auf einen Blick erfassen. Online üben, ohne Anmeldung – für Kita und Vorschule.",
-   "es": "Practica contar de 0 a 10 en un marco de diez con animales. Alineado con el currículo oficial — relacionar conteo y cardinalidad.",
+   "es": "Practica contar de 1 a 10 en un marco de diez con animales. Alineado con el currículo oficial — relacionar conteo y cardinalidad.",
    "fr": "Apprendre à compter jusqu'à 10 en plaçant des animaux sur un cadre de dix, à son rythme. En ligne, sans inscription.",
-   "it": "Esercitati a contare da 0 a 10 su una tabella del dieci con animali. Allineato alle Indicazioni nazionali — collegare conteggio e cardinalità.",
-   "pt": "Pratique contar de 0 a 10 num quadro de dez com animais. Alinhado à BNCC — relacionar contagem e cardinalidade.",
-   "nl": "Oefen tellen van 0 tot 10 op een tienraam met dieren. Afgestemd op de kerndoelen — tellen koppelen aan kardinaliteit.",
-   "sv": "Öva på att räkna från 0 till 10 i en tioram med djur. Anpassat till Lgr22 — koppla räknande till kardinalitet.",
-   "da": "Øv at tælle fra 0 til 10 på en tierramme med dyr. Tilpasset Fælles Mål — forbind tælling med kardinalitet.",
-   "no": "Øv på å telle fra 0 til 10 på en tierramme med dyr. Tilpasset LK20 — knytt telling til kardinalitet.",
-   "fi": "Harjoittele laskemaan 0–10 kymmenruudukolla eläimillä. Yhteensopiva OPS 2014:n kanssa — yhdistä laskeminen kardinaliteettiin."
+   "it": "Esercitati a contare da 1 a 10 su una tabella del dieci con animali. Allineato alle Indicazioni nazionali — collegare conteggio e cardinalità.",
+   "pt": "Pratique contar de 1 a 10 num quadro de dez com animais. Alinhado à BNCC — relacionar contagem e cardinalidade.",
+   "nl": "Oefen tellen van 1 tot en met 10 op een tienraam met dieren. Afgestemd op de kerndoelen — tellen koppelen aan kardinaliteit.",
+   "sv": "Öva på att räkna från 1 till 10 i en tioram med djur. Anpassat till Lgr22 — koppla räknande till kardinalitet.",
+   "da": "Øv at tælle fra 1 til 10 på en tierramme med dyr. Tilpasset Fælles Mål — forbind tælling med kardinalitet.",
+   "no": "Øv på å telle fra 1 til 10 på en tierramme med dyr. Tilpasset LK20 — knytt telling til kardinalitet.",
+   "fi": "Harjoittele laskemaan 1–10 kymmenruudukolla eläimillä. Yhteensopiva OPS 2014:n kanssa — yhdistä laskeminen kardinaliteettiin."
   },
   "kid_prompt_template": "promptTrain"
  }

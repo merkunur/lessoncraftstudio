@@ -46,7 +46,7 @@ var CountingNecklaceActivity = {
     setRange:       {en:'Beads',de:'Perlen',fr:'Perles',it:'Perline',es:'Perlas',pt:'Contas',nl:'Kralen',sv:'Pärlor',da:'Perler',no:'Perler',fi:'Helmet'},
     rangeTo5:       {en:'Up to 5',de:'Bis 5',fr:'Jusqu’à 5',it:'Fino a 5',es:'Hasta 5',pt:'Até 5',nl:'Tot en met 5',sv:'Upp till 5',da:'Op til 5',no:'Opptil 5',fi:'5:een asti'},
     rangeTo10:      {en:'Up to 10',de:'Bis 10',fr:'Jusqu’à 10',it:'Fino a 10',es:'Hasta 10',pt:'Até 10',nl:'Tot en met 10',sv:'Upp till 10',da:'Op til 10',no:'Opptil 10',fi:'10:een asti'},
-    setNumbers:     {en:'Counting numbers',de:'Zählzahlen',fr:'Nombres du comptage',it:'Numeri del conteggio',es:'Números al contar',pt:'Números da contagem',nl:'Telgetallen',sv:'Räknetal',da:'Tælletal',no:'Telletall',fi:'Laskun luvut'},
+    setNumbers:     {en:'Counting numbers',de:'Zählzahlen',fr:'Nombres du comptage',it:'Numeri del conteggio',es:'Números al contar',pt:'Números da contagem',nl:'Telgetallen',sv:'Räknetal',da:'Tælletal',no:'Telletall',fi:'Luvut laskiessa'},
     numbersShown:   {en:'Shown',de:'Anzeigen',fr:'Affichés',it:'Visibili',es:'Visibles',pt:'Visíveis',nl:'Tonen',sv:'Visas',da:'Vises',no:'Vises',fi:'Näkyvissä'},
     numbersHidden:  {en:'Said aloud',de:'Laut sagen',fr:'Dits à voix haute',it:'Detti ad alta voce',es:'En voz alta',pt:'Em voz alta',nl:'Hardop zeggen',sv:'Sägs högt',da:'Siges højt',no:'Sies høyt',fi:'Ääneen'}
   },

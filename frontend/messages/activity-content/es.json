@@ -2519,25 +2519,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Forma 3\", \"Forma 7\", \"Forma 10\": tu hijo o hija construye el número tocando los cuadros de un marco de diez para colocar exactamente esa cantidad de fichas con forma de animal, y luego pulsa Comprobar. Es una actividad de conteo interactiva para preescolar, con números del 0 al 10, que corre en el navegador sin instalar nada y sin cuenta.",
-        "El marco de diez es lo que hace que esto sea más que contar de memoria. Sus dos filas de cinco le dan a cada número una forma que el niño o la niña puede reconocer —el 4 llena casi toda la fila de arriba, el 10 llena el marco completo—, así el conteo empieza a conectarse con cuánto es de verdad un número. El alumno decide cuántos animales colocar y puede agregar o quitar algunos antes de comprobar, lo que mantiene el foco en el conteo uno a uno y no en adivinar. Es una actividad para preescolar (kínder).",
-        "Está alineada con los planes y programas de estudio (SEP): comprender la relación entre los números y las cantidades, y conectar el conteo con la cardinalidad. Sin temporizador y sin puntuación, con práctica tranquila."
+        "Un boleto muestra un número y en el andén espera un tren de diez asientos junto a muchos animales. El niño toca los animales uno por uno —cada uno salta al siguiente asiento libre— y oprime Vámonos cuando en el tren van exactamente tantos como dice el boleto. Es una actividad interactiva de conteo hasta 10 que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Lo difícil de contar una cantidad es saber cuándo parar, y el tren está pensado para eso: siempre esperan más animales de los que pide el boleto, así que el niño tiene que llevar la cuenta y decidir. Los diez asientos son un marco de diez —dos filas de cinco que se llenan desde adelante—, así que siete se ve como una fila llena y dos más. Cuando la cuenta no sale, el tren numera a sus pasajeros para que el niño vea por qué, y es el niño quien lo corrige; la ayuda nunca mueve un animal. En algunas rondas el tren se detiene otra vez y el boleto nuevo dice uno más o uno menos: el niño sube o baja un solo animal en vez de empezar de nuevo.",
+        "Está alineada con los planes y programas de estudio (SEP): asignar un número a cada objeto, saber que el último número dicho indica cuántos hay y que cada número siguiente es uno más. El docente elige boletos hasta 5 o hasta 10, y si los números del conteo se ven cuando suben los animales o el niño los dice en voz alta. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar exactamente la cantidad de animales que pide la consigna.",
-        "Colocar una ficha por cuadro con un conteo cuidadoso de uno a uno.",
-        "Ver cómo cada número del 0 al 10 toma forma en el marco de diez de dos filas.",
-        "Conectar el número dicho o escrito con una cantidad real."
+        "Contar exactamente tantos animales como muestra el boleto",
+        "Poner un animal en cada asiento y decir un número para cada uno",
+        "Parar en el número correcto: el último número contado dice cuántos hay",
+        "Cambiar el tren en uno solo cuando el boleto dice uno más o uno menos"
       ],
       "howToPlay": [
-        "Lee la consigna para ver qué número formar, por ejemplo Forma 7.",
-        "Toca los cuadros del marco de diez para colocar exactamente esa cantidad de fichas con forma de animal y pulsa Comprobar.",
-        "¿No salió a la primera? Agrega o quita fichas y vuelve a intentarlo: no hay temporizador ni puntuación."
+        "Lee el número del boleto.",
+        "Toca animales del andén para subirlos al tren, uno por uno. Toca el tren para que se baje el último animal.",
+        "Cuando en el tren vayan tantos animales como dice el boleto, oprime Vámonos.",
+        "¿Son demasiados o faltan? El tren dice cuántos van a bordo: baja algunos o sube más y vuelve a oprimir Vámonos. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede formar cualquier número del 0 al 10 con fichas en un marco de diez.",
-        "El niño o la niña aprende a conectar el conteo con el cuánto, de modo que el último número contado dice la cantidad.",
-        "Construye el sentido numérico del marco de diez del que dependen la primera suma y el valor posicional."
+        "Contar colecciones de hasta 10 objetos",
+        "Saber que el último número contado dice cuántos hay, y detenerse ahí",
+        "Ver que el número siguiente es uno más y el anterior, uno menos"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

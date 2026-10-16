@@ -2379,25 +2379,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "'Maak 3', 'Maak 7', 'Maak 10' — het kind bouwt het getal door op de vakjes van één tienraam te tikken en zo precies dat aantal dierenfiches neer te leggen, en drukt daarna op Controleer. Het is een interactieve telactiviteit voor kleuters met de getallen 0 tot 10 die in de browser speelt, zonder installatie en zonder account.",
-        "Het tienraam maakt dit meer dan opdreunen. De twee rijen van vijf geven elk getal een vorm die het kind kan herkennen — vier vult bijna de bovenste rij, tien vult het hele raam — zodat tellen gaat samenhangen met hoeveel een getal echt is. Het kind beslist zelf hoeveel dieren het neerlegt en kan er nog bij doen of weghalen voordat het controleert. Zo blijft de aandacht bij het één-voor-één tellen in plaats van bij gokken.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Tellen: het verband tussen getallen en hoeveelheden begrijpen en tellen koppelen aan kardinaliteit. Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Op een kaartje staat een getal, en bij het perron staat een trein met tien plaatsen te wachten, samen met een heleboel dieren. Het kind tikt de dieren één voor één aan – elk dier springt op de volgende vrije plaats – en drukt op Vertrek als er precies zoveel in de trein zitten als op het kaartje staat. Het is een interactieve telactiviteit tot 10 die in de browser werkt, zonder installatie en zonder account.",
+        "Het lastige van een aantal aftellen is weten wanneer je moet stoppen, en daar is de trein op gebouwd: er wachten altijd meer dieren dan het kaartje vraagt, dus het kind moet bijhouden hoeveel het er zijn en zelf beslissen. De tien plaatsen vormen een tienraam – twee rijen van vijf, van voren gevuld –, zodat je zeven ziet als een volle rij en nog twee. Klopt het aantal niet, dan nummert de trein zijn passagiers zodat het kind ziet waarom, en het kind verbetert het zelf; de hulp verplaatst nooit een dier. In sommige rondes stopt de trein nog een keer en staat op het nieuwe kaartje één meer of één minder: het kind laat dan precies één dier in- of uitstappen in plaats van opnieuw te beginnen.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: bij elk voorwerp één getal zeggen, weten dat het laatste getal zegt hoeveel het er zijn, en dat elk volgend getal er één meer is. De leerkracht kiest kaartjes tot en met 5 of tot en met 10, en of de telgetallen te zien zijn als de dieren instappen of door het kind hardop worden gezegd. Geen timer, geen score."
       ],
       "practices": [
-        "Precies het aantal dieren neertellen dat de opdracht noemt",
-        "Eén fiche per vakje leggen met zorgvuldig één-voor-één tellen",
-        "Elk getal van 0 tot 10 vorm zien krijgen op het tienraam met twee rijen",
-        "Het gesproken of geschreven getal koppelen aan een echte hoeveelheid"
+        "Precies zoveel dieren aftellen als er op het kaartje staat",
+        "Elk dier een eigen plaats geven en bij elk dier één getal zeggen",
+        "Stoppen bij het goede getal: het laatste getal zegt hoeveel het er zijn",
+        "De trein met precies één veranderen als het kaartje één meer of één minder zegt"
       ],
       "howToPlay": [
-        "Lees de opdracht om te zien welk getal je moet maken, zoals Maak 7.",
-        "Tik op de vakjes van het tienraam om precies dat aantal dierenfiches neer te leggen, en druk daarna op Controleer.",
-        "Niet helemaal goed? Doe er fiches bij of haal er weg en probeer het opnieuw — er is geen timer en geen score."
+        "Lees het getal op het kaartje.",
+        "Tik op dieren op het perron om ze één voor één in de trein te zetten. Tik op de trein, dan stapt het laatste dier uit.",
+        "Zitten er zoveel dieren in de trein als er op het kaartje staat? Druk dan op Vertrek.",
+        "Te veel of te weinig? De trein laat zien hoeveel er aan boord zijn: laat er een paar uitstappen of zet er meer in en druk opnieuw op Vertrek. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind maakt elk getal van 0 tot 10 met fiches op een tienraam.",
-        "Het kind koppelt tellen aan hoeveel, zodat het laatst getelde getal de hoeveelheid aangeeft.",
-        "Het kind bouwt het getalbegrip met het tienraam op waar vroeg optellen en plaatswaarde op verdergaan."
+        "Hoeveelheden tot 10 aftellen",
+        "Weten dat het laatste getal dat je telt zegt hoeveel het er zijn, en daar stoppen",
+        "Zien dat het volgende getal één meer is en het vorige één minder"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

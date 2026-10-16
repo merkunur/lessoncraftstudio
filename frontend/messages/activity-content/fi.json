@@ -240,24 +240,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "\"Tee 3\", \"Tee 7\", \"Tee 10\" — lapsi rakentaa luvun napauttamalla kymmenruudukon ruutuja ja pudottaa niihin täsmälleen sen verran eläinmerkkejä, sitten painaa Tarkista-painiketta. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus luvuille 0–10, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
-        "Kymmenruudukko tekee tästä muutakin kuin ulkoa laskemista. Sen kaksi viiden rivin riviä antavat jokaiselle luvulle muodon, jonka lapsi voi tunnistaa — neljä täyttää suurimman osan ylärivistä, kymmenen täyttää koko ruudukon — joten laskeminen alkaa yhdistyä siihen, kuinka paljon luku oikeasti on. Lapsi päättää, montako eläintä asettaa, ja voi lisätä tai ottaa pois ennen tarkistusta, mikä pitää huomion yksi yhteen -laskemisessa eikä arvaamisessa. Harjoitus on OPS 2014:n mukainen — ymmärretään lukujen ja lukumäärien suhde ja yhdistetään laskeminen lukumäärän hahmottamiseen. Esiopetukseen sopiva."
+        "Lipussa on luku, ja laiturilla odottaa kymmenpaikkainen juna ja paljon eläimiä. Lapsi napauttaa eläimiä yksi kerrallaan – jokainen hyppää seuraavalle vapaalle paikalle – ja painaa Lähtö-painiketta, kun junassa on täsmälleen yhtä monta eläintä kuin lipussa lukee. Tämä on vuorovaikutteinen laskemisharjoitus lukuun 10 asti, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Vaikeinta tietyn määrän laskemisessa on tietää, milloin lopettaa, ja juna on rakennettu juuri sen ympärille: laiturilla odottaa aina enemmän eläimiä kuin lippu pyytää, joten lapsen täytyy pitää lukua ja päättää itse. Kymmenen paikkaa muodostavat kymmenruudukon – kaksi viiden paikan riviä, jotka täytetään edestä –, joten seitsemän näkyy täytenä rivinä ja kahtena lisää. Jos määrä ei täsmää, juna numeroi matkustajansa, jotta lapsi näkee miksi, ja lapsi korjaa itse; apu ei koskaan siirrä yhtään eläintä. Joillakin kierroksilla juna pysähtyy vielä kerran, ja uudessa lipussa on yksi enemmän tai yksi vähemmän: silloin junaan nousee tai siitä jää pois tasan yksi eläin sen sijaan, että lapsi aloittaisi alusta.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi liittää jokaiseen esineeseen yhden luvun, tietää, että viimeinen sanottu luku kertoo lukumäärän, ja että seuraava luku on yhtä suurempi. Opettaja valitsee, onko lipuissa lukuja 5:een vai 10:een asti, ja sen, näkyvätkö laskun luvut eläinten noustessa junaan vai sanooko lapsi ne ääneen. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Laskee täsmälleen sen verran eläimiä kuin tehtävä pyytää.",
-        "Asettaa yhden merkin ruutuun huolellisella yksi yhteen -laskemisella.",
-        "Näkee jokaisen luvun 0–10 muotoutuvan kaksirivisellä kymmenruudukolla.",
-        "Yhdistää puhutun tai kirjoitetun luvun todelliseen lukumäärään."
+        "Lapsi laskee junaan täsmälleen niin monta eläintä kuin lipussa lukee",
+        "Jokainen eläin saa oman paikkansa ja oman lukunsa",
+        "Lapsi lopettaa oikeaan lukuun – viimeinen laskettu luku kertoo, montako niitä on",
+        "Lapsi muuttaa junaa tasan yhdellä, kun lipussa on yksi enemmän tai yksi vähemmän"
       ],
       "howToPlay": [
-        "Lue tehtävä ja katso, mikä luku tehdään, kuten Tee 7.",
-        "Napauta kymmenruudukon ruutuja asettaaksesi täsmälleen sen verran eläinmerkkejä, paina sitten Tarkista-painiketta.",
-        "Eikö osunut oikeaan? Lisää tai poista merkkejä ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Lue lipussa oleva luku.",
+        "Napauta laiturilla olevia eläimiä, niin ne nousevat junaan yksi kerrallaan. Napauta junaa, niin viimeinen eläin jää pois.",
+        "Kun junassa on yhtä monta eläintä kuin lipussa lukee, paina Lähtö.",
+        "Liikaa vai liian vähän? Juna näyttää, montako kyydissä on – päästä joitakin pois tai laita lisää ja paina Lähtö uudelleen. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa tehdä minkä tahansa luvun 0–10 kymmenruudukon merkeillä.",
-        "Lapsi yhdistää laskemisen lukumäärään, joten viimeinen laskettu luku kertoo määrän.",
-        "Lapsi rakentaa kymmenruudukon lukukäsitystä, johon varhainen yhteenlasku ja paikka-arvo nojaavat."
+        "Lapsi laskee enintään 10 esineen joukon",
+        "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän, ja lopettaa siihen",
+        "Lapsi näkee, että seuraava luku on yhtä suurempi ja edellinen yhtä pienempi"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

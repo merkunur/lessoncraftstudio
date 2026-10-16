@@ -240,25 +240,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "Tæl til 10 med dyr lader barnet bygge tallet ved at trykke på felterne i en tierramme, så der lægges præcis så mange dyrebrikker, og derefter trykke på Tjek — \"Lav 3\", \"Lav 7\", \"Lav 10\". Det er en interaktiv tælleaktivitet til børnehaveklassen for tallene 0 til 10, der kører i browseren uden oprettelse og uden noget at installere.",
-        "Tierrammen er det, der gør aktiviteten til mere end udenadstælling. Dens to rækker af fem giver hvert tal en form, barnet kan genkende — fire fylder det meste af den øverste række, ti fylder hele rammen — så tælling begynder at hænge sammen med, hvor meget et tal egentlig er. Barnet bestemmer selv, hvor mange dyr det lægger, og kan tilføje eller tage nogle væk, før det tjekker, og det holder fokus på at tælle en for en frem for at gætte.",
-        "Aktiviteten følger Fælles Mål inden for området tal og tælling: at forstå sammenhængen mellem tal og mængder og forbinde tælling med kardinalitet. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "En billet viser et tal, og ved perronen holder et tog med ti pladser og venter sammen med en masse dyr. Barnet trykker på dyrene ét ad gangen – hvert dyr hopper hen på den næste ledige plads – og trykker på Afgang, når der sidder præcis lige så mange i toget, som der står på billetten. Det er en interaktiv tælleaktivitet op til 10, der virker i browseren, uden installation og uden konto.",
+        "Det svære ved at tælle et antal af er at vide, hvornår man skal stoppe, og toget er bygget op om netop det: Der venter altid flere dyr, end billetten kræver, så barnet skal holde styr på tællingen og selv beslutte. De ti pladser er en tierramme – to rækker med fem, som fyldes forfra –, så syv ses som en fuld række og to til. Passer antallet ikke, nummererer toget sine passagerer, så barnet kan se hvorfor, og barnet retter selv; hjælpen flytter aldrig et dyr. I nogle runder holder toget igen, og på den nye billet står der én mere eller én mindre – så stiger præcis ét dyr på eller af, i stedet for at barnet begynder forfra.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at give hver ting ét tal, at vide, at det sidste tal siger, hvor mange der er, og at det næste tal er én mere. Læreren vælger billetter op til 5 eller op til 10, og om tælletallene skal vises, når dyrene stiger på, eller siges højt af barnet. Ingen tidtagning og ingen point."
       ],
       "practices": [
-        "Tælle præcis det antal dyr op, som opgaven nævner",
-        "Lægge én brik i hvert felt med omhyggelig en-til-en-tælling",
-        "Se hvert tal fra 0 til 10 tage form på tierrammens to rækker",
-        "Forbinde det sagte eller skrevne tal med en virkelig mængde"
+        "Tælle præcis så mange dyr af, som billetten viser",
+        "Give hvert dyr sin egen plads og sige ét tal for hvert dyr",
+        "Stoppe ved det rigtige tal – det sidste tal, man tæller, siger, hvor mange der er",
+        "Ændre toget med præcis én, når billetten viser én mere eller én mindre"
       ],
       "howToPlay": [
-        "Barnet læser opgaven og ser, hvilket tal det skal lave, som Lav 7.",
-        "Barnet trykker på felterne i tierrammen og lægger præcis så mange dyrebrikker og trykker derefter på Tjek.",
-        "Er det ikke helt rigtigt, kan barnet tilføje eller fjerne brikker og prøve igen — der er ingen timer og ingen point."
+        "Læs tallet på billetten.",
+        "Tryk på dyr på perronen for at sætte dem ind i toget, ét ad gangen. Tryk på toget, så stiger det sidste dyr af.",
+        "Når der sidder lige så mange dyr i toget, som der står på billetten, trykker du på Afgang.",
+        "For mange eller for få? Toget viser, hvor mange der er om bord – lad nogle stige af eller sæt flere ind, og tryk på Afgang igen. Ingen tidtagning og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan lave et hvilket som helst tal fra 0 til 10 med brikker på en tierramme",
-        "Barnet kan forbinde tælling med hvor mange, så det sidst talte tal fortæller mængden",
-        "Barnet opbygger den talforståelse på tierrammen, som tidlig addition og pladsværdi bygger på"
+        "Tælle op til 10 ting af",
+        "Vide, at det sidste tal, man tæller, siger, hvor mange der er, og stoppe der",
+        "Se, at det næste tal er én mere og tallet før én mindre"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

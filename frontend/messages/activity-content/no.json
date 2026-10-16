@@ -240,25 +240,26 @@
     },
     "ten-frame.count-to-10.make-n.animals": {
       "about": [
-        "«Lag 3», «Lag 7», «Lag 10» — barnet bygger tallet ved å trykke på rutene i en tierramme for å legge inn akkurat så mange dyrebrikker, og trykker så på Sjekk. Det er en interaktiv telleaktivitet for skolestart og 1. trinn for tallene 0 til 10, som kjøres i nettleseren uten noe å installere og uten konto.",
-        "Tierramma er det som gjør dette til mer enn pugg. De to radene med fem gir hvert tall en form barnet kan kjenne igjen — fire fyller mesteparten av den øverste rada, ti fyller hele ramma — så telling begynner å henge sammen med hvor mye et tall egentlig er. Barnet bestemmer selv hvor mange dyr det skal plassere og kan legge til eller ta bort noen før det sjekker, og det holder fokuset på én-til-én-telling i stedet for gjetting.",
-        "Aktiviteten følger LK20 innenfor telling — å forstå sammenhengen mellom tall og mengder og knytte telling til kardinalitet. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "En billett viser et tall, og ved perrongen står et tog med ti plasser og venter sammen med en hel masse dyr. Barnet trykker på dyrene ett om gangen – hvert dyr hopper til neste ledige plass – og trykker på Avgang når det sitter nøyaktig like mange på toget som det står på billetten. Det er en interaktiv telleaktivitet opptil 10 som virker i nettleseren, uten installasjon og uten konto.",
+        "Det vanskelige med å telle opp et antall er å vite når man skal stoppe, og toget er bygd rundt akkurat det: Det venter alltid flere dyr enn billetten krever, så barnet må holde tellingen og bestemme selv. De ti plassene er en tierramme – to rader med fem, som fylles forfra –, så sju ses som en full rad og to til. Stemmer ikke antallet, nummererer toget passasjerene sine så barnet ser hvorfor, og barnet retter selv; hjelpen flytter aldri et dyr. I noen runder stopper toget en gang til, og på den nye billetten står det én mer eller én mindre – da går nøyaktig ett dyr på eller av, i stedet for at barnet begynner på nytt.",
+        "Aktiviteten er tilpasset LK20 – å gi hver ting ett tall, å vite at det siste tallet sier hvor mange det er, og at det neste tallet er én mer. Læreren velger billetter opptil 5 eller opptil 10, og om telletallene skal vises når dyrene går på, eller sies høyt av barnet. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Telle ut akkurat så mange dyr som oppgaven sier.",
-        "Plassere én brikke per rute med nøyaktig én-til-én-telling.",
-        "Se hvert tall fra 0 til 10 ta form på tierramma med to rader.",
-        "Knytte det talte eller skrevne tallet til en virkelig mengde."
+        "Telle opp nøyaktig så mange dyr som billetten viser",
+        "Gi hvert dyr sin egen plass og si ett tall for hvert dyr",
+        "Stoppe ved riktig tall – det siste tallet man teller, sier hvor mange det er",
+        "Endre toget med nøyaktig én når billetten viser én mer eller én mindre"
       ],
       "howToPlay": [
-        "Les oppgaven for å se hvilket tall du skal lage, som Lag 7.",
-        "Trykk på rutene i tierramma for å plassere akkurat så mange dyrebrikker, og trykk så på Sjekk.",
-        "Ikke helt riktig? Legg til eller ta bort brikker og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Les tallet på billetten.",
+        "Trykk på dyr på perrongen for å sette dem på toget, ett om gangen. Trykk på toget, så går det siste dyret av.",
+        "Når det sitter like mange dyr på toget som det står på billetten, trykker du på Avgang.",
+        "For mange eller for få? Toget viser hvor mange som er om bord – la noen gå av eller sett på flere, og trykk på Avgang igjen. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan lage et hvilket som helst tall fra 0 til 10 med brikker på en tierramme.",
-        "Barnet kan knytte telling til hvor mange, slik at det siste tallet som telles, forteller mengden.",
-        "Barnet bygger den tierramme-forståelsen som tidlig addisjon og plassverdi bygger på."
+        "Telle opp antall opptil 10",
+        "Vite at det siste tallet man teller, sier hvor mange det er, og stoppe der",
+        "Se at det neste tallet er én mer og tallet før én mindre"
       ]
     },
     "ten-frame.count-to-20.make-n.fruits": {

@@ -102,6 +102,8 @@ console.log('\n[N2] hideReadout still does what it is for');
     'the K.CC.B.5 how-many activity is served by its own instrument (how-many-activities.json)');
   is(ids.indexOf('ten-frame.write-numeral.0-20.fruits') === -1 && own('fruit-crates-activities.json').indexOf('ten-frame.write-numeral.0-20.fruits') !== -1,
     'and the K.CC.A.3 write-numeral activity by the Fruit Crates (fruit-crates-activities.json)');
+  is(ids.indexOf('ten-frame.count-to-10.make-n.animals') === -1 && own('animal-train-activities.json').indexOf('ten-frame.count-to-10.make-n.animals') !== -1,
+    'and the K.CC.B.4 make-n activity by the Animal Train (animal-train-activities.json)');
 }
 
 console.log('\n[N3] POISON — the check fires on the shape of the original defect');

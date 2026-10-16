@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Animal Train — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #10 of the one-by-one rebuild — THE ANIMAL TRAIN (K.CC.B.4, put as many
+       animals on the train as the ticket says; one more, one fewer).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to animal-train-activity.js / animal-train-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/animal-train-core.js?v=1"></script>
+  <script src="/mini-tools/animal-train-activity.js?v=1"></script>
+  <script>
+    LCS.mount(AnimalTrainActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

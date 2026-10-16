@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Peek Window — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #12 of the one-by-one rebuild — THE PEEK WINDOW (K.CC.B.5, how many
+       behind a window that opens for a moment; look again, count to check).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to peek-window-activity.js / peek-window-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/peek-window-core.js?v=1"></script>
+  <script src="/mini-tools/peek-window-activity.js?v=1"></script>
+  <script>
+    LCS.mount(PeekWindowActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

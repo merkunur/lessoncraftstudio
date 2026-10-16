@@ -864,25 +864,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "A group of friendly pictures appears — like one owl, four foxes, or eight elephants — and the child counts the objects and taps the matching numeral. It's an interactive Kindergarten counting activity that runs right in the browser on a tablet, phone, or classroom computer, with nothing to install and no account.",
-        "The big idea is cardinality — that the last number you say when counting tells how many there are in all. Because the objects appear in lines, little arrays, and scattered bunches, the child cannot rely on a memorized pattern; they have to count each picture once and only once. The number choices sit close together, like 7, 8, and 9, so an off-by-one count shows up and invites a careful recount.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer 'how many?' for up to 10 objects in a line, an array, or a scattered arrangement. No timer, no score — just calm, playful practice."
+        "A little window with two shutters: they swing open, a group of pictures looks out — ducks, apples, carrots — and the shutters close again. How many were there? The child taps a number from 1 to 10, can look again as often as they like, and presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "The short look is the point. Small groups can be seen at a glance, and bigger ones are shown in the shapes teachers use in number talks: dice faces up to six, five in a line and some more, pairs, a short line, a small scatter. So the child learns to see seven as five and two instead of counting one by one — and counting is always there to check. After a wrong number the window stays open and the child counts; after a second, the numbers run along the pictures to a question mark on the last one, so the child still says how many.",
+        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" about up to 10 things. Teachers can choose numbers up to 5 or up to 10, and whether the window opens for a moment, a little longer, or stays open for plain counting. No timer, no score — looking again is never counted against the child."
       ],
       "practices": [
-        "Count up to 10 objects and say how many there are in all",
-        "Count each picture exactly once, whether it sits in a row or scattered",
-        "Match a counted amount to its written numeral",
-        "Build cardinality — knowing the last number counted is the total"
+        "Seeing small groups at a glance",
+        "Reading bigger groups by their shape: a dice face, five and some more, pairs",
+        "Counting to check, and knowing that the last number counted tells how many",
+        "Answering \"how many?\" for groups up to 10"
       ],
       "howToPlay": [
-        "Look at the group of pictures and count them carefully, one at a time.",
-        "Tap the number that matches how many you counted, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Watch the window: it opens and shows a group, and in a quick look it closes again.",
+        "Tap the number that tells how many you saw. Tap Look again whenever you want another look.",
+        "Press Check.",
+        "Not quite? The window stays open — count them and tap the number again. No timer, no score."
       ],
       "learningGoals": [
-        "Count up to 10 objects in any arrangement and name the total — the focus of Common Core K.CC.B.5",
-        "Connect a count to its written numeral",
-        "Build the one-to-one counting and cardinality that all later math rests on"
+        "Answer \"how many?\" about up to 10 things — the focus of Common Core K.CC.B.5",
+        "See small amounts at a glance and bigger ones as five and some more",
+        "Use counting to check what you saw"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

@@ -1315,25 +1315,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "En gruppe venlige billeder dukker op — for eksempel én ugle, fire ræve eller otte elefanter — og barnet tæller tingene og trykker på det tal, der passer. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon eller klassens computer, uden at man skal installere noget, og uden konto.",
-        "Den store idé er antalsforståelse — at det sidste tal, man siger, når man tæller, fortæller, hvor mange der er i alt. Fordi tingene står på rækker, i små rektangler og spredt ud, kan barnet ikke nøjes med et husket mønster, men skal tælle hvert billede én og kun én gang. Talmulighederne ligger tæt, som 7, 8 og 9, så en lille tællefejl bliver synlig og inviterer til en rolig optælling igen.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at tælle for at svare på spørgsmålet \"hvor mange er der?\" for op til 10 ting, der står på en række, i et rektangel eller spredt. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Et lille vindue med to skodder: de slår op, en gruppe billeder kigger frem – ænder, æbler, gulerødder – og skodderne lukker igen. Hvor mange var der? Barnet trykker på et tal fra 1 til 10, må kigge igen så mange gange, det vil, og trykker på Tjek. Det er en interaktiv tælleaktivitet, der virker i browseren, uden installation og uden konto.",
+        "Det korte kig er kernen. Små grupper ser man med ét blik, og større vises i de mønstre, lærere bruger i klassen: terningbilleder op til seks, fem på række og nogle flere, par, en kort række, nogle spredt ud. Sådan lærer barnet at se syv som fem og to i stedet for at tælle én ad gangen – og tælling er der altid til at tjekke med. Efter et forkert tal bliver vinduet stående åbent, og barnet tæller; efter endnu et går tallene hen over billederne til et spørgsmålstegn på det sidste, så barnet selv siger, hvor mange der er.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at genkende små antal med ét blik og tælle antal op til 10. Læreren vælger tal op til 5 eller op til 10, og om vinduet åbner et øjeblik, lidt længere eller står åbent til almindelig tælling. Ingen tidtagning og ingen point – at kigge igen tæller aldrig imod barnet."
       ],
       "practices": [
-        "Tælle op til 10 ting og sige, hvor mange der er i alt",
-        "Tælle hvert billede præcis én gang, uanset om det står på en række eller spredt",
-        "Forbinde et optalt antal med det skrevne tal",
-        "Opbygge antalsforståelse — at det sidst talte tal er det samlede antal"
+        "Se små grupper med ét blik",
+        "Genkende større grupper på mønsteret: terningbillede, fem og nogle flere, par",
+        "Tælle for at tjekke og vide, at det sidste tal, man tæller, siger, hvor mange der er",
+        "Svare på \"hvor mange?\" for grupper op til 10"
       ],
       "howToPlay": [
-        "Barnet ser gruppen af billeder og tæller dem roligt, ét ad gangen.",
-        "Barnet trykker på det tal, der passer til det, det har talt, og trykker derefter på Tjek.",
-        "Passer det ikke? Barnet kan tælle igen og prøve en gang til — der er ingen timer og ingen point."
+        "Se på vinduet: det åbner og viser en gruppe; ved et kort kig lukker det igen.",
+        "Tryk på det tal, der siger, hvor mange du så. Tryk på Kig igen, når du vil se en gang til.",
+        "Tryk på Tjek.",
+        "Ikke helt? Vinduet bliver stående åbent – tæl dem, og tryk på tallet igen. Ingen tidtagning og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan tælle op til 10 ting i enhver opstilling og sige det samlede antal",
-        "Barnet kan forbinde en optælling med det skrevne tal",
-        "Barnet kan opbygge den én-til-én-tælling og antalsforståelse, som al senere matematik hviler på"
+        "Tælle antal op til 10",
+        "Se små antal med ét blik og større som fem og nogle flere",
+        "Tælle for at tjekke det, man så"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

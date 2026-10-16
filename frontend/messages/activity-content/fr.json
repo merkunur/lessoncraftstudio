@@ -3400,24 +3400,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Un groupe d'images sympathiques s'affiche — un hibou, quatre renards ou huit éléphants — et l'enfant compte les objets puis touche le nombre qui correspond. C'est une activité de numération interactive pour la maternelle, qui se joue dans le navigateur sur tablette, téléphone ou ordinateur de classe, sans rien à installer et sans compte à créer.",
-        "L'idée importante, c'est la cardinalité : le dernier mot-nombre prononcé en comptant dit combien il y en a en tout. Comme les objets sont disposés tantôt en ligne, tantôt en petite grille, tantôt éparpillés, l'enfant ne peut pas se fier à une image mémorisée : il doit compter chaque dessin une fois et une seule. Les choix de nombres se ressemblent, comme 7, 8 et 9, si bien qu'une erreur d'un objet se voit et invite à recompter calmement. Cette activité « combien y en a-t-il ? » jusqu'à 10 suit les programmes officiels et se pratique sans note ni chrono."
+        "Une petite fenêtre à deux volets : ils s’ouvrent, un groupe d’images apparaît — des canards, des pommes, des carottes — et les volets se referment. Combien y en avait-il ? L’enfant touche un nombre de 1 à 10, peut regarder encore autant de fois qu’il le veut, puis appuie sur Vérifier. C’est une activité interactive de numération qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Le coup d’œil est l’essentiel. Les petites quantités se voient d’un seul regard, et les plus grandes sont présentées selon les configurations utilisées en classe : constellations du dé jusqu’à six, cinq alignés et quelques-uns de plus, des paires, une courte ligne, quelques objets éparpillés. L’enfant apprend ainsi à voir sept comme cinq et deux au lieu de compter un par un — et le comptage est toujours là pour vérifier. Après un nombre faux, la fenêtre reste ouverte et l’enfant compte ; après un deuxième, les nombres défilent sur les images jusqu’à un point d’interrogation posé sur la dernière, pour que l’enfant dise lui-même combien il y en a.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : reconnaître des petites quantités d’un coup d’œil et dénombrer des collections jusqu’à 10. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et si la fenêtre s’ouvre un instant, un peu plus longtemps, ou reste ouverte pour compter simplement. Ni chrono ni score — regarder encore n’est jamais compté contre l’enfant."
       ],
       "practices": [
-        "Compter jusqu'à 10 objets et dire combien il y en a en tout.",
-        "Compter chaque image exactement une fois, qu'elle soit en ligne ou éparpillée.",
-        "Associer une quantité comptée à son nombre écrit.",
-        "Construire la cardinalité : savoir que le dernier nombre compté est le total."
+        "Reconnaître les petites quantités d’un coup d’œil",
+        "Lire les plus grandes quantités à leur forme : constellation du dé, cinq et quelques-uns, des paires",
+        "Compter pour vérifier, et savoir que le dernier nombre compté donne la quantité",
+        "Répondre à « combien ? » pour des collections jusqu’à 10"
       ],
       "howToPlay": [
-        "Regarde le groupe d'images et compte-les soigneusement, une par une.",
-        "Touche le nombre qui correspond à ce que tu as compté, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recompte et réessaie autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Regarde la fenêtre : elle s’ouvre sur un groupe — pour un coup d’œil, elle se referme ensuite.",
+        "Touche le nombre qui dit combien tu en as vu. Touche Regarder encore chaque fois que tu veux revoir.",
+        "Appuie sur Vérifier.",
+        "Pas tout à fait ? La fenêtre reste ouverte : compte-les et touche de nouveau le nombre. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Compter jusqu'à 10 objets dans n'importe quelle disposition et nommer le total.",
-        "Relier un comptage à son nombre écrit.",
-        "Construire le comptage terme à terme et la cardinalité sur lesquels reposent toutes les mathématiques."
+        "Dénombrer des collections jusqu’à 10",
+        "Reconnaître les petites quantités d’un coup d’œil et voir les plus grandes comme cinq et quelques-uns",
+        "Compter pour vérifier ce qu’on a vu"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

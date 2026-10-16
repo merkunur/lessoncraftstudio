@@ -3603,25 +3603,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Se muestra un grupo de dibujos amigables —un búho, cuatro zorros u ocho elefantes— y tu hijo o hija cuenta los objetos y toca el número que coincide. Es una actividad de conteo interactiva para preescolar (kínder) que funciona directamente en el navegador, en tableta, celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
-        "La idea central es la cardinalidad: el último número que dices al contar te dice cuántos hay en total. Como los objetos aparecen en filas, en pequeños arreglos y también desordenados, el niño o la niña no puede apoyarse en un patrón memorizado; tiene que contar cada dibujo una sola vez. Las opciones de número están cerca entre sí, como 7, 8 y 9, así que un error de uno se nota y se invita a volver a contar con cuidado.",
-        "Está alineada con los planes y programas de estudio (SEP): contar para responder “¿cuántos hay?” con hasta 10 objetos en fila, en arreglo o desordenados. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "Una ventanita con dos postigos: se abren, aparece un grupo de imágenes —patos, manzanas, zanahorias— y los postigos se vuelven a cerrar. ¿Cuántos había? El niño toca un número del 1 al 10, puede volver a mirar cuantas veces quiera y oprime Comprobar. Es una actividad interactiva de conteo que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "El vistazo es lo importante. Los grupos pequeños se ven de un vistazo, y los más grandes aparecen en las formas que se usan en clase: las caras del dado hasta seis, cinco en fila y algunos más, parejas, una fila corta, unos pocos dispersos. Así el niño aprende a ver siete como cinco y dos en vez de contar de uno en uno, y contar siempre está ahí para comprobar. Tras un número equivocado la ventana se queda abierta y el niño cuenta; tras un segundo, los números recorren las imágenes hasta un signo de interrogación sobre la última, para que el niño diga cuántos hay.",
+        "Está alineada con los planes y programas de estudio (SEP): reconocer cantidades pequeñas de un vistazo y contar colecciones de hasta 10 elementos. El docente elige números hasta 5 o hasta 10, y si la ventana se abre un momento, un poco más o se queda abierta para contar sin prisa. Sin temporizador y sin puntaje: volver a mirar nunca cuenta en contra del niño."
       ],
       "practices": [
-        "Contar hasta 10 objetos y decir cuántos hay en total.",
-        "Contar cada dibujo exactamente una vez, ya sea en fila o desordenado.",
-        "Relacionar la cantidad contada con su número escrito.",
-        "Afianzar la cardinalidad: el último número contado es el total."
+        "Reconocer grupos pequeños de un vistazo",
+        "Leer grupos más grandes por su forma: cara de dado, cinco y algunos más, parejas",
+        "Contar para comprobar y saber que el último número contado dice cuántos hay",
+        "Responder «¿cuántos hay?» con colecciones de hasta 10"
       ],
       "howToPlay": [
-        "Observa el grupo de dibujos y cuéntalos con cuidado, uno por uno.",
-        "Toca el número que coincide con la cantidad que contaste y pulsa Comprobar.",
-        "¿No salió a la primera? Vuelve a contar las veces que quieras: no hay temporizador ni puntaje."
+        "Mira la ventana: se abre y muestra un grupo; en el vistazo rápido se vuelve a cerrar.",
+        "Toca el número que dice cuántos viste. Toca Mirar otra vez siempre que quieras volver a ver.",
+        "Oprime Comprobar.",
+        "¿Todavía no? La ventana se queda abierta: cuéntalos y vuelve a tocar el número. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a contar hasta 10 objetos en cualquier acomodo y nombrar el total.",
-        "Tu hijo o hija conecta una cantidad con su número escrito.",
-        "Se construye el conteo uno a uno y la cardinalidad sobre los que descansan las matemáticas posteriores."
+        "Contar colecciones de hasta 10 elementos",
+        "Reconocer cantidades pequeñas de un vistazo y ver las más grandes como cinco y algunos más",
+        "Contar para comprobar lo que se vio"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

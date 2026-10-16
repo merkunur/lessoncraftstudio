@@ -1326,25 +1326,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "En gruppe vennlige bilder dukker opp — som én ugle, fire rever eller åtte elefanter — og barnet teller gjenstandene og trykker på tallet som passer. Det er en interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon eller en datamaskin i klasserommet — ingenting å installere og ingen konto.",
-        "Den store ideen er antallsforståelse — at det siste tallet du sier når du teller, forteller hvor mange det er til sammen. Fordi gjenstandene ligger på rekke, i små rutenett og i spredte klynger, kan ikke barnet stole på et mønster det husker, men må telle hvert bilde én og bare én gang. Tallvalgene ligger tett, som 7, 8 og 9, så en telling som bommer med én blir synlig og inviterer til en ny, nøyaktig opptelling.",
-        "Aktiviteten er tilpasset LK20 — å telle for å svare på «hvor mange er det?» for opptil 10 gjenstander på rekke, i et rutenett eller spredt utover. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et lite vindu med to skodder: de slås opp, en gruppe bilder titter fram – ender, epler, gulrøtter – og skoddene lukkes igjen. Hvor mange var det? Barnet trykker på et tall fra 1 til 10, får kikke igjen så mange ganger det vil, og trykker på Sjekk. Det er en interaktiv telleaktivitet som virker i nettleseren, uten installasjon og uten konto.",
+        "Det korte kikket er kjernen. Små grupper ser man med ett blikk, og større vises i mønstrene lærere bruker i klasserommet: terningbilder opptil seks, fem på rad og noen til, par, en kort rad, noen spredt utover. Slik lærer barnet å se sju som fem og to i stedet for å telle én og én – og telling er alltid der for å sjekke. Etter et feil tall blir vinduet stående åpent, og barnet teller; etter et nytt går tallene bortover bildene fram til et spørsmålstegn på det siste, så barnet selv sier hvor mange det er.",
+        "Aktiviteten er tilpasset LK20 – å kjenne igjen små antall med ett blikk og telle antall opptil 10. Læreren velger tall opptil 5 eller opptil 10, og om vinduet åpner seg et øyeblikk, litt lenger eller står åpent for vanlig telling. Ingen tidtaker og ingen poeng – å kikke igjen teller aldri mot barnet."
       ],
       "practices": [
-        "Telle opptil 10 gjenstander og si hvor mange det er til sammen.",
-        "Telle hvert bilde nøyaktig én gang, enten det ligger på rekke eller spredt.",
-        "Koble et opptalt antall til det riktige skrevne tallet.",
-        "Bygge antallsforståelse — at det siste tallet man teller er totalen."
+        "Se små grupper med ett blikk",
+        "Kjenne igjen større grupper på mønsteret: terningbilde, fem og noen til, par",
+        "Telle for å sjekke og vite at det siste tallet man teller, sier hvor mange det er",
+        "Svare på \"hvor mange?\" for grupper opptil 10"
       ],
       "howToPlay": [
-        "Se på gruppen med bilder og tell dem nøye, ett om gangen.",
-        "Trykk på tallet som passer til hvor mange du telte, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Se på vinduet: det åpner seg og viser en gruppe; ved et kort kikk lukkes det igjen.",
+        "Trykk på tallet som sier hvor mange du så. Trykk på Kikk igjen når du vil se en gang til.",
+        "Trykk på Sjekk.",
+        "Ikke helt? Vinduet blir stående åpent – tell dem, og trykk på tallet igjen. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan telle opptil 10 gjenstander uansett hvordan de ligger, og navngi totalen.",
-        "Barnet kan knytte en telling til det skrevne tallet.",
-        "Barnet bygger én-til-én-telling og antallsforståelse, som all senere matematikk hviler på."
+        "Telle antall opptil 10",
+        "Se små antall med ett blikk og større som fem og noen til",
+        "Telle for å sjekke det man så"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

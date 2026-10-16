@@ -1,0 +1,71 @@
+[
+ {
+  "id": "choice-board.how-many-group.k-c-c-b-5",
+  "tool": "peek-window-activity",
+  "task_template": "peek-window",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.CC.B.5",
+   "grade": "K",
+   "strand": "Counting & Cardinality"
+  },
+  "params": {
+   "ranges": [
+    "to5",
+    "to10"
+   ],
+   "looks": [
+    "quick",
+    "long",
+    "open"
+   ],
+   "themes": [
+    "animals",
+    "fruits",
+    "vegetables"
+   ],
+   "max": 10
+  },
+  "theme": null,
+  "slug": {
+   "en": "how-many-are-there",
+   "de": "wie-viele-sind-es",
+   "es": "cuantos-hay",
+   "fr": "combien-y-en-a-t-il",
+   "it": "quanti-ce-ne-sono",
+   "pt": "quantos-ha",
+   "nl": "hoeveel-zijn-er",
+   "sv": "hur-manga-finns-det",
+   "da": "hvor-mange-er-der",
+   "no": "hvor-mange-er-det",
+   "fi": "montako-niita-on"
+  },
+  "page_title": {
+   "en": "How Many Are There? — Kindergarten Counting",
+   "de": "Simultanerfassung üben – Mengen auf einen Blick erkennen",
+   "es": "¿Cuántos hay? — Contar en preescolar",
+   "fr": "Combien y en a-t-il ? — Numération à la maternelle",
+   "it": "Quanti ce ne sono? — Contare alla scuola dell'infanzia",
+   "pt": "Quantos há? — Contagem no pré-escolar",
+   "nl": "Hoeveel zijn er? — Tellen in de kleuterklas",
+   "sv": "Hur många finns det? — Räkning i förskoleklass",
+   "da": "Hvor mange er der? — Tælling i børnehaveklassen",
+   "no": "Hvor mange er det? — Telling i barnehagen",
+   "fi": "Montako niitä on? — Esiopetuksen laskemista"
+  },
+  "page_intro": {
+   "en": "Count the objects in each group and tap the matching number. Aligned to Common Core K.CC.B.5 — count to answer 'how many?' questions about up to 10 objects arranged in a line, array, or scattered configuration.",
+   "de": "Simultanerfassung im Kindergarten: kleine Mengen auf einen Blick erfassen und die Anzahl bestimmen. Online üben, ohne Anmeldung.",
+   "es": "Cuenta los objetos de cada grupo y toca el número que coincide. Alineado con el currículo oficial — contar para responder a la pregunta '¿cuántos hay?' sobre hasta 10 objetos.",
+   "fr": "Compte les objets de chaque groupe et touche le nombre qui correspond. Conforme aux programmes officiels — compter pour répondre à la question « combien y en a-t-il ? » jusqu'à 10 objets.",
+   "it": "Conta gli oggetti in ogni gruppo e tocca il numero corrispondente. Allineato alle Indicazioni nazionali — contare per rispondere alla domanda 'quanti ce ne sono?' su fino a 10 oggetti.",
+   "pt": "Conte os objetos em cada grupo e toque no número correspondente. Alinhado à BNCC — contar para responder à pergunta 'quantos há?' sobre até 10 objetos.",
+   "nl": "Tel de voorwerpen in elke groep en tik op het bijbehorende getal. Afgestemd op de kerndoelen — tellen om de vraag 'hoeveel zijn er?' te beantwoorden over maximaal 10 voorwerpen.",
+   "sv": "Räkna föremålen i varje grupp och tryck på det tal som stämmer. Anpassat till Lgr22 — räkna för att svara på frågan 'hur många finns det?' upp till 10 föremål.",
+   "da": "Tæl genstandene i hver gruppe og tryk på det tal, der passer. Tilpasset Fælles Mål — tælle for at besvare spørgsmålet 'hvor mange er der?' op til 10 genstande.",
+   "no": "Tell gjenstandene i hver gruppe og trykk på tallet som passer. Tilpasset LK20 — telle for å svare på spørsmålet 'hvor mange er det?' opptil 10 gjenstander.",
+   "fi": "Laske esineet jokaisessa ryhmässä ja napauta vastaava luku. Yhteensopiva OPS 2014:n kanssa — laske vastataksesi kysymykseen 'montako niitä on?' enintään 10 esineestä."
+  },
+  "kid_prompt_template": "prompt"
+ }
+]

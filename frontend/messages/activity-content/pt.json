@@ -2071,25 +2071,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Surge um grupo de figuras simpáticas — como uma coruja, quatro raposas ou oito elefantes — e a criança conta os objetos e toca no número correspondente. É uma atividade de contagem interativa para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador da escola, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é a cardinalidade — entender que o último número dito ao contar é a quantidade total. Como os objetos aparecem em fileiras, em pequenos quadros e também espalhados, a criança não pode se apoiar em um padrão decorado; precisa contar cada figura uma única vez. As opções de número ficam próximas, como 7, 8 e 9, então um errinho de uma unidade aparece e convida a contar de novo com calma.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao contar para responder à pergunta 'quantos há?' sobre até 10 objetos em fileira, em quadro ou espalhados. Sem cronômetro e sem pontuação — só uma prática tranquila e divertida."
+        "Uma janelinha com duas venezianas: elas se abrem, aparece um grupo de figuras — patos, maçãs, cenouras — e as venezianas se fecham de novo. Quantos havia? A criança toca num número de 1 a 10, pode olhar de novo quantas vezes quiser e aperta Verificar. É uma atividade interativa de contagem que funciona no navegador, sem instalar nada e sem conta.",
+        "A olhadinha é o principal. Grupos pequenos se veem num relance, e os maiores aparecem nas formas usadas em sala de aula: faces do dado até seis, cinco em fila e mais alguns, pares, uma fila curta, alguns espalhados. Assim a criança aprende a ver sete como cinco e dois em vez de contar de um em um — e contar continua sempre ali para conferir. Depois de um número errado, a janela fica aberta e a criança conta; depois de um segundo, os números correm pelas figuras até um ponto de interrogação na última, para que a criança diga quantos são.",
+        "A atividade está alinhada à BNCC, no campo dos números: reconhecer pequenas quantidades num relance e contar coleções de até 10 elementos. O professor escolhe números até 5 ou até 10 e se a janela abre por um instante, um pouco mais ou fica aberta para contar com calma. Sem cronômetro e sem pontuação — olhar de novo nunca conta contra a criança."
       ],
       "practices": [
-        "Contar até 10 objetos e dizer quantos há ao todo.",
-        "Contar cada figura exatamente uma vez, esteja ela em fila ou espalhada.",
-        "Ligar a quantidade contada ao seu número escrito.",
-        "Construir a cardinalidade — saber que o último número contado é o total."
+        "Reconhecer grupos pequenos num relance",
+        "Ler grupos maiores pela forma: face do dado, cinco e mais alguns, pares",
+        "Contar para conferir e saber que o último número contado diz a quantidade",
+        "Responder “quantos são?” para coleções de até 10"
       ],
       "howToPlay": [
-        "Olhe o grupo de figuras e conte com cuidado, uma de cada vez.",
-        "Toque no número que corresponde à quantidade que você contou e depois toque em Verificar.",
-        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Olhe a janela: ela abre e mostra um grupo; na olhada rápida ela fecha de novo.",
+        "Toque no número que diz quantos você viu. Toque em Olhar de novo sempre que quiser ver outra vez.",
+        "Aperte Verificar.",
+        "Ainda não? A janela fica aberta: conte e toque no número de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Contar até 10 objetos em qualquer arranjo e nomear o total.",
-        "Ligar uma contagem ao seu número escrito.",
-        "Construir a correspondência um a um e a cardinalidade em que toda a matemática posterior se apoia."
+        "Contar coleções de até 10 elementos",
+        "Reconhecer pequenas quantidades num relance e ver as maiores como cinco e mais alguns",
+        "Contar para conferir o que viu"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

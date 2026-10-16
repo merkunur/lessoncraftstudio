@@ -1425,24 +1425,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "En grupp glada bilder visas — kanske en uggla, fyra rävar eller åtta elefanter — och barnet räknar föremålen och trycker på den siffra som stämmer. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan något att installera och utan konto.",
-        "Den stora idén är antalsuppfattning — att det sista talet man säger när man räknar talar om hur många det finns sammanlagt. Eftersom föremålen visas i rader, i små rutmönster och i utspridda klungor kan barnet inte förlita sig på ett inlärt mönster, utan måste räkna varje bild en och endast en gång. Sifferalternativen ligger nära varandra, som 7, 8 och 9, så att en felräkning på ett dyker upp och bjuder in till en lugn omräkning. Aktiviteten följer Lgr22 och tränar att räkna upp till 10 föremål för att svara på frågan 'hur många finns det?'. Ingen timer och inga poäng."
+        "Ett litet fönster med två fönsterluckor: de slås upp, en grupp bilder tittar fram – ankor, äpplen, morötter – och luckorna stängs igen. Hur många var det? Barnet trycker på ett tal från 1 till 10, får titta igen så många gånger det vill och trycker på Kontrollera. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation och utan konto.",
+        "Den korta titten är kärnan. Små grupper ser man med en blick, och större visas i de mönster lärare använder i klassrummet: tärningsbilder upp till sex, fem på rad och några till, par, en kort rad, några utspridda. Så lär sig barnet att se sju som fem och två i stället för att räkna en och en – och räkning finns alltid där för att kontrollera. Efter ett fel tal står fönstret öppet och barnet räknar; efter ett andra går talen längs bilderna fram till ett frågetecken på den sista, så att barnet själv säger hur många det är.",
+        "Aktiviteten följer Lgr22 – att uppfatta små antal med en blick och räkna antal upp till 10. Läraren väljer tal upp till 5 eller upp till 10 och om fönstret öppnas en kort stund, lite längre eller står öppet för vanlig räkning. Ingen timer och inga poäng – att titta igen räknas aldrig emot barnet."
       ],
       "practices": [
-        "Räkna upp till 10 föremål och säga hur många det finns sammanlagt",
-        "Räkna varje bild precis en gång, oavsett om den ligger i en rad eller utspridd",
-        "Para ihop ett uppräknat antal med rätt skriven siffra",
-        "Bygga antalsuppfattning — att veta att det sista talet man räknar är hela antalet"
+        "Se små grupper med en blick",
+        "Känna igen större grupper på mönstret: tärningsbild, fem och några till, par",
+        "Räkna för att kontrollera och veta att det sista talet man räknar säger hur många det är",
+        "Svara på frågan \"hur många?\" för grupper upp till 10"
       ],
       "howToPlay": [
-        "Titta på gruppen med bilder och räkna dem noga, en i taget.",
-        "Tryck på den siffra som stämmer med hur många du räknade och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Titta på fönstret: det öppnas och visar en grupp; vid en kort titt stängs det igen.",
+        "Tryck på talet som säger hur många du såg. Tryck på Titta igen när du vill se en gång till.",
+        "Tryck på Kontrollera.",
+        "Inte riktigt? Fönstret står öppet – räkna dem och tryck på talet igen. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan räkna upp till 10 föremål oavsett hur de ligger och säga hela antalet",
-        "Barnet kan koppla en uppräkning till rätt skriven siffra",
-        "Barnet bygger den ett-till-ett-räkning och antalsuppfattning som all senare matematik vilar på"
+        "Räkna antal upp till 10",
+        "Se små antal med en blick och större som fem och några till",
+        "Räkna för att kontrollera det man såg"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

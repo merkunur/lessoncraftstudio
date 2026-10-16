@@ -2506,6 +2506,30 @@
         "Barnet förstår att antalet är detsamma när sakerna flyttas isär eller ihop",
         "Barnet förstår att varje nästa tal är ett mer"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Mamma Anka håller morgonupprop vid dammen. Hennes kort visar prickar, och barnet skickar exakt så många ankungar från flotten till stranden – ett tryck, en ankunge som simmar över. Sedan skriver barnet under uppropet: trycker på sifferstämpeln för hur många som kom och spårar talet med fingret i leran. Det är en interaktiv räkneaktivitet som fungerar i webbläsaren, utan installation och utan konto.",
+        "Mamma visar aldrig någon siffra (om inte läraren väljer det): barnet räknar prickarna, räknar fram lika många ankungar och skriver talet som säger hur många det är – siffran är barnets eget svar. På flotten väntar fler ankungar än Mamma ber om, så barnet måste själv bestämma när det ska sluta; ett tryck på en ankunge på stranden skickar tillbaka den. Ankungarna landar utspridda, så att räkna dem igen är riktig räkning. Kontrollera tittar först på stranden och sedan på underskriften och säger vad som saknas: för många, för få, inget tal ännu, ett tal som inte säger hur många som kom eller ett tal som inte är spårat än. Efter ett fel numreras ankungarna på stranden, efter ett andra även Mammas prickar. Hjälpen flyttar aldrig en ankunge.",
+        "Aktiviteten följer Lgr22 – att räkna antal, räkna fram ett givet antal och skriva talet som hör till. Läraren väljer tal upp till 5 eller upp till 9 och om Mammas kort visar prickar eller talet. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Räkna prickarna på ett kort och räkna fram lika många ankungar",
+        "Sluta vid rätt tal – det sista talet man räknar säger hur många det är",
+        "Skriva siffran som säger hur många, drag för drag",
+        "Räkna en utspridd grupp igen för att kontrollera"
+      ],
+      "howToPlay": [
+        "Räkna prickarna på Mammas kort.",
+        "Tryck på flotten för att skicka ankungar till stranden, en i taget. Tryck på en ankunge på stranden för att skicka tillbaka den.",
+        "Tryck på sifferstämpeln för hur många som kom och spåra talet i leran, från den gröna pricken.",
+        "Tryck på Kontrollera. Inte riktigt? Tipset säger vad som saknas – rätta det och tryck på Kontrollera igen. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna och räkna fram antal upp till 9",
+        "Skriva siffran som säger hur många föremål det är",
+        "Veta att det sista talet man räknar säger hur många det är"
+      ]
     }
   }
 }

@@ -2314,25 +2314,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mama Duck calls the morning roll at Quack Creek, asking for an exact number of ducklings — send six, send eight — and the child counts them out one by one from the raft, then signs the roll by tracing that number in the mud. It's an interactive Kindergarten counting activity that plays in the browser, with no sign-up.",
-        "The big idea is counting to answer 'how many,' the focus of K.CC.B.5. The rounds vary the challenge so counting cannot become a habit of grabbing: ducklings may be lined up tidily or scattered, mixed colors mean counting only the yellow ones, and some rounds arrive in small groups to add up to a running total. Pairing the count with writing the numeral ties the number word to its written symbol.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer 'how many?' for objects in a line, an array, a scattered arrangement, or up to a given number. No timer, no score — just calm, playful practice."
+        "Mama Duck calls the morning roll at the pond. Her card shows dots, and the child sends exactly that many ducklings from the raft to the bank — one tap, one duckling paddling across. Then the child signs the roll: presses the number stamp for how many came and traces the number in the mud with a finger. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "Mama never shows a numeral (unless the teacher chooses it), so the child counts the dots, counts out the same number of ducklings, and writes the number that tells how many — the numeral is the child's own answer. More ducklings wait on the raft than Mama asks for, so the child has to decide when to stop, and a tap on a duckling on the bank sends it back. The ducklings land scattered, so counting them again is real counting. Check reads the bank first, then the signature, and says what is missing: too many, too few, no number yet, a number that is not how many came, or a number not yet traced. After a wrong Check the ducklings on the bank are numbered; after a second, Mama's dots are too. The help never moves a duckling.",
+        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" and counting out a given number of things — together with writing the numeral that tells how many (K.CC.A.3). Teachers can choose numbers up to 5 or up to 9, and whether Mama's card shows dots or the number itself. No timer, no score."
       ],
       "practices": [
-        "Counting out an exact number of objects one at a time",
-        "Counting only the objects that match — like just the yellow ducklings",
-        "Counting scattered objects and small groups that add to a total",
-        "Tracing the numeral that matches the count"
+        "Counting the dots on a card and counting out the same number of ducklings",
+        "Stopping at the right number — the last number counted tells how many",
+        "Writing the numeral that tells how many, stroke by stroke",
+        "Counting a scattered group again to check"
       ],
       "howToPlay": [
-        "Listen to how many ducklings Mama asks for, and count them out one by one from the raft.",
-        "Trace that number in the mud to sign the roll, then press Check.",
-        "A warm check confirms a correct count and offers an easy retry when needed."
+        "Count the dots on Mama's card.",
+        "Tap the raft to send ducklings to the bank, one at a time. Tap a duckling on the bank to send it back.",
+        "Press the number stamp that tells how many came and trace the number in the mud, starting at the green dot.",
+        "Press Check. Not quite? The hint says what is missing — fix it and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Count to answer 'how many?' for up to ten objects — the focus of Common Core K.CC.B.5",
-        "Count an exact set even when objects are scattered or mixed",
-        "Connect counting a group to writing the matching numeral"
+        "Count to answer \"how many?\" and count out a given number of things — the focus of Common Core K.CC.B.5",
+        "Write the numeral that tells how many objects there are",
+        "Know that the last number counted tells how many"
       ]
     },
     "mango-animal-groups.collective-nouns.l-2-1-a": {

@@ -1160,25 +1160,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "De sloot wordt licht en Mama Eend waggelt naar de kant om de ochtendronde te doen. Haar eendjes dobberen nog door elkaar heen op het water, een vrolijke bonte troep. Mama roept een getal – en jouw kind stuurt haar precies zoveel eendjes, rustig één voor één afgeteld uit het grote vlot. Niemand duwt, niemand piept ertussendoor.",
-        "Het bijzondere: tijdens het aftellen komt er geen enkele reactie. Je kind bepaalt zélf wanneer het genoeg eendjes heeft gestuurd, en moet dus goed opletten en meetellen. Pas daarna tekent het de lijst af – door het bijbehorende cijfer haal voor haal in de zachte modder te vormen. Klopt het aantal met wat Mama riep, dan is de ronde klaar.",
-        "Soms roept Mama een getal, soms tel je alleen de gele eendjes tussen de andere uit, soms stuur je precies één eendje per lelieblad, soms tel je het hele vlot of tel je door terwijl er nog meer eendjes aan komen zwemmen. Geen klok, geen punten, geen winnen of verliezen: alleen Mama Eend, haar eendjes en zoveel tijd als je kind nodig heeft. Afgestemd op de SLO-kerndoelen voor rekenen voor groep 3, domein getallen (tellen en getalbegrip)."
+        "Mama Eend houdt bij de vijver het ochtendappèl. Op haar kaart staan stippen, en het kind stuurt precies zoveel eendjes van het vlot naar de kant – één tik, één eendje dat overzwemt. Daarna tekent het kind de lijst af: het drukt op de cijferstempel voor het aantal eendjes dat gekomen is en trekt dat getal met de vinger over in de modder. Het is een interactieve telactiviteit die in de browser werkt, zonder installatie en zonder account.",
+        "Mama laat nooit een cijfer zien (behalve als de leerkracht dat kiest): het kind telt de stippen, telt evenveel eendjes af en schrijft het getal dat zegt hoeveel het er zijn – het cijfer is het eigen antwoord van het kind. Op het vlot wachten meer eendjes dan Mama vraagt, dus het kind moet zelf beslissen wanneer het stopt; een tik op een eendje aan de kant stuurt het terug. De eendjes komen verspreid aan, dus opnieuw tellen is echt tellen. Controleer kijkt eerst naar de kant en dan naar de handtekening, en zegt wat er ontbreekt: te veel, te weinig, nog geen getal, een getal dat niet zegt hoeveel er gekomen zijn, of een getal dat nog niet is overgetrokken. Na een fout worden de eendjes aan de kant genummerd; na een tweede ook de stippen van Mama. De hulp verplaatst nooit een eendje.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: hoeveelheden tellen, een gevraagd aantal aftellen en het bijbehorende cijfer schrijven. De leerkracht kiest getallen tot en met 5 of tot en met 9, en of Mama’s kaart stippen of het getal laat zien. Geen timer, geen score."
       ],
       "practices": [
-        "rustig een gevraagd aantal tot 9 aftellen en neerzetten",
-        "je eigen telling volgen en zelf stoppen, zonder terugkoppeling",
-        "het bijbehorende cijfer met geordende halen vormen",
-        "het cijfer schrijven dat bij het getelde aantal hoort"
+        "De stippen op een kaart tellen en evenveel eendjes aftellen",
+        "Stoppen bij het goede getal: het laatste getal zegt hoeveel het er zijn",
+        "Het cijfer schrijven dat zegt hoeveel het er zijn, haal voor haal",
+        "Een verspreide groep opnieuw tellen om te controleren"
       ],
       "howToPlay": [
-        "Luister naar welk getal Mama Eend roept.",
-        "Stuur haar precies zoveel eendjes – één voor één afgeteld.",
-        "Vorm ten slotte het juiste cijfer in de modder en teken de lijst af."
+        "Tel de stippen op Mama’s kaart.",
+        "Tik op het vlot om eendjes één voor één naar de kant te sturen. Tik op een eendje aan de kant om het terug te sturen.",
+        "Druk op de cijferstempel voor het aantal eendjes dat gekomen is en trek het getal over in de modder, vanaf de groene stip.",
+        "Druk op Controleer. Nog niet helemaal? De hint zegt wat er ontbreekt – verbeter het en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Ik kan een gevraagd aantal tot 9 goed aftellen en neerzetten.",
-        "Ik tel zelf mee en merk zelf wanneer het aantal klopt.",
-        "Ik verbind het aantal aan het cijfer en vorm het."
+        "Hoeveelheden tot en met 9 tellen en aftellen",
+        "Het cijfer schrijven dat zegt hoeveel voorwerpen er zijn",
+        "Weten dat het laatste getal dat je telt zegt hoeveel het er zijn"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

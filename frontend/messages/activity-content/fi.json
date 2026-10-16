@@ -1590,6 +1590,30 @@
         "Lapsi ymmärtää, että lukumäärä pysyy samana, kun esineitä siirretään erilleen tai yhteen",
         "Lapsi ymmärtää, että jokainen seuraava luku on yhtä suurempi"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Äiti Ankka pitää lammella aamun nimenhuudon. Hänen kortissaan on pisteitä, ja lapsi lähettää lautalta rantaan täsmälleen yhtä monta ankanpoikasta – yksi napautus, yksi poikanen ui yli. Sitten lapsi allekirjoittaa nimenhuudon: painaa numeroleimasinta sen mukaan, montako tuli, ja piirtää sormella luvun päälle mudassa. Tämä on vuorovaikutteinen laskemisharjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Äiti ei koskaan näytä numeroa (ellei opettaja valitse niin): lapsi laskee pisteet, laskee yhtä monta ankanpoikasta ja kirjoittaa luvun, joka kertoo lukumäärän – numero on lapsen oma vastaus. Lautalla odottaa enemmän poikasia kuin Äiti pyytää, joten lapsen on itse päätettävä, milloin lopettaa; rannalla olevan poikasen napautus lähettää sen takaisin. Poikaset laskeutuvat hajalleen, joten niiden laskeminen uudelleen on oikeaa laskemista. Tarkista katsoo ensin rantaa ja sitten allekirjoitusta ja kertoo, mitä puuttuu: liikaa, liian vähän, ei vielä lukua, luku joka ei kerro montako tuli, tai luku, jonka päälle ei ole vielä piirretty. Virheen jälkeen rannan poikaset numeroidaan, toisen jälkeen myös Äidin pisteet. Apu ei koskaan siirrä yhtään poikasta.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi laskee lukumääriä, kokoaa annetun lukumäärän ja kirjoittaa siihen kuuluvan numeron. Opettaja valitsee, ovatko luvut 5:een vai 9:ään asti ja näkyykö Äidin kortissa pisteitä vai luku. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Lapsi laskee kortin pisteet ja yhtä monta ankanpoikasta",
+        "Lapsi lopettaa oikeaan lukuun – viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi kirjoittaa lukumäärän kertovan numeron veto kerrallaan",
+        "Lapsi laskee hajallaan olevan joukon uudelleen tarkistaakseen"
+      ],
+      "howToPlay": [
+        "Laske Äidin kortin pisteet.",
+        "Napauta lauttaa, niin ankanpoikaset lähtevät rantaan yksi kerrallaan. Napauta rannalla olevaa poikasta, niin se palaa lautalle.",
+        "Paina numeroleimasinta sen mukaan, montako tuli, ja piirrä luvun päälle mudassa vihreästä pisteestä alkaen.",
+        "Paina Tarkista. Ei ihan? Vihje kertoo, mitä puuttuu – korjaa ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi laskee ja kokoaa enintään 9 esineen joukkoja",
+        "Lapsi kirjoittaa numeron, joka kertoo esineiden lukumäärän",
+        "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän"
+      ]
     }
   }
 }

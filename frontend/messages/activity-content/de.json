@@ -2655,25 +2655,26 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Am Teich wird es hell, und Mama Ente watschelt ans Ufer, um den Morgenappell zu halten. Ihre Entenküken paddeln noch alle bunt durcheinander auf dem Wasser. Mama ruft eine Zahl — und dein Kind schickt ihr genau so viele Küken, eines nach dem anderen abgezählt, ruhig aus der großen Schar heraus. Niemand drängelt, niemand piept dazwischen.",
-        "Das Besondere: Während des Abzählens gibt es keine Reaktion. Dein Kind entscheidet selbst, wann es genug Küken geschickt hat, und muss dabei gut bei sich bleiben und mitzählen. Erst danach unterschreibt es den Appell — indem es die passende Ziffer mit dem Schnabel in den weichen Schlamm formt, Strich für Strich. Stimmt die gesendete Anzahl mit Mamas Ruf überein, ist der Appell besiegelt.",
-        "Mal ruft Mama eine Zahl, mal soll dein Kind nur die gelben Küken zwischen den anderen herauszählen, mal für jedes Seerosenblatt genau ein Küken schicken, mal die ganze Schar zählen oder fortlaufend mitzählen, wenn noch weitere Küken angeschwommen kommen. Es gibt keine Uhr, keine Punkte und kein Gewinnen oder Verlieren: nur Mama Ente, ihre Küken und so viel Zeit, wie dein Kind braucht. Orientiert am Lehrplan der Grundschule, Bereich „Zahlen und Operationen“."
+        "Mama Ente hält am Teich den Morgenappell. Ihre Karte zeigt Punkte, und das Kind schickt genau so viele Küken vom Floß ans Ufer – ein Tipp, ein Küken paddelt hinüber. Dann unterschreibt das Kind den Appell: Es drückt den Zahlenstempel für die Anzahl der gekommenen Küken und spurt die Zahl mit dem Finger im Schlamm nach. Eine interaktive Zählübung direkt im Browser, ohne Installation und ohne Konto.",
+        "Mama zeigt keine Ziffer (außer die Lehrkraft stellt es so ein): Das Kind zählt die Punkte, zählt genauso viele Küken ab und schreibt die Zahl, die die Anzahl angibt – die Ziffer ist die eigene Antwort des Kindes. Auf dem Floß warten mehr Küken, als Mama verlangt, deshalb muss das Kind selbst entscheiden, wann es aufhört; ein Tipp auf ein Küken am Ufer schickt es zurück. Die Küken landen verstreut, also ist das Nachzählen echtes Zählen. Prüfen schaut erst aufs Ufer, dann auf die Unterschrift und sagt, was fehlt: zu viele, zu wenige, noch keine Zahl, eine Zahl, die nicht zur Anzahl passt, oder eine noch nicht nachgespurte Zahl. Nach einem falschen Prüfen werden die Küken am Ufer nummeriert, nach einem zweiten auch Mamas Punkte. Die Hilfe bewegt nie ein Küken.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: Anzahlen bestimmen, eine vorgegebene Anzahl abzählen und die passende Ziffer schreiben. Lehrkräfte wählen Zahlen bis 5 oder bis 9 und ob Mamas Karte Punkte oder die Zahl zeigt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine genannte Anzahl bis 9 ruhig abzählen und herstellen",
-        "Den eigenen Zählprozess ohne Rückmeldung selbst überwachen und stoppen",
-        "Die passende Ziffer mit geordneten Strichen formen",
-        "Die Ziffer schreiben, die zur gezählten Anzahl passt"
+        "Die Punkte auf einer Karte zählen und genauso viele Küken abzählen",
+        "An der richtigen Zahl aufhören – die zuletzt gezählte Zahl gibt die Anzahl an",
+        "Die Ziffer, die die Anzahl angibt, Strich für Strich schreiben",
+        "Eine verstreute Menge zum Überprüfen noch einmal zählen"
       ],
       "howToPlay": [
-        "Höre, welche Zahl Mama Ente aufruft.",
-        "Schicke ihr genau so viele Küken — eines nach dem anderen abgezählt.",
-        "Forme zum Schluss die passende Ziffer in den Schlamm und siegle den Appell."
+        "Zähle die Punkte auf Mamas Karte.",
+        "Tippe aufs Floß, um Küken einzeln ans Ufer zu schicken. Tippe auf ein Küken am Ufer, um es zurückzuschicken.",
+        "Drücke den Zahlenstempel für die Anzahl der gekommenen Küken und spure die Zahl im Schlamm nach – vom grünen Punkt aus.",
+        "Drücke auf Prüfen. Noch nicht ganz? Der Hinweis sagt, was fehlt – ändere es und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Dein Kind kann eine genannte Anzahl bis 9 sicher abzählen und herstellen.",
-        "Dein Kind zählt selbstständig mit und merkt von allein, wann die Anzahl erreicht ist.",
-        "Dein Kind verbindet die Anzahl mit der zugehörigen Ziffer und formt sie nach."
+        "Anzahlen bestimmen und eine vorgegebene Anzahl abzählen",
+        "Die Ziffer schreiben, die die Anzahl angibt",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt"
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

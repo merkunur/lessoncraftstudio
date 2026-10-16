@@ -9,6 +9,7 @@
    Usage: node scripts/live-verify-how-many.js [--locales=en,sv] [--out=<dir>]
    ===================================================================== */
 'use strict';
+const WRAPPER = (require('fs').readFileSync(require('path').join(__dirname, '..', 'frontend', 'app', '[locale]', 'activities', '[slug]', 'page.tsx'), 'utf8').match(/ACTIVITY_WRAPPER_VERSION = '([\d.]+)'/) || [])[1];
 const fs = require('fs'), path = require('path');
 const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k + '=')); return m ? m.slice(k.length + 3) : d; };
 const LOCALES = arg('locales', 'en,sv,fi').split(',');
@@ -34,7 +35,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       is(!!frameEl, `[${loc} @${w}] the page embeds how-many-activity.html`);
       if (!frameEl) { await page.close(); continue; }
       const src = await page.evaluate(f => f.getAttribute('src'), frameEl);
-      is(/v=9\.726/.test(src), `[${loc} @${w}] wrapper version 9.726 in the iframe src (${src})`);
+      is(src.includes('v=' + WRAPPER), `[${loc} @${w}] wrapper version ${WRAPPER} in the iframe src (${src})`);
       const frame = await frameEl.contentFrame();
       await frame.waitForFunction(() => window.HowManyActivity && window.HowManyActivity.theme && document.querySelectorAll('.hm-pic').length === window.HowManyActivity.st.n, { timeout: 30000 });
       await wait(500);
@@ -66,7 +67,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
          the iframe must grow with it — the Check button must stay inside the iframe */
       await frame.click('.lcs-activity-next'); await wait(500);
       const mixOn = await frame.evaluate(() => { const m = document.querySelector('.hm-mix'); return m && !m.disabled; });
-      if (mixOn) { await frame.click('.hm-mix'); await wait(500); }
+      if (mixOn) { await frame.click('.hm-mix'); await wait(1400); }   /* the Mix animation runs ~1.3 s; measure after it lands */
       const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); const chk = f.contentDocument.querySelector('.lcs-activity-check').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height, checkBottom: chk.bottom }; }, frameEl);
       /* the shell rounds up and the iframe animates its height; the control inside the frame is the test */
       is(fit.frameH >= fit.cardH - 8 && fit.checkBottom <= fit.frameH + 1, `[${loc} @${w}] iframe grows with the card after Next/Mix (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)}, Check bottom ${fit.checkBottom.toFixed(0)})`);

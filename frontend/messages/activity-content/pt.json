@@ -2857,25 +2857,25 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "É noite e o céu está cheio de estrelas apagadas. No meio delas, um vaga-lume quer voar — mas ele é teimoso de um jeito bonito: só pousa numa estrela que já foi contada. Uma única estrela já está acesa, mostrando o número onde a contagem começa (às vezes o 7, às vezes outro). A criança toca na tela e o vaga-lume segue contando dali para a frente, uma estrela escura por vez — \"oito… nove… dez…\" —, acendendo cada estrelinha conforme conta. Quando a última acende, uma criatura adormecida do céu (uma raposa, uma coruja, um urso…) desperta: a constelação inteira aparece.",
-        "A grande ideia é simples e poderosa: contar a partir de um número dado, sem recomeçar do 1. Em vez de voltar lá no comecinho toda vez, a criança aprende a continuar a contagem de onde ela já está — a sobrecontagem. Isso é exatamente o que prepara o caminho para somar contando a partir de uma parcela: \"eu já tenho 7, então conto mais — 8, 9, 10\". Ao acender as estrelas em ordem, a criança sente na prática que cada número vem logo depois do outro e que dá para partir de qualquer ponto da sequência.",
-        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — nada de pressa nem de nota, só a criança, o vaga-lume e o céu. Ela está alinhada à BNCC, na unidade temática Números, trabalhando a contagem e a sequência numérica de forma tranquila. E, quase sem perceber, a criança já vai construindo uma base sólida para somar contando a partir de um número."
+        "Um céu noturno cheio de estrelas numeradas, e uma delas está acordada — um 7, por exemplo, ou um 12, nunca o 1. A criança continua contando a partir dela tocando na estrela que vem depois, e depois na próxima: cada estrela certa acende em dourado, um fio corre até ela e o número é falado, até o fio desenhar uma figura — uma pipa, uma xícara, uma coroa, uma escada. É uma atividade interativa de contagem para o 1º ano que roda direto no navegador, em tablets, celulares e computadores, sem instalar nada e sem conta.",
+        "A ideia central é contar para a frente a partir de um número dado, em vez de recomeçar do um. O céu também tem estrelas com números menores que o do início — o 1 está sempre lá — e, se a criança toca em uma, a resposta é nomeada: esse número vem antes do seu, não precisa voltar, continue contando de onde está. Uma estrela longe demais também é nomeada: de um em um. Com um toque errado nada acende, então a figura só existe quando a contagem está certa, e a faixa embaixo do céu mostra o que já foi contado — 7, 8, 9 — para que a sequência falada fique visível. Os ajustes vão até 10 ou até 20 (passando pela dezena), e as estrelas extras podem ser desligadas para uma turma que ainda precisa de um céu limpo.",
+        "Está alinhada à BNCC: contar avançando a partir de um número dado dentro da sequência conhecida. Sem cronômetro, sem pontuação — só prática tranquila e divertida."
       ],
       "practices": [
-        "Continuar a contagem a partir de um número dado, sem voltar ao 1.",
-        "Dizer a sequência dos números em voz alta — oito, nove, dez.",
-        "Reconhecer onde a contagem começa (a estrela que já está acesa).",
-        "Perceber que cada estrela contada acende e que a criatura acorda quando a última se ilumina."
+        "Contar para a frente a partir de um número dado, em vez de começar do um.",
+        "Encontrar e ler, entre muitas estrelas, o número que vem depois.",
+        "Continuar uma sequência de um em um, até 10 ou até 20.",
+        "Recusar um número que vem antes do seu e um que pula para a frente."
       ],
       "howToPlay": [
-        "Olhe a estrela que já está acesa — é daí que a contagem começa.",
-        "Toque na tela para o vaga-lume continuar contando, uma estrela por vez.",
-        "Vá acordando cada estrela até a última acender e a criatura aparecer."
+        "Olhe a estrela que está acordada e leia o número dela. É ali que você começa.",
+        "Toque na estrela que vem depois, depois na próxima e na próxima. Cada estrela certa acorda e o fio cresce.",
+        "Quando a última estrela acende, a figura se fecha e a rodada se confere sozinha. Não tem certeza? A faixa mostra em que número você está — não há cronômetro nem pontuação."
       ],
       "learningGoals": [
-        "Eu continuo a contagem a partir de um número, sem recomeçar do 1.",
-        "Eu digo a sequência dos números em ordem.",
-        "Eu conto mais um, mais um, até chegar no final."
+        "Contar para a frente a partir de um número dado.",
+        "Entender que a contagem pode começar em qualquer número, não só no um.",
+        "Construir a fluência de continuar contando, base da adição e do trabalho com números que vem depois."
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

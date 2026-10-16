@@ -2384,6 +2384,29 @@
         "Se att en kartong med tio räknas som tio och att den sista kartongen anger summan",
         "Bygga ett antal ägg av kartonger om tio"
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "En natthimmel full av stjärnor med tal, och en av dem är vaken – en 7 till exempel, eller en 12, aldrig 1. Barnet räknar vidare från den genom att trycka på stjärnan som kommer efter, och sedan på nästa: varje rätt stjärna tänds i guld, en tråd löper fram till den och talet sägs högt, tills tråden har ritat en bild – en drake, en kopp, en krona, en trappa. Det är en interaktiv räkneövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation och utan konto.",
+        "Kärnan är att räkna framåt från ett givet tal i stället för att börja om på ett varje gång. På himlen finns också stjärnor med tal som ligger före starten – 1 finns alltid med – och den som trycker på en sådan får höra varför: det talet kommer före ditt, du behöver inte gå tillbaka, räkna vidare därifrån du är. En stjärna för långt fram får också ett namn: ett steg i taget. Vid ett fel tryck tänds ingenting, så bilden finns bara när räkningen stämmer, och remsan under himlen visar vad som räknats hittills – 7, 8, 9 – så att den sagda talraden syns. Inställningarna går till 10 eller till 20 (över tiotalet), och de extra stjärnorna kan stängas av för en grupp som fortfarande behöver en klar himmel.",
+        "Övningen följer Lgr22: fortsätta talraden framåt från ett givet tal. Utan timer och utan poäng – lugn och lekfull träning."
+      ],
+      "practices": [
+        "Räkna framåt från ett givet tal i stället för att börja på ett.",
+        "Hitta och läsa, bland många stjärnor, talet som kommer efter.",
+        "Fortsätta en talrad ett tal i taget, till 10 eller till 20.",
+        "Säga nej till ett tal som kommer före ens eget och till ett som hoppar för långt fram."
+      ],
+      "howToPlay": [
+        "Titta på stjärnan som är vaken och läs talet på den. Där börjar du.",
+        "Tryck på stjärnan som kommer efter, sedan på nästa och nästa igen. Varje rätt stjärna vaknar och tråden växer.",
+        "När den sista stjärnan tänds sluts bilden och omgången kontrollerar sig själv. Osäker? Remsan visar vilket tal du är på – det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna framåt från ett givet tal.",
+        "Förstå att räkningen kan börja var som helst, inte bara på ett.",
+        "Bygga den räkna-vidare-säkerhet som addition och det fortsatta arbetet med tal vilar på."
+      ]
     }
   }
 }

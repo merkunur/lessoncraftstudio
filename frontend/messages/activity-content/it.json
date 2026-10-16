@@ -2863,25 +2863,25 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "Di notte il cielo è un buio pieno di stelle spente: una sola brilla già e porta scritto il numero da cui iniziare, mentre la lucciola aspetta di volare di stella in stella e, in fondo alla sequenza dei numeri, una creatura nascosta — una volpe, un gufo, un orso — dorme finché l’intera costellazione non si accende.",
-        "Contare in avanti a partire da un numero dato senza ricominciare da 1 è la sovraconta: è il ponte verso l’addizione, perché «ho già 7, quindi conto ancora — 8, 9, 10». Ogni numero viene subito dopo l’altro nella sequenza dei numeri, e il conteggio può partire da qualsiasi punto, non solo dall’inizio.",
-        "Allineata alle Indicazioni nazionali per la classe prima, l’attività è senza registrazione, senza timer e senza punteggio: la sovraconta è la prima base per sommare senza ricontare ogni volta tutto da 1."
+        "Un cielo notturno pieno di stelle numerate, e una di loro è sveglia: un 7, per esempio, o un 12, mai l’1. Il bambino continua a contare da lì toccando la stella che viene dopo, e poi la successiva: ogni stella giusta si accende d’oro, un filo corre fino alla stella e il numero viene detto a voce, finché il filo non ha disegnato una figura – un aquilone, una tazza, una corona, una scala. È un’attività interattiva di conteggio per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L’idea centrale è contare in avanti a partire da un numero dato invece di ricominciare da uno. Nel cielo ci sono anche stelle con numeri più piccoli di quello di partenza – l’1 c’è sempre – e se il bambino ne tocca una la risposta viene detta per nome: quel numero viene prima del tuo, non serve tornare indietro, continua a contare da dove sei. Anche una stella troppo avanti viene nominata: un numero alla volta. Con un tocco sbagliato non si accende nulla, quindi la figura esiste solo se il conteggio è giusto, e la striscia sotto il cielo mostra il percorso fatto finora – 7, 8, 9 – perché la sequenza detta resti visibile. Le impostazioni arrivano fino a 10 o fino a 20 (oltre la decina), e le stelle in più si possono togliere per una classe che ha ancora bisogno di un cielo sereno.",
+        "L’attività segue le Indicazioni nazionali per la classe prima: contare in avanti a partire da un numero dato. Senza cronometro e senza punteggio: solo esercizio calmo e giocoso."
       ],
       "practices": [
-        "Continuare a contare a partire da un numero dato, senza tornare a 1.",
-        "Dire la sequenza dei numeri ad alta voce, un numero dopo l’altro (otto, nove, dieci).",
-        "Riconoscere da dove parte il conteggio guardando la stella già accesa.",
-        "Capire che ogni stella si accende in ordine e che la creatura si sveglia solo quando si illumina l’ultima."
+        "Contare in avanti a partire da un numero dato invece di cominciare da uno.",
+        "Trovare e leggere, tra tante stelle, il numero che viene dopo.",
+        "Proseguire una sequenza un numero alla volta, fino a 10 o fino a 20.",
+        "Rifiutare un numero che viene prima del proprio e uno che salta troppo avanti."
       ],
       "howToPlay": [
-        "Guarda la stella già accesa: è da lì che parte il conteggio.",
-        "Tocca «Conta in avanti» per far volare la lucciola alla stella successiva, una per volta.",
-        "Accendi ogni stella fino all’ultima, finché appare la creatura nascosta del cielo."
+        "Guarda la stella sveglia e leggi il suo numero. Si parte da lì.",
+        "Tocca la stella che viene dopo, poi la successiva e poi ancora la successiva. Ogni stella giusta si sveglia e il filo si allunga.",
+        "Quando si accende l’ultima stella, la figura si chiude e il turno si controlla da solo. Non sei sicuro? La striscia ti dice a che numero sei: non c’è cronometro né punteggio."
       ],
       "learningGoals": [
-        "So contare in avanti a partire da un numero, senza ricominciare da 1.",
-        "So dire la sequenza dei numeri in ordine.",
-        "So contare ancora uno, e ancora uno, fino alla fine."
+        "Contare in avanti a partire da un numero dato.",
+        "Capire che si può cominciare a contare da qualsiasi numero, non solo da uno.",
+        "Costruire la sicurezza nel contare in avanti su cui si appoggiano l’addizione e il lavoro sui numeri che segue."
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

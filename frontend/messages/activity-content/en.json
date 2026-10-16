@@ -3943,25 +3943,25 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "A stuck firefly can only fly to stars the child has already counted, so starting from one lit star — not always at one — the child taps Count on to light each next numeral (eight… nine… ten…) and Wake it to settle her down, until a hidden constellation animal appears. It's an interactive Kindergarten counting game that runs in the browser with no account.",
-        "The big idea is counting on from a given number instead of restarting at one every time — a real leap for young counters. Because the starting star can be 6, 7, 11, or 12, the child has to know what comes next from there, not recite the whole sequence from the beginning. Saying each number as it lights links the spoken count to the written numeral and to the one-by-one motion of counting.",
+        "A night sky full of numbered stars, and one of them is awake — a 7, say, or a 12, never a 1. The child counts on from it by tapping the star that comes next, then the next: each right star wakes with a gold glow, a thread runs to it and the number is spoken, until the thread has drawn a picture — a kite, a cup, a crown, a staircase. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "The big idea is counting forward from a number you are given instead of starting over at one. The sky also holds stars numbered below the start — 1 is always there — and tapping one is answered by name: that number comes before yours, you don’t have to go back, count on from where you are. A star too far ahead is named too: one at a time. Nothing lights for a wrong tap, so the picture only ever exists when the count is right, and the strip under the sky reads the run so far — 7, 8, 9 — so the spoken sequence stays visible. Settings go to 10 or to 20 (through the teens), and the extra stars can be switched off for a class that still needs a clear sky.",
         "It is aligned to Common Core K.CC.A.2 — counting forward beginning from a given number within the known sequence. No timer, no score — just calm, playful practice."
       ],
       "practices": [
         "Count forward from a given number instead of starting at one",
-        "Say each number in order as the next star lights up",
-        "Fill the missing numbers between two known anchor numbers",
-        "Count a small set first, then keep counting on from that amount"
+        "Find and read the numeral that comes next among many",
+        "Keep a run going, one number at a time, to 10 or to 20",
+        "Refuse a number that comes before yours, and one that skips ahead"
       ],
       "howToPlay": [
-        "Start at the one lit star and read the number it shows.",
-        "Tap Count on to fly the firefly forward one dark star at a time, then tap Wake it to land her — until the last star lights.",
-        "Take your time — there is no timer and no score."
+        "Look at the star that is awake and read its number. That is where you start.",
+        "Tap the star that comes next, then the next one, and the next. Each right star wakes and the thread grows.",
+        "When the last star lights, the picture closes and the round checks itself. Not sure? The strip tells you the number you are on — there is no timer and no score."
       ],
       "learningGoals": [
-        "Count forward from a given number within the sequence — the focus of Common Core K.CC.A.2.",
-        "Understand that counting can begin anywhere, not only at one.",
-        "Build the counting-on fluency that addition and later number work depend on."
+        "Count forward from a given number — the focus of Common Core K.CC.A.2",
+        "Understand that counting can begin anywhere, not only at one",
+        "Build the counting-on fluency that addition and later number work depend on"
       ]
     },
     "story-spine.role.rl-k-3": {

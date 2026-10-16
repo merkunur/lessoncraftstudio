@@ -1527,6 +1527,29 @@
         "Se at en kartong med ti telles som ti, og at den siste kartongen gir summen",
         "Bygge et antall egg av kartonger med ti"
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "En nattehimmel full av stjerner med tall, og én av dem er våken – et 7-tall for eksempel, eller et 12-tall, aldri 1. Barnet teller videre fra den ved å trykke på stjernen som kommer etter, og så på den neste: hver riktige stjerne lyser opp i gull, en tråd løper bort til den og tallet blir sagt høyt, til tråden har tegnet et bilde – en drage, en kopp, en krone, en trapp. Det er en interaktiv telleøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "Kjernen er å telle framover fra et gitt tall i stedet for å begynne på nytt fra én hver gang. På himmelen er det også stjerner med tall som ligger før starten – 1 er alltid med – og trykker man på en slik, blir det sagt ved navn: det tallet kommer før ditt, du trenger ikke å gå tilbake, tell videre derfra du er. En stjerne for langt framme får også et navn: ett steg om gangen. Ved et feil trykk lyser ingenting opp, så bildet finnes bare når tellingen stemmer, og stripen under himmelen viser det som er telt så langt – 7, 8, 9 – slik at den sagte tallrekka er synlig. Innstillingene går til 10 eller til 20 (over tieren), og de ekstra stjernene kan slås av for en klasse som fortsatt trenger en klar himmel.",
+        "Øvelsen følger LK20: fortsette tallrekka framover fra et gitt tall. Uten tidtaker og uten poeng – rolig og leken trening."
+      ],
+      "practices": [
+        "Telle framover fra et gitt tall i stedet for å begynne på én.",
+        "Finne og lese, blant mange stjerner, tallet som kommer etter.",
+        "Fortsette en tallrekke ett tall om gangen, til 10 eller til 20.",
+        "Avvise et tall som kommer før ens eget, og et tall som hopper for langt fram."
+      ],
+      "howToPlay": [
+        "Se på stjernen som er våken, og les tallet på den. Der begynner du.",
+        "Trykk på stjernen som kommer etter, så på den neste og den neste igjen. Hver riktige stjerne våkner, og tråden vokser.",
+        "Når den siste stjernen lyser, lukker bildet seg og runden sjekker seg selv. Usikker? Stripen forteller hvilket tall du er på – det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle framover fra et gitt tall.",
+        "Forstå at tellingen kan begynne hvor som helst, ikke bare på én.",
+        "Bygge den telle-videre-sikkerheten som addisjon og det videre arbeidet med tall hviler på."
+      ]
     }
   }
 }

@@ -1114,25 +1114,25 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "Una luciérnaga vuela por el cielo nocturno y despierta las estrellas dormidas de una en una. En lugar de empezar desde el 1, tu pequeño sigue contando hacia adelante a partir del número que ya lleva: la luciérnaga vuela a la siguiente estrella, se dice el siguiente número y, al llegar a la estrella correcta, la despierta.",
-        "Aquí está el corazón de la actividad: las estrellas apagadas no tienen número. El niño solo descubre cuál sigue si continúa la serie —siete, ocho, nueve…— sin volver a contar todo desde el uno. A esto se le llama sobreconteo, o contar a partir de un número, y es una de las primeras estrategias que preparan el camino hacia la suma.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: el niño cuenta con calma y a su propio ritmo, y si se pasa de la estrella, la luciérnaga regresa suavemente para intentarlo otra vez. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 18."
+        "Un cielo nocturno lleno de estrellas con números, y una de ellas está despierta: un 7, por ejemplo, o un 12, nunca el 1. El niño sigue contando a partir de ella tocando la estrella que sigue, y luego la siguiente: cada estrella correcta se enciende de dorado, un hilo corre hasta ella y el número se dice en voz alta, hasta que el hilo dibuja una figura: un papalote, una taza, una corona, una escalera. Es una actividad interactiva de conteo para preescolar que funciona directo en el navegador, en tabletas, celulares y computadoras, sin instalar nada y sin cuenta.",
+        "La idea central es contar hacia adelante a partir de un número dado en lugar de empezar otra vez desde el uno. En el cielo también hay estrellas con números menores que el de inicio —el 1 siempre está— y, si el niño toca una, la respuesta se nombra: ese número viene antes del tuyo, no tienes que regresar, sigue contando desde donde estás. Una estrella demasiado adelante también se nombra: de uno en uno. Con un toque equivocado no se enciende nada, así que la figura solo existe cuando el conteo es correcto, y la franja bajo el cielo muestra lo contado hasta ahora —7, 8, 9— para que la secuencia dicha quede a la vista. Los ajustes llegan hasta 10 o hasta 20 (pasando la decena), y las estrellas de más se pueden quitar para un grupo que todavía necesita un cielo despejado.",
+        "Está alineada con los planes de estudio de preescolar: contar hacia adelante a partir de un número dado dentro de la secuencia conocida. Sin cronómetro ni puntaje: solo práctica tranquila y divertida."
       ],
       "practices": [
-        "Seguir la serie numérica oral hacia adelante a partir de un número dado, sin regresar al uno.",
-        "Usar el sobreconteo: contar una pequeña colección, descubrir en qué número va y seguir contando a partir de ahí.",
-        "Encontrar el número que falta entre dos que ya conoce, apoyándose en el orden de la serie.",
-        "Leer un número y contar en voz alta hasta llegar a él."
+        "Contar hacia adelante a partir de un número dado en lugar de empezar en uno.",
+        "Encontrar y leer, entre muchas estrellas, el número que sigue.",
+        "Continuar una secuencia de uno en uno, hasta 10 o hasta 20.",
+        "Rechazar un número que viene antes del propio y uno que se salta hacia adelante."
       ],
       "howToPlay": [
-        "Mira en qué estrella que brilla empieza la luciérnaga.",
-        "Toca «Sigue contando»: la luciérnaga vuela a la siguiente estrella y dice el siguiente número.",
-        "Al llegar a la estrella correcta, toca «Despierta» para encenderla."
+        "Mira la estrella que está despierta y lee su número. Ahí empiezas.",
+        "Toca la estrella que sigue, luego la siguiente y la siguiente. Cada estrella correcta despierta y el hilo crece.",
+        "Cuando se enciende la última estrella, la figura se cierra y la ronda se comprueba sola. ¿No estás seguro? La franja te dice en qué número estás: no hay cronómetro ni puntaje."
       ],
       "learningGoals": [
-        "Consolidar el conocimiento de la serie numérica oral hasta el 18 y su orden estable.",
-        "Desarrollar el sobreconteo —contar a partir de un número— como base para resolver sumas sin volver a contar todo desde el uno.",
-        "Fortalecer el sentido numérico al relacionar el número que se dice, el que se lee y la cantidad que representa."
+        "Contar hacia adelante a partir de un número dado.",
+        "Entender que se puede empezar a contar desde cualquier número, no solo desde el uno.",
+        "Construir la fluidez de seguir contando, sobre la que se apoyan la suma y el trabajo numérico posterior."
       ]
     },
     "necklace.bead-string.k-cc-b-4": {

@@ -1469,6 +1469,29 @@
         "Nähdä, että kymmenen munan kenno lasketaan kymmenenä ja viimeinen kenno kertoo summan",
         "Rakentaa munamäärä kymmenen munan kennoista"
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Yötaivas täynnä numeroituja tähtiä, ja yksi niistä on hereillä – vaikkapa 7 tai 12, ei koskaan 1. Lapsi jatkaa laskemista siitä napauttamalla tähteä, joka tulee seuraavaksi, ja sitten taas seuraavaa: jokainen oikea tähti syttyy kullanväriseksi, lanka juoksee sen luo ja luku sanotaan ääneen, kunnes lanka on piirtänyt kuvan – leijan, kupin, kruunun, portaat. Vuorovaikutteinen laskemisharjoitus esiopetukseen ja 1. luokalle toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella, ilman asennusta ja ilman tiliä.",
+        "Ydinajatus on laskea eteenpäin annetusta luvusta sen sijaan, että aloittaisi joka kerta ykkösestä. Taivaalla on myös tähtiä, joiden luvut ovat ennen aloituslukua – ykkönen on aina mukana – ja jos lapsi napauttaa sellaista, asia sanotaan ääneen: se luku tulee ennen omaasi, ei tarvitse palata, jatka laskemista siitä, missä olet. Myös liian kauas edelle osuva tähti nimetään: yksi kerrallaan. Väärästä napautuksesta ei syty mitään, joten kuva syntyy vain, kun laskeminen on oikein, ja taivaan alla oleva nauha näyttää tähän asti lasketut luvut – 7, 8, 9 – jotta sanottu lukujono pysyy näkyvissä. Asetuksista valitaan luvut 10:een tai 20:een asti (yli kymmenen), ja ylimääräiset tähdet voi ottaa pois ryhmältä, joka tarvitsee vielä kirkkaan taivaan.",
+        "Harjoitus noudattaa OPS 2014:ää: lukujonon jatkaminen eteenpäin annetusta luvusta. Ei ajastinta, ei pisteitä – rauhallista ja leikkisää harjoittelua."
+      ],
+      "practices": [
+        "Laskea eteenpäin annetusta luvusta ykkösestä aloittamisen sijaan.",
+        "Löytää ja lukea monien tähtien joukosta luku, joka tulee seuraavaksi.",
+        "Jatkaa lukujonoa yksi luku kerrallaan 10:een tai 20:een asti.",
+        "Hylätä luku, joka tulee ennen omaa lukua, ja luku, joka hyppää liian kauas."
+      ],
+      "howToPlay": [
+        "Katso, mikä tähti on hereillä, ja lue sen luku. Siitä aloitat.",
+        "Napauta tähteä, joka tulee seuraavaksi, sitten taas seuraavaa ja seuraavaa. Jokainen oikea tähti herää ja lanka pitenee.",
+        "Kun viimeinen tähti syttyy, kuva sulkeutuu ja kierros tarkistaa itsensä. Etkö ole varma? Nauha kertoo, millä luvulla olet – ajastinta ja pisteitä ei ole."
+      ],
+      "learningGoals": [
+        "Laskea eteenpäin annetusta luvusta.",
+        "Ymmärtää, että laskemisen voi aloittaa mistä tahansa, ei vain ykkösestä.",
+        "Rakentaa eteenpäin laskemisen sujuvuus, johon yhteenlasku ja myöhempi lukujen käsittely nojaavat."
+      ]
     }
   }
 }

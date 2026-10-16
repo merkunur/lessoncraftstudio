@@ -30,10 +30,11 @@ const MUTATIONS = [
   ['leftover count off',            "k: slip === 'more' ? st.n - a : slip === 'fewer' ? a - st.n : 0", "k: slip === 'more' ? st.n - a + 1 : slip === 'fewer' ? a - st.n : 0"],
   ['fill short named fewer',        "slip: d === 0 ? 'right' : d > 0 ? 'fillMore' : 'fillFewer'", "slip: d === 0 ? 'right' : d > 0 ? 'fillFewer' : 'fillMore'"],
   ['places lose the leftovers',     "out.push(i < Math.min(a, n) ? 'ticked' : (i < n ? 'leftover' : 'empty'));", "out.push(i < Math.min(a, n) ? 'ticked' : 'empty');"],
-  ['pictures shrink on desktop',    "return { mode: 'side', cols: 5, gap: gap, padW: padW, jarW: jarW, jarPad: pad, cell: cell, pic: cell - gap };", "return { mode: 'side', cols: 5, gap: gap, padW: padW, jarW: jarW, jarPad: pad, cell: cell, pic: cell - 10 };"],
+  ['pictures shrink on desktop',    "return { mode: 'row', cols: 5, gap: gap, padW: 0, key: key, jarW: W, jarPad: pad, cell: cell, pic: cell - gap };", "return { mode: 'row', cols: 5, gap: gap, padW: 0, key: key, jarW: W, jarPad: pad, cell: cell, pic: cell - 10 };"],
   ['five columns on a phone',       "var c = Math.floor((inner - 3 * g) / 4);\n    return { mode: 'stack', cols: 4,", "var c = Math.floor((inner - 4 * g) / 5);\n    return { mode: 'stack', cols: 5,"],
   ['a fat phone jar',               "var g = 2, jp = 6, inner = W - 2 * jp;", "var g = 2, jp = 16, inner = W - 2 * jp;"],
-  ['side pad too narrow',           "var padW = 112, gap = 2,", "var padW = 80, gap = 2,"],
+  ['desktop cell uncapped',         "var cell = Math.min(112, Math.floor((innerW - 4 * gap) / 5));", "var cell = Math.floor((innerW - 4 * gap) / 5);"],
+  ['keys below the tap floor',      "var key = Math.min(52, Math.floor((W - 10 * 4) / 11));", "var key = Math.min(40, Math.floor((W - 10 * 4) / 11));"],
   ['loose jar everywhere',          "if (shown(st) > LOOSE_MAX) return { x: 0, y: 0 };", "if (false) return { x: 0, y: 0 };"],
   ['no jitter at all',              "var JITTER = 0.07;", "var JITTER = 0;"]
 ];

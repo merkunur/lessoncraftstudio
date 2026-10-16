@@ -7,7 +7,7 @@
    pools and their coverage, the slip table (its own copy, agreed
    exhaustively 0..99 × 0..20), the typing rules, the marks, the shelf,
    Check and the places it lays, the layout floors — picture ≥ 96 px at
-   every desktop stage width 640…720 (≥ 72 at 560…639) and ≥ 64 px at 288…559 — and the
+   every desktop stage width 560…720 (the jar spans the width, keys in one row) and ≥ 64 px at 288…559 — and the
    320 × 640 budget: lid 44 + body for 20 toys ≤ 400 at a 288 px stage.
    ===================================================================== */
 'use strict';
@@ -114,10 +114,10 @@ for (const r of R20.concat(R10).filter(r => r.kind === 'fill')) {
 }
 
 /* 5. layout */
-for (let W = 560; W <= 720; W += 8) { const L = C.layout(W), floor = W >= 640 ? 96 : 72; is(L.mode === 'side' && L.cols === 5 && L.pic >= floor && L.padW >= 108 && L.jarW + 12 + L.padW === W && 5 * L.cell + 4 * L.gap <= L.jarW - 2 * L.jarPad, `side at W=${W}: picture ${L.pic} ≥ ${floor}, pad ${L.padW}`); }
+for (let W = 560; W <= 720; W += 8) { const L = C.layout(W); is(L.mode === 'row' && L.cols === 5 && L.pic >= 96 && L.key >= 44 && L.key <= 52 && 11 * L.key + 40 <= W && L.jarW === W && 5 * L.cell + 4 * L.gap <= L.jarW - 2 * L.jarPad, `row at W=${W}: picture ${L.pic} ≥ 96, keys ${L.key}`); }
 for (let W = 288; W <= 559; W += 7) { const L = C.layout(W); is(L.mode === 'stack' && L.cols === 4 && L.pic >= 64 && 4 * L.cell + 3 * L.gap <= W - 2 * L.jarPad, `stack at W=${W}: picture ${L.pic} ≥ 64`); }
 { const L = C.layout(288), body = C.rowsFor(20, 4) * L.cell + (C.rowsFor(20, 4) - 1) * L.gap + 2 * L.jarPad; is(44 + body <= 400, `320 × 640 budget: lid 44 + body ${body} for 20 toys ≤ 400`); }
-{ const L = C.layout(647), body = C.rowsFor(20, 5) * L.cell + 3 * L.gap + 2 * L.jarPad; is(body <= 440, `desktop: body ${body} for 20 toys ≤ 440 (fits 1366 × 900 with the chrome)`); }
+{ const L = C.layout(647), body = C.rowsFor(20, 5) * L.cell + 3 * L.gap + 2 * L.jarPad; is(46 + body + 8 + L.key <= 620, `desktop: lid 46 + body ${body} + keys ${L.key} for 20 toys ≤ 620 (fits 1366 × 900 with the chrome)`); }
 is(C.rowsFor(0, 5) === 1 && C.rowsFor(10, 5) === 2 && C.rowsFor(11, 5) === 3 && C.rowsFor(20, 4) === 5, 'rows: 0 → 1, 10 → 2, 11 → 3, 20/4 → 5');
 { const r = R20.find(x => x.n === 6), st = C.newState(r), L = C.layout(647), o = C.offset(st, 0, L); is((o.x !== 0 || o.y !== 0) && Math.abs(o.x) <= L.cell * C.JITTER + 1, `six toys sit loosely (offset ${o.x}, ${o.y})`); }
 { const r = R20.find(x => x.n === 14), st = C.newState(r), L = C.layout(647); is(C.offset(st, 0, L).x === 0 && C.offset(st, 0, L).y === 0, 'fourteen toys stand in straight rows'); }

@@ -2430,6 +2430,29 @@
         "Skriva en siffra utan stöd efter att ha spårat den.",
         "Lägga grunden för handstilen så att antal och svar kan skrivas ner senare."
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "En gata med fem hus, vart och ett med ett tryckt husnummer över dörren, och en postbil med tre brev. Adressen på varje brev är skriven för hand – med den handstil barn lär sig skriva sina siffror med – medan husnumren är tryckta. Barnet kan alltså inte jämföra former: talet måste läsas. Barnet drar varje brev till ett hus; brevet går bara ner i en enda brevlåda. När rätt dörr öppnas kliver grannen ut på trappan, talet sägs högt och nästa brev dyker upp. När det tredje brevet är utdelat kontrollerar omgången sig själv. En interaktiv övning i att läsa tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation och utan konto.",
+        "Kärnan: läsa talen 0 till 20 som tal, inte känna igen dem som bilder. Varje gata rymmer de förväxlingar som nya läsare gör: 13 bor bredvid 31, så siffrornas ordning spelar roll; 14 står mellan 13 och 11, så den sista siffran måste läsas; 14 står bredvid 4, för en siffra är inte två; och 6 står nära 9, 2 nära 5, 1 nära 7. En fel dörr svarar med sitt eget nummer bredvid brevets och sätter ord på misstaget – samma siffror fast tvärtom, titta på den sista siffran, två siffror och inte en – och efter två missar lyser rätt skylt. I inställningarna stannar talen vid 10 för en grupp som just börjat, eller läses adressen upp i stället för att visas, så att barnet lyssnar efter talet – med en Visa-knapp för ett tyst rum.",
+        "Övningen följer Lgr22: läsa och skilja på tal upp till 20. Utan timer och utan poäng – lugn och lekfull träning."
+      ],
+      "practices": [
+        "Läsa skrivna tal 0–20, även nollan och talen 11–19",
+        "Skilja 13 från 31: siffrornas ordning avgör talet",
+        "Skilja 14 från 13 och 14 från 4: läsa den sista siffran och räkna siffrorna",
+        "Läsa ett handskrivet tal och hitta det tryckt"
+      ],
+      "howToPlay": [
+        "Ta brevet från postbilen och läs talet som står på det.",
+        "Dra det till huset vars skylt visar det talet – det går bara ner i den brevlådan.",
+        "Dela ut alla tre breven; omgången kontrollerar sig själv och ”Nästa” ger en ny gata."
+      ],
+      "learningGoals": [
+        "Läsa talen 0 till 20",
+        "Förstå att 13 och 31 är olika tal eftersom siffrornas ordning spelar roll",
+        "Känna igen ett tal vare sig det är handskrivet eller tryckt"
+      ]
     }
   }
 }

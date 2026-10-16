@@ -1515,6 +1515,29 @@
         "Kirjoittaa numero ilman tukea sen jäljentämisen jälkeen.",
         "Rakentaa käsialan perusta, jotta lukumäärät ja vastaukset voi myöhemmin kirjoittaa muistiin."
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Katu, jolla on viisi taloa, jokaisen oven yllä painettu talonumero, ja postiauto, jossa on kolme kirjettä. Jokaisen kirjeen osoite on kirjoitettu käsin – samalla käsialalla, jolla lapset opettelevat kirjoittamaan numeronsa – kun taas talonumerot ovat painettuja. Lapsi ei siis voi verrata muotoja: luku on luettava. Lapsi vetää jokaisen kirjeen talon luo; kirje mahtuu vain yhteen postiluukkuun. Kun oikea ovi aukeaa, naapuri astuu kynnykselle, luku sanotaan ääneen ja seuraava kirje ilmestyy. Kun kolmas kirje on jaettu, kierros tarkistaa itsensä. Interaktiivinen numeroiden lukemisen harjoitus esiopetukseen ja 1. luokalle, joka toimii selaimessa tabletilla, puhelimella ja tietokoneella – ilman asennusta ja ilman tiliä.",
+        "Ydin: luvut 0–20 luetaan lukuina, ei tunnisteta kuvina. Jokaisella kadulla on ne sekaannukset, joita aloitteleva lukija tekee: 13 asuu numeron 31 vieressä, joten numeroiden järjestyksellä on väliä; 14 on numeroiden 13 ja 11 välissä, joten viimeinen numero on luettava; 14 on numeron 4 vieressä, koska yksi numero ei ole kaksi; ja 6 on lähellä 9:ää, 2 lähellä 5:tä, 1 lähellä 7:ää. Väärä ovi vastaa omalla numerollaan kirjeen numeron rinnalla ja nimeää virheen – samat numerot toisin päin, katso viimeistä numeroa, kaksi numeroa eikä yksi – ja kahden ohilyönnin jälkeen oikea kyltti hohtaa. Asetuksista luvut pysyvät 10:een asti vasta aloittavalle ryhmälle, tai osoite luetaan ääneen näyttämisen sijaan, jolloin lapsi kuuntelee lukua – Näytä-painike on hiljaista huonetta varten.",
+        "Harjoitus noudattaa OPS 2014:ää: lukujen lukeminen ja erottaminen 20:een asti. Ei ajastinta eikä pisteitä – rauhallista ja leikkisää harjoittelua."
+      ],
+      "practices": [
+        "Lukea kirjoitetut luvut 0–20, myös nolla ja luvut 11–19",
+        "Erottaa 13 ja 31: numeroiden järjestys ratkaisee luvun",
+        "Erottaa 14 ja 13 sekä 14 ja 4: lukea viimeinen numero ja laskea numerot",
+        "Lukea käsin kirjoitettu luku ja löytää se painettuna"
+      ],
+      "howToPlay": [
+        "Ota kirje postiautosta ja lue siihen kirjoitettu luku.",
+        "Vedä kirje taloon, jonka kyltissä on sama luku – se mahtuu vain sen talon postiluukkuun.",
+        "Jaa kaikki kolme kirjettä; kierros tarkistaa itsensä, ja ”Seuraava” tuo uuden kadun."
+      ],
+      "learningGoals": [
+        "Lukea luvut 0–20",
+        "Ymmärtää, että 13 ja 31 ovat eri lukuja, koska numeroiden järjestyksellä on väliä",
+        "Tunnistaa luku, olipa se käsin kirjoitettu tai painettu"
+      ]
     }
   }
 }

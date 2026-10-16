@@ -1584,6 +1584,29 @@
         "Skrive et tal uden hjælp efter at have sporet det.",
         "Lægge grunden til håndskriften, så antal og svar kan skrives ned senere."
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "En gade med fem huse, hvert med et trykt husnummer over døren, og en postbil med tre breve. Adressen på hvert brev er skrevet i hånden – med den håndskrift børn lærer at skrive deres tal med – mens husnumrene er trykte. Barnet kan altså ikke sammenligne former: tallet skal læses. Barnet trækker hvert brev hen til et hus; brevet passer kun ned i én postkasse. Når den rigtige dør går op, træder naboen ud på trappestenen, tallet bliver sagt højt, og det næste brev dukker op. Når det tredje brev er afleveret, tjekker runden sig selv. En interaktiv øvelse i at læse tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation og uden konto.",
+        "Kernen: at læse tallene 0 til 20 som tal, ikke genkende dem som billeder. Hver gade rummer de forvekslinger, nye læsere laver: 13 bor ved siden af 31, så cifrenes rækkefølge betyder noget; 14 står mellem 13 og 11, så det sidste ciffer skal læses; 14 står ved siden af 4, for ét ciffer er ikke to; og 6 står tæt på 9, 2 på 5, 1 på 7. En forkert dør svarer med sit eget nummer ved siden af brevets og sætter ord på fejlen – de samme cifre bare omvendt, se på det sidste ciffer, to cifre og ikke ét – og efter to forbiere lyser det rigtige skilt. I indstillingerne bliver tallene ved 10 til en gruppe, der lige er begyndt, eller adressen læses op i stedet for at blive vist, så barnet lytter efter tallet – med en Vis-knap til et stille lokale.",
+        "Øvelsen følger Fælles Mål: at læse og skelne mellem tal op til 20. Uden timer og uden point – rolig og legende træning."
+      ],
+      "practices": [
+        "Læse skrevne tal 0–20, også nullet og tallene 11–19",
+        "Skelne 13 fra 31: cifrenes rækkefølge afgør tallet",
+        "Skelne 14 fra 13 og 14 fra 4: læse det sidste ciffer og tælle cifrene",
+        "Læse et håndskrevet tal og finde det trykt"
+      ],
+      "howToPlay": [
+        "Tag brevet fra postbilen, og læs tallet, der står på det.",
+        "Træk det hen til huset, hvis skilt viser det tal – det passer kun ned i den postkasse.",
+        "Aflever alle tre breve; runden tjekker sig selv, og ”Næste” giver en ny gade."
+      ],
+      "learningGoals": [
+        "Læse tallene 0 til 20",
+        "Forstå, at 13 og 31 er forskellige tal, fordi cifrenes rækkefølge betyder noget",
+        "Genkende et tal, uanset om det er håndskrevet eller trykt"
+      ]
     }
   }
 }

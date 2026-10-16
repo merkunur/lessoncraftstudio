@@ -3207,25 +3207,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Pip the postal mouse is on her morning round, and children read the number on each envelope — or listen as she says it aloud — then tap the matching house to deliver, covering single digits, the tricky zero, and teen numbers like 13 and 17. It's an interactive Kindergarten counting activity that runs right in the browser with no account.",
-        "The big idea is reading and matching written numerals, which is harder than it sounds. The houses are picked to be easy to confuse: 13 sits next to 31 so a child cannot just spot the digits in any order, and 14 sits among 13, 15, and 17 so close reading is required. Numerals appear in different fonts, so the child reads the number itself rather than memorizing one printed shape — real numeral recognition, including the number zero.",
-        "It is aligned to Common Core K.CC.A.3 — reading numerals and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
+        "A street of five houses, each with a printed number plate over its door, and a post van with three letters. The address on every letter is written by hand — in the same hand children learn to write their numerals — while the plates are printed, so the child cannot match shapes: the number has to be read. The child drags each letter to a house; it goes through one slot only. When the right door opens, the neighbour steps onto the doorstep, the number is spoken, and the next letter pops up. When the third letter is posted, the round checks itself. An interactive Kindergarten numeral-reading activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "The big idea is reading numerals 0 to 20 as numbers, not as pictures. Every street carries the mix-ups young readers make: 13 lives next to 31, so the order of the digits matters; 14 sits among 13 and 11, so the last digit has to be read; 14 stands beside 4, so one digit is not two; and 6 sits near 9, 2 near 5, 1 near 7. A wrong door answers with its own number beside the letter's and names the slip — the same digits the other way round, look at the last digit, two digits not one — and after two misses the right plate glows. Settings keep the numbers to 10 for a class that is starting, or switch the address from written to spoken so the child listens for the number, with a Show button for a quiet room.",
+        "It is aligned to Common Core K.CC.A.3 — reading written numerals from 0 to 20. No timer, no score — just calm, playful practice."
       ],
       "practices": [
-        "Read written numerals, including zero and teen numbers like 13 and 17",
-        "Match a number you read or hear to the same numeral on a house",
-        "Tell apart close look-alikes such as 13 and 31",
-        "Read numerals shown in different fonts, not just one printed shape"
+        "Read written numerals 0 to 20, including zero and the teen numbers",
+        "Tell 13 from 31: the order of the digits changes the number",
+        "Tell 14 from 13 and 14 from 4: read the last digit, and count the digits",
+        "Read a handwritten number and find it in print"
       ],
       "howToPlay": [
-        "Read the number on Pip's envelope, or listen as she says it aloud.",
-        "Tap the house whose number matches to deliver the letter.",
-        "A happy neighbor waves; try again any time, with no timer and no score."
+        "Take the letter from the van and read the number written on it.",
+        "Drag it to the house whose plate shows that number — it only fits through that letterbox.",
+        "Post all three letters; the round checks itself and Next brings a new street."
       ],
       "learningGoals": [
-        "Read and recognize written numerals — the focus of Common Core K.CC.A.3",
-        "Understand that each number has one value even across different fonts",
-        "Build the numeral-reading foundation for counting and place value"
+        "Read numerals 0 to 20 — the focus of Common Core K.CC.A.3",
+        "Understand that 13 and 31 are different numbers because digit order matters",
+        "Recognise a number whether it is handwritten or printed"
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

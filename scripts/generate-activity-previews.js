@@ -83,6 +83,10 @@ function seedScript(row) {
     // tender one coin so the tray shows a coin + a non-zero running total
     return `(function(){var t=window['${g}'];if(t&&t.palette&&t.palette.length){t.tray.push(t.palette[t.palette.length-1]);if(t.paint)t.paint();}})();`;
   }
+  if (row.tool === 'letterbox-activity') {
+    // post the first letter so one door stands open with its neighbour on the step
+    return `(function(){var t=window['${g}'];if(t&&t.st&&window.LetterboxCore){var i=window.LetterboxCore.rightHouse(t.st);if(i>=0)t._deliver(i);}})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

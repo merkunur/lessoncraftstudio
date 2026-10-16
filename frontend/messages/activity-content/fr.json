@@ -3738,23 +3738,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Pip, la souris factrice, fait sa tournée du matin, et quelqu'un attend sa lettre ! Ton enfant lit le nombre écrit sur l'enveloppe — dans une police différente de celle des plaques des maisons, donc il doit vraiment LIRE le nombre, pas comparer des images — ou bien il l'écoute, puis il touche la maison qui porte ce numéro. Les rideaux s'ouvrent et un voisin tout content fait coucou.",
-        "Lire et reconnaître les nombres écrits en chiffres jusqu'à 20, et distinguer par exemple 13 et 31 puisque l'ordre des chiffres compte, sont des attendus du CP. Le jeu se joue sans minuteur et sans points : l'enfant lit les nombres à son rythme, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Une rue de cinq maisons, chacune avec un numéro imprimé au-dessus de sa porte, et une camionnette de la poste avec trois lettres. L’adresse de chaque lettre est écrite à la main – de l’écriture que les enfants apprennent pour tracer leurs chiffres –, tandis que les numéros des maisons sont imprimés. L’enfant ne peut donc pas comparer des formes : il doit lire le nombre. Il fait glisser chaque lettre jusqu’à une maison ; elle n’entre que dans une seule boîte aux lettres. Quand la bonne porte s’ouvre, le voisin sort sur le pas de la porte, le nombre est dit à voix haute et la lettre suivante apparaît. Quand la troisième lettre est postée, le tour se vérifie tout seul. Une activité interactive de lecture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans compte.",
+        "L’idée centrale : lire les nombres de 0 à 20 comme des nombres, pas comme des images. Chaque rue contient les confusions des jeunes lecteurs : le 13 habite à côté du 31, donc l’ordre des chiffres compte ; le 14 est entre le 13 et le 11, donc il faut lire le dernier chiffre ; le 14 est à côté du 4, car un chiffre n’est pas deux ; et le 6 est près du 9, le 2 près du 5, le 1 près du 7. Une mauvaise porte répond avec son propre numéro à côté de celui de la lettre et nomme l’erreur – les mêmes chiffres dans l’autre sens, regarde le dernier chiffre, deux chiffres et non un – et après deux essais manqués, la bonne plaque s’allume. Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou passent l’adresse d’écrite à parlée pour que l’enfant écoute le nombre, avec un bouton Montrer pour une salle silencieuse.",
+        "L’activité suit les programmes officiels du cycle 2 : lire les nombres jusqu’à 20 et les distinguer. Sans chronomètre et sans score – un entraînement calme et ludique."
       ],
       "practices": [
-        "Lire un nombre écrit en chiffres jusqu'à 20",
-        "Reconnaître un nombre à partir de son nom entendu",
-        "Distinguer des nombres proches (13 et 31, 14 et 15)",
-        "Associer un nombre à la bonne maison"
+        "Lire les nombres écrits de 0 à 20, y compris zéro et les nombres de 11 à 19",
+        "Distinguer 13 et 31 : l’ordre des chiffres change le nombre",
+        "Distinguer 14 de 13 et 14 de 4 : lire le dernier chiffre et compter les chiffres",
+        "Lire un nombre écrit à la main et le retrouver imprimé"
       ],
       "howToPlay": [
-        "Lis (ou écoute) le nombre sur l'enveloppe.",
-        "Touche la maison qui porte ce numéro pour distribuer la lettre."
+        "Prends la lettre dans la camionnette et lis le nombre écrit dessus.",
+        "Fais-la glisser jusqu’à la maison dont la plaque montre ce nombre : elle n’entre que dans cette boîte aux lettres.",
+        "Poste les trois lettres ; le tour se vérifie tout seul et « Suivant » amène une nouvelle rue."
       ],
       "learningGoals": [
-        "Lire les nombres écrits en chiffres jusqu'à 20",
-        "Distinguer les dizaines et les unités dans un nombre à deux chiffres",
-        "Reconnaître un nombre à l'oral comme à l'écrit"
+        "Lire les nombres de 0 à 20",
+        "Comprendre que 13 et 31 sont des nombres différents parce que l’ordre des chiffres compte",
+        "Reconnaître un nombre, qu’il soit écrit à la main ou imprimé"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

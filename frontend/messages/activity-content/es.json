@@ -1137,25 +1137,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "Un zorro arma un collar de cuentas y quiere hacer uno con la misma cantidad que el de su amiga. Lo importante no son los colores, sino CUÁNTAS cuentas hay. Tu pequeño cuenta las cuentas del collar de la amiga, una por una, y luego ensarta esa misma cantidad en el cordón del zorro.",
-        "Aquí vive una de las ideas más importantes al inicio de las matemáticas: se cuenta para saber cuántas cosas hay, y el último número que decimos dice cuántas hay en total. Y lo mejor: esa cantidad no cambia aunque el zorro esconda el collar, lo sacuda, lo amontone o riegue las cuentas —siguen siendo la misma cantidad. Descubrir que la cantidad se mantiene aunque cambie el acomodo es un gran hallazgo a esta edad, que el niño comprueba volviendo a contar.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: el niño cuenta a su propio ritmo y vuelve a contar las veces que necesite. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 10."
+        "Un collar redondo con un broche arriba. El niño o la niña toca el collar y la siguiente perla se desliza por el hilo hasta el broche: en un hilo las perlas no pueden rebasarse unas a otras, así que cada perla se cuenta una vez y ninguna se salta. El número aparece en el centro del collar mientras las perlas se deslizan y luego se desvanece: ¿cuántas perlas hay? Esta actividad interactiva de conteo funciona en el navegador, sin instalar nada.",
+        "Después, el collar no se queda quieto. Las perlas se separan, se juntan o llega una perla más, y el niño o la niña vuelve a responder: ¿cuántas hay ahora? Hay tres tarjetas grandes con números. Una tarjeta equivocada se nombra: el último número que contaste dice cuántas hay; las perlas solo se movieron, no llegó ninguna ni se cayó ninguna; llegó solo una perla. «Volver a contar» siempre está ahí: contar otra vez para comprobar es una buena estrategia, no un error. Las tarjetas están elegidas para que la correcta no sea siempre la mayor, la menor ni la del mismo lugar.",
+        "Está alineada con los planes y programas de estudio (SEP): contar uno por uno, saber que el último número dicho indica cuántos hay, que la cantidad no cambia aunque los objetos se acomoden de otra forma y que cada número siguiente es uno más. El docente elige hasta 5 o hasta 10 perlas, y si los números del conteo se ven o el niño los dice en voz alta. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar las cuentas del collar una por una, tocando cada cuenta al decir cada número (correspondencia uno a uno), sin saltarse ni repetir ninguna.",
-        "Reconocer que el último número dicho indica cuántas hay en total (principio de cardinalidad) y ensartar esa misma cantidad en el cordón del zorro.",
-        "Comprobar contando que la cantidad se mantiene aunque el collar se esconda, se sacuda, se amontone o se disperse: la forma cambia, el número no.",
-        "Revisar y corregir el conteo cuando hay una cuenta de más, y armar una colección a partir de un número que escucha."
+        "Contar cada perla una vez, en orden, mientras se desliza hasta el broche",
+        "Decir cuántas hay con el último número contado",
+        "Saber que la cantidad no cambia cuando las perlas se separan o se juntan",
+        "Ver que una perla más da el número siguiente"
       ],
       "howToPlay": [
-        "Cuenta en voz alta las cuentas de la amiga, una por una.",
-        "Recuerda cuántas son: el último número es la cantidad.",
-        "Ensarta esa misma cantidad en el collar del zorro y ciérralo."
+        "Toca el collar: la siguiente perla se desliza hasta el broche. Cuenta cada perla que se mueve.",
+        "Cuando todas las perlas hayan pasado, toca la tarjeta que dice cuántas hay.",
+        "Mira cómo cambia el collar y responde otra vez: ¿cuántas hay ahora? ¿Tienes dudas? Toca «Volver a contar»."
       ],
       "learningGoals": [
-        "Contar colecciones de hasta 10 objetos con correspondencia uno a uno y decir cuántas hay.",
-        "Comprender la cardinalidad: la última palabra al contar responde a «¿cuántas hay?».",
-        "Empezar a descubrir que la cantidad no cambia al reacomodar los objetos, comprobándolo con el conteo."
+        "Relacionar el conteo con la cantidad: el último número contado dice cuántos hay",
+        "Comprender que la cantidad no cambia cuando los objetos se separan o se juntan",
+        "Comprender que cada número siguiente es uno más"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

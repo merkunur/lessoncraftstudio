@@ -2264,25 +2264,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "Ein kleiner Fuchs hat eine Freundin mit einer wunderschönen Perlenkette — und möchte sich genau so eine fädeln. Aber Achtung: Es kommt nicht auf die Farben an, sondern nur darauf, WIE VIELE Perlen es sind. Dein Kind zählt die Perlen der Freundin, eine nach der anderen, und fädelt dann dem Fuchs genauso viele auf.",
-        "Dahinter steckt eine der wichtigsten Ideen am Schulanfang: Man bestimmt eine Anzahl durch Zählen, und die zuletzt genannte Zahl sagt, wie viele es insgesamt sind. Und das Beste: Diese Anzahl bleibt gleich, egal ob der Fuchs die Kette versteckt, schüttelt, zusammenschiebt oder die Perlen verstreut — es sind immer noch genauso viele. Diese Mengenkonstanz ist für viele Erstklässler eine echte Aha-Erkenntnis.",
-        "Die Übung ist ganz ohne Zeitdruck und ohne Punkte — dein Kind darf in Ruhe zählen, ausprobieren und sich selbst verbessern. Sie orientiert sich am Lehrplan der Grundschule, Bereich „Zählen und Mengen“."
+        "Eine runde Kette mit einem Verschluss oben. Das Kind tippt auf die Kette, und die nächste Perle rutscht an der Schnur entlang zum Verschluss – Perlen können auf einer Schnur nicht aneinander vorbei, also wird jede Perle genau einmal gezählt und keine übersprungen. Die Zahl steht beim Zählen in der Mitte der Kette und verschwindet dann: Wie viele Perlen sind es? Die interaktive Zählübung läuft im Browser, ohne Installation.",
+        "Dann hält die Kette nicht still. Die Perlen gleiten auseinander, rutschen eng zusammen, oder eine Perle kommt dazu – und das Kind antwortet noch einmal: Wie viele sind es jetzt? Drei große Zahlenkarten stehen zur Wahl. Eine falsche Karte wird benannt: Die letzte gezählte Zahl sagt, wie viele es sind; die Perlen sind nur gerutscht, keine ist dazugekommen oder abgefallen; es ist nur eine Perle dazugekommen. „Noch mal zählen“ ist immer da – Nachzählen ist eine gute Strategie, kein Fehler. Die Karten sind so gewählt, dass die richtige nicht immer die größte, die kleinste oder an derselben Stelle ist.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: einzeln zählen, wissen, dass die zuletzt genannte Zahl die Anzahl angibt, dass die Anzahl gleich bleibt, wie auch immer die Dinge liegen, und dass die nächste Zahl eins mehr ist. Lehrkräfte wählen bis 5 oder bis 10 Perlen und ob die Zählzahlen angezeigt werden oder das Kind sie laut sagt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zählt jede Perle genau einmal und ordnet beim Zählen eins zu eins zu",
-        "Erkennt, dass die letzte Zählzahl die gesamte Anzahl angibt (Kardinalzahlprinzip)",
-        "Erlebt, dass die Anzahl gleich bleibt, auch wenn die Perlen versteckt, geschüttelt oder verstreut werden",
-        "Findet und korrigiert Zählfehler — etwa eine Perle zu viel"
+        "Jede Perle genau einmal zählen, der Reihe nach, während sie zum Verschluss rutscht",
+        "Mit der zuletzt gezählten Zahl sagen, wie viele es sind",
+        "Wissen, dass die Anzahl gleich bleibt, wenn die Perlen auseinander- oder zusammenrutschen",
+        "Erkennen, dass eine Perle mehr die nächste Zahl ergibt"
       ],
       "howToPlay": [
-        "Zähle die Perlen der Freundin laut mit, eine nach der anderen",
-        "Merke dir, wie viele es sind — die letzte Zahl ist die Anzahl",
-        "Fädle dem Fuchs genauso viele Perlen auf und mach den Verschluss zu"
+        "Tippe auf die Kette: Die nächste Perle rutscht zum Verschluss. Zähle jede Perle, die rutscht.",
+        "Wenn alle Perlen drüben sind, tippe auf die Zahlenkarte, die sagt, wie viele es sind.",
+        "Schau, wie sich die Kette verändert, und antworte noch einmal: Wie viele sind es jetzt? Nicht sicher? Tippe auf „Noch mal zählen“."
       ],
       "learningGoals": [
-        "Anzahlen bis 10 sicher durch Zählen bestimmen und benennen",
-        "Verstehen, dass eine Anzahl gleich bleibt, wenn sich nur die Anordnung ändert (Anzahlinvarianz)",
-        "Eine genannte oder gehörte Zahl in die passende Menge umsetzen"
+        "Zählen und Anzahl verbinden: Die zuletzt gezählte Zahl gibt die Anzahl an",
+        "Verstehen, dass die Anzahl gleich bleibt, wenn Dinge auseinander- oder zusammengeschoben werden",
+        "Verstehen, dass jede nächste Zahl eins mehr ist"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

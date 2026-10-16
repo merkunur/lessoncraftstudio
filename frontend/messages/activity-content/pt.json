@@ -2835,25 +2835,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "A raposa quer um colar igualzinho ao da amiga — só que igual no número de contas, não nas cores. Ela olha o colar da amiga, conta as contas uma a uma e descobre quantas são. Depois é a vez da criança: enfiar a mesma quantidade de contas no cordão e fechar o colar, deixando os dois com a mesma quantia, cada um do seu jeito.",
-        "A ideia grande é simples e poderosa: a gente conta justamente para saber quantas são, e o último número dito é quem diz a quantidade — se você contou até seis, são seis. E tem a virada divertida: quando a raposa espalha, esconde ou sacode o colar, dá a impressão de que mudou, mas a quantidade continua a mesma. O olho engana; o número, não. Essa é uma descoberta de verdade para quem está no 1º ano.",
-        "É de graça, sem cadastro, sem cronômetro e sem pontuação — ninguém corre contra o relógio nem ganha nota. A atividade é alinhada à BNCC, na unidade temática Números, e serve de base para a criança contar e comparar quantidades com segurança, no tempo dela."
+        "Um colar redondo com um fecho em cima. A criança toca no colar e a próxima conta desliza pelo fio até o fecho — num fio as contas não passam umas pelas outras, então cada conta é contada uma vez e nenhuma é pulada. O número aparece no meio do colar enquanto as contas deslizam e depois some: quantas contas são? Esta atividade interativa de contagem funciona no navegador, sem instalar nada.",
+        "Depois o colar não fica parado. As contas se separam, se juntam ou entra mais uma conta, e a criança responde de novo: quantas são agora? São três cartões grandes com números. Um cartão errado ganha nome: o último número contado diz quantas são; as contas só se mexeram, nenhuma entrou e nenhuma caiu; entrou só uma conta. “Contar de novo” está sempre ali — recontar para conferir é uma boa estratégia, não um erro. Os cartões são escolhidos para que o certo não seja sempre o maior, o menor ou o do mesmo lugar.",
+        "A atividade está alinhada à BNCC, no campo dos números: contar um a um, saber que o último número falado diz a quantidade, que a quantidade não muda quando os objetos mudam de lugar e que cada número seguinte é um a mais. O professor escolhe até 5 ou até 10 contas e se os números da contagem aparecem ou são falados em voz alta pela criança. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar cada conta uma única vez, sem pular e sem repetir.",
-        "Entender que o último número dito diz quantas contas são.",
-        "Perceber que a quantidade não muda quando as contas são espalhadas, escondidas ou sacudidas.",
-        "Achar e corrigir um errinho de contagem, como uma conta a mais no cordão."
+        "Contar cada conta uma vez, em ordem, enquanto ela desliza até o fecho",
+        "Dizer quantas são com o último número contado",
+        "Saber que a quantidade não muda quando as contas se separam ou se juntam",
+        "Ver que uma conta a mais dá o número seguinte"
       ],
       "howToPlay": [
-        "Conte as contas do colar da amiga uma a uma.",
-        "Guarde quantas são — o último número que você disse.",
-        "Enfie a mesma quantidade de contas e feche o seu colar."
+        "Toque no colar: a próxima conta desliza até o fecho. Conte cada conta que se mexe.",
+        "Quando todas as contas passarem, toque no cartão que diz quantas são.",
+        "Veja o colar mudar e responda de novo: quantas são agora? Ficou na dúvida? Toque em “Contar de novo”."
       ],
       "learningGoals": [
-        "Eu conto até 10 e sei dizer quantas são.",
-        "Eu sei que a quantidade não muda quando só muda a arrumação das contas.",
-        "Eu transformo um número que ouço ou vejo na quantidade certa de contas."
+        "Relacionar a contagem à quantidade: o último número contado diz quantas são",
+        "Compreender que a quantidade não muda quando os objetos se afastam ou se juntam",
+        "Compreender que cada número seguinte é um a mais"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

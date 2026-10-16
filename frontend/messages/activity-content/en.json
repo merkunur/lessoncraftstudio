@@ -2725,25 +2725,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "A little fox wants a necklace that matches its friend's — not the same colors, the same how-many — so children count the friend's coral, teal, and gold beads one at a time, rows of four up to ten, then thread a necklace to that very number. It's an interactive Kindergarten counting game that runs right in the browser with no account and no sign-up.",
-        "The big idea is that the number is the one thing that does not change when everything else does. After the count, the fox tucks the necklace away, gives it a playful shake into a tight bunch, or scatters the beads — and the child still has to thread the same many. Some rounds hand over a necklace with one bead too many to fix, and one round simply asks the child to name the number they counted. The child counts each bead once and remembers the total; they never match colors or copy the arrangement.",
-        "It is aligned to Common Core K.CC.B.4 — counting to tell how many, where the last number counted names the quantity. No timer, no score — just calm, playful practice."
+        "A round necklace with a clasp at the top. The child taps the necklace and the next bead slides along the cord to the clasp — beads cannot pass each other on a string, so every bead is counted once and none is skipped. The count shows in the middle of the necklace as the beads slide, then fades: how many beads? This interactive Kindergarten counting activity runs in the browser with nothing to install.",
+        "Then the necklace won't hold still. The beads glide apart around the cord, squeeze close together, or one more bead comes on — and the child answers again: how many now? There are three big number cards to choose from. A wrong card is named: the last number counted tells how many; the beads only moved — none came on or fell off; only one bead came on. Count again is always there — recounting to check is a good strategy, not a mistake. The cards are chosen so that the right one is not always the biggest, not always the smallest and not always in the same place.",
+        "It is aligned to Common Core K.CC.B.4 — counting one by one, knowing that the last number said tells how many, that the number stays the same however the objects are arranged, and that each next number is one more. Teachers can choose up to 5 or up to 10 beads, and counting numbers shown or said aloud by the child. No timer, no score."
       ],
       "practices": [
-        "Tap each bead exactly once to count, without skipping or double-counting",
-        "Know the last number counted tells how many beads there are in all",
-        "Hold the count steady when the beads are hidden, bunched, or scattered",
-        "Thread the same number of your own beads — same many, not same colors"
+        "Counting each bead once, in order, as it slides past the clasp",
+        "Answering how many with the last number counted",
+        "Knowing the number stays the same when the beads spread out or squeeze together",
+        "Seeing that one more bead makes the next number"
       ],
       "howToPlay": [
-        "Tap each of the fox's beads one at a time to count them; the count shows as you go.",
-        "Thread your own beads to the same number — even after the fox hides or shakes the necklace — then tap Clasp it!",
-        "Not the same many? Add or take off a bead and clasp again — there is no timer and no score."
+        "Tap the necklace: the next bead slides past the clasp. Count each bead as it moves.",
+        "When every bead is across, tap the number card that tells how many.",
+        "Watch the necklace change, then answer again: how many now? Not sure? Tap Count again and count them."
       ],
       "learningGoals": [
-        "Count up to 10 beads, tapping each one once — the focus of Common Core K.CC.B.4",
-        "Understand the last number counted names how many there are in all",
-        "Know a count stays the same when the things are moved, hidden, or rearranged"
+        "Connect counting to cardinality: the last number counted tells how many — the focus of Common Core K.CC.B.4",
+        "Understand that the number of objects stays the same when they are moved apart or pushed together",
+        "Understand that each successive number is one more"
       ]
     },
     "nesting-pots.seriate.k-cc-c-7": {

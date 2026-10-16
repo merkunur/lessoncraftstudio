@@ -2841,25 +2841,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "C’è una volpe che sogna una collana di perline uguale a quella della sua amica: non le importano i colori, le importa la stessa quantità, ed è proprio questo che rende il gioco così semplice e così ricco.",
-        "Si conta per sapere quante sono, e l’ultimo numero detto dice la quantità: così, quando la volpe nasconde, scuote o sparpaglia le perline e sembra tutto cambiato, il bambino scopre la conservazione del numero, perché la quantità non cambia — l’occhio inganna, il numero no.",
-        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è senza registrazione, senza timer e senza punteggio: contare per sapere quante sono è la base tranquilla per confrontare e sommare."
+        "Una collana rotonda con un gancio in alto. Il bambino tocca la collana e la perlina successiva scivola lungo il filo fino al gancio: sul filo le perline non possono scavalcarsi, quindi ogni perlina viene contata una volta e nessuna viene saltata. Il numero compare al centro della collana mentre le perline scivolano, poi svanisce: quante perline ci sono? Questa attività interattiva di conteggio funziona nel browser, senza installare nulla.",
+        "Poi la collana non sta ferma. Le perline si allontanano, si stringono o arriva un’altra perlina, e il bambino risponde di nuovo: quante sono adesso? Ci sono tre grandi carte con i numeri. Una carta sbagliata viene chiamata per nome: l’ultimo numero contato dice quante sono; le perline si sono solo spostate, nessuna è arrivata e nessuna è caduta; è arrivata una perlina sola. «Riconta» c’è sempre: ricontare per controllare è una buona strategia, non un errore. Le carte sono scelte in modo che quella giusta non sia sempre la più grande, la più piccola o nello stesso posto.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare uno per uno, sapere che l’ultimo numero detto indica quanti sono, che la quantità non cambia comunque si dispongano gli oggetti e che ogni numero successivo è uno in più. L’insegnante sceglie fino a 5 o fino a 10 perline e se i numeri del conteggio sono visibili o detti ad alta voce dal bambino. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare ogni perlina una sola volta, una a una, senza saltarne nessuna e senza ripeterla.",
-        "Capire che l’ultimo numero detto dice quante perline sono: è la cardinalità.",
-        "Accorgersi che la quantità non cambia quando le perline sono nascoste, scosse o sparpagliate.",
-        "Trovare e togliere una perlina di troppo, correggendo con calma un errore di conteggio."
+        "Contare ogni perlina una volta, in ordine, mentre scivola fino al gancio",
+        "Dire quante sono con l’ultimo numero contato",
+        "Sapere che la quantità resta la stessa quando le perline si allontanano o si stringono",
+        "Vedere che una perlina in più dà il numero successivo"
       ],
       "howToPlay": [
-        "Conta una a una le perline della collana della sua amica, toccando ciascuna perlina.",
-        "Ricorda quante sono: è l’ultimo numero che hai detto.",
-        "Infila la stessa quantità di perline sul cordoncino della volpe e chiudi la collana."
+        "Il bambino tocca la collana: la perlina successiva scivola fino al gancio. Conta ogni perlina che si sposta.",
+        "Quando tutte le perline sono passate, tocca la carta che dice quante sono.",
+        "Guarda la collana cambiare e risponde di nuovo: quante sono adesso? Non è sicuro? Tocca «Riconta»."
       ],
       "learningGoals": [
-        "So contare fino a 10 e dire quante sono.",
-        "So che la quantità non cambia quando cambio solo la disposizione delle perline.",
-        "So infilare la stessa quantità di perline che conto o che sento."
+        "Il bambino collega il conteggio alla quantità: l’ultimo numero contato dice quante sono",
+        "Capisce che la quantità non cambia quando gli oggetti si allontanano o si avvicinano",
+        "Capisce che ogni numero successivo è uno in più"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

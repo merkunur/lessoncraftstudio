@@ -1620,6 +1620,29 @@
         "Forstå at 14 og 41 er ulike tall, og at et tomt glass er 0",
         "Gå begge veier mellom en gruppe ting og tallet som hører til"
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Et rundt halskjede med en lås øverst. Barnet trykker på halskjedet, og den neste perlen glir langs snora bort til låsen – på ei snor kan ikke perlene gå forbi hverandre, så hver perle telles én gang, og ingen hoppes over. Tallet står midt i halskjedet mens perlene glir, og forsvinner så: Hvor mange perler er det? Den interaktive telleaktiviteten kjører i nettleseren uten noe å installere.",
+        "Så ligger ikke halskjedet stille. Perlene glir fra hverandre, glir tett sammen, eller det kommer én perle til – og barnet svarer igjen: Hvor mange er det nå? Det er tre store tallkort å velge mellom. Et feil kort får et navn: Det siste tallet du telte, sier hvor mange det er; perlene bare flyttet seg, ingen kom til, og ingen falt av; det kom bare én perle til. «Tell igjen» er der alltid – å telle på nytt for å sjekke er en god strategi, ikke en feil. Kortene er valgt slik at det riktige ikke alltid er det største, det minste eller på samme plass.",
+        "Aktiviteten er tilpasset LK20 – å telle én og én, å vite at det siste tallet sier hvor mange det er, at antallet er det samme uansett hvordan tingene ligger, og at det neste tallet er én mer. Læreren velger opptil 5 eller opptil 10 perler, og om telletallene skal vises eller sies høyt av barnet. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Telle hver perle én gang, i rekkefølge, mens den glir bort til låsen",
+        "Svare hvor mange det er med det siste tallet man telte",
+        "Vite at antallet er det samme når perlene glir fra hverandre eller tett sammen",
+        "Se at én perle til gir det neste tallet"
+      ],
+      "howToPlay": [
+        "Trykk på halskjedet: Den neste perlen glir bort til låsen. Tell hver perle som flytter seg.",
+        "Når alle perlene har glidd over, trykker du på tallkortet som sier hvor mange det er.",
+        "Se hvordan halskjedet endrer seg, og svar igjen: Hvor mange er det nå? Usikker? Trykk på «Tell igjen»."
+      ],
+      "learningGoals": [
+        "Barnet kobler telling og antall: Det siste tallet man teller, sier hvor mange det er",
+        "Barnet forstår at antallet er det samme når tingene flyttes fra hverandre eller sammen",
+        "Barnet forstår at hvert neste tall er én mer"
+      ]
     }
   }
 }

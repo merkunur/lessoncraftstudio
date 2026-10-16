@@ -1631,6 +1631,29 @@
         "Forstå, at 14 og 41 er forskellige tal, og at et tomt glas er 0",
         "Gå begge veje mellem en gruppe ting og det tal, der hører til"
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "En rund halskæde med en lås foroven. Barnet trykker på halskæden, og den næste perle glider langs snoren hen til låsen – på en snor kan perler ikke komme forbi hinanden, så hver perle tælles én gang, og ingen springes over. Tallet står midt i halskæden, mens perlerne glider, og forsvinder så: Hvor mange perler er der? Den interaktive tælleaktivitet kører i browseren uden noget at installere.",
+        "Så ligger halskæden ikke stille. Perlerne glider fra hinanden, glider tæt sammen, eller der kommer én perle mere på – og barnet svarer igen: Hvor mange er der nu? Der er tre store talkort at vælge mellem. Et forkert kort får et navn: Det sidste tal, du talte, siger, hvor mange der er; perlerne flyttede sig bare, ingen kom til, og ingen faldt af; der kom kun én perle mere. ”Tæl igen” er der altid – at tælle efter for at kontrollere er en god strategi, ikke en fejl. Kortene er valgt, så det rigtige ikke altid er det største, det mindste eller på samme plads.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle én ad gangen, at vide, at det sidste tal siger, hvor mange der er, at antallet er det samme, uanset hvordan tingene ligger, og at det næste tal er én mere. Læreren vælger op til 5 eller op til 10 perler, og om tælletallene skal vises eller siges højt af barnet. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Tælle hver perle én gang, i rækkefølge, mens den glider hen til låsen",
+        "Svare, hvor mange der er, med det sidste tal, man talte",
+        "Vide, at antallet er det samme, når perlerne glider fra hinanden eller tæt sammen",
+        "Se, at én perle mere giver det næste tal"
+      ],
+      "howToPlay": [
+        "Tryk på halskæden: Den næste perle glider hen til låsen. Tæl hver perle, der flytter sig.",
+        "Når alle perlerne er gledet over, trykker du på det talkort, der siger, hvor mange der er.",
+        "Se, hvordan halskæden ændrer sig, og svar igen: Hvor mange er der nu? Usikker? Tryk på ”Tæl igen”."
+      ],
+      "learningGoals": [
+        "Barnet forbinder tælling med antal: Det sidste tal, man tæller, siger, hvor mange der er",
+        "Barnet forstår, at antallet er det samme, når tingene flyttes fra hinanden eller sammen",
+        "Barnet forstår, at hvert næste tal er én mere"
+      ]
     }
   }
 }

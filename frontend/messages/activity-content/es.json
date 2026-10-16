@@ -769,25 +769,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Rivet, el mapache, construyó en su taller una forja que brilla. Aquí no se escoge un número: ¡aquí se forja! Abres un paquete y salen tesoros: bellotas, botones, luciérnagas o canicas. Tocas cada tesoro una sola vez y lo cuentas, uno tras otro. Luego jalas la palanca, y la forja hace, a partir de tu cantidad, el número que le corresponde. El «3» aparece porque contaste tres cosas: el número lo hace tu conteo.",
-        "A veces el paquete está vacío: entonces la forja hace el cero, porque el cero también es un número y dice «aquí no hay nada». A veces los tesoros pasan en desfile y los cuentas al pasar. A veces hay cosas revueltas y cuentas solo una clase. Y a veces Rivet ya hizo un número: entonces cuentas otra vez y dices si está bien o no. Así aprendes a confiar en tu propio conteo y a comprobarlo.",
-        "También hay rondas al revés: un boleto muestra un número y tú pones esa cantidad de tesoros en la bolsa. En esta forja no hay reloj, ni puntos, ni competencia: puedes contar, forjar y probar a tu propio ritmo, las veces que quieras, sin ninguna prisa. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico."
+        "Un frasco de vidrio con juguetes y una etiqueta vacía en la tapa. El niño cuenta —cada juguete recibe una marca al tocarlo— y escribe cuántos hay con las teclas de números; los dígitos aparecen en la etiqueta. Al comprobar, la etiqueta se compara con el frasco: los juguetes se acomodan en tantos lugares como dice la etiqueta, y si está bien, se vuelve dorada y se pega mientras se dice el número en voz alta. En la otra clase de ronda, la etiqueta ya está escrita y el frasco está vacío: el niño toca juguetes del estante para que caigan dentro hasta que el frasco tenga esa cantidad. Una actividad interactiva para contar y escribir números, para primer grado, que funciona en el navegador en tableta, celular y computadora, sin instalar nada y sin cuenta.",
+        "La idea central es el camino de ida y vuelta entre contar y escribir: una cantidad contada se convierte en un número escrito, y un número escrito vuelve a ser una cantidad. Hasta diez, los juguetes están sueltos; de once a veinte, forman filas para que la vista no pierda el lugar. Una etiqueta equivocada la responde el frasco, no una cruz roja: una etiqueta muy chica deja juguetes sin lugar, una muy grande deja lugares vacíos punteados, y el error recibe su nombre: los dígitos al revés (41 por 14), solo las unidades (4 por 14), el número que significa «ninguno» (0 para un frasco vacío). En los ajustes, los números se quedan hasta 10 para un grupo que empieza, o se eligen solo las rondas de contar o solo las de llenar.",
+        "La actividad sigue los planes de estudio de la SEP para primer grado: contar colecciones hasta 20 y escribir el número. Sin cronómetro y sin puntos: práctica tranquila y lúdica."
       ],
       "practices": [
-        "Contar uno por uno los tesoros de un paquete, tocando cada uno, y decir cuántos hay.",
-        "Ver cómo la forja de Rivet hace la cifra que le corresponde a esa cantidad, incluido el cero cuando el paquete está vacío.",
-        "Contar solo una clase de tesoro entre varios revueltos, y contar tesoros que pasan en desfile.",
-        "Comprobar un conteo que ya hizo Rivet y, al revés, formar la colección que pide un boleto con un número."
+        "Contar una colección de hasta 20 juguetes marcando cada uno",
+        "Escribir el número que dice cuántos hay, incluidos los números del 11 al 19 y el cero",
+        "Leer un número y meter esa cantidad de juguetes en el frasco",
+        "Comparar un número escrito con la cantidad real y ver en qué falla"
       ],
       "howToPlay": [
-        "Abre el paquete y toca cada tesoro mientras cuentas en voz alta: uno, dos, tres…",
-        "Jala la palanca: la forja hace el número que corresponde a la cantidad que contaste.",
-        "Sigue con paquetes nuevos —a veces vacíos, a veces revueltos, a veces con un boleto— y cuenta cada vez con calma."
+        "Toca cada juguete mientras lo cuentas y luego escribe cuántos hay con las teclas de números.",
+        "Toca Comprobar: si la etiqueta está bien, se pega; si no, el frasco muestra los juguetes que sobran o los lugares que quedan vacíos.",
+        "Cuando la etiqueta ya está escrita, toca juguetes del estante hasta que el frasco tenga esa cantidad; «Siguiente» trae un frasco nuevo."
       ],
       "learningGoals": [
-        "Cuento colecciones uno por uno sin saltarme ni repetir, y sé que el último número que digo es cuántos hay (cardinalidad).",
-        "Asocio cada cantidad con el número que le corresponde, desde el 0 hasta el 14, y reconozco que el cero también es un número.",
-        "Uso el conteo en los dos sentidos: de los tesoros al número, y de un número a la cantidad de tesoros."
+        "Escribir los números del 0 al 20 y representar una cantidad con un número escrito",
+        "Entender que 14 y 41 son números distintos y que un frasco vacío es 0",
+        "Pasar en los dos sentidos de un grupo de objetos al número que lo nombra"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

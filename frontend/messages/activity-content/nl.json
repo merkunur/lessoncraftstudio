@@ -1183,25 +1183,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Rivet de wasbeer bouwde een glimmende getallensmederij in zijn werkplaatsje. Hier KIES je geen getal — je SMEEDT het! Je scheurt een pakje open en er tuimelen kleine schatten naar buiten: eikels, knopen, vuurvliegjes of knikkers. Je tikt elke schat precies één keer aan en telt hem, de een na de ander. Dan trek je aan de hendel — en de pers smeedt het passende getal uit jouw telling. De \"3\" verschijnt omdat je drie dingen hebt geteld. Het getal wordt GEMAAKT door jouw tellen.",
-        "Soms is het pakje leeg — dan smeedt de pers de nul, want nul is ook een getal en zegt \"hier is niets\". Soms komen de schatten voorbij en tel je mee terwijl ze langsmarcheren. Soms liggen verschillende dingen door elkaar en tel je maar één soort. En soms heeft Rivet al een getal gesmeed — dan tel je na en zeg je of het klopt. Zo leer je je eigen tellen vertrouwen én controleren.",
-        "Er zijn ook rondes waarin je andersom werkt: op een kaartje staat een getal en je doet precies zoveel schatten in de buidel. Deze getallensmederij heeft geen klok, geen punten, geen wedstrijd — tel, smeed en probeer het zo vaak als je wilt, in je eigen tempo. Afgestemd op de SLO-kerndoelen voor rekenen voor groep 3, domein getallen (tellen en getalbegrip)."
+        "Een glazen pot met speelgoed en een leeg etiket op het deksel. Het kind telt – elk stuk speelgoed krijgt een merkteken als je erop tikt – en schrijft met de cijfertoetsen hoeveel het er zijn; de cijfers verschijnen op het etiket. Bij het controleren wordt het etiket tegen de pot gelegd: het speelgoed schuift in zoveel plekken als het etiket zegt, en klopt het, dan wordt het etiket goud en plakt het, terwijl het getal wordt uitgesproken. In de andere soort ronde staat het getal al op het etiket en is de pot leeg: het kind tikt op speelgoed op de plank om het erin te laten vallen, tot de pot er zoveel bevat. Een interactieve oefening in tellen en getallen schrijven voor groep 3, die in de browser werkt op tablet, telefoon en computer, zonder iets te installeren en zonder account.",
+        "De kern is de verbinding in twee richtingen: een getelde hoeveelheid wordt een geschreven getal, en een geschreven getal wordt weer een hoeveelheid. Tot tien ligt het speelgoed los; van elf tot twintig staat het in rijen, zodat het oog zijn plek niet kwijtraakt. Op een verkeerd etiket antwoordt de pot, geen rood kruis: een te klein etiket laat speelgoed zonder plek staan, een te groot etiket laat gestippelde plekken leeg, en de vergissing krijgt een naam – de cijfers andersom (41 voor 14), alleen de eenheden (4 voor 14), het getal dat ‘geen’ betekent (0 voor een lege pot). In de instellingen blijven de getallen tot en met 10 voor een groep die net begint, of kies je alleen de telrondes of alleen de vulrondes.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor groep 3: hoeveelheden tot en met 20 tellen en het getal schrijven. Zonder timer en zonder score – rustig, speels oefenen."
       ],
       "practices": [
-        "Tel elk voorwerp precies één keer — één-op-één, zonder overslaan of dubbel tellen.",
-        "Begrijp dat het laatste telwoord de hele hoeveelheid aangeeft (het cardinaliteitsprincipe).",
-        "Geef een getelde verzameling weer met het juiste getal — ook de nul voor een lege verzameling.",
-        "Controleer je eigen getal, tel na, en begrijp het verband tussen getal en hoeveelheid twee kanten op."
+        "Een verzameling van maximaal 20 stuks speelgoed tellen en elk stuk een merkteken geven",
+        "Het getal schrijven dat zegt hoeveel het er zijn, ook de getallen 11 tot en met 19 en nul",
+        "Een getal lezen en zoveel speelgoed in de pot doen",
+        "Een geschreven getal vergelijken met de echte hoeveelheid en zien waar het niet klopt"
       ],
       "howToPlay": [
-        "Scheur het pakje open en tik elke schat één keer aan terwijl je hardop telt.",
-        "Trek aan de hendel — de pers smeedt het passende getal uit jouw telling.",
-        "Bij omgekeerde rondes lees je het getal op het kaartje en doe je precies zoveel schatten in de buidel."
+        "Tik elk stuk speelgoed aan terwijl je telt en schrijf dan met de cijfertoetsen hoeveel het er zijn.",
+        "Druk op Controleer: klopt het etiket, dan plakt het; zo niet, dan laat de pot zien welk speelgoed over is of welke plekken leeg blijven.",
+        "Staat het getal al op het etiket, tik dan op speelgoed op de plank tot de pot er zoveel bevat; ‘Volgende’ brengt een nieuwe pot."
       ],
       "learningGoals": [
-        "Ik kan een verzameling tot 20 betrouwbaar tellen en er het juiste getal bij maken — ook de nul.",
-        "Ik kan maar één soort tellen tussen verschillende dingen en een gesmeed getal controleren door na te tellen.",
-        "Ik begrijp dat elk getal bij precies één hoeveelheid hoort — en kan bij een getal de passende verzameling neerleggen."
+        "Getallen van 0 tot en met 20 schrijven en een hoeveelheid met een geschreven getal weergeven",
+        "Begrijpen dat 14 en 41 verschillende getallen zijn en dat een lege pot 0 is",
+        "Heen en terug gaan tussen een groep voorwerpen en het getal dat erbij hoort"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

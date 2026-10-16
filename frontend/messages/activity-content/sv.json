@@ -2453,6 +2453,29 @@
         "Förstå att 13 och 31 är olika tal eftersom siffrornas ordning spelar roll",
         "Känna igen ett tal vare sig det är handskrivet eller tryckt"
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "En glasburk med leksaker och en tom etikett på locket. Barnet räknar – varje leksak får ett märke när man trycker på den – och skriver hur många det är med sifferknapparna; siffrorna syns på etiketten. När man kontrollerar hålls etiketten mot burken: leksakerna ställer sig på så många platser som etiketten säger, och stämmer den blir den gyllene och fastnar medan talet sägs högt. I den andra sortens omgång står talet redan på etiketten och burken är tom: barnet trycker på leksaker på hyllan så att de ramlar ner, tills burken rymmer så många. En interaktiv övning i att räkna och skriva tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation och utan konto.",
+        "Kärnan är vägen fram och tillbaka mellan antal och tal: ett räknat antal blir ett skrivet tal, och ett skrivet tal blir ett antal igen. Upp till tio ligger leksakerna löst; från elva till tjugo står de i rader så att ögat inte tappar bort sig. En fel etikett besvaras av burken, inte av ett rött kryss: en för liten etikett lämnar leksaker utan plats, en för stor lämnar streckade platser tomma, och misstaget får ett namn – siffrorna tvärtom (41 för 14), bara entalen (4 för 14), talet som betyder ”inga” (0 för en tom burk). I inställningarna stannar talen vid 10 för en grupp som just börjat, eller så väljer man bara räkneomgångarna eller bara fyllomgångarna.",
+        "Övningen följer Lgr22: räkna antal upp till 20 och skriva talet. Utan timer och utan poäng – lugn och lekfull träning."
+      ],
+      "practices": [
+        "Räkna upp till 20 leksaker och hålla reda på dem med ett märke på varje",
+        "Skriva talet som säger hur många, även talen 11–19 och nollan",
+        "Läsa ett tal och lägga så många leksaker i burken",
+        "Jämföra ett skrivet tal med det verkliga antalet och se var det slår fel"
+      ],
+      "howToPlay": [
+        "Tryck på varje leksak medan du räknar, och skriv sedan hur många det är med sifferknapparna.",
+        "Tryck på Kontrollera: stämmer etiketten så fastnar den; annars visar burken leksakerna som blir över eller platserna som står tomma.",
+        "När talet redan står på etiketten trycker du på leksaker på hyllan tills burken rymmer så många; ”Nästa” ger en ny burk."
+      ],
+      "learningGoals": [
+        "Skriva talen 0 till 20 och ange ett antal med ett tal",
+        "Förstå att 14 och 41 är olika tal och att en tom burk är 0",
+        "Gå åt båda hållen mellan en grupp föremål och talet som anger den"
+      ]
     }
   }
 }

@@ -3845,23 +3845,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "Dans la forge de Rivet le raton laveur, ton enfant déchire un paquet et le trésor dégringole. Il compte chaque objet une fois — il n'y a pas de menu de chiffres à choisir — et la presse forge le chiffre à partir de son comptage : le « 3 » est fabriqué à partir des trois objets. Même un paquet vide a un nombre : zéro ! Chaque page remplie de l'album se dore.",
-        "Compter une collection puis écrire le nombre correspondant en chiffres jusqu'à 20 — le chiffre naît du comptage, jamais choisi dans une liste — est un attendu du CP. Le jeu se joue sans minuteur et sans points : l'enfant travaille la numération, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Un bocal de jouets avec une étiquette vide sur le couvercle. L’enfant compte – chaque jouet reçoit une marque quand on le touche – et écrit combien il y en a avec les touches des chiffres ; les chiffres apparaissent sur l’étiquette. Vérifier pose l’étiquette contre le bocal : les jouets se rangent dans autant de places que l’étiquette l’indique, et si elle est juste, elle devient dorée et se colle pendant que le nombre est dit à voix haute. Dans l’autre sorte de manche, l’étiquette est déjà écrite et le bocal est vide : l’enfant touche des jouets sur l’étagère pour les faire tomber dedans jusqu’à ce que le bocal en contienne autant. Une activité interactive de dénombrement et d’écriture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans compte.",
+        "L’idée centrale est l’aller-retour du travail sur les nombres : une quantité comptée devient un nombre écrit, et un nombre écrit redevient une quantité. Jusqu’à dix, les jouets sont posés librement ; de onze à vingt, ils sont alignés en rangées pour que l’œil ne perde pas sa place. Une mauvaise étiquette reçoit la réponse du bocal, pas une croix rouge : une étiquette trop petite laisse des jouets sans place, une étiquette trop grande laisse des places vides en pointillé, et l’erreur est nommée – les chiffres dans l’autre sens (41 pour 14), seulement les unités (4 pour 14), le nombre qui veut dire « aucun » (0 pour un bocal vide). Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou ne proposent que les manches de comptage ou que les manches de remplissage.",
+        "L’activité suit les programmes officiels du cycle 2 : dénombrer une collection jusqu’à 20 et écrire le nombre. Sans chronomètre et sans score – un entraînement calme et ludique."
       ],
       "practices": [
-        "Compter une collection un par un",
-        "Écrire le nombre correspondant en chiffres jusqu'à 20",
-        "Associer une quantité à son écriture chiffrée",
-        "Comprendre que zéro est aussi un nombre"
+        "Dénombrer une collection de jouets jusqu’à 20 en marquant chacun d’eux",
+        "Écrire le nombre qui dit combien il y en a, y compris les nombres de 11 à 19 et zéro",
+        "Lire un nombre et mettre autant de jouets dans le bocal",
+        "Comparer un nombre écrit à la quantité réelle et voir où il se trompe"
       ],
       "howToPlay": [
-        "Touche chaque trésor pour le compter.",
-        "Tire le levier : la presse forge le chiffre à partir de ton comptage."
+        "Touche chaque jouet en le comptant, puis écris combien il y en a avec les touches des chiffres.",
+        "Appuie sur Vérifier : si l’étiquette est juste, elle se colle ; sinon, le bocal montre les jouets en trop ou les places restées vides.",
+        "Quand l’étiquette est déjà écrite, touche des jouets sur l’étagère jusqu’à ce que le bocal en contienne autant ; « Suivant » apporte un nouveau bocal."
       ],
       "learningGoals": [
-        "Compter une collection jusqu'à 20",
-        "Écrire le nombre en chiffres",
-        "Comprendre le zéro"
+        "Écrire les nombres de 0 à 20 et noter une quantité par un nombre",
+        "Comprendre que 14 et 41 sont des nombres différents et qu’un bocal vide, c’est 0",
+        "Passer dans les deux sens d’une collection d’objets au nombre qui la désigne"
       ]
     },
     "clock-read.tell-time.1-md-b-3": {

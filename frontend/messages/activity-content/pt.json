@@ -3202,25 +3202,25 @@
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
-        "O Rivet é um guaxinim que toca uma pequena forja. O dia todo chegam tesouros soltos — bolotas, botões, vaga-lumes e bolas de gude — e o trabalho dele é transformar cada punhado numa carta de coleção. Só que, antes de forjar qualquer coisa, é preciso saber quantos tesouros há ali. É aí que a criança entra: ela toca em cada tesouro, um por um, para contar, e depois forja o número que diz quantos são. O mais bonito é que o próprio número é feito das coisas que acabaram de ser contadas.",
-        "Por trás da brincadeira está uma ideia central do 1º ano: relacionar uma quantidade ao seu número escrito, de 0 a 20. A criança conta uma coleção tocando cada item uma única vez, aprende a contar só um tipo de tesouro quando há outros misturados e — a parte especial — descobre que até um pacote vazio tem um número. O zero também é um número! Contar e escrever o número ganham sentido quando nascem de algo concreto que dá para ver e tocar.",
-        "A atividade não pede cadastro nem login. Não há cronômetro, pontuação nem competição: a criança segue no seu próprio ritmo, com um tom calmo e acolhedor, sem pressa e sem medo de errar. O conteúdo é alinhado à BNCC, na unidade temática \"Números\"."
+        "Um pote de vidro com brinquedos e uma etiqueta vazia na tampa. A criança conta — cada brinquedo ganha uma marca quando é tocado — e escreve quantos são nas teclas de números; os algarismos aparecem na etiqueta. Ao verificar, a etiqueta é encostada no pote: os brinquedos se arrumam em tantos lugares quanto a etiqueta diz, e se ela estiver certa fica dourada e cola, enquanto o número é falado. Na outra rodada, a etiqueta já está escrita e o pote está vazio: a criança toca em brinquedos na prateleira para eles caírem dentro, até o pote ter essa quantidade. Uma atividade interativa de contar e escrever números para o 1º ano, que funciona no navegador em tablet, celular e computador, sem instalar nada e sem cadastro.",
+        "A ideia central é o caminho de ida e volta entre contar e escrever: uma quantidade contada vira um número escrito, e um número escrito vira de novo uma quantidade. Até dez, os brinquedos ficam soltos; de onze a vinte, formam fileiras, para o olho não perder o lugar. Uma etiqueta errada é respondida pelo pote, não por um xis vermelho: uma etiqueta pequena demais deixa brinquedos sem lugar, uma grande demais deixa lugares vazios tracejados, e o engano ganha nome — os algarismos ao contrário (41 por 14), só as unidades (4 por 14), o número que quer dizer “nenhum” (0 para um pote vazio). Nas configurações, os números ficam até 10 para uma turma que está começando, ou se escolhem só as rodadas de contar ou só as de encher.",
+        "A atividade está alinhada à BNCC para o 1º ano, unidade Números: contar coleções até 20 e registrar a quantidade com o número escrito. Sem cronômetro e sem pontos: prática calma e divertida."
       ],
       "practices": [
-        "Contar uma coleção tocando cada coisa uma única vez",
-        "Relacionar a quantidade ao número escrito, de 0 a 20",
-        "Contar só um tipo de tesouro entre outros misturados",
-        "Entender que o zero também é um número"
+        "Contar uma coleção de até 20 brinquedos marcando cada um",
+        "Escrever o número que diz quantos são, incluindo os números de 11 a 19 e o zero",
+        "Ler um número e colocar essa quantidade de brinquedos no pote",
+        "Comparar um número escrito com a quantidade real e ver onde ele erra"
       ],
       "howToPlay": [
-        "Toque em cada tesouro para contar quantos são",
-        "Forje o número que diz quantos tesouros você contou",
-        "Até um pacote vazio tem número: o zero!"
+        "Toque em cada brinquedo enquanto conta e depois escreva quantos são nas teclas de números.",
+        "Toque em Verificar: se a etiqueta estiver certa, ela cola; se não, o pote mostra os brinquedos que sobram ou os lugares que ficam vazios.",
+        "Quando a etiqueta já está escrita, toque em brinquedos na prateleira até o pote ter essa quantidade; “Próximo” traz um pote novo."
       ],
       "learningGoals": [
-        "Eu conto os tesouros tocando em cada um, um de cada vez.",
-        "Eu forjo o número certo, de 0 a 20, para mostrar quantos são.",
-        "Eu sei que, quando o pacote está vazio, o número é o zero."
+        "Escrever os números de 0 a 20 e representar uma quantidade com um número escrito",
+        "Entender que 14 e 41 são números diferentes e que um pote vazio é 0",
+        "Ir e voltar entre um grupo de objetos e o número que o nomeia"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

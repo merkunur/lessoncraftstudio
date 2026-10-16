@@ -2588,25 +2588,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Un marco de diez doble muestra un grupo de fichas con forma de fruta, y tu hijo o hija escribe el número de cuántas hay —contando de 0 a 20 y escribiendo la cifra en el teclado numérico—. Como un marco lleno son diez, puede seguir contando a partir de diez para los números del 11 al 20. Es una actividad de conteo interactiva para preescolar (kínder) que funciona en el navegador, sin instalar nada y sin crear cuenta.",
-        "Esta actividad une el contar con el escribir. El niño o la niña lee una cantidad ya acomodada en dos marcos de diez y la nombra con una cifra escrita, incluyendo los números de dos cifras más allá del diez. Como un marco lleno son diez, puede contar a partir de diez en vez de empezar desde uno cada vez, y luego registrar lo que contó como un número escrito: la conexión entre la cantidad y el símbolo.",
-        "Está alineada con los planes y programas de estudio (SEP): escribir números del 0 al 20 y representar una cantidad de objetos con una cifra escrita. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "Dos cajas de madera con diez lugares cada una: el marco de diez doble del salón, lleno de imágenes de frutas de verdad. Las frutas caen lugar por lugar, una fila de cinco y luego la siguiente, y el niño o la niña escribe en una pizarra, con las teclas de números, cuántas hay, del 0 al 20. Cuando el número es correcto, la pizarra se vuelve dorada, la última fruta lleva el número y se escucha en voz alta. Esta actividad interactiva de conteo funciona en el navegador, sin instalar nada.",
+        "Las cajas están hechas para los números del once al veinte. Una caja llena son diez, así que catorce es una caja llena y cuatro más, y en el 14 escrito el 1 corresponde a la caja llena y el 4 al resto. Un número equivocado se nombra como lo haría la maestra o el maestro: 41 en vez de 14 tiene los dígitos al revés; 4 en vez de 14 cuenta solo la segunda caja; 10 en vez de 14, solo la primera; y un número frente a cajas vacías pregunta qué número significa «ninguna». Después las cajas ayudan sin dar la respuesta: a partir de seis frutas, primero aparecen el 5, el 10 y el 15 sobre ellas, para empezar ahí y seguir contando; tras un segundo error, los números avanzan sobre las frutas y se detienen en un signo de interrogación sobre la última. El número final lo dice el niño o la niña.",
+        "Está alineada con los planes y programas de estudio (SEP): escribir números del 0 al 20 y representar una cantidad de objetos con un número escrito. El docente elige números hasta 10 (una caja) o hasta 20, y puede activar el vistazo rápido: una tela tapa las cajas después de un momento y «Mirar» la levanta otra vez, para leer las frutas por filas de cinco en lugar de contarlas una por una. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar un grupo de frutas mostradas en un marco de diez doble.",
-        "Escribir la cifra del 0 al 20 para la cantidad contada.",
-        "Seguir contando a partir de un diez lleno para los números del 11 al 20.",
-        "Conectar una cantidad con su símbolo numérico escrito."
+        "Leer un marco de diez doble: una caja llena son diez, una fila llena son cinco",
+        "Escribir el número del 0 al 20 que dice cuántas frutas hay",
+        "Seguir contando desde 5, 10 o 15 en lugar de volver a empezar en uno",
+        "Escribir los números del once al veinte con los dígitos en orden"
       ],
       "howToPlay": [
-        "Mira el marco de diez doble y cuenta cuántas frutas ves.",
-        "Escribe ese número en el teclado numérico, incluso los mayores de diez, y pulsa Comprobar.",
-        "¿No salió a la primera? Vuelve a contar e inténtalo otra vez: no hay temporizador ni puntaje."
+        "Mira las cajas y cuenta las frutas: una caja llena son diez.",
+        "Escribe el número en la pizarra con las teclas y presiona Comprobar.",
+        "¿Todavía no? Mira lo que muestran las cajas: empieza en el número de una fruta y sigue contando. Después de un segundo intento, los números avanzan hasta un signo de interrogación: di el número que va ahí.",
+        "Un número correcto vuelve dorada la pizarra; Siguiente trae cajas nuevas."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a representar una cantidad de hasta 20 objetos con una cifra escrita.",
-        "Tu hijo o hija escribe los números del 0 al 20, incluidos los de dos cifras.",
-        "Se construye la destreza de leer y escribir números sobre la que se apoya toda la notación matemática posterior."
+        "Representar una cantidad de hasta 20 objetos con un número escrito",
+        "Leer un número del once al veinte como diez y algunas unidades más, y escribir sus dos dígitos en orden",
+        "Seguir contando desde una fila de cinco o una decena llena"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

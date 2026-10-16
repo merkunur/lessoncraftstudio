@@ -308,25 +308,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "En dobbelt tierramme viser en gruppe frugttællere, og barnet skriver tallet for, hvor mange der er — tæller alt fra 0 til 20 og skriver tallet på tastaturet. Fordi en fuld ramme er ti, kan barnet tælle videre op til tallene mellem ti og tyve. Det er en interaktiv tælleaktivitet til børnehaveklassen, der kører i browseren uden noget at installere og uden konto.",
-        "Aktiviteten binder tælling og skrivning sammen. Barnet aflæser en mængde, der allerede ligger fordelt på to tierrammer, og navngiver den med et skrevet tal — også de sværere tocifrede tal over ti. Fordi en fuld ramme er ti, kan barnet tælle videre fra ti til tallene mellem ti og tyve i stedet for at starte ved et hver gang, og bagefter skrive det talte ned som et tal — forbindelsen mellem mængde og tegn.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at skrive tal fra 0 til 20 og vise et antal genstande med et skrevet tal. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "To frugtkasser af træ med ti rum hver — den dobbelte tierramme fra klassen, fyldt med rigtige billeder af frugt. Frugterne falder ned rum for rum, først en række med fem, så den næste, og barnet skriver med taltasterne på en tavle, hvor mange der er, fra 0 til 20. Når tallet passer, bliver tavlen guldfarvet, den sidste frugt bærer tallet, og det bliver læst højt. Den interaktive tælleaktivitet kører i browseren uden noget at installere.",
+        "Kasserne er lavet til tallene fra elleve til tyve. En fuld kasse er ti, så fjorten er en fuld kasse og fire til — og i det skrevne 14 står 1-tallet for den fulde kasse og 4-tallet for resten. Et forkert tal får et navn, sådan som en lærer ville sige det: 41 i stedet for 14 har cifrene omvendt, 4 i stedet for 14 tæller kun den anden kasse, 10 i stedet for 14 kun den første, og et tal ved tomme kasser spørger, hvilket tal der betyder ”ingen”. Derefter hjælper kasserne uden at afsløre svaret: Fra seks frugter og op kommer 5, 10 og 15 først frem på frugterne, så barnet kan begynde der og tælle videre; efter endnu en fejl fortsætter tallene hen over frugterne og stopper ved et spørgsmålstegn på den sidste. Det sidste tal siger barnet selv.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at skrive tal fra 0 til 20 og vise et antal genstande med et skrevet tal. Læreren vælger tal til 10 (én kasse) eller til 20 og kan slå hurtigt kig til: Så dækker et klæde kasserne efter et øjeblik, og ”Kig” løfter det igen — så aflæses frugterne række for række, fem ad gangen, i stedet for én ad gangen. Intet ur og ingen point."
       ],
       "practices": [
-        "Tælle en gruppe frugter, der vises på en dobbelt tierramme",
-        "Skrive tallet 0 til 20 for det antal, der er talt",
-        "Tælle videre fra en fuld tier til tallene mellem ti og tyve",
-        "Forbinde en mængde med dens skrevne taltegn"
+        "Aflæse en dobbelt tierramme: en fuld kasse er ti, en fuld række er fem",
+        "Skrive tallet fra 0 til 20, der siger, hvor mange frugter der er",
+        "Tælle videre fra 5, 10 eller 15 i stedet for at begynde forfra ved én",
+        "Skrive tallene fra elleve til tyve med cifrene i den rigtige rækkefølge"
       ],
       "howToPlay": [
-        "Se på den dobbelte tierramme, og tæl, hvor mange frugter du kan se.",
-        "Skriv det tal på tastaturet, også tal over ti, og tryk på Tjek.",
-        "Passer det ikke? Tæl igen, og prøv en gang til — der er ingen tid og ingen point."
+        "Se på kasserne, og tæl frugterne — en fuld kasse er ti.",
+        "Skriv tallet på tavlen med tasterne, og tryk på Tjek.",
+        "Ikke endnu? Se, hvad kasserne viser: Begynd ved tallet på en frugt, og tæl videre. Efter endnu et forsøg fortsætter tallene hen til et spørgsmålstegn — sig det tal, der hører til der.",
+        "Et rigtigt tal gør tavlen guldfarvet; Næste giver nye kasser."
       ],
       "learningGoals": [
         "Barnet kan vise et antal på op til 20 genstande med et skrevet tal",
-        "Barnet kan skrive tallene 0 til 20, også de tocifrede tal",
-        "Barnet bygger den læse-og-skrive-talfærdighed, som al senere matematik bygger på"
+        "Barnet aflæser et tal fra elleve til tyve som ti og nogle flere og skriver dets to cifre i den rigtige rækkefølge",
+        "Barnet tæller videre fra en fuld række med fem eller en fuld tier"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

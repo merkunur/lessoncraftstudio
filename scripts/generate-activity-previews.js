@@ -91,6 +91,10 @@ function seedScript(row) {
     // a jar of fourteen toys with three marks, so the card shows the apparatus mid-count
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.kind==='count'&&r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();t._tapCell(0);t._tapCell(1);t._tapCell(2);})();`;
   }
+  if (row.tool === 'fruit-crates-activity') {
+    // a full crate and four more, so the card shows the double ten-frame mid-teen
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

@@ -309,25 +309,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "En dobbel tierramme viser en gruppe fruktbrikker, og barnet skriver tallet for hvor mange — og teller alt fra 0 til 20 og skriver tallet på tastaturet. Fordi en full ramme er ti, kan barnet telle videre for tallene fra elleve og opp til tjue. Denne interaktive telleaktiviteten for skolestart kjører i nettleseren, uten noe å installere og uten konto.",
-        "Denne aktiviteten kobler telling til skriving. Barnet leser et antall som allerede ligger fordelt over to tierrammer, og navngir det med et skrevet tall, også de vanskeligere tosifrede tallene over ti. Fordi en full ramme er ti, kan barnet telle videre fra ti for tallene mellom elleve og tjue i stedet for å starte på én hver gang, og deretter skrive ned det det telte som et tall — forbindelsen mellom antall og symbol.",
-        "Aktiviteten er tilpasset LK20 — å skrive tall fra 0 til 20 og representere et antall gjenstander med et skrevet tall. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "To fruktkasser av tre med ti rom hver — den doble tierrammen fra klasserommet, fylt med ekte bilder av frukt. Fruktene faller ned rom for rom, først én rad med fem, så den neste, og barnet skriver på en tavle med talltastene hvor mange det er, fra 0 til 20. Når tallet stemmer, blir tavla gullfarget, den siste frukten bærer tallet, og det blir lest høyt. Den interaktive telleaktiviteten kjører i nettleseren uten noe å installere.",
+        "Kassene er laget for tallene fra elleve til tjue. En full kasse er ti, så fjorten er en full kasse og fire til — og i det skrevne 14 står 1-tallet for den fulle kassa og 4-tallet for resten. Et feil tall får et navn, slik en lærer ville sagt det: 41 i stedet for 14 har sifrene motsatt vei, 4 i stedet for 14 teller bare den andre kassa, 10 i stedet for 14 bare den første, og et tall ved tomme kasser spør hvilket tall som betyr «ingen». Så hjelper kassene uten å røpe svaret: Fra seks frukter og oppover kommer 5, 10 og 15 først fram på fruktene, så barnet kan begynne der og telle videre; etter en ny feil fortsetter tallene bortover fruktene og stopper ved et spørsmålstegn på den siste. Det siste tallet sier barnet selv.",
+        "Aktiviteten er tilpasset LK20 — å skrive tall fra 0 til 20 og representere et antall gjenstander med et skrevet tall. Læreren velger tall til 10 (én kasse) eller til 20 og kan slå på rask titt: Da dekker et klede kassene etter et øyeblikk, og «Kikk» løfter det igjen — slik leses fruktene av rad for rad, fem om gangen, i stedet for én og én. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Telle en gruppe frukt vist på en dobbel tierramme.",
-        "Skrive tallet 0 til 20 for antallet man telte.",
-        "Telle videre fra en full tier for tallene mellom elleve og tjue.",
-        "Koble et antall til det skrevne tallsymbolet."
+        "Lese av en dobbel tierramme: en full kasse er ti, en full rad er fem",
+        "Skrive tallet fra 0 til 20 som sier hvor mange frukter det er",
+        "Telle videre fra 5, 10 eller 15 i stedet for å begynne på nytt fra én",
+        "Skrive tallene fra elleve til tjue med sifrene i riktig rekkefølge"
       ],
       "howToPlay": [
-        "Se på den doble tierrammen og tell hvor mange frukter du ser.",
-        "Skriv det tallet på tastaturet, også tall over ti, og trykk på Sjekk.",
-        "Ikke helt riktig? Tell igjen og prøv én gang til — det er ingen tidtaker og ingen poeng."
+        "Se på kassene og tell fruktene — en full kasse er ti.",
+        "Skriv tallet på tavla med tastene og trykk på Sjekk.",
+        "Ikke ennå? Se hva kassene viser: Begynn ved tallet på en frukt og tell videre. Etter et nytt forsøk fortsetter tallene fram til et spørsmålstegn — si tallet som hører hjemme der.",
+        "Et riktig tall gjør tavla gullfarget; Neste gir nye kasser."
       ],
       "learningGoals": [
-        "Barnet kan representere et antall på opptil 20 gjenstander med et skrevet tall.",
-        "Barnet kan skrive tallene 0 til 20, også tosifrede tall.",
-        "Barnet bygger ferdigheten å lese og skrive tall, som all senere matematisk notasjon er avhengig av."
+        "Barnet kan representere et antall på opptil 20 gjenstander med et skrevet tall",
+        "Barnet leser et tall fra elleve til tjue som ti og noen til, og skriver de to sifrene i riktig rekkefølge",
+        "Barnet teller videre fra en full rad med fem eller en full tier"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

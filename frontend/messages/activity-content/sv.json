@@ -420,24 +420,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "En dubbel tioram visar en grupp fruktmarkörer, och barnet skriver siffran för hur många — och räknar var som helst mellan 0 och 20 och skriver talet på sifferknapparna. Eftersom en full ram är tio kan barnet räkna vidare för tonårstalen och tjugo. Den här interaktiva räkneövningen för förskoleklass körs i webbläsaren utan något att installera och utan konto.",
-        "Den här aktiviteten kopplar ihop att räkna med att skriva. Barnet avläser ett antal som redan är uppställt över två tioramar och namnger det med en skriven siffra, även de svårare tvåsiffriga talen över tio. Eftersom en full ram är tio kan barnet räkna vidare från tio för tonårstalen och tjugo i stället för att börja om från ett varje gång, och sedan skriva ner det man räknat som ett tal — själva sambandet mellan antal och symbol. Aktiviteten följer Lgr22 och tränar att representera ett antal med en skriven siffra. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Två fruktlådor av trä med tio fack var — den dubbla tioramen från klassrummet, fylld med riktiga fruktbilder. Frukterna ramlar ner fack för fack, först en rad med fem, sedan nästa, och barnet skriver på en tavla med siffertangenterna hur många det är, från 0 till 20. När talet stämmer blir tavlan guldfärgad, den sista frukten bär talet och det läses upp. Den interaktiva räkneövningen körs i webbläsaren utan något att installera.",
+        "Lådorna är gjorda för talen mellan elva och tjugo. En full låda är tio, så fjorton är en full låda och fyra till — och i det skrivna 14 står ettan för den fulla lådan och fyran för resten. Ett fel tal får ett namn, så som en lärare skulle säga det: 41 i stället för 14 har siffrorna tvärtom, 4 i stället för 14 räknar bara den andra lådan, 10 i stället för 14 bara den första, och ett tal vid tomma lådor frågar vilket tal som betyder ”ingen”. Sedan hjälper lådorna utan att avslöja svaret: från sex frukter och uppåt syns först 5, 10 och 15 på frukterna, så att barnet kan börja där och räkna vidare; efter ett andra fel fortsätter talen över frukterna och stannar vid ett frågetecken på den sista. Det sista talet säger barnet själv.",
+        "Aktiviteten följer Lgr22 — att skriva talen 0 till 20 och ange ett antal med ett skrivet tal. Läraren väljer tal till 10 (en låda) eller till 20 och kan slå på snabbtitt: då täcker ett tygstycke lådorna efter en stund och ”Kika” lyfter det igen — så läses frukterna av rad för rad, fem i taget, i stället för en och en. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Räkna en grupp frukter som visas på en dubbel tioram",
-        "Skriva siffran 0 till 20 för det antal man räknat",
-        "Räkna vidare från en full tia för tonårstalen och tjugo",
-        "Koppla ihop ett antal med dess skrivna talsymbol"
+        "Läsa av en dubbel tioram: en full låda är tio, en full rad är fem",
+        "Skriva talet 0 till 20 som säger hur många frukter det är",
+        "Räkna vidare från 5, 10 eller 15 i stället för att börja om från ett",
+        "Skriva talen 11 till 20 med siffrorna i rätt ordning"
       ],
       "howToPlay": [
-        "Titta på den dubbla tioramen och räkna hur många frukter du ser.",
-        "Skriv det talet på sifferknapparna, även tal över tio, och tryck på Kontrollera.",
-        "Inte riktigt rätt? Räkna igen och försök en gång till — det finns ingen timer och inga poäng."
+        "Titta på lådorna och räkna frukterna — en full låda är tio.",
+        "Skriv talet på tavlan med tangenterna och tryck på Kontrollera.",
+        "Inte än? Titta på vad lådorna visar: börja vid talet på en frukt och räkna vidare. Efter ett andra försök fortsätter talen fram till ett frågetecken — säg talet som ska stå där.",
+        "Ett rätt tal gör tavlan guldfärgad; Nästa ger nya lådor."
       ],
       "learningGoals": [
-        "Barnet kan representera ett antal på upp till 20 föremål med en skriven siffra",
-        "Barnet kan skriva talen 0 till 20, inklusive tvåsiffriga tal",
-        "Barnet bygger den läs- och skrivförmåga för tal som all senare matematiknotation bygger på"
+        "Barnet kan representera ett antal på upp till 20 föremål med ett skrivet tal",
+        "Barnet läser ett tal mellan elva och tjugo som tio och några till och skriver dess två siffror i rätt ordning",
+        "Barnet räknar vidare från en full rad med fem eller en full tia"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

@@ -1056,25 +1056,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Um quadro de dez duplo mostra um grupo de fichas com frutas, e a criança escreve o numeral correspondente a quantas há — contando de 0 a 20 e digitando o número no teclado. Como um quadro cheio é dez, dá para continuar a contagem a partir do dez para os números entre dez e vinte. É uma atividade de contagem interativa para a educação infantil, que roda no navegador, sem instalar nada e sem precisar de conta.",
-        "Esta atividade liga o contar ao escrever. A criança lê uma quantidade já organizada em dois quadros de dez e a nomeia com um numeral escrito, incluindo os números de dois algarismos mais difíceis, passando do dez. Como um quadro cheio é dez, ela pode continuar a contagem a partir do dez para os números entre dez e vinte, em vez de começar do um toda vez, e depois registrar o que contou como um número escrito — a ligação entre a quantidade e o símbolo.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao representar uma quantidade de objetos com um numeral escrito de 0 a 20. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Dois caixotes de madeira com dez lugares cada um — o quadro de dez duplo da sala de aula, cheio de imagens de frutas de verdade. As frutas caem lugar por lugar, uma fileira de cinco e depois a outra, e a criança escreve na lousa, com as teclas de números, quantas são — de 0 a 20. Quando o número está certo, a lousa fica dourada, a última fruta mostra o número e ele é falado em voz alta. Esta atividade interativa de contagem funciona no navegador, sem instalar nada.",
+        "Os caixotes foram feitos para os números de onze a vinte. Um caixote cheio é dez; então catorze é um caixote cheio e mais quatro — e no 14 escrito, o 1 é do caixote cheio e o 4 é do resto. Um número errado ganha nome, como faria a professora ou o professor: 41 no lugar de 14 tem os algarismos ao contrário; 4 no lugar de 14 conta só o segundo caixote; 10 no lugar de 14, só o primeiro; e um número diante de caixotes vazios pergunta qual número quer dizer “nenhuma”. Depois os caixotes ajudam sem entregar a resposta: a partir de seis frutas, primeiro aparecem 5, 10 e 15 nelas, para começar dali e continuar contando; depois de um segundo erro, os números seguem pelas frutas e param num ponto de interrogação sobre a última. O número final quem diz é a criança.",
+        "A atividade está alinhada à BNCC, no campo dos números: escrever os números de 0 a 20 e representar uma quantidade de objetos com um numeral escrito. O professor escolhe números até 10 (um caixote) ou até 20 e pode ligar a olhada rápida: um pano cobre os caixotes depois de um instante e “Espiar” levanta o pano de novo — assim as frutas são lidas pelas fileiras de cinco, e não uma por uma. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar um grupo de frutas mostrado num quadro de dez duplo.",
-        "Escrever o numeral de 0 a 20 para a quantidade contada.",
-        "Continuar a contagem a partir de um dez cheio para os números entre dez e vinte.",
-        "Ligar uma quantidade ao seu símbolo numérico escrito."
+        "Ler um quadro de dez duplo: um caixote cheio é dez, uma fileira cheia é cinco",
+        "Escrever o número de 0 a 20 que diz quantas frutas há",
+        "Continuar contando a partir de 5, 10 ou 15 em vez de recomeçar do um",
+        "Escrever os números de onze a vinte com os algarismos na ordem certa"
       ],
       "howToPlay": [
-        "Olhe o quadro de dez duplo e conte quantas frutas você vê.",
-        "Digite esse número no teclado, inclusive os números maiores que dez, e toque em Verificar.",
-        "Errou? Conte de novo e tente mais uma vez — não há cronômetro nem pontuação."
+        "Olhe os caixotes e conte as frutas — um caixote cheio é dez.",
+        "Escreva o número na lousa com as teclas e toque em Verificar.",
+        "Ainda não? Veja o que os caixotes mostram: comece pelo número em uma fruta e continue contando. Depois de uma segunda tentativa, os números seguem até um ponto de interrogação — diga o número que vai ali.",
+        "Um número certo deixa a lousa dourada; Próximo traz caixotes novos."
       ],
       "learningGoals": [
-        "Representar uma contagem de até 20 objetos com um numeral escrito.",
-        "Escrever os números de 0 a 20, incluindo os de dois algarismos.",
-        "Construir a habilidade de ler e escrever números de que toda a notação matemática posterior depende."
+        "Representar uma contagem de até 20 objetos com um numeral escrito",
+        "Ler um número de onze a vinte como dez e mais algumas unidades, e escrever seus dois algarismos na ordem",
+        "Continuar contando a partir de uma fileira de cinco ou de uma dezena cheia"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

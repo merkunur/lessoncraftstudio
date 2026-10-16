@@ -2448,25 +2448,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Een dubbel tienraam laat een groepje fruitfiches zien, en je kind schrijft het getal voor hoeveel het er zijn — door ergens van 0 tot 20 te tellen en het getal op het toetsenblok in te typen. Doordat een vol raam tien is, kan je kind doortellen voor de getallen boven tien en tot twintig. Deze interactieve telactiviteit voor de kleuterklas werkt in de browser zonder iets te installeren en zonder account.",
-        "Deze activiteit verbindt tellen met schrijven. Je kind leest een hoeveelheid die al over twee tienramen is uitgelegd en benoemt die met een geschreven cijfer, ook de lastigere getallen van twee cijfers boven de tien. Omdat een vol raam tien is, kan je kind vanaf tien doortellen voor de tienertjes en de twintig in plaats van steeds bij één te beginnen, en daarna opschrijven wat het heeft geteld — de verbinding tussen hoeveelheid en symbool.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: getallen van 0 tot 20 schrijven en een aantal voorwerpen weergeven met een geschreven cijfer. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Twee houten fruitkisten met elk tien vakjes — het dubbele tienraam uit de klas, gevuld met echte fruitplaatjes. Het fruit valt vakje voor vakje in de kist, eerst een rij van vijf, dan de volgende, en het kind schrijft met de cijfertoetsen op een bordje hoeveel stuks het zijn, van 0 tot en met 20. Klopt het getal, dan wordt het bordje goud, staat het getal op het laatste stuk fruit en wordt het uitgesproken. Deze interactieve telactiviteit werkt in de browser, zonder iets te installeren.",
+        "De kisten zijn gemaakt voor de getallen van elf tot en met twintig. Een volle kist is tien, dus veertien is een volle kist en nog vier — en in de geschreven 14 staat de 1 voor de volle kist en de 4 voor de rest. Een verkeerd getal krijgt een naam, zoals een leerkracht het zou zeggen: bij 41 in plaats van 14 staan de cijfers andersom, 4 in plaats van 14 telt alleen de tweede kist, 10 in plaats van 14 alleen de eerste, en een getal bij lege kisten vraagt welk getal ‘geen’ betekent. Daarna helpen de kisten zonder het antwoord te geven: vanaf zes stuks verschijnen eerst 5, 10 en 15 op het fruit, zodat het kind daar kan beginnen en verder kan tellen; na een tweede fout lopen de getallen verder over het fruit en stoppen ze bij een vraagteken op het laatste stuk. Het laatste getal zegt het kind zelf.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: getallen van 0 tot en met 20 schrijven en een aantal voorwerpen weergeven met een geschreven getal. De leerkracht kiest getallen tot en met 10 (één kist) of tot en met 20, en kan ‘Even kijken’ aanzetten: dan gaat er na een moment een doek over de kisten en tilt ‘Kijken’ hem weer op — zo wordt het fruit per rij van vijf afgelezen in plaats van één voor één geteld. Geen timer, geen score."
       ],
       "practices": [
-        "Een groepje fruit tellen dat op een dubbel tienraam staat",
-        "Het cijfer 0 tot 20 schrijven voor het getelde aantal",
-        "Doortellen vanaf een vol tiental voor de getallen boven tien en tot twintig",
-        "Een hoeveelheid koppelen aan het geschreven getalsymbool"
+        "Een dubbel tienraam aflezen: een volle kist is tien, een volle rij is vijf",
+        "Het getal van 0 tot en met 20 schrijven dat zegt hoeveel stuks fruit er zijn",
+        "Verder tellen vanaf 5, 10 of 15 in plaats van opnieuw bij één te beginnen",
+        "Getallen van elf tot en met twintig schrijven met de cijfers in de goede volgorde"
       ],
       "howToPlay": [
-        "Kijk naar het dubbele tienraam en tel hoeveel stukjes fruit je ziet.",
-        "Typ dat getal in op het toetsenblok, ook de getallen boven tien, en druk op Controleer.",
-        "Nog niet goed? Tel opnieuw en probeer het nog eens — er is geen timer en geen score."
+        "Kijk naar de kisten en tel het fruit — een volle kist is tien.",
+        "Schrijf het getal met de toetsen op het bordje en tik op Controleer.",
+        "Nog niet goed? Kijk wat de kisten laten zien: begin bij het getal op een stuk fruit en tel verder. Na een tweede poging lopen de getallen door tot een vraagteken — zeg het getal dat daar hoort.",
+        "Een goed getal maakt het bordje goud; Volgende brengt nieuwe kisten."
       ],
       "learningGoals": [
-        "Het kind geeft een aantal tot 20 weer met een geschreven cijfer.",
-        "Het kind schrijft de getallen 0 tot 20, ook getallen van twee cijfers.",
-        "Het kind bouwt de lees-en-schrijfvaardigheid voor getallen waarop alle latere wiskundenotatie steunt."
+        "Het kind geeft een aantal tot en met 20 weer met een geschreven getal",
+        "Het kind leest een getal van elf tot en met twintig als tien en nog wat, en schrijft de twee cijfers in de goede volgorde",
+        "Het kind telt verder vanaf een volle rij van vijf of een volle tien"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

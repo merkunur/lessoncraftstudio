@@ -3023,25 +3023,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Ein doppeltes Zehnerfeld zeigt eine Gruppe von Früchten als Plättchen, und das Kind schreibt die Zahl für die Anzahl — irgendwo zwischen 0 und 20 — und tippt sie auf dem Zahlenfeld ein. Weil ein volles Feld zehn ist, kann das Kind für die Zahlen ab elf und bis zwanzig weiterzählen. Diese interaktive Zähl-Übung für den Kindergarten läuft im Browser, ohne Installation und ohne Konto.",
-        "Diese Aktivität verbindet Zählen mit Schreiben. Das Kind liest eine Menge ab, die bereits über zwei Zehnerfelder verteilt ist, und benennt sie mit einer geschriebenen Zahl, auch bei den schwierigeren zweistelligen Zahlen über zehn. Weil ein volles Feld zehn ist, kann das Kind von der Zehn aus weiterzählen, statt jedes Mal bei eins zu beginnen, und dann aufschreiben, was es gezählt hat — die Verbindung zwischen Menge und Zahlzeichen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — Zahlen von 0 bis 20 schreiben und eine Anzahl von Objekten mit einer geschriebenen Ziffer darstellen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Zwei Obstkisten aus Holz mit je zehn Fächern — das doppelte Zehnerfeld aus dem Klassenzimmer, gefüllt mit echten Obstbildern. Die Früchte fallen Fach für Fach hinein, erst eine Fünferreihe, dann die nächste, und das Kind schreibt mit den Zahlentasten auf die Tafel, wie viele es sind — von 0 bis 20. Stimmt die Zahl, wird die Tafel golden, die letzte Frucht trägt die Zahl, und sie wird vorgelesen. Die interaktive Zählübung läuft im Browser, ohne Installation.",
+        "Die Kisten sind für die Zahlen über zehn gebaut. Eine volle Kiste sind zehn, also ist vierzehn eine volle Kiste und noch vier — und in der geschriebenen 14 steht die 1 für die volle Kiste und die 4 für den Rest. Eine falsche Zahl wird benannt, so wie es eine Lehrkraft tun würde: 41 statt 14 ist ein Zahlendreher, 4 statt 14 zählt nur die zweite Kiste, 10 statt 14 nur die erste, und eine Zahl bei leeren Kisten fragt, welche Zahl „keins“ heißt. Dann helfen die Kisten, ohne die Lösung zu verraten: Ab sechs Früchten erscheinen zuerst 5, 10 und 15 auf den Früchten, damit das Kind dort anfangen und weiterzählen kann; nach einem zweiten Fehlversuch laufen die Zahlen weiter und halten an einem Fragezeichen auf der letzten Frucht. Die letzte Zahl nennt das Kind selbst.",
+        "Die Aktivität ist an den Lehrplänen im Bereich „Zahlen und Operationen“ ausgerichtet — Zahlen von 0 bis 20 schreiben und eine Anzahl mit einer Zahl darstellen. Lehrkräfte wählen Zahlen bis 10 (eine Kiste) oder bis 20 und können „Nur kurz zu sehen“ einstellen: Dann deckt ein Tuch die Kisten nach einem Moment zu, und „Kurz schauen“ hebt es wieder an — so werden die Früchte über die Fünferreihen erfasst statt einzeln abgezählt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine Gruppe von Früchten auf einem doppelten Zehnerfeld zählen.",
-        "Die Zahl 0 bis 20 für die gezählte Anzahl schreiben.",
-        "Von einer vollen Zehn aus für die Zahlen ab elf und bis zwanzig weiterzählen.",
-        "Eine Menge mit ihrem geschriebenen Zahlzeichen verbinden."
+        "Das doppelte Zehnerfeld lesen: eine volle Kiste sind zehn, eine volle Reihe fünf",
+        "Die Zahl von 0 bis 20 für die Anzahl in den Kisten schreiben",
+        "Von 5, 10 oder 15 aus weiterzählen, statt wieder bei eins anzufangen",
+        "Zahlen über zehn ohne Zahlendreher schreiben"
       ],
       "howToPlay": [
-        "Schau dir das doppelte Zehnerfeld an und zähle, wie viele Früchte du siehst.",
-        "Tippe diese Zahl auf dem Zahlenfeld ein, auch Zahlen über zehn, und tippe dann auf Prüfen.",
-        "Noch nicht ganz richtig? Zähle noch einmal und versuche es erneut — es gibt keinen Timer und keine Punkte."
+        "Schau dir die Kisten an und zähle die Früchte — eine volle Kiste sind zehn.",
+        "Schreib die Zahl mit den Zahlentasten auf die Tafel und drück auf Prüfen.",
+        "Noch nicht? Schau, was die Kisten zeigen: Fang bei der Zahl auf einer Frucht an und zähl weiter. Nach einem zweiten Versuch laufen die Zahlen bis zu einem Fragezeichen — sag die Zahl, die dorthin gehört.",
+        "Eine richtige Zahl macht die Tafel golden; Weiter bringt neue Kisten."
       ],
       "learningGoals": [
-        "Eine Anzahl von bis zu 20 Objekten mit einer geschriebenen Ziffer darstellen.",
-        "Die Zahlen 0 bis 20 schreiben, auch zweistellige Zahlen.",
-        "Die Lese- und Schreibfähigkeit für Zahlen aufbauen, auf der jede spätere mathematische Schreibweise beruht."
+        "Eine Anzahl von bis zu 20 Gegenständen mit einer Zahl darstellen",
+        "Eine Zahl über zehn als zehn und noch einige erfassen und ihre zwei Ziffern in der richtigen Reihenfolge schreiben",
+        "Von einer vollen Fünferreihe oder einem vollen Zehner aus weiterzählen"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

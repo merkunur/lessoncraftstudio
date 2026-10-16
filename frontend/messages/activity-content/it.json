@@ -1552,25 +1552,26 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Una doppia tabella del dieci mostra un gruppo di pedine a forma di frutta e il bambino scrive il numero corrispondente, contando da 0 a 20 e digitando la cifra sul tastierino. Poiché una tabella piena vale dieci, il bambino può proseguire il conteggio per i numeri tra dieci e venti. È un'attività interattiva di conteggio per la scuola dell'infanzia, da fare nel browser, senza nulla da installare e senza account.",
-        "Questa attività unisce il contare allo scrivere. Il bambino legge una quantità già disposta su due tabelle del dieci e la nomina con un numero scritto, compresi i numeri a due cifre più difficili oltre il dieci. Poiché una tabella piena vale dieci, può contare a partire da dieci invece di ricominciare ogni volta da uno, e poi registrare ciò che ha contato come numero scritto: è il legame tra la quantità e il simbolo.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scrivere i numeri da 0 a 20 e rappresentare una quantità di oggetti con un numero scritto. Nessun timer e nessun punteggio."
+        "Due cassette di legno con dieci posti ciascuna: la doppia tabella del dieci della classe, piena di immagini di frutta vera. I frutti cadono un posto dopo l’altro, prima una fila di cinque, poi l’altra, e il bambino scrive sulla lavagnetta, con i tasti dei numeri, quanti sono, da 0 a 20. Quando il numero è giusto la lavagnetta diventa dorata, l’ultimo frutto porta il numero e lo si sente pronunciare. Questa attività interattiva di conteggio funziona nel browser, senza installare nulla.",
+        "Le cassette sono pensate per i numeri da undici a venti. Una cassetta piena è dieci, quindi quattordici è una cassetta piena e altri quattro, e nel 14 scritto l’1 sta per la cassetta piena e il 4 per il resto. Un numero sbagliato viene chiamato per nome, come farebbe l’insegnante: 41 al posto di 14 ha le cifre al contrario; 4 al posto di 14 conta solo la seconda cassetta; 10 al posto di 14, solo la prima; e un numero davanti a cassette vuote chiede quale numero vuol dire «nessuno». Poi le cassette aiutano senza dare la risposta: da sei frutti in su, prima compaiono 5, 10 e 15 sui frutti, per partire da lì e continuare a contare; dopo un secondo errore i numeri avanzano sui frutti e si fermano su un punto interrogativo sull’ultimo. Il numero finale lo dice il bambino.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: scrivere i numeri da 0 a 20 e rappresentare una quantità di oggetti con un numero scritto. L’insegnante sceglie i numeri fino a 10 (una cassetta) o fino a 20 e può attivare l’occhiata veloce: un telo copre le cassette dopo un momento e «Sbircia» lo solleva di nuovo, così i frutti si leggono per file da cinque invece di contarli uno per uno. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare un gruppo di frutta mostrato su una doppia tabella del dieci.",
-        "Scrivere il numero da 0 a 20 per la quantità contata.",
-        "Proseguire il conteggio da una tabella piena per i numeri tra dieci e venti.",
-        "Collegare una quantità al suo simbolo numerico scritto."
+        "Leggere la doppia tabella del dieci: una cassetta piena è dieci, una fila piena è cinque",
+        "Scrivere il numero da 0 a 20 che dice quanti frutti ci sono",
+        "Continuare a contare da 5, 10 o 15 invece di ripartire da uno",
+        "Scrivere i numeri da undici a venti con le cifre nell’ordine giusto"
       ],
       "howToPlay": [
-        "Il bambino guarda la doppia tabella del dieci e conta quanti pezzi di frutta vede.",
-        "Scrive quel numero sul tastierino, anche oltre il dieci, e preme Controlla.",
-        "Non è corretto? Conta di nuovo e riprova: non c'è timer e non c'è punteggio."
+        "Il bambino guarda le cassette e conta i frutti: una cassetta piena è dieci.",
+        "Scrive il numero sulla lavagnetta con i tasti e preme Verifica.",
+        "Non ancora? Il bambino guarda che cosa mostrano le cassette: parte dal numero su un frutto e continua a contare. Dopo un secondo tentativo i numeri avanzano fino a un punto interrogativo: dice il numero che va lì.",
+        "Un numero giusto rende dorata la lavagnetta; Avanti porta nuove cassette."
       ],
       "learningGoals": [
-        "Il bambino è in grado di rappresentare un conteggio fino a 20 oggetti con un numero scritto.",
-        "Impara a scrivere i numeri da 0 a 20, compresi quelli a due cifre.",
-        "Costruisce l'abilità di leggere e scrivere i numeri su cui si basa tutta la notazione matematica successiva."
+        "Il bambino rappresenta un conteggio fino a 20 oggetti con un numero scritto",
+        "Legge un numero da undici a venti come dieci e qualche unità, e ne scrive le due cifre in ordine",
+        "Continua a contare a partire da una fila di cinque o da una decina piena"
       ]
     },
     "ten-frame.teen-numbers.make-n": {

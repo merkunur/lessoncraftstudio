@@ -1482,24 +1482,25 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Digby le chien adore les chiffres ! Il invite ton enfant à tracer chaque chiffre, de 0 à 9. Un chiffre-modèle apparaît en pointillés, avec un point de départ : ton enfant pose son doigt sur le point, puis suit chaque trait dans le bon ordre. Quand le dernier trait est formé, le chiffre s'encre joliment et Digby passe au chiffre suivant. Il n'y a ni course, ni score : on prend le temps de bien former chaque chiffre.",
-        "Apprendre à tracer les chiffres de 0 à 9 dans le bon ordre des traits est un attendu de la Grande section : « écrire les nombres avec les chiffres » fait partie du geste graphique que l'on installe en maternelle, avant de le consolider au CP. En guidant le tracé (le point de départ, le sens de chaque trait), l'activité prépare en douceur l'écriture chiffrée. Elle fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Découvrir les nombres et leurs utilisations »)."
+        "Une ligne d’écriture, trois cases. La première case montre tout le chemin du chiffre avec un point de départ vert, la deuxième seulement un trait léger, la troisième est vide. L’enfant écrit le chiffre avec le doigt dans chaque case l’une après l’autre – de 0 à 9, un chiffre par manche – et l’encre n’apparaît que là où le doigt a vraiment parcouru le trait, depuis son départ. Quand la troisième case est finie, les trois chiffres écrits par l’enfant restent sur la ligne et le nombre est dit à voix haute. Cette activité interactive d’écriture pour la maternelle fonctionne directement dans le navigateur, sur tablette, téléphone et ordinateur, sans installation ni compte.",
+        "L’idée centrale est la méthode du cahier d’écriture – modèle, tracé, copie – avec une aide qui s’efface à l’intérieur d’une même ligne, pour que le dernier chiffre soit celui de l’enfant. L’ordre et le sens des traits sont intégrés : un trait ne compte que s’il est tracé depuis son point de départ, le long de son chemin ; un chiffre commencé par le bas ou à l’envers ne passe pas. Les erreurs des jeunes scripteurs sont nommées à partir du chemin du doigt – commencé par l’autre bout, à l’envers, tourné dans le mauvais sens, arrêté trop tôt – et après trois essais le trait léger revient, puis le chemin entier. Un petit marcheur montre les traits à la demande, et Effacer permet de recommencer une case. Les réglages gardent l’aide complète dans chaque case pour une classe qui en a besoin, ou la retirent pour une classe prête à écrire seule ; le papier montre trois lignes ou une seule.",
+        "L’activité suit les programmes officiels de maternelle : écrire les chiffres de 0 à 9 dans le bon sens et le bon ordre des traits. Pas de chronomètre, pas de score – juste un entraînement calme et ludique."
       ],
       "practices": [
-        "Tracer chaque chiffre de 0 à 9",
-        "Suivre le bon ordre et le bon sens des traits",
-        "Commencer chaque trait sur le point de départ",
-        "Reconnaître et bien former la forme de chaque chiffre",
-        "Préparer le geste de l'écriture chiffrée"
+        "Former chaque chiffre de 0 à 9 depuis le bon point de départ, dans le bon ordre et le bon sens des traits.",
+        "Passer du tracé guidé à l’écriture du chiffre sans aide, sur une même ligne.",
+        "Repérer et corriger un chiffre inversé, retourné ou inachevé.",
+        "Développer la motricité fine et le geste du crayon qu’une belle écriture demande."
       ],
       "howToPlay": [
-        "Pose ton doigt sur le point de départ du chiffre.",
-        "Suis chaque trait dans le bon ordre — le chiffre s'encre quand il est terminé."
+        "Pose ton doigt sur le point vert de la première case et suis le chemin. L’encre apparaît là où ton doigt passe.",
+        "Fais pareil dans la deuxième case, où le chemin n’est plus qu’un trait léger, puis dans la troisième case tout seul. Pas sûr ? Appuie sur Montre-moi pour voir les traits, ou sur Effacer pour recommencer une case.",
+        "Quand la troisième case est finie, la manche se vérifie toute seule et le nombre est dit – il n’y a ni chronomètre ni score."
       ],
       "learningGoals": [
-        "Tracer les chiffres de 0 à 9",
-        "Respecter l'ordre des traits",
-        "Préparer l'écriture chiffrée"
+        "Écrire chaque chiffre de 0 à 9 avec des traits justes et réguliers.",
+        "Écrire un chiffre sans guide après l’avoir tracé.",
+        "Poser les bases de l’écriture pour noter plus tard des quantités et des résultats."
       ]
     },
     "nesting-pots.seriate.k-cc-c-7": {

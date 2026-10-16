@@ -1561,6 +1561,29 @@
         "Forstå, at man kan begynde at tælle hvor som helst, ikke kun ved ét.",
         "Opbygge den tæl-videre-sikkerhed, som addition og det videre arbejde med tal bygger på."
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Én skrivelinje, tre felter. Det første felt viser hele tallets vej med en grøn startprik, det andet kun en svag linje, det tredje er tomt. Barnet skriver tallet med fingeren i felt efter felt – fra 0 til 9, ét tal pr. runde – og blækket kommer kun frem dér, hvor fingeren faktisk har fulgt stregen, fra begyndelsen. Når det tredje felt er færdigt, står de tre tal, barnet har skrevet, på linjen, og tallet bliver sagt højt. Det er en interaktiv skriveøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation og uden konto.",
+        "Kernen er skrivebogens metode – forbillede, spor, skriv selv – hvor hjælpen tager af inden for én og samme linje, så det sidste tal er barnets eget. Stregrækkefølge og skriveretning er bygget ind: en streg tæller kun, når den trækkes fra sit startpunkt langs sin vej, så et tal, der begyndes nedefra eller skrives spejlvendt, går ikke igennem. De fejl, nye skrivere laver, får navn ud fra fingerens egen vej – begyndte i den anden ende, spejlvendt, den forkerte vej rundt, stoppede for tidligt – og efter tre forsøg kommer den svage linje tilbage, derefter hele vejen. En lille vandrer viser stregerne, når man beder om det, og Visk ud starter et felt forfra. Indstillingerne beholder den fulde hjælp i hvert felt til en klasse, der har brug for den, eller fjerner den for en klasse, der allerede skriver selv; papiret kan vise tre linjer eller én.",
+        "Øvelsen følger Fælles Mål: skrive tallene 0–9 med den rigtige skriveretning og stregrækkefølge. Uden timer og uden point – rolig og legende træning."
+      ],
+      "practices": [
+        "Forme hvert tal fra 0 til 9 fra det rigtige startpunkt, i den rigtige stregrækkefølge og skriveretning.",
+        "Gå fra at spore med fuld hjælp til at skrive tallet selv, på samme linje.",
+        "Opdage og rette et omvendt, spejlvendt eller ufærdigt tal.",
+        "Opbygge den finmotorik og blyantføring, som en tydelig håndskrift kræver."
+      ],
+      "howToPlay": [
+        "Sæt fingeren på den grønne prik i det første felt, og følg vejen. Blækket kommer frem, dér hvor din finger går.",
+        "Gør det samme i det andet felt, hvor vejen kun er en svag linje, og så i det tredje felt helt selv. Usikker? Tryk på Vis mig for at se stregerne, eller på Visk ud for at starte et felt forfra.",
+        "Når det tredje felt er færdigt, tjekker runden sig selv, og tallet bliver sagt – der er ingen timer og ingen point."
+      ],
+      "learningGoals": [
+        "Skrive hvert tal fra 0 til 9 med rigtige, ensartede streger.",
+        "Skrive et tal uden hjælp efter at have sporet det.",
+        "Lægge grunden til håndskriften, så antal og svar kan skrives ned senere."
+      ]
     }
   }
 }

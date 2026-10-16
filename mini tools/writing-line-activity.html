@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Digby's Number Trace — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #5 of the one-by-one rebuild — THE FADING LINE (K.CC.A.3,
+       writing the numerals 0–9). Shell → the two shipped instruments,
+       unchanged (the digit glyphs, the live-ink judge) → own core → this
+       activity. Bump ?v=N on EVERY change to writing-line-activity.js /
+       writing-line-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/number-trace-core.js?v=2"></script>
+  <script src="/mini-tools/stroke-trace-core.js?v=1"></script>
+  <script src="/mini-tools/writing-line-core.js?v=1"></script>
+  <script src="/mini-tools/writing-line-activity.js?v=1"></script>
+  <script>
+    LCS.mount(WritingLineActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

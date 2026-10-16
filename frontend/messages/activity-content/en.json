@@ -1712,24 +1712,24 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "A large numeral appears with a starting dot, and the child traces each stroke in order — the long line down for 1, the curve-and-foot for 2, the two bumps of 3 — to form every digit from 0 to 9 neatly. This interactive Kindergarten activity gives guided handwriting practice right in the browser on a tablet, phone, or classroom computer, with nothing to install and no account.",
-        "The big idea is that a numeral is built from strokes made in a particular order, not drawn any-which-way. Starting on the dot and following the path teaches the muscle memory of correct formation, so children avoid the common habits of starting at the bottom or reversing a number. The ten rounds move from the simpler digits (0, 1, 2, 3, 4) to the trickier ones (5, 6, 7, 8, 9), and the child traces rather than picks — the hand does the learning.",
+        "One writing line, three boxes. The first box shows the whole road of the numeral with a green start dot; the second only a faint line; the third is empty. The child writes the number with a finger in each box in turn — 0 to 9, one numeral per round — and the ink appears only where the finger has actually travelled the stroke, from its start. When the third box is done, the three numerals the child wrote stand on the line and the number is spoken. It is an interactive Kindergarten handwriting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "The big idea is the handwriting-book method — model, trace, copy — with the help fading inside one line, so the last numeral is the child’s own. Stroke order and direction are built in: a stroke only counts when it is drawn from its starting point along its path, so a numeral drawn from the bottom, or flipped, does not pass. The slips young writers make are named from the finger’s own path — started at the other end, flipped the wrong way, went round the wrong way, stopped short — and after three tries the faint line comes back to help, then the whole road. A walker can show the strokes on request, and Rub out starts a box again. Settings keep the full guide in every box for a class that needs it, or remove it for one that is ready to write alone; the paper can show three lines or one.",
         "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
       ],
       "practices": [
-        "Forming each numeral 0 through 9 with the correct starting point and stroke order",
-        "Building the fine-motor control and pencil path that neat handwriting needs",
-        "Recognizing and naming the shape of each digit as it is traced",
-        "Avoiding reversed or upside-down numbers through repeated, guided practice"
+        "Form each numeral 0 to 9 from the correct starting point, in the correct stroke order and direction",
+        "Move from tracing a full guide to writing the numeral unaided, inside one line",
+        "Notice and fix a reversed, flipped or unfinished numeral",
+        "Build the fine-motor control and pencil path that neat handwriting needs"
       ],
       "howToPlay": [
-        "A number appears with a dot showing where to begin.",
-        "Start on the dot and trace each stroke in order to form the numeral.",
-        "Finish the digit, then move on to the next number — there is no timer and no score."
+        "Put your finger on the green dot in the first box and follow the road. The ink appears where your finger goes.",
+        "Do the same in the second box, where the road is only a faint line, and then in the third box by yourself. Not sure? Press Show me to watch the strokes, or Rub out to start a box again.",
+        "When the third box is done, the round checks itself and the number is spoken — there is no timer and no score."
       ],
       "learningGoals": [
         "Write every numeral from 0 to 9 with correct, consistent strokes — the focus of Common Core K.CC.A.3",
-        "Connect the spoken number name to its written symbol",
+        "Write a numeral without a guide after tracing it",
         "Build the handwriting foundation for recording counts and answers later"
       ]
     },

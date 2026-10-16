@@ -50,6 +50,7 @@ const MANIFEST_FILES = [
   'egg-cartons-activities.json',
   'next-number-activities.json',
   'constellation-activities.json',
+  'writing-line-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',
   'cvc-builder-activities.json',

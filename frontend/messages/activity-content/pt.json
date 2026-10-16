@@ -3064,25 +3064,25 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "O cachorro Digby está aprendendo a escrever os números e quer fazer isso do jeito certo. Nesta atividade, cada algarismo aparece pontilhado, com um pontinho mostrando onde começar. A criança segue os pontos e faz o traçado, um traço de cada vez, do ponto de partida até o fim. Quando o último traço é concluído, o número se completa e o Digby fica feliz — e aí é hora de passar para o próximo, escrevendo assim todos os algarismos de 0 a 9.",
-        "A ideia de aprendizagem é simples e importante: escrever cada número na ordem certa dos traços e na direção correta, formando o algarismo com capricho e sem espelhar. Esse gesto gráfico bem feito é a base de uma escrita de números legível, e traçar os algarismos é uma das primeiras tarefas escritas da alfabetização matemática. Ao repetir o movimento com calma, a mão vai ganhando firmeza e a criança aprende a desenhar cada número com segurança.",
-        "A atividade não pede cadastro nem login. Não há cronômetro, pontuação nem competição — nada de pressa e nenhuma cobrança: cada criança segue no seu ritmo, no clima tranquilo e acolhedor de quem está só começando. É uma atividade alinhada à BNCC, na unidade temática Números, pensada para o 1º ano."
+        "Uma linha de escrita, três quadros. O primeiro quadro mostra todo o caminho do número com um ponto verde de partida; o segundo, só uma linha fraquinha; o terceiro está vazio. A criança escreve o número com o dedo em cada quadro, um de cada vez — de 0 a 9, um número por rodada —, e a tinta só aparece onde o dedo realmente percorreu o traço, desde o começo. Quando o terceiro quadro fica pronto, os três números que a criança escreveu ficam na linha e o número é falado. É uma atividade interativa de escrita para o 1º ano que roda direto no navegador, em tablets, celulares e computadores, sem instalar nada e sem conta.",
+        "A ideia central é o método do caderno de caligrafia — modelo, traçado, cópia — com a ajuda sumindo dentro de uma mesma linha, para que o último número seja o da própria criança. A ordem e a direção dos traços já vêm embutidas: um traço só conta se for feito a partir do ponto de partida, ao longo do caminho; um número começado de baixo, ou espelhado, não passa. Os erros típicos de quem está começando a escrever são nomeados a partir do caminho do dedo — começou pela outra ponta, fez espelhado, girou para o outro lado, parou antes do fim — e, depois de três tentativas, a linha fraquinha volta, depois o caminho inteiro. Um pontinho caminhante mostra os traços quando se pede, e Apagar recomeça um quadro. Os ajustes mantêm a guia completa em todos os quadros para uma turma que precisa dela, ou tiram a guia para uma turma pronta para escrever sozinha; o papel pode mostrar três linhas ou uma.",
+        "Está alinhada à BNCC: escrever os números de 0 a 9 na direção e na ordem de traços corretas. Sem cronômetro, sem pontuação — só prática tranquila e divertida."
       ],
       "practices": [
-        "Encontrar o ponto de partida e começar cada número a partir dele.",
-        "Fazer o traçado traço por traço, seguindo os pontos na ordem certa.",
-        "Escrever cada algarismo na direção correta, sem espelhar o número.",
-        "Formar todos os algarismos de 0 a 9 de maneira legível e caprichada."
+        "Formar cada número de 0 a 9 a partir do ponto de partida certo, na ordem e na direção de traços certas.",
+        "Passar do traçado com guia completa para a escrita do número sem ajuda, numa mesma linha.",
+        "Perceber e corrigir um número invertido, espelhado ou incompleto.",
+        "Desenvolver a coordenação motora fina e o caminho do lápis que uma letra caprichada precisa."
       ],
       "howToPlay": [
-        "Olhe o número pontilhado e encontre o pontinho de partida.",
-        "Trace a partir do ponto, um traço de cada vez, seguindo os pontos.",
-        "Quando o último traço termina, o número se completa — siga para o próximo com o Digby."
+        "Coloque o dedo no ponto verde do primeiro quadro e siga o caminho. A tinta aparece por onde o dedo passa.",
+        "Faça o mesmo no segundo quadro, onde o caminho é só uma linha fraquinha, e depois no terceiro quadro sozinho. Não tem certeza? Toque em Me mostra para ver os traços, ou em Apagar para recomeçar um quadro.",
+        "Quando o terceiro quadro fica pronto, a rodada se confere sozinha e o número é falado — não há cronômetro nem pontuação."
       ],
       "learningGoals": [
-        "Eu escrevo os números de 0 a 9 na direção certa.",
-        "Eu aprendo a ordem correta dos traços para formar cada algarismo.",
-        "Eu ganho confiança para escrever os números com capricho sozinho."
+        "Escrever cada número de 0 a 9 com traços corretos e constantes.",
+        "Escrever um número sem guia depois de traçá-lo.",
+        "Construir a base da escrita para registrar depois quantidades e respostas."
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

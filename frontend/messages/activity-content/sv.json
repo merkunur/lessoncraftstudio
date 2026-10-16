@@ -2407,6 +2407,29 @@
         "Förstå att räkningen kan börja var som helst, inte bara på ett.",
         "Bygga den räkna-vidare-säkerhet som addition och det fortsatta arbetet med tal vilar på."
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "En skrivrad, tre rutor. Första rutan visar siffrans hela väg med en grön startprick, den andra bara en svag linje, den tredje är tom. Barnet skriver siffran med fingret i ruta efter ruta – från 0 till 9, en siffra per omgång – och bläcket syns bara där fingret verkligen har följt strecket, från början. När tredje rutan är klar står de tre siffror barnet skrev kvar på raden och talet sägs högt. Det är en interaktiv skrivövning för förskoleklass och åk 1 som körs direkt i webbläsaren, på surfplatta, mobil och dator, utan installation och utan konto.",
+        "Kärnan är skrivbokens metod – förebild, spåra, skriv själv – där stödet tonar bort inom en och samma rad, så att den sista siffran är barnets egen. Streckföljd och skrivriktning är inbyggda: ett streck räknas bara om det dras från sin startpunkt längs sin väg, så en siffra som börjas nerifrån eller skrivs spegelvänd går inte igenom. De vanliga felen hos den som nyss börjat skriva får namn utifrån fingrets egen väg – började i andra änden, spegelvänd, åt fel håll, slutade för tidigt – och efter tre försök kommer den svaga linjen tillbaka, sedan hela vägen. En liten vandrare visar strecken på begäran, och Sudda börjar om en ruta. Inställningarna behåller hela stödet i varje ruta för en grupp som behöver det, eller tar bort det för en grupp som redan skriver själv; pappret kan visa tre linjer eller en.",
+        "Övningen följer Lgr22: skriva siffrorna 0–9 med rätt skrivriktning och streckföljd. Utan timer och utan poäng – lugn och lekfull träning."
+      ],
+      "practices": [
+        "Forma varje siffra 0–9 från rätt startpunkt, i rätt streckföljd och skrivriktning.",
+        "Gå från att spåra med fullt stöd till att skriva siffran själv, på samma rad.",
+        "Upptäcka och rätta en bakvänd, spegelvänd eller ofullständig siffra.",
+        "Bygga den finmotorik och pennföring som en tydlig handstil behöver."
+      ],
+      "howToPlay": [
+        "Sätt fingret på den gröna pricken i första rutan och följ vägen. Bläcket syns där fingret går.",
+        "Gör likadant i andra rutan, där vägen bara är en svag linje, och sedan i tredje rutan helt själv. Osäker? Tryck på Visa mig för att se strecken, eller på Sudda för att börja om en ruta.",
+        "När tredje rutan är klar kontrollerar omgången sig själv och talet sägs högt – det finns ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Skriva varje siffra 0–9 med rätta, jämna streck.",
+        "Skriva en siffra utan stöd efter att ha spårat den.",
+        "Lägga grunden för handstilen så att antal och svar kan skrivas ner senare."
+      ]
     }
   }
 }

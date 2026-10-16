@@ -2494,25 +2494,25 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Der Hund Digby lernt gerade, wie man die Zahlen schreibt — und dein Kind hilft ihm dabei. Auf dem Bildschirm erscheint eine gepunktete Zahl mit einem kleinen Startpunkt. Genau dort beginnt dein Kind und fährt die Zahl Strich für Strich nach, in der richtigen Reihenfolge. Ist der letzte Strich geschafft, wird die Zahl fertig ausgemalt — und Digby freut sich. So entstehen nacheinander alle Zahlen von 0 bis 9.",
-        "Beim Zahlenschreiben geht es um mehr als nur ums Malen: Dein Kind übt die richtige Schreibrichtung und die richtige Strichführung. Der Startpunkt und die vorgegebene Reihenfolge der Striche helfen dabei, jede Ziffer von Anfang an sauber und ohne Spiegelschrift zu formen. Genau diese geführte Strichfolge ist die Grundlage für eine sichere, gut lesbare Zahlschrift — eine der ersten schriftlichen Aufgaben im Mathematikunterricht der Grundschule.",
-        "Es gibt keine Uhr, keine Punkte und keinen Wettbewerb. Dein Kind darf jede Zahl so oft nachspuren, wie es möchte, in seinem eigenen Tempo. Diese Aktivität orientiert sich am Lehrplan der Grundschule und an der Leitidee „Zahlen und Operationen“ — und sie ist ohne Anmeldung nutzbar. Ein ruhiges, freundliches Üben, bei dem Schreibenlernen Freude macht."
+        "Eine Schreibzeile, drei Kästchen. Das erste Kästchen zeigt den ganzen Weg der Ziffer mit einem grünen Startpunkt, das zweite nur eine feine Linie, das dritte ist leer. Das Kind schreibt die Zahl mit dem Finger nacheinander in jedes Kästchen – von 0 bis 9, eine Ziffer pro Runde –, und die Tinte erscheint nur dort, wo der Finger den Strich wirklich entlanggefahren ist, vom Anfang an. Ist das dritte Kästchen fertig, stehen die drei selbst geschriebenen Ziffern auf der Zeile und die Zahl wird gesprochen. Die interaktive Schreibübung für Klasse 1 läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
+        "Der Kern ist die Methode des Schreiblehrgangs – vormachen, nachspuren, abschreiben –, bei der die Hilfe innerhalb einer Zeile weniger wird, sodass die letzte Ziffer die eigene des Kindes ist. Strichfolge und Schreibrichtung stecken fest drin: Ein Strich zählt nur, wenn er vom Startpunkt aus seinem Weg entlang gezogen wird – eine von unten begonnene oder spiegelverkehrte Ziffer geht nicht durch. Die typischen Fehler junger Schreiberinnen und Schreiber werden aus dem Weg des Fingers heraus benannt – am anderen Ende angefangen, spiegelverkehrt, andersherum, zu früh aufgehört –, und nach drei Versuchen kommt die feine Linie zurück, dann der ganze Weg. Ein Läufer macht die Striche auf Wunsch vor, und Wegwischen beginnt ein Kästchen neu. Über die Einstellungen bleibt die volle Hilfe in jedem Kästchen für eine Klasse, die sie braucht, oder sie fällt weg für eine, die schon allein schreibt; das Papier zeigt drei Linien oder eine.",
+        "Die Übung folgt der Leitidee „Zahlen und Operationen“ des Lehrplans der Grundschule: die Ziffern 0 bis 9 in der richtigen Schreibrichtung schreiben. Ohne Zeitdruck und ohne Punkte – ruhiges, spielerisches Üben."
       ],
       "practices": [
-        "Den Startpunkt finden und dort mit dem Schreiben beginnen",
-        "Jede Zahl Strich für Strich in der richtigen Reihenfolge nachspuren",
-        "Die richtige Schreibrichtung und Strichführung einüben",
-        "Die Ziffern 0 bis 9 sicher und gut lesbar formen"
+        "Jede Ziffer von 0 bis 9 vom richtigen Startpunkt aus in der richtigen Strichfolge und Schreibrichtung formen.",
+        "Vom Nachspuren mit voller Hilfe zum freien Schreiben der Ziffer kommen – innerhalb einer Zeile.",
+        "Eine umgedrehte, spiegelverkehrte oder unvollständige Ziffer erkennen und verbessern.",
+        "Die Feinmotorik und Stiftführung aufbauen, die eine saubere Handschrift braucht."
       ],
       "howToPlay": [
-        "Schau dir die gepunktete Zahl an und suche den kleinen Startpunkt.",
-        "Spure die Zahl vom Startpunkt aus Strich für Strich nach.",
-        "Ist der letzte Strich fertig, wird die Zahl ausgemalt — weiter geht es mit Digby zur nächsten Zahl."
+        "Setze den Finger im ersten Kästchen auf den grünen Punkt und folge dem Weg. Die Tinte erscheint dort, wo dein Finger langfährt.",
+        "Mach dasselbe im zweiten Kästchen, wo der Weg nur noch eine feine Linie ist, und dann im dritten Kästchen ganz allein. Nicht sicher? Tippe auf Vormachen, um die Striche zu sehen, oder auf Wegwischen, um ein Kästchen neu zu beginnen.",
+        "Ist das dritte Kästchen fertig, prüft sich die Runde von selbst und die Zahl wird gesprochen – es gibt keinen Timer und keine Punkte."
       ],
       "learningGoals": [
-        "Dein Kind schreibt die Zahlen 0 bis 9 in der richtigen Schreibrichtung.",
-        "Es lernt die korrekte Strichführung und Reihenfolge beim Formen jeder Ziffer.",
-        "Es gewinnt Sicherheit darin, Zahlen selbstständig und gut lesbar aufzuschreiben."
+        "Die Ziffern 0 bis 9 mit richtigen, gleichbleibenden Strichen schreiben.",
+        "Eine Ziffer nach dem Nachspuren ohne Hilfe schreiben.",
+        "Die Grundlage der Handschrift für das spätere Notieren von Anzahlen und Ergebnissen legen."
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

@@ -2478,6 +2478,29 @@
         "Förstå att 14 och 41 är olika tal och att en tom burk är 0",
         "Gå åt båda hållen mellan en grupp föremål och talet som anger den"
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Ett runt halsband med ett lås upptill. Barnet trycker på halsbandet och nästa pärla glider längs snöret fram till låset – på ett snöre kan pärlorna inte gå förbi varandra, så varje pärla räknas en gång och ingen hoppas över. Talet syns mitt i halsbandet medan pärlorna glider och försvinner sedan: hur många pärlor är det? Den interaktiva räkneövningen körs i webbläsaren utan något att installera.",
+        "Sedan ligger halsbandet inte still. Pärlorna glider isär, glider tätt ihop, eller så kommer en pärla till – och barnet svarar igen: hur många är det nu? Tre stora talkort finns att välja mellan. Ett fel kort får ett namn: det sista talet du räknade säger hur många det är; pärlorna flyttades bara, ingen kom på och ingen föll av; bara en pärla kom till. ”Räkna igen” finns alltid – att räkna om för att kontrollera är en bra strategi, inget fel. Korten är valda så att det rätta inte alltid är det största, det minsta eller på samma plats.",
+        "Aktiviteten följer Lgr22 – att räkna ett och ett, veta att det sista talet säger hur många det är, att antalet är detsamma hur sakerna än ligger och att nästa tal är ett mer. Läraren väljer upp till 5 eller upp till 10 pärlor och om räknetalen ska synas eller sägas högt av barnet. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Räkna varje pärla en gång, i tur och ordning, medan den glider fram till låset",
+        "Svara hur många med det sista talet man räknade",
+        "Veta att antalet är detsamma när pärlorna glider isär eller tätt ihop",
+        "Se att en pärla till ger nästa tal"
+      ],
+      "howToPlay": [
+        "Tryck på halsbandet: nästa pärla glider fram till låset. Räkna varje pärla som flyttas.",
+        "När alla pärlor har glidit över trycker du på talkortet som säger hur många det är.",
+        "Se hur halsbandet ändras och svara igen: hur många är det nu? Osäker? Tryck på ”Räkna igen”."
+      ],
+      "learningGoals": [
+        "Barnet kopplar ihop räkning och antal: det sista talet man räknar säger hur många det är",
+        "Barnet förstår att antalet är detsamma när sakerna flyttas isär eller ihop",
+        "Barnet förstår att varje nästa tal är ett mer"
+      ]
     }
   }
 }

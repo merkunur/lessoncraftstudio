@@ -1551,25 +1551,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "De vos zit op een kussentje van mos en rijgt de mooiste kralen aan een draadje. Rood, geel, blauw — klik-klik glijden de kraaltjes over het touwtje. Zijn vriendje heeft ook zo'n ketting, met heel andere kleuren, maar met precies evenveel kralen. En dat is nou net wat jij gaat maken: niet dezelfde kleuren, maar hetzelfde aantal.",
-        "Je tikt elke kraal van de vos precies één keer aan en telt hardop mee: één, twee, drie… Het laatste getal dat je noemt — ook wel resultatief tellen genoemd — vertelt je hoeveel kralen er zijn. Rijg er dan zelf evenveel. En dan komt het grote geheim: als de vos zijn ketting schudt, verstopt of de kralen uit elkaar legt, blijft het aantal precies hetzelfde. Vijf kralen blijven vijf kralen, hoe je ze ook neerlegt. Dit inzicht in getalbehoud sluit aan bij de SLO-kerndoelen voor kleuters.",
-        "Er is geen klok en geen score. Je telt en rijgt rustig in je eigen tempo. Tel je een keer mis? Dat is geen fout — dan tellen we samen nog eens, kraal voor kraal. Zodat elk kind net zo lang kan tellen en rijgen als het wil."
+        "Een ronde ketting met een slotje bovenaan. Het kind tikt op de ketting en de volgende kraal schuift langs het touwtje naar het slotje – op een touwtje kunnen kralen niet langs elkaar, dus elke kraal wordt één keer geteld en geen enkele wordt overgeslagen. Het getal staat in het midden van de ketting terwijl de kralen schuiven en verdwijnt daarna: hoeveel kralen zijn het? Deze interactieve telactiviteit werkt in de browser, zonder iets te installeren.",
+        "Dan blijft de ketting niet stil. De kralen schuiven uit elkaar, schuiven dicht tegen elkaar, of er komt nog één kraal bij – en het kind antwoordt opnieuw: hoeveel zijn het nu? Er zijn drie grote getalkaarten. Een verkeerde kaart krijgt een naam: het laatste getal dat je telde, zegt hoeveel het er zijn; de kralen zijn alleen verschoven, er kwam er geen bij en er viel er geen af; er kwam maar één kraal bij. ‘Opnieuw tellen’ is er altijd – natellen om te controleren is een goede strategie, geen fout. De kaarten zijn zo gekozen dat de goede niet steeds de grootste, de kleinste of op dezelfde plek is.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: één voor één tellen, weten dat het laatste getal zegt hoeveel het er zijn, dat het aantal hetzelfde blijft hoe de voorwerpen ook liggen, en dat elk volgend getal er één meer is. De leerkracht kiest tot en met 5 of tot en met 10 kralen, en of de telgetallen te zien zijn of door het kind hardop worden gezegd. Geen timer, geen score."
       ],
       "practices": [
-        "Elke kraal precies één keer tellen",
-        "Weten dat het laatste getal zegt hoeveel het er zijn",
-        "Zelf evenveel kralen rijgen als de vos",
-        "Ontdekken dat het aantal gelijk blijft als de ketting schudt of verschuift"
+        "Elke kraal één keer tellen, op volgorde, terwijl hij naar het slotje schuift",
+        "Met het laatste getal zeggen hoeveel het er zijn",
+        "Weten dat het aantal hetzelfde blijft als de kralen uit elkaar of tegen elkaar schuiven",
+        "Zien dat één kraal meer het volgende getal geeft"
       ],
       "howToPlay": [
-        "Tik op elke kraal van de vos om ze te tellen",
-        "Rijg je eigen ketting met evenveel kralen",
-        "Maak het slotje dicht als het klopt — ook nadat de vos schudt"
+        "Tik op de ketting: de volgende kraal schuift naar het slotje. Tel elke kraal die schuift.",
+        "Als alle kralen voorbij zijn, tik je op de kaart die zegt hoeveel het er zijn.",
+        "Kijk hoe de ketting verandert en antwoord opnieuw: hoeveel zijn het nu? Twijfel je? Tik op ‘Opnieuw tellen’."
       ],
       "learningGoals": [
-        "Tellen om te weten hoeveel: het laatste getal is het aantal",
-        "Een groepje van evenveel maken, tot tien kralen",
-        "Begrijpen dat het aantal niet verandert als de kralen bewegen"
+        "Het kind verbindt tellen met hoeveelheid: het laatste getal zegt hoeveel het er zijn",
+        "Het kind begrijpt dat het aantal hetzelfde blijft als voorwerpen uit elkaar of tegen elkaar worden geschoven",
+        "Het kind begrijpt dat elk volgend getal er één meer is"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

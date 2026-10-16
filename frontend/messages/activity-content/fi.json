@@ -1562,6 +1562,29 @@
         "Ymmärtää, että 14 ja 41 ovat eri lukuja ja että tyhjä purkki on 0",
         "Kulkea molempiin suuntiin esinejoukon ja sitä nimeävän luvun välillä"
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Pyöreä kaulakoru, jonka yläreunassa on lukko. Lapsi napauttaa korua, ja seuraava helmi liukuu nauhaa pitkin lukon luo – nauhassa helmet eivät pääse toistensa ohi, joten jokainen helmi lasketaan kerran eikä yhtään hypätä yli. Luku näkyy korun keskellä helmien liukuessa ja häviää sitten: montako helmeä on? Interaktiivinen laskemisharjoitus toimii selaimessa, eikä mitään tarvitse asentaa.",
+        "Sitten kaulakoru ei pysy paikallaan. Helmet liukuvat erilleen, liukuvat tiiviisti yhteen tai koruun tulee yksi helmi lisää – ja lapsi vastaa uudelleen: montako helmeä nyt on? Valittavana on kolme isoa lukukorttia. Väärä kortti nimetään: viimeinen laskettu luku kertoo, montako niitä on; helmet vain liikkuivat, yhtään ei tullut lisää eikä pudonnut pois; vain yksi helmi tuli lisää. ”Laske uudelleen” on aina käytettävissä – uudelleen laskeminen tarkistukseksi on hyvä keino, ei virhe. Kortit on valittu niin, ettei oikea ole aina suurin, pienin tai samassa kohdassa.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi laskee yksi kerrallaan, tietää, että viimeinen sanottu luku kertoo lukumäärän, että lukumäärä pysyy samana, vaikka esineet aseteltaisiin toisin, ja että seuraava luku on yhtä suurempi. Opettaja valitsee enintään 5 tai enintään 10 helmeä ja sen, näkyvätkö laskun luvut vai sanooko lapsi ne ääneen. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Jokaisen helmen laskeminen kerran, järjestyksessä, sen liukuessa lukon luo",
+        "Lukumäärän kertominen viimeisellä lasketulla luvulla",
+        "Sen tietäminen, että lukumäärä pysyy samana, kun helmet liukuvat erilleen tai yhteen",
+        "Sen huomaaminen, että yksi helmi lisää antaa seuraavan luvun"
+      ],
+      "howToPlay": [
+        "Napauta kaulakorua: seuraava helmi liukuu lukon luo. Laske jokainen helmi, joka liikkuu.",
+        "Kun kaikki helmet ovat liukuneet, napauta korttia, joka kertoo, montako niitä on.",
+        "Katso, miten kaulakoru muuttuu, ja vastaa uudelleen: montako helmeä nyt on? Epävarma? Napauta ”Laske uudelleen”."
+      ],
+      "learningGoals": [
+        "Lapsi yhdistää laskemisen ja lukumäärän: viimeinen laskettu luku kertoo, montako niitä on",
+        "Lapsi ymmärtää, että lukumäärä pysyy samana, kun esineitä siirretään erilleen tai yhteen",
+        "Lapsi ymmärtää, että jokainen seuraava luku on yhtä suurempi"
+      ]
     }
   }
 }

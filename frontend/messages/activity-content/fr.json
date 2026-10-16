@@ -1371,24 +1371,25 @@
     },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
-        "Le renard veut un collier avec autant de perles que celui de son amie : pas les mêmes couleurs, mais le même nombre de perles ! L'enfant compte d'abord les perles du renard, une par une, puis enfile exactement le même nombre sur son propre fil. Et même quand le renard cache son collier ou le secoue pour mélanger les perles, la réponse reste la même : le nombre, lui, ne bouge pas.",
-        "En jouant, l'enfant apprend à dénombrer une petite collection, à dire combien il y a de perles en tout (le cardinal) et à comprendre que la quantité ne change pas quand on déplace les objets : c'est l'invariance du nombre, une grande étape à la maternelle. Le jeu se joue sans minuteur, sans score et sans compte à créer, pour avancer au rythme de l'enfant, dans l'esprit des programmes officiels de l'école."
+        "Un collier rond avec un fermoir en haut. L’enfant touche le collier et la perle suivante glisse le long du fil jusqu’au fermoir : sur un fil, les perles ne peuvent pas se dépasser, donc chaque perle est comptée une fois et aucune n’est oubliée. Le nombre s’affiche au milieu du collier pendant que les perles glissent, puis s’efface : combien de perles ? Cette activité de dénombrement interactive fonctionne dans le navigateur, sans rien à installer.",
+        "Ensuite, le collier ne tient pas en place. Les perles s’écartent, se serrent, ou une perle de plus arrive, et l’enfant répond à nouveau : combien maintenant ? Trois grandes cartes nombres sont proposées. Une carte fausse est nommée : le dernier nombre compté dit combien il y en a ; les perles ont seulement bougé, aucune n’est arrivée ni tombée ; une seule perle est arrivée. « Recompter » est toujours là : recompter pour vérifier est une bonne stratégie, pas une erreur. Les cartes sont choisies pour que la bonne ne soit pas toujours la plus grande, la plus petite ou à la même place.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : dénombrer un à un, savoir que le dernier nombre dit donne la quantité, que la quantité ne change pas quand on déplace les objets, et que le nombre suivant, c’est un de plus. L’enseignant choisit jusqu’à 5 ou jusqu’à 10 perles, et si les nombres du comptage sont affichés ou dits à voix haute par l’enfant. Ni chrono ni score."
       ],
       "practices": [
-        "Compter les perles du renard une à une",
-        "Dire combien il y en a en tout (le cardinal)",
-        "Enfiler le même nombre de perles sur son collier",
-        "Comprendre que le nombre ne change pas si on déplace les perles",
-        "Repérer et corriger un oubli en recomptant"
+        "Compter chaque perle une fois, dans l’ordre, quand elle glisse jusqu’au fermoir",
+        "Dire combien il y en a avec le dernier nombre compté",
+        "Savoir que la quantité reste la même quand les perles s’écartent ou se serrent",
+        "Voir qu’une perle de plus donne le nombre suivant"
       ],
       "howToPlay": [
-        "Compte les perles du collier du renard, une par une.",
-        "Enfile autant de perles sur ton fil, puis ferme le collier."
+        "Touche le collier : la perle suivante glisse jusqu’au fermoir. Compte chaque perle qui bouge.",
+        "Quand toutes les perles sont passées, touche la carte qui dit combien il y en a.",
+        "Regarde le collier changer, puis réponds encore : combien maintenant ? Tu hésites ? Touche « Recompter »."
       ],
       "learningGoals": [
-        "Dénombrer une petite collection de perles",
-        "Connaître le nombre total (le cardinal)",
-        "Comprendre que la quantité ne change pas quand on la réorganise"
+        "Relier le comptage à la quantité : le dernier nombre compté dit combien il y en a",
+        "Comprendre qu’une quantité ne change pas quand on écarte ou rapproche les objets",
+        "Comprendre que chaque nombre suivant, c’est un de plus"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

@@ -1,0 +1,70 @@
+[
+ {
+  "id": "necklace.bead-string.k-cc-b-4",
+  "tool": "counting-necklace-activity",
+  "task_template": "counting-necklace",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.CC.B.4",
+   "grade": "K",
+   "strand": "Counting & Cardinality"
+  },
+  "params": {
+   "ranges": [
+    "to5",
+    "to10"
+   ],
+   "numbers": [
+    "shown",
+    "hidden"
+   ],
+   "twists": [
+    "spread",
+    "bunch",
+    "oneMore"
+   ],
+   "max": 10
+  },
+  "theme": null,
+  "slug": {
+   "en": "the-necklace-that-wont-hold-still",
+   "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1",
+   "fr": "compter-les-perles-du-collier-autant-gs",
+   "es": "contar-cuantos-hay-cardinalidad-preescolar",
+   "pt": "contar-contas-fazer-a-mesma-quantidade-colar-1-ano",
+   "it": "contare-fino-a-10-la-stessa-quantita-di-perline-classe-prima",
+   "nl": "tellen-hoeveel-kralen-rijg-evenveel-kleuters",
+   "sv": "rakna-parlorna-pa-halsbandet-hur-manga",
+   "da": "tael-perlerne-paa-halskaeden-hvor-mange",
+   "no": "tell-perlene-pa-halskjedet-hvor-mange",
+   "fi": "laske-helmet-kaulakorussa-montako"
+  },
+  "page_title": {
+   "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)",
+   "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1",
+   "fr": "Conservation des quantités – enfiler autant de perles, en ligne",
+   "es": "Contar cuántos hay: cardinalidad (preescolar)",
+   "pt": "Contar até 10 com a raposa: a mesma quantidade de contas — 1º ano",
+   "it": "Contare fino a 10: la stessa quantità di perline | Classe prima",
+   "nl": "Tellen: hoeveel kralen? Rijg er evenveel – kleuters",
+   "sv": "Räkna pärlorna på halsbandet – hur många är de?",
+   "da": "Tæl perlerne på halskæden – hvor mange er der?",
+   "no": "Tell perlene på halskjedet – hvor mange er det?",
+   "fi": "Laske kaulakorun helmet – montako niitä on?"
+  },
+  "page_intro": {
+   "en": "An interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.",
+   "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!",
+   "fr": "Travailler la conservation des quantités : compter les perles du renard et en enfiler exactement autant. En ligne, sans inscription.",
+   "es": "Actividad interactiva: el niño cuenta objetos uno por uno para saber cuántos hay. Cardinalidad en preescolar, alineada a la SEP, sin registro.",
+   "pt": "Conte as contas uma a uma, descubra quantas são e enfie a mesma quantidade no colar da raposa — mesmo quando ela espalha ou esconde, a quantia não muda. Atividade sem cadastro. BNCC, 1º ano.",
+   "it": "Una volpe vuole una collana con la stessa quantità di perline della sua amica: la stessa quantità, non gli stessi colori. Il bambino conta le perline una a una, toccandole, e scopre che l’ultimo numero dice quante sono. Poi infila la stessa quantità di perline e chiude la collana. Quando la volpe le nasconde o le scuote, l’occhio inganna ma la quantità non cambia. Attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+   "nl": "Tel de kralen van de vos één voor één en rijg dan je eigen ketting met evenveel kralen — ook als de vos zijn ketting schudt of even wegstopt. Het laatste getal dat je telt zegt hoeveel het er zijn, en dat aantal blijft precies gelijk, ook al schuift alles door elkaar. Interactief, tot tien kralen en helemaal zonder sommen.",
+   "sv": "Barnet räknar pärlorna på ett halsband genom att skjuta dem förbi låset, en i taget, och svarar sedan hur många de är. Sedan glider pärlorna isär, trycks ihop eller får en pärla till – ändras antalet? Interaktiv räkneövning upp till 10, anpassad efter Lgr22.",
+   "da": "Barnet tæller perlerne på en halskæde ved at skubbe dem forbi låsen én ad gangen og svarer så, hvor mange der er. Derefter glider perlerne fra hinanden, skubbes sammen eller får én perle mere – ændrer antallet sig? Interaktiv tælleøvelse til 10, tilpasset Fælles Mål.",
+   "no": "Barnet teller perlene på et halskjede ved å skyve dem forbi låsen én om gangen, og svarer så hvor mange det er. Etterpå glir perlene fra hverandre, skyves sammen eller får én perle til – endrer antallet seg? Interaktiv telleøvelse til 10, tilpasset LK20.",
+   "fi": "Lapsi laskee kaulakorun helmet liu’uttamalla ne lukon ohi yksi kerrallaan ja kertoo sitten, montako niitä on. Sen jälkeen helmet liukuvat erilleen, painuvat yhteen tai koruun tulee yksi helmi lisää – muuttuuko lukumäärä? Interaktiivinen laskemisharjoitus kymmeneen asti, OPS 2014:n mukainen."
+  },
+  "kid_prompt_template": "promptCount"
+ }
+]

@@ -1027,7 +1027,7 @@
         "Não foi dessa vez? Acrescente ou tire frutas e tente de novo — não há cronômetro nem pontuação."
       ],
       "learningGoals": [
-        "Formar qualquer número de 0 a 20 com frutas num quadro de dez duplo.",
+        "Formar qualquer número de 1 a 20 com frutas num quadro de dez duplo.",
         "Ver os números acima do dez como um dez completo e algumas unidades a mais.",
         "Construir a base de contar avançando e de valor posicional para a matemática do 1º ano."
       ]
@@ -1057,13 +1057,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Dois caixotes de madeira com dez lugares cada um — o quadro de dez duplo da sala de aula, cheio de imagens de frutas de verdade. As frutas caem lugar por lugar, uma fileira de cinco e depois a outra, e a criança escreve na lousa, com as teclas de números, quantas são — de 0 a 20. Quando o número está certo, a lousa fica dourada, a última fruta mostra o número e ele é falado em voz alta. Esta atividade interativa de contagem funciona no navegador, sem instalar nada.",
-        "Os caixotes foram feitos para os números de onze a vinte. Um caixote cheio é dez; então catorze é um caixote cheio e mais quatro — e no 14 escrito, o 1 é do caixote cheio e o 4 é do resto. Um número errado ganha nome, como faria a professora ou o professor: 41 no lugar de 14 tem os algarismos ao contrário; 4 no lugar de 14 conta só o segundo caixote; 10 no lugar de 14, só o primeiro; e um número diante de caixotes vazios pergunta qual número quer dizer “nenhuma”. Depois os caixotes ajudam sem entregar a resposta: a partir de seis frutas, primeiro aparecem 5, 10 e 15 nelas, para começar dali e continuar contando; depois de um segundo erro, os números seguem pelas frutas e param num ponto de interrogação sobre a última. O número final quem diz é a criança.",
-        "A atividade está alinhada à BNCC, no campo dos números: escrever os números de 0 a 20 e representar uma quantidade de objetos com um numeral escrito. O professor escolhe números até 10 (um caixote) ou até 20 e pode ligar a olhada rápida: um pano cobre os caixotes depois de um instante e “Espiar” levanta o pano de novo — assim as frutas são lidas pelas fileiras de cinco, e não uma por uma. Sem cronômetro e sem pontuação."
+        "Dois caixotes de madeira com dez lugares cada um — o quadro de dez duplo da sala de aula, cheio de imagens de frutas de verdade. As frutas caem lugar por lugar, uma fileira de cinco e depois a outra, e a criança escreve na lousa, com as teclas de números, quantas são — de 1 a 20. Quando o número está certo, a lousa fica dourada, a última fruta mostra o número e ele é falado em voz alta. Esta atividade interativa de contagem funciona no navegador, sem instalar nada.",
+        "Os caixotes foram feitos para os números de onze a vinte. Um caixote cheio é dez; então catorze é um caixote cheio e mais quatro — e no 14 escrito, o 1 é do caixote cheio e o 4 é do resto. Um número errado ganha nome, como faria a professora ou o professor: 41 no lugar de 14 tem os algarismos ao contrário; 4 no lugar de 14 conta só o segundo caixote; e 10 no lugar de 14, só o primeiro. Depois os caixotes ajudam sem entregar a resposta: a partir de seis frutas, primeiro aparecem 5, 10 e 15 nelas, para começar dali e continuar contando; depois de um segundo erro, os números seguem pelas frutas e param num ponto de interrogação sobre a última. O número final quem diz é a criança.",
+        "A atividade está alinhada à BNCC, no campo dos números: escrever os números de 1 a 20 e representar uma quantidade de objetos com um numeral escrito. O professor escolhe números até 10 (um caixote) ou até 20 e pode ligar a olhada rápida: um pano cobre os caixotes depois de um instante e “Espiar” levanta o pano de novo — assim as frutas são lidas pelas fileiras de cinco, e não uma por uma. Sem cronômetro e sem pontuação."
       ],
       "practices": [
         "Ler um quadro de dez duplo: um caixote cheio é dez, uma fileira cheia é cinco",
-        "Escrever o número de 0 a 20 que diz quantas frutas há",
+        "Escrever o número de 1 a 20 que diz quantas frutas há",
         "Continuar contando a partir de 5, 10 ou 15 em vez de recomeçar do um",
         "Escrever os números de onze a vinte com os algarismos na ordem certa"
       ],
@@ -3205,12 +3205,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Um pote de vidro com brinquedos e uma etiqueta vazia na tampa. A criança conta — cada brinquedo ganha uma marca quando é tocado — e escreve quantos são nas teclas de números; os algarismos aparecem na etiqueta. Ao verificar, a etiqueta é encostada no pote: os brinquedos se arrumam em tantos lugares quanto a etiqueta diz, e se ela estiver certa fica dourada e cola, enquanto o número é falado. Na outra rodada, a etiqueta já está escrita e o pote está vazio: a criança toca em brinquedos na prateleira para eles caírem dentro, até o pote ter essa quantidade. Uma atividade interativa de contar e escrever números para o 1º ano, que funciona no navegador em tablet, celular e computador, sem instalar nada e sem cadastro.",
-        "A ideia central é o caminho de ida e volta entre contar e escrever: uma quantidade contada vira um número escrito, e um número escrito vira de novo uma quantidade. Até dez, os brinquedos ficam soltos; de onze a vinte, formam fileiras, para o olho não perder o lugar. Uma etiqueta errada é respondida pelo pote, não por um xis vermelho: uma etiqueta pequena demais deixa brinquedos sem lugar, uma grande demais deixa lugares vazios tracejados, e o engano ganha nome — os algarismos ao contrário (41 por 14), só as unidades (4 por 14), o número que quer dizer “nenhum” (0 para um pote vazio). Nas configurações, os números ficam até 10 para uma turma que está começando, ou se escolhem só as rodadas de contar ou só as de encher.",
+        "A ideia central é o caminho de ida e volta entre contar e escrever: uma quantidade contada vira um número escrito, e um número escrito vira de novo uma quantidade. Até dez, os brinquedos ficam soltos; de onze a vinte, formam fileiras, para o olho não perder o lugar. Uma etiqueta errada é respondida pelo pote, não por um xis vermelho: uma etiqueta pequena demais deixa brinquedos sem lugar, uma grande demais deixa lugares vazios tracejados, e o engano ganha nome — os algarismos ao contrário (41 por 14) ou só as unidades (4 por 14). Nas configurações, os números ficam até 10 para uma turma que está começando, ou se escolhem só as rodadas de contar ou só as de encher.",
         "A atividade está alinhada à BNCC para o 1º ano, unidade Números: contar coleções até 20 e registrar a quantidade com o número escrito. Sem cronômetro e sem pontos: prática calma e divertida."
       ],
       "practices": [
         "Contar uma coleção de até 20 brinquedos marcando cada um",
-        "Escrever o número que diz quantos são, incluindo os números de 11 a 19 e o zero",
+        "Escrever o número que diz quantos são, incluindo os números de 11 a 19",
         "Ler um número e colocar essa quantidade de brinquedos no pote",
         "Comparar um número escrito com a quantidade real e ver onde ele erra"
       ],
@@ -3220,32 +3220,29 @@
         "Quando a etiqueta já está escrita, toque em brinquedos na prateleira até o pote ter essa quantidade; “Próximo” traz um pote novo."
       ],
       "learningGoals": [
-        "Escrever os números de 0 a 20 e representar uma quantidade com um número escrito",
-        "Entender que 14 e 41 são números diferentes e que um pote vazio é 0",
+        "Escrever os números de 1 a 20 e representar uma quantidade com um número escrito",
+        "Entender que 14 e 41 são números diferentes",
         "Ir e voltar entre um grupo de objetos e o número que o nomeia"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
         "Todo dia de manhã, a Mamãe Pata faz a chamada na beira do riacho. Ela olha para a balsa cheia de patinhos e pede um número certinho: \"Preciso de 4 patinhos!\" Aí é a sua vez de ajudar — você conta os patinhos um por um, tira eles da balsa e manda cada um atravessar a água até a Mamãe. Quando a quantidade fica exata, você assina a chamada escrevendo aquele número no barro macio, tracinho por tracinho.",
-        "A ideia é contar exatamente o que foi pedido — nem mais, nem menos — e saber a hora de parar no número certo. Depois, a criança escreve o algarismo de 0 a 9 que diz quantos patinhos foram. E tem um detalhe bonito: até uma manhã bem quietinha, quando nenhum patinho é chamado, também tem um número. Esse número é o zero!",
+        "A ideia é contar exatamente o que foi pedido — nem mais, nem menos — e saber a hora de parar no número certo. Depois, a criança escreve o algarismo que diz quantos patinhos foram.",
         "A atividade não pede cadastro nem login. Não existe cronômetro, pontuação nem competição: cada criança vai no seu ritmo, sem pressa e sem medo de errar. Se contar demais, é só devolver um patinho para a balsa e tentar de novo, com calma. A proposta está alinhada à BNCC, na unidade temática \"Números\"."
       ],
       "practices": [
         "Contar exatamente a quantidade pedida, parando no número certo (nem mais, nem menos).",
         "Enviar um patinho de cada vez, ligando cada contagem a um patinho de verdade.",
-        "Escrever o algarismo de 0 a 9 que diz quantos patinhos foram enviados.",
-        "Entender que o zero também é um número — uma manhã sem patinhos ainda tem quantidade: nenhuma!"
+        "Escrever o algarismo que diz quantos patinhos foram enviados."
       ],
       "howToPlay": [
         "A Mamãe Pata pede um número — envie essa quantidade exata de patinhos, um por um, da balsa até ela.",
-        "Escreva o número no barro, tracinho por tracinho, para assinar a chamada.",
-        "Até uma manhã quietinha tem número: quando ninguém é chamado, o número é o zero!"
+        "Escreva o número no barro, tracinho por tracinho, para assinar a chamada."
       ],
       "learningGoals": [
         "Eu conto a quantidade certa de patinhos e sei a hora de parar.",
-        "Eu escrevo o número de 0 a 9 que diz quantos são.",
-        "Eu entendo que o zero também é um número."
+        "Eu escrevo o número que diz quantos são."
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

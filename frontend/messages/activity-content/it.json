@@ -1523,7 +1523,7 @@
         "Non torna? Aggiunge o toglie frutti e riprova: non c'è timer né punteggio."
       ],
       "learningGoals": [
-        "Formare qualsiasi numero da 0 a 20 con i frutti sulla doppia tabella del dieci.",
+        "Formare qualsiasi numero da 1 a 20 con i frutti sulla doppia tabella del dieci.",
         "Vedere i numeri oltre il dieci come una decina intera più alcune unità.",
         "Costruire le basi del contare-oltre e del valore posizionale per la matematica della classe prima."
       ]
@@ -1553,13 +1553,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Due cassette di legno con dieci posti ciascuna: la doppia tabella del dieci della classe, piena di immagini di frutta vera. I frutti cadono un posto dopo l’altro, prima una fila di cinque, poi l’altra, e il bambino scrive sulla lavagnetta, con i tasti dei numeri, quanti sono, da 0 a 20. Quando il numero è giusto la lavagnetta diventa dorata, l’ultimo frutto porta il numero e lo si sente pronunciare. Questa attività interattiva di conteggio funziona nel browser, senza installare nulla.",
-        "Le cassette sono pensate per i numeri da undici a venti. Una cassetta piena è dieci, quindi quattordici è una cassetta piena e altri quattro, e nel 14 scritto l’1 sta per la cassetta piena e il 4 per il resto. Un numero sbagliato viene chiamato per nome, come farebbe l’insegnante: 41 al posto di 14 ha le cifre al contrario; 4 al posto di 14 conta solo la seconda cassetta; 10 al posto di 14, solo la prima; e un numero davanti a cassette vuote chiede quale numero vuol dire «nessuno». Poi le cassette aiutano senza dare la risposta: da sei frutti in su, prima compaiono 5, 10 e 15 sui frutti, per partire da lì e continuare a contare; dopo un secondo errore i numeri avanzano sui frutti e si fermano su un punto interrogativo sull’ultimo. Il numero finale lo dice il bambino.",
-        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: scrivere i numeri da 0 a 20 e rappresentare una quantità di oggetti con un numero scritto. L’insegnante sceglie i numeri fino a 10 (una cassetta) o fino a 20 e può attivare l’occhiata veloce: un telo copre le cassette dopo un momento e «Sbircia» lo solleva di nuovo, così i frutti si leggono per file da cinque invece di contarli uno per uno. Nessun timer e nessun punteggio."
+        "Due cassette di legno con dieci posti ciascuna: la doppia tabella del dieci della classe, piena di immagini di frutta vera. I frutti cadono un posto dopo l’altro, prima una fila di cinque, poi l’altra, e il bambino scrive sulla lavagnetta, con i tasti dei numeri, quanti sono, da 1 a 20. Quando il numero è giusto la lavagnetta diventa dorata, l’ultimo frutto porta il numero e lo si sente pronunciare. Questa attività interattiva di conteggio funziona nel browser, senza installare nulla.",
+        "Le cassette sono pensate per i numeri da undici a venti. Una cassetta piena è dieci, quindi quattordici è una cassetta piena e altri quattro, e nel 14 scritto l’1 sta per la cassetta piena e il 4 per il resto. Un numero sbagliato viene chiamato per nome, come farebbe l’insegnante: 41 al posto di 14 ha le cifre al contrario; 4 al posto di 14 conta solo la seconda cassetta; e 10 al posto di 14, solo la prima. Poi le cassette aiutano senza dare la risposta: da sei frutti in su, prima compaiono 5, 10 e 15 sui frutti, per partire da lì e continuare a contare; dopo un secondo errore i numeri avanzano sui frutti e si fermano su un punto interrogativo sull’ultimo. Il numero finale lo dice il bambino.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: scrivere i numeri da 1 a 20 e rappresentare una quantità di oggetti con un numero scritto. L’insegnante sceglie i numeri fino a 10 (una cassetta) o fino a 20 e può attivare l’occhiata veloce: un telo copre le cassette dopo un momento e «Sbircia» lo solleva di nuovo, così i frutti si leggono per file da cinque invece di contarli uno per uno. Nessun timer e nessun punteggio."
       ],
       "practices": [
         "Leggere la doppia tabella del dieci: una cassetta piena è dieci, una fila piena è cinque",
-        "Scrivere il numero da 0 a 20 che dice quanti frutti ci sono",
+        "Scrivere il numero da 1 a 20 che dice quanti frutti ci sono",
         "Continuare a contare da 5, 10 o 15 invece di ripartire da uno",
         "Scrivere i numeri da undici a venti con le cifre nell’ordine giusto"
       ],
@@ -3211,12 +3211,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Un barattolo di vetro pieno di giocattoli con un’etichetta vuota sul coperchio. Il bambino conta – ogni giocattolo riceve un segno quando lo si tocca – e scrive quanti sono con i tasti dei numeri; le cifre compaiono sull’etichetta. Al controllo l’etichetta viene accostata al barattolo: i giocattoli si sistemano in tanti posti quanti ne dice l’etichetta, e se è giusta diventa dorata e si attacca, mentre il numero viene detto ad alta voce. Nell’altro tipo di turno l’etichetta è già scritta e il barattolo è vuoto: il bambino tocca i giocattoli sulla mensola per farli cadere dentro, finché il barattolo ne contiene altrettanti. Un’attività interattiva per contare e scrivere i numeri, per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
-        "L’idea centrale è l’andata e ritorno del lavoro sui numeri: una quantità contata diventa un numero scritto, e un numero scritto torna a essere una quantità. Fino a dieci i giocattoli stanno sparsi; da undici a venti stanno in file, così l’occhio non perde il segno. A un’etichetta sbagliata risponde il barattolo, non una croce rossa: un’etichetta troppo piccola lascia giocattoli senza posto, una troppo grande lascia posti vuoti tratteggiati, e l’errore ha un nome – le cifre al contrario (41 per 14), solo le unità (4 per 14), il numero che vuol dire «nessuno» (0 per un barattolo vuoto). Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure si scelgono solo i turni del contare o solo quelli del riempire.",
+        "L’idea centrale è l’andata e ritorno del lavoro sui numeri: una quantità contata diventa un numero scritto, e un numero scritto torna a essere una quantità. Fino a dieci i giocattoli stanno sparsi; da undici a venti stanno in file, così l’occhio non perde il segno. A un’etichetta sbagliata risponde il barattolo, non una croce rossa: un’etichetta troppo piccola lascia giocattoli senza posto, una troppo grande lascia posti vuoti tratteggiati, e l’errore ha un nome – le cifre al contrario (41 per 14) o solo le unità (4 per 14). Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure si scelgono solo i turni del contare o solo quelli del riempire.",
         "L’attività segue le Indicazioni nazionali per la classe prima, ambito «Numeri»: contare raccolte fino a 20 e scrivere il numero. Senza timer e senza punteggio: un esercizio calmo e giocoso."
       ],
       "practices": [
         "Contare una raccolta di giocattoli fino a 20 segnando ciascuno",
-        "Scrivere il numero che dice quanti sono, compresi i numeri da 11 a 19 e lo zero",
+        "Scrivere il numero che dice quanti sono, compresi i numeri da 11 a 19",
         "Leggere un numero e mettere altrettanti giocattoli nel barattolo",
         "Confrontare un numero scritto con la quantità reale e vedere dove sbaglia"
       ],
@@ -3226,21 +3226,20 @@
         "Quando l’etichetta è già scritta, tocca i giocattoli sulla mensola finché il barattolo ne contiene altrettanti; «Avanti» porta un barattolo nuovo."
       ],
       "learningGoals": [
-        "Scrivere i numeri da 0 a 20 e rappresentare una quantità con un numero scritto",
-        "Capire che 14 e 41 sono numeri diversi e che un barattolo vuoto è 0",
+        "Scrivere i numeri da 1 a 20 e rappresentare una quantità con un numero scritto",
+        "Capire che 14 e 41 sono numeri diversi",
         "Passare nei due sensi da un gruppo di oggetti al numero che lo nomina"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
         "È mattina al laghetto e Mamma Papera fa l’appello: chiama i suoi anatroccoli e tuo figlio le manda dalla zattera esattamente il numero che chiede, contandoli uno per uno.",
-        "L’attività allena a contare la quantità giusta di anatroccoli e poi a scrivere il numero corrispondente da 0 a 9, compreso lo zero, perché anche una mattina tranquilla ha il suo numero.",
+        "L’attività allena a contare la quantità giusta di anatroccoli e poi a scrivere il numero corrispondente.",
         "È pensata sulle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
       ],
       "practices": [
         "Contare e mandare la quantità giusta di anatroccoli",
-        "Scrivere il numero da 0 a 9",
-        "Capire che anche lo zero è un numero",
+        "Scrivere il numero che dice quanti sono",
         "Contare solo gli anatroccoli giusti (per esempio solo quelli gialli)"
       ],
       "howToPlay": [
@@ -3250,8 +3249,7 @@
       ],
       "learningGoals": [
         "Tuo figlio impara a contare e mandare la quantità giusta",
-        "Tuo figlio impara a scrivere il numero da 0 a 9",
-        "Tuo figlio impara a capire che lo zero è un numero"
+        "Tuo figlio impara a scrivere il numero che dice quanti sono"
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

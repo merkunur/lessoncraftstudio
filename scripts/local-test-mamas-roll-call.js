@@ -10,10 +10,10 @@
      • FORM-WITHOUT-SEND: signing + forming with 0 sent → mismatch (no seal) +
        a non-directional re-do (fresh raft).
      • WRONG COUNT: sending N−1 → mismatch.
-     • 0-CASE: send zero → form "0" → seal.
+     • no round asks for 0 (removed 2026-10-16).
      • DISTRACT: sending a wrong-KIND duck blocks the seal.
      • MATCH-SET (group target) / COUNT-SET / RUNNING-TOTAL / SCATTER seal.
-     • ≥7 act-types + reshuffle; no overflow 280→768.
+     • ≥7 distinct rounds (6 act-types) + reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
 const http = require('http');
@@ -105,13 +105,14 @@ function serve() {
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
     note(title === "Mama's Roll Call", `header title "${title}"`);
 
-    /* variety/shuffle + ≥7 act-types */
+    /* variety/shuffle: ≥7 distinct rounds + reshuffle; 6 act-types */
     const N = await page.evaluate(() => window.MamasRollCallActivity._pool.length);
     const ids = await page.evaluate((c) => { const t = window.MamasRollCallActivity, out = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return out; }, 2 * N);
     note(new Set(ids.slice(0, N)).size >= 7, `only ${new Set(ids.slice(0, N)).size} distinct rounds (<7)`);
     note(ids.slice(0, N).join(',') !== ids.slice(N, 2 * N).join(',') || N < 2, 'second pass did not reshuffle');
     const acts = await page.evaluate(() => new Set(window.MamasRollCallActivity._activityRow.params.rounds.map(r => r.act_type)).size);
-    note(acts >= 7, `only ${acts} distinct act-types`);
+    /* the zero act-type left with the rule "counting activities never include 0" (2026-10-16): six act-types over eight distinct rounds */
+    note(acts >= 6, `only ${acts} distinct act-types`);
 
     /* COUNT-OUT→SIGN→SEAL + NO REACTION DURING COUNT-OUT (swim-six, n=6) */
     await force('swim-six');
@@ -138,9 +139,8 @@ function serve() {
     await force('swim-six'); await sendN(5); await goSign(); await formAll();
     note(!(await solved()), 'sending 5 when 6 were called still sealed');
 
-    /* 0-CASE (none-sleep) → send zero, form "0" */
-    await force('none-sleep'); await goSign(); await formAll();
-    note(await solved(), 'the zero roll did not seal by sending none + forming "0"');
+    /* no round asks for 0 (operator 2026-10-16: counting activities never include 0) */
+    note(JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'mini tools', 'mamas-roll-call-activities.json'), 'utf8'))[0].params.rounds.every(r => !r.call || r.call.n >= 1), 'a round still asks Mama for 0 ducklings');
 
     /* DISTRACT (yellow-six): a wrong-kind send blocks the seal */
     await force('yellow-six');
@@ -192,6 +192,6 @@ function serve() {
     fails.forEach(f => console.error('  • ' + f));
     process.exit(1);
   }
-  console.log('MAMAS-ROLL-CALL LOCAL TEST PASSED — count-out→sign→seal (no counter/seal mid-send); form-without-send → mismatch + fresh re-do; wrong count → mismatch; 0-case seals; a wrong-kind send blocks the seal; match-set/count-set/running-total/scatter seal; ≥7 act-types + reshuffle; no overflow 280→768.');
+  console.log('MAMAS-ROLL-CALL LOCAL TEST PASSED — count-out→sign→seal (no counter/seal mid-send); form-without-send → mismatch + fresh re-do; wrong count → mismatch; no round asks for 0; a wrong-kind send blocks the seal; match-set/count-set/running-total/scatter seal; ≥7 distinct rounds (6 act-types) + reshuffle; no overflow 280→768.');
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

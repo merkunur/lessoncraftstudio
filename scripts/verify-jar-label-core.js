@@ -21,7 +21,6 @@ const rev = (n) => parseInt(String(n).split('').reverse().join(''), 10);
 function slip(a, n) {
   if (a === null) return 'none';
   if (a === n) return 'right';
-  if (n === 0) return 'zero';
   if (a >= 10 && rev(a) === n && a % 10 !== 0) return 'reversed';
   if (a >= 1 && a < 10 && n >= 10 && n % 10 === a) return 'oneDigit';
   return a < n ? 'more' : 'fewer';
@@ -31,8 +30,8 @@ is(C.MAX === 20 && C.DIGITS === 2 && C.THEME === 'toys' && C.LOOSE_MAX === 10, '
 is(C.NOUNS.length >= 10 && new Set(C.NOUNS).size === C.NOUNS.length, `${C.NOUNS.length} distinct toys`);
 
 /* 1. the slip table */
-for (const [a, n, w] of [[14, 14, 'right'], [41, 14, 'reversed'], [31, 13, 'reversed'], [4, 14, 'oneDigit'], [0, 10, 'more'], [0, 20, 'more'], [1, 11, 'oneDigit'], [13, 14, 'more'], [15, 14, 'fewer'], [3, 0, 'zero'], [0, 0, 'right'], [null, 5, 'none'], [20, 2, 'fewer'], [2, 20, 'more'], [12, 21, 'reversed'], [10, 1, 'fewer'], [1, 10, 'more']]) is(C.classify(a, n) === w, `classify(${a}, ${n}) = ${w} (got ${C.classify(a, n)})`);
-let dis = 0; for (let a = 0; a <= 99; a++) for (let n = 0; n <= 20; n++) if (C.classify(a, n) !== slip(a, n)) dis++;
+for (const [a, n, w] of [[14, 14, 'right'], [41, 14, 'reversed'], [31, 13, 'reversed'], [4, 14, 'oneDigit'], [0, 10, 'more'], [0, 20, 'more'], [1, 11, 'oneDigit'], [13, 14, 'more'], [15, 14, 'fewer'], [null, 5, 'none'], [20, 2, 'fewer'], [2, 20, 'more'], [12, 21, 'reversed'], [10, 1, 'fewer'], [1, 10, 'more']]) is(C.classify(a, n) === w, `classify(${a}, ${n}) = ${w} (got ${C.classify(a, n)})`);
+let dis = 0; for (let a = 0; a <= 99; a++) for (let n = 1; n <= 20; n++) if (C.classify(a, n) !== slip(a, n)) dis++;
 is(dis === 0, `the slip table agrees with the gate's on every pair (${dis})`);
 
 /* 2. the pools */
@@ -41,17 +40,17 @@ function audit(range, want) {
   is(all.length === want.count.length + want.fill.length && cnt.length === want.count.length && fil.length === want.fill.length, `${range}: ${all.length} rounds (${cnt.length} count + ${fil.length} fill)`);
   is(cnt.map(r => r.n).join() === want.count.join() && cnt.every(r => r.kind === 'count'), `${range}: count rounds ${want.count.join(' ')}`);
   is(fil.map(r => r.n).join() === want.fill.join() && fil.every(r => r.kind === 'fill'), `${range}: fill rounds ${want.fill.join(' ')}`);
-  is(all.every(r => r.n >= 0 && r.n <= want.max && Number.isInteger(r.n)), `${range}: every n within 0..${want.max}`);
+  is(all.every(r => r.n >= 1 && r.n <= want.max && Number.isInteger(r.n)), `${range}: every n within 1..${want.max} — never 0`);
   is(new Set(all.map(r => r.id)).size === all.length, `${range}: ids distinct`);
   is(all.every(r => C.NOUNS.includes(r.noun)) && new Set(all.map(r => r.noun)).size >= Math.min(C.NOUNS.length, all.length) - 0, `${range}: a library toy per round, rotated (${new Set(all.map(r => r.noun)).size} distinct)`);
   is(JSON.stringify(C.rounds(range, 'both', 'jl')) === JSON.stringify(all) && C.rounds(range, 'both', 'x').some((r, i) => r.noun !== all[i].noun), `${range}: deterministic per seed, seeds differ`);
   return all;
 }
-const R20 = audit('to20', { count: [0, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], fill: [7, 12, 15], max: 20 });
-const R10 = audit('to10', { count: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], fill: [3, 5, 8], max: 10 });
+const R20 = audit('to20', { count: [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], fill: [7, 12, 15], max: 20 });
+const R10 = audit('to10', { count: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], fill: [3, 5, 8], max: 10 });
 is(R20.filter(r => r.kind === 'count' && r.n >= 11 && r.n <= 19).length === 9, 'to20: every teen 11…19 is a count round');
-is(R20.some(r => r.n === 0) && R10.some(r => r.n === 0), 'zero is a round in both ranges');
-is(C.rounds('nonsense', 'nonsense', 'jl').length === 17, 'unknown range/task fall back to to20 / both');
+is(!R20.some(r => r.n === 0) && !R10.some(r => r.n === 0) && R10.some(r => r.kind === 'count' && r.n === 1), 'no round asks for 0 (operator 2026-10-16); to 10 starts at 1');
+is(C.rounds('nonsense', 'nonsense', 'jl').length === 16, 'unknown range/task fall back to to20 / both');
 
 /* 3. count rounds: typing, marks, check, places */
 for (const r of R20.concat(R10).filter(r => r.kind === 'count')) {
@@ -90,7 +89,6 @@ for (const r of R20.concat(R10).filter(r => r.kind === 'count')) {
   is(res.ok && res.slip === 'right' && st.done && C.verdict(st) === 'done' && C.places(st).length === 0, `${r.id}: the right label sticks`);
   is(!C.typeDigit(st, 5) && !C.erase(st) && !C.toggleMark(st, 0) && C.check(st).ok, `${r.id}: nothing moves when done`);
   /* the zero round takes only 0 */
-  if (r.n === 0) { const z = C.newState(r); z.typed = '1'; is(C.check(z).slip === 'zero', `${r.id}: 1 on an empty jar → zero`); z.typed = '0'; is(C.check(z).ok, `${r.id}: 0 sticks`); }
 }
 
 /* 4. fill rounds: the shelf */

@@ -37,7 +37,6 @@ var HowManyActivity = {
     title:         {en:'How Many?',de:'Wie viele?',fr:'Combien ?',it:'Quanti sono?',es:'¿Cuántos hay?',pt:'Quantos são?',nl:'Hoeveel?',sv:'Hur många?',da:'Hvor mange?',no:'Hvor mange?',fi:'Kuinka monta?'},
     instruction:   {en:"Tap each one and say its number. Then tap the number that tells how many.",de:"Tippe eins nach dem anderen an und sag die Zahl dazu. Tippe dann auf die Zahl, die sagt, wie viele es sind.",fr:"Touche-les un par un en disant le nombre. Puis touche le nombre qui dit combien il y en a.",it:"Toccali uno per uno dicendo il numero. Poi tocca il numero che dice quanti sono.",es:"Toca uno por uno diciendo el número. Luego toca el número que dice cuántos hay.",pt:"Toque em um de cada vez dizendo o número. Depois toque no número que diz quantos são.",nl:"Tik ze één voor één aan en zeg het getal. Tik daarna op het getal dat zegt hoeveel het er zijn.",sv:"Tryck på en i taget och säg talet. Tryck sedan på talet som säger hur många det är.",da:"Tryk på dem én ad gangen og sig tallet. Tryk så på det tal, der siger hvor mange der er.",no:"Trykk på én om gangen og si tallet. Trykk så på det tallet som sier hvor mange det er.",fi:"Napauta yksi kerrallaan ja sano luku. Napauta sitten numeroa, joka kertoo, kuinka monta niitä on."},
     prompt:        {en:"Tap each one to count. Then tap how many.",de:"Tippe eins nach dem anderen an und zähle. Tippe dann auf die Zahl.",fr:"Touche-les un par un pour compter. Puis touche le nombre.",it:"Toccali uno per uno per contare. Poi tocca il numero.",es:"Toca uno por uno para contar. Luego toca el número.",pt:"Toque em cada um para contar. Depois toque no número.",nl:"Tik ze één voor één aan om te tellen. Tik daarna op het getal.",sv:"Tryck på en i taget och räkna. Tryck sedan på talet.",da:"Tryk på dem én ad gangen og tæl. Tryk så på tallet.",no:"Trykk på én om gangen og tell. Trykk så på tallet.",fi:"Napauta yksi kerrallaan ja laske. Napauta sitten numeroa."},
-    promptZero:    {en:'The table is empty. How many? Tap the number.',de:'Der Tisch ist leer. Wie viele? Tippe auf die Zahl.',fr:'La table est vide. Combien ? Touche le nombre.',it:'Il tavolo è vuoto. Quanti sono? Tocca il numero.',es:'La mesa está vacía. ¿Cuántos hay? Toca el número.',pt:'A mesa está vazia. Quantos são? Toque no número.',nl:'De tafel is leeg. Hoeveel? Tik op het getal.',sv:'Bordet är tomt. Hur många? Tryck på talet.',da:'Bordet er tomt. Hvor mange? Tryk på tallet.',no:'Bordet er tomt. Hvor mange? Trykk på tallet.',fi:'Pöytä on tyhjä. Kuinka monta? Napauta numeroa.'},
     matLabel:      {en:"The counting table",de:"Der Zähltisch",fr:"La table à compter",it:"Il tavolo per contare",es:"La mesa de contar",pt:"A mesa de contar",nl:"De telmat",sv:"Räknebordet",da:"Tællebordet",no:"Tellebordet",fi:"Laskupöytä"},
     railLabel:     {en:'How many?',de:'Wie viele?',fr:'Combien ?',it:'Quanti sono?',es:'¿Cuántos hay?',pt:'Quantos são?',nl:'Hoeveel?',sv:'Hur många?',da:'Hvor mange?',no:'Hvor mange?',fi:'Kuinka monta?'},
     again:         {en:'Count again',de:'Noch mal zählen',fr:'Recompter',it:'Conta di nuovo',es:'Contar otra vez',pt:'Contar de novo',nl:'Opnieuw tellen',sv:'Räkna igen',da:'Tæl igen',no:'Tell igjen',fi:'Laske uudelleen'},
@@ -57,8 +56,8 @@ var HowManyActivity = {
     arrCircle:     {en:"In a circle (3 to 6)",de:"Im Kreis (3 bis 6)",fr:"En cercle (3 à 6)",it:"In cerchio (da 3 a 6)",es:"En círculo (3 a 6)",pt:"Em círculo (3 a 6)",nl:"In een kring (3 t/m 6)",sv:"I en ring (3 till 6)",da:"I rundkreds (3 til 6)",no:"I en ring (3 til 6)",fi:"Ympyrässä (3–6)"},
     arrScatter:    {en:"Scattered",de:"Verstreut",fr:"Éparpillée",it:"Sparsi",es:"Dispersos",pt:"Espalhados",nl:"Verspreid",sv:"Utspridda",da:"Spredt",no:"Spredt",fi:"Hajallaan"},
     setRange:      {en:'Numbers',de:'Zahlen',fr:'Nombres',it:'Numeri',es:'Números',pt:'Números',nl:'Getallen',sv:'Tal',da:'Tal',no:'Tall',fi:'Luvut'},
-    range5:        {en:"0 to 5",de:"0 bis 5",fr:"de 0 à 5",it:"da 0 a 5",es:"de 0 a 5",pt:"de 0 a 5",nl:"0 t/m 5",sv:"0 till 5",da:"0 til 5",no:"0 til 5",fi:"0–5"},
-    range10:       {en:"0 to 10",de:"0 bis 10",fr:"de 0 à 10",it:"da 0 a 10",es:"de 0 a 10",pt:"de 0 a 10",nl:"0 t/m 10",sv:"0 till 10",da:"0 til 10",no:"0 til 10",fi:"0–10"}
+    range5:        {en:"1 to 5",de:"1 bis 5",fr:"de 1 à 5",it:"da 1 a 5",es:"de 1 a 5",pt:"de 1 a 5",nl:"1 t/m 5",sv:"1 till 5",da:"1 til 5",no:"1 til 5",fi:"1–5"},
+    range10:       {en:"1 to 10",de:"1 bis 10",fr:"de 1 à 10",it:"da 1 a 10",es:"de 1 a 10",pt:"de 1 a 10",nl:"1 t/m 10",sv:"1 till 10",da:"1 til 10",no:"1 til 10",fi:"1–10"}
   },
 
   defaults: { arrangement: 'auto', range: '10' },
@@ -83,7 +82,7 @@ var HowManyActivity = {
     this.themeDir = this.FALLBACK_THEME;
     this.theme = null;                       // the lcs-pictures index once loaded
     this.nouns = this.FALLBACK_NOUNS.slice();
-    this.range = { min: 0, max: 10 };
+    this.range = { min: 1, max: 10 };   /* counting never asks for 0 (operator 2026-10-16) */
     this.st = null;
     this._order = null; this._curPass = 0; this._pool = null; this._poolW = 0;
     this._nounOrder = null;
@@ -99,7 +98,7 @@ var HowManyActivity = {
       : Promise.resolve(null);
     rowP.then(function (row) {
       if (row && row.params) {
-        if (row.params.range) self.range = { min: Number(row.params.range.min) || 0, max: Number(row.params.range.max) || 10 };
+        if (row.params.range) self.range = { min: Math.max(1, Number(row.params.range.min) || 1), max: Number(row.params.range.max) || 10 };
         if (row.params.theme) self.themeDir = row.params.theme;
         if (Array.isArray(row.params.nouns) && row.params.nouns.length) self.nouns = row.params.nouns.slice();
       }
@@ -117,7 +116,7 @@ var HowManyActivity = {
   destroy: function () { if (this._ro) { try { this._ro.disconnect(); } catch (e) {} this._ro = null; } },
 
   onSettings: function (key, val) {
-    if (key === 'range') this.range = { min: 0, max: val === '5' ? 5 : 10 };
+    if (key === 'range') this.range = { min: 1, max: val === '5' ? 5 : 10 };
     /* both settings rebuild the pool: an arrangement is honoured by serving
        only the counts it can show (a line: 1-5; a circle: 3-8; rows: 4,6,8,9,10),
        so the drawer never does nothing (settings-efficacy, §21.4) */
@@ -167,7 +166,7 @@ var HowManyActivity = {
     var round = { n: r.n, arr: r.arr, seed: r.seed + ':' + index, noun: noun };
     return {
       id: 'how-many.' + r.n + '.' + r.arr + '.' + noun,
-      promptKey: r.n === 0 ? 'promptZero' : 'prompt',
+      promptKey: 'prompt',
       promptArgs: { n: r.n },
       celebrateKey: 'celebrate',
       answerType: 'state',
@@ -233,11 +232,11 @@ var HowManyActivity = {
     nums.setAttribute('aria-label', t('railLabel'));
     this._nums = [];
     /* one row of numerals when the mat is wide enough (a number line the eye
-       reads left to right); on a phone two deliberate rows, 0-5 over 6-10 —
+       reads left to right); on a phone two deliberate rows, 1-5 over 6-10 —
        never a dangling orphan row */
     var count = this.range.max - this.range.min + 1;
     var oneRowW = count * 44 + (count - 1) * 4;                   // eleven 44px chips, 4px apart
-    var perRow = (count > 6 && W < oneRowW) ? 6 : count;
+    var perRow = (count > 6 && W < oneRowW) ? Math.ceil(count / 2) : count;
     var chip = Math.max(44, Math.min(52, Math.floor((W - (perRow - 1) * 4) / perRow)));   // 44 = the tap floor
     nums.style.setProperty('--hm-chip', chip + 'px');
     var rowEl = null;

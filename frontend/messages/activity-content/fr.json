@@ -2376,7 +2376,7 @@
         "Pas tout à fait ? Ajoute ou retire des fruits et réessaie — il n'y a ni chrono ni score."
       ],
       "learningGoals": [
-        "Former n'importe quel nombre de 0 à 20 avec des jetons sur un cadre de dix double.",
+        "Former n'importe quel nombre de 1 à 20 avec des jetons sur un cadre de dix double.",
         "Voir les nombres au-delà de dix comme un dix complet et quelques unités en plus.",
         "Construire les bases du comptage en avançant et des valeurs de position pour les maths du CP."
       ]
@@ -2406,13 +2406,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Deux cagettes en bois de dix cases chacune : le double cadre de dix de la classe, rempli de vrais fruits en images. Les fruits tombent case après case, une rangée de cinq, puis la suivante, et l’enfant écrit combien il y en a sur une ardoise avec les touches des chiffres, de 0 à 20. Quand le nombre est juste, l’ardoise devient dorée, le dernier fruit porte le nombre et on l’entend. Cette activité de numération interactive fonctionne dans le navigateur, sans rien à installer.",
-        "Les cagettes sont faites pour les nombres de onze à vingt. Une cagette pleine, c’est dix : quatorze, c’est une cagette pleine et encore quatre — et dans le nombre écrit 14, le 1 est pour la cagette pleine et le 4 pour le reste. Un nombre faux est nommé comme le ferait l’enseignant : 41 pour 14, les chiffres sont inversés ; 4 pour 14 ne compte que la deuxième cagette ; 10 pour 14, seulement la première ; et un nombre devant des cagettes vides demande quel nombre veut dire « aucun ». Puis les cagettes aident sans donner la réponse : dès six fruits, 5, 10 et 15 apparaissent d’abord sur les fruits, pour partir de là et surcompter ; après une deuxième erreur, les nombres avancent sur les fruits et s’arrêtent sur un point d’interrogation posé sur le dernier. C’est l’enfant qui dit le dernier nombre.",
-        "L’activité suit les programmes officiels : écrire les nombres de 0 à 20 et représenter une quantité par un nombre écrit. L’enseignant choisit les nombres jusqu’à 10 (une cagette) ou jusqu’à 20, et peut activer le coup d’œil rapide : un tissu couvre les cagettes après un instant et « Regarder » le soulève — on lit alors les fruits par rangées de cinq au lieu de les compter un par un. Ni chrono ni score."
+        "Deux cagettes en bois de dix cases chacune : le double cadre de dix de la classe, rempli de vrais fruits en images. Les fruits tombent case après case, une rangée de cinq, puis la suivante, et l’enfant écrit combien il y en a sur une ardoise avec les touches des chiffres, de 1 à 20. Quand le nombre est juste, l’ardoise devient dorée, le dernier fruit porte le nombre et on l’entend. Cette activité de numération interactive fonctionne dans le navigateur, sans rien à installer.",
+        "Les cagettes sont faites pour les nombres de onze à vingt. Une cagette pleine, c’est dix : quatorze, c’est une cagette pleine et encore quatre — et dans le nombre écrit 14, le 1 est pour la cagette pleine et le 4 pour le reste. Un nombre faux est nommé comme le ferait l’enseignant : 41 pour 14, les chiffres sont inversés ; 4 pour 14 ne compte que la deuxième cagette ; et 10 pour 14, seulement la première. Puis les cagettes aident sans donner la réponse : dès six fruits, 5, 10 et 15 apparaissent d’abord sur les fruits, pour partir de là et surcompter ; après une deuxième erreur, les nombres avancent sur les fruits et s’arrêtent sur un point d’interrogation posé sur le dernier. C’est l’enfant qui dit le dernier nombre.",
+        "L’activité suit les programmes officiels : écrire les nombres de 1 à 20 et représenter une quantité par un nombre écrit. L’enseignant choisit les nombres jusqu’à 10 (une cagette) ou jusqu’à 20, et peut activer le coup d’œil rapide : un tissu couvre les cagettes après un instant et « Regarder » le soulève — on lit alors les fruits par rangées de cinq au lieu de les compter un par un. Ni chrono ni score."
       ],
       "practices": [
         "Lire un double cadre de dix : une cagette pleine vaut dix, une rangée pleine vaut cinq",
-        "Écrire le nombre de 0 à 20 qui dit combien il y a de fruits",
+        "Écrire le nombre de 1 à 20 qui dit combien il y a de fruits",
         "Surcompter à partir de 5, 10 ou 15 au lieu de repartir de un",
         "Écrire les nombres de onze à vingt avec les chiffres dans le bon ordre"
       ],
@@ -3766,13 +3766,12 @@
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
         "Maman Cane fait l'appel du matin à la crique aux Coin-Coin ! Ton enfant lui envoie exactement le nombre de canetons qu'elle demande — il les compte un par un depuis le radeau, sans réaction du jeu, alors c'est lui qui décide quand s'arrêter — puis il signe l'appel en formant le chiffre dans la boue, trait après trait.",
-        "Constituer une collection d'un cardinal donné (envoyer « juste 6 »), dénombrer, et écrire le chiffre de 0 à 9 sont des attendus de la grande section de maternelle. Même un matin tout calme a un nombre : zéro est aussi un nombre à écrire. Le jeu se joue sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
+        "Constituer une collection d'un cardinal donné (envoyer « juste 6 »), dénombrer, et écrire le chiffre de 1 à 9 sont des attendus de la grande section de maternelle. Le jeu se joue sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
       ],
       "practices": [
         "Envoyer un nombre précis de canetons (jusqu'à 9)",
         "Compter une collection un par un",
-        "Écrire les chiffres de 0 à 9",
-        "Comprendre que zéro est aussi un nombre"
+        "Écrire le chiffre qui dit combien de canetons sont partis"
       ],
       "howToPlay": [
         "Touche les canetons pour en envoyer autant que Maman demande.",
@@ -3780,7 +3779,7 @@
       ],
       "learningGoals": [
         "Constituer une collection d'un cardinal donné jusqu'à 9",
-        "Écrire les chiffres de 0 à 9",
+        "Écrire le chiffre qui dit combien il y en a",
         "Comprendre le zéro"
       ]
     },
@@ -3850,12 +3849,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Un bocal de jouets avec une étiquette vide sur le couvercle. L’enfant compte – chaque jouet reçoit une marque quand on le touche – et écrit combien il y en a avec les touches des chiffres ; les chiffres apparaissent sur l’étiquette. Vérifier pose l’étiquette contre le bocal : les jouets se rangent dans autant de places que l’étiquette l’indique, et si elle est juste, elle devient dorée et se colle pendant que le nombre est dit à voix haute. Dans l’autre sorte de manche, l’étiquette est déjà écrite et le bocal est vide : l’enfant touche des jouets sur l’étagère pour les faire tomber dedans jusqu’à ce que le bocal en contienne autant. Une activité interactive de dénombrement et d’écriture des nombres pour le CP, qui fonctionne dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans compte.",
-        "L’idée centrale est l’aller-retour du travail sur les nombres : une quantité comptée devient un nombre écrit, et un nombre écrit redevient une quantité. Jusqu’à dix, les jouets sont posés librement ; de onze à vingt, ils sont alignés en rangées pour que l’œil ne perde pas sa place. Une mauvaise étiquette reçoit la réponse du bocal, pas une croix rouge : une étiquette trop petite laisse des jouets sans place, une étiquette trop grande laisse des places vides en pointillé, et l’erreur est nommée – les chiffres dans l’autre sens (41 pour 14), seulement les unités (4 pour 14), le nombre qui veut dire « aucun » (0 pour un bocal vide). Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou ne proposent que les manches de comptage ou que les manches de remplissage.",
+        "L’idée centrale est l’aller-retour du travail sur les nombres : une quantité comptée devient un nombre écrit, et un nombre écrit redevient une quantité. Jusqu’à dix, les jouets sont posés librement ; de onze à vingt, ils sont alignés en rangées pour que l’œil ne perde pas sa place. Une mauvaise étiquette reçoit la réponse du bocal, pas une croix rouge : une étiquette trop petite laisse des jouets sans place, une étiquette trop grande laisse des places vides en pointillé, et l’erreur est nommée – les chiffres dans l’autre sens (41 pour 14) ou seulement les unités (4 pour 14). Les réglages gardent les nombres jusqu’à 10 pour une classe qui débute, ou ne proposent que les manches de comptage ou que les manches de remplissage.",
         "L’activité suit les programmes officiels du cycle 2 : dénombrer une collection jusqu’à 20 et écrire le nombre. Sans chronomètre et sans score – un entraînement calme et ludique."
       ],
       "practices": [
         "Dénombrer une collection de jouets jusqu’à 20 en marquant chacun d’eux",
-        "Écrire le nombre qui dit combien il y en a, y compris les nombres de 11 à 19 et zéro",
+        "Écrire le nombre qui dit combien il y en a, y compris les nombres de 11 à 19",
         "Lire un nombre et mettre autant de jouets dans le bocal",
         "Comparer un nombre écrit à la quantité réelle et voir où il se trompe"
       ],
@@ -3865,8 +3864,8 @@
         "Quand l’étiquette est déjà écrite, touche des jouets sur l’étagère jusqu’à ce que le bocal en contienne autant ; « Suivant » apporte un nouveau bocal."
       ],
       "learningGoals": [
-        "Écrire les nombres de 0 à 20 et noter une quantité par un nombre",
-        "Comprendre que 14 et 41 sont des nombres différents et qu’un bocal vide, c’est 0",
+        "Écrire les nombres de 1 à 20 et noter une quantité par un nombre",
+        "Comprendre que 14 et 41 sont des nombres différents",
         "Passer dans les deux sens d’une collection d’objets au nombre qui la désigne"
       ]
     },

@@ -22,8 +22,8 @@
 
   var MAX = 20, DIGITS = 2, CRATE = 10, LINE = 5;
   var POOLS = {
-    to20: [0, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-    to10: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    to20: [3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    to10: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   };
   var LOOKS = ['open', 'quick'];
   /* library nouns of the `fruits` theme, each one whole fruit a child names (contact sheet read 2026-10-16) */
@@ -67,7 +67,6 @@
   function classify(a, n) {
     if (a === null || a === undefined) return 'none';
     if (a === n) return 'right';
-    if (n === 0) return 'zero';
     if (a >= 10 && a % 10 !== 0 && rev(a) === n) return 'reversed';
     if (a >= 1 && a <= 9 && n >= 10 && n % 10 === a) return 'oneDigit';
     if (a === 10 && n > 10) return 'tensOnly';
@@ -87,10 +86,10 @@
   /* ---- the help ladder ----
      0 nothing shown · 1 the landmark numbers below n (only when one exists, n ≥ 6) ·
      2 the count-on numbers from the last landmark, "?" on the last fruit.
-     A first miss on 5 or fewer gets no numbers (count again); zero never gets numbers. */
+     A first miss on 5 or fewer gets no numbers (count again). No round is ever 0. */
   function lastLandmark(n) { var L = 0; for (var i = 0; i < LANDMARKS.length; i++) if (LANDMARKS[i] < n) L = LANDMARKS[i]; return L; }
   function helpLevel(st) {
-    if (st.done || st.misses === 0 || st.n === 0) return 0;
+    if (st.done || st.misses === 0) return 0;
     if (st.misses >= 2) return 2;
     return lastLandmark(st.n) > 0 ? 1 : 0;
   }
@@ -110,7 +109,6 @@
   function hintKey(st) {
     var c = st.checked, slip = c ? c.slip : 'none';
     if (slip === 'none') return 'hintNone';
-    if (slip === 'zero') return 'hintZero';
     var lv = helpLevel(st);
     if (lv === 2) return 'hintCountOn';
     if (slip === 'reversed') return 'hintReversed';

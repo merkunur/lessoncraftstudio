@@ -392,7 +392,7 @@
         "Blev det inte rätt? Lägg till eller ta bort markörer och försök igen — det finns ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan göra vilket tal som helst från 0 till 20 med markörer på en dubbel tioram",
+        "Barnet kan göra vilket tal som helst från 1 till 20 med markörer på en dubbel tioram",
         "Barnet ser tal förbi tio som en hel tia och några extra ental",
         "Barnet bygger den räkna-vidare- och platsvärdesgrund som matten i årskurs 1 vilar på"
       ]
@@ -422,13 +422,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Två fruktlådor av trä med tio fack var — den dubbla tioramen från klassrummet, fylld med riktiga fruktbilder. Frukterna ramlar ner fack för fack, först en rad med fem, sedan nästa, och barnet skriver på en tavla med siffertangenterna hur många det är, från 0 till 20. När talet stämmer blir tavlan guldfärgad, den sista frukten bär talet och det läses upp. Den interaktiva räkneövningen körs i webbläsaren utan något att installera.",
-        "Lådorna är gjorda för talen mellan elva och tjugo. En full låda är tio, så fjorton är en full låda och fyra till — och i det skrivna 14 står ettan för den fulla lådan och fyran för resten. Ett fel tal får ett namn, så som en lärare skulle säga det: 41 i stället för 14 har siffrorna tvärtom, 4 i stället för 14 räknar bara den andra lådan, 10 i stället för 14 bara den första, och ett tal vid tomma lådor frågar vilket tal som betyder ”ingen”. Sedan hjälper lådorna utan att avslöja svaret: från sex frukter och uppåt syns först 5, 10 och 15 på frukterna, så att barnet kan börja där och räkna vidare; efter ett andra fel fortsätter talen över frukterna och stannar vid ett frågetecken på den sista. Det sista talet säger barnet själv.",
-        "Aktiviteten följer Lgr22 — att skriva talen 0 till 20 och ange ett antal med ett skrivet tal. Läraren väljer tal till 10 (en låda) eller till 20 och kan slå på snabbtitt: då täcker ett tygstycke lådorna efter en stund och ”Kika” lyfter det igen — så läses frukterna av rad för rad, fem i taget, i stället för en och en. Ingen timer och inga poäng."
+        "Två fruktlådor av trä med tio fack var — den dubbla tioramen från klassrummet, fylld med riktiga fruktbilder. Frukterna ramlar ner fack för fack, först en rad med fem, sedan nästa, och barnet skriver på en tavla med siffertangenterna hur många det är, från 1 till 20. När talet stämmer blir tavlan guldfärgad, den sista frukten bär talet och det läses upp. Den interaktiva räkneövningen körs i webbläsaren utan något att installera.",
+        "Lådorna är gjorda för talen mellan elva och tjugo. En full låda är tio, så fjorton är en full låda och fyra till — och i det skrivna 14 står ettan för den fulla lådan och fyran för resten. Ett fel tal får ett namn, så som en lärare skulle säga det: 41 i stället för 14 har siffrorna tvärtom, 4 i stället för 14 räknar bara den andra lådan och 10 i stället för 14 bara den första. Sedan hjälper lådorna utan att avslöja svaret: från sex frukter och uppåt syns först 5, 10 och 15 på frukterna, så att barnet kan börja där och räkna vidare; efter ett andra fel fortsätter talen över frukterna och stannar vid ett frågetecken på den sista. Det sista talet säger barnet själv.",
+        "Aktiviteten följer Lgr22 — att skriva talen 1 till 20 och ange ett antal med ett skrivet tal. Läraren väljer tal till 10 (en låda) eller till 20 och kan slå på snabbtitt: då täcker ett tygstycke lådorna efter en stund och ”Kika” lyfter det igen — så läses frukterna av rad för rad, fem i taget, i stället för en och en. Ingen timer och inga poäng."
       ],
       "practices": [
         "Läsa av en dubbel tioram: en full låda är tio, en full rad är fem",
-        "Skriva talet 0 till 20 som säger hur många frukter det är",
+        "Skriva talet 1 till 20 som säger hur många frukter det är",
         "Räkna vidare från 5, 10 eller 15 i stället för att börja om från ett",
         "Skriva talen 11 till 20 med siffrorna i rätt ordning"
       ],
@@ -2461,12 +2461,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "En glasburk med leksaker och en tom etikett på locket. Barnet räknar – varje leksak får ett märke när man trycker på den – och skriver hur många det är med sifferknapparna; siffrorna syns på etiketten. När man kontrollerar hålls etiketten mot burken: leksakerna ställer sig på så många platser som etiketten säger, och stämmer den blir den gyllene och fastnar medan talet sägs högt. I den andra sortens omgång står talet redan på etiketten och burken är tom: barnet trycker på leksaker på hyllan så att de ramlar ner, tills burken rymmer så många. En interaktiv övning i att räkna och skriva tal för förskoleklass och åk 1, som körs direkt i webbläsaren på surfplatta, mobil och dator – utan installation och utan konto.",
-        "Kärnan är vägen fram och tillbaka mellan antal och tal: ett räknat antal blir ett skrivet tal, och ett skrivet tal blir ett antal igen. Upp till tio ligger leksakerna löst; från elva till tjugo står de i rader så att ögat inte tappar bort sig. En fel etikett besvaras av burken, inte av ett rött kryss: en för liten etikett lämnar leksaker utan plats, en för stor lämnar streckade platser tomma, och misstaget får ett namn – siffrorna tvärtom (41 för 14), bara entalen (4 för 14), talet som betyder ”inga” (0 för en tom burk). I inställningarna stannar talen vid 10 för en grupp som just börjat, eller så väljer man bara räkneomgångarna eller bara fyllomgångarna.",
+        "Kärnan är vägen fram och tillbaka mellan antal och tal: ett räknat antal blir ett skrivet tal, och ett skrivet tal blir ett antal igen. Upp till tio ligger leksakerna löst; från elva till tjugo står de i rader så att ögat inte tappar bort sig. En fel etikett besvaras av burken, inte av ett rött kryss: en för liten etikett lämnar leksaker utan plats, en för stor lämnar streckade platser tomma, och misstaget får ett namn – siffrorna tvärtom (41 för 14) eller bara entalen (4 för 14). I inställningarna stannar talen vid 10 för en grupp som just börjat, eller så väljer man bara räkneomgångarna eller bara fyllomgångarna.",
         "Övningen följer Lgr22: räkna antal upp till 20 och skriva talet. Utan timer och utan poäng – lugn och lekfull träning."
       ],
       "practices": [
         "Räkna upp till 20 leksaker och hålla reda på dem med ett märke på varje",
-        "Skriva talet som säger hur många, även talen 11–19 och nollan",
+        "Skriva talet som säger hur många, även talen 11–19",
         "Läsa ett tal och lägga så många leksaker i burken",
         "Jämföra ett skrivet tal med det verkliga antalet och se var det slår fel"
       ],
@@ -2476,8 +2476,8 @@
         "När talet redan står på etiketten trycker du på leksaker på hyllan tills burken rymmer så många; ”Nästa” ger en ny burk."
       ],
       "learningGoals": [
-        "Skriva talen 0 till 20 och ange ett antal med ett tal",
-        "Förstå att 14 och 41 är olika tal och att en tom burk är 0",
+        "Skriva talen 1 till 20 och ange ett antal med ett tal",
+        "Förstå att 14 och 41 är olika tal",
         "Gå åt båda hållen mellan en grupp föremål och talet som anger den"
       ]
     },

@@ -326,7 +326,7 @@
         "Not quite? Add or remove counters and try again — there is no timer and no score."
       ],
       "learningGoals": [
-        "Make any number from 0 to 20 with counters on a double ten-frame — the focus of Common Core K.CC.B.4",
+        "Make any number from 1 to 20 with counters on a double ten-frame",
         "See numbers past ten as a full ten and some extra ones",
         "Build the counting-on and place-value foundation for first-grade math"
       ]
@@ -335,7 +335,7 @@
       "about": [
         "A table of animals and one question: how many? The child taps each animal to count it — a numbered tag drops on it — then taps the numeral on the rail that tells how many. The animals sit in a line, in rows, in a circle or scattered, exactly the four arrangements Kindergarten counting asks for. It runs in the browser, with nothing to install and no account.",
         "This is counting with the three principles built into the material. An animal can be tagged only once (one-to-one), the tags are numbered in the order they were given (stable order), and the last tag glows because the last number said is the answer (cardinality). If something is skipped, the hint names it and the uncounted animal pulses. Two extra moves — Count again and Mix them up — let a child discover that the order does not matter and that the number stays the same when the animals move.",
-        "It is the first half of Common Core K.CC.B.5 — counting to answer \"how many?\" about things arranged in a line, an array or a circle, or scattered; this table runs 0 to 10, the standard continues to 20. No timer, no score — just calm, hands-on counting."
+        "It is the first half of Common Core K.CC.B.5 — counting to answer \"how many?\" about things arranged in a line, an array or a circle, or scattered; this table runs 1 to 10, the standard continues to 20. No timer, no score — just calm, hands-on counting."
       ],
       "practices": [
         "Tagging each animal once while counting out loud",
@@ -356,13 +356,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Two wooden fruit crates, ten boxes each — the double ten-frame of the classroom, filled with real fruit pictures. The fruit drops in box by box, one row of five, then the next, and the child writes how many on a slate with number keys, from 0 to 20. When the number is right the slate turns gold, the last fruit carries the number and it is spoken. This interactive Kindergarten counting activity runs in the browser with nothing to install.",
-        "The crates are built for the teen numbers. A full crate is ten, so fourteen is a full crate and four more — and in the written 14 the 1 is for the full crate and the 4 for the rest. A wrong number is named the way a teacher would name it: 41 for 14 has the digits the other way round, 4 for 14 counts only the second crate, 10 for 14 only the first, and any number on empty crates asks which number means none. Then the crates help without giving the answer away: first, from six fruits up, the numbers 5, 10 and 15 appear on the fruit, so the child can start there and count on; after a second miss the count-on numbers run along the fruit and stop at a question mark on the last one. The child still says the final number.",
-        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. Teachers can choose numbers to 10 (one crate) or to 20, and a quick look: a cloth covers the crates after a moment and Peek lifts it again, so the fruit is read by its rows of five rather than one by one. No timer, no score."
+        "Two wooden fruit crates, ten boxes each — the double ten-frame of the classroom, filled with real fruit pictures. The fruit drops in box by box, one row of five, then the next, and the child writes how many on a slate with number keys, from 1 to 20. When the number is right the slate turns gold, the last fruit carries the number and it is spoken. This interactive Kindergarten counting activity runs in the browser with nothing to install.",
+        "The crates are built for the teen numbers. A full crate is ten, so fourteen is a full crate and four more — and in the written 14 the 1 is for the full crate and the 4 for the rest. A wrong number is named the way a teacher would name it: 41 for 14 has the digits the other way round, 4 for 14 counts only the second crate, and 10 for 14 only the first. Then the crates help without giving the answer away: first, from six fruits up, the numbers 5, 10 and 15 appear on the fruit, so the child can start there and count on; after a second miss the count-on numbers run along the fruit and stop at a question mark on the last one. The child still says the final number.",
+        "It is aligned to Common Core K.CC.A.3 — writing numbers to 20 and representing a number of objects with a written numeral. Teachers can choose numbers to 10 (one crate) or to 20, and a quick look: a cloth covers the crates after a moment and Peek lifts it again, so the fruit is read by its rows of five rather than one by one. No timer, no score."
       ],
       "practices": [
         "Reading a double ten-frame: a full crate is ten, a full row is five",
-        "Writing the numeral 0 to 20 for the amount in the crates",
+        "Writing the numeral 1 to 20 for the amount in the crates",
         "Counting on from 5, 10 or 15 instead of starting again at one",
         "Writing teen numbers with the digits in the right order"
       ],
@@ -2312,15 +2312,15 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Mama Duck calls the morning roll at Quack Creek, asking for an exact number of ducklings — send six, send eight, or none at all on a sleepy morning — and the child counts them out one by one from the raft, then signs the roll by tracing that number in the mud. It's an interactive Kindergarten counting activity that plays in the browser, with no sign-up.",
-        "The big idea is counting to answer 'how many,' the focus of K.CC.B.5. The rounds vary the challenge so counting cannot become a habit of grabbing: ducklings may be lined up tidily or scattered, mixed colors mean counting only the yellow ones, some rounds arrive in small groups to add up to a running total, and one round asks for zero. Pairing the count with writing the numeral ties the number word to its written symbol.",
+        "Mama Duck calls the morning roll at Quack Creek, asking for an exact number of ducklings — send six, send eight — and the child counts them out one by one from the raft, then signs the roll by tracing that number in the mud. It's an interactive Kindergarten counting activity that plays in the browser, with no sign-up.",
+        "The big idea is counting to answer 'how many,' the focus of K.CC.B.5. The rounds vary the challenge so counting cannot become a habit of grabbing: ducklings may be lined up tidily or scattered, mixed colors mean counting only the yellow ones, and some rounds arrive in small groups to add up to a running total. Pairing the count with writing the numeral ties the number word to its written symbol.",
         "It is aligned to Common Core K.CC.B.5 — counting to answer 'how many?' for objects in a line, an array, a scattered arrangement, or up to a given number. No timer, no score — just calm, playful practice."
       ],
       "practices": [
         "Counting out an exact number of objects one at a time",
         "Counting only the objects that match — like just the yellow ducklings",
         "Counting scattered objects and small groups that add to a total",
-        "Tracing the numeral that matches the count, including zero"
+        "Tracing the numeral that matches the count"
       ],
       "howToPlay": [
         "Listen to how many ducklings Mama asks for, and count them out one by one from the raft.",
@@ -3532,12 +3532,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "A glass jar of toys with an empty label on its lid. The child counts — every toy takes a mark when it is tapped — and writes how many on the number keys; the digits appear on the label. Check lays the label against the jar: the toys file into as many places as the label says, and if the label is right it turns gold and sticks while the number is spoken. In the other kind of round the label is already written and the jar is empty: the child taps toys on the shelf to drop them in until the jar holds that many. An interactive Kindergarten counting-and-writing activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
-        "The big idea is the two-way link in numeral work: a count of things becomes a written number, and a written number becomes a count of things. Up to ten the toys sit loosely; from eleven to twenty they stand in rows, so the eye can keep its place. A wrong label is answered by the jar, not by a cross: a label too small leaves toys standing without a place, a label too big leaves empty dashed places, and the slip is named — the digits the other way round (41 for 14), only the ones (4 for 14), the number that means none (0 for an empty jar). Settings keep the numbers to 10 for a class that is starting, or choose only the counting rounds or only the filling rounds.",
-        "It is aligned to Common Core K.CC.A.3 — writing numbers from 0 to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
+        "The big idea is the two-way link in numeral work: a count of things becomes a written number, and a written number becomes a count of things. Up to ten the toys sit loosely; from eleven to twenty they stand in rows, so the eye can keep its place. A wrong label is answered by the jar, not by a cross: a label too small leaves toys standing without a place, a label too big leaves empty dashed places, and the slip is named — the digits the other way round (41 for 14) or only the ones (4 for 14). Settings keep the numbers to 10 for a class that is starting, or choose only the counting rounds or only the filling rounds.",
+        "It is aligned to Common Core K.CC.A.3 — writing numbers to 20 and representing a number of objects with a written numeral. No timer, no score — just calm, playful practice."
       ],
       "practices": [
         "Count a set of up to 20 toys, keeping track with a mark on each one",
-        "Write the numeral that tells how many, including the teen numbers and zero",
+        "Write the numeral that tells how many, including the teen numbers",
         "Read a numeral and put that many toys in the jar",
         "Check a written number against the real count and see where it is off"
       ],
@@ -3547,8 +3547,8 @@
         "When the label is already written, tap toys on the shelf until the jar holds that many; Next brings a new jar."
       ],
       "learningGoals": [
-        "Write numbers 0 to 20 and represent a count with a written numeral — the focus of Common Core K.CC.A.3",
-        "Understand that 14 and 41 are different numbers, and that an empty jar is 0",
+        "Write numbers to 20 and represent a count with a written numeral — the focus of Common Core K.CC.A.3",
+        "Understand that 14 and 41 are different numbers",
         "Move both ways between a group of objects and the number that names it"
       ]
     },

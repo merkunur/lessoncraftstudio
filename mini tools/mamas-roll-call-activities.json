@@ -56,19 +56,6 @@
           }
         },
         {
-          "id": "none-sleep",
-          "act_type": "zero",
-          "band": 1,
-          "call": {
-            "n": 0,
-            "target": "numeral"
-          },
-          "raft": {
-            "total": 6,
-            "arrangement": "tidy"
-          }
-        },
-        {
           "id": "count-brood",
           "act_type": "count-set",
           "band": 2,

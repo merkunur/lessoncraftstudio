@@ -21,8 +21,8 @@
 
   var MAX = 20, DIGITS = 2;
   var POOLS = {
-    to20: { count: [0, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], fill: [7, 12, 15] },
-    to10: { count: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], fill: [3, 5, 8] }
+    to20: { count: [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], fill: [7, 12, 15] },   /* never 0 (operator 2026-10-16) */
+    to10: { count: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], fill: [3, 5, 8] }
   };
   var TASKS = ['both', 'count', 'fill'];
   /* library nouns of the `toys` theme, each a single countable thing (contact sheet read 2026-10-16) */
@@ -83,7 +83,6 @@
   function classify(a, n) {
     if (a === null || a === undefined) return 'none';
     if (a === n) return 'right';
-    if (n === 0) return 'zero';
     if (a >= 10 && rev(a) === n && a % 10 !== 0) return 'reversed';
     if (a >= 1 && a < 10 && n >= 10 && n % 10 === a) return 'oneDigit';   /* 0 on a jar of 10 or 20 is just too few, not 'only the ones' */
     if (a < n) return 'more';

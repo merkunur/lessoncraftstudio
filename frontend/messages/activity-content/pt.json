@@ -1631,25 +1631,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Surge um número de 1 a 9, e a criança toca naquele que vem logo depois — vê o 4 e procura o 5, vê o 8 e procura o 9. É uma atividade de contagem interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
-        "A ideia principal é contar avançando a partir de um número que já está dado, em vez de começar tudo de novo do um. As opções são números de 0 a 10 colocados perto da resposta certa, então a criança precisa realmente saber qual vem em seguida, e não chutar. Essa habilidade — pegar a contagem no meio da sequência — é o que deixa o contar mais rápido e mais flexível.",
-        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de contar avançando a partir de um número dado e de desenvolver a noção de sequência numérica. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Um número de 1 a 9 (ou de 9 a 19 com o ajuste mais amplo) fica aberto em um caminho de pedras com tampas, com uma ficha em cima. A criança escreve nas teclas de números o número que vem logo depois — está no 7, escreve o 8 — e a ficha pula para a pedra que se abre. É uma atividade interativa de contagem para a educação infantil que roda direto no navegador, em tablets, celulares e computadores, sem instalar nada e sem conta.",
+        "A ideia central é continuar contando a partir de um número dado, em vez de recomeçar do um. As pedras antes da ficha ficam escondidas sob tampas, então a resposta não pode ser lida em uma fileira de números; dá para levantar uma tampa e espiar um número anterior quando isso ajuda, e a professora pode mostrar todo o caminho até a ficha. Uma resposta errada é nomeada — o mesmo número, o anterior ou longe demais — e o caminho se abre até a ficha para a criança contar a partir dali.",
+        "Está alinhada à BNCC: contar avançando a partir de um número dado dentro da sequência conhecida. Sem cronômetro, sem pontuação — só prática tranquila e divertida."
       ],
       "practices": [
-        "Dizer qual número vem logo depois de um número dado, de 1 a 9.",
-        "Contar avançando a partir do meio da sequência, e não sempre do um.",
-        "Conhecer bem a ordem dos números para identificar o próximo.",
-        "Desenvolver uma contagem flexível, que não precisa recomeçar a cada vez."
+        "Dizer o número que vem logo depois de um número dado, até 10 ou até 20.",
+        "Continuar contando do meio da sequência em vez de começar do um.",
+        "Passar do 9 para o 10 e do 19 para o 20 (ajuste mais amplo: os números até 20).",
+        "Escrever um número nas teclas de números, com um ou dois algarismos."
       ],
       "howToPlay": [
-        "Olhe o número que aparece no quadro.",
-        "Toque no número que vem logo depois dele, depois toque em Verificar.",
-        "Não foi dessa vez? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Olhe o número em que a ficha está. A próxima pedra está aberta, esperando.",
+        "Toque nos algarismos para escrever o número que vem depois e então aperte Verificar. A ficha pula para lá.",
+        "Não tem certeza? Toque em uma tampa para espiar um número anterior. Ainda não acertou? Tente quantas vezes quiser — não há cronômetro nem pontuação."
       ],
       "learningGoals": [
         "Contar avançando a partir de um número dado.",
-        "Saber qual número vem em seguida na sequência até 10.",
-        "Construir a fluência na contagem em que se apoiam a adição e o senso numérico."
+        "Saber qual número vem a seguir na sequência até 10 e até 20.",
+        "Construir a fluência na contagem em que a adição e o senso numérico se apoiam."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

@@ -883,24 +883,24 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Ruudulle ilmestyy luku väliltä 1–9, ja lapsi napauttaa lukua, joka tulee heti sen jälkeen — kun näkyy 4, etsitään 5, ja kun näkyy 8, etsitään 9. Tämä on vuorovaikutteinen esiopetuksen lukujonoharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on laskea eteenpäin annetusta luvusta sen sijaan, että aloittaisi aina alusta yhdestä. Vaihtoehdot ovat lukuja väliltä 0–10 lähellä oikeaa vastausta, joten lapsen on todella tiedettävä, mikä luku tulee seuraavaksi, eikä vain arvattava. Tämä taito — laskemisen jatkaminen keskeltä lukujonoa — tekee laskemisesta nopeaa ja joustavaa.",
+        "Luku väliltä 1–9 (tai 9–19 laajemmalla asetuksella) on avoinna kansien peittämällä kivipolulla, ja sen päällä seisoo pelinappula. Lapsi kirjoittaa numeronäppäimillä luvun, joka tulee heti sen jälkeen – seisoo luvulla 7, kirjoittaa 8 – ja nappula hyppää kivelle, joka aukeaa. Tämä on vuorovaikutteinen esiopetuksen lukujonoharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella ilman asennusta ja ilman tiliä.",
+        "Tärkein ajatus on laskea eteenpäin annetusta luvusta sen sijaan, että aloittaisi aina alusta ykkösestä. Nappulaa edeltävät kivet ovat piilossa kansien alla, joten vastausta ei voi lukea lukurivistä; kannen voi nostaa ja kurkistaa aiempaa lukua, kun siitä on apua, ja opettaja voi näyttää koko polun nappulaan asti. Väärä vastaus nimetään – sama luku, edellinen luku tai liian pitkälle – ja polku aukeaa nappulaan asti, jotta lapsi voi laskea siitä eteenpäin.",
         "Harjoitus on OPS 2014:n mukainen lukukäsitteen osa-alueella: lapsi laskee eteenpäin annetusta luvusta tutussa lukujonossa. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
       ],
       "practices": [
-        "Nimeää luvun, joka tulee heti annetun luvun 1–9 jälkeen.",
-        "Laskee eteenpäin keskeltä lukujonoa, ei alusta yhdestä.",
-        "Tuntee lukujen järjestyksen niin hyvin, että osaa huomata seuraavan luvun.",
-        "Kehittää joustavaa laskutaitoa, joka ei vaadi uutta alkua joka kerta."
+        "Sanoo luvun, joka tulee heti annetun luvun jälkeen, kymmeneen tai kahteenkymmeneen asti.",
+        "Laskee eteenpäin keskeltä lukujonoa, ei alusta ykkösestä.",
+        "Siirtyy luvusta 9 lukuun 10 ja luvusta 19 lukuun 20 (laajempi asetus: luvut kahteenkymmeneen asti).",
+        "Kirjoittaa luvun numeronäppäimillä, yhdellä tai kahdella numerolla."
       ],
       "howToPlay": [
-        "Katso ruudulla näkyvää lukua.",
-        "Napauta lukua, joka tulee heti sen jälkeen, ja paina sitten Tarkista.",
-        "Eikö osunut oikeaan? Yritä uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Katso, minkä luvun päällä nappula seisoo. Seuraava kivi on auki ja odottaa.",
+        "Napauta numeroita ja kirjoita luku, joka tulee seuraavaksi, ja paina sitten Tarkista. Nappula hyppää sille.",
+        "Etkö ole varma? Napauta kantta, niin näet aiemman luvun. Eikö osunut oikeaan? Yritä uudelleen niin monta kertaa kuin haluat – ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
         "Lapsi laskee eteenpäin annetusta luvusta.",
-        "Lapsi tietää, mikä luku tulee seuraavaksi lukujonossa kymmeneen asti.",
+        "Lapsi tietää, mikä luku tulee seuraavaksi lukujonossa kymmeneen ja kahteenkymmeneen asti.",
         "Lapsi kehittää laskemisen sujuvuutta, johon yhteenlasku ja lukukäsite rakentuvat."
       ]
     },

@@ -886,25 +886,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Et tall fra 1 til 9 vises, og barnet trykker på tallet som kommer rett etterpå — ser barnet en 4, finner det 5; ser det en 8, finner det 9. Dette er en interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon og datamaskin — uten nedlasting og uten konto.",
-        "Den store ideen er å telle videre fra et tall du får oppgitt, i stedet for alltid å begynne på nytt fra én. Valgene er tall mellom 0 og 10 som ligger nær det riktige svaret, så barnet må virkelig vite hva som kommer etterpå, ikke bare gjette. Den ferdigheten — å plukke opp tellingen midt i tallrekka — er det som gjør tellingen rask og fleksibel.",
-        "Aktiviteten følger LK20 innenfor telling og tallforståelse — å telle videre fra et gitt tall i tallrekka. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et tall fra 1 til 9 (eller fra 9 til 19 med den videre innstillingen) ligger åpent på en sti av steiner med lokk, med en brikke oppå. Barnet skriver med talltastene tallet som kommer rett etter – står på 7, skriver 8 – og brikken hopper bort på steinen som åpner seg. Det er en interaktiv telleaktivitet for barnehagen og første trinn som kjører rett i nettleseren på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "Kjernen er å telle videre fra et gitt tall i stedet for å begynne på nytt fra én. Steinene før brikken er skjult under lokk, så svaret kan ikke leses av fra en rekke med tall; et lokk kan løftes for å titte på et tidligere tall når det hjelper, og læreren kan vise hele stien fram til brikken. Et feil svar får et navn – det samme tallet, tallet før eller for langt – og stien åpner seg fram til brikken, slik at barnet kan telle videre derfra.",
+        "Aktiviteten følger LK20: telle framover fra et gitt tall i den kjente tallrekka. Ingen tidtaker, ingen poeng – bare rolig og leken øving."
       ],
       "practices": [
-        "Si tallet som kommer rett etter et gitt tall fra 1 til 9.",
-        "Telle videre fra et tall midt i rekka, ikke fra én.",
-        "Kunne tallrekkefølgen godt nok til å se det neste tallet.",
-        "Bygge fleksibel telling som ikke trenger en ny start hver gang."
+        "Si tallet som kommer rett etter et gitt tall, til 10 eller til 20.",
+        "Telle videre fra midten av tallrekka i stedet for å begynne på én.",
+        "Klare overgangen fra 9 til 10 og fra 19 til 20 (videre innstilling: tallene til 20).",
+        "Skrive et tall med talltastene, med ett eller to siffer."
       ],
       "howToPlay": [
-        "Se på tallet som vises på brettet.",
-        "Trykk på tallet som kommer rett etter det, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Se hvilket tall brikken står på. Den neste steinen er åpen og venter.",
+        "Trykk på sifrene for å skrive tallet som kommer etter, og trykk så på Sjekk. Brikken hopper dit.",
+        "Usikker? Trykk på et lokk for å titte på et tidligere tall. Ikke helt riktig? Prøv så mange ganger du vil – det er ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan telle videre fra et gitt tall.",
-        "Barnet vet hvilket tall som kommer etter i rekka opp til 10.",
-        "Barnet bygger telleferdigheten som addisjon og tallforståelse hviler på."
+        "Telle framover fra et gitt tall.",
+        "Vite hvilket tall som kommer etter i tallrekka til 10 og til 20.",
+        "Bygge den tellesikkerheten som addisjon og tallforståelse bygger på."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

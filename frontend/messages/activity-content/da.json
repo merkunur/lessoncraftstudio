@@ -884,25 +884,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Hvilket tal kommer efter? viser et tal fra 1 til 9, og barnet trykker på det tal, der kommer lige efter — ser man et 4, finder man 5, og ser man et 8, finder man 9. Det er en interaktiv tælleaktivitet til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer uden oprettelse og uden noget at installere.",
-        "Den store idé er at tælle videre fra et tal, man får, i stedet for altid at begynde forfra ved et. Svarmulighederne er tal mellem 0 og 10, der ligger tæt på det rigtige svar, så barnet skal virkelig vide, hvad der kommer efter, og ikke bare gætte. At kunne tage tællingen op midt i talrækken er netop det, der gør tælling hurtig og fleksibel.",
-        "Aktiviteten følger Fælles Mål inden for området tal og tælling: at tælle videre fra et tal, barnet kender, inden for den kendte talrække. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "Et tal fra 1 til 9 (eller fra 9 til 19 med den bredere indstilling) ligger åbent på en sti af sten med låg, med en brik ovenpå. Barnet skriver med taltasterne det tal, der kommer lige efter – står på 7, skriver 8 – og brikken hopper hen på den sten, der åbner sig. Det er en interaktiv tælleaktivitet til børnehaveklassen, som kører direkte i browseren på tablet, telefon og computer, uden installation og uden konto.",
+        "Kernen er at tælle videre fra et givet tal i stedet for at begynde forfra ved ét. Stenene før brikken er skjult under låg, så svaret ikke kan aflæses på en række tal; et låg kan løftes for at kigge på et tidligere tal, når det hjælper, og læreren kan vise hele stien frem til brikken. Et forkert svar får et navn – det samme tal, tallet før eller for langt – og stien åbner sig frem til brikken, så barnet kan tælle videre derfra.",
+        "Aktiviteten følger Fælles Mål for børnehaveklassen: tælle fremad fra et givet tal i den kendte talrække. Ingen timer, ingen point – bare rolig og legende øvelse."
       ],
       "practices": [
-        "Sige det tal, der kommer lige efter et givet tal fra 1 til 9",
-        "Tælle videre fra midten af talrækken i stedet for fra et",
-        "Kende talrækkens orden godt nok til at finde det næste tal",
-        "Opbygge en fleksibel tælling, der ikke behøver at starte forfra hver gang"
+        "Sige det tal, der kommer lige efter et givet tal, til 10 eller til 20.",
+        "Tælle videre fra midten af talrækken i stedet for at begynde ved ét.",
+        "Klare overgangen fra 9 til 10 og fra 19 til 20 (bredere indstilling: tallene til 20).",
+        "Skrive et tal med taltasterne, med ét eller to cifre."
       ],
       "howToPlay": [
-        "Barnet ser på tallet, der vises på pladen.",
-        "Barnet trykker på det tal, der kommer lige efter, og trykker derefter på Tjek.",
-        "Er det ikke helt rigtigt, kan barnet prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Se, hvilket tal brikken står på. Den næste sten er åben og venter.",
+        "Tryk på cifrene for at skrive det tal, der kommer efter, og tryk så på Tjek. Brikken hopper derhen.",
+        "Ikke sikker? Tryk på et låg for at kigge på et tidligere tal. Ikke helt rigtigt? Prøv så mange gange, du vil – der er ingen timer og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan tælle videre fra et givet tal",
-        "Barnet kan vide, hvilket tal der kommer som det næste i talrækken op til 10",
-        "Barnet opbygger den tællesikkerhed, som addition og talforståelse bygger på"
+        "Tælle fremad fra et givet tal.",
+        "Vide, hvilket tal der kommer efter i talrækken til 10 og til 20.",
+        "Opbygge den tællesikkerhed, som addition og talforståelse bygger på."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

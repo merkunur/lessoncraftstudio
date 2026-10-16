@@ -984,25 +984,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Ett tal mellan 1 och 9 visas, och barnet trycker på det tal som kommer näst i räkneordningen — ser barnet en 4 letar det upp 5:an, ser det en 8 letar det upp 9:an. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
-        "Den stora idén är att räkna framåt från ett tal man får, i stället för att alltid börja om från ett. Svarsalternativen är tal mellan 0 och 10 som ligger nära det rätta, så barnet måste verkligen veta vad som kommer efter och kan inte bara gissa. Att kunna ta upp räkningen mitt i talraden är det som gör räknandet snabbt och smidigt.",
-        "Aktiviteten följer Lgr22 inom taluppfattning: att räkna framåt från ett givet tal inom den kända talraden. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Ett tal från 1 till 9 (eller från 9 till 19 med den vidare inställningen) ligger öppet på en stig av stenar med lock, med en spelpjäs ovanpå. Barnet skriver med siffertangenterna det tal som kommer direkt efter – står på 7, skriver 8 – och pjäsen hoppar till stenen som öppnas. Det är en interaktiv räkneaktivitet för förskoleklass som körs direkt i webbläsaren på surfplatta, mobil och dator, utan installation och utan konto.",
+        "Kärnan är att räkna vidare från ett givet tal i stället för att börja om från ett. Stenarna före pjäsen är dolda under lock, så svaret går inte att läsa av från en rad med tal; ett lock kan lyftas för att titta på ett tidigare tal när det hjälper, och läraren kan visa hela stigen fram till pjäsen. Ett fel svar får ett namn – samma tal, talet före eller för långt – och stigen öppnas fram till pjäsen så att barnet kan räkna vidare därifrån.",
+        "Aktiviteten följer Lgr22 för förskoleklassen: räkna framåt från ett givet tal i den kända talraden. Ingen timer, inga poäng – bara lugn och lekfull träning."
       ],
       "practices": [
-        "Säga vilket tal som kommer direkt efter ett givet tal mellan 1 och 9",
-        "Räkna framåt med start mitt i talraden, inte från ett",
-        "Kunna talens ordning så väl att man hittar nästa tal",
-        "Bygga ett smidigt räknande som inte behöver börja om varje gång"
+        "Säga det tal som kommer direkt efter ett givet tal, till 10 eller till 20.",
+        "Räkna vidare från mitten av talraden i stället för att börja på ett.",
+        "Klara övergången från 9 till 10 och från 19 till 20 (vidare inställning: talen till 20).",
+        "Skriva ett tal med siffertangenterna, med en eller två siffror."
       ],
       "howToPlay": [
-        "Barnet tittar på talet som visas på skärmen.",
-        "Det trycker på det tal som kommer direkt efter, och trycker sedan på Kontrollera.",
-        "Blev det inte rätt? Försök igen så många gånger som behövs — det finns ingen timer och inga poäng."
+        "Titta på vilket tal pjäsen står på. Nästa sten är öppen och väntar.",
+        "Tryck på siffrorna för att skriva talet som kommer efter och tryck sedan på Kontrollera. Pjäsen hoppar dit.",
+        "Osäker? Tryck på ett lock för att titta på ett tidigare tal. Inte rätt än? Försök så många gånger du vill – det finns ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan räkna framåt från ett givet tal",
-        "Barnet vet vilket tal som kommer näst i talraden upp till 10",
-        "Barnet bygger den räknesäkerhet som addition och taluppfattning vilar på"
+        "Räkna framåt från ett givet tal.",
+        "Veta vilket tal som kommer härnäst i talraden till 10 och till 20.",
+        "Bygga den räknesäkerhet som addition och taluppfattning vilar på."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

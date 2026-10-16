@@ -6,7 +6,7 @@
    library locally; no deploy.
    Usage: node scripts/local-test-how-many.js [--locales=en,de,…|all] [--widths=320,…] [--shot=<dir>]
    What it proves (each a FAIL on miss):
-     • the pool holds every n 0..10 once; pass 2 re-serves the same set in
+     • the pool holds every n 1..10 once (never 0); pass 2 re-serves the same set in
        a different order (§A.13.60);
      • per round (forced through the `_order` seam like visual-qa does):
        n pictures from the LIBRARY, each ≥ the floor for the width, tags
@@ -102,10 +102,11 @@ function serve() {
     const S = (k) => STR[k][loc];
     /* ---- pool + reshuffle ---- */
     const pool = await page.evaluate(() => window.HowManyActivity._pool.map(r => r.n));
-    is(pool.length === 11 && pool.every((n, i) => n === i), `[${loc}] pool is 0..10 once (got ${pool.join(',')})`);
+    is(pool.length === 10 && pool.every((n, i) => n === i + 1), `[${loc}] pool is 1..10 once — counting never asks for 0 (got ${pool.join(',')})`);
+    is((await page.evaluate(() => [...document.querySelectorAll('.hm-num')].map(b => b.dataset.v).join())) === '1,2,3,4,5,6,7,8,9,10', `[${loc}] the answer rail runs 1..10, no 0 chip`);
     const ids = await page.evaluate(() => { const t = window.HowManyActivity, o = []; for (let i = 0; i < 22; i++) o.push(t.nextTask({ index: i }).promptArgs.n); return o; });
-    is(ids.slice(0, 11).slice().sort((a, b) => a - b).join() === pool.join() && ids.slice(11).slice().sort((a, b) => a - b).join() === pool.join(), `[${loc}] each pass serves the whole pool`);
-    is(ids.slice(0, 11).join() !== ids.slice(11).join(), `[${loc}] pass 2 is a different order`);
+    is(ids.slice(0, 10).slice().sort((a, b) => a - b).join() === pool.join() && ids.slice(10, 20).slice().sort((a, b) => a - b).join() === pool.join(), `[${loc}] each pass serves the whole pool`);
+    is(ids.slice(0, 10).join() !== ids.slice(10, 20).join(), `[${loc}] pass 2 is a different order`);
     /* ---- strings ---- */
     const leaks = await page.evaluate(() => { const bad = []; document.querySelectorAll('.lcs-app *').forEach(el => { for (const n of el.childNodes) if (n.nodeType === 3) { const s = n.textContent.trim(); if (/\{|\}/.test(s) || /^[a-z]+[A-Z]\w+$/.test(s)) bad.push(s); } }); return bad; });
     is(leaks.length === 0, `[${loc}] raw keys / braces rendered: ${leaks.slice(0, 3).join(' | ')}`);
@@ -119,12 +120,12 @@ function serve() {
     is(chipW >= 44, `[${loc}] rail chip ≥44 (got ${chipW})`);
 
     /* ---- every round ---- */
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 10; i++) {
       await forceRound(page, i);
       const st = await state(page);
       const n = st.n;
       const tag = `[${loc} n=${n} ${st.arr}]`;
-      is((await promptText(page)) === S(n === 0 ? 'promptZero' : 'prompt'), `${tag} prompt text`);
+      is(n >= 1 && (await promptText(page)) === S('prompt'), `${tag} prompt text (never a 0 round)`);
       const pics = await page.evaluate(() => [...document.querySelectorAll('.hm-pic')].map(b => { const r = b.getBoundingClientRect(); const img = b.querySelector('img'); return { w: r.width, h: r.height, src: img.getAttribute('src'), alt: img.alt, loaded: img.complete && img.naturalWidth > 0 }; }));
       is(pics.length === n, `${tag} ${pics.length} pictures`);
       is(pics.every(p => p.w >= floorFor(W) - 0.5 && p.h >= floorFor(W) - 0.5), `${tag} pictures ≥ ${floorFor(W)}px (min ${Math.min(...pics.map(p => p.w), 999)})`);
@@ -194,7 +195,7 @@ function serve() {
       is(st2.tags.length === 0 && st2.answer === null && !(await bubble(page)).shown, `${tag} Next clears tags, answer and bubble`);
     }
     /* ---- the free moves, on a round with ≥ 2 arrangements ---- */
-    await forceRound(page, 6);
+    await forceRound(page, 5);   /* the pool is 1..10, so index 5 holds six */
     const st6 = await state(page);
     await clickCenter(page, '.hm-pic', 0); await clickCenter(page, '.hm-pic', 1); await wait(30);
     await clickCenter(page, '.hm-again', 0); await wait(30);
@@ -212,11 +213,11 @@ function serve() {
     await page.evaluate(() => { window.HowManyActivity.api.settings.arrangement = 'line'; window.HowManyActivity.onSettings('arrangement', 'line'); });
     await wait(150);
     const linePool = await page.evaluate(() => window.HowManyActivity._pool.map(r => r.n + r.arr[0]));
-    is(linePool.join() === '0l,1l,2l,3l,4l,5l', `[${loc}] setting 'line' serves 0-5 in a line (got ${linePool.join()})`);
+    is(linePool.join() === '1l,2l,3l,4l,5l', `[${loc}] setting 'line' serves 1-5 in a line (got ${linePool.join()})`);
     await page.evaluate(() => { window.HowManyActivity.api.settings.arrangement = 'circle'; window.HowManyActivity.onSettings('arrangement', 'circle'); });
     await wait(150);
     const circPool = await page.evaluate(() => window.HowManyActivity._pool.map(r => r.n + r.arr[0]));
-    is(circPool.join() === '0l,3c,4c,5c,6c', `[${loc}] setting 'circle' serves 3-6 in a ring (got ${circPool.join()})`);
+    is(circPool.join() === '3c,4c,5c,6c', `[${loc}] setting 'circle' serves 3-6 in a ring (got ${circPool.join()})`);
     await page.evaluate(() => { window.HowManyActivity.api.settings.arrangement = 'auto'; window.HowManyActivity.onSettings('arrangement', 'auto'); });
     await wait(150);
     is(errs.length === 0, `[${loc}] no page errors: ${errs.slice(0, 2).join(' | ')}`);

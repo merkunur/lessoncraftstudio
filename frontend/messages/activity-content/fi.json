@@ -280,7 +280,7 @@
         "Menikö pieleen? Lisää tai poista hedelmiä ja yritä uudelleen — ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa tehdä minkä tahansa luvun välillä 0–20 hedelmillä kaksoiskymmenruudukolla.",
+        "Lapsi osaa tehdä minkä tahansa luvun välillä 1–20 hedelmillä kaksoiskymmenruudukolla.",
         "Lapsi näkee yli kymmenen menevät luvut täytenä kymmenenä ja muutamana ylimääräisenä ykkösenä.",
         "Lapsi rakentaa jatkamalla laskemisen ja paikka-arvon pohjan ensimmäisen luokan matematiikkaa varten."
       ]
@@ -310,13 +310,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Kaksi puista hedelmälaatikkoa, kummassakin kymmenen lokeroa – luokan kaksoiskymmenruudukko täynnä oikeita hedelmäkuvia. Hedelmät putoavat lokero kerrallaan, ensin yksi viiden rivi, sitten seuraava, ja lapsi kirjoittaa numeronäppäimillä tauluun, montako niitä on, 0–20. Kun luku on oikein, taulu muuttuu kultaiseksi, viimeisessä hedelmässä on luku ja se luetaan ääneen. Interaktiivinen laskemisharjoitus toimii selaimessa, eikä mitään tarvitse asentaa.",
-        "Laatikot on tehty luvuille yhdestätoista kahteenkymmeneen. Täysi laatikko on kymmenen, joten neljätoista on täysi laatikko ja vielä neljä – ja kirjoitetussa luvussa 14 ykkönen tarkoittaa täyttä laatikkoa ja nelonen loppuja. Väärä luku nimetään niin kuin opettaja sen sanoisi: 41 luvun 14 sijaan on numerot väärin päin, 4 luvun 14 sijaan laskee vain toisen laatikon, 10 luvun 14 sijaan vain ensimmäisen, ja luku tyhjien laatikoiden kohdalla kysyy, mikä luku tarkoittaa ”ei yhtään”. Sen jälkeen laatikot auttavat paljastamatta vastausta: kun hedelmiä on vähintään kuusi, hedelmiin ilmestyvät ensin luvut 5, 10 ja 15, jotta lapsi voi aloittaa niistä ja laskea eteenpäin; toisen virheen jälkeen luvut jatkuvat hedelmästä toiseen ja pysähtyvät viimeisen hedelmän kysymysmerkkiin. Viimeisen luvun lapsi sanoo itse.",
-        "Harjoitus on OPS 2014:n mukainen: lapsi kirjoittaa luvut 0–20 ja esittää lukumäärän kirjoitetulla luvulla. Opettaja valitsee luvut 10:een asti (yksi laatikko) tai 20:een asti ja voi ottaa käyttöön pikavilkaisun: kangas peittää laatikot hetken päästä, ja ”Kurkista” nostaa sen taas – näin hedelmät luetaan viiden hedelmän riveinä eikä laskemalla yksitellen. Ei ajastinta eikä pisteitä."
+        "Kaksi puista hedelmälaatikkoa, kummassakin kymmenen lokeroa – luokan kaksoiskymmenruudukko täynnä oikeita hedelmäkuvia. Hedelmät putoavat lokero kerrallaan, ensin yksi viiden rivi, sitten seuraava, ja lapsi kirjoittaa numeronäppäimillä tauluun, montako niitä on, 1–20. Kun luku on oikein, taulu muuttuu kultaiseksi, viimeisessä hedelmässä on luku ja se luetaan ääneen. Interaktiivinen laskemisharjoitus toimii selaimessa, eikä mitään tarvitse asentaa.",
+        "Laatikot on tehty luvuille yhdestätoista kahteenkymmeneen. Täysi laatikko on kymmenen, joten neljätoista on täysi laatikko ja vielä neljä – ja kirjoitetussa luvussa 14 ykkönen tarkoittaa täyttä laatikkoa ja nelonen loppuja. Väärä luku nimetään niin kuin opettaja sen sanoisi: 41 luvun 14 sijaan on numerot väärin päin, 4 luvun 14 sijaan laskee vain toisen laatikon ja 10 luvun 14 sijaan vain ensimmäisen. Sen jälkeen laatikot auttavat paljastamatta vastausta: kun hedelmiä on vähintään kuusi, hedelmiin ilmestyvät ensin luvut 5, 10 ja 15, jotta lapsi voi aloittaa niistä ja laskea eteenpäin; toisen virheen jälkeen luvut jatkuvat hedelmästä toiseen ja pysähtyvät viimeisen hedelmän kysymysmerkkiin. Viimeisen luvun lapsi sanoo itse.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi kirjoittaa luvut 1–20 ja esittää lukumäärän kirjoitetulla luvulla. Opettaja valitsee luvut 10:een asti (yksi laatikko) tai 20:een asti ja voi ottaa käyttöön pikavilkaisun: kangas peittää laatikot hetken päästä, ja ”Kurkista” nostaa sen taas – näin hedelmät luetaan viiden hedelmän riveinä eikä laskemalla yksitellen. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
         "Kaksoiskymmenruudukon lukeminen: täysi laatikko on kymmenen, täysi rivi viisi",
-        "Luvun 0–20 kirjoittaminen laatikoiden hedelmien määrästä",
+        "Luvun 1–20 kirjoittaminen laatikoiden hedelmien määrästä",
         "Eteenpäin laskeminen luvuista 5, 10 tai 15 sen sijaan, että aloittaisi taas ykkösestä",
         "Lukujen 11–20 kirjoittaminen numerot oikeassa järjestyksessä"
       ],
@@ -1545,12 +1545,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Lasipurkki täynnä leluja ja tyhjä etiketti kannessa. Lapsi laskee – jokainen lelu saa merkin, kun sitä napauttaa – ja kirjoittaa numeronäppäimillä, montako niitä on; numerot ilmestyvät etikettiin. Tarkistettaessa etiketti asetetaan purkkia vasten: lelut asettuvat niin moneen paikkaan kuin etiketti sanoo, ja jos etiketti on oikein, se muuttuu kultaiseksi ja tarttuu kiinni samalla kun luku sanotaan ääneen. Toisenlaisella kierroksella luku on jo etiketissä ja purkki on tyhjä: lapsi napauttaa hyllyn leluja, niin ne putoavat sisään, kunnes purkissa on yhtä monta. Interaktiivinen laskemisen ja lukujen kirjoittamisen harjoitus esiopetukseen ja 1. luokalle, joka toimii selaimessa tabletilla, puhelimella ja tietokoneella – ilman asennusta ja ilman tiliä.",
-        "Ydin on kaksisuuntainen yhteys määrän ja luvun välillä: laskettu määrä muuttuu kirjoitetuksi luvuksi, ja kirjoitettu luku muuttuu taas määräksi. Kymmeneen asti lelut ovat purkissa vapaasti; yhdestätoista kahteenkymmeneen ne seisovat riveissä, jotta silmä pysyy laskussa. Väärään etikettiin vastaa purkki, ei punainen rasti: liian pieni etiketti jättää leluja ilman paikkaa, liian suuri jättää katkoviivaiset paikat tyhjiksi, ja virhe saa nimen – numerot toisin päin (41, kun pitäisi olla 14), vain ykköset (4, kun pitäisi olla 14), luku, joka tarkoittaa ”ei yhtään” (0 tyhjälle purkille). Asetuksista luvut pysyvät 10:een asti vasta aloittavalle ryhmälle, tai valitaan vain laskemiskierrokset tai vain täyttökierrokset.",
+        "Ydin on kaksisuuntainen yhteys määrän ja luvun välillä: laskettu määrä muuttuu kirjoitetuksi luvuksi, ja kirjoitettu luku muuttuu taas määräksi. Kymmeneen asti lelut ovat purkissa vapaasti; yhdestätoista kahteenkymmeneen ne seisovat riveissä, jotta silmä pysyy laskussa. Väärään etikettiin vastaa purkki, ei punainen rasti: liian pieni etiketti jättää leluja ilman paikkaa, liian suuri jättää katkoviivaiset paikat tyhjiksi, ja virhe saa nimen – numerot toisin päin (41, kun pitäisi olla 14) tai vain ykköset (4, kun pitäisi olla 14). Asetuksista luvut pysyvät 10:een asti vasta aloittavalle ryhmälle, tai valitaan vain laskemiskierrokset tai vain täyttökierrokset.",
         "Harjoitus noudattaa OPS 2014:ää: lukumäärän laskeminen 20:een asti ja luvun kirjoittaminen. Ei ajastinta eikä pisteitä – rauhallista ja leikkisää harjoittelua."
       ],
       "practices": [
         "Laskea enintään 20 lelua ja pitää lukua merkitsemällä jokaisen",
-        "Kirjoittaa luku, joka kertoo määrän – myös luvut 11–19 ja nolla",
+        "Kirjoittaa luku, joka kertoo määrän – myös luvut 11–19",
         "Lukea luku ja laittaa purkkiin yhtä monta lelua",
         "Verrata kirjoitettua lukua todelliseen määrään ja nähdä, missä se menee pieleen"
       ],
@@ -1560,8 +1560,8 @@
         "Kun luku on jo etiketissä, napauta hyllyn leluja, kunnes purkissa on yhtä monta; ”Seuraava” tuo uuden purkin."
       ],
       "learningGoals": [
-        "Kirjoittaa luvut 0–20 ja merkitä lukumäärä kirjoitettuna lukuna",
-        "Ymmärtää, että 14 ja 41 ovat eri lukuja ja että tyhjä purkki on 0",
+        "Kirjoittaa luvut 1–20 ja merkitä lukumäärä kirjoitettuna lukuna",
+        "Ymmärtää, että 14 ja 41 ovat eri lukuja",
         "Kulkea molempiin suuntiin esinejoukon ja sitä nimeävän luvun välillä"
       ]
     },

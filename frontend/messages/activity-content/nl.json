@@ -1162,13 +1162,13 @@
       "about": [
         "De sloot wordt licht en Mama Eend waggelt naar de kant om de ochtendronde te doen. Haar eendjes dobberen nog door elkaar heen op het water, een vrolijke bonte troep. Mama roept een getal – en jouw kind stuurt haar precies zoveel eendjes, rustig één voor één afgeteld uit het grote vlot. Niemand duwt, niemand piept ertussendoor.",
         "Het bijzondere: tijdens het aftellen komt er geen enkele reactie. Je kind bepaalt zélf wanneer het genoeg eendjes heeft gestuurd, en moet dus goed opletten en meetellen. Pas daarna tekent het de lijst af – door het bijbehorende cijfer haal voor haal in de zachte modder te vormen. Klopt het aantal met wat Mama riep, dan is de ronde klaar.",
-        "Soms roept Mama een getal, soms tel je alleen de gele eendjes tussen de andere uit, soms stuur je precies één eendje per lelieblad, soms tel je het hele vlot of tel je door terwijl er nog meer eendjes aan komen zwemmen. En soms is het antwoord nul – want nul is ook een getal, en 'geen enkele' sturen moet je leren. Geen klok, geen punten, geen winnen of verliezen: alleen Mama Eend, haar eendjes en zoveel tijd als je kind nodig heeft. Afgestemd op de SLO-kerndoelen voor rekenen voor groep 3, domein getallen (tellen en getalbegrip)."
+        "Soms roept Mama een getal, soms tel je alleen de gele eendjes tussen de andere uit, soms stuur je precies één eendje per lelieblad, soms tel je het hele vlot of tel je door terwijl er nog meer eendjes aan komen zwemmen. Geen klok, geen punten, geen winnen of verliezen: alleen Mama Eend, haar eendjes en zoveel tijd als je kind nodig heeft. Afgestemd op de SLO-kerndoelen voor rekenen voor groep 3, domein getallen (tellen en getalbegrip)."
       ],
       "practices": [
         "rustig een gevraagd aantal tot 9 aftellen en neerzetten",
         "je eigen telling volgen en zelf stoppen, zonder terugkoppeling",
         "het bijbehorende cijfer met geordende halen vormen",
-        "nul herkennen en neerzetten als een echt aantal"
+        "het cijfer schrijven dat bij het getelde aantal hoort"
       ],
       "howToPlay": [
         "Luister naar welk getal Mama Eend roept.",
@@ -1176,7 +1176,7 @@
         "Vorm ten slotte het juiste cijfer in de modder en teken de lijst af."
       ],
       "learningGoals": [
-        "Ik kan een gevraagd aantal tot 9 goed aftellen en neerzetten, ook de nul.",
+        "Ik kan een gevraagd aantal tot 9 goed aftellen en neerzetten.",
         "Ik tel zelf mee en merk zelf wanneer het aantal klopt.",
         "Ik verbind het aantal aan het cijfer en vorm het."
       ]
@@ -1184,12 +1184,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Een glazen pot met speelgoed en een leeg etiket op het deksel. Het kind telt – elk stuk speelgoed krijgt een merkteken als je erop tikt – en schrijft met de cijfertoetsen hoeveel het er zijn; de cijfers verschijnen op het etiket. Bij het controleren wordt het etiket tegen de pot gelegd: het speelgoed schuift in zoveel plekken als het etiket zegt, en klopt het, dan wordt het etiket goud en plakt het, terwijl het getal wordt uitgesproken. In de andere soort ronde staat het getal al op het etiket en is de pot leeg: het kind tikt op speelgoed op de plank om het erin te laten vallen, tot de pot er zoveel bevat. Een interactieve oefening in tellen en getallen schrijven voor groep 3, die in de browser werkt op tablet, telefoon en computer, zonder iets te installeren en zonder account.",
-        "De kern is de verbinding in twee richtingen: een getelde hoeveelheid wordt een geschreven getal, en een geschreven getal wordt weer een hoeveelheid. Tot tien ligt het speelgoed los; van elf tot twintig staat het in rijen, zodat het oog zijn plek niet kwijtraakt. Op een verkeerd etiket antwoordt de pot, geen rood kruis: een te klein etiket laat speelgoed zonder plek staan, een te groot etiket laat gestippelde plekken leeg, en de vergissing krijgt een naam – de cijfers andersom (41 voor 14), alleen de eenheden (4 voor 14), het getal dat ‘geen’ betekent (0 voor een lege pot). In de instellingen blijven de getallen tot en met 10 voor een groep die net begint, of kies je alleen de telrondes of alleen de vulrondes.",
+        "De kern is de verbinding in twee richtingen: een getelde hoeveelheid wordt een geschreven getal, en een geschreven getal wordt weer een hoeveelheid. Tot tien ligt het speelgoed los; van elf tot twintig staat het in rijen, zodat het oog zijn plek niet kwijtraakt. Op een verkeerd etiket antwoordt de pot, geen rood kruis: een te klein etiket laat speelgoed zonder plek staan, een te groot etiket laat gestippelde plekken leeg, en de vergissing krijgt een naam – de cijfers andersom (41 voor 14) of alleen de eenheden (4 voor 14). In de instellingen blijven de getallen tot en met 10 voor een groep die net begint, of kies je alleen de telrondes of alleen de vulrondes.",
         "De oefening sluit aan bij de SLO-kerndoelen voor groep 3: hoeveelheden tot en met 20 tellen en het getal schrijven. Zonder timer en zonder score – rustig, speels oefenen."
       ],
       "practices": [
         "Een verzameling van maximaal 20 stuks speelgoed tellen en elk stuk een merkteken geven",
-        "Het getal schrijven dat zegt hoeveel het er zijn, ook de getallen 11 tot en met 19 en nul",
+        "Het getal schrijven dat zegt hoeveel het er zijn, ook de getallen 11 tot en met 19",
         "Een getal lezen en zoveel speelgoed in de pot doen",
         "Een geschreven getal vergelijken met de echte hoeveelheid en zien waar het niet klopt"
       ],
@@ -1199,8 +1199,8 @@
         "Staat het getal al op het etiket, tik dan op speelgoed op de plank tot de pot er zoveel bevat; ‘Volgende’ brengt een nieuwe pot."
       ],
       "learningGoals": [
-        "Getallen van 0 tot en met 20 schrijven en een hoeveelheid met een geschreven getal weergeven",
-        "Begrijpen dat 14 en 41 verschillende getallen zijn en dat een lege pot 0 is",
+        "Getallen van 1 tot en met 20 schrijven en een hoeveelheid met een geschreven getal weergeven",
+        "Begrijpen dat 14 en 41 verschillende getallen zijn",
         "Heen en terug gaan tussen een groep voorwerpen en het getal dat erbij hoort"
       ]
     },
@@ -2419,7 +2419,7 @@
         "Niet goed? Voeg fruit toe of haal het weg en probeer opnieuw — er is geen timer en geen score."
       ],
       "learningGoals": [
-        "Je kind maakt elk getal van 0 tot 20 met fruit op een dubbel tienraam.",
+        "Je kind maakt elk getal van 1 tot en met 20 met fruit op een dubbel tienraam.",
         "Je kind ziet getallen boven tien als een vol tiental en wat losse eenheden.",
         "Je kind legt de basis van doortellen en plaatswaarde voor het rekenen in groep 3."
       ]
@@ -2449,13 +2449,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Twee houten fruitkisten met elk tien vakjes — het dubbele tienraam uit de klas, gevuld met echte fruitplaatjes. Het fruit valt vakje voor vakje in de kist, eerst een rij van vijf, dan de volgende, en het kind schrijft met de cijfertoetsen op een bordje hoeveel stuks het zijn, van 0 tot en met 20. Klopt het getal, dan wordt het bordje goud, staat het getal op het laatste stuk fruit en wordt het uitgesproken. Deze interactieve telactiviteit werkt in de browser, zonder iets te installeren.",
-        "De kisten zijn gemaakt voor de getallen van elf tot en met twintig. Een volle kist is tien, dus veertien is een volle kist en nog vier — en in de geschreven 14 staat de 1 voor de volle kist en de 4 voor de rest. Een verkeerd getal krijgt een naam, zoals een leerkracht het zou zeggen: bij 41 in plaats van 14 staan de cijfers andersom, 4 in plaats van 14 telt alleen de tweede kist, 10 in plaats van 14 alleen de eerste, en een getal bij lege kisten vraagt welk getal ‘geen’ betekent. Daarna helpen de kisten zonder het antwoord te geven: vanaf zes stuks verschijnen eerst 5, 10 en 15 op het fruit, zodat het kind daar kan beginnen en verder kan tellen; na een tweede fout lopen de getallen verder over het fruit en stoppen ze bij een vraagteken op het laatste stuk. Het laatste getal zegt het kind zelf.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: getallen van 0 tot en met 20 schrijven en een aantal voorwerpen weergeven met een geschreven getal. De leerkracht kiest getallen tot en met 10 (één kist) of tot en met 20, en kan ‘Even kijken’ aanzetten: dan gaat er na een moment een doek over de kisten en tilt ‘Kijken’ hem weer op — zo wordt het fruit per rij van vijf afgelezen in plaats van één voor één geteld. Geen timer, geen score."
+        "Twee houten fruitkisten met elk tien vakjes — het dubbele tienraam uit de klas, gevuld met echte fruitplaatjes. Het fruit valt vakje voor vakje in de kist, eerst een rij van vijf, dan de volgende, en het kind schrijft met de cijfertoetsen op een bordje hoeveel stuks het zijn, van 1 tot en met 20. Klopt het getal, dan wordt het bordje goud, staat het getal op het laatste stuk fruit en wordt het uitgesproken. Deze interactieve telactiviteit werkt in de browser, zonder iets te installeren.",
+        "De kisten zijn gemaakt voor de getallen van elf tot en met twintig. Een volle kist is tien, dus veertien is een volle kist en nog vier — en in de geschreven 14 staat de 1 voor de volle kist en de 4 voor de rest. Een verkeerd getal krijgt een naam, zoals een leerkracht het zou zeggen: bij 41 in plaats van 14 staan de cijfers andersom, 4 in plaats van 14 telt alleen de tweede kist en 10 in plaats van 14 alleen de eerste. Daarna helpen de kisten zonder het antwoord te geven: vanaf zes stuks verschijnen eerst 5, 10 en 15 op het fruit, zodat het kind daar kan beginnen en verder kan tellen; na een tweede fout lopen de getallen verder over het fruit en stoppen ze bij een vraagteken op het laatste stuk. Het laatste getal zegt het kind zelf.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: getallen van 1 tot en met 20 schrijven en een aantal voorwerpen weergeven met een geschreven getal. De leerkracht kiest getallen tot en met 10 (één kist) of tot en met 20, en kan ‘Even kijken’ aanzetten: dan gaat er na een moment een doek over de kisten en tilt ‘Kijken’ hem weer op — zo wordt het fruit per rij van vijf afgelezen in plaats van één voor één geteld. Geen timer, geen score."
       ],
       "practices": [
         "Een dubbel tienraam aflezen: een volle kist is tien, een volle rij is vijf",
-        "Het getal van 0 tot en met 20 schrijven dat zegt hoeveel stuks fruit er zijn",
+        "Het getal van 1 tot en met 20 schrijven dat zegt hoeveel stuks fruit er zijn",
         "Verder tellen vanaf 5, 10 of 15 in plaats van opnieuw bij één te beginnen",
         "Getallen van elf tot en met twintig schrijven met de cijfers in de goede volgorde"
       ],

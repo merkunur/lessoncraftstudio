@@ -31,7 +31,7 @@ let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) PASS++; else { FAIL++; console.error('   FAIL: ' + m); } };
 
 /* ---- the rules, written out again from the design sheet ---- */
-const POOL20 = [0, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], POOL10 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const POOL20 = [3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], POOL10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];   /* never 0 */
 function slipOf(a, n) {
   if (a === n) return 'right';
   if (n === 0) return 'zero';
@@ -137,8 +137,8 @@ function serve() {
     is((await page.evaluate(() => document.querySelector('.lcs-title').textContent.trim())) === S('title'), `[${loc}] title`);
     const pool = await page.evaluate(() => window.FruitCratesActivity._pool.map(r => r.n));
     is(pool.join() === POOL20.join(), `[${loc}] pool = the 14 to-20 rounds (${pool.join()})`);
-    const ids = await page.evaluate(() => { const t = window.FruitCratesActivity, o = []; for (let i = 0; i < 28; i++) o.push(t.nextTask({ index: i }).id); return o; });
-    is(ids.slice(0, 14).slice().sort().join() === ids.slice(14).slice().sort().join() && ids.slice(0, 14).join() !== ids.slice(14).join(), `[${loc}] pass 2 re-serves the pool in a new order`);
+    const ids = await page.evaluate(() => { const t = window.FruitCratesActivity, o = []; for (let i = 0; i < 26; i++) o.push(t.nextTask({ index: i }).id); return o; });
+    is(ids.slice(0, 13).slice().sort().join() === ids.slice(13).slice().sort().join() && ids.slice(0, 13).join() !== ids.slice(13).join(), `[${loc}] pass 2 re-serves the pool in a new order`);
     const nouns = await page.evaluate(() => [...new Set(window.FruitCratesActivity._pool.map(r => r.noun))]);
     is(nouns.length >= 7 && nouns.every(nn => PICS.nouns[nn]), `[${loc}] ${nouns.length} different library fruits over the pool`);
     const leaks = await page.evaluate(() => { const bad = []; document.querySelectorAll('.lcs-app *').forEach(el => { for (const n of el.childNodes) if (n.nodeType === 3) { const s = n.textContent.trim(); if (/\{|\}/.test(s) || /^[a-z]+[A-Z]\w+$/.test(s)) bad.push(s); } }); return bad; });

@@ -13,8 +13,8 @@ const GATE = path.join(__dirname, 'verify-jar-label-core.js');
 const MUTATIONS = [
   ['jar holds 25',                  "var MAX = 20, DIGITS = 2;", "var MAX = 25, DIGITS = 2;"],
   ['three digits',                  "var MAX = 20, DIGITS = 2;", "var MAX = 20, DIGITS = 3;"],
-  ['a teen dropped',                "count: [0, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]", "count: [0, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20]"],
-  ['zero dropped from to10',        "count: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]", "count: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"],
+  ['a teen dropped',                "count: [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]", "count: [6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20]"],
+  ['a 0 round put back',            "count: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]", "count: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"],
   ['toys never rotate',             "noun: nouns[(k++) % nouns.length], seed: (seed || 'jl') + ':' + range + ':c'", "noun: nouns[0], seed: (seed || 'jl') + ':' + range + ':c'"],
   ['seed ignored for nouns',        "var nouns = shuffle(NOUNS, rng((seed || 'jl') + ':nouns:' + range));", "var nouns = NOUNS.slice();"],
   ['leading zero kept',             "st.typed = (st.typed === '0') ? d : st.typed + d;", "st.typed = st.typed + d;"],
@@ -24,7 +24,6 @@ const MUTATIONS = [
   ['the jar overfills',             "if (st.done || st.kind !== 'fill' || st.inJar >= MAX) return false; st.inJar++;", "if (st.done || st.kind !== 'fill') return false; st.inJar++;"],
   ['reversal named more',           "if (a >= 10 && rev(a) === n && a % 10 !== 0) return 'reversed';", "if (false) return 'reversed';"],
   ['lone digit named more',         "if (a >= 1 && a < 10 && n >= 10 && n % 10 === a) return 'oneDigit';", "if (false) return 'oneDigit';"],
-  ['zero named fewer',              "    if (n === 0) return 'zero';\n", "\n"],
   ['more and fewer swapped',        "if (a < n) return 'more';\n    return 'fewer';", "if (a < n) return 'fewer';\n    return 'more';"],
   ['the right label does not finish', "if (res.ok) st.done = true;", "if (false) st.done = true;"],
   ['leftover count off',            "k: slip === 'more' ? st.n - a : slip === 'fewer' ? a - st.n : 0", "k: slip === 'more' ? st.n - a + 1 : slip === 'fewer' ? a - st.n : 0"],

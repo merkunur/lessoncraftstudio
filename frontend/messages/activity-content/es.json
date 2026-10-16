@@ -746,14 +746,14 @@
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {
       "about": [
-        "Amanece en el estanque y Mamá Pata sacude las plumas para pasar la lista de la mañana. Llama un número en voz alta —«tres», «cinco», a veces «cero»— y tu peque le envía justo esa cantidad de patitos, sacándolos de la balsa uno por uno. Cuenta «uno… dos… tres» mientras cada patito nada hacia Mamá, sin prisas y sin apuntar antes de tiempo: la idea es contar de verdad, de a uno, hasta llegar a la cantidad que Mamá pidió.",
+        "Amanece en el estanque y Mamá Pata sacude las plumas para pasar la lista de la mañana. Llama un número en voz alta —«seis», «ocho»— y tu peque le envía justo esa cantidad de patitos, sacándolos de la balsa uno por uno. Cuenta «uno… dos… tres» mientras cada patito nada hacia Mamá, sin prisas y sin apuntar antes de tiempo: la idea es contar de verdad, de a uno, hasta llegar a la cantidad que Mamá pidió.",
         "Aquí está lo especial: mientras tu peque cuenta, nadie le dice si va bien o mal. No hay palomita ni sonido de acierto que lo detenga. Es él o ella quien decide cuándo ya envió suficientes patitos y cuándo parar; así aprende a vigilar su propio conteo y a confiar en él. Solo después «firma el pase de lista» formando la cifra en el lodo, trazo por trazo, como quien escribe su nombre. Si la cantidad de patitos coincide con lo que Mamá llamó, el pase queda sellado y el estanque respira tranquilo.",
-        "Cada mañana el pase cambia un poco: a veces Mamá pide un número, a veces solo los patitos amarillos entre los de muchos colores, a veces un patito por cada nenúfar para que ninguno se quede sin lugar. Otras veces hay que contar toda la parvada, o seguir contando mientras llegan más patitos nadando. Y a veces la respuesta es CERO —«déjalos dormir»— porque el cero también es un número y no enviar ninguno también es una respuesta correcta. No hay reloj, no hay puntos y nadie gana ni pierde: solo un estanque tranquilo donde contar se siente bien. (Alineada a los Planes y programas de estudio de la SEP para el preescolar, en el eje de Sentido numérico.)"
+        "Cada mañana el pase cambia un poco: a veces Mamá pide un número, a veces solo los patitos amarillos entre los de muchos colores, a veces un patito por cada nenúfar para que ninguno se quede sin lugar. Otras veces hay que contar toda la parvada, o seguir contando mientras llegan más patitos nadando. No hay reloj, no hay puntos y nadie gana ni pierde: solo un estanque tranquilo donde contar se siente bien. (Alineada a los Planes y programas de estudio de la SEP para el preescolar, en el eje de Sentido numérico.)"
       ],
       "practices": [
         "Contar uno a uno hasta 9 para producir la cantidad que se pide.",
         "Autocontrolar el propio conteo y decidir cuándo detenerse sin recibir señales.",
-        "Reconocer el cero como una cantidad válida y una respuesta correcta.",
+        "Saber cuándo parar: enviar justo los patitos que pidió Mamá, ni uno más.",
         "Asociar la cantidad contada con su cifra y formarla trazo por trazo."
       ],
       "howToPlay": [
@@ -762,7 +762,7 @@
         "Forma la cifra en el lodo, trazo por trazo, y sella el pase de lista."
       ],
       "learningGoals": [
-        "Cuento y produzco una cantidad hasta 9, incluido el cero.",
+        "Cuento y produzco una cantidad hasta 9.",
         "Me doy cuenta yo solo o yo sola cuándo llego a la cantidad que me pidieron.",
         "Relaciono la cantidad con su número y lo escribo en el lodo."
       ]
@@ -770,12 +770,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Un frasco de vidrio con juguetes y una etiqueta vacía en la tapa. El niño cuenta —cada juguete recibe una marca al tocarlo— y escribe cuántos hay con las teclas de números; los dígitos aparecen en la etiqueta. Al comprobar, la etiqueta se compara con el frasco: los juguetes se acomodan en tantos lugares como dice la etiqueta, y si está bien, se vuelve dorada y se pega mientras se dice el número en voz alta. En la otra clase de ronda, la etiqueta ya está escrita y el frasco está vacío: el niño toca juguetes del estante para que caigan dentro hasta que el frasco tenga esa cantidad. Una actividad interactiva para contar y escribir números, para primer grado, que funciona en el navegador en tableta, celular y computadora, sin instalar nada y sin cuenta.",
-        "La idea central es el camino de ida y vuelta entre contar y escribir: una cantidad contada se convierte en un número escrito, y un número escrito vuelve a ser una cantidad. Hasta diez, los juguetes están sueltos; de once a veinte, forman filas para que la vista no pierda el lugar. Una etiqueta equivocada la responde el frasco, no una cruz roja: una etiqueta muy chica deja juguetes sin lugar, una muy grande deja lugares vacíos punteados, y el error recibe su nombre: los dígitos al revés (41 por 14), solo las unidades (4 por 14), el número que significa «ninguno» (0 para un frasco vacío). En los ajustes, los números se quedan hasta 10 para un grupo que empieza, o se eligen solo las rondas de contar o solo las de llenar.",
+        "La idea central es el camino de ida y vuelta entre contar y escribir: una cantidad contada se convierte en un número escrito, y un número escrito vuelve a ser una cantidad. Hasta diez, los juguetes están sueltos; de once a veinte, forman filas para que la vista no pierda el lugar. Una etiqueta equivocada la responde el frasco, no una cruz roja: una etiqueta muy chica deja juguetes sin lugar, una muy grande deja lugares vacíos punteados, y el error recibe su nombre: los dígitos al revés (41 por 14) o solo las unidades (4 por 14). En los ajustes, los números se quedan hasta 10 para un grupo que empieza, o se eligen solo las rondas de contar o solo las de llenar.",
         "La actividad sigue los planes de estudio de la SEP para primer grado: contar colecciones hasta 20 y escribir el número. Sin cronómetro y sin puntos: práctica tranquila y lúdica."
       ],
       "practices": [
         "Contar una colección de hasta 20 juguetes marcando cada uno",
-        "Escribir el número que dice cuántos hay, incluidos los números del 11 al 19 y el cero",
+        "Escribir el número que dice cuántos hay, incluidos los números del 11 al 19",
         "Leer un número y meter esa cantidad de juguetes en el frasco",
         "Comparar un número escrito con la cantidad real y ver en qué falla"
       ],
@@ -785,8 +785,8 @@
         "Cuando la etiqueta ya está escrita, toca juguetes del estante hasta que el frasco tenga esa cantidad; «Siguiente» trae un frasco nuevo."
       ],
       "learningGoals": [
-        "Escribir los números del 0 al 20 y representar una cantidad con un número escrito",
-        "Entender que 14 y 41 son números distintos y que un frasco vacío es 0",
+        "Escribir los números del 1 al 20 y representar una cantidad con un número escrito",
+        "Entender que 14 y 41 son números distintos",
         "Pasar en los dos sentidos de un grupo de objetos al número que lo nombra"
       ]
     },
@@ -2559,7 +2559,7 @@
         "¿No salió a la primera? Agrega o quita frutas y vuelve a intentarlo: no hay temporizador ni puntuación."
       ],
       "learningGoals": [
-        "Formar cualquier número del 0 al 20 con fichas en un marco de diez doble.",
+        "Formar cualquier número del 1 al 20 con fichas en un marco de diez doble.",
         "Ver los números mayores que diez como un diez completo y algunas unidades más.",
         "Construir la base de contar a partir de un número y del valor posicional para las matemáticas de primer grado."
       ]
@@ -2589,13 +2589,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "Dos cajas de madera con diez lugares cada una: el marco de diez doble del salón, lleno de imágenes de frutas de verdad. Las frutas caen lugar por lugar, una fila de cinco y luego la siguiente, y el niño o la niña escribe en una pizarra, con las teclas de números, cuántas hay, del 0 al 20. Cuando el número es correcto, la pizarra se vuelve dorada, la última fruta lleva el número y se escucha en voz alta. Esta actividad interactiva de conteo funciona en el navegador, sin instalar nada.",
-        "Las cajas están hechas para los números del once al veinte. Una caja llena son diez, así que catorce es una caja llena y cuatro más, y en el 14 escrito el 1 corresponde a la caja llena y el 4 al resto. Un número equivocado se nombra como lo haría la maestra o el maestro: 41 en vez de 14 tiene los dígitos al revés; 4 en vez de 14 cuenta solo la segunda caja; 10 en vez de 14, solo la primera; y un número frente a cajas vacías pregunta qué número significa «ninguna». Después las cajas ayudan sin dar la respuesta: a partir de seis frutas, primero aparecen el 5, el 10 y el 15 sobre ellas, para empezar ahí y seguir contando; tras un segundo error, los números avanzan sobre las frutas y se detienen en un signo de interrogación sobre la última. El número final lo dice el niño o la niña.",
-        "Está alineada con los planes y programas de estudio (SEP): escribir números del 0 al 20 y representar una cantidad de objetos con un número escrito. El docente elige números hasta 10 (una caja) o hasta 20, y puede activar el vistazo rápido: una tela tapa las cajas después de un momento y «Mirar» la levanta otra vez, para leer las frutas por filas de cinco en lugar de contarlas una por una. Sin temporizador y sin puntaje."
+        "Dos cajas de madera con diez lugares cada una: el marco de diez doble del salón, lleno de imágenes de frutas de verdad. Las frutas caen lugar por lugar, una fila de cinco y luego la siguiente, y el niño o la niña escribe en una pizarra, con las teclas de números, cuántas hay, del 1 al 20. Cuando el número es correcto, la pizarra se vuelve dorada, la última fruta lleva el número y se escucha en voz alta. Esta actividad interactiva de conteo funciona en el navegador, sin instalar nada.",
+        "Las cajas están hechas para los números del once al veinte. Una caja llena son diez, así que catorce es una caja llena y cuatro más, y en el 14 escrito el 1 corresponde a la caja llena y el 4 al resto. Un número equivocado se nombra como lo haría la maestra o el maestro: 41 en vez de 14 tiene los dígitos al revés; 4 en vez de 14 cuenta solo la segunda caja; y 10 en vez de 14, solo la primera. Después las cajas ayudan sin dar la respuesta: a partir de seis frutas, primero aparecen el 5, el 10 y el 15 sobre ellas, para empezar ahí y seguir contando; tras un segundo error, los números avanzan sobre las frutas y se detienen en un signo de interrogación sobre la última. El número final lo dice el niño o la niña.",
+        "Está alineada con los planes y programas de estudio (SEP): escribir números del 1 al 20 y representar una cantidad de objetos con un número escrito. El docente elige números hasta 10 (una caja) o hasta 20, y puede activar el vistazo rápido: una tela tapa las cajas después de un momento y «Mirar» la levanta otra vez, para leer las frutas por filas de cinco en lugar de contarlas una por una. Sin temporizador y sin puntaje."
       ],
       "practices": [
         "Leer un marco de diez doble: una caja llena son diez, una fila llena son cinco",
-        "Escribir el número del 0 al 20 que dice cuántas frutas hay",
+        "Escribir el número del 1 al 20 que dice cuántas frutas hay",
         "Seguir contando desde 5, 10 o 15 en lugar de volver a empezar en uno",
         "Escribir los números del once al veinte con los dígitos en orden"
       ],

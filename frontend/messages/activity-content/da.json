@@ -279,7 +279,7 @@
         "Passer det ikke? Læg flere brikker til eller tag nogle væk og prøv igen — der er ingen timer og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan lave ethvert tal fra 0 til 20 med brikker på en dobbelt tierramme",
+        "Barnet kan lave ethvert tal fra 1 til 20 med brikker på en dobbelt tierramme",
         "Barnet kan se tallene forbi ti som en fuld tier og nogle ekstra enere",
         "Barnet bygger det fundament af tælle-videre og pladsværdi, der bruges i matematik i 1. klasse"
       ]
@@ -309,13 +309,13 @@
     },
     "ten-frame.write-numeral.0-20.fruits": {
       "about": [
-        "To frugtkasser af træ med ti rum hver — den dobbelte tierramme fra klassen, fyldt med rigtige billeder af frugt. Frugterne falder ned rum for rum, først en række med fem, så den næste, og barnet skriver med taltasterne på en tavle, hvor mange der er, fra 0 til 20. Når tallet passer, bliver tavlen guldfarvet, den sidste frugt bærer tallet, og det bliver læst højt. Den interaktive tælleaktivitet kører i browseren uden noget at installere.",
-        "Kasserne er lavet til tallene fra elleve til tyve. En fuld kasse er ti, så fjorten er en fuld kasse og fire til — og i det skrevne 14 står 1-tallet for den fulde kasse og 4-tallet for resten. Et forkert tal får et navn, sådan som en lærer ville sige det: 41 i stedet for 14 har cifrene omvendt, 4 i stedet for 14 tæller kun den anden kasse, 10 i stedet for 14 kun den første, og et tal ved tomme kasser spørger, hvilket tal der betyder ”ingen”. Derefter hjælper kasserne uden at afsløre svaret: Fra seks frugter og op kommer 5, 10 og 15 først frem på frugterne, så barnet kan begynde der og tælle videre; efter endnu en fejl fortsætter tallene hen over frugterne og stopper ved et spørgsmålstegn på den sidste. Det sidste tal siger barnet selv.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik: at skrive tal fra 0 til 20 og vise et antal genstande med et skrevet tal. Læreren vælger tal til 10 (én kasse) eller til 20 og kan slå hurtigt kig til: Så dækker et klæde kasserne efter et øjeblik, og ”Kig” løfter det igen — så aflæses frugterne række for række, fem ad gangen, i stedet for én ad gangen. Intet ur og ingen point."
+        "To frugtkasser af træ med ti rum hver — den dobbelte tierramme fra klassen, fyldt med rigtige billeder af frugt. Frugterne falder ned rum for rum, først en række med fem, så den næste, og barnet skriver med taltasterne på en tavle, hvor mange der er, fra 1 til 20. Når tallet passer, bliver tavlen guldfarvet, den sidste frugt bærer tallet, og det bliver læst højt. Den interaktive tælleaktivitet kører i browseren uden noget at installere.",
+        "Kasserne er lavet til tallene fra elleve til tyve. En fuld kasse er ti, så fjorten er en fuld kasse og fire til — og i det skrevne 14 står 1-tallet for den fulde kasse og 4-tallet for resten. Et forkert tal får et navn, sådan som en lærer ville sige det: 41 i stedet for 14 har cifrene omvendt, 4 i stedet for 14 tæller kun den anden kasse og 10 i stedet for 14 kun den første. Derefter hjælper kasserne uden at afsløre svaret: Fra seks frugter og op kommer 5, 10 og 15 først frem på frugterne, så barnet kan begynde der og tælle videre; efter endnu en fejl fortsætter tallene hen over frugterne og stopper ved et spørgsmålstegn på den sidste. Det sidste tal siger barnet selv.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at skrive tal fra 1 til 20 og vise et antal genstande med et skrevet tal. Læreren vælger tal til 10 (én kasse) eller til 20 og kan slå hurtigt kig til: Så dækker et klæde kasserne efter et øjeblik, og ”Kig” løfter det igen — så aflæses frugterne række for række, fem ad gangen, i stedet for én ad gangen. Intet ur og ingen point."
       ],
       "practices": [
         "Aflæse en dobbelt tierramme: en fuld kasse er ti, en fuld række er fem",
-        "Skrive tallet fra 0 til 20, der siger, hvor mange frugter der er",
+        "Skrive tallet fra 1 til 20, der siger, hvor mange frugter der er",
         "Tælle videre fra 5, 10 eller 15 i stedet for at begynde forfra ved én",
         "Skrive tallene fra elleve til tyve med cifrene i den rigtige rækkefølge"
       ],
@@ -1613,12 +1613,12 @@
     "rivets-number-forge.numeral-album.k-cc-a-3": {
       "about": [
         "Et glas med legetøj og en tom etiket på låget. Barnet tæller – hvert stykke legetøj får et mærke, når man trykker på det – og skriver med taltasterne, hvor mange der er; cifrene står på etiketten. Når man tjekker, holdes etiketten op mod glasset: legetøjet stiller sig på lige så mange pladser, som etiketten siger, og passer den, bliver den gylden og sidder fast, mens tallet bliver sagt højt. I den anden slags runde står tallet allerede på etiketten, og glasset er tomt: barnet trykker på legetøj på hylden, så det falder ned, indtil glasset rummer så mange. En interaktiv øvelse i at tælle og skrive tal til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer – uden installation og uden konto.",
-        "Kernen er vejen frem og tilbage mellem antal og tal: et talt antal bliver et skrevet tal, og et skrevet tal bliver et antal igen. Op til ti ligger legetøjet løst; fra elleve til tyve står det i rækker, så øjet ikke mister sin plads. En forkert etiket besvares af glasset, ikke af et rødt kryds: en for lille etiket lader legetøj stå uden plads, en for stor lader stiplede pladser stå tomme, og fejlen får et navn – cifrene omvendt (41 for 14), kun enerne (4 for 14), tallet der betyder ”ingen” (0 for et tomt glas). I indstillingerne bliver tallene ved 10 til en gruppe, der lige er begyndt, eller man vælger kun tællerunderne eller kun fylderunderne.",
+        "Kernen er vejen frem og tilbage mellem antal og tal: et talt antal bliver et skrevet tal, og et skrevet tal bliver et antal igen. Op til ti ligger legetøjet løst; fra elleve til tyve står det i rækker, så øjet ikke mister sin plads. En forkert etiket besvares af glasset, ikke af et rødt kryds: en for lille etiket lader legetøj stå uden plads, en for stor lader stiplede pladser stå tomme, og fejlen får et navn – cifrene omvendt (41 for 14) eller kun enerne (4 for 14). I indstillingerne bliver tallene ved 10 til en gruppe, der lige er begyndt, eller man vælger kun tællerunderne eller kun fylderunderne.",
         "Øvelsen følger Fælles Mål: at tælle antal op til 20 og skrive tallet. Uden timer og uden point – rolig og legende træning."
       ],
       "practices": [
         "Tælle op til 20 stykker legetøj og holde styr på dem med et mærke på hvert",
-        "Skrive det tal, der siger, hvor mange der er – også tallene 11–19 og nul",
+        "Skrive det tal, der siger, hvor mange der er – også tallene 11–19",
         "Læse et tal og lægge så meget legetøj i glasset",
         "Sammenligne et skrevet tal med det rigtige antal og se, hvor det går galt"
       ],
@@ -1628,8 +1628,8 @@
         "Når tallet allerede står på etiketten, trykker du på legetøj på hylden, indtil glasset rummer så mange; ”Næste” giver et nyt glas."
       ],
       "learningGoals": [
-        "Skrive tallene 0 til 20 og skrive et antal som et tal",
-        "Forstå, at 14 og 41 er forskellige tal, og at et tomt glas er 0",
+        "Skrive tallene 1 til 20 og skrive et antal som et tal",
+        "Forstå, at 14 og 41 er forskellige tal",
         "Gå begge veje mellem en gruppe ting og det tal, der hører til"
       ]
     },

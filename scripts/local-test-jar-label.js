@@ -94,8 +94,8 @@ function serve() {
     const pool = await page.evaluate(() => window.JarLabelActivity._pool.map(r => r.id));
     const want = CORE.rounds('to20', 'both', 'jl');
     is(pool.join() === want.map(r => r.id).join(), `[${loc}] pool = the 17 to-20 rounds`);
-    const ids = await page.evaluate(() => { const t = window.JarLabelActivity, o = []; for (let i = 0; i < 34; i++) o.push(t.nextTask({ index: i }).id); return o; });
-    is(ids.slice(0, 17).slice().sort().join() === ids.slice(17).slice().sort().join() && ids.slice(0, 17).join() !== ids.slice(17).join(), `[${loc}] pass 2 re-serves the pool in a new order`);
+    const ids = await page.evaluate(() => { const t = window.JarLabelActivity, o = []; for (let i = 0; i < 32; i++) o.push(t.nextTask({ index: i }).id); return o; });
+    is(ids.slice(0, 16).slice().sort().join() === ids.slice(16).slice().sort().join() && ids.slice(0, 16).join() !== ids.slice(16).join(), `[${loc}] pass 2 re-serves the pool in a new order`);
     const leaks = await page.evaluate(() => { const bad = []; document.querySelectorAll('.lcs-app *').forEach(el => { for (const n of el.childNodes) if (n.nodeType === 3) { const s = n.textContent.trim(); if (/\{|\}/.test(s) || /^[a-z]+[A-Z]\w+$/.test(s)) bad.push(s); } }); return bad; });
     is(leaks.length === 0, `[${loc}] raw keys / braces rendered: ${leaks.slice(0, 3).join(' | ')}`);
     for (let ri = 0; ri < want.length; ri++) {
@@ -170,7 +170,7 @@ function serve() {
     await setSetting(page, 'task', 'fill');
     is((await page.evaluate(() => window.JarLabelActivity._pool.every(r => r.kind === 'fill') && window.JarLabelActivity._pool.length)) === 3, `[${loc}] rounds = fill the jar: three fill rounds`);
     await setSetting(page, 'task', 'count');
-    is((await page.evaluate(() => window.JarLabelActivity._pool.every(r => r.kind === 'count') && window.JarLabelActivity._pool.length)) === 11, `[${loc}] rounds = count and write: eleven count rounds`);
+    is((await page.evaluate(() => window.JarLabelActivity._pool.every(r => r.kind === 'count') && window.JarLabelActivity._pool.length)) === 10, `[${loc}] rounds = count and write: ten count rounds (1–10, never 0)`);
     await setSetting(page, 'task', 'both'); await setSetting(page, 'range', 'to20');
     is(errs.length === 0, `[${loc}] no page errors: ${errs.slice(0, 2).join(' | ')}`);
     await page.close();

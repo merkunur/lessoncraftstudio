@@ -17,12 +17,12 @@ let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) PASS++; else { FAIL++; if (FAIL <= 30) console.error('   FAIL: ' + m); } };
 
 /* ---- the ground truth ---- */
-const POOL20 = [0, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], POOL10 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/* never 0 (operator 2026-10-16: counting activities never include 0) */
+const POOL20 = [3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], POOL10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const FRUIT = ['apple', 'banana', 'pear', 'lemon', 'strawberry', 'orange', 'pineapple', 'cherry'];
 function slip(a, n) {
   if (a === null) return 'none';
   if (a === n) return 'right';
-  if (n === 0) return 'zero';
   if (a >= 10 && a <= 99 && a % 10 !== 0 && (a % 10) * 10 + Math.floor(a / 10) === n) return 'reversed';
   if (a >= 1 && a <= 9 && n >= 10 && n - 10 * Math.floor(n / 10) === a) return 'oneDigit';
   if (a === 10 && n > 10) return 'tensOnly';
@@ -40,7 +40,6 @@ function chips(n, m, done) {
 }
 function hint(s, n, m) {
   if (s === 'none') return 'hintNone';
-  if (s === 'zero') return 'hintZero';
   const lv = level(n, m);
   if (lv === 2) return 'hintCountOn';
   if (s === 'reversed') return 'hintReversed';
@@ -96,10 +95,10 @@ console.log('[B] typing');
   is(s7.done && !C.typeDigit(s7, 3) && s7.typed === '7', 'a finished one-digit round takes no more typing');
 }
 
-console.log('[C] the slip table, every a 0–99 against every n 0–20');
-for (let n = 0; n <= 20; n++) for (let a = 0; a <= 99; a++) is(C.classify(a, n) === slip(a, n), `classify(${a}, ${n}) = ${C.classify(a, n)}, want ${slip(a, n)}`);
-for (let n = 0; n <= 20; n++) is(C.classify(null, n) === 'none', `nothing written on ${n} = none`);
-is(C.classify(41, 14) === 'reversed' && C.classify(4, 14) === 'oneDigit' && C.classify(10, 14) === 'tensOnly' && C.classify(10, 20) === 'tensOnly' && C.classify(1, 10) === 'more' && C.classify(2, 20) === 'more' && C.classify(3, 0) === 'zero' && C.classify(21, 12) === 'reversed' && C.classify(11, 11) === 'right', 'the named examples of the design sheet');
+console.log('[C] the slip table, every a 0–99 against every n 1–20');
+for (let n = 1; n <= 20; n++) for (let a = 0; a <= 99; a++) is(C.classify(a, n) === slip(a, n), `classify(${a}, ${n}) = ${C.classify(a, n)}, want ${slip(a, n)}`);
+for (let n = 1; n <= 20; n++) is(C.classify(null, n) === 'none', `nothing written on ${n} = none`);
+is(C.classify(41, 14) === 'reversed' && C.classify(4, 14) === 'oneDigit' && C.classify(10, 14) === 'tensOnly' && C.classify(10, 20) === 'tensOnly' && C.classify(1, 10) === 'more' && C.classify(2, 20) === 'more' && C.classify(21, 12) === 'reversed' && C.classify(11, 11) === 'right', 'the named examples of the design sheet');
 
 console.log('[D] check and misses');
 for (const n of POOL20) {
@@ -116,7 +115,7 @@ for (const n of POOL20) {
 }
 
 console.log('[E] the help ladder — level, chips, hint, for misses 0–3 on every n');
-for (let n = 0; n <= 20; n++) for (let m = 0; m <= 3; m++) {
+for (let n = 1; n <= 20; n++) for (let m = 0; m <= 3; m++) {
   const last = n === 0 ? 3 : (n >= 1 ? n - 1 : n + 1);
   const st = stateAfter(n, m, m ? last : undefined);
   is(st.misses === m, `n=${n} m=${m}: misses counted`);
@@ -135,11 +134,9 @@ for (const n of [1, 3, 5]) { const st = stateAfter(n, 1, n + 1); is(C.hintKey(st
 { const st = stateAfter(14, 1, 41); is(C.hintKey(st) === 'hintReversed', '41 for 14 → hintReversed'); }
 { const st = stateAfter(14, 1, 4); is(C.hintKey(st) === 'hintOneDigit', '4 for 14 → hintOneDigit'); }
 { const st = stateAfter(14, 1, 10); is(C.hintKey(st) === 'hintTensOnly', '10 for 14 → hintTensOnly'); }
-{ const st = stateAfter(0, 1, 3); is(C.hintKey(st) === 'hintZero' && C.chips(st).length === 0, '3 for none → hintZero, no chips'); }
-{ const st = stateAfter(0, 3, 3); is(C.hintKey(st) === 'hintZero' && C.helpLevel(st) === 0, 'zero never climbs the ladder'); }
 { const st = C.newState({ id: 'x', n: 9, crates: 2, noun: 'apple', seed: 's' }); C.check(st); is(C.hintKey(st) === 'hintNone' && C.helpLevel(st) === 0, 'an empty Check → hintNone, no help'); }
-for (let n = 0; n <= 20; n++) {
-  const st = stateAfter(n, 2, n === 0 ? 3 : n - 1); st.typed = ''; String(n).split('').forEach(d => C.typeDigit(st, d)); C.check(st);
+for (let n = 1; n <= 20; n++) {
+  const st = stateAfter(n, 2, n - 1); st.typed = ''; String(n).split('').forEach(d => C.typeDigit(st, d)); C.check(st);
   is(st.done && C.helpLevel(st) === 0 && JSON.stringify(C.chips(st)) === JSON.stringify(chips(n, 2, true)), `n=${n}: done → the crates read themselves: ${JSON.stringify(C.chips(st))}`);
 }
 

@@ -51,6 +51,7 @@ const MANIFEST_FILES = [
   'next-number-activities.json',
   'constellation-activities.json',
   'writing-line-activities.json',
+  'letterbox-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',
   'cvc-builder-activities.json',

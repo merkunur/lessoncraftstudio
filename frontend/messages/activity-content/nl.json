@@ -1436,25 +1436,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Snor de muis heeft de posttas al om en huppelt langs de kleine huisjes in de buurt. In de tas zitten allemaal brieven, en elk huisje heeft een eigen bordje met een huisnummer erop. Snor kijkt vrolijk omhoog: welke brief mag als eerste bezorgd worden? Samen met je kind gaat de muis op pad om de post bij het juiste huis te brengen.",
-        "Op elke brief staat een getal van 0 tot 20. Je kind leest het getal en zoekt het huis met datzelfde huisnummer. Zo oefent het spelenderwijs getallen lezen en cijfers herkennen — ook de tienertallen zoals 13, 14 en 16, waar de plek van de cijfers telt (13 is niet 31). Dit noemen we ook wel getallen lezen, en het sluit mooi aan bij de SLO-kerndoelen voor rekenen in groep 3.",
-        "Er is geen klok en geen score. Je kind mag rustig lezen en bezorgen, helemaal in zijn eigen tempo. Tikt het op het verkeerde huis? Geen probleem — dat is geen fout, gewoon nog een keer goed naar het getal kijken en het juiste huisnummer zoeken. De activiteit kan zo vaak gespeeld worden als je kind wil."
+        "Een straat met vijf huizen, elk met een gedrukt huisnummer boven de deur, en een bestelbus van de post met drie brieven. Het adres op elke brief is met de hand geschreven – in het handschrift waarin kinderen hun cijfers leren schrijven –, terwijl de huisnummers gedrukt zijn. Zo kan je kind geen vormen vergelijken: het moet het getal lezen. Je kind sleept elke brief naar een huis; hij past maar door één brievenbus. Gaat de juiste deur open, dan stapt de buur op de stoep, wordt het getal uitgesproken en verschijnt de volgende brief. Is de derde brief bezorgd, dan controleert de ronde zichzelf. Een interactieve oefening in getallen lezen voor groep 3, die in de browser werkt op tablet, telefoon en computer, zonder iets te installeren en zonder account.",
+        "De kern: getallen van 0 tot en met 20 lezen als getallen, niet herkennen als plaatjes. Elke straat bevat de verwarringen van beginnende lezers: 13 woont naast 31, dus de volgorde van de cijfers telt; 14 staat tussen 13 en 11, dus het laatste cijfer moet gelezen worden; 14 staat naast 4, want één cijfer is geen twee; en 6 staat dicht bij 9, 2 bij 5, 1 bij 7. Een verkeerde deur antwoordt met zijn eigen nummer naast dat van de brief en benoemt de vergissing – dezelfde cijfers andersom, kijk naar het laatste cijfer, twee cijfers en niet één – en na twee missers licht het juiste bordje op. In de instellingen blijven de getallen tot en met 10 voor een groep die net begint, of wordt het adres gesproken in plaats van geschreven, zodat je kind naar het getal luistert, met een knop Laat zien voor een stil lokaal.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor groep 3: getallen tot en met 20 lezen en uit elkaar houden. Zonder timer en zonder score – rustig, speels oefenen."
       ],
       "practices": [
-        "Geschreven getallen van 0 tot 20 lezen",
-        "Cijfers op de huizen herkennen",
-        "Het getal op de brief bij het juiste huis vinden",
-        "Tienertallen zoals 13 en 14 goed leren lezen"
+        "Geschreven getallen van 0 tot en met 20 lezen, ook de nul en de getallen 11 tot en met 19",
+        "13 en 31 uit elkaar houden: de volgorde van de cijfers maakt het getal",
+        "14 van 13 en 14 van 4 onderscheiden: het laatste cijfer lezen en de cijfers tellen",
+        "Een handgeschreven getal lezen en het gedrukt terugvinden"
       ],
       "howToPlay": [
-        "Lees het getal op de brief",
-        "Zoek het huis met datzelfde huisnummer",
-        "Tik op dat huis om de brief te bezorgen"
+        "Pak de brief uit de bestelbus en lees het getal dat erop staat.",
+        "Sleep hem naar het huis met dat getal op het bordje: alleen daar past hij door de brievenbus.",
+        "Bezorg alle drie de brieven; de ronde controleert zichzelf en ‘Volgende’ brengt een nieuwe straat."
       ],
       "learningGoals": [
-        "Getallen van 0 tot 20 vlot en zeker leren lezen",
-        "Cijfers en huisnummers snel herkennen",
-        "Begrijpen dat de plek van een cijfer telt (13 is niet 31)"
+        "Getallen van 0 tot en met 20 lezen",
+        "Begrijpen dat 13 en 31 verschillende getallen zijn omdat de volgorde van de cijfers telt",
+        "Een getal herkennen, of het nu geschreven of gedrukt is"
       ]
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {

@@ -2955,25 +2955,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Pip è una topina postina con una borsa piena di lettere, e ogni busta porta un numero da consegnare. Il bambino legge la cifra scritta sulla lettera, cerca la casa con lo stesso numero e la tocca: se ha letto bene, il vicino si affaccia e saluta dalla finestra.",
-        "Il cuore dell’attività è leggere e riconoscere i numeri scritti da 0 a 20. Il bambino impara a riconoscere lo stesso numero anche in caratteri diversi e a distinguere numeri facili da confondere, come 13 e 31: l’ordine delle cifre conta e cambia tutto.",
-        "Un’attività allineata alle Indicazioni nazionali e pensata per la classe prima, senza registrazione, senza timer e senza punteggio: solo il piacere di leggere i numeri e aiutare Pip a consegnare la posta."
+        "Una via con cinque case, ognuna con il numero civico stampato sopra la porta, e un furgoncino della posta con tre lettere. L’indirizzo di ogni lettera è scritto a mano, con la grafia con cui i bambini imparano a scrivere le cifre, mentre i numeri delle case sono stampati. Così il bambino non può confrontare le forme: deve leggere il numero. Trascina ogni lettera fino a una casa; entra in una sola buca delle lettere. Quando la porta giusta si apre, il vicino esce sulla soglia, il numero viene detto ad alta voce e compare la lettera successiva. Quando la terza lettera è imbucata, il turno si controlla da solo. Un’attività interattiva di lettura dei numeri per la classe prima, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L’idea centrale: leggere i numeri da 0 a 20 come numeri, non come figure. Ogni via contiene le confusioni di chi inizia a leggere: il 13 abita accanto al 31, quindi conta l’ordine delle cifre; il 14 sta tra il 13 e l’11, quindi bisogna leggere l’ultima cifra; il 14 sta accanto al 4, perché una cifra non è due; e il 6 sta vicino al 9, il 2 vicino al 5, l’1 vicino al 7. Una porta sbagliata risponde con il proprio numero accanto a quello della lettera e dà un nome all’errore – le stesse cifre al contrario, guarda l’ultima cifra, due cifre e non una – e dopo due tentativi sbagliati la targa giusta si illumina. Nelle impostazioni i numeri restano fino a 10 per una classe che inizia, oppure l’indirizzo passa da scritto a detto a voce, così il bambino ascolta il numero, con un pulsante Mostra per un’aula silenziosa.",
+        "L’attività segue le Indicazioni nazionali per la classe prima, ambito «Numeri»: leggere e distinguere i numeri fino a 20. Senza timer e senza punteggio: un esercizio calmo e giocoso."
       ],
       "practices": [
-        "Leggere i numeri scritti da 0 a 20",
-        "Riconoscere lo stesso numero in caratteri diversi",
-        "Distinguere numeri simili, come 13 e 31",
-        "Ascoltare un numero e trovare la casa giusta"
+        "Leggere i numeri scritti da 0 a 20, compresi lo zero e i numeri da 11 a 19",
+        "Distinguere 13 da 31: l’ordine delle cifre cambia il numero",
+        "Distinguere 14 da 13 e 14 da 4: leggere l’ultima cifra e contare le cifre",
+        "Leggere un numero scritto a mano e ritrovarlo stampato"
       ],
       "howToPlay": [
-        "Leggi il numero scritto sulla lettera, oppure ascoltalo.",
-        "Cerca tra le case quella con lo stesso numero.",
-        "Tocca la casa giusta e il vicino saluta dalla finestra."
+        "Prendi la lettera dal furgoncino e leggi il numero scritto sopra.",
+        "Trascinala fino alla casa la cui targa mostra quel numero: entra solo in quella buca delle lettere.",
+        "Imbuca tutte e tre le lettere; il turno si controlla da solo e «Avanti» porta una via nuova."
       ],
       "learningGoals": [
-        "Tuo figlio impara a leggere e riconoscere con sicurezza i numeri da 0 a 20.",
-        "Tuo figlio impara a riconoscere lo stesso numero anche quando è scritto in modi diversi.",
-        "Tuo figlio impara a distinguere numeri simili facendo attenzione all’ordine delle cifre, come in 13 e 31."
+        "Leggere i numeri da 0 a 20",
+        "Capire che 13 e 31 sono numeri diversi perché l’ordine delle cifre conta",
+        "Riconoscere un numero, scritto a mano o stampato"
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

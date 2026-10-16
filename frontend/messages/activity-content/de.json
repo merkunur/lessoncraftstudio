@@ -2379,25 +2379,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Pip, die kleine Postmaus, hat heute einen ganzen Sack voller Briefe zu verteilen. Auf jedem Umschlag steht eine Zahl – und genau dieses Haus muss Pip finden. Mal ist die Zahl auf dem Brief in einer anderen Schrift gedruckt als auf den Hausschildern, mal flüstert Pip die Zahl nur ins Ohr. Das Kind liest oder hört die Zahl und tippt auf das Haus mit der passenden Hausnummer, damit der Brief sicher ankommt.",
-        "Dahinter steckt eine wichtige Idee: Kinder sollen Zahlen bis 20 sicher lesen und wiedererkennen – ganz gleich, in welcher Schriftart sie geschrieben sind, und auch dann, wenn sie das Zahlwort nur hören. Besonders knifflig sind die „Zahlendreher“: Die 13 und die 31 bestehen aus denselben Ziffern, meinen aber ganz verschiedene Zahlen. Wer genau hinschaut, welche Ziffer vorne und welche hinten steht, liefert den Brief richtig aus.",
-        "Die Übung lädt zum entspannten Ausprobieren ein – ohne Zeitdruck, ohne Punkte und ohne Stoppuhr. Sie passt zum Bereich „Zählen und Mengen“ des Lehrplans der Grundschule, in dem Kinder lernen, Zahlen zu lesen, zu erkennen und voneinander zu unterscheiden."
+        "Eine Straße mit fünf Häusern, jedes mit einer gedruckten Hausnummer über der Tür, und ein Postauto mit drei Briefen. Die Adresse auf jedem Brief ist von Hand geschrieben – in der Schrift, in der Kinder ihre Ziffern schreiben lernen –, die Hausnummern sind gedruckt. So kann das Kind keine Formen vergleichen: Es muss die Zahl lesen. Das Kind zieht jeden Brief zu einem Haus; er passt nur in einen einzigen Briefschlitz. Geht die richtige Tür auf, tritt der Nachbar auf die Schwelle, die Zahl wird gesprochen, und der nächste Brief erscheint. Ist der dritte Brief eingeworfen, prüft sich die Runde von selbst. Eine interaktive Übung zum Zahlenlesen für Klasse 1, die direkt im Browser auf Tablet, Handy und Computer läuft – ohne Installation und ohne Konto.",
+        "Der Kern: Zahlen von 0 bis 20 als Zahlen lesen, nicht als Bilder wiedererkennen. Jede Straße enthält die Verwechslungen, die beim Lesenlernen vorkommen: Die 13 wohnt neben der 31, also kommt es auf die Reihenfolge der Ziffern an; die 14 steht zwischen 13 und 11, also muss die letzte Ziffer gelesen werden; die 14 steht neben der 4, denn eine Ziffer ist nicht zwei; und die 6 steht nahe der 9, die 2 nahe der 5, die 1 nahe der 7. Eine falsche Tür antwortet mit ihrer eigenen Nummer neben der des Briefs und benennt den Fehler – dieselben Ziffern andersherum, schau auf die letzte Ziffer, zwei Ziffern statt einer –, und nach zwei Fehlversuchen leuchtet das richtige Schild. In den Einstellungen bleiben die Zahlen bis 10 für eine Klasse am Anfang, oder die Adresse wird gesprochen statt geschrieben, sodass das Kind die Zahl hört – mit einem Zeigen-Knopf für ein leises Zimmer.",
+        "Die Übung passt zur Leitidee „Zahlen und Operationen“ des Lehrplans der Grundschule: Zahlen bis 20 lesen und unterscheiden. Ohne Zeitdruck und ohne Punkte – ruhiges, spielerisches Üben."
       ],
       "practices": [
-        "Zahlen von 0 bis 20 lesen und in verschiedenen Schriftarten wiedererkennen",
-        "Das gehörte Zahlwort der richtigen geschriebenen Zahl zuordnen",
-        "Zahlendreher wie 13 und 31 bewusst auseinanderhalten",
-        "Ähnliche Zahlen wie 13, 14, 15 und 17 genau vergleichen, bevor man tippt"
+        "Zahlen von 0 bis 20 lesen, auch die Null und die Zahlen von 11 bis 19",
+        "13 und 31 auseinanderhalten: Die Reihenfolge der Ziffern macht die Zahl",
+        "14 von 13 und 14 von 4 unterscheiden: die letzte Ziffer lesen und die Ziffern zählen",
+        "Eine handgeschriebene Zahl lesen und gedruckt wiederfinden"
       ],
       "howToPlay": [
-        "Lies die Zahl auf dem Brief – oder höre zu, wenn Pip sie vorliest.",
-        "Suche das Haus, dessen Hausnummer zu dieser Zahl passt.",
-        "Tippe auf das richtige Haus, damit Pip den Brief zustellen kann."
+        "Nimm den Brief aus dem Postauto und lies die Zahl, die darauf steht.",
+        "Zieh ihn zum Haus, dessen Schild diese Zahl zeigt – nur dort passt er in den Briefschlitz.",
+        "Wirf alle drei Briefe ein; die Runde prüft sich selbst, und „Weiter“ bringt eine neue Straße."
       ],
       "learningGoals": [
-        "Ich kann Zahlen bis 20 lesen, auch wenn sie anders geschrieben sind.",
-        "Ich kann eine Zahl erkennen, wenn ich nur ihr Zahlwort höre.",
-        "Ich kann den Zahlendreher 13/31 sicher unterscheiden."
+        "Ich kann Zahlen von 0 bis 20 lesen.",
+        "Ich weiß, dass 13 und 31 verschiedene Zahlen sind, weil die Reihenfolge der Ziffern zählt.",
+        "Ich erkenne eine Zahl, ob sie geschrieben oder gedruckt ist."
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

@@ -1022,25 +1022,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "Pip, el ratón cartero, reparte cartas por todo el vecindario: en cada sobre viene un número escrito y tu pequeño tiene que leerlo y tocar la casa que le toca —aunque el número esté en otro tipo de letra—. A veces Pip no lo muestra: solo lo dice en voz alta, y el niño reconoce ese mismo número entre las casas.",
-        "Aquí el niño practica algo importante del inicio de la primaria: leer y reconocer los números escritos del 0 al 20. No basta con emparejar la forma —por eso el número aparece en distintas letras—, hay que leerlo de verdad. Y hay una trampa deliciosa: el 13 y el 31 usan las mismas cifras, pero no son el mismo número. Fijarse en qué cifra va adelante enseña que el orden de las cifras cambia el número.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: el niño entrega las cartas a su propio ritmo, sin prisa. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con los números del 0 al 20."
+        "Una calle con cinco casas, cada una con su número impreso sobre la puerta, y una camioneta del correo con tres cartas. La dirección de cada carta está escrita a mano, con la letra con la que los niños aprenden a trazar sus números, mientras que los números de las casas están impresos. Así el niño no puede comparar formas: tiene que leer el número. Arrastra cada carta hasta una casa; solo entra en un buzón. Cuando se abre la puerta correcta, el vecino sale a la entrada, se dice el número en voz alta y aparece la siguiente carta. Al entregar la tercera carta, la ronda se comprueba sola. Una actividad interactiva para leer números, para primer grado, que funciona en el navegador en tableta, celular y computadora, sin instalar nada y sin cuenta.",
+        "La idea central: leer los números del 0 al 20 como números, no como dibujos. Cada calle tiene las confusiones de quien empieza a leer: el 13 vive junto al 31, así que importa el orden de los dígitos; el 14 está entre el 13 y el 11, así que hay que leer el último dígito; el 14 está junto al 4, porque un dígito no es dos; y el 6 está cerca del 9, el 2 cerca del 5, el 1 cerca del 7. Una puerta equivocada responde con su propio número junto al de la carta y nombra el error —los mismos dígitos al revés, fíjate en el último dígito, dos dígitos y no uno—, y tras dos intentos fallidos la placa correcta se ilumina. En los ajustes, los números se quedan hasta 10 para un grupo que empieza, o la dirección pasa de escrita a hablada para que el niño escuche el número, con un botón Mostrar para un salón en silencio.",
+        "La actividad sigue los planes de estudio de la SEP para primer grado: leer y distinguir los números hasta 20. Sin cronómetro y sin puntos: práctica tranquila y lúdica."
       ],
       "practices": [
-        "Leer números escritos del 0 al 20 y entregar la carta en la casa cuyo número coincide, aunque el número aparezca en otro tipo de letra.",
-        "Escuchar el número que dice Pip en voz alta y reconocer ese mismo número escrito entre las casas.",
-        "Distinguir números parecidos de la misma familia (13, 14, 15, 17), fijándose en la cifra de las unidades.",
-        "Notar la inversión de cifras: descubrir que el 13 y el 31 no son el mismo número, observando qué cifra va adelante."
+        "Leer números escritos del 0 al 20, incluidos el cero y los números del 11 al 19",
+        "Distinguir 13 de 31: el orden de los dígitos cambia el número",
+        "Distinguir 14 de 13 y 14 de 4: leer el último dígito y contar los dígitos",
+        "Leer un número escrito a mano y encontrarlo impreso"
       ],
       "howToPlay": [
-        "Lee el número de la carta —o escucha cuando Pip lo dice.",
-        "Busca la casa cuyo número coincide con ese número.",
-        "Toca la casa correcta para que Pip entregue la carta."
+        "Toma la carta de la camioneta y lee el número que tiene escrito.",
+        "Arrástrala hasta la casa cuya placa muestra ese número: solo entra en ese buzón.",
+        "Entrega las tres cartas; la ronda se comprueba sola y «Siguiente» trae una calle nueva."
       ],
       "learningGoals": [
-        "Leer y reconocer números escritos del 0 al 20, identificándolos aunque cambie el tamaño o el tipo de letra.",
-        "Relacionar el número que se escucha en voz alta con su forma escrita.",
-        "Diferenciar números que se parecen y comprender que el orden de las cifras cambia el número (13 no es lo mismo que 31)."
+        "Leer los números del 0 al 20",
+        "Entender que 13 y 31 son números distintos porque el orden de los dígitos importa",
+        "Reconocer un número, ya sea escrito a mano o impreso"
       ]
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {

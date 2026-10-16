@@ -2949,25 +2949,25 @@
     },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
-        "O Pip, o ratinho carteiro, saiu bem cedinho para entregar as cartas do bairro. Cada carta tem um número escrito no envelope. A criança lê esse número (ou ouve) e toca na casa que tem o número certo para o Pip fazer a entrega. Aí um vizinho feliz — uma coruja, um gato, um sapo — aparece na janela para agradecer.",
-        "A brincadeira ajuda a criança a ler e reconhecer os números escritos de 0 a 20. O número da casa é um jeito de identificar cada uma — funciona como um \"código\", igual ao número da sua casa de verdade. E tem um detalhe importante: prestar atenção na posição do algarismo, porque 13 não é a mesma coisa que 31!",
-        "É de graça, sem cadastro, sem cronômetro e sem pontuação — só o prazer de entregar cada carta no lugar certo. A atividade está alinhada à BNCC, na unidade temática Números, e serve de base para a criança ler e escrever números com segurança."
+        "Uma rua com cinco casas, cada uma com o número impresso em cima da porta, e uma van dos correios com três cartas. O endereço de cada carta está escrito à mão, com a letra que as crianças aprendem para traçar os algarismos, enquanto os números das casas são impressos. Assim a criança não consegue comparar formas: precisa ler o número. Ela arrasta cada carta até uma casa; a carta só entra em uma caixa de correio. Quando a porta certa se abre, o vizinho sai na soleira, o número é falado em voz alta e a próxima carta aparece. Quando a terceira carta é entregue, a rodada se confere sozinha. Uma atividade interativa de leitura de números para o 1º ano, que funciona no navegador em tablet, celular e computador, sem instalar nada e sem cadastro.",
+        "A ideia central: ler os números de 0 a 20 como números, não como desenhos. Cada rua traz as confusões de quem está começando a ler: o 13 mora ao lado do 31, então a ordem dos algarismos importa; o 14 fica entre o 13 e o 11, então é preciso ler o último algarismo; o 14 fica ao lado do 4, porque um algarismo não é dois; e o 6 fica perto do 9, o 2 perto do 5, o 1 perto do 7. Uma porta errada responde com o próprio número ao lado do número da carta e nomeia o engano — os mesmos algarismos ao contrário, olhe o último algarismo, dois algarismos e não um — e, depois de dois erros, a placa certa brilha. Nas configurações, os números ficam até 10 para uma turma que está começando, ou o endereço passa de escrito a falado para a criança escutar o número, com um botão Mostrar para uma sala em silêncio.",
+        "A atividade está alinhada à BNCC para o 1º ano, unidade Números: ler e distinguir os números até 20. Sem cronômetro e sem pontos: prática calma e divertida."
       ],
       "practices": [
-        "Ler o número escrito no envelope",
-        "Reconhecer o mesmo número na casa",
-        "Entregar a carta na casa certa",
-        "Diferenciar números parecidos, como 13 e 31, pela posição do algarismo"
+        "Ler números escritos de 0 a 20, incluindo o zero e os números de 11 a 19",
+        "Distinguir 13 de 31: a ordem dos algarismos muda o número",
+        "Distinguir 14 de 13 e 14 de 4: ler o último algarismo e contar os algarismos",
+        "Ler um número escrito à mão e encontrá-lo impresso"
       ],
       "howToPlay": [
-        "Veja (ou ouça) o número que está na carta",
-        "Ache a casa que tem o mesmo número",
-        "Toque na casa para o Pip entregar a carta"
+        "Pegue a carta na van e leia o número escrito nela.",
+        "Arraste até a casa cuja placa mostra esse número: ela só entra nessa caixa de correio.",
+        "Entregue as três cartas; a rodada se confere sozinha e «Próximo» traz uma rua nova."
       ],
       "learningGoals": [
-        "Eu leio o número escrito na carta",
-        "Eu acho a casa com o mesmo número",
-        "Eu sei que 13 e 31 são diferentes pela posição do algarismo"
+        "Ler os números de 0 a 20",
+        "Entender que 13 e 31 são números diferentes porque a ordem dos algarismos importa",
+        "Reconhecer um número, escrito à mão ou impresso"
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

@@ -55,6 +55,7 @@ const MANIFEST_FILES = [
   'jar-label-activities.json',
   'fruit-crates-activities.json',
   'animal-train-activities.json',
+  'fruit-stand-activities.json',
   'counting-necklace-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',

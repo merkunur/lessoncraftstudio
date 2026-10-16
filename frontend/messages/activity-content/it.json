@@ -1507,25 +1507,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "La richiesta nomina un numero da formare e il bambino tocca le caselle di una doppia tabella del dieci per riempire esattamente quel numero di frutti sulle due tabelle, poi tocca Controlla. Arrivare fino a 20 significa una decina intera più qualcosa. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che si gioca nel browser senza registrazione.",
-        "La doppia tabella del dieci insegna l'idea più importante sui numeri tra dieci e venti: una decina intera più ancora qualcosa. Per formare 14, il bambino riempie la prima tabella fino a dieci e poi aggiunge quattro frutti sulla seconda — così la struttura del numero, dieci e quattro, è lì da vedere. Andare oltre il dieci è un vero passo avanti rispetto al contare fino a dieci, e le due tabelle danno al bambino un modo per tenere il conto in ordine senza perdersi.",
-        "L'attività è allineata alle Indicazioni nazionali: collegare il conteggio alla cardinalità ed estendere il senso del numero oltre il dieci. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Un foglietto d’ordine mostra un numero e alla bancarella della frutta aspettano due vassoi da dieci posti. Il bambino tocca il posto dove finisce l’ordine — la frutta arriva un posto dopo l’altro fino a lì — e preme Verifica quando nei vassoi ci sono esattamente tanti frutti quanti ne indica l’ordine. È un’attività interattiva di conteggio fino a 20 che funziona nel browser, senza installare nulla e senza account.",
+        "Per formare una quantità conta soprattutto sapere dove finisce. I due vassoi sono una doppia tabella del dieci: 17 è un vassoio pieno e altri 7, e il bambino trova il diciassettesimo posto contando uno alla volta oppure per dieci e per cinque. Toccare un frutto toglie quel frutto e tutti quelli dopo, così ogni posto successivo è uno in più e togliere l’ultimo frutto è uno in meno. Quando il conto non torna, la bancarella numera la sua frutta perché il bambino veda il motivo; dopo un secondo errore segna i frutti in più o i posti che aspettano ancora, e l’aiuto non sposta mai un frutto. I due errori tipici con i numeri oltre il dieci hanno un nome: solo la parte dopo il dieci (7 al posto di 17) e solo il vassoio pieno (10 al posto di 17).",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: associare un numero a ogni oggetto, sapere che l’ultimo numero detto indica quanti sono e che ogni numero successivo è uno in più. L’insegnante sceglie ordini fino a 10 (un vassoio) o fino a 20 e se toccare un posto riempie fino a lì o aggiunge un frutto alla volta (così il bambino dice un numero per ogni frutto). Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare esattamente il numero di frutti che la richiesta nomina, fino a 20.",
-        "Riempire una tabella del dieci intera e poi proseguire il conteggio sulla seconda.",
-        "Vedere i numeri tra dieci e venti come una decina più qualcosa.",
-        "Tenere un conteggio attento, uno a uno, oltre il dieci."
+        "Mettere nei vassoi esattamente tanti frutti quanti ne indica l’ordine, fino a 20",
+        "Trovare dove finisce un numero sulla doppia tabella del dieci: un vassoio pieno e ancora qualche frutto",
+        "Sapere che l’ultimo numero contato dice quanti sono",
+        "Cambiare i vassoi di un solo frutto: uno in più, uno in meno"
       ],
       "howToPlay": [
-        "Il bambino legge la richiesta per sapere quale numero formare, fino a 20.",
-        "Tocca le caselle della doppia tabella del dieci per mettere esattamente quel numero di frutti, poi tocca Controlla.",
-        "Non torna? Aggiunge o toglie frutti e riprova: non c'è timer né punteggio."
+        "Leggi il numero sul foglietto d’ordine.",
+        "Tocca un posto vuoto: la frutta arriva fino a lì. Tocca un frutto per togliere quel frutto e quelli dopo.",
+        "Quando nei vassoi ci sono tanti frutti quanti ne indica l’ordine, premi Verifica.",
+        "Non ancora? La bancarella numera la sua frutta: aggiungi o togli frutti e premi di nuovo Verifica. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Formare qualsiasi numero da 1 a 20 con i frutti sulla doppia tabella del dieci.",
-        "Vedere i numeri oltre il dieci come una decina intera più alcune unità.",
-        "Costruire le basi del contare-oltre e del valore posizionale per la matematica della classe prima."
+        "Formare una raccolta da 1 a 20 oggetti e sapere che l’ultimo numero contato dice quanti sono",
+        "Vedere un numero oltre il dieci come una decina piena e ancora qualcosa",
+        "Capire che il numero successivo è uno in più e il precedente uno in meno"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

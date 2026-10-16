@@ -2543,25 +2543,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "La indicación dice qué número formar y el niño o la niña toca las casillas de un marco de diez doble para colocar exactamente esa cantidad de frutas en los dos marcos; después pulsa Comprobar. Llegar hasta el 20 significa un diez completo y algunas más. Esta actividad de conteo para preescolar, interactiva, se juega en el navegador, sin crear cuenta.",
-        "El marco de diez doble enseña la idea más importante sobre los números del 11 al 20: un diez completo y algunas más. Para formar el 14, el niño o la niña llena el primer marco hasta diez y luego agrega cuatro en el segundo, así que la estructura del número —diez y cuatro— queda a la vista. Pasar del diez es un paso real más allá de contar hasta diez, y los dos marcos le dan una manera de mantener el conteo ordenado sin perderse.",
-        "Está pensada para el nivel de preescolar o kínder, en el eje de conteo y cardinalidad de los planes y programas de estudio (SEP): conectar el conteo con la cardinalidad y extenderla más allá del diez. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Una nota de pedido muestra un número y en el puesto de frutas esperan dos charolas con diez lugares cada una. El niño toca el lugar donde termina el pedido —las frutas van cayendo lugar por lugar hasta ahí— y oprime Comprobar cuando en las charolas hay exactamente tantas frutas como dice el pedido. Es una actividad interactiva de conteo hasta 20 que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Para formar una cantidad lo importante es saber dónde termina. Las dos charolas son un marco de diez doble: 17 es una charola llena y 7 más, y el niño encuentra el lugar diecisiete contando de uno en uno o de diez en diez y de cinco en cinco. Tocar una fruta quita esa fruta y todas las que siguen, así que cada lugar siguiente es uno más y quitar la última fruta es uno menos. Cuando la cuenta no sale, el puesto numera sus frutas para que el niño vea por qué; tras un segundo error marca las frutas que sobran o los lugares que aún esperan, y la ayuda nunca mueve una fruta. Los dos errores típicos con números mayores que diez reciben su nombre: solo la parte después del diez (7 en vez de 17) y solo la charola llena (10 en vez de 17).",
+        "Está alineada con los planes y programas de estudio (SEP): asignar un número a cada objeto, saber que el último número dicho indica cuántos hay y que cada número siguiente es uno más. El docente elige pedidos hasta 10 (una charola) o hasta 20, y si tocar un lugar llena hasta ahí o pone una fruta a la vez (así el niño dice un número por cada fruta). Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar exactamente la cantidad de frutas que indica la consigna, hasta 20.",
-        "Llenar un marco de diez completo y luego seguir contando en el segundo.",
-        "Ver los números del 11 al 20 como un diez y algunas más.",
-        "Mantener un conteo cuidadoso, uno a uno, después del diez."
+        "Poner en las charolas exactamente tantas frutas como dice el pedido, hasta 20",
+        "Encontrar dónde termina un número en un marco de diez doble: una charola llena y algunas más",
+        "Saber que el último número contado dice cuántos hay",
+        "Cambiar las charolas en una sola fruta: una más, una menos"
       ],
       "howToPlay": [
-        "Lee la indicación para saber qué número formar, hasta 20.",
-        "Toca las casillas del marco de diez doble para colocar exactamente esa cantidad de frutas; después pulsa Comprobar.",
-        "¿No salió a la primera? Agrega o quita frutas y vuelve a intentarlo: no hay temporizador ni puntuación."
+        "Lee el número de la nota de pedido.",
+        "Toca un lugar vacío: las frutas llegan hasta ahí. Toca una fruta para quitar esa fruta y las que siguen.",
+        "Cuando en las charolas haya tantas frutas como dice el pedido, oprime Comprobar.",
+        "¿Todavía no? El puesto numera sus frutas: pon o quita frutas y vuelve a oprimir Comprobar. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Formar cualquier número del 1 al 20 con fichas en un marco de diez doble.",
-        "Ver los números mayores que diez como un diez completo y algunas unidades más.",
-        "Construir la base de contar a partir de un número y del valor posicional para las matemáticas de primer grado."
+        "Formar una colección de 1 a 20 objetos y saber que el último número contado dice cuántos hay",
+        "Ver un número mayor que diez como una decena llena y algunas más",
+        "Ver que el número siguiente es uno más y el anterior, uno menos"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

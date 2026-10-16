@@ -1011,25 +1011,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "O pedido diz um número para formar, e a criança toca nos quadradinhos de um quadro de dez duplo para colocar exatamente aquela quantidade de frutas nos dois quadros, depois toca em Verificar. Chegar até 20 quer dizer um dez completo e mais um pouco. É uma atividade de contagem interativa para a educação infantil, que funciona no navegador sem cadastro.",
-        "O quadro de dez duplo ensina a ideia mais importante dos números na faixa do dez ao vinte: um dez completo e mais um pouco. Para formar 14, a criança completa o primeiro quadro com dez frutas e acrescenta quatro no segundo — assim a estrutura do número, dez e quatro, fica ali, à vista. Passar do dez é mesmo um passo além de contar até dez, e os dois quadros dão à criança um jeito de manter a contagem organizada sem se perder.",
-        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de ligar a contagem à quantidade e de estender o senso numérico para além de dez. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Um papel de pedido mostra um número, e na banca de frutas esperam duas bandejas com dez lugares cada uma. A criança toca no lugar onde o pedido termina — as frutas vão caindo lugar por lugar até ali — e aperta Verificar quando as bandejas têm exatamente tantas frutas quanto diz o pedido. É uma atividade interativa de contagem até 20 que funciona no navegador, sem instalar nada e sem conta.",
+        "Para formar uma quantidade, o mais importante é saber onde ela termina. As duas bandejas formam um quadro de dez duplo: 17 é uma bandeja cheia e mais 7, e a criança encontra o décimo sétimo lugar contando de um em um ou de dez em dez e de cinco em cinco. Tocar numa fruta tira essa fruta e todas as que vêm depois, então cada lugar seguinte é um a mais e tirar a última fruta é um a menos. Quando a contagem não bate, a banca numera as frutas para a criança ver por quê; depois de um segundo erro, marca as frutas que sobram ou os lugares que ainda esperam, e a ajuda nunca muda uma fruta de lugar. Os dois erros comuns com números maiores que dez ganham nome: só a parte depois do dez (7 no lugar de 17) e só a bandeja cheia (10 no lugar de 17).",
+        "A atividade está alinhada à BNCC, no campo dos números: associar um número a cada objeto, saber que o último número falado diz a quantidade e que cada número seguinte é um a mais. O professor escolhe pedidos até 10 (uma bandeja) ou até 20 e se tocar num lugar enche até ali ou põe uma fruta de cada vez (assim a criança diz um número para cada fruta). Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar exatamente a quantidade de frutas que o pedido diz, até 20.",
-        "Completar um quadro de dez inteiro e seguir contando no segundo.",
-        "Ver os números do dez ao vinte como um dez e mais um pouco.",
-        "Manter uma contagem cuidadosa, uma fruta para cada quadradinho, passando do dez."
+        "Colocar nas bandejas exatamente tantas frutas quanto diz o pedido, até 20",
+        "Encontrar onde um número termina num quadro de dez duplo: uma bandeja cheia e mais algumas",
+        "Saber que o último número contado diz a quantidade",
+        "Mudar as bandejas em uma só fruta: um a mais, um a menos"
       ],
       "howToPlay": [
-        "Leia o pedido para ver qual número formar, até 20.",
-        "Toque nos quadradinhos do quadro de dez duplo para colocar exatamente aquela quantidade de frutas, depois toque em Verificar.",
-        "Não foi dessa vez? Acrescente ou tire frutas e tente de novo — não há cronômetro nem pontuação."
+        "Leia o número no papel de pedido.",
+        "Toque num lugar vazio: as frutas chegam até ali. Toque numa fruta para tirar essa fruta e as que vêm depois.",
+        "Quando as bandejas tiverem tantas frutas quanto diz o pedido, aperte Verificar.",
+        "Ainda não? A banca numera as frutas: ponha ou tire frutas e aperte Verificar de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Formar qualquer número de 1 a 20 com frutas num quadro de dez duplo.",
-        "Ver os números acima do dez como um dez completo e algumas unidades a mais.",
-        "Construir a base de contar avançando e de valor posicional para a matemática do 1º ano."
+        "Formar uma coleção de 1 a 20 objetos e saber que o último número contado diz a quantidade",
+        "Ver um número maior que dez como uma dezena cheia e mais algumas",
+        "Perceber que o número seguinte é um a mais e o anterior, um a menos"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

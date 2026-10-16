@@ -2567,25 +2567,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Compare un gruppo di immagini simpatiche — un gufo, quattro volpi, otto elefanti — e il bambino conta gli oggetti e tocca il numero corrispondente. È un'attività interattiva di conteggio per la scuola dell'infanzia, da usare direttamente nel browser su tablet, telefono o computer di classe, senza nulla da installare e senza registrazione.",
-        "L'idea centrale è la cardinalità: l'ultimo numero che diciamo contando indica quanti elementi ci sono in tutto. Poiché gli oggetti appaiono in fila, in piccoli schieramenti o sparsi, il bambino non può affidarsi a uno schema imparato a memoria, ma deve contare ogni immagine una volta sola. I numeri tra cui scegliere sono vicini, come 7, 8 e 9, così un errore di uno solo si nota subito e invita a ricontare con calma.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: contare per rispondere alla domanda \"quanti ce ne sono?\" fino a 10 oggetti disposti in fila, in schieramento o sparsi. Nessun timer e nessun punteggio."
+        "Una finestrella con due imposte: si aprono, compare un gruppo di immagini — anatre, mele, carote — e le imposte si richiudono. Quanti erano? Il bambino tocca un numero da 1 a 10, può guardare di nuovo tutte le volte che vuole e preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare nulla e senza account.",
+        "L’occhiata è il cuore dell’attività. I gruppi piccoli si vedono a colpo d’occhio, quelli più grandi compaiono nelle forme usate in classe: le facce del dado fino a sei, cinque in fila e ancora qualcuno, coppie, una fila corta, pochi oggetti sparsi. Così il bambino impara a vedere sette come cinque e due invece di contare uno alla volta, e contare resta sempre lì per controllare. Dopo un numero sbagliato la finestra resta aperta e il bambino conta; dopo un secondo, i numeri scorrono sulle immagini fino a un punto interrogativo sull’ultima, perché sia il bambino a dire quanti sono.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: riconoscere piccole quantità a colpo d’occhio e contare raccolte fino a 10 elementi. L’insegnante sceglie numeri fino a 5 o fino a 10 e se la finestra si apre per un attimo, un po’ di più o resta aperta per contare con calma. Nessun timer e nessun punteggio: guardare di nuovo non conta mai contro il bambino."
       ],
       "practices": [
-        "Contare fino a 10 oggetti e dire quanti sono in tutto.",
-        "Contare ogni immagine una sola volta, sia in fila sia quando è sparsa.",
-        "Far corrispondere la quantità contata al numero scritto.",
-        "Costruire la cardinalità: capire che l'ultimo numero contato è il totale."
+        "Riconoscere piccoli gruppi a colpo d’occhio",
+        "Leggere i gruppi più grandi dalla loro forma: faccia del dado, cinque e ancora qualcuno, coppie",
+        "Contare per controllare e sapere che l’ultimo numero contato dice quanti sono",
+        "Rispondere a «quanti sono?» per raccolte fino a 10"
       ],
       "howToPlay": [
-        "Il bambino guarda il gruppo di immagini e le conta con attenzione, una alla volta.",
-        "Tocca il numero che corrisponde a quanti ne ha contati e poi preme Controlla.",
-        "Se non è corretto, può ricontare e riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+        "Guarda la finestra: si apre e mostra un gruppo; nell’occhiata veloce poi si richiude.",
+        "Tocca il numero che dice quanti ne hai visti. Tocca Guarda ancora ogni volta che vuoi rivederli.",
+        "Premi Verifica.",
+        "Non ancora? La finestra resta aperta: contali e tocca di nuovo il numero. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Il bambino è in grado di contare fino a 10 oggetti in qualsiasi disposizione e dire il totale.",
-        "Impara a collegare un conteggio al numero scritto corrispondente.",
-        "Costruisce la corrispondenza uno a uno e la cardinalità su cui si fonda tutta la matematica successiva."
+        "Contare raccolte fino a 10 elementi",
+        "Riconoscere piccole quantità a colpo d’occhio e vedere quelle più grandi come cinque e ancora qualcuno",
+        "Contare per controllare quello che si è visto"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

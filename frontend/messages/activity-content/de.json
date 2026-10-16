@@ -4049,25 +4049,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Eine Gruppe freundlicher Bilder taucht auf — zum Beispiel eine Eule, vier Füchse oder acht Elefanten —, und das Kind zählt die Objekte und tippt die passende Zahl an. Diese interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy oder Klassenzimmer-Computer, ganz ohne Installation und ohne Konto.",
-        "Im Mittelpunkt steht die Anzahl: Die zuletzt genannte Zahl beim Zählen sagt, wie viele es insgesamt sind. Weil die Objekte mal in einer Reihe, mal in kleinen Gittern und mal verstreut liegen, kann sich das Kind nicht auf ein auswendig gelerntes Muster verlassen — es muss jedes Bild genau einmal zählen. Die Zahlen zur Auswahl liegen dicht beieinander, etwa 7, 8 und 9, sodass ein Verzähler um eins auffällt und zum sorgfältigen Nachzählen einlädt.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — durch Zählen beantworten, wie viele Objekte in einer Anordnung bis 10 zu sehen sind, ob in einer Reihe, einem Gitter oder verstreut. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Ein kleines Fenster mit zwei Fensterläden: Sie schwingen auf, eine Gruppe Bilder schaut heraus – Enten, Äpfel, Karotten – und die Läden gehen wieder zu. Wie viele waren es? Das Kind tippt auf eine Zahl von 1 bis 10, darf so oft noch einmal schauen, wie es möchte, und drückt auf Prüfen. Eine interaktive Übung zur Simultanerfassung im Browser, ohne Installation und ohne Konto.",
+        "Der kurze Blick ist der Kern. Kleine Mengen erkennt man auf einen Blick, größere zeigen sich in den Bildern, die Lehrkräfte bei der Mengenerfassung nutzen: Würfelbilder bis sechs, fünf in einer Reihe und noch einige, Paare, eine kurze Reihe, eine kleine Streuung. So lernt das Kind, sieben als fünf und zwei zu sehen, statt einzeln abzuzählen – und Zählen bleibt immer zum Überprüfen da. Nach einer falschen Zahl bleibt das Fenster offen und das Kind zählt; nach einer zweiten laufen die Zahlen an den Bildern entlang bis zu einem Fragezeichen auf dem letzten, sodass das Kind die Anzahl selbst nennt.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: kleine Anzahlen auf einen Blick erfassen, größere strukturiert sehen und durch Zählen bestimmen. Lehrkräfte wählen Zahlen bis 5 oder bis 10 und ob das Fenster kurz aufgeht, etwas länger oder offen bleibt (dann wird einfach gezählt). Kein Timer, keine Punkte – noch einmal schauen wird nie gegen das Kind gerechnet."
       ],
       "practices": [
-        "Bis zu 10 Objekte zählen und sagen, wie viele es insgesamt sind.",
-        "Jedes Bild genau einmal zählen, ob in einer Reihe oder verstreut.",
-        "Eine gezählte Menge der passenden geschriebenen Zahl zuordnen.",
-        "Die Anzahl begreifen — die zuletzt gezählte Zahl ist die Gesamtmenge."
+        "Kleine Mengen auf einen Blick erkennen",
+        "Größere Mengen an ihrem Bild erkennen: Würfelbild, fünf und noch einige, Paare",
+        "Zum Überprüfen zählen und wissen, dass die zuletzt gezählte Zahl die Anzahl angibt",
+        "Die Frage „Wie viele?“ für Mengen bis 10 beantworten"
       ],
       "howToPlay": [
-        "Schau dir die Gruppe von Bildern an und zähle sie sorgfältig, eins nach dem anderen.",
-        "Tippe die Zahl an, die zu deiner gezählten Anzahl passt, und tippe dann auf Prüfen.",
-        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Schau aufs Fenster: Es geht auf und zeigt eine Gruppe – beim kurzen Blick geht es wieder zu.",
+        "Tippe auf die Zahl, die sagt, wie viele du gesehen hast. Tippe auf „Noch mal schauen“, wann immer du noch einmal sehen möchtest.",
+        "Drücke auf Prüfen.",
+        "Noch nicht ganz? Das Fenster bleibt offen – zähle und tippe noch einmal auf die Zahl. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Bis zu 10 Objekte in jeder Anordnung zählen und die Gesamtmenge benennen.",
-        "Eine Anzahl mit ihrer geschriebenen Zahl verbinden.",
-        "Das Eins-zu-eins-Zählen und das Anzahlverständnis aufbauen, auf dem jede spätere Mathematik ruht."
+        "Anzahlen bis 10 bestimmen",
+        "Kleine Mengen auf einen Blick erfassen und größere als fünf und noch einige sehen",
+        "Durch Zählen überprüfen, was man gesehen hat"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

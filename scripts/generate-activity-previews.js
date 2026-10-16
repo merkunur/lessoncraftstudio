@@ -107,6 +107,10 @@ function seedScript(row) {
     // order 17, the trays filled to 13, so the card shows the double ten-frame mid-fill
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===17;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();t.DROP_MS=0;t._tap(12);})();`;
   }
+  if (row.tool === 'peek-window-activity') {
+    // seven ducks with the window open (the stays-open look), so the card shows the group in its five-and-two shape
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.api.settings.look='open';var i=t._pool.findIndex(function(r){return r.n===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

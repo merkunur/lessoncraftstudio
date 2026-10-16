@@ -1277,24 +1277,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Ruudulle ilmestyy ryhmä ystävällisiä kuvia — esimerkiksi yksi pöllö, neljä kettua tai kahdeksan norsua — ja lapsi laskee esineet ja napauttaa niitä vastaavan luvun. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
-        "Ydinajatus on lukumäärän hahmottaminen: viimeinen luku, jonka sanot laskiessasi, kertoo kuinka monta niitä on yhteensä. Koska esineet ovat välillä rivissä, pieninä ryhminä ja hajallaan, lapsi ei voi nojata ulkoa opittuun kuvioon, vaan jokainen kuva on laskettava täsmälleen kerran. Lukuvaihtoehdot ovat lähekkäin, kuten 7, 8 ja 9, joten yhdenkin esineen laskuvirhe näkyy heti ja houkuttelee laskemaan tarkasti uudelleen. Harjoitus on OPS 2014:n mukainen — lasketaan enintään 10 esinettä vastaten kysymykseen \"montako niitä on?\". Esiopetukseen sopiva."
+        "Pieni ikkuna, jossa on kaksi luukkua: ne aukeavat, esiin kurkistaa joukko kuvia – ankkoja, omenoita, porkkanoita – ja luukut sulkeutuvat taas. Montako niitä oli? Lapsi napauttaa lukua 1–10, saa katsoa uudelleen niin monta kertaa kuin haluaa ja painaa Tarkista-painiketta. Tämä on vuorovaikutteinen laskemisharjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Lyhyt vilkaisu on harjoituksen ydin. Pienet joukot näkee yhdellä silmäyksellä, ja suuremmat näytetään muodoissa, joita opettajat käyttävät luokassa: nopan silmäluvut kuuteen asti, viisi rivissä ja vähän lisää, parit, lyhyt rivi, muutama hajallaan. Näin lapsi oppii näkemään seitsemän viitenä ja kahtena sen sijaan, että laskisi yksi kerrallaan – ja laskeminen on aina käytössä tarkistamiseen. Väärän luvun jälkeen ikkuna jää auki ja lapsi laskee; toisen jälkeen luvut kulkevat kuvien yli viimeisen kuvan kysymysmerkkiin, jotta lapsi sanoo itse, montako niitä on.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi tunnistaa pieniä lukumääriä yhdellä silmäyksellä ja laskee enintään 10 esineen lukumäärän. Opettaja valitsee, ovatko luvut 5:een vai 10:een asti, ja aukeaako ikkuna hetkeksi, vähän pidemmäksi aikaa vai pysyykö se auki tavallista laskemista varten. Ei ajastinta eikä pisteitä – uudelleen katsominen ei koskaan ole lapselle miinus."
       ],
       "practices": [
-        "Laskee enintään 10 esinettä ja kertoo, montako niitä on yhteensä.",
-        "Laskee jokaisen kuvan täsmälleen kerran, oli se rivissä tai hajallaan.",
-        "Yhdistää lasketun lukumäärän sitä vastaavaan kirjoitettuun lukuun.",
-        "Vahvistaa lukumäärän hahmottamista — viimeinen laskettu luku on lopputulos."
+        "Lapsi näkee pienet joukot yhdellä silmäyksellä",
+        "Lapsi tunnistaa suuremmat joukot muodosta: nopan silmäluku, viisi ja vähän lisää, parit",
+        "Lapsi tarkistaa laskemalla ja tietää, että viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi vastaa kysymykseen \"montako?\" enintään 10 esineen joukoissa"
       ],
       "howToPlay": [
-        "Katso kuvaryhmää ja laske kuvat huolellisesti yksi kerrallaan.",
-        "Napauta lukua, joka vastaa laskemaasi määrää, ja paina sitten Tarkista-painiketta.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Katso ikkunaa: se aukeaa ja näyttää joukon; lyhyellä vilkaisulla se sulkeutuu taas.",
+        "Napauta lukua, joka kertoo, montako näit. Napauta Katso uudelleen aina, kun haluat katsoa vielä.",
+        "Paina Tarkista.",
+        "Ei ihan? Ikkuna pysyy auki – laske ne ja napauta lukua uudelleen. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa laskea enintään 10 esinettä missä tahansa järjestyksessä ja nimetä lopputuloksen.",
-        "Lapsi yhdistää lukumäärän sitä vastaavaan kirjoitettuun lukuun.",
-        "Lapsi kehittää yksi yhteen -laskemista ja lukumäärän hahmottamista, joiden varaan koko myöhempi matematiikka rakentuu."
+        "Lapsi laskee enintään 10 esineen lukumäärän",
+        "Lapsi näkee pienet lukumäärät yhdellä silmäyksellä ja suuremmat viitenä ja vähän lisää",
+        "Lapsi tarkistaa laskemalla sen, minkä näki"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

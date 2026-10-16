@@ -56,6 +56,7 @@ const MANIFEST_FILES = [
   'fruit-crates-activities.json',
   'animal-train-activities.json',
   'fruit-stand-activities.json',
+  'peek-window-activities.json',
   'counting-necklace-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',

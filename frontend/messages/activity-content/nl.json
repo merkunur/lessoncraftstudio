@@ -4015,25 +4015,26 @@
     },
     "choice-board.how-many-group.k-c-c-b-5": {
       "about": [
-        "Een groepje vriendelijke plaatjes verschijnt — bijvoorbeeld één uil, vier vossen of acht olifanten — en je kind telt de voorwerpen en tikt op het bijbehorende cijfer. Het is een interactieve telactiviteit voor de kleuterklas die direct in de browser werkt op een tablet, telefoon of computer, zonder installatie en zonder account.",
-        "Het grote idee is het begrip 'hoeveelheid': het laatste getal dat je zegt bij het tellen vertelt hoeveel er in totaal zijn. Omdat de voorwerpen in rijtjes, kleine roosters en losse groepjes staan, kan je kind niet vertrouwen op een geleerd patroon — het moet elk plaatje precies één keer tellen. De getalkeuzes liggen dicht bij elkaar, zoals 7, 8 en 9, zodat een tel-foutje van eentje opvalt en je kind nog eens rustig natelt.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: tellen om de vraag 'hoeveel zijn er?' te beantwoorden voor maximaal 10 voorwerpen in een rij, een rooster of door elkaar. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een klein raampje met twee luikjes: ze zwaaien open, er kijkt een groepje plaatjes naar buiten – eenden, appels, wortels – en de luikjes gaan weer dicht. Hoeveel waren het er? Het kind tikt op een getal van 1 tot en met 10, mag zo vaak opnieuw kijken als het wil en drukt op Controleer. Het is een interactieve telactiviteit die in de browser werkt, zonder installatie en zonder account.",
+        "Het korte kijken is de kern. Kleine groepjes zie je in één oogopslag, grotere staan in de vormen die leerkrachten in de klas gebruiken: dobbelsteenbeelden tot zes, vijf op een rij en nog een paar, paren, een korte rij, een paar verspreid. Zo leert het kind zeven te zien als vijf en twee in plaats van één voor één te tellen – en tellen is er altijd om te controleren. Na een verkeerd getal blijft het raampje open en telt het kind; na een tweede lopen de getallen langs de plaatjes tot een vraagteken op het laatste, zodat het kind zelf zegt hoeveel het er zijn.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: kleine hoeveelheden in één oogopslag herkennen en hoeveelheden tot en met 10 tellen. De leerkracht kiest getallen tot en met 5 of tot en met 10, en of het raampje even opengaat, wat langer of openblijft om gewoon te tellen. Geen timer, geen score – opnieuw kijken telt nooit tegen het kind."
       ],
       "practices": [
-        "Tot 10 voorwerpen tellen en zeggen hoeveel er in totaal zijn",
-        "Elk plaatje precies één keer tellen, of het nu op een rij of door elkaar staat",
-        "Een getelde hoeveelheid koppelen aan het juiste geschreven cijfer",
-        "Het begrip opbouwen dat het laatst getelde getal het totaal is"
+        "Kleine groepjes in één oogopslag zien",
+        "Grotere groepjes herkennen aan hun vorm: dobbelsteenbeeld, vijf en nog een paar, paren",
+        "Tellen om te controleren en weten dat het laatste getal zegt hoeveel het er zijn",
+        "De vraag 'hoeveel?' beantwoorden voor groepjes tot en met 10"
       ],
       "howToPlay": [
-        "Bekijk het groepje plaatjes en tel ze rustig, één voor één.",
-        "Tik op het getal dat past bij hoeveel je hebt geteld en druk op Controleer.",
-        "Net niet? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Kijk naar het raampje: het gaat open en laat een groepje zien; bij even kijken gaat het weer dicht.",
+        "Tik op het getal dat zegt hoeveel je er zag. Tik op Nog een keer kijken wanneer je opnieuw wilt kijken.",
+        "Druk op Controleer.",
+        "Nog niet helemaal? Het raampje blijft open – tel ze en tik opnieuw op het getal. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind telt tot 10 voorwerpen in elke opstelling en benoemt het totaal.",
-        "Het kind verbindt een telling aan het bijbehorende geschreven cijfer.",
-        "Het kind oefent het één-voor-één tellen en het hoeveelheidsbegrip waar alle latere rekenen op rust."
+        "Hoeveelheden tot en met 10 tellen",
+        "Kleine hoeveelheden in één oogopslag zien en grotere als vijf en nog een paar",
+        "Tellen om te controleren wat je zag"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

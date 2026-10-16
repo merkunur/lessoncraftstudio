@@ -37,8 +37,12 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       await frame.waitForFunction(() => window.LetterboxActivity && window.LetterboxActivity.st && window.LetterboxActivity._theme, { timeout: 30000 });
       await wait(500);
       const off = async () => page.evaluate(f => { const r = f.getBoundingClientRect(); return { x: r.left, y: r.top }; }, frameEl);
-      const center = async (sel) => { const o = await off(); const c = await frame.evaluate((s) => { const el = document.querySelector(s); el.scrollIntoView({ block: 'center' }); const r = el.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; }, sel); const o2 = await off(); return { x: o2.x + c.x, y: o2.y + c.y }; };
+      /* one scroll that brings the whole street + van into view, THEN both points are read from the same
+         geometry — scrolling for the second point would move the first (the page scrolls with the frame) */
+      const scrollWrap = async () => { await frame.evaluate(() => document.querySelector('.lb-wrap').scrollIntoView({ block: 'center' })); await wait(120); };
+      const center = async (sel) => { const o = await off(); const c = await frame.evaluate((s) => { const r = document.querySelector(s).getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; }, sel); return { x: o.x + c.x, y: o.y + c.y }; };
       const dragTo = async (i) => {
+        await scrollWrap();
         const a = await center('.lb-letter'), b = await center('.lb-house-' + i);
         await page.mouse.move(a.x, a.y); await page.mouse.down();
         await page.mouse.move(a.x + 9, a.y - 9, { steps: 2 });

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "star-stitcher.connect-sequence.k-cc-a-2",
+    "tool": "constellation-activity",
+    "task_template": "constellation",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.2",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "ranges": [
+        10,
+        20
+      ],
+      "skies": [
+        "starry",
+        "clear"
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "count-the-stars-awake",
+      "de": "weiterzaehlen-ab-einer-zahl-zahlenreihe-klasse-1",
+      "fr": "compter-a-partir-d-un-nombre-reveiller-les-etoiles-gs",
+      "es": "seguir-contando-a-partir-de-un-numero-preescolar",
+      "pt": "contar-a-partir-de-um-numero-sequencia-com-estrelas-1-ano",
+      "it": "contare-in-avanti-a-partire-da-un-numero-classe-prima",
+      "nl": "verder-tellen-vanaf-een-getal-sterren-groep-3",
+      "sv": "rakna-vidare-fran-ett-tal-vack-stjarnorna",
+      "da": "tael-videre-fra-et-tal-vaek-stjernerne",
+      "no": "tell-videre-fra-et-tall-vekk-stjernene",
+      "fi": "jatka-laskemista-luvusta-herata-tahdet"
+    },
+    "page_title": {
+      "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)",
+      "de": "Weiterzählen ab einer Zahl: Sterne wecken – Klasse 1",
+      "fr": "Suite des nombres – compter à partir d'un nombre, en ligne (GS)",
+      "es": "Seguir contando desde un número: conteo ascendente (preescolar)",
+      "pt": "Contar a Partir de um Número: Continuar a Contagem com Estrelas — 1º Ano",
+      "it": "Contare in avanti a partire da un numero | Classe prima",
+      "nl": "Verder tellen vanaf een getal: sterren wakker maken – groep 3",
+      "sv": "Räkna vidare från ett tal: väck stjärnorna – åk 1",
+      "da": "Tæl videre fra et tal: væk stjernerne – 1. klasse",
+      "no": "Tell videre fra et tall: vekk stjernene – 1. trinn",
+      "fi": "Jatka laskemista luvusta: herätä tähdet – 1. luokka"
+    },
+    "page_intro": {
+      "en": "An interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2.",
+      "de": "Weiterzählen ab einer Zahl üben: In diesem interaktiven Spiel für Klasse 1 zählst du vorwärts und weckst Stern für Stern – jetzt loslegen!",
+      "fr": "La suite des nombres : compter à partir d'un nombre donné pour réveiller les étoiles une à une. En ligne, sans inscription.",
+      "es": "Juego de conteo: tu peque sigue contando a partir de un número y despierta las estrellas una a una. Interactivo, sin registro, para preescolar (SEP).",
+      "pt": "Ajude o vaga-lume a continuar a contagem a partir de uma estrela acesa, acordando o céu noturno número por número. Atividade sem cadastro. BNCC, 1º ano.",
+      "it": "Nel cielo notturno tante stelle sono ancora spente, e una lucciola vola tra loro. Una stella è già accesa e mostra il numero da cui partire — a volte il 7, a volte un altro, non sempre 1. Il bambino tocca «Conta in avanti» e la lucciola raggiunge una stella per volta, dicendo il numero dopo e accendendola. Quando si illumina l’ultima, una creatura del cielo si sveglia. Così si impara a contare in avanti a partire da un numero senza ricominciare da 1 (la sovraconta). Interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Het vuurvliegje begint op een brandende ster met een getal — bijvoorbeeld 7 — en telt van daaruit verder: 8, 9, 10, naar de volgende ster. Bij het juiste getal maak je die ster wakker en verschijnt er een klein diertje. Zo ontdekt je kind dat je niet altijd bij 1 hoeft te beginnen: je kunt vanaf elk getal verder tellen, tot ongeveer 18. Interactief en zonder sommen.",
+      "sv": "Börja på en vaken stjärna – till exempel 7 – och räkna vidare: 8, 9, 10 … Tryck på stjärnan som kommer efter, och tråden mellan stjärnorna ritar en bild. Interaktiv övning för förskoleklass och åk 1, utan inloggning – anpassad till Lgr22.",
+      "da": "Begynd på en vågen stjerne – for eksempel 7 – og tæl videre: 8, 9, 10 … Tryk på den stjerne, der kommer efter, og tråden mellem stjernerne tegner et billede. Interaktiv øvelse til 0. og 1. klasse, uden login – tilpasset Fælles Mål.",
+      "no": "Begynn på en våken stjerne – for eksempel 7 – og tell videre: 8, 9, 10 … Trykk på stjernen som kommer etter, og tråden mellom stjernene tegner et bilde. Interaktiv øvelse for 1. trinn, uten innlogging – i tråd med LK20.",
+      "fi": "Aloita hereillä olevasta tähdestä – vaikkapa luvusta 7 – ja jatka laskemista: 8, 9, 10 … Napauta tähteä, joka tulee seuraavaksi, ja tähtien välinen lanka piirtää kuvan. Vuorovaikutteinen harjoitus esiopetukseen ja 1. luokalle, ilman kirjautumista – OPS 2014:n mukainen."
+    },
+    "kid_prompt_template": "prompt"
+  }
+]

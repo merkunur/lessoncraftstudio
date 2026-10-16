@@ -1538,6 +1538,29 @@
         "Se at en bakke med ti tælles som ti, og at den sidste bakke giver summen",
         "Bygge et antal æg af bakker med ti"
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "En nattehimmel fuld af stjerner med tal, og én af dem er vågen – et 7-tal for eksempel, eller et 12-tal, aldrig 1. Barnet tæller videre fra den ved at trykke på den stjerne, der kommer efter, og så på den næste: hver rigtig stjerne lyser op i guld, en tråd løber hen til den, og tallet bliver sagt højt, indtil tråden har tegnet et billede – en drage, en kop, en krone, en trappe. Det er en interaktiv tælleøvelse til 0. og 1. klasse, som kører direkte i browseren på tablet, mobil og computer, uden installation og uden konto.",
+        "Kernen er at tælle fremad fra et givet tal i stedet for at begynde forfra ved ét hver gang. På himlen er der også stjerner med tal, der ligger før starten – 1 er der altid – og trykker man på sådan en, bliver det sagt ved navn: det tal kommer før dit, du behøver ikke at gå tilbage, tæl videre derfra, hvor du er. En stjerne for langt fremme får også et navn: ét skridt ad gangen. Ved et forkert tryk lyser ingenting op, så billedet findes kun, når der tælles rigtigt, og striben under himlen viser det, der er talt indtil nu – 7, 8, 9 – så den sagte talrække kan ses. Indstillingerne går til 10 eller til 20 (hen over tieren), og de ekstra stjerner kan slås fra til en klasse, der stadig har brug for en klar himmel.",
+        "Øvelsen følger Fælles Mål: fortsætte talrækken fremad fra et givet tal. Uden timer og uden point – rolig og legende træning."
+      ],
+      "practices": [
+        "Tælle fremad fra et givet tal i stedet for at begynde ved ét.",
+        "Finde og læse, blandt mange stjerner, det tal der kommer efter.",
+        "Fortsætte en talrække ét tal ad gangen, til 10 eller til 20.",
+        "Afvise et tal, der kommer før ens eget, og et tal, der springer for langt frem."
+      ],
+      "howToPlay": [
+        "Se på den stjerne, der er vågen, og læs dens tal. Der begynder du.",
+        "Tryk på den stjerne, der kommer efter, så på den næste og den næste igen. Hver rigtig stjerne vågner, og tråden vokser.",
+        "Når den sidste stjerne lyser, lukker billedet sig, og runden tjekker sig selv. Usikker? Striben fortæller, hvilket tal du er på – der er ingen timer og ingen point."
+      ],
+      "learningGoals": [
+        "Tælle fremad fra et givet tal.",
+        "Forstå, at man kan begynde at tælle hvor som helst, ikke kun ved ét.",
+        "Opbygge den tæl-videre-sikkerhed, som addition og det videre arbejde med tal bygger på."
+      ]
     }
   }
 }

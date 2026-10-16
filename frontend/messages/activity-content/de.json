@@ -2287,24 +2287,24 @@
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
-        "Ein Glühwürmchen fliegt durch den Nachthimmel und weckt schlafende Sterne — aber immer nur den nächsten in der Reihe. Dein Kind tippt auf „Weiterzählen“, das Glühwürmchen fliegt einen Stern weiter, die nächste Zahl wird gesagt — und beim richtigen Stern weckt es ihn mit „Wecken!“. So leuchtet nach und nach ein ganzes Sternbild auf.",
-        "Das Besondere: Gezählt wird nicht von 1 an, sondern ab einer gegebenen Zahl. Steht das Glühwürmchen bei der 7, geht es weiter mit 8, 9, 10 … Die dunklen Sterne tragen keine Ziffer — die nächste Zahl bekommt das Kind nur durchs Weiterzählen heraus, nicht durchs Ablesen. Genau das ist der Kern: die Zahlwortreihe ab einer beliebigen Stelle sicher fortsetzen. Diese Fähigkeit ist die Grundlage für das spätere Weiterzählen beim Addieren („weiterzählen statt alles neu zählen“) und folgt dem Bereich „Zählen und Mengen“ im Lehrplan der Grundschule.",
-        "Die Übung ist ganz ohne Zeitdruck und ohne Punkte. Verzählt sich dein Kind und fliegt über das Ziel hinaus, gleitet das Glühwürmchen einfach sanft zurück — in Ruhe ausprobieren ist ausdrücklich erlaubt."
+        "Ein Nachthimmel voller Zahlensterne, und einer davon ist wach – eine 7 zum Beispiel oder eine 12, nie die 1. Das Kind zählt von ihm weiter, indem es auf den Stern tippt, der als Nächstes kommt, und dann auf den nächsten: Jeder richtige Stern leuchtet golden auf, ein Faden läuft zu ihm und die Zahl wird gesprochen, bis der Faden ein Bild gezeichnet hat – einen Drachen, eine Tasse, eine Krone, eine Treppe. Die interaktive Zählübung für Klasse 1 läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
+        "Der Kern ist das Weiterzählen von einer vorgegebenen Zahl aus, statt immer wieder bei eins anzufangen. Am Himmel stehen auch Sterne mit Zahlen, die vor dem Start liegen – die 1 ist immer dabei –, und wer auf so einen Stern tippt, bekommt es beim Namen genannt: Diese Zahl kommt vor deiner, du musst nicht zurück, zähle von dort weiter, wo du bist. Ein Stern, der zu weit vorne liegt, wird ebenfalls benannt: einen Schritt nach dem anderen. Bei einem falschen Tipp leuchtet nichts auf, das Bild entsteht also nur, wenn richtig gezählt wird, und die Leiste unter dem Himmel zeigt den bisherigen Zählweg – 7, 8, 9 –, damit die gesprochene Reihe sichtbar bleibt. Einstellbar sind die Zahlen bis 10 oder bis 20 (über die Zehn hinaus), und die zusätzlichen Sterne lassen sich für eine Klasse, die noch einen klaren Himmel braucht, abschalten.",
+        "Die Übung folgt dem Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule: die Zahlwortreihe ab einer beliebigen Stelle fortsetzen. Ohne Zeitdruck und ohne Punkte – ruhiges, spielerisches Üben."
       ],
       "practices": [
-        "Die Zahlwortreihe ab einer beliebigen Startzahl vorwärts fortsetzen.",
-        "Weiterzählen, statt jedes Mal von 1 neu zu beginnen.",
-        "Fehlende Zahlen zwischen zwei bekannten Zahlen ergänzen.",
-        "Eine Menge abzählen, um die Startzahl zu bestimmen, und von dort weiterzählen."
+        "Von einer vorgegebenen Zahl aus weiterzählen, statt bei eins zu beginnen.",
+        "Unter vielen Sternen die Zahl finden und lesen, die als Nächstes kommt.",
+        "Eine Zählreihe Schritt für Schritt fortsetzen – bis 10 oder bis 20.",
+        "Eine Zahl ablehnen, die vor der eigenen liegt, und eine, die zu weit springt."
       ],
       "howToPlay": [
-        "Schau, bei welchem leuchtenden Stern das Glühwürmchen startet.",
-        "Tippe auf „Weiterzählen“ — das Glühwürmchen fliegt zum nächsten Stern und zählt eine Zahl weiter.",
-        "Tippe beim richtigen Stern auf „Wecken!“, um ihn zum Leuchten zu bringen."
+        "Schau, welcher Stern wach ist, und lies seine Zahl. Dort beginnst du.",
+        "Tippe auf den Stern, der als Nächstes kommt, dann auf den nächsten und wieder auf den nächsten. Jeder richtige Stern wacht auf, und der Faden wird länger.",
+        "Wenn der letzte Stern leuchtet, schließt sich das Bild und die Runde prüft sich von selbst. Nicht sicher? Die Leiste zeigt dir, bei welcher Zahl du bist – es gibt keinen Timer und keine Punkte."
       ],
       "learningGoals": [
         "Sicher ab einer gegebenen Zahl weiterzählen (auch ab „krummen“ Zahlen).",
-        "Die Reihenfolge der Zahlwörter bis etwa 18 festigen.",
+        "Verstehen, dass Zählen überall beginnen kann, nicht nur bei eins.",
         "Das Weiterzählen als Vorstufe zum Rechnen anbahnen."
       ]
     },

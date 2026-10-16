@@ -2403,25 +2403,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Je kind krijgt een getal om te maken en tikt op de vakjes van een dubbel tienraam om er precies zoveel stukjes fruit op te leggen, en drukt dan op Controleer. Helemaal tot 20 werken betekent een vol tiental en nog wat erbij. Het is een interactieve telactiviteit voor de kleuterklas die zonder registratie in de browser speelt.",
-        "Het dubbele tienraam leert het belangrijkste idee over de getallen boven tien: een vol tiental en nog wat erbij. Om 14 te maken, vult je kind het eerste raam tot tien en legt er dan vier op het tweede — zo is de bouw van het getal, tien en vier, meteen te zien. Voorbij tien werken is een echte stap verder dan tellen tot tien, en de twee ramen geven je kind een manier om het tellen overzichtelijk te houden in plaats van de tel kwijt te raken.",
-        "De activiteit sluit aan bij de kerndoelen rond getalbegrip en kardinaliteit voorbij tien, en past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig tellen en neerleggen."
+        "Op een bestelbriefje staat een getal, en bij de fruitkraam staan twee bakjes met elk tien vakjes klaar. Het kind tikt op het vakje waar de bestelling ophoudt – het fruit valt vakje voor vakje tot daar – en drukt op Controleer als er precies zoveel stuks fruit in de bakjes liggen als er besteld is. Het is een interactieve telactiviteit tot 20 die in de browser werkt, zonder installatie en zonder account.",
+        "Bij het neerleggen van een aantal draait het vooral om weten waar het ophoudt. De twee bakjes vormen een dubbel tienraam: 17 is een vol bakje en nog 7, en het kind vindt het zeventiende vakje door één voor één te tellen of met sprongen van tien en vijf. Een tik op een stuk fruit neemt dat stuk en alles erna terug, dus elk volgend vakje is één meer, en het laatste stuk terugnemen is één minder. Klopt het aantal niet, dan nummert de kraam zijn fruit zodat het kind ziet waarom; na een tweede fout markeert hij het fruit dat te veel is of de vakjes die nog wachten, en de hulp verplaatst nooit een stuk fruit. De twee bekende vergissingen bij getallen boven de tien krijgen een naam: alleen het stuk na de tien (7 in plaats van 17) en alleen het volle bakje (10 in plaats van 17).",
+        "De activiteit sluit aan bij de SLO-kerndoelen: bij elk voorwerp één getal zeggen, weten dat het laatste getal zegt hoeveel het er zijn, en dat elk volgend getal er één meer is. De leerkracht kiest bestellingen tot en met 10 (één bakje) of tot en met 20, en of een tik tot het vakje vult of één stuk fruit tegelijk erbij legt (dan zegt het kind bij elk stuk fruit één getal). Geen timer, geen score."
       ],
       "practices": [
-        "Precies het aantal stukjes fruit neerleggen dat de opdracht noemt, tot 20",
-        "Eerst één tienraam helemaal vullen en dan doortellen op het tweede",
-        "De getallen boven tien zien als een tiental en nog wat erbij",
-        "Zorgvuldig één-voor-één tellen voorbij tien"
+        "Precies zoveel stuks fruit in de bakjes leggen als er besteld is, tot en met 20",
+        "Op een dubbel tienraam vinden waar een getal ophoudt: een vol bakje en nog wat",
+        "Weten dat het laatste getal dat je telt zegt hoeveel het er zijn",
+        "De bakjes met één veranderen: één meer, één minder"
       ],
       "howToPlay": [
-        "Lees de opdracht om te zien welk getal je moet maken, tot 20.",
-        "Tik op de vakjes van het dubbele tienraam om precies zoveel stukjes fruit neer te leggen en druk op Controleer.",
-        "Niet goed? Voeg fruit toe of haal het weg en probeer opnieuw — er is geen timer en geen score."
+        "Lees het getal op het bestelbriefje.",
+        "Tik op een leeg vakje: het fruit vult tot daar. Tik op een stuk fruit om dat stuk en alles erna terug te nemen.",
+        "Liggen er zoveel stuks fruit in de bakjes als er besteld is? Druk dan op Controleer.",
+        "Nog niet helemaal? De kraam nummert zijn fruit: leg erbij of neem terug en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Je kind maakt elk getal van 1 tot en met 20 met fruit op een dubbel tienraam.",
-        "Je kind ziet getallen boven tien als een vol tiental en wat losse eenheden.",
-        "Je kind legt de basis van doortellen en plaatswaarde voor het rekenen in groep 3."
+        "Een aantal van 1 tot en met 20 neerleggen en weten dat het laatste getal dat je telt zegt hoeveel het er zijn",
+        "Een getal boven de tien zien als een volle tien en nog wat",
+        "Zien dat het volgende getal één meer is en het vorige één minder"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

@@ -264,24 +264,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Tæl til 20 med frugter beder om et bestemt tal, og barnet trykker på felterne i en dobbelt tierramme for at lægge præcis så mange frugter ind på de to rammer og trykker så på Tjek. At arbejde helt op til 20 betyder en fuld tier plus lidt mere. Det er en interaktiv tælleaktivitet til børnehaveklassen, der spilles i browseren uden konto.",
-        "Den dobbelte tierramme lærer barnet det vigtigste om tallene fra 11 til 20: en fuld tier plus lidt mere. For at lave 14 fylder barnet den første ramme op til ti og lægger så fire på den anden — så tallets opbygning, ti og fire, er lige til at se. At arbejde forbi ti er et ægte skridt ud over at tælle til ti, og de to rammer giver barnet en måde at holde styr på tællingen i stedet for at miste overblikket. Aktiviteten følger Fælles Mål inden for tal og algebra: at forbinde tælling med antal og udvide talfornemmelsen ud over ti. Der er ingen timer og ingen point."
+        "En bestillingsseddel viser et tal, og ved frugtboden venter to bakker med ti pladser hver. Barnet trykker på den plads, hvor bestillingen slutter – frugterne triller ned plads for plads dertil – og trykker på Tjek, når der ligger præcis lige så mange frugter i bakkerne, som der står på sedlen. Det er en interaktiv tælleaktivitet op til 20, der virker i browseren, uden installation og uden konto.",
+        "At lægge et antal frem handler mest om at vide, hvor det slutter. De to bakker er en dobbelt tierramme: 17 er en fuld bakke og 7 til, og barnet finder den syttende plads ved at tælle én ad gangen eller i tiere og femmere. Et tryk på en frugt tager den frugt og alle efter den væk, så hver næste plads er én mere, og at tage den sidste frugt væk er én mindre. Passer antallet ikke, nummererer boden sine frugter, så barnet kan se hvorfor; efter endnu en fejl markerer den frugterne, der er for mange, eller pladserne, der stadig venter, og hjælpen flytter aldrig en frugt. De to typiske fejl med tal over ti får et navn: kun delen efter ti (7 i stedet for 17) og kun den fulde bakke (10 i stedet for 17).",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at give hver ting ét tal, at vide, at det sidste tal siger, hvor mange der er, og at det næste tal er én mere. Læreren vælger bestillinger op til 10 (én bakke) eller op til 20, og om et tryk fylder op til pladsen eller lægger én frugt i ad gangen (så siger barnet ét tal for hver frugt). Ingen tidtagning og ingen point."
       ],
       "practices": [
-        "Tælle præcis så mange frugtbrikker, som tallet beder om, op til 20",
-        "Fylde én hel tierramme og tælle videre ind på den anden",
-        "Se tallene fra 11 til 20 som en tier og lidt mere",
-        "Holde en omhyggelig én-til-én-tælling forbi ti"
+        "Lægge præcis så mange frugter i bakkerne, som bestillingen viser, op til 20",
+        "Finde, hvor et tal slutter i en dobbelt tierramme: en fuld bakke og nogle flere",
+        "Vide, at det sidste tal, man tæller, siger, hvor mange der er",
+        "Ændre bakkerne med én: én mere, én mindre"
       ],
       "howToPlay": [
-        "Barnet læser tallet for at se, hvilket tal der skal laves, op til 20.",
-        "Barnet trykker på felterne i den dobbelte tierramme for at lægge præcis så mange frugter ind og trykker så på Tjek.",
-        "Passer det ikke? Læg flere brikker til eller tag nogle væk og prøv igen — der er ingen timer og ingen point."
+        "Læs tallet på bestillingssedlen.",
+        "Tryk på en tom plads: frugterne fyldes op dertil. Tryk på en frugt for at tage den og alle efter den væk.",
+        "Når der ligger lige så mange frugter i bakkerne, som der står på sedlen, trykker du på Tjek.",
+        "Ikke helt? Boden nummererer sine frugter – læg i eller tag væk, og tryk på Tjek igen. Ingen tidtagning og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan lave ethvert tal fra 1 til 20 med brikker på en dobbelt tierramme",
-        "Barnet kan se tallene forbi ti som en fuld tier og nogle ekstra enere",
-        "Barnet bygger det fundament af tælle-videre og pladsværdi, der bruges i matematik i 1. klasse"
+        "Lægge et antal fra 1 til 20 frem og vide, at det sidste tal, man tæller, siger, hvor mange der er",
+        "Se et tal over ti som en hel tier og nogle flere",
+        "Se, at det næste tal er én mere og tallet før én mindre"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

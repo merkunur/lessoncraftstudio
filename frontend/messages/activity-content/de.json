@@ -2978,25 +2978,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Die Aufforderung nennt eine Zahl, die gelegt werden soll, und das Kind tippt die Felder eines doppelten Zehnerfelds an, um genau so viele Fruchtplättchen über die beiden Felder zu verteilen, und tippt dann auf Prüfen. Bis 20 zu arbeiten bedeutet einen vollen Zehner und noch etwas mehr. Die interaktive Zähl-Übung für den Kindergarten läuft im Browser, ohne Anmeldung.",
-        "Das doppelte Zehnerfeld vermittelt die wichtigste Idee der Zahlen zwischen 10 und 20: ein voller Zehner und noch etwas mehr. Um 14 zu legen, füllt das Kind das erste Feld bis zehn und legt dann vier in das zweite — so ist der Aufbau der Zahl, zehn und vier, direkt sichtbar. Über zehn hinaus zu arbeiten ist ein echter Schritt über das Zählen bis zehn hinaus, und die beiden Felder helfen dem Kind, den Überblick zu behalten, statt sich zu verzählen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zählen für den Kindergarten ausgerichtet — Anzahlen über zehn hinaus erfassen und das Zahlenverständnis erweitern. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Auf dem Bestellzettel steht eine Zahl, und am Obststand warten zwei Schalen mit je zehn Plätzen. Das Kind tippt auf den Platz, an dem die Bestellung endet – das Obst purzelt Platz für Platz bis dorthin hinein – und drückt auf Prüfen, wenn genau so viele Früchte in den Schalen liegen, wie bestellt sind. Eine interaktive Zählübung für Zahlen bis 20, direkt im Browser, ohne Installation und ohne Konto.",
+        "Beim Legen einer Anzahl kommt es vor allem darauf an, zu wissen, wo sie endet. Die beiden Schalen sind ein Zwanzigerfeld: 17 ist eine volle Schale und noch 7, und das Kind findet den siebzehnten Platz, indem es einzeln zählt oder in Zehnern und Fünfern. Ein Tipp auf eine Frucht nimmt diese Frucht und alle danach zurück – jeder nächste Platz ist also eins mehr, und wer die letzte Frucht zurücknimmt, hat eins weniger. Stimmt die Anzahl nicht, nummeriert der Stand sein Obst, damit das Kind sieht, warum; nach einem zweiten Fehlversuch markiert er die überzähligen Früchte oder die Plätze, die noch warten, und die Hilfe legt nie eine Frucht um. Die beiden typischen Fehler bei Zahlen über zehn werden benannt: nur der Teil nach der Zehn (7 statt 17) und nur die volle Schale (10 statt 17).",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: jedem Ding genau eine Zahl zuordnen, wissen, dass die zuletzt genannte Zahl die Anzahl angibt, und dass die nächste Zahl eins mehr ist. Lehrkräfte wählen Bestellungen bis 10 (eine Schale) oder bis 20 und ob ein Tipp bis zum Platz füllt oder eine Frucht dazulegt (dann nennt das Kind zu jeder Frucht eine Zahl). Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Genau so viele Fruchtplättchen legen, wie die Aufforderung nennt, bis 20.",
-        "Ein volles Zehnerfeld füllen und dann im zweiten Feld weiterzählen.",
-        "Zahlen zwischen 10 und 20 als einen Zehner und noch etwas mehr sehen.",
-        "Über zehn hinaus sorgfältig eins zu eins zählen."
+        "Genau so viele Früchte in die Schalen legen, wie bestellt sind, bis 20",
+        "Im Zwanzigerfeld finden, wo eine Zahl endet: eine volle Schale und noch etwas",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt",
+        "Die Schalen um eins verändern: eins mehr, eins weniger"
       ],
       "howToPlay": [
-        "Lies die Aufforderung, um zu sehen, welche Zahl du legen sollst, bis 20.",
-        "Tippe die Felder des doppelten Zehnerfelds an, um genau so viele Fruchtplättchen zu legen. Tippe dann auf Prüfen.",
-        "Noch nicht ganz? Lege Plättchen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+        "Lies die Zahl auf dem Bestellzettel.",
+        "Tippe auf einen leeren Platz: Das Obst füllt sich bis dorthin. Tippe auf eine Frucht, um sie und alle danach zurückzunehmen.",
+        "Wenn so viele Früchte in den Schalen liegen, wie bestellt sind, drücke auf Prüfen.",
+        "Noch nicht ganz? Der Stand nummeriert sein Obst – lege dazu oder nimm zurück und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Jede Zahl von 1 bis 20 mit Plättchen auf einem doppelten Zehnerfeld legen.",
-        "Zahlen über zehn als einen vollen Zehner und einige Einer mehr sehen.",
-        "Die Grundlage des Weiterzählens und des Stellenwerts für die Mathematik der 1. Klasse aufbauen."
+        "Eine Anzahl von 1 bis 20 legen und wissen, dass die zuletzt gezählte Zahl die Anzahl angibt",
+        "Eine Zahl über zehn als volle Zehn und noch etwas sehen",
+        "Erkennen, dass die nächste Zahl eins mehr und die vorige eins weniger ist"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

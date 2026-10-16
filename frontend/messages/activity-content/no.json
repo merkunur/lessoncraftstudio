@@ -264,25 +264,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Oppgaven nevner et tall som skal lages, og barnet trykker på rutene i en dobbel tierramme for å fylle inn akkurat så mange frukter fordelt over de to rammene, og trykker så på Sjekk. Når man jobber helt opp til 20, blir det en full tier pluss litt til. Denne interaktive telleaktiviteten for barnehage og skolestart spilles i nettleseren — uten innlogging.",
-        "Den doble tierrammen lærer barnet det viktigste om tall i tjueårsalderen: en full tier pluss litt til. For å lage 14 fyller barnet den første rammen til ti og legger så fire til på den andre — så strukturen i tallet, ti og fire, er rett der å se. Å jobbe forbi ti er et ekte steg utover det å telle til ti, og de to rammene gir barnet en måte å holde tellingen ryddig på i stedet for å miste oversikten.",
-        "Aktiviteten følger LK20 innenfor telling og tallforståelse — å koble telling til antall og utvide tallforståelsen forbi ti. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "En bestillingslapp viser et tall, og ved fruktboden venter to brett med ti plasser hver. Barnet trykker på plassen der bestillingen slutter – fruktene triller ned plass for plass dit – og trykker på Sjekk når det ligger nøyaktig like mange frukter i brettene som det står på lappen. Det er en interaktiv telleaktivitet opptil 20 som virker i nettleseren, uten installasjon og uten konto.",
+        "Å legge fram et antall handler mest om å vite hvor det slutter. De to brettene er en dobbel tierramme: 17 er et fullt brett og 7 til, og barnet finner den syttende plassen ved å telle én og én eller i tiere og femmere. Et trykk på en frukt tar bort den frukten og alle etter den, så hver neste plass er én mer, og å ta bort den siste frukten er én mindre. Stemmer ikke antallet, nummererer boden fruktene sine så barnet ser hvorfor; etter en ny feil markerer den fruktene som er for mange, eller plassene som fortsatt venter, og hjelpen flytter aldri en frukt. De to vanlige feilene med tall over ti får et navn: bare delen etter ti (7 i stedet for 17) og bare det fulle brettet (10 i stedet for 17).",
+        "Aktiviteten er tilpasset LK20 – å gi hver ting ett tall, å vite at det siste tallet sier hvor mange det er, og at det neste tallet er én mer. Læreren velger bestillinger opptil 10 (ett brett) eller opptil 20, og om et trykk fyller opp til plassen eller legger i én frukt om gangen (da sier barnet ett tall for hver frukt). Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Telle ut akkurat så mange fruktbrikker som oppgaven nevner, opp til 20.",
-        "Fylle én hel tierramme og telle videre inn i den andre.",
-        "Se tall i tjueårsalderen som en tier og litt til.",
-        "Holde en nøye én-til-én-telling forbi ti."
+        "Legge nøyaktig så mange frukter i brettene som bestillingen viser, opptil 20",
+        "Finne hvor et tall slutter i en dobbel tierramme: et fullt brett og noen til",
+        "Vite at det siste tallet man teller, sier hvor mange det er",
+        "Endre brettene med én: én mer, én mindre"
       ],
       "howToPlay": [
-        "Les oppgaven for å se hvilket tall du skal lage, opp til 20.",
-        "Trykk på rutene i den doble tierrammen for å plassere akkurat så mange fruktbrikker, og trykk så på Sjekk.",
-        "Ikke helt riktig? Legg til eller ta bort brikker og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Les tallet på bestillingslappen.",
+        "Trykk på en tom plass: fruktene fylles opp dit. Trykk på en frukt for å ta bort den og alle etter den.",
+        "Når det ligger like mange frukter i brettene som det står på lappen, trykker du på Sjekk.",
+        "Ikke helt? Boden nummererer fruktene sine – legg i eller ta bort, og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan lage hvilket som helst tall fra 1 til 20 med brikker på en dobbel tierramme.",
-        "Barnet ser tall forbi ti som en full tier og noen enere til.",
-        "Barnet bygger telle-videre- og plassverdigrunnlaget for matematikken på 1. trinn."
+        "Legge fram et antall fra 1 til 20 og vite at det siste tallet man teller, sier hvor mange det er",
+        "Se et tall over ti som en hel tier og noen til",
+        "Se at det neste tallet er én mer og tallet før én mindre"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

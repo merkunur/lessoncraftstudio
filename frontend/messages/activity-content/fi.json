@@ -264,25 +264,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Ohje nimeää luvun, joka pitää tehdä, ja lapsi napauttaa kaksoiskymmenruudukon ruutuja asettaakseen kahteen ruudukkoon täsmälleen niin monta hedelmää, ja painaa sitten Tarkista. Hedelminä näkyy tuttuja kuvia, ja kun edetään kahteenkymmeneen asti, tarvitaan täysi kymmenen ja vähän lisää. Tämä vuorovaikutteinen esiopetuksen laskemistehtävä toimii selaimessa ilman rekisteröitymistä.",
-        "Kaksoiskymmenruudukko opettaa tärkeimmän ajatuksen yli kymmenen menevistä luvuista: täysi kymmenen ja vähän lisää. Luvun 14 tekemiseksi lapsi täyttää ensimmäisen ruudukon kymmeneen ja lisää sitten neljä toiseen — joten luvun rakenne, kymmenen ja neljä, on suoraan nähtävissä. Yli kymmenen työskentely on aito askel eteenpäin kymmeneen laskemisesta, ja kaksi ruudukkoa auttavat lasta pitämään laskun järjestyksessä eikä menettämään sen lankaa.",
-        "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi yhdistää laskemisen lukumäärään ja laajentaa lukukäsitystään yli kymmenen. Ei ajastinta, ei pisteitä."
+        "Tilauslapussa on luku, ja hedelmäkojulla odottaa kaksi tarjotinta, joissa on kummassakin kymmenen paikkaa. Lapsi napauttaa paikkaa, johon tilaus loppuu – hedelmät putoavat paikka kerrallaan siihen asti – ja painaa Tarkista-painiketta, kun tarjottimilla on täsmälleen yhtä monta hedelmää kuin tilauksessa lukee. Tämä on vuorovaikutteinen laskemisharjoitus lukuun 20 asti, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Lukumäärän kokoamisessa tärkeintä on tietää, mihin se loppuu. Kaksi tarjotinta ovat kaksoiskymmenruudukko: 17 on täysi tarjotin ja vielä 7, ja lapsi löytää seitsemännentoista paikan laskemalla yksi kerrallaan tai kymmenin ja viisin. Hedelmän napautus ottaa pois sen hedelmän ja kaikki sen jälkeiset, joten jokainen seuraava paikka on yhden enemmän, ja viimeisen hedelmän pois ottaminen tekee yhden vähemmän. Jos määrä ei täsmää, koju numeroi hedelmänsä, jotta lapsi näkee miksi; toisen virheen jälkeen se merkitsee ylimääräiset hedelmät tai vielä odottavat paikat, eikä apu koskaan siirrä yhtään hedelmää. Kymmentä suurempien lukujen kaksi tavallista virhettä nimetään: vain kymmenen jälkeinen osa (7, kun pitäisi olla 17) ja vain täysi tarjotin (10, kun pitäisi olla 17).",
+        "Harjoitus on OPS 2014:n mukainen: lapsi liittää jokaiseen esineeseen yhden luvun, tietää, että viimeinen sanottu luku kertoo lukumäärän, ja että seuraava luku on yhtä suurempi. Opettaja valitsee, ovatko tilaukset 10:een asti (yksi tarjotin) vai 20:een asti, ja täyttääkö napautus siihen paikkaan asti vai lisääkö se yhden hedelmän kerrallaan (silloin lapsi sanoo jokaiselle hedelmälle yhden luvun). Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Laskee täsmälleen sen verran hedelmiä kuin ohje nimeää, kahteenkymmeneen asti.",
-        "Täyttää yhden kokonaisen kymmenruudukon ja jatkaa laskemista toiseen.",
-        "Näkee yli kymmenen menevät luvut kymmenenä ja vähän lisänä.",
-        "Pitää tarkan yksi yhteen -laskun myös yli kymmenen."
+        "Lapsi laittaa tarjottimille täsmälleen niin monta hedelmää kuin tilauksessa lukee, 20:een asti",
+        "Lapsi löytää kaksoiskymmenruudukosta kohdan, johon luku loppuu: täysi tarjotin ja vähän lisää",
+        "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi muuttaa tarjottimia yhdellä: yksi enemmän, yksi vähemmän"
       ],
       "howToPlay": [
-        "Lue ohjeesta, mikä luku pitää tehdä, kahteenkymmeneen asti.",
-        "Napauta kaksoiskymmenruudukon ruutuja asettaaksesi täsmälleen sen verran hedelmiä, ja paina sitten Tarkista.",
-        "Menikö pieleen? Lisää tai poista hedelmiä ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Lue tilauslapussa oleva luku.",
+        "Napauta tyhjää paikkaa: hedelmät täyttyvät siihen asti. Napauta hedelmää, niin se ja kaikki sen jälkeiset otetaan pois.",
+        "Kun tarjottimilla on yhtä monta hedelmää kuin tilauksessa lukee, paina Tarkista.",
+        "Ei vielä? Koju numeroi hedelmänsä – lisää tai ota pois ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa tehdä minkä tahansa luvun välillä 1–20 hedelmillä kaksoiskymmenruudukolla.",
-        "Lapsi näkee yli kymmenen menevät luvut täytenä kymmenenä ja muutamana ylimääräisenä ykkösenä.",
-        "Lapsi rakentaa jatkamalla laskemisen ja paikka-arvon pohjan ensimmäisen luokan matematiikkaa varten."
+        "Lapsi kokoaa 1–20 esineen joukon ja tietää, että viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi näkee kymmentä suuremman luvun täytenä kymppinä ja vähän lisää",
+        "Lapsi näkee, että seuraava luku on yhtä suurempi ja edellinen yhtä pienempi"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

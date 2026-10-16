@@ -104,6 +104,8 @@ console.log('\n[N2] hideReadout still does what it is for');
     'and the K.CC.A.3 write-numeral activity by the Fruit Crates (fruit-crates-activities.json)');
   is(ids.indexOf('ten-frame.count-to-10.make-n.animals') === -1 && own('animal-train-activities.json').indexOf('ten-frame.count-to-10.make-n.animals') !== -1,
     'and the K.CC.B.4 make-n activity by the Animal Train (animal-train-activities.json)');
+  is(ids.indexOf('ten-frame.count-to-20.make-n.fruits') === -1 && own('fruit-stand-activities.json').indexOf('ten-frame.count-to-20.make-n.fruits') !== -1,
+    'and the K.CC.B.4 make-n-to-20 activity by the Fruit Stand (fruit-stand-activities.json)');
 }
 
 console.log('\n[N3] POISON — the check fires on the shape of the original defect');

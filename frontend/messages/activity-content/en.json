@@ -310,25 +310,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "The prompt names a number to make, and the child taps the squares of a double ten-frame to fill in exactly that many pieces of fruit across the two frames, then presses Check. Working all the way to 20 means a full ten plus some more. This interactive Kindergarten counting activity plays in the browser with no sign-up.",
-        "The double ten-frame teaches the most important idea about teen and twenty numbers: a full ten plus some more. To make 14, the child fills the first frame to ten and then adds four onto the second — so the structure of the number, ten and four, is right there to see. Working past ten is a genuine step beyond counting to ten, and the two frames give the child a way to keep the count organized instead of losing track.",
-        "It is aligned to Common Core K.CC.B.4 — connecting counting to cardinality and extending number sense beyond ten. No timer, no score — just calm, playful practice."
+        "An order slip shows a number, and two market trays of ten spaces wait at the fruit stand. The child taps the space where the order ends — the fruit tumbles in, space after space, up to there — and presses Check when the trays hold exactly as many fruits as the order says. It's an interactive Kindergarten counting activity for numbers to 20 that runs in the browser with nothing to install and no account.",
+        "Making a number is mostly about knowing where it ends. The two trays are a double ten-frame, so 17 is a full tray and 7 more, and the child can find the seventeenth space by counting one by one or by tens and fives. A tap on a fruit takes back that fruit and every fruit after it, so each next space is one more, and taking back the last fruit makes one fewer. When the count is wrong, the stand numbers its fruit so the child can see why; a second wrong Check marks the extra fruit or the spaces still waiting, and the help never moves a fruit. The two mistakes teachers see most with numbers past ten are named: only the part after ten (7 for 17) and only the full tray (10 for 17).",
+        "It is aligned to Common Core K.CC.B.4 — one number for each object, the last number said tells how many, and each next number is one more. Teachers can choose orders up to 10 (one tray) or up to 20, and whether a tap fills up to the space or adds one fruit at a time (then the child says one number for each fruit). No timer, no score."
       ],
       "practices": [
-        "Counting out exactly the number of fruit counters the prompt names, up to 20",
-        "Filling one full ten-frame, then counting on into the second",
-        "Seeing teen and twenty numbers as a ten and some more",
-        "Keeping a careful one-to-one count past ten"
+        "Putting exactly as many fruits in the trays as the order shows, up to 20",
+        "Finding where a number ends on a double ten-frame: a full tray and some more",
+        "Knowing that the last number counted tells how many",
+        "Changing the trays by one: one more, one fewer"
       ],
       "howToPlay": [
-        "Read the prompt to see which number to make, up to 20.",
-        "Tap the squares of the double ten-frame to place exactly that many fruit counters, then press Check.",
-        "Not quite? Add or remove counters and try again — there is no timer and no score."
+        "Read the number on the order slip.",
+        "Tap an empty space: the fruit fills up to it. Tap a fruit to take that fruit and the ones after it back.",
+        "When the trays hold as many fruits as the order says, press Check.",
+        "Not quite? The stand numbers its fruit — add or take back fruit and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Make any number from 1 to 20 with counters on a double ten-frame",
-        "See numbers past ten as a full ten and some extra ones",
-        "Build the counting-on and place-value foundation for first-grade math"
+        "Make a number from 1 to 20 with objects — the K.CC.B.4 idea that the last number counted tells how many",
+        "See a number past ten as a full ten and some more",
+        "Know that the next number is one more and the number before is one fewer"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

@@ -376,25 +376,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "Uppmaningen säger vilket tal barnet ska göra, och barnet trycker på rutorna i en dubbel tioram för att fylla i precis så många frukter över de två ramarna, och trycker sedan på Kontrollera. Att arbeta hela vägen till 20 betyder en hel tia plus några till. Det är en interaktiv räkneövning för förskoleklass som körs i webbläsaren utan konto.",
-        "Den dubbla tioramen lär ut den viktigaste idén om tiotals- och tjugotalstal: en hel tia plus några till. För att göra 14 fyller barnet den första ramen till tio och lägger sedan till fyra i den andra — så talets uppbyggnad, tio och fyra, syns direkt. Att arbeta förbi tio är ett riktigt steg bortom att räkna till tio, och de två ramarna ger barnet ett sätt att hålla ordning på räkningen i stället för att tappa bort sig.",
-        "Aktiviteten följer Lgr22 inom taluppfattning: att koppla räkning till antal och utöka taluppfattningen över tio. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "En beställningslapp visar ett tal, och vid fruktståndet väntar två brickor med tio rutor var. Barnet trycker på rutan där beställningen tar slut – frukterna ramlar ner ruta för ruta dit – och trycker på Kontrollera när det ligger exakt så många frukter i brickorna som det står på lappen. Det är en interaktiv räkneaktivitet upp till 20 som fungerar i webbläsaren, utan installation och utan konto.",
+        "Att lägga fram ett antal handlar mest om att veta var det tar slut. De två brickorna är en dubbel tioram: 17 är en full bricka och 7 till, och barnet hittar den sjuttonde rutan genom att räkna en och en eller i tior och femmor. Ett tryck på en frukt tar bort den frukten och alla efter den, så varje nästa ruta är ett mer, och att ta bort den sista frukten är ett mindre. Stämmer inte antalet numrerar ståndet sina frukter så att barnet ser varför; efter ett andra fel markerar det frukterna som är för många eller rutorna som fortfarande väntar, och hjälpen flyttar aldrig en frukt. De två vanliga felen med tal över tio får ett namn: bara delen efter tio (7 i stället för 17) och bara den fulla brickan (10 i stället för 17).",
+        "Aktiviteten följer Lgr22 – att ge varje sak ett tal, att veta att det sista talet säger hur många det är och att nästa tal är ett mer. Läraren väljer beställningar upp till 10 (en bricka) eller upp till 20 och om ett tryck fyller på till rutan eller lägger i en frukt i taget (då säger barnet ett tal för varje frukt). Ingen timer och inga poäng."
       ],
       "practices": [
-        "Räkna ut precis så många fruktmarkörer som uppmaningen säger, upp till 20",
-        "Fylla en hel tioram och sedan räkna vidare in i den andra",
-        "Se tiotals- och tjugotalstal som en tia och några till",
-        "Hålla en noggrann ett-till-ett-räkning förbi tio"
+        "Lägga exakt så många frukter i brickorna som beställningen visar, upp till 20",
+        "Hitta var ett tal tar slut i en dubbel tioram: en full bricka och några till",
+        "Veta att det sista talet man räknar säger hur många det är",
+        "Ändra brickorna med en: ett mer, ett mindre"
       ],
       "howToPlay": [
-        "Barnet läser uppmaningen för att se vilket tal som ska göras, upp till 20.",
-        "Det trycker på rutorna i den dubbla tioramen för att lägga precis så många fruktmarkörer, och trycker sedan på Kontrollera.",
-        "Blev det inte rätt? Lägg till eller ta bort markörer och försök igen — det finns ingen timer och inga poäng."
+        "Läs talet på beställningslappen.",
+        "Tryck på en tom ruta: frukterna fylls på dit. Tryck på en frukt för att ta bort den och alla efter den.",
+        "När det ligger lika många frukter i brickorna som det står på lappen trycker du på Kontrollera.",
+        "Inte riktigt? Ståndet numrerar sina frukter – lägg i eller ta bort och tryck på Kontrollera igen. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan göra vilket tal som helst från 1 till 20 med markörer på en dubbel tioram",
-        "Barnet ser tal förbi tio som en hel tia och några extra ental",
-        "Barnet bygger den räkna-vidare- och platsvärdesgrund som matten i årskurs 1 vilar på"
+        "Lägga fram ett antal från 1 till 20 och veta att det sista talet man räknar säger hur många det är",
+        "Se ett tal över tio som ett helt tiotal och några till",
+        "Se att nästa tal är ett mer och talet före ett mindre"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

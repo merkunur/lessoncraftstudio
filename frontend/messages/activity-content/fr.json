@@ -2361,24 +2361,26 @@
     },
     "ten-frame.count-to-20.make-n.fruits": {
       "about": [
-        "La consigne nomme un nombre à former, et l'enfant touche les cases d'un cadre de dix double pour y placer exactement ce nombre de fruits répartis sur les deux cadres, puis appuie sur Vérifier. Aller jusqu'à 20, c'est faire un dix complet et encore quelques-uns. Cette activité de comptage interactive pour la maternelle se joue dans le navigateur, sans inscription.",
-        "Le cadre de dix double enseigne l'idée la plus importante sur les nombres entre dix et vingt : un dix complet et encore quelques-uns. Pour faire 14, l'enfant remplit le premier cadre jusqu'à dix, puis ajoute quatre fruits sur le second — la structure du nombre, dix et quatre, est ainsi visible sous ses yeux. Dépasser dix est un vrai pas au-delà du comptage jusqu'à dix, et les deux cadres aident l'enfant à garder son comptage organisé sans perdre le fil. Une activité adaptée à la grande section de maternelle."
+        "Un bon de commande affiche un nombre, et deux plateaux de dix cases attendent à l’étal de fruits. L’enfant touche la case où la commande s’arrête — les fruits arrivent case après case jusque-là — puis appuie sur Vérifier quand les plateaux contiennent exactement autant de fruits que la commande l’indique. C’est une activité interactive de dénombrement jusqu’à 20, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Pour constituer une collection, l’essentiel est de savoir où elle s’arrête. Les deux plateaux forment un double cadre de dix : 17, c’est un plateau plein et encore 7, et l’enfant trouve la dix-septième case en comptant un par un ou par dix et par cinq. Toucher un fruit reprend ce fruit et tous ceux d’après : chaque case suivante, c’est un de plus, et reprendre le dernier fruit, c’est un de moins. Quand le compte n’est pas bon, l’étal numérote ses fruits pour que l’enfant voie pourquoi ; après une deuxième erreur, il marque les fruits en trop ou les cases qui attendent encore, et l’aide ne déplace jamais un fruit. Les deux erreurs courantes au-delà de dix sont nommées : seulement la partie après dix (7 pour 17) et seulement le plateau plein (10 pour 17).",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : associer un nombre à chaque objet, savoir que le dernier nombre dit donne la quantité, et que le nombre suivant, c’est un de plus. L’enseignant choisit des commandes jusqu’à 10 (un plateau) ou jusqu’à 20, et si toucher une case remplit jusque-là ou ajoute un fruit à la fois (l’enfant dit alors un nombre pour chaque fruit). Ni chrono ni score."
       ],
       "practices": [
-        "Placer exactement le nombre de fruits demandé par la consigne, jusqu'à 20.",
-        "Remplir un premier cadre de dix complet, puis continuer à compter sur le second.",
-        "Voir les nombres entre dix et vingt comme un dix et encore quelques-uns.",
-        "Garder un comptage soigneux, un fruit à la fois, au-delà de dix."
+        "Mettre dans les plateaux exactement autant de fruits que la commande l’indique, jusqu’à 20",
+        "Trouver où un nombre s’arrête sur un double cadre de dix : un plateau plein et encore quelques-uns",
+        "Savoir que le dernier nombre compté donne la quantité",
+        "Changer les plateaux d’un seul fruit : un de plus, un de moins"
       ],
       "howToPlay": [
-        "Lis la consigne pour voir quel nombre former, jusqu'à 20.",
-        "Touche les cases du cadre de dix double pour placer exactement ce nombre de fruits, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Ajoute ou retire des fruits et réessaie — il n'y a ni chrono ni score."
+        "Lis le nombre sur le bon de commande.",
+        "Touche une case vide : les fruits arrivent jusqu’à elle. Touche un fruit pour reprendre ce fruit et ceux d’après.",
+        "Quand les plateaux contiennent autant de fruits que la commande l’indique, appuie sur Vérifier.",
+        "Pas tout à fait ? L’étal numérote ses fruits : ajoute ou reprends des fruits, puis appuie de nouveau sur Vérifier. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Former n'importe quel nombre de 1 à 20 avec des jetons sur un cadre de dix double.",
-        "Voir les nombres au-delà de dix comme un dix complet et quelques unités en plus.",
-        "Construire les bases du comptage en avançant et des valeurs de position pour les maths du CP."
+        "Constituer une collection de 1 à 20 objets et savoir que le dernier nombre compté donne la quantité",
+        "Voir un nombre au-delà de dix comme une dizaine pleine et encore quelques-uns",
+        "Comprendre que le nombre suivant, c’est un de plus, et le précédent, un de moins"
       ]
     },
     "ten-frame.how-many.0-10.animals": {

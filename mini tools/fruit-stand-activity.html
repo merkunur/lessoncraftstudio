@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Fruit Stand — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #11 of the one-by-one rebuild — THE FRUIT STAND (K.CC.B.4 to 20, fill the
+       trays up to where the order ends; a double ten-frame).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to fruit-stand-activity.js / fruit-stand-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/fruit-stand-core.js?v=1"></script>
+  <script src="/mini-tools/fruit-stand-activity.js?v=2"></script>
+  <script>
+    LCS.mount(FruitStandActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

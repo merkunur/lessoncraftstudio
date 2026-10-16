@@ -4681,5 +4681,19 @@
     "notes": "Note",
     "levelN": "Livello {n}",
     "placementSame": "Altrimenti: la prossima volta un’altra scheda media."
+  },
+  "activityShare": {
+    "button": "Condividi con la classe",
+    "sharing": "Creazione del link…",
+    "modalIntro": "Condividi questa attività con la tua classe.",
+    "qrAlt": "Codice QR di questa attività",
+    "linkLabel": "Link all’attività",
+    "copy": "Copia il link",
+    "copied": "Copiato!",
+    "openActivity": "Apri l’attività",
+    "downloadQr": "Scarica il codice QR",
+    "shareNote": "Gli alunni inquadrano il codice QR o aprono il link, senza account né app. Il link funziona su qualsiasi dispositivo.",
+    "savedToWorkspace": "Salvato nella tua area di lavoro — Le mie attività condivise",
+    "close": "Chiudi"
   }
 }

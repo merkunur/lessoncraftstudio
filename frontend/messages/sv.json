@@ -3160,5 +3160,19 @@
     "notes": "Anteckningar",
     "levelN": "Nivå {n}",
     "placementSame": "Annars: nästa gång ett nytt mellanblad."
+  },
+  "activityShare": {
+    "button": "Dela med klassen",
+    "sharing": "Skapar länk …",
+    "modalIntro": "Dela den här aktiviteten med din klass.",
+    "qrAlt": "QR-kod för den här aktiviteten",
+    "linkLabel": "Länk till aktiviteten",
+    "copy": "Kopiera länk",
+    "copied": "Kopierad!",
+    "openActivity": "Öppna aktiviteten",
+    "downloadQr": "Ladda ner QR-kod",
+    "shareNote": "Eleverna skannar QR-koden eller öppnar länken – inget konto och ingen app behövs. Länken fungerar på alla enheter.",
+    "savedToWorkspace": "Sparad i din arbetsyta – Mina delade aktiviteter",
+    "close": "Stäng"
   }
 }

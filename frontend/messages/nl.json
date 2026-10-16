@@ -3160,5 +3160,19 @@
     "notes": "Opmerkingen",
     "levelN": "Niveau {n}",
     "placementSame": "Anders: de volgende keer nog een basisblad."
+  },
+  "activityShare": {
+    "button": "Delen met je klas",
+    "sharing": "Link maken…",
+    "modalIntro": "Deel deze activiteit met je klas.",
+    "qrAlt": "QR-code voor deze activiteit",
+    "linkLabel": "Link naar de activiteit",
+    "copy": "Link kopiëren",
+    "copied": "Gekopieerd!",
+    "openActivity": "Activiteit openen",
+    "downloadQr": "QR-code downloaden",
+    "shareNote": "Leerlingen scannen de QR-code of openen de link – zonder account of app. De link werkt op elk apparaat.",
+    "savedToWorkspace": "Opgeslagen in je werkruimte – Mijn gedeelde activiteiten",
+    "close": "Sluiten"
   }
 }

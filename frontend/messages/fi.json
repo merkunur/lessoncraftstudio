@@ -3149,5 +3149,19 @@
     "notes": "Huomioita",
     "levelN": "Taso {n}",
     "placementSame": "Muuten: seuraavalla kerralla uusi perustehtävä."
+  },
+  "activityShare": {
+    "button": "Jaa luokalle",
+    "sharing": "Luodaan linkkiä…",
+    "modalIntro": "Jaa tämä tehtävä luokallesi.",
+    "qrAlt": "Tämän tehtävän QR-koodi",
+    "linkLabel": "Linkki tehtävään",
+    "copy": "Kopioi linkki",
+    "copied": "Kopioitu!",
+    "openActivity": "Avaa tehtävä",
+    "downloadQr": "Lataa QR-koodi",
+    "shareNote": "Oppilaat skannaavat QR-koodin tai avaavat linkin – tiliä tai sovellusta ei tarvita. Linkki toimii kaikilla laitteilla.",
+    "savedToWorkspace": "Tallennettu työtilaasi – Jakamani tehtävät",
+    "close": "Sulje"
   }
 }

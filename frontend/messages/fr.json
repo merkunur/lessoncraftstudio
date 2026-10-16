@@ -3180,5 +3180,19 @@
     "notes": "Remarques",
     "levelN": "Niveau {n}",
     "placementSame": "Sinon : une autre fiche moyenne la prochaine fois."
+  },
+  "activityShare": {
+    "button": "Partager avec la classe",
+    "sharing": "Création du lien…",
+    "modalIntro": "Partagez cette activité avec votre classe.",
+    "qrAlt": "QR code de cette activité",
+    "linkLabel": "Lien de l’activité",
+    "copy": "Copier le lien",
+    "copied": "Copié !",
+    "openActivity": "Ouvrir l’activité",
+    "downloadQr": "Télécharger le QR code",
+    "shareNote": "Les élèves scannent le QR code ou ouvrent le lien, sans compte ni application. Le lien fonctionne sur tous les appareils.",
+    "savedToWorkspace": "Enregistré dans votre espace de travail — Mes activités partagées",
+    "close": "Fermer"
   }
 }

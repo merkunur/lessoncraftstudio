@@ -14,7 +14,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 8 | LIVE 2026-10-16 → `counting-necklace-activity` (the Counting Necklace), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.B.4 | `necklace.bead-string.k-cc-b-4` | necklace-activity | The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten) |
 | 9 | LIVE 2026-10-16 → `animal-train-activity` (the Animal Train), 11 locales; operator review pending | K | K.CC.B.4 | `ten-frame.count-to-10.make-n.animals` | ten-frame-activity | Count to 10 with Animals — Ten Frame Activity |
 | 10 | LIVE 2026-10-16 → `fruit-stand-activity` (the Fruit Stand), 11 locales; operator review pending | K | K.CC.B.4 | `ten-frame.count-to-20.make-n.fruits` | ten-frame-activity | Count to 20 with Fruits — Double Ten Frame Activity |
-| 11 |  | K | K.CC.B.5 | `choice-board.how-many-group.k-c-c-b-5` | choice-board-activity | How Many Are There? — Kindergarten Counting |
+| 11 | LIVE 2026-10-16 → `peek-window-activity` (the Peek Window), 11 locales; operator review pending | K | K.CC.B.5 | `choice-board.how-many-group.k-c-c-b-5` | choice-board-activity | How Many Are There? — Kindergarten Counting |
 | 12 |  | K | K.CC.B.5 | `mamas-roll-call.numeral-trace.k-cc-b-5` | mamas-roll-call-activity | Mama's Roll Call — Count Out That Many (0 to 9) |
 | 13 |  | K | K.CC.B.5 | `mochi-feast.count-out.k-cc-b-5` | mochi-feast-activity | Feed Mochi — Count Out Treats (Kindergarten Counting Game) |
 | 14 | LIVE 2026-10-16 → `how-many-activity` (the Counting Table); operator review pending | K | K.CC.B.5 | `ten-frame.how-many.0-10.animals` | ten-frame-activity | How Many Animals? Count 0 to 10 — Ten Frame Activity |

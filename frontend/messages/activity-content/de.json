@@ -3609,25 +3609,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Es erscheint eine Zahl von 1 bis 9, und das Kind tippt die Zahl an, die direkt danach kommt — bei einer 4 die 5, bei einer 8 die 9. Die interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
-        "Der Kern dieser Übung ist das Weiterzählen von einer vorgegebenen Zahl aus, statt immer wieder bei eins anzufangen. Die Auswahlmöglichkeiten sind Zahlen von 0 bis 10, die nah an der richtigen Antwort liegen, sodass das Kind wirklich wissen muss, was als Nächstes kommt, und nicht raten kann. Genau diese Fähigkeit — mitten in der Zahlenreihe weiterzuzählen — macht das Zählen schnell und beweglich.",
+        "Eine Zahl von 1 bis 9 (oder von 9 bis 19 mit der größeren Einstellung) liegt offen auf einem Weg aus Steinen mit Deckeln; darauf steht ein Spielstein. Das Kind schreibt mit den Zifferntasten die Zahl, die direkt danach kommt – es steht auf der 7 und schreibt die 8 – und der Spielstein hüpft auf den Stein, der sich dabei öffnet. Die interaktive Zählübung für Vorschule und Klasse 1 läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
+        "Der Kern ist das Weiterzählen von einer vorgegebenen Zahl aus, statt immer wieder bei eins anzufangen. Die Steine vor dem Spielstein sind unter Deckeln verborgen, sodass sich die Antwort nicht einfach von einer Zahlenreihe ablesen lässt; ein Deckel lässt sich anheben, um eine frühere Zahl nachzusehen, und die Lehrkraft kann den ganzen Weg bis zum Spielstein sichtbar machen. Eine falsche Antwort wird beim Namen genannt – dieselbe Zahl, die davor oder zu weit – und der Weg öffnet sich bis zum Spielstein, damit das Kind von dort weiterzählt.",
         "Die Aktivität ist an den Lehrplänen im Bereich Zählen für den Kindergarten ausgerichtet — von einer vorgegebenen Zahl aus innerhalb der bekannten Zahlenreihe weiterzählen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
       ],
       "practices": [
-        "Die Zahl benennen, die direkt nach einer vorgegebenen Zahl von 1 bis 9 kommt.",
+        "Die Zahl benennen, die direkt nach einer vorgegebenen Zahl kommt – bis 10 oder bis 20.",
         "Mitten in der Zahlenreihe weiterzählen, statt bei eins zu beginnen.",
-        "Die Reihenfolge der Zahlen so gut kennen, dass man die nächste sofort findet.",
-        "Bewegliches Zählen aufbauen, das nicht jedes Mal einen Neustart braucht."
+        "Den Übergang von 9 zu 10 und von 19 zu 20 meistern (größere Einstellung: die Zahlen bis 20).",
+        "Eine Zahl mit den Zifferntasten schreiben – mit einer oder zwei Ziffern."
       ],
       "howToPlay": [
-        "Schau dir die Zahl an, die auf dem Feld gezeigt wird.",
-        "Tippe auf die Zahl, die direkt danach kommt. Tippe dann auf Prüfen.",
-        "Noch nicht ganz? Probiere es so oft, wie du möchtest — es gibt keinen Timer und keine Punkte."
+        "Schau, auf welcher Zahl der Spielstein steht. Der nächste Stein ist offen und wartet.",
+        "Tippe die Ziffern, um die Zahl zu schreiben, die danach kommt, und tippe dann auf Prüfen. Der Spielstein hüpft darauf.",
+        "Nicht sicher? Tippe auf einen Deckel, um eine frühere Zahl anzusehen. Noch nicht richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punkte."
       ],
       "learningGoals": [
         "Von einer vorgegebenen Zahl aus weiterzählen.",
-        "Wissen, welche Zahl in der Zahlenreihe bis 10 als Nächstes kommt.",
-        "Die Zähl-Sicherheit aufbauen, auf der das Addieren und das Zahlenverständnis aufbauen."
+        "Wissen, welche Zahl in der Zahlenreihe bis 10 und bis 20 als Nächstes kommt.",
+        "Die Zählsicherheit aufbauen, auf der Addieren und Zahlenverständnis beruhen."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

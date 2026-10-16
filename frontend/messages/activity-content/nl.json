@@ -3575,25 +3575,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Er verschijnt een getal van 1 tot en met 9 en het kind tikt op het getal dat er meteen na komt — zie je een 4, dan zoek je de 5; zie je een 8, dan zoek je de 9. Het is een interactieve telactiviteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder account.",
-        "Het grote idee is vooruittellen vanaf een getal dat je krijgt, in plaats van telkens opnieuw bij één te beginnen. De keuzes zijn getallen tussen 0 en 10 die dicht bij het goede antwoord liggen, dus het kind moet écht weten wat erna komt en kan niet zomaar gokken. Het tellen midden in de rij oppakken is precies wat maakt dat tellen snel en soepel wordt.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Tellen: vooruittellen vanaf een willekeurig getal binnen de bekende telrij. Beginnend tellen hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een getal van 1 tot 9 (of van 9 tot 19 met de ruimere instelling) ligt open op een pad van stenen met deksels, met een pion erop. Het kind schrijft met de cijfertoetsen het getal dat er direct na komt – het staat op 7 en schrijft 8 – en de pion springt op de steen die opengaat. Het is een interactieve telactiviteit voor de kleuterklas die direct in de browser draait, op tablet, telefoon en computer, zonder installatie en zonder account.",
+        "De kern is verder tellen vanaf een gegeven getal in plaats van steeds opnieuw bij één te beginnen. De stenen vóór de pion zitten onder deksels, zodat het antwoord niet van een rij getallen is af te lezen; een deksel kan worden opgetild om een eerder getal te bekijken als dat helpt, en de leerkracht kan het hele pad tot aan de pion laten zien. Een fout antwoord wordt benoemd – hetzelfde getal, het getal ervoor of te ver – en het pad gaat open tot aan de pion, zodat het kind vanaf daar verder telt.",
+        "De activiteit sluit aan bij de kerndoelen voor de kleuterklas: vooruittellen vanaf een gegeven getal binnen de bekende telrij. Geen timer, geen score – gewoon rustig en speels oefenen."
       ],
       "practices": [
-        "Het getal benoemen dat meteen na een gegeven getal van 1 tot 9 komt",
-        "Vooruittellen vanaf het midden van de telrij in plaats van vanaf één",
-        "De volgorde van de getallen goed genoeg kennen om het volgende te vinden",
-        "Soepel leren tellen zonder telkens opnieuw te hoeven beginnen"
+        "Het getal noemen dat direct na een gegeven getal komt, tot 10 of tot 20.",
+        "Verder tellen vanuit het midden van de telrij in plaats van bij één te beginnen.",
+        "De overgang van 9 naar 10 en van 19 naar 20 maken (ruimere instelling: de getallen tot 20).",
+        "Een getal schrijven met de cijfertoetsen, met één of twee cijfers."
       ],
       "howToPlay": [
-        "Bekijk het getal dat op het bord staat.",
-        "Tik op het getal dat er meteen na komt, en druk daarna op Controleer.",
-        "Niet helemaal goed? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Kijk op welk getal de pion staat. De volgende steen is open en wacht.",
+        "Tik op de cijfers om het getal te schrijven dat erna komt en druk dan op Controleer. De pion springt erop.",
+        "Weet je het niet zeker? Tik op een deksel om een eerder getal te bekijken. Nog niet goed? Probeer het zo vaak als je wilt – er is geen timer en geen score."
       ],
       "learningGoals": [
-        "Het kind telt vooruit vanaf een gegeven getal.",
-        "Het kind weet welk getal volgt in de telrij tot 10.",
-        "Het kind bouwt de telvaardigheid op waar optellen en getalbegrip later op verdergaan."
+        "Vooruittellen vanaf een gegeven getal.",
+        "Weten welk getal erna komt in de telrij tot 10 en tot 20.",
+        "De telvaardigheid opbouwen waarop optellen en getalbegrip voortbouwen."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

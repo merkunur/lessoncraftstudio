@@ -907,24 +907,24 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "A number from 1 to 9 appears and the child taps the number that comes right after it — see a 4 and find the 5, see an 8 and find the 9. It's an interactive Kindergarten counting activity that runs right in the browser on tablets, phones, and computers, with nothing to install and no account.",
-        "The big idea is counting forward from a number you are given, instead of always starting over at one. The choices come from numbers 0 through 10 sitting near the right answer, so the child has to truly know what comes next rather than guessing. That skill — picking up the count in the middle of the sequence — is what lets counting become quick and flexible.",
+        "A number from 1 to 9 (or 9 to 19 with the wider setting) stands open on a path of lidded stones, with a counter resting on it. The child writes the number that comes right after it on the number keys — stand on 7, write 8 — and the counter hops forward onto the stone as it opens. It is an interactive Kindergarten counting activity that runs in the browser on tablets, phones and computers, with nothing to install and no account.",
+        "The big idea is counting on from a number you are given instead of starting over at one. The stones before the counter are hidden under lids, so the child cannot read the answer off a line of numbers; a lid can be lifted to peek at an earlier number when that helps, and the teacher can show the whole path up to the counter. A wrong answer is named for what it is — the same number, the one before, or too far — and the path opens up to the counter so the child can count on from it.",
         "It is aligned to Common Core K.CC.A.2 — counting forward beginning from a given number within the known sequence. No timer, no score — just calm, playful practice."
       ],
       "practices": [
-        "Name the number that comes right after a given number from 1 to 9",
-        "Count forward starting in the middle of the sequence, not from one",
-        "Know the order of numbers well enough to spot the next one",
-        "Build flexible counting that does not need a fresh start each time"
+        "Name the number that comes right after a given number, to 10 or to 20",
+        "Count on from the middle of the sequence instead of starting at one",
+        "Cross from 9 to 10 and from 19 to 20 (wider setting: the numbers to 20)",
+        "Write a numeral on the number keys, with one or two digits"
       ],
       "howToPlay": [
-        "Look at the number shown on the board.",
-        "Tap the number that comes right after it, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the number the counter stands on. The next stone is open and waiting.",
+        "Tap the digits to write the number that comes next, then press Check. The counter hops onto it.",
+        "Not sure? Tap a lid to peek at an earlier number. Not quite right? Try again as many times as you like — there is no timer and no score."
       ],
       "learningGoals": [
         "Count forward from a given number — the focus of Common Core K.CC.A.2",
-        "Know which number comes next in the sequence to 10",
+        "Know which number comes next in the sequence to 10, and to 20",
         "Build the counting fluency that addition and number sense build on"
       ]
     },

@@ -3163,25 +3163,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Se muestra un número del 1 al 9 y el niño o la niña toca el número que viene justo después al contar: si ve un 4, busca el 5; si ve un 8, busca el 9. Es una actividad de conteo para preescolar, interactiva, que funciona directo en el navegador en tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
-        "La idea central es contar hacia adelante a partir de un número dado, en lugar de empezar siempre desde el uno. Las opciones son números del 0 al 10 cercanos a la respuesta correcta, así que el niño o la niña tiene que saber de verdad cuál sigue y no adivinar. Esa habilidad —retomar el conteo a la mitad de la serie— es la que hace que contar sea rápido y flexible.",
-        "Está pensada para el nivel de preescolar o kínder, en el eje de conteo y cardinalidad de los planes y programas de estudio (SEP): contar hacia adelante a partir de un número dado dentro de la serie conocida. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Un número del 1 al 9 (o del 9 al 19 con el ajuste más amplio) está destapado en un camino de piedras con tapas, con una ficha parada encima. El niño escribe con las teclas de números el que viene justo después —está en el 7 y escribe el 8— y la ficha salta a la piedra que se abre. Es una actividad interactiva de conteo para preescolar que funciona directo en el navegador, en tabletas, celulares y computadoras, sin instalar nada y sin cuenta.",
+        "La idea central es seguir contando a partir de un número dado en lugar de empezar otra vez desde el uno. Las piedras antes de la ficha están escondidas bajo tapas, así que la respuesta no se puede leer en una fila de números; se puede levantar una tapa para ver un número anterior cuando ayuda, y la maestra puede mostrar todo el camino hasta la ficha. Una respuesta equivocada se nombra —el mismo número, el de antes o demasiado lejos— y el camino se abre hasta la ficha para que el niño cuente desde ahí.",
+        "Está alineada con los planes de estudio de preescolar: contar hacia adelante a partir de un número dado dentro de la secuencia conocida. Sin cronómetro ni puntaje: solo práctica tranquila y divertida."
       ],
       "practices": [
-        "Decir qué número viene justo después de un número dado del 1 al 9.",
-        "Contar hacia adelante empezando a la mitad de la serie y no desde el uno.",
-        "Conocer el orden de los números lo suficiente para reconocer el que sigue.",
-        "Desarrollar un conteo flexible que no necesita empezar de nuevo cada vez."
+        "Decir el número que viene justo después de un número dado, hasta 10 o hasta 20.",
+        "Seguir contando desde la mitad de la secuencia en lugar de empezar en uno.",
+        "Pasar del 9 al 10 y del 19 al 20 (ajuste más amplio: los números hasta 20).",
+        "Escribir un número con las teclas de números, de uno o dos dígitos."
       ],
       "howToPlay": [
-        "Mira el número que aparece en el tablero.",
-        "Toca el número que viene justo después; luego pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Mira el número en el que está parada la ficha. La siguiente piedra está destapada y espera.",
+        "Toca los dígitos para escribir el número que sigue y luego presiona Comprobar. La ficha salta a esa piedra.",
+        "¿No estás seguro? Toca una tapa para ver un número anterior. ¿Todavía no? Inténtalo las veces que quieras: no hay cronómetro ni puntaje."
       ],
       "learningGoals": [
         "Contar hacia adelante a partir de un número dado.",
-        "Saber qué número sigue en la serie hasta el 10.",
-        "Construir la fluidez de conteo en la que se apoyan la suma y el sentido numérico."
+        "Saber qué número sigue en la secuencia hasta 10 y hasta 20.",
+        "Construir la fluidez al contar sobre la que se apoyan la suma y el sentido numérico."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

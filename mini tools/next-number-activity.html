@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>What Number Comes Next? — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #3 of the one-by-one rebuild — THE PEEK PATH (K.CC.A.2, the
+       number after). Shell → own core → this activity. Bump ?v=N on EVERY
+       change to next-number-activity.js / next-number-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/next-number-core.js?v=1"></script>
+  <script src="/mini-tools/next-number-activity.js?v=1"></script>
+  <script>
+    LCS.mount(NextNumberActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

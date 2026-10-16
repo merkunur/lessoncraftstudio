@@ -2127,25 +2127,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Appare un numero da 1 a 9 e il bambino tocca quello che viene subito dopo — vede un 4 e trova il 5, vede un 8 e trova il 9. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che funziona nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
-        "L'idea importante è contare in avanti a partire da un numero dato, invece di ricominciare ogni volta da uno. Le scelte sono numeri tra 0 e 10 vicini alla risposta giusta, così il bambino deve davvero sapere qual è il successivo e non tirare a indovinare. Riprendere il conteggio nel mezzo della successione è proprio ciò che rende il contare rapido e flessibile.",
-        "L'attività è allineata alle Indicazioni nazionali: contare in avanti a partire da un numero dato all'interno della successione conosciuta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Un numero da 1 a 9 (o da 9 a 19 con l’impostazione più ampia) è scoperto su un sentiero di pietre con i coperchi, con una pedina sopra. Il bambino scrive con i tasti dei numeri quello che viene subito dopo – è sul 7 e scrive 8 – e la pedina salta sulla pietra che si apre. È un’attività interattiva di conteggio per la scuola dell’infanzia che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L’idea centrale è continuare a contare da un numero dato invece di ripartire ogni volta da uno. Le pietre prima della pedina sono nascoste sotto i coperchi, così la risposta non si può leggere su una fila di numeri; si può sollevare un coperchio per sbirciare un numero precedente quando serve, e l’insegnante può mostrare tutto il sentiero fino alla pedina. Una risposta sbagliata viene nominata – lo stesso numero, quello prima o troppo lontano – e il sentiero si apre fino alla pedina perché il bambino conti da lì.",
+        "È allineata alle Indicazioni nazionali per la scuola dell’infanzia: contare in avanti a partire da un numero dato nella sequenza conosciuta. Niente timer, niente punteggio: solo pratica tranquilla e giocosa."
       ],
       "practices": [
-        "Dire qual è il numero che viene subito dopo un numero dato da 1 a 9.",
-        "Contare in avanti partendo dal centro della successione, non da uno.",
-        "Conoscere l'ordine dei numeri abbastanza bene da individuare il successivo.",
-        "Costruire un conteggio flessibile, che non richiede di ricominciare ogni volta."
+        "Dire il numero che viene subito dopo un numero dato, fino a 10 o fino a 20.",
+        "Continuare a contare dal mezzo della sequenza invece di partire da uno.",
+        "Passare da 9 a 10 e da 19 a 20 (impostazione più ampia: i numeri fino a 20).",
+        "Scrivere un numero con i tasti dei numeri, a una o due cifre."
       ],
       "howToPlay": [
-        "Il bambino guarda il numero mostrato sul tabellone.",
-        "Tocca il numero che viene subito dopo, poi tocca Controlla.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Guarda il numero su cui sta la pedina. La pietra dopo è scoperta e aspetta.",
+        "Tocca le cifre per scrivere il numero che viene dopo, poi premi Verifica. La pedina ci salta sopra.",
+        "Non sei sicuro? Tocca un coperchio per sbirciare un numero precedente. Non è ancora giusto? Riprova tutte le volte che vuoi: non c’è timer né punteggio."
       ],
       "learningGoals": [
         "Contare in avanti a partire da un numero dato.",
-        "Sapere quale numero viene dopo nella successione fino a 10.",
-        "Costruire la sicurezza nel conteggio su cui si basano l'addizione e il senso del numero."
+        "Sapere quale numero viene dopo nella sequenza fino a 10 e fino a 20.",
+        "Costruire la sicurezza nel contare su cui si basano l’addizione e il senso del numero."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

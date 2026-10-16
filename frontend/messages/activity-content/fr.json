@@ -2963,24 +2963,25 @@
     },
     "choice-board.next-number.k-cc-a-2": {
       "about": [
-        "Un nombre de 1 à 9 apparaît, et l'enfant touche celui qui vient juste après : on voit un 4 et on trouve le 5, on voit un 8 et on trouve le 9. C'est une activité de comptage interactive pour la maternelle, qui fonctionne directement dans le navigateur sur tablette, téléphone ou ordinateur, sans rien installer et sans compte.",
-        "L'idée clé, c'est de continuer à compter à partir d'un nombre donné, au lieu de toujours repartir de un. Les réponses proposées sont des nombres de 0 à 10 placés près de la bonne réponse, ce qui oblige l'enfant à vraiment savoir ce qui vient ensuite plutôt qu'à deviner. Cette compétence — reprendre le comptage au milieu de la suite — est exactement ce qui rend le comptage rapide et souple, un apprentissage essentiel de la maternelle."
+        "Un nombre de 1 à 9 (ou de 9 à 19 avec le réglage plus large) est ouvert sur un chemin de pierres à couvercles, avec un jeton posé dessus. L’enfant écrit avec les touches des chiffres le nombre qui vient juste après – il est sur le 7, il écrit 8 – et le jeton saute sur la pierre qui s’ouvre. Cette activité interactive de comptage pour la maternelle fonctionne directement dans le navigateur, sur tablette, téléphone et ordinateur, sans installation ni compte.",
+        "L’idée centrale est de continuer à compter à partir d’un nombre donné au lieu de repartir de un. Les pierres avant le jeton sont cachées sous des couvercles : l’enfant ne peut pas lire la réponse sur une ligne de nombres ; il peut soulever un couvercle pour voir un nombre d’avant quand cela l’aide, et l’enseignant peut montrer tout le chemin jusqu’au jeton. Une réponse fausse est nommée – le même nombre, celui d’avant ou trop loin – et le chemin s’ouvre jusqu’au jeton pour que l’enfant compte à partir de là.",
+        "L’activité suit les programmes officiels de maternelle : compter en avant à partir d’un nombre donné dans la suite connue. Pas de chronomètre, pas de score – juste un entraînement calme et ludique."
       ],
       "practices": [
-        "Nommer le nombre qui vient juste après un nombre donné, de 1 à 9.",
-        "Compter en avançant à partir du milieu de la suite, sans repartir de un.",
-        "Connaître assez bien l'ordre des nombres pour repérer le suivant.",
-        "Développer un comptage souple qui n'a pas besoin de recommencer à chaque fois."
+        "Dire le nombre qui vient juste après un nombre donné, jusqu’à 10 ou jusqu’à 20.",
+        "Continuer à compter depuis le milieu de la suite au lieu de repartir de un.",
+        "Passer de 9 à 10 et de 19 à 20 (réglage plus large : les nombres jusqu’à 20).",
+        "Écrire un nombre avec les touches des chiffres, à un ou deux chiffres."
       ],
       "howToPlay": [
-        "Regarde le nombre affiché à l'écran.",
-        "Touche le nombre qui vient juste après, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Regarde le nombre sur lequel le jeton est posé. La pierre suivante est ouverte et attend.",
+        "Touche les chiffres pour écrire le nombre qui vient juste après, puis appuie sur Vérifier. Le jeton saute dessus.",
+        "Pas sûr ? Touche un couvercle pour voir un nombre d’avant. Pas encore juste ? Essaie autant de fois que tu veux – il n’y a ni chronomètre ni score."
       ],
       "learningGoals": [
-        "Compter en avançant à partir d'un nombre donné.",
-        "Savoir quel nombre vient ensuite dans la suite jusqu'à 10.",
-        "Construire l'aisance de comptage sur laquelle s'appuieront l'addition et le sens du nombre."
+        "Compter en avant à partir d’un nombre donné.",
+        "Savoir quel nombre vient ensuite dans la suite jusqu’à 10, puis jusqu’à 20.",
+        "Construire l’aisance en comptage sur laquelle s’appuient l’addition et le sens du nombre."
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

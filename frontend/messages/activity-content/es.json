@@ -907,25 +907,25 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Digby el perrito está aprendiendo a escribir los números, y tu hijo lo ayuda. En la pantalla aparece un número punteado con un pequeño punto de inicio de color coral: justo ahí empieza el trazo. Tu hijo sigue cada trazo en orden, y cuando termina el último, el número se rellena y Digby se pone feliz. Así se forman, uno por uno, todos los números del 0 al 9.",
-        "Trazar los números es mucho más que colorear: tu hijo practica la dirección correcta al escribir y el orden de los trazos de cada cifra. El punto de inicio y la secuencia fija de trazos lo ayudan a formar cada numeral de manera limpia y sin escritura en espejo —ese 3, 5 o 9 al revés tan común al principio—. Esta motricidad fina y este trazo guiado son la base de una escritura de números clara y segura, una de las primeras destrezas del preescolar.",
-        "No hay cronómetro, ni puntaje, ni competencia: tu hijo puede repasar cada número las veces que quiera, a su propio ritmo. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico, donde el niño aprende a representar los números también escribiéndolos. Un rato tranquilo y amable donde aprender a escribir da gusto."
+        "Una línea de escritura, tres cuadros. El primer cuadro muestra todo el camino del número con un punto verde de inicio; el segundo, solo una línea tenue; el tercero está vacío. El niño escribe el número con el dedo en cada cuadro, uno tras otro —del 0 al 9, un número por ronda—, y la tinta aparece solo donde el dedo recorrió de verdad el trazo, desde su inicio. Cuando el tercer cuadro está listo, los tres números que escribió el niño quedan en la línea y el número se dice en voz alta. Es una actividad interactiva de escritura para preescolar que funciona directo en el navegador, en tabletas, celulares y computadoras, sin instalar nada y sin cuenta.",
+        "La idea central es el método del cuaderno de caligrafía —modelo, trazo, copia— con una ayuda que se va desvaneciendo dentro de una misma línea, para que el último número sea el del niño. El orden y la dirección de los trazos van incluidos: un trazo solo cuenta si se dibuja desde su punto de inicio y a lo largo de su camino; un número empezado desde abajo, o al revés, no pasa. Los errores típicos de quien empieza a escribir se nombran a partir del camino del dedo —empezó por el otro extremo, lo hizo al revés, giró hacia el otro lado, se detuvo antes de terminar— y, después de tres intentos, vuelve la línea tenue y luego el camino completo. Un puntito caminante enseña los trazos cuando se le pide, y Borrar vuelve a empezar un cuadro. Los ajustes mantienen la guía completa en cada cuadro para un grupo que la necesita, o la quitan para uno que ya está listo para escribir solo; el papel puede mostrar tres líneas o una.",
+        "Está alineada con los planes de estudio de preescolar: escribir los números del 0 al 9 en la dirección y el orden de trazos correctos. Sin cronómetro ni puntaje: solo práctica tranquila y divertida."
       ],
       "practices": [
-        "Trazar los numerales del 0 al 9 siguiendo el punto de inicio y el orden de los trazos.",
-        "Practicar la dirección correcta al escribir cada número para evitar la escritura en espejo.",
-        "Reconocer la forma de cada numeral mientras la mano lo va formando.",
-        "Afianzar la motricidad fina y la coordinación ojo-mano al repasar cada trazo."
+        "Formar cada número del 0 al 9 desde el punto de inicio correcto, en el orden y la dirección de trazos correctos.",
+        "Pasar de trazar con guía completa a escribir el número sin ayuda, en una misma línea.",
+        "Notar y corregir un número invertido, al revés o sin terminar.",
+        "Desarrollar la motricidad fina y el recorrido del lápiz que necesita una letra clara."
       ],
       "howToPlay": [
-        "Aparece un número punteado con un punto de inicio de color coral: ahí empieza Digby.",
-        "Arrastra el dedo siguiendo cada trazo, en orden, desde el punto de inicio.",
-        "Cuando completas todos los trazos, el número se rellena y pasas al siguiente. ¡Del 0 al 9 con Digby!"
+        "Pon el dedo en el punto verde del primer cuadro y sigue el camino. La tinta aparece por donde pasa tu dedo.",
+        "Haz lo mismo en el segundo cuadro, donde el camino es solo una línea tenue, y luego en el tercero tú solo. ¿No estás seguro? Toca Enséñame para ver los trazos, o Borrar para empezar un cuadro de nuevo.",
+        "Cuando el tercer cuadro está listo, la ronda se comprueba sola y el número se dice en voz alta: no hay cronómetro ni puntaje."
       ],
       "learningGoals": [
-        "Trazar los números del 0 al 9 con el orden y la dirección de trazo correctos.",
-        "Iniciar cada numeral en el punto de inicio y completar todos sus trazos sin invertir la forma.",
-        "Asociar el símbolo escrito con el número, fortaleciendo su representación escrita."
+        "Escribir cada número del 0 al 9 con trazos correctos y constantes.",
+        "Escribir un número sin guía después de trazarlo.",
+        "Construir la base de la escritura para anotar más adelante cantidades y resultados."
       ]
     },
     "patchwork-meadow.tile.3-md-c-6": {

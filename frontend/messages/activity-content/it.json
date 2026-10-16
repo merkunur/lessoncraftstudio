@@ -3070,25 +3070,25 @@
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
-        "Il cane Digby fa da guida: mostra al bambino ogni numero da 0 a 9 disegnato con una linea tratteggiata e un punto di partenza. Il bambino appoggia il dito sul punto e segue un tratto dopo l’altro, nell’ordine giusto, finché la cifra si colora e appare completa sullo schermo.",
-        "È un allenamento al gesto grafico del numero: scrivere e tracciare le cifre da 0 a 9 seguendo l’ordine corretto dei tratti, imparare la forma di ogni numero e memorizzarne il movimento della mano, tratto dopo tratto.",
-        "L’attività è pensata per la classe prima ed è allineata alle Indicazioni nazionali. Senza registrazione, senza timer e senza punteggio: il bambino traccia con calma, ai suoi tempi."
+        "Una riga di scrittura, tre caselle. La prima casella mostra tutta la strada del numero con un punto verde di partenza; la seconda solo una linea leggera; la terza è vuota. Il bambino scrive il numero con il dito in ogni casella, una dopo l’altra – da 0 a 9, un numero per turno – e l’inchiostro compare solo dove il dito ha davvero percorso il tratto, dall’inizio. Quando la terza casella è fatta, i tre numeri scritti dal bambino restano sulla riga e il numero viene detto a voce. È un’attività interattiva di scrittura per la classe prima che funziona direttamente nel browser, su tablet, telefono e computer, senza installare nulla e senza account.",
+        "L’idea centrale è il metodo del quaderno di pregrafismo – modello, ricalco, copia – con un aiuto che sfuma dentro la stessa riga, così l’ultimo numero è davvero del bambino. L’ordine e la direzione dei tratti sono incorporati: un tratto conta solo se viene fatto dal suo punto di partenza, lungo la sua strada; un numero iniziato dal basso, o al contrario, non passa. Gli errori tipici di chi comincia a scrivere vengono nominati a partire dal percorso del dito – iniziato dall’altra parte, al contrario, girato dalla parte sbagliata, fermato troppo presto – e dopo tre tentativi torna la linea leggera, poi la strada intera. Un puntino che cammina mostra i tratti su richiesta, e Cancella fa ricominciare una casella. Le impostazioni tengono la guida completa in ogni casella per una classe che ne ha bisogno, o la tolgono per una classe pronta a scrivere da sola; il foglio può mostrare tre righe o una.",
+        "L’attività segue le Indicazioni nazionali per la classe prima: scrivere le cifre da 0 a 9 nella direzione e nell’ordine dei tratti corretti. Senza cronometro e senza punteggio: solo esercizio calmo e giocoso."
       ],
       "practices": [
-        "Tracciare le cifre da 0 a 9",
-        "Seguire l’ordine corretto dei tratti",
-        "Partire dal punto e seguire la forma del numero",
-        "Riconoscere e scrivere ogni numero"
+        "Formare ogni cifra da 0 a 9 dal punto di partenza giusto, nell’ordine e nella direzione dei tratti giusti.",
+        "Passare dal ricalco con la guida completa alla scrittura del numero senza aiuto, sulla stessa riga.",
+        "Accorgersi di un numero rovesciato, al contrario o incompleto, e correggerlo.",
+        "Sviluppare la motricità fine e il movimento della matita che serve a una scrittura ordinata."
       ],
       "howToPlay": [
-        "Guarda il numero tratteggiato e il punto di partenza",
-        "Parti dal punto e traccia ogni tratto nell’ordine giusto",
-        "Completa tutti i tratti e il numero appare colorato"
+        "Metti il dito sul punto verde della prima casella e segui la strada. L’inchiostro compare dove passa il dito.",
+        "Fai lo stesso nella seconda casella, dove la strada è solo una linea leggera, e poi nella terza casella da solo. Non sei sicuro? Tocca Fammi vedere per guardare i tratti, o Cancella per ricominciare una casella.",
+        "Quando la terza casella è fatta, il turno si controlla da solo e il numero viene detto: non c’è cronometro né punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a scrivere le cifre da 0 a 9 con il gesto grafico corretto",
-        "Tuo figlio impara a seguire l’ordine giusto dei tratti, partendo dal punto",
-        "Tuo figlio impara a riconoscere e ricordare la forma di ogni numero"
+        "Scrivere ogni cifra da 0 a 9 con tratti corretti e costanti.",
+        "Scrivere una cifra senza guida dopo averla ricalcata.",
+        "Costruire la base della scrittura per annotare più avanti quantità e risultati."
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

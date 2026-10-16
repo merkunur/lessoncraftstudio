@@ -1492,6 +1492,29 @@
         "Ymmärtää, että laskemisen voi aloittaa mistä tahansa, ei vain ykkösestä.",
         "Rakentaa eteenpäin laskemisen sujuvuus, johon yhteenlasku ja myöhempi lukujen käsittely nojaavat."
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Yksi kirjoitusrivi, kolme ruutua. Ensimmäinen ruutu näyttää numeron koko reitin ja vihreän aloituspisteen, toinen vain haalean viivan, kolmas on tyhjä. Lapsi kirjoittaa numeron sormella ruutu kerrallaan – 0:sta 9:ään, yksi numero kierrosta kohti – ja muste ilmestyy vain sinne, missä sormi on todella kulkenut viivaa pitkin sen alusta asti. Kun kolmas ruutu on valmis, lapsen kirjoittamat kolme numeroa jäävät riville ja luku sanotaan ääneen. Vuorovaikutteinen kirjoitusharjoitus esiopetukseen ja 1. luokalle toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella, ilman asennusta ja ilman tiliä.",
+        "Ydinajatus on kirjoitusvihkon menetelmä – malli, jäljennys, itse kirjoittaminen – niin, että tuki häipyy yhden rivin sisällä ja viimeinen numero on lapsen oma. Viivojen järjestys ja suunta ovat sisäänrakennettuja: viiva lasketaan vain, kun se piirretään aloituspisteestä reittiään pitkin, joten alhaalta aloitettu tai peilikuvaksi kirjoitettu numero ei mene läpi. Aloittelevien kirjoittajien tyypilliset lipsahdukset nimetään sormen oman reitin perusteella – aloitit toisesta päästä, peilikuva, väärään suuntaan, jäi kesken – ja kolmen yrityksen jälkeen haalea viiva palaa, sitten koko reitti. Pieni kulkija näyttää viivat pyydettäessä, ja Pyyhi aloittaa ruudun alusta. Asetuksista täysi tuki jää jokaiseen ruutuun ryhmälle, joka sitä tarvitsee, tai poistuu ryhmältä, joka kirjoittaa jo itse; paperissa voi olla kolme viivaa tai yksi.",
+        "Harjoitus noudattaa OPS 2014:ää: numeroiden 0–9 kirjoittaminen oikeaan suuntaan ja oikeassa viivajärjestyksessä. Ei ajastinta, ei pisteitä – rauhallista ja leikkisää harjoittelua."
+      ],
+      "practices": [
+        "Muodostaa jokainen numero 0–9 oikeasta aloituspisteestä, oikeassa viivajärjestyksessä ja oikeaan suuntaan.",
+        "Edetä täyden tuen jäljentämisestä numeron kirjoittamiseen itse, samalla rivillä.",
+        "Huomata ja korjata väärinpäin, peilikuvana tai kesken jäänyt numero.",
+        "Rakentaa hienomotoriikka ja kynänkuljetus, joita siisti käsiala tarvitsee."
+      ],
+      "howToPlay": [
+        "Laita sormi ensimmäisen ruudun vihreälle pisteelle ja seuraa reittiä. Muste ilmestyy sinne, missä sormesi kulkee.",
+        "Tee sama toisessa ruudussa, jossa reitti on vain haalea viiva, ja sitten kolmannessa ruudussa aivan itse. Etkö ole varma? Napauta Näytä nähdäksesi viivat tai Pyyhi aloittaaksesi ruudun alusta.",
+        "Kun kolmas ruutu on valmis, kierros tarkistaa itsensä ja luku sanotaan ääneen – ajastinta ja pisteitä ei ole."
+      ],
+      "learningGoals": [
+        "Kirjoittaa jokainen numero 0–9 oikein ja tasaisin viivoin.",
+        "Kirjoittaa numero ilman tukea sen jäljentämisen jälkeen.",
+        "Rakentaa käsialan perusta, jotta lukumäärät ja vastaukset voi myöhemmin kirjoittaa muistiin."
+      ]
     }
   }
 }

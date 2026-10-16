@@ -1550,6 +1550,29 @@
         "Forstå at tellingen kan begynne hvor som helst, ikke bare på én.",
         "Bygge den telle-videre-sikkerheten som addisjon og det videre arbeidet med tall hviler på."
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Én skrivelinje, tre ruter. Den første ruta viser hele veien til tallet med en grønn startprikk, den andre bare en svak linje, den tredje er tom. Barnet skriver tallet med fingeren i rute etter rute – fra 0 til 9, ett tall per runde – og blekket kommer bare fram der fingeren faktisk har fulgt streken, fra begynnelsen. Når den tredje ruta er ferdig, står de tre tallene barnet skrev igjen på linja, og tallet blir sagt høyt. Det er en interaktiv skriveøvelse for 1. trinn som kjører rett i nettleseren, på nettbrett, mobil og datamaskin, uten installasjon og uten konto.",
+        "Kjernen er skrivebokas metode – forbilde, spor, skriv selv – der hjelpen avtar innenfor én og samme linje, slik at det siste tallet er barnets eget. Strekrekkefølge og skriveretning er bygd inn: en strek teller bare når den trekkes fra startpunktet sitt langs veien sin, så et tall som begynnes nedenfra eller skrives speilvendt, går ikke gjennom. Feilene nye skrivere gjør, får navn ut fra fingerens egen vei – begynte i den andre enden, speilvendt, feil vei rundt, stoppet for tidlig – og etter tre forsøk kommer den svake linja tilbake, deretter hele veien. En liten vandrer viser strekene når man ber om det, og Visk ut starter en rute på nytt. Innstillingene beholder full hjelp i hver rute for en klasse som trenger det, eller fjerner den for en klasse som allerede skriver selv; papiret kan vise tre linjer eller én.",
+        "Øvelsen følger LK20: skrive tallene 0–9 med riktig skriveretning og strekrekkefølge. Uten tidtaker og uten poeng – rolig og leken trening."
+      ],
+      "practices": [
+        "Forme hvert tall fra 0 til 9 fra riktig startpunkt, i riktig strekrekkefølge og skriveretning.",
+        "Gå fra å spore med full hjelp til å skrive tallet selv, på samme linje.",
+        "Oppdage og rette et omvendt, speilvendt eller uferdig tall.",
+        "Bygge den finmotorikken og blyantføringen som en tydelig håndskrift trenger."
+      ],
+      "howToPlay": [
+        "Sett fingeren på den grønne prikken i den første ruta og følg veien. Blekket kommer fram der fingeren din går.",
+        "Gjør det samme i den andre ruta, der veien bare er en svak linje, og så i den tredje ruta helt selv. Usikker? Trykk på Vis meg for å se strekene, eller på Visk ut for å starte en rute på nytt.",
+        "Når den tredje ruta er ferdig, sjekker runden seg selv og tallet blir sagt – det er ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Skrive hvert tall fra 0 til 9 med riktige, jevne streker.",
+        "Skrive et tall uten hjelp etter å ha sporet det.",
+        "Legge grunnlaget for håndskriften, slik at antall og svar kan skrives ned senere."
+      ]
     }
   }
 }

@@ -112,7 +112,7 @@ function serve() {
     let verdict = 'none';
     const celebrated = () => verdict === 'celebrate';
     const triedAgain = () => verdict === 'tryagain';
-    const hintText = () => page.evaluate(() => { const h = document.querySelector('.lcs-activity-prompt-hint'); return h ? h.textContent.trim() : ''; });
+    const hintText = () => page.evaluate(() => { const h = document.querySelector('.lcs-activity-bubble.tryagain') || document.querySelector('.lcs-activity-prompt-hint'); return h ? h.textContent.trim() : ''; });  // the shell shows the hint in the bubble (lcs-shell showBubble), not the old prompt-hint span
     const correctMarked = () => page.evaluate(() => {
       const r = window.RustyYesterdayActivity.round, o = window.IrregularPastCore.oracle(r);
       const b = document.querySelector('.ryd-opt[data-id="' + o + '"]');

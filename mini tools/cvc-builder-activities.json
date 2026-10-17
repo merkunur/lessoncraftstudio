@@ -430,7 +430,7 @@
           "distractors": [
             "a",
             "o",
-            "y"
+            "i"
           ]
         },
         {
@@ -444,13 +444,13 @@
           ]
         },
         {
-          "noun": "cone",
-          "themeDir": "shapes",
-          "targetWord": "cone",
+          "noun": "wave",
+          "themeDir": "beach",
+          "targetWord": "wave",
           "distractors": [
             "a",
             "o",
-            "y"
+            "i"
           ]
         },
         {
@@ -470,13 +470,13 @@
           "distractors": [
             "a",
             "o",
-            "y"
+            "i"
           ]
         },
         {
-          "noun": "vase",
+          "noun": "rake",
           "themeDir": "around the house",
-          "targetWord": "vase",
+          "targetWord": "rake",
           "distractors": [
             "a",
             "o",

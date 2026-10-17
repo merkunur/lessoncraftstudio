@@ -182,7 +182,7 @@ function serve() {
         note(hay.indexOf(probe) === -1, `sv/${rid}: the ENGLISH '${key}' reached the child — found "${probe}"`);
       }
       /* fragments only the LANG ternaries can produce (not in the strings table) */
-      for (const frag of ['the frog', 'juice reaches', 'has more', ' cups']) {
+      for (const frag of ['the frog', 'juice reaches', 'has more', ' deciliters']) {
         note(hay.indexOf(frag) === -1, `sv/${rid}: an English code fragment reached the child — "${frag}"`);
       }
     }

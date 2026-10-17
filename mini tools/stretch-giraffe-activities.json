@@ -227,9 +227,9 @@
                 "vowel": "short"
               },
               {
-                "noun": "deer",
-                "themeDir": "forest creatures",
-                "word": "Reh",
+                "noun": "bee",
+                "themeDir": "farm animals",
+                "word": "Biene",
                 "vowel": "long"
               },
               {
@@ -431,8 +431,8 @@
             "choices": [ { "noun": "cap", "themeDir": "accessories", "word": "pet", "vowel": "short" }, { "noun": "moon", "themeDir": "camping", "word": "maan", "vowel": "long" }, { "noun": "boat", "themeDir": "vehicles", "word": "boot", "vowel": "long" } ] },
           { "id": "vgl-nl-maan", "band": 3, "ask": "long",
             "choices": [ { "noun": "ball", "themeDir": "toys", "word": "bal", "vowel": "short" }, { "noun": "moon", "themeDir": "camping", "word": "maan", "vowel": "long" }, { "noun": "cat", "themeDir": "animals", "word": "kat", "vowel": "short" } ] },
-          { "id": "vgl-nl-bok", "band": 3, "ask": "short",
-            "choices": [ { "noun": "rose", "themeDir": "flowers", "word": "roos", "vowel": "long" }, { "noun": "eye", "themeDir": "body parts", "word": "oog", "vowel": "long" }, { "noun": "goat", "themeDir": "farm animals", "word": "bok", "vowel": "short" } ] },
+          { "id": "vgl-nl-kip", "band": 3, "ask": "short",
+            "choices": [ { "noun": "rose", "themeDir": "flowers", "word": "roos", "vowel": "long" }, { "noun": "eye", "themeDir": "body parts", "word": "oog", "vowel": "long" }, { "noun": "chicken", "themeDir": "farm animals", "word": "kip", "vowel": "short" } ] },
           { "id": "vgl-nl-teen", "band": 3, "ask": "long",
             "choices": [ { "noun": "toe", "themeDir": "body parts", "word": "teen", "vowel": "long" }, { "noun": "bed", "themeDir": "around the house", "word": "bed", "vowel": "short" }, { "noun": "pen", "themeDir": "around the house", "word": "pen", "vowel": "short" } ] }
         ]

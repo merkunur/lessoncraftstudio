@@ -157,7 +157,7 @@
     setupTask: function (round) {
       this.round = round;
       this.target = round.target;
-      this.cands = shuffleSeeded(Core.candidates(round), round.seed || 1);
+      this.cands = shuffleSeeded(Core.candidates(round), (Math.random() * 4294967296) | 0);   /* fresh positions every pass (a per-round seed showed the same screen each time) */
       this.picked = null; this.readOnly = false; this._heartsSpawned = false;
     },
 

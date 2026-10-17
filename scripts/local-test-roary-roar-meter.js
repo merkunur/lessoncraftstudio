@@ -126,7 +126,7 @@ function serve() {
         return null;
       }, { timeout: 4000, polling: 20 }).then(h => h.jsonValue()).catch(() => 'none');
     }
-    const hintText = () => page.evaluate(() => { const h = document.querySelector('.lcs-activity-prompt-hint'); return h ? h.textContent.trim() : ''; });
+    const hintText = () => page.evaluate(() => { const h = document.querySelector('.lcs-activity-bubble.tryagain') || document.querySelector('.lcs-activity-prompt-hint'); return h ? h.textContent.trim() : ''; });  // the shell shows the hint in the bubble (lcs-shell showBubble), not the old prompt-hint span
     const askText = () => page.evaluate(() => { const a = document.querySelector('.rrm-ask'); return a ? a.textContent.trim() : ''; });
     const markedIds = (cls) => page.$$eval('.rrm-opt.' + cls, els => els.map(e => +e.getAttribute('data-id')));
     const orderNow = () => page.$$eval('.rrm-opt', els => els.map(e => e.textContent.trim()).join('|'));

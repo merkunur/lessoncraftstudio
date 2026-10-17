@@ -83,7 +83,7 @@ function serve() {
     await tap(await correctId()); await check();
     note(await celebrated(), 'the sensible estimate did not celebrate');
 
-    await force('train');
+    await force('car');
     await tap(await wrongId()); await check();
     note(await triedAgain(), 'a wrong estimate did not show try-again');
     note(!(await celebrated()), 'a wrong estimate celebrated (must not)');
@@ -93,7 +93,7 @@ function serve() {
     note(await celebrated(), 'the sensible estimate did not celebrate after the wrong attempt');
 
     const firsts = [];
-    for (const id of ['ant', 'door', 'train', 'bus', 'spoon']) { await force(id); firsts.push(await firstCardText()); }
+    for (const id of ['ant', 'door', 'car', 'bus', 'spoon']) { await force(id); firsts.push(await firstCardText()); }
     note(new Set(firsts).size >= 2, `the first card is identical across rounds (${firsts.join(' / ')}) — cards not shuffled`);
 
     await force('flagpole');
@@ -103,7 +103,7 @@ function serve() {
 
     for (const w of [280, 360, 412, 768]) {
       await page.setViewport({ width: w, height: 820 });
-      await force('building');
+      await force('giraffe');
       const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
       note(over <= 2, `overflow ${over}px at ${w}px`);
     }

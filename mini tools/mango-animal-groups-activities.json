@@ -536,7 +536,7 @@
                 "word": "rebaño"
               },
               {
-                "word": "manada"
+                "word": "cardumen"
               },
               {
                 "word": "bandada"
@@ -560,7 +560,7 @@
                 "word": "enjambre"
               },
               {
-                "word": "manada"
+                "word": "bandada"
               }
             ]
           },
@@ -777,17 +777,17 @@
             ]
           },
           {
-            "id": "mango.pt.lion",
+            "id": "mango.pt.ox",
             "band": 2,
             "subject": {
-              "noun": "lion",
-              "themeDir": "zoo animals"
+              "noun": "ox",
+              "themeDir": "farm animals"
             },
-            "plural": "leões",
-            "correct": "alcateia",
+            "plural": "bois",
+            "correct": "boiada",
             "choices": [
               {
-                "word": "alcateia"
+                "word": "boiada"
               },
               {
                 "word": "cardume"

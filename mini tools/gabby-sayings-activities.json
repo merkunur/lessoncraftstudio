@@ -152,21 +152,21 @@
           ]
         },
         {
-          "id": "couch",
+          "id": "hand",
           "band": 3,
-          "idiom": "a couch potato",
-          "sentence": "On rainy days, my brother is a couch potato.",
+          "idiom": "give someone a hand",
+          "sentence": "\"Can you give me a hand with these boxes?\" asked Grandpa.",
           "choices": [
             {
-              "text": "He is a potato sitting on the couch.",
+              "text": "Grandpa wants you to hold his hand.",
               "kind": "literal"
             },
             {
-              "text": "He is lazy and watches a lot of TV.",
+              "text": "Grandpa wants help with the boxes.",
               "kind": "correct"
             },
             {
-              "text": "He cooks potatoes all day long.",
+              "text": "Grandpa wants you to count the boxes.",
               "kind": "off"
             }
           ]
@@ -221,7 +221,7 @@
             "sentence": "Ich habe die Nase voll vom Aufräumen!",
             "choices": [
               {
-                "text": "Die Nase ist voll Schnupfen.",
+                "text": "Die Nase ist ganz voll vom Schnupfen.",
                 "kind": "literal"
               },
               {
@@ -285,7 +285,7 @@
                 "kind": "literal"
               },
               {
-                "text": "Man hält sich die Ohren zu.",
+                "text": "Man hält sich beide Ohren ganz fest zu.",
                 "kind": "off"
               },
               {
@@ -407,7 +407,7 @@
                 "kind": "literal"
               },
               {
-                "text": "Elle est trop fatiguée pour manger.",
+                "text": "Elle est bien trop fatiguée pour avoir envie de manger.",
                 "kind": "off"
               },
               {
@@ -491,7 +491,7 @@
                 "kind": "literal"
               },
               {
-                "text": "Il est trop maladroit et casse tout.",
+                "text": "Il est trop maladroit et casse tout ce qu’il touche.",
                 "kind": "off"
               }
             ]
@@ -949,7 +949,7 @@
             "sentence": "Quando è arrivato il momento di riordinare, Leo ha tagliato la corda.",
             "choices": [
               {
-                "text": "Camminare piano in punta di piedi",
+                "text": "Camminare piano piano in punta di piedi",
                 "kind": "off"
               },
               {
@@ -1017,7 +1017,7 @@
           { "id": "kaas", "band": 2, "idiom": "ergens geen kaas van gegeten hebben", "sentence": "Vraag mij niets over auto's, daar heb ik geen kaas van gegeten.",
             "choices": [ { "text": "Nog nooit kaas van iets gegeten hebben.", "kind": "literal" }, { "text": "Heel veel honger hebben.", "kind": "off" }, { "text": "Er niets van weten of snappen.", "kind": "correct" } ] },
           { "id": "handdoek", "band": 3, "idiom": "de handdoek in de ring gooien", "sentence": "De puzzel was moeilijk, maar Sam gooide de handdoek niet in de ring.",
-            "choices": [ { "text": "Ergens mee stoppen omdat het te moeilijk is.", "kind": "correct" }, { "text": "Een handdoek in een boksring gooien.", "kind": "literal" }, { "text": "Snel de was ophangen.", "kind": "off" } ] },
+            "choices": [ { "text": "Ergens mee stoppen omdat het te moeilijk is.", "kind": "correct" }, { "text": "Een handdoek in een boksring gooien.", "kind": "literal" }, { "text": "Snel de natte was buiten aan de lijn ophangen.", "kind": "off" } ] },
           { "id": "knie", "band": 3, "idiom": "iets onder de knie hebben", "sentence": "Na veel oefenen heeft Noor het fietsen goed onder de knie.",
             "choices": [ { "text": "Iets echt onder je knie vasthouden.", "kind": "literal" }, { "text": "Iets goed kunnen na veel oefenen.", "kind": "correct" }, { "text": "Pijn aan je knie hebben.", "kind": "off" } ] }
         ]

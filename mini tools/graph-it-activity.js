@@ -27,12 +27,12 @@
 
   /* category display defs — distinguished by SHAPE + LABEL, never hue alone. */
   var CAT = {
-    leaf: { label: 'Leaves', color: '#4E9A5E', shape: 'leaf' },
-    berry: { label: 'Berries', color: '#A03055', shape: 'circle' },
-    acorn: { label: 'Acorns', color: '#9B7340', shape: 'acorn' },
-    pinecone: { label: 'Pinecones', color: '#6B4F2A', shape: 'triangle' },
-    mushroom: { label: 'Mushrooms', color: '#D35400', shape: 'dome' },
-    flower: { label: 'Flowers', color: '#C2569B', shape: 'star' }
+    leaf: { label: 'Leaves', color: '#4E9A5E', shape: 'leaf', img: 'spring/leaf' },
+    berry: { label: 'Berries', color: '#A03055', shape: 'circle', img: 'fruits/raspberry' },
+    acorn: { label: 'Acorns', color: '#9B7340', shape: 'acorn', img: 'miscellaneous/acorn' },
+    pinecone: { label: 'Pinecones', color: '#6B4F2A', shape: 'triangle', img: 'winter/pinecone' },
+    mushroom: { label: 'Mushrooms', color: '#D35400', shape: 'dome', img: 'vegetables/mushroom' },
+    flower: { label: 'Flowers', color: '#C2569B', shape: 'star', img: 'spring/flower' }
   };
   function cdef(k) { return CAT[k] || { label: k, color: '#146B5E', shape: 'circle' }; }
 
@@ -243,12 +243,20 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   /* ---- graph geometry ---- */
-  var GW = 280, GH = 116, GH_LAB = 170, BY = 96, BY_LAB = 124, BW = 30;
+  var GW = 280, GH = 124, GH_LAB = 178, BY = 96, BY_LAB = 124, BW = 30;   /* +8 under the axis: the category picture is 24 (an 18 drawing rendered at ~11px on a phone) */
   /* the axis tops out at the smallest of 6/8/10 that holds the round — never at the
      round's own max, so the top gridline stays a round number a child can read */
   function axisTopFor(m) { return m <= 6 ? 6 : (m <= 8 ? 8 : 10); }
   function roundMax(map, cats) { var m = 0; (cats || Object.keys(map || {})).forEach(function (k) { var v = (map && map[k]) || 0; if (v > m) m = v; }); return m; }
 
+  /* the category picture: a library drawing that shows what the word says (a brown triangle
+     was labelled "pinecone", a dot "berry"). inSvg → an <image> for the chart's own <svg>. */
+  function catImgUrl(d) { var p = d.img.split('/'); return '/image-library-webp/themes/' + encodeURIComponent(p[0]) + '/' + p[1] + '@2x.webp'; }
+  function catIcon(d, s, inSvg) {
+    if (!d.img) return shapeIcon(d.shape, d.color, s);
+    if (inSvg) return '<image href="' + catImgUrl(d) + '" width="' + s + '" height="' + s + '" preserveAspectRatio="xMidYMid meet"/>';
+    return '<img class="gi-cat-img" src="' + catImgUrl(d) + '" width="' + s + '" height="' + s + '" alt="" aria-hidden="true" style="object-fit:contain;vertical-align:middle">';
+  }
   function shapeIcon(shape, color, s) {
     var h = 'width="' + s + '" height="' + s + '" viewBox="0 0 24 24" aria-hidden="true"';
     switch (shape) {
@@ -312,7 +320,7 @@
       }
       if (hl) s += '<rect x="' + (x - 3) + '" y="' + (BYv - c * U - 3) + '" width="' + (BW + 6) + '" height="' + (c * U + 6) + '" rx="4" fill="none" stroke="#F2784B" stroke-width="2.5"/>';
       /* category shape marker under the axis */
-      s += '<g transform="translate(' + (cx - 9) + ',' + (BYv + 3) + ')">' + shapeIcon(d.shape, d.color, 18) + '</g>';
+      s += '<g transform="translate(' + (cx - 12) + ',' + (BYv + 2) + ')">' + catIcon(d, 24, true) + '</g>';
       /* the category NAME, so the interpret rounds spell what the question asks for */
       if (opts.labels) {
         var lab = String(clabel(k)), words = lab.split(" ").filter(Boolean), lines = [lab];
@@ -329,7 +337,7 @@
         lines.forEach(function (ln) { if (ln.length > longest) longest = ln.length; });
         var fsz = Math.max(6.6, Math.min(9.5, (slot - 4) * 1.92 / Math.max(1, longest)));
         lines.forEach(function (ln, li) {
-          s += '<text x="' + cx + '" y="' + (BYv + 27 + li * (fsz + 1.2)) + '" font-size="' + fsz.toFixed(2) + '" fill="#14322D" text-anchor="middle">' + esc(ln) + '</text>';
+          s += '<text x="' + cx + '" y="' + (BYv + 34 + li * (fsz + 1.2)) + '" font-size="' + fsz.toFixed(2) + '" fill="#14322D" text-anchor="middle">' + esc(ln) + '</text>';
         });
       }
       /* tappable invisible column (build) */
@@ -543,9 +551,9 @@
         var d = cdef(k), row = el('div', 'gi-trow');
         var goal = round.data[k] || 0;
         var marks = round.source === 'icons'
-          ? '<span class="gi-tmarks">' + Array.apply(null, { length: goal }).map(function () { return shapeIcon(d.shape, d.color, 12); }).join('') + '</span>'
+          ? '<span class="gi-tmarks">' + Array.apply(null, { length: goal }).map(function () { return catIcon(d, 16); }).join('') + '</span>'
           : '<span class="gi-tmarks">' + tallyMarks(goal) + '</span>';
-        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + clabel(k) + '</span>' + marks;
+        row.innerHTML = catIcon(d, 16) + '<span>' + clabel(k) + '</span>' + marks;
         tally.appendChild(row);
       });
       root.appendChild(tally);
@@ -657,7 +665,7 @@
       var tally = el('div', 'gi-tally');
       cats.forEach(function (k) {
         var d = cdef(k), row = el('div', 'gi-trow');
-        row.innerHTML = shapeIcon(d.shape, d.color, 16) + '<span>' + clabel(k) + '</span><span class="gi-tmarks">' + tallyMarks(round.data[k] || 0) + '</span>';
+        row.innerHTML = catIcon(d, 16) + '<span>' + clabel(k) + '</span><span class="gi-tmarks">' + tallyMarks(round.data[k] || 0) + '</span>';
         tally.appendChild(row);
       });
       root.appendChild(tally);

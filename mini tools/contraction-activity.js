@@ -22,6 +22,7 @@
   var L = {
     en: {
       q: 'Put the words together — which contraction is right?',
+      qOne: 'Make the word shorter — which contraction is right?',
       win: 'Yes! {note}', winNote: 'The apostrophe stands right where the missing letters were!',
       hear: '🔊 Hear it',
       nudge: 'The apostrophe stands EXACTLY where the missing letters were — look for that spot!'
@@ -174,7 +175,7 @@
 
     _makeTask: function (round) {
       return {
-        id: round.id, promptKey: 'q', promptArgs: { q: txt('q') }, answerType: 'state', round: round,
+        id: round.id, promptKey: 'q', promptArgs: { q: (LANG === 'en' && !round.word2) ? txt('qOne') : txt('q') }, answerType: 'state', round: round,
         setup: function (tool) { tool._beginRound(round); },
         check: function (tool) { return tool._resolved === true; }
       };
@@ -201,7 +202,7 @@
         var w1 = el('span'); w1.textContent = round.word1;
         var plus = el('span', 'ct-plus'); plus.textContent = '+';
         var w2 = el('span'); w2.textContent = round.word2;
-        words.append(w1, plus, w2);
+        if (round.word2) words.append(w1, plus, w2); else words.append(w1);   /* one-word source (cannot → can't) */
         if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (FUSION_LANGS[LANG] ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
       }
       root.appendChild(words);
@@ -221,7 +222,7 @@
           : LANG === 'pt' ? (round.word1 + ' ' + round.word2 + ' vira ' + round.fusion + '.')
           : LANG === 'it' ? (round.word1 + ' ' + round.word2 + ' diventa ' + round.fusion + '.')
           : LANG === 'nl' ? (round.speak || round.fusion)
-          : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
+          : ((round.word2 ? round.word1 + ' ' + round.word2 : round.word1) + ' makes a contraction.'));
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -292,7 +293,7 @@
         return wrap;
       }
       var chips = Core.chipStrings(round).map(function (s) { return s.split('').join(' '); }).join('; ');
-      wrap.innerHTML = '<p>' + round.word1 + ' plus ' + round.word2 + '. ' + txt('q') + ' Choices spelled out: ' + chips + '.</p>';
+      wrap.innerHTML = '<p>' + round.word1 + (round.word2 ? ' plus ' + round.word2 : '') + '. ' + txt('q') + ' Choices spelled out: ' + chips + '.</p>';
       return wrap;
     },
 

@@ -66,7 +66,8 @@ for (const row of manifest) {
     check(f.purposeValid, `${label}: invalid purpose`);
     check(f.derivedNotStored, `${label}: derived invariant`);
     check(oi === r.note.purpose && Core.isAnswer(r, oi), `${label}: oracle is not the note's purpose`);
-    check(f.matchesPurpose, `${label}: note PROSE does not match its purpose (seq=${Core.seqCount(r.note.text)}, "!"=${/!/.test(r.note.text)}) — "${r.note.text.slice(0, 40)}…"`);
+    // 2026-10-17: MATCHES_PURPOSE removed — it REQUIRED the cue rule ("!" = story, steps = how-to) that let a child
+    // sort every note without reading. Surface-cue bots are now gated per locale at the end of the file.
     check(f.wordCountOk, `${label}: note is ${f.wordCount} words (want 12-40)`);
 
     // the other two bins are rejected
@@ -80,11 +81,35 @@ for (const row of manifest) {
   check(df.distinctNotes >= VARIETY_MIN, `only ${df.distinctNotes} distinct notes (<${VARIETY_MIN})`);
 }
 
+// ---- SURFACE-CUE BOTS OVER EVERY LOCALE: the purpose must be READ, not spotted. Ceiling 0.45 (chance 1/3). ----
+{
+  const CEIL = 0.45;
+  const SEQ = /(?<![\p{L}])(first|next|then|last|finally|after that|zuerst|dann|danach|zuletzt|schließlich|d'abord|d’abord|ensuite|puis|enfin|primero|luego|después|por último|finalmente|primeiro|depois|em seguida|por fim|prima|poi|dopo|infine|alla fine|eerst|dan|daarna|als laatste|tot slot|först|sedan|därefter|sist|først|derefter|deretter|til sidst|til slutt|ensin|sitten|lopuksi)(?![\p{L}])/giu;
+  const row0 = manifest[0];
+  const sets = Object.assign({ en: row0.params.rounds }, row0.params.roundsL10n || {});
+  Object.keys(sets).forEach((loc) => {
+    const rs = sets[loc] || []; const n = rs.length || 1;
+    let rule = 0, bangHit = 0, bangN = 0, seqHit = 0, seqN = 0;
+    rs.forEach((r) => {
+      const t = String(r.note && r.note.text || ''); const p = r.note && r.note.purpose;
+      const bang = /!/.test(t); const seq = (t.match(SEQ) || []).length;
+      const guess = bang ? 'entertain' : seq >= 1 ? 'instruct' : 'inform';
+      if (guess === p) rule++;
+      if (bang) { bangN++; if (p === 'entertain') bangHit++; }
+      if (seq >= 1) { seqN++; if (p === 'instruct') seqHit++; }
+    });
+    check(rule / n <= CEIL + 1e-9, `${loc}: the cue rule ("!" = story, a sequence word = how-to, else facts) sorts ${rule}/${n} notes (> ${CEIL})`);
+    check(!bangN || bangHit / bangN <= 0.5 + 1e-9, `${loc}: "!" means story in ${bangHit}/${bangN} notes (> 1/2)`);
+    check(!seqN || seqHit / seqN <= 0.5 + 1e-9, `${loc}: a sequence word means how-to in ${seqHit}/${seqN} notes (> 1/2)`);
+    console.log(`  ${loc}: cue rule ${rule}/${n} · "!"→story ${bangHit}/${bangN} · sequence→how-to ${seqHit}/${seqN}`);
+  });
+}
+
 if (failures.length) {
   console.error(`FAIL — ${failures.length} author-purpose violation(s) across ${roundCount} note(s):`);
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
 const df0 = Core.deckFacts(manifest[0].params.rounds);
-console.log(`PASS — ${roundCount} note(s), purposes [${df0.distinctPurposes.join('/')}] (${JSON.stringify(df0.perPurposeCounts)}): oracle 100% (matching bin accepted, others rejected); derived-not-stored; MATCHES_PURPOSE structural gate (instruct=steps / entertain=playful "!" / inform=facts); 12-40 words; balanced; ≥${VARIETY_MIN} distinct notes. [clarity-first redesign of #72]`);
+console.log(`PASS — ${roundCount} note(s), purposes [${df0.distinctPurposes.join('/')}] (${JSON.stringify(df0.perPurposeCounts)}): oracle 100% (matching bin accepted, others rejected); derived-not-stored; surface cues ("!", sequence words) do not sort the notes in any locale (cue rule <= 0.45); 12-40 words; balanced; ≥${VARIETY_MIN} distinct notes. [clarity-first redesign of #72]`);
 process.exit(0);

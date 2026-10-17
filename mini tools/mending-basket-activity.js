@@ -253,6 +253,11 @@
       [0, 1].forEach(function (idx) {
         var pic = api.el('button', 'mb-twin'); pic.type = 'button'; pic.setAttribute('data-i', idx);
         var label = idx === 0 ? mp.a : mp.b;
+        var real = mp.pics && mp.pics[idx];   /* real library picture: the detail the sentence names must be SEEN, not only labelled */
+        if (real) {
+          pic.classList.add('mb-twin-real');
+          pic.innerHTML = sceneStub(r.picture && r.picture.family, self.readOnly && idx === r.answer).replace(/<span class="mb-scene-motif">[^<]*<\/span>/, '<img class="mb-twin-img" alt="' + esc(label) + '" src="/image-library-webp/themes/' + real.themeDir + '/' + real.noun + '@2x.webp">') + '<span class="mb-twin-lab">' + esc(label) + '</span>';
+        } else
         pic.innerHTML = sceneStub(r.picture && r.picture.family, self.readOnly && idx === r.answer) + '<span class="mb-twin-lab">' + esc(label) + '</span>';
         if (self.readOnly) { pic.disabled = true; if (idx === r.answer) pic.classList.add('mb-twin-win'); }
         else pic.addEventListener('click', function () { if (self.selected !== 'page') { if (self.api.announce) self.api.announce(self.api.t('pickFirst')); return; } self._attempt(idx, pic); });
@@ -426,6 +431,7 @@
         + '@media (min-width:600px){.mb-twins{flex-direction:row;}.mb-twin{max-width:220px;}}'   /* side-by-side on desktop halves the height */
         + '.mb-twin{position:relative;width:100%;max-width:260px;border:2px solid rgba(20,107,94,.2);border-radius:10px;background:transparent;padding:0;cursor:pointer;overflow:hidden;touch-action:manipulation;}'
         + '.mb-twin .mb-scene{max-width:none;height:clamp(48px,13vw,62px);}'
+        + '.mb-twin-real .mb-scene{height:clamp(84px,22vw,110px);}.mb-twin-img{height:92%;width:auto;max-width:90%;object-fit:contain;}'
         + '.mb-twin-lab{position:absolute;left:6px;bottom:4px;background:rgba(255,255,255,.85);border-radius:6px;padding:1px 7px;font:700 12px/1.2 "Baloo 2",sans-serif;color:' + C.T + ';}'
         + '.mb-twin-win{border-color:' + C.GOOD + ';box-shadow:0 0 0 3px rgba(47,165,106,.3);}'
         /* sequence */
@@ -442,7 +448,7 @@
         + '.mb-bins{display:flex;gap:clamp(10px,3vw,18px);justify-content:center;}'
         + '.mb-bin{display:flex;flex-direction:column;align-items:center;font-size:clamp(22px,6vw,30px);background:#FCF6EA;border:2px solid rgba(20,107,94,.25);border-radius:12px;padding:4px clamp(12px,4vw,20px);cursor:pointer;touch-action:manipulation;min-height:44px;}'
         + '.mb-bin-lab{font:700 clamp(12px,3.2vw,15px)/1 "Baloo 2",sans-serif;color:' + C.T + ';margin-top:2px;}'
-        + '@media (max-width:360px){.mb-room{padding:5px;gap:3px;}.mb-leaf{padding:7px 6px;gap:4px;}.mb-scene{height:44px;}.mb-caption{line-height:1.28;}.mb-piece{min-height:44px;padding:0 9px;}.mb-tray{gap:6px;}.mb-twin .mb-scene{height:40px;}.mb-twins{gap:5px;}.mb-page{min-height:42px;font-size:24px;}}'
+        + '@media (max-width:360px){.mb-room{padding:5px;gap:3px;}.mb-leaf{padding:7px 6px;gap:4px;}.mb-scene{height:44px;}.mb-caption{line-height:1.28;}.mb-piece{min-height:44px;padding:0 9px;}.mb-tray{gap:6px;}.mb-twin .mb-scene{height:40px;}.mb-twin-real .mb-scene{height:72px;}.mb-twins{gap:5px;}.mb-page{min-height:42px;font-size:24px;}}'
         + '@media (prefers-reduced-motion: reduce){.mb-scene,.mb-leaf,.mb-tear,.mb-scene-motif,.mb-lantern{animation:none!important;transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-mending-basket', ''); tag.textContent = css;
       document.head.appendChild(tag);

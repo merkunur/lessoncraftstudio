@@ -43,8 +43,22 @@
 
   /* 3 choices ascending (deterministic) — value-based grading, so display
      order may be reshuffled by the skin without affecting correctness. */
+  /* RANK-BALANCED distractors (2026-10-17): with ±1 foils the answer was ALWAYS the
+     middle number (10/10) — "pick the middle one" won without dividing. The round
+     may name where the answer sits among the three ('lo' | 'mid' | 'hi'); the foils
+     are then real errors on the needed side: the divisor (share-size ↔ group-count
+     confusion) first, then a miscount of one or two. Still derived, never stored. */
+  function rankedDistractors(answer, divisor, rank) {
+    var up = [], down = [];
+    [divisor, answer + 1, answer + 2, answer + 3].forEach(function (v) { if (v > answer && up.indexOf(v) < 0) up.push(v); });
+    [divisor, answer - 1, answer - 2].forEach(function (v) { if (v >= 1 && v < answer && down.indexOf(v) < 0) down.push(v); });
+    if (rank === 'lo' && up.length >= 2) return [up[0], up[1]];
+    if (rank === 'hi' && down.length >= 2) return [down[0], down[1]];
+    if (up.length && down.length) return [down[0], up[0]];
+    return distractors(answer, divisor);
+  }
   function choices(round) {
-    var a = answerValue(round), d = distractors(a, round.divisor);
+    var a = answerValue(round), d = round.foilRank ? rankedDistractors(a, round.divisor, round.foilRank) : distractors(a, round.divisor);
     return [a, d[0], d[1]].sort(function (x, y) { return x - y; });
   }
 

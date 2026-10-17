@@ -329,7 +329,7 @@
     "id": "balloon-blow",
     "noun": "balloon",
     "form": "sg",
-    "text": "{name} blows air into the red {gap}.",
+    "text": "{name} blows air into the {gap}.",
     "fits": [
      "balloon",
      "ball"
@@ -927,7 +927,7 @@
     "nouns": [
      "lion",
      "zebra",
-     "cheetah"
+     "giraffe"
     ],
     "forms": [
      "sg",
@@ -937,7 +937,7 @@
     "text": [
      "The {gap} roars and shakes its mane.",
      "The striped {gap} runs across the grass.",
-     "The spotted {gap} runs very, very fast."
+     "The tall {gap} eats leaves from the treetops."
     ],
     "fits": [
      [
@@ -948,9 +948,7 @@
       "tiger"
      ],
      [
-      "cheetah",
-      "leopard",
-      "jaguar"
+      "giraffe"
      ]
     ],
     "pics": [
@@ -964,7 +962,7 @@
      },
      {
       "theme": "zoo animals",
-      "noun": "cheetah"
+      "noun": "giraffe"
      }
     ],
     "picOpened": true,
@@ -6507,7 +6505,7 @@
     "id": "savanna",
     "nouns": [
      "elephant",
-     "cheetah",
+     "giraffe",
      "zebra"
     ],
     "forms": [
@@ -6517,7 +6515,7 @@
     ],
     "text": [
      "L'{gap} beve con la proboscide.",
-     "Il {gap} corre più veloce di tutti.",
+     "La {gap} ha il collo lunghissimo.",
      "La {gap} sembra un cavallo a strisce."
     ],
     "fits": [
@@ -6525,7 +6523,7 @@
       "elephant"
      ],
      [
-      "cheetah"
+      "giraffe"
      ],
      [
       "zebra"
@@ -6538,7 +6536,7 @@
      },
      {
       "theme": "zoo animals",
-      "noun": "cheetah"
+      "noun": "giraffe"
      },
      {
       "theme": "zoo animals",
@@ -10557,7 +10555,7 @@
    {
     "id": "pa-savannen",
     "nouns": [
-     "cheetah",
+     "giraffe",
      "hippopotamus",
      "zebra"
     ],
@@ -10567,13 +10565,13 @@
      "sg"
     ],
     "text": [
-     "En {gap} springer snabbast av alla djur.",
+     "En {gap} har en jättelång hals.",
      "I floden badar en tjock {gap}.",
      "En {gap} med ränder dricker vid vattnet."
     ],
     "fits": [
      [
-      "cheetah"
+      "giraffe"
      ],
      [
       "hippopotamus"
@@ -10586,7 +10584,7 @@
     "pics": [
      {
       "theme": "zoo animals",
-      "noun": "cheetah"
+      "noun": "giraffe"
      },
      {
       "theme": "zoo animals",

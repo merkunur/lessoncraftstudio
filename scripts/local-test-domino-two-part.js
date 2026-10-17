@@ -52,6 +52,7 @@ function serve() {
     await page.evaluate((rid) => {
       const t = window.DominoTwoPartActivity, n = t._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
       const k = t._pool.findIndex(x => x.id === 'domino-two-part.' + rid);
+      if (k < 0) throw new Error('no round ' + rid);
       const at = order.indexOf(k); if (at > 0) { order.splice(at, 1); order.unshift(k); }
       t._order = order; t._orderForPool = t._pool; t._curPass = 0; window.LCS_reloadFirstTask();
     }, id);
@@ -98,17 +99,17 @@ function serve() {
     note(await celebrated(), 'the matching picture did not celebrate after the wrong attempt');
 
     const firsts = [];
-    for (const id of ['rabbit', 'basket', 'pencil', 'tiger', 'carrot']) { await force(id); firsts.push(await firstCardImg()); }
+    for (const id of ['rabbit', 'basket', 'pencil', 'panda', 'carrot']) { await force(id); firsts.push(await firstCardImg()); }
     note(new Set(firsts).size >= 2, `the first card is identical across rounds — cards not shuffled`);
 
-    await force('lemon');
+    await force('pretzel');
     const cw = await correctId();
     await tap(cw); note(await page.evaluate(() => window.DominoTwoPartActivity.sel != null), 'first tap did not select');
     await tap(cw); note(await page.evaluate(() => window.DominoTwoPartActivity.sel == null), 'second tap did not deselect');
 
     for (const w of [280, 360, 412, 768]) {
       await page.setViewport({ width: w, height: 820 });
-      await force('rocket');
+      await force('dolphin');
       const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
       note(over <= 2, `overflow ${over}px at ${w}px`);
     }

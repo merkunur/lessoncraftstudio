@@ -25,8 +25,8 @@
               "themeDir": "animals"
             },
             {
-              "noun": "ribbon",
-              "themeDir": "accessories"
+              "noun": "rocket",
+              "themeDir": "space"
             },
             {
               "noun": "robot",
@@ -81,25 +81,25 @@
           ]
         },
         {
-          "id": "tiger",
+          "id": "panda",
           "band": 2,
-          "word": "tiger",
+          "word": "panda",
           "syl": [
-            "ti",
-            "ger"
+            "pan",
+            "da"
           ],
           "choices": [
             {
-              "noun": "tiger",
+              "noun": "pancake",
+              "themeDir": "breakfast"
+            },
+            {
+              "noun": "panda",
               "themeDir": "animals"
             },
             {
-              "noun": "table",
-              "themeDir": "around the house"
-            },
-            {
-              "noun": "turtle",
-              "themeDir": "animals"
+              "noun": "pizza",
+              "themeDir": "At the Supermarket"
             }
           ]
         },
@@ -150,48 +150,48 @@
           ]
         },
         {
-          "id": "rocket",
+          "id": "dolphin",
           "band": 3,
-          "word": "rocket",
+          "word": "dolphin",
           "syl": [
-            "rock",
-            "et"
+            "dol",
+            "phin"
           ],
           "choices": [
             {
-              "noun": "rocket",
-              "themeDir": "space"
+              "noun": "donkey",
+              "themeDir": "farm animals"
             },
             {
-              "noun": "jacket",
-              "themeDir": "clothing"
+              "noun": "walrus",
+              "themeDir": "winter"
             },
             {
-              "noun": "ribbon",
-              "themeDir": "accessories"
+              "noun": "dolphin",
+              "themeDir": "ocean life"
             }
           ]
         },
         {
-          "id": "lemon",
+          "id": "pretzel",
           "band": 3,
-          "word": "lemon",
+          "word": "pretzel",
           "syl": [
-            "lem",
-            "on"
+            "pret",
+            "zel"
           ],
           "choices": [
             {
-              "noun": "tiger",
-              "themeDir": "animals"
+              "noun": "pretzel",
+              "themeDir": "bakery"
             },
             {
-              "noun": "lemon",
+              "noun": "popcorn",
               "themeDir": "At the Supermarket"
             },
             {
-              "noun": "robot",
-              "themeDir": "toys"
+              "noun": "pillow",
+              "themeDir": "around the house"
             }
           ]
         }
@@ -227,24 +227,24 @@
             ]
           },
           {
-            "id": "hase",
+            "id": "tiger",
             "band": 1,
-            "word": "rabbit",
-            "displayWord": "Hase",
+            "word": "tiger",
+            "displayWord": "Tiger",
             "displaySyl": [
-              "Ha",
-              "se"
+              "Ti",
+              "ger"
             ],
             "choices": [
               {
-                "noun": "rabbit",
+                "noun": "tiger",
                 "themeDir": "animals",
-                "de": "Hase"
+                "de": "Tiger"
               },
               {
-                "noun": "glove",
-                "themeDir": "accessories",
-                "de": "Handschuh"
+                "noun": "table",
+                "themeDir": "around the house",
+                "de": "Tisch"
               },
               {
                 "noun": "cat",

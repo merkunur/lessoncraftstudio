@@ -114,16 +114,16 @@
           "band": 3,
           "action": "reorder",
           "tokens": [
-            "fast",
             "runs",
-            "dog",
-            "The"
+            "The",
+            "fast",
+            "dog"
           ],
           "correctOrder": [
-            3,
-            2,
             1,
-            0
+            3,
+            0,
+            2
           ],
           "convention": "Words go in an order that makes sense.",
           "clean": [
@@ -282,16 +282,16 @@
             "band": 3,
             "action": "reorder",
             "tokens": [
-              "schnell",
               "rennt",
-              "Hund",
-              "Der"
+              "Der",
+              "schnell",
+              "Hund"
             ],
             "correctOrder": [
-              3,
-              2,
               1,
-              0
+              3,
+              0,
+              2
             ],
             "convention": "Im Satz steht das Verb an zweiter Stelle.",
             "clean": [
@@ -451,16 +451,16 @@
             "band": 3,
             "action": "reorder",
             "tokens": [
-              "vite",
               "court",
-              "chien",
-              "Le"
+              "Le",
+              "vite",
+              "chien"
             ],
             "correctOrder": [
-              3,
-              2,
               1,
-              0
+              3,
+              0,
+              2
             ],
             "convention": "Les mots suivent un ordre qui a du sens.",
             "clean": [
@@ -544,9 +544,9 @@
         "nl": [
           { "id": "cap-start",   "band": 1, "action": "capitalize",   "tokens": ["de","hond","is","groot","."], "targetIndex": 0, "replacement": "De", "convention": "Een zin begint met een hoofdletter.", "clean": ["De","hond","is","groot","."] },
           { "id": "mark-end",    "band": 1, "action": "insert-punct",  "tokens": ["De","zon","is","warm"], "gapIndex": 4, "replacement": ".", "distractors": [",","?"], "convention": "Een zin die iets vertelt, eindigt met een punt.", "clean": ["De","zon","is","warm","."] },
-          { "id": "swap-agree",  "band": 2, "action": "swap",          "tokens": ["Het","kind","rennen","snel","."], "targetIndex": 2, "replacement": "rent", "distractors": ["rennen","ren"], "convention": "Het werkwoord past bij het onderwerp: één kind rent.", "clean": ["Het","kind","rent","snel","."] },
+          { "id": "swap-agree",  "band": 2, "action": "swap",          "tokens": ["Het","kind","rennen","snel","."], "targetIndex": 2, "replacement": "rent", "distractors": ["renden","ren"], "convention": "Het werkwoord past bij het onderwerp: één kind rent.", "clean": ["Het","kind","rent","snel","."] },
           { "id": "fill-verb",   "band": 2, "action": "insert-word",   "tokens": ["De","kat","melk","."], "gapIndex": 2, "replacement": "drinkt", "distractors": ["groen","onder"], "convention": "In elke zin staat een werkwoord (een doe-woord).", "clean": ["De","kat","drinkt","melk","."] },
-          { "id": "order-svo",   "band": 3, "action": "reorder",       "tokens": ["snel","rent","hond","De"], "correctOrder": [3,2,1,0], "convention": "De woorden staan in de goede volgorde.", "clean": ["De","hond","rent","snel"] },
+          { "id": "order-svo",   "band": 3, "action": "reorder",       "tokens": ["rent","De","snel","hond"], "correctOrder": [1,3,0,2], "convention": "De woorden staan in de goede volgorde.", "clean": ["De","hond","rent","snel"] },
           { "id": "del-double",  "band": 3, "action": "delete",        "tokens": ["Mijn","moeder","zij","kookt","."], "targetIndex": 2, "convention": "Noem het onderwerp maar één keer.", "clean": ["Mijn","moeder","kookt","."] },
           { "id": "split-runon", "band": 3, "action": "split",         "tokens": ["Het","regent","ik","blijf","binnen"], "seamIndex": 1, "replacement": "Ik", "convention": "Tussen twee zinnen staat een punt.", "clean": ["Het","regent",".","Ik","blijf","binnen"] }
         ],

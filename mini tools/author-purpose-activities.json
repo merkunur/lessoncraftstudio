@@ -61,14 +61,14 @@
             "id": "ap-i2",
             "note": {
               "purpose": "inform",
-              "text": "Bienen sammeln süßen Nektar aus den Blüten. Aus dem Nektar machen sie später im Stock den Honig."
+              "text": "Vor langer Zeit lebten riesige Dinosaurier auf der Erde. Dann, vor Millionen von Jahren, starben sie aus."
             }
           },
           {
             "id": "ap-i3",
             "note": {
               "purpose": "inform",
-              "text": "Die Sonne ist ein riesiger, heißer Stern. Sie gibt uns jeden Tag Licht und Wärme."
+              "text": "Die Sonne ist ein riesiger, heißer Stern! Sie gibt uns jeden Tag Licht und Wärme."
             }
           },
           {
@@ -82,14 +82,14 @@
             "id": "ap-e2",
             "note": {
               "purpose": "entertain",
-              "text": "Der kleine Frosch wollte bis zum Mond hüpfen. Er sprang so hoch, dass er auf einer weichen Wolke landete!"
+              "text": "Zuerst will ein kleiner Frosch bis zum Mond hüpfen. Dann springt er so hoch, dass er auf einer weichen Wolke landet."
             }
           },
           {
             "id": "ap-e3",
             "note": {
               "purpose": "entertain",
-              "text": "Mira die Katze kletterte in den großen Wäschekorb. Als die Socken flogen, kullerte sie lachend wieder heraus!"
+              "text": "Mira die Katze kletterte in den großen Wäschekorb. Als die Socken flogen, kullerte sie lachend wieder heraus."
             }
           },
           {
@@ -103,14 +103,14 @@
             "id": "ap-s2",
             "note": {
               "purpose": "instruct",
-              "text": "So pflanzt du eine Bohne ein: Zuerst füllst du Erde in den Topf. Dann legst du die Bohne hinein. Zuletzt gießt du sie mit Wasser."
+              "text": "Füll Erde in einen Topf und leg eine Bohne hinein. Gieß sie jeden Tag mit etwas Wasser."
             }
           },
           {
             "id": "ap-s3",
             "note": {
               "purpose": "instruct",
-              "text": "So wäschst du deine Hände: Zuerst machst du sie mit Wasser nass. Dann reibst du sie mit Seife ein. Zuletzt spülst du alles wieder ab."
+              "text": "Mach deine Hände nass und reib sie gut mit Seife ein. Spül sie ab und trockne sie – schon sind sie sauber!"
             }
           }
         ],
@@ -126,14 +126,14 @@
             "id": "ap-i2",
             "note": {
               "purpose": "inform",
-              "text": "Les abeilles récoltent le nectar sucré au cœur des fleurs. De retour dans la ruche, elles le transforment lentement en miel doré."
+              "text": "Il y a très longtemps, d’énormes dinosaures vivaient sur la Terre. Puis, il y a des millions d’années, ils ont disparu."
             }
           },
           {
             "id": "ap-i3",
             "note": {
               "purpose": "inform",
-              "text": "Le soleil est une étoile immense et brûlante. Chaque jour, il donne de la lumière et de la chaleur à notre planète."
+              "text": "Le soleil est une étoile immense et brûlante ! Chaque jour, il donne de la lumière et de la chaleur à notre planète."
             }
           },
           {
@@ -147,14 +147,14 @@
             "id": "ap-e2",
             "note": {
               "purpose": "entertain",
-              "text": "La petite grenouille rêvait d’attraper la lune dans la mare. Elle a sauté toute la nuit, mais la lune lui a juste fait un clin d’œil !"
+              "text": "D’abord, la petite grenouille essaie d’attraper la lune dans la mare. Ensuite, elle saute toute la nuit, mais la lune lui fait juste un clin d’œil."
             }
           },
           {
             "id": "ap-e3",
             "note": {
               "purpose": "entertain",
-              "text": "Mira la chatte se prenait pour une grande lionne. Elle a rugi devant une plume et a bondi sur une vieille chaussette !"
+              "text": "Mira la chatte se prenait pour une grande lionne. Elle a rugi devant une plume et a bondi sur une vieille chaussette."
             }
           },
           {
@@ -168,14 +168,14 @@
             "id": "ap-s2",
             "note": {
               "purpose": "instruct",
-              "text": "Pour planter une graine : d’abord, remplis le pot de terre. Ensuite, dépose la graine au creux. Enfin, arrose-la avec un peu d’eau."
+              "text": "Remplis un pot de terre et dépose une graine au creux. Arrose-la avec un peu d’eau tous les jours."
             }
           },
           {
             "id": "ap-s3",
             "note": {
               "purpose": "instruct",
-              "text": "Pour laver tes mains : d’abord, mouille-les bien sous l’eau. Ensuite, frotte-les avec du savon. Enfin, rince tout et essuie-les."
+              "text": "Mouille tes mains et frotte-les bien avec du savon. Rince-les, essuie-les, et voilà des mains toutes propres !"
             }
           }
         ],
@@ -191,14 +191,14 @@
             "id": "ap-i2",
             "note": {
               "purpose": "inform",
-              "text": "Las abejas juntan el néctar dulce de las flores. En el panal lo convierten poco a poco en miel dorada."
+              "text": "Hace muchísimo tiempo, enormes dinosaurios vivían en la Tierra. Luego, hace millones de años, desaparecieron."
             }
           },
           {
             "id": "ap-i3",
             "note": {
               "purpose": "inform",
-              "text": "El sol es una estrella enorme que arde sin parar. Todos los días le da luz y calor a nuestro planeta."
+              "text": "¡El sol es una estrella enorme que arde sin parar! Todos los días le da luz y calor a nuestro planeta."
             }
           },
           {
@@ -212,14 +212,14 @@
             "id": "ap-e2",
             "note": {
               "purpose": "entertain",
-              "text": "Una ranita quería atrapar la luna en el charco del patio. Saltó toda la noche, ¡pero la luna solo le guiñó un ojo!"
+              "text": "Primero, una ranita quiere atrapar la luna en el charco del patio. Después salta toda la noche, pero la luna solo le guiña un ojo."
             }
           },
           {
             "id": "ap-e3",
             "note": {
               "purpose": "entertain",
-              "text": "Michi el gato se creía un león enorme de la selva. ¡Rugió frente a una pluma y los calcetines salieron corriendo solos!"
+              "text": "Michi el gato se creía un león enorme de la selva. Rugió frente a una pluma, y los calcetines salieron corriendo solos."
             }
           },
           {
@@ -233,14 +233,14 @@
             "id": "ap-s2",
             "note": {
               "purpose": "instruct",
-              "text": "Para sembrar un frijol: primero, llena la maceta con tierra. Después, pon el frijol y cúbrelo con más tierra. Al final, riégalo con un poquito de agua."
+              "text": "Llena una maceta con tierra y pon un frijol adentro. Riégalo con un poquito de agua todos los días."
             }
           },
           {
             "id": "ap-s3",
             "note": {
               "purpose": "instruct",
-              "text": "Para lavarte las manos: primero, mójalas con agua. Después, tállalas muy bien con jabón. Al final, enjuágalas y sécalas."
+              "text": "Moja tus manos y tállalas muy bien con jabón. ¡Enjuágalas, sécalas y quedan limpiecitas!"
             }
           }
         ],
@@ -256,14 +256,14 @@
             "id": "ap-i2",
             "note": {
               "purpose": "inform",
-              "text": "As abelhas juntam o néctar doce das flores. Na colmeia, elas transformam esse néctar aos poucos em mel dourado."
+              "text": "Há muito tempo, dinossauros enormes viviam na Terra. Depois, há milhões de anos, eles desapareceram."
             }
           },
           {
             "id": "ap-i3",
             "note": {
               "purpose": "inform",
-              "text": "O sol é uma estrela muito grande e quente. Ele fica no centro do nosso sistema solar e nos dá luz e calor todos os dias."
+              "text": "O sol é uma estrela muito grande e quente! Ele fica no centro do nosso sistema solar e nos dá luz e calor todos os dias."
             }
           },
           {
@@ -277,14 +277,14 @@
             "id": "ap-e2",
             "note": {
               "purpose": "entertain",
-              "text": "A pequena rã viu a lua brilhando numa poça e pensou que podia pegá-la. Ela pulou, pulou e só molhou as patinhas!"
+              "text": "Primeiro, a pequena rã vê a lua brilhando numa poça e pensa que pode pegá-la. Depois ela pula, pula e só molha as patinhas."
             }
           },
           {
             "id": "ap-e3",
             "note": {
               "purpose": "entertain",
-              "text": "O gato Frajola olhou no espelho e achou que era um leão enorme. Ele soltou um miado tão fraquinho que até o rato riu!"
+              "text": "O gato Frajola olhou no espelho e achou que era um leão enorme. Ele soltou um miado tão fraquinho que até o rato riu."
             }
           },
           {
@@ -298,14 +298,14 @@
             "id": "ap-s2",
             "note": {
               "purpose": "instruct",
-              "text": "Para plantar um feijão: primeiro, coloque terra num copinho. Depois, faça um furo e ponha o feijão dentro. No final, regue com um pouco de água."
+              "text": "Coloque terra num copinho e ponha um feijão dentro. Regue com um pouco de água todos os dias."
             }
           },
           {
             "id": "ap-s3",
             "note": {
               "purpose": "instruct",
-              "text": "Para lavar as mãos: primeiro, molhe as mãos na torneira. Depois, passe sabão e esfregue bem os dedinhos. No final, enxágue e seque com a toalha."
+              "text": "Molhe as mãos e esfregue bem os dedinhos com sabão. Enxágue, seque com a toalha e pronto: mãos limpinhas!"
             }
           }
         ],
@@ -321,14 +321,14 @@
             "id": "ap-i2",
             "note": {
               "purpose": "inform",
-              "text": "Le api raccolgono il nettare dai fiori. Con il nettare preparano il miele dentro l’alveare."
+              "text": "Tanto tempo fa, sulla Terra vivevano enormi dinosauri. Poi, milioni di anni fa, sono scomparsi."
             }
           },
           {
             "id": "ap-i3",
             "note": {
               "purpose": "inform",
-              "text": "Il sole sorge a est e tramonta a ovest. La sua luce riscalda la terra, il mare e l’aria."
+              "text": "Il sole è una stella enorme! La sua luce riscalda la terra, il mare e l’aria."
             }
           },
           {
@@ -342,14 +342,14 @@
             "id": "ap-e2",
             "note": {
               "purpose": "entertain",
-              "text": "La rana Rosa voleva volare come una rondine! Ha fatto un salto enorme ed è finita dritta nel secchio della nonna."
+              "text": "Prima la rana Rosa vuole volare come una rondine. Poi fa un salto enorme e finisce dritta nel secchio della nonna."
             }
           },
           {
             "id": "ap-e3",
             "note": {
               "purpose": "entertain",
-              "text": "Il gatto Leo si crede un leone feroce! Ha ruggito allo specchio e poi è scappato davanti a una foglia."
+              "text": "Il gatto Leo si crede un leone feroce. Ha ruggito allo specchio e poi è scappato davanti a una foglia."
             }
           },
           {
@@ -363,29 +363,29 @@
             "id": "ap-s2",
             "note": {
               "purpose": "instruct",
-              "text": "Per piantare un fagiolo: prima metti un po’ di terra in un vasetto. Poi infila il fagiolo, e infine bagnalo con un filo d’acqua."
+              "text": "Metti un po’ di terra in un vasetto e infila un fagiolo. Bagnalo con un filo d’acqua ogni giorno."
             }
           },
           {
             "id": "ap-s3",
             "note": {
               "purpose": "instruct",
-              "text": "Per lavarti le mani: prima bagnale con l’acqua. Poi passa il sapone e strofina, e infine sciacqua e asciuga."
+              "text": "Bagna le mani e strofinale bene con il sapone. Sciacqua, asciuga, ed ecco le mani pulite!"
             }
           }
         ],
         "nl": [
           { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Uilen slapen overdag en jagen 's nachts. Hun zachte veren helpen hen om heel stil te vliegen." } },
-          { "id": "ap-i2", "note": { "purpose": "inform",    "text": "Bijen halen zoete nectar uit de bloemen. Van die nectar maken ze later honing in de korf." } },
-          { "id": "ap-i3", "note": { "purpose": "inform",    "text": "De zon is een reusachtige, hete ster. Elke dag geeft ze ons licht en warmte op aarde." } },
+          { "id": "ap-i2", "note": { "purpose": "inform",    "text": "Lang geleden leefden er enorme dinosaurussen op aarde. Daarna, miljoenen jaren geleden, stierven ze uit." } },
+          { "id": "ap-i3", "note": { "purpose": "inform",    "text": "De zon is een reusachtige, hete ster! Elke dag geeft ze ons licht en warmte op aarde." } },
 
           { "id": "ap-e1", "note": { "purpose": "entertain", "text": "Pip de hond joeg zijn eigen staart achterna. Hij draaide zo snel rond dat hij giechelend in de bladeren plofte!" } },
-          { "id": "ap-e2", "note": { "purpose": "entertain", "text": "De kleine kikker wilde tot aan de maan springen. Hij sprong zo hoog dat hij op een zachte wolk landde!" } },
-          { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mira de kat klom in de grote wasmand. Toen de sokken in het rond vlogen, rolde ze lachend weer naar buiten!" } },
+          { "id": "ap-e2", "note": { "purpose": "entertain", "text": "Eerst wil een kleine kikker tot aan de maan springen. Daarna springt hij zo hoog dat hij op een zachte wolk landt." } },
+          { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mira de kat klom in de grote wasmand. Toen de sokken in het rond vlogen, rolde ze lachend weer naar buiten." } },
 
           { "id": "ap-s1", "note": { "purpose": "instruct",  "text": "Zo vouw je een bootje van papier: Eerst vouw je het papier dubbel. Daarna vouw je de hoeken naar beneden. Tot slot vouw je het bootje af." } },
-          { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "Zo plant je een boon: Eerst doe je aarde in de pot. Daarna leg je de boon erin. Tot slot geef je er water bij." } },
-          { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "Zo was je je handen: Eerst maak je ze nat met water. Daarna wrijf je ze in met zeep. Tot slot spoel je alles weer af." } }
+          { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "Doe aarde in een pot en leg er een boon in. Geef de boon elke dag een beetje water." } },
+          { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "Maak je handen nat en wrijf ze goed in met zeep. Spoel ze af, droog ze, en je handen zijn schoon!" } }
         ]
       },
       "rounds": [
@@ -400,14 +400,14 @@
           "id": "ap-i2",
           "note": {
             "purpose": "inform",
-            "text": "The sun is a giant ball of hot, glowing gas. It gives our planet light and warmth every day."
+            "text": "The sun is a giant ball of hot, glowing gas! It gives our planet light and warmth every day."
           }
         },
         {
           "id": "ap-i3",
           "note": {
             "purpose": "inform",
-            "text": "Honeybees live together in a busy hive. They turn flower nectar into sweet, golden honey."
+            "text": "Long ago, huge dinosaurs walked on the Earth. Then, millions of years ago, they all died out."
           }
         },
         {
@@ -421,14 +421,14 @@
           "id": "ap-e2",
           "note": {
             "purpose": "entertain",
-            "text": "A silly frog tried to catch the moon in the pond. He splashed all night, but the moon just winked!"
+            "text": "First, a silly frog tries to catch the moon in the pond. Then he splashes all night, but the moon just winks."
           }
         },
         {
           "id": "ap-e3",
           "note": {
             "purpose": "entertain",
-            "text": "Mabel the cat thought she was a lion. She roared at a feather and pounced on a sock!"
+            "text": "Mabel the cat thought she was a lion. She roared at a feather and pounced on a sock."
           }
         },
         {
@@ -442,14 +442,14 @@
           "id": "ap-s2",
           "note": {
             "purpose": "instruct",
-            "text": "To plant a seed, first dig a small hole. Then drop the seed in. Last, give it some water."
+            "text": "Dig a small hole in the soil. Drop a seed in and give it some water."
           }
         },
         {
           "id": "ap-s3",
           "note": {
             "purpose": "instruct",
-            "text": "To wash your hands, first turn on the water. Next, scrub with soap. Then rinse and dry them."
+            "text": "Wet your hands and scrub them with soap. Rinse them well, dry them, and your hands are clean!"
           }
         }
       ]

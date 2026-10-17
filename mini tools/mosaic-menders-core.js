@@ -38,7 +38,12 @@
     bar10: ['1111111111'],                     /* a10 bbox 1×10=10*/
     r3x4:  ['1111', '1111', '1111'],           /* a12 bbox 3×4=12 */
     r2x6:  ['111111', '111111'],               /* a12 bbox 2×6=12 */
-    r3x5:  ['11111', '11111', '11111']         /* a15 bbox 3×5=15 */
+    r3x5:  ['11111', '11111', '11111'],        /* a15 bbox 3×5=15 */
+    /* genuinely different shapes of the same area (2026-10-17): a match must NEVER be the
+       target turned 90° (L8 is really a 4×2 rectangle; bar6↔col6 is a rotation) */
+    ring8: ['111', '1.1', '111'],              /* a8  bbox 3×3=9  — a frame with a hole */
+    T8:    ['1111', '.11.', '.11.'],           /* a8  bbox 3×4=12 — a T */
+    step6: ['1..', '11.', '111']               /* a6  bbox 3×3=9  — a staircase */
   };
 
   function area(name) {
@@ -61,13 +66,13 @@
      (so "most tiles" misfires). The shell shuffles candidate order. */
   var ROUNDS = [
     { target: 'r2x3', match: 'bar6',  decoys: ['r3x3', 'r2x2'] }, /* a6  : decoy r3x3 bbox9>6 + a9>a6 */
-    { target: 'r2x4', match: 'L8',    decoys: ['r3x3', 'bar4'] }, /* a8  : decoy r3x3 bbox9>8 + a9>a8 */
+    { target: 'r2x4', match: 'T8',    decoys: ['r3x5', 'bar4'] }, /* a8  : decoy r3x5 bbox15>12 + a15>a8 */
     { target: 'r3x4', match: 'r2x6',  decoys: ['r3x5', 'r3x3'] }, /* a12 : decoy r3x5 bbox15>12 + a15>a12 */
     { target: 'r2x5', match: 'bar10', decoys: ['r3x4', 'r2x2'] }, /* a10 : decoy r3x4 bbox12>10 + a12>a10 */
-    { target: 'bar6', match: 'col6',  decoys: ['r2x4', 'r2x2'] }, /* a6  : decoy r2x4 bbox8>6 + a8>a6 */
+    { target: 'bar6', match: 'step6', decoys: ['r2x6', 'r2x2'] }, /* a6  : decoy r2x6 bbox12>9 + a12>a6 */
     { target: 'r3x3', match: 'L9',    decoys: ['r2x6', 'r2x2'] }, /* a9  : decoy r2x6 bbox12>10(match) + a12>a9 */
     { target: 'r2x2', match: 'bar4',  decoys: ['r2x3', 'col6'] }, /* a4  : decoys bbox6>4 + a6>a4 */
-    { target: 'L8',   match: 'r2x4',  decoys: ['r3x3', 'bar6'] }  /* a8  : decoy r3x3 bbox9>8 + a9>a8 */
+    { target: 'ring8', match: 'r2x4', decoys: ['r3x3', 'bar6'] }  /* a8  : decoy r3x3 bbox9>8 + a9>a8 */
   ];
 
   function candidates(round) {

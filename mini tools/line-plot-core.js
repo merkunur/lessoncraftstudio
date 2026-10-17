@@ -46,7 +46,19 @@
   }
   function isValueRead(round) { return round.cog === 'read' && (round.question.type === 'maxMinusMin' || round.question.type === 'moreAB'); }
 
-  function nearNums(a, lo, hi) {
+  /* RANK-BALANCED near numbers (2026-10-17): with a±1 the answer was ALWAYS the middle
+     number (10 of 11 rounds) — "pick the middle" won without reading the plot. A round may
+     say where the answer sits ('lo' | 'mid' | 'hi'); the foils stay off-by-one/two misreads.
+     Never a 0 foil (counting answers start at 1). */
+  function rankedNear(a, lo, hi, rank) {
+    lo = Math.max(lo, 1);
+    var pat = rank === 'lo' ? [a + 1, a + 2] : rank === 'hi' ? [a - 1, a - 2] : [a - 1, a + 1];
+    if (pat.every(function (v) { return v >= lo && v <= hi; })) return [a].concat(pat).sort(function (x, y) { return x - y; });
+    return null;
+  }
+  function nearNums(a, lo, hi, rank) {
+    var r = rank ? rankedNear(a, lo, hi, rank) : null;
+    if (r) return r;
     var pool = [a - 1, a + 1, a + 2, a - 2], out = [a];
     for (var i = 0; i < pool.length && out.length < 3; i++) { var v = pool[i]; if (v >= lo && v <= hi && out.indexOf(v) < 0) out.push(v); }
     while (out.length < 3) out.push(a + out.length);   /* defensive distinct */
@@ -59,7 +71,7 @@
       return [a].concat(others).sort(function (x, y) { return x - y; });
     }
     var hi = round.cog === 'plot' ? round.scale.max : round.scale.max;
-    return nearNums(a, 0, hi);
+    return nearNums(a, 0, hi, round.foilRank);
   }
 
   function isAnswer(round, value) { return Number(value) === oracle(round); }

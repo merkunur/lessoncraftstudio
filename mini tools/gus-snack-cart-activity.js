@@ -18,7 +18,7 @@
   var LANG = 'en';
 
   function gopherSVG() {
-    return '<svg class="gsc-go-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Gus la ardilla' : LANG === 'pt' ? 'Gus o esquilo' : LANG === 'nl' ? 'Gus de eekhoorn' : 'Gus the gopher') + '">' +
+    return '<svg class="gsc-go-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Gus la tuza' : LANG === 'pt' ? 'Gus, o roedor' : LANG === 'nl' ? 'Gus de goffer' : 'Gus the gopher') + '">' +
       '<ellipse cx="50" cy="64" rx="22" ry="22" fill="#B98A5E"/>' +                /* body */
       '<circle cx="50" cy="36" r="16" fill="#CBA070"/>' +                          /* head */
       '<circle cx="38" cy="24" r="6" fill="#CBA070"/><circle cx="62" cy="24" r="6" fill="#CBA070"/>' + /* ears */

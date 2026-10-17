@@ -56,8 +56,22 @@ const opsSeen = new Set();
 tasks.forEach((t, ti) => {
   total++;
   const label = `task#${ti}`;
-  const cards = (t && Array.isArray(t.cards)) ? t.cards : [];
-  check(cards.length === 6, `${label}: ${cards.length} cards (expected 6)`);
+  const all = (t && Array.isArray(t.cards)) ? t.cards : [];
+  /* 2026-10-17: every board carries exactly 2 SPARE cards (`spare: true`) so the last match is never forced
+     by elimination. Spares are plain numbers that NO fact on the board equals; the wrapper's allPaired()
+     leaves them unpaired and a pair using one is graded wrong (unequal value). The 6-card rules below apply
+     to the real cards only. */
+  const spares = all.filter((c) => c && c.spare === true);
+  const cards = all.filter((c) => !(c && c.spare === true));
+  check(spares.length === 2, `${label}: ${spares.length} spare cards (expected 2 — the last match must never be forced)`);
+  const realVals = new Set(cards.map((c) => c && c.value));
+  spares.forEach((sp) => {
+    check(typeof sp.value === 'number' && sp.display === String(sp.value), `${label}: spare "${sp.display}" is not a plain number card`);
+    check(!realVals.has(sp.value), `${label}: spare ${sp.value} equals a fact on the board (a second right partner)`);
+    check(sp.value >= 1 && sp.value <= 20, `${label}: spare ${sp.value} outside 1-20`);
+  });
+  check(new Set(spares.map((s) => s.value)).size === spares.length, `${label}: the two spares share a value (they would pair with each other)`);
+  check(cards.length === 6, `${label}: ${cards.length} real cards (expected 6)`);
 
   const byVal = {};
   cards.forEach((c, i) => { if (c && typeof c.value === 'number') (byVal[c.value] = byVal[c.value] || []).push(i); });
@@ -113,5 +127,5 @@ if (failures.length) {
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
-console.log(`PASS — ${total} task(s): 6 cards / 3 distinct values / each = one complete fact (a op b ≤20) + its number; pool spans +/−; REAL core forms correct pairing, cross-value rejected; ≥${VARIETY_MIN} tasks.`);
+console.log(`PASS — ${total} task(s): 6 real cards + 2 spare numbers that match no fact / 3 distinct values / each = one complete fact (a op b ≤20) + its number; pool spans +/−; REAL core forms correct pairing, cross-value rejected; ≥${VARIETY_MIN} tasks.`);
 process.exit(0);

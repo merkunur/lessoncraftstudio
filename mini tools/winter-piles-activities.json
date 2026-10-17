@@ -8,7 +8,7 @@
       "rounds": [
         { "id": "fair-2x3", "type": "make-fair", "band": 1, "array": { "rows": 2, "cols": 3 }, "object": "acorn" },
         { "id": "fair-3x4", "type": "make-fair", "band": 1, "array": { "rows": 3, "cols": 4 }, "object": "acorn" },
-        { "id": "fair-4x4", "type": "make-fair", "band": 1, "array": { "rows": 4, "cols": 4 }, "object": "acorn" },
+        { "id": "fair-4x4", "type": "make-n", "band": 1, "array": { "rows": 4, "cols": 4 }, "target": { "piles": 2 }, "object": "acorn" },
         { "id": "make2-4x3", "type": "make-n", "band": 2, "array": { "rows": 4, "cols": 3 }, "target": { "piles": 2 }, "object": "acorn" },
         { "id": "make2-4x2", "type": "make-n", "band": 2, "array": { "rows": 4, "cols": 2 }, "target": { "piles": 2 }, "object": "acorn" },
         { "id": "fix-4x3", "type": "fix", "band": 3, "array": { "rows": 4, "cols": 3 }, "preset": [1], "object": "acorn" },

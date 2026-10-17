@@ -411,7 +411,7 @@
                 "kind": "correct"
               },
               {
-                "text": "un récipient profond dans lequel on fait cuire la soupe",
+                "text": "un récipient profond dans lequel on fait cuire la soupe aux légumes",
                 "kind": "off"
               }
             ]
@@ -463,7 +463,7 @@
             "sentence": "La fée a agité sa baguette et une citrouille est apparue.",
             "choices": [
               {
-                "text": "un pain long et croustillant qu’on achète chez le boulanger",
+                "text": "un pain long et croustillant qu’on achète tous les matins chez le boulanger",
                 "kind": "no-context"
               },
               {
@@ -771,7 +771,7 @@
                 "kind": "correct"
               },
               {
-                "text": "o pedaço de papel de escrever",
+                "text": "o pedaço de papel em que a gente escreve",
                 "kind": "no-context"
               },
               {
@@ -791,7 +791,7 @@
                 "kind": "correct"
               },
               {
-                "text": "a perna de um móvel, como a mesa",
+                "text": "a fêmea do pato",
                 "kind": "no-context"
               },
               {
@@ -815,7 +815,7 @@
                 "kind": "no-context"
               },
               {
-                "text": "um veículo que anda na água",
+                "text": "um veículo pequeno que anda na água",
                 "kind": "off"
               }
             ]
@@ -957,7 +957,7 @@
                 "kind": "correct"
               },
               {
-                "text": "una fila di persone che aspettano",
+                "text": "una lunga fila di persone che aspettano il proprio turno",
                 "kind": "no-context"
               }
             ]
@@ -969,7 +969,7 @@
             "sentence": "Dalla torre altissima si vede tutto il paese.",
             "choices": [
               {
-                "text": "un pezzo degli scacchi a forma di castello",
+                "text": "un pezzo degli scacchi che ha la forma di un piccolo castello",
                 "kind": "no-context"
               },
               {

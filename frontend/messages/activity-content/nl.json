@@ -1277,25 +1277,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "In het schuurtje van Opa Toon krullen de houtkrullen om zijn schaafmes terwijl hij potje na potje uit een blok hout snijdt. Elk potje is een andere maat, en op elke ronde buik schildert hij een getal van 1 tot 10. De kleine Wee Olen kijkt met grote ogen toe, en Toet de eend waggelt tussen de krullen door op zoek naar het kleinste potje van allemaal.",
-        "De stapelpotjes staan kriskras door elkaar, in alle maten — en juist daar zit de truc: een dikke pot kan een klein getal dragen, dus laat je NOOIT misleiden door de grootte. Je leest het geschilderde getal en ordent van groot naar klein: welk potje draagt het grootste getal, welk het kleinste, en wat komt daartussen? Soms ontbreekt er een potje — een gaatje in de rij — en zoek je welk getal daar hoort. Soms dragen twee potjes hetzelfde getal; die zet je gewoon naast elkaar. Zo leert je kind getallen 1 tot 10 vergelijken en ordenen. Dit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score — je kind mag rustig kijken, proberen en nog eens proberen. Een verkeerde keuze is niet erg: dan geeft Opa Toon een zacht duwtje in de goede richting (\"lees het getal, niet de grootte\"), en je stapelt gewoon verder tot de kleine Wee Olen veilig in het kleinste potje in het midden zit. Zo vaak je maar wilt."
+        "Vier bloempotjes staan in een rij – bijvoorbeeld 6, 9, 2 en 4 – en ze zien er allemaal precies hetzelfde uit: alleen het getal dat erop staat, is anders. Het kind tikt op een potje, en het zakt in de andere en groeit daarbij tot de grootte van zijn getal: de 9 wordt een grote pot, de 2 een kleine. Een potje past alleen in een potje met een groter getal, dus moet je ze in elkaar zetten van het grootste getal tot het kleinste. Een interactieve activiteit voor groep 3 die in de browser werkt, zonder installatie en zonder account.",
+        "Omdat alle potjes in de rij even groot zijn, verraadt de grootte niets: het kind leest en vergelijkt de getallen, en wie een potje probeert, ziet meteen of het past. De potjes geven zelf antwoord: een potje dat te groot is, steekt boven de rand uit, wiebelt en gaat terug naar de rij. Wie te vroeg een klein potje kiest, loopt vast – eerst de 9, dan de 2, en nu passen de 6 en de 4 er niet meer in –; dan licht het binnenste potje op en haalt een tik het er weer uit. Na twee keer niet passen verschijnen er stippen op de wachtende potjes, zodat het kind kan tellen welk getal het grootste is. Zitten alle potjes erin, dan leest Controleer de stapel voor: ‘Ja – 9, 6, 4, 2: van het grootste getal tot het kleinste!’",
+        "De activiteit sluit aan bij de SLO-kerndoelen: geschreven getallen tussen 1 en 10 vergelijken, hier drie of vier tegelijk. De leerkracht kiest drie potjes tot en met 5 of vier potjes tot en met 10, en laat de stippen alleen als hulp of altijd zien. Geen timer, geen score."
       ],
       "practices": [
-        "Getallen 1 tot 10 vergelijken en ordenen",
-        "Het getal lezen, niet de grootte van de pot",
-        "Van het grootste naar het kleinste getal stapelen",
-        "Het ontbrekende getal in het gaatje vinden"
+        "Geschreven getallen tot en met 10 vergelijken",
+        "Het grootste getal in een groep vinden",
+        "Drie of vier getallen ordenen van groot naar klein",
+        "Een fout herstellen door een stap terug te zetten"
       ],
       "howToPlay": [
-        "Kijk naar de getallen op de potjes en zoek eerst het grootste getal",
-        "Stapel steeds de pot met het volgende, kleinere getal erin",
-        "Helemaal in het midden komt de kleine Wee Olen in het kleinste potje"
+        "Kijk naar de getallen op de potjes. Welk is het grootste?",
+        "Tik eerst op het grootste getal: dat is het buitenste potje.",
+        "Dan het volgende en het volgende – elk potje moet in het vorige passen.",
+        "Te groot? Het komt terug. Vast? Tik op het binnenste potje om het eruit te halen. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Geschreven getallen 1 tot 10 herkennen en met elkaar vergelijken",
-        "Getallen op volgorde leggen van groot naar klein",
-        "Getalgrootte losmaken van de grootte van het voorwerp"
+        "Geschreven getallen tussen 1 en 10 vergelijken",
+        "Drie of vier getallen ordenen van het grootste tot het kleinste",
+        "Zien dat een groter getal meer betekent"
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

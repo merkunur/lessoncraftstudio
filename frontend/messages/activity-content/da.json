@@ -1806,6 +1806,30 @@
         "Sige, hvilket af to tal der er størst, og hvilket der er mindst",
         "Tjekke en sammenligning ved at tælle prikker"
       ]
+    },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "Fire urtepotter står på række – for eksempel 6, 9, 2 og 4 – og de ser helt ens ud: kun tallet på hver af dem er forskelligt. Barnet trykker på en potte, og den falder ned i de andre og vokser til størrelsen af sit tal: 9-tallet bliver en stor potte, 2-tallet en lille. En potte kan kun være i en potte med et større tal, så man skal sætte dem i hinanden fra det største tal til det mindste. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "Fordi alle potterne i rækken er lige store, afslører størrelsen intet: barnet læser og sammenligner tallene, og den, der prøver en potte, ser med det samme, om den kan være der. Potterne svarer selv: En potte, der er for stor, stikker op over kanten, vipper og går tilbage til rækken. Den, der tager en lille potte for tidligt, ender i en blindgyde – først 9-tallet, så 2-tallet, og nu kan hverken 6-tallet eller 4-tallet være der – så lyser den inderste potte, og et tryk tager den ud igen. Efter to potter, der ikke kunne være der, kommer der prikker på de ventende potter, så barnet kan tælle, hvilket tal der er størst. Når alle potterne er i, læser Tjek stablen op: ”Ja – 9, 6, 4, 2: fra det største tal til det mindste!”",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne skrevne tal mellem 1 og 10, her tre eller fire ad gangen. Læreren vælger tre potter op til 5 eller fire potter op til 10 og viser prikkerne kun som hjælp eller altid. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Sammenligne skrevne tal op til 10",
+        "Finde det største tal i en gruppe",
+        "Ordne tre eller fire tal fra størst til mindst",
+        "Rette en fejl ved at gå et skridt tilbage"
+      ],
+      "howToPlay": [
+        "Se på tallene på potterne. Hvilket er størst?",
+        "Tryk først på det største tal: det er den yderste potte.",
+        "Så på det næste og det næste – hver potte skal kunne være i den forrige.",
+        "For stor? Den kommer tilbage. Kørt fast? Tryk på den inderste potte for at tage den ud. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Sammenligne skrevne tal mellem 1 og 10",
+        "Ordne tre eller fire tal fra det største til det mindste",
+        "Se, at et større tal betyder flere"
+      ]
     }
   }
 }

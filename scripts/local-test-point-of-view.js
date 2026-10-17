@@ -101,15 +101,25 @@ function serve() {
     note(await checkVisible(), 'shell Check did not appear after resolve');
 
     /* a low-view round */
-    await force('pv-wave');
-    oi = await oracleCi('pv-wave');
+    await force('pv-crab');
+    oi = await oracleCi('pv-crab');
     await tapCi(oi);
     note((await S()).resolved, 'low-view round: correct did not resolve');
+
+    /* a MIDDLE-view round (2026-10-17: the middle window is now the answer in 4 of 12) */
+    await force('pv-kite');
+    oi = await oracleCi('pv-kite');
+    note(oi === 1, `middle-view round: oracle is window ${oi}, expected the middle one (1)`);
+    await tapCi(0);
+    note(!(await S()).resolved, 'middle-view round: the high window wrongly resolved');
+    await force('pv-kite');
+    await tapCi(oi);
+    note((await S()).resolved, 'middle-view round: correct did not resolve');
 
     /* mobile overflow 280→768 */
     for (const w of [280, 360, 412, 768]) {
       await page.setViewport({ width: w, height: 820 });
-      await force('pv-town'); await sleep(40);
+      await force('pv-heli'); await sleep(40);
       let over = await page.evaluate(() => { const dd = document.scrollingElement || document.documentElement; return dd.scrollWidth - dd.clientWidth; });
       note(over <= 2, `horizontal overflow ${over}px at ${w}px`);
     }

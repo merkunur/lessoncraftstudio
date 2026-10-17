@@ -58,6 +58,33 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
   F(d.shortestBot <= CHANCE, `shortest bot ${pct(d.shortestBot)} > ${pct(CHANCE)}`);
   F(d.fixedGuessBot <= CHANCE, `fixed-guess bot ${pct(d.fixedGuessBot)} > ${pct(CHANCE)}`);
 
+  /* ANSWER-SENTENCE BALANCE (2026-10-17): every fact carries a sentence-1 question (base)
+     and a sentence-2 question (alt); the wrapper asks variant (k + pass) % 2 for data index k,
+     so each pass must split ~half/half — "grab the end of sentence 2" may not pass. Checked
+     in EVERY shipped locale, with the same per-round structure checks on both variants. */
+  const sentOf = (fact, ans) => { const ss = fact.split(/(?<=[.!?])\s+/); const h = ss.map((x, i) => (x.toLowerCase().indexOf(ans.toLowerCase()) >= 0 ? i + 1 : 0)).filter(Boolean); return h.length === 1 ? h[0] : -1; };
+  const banks = Object.assign({ en: rounds }, manifest[0].params.roundsL10n || {});
+  Object.keys(banks).forEach((L) => {
+    const rs = banks[L];
+    [0, 1].forEach((pass) => {
+      const c = { 1: 0, 2: 0 };
+      const vs = rs.map((r, k) => {
+        F(!!r.alt, `${L}/${r.id}: no alt (sentence-2) question`);
+        const v = (r.alt && (k + pass) % 2 === 1) ? Object.assign({ fact: r.fact, id: r.id + '.alt' }, r.alt) : r;
+        const f = Core.facts(v);
+        F(f.oneMatch && f.threeOptions && f.distinct && f.answerInFact, `${L}/${v.id}: structural check failed (oneMatch/3 options/distinct/answer in fact)`);
+        const sn = sentOf(r.fact, v.answer);
+        F(sn === 1 || sn === 2, `${L}/${v.id}: answer "${v.answer}" is not in exactly one sentence`);
+        if (sn === 1 || sn === 2) c[sn]++;
+        return v;
+      });
+      F(Math.abs(c[1] - c[2]) <= 1, `${L} pass ${pass + 1}: answer sentence split S1=${c[1]} S2=${c[2]} (must be balanced)`);
+      const dv = Core.deckFacts(vs);
+      F(dv.longestBot <= CHANCE && dv.shortestBot <= CHANCE, `${L} pass ${pass + 1}: longest ${pct(dv.longestBot)} / shortest ${pct(dv.shortestBot)} > ${pct(CHANCE)}`);
+      console.log(`  ${L} pass ${pass + 1}: S1=${c[1]} S2=${c[2]} longest ${pct(dv.longestBot)} shortest ${pct(dv.shortestBot)}`);
+    });
+  });
+
   console.log(`bank: ${N} rounds`);
   console.log(`  ${oracleHits === N ? 'ok  ' : 'FAIL'} oracle: ${oracleHits}/${N}`);
   console.log(`  position ${pct(d.positionBot)} | longest ${pct(d.longestBot)} | shortest ${pct(d.shortestBot)} | fixed-guess ${pct(d.fixedGuessBot)}  (ceiling ${pct(CHANCE)})`);

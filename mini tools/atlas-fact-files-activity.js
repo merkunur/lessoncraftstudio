@@ -115,13 +115,15 @@
       if (!n) return null;
       if (!this._order || this._orderForPool !== pool || this._order.length !== n) { this._order = bandOrder(pool, null); this._orderForPool = pool; this._curPass = 0; }
       var pass = Math.floor(i / n); if (pass > this._curPass) { this._order = bandOrder(pool, this._order); this._curPass = pass; }
-      return pool[this._order[i % n]];
+      var k = this._order[i % n]; this._variant = this._variant || {};
+      this._variant[(this._rawIds || [])[k]] = (k + pass) % 2;
+      return pool[k];
     },
 
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/atlas-fact-files-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._rawIds = rs.map(function (r) { return r.id; }); self._pool = makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[atlas-fact-files] manifest load failed:', e.message); });
     },
 
@@ -151,11 +153,20 @@
     return (rounds || []).map(function (round) {
       return {
         id: 'atlas-fact-files.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
-        setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return Core.grade(round, tool.sel); },
+        setup: function (tool) { tool.setupTask(pickVariant(tool, round)); },
+        check: function (tool) { return Core.grade(tool.round || round, tool.sel); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });
+  }
+  /* Each fact carries TWO questions: the base one is answered in sentence 1, `alt` in
+     sentence 2 (each answer is the other question's trap). nextTask marks per pass which
+     one a fact asks — data index k asks the base when (k + pass) is even — so a pass is
+     balanced 4/4 between the sentences and the next pass asks the other question. */
+  function pickVariant(tool, round) {
+    var v = tool._variant && tool._variant[round.id];
+    if (v === 1 && round.alt) return { id: round.id, band: round.band, fact: round.fact, question: round.alt.question, answer: round.alt.answer, options: round.alt.options };
+    return round;
   }
   function bandOrder(pool, prev) {
     var byBand = {}; pool.forEach(function (t, i) { (byBand[t.band] = byBand[t.band] || []).push(i); });

@@ -250,7 +250,12 @@
       this._held = null; this._released = null; this._supplied = null;
       var slotN = (next.cog === 'nest-reject') ? Core.slotCount(next) : (next.cog === 'supply-detail' ? 1 : 0);
       this._slots = []; for (var i = 0; i < slotN; i++) this._slots.push(null);
-      this._fishOrder = order;   /* same board */
+      /* each paragraph now has its OWN four idea-fish (a real topic + two details + one
+         not in the text), so a sibling's fish are new: keep the old order only if the ids
+         match, else shuffle the new fish (2026-10-17 content fix). */
+      var nextIds = Core.fishStage1(next).map(function (f) { return f.id; });
+      var same = order.length === nextIds.length && order.every(function (id) { return nextIds.indexOf(id) !== -1; });
+      this._fishOrder = same ? order : shuffle(nextIds);
       return true;
     },
 
@@ -516,12 +521,12 @@
         +   '.np-umb{width:54px;}.np-gold{margin-top:0;padding:4px 9px;}.np-goldphrase{font-size:12px;}'
         +   '.np-pond{min-height:44px;padding:0 14px;}.np-slotphrase{font-size:11px;}'
         + '}'
-        /* the 320×640 sub-floor ONLY (narrow AND short): the probe waives the
-           44px tap minimum here, so drop controls to 42px + trim harder. */
+        /* the 320×640 sub-floor ONLY (narrow AND short): the 44px floor holds here too (2026-10-17); only
+           the paragraph + art are trimmed harder. */
         + '@media (max-width:340px) and (max-height:660px){'
         +   '.np-root{gap:2px;padding:5px;}.np-para{max-height:14vh;font-size:12px;padding:6px;}'
-        +   '.np-fish,.np-detail,.np-slot,.np-commit,.np-pond{min-height:42px;}.np-fishart{width:22px;}'
-        +   '.np-replay{width:42px;height:42px;min-height:42px;line-height:42px;font-size:15px;}'
+        +   '.np-fish,.np-detail,.np-slot,.np-commit,.np-pond{min-height:44px;}.np-fishart{width:22px;}'
+        +   '.np-replay{width:44px;height:44px;min-height:44px;line-height:44px;font-size:15px;}'
         +   '.np-saytop{font-size:10.5px;}.np-nilamini{width:22px;}.np-umb{width:46px;}.np-gold{padding:3px 8px;}'
         + '}'
         + '@media (prefers-reduced-motion: reduce){.np-sent{transition:none!important;}.np-fish.np-held,.np-detail.np-held{transform:none!important;}}';

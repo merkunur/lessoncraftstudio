@@ -22,17 +22,20 @@
     en: {
       win: 'Yes! {note}', winNote: 'That window has just the right view!',
       nHigh: 'Who is way up HIGH? Up high, things look tiny and far.',
-      nLow: 'Who is down LOW by the water? Down low, things look big and close.'
+      nLow: 'Who is down LOW by the water? Down low, things look big and close.',
+      nMid: 'Who is in the MIDDLE? From the middle, things are straight across, not up and not down.'
     },
     de: {
       win: 'Richtig! {note}', winNote: 'Genau aus diesem Fenster wurde es gesehen!',
       nHigh: 'Wer sitzt ganz oben? Von ganz oben sieht alles winzig und weit weg aus.',
-      nLow: 'Wer ist ganz unten am Wasser? Von ganz unten sieht alles riesig und ganz nah aus.'
+      nLow: 'Wer ist ganz unten am Wasser? Von ganz unten sieht alles riesig und ganz nah aus.',
+      nMid: 'Wer sitzt in der Mitte? Aus der Mitte sieht man alles genau geradeaus, nicht oben und nicht unten.'
     },
     fr: {
       win: 'Bravo ! {note}', winNote: 'C’est bien de cette fenêtre qu’on l’a vu !',
       nHigh: 'Qui est tout en HAUT ? Tout en haut, les choses paraissent minuscules et lointaines.',
-      nLow: 'Qui est tout en BAS, près de l’eau ? Tout en bas, les choses paraissent énormes et toutes proches.'
+      nLow: 'Qui est tout en BAS, près de l’eau ? Tout en bas, les choses paraissent énormes et toutes proches.',
+      nMid: 'Qui est au MILIEU ? Du milieu, on voit les choses juste en face, ni en haut ni en bas.'
     },
     /* es-MX. The nudges TEACH the rule, so they must state the size+distance contrast
        explicitly and in the SAME words as POSLABEL.es + the instruction.
@@ -43,7 +46,8 @@
     es: {
       win: '¡Sí! {note}', winNote: '¡Desde esa ventana se ve justo así!',
       nHigh: '¿Quién está hasta arriba? Desde ahí todo se ve muy pequeño y muy lejos.',
-      nLow: '¿Quién está hasta abajo, junto al agua? Desde ahí todo se ve enorme y bien cerca.'
+      nLow: '¿Quién está hasta abajo, junto al agua? Desde ahí todo se ve enorme y bien cerca.',
+      nMid: '¿Quién está en medio? Desde ahí todo se ve justo enfrente, ni arriba ni abajo.'
     },
     /* pt-BR. The nudges TEACH the rule → they state the size+distance contrast in the SAME
        words as POSLABEL.pt + the instruction. §A.13.54: agreement is anchored on «a janela /
@@ -53,7 +57,8 @@
     pt: {
       win: 'Isso! {note}', winNote: 'Essa janela tem a vista certinha!',
       nHigh: 'Quem está lá em cima? De cima, tudo parece pequenininho e distante.',
-      nLow: 'Quem está lá embaixo, pertinho da água? De baixo, tudo parece enorme e bem perto.'
+      nLow: 'Quem está lá embaixo, pertinho da água? De baixo, tudo parece enorme e bem perto.',
+      nMid: 'Quem está no meio? Do meio, tudo aparece bem na frente, nem para cima nem para baixo.'
     },
     /* it. The nudges TEACH the rule → they state the size+distance contrast in the SAME
        words as POSLABEL.it + the instruction (locked «lassù / laggiù»). §A.13.54: agreement
@@ -62,7 +67,8 @@
     it: {
       win: 'Sì! {note}', winNote: 'Quella finestra ha la vista giusta!',
       nHigh: 'Chi è lassù? Da lassù tutto sembra piccolo e lontano.',
-      nLow: 'Chi è laggiù, vicino al mare? Da laggiù tutto sembra grande e vicino.'
+      nLow: 'Chi è laggiù, vicino al mare? Da laggiù tutto sembra grande e vicino.',
+      nMid: 'Chi è in mezzo? Da lì tutto si vede proprio di fronte, né in alto né in basso.'
     },
     /* nl. The nudges TEACH the rule → they state the size+distance contrast in the SAME
        words as POSLABEL.nl (bovenin/onderin) + the instruction. The lines use "beneden"
@@ -70,7 +76,8 @@
     nl: {
       win: 'Ja! {note}', winNote: 'Dat raam heeft precies het goede uitzicht!',
       nHigh: 'Wie zit helemaal bovenin? Van bovenaf lijkt alles piepklein en heel ver weg.',
-      nLow: 'Wie is helemaal onderin, bij het water? Van onderaf lijkt alles enorm en heel dichtbij.'
+      nLow: 'Wie is helemaal onderin, bij het water? Van onderaf lijkt alles enorm en heel dichtbij.',
+      nMid: 'Wie zit in het midden? Vanuit het midden zie je alles recht voor je, niet hoog en niet laag.'
     }
   };
   var POSLABEL = {
@@ -154,7 +161,7 @@
          rule, and the rule is the whole activity. Fused with «;» (the fr move) → 157 ch,
          SHORTER than de's shipped 168. */
       title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia', it: 'Il faro di Lumen', nl: 'De vuurtoren van Lumen' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.', it: 'Leggi la frase. Lassù tutto sembra piccolo e lontano; laggiù tutto sembra grande e vicino. Tocca la finestra da cui la frase è raccontata.', nl: 'Lees de zin. Van bovenin lijkt alles piepklein en heel ver weg; van onderin lijkt alles enorm en heel dichtbij. Tik op het raam waaruit de zin verteld wordt.' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Aus der Mitte sieht man alles genau geradeaus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche ; au milieu, juste en face. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca; en medio, justo enfrente. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. No meio, tudo fica bem na frente. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.', it: 'Leggi la frase. Lassù tutto sembra piccolo e lontano; laggiù tutto sembra grande e vicino; in mezzo, tutto è proprio di fronte. Tocca la finestra da cui la frase è raccontata.', nl: 'Lees de zin. Van bovenin lijkt alles piepklein en heel ver weg; van onderin lijkt alles enorm en heel dichtbij; vanuit het midden zie je alles recht voor je. Tik op het raam waaruit de zin verteld wordt.' },
       q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?', it: '«{line}» Chi lo racconta?', nl: '"{line}" Wie vertelt dit?' }
     },
 
@@ -289,7 +296,7 @@
     },
     _nudge: function (view) {
       this._api.sound && this._api.sound(440);
-      var key = view === 'high' ? 'nHigh' : 'nLow';
+      var key = view === 'high' ? 'nHigh' : (view === 'mid' ? 'nMid' : 'nLow');
       this.render();
       if (this._msg) { this._msg.textContent = txt(key); this._msg.classList.add('miss'); }
       this._api.announce && this._api.announce(txt(key));

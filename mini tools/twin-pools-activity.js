@@ -3,7 +3,7 @@
    "Twinsies — count how many & count out that many" (K.CC.B.5) —
    THE TWIN POOLS. Design sheet: docs/activities-rebuild/015-twin-pools.md
    ---------------------------------------------------------------------
-   Two rock pools, one above the other. The first holds library sea
+   Two rock pools, side by side (stacked on a phone). The first holds library sea
    creatures in a line, a ring, an array or a scatter (K.CC.B.5's four
    arrangements); a tap on one marks it as counted (the child's own mark,
    never a number). The twin pool below is empty: always more places than

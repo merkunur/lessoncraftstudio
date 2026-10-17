@@ -1197,25 +1197,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Två skrivna tal visas, och barnet trycker på det som är mindre — som 3 och 5, eller 8 och 9. Vissa par ligger långt ifrån varandra, till exempel 1 och 9, och andra ligger nära, till exempel 5 och 6. Det är en interaktiv räkneövning för förskoleklass som spelas direkt i webbläsaren, utan registrering och utan konto.",
-        "Den stora idén är att jämföra tal i sifferform efter deras värde, och att leta efter det som är mindre i stället för det som är störst — en liten men viktig vändning av uppmärksamheten. Det finns inga föremål att räkna, så barnet läser varje siffra och avgör vilket tal som är minst. De närliggande paren gör övningen på riktigt: att veta att 8 kommer precis före 9 är det som avslöjar att 8 är mindre.",
-        "Aktiviteten följer Lgr22 inom taluppfattning: att jämföra två tal mellan 1 och 10 som visas i sifferform. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Två stora sifferkort ligger bredvid varandra – till exempel 3 och 8 – med en tom tornfot ovanför varje kort. Vilket tal är mindre? Barnet trycker på det och trycker på Kontrollera. Sedan växer båda tornen samtidigt, en kloss i taget, medan en talrad under dem lyser upp: 1, 2, 3 … Tornet för 3 stannar vid tre klossar och hissar en liten flagga; tornet för 8 fortsätter uppåt. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Tornen visar hur många varje skrivet tal betyder och varför det ena är mindre: när man räknar från 1 kommer man först till det mindre talet, och därför stannar dess torn först. Efter ett första fel ber tipset barnet att räkna från 1 och lägga märke till vilket av de två talen som kommer först; efter ett andra växer tornen för att visa det, med flaggan vid det mindre talet, tills barnet väljer igen. Ett rätt svar säger det med tal: ”Ja – 3 är mindre än 8!” Ibland ligger talen långt ifrån varandra, som 2 och 9, och ibland är de grannar, som 5 och 6 – då gäller det att titta noga. De två talen är aldrig lika.",
+        "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 eller upp till 10 och kan visa eller dölja talraden under tornen. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Jämföra två skrivna tal mellan 1 och 10 och hitta det som är mindre",
-        "Läsa siffror och känna deras värde utan att räkna föremål",
-        "Vända uppmärksamheten mot mindre i stället för mer när man jämför",
-        "Klara nära par som 8 och 9, inte bara tal som ligger långt ifrån varandra"
+        "Jämföra två skrivna tal upp till 10",
+        "Säga vilket av två tal som kommer först när man räknar",
+        "Se hur många varje skrivet tal betyder",
+        "Använda ”mindre” om talet som kommer först"
       ],
       "howToPlay": [
-        "Titta på de två talen på spelplanen.",
-        "Tryck på det tal som är mindre, och tryck sedan på Kontrollera.",
-        "Försök igen när du vill — det finns ingen tid och inga poäng."
+        "Titta på de två talen. Vilket är mindre?",
+        "Tryck på det mindre talet och tryck sedan på Kontrollera.",
+        "Se hur båda tornen växer samtidigt: tornet för det mindre talet stannar först.",
+        "Inte riktigt? Räkna från 1 – talet du säger först är mindre. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan jämföra skrivna tal mellan 1 och 10 och välja det som är mindre",
-        "Barnet känner det värde varje siffra står för, utan att räkna",
-        "Barnet bygger den jämförelsekänsla som senare ligger bakom tankar om mindre än"
+        "Jämföra två skrivna tal mellan 1 och 10",
+        "Veta att ett tal som kommer tidigare när man räknar är mindre",
+        "Koppla varje skrivet tal till hur många det betyder"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

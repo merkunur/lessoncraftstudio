@@ -1097,25 +1097,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "To skrevne tall vises, og barnet trykker på det minste — for eksempel 3 og 5, eller 8 og 9. Noen par ligger langt fra hverandre, som 1 og 9, og noen ligger helt inntil hverandre, som 5 og 6. Dette er en interaktiv telleaktivitet for skolestart som spilles rett i nettleseren, uten konto og uten innlogging.",
-        "Den store ideen er å sammenligne sifre ut fra verdi mens man leter etter det som er minst i stedet for mest — en liten, men viktig vri på oppmerksomheten. Uten gjenstander å telle leser barnet hvert tall og avgjør hvilket som er færrest. Naboparene gjør det ekte: det at 8 kommer rett før 9, er nettopp det som forteller deg at 8 er det minste.",
-        "Aktiviteten følger LK20 innenfor tall og telling — å sammenligne to tall mellom 1 og 10 i sifferform. Det er ingen tidtaker og ingen poeng, bare rolig lek med tall for skolestart og 1. trinn."
+        "To store tallkort ligger ved siden av hverandre – for eksempel 3 og 8 – med en tom tårnfot over hvert kort. Hvilket tall er minst? Barnet trykker på det og trykker på Sjekk. Så vokser begge tårnene samtidig, én kloss om gangen, mens en tallrekke under lyser opp: 1, 2, 3 … Tårnet til 3 stopper ved tre klosser og heiser et lite flagg; tårnet til 8 fortsetter oppover. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "Tårnene viser hvor mange hvert skrevne tall betyr, og hvorfor det ene er minst: Når man teller fra 1, kommer man først til det minste tallet, og derfor stopper tårnet dets først. Etter en første feil ber hintet barnet telle fra 1 og legge merke til hvilket av de to tallene som kommer først; etter en andre vokser tårnene for å vise det, med flagget ved det minste tallet, til barnet velger på nytt. Et riktig svar sier det med tall: «Ja – 3 er mindre enn 8!» Noen tall ligger langt fra hverandre, som 2 og 9, og noen er naboer, som 5 og 6 – dem må man se godt på. De to tallene er aldri like.",
+        "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 eller opptil 10 og kan vise eller skjule tallrekken under tårnene. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Sammenligne to skrevne tall fra 1 til 10 og finne det minste.",
-        "Lese sifre og kjenne verdien deres uten å telle gjenstander.",
-        "Flytte oppmerksomheten over til det som er minst i stedet for mest.",
-        "Klare nære par som 8 og 9, ikke bare par som ligger langt fra hverandre."
+        "Sammenligne to skrevne tall opptil 10",
+        "Si hvilket av to tall som kommer først når man teller",
+        "Se hvor mange hvert skrevne tall betyr",
+        "Bruke «minst» om tallet som kommer først"
       ],
       "howToPlay": [
-        "Se på de to tallene på brettet.",
-        "Trykk på det som er minst, og trykk så på Sjekk.",
-        "Prøv igjen når som helst — det er ingen tidtaker og ingen poeng."
+        "Se på de to tallene. Hvilket er minst?",
+        "Trykk på det minste tallet, og trykk så på Sjekk.",
+        "Se begge tårnene vokse sammen: tårnet til det minste tallet stopper først.",
+        "Ikke helt? Tell fra 1 – tallet du sier først, er minst. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne skrevne tall fra 1 til 10 og velge det minste.",
-        "Barnet kjenner verdien hvert siffer står for, uten å telle.",
-        "Barnet bygger sammenligningssansen som ligger bak å tenke «mindre enn» senere."
+        "Sammenligne to skrevne tall mellom 1 og 10",
+        "Vite at et tall som kommer tidligere når man teller, er mindre",
+        "Knytte hvert skrevne tall til antallet det står for"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

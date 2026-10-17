@@ -1095,24 +1095,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Hvilket tal er mindst? viser to skrevne tal, og barnet trykker på det mindste — for eksempel 3 og 5 eller 8 og 9. Nogle par ligger langt fra hinanden, som 1 og 9, og andre ligger helt tæt, som 5 og 6. Det er en interaktiv tælleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
-        "Den store idé er at sammenligne tal ud fra deres værdi og lede efter det mindste i stedet for det største — et lille, men vigtigt skift i opmærksomheden. Der er ingenting at tælle; barnet læser hvert ciffer og afgør, hvilket tal der er færrest. De nære par gør det ægte: at vide, at 8 kommer lige før 9, er netop det, der fortæller én, at 8 er det mindste. Aktiviteten følger Fælles Mål inden for tal og algebra: at sammenligne to tal mellem 1 og 10, skrevet med cifre. Der er ingen timer og ingen point — barnet får ro til at se godt efter i sit eget tempo."
+        "To store talkort ligger ved siden af hinanden – for eksempel 3 og 8 – med en tom tårnfod over hvert kort. Hvilket tal er mindst? Barnet trykker på det og trykker på Tjek. Så vokser begge tårne samtidig, én klods ad gangen, mens en talrække nedenunder lyser op: 1, 2, 3 … Tårnet for 3 stopper ved tre klodser og hejser et lille flag; tårnet for 8 fortsætter op. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "Tårnene viser, hvor mange hvert skrevet tal betyder, og hvorfor det ene er mindst: Når man tæller fra 1, kommer man først til det mindste tal, og derfor stopper dets tårn først. Efter en første fejl beder hjælpen barnet om at tælle fra 1 og lægge mærke til, hvilket af de to tal der kommer først; efter en anden vokser tårnene for at vise det, med flaget ved det mindste tal, indtil barnet vælger igen. Et rigtigt svar siger det med tal: ”Ja – 3 er mindre end 8!” Nogle tal ligger langt fra hinanden, som 2 og 9, og nogle er naboer, som 5 og 6 – dem skal man kigge godt på. De to tal er aldrig ens.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne to skrevne tal mellem 1 og 10. Læreren vælger tal op til 5 eller op til 10 og kan vise eller skjule talrækken under tårnene. Ingen tidtagning og ingen point."
       ],
       "practices": [
-        "Sammenligne to skrevne tal fra 1 til 10 og finde det mindste",
-        "Læse cifre og kende deres værdi uden at tælle ting",
-        "Flytte opmærksomheden mod \"færrest\" i stedet for \"flest\", når man sammenligner",
-        "Klare nære par som 8 og 9, ikke kun par der ligger langt fra hinanden"
+        "Sammenligne to skrevne tal op til 10",
+        "Sige, hvilket af to tal der kommer først, når man tæller",
+        "Se, hvor mange hvert skrevet tal betyder",
+        "Bruge ”mindst” om det tal, der kommer først"
       ],
       "howToPlay": [
-        "Barnet kigger på de to tal på pladen.",
-        "Barnet trykker på det, der er mindst, og trykker så på Tjek.",
-        "Man kan prøve igen når som helst — der er ingen timer og ingen point."
+        "Se på de to tal. Hvilket er mindst?",
+        "Tryk på det mindste tal, og tryk så på Tjek.",
+        "Se begge tårne vokse sammen: tårnet for det mindste tal stopper først.",
+        "Ikke helt? Tæl fra 1 – det tal, du siger først, er mindst. Ingen tidtagning og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne skrevne tal fra 1 til 10 og vælge det mindste",
-        "Barnet kan kende den værdi, hvert ciffer står for, uden at tælle",
-        "Barnet bygger den talfornemmelse, der ligger bag senere arbejde med \"mindre end\""
+        "Sammenligne to skrevne tal mellem 1 og 10",
+        "Vide, at et tal, der kommer tidligere i tællingen, er mindre",
+        "Forbinde hvert skrevet tal med det antal, det står for"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

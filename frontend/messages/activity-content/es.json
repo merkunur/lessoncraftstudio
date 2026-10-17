@@ -3379,25 +3379,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Aparecen dos números escritos y el niño o la niña toca el menor, por ejemplo 3 y 5, u 8 y 9. Algunas parejas están muy separadas, como 1 y 9, y otras quedan juntitas, como 5 y 6. Es una actividad de conteo para preescolar (kínder), interactiva, que se juega directo en el navegador, sin necesidad de crear cuenta.",
-        "Lo valioso aquí es comparar números por su valor mientras la atención busca el menor en lugar del mayor, un cambio pequeño pero importante. Como no hay objetos que contar, el niño o la niña lee cada numeral y decide cuál vale menos. Las parejas vecinas lo vuelven un reto de verdad: saber que el 8 va justo antes del 9 es lo que indica que el 8 es el menor.",
-        "Está alineada con los planes y programas de estudio (SEP): comparar dos números del 1 al 10 presentados como numerales escritos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Dos tarjetas grandes con números están una al lado de la otra —por ejemplo, 3 y 8—, cada una con la base vacía de una torre encima. ¿Qué número es menor? El niño lo toca y oprime Comprobar. Entonces las dos torres crecen al mismo tiempo, un cubo a la vez, mientras abajo se ilumina una tira numérica: 1, 2, 3… La torre del 3 se detiene en tres cubos y levanta una banderita; la del 8 sigue subiendo. Es una actividad interactiva para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Las torres muestran cuánto vale cada número escrito y por qué uno es menor: al contar desde el 1, primero se llega al número menor, por eso su torre se detiene primero. Tras un primer error, la pista le pide al niño contar desde el 1 y fijarse cuál de los dos números llega primero; tras un segundo, las torres crecen para que lo vea, con la banderita en el menor, hasta que el niño vuelve a elegir. Una respuesta correcta lo dice con números: «¡Sí: 3 es menor que 8!». Algunos números están lejos, como 2 y 9, y otros son vecinos, como 5 y 6: esos piden mirar con cuidado. Los dos números nunca son iguales.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números escritos entre 1 y 10. El docente elige números hasta 5 o hasta 10, y puede mostrar u ocultar la tira numérica debajo de las torres. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Comparar dos números escritos del 1 al 10 y encontrar el menor.",
-        "Leer numerales y conocer su valor sin contar objetos.",
-        "Dirigir la atención hacia «menos» en lugar de «más» al comparar.",
-        "Resolver parejas cercanas como el 8 y el 9, no solo las muy separadas."
+        "Comparar dos números escritos hasta 10",
+        "Decir cuál de dos números llega primero al contar",
+        "Ver cuánto vale cada número escrito",
+        "Usar «menor» para el número que llega primero"
       ],
       "howToPlay": [
-        "Mira los dos números del tablero.",
-        "Toca el que sea menor y pulsa Comprobar.",
-        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+        "Mira los dos números. ¿Cuál es menor?",
+        "Toca el número menor y luego oprime Comprobar.",
+        "Mira cómo crecen juntas las dos torres: la del número menor se detiene primero.",
+        "¿Todavía no? Cuenta desde el 1: el número que dices primero es el menor. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Comparar números escritos del 1 al 10 y elegir el menor.",
-        "Conocer el valor que representa cada numeral sin necesidad de contar.",
-        "Formar el sentido de comparación que más adelante sostiene la idea de «menor que»."
+        "Comparar dos números escritos entre 1 y 10",
+        "Saber que un número que llega antes al contar es menor",
+        "Relacionar cada número escrito con la cantidad que representa"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

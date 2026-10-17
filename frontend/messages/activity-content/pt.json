@@ -1842,25 +1842,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Dois números escritos aparecem na tela e a criança toca no menor — como 3 e 5, ou 8 e 9. Alguns pares ficam bem distantes, como 1 e 9, e outros bem pertinho, como 5 e 6. É uma atividade de contagem interativa para a educação infantil, que abre direto no navegador, sem precisar de conta.",
-        "A grande ideia é comparar números pelo valor olhando para quem é menor, e não para quem é maior — uma virada de atenção pequena, mas importante. Como não há objetos para contar, a criança lê cada algarismo e decide qual número é o menor. Os pares vizinhos deixam o desafio de verdade: saber que o 8 vem logo antes do 9 é o que mostra que o 8 é o menor.",
-        "A atividade está alinhada à BNCC, no campo de Números, na ideia de comparar dois números entre 1 e 10 apresentados como algarismos escritos. Sem cronômetro e sem pontuação — só prática calma e divertida."
+        "Dois cartões grandes com números ficam lado a lado — por exemplo, 3 e 8 —, cada um com a base vazia de uma torre em cima. Qual número é menor? A criança toca nele e aperta Verificar. Aí as duas torres crescem ao mesmo tempo, um cubo de cada vez, enquanto uma faixa numérica embaixo se acende: 1, 2, 3… A torre do 3 para em três cubos e levanta uma bandeirinha; a do 8 continua subindo. É uma atividade interativa da educação infantil que funciona no navegador, sem instalar nada e sem conta.",
+        "As torres mostram quanto vale cada número escrito e por que um é menor: contando a partir do 1, a gente chega primeiro ao número menor, por isso a torre dele para primeiro. Depois de um primeiro erro, a dica pede para a criança contar a partir do 1 e perceber qual dos dois números vem primeiro; depois de um segundo, as torres crescem para ela ver, com a bandeirinha no menor, até que a criança escolha de novo. Uma resposta certa diz com números: “Isso: 3 é menor que 8!” Alguns números ficam longe um do outro, como 2 e 9, e outros são vizinhos, como 5 e 6 — esses pedem um olhar atento. Os dois números nunca são iguais.",
+        "A atividade está alinhada à BNCC, no campo dos números: comparar dois números escritos entre 1 e 10. O professor escolhe números até 5 ou até 10 e pode mostrar ou esconder a faixa numérica embaixo das torres. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Comparar dois números escritos de 1 a 10 e encontrar o menor.",
-        "Ler algarismos e saber o valor deles sem contar objetos.",
-        "Voltar a atenção para “o menor”, em vez de “o maior”, ao comparar.",
-        "Resolver pares próximos, como 8 e 9, e não só os bem distantes."
+        "Comparar dois números escritos até 10",
+        "Dizer qual de dois números vem primeiro na contagem",
+        "Ver quanto vale cada número escrito",
+        "Usar “menor” para o número que vem primeiro"
       ],
       "howToPlay": [
-        "Olhe os dois números que aparecem na tela.",
-        "Toque naquele que é menor e depois toque em Verificar.",
-        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+        "Olhe os dois números. Qual é menor?",
+        "Toque no número menor e depois aperte Verificar.",
+        "Veja as duas torres crescerem juntas: a do número menor para primeiro.",
+        "Ainda não? Conte a partir do 1 — o número que você fala primeiro é o menor. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Comparar números escritos de 1 a 10 e escolher o menor.",
-        "Saber o valor que cada algarismo representa, sem precisar contar.",
-        "Construir o senso de comparação que sustenta a ideia de “menor que” mais adiante."
+        "Comparar dois números escritos entre 1 e 10",
+        "Saber que um número que vem antes na contagem é menor",
+        "Relacionar cada número escrito à quantidade que ele representa"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

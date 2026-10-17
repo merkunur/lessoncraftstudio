@@ -3179,25 +3179,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Deux nombres écrits apparaissent et l'enfant touche le plus petit — par exemple 3 et 5, ou 8 et 9. Certaines paires sont très éloignées, comme 1 et 9, et d'autres très proches, comme 5 et 6. C'est une activité de numération interactive pour la maternelle, qui se joue directement dans le navigateur, sans compte à créer.",
-        "La grande idée, c'est de comparer des nombres écrits selon leur valeur, en cherchant le plus petit plutôt que le plus grand — un petit mais important changement d'attention. Comme il n'y a aucun objet à compter, l'enfant lit chaque chiffre et décide lequel est le moins grand. Les paires voisines rendent l'exercice véritable : savoir que 8 vient juste avant 9, c'est ce qui permet de dire que 8 est le plus petit.",
-        "Cette activité est alignée sur les programmes officiels : comparer deux nombres compris entre 1 et 10, présentés sous forme de chiffres écrits. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Deux grandes cartes nombres sont posées côte à côte — par exemple 3 et 8 —, avec au-dessus de chacune le socle vide d’une tour. Quel nombre est le plus petit ? L’enfant le touche et appuie sur Vérifier. Alors les deux tours grandissent en même temps, un cube à la fois, pendant qu’une bande numérique s’allume en dessous : 1, 2, 3… La tour du 3 s’arrête à trois cubes et lève un petit drapeau ; celle du 8 continue de monter. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "Les tours montrent ce que vaut chaque nombre écrit et pourquoi l’un est plus petit : en comptant à partir de 1, on arrive d’abord au plus petit nombre, donc sa tour s’arrête la première. Après une première erreur, l’indice invite l’enfant à compter à partir de 1 et à repérer lequel des deux nombres vient en premier ; après une deuxième, les tours grandissent pour ce regard, le drapeau sur le plus petit, jusqu’à ce que l’enfant choisisse à nouveau. Une bonne réponse le dit avec des nombres : « Oui — 3 est plus petit que 8 ! » Certains nombres sont loin l’un de l’autre, comme 2 et 9, d’autres sont voisins, comme 5 et 6 — ce sont eux qu’il faut regarder de près. Les deux nombres ne sont jamais les mêmes.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et peut afficher ou cacher la bande numérique sous les tours. Ni chrono ni score."
       ],
       "practices": [
-        "Comparer deux nombres écrits de 1 à 10 et trouver le plus petit.",
-        "Lire les chiffres et connaître leur valeur sans compter d'objets.",
-        "Porter son attention sur le « moins » plutôt que sur le « plus » au moment de comparer.",
-        "Gérer les paires proches comme 8 et 9, et pas seulement les paires éloignées."
+        "Comparer deux nombres écrits jusqu’à 10",
+        "Dire lequel de deux nombres vient en premier dans la comptine",
+        "Voir combien vaut chaque nombre écrit",
+        "Dire « plus petit » pour le nombre qui vient en premier"
       ],
       "howToPlay": [
-        "Regarde les deux nombres affichés.",
-        "Touche celui qui est le plus petit, puis appuie sur Vérifier.",
-        "Recommence quand tu veux ; il n'y a ni minuteur, ni score."
+        "Regarde les deux nombres. Lequel est le plus petit ?",
+        "Touche le plus petit nombre, puis appuie sur Vérifier.",
+        "Regarde les deux tours grandir ensemble : la tour du plus petit nombre s’arrête la première.",
+        "Pas encore ? Compte à partir de 1 — le nombre que tu dis en premier est le plus petit. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Comparer des nombres écrits de 1 à 10 et choisir le plus petit.",
-        "Connaître la valeur représentée par chaque chiffre, sans compter.",
-        "Construire le sens de la comparaison qui prépare le raisonnement « plus petit que » plus tard."
+        "Comparer deux nombres écrits en chiffres entre 1 et 10",
+        "Savoir qu’un nombre qui vient plus tôt dans la comptine est plus petit",
+        "Relier chaque nombre écrit à la quantité qu’il représente"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

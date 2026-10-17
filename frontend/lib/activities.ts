@@ -122,6 +122,7 @@ const MANIFEST_FILES = [
   'bug-jar-activities.json',
   'partner-bows-activities.json',
   'number-lift-activities.json',
+  'block-towers-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

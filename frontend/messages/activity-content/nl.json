@@ -3791,25 +3791,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Er verschijnen twee geschreven getallen en je kind tikt het kleinste aan — bijvoorbeeld 3 en 5, of 8 en 9. Soms liggen de getallen ver uit elkaar, zoals 1 en 9, en soms staan ze vlak bij elkaar, zoals 5 en 6. Het is een interactieve telactiviteit voor de kleuterklas die zonder registratie meteen in de browser speelt.",
-        "Het draait om getallen vergelijken op waarde, en dan juist op zoek naar minder in plaats van meer — een kleine maar belangrijke omschakeling van aandacht. Er zijn geen voorwerpen om te tellen: je kind leest elk cijfer en bepaalt welk getal het kleinste is. De buurparen maken het echt: weten dat 8 net vóór 9 komt, vertelt je dat 8 het kleinere getal is.",
-        "De activiteit sluit aan bij de kerndoelen rond getalbegrip: twee getallen van 1 tot en met 10 vergelijken, gepresenteerd als geschreven cijfers. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig kijken en vergelijken."
+        "Twee grote getalkaarten liggen naast elkaar – bijvoorbeeld 3 en 8 –, met boven elke kaart de lege voet van een toren. Welk getal is kleiner? Het kind tikt erop en drukt op Controleer. Dan groeien beide torens tegelijk, één blokje per tel, terwijl eronder een getallenrij oplicht: 1, 2, 3 … De toren van 3 stopt bij drie blokjes en hijst een vlaggetje; de toren van 8 groeit door. Een interactieve activiteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "De torens laten zien hoeveel elk geschreven getal is en waarom het ene kleiner is: wie vanaf 1 telt, komt eerst bij het kleinere getal, en daarom stopt zijn toren het eerst. Na een eerste fout vraagt de hint om vanaf 1 te tellen en te merken welk van de twee getallen het eerst komt; na een tweede groeien de torens om het te laten zien, met het vlaggetje bij het kleinere getal, tot het kind opnieuw kiest. Een goed antwoord zegt het met getallen: ‘Ja – 3 is kleiner dan 8!’ Sommige getallen liggen ver uit elkaar, zoals 2 en 9, andere zijn buren, zoals 5 en 6 – daar moet je goed naar kijken. De twee getallen zijn nooit gelijk.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: twee geschreven getallen tussen 1 en 10 vergelijken. De leerkracht kiest getallen tot en met 5 of tot en met 10, en kan de getallenrij onder de torens laten zien of verbergen. Geen timer, geen score."
       ],
       "practices": [
-        "Twee geschreven getallen van 1 tot en met 10 vergelijken en het kleinste vinden",
-        "Cijfers lezen en hun waarde kennen zonder voorwerpen te tellen",
-        "De aandacht verleggen naar minder in plaats van meer bij het vergelijken",
-        "Ook getallen die dicht bij elkaar liggen aankunnen, zoals 8 en 9, niet alleen ver uit elkaar"
+        "Twee geschreven getallen tot en met 10 vergelijken",
+        "Zeggen welk van twee getallen het eerst komt als je telt",
+        "Zien hoeveel elk geschreven getal is",
+        "‘Kleiner’ gebruiken voor het getal dat het eerst komt"
       ],
       "howToPlay": [
-        "Bekijk de twee getallen op het bord.",
-        "Tik op het getal dat kleiner is en druk op Controleer.",
-        "Probeer het gerust opnieuw — er is geen timer en geen score."
+        "Kijk naar de twee getallen. Welk is kleiner?",
+        "Tik op het kleinere getal en druk dan op Controleer.",
+        "Kijk hoe beide torens samen groeien: de toren van het kleinere getal stopt het eerst.",
+        "Nog niet? Tel vanaf 1 – het getal dat je het eerst zegt, is kleiner. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Je kind vergelijkt geschreven getallen van 1 tot en met 10 en kiest het kleinste.",
-        "Je kind kent de waarde die elk cijfer voorstelt, zonder te tellen.",
-        "Je kind bouwt het vergelijkingsgevoel op dat later het 'kleiner dan'-denken ondersteunt."
+        "Twee geschreven getallen tussen 1 en 10 vergelijken",
+        "Weten dat een getal dat eerder komt als je telt kleiner is",
+        "Elk geschreven getal verbinden met de hoeveelheid die het aangeeft"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

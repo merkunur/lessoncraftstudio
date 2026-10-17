@@ -2687,25 +2687,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Aparecen dos grupos de dibujos amistosos, uno al lado del otro —gatos, perros, patos, peces, manzanas, plátanos, naranjas o fresas— y el niño o la niña toca el grupo que tiene más. Las cantidades llegan hasta ocho, y se comparan mirando y contando, no leyendo números. Es una actividad de conteo para preescolar que corre en el navegador en el celular, la tableta o la computadora del salón, sin crear cuenta.",
-        "La idea importante es que «más» se trata de cuántos hay, no del espacio que ocupa un grupo. Como los dos grupos pueden estar parejos —por ejemplo siete contra seis, o seis contra cinco— no se gana con solo echar un vistazo a la mancha más grande: hay que contar cada grupo y comparar los totales. Así se vence el truco común para los ojos, donde unos cuantos dibujos separados parecen más que un montoncito apretado.",
-        "Está alineada con los planes y programas de estudio (SEP): decir si la cantidad de objetos de un grupo es mayor, menor o igual que la de otro grupo. Sin temporizador y sin puntuación, con calma y a su propio ritmo."
+        "Dos tapetes, dos grupos que van juntos: abejas y flores, conejos y zanahorias, ardillas y bellotas. ¿Qué grupo tiene más, o tienen igual? El niño toca «Más» en el grupo que tiene más, o «Igual», y oprime Comprobar. Es una actividad interactiva para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "El acomodo muchas veces es una trampa: en muchas rondas el grupo menor está extendido por todo su tapete y el mayor está apretado, así que el grupo que parece más grande es el que tiene menos, aunque no siempre: no hay que fiarse del ojo. Es la trampa clásica de comparar a ojo, y la actividad le da al niño dos formas honestas de no caer en ella. Una es emparejar: tocar uno del grupo de arriba y luego uno del de abajo les da a los dos el mismo moño —un color y una forma—, y los que se quedan sin moño muestran qué grupo tiene más; si no sobra ninguno, tienen igual. La otra es contar los dos grupos. Una respuesta equivocada trae una pista: formar parejas, o buscar a los que no tienen pareja. Al segundo intento, los demás se emparejan y los que no tienen pareja quedan dentro de un círculo. Una respuesta correcta le pone moño a cada pareja, numera los dos grupos y lo dice con números: «10 es más que 7».",
+        "Está alineada con los planes y programas de estudio (SEP): comparar colecciones de hasta 10 emparejando y contando: más, menos o igual. El docente elige grupos de hasta 5 o de hasta 10, y puede quitar la trampa del acomodo. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Contar cuántos elementos hay en cada uno de los dos grupos.",
-        "Comparar los dos totales para decidir cuál grupo tiene más.",
-        "No dejarse engañar por lo separado o apretado que se vea un grupo y contar en su lugar.",
-        "Relacionar la cantidad mayor con la idea de «más»."
+        "Comparar dos colecciones de hasta 10: más, menos o igual",
+        "Emparejar uno a uno: una pareja para cada uno",
+        "Contar las dos colecciones para compararlas",
+        "No dejarse engañar por el acomodo"
       ],
       "howToPlay": [
-        "Mira los dos grupos de dibujos y cuenta cuántos hay en cada uno.",
-        "Toca el grupo que tiene más y luego comprueba tu elección.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Mira los dos grupos. ¿Cuál tiene más, o tienen igual?",
+        "Para saberlo, forma parejas: toca uno de arriba y luego uno de abajo; los dos reciben el mismo moño.",
+        "Toca «Más» en el grupo que tiene más, o «Igual», y luego oprime Comprobar.",
+        "¿Todavía no? La pista dice qué intentar: corrige y oprime Comprobar otra vez. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede decir cuál de dos grupos tiene más contando los elementos.",
-        "El niño o la niña aprende a entender que la cantidad mayor significa más, sin importar cómo estén acomodados los dibujos.",
-        "Construye la base de la comparación para el trabajo posterior con mayor que y menor que."
+        "Decir si una colección tiene más, menos o igual que otra, hasta 10",
+        "Comparar colecciones emparejando uno a uno",
+        "Comparar colecciones contando"
       ]
     },
     "choice-board.compare-length.k-md-2": {

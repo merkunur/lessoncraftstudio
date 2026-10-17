@@ -1647,25 +1647,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Compaiono due gruppi di immagini amichevoli — gatti, cani, anatre, pesci, mele, banane, arance o fragole — e il bambino tocca il gruppo che ne ha di più. Le quantità arrivano fino a otto e il confronto si fa guardando e contando, non leggendo i numeri scritti. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che funziona nel browser su telefono, tablet e computer di classe, senza registrazione.",
-        "L'idea importante è che «di più» riguarda quanti sono, non quanto spazio occupa un gruppo. Poiché i due gruppi possono essere vicini come quantità — sette contro sei, oppure sei contro cinque — il bambino non può vincere con una semplice occhiata al mucchio più grande: deve davvero contare ogni gruppo e confrontare i totali. Così si supera il tipico inganno dell'occhio, per cui poche immagini sparpagliate sembrano più di un gruppetto fitto.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire se la quantità di oggetti di un gruppo è maggiore, minore o uguale a quella di un altro. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Due tappeti, due gruppi che vanno insieme: api e fiori, conigli e carote, scoiattoli e ghiande. Quale gruppo ne ha di più, o sono uguali? Il bambino tocca «Di più» sul gruppo che ne ha di più, oppure «Tanti quanti», e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente e senza account.",
+        "La disposizione spesso è un trabocchetto: in molti turni il gruppo più piccolo è sparpagliato su tutto il tappeto e quello più grande è stretto stretto, così il gruppo che sembra più grande è quello che ne ha di meno, ma non sempre: dell’occhio non ci si può fidare. È la trappola classica del confronto a occhio, e l’attività dà al bambino due modi onesti per evitarla. Uno è la corrispondenza: toccare uno in alto e poi uno in basso dà a tutti e due lo stesso fiocco — un colore e una forma — e chi resta senza fiocco mostra quale gruppo ne ha di più; se non avanza nessuno, sono uguali. L’altro è contare i due gruppi. Una risposta sbagliata porta un suggerimento: formare le coppie, oppure cercare chi è rimasto senza compagno. Al secondo errore, gli altri vengono messi in coppia e quelli senza compagno vengono cerchiati. Una risposta giusta dà un fiocco a ogni coppia, numera i due gruppi e lo dice con i numeri: «10 è più di 7».",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare raccolte fino a 10 per corrispondenza e contando — di più, di meno o tanti quanti. L’insegnante sceglie gruppi fino a 5 o fino a 10 e può togliere il trabocchetto della disposizione. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare quanti oggetti ci sono in ciascuno dei due gruppi.",
-        "Confrontare i due totali per decidere quale gruppo ne ha di più.",
-        "Non lasciarsi ingannare da quanto un gruppo è sparpagliato o raccolto, ma contare.",
-        "Collegare la quantità più grande all'idea di «di più»."
+        "Confrontare due raccolte fino a 10: di più, di meno o tanti quanti",
+        "Fare corrispondere uno a uno: un compagno per ciascuno",
+        "Contare le due raccolte per confrontarle",
+        "Non farsi ingannare dalla disposizione"
       ],
       "howToPlay": [
-        "Il bambino guarda i due gruppi di immagini e conta quanti oggetti ci sono in ognuno.",
-        "Tocca il gruppo che ne ha di più, poi conferma la scelta.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Guarda i due gruppi. Quale ne ha di più, o sono uguali?",
+        "Per scoprirlo, forma le coppie: tocca uno in alto e poi uno in basso — tutti e due ricevono lo stesso fiocco.",
+        "Tocca «Di più» sul gruppo che ne ha di più, oppure «Tanti quanti», poi premi Verifica.",
+        "Non ancora? Il suggerimento dice cosa provare: correggi e premi di nuovo Verifica. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Riconoscere contando quale di due gruppi ne ha di più.",
-        "Capire che la quantità più grande significa «di più», comunque siano disposte le immagini.",
-        "Costruire le basi del confronto per il lavoro su maggiore e minore con i numeri più avanti."
+        "Dire se una raccolta ne ha di più, di meno o quanto un’altra, fino a 10",
+        "Confrontare raccolte con la corrispondenza uno a uno",
+        "Confrontare raccolte contando"
       ]
     },
     "choice-board.compare-length.k-md-2": {

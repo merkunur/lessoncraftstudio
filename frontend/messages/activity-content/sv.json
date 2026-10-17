@@ -516,25 +516,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Två grupper med vänliga bilder visas bredvid varandra — katter, hundar, ankor, fiskar, äpplen, bananer, apelsiner eller jordgubbar — och barnet trycker på den grupp som har fler. Antalen går upp till åtta, och barnet jämför genom att titta och räkna i stället för att läsa siffror. Det är en räkneövning för förskoleklass som körs i webbläsaren på mobil, surfplatta och klassrumsdator, helt utan registrering.",
-        "Den stora idén är att fler handlar om hur många, inte om hur stor plats en grupp tar. Eftersom grupperna kan ligga nära varandra — som sju mot sex, eller sex mot fem — går det inte att vinna genom att bara kasta en blick på den största klumpen; barnet måste verkligen räkna varje grupp och jämföra antalen. Det slår det vanliga ögonknepet där några utspridda bilder ser ut att vara fler än en liten tät hög.",
-        "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att avgöra om antalet föremål i en grupp är fler än, färre än eller lika med antalet i en annan grupp. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Två mattor, två grupper som hör ihop – bin och blommor, kaniner och morötter, ekorrar och ekollon. Vilken grupp har fler, eller är de lika många? Barnet trycker på ”Fler” vid gruppen som har fler, eller på ”Lika många”, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Utspridningen är ofta ett lurendrejeri: i många omgångar ligger den mindre gruppen utspridd över hela sin matta medan den större trängs ihop, så den grupp som ser större ut är den som har färre – men inte alltid, så ögat går inte att lita på. Det är den klassiska fällan när man jämför med ögat, och övningen ger barnet två ärliga sätt att ta sig förbi den. Det ena är att para ihop: ett tryck på en i den övre gruppen och sedan på en i den nedre ger båda samma rosett – en färg och en form – och de som blir utan rosett visar vilken grupp som har fler; blir ingen över är de lika många. Det andra är att räkna båda grupperna. Ett fel svar ger ett tips: gör par, eller leta efter dem som saknar kompis. Efter ett andra försök paras resten ihop och de som saknar kompis ringas in. Ett rätt svar ger varje par en rosett, numrerar båda grupperna och säger det med tal: ”10 är fler än 7”.",
+        "Aktiviteten följer Lgr22 – att jämföra antal upp till 10 genom att para ihop och räkna: fler, färre eller lika många. Läraren väljer grupper upp till 5 eller upp till 10 och kan stänga av lurendrejeriet med utspridningen. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Räkna hur många det är i var och en av de två grupperna",
-        "Jämföra de två antalen för att avgöra vilken grupp som har fler",
-        "Bortse från hur utspridd eller tät en grupp ser ut och räkna i stället",
-        "Koppla det större antalet till tanken fler"
+        "Jämföra två grupper upp till 10: fler, färre eller lika många",
+        "Para ihop en till en: en kompis till var och en",
+        "Räkna båda grupperna för att jämföra dem",
+        "Inte låta utspridningen lura ögat"
       ],
       "howToPlay": [
-        "Titta på de två grupperna med bilder och räkna hur många det är i varje.",
-        "Tryck på den grupp som har fler, och kontrollera sedan ditt val.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Titta på de två grupperna. Vilken har fler, eller är de lika många?",
+        "För att ta reda på det, gör par: tryck på en uppe och sedan på en nere – båda får samma rosett.",
+        "Tryck på ”Fler” vid gruppen som har fler, eller på ”Lika många”, och tryck sedan på Kontrollera.",
+        "Inte riktigt? Tipset säger vad du kan prova – rätta och tryck på Kontrollera igen. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan avgöra vilken av två grupper som har fler genom att räkna",
-        "Barnet förstår att det större antalet betyder fler, oavsett hur bilderna ligger",
-        "Barnet bygger den grund för större än och mindre än som behövs i senare arbete med tal"
+        "Avgöra om en grupp har fler, färre eller lika många som en annan, upp till 10",
+        "Jämföra grupper genom att para ihop en till en",
+        "Jämföra grupper genom att räkna"
       ]
     },
     "choice-board.compare-length.k-md-2": {

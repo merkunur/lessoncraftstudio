@@ -127,6 +127,10 @@ function seedScript(row) {
     // fourteen butterflies packed in the jar beside the jar of ten, "more than 10" chosen: the card shows the invention (the yardstick jar), not just a tray
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();window.BugJarCore.guess(t.st,'more');t._paint();})();`;
   }
+  if (row.tool === 'partner-bows-activity') {
+    // six bees spread out against eight huddled flowers, four pairs already bowed and one bee picked: the card shows the trick and the invention together
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.a===6&&r.b===8;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.PartnerBowsCore;for(var s=0;s<4;s++){C.tap(t.st,'a',s);C.tap(t.st,'b',s);}C.tap(t.st,'a',4);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

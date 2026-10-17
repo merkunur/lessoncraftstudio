@@ -1151,25 +1151,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Dois grupos de figuras simpáticas aparecem lado a lado — gatos, cachorros, patos, peixes, maçãs, bananas, laranjas ou morangos — e a criança toca no grupo que tem mais. As quantidades vão até oito, e a comparação acontece olhando e contando, sem precisar ler números. É uma atividade de contagem para a educação infantil, que funciona no navegador do celular, do tablet ou do computador da escola, sem precisar de conta.",
-        "A grande ideia é que “mais” tem a ver com a quantidade, e não com o espaço que o grupo ocupa. Como os dois grupos podem ficar parecidos — sete contra seis, ou seis contra cinco —, não dá para ganhar só batendo o olho no monte maior: a criança precisa mesmo contar cada grupo e comparar os totais. Isso vence aquela ilusão comum em que poucas figuras espalhadas parecem ser mais do que um montinho bem juntinho.",
-        "A atividade está alinhada à BNCC, no trabalho de identificar se a quantidade de objetos de um grupo é maior, menor ou igual à de outro grupo. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+        "Dois tapetes, dois grupos que combinam: abelhas e flores, coelhos e cenouras, esquilos e bolotas. Qual grupo tem mais, ou os dois têm igual? A criança toca em “Mais” no grupo que tem mais, ou em “Igual”, e aperta Verificar. É uma atividade interativa que funciona no navegador, sem instalar nada e sem cadastro.",
+        "A arrumação muitas vezes é uma pegadinha: em muitas rodadas o grupo menor está espalhado pelo tapete inteiro e o maior está apertadinho, então o grupo que parece maior é o que tem menos — mas nem sempre, então não dá para confiar só no olho. É a armadilha clássica de comparar só de olhar, e a atividade dá à criança dois jeitos honestos de escapar dela. Um é fazer correspondência: tocar em um do grupo de cima e depois em um do grupo de baixo dá aos dois o mesmo laço — uma cor e uma forma —, e quem fica sem laço mostra qual grupo tem mais; se ninguém sobrar, os dois têm igual. O outro é contar os dois grupos. Uma resposta errada traz uma dica: formar pares, ou procurar quem ficou sem par. No segundo erro, os outros são colocados em pares e os que ficaram sem par ganham um círculo. Uma resposta certa dá um laço a cada par, numera os dois grupos e diz com números: “10 é mais que 7”.",
+        "A atividade está alinhada à BNCC, no campo dos números: comparar coleções de até 10 por correspondência e por contagem — mais, menos ou igual. O professor escolhe grupos de até 5 ou de até 10 e pode desligar a pegadinha da arrumação. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar quantos objetos há em cada um dos dois grupos.",
-        "Comparar os dois totais para decidir qual grupo tem mais.",
-        "Ignorar se o grupo está espalhado ou juntinho e contar de verdade.",
-        "Ligar o total maior à ideia de “mais”."
+        "Comparar duas coleções de até 10: mais, menos ou igual",
+        "Fazer correspondência um a um: um par para cada um",
+        "Contar as duas coleções para compará-las",
+        "Não se deixar enganar pela arrumação"
       ],
       "howToPlay": [
-        "Olhe os dois grupos de figuras e conte quantos há em cada um.",
-        "Toque no grupo que tem mais e confirme a sua escolha.",
-        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Olhe os dois grupos. Qual tem mais, ou os dois têm igual?",
+        "Para descobrir, forme pares: toque em um de cima e depois em um de baixo — os dois ganham o mesmo laço.",
+        "Toque em “Mais” no grupo que tem mais, ou em “Igual”, e depois aperte Verificar.",
+        "Ainda não? A dica diz o que tentar: corrija e aperte Verificar de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Dizer qual de dois grupos tem mais, contando para comparar.",
-        "Entender que a quantidade maior significa “mais”, não importa como as figuras estejam arrumadas.",
-        "Construir a base de comparação que vai sustentar o maior que e o menor que com números mais para frente."
+        "Dizer se uma coleção tem mais, menos ou igual a outra, até 10",
+        "Comparar coleções por correspondência um a um",
+        "Comparar coleções contando"
       ]
     },
     "choice-board.compare-length.k-md-2": {

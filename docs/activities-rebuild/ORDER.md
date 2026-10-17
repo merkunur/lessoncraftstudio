@@ -22,7 +22,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 16 | LIVE 2026-10-17 → `bug-jar-activity` (the Bug Jar), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.B.5 | `wondering-jar.estimate-jar.k-cc-b-5` | wondering-jar-activity | The Wondering Jar — Guess, Then Count to Find Out (Kindergarten) |
 | 17 | LIVE 2026-10-17 → `partner-bows-activity` (the Partner Bows), 11 locales; operator review pending | K | K.CC.C.6 | `choice-board.which-more.k-c-c-6` | choice-board-activity | Which Group Has More? — Kindergarten Counting |
 | 18 | LIVE 2026-10-17 → `fair-share-activity` (the Friendship Bridge, fair share), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.C.6 | `friendship-bridge.compare-balance.k-cc-c-6` | friendship-bridge-activity | The Friendship Bridge — Compare Groups: More, Fewer, Same |
-| 19 |  | K | K.CC.C.7 | `choice-board.pick-bigger.k-c-c-7` | choice-board-activity | Which Number Is Bigger? — Kindergarten Counting |
+| 19 | LIVE 2026-10-17 → `number-lift-activity` (the Number Elevator), 11 locales; operator review pending | K | K.CC.C.7 | `choice-board.pick-bigger.k-c-c-7` | choice-board-activity | Which Number Is Bigger? — Kindergarten Counting |
 | 20 |  | K | K.CC.C.7 | `choice-board.pick-smaller.k-c-c-7` | choice-board-activity | Which Number Is Smaller? — Kindergarten Counting |
 | 21 |  | K | K.CC.C.7 | `comparison-creek.river-steer.k-cc-c-7` | comparison-creek-activity | Comparison Creek — Compare Numbers 1–10 (Kindergarten) |
 | 22 |  | K | K.CC.C.7 | `nesting-pots.seriate.k-cc-c-7` | nesting-pots-activity | Grandpa Pip's Nesting Pots — Compare Numbers 1–10 (Kindergarten) |

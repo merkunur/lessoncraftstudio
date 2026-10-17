@@ -1730,6 +1730,30 @@
         "Tælle et givet antal af",
         "Vide, at to grupper er lige store, når hver ting i den ene kan sættes sammen med en ting i den anden"
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Et glas er fuldt af kryb – mariehøns, bier, snegle – der ligger hulter til bulter oven på hinanden, så ingen kan tælle dem gennem glasset. Ved siden af står et glas med præcis ti af de samme kryb. Barnet gætter først: færre end i glasset med ti, eller flere? Så hælder barnet glasset ud, krybene lander på en bakke, hvor de kan tælles, og barnet finder ud af det. En interaktiv tælleøvelse, der virker i browseren, uden installation og uden konto.",
+        "Glasset med ti er målestokken. Begge glas er fyldt på samme måde, så det fyldigste rummer virkelig flest, og barnet lærer at vurdere en mængde ud fra et tal, det kender, før det tæller. Når glasset er hældt ud, ligger krybene i rækker, i et rektangel, i ring eller hulter til bulter, op til 16. Et tryk på et kryb sætter flueben ved det som talt, så barnet ved, hvilke der allerede er talt – fluebenet er aldrig et tal. Barnet sætter glassets etiket med − og +; den starter på ti, så det at tælle videre fra ti (”ti, elleve, tolv …”) er en vej til et tal over ti. Når det ikke passer, siger hintet, om der stadig er kryb uden flueben, eller om tallet er for stort eller for lille; efter endnu et forsøg nummereres krybene frem til det sidste, som viser et spørgsmålstegn, og barnet siger det sidste tal – så mange er der. Når det passer, nummereres krybene i den rækkefølge, barnet satte flueben ved dem, og antallet holdes op mod gættet: ”Flere end 10, præcis som du gættede” eller ”flere, end du gættede”. Et gæt regnes aldrig som forkert.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle, hvor mange der er, op til 16 i rækker eller i et rektangel, op til 9 i ring og op til 10 hulter til bulter. Læreren vælger tal op til 10 (målestokken er så et glas med fem) eller op til 16 og kan slå gættet fra. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Vurdere en mængde ud fra glasset med ti, før man tæller",
+        "Tælle op til 16 kryb i rækker, i et rektangel, i ring eller hulter til bulter",
+        "Sætte flueben ved hvert kryb, der tælles, så intet tælles to gange eller glemmes",
+        "Vide, at det sidste tal, man tæller, fortæller, hvor mange der er"
+      ],
+      "howToPlay": [
+        "Se på de to glas, og gæt: færre kryb end i glasset med ti, eller flere?",
+        "Hæld glasset ud. Tryk på hvert kryb for at sætte flueben ved det, mens du tæller.",
+        "Sæt glassets etiket til antallet med − og +, og tryk så på Tjek.",
+        "Ikke helt? Hintet siger, hvad du skal se efter – ret det, og tryk på Tjek igen. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Tælle, hvor mange der er, op til 16 i rækker eller i et rektangel, op til 9 i ring og op til 10 hulter til bulter",
+        "Vide, at det sidste tal, man tæller, fortæller, hvor mange der er",
+        "Sammenligne en mængde med ti, før man tæller den"
+      ]
     }
   }
 }

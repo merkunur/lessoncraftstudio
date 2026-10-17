@@ -1461,25 +1461,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Hoog op een tak zit Uiltje met een glas vol snoepjes op schoot. Uiltje houdt het glas omhoog, kijkt je kind vragend aan en hoeft het niet eens te tellen: hoeveel snoepjes zouden er nou in zitten, denk je? Even goed kijken, en dan een schatting maken.",
-        "Eerst schat je kind: ongeveer hoeveel snoepjes zitten er in het glas? Je hoeft niet te tellen – je zet gewoon een goede schatting vast op de getallenlijn. Daarna tel je één voor één elk snoepje om de echte hoeveelheid te ontdekken en die met de schatting te vergelijken. Dat noemen we schatten van hoeveelheden: het gaat om een goede schatting en het plezier van het ontdekken. Schatten is nooit fout. Deze activiteit sluit aan bij de SLO-kerndoelen voor kleuters.",
-        "Geen klok en geen score – alleen rustig schatten en tellen, zo vaak als je kind wil. Elke schatting is een goede schatting, want je schatting is nooit fout: je ontdekt gewoon samen hoeveel het er echt zijn.."
+        "Een pot zit vol beestjes – lieveheersbeestjes, bijen, slakken – die zo over elkaar heen liggen dat niemand ze door het glas kan tellen. Ernaast staat een pot met precies tien van dezelfde beestjes. Het kind raadt eerst: minder dan in de pot met tien, of meer? Dan kiepert het de pot leeg, de beestjes komen op een dienblad waar je ze kunt tellen, en het kind ontdekt het antwoord. Een interactieve telactiviteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "De pot met tien is de maatstaf. Beide potten zijn op dezelfde manier gevuld, dus de volste bevat echt meer, en het kind leert een hoeveelheid te schatten tegen een getal dat het kent, voordat het telt. Na het leegkiepen liggen de beestjes in rijen, in een rechthoek, in een kring of door elkaar, tot 16. Een tik op een beestje vinkt het af als geteld, zodat het kind weet welke al geteld zijn – het vinkje is nooit een getal. Het kind zet het etiket van de pot goed met − en +; het begint bij tien, dus doortellen vanaf tien (‘tien, elf, twaalf…’) is een manier om bij een getal boven de tien te komen. Klopt het niet, dan zegt de hint of er nog beestjes zonder vinkje zijn of dat het getal te groot of te klein is; na een tweede keer krijgen de beestjes een nummer tot en met het laatste, dat een vraagteken toont, en het kind noemt het laatste getal – zoveel zijn het er. Klopt het, dan krijgen de beestjes een nummer in de volgorde waarin het kind ze afvinkte en wordt het aantal vergeleken met de gok: ‘Meer dan 10, precies zoals je had geraden’ of ‘meer dan je had geraden’. Een gok wordt nooit fout gerekend.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: hoeveelheden tot en met 16 tellen in rijen of in een rechthoek, tot en met 9 in een kring en tot en met 10 door elkaar. De leerkracht kiest getallen tot en met 10 (de maatstaf is dan een pot met vijf) of tot en met 16, en kan het raden uitzetten. Geen timer, geen score."
       ],
       "practices": [
-        "Een hoeveelheid schatten zonder te tellen",
-        "De schatting vergelijken met het echte aantal",
-        "Eén voor één tellen om te controleren",
-        "Twee glazen vergelijken: welk glas heeft er meer?"
+        "Een hoeveelheid schatten tegen de pot met tien voordat je telt",
+        "Tot 16 beestjes tellen in rijen, in een rechthoek, in een kring of door elkaar",
+        "Elk getelde beestje afvinken, zodat je er geen twee keer telt of overslaat",
+        "Weten dat het laatst getelde getal zegt hoeveel het er zijn"
       ],
       "howToPlay": [
-        "Schat hoeveel snoepjes er in het glas zitten",
-        "Schuif je schatting op de getallenlijn en zet die vast",
-        "Tel elk snoepje om de echte hoeveelheid te ontdekken"
+        "Kijk naar de twee potten en raad: minder beestjes dan in de pot met tien, of meer?",
+        "Kieper de pot leeg. Tik elk beestje aan om het af te vinken terwijl je telt.",
+        "Zet het etiket van de pot met − en + op het aantal en druk dan op Controleer.",
+        "Nog niet helemaal? De hint zegt waar je op moet letten – verbeter het en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Hoeveelheden tot ongeveer 20 leren schatten",
-        "Een schatting durven vergelijken met het echte aantal",
-        "Nauwkeurig tellen en meer of minder herkennen"
+        "Hoeveelheden tot 16 tellen in rijen of in een rechthoek, tot 9 in een kring en tot en met 10 door elkaar",
+        "Weten dat het laatst getelde getal zegt hoeveel het er zijn",
+        "Een hoeveelheid vergelijken met tien voordat je telt"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

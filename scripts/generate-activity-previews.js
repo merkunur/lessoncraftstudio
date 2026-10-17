@@ -123,6 +123,10 @@ function seedScript(row) {
     // seven crabs scattered, seven starfish in the twin pool, the strings tied: the card shows the invention (an empty twin pool would read as half a card)
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===7&&r.arr==='scatter';});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();t.STRING_MS=0;for(var s=0;s<7;s++)window.TwinPoolsCore.place(t.st,s);window.TwinPoolsCore.check(t.st);t._paint();})();`;
   }
+  if (row.tool === 'bug-jar-activity') {
+    // fourteen butterflies packed in the jar beside the jar of ten, "more than 10" chosen: the card shows the invention (the yardstick jar), not just a tray
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();window.BugJarCore.guess(t.st,'more');t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

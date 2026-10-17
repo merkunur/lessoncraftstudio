@@ -2931,25 +2931,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Uma coruja curiosa adora adivinhar quantos docinhos cabem num frasco. O frasco aparece cheinho, você olha e dá o seu palpite: desliza o dedo pela reta numérica e trava um número de quantos acha que tem. E aqui vale uma regrinha gostosa: o seu palpite nunca está errado. Depois o frasco se abre, os docinhos se espalham pela tela, e você toca em cada um, um por um, para descobrir o número de verdade.",
-        "A ideia grande é esta: primeiro a gente estima (conta de olho, mais ou menos) e depois conta para conferir. Estimar não é acertar ou errar, é dar um chute esperto que a contagem vai confirmar. E quando você toca em cada docinho uma única vez, essa contagem responde à pergunta mais importante: quantos são? Não importa se eles estão numa fila, espalhados ou juntinhos em roda — o total é sempre o mesmo, e contar com calma sempre revela.",
-        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — ninguém corre contra o relógio e ninguém perde pontos. Ela é alinhada à BNCC, na unidade temática Números, e ajuda a criança a construir uma base firme para contar e estimar com segurança, no seu próprio ritmo."
+        "Um pote está cheio de bichinhos — joaninhas, abelhas, caracóis — amontoados uns sobre os outros, e ninguém consegue contá-los através do vidro. Ao lado fica um pote com exatamente dez bichinhos iguais. A criança dá um palpite primeiro: menos que no pote de dez, ou mais? Depois esvazia o pote, os bichinhos caem numa bandeja onde dá para contá-los, e ela descobre. É uma atividade interativa de contagem que funciona no navegador, sem instalar nada e sem cadastro.",
+        "O pote de dez é a referência. Os dois potes estão cheios do mesmo jeito, então o mais cheio tem mesmo mais, e a criança aprende a estimar uma quantidade comparando-a com um número que conhece antes de contar. Depois de esvaziar o pote, os bichinhos ficam em fileiras, em disposição retangular, em roda ou espalhados, até 16. Tocar num bichinho o marca como contado, para que a criança saiba quais já contou — a marca nunca é um número. A criança ajusta a etiqueta do pote com − e +; ela começa em dez, então contar a partir de dez («dez, onze, doze…») é um jeito de chegar a um número maior que dez. Quando não está certo, a dica diz se ainda há bichinhos sem marca ou se o número está grande ou pequeno demais; no segundo erro, os bichinhos são numerados até o último, que mostra um ponto de interrogação, e a criança diz o último número: é quantos são. Quando está certo, os bichinhos são numerados na ordem em que a criança os marcou e a quantidade é comparada com o palpite: «Mais de 10, como você imaginou» ou «mais do que você imaginou». Um palpite nunca é marcado como errado.",
+        "A atividade está alinhada à BNCC, no campo dos números: contar coleções de até 16 em fileiras ou em disposição retangular, de até 9 em roda e de até 10 espalhadas. O professor escolhe números até 10 (a referência passa a ser um pote de cinco) ou até 16 e pode desligar o palpite. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Dar um palpite de quantos docinhos tem no frasco",
-        "Contar um a um para conferir quantos são de verdade",
-        "Comparar o palpite com o número real, sem falar em \"errado\"",
-        "Comparar dois frascos e ver qual tem mais"
+        "Estimar uma quantidade comparando-a com o pote de dez antes de contar",
+        "Contar até 16 bichinhos em fileiras, em disposição retangular, em roda ou espalhados",
+        "Marcar cada bichinho ao contar, para não contar nenhum duas vezes nem pular nenhum",
+        "Saber que o último número contado diz quantos são"
       ],
       "howToPlay": [
-        "Dê o seu palpite deslizando na reta numérica e trave o número",
-        "O frasco se abre e espalha os docinhos pela tela",
-        "Toque em cada docinho para contar e descobrir quantos são"
+        "Olhe os dois potes e dê um palpite: menos bichinhos que no pote de dez, ou mais?",
+        "Esvazie o pote. Toque em cada bichinho para marcá-lo enquanto conta.",
+        "Ajuste a etiqueta do pote com − e + e depois aperte Verificar.",
+        "Ainda não? A dica diz no que prestar atenção: corrija e aperte Verificar de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Eu dou um palpite de quantos docinhos tem",
-        "Eu conto um a um para conferir",
-        "Eu vejo se tinha mais ou menos do que eu pensei"
+        "Contar até 16 em fileiras ou em disposição retangular, até 9 em roda e até 10 espalhados",
+        "Saber que o último número contado diz quantos são",
+        "Comparar uma quantidade com dez antes de contá-la"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

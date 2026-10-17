@@ -1047,25 +1047,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "Una lechuza curiosa mira un frasco lleno de dulces y le pregunta a tu pequeño: «¿cuántos crees que hay?». El niño hace su estimación —desliza una estrella en la recta numérica, o elige más o menos— y esa estimación siempre se respeta: nunca puede estar mal.",
-        "Después el frasco se abre y los dulces se esparcen: a veces en fila, a veces en círculo, a veces regados. Ahora el niño cuenta cada dulce, uno por uno, para descubrir cuántos hay de verdad, y ve si su estimación fue igual, mayor o menor —solo la dirección, nunca un puntaje. Lo importante no es «adivinar bien», sino volverse seguro contando.",
-        "Como el acomodo cambia en cada ronda, el niño descubre además una idea clave del inicio de las matemáticas: la cantidad no cambia aunque las cosas estén acomodadas de otra forma. Es una actividad sin cronómetro, sin puntaje y sin competencia. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 20."
+        "Un frasco está lleno de bichos — catarinas, abejas, caracoles — amontonados unos sobre otros, así que nadie puede contarlos a través del vidrio. Junto a él hay un frasco con exactamente diez bichos iguales. El niño adivina primero: ¿menos que en el frasco de diez, o más? Luego vacía el frasco, los bichos caen en una bandeja donde se pueden contar, y lo descubre. Es una actividad interactiva de conteo para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "El frasco de diez es la referencia. Los dos frascos están llenos de la misma manera, así que el más lleno de verdad tiene más, y el niño aprende a estimar una cantidad comparándola con un número que conoce antes de contarla. Al vaciarlo, los bichos quedan en hileras, en un arreglo rectangular, en círculo o revueltos, hasta 16. Al tocar un bicho queda marcado como contado, para que el niño sepa cuáles ya contó; la marca nunca es un número. El niño pone la etiqueta del frasco con − y +; empieza en diez, así que contar a partir de diez («diez, once, doce…») es una forma de llegar a un número mayor que diez. Cuando no está bien, la pista dice si quedan bichos sin marca o si el número es muy grande o muy chico; al segundo intento, los bichos se numeran hasta el último, que muestra un signo de interrogación, y el niño dice el último número: esos son los que hay. Cuando está bien, los bichos se numeran en el orden en que el niño los marcó y la cantidad se compara con lo que adivinó: «Más de 10, tal como adivinaste» o «más de lo que adivinaste». Lo que el niño adivinó nunca se marca como malo.",
+        "Está alineada con los planes y programas de estudio (SEP): contar colecciones de hasta 16 en hileras o en arreglo rectangular, de hasta 9 en círculo y de hasta 10 revueltas. El docente elige números hasta 10 (la referencia es entonces un frasco de cinco) o hasta 16, y puede quitar el paso de adivinar. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Estimar cuántos dulces hay en el frasco antes de contar —anticipar una cantidad a ojo, sin miedo a equivocarse.",
-        "Cuando el frasco se abre, contar los dulces uno por uno, tocando cada uno (correspondencia uno a uno).",
-        "Decir cuántos hay en total: el último número contado es la cantidad de la colección (principio de cardinalidad).",
-        "Ver los dulces acomodados de distintas maneras y descubrir que la cantidad no cambia aunque cambie el acomodo (invariancia de la cantidad)."
+        "Estimar una cantidad comparándola con el frasco de diez antes de contar",
+        "Contar hasta 16 bichos en hileras, en arreglo rectangular, en círculo o revueltos",
+        "Marcar cada bicho al contarlo, para no contar ninguno dos veces ni saltarse ninguno",
+        "Saber que el último número contado dice cuántos hay"
       ],
       "howToPlay": [
-        "Haz tu estimación: desliza la estrella en la recta numérica o elige «más» o «menos».",
-        "El frasco se abre y los dulces se esparcen.",
-        "Cuenta cada dulce, uno por uno, y descubre cuántos hay de verdad."
+        "Mira los dos frascos y adivina: ¿menos bichos que en el frasco de diez, o más?",
+        "Vacía el frasco. Toca cada bicho para marcarlo mientras cuentas.",
+        "Pon la etiqueta del frasco con − y + y luego oprime Comprobar.",
+        "¿Todavía no? La pista dice en qué fijarte: corrige y oprime Comprobar otra vez. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Estimar cantidades y luego comprobar contando, comparando lo que creía con lo que contó (igual, más o menos).",
-        "Contar con correspondencia uno a uno y comprender la cardinalidad de una colección de hasta 20 elementos.",
-        "Reconocer que la cantidad de una colección se mantiene aunque los objetos se acomoden de forma diferente, y comparar colecciones para saber cuál tiene más."
+        "Contar hasta 16 en hileras o en arreglo rectangular, hasta 9 en círculo y hasta 10 revueltos",
+        "Saber que el último número contado dice cuántos hay",
+        "Comparar una cantidad con diez antes de contarla"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

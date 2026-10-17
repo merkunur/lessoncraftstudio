@@ -2357,25 +2357,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "„Wie viele sind wohl im Glas?“ — die kleine Eule staunt über jedes Bonbonglas und tippt erst einmal: Das Kind macht einen Wunsch, schiebt einen Stern auf den Zahlenstrahl oder wählt „mehr“ oder „weniger“, und drückt auf los. Dieser Wunsch wird festgehalten und immer geehrt — er kann nie falsch sein.",
-        "Dann öffnet sich das Glas und die Bonbons breiten sich aus: mal in einer Reihe, mal im Kreis, mal bunt verstreut. Jetzt zählt das Kind nach — jedes Bonbon genau einmal — und findet heraus, wie viele es wirklich sind. Zum Schluss sieht es, ob der Wunsch gleich, mehr oder weniger war. Es geht nie darum, „richtig geraten“ zu haben, sondern darum, durch Zählen sicher zu werden. Genau das beschreibt der Lehrplan der Grundschule im Bereich „Zählen und Mengen“: Anzahlen schätzen und durch Zählen überprüfen.",
-        "Weil die Anordnung wechselt, lernt das Kind nebenbei die wichtigste Einsicht des Anfangsunterrichts: Die Anzahl bleibt gleich, egal wie die Dinge liegen. Die Übung ist ganz ohne Zeitdruck und ohne Punkte — nur Staunen, Schätzen und Zählen."
+        "Ein Glas ist voller Tierchen – Marienkäfer, Bienen, Schnecken –, die so übereinander liegen, dass niemand sie durch das Glas zählen kann. Daneben steht ein Glas mit genau zehn solchen Tierchen. Das Kind rät zuerst: weniger als im Glas mit zehn oder mehr? Dann schüttet es das Glas aus, die Tierchen landen auf einem Tablett, wo man sie zählen kann, und das Kind findet es heraus. Eine interaktive Zählübung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Das Glas mit zehn ist der Maßstab. Beide Gläser sind gleich gefüllt, das vollere enthält also wirklich mehr – so lernt das Kind, eine Menge an einer bekannten Zahl abzuschätzen, bevor es zählt. Nach dem Ausschütten liegen die Tierchen in Reihen, in einem Rechteckfeld, im Kreis oder ungeordnet, bis zu 16. Ein Tipp auf ein Tierchen hakt es als gezählt ab, damit das Kind weiß, welche schon gezählt sind – der Haken ist nie eine Zahl. Das Kind stellt das Etikett des Glases mit − und + ein; es beginnt bei zehn, sodass Weiterzählen ab zehn („zehn, elf, zwölf …“) ein Weg zu einer Zahl über zehn ist. Bei einer falschen Prüfung sagt der Hinweis, ob noch Tierchen ohne Haken sind oder ob die Zahl zu groß oder zu klein ist; beim zweiten Fehlversuch werden die Tierchen bis zum letzten nummeriert, das ein Fragezeichen zeigt, und das Kind nennt die letzte Zahl – so viele sind es. Bei einer richtigen Prüfung werden die Tierchen in der Reihenfolge nummeriert, in der das Kind sie abgehakt hat, und die Anzahl wird mit dem Geratenen verglichen: „Mehr als 10 – genau wie du geraten hast“ oder „mehr, als du geraten hast“. Was das Kind geraten hat, wird nie als falsch bewertet.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: Anzahlen bis 16 in Reihen oder im Rechteckfeld, bis 9 im Kreis und bis 10 ungeordnet durch Zählen bestimmen. Lehrkräfte wählen Zahlen bis 10 (der Maßstab ist dann ein Glas mit fünf) oder bis 16 und können das Raten ausschalten. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine Menge schätzen, bevor man sie zählt (Mengenvorstellung anbahnen)",
-        "Die Anzahl durch sorgfältiges Zählen bestimmen — jedes Ding genau einmal",
-        "Mengen vergleichen und „mehr“ oder „weniger“ einschätzen",
-        "Erkennen, dass die Anzahl gleich bleibt, auch wenn die Dinge anders angeordnet sind"
+        "Eine Menge vor dem Zählen am Glas mit zehn abschätzen",
+        "Bis zu 16 Tierchen in Reihen, im Rechteckfeld, im Kreis oder ungeordnet zählen",
+        "Jedes gezählte Tierchen abhaken, damit keines doppelt gezählt oder vergessen wird",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt"
       ],
       "howToPlay": [
-        "Mach deinen Wunsch: Schieb den Stern auf den Zahlenstrahl oder tippe auf „mehr“ oder „weniger“.",
-        "Das Glas öffnet sich und die Bonbons breiten sich aus.",
-        "Zähl jedes Bonbon genau einmal nach und finde heraus, wie viele es wirklich sind."
+        "Schau dir die beiden Gläser an und rate: weniger Tierchen als im Glas mit zehn oder mehr?",
+        "Schütte das Glas aus. Tippe beim Zählen jedes Tierchen an, um es abzuhaken.",
+        "Stelle das Etikett mit − und + auf die Anzahl und drücke dann auf Prüfen.",
+        "Noch nicht ganz? Der Hinweis sagt, worauf du achten sollst – korrigiere und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Anzahlen bis 20 schätzen und anschließend durch Zählen überprüfen",
-        "Jedes Element genau einmal zählen und die Anzahl sicher bestimmen",
-        "Verstehen, dass die Anzahl unabhängig von der Anordnung gleich bleibt"
+        "Anzahlen bis 16 in Reihen oder im Rechteckfeld, bis 9 im Kreis und bis 10 ungeordnet durch Zählen bestimmen",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt",
+        "Eine Menge vor dem Zählen mit zehn vergleichen"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

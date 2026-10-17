@@ -4525,25 +4525,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "A wondering owl loves to guess jars — \"Hoooo many, do you think?\" The child first makes a wish on a number line, using benchmarks of 5, 10, and 20 to pick a sensible guess, and then the jar spreads its sweets out so the child can count them one by one to find the truth. This interactive Kindergarten counting activity runs in the browser with no account.",
-        "The big idea is that a guess is a quick estimate, but counting each thing exactly once is how you actually find how many. The benchmarks of 5, 10, and 20 give the child something to measure against, and later rounds add comparison — guess which jar holds more, or how a pile compares to a reference of six or eight — before counting confirms it. The owl makes clear the guess is never wrong; the fun is finding out, no matter how the sweets are arranged.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" about objects in a line, an array, a circle, or a scattered pile. No timer, no score — just calm, playful practice."
+        "A jar is packed with bugs — ladybugs, bees, snails — heaped over each other, so nobody can count them through the glass. Beside it stands a jar with exactly ten of the same bugs. The child guesses first: fewer than in the jar of ten, or more? Then the child pours the jar out, the bugs land on a tray where they can be counted, and the child finds out. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "The jar of ten is the yardstick. Both jars are packed the same way, so the fuller one really holds more, and a child learns to judge an amount against a number they know before counting it. After the pour the bugs lie in rows, a rectangular array, a ring or a scatter — the arrangements of K.CC.B.5 — up to 16. A tap on a bug ticks it as counted, so the child can keep track of which ones are done; the tick is never a number. The child sets the jar's label with − and +, and the label starts at ten, so counting on from ten (\"ten, eleven, twelve…\") is one way to reach a teen number. A wrong Check says whether some bugs still have no tick or whether the number is too big or too small; after a second, the bugs are numbered up to the last one, which shows a question mark, and the child names the last number — that is how many. A right Check numbers the bugs in the order the child ticked them and holds the count against the guess: \"More than 10, just as you guessed\" or \"more than you guessed\". A guess is never marked wrong.",
+        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" about things in rows or an array (the standard runs to 20; here up to 16), in a ring (here up to 9) and up to 10 in a scatter. Teachers can choose numbers up to 10 (the yardstick is then a jar of five) or up to 16, and turn the guess off. No timer, no score."
       ],
       "practices": [
-        "Make a sensible estimate using benchmarks of 5, 10, and 20",
-        "Count each object exactly once to find how many",
-        "Count objects arranged in a line, an array, a circle, or a scattered pile",
-        "Compare a guess to the true count and a pile to a reference group"
+        "Judging an amount against a jar of ten before counting",
+        "Counting up to 16 bugs in rows, an array, a ring or a scatter",
+        "Ticking each bug as it is counted, so none is counted twice or missed",
+        "Knowing that the last number counted tells how many"
       ],
       "howToPlay": [
-        "Make a wish on the number line for how many you think are in the jar.",
-        "Watch the sweets spread out, then count them one by one to find the true number.",
-        "Your guess is never wrong — find out the truth at your own pace, with no timer and no score."
+        "Look at the two jars and guess: fewer bugs than in the jar of ten, or more?",
+        "Pour the jar out. Tap each bug to tick it as you count.",
+        "Set the jar's label to how many with − and +, then press Check.",
+        "Not quite? The hint says what to look at — fix it and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Count to answer \"how many?\" in any arrangement — the focus of Common Core K.CC.B.5",
-        "Use benchmark numbers to make a reasonable estimate",
-        "Understand that counting, not guessing, gives the exact amount"
+        "Count to answer \"how many?\" up to 16 in rows or an array, up to 9 in a ring, and up to 10 in a scatter — the focus of Common Core K.CC.B.5",
+        "Know that the last number counted tells how many",
+        "Compare an amount with ten before counting it"
       ]
     },
     "word-clinic.spell-by-ear.l-1-2-e": {

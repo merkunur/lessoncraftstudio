@@ -126,3 +126,6 @@ What changed:
 - **Correctness:** the 52 shipped glyphs lack Æ/æ and ß (new glyphs, ruled by the da/no and de panels) and the diacritic letters (base + mark stroke last) — now a named build deliverable; "My hen is red." (the picture is not red) → "My hen can run."
 - **Reality:** weather/sun has no lcs-pictures label → beach/sun; classroom/pencil needs the lie-flat rotation (ruling).
 - Fun: the fingerprints between words on the pinned strip are the child's own mark — a reason to look back at every finished line.
+
+## 15. Ownership ruling (orchestrator, 2026-10-17)
+Row 73 owns **letters A–Z** (formation, order, the alphabet wall). **Words, sentences and word spacing belong to New #218 Word Ribbon.** Build only this file's letter levels; its word/sentence/finger-space levels are replaced by a pointer to #218 (the shared worksheets count under #218). This removes the one remaining overlap the critics recorded.

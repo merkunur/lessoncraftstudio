@@ -1,6 +1,6 @@
 # Building a NEW activity — the recipe (one per session)
 
-The 204 rebuild rows (`../ORDER.md`) come first. When they are done, **"build the next activity" = the first row of `NEW-ORDER.md` not marked LIVE.** Every new activity is held to the same bar as the rebuild and the premium tools: `../LAW.md` (the four questions, the ten rules). The design for each row is already written in `<num>-<key>.md` (generated from `backlog.json`); read it, then improve on it — the design sheet is the starting point, not a ceiling. If the build shows the design is wrong, fix the design sheet in the same commit.
+The 204 rebuild rows (`../ORDER.md`) come first. When they are done, **"build the next activity" = the first row of `NEW-ORDER.md` not marked LIVE.** Every new activity is held to the same bar as the rebuild and the premium tools: `../LAW.md` (the four questions, the ten rules). The design for each row is already written in `<num>-<key>.md` — since 2026-10-17 a full designer + critic design (TEMPLATE headings 0–13, measured round tables, and a §14 critic review), not a sketch. Read it with its §14 and `../designs/RULINGS.md`, then build what it specifies; improve only where the build proves it wrong. A file marked BLOCKED names the missing art/data and its honest fallback. If the build shows the design is wrong, fix the design sheet in the same commit.
 
 ## 0. Start
 ```

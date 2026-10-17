@@ -26,7 +26,9 @@
   - *A cylinder's curved side is a face:* unfolding a cylinder unrolls its side into a sheet that is striped as "was curved" and will not take a postmark; the flat faces are the two circles — the worksheets' convention (and edges are not asked for a cylinder, as the worksheets leave it out).
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px).
 - **The counter** (left, 420 × 380): a wooden counter (apparatus) with the **mail bag** at the back-left (drawn sack outline) holding the round's shapes in a row of cells (84 px); the **letter tray** (front-left, 200 × 110, a shallow tray outline with a thin-envelope edge motif — no words) and the **parcel tray** (front-right, 200 × 110, a tray with a box-corner motif).
 - **The post box** (right, 220 × 380): red (#D9473C) with a 3 px ink outline, a horizontal **letter slot** 150 × 10 px at 40 % height, a hinged **flag** on the side, and beside it the **parcel shelf** (180 × 90) with a **side window** — a small inset (120 × 70) showing whatever stands on the shelf from the side, so thickness is visible.
@@ -127,3 +129,4 @@ What changed:
 - The sort could be answered before committing: tapping a shape turned it edge-on ("the slot's own test in miniature"). The edge-on turn is now the Check verdict only, and free play after success.
 - Face counts were 6 in five of seven drawn rounds (a guessable "6"): the drawn pass now has eight solids with values 2, 4, 5, 5, 6, 6, 6, 8 (triangular pyramid and hexagonal prism added; every worksheet solid kept); chips 1–9.
 - Contact sheet: `at-the-supermarket/butter` reads as cheese → `classroom/eraser`; the present is a slightly wide box, so its fitted outline is drawn as a cube and prose calls it box-shaped. Locale trap added for the curved surface (sv *mantelyta*, fi *vaippa*): the prompt says flat faces.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

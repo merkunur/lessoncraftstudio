@@ -27,7 +27,7 @@
 - **Misconception 4 — a fact has one "home"** (G1-428). **Push back:** Level 3 has a single locket and six facts; three different facts all fill it exactly — 4 + 5, 16 − 7 and 17 − 8 each close the 9 locket.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: lockets + fact cards left (≈ 480 px), bubble right (≈ 190 px). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The locket bar** (top, 470 wide): 4 lockets (Level 1–2) spaced evenly, each 92 px across on a 30 px chain, numeral 30 px on the lid. Open locket interior: twenty-frame 2 × 10 seats, seat 12 px, row gap 6 px, a 4 px gap after every fifth seat. Lockets are always ordered by value, smallest left (they hang like a number line).
@@ -145,3 +145,4 @@ What changed:
 - Level 1/2 tables re-checked with my own script (24 kept facts verbatim, spare never an answer, rank 2/2/2/2) and new bots measured and written in: estimation finishes ≤ 22 % of rounds because the near-miss locket is one step from a real answer.
 - "Beads on the cards" got a default per level: hidden at To 20 (from memory, as 2.OA.B.2 says), shown at To 10.
 - §11 now says plainly why this is not Row 87's rails or Row 90's planks: the twenty-frame inside the answer performs make-a-ten / break-a-ten on every single link.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

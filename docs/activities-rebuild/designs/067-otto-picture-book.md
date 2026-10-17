@@ -21,7 +21,9 @@
 - **Misconception 3 — "true" means "it's about the picture".** **Pushback:** in True or False the child decides first, then the pins fly: one dangling pin is exactly what makes the sentence false, and it shows which word.
 
 ## 4. The stage
-At **704 px** (split: stage 470 px left, sentence column 214 px right):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At **704 px** (stacked: stage 470 px left, sentence column 214 px right):
 - **Sentence strip** (right column, 200 × 120–180): the sentence in Nunito 20 px, ≤ 3 lines; under each key word a coloured bead (16 px) on a short string. Strips are draggable in "Which picture?"; fixed elsewhere. Otto (library `forest-creatures/owl`, 64 px) sits above the strip as narrator; tap Otto = read the sentence (TTS where available).
 - **Stage by task:**
   - *Which picture?* — the story's 4 moments in a 2 × 2 grid (panels 220 × 160, gap 10); each panel = a drawn frame + ground line + 2–3 library pictures (actor 112 / thing 96 / sky 72). A small numeral 1–4 in each panel's corner = the story order (Otto read them in that order first).
@@ -164,3 +166,4 @@ What changed:
 - **FB6 had two right answers** (elephant AND mouse were both in the picture, and a pin only tests presence) → elephant alone, "I see a big ___."
 - "A little green bud" sat over the red library bud → "A little bud comes up."
 - Mutations added for both holes.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -23,7 +23,7 @@
 - **Second push:** children who turn "lighter" into "smaller" are caught by the same physics in the ▲ rounds.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (apparatus left, bubble column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (content ≈ 672 px):**
 - Apparatus column 452 × 470 px; bubble column 196 px.
@@ -50,7 +50,7 @@ Layout `split` at ≥ 700 px (apparatus left, bubble column right); stacked belo
 - **Check** = pull the pin: the peg slides out 20 px (120 ms), 300 ms stillness, the beam swings to its truth angle. Sounds: a wooden "tock" when the heavy pan hits its stop; a light "pip" when the light pan peaks.
 - **Swap after weighing:** drag either thing to the other pan — both trade places on crossing arcs (420 ms) and the beam re-swings.
 - **Tap without drag:** says the name (TTS where available); the bubble shows the word for 1.5 s.
-- **Free play ("Weigh anything",** offered in the bubble column after a finished round): a shelf of 12 things above the scale; no pin; the beam swings on drop; a circle-arrow icon tips everything back. No judging.
+- **Free play ("Weigh anything",** offered in the bubble area under the stage after a finished round): a shelf of 12 things above the scale; no pin; the beam swings on drop; a circle-arrow icon tips everything back. No judging.
 
 ## 6. The rounds
 One round = one pair + one ask (▼ heavier or ▲ lighter). Place the bet, pull the pin, see the truth; if wrong, swap until the arrow agrees. The stall collects the pair.
@@ -166,3 +166,4 @@ What changed:
 - **Label-twin trap named and gated:** pillow and cushion share one word in seven locales — never paired in a task.
 - **Pass end made the lesson visible:** the big-but-light things in the net and the small-but-heavy things in the crate glow in turn.
 - Gate rules 10–12 added (once per level, no shared-label pair, ruled-out nouns absent).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

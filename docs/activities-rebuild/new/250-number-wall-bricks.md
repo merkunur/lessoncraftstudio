@@ -22,7 +22,7 @@
 - **Misconception 3 — the wall is read sideways** (adding neighbours on the same row). **Push back:** a brick's light never goes sideways; same-row bricks never feed each other — there is no beam between them.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (wall left, keypad + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 452 + column 220):
 - **Task line** (22 px): the prompt (§9).
@@ -161,3 +161,4 @@ What changed:
 - **The answer was countable before the child typed:** a written brick's beams filled the sockets of the unknown brick above at once, so in "build up" every brick displayed its own answer as lights, and the wrong-pair misconception the design names could not occur. Now beams into an unknown brick are empty columns (which bricks feed it, not how much); light pours in only after Check. Gate clause (8) + mutation.
 - **Missing-brick answers were 2, 3 or 4 in all nine "to 10" walls** (bot: "type 3" wins 4 of 9). A5–A8 rebuilt (5 1 2, 6 1 1, 1 1 7, 3 2 2); answers now 3 2 4 3 5 6 7 2 4; gap position still left 3 / middle 3 / right 3.
 - **Every wall and every given set re-solved** by my own brute-force solver (all bottoms 1–20): exactly one solution each, including the new start-at-the-top sets for A5–A8.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

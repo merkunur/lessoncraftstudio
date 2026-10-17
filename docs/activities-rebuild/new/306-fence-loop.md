@@ -23,7 +23,7 @@
 - **Misconception 4 — counting posts as rails.** Rails are planks *between* posts; numbering (miss 1/2) goes on planks only, and a 1×7 pen visibly has 16 planks.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 (iframe width) — left column 448 px, right column 224 px:**
 - **The field (left):** a peg board. **Small field 12 columns × 8 rows**, cell 36 px (432 × 288); **Big field 14 × 10**, cell 30 px (420 × 300). Pegs: 6 px teal-ink dots at every grid corner; cells pale earth `#F3E7CF`. The pen's **near corner post** is fixed at the bottom-left peg (a 14 px post with a drawn nail-head; never moves).
@@ -189,3 +189,4 @@ What changed:
 - Re-solved every table with my own oracle (`work-c39/fence.js`): all 24 fix targets unique on their track / seed list, starts legal and never the answer, every try-on round has exactly one right yard + exactly one "same other measure" decoy, every rectangle fits its field; the "only 12/24/36 give three seed pegs" claim holds on both fields.
 - Corrected one measured bot ("thinnest" wins 1/8, not 2/8).
 - **Reasoning level added without a new setting:** the big field now covers the sign of the moving measure with a "?" flap, so on the big field the child counts or computes area/perimeter to reach the target instead of sliding until a live numeral matches; the small field keeps the live numeral that shows the law. New mutation for it.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

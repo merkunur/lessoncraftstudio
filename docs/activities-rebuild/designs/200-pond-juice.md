@@ -24,7 +24,9 @@
 - **Misconception 4 — pouring to an amount by guessing the height** (asked for 1750 on a 2000 jug, stopping at "most of the way"). **Pushback:** in exact-pour rounds the scale is visible and the tray shows exactly how far over or under the order flag the pour landed — in glasses of the jug's own mark size.
 
 ## 4. The stage
-**At 704 px (split layout: apparatus left 460 px, bubble column right 220 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: apparatus left 460 px, bubble under the stage):**
 - **Task line** (Nunito 20 px, ≤ 2 lines, never changes during the round) — by round kind, §9.
 - **The stand** (left column): Pippa = `forest-creatures/frog` at **96 px** on the stand's corner (static; a 6 px idle bob every 4 s); the customer picture on the order board at **112 px** (library, §12), with the order bubble beside it showing the order as a numeral + unit (Baloo 2, 30 px): "≈ 300 ml" (by feel) or "750 ml" (exact).
 - **The jug** (drawn apparatus): glass outline 3 px ink, 200 × 340 px, handle right, juice body in the round's fruit colour with a 3 px lighter meniscus line, scale on the LEFT edge: small marks 2 px × 14 px, numbered marks 3 px × 26 px with Baloo 2 numerals 18 px, unit "ml" printed once at the top of the scale. Mark spacing ≥ 12 px at 704 for every scale in §6 (densest: 0–1000 by 50 = 20 marks over 300 px → 15 px).
@@ -131,3 +133,4 @@ What changed:
 - Temperatures made true to life: the teapot was 45 °C (lukewarm) → 85 °C on a 0–100 scale; the cocoa mug 46 °C; the numbered day uses the mug, not a 50 °C teapot.
 - G3-345 level 3 (marks worth 1, numerals every 5) was missing: added the milkshake round on 0–20/5/1, the one honest round where "each mark is 1" is right.
 - The scale table had one twin; it now has two (one shorter-wins, one taller-wins), so no height rule survives any table. The measured claims were rewritten to match the tables.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

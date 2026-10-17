@@ -22,7 +22,9 @@
 - **Misconception 3 — counting the outline, not the inside.** The edge-marks setting shows only tick marks along the frame's edges; the row tallies during the pour show rows × columns, not the number of edge marks.
 
 ## 4. The stage
-**At 704 px (split layout: wall left 470 px, Tessa's table + bubble right 210 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: wall left 470 px, Tessa's table + bubble right 210 px):**
 - **Task line** (20 px): **"Tip Tessa's mosaic into the frame that it fills exactly."**
 - **The wall:** three empty frames stacked or side by side (whichever fits the round's shapes at the shared tile size), each a 4 px wooden-moulding outline on a plaster panel, with faint cell lines (setting "every square") or tick marks along each straight edge (setting "edge marks only"). **One tile size per round** shared by the mosaic and all three frames, so size differences are honest: tile 36 px at 704 for shapes up to 8 columns, 30 px for 10 columns. Each frame panel is a ≥ 120 × 120 px drop target.
 - **Tessa's table (right):** `occupations/artist` (Tessa) at **96 px** above a wooden table on which the mosaic lies — tiles coloured in a 4-colour palette (teal, coral, gold, cream) in a fixed pattern per round, drawn as rounded squares with 2 px grout. The table is the mosaic's home.
@@ -120,3 +122,4 @@ What changed:
 - Re-solved both tables with an independent solver (areas, ±1 decoys, congruence under every turn and flip, five shortcut bots): all 16 rounds valid, one right frame each; the row/column-sharing bot figures corrected (29 % / 13 %).
 - G3-313 asks the child to "finish the multiplication", but the design banned the sign entirely. A success plate now engraves "{rows} × {cols} = {n}" in each locale's school sign (· in de/sv/da/no/fi), only after the tiles have proved it.
 - Distinctness from New 292 The Pouring Frame (also "pours into a frame") and Row 170 written out: fixed mosaic into fixed frames of different shape = conservation, not a missing factor.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

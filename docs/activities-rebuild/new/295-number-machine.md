@@ -22,7 +22,9 @@
 - **Misconception 3 — "the rule is always add"** (difference-reading). **Push-back:** in the "also ×" setting five rounds of nine are × rules; the "+difference" tile is a decoy in four of them and fails the second receipt (2 → 6 looks like +4; 5 → 15 is not).
 
 ## 4. The stage
-**At 704 px (split: machine board 440 px left, task column 216 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: machine board 440 px left, task column 216 px right):**
 - **Task line** (22 px): **"Find the rule that makes both receipts. Then use it on the new numbers."**
 - **The receipts** (board left, 120 px wide): two receipt strips (paper white, 112 × 56, zig-zag bottom edge) pinned one above the other, each showing an input ball → output ball (balls 40 px circles, 20 px numerals; the arrow is drawn). Which receipt is on top is shuffled per round. A tested receipt shows a teal stamp (tick ring) or a coral ring around the mismatched output.
 - **The machine** (centre, 200 × 320): funnel (top, 120 wide), a body with a round glass window (gears drawn as simple toothed discs, turning only while cranked), the **rule slot** (a 96 × 56 recess across the body's front), the chute (bottom, curved), a **reject bin** at the chute's foot on the left (a tray with a lip, coral inside), and the **wheel** on the right side (64 px wheel, a 44 × 44 knob on its rim).
@@ -144,3 +146,4 @@ What changed:
 - **Two learnable tells removed:** in "+ and −" the one-receipt decoy was ×2/÷2 in all nine rounds and the first receipt was always "k → 2k" (its input was the rule's number). Rounds 5 and 6 now use 3 → 9 (×3 fits) and 12 → 4 (÷3 fits).
 - Re-solved all 18 rounds with my own oracle (work-c41/mp.js): exactly one tile fits both receipts, a first-receipt-only tile in every round, all outputs and missing inputs whole, the forward-run wrong answer always rejected; difference/ratio/×2 bots match the claims.
 - Distinctness checked against new/259 The Same-Way Machine: shared machine look only — no numbers, rule tiles, reject bin or reversible tile there.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

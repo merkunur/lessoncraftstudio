@@ -26,7 +26,7 @@
 - **How the material pushes back:** the falling sounds land one per bump; bumps without a sound stay empty, bumps with two sounds crack. The slide only lets the rider go when every bump carries exactly one sound.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 450):
 - **The platform** (top left): a drawn platform (ink, 3 px; cream deck 120 × 20) on two posts with a ladder (geometry). The **rider** = the round's library picture **104 px** sitting on the platform's edge. A speaker button (36 px) beside it (TTS name, bonus).
@@ -142,3 +142,4 @@ What changed:
 - FINNISH RULING settled (shared with 058): long sound = two letters = two bumps fused into a long hill; one bump for a long sound cracks; Count only hidden for the long set; fi Simple sounds from bank s2 (talo/kala were syllable rows, poro has no picture).
 - Answer-position and bots re-measured for the new pools; da ships Simple sounds only (no team rows in its bank); sv team words corrected.
 - Distinct-from adds 054, 055 and New 208 The Marble Stairs (a ride that tests order vs a ride that blends a count).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

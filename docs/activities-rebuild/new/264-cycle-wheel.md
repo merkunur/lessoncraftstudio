@@ -27,7 +27,7 @@
 - **How the material pushes back:** a stage can only come out of the stage before it; the wrong card has nothing to hatch from.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: ring left, tray right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 672 × ≈ 430):**
 - **The ring** (left, 400 × 400): a cream disc border (geometry) with N slots (4 butterfly / ladybug, 5 frog / plant — the reviewed banks' biology; 3 chicken when its egg art lands) evenly spaced on a circle r = 140 (adjacent slot centres ≥ 165 px apart); each slot a 116 px round card holding the stage DIAGRAM at 110 px (life-stage lenses are round already; plant stages sit in a cream round card). Curved arrows (coral, 4 px, chevron head) run clockwise from slot to slot, the last arrow back to slot 1.
@@ -188,3 +188,4 @@ What changed:
 - Cycles now follow the reviewed banks: frog has 5 stages (with "tadpole with legs"), plant has the G1-388 five (seed → sprout → seedling → flowering → fruiting); 5-stage FILL table written.
 - FILL table fixed: F9/F10 duplicated F5/F6 (8 distinct puzzles, not 10) and the "7 of 10 anti-line rounds" claim was false (6 is the maximum for a 4-cycle); now 10 distinct puzzles, anti-line sets 6/10 and 7/10 stated exactly for the gate.
 - Phone sizes rebuilt to the diagram floor (5-slot ring r 108 / slots 110 measured to fit 336); WHOSE YOUNG became three ring SLICES (three whole rings forced 72 px); TWIN on phones uses tabs. NEXT answer slot fixed by table; LOOKALIKE pairs kept apart.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

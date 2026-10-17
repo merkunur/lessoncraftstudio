@@ -25,7 +25,9 @@
 - **Misconception 3 — counting coins as ones** (three coins = 3). **Pushback:** each coin unrolls into its value as length; three coins of 25 make a bar three-quarters of the way along, not three squares.
 
 ## 4. The stage
-**At 704 px (split: apparatus left 470 px, bubble column right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: apparatus left 470 px, bubble under the stage):**
 - **Task line** (≤ 24 px) per question: total **"Buy what is on the note. How much is it all together?"** · enough **"Buy what is on the note. Is the money in the purse enough?"** · more **"The money is not enough. How much more do you need?"** · change **"Pay with the money in the purse. How much is left?"**
 - **The shelf** (top, 470 × 150): a drawn teal plank with 6 library pictures at **96 px**, evenly spaced (78 px gaps), each with a paper price tag (60 × 36, 20 px numeral + 12 px unit below, e.g. "35" / "ct") on a string.
 - **The shopping note** (right column top, 200 × 150): a cream card with the 2–3 pictures to buy at 64 px (allowed: it is a label beside the 96 px shelf pictures; never smaller than 64), drawn tick boxes next to each that fill when bought.
@@ -135,3 +137,4 @@ What changed:
 - **Price bands replace the two loose goods lists:** each noun has a plausible price band per pool (W20, K20, C100, K100); every one of the 128 rounds was proved dealable with ≥ 3 nouns left for the decoys (`work-c32/bands.js`), so a 6 € croissant or a 60 kr pencil cannot be dealt.
 - Unit-sign position per country for whole units ($6 · R$ 6 · € 6 · 6 € · 6 kr · 6 kr.) through one formatter; the gate and four new mutations cover grid, real coins, bands and sign placement.
 - Picture refusals widened from the contact sheets: no single strawberry for sale, no `toys/balloon` beside `toys/ball` (fr *Ballon*), no butter (reads as cheese), never two cookies or donut + doughnut on one shelf.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

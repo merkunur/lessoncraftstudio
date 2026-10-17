@@ -22,7 +22,9 @@
 - **Misconception 4 — the written marks** (written-sum setting): opening the crate strikes the 3 to a 2 and writes 10 above the tens 0; opening a box strikes the 10 to a 9 and writes a small 1 before the ones 2 (12) — the strike-and-rewrite notation of all eleven locales (row 96 §9b), appearing as the matching package opens.
 
 ## 4. The stage
-**At 704 px (split layout: stock room 460 px left, order column 220 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: stock room 460 px left, order column 220 px right):**
 - **Task line** (≤ 24 px): see §9.
 - **The stock room** (460 × 380): three shelves side by side — hundreds | tens | ones — 150 px wide each, as wooden shelf frames (2.5 px ink), headed by a block icon and the localized column name (16 px).
   - **Crates** (hundreds shelf): squares 64 × 64 drawn as a box with a lid strip (12 px) along the top and a side window (a 40 × 40 clear pane) through which ten thin box outlines show. Stacked two wide (up to 9: five rows × 68 px = 340 px).
@@ -136,3 +138,4 @@ What changed:
 - **A mislabelled bot fixed:** "ignore the zero, keep 0 tens → 274" did not compute (274 comes from a different error). The two across-zero bots are now named by what they do and measured: tens-stay-0 (207-type) 0/8, and the 0-becomes-10-but-never-9 bot 0/16 — always exactly one ten too many, i.e. the box a child forgot to open.
 - Coverage of G2-205: the sheet's own no-borrow sums now live in row 147's new "nothing to snap" warm-up; this row keeps the across-zero half.
 - Notation re-checked against row 96 §9b: strike-and-rewrite across the zero (3 → 2 with 10 over the 0, then 10 → 9 with the small 1 before the ones), de *entbündeln*, nl *cijferend* — the same marks #267 writes.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

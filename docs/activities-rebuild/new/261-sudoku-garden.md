@@ -24,15 +24,15 @@
   3. **Starting anywhere** instead of with the most constrained bed → at miss 2 the garden puts a sunbeam on a bed with exactly one possibility.
 
 ## 4. The stage
-At 704 (4 × 4: split layout; 6 × 6: stacked):
+At 704 (stacked layout for both grids (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704); the stage is ≈ 648 px wide — at 4 × 4 the seed tray stays beside the garden inside it, 468 + 16 + 124 = 608 px):
 - **The garden** (drawn apparatus): a raised wooden frame (#B98A57, 4 px ink #0F4A40), soil beds (#8C6A4A with a lighter tilled texture of two drawn furrows), the box boundaries as **thicker frame beams** (8 px) so the four 2 × 2 boxes (or six 2 × 3 boxes) read at a glance.
   - 4 × 4: beds 112 × 112, flower pictures 96 × 96; grid 4 × 112 + beams = 468 × 468.
   - 6 × 6: beds 88 × 88, pictures 76 (stacked, grid 552 wide) — inside PICTURE-RULINGS' puzzle-grid floor (grid cells ≥ 40 px at 704 / ≥ 30 at 360); the full-size picture of each kind is always on its packet; every bed is a ≥ 88 px tap.
 - **Planted flowers (given)**: full colour, standing on a little drawn soil mound, a thin green stem collar under the picture.
 - **Sprouts (child's)**: the same picture at 84 % size, 30 % desaturated, on a fresh-soil mound with a two-leaf shoot drawn under it — clearly "mine, still growing".
-- **The seed tray** (right column at 704 for 4 × 4; under the garden for 6 × 6): one **packet** per picture, 124 × 140 (paper packet shape, cream, 3 px ink, flap at top), the picture 96 inside. Packets are unlimited (a packet never runs out).
+- **The seed tray** (beside the garden inside the stage at 704 for 4 × 4; under the garden for 6 × 6): one **packet** per picture, 124 × 140 (paper packet shape, cream, 3 px ink, flap at top), the picture 96 inside. Packets are unlimited (a packet never runs out).
 - **Roots**: 6 px green (#4FA85A) animated strokes from the planted bed: horizontal through its row, vertical through its column, and a rounded rectangle tracing its box boundary inside the beams. A **clash** turns the touching root and the twin's mound coral (#F2784B).
-- Task line above (≤ 24 px, ≤ 2 lines); feedback bubble under the tray (split) / under the garden (stacked).
+- Task line above (≤ 24 px, ≤ 2 lines); feedback bubble under the stage.
 
 At 360 (stage ≈ 336):
 - 4 × 4: beds 76 (pictures 64), grid 4 × 76 + beams = 318; packets in one row of four under the garden, 76 × 84 (pictures 64).
@@ -174,3 +174,4 @@ What changed:
 - All 27 puzzles re-solved by the critic's own backtracking + singles solver (`work-c18/check261.py`, not the designer's script): each has exactly one completion equal to the listed solution, the listed solutions are valid, the given counts are 8 / 6 / 18, every row and column has a planted flower, the first-singles counts match, and every puzzle (even the 6-planted and 6 × 6 ones) falls to naked singles alone.
 - Added the second dead end a guess can cause — a "stuck flower" (a unit with no bed left for a missing picture) — which the dry-bed rule alone would leave invisible.
 - Picture sizes restated under the new puzzle-grid ruling (no "exception" any more); the first-single spread gate given real, measured means instead of an invented 5–30 % band that a 6-single puzzle would have failed while correct.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

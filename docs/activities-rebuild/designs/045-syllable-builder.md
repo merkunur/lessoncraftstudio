@@ -26,7 +26,7 @@
 - **Misconception 5 (G1-313) — "a syllable is one sound."** Pushback: each bow hangs tassels, one per sound (drum = 4, da = 2); a bow with the wrong number of tassels pulls the kite lopsided.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the sky stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 440):
 - **The sky** — a rounded panel 480 × 300, pale blue `#DCEFF5`, two drawn clouds (white rounded blobs, 3 px ink outline) top-right; a grass strip 480 × 40 at the bottom `#CFE8B8` with a 3 px ink edge.
@@ -215,3 +215,4 @@ What changed:
 - **Removed four non-TeX splits** the brief forbids for en (starfish, sunglasses, woodpecker, hamburger — rule-only in the gate) and replaced them with TeX-agreed spoken splits: sailboat (L3a), dragonfly (L2, L4), umbrella and butterfly scrambles (L3b), strawberry missing-middle (L3a); the gate now asserts TeX on every shown word.
 - **Dropped occupations/carpenter** (a person who may not read as "carpenter") and the 28-px picture tags on the key ring (record ruling: records are drawn tokens + words, never shrunken pictures).
 - Every word re-verified by script: picture exists, en label = word, gated split TeX-agreed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

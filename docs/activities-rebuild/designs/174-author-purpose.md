@@ -26,7 +26,7 @@
 - **The material pushes back** by counting powered parts; the hint never says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the note + Marlow left (≈ 250 px), the three machines right (≈ 420 px). Stacked below 700 (note on top, machines in one row under it).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The note** (left, 240 × 260): cream paper with a torn top edge; the note's sentences on separate lines, 19 px Nunito, line height 1.5; each sentence is a block (min 44 px tall) that lights while it is being read.
@@ -141,3 +141,4 @@ What changed:
 - **Level 1 was solvable without reading:** the 9 kept notes carry three perfect cues ("!" = story, "To …, first" = how-to, neither = facts) — a cue bot sorted them 9/9. The kept notes are now split 6 + 3 across both levels and each level gets new notes that break exactly those cues (an octopus fact with "!", a dinosaur fact in the past tense with "Then", a story with no name and no "!", a story with "First … Then", a how-to with no "To", a how-to with "!"). Measured: the cue rule now sorts 6/12 and 3/12 (chance 4/12). Levels are 12 notes, 4/4/4.
 - **Hand-drawn objects replaced by library pictures:** `beach/lighthouse`, `music/stage`, `vehicles/ship` (all seen); the lamps sit on a gauge beside the slim tower, the curtain is an apparatus panel over the stage picture, the crane is lines and crates only.
 - Kept: all 9 notes verbatim, the frozen bin labels, Marlow, the majority-of-sentences rule (the invention).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

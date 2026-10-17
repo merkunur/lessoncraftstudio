@@ -23,7 +23,9 @@
 - **Misconception 4 — teens:** "thirteen is 3 then 1." The 10 card + 3 card make 13; the ten pours ONE rod — "one ten and three".
 
 ## 4. The stage
-**At 704 px (split: stage 430 px left, rack 230 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: stage 430 px left, rack 230 px right):**
 - **The target card** (top-left, 200 × 64; 200 × 96 for the picture coats): the round's number in one coat — numeral (48 px), number word, "4 tens, 7 ones", **ten frames** (drawn frames, filled dots, 18 px cells), **tally marks** (five-gates, drawn) or spoken (a speaker 36 px; the numeral is shown small beside it, so sound off still has a target). These are the Number-of-the-Day coats (G1-243/255/257); the *neighbours* of the number of the day are Row 97's face.
 - **The card stand** (centre, 300 × 120): a wooden ledge exactly two card-digits wide (each digit cell 120 × 110), with a slight lip. Tens cards are 240 × 110 (two digits wide, e.g. "4 0" in 80 px Baloo 2, the 0 in the right cell); ones cards 120 × 110 with a small tab pointing left (the classic arrow tip) — the tab is the grip.
 - **The mat** (under the stand, 400 × 230): blocks pour here — rods (28 × 140 px, coral, ten segment lines) stand side by side on the left, cubes (28 × 28, teal) in rows of five on the right. Light lines divide it into a tens half and a ones half; no words.
@@ -117,3 +119,4 @@ What changed:
 - The **to 50** set was unspecified; written out, and the to 20 set gets its coats.
 - Misconception 3 described the ghost/real mismatch the wrong way round (for 47 vs 7 rods 4 cubes: three real rods without ghost, three ghost cubes without blocks) — corrected.
 - The old 18 targets all kept; which-blocks tray balance (3/3/3) re-checked.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

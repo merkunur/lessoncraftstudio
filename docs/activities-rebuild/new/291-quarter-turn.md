@@ -21,7 +21,9 @@
 - **Second misconception — mixing up rows and columns in a sentence** (writing 5 × 3 for 3 rows of 5). **Push-back:** the first box is teal like the rails and the second coral like the in-row ticks; a wrong first box makes the rails count themselves (1, 2, 3 lit at their left end) so the child sees which number the rails make.
 
 ## 4. The stage
-**At 704 px (split: board 440 px left, sentence column 216 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: board 440 px left, sentence column 216 px right):**
 - **Task line** (22 px, up to two lines): **"Write the number sentence for the rows. Then turn the table a quarter and write it again."**
 - **The room frame** (440 × 440): a cream square with a soft inner shadow. Across it run the **row rails** — horizontal bands 6 px tall. Per round the frame lays a rail at every height where a row of the array can sit in EITHER orientation (an odd number of rows sits on whole steps from the centre, an even number on half steps, so the rails are the union of the two lattices — at most r + c rails; 3 × 6 → 3 whole-step rails + 6 half-step rails). The rails are fixed to the frame and stay faint until they catch pictures. Unlit rails are pale grey; lit rails are teal with a **row tag** at their right end (28 × 28 chip) showing how many pictures that rail holds.
 - **The turntable:** a wooden disc 420 px across (warm wood tint, a darker 8 px rim) centred in the frame; the **knob** — a 44 × 44 brass circle on the rim at 45° (top-right). The array sits centred on the disc.
@@ -147,3 +149,4 @@ What changed:
 - The "stays upright" delight is kept honestly: every counter carries a coral notch that keeps pointing up through the turn (positions rotate, things do not) — gated and mutated.
 - {5,6} restored (it was dropped only for the picture floor): the small level is now all 10 distinct pairs of 2–6, alternating W/T 5/5; sizes recomputed from the new largest diagonal (7.81).
 - Every "picture" in hints, misses, settings, gate and the four questions changed to "counter"; the settings at rest now differ by counter size and rail count.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

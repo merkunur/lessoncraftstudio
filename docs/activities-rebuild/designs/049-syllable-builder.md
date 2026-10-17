@@ -26,7 +26,7 @@
 - **Misconception 4 — order** (Level 3). Pushback: tiles fill sockets left to right; the link only closes on the word.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: chain stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The wall hook** — at the stage's left edge, a brass hook (geometry) 30 × 40.
@@ -169,4 +169,5 @@ What changed:
 - The festone no longer collects 24-px pictures (record ruling): finished chains become drawn rings with the joint syllables written on their clasps.
 - Added a gate rule + mutation that no chain revisits a picture already on it.
 - Kept: the Italian *catena di parole* (last syllable → first syllable) with the position lure in 15 of 18 L1 steps, the clasp that physically refuses a mismatch, and the long-word count-and-build level from the old pool.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

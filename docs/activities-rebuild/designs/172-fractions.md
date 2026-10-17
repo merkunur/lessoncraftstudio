@@ -29,7 +29,9 @@
   6. **"The coloured part is the fraction" without equal parts** (colour step): the colour step only opens on equal parts; then coloured tubes show k of n equal amounts.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px, ≤ 2 lines).
 - **The table** (left, 380 × 380): a wooden tray rim (6 px, warm sand #E9D3A8) holding the shape's surface (pale teal #CFE7E2, fitted in 300 × 300, 3 px ink outline). Around it:
   - **Edge notches** (for straight walls across): small brass ticks on the shape's frame edges at twelfths (shape-specific, §6), each with a 44 × 44 hit area outside the shape.
@@ -150,3 +152,4 @@ What changed:
 - Ratios verified: base-parallel triangle thirds 1:3:5 (5/3 of the gold line → spills), oval parametric spokes equal, peg rule = tangential polygons only. The peace sign was misdescribed ("two stop at half") — the quarters reach ¾ of the thirds line, the half 1.5×.
 - T8 surprise was false: pegs 0/4/8 on a 12-peg square starting top-middle give two mirror-congruent pieces (measured). Square now has 24 pegs offset 5 units; pegs 0/8/16 give three pairwise non-congruent ⅓ pieces (measured).
 - "Every wrong set misses by ≥ 1/12" was false: raster enumeration of every ≤ 3-wall set found 4.2 % (square, chord + 2 spokes, exact 1200/1225/1175) and 4.7 % (triangle, vertical notch + spokes) near-misses. Square/turned square rounds now offer one wall family; triangle thirds offers pegs + base-parallel notches; gate requires every rejected set to miss by ≥ 10 % (circle 24 %, oval 25 %, hexagon 22 %, triangle-b 15 % measured).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

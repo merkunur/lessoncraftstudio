@@ -22,7 +22,7 @@
 - **Misconception 3 — any true attribute is a definition** ("a duck is a bird that has two legs" — true of every bird). Pushback: every twig on a branch is one attribute that only some of that kind have; a newcomer on the wrong twig sits beside a family member it does not share the attribute with (a duck beside the owl on "hoots at night") and slides off at Check.
 
 ## 4. The stage
-Stacked (one column) at every width — the tree is tall and the bubble sits under it; at ≥ 700 px `layout:'split'` puts the bubble column (200 px) to the right of the tree.
+Stacked (one column) at every width — the tree is tall and the bubble sits under it (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704); the stage is ≈ 648 px wide at 704.
 
 **At 704 px** (tree stage 480 × 500):
 - **The tree** (drawn apparatus geometry, no leaves-with-faces): a trunk 46 px wide from the bottom centre, forking into **three branches** (left, up, right), each a tapered 22→12 px limb ending in a **family perch** — a flat shelf 150 × 14 with a wooden sign (130 × 36, the category word in Nunito 22 px bold; content). Trunk/branches `#8C5A2B` with a 3 px ink outline; a soft green canopy blob (`#7FB23A` at 25 % opacity) behind, as shape only.
@@ -154,3 +154,4 @@ What changed:
 - Level 3 "potato" had two right twigs (it grows under the ground AND a baked potato is baked): the newcomer is now a radish. Level 2 put fruit/vegetables on the food branch beside a plants branch (two homes for a carrot) and milk/juice as "food": the rule "plants + food → made foods only" is written and the rounds obey it. "A banana is a food" is now "A banana is a fruit".
 - Every picture now meets the size floor: one 96 px family member per perch instead of two at 72, Level 2 fanned stacks at 96, and Level 3 became a two-stage climb — the tree zooms into the chosen branch so the three twig residents are 96 px and the attribute signs are words (no 48 px icons). The zoom also makes "category first" physical: a wrong branch never opens its twigs.
 - The Level 3 miss hint template ("does it {attribute}?" → "does it that swims?") was ungrammatical: hints are authored whole per twig.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

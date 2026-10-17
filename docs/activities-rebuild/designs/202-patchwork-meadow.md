@@ -22,7 +22,9 @@
 - **Misconception 4 — count only the new patches** when finishing. **Pushback:** the can numbers the laid patches first, then the new ones; the last number is the whole bed.
 
 ## 4. The stage
-**At 704 px (split: garden left 470 px, Sprout + bubble right 210 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: garden left 470 px, Sprout + bubble right 210 px):**
 - **Task line** (20 px) per kind, §9.
 - **The garden:** a stone path (grey cobbles, drawn) around a soil bed (warm brown) whose outline is a 3 px dark edge; cell size **64 px** for beds up to 5 squares wide (the 5 × 5 staircase is 320 × 320), faint cell lines (setting "squares shown") or only tick marks on every straight edge (setting "edge marks only" and always in predict rounds).
 - **The moss:** patches are drawn rounded squares in two greens with a darker 2 px rim and a stipple; a doubled patch sits 6 px askew on top of another with a shadow so it reads as two.
@@ -129,3 +131,4 @@ What changed:
 - Every mask re-counted (areas, repair patch counts, finish laid/new, perimeters, bounding boxes) — all correct.
 - The row's teaching point is "area of a rectangle = rows × columns" (G3-313), yet the default table had no rectangle to cover or predict. Added a 4 × 2 cover bed (row totals) and a 3 × 3 predict bed, and a 5 × 4 predict bed to the 20 table, so multiplying the outside is shown to work on rectangles and fail on L/T/staircase/plus beds — "always multiply" and "never multiply" both lose; only reading the shape wins.
 - Rectangle beds now get a stamped "{rows} × {cols} = {n}" tag in each locale's school sign; distinctness from New 292 and Row 170 written out.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

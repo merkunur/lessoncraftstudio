@@ -28,7 +28,9 @@
   6. **Objects matched by look, not shape** (a can is "a circle"): in the objects board, the object's prints are compared with the solid's prints — two circles and a curved side vs six squares.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px, ≤ 2 lines).
 - **The bench** (left, 420 × 380): a warm wooden bench top. On it:
   - **The solid** (centre-left, fitted in 240 × 240): drawn in a fixed oblique-isometric projection (30° view from above), faces in a translucent warm cream (#F6EAD2 at 85 %) with 3 px ink edges; **hidden edges dashed** (2 px, dash 6/5). Inked faces carry a soft ink-blue stain (#3B6FB6 at 35 %); inked edges are 5 px ink-blue; inked corners carry a 10 px ink-blue dot.
@@ -161,3 +163,4 @@ What changed:
 - Objects board: cone and pyramid could never be right (elimination bot 5/12, best preference bot 7/12) → removed from the objects board; new distractor table brings the elimination bot to chance and the best preference bot to 5/12 (the floor for this answer mix, searched).
 - space/moon refused (PICTURE-RULINGS) → space/earth; camping/tent opened — a dome, not a pyramid; cheese matched by kind (rounded rind).
 - Distinct from designs/039 (letterbox/nets) and new/244 (rising camera top views) stated; G2-245/246 owned here.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

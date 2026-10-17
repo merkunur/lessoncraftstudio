@@ -22,7 +22,7 @@
 - **Misconception 3 — adding only two of the three numbers** (or the row but not the column). *Push-back:* a lantern lights only when its line is complete AND exact; an incomplete line stays dim however close it is.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below. Grid, tiles and lanterns are drawn apparatus; no pictures.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40. Grid, tiles and lanterns are drawn apparatus; no pictures.
 
 **At 704 — left 440 px (the square), right 232 px (the tray and Check):**
 - **The magic number badge:** top-left of the square, a gold circle 72 px with the magic number (Baloo 2 34 px; three digits fit at 30 px) and a small lantern-rim icon — the gold rim on every lantern is the same gold.
@@ -159,3 +159,4 @@ What changed:
 - Re-proved all 32 squares with my own brute force (`work-c39/lantern.js`, rows + columns only, every ordered choice of tray tiles): each round has exactly one lighting placement, is chain-solvable by single missing addends, has no full empty line, no 0, and its decoy is outside the square.
 - **The lanterns no longer give the answer away live.** Exact "lit" and the running-sum numerals were an oracle: with 3–6 tiles a child could drop tiles until a glow appeared. Now the light level is analog and live (over-full still spills at once), the base numerals appear only at miss 1, and the flames light only at Check — the adding and the missing addend are the child's work, which is what 3.NBT.A.2 and the misconception ("guessing instead of computing") demand.
 - Small 2–3 round 7's decoy 20 → 17 (a middle decoy where the square allows one); the false claim "a mid decoy is impossible in the small setting" corrected (it is impossible only for k = 1 squares); decoy tallies re-measured (small 2–3: low 4 / mid 1 / high 3).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

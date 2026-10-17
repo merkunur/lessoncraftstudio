@@ -26,7 +26,9 @@
 - What the child must do is read: the cup is lidded and the chute gate hides which ball is next until the child commits a card; the cards are the only digits on the screen.
 
 ## 4. The stage
-At 704 (split layout, stage ≈ 660 × 480):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 480):
 - **Left column (340 px): the clock and its ball run** (all drawn apparatus).
   - **The clock**: face 280 px across, cream #FFF8E7, 6 px teal rim #146B5E, numerals 1–12 Baloo 2 30 px ink #2B2B2B, 60 minute ticks (every fifth bold), **short hand** coral #F2784B 12 px wide to 55 % radius, **long hand** teal 6 px to 88 %, brass centre 14 px. No minute numbers round the rim.
   - **The hopper** on top of the case: a clear dome 120 × 44 holding the not-yet-dropped balls in a row (only their tops show; the numerals of the waiting balls are hidden by the hopper's frosted band during a round, so the next ball's number never helps).
@@ -162,3 +164,4 @@ What changed:
 - Miss 1 now shows the hour part and the minute part separately (ball bounces / pin stands alone); miss 2 runs FORWARD to the 12 (distinct from 103's wind-back) and back.
 - Re-measured the round tables (`work-c31/clock.js`): 10 distinct hours, 5/5 minute split, time-rank 2/3/3/2 per level (L2 2/2/3/3 with 12 = 0), positions 24.8–25.2 %; the "nearest hour" strategy gets the hour right 5 of 10 → 2.5 cards expected.
 - Time-phrase source pointed at the reviewed `positions` tables in `learning-clock.js` (11 locales, five-minute aware); compound "4-ball" nouns flagged as a per-locale authoring trap; setting 2 changed to the past-hours tray (visible at rest).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

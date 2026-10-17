@@ -28,7 +28,7 @@
 - **How the material pushes back:** only the word that names the call flips into that picture; a wrong chip slides off, and the letter that made it a different word lights up.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 480):
 - **The caller's booth** (top, 504 × 150): a drawn booth frame (ink, 3 px, cream panel) with **Bingo** — `animals/dog` **96 px** — on the left, and the **call stand** in the middle: the called picture **136 px** on a white card that slides up from a slot; a small stack of used call cards (thumbnails 36 px, fanned) on the right shows how many calls are done.
@@ -152,3 +152,4 @@ What changed:
 - Leftovers that were library labels (hot = weather/hot, bud = spring/bud) broke the design's own gate → hut, bid.
 - at-the-supermarket/salt carries the printed word SALT → removed from fr (sel) and es (sal) cards.
 - Build plan, keyboard, taps, mutations and gate updated for You call.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

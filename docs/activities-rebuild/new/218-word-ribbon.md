@@ -27,14 +27,14 @@
 ## 4. The stage
 Apparatus geometry only (paper strip, roll, stone, dish, rack); one library picture per round in picture-word sets.
 
-**704 px (content ≈ 656):**
+**704 px (stage ≈ 648, stacked):**
 - **Task line** (20 px, one line).
 - **Word card** (top-left, 200×150): the model word in Baloo 2 44 px (the school print form, single-storey *a* and *g* from the same letterforms, drawn as filled print here, not as a road), and in picture-word / long-word / capitals sets the library picture **112 px** beside it (card grows to 300×150). A small speaker (36 px) reads the word where TTS exists.
-- **The ribbon** (y 190, height 150): a cream paper strip 572 wide (656 minus the 72 px scroll rack and a 12 px gap) with the locale's school ruling (`LetterStudio.RULING[locale]`: top line, dashed x-height line where the locale uses one, baseline; fi baseline only). Glyph box **120 px** tall (cap height ≈ 82 px, x-height ≈ 48 px). Left end: a teal **start post** (6×150). The **roll**: a cylinder 40 px in diameter × 150 tall, drawn with two ellipse ends and three paper-edge stripes, sitting just right of the current letter. The road (dotted letters: 7-unit road teal .30 + hairline), the start dot (green, 14 px), stroke numerals where a letter has ≥ 2 strokes.
+- **The ribbon** (y 190, height 150): a cream paper strip 564 wide (the ≈ 648 px stage minus the 72 px scroll rack and a 12 px gap) with the locale's school ruling (`LetterStudio.RULING[locale]`: top line, dashed x-height line where the locale uses one, baseline; fi baseline only). Glyph box **120 px** tall (cap height ≈ 82 px, x-height ≈ 48 px). Left end: a teal **start post** (6×150). The **roll**: a cylinder 40 px in diameter × 150 tall, drawn with two ellipse ends and three paper-edge stripes, sitting just right of the current letter. The road (dotted letters: 7-unit road teal .30 + hairline), the start dot (green, 14 px), stroke numerals where a letter has ≥ 2 strokes.
 - **Return sweep (a new line):** the ribbon never slides. When the next repeat would not fit before the right edge, the roll **drops to a new ribbon line under the first, at the left start post** (a 350 ms hop down-and-left, a soft "ding"), and the first start dot of the next repeat lights at the far left — the child's hand has to travel back to the left margin, exactly as on paper (RF.K.1 return sweep). A word never breaks across lines: in sentences the space stone is laid at the end of the line and the next word starts the new line. At most 3 ribbon lines (sentences ≤ 22 letters fit in 3 at glyph 120); a long word that would not fit one line at glyph 120 (measured with the real advance widths) is laid out at glyph 100 for that round. The stage grows downward and the scroll rack column grows with it.
 - **Stone dish** (right of the ribbon, 64×40): one grey pebble (rounded rect, radius 18, #9A9389 with a lighter top highlight), width = advance of *o* at the current scale (≈ 62 px).
 - **Strip** under the ribbon: **Show me** (a glowing bead walks the next stroke), **Rub out** (clears the current letter), one-line note — Fading Line's controls.
-- **Scroll rack** (right edge column 72 wide at ≥ 700 px, `layout:'split'`): nine slots stacked; finished scrolls 56×20 with the word on the tag.
+- **Scroll rack** (the right edge of the stage, 72 wide at ≥ 700 px; stacked layout (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704), so the ribbon is 648 − 72 − 12 = 564 px): nine slots stacked; finished scrolls 56×20 with the word on the tag.
 - **Sentence mode:** no picture; the word card shows the whole sentence (24 px); a second ribbon appears under the first in the "trace then write" guide.
 
 **360 px (content ≈ 328):**
@@ -136,6 +136,7 @@ What changed:
 - New invention for the sight-word worksheets: **the card that turns over** (Guide "Remember it"): the word card flips face-down before the last repeat, so the ribbon unrolls only for the right next letter written from memory; slip 2 makes the card peek for 1.5 s; at the end its letters drop onto the child's. Look–say–cover–write–check, done by the apparatus.
 - Word lists made disjoint from Row 73 (picture words cow / owl / bee / ant / bed / kite / drum / duck / fish; capitals BALL / BOAT / GOAT / LAMB / MOON / STAR / KEY / VAN / OWL). Locale example lists re-picked by the length rule (the old de list repeated Row 73's words).
 - Layout: the ribbon width now leaves room for the scroll rack; long words step to glyph 100 if they would not fit one line; words never break across lines. Coordinator recommendation recorded in §11: Row 73 keeps letters A–Z, this activity owns words and sentences.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 
 ## 15. Ownership ruling (orchestrator, 2026-10-17)
 #218 owns **words, sentences and word spacing**; Row 73 (The Writing Carriage) owns letters A–Z only. The shared handwriting worksheets for words/sentences/spacing count under #218.

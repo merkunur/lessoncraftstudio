@@ -26,7 +26,7 @@
 - **The material decides by *aboutness*, recorded in the data** (each card lists the strips it covers); nothing on the screen says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: desk left (≈ 450 px), cards + bubble right (≈ 220 px). Stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The desk** (440 × 320): the headline slot at the top (400 × 52, dashed outline when empty); under it the strips: 3 strips (Level 1) of 400 × 54 px or 4 strips (Level 2/3) of 400 × 48 px, 18 px serif text (line height 1.4, wraps to 2 lines max), slightly rotated (±1.5°) like real paper. In Levels 2–3 a 14 px gap and a thin rule separate the two paragraphs; in Level 3 the target paragraph's strips carry a yellow highlighter band.
@@ -148,3 +148,4 @@ What changed:
 - **Four neighbour cards broke the design's own rule 4** (they shared no word with the article — wind, seed, ants, bread), which made "drop the card with no article word" a free elimination; and the topic was the shortest card or the most-overlapping card too often. Rewrote 13 cards (L1 rain, frog, volcano, library, wind, seed; L2 ants, bread) and re-measured every bot with my own script: all ≤ 2.5/8 in Levels 1–2 (chance 2.67) and ≤ 5.7/16 in Level 3 (chance 5.33). The one remaining cue — the topic names the repeated noun — is recorded as the skill itself.
 - **Hand-drawn objects removed:** the stapler and the fan are now the library pictures `classroom/stapler` and `around-the-house/fan` (seen); the drawn paper clip, wastepaper basket and printing press are gone — Level 3 uses the same stapler on the yellow paragraph, blown strips land on the desk's floor band, the front page forms in place.
 - Kept: the 8 articles verbatim, the stapler invention, the multiparagraph and paragraph-focus levels that finally carry the grade-2 half of RI.2.2.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

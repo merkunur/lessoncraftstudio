@@ -26,7 +26,9 @@
 - **Misconception 4 — an odd number written as "two equal addends"** (15 = 7 + 8). **Pushback:** the two equation boxes must hold the SAME number and each box counts its own column, so 7 + 8 never passes; the chimney brick clips on as the "+ 1".
 
 ## 4. The stage
-**At 704 px (`layout:'split'`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout):**
 - **Task line** (≤ 24 px): build — **"Pour {n} bricks. Which roof fits?"** · to 99 — **"The tens are already built. Choose the roof, then pour the ones."**
 - **The bag** (top of the left area, 140 × 90): a drawn sack with the numeral **{n}** on a tag (36 px); its face is the pour button.
 - **The shaft** (left, 160 × 440): a glass frame, two columns of bricks 72 × 40 (bricks drawn as two-tone rounded blocks in the place colours of the left/right column — left teal, right gold — with a 2 px ink outline), a V-floor; up to 10 layers (20 bricks) = 400 px. In the to-99 setting the foundation zone holds **slabs**: each a compact 2 × 5 brick block (144 × 40 at 704, the five layers drawn as thin lines), up to 9 slabs = 360, with at most 9 loose ones above (5 layers × 40 = 200); the shaft scales to 0.85 when a round needs more (max 9 slabs + 5 layers).
@@ -124,3 +126,4 @@ What changed:
 - **Positional tell in the to-99 hunt:** the rightmost of the four sacks was odd in 7 of 9 shelves (a 78 % "the last one is odd" tell). The bags were re-ordered inside their rounds (values unchanged): even bags per position 5/4/4/5, no three same-parity bags in a row (`work-c34`).
 - Re-measured: 18 even / 18 odd, every ones digit 3–4 times, the tens-digit rule 17/36.
 - New misconception 4 (an odd number written as two "equal" addends, 7 + 8) replaces the removed sum-parity one.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

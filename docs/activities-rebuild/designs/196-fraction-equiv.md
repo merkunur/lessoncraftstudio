@@ -23,7 +23,7 @@
 - **Misconception 4 — comparing fractions of different wholes:** the trays are always the same length / same diameter (drawn from one template, the gate checks it), and the success line says "of the same tray".
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below. Trays and tarts are drawn apparatus (cream tray `#FBF3E4`, dough `#E9B872`, 2 px ink outlines, piece grooves 2 px); the only picture is Crumb.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40. Trays and tarts are drawn apparatus (cream tray `#FBF3E4`, dough `#E9B872`, 2 px ink outlines, piece grooves 2 px); the only picture is Crumb.
 
 **At 704 — left 470 px (the trays), right 202 px (Crumb's counter):**
 - **Bars setting:** two trays 420 × 64 px stacked 56 px apart, left edges aligned (the crumbs need that):
@@ -147,3 +147,4 @@ What changed:
 - Re-solved every round with exact rationals: the nine same-amount rounds have exactly one k (2/4, 3/6, 4/8, 2/6, 6/8, 1/2, 3/4, 1/4, 2/3), the three "no piece fits" rounds have none (1/2 and 3/6 in thirds, 2/3 in fourths); the ten which-is-more pairs are never equal, the bigger side is 5 left / 5 right, half same-numerator and half same-denominator; the bot tallies of §6 are right (no bot above 4/12; "smaller denominator wins" and "bigger numerator wins" each 5/10, correct only on their own kind of pair).
 - §11 corrected: New 302 is now The Sunny Blinds (a comparison by slats and sunlight), not the knife "Cutting Board" it described — the two remain distinct (no cutting, a crumb line across one shared tray, and the equivalence/"no piece fits" job).
 - Distinct from Rows 107/108/170–172 (equal-part checks: mobile, stamp, perforation, dough press, rain table) and from premium fraction-kitchen (cutting with a knife) — confirmed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

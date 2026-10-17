@@ -22,7 +22,7 @@ Two hands hover over a real-looking sink, sprinkled with glittery germ dots that
   5. *Wiping on clothes / coughing into a hand* (Germ trail): the glitter visibly travels — onto the shirt, then onto the apple; from the hand onto the door handle — or vanishes down the drain / into the tissue.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (stage left, step strip + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 460 × 440):
 - **The sink** (around-the-house/sink, 220 px wide) bottom-centre; **the tap** (around-the-house/faucet, 110 px) above its back edge; the water stream is drawn apparatus (a translucent blue ribbon with moving highlights).
@@ -174,3 +174,4 @@ What changed:
 - Germs at 6–8 px were the smallest thing on the stage. Every germ state change now has a bigger carrier: a 22 px bubble, the drain swirl, the step strip.
 - **Reality:** opened the around-the-house contact sheet. The sink (pedestal), faucet, comb, toothbrush, toothpaste, toilet and door are all clean. around-the-house/shampoo is a blue pump bottle labelled *shampoo*, and at-the-supermarket/shampoo is a pink pump. Neither may stand in for soap, which confirms the BLOCKED call. around-the-house/brush is a PAINT brush, so the design is right to use the comb for hair. clothing/shirt exists in the JSON.
 - Not changed, and stated plainly: Wash mode is the heart of this design and K-382's core sequence, and it is BLOCKED until `soap` and `towel` art is labelled (and `elbow` for the cough round). Until then the activity ships Which-tool, Germ-trail and Why. That is honest, but it is not yet the unbeatable version.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

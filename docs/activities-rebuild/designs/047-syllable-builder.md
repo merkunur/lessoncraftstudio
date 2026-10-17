@@ -25,7 +25,7 @@
 - **Misconception 4 — counting letters or sounds** (Level 3). Pushback: too many threaded blank buttons slide off the lace end; too few leaves two syllables crammed on the last button.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the board column left (480), picture-and-bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The board** — a wooden lacing board 470 × 330 px, radius 22, light birch `#EBD3A8` with a 3 px ink outline `#5B4636` and a soft inner bevel.
@@ -172,4 +172,5 @@ What changed:
 - Replaced `tannbørste` (gated `tann·børs·te`, a disputed seam — common hyphenation is *bør-ste*) with `pingvin` (`ping·vin`) in Level 2, and struck `hanske` (`hans·ke`) from the reserve list for the same reason; a mutation now fails the build if either is shown.
 - Sharpened the distinctness argument against the built Counting Necklace and against row 45's new kite tail (both have a cord): the 2-D scattered path and the prefix-keeping tighten are this row's alone.
 - Kept: the lacing card, scattered jittered buttons with measured reading-order and greedy-path bots, "Stram!" and the unthreading, the count level with blank buttons.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

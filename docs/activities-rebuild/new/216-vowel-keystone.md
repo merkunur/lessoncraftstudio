@@ -24,7 +24,7 @@
 - Pushback is physics: the arch holds or sags; nothing says "wrong".
 
 ## 4. The stage
-Shell `layout:'split'` at ≥ 700 px; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage ≈ 450 px):**
 - **The stream and bridge** across the top half: a river band (soft blue, 3 px outline) with **2–4 stone arches** (as many as the round has vowels), each arch 96 px wide × 86 px high. Each arch is built from letter-stones spelling a short word with its vowel missing: e.g. **c ▢ t**. Arch letters are 26 px bold on stones 34 px. The gap stone outline at the crown is dashed.
@@ -148,3 +148,4 @@ What changed:
 - fi frame *k▢la* broke the design's own no-copy rule (its visible vowel IS the answer) → *k▢ttu*. Verified the es/pt/it/fi CVCV frame words (gato, pato, luna, mano, bola, casa, cane, rana, naso, kettu, sika, talo, susi) are gated approved words, and every EN FIX/LOAD frame word is in `approved-words-en.json`.
 - de umlaut-gap frames (*T▢r*) restricted to the 8-stone setting, where ü exists as a stone.
 - The invention (an arch that only stands on a vowel keystone) is the skill itself and needed no change.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -23,7 +23,7 @@
 - **Misconception 4 — one sentence is enough in a story.** Pushback (Level 5): some clues fill the jug only from the neighbouring sentence; the jug's gauge shows how many clues the blank has.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (470 × 440), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The sentence path** (top, 450 wide, 1–3 lines): each word is a flat stone tile (drawn rounded rectangle, cream with a soft grey edge), Nunito 22 px, 44 px tall; the tricky word sits on a teal stone with a white seed-label outline; a blank is an empty drawn soil hollow 96 × 44 (letter-box level: N boxes 36 × 44).
@@ -147,3 +147,4 @@ What changed:
 - Re-measured the live data: the claimed "de right gloss longest 6/9" is false (de 3/9); the real defect is pt, whose right gloss is listed FIRST in 9/9 — must be re-placed because this design fixes positions in data.
 - Clue-list rule: a dry jug at a word a teacher accepts as a clue (truck, log, store) teaches that good reasoning is wrong — lists widened, native sign-off "no dry content word supports the answer", mutation added.
 - Level 4 now has its exact sentences (bank frames); strawberry left the kiwi/watermelon triple (the red watermelon slice also "has seeds" — two right answers), lemon in.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -31,7 +31,7 @@
 - **Misconception 5 (write about the picture) — writing something that is not in the picture.** The stage shows what the sentence says; if it says *green dog*, the spotlight pool turns green under a brown dog, beside a photo that has none.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), poster board + bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 470):
 - **The theatre** (y 0–260): proscenium frame 464 × 250 (drawn: 6 px ink frame, top valance with scallops), curtains open by default; stage floor (cream boards). **The actor: the round's library picture, 128 px** (number words: up to 6 instances at 72 px in a row of spotlights; *Two* = 2 × 112 px). Spotlight pools are ellipses 140 × 40 on the floor.
@@ -150,3 +150,4 @@ What changed:
 - **Two more false/half-false attributes removed from level 2:** *My yellow kite* (the kite is red and yellow) → *My big kite*; level 2 no longer repeats the pink pig (→ *The white goose honks.*).
 - **One live defect found that the colour sweep missed:** sv *En randig fisk simmar.* — the fish has patches, not stripes. Reported for an immediate live fix (*En röd fisk*); appended to PICTURE-RULINGS.
 - **Level 5 made buildable:** every photo now has its TRUE describing-word and verb sets written out, and the false words are required to be plainly false (no shade arguments).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

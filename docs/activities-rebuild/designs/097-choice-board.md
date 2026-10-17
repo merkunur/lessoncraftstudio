@@ -23,7 +23,9 @@
 - **Mental first:** the setting "Glass: frosted" hides the blocks — the child moves the handles by the digits alone (only the digit under each tube shows), and the blocks appear after Check. That is the "in your head" form the standard asks for.
 
 ## 4. The stage
-**At 704 px (split layout: apparatus left 420 px, board right 240 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: apparatus left 420 px, board right 240 px):**
 - **The question card** (top, 420 × 56): big numeral of the round's start (48 px) and the operation in words — "10 more" (the task line repeats nothing else).
 - **The two tubes** (centre-left): the tens tube 96 × 340 px holding up to 9 rods stacked horizontally (each rod 80 × 30, ten segment lines); the ones tube 96 × 340 px holding up to 9 cubes stacked (each cube 30 × 30, centred), topped by a **lid** drawn as a dark cap with a notch at the 9th level. Same height on purpose — nine rods and nine cubes reach the same level, so the size of a block, not the height of the stack, carries the value. Handles: the top block of each tube gets a grip band (44 × 44 touch area minimum, 96 × 44 actual). The tens tube is on the left, ones on the right.
 - **Digit plates** under each tube: the tens digit and the ones digit (56 px numerals) reading together as the number; a hairline joins them into one numeral when both are set.
@@ -125,3 +127,4 @@ What changed:
 - **Count the jumps was answered by the trail itself** (the trail counted the moves the child had just made); now the child predicts the counts first and the tubes run them — a wrong count visibly lands on the wrong number.
 - **Collision with Row 98 removed:** both designs built Number-of-the-Day from its coats. Here the face is now the **neighbour cross** (10 less / 1 less / 1 more / 10 more, hundreds-chart layout); the coats belong to Row 98 and appear here only as the reward show.
 - Board captions (words on the apparatus) dropped; the "10 less" celebration was an unfinished "…" string — written out.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

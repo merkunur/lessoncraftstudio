@@ -27,7 +27,9 @@
   - *O'clock with the short hand "between"*: at :00 there is no slice at all, so the echo is a single line on the number — the short hand must be on it.
 
 ## 4. The stage
-**At 704 (layout `split`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout):**
 - **Left, the clock (the hero):** a face 380 px across inside a 12 px wooden rim (#E9D3B0, 3 px ink edge), cream #FBF3E4; numerals 1–12 Baloo 2 34 px; 60 ticks (5-minute 3 × 14 px, minute 1 × 7 px); hub 20 px. The 12 **hour slices** are drawn faintly (alternate slices in #F6EAD5, 1 px dotted lines from hub to the numerals' outer edge) — the lanes the echo lands in. On top of the rim a small brass **bell** (drawn dome, 44 × 30 px). Below the clock the **receipt slot** (a 200 × 8 px dark slit).
 - **The hand tray** (left of the clock at 704, a rounded trough 92 × 300 px): the **short hand** (teal #146B5E, 100 px long, 14 px wide, rounded tip) and the **long hand** (coral #F2784B, 160 px, 8 px wide) lie in it; each is a 92 × 60 px tap target (the visible hand inside). On the clock: short hand length 0.50 r, long hand 0.84 r.
 - **Right column (≥ 260 px), the time card:** the target — digital time in Baloo 2 56 px (locale format) and the worded time in 22 px under it (e.g. "half past seven"); below it the receipt after Check (paper strip 180 × 70 px, monospace-free Baloo 2 34 px digits); the bubble (18 px) under the receipt.
@@ -131,3 +133,4 @@ What changed:
 - The quarter list repeated two of the sibling 2.MD.C.7 times (3:15, 7:45) → 4:15, 9:45; the gate now checks every list against the sibling's eight times, not just the five-minute list.
 - The half-past push-back was described inconsistently with the echo formula (a hand on 8 does not point "past the front edge" — the echo moves to the 8-to-9 slice). Rewritten from the formula; the pitch now says "its leading edge", which is exactly where the true hour hand points.
 - Idioms re-checked per locale (next-hour half de/nl/sv/da/no/fi, current-hour half en/fr/es/pt/it, the around-the-half five-minute forms). Distinct from learning-clock: hands are ungeared, start in a tray, and the echo/receipt judge them — the tool's geared hands and idiom arc are not copied.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

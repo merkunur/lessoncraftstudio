@@ -30,7 +30,7 @@
 - **Misconception 4 — the missing piece is always at the end** (Level 3). Pushback: the gap moves (first/middle/last).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: telescope stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The picture** — top-right of the stage as the "far-away" thing: the library picture **144 px** on a round island of pale blue (a circle 170 px, `#DCEFF5`, ink outline) — tap = the word (TTS bonus).
@@ -178,4 +178,5 @@ What changed:
 - The logbook no longer shrinks pictures to 34 px (record ruling): each entry is a drawn spyglass mark, the word and one dot per syllable.
 - Misconception 2 reworded: it claimed *klokke* is spoken as one beat, which contradicts the reason the word is allowed (spoken = written syllables); now it is "rushing the word", which the policy-safe pool makes honestly hearable.
 - Kept: the telescope, the optical verdict (sharp / blurred-shifted / blurred-shrunk), the equal-size segments (no taper tell), the round tables.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

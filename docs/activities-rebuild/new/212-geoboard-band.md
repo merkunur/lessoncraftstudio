@@ -21,7 +21,7 @@ A geoboard is one of the most loved objects in a kindergarten — and here the b
   5. *Crossing bands.* A band that would cross itself snags: a small knot appears at the crossing and the peg tap is refused — a shape's sides only meet at corners.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (board left, readout column right with the bubble); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The shelf** (above the board, 440 × 70): a wooden ledge; finished shapes sit on it as 56 px stickers, newest on the right, scrolling left after 6.
@@ -138,3 +138,4 @@ What changed:
 - The Board setting is now HIDDEN in the 5-shapes set; before, it would have been a dead control there. Starter coordinates are anchored to the top-left peg, so 4 × 4 rounds stay solvable on 5 × 5. Two mutations were added.
 - Made explicit that a close in free play is never a miss.
 - Distinct from Row 40 in the same batch: the Post Box ANALYSES given shapes stick-to-side, while the Band BUILDS them peg to peg. They share the square-corner mark only as geometry notation, not as a mechanic.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

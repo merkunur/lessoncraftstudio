@@ -24,7 +24,9 @@
   4. **"A true sentence belongs."** The drift is TRUE. The string mechanic never says "wrong" — it says "this belongs to the lake", and the card walks next door: true facts are kept, in the right room.
 
 ## 4. The stage
-At 704 (layout `split`, stage ≈ 660 × 470):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 470):
 - **The room (left, 440 × 420)**: a drawn museum wall (#F4E8D4 with a 3 px ink picture rail at y = 40 and a skirting band at the bottom). **The sign**: a gilt frame 168 × 150 centred at the top (drawn frame, 6 px #C99A6B with a 2 px ink edge) holding the topic's library picture at **128 px**, and under the frame a small brass plate with the topic word (content, 20 px Baloo 2, e.g. "Frogs"). Each sign has a **hook** (a drawn 18 px brass hook) under its plate where strings attach.
 - **The doorway (right edge of the room, 124 × 300)**: an arched opening cut in the wall, showing a sliver of the next room's wall and **its sign**: a smaller frame 116 × 110 with the other thing's picture at **96 px** (the picture floor; the doorway sign is smaller than the topic sign but never below 96 px at 704 / 64 px on phones), its own plate word (18 px) and hook.
 - **The cards** (four hooks on the wall in a 2 × 2 arrangement, each card 190 × 74): drawn paper cards (#FFFDF7, 2 px ink, a slight random tilt of ±2°) with the sentence in 20 px Nunito (two lines max, 26 px line height). From each card's top-left corner hangs a **string end** — a red 3 px line ending in a 30 px round brass ring (the drag handle; tap target 48 px).
@@ -152,3 +154,4 @@ What changed:
 - **L3 now trains the real skill.** The old L3 facts contained the topic word, so the child only matched a word to a plate. L3 facts are now three "They/It" mystery facts per topic with the door picture fitting at most one (round moon vs sun, loud siren vs bells) — naming the topic from what the facts say, the W.K.2 move. Gate + mutation added.
 - Picture floor: topic sign 128 px and doorway sign 96 px at 704 (the doorway sign was 72 px, under the floor).
 - Moon picture switched to camping/moon (seen on its contact sheet; the space theme is ruled unreliable). Lake confirmed as a lake scene with no frog in it.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

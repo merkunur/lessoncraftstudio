@@ -20,7 +20,7 @@ A clean wooden test bench sits in the middle of the stage under a panel of three
   4. *Sorting by appearance:* the crates only take a thing after its test; in "test after sorting" mode the child commits first, and then the bench runs the test on the thing in the crate — a car in the LIVING crate lights no lamps there, in front of everyone.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (stage left 470 px: lamp panel, bell, bench, crates; right column 210 px: the tray of things + bubble); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 470 × 470):**
 - **The lamp panel** (top, 330 × 110): a drawn wooden board with three round glass lamps (68 px each, 3 px ink rim); dark = smoky grey glass, lit = warm amber glow with rays. Under each lamp an apparatus icon (no words): GROWS = a small-to-big arrow pair (two nested chevrons), FOOD AND WATER = a drop inside a bowl outline, MAKES YOUNG = a big circle with a small circle beside it.
@@ -142,3 +142,4 @@ What changed:
 - **`classroom/scissors` is not in the activity index** — replaced by `toys/blocks`.
 - **Picture floor:** the young copy (45 % = 58 px), the growth start (55 %) and crate contents (64 px) were under 96 px at 704; now young 96, growth 96→128, crates show the newest at 96.
 - §0's contradictory spoon/key sentence rewritten. 3 + 3 per round and ≥ 3 movers / ≥ 2 plants per Tricky round re-checked.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

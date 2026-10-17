@@ -25,7 +25,9 @@
   4. **Hands swapped** (long hand on the hour, short on the minutes) → the readout reads the swapped time ("12:15" for a 3:00 attempt), and the run-on sends the long hand (the hand that counts minutes) round from the 3 — the short hand ends far from any number.
 
 ## 4. The stage
-At 704 (split, stage ≈ 660 × 470):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked, stage ≈ 648 × 470):
 - **Left: the clock** (drawn apparatus), face 330 px across, cream #FFF8E7, 6 px teal rim, numerals 1–12 Baloo 2 30 px ink, 60 minute ticks (every fifth bold). **Long hand** teal 6 px to 86 % radius with a 26 px round grip at its tip; **short hand** coral 12 px to 55 % with a 30 px grip in its middle third; brass centre 16 px. **The gear**: a 34 px brass gear drawn beside the centre at rest (disengaged, slightly faded); at Check it slides into the centre. **The bell**: a small brass bell 40 px on top of the case; its strokes are drawn as expanding ripple rings (one per stroke). No minute numbers round the rim unless the "Minute ring" setting is on.
 - **Right column (300 px), top to bottom**:
   - **the target card**: a flip-clock card 220 × 110, digits Baloo 2 56 px (hour on coral-cream, minutes on mint), and under it the locale's spoken phrase in 20 px ink (e.g. "ten past six") — the phrase is content;
@@ -128,3 +130,4 @@ What changed:
 - **Invention replaced.** The flip-tile rim (numerals with the minutes on their backs, flipped by the long hand's sweep) was row 161's Flip Tiles — the same two-sided numeral tiles teaching the same "the 4 says 20". The new invention, the Run-On Test, checks the child's pose by gearing the hands and running on to the next o'clock: it catches the short-hand-on-the-hour error even when the digital readout matches (the error the old readout-only check, and every readout, misses).
 - §6 rounds and the short-hand grading rule kept and re-measured (`work-c31/clock.js`): distinct hours per level; five-minute and mixed levels split 5/5 around :30 (0 counted below); ":20 and later" 7/10 and 6/10; the on-the-hour bot wins 2 of 10 in "Five minutes".
 - New miss 2 "slots" (dashed notches the hands click into) instead of the tile demonstration; setting 2 is now a minute ring visible at rest; phrase source pointed at the reviewed `learning-clock.js` tables (da 12:25 corrected to "fem i halv et").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

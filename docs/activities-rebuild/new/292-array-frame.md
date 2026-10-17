@@ -24,7 +24,9 @@
 - **Misconception 3 — off-by-one guessing** (4 × 5 or 4 × 7 for 24). **Push-back:** 5 columns leave 4 counters in the hopper (one row's worth short); 7 columns leave 4 holes (one row's worth over) — exactly one column of difference, visible.
 
 ## 4. The stage
-**At 704 px (split: board 440 px left, sentence column 216 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: board 440 px left, sentence column 216 px right):**
 - **Task line** (22 px): **"Pull the frame or type the missing number. Nothing may stay in the hopper and no hole may stay empty."**
 - **The hopper** (board top-left, 120 × 96): a drawn funnel-box (apparatus geometry, no face) with the total N on its front in 32 px numerals; it shows the remaining count as counters pour. The round's **library picture** stands beside it at **96 px** — "these are apples" — the counters themselves are drawn discs (ten-frame ruling: counters in frames are drawn, one picture as the label; a 10 × 10 frame of pictures could never meet the 64 px floor at 360).
 - **The frame** (below the hopper, up to 10 × 10 cells, cell 34 px, counters 28 px cream discs with a 2 px teal ring): a wooden border 6 px; **rows-fixed rounds**: r horizontal rails are always visible (the fixed side) and the **right edge** carries a 44 × 44 grip with a double chevron; **columns-fixed rounds**: c vertical rails are fixed and the **bottom edge** carries the grip. An empty socket is a dashed ring.
@@ -147,3 +149,4 @@ What changed:
 - Re-solved both tables with my own oracle: the "either" table had the missing factor 8 three times (claim was "no value more than twice") — round 6 changed from 2 rows / 16 to 8 rows / 40 (5 columns); totals still distinct; one clean width per round.
 - Fixed the adding-misconception text ("40 holes for 24 counters" → 40 sockets, 16 empty).
 - Fact-pattern role balance re-derived by hand: rows 12 / columns 12 / total 12 of 36 ✓.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

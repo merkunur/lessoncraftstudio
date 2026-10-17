@@ -25,7 +25,7 @@
 - **Misconception 4 — the array is a different thing** (G3-301). **Push back:** in array rounds the rows of the array ARE the trays — each row drops into its own pleat. The child sees that 4 rows of 9 and 4 groups of 9 make the same strip.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: apparatus left (≈ 470 px), bubble + keypad right (≈ 200 px). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (iframe):**
 - **Felt board** (470 × 230): the trays in a row (≤ 5) or two rows (6–9). Tray diameter: 96 px for groups up to 6 beads, 84 px for 7–10; beads 18 px (14 px in Level 3 when a tray holds 7–9). In array rounds the board shows a drawn grid of bead wells (rows × columns, well 30 px, gap 8 px, up to 6 × 10 → 380 × 228) with a faint tray-coloured band behind each row.
@@ -155,3 +155,4 @@ What changed:
 - **Levels 2–3 prompts handed over both factors** ("6 groups of 3" → the child could multiply the prompt without looking). The prompts now carry no numbers: counting groups and the size of one group off the board is exactly G3-301/302.
 - Shortcut bots re-measured with my own script (`work-c35/accordion-c35.js`): every ±1 perturbation of all 24 rounds refuses to fold; one-tray-as-total and groups+each bots 0/24.
 - §11 now names Row 192 Echo Grove (same five worksheets, opposite move: copies by construction vs equality tested by folding) and New 292.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

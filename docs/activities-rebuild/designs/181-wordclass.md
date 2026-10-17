@@ -23,7 +23,9 @@
   - Sorting (L3): *"a word is a noun if it's a thing in my head"* → in a real sentence, things light up with a picture, doings move, describing words beam onto something else — the word's JOB in the sentence decides.
 
 ## 4. The stage
-At 704: split — apparatus left 470 px, bubble column right 186 px. At 360: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704: stacked — apparatus left 470 px, bubble under the stage. At 360: stacked.
 - **The sentence board** (drawn apparatus): a dark-teal board 460 × 180 px (328 × 200 at 360) — dark so the light reads; words in cream Nunito 800, 30 px (24 at 360). Content words (nouns, verbs) sit on faint round **landing pads**; linking verbs (*is, are, looks, seems, feels*) sit on drawn **bridges** (a small arch under the word); little words (the, a, its, and) are plain.
 - **The blank**: a glowing dashed slot 130 px wide in the sentence.
 - **Glim's word card**: below the board, a warm-yellow card 170 × 64 px (140 × 56 at 360) holding the base word (*happy*) in Baloo 2 700 30 px, with a small **lamp knob** on its top edge. When the card is in the blank, the knob is where the beam is pulled from.
@@ -142,3 +144,4 @@ What changed:
 - Two-right-answer rounds removed: sentence-start blanks (*Silent, the owl flew away* and *Tired, the silent owl flew home* are good English) in L1 round 9 and L2 round 3; *meowed at the door sad* (depictive) in L1 round 8. And L2 let the child swap the two cards between blanks — *The careful girl bravely climbed the tree* is as right as the key — so L2 cards are now fixed to their blanks.
 - L1's position column and bot claims were wrong (round 2's blank follows a noun, not a verb). Re-measured on the final table (`work-c27/measure.js`): nearest-content 6/10, after-verb→adverb 3/10, before-noun→adjective 7/10; only the real grammar rule solves all ten. Gate thresholds updated.
 - L3 noun count corrected (13); number words/determiners declared little words.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

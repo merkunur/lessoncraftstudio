@@ -25,7 +25,9 @@
   - (Capitals are NOT judged here — row 182. The auto-capital after a stop is a consequence the child sees, never a decision.)
 
 ## 4. The stage
-At 704 (split layout: apparatus left 440 px, bubble column right 220 px) and at 360 (stacked).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout: apparatus left 440 px, bubble under the stage); stacked at 360 too.
 - **The bed** (drawn apparatus): a long cream card 420 × 190 px at 704 (328 × 210 at 360) with a teal 3 px outline, lying slightly tilted (−2°) on two short teal legs; when cured it rotates upright to 0° and lifts 6 px.
 - **The sentence** on the bed: word tiles, Nunito 800, 30 px at 704 / 24 px at 360, cream tiles with a 2 px ink outline, 10 px gaps. Lines wrap inside the bed (max 3 lines; L1 cards of three short sentences and L2 runs up to 13 words wrap to 2–3 lines at 360). Gaps between tiles are 22 px wide tap zones (44 px tall), invisible until a tool is held.
 - **The Listening Line strip**: a 56 px band under the words inside the bed; a teal 4 px pen line, coral where it kinks/knots. Empty at rest (a faint dotted baseline only).
@@ -155,3 +157,4 @@ What changed:
 - L2's own spread rule failed on its own table (first-sentence length 4 in 5 of 10 rounds; round 8 was 13 words, not 12; "where is my hat" counted 3, it is 4). Rebuilt and MEASURED (`work-c27/measure.js`): lengths 2–8, max 2 per length, every shortcut bot ≤ 4/10; removed seams starting with *I* (capitalised in the run = a seam tell).
 - L3 round 8 *is big The bus* had two right answers ("The bus is big." / "Is the bus big?") → *ball the kicks Sam*. Length-rank claim re-measured (40 %, at the limit, recorded).
 - Fixed the es contradiction (auto `¿` vs "a missing `¿` is a miss"): the `¿` is a consequence of the `?`, the decision is which end; added the de seam trap (a noun-initial second sentence arrives capitalised and gives the seam away).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -25,7 +25,7 @@
 - **How the material pushes back:** by the lock. A wrong wheel does not turn red. On Check the right wheels drop their brass pin and go still; the wrong wheel stays loose and wobbles; the case stays shut; the plate keeps showing the word the child really dialled.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: case + lock left, plate + bubble right. Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 704 × 480):**
 - **The keyring** (top band 704 × 44): a thin brass rail; each opened lock hangs a drawn brass key (28 × 40, the word engraved at 12 px) — a record in apparatus geometry, never a shrunken library picture.
@@ -165,3 +165,4 @@ What changed:
 - `pêssego` retired: both library peaches are drawn as red apples (contact sheets) — Level 3 slot given to `jacaré` (alligator, TeX-agreed `ja-ca-ré`, decoy *co*). 27 of 28 legacy words kept; the loss is stated, not hidden.
 - The keyring of 36/24 px pictures broke the 96/64 px floor → drawn brass keys with the word engraved; tapping a key re-reads it on the plate.
 - Família silábica claims verified: *ga ge gi go gu* / *ca ce ci co cu* are spelling families as Brazilian classrooms teach them, *ça ço çu* is a three-face wheel, coda families (*bar ber bir bor bur*, *fan fen fin fon fun*) and *nha nhe nhi nho nhu* are taught families; accented/tilde/*gu* syllables stay in Level 3 — correct.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

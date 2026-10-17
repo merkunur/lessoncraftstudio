@@ -22,7 +22,9 @@
 - **Misconception 4 — the written marks** (written-sum setting): snapping a rod strikes the tens digit (4 → 3) and writes a small 1 before the ones digit (2 → 12) at the moment it cracks.
 
 ## 4. The stage
-**At 704 px (split layout: mat 450 px left, scoop/Tuck column 230 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: mat 450 px left, scoop/Tuck column 230 px right):**
 - **Task line** (≤ 24 px): see §9.
 - **The mat** (450 × 360): three shelves side by side — hundreds | tens | ones — 145 px each, wooden frames 2.5 px ink, headed by a block icon and the column name (16 px).
   - **Flats** 60 × 60 (10 × 10 faint grid; score lines between the ten rod-rows drawn 1.5 px darker so a flat visibly snaps into rods), two wide.
@@ -154,3 +156,4 @@ What changed:
 - **G2-205 was not covered:** the sheet is two-digit take-away with **no** borrowing, and every round here needed a snap. Added the **nothing to snap** warm-up (58−23, 47−15, 86−52, 79−46, 64−21, 95−54, 38−14, 77−35 — answers 35 32 34 33 43 41 24 42, distinct, no borrow in any column): the scoop lifts at once, which is the lesson.
 - **Coverage stated honestly:** the addition sheets on this row's map (G2-255/258, G3-359/361) are carried by #267 and row 145; a take-away scoop does not pretend to add.
 - Distinct from the counting-cups tool stated (its scoop groups; this scoop is the subtrahend). Notation re-checked against row 96 §9b: strike-and-rewrite at the crack, de *entbündeln*.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -24,7 +24,7 @@
 - **Misconception 4 — why vs how.** "because…" chunks vs "with / on…" chunks.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700: window stage left (500), bubble column right (180).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 500 × 460):
 - **The window frame** (top, 500 × 70): Wren's diner hatch, drawn wood frame; pinned order slips along it (finished rounds).
@@ -157,3 +157,4 @@ What changed:
 - **Level 4:** "When does the moon come out?" used the same moon picture for the subject and the answer → "When does the owl hunt?".
 - **Fun:** the earned show — the question tour: when a strip's third question is solved, the lamp hops chunk to chunk while each key slots in turn.
 - **Pictures:** weather/sun has no lcs-pictures label → beach/sun; added camping/forest, forest-creatures/owl, spring/tulip, activities/playground, summer/pool, miscellaneous/house to the verify list (all present in the JSONs).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

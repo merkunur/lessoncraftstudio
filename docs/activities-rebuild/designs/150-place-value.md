@@ -24,7 +24,9 @@
 - **Misconception 4 — face value** ("the 7 in 472 is worth 7"). **Pushback (digit-value job):** the key the child presses drops its blocks next to the bright digit's own blocks — seven cubes beside seven rods.
 
 ## 4. The stage
-**At 704 px (`layout:'split'`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout):**
 - **Task line** (≤ 24 px): make — **"Make {n} on the machine."** · read — **"Press the keys the blocks are worth."** · worth — **"What is the bright digit worth? Press that one key."** · which set — **"Which set shows {n}? Feed it to the machine."**
 - **The order panel** (left, 200 × 420): make — the order ticket (180 × 96, numeral 48 px); read — the blocks to read, tidy H-T-O top to bottom (cube 10, rod 10 × 100, flat 100 × 100; flats fanned with an 8 px offset, 9 flats → 164 × 164; rods side by side 6 px apart; cubes 3 × 3 nest) — in the two-digit setting rods and cubes only; worth — the number (numeral 56 px) with one digit bright (coral, 1.2× size, a ring), its blocks shown faintly under it.
 - **The machine** (centre, 270 × 500): a rounded body in cream with a teal faceplate. Three key columns (two in the two-digit setting), each **9 keys, smallest at the bottom** (100 at the bottom up to 900 at the top — bigger is higher). Keys 76 × 44, 6 px gaps (column height 9 × 50 = 450), labels 20 px numerals; columns colour-coded on the key rim (hundreds teal, tens coral, ones gold) with the place glyph (little flat / rod / cube) above each column — no words.
@@ -128,3 +130,4 @@ Scores before → after: invention 5→5 · fun 5→5 · completeness 4→5 · c
 What changed:
 - **G1-121 "Build It Right" was not covered**: the designer pointed it at row 149's Match job, which is three-digit and another row. New fourth job **Which set?** (two digits only): three block sets, the child feeds one to the machine, the machine presses that set's keys by itself and the drums are judged against the ticket. Nine rounds measured (`work-c34/c150pick2.js`): position 3/3/3, rods-only and cubes-only 0/9, piece-count ranks 3/3/3 (most / fewest / middle each at chance), a one-rod or one-cube near miss in every round, phone budget 649 ≤ 740.
 - Checked the digit-value tables: bright digit in hundreds/tens/ones 3/3/3 (three digits) and 5/4 (two digits); the face-value key is right 3/9 and 4/9 — confirmed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

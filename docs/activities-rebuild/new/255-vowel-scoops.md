@@ -26,7 +26,7 @@
 - **Honest scope.** RF.1.3.d is about *how many* syllables. Every split that leaves exactly one vowel sound in each part floats and is accepted (*rab|bit*, *ra|bbit*, *rabb|it*). The activity never shows a "correct boundary": the gated pool's boundaries are typographic in places (en *bak|er*, *riv|er*), and boundary rules are RF.1.3.e — another activity's job. The teacher prose says so plainly.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: canal left, bubble + barge counter right; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (canal column ≈ 470 px):**
 - **Picture card** (top-centre of the canal column): the round's library picture, 132 × 132 px, on a cream card with a 3 px ink outline. Tap = TTS of the word where a voice exists.
@@ -175,3 +175,4 @@ What changed:
 - **Re-measured pools and bots per locale** (`work-c24/vow.js`, `bots.js`): es/it/pt have NO one-part word of ≥ 5 letters and fi has no one-part word at all, so the old "3 long one-part words" mix shape was impossible there; the mix level now has an exact per-locale shape (four-part words in es/it/pt/fi, 4 posts) that holds every bot ≤ 3/9. EN mix table measured: do-nothing 3, halves 2, chunk 3.
 - **Settings cut to two** (Words: Two parts / Mixed lengths / Vowel teams · Task), and the team setting no longer pre-outlines the teams (that gave the answer away).
 - **Distinct from the premium syllable-splitter, verified in its source:** listed what it does (drum, arcs, cards, pens, teacher seam editor) and fenced those out of this design explicitly.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

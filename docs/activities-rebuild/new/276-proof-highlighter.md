@@ -22,7 +22,7 @@
 - **Misconception 3 — any answer of the right kind will do.** Every distractor is the same kind as the answer (Who → two other people *from the story*; Where → two other places *from the story*), so the question word alone cannot choose. Measured: a bot that picks the option whose words appear in the story wins a clear victory in only 5 of 40 questions (35 three-way ties), i.e. distractors are as "in the text" as the answers.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px**
 - **The book (left, 430 × 470):** a drawn open-book page (cream `#FBF3E4`, 2 px ink edge, a soft spine shadow on the left). At the top a 96 × 96 library picture (§6 per story) beside the story title (Baloo 2, 22 px). Below, the three paragraphs, Nunito 19 px, line height 30 px, 16 px between paragraphs, each paragraph preceded by a tiny drawn pilcrow-free margin mark (a 6 px dot) so "paragraph" is visible. A 34 px **tab margin** runs down the right edge of the page: tabs stick here, vertically centred on their sentence. With *Sentence numbers* on, each sentence starts with a small grey superscript numeral (14 px).
@@ -223,3 +223,4 @@ What changed:
 - Removed two second-right-answers: S7 "Where did they dig the holes?" offered "in the cold ground" (the holes ARE in the ground) → "on the garden path" (new ¶2 detail); S4 "Where was the snow?" offered "on the big hill" (the hill obviously had snow — they sled on it) → the S4 what/where questions rebuilt (what was closed → school ¶1; where did they pull the sled → up the big hill ¶2), paragraph spread kept 1·2·3.
 - S2 why-distractor "because she did not like her box" was near-true (she skipped her box) → "because Aunt Rosa laughed"; tense of "looks" fixed; S5 why-answer now copies the sentence ("because now he was not scared").
 - Content rule now names the nested-truth exemption the reviewer must check; §11 now states the real overlap with Row 117 Level 3 (same worksheets) and why the child-finds-it tab is a different act from the lens that finds it.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

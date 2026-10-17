@@ -25,7 +25,7 @@
 - **Misconception 4 — re-counting from 1 instead of seeing the part (K-277).** The groove runs in rows of five like a ten-frame, so 6 filled cups read as "a full row and one" and the 4 empty dimples are a picture of the missing part.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (lunch table left, Clunk + log + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (left column 500 px, right column 156 px — the lunchbox needs five full-size cups in a row):**
 - **Task line** 22 px, one line: the round prompt (§9).
@@ -169,3 +169,4 @@ What changed:
 - Up to 5 had two WHAT DID rounds both answering 5 → round 7 is 1 + 3 = 4.
 - desserts-and-sweets has no macaron (checked the theme JSON) → muffin. Every other solution list re-enumerated by hand: correct.
 - Phone layout re-measured for the larger pictures (lever beside the box, wall scrolls at 320).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -23,7 +23,7 @@
 - **The test itself is the lesson:** the machines are the classic grammar test frames (article test, "can" test, "very" test) turned into apparatus; in German the article frame is also the Grundschule "Artikelprobe".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480 × 480), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Three machines** in a row (or two when the setting uses two classes), each 150 × 300: a drawn cabinet (rounded rectangle, `#146B5E` frame, cream face, 3 px ink, a brass lever knob on top) with, from top to bottom:
@@ -133,3 +133,4 @@ What changed:
 - Sizes: the balloon and the played noun pictures are 96 px at 704 (were 88); picture help no longer shrinks library pictures to 40 px on a card — a hold-to-peek pops the noun's picture up at 96 / 64 px.
 - The Finnish frame choice is SETTLED ("Tässä on ___." / "Osaan ___." / "Ilmapallo on hyvin ___.") with the reason "Katso, ___!" lost, and the elliptic-adjective trap handled by the pool. The same nominalised-adjective trap is named for fr/es/it/sv, and the non-noun article is a plain neutral form instead of an underscore.
 - "sing" gets a real picture (music/singer). The machines (sentence frames that perform their sentence and jam on a wrong word) are kept as the invention — they are the teacher's own test frames, made physical.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

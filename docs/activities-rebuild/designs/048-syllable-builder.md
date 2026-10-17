@@ -26,7 +26,7 @@
 - **Misconception 4 — "take away the first one" always** (Level 3). Pushback: the target sometimes needs the last stone(s) lifted (*hus·bil* → *hus*), sometimes two stones (*flad·der·mus* → *mus*).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the stream stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The stream** — a horizontal band 480 × 150 px across the stage at mid-height, water `#BFE3EE` with 3 slow ripple lines (geometry, 6 s loop), banks above and below as soft green strips `#CFE8B8` with a 3 px ink edge. Width constant every round.
@@ -173,4 +173,5 @@ What changed:
 - Level 3 table corrected: *tvätt* and *guld* ARE Swedish words (it said "no word"); the far bank now shows three honest outcomes — picture, written word on a card, or leftover syllables in a dashed frame.
 - Lily pads in the pond carry the word on a drawn pad, not a 26-px picture (record ruling).
 - Kept: the frog and stones, the even spacing (the stream never tells the count), the Swedish compound-deletion game (*solros* utan *sol* blir *ros*) with its measured lift-position bots.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

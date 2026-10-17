@@ -25,7 +25,7 @@
 - **How the material pushes back:** the arm's reach and the coin-flip. The verdict is the picture tag clipping on or not.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 460):
 - **Washing line** (top, 504 × 48): a string with nine pegs; finished word tags hang there (geometry; words are the content).
@@ -151,3 +151,4 @@ What changed:
 - e / no-e balance 6/3 → 5/4 per set (pig, van replace gate, tape): an "always add the e" child now wins the e-question 5/9, not 6/9 (measured, `work-c23/m111.js`).
 - The rail is one socket per letter (the old two-letter *wh* tile was an unsourced sound split); whale = w h □ l ◇ fits five sockets at 320.
 - EN-only refusal checked and kept: no other locale has a final-e lengthening rule.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

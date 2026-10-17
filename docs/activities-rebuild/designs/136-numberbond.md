@@ -25,7 +25,9 @@
 - **Misconception 4 — sharing vs making groups are different operations** (G3-374). **Pushback:** the replay acts each out differently — sharing deals the pile into a fixed number of segments, grouping cuts off segments of a fixed size — and both land on the same told total flag only with the right number.
 
 ## 4. The stage
-**At 704 px (`layout:'split'`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout):**
 - **Task line** (≤ 24 px): **"Read the story. Type the missing number, then press Replay."**
 - **The story card** (left, 400 × 170): the story in 20 px text, ≤ 5 lines; each told number is a chip (rounded, bold, its flag colour); the question sentence is underlined; the "?" chip at the end. To the right of the text the story's **library picture** at 96 px (§4 list; no picture for rounds whose thing has no good picture).
 - **The answer box + keypad** (right column, 230 px): the answer box (110 × 72, digits 40 px), a 3 × 4 keypad (keys 64 × 52), the **Replay** button (= the shell's Check, labelled with a ▶ glyph and the word).
@@ -149,3 +151,4 @@ What changed:
 - **Picture floor:** the play-head carried a 32-px picture and the within-20 bars were 22-px picture units — both below the 40-px data-mark floor. Now a drawn play-head token and drawn unit squares; pictures stay full size in the story card.
 - "12 red balloons and 30 blue balloons" removed (toys/balloon is green); toys/cards named for the cards stories; a no-three-same-operation-in-a-row order rule added.
 - Invention stays at 4: the hand types and the track checks — the replay and the backwards replay are genuinely new and teach "put your answer back into the story", but the modelling itself is not done by the hand.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

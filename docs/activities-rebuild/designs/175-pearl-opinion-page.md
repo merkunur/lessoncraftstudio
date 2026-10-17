@@ -28,7 +28,7 @@
 - **Misconception 4 — one reason is the whole argument** (Level 3). **Push back:** one post holds the sign but it tilts — the tide wets the low corner; with two reasons the sign stands level.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: beach (sign, posts, tide) left (≈ 460 px), card tray + bubble right (≈ 210 px). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The beach** (450 × 300): sand (warm beige), the waterline along the bottom (blue band 40 px), the signboard lying at mid-height (360 × 72; point text 20 px bold, max 2 lines). Level 2: two smaller signs side by side (210 × 72 each, 17 px text). Under each sign a dashed "post socket" (one in Levels 1–2, two in Level 3).
@@ -141,3 +141,4 @@ What changed:
 - Lights R2 replaced ("Bulbs last longer when they get a rest" is shaky for LED bulbs and shared no word with the point) by "Lights left on waste money for families."
 - Word-order claims checked and kept: de *denn*, nl *want*, sv *för*, da/no *for* are coordinating and keep main-clause order; fi *koska* moves nothing. Added the capital-letter rule for the bridge and the exact assembly of the success line (drop the point's full stop, lower-case the reason except de nouns and names).
 - Mutations added for nl *omdat* and sv *eftersom*.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -24,7 +24,9 @@
   - *"Plural never looks like the singular"* → *sheep / deer / moose* — the true form in their ring is the unchanged word; *meese* (the goose→geese analogy taken too far) and *sheepen* are the wrong friends.
 
 ## 4. The stage
-At 704: split layout — pond apparatus left 452 px, bubble column right 204 px. At 360: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704: stacked layout — pond apparatus left 452 px, bubble under the stage. At 360: stacked.
 - **The pond** (drawn): a rounded pale-blue oval 452 × 230 px (328 × 190 at 360) with a 3 px teal rim. On it, LEFT: one lily pad (a green ellipse 120 × 34) holding ONE library picture, 96 px at 704 / 64 px at 360. RIGHT: three lily pads holding THREE identical copies of the same picture (96 / 64 px, overlapping by 10 %). Under the left pad the singular word in plain type; under the right pads the empty plural name-board.
 - **The jetty** (drawn, above the pond): a wooden board 420 × 70 px (328 × 60) on which the word lies in letter tiles (Baloo 2 700, 34 px at 704 / 28 px at 360; tiles 36 × 50). The jetty's right **end post** sits under the word's tail and shows its **plug** — a 3 px ink outline shape, 30 px tall, under the last letter(s):
   - straight bar (plain end) · round knob (vowel + y) · zigzag (hissing end s/x/z/sh/ch) · hook (consonant + y) · flat plate (f / fe) · **knot** (special word).
@@ -160,3 +162,4 @@ What changed:
 - §3 claimed the ring offered *feets / mices*; it did not. Double marking is now refused physically (a tile on a ring form is flicked off by the knot).
 - Ring balance measured (`work-c27/measure.js`) and stated honestly, incl. the 7/10 "changed and no -s" bot (= the skill; defeated by sheep/deer/moose).
 - Recorded the coverage gap in §11: the non-plural spelling rules of G2-315/324/325/326/327 need their own row (final pass).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

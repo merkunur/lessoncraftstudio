@@ -23,7 +23,7 @@
 - **The material pushes back** by perspective (the view panel) and by bodies (the named part must exist on the teller). No text says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the lighthouse + view panel left (460 px), the event card + line + bubble right (220 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The lighthouse** (left edge, 150 × 420): a DRAWN tower (apparatus geometry: a tapered body in red-and-white bands, a gallery rail and a lamp room) — the library `beach/lighthouse` is too slim to carry three 96 px windows, so it appears only as a 64 px badge in the event card's corner; three drawn window frames on its side at high / middle / low, each 96 × 96, holding the round's creature picture at 96 × 96 (the window frame is drawn ON TOP of the picture's edge, so the creature looks out). Lumen (library `birds-2/owl`, 96 px) sits on the gallery at the top beside the lamp (drawn).
@@ -133,3 +133,4 @@ What changed:
 - **Level 1 middle vs low made unambiguous:** "right past my window/nose" read as either; view words are now disjoint per view (middle = straight across, not up not down; low = huge/close + over/under/up) and gate-checked.
 - **The tower is drawn apparatus**; the slim library lighthouse could not hold three 96 px windows, so it becomes a badge.
 - Distinct from 063/064/069/070/071 (bookmark, flipbook, highlighter, umbrella, dominoes): none involves a viewpoint; the window/view-panel and the body-part test are this activity's own.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

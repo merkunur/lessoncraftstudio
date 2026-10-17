@@ -23,7 +23,7 @@
 - **reject-narrow rounds:** the narrowest true phrase is the most tempting distractor; its umbrella is the smallest of all.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The paragraph card** (top, 440 px wide): the 4-sentence paragraph in 20 px, each sentence on its own line; a speaker button 36 px inline (TTS reads it, sentence-highlighted). The subject picture 96 × 96 px beside it: zoo-animals/bear · spring/bee · farm-animals/duck.
@@ -122,3 +122,4 @@ What changed:
 - **Pre-Check tell removed:** umbrellas opened to their true width on HANG, so a child could hang all four and pick the widest without reading. Every umbrella now opens to the same width; the true reach shows only when the rain starts on Check (gate + mutation added).
 - **Shape/length tell removed:** all tags are "-ing" phrases; the topic is longest in 3 and shortest in 3 of 12 (measured).
 - "Listen to the story" → "Read the story" (TTS in 5 of 11 locales). Otter picture opened and confirmed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

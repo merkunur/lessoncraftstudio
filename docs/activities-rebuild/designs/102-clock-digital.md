@@ -27,7 +27,9 @@
   4. **":00" means nothing** → the teal minutes always ride the long hand to the 12, where a small teal "00" collar sits outside the rim (and, with the setting, a "30" collar at the 6). A ":30" card on an o'clock clock sends its 30 to the 6 — where the long hand is not.
 
 ## 4. The stage
-At 704 (split layout, stage ≈ 660 × 460):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 460):
 - **The clock** (left, drawn apparatus): face 330 px across, cream (#FFF8E7) with a 6 px teal rim (#146B5E); numerals 1–12 in Baloo 2 32 px ink (#0F4A40); minute marks as short ticks (60, the five-minute ones longer); **short hand** coral (#F2784B), 12 px wide, reaching 55 % of the radius, rounded tip; **long hand** teal (#146B5E), 6 px wide, reaching 88 %; a brass centre cap. Outside the rim: a small **teal collar** at 12 reading "00" (16 px digits in a 34 × 22 pill) — in the half-past setting a second collar at 6 reading "30". (These are content digits — minutes — not decoration.)
 - **Sprocket**: library farm-animals/rooster, 96 px, standing on the clock's top edge (off the numerals).
 - **Clock base**: a small drawn plinth under the clock with an empty **card slot** (where the chosen card docks during the ride).
@@ -148,3 +150,4 @@ What changed:
 - Round tables re-checked: o'clock H1–H10 and half-past M1–M10 each have exactly one card that merges both parts; 12:00 is wrong in 6 rounds and right in 1 (H10), as claimed. Clock idioms correct per locale (de/nl/sv/da/no/fi half = toward the next hour with 12:30 → halb eins / half een / halv ett / halv et / halv ett / puoli yksi; es/pt/fr/it current hour + half); hints never use the idiom.
 - Distinct from the premium learning-clock (checked against the tools list): the child never drags a hand and nothing paints an arc; free play is a single tap on the long hand that makes an hour pass. Kept clearly apart from row 101 (101 owns half past through the rolled road; 102's half-past setting only adds the minutes collar at 6 and the hour digit's slide-back).
 - Free-play "an hour passes" now steps the minutes collar's flash at the 12 on each lap so the lap reads as sixty minutes, not as a spin; the reduced-motion path keeps the ghost card (the part of the design that teaches) and drops only the ride animation.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -23,7 +23,7 @@
 - **Misconception 4 — plural = always add -s** (foxs, cherrys). Pushback: fog — "foxs" is not a word; "foxes" shows two foxes. The singular shows one, which visibly disagrees with the two-picture patient.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480 × 480), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The patient chart** (stage left half, 220 × 250): a clipboard-style card (drawn geometry: rounded rectangle, a clip bar at the top, 3 px ink) holding the **patient picture** — library picture 150 px (plural rounds: two identical instances 110 px each, overlapping 20 %). A small Listen button (36 px speaker, shell style) in the card corner.
@@ -46,7 +46,7 @@ Pictures (library, colour; theme JSON verified): around-the-house/lamp, hose, pa
   - same word as the patient (same noun, same number) → healed (§7);
   - another picture word → that picture appears in the mirror, singular as one, plural as two;
   - not a picture word → fog stays, with the letters finger-written in the fog.
-- **Free play:** a "Try the mirror" toggle in the bubble column (after a round is healed) lets the child spell anything on the keyboard and look; nothing is counted. This is the toy.
+- **Free play:** a "Try the mirror" toggle in the bubble area under the stage (after a round is healed) lets the child spell anything on the keyboard and look; nothing is counted. This is the toy.
 
 ## 6. The rounds
 One round = one patient. One right spelling (the vocab label in the locale; where a locale's vocab has two accepted spellings, both are listed in data and either heals).
@@ -155,3 +155,4 @@ What changed:
 - fruits/peach and fruits/cherry are drawn as apples: the tch/ch unit uses couch instead of peach, Level 4 uses couches, and cherry/strawberry come from the supermarket set.
 - The ai/ay rule unit had 7 rounds (below the 8-round floor it set itself): rain and say added (9). ck/k gains cake (k after a long vowel), so the "long vowel → k" half of the rule is actually exercised.
 - The mirror (your letters draw their own picture) is kept as the invention: it is the clearest spelling feedback possible, silent-legible, and works in every locale from that locale's own one-letter neighbours.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

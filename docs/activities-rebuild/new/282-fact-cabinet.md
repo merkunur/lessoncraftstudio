@@ -23,7 +23,7 @@
 - **Misconception 3 — "same" means "looks a bit alike".** In compare mode the overlay is literal: same = the two lines lie exactly on top of each other.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px — one animal**
 - **Animal picture** (top-left of the clipboard, 120 × 120, library).
@@ -143,3 +143,4 @@ What changed:
 - The keyword trap did not hold: the designer's "10 of 40 misfiled" re-measured to 3. Reworded four cards so their FIRST heading word misleads ("It lives in its mother's pouch while it is a tiny baby", "It flies from flower to flower to drink sweet nectar", "It swims off on its own as soon as it is born", "It can walk a few hours after it is born", "It drinks its mother's milk when it is a calf") → 8 of 40 misfiled by the keyword bot; all still scientifically true.
 - Compare table recomputed from the value table: matches all 40 cells, same 21 / different 19. §11 now names Row 69 (same fact-file worksheets, a highlighter on a text) and why sorting + overlay + G2-342 is a different instrument.
 - Looked at the zoo-animals sheet: the camel has ONE hump — fr *Chameau* would name the wrong animal; the fr author writes *dromadaire* (locale trap added, ruling appended).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

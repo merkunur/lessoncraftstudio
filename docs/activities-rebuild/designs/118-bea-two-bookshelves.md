@@ -24,7 +24,7 @@
 - **The material pushes back** through the shelves' tests, which ARE the difference: order matters in a story (the ribbon), not in a fact book (the shaker). Plus the content difference (make-believe vs real) is visible on the pages the child reads. No text says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the desk with books left (430 px), the two shelves + Bea + bubble right (240 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The desk** (left): 3 books standing (Level 3: 4 books), each cover 128 × 176 px: title 18 px bold across the top and a library picture 96 × 96 in the middle. The blurb (16 px) is on the inside cover, shown when the book is opened (§5), so the closed cover stays readable at its size.
@@ -155,3 +155,4 @@ What changed:
 - **Picture truth:** accessories/mitten is ONE YELLOW mitten, so Bunny now loses her *yellow* mitten.
 - **Answer position is a fixed balanced table per level, rotated per pass**, and the title-keyword bot is measured (decides L1 2/8, L2 3/8) instead of assumed.
 - Distinct from 063/064 (bookmark, flipbook ORDER — the child builds an order there; here the shelf tests whether a book HAS an order) and from 069 (facts lifted from a text).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

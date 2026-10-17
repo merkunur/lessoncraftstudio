@@ -25,7 +25,9 @@
   - *A clock state that cannot exist* (short hand exactly on 8 at 7:30): impossible here — the hands are geared as in a real clock; every face the child ever sees is a true face, so reading is never trained on a false picture.
 
 ## 4. The stage
-**At 704 (layout `split`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout):**
 - **Left, the cottage clock (the hero), 330 × 420 px:** a cuckoo-house outline (drawn apparatus: roof triangle, 3 px ink frame, wall #E9D3B0, trim #146B5E). Inside, the **clock face** 280 px across: cream #FBF3E4, numerals 1–12 Baloo 2 30 px, 60 minute ticks (5-minute ticks 3 px × 12 px, minute ticks 1 px × 6 px), **short hand** #146B5E (length 0.50 r, 12 px wide, rounded), **long hand** #F2784B (0.85 r, 7 px), hub 16 px. Above the face the **cuckoo door** 64 × 64 px (two shutters); Owl = library `forest-creatures/owl`, 96 px when out on her zigzag arm. Under the door a row of up to 12 bob-dots (10 px, 4 px apart).
 - **The key:** brass, at face height on the cottage's right wall — a shaft and a bow; the bow is a 72 px ring (the grip; hit circle 88 px). A faint dotted circle around the bow shows its drag track. In read rounds the shaft shows a little coil (spring position, teal shaft). In set rounds the shaft is pulled out 14 px and the bow is orange (set position). Under the key two small buttons ◀ ▶ (48 × 44 px) for the same steps.
 - **The window** (top-left of the cottage, 70 × 56 px) is a plain daylight pane while the child decides (it never tells morning from evening — a moon beside a bedtime card would be an answer tell). Only on success does it fade to the event's part of the day (pale morning … deep teal evening; a drawn crescent, apparatus, after supper — no library picture here, it would be below the size floor).
@@ -145,3 +147,4 @@ What changed:
 - The claimed 2/2/2 answer balance was false (5 choice rounds gave 2/1/2). Added round 11 (partners, 4:00 vs 5:00 / 4:30, right in position 2) → 2/2/2; the quarter pass is stated honestly as 2/2/3.
 - "Read only" now names the replacement for the default set rounds too, with their wheel start values (never the answer, the next-hour trap where it applies).
 - Clock idioms re-checked per locale (next-hour half: de/nl/sv/da/no/fi; current-hour half: en/fr/es/pt/it; quarters incl. no *kvart på*, es-MX *cuarto para*); no learning-clock interaction is copied (no hand is ever dragged, no arc).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

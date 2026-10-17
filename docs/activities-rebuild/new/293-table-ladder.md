@@ -27,7 +27,9 @@
 - **Misconception 4 — off by one group** (5 + 1 into the 7 track; 10 − 1 into the 8 track; 2 + 2 into the 3 track). **Push-back:** the track shows it as a shape — one dashed empty slot left (short), or one group still overhanging the end stop (long). Measured: of all 2-drop sequences from the anchors that do not latch (85), every one is visible — 36 leave empty slots, 23 overhang, 26 bump off the buffer stop.
 
 ## 4. The stage
-**At 704 px (split: ladder board 440 × 456 left, fact column 216 right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: ladder board 440 × 456 left, fact column 216 right):**
 - **Task line** (22 px): **"Fill the glowing track with lit rungs, then write the product."**
 - **The ladder** (440 × 456): two wooden rails 10 px wide (outer edges 60 px) on the left, the rung numeral column (k, 18 px) to their left; 10 rungs every 44 px standing on a 16 px ground plank (apparatus, never asked). The only words on the ladder are numerals.
 - **The track of each rung:** to the right of the rail, a groove of k **slots**, each slot one group of n: 28 × 28 px, 2 px gaps (10 slots = 298 px), closed at slot k by a brass **end stop** and, past it, a dashed **overhang zone** up to slot 10 where the grooves of all rungs end at a common **buffer stop**. Width (measured, `fit.out`): numeral 18 + 4 + rails 60 + 6 + bar 298 + 6 + tag 44 = **436 ≤ 440 (4 spare)**. An overhanging rod never passes slot 10, because the longest rod is the 10-rod and every track starts at the same x — so an overhang never collides with the tag column.
@@ -152,3 +154,4 @@ What changed:
 - Two misconceptions the old file could not show are now material: "ten take away 1" (the cutter is a whole group) and "five and 2" (the 2-rod reads 12).
 - Re-budgeted every width and height for two-line fact readouts (the one-line readout overflowed by 1–15 px at all three widths); phone rung steps raised to 38 / 34 so the rod rows meet the 34 px canvas-cell floor.
 - **Honest debits:** distinctness drops to 4 — coupling known-fact lengths shares the distributive idea with tool `baking-tray` and length-equality with New 290; the mechanic (copy / couple / cut on a fact ladder) is different, but the mathematics overlaps. Reality drops to 4 — 34 px rows at 320 are dragged with a fingertip (keyboard and wide drop zones mitigate), and 28 of 54 readouts cross a ten, so the 6–9 tables carry real addition load inside a "fluency" instrument.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

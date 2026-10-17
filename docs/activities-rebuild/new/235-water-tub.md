@@ -21,7 +21,7 @@ A big, clear tub of water fills most of the stage, with a wobbling surface, ligh
   4. *Ignoring the evidence.* Lab mode: a conclusion the record contradicts is not "marked wrong" — a red thread runs from the conclusion card to the record row that disproves it ("Big things sink" → the row where the big pumpkin floats).
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (stage left 480 px; right column 200 px: bubble + the mode's side panel — the record card in Lab, the facts card in Facts, the shape slider in Clay); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 480 × 480):**
 - **The shelf** (top, 480 × 150; a second plank appears below it when the round has 5–6 things): a drawn plank with up to 4 object cards per plank (picture at its size class, never smaller than 96 px). Every object wears a small numbered tag on a string (1–6, apparatus: a cream tag, 22 px numeral) — the tag travels with it into the tub and is how the record card names it.
@@ -198,3 +198,4 @@ What changed:
 - **Picture floor:** the small size class was 76 px at 704 and the record card showed 40 px object pictures. Size classes are now 136/108/96 (the honest big-vs-small contrast is kept, the floor is met); every object wears a numbered tag, and the record rows name objects by tag numeral (apparatus), per the orchestrator's record ruling.
 - Shelf wraps to a second plank for 5–6 things so cards never shrink.
 - Science checked against the G1-399 bank: every outcome (11 floaters, 5 sinkers) is a `CLAIMS` row; all 9 Balance pairs equal `PAIRS` (heavier side and floater verified, heavier-is-floater 5/4, heavier pan left 4/right 5); all 9 Facts sentences equal `TF` (4 true / 5 false); every Lab set breaks its question's naive rule at least once. Clay snake/pancake rows flagged as design-owned physics for the reviewer.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

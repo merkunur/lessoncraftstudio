@@ -22,7 +22,9 @@
 - **Misconception 4 — misreading a cup count as ones** (7 cups → "7"): **pushback:** the cups window is printed `[ ]0` — a cup is a ten, so its window always ends in 0.
 
 ## 4. The stage
-**At 704 px (split layout: apparatus 440 px left, readout column 240 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: apparatus 440 px left, readout column 240 px right):**
 - **Task line** (≤ 24 px): see §9.
 - **The tubs** (top of the apparatus, a row): two to four drawn tubs (trapezoids 96 × 72, 2.5 px ink, plain wood-brown fill, no weave pattern, a hinge pin on each side), each hanging from a short rail. A numeral tag 52 × 40 hangs from every tub's rim on its own string, 30 px Baloo 2 (the addend); the tag stays upright when the tub tips. Spacing even across 440 px.
 - **The sieve** (440 × 132): a frame with a mesh of round holes (Ø 22 px, pitch 30 px, 4 rows), a side grip (a 44 × 60 rounded handle at its left end, with three grip ridges). Cups of ten rest on top: each cup is a vertical capsule 26 × 128 with ten acorn dots (Ø 10 px) inside — drawn tokens, never pictures. Up to 9 cups side by side (30 px pitch, 270 px).
@@ -159,3 +161,4 @@ What changed:
 - Every table re-solved by script (`work-c33/verify.js`): the nine kept rounds (37 56 67 80 78 77 82 72 90), the eight two-or-three rounds (no ones total ≥ 10, as claimed), the eight walls (every brick = the two under it, tops 63 78 79 80 82 84 75 81, the "full groove at" column exactly right). Bots re-measured on the default nine: digits-as-ones 0/9, tens-only 0/9, first-two-baskets 3/9 (the two-basket rounds), cups-beside-loose 4/9 (only where the ones stay under ten — honest).
 - **G1-112 was not really covered:** the sheet is three picture groups with a total up to 10 (`maxTotal: 10`), not two-digit baskets. Added the **three small baskets** face — seven rounds, totals 4–10 all different, one make-ten round that fills exactly one groove — so the grade-1 sheet lives on the same sieve.
 - Pictures re-checked: `forest-creatures/squirrel` faces left, toward the apparatus in the right column; acorns and cups stay drawn tokens (an acorn picture as a 26 px icon would break the 64/96 floor).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

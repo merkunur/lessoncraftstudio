@@ -26,7 +26,9 @@
   3. *Thinking a phrase is always a saying* (level 2). "A piece of cake" is literal at Grandma's birthday table and figurative about a spelling test. The projector shows the SAME picture for both sentences — only the story decides which one it fits.
 
 ## 4. The stage
-**At 704 (layout `split`).** Apparatus column 452 px, side column 200 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout).** Apparatus column 452 px, side column 200 px beside it inside the stage, bubble under the stage.
 - **The projector screen** (452 × 220) on a drawn tripod: the film area 300 × 190, framed by either the puffy cloud border (pretend, 6 px coral-light scalloped edge) or a solid teal frame (real). Literal pictures appear in it at ≥ 96 px (two pictures: 110 px each; one: 150 px) with a gentle loop (drift down / float / bob — 2 s loops, transform only). To the screen's right, Gabby = farm-animals/goose at 96 px.
 - **The sentence card** (452 × 150): the sentence at 22 px Nunito, max 3 lines; the saying is a coral tile inline (rounded, 2 px ink outline, its words at 22 px); the clue phrase underlined teal (3 px) when the clue setting is on. Speaker button (36 px) at the card's top-right.
 - **Side column:** the **strip tray** — three phrase strips stacked (200 × 64 each, text 17 px, wrap to 2 lines), cream with ink outline, a grip notch on the left; below them the **bubble** (200 × 110) for hints and the success sentence.
@@ -165,3 +167,4 @@ What changed:
 - Level-2 round 9 ("the ball is in your court … hit it back over the net") showed the library FOOTBALL — no tennis ball exists; replaced by "up in the air" (literal kite / undecided plans, toys/kite).
 - Suggested idioms checked as native sayings with one meaning: fi *heittää lusikka nurkkaan* (= to die) removed; sv *det regnar småspik* (doubtful) replaced by *det är ingen ko på isen* and *ha tummen mitt i handen*. The kept de/fr/es-MX/pt-BR/it/nl lists are all real sayings with a single figurative meaning (checked against the live manifest: es *hacer el oso* and *darle el avión* are Mexican, pt *pagar mico*, *engolir sapo*, *quebrar o galho* Brazilian — the right registers).
 - Every film picture checked in the theme JSONs (all present); weather/cloud has a smiling face — fine inside the pretend film, never in a "real" scene.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

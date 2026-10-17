@@ -25,7 +25,7 @@
 - **Misconception 5 (fr) — élision everywhere** ("l'chat"); **(de) apostrophe in a fusion** ("in's", "zum's"); **(es) contracting the pronoun** ("al" for "a él"). Each is pushed back by the same bench (§9).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (470 × 420), bubble column right (200 px; Nib's word rail runs along the top of the stage).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The bench** (centre, 450 × 120, drawn: two cream planks, teal legs, 2 px ink): one **letter tile** per cushion — 46 × 58, Nunito 34 px bold, ink `#2A2A2A` on cream cushions; the space between words is an empty plank stretch 36 px wide (no cushion). Max word pair 11 letters (shouldn't, couldn't) fits at 46 px; above 9 letters tiles shrink to 40 × 52.
@@ -151,3 +151,4 @@ Scores before → after: invention 5→5 · fun 5→5 · completeness 4→5 · c
 What changed:
 - Level 3 answer tell removed: every seat word started its sentence (capital first tile) and every no-seat word did not — "capital = Nib" solved 10/10. Rewritten table: capital bot 5/10 (measured), gate bound added.
 - nl: the squeeze closed the space between "'s" and "morgens", building the very error ("'smorgens") the old foils targeted. New `join` flag: the space closes only for real joins; mutation added.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

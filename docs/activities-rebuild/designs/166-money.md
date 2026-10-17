@@ -28,7 +28,9 @@
   6. **Enough = a big pile** (level 2) → the purse's coins hop onto the tag; a pile of many small coins stops short of the tag.
 
 ## 4. The stage
-At 704 (split, stage ≈ 660 × 480):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked, stage ≈ 648 × 480):
 - **Left (420 px): the counter** (drawn: teal-and-cream awning strip 24 px, wooden counter #E7C9A0 with a 3 px ink edge).
   - **The shelf** along the back of the counter: up to three library toys, **104 px** each, with paper price tags on strings (cream tag 84 × 44, price Baloo 2 26 px). Toys (`mini tools/pictures/toys.json`, seen on the contact sheet 2026-10-17): `toys/airplane, ball, boat, car, dinosaur, helicopter, kite, robot, rocket, train, truck` (never the people pictures baby, baby_girl, girl, doll; `race_car` has no label and is not used; ball and balloon share fr "Ballon" — balloon is not used).
   - **The change box** (drawn apparatus, 120 × 140, brass #C9A227, a slot on top, a chute at the bottom, a small window that shows a coin spinning while it works) at the left of the counter.
@@ -155,3 +157,4 @@ What changed:
 - All tables re-solved per currency in `work-c31/m165166.js` (0 errors): every pile sums to its payment and holds both a price set and a change set; coins are only those in real use (nl/fi no 1 c/2 c; es whole pesos; pt no 1-centavo; Sweden's 50 kr pile has no 20 kr coin — the draft's shared pile would have used one).
 - Level 3 now adds the basket AND gives change (G2-291/292 + G2-293 together); level 2 purses spelled out; de/fr/it/nl/fi amounts over one euro written in the grade-2 split form ("1 € 75 ct") with the decimal form beside it.
 - Pip shown (library otter), matching row 164.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

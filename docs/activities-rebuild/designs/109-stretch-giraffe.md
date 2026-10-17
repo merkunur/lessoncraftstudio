@@ -24,7 +24,7 @@
 - **How the material pushes back:** the comb and the master roll do it. Nothing is said that the roll does not show.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504 wide), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 480):
 - **Song book** (top strip, 504 × 52): nine card slots 40 × 44, each card drawn as tool-grade geometry — a tiny strip of its own holes (dots and slots), never a shrunken picture (orchestrator ruling); empty slots dashed.
@@ -169,3 +169,4 @@ What changed:
 - The false claim "every vowel letter appears long AND short in each set" removed (old set B had no long u); the honest gap is written down (the bank has no long-u picture word; long i = kite only) with the bank-addition route.
 - Count and Blend rebuilt on bank rows (cake = c·a_e·k with the e ghost; cap/cape left — not bank rows, taught by 111); nest (holds chicks) replaced by lock; de/nl/sv/da/no/fi lists re-sourced from their banks, fi long slot = two hole places (the Finnish ruling: kuu k|u|u).
 - Distinct-from now names New 214 The Bumpy Slide explicitly against the Count clue.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

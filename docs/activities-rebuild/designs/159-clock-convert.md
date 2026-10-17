@@ -26,7 +26,7 @@
   5. **Changing the minutes** (21:30 → 9:00 p.m.). The minute hand ends on the 12 while the outline minute hand is on the 6.
 
 ## 4. The stage (what is on the screen)
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 At **704 px** (stage 660 × 540):
 - **Clock** (left, 360 × 360): face 340 px, cream with teal rim 8 px; numerals 1–12 Baloo 2 800 28 px; minute ticks. **Inner ring**: twelve sockets (34 px circles, dashed 2 px) on a circle 70 % of the face radius, one under each numeral; filled sockets hold a numeral token (Baloo 2 800 18 px, violet `#8C7BC4` on white) — 13 under 1 … 23 under 11, and "0" under the 12 when midnight is reached at the end of a run. Hour hand coral 11 px, 105 px long, carrying the **tag** (a 40 × 28 coral pill at 75 % of its length, white numeral 18 px). Minute hand teal 6 px, 150 px long. The **given time** is shown by the real hands at rest; at Check they become dashed **outlines** that stay where they were, and the hands that run are the child's.
@@ -143,3 +143,4 @@ What changed:
 - The answer is now written in two boxes with a number pad (+ day-part chips) — no drum or flip numerals anywhere.
 - Re-measured the balance claims: L2 "always add 12" fails 4 rounds and "never" 6 (the draft said 5/5, counting noon as morning). Socket coverage per pass measured, so the full-ring show is earned.
 - Noon and midnight get their own hints and a physical meaning (midnight = no movement at all; 24:00 = two laps).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

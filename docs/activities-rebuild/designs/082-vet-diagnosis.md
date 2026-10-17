@@ -23,7 +23,7 @@
 - **Misconception 4 (Groups) — share vs make groups:** both are division, and the film shows them differently: sharing deals the dots round-robin into the trays (one each, one each…), making groups fills one tray full before starting the next. A wrong number leaves the last tray short or dots left over in the total frame.
 
 ## 4. The stage
-Split layout at ≥ 700 px (light box left, story column right); stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (content 672):**
 - **Task line** 22 px, one line: "Put the numbers on the film, mark the mystery, then dial it."
@@ -158,3 +158,4 @@ What changed:
 - **False balance claim fixed:** "the mystery sits in each of the three frame positions ≥ 4 times" was untrue (first 3 / chute 3 / last 2). §6 now states the real counts per diagram; the gate asserts every place occurs and none more than 3 times.
 - **Pictures:** the library robin and sparrow are both drawn orange-breasted (near-twins on the birds-2/spring sheets) — story 14 is now butterflies and bees (insects-and-bugs). The only sock picture is one green striped sock, so the "4 blue, the rest white" stories (Within 20 #9 and Within 10) now say "in the drawer / in the basket" (the colour words would have contradicted the picture).
 - Every story re-solved by my oracle (16 + 10 + 9 rounds): all answers correct, ≥ 1, never equal to a story number; Groups totals ≤ 30 fit the 30-socket total frame and ≤ 8 trays/≤ 8 per tray.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -25,7 +25,9 @@
   4. *"Two square corners make a rectangle"* / *"two equal sides make a rhombus"* (the near misses). The right trapezoid gets two set-squares flush and two with a light gap; the kite's dividers fit two sides and miss two. The sieve floor stays shut: you can see exactly which corner or side stopped it.
 
 ## 4. The stage
-**At 704 (layout `split`).** Apparatus column 452 px wide, bubble column 200 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout).** Apparatus column 452 px wide, bubble under the stage.
 - **The chute** (top, 452 × 150): a short glass slide with the round's shape card resting on it, drawn at grid unit u = min(22, 132 ÷ the shape's box height) px — the widest box (9 × 4 u, L1-8 / L2-5) is 198 × 88 px, the tallest (6 u: L2-4, L2-8) 132 px tall. A lever (48 × 48) on its right.
 - **The sieve tower** (452 × 420), four levels, each a pale glass shelf with a drawn tray front:
   - **Level 0 — the top tray** "stays here": the first sieve's grid sits under it. Mark on the tray front: a crossed four-dot glyph (four dots with one struck through).
@@ -186,3 +188,4 @@ What changed:
 - The chute could not hold its own shapes (70 px tall for cards up to 6 u = 132 px): chute 150 / 100 px with a per-shape unit.
 - The child's hand now carries the misconception, not only the bet: the turn knob re-drops any landed card at any 15° turn to the same tray; L1 gained a build round (rectangle that is not a square).
 - Added the sideways miss (rectangle bet for a rhombus) the hint ladder had no line for; corrected the smallest divider-miss figure (1.41 u, not the kite's 1.6 u).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

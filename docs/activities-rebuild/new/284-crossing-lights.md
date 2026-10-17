@@ -24,7 +24,9 @@
 - One right square per code; codes never repeat inside a round.
 
 ## 4. The stage
-**At 704 (split ≥ 700: grid left, code list right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked: grid left, code list right):**
 - **The grid** — square cells with 2 px ink lines on cream: 5×5 cells **80 px**, 6×6 **68 px**, 10×10 **46 px** (grid 400–460 px).
 - **Top rail lamps** — one lamp per column above it: a drawn lamp head **44 × 44** (teal hood, letter in white Nunito 800 22 px), hood closed at rest. **Side rail lamps** — one per row at the left, same size, coral hood, the number in white. Beams are translucent yellow bands the width of one cell (40 % opacity), drawn over the grid; the crossing cell gets a white-hot glow (radial, 90 %).
 - **The code list** (right, 220 px) — one card per colour group: a colour swatch 36 px + its codes as chips (Nunito 800 22 px, e.g. "D4"), **shuffled within the colour** (sorted codes would draw the picture — the worksheet rule). The **active code chip** is enlarged (64 × 44) with a ring; painted chips get a tick.
@@ -137,3 +139,4 @@ What changed:
 - The code-mode pin rule ("all-different rows AND columns", 6–8 pins, a row-10 AND a column-J pin on every 10×10) was impossible: the largest distinct set is 3–6 and three 10×10 pictures never reach J. Replaced with a satisfiable, gated rule.
 - Invention strengthened: with beams on every code the apparatus did the finding for the child; the new default "every other lamp is cooling" makes every second code the child's own coordinate reading, right after a lit worked example, with the beams turned into the proof on Check.
 - Guessability now names the real shortcut (shape-guessing once part of the picture shows) and measures it: 5–6 % for a realistic guesser; 38 % for an all-knowing oracle with alternating cooled codes vs 50 % with a cooled second half — so the default alternates.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

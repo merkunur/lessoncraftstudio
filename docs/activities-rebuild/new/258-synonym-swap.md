@@ -24,7 +24,7 @@
 - **How the material pushes back:** the picture is a function of the sentence — change the meaning and it cannot stay still.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: sentence + picture left, cards + wall right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 672 × ≈ 420):**
 - **The sentence strip** (left, 400 × 64): the sentence in 26 px Nunito 800, the swap slot a coloured box (coral border 3 px, 150 × 48) holding the current word card.
@@ -170,3 +170,4 @@ What changed:
 - Measured a "pick the unusual word" shortcut (work-c25/m258.js): glad, unhappy, afraid, mad and sleepy were ONLY ever right answers (every distractor was a basic word) — a bot scored 100 % on feelings. Distractor columns rebuilt so each appears as a wrong card too (m258b.js); length tell checked (right strictly longest 5/14, shortest 3/14).
 - "Antonym" column corrected: happy is not the opposite of scared/angry/tired — those are FAR feelings; only happy/glad ↔ sad/unhappy are true opposites (gate tags far vs opposite).
 - animals/elephant (a chibi BABY) removed as the "big" exemplar → farm-animals/cow. Tray slot fixed by table (i mod choices). #229 renamed The Blink Viewer. Neutral-face rule for feelings subjects.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

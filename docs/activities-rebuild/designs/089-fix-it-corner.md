@@ -24,7 +24,7 @@
 - **Misconception 4 — off by one when counting on** (counts the start number). **Push back:** miss 2 numbers the ticks of the path 1, 2, 3 … starting on the tick AFTER the known number, so "8" is never counted as "1".
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (bench left, Fixit column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 452 px + column 220 px):
 - **Task line** (22 px, ≤ 2 lines): the round's prompt (§9).
@@ -169,3 +169,4 @@ What changed:
 - **Balance blank was always on the right** (4 of 4); to-20 row 9 is now 10 + ▢ = 9 + 3, and row 8 became whole-first 18 = 7 + ▢ to keep the 5/4 socket balance (re-measured: 5 left / 4 right in all three levels, answers distinct, unknown-part error ≥ 4 ticks away).
 - **Coverage ownership ruled:** #090 Plank Path owns G1-115/215/218; #089 owns G3-350, G2-313, G2-393 (stated in §11 here, in #090 and in row 84).
 - **Distinctness checked against the real files**, not names: New 239's "two gauges" (sky + slider thermometer, need not agree) and the premium number-balance (child builds both sides, beam tips) — written into §11.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

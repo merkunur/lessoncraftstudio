@@ -23,7 +23,7 @@
 - **Misconception 4 — "any prefix flips any word"** (dishappy). Pushback (Level 4): the prefix is not stuck on the word — it is the **far clip of the rod itself**. The child hangs a prefix clip at the empty far end and pushes the base word along the rod: with the right clip the word slides all the way, the clip closes on it and the two become one card ("unhappy"); with a wrong clip the word slides, touches the clip, finds no word there and rolls back to its own end. A non-word is never built or printed.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the rod stage left, the bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 wide × 460 high + bubble column):
 - **The rod** — horizontal: 440 × 28 px brass bar (rounded caps), centred, 150 px from the stage top; vertical (up/down) 28 × 340 px. Paint per dimension (geometry, 6-stop gradients): size = tapering width 12→36 px; temperature `#4A90D9`→`#E2574B`; colour-value grey `#262626`→`#FFFFFF`; day–night sky `#FCE38A`→`#1E2A5A`; fill = a glass tube filling left to right; feeling = neutral cream with a groove; on/off and open/closed are **switch rods**: short (280 px), with NO middle groove (complementary pairs have no middle).
@@ -150,3 +150,4 @@ What changed:
 - **G2-376:** 9 rounds balanced re 3 / pre 3 / mis 3 (added "preschool"; the odd "preview the movie before school" rewritten).
 - **Pictures:** weather/sun has no lcs-pictures label → beach/sun; round 6 near-miss "sunny — same end" was not a synonym of "day" → weather/rainbow, which falls off the day–night rod.
 - Strings, aria, gate and mutations updated for clips, L2a/L2b.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

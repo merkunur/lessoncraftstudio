@@ -23,7 +23,7 @@
 - **Misconception 4 (en) — "and replaces the last comma".** Pushback: in English the "and" is drawn as a ribbon tied to the last thing, not a wall; without the comma the last two things share a pocket. (This is the frozen intro's en rule, recorded as a ruling in §9.)
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the stage left (480 × 470), the bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The sentence strip** (top of stage, 460 × 64): lead and item words in Nunito 26 px bold, ink `#2A2A35`, on a cream card with a 3 px ink outline. Between every pair of words where a comma is possible sits a **gap socket**: a faint dotted caret under the baseline, 30 px wide visible, 44 × 44 touch. The conjunction is a real word on the strip (content); in en it carries a thin coral underline-ribbon that runs into the last item (the "ribbon" of §3). The full stop is printed.
@@ -168,3 +168,4 @@ What changed:
 - Added the swap rule for the eight old locale seeds (plums, grapes, peas, scissors and the colours round had no usable picture in any locale) so the build cannot ship a broken tile in de/fr/es/pt/it/nl/sv.
 - Level 2 was "a shelf of 8 pictures from one family" with no pictures named: the eight shelves are now written out picture by picture (no chick beside the duck), with the unchanged-plural compound trap noted.
 - The invention (each comma drops a wall; a missing comma squashes two things into one pocket, a doubled divider leaves an empty sliver) is kept: it is the skill, it honours each language's last-gap rule, and it was already the strongest design in the batch.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

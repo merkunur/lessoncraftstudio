@@ -25,7 +25,7 @@
 - **Misconception 4 — groups of k means k groups** (G2-217: "holes of 4" → makes 4 piles). **Push back:** in Level 2 the stump has a drawn mould on top showing the size of one hole (k acorn dents); a pile that does not fill exactly k dents cannot even go on the stump — it overhangs the mould or leaves dents empty before any snow falls.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the acorn tray + twig left (≈ 330 px), the stump + snow + squirrel right (≈ 300 px), the bubble + keypad under the stump. Stacked below 700 (tray on top, stump below, keypad under).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The acorn tray** (left, up to 300 × 340): a drawn wooden tray, rows of library acorns (`miscellaneous/acorn`) in cells. Acorns are **data marks in a grid** (picture-ruling: grid cells follow the data-mark floor ≥ 40 px at 704 / ≥ 30 px at 360): cell 54 px, acorn 46 px for every tray in this design (no tray has more than 6 rows or 6 columns — critic cap); one full-size acorn (96 px) sits on the tray's label tab as the picture the marks stand for. Row gaps 10 px, each with an invisible 44 px tall cut target.
@@ -154,3 +154,4 @@ What changed:
 - **The 8-row tray (L2 #8) could not fit** the 30 px grid floor with Check above the 360 fold: replaced by 4 × 5 (holes of 5); #7 became 6 × 5 (holes of 10) so no bot gained; max tray 6 rows; every typed answer is 2–9, so the phone keypad is two rows of five (Check ≈ 705 at 360 × 740, ≈ 628 at 320 × 640, summed in §4).
 - The turn button was a dead control in every Level-2 round (turning never creates a solution) — Free play only.
 - §11 now separates it from New 299 Leftover Dealer (machine-made equal shares + remainder).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

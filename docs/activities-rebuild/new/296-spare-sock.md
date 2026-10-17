@@ -24,7 +24,9 @@
 - **Misconception 3 — looking at the wrong digit** (the first digit of 357). **Push-back:** the peek only ever lifts the ones; the round tables are built so that "use the first digits" is right only 5 and 6 of 10 times in the two big-number sets (measured, §6).
 
 ## 4. The stage
-**At 704 px (split: board 460 px left, decision column 196 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: board 460 px left, decision column 196 px right):**
 - **Task line** (22 px): **"Is the sum even or odd? Decide without adding."**
 - **The numbers** (board, one row per addend, 2 or 3 rows, 96 px each): on the left the numeral (40 px Baloo; in the big setting its ones digit is underlined with a 4 px teal bar); to its right its **plates** (drawn apparatus, cream with a 2 px ink outline, dots 18 px in 26 px cells): **ten-bars** — 2 × 5 dot slabs (130 × 52) with a band drawn across them, always flat; the **ones plate** — 2 rows of dots, ceil(n/2) wide; an odd plate's TOP row is one dot longer than its bottom row, so its last dot is a **bump** — a rounded tab sticking out at the plate's right end, past the flat right edge of the bottom row (the classic 2-row odd shape; critic correction: a bump standing up ABOVE the top edge, as first drawn, could never interlock with another plate side by side). 0 ones → no ones plate.
 - **Small setting (to 20):** plates always visible: 14 = one ten-bar + a 4-plate; 13 = one ten-bar + a 3-plate (bump); 20 = two ten-bars.
@@ -138,3 +140,4 @@ What changed:
 - **The free peek bypassed the skill:** in the big setting a child could peek every round and count bumps without ever reading the ones digit. The peek is now locked during the decision, lifts on the reveal, after two misses (help) and in free play.
 - Re-measured all four sets and every shortcut bot with my own script (work-c41/par.js): 5/5 even-odd, every parity combination ≥ 2 in the two-addend sets, only the ones digits score 10/10; "odd if any is odd" is 7/10 by construction (it fails exactly the two-odd rounds; every pass opens with one).
 - Distinctness checked against new/249 The Fair Tug and the tools pair-gate, doubling-mirror, number-balance, rounding-hill, landing-strip: pair-gate shares the TRUTH (two remainders make a rank) but not the move; the Odd Bump's interlocking shape and its place-value reason (tens are flat bars) are its own.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

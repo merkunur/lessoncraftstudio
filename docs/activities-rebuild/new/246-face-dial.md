@@ -21,7 +21,7 @@
   3. *Neighbouring feelings are the same* (happy/excited, sad/tired). Each feeling is a measured REGION of grip space with gaps between them; neighbours never overlap, so "sleepy eyes" (tired) and "worried brows + frown" (sad) are different places the hand must go.
 
 ## 4. The stage
-Layout split at ≥ 700 (dial left, prompt + reveal column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 640 × 520):
 - **The dial** (left, 380 × 420): a big drawn face circle 320 px (cream-yellow `#FFE9A8` fill, 3 px ink outline). Features, all drawn geometry in ink:
@@ -162,3 +162,4 @@ What changed:
 - Orchestrator ruling applied: the geometric face is apparatus because its parts are the controls; the design now pins it to pure geometry (plain dots — the catch-light removed — no nose/hair/blush/lashes, no idle animation) with a gate on the dial's SVG and a mutation.
 - Added NAME mode (K-319's face → word direction and K-334, which Shape mode only covered word → face): a library face is shown, and the word chip the child drops onto the dial BUILDS its own face beside it — a wrong word visibly makes a different face, with the differing feature pulsing on both. 9-round table with mouth-alike distractors, answer slot measured.
 - clothing/pajamas does not exist in the library (`clothing.json` checked) — Situation round 8 now uses around-the-house/pillow + moon. Region table re-checked: the six regions are pairwise disjoint and the rest face is in none.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -27,7 +27,7 @@
 - **How the material pushes back:** the switch is the check; a wrong picture is simply not lifted, a missed one leaves an empty hook. The magnet never says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504 wide), bubble column right (176). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 480):
 - **The magnet stand** (top centre): a drawn ink gantry (two posts 8 px, a beam) holding the **horseshoe magnet** — a red U (`#E2533B`, 36 px thick, 200 px wide, 120 tall, rounded), silver pole tips (`#C9CFD6`, 36 × 28). On the bend of the U: the **letter**, cream disc 76 px with the letter in Baloo 2 64 px ink (capital + small, e.g. "Mm", per the Letters setting). Under the poles hangs a **hook bar** (ink line 260 px) with the round's **hooks** (one per right picture: 1, 3, or 2 per magnet), each a small teal hook 20 px. The empty hooks ARE the count of pictures to find.
@@ -151,3 +151,4 @@ What changed:
 - Pictures: fruits/cherry (an apple) → at-the-supermarket/cherry; fruits/peach (an apple) → furniture/bench and accessories/watch; farm-animals/chicken (the hen drawing) and zoo-animals/cheetah (a leopard twin — seen) refused; bed re-pointed to around-the-house.
 - The bar-magnet tiles (a second magnet toy that snapped into gaps, too close to Row 54's snapping magnets) are gone: Level 5 now uses the same lift — a card under the right team magnet rises and the team drops into its gap; Read-and-match uses word magnets that lift only the picture they name, with team-sharing decoys so the team alone never decides (no longer the Sticky-Name-Tag 'strip under picture' move).
 - Distinct-from now names 054 Blending Magnets and 077 Magnet Plates and says why a filter magnet is a different invention.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -24,7 +24,7 @@
 - **How the material pushes back:** a key whose holes don't match cannot enter a lock — the tag physically jams at the window that disagrees.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: bench left, bins right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 672 × ≈ 430):**
 - **The bench** (left, 360 × 360): a wooden workbench top (geometry) with a back board. The THING — library picture, 150 px — stands centre. Above it hangs **the tag** (cream card 200 × 64, string to the thing) with 4 windows (36 px squares) in a fixed row, each headed by its test icon (16 px geometry): magnet · drop · press · lamp.
@@ -168,3 +168,4 @@ What changed:
 - Truth table rebuilt to single material: milk (steel cap — a real magnet would grab "glass"), jar (lid), oil (cork), grater (plastic top) refused; around-the-house/glass, classroom/paper and at-the-supermarket/cereal are drawn but unlabelled (checked against the theme JSONs) — refused. 19 things survive, every one opened on a contact sheet; the thinness (2 metal, 1 glass) recorded for ART-NEEDS instead of padded.
 - Containers are named as containers ("the water bottle", never "water is made of plastic"); tools/nail uses image-vocabulary metal-nail outside en/de (its label is the fingernail word).
 - All three round tables rewritten and counted: 5-material metal 4 · glass 2 · plastic 6 · paper 6 · wood 6; 3-material 4 · 12 · 8; ODD odd place 2/2/2/2 and odd material 2/2/2/2. Look-only bots measured against the table: "pick the clear one" 50 % in D1 (two clear things), "pick the brown one" useless in D2.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

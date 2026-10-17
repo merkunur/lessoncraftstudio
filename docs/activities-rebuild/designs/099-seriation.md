@@ -26,7 +26,9 @@
   4. **Transitivity not used** → in the order rounds there is one shorter, one as long, one longer than the cord, so the three tags alone put the ribbons in order — and Tilly's side-by-side reveal confirms it.
 
 ## 4. The stage
-At 704 (split layout, stage ≈ 660 × 470):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 470):
 - **The shop wall** (left column, 440 × 440, drawn): cream wall (#FBF3E4), three **places** for ribbons, each a drawn fixture:
   - **the hook** (top-left area): a brass hook; a ribbon hanging down from it (vertical);
   - **the high shelf** (top-right area): a wooden shelf 260 wide; a ribbon lying along it (horizontal), starting at a start-pin which is NOT under the hook;
@@ -124,7 +126,7 @@ In T4 and T8 the stands are arranged so that the object whose **top** is highest
 ## 7. Check, the misses, the success
 - **Check with nothing chosen** → bubble "Carry the cord to each ribbon first, then tap one." (no miss) · order with empty slots → "Put all three ribbons on the rail." (no miss)
 - **Miss 1** → the cord **travels by itself** to every ribbon that has no tag yet and to the ribbon the child chose (1.1 s each), laying itself along each, and leaves all three tags. The chosen ribbon's tag pulses. Bubble (longest): "Look at the tags: only one ribbon is longer than the cord." · (shortest) "…only one ribbon is shorter than the cord." · (as long) "…only one ribbon ends exactly where the cord ends." · (order) "Look at the tags: which is shorter than the cord, which is just as long, which is longer?"
-- **Miss 2** → the three **tags slide off their hooks and line up** in the bubble column, in the order shorter / as long / longer, each with a thread back to its ribbon (the cord in the middle of each tag aligned, so the coloured bars visibly step up). The child still taps (or orders). Bubble: "The cord is the same every time — so the tags tell you the order."
+- **Miss 2** → the three **tags slide off their hooks and line up** in the bubble area under the stage, in the order shorter / as long / longer, each with a thread back to its ribbon (the cord in the middle of each tag aligned, so the coloured bars visibly step up). The child still taps (or orders). Bubble: "The cord is the same every time — so the tags tell you the order."
 - A new tap or drag takes the help away until the next Check.
 - **Success** → the chosen ribbon glows; then Tilly hops down, and the three ribbons **fly to the counter and lie side by side from the same start pin**, shortest at the front (500 ms, staggered 120 ms); the cord lays itself along the back as a fourth line, and its knot sits exactly where the tags said. Tilly does a slow blink. Bubble:
   - longest: "Yes! {colour} is longer than the cord — and longer than the others."
@@ -188,3 +190,4 @@ What changed:
 - Checked: the cord is 6 u in every round (the frozen intro's promise, which the old 5/6/7 cords broke); every one of the 21 mixed, 7 order, 9 tall and 7 tall-order rounds re-checked by the critic's own script (`work-c18/check099.py`) — each is decidable from the three tags alone, one answer.
 - Fixed an impossible gate: "the answer looks longest in ≤ 50 %" can never hold when ribbons are drawn to scale. Replaced by what makes the cord necessary: three close calls per question kind (answer and rival 1 u apart, one hanging and one flat, so the vertical–horizontal illusion misleads the eye) — L3, L5, L7, S4, S5, S6, C4, C5, C6 rewritten to carry them, and the shuffle keeps their rivals in different directions.
 - Removed the 56 px picture exception: tall things now run 3–9 units with a stated u per width, so every candle/sunflower copy is ≥ 64 px on a phone and the tallest fits on the high shelf.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

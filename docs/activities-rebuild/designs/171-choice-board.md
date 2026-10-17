@@ -27,7 +27,9 @@
   5. **"2/4 is more than 1/2 — it has more pieces":** in the which-shows rounds the press's "lump" step (§5) rolls the shaded patties together into one lump, and two fourth-patties lump into exactly the outline of one half-patty.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px, ≤ 2 lines).
 - **Left column (300 px):**
   - **The model board** (a wooden board 280 × 220): the model shape (whole fitted in 180 × 180) cut along its lines; its pieces carry a dough texture (warm #F4D9A8 with a soft speckle and a 3 px ink outline; the cut lines are 3 px darker seams). In the which-shows board this is replaced by the **fraction card** (a cream card: "one third" or "1/3" per setting, 40 px, plus a row of empty patty outlines showing the card: 1 coral outline + 2 teal outlines for 1/3).
@@ -172,3 +174,4 @@ What changed:
 - The lump step now runs in every WHICH round (amount-based verdict = equal-parts verdict, proved by the measured gap); W9 works by it.
 - rect-halves-step given exact vertices (3000 each, measured); the gate's "pairwise non-congruent" claim corrected (mixed figures are not ALL congruent; the step's two pieces are congruent to each other).
 - Distinct from 107 (weight), 108 (congruent copy) and the fraction-kitchen tool (knife/food) — kept.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

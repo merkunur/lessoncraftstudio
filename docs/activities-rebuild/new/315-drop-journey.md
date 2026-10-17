@@ -22,11 +22,11 @@
 - **Misconception 3 — stages out of order** (rain before cloud, vapour into the sea). **Pushback:** every round starts the drop at a different stage (sea, low vapour, cloud, hill), and each state accepts exactly one cause that moves it on; the others give their honest small effect and do not advance it.
 
 ## 4. The stage
-**Journey mode at 704 px (the scene is the hero, 660 × 420):**
+**Journey mode at 704 px (the scene is the hero, 648 × 420):**
 - **Task line:** **"Give the drop what it needs to go all the way round, back to {start}."** ({start} = "the sea" / "the cloud" / "the hill" / "the warm air over the sea".)
 - **The scene** (drawn apparatus, tool-grade, on the reviewed geometry of `scripts/worksheet-gen/primitives/water-cycle.js`, palette tokens only, 3 px teal outlines, no words drawn): the **sea** — a tealSoft band across the left 60 % of the bottom (waves as the primitive's curve); the **hill** — a cream wedge rising on the right with a **rock slope** (grey-cream) and a **meadow patch** (pale green) only in the extended setting; the **river** — a 6 px teal line from the hilltop down to the sea; the **cold high air** — the top 26 % of the scene washed ice-blue with a 2 px frost-dot fringe along its lower edge (no text); a faint **warm-air** shimmer over the sea when the sun works.
 - **The drop:** `weather/raindrop`, 96 px. States: *water* (the picture, bobbing in the sea or sitting on the hill); *vapour* (the picture fades out and three dashed teal wisps 96 px tall take its place); *cloud droplets* (the drawn cloud — the primitive's cloud path, 180 × 110, white — appears with 6 tiny droplet dots inside; the dots grow with each join); *rain* (the picture again, falling, with 5 dashed rain lines from the cloud); *ice* (a white rim along the sea edge, or the drop on the hill turning white with a frost outline).
-- **The cause tray** (right column at ≥ 700 px, `layout:'split'`): four 104 px cream pads in a column — warmth (`weather/sunny` 96), cold (`weather/snowflake` 96), joining (drawn: three 26 px droplet circles), downhill (drawn: a 70 px slope with a 30 px arrow). Pad order is shuffled per round (§6).
+- **The cause tray** (under the scene at ≥ 700 px — stacked layout (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704); the scene fills the ≈ 648 px stage): four 104 px cream pads in a row — warmth (`weather/sunny` 96), cold (`weather/snowflake` 96), joining (drawn: three 26 px droplet circles), downhill (drawn: a 70 px slope with a 30 px arrow). Pad order is shuffled per round (§6).
 - **Stamped words:** 18 px Nunito 800 on a white tag with a teal outline, placed at fixed anchors (above the sea's surface, inside the cold band beside the cloud, under the cloud, at the river mouth; extended: on the rock slope / under the meadow).
 
 **Label mode at 704 px:**
@@ -160,3 +160,4 @@ What changed:
 - **Honest content fallback:** runoff is missing in de/fr/es/pt and ground water everywhere — the extended option ships per locale only when both words pass the native reviewer; otherwise it is hidden and the base game ships whole. No padding.
 - Journey rounds 5–8 mirrored so the second visit to each start is a new picture. Re-measured (`work-c42/c-drop.js`): first right cause on pad 1/2/3/4 = 2/2/2/2; label empties 7/7/6/6, mirrored 4/8, bot 3/26.
 - Grade fit stated honestly (a grade-5 PE taught at its grade-3 core). Pictures: weather/raindrop, sunny, snowflake exist and are what they say (contact sheet); the library cloud (has a face) is correctly refused.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

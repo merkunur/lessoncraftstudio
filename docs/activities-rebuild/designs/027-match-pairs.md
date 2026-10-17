@@ -24,7 +24,7 @@
 - **Misconception 4 — counting 10 from 1 every time (K-277).** The string of ten has a visible gap after bulb five, and the lights cross that gap, so 7 = "five and two more" can be seen.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (string + cards left, garland + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (left 452, right 196):**
 - **Task line** 22 px: the prompt (§9).
@@ -161,3 +161,4 @@ What changed:
 - WHOLE rounds were self-contradictory (the lights of a and b would have revealed the "hidden" string by meeting). Now the child BUILDS the string: choosing the whole gives the cord that many bulbs, and "Light it" judges it by the same law as a pair — meet, cross (doubled bulbs = too short) or dark gap (too long). The child's number is the material; strings, hints, aria and gate updated.
 - Every table re-checked: MISSING answers and slot balance per level (Up to 5: slots 2,3,1,4; 6–9: 2,3,1; Make 10: 1,2,2,4,3,4), no 0, every old board present minus its 0-pair. Correct.
 - Distinct from 026/028 confirmed: no containers, no wheel; the error shown as an exact count of bulbs.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -25,7 +25,9 @@
   5. **Change = the price** → change rounds start from a full till; the child takes coins OUT of the till into the customer's tray; miss 2 counts up from the price.
 
 ## 4. The stage
-At 704 (split, stage ≈ 660 × 480):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked, stage ≈ 648 × 480):
 - **Left (≈ 400 px): the stall counter** (drawn: a teal-and-cream striped awning strip 24 px tall across the top, a wooden counter #E7C9A0 with 3 px ink edge).
   - **The till** (drawn apparatus) at the bottom of the counter: a drawer 380 × 120 with one round cup per coin kind (4–6 cups), cups 64 px across, 14 px apart for families with ≤ 5 cups and 52 px across, 10 px apart for the 6-cup families (EURF, DKK: 6 × 52 + 5 × 10 = 362 ≤ 380), **worth numerals painted on the drawer front under each cup** (Baloo 2 26 px ink, with the locale's unit in 16 px — 25¢ · 20 ct · 10 kr …). A cup holds a visible stack: inside a cup a coin is drawn as an elliptical slab at **0.6 × its counter size** (6 px thick; up to 9), so even the biggest coin (DKK 5 kr, 91 px on the counter) fits a 52 px cup; on the counter and in the purse every coin stays true-size.
   - **The counter top**: where spilled coins lie (count rounds) or where the purse opens (pay rounds): a purse (drawn leather oval with a clasp, 200 × 70) whose coins sit on its open mouth in one row.
@@ -160,3 +162,4 @@ What changed:
 - **Coins**: Norwegian 5 kr has a centre hole too (only 1 kr was listed); coins in a cup are drawn at 0.6 scale so the 91 px Danish 5 kr fits; 6-cup families (EURF, DKK) use 52 px cups so the drawer fits 380 px (6 × 64 + gaps did not).
 - es = Mexican pesos recorded as the orchestrator's ruling (no longer an open flag); nl/fi keep the 5-cent-rounded euro set (no 1 c / 2 c), sv/da/no whole kroner, pt reais without the 1-centavo coin.
 - Sibling reference updated to row 166's new Change Box.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

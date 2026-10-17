@@ -21,7 +21,7 @@ A big painted window frame fills the stage, with a real-feeling sky behind the g
   4. *Wrong clothes for the day* (Week): the window opens and the weather tests the clothes — rain soaks a t-shirt, snow lands on bare hooks, the sun glints off sunglasses.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (stage left 480; right column 200: the card tray / peg rail / item tray + bubble); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The window** (380 × 400, centred-left): a drawn frame (cream, 16 px, 3 px ink outline) with four panes (mullions 8 px), a sill (380 × 34) and a latch. **The sky** inside is apparatus: a colour gradient + a particle layer — sunny (blue, sliding light bars), cloudy (grey, slow soft blobs), rainy (grey, slanted streaks 2 px, splashes on the sill), stormy (dark, streaks, a white flash every 3 s), snowy (pale, drifting 4–7 px dots that settle on the sill), rainbow (light blue after rain, with the library `weather/rainbow` picture outside at 150 px).
@@ -178,3 +178,4 @@ What changed:
 - **Picture floor:** week symbols were 64 px at 704 and 56 px at 360, day/night things 88 px. Week mode is now two calendar rows at both widths (symbols 100 / 64 px), the day/night window widens so things sit at 96 px.
 - Warmth round 2 simplified to one right clothing on the rail (the cap/t-shirt either-or was two answers).
 - Checked: every Week question has exactly one matching day and each weekday is the answer once (Tue twice); Sky uses each symbol ≥ 1× per pass; the Warmth sunny-but-cold lures are rounds 1 and 5; the hot/cold, day/night and clothing items agree with the K-211, K-208, K-207 and K-365 banks (gear: scarf cold, t-shirt warm, sunglasses hot).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

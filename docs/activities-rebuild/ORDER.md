@@ -24,7 +24,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 18 | LIVE 2026-10-17 → `fair-share-activity` (the Friendship Bridge, fair share), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.C.6 | `friendship-bridge.compare-balance.k-cc-c-6` | friendship-bridge-activity | The Friendship Bridge — Compare Groups: More, Fewer, Same |
 | 19 | LIVE 2026-10-17 → `number-lift-activity` (the Number Elevator), 11 locales; operator review pending | K | K.CC.C.7 | `choice-board.pick-bigger.k-c-c-7` | choice-board-activity | Which Number Is Bigger? — Kindergarten Counting |
 | 20 | LIVE 2026-10-17 → `block-towers-activity` (the Block Towers), 11 locales; operator review pending | K | K.CC.C.7 | `choice-board.pick-smaller.k-c-c-7` | choice-board-activity | Which Number Is Smaller? — Kindergarten Counting |
-| 21 |  | K | K.CC.C.7 | `comparison-creek.river-steer.k-cc-c-7` | comparison-creek-activity | Comparison Creek — Compare Numbers 1–10 (Kindergarten) |
+| 21 | LIVE 2026-10-17 → `creek-map-activity` (the Creek Map), 11 locales (da/no/fi new); operator review pending | K | K.CC.C.7 | `comparison-creek.river-steer.k-cc-c-7` | comparison-creek-activity | Comparison Creek — Compare Numbers 1–10 (Kindergarten) |
 | 22 |  | K | K.CC.C.7 | `nesting-pots.seriate.k-cc-c-7` | nesting-pots-activity | Grandpa Pip's Nesting Pots — Compare Numbers 1–10 (Kindergarten) |
 | 23 |  | K | K.OA.A.1 | `ten-frame.show-the-operation.k-oa-a-1` | ten-frame-activity | Show the Operation — Add & Subtract on a Ten Frame |
 | 24 |  | K | K.OA.A.2 | `ten-frame.solve-the-story.k-oa-a-2` | ten-frame-activity | Solve the Story — Add & Subtract Word Problems on a Ten Frame |

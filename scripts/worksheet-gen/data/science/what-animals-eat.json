@@ -81,16 +81,6 @@
       "bin": "meat"
     },
     {
-      "theme": "animals",
-      "noun": "wolf",
-      "bin": "meat"
-    },
-    {
-      "theme": "animals",
-      "noun": "fox",
-      "bin": "meat"
-    },
-    {
       "theme": "ocean life",
       "noun": "shark",
       "bin": "meat"

@@ -119,6 +119,7 @@ const MANIFEST_FILES = [
   'star-stitcher-activities.json',
   'necklace-activities.json',
   'wondering-jar-activities.json',
+  'bug-jar-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

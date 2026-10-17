@@ -1718,6 +1718,30 @@
         "Telle opp et gitt antall",
         "Vite at to grupper er like mange når hver ting i den ene kan pares med en ting i den andre"
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Et glass er fullt av småkryp – marihøner, bier, snegler – som ligger hulter til bulter oppå hverandre, så ingen kan telle dem gjennom glasset. Ved siden av står et glass med nøyaktig ti like småkryp. Barnet gjetter først: færre enn i glasset med ti, eller flere? Så heller barnet ut glasset, småkrypene havner på et brett der de kan telles, og barnet finner ut av det. En interaktiv telleøvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "Glasset med ti er målestokken. Begge glassene er fylt på samme måte, så det fulleste inneholder virkelig flest, og barnet lærer å anslå en mengde ut fra et tall det kjenner, før det teller. Når glasset er tømt, ligger småkrypene i rader, i et rektangel, i ring eller hulter til bulter, opptil 16. Et trykk på et småkryp krysser det av som telt, så barnet vet hvilke som allerede er telt – krysset er aldri et tall. Barnet stiller inn glassets etikett med − og +; den starter på ti, så det å telle videre fra ti («ti, elleve, tolv …») er en vei til et tall over ti. Når det ikke stemmer, sier hintet om det fortsatt er småkryp uten kryss, eller om tallet er for stort eller for lite; etter enda et forsøk nummereres småkrypene fram til det siste, som viser et spørsmålstegn, og barnet sier det siste tallet – så mange er det. Når det stemmer, nummereres småkrypene i den rekkefølgen barnet krysset dem av, og antallet holdes opp mot gjetningen: «Flere enn 10, akkurat som du gjettet» eller «flere enn du gjettet». En gjetning regnes aldri som feil.",
+        "Aktiviteten er tilpasset LK16 – å telle hvor mange det er opptil 16 i rader eller i et rektangel, opptil 9 i ring og opptil 10 hulter til bulter. Læreren velger tall opptil 10 (målestokken er da et glass med fem) eller opptil 16 og kan slå av gjetningen. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Anslå en mengde ut fra glasset med ti før man teller",
+        "Telle opptil 16 småkryp i rader, i et rektangel, i ring eller hulter til bulter",
+        "Krysse av hvert småkryp som telles, så ingen telles to ganger eller glemmes",
+        "Vite at det siste tallet man teller, sier hvor mange det er"
+      ],
+      "howToPlay": [
+        "Se på de to glassene og gjett: færre småkryp enn i glasset med ti, eller flere?",
+        "Hell ut glasset. Trykk på hvert småkryp for å krysse det av mens du teller.",
+        "Still inn glassets etikett på antallet med − og +, og trykk så på Sjekk.",
+        "Ikke helt? Hintet sier hva du skal se etter – rett det og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle hvor mange det er opptil 16 i rader eller i et rektangel, opptil 9 i ring og opptil 10 hulter til bulter",
+        "Vite at det siste tallet man teller, sier hvor mange det er",
+        "Sammenligne en mengde med ti før man teller den"
+      ]
     }
   }
 }

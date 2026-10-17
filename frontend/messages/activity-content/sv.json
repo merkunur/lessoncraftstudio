@@ -2578,6 +2578,30 @@
         "Räkna fram ett givet antal",
         "Veta att två grupper är lika många när varje sak i den ena kan paras ihop med en sak i den andra"
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "En burk är full av småkryp – nyckelpigor, bin, sniglar – som ligger huller om buller över varandra, så att ingen kan räkna dem genom glaset. Bredvid står en burk med exakt tio likadana småkryp. Barnet gissar först: färre än i burken med tio, eller fler? Sedan häller barnet ut burken, småkrypen hamnar på en bricka där de går att räkna, och barnet tar reda på svaret. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Burken med tio är måttstocken. Båda burkarna är fyllda på samma sätt, så den som är fullast innehåller verkligen fler, och barnet lär sig att uppskatta en mängd mot ett tal det känner innan det räknar. När burken är tömd ligger småkrypen i rader, i en rektangel, i ring eller huller om buller, upp till 16. Ett tryck på ett småkryp bockar av det som räknat, så att barnet vet vilka som redan är räknade – bocken är aldrig ett tal. Barnet ställer in burkens etikett med − och +; den börjar på tio, så att räkna vidare från tio (”tio, elva, tolv …”) är ett sätt att nå ett tal över tio. När det inte stämmer säger tipset om det finns småkryp utan bock eller om talet är för stort eller för litet; efter ett andra försök numreras småkrypen fram till det sista, som visar ett frågetecken, och barnet säger det sista talet – så många är det. När det stämmer numreras småkrypen i den ordning barnet bockade av dem, och antalet jämförs med gissningen: ”Fler än 10, precis som du gissade” eller ”fler än du gissade”. En gissning räknas aldrig som fel.",
+        "Aktiviteten följer Lgr22 – att räkna hur många det är upp till 16 i rader eller i en rektangel, upp till 9 i ring och upp till 10 huller om buller. Läraren väljer tal upp till 10 (måttstocken blir då en burk med fem) eller upp till 16 och kan stänga av gissningen. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Uppskatta en mängd mot burken med tio innan man räknar",
+        "Räkna upp till 16 småkryp i rader, i en rektangel, i ring eller huller om buller",
+        "Bocka av varje småkryp som räknas, så att inget räknas två gånger eller glöms",
+        "Veta att det sista talet man räknar säger hur många det är"
+      ],
+      "howToPlay": [
+        "Titta på de två burkarna och gissa: färre småkryp än i burken med tio, eller fler?",
+        "Häll ut burken. Tryck på varje småkryp för att bocka av det medan du räknar.",
+        "Ställ in burkens etikett på antalet med − och + och tryck sedan på Kontrollera.",
+        "Inte riktigt? Tipset säger vad du ska titta på – rätta och tryck på Kontrollera igen. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna hur många det är upp till 16 i rader eller i en rektangel, upp till 9 i ring och upp till 10 huller om buller",
+        "Veta att det sista talet man räknar säger hur många det är",
+        "Jämföra en mängd med tio innan man räknar"
+      ]
     }
   }
 }

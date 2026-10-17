@@ -1442,24 +1442,26 @@
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
-        "La chouette adore les devinettes ! Combien de bonbons se cachent dans le bocal ? L'enfant fait glisser son estimation sur une bande numérique : ici, il n'y a pas de mauvaise réponse, une estimation n'est jamais fausse. Ensuite, le bocal s'ouvre et l'on compte les bonbons un à un pour trouver le vrai nombre. D'autres défis viennent enrichir le jeu : deviner s'il y en a plus ou moins que N, ou repérer quel bocal en a le plus, le A ou le B.",
-        "Estimer une quantité, c'est en donner un ordre de grandeur ; puis dénombrer un à un, c'est le vérifier. Ce va-et-vient entre l'estimation et le comptage aide l'enfant à « construire le nombre » à la maternelle et développe son sens du nombre, sans jamais avoir peur de se tromper. Le jeu se joue sans minuteur, sans score et sans compte à créer : l'enfant avance à son rythme, en accord avec les programmes officiels de l'école."
+        "Un bocal est rempli de petites bêtes — coccinelles, abeilles, escargots — entassées les unes sur les autres, si bien que personne ne peut les compter à travers le verre. À côté, un bocal contient exactement dix de ces petites bêtes. L’enfant devine d’abord : moins que dans le bocal de dix, ou plus ? Puis il vide le bocal, les petites bêtes arrivent sur un plateau où l’on peut les compter, et il découvre la réponse. Une activité interactive de dénombrement pour la grande section, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Le bocal de dix sert de repère. Les deux bocaux sont remplis de la même façon ; le plus plein contient donc vraiment plus, et l’enfant apprend à estimer une quantité par rapport à un nombre connu avant de la dénombrer. Une fois sorties, les petites bêtes sont en rangées, en tableau, en rond ou en vrac, jusqu’à 16. Toucher une petite bête la coche comme comptée, pour que l’enfant sache lesquelles il a déjà comptées — la coche n’est jamais un nombre. L’enfant règle l’étiquette du bocal avec − et + ; elle commence à dix, si bien que compter à partir de dix (« dix, onze, douze… ») est une façon d’arriver à un nombre plus grand que dix. Quand ce n’est pas juste, l’indice dit s’il reste des petites bêtes sans coche ou si le nombre est trop grand ou trop petit ; à la deuxième erreur, les petites bêtes sont numérotées jusqu’à la dernière, qui porte un point d’interrogation, et l’enfant dit le dernier nombre — c’est combien il y en a. Quand c’est juste, les petites bêtes sont numérotées dans l’ordre où l’enfant les a cochées et la quantité est comparée à ce que l’enfant a deviné : « Plus de 10, comme tu l’avais deviné » ou « plus que tu ne pensais ». Ce que l’enfant a deviné n’est jamais compté faux.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : dénombrer une collection jusqu’à 16 en rangées ou en tableau, jusqu’à 9 en rond et jusqu’à 10 en vrac. L’enseignant choisit des nombres jusqu’à 10 (le repère est alors un bocal de cinq) ou jusqu’à 16, et peut désactiver l’estimation. Ni chrono ni score."
       ],
       "practices": [
-        "Estimer une quantité et en donner un ordre de grandeur",
-        "Compter les objets un à un pour vérifier son estimation",
-        "Comparer son estimation au nombre réel trouvé en comptant",
-        "Comparer deux quantités : plus, moins ou autant",
-        "Se repérer sur une bande numérique"
+        "Estimer une quantité par rapport au bocal de dix avant de compter",
+        "Dénombrer jusqu’à 16 petites bêtes en rangées, en tableau, en rond ou en vrac",
+        "Cocher chaque petite bête comptée, pour n’en oublier aucune et n’en compter aucune deux fois",
+        "Comprendre que le dernier nombre dit indique la quantité"
       ],
       "howToPlay": [
-        "Fais glisser ton estimation sur la bande numérique, puis valide-la.",
-        "Ouvre le bocal et compte les bonbons un à un pour découvrir le vrai nombre."
+        "Regarde les deux bocaux et devine : moins de petites bêtes que dans le bocal de dix, ou plus ?",
+        "Vide le bocal. Touche chaque petite bête pour la cocher pendant que tu comptes.",
+        "Règle l’étiquette du bocal avec − et +, puis appuie sur Vérifier.",
+        "Pas tout à fait ? L’indice dit quoi regarder — corrige et appuie de nouveau sur Vérifier. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Estimer une quantité",
-        "Dénombrer pour vérifier",
-        "Comparer une estimation et un nombre réel"
+        "Dénombrer jusqu’à 16 en rangées ou en tableau, jusqu’à 9 en rond et jusqu’à 10 en vrac",
+        "Comprendre que le dernier nombre dit indique la quantité",
+        "Comparer une quantité à dix avant de la dénombrer"
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

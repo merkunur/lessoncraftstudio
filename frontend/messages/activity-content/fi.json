@@ -1662,6 +1662,30 @@
         "Lapsi kokoaa annetun lukumäärän",
         "Lapsi tietää, että kahdessa ryhmässä on yhtä monta, kun jokaisen esineen voi yhdistää pariksi toisen ryhmän esineen kanssa"
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Purkki on täynnä ötököitä – leppäkerttuja, mehiläisiä, etanoita – jotka ovat sikin sokin päällekkäin, joten kukaan ei pysty laskemaan niitä lasin läpi. Vieressä on purkki, jossa on tasan kymmenen samanlaista ötökkää. Lapsi arvaa ensin: vähemmän kuin kymmenen ötökän purkissa vai enemmän? Sitten lapsi kaataa purkin, ötököt päätyvät tarjottimelle, jossa ne voi laskea, ja lapsi saa selville vastauksen. Vuorovaikutteinen laskemisharjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kymmenen ötökän purkki on mittapuu. Molemmat purkit on täytetty samalla tavalla, joten täydemmässä on todella enemmän, ja lapsi oppii arvioimaan määrää tutun luvun avulla ennen laskemista. Kaatamisen jälkeen ötököt ovat riveissä, suorakulmiossa, ringissä tai sikin sokin, 16:een asti. Ötökän napauttaminen merkitsee sen lasketuksi, jotta lapsi tietää, mitkä on jo laskettu – merkki ei ole koskaan luku. Lapsi asettaa purkin etiketin painikkeilla − ja +; se alkaa kymmenestä, joten laskeminen eteenpäin kymmenestä (”kymmenen, yksitoista, kaksitoista…”) on yksi tapa päästä kymmentä suurempaan lukuun. Kun luku ei täsmää, vihje kertoo, onko ötököitä vielä merkitsemättä vai onko luku liian suuri tai liian pieni; toisen yrityksen jälkeen ötököt numeroidaan viimeiseen asti, jossa näkyy kysymysmerkki, ja lapsi sanoo viimeisen luvun – niin monta niitä on. Kun luku täsmää, ötököt numeroidaan siinä järjestyksessä, jossa lapsi merkitsi ne, ja lukumäärää verrataan arvaukseen: ”Enemmän kuin 10, juuri kuten arvasit” tai ”enemmän kuin arvasit”. Arvausta ei koskaan merkitä vääräksi.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi laskee lukumäärän 16:een asti, kun esineet ovat riveissä tai suorakulmiossa, 9:ään asti, kun ne ovat ringissä, ja 10:een asti, kun ne ovat sikin sokin. Opettaja valitsee, ovatko luvut 10:een asti (mittapuuna on silloin viiden ötökän purkki) vai 16:een asti, ja voi ottaa arvauksen pois päältä. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Arvioida määrää kymmenen ötökän purkin avulla ennen laskemista",
+        "Laskea enintään 16 ötökkää riveissä, suorakulmiossa, ringissä tai sikin sokin",
+        "Merkitä jokainen laskettu ötökkä, jotta mitään ei lasketa kahdesti eikä mitään jää laskematta",
+        "Tietää, että viimeinen laskettu luku kertoo lukumäärän"
+      ],
+      "howToPlay": [
+        "Katso kahta purkkia ja arvaa: vähemmän ötököitä kuin kymmenen ötökän purkissa vai enemmän?",
+        "Kaada purkki. Napauta jokaista ötökkää merkitäksesi sen laskiessasi.",
+        "Aseta purkin etiketti lukumäärään painikkeilla − ja + ja paina sitten Tarkista.",
+        "Ei ihan? Vihje kertoo, mihin kannattaa katsoa – korjaa ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi laskee lukumäärän 16:een asti, kun esineet ovat riveissä tai suorakulmiossa, 9:ään asti, kun ne ovat ringissä, ja 10:een asti, kun ne ovat sikin sokin",
+        "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi vertaa määrää kymmeneen ennen laskemista"
+      ]
     }
   }
 }

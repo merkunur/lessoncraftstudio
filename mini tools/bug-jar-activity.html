@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Wondering Jar — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #16 of the one-by-one rebuild — THE BUG JAR (K.CC.B.5, guess against a jar of ten,
+       pour it out, count to 20 and set the label).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to bug-jar-activity.js / bug-jar-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/bug-jar-core.js?v=1"></script>
+  <script src="/mini-tools/bug-jar-activity.js?v=1"></script>
+  <script>
+    LCS.mount(BugJarActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

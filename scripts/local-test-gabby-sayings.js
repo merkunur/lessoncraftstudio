@@ -96,7 +96,7 @@ function serve() {
     for (const id of ['rain', 'cake', 'horses', 'weather', 'butterflies']) { await force(id); firsts.push(await firstCardText()); }
     note(new Set(firsts).size >= 2, `the first card is identical across rounds — cards not shuffled`);
 
-    await force('couch');
+    await force('hand');
     const cw = await correctId();
     await tap(cw); note(await page.evaluate(() => window.GabbySayingsActivity.sel != null), 'first tap did not select');
     await tap(cw); note(await page.evaluate(() => window.GabbySayingsActivity.sel == null), 'second tap did not deselect');

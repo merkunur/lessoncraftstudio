@@ -3,7 +3,7 @@
    ---------------------------------------------------------------------
    CCSS 3.MD.A.2 (Grade 3, Measurement & Data): measure + ESTIMATE liquid volume
    — read a level off a graduated scale. Pippa the frog runs a pond-juice stand;
-   a customer orders an ESTIMATE ("about six cups!"); the child pours into a
+   a customer orders an ESTIMATE ("about six deciliters!"); the child pours into a
    FROSTED beaker (the level is HIDDEN — nothing to chase), releases → the beaker
    turns CLEAR, revealing where the juice landed against the numbered scale; the
    child READS the level + reports it on a number-strip.
@@ -45,13 +45,13 @@
   function enWord(n) { return WORDS[n | 0] || String(n); }
   function numWord(n) { return LANG === 'de' ? (WORDS_DE[n | 0] || String(n)) : LANG === 'fr' ? (WORDS_FR[n | 0] || String(n)) : LANG === 'es' ? (WORDS_ES[n | 0] || String(n)) : LANG === 'pt' ? (WORDS_PT[n | 0] || String(n)) : LANG === 'it' ? (WORDS_IT[n | 0] || String(n)) : LANG === 'sv' ? (WORDS_SV[n | 0] || String(n)) : LANG === 'nl' ? (WORDS_NL[n | 0] || String(n)) : enWord(n); }
   /* French unit agreement: 0 and 1 → singular „litre", ≥2 → plural „litres". */
-  function unitFr(n) { return (n | 0) < 2 ? 'litre' : 'litres'; }
-  /* Spanish unit agreement: ONLY 1 → singular „litro"; 0 AND ≥2 → plural „litros" („cero litros"). */
-  function unitEs(n) { return (n | 0) === 1 ? 'litro' : 'litros'; }
-  /* pt-BR unit agreement: ONLY 1 → singular „litro"; 0 AND ≥2 → plural „litros" („zero litros"). */
-  function unitPt(n) { return (n | 0) === 1 ? 'litro' : 'litros'; }
-  /* it unit agreement: ONLY 1 → singular „litro"; 0 AND ≥2 → plural „litri" („zero litri", „due litri"). */
-  function unitIt(n) { return (n | 0) === 1 ? 'litro' : 'litri'; }
+  function unitFr(n) { return (n | 0) < 2 ? 'décilitre' : 'décilitres'; }
+  /* Spanish unit agreement: ONLY 1 → singular „decilitro"; 0 AND ≥2 → plural „decilitros" („cero decilitros"). */
+  function unitEs(n) { return (n | 0) === 1 ? 'decilitro' : 'decilitros'; }
+  /* pt-BR unit agreement: ONLY 1 → singular „decilitro"; 0 AND ≥2 → plural „decilitros" („zero decilitros"). */
+  function unitPt(n) { return (n | 0) === 1 ? 'decilitro' : 'decilitros'; }
+  /* it unit agreement: ONLY 1 → singular „decilitro"; 0 AND ≥2 → plural „decilitri" („zero decilitri", „due decilitri"). */
+  function unitIt(n) { return (n | 0) === 1 ? 'decilitro' : 'decilitri'; }
   /* customer animals as full article-baked subject phrases (m→Ein, f→Eine). EN → raw name. */
   var CUST_L10N = { dragonfly: 'Eine Libelle', frog: 'Ein Frosch', snail: 'Eine Schnecke', newt: 'Ein Molch', beetle: 'Ein Käfer', turtle: 'Eine Schildkröte', fish: 'Ein Fisch', duck: 'Eine Ente', bee: 'Eine Biene' };
   /* French: gender-baked subject phrase „Un…/Une…". EN → raw name. */
@@ -133,17 +133,17 @@
          (hernoemd van Pippa — stapelbotsing met #7 Pip + derde kikker). ⚠ vergelijk-prompt NIET het
          anglicisme „heeft meer" → „In welke maatbeker zit meer sap?". */
       title: { en: "Pippa's Pond-Juice Lab", de: 'Pippas Saftstand', fr: 'Le stand de jus de Pippa', es: 'El puesto de jugo de Pippa', pt: 'A Barraquinha de Suco da Pippa', it: 'Il chiosco del succo di Pippa', nl: 'Fenna’s sapkraam', sv: 'Ebbas saftkiosk' },
-      instruction: { en: 'Pour the juice, then read how much you made off the scale.', de: 'Gieß den Saft ein und lies dann an der Skala ab, wie viel du gemacht hast.', fr: 'Verse le jus, puis lis sur la graduation combien tu en as fait.', es: 'Sirve el jugo y luego lee cuánto hiciste en la escala.', pt: 'Sirva o suco e depois leia na escala quanto você fez.', it: 'Versa il succo, poi leggi sulla scala graduata quanto ne hai fatto.', nl: 'Help Fenna: schenk het sap in en lees op de schaal af hoeveel liter het is.', sv: 'Läs av skalan. Det är talet vid saftens yta som räknas, inte hur högt det ser ut.' },
+      instruction: { en: 'Pour the juice, then read how much you made off the scale.', de: 'Gieß den Saft ein und lies dann an der Skala ab, wie viel du gemacht hast.', fr: 'Verse le jus, puis lis sur la graduation combien tu en as fait.', es: 'Sirve el jugo y luego lee cuánto hiciste en la escala.', pt: 'Sirva o suco e depois leia na escala quanto você fez.', it: 'Versa il succo, poi leggi sulla scala graduata quanto ne hai fatto.', nl: 'Help Fenna: schenk het sap in en lees op de schaal af hoeveel deciliter het is.', sv: 'Läs av skalan. Det är talet vid saftens yta som räknas, inte hur högt det ser ut.' },
       prompt: { en: 'Pour and read!', de: 'Eingießen und ablesen!', fr: 'Verse et lis !', es: '¡Sirve y lee!', pt: 'Sirva e leia!', it: 'Versa e leggi!', nl: 'Inschenken en aflezen!', sv: 'Läs av och svara!' },
-      orderEst: { en: 'A {cust} wants about {w} cups!', de: '{cust} möchte etwa {w} Liter!', fr: '{cust} veut environ {w} {u} !', es: '¡{cust} quiere como {w} {u}!', pt: '{cust} quer mais ou menos {w} {u}!', it: '{cust} vuole più o meno {w} {u}!', nl: '{cust} wil ongeveer {w} liter!', sv: '{cust} vill ha ungefär {w} deciliter!' },
-      orderRead: { en: 'Pippa poured some juice — how much?', de: 'Pippa hat Saft eingegossen – wie viel ist das?', fr: 'Pippa a versé du jus — ça fait combien ?', es: 'Pippa sirvió un poco de jugo… ¿cuánto?', pt: 'A Pippa serviu um pouco de suco — quanto será?', it: 'Pippa ha versato un po\' di succo — quanto sarà?', nl: 'Fenna schonk wat sap in — hoeveel liter?', sv: 'Ebba hällde upp lite saft — hur mycket blev det?' },
+      orderEst: { en: 'A {cust} wants about {w} deciliters!', de: '{cust} möchte etwa {w} Deziliter!', fr: '{cust} veut environ {w} {u} !', es: '¡{cust} quiere como {w} {u}!', pt: '{cust} quer mais ou menos {w} {u}!', it: '{cust} vuole più o meno {w} {u}!', nl: '{cust} wil ongeveer {w} deciliter!', sv: '{cust} vill ha ungefär {w} deciliter!' },
+      orderRead: { en: 'Pippa poured some juice — how much?', de: 'Pippa hat Saft eingegossen – wie viel ist das?', fr: 'Pippa a versé du jus — ça fait combien ?', es: 'Pippa sirvió un poco de jugo… ¿cuánto?', pt: 'A Pippa serviu um pouco de suco — quanto será?', it: 'Pippa ha versato un po\' di succo — quanto sarà?', nl: 'Fenna schonk wat sap in — hoeveel deciliter?', sv: 'Ebba hällde upp lite saft — hur mycket blev det?' },
       orderCompare: { en: 'Which cup has MORE?', de: 'Welcher Messbecher hat MEHR?', fr: 'Quel verre mesureur est le plus rempli ?', es: '¿Cuál vaso tiene MÁS?', pt: 'Qual copo tem MAIS?', it: 'Quale bicchiere ne ha di più?', nl: 'In welke maatbeker zit MEER sap?', sv: 'I vilket mätglas finns det MER saft?' },
       pour: { en: 'Pour 🫗', de: 'Eingießen 🫗', fr: 'Verser 🫗', es: 'Servir 🫗', pt: 'Servir 🫗', it: 'Versa 🫗', nl: 'Inschenken 🫗', sv: 'Häll upp 🫗' },
       look: { en: 'Look! 👀', de: 'Schau! 👀', fr: 'Regarde ! 👀', es: '¡Mira! 👀', pt: 'Olha! 👀', it: 'Guarda! 👀', nl: 'Kijk! 👀', sv: 'Titta! 👀' },
-      readHint: { en: 'Read the scale — tap how much!', de: 'Lies die Skala ab – tippe an, wie viel!', fr: 'Lis la graduation — touche la bonne quantité !', es: 'Lee la escala: ¡toca cuánto es!', pt: 'Leia a escala — toque em quanto tem!', it: 'Leggi la scala graduata — tocca quanto ce n\'è!', nl: 'Lees de schaal af — tik hoeveel liter!', sv: 'Läs av skalan och tryck på talet!' },
+      readHint: { en: 'Read the scale — tap how much!', de: 'Lies die Skala ab – tippe an, wie viel!', fr: 'Lis la graduation — touche la bonne quantité !', es: 'Lee la escala: ¡toca cuánto es!', pt: 'Leia a escala — toque em quanto tem!', it: 'Leggi la scala graduata — tocca quanto ce n\'è!', nl: 'Lees de schaal af — tik hoeveel deciliter!', sv: 'Läs av skalan och tryck på talet!' },
       pickThis: { en: 'This one!', de: 'Der hier!', fr: 'Celui-ci !', es: '¡Este!', pt: 'Este aqui!', it: 'Questo qui!', nl: 'Deze!', sv: 'Det här!' },
       wrong: { en: "Hmm — what does it say where the juice reaches?", de: 'Hmm – bis zu welcher Zahl reicht der Saft?', fr: 'Hmm… jusqu’à quel nombre le jus monte-t-il ?', es: 'Mmm… ¿qué dice donde llega el jugo?', pt: 'Hummm — o que diz onde o suco chega?', it: 'Mmm… fino a quale numero arriva il succo?', nl: 'Hmm — tot welk getal komt het sap?', sv: 'Vid vilket tal slutar saften?' },
-      win: { en: '{w} cups — just right! 🥤', de: '{w} Liter – genau richtig! 🥤', fr: '{w} {u} — exactement ! 🥤', es: '¡{w} {u}, justo! 🥤', pt: '{w} {u} — bem certinho! 🥤', it: '{w} {u} — giusto giusto! 🥤', nl: '{w} liter — precies goed! 🥤', sv: '{w} deciliter — precis rätt avläst! 🥤' },
+      win: { en: '{w} deciliters — just right! 🥤', de: '{w} Deziliter – genau richtig! 🥤', fr: '{w} {u} — exactement ! 🥤', es: '¡{w} {u}, justo! 🥤', pt: '{w} {u} — bem certinho! 🥤', it: '{w} {u} — giusto giusto! 🥤', nl: '{w} deciliter — precies goed! 🥤', sv: '{w} deciliter — precis rätt avläst! 🥤' },
       winCompare: { en: 'That one has more — nice reading! 🥤', de: 'Der hat mehr – gut abgelesen! 🥤', fr: 'Celui-ci en a plus — bien lu ! 🥤', es: '¡Ese tiene más, qué buena lectura! 🥤', pt: 'Esse tem mais — que leitura boa! 🥤', it: 'Quello ne ha di più — bella lettura! 🥤', nl: 'Daar zit meer sap in — goed afgelezen! 🥤', sv: 'Där finns det mer saft — bra avläst! 🥤' },
       tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓', pt: 'Toque em Verificar! ✓', it: 'Tocca Verifica! ✓', nl: 'Tik op Controleer! ✓', sv: 'Tryck på Kontrollera! ✓' }
     },
@@ -218,7 +218,7 @@
       for (var v = this.round.scale.min; v <= this.round.scale.max; v++) {
         (function (val) {
           var b = api.el('button', 'pj-num'); b.type = 'button'; b.textContent = val;
-          b.setAttribute('aria-label', val + (LANG === 'sv' ? ' deciliter' : LANG === 'de' ? ' Liter' : LANG === 'fr' ? ' ' + unitFr(val) : LANG === 'es' ? ' ' + unitEs(val) : LANG === 'pt' ? ' ' + unitPt(val) : LANG === 'it' ? ' ' + unitIt(val) : LANG === 'nl' ? ' liter' : ' cups'));
+          b.setAttribute('aria-label', val + (LANG === 'sv' ? ' deciliter' : LANG === 'de' ? ' Deziliter' : LANG === 'fr' ? ' ' + unitFr(val) : LANG === 'es' ? ' ' + unitEs(val) : LANG === 'pt' ? ' ' + unitPt(val) : LANG === 'it' ? ' ' + unitIt(val) : LANG === 'nl' ? ' deciliter' : ' deciliters'));
           b.addEventListener('click', function () { self._report(val); });
           strip.appendChild(b);
         })(v);
@@ -228,7 +228,7 @@
     _report: function (value) {
       if (this.solved) return;
       var r = Core.report(this.cstate, value);
-      if (r.correct) { this._win(numWord(value) + (LANG === 'sv' ? ' deciliter, precis rätt avläst' : LANG === 'de' ? ' Liter, genau richtig' : LANG === 'fr' ? ' ' + unitFr(value) + ', exactement' : LANG === 'es' ? ' ' + unitEs(value) + ', justo' : LANG === 'pt' ? ' ' + unitPt(value) + ', isso mesmo' : LANG === 'it' ? ' ' + unitIt(value) + ', proprio così' : LANG === 'nl' ? ' liter, precies goed' : ' cups, just right')); this.msg = this.api.t('win').replace('{w}', numWord(value)).replace('{u}', LANG === 'it' ? unitIt(value) : LANG === 'es' ? unitEs(value) : LANG === 'pt' ? unitPt(value) : unitFr(value)); this.render(); this.announce(this.msg); }
+      if (r.correct) { this._win(numWord(value) + (LANG === 'sv' ? ' deciliter, precis rätt avläst' : LANG === 'de' ? ' Deziliter, genau richtig' : LANG === 'fr' ? ' ' + unitFr(value) + ', exactement' : LANG === 'es' ? ' ' + unitEs(value) + ', justo' : LANG === 'pt' ? ' ' + unitPt(value) + ', isso mesmo' : LANG === 'it' ? ' ' + unitIt(value) + ', proprio così' : LANG === 'nl' ? ' deciliter, precies goed' : ' deciliters, just right')); this.msg = this.api.t('win').replace('{w}', numWord(value)).replace('{u}', LANG === 'it' ? unitIt(value) : LANG === 'es' ? unitEs(value) : LANG === 'pt' ? unitPt(value) : unitFr(value)); this.render(); this.announce(this.msg); }
       else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'sv' ? 'Vid vilket tal slutar saften?' : LANG === 'de' ? 'Was steht da, wo der Saft ist?' : LANG === 'fr' ? 'Jusqu’à quel nombre le jus monte-t-il ?' : LANG === 'es' ? '¿qué dice donde llega el jugo?' : LANG === 'pt' ? 'o que diz onde o suco chega?' : LANG === 'it' ? 'Che numero c\'è dove arriva il succo?' : LANG === 'nl' ? 'Tot welk getal komt het sap?' : 'what does it say?'); this.render(); }
     },
 

@@ -16,61 +16,71 @@
           "id": "mb-share-12-3",
           "cog": "share",
           "dividend": 12,
-          "divisor": 3
+          "divisor": 3,
+          "foilRank": "lo"
         },
         {
           "id": "mb-share-12-4",
           "cog": "share",
           "dividend": 12,
-          "divisor": 4
+          "divisor": 4,
+          "foilRank": "hi"
         },
         {
           "id": "mb-share-15-3",
           "cog": "share",
           "dividend": 15,
-          "divisor": 3
+          "divisor": 3,
+          "foilRank": "mid"
         },
         {
           "id": "mb-share-20-5",
           "cog": "share",
           "dividend": 20,
-          "divisor": 5
+          "divisor": 5,
+          "foilRank": "lo"
         },
         {
           "id": "mb-share-8-2",
           "cog": "share",
           "dividend": 8,
-          "divisor": 2
+          "divisor": 2,
+          "foilRank": "hi"
         },
         {
           "id": "mb-pack-12-4",
           "cog": "pack",
           "dividend": 12,
-          "divisor": 4
+          "divisor": 4,
+          "foilRank": "mid"
         },
         {
           "id": "mb-pack-15-5",
           "cog": "pack",
           "dividend": 15,
-          "divisor": 5
+          "divisor": 5,
+          "foilRank": "lo"
         },
         {
           "id": "mb-pack-18-6",
           "cog": "pack",
           "dividend": 18,
-          "divisor": 6
+          "divisor": 6,
+          "foilRank": "hi"
         },
         {
           "id": "mb-pack-10-2",
           "cog": "pack",
           "dividend": 10,
-          "divisor": 2
+          "divisor": 2,
+          "foilRank": "mid"
         },
         {
           "id": "mb-pack-20-4",
           "cog": "pack",
           "dividend": 20,
-          "divisor": 4
+          "divisor": 4,
+          "foilRank": "hi"
         }
       ]
     },

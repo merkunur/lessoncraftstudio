@@ -14,8 +14,8 @@
         { "id": "pm-repair-bed",      "cog": "repair", "region": ["111", "111"],        "prePlaced": ["101", "112"] },
         { "id": "pm-repair-Lpond",    "cog": "repair", "region": ["11.", "111"],        "prePlaced": ["10.", "112"] },
 
-        { "id": "pm-estimate-stair",  "cog": "estimate", "region": ["1..", "11.", "111"], "choices": [{ "value": 9 }, { "value": 6 }, { "value": 5 }] },
-        { "id": "pm-estimate-Lbed",   "cog": "estimate", "region": ["111", "1..", "1.."], "choices": [{ "value": 9 }, { "value": 5 }, { "value": 4 }] },
+        { "id": "pm-estimate-stair",  "cog": "estimate", "region": ["1..", "11.", "111"], "choices": [{ "value": 9 }, { "value": 6 }, { "value": 7 }] },
+        { "id": "pm-estimate-Lbed",   "cog": "estimate", "region": ["111", "1..", "1.."], "choices": [{ "value": 4 }, { "value": 5 }, { "value": 3 }] },
 
         { "id": "pm-finish-zigzag",   "cog": "finish", "region": [".11", "111", "11."], "prePlaced": [".10", "111", "00."] },
         { "id": "pm-finish-bigstair", "cog": "finish", "region": ["1...", "11..", "111.", "1111"], "prePlaced": ["0...", "00..", "111.", "1111"] },

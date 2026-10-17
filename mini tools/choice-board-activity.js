@@ -1010,6 +1010,28 @@ function cbShuffledOrder(n, prev) {
   return idx;
 }
 
+/* even-odd (2.OA.C.3) order guard (2026-10-17 live fix). The bank is 1..20, so a
+   pass must neither run in counting order nor alternate odd/even (either lets the
+   child answer from the previous card instead of the number). Reject shuffles with
+   more than 3 of the same parity in a row or more than 4 strict alternations in a
+   row; other templates (no _parity tag) take the plain shuffle unchanged. */
+function cbParityOk(pool, idx) {
+  var same = 1, alt = 1;
+  for (var i = 1; i < idx.length; i++) {
+    var a = pool[idx[i - 1]]._parity, b = pool[idx[i]]._parity;
+    if (a === b) { same++; alt = 1; } else { alt++; same = 1; }
+    if (same > 3 || alt > 4) return false;
+  }
+  return true;
+}
+function cbOrderFor(pool, prev) {
+  var n = pool.length;
+  if (!n || pool[0]._parity == null) return cbShuffledOrder(n, prev);
+  var o = cbShuffledOrder(n, prev);
+  for (var k = 0; k < 500 && !cbParityOk(pool, o); k++) o = cbShuffledOrder(n, prev);
+  return o;
+}
+
 window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
   id: 'choice-board-activity',
   strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, FLATTENED_NOUN_LABELS, {
@@ -1037,7 +1059,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       if (!row) return;
       self._activityRow = row;
       var built = self._buildTasksFromRow(row);
-      if (row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound' || row.task_template === 'onset-rime-blend' || row.task_template === 'read-cvc-word') {
+      if (row.task_template === 'even-odd' || row.task_template === 'read-sight-word' || row.task_template === 'compare-2digit' || row.task_template === 'ten-more-less' || row.task_template === 'read-ruler' || row.task_template === 'letter-case' || row.task_template === 'beginning-sound' || row.task_template === 'onset-rime-blend' || row.task_template === 'read-cvc-word') {
         /* per-pass reshuffle path: shell uses nextTask() when tasks is unset */
         self._pool = built; self._order = null; self._curPass = 0; self._orderForPool = null;
         self.tasks = null;
@@ -1061,10 +1083,10 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
     var n = pool.length;
     var i = (opts && opts.index) || 0;
     if (!this._order || this._orderForPool !== pool || this._order.length !== n) {
-      this._order = cbShuffledOrder(n, null); this._orderForPool = pool; this._curPass = 0;
+      this._order = cbOrderFor(pool, null); this._orderForPool = pool; this._curPass = 0;
     }
     var pass = Math.floor(i / n);
-    if (pass > this._curPass) { this._order = cbShuffledOrder(n, this._order); this._curPass = pass; }
+    if (pass > this._curPass) { this._order = cbOrderFor(pool, this._order); this._curPass = pass; }
     return pool[this._order[i % n]];
   },
 
@@ -1243,6 +1265,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         var targetKey = isEven ? 'even' : 'odd';
         return {
           id: row.id + '.n' + n,
+          _parity: isEven ? 0 : 1,
           promptKey: 'promptEvenOrOdd',
           answerType: 'state',
           setup: function (tool) {

@@ -94,8 +94,8 @@
         },
         {
           "id": "ct-cant",
-          "word1": "can",
-          "word2": "not",
+          "word1": "cannot",
+          "word2": "",
           "combined": "cant",
           "apostropheIndex": 3,
           "wrongIndex": 2,

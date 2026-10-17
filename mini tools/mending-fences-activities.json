@@ -8,8 +8,8 @@
     "params": {
       "rounds": [
         { "id": "mf-mend-6x4",  "cog": "mend-board", "w": 6, "h": 4, "shownSide": "w", "candidates": [14, 4, 8] },
-        { "id": "mf-mend-7x3",  "cog": "mend-board", "w": 7, "h": 3, "shownSide": "h", "candidates": [17, 7, 11] },
-        { "id": "mf-mend-8x4",  "cog": "mend-board", "w": 8, "h": 4, "shownSide": "h", "candidates": [20, 8, 12] },
+        { "id": "mf-mend-7x3",  "cog": "mend-board", "w": 7, "h": 3, "shownSide": "h", "candidates": [17, 7, 5] },
+        { "id": "mf-mend-8x4",  "cog": "mend-board", "w": 8, "h": 4, "shownSide": "h", "candidates": [20, 8, 6, 4] },
 
         { "id": "mf-rank-9x2-5x5",  "cog": "more-fence-or-grass", "fields": [{ "w": 9, "h": 2 }, { "w": 5, "h": 5 }] },
         { "id": "mf-rank-10x2-6x5", "cog": "more-fence-or-grass", "fields": [{ "w": 10, "h": 2 }, { "w": 6, "h": 5 }] },

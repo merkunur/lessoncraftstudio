@@ -64,13 +64,8 @@ const REPO = path.join(__dirname, '..');
    delete it (RATCHET DRIFT below fails the build if you don't).
    ------------------------------------------------------------------ */
 const EXEMPTIONS = new Map([
-  ['nl/swap-agree/distractor-already-in-sentence',
-   'nl offers "rennen" as a repair for "rennen" — the exact word the child was just told is wrong. Needs a native nl panel to choose a plausible distractor.'],
-  ['en/order-svo/reorder-trivially-ordered',
-   'correctOrder [3,2,1,0] against an unshuffled tray — solvable right-to-left without reading. Repair = re-authoring the token array so the sentence still reads naturally.'],
-  ['de/order-svo/reorder-trivially-ordered', 'as en — needs a native de panel.'],
-  ['fr/order-svo/reorder-trivially-ordered', 'as en — needs a native fr panel.'],
-  ['nl/order-svo/reorder-trivially-ordered', 'as en — needs a native nl panel.'],
+  /* emptied 2026-10-17: nl swap-agree now offers "renden"/"ren"; the four order-svo trays
+     (en/de/fr/nl) were re-authored to [1,3,0,2] — no longer solvable right-to-left. */
 ]);
 
 /* ---- load the REAL core under a window shim ---- */

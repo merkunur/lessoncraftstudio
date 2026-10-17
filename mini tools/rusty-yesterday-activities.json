@@ -442,7 +442,7 @@
           { "id": "poder", "band": 2, "present": "posso pular", "correct": "pude", "choices": [ { "word": "pude" }, { "word": "posso" }, { "word": "podi" } ] },
           { "id": "querer", "band": 2, "present": "quero um doce", "correct": "quis", "choices": [ { "word": "quis" }, { "word": "quero" }, { "word": "queri" } ] },
           { "id": "saber", "band": 2, "present": "sei a resposta", "correct": "soube", "choices": [ { "word": "soube" }, { "word": "sei" }, { "word": "sabi" } ] },
-          { "id": "estar", "band": 3, "present": "estou feliz", "correct": "estive", "choices": [ { "word": "estive" }, { "word": "estou" }, { "word": "estei" } ] },
+          { "id": "ver", "band": 3, "present": "vejo um gato", "correct": "vi", "choices": [ { "word": "vi" }, { "word": "vejo" }, { "word": "vejei" } ] },
           { "id": "caber", "band": 3, "present": "caibo na caixa", "correct": "coube", "choices": [ { "word": "coube" }, { "word": "caibo" }, { "word": "cabi" } ] }
         ],
         "it": [

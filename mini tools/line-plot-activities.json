@@ -7,18 +7,18 @@
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "lp-at-5",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"atN","n":5} },
-        { "id": "lp-at-4",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"atN","n":4} },
-        { "id": "lp-longer-5","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"longerN","n":5} },
+        { "id": "lp-at-5",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"atN","n":5}, "foilRank": "lo" },
+        { "id": "lp-at-4",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"atN","n":4}, "foilRank": "hi" },
+        { "id": "lp-longer-5","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"longerN","n":5}, "foilRank": "mid" },
         { "id": "lp-mode",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"mode"} },
-        { "id": "lp-diff-1", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"maxMinusMin"} },
-        { "id": "lp-diff-2", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"maxMinusMin"} },
-        { "id": "lp-more-56","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"moreAB","a":5,"b":6} },
-        { "id": "lp-more-46","cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"moreAB","a":4,"b":6} },
+        { "id": "lp-diff-1", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"maxMinusMin"}, "foilRank": "hi" },
+        { "id": "lp-diff-2", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"maxMinusMin"}, "foilRank": "lo" },
+        { "id": "lp-more-56","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"moreAB","a":5,"b":6}, "foilRank": "lo" },
+        { "id": "lp-more-46","cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"moreAB","a":4,"b":6}, "foilRank": "mid" },
 
-        { "id": "lp-plot-6", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "placeLength": 6 },
-        { "id": "lp-plot-4", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,2,6,6,6,7],   "placeLength": 4 },
-        { "id": "lp-plot-7", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "placeLength": 7 }
+        { "id": "lp-plot-6", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "placeLength": 6, "foilRank": "hi" },
+        { "id": "lp-plot-4", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,2,6,6,6,7],   "placeLength": 4, "foilRank": "lo" },
+        { "id": "lp-plot-7", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "placeLength": 7, "foilRank": "mid" }
       ]
     },
     "slug": {

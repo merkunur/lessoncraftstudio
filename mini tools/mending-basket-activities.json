@@ -119,12 +119,12 @@
           "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"By the old door sat the cat with a red bow."}
         },
         {
-          "id": "match-paw", "type": "match", "band": 3,
-          "tokens": [{"t":"In"},{"t":"the"},{"t":"park"},{"t":"ran"},{"t":"the"},{"t":"big"},{"t":"dog"},{"t":"with"},{"t":"one"},{"t":"white"},{"t":"paw"}],
-          "gapIndex": 9, "keystoneIndex": 9, "answer": 1,
-          "extras": {"pictures": 2, "matchPair": {"detail": "paw color", "a": "brown paws", "b": "one white paw"}, "farWordIndex": 9},
+          "id": "match-sit", "type": "match", "band": 3,
+          "tokens": [{"t":"In"},{"t":"the"},{"t":"park"},{"t":"the"},{"t":"happy"},{"t":"dog"},{"t":"sat"},{"t":"down"},{"t":"to"},{"t":"rest"}],
+          "gapIndex": 6, "keystoneIndex": 6, "answer": 1,
+          "extras": {"pictures": 2, "matchPair": {"detail": "pose", "a": "standing", "b": "sitting", "pics": [{"noun":"dog","themeDir":"pets"},{"noun":"dog","themeDir":"farm animals"}]}, "farWordIndex": 6},
           "picture": {"family":"twin-dog-paw","visibleObjects":["dog","park"],"answerDetailInTornRegion":true,"aliveFx":["wag"]},
-          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"In the park ran the big dog with one white paw."}
+          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"In the park the happy dog sat down to rest."}
         },
         {
           "id": "seq-seed", "type": "sequence", "band": 4,

@@ -85,17 +85,17 @@
           "proper": "oreo"
         },
         {
-          "id": "disney",
+          "id": "thanksgiving",
           "band": 3,
           "tokens": [
             "We",
-            "really",
-            "love",
-            "visiting",
-            "disney",
+            "ate",
+            "turkey",
+            "on",
+            "thanksgiving",
             "."
           ],
-          "proper": "disney"
+          "proper": "thanksgiving"
         },
         {
           "id": "christmas",

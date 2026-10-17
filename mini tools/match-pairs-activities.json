@@ -1744,6 +1744,11 @@
         {
           "cards": [
             {
+              "display": "583 ___ 419",
+              "kind": "expanded",
+              "value": 2
+            },
+            {
               "display": "247 ___ 274",
               "kind": "expanded",
               "value": 1
@@ -1754,23 +1759,67 @@
               "value": 1
             },
             {
-              "display": "583 ___ 419",
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "352 ___ 352",
               "kind": "expanded",
-              "value": 2
+              "value": 3
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
             },
             {
               "display": ">",
               "kind": "expr",
               "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
             }
           ]
         },
         {
           "cards": [
             {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "406 ___ 460",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
               "display": "655 ___ 658",
               "kind": "expanded",
               "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
             },
             {
               "display": "<",
@@ -1781,25 +1830,15 @@
               "display": "742 ___ 739",
               "kind": "expanded",
               "value": 2
-            },
-            {
-              "display": ">",
-              "kind": "expr",
-              "value": 2
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "406 ___ 460",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
+              "display": ">",
               "kind": "expr",
-              "value": 1
+              "value": 2
             },
             {
               "display": "927 ___ 924",
@@ -1807,47 +1846,51 @@
               "value": 2
             },
             {
-              "display": ">",
-              "kind": "expr",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "275 ___ 318",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
-            },
-            {
               "display": "519 ___ 491",
               "kind": "expanded",
               "value": 2
             },
             {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
               "display": ">",
               "kind": "expr",
               "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "400 + 7 ___ 407",
+              "kind": "expanded",
+              "value": 3
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "834 ___ 837",
-              "kind": "expanded",
-              "value": 1
+              "display": "=",
+              "kind": "expr",
+              "value": 3
             },
             {
-              "display": "<",
+              "display": ">",
               "kind": "expr",
-              "value": 1
+              "value": 2,
+              "spare": true
             },
             {
               "display": "263 ___ 236",
@@ -1855,6 +1898,27 @@
               "value": 2
             },
             {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "619 ___ 619",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "275 ___ 318",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
               "display": ">",
               "kind": "expr",
               "value": 2
@@ -1863,6 +1927,17 @@
         },
         {
           "cards": [
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
             {
               "display": "348 ___ 354",
               "kind": "expanded",
@@ -1874,13 +1949,70 @@
               "value": 1
             },
             {
-              "display": "561 ___ 516",
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "834 ___ 837",
               "kind": "expanded",
-              "value": 2
+              "value": 1
+            },
+            {
+              "display": "729 ___ 731",
+              "kind": "expanded",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
             },
             {
               "display": ">",
               "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "192 ___ 196",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": "200 + 80 + 3 ___ 283",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "561 ___ 516",
+              "kind": "expanded",
               "value": 2
             }
           ]
@@ -1888,13 +2020,24 @@
         {
           "cards": [
             {
-              "display": "729 ___ 731",
-              "kind": "expanded",
-              "value": 1
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
             },
             {
               "display": "<",
               "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "503 ___ 530",
+              "kind": "expanded",
               "value": 1
             },
             {
@@ -1906,20 +2049,6 @@
               "display": ">",
               "kind": "expr",
               "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "192 ___ 196",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
             },
             {
               "display": "875 ___ 857",
@@ -1927,33 +2056,10 @@
               "value": 2
             },
             {
-              "display": ">",
-              "kind": "expr",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "503 ___ 530",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
               "display": "<",
               "kind": "expr",
-              "value": 1
-            },
-            {
-              "display": "644 ___ 640",
-              "kind": "expanded",
-              "value": 2
-            },
-            {
-              "display": ">",
-              "kind": "expr",
-              "value": 2
+              "value": 1,
+              "spare": true
             }
           ]
         },
@@ -1965,36 +2071,64 @@
               "value": 1
             },
             {
+              "display": "500 + 60 ___ 560",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
               "display": "<",
               "kind": "expr",
               "value": 1
             },
             {
-              "display": "736 ___ 367",
-              "kind": "expanded",
-              "value": 2
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
             },
             {
-              "display": ">",
+              "display": "=",
               "kind": "expr",
-              "value": 2
+              "value": 3
+            },
+            {
+              "display": "770 ___ 770",
+              "kind": "expanded",
+              "value": 3
             }
           ]
         },
         {
           "cards": [
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
             {
               "display": "217 ___ 271",
               "kind": "expanded",
               "value": 1
             },
             {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
-            },
-            {
-              "display": "909 ___ 905",
+              "display": "644 ___ 640",
               "kind": "expanded",
               "value": 2
             },
@@ -2002,20 +2136,32 @@
               "display": ">",
               "kind": "expr",
               "value": 2
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "736 ___ 367",
+              "kind": "expanded",
+              "value": 2
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "460 ___ 604",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
+              "display": "=",
               "kind": "expr",
-              "value": 1
+              "value": 3,
+              "spare": true
             },
             {
               "display": "528 ___ 525",
@@ -2023,8 +2169,34 @@
               "value": 2
             },
             {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
               "display": ">",
               "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "148 ___ 148",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "909 ___ 905",
+              "kind": "expanded",
               "value": 2
             }
           ]
@@ -2032,13 +2204,34 @@
         {
           "cards": [
             {
-              "display": "683 ___ 689",
-              "kind": "expanded",
+              "display": "<",
+              "kind": "expr",
               "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
             },
             {
               "display": "<",
               "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "460 ___ 604",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "683 ___ 689",
+              "kind": "expanded",
               "value": 1
             },
             {
@@ -2047,24 +2240,15 @@
               "value": 2
             },
             {
-              "display": ">",
+              "display": "=",
               "kind": "expr",
-              "value": 2
+              "value": 3,
+              "spare": true
             }
           ]
         },
         {
           "cards": [
-            {
-              "display": "145 ___ 154",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
-            },
             {
               "display": "390 ___ 309",
               "kind": "expanded",
@@ -2074,30 +2258,84 @@
               "display": ">",
               "kind": "expr",
               "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
+            },
             {
-              "display": "762 ___ 768",
+              "display": "617 ___ 167",
               "kind": "expanded",
-              "value": 1
+              "value": 2
             },
             {
               "display": "<",
               "kind": "expr",
-              "value": 1
+              "value": 1,
+              "spare": true
             },
             {
-              "display": "853 ___ 835",
-              "kind": "expanded",
+              "display": ">",
+              "kind": "expr",
               "value": 2
             },
             {
               "display": ">",
               "kind": "expr",
               "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "853 ___ 835",
+              "kind": "expanded",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "728 ___ 725",
+              "kind": "expanded",
+              "value": 2
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "900 + 9 ___ 909",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "145 ___ 154",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
             }
           ]
         },
@@ -2109,57 +2347,66 @@
               "value": 1
             },
             {
+              "display": "333 ___ 333",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
               "display": "<",
               "kind": "expr",
               "value": 1
             },
             {
-              "display": "617 ___ 167",
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "762 ___ 768",
               "kind": "expanded",
-              "value": 2
+              "value": 1
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
             },
             {
               "display": ">",
               "kind": "expr",
-              "value": 2
+              "value": 2,
+              "spare": true
             }
           ]
         },
         {
           "cards": [
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
             {
               "display": "534 ___ 543",
               "kind": "expanded",
               "value": 1
             },
             {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
-            },
-            {
-              "display": "728 ___ 725",
+              "display": "600 + 40 + 1 ___ 641",
               "kind": "expanded",
-              "value": 2
+              "value": 3
             },
             {
-              "display": ">",
+              "display": "=",
               "kind": "expr",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "486 ___ 648",
-              "kind": "expanded",
-              "value": 1
-            },
-            {
-              "display": "<",
-              "kind": "expr",
-              "value": 1
+              "value": 3,
+              "spare": true
             },
             {
               "display": "951 ___ 915",
@@ -2169,6 +2416,155 @@
             {
               "display": ">",
               "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "825 ___ 825",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2,
+              "spare": true
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "486 ___ 648",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": "399 ___ 401",
+              "kind": "expanded",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": "700 + 2 ___ 702",
+              "kind": "expanded",
+              "value": 3
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3
+            },
+            {
+              "display": "600 ___ 599",
+              "kind": "expanded",
+              "value": 2
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "810 ___ 801",
+              "kind": "expanded",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "display": "=",
+              "kind": "expr",
+              "value": 3,
+              "spare": true
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": ">",
+              "kind": "expr",
+              "value": 2
+            },
+            {
+              "display": "432 ___ 423",
+              "kind": "expanded",
+              "value": 2
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1
+            },
+            {
+              "display": "670 ___ 706",
+              "kind": "expanded",
+              "value": 1
+            },
+            {
+              "display": "<",
+              "kind": "expr",
+              "value": 1,
+              "spare": true
+            },
+            {
+              "display": "505 ___ 499",
+              "kind": "expanded",
               "value": 2
             }
           ]
@@ -2572,14 +2968,9 @@
         {
           "cards": [
             {
-              "display": "8 + 5",
+              "display": "16",
               "kind": "expr",
-              "value": 13
-            },
-            {
-              "display": "13",
-              "kind": "expr",
-              "value": 13
+              "value": 16
             },
             {
               "display": "9 + 7",
@@ -2587,9 +2978,20 @@
               "value": 16
             },
             {
-              "display": "16",
+              "display": "15",
               "kind": "expr",
-              "value": 16
+              "value": 15,
+              "spare": true
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "8 + 5",
+              "kind": "expr",
+              "value": 13
             },
             {
               "display": "14 − 6",
@@ -2600,18 +3002,36 @@
               "display": "8",
               "kind": "expr",
               "value": 8
+            },
+            {
+              "display": "20",
+              "kind": "expr",
+              "value": 20,
+              "spare": true
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "6 + 9",
+              "display": "7 + 5",
               "kind": "expr",
-              "value": 15
+              "value": 12
             },
             {
-              "display": "15",
+              "display": "8",
+              "kind": "expr",
+              "value": 8,
+              "spare": true
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13,
+              "spare": true
+            },
+            {
+              "display": "6 + 9",
               "kind": "expr",
               "value": 15
             },
@@ -2626,19 +3046,39 @@
               "value": 9
             },
             {
-              "display": "7 + 5",
+              "display": "12",
               "kind": "expr",
               "value": 12
             },
             {
-              "display": "12",
+              "display": "15",
               "kind": "expr",
-              "value": 12
+              "value": 15
             }
           ]
         },
         {
           "cards": [
+            {
+              "display": "16 − 9",
+              "kind": "expr",
+              "value": 7
+            },
+            {
+              "display": "8 + 6",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "7",
+              "kind": "expr",
+              "value": 7
+            },
+            {
+              "display": "14",
+              "kind": "expr",
+              "value": 14
+            },
             {
               "display": "9 + 9",
               "kind": "expr",
@@ -2650,48 +3090,36 @@
               "value": 18
             },
             {
-              "display": "16 − 9",
+              "display": "17",
               "kind": "expr",
-              "value": 7
+              "value": 17,
+              "spare": true
             },
             {
-              "display": "7",
+              "display": "6",
               "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "8 + 6",
-              "kind": "expr",
-              "value": 14
-            },
-            {
-              "display": "14",
-              "kind": "expr",
-              "value": 14
+              "value": 6,
+              "spare": true
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "7 + 8",
+              "display": "14",
               "kind": "expr",
-              "value": 15
-            },
-            {
-              "display": "15",
-              "kind": "expr",
-              "value": 15
-            },
-            {
-              "display": "13 − 4",
-              "kind": "expr",
-              "value": 9
+              "value": 14,
+              "spare": true
             },
             {
               "display": "9",
               "kind": "expr",
               "value": 9
+            },
+            {
+              "display": "15",
+              "kind": "expr",
+              "value": 15
             },
             {
               "display": "6 + 5",
@@ -2702,20 +3130,31 @@
               "display": "11",
               "kind": "expr",
               "value": 11
+            },
+            {
+              "display": "10",
+              "kind": "expr",
+              "value": 10,
+              "spare": true
+            },
+            {
+              "display": "7 + 8",
+              "kind": "expr",
+              "value": 15
+            },
+            {
+              "display": "13 − 4",
+              "kind": "expr",
+              "value": 9
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "5 + 9",
+              "display": "4",
               "kind": "expr",
-              "value": 14
-            },
-            {
-              "display": "14",
-              "kind": "expr",
-              "value": 14
+              "value": 4
             },
             {
               "display": "11 − 7",
@@ -2723,14 +3162,31 @@
               "value": 4
             },
             {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            },
-            {
               "display": "8 + 8",
               "kind": "expr",
               "value": 16
+            },
+            {
+              "display": "14",
+              "kind": "expr",
+              "value": 14
+            },
+            {
+              "display": "15",
+              "kind": "expr",
+              "value": 15,
+              "spare": true
+            },
+            {
+              "display": "18",
+              "kind": "expr",
+              "value": 18,
+              "spare": true
+            },
+            {
+              "display": "5 + 9",
+              "kind": "expr",
+              "value": 14
             },
             {
               "display": "16",
@@ -2742,9 +3198,25 @@
         {
           "cards": [
             {
+              "display": "8",
+              "kind": "expr",
+              "value": 8,
+              "spare": true
+            },
+            {
               "display": "7 + 6",
               "kind": "expr",
               "value": 13
+            },
+            {
+              "display": "17",
+              "kind": "expr",
+              "value": 17
+            },
+            {
+              "display": "9",
+              "kind": "expr",
+              "value": 9
             },
             {
               "display": "13",
@@ -2757,17 +3229,13 @@
               "value": 9
             },
             {
-              "display": "9",
+              "display": "16",
               "kind": "expr",
-              "value": 9
+              "value": 16,
+              "spare": true
             },
             {
               "display": "9 + 8",
-              "kind": "expr",
-              "value": 17
-            },
-            {
-              "display": "17",
               "kind": "expr",
               "value": 17
             }
@@ -2776,24 +3244,9 @@
         {
           "cards": [
             {
-              "display": "12 − 8",
-              "kind": "expr",
-              "value": 4
-            },
-            {
               "display": "4",
               "kind": "expr",
               "value": 4
-            },
-            {
-              "display": "6 + 7",
-              "kind": "expr",
-              "value": 13
-            },
-            {
-              "display": "13",
-              "kind": "expr",
-              "value": 13
             },
             {
               "display": "14 − 5",
@@ -2801,18 +3254,45 @@
               "value": 9
             },
             {
+              "display": "5",
+              "kind": "expr",
+              "value": 5,
+              "spare": true
+            },
+            {
+              "display": "13",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "6 + 7",
+              "kind": "expr",
+              "value": 13
+            },
+            {
+              "display": "19",
+              "kind": "expr",
+              "value": 19,
+              "spare": true
+            },
+            {
               "display": "9",
               "kind": "expr",
               "value": 9
+            },
+            {
+              "display": "12 − 8",
+              "kind": "expr",
+              "value": 4
             }
           ]
         },
         {
           "cards": [
             {
-              "display": "8 + 9",
+              "display": "7 + 7",
               "kind": "expr",
-              "value": 17
+              "value": 14
             },
             {
               "display": "17",
@@ -2820,9 +3300,10 @@
               "value": 17
             },
             {
-              "display": "13 − 7",
+              "display": "16",
               "kind": "expr",
-              "value": 6
+              "value": 16,
+              "spare": true
             },
             {
               "display": "6",
@@ -2830,14 +3311,25 @@
               "value": 6
             },
             {
-              "display": "7 + 7",
+              "display": "13 − 7",
               "kind": "expr",
-              "value": 14
+              "value": 6
+            },
+            {
+              "display": "20",
+              "kind": "expr",
+              "value": 20,
+              "spare": true
             },
             {
               "display": "14",
               "kind": "expr",
               "value": 14
+            },
+            {
+              "display": "8 + 9",
+              "kind": "expr",
+              "value": 17
             }
           ]
         }

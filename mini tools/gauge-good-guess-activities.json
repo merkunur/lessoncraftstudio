@@ -36,15 +36,15 @@
           ]
         },
         {
-          "id": "train",
+          "id": "car",
           "band": 2,
-          "object": "a train",
-          "question": "About how long is a train?",
-          "answer": "200 m",
+          "object": "a car",
+          "question": "About how long is a car?",
+          "answer": "4 m",
           "options": [
-            "3 m",
-            "40 m",
-            "200 m"
+            "40 cm",
+            "1 m",
+            "4 m"
           ]
         },
         {
@@ -72,15 +72,15 @@
           ]
         },
         {
-          "id": "building",
+          "id": "giraffe",
           "band": 3,
-          "object": "a tall building",
-          "question": "About how tall is a tall building?",
-          "answer": "150 m",
+          "object": "a giraffe",
+          "question": "About how tall is a giraffe?",
+          "answer": "5 m",
           "options": [
-            "5 m",
-            "40 m",
-            "150 m"
+            "30 cm",
+            "1 m",
+            "5 m"
           ]
         },
         {
@@ -135,15 +135,15 @@
             ]
           },
           {
-            "id": "train",
+            "id": "car",
             "band": 2,
-            "object": "ein Zug",
-            "question": "Wie lang ist ungefähr ein Zug?",
-            "answer": "200 m",
+            "object": "ein Auto",
+            "question": "Wie lang ist ungefähr ein Auto?",
+            "answer": "4 m",
             "options": [
-              "3 m",
-              "40 m",
-              "200 m"
+              "40 cm",
+              "1 m",
+              "4 m"
             ]
           },
           {
@@ -171,15 +171,15 @@
             ]
           },
           {
-            "id": "building",
+            "id": "giraffe",
             "band": 3,
-            "object": "ein Hochhaus",
-            "question": "Wie hoch ist ungefähr ein Hochhaus?",
-            "answer": "150 m",
+            "object": "eine Giraffe",
+            "question": "Wie groß ist ungefähr eine Giraffe?",
+            "answer": "5 m",
             "options": [
-              "5 m",
-              "40 m",
-              "150 m"
+              "30 cm",
+              "1 m",
+              "5 m"
             ]
           },
           {
@@ -233,15 +233,15 @@
             ]
           },
           {
-            "id": "train",
+            "id": "car",
             "band": 2,
-            "object": "un train",
-            "question": "Un train mesure environ combien de long ?",
-            "answer": "200 m",
+            "object": "une voiture",
+            "question": "Une voiture mesure environ combien de long ?",
+            "answer": "4 m",
             "options": [
-              "3 m",
-              "40 m",
-              "200 m"
+              "40 cm",
+              "1 m",
+              "4 m"
             ]
           },
           {
@@ -269,15 +269,15 @@
             ]
           },
           {
-            "id": "building",
+            "id": "giraffe",
             "band": 3,
-            "object": "un grand immeuble",
-            "question": "Un grand immeuble mesure environ combien de haut ?",
-            "answer": "150 m",
+            "object": "une girafe",
+            "question": "Une girafe mesure environ combien de haut ?",
+            "answer": "5 m",
             "options": [
-              "5 m",
-              "40 m",
-              "150 m"
+              "30 cm",
+              "1 m",
+              "5 m"
             ]
           },
           {
@@ -331,15 +331,15 @@
             ]
           },
           {
-            "id": "train",
+            "id": "car",
             "band": 2,
-            "object": "un tren",
-            "question": "¿Cuánto mide de largo un tren?",
-            "answer": "200 m",
+            "object": "un carro",
+            "question": "¿Cuánto mide de largo un carro?",
+            "answer": "4 m",
             "options": [
-              "3 m",
-              "40 m",
-              "200 m"
+              "40 cm",
+              "1 m",
+              "4 m"
             ]
           },
           {
@@ -367,15 +367,15 @@
             ]
           },
           {
-            "id": "building",
+            "id": "giraffe",
             "band": 3,
-            "object": "un edificio alto",
-            "question": "¿Qué tan alto es un edificio grande?",
-            "answer": "150 m",
+            "object": "una jirafa",
+            "question": "¿Qué tan alta es una jirafa?",
+            "answer": "5 m",
             "options": [
-              "5 m",
-              "40 m",
-              "150 m"
+              "30 cm",
+              "1 m",
+              "5 m"
             ]
           },
           {
@@ -429,15 +429,15 @@
             ]
           },
           {
-            "id": "train",
+            "id": "car",
             "band": 2,
-            "object": "um trem",
-            "question": "Qual é mais ou menos o comprimento de um trem?",
-            "answer": "200 m",
+            "object": "um carro",
+            "question": "Qual é mais ou menos o comprimento de um carro?",
+            "answer": "4 m",
             "options": [
-              "3 m",
-              "40 m",
-              "200 m"
+              "40 cm",
+              "1 m",
+              "4 m"
             ]
           },
           {
@@ -465,15 +465,15 @@
             ]
           },
           {
-            "id": "building",
+            "id": "giraffe",
             "band": 3,
-            "object": "um prédio",
-            "question": "Qual é mais ou menos a altura de um prédio?",
-            "answer": "150 m",
+            "object": "uma girafa",
+            "question": "Qual é mais ou menos a altura de uma girafa?",
+            "answer": "5 m",
             "options": [
-              "5 m",
-              "40 m",
-              "150 m"
+              "30 cm",
+              "1 m",
+              "5 m"
             ]
           },
           {
@@ -527,15 +527,15 @@
             ]
           },
           {
-            "id": "train",
+            "id": "car",
             "band": 2,
-            "object": "un treno",
-            "question": "Quanto è lungo circa un treno?",
-            "answer": "200 m",
+            "object": "una macchina",
+            "question": "Quanto è lunga circa una macchina?",
+            "answer": "4 m",
             "options": [
-              "3 m",
-              "40 m",
-              "200 m"
+              "40 cm",
+              "1 m",
+              "4 m"
             ]
           },
           {
@@ -563,15 +563,15 @@
             ]
           },
           {
-            "id": "building",
+            "id": "giraffe",
             "band": 3,
-            "object": "un grattacielo",
-            "question": "Quanto è alto circa un grattacielo?",
-            "answer": "150 m",
+            "object": "una giraffa",
+            "question": "Quanto è alta circa una giraffa?",
+            "answer": "5 m",
             "options": [
-              "5 m",
-              "40 m",
-              "150 m"
+              "30 cm",
+              "1 m",
+              "5 m"
             ]
           },
           {
@@ -602,10 +602,10 @@
         "nl": [
           { "id": "ant",      "band": 1, "object": "een mier",        "question": "Hoe lang is een mier ongeveer?",        "answer": "1 cm",  "options": ["1 cm", "12 cm", "30 cm"] },
           { "id": "door",     "band": 1, "object": "een deur",        "question": "Hoe hoog is een deur ongeveer?",        "answer": "2 m",   "options": ["1 m", "2 m", "9 m"] },
-          { "id": "train",    "band": 2, "object": "een trein",       "question": "Hoe lang is een trein ongeveer?",       "answer": "200 m", "options": ["3 m", "40 m", "200 m"] },
+          { "id": "car",    "band": 2, "object": "een auto",       "question": "Hoe lang is een auto ongeveer?",       "answer": "4 m", "options": ["40 cm", "1 m", "4 m"] },
           { "id": "crayon",   "band": 1, "object": "een wasco",       "question": "Hoe lang is een wasco ongeveer?",       "answer": "9 cm",  "options": ["9 cm", "50 cm", "90 cm"] },
           { "id": "bus",      "band": 2, "object": "een schoolbus",   "question": "Hoe lang is een schoolbus ongeveer?",   "answer": "12 m",  "options": ["2 m", "12 m", "90 m"] },
-          { "id": "building", "band": 3, "object": "een flatgebouw",  "question": "Hoe hoog is een flatgebouw ongeveer?",  "answer": "150 m", "options": ["5 m", "40 m", "150 m"] },
+          { "id": "giraffe", "band": 3, "object": "een giraf",  "question": "Hoe groot is een giraf ongeveer?",  "answer": "5 m", "options": ["30 cm", "1 m", "5 m"] },
           { "id": "spoon",    "band": 2, "object": "een lepel",       "question": "Hoe lang is een lepel ongeveer?",       "answer": "15 cm", "options": ["15 cm", "60 cm", "150 cm"] },
           { "id": "flagpole", "band": 3, "object": "een vlaggenmast", "question": "Hoe hoog is een vlaggenmast ongeveer?", "answer": "10 m",  "options": ["1 m", "10 m", "80 m"] }
         ]

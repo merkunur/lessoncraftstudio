@@ -19,17 +19,17 @@
             {
               "id": "o1",
               "kind": "reason",
-              "text": "Children have nowhere safe to play."
+              "text": "A new park would give our town's kids a safe place to play."
             },
             {
               "id": "o2",
               "kind": "restate",
-              "text": "Our town really needs a brand-new park."
+              "text": "A brand-new park is just what we need here."
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "The library closes at five o'clock."
+              "text": "Our town has a big library next to the bus stop."
             }
           ]
         },
@@ -41,17 +41,17 @@
             {
               "id": "o1",
               "kind": "restate",
-              "text": "Everyone should always wear a helmet."
+              "text": "Wear your helmet every single time you ride."
             },
             {
               "id": "o2",
               "kind": "reason",
-              "text": "It protects your head in a crash."
+              "text": "A helmet protects your head when you fall."
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Red bikes look the coolest of all."
+              "text": "Biking to the park with my dad is my favorite thing."
             }
           ]
         },
@@ -63,17 +63,17 @@
             {
               "id": "o1",
               "kind": "restate",
-              "text": "Kids should read a whole lot every day."
+              "text": "Twenty minutes with a book is right for every child."
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "Math class is right after lunch."
+              "text": "Kids at our school wear blue shirts on Fridays."
             },
             {
               "id": "o3",
               "kind": "reason",
-              "text": "Reading helps your brain grow strong."
+              "text": "Kids who read each day learn lots of new words."
             }
           ]
         },
@@ -85,17 +85,17 @@
             {
               "id": "o1",
               "kind": "reason",
-              "text": "Plants give us fresh food to eat."
+              "text": "A garden gives us fresh fruit and vegetables to eat."
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "The bell rings at three o'clock."
+              "text": "Our class has twenty-two children."
             },
             {
               "id": "o3",
               "kind": "restate",
-              "text": "Our class should plant a big garden."
+              "text": "Planting a class garden is a great plan."
             }
           ]
         },
@@ -107,39 +107,39 @@
             {
               "id": "o1",
               "kind": "offtopic",
-              "text": "Buses are painted bright yellow."
+              "text": "Students ride a big yellow bus to school every morning."
             },
             {
               "id": "o2",
               "kind": "reason",
-              "text": "Drinking keeps you healthy and awake."
+              "text": "Drinking water keeps kids healthy and awake."
             },
             {
               "id": "o3",
               "kind": "restate",
-              "text": "Students should bring water bottles daily."
+              "text": "Every student needs a bottle of water at school."
             }
           ]
         },
         {
           "id": "lights",
           "band": 2,
-          "point": "We should turn off lights to save power.",
+          "point": "We should turn off lights when we leave a room.",
           "options": [
             {
               "id": "o1",
               "kind": "restate",
-              "text": "We should always turn the lights off."
+              "text": "Lights should go off when nobody is in the room."
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "Fridays are pizza days at school."
+              "text": "Our room has three big windows."
             },
             {
               "id": "o3",
               "kind": "reason",
-              "text": "It is good for the whole planet."
+              "text": "Turning off the lights saves a lot of electricity."
             }
           ]
         },
@@ -151,17 +151,17 @@
             {
               "id": "o1",
               "kind": "reason",
-              "text": "Walking keeps a pet happy and fit."
+              "text": "A walk lets a dog run and sniff outside every day."
             },
             {
               "id": "o2",
               "kind": "restate",
-              "text": "Dogs really should be walked all the time."
+              "text": "Dogs need a walk each and every day."
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Cats love to nap in the sun."
+              "text": "Some dogs have long, curly fur that needs brushing."
             }
           ]
         },
@@ -173,17 +173,17 @@
             {
               "id": "o1",
               "kind": "offtopic",
-              "text": "Spoons are smaller than forks."
+              "text": "Our dishes are blue and white."
             },
             {
               "id": "o2",
               "kind": "reason",
-              "text": "It teaches you to care for your home."
+              "text": "It teaches kids how to care for a home."
             },
             {
               "id": "o3",
               "kind": "restate",
-              "text": "Children should always help with the dishes."
+              "text": "Washing dishes is a job kids should share."
             }
           ]
         }
@@ -198,17 +198,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Kinder haben keinen sicheren Platz zum Spielen."
+                "text": "Im neuen Park können die Kinder unserer Stadt sicher spielen."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Unsere Stadt braucht wirklich einen neuen Park."
+                "text": "Ein ganz neuer Park ist genau das, was uns fehlt."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Die Bücherei schließt um fünf Uhr."
+                "text": "In der Stadt gibt es eine große Bücherei."
               }
             ]
           },
@@ -220,17 +220,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Man sollte beim Radfahren immer einen Helm tragen."
+                "text": "Beim Fahren gehört der Helm immer auf den Kopf."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Er schützt den Kopf bei einem Sturz."
+                "text": "Ein Helm schützt den Kopf."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Rote Fahrräder sehen am schönsten aus."
+                "text": "Radfahren macht im Sommer viel Spaß."
               }
             ]
           },
@@ -242,17 +242,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Kinder sollten jeden Tag ganz viel lesen."
+                "text": "Eine kleine Lesezeit am Tag ist genau richtig."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Die Mathestunde ist gleich nach dem Essen."
+                "text": "Manche Kinder fahren jeden Tag mit dem Rad zur Schule."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Davon wird der Kopf richtig schlau."
+                "text": "Beim Lesen lernen Kinder jeden Tag neue Wörter."
               }
             ]
           },
@@ -264,17 +264,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Pflanzen schenken uns frisches Gemüse."
+                "text": "Ein Garten schenkt uns frisches Gemüse."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Die Schulglocke klingelt um drei Uhr."
+                "text": "In der Klasse sitzen zweiundzwanzig Kinder."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Unsere Klasse sollte einen großen Garten pflanzen."
+                "text": "Ein Garten für unsere Klasse wäre toll."
               }
             ]
           },
@@ -286,39 +286,39 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Schulbusse sind meistens ganz gelb angemalt."
+                "text": "Unsere Schule hat einen roten Zaun."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Wasser hält dich gesund und wach."
+                "text": "Wasser hält uns gesund und wach."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Kinder sollten jeden Tag eine Trinkflasche mitbringen."
+                "text": "Jedes Kind braucht in der Schule eine Flasche Wasser."
               }
             ]
           },
           {
             "id": "lights",
             "band": 2,
-            "point": "Wir sollten das Licht immer ausschalten.",
+            "point": "Wir sollten das Licht ausschalten, wenn wir aus dem Zimmer gehen.",
             "options": [
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Wir sollten das Licht öfter ausmachen."
+                "text": "Ist niemand im Zimmer, gehört das Licht aus."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Freitags gibt es Pizza in der Schule."
+                "text": "Unser Zimmer hat drei große Fenster."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Das ist gut für unsere ganze Erde."
+                "text": "Wenn wir das Licht ausschalten, sparen wir Strom."
               }
             ]
           },
@@ -330,17 +330,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "So bleibt ein Tier froh und fit."
+                "text": "Beim Spazierengehen bleibt ein Hund froh und fit."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Ein Hund sollte echt jeden Tag Gassi gehen."
+                "text": "Ein Spaziergang jeden Tag ist für jeden Hund ein Muss."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Katzen schlafen gern in der Sonne."
+                "text": "Mein Hund hat ein langes, lockiges Fell."
               }
             ]
           },
@@ -352,17 +352,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Löffel sind kleiner als Gabeln."
+                "text": "Kinder essen gern von bunten Tellern."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "So lernt man, für sein Zuhause zu sorgen."
+                "text": "Dabei lernen Kinder, sich um ihr Zuhause zu kümmern."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Kinder sollten immer beim Abwaschen helfen."
+                "text": "Beim Abwasch sollen Kinder mit anpacken."
               }
             ]
           }
@@ -376,17 +376,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Parce que les enfants n’ont pas d’endroit sûr pour jouer."
+                "text": "Dans un nouveau parc, on jouerait en sécurité."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Notre ville a vraiment besoin d’un nouveau parc."
+                "text": "Un parc tout neuf, c’est exactement ce qu’il nous faut."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "La bibliothèque ferme à cinq heures."
+                "text": "La ville a une grande bibliothèque près de l’arrêt de bus."
               }
             ]
           },
@@ -398,17 +398,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "On devrait toujours porter un casque à vélo."
+                "text": "À chaque sortie à vélo, on doit porter le casque."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Car il protège la tête en cas de chute."
+                "text": "Un casque protège la tête si on tombe de son vélo."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les vélos rouges sont les plus beaux."
+                "text": "Mon vélo a une sonnette rouge."
               }
             ]
           },
@@ -420,17 +420,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Les enfants devraient lire beaucoup chaque jour."
+                "text": "Un petit moment de lecture par jour, c’est parfait."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Le cours de maths est juste après le déjeuner."
+                "text": "Les enfants de mon école portent un tee-shirt bleu le vendredi."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Parce que la lecture fait grandir le cerveau."
+                "text": "En lisant chaque jour, on apprend des mots nouveaux."
               }
             ]
           },
@@ -442,17 +442,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Car les plantes nous donnent des légumes frais."
+                "text": "Un potager nous donnerait des légumes frais."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "La cloche sonne à trois heures."
+                "text": "Notre classe compte vingt-deux élèves."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Notre classe devrait planter un grand jardin."
+                "text": "Un jardin pour la classe, ce serait une super idée."
               }
             ]
           },
@@ -464,17 +464,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Les bus sont peints en jaune vif."
+                "text": "Notre école a une grille peinte en rouge."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Parce que boire de l’eau te garde en bonne santé."
+                "text": "Boire aide à rester en forme."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Les élèves devraient apporter une gourde chaque jour."
+                "text": "Chaque élève a besoin d’une gourde d’eau à l’école."
               }
             ]
           },
@@ -486,17 +486,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "On devrait toujours éteindre les lumières en partant."
+                "text": "Quand on quitte la pièce, on éteint."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Le vendredi, c’est le jour de la pizza à l’école."
+                "text": "Notre pièce a trois grandes fenêtres."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Parce que ça économise l’énergie."
+                "text": "Éteindre les lumières économise l’électricité."
               }
             ]
           },
@@ -508,17 +508,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Car la promenade garde l’animal heureux et en forme."
+                "text": "Marcher chaque jour garde un chien heureux."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Il faut vraiment promener son chien tous les jours."
+                "text": "Une balade tous les jours, c’est indispensable pour un chien."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les chats aiment dormir au soleil."
+                "text": "Mon chien a de longs poils frisés."
               }
             ]
           },
@@ -530,17 +530,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Les cuillères sont plus petites que les fourchettes."
+                "text": "La vaisselle de mamie est bleue et blanche."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Parce que ça t’apprend à prendre soin de ta maison."
+                "text": "Ça t’apprend à prendre soin de ta maison et de ta famille."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Les enfants devraient toujours aider à la vaisselle."
+                "text": "La vaisselle, c’est un travail à partager."
               }
             ]
           }
@@ -554,17 +554,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Los niños no tienen un lugar seguro para jugar."
+                "text": "Con un parque nuevo, los niños del pueblo jugarían seguros."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Nuestro pueblo de veras necesita un parque nuevo."
+                "text": "Un parque así es justo lo que nos hace falta."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "La biblioteca cierra a las cinco."
+                "text": "El pueblo tiene una biblioteca grande junto a la parada."
               }
             ]
           },
@@ -576,17 +576,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Todos deberían usar siempre el casco."
+                "text": "Cada vez que andes en bici, ponte el casco."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Protege la cabeza si te caes."
+                "text": "Al andar en bici, el casco te protege la cabeza."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Las bicis rojas se ven muy padres."
+                "text": "Mi bici tiene una campana roja."
               }
             ]
           },
@@ -598,17 +598,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Los niños deberían leer un montón cada día."
+                "text": "Veinte minutos de lectura al día es lo ideal para los niños."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "La clase de matemáticas es después del recreo."
+                "text": "Los niños de mi escuela usan playera azul los viernes."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Ayuda a que tu cerebro crezca fuerte."
+                "text": "Leyendo, los niños aprenden palabras nuevas cada día."
               }
             ]
           },
@@ -620,17 +620,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Las plantas nos dan comida fresca."
+                "text": "Un huerto nos da verduras frescas y ricas."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "El timbre suena a las tres."
+                "text": "Nuestra clase tiene veintidós niños."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Nuestra clase debería sembrar un huerto grande."
+                "text": "Un huerto de la clase sería una gran idea."
               }
             ]
           },
@@ -642,39 +642,39 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Los camiones son de color amarillo."
+                "text": "Los alumnos de mi escuela llegan cada mañana en un camión amarillo."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Beber seguido te mantiene sano y despierto."
+                "text": "Tomar agua seguido mantiene a los alumnos bien despiertos."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Los alumnos deberían traer su botella de agua a diario."
+                "text": "Cada alumno necesita su botella de agua en la escuela."
               }
             ]
           },
           {
             "id": "lights",
             "band": 2,
-            "point": "Deberíamos apagar las luces para ahorrar energía.",
+            "point": "Deberíamos apagar las luces al salir de un cuarto.",
             "options": [
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Deberíamos apagar siempre las luces."
+                "text": "Si no hay nadie en el cuarto, hay que apagar la luz."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Los viernes hay pizza en la escuela."
+                "text": "Nuestro cuarto tiene tres ventanas grandes."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Es bueno para todo el planeta."
+                "text": "Apagar las luces ahorra mucha electricidad."
               }
             ]
           },
@@ -686,17 +686,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Caminar mantiene sana y feliz a tu mascota."
+                "text": "Caminar hace feliz a un perro."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "De veras deberíamos pasear al perro todo el tiempo."
+                "text": "Al perro hay que pasearlo todos los días."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "A los gatos les gusta dormir al sol."
+                "text": "Mi perro tiene el pelo largo y rizado."
               }
             ]
           },
@@ -708,17 +708,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Las cucharas son más chicas que los tenedores."
+                "text": "Nuestros trastes son azules y blancos."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Enseña a cuidar tu casa."
+                "text": "Ayudando en la cocina se aprende a cuidar la casa."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Los niños siempre deberían ayudar con los trastes."
+                "text": "Lavar los trastes es un trabajo que los niños pueden compartir."
               }
             ]
           }
@@ -732,17 +732,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "As crianças não têm um lugar seguro para brincar."
+                "text": "Num parque novo, a gente brinca em segurança."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "A nossa cidade precisa muito de um parque novo."
+                "text": "Um parque assim é tudo de que a gente precisa."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "A biblioteca fecha às cinco horas."
+                "text": "A cidade tem uma biblioteca perto do ponto de ônibus."
               }
             ]
           },
@@ -754,17 +754,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "É importante usar o capacete quando andamos de bicicleta."
+                "text": "Sempre que for andar de bicicleta, coloque o capacete."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Ele protege a cabeça se você cair no chão."
+                "text": "O capacete protege a cabeça numa queda."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "As bananas ficam amarelas quando amadurecem."
+                "text": "A bicicleta da minha prima é vermelha."
               }
             ]
           },
@@ -776,17 +776,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "O ônibus da escola é amarelo."
+                "text": "As crianças da minha escola usam uniforme azul."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "É bom que as crianças leiam um pouquinho todo dia."
+                "text": "Um pouquinho de leitura todo dia é o certo."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Assim a gente aprende palavras novas e imagina histórias."
+                "text": "Lendo todo dia, as crianças aprendem palavras novas."
               }
             ]
           },
@@ -798,12 +798,12 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "A lua aparece no céu quando anoitece."
+                "text": "A nossa escola tem um portão vermelho."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Aí a gente colhe verduras fresquinhas para o lanche."
+                "text": "Na horta a gente colhe verduras."
               },
               {
                 "id": "o3",
@@ -820,17 +820,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Ela mata a sede sem encher o corpo de açúcar."
+                "text": "A água mata a sede sem encher o corpo de açúcar."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "Beber água é bem melhor do que tomar refrigerante."
+                "text": "Água é bem melhor que refrigerante."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "O gato dorme muitas horas por dia."
+                "text": "Tem refrigerante de laranja e de uva."
               }
             ]
           },
@@ -842,7 +842,7 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "A girafa tem o pescoço bem comprido."
+                "text": "O meu quarto tem duas janelas grandes."
               },
               {
                 "id": "o2",
@@ -852,7 +852,7 @@
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Aí gasta menos energia e a conta fica mais barata."
+                "text": "Apagar as luzes gasta menos energia."
               }
             ]
           },
@@ -864,17 +864,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Ele avisa com latidos quando um estranho se aproxima."
+                "text": "O cachorro avisa com latidos quando um estranho se aproxima."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "O trem chega à estação bem cedo de manhã."
+                "text": "O cachorro do vizinho tem o pelo comprido."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Nenhum animal de estimação é melhor para a família."
+                "text": "Para a família, nenhum bicho de estimação é melhor que o cachorro."
               }
             ]
           },
@@ -886,17 +886,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "O sorvete derrete bem rápido no dia quente."
+                "text": "O caminhão do lixo passa de manhã cedo."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Muitos materiais viram coisas novas em vez de sujar a natureza."
+                "text": "Reciclar transforma o lixo em coisas novas."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "É importante que cada família separe o lixo para reciclar."
+                "text": "Cada família precisa separar o que joga fora."
               }
             ]
           }
@@ -910,17 +910,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Perché i bambini non hanno dove giocare."
+                "text": "In un nuovo parco i bambini della città giocherebbero sicuri."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "La nostra città dovrebbe pure costruire un nuovo parco."
+                "text": "Un parco così è proprio quello che ci serve."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "La biblioteca chiude alle cinque."
+                "text": "In città c’è una grande biblioteca vicino alla fermata."
               }
             ]
           },
@@ -932,17 +932,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Tutti dovrebbero sempre indossare il casco in bici."
+                "text": "Ogni volta che vai in bici, il casco va in testa."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Perché protegge la testa se cadi."
+                "text": "Il casco protegge la testa se cadi."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Le foche nuotano nel mare."
+                "text": "Le bici sono di tanti colori allegri."
               }
             ]
           },
@@ -954,17 +954,17 @@
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "I bimbi dovrebbero pure leggere venti minuti al giorno."
+                "text": "Un po’ di lettura al giorno è proprio quello che ci vuole."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Il sole tramonta a ovest."
+                "text": "I bimbi della mia scuola portano il grembiule blu."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Perché così imparano parole nuove."
+                "text": "Leggendo ogni giorno, i bimbi imparano parole nuove."
               }
             ]
           },
@@ -976,17 +976,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Perché le piante insegnano ad avere cura."
+                "text": "Un orto ci dà verdura fresca da mangiare."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Le api fanno il miele."
+                "text": "La nostra classe ha ventidue bambini."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "La nostra classe dovrebbe davvero coltivare un orto."
+                "text": "Un orto di classe sarebbe proprio una bella idea."
               }
             ]
           },
@@ -998,39 +998,39 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "I pinguini vivono al freddo."
+                "text": "Ogni alunno ha un banco tutto suo."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Perché bere acqua spesso fa stare bene."
+                "text": "Con la borraccia, ogni alunno beve quando ha sete."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "Ogni alunno dovrebbe avere pure una borraccia."
+                "text": "Una borraccia a testa è proprio quello che serve."
               }
             ]
           },
           {
             "id": "lights",
             "band": 2,
-            "point": "Dovremmo spegnere le luci per risparmiare energia.",
+            "point": "Dovremmo spegnere le luci quando usciamo da una stanza.",
             "options": [
               {
                 "id": "o1",
                 "kind": "restate",
-                "text": "Dovremmo pure spegnere le luci per risparmiare energia."
+                "text": "Quando usciamo dalla stanza, le luci vanno spente."
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "La luna gira di notte."
+                "text": "La nostra stanza ha tre grandi finestre."
               },
               {
                 "id": "o3",
                 "kind": "reason",
-                "text": "Perché così consumiamo di meno."
+                "text": "Spegnere le luci fa risparmiare elettricità."
               }
             ]
           },
@@ -1042,17 +1042,17 @@
               {
                 "id": "o1",
                 "kind": "reason",
-                "text": "Perché il moto li tiene sani e felici."
+                "text": "Camminare tiene un cane sano e felice."
               },
               {
                 "id": "o2",
                 "kind": "restate",
-                "text": "I cani dovrebbero andare pure a spasso ogni giorno."
+                "text": "Una passeggiata al giorno è indispensabile per ogni cane."
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "I gatti dormono molto."
+                "text": "Alcuni cani hanno il pelo lungo e riccio."
               }
             ]
           },
@@ -1064,17 +1064,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "Le stelle brillano di notte."
+                "text": "I nostri piatti sono bianchi e blu."
               },
               {
                 "id": "o2",
                 "kind": "reason",
-                "text": "Perché dare una mano unisce la famiglia."
+                "text": "Aiutando in casa, i bambini imparano a prendersi cura della famiglia."
               },
               {
                 "id": "o3",
                 "kind": "restate",
-                "text": "I bambini dovrebbero pure aiutare a lavare i piatti."
+                "text": "Lavare i piatti è un lavoro che i bambini possono fare insieme."
               }
             ]
           }
@@ -1083,65 +1083,65 @@
           {
             "id": "park", "band": 1, "point": "Onze stad zou een nieuw park moeten bouwen.",
             "options": [
-              { "id": "o1", "kind": "reason", "text": "Kinderen hebben geen veilige plek om te spelen." },
-              { "id": "o2", "kind": "restate", "text": "Onze stad heeft echt een nieuw park nodig." },
-              { "id": "o3", "kind": "offtopic", "text": "De bibliotheek sluit om vijf uur." }
+              { "id": "o1", "kind": "reason", "text": "In een nieuw park kunnen kinderen uit onze stad veilig spelen." },
+              { "id": "o2", "kind": "restate", "text": "Zo’n park is precies wat we nodig hebben." },
+              { "id": "o3", "kind": "offtopic", "text": "De stad heeft een grote bibliotheek bij de bushalte." }
             ]
           },
           {
             "id": "helmet", "band": 1, "point": "Op de fiets zou je een helm moeten dragen.",
             "options": [
-              { "id": "o1", "kind": "restate", "text": "Op de fiets zou je altijd een helm moeten dragen." },
-              { "id": "o2", "kind": "reason", "text": "Hij beschermt je hoofd bij een val." },
-              { "id": "o3", "kind": "offtopic", "text": "Rode fietsen zien er het mooist uit." }
+              { "id": "o1", "kind": "restate", "text": "Je zou altijd een helm moeten dragen, ook op een korte rit." },
+              { "id": "o2", "kind": "reason", "text": "Een helm beschermt je hoofd als je valt." },
+              { "id": "o3", "kind": "offtopic", "text": "Mijn fiets heeft een rode bel." }
             ]
           },
           {
             "id": "read", "band": 1, "point": "Kinderen zouden elke dag twintig minuten moeten lezen.",
             "options": [
-              { "id": "o1", "kind": "restate", "text": "Kinderen zouden elke dag heel veel moeten lezen." },
-              { "id": "o2", "kind": "offtopic", "text": "De rekenles is meteen na het eten." },
-              { "id": "o3", "kind": "reason", "text": "Daar word je juist heel slim van." }
+              { "id": "o1", "kind": "restate", "text": "Twintig minuten lezen per dag is precies goed voor kinderen." },
+              { "id": "o2", "kind": "offtopic", "text": "Veel kinderen fietsen elke dag naar school." },
+              { "id": "o3", "kind": "reason", "text": "Door te lezen leren kinderen elke dag nieuwe woorden." }
             ]
           },
           {
             "id": "garden", "band": 2, "point": "Onze klas zou een tuin moeten aanleggen.",
             "options": [
-              { "id": "o1", "kind": "reason", "text": "Planten geven ons verse groenten." },
-              { "id": "o2", "kind": "offtopic", "text": "De schoolbel gaat om drie uur." },
-              { "id": "o3", "kind": "restate", "text": "Onze klas zou een grote tuin moeten planten." }
+              { "id": "o1", "kind": "reason", "text": "Zelf groenten kweken is gezond en leuk." },
+              { "id": "o2", "kind": "offtopic", "text": "Onze klas heeft tweeëntwintig kinderen." },
+              { "id": "o3", "kind": "restate", "text": "Een tuin voor onze klas is een goed plan." }
             ]
           },
           {
             "id": "water", "band": 2, "point": "Kinderen zouden een drinkfles mee naar school moeten nemen.",
             "options": [
-              { "id": "o1", "kind": "offtopic", "text": "Schoolbussen zijn meestal helemaal geel geverfd." },
-              { "id": "o2", "kind": "reason", "text": "Water houdt je gezond en wakker." },
-              { "id": "o3", "kind": "restate", "text": "Kinderen zouden elke dag een drinkfles moeten meenemen." }
+              { "id": "o1", "kind": "offtopic", "text": "Onze school heeft een rood hek." },
+              { "id": "o2", "kind": "reason", "text": "Met een drinkfles op school blijven kinderen fit." },
+              { "id": "o3", "kind": "restate", "text": "Elk kind heeft op school een fles water nodig." }
             ]
           },
           {
-            "id": "lights", "band": 2, "point": "We zouden het licht altijd moeten uitdoen.",
+            "id": "lights", "band": 2, "point": "We zouden het licht moeten uitdoen als we de kamer uitgaan.",
             "options": [
-              { "id": "o1", "kind": "restate", "text": "We zouden het licht vaker moeten uitzetten." },
-              { "id": "o2", "kind": "offtopic", "text": "Op vrijdag is er pizza op school." },
-              { "id": "o3", "kind": "reason", "text": "Dat is goed voor onze hele aarde." }
+              { "id": "o1", "kind": "restate", "text": "Als er niemand in de kamer is, hoort het licht uit." },
+              { "id": "o2", "kind": "offtopic", "text": "Onze kamer heeft drie grote ramen." },
+              { "id": "o3", "kind": "reason", "text": "Licht uitdoen bespaart stroom." }
             ]
           },
           {
             "id": "dogs", "band": 3, "point": "Een hond zou elke dag moeten worden uitgelaten.",
             "options": [
-              { "id": "o1", "kind": "reason", "text": "Zo blijft een dier blij en fit." },
-              { "id": "o2", "kind": "restate", "text": "Een hond zou echt elke dag moeten worden uitgelaten." },
-              { "id": "o3", "kind": "offtopic", "text": "Katten slapen graag in de zon." }
+              { "id": "o1", "kind": "reason", "text": "Wandelen houdt honden blij en fit." },
+              { "id": "o2", "kind": "restate", "text": "Een dagelijkse wandeling is een must voor elke hond." },
+              { "id": "o3", "kind": "offtopic", "text": "Mijn hond heeft een lange, krullende vacht." }
             ]
           },
           {
             "id": "dishes", "band": 3, "point": "Kinderen zouden moeten helpen met de afwas.",
             "options": [
-              { "id": "o1", "kind": "offtopic", "text": "Lepels zijn kleiner dan vorken." },
-              { "id": "o2", "kind": "reason", "text": "Zo leer je voor je eigen huis te zorgen." },
-              { "id": "o3", "kind": "restate", "text": "Kinderen zouden altijd moeten helpen met de afwas." }
+              { "id": "o1", "kind": "offtopic", "text": "Kinderen eten graag van een bord met plaatjes." },
+              { "id": "o2", "kind": "reason", "text": "Door te helpen leren kinderen voor hun huis te zorgen." },
+              { "id": "o3", "kind": "restate", "text": "Afwassen is een klus die kinderen kunnen delen." }
             ]
           }
         ]

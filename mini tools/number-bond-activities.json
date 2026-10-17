@@ -526,11 +526,11 @@
               "seed": 31
             },
             {
-              "text": "There were 50 sheep in a field. 20 ran away. How many sheep are left?",
+              "text": "Some sheep were in a field. 20 ran away, and now 30 are left. How many sheep were there at first?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -550,15 +550,15 @@
               "seed": 61
             },
             {
-              "text": "Tom had some marbles. He found 22 more. Now he has 40 marbles. How many did he start with?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia has 40 stickers. Leo has 22 stickers. How many more stickers does Mia have than Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "A class has 24 girls and 23 boys. How many children are in the class?",
+              "text": "Ben has 24 cards. Ana has 23 more cards than Ben. How many cards does Ana have?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -594,11 +594,11 @@
               "seed": 31
             },
             {
-              "text": "Auf der Wiese stehen 50 Schafe. 20 Schafe laufen weg. Wie viele Schafe bleiben übrig?",
+              "text": "Auf der Wiese standen einige Schafe. 20 sind weggelaufen, jetzt sind noch 30 da. Wie viele Schafe waren es am Anfang?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -618,15 +618,15 @@
               "seed": 61
             },
             {
-              "text": "Tom hat einige Murmeln. Er findet 22 Murmeln dazu, jetzt hat er 40. Wie viele Murmeln hatte er am Anfang?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia hat 40 Sticker. Leo hat 22 Sticker. Wie viele Sticker hat Mia mehr als Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "In der Klasse sind 24 Mädchen und 23 Jungen. Wie viele Kinder sind in der Klasse?",
+              "text": "Ben hat 24 Karten. Ana hat 23 Karten mehr als Ben. Wie viele Karten hat Ana?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -654,7 +654,7 @@
               "seed": 23
             },
             {
-              "text": "Ana tiene 18 manzanas y junta 21 más. ¿Cuántas manzanas tiene juntas?",
+              "text": "Ana tiene 18 manzanas y junta 21 más. ¿Cuántas manzanas tiene en total?",
               "first": 18,
               "second": 21,
               "whole": 39,
@@ -662,11 +662,11 @@
               "seed": 31
             },
             {
-              "text": "En el corral había 50 ovejas y 20 se fueron al campo. ¿Cuántas ovejas quedan?",
+              "text": "En el corral había algunas ovejas. Se fueron 20 y ahora quedan 30. ¿Cuántas ovejas había al principio?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -686,15 +686,15 @@
               "seed": 61
             },
             {
-              "text": "Luis tenía algunas canicas, encontró 22 más y ahora tiene 40 canicas. ¿Cuántas canicas tenía al inicio?",
-              "first": 18,
-              "second": 22,
+              "text": "Mía tiene 40 estampas. Leo tiene 22 estampas. ¿Cuántas estampas más tiene Mía que Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "En el salón hay 24 niñas y 23 niños. ¿Cuántos niños y niñas hay en total?",
+              "text": "Beto tiene 24 tarjetas. Ana tiene 23 tarjetas más que Beto. ¿Cuántas tarjetas tiene Ana?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -730,11 +730,11 @@
               "seed": 31
             },
             {
-              "text": "Na fazenda havia 50 ovelhas e 20 fugiram. Quantas ovelhas restam?",
+              "text": "Na fazenda havia algumas ovelhas. 20 fugiram e agora restam 30. Quantas ovelhas havia no começo?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -754,15 +754,15 @@
               "seed": 61
             },
             {
-              "text": "Ana tinha algumas bolinhas de gude. Ela achou mais 22 e agora tem 40. Quantas bolinhas ela tinha no começo?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia tem 40 figurinhas. Léo tem 22 figurinhas. Quantas figurinhas Mia tem a mais que Léo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "Na turma há 24 meninas e 23 meninos. Quantas crianças há na turma?",
+              "text": "Beto tem 24 cartinhas. Ana tem 23 cartinhas a mais que Beto. Quantas cartinhas Ana tem?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -782,7 +782,7 @@
               "seed": 11
             },
             {
-              "text": "Sur l'étagère, il y a 45 livres : 25 sont des albums et le reste sont des histoires. Combien y a-t-il d'histoires ?",
+              "text": "Sur l'étagère, il y a 45 livres : 25 sont des albums et les autres sont des histoires. Combien y a-t-il d'histoires ?",
               "first": 25,
               "second": 20,
               "whole": 45,
@@ -790,7 +790,7 @@
               "seed": 23
             },
             {
-              "text": "Léa a 18 pommes et elle en cueille 21 autres. Combien de pommes a-t-elle ensemble ?",
+              "text": "Léa a 18 pommes et elle en cueille 21 autres. Combien de pommes a-t-elle en tout ?",
               "first": 18,
               "second": 21,
               "whole": 39,
@@ -798,15 +798,15 @@
               "seed": 31
             },
             {
-              "text": "Dans le pré, il y a 50 moutons. 20 moutons partent. Combien de moutons reste-t-il ?",
+              "text": "Dans le pré, il y avait des moutons. 20 sont partis et il en reste 30. Combien de moutons y avait-il au début ?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
-              "text": "Dans la trousse, il y a 60 crayons : 35 sont rouges et le reste sont bleus. Combien y a-t-il de crayons bleus ?",
+              "text": "Dans la trousse, il y a 60 crayons : 35 sont rouges et les autres sont bleus. Combien y a-t-il de crayons bleus ?",
               "first": 35,
               "second": 25,
               "whole": 60,
@@ -822,15 +822,15 @@
               "seed": 61
             },
             {
-              "text": "Tom avait des billes. Il en a trouvé 22 autres et maintenant il en a 40. Combien de billes avait-il au début ?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia a 40 autocollants. Léo a 22 autocollants. Combien d'autocollants Mia a-t-elle de plus que Léo ?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "Dans la classe, il y a 24 filles et 23 garçons. Combien y a-t-il d'enfants en tout ?",
+              "text": "Ben a 24 cartes. Ana a 23 cartes de plus que Ben. Combien de cartes Ana a-t-elle ?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -866,11 +866,11 @@
               "seed": 31
             },
             {
-              "text": "Nel prato ci sono 50 pecore, ma 20 sono scappate. Quante pecore restano?",
+              "text": "Nel prato c'erano alcune pecore. 20 sono scappate e ora ne restano 30. Quante pecore c'erano all'inizio?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -890,15 +890,15 @@
               "seed": 61
             },
             {
-              "text": "Luca aveva alcune biglie. Ne ha trovate altre 22 e ora ne ha 40. Quante biglie aveva all'inizio?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia ha 40 adesivi. Leo ha 22 adesivi. Quanti adesivi ha Mia più di Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "In classe ci sono 24 bambine e 23 bambini. Quanti bambini ci sono in tutto?",
+              "text": "Ben ha 24 figurine. Anna ha 23 figurine più di Ben. Quante figurine ha Anna?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -934,11 +934,11 @@
               "seed": 31
             },
             {
-              "text": "Op de wei lopen 50 schapen. 20 schapen lopen weg. Hoeveel schapen blijven er over?",
+              "text": "Op de wei stonden schapen. Er liepen er 20 weg en nu zijn er nog 30. Hoeveel schapen waren er eerst?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -958,15 +958,15 @@
               "seed": 61
             },
             {
-              "text": "Sem heeft een paar knikkers. Hij vindt er 22 bij en nu heeft hij er 40. Hoeveel knikkers had hij aan het begin?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia heeft 40 stickers. Leo heeft 22 stickers. Hoeveel stickers heeft Mia meer dan Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "In de klas zitten 24 meisjes en 23 jongens. Hoeveel kinderen zijn er samen?",
+              "text": "Ben heeft 24 kaartjes. Anna heeft 23 kaartjes meer dan Ben. Hoeveel kaartjes heeft Anna?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -1002,11 +1002,11 @@
               "seed": 31
             },
             {
-              "text": "På ängen finns 50 får. 20 av dem sprang iväg. Hur många får är kvar?",
+              "text": "På ängen fanns det några får. 20 sprang iväg, och nu är 30 kvar. Hur många får fanns det från början?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -1026,15 +1026,15 @@
               "seed": 61
             },
             {
-              "text": "Erik hade några kulor. Han hittade 22 kulor till, och nu har han 40. Hur många kulor hade han från början?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia har 40 klistermärken. Leo har 22 klistermärken. Hur många fler klistermärken har Mia än Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "I klassen finns 24 flickor och 23 pojkar. Hur många barn är det i klassen?",
+              "text": "Ben har 24 kort. Ana har 23 fler kort än Ben. Hur många kort har Ana?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -1070,11 +1070,11 @@
               "seed": 31
             },
             {
-              "text": "Der er 50 får på marken. 20 af dem løb væk. Hvor mange får er tilbage?",
+              "text": "Der var nogle får på marken. 20 af dem løb væk, og nu er der 30 tilbage. Hvor mange får var der i starten?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -1094,15 +1094,15 @@
               "seed": 61
             },
             {
-              "text": "Noah havde nogle kugler. Han fandt 22 til, og nu har han 40. Hvor mange kugler havde han fra start?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia har 40 klistermærker. Leo har 22 klistermærker. Hvor mange flere klistermærker har Mia end Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "I klassen er der 24 piger og 23 drenge. Hvor mange børn er der i alt?",
+              "text": "Ben har 24 kort. Ana har 23 flere kort end Ben. Hvor mange kort har Ana?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -1138,11 +1138,11 @@
               "seed": 31
             },
             {
-              "text": "Det er 50 sauer på jordet. 20 av dem løper vekk. Hvor mange sauer er igjen?",
+              "text": "Det var noen sauer på jordet. 20 av dem løp vekk, og nå er det 30 igjen. Hvor mange sauer var det i starten?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -1162,15 +1162,15 @@
               "seed": 61
             },
             {
-              "text": "Ola hadde noen klinkekuler. Han fant 22 til. Nå har han 40 klinkekuler. Hvor mange hadde han fra start?",
-              "first": 18,
-              "second": 22,
+              "text": "Mia har 40 klistremerker. Leo har 22 klistremerker. Hvor mange flere klistremerker har Mia enn Leo?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "I klassen er det 24 jenter og 23 gutter. Hvor mange barn er det i klassen?",
+              "text": "Ben har 24 kort. Ana har 23 flere kort enn Ben. Hvor mange kort har Ana?",
               "first": 24,
               "second": 23,
               "whole": 47,
@@ -1206,11 +1206,11 @@
               "seed": 31
             },
             {
-              "text": "Laitumella on 50 lammasta. Niistä 20 karkasi pois. Kuinka monta lammasta jäi jäljelle?",
+              "text": "Laitumella oli lampaita. Niistä 20 karkasi, ja nyt jäljellä on 30. Kuinka monta lammasta laitumella oli aluksi?",
               "first": 20,
               "second": 30,
               "whole": 50,
-              "unknownPos": "second",
+              "unknownPos": "whole",
               "seed": 41
             },
             {
@@ -1230,15 +1230,15 @@
               "seed": 61
             },
             {
-              "text": "Liisalla oli muutama kuula. Hän löysi 22 kuulaa lisää, ja nyt niitä on 40. Kuinka monta kuulaa hänellä oli aluksi?",
-              "first": 18,
-              "second": 22,
+              "text": "Mialla on 40 tarraa. Leolla on 22 tarraa. Kuinka monta tarraa enemmän Mialla on kuin Leolla?",
+              "first": 22,
+              "second": 18,
               "whole": 40,
-              "unknownPos": "first",
+              "unknownPos": "second",
               "seed": 67
             },
             {
-              "text": "Luokassa on 24 tyttöä ja 23 poikaa. Kuinka monta lasta luokassa on yhteensä?",
+              "text": "Benillä on 24 korttia. Annalla on 23 korttia enemmän kuin Benillä. Kuinka monta korttia Annalla on?",
               "first": 24,
               "second": 23,
               "whole": 47,

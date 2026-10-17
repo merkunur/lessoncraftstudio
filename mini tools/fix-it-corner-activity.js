@@ -67,6 +67,24 @@
   }
 
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  /* RANK-BALANCED tray (2026-10-17): the core tray always held x−1 AND x+1, so the right part
+     was never the smallest or the largest number — "pick a middle one" beat the maths. Each round
+     now puts its answer lowest, in the middle or highest (by its id), drawing ONLY from the core's
+     NAMED common errors on the needed side; never a 0 foil. null → the core's own tray. */
+  var RANK_OF = ['lo', 'mid', 'hi'];
+  function rankedParts(round, x) {
+    if (x == null || !Core.candidateErrors) return null;
+    var h = 0, id = String(round.id || ''); for (var i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+    var rank = round.foilRank || RANK_OF[h % 3], range = round.range || 20, seen = {}, below = [], above = [];
+    seen[x] = true;
+    Core.candidateErrors(round, x).forEach(function (e) {
+      var v = e.value; if (v == null || v < 1 || v > range || seen[v]) return; seen[v] = true;
+      (v < x ? below : above).push(e);
+    });
+    var pick = rank === 'lo' ? above.slice(0, 3) : rank === 'hi' ? below.slice(0, 3) : below.slice(0, 1).concat(above.slice(0, 2));
+    if (pick.length < 2 || (rank === 'mid' && (!below.length || !above.length))) return null;
+    return [{ value: x, errorClass: 'correct' }].concat(pick);
+  }
 
   global.FixItCornerActivity = {
     id: 'fix-it-corner-activity',
@@ -193,7 +211,7 @@
 
     /* ----- shared bounded common-error tray ----- */
     _trayParts: function () {
-      var parts = Core.commonErrorParts(this.round, this.x);
+      var parts = rankedParts(this.round, this.x) || Core.commonErrorParts(this.round, this.x);
       if (!this._trayOrder || this._trayOrderId !== this.round.id) { this._trayOrder = shuffle(parts.map(function (_, i) { return i; })); this._trayOrderId = this.round.id; }
       return this._trayOrder.map(function (i) { return parts[i]; });
     },

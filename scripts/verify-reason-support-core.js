@@ -46,10 +46,8 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
     F(f.derivedNotStored, `${r.id}: has a stored answer/correctIndex`);
     const view = Core.childView(r);
     F((view.options || []).every((o) => Object.keys(o).sort().join(',') === 'id,text'), `${r.id}: childView option carries extra keys`);
-    const a = Core.audit(r);
-    const restate = a.options.filter((o) => o.kind === 'restate')[0];
-    const others = a.options.filter((o) => o.kind !== 'restate');
-    F(restate && others.every((o) => restate.overlap > o.overlap), `${r.id}: the restate foil is not the unique highest point-overlap (${a.options.map((o) => o.kind + '=' + o.overlap).join(', ')})`);
+    // 2026-10-17: the old invariant "the restate is the unique highest point-overlap" is REMOVED — with an
+    // off-topic card that shared no word with the point it made the reason ALWAYS the middling-overlap card.
   });
 
   const byLen = (r, dir) => { const o = Core.options(r); let best = o[0]; o.forEach((x) => { if (dir > 0 ? x.text.length > best.text.length : x.text.length < best.text.length) best = x; }); return best.id; };
@@ -75,7 +73,41 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
   console.log(`  ${oracle === N ? 'ok  ' : 'FAIL'} oracle: ${oracle}/${N}`);
   console.log(`  longest ${pct(longest / N)} | shortest ${pct(shortest / N)} | point-overlap ${pct(ovl / N)} | pos #1 ${pct(pos[0] / N)} #2 ${pct(pos[1] / N)} #3 ${pct(pos[2] / N)}  (ceiling ${pct(CHANCE)})`);
   console.log('');
+  // ---- SHORTCUT BOTS OVER EVERY LOCALE (Unicode words; ties = fractional credit). No surface cue may beat 3/8. ----
+  const BOT_CEIL = CHANCE;   // the gate file's own ceiling for every bot
+  const sets = Object.assign({ en: rounds }, manifest[0].params.roundsL10n || {});
+  const MODAL = /(?<![\p{L}])(should|must|need|needs|ought|sollte|sollten|muss|müssen|devrait|devraient|doit|doivent|faut|debería|deberían|debe|deben|hay que|deveria|deveriam|deve|devem|precisa|precisam|dovrebbe|dovrebbero|deve|devono|bisogna|moet|moeten|zou|zouden|horde|bör|skal|skulle|pitäisi|täytyy)(?![\p{L}])/iu;
+  const OPENER = (t) => String(t).trim().toLowerCase().split(/[^\p{L}]+/u).filter(Boolean)[0] || '';
+  const wordsU = (t) => String(t).toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length > 2);
+  const ovU = (r, t) => { const sw = new Set(wordsU(r.point)); return wordsU(t).filter((w) => sw.has(w)).length; };
+  const rankBot = (r, score, which) => {
+    const o = r.options.map((x) => ({ k: x.kind, s: score(x) })); const srt = o.map((x) => x.s).sort((a, b) => a - b);
+    const tgt = which === 'max' ? srt[srt.length - 1] : which === 'min' ? srt[0] : srt[1];
+    const hits = o.filter((x) => x.s === tgt); return hits.filter((x) => x.k === 'reason').length / hits.length;
+  };
+  Object.keys(sets).forEach((loc) => {
+    const rs = sets[loc]; const n = rs.length; const acc = {};
+    const add = (k, v) => { acc[k] = (acc[k] || 0) + v; };
+    const openers = {};
+    rs.forEach((r) => {
+      ['max', 'mid', 'min'].forEach((w) => {
+        add('len-' + w, rankBot(r, (x) => x.text.length, w));
+        add('overlap-' + w, rankBot(r, (x) => ovU(r, x.text), w));
+      });
+      const noModal = r.options.filter((x) => !MODAL.test(x.text) && ovU(r, x.text) > 0);
+      add('noModal-onTopic', noModal.length ? noModal.filter((x) => x.kind === 'reason').length / noModal.length : 1 / 3);
+      const reason = r.options.find((x) => x.kind === 'reason'); const op = OPENER(reason && reason.text); openers[op] = (openers[op] || 0) + 1;
+      const off = r.options.find((x) => x.kind === 'offtopic');
+      F(off && ovU(r, off.text) >= 1, `${loc}/${r.id}: the off-topic card shares no word with the point (a "nothing in common" tell)`);
+    });
+    const commonOpener = Object.entries(openers).sort((a, b) => b[1] - a[1])[0];
+    F(!commonOpener || commonOpener[1] / n <= 0.5, `${loc}: ${commonOpener[1]}/${n} reasons start with "${commonOpener[0]}" (an opener tell)`);
+    const worst = Object.entries(acc).sort((a, b) => b[1] - a[1])[0];
+    Object.entries(acc).forEach(([k, v]) => F(v / n <= BOT_CEIL, `${loc}: shortcut bot "${k}" scores ${v.toFixed(1)}/${n} (> ceiling)`));
+    console.log(`  ${loc}: worst shortcut bot ${worst[0]} ${worst[1].toFixed(1)}/${n}`);
+  });
+
   if (fails.length) { console.error(`VERIFY-REASON-SUPPORT FAILED — ${fails.length} issue(s):`); fails.forEach((m) => console.error('  • ' + m)); process.exit(1); }
-  console.log('VERIFY-REASON-SUPPORT PASSED — oracle 100%; the restate foil is the unique highest point-overlap so "pick the card most like the claim" reliably MISSES; longest/shortest/point-overlap/position bots all <= chance; one reason + one restate + one offtopic per round; derived-not-stored; childView hides kind; >=7 rounds.');
+  console.log('VERIFY-REASON-SUPPORT PASSED — oracle 100%; in EVERY locale no shortcut (length rank, point-overlap rank, "on-topic and no modal verb", a shared opener word) beats the chance ceiling, and the off-topic card always shares a word with the point; longest/shortest/point-overlap/position bots all <= chance; one reason + one restate + one offtopic per round; derived-not-stored; childView hides kind; >=7 rounds.');
   process.exit(0);
 })();

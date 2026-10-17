@@ -268,7 +268,22 @@
       var decoys = Core.sameTotalDecoys(this.g, this.s, 2);
       var list = [{ g: this.g, s: this.s }];
       decoys.forEach(function (d) { list.push({ g: d[0], s: d[1] }); });
-      this.cands = shuffleSeeded(list, this.seed);
+      /* EVERY round shows THREE groves (2026-10-17): 6 of 8 rounds had only the
+         twin as a decoy — a coin toss. Top up with a NEAR grove — the same number
+         of groups with one more in each (g × s+1; a plate holds at most 6, so
+         g+1 × s past that): plausible at a glance, but not g groups of s.
+         (A single 1 × n grove was tried: its fruit spill off the one plate.) */
+      var near = [{ g: this.g, s: this.s + 1 }, { g: this.g + 1, s: this.s }];
+      if (this.s + 1 > 6) near.shift();
+      for (var ni = 0; list.length < 3 && ni < near.length; ni++) {
+        var nc = near[ni];
+        if (nc.s < 2 || nc.g < 1) continue;
+        if (list.some(function (c) { return c.g === nc.g && c.s === nc.s; })) continue;
+        list.push(nc);
+      }
+      /* positions shuffled AFRESH every time the round is set up (was seeded per
+         round → the same screen every pass, the answer in the same place) */
+      this.cands = shuffleSeeded(list, (Math.random() * 4294967296) | 0);
       this.picked = null; this.readOnly = false; this._heartsSpawned = false;
     },
 

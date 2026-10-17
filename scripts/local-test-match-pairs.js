@@ -119,7 +119,11 @@ function serve() {
       /* interaction: reload round 0, pair 2 of 3 (incomplete → no celebrate),
          then the 3rd (complete → celebrate + lock) */
       await page.evaluate(() => window.LCS_reloadFirstTask && window.LCS_reloadFirstTask());
-      await page.waitForFunction(() => document.querySelectorAll('.mp-card').length === 6, { timeout: 5000 });
+      /* 6 cards, or 8 on a board with 2 spare numbers (fluency-within-20: the last match is never forced). */
+      await page.waitForFunction(() => document.querySelectorAll('.mp-card').length >= 6, { timeout: 5000 });
+      const spareN = await page.evaluate(() => (window.MatchPairsActivity.cards || []).filter((c) => c && c.spare === true).length);
+      const cardN = await page.evaluate(() => document.querySelectorAll('.mp-card').length);
+      note(cardN === 6 + spareN, `${tag}: ${cardN} cards on the board (expected ${6 + spareN})`);
       let g = await groups(page);
       note(g.length === 3, `${tag}: ${g.length} complete value-pairs on board (expected 3)`);
       if (g.length === 3) {

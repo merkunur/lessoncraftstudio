@@ -200,17 +200,17 @@ var ACTIVITY_STRINGS_MP = {
      + connector renderer UNCHANGED. Cards language-neutral (numerals + </> glyphs),
      rendered via textContent so raw < / > are safe. EN base-locale only this
      commission; locale fan-out adds entries per §A.13.48. ---- */
-  taskCompare:        { en: 'Work out each comparison, then match it to < or >',
-                        es: 'Resuelve cada comparación, luego relaciónala con < o >',
-                        it: 'Risolvi ogni confronto, poi collegalo a < o >',
-                        pt: 'Resolva cada comparação, depois combine-a com < ou >',
-                        fr: 'Résous chaque comparaison, puis relie-la à < ou >',
-                        de: 'Löse jeden Vergleich, dann verbinde ihn mit < oder >',
-                        nl: 'Los elke vergelijking op, verbind hem dan met < of >',
-                        sv: 'Lös varje jämförelse, koppla sedan ihop den med < eller >',
-                        da: 'Løs hver sammenligning, og forbind den så med < eller >',
-                        no: 'Løs hver sammenligning, og koble den så til < eller >',
-                        fi: 'Ratkaise jokainen vertailu, yhdistä se sitten symboliin < tai >' },
+  taskCompare:        { en: 'Match each comparison to <, > or = — some symbols are left over',
+                        es: 'Relaciona cada comparación con <, > o = (sobran algunos símbolos)',
+                        it: 'Collega ogni confronto a <, > o = (alcuni simboli avanzano)',
+                        pt: 'Combine cada comparação com <, > ou = (sobram alguns símbolos)',
+                        fr: 'Relie chaque comparaison à <, > ou = (il reste des symboles en trop)',
+                        de: 'Verbinde jeden Vergleich mit <, > oder = (ein paar Zeichen bleiben übrig)',
+                        nl: 'Verbind elke vergelijking met <, > of = (er blijven tekens over)',
+                        sv: 'Koppla ihop varje jämförelse med <, > eller = (några tecken blir över)',
+                        da: 'Forbind hver sammenligning med <, > eller = (nogle tegn bliver tilovers)',
+                        no: 'Koble hver sammenligning til <, > eller = (noen tegn blir til overs)',
+                        fi: 'Yhdistä jokainen vertailu merkkiin <, > tai = (osa merkeistä jää yli)' },
   hintCompare:        { en: 'Tap a comparison, then tap the symbol that makes it true',
                         es: 'Toca una comparación, luego toca el símbolo que la hace verdadera',
                         it: 'Tocca un confronto, poi tocca il simbolo che lo rende vero',
@@ -253,7 +253,7 @@ var ACTIVITY_STRINGS_MP = {
      number — fact recall, mixing + and −. 11-locale native-authored (§A.13.48);
      [NSR-FLAG] sv/da/no/fi. titleFluency := page_title (displayed/synced value).
      Distinct from find-missing (D.8): complete-recall, NOT solve-for-the-blank. ---- */
-  taskFluency: {"en":"Work out each fact, then match it to its answer","de":"Rechne jede Aufgabe aus und verbinde sie mit ihrer Antwort","es":"Resuelve cada operación, luego relaciónala con su respuesta","it":"Risolvi ogni calcolo, poi abbinalo alla sua risposta","pt":"Resolva cada operação, depois combine-a com a sua resposta","fr":"Calcule chaque opération, puis relie-la à sa réponse","nl":"Werk elke som uit, verbind hem dan met het antwoord","sv":"Räkna ut varje uppgift, koppla sedan ihop den med sitt svar","da":"Regn hvert regnestykke ud, og forbind det så med sit svar","no":"Regn ut hvert stykke, og koble det så til svaret sitt","fi":"Ratkaise jokainen lasku ja yhdistä se sitten tulokseensa"},
+  taskFluency: {"en":"Work out each fact and match it to its answer — two numbers are left over","de":"Rechne jede Aufgabe aus und verbinde sie mit ihrer Antwort – zwei Zahlen bleiben übrig","es":"Resuelve cada operación y relaciónala con su respuesta (sobran dos números)","it":"Risolvi ogni calcolo e abbinalo alla sua risposta (avanzano due numeri)","pt":"Resolva cada operação e combine-a com a sua resposta (sobram dois números)","fr":"Calcule chaque opération et relie-la à sa réponse (il reste deux nombres en trop)","nl":"Werk elke som uit en verbind hem met het antwoord – er blijven twee getallen over","sv":"Räkna ut varje uppgift och koppla ihop den med sitt svar – två tal blir över","da":"Regn hvert regnestykke ud og forbind det med sit svar – to tal bliver tilovers","no":"Regn ut hvert stykke og koble det til svaret sitt – to tall blir til overs","fi":"Ratkaise jokainen lasku ja yhdistä se tulokseensa – kaksi lukua jää yli"},
   hintFluency: {"en":"Tap a fact, then tap the number that is its answer","de":"Tippe auf eine Aufgabe, dann auf die Zahl, die ihre Antwort ist","es":"Toca una operación, luego toca el número que es su respuesta","it":"Tocca un calcolo, poi tocca il numero che è la sua risposta","pt":"Toque em uma operação, depois toque no número que é a sua resposta","fr":"Touche une opération, puis touche le nombre qui est sa réponse","nl":"Tik op een som, dan op het getal dat het antwoord is","sv":"Tryck på en uppgift, sedan på talet som är dess svar","da":"Tryk på et regnestykke, derefter på tallet, der er dets svar","no":"Trykk på et stykke, deretter på tallet som er svaret","fi":"Paina laskua, sitten lukua, joka on sen tulos"},
   hintTryFluency: {"en":"Some facts aren't matched to the right answer yet — tap a pair to break it and try again","de":"Manche Aufgaben sind noch nicht mit der richtigen Antwort verbunden — tippe ein Paar an, um es zu trennen, und versuch's nochmal","es":"Algunas operaciones aún no están relacionadas con la respuesta correcta — toca una pareja para deshacerla e inténtalo de nuevo","it":"Alcuni calcoli non sono ancora abbinati alla risposta giusta — tocca una coppia per scioglierla e riprova","pt":"Algumas operações ainda não estão combinadas com a resposta certa — toque em um par para desfazê-lo e tente novamente","fr":"Certaines opérations ne sont pas encore reliées à la bonne réponse — touche une paire pour la défaire et réessaie","nl":"Sommige sommen zijn nog niet aan het juiste antwoord gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw","sv":"Vissa uppgifter är inte ihopkopplade med rätt svar än — tryck på ett par för att lösa upp det och försök igen","da":"Nogle regnestykker er ikke forbundet med det rigtige svar endnu — tryk på et par for at løse det op og prøv igen","no":"Noen stykker er ikke koblet til riktig svar ennå — trykk på et par for å løse det opp og prøv igjen","fi":"Jotkin laskut eivät ole vielä yhdistetty oikeaan tulokseen — paina paria avataksesi sen ja yritä uudelleen"},
   titleFluency: {"en":"Match Facts to 20","de":"Aufgaben Bis 20 Auswendig Lernen","es":"Relaciona Operaciones Hasta 20","it":"Abbina i Calcoli alla Risposta Entro il 20","pt":"Combine Fatos até 20","fr":"Relie les Calculs jusqu'à 20","nl":"Sommen Koppelen Tot 20","sv":"Para Ihop Tal Upp Till 20","da":"Match Regnestykker Op Til 20","no":"Match Plusstykker og Minusstykker Opp Til 20","fi":"Yhdistä Laskut Tulokseen Kahteenkymmeneen Asti"},
@@ -1047,6 +1047,34 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   /* tasks resolved lazily: by ?activity=<id> if present, else fallback. */
   tasks: STATIC_DEMO_TASKS_MP,
 
+  /* Spare-card aware "every card paired" (2026-10-17 live fix). A card carrying
+     `spare: true` is a leftover with no partner on the board (fluency-within-20:
+     two numbers no fact equals; compare-3digit: two extra relation symbols), so
+     the LAST match is never free by elimination. The board is complete when at
+     most `spareCount` cards are left unpaired; check() still grades every formed
+     pair by value, so pairing a spare is marked wrong. With no spare cards this is
+     exactly the core's rule (all cards paired) — the other templates are unchanged. */
+  allPaired: function () {
+    if (!this.cardsState || !this.cardsState.length) return false;
+    var spare = 0, open = 0;
+    for (var i = 0; i < this.cards.length; i++) {
+      var c = this.cards[i];
+      if (c && typeof c === 'object' && c.spare === true) spare++;
+      if (this.cardsState[i] !== 'paired') open++;
+    }
+    if (!spare) return open === 0;
+    return open <= spare && this.pairsFormed.length > 0;
+  },
+
+  /* A board with spare cards has 8 cards; on a phone the core's square cards
+     stack 4 rows deep and push Check below a 320×640 fold, so those boards get
+     content-height cards (CSS below). Boards without spares render unchanged. */
+  render: function () {
+    MatchPairsCore.render.call(this);
+    var hasSpare = (this.cards || []).some(function (c) { return c && typeof c === 'object' && c.spare === true; });
+    if (this._boardEl && hasSpare) this._boardEl.classList.add('mp-has-spares');
+  },
+
   init: function (api) {
     MatchPairsCore.init.call(this, api);
     var params = (typeof window !== 'undefined' && window.location)
@@ -1155,8 +1183,9 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
          Warn (don't throw). */
       if (window.console && console.warn) {
         flTasks.forEach(function (t, ti) {
-          var cs = (t && Array.isArray(t.cards)) ? t.cards : [];
-          if (cs.length !== 6) console.warn('[match-pairs-activity] fluency task ' + ti + ' has ' + cs.length + ' cards (expected 6)');
+          /* spare leftover cards (spare:true) are not pairs — check the 6 paired cards */
+          var cs = ((t && Array.isArray(t.cards)) ? t.cards : []).filter(function (c) { return !(c && c.spare === true); });
+          if (cs.length !== 6) console.warn('[match-pairs-activity] fluency task ' + ti + ' has ' + cs.length + ' paired cards (expected 6)');
           var vals = {};
           cs.forEach(function (c) { if (c && typeof c.value === 'number') vals[c.value] = (vals[c.value] || 0) + 1; });
           var keys = Object.keys(vals);
@@ -1198,3 +1227,12 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
 })();
 
 MatchPairsCore.injectCSS();
+(function () {
+  if (typeof document === 'undefined' || document.querySelector('style[data-mp-spares]')) return;
+  var tag = document.createElement('style'); tag.setAttribute('data-mp-spares', '');
+  /* phone: content-height cards so 4 rows of 2 fit; desktop: 4 columns are
+     narrower than the core's 3-column 6-card board, so "14 − 6" gets a smaller face */
+  tag.textContent = '@media (max-width:599px){.mp-board.mp-has-spares .mp-card{aspect-ratio:auto;min-height:60px;}}'
+    + '@media (min-width:600px){.mp-board.mp-has-spares .mp-expr .mp-card-num{font-size:clamp(1.3rem,3.2vw,1.9rem);}}';
+  document.head.appendChild(tag);
+})();

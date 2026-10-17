@@ -13,6 +13,7 @@
       "rounds": [
         {
           "id": "m10-7",
+          "foilRank": "lo",
           "band": 1,
           "experience": "make10",
           "a": 7,
@@ -24,6 +25,7 @@
         },
         {
           "id": "m10-6",
+          "foilRank": "hi",
           "band": 1,
           "experience": "make10",
           "a": 6,
@@ -35,6 +37,7 @@
         },
         {
           "id": "sum-8-5",
+          "foilRank": "mid",
           "band": 1,
           "experience": "missingSum",
           "a": 8,
@@ -46,6 +49,7 @@
         },
         {
           "id": "sum-6-7",
+          "foilRank": "lo",
           "band": 1,
           "experience": "missingSum",
           "a": 6,
@@ -57,6 +61,7 @@
         },
         {
           "id": "ma-8-13",
+          "foilRank": "hi",
           "band": 2,
           "experience": "missingAddend",
           "a": 8,
@@ -69,6 +74,7 @@
         },
         {
           "id": "ma-9-15",
+          "foilRank": "mid",
           "band": 2,
           "experience": "missingAddend",
           "a": 9,
@@ -81,6 +87,7 @@
         },
         {
           "id": "ms-13-8",
+          "foilRank": "lo",
           "band": 2,
           "experience": "missingSubtrahend",
           "a": 13,
@@ -93,6 +100,7 @@
         },
         {
           "id": "mfa-5-12",
+          "foilRank": "hi",
           "band": 3,
           "experience": "missingFirstAddend",
           "a": null,
@@ -105,6 +113,7 @@
         },
         {
           "id": "mm-5-8",
+          "foilRank": "mid",
           "band": 3,
           "experience": "missingMinuend",
           "a": null,
@@ -117,6 +126,7 @@
         },
         {
           "id": "bal-6-6-4",
+          "foilRank": "lo",
           "band": 3,
           "experience": "balance",
           "kind": "balance",

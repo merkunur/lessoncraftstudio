@@ -23,17 +23,17 @@
             {
               "id": "o1",
               "kind": "topic",
-              "text": "How bees make their honey."
+              "text": "Bees and the honey they make"
             },
             {
               "id": "o2",
               "kind": "detail",
-              "text": "They fly from flower to flower."
+              "text": "Flower to flower for nectar"
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Spiders spin webs."
+              "text": "How bees sting"
             }
           ]
         },
@@ -49,17 +49,17 @@
             {
               "id": "o1",
               "kind": "detail",
-              "text": "The sun warms the water in lakes."
+              "text": "Warm water in lakes and seas"
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "Camels rarely drink."
+              "text": "Raincoats for heavy rain"
             },
             {
               "id": "o3",
               "kind": "topic",
-              "text": "Where the rain comes from."
+              "text": "Where rain comes from"
             }
           ]
         },
@@ -75,17 +75,17 @@
             {
               "id": "o1",
               "kind": "detail",
-              "text": "The egg hatches into a swimming tadpole."
+              "text": "A tadpole that can swim"
             },
             {
               "id": "o2",
               "kind": "topic",
-              "text": "How a frog grows up."
+              "text": "Growing up from egg to frog"
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Owls hunt mice."
+              "text": "Where a frog sleeps in winter"
             }
           ]
         },
@@ -101,17 +101,17 @@
             {
               "id": "o1",
               "kind": "topic",
-              "text": "Why we brush our teeth."
+              "text": "Why we brush our teeth"
             },
             {
               "id": "o2",
               "kind": "detail",
-              "text": "It wipes away bits of food and sugar."
+              "text": "Wiping away bits of food"
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Giraffes are tall."
+              "text": "How a dentist keeps teeth strong"
             }
           ]
         },
@@ -127,17 +127,17 @@
             {
               "id": "o1",
               "kind": "detail",
-              "text": "Deep under a volcano, hot rock waits."
+              "text": "How the pressure builds up"
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "Penguins waddle."
+              "text": "A rock found on a beach"
             },
             {
               "id": "o3",
               "kind": "topic",
-              "text": "How a volcano erupts."
+              "text": "A volcano erupting with lava"
             }
           ]
         },
@@ -153,17 +153,17 @@
             {
               "id": "o1",
               "kind": "detail",
-              "text": "You pick a book and take it home."
+              "text": "Picking out a book"
             },
             {
               "id": "o2",
               "kind": "topic",
-              "text": "How a library lends books."
+              "text": "Borrowing books from a library"
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Bats sleep all day."
+              "text": "How books are printed"
             }
           ]
         },
@@ -179,17 +179,17 @@
             {
               "id": "o1",
               "kind": "topic",
-              "text": "What the wind can do."
+              "text": "What the wind can do"
             },
             {
               "id": "o2",
               "kind": "detail",
-              "text": "Wind can push a sailboat across a lake."
+              "text": "Pushing a sailboat"
             },
             {
               "id": "o3",
               "kind": "offtopic",
-              "text": "Snails are slow."
+              "text": "How air fills a balloon"
             }
           ]
         },
@@ -205,17 +205,17 @@
             {
               "id": "o1",
               "kind": "detail",
-              "text": "Its roots reach down for a drink."
+              "text": "Roots reaching down for a drink"
             },
             {
               "id": "o2",
               "kind": "offtopic",
-              "text": "Foxes have red fur."
+              "text": "A seed that hungry birds eat"
             },
             {
               "id": "o3",
               "kind": "topic",
-              "text": "What a seed needs to grow."
+              "text": "What a seed needs to sprout"
             }
           ]
         }
@@ -234,17 +234,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Wie Bienen Honig machen."
+                "text": "Bienen und ihr Honig"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Bienen fliegen von Blüte zu Blüte."
+                "text": "Von Blüte zu Blüte fliegen"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Spinnen weben Netze."
+                "text": "Warum Bienen stechen"
               }
             ]
           },
@@ -260,17 +260,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Die Sonne wärmt das Wasser in den Seen."
+                "text": "Warmes Wasser in den Seen"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Kamele trinken selten."
+                "text": "Gummistiefel für den Regen"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Woher der Regen kommt."
+                "text": "Woher der Regen kommt"
               }
             ]
           },
@@ -286,17 +286,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Aus dem Ei schlüpft eine Kaulquappe."
+                "text": "Wenn die Kaulquappe schwimmt"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Wie ein Frosch groß wird."
+                "text": "Vom kleinen Ei zum Frosch"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Eulen jagen Mäuse."
+                "text": "Wo ein Frosch im Winter schläft"
               }
             ]
           },
@@ -312,17 +312,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Warum wir die Zähne putzen."
+                "text": "Warum wir die Zähne putzen"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Es wischt Essen und Zucker weg."
+                "text": "Weg mit Essen und Zucker"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Giraffen sind groß."
+                "text": "Wie der Zahnarzt die Zähne stark macht"
               }
             ]
           },
@@ -338,17 +338,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Tief unter dem Vulkan wartet heißes Gestein."
+                "text": "Wie der Druck steigt"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Pinguine watscheln."
+                "text": "Das Gestein am Strand"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Wie ein Vulkan ausbricht."
+                "text": "Ein Vulkan bricht aus"
               }
             ]
           },
@@ -364,17 +364,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Du suchst ein Buch aus und nimmst es mit."
+                "text": "Das Lieblingsbuch aussuchen"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Wie eine Bücherei Bücher verleiht."
+                "text": "Bücher aus der Bücherei leihen"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Fledermäuse schlafen tagsüber."
+                "text": "Wie ein Buch gedruckt wird"
               }
             ]
           },
@@ -390,17 +390,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Was der Wind kann."
+                "text": "Was der Wind alles kann"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Wind kann ein Segelboot über den See schieben."
+                "text": "Segelboote schieben"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Schnecken sind langsam."
+                "text": "Wie Luft in einen Ballon kommt"
               }
             ]
           },
@@ -416,17 +416,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Seine Wurzeln reichen nach unten zum Trinken."
+                "text": "Wie Wurzeln Wasser finden"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Füchse haben rotes Fell."
+                "text": "Samen als Futter für Vögel"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Was ein Samen zum Wachsen braucht."
+                "text": "Wie aus einem Samen eine Pflanze wird"
               }
             ]
           }
@@ -444,17 +444,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Comment les abeilles font leur miel."
+                "text": "Les abeilles et leur miel"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Elles volent de fleur en fleur."
+                "text": "Le nectar, de fleur en fleur"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les araignées tissent des toiles."
+                "text": "Pourquoi les abeilles piquent"
               }
             ]
           },
@@ -470,17 +470,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Le soleil réchauffe l'eau des lacs."
+                "text": "L'eau tiède des lacs"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Les chameaux boivent rarement."
+                "text": "Des bottes pour quand la pluie tombe"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "D'où vient la pluie."
+                "text": "D'où vient la pluie"
               }
             ]
           },
@@ -496,17 +496,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "L'œuf éclot en un têtard qui nage."
+                "text": "Un têtard qui nage"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Comment grandit une grenouille."
+                "text": "Du petit œuf à la grenouille"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les hiboux chassent les souris."
+                "text": "Où dort la grenouille en hiver"
               }
             ]
           },
@@ -522,17 +522,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Pourquoi on se brosse les dents."
+                "text": "Pourquoi on se brosse les dents"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Cela enlève les restes de nourriture et le sucre."
+                "text": "Les restes de nourriture"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les girafes sont grandes."
+                "text": "Comment le dentiste soigne les dents"
               }
             ]
           },
@@ -548,17 +548,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Sous le volcan, de la roche brûlante attend."
+                "text": "Comment la pression monte"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Les manchots se dandinent."
+                "text": "La roche des falaises"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Comment un volcan entre en éruption."
+                "text": "Un volcan en éruption"
               }
             ]
           },
@@ -574,17 +574,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Tu choisis un livre et tu l'emportes chez toi."
+                "text": "Un livre emporté à la maison"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Comment une bibliothèque prête des livres."
+                "text": "Emprunter des livres à la bibliothèque"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les chauves-souris dorment le jour."
+                "text": "Comment on imprime les livres"
               }
             ]
           },
@@ -600,17 +600,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Ce que le vent peut faire."
+                "text": "Tout ce que le vent peut faire"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Le vent peut pousser un voilier sur un lac."
+                "text": "Un voilier sur le lac"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Les escargots sont lents."
+                "text": "L'air dans un ballon"
               }
             ]
           },
@@ -626,17 +626,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Ses racines descendent pour boire."
+                "text": "Les racines descendent boire"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Les renards ont une fourrure rousse."
+                "text": "Une graine pour les oiseaux"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Ce dont une graine a besoin pour pousser."
+                "text": "Ce dont une graine a besoin"
               }
             ]
           }
@@ -654,17 +654,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Cómo hacen su miel las abejas."
+                "text": "Las abejas y su miel"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Vuelan de flor en flor para juntar néctar."
+                "text": "Néctar de flor en flor"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Las arañas tejen telarañas."
+                "text": "Por qué pican las abejas"
               }
             ]
           },
@@ -680,17 +680,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "El sol calienta el agua de los lagos."
+                "text": "El agua tibia de los lagos"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Los camellos casi nunca beben agua."
+                "text": "Botas para cuando cae la lluvia"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "De dónde viene la lluvia."
+                "text": "De dónde viene la lluvia"
               }
             ]
           },
@@ -706,17 +706,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Del huevo sale un renacuajo que nada."
+                "text": "Un renacuajo que nada"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Cómo crece una rana."
+                "text": "De huevito a rana"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Los búhos cazan ratones."
+                "text": "Dónde duerme la rana en invierno"
               }
             ]
           },
@@ -732,17 +732,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Por qué nos cepillamos los dientes."
+                "text": "Por qué nos cepillamos los dientes"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Quita los restos de comida y de azúcar."
+                "text": "Restos de comida y azúcar"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Las jirafas son muy altas."
+                "text": "Cómo el dentista deja los dientes limpios"
               }
             ]
           },
@@ -758,17 +758,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Muy adentro de un volcán espera roca caliente."
+                "text": "Cómo crece la presión"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Los pingüinos no vuelan."
+                "text": "Una roca en la playa"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Cómo hace erupción un volcán."
+                "text": "Un volcán en erupción"
               }
             ]
           },
@@ -784,17 +784,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Escoges un libro y te lo llevas a casa a leer."
+                "text": "Escoger un libro"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Cómo presta libros una biblioteca."
+                "text": "Pedir libros prestados"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Los murciélagos duermen de día."
+                "text": "Cómo se imprimen los libros"
               }
             ]
           },
@@ -810,17 +810,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Lo que el viento puede hacer."
+                "text": "Lo que el viento puede hacer"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "El viento puede empujar un velero por un lago."
+                "text": "Un velero en el lago"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Los caracoles son muy lentos."
+                "text": "El aire dentro de un globo"
               }
             ]
           },
@@ -836,17 +836,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Sus raíces bajan a buscar agua."
+                "text": "Cómo las raíces buscan agua"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Los zorros tienen pelo rojizo."
+                "text": "Una semilla para los pájaros"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Qué necesita una semilla para crecer."
+                "text": "Qué necesita una semilla para crecer"
               }
             ]
           }
@@ -864,17 +864,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Como as abelhas fazem o mel."
+                "text": "As abelhas e o seu mel"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Voam de flor em flor para juntar néctar."
+                "text": "Voando de flor em flor"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "As aranhas tecem teias."
+                "text": "Por que as abelhas picam"
               }
             ]
           },
@@ -890,17 +890,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "As gotas molham as plantas e a terra."
+                "text": "Plantas molhadas pelas gotas"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "De onde vem a chuva e o que ela faz."
+                "text": "A chuva e o que ela faz"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "O trem anda sobre os trilhos."
+                "text": "Uma capa para quando a chuva cai"
               }
             ]
           },
@@ -916,17 +916,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "A escova tira a sujeira dos dentes."
+                "text": "A sujeira saindo dos dentes"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Os peixes respiram embaixo da água."
+                "text": "Como o dentista deixa os dentes fortes"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Por que a gente escova os dentes."
+                "text": "Por que a gente escova os dentes"
               }
             ]
           },
@@ -942,17 +942,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Como as formigas trabalham em grupo."
+                "text": "Formigas trabalhando em equipe"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Cada formiga carrega migalhas para o formigueiro."
+                "text": "Migalhas levadas para casa"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "A girafa tem um pescoço bem comprido."
+                "text": "Como a formiga sobe na parede"
               }
             ]
           },
@@ -968,17 +968,17 @@
               {
                 "id": "o1",
                 "kind": "offtopic",
-                "text": "O sino da igreja faz barulho."
+                "text": "Uma semente para os passarinhos"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Como uma semente vira planta."
+                "text": "Da semente à plantinha"
               },
               {
                 "id": "o3",
                 "kind": "detail",
-                "text": "Com água e sol, ela começa a crescer."
+                "text": "Um pouco de água e sol"
               }
             ]
           },
@@ -994,17 +994,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "No começo, ele é um girino com rabo."
+                "text": "O rabinho do girino"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "A neve é branca e geladinha."
+                "text": "Onde o sapo dorme no inverno"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Como o sapo cresce e muda."
+                "text": "Como o sapo cresce e muda"
               }
             ]
           },
@@ -1020,17 +1020,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "De onde vem a luz da lua."
+                "text": "Por que a lua brilha"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "A lua aparece no céu à noite."
+                "text": "A lua no céu da noite"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "O cavalo corre bem rápido."
+                "text": "As estrelas no céu à noite"
               }
             ]
           },
@@ -1046,17 +1046,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Quando sente perigo, ela se esconde dentro dele."
+                "text": "Escondida quando há perigo"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Como o casco protege a tartaruga."
+                "text": "O casco que protege a tartaruga"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "O leão vive na savana."
+                "text": "O que a tartaruga come"
               }
             ]
           }
@@ -1074,17 +1074,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Come nasce il miele"
+                "text": "Le api e il loro miele"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Volano di fiore in fiore per raccogliere il nettare."
+                "text": "Nettare di fiore in fiore"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Il cane abbaia."
+                "text": "Perché le api pungono"
               }
             ]
           },
@@ -1100,12 +1100,12 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "L’acqua sale in alto e forma le nuvole."
+                "text": "Il sole scalda il mare"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "La luna esce di notte."
+                "text": "Stivali per quando cade la pioggia"
               },
               {
                 "id": "o3",
@@ -1126,17 +1126,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Dalle uova nascono i girini con la coda."
+                "text": "Il girino e la sua coda"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Come cresce una rana"
+                "text": "Dalle uova alle rane"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Il sole è caldo."
+                "text": "Dove dorme la rana d’inverno"
               }
             ]
           },
@@ -1157,12 +1157,12 @@
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Laviamo i denti per tenerli puliti e sani."
+                "text": "Resti di cibo sui denti"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "La neve è fredda."
+                "text": "Come il dentista cura i denti"
               }
             ]
           },
@@ -1178,17 +1178,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "La roccia si scioglie e diventa lava."
+                "text": "La roccia che si scioglie"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "Il pesce nuota."
+                "text": "Una roccia in riva al mare"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Come erutta un vulcano"
+                "text": "Un vulcano che erutta"
               }
             ]
           },
@@ -1204,17 +1204,17 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Scegli un libro e lo porti al banco."
+                "text": "Scegliere un libro"
               },
               {
                 "id": "o2",
                 "kind": "topic",
-                "text": "Come funziona il prestito dei libri"
+                "text": "Prendere un libro in prestito"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Le stelle brillano di notte."
+                "text": "Come si stampano i libri"
               }
             ]
           },
@@ -1230,17 +1230,17 @@
               {
                 "id": "o1",
                 "kind": "topic",
-                "text": "Tutto sul vento"
+                "text": "Tutto quello che fa il vento"
               },
               {
                 "id": "o2",
                 "kind": "detail",
-                "text": "Può spingere le barche a vela sul mare."
+                "text": "Una barca a vela"
               },
               {
                 "id": "o3",
                 "kind": "offtopic",
-                "text": "Il gufo vola."
+                "text": "L’aria dentro un palloncino"
               }
             ]
           },
@@ -1256,30 +1256,30 @@
               {
                 "id": "o1",
                 "kind": "detail",
-                "text": "Ha bisogno di acqua, sole e terra buona."
+                "text": "Un po’ d’acqua e di sole"
               },
               {
                 "id": "o2",
                 "kind": "offtopic",
-                "text": "La rana nuota."
+                "text": "Un seme per gli uccellini"
               },
               {
                 "id": "o3",
                 "kind": "topic",
-                "text": "Come cresce una piantina"
+                "text": "Dal seme alla pianta"
               }
             ]
           }
         ],
         "nl": [
-          { "id": "bees", "band": 1, "story": [ "Bijen leven samen in een korf.", "Ze vliegen van bloem naar bloem voor nectar.", "Thuis maken ze honing van de nectar." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe bijen honing maken." }, { "id": "o2", "kind": "detail", "text": "Bijen vliegen van bloem naar bloem." }, { "id": "o3", "kind": "offtopic", "text": "Spinnen weven webben." } ] },
-          { "id": "rain", "band": 1, "story": [ "De zon warmt het water in de meren.", "Het water stijgt op en wordt wolken.", "Zware wolken laten de regen vallen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waar de regen vandaan komt." }, { "id": "o2", "kind": "detail", "text": "De zon warmt het water in de meren." }, { "id": "o3", "kind": "offtopic", "text": "Kamelen drinken maar zelden." } ] },
-          { "id": "frog", "band": 1, "story": [ "Een kikker begint als een klein ei.", "Uit het ei komt een kikkervisje dat zwemt.", "Het krijgt pootjes en wordt een kikker." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een kikker groot wordt." }, { "id": "o2", "kind": "detail", "text": "Uit het ei komt een kikkervisje." }, { "id": "o3", "kind": "offtopic", "text": "Uilen jagen op muizen." } ] },
-          { "id": "teeth", "band": 2, "story": [ "Poetsen houdt je tanden schoon en sterk.", "Het veegt resten van eten en suiker weg.", "Schone tanden helpen bij kauwen en lachen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waarom we onze tanden poetsen." }, { "id": "o2", "kind": "detail", "text": "Het veegt eten en suiker weg." }, { "id": "o3", "kind": "offtopic", "text": "Giraffen zijn heel groot." } ] },
-          { "id": "volcano", "band": 2, "story": [ "Diep onder de vulkaan zit heet gesteente.", "De druk stijgt en duwt het omhoog.", "Het breekt naar buiten als gloeiende lava." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een vulkaan uitbarst." }, { "id": "o2", "kind": "detail", "text": "Diep onder de vulkaan zit heet gesteente." }, { "id": "o3", "kind": "offtopic", "text": "Pinguïns waggelen grappig." } ] },
-          { "id": "library", "band": 2, "story": [ "Een bibliotheek staat vol met boeken.", "Je zoekt een boek uit en neemt het mee.", "Als je klaar bent, breng je het terug." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een bibliotheek boeken uitleent." }, { "id": "o2", "kind": "detail", "text": "Je zoekt een boek uit en neemt het mee." }, { "id": "o3", "kind": "offtopic", "text": "Vleermuizen slapen overdag." } ] },
-          { "id": "wind", "band": 3, "story": [ "De wind kan zacht of hard waaien.", "Hij kan een zeilboot over het meer duwen.", "Hij kan zelfs een vlieger laten vliegen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat de wind allemaal kan." }, { "id": "o2", "kind": "detail", "text": "De wind kan een zeilboot duwen." }, { "id": "o3", "kind": "offtopic", "text": "Slakken zijn heel traag." } ] },
-          { "id": "seed", "band": 3, "story": [ "Een zaadje heeft water, zon en warmte nodig.", "Zijn worteltjes reiken omlaag om te drinken.", "Dan groeit er langzaam een plantje uit." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat een zaadje nodig heeft om te groeien." }, { "id": "o2", "kind": "detail", "text": "Zijn worteltjes reiken omlaag om te drinken." }, { "id": "o3", "kind": "offtopic", "text": "Vossen hebben een rode vacht." } ] }
+          { "id": "bees", "band": 1, "story": [ "Bijen leven samen in een korf.", "Ze vliegen van bloem naar bloem voor nectar.", "Thuis maken ze honing van de nectar." ], "options": [ { "id": "o1", "kind": "topic", "text": "Bijen en hun honing" }, { "id": "o2", "kind": "detail", "text": "Nectar halen van bloem naar bloem" }, { "id": "o3", "kind": "offtopic", "text": "Waarom bijen steken" } ] },
+          { "id": "rain", "band": 1, "story": [ "De zon warmt het water in de meren.", "Het water stijgt op en wordt wolken.", "Zware wolken laten de regen vallen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waar de regen vandaan komt" }, { "id": "o2", "kind": "detail", "text": "Warm water in de meren" }, { "id": "o3", "kind": "offtopic", "text": "Laarzen voor zware regen" } ] },
+          { "id": "frog", "band": 1, "story": [ "Een kikker begint als een klein ei.", "Uit het ei komt een kikkervisje dat zwemt.", "Het krijgt pootjes en wordt een kikker." ], "options": [ { "id": "o1", "kind": "topic", "text": "Van ei tot kikker" }, { "id": "o2", "kind": "detail", "text": "Een kikkervisje dat zwemt" }, { "id": "o3", "kind": "offtopic", "text": "Waar een kikker in de winter slaapt" } ] },
+          { "id": "teeth", "band": 2, "story": [ "Poetsen houdt je tanden schoon en sterk.", "Het veegt resten van eten en suiker weg.", "Schone tanden helpen bij kauwen en lachen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waarom we onze tanden poetsen" }, { "id": "o2", "kind": "detail", "text": "Weg met eten en suiker" }, { "id": "o3", "kind": "offtopic", "text": "Hoe de tandarts je tanden schoon houdt" } ] },
+          { "id": "volcano", "band": 2, "story": [ "Diep onder de vulkaan zit heet gesteente.", "De druk stijgt en duwt het omhoog.", "Het breekt naar buiten als gloeiende lava." ], "options": [ { "id": "o1", "kind": "topic", "text": "Een vulkaan barst uit" }, { "id": "o2", "kind": "detail", "text": "Hoe de druk stijgt" }, { "id": "o3", "kind": "offtopic", "text": "Gesteente op het strand" } ] },
+          { "id": "library", "band": 2, "story": [ "Een bibliotheek staat vol met boeken.", "Je zoekt een boek uit en neemt het mee.", "Als je klaar bent, breng je het terug." ], "options": [ { "id": "o1", "kind": "topic", "text": "Boeken lenen in de bibliotheek" }, { "id": "o2", "kind": "detail", "text": "Een boek uitkiezen" }, { "id": "o3", "kind": "offtopic", "text": "Hoe boeken gedrukt worden" } ] },
+          { "id": "wind", "band": 3, "story": [ "De wind kan zacht of hard waaien.", "Hij kan een zeilboot over het meer duwen.", "Hij kan zelfs een vlieger laten vliegen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat de wind allemaal kan" }, { "id": "o2", "kind": "detail", "text": "Zeilboten vooruit duwen" }, { "id": "o3", "kind": "offtopic", "text": "Waarom wind soms koud is" } ] },
+          { "id": "seed", "band": 3, "story": [ "Een zaadje heeft water, zon en warmte nodig.", "Zijn worteltjes reiken omlaag om te drinken.", "Dan groeit er langzaam een plantje uit." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat een zaadje nodig heeft" }, { "id": "o2", "kind": "detail", "text": "Worteltjes die water zoeken" }, { "id": "o3", "kind": "offtopic", "text": "Een zaadje als voer voor vogels" } ] }
         ]
       }
     },

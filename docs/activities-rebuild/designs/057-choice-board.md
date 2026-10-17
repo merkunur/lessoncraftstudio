@@ -24,7 +24,7 @@
 - **How the material pushes back:** the tag's own adhesion — matching letters stick, the first different one lifts the tag off.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the picture wall left (≈ 460 px), the tag tray + bubble right. Stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 704 × 470):**
 - **The picture wall** (left column): a cork-coloured board 460 × 400 (`#E8D5B0`, 2 px ink) with **four picture frames** in a 2 × 2 grid, each 190 × 170 (white card, 2 px ink), **library picture at 136 px**, a small brass hook at each frame's lower edge where a tag hangs.
@@ -164,3 +164,4 @@ What changed:
 - *but·ter / but·ter·fly* struck: the butter picture reads as cheese, so the right tag would "peel" off a picture the child names correctly → *pan·da / pan·cake* (both TeX+rule+vocab agreed). Allow-list re-verified word by word against `approved-words-en.json`.
 - Level 2 *-an* round had no outsider picture (four tags, four frames), so misconception 3 could not appear → three tags + *pen*.
 - spring/bud (a red flower bud) and activities/basketball (the ball) confirmed on the contact sheets; the conditional fallbacks removed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

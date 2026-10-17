@@ -25,7 +25,7 @@
 - **The material pushes back** by the lens itself: two checks, in the order a reader should make them (Is it in the text? Does it show the claim?). No text says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: story + lens left (430 px), claim card + clue tray + bubble right (240 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The story card** (left, 420 × 230): the three sentences on separate lines, 20 px Nunito, line height 1.7, each sentence a block 54–64 px tall. A small library picture of the story's key object sits at the card's top corner (88 × 88, true to the story — §6 picture column).
@@ -149,3 +149,4 @@ What changed:
 - **Pictures:** round 3 (camping/rock is a boulder) and round 7 (no sticker art) carry no picture rather than a wrong one.
 - **Card position is a fixed balanced table per level, rotated per pass.**
 - Distinct from 063 (bookmark: find where the answer is) and 069 (highlighter: lift the answer from a text): here a GIVEN clue is tested twice — in the text? does it prove the claim?
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

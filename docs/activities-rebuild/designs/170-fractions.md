@@ -28,7 +28,9 @@
   5. **An array that "has the right total" is the right array** (pick board): the card's album page only takes the array with the card's rows and row-length — a 2-by-6 sheet does not fit a "3 rows of 4" page even though both make 12.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px, ≤ 2 lines), e.g. "Make 3 rows ▤ and 4 columns ▥ of same-size squares." The ▤/▥ glyphs are drawn icons (a 3-cell bar lying / standing, 18 px), not characters, so "row" and "column" are shown, not only named.
 - **The sheet** (left, up to 440 × 340): a cream rectangle (#FFFDF6, 3 px ink outline, soft shadow) sized `cols·u × rows·u` with `u = min(440/cols, 340/rows, 120)` px (2×3 → u 120, sheet 360 × 240; 4×5 → u 85, sheet 425 × 340). The rectangle's true size in plate units is never printed on it.
   - **Top rail** (24 px tall, over the sheet's width): a brass-coloured bar with **notches every half square** (2·cols − 1 interior notches; every notch looks the same, so the rail never tells where the squares are). The **column wheel** (a 30 px toothed wheel, teal) parks at the left end.
@@ -172,3 +174,4 @@ What changed:
 - PICK board had a size tell: the ✓ was the middle-sized sheet in 6 of 9 rounds (a "middle one" bot scored 67 %). Rebuilt K1–K9: one same-rows and one same-length distractor every round, ✓ smallest 3 · middle 2 · largest 3 · tied 1; best size bot 3.5/9, rows-only/length-only 4.5/9 (coin toss), explicit pass-1 slots 3/3/3. Gate re-runs the bots.
 - 4×5 at 320 has 26 px notch spacing (below 44): the rail is now one target — tap sends the wheel to the nearest notch, tap the ghost wheel to perforate; the 22/26 px contradiction removed.
 - Misconception 3 rewritten honestly: 4 equal rows cannot be made on a 3-tall sheet with half-square notches.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

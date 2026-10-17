@@ -23,7 +23,7 @@
 - **Misconception 4 (logic) — a "no" clue tells you nothing.** Pushback: each X crosses a cell; when a row has only one open cell left, the ✓ in it is the only place left — and placing a ✓ pushes Xs along its row and column by itself (the grid's physics).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480 × 470), bubble column right (200 px; the photo wall lives under the bubble).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The camera** (top of stage, 440 × 130): drawn geometry — a wide rounded body (`#2A2A35` with a `#146B5E` band), a big lens circle (90 px, concentric rings), a red shutter button 64 px on its top right, a photo slot along its bottom edge. No face, no character.
@@ -170,3 +170,4 @@ What changed:
 - Fixed two rounds with a wrong group: "plants" with a leaf in it (a leaf is part of a plant) is now "flowers"; Level 2 round 1 put the chick beside the duck (near-identical at small size) — the parrot replaces it; the flower round's weak kite decoy is now a lollipop (a round top on a stick).
 - Rebuilt the stage so no picture is ever under 96 px at 704 / 64 px at 360: a tiered class-photo bench (2 + 2 / 3 + 2) with the step beside it, the shutter on top of the camera (always above the fold), the photo keeps 96 px pictures, the wall pins caption cards (drawn), the seat-plan grid is 96 / 64 px.
 - Seat plan: all eight puzzles written out as a table with solutions (re-checked unique by hand) and the 16 true/false statements (8/8, alternating), a second friend/thing set for puzzles 5–8, and the either-or wording settled in all 11 locales.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

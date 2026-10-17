@@ -23,7 +23,7 @@
 - **The strategy taught (miss ladder):** the question's own words are a signpost — the answer sits next to them in the text (*live* → *in a hive*).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: apparatus left, bubble right; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The fact card** (top, 440 × 190 px, cream paper with a punched-hole edge): a library picture of the subject 110 × 110 px at its left (spring/bee, forest-creatures/frog, spring/sun, winter/penguin, forest-creatures/spider, camping/pine_tree, farm-animals/cow, spring/rain, forest-creatures/owl); the two-sentence fact at its right in 26 px Nunito, line height 1.6 so every word is a ≥ 44 px-tall highlight target.
@@ -146,3 +146,4 @@ What changed:
 - **The span rule contradicted itself** (echo spans both accepted and excluded; a bare core word made "Bees live hive."). Now: right = core inside the span, and the rest of the span slides in so the card always reads the authored sentence; an echo is shown and trimmed visibly, never a miss.
 - **Level 2 was word-matching:** each sentence contained its own drawer heading ("It eats…" → *eats*). All seven texts rewritten so no sentence repeats its heading verb (gate-asserted). Level 3 keeps the text visible so each frame has one answer by the text.
 - **Pictures:** spring/sun, spring/rain, camping/pine_tree do not exist → beach/sun, weather/rainy, tree/apple; the spider is the eight-legged insects-and-bugs/spider, so the picture never contradicts the text. All opened on contact sheets.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

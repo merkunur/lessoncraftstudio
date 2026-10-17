@@ -23,7 +23,7 @@
 - **Misconception 3 — I / l / 1 confusion.** The case is set in a literacy typeface in which capital I has bars, small l has a tail and 1 has a flag, so the look-alike rounds are fair.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (type case + tray left, press + poster + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (left 452, right 196):**
 - **Task line** 22 px: the prompt (§9).
@@ -185,3 +185,4 @@ What changed:
 - In-words en table re-counted (u 2, a 4, o 3, e 4, I 2, t 3, b 3 — correct); round 7's third use of "sun" → "cup". Every en picture exists in the theme JSONs.
 - Still not a 5 on completeness: the IN WORDS tables for the 10 non-en locales are left to the build's native authoring (rules are fixed and gated, but the rounds are not written here).
 - (native panel, 2026-10-17) **completeness 4→5:** the 70 IN WORDS rounds for de fr es pt it nl sv da no fi are written in §6 (7 per locale, 2 CAPITALS rounds each, one round per locale on its own letter, every word = its picture's label, all 83 pictures opened on a contact sheet; the teddy-like zoo bear swapped for forest creatures/bear); German noun capitals handled (target never word-initial in mixed-case rounds, no ß in CAPITALS); a position tell found and fixed in the en table too (the target-free word was always third — now spread over slots 1/2/3, measured per locale); the eight locale LOOK-ALIKES rounds are written out with count 4. Measured with `scratchpad/des/work-041/check.js`: 0 errors, first/middle/last letter 17/63/20 %.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

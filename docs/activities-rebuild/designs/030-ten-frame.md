@@ -24,7 +24,7 @@
 - **Misconception 3 (number of the day): ten more changes the ones.** **Push back:** pouring ten more in a "ten more" step always ends with the open tray showing the same ones as before and one more sealed tray on the shelf — the child watches the ones come back to where they were.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (apparatus left, day-card/bubble column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Task line** 22 px above: "Make 14." with the speaker.
@@ -145,3 +145,4 @@ What changed:
 - **The day card now matches the worksheets it covers** (G1-243 family: word, tens & ones, ten more / ten less, one more / one less; tally only on teen numbers as on G1-255). Rounds 3, 6, 9 gain a fourth step: 49 + 1 = 50 (the ones roll over into a new ten), 72 − 1, and 30 − 1 = 29 (**break a ten** — the tray opens in place).
 - **Number words reuse `lib/number-words.js`** (the worksheets' reviewed tables, byte-checked) instead of a new hand table — one source, no drift.
 - Mutation list updated (no 16/s cap; stack must deliver sealed tens; break-a-ten; tally only ≤ 20).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

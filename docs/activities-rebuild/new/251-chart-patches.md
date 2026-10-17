@@ -22,7 +22,9 @@
 - **Misconception 3 — counting jumps one by one along the row** for 23 → 57 (34 hops). **Pushback:** the jumps face stretches a measuring L-piece from start to end: tens down first, ones right — 3 ↓ and 4 →, and the child sees 7 squares, not 34.
 
 ## 4. The stage
-**At 704 px (split: chart 460 px left, tray 200 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: chart 460 px left, tray 200 px right):**
 - **The chart:** 10 columns × 10 rows (1–100; setting 1–50 = 5 rows, 1–120 = 12 rows), cells 44 × 44 px (numerals 18 px Nunito bold, ink on cream; every tenth column a faint teal tint so the columns of ten read). Holes are cut with a torn-paper edge and show the bench behind (darker wood). The chart is printed in the normal school order (1 top-left, 10 top-right, 11 starts row two).
 - **The tray (right):** the current piece(s), drawn at the chart's cell size, each piece a thick card with tabs; the given number printed in ink, the empty cells as pale squares. Keypad 3 × 4 (44 px keys) under the piece.
 - **Arrow strip** (arrow faces, above the tray): 2–5 arrow cards (52 × 52) ↓ ↑ ← →, each with "+10 / −10 / +1 / −1" as small numerals in a corner (content numerals).
@@ -137,3 +139,4 @@ What changed:
 - **Open question decided:** 1–100 in all eleven locales, no 0–99 setting (it would put 0 on a counting surface and is not the dominant grade-1 chart anywhere); 1–120 stays for en.
 - 360 layout fixed: 10 × 34 px cells overflow a 360 screen; the whole chart now stays visible at 32 px (rows of ten are the lesson — no five-row window), with every tap target off the chart cells.
 - Distinctness: the premium `arrow-strip` (plan → predict → run a beetle) stays excluded — the rover is dropped and nothing runs; mystery rounds no longer duplicate Row 97's.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -24,7 +24,7 @@
 - **How the material pushes back:** the stir. Paint that mixes or refuses is physics, not a message.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504 wide), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **Colour shelf** (top strip, 504 × 44): nine slots, each a thin dried colour strip (geometry); empty slots dashed.
@@ -175,3 +175,4 @@ What changed:
 - Removed: post-office/stamp (not in the picture index), brush (en label "Paint Brush"), clock/truck/dress/tent/desk/blocks (not bank rows), the 11-letter thermometer jar round, nest (holds chicks → vest).
 - Pour sets re-cut so "never share a well" wins only 4/9 and 3/9 (measured, `work-c23/m110.js`); Team-jar place bias measured and stated (th is word-final in every grade-1 library picture: 5/9 by place vs 3/9 chance).
 - Collision with Row 112 removed: 110 is CONSONANTS only, vowel teams never poured. Locale lists re-sourced from the banks; sv (6 rows), da (5), fr (4 consonant rows) hidden until bank additions.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

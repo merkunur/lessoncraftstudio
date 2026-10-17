@@ -23,7 +23,7 @@
 - **Misconception 4 — "why" answered with "what".** Why-questions are answered by marking caption words (the bookmark tip snaps to a caption phrase): marking *a giant carrot* for "Why couldn't Millie pull it out?" reads *— because a giant carrot*; the right phrase is *it was stuck*.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px (book left, bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The book** (440 × 300 px): 3 pages, each 142 × 300 px (in the 4-page setting the book becomes a 2 × 2 spread of 216 × 180 pages so characters stay 96 px). Page = sky band (pale blue) over a ground band (green / snow-white / brown, chosen per page), 3 px ink frame, page number dot pattern at the foot (1, 2, 3 dots — not numerals). Library pictures 96 px (main character) and 72 px (props), placed by authored coordinates. Caption under each page, 15 px, max 3 lines.
@@ -142,3 +142,4 @@ What changed:
 - **Answer balance** claimed 6/6/6 but was 7/7/4 → rounds re-authored to a measured 6/6/6, with *after* and *middle* page questions covering G1-400/401.
 - **Twins removed:** the NEXT-PAGE rounds duplicated #064's missing-page level (cut); CAPTION mode's noun-lighting duplicated #067 Otto's Proof Pins → the bookmark now carries the sentence and the page ACTS OUT its verb (nouns repeat across pages, so only the action identifies the page).
 - The celebration template's contradiction ("on page {dots}" vs. its own example) resolved.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

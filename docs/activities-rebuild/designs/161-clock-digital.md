@@ -26,7 +26,7 @@
   4. **Swapping the hands** (reading the long hand as the hour). The short hand gets a thick ink outline and the train shows what the long hand really measures.
 
 ## 4. The stage (what is on the screen)
-`layout:'split'` at ≥ 700 px: clock left, the card right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 At **704 px** (stage 660 × 520):
 - **Clock** (left, 400 × 400): face 380 px cream, teal rim 8 px; numerals 1–12 Baloo 2 800 30 px; minute ticks. **Railway**: a ring of track (two 2 px ink rails, sleepers every 6°) on a circle 74 % of the face radius (≈ 140 px), i.e. just inside the numerals. **Carriages**: arc-shaped blocks exactly 30° of the ring each (≈ 70 px of track, 26 px deep), teal `#146B5E` with 3 px ink outline and two wheel dots; roof numeral white Baloo 2 800 16 px (5, 10 … 55); the first carriage has a rounded nose. **Tunnel**: a drawn stone arch over the track just clockwise of the 12 (54 × 40), the start of the line. Hour hand coral 12 px wide, 100 px long (it ends inside the ring); minute hand teal 7 px, 165 px long, crossing the rails, with a red-and-white striped band (the barrier) where it crosses them.
@@ -137,3 +137,4 @@ What changed:
 - The next-hour misconception now has a physical answer: the train finishes the lap, and only the closing carriage moves the short hand onto the next number.
 - Free play became a real toy (the train pushes the clock round and an hour pops), and is locked during rounds so it cannot be used to find the answer.
 - Rounds kept and re-measured (halfway counts 5/9 and 4/9; L2 long-hand numbers distinct except the 1).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

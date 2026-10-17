@@ -22,7 +22,7 @@
 - The material pushes back by driving, never by a message: the bubble only names what the road already shows.
 
 ## 4. The stage
-**At 704 px (split layout: the road panel 704 wide on top, the story/equation row under it; keypad from the shell):**
+**At 704 px (stacked layout (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704): the stage is ≈ 648 px wide; the road panel spans it on top, the story/equation row sits under it; the shell's keypad, bubble and Check sit under the stage):**
 - **Task line** (≤ 24 px, 2 lines max): see §9.
 - **Story card** (left, 320 × 112): the round's snack picture 96 × 96 (library, see the table in §6) + the story sentence in 20 px Nunito, two lines max. The picture is a label for what Gus sells, one instance — never a pile to count.
 - **Equation card** (right, 300 × 112): `45 − 8 = ▢` in 44 px Baloo 2; the box 72 × 60. A small turn tab in its corner (32 px icon, 44 px hit area) turns the card into column form (§5).
@@ -160,3 +160,4 @@ What changed:
 - **The cart is now locked on its flag during a round.** The old text let free play run at any time — a child could drag the cart 8 ticks from 45 and read 37 off the ruled road, which empties the round trip of its point. It moves only on Check (and in miss 2 / free play).
 - **Coverage stated honestly:** the turn-card shows two-digit sums in columns (G2-251/255/256/259); the three-digit column sheets G2-257/258 and the written carry/borrow are carried by #267 and rows 145–147, not claimed here.
 - Pictures re-checked on the contact sheets: `at-the-supermarket/cart` is a red trolley facing right (it mirrors on the turn), bakery cookie/bagel/pretzel, supermarket raspberry/carrot/apple/cherry all read true; no gopher is labelled in the library (it is on the forest contact sheet but absent from `forest-creatures.json`), so Gus stays a name only.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

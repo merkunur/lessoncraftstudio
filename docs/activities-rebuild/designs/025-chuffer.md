@@ -26,7 +26,7 @@
 - **Misconception 4: 2 + 3 and 3 + 2 are the same way / are unrelated.** **Push back:** the turntable shows they are the same cars turned round — and the route book gives them two different rows (both are true splits, in mirror places of the staircase).
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (yard left, route book + plate + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Task line** 22 px.
@@ -131,3 +131,4 @@ What changed:
 - **Round tables corrected:** Up to 5 had sealed sides L, R, R and BACK UP wholes 5, 4, 4; now SEALED 5 = 2 + ☐ · 4 = ☐ + 3 · 5 = 1 + ☐ (sides L, R, L; parts 3, 1, 4) and BACK UP 2 + 1 (wholes 5, 4, 3). 6 to 9: SEALED 9 = 7 + ☐ (parts 4, 3, 2, no repeat).
 - **Gate rule made satisfiable:** "40–60 % sealed left" cannot hold for three rounds; replaced by |left − right| ≤ 1 and all missing parts distinct per level.
 - Kept as excellent: the switch that routes a rolling stream (the split is a moment of throwing the points), the conservation by back-up, the staircase route book, the sealed tarp for make-ten with a 10-crate wagon so the wagon size tells nothing.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

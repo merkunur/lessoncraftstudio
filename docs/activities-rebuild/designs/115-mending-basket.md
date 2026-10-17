@@ -26,7 +26,7 @@
 - **How the material pushes back:** the thread — it holds only where the meaning agrees, and its snap point is the evidence.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 490):
 - **Granny's book** (top strip, 504 × 44): nine page slots, mended pages as tiny coloured page edges (geometry).
@@ -221,3 +221,4 @@ What changed:
 - True-or-not round 7 (a bird beside a nest that already holds chicks) was true for a child who counts chicks as birds → cup on the table / "The cup is under the table".
 - Fix-the-word pieces re-cut: "pick the longest piece" won 4.7 of 9 (short, slow, hungry were all longest) → 2.2 (measured, `work-c23/m115.js`).
 - Soup minimal pair reframed ("…so Granny made it ___"): cold soup does not get warm by itself. Who-is-it grown from 7 to 9 rounds (dog/bone, Mia/bus). Do round 9 names the log instead of an ambiguous "it".
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

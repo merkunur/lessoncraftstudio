@@ -24,7 +24,9 @@
   - *"was / were are the same"* → the drawer for *be* holds *was · were · been*; *The twins was* prints and is refused.
 
 ## 4. The stage
-At 704: split — machine left 460 px, bubble column right 196 px. At 360: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704: stacked — machine left 460 px, bubble under the stage. At 360: stacked.
 - **The machine** (drawn apparatus, teal body, cream panels, 3 px ink outlines): 440 × 300 px at 704 / 328 × 260 at 360.
   - Top: a **day calendar** 120 × 80 showing **TODAY** or **YESTERDAY** (content words — the time concept is what the task is about; localized) with a page that can flip.
   - Middle: the **input window** 300 × 64 where the verb (L1) or the sentence with its gap (L2) sits, Nunito 800 30 px / 24 px at 360. L2 shows the base verb in a small tag hanging from the window: **(go)**.
@@ -145,3 +147,4 @@ What changed:
 - fr drawer listed the invented *faisé* while §0 promised real forms only — *faisé* now comes out of the press; drawer *fait · fais · faire*.
 - de/sv strong verbs: *ich laufe → lief*, *springer → sprang* drop the present ending as well as changing the vowel — the dial now works on the stem and the ending falls away by itself (otherwise the one-vowel dial could never reach the past).
 - Door distributions measured (`work-c27/measure.js`): L1 4/5/4, L2 TODAY 4 · press 2 · dial 3 · drawer 7, L3 verb index max 3 of 9.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

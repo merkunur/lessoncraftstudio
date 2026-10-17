@@ -23,7 +23,7 @@
 - **Misconception 4 — "opposite end = a shade"** (quiet as a shade of loud). Pushback: removed from the data (the fix above); the voice ladder starts at whisper.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480 × 470), bubble column right (200 px; the menu board under the bubble).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The pot** (centre-top, 240 × 170): the library picture kitchen-tools/pot at 200 px wide (seen: a red-brown pot with an open dark top), with a drawn **soup surface** ellipse clipped to the pot's opening (measured from the picture's ink box) whose fill runs a per-ladder colour scale from pale to deep (heat `#F8E1B4` → `#E2574B`; cold `#F0F7FC` → `#5E8FC2`; wet `#E3F1FB` → `#2D6FB3`; voice and said `#EEE8F7` → `#6B3FA0`; size `#E8F4DC` → `#4E8A2E`; speed `#FFF0D9` → `#D9822B`; time `#E6F4F1` → `#146B5E`) and drawn bubbles (circles 4–10 px) whose rise speed follows the word's strength. **No sign or icon above the pot** — the ladder is named by its own words on the tiles; an icon would have been a 40 px library picture (below the 96/64 px floor), and a growing balloon icon for size would have answered the size ladder by itself.
@@ -157,3 +157,4 @@ What changed:
 - Level 3: "walk · quick/fast · dash" mixed verbs and adjectives, big/large repeated round 1 — replaced with shut/close, fast/quick, fix/repair, talk/speak; Level 4 dropped "tiptoe" (a manner, not a speed) and never puts creep beside stroll.
 - de twins SETTLED from the native-signed G2-358 bank, true twins only: 5 "same" rounds; groß/riesig, klein/winzig, fröhlich/glücklich, springen/hüpfen, schreien/brüllen, lecker/köstlich refused as near-synonyms.
 - The 40 px ladder icons (and the self-answering growing balloon) are removed; the only pictures are the pot, ladle and bowl.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

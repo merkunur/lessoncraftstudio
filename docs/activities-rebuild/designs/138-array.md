@@ -25,7 +25,9 @@
 - **Misconception 4 — rows and columns mixed up** (G2-211, G2-212). **Pushback:** the Find job's wrong plates differ by one row or one column (never the turned-round plate, which would also be right), and the miss lifts the chosen plate's skewers so the child sees "4 skewers of 4", not "3 skewers of 4".
 
 ## 4. The stage
-**At 704 px (`layout:'split'`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout):**
 - **Task line** (≤ 24 px): count — **"Lift out the skewers. Write the addition."** · build — **"Make the plate for {sum}."** · find — **"Which plate is {r} rows of {c}?"** · big arrays — **"How many in all? Lift the skewers to check."**
 - **The plate** (left, 540 × 540): a cream oval-cornered board, teal rim 3 px. Up to 5 × 5 **library pictures at 96 px** in cells of 102 px (5 × 102 = 510). Each row is threaded on a **skewer** — a drawn 6-px wooden stick (warm sand fill, 2 px ink) running behind the pictures, sticking out 16 px on the left as a round **handle-bead** (a 44-px tap/drag target, coral) and 10 px on the right as a point. When the plate is skewered by columns the sticks run top → bottom and the beads sit on the top edge. The **skewer pot** (a drawn jar of sticks, 56 × 56) sits at the plate's top-left corner — tap = re-skewer the other way.
 - **The rack** (right column, 140 × 540): five stacked slots (each 140 × 100). A lifted skewer lies in its slot (fruit at 96 px would not fit 140 px across five pictures — in the rack the skewer is shown **as a drawn stick with the same number of coloured round tokens (24 px) as it holds fruit**, with the full-size picture still on the plate as the label; the empty plate row shows faint outlines where its fruit was). Beside each slot its **box** (64 × 56, digits 34 px) with "+" between slots, and under the rack "= [ ]" (80 × 56).
@@ -135,3 +137,4 @@ What changed:
 - Re-measured every table with my own scripts (`work-c34`): Count rows + columns 0/9; Find positions 3/3/3, total ranks 3/3/3, rows-only / columns-only 0/9, no transposed distractor, all distractors one row/column off, totals distinct; big arrays products distinct.
 - §11 corrected: New 292 is The Pouring Frame (not "Array Frame"); added Baking Tray, 291 Turntable, 305 Tile Roller, 139 Accordion Sentence and 192 Echo Grove with the difference stated.
 - Locale trap added for the skewer word (fi partitive "varrasta").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

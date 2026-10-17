@@ -25,7 +25,9 @@
   4. *Counting corners instead of judging them* (hunt mode): a shape with four corners need not have four right angles — right trapezoids (2), a house pentagon (2), a kite (1).
 
 ## 4. The stage
-**At 704 (layout `split`).** Apparatus 452 px, bubble column 200 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout).** Apparatus 452 px, bubble under the stage.
 - **The bench** (452 × 380), a pale wood-grain rectangle (flat colour, no texture images). On it:
   - **Hunt mode:** one shape, drawn in one fill with 3 px ink edges, at unit u = 30 px (largest shape 15 × 12 u scaled to fit 360 × 300). Each corner has an invisible 48 px tap disc.
   - **Sort mode:** four loose angle chips (two rods meeting at a vertex dot), each in a 150 × 150 cell of a 2 × 2 grid; arm lengths 2–5 units at u = 26 px (52–130 px).
@@ -152,3 +154,4 @@ What changed:
 - Removed a live answer tell: the hunt counter grew only on a CORRECT mark, which graded every tap. It now counts marks.
 - Near misses were not guaranteed visible: the card now lies on the shorter arm and every arm is continued as a dashed ray to the card's length, so a 10° miss opens ≥ 17 px at 360 (the old reading along a 2-unit arm gave 6 px).
 - H4/H5 were the same kite and right trapezoid as sibling #308 — replaced (re-measured: 1 and 2 square corners).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

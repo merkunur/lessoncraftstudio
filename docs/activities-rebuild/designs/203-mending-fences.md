@@ -23,7 +23,9 @@
 - **Misconception 4 — more fence means more grass.** **Pushback:** compare rounds ask both questions about the same two fields; the long thin field wins the fence and loses the grass; the seed bag numbers the grass squares and the roll numbers the boards, both visible together.
 
 ## 4. The stage
-**At 704 px (split: paddock left 470 px, Hazel + the roll + bubble right 210 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: paddock left 470 px, Hazel + the roll + bubble right 210 px):**
 - **Task line** (20 px), §9.
 - **The paddock:** a meadow-green field on a light ground, drawn on a square grid with cell **42 px** (fields up to 10 wide: 420 px); grass squares show faint lines (setting "count the boards") or no lines with each side's length written in the middle of the side (setting "side lengths written", numerals Baloo 2 18 px). The gate is always the top-left corner post (a taller post with a latch). Intact fence boards are drawn planks along cell edges (5 px thick, one plank per unit edge, a post at each joint).
 - **Mend rounds:** some sides are intact, the broken stretch shows only posts at its two ends and bare ground between.
@@ -122,3 +124,4 @@ What changed:
 - Same-roll round 6 had an answer tell for the very misconception the row fights: the right yard (4 × 4) had AREA 16 = the roll's 16 boards, so "compare areas with the roll" picked it. Replaced by 3 × 5 (P 16, A 15).
 - The teaching point "same perimeter, different area AND THE REVERSE" had no reverse question: added round 14 Same seeds (same grass, different fence) with a decoy that has the home field's fence, and a closing comparison of the two rolls (14 vs 16 boards).
 - Settings counts, answer-slot balance and EN strings updated for 14 / 10 rounds. Gate addition for the builder: no same-roll yard may have area = the home perimeter; no same-seeds yard may have perimeter = the home perimeter unless it is a decoy.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

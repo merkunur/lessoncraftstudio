@@ -26,7 +26,7 @@
   4. **Arithmetic slips** (regrouping errors in Level 2): the cut board is exactly the dialed length, so a slip of 10 shows as a big gap or overhang at the level, a slip of 1 as a small one.
 
 ## 4. The stage (what is on the screen)
-`layout:'split'` at ≥ 700 px: bench left, ticket + dial right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 At **704 px** (stage 660 × 560):
 - **Order ticket** (right column, 230 × 210): paper card, story text Nunito 17 px (≤ 3 lines in EN), one library picture 96 px in its corner naming the job (table §6). Tap = TTS of the story where available.
@@ -149,3 +149,4 @@ What changed:
 - The rack could not physically fit: drawn at bench scale a 65 cm board is 309 px in a 230 px column. The rack now lives under the rails inside the bench.
 - The spirit level's physics was impossible as written (a horizontal level "across" two horizontally offset ends): it now stands upright against the two end-faces and leans over the step — how a carpenter actually checks a flush end.
 - Defined the mystery slot when the top board is shorter than the bottom one (neutral, unsized), and wrote all 22 celebration lines in exact EN (the draft said "authored per round" and gave none).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

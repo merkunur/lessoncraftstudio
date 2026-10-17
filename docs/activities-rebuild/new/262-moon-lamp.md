@@ -26,7 +26,7 @@
 - **Misconception 4 — "night is when the Sun goes behind the clouds / turns off."** In DAY & NIGHT the lamp never moves or dims; only Earth turns, and a pin's day/night follows the half it is on.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: model left, window + cards right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 672 × ≈ 420):**
 - **The lamp-sun** — library `beach/sun` (per the picture ruling, not weather/sun or space/sun, which is an opaque square), 96 px, at the far left, vertically centred; six soft beam lines (geometry, 2 px, cream #FFF1C9 at 40 %) fan rightward across the model. A switch (geometry, 44 × 28 rocker) on the lamp's base — only active in free play / between rounds.
@@ -191,3 +191,4 @@ What changed:
 - Checked against the reviewed bank `data/b5/earth-and-space.js` + locales: four phase names {0,2,4,6} (pt lua crescente = first quarter, kept), hemisphere S only in pt (waxing lit LEFT — correct), the 13 facts and their concept/size rules — every FACTS row holds ≤ 1 per concept and never biggest+smallest (verified).
 - Measured with my own script (work-c25/m262.js): the draft broke its own gates — pins numbered in angle order in 5 rounds (ρ = 1.0) and two pins 10° from the day/night line; ORDER given slot was 1 in 4 of 9 rows and never 4. All fixed: |ρ| ≤ 0.5, every pin ≥ 20° from the line, day 11 / night 13, given slots 2/2/2/2/1 and 2/2/2/2; NAME answer slot fixed per round (each slot once per pass).
 - NAME leak closed: the Earth pin and its sight line pointed at the hidden Moon — hidden with the bead.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

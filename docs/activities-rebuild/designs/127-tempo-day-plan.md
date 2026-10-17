@@ -23,7 +23,7 @@
 - **Misconception 3 — the sentence alone is enough.** The old rounds were ambiguous; here the road fixes the situation, and level 3 shows the reverse: one complete sentence → one place on the road.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 440):
 - **The sentence strip** (top, y 0–70): the sentence in Nunito 30 px with the gap as a dotted box (*We clap ___ the song.*); in level 3 the sentence is complete.
@@ -133,3 +133,4 @@ What changed:
 - es cards carry the fused article for masculine events (*antes del / durante el / después del*), as pt and it already did.
 - Pictures confirmed on the sheets (bus = the blue bus, never the printed-English school_bus).
 - Kept: the road-decides fix for the old activity's two-and-three-answer rounds, the L4 rule that never writes *after T1* / *before T2*, and the fi whole-phrase cards — all correct.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

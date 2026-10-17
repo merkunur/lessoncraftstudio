@@ -23,7 +23,7 @@
 - **Misconception 5 — 3/4 of any bar is the same amount.** *Push-back (bar changes size):* two bars both stamped 3/4 — the bigger bar's 3/4 is visibly more chocolate.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below. The bars, moulds, pieces and ticket are drawn apparatus (chocolate browns `#6B4A2B` bar / `#5A3A1E` pieces, 2 px ink, groove lines only where parts are pre-cut); the only picture is Pip.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40. The bars, moulds, pieces and ticket are drawn apparatus (chocolate browns `#6B4A2B` bar / `#5A3A1E` pieces, 2 px ink, groove lines only where parts are pre-cut); the only picture is Pip.
 
 **At 704 — left 460 px (the forge), right 212 px (the counter):**
 - **The bar (left, centred):** an empty chocolate-bar tray — a rounded rectangle, its length = the round's `wholeLen` in units mapped to px (120 units = 420 px; the "changes size" setting uses 96–150 units → 336–525 px, capped to 440 px by scaling the whole forge), 64 px tall, a thin gold rim. Forged pieces fill from the left.
@@ -156,3 +156,4 @@ What changed:
 - Re-checked every fraction: each build round has exactly one mould whose piece fits the bar b times; each find-the-whole round exactly one wrapper of b pieces; name/shade rounds 1 ≤ a < b; denominators stay in the grade-3 set (2, 3, 4, 6, 8).
 - **Size-rank bots balanced.** "Always the middle mould" won 3/6 build rounds and "always the shortest wrapper" 2/4 whole rounds. Pool 2 round 1 now offers 1/4 · 1/6 · 1/8 (the right piece is the largest, and "still pieces — but which size?" is sharper with three small moulds), pool 2 round 10 offers wrappers 6 · 8 · 10: every size-rank bot now wins exactly 2/6 build rounds and at most 2/4 whole rounds.
 - Distinctness confirmed: New 300 (The Spyglass, also 3.NF.A.1) BUILDS the whole by pulling out tubes; here the whole is chosen among wrappers and the copies appear only at Check — the self-writing ticket is the invention, and it is not in any registry.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

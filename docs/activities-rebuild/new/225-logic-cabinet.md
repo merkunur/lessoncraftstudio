@@ -26,7 +26,9 @@
 ## 4. The stage
 Apparatus (inline SVG, shell palette, 2–3 px ink): the cabinet carcase, nine drawer fronts with knobs, the row rails and column rails (thin brass grooves running through the drawers — visible at rest, they are where echoes travel), the cream cards (size = the column attribute), the brass frame-echoes, the tray. Library pictures only (identical instances per row; a card shows one picture scaled to its card, never different art). All drawer fronts the same honey wood (#E9C48F, edge #C9A06A), cards cream (#FFF6E6, 2 px #D9B98A edge), rails brass (#B8893B at 60 %), so colour never hints.
 
-**704 px (content 656), `layout:'split'`:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**704 px (content ≈ 648), stacked layout:**
 - **Task line** (20 px, one line) above everything.
 - **The cabinet** (left, 470 × 470): frame 10 px (#B98B57), 3 × 3 cells **146 px**, 6 px gaps. Cards: **L 144 · M 120 · S 100** (pictures **140 · 116 · 96**, 2 px inset). Rows-only rounds: every card L. The open drawer: front dropped 10 px, a dark well (#6B4B2A at 55 %) where the card will sit, a faint brass ring on its rails.
 - **Hint bubble column** (right of the cabinet, 170 wide): the bubble and the two-test lamps (§7) live here, never on the cabinet.
@@ -264,3 +266,4 @@ Honest residue (kept, not hidden):
 - At 320 px the frame slack is only 5–6 px a side; the bump/wobble motion carries the verdict and the local-test asserts the motion states.
 - The 6-card tray at 704 needs smaller cells (134 px) to keep the stage at 779 px; the size steps there are L/S 1.32 rather than 1.44.
 - The two-rule 4-card tray carries no copy of the drawer above/below (it would re-open the "most like the others" tell); that misconception is exercised by the Rows rule and by the 6-card tray.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

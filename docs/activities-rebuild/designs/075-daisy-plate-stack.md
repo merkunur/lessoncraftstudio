@@ -22,7 +22,7 @@
 - **Misconception 3 (Back to one) — "the singular is the plural minus the last letter."** "glasses" minus one letter is "glasse"; the ending tile comes off whole ("es") because it went on whole. "knives" → the card flips back to "knife".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: counter stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 470):
 - **Order ticket** (top-left, 120 × 90, a paper slip with a drawn clip): the customer's number of plates as a numeral (44 px) and as dots (5-frame dots, 14 px). In the sentence level the ticket also carries the sentence (§6).
@@ -141,3 +141,4 @@ What changed:
 - **s or es:** dress, watch, bench, brush on plates replaced by diner words where the extra beat is heard — peach, glass, radish, lunchbox, fox (stool) vs fork, bowl, mug, spoon; split 5/4 so neither "always s" nor "always es" passes (bots capped ≤ 4/9 and ≤ 5/9); potato/tomato banned (their -es adds no beat).
 - Level 1 plate-on-a-plate and ball → donut, muffin; Level 4/5 teeth/dresses → geese/radishes; "Three mice ran into a hole" → "Three mice sit at the counter"; "Brush your teeth" → "Two geese waddle in for lunch."
 - Two mutations added (animal on a plate; mixed holders).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

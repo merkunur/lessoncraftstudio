@@ -23,7 +23,9 @@
 - **Misconception 3 — reading the bar's top as a count of bricks or reading the axis by ones** (a bar of 7 five-bricks read as 7). **Pushback:** the axis numbers beside the column count by the scale (5, 10 … 35) and the unfold drops 35 tokens in tens-rows onto the track.
 
 ## 4. The stage
-**At 704 px (split: board left 500 px, table + key column right 180 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: board left 500 px, table + key column right 180 px):**
 - **Task line** (≤ 24 px) — make: **"Use the table. Stamp each row to show its number."** · read: **"Each picture stands for {k}. How many in each row?"** · bars make: **"Use the table. Build each bar with bricks."** · bars read: **"Each brick stands for {k}. What is each bar worth?"**
 - **The board (pictograph):** 3 or 4 rows, each 64 px high with 16 px gaps: a row label = the library picture at **96 px** on the left (labels are full size); the row track 360 px long where printed pictures sit as **data marks at 44 px** (the data-mark ruling: ≥ 40 at 704, ≥ 30 at 360) with 4 px gaps — 8 marks max (16 ÷ 2, 40 ÷ 5) = 8 × 48 = 384 px → the track is 390 px. A pull-tab (28 × 44 px, a drawn paper tab) at each row's right end. Under each row, folded away, a thin number track (0 to the level's max, numerals every 2/5/10) that appears only during an unfold.
 - **The key card** (right column top, 160 × 96): the picture at 64 px, "= 2" (or "= 5") in 28 px; in read mode also a half picture "= 1" when the key is 2.
@@ -109,3 +111,4 @@ What changed:
 - The unfold for picture = 5 rows (up to 40 tokens) now lands in groups of five on a track counting by 5 — 40 loose dots would have shown the ones and hidden the scale.
 - Distinctness made explicit against the other designed stamps (Row 170 Stamp Sheet, New 285 Ink-and-Stamp Press, Row 23, Row 108): only here does one press carry a VALUE, and only here does a row unfold back into its ones.
 - Pictures re-checked on the toys / fruits / farm-animals contact sheets: every row label exists and reads as itself; the half-picture cut on the ink box keeps a half recognisable.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

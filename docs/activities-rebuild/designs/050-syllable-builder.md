@@ -27,7 +27,7 @@
 - **Misconception 5 — counting letters** (Level 3: *pez* is short but so is *sol*; *hipopótamo* is long). Pushback: too few dominoes → the last one throws two syllables up stuck together; too many → a blank domino falls and throws nothing.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the table stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The fallen row** — the table is seen from a little above (3/4 view), so a fallen domino lies face-up and its syllable stays readable (ExtraBold 30 px on the fallen face). Fallen tiles overlap by a shrinking amount along the run (20 px → 4 px); on success the row slides together edge to edge in 300 ms. No separate strip exists anywhere on the stage.
@@ -181,4 +181,5 @@ What changed:
 - Re-verified by script: all 34 words in `approved-words-es.json` with the shown splits (accents and *güi* kept) and equal to their es picture labels; the *sapo* → *rana* fix stands (the library has no toad).
 - The domino box stacks drawn tiles with words, not 30-px pictures (record ruling).
 - Kept: "completa la sílaba que falta" as Level 1 (the Spanish classroom's daily exercise) with gaps first/middle/last and a same-word distractor in every candidate set; the order and count levels.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

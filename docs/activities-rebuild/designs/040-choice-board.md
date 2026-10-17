@@ -20,7 +20,7 @@ Every child has pushed a block into a shape-sorter. Here the box is a bright red
   4. *"A long thin rectangle is a square" / "any four-sided shape is a rectangle".* The square door's four sticks are all one length: laid on a long rectangle, two sticks leave gaps at both ends and two overhang the corners. The rectangle door's sticks are two PAIRS — each stick the same length as the one opposite it — plus little square-corner marks: on a rhombus the marks cannot sit flat in the corners and tip over; on a trapezoid the opposite sticks do not match. ⚠ Mathematically a square fits the rectangle door (opposite sides equal, four square corners) and the door lets it in — the apparatus never teaches a falsehood. One-right-answer is kept by the ROUND TABLES instead: no round ever offers a square where a rectangle door could also take it (Real rectangle rounds contain no square; Name rounds never show the square and rectangle doors together).
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (stage left, bubble column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 460 × 440):
 - **The work mat** (top 230 px): a cream rounded rectangle with a faint dot grid. Count mode: one shape tile centred, 150–190 px across (drawn polygon, 3 px ink outline, flat fill from the shell palette chosen by round index — never by side count). Sort / Real: a **tray** of 5–6 tiles, each 96–110 px across, two rows of three.
@@ -189,3 +189,4 @@ What changed:
 - Real mode used only one rectangle (100 × 36), so "rectangle" could come to mean "long and thin". Added Q6 (100 × 60) to rounds 3, 6 and 9.
 - Added an honest note: trying doors in Count mode is allowed, and every failed offer still shows the difference stick by stick. The prose must never claim the count has to be read first. This is the #22 Nesting Pots reviewer lesson.
 - **Fun:** the box already had a toy's feel (clack, thunk, the drawer). The Name doors add a reading reason to come back.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

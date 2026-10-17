@@ -21,7 +21,9 @@
 - Push-back by the material, never by a message: the viewer registers both pictures on the same floor point (ink-box bottom centre), so identical pictures produce a window that does not change at all, and any difference — however small — appears as MOTION in exactly the place it lives (the eye's change detector, not the child's naming, does the noticing). Only a pair that stood still can be clasped. The odd one is not guessed: it is the card still alone when every twin is clipped, so "different" is discovered by pairing.
 
 ## 4. The stage
-At 704 (split layout, stage ≈ 660 × 470):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 470):
 - **Card tray** (left column, 400 wide): cards 112 × 112 (white, 3 px ink outline #0F4A40, radius 14, shadow 0 3 0 #E6D8BF), picture 96 × 96 fitted by its ink box, pitch 124. 4 cards → one row of 4; 5–6 → 2 rows of 3; 7–8 → 2 rows of 4.
 - **The Blink Viewer** (right column, 240 × 300): a drawn box (teal #146B5E frame 3 px, cream body #FBF3E4, radius 18). Top: two **loading sockets** 56 × 56 side by side (small card outlines; a loaded card shows as a 48 px thumbnail). Centre: the **window**, a 200 × 200 rounded square (white, inner shadow) showing ONE picture at 180 px. Right side: the **lever** — a drawn chrome arm with a 64 px round knob (coral #F2784B) that swings down 40° when pressed.
 - **Pairs shelf** under the viewer: a drawn plank 240 × 14; clasped pairs stand on it as 64 × 64 thumbnails overlapping by 20 px.
@@ -169,3 +171,4 @@ What changed:
 - Picture rulings applied from the contact sheet: the chick left O7 (it shared a round with the duck) and T8 (chick + duck, and a mirrored duckling — the duckling is front-facing and symmetric, so its mirror would be invisible). T8 is now duckling ×2 · duck · goose · duckling@s · duckling@h. P4 cow@h → cow@s (the cow is mostly white, so a hue shift would barely show).
 - The verdict cannot happen before both pictures have been shown twice (the child must SEE the comparison); gated and mutated.
 - Blink rate capped at 2 per second; reduced-motion = tap-to-flip only (photosensitivity).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

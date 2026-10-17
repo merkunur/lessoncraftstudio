@@ -24,7 +24,7 @@
 - The pushback is physical (fall / no fall) plus the joined sentence, which lets the child read whether it makes sense.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The track** across the stage (440 × 40 px wooden plank) with **2 or 3 domino places**. The given fact's domino stands in its place; the gap place shows a dashed domino outline. Dominoes are 120 × 176 px (portrait), fact text 18 px centred, max 5 lines; text only (no pictures on dominoes — §6).
@@ -139,3 +139,4 @@ What changed:
 - **Misconception 3 (direction) had nothing to test it:** no tray card was a result that could be stood on the wrong side. Every ← round now carries a **direction lure** (a real effect of the given fact: *It drips on the floor, so the ice cream melts.*).
 - Level 3 round 6 (kite goes up / kite flies high — order arguable) replaced; *cocoon* → *chrysalis* (butterflies) in Level 1 and Level 3; a ← cause re-tensed ("We water the plant every day").
 - **Pictures removed from all dominoes:** snowflake→snowman and cloud→puddle made rounds solvable without reading (and spring/rain, spring/sun do not exist). Linc (forest-creatures/lizard) opened and confirmed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

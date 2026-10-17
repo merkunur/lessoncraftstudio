@@ -23,7 +23,9 @@
 - **Misconception 3 — below zero, numbers grow downwards in the wrong direction** (between −10 and 0 a child counts "−10, −8, −6…" correctly, but between 0 and −10 says "−2, −4" from the −10 end up). **Pushback:** same ring; plus miss 2 numbers every mark in the gap around the liquid top, so "−4 is two marks below 0" is visible.
 
 ## 4. The stage
-**At 704 px (split, `layout:'split'`; the tube is the hero):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout; the tube is the hero):**
 - **Task line** (≤ 24 px): read **"Read the thermometer. Type the temperature."** · set **"Make it {t} °C. Warm it with the sun or cool it with the snowflake."**
 - **Left column (320 px): the thermometer.** Glass tube 44 px wide, 440 px from the bulb's top to the tube's end; bulb 72 px. Liquid red (coral token), always the same colour (the colour never tells warm/cold). Marks: 2 px ink, 22 px long on the tube's right side; **numbered marks** 34 px long with Baloo 2 700 22 px numerals to their right ("−10", "0", "10" …, minus U+2212); the **zero mark** is 4 px thick. "°C" sits once above the scale top (18 px). Mark spacing per level: by 2 → 15 gaps × 28 px; by 5 → 8 or 12 gaps × 52 / 35 px; by 10 → 6 or 10 gaps × 70 / 42 px (always ≥ 26 px — fat enough to tap and to see).
 - **Frost band:** for ranges that go below zero, the tube's backing below 0 is ice-blue with a 6 px frosted edge.
@@ -120,3 +122,4 @@ What changed:
 - **Missing worksheet level:** G3-345 L3 is marks worth 1 numbered every 5; added scale "marks worth 1" with two measured 10-day tables (0–20, −10–10, 4 negative reads).
 - The pitch said a mark-as-1 reading lands "half a mark above" — it lands short of the liquid (a smaller number); fixed.
 - **Alignment overclaim removed:** shuffled readings are not "real 3-ESS2-1 weather data"; the end show is now an honest reading card (ten readings → a graph), and the identity names what is and is not taught.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

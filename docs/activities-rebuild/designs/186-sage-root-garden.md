@@ -25,7 +25,7 @@
 - **Misconception 5 — spelling changes break families** (baker has no "bake", sunny has two n's). Pushback: the bulb animates the e melting into -er and the extra n budding before -y, so the root is visibly still there.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (470 × 440), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The bulb** (centre-low, 200 × 150, drawn: a cream-brown bulb with three root threads, 2 px ink, in a drawn soil band 450 × 90): the root word across its skin, Nunito 34 px bold. Above the soil line, the **shoot zone** (450 × 110) where parts stand as green shoots carrying their letters (Nunito 30 px; a shoot is a drawn stem + one leaf).
@@ -149,3 +149,4 @@ What changed:
 - Level 2 round 9 had two right answers ("The kids are playful outside" is correct) — -ful replaced by -s.
 - Level 2 picture tell: the person picture appeared only in the four -er rounds (picture ⇒ -er, 4/4). Now it appears only on success; miss 2 glows the sentence's clue word instead.
 - sink() spec now strips doubling/e-drop before judging the leftover (starry/piggy/sunny/baker grow; stare withers); -ess/-ade added to the part list; Level 3 "reteach", "trusty/trustful" replaced (teaching; rain with the containing trap "train").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -27,7 +27,7 @@
   5. *Possessive chains read backwards* ("dad's mom" read as "mom's dad"). The step chips must be tapped in the riddle's order and the light follows them literally, so a reversed chain visibly ends somewhere else (two grandparents sit side by side; the trail shows which one was reached).
 
 ## 4. The stage
-Layout split at ≥ 700 (tree left 430, step chips / word bank / bubble right 210); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 640 × 560):
 - **The tree** (430 × 500): a soft drawn tree — teal crown behind the top row, cream trunk behind the children's row (the K-370 worksheet look). **Frames** 112 × 64 (cream name plates, 3 px ink outline, rounded 12 px) in three generation rows; **couple bars** (horizontal 4 px) between partners; **descent lines** (vertical 4 px) from a couple bar's middle down to a children's rail. Descent lines from the grandparents are coloured by side (coral = mom's side, teal = dad's side) — the colour is the side, never the sex.
@@ -149,3 +149,4 @@ What changed:
 - Aligned every string with the K-370 bank (`riddleFrames`, `clueFrames`, path-keyed kin map, names, rule 11 "no first person"): riddles are about a named star ("Mia's mom's sister is Mia's ___"), not "my …".
 - Wrote real round tables for all modes (9 forward riddles = the bank's 8 D2 paths + a cousin; 8 reverse walks accepting any valid walk ≤ 4 steps; 9 generation rounds; 8 clue rounds with one relative clue each and a brute-force uniqueness gate) and measured answer positions.
 - Side colour on the grandparents' descent lines (never sex colour); sex is carried only by the words and the steps.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

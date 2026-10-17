@@ -23,7 +23,9 @@
 - **Misconception 3 — "-er always means a person".** The *kind* family includes *kinder* ("more kind"): the same two letters, a different ribbon. The press makes the difference visible.
 
 ## 4. The stage
-**At 704 px (split: the press left 420 px, the task card right 260 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: the press left 420 px, the task card right 260 px):**
 - **Task line:** person words **"Print the word that fits. Pull a stamp, then slide the word into the gap."** · families **"Print four words from the root, one for each sentence."**
 - **The press** (drawn apparatus: brass frame 400 × 300, 3 px ink): **stamp rack** on top — 3 stamps (person words) or 6 stamps (families) hanging on hooks, each a block 72 × 48 showing its affix as content text ("-er", "re-", "-ful"); a **type bed** in the middle holding the root's letter blocks (40 × 48, Baloo 2 700 28 px); the **lever** on the right (44 × 140 grip); the **spare-letters cup** (48 × 40) at the bed's left end; the **output tray** at the bottom where the printed strip (white paper, word 28 px) and its **ribbon** (teal, 16 px Nunito 700, white text, up to 2 lines) appear.
 - **Task card (person words):** the **picture** (library, 128 px in a cream frame) above the **frame sentence** with its gap (a dashed slot 150 × 44) — e.g. picture `occupations/baker`, "This is a ___." The root word is printed small under the picture ("bake") so the child knows what went into the press.
@@ -157,3 +159,4 @@ What changed:
 - **Thin banks — honest fallback, no padding:** locales have 2–4 framed families against 8 needed. Each mode ships per locale only at ≥ 7 reviewed rounds (person: ≥ 2 per stamp); otherwise hidden; both below 7 → refused and recorded (fr/es the likely case).
 - Re-measured the person tables after the swaps: 4/3/3 answers, slots 3/4/3 and 4/3/3, first-stamp bot 3–4/10, picture bot 5/10. (A child who reads the frame's job word — "is", "Yesterday", "This is a" — solves every round: that IS the skill, sentence role, not a tell.)
 - Distinct from designs/114 (lay a root stencil over a long word: decomposition), designs/186 (the Root Bulb also lists G3-398/399, but there the child *decomposes* a given word; here the child *composes* it and carries its meaning into a sentence) and new/279 (spelling-rule stencil at a gap: no affix meaning). No shared mechanic.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

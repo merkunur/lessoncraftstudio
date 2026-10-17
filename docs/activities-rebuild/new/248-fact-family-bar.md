@@ -23,7 +23,7 @@
 - **Misconception 4 — equal parts give four facts.** **Push back:** with 4 lemons and 4 oranges, "4 + 4 = 8" made either way writes the same sentence, so the second slip is refused; the round has two facts, and the house shows two windows.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (counter left, house column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 452 + column 220):
 - **Task line** (22 px): **"Fill all four slips with the family {a}, {b}, {w}."** (§9)
@@ -147,3 +147,4 @@ What changed:
 - **Misconception 1 described physics the rules did not produce** ("9 + 4 spills"); rewritten to what actually happens (the lemon basket is empty — the whole is already everything).
 - Measured: bigger part A/B 4/4 in both levels, fruit pairs unique per level, no 0, talking round equal parts; fruits re-seen on the contact sheet (kiwi is a cut half, pear blushed — both fine as labels, cherry/plum/peach excluded).
 - Overlap with row 135 and row 84 on the fact-family sheets is deliberate and divided: this tray builds all four facts of one whole; 135 owns the twin relations (turnaround / take-away); 84 one domino turned and broken.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

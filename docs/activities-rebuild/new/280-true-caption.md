@@ -23,7 +23,7 @@
 - **Misconception 3 — writing the same thing three times.** The album refuses a photo it already has, and a page may not say one place over and over (album 2: two different position words; album 3: none more than twice) — so the child has to look at a different part of the room.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px**
 - **The room** (stage 470 × 330): drawn wall (cream) and floor (sand band, 1.5 px ink line). One piece of library furniture stands in the centre, scaled to 240 px wide (the table, chair, bench, stool or bed/sofa — §6), with its top surface and the space beneath it clearly free. Library objects: one on top of the furniture (or two side by side on the bed/sofa), one under it (when it has legs), one on the floor at each side. Every object 96 × 96 (the under-space of a 240-wide table/chair/bench/stool is ≥ 110 px, measured from the art's ink box at build). Objects are identical-scale and stand on visible surfaces (a 6 px drawn contact shadow).
@@ -116,3 +116,4 @@ What changed:
 - Removed every undecidable sentence: with "next to" between any two objects, "a ball (under the table) is next to a dog (beside the table)" or "a cat on a low stool is next to a dog" had no honest yes/no and the model would have refused what a child sees as true. One rule now: the *by what* slot takes only the furniture (no dimming that depends on the room, so nothing leaks).
 - Re-measured with my own oracle (`work-c36/c280.js`): 4 true of 12 buildable (33 %; 27 % with the trap) in every room — honestly higher than the designer's 16.6 %, which counted those ambiguous pairs as false. Added the variety rule (two position words on a 2-photo page; none thrice on a 3-photo page, hint `samePlace`) so "X is next to a table" twice can never fill a page.
 - Ran LCSGrammar `prepSentence` for the 6 furniture nouns × on top of / under / next to × 11 locales: 0 refusals (de dative einem/einer, fr frame B "à côté d'un", fi genitive + postposition).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

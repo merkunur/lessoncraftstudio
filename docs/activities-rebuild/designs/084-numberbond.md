@@ -23,7 +23,7 @@
 - **Misconception 3 — the order of the parts matters / "5 + 3" is a new fact to learn:** **Push back:** turning the domino swaps the halves and the plate does not change.
 
 ## 4. The stage
-Split layout at ≥ 700 px (domino left, fact house right); stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (content 672):**
 - **Task line** 22 px: "Dial the ? and press Check. Then make all four facts." (one wording for every stance — the equation strip shows where the ? is)
@@ -158,3 +158,4 @@ What changed:
 - **Round tables rebuilt and re-solved by my oracle:** every trio still an old trio (1–8), each form twice in Within 20, answers 5/7/9 twice each and the rest once (Within 10: eight different answers), hidden part bigger in 4 of 8 / 3 of 6. The old ✱ notes miscounted (six trios, not three, swap their unknown) — corrected.
 - **One task line for every stance** ("Dial the ? and press Check…") so the line never changes wording (LAW rule 2).
 - **Distinctness:** row 90 (then "The Domino Train", now The Plank Path, 1.OA.D.8, batch 22) — §11 states the ownership of the missing-number sheets (row 90) and that nothing is shared.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

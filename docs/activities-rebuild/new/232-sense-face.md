@@ -21,7 +21,9 @@
 - **Misconception 3 — "taste is only the tongue, smell has nothing to do with it".** Lemon, onion, strawberry, pizza deliberately need nose AND mouth.
 
 ## 4. The stage
-At **704 px** (split: face stage 470 px, conveyor/bubble 214 px):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At **704 px** (stacked: face stage 470 px, conveyor/bubble 214 px):
 - **The face board** (centre of the stage, 440 × 420): a drawn rounded face outline (cream fill, 3 px ink, no features drawn — every feature is a library picture). Sockets, each a library picture inside a drawn socket ring (teal, 4 px):
   - **eye** `body-parts/eye` 120 px — upper middle;
   - **ear** `body-parts/ear` 110 px — on the right edge;
@@ -170,3 +172,4 @@ What changed:
 - **"I can ___ the bell" had two right answers in every round** ("I can see the bell" is true — everything can be seen). The task is now **Sense words**: (a) the word for the glowing body part (G1-360, one right word each) and (b) "I can hear/smell/taste/touch the ___" with three picture tiles where the two wrong ones truly cannot be sensed that way (G1-361); no "see" sentence.
 - **Find all was unfair to a careful child:** a drum, a rose and a lollipop left un-plugged in a "touch" round can all be touched; honey, bells and pillows in an "eye" round can all be seen. New rule and tables: no eye Find-all; non-belonging things must truly not be sensed that way.
 - Pictures: at-the-supermarket/salt has the printed English word SALT → desserts-and-sweets/pudding; space/saturn (a planet a child never sees) → christmas/star; odd-ones adjusted (no touchable xylophone/candy as "not touch").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

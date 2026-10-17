@@ -25,7 +25,9 @@
 - **Misconception 4 — the bottom number read as "how many in each part"** (dealing 12 into parts of 3 makes four parts). **Pushback:** the walls make exactly b parts and the shoe only deals once the tray has the card's number of parts (§5).
 
 ## 4. The stage
-**At 704 px (`layout:'split'` — the tray on the left, a narrow column on the right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout — the tray on the left, a narrow column on the right):**
 - **Task line** (≤ 24 px, ≤ 2 lines): **"Make {b} equal parts. Deal the {N}. How many is {frac}?"** (the fraction drawn as small stacked numerals, 20 px).
 - **The shoe strip** (full width 672 × 110): a drawn wooden dealing shoe (rounded box, teal rim, a slot at its right end) holding the pile as an overlapping fan of the round's library picture at **96 px** (overlap up to 60 %; the pile is not for counting). A numeral tag on the shoe shows **{N}** (28 px). The whole shoe face (260 × 110) is the deal button.
 - **The tray** (536 × 432): cream floor, teal rim 3 px, corners 14 px. Its height never changes — it is the whole. Walls are 4 px teal bars across it; with b parts each part is 432 / b tall (216, 144, 108). Each part is a **drawer**: a front edge at its right end with a round pull-tab (44 × 44, coral ring). Pictures sit in one row per part: **96 px**, 8 px gaps, 5 per row at most (5 × 96 + 4 × 8 = 512 inside 536); a half (216 tall) holds **two rows** of up to 5 (2 × 96 + 8 = 200), so halves go up to 10 per part. The left rail (24 px wide) holds the **turn-pointer** (a coral chevron beside the part that receives the next card) and the **wall button** (two 44 × 44 buttons stacked, drawn as a wall with an up / down arrow — no words).
@@ -137,3 +139,4 @@ What changed:
 - Halves had only three set sizes (6, 8, 10) and 1/2 of 6 = 3 = 1 + 2. A half has room for two rows of pictures at every width (216 / 136 / 120 px tall), so halves now run 1/2 of 8 … 20 (seven set sizes, answers 4–10); the layout lines and the gate rule (4–10 per half, 2–5 per third/fourth) say so.
 - The one weak bot left (add top + bottom, 3/9 in the unit thirds/fourths tables) is named and justified in §6 instead of hidden.
 - §11 adds Row 193 The Cake Carousel (the other round-robin dealer) with the difference stated.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

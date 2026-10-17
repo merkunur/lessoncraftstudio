@@ -24,10 +24,10 @@
 ## 4. The stage
 Apparatus geometry: the book (two pages, the hinge as a silver bar with a highlight), the landing frame, the candidate tray, the prints strip. Library pictures only; reflections and turns are transforms of the same picture (scaleX(−1), scaleY(−1), rotate(180°/90°)).
 
-**704 px (content ≈ 656):**
+**704 px (stage ≈ 648, stacked):**
 - **Task line** (20 px).
 - **The book** (centred, y 56): two pages **264×264** each, hinge 10 px between (538 px wide). Original picture box **200 px** on the left page, placed so its ink box touches 16 px from the hinge (so a reflection really meets it at the mirror). The right page shows the dotted landing frame at the mirror position.
-- **Water setting:** pages stacked: top page 300×210 (picture 170), a horizontal hinge styled as a pond edge (a 10 px blue-grey bar with two ripple lines), bottom page 300×210; candidates in a column at the right (`layout:'split'`).
+- **Water setting:** pages stacked: top page 300×210 (picture 170), a horizontal hinge styled as a pond edge (a 10 px blue-grey bar with two ripple lines), bottom page 300×210; candidates in a column at the right of the pages, inside the stage (stacked layout (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704); pages 300 + candidates fit the ≈ 648 px stage).
 - **Candidate tray** (below the book, side setting): 3 (or 2) cards **150 px** (picture **120 px**) in a row.
 - **Same on both sides:** three pictures in a row, **176 px** cards (picture 150), each with a dashed vertical line through its ink-box centre; the book is replaced by these three "small books" (each picture folds about its own line).
 - **Prints strip** (bottom, 64 tall): nine 56 px slots.
@@ -148,3 +148,4 @@ What changed:
 - Ruling applied: the "fold lines / how many mirror lines" setting duplicated #285 The Fold Press (its how-many-lines mode, same 8-notch fold). Removed from this file — the setting, its round table (incl. shapes/octogon, a noun that does not exist in the library), the numeral strip, the Fold button, the strings, the state, the gate rules and mutations; §0 and §11 say the skill lives in #285, and §11 explains how this file's G2-248 face differs from #285's (choose the symmetric picture vs judge a given line).
 - Reality: animals/koala (LR IoU 0.69) was a "not symmetric" picture — a front-facing koala looks symmetric to a child, a hair under the 0.70 ceiling. Replaced by animals/dolphin (0.53, re-measured); the swap back is now a mutation.
 - Verified the core physics: the true reflection, folded across the hinge, becomes the original; a copy folded becomes its mirror and misses; the water half-turn lure is the reflection also mirrored left–right — all correct.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

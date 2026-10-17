@@ -25,7 +25,9 @@
   5. **"Bigger denominator, bigger piece"**: in free play, **Halve again** turns fourths into eighths and the stamp visibly shrinks.
 
 ## 4. The stage
-At 704 (layout `split`, stage ≈ 660 × 480):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704 (stacked layout, stage ≈ 648 × 480):
 - **The cutting mat** (left, 420 × 420): a drawn green mat (#3E8E6A with a faint 1 cm grid in lighter green — decorative, not counting units) with the round's **shape** in the middle as a cream cardboard cut-out (#FBE7C6, 3 px ink outline), sized to fill a 320 × 320 box (circle d = 320; rect 320 × 200; etc.). Cut lines are 3 px dark ink with a little scissor-dash on the first 100 ms. Every cut runs **edge to edge** (a cut can never stop in the middle of the shape — that rules out the classic "T-cut" whose equal pieces are not copies). **The cut menu per shape (exact; nothing else can be cut)**:
   - **square / rectangle / oval (ellipse)**: two brass **rails** (6 px) along the top and the left edge, each with a **cut handle** (a 40 px round grip with a blade icon); the handle slides along its rail in 1/24 steps and drops a cut straight across, parallel to the other pair of sides. The **square only** also has two **corner pins** (24 px brass pins at two adjacent corners) that drop a diagonal. The rectangle has no diagonals (its two diagonals make four equal triangles that are not copies).
   - **diamond (rhombus)**: rails along its two diagonals (cuts parallel to a diagonal, 1/24 steps — the diagonals themselves at the 12/24 step) and two **mid-pins** on adjacent sides that drop the two lines through the centre parallel to the sides.
@@ -173,3 +175,4 @@ What changed:
 - L2 #3/#4/#5 tempting cuts that were unreachable under the menu were replaced by reachable wrong cuts (⅓ + ½ strips; spokes to two corners and a midpoint; spokes 1-2-4); the "thirds of the height" trap is explicitly left to Row 107.
 - Free play no longer lets the child add arbitrary cuts (which could have produced an unfair verdict); **Halve again** gives proven-congruent eighths/sixths.
 - Distinct from fraction-kitchen spelled out: no guide lines, no food, no seesaw, no plates — the test is the child's stamp.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

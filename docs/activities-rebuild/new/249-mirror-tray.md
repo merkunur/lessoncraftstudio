@@ -23,7 +23,7 @@
 - **Misconception 4 — not seeing how far from fair** (moves hands one at a time at random). **Push back:** the flag's slide equals the DIFFERENCE between the teams (one tick per extra hand) — the tick scale makes "4 apart, so move 2 across" discoverable.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (field left, answer column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 452 + column 220):
 - **Task line** (22 px): the prompt (§9).
@@ -136,3 +136,4 @@ What changed:
 - **Rope scale overflow:** a HALVE deal can differ by more than the 10 ticks a side; the end-stop behaviour is now specified instead of drawing ticks that do not exist.
 - **Numbers-only flow:** the keypad was gated on a tie that numbers-only rounds never have; it is now open at rest in those rounds, and the canvas lifts to PROVE the typed number.
 - Measured: tables in range, no 0, one odd coil per pass in each halving set (7, 13, 15), keypad answers (no screen position), coil side alternates. The design's own move away from the coverage review's hinged mirror is right — doubling-mirror (premium tool) and folding-sheet already own that interaction (checked in `cov/tools.txt`).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

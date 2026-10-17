@@ -23,7 +23,7 @@
 - **Misconception 3: yesterday and tomorrow are swapped.** **Push back:** the rail carries small chevrons pointing in the order of the week (the way time goes). Tomorrow is "one moon along the chevrons", yesterday "one moon against them". A sun moved the wrong way lights the moons on the wrong side, under chevrons pointing away from it.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (ring left, tray column right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Task line** above, 22 px, ≤ 2 lines.
@@ -144,3 +144,4 @@ What changed:
 - **Number them corrected:** with day 1 and two more sockets pre-filled the week asks for 4 tiles, not 3; the year asks for 5 with six pre-filled. Each tray gains a decoy numeral with no place (8 / 13), so "use every tile" is no shortcut and the child meets "the week has 7 days".
 - Miss-1 hint no longer says "one sleep" when the gap is two or three moons; the lit moons carry small numerals instead.
 - Year instruction string added.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

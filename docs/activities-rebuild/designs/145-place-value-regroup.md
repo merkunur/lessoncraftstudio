@@ -24,7 +24,9 @@
 - **Misconception 5 — "a hundred is just a lot of ones":** the flat that comes out still shows its ten rods as faint seams; in free play a flat cranked *up* splits back into exactly ten rods, never into cubes.
 
 ## 4. The stage
-**At 704 px (split layout: mat 440 px left, vice column 240 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: mat 440 px left, vice column 240 px right):**
 - **Task line** (≤ 24 px): see §9.
 - **The mat** (440 × 400): three bays side by side — hundreds | tens | ones — 140 px wide each, low walls 2.5 px ink, headed by a block icon (flat / rod / cube, 26 px) and the localized column name in 16 px (the content words of place value, as in row 96).
   - **Flats:** 60 × 60 squares with a faint 10 × 10 grid, stacked in a 2-wide column (up to 10 → 5 rows × 64 px = 320 px).
@@ -138,3 +140,4 @@ What changed:
 - **New invention.** The Trading Scale was a balance whose beam rests level only when both pans are equal — the mechanic of Row 88's Equal-Sign Beam, Row 166's Fair Scale, New 209's Bet Pan, New 271's Gram Balance and the number-balance tool. It is now **the Square Vice**: tens are stacked on a bed in front of a square gauge, the child cranks a screw jaw down, and the catch drops into its notch only when the stack is exactly ten high — exactly when ten rods make a square, i.e. a hundred. Nine leave a bare stripe, eleven stick out over the top; nothing weighs, nothing tips. The same vice makes a rod from ten cubes (the gauge turns into an upright rod's face), and free play cranks a flat back up into its ten rods.
 - All three tables re-solved by script (`work-c33/verify.js`): default totals 210 310 410 400 510 200 500 300 (four exactly-ten, four eleven-tens rounds), warm-up totals distinct with tens sums 5–8 and ones sums 6–9 (no lock possible), both-trade totals distinct with tens sums 11–14 before the carried ten — every claim held.
 - Notation re-checked against row 96 §9: carry box in the de *Übertragszeile*, above the top number elsewhere.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

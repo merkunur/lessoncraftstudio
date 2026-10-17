@@ -25,7 +25,7 @@
 - *Next* and *Then* are interchangeable middles — both are accepted in either middle frame (there is no "two right answers" problem: both orders of the middles are right by design).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px**
 - **Projector screen** (top of the stage, 300 × 190, a drawn white screen with a soft frame): shows the frame being played, large (library picture 150 × 150) with its sentence underneath (Nunito 20 px).
@@ -41,7 +41,7 @@
 
 ## 5. The hand
 - **Drag a frame** from the pile into a window (it snaps, a soft film *clack*); drag it out or onto another window (they swap). Keyboard: Tab to the pile, Enter, arrows choose a window, Enter.
-- **Tap a placed frame** → its caption pair appears in the bubble column; tap a caption → it slides into the frame's caption bar. Captions can be changed until Check.
+- **Tap a placed frame** → its caption pair appears in the bubble area under the stage; tap a caption → it slides into the frame's caption bar. Captions can be changed until Check.
 - **Drag a tape** onto a frame's joint socket: *zzzip*; the tape simply seats (no hint of right or wrong before the crank — an instant curl would let a child find the place by trial and never read the word); when the film runs, a middle tape on frame 1 curls (its tooth has nothing to bite), a *First* on frames 2–4 leaves a light gap at that joint, an *At the end* before frame 4 shows the end-cap blocking the next joint. Two tapes cannot share a socket; a tape can be pulled off.
 - **Turn the crank** = Check (§7). Turning it backwards in free play rewinds.
 - *Starters: shown in order* setting — the tapes are already pressed onto frames 1–4 in order; the child places pictures and captions only.
@@ -116,3 +116,4 @@ What changed:
 - The invention was beatable without reading: the tapes wore their joint shapes in the tray (flat / tooth / end-cap) and the joints showed their state the instant a tape was pressed, so a child could match shapes or try each socket until nothing curled — the time WORD never mattered. Now all four tapes are identical plain strips with only the word; the joint shape appears only when the film runs (and as the miss-2 help). The misconception ("Then" first, "First" twice) is now caught where it lives: in the word.
 - Story 8 used at-the-supermarket/basket for "we put the apples in a basket" — the contact sheet shows it full of groceries; replaced by kitchen-tools/knife ("we cut the apples into pieces": pick → cut → bake → slice). Story 2's cart is an EMPTY trolley, so its caption became "we went shopping for eggs and flour". Checked the rest on the weather, camping, kitchen-tools and supermarket sheets (weather/cloudy is a plain grey cloud with no face, camping/moon a full moon, kitchen-tools/plate empty, bowl empty).
 - §11 now names Row 65 (which also lists G2-378, but by story roles) and says why the joint grammar of time words is a different act. Time words ×11 and the V2 caption order checked (de Zuerst/Dann/Danach/Zum Schluss, nl Eerst/Daarna/Toen/Aan het eind, sv Först/Sedan/Därefter/Till sist, da Først/Så/Derefter/Til sidst, no Først/Så/Deretter/Til slutt, fi Ensin/Sitten/Sen jälkeen/Lopuksi).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -26,7 +26,9 @@
   - *Counting by recognising "lots of triangles":* in count pictures the painted pieces are what the child counts, so nothing is counted twice and nothing is skipped silently.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px).
 - **The picture** (left, 440 × 400 px, cream board with a 3 px teal frame): 7–11 shape pieces, each cream (#FBF3E4) with a 3 px ink outline, no overlaps, smallest short side 64 px. Pictures are made ONLY of geometric pieces (as on K-241 / K-265) — apparatus geometry, no drawn objects.
 - **Paint tins** (right column, 160 px wide): two tins stacked (count pictures: two; real-or-not: one), each a drawn tin 120 × 120 px (a cylinder outline with a lid, the paint colour visible at the rim) with a **label** on its front: in *shape* mode the canonical upright outline (56 px) with the name under it (16 px); in *name* mode the word alone (22 px); in *clue* mode the clue alone — corner beads (8 px dots) and side ticks, or for curved shapes a ring with a centre pin and string. The selected tin rises 8 px with its lid open.
@@ -156,3 +158,4 @@ What changed:
 - The invention could be beaten by brute force: the paint refused wrong pieces at the tap and "rejected paint is never a miss", so tapping every piece let the tin do the geometry. The verdict now waits for **Check, the drying moment**: every coat stays wet while the child decides (with the brush's corner beads and side ticks as evidence), then the pieces set one by one and wrong or open ones shed their paint — the run-off is miss 1 itself. Correctly set pieces stay set; a new hint (`hintWrong`) points at corner counting; mutations now kill a tap-time verdict.
 - Distinctness from #38: #37 judges a whole picture by paint setting; #38's miss showing no longer uses beads (see #38's review), so the bead-and-tick trace is #37's alone.
 - No library pictures are used (correctly — `shapes/diamond` is a turned square and the shapes theme colours give the answer away); nothing else changed in the excellent round tables, which were re-checked (quilts 8 patches each, count values 2–7 / 1–4, never 0).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

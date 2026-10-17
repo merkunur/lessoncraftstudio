@@ -25,7 +25,7 @@
 - **How the material pushes back:** the clasp (locks or refuses), the one-tile socket, and the talker light.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **Team board** (top, 504 × 56): four columns headed by tiny team tiles (oa · ai · ee · ea — content letters); word tags pin under them; empty columns show dashed slots.
@@ -149,3 +149,4 @@ What changed:
 - fi REFUSED: its bank writes a long vowel as two boxes and a diphthong as two sounds (auto a|u|t|o) — a clasp joining them would contradict the bank and the Finnish ruling.
 - Source rule added: team words from the bank (boat, goat, coat, snail, bee, sheep, leaf, moon) + listed bank additions; de rebuilt on its bank (Biene, Ziege, Maus, Haus, Zaun, Auto, Eule, Reis, Bein, Kleid, Schwein, Boot), nl/fr/no on theirs (no hidden until ≥ 7 rows).
 - Picture paths fixed (crow = birds-2/crow, haystack = thanksgivinng/haystack, shown as *haystack* — never "hay").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

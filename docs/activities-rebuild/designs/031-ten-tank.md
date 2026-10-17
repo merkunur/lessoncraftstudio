@@ -23,7 +23,7 @@
 - **Misconception 3: a ten is not still ten ones.** **Push back:** take-apart rounds pop a raft into ten loose bubbles; the record stays the same number.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (tank left, record + cards + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Task line** 22 px.
@@ -138,3 +138,4 @@ What changed:
 - **The "some more" became countable:** in the old text the leftover bubbles kept drifting after the seal, so a CATCH round asked the child to count 3–8 moving bubbles — a guess, not place value. Now the seal stops every loose bubble and hooks it onto the raft's **tow-line** in one row behind Dewey's raft: the ten is one raft, the ones are a row. Gate rule 1b + the drift-stop in §5.
 - **Number words reuse `lib/number-words.js`** (the worksheets' reviewed tables, byte-equal gate) rather than separate tables.
 - Kept as excellent: the ghost bay (a wrong card builds what it really means — 41 as four rafts and one bubble), the five decoy kinds, slot/rank balancing, the frozen-title name per locale.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

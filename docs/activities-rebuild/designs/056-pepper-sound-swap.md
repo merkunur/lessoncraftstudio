@@ -24,7 +24,7 @@
 - **How the material pushes back:** the card flips to the honest result of the swap; the goal frame only lights for the goal word.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the card + tiles left (≈ 440 px), the choices / goal + bubble right. Stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 704 × 490):**
 - **Pepper's perch** (top-left, 704 × 104 band): the library parrot at **96 px** on a drawn perch bar (teal rod), with **the swap tile** hanging below her on a string (a coral tile 64 × 64, letter at 40 px white). In Level 3+ the perch holds the **letter tray** instead (four tiles).
@@ -197,3 +197,4 @@ What changed:
 - Level 3 tray: the *k* tile on *sock* reached a vulgar word → *d* (dock); the *a* tile on *cap* changed nothing → *i*. The gate now holds a per-locale deny-list of reachable strings.
 - Locale pairs measured from the picture library for all ten non-en locales (first-sound swaps both pictured); *gatto → matto* struck (no picture). Romance/fi can fill Level 1 honestly; other levels hide per locale below 7 rounds.
 - Pepper 64/48 px and the 56/44 px chain cards broke the picture floor → Pepper 96/64 px, chain = drawn word tickets (renamed from "dominoes" to stay clear of row 50's Domino Run). christmas/sack confirmed on the contact sheet (a plain sack).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

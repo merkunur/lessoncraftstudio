@@ -24,7 +24,7 @@
 - **Misconception 3 — the rose letters are decoration.** The rose is the only source of truth on the board; the board has no up-is-north frame, no arrows, no words.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px (stage left, bubble column right 200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px — Directions on the map**
 - **Turntable** (drawn: a wooden disc 470 px, 3 px ink rim, a soft grain stroke) carrying the **map board**: a rounded square 400 × 400 (cream paper, a faint 3 × 3 grid in light teal 1.5 px). The grid's middle row and column are "streets" (a soft sand band 26 px wide through the centre, so the four arm cells visibly line up with the start).
@@ -142,3 +142,4 @@ What changed:
 - Read every locale's `maps.<loc>.json` dirLetters: de N O S W · fr/es/it N E S O · pt N L S O · nl N O Z W · sv N Ö S V · da/no N Ø S V · fi P I E L — all as the design says. Fixed the false claim that EN reads a maps file (there is no `maps.en.json`); EN is now an explicit wrapper table the gate asserts.
 - Miss-1 hint no longer says "Now north is at the top" as news when the board never turned (`map1Up` key added).
 - All 16 landmark pictures re-checked labelled in 11 locales; the refusal list (camping/compass English letters, post-office printed text, taxi/school_bus/police_car) stands.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -26,7 +26,7 @@
 - **Misconception 4 — reading only the picture, not the text.** **Push back:** half the clues (lay eggs, hooves, lives on a farm, makes honey, hoots) cannot be seen in a picture at all — they must be read and known.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: clue hook + stage + curtain left (≈ 480 px), the wings + bubble + lever right (≈ 190 px). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Clue hook** (top of the stage, 460 × 64): the current clue card face up (420 × 56, 22 px text, centred) with its number badge; the remaining face-down cards peeking behind it (a tiny stack, numbered on their backs 1–5).
@@ -133,3 +133,4 @@ What changed:
 - **Two special clues were not honestly true:** "I live where it is icy and cold" is false for many penguins (Galápagos, African) → "I swim in the sea to catch fish."; "I live on a farm" sent the OSTRICH away, but ostriches are farmed → the hen's last clue is now "I cluck." 16 special sentences (cluck words listed per locale).
 - **Picture found on the contact sheet:** animals/donkey is drawn with zebra-striped legs — added to the "stripes" ambiguity list and to PICTURE-RULINGS.md.
 - Bots re-measured (rarest class 1.3/8 and 0/8; guess-after-clue-1 2.2/8 and 1.3/8).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

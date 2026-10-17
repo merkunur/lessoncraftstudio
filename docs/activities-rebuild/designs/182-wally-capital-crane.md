@@ -23,7 +23,9 @@
   - Locale-specific (§9): English capitalizes days and months, Swedish and Finnish do not; German capitalizes every noun. Each locale's crane carries only its own hooks — a Swedish *måndag* has no hook to hang on.
 
 ## 4. The stage
-At 704: split — site left 470 px, bubble column right 186 px. At 360: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704: stacked — site left 470 px, bubble under the stage. At 360: stacked.
 - **The site** (drawn apparatus): three school writing lines (base line, x-line, dashed cap line) across a long cream board 460 × 150 px (328 × 170 at 360). The sentence stands on the base line in word tiles, Nunito 800, x-height 22 px (cap height 32 px) at 704; 18/26 px at 360. Words are tappable (≥ 44 px tall hit areas).
 - **The crane** (drawn): a teal tower on the right edge with a jib over the whole board, a trolley that runs along it, a cable and a big hook. Height above the board 120 px at 704 / 100 at 360.
 - **The reason tags** hang on a ring under the hook: one round tag per reason, 52 px each, each a drawn icon only (no words): **start** (a little arrow pointing into the first word), **name** (a name-badge outline), **place** (a map pin), **day/month/holiday** (a calendar page), **brand** (a price tag), and in **de** **Nomen** (a tag showing *der · die · das*, which are content words in de). The ring shows only the locale's hooks.
@@ -145,3 +147,4 @@ What changed:
 - The en reason label "special day" hung July and April on a "day" hook — false. Shown label is now "day, month or holiday" in en and "holiday" in fr/es/it/pt/nl (where days and months are small); hints updated.
 - Measured L1 (`work-c27/measure.js`): position spread was mis-stated (3rd ×2, 4th ×3, not 3rd ×3); last-word bot 2/9, unique-longest 2/9.
 - New locale traps: landmark generics are small in fr/es/it/pt (*la tour Eiffel, le lac Érié*) and compounds in de/nl/Nordic — the en "tower is part of the name" round is en-only; de *montags/abends/heute* small vs *am Montag*; Nordic *lego* is often written small (a decoy, not a target); de name tokens accept Nomen OR name.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

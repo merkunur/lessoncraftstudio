@@ -21,7 +21,9 @@
 - **Misconception 3 — "the reader made the book".** **Pushback:** the reader has no ink: give her an unfinished page and she opens it, reads up to the gap, and the gap stays blank with a blinking cursor (or an empty frame); she cannot fill it.
 
 ## 4. The stage
-At **704 px** (split layout: workshop stage left 470 px, bubble/credit column right 214 px):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At **704 px** (stacked layout: workshop stage left 470 px, bubble/credit column right 214 px):
 - **The press** (top-left, 120 × 120): the library `ocean-life/octopus` (Inky, 96 px) standing behind a drawn press (two rollers, a slot).
 - **The page** (centre of the stage, 230 × 290): a cream page with a **picture box** (180 × 130, drawn frame) above **three word lines** (180 px each, 30 px apart). One of the two is empty according to the round; the other is filled: the picture box with ONE library picture at 120 px, or the lines with the sentence (Nunito 17 px).
 - **The three stations** (bottom of the stage, 3 × 150 × 170): each a drawn desk silhouette (geometry) holding a library picture of the person at work, 120 px — **Author** `activities/writing` (a man writing at a desk), **Illustrator** `occupations/artist` (a child painting at an easel), **Reader** `activities/reading` (a girl reading) — with a name plate under each: "Author", "Illustrator", "Reader" (the formal words are the content of RL.K.6). In the "Jobs: 2" setting the Reader station is absent and the two stations are 2 × 210 wide. Station order rotates per book (§6).
@@ -123,3 +125,4 @@ What changed:
 - **The word itself is now tested.** With open desks the round can be solved by matching an empty picture box to the person holding a brush — never knowing the word "author". The weak "Tools: shown / after a miss" setting became **Desks: Open / Name plates only**: closed doors show only the words Author / Illustrator / Reader (tap = spoken), so naming the author and illustrator (RL.K.6) is what decides; miss 2 opens the doors.
 - **Every page sentence now names what its own picture shows:** K4-C "Good night, moon" sat over a star → "The stars came out too."; K8-B "The wind blew it away" sat over a cloud → the kite stuck in tree/apple, "Giraffe got it down"; K3-C moved off the tree to miscellaneous/house; K7 uses spring/tulip, seen red.
 - Pictures checked on the contact sheets (writer, child painter, girl reading, green balloon, friendly dragon); occupations/author refused (it shows a man reading, and has no label).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

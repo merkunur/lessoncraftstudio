@@ -23,7 +23,7 @@
 - **Misconception 4 — "the verb is the first word" or "the verb is a thing"** (G2-338): in level 5 only the verb develops — tap any other word and it stays plain paper.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 460):
 - **The sentence card** (top, y 0–150): a paper card 464 × 150. Left: the round's **subject picture, 112 px** (library; plurals show 2 identical instances overlapped by 40%, 112 px each). Right: the sentence (Nunito 28 px, two lines max): the **time word** in bold ink (never coloured — colour would be a tell); its opening glows only when the child taps the word (a reading aid). The gap is a dotted box 120 × 44.
@@ -150,3 +150,4 @@ What changed:
 - **Present time words that exclude a future reading:** de *gerade* (not *jetzt*), fr *en ce moment*, es *ahora mismo*, pt *neste momento*, it *in questo momento*, nl *op dit moment*, Nordic *just nu / lige nu / akkurat nå*; fi level 3 never offers *Huomenna* with a present verb.
 - L1 row 2 now uses activities/jumping (a girl skipping rope); *the kids* drawn as girls → *the girls*; *we* (no picture) → *the girls*; a repeated verb replaced; level 2 balance recounted (4/2/3 → 3/3/3 in pass 2); level 3 written out in full.
 - **Level 4 has no pictures at all** (the draft's *swim–swam = beach/water* was a water bottle).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

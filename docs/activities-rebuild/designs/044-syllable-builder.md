@@ -25,7 +25,7 @@
 - **Misconception 4 — "you can split a word anywhere"** (Level 3, `zo|nnebloem`). Pushback: a cut that is not at a klankgroep seam heals — the clay closes over it.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the board column left, the picture-and-bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 440 + right column 200):
 - **The board** — a wooden plank, 470 × 150 px, rounded 18 px, warm wood gradient `#E9C99A`→`#D9B27C`, 3 px ink outline `#5B4636`; grain = 5 faint horizontal strokes (geometry).
@@ -175,4 +175,5 @@ What changed:
 - Fixed a rule collision: Level 3 round 8 (`bij`, zero cuts is right) contradicted "Check with nothing done → hint"; the core now judges by seam count, with a mutation for it; the `bij` round is reshuffled so its place never tells.
 - Added the sound-off name check: every Level 1 picture's common alternative name (kat/poes, sneeuwpop/sneeuwman) has the same klankgroep count, so the oral level cannot be failed by naming the picture differently.
 - Invention, round tables and klankgroep/hakken-en-plakken pedagogy kept as written — they already beat the bar (the fixed-length snake makes "long word = many parts" visibly false).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.
 

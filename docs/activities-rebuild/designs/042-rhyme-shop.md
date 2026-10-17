@@ -24,7 +24,7 @@
 - **Production (G1-346, RF.K.2.a "produce").** After every completed chain, an open ring dangles at its end with a "Your turn" ear icon: the child (or class) says a new word that ends the same; the ring is not judged (a free spoken turn) — the teacher hears it. This is honest: a K picture activity cannot check speech; it can invite it.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (wagon + chain + grass left, the round card + bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (left 452, right 196):**
 - **Task line** 22 px: the prompt (§9).
@@ -159,3 +159,4 @@ What changed:
 - tools/nail: the designer's da choice (body-parts/nail = "Negl", the fingernail) is RIGHT; the real defect is that tools/nail (a metal nail) carries the fingernail labels in every non-en locale, whose true word is image-vocabulary metal-nail (da Søm). tools/nail is now en-only; ruling recorded.
 - en FINISH line "The whale will wail…" used a homophone of whale → "A snail, a whale and a shiny steel …". sv/da/no FINISH lines rebuilt so the rhyme lives inside the line ("Titta, en katt med en …").
 - Picture lists written out for sv/da/no; easter/egg, summer/sand, spring/bud, beach/bucket, seagull, crow seen on contact sheets. fi FINISH line flagged for the native reviewer.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

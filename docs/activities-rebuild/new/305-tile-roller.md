@@ -21,7 +21,9 @@
 - **Misconception 3 — rows and columns get confused** (4 × 6 as 4 rows of 4). **Pushback:** the drum's printed tiles ARE the row; the rows are counted by the tick marks down the side and by the roller's passes.
 
 ## 4. The stage
-**At 704 px (split: workshop left 470 px, answer column right 210 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked: workshop left 470 px, answer column right 210 px):**
 - **Task line** (20 px): **"Roll the first rows. How many tiles will the whole floor take?"**
 - **The floor:** an empty rectangle with a 4 px skirting-board outline; **tick marks down its left side** (one per row) and **along its top** (one per column); inside it is bare plaster — no grid — until tiles are laid. Square tiles of size min(440 / columns, 400 / rows) px: 44 px for 10 × 7, 55 px for 8 × 8, 88 px for 5 × 3.
 - **The roller:** a drawn paint-roller: a drum one tile tall with a handle above it (handle grip 52 px round); the drum shows its tiles as printed squares; an end cap (44 px) on the drum's right end to stretch it.
@@ -111,3 +113,4 @@ What changed:
 - Re-solved both tables independently: products distinct, w + h, 2(w + h) and the counter-at-the-stop never equal the area under either stop setting. Proved that 8 is the maximum number of rounds a ≤ 5 × 5 table can have under the row's own rules, so the coverage note's "≥ 9" is recorded as impossible rather than silently missed.
 - G3-313 ends in a multiplication sentence; the success now writes "{rows} × {w} = {n}" (locale sign) under "{rows} rows of {w} = {n}" — the bridge 3.MD.C.7.a is about.
 - Distinctness from New 292 The Pouring Frame and Row 170 The Stamp Sheet written out (siblings 201/202 also tally rows, but only here is the whole area predicted from one or two rolled rows).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

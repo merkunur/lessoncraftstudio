@@ -24,7 +24,7 @@
 - **The material pushes back** by light alone; the lesson is defined by what it covers (all of the story, its ending, and a new story) — the definition of a central message, made visible. No text says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the two windows + lantern left (470 px), the card tray + bubble right (210 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The story window** (left top, 460 × 220): a wooden window frame with three tall panes side by side, each 140 × 170 with one story sentence in 18 px Nunito (sentences ≤ 75 characters, already true of the kept data). Above the frame, the story's two library pictures (96 × 96 each) on a little sill — e.g. pets/tortoise and forest-creatures/rabbit.
@@ -123,3 +123,4 @@ What changed:
 - **The Lion-and-Mouse transfer story fixed** so the lesson really fits it (Kim gets the big kids' ball back FOR them; before, nobody was helped).
 - **Answer position is a fixed balanced table** (3 cards 4/3/3, 4 cards 2/3/3/2, rotated per pass) instead of a random shuffle the gate could only hope about; card length measured (moral longest 2/10, shortest 2/10).
 - Distinct from 064 (flipbook order) and 070 (idea umbrella over an informational text): the lantern's decisive tests are the ending and the transfer to a new story.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

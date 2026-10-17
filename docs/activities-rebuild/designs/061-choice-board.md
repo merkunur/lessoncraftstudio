@@ -26,7 +26,7 @@
 - **How the material pushes back:** the lock is the check; a key with any wrong tooth physically will not turn, and shows which tooth.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **The key ring** (top strip, 504 × 60): a drawn ink ring on a hook at the left; collected keys hang from it (small keys 44 × 16).
@@ -145,3 +145,4 @@ Scores before → after: invention 5→5 · fun 5→5 · completeness 5→5 · c
 What changed:
 - Every Game 1 and Game 2 sentence read with every key: "The cat is ___ the bed" let `not` turn too ("The cat is not the bed" is true English) → "The cat sat ___ the bed"; recorded in the rejected list.
 - Distinct-from adds Row 57 The Sticky Name Tag (picture judges a word left to right vs a sentence choosing among picture-less look-alikes).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

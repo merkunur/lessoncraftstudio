@@ -25,7 +25,7 @@
 - **How the material pushes back:** the frost: a seam freezes or cracks. The picture freezing into the ice is the meaning arriving.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 480):
 - **The ice shelf** (top, 504 × 170): three picture places in a row, each a library picture **112 × 112** standing on the shelf edge, and in front of each an **inlet** — a slot cut into the shelf, **3 floes long** for EVERY picture (so the inlet never tells how many syllables). In single-picture clues: one picture **150 × 150** and one inlet.
@@ -165,3 +165,4 @@ What changed:
 - Verified all 54 EN splits against `approved-words-en.json`: every one TeX + rule + vocab (`work-c23/c113.js`); all pictures exist.
 - Missing-piece round 1 offered three SECOND syllables for a first-syllable gap — now rab / bas / muf; pen·∅ explains why *guin* (penguin) cracks.
 - Locale lists checked against the gates and the picture index: *kaktus*, *kalender*, *kamera* have no picture — replaced by gated three-part words with pictures (sv go·ril·la, pa·pri·ka, ba·ga·re, lä·ka·re; no som·mer·fugl, go·ril·la, ham·bur·ger; da go·ril·la, pe·li·kan, ko·li·bri; nl com·pu·ter, kom·kom·mer).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

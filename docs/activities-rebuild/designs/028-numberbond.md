@@ -24,7 +24,7 @@
 - **Misconception 4 — that order changes the bond.** In find-the-whole rounds the two groups board in either order and the hub's number is the same.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px: the wheel left (484 px), the bond board + bubble right (172 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Task line** 22 px: the prompt (§9).
@@ -159,3 +159,4 @@ What changed:
 - A winning loophole closed: an over-called dial filled the wheel, let it spin, and left it full — so the next brake succeeded without the right number. Now an over-call never spins (the brake clunks and holds), every rider boarded this try hops back off, and the child must re-dial; gate assertion + mutation added.
 - Queue riders were 72 px (704) / 44 px (360), under the picture floor: the platform now shows the front three riders at 96 px (two at 64 on phones) at a turnstile, the queue running off-stage so its length still tells nothing.
 - farm-animals/chicken ≡ hen (one drawing) noted. All tables re-checked: Make 10 uses each answer 1–9 once, dial-start 5 equals the answer once per level at most, no 0.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

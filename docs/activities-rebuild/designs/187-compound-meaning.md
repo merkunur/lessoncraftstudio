@@ -25,7 +25,7 @@
 - **Misconception 5 (de/nl/sv/da/no) — parts just touch** (Hundbett). Pushback: the weld cracks without the joining bead; it holds only with the right bead (§9).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (470 × 450), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The welding plate** (centre, 330 × 120, drawn steel plate with two sockets 140 × 110, a seam line between them; a joining-bead slot 36 px wide between the sockets in de/nl/sv/da/no only) and the **lever** (right, 48 × 120).
@@ -150,3 +150,4 @@ What changed:
 - "brush" is word-only everywhere (the library brush is a PAINTBRUSH, EN label "Paint Brush", de Bürste wrong); toothbrush left Level 2 for raincoat.
 - jellyfish/angelfish removed from the fish hub (a jellyfish is not a fish — the design's own starfish rule) → catfish, swordfish; pumpkin ("kin") → season.
 - Level 5 bead rounds written out for de (10) and nl (8), spelling-change words excluded; L2 bot numbers recounted (no more "4.5/8").
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

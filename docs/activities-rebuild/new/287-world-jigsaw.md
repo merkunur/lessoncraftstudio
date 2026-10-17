@@ -25,7 +25,7 @@
 - Not a shape-matching task: the globe's view distorts shapes (orthographic) and the flat map's are Natural Earth I, so the child must recognise a continent by WHERE it is and what it touches, not by tracing an identical outline.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px**
 - **Globe** (top-left of the stage, 250 × 250, drawn): ocean `#7FB8DD`, land sand `#E9D9B0`, the asked continent in its colour, 2 px ink coast for the glowing continent only, a terminator shadow on the lower right, a soft white highlight top-left; a thin gold equator line. A drawn axle stand (two arcs and a foot) under it.
@@ -126,3 +126,4 @@ What changed:
 - Southern Ocean limit corrected to 60° S (IHO 2000; 55° was wrong); noted that world-map.js has NO arctic/southern seeds (checked: pacific ×2, atlantic, indian), so those basins come from the latitude rule; marginal seas stay with the Atlantic.
 - Shortcut numbers re-measured from the real anchors: the "nearest the centre" bot is 1/7 (it always picks Africa), not 2/7; added the 6-set "always America" bot = 2/7.
 - Verified every locale's `continentSet` in `maps.<loc>.json`: 7 (en de nl sv da no fi) / 6 with one America (fr es pt it) — matches each school convention (fr cycle 2, Brazilian BNCC, Italian primaria and Mexican SEP books count America as one); names de Australien, sv/da Oceanien, no/fi Oseania, nl Oceanië. The seven animal helpers + space/earth are labelled ×11. Natural Earth is public domain (licence line kept in the module header); the BLOCKED art is genuinely resolved by reusing the shipped printable geometry.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

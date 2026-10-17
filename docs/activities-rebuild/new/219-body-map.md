@@ -20,7 +20,7 @@ The doll stands big in the middle like a friend, with little brass pins on her b
   4. *Left/right labels* — not taught here; both sides of a pair are accepted for a label (left/right is #211's job).
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (figure + rail left, bubble right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 460 × 460):
 - **The figure** (centre-left, 300 px tall = 65 % of the stage): **body figure** = toys/doll (front-facing, full body, arms out, legs apart — seen on the contact sheet); **face figure** = body-parts/head (a big friendly head with both ears, eyes, nose, mouth and hair clearly apart — seen on the contact sheet). The face figure is used for all face parts because on the doll the eyes, nose and mouth sit within 70 px of each other and their pins would overlap.
@@ -161,3 +161,4 @@ What changed:
 - **Correctness / phones:** on the face figure the nose and mouth are about 28 px apart, so the rule "no two 48 px hit circles may overlap" could never pass. Drop targets are now nearest-pin cells with a hover preview ring on the landing pin, and the gate asserts it. The face figure grows to 280 px at 360 in face rounds.
 - Twos round 4 ("10 fingers") pinned to the doll's tiny mitten hands, which do not show ten fingers. Two library hands with five clear fingers each now slide in for that round.
 - Kept: the lens-that-shows-the-truth. Every miss shows the part, which is the best invention in the batch.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

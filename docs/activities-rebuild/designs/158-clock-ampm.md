@@ -24,7 +24,7 @@
   4. **Thinking the day starts at 6 or 7** (when the child wakes). Every round starts at midnight with the moon in the window; the a.m. lap includes the dark hours before waking.
 
 ## 4. The stage (what is on the screen)
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 At **704 px** (stage 660 × 520):
 - **Clock** (left, 380 × 380): face 360 px, cream with teal rim 10 px, numerals 1–12 Baloo 2 800 30 px, minute ticks; hour hand teal 12 px wide, 110 px long, with a 56 px round grip at its tip; minute hand coral 7 px, 160 px long (geared, not draggable). **Window**: a 150 × 70 px arch in the face between the 11 and the 1, through which the day wheel shows. **Day wheel** (behind, only the window part visible): diameter 300, left half gold `#F6D57A`, other half violet `#8C7BC4`, the sun (beach/sun, 64 px) at the noon point and the moon (camping/moon, 64 px) at the midnight point — wheel markers inside the window (apparatus marks riding the wheel, like the data-mark ruling); they are the only place these two pictures appear.
@@ -136,3 +136,4 @@ What changed:
 - Measured with my own script, default and the es/it evening overrides: L1 a.m./p.m. 4/5, L2 5/4; shared times in both laps every level and locale (L1 6, 7, 8; L2 7:30, 8:30, 12:30); the bed and the toothbrush each appear in both laps; day order dinner → story → bed holds after every override.
 - **Badge words were false at night** (de "vormittags 0–12" calls 0:30 vormittags): now per-locale tables of the CURRENT day-part, true at every hour, for de/fr/it/pt/nl/sv/da/no; en/es/fi keep their own two-lap abbreviations.
 - A library picture cannot "tuck his head under his wing": Sprocket now bounces and crows for every success. All 18 celebration lines written in exact EN.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

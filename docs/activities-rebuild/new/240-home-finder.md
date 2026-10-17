@@ -21,7 +21,7 @@ Along the bottom of the stage runs a landscape of big place pictures standing li
   4. *Food:* a lion-style guess that "big animals eat meat" — the elephant and giraffe are plant-eaters; the badge that fills is the food the animal actually eats.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px when the readout is needed (Adapt mode's sentence cards on the right); otherwise the landscape uses the full width 680 px. Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704): the landscape uses the full stage width, ≈ 648 px at 704 (gaps close; pictures stay 120 / 96 px); Adapt mode's sentence cards sit under the porch line inside the stage.
 
 **At 704 px:**
 - **The landscape** (680 × 260, bottom half): 3–5 place pictures standing side by side at 120 px on a drawn ground strip (a soft line with tufts), each with an empty "porch" area in front where residents settle at 96 px (never smaller: a Habitats round sends exactly one animal to each place, With-people rounds two per place side by side, and a Stranger round shows its one place enlarged across the stage with its four animals in a row at 96 px). Places keep fixed slots per mode (the place is the content).
@@ -29,7 +29,7 @@ Layout `split` at ≥ 700 px when the readout is needed (Adapt mode's sentence c
 - **The animal pen** (top, 680 × 150): the round's animals at 104 px on a drawn wooden fence rail, each on its own post.
 - **Who-lives-with-us mode:** the places are a house (`miscellaneous/house`), a farm (`thanksgivinng/haystack`) and the wild (`camping/forest`); the house and farm each have a drawn bowl + bucket on their porch (apparatus) — "people give the badges here"; the forest's porch is bare grass — "the place gives them by itself".
 - **Food mode:** places are replaced by two (or three) food tables: a plant table (`spring/grass` + `spring/leaf`, 96 px each), an animal-food table (`insects-and-bugs/mosquito` + `ocean-life/fish`, 96 px); G1-407 rounds show one animal and three single food pictures (`spring/flower`, `insects-and-bugs/mosquito`, `spring/grass`, `spring/leaf`).
-- **Adapt mode:** 3 animals stand on the porch line at 128 px; 2 sentence cards (18 px type, 220 × 72) in the right column; one animal is left over.
+- **Adapt mode:** 3 animals stand on the porch line at 128 px; 2 sentence cards (18 px type, 220 × 72) side by side under the porch line; one animal is left over.
 
 **At 360 px:** stacked — task → pen as a row of up to 4 animals at 72 px (5th+ on a second row) → landscape as a horizontally laid strip of 3 places at 96 px; 4–5 places become 2 rows (3 + 2) at 88 px, porches 88 × 72, residents at 64 px → Check. Adapt: animals 2 + 1 rows at 96 px, cards full width below. At 320: places 84 px, residents 64 px (fanned 2 per row).
 
@@ -207,3 +207,4 @@ What changed:
 - **Food: the fox is an omnivore** — removed as a "meat-eater"; `animals/wolf` reads as a husky pup — removed. Meat-eaters are lion, tiger, shark, eagle. ⚠ The same fox and wolf rows are in the LIVE G1-206 worksheet bank (`data/science/what-animals-eat.json`) — reported to the orchestrator as a content defect to fix at the source.
 - **Arctic place:** `winter/icicle` refused (not a habitat); `winter/ice` (an ice floe, file exists) needs an index line — until then no arctic place.
 - **Picture floor:** residents were 64–72 px at 704; now 96 (one animal per place in Habitats, a Stranger place enlarged). Adapt pictures aligned to the bank (animals/camel, birds-2/toucan).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

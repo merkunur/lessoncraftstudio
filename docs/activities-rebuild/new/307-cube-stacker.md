@@ -22,7 +22,7 @@
 - **Misconception 3 — adding the dimensions (3 + 3 + 2).** *Push-back:* the layer shelf shows layers as flat grids; 3 + 3 + 2 = 8 is visibly smaller than ONE flat layer of 9.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below. All cubes are drawn apparatus (isometric unit cubes, three shades of one colour: top light, left mid, right dark, 2 px ink outline) — no pictures.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40. All cubes are drawn apparatus (isometric unit cubes, three shades of one colour: top light, left mid, right dark, 2 px ink outline) — no pictures.
 
 **At 704 — left 420 px, right 252 px:**
 - **The tower stage (left, 420 × 380):** the solid in isometric view (view from the front-right, showing top, front and right faces), on a drawn round turntable (ellipse 300 × 80, teal rim). Cube edge: chosen per round so the tower's bounding box fits 380 × 340, clamped **28–56 px** (a 5×4×3 box uses 36 px; a 2×2×2 uses 56 px).
@@ -160,3 +160,4 @@ What changed:
 - Re-solved all 27 solids with my own voxel oracle (`work-c39/cubes.js`: top/front/right exposure, monotone check, four-turn "true middle"): every total, visible, hidden, face count and layer list in §6 is right; every stepped map is monotone; the true-middle formula (l − 2)(w − 2)(h − 1) holds and is non-zero exactly in the rounds §12 names; total ≠ visible ≠ faces ≠ l + w + h in every non-wall round, and the 3 × 3 × 3 / 4 × 4 × 2 face-count coincidence is correctly excluded.
 - Named the deliberate twin (big #1 vs small #9, the same 24-cube box lying vs standing) so a builder does not "fix" it.
 - No other change: the lift-and-blush invention is the skill, the coral rule is honest and frozen at lift time, and "just the top layer" forces layers × layer.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

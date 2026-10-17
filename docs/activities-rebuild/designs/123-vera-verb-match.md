@@ -25,7 +25,7 @@
 - **Misconception 5 (levels 4–5) — the -s belongs to plurals.** The -s goes on the VERB for ONE (*the dog runs*, *the dog has*) and is missing for MANY (*the dogs run*, *the dogs have*): *has/does/goes/runs* are always turnstiles, *have/do/go/run* always double gates. The plural noun has an s; the singular verb has an s. The gate shape — not the letters — tells which.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: path stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 440):
 - **The path** (y 150–300): a drawn gravel path running left → right, 480 × 64, between two hedge bands (drawn green rounded rectangles, 24 px). The **subject house** at the left end (x 8–128): a drawn little doorway frame (120 × 120) with the subject word on a sign plank above it (Baloo 2, 30 px — the content). The **gateway** in the middle (x 200–300): two hedge posts 100 px apart, empty until a gate is hung. The **garden** at the right end (x 320–472): a drawn bed (152 × 120) with the predicate words written along the path's edge (Nunito 24 px: *in the yard.*).
@@ -153,3 +153,4 @@ What changed:
 - **Every old subject now has an honest picture in every locale:** mixed *children* → girls (the crowd is three girls), *Meine Freundin* → girl, it *la nonna* (no art) → *la bambina*, it *Vera* (never drawn) → *il coniglio*.
 - **Two right answers by the speaker's sex removed:** no fr/es/pt/it I/we round may end in a gendered predicate (*prêt/prête*, *listo/lista*); they use places or invariable words.
 - Level 4 and 5 right-gate counts stated (5/4), L4 gates always carry the same verb; sv/da/no level 2 defined.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

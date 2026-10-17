@@ -24,7 +24,7 @@
 - **Misconception 4 — "but" without a surprise** (*I have a cat but a dog*). The *but* plank's zig sends the car into the turn; nothing in the second half is a turn — the car wobbles and stops at the bend.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 450):
 - **The finished bridge** (top, y 0–40): a thin long bridge across the stage; each solved round adds a plank segment (with its shape: straight / zig / fork / arrow).
@@ -166,3 +166,4 @@ What changed:
 - **Level 3 rewritten as a full table with a tray and a failure proof per round.** Two draft rounds had two right planks (*We can play inside ___ we can go out* accepted *but*; *The sun came out ___ the snowman melted* would accept *and*), three rounds had no tray at all, and the stated count (2/2/2/2/1) did not match the sentences (or 3, and 1). Now or 2 · but 2 · and 2 · because 2 · so 1, every foil shown to fail.
 - **Level 4's *and* trap could not swap:** *I have a cat and a dog* → *a dog and I have a cat*. Replaced by clause pairs (*The sun shines and the birds sing*). Both orders of every half are authored (capitals, full stops, the comma on the so-face).
 - **weather/cold is a snowman in a scarf** — as the picture for "it was cold, so I put on my scarf" it gave the answer away; cold halves now have no picture. Recorded in PICTURE-RULINGS.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

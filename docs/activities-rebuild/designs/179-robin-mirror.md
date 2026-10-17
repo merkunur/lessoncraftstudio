@@ -23,7 +23,9 @@
   - *"their / its are interchangeable"* (L3) → the owner's badge decides: one thing → square → *its*; the twins → two dots → *their*.
 
 ## 4. The stage
-At 704: split — apparatus left 460 px, bubble column right 196 px. At 360: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+At 704: stacked — apparatus left 460 px, bubble under the stage. At 360: stacked.
 - **The sentence strip** (top of the apparatus): one or two sentences in word tiles, Nunito 800 28 px at 704 / 22 px at 360. The doer (L2) / candidates (L1) / owner (L3) are name cards with a small **badge** hanging under them (a 26 px drawn disc holding the face — dot, square, two dots, star, star + dot, ring). Badges are visible from the start: they are information about the NAMES, not about the answer.
 - **Things** in a round may carry their library picture above the word (≥ 96 px at 704 / 64 px at 360): toys/kite, toys/robot, toys/ball, beach/seashell (⚠ da label "Musling" = mussel — the da author words it), vehicles/bicycle, accessories/umbrella (exists; around-the-house has none), vehicles/boat, tree/apple (as "the tree", the fruit label never shown). No picture for the birds' nest (spring/nest shows two chicks). No people pictures (no boy picture exists, the girl picture would turn names into gender clues).
 - **Robin's mirror** (drawn apparatus, right side of the apparatus column at 704 / under the strip at 360): an oval frame 150 × 190 px (120 × 150 at 360), teal 4 px rim, a short handle, standing on a round foot. The glass is pale silver-blue; it shows the face of whatever word is in it.
@@ -137,3 +139,4 @@ What changed:
 - L2 failed a "middle-length chip" bot (right chip strictly middle-length in 6 of 10, measured with `work-c27/measure.js`); rounds 1, 2, 9 re-railed → longest 4 / shortest 3 / middle 3; still no he+she in one set, three different faces per set.
 - sv/da/no *sin* vs *hennes*: "Mia tvättar ___ cykel" has two right answers. Rule added: *sin* rounds carry *egen*; *hennes* rounds have no third-person doer. Corrected no bokmål forms (*sin/si/sitt/sine*) and da *hendes*.
 - L1 claim "every face type is right at least once" was false (me / you never right in L1) — corrected; umbrella pinned to accessories/umbrella; nest picture excluded (spring/nest shows chicks); da seashell label flagged.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

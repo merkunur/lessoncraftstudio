@@ -22,7 +22,9 @@
 - One right answer per item (the bank's `g`; items whose spelling is not decided by the rule — *kangaroo, koala, meerkat* — are excluded, §6).
 
 ## 4. The stage
-**At 704 (split layout ≥ 700: board left 450 px, rack + poster right 210 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout: board left 450 px, rack + poster right 210 px):**
 - **The picture** — the item's library picture, **128 × 128**, top-left of the board (fitted by ink box).
 - **The word row** — letter tiles up to **40 × 56**, gap 4 px, Nunito 800 28 px; tile width = min(40, (450 − 4·(n−1)) / n) for a row of n tiles (printed letters + the 3-tile slot). Every pool is capped at **9 printed letters (12 tiles)** — the German long compounds *Glockenblume* and *Schneeflocke* (10 printed) are dropped — so the widest row gets 33-px tiles (font 24) at 704. (The old "7 letters max" claim was English-only: de *Lieferwagen*, *Brieftasche*, *Heuschrecke* print 9.) consonants teal ink on pale teal (#DCEFEC), vowels coral ink on pale coral (#FDE3D8), *y* coloured by what it does in that word (authored: consonant at the start of *yo-yo*, vowel at the end of *baby*). Under each vowel, a **length mark** when the round needs it: a **dot** (short) or a **dash** (long), drawn 8 px (the dot-and-dash vowel-length convention German and Nordic first classes use, and the breve/macron of English phonics). The **rule slot** — one dashed frame 128 × 56 (three tile widths) wherever the rule letters go, whether 1, 2 or 3 letters.
 - **The rule rack** (right column) — 2 or 3 **stencils**, each a translucent cream strip 200 × 80 with a 3 px ink outline and rounded ends: the **letter cut-out** (the rule letters, 34 px, coral, as holes) and the **window** (a 56 × 64 cut-out on the side the rule looks at). Window faces: a **dot** (a short vowel), a **dash** (a long vowel), a **teal block** (any consonant), or **printed letters** (e.g. "a o u", "e i y", "s x sh ch", "b p m"). Windows on the LEFT of the letters look at the letter before; on the RIGHT, at the letter after.
@@ -153,3 +155,4 @@ What changed:
 - Tile sizing made a formula with a 9-printed-letter cap (the "7 letters max" was English-only; de rows reach 12 tiles).
 - Honest record of the items the activity adds beyond the bank; distinct-from now separates it from Row 114 The Root Stencil.
 - body-parts/neck (a bank ck item) is not in body-parts.json — appended to PICTURE-RULINGS.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

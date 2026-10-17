@@ -23,7 +23,7 @@
 - **Undo it — misconception: any subtraction with the same whole undoes the addition (3 + 5 with 8 − 3):** **Push back:** in Undo it all four rails are 8 holes tall, so height cannot decide — instead each rail is two colours (the first part coral, the second part teal; a subtraction's sawn-off part stays as a hollow teal outline, so you can see what was taken away), and a rung only clicks in where BOTH rails are the same colour. 3 + 5 changes colour after 3 holes; 8 − 3 after 5: the squirrel stops at the 4th rung, a coral hole facing a teal one.
 
 ## 4. The stage
-Split layout at ≥ 700 px (cards left, ladder yard right); stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (content 672):**
 - **Task line** 22 px: "Tap an addition and the subtraction worth the same. Then send the squirrel up!"
@@ -140,3 +140,4 @@ What changed:
 - **Replaced the zipper.** Row 68 (The Story Zipper, RL.K.9, designed in another batch) already owns the chunky-zipper toy — its fun section was nearly word for word this one's. The equal-value mechanic is kept intact (rails built by the operations: joined for +, sawn off for −; one-to-one correspondence; the two-colour seam for Undo it), but the object is now a ladder with a library squirrel climbing to a library acorn: a character who climbs the child's own proof, gets stuck with a paw in the air when the sides differ, and collects the acorn on success. Every section (stage, hand, misses, words, locale traps, gate, mutations) rewritten for the ladder.
 - Re-computed all 18 Same-answer card sets with my own oracle: each addition has exactly one equal subtraction, no value repeats within a round, values 3–10 are spread (4–6 cards each across the level), the tallest pre-saw rail is 14 holes (13 − 3, 14 − 4); sizes set for 704 / 360 / 320.
 - Undo it: confirmed every family has a ≠ b and all four rails are the same height, so only the colour seam decides; the pairing rule (a + b ↔ w − b) is stated and gated. Honest note: the partner always ends in the same number — that IS the inverse — and the seam shows WHY.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

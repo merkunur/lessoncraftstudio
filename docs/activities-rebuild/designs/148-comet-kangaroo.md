@@ -21,7 +21,9 @@
 - **Misconception 3 — 100 more = add a zero / 10 more = add a one** at the end (247 → 2470 / 2471): the flag of a four-digit number has no sheet to land on; it hangs off the spine.
 
 ## 4. The stage
-**At 704 px (split layout: sheet 430 px left, column 250 px right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout: sheet 430 px left, column 250 px right):**
 - **Task line** (≤ 24 px): see §9.
 - **The sheet** (420 × 420): a 10 × 10 grid of cells 40 × 40 (2 px glass lines), row by row in counting order from the top-left: row 0 = `_00 … _09`, row 9 = `_90 … _99` for the current hundred (top sheet `0–99`, numbers below 10 are never used in any round). Frosted glass fill (cream, 75 % opacity, faint texture); a frosted cell shows nothing; a cleared cell shows its number in 15 px Baloo 2. The start cell is cleared and outlined teal.
 - **Comet's token:** a coral disc 32 px with a white ring and a small leaping-arc mark (geometry), sitting in a cell; it moves in arcs (tens, ones) or rides the dive.
@@ -158,3 +160,4 @@ What changed:
 - Phone spine: the hundreds were labelled with bare `1`–`9` at 11 px — a "1" beside a chart of 0–99 reads as *one*. Now `0`, `100` … `900` at 12 px on a 40 px spine (sheet 280, cells 28).
 - Picture re-checked on the contact sheet: `zoo-animals/kangaroo` faces LEFT — on top of the right-hand spine she faces the sheet; on phones she now sits at the right end of the leap row so she faces the card, not the edge.
 - Distinct from Row 251 Chart Patches (a jigsaw of one chart) and the number-hotel tool re-checked: the third dimension (a hundred = one sheet deeper) and the read-the-miss-by-its-axis flag are this row's own.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

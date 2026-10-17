@@ -25,7 +25,7 @@
   4. **Forgetting the column rule** (each thing belongs to only one friend) → the latch rod for a "yes" runs BOTH ways; in the by-hand setting, a row crossed but a column forgotten leaves visible open windows in that column that the board refuses to finish with.
 
 ## 4. The stage
-At 704 (3 × 3: split layout; 4 × 4 and Two things: stacked):
+At 704 (stacked layout for every grid (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704); the stage is ≈ 648 px wide, and wall + plates + a 196 px clue box would need ≈ 700, so the clue box sits below the wall at every size):
 - **The window wall** (drawn apparatus): a cream wall (#FBF3E4, 3 px ink #0F4A40, radius 16).
   - **Row headers** (left): friend pictures 96 × 96 in white roundels.
   - **Column headers** (top): thing pictures 96 × 96.
@@ -35,14 +35,14 @@ At 704 (3 × 3: split layout; 4 × 4 and Two things: stacked):
     - **Open-unknown**: glass, leaves half open (rest state).
   - **Latch rods**: a thin brass rod (#C99A3A, 6 px) along the top of each row and the side of each column; drawn only in the "the grid does it" setting.
   - **Plates**: at the right end of each row, a drawn plate 88 px (white with a 2 px ink rim); empty until the friend's thing slides onto it.
-- **The clue box** (right column at 704 for 3 × 3; below the wall for 4 × 4): clue cards 196 × 104 stacked in a column (or 2 per row below). A card = white, 3 px ink, radius 12; left the friend picture 72, right the thing picture 72 with:
+- **The clue box** (below the wall at every size): clue cards 196 × 104 stacked in a column (or 2 per row below). A card = white, 3 px ink, radius 12; left the friend picture 72, right the thing picture 72 with:
   - **ring** (yes): a thick teal circle round the thing;
   - **cross** (no): a coral ✗ over the thing;
   - **either-or**: the two things side by side (64 each) inside ONE teal ring split by a thin vertical bar — "one of these".
   Stamped cards fold flat into a small spent-card pile with a faint mark (24 px thumbnail).
 - **Read mode only**: two bins under the wall, a teal bin with a big ✓ and a coral bin with a big ✗ (180 × 104 each). The wall is already solved (open-yes and shut windows).
 - **Two things level**: three walls in an L — friends × toys (top left), friends × fruits (top right, sharing the friend headers), toys × fruits (below the left wall, its row headers the toys, its column headers the fruits). Cells 72 at 704, header pictures 96 on the outer edges.
-- Task line above (≤ 24 px, ≤ 2 lines); feedback bubble under the wall (split: under the clue box).
+- Task line above (≤ 24 px, ≤ 2 lines); feedback bubble under the stage.
 
 At 360 (stage ≈ 336):
 - 3 × 3: headers 64 (pictures 64), cells 84 → 64 + 3 × 84 = 316; there is no plate column: the thing slides onto the **friend header roundel** and sits on its corner at 40 px. Clue cards 160 × 80 (pictures 64), two per row under the wall; spent cards as a strip of 28 px thumbs.
@@ -228,3 +228,4 @@ What changed:
 - Found: W2 and W3 cannot be finished with the carry thread as first described (only from friend × toy yeses). The thread is now defined for a yes in any of the three walls — with it all seven solve.
 - Friend relabelling per showing (drawn from six farm animals) so 3 × 3 boards are not always cat/dog/rabbit; the miss-2 hint now has a column form (a forced window can be forced by its column).
 - Phone header sizes restated against the puzzle-grid ruling; the fi aria table is derived from the vocab nominative, not a colloquial "Possu".
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

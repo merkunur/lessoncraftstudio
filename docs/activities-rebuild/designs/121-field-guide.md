@@ -24,7 +24,7 @@
 - **The material pushes back** by being a book: the wrong line opens the wrong page; nothing says "wrong".
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: the book left (430 px), Dewey's case card + bubble right (230 px); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **Dewey's case card** (right column top, 220 × 150): Dewey = library `occupations/detective`, 96 × 96 px, at the card's top-left; the question in 20 px beside/below ("Which chapter is about how the Gribbet can glow?"); an empty "found" slot under it (dashed line).
@@ -159,3 +159,4 @@ What changed:
 - **Answer positions written per round** (Level A 3/2/3, Level B 3/3/2, Level C labels 1,2,3,1,2,3,1,2) instead of "rebalanced by the build"; every page's fact is its SECOND sentence so "tap the first line" never works.
 - **Level C narwhal question** now asks what only the caption knows ("which part is really a tooth?").
 - Distinct from 063 (bookmark in a story you can page through), 069 (highlighter in a short text), 070, 071 confirmed: here the book is closed and only its features open it.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -23,7 +23,7 @@
 - **Misconception 4 — a person word is just another word ending** (baker = "to bake"). Pushback: the PERSON badge needs a PERSON: three library people, the one who does the root.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px**
 - **The machine** (stage 470 × 470): a drawn panel (cream, 3 px teal frame, four brass rivets). Top: the **word window** (430 × 72) showing the built word in Baloo 2, 40 px; under it the **root plate** (the known word, Nunito 20 px, e.g. "fear") — the root is given, the meaning is the task.
@@ -149,3 +149,4 @@ What changed:
 - Checked every Level-2 bank word against its native gloss (`word-parts.<loc>.json prefixKey`) and wrote a per-word gauge map: the designer's "de um- = TURN" was false (umziehen/umbauen = change) — de Level 2 now uses ein-/aus- (DOOR) + vor- (TIMELINE: vorheizen…) + wieder- (LOOP); fr sur- and es sobre- split into SHELF-above (survoler, surélever, sobrevolar) and JAR-overflowing (surcharger, sobrecargar); words with no honest gauge are named and excluded (einschlafen, einkaufen, ausschalten, sobrepasar, uitblazen, återfå, återvända, udskifte). TURN gauge dropped; DOOR gains the nl "together" state.
 - "fr has no productive agent suffix" was linguistically false: the printable refused only because its portrait list is empty. fr (-eur/-euse, -ier) and es (-dor/-dora, -ero/-era, -ante) now get Level 3 with gender agreeing with the picture (coureuse, danseuse, enseignante, corredora, cajera). Only fi hides a level (Level 2).
 - Looked at the occupations contact sheet: athlete is a woman sprinting (runner/Läuferin ✓), ballerina a dancer, singer a man with guitar + mic (never beside musician), teacher a woman (labels masculine in de/es/pt — words authored, not labels).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

@@ -26,7 +26,7 @@
 - **How the material pushes back:** the band's snap IS the check; only beads whose letter is the sound in that place clack home. Nothing is said that the band does not show.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504 wide), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **Word shelf** (top strip, 504 × 56): nine small slots (44 × 44 picture thumbnails, each with its tag as a short ink line); empty slots are dashed rounded squares. Progress the child can see, never a score.
@@ -165,3 +165,4 @@ What changed:
 - Stretch-it-yourself misses changed to band physics (a squeezed-out pip, a slack gap) so they no longer echo 214's empty/cracked bumps; pure counting handed to 214.
 - Locale lists corrected to the banks: fi poro dropped (no reindeer picture), sv team words fixed (ägg is the carton), da has no team rows (setting hidden), no team words named.
 - Distinct-from updated to batch 09's real names (054 Blending Magnets, 055 Pop-Up Sound Boxes, 057 Sticky Name Tag).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

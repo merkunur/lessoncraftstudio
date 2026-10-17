@@ -22,7 +22,7 @@
 - **Misconception 3 — any nice thing is "cozy"** (a sunny rock is warm but not cozy). Pushback (Level 3): the feel tags read cozy / cold / wet / loud — a hard rock's tag says "hard", it will not sit in the cozy window.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480 × 470), bubble column right (200 px; the week shelf sits under the bubble).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The day board** (top, 460 × 190): a long cream frame with four **moment windows** (104 × 150 each, 10 px gaps). Each window: a library **moment picture** **96 px** (the situation, never the answer object), and under it the **moment sentence** in 16 px, ≤ 3 short lines ("It is raining."). Above the board, a thin sky track for the sun disc (drawn: a 28 px circle that becomes a crescent at the last window).
@@ -149,3 +149,4 @@ What changed:
 - weather/cold is a penguin wearing a scarf: the cold moment is winter/icicle everywhere. Level 2's "umbrella for the sun" taught a false connection in most locales (Sonnenschirm/parasol are different words): replaced by the pencil (write AND draw); every Level 2 window sentence is now written.
 - Level 3: pillow and cushion share one word in 7 locales — never together now; the shoe (a soft loafer) is not "hard" — the hammer replaces it (music/cymbals was considered as a third loud thing and refused: it is drawn as a whole drum kit).
 - Sizes: moment pictures 96 px at 704, tags carry words only (no 32 px pictures). The nl/da rain decision is settled: raincoat in nl/da, umbrella elsewhere, never both in one day.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

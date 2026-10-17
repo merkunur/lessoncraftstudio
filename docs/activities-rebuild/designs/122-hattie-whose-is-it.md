@@ -24,7 +24,7 @@
 - **Locale misconceptions**, each shown the same way (the thing only swings up when the right hook is in): de/sv/da/no the Deppenapostroph (*Anna's*) and the names ending in s (*Max'*, *Jonas'*, sv *Jonas*); nl the vowel/consonant contrast (*Anna's / Bens*); fr/es/it/pt the contraction that agrees with the owner (*du chien / de la souris / de l'écureuil*; *del perro / de la gallina*; *del cane / della gallina / dello scoiattolo*; *do Téo / da Ana*); fi the genitive *-n* (*Annan pallo*).
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 460):
 - **Peg wall** (back, full width, y 0–56): a drawn wooden rail with nine brass pegs (circles 10 px, 2 px ink). Solved rounds' things hang here at 40 px.
@@ -175,3 +175,4 @@ What changed:
 - **Every locale now has 3 complete levels** with a fixed tray, rule and right-tile mix (fi, fr, es, it, pt had no L3; da/no/sv had no trays); de Duden apostrophe tolerance named, base-form-twin names refused.
 - **The hook was always right in en L1 and L3 (a bot scored 9/9):** L1 now has 4 plural rounds read from the stage (two or three owners already on the shelf, nothing bounces — the hook dangles empty), L3 mixes 6 name possessives with 3 plurals in sentences.
 - Gate rule table and mutations extended to the new rules; the girl/doll/baby_girl look-alike and the motor-scooter picture recorded.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

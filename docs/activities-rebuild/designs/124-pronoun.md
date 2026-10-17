@@ -24,7 +24,7 @@
 - **Misconception 4 — losing track of who the pronoun means (G2-353).** The echo thread makes the link visible; *they* has two ends, so tying it to one name leaves a loose end dangling.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (480), bubble column right (200).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 480 × 440):
 - **The name shelf** (top, y 0–70, levels 3–5): name blocks for the people in the round (cream blocks 112 × 52, Baloo 2, 28 px: *Mia*, *Ben and Mia*). Pronoun threads tie here.
@@ -157,3 +157,4 @@ What changed:
 - **Owner faces that do not mark the owner:** fr/it owner rounds decide one vs many only; es/pt *su/seu* owner rounds removed (they could not have one right prism), pt uses BR *dele/dela/deles*.
 - Level 2 balance fixed: the draft had doer 4 / done-to 3 / owner 2 (*___ like my new hat* → *I like ___ new hat*, owner) — now 3/3/3 as §6 claims.
 - nl *they* object (*hen/hun/ze*) excluded like de *sie*; owner list for level 6 written out.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

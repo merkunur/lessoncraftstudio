@@ -25,7 +25,7 @@
 - **Misconception 5 — estimating by rounding only one number, or adding the exact numbers.** *Push-back:* convoy rounds need both harbors chosen before the estimate box unlocks; the success line puts the exact sum next to the estimate.
 
 ## 4. The stage
-Layout `split` at ≥ 700 px; stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 — left 470 px (the water), right 202 px (Marina's column):**
 - **The water and the line (left, 470 × 300):** a calm blue band; along its lower third the number line (4 px ink) with a tick every 1 unit (tens line, 30 units shown → 14.7 px/unit) or every 10 units (hundreds line, 300 units shown → ticks every 10 = 14.7 px). Numerals every 5 (tens) / every 50 (hundreds) in 16 px; harbor numerals 24 px bold.
@@ -170,3 +170,4 @@ What changed:
 - **G3-387 (up or down? sort) has its own round kind** (tide, one per pool: 31–39 → up to 40; 205–291 → up to 300, ties included). Each pool is now 12 rounds.
 - Every round re-solved (`work-c39/harbor.js`): answers, slots 1·2·2·1, up/down 3/3, catch and tide sets, convoy estimates, "both" pairs; the "both" stack now puts the ten line on top to match its task line.
 - Strings rewritten for the new mechanic; aria adds the ripple result; mutations add "ripple runs before Check" and asymmetric ripple speed.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

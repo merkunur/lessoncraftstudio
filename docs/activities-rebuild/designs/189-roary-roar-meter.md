@@ -25,7 +25,7 @@
 - **Misconception 5 — going and looking words are one pile.** Pushback (Level 4): a look-word hung on the trail cliffs sends its echo up the lookout arm instead, and the trail bell stays silent.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (470 × 430), bubble column right (200 px).
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px:**
 - **The canyon** (450 × 260, drawn: two sandstone walls as soft bands top and bottom, the floor a lighter band; geometry only). **Roary** — library **zoo-animals/lion**, 96 px — on a drawn ledge at the left (100 × 120). **Three cliff posts** at 40 %, 65 % and 92 % of the canyon width, each a drawn post 16 × 130 topped by the library **christmas/bell** at 96 px. Below the canyon's mouth a drawn **crevice** (a dark cleft 120 × 40 at the canyon floor's left, beside the ledge) takes words that do not belong to this canyon at all (the Stray-word setting, §8).
@@ -139,3 +139,4 @@ What changed:
 - Level 1 had "little · big · huge" — an opposite on a shade ladder, the misconception the canyon is built to refute — and "breeze · wind · storm" (nouns, outside L.2.5.b). Rewritten with verbs/adjectives, half of them not in row 134's ladders; positions 3/4/3, length bots ≤ 2/10 (measured).
 - The 4-bell setting's ladders could not be ranked (tiny·small·big·huge crosses an opposite; shout/yell, shower/rain tie) → replaced by a Stray-word setting (a word from another canyon must go to the crevice).
 - Level 2 shelves written out and measured (never sorted/reversed, shortest-first 0/8); a corrupted, half-deleted sentence in §6 Level 3 repaired with the real synonym-bank path.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

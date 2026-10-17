@@ -23,7 +23,7 @@
 - **Misconception 3 — start-unknown solved by adding** (got 4, now 7 → 11). **Push back:** in a start round the child's number paints that many beads from the bottom in Bo's "start" colour; with 11, the painted start beads run over the glowing "new" beads at the top — 4 beads end up painted AND glowing (overlap shown coral). Too few leaves plain beads between the two (dashed).
 
 ## 4. The stage
-Layout `split` at ≥ 700 px (jars left, bubble + Check right); stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 452 + column 220):
 - **Task line** (22 px): the round's question (§9).
@@ -150,3 +150,4 @@ What changed:
 - **A "to 10" jar held 12 beads:** Clear GIVE BACK row 9 (Bo had 8, has 4 → Pim 2·8 − 4 = 12). Replaced; gate clause (0) checks every jar against its level's cap.
 - **"Only how many more" padding** re-specified with real, measured rounds after the table change.
 - Pim/Bo pictures re-seen on the forest-creatures sheet (hedgehog and mouse, distinct in shape and colour); #090 no longer uses the hedgehog as a walker so Pim stays Pim. Coverage of G1-115/215/218 is secondary here — #090 owns those sheets (ruling in #090 §11).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

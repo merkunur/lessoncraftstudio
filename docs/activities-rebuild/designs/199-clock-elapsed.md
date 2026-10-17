@@ -27,7 +27,9 @@
   4. *12 → 1 is a step back.* Crossing 12 is just more sand (rounds 11:40 + 30, 12:30 → 1:45, 11:20 → 12:05, 9:30 → 2:30, 11:00 → 2:00).
 
 ## 4. The stage
-**At 704 (layout `split`).** Apparatus column 452, side column 200.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked layout).** Apparatus column 452, side column 200 beside it inside the stage, bubble under the stage.
 - **The question card** (level 1, above the clock, 452 × 44): "in 30 min" with a forward arrow glyph (numerals + abbreviation — content).
 - **The clock** (300 px face, cream, teal rim 6 px; numerals 26 px; 60 minute marks; short teal / long coral hands) with the **cradle** above its 12: a wooden bracket 70 × 120 where a flipped timer pours.
 - **The source shelf** (under the clock, 452 × 130): three timers, drawn glasses 64 × 118 (hour), 54 × 96 (quarter), 46 × 78 (five), each value printed on its wooden base in numerals + abbreviation ("1 h", "15 min", "5 min" — content). Sizes differ AND the bases are labelled — size alone never carries the value.
@@ -150,3 +152,4 @@ What changed:
 - Kept every round (re-solved with my own arithmetic — all right; no-carry bot 3/10, subtract-digits bot 3/10, hours passed 0/1/2/3/5 = 4/2/1/2/1) and added the fewest-timer pour per round (≤ 5).
 - Miss 1 never gives the answer (the last timer's run-out tag stays "?"); a "frosted clock" setting moves the counting-on into the child's head.
 - Locale traps kept and extended (sv/da/no/fi "timglas/timeglas/timeglass/tiimalasi" say "hour glass" for every size — the aria adds the minutes).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

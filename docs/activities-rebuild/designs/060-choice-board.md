@@ -26,7 +26,7 @@
 - **How the material pushes back:** the shutter gives one look; the cards are hidden while it is open, so matching letter by letter is impossible — the child must hold the WHOLE word. Help widens the look (a longer blink, then the developed photo), never tells.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Stacked below 700.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **The camera** (top centre, 300 × 190): a rounded body (teal `#146B5E`, 3 px ink outline, radius 22), a viewfinder bump, the **shutter button** (coral disc 64 px, top right of the body), the **lens** (ink ring 160 px) holding the **iris** (6 blades, cream/grey, 3 px ink edges) — open, the iris shows the word in Baloo 2 **56 px** on cream; the **blink dial** (a 44 px knob with three dots: long · medium · short) on the left of the body; a photo slot (ink line 120 px) along the bottom edge.
@@ -137,3 +137,4 @@ Scores before → after: invention 5→5 · fun 5→5 · completeness 5→5 · c
 What changed:
 - Every story count re-checked by hand (was 2, the 3, of 2, you 2, see 3, and 2, go 3, like 2) and the Level-2 copy counts (3/3/2) — all right.
 - Cross-reference fixed (New 229 is The Blink Viewer) and the batch-09 overlap check written in: no sibling hides the word or trains one-glimpse recognition; no duplicated invention to remove.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

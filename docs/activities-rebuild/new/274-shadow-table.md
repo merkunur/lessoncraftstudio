@@ -25,7 +25,9 @@
   4. **"Flip any piece that doesn't fit"**: flipping a triangle or the square changes nothing (they look the same flipped); only the parallelogram has a mirror twin — the flip button shows it by changing the parallelogram's grain direction and nothing else's.
 
 ## 4. The stage
-**At 704 — split layout:**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 — stacked layout:**
 - **Task line** (20 px, ≤ 2 lines).
 - **The table** (left, 400 × 400): light birch wood (#EAD9BC with a faint grain), 3 px ink frame. The **hollow** (the shadow) is the figure's silhouette carved into it: deep charcoal #3A3530 with a 4 px inner bevel (darker top-left, lighter bottom-right edge) so it reads as a hollow, not a print. Figure scale: the figure's bounding box fitted in 340 × 340 (unit square S = 340 / max(w, h) of the transformed figure — e.g. cat 1.25 × 1.5 → S 227; boat 1.414 × 1.707 → S 199; trapezoid 2.12 wide → S 160).
 - **Build board — the tray** (right, 240 × 400): the seven tans in a 2-column layout at 0.5 × table scale (at 0.6 a large triangle's long side, 0.6 × 227 = 136 px for the cat, overflows the 120 px column), each in its classic colour (large triangles teal and coral, medium gold, small plum and leaf, square sky, parallelogram rose). The parallelogram's wood grain runs diagonally so its flip is visible.
@@ -169,3 +171,4 @@ What changed:
 - "The parallelogram sinks only one way up" was overstated (a wrong-way piece can sink in a roomy hollow) → reworded to the last hole; dead-end help covers the rest.
 - Plates at 0.5 × table scale overflowed their 120 px slot (cat 170 px) → one common fit scale per round; tray at 0.5 (0.6 overflowed the 120 px column).
 - Distinct from row 106 (light-leak lantern): depth inlay + turn/flip demonstration + name-the-trick.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

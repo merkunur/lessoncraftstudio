@@ -23,7 +23,9 @@
 - One right answer per round: options are at least ×2 apart (most ×3 or more) and only one matches the real thing; the benchmark depends only on the unit and on long-vs-tall, never on which option is right (so it cannot leak the answer).
 
 ## 4. The stage
-**At 704 (split ≥ 700: size frame left 440 px, cards + question right 220 px):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked: size frame left 440 px, cards + question right 220 px):**
 - **The size frame** — a cream panel 420 × 300 with a floor line; long things lie along the floor, tall things stand on it. Left of the object: the **benchmark** drawn to the same scale — a cream **30-cm school ruler** (numbers 0, 10, 20, 30) for cm options, or a teal-and-cream striped **1-m metre stick** for m options; horizontal for "how long", upright for "how tall".
 - **The object** — the round's library picture. Before any tap it shows at a neutral 150 px ("which size?" — a dashed outline frame around it). When an option is tapped, the frame rescales so the larger of (object at that estimate, benchmark) fills 90 % of the frame's length, and the smaller is drawn in true proportion. If the smaller would render under the picture floor, it is drawn as a **size bar** (a coloured bar of the true length, the data-mark rule) and the picture (≥ 96 px) sits beside the bar as its label; if the benchmark would render under 12 px, it is drawn as a row of tiny sticks with a count tag "×{n}" (e.g. "×200").
 - **Gauge** — library farm-animals/goat, 96 × 96, top-right.
@@ -136,3 +138,4 @@ What changed:
 - Rank balance kept at S4 · M5 · L4 and all bots measured (value rank ≤ 5/13, card length ≤ 4/13).
 - Level 2 rebuilt: the old set let the number pick the unit (threshold bot 7/10); paired numbers (2 cm bee / 2 m door, 15 cm spoon / 15 m whale) bring the best bot to 6/10, cm 5 / m 5.
 - Each round now carries a believable-size range, gated (exactly one option inside it) — and #152 in this batch now measures objects at real lengths too, so the two activities teach one size sense.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

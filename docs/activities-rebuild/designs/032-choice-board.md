@@ -21,7 +21,9 @@
 - Push-back by the material: every station measures ONE attribute and shows it with its own bar direction and icon (↔ horizontal bar, ↕ vertical bar, ⚖ spring stretch). A wrong station still measures — honestly — but it measures the wrong thing, and its icon flag stands next to the question's icon, not matching. The giraffe lying down on the track is the physics of "long is end to end lying down; tall is bottom to top standing up". The spring shows a big kite barely stretching it. In size rounds the window, not a message, proves big (pokes out) and small (fits with room).
 
 ## 4. The stage
-**Station mode** at 704 (split layout ≈ 660 × 480):
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**Station mode** at 704 (stacked layout ≈ 648 × 480):
 - **Question card** top-left: 110 × 110 cream card, teal outline; a drawn icon 64 px: ↔ (long: two-headed horizontal arrow over a floor line), ↕ (tall: two-headed vertical arrow standing on a floor line), or a downward weight arrow under a hook (heavy). No words on it.
 - **The object** top-centre on a drawn round plinth (170 × 18): library picture fitted by ink box into 160 × 160.
 - **Album strip** top-right (two-ways rounds only): 3 card sockets 56 × 70.
@@ -168,3 +170,4 @@ What changed:
 - Contact sheet: toys/balloon is a small balloon on a string, so it cannot carry "big but light". The kite (a big diamond with a tail, clearly taller than wide) carries the lesson in two-ways round 3 and in §3.
 - space/rocket (spare tall) is drawn diagonally like the pencil: it gets a per-noun stand angle so it stands upright on the post (added to the contact-sheet note and the per-noun data).
 - Checked: size-row big-slot balance is 3–4 per slot (44 % each, slot 6 60 %), each bay answers 3 of 9 one-way rounds; #34 and #208 stay distinct (this row names WHICH measurement a word means on one object; #34 compares, #208 orders).
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

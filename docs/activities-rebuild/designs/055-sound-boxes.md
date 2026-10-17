@@ -25,7 +25,7 @@
 - **How the material pushes back:** the lids themselves — they open only where sounds are truly the same, at the position they really are.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: apparatus left (≈ 470 px), bubble + shelf right. Stacked below.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 704 × 500):**
 - **The pair shelf** (top band, right column, 200 × 44 rows): drawn pair tokens — two 22 px boxes joined by a gold bar with the shared letters (record; no pictures, no numerals).
@@ -197,3 +197,4 @@ What changed:
 - `fox` (four sounds in a three-box task) removed from every row; Task 2 rebalanced to exactly 4/4/4 with a real *th* round (`body-parts/tooth`); Task 3 sets rebuilt from bank words, sound-of-the-week sets D–G authored with the sound at varied positions.
 - Coco (64/48 px) and the test-row picture (64 px) and the shelf (30 px pictures) broke the picture floor → 96/64 px, and drawn pair tokens.
 - Per-locale honesty: es/pt/fr keep three-sound words; it/fi show First/Last only (too few three-sound picture words). The LIVE it rounds that box *Naso* as n·s·o (dropping a vowel) are flagged as a live defect.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

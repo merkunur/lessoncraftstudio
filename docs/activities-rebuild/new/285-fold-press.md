@@ -24,7 +24,9 @@
 - One right answer per round: the completed picture is unique (the mirror of the given half); each line round has one truth; each count has one value.
 
 ## 4. The stage
-**At 704 (split ≥ 700: press left, controls right):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 (stacked: press left, controls right):**
 - **The sheet** — a cream grid on a drawn press bed (teal frame 6 px). 6×6 cells **64 px** (384 px sheet), 8×8 cells **52 px** (416 px). The **crease** — a dashed ink line 3 px down the middle (vertical) or across (horizontal), with two small drawn hinge tabs at its ends.
 - **The stamp half** — its painted squares are RAISED: a darker fill (the round's colour, e.g. coral #F2784B) with a 4 px bevel shadow, so they read as relief. The child's half is flat paper.
 - **Ink pot** — a drawn pot 64 × 64 (same colour) beside the sheet: while it is selected, taps paint wet squares (glossy highlight); a second tap on a square lifts its ink.
@@ -170,3 +172,4 @@ What changed:
 - Fold pivot fixed to the area centroid — the bounding-box centre would have missed the equilateral triangle's 30°/150° lines (the snap angles alone were not enough).
 - Every true-line angle verified as a multiple of 15°; the ✓/✗ 5/5 and pick-mode 3/3/2 balances re-checked.
 - Distinct from #228 The Fold Mirror (choose a candidate) and premium #35 The Folding Sheet already argued; the pick face (G2-248) keeps the press as its test, not a book.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

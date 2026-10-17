@@ -24,7 +24,9 @@
 - **Misconception 4 — ten in one place** ("14 tens"). **Pushback:** the cap's single digit means a column holds at most nine; the tenth rod will not go on (§5) and the hint shows ten rods sliding together into the shape of a flat.
 
 ## 4. The stage
-**At 704 px (`layout:'split'`):**
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
+
+**At 704 px (stacked layout):**
 - **Task line** (≤ 24 px): Build — **"Build {n}."** (kept `taskBuild`) · Read — **"Cap each column with how many it holds."** · Match — **"Which tray shows {n}? Drag the ticket onto it."**
 - **The mat** (left, 470 × 380): cream board, teal rim, three columns separated by 3 px teal lines. Column glyphs at the top (drawn, no words): a little flat, a little rod, a little cube. Widths: hundreds 190, tens 180, ones 100.
   - Block scale at 704: cube 12 px, rod 12 × 120, flat 120 × 120 (true 1 : 10 : 100). Flats stack in a fan offset 10 px (9 flats → 200 × 200); rods stand side by side, 5 px apart (9 rods → 153 × 120); cubes nest 3 × 3 at 16 px pitch (48 × 48).
@@ -131,3 +133,4 @@ What changed:
 - Read's "appearance order" bot re-measured: 1 / 9 (only 412), confirmed.
 - §0 no longer promises live caps in Build (caps live would turn Build into "press + until the cap shows the digit"); the caps read the build at Check.
 - §11 names Row 96 (the tenth well) and keeps the refused tenth block as a guard rail, not the show.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

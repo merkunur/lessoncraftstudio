@@ -24,7 +24,7 @@
 - **How the material pushes back:** a texture cannot lie flat on a different texture — the rubbing rides up on the lining and the drawer will not close over it.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: rubbing plate left, cabinet right.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px (stage 672 × ≈ 430):**
 - **The rubbing plate** (left, 320 × 320): a cream board (geometry) with four corner clips. The animal — library picture, 220 px — lies on it. Over the animal: the **rubbing paper**, a frosted white sheet (90 % opaque, a faint grid texture) through which the animal's silhouette shows as a pale shape, so the child knows where to rub.
@@ -144,3 +144,4 @@ What changed:
 - GUESS-FIRST is now the default: rubbing a texture and dropping it on the identical lining is picture-matching that needs no science; the child commits first and the rubbing is the proof.
 - Measured (work-c25/m263.js): the draft broke its own "never one-per-drawer" rule in 3 COVERINGS and 4 GROUP rounds (the last animal filed itself). Both tables rebuilt: 0 one-per rounds, the missing class rotates, best single-drawer bot 31 % / 28 %. Drawers spring ajar after each filing so a shut drawer never narrows the choice.
 - All 37 animal pictures confirmed in the theme JSONs; otter never beside meerkat.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

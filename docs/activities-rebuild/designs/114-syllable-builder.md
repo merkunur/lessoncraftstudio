@@ -25,7 +25,7 @@
 - **How the material pushes back:** windows that show the wrong letter, a stencil that will not lie flat, and leftovers that no sleeve accepts.
 
 ## 4. The stage
-`layout:'split'` at ≥ 700 px: stage left (504), bubble column right (176). Below 700: stacked.
+**Layout: stacked at every width** (layout check 2026-10-17: no `layout:'split'` — its stage column is only ≈ 370 px at 704, too narrow for this apparatus). The stage takes the full card width, ≈ 648 px at 704 (≈ 656 at 1024); whatever §4 places in a left, right, side or bubble column stays side by side inside the stage when the activity draws it, while the shell's bubble, keypad and Check sit under the stage. Sizes written for a wider stage fit the 648 px by closing margins and gaps first; no picture drops below 96 px, no tap below 44, no data mark or grid cell below 40.
 
 **At 704 px** (stage 504 × 470):
 - **Ending hooks** (top, 504 × 48): three hooks marked only by their sleeves' shapes and letters (-s · -ing · -ed); solved word tags hang under them.
@@ -169,3 +169,4 @@ What changed:
 - Find the root was solvable without the picture: the built word was the only card with an ending in 8 of 9 set-A rounds. Every round now carries other real root + ending cards; measured (`work-c23/m114.js`): ending-spotting bot 3.6 / 4.3 of 9, longest/shortest ≤ 2.0 (chance 2.25); the gate asserts it.
 - Add-sentence names made neutral (Mia, Ben) instead of "the girl" over an unchecked picture.
 - Distinct-from uses the current name of New 229 (The Blink Viewer); the *Rainy* label of the rain picture recorded.
+- Layout check (2026-10-17): switched to stacked — split stage column is ~370 px at 704.

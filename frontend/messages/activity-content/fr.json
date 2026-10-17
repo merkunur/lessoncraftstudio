@@ -3712,23 +3712,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Big et Bit veulent traverser le pont, chacun avec son groupe de petits amis. Ton enfant les associe un par un — un ami de Big avec un ami de Bit — puis regarde qui en a le PLUS, le MOINS, ou s'ils en ont AUTANT. En formant les paires, il compare vraiment, sans se laisser tromper par la taille des tas.",
-        "Comparer deux collections en les associant terme à terme, dire plus que, moins que ou autant que, et compter pour vérifier : ce sont des attendus de la grande section de maternelle. Un rang long et étalé peut avoir moins d'amis qu'un petit tas bien serré — former les paires déjoue le piège de l'œil. Le jeu se joue sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
+        "Deux assiettes de jouets sont posées l’une au-dessus de l’autre, avec un petit pont de planches entre elles — par exemple sept ballons en haut et trois en bas. Quelle assiette en a le plus, ou y en a-t-il autant ? L’enfant touche l’assiette qui en a le plus, ou « Autant ». Puis vient le partage équitable : l’enfant touche un jouet pour l’envoyer de l’autre côté du pont, jusqu’à ce qu’il y en ait autant sur les deux assiettes, puis appuie sur Vérifier. Une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Faire « autant » soi-même, c’est là que dénombrer devient utile. Sept et trois ne deviennent pas cinq et cinq en un seul geste : l’enfant envoie un jouet, dénombre les deux assiettes, en envoie un autre, recompte — et voit que l’assiette qui en a le plus diminue pendant que l’autre grandit. Une mauvaise première réponse fait seulement trembler l’assiette, et l’enfant regarde à nouveau. Un Vérifier avant qu’il y en ait autant dit quelle assiette en a encore plus et numérote les jouets des deux assiettes pour ce coup d’œil ; la deuxième fois, un jouet de l’assiette la plus garnie s’allume pour montrer le suivant à envoyer. Quand c’est juste, c’est dit avec des nombres : « C’est juste ! 5 et 5. » Le total est toujours pair, donc un partage équitable est toujours possible, et chaque assiette a de la place pour douze jouets ; sa taille ne donne donc jamais la réponse.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer des collections jusqu’à 10 par dénombrement — plus, moins ou autant — et comprendre ce que veut dire « autant ». L’enseignant choisit des groupes jusqu’à 5 ou jusqu’à 10, et peut ranger les jouets en rangées plutôt qu’en vrac, ce qui rend la comparaison plus facile à voir. Ni chrono ni score."
       ],
       "practices": [
-        "Comparer deux collections en associant un par un",
-        "Dire plus que, moins que ou autant que",
-        "Compter chaque groupe pour vérifier",
-        "Comprendre qu'un rang étalé ne veut pas dire plus d'objets"
+        "Dire laquelle de deux collections en a le plus, ou qu’il y en a autant",
+        "Redénombrer les deux collections après chaque changement",
+        "Rendre deux collections égales en déplaçant un objet à la fois",
+        "Voir qu’une collection diminue pendant que l’autre augmente"
       ],
       "howToPlay": [
-        "Touche un ami d'un côté, puis un ami de l'autre côté, pour former une paire.",
-        "Quand tout le monde a un copain, dis qui en a le PLUS, le MOINS, ou si c'est PAREIL."
+        "Regarde les deux assiettes. Touche l’assiette qui en a le plus, ou « Autant ».",
+        "Touche un jouet pour l’envoyer de l’autre côté du pont.",
+        "Continue jusqu’à ce qu’il y en ait autant sur les deux assiettes, puis appuie sur Vérifier.",
+        "Pas tout à fait ? L’indice dit quelle assiette en a encore plus — envoie un jouet et recompte. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Comparer des collections : plus, moins, autant",
-        "Associer un par un pour comparer sans compter",
-        "Compter pour confirmer la comparaison"
+        "Dire si une collection en a plus, moins ou autant qu’une autre, jusqu’à 10",
+        "Comparer des collections par dénombrement",
+        "Rendre deux collections égales"
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

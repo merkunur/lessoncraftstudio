@@ -1970,25 +1970,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Big and Bit cross a bridge by comparing their groups of friends: the child pairs the two groups one-to-one, counts, and decides which has more, which has fewer, or whether they are the same. It's an interactive Kindergarten activity that plays in the browser on any device, with no sign-up.",
-        "The big idea is that you cannot tell which group is bigger just by how much space it takes up. The activity deliberately uses eye-tricks — a spread-out row of 5 placed beside a tight bunch of 6, or a scattered 7 beside a clustered 8 — and even a round where both groups have 5 but look different, so the child learns that rearranging things does not change how many there are. Pairing friends one-to-one and counting is what settles it. Some rounds also ask the child to make the groups equal or build a matching group.",
-        "It is aligned to Common Core K.CC.C.6 — identifying whether the number of objects in one group is greater than, less than, or equal to the number in another group. No timer, no score — just calm, playful practice."
+        "Two plates of toys sit one above the other, with a little plank bridge between them — seven balls on top, say, and three below. Which plate has more, or do they have the same? The child taps the plate with more, or “The same”. Then comes the fair part: the child taps a toy to send it walking across the bridge to the other plate, until both plates have the same, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Making “the same” by hand is where counting earns its keep. Seven and three do not become five and five with one tap: the child sends a toy across, counts both plates, sends another, counts again — and sees that the plate with more gets smaller while the other grows. A wrong first answer only makes the plate shake, so the child looks again. A Check before the plates are the same says which plate still has more and numbers the toys on both plates for that look; after a second, one toy on the bigger plate lights up to show the next one to send. A right Check says it with numbers: “Fair! 5 and 5.” The totals are always even, so a fair share is always possible, and each plate has room for twelve, so its size never gives the answer away.",
+        "It is aligned to Common Core K.CC.C.6 — saying whether one group has more than, fewer than or the same as another, by counting, up to 10 — and to what “the same” means. Teachers can choose groups up to 5 or up to 10, and lay the toys out in rows instead of scattered, which makes the comparison easier to see. No timer, no score."
       ],
       "practices": [
-        "Pairing two groups one-to-one to compare them",
-        "Deciding which group has more, fewer, or the same",
-        "Ignoring how spread out or bunched the objects look",
-        "Making two groups equal by adding to the smaller one"
+        "Saying which of two groups has more, or that they have the same",
+        "Counting both groups again after every change",
+        "Making two groups the same by moving one at a time",
+        "Seeing that one group shrinks while the other grows"
       ],
       "howToPlay": [
-        "Look at Big and Bit's two groups of friends.",
-        "Pair them one-to-one and count to see which has more or fewer.",
-        "Tap your answer — or build a matching group when asked — with no timer and no score."
+        "Look at the two plates. Tap the plate with more, or “The same”.",
+        "Tap a toy to send it across the bridge to the other plate.",
+        "Keep going until both plates have the same, then press Check.",
+        "Not quite? The hint says which plate still has more — send a toy and count again. No timer, no score."
       ],
       "learningGoals": [
-        "Compare two groups as greater than, less than, or equal — the focus of Common Core K.CC.C.6",
-        "Understand that spreading objects out does not change how many there are",
-        "Build the one-to-one comparing skill that grounds early number sense"
+        "Say whether one group has more than, fewer than or the same as another, up to 10 — the focus of Common Core K.CC.C.6",
+        "Compare groups by counting",
+        "Make two groups the same"
       ]
     },
     "gabby-sayings.idioms.l-3-5-a": {

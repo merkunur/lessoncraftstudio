@@ -1743,6 +1743,30 @@
         "Vite at det siste tallet man teller, sier hvor mange det er",
         "Sammenligne en mengde med ti før man teller den"
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "To tallerkener med leker står over hverandre med en liten plankebru imellom – for eksempel sju baller oppe og tre nede. Hvilken tallerken har flere, eller har de like mange? Barnet trykker på tallerkenen med flere, eller på «Like mange». Så kommer den rettferdige delen: Barnet trykker på en leke for å sende den over brua til den andre tallerkenen, til begge tallerkenene har like mange, og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "Å lage «like mange» med egne hender er der telling gjør nytte. Sju og tre blir ikke fem og fem med ett trykk: Barnet sender over en leke, teller begge tallerkenene, sender en til, teller igjen – og ser at tallerkenen med flere blir mindre mens den andre vokser. Et feil første svar får bare tallerkenen til å riste, og barnet ser en gang til. En Sjekk før det er like mange, sier hvilken tallerken som fortsatt har flere, og nummererer lekene på begge tallerkenene for det blikket; andre gang lyser en leke på den fulleste tallerkenen opp og viser hvilken som skal sendes. Et riktig svar sier det med tall: «Rettferdig! 5 og 5.» Summen er alltid partall, så det går alltid an å dele rettferdig, og hver tallerken har plass til tolv leker, så størrelsen røper aldri svaret.",
+        "Aktiviteten er tilpasset LK20 – å sammenligne antall opptil 10 ved å telle: flere, færre eller like mange – og å forstå hva «like mange» betyr. Læreren velger grupper opptil 5 eller opptil 10 og kan legge lekene i rader i stedet for hulter til bulter, så sammenligningen blir lettere å se. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Si hvilken av to grupper som har flere, eller at de har like mange",
+        "Telle begge gruppene på nytt etter hver endring",
+        "Gjøre to grupper like store ved å flytte én om gangen",
+        "Se at den ene gruppen blir mindre mens den andre vokser"
+      ],
+      "howToPlay": [
+        "Se på de to tallerkenene. Trykk på tallerkenen med flere, eller på «Like mange».",
+        "Trykk på en leke for å sende den over brua til den andre tallerkenen.",
+        "Fortsett til begge tallerkenene har like mange, og trykk så på Sjekk.",
+        "Ikke helt? Hintet sier hvilken tallerken som fortsatt har flere – send over en leke og tell igjen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Avgjøre om en gruppe har flere, færre eller like mange som en annen, opptil 10",
+        "Sammenligne grupper ved å telle",
+        "Gjøre to grupper like store"
+      ]
     }
   }
 }

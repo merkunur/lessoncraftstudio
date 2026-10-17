@@ -1164,25 +1164,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Big y Bit se encuentran en el puente de la amistad, y cada uno trae un puñado de amiguitos redondos. ¿Quién trajo más? En lugar de adivinar, tu pequeño le da a cada amigo de Big una pareja del lado de Bit: uno con uno, cruzando el puente. Quien se queda con un amigo sin pareja, tiene más.",
-        "Aquí vive una de las ideas más importantes del inicio de las matemáticas: comparar dos colecciones por correspondencia uno a uno, y descubrir que los ojos a veces engañan. Una fila larga y esparcida parece tener más, aunque un montoncito juntito tenga en realidad la misma cantidad o incluso más. Solo al emparejar, pareja por pareja, sabemos con seguridad si hay más, menos o la misma cantidad.",
-        "«El puente de la amistad» es una actividad interactiva para preescolar (Kínder), alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP), dentro del eje de Sentido numérico. No hay cronómetro ni puntaje: los niños emparejan, cuentan y descubren con calma, a su propio ritmo, con números hasta el 10."
+        "Dos platos con juguetes, uno arriba del otro, y un puentecito de tablas entre ellos: por ejemplo, siete pelotas arriba y tres abajo. ¿Qué plato tiene más, o tienen la misma cantidad? El niño toca el plato que tiene más, o «La misma cantidad». Luego viene la parte justa: el niño toca un juguete para mandarlo por el puente al otro plato, hasta que los dos platos tengan la misma cantidad, y oprime Comprobar. Es una actividad interactiva para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Hacer «la misma cantidad» con las propias manos es donde contar se vuelve útil. Siete y tres no se vuelven cinco y cinco con un solo toque: el niño manda un juguete, cuenta los dos platos, manda otro, vuelve a contar, y ve que el plato que tiene más se hace más chico mientras el otro crece. Una primera respuesta equivocada solo hace que el plato se sacuda, y el niño vuelve a mirar. Un Comprobar antes de que haya la misma cantidad dice qué plato todavía tiene más y numera los juguetes de los dos platos para esa mirada; la segunda vez, un juguete del plato más lleno brilla para mostrar cuál mandar. Cuando está bien, se dice con números: «¡Justo! 5 y 5». El total siempre es par, así que siempre se puede repartir justo, y cada plato tiene lugar para doce juguetes, así que su tamaño nunca da la respuesta.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar colecciones de hasta 10 contando —más, menos o la misma cantidad— y entender qué quiere decir «la misma cantidad». El docente elige grupos de hasta 5 o de hasta 10, y puede acomodar los juguetes en hileras en lugar de revueltos, para que la comparación se vea más fácil. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Emparejar uno a uno los amigos de dos grupos para descubrir dónde hay más, dónde hay menos y dónde hay la misma cantidad, sin usar todavía números escritos.",
-        "Descubrir que la cantidad no cambia aunque cambie el acomodo: una fila larga y esparcida puede tener la misma cantidad que un montoncito juntito.",
-        "Igualar dos grupos agregando amigos al que tiene menos, hasta que todos tengan pareja.",
-        "Nombrar cada comparación en voz alta: más, menos o la misma cantidad."
+        "Decir cuál de dos colecciones tiene más, o que tienen la misma cantidad",
+        "Volver a contar las dos colecciones después de cada cambio",
+        "Hacer que dos colecciones tengan la misma cantidad moviendo uno a la vez",
+        "Ver que una colección se hace más chica mientras la otra crece"
       ],
       "howToPlay": [
-        "Dale a cada amigo una pareja del otro lado del puente: uno con uno.",
-        "Fíjate si queda un amigo sin pareja: ese lado tiene más.",
-        "Di cómo están los grupos: más, menos o la misma cantidad."
+        "Mira los dos platos. Toca el plato que tiene más, o «La misma cantidad».",
+        "Toca un juguete para mandarlo por el puente al otro plato.",
+        "Sigue hasta que los dos platos tengan la misma cantidad y luego oprime Comprobar.",
+        "¿Todavía no? La pista dice qué plato todavía tiene más: manda un juguete y vuelve a contar. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Comparar colecciones por correspondencia uno a uno y nombrar la relación con las palabras más, menos y la misma cantidad.",
-        "Comprender la invariancia de la cantidad: reconocer que el número de amigos no depende de cómo se vean acomodados.",
-        "Iniciar la idea de diferencia e igualación —cuántos más hay en un grupo y cuántos faltan para igualar— como puente hacia la suma."
+        "Decir si una colección tiene más, menos o la misma cantidad que otra, hasta 10",
+        "Comparar colecciones contando",
+        "Hacer que dos colecciones tengan la misma cantidad"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

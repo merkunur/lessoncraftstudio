@@ -2603,6 +2603,30 @@
         "Veta att det sista talet man räknar säger hur många det är",
         "Jämföra en mängd med tio innan man räknar"
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Två tallrikar med leksaker står ovanför varandra, med en liten plankbro emellan – till exempel sju bollar uppe och tre nere. Vilken tallrik har fler, eller har de lika många? Barnet trycker på tallriken som har fler, eller på ”Lika många”. Sedan kommer den rättvisa delen: barnet trycker på en leksak för att skicka den över bron till den andra tallriken, tills båda tallrikarna har lika många, och trycker på Kontrollera. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Att själv göra ”lika många” är där räknandet gör nytta. Sju och tre blir inte fem och fem med ett enda tryck: barnet skickar över en leksak, räknar båda tallrikarna, skickar en till, räknar igen – och ser att tallriken med fler blir mindre medan den andra växer. Ett fel första svar får bara tallriken att skaka, och barnet tittar igen. Ett Kontrollera innan det är lika många säger vilken tallrik som fortfarande har fler och numrerar leksakerna på båda tallrikarna för den titten; andra gången lyser en leksak på den fullare tallriken upp och visar vilken som ska skickas. Ett rätt svar säger det med tal: ”Rättvist! 5 och 5.” Summan är alltid jämn, så det går alltid att dela rättvist, och varje tallrik har plats för tolv leksaker, så dess storlek avslöjar aldrig svaret.",
+        "Aktiviteten följer Lgr22 – att jämföra antal upp till 10 genom att räkna: fler, färre eller lika många – och att förstå vad ”lika många” betyder. Läraren väljer grupper upp till 5 eller upp till 10 och kan lägga leksakerna i rader i stället för huller om buller, så att jämförelsen blir lättare att se. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Säga vilken av två grupper som har fler, eller att de har lika många",
+        "Räkna båda grupperna igen efter varje ändring",
+        "Göra två grupper lika stora genom att flytta en i taget",
+        "Se att den ena gruppen minskar medan den andra växer"
+      ],
+      "howToPlay": [
+        "Titta på de två tallrikarna. Tryck på tallriken som har fler, eller på ”Lika många”.",
+        "Tryck på en leksak för att skicka den över bron till den andra tallriken.",
+        "Fortsätt tills båda tallrikarna har lika många och tryck sedan på Kontrollera.",
+        "Inte riktigt? Tipset säger vilken tallrik som fortfarande har fler – skicka över en leksak och räkna igen. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Avgöra om en grupp har fler, färre eller lika många som en annan, upp till 10",
+        "Jämföra grupper genom att räkna",
+        "Göra två grupper lika stora"
+      ]
     }
   }
 }

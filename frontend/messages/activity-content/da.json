@@ -1755,6 +1755,30 @@
         "Vide, at det sidste tal, man tæller, fortæller, hvor mange der er",
         "Sammenligne en mængde med ti, før man tæller den"
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "To tallerkener med legetøj står over hinanden med en lille plankebro imellem – for eksempel syv bolde foroven og tre forneden. Hvilken tallerken har flere, eller har de lige mange? Barnet trykker på tallerkenen med flere, eller på ”Lige mange”. Så kommer den retfærdige del: Barnet trykker på et stykke legetøj for at sende det over broen til den anden tallerken, indtil begge tallerkener har lige mange, og trykker på Tjek. En interaktiv øvelse, der virker i browseren, uden installation og uden konto.",
+        "At lave ”lige mange” med sine egne hænder er der, hvor tælling gør nytte. Syv og tre bliver ikke til fem og fem med ét tryk: Barnet sender et stykke legetøj over, tæller begge tallerkener, sender et til, tæller igen – og ser, at tallerkenen med flere bliver mindre, mens den anden vokser. Et forkert første svar får kun tallerkenen til at ryste, og barnet kigger igen. Et Tjek, før der er lige mange, siger, hvilken tallerken der stadig har flere, og nummererer legetøjet på begge tallerkener til det blik; anden gang lyser et stykke legetøj på den fyldigste tallerken op og viser, hvilket der skal sendes. Et rigtigt svar siger det med tal: ”Retfærdigt! 5 og 5.” Summen er altid lige, så det kan altid deles retfærdigt, og hver tallerken har plads til tolv stykker legetøj, så dens størrelse røber aldrig svaret.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne antal op til 10 ved at tælle – flere, færre eller lige mange – og forstå, hvad ”lige mange” betyder. Læreren vælger grupper op til 5 eller op til 10 og kan lægge legetøjet i rækker i stedet for hulter til bulter, så sammenligningen er lettere at se. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Sige, hvilken af to grupper der har flere, eller at de har lige mange",
+        "Tælle begge grupper igen efter hver ændring",
+        "Gøre to grupper lige store ved at flytte én ad gangen",
+        "Se, at den ene gruppe bliver mindre, mens den anden vokser"
+      ],
+      "howToPlay": [
+        "Se på de to tallerkener. Tryk på tallerkenen med flere, eller på ”Lige mange”.",
+        "Tryk på et stykke legetøj for at sende det over broen til den anden tallerken.",
+        "Fortsæt, indtil begge tallerkener har lige mange, og tryk så på Tjek.",
+        "Ikke helt? Hintet siger, hvilken tallerken der stadig har flere – send et stykke legetøj over, og tæl igen. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Afgøre, om en gruppe har flere, færre eller lige så mange som en anden, op til 10",
+        "Sammenligne grupper ved at tælle",
+        "Gøre to grupper lige store"
+      ]
     }
   }
 }

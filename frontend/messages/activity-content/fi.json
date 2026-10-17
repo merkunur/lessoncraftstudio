@@ -1687,6 +1687,30 @@
         "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän",
         "Lapsi vertaa määrää kymmeneen ennen laskemista"
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Kaksi lautasellista leluja on allekkain, ja niiden välissä on pieni lankkusilta – esimerkiksi ylhäällä seitsemän palloa ja alhaalla kolme. Kummalla lautasella on enemmän, vai onko niitä yhtä monta? Lapsi napauttaa lautasta, jolla on enemmän, tai ”Yhtä monta”. Sitten tulee reilu osuus: lapsi napauttaa lelua lähettääkseen sen sillan yli toiselle lautaselle, kunnes molemmilla lautasilla on yhtä monta, ja painaa Tarkista. Vuorovaikutteinen harjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kun ”yhtä monta” tehdään omin käsin, laskemisesta on todellista hyötyä. Seitsemästä ja kolmesta ei tule viittä ja viittä yhdellä napautuksella: lapsi lähettää lelun, laskee molemmat lautaset, lähettää toisen, laskee uudelleen – ja näkee, että lautanen, jolla on enemmän, pienenee samalla kun toinen kasvaa. Väärä ensimmäinen vastaus saa lautasen vain tärisemään, ja lapsi katsoo uudelleen. Jos lapsi painaa Tarkista ennen kuin leluja on yhtä monta, vihje kertoo, kummalla lautasella on yhä enemmän, ja numeroi molempien lautasten lelut tätä katsetta varten; toisella kerralla täydemmän lautasen yksi lelu hohtaa ja näyttää, minkä voi lähettää seuraavaksi. Oikea vastaus sanotaan luvuilla: ”Reilua! 5 ja 5.” Kokonaismäärä on aina parillinen, joten reilu jako on aina mahdollinen, ja jokaiselle lautaselle mahtuu kaksitoista lelua, joten lautasen koko ei koskaan paljasta vastausta.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa lukumääriä 10:een asti laskemalla – enemmän, vähemmän vai yhtä monta – ja ymmärtää, mitä ”yhtä monta” tarkoittaa. Opettaja valitsee ryhmät 5:een tai 10:een asti ja voi valita, ovatko lelut riveissä vai sikin sokin – riveissä vertailu on helpompi nähdä. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Kertoa, kummassa kahdesta ryhmästä on enemmän, tai että niitä on yhtä monta",
+        "Laskea molemmat ryhmät uudelleen jokaisen muutoksen jälkeen",
+        "Tehdä kahdesta ryhmästä yhtä suuret siirtämällä yksi kerrallaan",
+        "Huomata, että toinen ryhmä pienenee samalla kun toinen kasvaa"
+      ],
+      "howToPlay": [
+        "Katso kahta lautasta. Napauta lautasta, jolla on enemmän, tai ”Yhtä monta”.",
+        "Napauta lelua lähettääksesi sen sillan yli toiselle lautaselle.",
+        "Jatka, kunnes molemmilla lautasilla on yhtä monta, ja paina sitten Tarkista.",
+        "Ei ihan? Vihje kertoo, kummalla lautasella on yhä enemmän – lähetä lelu ja laske uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo, onko ryhmässä enemmän, vähemmän vai yhtä monta kuin toisessa, 10:een asti",
+        "Lapsi vertaa ryhmiä laskemalla",
+        "Lapsi tekee kahdesta ryhmästä yhtä suuret"
+      ]
     }
   }
 }

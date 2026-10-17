@@ -981,25 +981,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Two written numbers appear and the child taps the smaller one — like 3 and 5, or 8 and 9. Some pairs are far apart, such as 1 and 9, and some sit close together, such as 5 and 6. It's an interactive Kindergarten counting activity that plays right in the browser, with no account needed.",
-        "The big idea is comparing numerals by value while looking for less rather than more — a small but important flip of attention. With no objects to count, the child reads each figure and decides which number is fewer. The neighboring pairs make it genuine: knowing that 8 comes just before 9 is what tells you 8 is the smaller one.",
-        "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. No timer, no score — just calm, playful practice."
+        "Two big number cards stand side by side — 3 and 8, say — each with an empty tower base above it. Which number is smaller? The child taps it and presses Check. Then both towers grow at the same time, one block per beat, while a counting row underneath lights up 1, 2, 3… The tower for 3 stops at three blocks and raises a little flag; the tower for 8 keeps climbing. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "The towers show what each written number means and why one is smaller: counting up from 1, the smaller number is the one you reach first, so its tower stops first. A wrong Check asks the child to count from 1 and notice which of the two numbers comes first; after a second, the towers grow for that look, the flag marking the smaller one, until the child chooses again. A right Check says it with numbers: “Yes — 3 is smaller than 8!” Some pairs are far apart, like 2 and 9, and some are neighbours, like 5 and 6 — those are the ones that need a careful look. The two numbers are never the same.",
+        "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 or up to 10, and show or hide the counting row under the towers. No timer, no score."
       ],
       "practices": [
-        "Compare two written numbers from 1 to 10 and find the smaller one",
-        "Read numerals and know their value without counting objects",
-        "Shift attention to less instead of more when comparing",
-        "Handle close pairs like 8 and 9, not just far-apart ones"
+        "Comparing two written numbers up to 10",
+        "Saying which of two numbers comes first in the count",
+        "Seeing how many each written number means",
+        "Using “smaller” for the number that comes first"
       ],
       "howToPlay": [
-        "Look at the two numbers on the board.",
-        "Tap the one that is smaller, then press Check.",
-        "Try again any time; there is no timer and no score."
+        "Look at the two numbers. Which one is smaller?",
+        "Tap the smaller number, then press Check.",
+        "Watch both towers grow together: the smaller number’s tower stops first.",
+        "Not quite? Count from 1 — the number you say first is smaller. No timer, no score."
       ],
       "learningGoals": [
-        "Compare written numbers 1 to 10 and choose the smaller — the focus of Common Core K.CC.C.7",
-        "Know the value each numeral stands for, without counting",
-        "Build the comparing sense behind less-than thinking later"
+        "Compare two numbers between 1 and 10 given as written numerals — the focus of Common Core K.CC.C.7",
+        "Know that a number that comes earlier in the count is smaller",
+        "Connect each written number to how many it means"
       ]
     },
     "choice-board.read-cvc-word.rf-k-3": {

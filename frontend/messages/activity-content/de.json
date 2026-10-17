@@ -3824,25 +3824,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Zwei geschriebene Zahlen stehen nebeneinander, und das Kind tippt die kleinere an — etwa 3 und 5 oder 8 und 9. Manche Paare liegen weit auseinander, wie 1 und 9, andere dicht beieinander, wie 5 und 6. Diese interaktive Zähl-Übung für den Kindergarten läuft direkt im Browser, ganz ohne Konto.",
-        "Hier geht es darum, Zahlen nach ihrem Wert zu vergleichen und dabei auf das Weniger statt auf das Mehr zu achten — eine kleine, aber wichtige Umstellung der Aufmerksamkeit. Es gibt nichts zu zählen; das Kind liest jede Ziffer und entscheidet, welche Zahl kleiner ist. Die Nachbarpaare machen die Aufgabe echt: Zu wissen, dass die 8 direkt vor der 9 kommt, verrät, dass 8 die kleinere ist.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — zwei Zahlen von 1 bis 10 in geschriebener Form vergleichen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Zwei große Zahlenkarten liegen nebeneinander – zum Beispiel 3 und 8 –, über jeder ein leerer Turmsockel. Welche Zahl ist kleiner? Das Kind tippt sie an und drückt auf Prüfen. Dann wachsen beide Türme gleichzeitig, Klötzchen für Klötzchen, während eine Zählreihe darunter 1, 2, 3 … aufleuchtet. Der Turm der 3 hört bei drei Klötzchen auf und hisst ein kleines Fähnchen; der Turm der 8 wächst weiter. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Die Türme zeigen, wie viel jede geschriebene Zahl bedeutet und warum eine kleiner ist: Wer ab 1 zählt, kommt zuerst bei der kleineren Zahl an – deshalb hört ihr Turm zuerst auf. Nach einem falschen Prüfen soll das Kind ab 1 zählen und darauf achten, welche der beiden Zahlen zuerst kommt; nach einem zweiten wachsen die Türme für diesen Blick, das Fähnchen markiert die kleinere Zahl, bis das Kind neu wählt. Ein richtiges Prüfen sagt es mit Zahlen: „Ja – 3 ist kleiner als 8!“ Manche Zahlen liegen weit auseinander, wie 2 und 9, manche sind Nachbarn, wie 5 und 6 – da muss man genau hinschauen. Die beiden Zahlen sind nie gleich.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: zwei geschriebene Zahlen zwischen 1 und 10 vergleichen. Lehrkräfte wählen Zahlen bis 5 oder bis 10 und können die Zählreihe unter den Türmen zeigen oder verstecken. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei geschriebene Zahlen von 1 bis 10 vergleichen und die kleinere finden.",
-        "Ziffern lesen und ihren Wert kennen, ohne Gegenstände zu zählen.",
-        "Die Aufmerksamkeit auf das Weniger lenken statt auf das Mehr.",
-        "Auch enge Paare wie 8 und 9 sicher unterscheiden, nicht nur weit entfernte."
+        "Zwei geschriebene Zahlen bis 10 vergleichen",
+        "Sagen, welche von zwei Zahlen beim Zählen zuerst kommt",
+        "Sehen, wie viel jede geschriebene Zahl bedeutet",
+        "„Kleiner“ für die Zahl verwenden, die zuerst kommt"
       ],
       "howToPlay": [
-        "Schau dir die beiden Zahlen auf dem Spielfeld an.",
-        "Tippe die kleinere Zahl an und tippe dann auf Prüfen.",
-        "Du kannst es jederzeit erneut versuchen — es gibt keinen Timer und keine Punkte."
+        "Schau dir die beiden Zahlen an. Welche ist kleiner?",
+        "Tippe die kleinere Zahl an und drücke dann auf Prüfen.",
+        "Schau zu, wie beide Türme zusammen wachsen: Der Turm der kleineren Zahl hört zuerst auf.",
+        "Noch nicht? Zähle ab 1 – die Zahl, die du zuerst sagst, ist kleiner. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Geschriebene Zahlen von 1 bis 10 vergleichen und die kleinere wählen.",
-        "Den Wert kennen, für den jede Ziffer steht, ohne zu zählen.",
-        "Das Vergleichsgefühl aufbauen, das später dem Kleiner-als-Denken zugrunde liegt."
+        "Zwei geschriebene Zahlen zwischen 1 und 10 vergleichen",
+        "Wissen, dass eine Zahl, die beim Zählen früher kommt, kleiner ist",
+        "Jede geschriebene Zahl mit ihrer Anzahl verbinden"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

@@ -1072,25 +1072,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Ruudulle tulee kaksi kirjoitettua lukua, ja lapsi napauttaa pienempää — esimerkiksi luvuista 3 ja 5 tai 8 ja 9. Jotkin lukuparit ovat kaukana toisistaan, kuten 1 ja 9, ja jotkin ovat lähellä toisiaan, kuten 5 ja 6. Harjoitus on vuorovaikutteinen esiopetuksen laskutehtävä, joka toimii suoraan selaimessa ilman tiliä.",
-        "Tärkein ajatus on verrata lukuja niiden suuruuden mukaan ja etsiä nimenomaan pienempää eikä suurempaa — pieni mutta tärkeä tarkkaavaisuuden suunnanvaihto. Koska laskettavia esineitä ei ole, lapsi lukee kummankin numeron ja päättää, kumpi luku on pienempi. Lähekkäiset lukuparit tekevät tehtävästä aidon: kun tietää, että 8 tulee juuri ennen lukua 9, tietää myös, että 8 on pienempi.",
-        "Harjoitus on OPS 2014:n mukainen lukukäsitteen osa-alueella — lapsi vertailee kahta lukua väliltä 1–10, jotka esitetään kirjoitettuina numeroina. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Kaksi isoa numerokorttia on vierekkäin – esimerkiksi 3 ja 8 – ja kummankin yläpuolella tyhjä tornin jalusta. Kumpi luku on pienempi? Lapsi napauttaa sitä ja painaa Tarkista. Sitten molemmat tornit kasvavat yhtä aikaa, palikka kerrallaan, ja alla oleva lukujono syttyy: 1, 2, 3… Luvun 3 torni pysähtyy kolmeen palikkaan ja nostaa pienen lipun; luvun 8 torni jatkaa kasvamista. Interaktiivinen harjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Tornit näyttävät, montako kukin kirjoitettu luku tarkoittaa ja miksi toinen on pienempi: kun lasketaan ykkösestä, pienempi luku tulee ensin vastaan, joten sen torni pysähtyy ensin. Ensimmäisen virheen jälkeen vihje pyytää laskemaan ykkösestä ja huomaamaan, kumpi luvuista tulee ensin; toisen jälkeen tornit kasvavat näyttääkseen sen, ja lippu merkitsee pienempää lukua, kunnes lapsi valitsee uudelleen. Oikea vastaus sanotaan luvuin: ”Kyllä – 3 on pienempi kuin 8!” Joskus luvut ovat kaukana toisistaan, kuten 2 ja 9, joskus vierekkäin, kuten 5 ja 6 – silloin pitää katsoa tarkasti. Luvut eivät ole koskaan samat.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10. Opettaja valitsee luvut 5:een tai 10:een asti ja voi näyttää tai piilottaa tornien alla olevan lukujonon. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Vertailee kahta kirjoitettua lukua väliltä 1–10 ja etsii pienemmän.",
-        "Lukee numeroita ja tietää niiden suuruuden ilman esineiden laskemista.",
-        "Suuntaa huomionsa pienempään suuremman sijaan, kun vertailee lukuja.",
-        "Selviytyy lähekkäisistä lukupareista, kuten 8 ja 9, eikä vain kaukana toisistaan olevista."
+        "Kahden kirjoitetun luvun vertaaminen 10:een asti",
+        "Sen kertominen, kumpi kahdesta luvusta tulee laskiessa ensin",
+        "Sen näkeminen, montako kukin kirjoitettu luku tarkoittaa",
+        "Sanan ”pienempi” käyttäminen luvusta, joka tulee ensin"
       ],
       "howToPlay": [
-        "Katso ruudulla olevaa kahta lukua.",
-        "Napauta sitä lukua, joka on pienempi, ja paina sitten tarkistuspainiketta.",
-        "Voit yrittää uudelleen milloin tahansa — ei ajastinta eikä pisteitä."
+        "Katso kahta lukua. Kumpi on pienempi?",
+        "Napauta pienempää lukua ja paina sitten Tarkista.",
+        "Katso, kun molemmat tornit kasvavat yhdessä: pienemmän luvun torni pysähtyy ensin.",
+        "Ei vielä? Laske ykkösestä – luku, jonka sanot ensin, on pienempi. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa vertailla kirjoitettuja lukuja väliltä 1–10 ja valita niistä pienemmän.",
-        "Lapsi tietää, minkä suuruutta kukin numero edustaa, ilman laskemista.",
-        "Lapsi kehittää vertailutaitoa, jonka varaan myöhempi pienempi kuin -ajattelu rakentuu."
+        "Lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10",
+        "Lapsi tietää, että laskiessa aiemmin tuleva luku on pienempi",
+        "Lapsi yhdistää kunkin kirjoitetun luvun siihen lukumäärään, jota se tarkoittaa"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

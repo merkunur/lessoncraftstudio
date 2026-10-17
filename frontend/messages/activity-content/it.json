@@ -2338,25 +2338,26 @@
     },
     "choice-board.pick-smaller.k-c-c-7": {
       "about": [
-        "Sullo schermo appaiono due numeri scritti in cifre e il bambino tocca quello più piccolo: ad esempio 3 e 5, oppure 8 e 9. Alcune coppie sono molto distanti, come 1 e 9, altre sono vicinissime, come 5 e 6. È un'attività di conteggio interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
-        "L'idea importante è confrontare i numeri guardando al loro valore e cercando «di meno» invece di «di più»: un piccolo ma significativo spostamento dell'attenzione. Senza oggetti da contare, il bambino legge ogni cifra e decide quale numero è minore. Le coppie vicine rendono l'esercizio autentico: sapere che l'8 viene appena prima del 9 è ciò che fa capire che 8 è il più piccolo.",
-        "L'attività è allineata alle Indicazioni nazionali: confrontare due numeri compresi tra 1 e 10 scritti in cifre. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Due grandi carte con un numero stanno una accanto all’altra — per esempio 3 e 8 —, ognuna con sopra la base vuota di una torre. Quale numero è più piccolo? Il bambino lo tocca e preme Verifica. Allora le due torri crescono nello stesso momento, un cubetto alla volta, mentre sotto si accende una striscia dei numeri: 1, 2, 3… La torre del 3 si ferma a tre cubetti e alza una bandierina; quella dell’8 continua a salire. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "Le torri mostrano quanto vale ogni numero scritto e perché uno è più piccolo: contando da 1, si arriva prima al numero più piccolo, per questo la sua torre si ferma per prima. Dopo un primo errore, l’aiuto invita a contare da 1 e a notare quale dei due numeri viene prima; dopo un secondo, le torri crescono per farlo vedere, con la bandierina sul più piccolo, finché il bambino sceglie di nuovo. Una risposta giusta lo dice con i numeri: «Sì: 3 è più piccolo di 8!» Alcuni numeri sono lontani, come 2 e 9, altri sono vicini, come 5 e 6: sono quelli da guardare con attenzione. I due numeri non sono mai uguali.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 o fino a 10 e può mostrare o nascondere la striscia dei numeri sotto le torri. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Confrontare due numeri scritti da 1 a 10 e trovare il più piccolo.",
-        "Leggere le cifre e conoscerne il valore senza contare oggetti.",
-        "Spostare l'attenzione su «di meno» invece di «di più» quando si confronta.",
-        "Gestire le coppie vicine come 8 e 9, non solo quelle lontane."
+        "Confrontare due numeri scritti fino a 10",
+        "Dire quale di due numeri viene prima nella conta",
+        "Vedere quanto vale ogni numero scritto",
+        "Usare «più piccolo» per il numero che viene prima"
       ],
       "howToPlay": [
-        "Il bambino guarda i due numeri sul tabellone.",
-        "Tocca quello più piccolo, poi preme «Controlla».",
-        "Può riprovare quando vuole: non c'è timer né punteggio."
+        "Guarda i due numeri. Quale è più piccolo?",
+        "Tocca il numero più piccolo, poi premi Verifica.",
+        "Guarda le due torri crescere insieme: la torre del numero più piccolo si ferma per prima.",
+        "Non ancora? Conta da 1: il numero che dici per primo è il più piccolo. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Confrontare numeri scritti da 1 a 10 e scegliere il più piccolo.",
-        "Conoscere il valore rappresentato da ciascuna cifra, senza contare.",
-        "Costruire il senso del confronto che sta alla base del ragionamento sul «minore di»."
+        "Confrontare due numeri scritti in cifre tra 1 e 10",
+        "Sapere che un numero che viene prima nella conta è più piccolo",
+        "Collegare ogni numero scritto alla quantità che rappresenta"
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

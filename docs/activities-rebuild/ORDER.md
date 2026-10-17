@@ -16,7 +16,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 10 | LIVE 2026-10-16 → `fruit-stand-activity` (the Fruit Stand), 11 locales; operator review pending | K | K.CC.B.4 | `ten-frame.count-to-20.make-n.fruits` | ten-frame-activity | Count to 20 with Fruits — Double Ten Frame Activity |
 | 11 | LIVE 2026-10-16 → `peek-window-activity` (the Peek Window), 11 locales; operator review pending | K | K.CC.B.5 | `choice-board.how-many-group.k-c-c-b-5` | choice-board-activity | How Many Are There? — Kindergarten Counting |
 | 12 | LIVE 2026-10-17 → `roll-book-activity` (the Roll Book), 11 locales; operator review pending | K | K.CC.B.5 | `mamas-roll-call.numeral-trace.k-cc-b-5` | mamas-roll-call-activity | Mama's Roll Call — Count Out That Many (up to 9) |
-| 13 |  | K | K.CC.B.5 | `mochi-feast.count-out.k-cc-b-5` | mochi-feast-activity | Feed Mochi — Count Out Treats (Kindergarten Counting Game) |
+| 13 | LIVE 2026-10-17 → `treat-box-activity` (the Treat Box), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.B.5 | `mochi-feast.count-out.k-cc-b-5` | mochi-feast-activity | Feed Mochi — Count Out Treats (Kindergarten Counting Game) |
 | 14 | LIVE 2026-10-16 → `how-many-activity` (the Counting Table); operator review pending | K | K.CC.B.5 | `ten-frame.how-many.0-10.animals` | ten-frame-activity | How Many Animals? Count 0 to 10 — Ten Frame Activity |
 | 15 |  | K | K.CC.B.5 | `twinsies.count-twin.k-cc-b-5` | twinsies-activity | Twinsies — Count How Many & Count Out That Many (Kindergarten) |
 | 16 |  | K | K.CC.B.5 | `wondering-jar.estimate-jar.k-cc-b-5` | wondering-jar-activity | The Wondering Jar — Guess, Then Count to Find Out (Kindergarten) |

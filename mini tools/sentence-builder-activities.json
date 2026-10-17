@@ -59,7 +59,7 @@
           "seed": 12,
           "canonical": [
             "Six",
-            "brown",
+            "white",
             "hens",
             "peck."
           ],
@@ -101,7 +101,7 @@
           "seed": 21,
           "canonical": [
             "The",
-            "wet",
+            "pink",
             "pig",
             "digs."
           ],
@@ -191,7 +191,7 @@
             "seed": 12,
             "canonical": [
               "Der",
-              "gelbe",
+              "blaue",
               "Bus",
               "fährt."
             ],
@@ -236,7 +236,7 @@
             "seed": 21,
             "canonical": [
               "Die",
-              "braune",
+              "weiße",
               "Henne",
               "pickt."
             ],
@@ -299,7 +299,7 @@
             "canonical": [
               "Le",
               "chat",
-              "noir",
+              "roux",
               "dort."
             ],
             "subject": {
@@ -329,7 +329,7 @@
             "canonical": [
               "Le",
               "bus",
-              "rouge",
+              "bleu",
               "roule."
             ],
             "subject": {
@@ -374,7 +374,7 @@
             "canonical": [
               "La",
               "poule",
-              "brune",
+              "blanche",
               "picore."
             ],
             "subject": {
@@ -404,7 +404,7 @@
             "canonical": [
               "La",
               "fleur",
-              "bleue",
+              "rouge",
               "pousse."
             ],
             "subject": {
@@ -434,7 +434,7 @@
           { "id": "snt-pig",    "seed": 19, "canonical": ["O","porco","rosa","grunhe."],     "subject": { "noun": "pig",    "themeDir": "animals",  "label": "o porco" } },
           { "id": "snt-hen",    "seed": 21, "canonical": ["A","galinha","branca","bica."],   "subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "a galinha" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["O","peixe","vermelho","nada."],   "subject": { "noun": "fish",   "themeDir": "animals",  "label": "o peixe" } },
-          { "id": "snt-flower", "seed": 35, "canonical": ["A","flor","roxa","cresce."],      "subject": { "noun": "flower", "themeDir": "spring",   "label": "a flor" } }
+          { "id": "snt-flower", "seed": 35, "canonical": ["A","flor","vermelha","cresce."],      "subject": { "noun": "flower", "themeDir": "spring",   "label": "a flor" } }
         ],
         "it": [
           { "id": "snt-dog",    "seed": 2, "canonical": ["Il","cane","marrone","abbaia."],    "subject": { "noun": "dog",    "themeDir": "animals",  "label": "il cane" } },
@@ -454,7 +454,7 @@
           { "id": "snt-bus",    "seed": 12, "canonical": ["De","snelle","bus","rijdt."],     "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "de bus" } },
           { "id": "snt-frog",   "seed": 13, "canonical": ["De","groene","kikker","springt."],"subject": { "noun": "frog",   "themeDir": "camping",  "label": "de kikker" } },
           { "id": "snt-pig",    "seed": 19, "canonical": ["Het","roze","varken","knort."],   "subject": { "noun": "pig",    "themeDir": "animals",  "label": "het varken" } },
-          { "id": "snt-hen",    "seed": 21, "canonical": ["De","bruine","kip","pikt."],      "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "de kip" } },
+          { "id": "snt-hen",    "seed": 21, "canonical": ["De","witte","kip","pikt."],      "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "de kip" } },
           { "id": "snt-fish",   "seed": 27, "canonical": ["De","gladde","vis","zwemt."],     "subject": { "noun": "fish",   "themeDir": "animals",  "label": "de vis" } },
           { "id": "snt-flower", "seed": 35, "canonical": ["De","mooie","bloem","bloeit."],   "subject": { "noun": "flower", "themeDir": "spring",   "label": "de bloem" } }
         ],

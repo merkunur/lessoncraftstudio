@@ -1506,25 +1506,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi is een klein, hongerig wezentje dat dol is op een feestje met lekkers. Op zijn tafeltje staan schaaltjes vol aardbeien, koekjes, kersen, cupcakes, bananen, appels, donuts en muffins, en een lege kom die wacht om gevuld te worden. Mochi kijkt je kind verwachtingsvol aan: hoeveel mag er vandaag in de kom?",
-        "Elke ronde vraagt Mochi om een precies aantal, bijvoorbeeld vijf aardbeien. Je kind tikt op het bord en legt één voor één een lekkernij in de kom, telt rustig mee en stopt bij het juiste getal. Zo leert het niet ‘hoeveel zijn het?’ te beantwoorden, maar iets moeilijkers: er precies zoveel máken — ook wel een hoeveelheid aftellen genoemd. Er staan geen cijfers in de kom; de kom die langzaam vol wordt ís het tellen. Dat verstevigt getalbegrip en één-op-één tellen, en sluit aan bij de SLO-kerndoelen voor rekenen voor kleuters.",
-        "Er is geen klok en geen score. Je kind mag rustig één voor één werken, zo vaak als het wil. Zijn er te veel lekkernijen in de kom? Dan tik je er gewoon eentje uit — dat is geen fout, gewoon opnieuw kijken en tellen. Te spelen."
+        "Mochi heeft een doos lekkernijen besteld, en het bestelbonnetje laat zien hoeveel – bijvoorbeeld 7. Je kind tikt lekkernijen op het dienblad aan, en elke lekkernij valt in een gebaksdoos met het deksel erop: één tik, één lekkernij uit het zicht. Denkt je kind dat er precies zoveel in de doos zitten als het bonnetje zegt, dan drukt het op Controleer en gaat de doos open. Een interactieve telactiviteit die in de browser werkt, zonder installatie en zonder account.",
+        "Het draait om het deksel. Zit een lekkernij in de doos, dan is hij niet meer te zien; het tellen moet dus in het hoofd van je kind blijven – het laatst genoemde getal is hoeveel er in de doos zitten, en daar moet je kind stoppen. Een gevraagd aantal aftellen is moeilijker dan een hoeveelheid tellen die er al ligt, en de dichte doos zorgt ervoor dat je kind blijft tellen in plaats van te kijken. Een tik op het deksel tilt het even op om te kijken, en het valt vanzelf weer dicht; zolang de doos open is, legt een tik op een lekkernij erin hem terug op het dienblad. Op het dienblad liggen altijd meer lekkernijen dan er besteld zijn (12, of 7 als de getallen tot en met 5 gaan), dus de grootte ervan verraadt het antwoord nooit. Een foute controle zegt ‘te veel’ of ‘te weinig’ en laat het deksel de rest van de ronde van de doos; na een tweede worden de lekkernijen in de doos genummerd en wijst de doos de lekkernijen aan die te veel zijn, of de lege plekken die nog ontbreken. De hulp verplaatst nooit een lekkernij.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: een gevraagd aantal tot en met 10 aftellen en weten dat het laatst getelde getal zegt hoeveel het er zijn. De leerkracht kiest getallen tot en met 5 of tot en met 10, en kan het deksel weghalen zodat de lekkernijen in zicht blijven. Geen timer, geen score."
       ],
       "practices": [
-        "Een gegeven aantal lekkernijen aftellen tot Mochi genoeg heeft",
-        "Één voor één meetellen tot het juiste getal",
-        "Te veel? Rustig eentje terugnemen uit de kom",
-        "Een hoeveelheid van 2 tot 10 maken, zonder cijfers"
+        "Een gevraagd aantal lekkernijen één voor één aftellen",
+        "Het tellen in je hoofd houden als de lekkernijen uit het zicht zijn",
+        "Stoppen bij het juiste getal – het laatst getelde getal zegt hoeveel het er zijn",
+        "In de doos kijken en opnieuw tellen om te controleren"
       ],
       "howToPlay": [
-        "Luister of lees hoeveel lekkernijen Mochi wil",
-        "Tik op het bord en leg één voor één een lekkernij in de kom",
-        "Stop bij het juiste aantal en tik op Controleer"
+        "Lees het getal op het bestelbonnetje.",
+        "Tik lekkernijen op het dienblad aan om ze één voor één in de doos te doen. Met het deksel erop zie je ze niet, dus tel goed mee.",
+        "Zit het deksel erop, tik er dan op om te kijken. Zolang de doos open is, tik je op een lekkernij erin om hem terug te leggen op het dienblad.",
+        "Druk op Controleer. Nog niet helemaal? De hint zegt ‘te veel’ of ‘te weinig’ – verbeter het en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Een precies aantal voorwerpen aftellen en een set maken",
-        "Tellen koppelen aan hoeveelheid: elk voorwerp is één tel",
-        "Zelfvertrouwen met de getallen 2 tot 10, in je eigen tempo"
+        "Een gevraagd aantal tot en met 10 aftellen",
+        "Weten dat het laatst getelde getal zegt hoeveel het er zijn",
+        "Blijven tellen als de voorwerpen niet meer te zien zijn"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

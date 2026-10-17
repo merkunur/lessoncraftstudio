@@ -1682,6 +1682,30 @@
         "Skrive det ciffer, der siger, hvor mange genstande der er",
         "Vide, at det sidste tal, man tæller, siger, hvor mange der er"
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi har bestilt en æske med lækkerier, og bestillingssedlen viser hvor mange – for eksempel 7. Barnet trykker på lækkerier på bakken, og hvert lækkeri falder ned i en kageæske med låg på: ét tryk, ét lækkeri ude af syne. Når barnet tror, at æsken rummer præcis det tal, der står på sedlen, trykker det på Tjek, og æsken åbner sig. En interaktiv tælleøvelse, der kører i browseren uden installation og uden konto.",
+        "Låget er hele pointen. Når et lækkeri ligger i æsken, kan det ikke ses længere, så tællingen må blive i barnets hoved – det sidste tal, barnet sagde, er det antal, der ligger i æsken, og dér skal barnet stoppe. At tælle et givet antal af er sværere end at tælle en mængde, der allerede ligger der, og den lukkede æske får barnet til at holde tællingen i stedet for at kigge. Et tryk på låget løfter det et kort øjeblik, så barnet kan kigge, og så falder det på igen af sig selv; mens æsken er åben, kan barnet trykke på et lækkeri i den for at lægge det tilbage på bakken. På bakken ligger der altid flere lækkerier end i bestillingen (12, eller 7 når tallene går op til 5), så dens størrelse afslører aldrig svaret. Et forkert tjek siger ”for mange” eller ”for få” og lader låget være af resten af runden; efter et andet bliver lækkerierne i æsken nummereret, og æsken markerer de lækkerier, der er for mange, eller de tomme pladser, der stadig mangler. Hjælpen flytter aldrig et lækkeri.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle et givet antal af op til 10 og vide, at det sidste tal, man tæller, fortæller hvor mange der er. Læreren vælger tal op til 5 eller op til 10 og kan tage låget af, så lækkerierne hele tiden kan ses. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "At tælle et givet antal lækkerier af, ét ad gangen",
+        "At holde tællingen i hovedet, når lækkerierne ikke kan ses",
+        "At stoppe ved det rigtige tal – det sidste tal, man tæller, fortæller hvor mange der er",
+        "At kigge og tælle igen for at tjekke"
+      ],
+      "howToPlay": [
+        "Læs tallet på bestillingssedlen.",
+        "Tryk på lækkerier på bakken for at lægge dem i æsken, ét ad gangen. Med låget på kan de ikke ses, så hold tællingen.",
+        "Er låget på, så tryk på det for at kigge. Mens æsken er åben, kan du trykke på et lækkeri i den for at lægge det tilbage på bakken.",
+        "Tryk på Tjek. Ikke helt? Hintet siger ”for mange” eller ”for få” – ret det, og tryk på Tjek igen. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Tælle et givet antal af op til 10",
+        "Vide, at det sidste tal, man tæller, fortæller hvor mange der er",
+        "Holde tællingen, når tingene ikke kan ses længere"
+      ]
     }
   }
 }

@@ -2890,25 +2890,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi è affamato e a ogni giro chiede un numero esatto di golosità: il bambino tocca il piatto e riempie la ciotola una golosità per volta, contando uno a uno, e si ferma quando arriva al numero giusto, togliendone una se per caso ne ha messe troppe.",
-        "Qui non si tratta solo di dire quante golosità ci sono, ma di formare una collezione della grandezza richiesta: si conta uno a uno fino al numero e ci si ferma, senza numeri nella ciotola, perché è la ciotola che si riempie a fare da conteggio, e il bambino vede la quantità crescere e sente da solo dove fermarsi.",
-        "Allineata alle Indicazioni nazionali e pensata per la classe prima, è un’attività senza registrazione, senza timer e senza punteggio: formare una quantità data è una base tranquilla e sicura prima di unire e sommare le quantità."
+        "Mochi ha ordinato una scatola di golosità, e il biglietto dell’ordine dice quante: 7, per esempio. Il bambino tocca le golosità sul vassoio, e ognuna cade in una scatola da pasticceria con il coperchio chiuso: un tocco, una golosità che sparisce. Quando il bambino pensa che nella scatola ce ne siano esattamente quante dice il biglietto, preme Verifica e la scatola si apre. È un’attività interattiva di conta che funziona nel browser, senza installare nulla e senza account.",
+        "Tutto sta nel coperchio. Una volta nella scatola la golosità non si vede più, quindi la conta deve restare nella testa del bambino: l’ultimo numero detto è quante ce ne sono nella scatola, ed è lì che bisogna fermarsi. Formare una raccolta di una quantità data è più difficile che contare una raccolta che c’è già, e la scatola chiusa fa sì che il bambino tenga il conto invece di guardare. Un tocco sul coperchio lo solleva per una breve sbirciata, poi ricade da solo; finché la scatola è aperta, un tocco su una golosità all’interno la rimette sul vassoio. Sul vassoio ci sono sempre più golosità di quante ne chieda l’ordine (12, oppure 7 quando i numeri arrivano a 5), quindi la sua grandezza non dà mai la risposta. Una verifica sbagliata dice «troppe» o «troppo poche» e lascia la scatola senza coperchio per il resto del turno; dopo una seconda, le golosità nella scatola vengono numerate e la scatola segna quelle in più o i posti vuoti che mancano ancora. L’aiuto non sposta mai una golosità.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: formare una raccolta di una quantità data fino a 10 e sapere che l’ultimo numero contato dice quanti sono. L’insegnante sceglie numeri fino a 5 o fino a 10 e può togliere il coperchio perché le golosità restino in vista. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare uno a uno fino alla quantità richiesta, aggiungendo una golosità per volta.",
-        "Fermarsi al numero giusto senza superarlo.",
-        "Togliere una golosità dalla ciotola quando ne ha messe troppe.",
-        "Formare una collezione di un numero dato, dal 2 al 10."
+        "Formare una raccolta di una quantità data, una golosità alla volta",
+        "Tenere il conto a mente quando le golosità non si vedono più",
+        "Fermarsi al numero giusto: l’ultimo numero contato dice quanti sono",
+        "Sbirciare e ricontare per controllare"
       ],
       "howToPlay": [
-        "Guarda quante golosità vuole Mochi in questo giro.",
-        "Tocca il piatto per far cadere una golosità per volta nella ciotola.",
-        "Fermati al numero giusto e tocca «Verifica»."
+        "Leggi il numero sul biglietto dell’ordine.",
+        "Tocca le golosità sul vassoio per metterle nella scatola, una alla volta. Con il coperchio non si vedono: tieni il conto.",
+        "Se c’è il coperchio, toccalo per sbirciare. Finché la scatola è aperta, tocca una golosità all’interno per rimetterla sul vassoio.",
+        "Premi Verifica. Non ancora? Il suggerimento dice «troppe» o «troppo poche»: correggi e premi di nuovo Verifica. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "So contare uno a uno fino a formare la quantità richiesta.",
-        "So fermarmi al numero giusto.",
-        "So togliere una golosità quando ne metto troppe."
+        "Formare una raccolta di una quantità data fino a 10",
+        "Sapere che l’ultimo numero contato dice quanti sono",
+        "Tenere il conto quando gli oggetti non si vedono più"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

@@ -1092,25 +1092,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi, un bollito siempre hambriento, pide cierto número de golosinas en cada ronda, y tu pequeño las va soltando una por una en su tazón hasta juntar exactamente las que necesita. Toca el plato, cae una golosina, cuenta… y se detiene justo en el número que Mochi pidió.",
-        "Aquí vive una idea importante de las matemáticas: no se trata de contar cuántas cosas ya hay, sino de FORMAR una colección del tamaño que se pide. El niño lee cuántas quiere Mochi y construye esa cantidad poco a poco —cada golosina que toca es exactamente una más— hasta detenerse justo en el número pedido. Así aplica el conteo para producir una colección, no solo para contar una que ya estaba.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: si Mochi recibe una golosina de más, el niño toca una en el tazón para quitarla y vuelve a contar con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números del 2 al 10."
+        "Mochi pidió una caja de golosinas, y el ticket del pedido dice cuántas: 7, por ejemplo. El niño toca golosinas de la bandeja, y cada una cae en una caja de pastelería con la tapa puesta: un toque, una golosina que ya no se ve. Cuando el niño cree que en la caja hay exactamente el número del ticket, oprime Comprobar y la caja se abre. Es una actividad interactiva de conteo para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "La clave es la tapa. Una vez dentro de la caja, la golosina no se ve, así que la cuenta tiene que quedarse en la cabeza del niño: el último número que dijo es cuántas hay en la caja, y ahí tiene que parar. Formar una colección de una cantidad dada es más difícil que contar una colección que ya está, y la caja cerrada hace que el niño lleve la cuenta en lugar de mirar. Un toque en la tapa la levanta un momento para mirar, y vuelve a caer sola; mientras la caja está abierta, un toque en una golosina de adentro la regresa a la bandeja. En la bandeja siempre hay más golosinas que en el pedido (12, o 7 cuando los números llegan hasta 5), así que su tamaño nunca da la respuesta. Una comprobación incorrecta dice «demasiadas» o «faltan» y deja la caja sin tapa el resto de la ronda; después de una segunda, las golosinas de la caja se numeran y la caja marca las que sobran o los lugares vacíos que todavía faltan. La ayuda nunca mueve una golosina.",
+        "Está alineada con los planes y programas de estudio (SEP): formar una colección de una cantidad dada hasta 10 y saber que el último número contado dice cuántos hay. El docente elige números hasta 5 o hasta 10, y puede quitar la tapa para que las golosinas se queden a la vista. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Formar una colección del tamaño que Mochi pide: tocar el plato y dejar caer las golosinas una a una, aplicando los principios de conteo.",
-        "Contar en voz alta mientras sirve y detenerse exactamente en el número pedido, controlando cuándo parar.",
-        "Cuando pone de más, quitar una y volver a contar: verificar la colección por correspondencia uno a uno y corregirla.",
-        "Repetir con distintas cantidades del 2 al 10, formando cada vez una colección nueva de la cantidad solicitada."
+        "Formar una colección de una cantidad dada, una golosina a la vez",
+        "Llevar la cuenta en la cabeza cuando las golosinas ya no se ven",
+        "Parar en el número correcto: el último número contado dice cuántos hay",
+        "Mirar dentro de la caja y volver a contar para comprobar"
       ],
       "howToPlay": [
-        "Lee cuántas golosinas quiere Mochi.",
-        "Toca el plato y deja caer las golosinas una por una en el tazón.",
-        "Detente en esa cantidad exacta y toca «Comprobar»; si pusiste una de más, toca una golosina del tazón para quitarla."
+        "Lee el número del ticket del pedido.",
+        "Toca golosinas de la bandeja para ponerlas en la caja, una por una. Con la tapa puesta no se ven: lleva la cuenta.",
+        "Si la tapa está puesta, tócala para mirar. Mientras la caja está abierta, toca una golosina de adentro para regresarla a la bandeja.",
+        "Oprime Comprobar. ¿Todavía no? La pista dice «demasiadas» o «faltan»: corrige y oprime Comprobar otra vez. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Formar una colección con una cantidad determinada de elementos (del 2 al 10), poniendo en práctica los principios de conteo.",
-        "Aplicar la cardinalidad a la producción: usar la última palabra-número contada para saber cuándo detenerse.",
-        "Verificar y ajustar la colección mediante correspondencia uno a uno, corrigiendo el sobreconteo con confianza."
+        "Formar una colección de una cantidad dada hasta 10",
+        "Saber que el último número contado dice cuántos hay",
+        "Llevar la cuenta cuando los objetos ya no se ven"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

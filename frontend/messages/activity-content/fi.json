@@ -1614,6 +1614,30 @@
         "Lapsi kirjoittaa numeron, joka kertoo esineiden lukumäärän",
         "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän"
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi on tilannut laatikollisen herkkuja, ja tilauslapussa lukee, montako – esimerkiksi 7. Lapsi napauttaa tarjottimella olevia herkkuja, ja jokainen putoaa kannelliseen leivoslaatikkoon: yksi napautus, yksi herkku piiloon. Kun lapsi uskoo, että laatikossa on täsmälleen lapun luku, hän painaa Tarkista, ja laatikko aukeaa. Vuorovaikutteinen laskemisharjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Kansi on koko juttu. Kun herkku on laatikossa, sitä ei enää näe, joten laskun täytyy pysyä lapsen mielessä – viimeksi sanottu luku kertoo, montako laatikossa on, ja siihen lapsen pitää pysähtyä. Annetun lukumäärän kokoaminen on vaikeampaa kuin valmiin joukon laskeminen, ja suljettu laatikko saa lapsen pitämään laskun mielessä katsomisen sijaan. Kannen napauttaminen nostaa sitä hetkeksi, niin lapsi voi kurkistaa, ja kansi putoaa itsestään takaisin; kun laatikko on auki, sen sisällä olevan herkun napauttaminen palauttaa herkun tarjottimelle. Tarjottimella on aina enemmän herkkuja kuin tilauksessa (12, tai 7 kun luvut ovat 5:een asti), joten sen koko ei koskaan paljasta vastausta. Väärä tarkistus kertoo, onko herkkuja liikaa vai liian vähän, ja kansi jää pois kierroksen loppuun asti; toisen jälkeen laatikon herkut numeroidaan, ja laatikko merkitsee ylimääräiset herkut tai tyhjät paikat, jotka vielä puuttuvat. Apu ei koskaan siirrä herkkua.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi kokoaa annetun lukumäärän 10:een asti ja tietää, että viimeinen laskettu luku kertoo lukumäärän. Opettaja valitsee, ovatko luvut 5:een vai 10:een asti, ja voi ottaa kannen pois, niin herkut näkyvät koko ajan. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Lapsi kokoaa annetun määrän herkkuja yksi kerrallaan",
+        "Lapsi pitää laskun mielessä, kun herkut eivät enää näy",
+        "Lapsi pysähtyy oikeaan lukuun – viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi kurkistaa ja laskee uudelleen tarkistaakseen"
+      ],
+      "howToPlay": [
+        "Lue tilauslapun luku.",
+        "Napauta tarjottimen herkkuja, niin ne menevät laatikkoon yksi kerrallaan. Kun kansi on päällä, ne eivät näy, joten pidä lasku mielessä.",
+        "Jos kansi on päällä, napauta sitä, niin voit kurkistaa. Kun laatikko on auki, napauta sisällä olevaa herkkua, niin se palaa tarjottimelle.",
+        "Paina Tarkista. Ei ihan? Vihje kertoo, onko herkkuja liikaa vai liian vähän – korjaa ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi kokoaa annetun lukumäärän 10:een asti",
+        "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän",
+        "Lapsi pitää laskun mielessä, kun esineet eivät enää näy"
+      ]
     }
   }
 }

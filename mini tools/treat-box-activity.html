@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mochi’s Treat Box — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #14 of the one-by-one rebuild — THE TREAT BOX (K.CC.B.5, count out a
+       given number into a lidded box: the lid hides them, keep count).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to treat-box-activity.js / treat-box-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/treat-box-core.js?v=1"></script>
+  <script src="/mini-tools/treat-box-activity.js?v=1"></script>
+  <script>
+    LCS.mount(TreatBoxActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

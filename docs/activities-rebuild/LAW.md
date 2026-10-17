@@ -1,5 +1,7 @@
 # The activity law — every activity is an instrument (2026-10-15)
 
+> **2026-10-17:** every activity still to build has a finished design that clears this law — rebuild rows in `designs/NNN-*.md`, new instruments in `new/NNN-*.md`, shared rulings in `designs/RULINGS.md`. Build from the design; this file stays the floor every design was judged against.
+
 Operator rulings this file serves, verbatim:
 
 - *"The activities are very raw and even useless because they are not child friendly top quality designs. They are very generic and boring for the child … the size and proportion of the elements … Sometimes the main elements of the activities are smaller than secondary stuff. The illustrations are terrible. Although you have the opportunity to use the image library images you have drawn disgusting images … You should take the tools as reference point."*

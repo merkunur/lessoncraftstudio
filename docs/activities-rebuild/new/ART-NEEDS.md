@@ -56,3 +56,16 @@ The planet pictures are in the image cache but not in lcs-pictures (no vocabular
 - **face-dial**: accept a three-shape drawn face (eyes/brows/mouth as apparatus geometry) as NOT a hand-drawn character (rule 5)?
 - **Cursive** (cursive-ribbon): ships in 9 locales; sv and fi refused (no joined school script) — the same refusal the worksheets made.
 - **Articles** (article-caps): fi has no articles — the row ships in 10 locales.
+
+## Update after the design phase (2026-10-17) — supersedes the statuses above
+
+The designer + critic pass resolved several blocks without new art (rulings in `../designs/RULINGS.md`):
+- **#231 Plant Builder — ready:** the reviewed worksheet diagram `primitives/plant-figure.js` was rendered and accepted as tool-grade science apparatus.
+- **#287 World Jigsaw — ready:** public-domain Natural Earth geometry (`data/b5/world-map.js`) accepted as map apparatus.
+- **#314 Orbit Rail — ready:** drawn planet glyphs (`primitives/planets.js` + `sky-bodies.js`), never mixed with library `space/*` pictures. Alignment changed to READINESS (`orbit-rail.play.solar-system`).
+- **#264 Cycle Wheel — ready except chicken:** `primitives/life-stage.js` accepted (whole cycle in one style, ≥110 px).
+
+Still needs art or data (each design names its honest fallback):
+- **Pictures:** soap, towel (#220 wash mode); a full-body figure showing elbow/knee/shoulder/neck (#219); ~22 people pictures for the K family tree (#237); a plain hen's egg (#264 chicken, also any "egg" round); a lidless clear glass jar/bottle + a plain steel spoon or paper clip (#265); a cone object (party hat / ice-cream cone with a vocab label) and a pyramid object (#038, #275); hive, web, burrow, anthill, lodge (#240); road-sign pictograms + pedestrian walker figures (#223); puppy, kitten, piglet, tadpole, a calf without horns (#233); a real turnip (live Story Line "Enormous Turnip" — the library turnip reads as beetroot); th-words thumb/teeth/moth/bath (#055, #110).
+- **Labels for art that already exists in the cache** (one vocab/index line each): winter/ice, weather/thunderstorm, weather/sun, tree/oak, tree/spruce, beach/wave, ice_cream, occupations/coach, body-parts/elbow·knee·wrist·thumb·lip·neck, activities/painting·picnic·singing·swimming, toys/teddy_bear·domino, grapes, peas, scissors, classroom/eraser, kitchen-tools/kitchen_scale, space/jupiter·mars·sun.
+- **Data:** per-locale cursive stroke-order tables + ~830 traced word paths for 10 school scripts (#073, #074, #283 — sv/fi refused); en sound-boxes bank rows with pictures for ch/th/vowel teams (chick, whisk, bench, shelf, shrimp, cheese, tooth, mouth, sloth, train, seal) (#110, #112); approved-words-en `koala` syllable count is 2 (spoken 3).

@@ -19,7 +19,7 @@ Generated 2026-10-17 from the coverage analysis (every worksheet type mapped to 
 | 217 |  | K | L.1.1.h | `article-caps` | The Article Caps | 5 |
 | 218 |  | K | L.K.1.a | `word-ribbon` | The Word Ribbon | 15 |
 | 219 |  | K | HEALTH · body-parts | `body-map` | The Body Map | 7 |
-| 220 | BLOCKED (art) | K | HEALTH · hygiene | `wash-basin` | The Wash Basin | 6 |
+| 220 | partly ready (wash-in-order mode needs soap + towel art) | K | HEALTH · hygiene | `wash-basin` | The Wash Basin | 6 |
 | 221 |  | K | HEALTH · nutrition | `everyday-plate` | The Everyday Plate | 2 |
 | 222 |  | K | READINESS · pre-writing-strokes | `pencil-path` | The Pencil Path | 9 |
 | 223 |  | K | HEALTH · road-safety | `zebra-crossing` | The Zebra Crossing | 6 |
@@ -30,13 +30,13 @@ Generated 2026-10-17 from the coverage analysis (every worksheet type mapped to 
 | 228 |  | K | READINESS · symmetry-reflection | `fold-mirror` | The Fold Mirror | 1 |
 | 229 |  | K | READINESS · visual-discrimination | `pairing-pegs` | The Pairing Pegs | 6 |
 | 230 |  | K | READINESS · visual-scanning | `search-lens` | The Search Lens | 5 |
-| 231 | BLOCKED (art) | K | NGSS · 1-LS1-1 | `plant-builder` | The Plant Builder | 5 |
+| 231 | ready (reviewed plant-figure diagram; pipe-plant fallback) | K | NGSS · 1-LS1-1 | `plant-builder` | The Plant Builder | 5 |
 | 232 |  | K | NGSS · 1-LS1-1 | `sense-face` | The Sense Face | 6 |
 | 233 |  | K | NGSS · 1-LS3-1 | `mother-and-baby` | Mother and Baby | 1 |
 | 234 |  | K | NGSS · 2-PS1-1 | `where-from-thread` | The Where-From Thread | 1 |
 | 235 |  | K | NGSS · 2-PS1-2 | `water-tub` | The Water Tub | 7 |
 | 236 |  | K | SS · community-helpers | `helper-dispatch` | The Helper Dispatch | 1 |
-| 237 | BLOCKED (art) | K | SS · family | `family-tree-frames` | The Family Tree | 6 |
+| 237 | partly ready (gr 1–2 words-only; K faces need people art) | K | SS · family | `family-tree-frames` | The Family Tree | 6 |
 | 238 |  | K | NGSS · K-ESS2-1 | `season-wheel` | The Season Wheel | 7 |
 | 239 |  | K | NGSS · K-ESS2-1 | `weather-window` | The Weather Window | 7 |
 | 240 |  | K | NGSS · K-ESS3-1 | `home-finder` | The Home Finder | 10 |
@@ -63,7 +63,7 @@ Generated 2026-10-17 from the coverage analysis (every worksheet type mapped to 
 | 261 |  | 1 | READINESS · picture-sudoku | `sudoku-garden` | The Sudoku Garden | 2 |
 | 262 |  | 1 | NGSS · 1-ESS1-1 | `moon-lamp` | The Moon Lamp | 4 |
 | 263 |  | 1 | NGSS · 1-LS1-1 | `covering-lens` | The Field Lens | 2 |
-| 264 | BLOCKED (art) | 1 | NGSS · 1-LS3-1 | `cycle-wheel` | The Cycle Wheel | 8 |
+| 264 | ready except the chicken cycle (needs a plain hen's-egg picture) | 1 | NGSS · 1-LS3-1 | `cycle-wheel` | The Cycle Wheel | 8 |
 | 265 |  | 1 | NGSS · 2-PS1-1 | `material-test-bench` | The Material Test Bench | 3 |
 | 266 |  | 1 | SS · maps-symbols | `map-key-lens` | The Map Key | 1 |
 | 267 |  | 2 | 2.NBT.B.7 | `carry-chute` | The One-Digit Box — Column Addition and Subtraction | 12 |
@@ -86,7 +86,7 @@ Generated 2026-10-17 from the coverage analysis (every worksheet type mapped to 
 | 284 |  | 2 | READINESS · grid-coordinates | `crossing-lights` | The Crossing Lights — Grid Coordinates | 4 |
 | 285 |  | 2 | READINESS · symmetry-lines | `fold-press` | The Fold Press | 9 |
 | 286 |  | 2 | SS · compass-directions | `compass-walker` | The Compass Walker — North, East, South, West | 2 |
-| 287 | BLOCKED (art) | 2 | SS · continents-and-oceans | `world-jigsaw` | The World Jigsaw — The Continents | 2 |
+| 287 | ready (public-domain map geometry) | 2 | SS · continents-and-oceans | `world-jigsaw` | The World Jigsaw — The Continents | 2 |
 | 288 |  | 3 | 3.OA.A.1 | `skip-rod` | The Measuring Rod | 2 |
 | 289 |  | 3 | 3.OA.A.3 | `story-tray` | The Story Tray | 7 |
 | 290 |  | 3 | 3.OA.A.4 | `even-beam` | The Even Beam | 1 |
@@ -113,5 +113,5 @@ Generated 2026-10-17 from the coverage analysis (every worksheet type mapped to 
 | 311 |  | 3 | L.3.5.c | `doing-stage` | The Doing Stage | 2 |
 | 312 |  | 3 | READINESS · two-attribute-sorting | `two-way-sort` | The Crossroads Sort | 1 |
 | 313 |  | 3 | NGSS · 3-ESS2-1 | `warm-tube` | The Warm Tube | 1 |
-| 314 | BLOCKED (art) | 3 | NGSS · 5-ESS1-1 | `orbit-rail` | The Orbit Rail | 2 |
+| 314 | ready (drawn planet glyphs; library art still wrong) | 3 | READINESS · solar-system | `orbit-rail` | The Orbit Rail | 2 |
 | 315 |  | 3 | NGSS · 5-ESS2-1 | `drop-journey` | The Water Drop's Journey | 1 |

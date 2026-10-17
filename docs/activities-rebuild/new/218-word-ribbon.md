@@ -136,3 +136,6 @@ What changed:
 - New invention for the sight-word worksheets: **the card that turns over** (Guide "Remember it"): the word card flips face-down before the last repeat, so the ribbon unrolls only for the right next letter written from memory; slip 2 makes the card peek for 1.5 s; at the end its letters drop onto the child's. Look–say–cover–write–check, done by the apparatus.
 - Word lists made disjoint from Row 73 (picture words cow / owl / bee / ant / bed / kite / drum / duck / fish; capitals BALL / BOAT / GOAT / LAMB / MOON / STAR / KEY / VAN / OWL). Locale example lists re-picked by the length rule (the old de list repeated Row 73's words).
 - Layout: the ribbon width now leaves room for the scroll rack; long words step to glyph 100 if they would not fit one line; words never break across lines. Coordinator recommendation recorded in §11: Row 73 keeps letters A–Z, this activity owns words and sentences.
+
+## 15. Ownership ruling (orchestrator, 2026-10-17)
+#218 owns **words, sentences and word spacing**; Row 73 (The Writing Carriage) owns letters A–Z only. The shared handwriting worksheets for words/sentences/spacing count under #218.

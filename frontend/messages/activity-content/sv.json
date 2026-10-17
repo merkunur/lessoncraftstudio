@@ -1404,24 +1404,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Två skrivna tal dyker upp och barnet trycker på det som är störst — till exempel 7 och 6, eller 8 och 7. Ibland ligger talen långt ifrån varandra, som 9 och 2, och ibland alldeles intill varandra, som 8 och 7. Det är en interaktiv räkneövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller dator — inget att installera och inget konto behövs.",
-        "Den stora idén är att jämföra tal i sifferform, inte som högar med saker att räkna. Det finns inga bilder att luta sig mot — barnet behöver veta att 8 är mer än 7 bara genom att läsa siffrorna. Det är de tal som ligger nära varandra som gör övningen till riktig träning: barnet kan inte vinna genom att hitta ett tal som ser större ut, utan måste känna till värdet som varje siffra står för. Aktiviteten följer Lgr22 och tränar att jämföra två tal mellan 1 och 10. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Bredvid ett hus med tio våningar väntar två djur som passagerare, var och en med en biljett där det står ett tal – till exempel en gris med 6 och en hund med 9. Vem åker högre? Barnet trycker på passageraren med det större talet och trycker på Kontrollera. Sedan åker hissen uppåt: den stannar på våning 6, där en passagerare kliver av, och tar den andra vidare upp till våning 9. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Huset är en tallinje som står upp: våningsnumren går uppför väggen i räkneordning, så ett större tal är en högre våning – och jämförelsen blir något barnet kan se. Ett barn som är osäkert kan först leta upp båda talen på väggen. Efter ett första fel ber tipset barnet att leta upp båda talen på huset (eller, när numren är dolda, att räkna våningarna nerifrån); efter ett andra tänds båda våningarna, var och en i sin passagerares färg, och man ser direkt vilken som är högst. Ett rätt svar säger det med tal: ”Ja – 9 är större än 6!” Ibland ligger talen långt ifrån varandra, som 8 och 2, och ibland är de grannar, som 7 och 8 – då gäller det att titta noga. De två talen är aldrig lika.",
+        "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 (ett hus med fem våningar) eller upp till 10 och kan dölja våningsnumren, så att våningarna måste räknas nerifrån. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Jämföra två skrivna tal från 1 till 10 och hitta det största",
-        "Läsa siffror och känna deras värde utan att räkna föremål",
-        "Klara av tal som ligger nära varandra, som 8 och 7, inte bara tal långt ifrån varandra",
-        "Bygga upp känslan för vilket tal som är störst"
+        "Jämföra två skrivna tal upp till 10",
+        "Hitta ett tal i räkneordningen",
+        "Se att ett tal som kommer senare när man räknar är större",
+        "Räkna våningarna nerifrån när numren är dolda"
       ],
       "howToPlay": [
-        "Titta på de två talen på skärmen.",
-        "Tryck på det tal som är störst och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Titta på de två biljetterna. Vem åker högre?",
+        "Osäker? Leta upp båda talen på huset.",
+        "Tryck på passageraren med det större talet och tryck sedan på Kontrollera.",
+        "Inte riktigt? Tipset hjälper dig att hitta båda talen – det som sitter högre upp är störst. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan jämföra skrivna tal från 1 till 10 och välja det största",
-        "Barnet känner till värdet som varje siffra står för, utan att räkna",
-        "Barnet bygger den jämförelseförmåga som senare ligger till grund för större än och mindre än"
+        "Jämföra två skrivna tal mellan 1 och 10",
+        "Veta att ett tal som kommer senare när man räknar är större",
+        "Använda talens ordning för att jämföra"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

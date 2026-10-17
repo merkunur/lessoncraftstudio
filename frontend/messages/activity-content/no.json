@@ -1304,25 +1304,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "To skrevne tall dukker opp side om side, og barnet trykker på det største — for eksempel 7 og 6, eller 8 og 7. Noen par ligger langt fra hverandre, som 9 og 2, mens andre ligger helt inntil hverandre, som 8 og 7. Det er en interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon og datamaskin — ingen nedlasting og ingen konto.",
-        "Den store ideen er å sammenligne tall slik de er skrevet med siffer, ikke som grupper med ting man kan telle. Det finnes ingen bilder å støtte seg på — barnet må vite at 8 er mer enn 7 bare ved å lese sifrene. Det er de nære parene som gjør dette til ekte øving: barnet kan ikke vinne ved å peke på et tall som bare «ser større ut», men må kjenne verdien hvert siffer står for.",
-        "Aktiviteten er tilpasset LK20 innenfor området tall — å sammenligne to tall mellom 1 og 10 i sifferform. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Ved siden av et hus med ti etasjer venter to dyr som passasjerer, hver med en billett der det står et tall – for eksempel en gris med 6 og en hund med 9. Hvem skal høyest? Barnet trykker på passasjeren med det største tallet og trykker på Sjekk. Så kjører heisen opp: den stopper i etasje 6, der den ene passasjeren går av, og tar den andre videre opp til etasje 9. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "Huset er en tallinje som står på høykant: etasjenumrene går oppover veggen i telleordning, så et større tall er en høyere etasje – og sammenligningen blir noe barnet kan se. Et barn som er usikkert, kan først finne begge tallene på veggen. Etter en første feil ber hintet barnet finne begge tallene på huset (eller, når numrene er skjult, telle etasjene nedenfra); etter en andre lyser begge etasjene opp, hver i sin passasjers farge, og man ser med en gang hvilken som ligger høyest. Et riktig svar sier det med tall: «Ja – 9 er større enn 6!» Noen tall ligger langt fra hverandre, som 8 og 2, og noen er naboer, som 7 og 8 – dem må man se godt på. De to tallene er aldri like.",
+        "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 (et hus med fem etasjer) eller opptil 10 og kan skjule etasjenumrene, så etasjene må telles nedenfra. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Sammenligne to skrevne tall fra 1 til 10 og finne det største.",
-        "Lese siffer og kjenne verdien deres uten å telle gjenstander.",
-        "Klare nære par som 8 og 7, ikke bare tall som ligger langt fra hverandre.",
-        "Bygge en følelse for hvilket tall som er størst."
+        "Sammenligne to skrevne tall opptil 10",
+        "Finne et tall i telleordningen",
+        "Se at et tall som kommer senere når man teller, er større",
+        "Telle etasjene nedenfra når numrene er skjult"
       ],
       "howToPlay": [
-        "Se på de to tallene på brettet.",
-        "Trykk på det som er størst, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Se på de to billettene. Hvem skal høyest?",
+        "Usikker? Finn begge tallene på huset.",
+        "Trykk på passasjeren med det største tallet, og trykk så på Sjekk.",
+        "Ikke helt? Hintet hjelper deg å finne begge tallene – det som sitter høyest, er størst. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne skrevne tall fra 1 til 10 og velge det største.",
-        "Barnet kjenner verdien hvert siffer står for, uten å telle.",
-        "Barnet bygger den sammenligningssansen som senere ligger til grunn for større enn og mindre enn."
+        "Sammenligne to skrevne tall mellom 1 og 10",
+        "Vite at et tall som kommer senere når man teller, er større",
+        "Bruke rekkefølgen til tallene for å sammenligne"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

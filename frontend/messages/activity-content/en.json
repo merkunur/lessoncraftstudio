@@ -957,25 +957,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Two written numbers appear and the child taps the bigger one — like 7 and 6, or 8 and 7. Some pairs are far apart, such as 9 and 2, and some are right next to each other, such as 8 and 7. It's an interactive Kindergarten counting activity that runs in the browser on tablets, phones, and computers, with nothing to install and no account.",
-        "The big idea is comparing numbers as numerals, not as groups of objects to count. There are no pictures to lean on — the child has to know that 8 is more than 7 just by reading the figures. The close pairs are what make this real practice: a child cannot win by spotting a 'bigger-looking' number; they have to know the value each numeral stands for.",
-        "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. No timer, no score — just calm, playful practice."
+        "A building of ten floors stands beside two animal passengers, each holding a ticket with a number on it — a pig with 6 and a dog with 9, say. Who goes higher? The child taps the passenger with the bigger number and presses Check. Then the elevator rides up: it stops at floor 6, where one passenger gets off, and carries the other on up to floor 9. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "The building is a number line stood upright: its floor numbers run up the wall in counting order, so a bigger number is a higher floor, and the comparison becomes something the child can see. A child who is not sure can find both numbers on the wall first. A wrong Check says to find both numbers on the building (or, with the numbers hidden, to count the floors from the bottom); after a second, both floors light up, each in its passenger's colour, so the higher one is plain to see. A right Check says it with numbers: “Yes — 9 is bigger than 6!” Some pairs are far apart, like 8 and 2, and some are neighbours, like 7 and 8 — those are the ones that need a careful look. The two numbers are never the same.",
+        "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 (a building of five floors) or up to 10, and hide the floor numbers so the floors have to be counted from the bottom. No timer, no score."
       ],
       "practices": [
-        "Compare two written numbers from 1 to 10 and find the bigger one",
-        "Read numerals and know their value without counting objects",
-        "Handle close pairs like 8 and 7, not just far-apart ones",
-        "Build the sense of which number is greater"
+        "Comparing two written numbers up to 10",
+        "Finding a number in the counting order",
+        "Seeing that a number later in the count is bigger",
+        "Counting the floors from the bottom when the numbers are hidden"
       ],
       "howToPlay": [
-        "Look at the two numbers on the board.",
-        "Tap the one that is bigger, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the two tickets. Who goes higher?",
+        "Not sure? Find both numbers on the building.",
+        "Tap the passenger with the bigger number, then press Check.",
+        "Not quite? The hint helps you find both numbers — the one higher up is bigger. No timer, no score."
       ],
       "learningGoals": [
-        "Compare written numbers 1 to 10 and choose the greater — the focus of Common Core K.CC.C.7",
-        "Know the value each numeral stands for, without counting",
-        "Build the comparing sense that grounds greater-than and less-than later"
+        "Compare two numbers between 1 and 10 given as written numerals — the focus of Common Core K.CC.C.7",
+        "Know that a number later in the count is bigger",
+        "Use the order of the numbers to compare"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

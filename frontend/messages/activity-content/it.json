@@ -2545,25 +2545,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Sullo schermo compaiono due numeri scritti in cifre e il bambino tocca quello più grande: per esempio 7 e 6, oppure 8 e 7. Alcune coppie sono molto distanti, come 9 e 2, altre sono vicinissime, come 8 e 7. È un'attività interattiva di matematica per la scuola dell'infanzia, da fare nel browser su tablet, telefono o computer, senza installare nulla e senza account.",
-        "L'idea importante è confrontare i numeri così come sono scritti, senza contare oggetti o immagini. Non ci sono disegni d'aiuto: il bambino deve sapere che 8 vale più di 7 semplicemente leggendo le cifre. Le coppie ravvicinate sono ciò che rende l'esercizio davvero utile, perché non basta scegliere il numero \"dall'aria più grande\": bisogna conoscere il valore di ogni cifra.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri tra 1 e 10 scritti in cifre. Nessun timer e nessun punteggio, solo un gioco tranquillo da ripetere con calma quante volte si vuole."
+        "Accanto a un palazzo di dieci piani aspettano due animali passeggeri, ognuno con un biglietto su cui è scritto un numero — per esempio un maiale con il 6 e un cane con il 9. Chi sale più in alto? Il bambino tocca il passeggero con il numero più grande e preme Verifica. Allora l’ascensore sale: si ferma al piano 6, dove scende un passeggero, e porta l’altro fino al piano 9. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "Il palazzo è una linea dei numeri messa in piedi: i numeri dei piani salgono lungo il muro nell’ordine della conta, quindi un numero più grande è un piano più alto e il confronto diventa visibile. Chi è incerto può cercare prima i due numeri sul muro. Dopo un primo errore, l’aiuto invita a cercare i due numeri sul palazzo (o, se i numeri sono nascosti, a contare i piani dal basso); dopo un secondo, i due piani si illuminano, ognuno del colore del suo passeggero, e si vede subito qual è più in alto. Una risposta giusta lo dice con i numeri: «Sì: 9 è più grande di 6!» Alcuni numeri sono lontani, come 8 e 2, altri sono vicini, come 7 e 8: sono quelli da guardare con attenzione. I due numeri non sono mai uguali.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 (un palazzo di cinque piani) o fino a 10 e può nascondere i numeri dei piani, così bisogna contare i piani dal basso. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Confrontare due numeri scritti da 1 a 10 e trovare quello più grande.",
-        "Leggere le cifre e conoscerne il valore senza contare oggetti.",
-        "Affrontare anche coppie vicine come 8 e 7, non solo numeri molto distanti.",
-        "Sviluppare il senso di quale numero è maggiore."
+        "Confrontare due numeri scritti fino a 10",
+        "Trovare un numero nell’ordine della conta",
+        "Capire che un numero che viene dopo nella conta è più grande",
+        "Contare i piani dal basso quando i numeri sono nascosti"
       ],
       "howToPlay": [
-        "Il bambino guarda i due numeri sul tabellone.",
-        "Tocca quello più grande e poi preme Controlla.",
-        "Se la scelta non è giusta, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+        "Guarda i due biglietti. Chi sale più in alto?",
+        "Sei incerto? Cerca i due numeri sul palazzo.",
+        "Tocca il passeggero con il numero più grande, poi premi Verifica.",
+        "Non ancora? L’aiuto ti fa trovare i due numeri: quello più in alto è il più grande. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Il bambino è in grado di confrontare numeri scritti da 1 a 10 e scegliere il maggiore.",
-        "Impara a riconoscere il valore di ogni cifra senza bisogno di contare.",
-        "Costruisce il senso del confronto che prepara il maggiore e il minore."
+        "Confrontare due numeri scritti in cifre tra 1 e 10",
+        "Sapere che un numero che viene dopo nella conta è più grande",
+        "Usare l’ordine dei numeri per confrontare"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

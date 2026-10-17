@@ -3386,24 +3386,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Deux nombres écrits apparaissent côte à côte et l'enfant touche le plus grand : par exemple 7 et 6, ou 8 et 7. Certaines paires sont très éloignées, comme 9 et 2, d'autres sont juste voisines, comme 8 et 7. C'est une activité de numération interactive pour la maternelle, qui fonctionne directement dans le navigateur, sur tablette, téléphone ou ordinateur, sans rien à installer et sans inscription.",
-        "L'idée importante, c'est de comparer des nombres écrits en chiffres, et non des collections d'objets à compter. Il n'y a aucune image sur laquelle s'appuyer : l'enfant doit savoir que 8 vaut plus que 7 simplement en lisant les chiffres. Ce sont les paires rapprochées qui rendent l'entraînement vrai : on ne peut pas gagner en repérant un nombre « qui a l'air plus gros », il faut connaître la valeur que chaque chiffre représente. Cette activité de comparaison de nombres de 1 à 10 suit les programmes officiels et se pratique à son rythme, sans note ni chrono."
+        "À côté d’un immeuble de dix étages attendent deux animaux passagers, chacun avec un ticket où est écrit un nombre — par exemple un cochon avec le 6 et un chien avec le 9. Qui monte le plus haut ? L’enfant touche le passager qui a le plus grand nombre et appuie sur Vérifier. Alors l’ascenseur monte : il s’arrête à l’étage 6, où un passager descend, et emmène l’autre jusqu’à l’étage 9. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "L’immeuble est une ligne numérique dressée à la verticale : les numéros des étages montent le long du mur dans l’ordre de la comptine, donc un plus grand nombre est un étage plus haut, et la comparaison devient visible. Un enfant qui hésite peut d’abord chercher les deux nombres sur le mur. Après une première erreur, l’indice invite à chercher les deux nombres sur l’immeuble (ou, si les numéros sont cachés, à compter les étages depuis le bas) ; après une deuxième, les deux étages s’allument, chacun de la couleur de son passager, et on voit tout de suite lequel est le plus haut. Une bonne réponse le dit avec des nombres : « Oui — 9 est plus grand que 6 ! » Certains nombres sont loin l’un de l’autre, comme 8 et 2, d’autres sont voisins, comme 7 et 8 — ce sont eux qu’il faut regarder de près. Les deux nombres ne sont jamais les mêmes.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 (un immeuble de cinq étages) ou jusqu’à 10, et peut cacher les numéros des étages pour qu’il faille compter les étages depuis le bas. Ni chrono ni score."
       ],
       "practices": [
-        "Comparer deux nombres écrits de 1 à 10 et trouver le plus grand.",
-        "Lire les chiffres et connaître leur valeur sans compter d'objets.",
-        "Réussir les paires rapprochées comme 8 et 7, pas seulement les paires très éloignées.",
-        "Développer le sens de « quel nombre est le plus grand »."
+        "Comparer deux nombres écrits jusqu’à 10",
+        "Retrouver un nombre dans l’ordre de la comptine",
+        "Voir qu’un nombre qui vient plus tard dans la comptine est plus grand",
+        "Compter les étages depuis le bas quand les numéros sont cachés"
       ],
       "howToPlay": [
-        "Regarde les deux nombres affichés.",
-        "Touche celui qui est le plus grand, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Regarde les deux tickets. Qui monte le plus haut ?",
+        "Tu hésites ? Cherche les deux nombres sur l’immeuble.",
+        "Touche le passager qui a le plus grand nombre, puis appuie sur Vérifier.",
+        "Pas encore ? L’indice t’aide à trouver les deux nombres — le plus haut est le plus grand. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Comparer des nombres écrits de 1 à 10 et choisir le plus grand.",
-        "Connaître la valeur de chaque chiffre, sans compter.",
-        "Construire le sens de la comparaison qui prépare le « plus grand que » et le « plus petit que »."
+        "Comparer deux nombres écrits en chiffres entre 1 et 10",
+        "Savoir qu’un nombre qui vient plus tard dans la comptine est plus grand",
+        "Utiliser l’ordre des nombres pour comparer"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

@@ -135,6 +135,10 @@ function seedScript(row) {
     // seven balls against three, "more" on the top plate, one already across: the card shows the plates, the bridge and the sharing under way
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.a===7&&r.b===3;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.FairShareCore;C.judge(t.st,'a');C.move(t.st,'a',t.st.plates.a[0]);t._paint();})();`;
   }
+  if (row.tool === 'number-lift-activity') {
+    // a pig with 6 and a dog with 9, the right answer checked: the card shows the building, both tickets left on floors 6 and 9 and the car parked at 9
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.left===6&&r.right===9;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.NumberLiftCore;C.choose(t.st,'right');C.check(t.st);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

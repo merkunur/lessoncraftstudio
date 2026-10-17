@@ -3998,25 +3998,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Twee geschreven getallen verschijnen naast elkaar en je kind tikt op het grootste — bijvoorbeeld 7 en 6, of 8 en 7. Soms liggen de getallen ver uit elkaar, zoals 9 en 2, en soms staan ze vlak naast elkaar, zoals 8 en 7. Het is een interactieve telactiviteit voor de kleuterklas die je gewoon in de browser speelt, zonder iets te installeren en zonder account.",
-        "Het draait hier om het vergelijken van getallen als cijfers, niet als groepjes die je natelt. Er zijn geen plaatjes om op te leunen — je kind moet zelf weten dat 8 meer is dan 7 door alleen naar de cijfers te kijken. Juist de getallen die dicht bij elkaar liggen maken het echte oefening: je kind kan niet winnen door een getal te kiezen dat 'groter lijkt', maar moet de waarde van elk cijfer kennen.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein getallen: twee getallen tussen 1 en 10 met elkaar vergelijken die als geschreven cijfers worden getoond. Geen timer, geen score, geen druk — gewoon rustig kijken en kiezen."
+        "Naast een gebouw met tien verdiepingen wachten twee dieren als passagiers, elk met een kaartje waar een getal op staat – bijvoorbeeld een varken met 6 en een hond met 9. Wie gaat hoger? Het kind tikt op de passagier met het grotere getal en drukt op Controleer. Dan gaat de lift omhoog: hij stopt op verdieping 6, waar een passagier uitstapt, en neemt de ander mee naar verdieping 9. Het is een interactieve activiteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "Het gebouw is een getallenlijn die rechtop staat: de verdiepingsnummers lopen in telvolgorde omhoog langs de muur, dus een groter getal is een hogere verdieping, en zo wordt het vergelijken zichtbaar. Een kind dat twijfelt, zoekt eerst beide getallen op de muur. Na een eerste fout vraagt de hint om beide getallen op het gebouw te zoeken (of, als de nummers verborgen zijn, de verdiepingen van onderaf te tellen); na een tweede lichten beide verdiepingen op, elk in de kleur van zijn passagier, en zie je meteen welke hoger is. Een goed antwoord zegt het met getallen: ‘Ja – 9 is groter dan 6!’ Sommige getallen liggen ver uit elkaar, zoals 8 en 2, andere zijn buren, zoals 7 en 8 – daar moet je goed naar kijken. De twee getallen zijn nooit gelijk.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: twee geschreven getallen tussen 1 en 10 vergelijken. De leerkracht kiest getallen tot en met 5 (een gebouw met vijf verdiepingen) of tot en met 10, en kan de verdiepingsnummers verbergen, zodat de verdiepingen van onderaf geteld moeten worden. Geen timer, geen score."
       ],
       "practices": [
-        "Twee geschreven getallen van 1 tot 10 vergelijken en het grootste vinden",
-        "Cijfers lezen en hun waarde kennen zonder voorwerpen te tellen",
-        "Omgaan met getallen die dicht bij elkaar liggen, zoals 8 en 7, niet alleen ver uit elkaar",
-        "Gevoel opbouwen voor welk getal het grootste is"
+        "Twee geschreven getallen tot en met 10 vergelijken",
+        "Een getal vinden in de telrij",
+        "Zien dat een getal dat later in de telrij komt groter is",
+        "De verdiepingen van onderaf tellen als de nummers verborgen zijn"
       ],
       "howToPlay": [
-        "Bekijk de twee getallen op het bord.",
-        "Tik op het getal dat het grootste is en druk daarna op Controleer.",
-        "Net niet? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Kijk naar de twee kaartjes. Wie gaat hoger?",
+        "Twijfel je? Zoek beide getallen op het gebouw.",
+        "Tik op de passagier met het grotere getal en druk dan op Controleer.",
+        "Nog niet? De hint helpt je beide getallen te vinden – het hoogste is het grootste. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind vergelijkt geschreven getallen van 1 tot 10 en kiest het grootste.",
-        "Het kind kent de waarde die elk cijfer aangeeft, zonder te tellen.",
-        "Het kind bouwt het vergelijkgevoel op dat later 'groter dan' en 'kleiner dan' ondersteunt."
+        "Twee geschreven getallen tussen 1 en 10 vergelijken",
+        "Weten dat een getal dat later in de telrij komt groter is",
+        "De volgorde van de getallen gebruiken om te vergelijken"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

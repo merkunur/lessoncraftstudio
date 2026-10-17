@@ -4031,25 +4031,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Zwei geschriebene Zahlen erscheinen nebeneinander, und das Kind tippt die größere an — zum Beispiel 7 und 6 oder 8 und 7. Manche Paare liegen weit auseinander, etwa 9 und 2, andere stehen direkt beieinander, etwa 8 und 7. Diese interaktive Zähl-Übung für den Kindergarten läuft im Browser auf Tablet, Handy oder Computer — ohne Installation und ohne Anmeldung.",
-        "Hier werden Zahlen als Ziffern verglichen, nicht als Gruppen von Dingen zum Abzählen. Es gibt keine Bilder, an denen sich das Kind festhalten kann — es muss allein an den geschriebenen Ziffern erkennen, dass 8 mehr ist als 7. Gerade die eng beieinanderliegenden Paare machen daraus echte Übung: Das Kind kann nicht einfach die „größer aussehende“ Zahl wählen, sondern muss den Wert kennen, für den jede Ziffer steht.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Mengen ausgerichtet — zwei Zahlen zwischen 1 und 10 in geschriebener Form vergleichen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Neben einem Haus mit zehn Stockwerken warten zwei Tiere als Fahrgäste, jedes mit einer Fahrkarte, auf der eine Zahl steht – zum Beispiel ein Schwein mit der 6 und ein Hund mit der 9. Wer fährt höher? Das Kind tippt auf den Fahrgast mit der größeren Zahl und drückt auf Prüfen. Dann fährt der Aufzug los: Er hält beim Stockwerk mit der 6, wo ein Fahrgast aussteigt, und bringt den anderen weiter hinauf zum Stockwerk mit der 9. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Das Haus ist ein aufgestellter Zahlenstrahl: Die Stockwerkszahlen stehen in Zählreihenfolge an der Wand, eine größere Zahl ist also ein höheres Stockwerk – so wird der Vergleich sichtbar. Wer unsicher ist, sucht zuerst beide Zahlen an der Wand. Nach einem falschen Prüfen heißt es, beide Zahlen am Haus zu suchen (oder, wenn die Zahlen versteckt sind, die Stockwerke von unten zu zählen); nach einem zweiten leuchten beide Stockwerke auf, jedes in der Farbe seines Fahrgasts, und man sieht sofort, welches höher liegt. Ein richtiges Prüfen sagt es mit Zahlen: „Ja – 9 ist größer als 6!“ Manche Zahlen liegen weit auseinander, wie 8 und 2, manche sind Nachbarn, wie 7 und 8 – da muss man genau hinschauen. Die beiden Zahlen sind nie gleich.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: zwei geschriebene Zahlen zwischen 1 und 10 vergleichen. Lehrkräfte wählen Zahlen bis 5 (ein Haus mit fünf Stockwerken) oder bis 10 und können die Stockwerkszahlen verstecken, dann werden die Stockwerke von unten gezählt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei geschriebene Zahlen von 1 bis 10 vergleichen und die größere finden.",
-        "Ziffern lesen und ihren Wert kennen, ohne Dinge abzuzählen.",
-        "Auch eng beieinanderliegende Paare wie 8 und 7 sicher unterscheiden, nicht nur weit entfernte.",
-        "Ein Gefühl dafür entwickeln, welche Zahl die größere ist."
+        "Zwei geschriebene Zahlen bis 10 vergleichen",
+        "Eine Zahl in der Zählreihe finden",
+        "Erkennen, dass eine Zahl, die beim Zählen später kommt, größer ist",
+        "Die Stockwerke von unten zählen, wenn die Zahlen versteckt sind"
       ],
       "howToPlay": [
-        "Schau dir die beiden Zahlen auf dem Feld an.",
-        "Tippe die Zahl an, die größer ist, und tippe dann auf Prüfen.",
-        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Schau dir die beiden Fahrkarten an. Wer fährt höher?",
+        "Unsicher? Suche beide Zahlen am Haus.",
+        "Tippe auf den Fahrgast mit der größeren Zahl und drücke dann auf Prüfen.",
+        "Noch nicht? Der Tipp hilft dir, beide Zahlen zu finden – die obere ist größer. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Geschriebene Zahlen von 1 bis 10 vergleichen und die größere auswählen.",
-        "Den Wert kennen, für den jede Ziffer steht, ohne abzuzählen.",
-        "Das Vergleichsgefühl aufbauen, das später dem Größer-als und Kleiner-als zugrunde liegt."
+        "Zwei geschriebene Zahlen zwischen 1 und 10 vergleichen",
+        "Wissen, dass eine Zahl, die beim Zählen später kommt, größer ist",
+        "Die Reihenfolge der Zahlen zum Vergleichen nutzen"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

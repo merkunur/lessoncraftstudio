@@ -1256,24 +1256,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Ruudulle ilmestyy kaksi kirjoitettua lukua, ja lapsi napauttaa niistä suurempaa — esimerkiksi 7 ja 6 tai 8 ja 7. Osa pareista on kaukana toisistaan, kuten 9 ja 2, ja osa aivan vierekkäin, kuten 8 ja 7. Tämä on vuorovaikutteinen esiopetuksen lukuharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
-        "Tärkeintä on, että lukuja verrataan numeroina, ei laskettavina esineryhminä. Mukana ei ole kuvia, joihin nojata, vaan lapsen täytyy tietää pelkät numerot lukemalla, että 8 on enemmän kuin 7. Juuri lähekkäiset parit tekevät tästä oikeaa harjoitusta: lapsi ei voi voittaa etsimällä \"suuremmalta näyttävää\" numeroa, vaan hänen on tunnettava kunkin numeron arvo. Harjoitus on OPS 2014:n mukainen — verrataan kahta lukua välillä 1–10 kirjoitettuina numeroina. Esiopetukseen sopiva."
+        "Kymmenkerroksisen talon vieressä odottaa kaksi eläinmatkustajaa, kummallakin lippu, jossa on luku – esimerkiksi possu, jolla on 6, ja koira, jolla on 9. Kumpi menee ylemmäs? Lapsi napauttaa matkustajaa, jolla on suurempi luku, ja painaa Tarkista. Sitten hissi lähtee ylös: se pysähtyy kerrokseen 6, jossa toinen matkustaja jää pois, ja vie toisen ylemmäs kerrokseen 9. Interaktiivinen harjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Talo on pystyyn nostettu lukujana: kerrosnumerot nousevat seinää ylös lukujonon järjestyksessä, joten suurempi luku on ylempi kerros – ja vertailu muuttuu näkyväksi. Jos lapsi on epävarma, hän voi ensin etsiä molemmat luvut seinästä. Ensimmäisen virheen jälkeen vihje pyytää etsimään molemmat luvut talon seinästä (tai, jos numerot ovat piilossa, laskemaan kerrokset alhaalta); toisen jälkeen kumpikin kerros syttyy oman matkustajansa värisenä, ja heti näkee, kumpi on ylempänä. Oikea vastaus sanotaan luvuin: ”Kyllä – 9 on suurempi kuin 6!” Joskus luvut ovat kaukana toisistaan, kuten 8 ja 2, joskus vierekkäin, kuten 7 ja 8 – silloin pitää katsoa tarkasti. Luvut eivät ole koskaan samat.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10. Opettaja valitsee luvut 5:een tai 10:een asti (viisikerroksinen talo, jos 5:een asti) ja voi piilottaa kerrosnumerot, jolloin kerrokset lasketaan alhaalta. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Vertaa kahta kirjoitettua lukua välillä 1–10 ja löytää suuremman.",
-        "Lukee numerot ja tietää niiden arvon ilman esineiden laskemista.",
-        "Selviää myös lähekkäisistä pareista, kuten 8 ja 7, ei vain kaukaisista.",
-        "Vahvistaa käsitystä siitä, kumpi luku on suurempi."
+        "Kahden kirjoitetun luvun vertaaminen 10:een asti",
+        "Luvun löytäminen lukujonosta",
+        "Sen huomaaminen, että lukujonossa myöhemmin tuleva luku on suurempi",
+        "Kerrosten laskeminen alhaalta, kun numerot ovat piilossa"
       ],
       "howToPlay": [
-        "Katso kahta lukua ruudulla.",
-        "Napauta niistä suurempaa ja paina sitten Tarkista-painiketta.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Katso kahta lippua. Kumpi menee ylemmäs?",
+        "Epävarma? Etsi molemmat luvut talon seinästä.",
+        "Napauta matkustajaa, jolla on suurempi luku, ja paina sitten Tarkista.",
+        "Ei vielä? Vihje auttaa löytämään molemmat luvut – ylempänä oleva on suurempi. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa verrata kirjoitettuja lukuja välillä 1–10 ja valita suuremman.",
-        "Lapsi tietää kunkin numeron arvon ilman laskemista.",
-        "Lapsi kehittää vertailutaitoa, joka pohjustaa myöhempää suurempi kuin- ja pienempi kuin -ajattelua."
+        "Lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10",
+        "Lapsi tietää, että lukujonossa myöhemmin tuleva luku on suurempi",
+        "Lapsi käyttää lukujen järjestystä vertaamiseen"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

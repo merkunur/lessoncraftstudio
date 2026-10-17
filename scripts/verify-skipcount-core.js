@@ -44,11 +44,13 @@ function scanForbidden(obj, label) {
 
 let roundCount = 0;
 const cogs = {};
+const rankCount = {};
 
 for (const row of manifest) {
   const rounds = (row.params && row.params.rounds) || [];
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);
   rounds.forEach((r) => {
+    rankCount[Core.facts(r).answerRank] = (rankCount[Core.facts(r).answerRank] || 0) + 1;
     roundCount++; cogs[r.cog] = 1;
     const label = `${r.id}[${r.cog}]`;
     scanForbidden(r, label);
@@ -66,17 +68,23 @@ for (const row of manifest) {
 
     if (r.cog === 'fill') {
       check(f.answerNotDisplayed, `${label}: the answer term is shown on another pad (NUMERAL_SET_INSUFFICIENT)`);
+      check(f.foilsNotDisplayed, `${label}: a foil is already printed on a pad [${ch.join(',')}] (elimination tell)`);
+      check(Array.isArray(r.foils) && r.foils.length === 2, `${label}: authored foils missing or rejected (falls back to the a±step rank-tell set)`);
       // ANSWER_DERIVED_NOT_STORED — mutate start → answer shifts by Δ
       const moved = Core.answerValue({ cog: 'fill', start: r.start + 7, step: r.step, length: r.length, unknownIndex: r.unknownIndex });
       check(moved === a + 7, `${label}: fill answer did not shift when start moved (stored?)`);
       const movedStep = Core.answerValue({ cog: 'fill', start: r.start, step: r.step + (r.step < 0 ? -1 : 1), length: r.length, unknownIndex: r.unknownIndex });
       check(movedStep === a + (r.step < 0 ? -r.unknownIndex : r.unknownIndex), `${label}: fill answer did not shift when step moved (stored?)`);
     } else {
-      check(JSON.stringify(ch) === JSON.stringify([5, 10, 100]), `${label}: whichstep choices must be [5,10,100], got [${ch.join(',')}]`);
+      check(Array.isArray(r.choices) && ch.indexOf(Math.abs(r.step)) >= 0, `${label}: whichstep needs authored choices containing the step, got [${ch.join(',')}]`);
     }
   });
 }
 
+// 2026-10-17: the answer's numeric rank among the 3 choices must not be exploitable
+// ("always tap the middle number" used to score 100%).
+const rk = [0, 1, 2].map((k) => rankCount[k] || 0);
+check(Math.max.apply(null, rk) <= Math.ceil(roundCount * 0.4), `answer rank smallest/middle/largest = ${rk.join('/')} — one rank wins > 40% (rank tell)`);
 const distinctCogs = Object.keys(cogs);
 check(distinctCogs.indexOf('fill') >= 0 && distinctCogs.indexOf('whichstep') >= 0, `both cogs required (fill + whichstep); got [${distinctCogs.join('/')}]`);
 

@@ -12,53 +12,53 @@
     "params": {
       "rounds": [
         {
-          "id": "farm",
+          "id": "rain",
           "band": 1,
-          "root": "farm",
-          "correct": "farmer",
+          "root": "rain",
+          "correct": "rainy",
           "choices": [
             {
-              "word": "farmer"
+              "word": "rainy"
             },
             {
-              "word": "former"
+              "word": "train"
             },
             {
-              "word": "forest"
+              "word": "brain"
             }
           ]
         },
         {
-          "id": "help",
+          "id": "pig",
           "band": 1,
-          "root": "help",
-          "correct": "helper",
+          "root": "pig",
+          "correct": "piglet",
           "choices": [
             {
-              "word": "hammer"
+              "word": "piglet"
             },
             {
-              "word": "helper"
+              "word": "pigeon"
             },
             {
-              "word": "hello"
+              "word": "pillow"
             }
           ]
         },
         {
-          "id": "paint",
+          "id": "sun",
           "band": 1,
-          "root": "paint",
-          "correct": "painting",
+          "root": "sun",
+          "correct": "sunny",
           "choices": [
             {
-              "word": "pointing"
+              "word": "sunny"
             },
             {
-              "word": "planting"
+              "word": "sung"
             },
             {
-              "word": "painting"
+              "word": "funny"
             }
           ]
         },
@@ -72,78 +72,78 @@
               "word": "careful"
             },
             {
+              "word": "career"
+            },
+            {
               "word": "carrot"
-            },
-            {
-              "word": "cabin"
             }
           ]
         },
         {
-          "id": "play",
+          "id": "star",
           "band": 2,
-          "root": "play",
-          "correct": "player",
+          "root": "star",
+          "correct": "starry",
           "choices": [
             {
-              "word": "plate"
+              "word": "starry"
             },
             {
-              "word": "player"
+              "word": "start"
             },
             {
-              "word": "plant"
+              "word": "stairs"
             }
           ]
         },
         {
-          "id": "teach",
+          "id": "hand",
           "band": 2,
-          "root": "teach",
-          "correct": "teacher",
+          "root": "hand",
+          "correct": "handful",
           "choices": [
             {
-              "word": "feather"
+              "word": "handful"
             },
             {
-              "word": "beacon"
+              "word": "handsome"
             },
             {
-              "word": "teacher"
+              "word": "hammer"
             }
           ]
         },
         {
-          "id": "sun",
+          "id": "cook",
           "band": 3,
-          "root": "sun",
-          "correct": "sunny",
+          "root": "cook",
+          "correct": "cooking",
           "choices": [
             {
-              "word": "sunny"
+              "word": "cooking"
             },
             {
-              "word": "funny"
+              "word": "cool"
             },
             {
-              "word": "bunny"
+              "word": "book"
             }
           ]
         },
         {
-          "id": "jump",
+          "id": "ant",
           "band": 3,
-          "root": "jump",
-          "correct": "jumping",
+          "root": "ant",
+          "correct": "anthill",
           "choices": [
             {
-              "word": "jumbo"
+              "word": "anthill"
             },
             {
-              "word": "jumping"
+              "word": "antler"
             },
             {
-              "word": "bumping"
+              "word": "apple"
             }
           ]
         }
@@ -151,87 +151,70 @@
       "roundsL10n": {
         "de": [
           {
-            "id": "spiel",
+            "id": "eis",
             "band": 1,
-            "root": "spiel",
-            "correct": "Spieler",
+            "root": "eis",
+            "correct": "Eisbär",
             "choices": [
               {
-                "word": "Spieler"
+                "word": "Eisbär"
               },
               {
-                "word": "Spiegel"
+                "word": "Eisen"
               },
               {
-                "word": "Spinne"
+                "word": "Reis"
               }
             ]
           },
           {
-            "id": "roll",
+            "id": "hund",
             "band": 1,
-            "root": "roll",
-            "correct": "Roller",
+            "root": "hund",
+            "correct": "Hündchen",
             "choices": [
               {
-                "word": "Roller"
+                "word": "Hündchen"
               },
               {
-                "word": "Koffer"
+                "word": "Hundert"
               },
               {
-                "word": "Hammer"
+                "word": "Mund"
               }
             ]
           },
           {
-            "id": "lach",
+            "id": "rad",
             "band": 1,
-            "root": "lach",
-            "correct": "lachen",
+            "root": "rad",
+            "correct": "Radweg",
             "choices": [
               {
-                "word": "lachen"
+                "word": "Radweg"
               },
               {
-                "word": "machen"
+                "word": "Radio"
               },
               {
-                "word": "Sachen"
+                "word": "Rand"
               }
             ]
           },
           {
-            "id": "sing",
+            "id": "bus",
             "band": 2,
-            "root": "sing",
-            "correct": "singen",
+            "root": "bus",
+            "correct": "Busfahrer",
             "choices": [
               {
-                "word": "singen"
+                "word": "Busfahrer"
               },
               {
-                "word": "Finger"
+                "word": "Busch"
               },
               {
-                "word": "Ringe"
-              }
-            ]
-          },
-          {
-            "id": "fahr",
-            "band": 2,
-            "root": "fahr",
-            "correct": "Fahrrad",
-            "choices": [
-              {
-                "word": "Fahrrad"
-              },
-              {
-                "word": "Fahne"
-              },
-              {
-                "word": "Faden"
+                "word": "Bauch"
               }
             ]
           },
@@ -245,44 +228,61 @@
                 "word": "backen"
               },
               {
+                "word": "Backe"
+              },
+              {
                 "word": "packen"
-              },
-              {
-                "word": "Jacke"
               }
             ]
           },
           {
-            "id": "tanz",
-            "band": 3,
-            "root": "tanz",
-            "correct": "tanzen",
+            "id": "ei",
+            "band": 2,
+            "root": "ei",
+            "correct": "Eigelb",
             "choices": [
               {
-                "word": "tanzen"
+                "word": "Eigelb"
               },
               {
-                "word": "Tante"
+                "word": "Eimer"
               },
               {
-                "word": "Tanne"
+                "word": "Eule"
               }
             ]
           },
           {
-            "id": "wasch",
+            "id": "wind",
             "band": 3,
-            "root": "wasch",
-            "correct": "waschen",
+            "root": "wind",
+            "correct": "Windmühle",
             "choices": [
               {
-                "word": "waschen"
+                "word": "Windmühle"
               },
               {
-                "word": "Wasser"
+                "word": "Windel"
               },
               {
-                "word": "Tasche"
+                "word": "Kind"
+              }
+            ]
+          },
+          {
+            "id": "tor",
+            "band": 3,
+            "root": "tor",
+            "correct": "Torwart",
+            "choices": [
+              {
+                "word": "Torwart"
+              },
+              {
+                "word": "Torte"
+              },
+              {
+                "word": "Tür"
               }
             ]
           }
@@ -298,7 +298,7 @@
                 "word": "chaton"
               },
               {
-                "word": "château"
+                "word": "chatouille"
               },
               {
                 "word": "chariot"
@@ -315,44 +315,44 @@
                 "word": "laitier"
               },
               {
+                "word": "laitue"
+              },
+              {
                 "word": "laine"
-              },
-              {
-                "word": "laid"
               }
             ]
           },
           {
-            "id": "jour",
+            "id": "ours",
             "band": 1,
-            "root": "jour",
-            "correct": "journal",
+            "root": "ours",
+            "correct": "ourson",
             "choices": [
               {
-                "word": "journal"
+                "word": "ourson"
               },
               {
-                "word": "joue"
+                "word": "oursin"
               },
               {
-                "word": "jouet"
+                "word": "course"
               }
             ]
           },
           {
-            "id": "fleur",
+            "id": "lion",
             "band": 2,
-            "root": "fleur",
-            "correct": "fleuriste",
+            "root": "lion",
+            "correct": "lionceau",
             "choices": [
               {
-                "word": "fleuriste"
+                "word": "lionceau"
               },
               {
-                "word": "fleuve"
+                "word": "million"
               },
               {
-                "word": "flèche"
+                "word": "lien"
               }
             ]
           },
@@ -366,27 +366,27 @@
                 "word": "chanteur"
               },
               {
-                "word": "chance"
+                "word": "chantier"
               },
               {
-                "word": "chandail"
+                "word": "chance"
               }
             ]
           },
           {
-            "id": "danse",
+            "id": "rose",
             "band": 2,
-            "root": "danse",
-            "correct": "danseur",
+            "root": "rose",
+            "correct": "rosier",
             "choices": [
               {
-                "word": "danseur"
+                "word": "rosier"
               },
               {
-                "word": "danger"
+                "word": "arroser"
               },
               {
-                "word": "dense"
+                "word": "robe"
               }
             ]
           },
@@ -400,7 +400,7 @@
                 "word": "dentiste"
               },
               {
-                "word": "denrée"
+                "word": "accident"
               },
               {
                 "word": "dedans"
@@ -408,36 +408,36 @@
             ]
           },
           {
-            "id": "grand",
+            "id": "mur",
             "band": 3,
-            "root": "grand",
-            "correct": "grandir",
+            "root": "mur",
+            "correct": "muraille",
             "choices": [
               {
-                "word": "grandir"
+                "word": "muraille"
               },
               {
-                "word": "grange"
+                "word": "murmure"
               },
               {
-                "word": "grappe"
+                "word": "mouche"
               }
             ]
           }
         ],
         "es": [
-          { "id": "es-flor",  "band": 1, "root": "flor",  "correct": "florero",   "choices": [ { "word": "florero" }, { "word": "flauta" }, { "word": "flecha" } ] },
-          { "id": "es-sol",   "band": 1, "root": "sol",   "correct": "solar",     "choices": [ { "word": "sombra" }, { "word": "solar" }, { "word": "sopa" } ] },
-          { "id": "es-pan",   "band": 1, "root": "pan",   "correct": "panadero",  "choices": [ { "word": "pato" }, { "word": "paloma" }, { "word": "panadero" } ] },
-          { "id": "es-mar",   "band": 2, "root": "mar",   "correct": "marinero",  "choices": [ { "word": "marinero" }, { "word": "manzana" }, { "word": "maleta" } ] },
-          { "id": "es-color", "band": 2, "root": "color", "correct": "colorido",  "choices": [ { "word": "coliflor" }, { "word": "colorido" }, { "word": "collar" } ] },
-          { "id": "es-sal",   "band": 2, "root": "sal",   "correct": "salero",    "choices": [ { "word": "sartén" }, { "word": "saco" }, { "word": "salero" } ] },
-          { "id": "es-reloj", "band": 3, "root": "reloj", "correct": "relojero",  "choices": [ { "word": "relojero" }, { "word": "remolino" }, { "word": "regla" } ] },
-          { "id": "es-papel", "band": 3, "root": "papel", "correct": "papelería", "choices": [ { "word": "pastel" }, { "word": "papelería" }, { "word": "pared" } ] }
+          { "id": "es-sol", "band": 1, "root": "sol", "correct": "soleado", "choices": [ { "word": "soleado" }, { "word": "soldado" }, { "word": "sopa" } ] },
+          { "id": "es-pan", "band": 1, "root": "pan", "correct": "panadero", "choices": [ { "word": "panadero" }, { "word": "pantalón" }, { "word": "pato" } ] },
+          { "id": "es-casa", "band": 1, "root": "casa", "correct": "casita", "choices": [ { "word": "casita" }, { "word": "cascada" }, { "word": "cama" } ] },
+          { "id": "es-mar", "band": 2, "root": "mar", "correct": "marinero", "choices": [ { "word": "marinero" }, { "word": "mariposa" }, { "word": "maleta" } ] },
+          { "id": "es-sal", "band": 2, "root": "sal", "correct": "salero", "choices": [ { "word": "salero" }, { "word": "salchicha" }, { "word": "saco" } ] },
+          { "id": "es-pala", "band": 2, "root": "pala", "correct": "palita", "choices": [ { "word": "palita" }, { "word": "palacio" }, { "word": "perro" } ] },
+          { "id": "es-oso", "band": 3, "root": "oso", "correct": "osito", "choices": [ { "word": "osito" }, { "word": "hermoso" }, { "word": "ojo" } ] },
+          { "id": "es-leon", "band": 3, "root": "león", "correct": "leona", "choices": [ { "word": "leona" }, { "word": "camaleón" }, { "word": "lápiz" } ] }
         ],
         "pt": [
-          { "id": "pt-flor",  "band": 1, "root": "flor",  "correct": "florista",   "choices": [ { "word": "florista" }, { "word": "flauta" }, { "word": "flecha" } ] },
-          { "id": "pt-sol",   "band": 1, "root": "sol",   "correct": "solzinho",   "choices": [ { "word": "solzinho" }, { "word": "sopa" }, { "word": "sombra" } ] },
+          { "id": "pt-bola", "band": 1, "root": "bola", "correct": "bolinha", "choices": [{"word": "bolinha"},{"word": "bolso"},{"word": "boneca"}] },
+          { "id": "pt-sol", "band": 1, "root": "sol", "correct": "solzinho", "choices": [{"word": "solzinho"},{"word": "soldado"},{"word": "sombra"}] },
           { "id": "pt-gato",  "band": 1, "root": "gato",  "correct": "gatinho",    "choices": [ { "word": "gatinho" }, { "word": "gaveta" }, { "word": "garfo" } ] },
           { "id": "pt-sal",   "band": 2, "root": "sal",   "correct": "saleiro",    "choices": [ { "word": "saleiro" }, { "word": "sala" }, { "word": "sapo" } ] },
           { "id": "pt-dente", "band": 2, "root": "dente", "correct": "dentista",   "choices": [ { "word": "dentista" }, { "word": "dentro" }, { "word": "dedo" } ] },
@@ -456,14 +456,14 @@
           { "id": "it-sale",  "band": 3, "root": "sale",  "correct": "saliera",   "choices": [ { "word": "saliera" },   { "word": "sala" },      { "word": "sasso" } ] }
         ],
         "nl": [
-          { "id": "nl-kat",    "band": 1, "root": "kat",    "correct": "katje",       "choices": [ { "word": "katje" },       { "word": "rat" },    { "word": "mat" } ] },
-          { "id": "nl-boom",   "band": 1, "root": "boom",   "correct": "boomhut",     "choices": [ { "word": "boomhut" },     { "word": "droom" },  { "word": "stroom" } ] },
-          { "id": "nl-zon",    "band": 1, "root": "zon",    "correct": "zonnebloem",  "choices": [ { "word": "zonnebloem" },  { "word": "zoon" },   { "word": "ton" } ] },
-          { "id": "nl-school", "band": 2, "root": "school", "correct": "schoolplein", "choices": [ { "word": "schoolplein" }, { "word": "schoen" }, { "word": "stoel" } ] },
-          { "id": "nl-sneeuw", "band": 2, "root": "sneeuw", "correct": "sneeuwbal",   "choices": [ { "word": "sneeuwbal" },   { "word": "leeuw" },  { "word": "meeuw" } ] },
-          { "id": "nl-brand",  "band": 2, "root": "brand",  "correct": "brandweer",   "choices": [ { "word": "brandweer" },   { "word": "krant" },  { "word": "hand" } ] },
-          { "id": "nl-regen",  "band": 3, "root": "regen",  "correct": "regenboog",   "choices": [ { "word": "regenboog" },   { "word": "regel" },  { "word": "tegen" } ] },
-          { "id": "nl-spel",   "band": 3, "root": "spel",   "correct": "speler",      "choices": [ { "word": "speler" },      { "word": "spek" },   { "word": "snel" } ] }
+          { "id": "nl-kat", "band": 1, "root": "kat", "correct": "katje", "choices": [ { "word": "katje" }, { "word": "katoen" }, { "word": "rat" } ] },
+          { "id": "nl-zon", "band": 1, "root": "zon", "correct": "zonnebloem", "choices": [ { "word": "zonnebloem" }, { "word": "zonder" }, { "word": "ton" } ] },
+          { "id": "nl-pan", "band": 1, "root": "pan", "correct": "pannenkoek", "choices": [ { "word": "pannenkoek" }, { "word": "panda" }, { "word": "pen" } ] },
+          { "id": "nl-bed", "band": 2, "root": "bed", "correct": "bedtijd", "choices": [ { "word": "bedtijd" }, { "word": "bedanken" }, { "word": "bad" } ] },
+          { "id": "nl-oor", "band": 2, "root": "oor", "correct": "oorbel", "choices": [ { "word": "oorbel" }, { "word": "oorlog" }, { "word": "door" } ] },
+          { "id": "nl-zee", "band": 2, "root": "zee", "correct": "zeehond", "choices": [ { "word": "zeehond" }, { "word": "zeep" }, { "word": "thee" } ] },
+          { "id": "nl-ster", "band": 3, "root": "ster", "correct": "sterretje", "choices": [ { "word": "sterretje" }, { "word": "sterk" }, { "word": "steen" } ] },
+          { "id": "nl-spel", "band": 3, "root": "spel", "correct": "speler", "choices": [ { "word": "speler" }, { "word": "speld" }, { "word": "snel" } ] }
         ],
         "sv": [
           { "id": "sv-sol",  "band": 1, "root": "sol",  "correct": "solig",    "choices": [ { "word": "solig" },    { "word": "soldat" },    { "word": "soppa" } ] },

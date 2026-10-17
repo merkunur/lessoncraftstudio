@@ -18,8 +18,8 @@
           "g2": "cot",
           "words": [
             "car",
-            "can",
-            "cup"
+            "cup",
+            "cub"
           ]
         },
         {
@@ -28,9 +28,9 @@
           "g1": "bat",
           "g2": "bug",
           "words": [
-            "ant",
             "bee",
-            "bun"
+            "ant",
+            "arm"
           ]
         },
         {
@@ -51,8 +51,8 @@
           "g2": "fox",
           "words": [
             "fig",
-            "egg",
-            "fun"
+            "face",
+            "egg"
           ]
         },
         {
@@ -72,9 +72,9 @@
           "g1": "pat",
           "g2": "pup",
           "words": [
-            "pad",
+            "pen",
             "rat",
-            "pen"
+            "put"
           ]
         },
         {
@@ -94,9 +94,9 @@
           "g1": "ten",
           "g2": "top",
           "words": [
-            "tag",
             "tip",
-            "toy"
+            "toy",
+            "tub"
           ]
         },
         {
@@ -105,9 +105,9 @@
           "g1": "bed",
           "g2": "box",
           "words": [
+            "big",
             "bag",
-            "buy",
-            "big"
+            "bat"
           ]
         }
       ],
@@ -119,9 +119,9 @@
             "g1": "Ball",
             "g2": "Dose",
             "words": [
-              "Apfel",
               "Baum",
-              "Ente"
+              "Ente",
+              "Igel"
             ]
           },
           {
@@ -132,7 +132,7 @@
             "words": [
               "Gabel",
               "Ente",
-              "Igel"
+              "Apfel"
             ]
           },
           {
@@ -152,9 +152,9 @@
             "g1": "Ast",
             "g2": "Auto",
             "words": [
-              "Affe",
               "Auge",
-              "Baum"
+              "Affe",
+              "Ameise"
             ]
           },
           {
@@ -175,7 +175,7 @@
             "g2": "Sofa",
             "words": [
               "Socke",
-              "Sand",
+              "Sonne",
               "Suppe"
             ]
           },
@@ -197,7 +197,7 @@
             "g2": "Blume",
             "words": [
               "Blitz",
-              "Blase",
+              "Blut",
               "Dose"
             ]
           },
@@ -207,9 +207,9 @@
             "g1": "Tanne",
             "g2": "Tasse",
             "words": [
+              "Tasche",
               "Tafel",
-              "Taste",
-              "Tasche"
+              "Tag"
             ]
           }
         ],
@@ -221,8 +221,8 @@
             "g2": "dinde",
             "words": [
               "chat",
-              "abricot",
-              "escargot"
+              "escargot",
+              "fusée"
             ]
           },
           {
@@ -233,7 +233,7 @@
             "words": [
               "lune",
               "cabane",
-              "nid"
+              "gâteau"
             ]
           },
           {
@@ -255,7 +255,7 @@
             "words": [
               "fort",
               "flaque",
-              "fromage"
+              "fée"
             ]
           },
           {
@@ -276,7 +276,7 @@
             "g2": "soleil",
             "words": [
               "singe",
-              "sable",
+              "souris",
               "tarte"
             ]
           },
@@ -298,7 +298,7 @@
             "g2": "botte",
             "words": [
               "bonbon",
-              "boire",
+              "bouche",
               "boule"
             ]
           },
@@ -310,7 +310,7 @@
             "words": [
               "pomme",
               "pagaie",
-              "poule"
+              "page"
             ]
           }
         ],
@@ -321,9 +321,9 @@
             "g1": "casa",
             "g2": "foco",
             "words": [
-              "bota",
               "dedo",
-              "gato"
+              "gato",
+              "hoja"
             ]
           },
           {
@@ -333,8 +333,8 @@
             "g2": "pato",
             "words": [
               "mono",
-              "taza",
-              "goma"
+              "goma",
+              "dedo"
             ]
           },
           {
@@ -356,7 +356,7 @@
             "words": [
               "pino",
               "pato",
-              "puma"
+              "pala"
             ]
           },
           {
@@ -376,9 +376,9 @@
             "g1": "beso",
             "g2": "boca",
             "words": [
-              "banco",
-              "burro",
-              "bici"
+              "bici",
+              "bote",
+              "burro"
             ]
           },
           {
@@ -398,8 +398,8 @@
             "g1": "codo",
             "g2": "cola",
             "words": [
-              "coco",
               "cofre",
+              "cono",
               "copa"
             ]
           },
@@ -409,9 +409,9 @@
             "g1": "cama",
             "g2": "cara",
             "words": [
+              "capa",
               "caja",
-              "casa",
-              "capa"
+              "cabra"
             ]
           }
         ],
@@ -422,9 +422,9 @@
             "g1": "casa",
             "g2": "foco",
             "words": [
-              "bota",
               "dedo",
-              "gato"
+              "gato",
+              "lua"
             ]
           },
           {
@@ -435,7 +435,7 @@
             "words": [
               "muro",
               "faca",
-              "sapo"
+              "gato"
             ]
           },
           {
@@ -457,7 +457,7 @@
             "words": [
               "pena",
               "pasta",
-              "pulo"
+              "pano"
             ]
           },
           {
@@ -478,8 +478,8 @@
             "g2": "bota",
             "words": [
               "bico",
-              "banco",
-              "bule"
+              "bule",
+              "burro"
             ]
           },
           {
@@ -500,8 +500,8 @@
             "g2": "cola",
             "words": [
               "cofre",
-              "cobra",
-              "copo"
+              "copo",
+              "corda"
             ]
           },
           {
@@ -512,7 +512,7 @@
             "words": [
               "capa",
               "cabo",
-              "casa"
+              "caju"
             ]
           }
         ],
@@ -524,7 +524,7 @@
             "g2": "forma",
             "words": [
               "dado",
-              "barca",
+              "gatto",
               "luna"
             ]
           },
@@ -534,9 +534,9 @@
             "g1": "luna",
             "g2": "rana",
             "words": [
-              "gatto",
               "pane",
-              "sole"
+              "gatto",
+              "casa"
             ]
           },
           {
@@ -558,7 +558,7 @@
             "words": [
               "rana",
               "pala",
-              "topo"
+              "mela"
             ]
           },
           {
@@ -578,9 +578,9 @@
             "g1": "nave",
             "g2": "sacco",
             "words": [
-              "mela",
+              "rana",
               "sole",
-              "rana"
+              "topo"
             ]
           },
           {
@@ -600,8 +600,8 @@
             "g1": "sole",
             "g2": "sugo",
             "words": [
-              "sasso",
               "sonno",
+              "suono",
               "topo"
             ]
           },
@@ -611,22 +611,22 @@
             "g1": "cane",
             "g2": "casa",
             "words": [
+              "capra",
               "cammello",
-              "cavallo",
-              "capra"
+              "campo"
             ]
           }
         ],
         "nl": [
-          { "id": "bad-bos", "band": 1, "g1": "bad", "g2": "bos", "words": ["bel", "baby", "bus"] },
-          { "id": "dak-doos", "band": 1, "g1": "dak", "g2": "doos", "words": ["dag", "dek", "duif"] },
+          { "id": "bad-bos", "band": 1, "g1": "bad", "g2": "bos", "words": ["bel", "bus", "deur"] },
+          { "id": "dak-doos", "band": 1, "g1": "dak", "g2": "doos", "words": ["dek", "dag", "beer"] },
           { "id": "kar-kous", "band": 1, "g1": "kar", "g2": "kous", "words": ["kam", "kust", "kers"] },
-          { "id": "man-mus", "band": 2, "g1": "man", "g2": "mus", "words": ["mama", "mos", "muur"] },
+          { "id": "man-mus", "band": 2, "g1": "man", "g2": "mus", "words": ["mos", "mama", "maan"] },
           { "id": "pan-pot", "band": 2, "g1": "pan", "g2": "pot", "words": ["pen", "paal", "puzzel"] },
-          { "id": "tak-tor", "band": 2, "g1": "tak", "g2": "tor", "words": ["taal", "tuin", "tent"] },
+          { "id": "tak-tor", "band": 2, "g1": "tak", "g2": "tor", "words": ["tent", "toren", "tuin"] },
           { "id": "stad-ster", "band": 3, "g1": "stad", "g2": "ster", "words": ["steen", "staal", "stok"] },
-          { "id": "kap-kat", "band": 3, "g1": "kap", "g2": "kat", "words": ["kaas", "kar", "koe"] },
-          { "id": "pil-pit", "band": 3, "g1": "pil", "g2": "pit", "words": ["pier", "pizza", "pin"] }
+          { "id": "kap-kat", "band": 3, "g1": "kap", "g2": "kat", "words": ["kar", "kei", "koe"] },
+          { "id": "pil-pit", "band": 3, "g1": "pil", "g2": "pit", "words": ["pin", "pier", "pet"] }
         ]
       }
     },

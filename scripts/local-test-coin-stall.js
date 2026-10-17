@@ -147,9 +147,9 @@ function serve() {
     const purseBefore = await page.evaluate(() => window.CoinStallActivity._purse.join(','));
     await page.evaluate(() => { const b = Array.from(document.querySelectorAll('.cs-opt')).find(x => /too much/i.test(x.textContent)); if (b) b.click(); });
     await sleep(60); s = await A(); note(!s.solved, 'enough: a wrong verdict was accepted');
-    /* then the correct verdict (just enough) solves */
-    await page.evaluate(() => { const b = Array.from(document.querySelectorAll('.cs-opt')).find(x => /just enough/i.test(x.textContent)); if (b) b.click(); });
-    await sleep(60); s = await A(); note(s.solved, 'enough: the correct verdict (just enough) did not solve');
+    /* then the correct verdict (not enough: 25¢ + 5¢ < 35¢, 2026-10-17) solves */
+    await page.evaluate(() => { const b = Array.from(document.querySelectorAll('.cs-opt')).find(x => /not enough/i.test(x.textContent)); if (b) b.click(); });
+    await sleep(60); s = await A(); note(s.solved, 'enough: the correct verdict (not enough) did not solve');
 
     /* ¢/$ symbols present somewhere */
     await force('change-cheese-100');

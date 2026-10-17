@@ -99,6 +99,7 @@ const PICTURE_REFUSALS = new Set([
   "tools bw|sickle",
   "body parts|skeleton",
   "post office|scale",
+  "post office|stamp",   // a POSTAGE stamp, but 9 locales label it a RUBBER stamp (Stempel, tampon, timbro…) — no postage-stamp vocab key exists
   "sports bw|scale",
   "Christmas bw 2|sack",
   "food bw 2|soup",

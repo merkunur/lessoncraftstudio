@@ -6,24 +6,24 @@
     "alignment": { "framework": "CCSS", "code": "L.2.5.b", "grade": "2", "strand": "Language" },
     "params": {
       "rounds": [
-        { "id": "size", "band": 1, "setId": "size", "ask": "strongest", "words": [ { "word": "huge", "rank": 3 }, { "word": "big", "rank": 1 }, { "word": "large", "rank": 2 } ] },
+        { "id": "size", "band": 1, "setId": "size", "ask": "strongest", "words": [ { "word": "huge", "rank": 2 }, { "word": "big", "rank": 1 }, { "word": "gigantic", "rank": 3 } ] },
         { "id": "heat", "band": 1, "setId": "heat", "ask": "weakest", "words": [ { "word": "hot", "rank": 2 }, { "word": "warm", "rank": 1 }, { "word": "boiling", "rank": 3 } ] },
-        { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "talk", "rank": 1 }, { "word": "shout", "rank": 2 }, { "word": "scream", "rank": 3 } ] },
-        { "id": "tired", "band": 2, "setId": "tired", "ask": "weakest", "words": [ { "word": "tired", "rank": 1 }, { "word": "sleepy", "rank": 2 }, { "word": "exhausted", "rank": 3 } ] },
+        { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "talk", "rank": 2 }, { "word": "whisper", "rank": 1 }, { "word": "shout", "rank": 3 } ] },
+        { "id": "rain", "band": 2, "setId": "rain", "ask": "weakest", "words": [ { "word": "rain", "rank": 2 }, { "word": "pour", "rank": 3 }, { "word": "drizzle", "rank": 1 } ] },
         { "id": "good", "band": 2, "setId": "good", "ask": "strongest", "words": [ { "word": "good", "rank": 1 }, { "word": "amazing", "rank": 3 }, { "word": "great", "rank": 2 } ] },
-        { "id": "cold", "band": 2, "setId": "cold", "ask": "weakest", "words": [ { "word": "cold", "rank": 2 }, { "word": "freezing", "rank": 3 }, { "word": "cool", "rank": 1 } ] },
-        { "id": "love", "band": 3, "setId": "love", "ask": "strongest", "words": [ { "word": "adore", "rank": 3 }, { "word": "like", "rank": 1 }, { "word": "love", "rank": 2 } ] },
-        { "id": "sad", "band": 3, "setId": "sad", "ask": "weakest", "words": [ { "word": "upset", "rank": 2 }, { "word": "sad", "rank": 1 }, { "word": "miserable", "rank": 3 } ] }
+        { "id": "cold", "band": 2, "setId": "cold", "ask": "strongest", "words": [ { "word": "cold", "rank": 2 }, { "word": "icy", "rank": 3 }, { "word": "cool", "rank": 1 } ] },
+        { "id": "love", "band": 3, "setId": "love", "ask": "weakest", "words": [ { "word": "adore", "rank": 3 }, { "word": "like", "rank": 1 }, { "word": "love", "rank": 2 } ] },
+        { "id": "eat", "band": 3, "setId": "eat", "ask": "weakest", "words": [ { "word": "eat", "rank": 2 }, { "word": "gobble", "rank": 3 }, { "word": "nibble", "rank": 1 } ] }
       ],
       "roundsL10n": {
         "de": [
           { "id": "lautstaerke-stark", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "flüstern", "rank": 1 }, { "word": "sprechen", "rank": 2 }, { "word": "schreien", "rank": 3 } ] },
           { "id": "hitze-schwach", "band": 1, "setId": "heat", "ask": "weakest", "words": [ { "word": "warm", "rank": 1 }, { "word": "heiß", "rank": 2 }, { "word": "glühend", "rank": 3 } ] },
-          { "id": "tempo-stark", "band": 1, "setId": "speed", "ask": "strongest", "words": [ { "word": "gehen", "rank": 1 }, { "word": "laufen", "rank": 2 }, { "word": "rennen", "rank": 3 } ] },
+          { "id": "tempo-stark", "band": 1, "setId": "speed", "ask": "strongest", "words": [ { "word": "gehen", "rank": 1 }, { "word": "rennen", "rank": 2 }, { "word": "rasen", "rank": 3 } ] },
           { "id": "kaelte-schwach", "band": 2, "setId": "cold", "ask": "weakest", "words": [ { "word": "kühl", "rank": 1 }, { "word": "kalt", "rank": 2 }, { "word": "eiskalt", "rank": 3 } ] },
           { "id": "wut-stark", "band": 2, "setId": "anger", "ask": "strongest", "words": [ { "word": "sauer", "rank": 1 }, { "word": "wütend", "rank": 2 }, { "word": "rasend", "rank": 3 } ] },
           { "id": "nass-schwach", "band": 2, "setId": "wet", "ask": "weakest", "words": [ { "word": "feucht", "rank": 1 }, { "word": "nass", "rank": 2 }, { "word": "klatschnass", "rank": 3 } ] },
-          { "id": "lachen-stark", "band": 3, "setId": "laugh", "ask": "strongest", "words": [ { "word": "lächeln", "rank": 1 }, { "word": "lachen", "rank": 2 }, { "word": "brüllen", "rank": 3 } ] },
+          { "id": "wind-stark", "band": 3, "setId": "wind", "ask": "strongest", "words": [ { "word": "Lüftchen", "rank": 1 }, { "word": "Wind", "rank": 2 }, { "word": "Sturm", "rank": 3 } ] },
           { "id": "regen-schwach", "band": 3, "setId": "rain", "ask": "weakest", "words": [ { "word": "nieseln", "rank": 1 }, { "word": "regnen", "rank": 2 }, { "word": "gießen", "rank": 3 } ] }
         ],
         "fr": [
@@ -49,12 +49,12 @@
         "pt": [
           { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "sussurrar", "rank": 1 }, { "word": "falar", "rank": 2 }, { "word": "gritar", "rank": 3 } ] },
           { "id": "molhado", "band": 1, "setId": "molhado", "ask": "weakest", "words": [ { "word": "úmido", "rank": 1 }, { "word": "molhado", "rank": 2 }, { "word": "encharcado", "rank": 3 } ] },
-          { "id": "velocidade", "band": 1, "setId": "velocidade", "ask": "strongest", "words": [ { "word": "andar", "rank": 1 }, { "word": "correr", "rank": 2 }, { "word": "disparar", "rank": 3 } ] },
+          { "id": "velocidade", "band": 1, "setId": "velocidade", "ask": "strongest", "words": [ { "word": "caminhar", "rank": 1 }, { "word": "correr", "rank": 2 }, { "word": "disparar", "rank": 3 } ] },
           { "id": "frio", "band": 2, "setId": "frio", "ask": "weakest", "words": [ { "word": "fresco", "rank": 1 }, { "word": "frio", "rank": 2 }, { "word": "gelado", "rank": 3 } ] },
           { "id": "calor", "band": 2, "setId": "calor", "ask": "strongest", "words": [ { "word": "morno", "rank": 1 }, { "word": "quente", "rank": 2 }, { "word": "fervendo", "rank": 3 } ] },
           { "id": "raiva", "band": 2, "setId": "raiva", "ask": "weakest", "words": [ { "word": "irritado", "rank": 1 }, { "word": "bravo", "rank": 2 }, { "word": "furioso", "rank": 3 } ] },
-          { "id": "tamanho", "band": 3, "setId": "tamanho", "ask": "strongest", "words": [ { "word": "grande", "rank": 1 }, { "word": "enorme", "rank": 2 }, { "word": "gigante", "rank": 3 } ] },
-          { "id": "chuva", "band": 3, "setId": "chuva", "ask": "weakest", "words": [ { "word": "chuviscar", "rank": 1 }, { "word": "chover", "rank": 2 }, { "word": "despencar", "rank": 3 } ] }
+          { "id": "tamanho", "band": 3, "setId": "tamanho", "ask": "weakest", "words": [ { "word": "grande", "rank": 1 }, { "word": "enorme", "rank": 2 }, { "word": "gigante", "rank": 3 } ] },
+          { "id": "chuva", "band": 3, "setId": "chuva", "ask": "weakest", "words": [ { "word": "garoa", "rank": 1 }, { "word": "chuva", "rank": 2 }, { "word": "temporal", "rank": 3 } ] }
         ],
         "it": [
           { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "gridare", "rank": 3 }, { "word": "sussurrare", "rank": 1 }, { "word": "parlare", "rank": 2 } ] },

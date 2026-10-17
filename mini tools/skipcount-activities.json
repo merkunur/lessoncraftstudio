@@ -18,7 +18,8 @@
           "start": 5,
           "step": 5,
           "length": 4,
-          "unknownIndex": 3
+          "unknownIndex": 3,
+          "foils": [21, 25]
         },
         {
           "id": "sc-fill-5-mid",
@@ -26,7 +27,8 @@
           "start": 5,
           "step": 5,
           "length": 5,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [11, 12]
         },
         {
           "id": "sc-fill-10-mid",
@@ -34,7 +36,8 @@
           "start": 20,
           "step": 10,
           "length": 4,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [31, 45]
         },
         {
           "id": "sc-fill-10-next",
@@ -42,7 +45,8 @@
           "start": 30,
           "step": 10,
           "length": 4,
-          "unknownIndex": 3
+          "unknownIndex": 3,
+          "foils": [51, 55]
         },
         {
           "id": "sc-fill-100-mid",
@@ -50,7 +54,8 @@
           "start": 100,
           "step": 100,
           "length": 4,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [310, 500]
         },
         {
           "id": "sc-fill-5-nonmul",
@@ -58,7 +63,8 @@
           "start": 3,
           "step": 5,
           "length": 5,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [9, 15]
         },
         {
           "id": "sc-fill-10-cross",
@@ -66,7 +72,8 @@
           "start": 80,
           "step": 10,
           "length": 4,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [91, 95]
         },
         {
           "id": "sc-fill-10-back",
@@ -74,7 +81,8 @@
           "start": 60,
           "step": -10,
           "length": 4,
-          "unknownIndex": 2
+          "unknownIndex": 2,
+          "foils": [45, 49]
         },
         {
           "id": "sc-step-10",
@@ -82,7 +90,8 @@
           "start": 20,
           "step": 10,
           "length": 4,
-          "unknownIndex": 0
+          "unknownIndex": 0,
+          "choices": [1, 5, 10]
         },
         {
           "id": "sc-step-5",
@@ -90,7 +99,8 @@
           "start": 5,
           "step": 5,
           "length": 4,
-          "unknownIndex": 0
+          "unknownIndex": 0,
+          "choices": [5, 10, 20]
         },
         {
           "id": "sc-step-100",
@@ -98,7 +108,8 @@
           "start": 100,
           "step": 100,
           "length": 3,
-          "unknownIndex": 0
+          "unknownIndex": 0,
+          "choices": [10, 100, 200]
         }
       ]
     },

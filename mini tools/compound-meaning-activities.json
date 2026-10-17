@@ -48,36 +48,36 @@
           ]
         },
         {
-          "id": "compound.predict-milkjug",
+          "id": "compound.predict-doorbell",
           "cog": "predict",
           "entry": {
             "part1": {
-              "noun": "milk",
-              "themeDir": "At the Supermarket"
+              "noun": "door",
+              "themeDir": "around the house"
             },
             "part2": {
-              "noun": "jug",
-              "themeDir": "kitchen tools"
+              "noun": "bell",
+              "themeDir": "christmas"
             },
             "head": "part2",
             "relation": "for",
-            "glossMod": "milk",
-            "glossModMaterial": "milk",
-            "compound": "milkjug",
+            "glossMod": "the door",
+            "glossModMaterial": "doors",
+            "compound": "doorbell",
             "transparency": "transparent",
             "familiarity": "novel"
           },
           "choices": [
             {
-              "text": "a jug made of milk",
+              "text": "a bell made of doors",
               "kind": "made-of"
             },
             {
-              "text": "a jug for milk",
+              "text": "a bell for the door",
               "kind": "correct"
             },
             {
-              "text": "a jug for water",
+              "text": "a bell for a bike",
               "kind": "wrong-mod"
             }
           ]
@@ -186,25 +186,25 @@
           ]
         },
         {
-          "id": "compound.supply-mod-dogbed",
+          "id": "compound.supply-mod-doghouse",
           "cog": "supply",
           "missing": "modifier",
-          "frame": "a bed for ___",
+          "frame": "a house for ___",
           "entry": {
             "part1": {
               "noun": "dog",
               "themeDir": "animals"
             },
             "part2": {
-              "noun": "bed",
-              "themeDir": "around the house"
+              "noun": "house",
+              "themeDir": "miscellaneous"
             },
             "head": "part2",
             "relation": "for",
             "glossMod": "dogs",
-            "compound": "dogbed",
+            "compound": "doghouse",
             "transparency": "transparent",
-            "familiarity": "novel"
+            "familiarity": "familiar"
           },
           "choices": [
             {
@@ -294,37 +294,37 @@
           ]
         },
         {
-          "id": "compound.head-milkjug",
+          "id": "compound.head-doorbell",
           "cog": "head",
           "entry": {
             "part1": {
-              "noun": "milk",
-              "themeDir": "At the Supermarket"
+              "noun": "door",
+              "themeDir": "around the house"
             },
             "part2": {
-              "noun": "jug",
-              "themeDir": "kitchen tools"
+              "noun": "bell",
+              "themeDir": "christmas"
             },
             "head": "part2",
             "relation": "for",
-            "glossMod": "milk",
-            "compound": "milkjug",
+            "glossMod": "the door",
+            "compound": "doorbell",
             "transparency": "transparent",
             "familiarity": "novel"
           },
           "choices": [
             {
-              "word": "milk",
+              "word": "door",
               "kind": "mod"
             },
             {
-              "word": "jug",
+              "word": "bell",
               "kind": "head"
             }
           ]
         },
         {
-          "id": "compound.build-bookbag",
+          "id": "compound.build-bookshelf",
           "cog": "build",
           "entry": {
             "part1": {
@@ -332,63 +332,63 @@
               "themeDir": "classroom"
             },
             "part2": {
-              "noun": "bag",
-              "themeDir": "At the Supermarket"
+              "noun": "shelf",
+              "themeDir": "furniture"
             },
             "head": "part2",
             "relation": "for",
             "glossMod": "books",
             "glossModMaterial": "books",
-            "compound": "bookbag",
+            "compound": "bookshelf",
             "transparency": "transparent",
             "familiarity": "novel"
           },
           "choices": [
             {
-              "text": "a bag made of books",
+              "text": "a shelf made of books",
               "kind": "made-of"
             },
             {
-              "text": "a bag for books",
+              "text": "a shelf for books",
               "kind": "correct"
             },
             {
-              "text": "a book for bags",
+              "text": "a book for shelves",
               "kind": "reversed"
             }
           ]
         },
         {
-          "id": "compound.build-dogbed",
+          "id": "compound.build-henhouse",
           "cog": "build",
           "entry": {
             "part1": {
-              "noun": "dog",
-              "themeDir": "animals"
+              "noun": "hen",
+              "themeDir": "farm animals"
             },
             "part2": {
-              "noun": "bed",
-              "themeDir": "around the house"
+              "noun": "house",
+              "themeDir": "miscellaneous"
             },
             "head": "part2",
             "relation": "for",
-            "glossMod": "dogs",
-            "glossModMaterial": "dogs",
-            "compound": "dogbed",
+            "glossMod": "hens",
+            "glossModMaterial": "hens",
+            "compound": "henhouse",
             "transparency": "transparent",
             "familiarity": "novel"
           },
           "choices": [
             {
-              "text": "a bed made of dogs",
+              "text": "a house made of hens",
               "kind": "made-of"
             },
             {
-              "text": "a bed for dogs",
+              "text": "a house for hens",
               "kind": "correct"
             },
             {
-              "text": "a dog for beds",
+              "text": "a hen for houses",
               "kind": "reversed"
             }
           ]
@@ -427,31 +427,31 @@
             ]
           },
           {
-            "id": "compound.de-zahnbuerste",
+            "id": "compound.de-vogelhaus",
             "cog": "predict",
             "entry": {
               "part1": {
-                "noun": "tooth",
-                "themeDir": "body parts"
+                "noun": "bird",
+                "themeDir": "spring"
               },
               "part2": {
-                "noun": "brush",
-                "themeDir": "around the house"
+                "noun": "house",
+                "themeDir": "miscellaneous"
               },
               "head": "part2",
-              "compound": "Zahnbürste"
+              "compound": "Vogelhaus"
             },
             "choices": [
               {
-                "text": "eine Bürste aus Zähnen",
+                "text": "ein Haus aus Vögeln",
                 "kind": "made-of"
               },
               {
-                "text": "eine Bürste für die Zähne",
+                "text": "ein Haus für Vögel",
                 "kind": "correct"
               },
               {
-                "text": "ein Zahn für Bürsten",
+                "text": "ein Vogel für Häuser",
                 "kind": "reversed"
               }
             ]
@@ -706,11 +706,11 @@
         "nl": [
           { "id": "compound.nl-handschoen", "cog": "predict", "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "shoe", "themeDir": "clothing" }, "head": "part2", "compound": "handschoen" }, "choices": [ { "text": "een schoen gemaakt van handen", "kind": "made-of" }, { "text": "een schoen voor de hand", "kind": "correct" }, { "text": "een hand voor schoenen", "kind": "reversed" } ] },
           { "id": "compound.nl-eierbeker", "cog": "predict", "entry": { "part1": { "noun": "egg", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "compound": "eierbeker" }, "choices": [ { "text": "een beker gemaakt van eieren", "kind": "made-of" }, { "text": "een beker voor een ei", "kind": "correct" }, { "text": "een ei voor bekers", "kind": "reversed" } ] },
-          { "id": "compound.nl-schoenborstel", "cog": "predict", "entry": { "part1": { "noun": "shoe", "themeDir": "clothing" }, "part2": { "noun": "brush", "themeDir": "around the house" }, "head": "part2", "compound": "schoenborstel" }, "choices": [ { "text": "een borstel gemaakt van schoenen", "kind": "made-of" }, { "text": "een borstel voor de schoenen", "kind": "correct" }, { "text": "een schoen voor borstels", "kind": "reversed" } ] },
+          { "id": "compound.nl-vogelhuisje", "cog": "predict", "entry": { "part1": { "noun": "bird", "themeDir": "spring" }, "part2": { "noun": "house", "themeDir": "miscellaneous" }, "head": "part2", "compound": "vogelhuisje" }, "choices": [ { "text": "een huisje gemaakt van vogels", "kind": "made-of" }, { "text": "een huisje voor vogels", "kind": "correct" }, { "text": "een vogel voor huisjes", "kind": "reversed" } ] },
           { "id": "compound.nl-voetbal", "cog": "build", "entry": { "part1": { "noun": "foot", "themeDir": "body parts" }, "part2": { "noun": "ball", "themeDir": "toys" }, "head": "part2", "compound": "voetbal" }, "choices": [ { "text": "een bal gemaakt van voeten", "kind": "made-of" }, { "text": "een bal voor de voeten", "kind": "correct" }, { "text": "een voet voor ballen", "kind": "reversed" } ] },
           { "id": "compound.nl-hondenbed", "cog": "ticket", "entry": { "part1": { "noun": "dog", "themeDir": "animals" }, "part2": { "noun": "bed", "themeDir": "around the house" }, "head": "part2", "compound": "hondenbed", "meaningNL": "een bed voor honden" }, "choices": [ { "text": "bedhond", "kind": "reversed" }, { "text": "hondenbed", "kind": "correct" }, { "text": "kinderbed", "kind": "wrong-mod" } ] },
           { "id": "compound.nl-melkkan", "cog": "ticket", "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "jug", "themeDir": "kitchen tools" }, "head": "part2", "compound": "melkkan", "meaningNL": "een kan voor melk" }, "choices": [ { "text": "kanmelk", "kind": "reversed" }, { "text": "melkkan", "kind": "correct" }, { "text": "theekan", "kind": "wrong-mod" } ] },
-          { "id": "compound.nl-tandenborstel", "cog": "supply", "missing": "modifier", "frame": "een borstel voor de ___", "entry": { "part1": { "noun": "tooth", "themeDir": "body parts" }, "part2": { "noun": "brush", "themeDir": "around the house" }, "head": "part2", "compound": "tandenborstel" }, "choices": [ { "noun": "hand", "themeDir": "body parts", "kind": "wrong" }, { "noun": "tooth", "themeDir": "body parts", "kind": "correct" }, { "noun": "foot", "themeDir": "body parts", "kind": "wrong" } ] },
+          { "id": "compound.nl-regenjas", "cog": "supply", "missing": "modifier", "frame": "een jas voor de ___", "entry": { "part1": { "noun": "rain", "themeDir": "spring" }, "part2": { "noun": "coat", "themeDir": "clothing" }, "head": "part2", "compound": "regenjas" }, "choices": [ { "noun": "sun", "themeDir": "beach", "kind": "wrong" }, { "noun": "rain", "themeDir": "spring", "kind": "correct" }, { "noun": "foot", "themeDir": "body parts", "kind": "wrong" } ] },
           { "id": "compound.nl-melkbeker", "cog": "supply", "missing": "head", "frame": "een ___ voor de melk", "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "compound": "melkbeker" }, "choices": [ { "noun": "bed", "themeDir": "around the house", "kind": "wrong" }, { "noun": "cup", "themeDir": "around the house", "kind": "correct" }, { "noun": "ball", "themeDir": "toys", "kind": "wrong" } ] },
           { "id": "compound.nl-appeltaart", "cog": "head", "entry": { "part1": { "noun": "apple", "themeDir": "At the Supermarket" }, "part2": { "noun": "cake", "themeDir": "4th of July" }, "head": "part2", "compound": "appeltaart", "artikel": "de" }, "choices": [ { "word": "apple", "kind": "mod" }, { "word": "cake", "kind": "head" } ] },
           { "id": "compound.nl-handtas", "cog": "head", "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "bag", "themeDir": "At the Supermarket" }, "head": "part2", "compound": "handtas", "artikel": "de" }, "choices": [ { "word": "hand", "kind": "mod" }, { "word": "bag", "kind": "head" } ] }

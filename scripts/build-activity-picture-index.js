@@ -50,7 +50,7 @@ function loadVocab() {
 const nounOf = (stem) => stem.replace(/\s*\d+$/, '').trim().toLowerCase();
 /* A file stem that names a DIFFERENT vocab entry than its own spelling: tools/nail is a metal nail, but
    vocab `nail` is the fingernail (fr Ongle, es Uña, da Negl …) — the metal one is `metal-nail` (fr Clou, da Søm). */
-const KEY_ALIAS = { 'tools|nail': 'metal-nail' };
+const KEY_ALIAS = { 'tools|nail': 'metal-nail', 'around the house|brush': 'paint-brush' };
 
 function build() {
   const vocab = loadVocab();

@@ -55,29 +55,29 @@
           "ampm": "AM"
         },
         {
-          "id": "ap-sunrise",
-          "activity": "The sun comes up.",
+          "id": "ap-break",
+          "activity": "You have a break at school.",
           "activityL10n": {
-            "de": "Die Sonne geht auf.",
-            "fr": "Le soleil se lève.",
-            "es": "Sale el sol.",
-            "pt": "O sol nasce.",
-            "it": "Sorge il sole.",
-            "nl": "De zon komt op."
+            "de": "Du hast Pause in der Schule.",
+            "fr": "C’est la récréation à l’école.",
+            "es": "Sales al recreo.",
+            "pt": "É hora do recreio na escola.",
+            "it": "C’è la ricreazione a scuola.",
+            "nl": "Je hebt pauze op school."
           },
-          "time": "6:00",
+          "time": "10:00",
           "ampm": "AM"
         },
         {
-          "id": "ap-dinner",
-          "activity": "You eat dinner.",
+          "id": "ap-bath",
+          "activity": "You take a bath before bed.",
           "activityL10n": {
-            "de": "Du isst zu Abend.",
-            "fr": "Tu prends le dîner.",
-            "es": "Cenas.",
-            "pt": "Você janta.",
-            "it": "Mangi la cena.",
-            "nl": "Je eet je avondeten."
+            "de": "Du badest vor dem Schlafengehen.",
+            "fr": "Tu prends ton bain avant d’aller au lit.",
+            "es": "Te bañas antes de dormir.",
+            "pt": "Você toma banho antes de dormir.",
+            "it": "Fai il bagnetto prima di dormire.",
+            "nl": "Je neemt een bad voordat je gaat slapen."
           },
           "time": "6:00",
           "ampm": "PM"
@@ -97,17 +97,17 @@
           "ampm": "PM"
         },
         {
-          "id": "ap-stars",
-          "activity": "You look at the stars.",
+          "id": "ap-home",
+          "activity": "You walk home from school.",
           "activityL10n": {
-            "de": "Du schaust die Sterne an.",
-            "fr": "Tu regardes les étoiles.",
-            "es": "Miras las estrellas.",
-            "pt": "Você olha as estrelas.",
-            "it": "Guardi le stelle.",
-            "nl": "Je kijkt naar de sterren."
+            "de": "Du gehst von der Schule nach Hause.",
+            "fr": "Tu rentres de l’école.",
+            "es": "Regresas a casa de la escuela.",
+            "pt": "Você volta da escola para casa.",
+            "it": "Torni a casa da scuola.",
+            "nl": "Je loopt van school naar huis."
           },
-          "time": "9:00",
+          "time": "3:00",
           "ampm": "PM"
         },
         {
@@ -135,7 +135,7 @@
             "it": "Ti lavi i denti prima di dormire.",
             "nl": "Je poetst je tanden voordat je gaat slapen."
           },
-          "time": "9:00",
+          "time": "7:00",
           "ampm": "PM"
         }
       ]

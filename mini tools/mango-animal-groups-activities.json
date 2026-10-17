@@ -138,23 +138,23 @@
           ]
         },
         {
-          "id": "grapes",
+          "id": "ants",
           "band": 3,
           "subject": {
-            "noun": "grapes",
-            "themeDir": "At the Supermarket"
+            "noun": "ant",
+            "themeDir": "forest creatures"
           },
-          "plural": "grapes",
-          "correct": "bunch",
+          "plural": "ants",
+          "correct": "colony",
           "choices": [
             {
-              "word": "bunch"
+              "word": "colony"
             },
             {
               "word": "flock"
             },
             {
-              "word": "pack"
+              "word": "pride"
             }
           ]
         },
@@ -175,7 +175,7 @@
               "word": "flock"
             },
             {
-              "word": "herd"
+              "word": "pride"
             }
           ]
         }
@@ -343,7 +343,7 @@
                 "word": "Volk"
               },
               {
-                "word": "Schwarm"
+                "word": "Herde"
               },
               {
                 "word": "Rudel"
@@ -996,10 +996,10 @@
               "themeDir": "forest creatures"
             },
             "plural": "formiche",
-            "correct": "formicaio",
+            "correct": "colonia",
             "choices": [
               {
-                "word": "formicaio"
+                "word": "colonia"
               },
               {
                 "word": "gregge"
@@ -1034,7 +1034,7 @@
         "nl": [
           { "id": "koeien", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "koeien", "correct": "kudde", "choices": [ { "word": "kudde" }, { "word": "roedel" }, { "word": "zwerm" } ] },
           { "id": "schapen", "band": 1, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "schapen", "correct": "kudde", "choices": [ { "word": "roedel" }, { "word": "kudde" }, { "word": "vlucht" } ] },
-          { "id": "olifanten", "band": 1, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "olifanten", "correct": "kudde", "choices": [ { "word": "troep" }, { "word": "zwerm" }, { "word": "kudde" } ] },
+          { "id": "olifanten", "band": 1, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "olifanten", "correct": "kudde", "choices": [ { "word": "school" }, { "word": "zwerm" }, { "word": "kudde" } ] },
           { "id": "wolven", "band": 2, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "wolven", "correct": "roedel", "choices": [ { "word": "roedel" }, { "word": "zwerm" }, { "word": "school" } ] },
           { "id": "leeuwen", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "leeuwen", "correct": "troep", "choices": [ { "word": "kudde" }, { "word": "troep" }, { "word": "zwerm" } ] },
           { "id": "vissen", "band": 2, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "vissen", "correct": "school", "choices": [ { "word": "kudde" }, { "word": "zwerm" }, { "word": "school" } ] },

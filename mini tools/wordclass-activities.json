@@ -15,109 +15,109 @@
         {
           "id": "wc-a1",
           "targetKind": "noun",
-          "base": "quick",
-          "target": "rabbit",
-          "sentence": "The ___ rabbit hopped away.",
-          "q": "Which word describes the rabbit?",
+          "base": "happy",
+          "target": "puppy",
+          "sentence": "The puppy is ___.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "quick",
-            "adverb": "quickly"
+            "adjective": "happy",
+            "adverb": "happily"
           }
         },
         {
           "id": "wc-a2",
           "targetKind": "noun",
-          "base": "loud",
-          "target": "bell",
-          "sentence": "A ___ bell rang.",
-          "q": "Which word describes the bell?",
+          "base": "sleepy",
+          "target": "kitten",
+          "sentence": "The kitten looks ___.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "loud",
-            "adverb": "loudly"
+            "adjective": "sleepy",
+            "adverb": "sleepily"
           }
         },
         {
           "id": "wc-a3",
           "targetKind": "noun",
-          "base": "bright",
-          "target": "star",
-          "sentence": "The ___ star shone.",
-          "q": "Which word describes the star?",
+          "base": "brave",
+          "target": "knight",
+          "sentence": "The knight felt ___ in the dark forest.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "bright",
-            "adverb": "brightly"
+            "adjective": "brave",
+            "adverb": "bravely"
           }
         },
         {
           "id": "wc-a4",
           "targetKind": "noun",
-          "base": "quiet",
-          "target": "mouse",
-          "sentence": "The ___ mouse hid.",
-          "q": "Which word describes the mouse?",
+          "base": "noisy",
+          "target": "baby",
+          "sentence": "The baby was ___ all night.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "quiet",
-            "adverb": "quietly"
+            "adjective": "noisy",
+            "adverb": "noisily"
           }
         },
         {
           "id": "wc-v1",
           "targetKind": "verb",
-          "base": "quick",
-          "target": "hopped",
-          "sentence": "The rabbit hopped ___.",
-          "q": "Which word tells how the rabbit hopped?",
+          "base": "careful",
+          "target": "carried",
+          "sentence": "Mia carried the eggs ___.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "quick",
-            "adverb": "quickly"
+            "adjective": "careful",
+            "adverb": "carefully"
           }
         },
         {
           "id": "wc-v2",
           "targetKind": "verb",
-          "base": "loud",
-          "target": "rang",
-          "sentence": "The bell rang ___.",
-          "q": "Which word tells how the bell rang?",
+          "base": "happy",
+          "target": "cleaned up",
+          "sentence": "The children ___ cleaned up the toys.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "loud",
-            "adverb": "loudly"
+            "adjective": "happy",
+            "adverb": "happily"
           }
         },
         {
           "id": "wc-v3",
           "targetKind": "verb",
-          "base": "soft",
-          "target": "sang",
-          "sentence": "She sang ___.",
-          "q": "Which word tells how she sang?",
+          "base": "gentle",
+          "target": "held",
+          "sentence": "The nurse ___ held the baby.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "soft",
-            "adverb": "softly"
+            "adjective": "gentle",
+            "adverb": "gently"
           }
         },
         {
           "id": "wc-v4",
           "targetKind": "verb",
-          "base": "slow",
-          "target": "walked",
-          "sentence": "The turtle walked ___.",
-          "q": "Which word tells how the turtle walked?",
+          "base": "angry",
+          "target": "barked",
+          "sentence": "The dog barked ___ at the cat.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "slow",
-            "adverb": "slowly"
+            "adjective": "angry",
+            "adverb": "angrily"
           }
         },
         {
           "id": "wc-v5",
           "targetKind": "verb",
-          "base": "neat",
-          "target": "wrote",
-          "sentence": "He wrote ___.",
-          "q": "Which word tells how he wrote?",
+          "base": "polite",
+          "target": "said",
+          "sentence": "Leo said thank you ___.",
+          "q": "Which word fits the sentence?",
           "forms": {
-            "adjective": "neat",
-            "adverb": "neatly"
+            "adjective": "polite",
+            "adverb": "politely"
           }
         }
       ],
@@ -129,7 +129,7 @@
             "base": "rapide",
             "target": "guépard",
             "sentence": "Le guépard est ___.",
-            "q": "Quel mot décrit le guépard ?",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "rapide",
               "adverb": "rapidement"
@@ -140,8 +140,8 @@
             "targetKind": "noun",
             "base": "calme",
             "target": "chat",
-            "sentence": "Le chat ___ dort sur le lit.",
-            "q": "Quel mot décrit le chat ?",
+            "sentence": "Le chat semble ___.",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "calme",
               "adverb": "calmement"
@@ -153,7 +153,7 @@
             "base": "sage",
             "target": "chien",
             "sentence": "Le chien est ___ à l’école.",
-            "q": "Quel mot décrit le chien ?",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "sage",
               "adverb": "sagement"
@@ -165,7 +165,7 @@
             "base": "agile",
             "target": "singe",
             "sentence": "Le singe ___ saute d’arbre en arbre.",
-            "q": "Quel mot décrit le singe ?",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "agile",
               "adverb": "agilement"
@@ -174,13 +174,13 @@
           {
             "id": "wc-v1",
             "targetKind": "verb",
-            "base": "rapide",
-            "target": "vole",
-            "sentence": "L’avion vole ___.",
-            "q": "Quel mot dit comment l’avion vole ?",
+            "base": "courageux",
+            "target": "a sauvé",
+            "sentence": "Le pompier a ___ sauvé le chat.",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
-              "adjective": "rapide",
-              "adverb": "rapidement"
+              "adjective": "courageux",
+              "adverb": "courageusement"
             }
           },
           {
@@ -189,7 +189,7 @@
             "base": "calme",
             "target": "respire",
             "sentence": "Le bébé respire ___.",
-            "q": "Quel mot dit comment le bébé respire ?",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "calme",
               "adverb": "calmement"
@@ -198,34 +198,34 @@
           {
             "id": "wc-v3",
             "targetKind": "verb",
-            "base": "timide",
-            "target": "répond",
-            "sentence": "Le garçon répond ___.",
-            "q": "Quel mot dit comment le garçon répond ?",
+            "base": "sage",
+            "target": "range",
+            "sentence": "Le garçon range ses jouets ___.",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
-              "adjective": "timide",
-              "adverb": "timidement"
+              "adjective": "sage",
+              "adverb": "sagement"
             }
           },
           {
             "id": "wc-v4",
             "targetKind": "verb",
-            "base": "tranquille",
-            "target": "travaille",
-            "sentence": "Le monsieur travaille ___.",
-            "q": "Quel mot dit comment le monsieur travaille ?",
+            "base": "gentil",
+            "target": "a caressé",
+            "sentence": "Mamie a ___ caressé le chaton.",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
-              "adjective": "tranquille",
-              "adverb": "tranquillement"
+              "adjective": "gentil",
+              "adverb": "gentiment"
             }
           },
           {
             "id": "wc-v5",
             "targetKind": "verb",
             "base": "poli",
-            "target": "parle",
-            "sentence": "L’élève parle ___.",
-            "q": "Quel mot dit comment l’élève parle ?",
+            "target": "répond",
+            "sentence": "L’élève répond ___ à la maîtresse.",
+            "q": "Quel mot va dans la phrase ?",
             "forms": {
               "adjective": "poli",
               "adverb": "poliment"

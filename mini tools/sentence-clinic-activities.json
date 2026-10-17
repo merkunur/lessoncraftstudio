@@ -73,7 +73,7 @@
           "replacement": "runs",
           "distractors": [
             "running",
-            "ran"
+            "runned"
           ],
           "convention": "A she/he/it subject takes a verb ending in -s.",
           "clean": [
@@ -517,7 +517,7 @@
         "es": [
           { "id": "cap-start",    "band": 1, "action": "capitalize",   "tokens": ["el","perro","es","grande","."], "targetIndex": 0, "replacement": "El", "convention": "Cada oración empieza con mayúscula.", "clean": ["El","perro","es","grande","."] },
           { "id": "mark-end",     "band": 1, "action": "insert-punct", "tokens": ["El","sol","es","amarillo"], "gapIndex": 4, "replacement": ".", "distractors": [",","?"], "convention": "Cada oración termina con un punto.", "clean": ["El","sol","es","amarillo","."] },
-          { "id": "swap-agree",   "band": 2, "action": "swap",         "tokens": ["El","gato","comen","rápido","."], "targetIndex": 2, "replacement": "come", "distractors": ["comía","comes"], "convention": "La palabra de acción tiene que ir con quien la hace.", "clean": ["El","gato","come","rápido","."] },
+          { "id": "swap-agree",   "band": 2, "action": "swap",         "tokens": ["El","gato","comen","rápido","."], "targetIndex": 2, "replacement": "come", "distractors": ["comemos","comes"], "convention": "La palabra de acción tiene que ir con quien la hace.", "clean": ["El","gato","come","rápido","."] },
           { "id": "fill-verb",    "band": 2, "action": "insert-word",  "tokens": ["La","niña","una","manzana","."], "gapIndex": 2, "replacement": "come", "distractors": ["verde","debajo"], "convention": "A la oración le falta la palabra de acción.", "clean": ["La","niña","come","una","manzana","."] },
           { "id": "order-svo",    "band": 3, "action": "reorder",      "tokens": ["bebe","gato","agua","El"], "correctOrder": [3,1,0,2], "convention": "Las palabras van en orden para que la oración tenga sentido.", "clean": ["El","gato","bebe","agua"] },
           { "id": "del-double",   "band": 3, "action": "delete",       "tokens": ["Mi","mamá","ella","cocina","."], "targetIndex": 2, "convention": "No hace falta decir dos veces quién hace la acción.", "clean": ["Mi","mamá","cocina","."] },

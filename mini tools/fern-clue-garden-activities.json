@@ -205,7 +205,7 @@
                 "kind": "correct"
               },
               {
-                "text": "ein großes Tanzfest, bei dem man in feiner Kleidung tanzt",
+                "text": "ein großes, feines Tanzfest, bei dem man in schöner Kleidung tanzt",
                 "kind": "no-context"
               },
               {
@@ -249,7 +249,7 @@
                 "kind": "off"
               },
               {
-                "text": "ein langes Sitzmöbel, auf dem mehrere Leute Platz haben",
+                "text": "ein langes Sitzmöbel für mehrere Leute",
                 "kind": "correct"
               }
             ]
@@ -309,7 +309,7 @@
                 "kind": "off"
               },
               {
-                "text": "ein Gegenstand, der hell leuchtet, wenn man ihn einschaltet",
+                "text": "das Ding in der Lampe, das hell leuchtet",
                 "kind": "correct"
               }
             ]
@@ -1121,7 +1121,7 @@
           { "id": "pad", "band": 3, "word": "pad", "sentence": "We lopen over het smalle pad dwars door het bos.",
             "choices": [ { "text": "een klein springend dier dat veel op een kikker lijkt", "kind": "no-context" }, { "text": "een smal weggetje waarover je rustig kunt wandelen", "kind": "correct" }, { "text": "een warme jas die je aandoet als het buiten sneeuwt", "kind": "off" } ] },
           { "id": "veer", "band": 3, "word": "veer", "sentence": "De vogel verliest een zachte veer uit zijn vleugel.",
-            "choices": [ { "text": "een boot die mensen over het water naar de overkant brengt", "kind": "no-context" }, { "text": "een groot rond bord waarop je het eten opschept", "kind": "off" }, { "text": "een licht en zacht dons-plukje dat een vogeltje bedekt", "kind": "correct" } ] }
+            "choices": [ { "text": "een boot die mensen over het water naar de overkant brengt", "kind": "no-context" }, { "text": "een groot rond bord waarop je het eten opschept", "kind": "off" }, { "text": "een licht, plat stukje met een steeltje dat op een vogel groeit", "kind": "correct" } ] }
         ]
       }
     },

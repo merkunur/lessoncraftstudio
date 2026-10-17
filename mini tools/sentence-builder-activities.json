@@ -465,7 +465,7 @@
           { "id": "snt-frog",   "seed": 12, "canonical": ["En","grön","groda","kväker."],   "subject": { "noun": "frog",   "themeDir": "camping",  "label": "en groda" } },
           { "id": "snt-pig",    "seed": 13, "canonical": ["En","rosa","gris","grymtar."],   "subject": { "noun": "pig",    "themeDir": "animals",  "label": "en gris" } },
           { "id": "snt-hen",    "seed": 19, "canonical": ["En","vit","höna","pickar."],     "subject": { "noun": "hen",    "themeDir": "farm animals",  "label": "en höna" } },
-          { "id": "snt-fish",   "seed": 21, "canonical": ["En","randig","fisk","simmar."],  "subject": { "noun": "fish",   "themeDir": "animals",  "label": "en fisk" } },
+          { "id": "snt-fish",   "seed": 21, "canonical": ["En","röd","fisk","simmar."],  "subject": { "noun": "fish",   "themeDir": "animals",  "label": "en fisk" } },
           { "id": "snt-flower", "seed": 27, "canonical": ["En","röd","blomma","doftar."],   "subject": { "noun": "flower", "themeDir": "spring",   "label": "en blomma" } },
           { "id": "snt-sheep",  "seed": 35, "canonical": ["Ett","vitt","får","bräker."],    "subject": { "noun": "sheep",  "themeDir": "animals",  "label": "ett får" } }
         ]

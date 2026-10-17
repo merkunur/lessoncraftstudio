@@ -48,6 +48,9 @@ function loadVocab() {
   return new Function('return (' + m[1] + ');')();
 }
 const nounOf = (stem) => stem.replace(/\s*\d+$/, '').trim().toLowerCase();
+/* A file stem that names a DIFFERENT vocab entry than its own spelling: tools/nail is a metal nail, but
+   vocab `nail` is the fingernail (fr Ongle, es Uña, da Negl …) — the metal one is `metal-nail` (fr Clou, da Søm). */
+const KEY_ALIAS = { 'tools|nail': 'metal-nail' };
 
 function build() {
   const vocab = loadVocab();
@@ -67,11 +70,12 @@ function build() {
       if (!/@2x\.webp$/i.test(f)) continue;
       const stem = f.replace(/@2x\.webp$/i, '');
       const key = nounOf(stem);
+      const labelKey = KEY_ALIAS[dir + '|' + key] || key;   /* the noun keeps its file name; its WORDS come from the alias */
       if (!vocab[key]) { stats.noVocab++; continue; }
       if (PICTURE_REFUSALS.has(dir + '|' + key) || PICTURE_REFUSALS.has(dir + '|' + stem)) { stats.refused++; continue; }
       if (nouns[key]) continue;              // first variant wins (cat before "cat 2")
       const labels = {};
-      for (const l of LOCALES) labels[l] = vocab[key][l];
+      for (const l of LOCALES) labels[l] = vocab[labelKey][l];
       nouns[key] = { key, src: '/image-library-webp/themes/' + dir + '/' + stem + '@2x.webp', labels };
       stats.nouns++;
     }

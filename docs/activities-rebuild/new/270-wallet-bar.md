@@ -1,29 +1,137 @@
-# New #270 — The Wallet Bar — Is There Enough Money? (2.MD.C.8)
+# New 270 — The Wallet Bar: money is a length — coins unroll into a bar, prices lay along it, and what sticks out is what you are short (2.MD.C.8)
 
-Backlog entry #270 of the worksheet→activity coverage plan (`NEW-ORDER.md`). Grade 2 · Measurement & Data. Planned files: `wallet-bar-core.js`, `wallet-bar-activity.js`, `wallet-bar-activity.html`, `wallet-bar-activities.json` (id `wallet-bar.play.2-md-c-8`). Start with `node scripts/new-activity.js --num=270`, then `NEW-RECIPE.md`.
+## 0. Identity
+- **id** `wallet-bar.play.2-md-c-8` · grade 2 · CCSS 2.MD.C.8 · strand Measurement & Data · key `wallet-bar` → `wallet-bar-core.js`, `wallet-bar-activity.js`, `wallet-bar-activity.html`, `wallet-bar-activities.json`. Start with `node scripts/new-activity.js --num=270`.
+- **Worksheets covered:** G2-276 Shopping Math (shelf + price tags + questions) · G2-289 Two Stories · G2-290 Four Questions · G2-291 Add Up the Basket · G2-292 Buying Three Things · G2-293 How Much Change? (count the coins paid, then the change) · G2-294 Is There Enough Money? · G2-295 How Much More?
+- **Money convention (critic, 2026-10-17) — whole numbers only, never a decimal, and only coins and notes that really exist in that country.** 2.MD.C.8 asks for dollar bills *and* cents, kept apart; the decimal comma/point is not a Grade 2 topic. So the two Money levels use two units:
+  - **"to 20" = whole main units in all 11 locales** — $ (en), € (de fr es it nl fi), R$ (pt), kr (sv da no). Purse pieces: en $1 · $5 · $10 · $20 bills; euro €1 · €2 coins + €5 · €10 · €20 notes; pt R$1 coin + R$2 · R$5 · R$10 · R$20 notes; sv 1 · 2 · 5 · 10 kr coins + 20 kr note; da 1 · 2 · 5 · 10 · 20 kr coins; no 1 · 5 · 10 · 20 kr coins.
+  - **"to 100" = the worksheets' own counting unit** (`scripts/worksheet-gen/data/money/currencies.js`, the G2-276…295 convention): cents in the eight cent locales — en ¢, de/nl ct, fr c, es cts, it cent, pt centavos, fi snt — and **whole kroner** in sv/da/no. ⚠ **Cent prices sit on the 5-cent grid** (exactly the worksheets' `seed × 5` prices), because nl/fi have no 1 c / 2 c coins (cash is rounded to 5 c) and Brazil has no 1-centavo coin: a 13 c price paid with 15 c in Finland gives NO change at the till, so a "2 c change" round would be false there. Coins: en 1 · 5 · 10 · 25 ¢; euro 1 · 2 · 5 · 10 · 20 · 50 c (nl/fi 5 · 10 · 20 · 50 c); pt 5 · 10 · 25 · 50 centavos; kroner 1 · 2 · 5 · 10 · 20 kr + 50 kr note (sv 20 kr is a note; no has no 2 kr coin).
+- New instrument; no old activity.
 
-## The skill
-Add the prices of 2–3 items, decide if a sum of money is enough, and find how much more is needed or how much is left.
+## 1. The pitch
+"Money is a length: the coins in your purse unroll into a bar as long as their value, every price is a block as long as its price — lay the blocks along the bar, and if they fit you had enough and the empty end is your change; if they stick out, the overhang is exactly how much more you need."
 
-## The apparatus and its invention
-THE WALLET BAR. The money in the purse is a long bar ruled in tens (one square per whole unit of the locale's currency: €, $, kr, R$). The child drags 2–3 items (library pictures with price tags) from the shop shelf. For 'total' and 'enough?' their price blocks wait stacked above the bar while the child answers (types the total, or taps the full-bar icon / the overhang icon); then the blocks lay along the bar end to end from the left to show the truth. For 'how much more' and 'change' the blocks lay along the bar at once and the child types the overhang or the empty end. Blocks inside the bar = enough, and the empty end is the change; blocks sticking out = not enough, and the overhang is how much more. Miss 1: the blocks' ends get running totals (12, 27 …) above the bar; miss 2: the empty end or the overhang is ruled in ones. Right: the items drop into a library basket (at-the-supermarket/basket) and the bar's leftover glows.
+## 2. Why a child will want it again
+- **Coins that unroll.** Each round opens with the purse (drawn apparatus — a zip pouch) tipping out 1–5 pieces — coins, and the country's real notes where the amount needs one (a $10 bill, a €5 note, a 50 kr note). Each coin rolls to the bar's left end, **unrolls like a tape measure** into a strip exactly as long as its value (a 20 coin becomes 20 ruled squares, a 5 coin 5), clicks onto the end of the last one, and the strips fuse into one golden bar. Counting the coins is watching the bar grow.
+- **Shopping with your hand.** The shelf holds six library things, each with a swinging paper price tag. The shopping note (a card with 2–3 pictures, no words) says what to buy; the child drags each thing into the basket and its tag unfurls into a **price block** — a coral strip as long as its price.
+- **The drop.** On Check the price blocks fall onto the bar end to end from the left, with a soft wooden clack each. Either they fit — and the leftover end of the gold bar glows like a pocket of coins — or the last block **sticks out past the purse** and hangs there, wobbling. The answer is something you can see from across the room.
+- **The end-of-round show:** the things drop from the basket into the library basket picture with a rustle, and the leftover (or the missing piece) shows its number in a bubble.
+- **Free play:** after each round, any shelf item can be dragged onto the bar to see "could I also buy this?" — the block lays on and shows fit or overhang, no judgement.
 
-- **Misconception the apparatus makes visible:** Adding money and price together, or subtracting the wrong way ("how much more" taken as the total); confusing "enough" with "the most expensive item".
-- **Pictures:** At the Supermarket / fruits / toys / bakery (shelf items)
-- **Settings:** Question: total of a basket / enough? / how much more / change · Money: to 20 / to 100 (whole units only)
-- **Rounds:** ≥ 8 rounds per question: baskets of 2–3 items with fresh prices; enough/not-enough balanced; the shelf order is shuffled so the item to pick is never in a fixed place.
-- **Worksheet types it covers:** G2-276, G2-289, G2-290, G2-291, G2-292, G2-293, G2-294, G2-295
-- **Distinct from:** coin-stall / money.* count COINS to a target; Money Mat (tool #18) is coin play. The wallet bar is about the arithmetic of prices (sum, compare, difference) shown as lengths — the part those activities skip. Not the Fruit Stand.
-- **Build risk:** Prices must be plausible per currency (kr-locales: the same goods cost ~10× the € price — per-locale price tables; keep 'to 20' for small items such as fruit and pencils); the currency symbol position follows the locale (5 € / € 5 / 5 kr / R$ 5).
+## 3. The skill and the misconception
+- **Skill (2.MD.C.8 + G2-276…295):** add 2–3 prices; compare a total with the money you have (enough / not enough); find how much more is needed; find the change; count a few coins first.
+- **Misconception 1 — "enough" means "more than the dearest thing".** A child sees 25 in the purse and items of 18 and 22, each cheaper, and says yes. **Pushback:** in every "not enough" round every single item is cheaper than the purse (measured: 4 of 4 "no" rounds per level); the blocks fall one by one — the first fits, the second sticks out. "Each thing fits, together they don't" is seen, not told.
+- **Misconception 2 — subtracting the wrong way, or adding money and price** ("how much more?" answered with the total, or 75 + 63). **Pushback:** the overhang is a physical piece beyond the purse's end; the total is the whole coral length and the purse the whole gold length — the asked-for piece is the only thing coloured differently (striped coral on cream) and nothing else has its length.
+- **Misconception 3 — counting coins as ones** (three coins = 3). **Pushback:** each coin unrolls into its value as length; three coins of 25 make a bar three-quarters of the way along, not three squares.
 
-## Before building (the LAW's four questions — answer them here at build time)
-1. Would a 5–8-year-old choose it again?
-2. Would a teacher put it on the board?
-3. Would a parent trust it?
-4. Is it creative — what is the one-sentence invention?
+## 4. The stage
+**At 704 px (split: apparatus left 470 px, bubble column right):**
+- **Task line** (≤ 24 px) per question: total **"Buy what is on the note. How much is it all together?"** · enough **"Buy what is on the note. Is the money in the purse enough?"** · more **"The money is not enough. How much more do you need?"** · change **"Pay with the money in the purse. How much is left?"**
+- **The shelf** (top, 470 × 150): a drawn teal plank with 6 library pictures at **96 px**, evenly spaced (78 px gaps), each with a paper price tag (60 × 36, 20 px numeral + 12 px unit below, e.g. "35" / "ct") on a string.
+- **The shopping note** (right column top, 200 × 150): a cream card with the 2–3 pictures to buy at 64 px (allowed: it is a label beside the 96 px shelf pictures; never smaller than 64), drawn tick boxes next to each that fill when bought.
+- **The bar** (under the shelf, full 470 px): a cream track ruled in tens — bold tick every 10, faint tick every 1 — with numerals every 10 under it (10, 20, … in 13 px; the track scale is 0–25 at "to 20" (18.8 px per unit), 0–100 at "to 100" (4.7 px per unit)). The **gold wallet bar** lies on it from 0 to the purse amount; its end has a drawn clasp (the purse's mouth). Price blocks: 30 px tall coral strips with their price printed in white (16 px) when ≥ 22 px long (otherwise above the block).
+- **The purse + coins** (left under the bar, 120 × 80): coins are drawn tool-grade discs (the worksheet `coins.js` look — face value numeral, tint by metal, no portraits) at 40–56 px by value; notes ($ bills, € / R$ / kr notes) are drawn rectangles 72 × 40 with the numeral, tinted per value. Real relative coin sizes are NOT copied (a dime is smaller than a nickel) — the disc grows with its value so its size never contradicts the strip it unrolls into, and the numeral carries the value.
+- **The basket** (right column bottom): `at-the-supermarket/basket`, 120 px.
+- **Answer area** (under the bar): a 96 × 56 answer box + keypad 0–9 ⌫ (52 × 52 keys); for "enough?" two big choice tiles 140 × 96 instead of the keypad: **fits** (a drawn gold bar with a coral block inside it, a tick in a circle) and **sticks out** (the coral block overhanging the gold bar). No words on the tiles. **Check** 120 × 52.
+- No words on the apparatus: numerals, the unit abbreviation on tags, pictures.
 
-## Layout
-(at build: wide ≥ 560 / stack; pictures ≥ 96 px at 704 and ≥ 64 px at 360; taps ≥ 44; Check above the 360×740 and 320×640 fold.)
+**At 360 px (stacked):** shelf as a 3 × 2 grid at **64 px** pictures (tags 52 × 32); the note as a slim strip of 2–3 pictures at 64 px above the shelf; bar 328 px (to 20: 13.1 px per unit; to 100: 3.3 px per unit — the faint ones-ticks are hidden, tens ticks stay; at miss 2 the overhang/empty end zooms ×4 in a 240 × 60 window so its ones can be counted); purse and coins 40–48 px left under the bar; keypad keys 56 × 46 full width; Check full width. Budget 360 × 740: header 56, task 52, note 72, shelf 2 × 96 = 192, bar 80, purse 56, keypad 104, Check 52 → 664 px. At 320 × 640 the note moves onto the same line as the task's second line (task shortens to one line by setting `instructionShort`), shelf pictures stay 64 px in a 3 × 2 grid (3 × 92 = 276 px), keys 46 × 44 → 618 px.
 
-## Gates
-(at build — NEW-RECIPE.md §3.)
+## 5. The hand
+- **Coins (round start, automatic, 1.2 s total, skippable by a tap):** coins tip out of the purse one by one (largest first), roll to the bar and unroll (each 250 ms, a soft zip sound), clicking end to end. In "total" rounds there is no purse: the bar is an empty till tape.
+- **Buy:** drag a shelf picture (or tap it) into the basket; its tag swings off the string and becomes a price block that floats in the **block rack** above the bar (stacked, not on the scale) — 200 ms. Dragging a thing that is not on the note: it goes in, its tick box does not exist, and the note's missing item pulses; drag it back to the shelf to undo. Any item can be taken back out of the basket until Check.
+- **Answer:** keypad (max 3 digits) or the two "fits / sticks out" tiles (one selected at a time, a 3 px teal ring).
+- **Check:** the rack's blocks fall onto the bar end to end from 0 (each 220 ms, a clack), *then* the answer is judged against what the bar now shows. In "how much more" and "change" rounds the blocks are already on the bar from the start (the question is about the piece, not the fit), and the asked-for piece — the overhang or the empty end — is striped and pulses gently.
+- **Free play** (after success): drag any shelf item onto the bar; it lays on after the others and shows fit/overhang; tap it to send it back.
+- **Keyboard:** Tab through shelf items (Enter = buy), digits type, ←/→ choose a tile, Enter = Check.
+
+## 6. The rounds
+- One round = one shopping note (2–3 things) + one question. **Three oracles:** "to 20" (whole units, every locale), "to 100 · cents" (en de fr es it pt nl fi, 5-cent grid) and "to 100 · kroner" (sv da no, any whole kr). The **goods are dealt by price band**, so a price is always plausible for the thing that carries it in that currency.
+- **Price bands** (each noun's plausible price per pool; the round deals distinct nouns whose band contains each note price — measured: every one of the 128 rounds is dealable with ≥ 3 nouns left over for the decoys, `work-c32/bands.js`):
+  - **W20 · whole € / $ / R$** — `bakery/croissant` 1–3 · `bakery/bun` 1–3 · `desserts-and-sweets/popsicle` 1–3 · `at-the-supermarket/juice` 1–4 · `desserts-and-sweets/cupcake` 2–5 · `classroom/glue` 2–6 · `classroom/tape` 2–6 · `classroom/notebook` 2–6 · `toys/car` 3–12 · `toys/dinosaur` 4–12 · `classroom/book` 5–15 · `toys/kite` 5–15 · `toys/ball` 5–15 · `toys/robot` 8–19 · `classroom/backpack` 10–19.
+  - **K20 · whole kr** — `vegetables/carrot` 1–4 · `at-the-supermarket/candy` 1–5 · `desserts-and-sweets/lollipop` 2–10 · `classroom/crayon` 2–8 · `fruits/apple` 3–8 · `fruits/banana` 3–8 · `fruits/lemon` 3–8 · `fruits/pear` 4–9 · `fruits/orange` 4–9 · `desserts-and-sweets/cookie` 3–12 · `classroom/pencil` 3–12 · `desserts-and-sweets/donut` 8–19 · `bakery/pretzel` 8–19.
+  - **C100 · cents** — `at-the-supermarket/candy` 5–25 · `vegetables/carrot` 10–40 · `desserts-and-sweets/lollipop` 10–50 · `classroom/crayon` 15–45 · `fruits/banana` 20–50 · `desserts-and-sweets/cookie` 20–60 · `fruits/apple` 25–60 · `fruits/lemon` 25–60 · `fruits/pear` 25–65 · `fruits/orange` 25–65 · `classroom/pencil` 25–70 · `bakery/pretzel` 40–90 · `desserts-and-sweets/donut` 45–95.
+  - **K100 · whole kr** — `bakery/bun` 8–25 · `desserts-and-sweets/popsicle` 10–30 · `bakery/croissant` 12–35 · `at-the-supermarket/juice` 15–35 · `classroom/glue` 15–39 · `classroom/tape` 15–39 · `classroom/notebook` 15–49 · `desserts-and-sweets/cupcake` 20–45 · `toys/car` 25–79 · `toys/dinosaur` 30–89 · `classroom/book` 39–99 · `toys/kite` 39–99 · `toys/ball` 39–99.
+  - The native reviewer checks every band once per currency; a band is narrowed, never a round's price changed (re-run `bands.js` after any narrowing).
+  - Pictures (seen on the contact sheets): `classroom/pencil` is drawn diagonally — natural on a shelf; `classroom/crayon` is a short upright crayon; `bakery/bun` reads as a small loaf (fine as "bun/bread"); `at-the-supermarket/juice` is a juice bottle; `toys/car` is a green toy beetle. Never: `fruits/plum`/`peach`/`cherry`/`mango`, `at-the-supermarket/butter` (reads as cheese), `salt` (English text), mushroom, `fruits/strawberry` (one strawberry is not sold alone), `toys/balloon` (fr *Ballon* is also the ball word, and `toys/ball` is on the W20/K100 shelves); never `desserts-and-sweets/donut` beside `bakery/doughnut` or a bagel, never two cookies (bakery + desserts) on one shelf.
+- **Round tables** (prices of the things on the note; W = the purse; answers in brackets). The shelf's other 3–4 things get decoy prices from their own band, distinct, never equal to a note price or to the answer, and on the 5-cent grid in cents.
+
+| "to 20" | rounds |
+|---|---|
+| total | 6+3 [9] · 8+7 [15] · 5+4+2 [11] · 12+6 [18] · 3+9+7 [19] · 7+5 [12] · 4+6+3 [13] · 11+5 [16] |
+| enough? | 6+8, W15 [yes] · 9+7, W15 [no] · 5+4+8, W20 [yes] · 12+5, W15 [no] · 7+6+9, W20 [no] · 8+9, W20 [yes] · 11+7, W15 [no] · 4+3+6, W15 [yes] |
+| how much more | 9+8, W15 [2] · 7+6+5, W15 [3] · 12+6, W15 [3] · 8+7, W10 [5] · 6+9+4, W15 [4] · 11+8, W15 [4] · 5+7+6, W10 [8] · 9+7, W10 [6] |
+| change | 6+7, W15 [2] · 4+5+3, W15 [3] · 8+4, W20 [8] · 9+6, W20 [5] · 3+5+4, W15 [3] · 7+5, W15 [3] · 6+8, W20 [6] · 5+1+2, W10 [2] |
+
+| "to 100 · cents" (en de fr es it pt nl fi — 5-cent grid) | rounds |
+|---|---|
+| total | 35+25 [60] · 45+30 [75] · 15+20+35 [70] · 55+35 [90] · 25+15+40 [80] · 65+20 [85] · 30+15+50 [95] · 50+15 [65] |
+| enough? | 35+25, W70 [yes] · 45+30, W80 [yes] · 15+20+35, W75 [yes] · 55+35, W95 [yes] · 40+35, W60 [no] · 25+30+20, W70 [no] · 50+45, W90 [no] · 15+25+30, W65 [no] |
+| how much more | 45+35, W70 [10] · 30+25+20, W60 [15] · 55+30, W80 [5] · 40+45, W65 [20] · 25+35+15, W50 [25] · 50+40, W60 [30] · 20+35+30, W50 [35] · 45+35+15, W55 [40] |
+| change | 35+25, W75 [15] · 15+20+30, W90 [25] · 45+30, W95 [20] · 25+35, W65 [5] · 10+25+15, W80 [30] · 55+20, W85 [10] · 20+15+25, W95 [35] · 65+15, W95 [15] |
+
+| "to 100 · kroner" (sv da no — any whole kr) | rounds |
+|---|---|
+| total | 35+28 [63] · 46+27 [73] · 18+25+32 [75] · 54+39 [93] · 23+17+29 [69] · 62+19 [81] · 38+24+16 [78] · 47+45 [92] |
+| enough? | 35+28, W65 [yes] · 46+27, W75 [yes] · 18+25+32, W80 [yes] · 54+39, W90 [no] · 23+17+29, W65 [no] · 44+38, W80 [no] · 38+24+16, W75 [no] · 57+36, W95 [yes] |
+| how much more | 45+38, W75 [8] · 37+29+18, W60 [24] · 56+27, W80 [3] · 48+35, W65 [18] · 26+34+19, W65 [14] · 58+29, W80 [7] · 22+33+28, W60 [23] · 63+32, W75 [20] |
+| change | 35+28, W75 [12] · 18+24+26, W90 [22] · 43+29, W95 [23] · 27+36, W65 [2] · 16+22+19, W80 [23] · 52+23, W80 [5] · 31+18+25, W95 [21] · 44+27, W90 [19] |
+
+- **Measured (`work-32/wallet.js`; re-solved by the critic in `work-c32/wallet.js` + `bands.js`):** every question has 8 rounds per oracle, 3 of them with three things (cents "how much more": 4); "enough?" is 4 yes / 4 no per level, and in all 4 "no" rounds every single price is below the purse (the misconception trap); no "enough" round is exact (total ≠ W); "how much more" answers > 0, "change" answers > 0; totals ≤ 20 (total/change at "to 20"; enough/more may reach 24 — the track is drawn to 25) and ≤ 99 at "to 100"; no price repeated inside a round; every purse W is a multiple of 5 so it is a believable handful of coins in every currency (nl/fi have no 1 and 2 cent coins).
+- **Purse pieces** (fewest pieces from the real set, largest first, computed by a min-coin search — every W in every locale is ≤ 5 pieces, the worst being W90/W95 in ¢ = 5): "to 20" — W10 = one 10 ($ bill, € / R$ note, kr coin) · W15 = 10 + 5 · W20 = one 20 (bill / note; sv note, da/no coin). Cents — W50 = 25+25 ¢ · 50 c · 50 centavos; W55 = 25+25+5 ¢ · 50+5 c · 50+5; W60 = 25+25+10 ¢ · 50+10 c · 50+10; W65 = 25+25+10+5 ¢ · 50+10+5 c · 50+10+5; W70 = 25+25+10+10 ¢ · 50+20 c · 50+10+10 centavos (Brazil has no 20); W75 = 25+25+25 ¢ · 50+20+5 c · 50+25; W80 = 25+25+25+5 ¢ · 50+20+10 c · 50+25+5; W85 = 25+25+25+10 ¢ · 50+20+10+5 c · 50+25+10; W90 = 25+25+25+10+5 ¢ · 50+20+20 c · 50+25+10+5; W95 = 25+25+25+10+10 ¢ · 50+20+20+5 c · 50+25+10+10. Kroner — W60 = 50+10 · W65 = 50+10+5 · W75 = 50+20+5 · W80 = 50+20+10 · W90 = 50+20+20 · W95 = 50+20+20+5 (50 = note; sv 20 = note). Mixed rounds ("mixed" question setting) draw two rounds of each question per pass.
+- **Answer position:** the note's things sit at random shelf places (the gate measures each of the 6 shelf slots holds a note item 37–43 % of the time over 1,000 shuffles — the expected 19 ÷ 48 = 39.6 %, since 5 rounds buy two things and 3 buy three); "fits" and "sticks out" tiles keep fixed places (fits left), and the yes/no answers are 4/4, re-ordered per pass so no two passes give the same yes/no sequence; typed answers have no position.
+- **Order:** order-only reshuffle per pass, never the same order twice.
+
+## 7. Check, the misses, the success
+- **Check with the note not complete** → the missing thing on the note pulses; bubble "Put everything on the note in the basket." (no miss). **Check with no answer** → "Type your answer." / "Choose: does it fit, or stick out?" (no miss).
+- **Miss 1 — running totals:** the blocks on the bar get their running totals above their right ends ("35", "63") and the purse's end shows its amount ("75"); in "more/change" the two numbers either side of the striped piece glow. EN total/enough: **"Read the number at the end of the last block."** · more: **"The blocks reach {total}. The purse reaches {W}."** · change: **"The purse reaches {W}. The blocks reach {total}."**
+- **Miss 2 — the piece is ruled in ones:** the striped piece (the overhang, the empty end, or for "total" the last block) gets faint ones-ticks and zooms ×4 on phones; a count-on dotted arc runs from the shorter end to the longer. EN: **"Count on from {small} to {big}."** (enough: **"Look at the end of the purse. Do the blocks go past it?"**)
+- A new key, tile or basket change takes the help away until the next Check.
+- **Success:** the things drop into the basket picture; the bar's leftover glows gold (change / yes) or the overhang flashes coral then fades (more / no). EN: total **"{a} and {b} make {total} {unit}!"** (three: **"{a}, {b} and {c} make {total} {unit}!"**) · yes **"Yes! {total} {unit} fits in {W} {unit}."** · no **"Not enough — {total} {unit} is more than {W} {unit}."** · more **"You need {more} {unit} more!"** · change **"You get {change} {unit} back!"**
+
+## 8. Settings
+1. **Question:** all together / enough? / how much more / change / mixed (default) — changes the task line, whether a purse is shown and whether blocks start on the bar, visible at rest.
+2. **Money:** to 20 (default — whole $ / € / R$ / kr, notes in the purse) / to 100 (cents, or whole kroner in sv/da/no) — changes the bar's scale (0–25 ruled in ones vs 0–100 ruled in tens), the unit on every tag, the purse pieces and the goods on the shelf.
+
+## 9. Words (EN source)
+- title **"The Wallet Bar"**
+- instructions (four, §4) + `instructionShort` per question for 320 px: **"How much all together?"** / **"Is it enough?"** / **"How much more?"** / **"How much is left?"**
+- hints **"Put everything on the note in the basket."** · **"Type your answer."** · **"Choose: does it fit, or stick out?"** · **"Read the number at the end of the last block."** · **"The blocks reach {total}. The purse reaches {W}."** · **"The purse reaches {W}. The blocks reach {total}."** · **"Count on from {small} to {big}."** · **"Look at the end of the purse. Do the blocks go past it?"**
+- celebrations as §7.
+- settings **"Question"**: "all together" / "enough?" / "how much more" / "change" / "mixed" · **"Money"**: "to 20" / "to 100".
+- aria: tile "fits: the price blocks fit inside the money" / "sticks out: the price blocks go past the money"; picture labels from `image-vocabulary.js`.
+- **Locale traps:** (a) **unit word and position** — "to 100": the unit FOLLOWS the number: "35 ¢", "35 ct", "35 c" (fr with a narrow no-break space), "35 cts", "35 cent", "35 centavos", "35 snt", "35 kr", "35 kr." (da with its full stop — and the sentence's own full stop must not double: "35 kr." ends the sentence), "35 kr". **"to 20": the main-unit sign sits where the country puts it** — en **$6**, pt **R$ 6**, nl **€ 6** (sign first); de/fr/es/it/fi **6 €** (sign after, no-break space; fr narrow no-break space); sv/no **6 kr**, da **6 kr.** One formatter `money(n, level, locale)` builds every tag, bubble and celebration ({unit} in §7 is its output); "$" never meets a cent amount and "¢" never meets a dollar amount. (b) **pt "centavos"** is long: the tag prints "35" with "centavos" in 10 px below; the sentence uses the full word. (c) **"change"** is a different word family per locale (de *Rückgeld*, fr *la monnaie*, es *el cambio / el vuelto*, it *il resto*, pt *o troco*, nl *wisselgeld*, sv *växel / få tillbaka*, da *byttepenge*, no *vekslepenger*, fi *vaihtoraha*) — author "how much is left" naturally (*Wie viel bleibt übrig?*). (d) **"enough"**: fi *riittääkö raha?*, sv *räcker pengarna?*, da *er der penge nok?* — a whole native question. (e) **plurals after numbers** are avoided: the celebrations use only the unit abbreviation, never "cents/coins" nouns. (f) **Goods names** never appear on screen (the note is pictures) — no gender/article trap; aria uses vocab labels.
+
+## 10. Sound off, access, phones
+- Sound off: coins unrolling, blocks falling, the overhang wobbling, the glowing leftover, running totals — all visible.
+- Keyboard path §5; aria-live on the bubble; the bar has `aria-label="money {W}, price blocks reach {total}"` after Check.
+- Taps: shelf pictures 96/64 px with 8 px gaps; tiles 140 × 96; keys ≥ 46 × 44. Pictures ≥ 96 at 704 and ≥ 64 at 360 everywhere (the note's 64 px pictures at 704 are a label beside the 96 px shelf — allowed as the small copy; never below 64).
+- Check above the folds (§4 budgets).
+
+## 11. Distinct from
+- **money-mat (tool):** tap coins onto a mat to pay exact prices and hear change counted back — coin-counting, no length model. Here coins *become* length and the comparison is a fit.
+- **comparison-planks (tool):** two planks from one line, the overhang moves to the short one — difference of two lengths, no prices, no money. Here the overhang is "how much more", inside a shop, and the bar is built from coins.
+- **New 209 The Bet Pan:** heavier/lighter by betting — weight, not money. **Built #20 Block Towers:** compare two numerals by stacking.
+- **Batch siblings:** 271 (grams on a balance), 272 (scaled graphs) — different quantities and models.
+
+## 12. Build plan
+- **Core state:** `{ q, level, family, W, coins:[v], note:[{key, price}], shelf:[{key, price}], basket:[key], rack:[price], onBar:boolean, typed, tile }`.
+- **Functions:** `coinsFor(W, locale)` (largest-first from the per-locale set incl. kr notes; ≤ 5 pieces), `buy(key)/unbuy(key)`, `noteComplete()`, `total()`, `answer()` (q-specific), `drop()` (blocks → bar), `piece()` → `{from, to}` of the overhang/empty end, `check()`.
+- **Gate's own truth (`verify-wallet-bar-core.js`):** every cent price, decoy and W in the cents oracle is a multiple of 5; every W is ≤ 5 pieces from the locale's REAL denomination set (min-coin search, the sets in §0 — no 1 c in nl/fi, no 1 centavo or 20 centavos in pt, no 2 kr in no); every round dealable from the price bands with ≥ 3 decoy nouns; recompute every answer from the price table; yes/no 4/4 per level; every "no" round has max(price) < W; no exact enough; totals within the level caps; coins ≤ 5 pieces and summing to W in all 11 currencies; decoy prices distinct from note prices and answers; every shelf slot holds a note item 37–43 % of the time over 1,000 shuffles (expected 39.6 %); goods drawn from the right family pool; no ruled-out picture.
+- **Mutations (each killed):** a 13 c price in the cents oracle (off the 5-cent grid) · a 1-cent coin in the fi purse · a pencil dealt at 60 kr (outside its band) · "$" printed before a cent amount · "how much more" answer = total · change computed as W + total · blocks laid from the purse's end instead of 0 · a "no" round where one price alone exceeds W (trap gone) · an exact-enough round · coin strips laid as one square per coin · decoy price equal to the answer · note items always in the first slots · kr family given cent goods at "to 100" · da unit printed without its full stop · "fits" judged before the blocks drop · same order twice.
+- **Pictures verified on contact sheets** (fruits, vegetables, desserts-and-sweets, bakery, at-the-supermarket, classroom, toys): all listed nouns read as themselves; `toys/ball` deliberately not used (fr *Ballon* is also the balloon word). **Risks:** price plausibility per locale — the native reviewer checks the two goods families; nothing blocked.
+
+## 13. The four questions
+1. **Choose it again?** Yes — coins that unroll like tape measures, a shop you drag from, and blocks that either fit with a satisfying clack or stick out and wobble.
+2. **Teacher on the board?** Yes — it is the bar model teachers draw for money problems, built by the coins themselves; every "not enough" round is one where each thing alone is affordable.
+3. **Parent trust?** Real money in the family's own unit, whole numbers only, real goods at believable prices; nothing for sale in the play.
+4. **Invention:** money is a length — coins unroll into a bar, prices fall on it as blocks, and the empty end is the change while the overhang is how much more.
+
+## 14. Critic review (2026-10-17)
+Scores before → after: invention 5→5 · fun 5→5 · completeness 4→5 · correctness 3→5 · distinctness 5→5 · reality 3→5
+What changed:
+- **Money made true in all 11 countries.** The old "to 20" level priced fruit at 3–12 CENTS (no such prices anywhere) and used 1-cent steps, which are false in nl/fi (no 1 c / 2 c coins — cash is rounded to 5 c, so "13 c paid with 15 c → 2 c change" is impossible at a Finnish till) and in Brazil (no 1-centavo coin). Now: "to 20" = whole $ / € / R$ / kr with each country's real coins and notes; "to 100" = the worksheets' own cents on the 5-cent grid (their `seed × 5` prices) for the eight cent locales, whole kroner for sv/da/no. The cents oracle is a NEW table, re-solved and measured (4/4 yes/no, every "no" round has every single price below the purse, no exact enough, 3–4 three-item rounds per question, answers distinct where possible).
+- **Purse pieces computed, not sampled:** a min-coin search over each locale's real denomination set lists every W — all ≤ 5 pieces (the worst, W90/W95 in ¢, exactly 5). Brazil has no 20-centavo coin and Norway no 2 kr coin — both encoded.
+- **Price bands replace the two loose goods lists:** each noun has a plausible price band per pool (W20, K20, C100, K100); every one of the 128 rounds was proved dealable with ≥ 3 nouns left for the decoys (`work-c32/bands.js`), so a 6 € croissant or a 60 kr pencil cannot be dealt.
+- Unit-sign position per country for whole units ($6 · R$ 6 · € 6 · 6 € · 6 kr · 6 kr.) through one formatter; the gate and four new mutations cover grid, real coins, bands and sign placement.
+- Picture refusals widened from the contact sheets: no single strawberry for sale, no `toys/balloon` beside `toys/ball` (fr *Ballon*), no butter (reads as cheese), never two cookies or donut + doughnut on one shelf.

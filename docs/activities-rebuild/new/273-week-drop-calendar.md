@@ -1,29 +1,107 @@
-# New #273 — The Week-Drop Calendar — Read a Month (READINESS calendar)
+# New 273 — The Week-Drop Calendar: drop the sticker one row and its footprints snake through the seven days you skipped (READINESS · calendar)
 
-Backlog entry #273 of the worksheet→activity coverage plan (`NEW-ORDER.md`). Grade 2 · Measurement & Data. Planned files: `week-drop-calendar-core.js`, `week-drop-calendar-activity.js`, `week-drop-calendar-activity.html`, `week-drop-calendar-activities.json` (id `week-drop-calendar.play.calendar`). Start with `node scripts/new-activity.js --num=273`, then `NEW-RECIPE.md`.
+## 0. Identity
+- **id** `week-drop-calendar.play.calendar` · grade 2 · readiness framework "calendar" (`frontend/lib/frameworks.ts`) · strand Measurement & Data · key `week-drop-calendar` → `week-drop-calendar-core.js`, `week-drop-calendar-activity.js`, `week-drop-calendar-activity.html`, `week-drop-calendar-activities.json`. Start with `node scripts/new-activity.js --num=273`.
+- **Worksheets covered:** G2-277 "Read the Calendar" · G2-296 "A First Look" · G2-297 "A Busy Month" (one week later; days from one sticker to another) · G2-298 "Days of the Week" (read down the columns) · G2-312 "How Many Days Later?"
+- New instrument; no old activity.
 
-## The skill
-Find the weekday of a date, the date one week later, and the number of days between two dates on a month calendar.
+## 1. The pitch
+"A sticker on the month leaves a footprint on every day it passes — slide it one square and you see one footprint, drop it one row and the footprints snake along the rest of the week and back round the next row: seven of them, because one row down is one week later."
 
-## The apparatus and its invention
-THE WEEK-DROP CALENDAR. A month calendar (7 columns, weekday initials on top, a fresh month layout each round) and a sticker the child drags. One square right = 1 day later; one row DOWN = 7 days later; the sticker leaves a footprint on every day it passes. Weekday question: the child slides the sticker straight up its column to the weekday header. One week later / earlier: the child drops it one row down or up — the next square (12 → 13) is a lure the footprints expose as 1 day, not 7. Days between: the child walks the sticker from one date to the other and types the number of days; only after the answer do the footprints number themselves (the start day carries no footprint, so counting the start day shows as one too many). Miss 1: the footprints on the path pulse; miss 2: they number themselves. Right: the event sticker (a library picture: bakery/cake, vegetables/pumpkin, christmas/present) lands on its date and the date ring closes.
+## 2. Why a child will want it again
+- **The snake.** Drag the sticker one row down and something lovely happens: a trail of little footprints (drawn dots in the sticker's colour) runs from the start day to the end of its row, wraps round to the start of the next row and walks along to the sticker — seven of them, popping in one after another (40 ms each) with a soft patter. Children drop the sticker down and up again just to watch the snake run and rewind.
+- **A fresh month each round.** The month slides in like a page of a wall calendar being turned (300 ms), starting on a different weekday with 28–31 days, so the child never memorises one layout.
+- **Events worth putting in.** Each round's event is a library picture — a birthday cake, a present, a pumpkin, a kite, a balloon — shown big on its event card. When the round is right, the picture flies from the card onto its date, shrinks into a bright round sticker token, and the date's ring closes with a little click.
+- **The end-of-round show:** the month's events glow in date order, and the footprints of the round's walk light up from first to last.
+- **Free play:** the sticker can be dragged anywhere after a round; footprints always show the days from its start.
 
-- **Misconception the apparatus makes visible:** Thinking one week later is the next number (12 → 13), or counting the start day when counting days between.
-- **Pictures:** none (drawn calendar); seasonal library pictures (birthday cake, pumpkin…) as event stickers
-- **Settings:** Question: weekday / one week later / days between / mixed · Month: starts Monday (eu) / Sunday (us) by locale
-- **Rounds:** ≥ 8 rounds per question with a fresh month layout (start weekday and length 28–31 vary) and fresh dates; weekday answers spread over all 7 columns.
-- **Worksheet types it covers:** G2-277, G2-296, G2-297, G2-298, G2-312
-- **Distinct from:** No calendar activity exists; Calendar Wall (tool #7) is the class's daily routine tool. Here the 7-day row structure is the mechanic.
-- **Build risk:** Low. First weekday and weekday letters per locale.
+## 3. The skill and the misconception
+- **Skill:** on a month calendar, find the weekday of a date (read up the column to its header), the date one week later or earlier (one row down/up = 7 days), and the number of days from one date to another (G2-277, 296–298, 312).
+- **Misconception 1 — "one week later" is the next number** (12 → 13). **Pushback:** dropping the sticker on 13 lays ONE footprint; dropping it one row down on 19 lays seven that snake through the week. The child sees that a week is a row, not a step.
+- **Misconception 2 — counting the start day** when counting days between (from the 4th to the 7th is "4 days"). **Pushback:** the start day never gets a footprint — the sticker is standing on it. Footprints are laid only on days the sticker *moves onto*; 4 → 7 is three footprints. When the footprints number themselves (after the answer), the last one reads 3.
+- **Misconception 3 — reading the weekday from the row instead of the column.** **Pushback:** the weekday question is answered by sliding the sticker *straight up its column* to the weekday header; a sideways move off the column breaks the straight line and the header the child lands on is not lit as "its" column (the column of the date glows faintly while dragging).
 
-## Before building (the LAW's four questions — answer them here at build time)
-1. Would a 5–8-year-old choose it again?
-2. Would a teacher put it on the board?
-3. Would a parent trust it?
-4. Is it creative — what is the one-sentence invention?
+## 4. The stage
+**At 704 px (split: calendar left 520 px, event column right 160 px):**
+- **Task line** (≤ 24 px) — weekday: **"What day of the week is it on {date}?"** · week later: **"One week after {date} — put the sticker there."** · week earlier: **"One week before {date} — put the sticker there."** · between: **"How many days from {dateA} to {dateB}?"** ({date} is the locale's day-of-month form, §9). **The month itself** (critic addition — the five worksheets' other questions): count a weekday **"How many {dayPlural} are in this month?"** · find a sticker **"On which date is this?"** (the event card's picture beside it) · month length **"How many days does this month have?"** · first / last day **"What day of the week is the first day of the month?"** / **"…the last day of the month?"**
+- **The calendar:** a drawn wall-calendar card 520 × 440: a header row of 7 weekday cells (72 × 40, two- or three-letter native abbreviations, 16 px bold; weekend columns in a slightly warmer cream) and up to 6 week rows of 7 date cells (72 × 64, date numeral 20 px top-left). Days before the 1st and after the last are blank cream (no numbers from neighbouring months). The month name is NOT shown (no word; months vary only by layout).
+- **The sticker:** a drawn round token 44 px (teal with a white star), standing on the start date (marked with the event colour ring). **Footprints:** 10 px dots in a gentle curve inside each passed cell (bottom-right corner, so the date numeral stays readable).
+- **The event column:** the event card(s) with the library picture at **96 px** (round's event) — weekday rounds: one card; week rounds: the start date's card (picture) and a ghost card for the target; between rounds: two cards (one per date), both pictures 96 px; an answer box (96 × 56) under the cards (between rounds only); the keypad 0–9 ⌫ sits under the calendar, 520 px wide, keys 48 × 48; **Check** 120 × 52 under the event column.
+- No words on the apparatus except the weekday abbreviations and date numerals (the content).
 
-## Layout
-(at build: wide ≥ 560 / stack; pictures ≥ 96 px at 704 and ≥ 64 px at 360; taps ≥ 44; Check above the 360×740 and 320×640 fold.)
+**At 360 px (stacked):** calendar 328 × 300 (header cells 46 × 32 with 2-letter abbreviations 13 px; date cells 46 × 44 — the date numeral 15 px; sticker 40 px with a 44 px hit box; footprints 7 px); event cards in a strip above the calendar: picture **64 px** + date chip; keypad 56 × 46 full width; Check full width. Budget 360 × 740: header 56, task 52, event strip 76, calendar 300, keypad 104, Check 52 → 640. At 320 × 640: calendar 296 × 276 (cells 42 × 40), event strip 72 → 612.
 
-## Gates
-(at build — NEW-RECIPE.md §3.)
+## 5. The hand
+- **Drag the sticker:** pointerdown on it (44 px hit), drag; it snaps cell to cell (each snap within one frame). The footprints always show the days from the START date to the current cell in date order: moving forward lays footprints (patter), moving back removes them (rewind). Release leaves the sticker on its cell. Dropping onto a header cell (weekday rounds) parks it in the header with a 'tock'.
+- **Weekday rounds:** the sticker starts on the given date; the child drags it up its column into the header; the column of the start date glows faintly (8 % teal) during the drag. A drop in a different column's header is allowed (the child's answer) — Check judges.
+- **Week rounds:** the sticker starts on the given date; the child drags it to the target (one row down or up). Footprints count the days in between.
+- **Between rounds:** the sticker starts on date A; the child may walk it to date B (footprints show, *unnumbered*) — or not; they type the number; footprints number themselves only after Check.
+- **Keyboard:** arrows move the sticker one cell (↓ = one row = +7 with the snake), Enter on a header cell answers weekday rounds; digits type; Enter = Check.
+- **Sound** (bonus): patter per footprint, page-turn for a new month, a click when the date ring closes.
+
+## 6. The rounds
+Months are given as (first weekday, length). All rounds written out and measured (`work-32/cal.js`, `cal2.js`):
+- **Weekday (8):** starts Wed, 31 days → the 6th = **Mon** · starts Sat, 30 → 11th = **Tue** · starts Mon, 31 → 24th = **Wed** · starts Thu, 28 → 8th = **Thu** · starts Sun, 31 → 20th = **Fri** · starts Fri, 30 → 23rd = **Sat** · starts Tue, 31 → 13th = **Sun** · starts Wed, 30 → 29th = **Wed**. Every weekday is an answer at least once (Wed twice); the date sits in rows 2–5, never in the first row (where the header is only one step away and the column cannot be lost).
+- **One week later / earlier (8):** starts Fri, 31: 12 → **19** · starts Mon, 30: 9 → **16** · starts Sun, 31: 15 ← **8** (earlier) · starts Thu, 30: 21 → **28** · starts Tue, 28: 4 → **11** · starts Sat, 31: 24 ← **17** (earlier) · starts Wed, 31: 17 → **24** · starts Mon, 31: 26 ← **19** (earlier). 5 later, 3 earlier; no earlier round starts in the first row; the "next square" lure (d ± 1) is always a real date.
+- **Days between (8):** starts Thu, 31: 4 → 7 = **3** · starts Sun, 30: 8 → 13 = **5** · starts Tue, 31: 2 → 9 = **7** · starts Sat, 31: 10 → 21 = **11** · starts Mon, 30: 13 → 25 = **12** · starts Wed, 28: 6 → 15 = **9** · starts Fri, 31: 15 → 29 = **14** · starts Tue, 30: 3 → 19 = **16**. Answers 3–16, all different; only two are multiples of 7 (7, 14) so "it's always a week" never works; same-row, next-row and two-row walks are mixed.
+- **The month itself (8, critic addition — G2-277/296/298 ask these on every page: how many Fridays, which date is the sticker, how many days, first/last weekday):** starts Wed, 31: how many **Fridays**? → **5** (3, 10, 17, 24, 31 — the Friday column has a date in all five rows) · starts Thu, 30: how many **Mondays**? → **4** (5 rows, but the Monday cell of the first row is blank — counting rows gives the lure 5) · starts Sat, 31: how many **Sundays**? → **5** of a SIX-row grid (one Sunday cell blank in both week-start layouts — counting rows gives 6) · starts Tue, 30: the kite (`toys/kite`) is on the **18** · starts Fri, 31: the cake (`4th-of-july/cake`) is on the **27** · starts Mon, 30: how many days? → **30** · starts Sat, 30: first day? → **Saturday** · starts Wed, 31: last day? → **Friday**. All verified in both layouts (`work-c32/cal.js`, `cal3.js`).
+  - *The hand for these:* **count** — tap the weekday header; the sticker drops down that column cell by cell and lays a footprint only on cells that HAVE a date (blank cells stay bare, so the lure "count the rows" is visibly wrong); the child types the count. **Which date** — the event card's picture and a matching coloured ring on one cell (a drawn ring + small drawn token, never a shrunken picture); the child types the date. **How many days** — the sticker starts on a margin pad BEFORE the 1st, so walking it to the last day lays a footprint on every day (the deliberate contrast with "days between", where the start day has none); the child types the number. **First / last day** — the weekday mechanic (slide straight up the column) from the 1st or the last date — the only rounds where the date may sit in the first row.
+- **Mixed (setting):** each pass draws 2 weekday + 2 week + 2 between + 2 month-itself rounds from the tables.
+- **Layout variety (measured):** first weekdays across the 24 rounds 4/4/4/3/3/3/3 (Mon…Sun), lengths 28 ×3, 30 ×8, 31 ×13.
+- **Week start by locale:** read from the worksheets' SoT `scripts/worksheet-gen/data/b2/calendar.js` (`weekStart`): Sunday-first in **en** (US) and **pt** (pt-BR); Monday-first in the other nine. ⚠ es here is es-MX, where many wall calendars start on *domingo* — the native es reviewer rules once (the SoT comment already flags it), and the "Week starts on" setting covers a school whose calendar differs. The rounds are stored by weekday, not column, so every locale gets the same dates and answers; the gate verifies the column of each answer in both layouts.
+- **Answer position:** weekday answers spread over all 7 header cells; week targets are below the start in 5 rounds, above in 3; typed answers have no position.
+- **Order:** order-only reshuffle per pass, never the same order twice.
+
+## 7. Check, the misses, the success
+- **Check with the sticker unmoved / nothing typed** → **"Move the sticker."** / **"Type the number of days."** (no miss).
+- **Miss 1 — the footprints pulse:** the trail from the start to where the sticker stands pulses twice; weekday rounds: the start date's column lights from the date up to its header. EN weekday **"Go straight up from {date}."** · week **"Count the footprints. A week is 7 days."** · between **"Walk the sticker from {dateA} to {dateB} and count the footprints."**
+- **Miss 2 — the footprints number themselves:** 1, 2, 3 … appear in the footprints (the start day stays empty); for week rounds the seventh footprint is ringed and its date glows. EN week **"The 7th footprint is one week later."** · between **"The start day has no footprint. The last footprint says {n}."** · weekday **"Every day in this column is a {weekday}."**
+- **The month itself — misses:** count: miss 1 the column's dated cells pulse and its blank cells shade grey, EN **"Count only the boxes that have a date."**; miss 2 the footprints number themselves down the column, EN **"The last footprint says {n}."** · which date: miss 1 the ringed cell pulses, EN **"Find the ring. Read the number in its box."**; miss 2 the numeral grows ×1.5 inside the ring · how many days: miss 1 the last date pulses, EN **"Look at the last date of the month."**; miss 2 the footprints number themselves from the 1st · first/last day: the weekday misses. Successes: **"This month has {n} {dayPlural}!"** · **"It is on the {date}!"** · **"This month has {n} days!"** · **"The first day is a {weekday}!"** / **"The last day is a {weekday}!"**
+- A new move or key takes the help away until the next Check.
+- **Success:** the event picture flies from its card onto the date and becomes its sticker token; the date ring closes. EN weekday **"The {date} is a {weekday}!"** · week **"One week after {a} is {b}!"** / **"One week before {a} is {b}!"** · between **"From {a} to {b} is {n} days!"** — dates rendered by the locale's date frame (§9).
+
+## 8. Settings
+1. **Question:** day of the week / one week later or earlier / days between / the month itself / mixed (default) — the task line, the event column and the answer area change at rest.
+2. **Week starts on:** the locale's own (default: Sunday in en and pt, Monday elsewhere) / Monday / Sunday — the header row reorders at rest (for international schools whose calendar differs from the locale's).
+
+## 9. Words (EN source)
+- title **"The Week-Drop Calendar"**
+- instructions **"What day of the week is it on {date}?"** · **"One week after {date} — put the sticker there."** · **"One week before {date} — put the sticker there."** · **"How many days from {dateA} to {dateB}?"**
+- month-itself prompts, hints and celebrations: as §4 and §7 (**"How many {dayPlural} are in this month?"** · **"On which date is this?"** · **"How many days does this month have?"** · **"What day of the week is the first day of the month?"** · **"What day of the week is the last day of the month?"** · **"Count only the boxes that have a date."** · **"The last footprint says {n}."** · **"Find the ring. Read the number in its box."** · **"Look at the last date of the month."** · **"This month has {n} {dayPlural}!"** · **"It is on the {date}!"** · **"This month has {n} days!"** · **"The first day is a {weekday}!"** · **"The last day is a {weekday}!"**)
+- hints **"Move the sticker."** · **"Type the number of days."** · **"Go straight up from {date}."** · **"Count the footprints. A week is 7 days."** · **"Walk the sticker from {dateA} to {dateB} and count the footprints."** · **"The 7th footprint is one week later."** · **"The start day has no footprint. The last footprint says {n}."** · **"Every day in this column is a {weekday}."**
+- celebrations as §7.
+- weekday names (full, for prose) and abbreviations (header) ×11; settings **"Question"**: "day of the week" / "one week later or earlier" / "days between" / "the month itself" / "mixed" · **"Week starts on"**: "as usual here" / "Monday" / "Sunday".
+- **Locale traps:** (a) **dates without a month name:** {date} = the day number in the locale's own day-of-month form — en "the 12th" (ordinal suffix st/nd/rd/th from a table), de "dem 12." (dative after *nach*: author frames whole: *eine Woche nach dem 12.*), fr "le 12" (*le 1er* for 1!), es "el 12", it "il 12" (*l'8*, *l'11* — elision before vowels; *il 1°* for 1), pt "dia 12", nl "de 12e", sv "den 12:e", da "den 12.", no "den 12.", fi "12. päivä" (with case in frames: *12. päivästä 19. päivään*) — every frame authored per locale with a day-number formatter; no day 1 is ever used in an elision/ordinal-special slot except via the formatter. (b) **weekday names lower-case** in fr/es/it/pt/nl/sv/da/no/fi, capitalised in en/de. (c) **abbreviations, full names and plurals:** never single letters (en T/T, S/S and fr M/M are ambiguous) — and never a new hand table: read `dayAbbr`, `dayNames`, `dayPlural` and the ordinal formatter (`ordinal(style, n)`: en 14th, de/da/no/fi 14., fr 1er, nl 14e, sv 14:e / 1:a 2:a 21:a 22:a 31:a) from the worksheets' SoT `scripts/worksheet-gen/data/b2/calendar.js`, already native-audited (en Sun Mon Tue…, de So Mo Di…, da søn man tirs ons tors fre lør — four letters fit the 46 px cell at 13 px). The "how many {dayPlural}" frame reuses the SoT's `countWeekday` frames; fi uses its partitive plural (*perjantaita*) after *Montako*, it/es invariable plurals (*lunedì*, *lunes*) come from the table. (d) **week start** (§6). (e) **"days" after a number:** fi partitive (*14 päivää*), others plural — authored frames. (f) Event nouns are never in prose (the event card shows the picture), so no article/gender trap.
+
+## 10. Sound off, access, phones
+- Sound off: the footprint snake, the column glow, the numbering, the flying sticker — all visible.
+- Keyboard path §5; aria: each cell `"{weekday} the {date}"`; the sticker `"sticker on {weekday} the {date}, {n} footprints"`.
+- Taps: sticker hit 44 px; header cells ≥ 46 × 32 at 360 (drop targets, the sticker snaps to the nearest — 44 px effective by snapping to the column); keys ≥ 46 × 44. Pictures 96 px at 704 / 64 px at 360 on the event cards; the in-cell sticker is a drawn token (the record ruling).
+- Check above the folds (§4).
+
+## 11. Distinct from
+- **calendar-wall (tool):** morning-meeting date, days-in-school counter, weather graph — no week arithmetic. **New 210 The Moon Between Every Day (designed):** the week as a necklace with a night between days — the order of days and "how many sleeps", K readiness. Here the month grid is the instrument and the row-drop = 7 is the invention.
+- **New 251 Chart Patches:** down = 10 on a hundreds chart (a different structure and a fixed grid). **Row 101 The Hour Road:** a clock rim unrolled — time of day, not calendar.
+- **Batch siblings:** none touch time; 269/141 count on lines and pads.
+
+## 12. Build plan
+- **Core state:** `{ q, month:{first, len}, weekStart:'mon'|'sun', start, target|null, sticker:{cell}, trail:[date], typed, headerPick }`.
+- **Functions:** `cellOf(date)`, `dateOf(cell)`, `weekdayOf(date)`, `trail(start, cur)` → dates strictly after start up to cur (or strictly before, rewinding when cur < start), `move(cell)`, `check()`.
+- **Gate's own truth (`verify-week-drop-calendar-core.js`):** month-itself rounds — weekday counts recomputed by walking the month, ≥ 1 count round whose column has a blank cell inside the grid's rows (the row-count lure differs from the answer), the margin-pad walk lays exactly len footprints, the sticker-date ring sits on its date in both layouts; recompute weekday = (first + d − 1) mod 7 for every round; all 7 weekdays answered in the weekday table; week targets = d ± 7 inside the month and never in a row that does not exist; between answers = b − a, all distinct, only 7 and 14 multiples of 7; trail length after a one-row drop = 7 and after one step = 1; the start date is never in the trail; columns correct in both week-start layouts; en/pt default Sunday-first, others Monday-first.
+- **Mutations (each killed):** weekday count = number of rows · blank cells receive footprints · the month-length walk starts ON the 1st (lays len − 1) · abbreviations read from a hand table instead of `calendar.js` · trail includes the start day · one row down lays 1 footprint (column distance instead of days) · weekday computed from the row · week target = d + 1 · Sunday-first in de · a round whose earlier target falls before the 1st · footprints numbered before Check in between rounds · fr date "le 1" instead of "le 1er" · single-letter headers · same order twice.
+- **Pictures verified on contact sheets:** `4th-of-july/cake` (the only whole cake — bakery/desserts/supermarket cakes are slices), `christmas/present`, `vegetables/pumpkin`, `toys/kite`, `toys/balloon` (green), `summer/sandcastle`, `easter/basket`, `classroom/backpack`. **Risks:** the per-locale day-number formatter (native review). Nothing blocked.
+
+## 13. The four questions
+1. **Choose it again?** Yes — the footprint snake that runs round the week when you drop a row is irresistible, and every round brings a fresh month and an event to stick on.
+2. **Teacher on the board?** Yes — "a week later is the same day one row down" and "don't count the day you start on" are both made visible by the footprints, not told.
+3. **Parent trust?** A real month calendar in the family's own week layout and language, calm, no timer.
+4. **Invention:** the sticker's footprints always count the days from where it started — so one square is one footprint and one row down is a seven-footprint snake: one week later.
+
+## 14. Critic review (2026-10-17)
+Scores before → after: invention 5→5 · fun 5→5 · completeness 4→5 · correctness 4→5 · distinctness 5→5 · reality 4→5
+What changed:
+- **Worksheet coverage closed.** G2-277/296/298 ask on every page "how many Fridays?", "on which date is the sticker?", "how many days does this month have?" and "what day is the first / last day?" — none of which the design taught. Added a fifth question set, **the month itself** (8 rounds, written out and verified in both week layouts), each answered with the same sticker: it drops down a weekday column laying footprints only on DATED cells (the count-the-rows lure is visible in 2 of 3 count rounds — a blank first-row Monday, a six-row month with five Sundays), and the month-length walk starts on a margin pad before the 1st so every day gets a footprint — the deliberate contrast with "days between".
+- Mixed now draws 2 + 2 + 2 + 2 per pass; misses, hints and celebrations written for the new set.
+- **One SoT for calendar words:** weekday abbreviations, full names, plurals and the ordinal formatter come from the worksheets' native-audited `scripts/worksheet-gen/data/b2/calendar.js` instead of a new hand table (the design's own table disagreed with it — en "Mo Tu" vs SoT "Mon Tue", da "tir" vs "tirs").
+- Week start read from the same SoT; es-MX *domingo* start flagged for the native reviewer.
+- All 24 original rounds re-verified (`work-c32/cal.js`): every weekday answer right, answers in all 7 columns in both layouts, week targets inside the month, between-answers distinct.

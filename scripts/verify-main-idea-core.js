@@ -93,20 +93,29 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
   const cogs = new Set(rounds.map((r) => r.cog));
   Core.COGS.forEach((c) => F(cogs.has(c), `cog "${c}" missing from the bank`));
 
-  /* ---- (C) PER-LABEL swap-invariance ---- */
-  const topicOf = {};   /* fishId -> count as topic */
-  const nontopicOf = {};/* fishId -> count as non-topic */
-  rounds.forEach((r) => {
-    (r.fish || []).forEach((fi) => {
-      if (fi.id === r.topicId) topicOf[fi.id] = (topicOf[fi.id] || 0) + 1;
-      else nontopicOf[fi.id] = (nontopicOf[fi.id] || 0) + 1;
-    });
-  });
+  /* ---- (C) THE COVERAGE LAW (2026-10-17, replaces per-label swap-invariance) ----
+     The topic fish covers EVERY pad (paragraph sentences 2-4); every other fish covers at most
+     one pad; the not-in-text fish covers none; in nest-reject the two belonging details cover two
+     DIFFERENT pads and the non-belonger covers none. A careful reader can therefore never be
+     marked wrong: the umbrella answer is the only fish that is about all of the text. */
   const allFishIds = new Set();
-  rounds.forEach((r) => (r.fish || []).forEach((fi) => allFishIds.add(fi.id)));
-  allFishIds.forEach((id) => {
-    F(topicOf[id] >= 1, `swap-invariance: fish "${id}" is NEVER the topic (audio-rote cheat)`);
-    F(nontopicOf[id] >= 1, `swap-invariance: fish "${id}" is ALWAYS the topic (audio-rote cheat)`);
+  rounds.forEach((r) => {
+    const pads = (r.paragraph || []).length - 1;
+    (r.fish || []).forEach((fi) => {
+      allFishIds.add(fi.id);
+      F(Array.isArray(fi.covers), `${r.id}: fish "${fi.id}" has no authored covers[]`);
+      const c = fi.covers || [];
+      if (fi.id === r.topicId) F(c.length === pads && c.every((x, i) => x === i + 1), `${r.id}: the TOPIC does not cover all ${pads} pads (covers ${JSON.stringify(c)})`);
+      else F(c.length <= 1, `${r.id}: non-topic fish "${fi.id}" covers ${c.length} pads (a second umbrella)`);
+    });
+    const byId = (id) => (r.fish || []).find((x) => x.id === id) || {};
+    const inText = (r.fish || []).filter((x) => x.id !== r.topicId && (x.covers || []).length === 1).map((x) => x.covers[0]);
+    F(new Set(inText).size === inText.length, `${r.id}: two detail fish cover the SAME pad`);
+    F((r.fish || []).filter((x) => (x.covers || []).length === 0).length === 1, `${r.id}: need exactly one not-in-text fish (covers none)`);
+    if (r.cog === 'nest-reject') {
+      (r.details || []).forEach((d) => { const c = byId(d.id).covers || []; F(d.belongs ? c.length === 1 : c.length === 0, `${r.id}: detail "${d.id}" belongs=${d.belongs} but covers ${JSON.stringify(c)}`); });
+    }
+    if (r.cog === 'reject-narrow') F(r.narrowId && (byId(r.narrowId).covers || []).length === 1, `${r.id}: narrow lure "${r.narrowId}" must cover exactly one pad`);
   });
 
   /* ---- (D) register/frame balance (no structural tell for the topic) ---- */
@@ -132,6 +141,22 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
     });
     return best;
   }
+  /* 2026-10-17: the in-text cues are measured on what the child SEES — the phrase's own content words
+     (4+ letters, minus words every fish shares) found in the printed paragraph — not on one
+     authored key word. The topic now echoes the lead sentence (the RI.K.2 text feature), so the
+     old key-based "earliest" measured the authoring, not the screen; the not-in-text fish carries
+     a lead-sentence lure in most rounds, and this is what proves "match sentence 1" no longer wins. */
+  const LEX = (str) => String(str).toLowerCase().split(/[^\p{L}]+/u).filter((w) => w.length >= 4);
+  function lexAudit(r, a) {
+    const text = LEX(Core._paraText(r));
+    const common = LEX((r.fish[0] || {}).phrase).filter((w) => (r.fish || []).every((f) => LEX(f.phrase).includes(w)));
+    a.fish.forEach((af) => {
+      const f = (r.fish || []).find((x) => x.id === af.id);
+      const idx = LEX(f.phrase).filter((w) => !common.includes(w)).map((w) => text.indexOf(w)).filter((i) => i >= 0);
+      af.firstMention = idx.length ? Math.min(...idx) : Infinity; af.overlap = idx.length; af.inText = idx.length > 0;
+    });
+    return a;
+  }
   const HEURISTICS = {
     longest:        (a) => pickBy(a, (f) => f.len, +1),
     shortest:       (a) => pickBy(a, (f) => f.len, -1),
@@ -152,7 +177,7 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
   names.forEach((n) => { acc[n] = 0; });
   let voteHits = 0;
   rounds.forEach((r) => {
-    const a = Core.audit(r);
+    const a = lexAudit(r, Core.audit(r));
     const votes = {};
     names.forEach((n) => {
       const pick = HEURISTICS[n](a);
@@ -197,14 +222,12 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
     F(Core.facts(r).commitRequiredBeforeReveal === true, `${r.id}: no commit-before-reveal`);
     const grp = Core.regenGroup(r, rounds);
     F(grp.length >= 1, `${r.id}: empty regenerate-on-wrong swap-group → a wrong commit can't move the board (brute-force survives)`);
-    /* the swap-group must share the same 4 fish (same board, different topic) */
+    /* the swap-group sibling is a different paragraph whose topic phrase differs (the target moves) */
+    const tp = (x) => ((x.fish || []).find((f) => f.id === x.topicId) || {}).phrase;
     grp.forEach((gid) => {
       const g = rounds.find((x) => x.id === gid);
       if (!g) { fails.push(`${r.id}: regenGroup id "${gid}" not found`); return; }
-      const a = (r.fish || []).map((f) => f.id).sort().join(',');
-      const b = (g.fish || []).map((f) => f.id).sort().join(',');
-      F(a === b, `${r.id}: swap-group sibling "${gid}" has a DIFFERENT fish set (not a same-board topic move)`);
-      F(g.topicId !== r.topicId, `${r.id}: swap-group sibling "${gid}" has the SAME topic (board move would not move the target)`);
+      F(tp(g) !== tp(r), `${r.id}: swap-group sibling "${gid}" has the SAME topic phrase (board move would not move the target)`);
     });
   });
 
@@ -214,12 +237,20 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
   names.forEach((n) => console.log(`  ${acc[n] / N <= ARMED_MAX ? 'ok  ' : 'FAIL'} ${n}: ${pct(acc[n] / N)}`));
   console.log(`  ${voteAcc <= ARMED_MAX ? 'ok  ' : 'FAIL'} majority-vote: ${pct(voteAcc)}  (chance ~${pct(1 / 4)}–${pct(1 / 3)}, ceiling ${pct(ARMED_MAX)})`);
   console.log(`comprehension oracle: topic ${oracleTopic}/${N}, school ${oracleSchool}/${schoolRounds}`);
+  let chLong = 0, chShort = 0;
+  rounds.forEach((r) => {
+    const L = (r.fish || []).map((f) => f.phrase.length); const t = (r.fish || []).find((f) => f.id === r.topicId).phrase.length;
+    if (t === Math.max(...L) && L.filter((x) => x === t).length === 1) chLong++;
+    if (t === Math.min(...L) && L.filter((x) => x === t).length === 1) chShort++;
+  });
+  console.log(`topic phrase is the uniquely LONGEST (characters) in ${chLong}/${N}, uniquely SHORTEST in ${chShort}/${N}`);
+  F(chLong <= Math.floor(N / 3), `topic phrase is the visibly longest option in ${chLong}/${N} rounds (width tell)`);
   console.log('');
   if (fails.length) {
     console.error(`VERIFY-MAIN-IDEA-CORE FAILED — ${fails.length} issue(s):`);
     fails.forEach((m) => console.error('  • ' + m));
     process.exit(1);
   }
-  console.log('VERIFY-MAIN-IDEA-CORE PASSED — per-label swap-invariance + register/frame balance + no per-fish picture + exactly-one-non-belonger + non-belonger-noun-absent/belonging-nouns-present + 4 cogs + >=7 paragraphs; the ARMED surface solver scores <= chance on the topic pick (single + majority-vote) while the comprehension oracle scores 100%; commit-then-reveal + a non-stationary regenerate-on-wrong swap-group defeat brute-force.');
+  console.log('VERIFY-MAIN-IDEA-CORE PASSED — coverage law (topic covers every pad, details one each, one not-in-text) + register/frame balance + no per-fish picture + exactly-one-non-belonger + non-belonger-noun-absent/belonging-nouns-present + 4 cogs + >=7 paragraphs; the ARMED surface solver scores <= chance on the topic pick (single + majority-vote) while the comprehension oracle scores 100%; commit-then-reveal + a non-stationary regenerate-on-wrong swap-group defeat brute-force.');
   process.exit(0);
 })();

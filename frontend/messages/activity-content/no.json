@@ -1769,6 +1769,30 @@
         "Sammenligne grupper ved å telle",
         "Gjøre to grupper like store"
       ]
+    },
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "En bekk deler seg to ganger på vei til en dam der en venn venter – en frosk, en rev, et pinnsvin. Ved hver forgrening flyter to tallbøyer, én i hver arm, og et lite skilt øverst viser regelen for turen: følg de største tallene eller de minste. Barnet trykker på et tall ved hver forgrening, den planlagte ruten lyser opp, og Sjekk sender en seilbåt nedover den. En interaktiv aktivitet som kjører i nettleseren, uten installasjon og uten konto.",
+        "Regelen skifter fra tur til tur, så barnet må lese skiltet og tallene hver gang – den som alltid velger det største tallet, kommer ikke fram. Er ruten feil, seiler båten så langt den kan og blir sittende fast i sivet ved den første feile forgreningen, som blir markert: Hvilket tall der er størst (eller minst)? Etter et nytt forsøk kommer det prikker under de to tallene ved den forgreningen, så barnet kan telle hvor det er flest. En riktig rute tar båten helt fram til vennen: «Ja – du fulgte de største tallene, 7 og 5, helt fram til dammen!» Noen tall ligger langt fra hverandre, som 2 og 7, og noen er naboer, som 7 og 8. De to tallene er aldri like.",
+        "Aktiviteten er tilpasset LK20 – å sammenligne to skrevne tall mellom 1 og 10. Læreren velger tall opptil 5 eller opptil 10 og en regel som skifter ved hver tur, eller alltid det største eller alltid det minste tallet. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Sammenligne to skrevne tall opptil 10",
+        "Finne det største og det minste tallet i et par",
+        "Holde en regel i hodet mens man velger",
+        "Telle prikker for å sjekke hvilket tall som er størst"
+      ],
+      "howToPlay": [
+        "Se på skiltet: følge de største tallene eller de minste?",
+        "Trykk ved hver forgrening på tallet som følger regelen.",
+        "Trykk på Sjekk, og se båten seile ruten din fram til dammen.",
+        "Sitter båten fast i sivet? Se en gang til på den markerte forgreningen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Sammenligne to skrevne tall mellom 1 og 10",
+        "Si hvilket av to tall som er størst, og hvilket som er minst",
+        "Sjekke en sammenligning ved å telle prikker"
+      ]
     }
   }
 }

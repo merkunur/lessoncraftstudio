@@ -1414,25 +1414,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Sali a bordo con il capitano Quill, un anatroccolo coraggioso che discende un fiume pieno di curve: a ogni bivio ci sono due boe con due numeri, e tocca al tuo bambino decidere quale ramo del fiume prendere.",
-        "È un'attività di classe prima per confrontare e ordinare i numeri entro il 10: il bambino sceglie il numero più grande o più piccolo, oppure tocca «=» quando le due boe mostrano lo stesso numero.",
-        "Il gioco è senza registrazione e funziona nel browser, con un tono calmo e incoraggiante: nessun punteggio e nessun cronometro, solo il piacere di navigare e imparare."
+        "Un ruscello si divide due volte sulla strada per uno stagno dove aspetta un amico: una rana, una volpe, un riccio. A ogni bivio galleggiano due boe con un numero, una in ogni ramo, e un cartellino in alto dà la regola del viaggio: seguire i numeri più grandi oppure i più piccoli. Il bambino tocca un numero a ogni bivio, la strada scelta si illumina e Verifica ci manda giù una barca a vela. È un’attività interattiva per la scuola dell’infanzia che funziona nel browser, senza installare nulla e senza account.",
+        "La regola cambia da un viaggio all’altro, quindi il bambino deve leggere il cartello e i numeri ogni volta: chi sceglie sempre il numero più grande non passa. Se la strada è sbagliata, la barca va avanti finché può e si ferma tra le canne al primo bivio sbagliato, che viene cerchiato: quale numero lì è più grande (o più piccolo)? Dopo un secondo tentativo compaiono dei pallini sotto i due numeri di quel bivio, per contare quale ne ha di più. Una strada giusta porta la barca fino all’amico: «Sì: hai seguito i numeri più grandi, 7 e 5, fino allo stagno!» Alcuni numeri sono lontani, come 2 e 7, altri sono vicini, come 7 e 8. I due numeri non sono mai uguali.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare due numeri scritti in cifre tra 1 e 10. L’insegnante sceglie numeri fino a 5 o fino a 10, e una regola che cambia a ogni viaggio, oppure sempre il più grande o sempre il più piccolo. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Leggere i numeri scritti da 1 a 10 e riconoscere quale è più grande e quale è più piccolo.",
-        "Confrontare e ordinare i numeri entro il 10, scegliendo il ramo del fiume con il numero richiesto.",
-        "Capire quando due numeri sono uguali e toccare il segno «=».",
-        "Leggere il valore del numero e non la grandezza della scritta: anche un «3» stampato in grande resta più piccolo di un «8»."
+        "Confrontare due numeri scritti fino a 10",
+        "Trovare il numero più grande e il più piccolo di una coppia",
+        "Tenere a mente una regola mentre si sceglie",
+        "Contare i pallini per controllare quale numero è più grande"
       ],
       "howToPlay": [
-        "A ogni bivio guarda le due boe: leggi bene i due numeri prima di decidere.",
-        "Tocca il ramo del fiume con il numero più grande o più piccolo, come chiede il capitano Quill; se i numeri sono uguali, tocca «=».",
-        "La zattera prosegue lungo il fiume verso il bivio successivo: si può giocare tante volte, con calma e senza fretta."
+        "Guarda il cartello: seguire i numeri più grandi o i più piccoli?",
+        "A ogni bivio, tocca il numero che segue la regola.",
+        "Premi Verifica e guarda la barca seguire la tua strada fino allo stagno.",
+        "Bloccata tra le canne? Guarda di nuovo il bivio cerchiato. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Confrontare e ordinare i numeri entro il 10, riconoscendo il più grande e il più piccolo.",
-        "Rafforzare la lettura dei numeri scritti da 1 a 10 e il concetto di uguaglianza.",
-        "Distinguere il valore di un numero dalla dimensione con cui è scritto, un passo importante nel percorso di classe prima secondo le Indicazioni nazionali."
+        "Confrontare due numeri scritti in cifre tra 1 e 10",
+        "Dire quale di due numeri è più grande e quale è più piccolo",
+        "Controllare un confronto contando i pallini"
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

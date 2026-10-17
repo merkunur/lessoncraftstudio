@@ -2848,25 +2848,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Kapitein Kwek de eend vaart met haar vlot de vergelijkingsbeek af. Bij elke splitsing gaat de beek in twee rivierarmen uiteen, en op elke arm dobbert een boei met een getal van 1 tot 10. Je kind leest de twee getallen en stuurt het vlot naar de arm met het grootste getal — of, als je om het kleinste vraagt, naar de kleinste. Zijn de twee getallen gelijk? Dan tikt je kind op de gelijkteken-boei in het midden.",
-        "De grote gedachte is eenvoudig maar krachtig: twee getallen van 1 tot 10 met elkaar vergelijken en zien of het ene groter, kleiner of gelijk is aan het andere. Onderweg komt er ook variatie voorbij — groepjes stippen tellen en vergelijken, kleine sommen naast elkaar leggen, en bedenken welk getal tússen twee andere ligt. Belangrijk daarbij: je kind leert de wáárde van een getal te lezen, niet de grootte van de cijfers. Een kleine 3 kan in een groot lettertype staan en een grote 8 juist klein — Kwek helpt je kind om door die valstrik heen te kijken. Vooral vlak bij elkaar liggende getallen, zoals 6 en 7, maken dat lezen echt spannend.",
-        "Stuurt je kind een keer de verkeerde kant op? Geen probleem — de boeien wisselen gewoon van plek, zodat je kind rustig opnieuw kan kijken en het nog eens probeert. Deze activiteit sluit aan bij de SLO-kerndoelen voor getalbegrip en laat kinderen op hun eigen tempo oefenen, zonder tijdsdruk en zonder punten."
+        "Een beek splitst zich twee keer op weg naar een vijver waar een vriendje wacht – een kikker, een vos, een egel. Bij elke splitsing drijven twee getallenboeien, één in elke arm, en een bordje bovenaan geeft de regel voor deze tocht: volg de grotere getallen, of de kleinere. Het kind tikt bij elke splitsing op een getal, de geplande route licht op, en Controleer stuurt er een zeilbootje doorheen. Een interactieve activiteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "De regel verandert van tocht tot tocht, dus het kind moet elke keer het bordje en de getallen lezen – wie altijd het grotere getal kiest, komt er niet. Klopt de route niet, dan vaart de boot zo ver als hij kan en blijft hij bij de eerste verkeerde splitsing in het riet steken; die splitsing wordt omcirkeld: welk getal daar is groter (of kleiner)? Na een tweede poging verschijnen er stippen onder de twee getallen van die splitsing, zodat het kind kan tellen waar er meer zijn. Een goede route brengt de boot helemaal naar het vriendje: ‘Ja – je volgde de grotere getallen, 7 en 5, helemaal tot de vijver!’ Sommige getallen liggen ver uit elkaar, zoals 2 en 7, andere zijn buren, zoals 7 en 8. De twee getallen zijn nooit gelijk.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: twee geschreven getallen tussen 1 en 10 vergelijken. De leerkracht kiest getallen tot en met 5 of tot en met 10, en een regel die elke tocht verandert, of altijd het grotere, of altijd het kleinere getal. Geen timer, geen score."
       ],
       "practices": [
-        "Getallen 1 tot 10 vergelijken: groter, kleiner of gelijk",
-        "De wáárde van een getal lezen, los van de grootte van het cijfer",
-        "Groepjes stippen en kleine sommen naast elkaar leggen en vergelijken",
-        "Bedenken welk getal tussen twee andere getallen ligt"
+        "Twee geschreven getallen tot en met 10 vergelijken",
+        "Het grotere en het kleinere getal van een paar vinden",
+        "Een regel onthouden tijdens het kiezen",
+        "Stippen tellen om na te gaan welk getal groter is"
       ],
       "howToPlay": [
-        "Lees de twee getallen op de boeien en tik op de rivierarm met het grootste getal (of het kleinste, als daarom gevraagd wordt).",
-        "Zijn de getallen gelijk? Tik dan op de gelijkteken-boei in het midden.",
-        "Klaar? Tik op \"Controleer\". Kies je een verkeerde arm, dan wisselen de boeien van plek en kijk je gewoon nog een keer."
+        "Kijk naar het bordje: volg je de grotere getallen of de kleinere?",
+        "Tik bij elke splitsing op het getal dat bij de regel past.",
+        "Druk op Controleer en kijk hoe de boot jouw route naar de vijver vaart.",
+        "Vast in het riet? Kijk nog eens naar de omcirkelde splitsing. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Je kind leert twee getallen van 1 tot 10 met elkaar vergelijken en benoemen of het ene groter, kleiner of gelijk is.",
-        "Je kind leert een getal als waarde te zien, los van hoe groot of klein het cijfer op het scherm staat.",
-        "Je kind versterkt zijn getalbegrip en gevoel voor de getallenrij door getallen steeds opnieuw te ordenen en te vergelijken."
+        "Twee geschreven getallen tussen 1 en 10 vergelijken",
+        "Zeggen welk van twee getallen groter is en welk kleiner",
+        "Een vergelijking controleren door stippen te tellen"
       ]
     },
     "span-length-gap.how-much-longer.2-md-a-4": {

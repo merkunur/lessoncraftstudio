@@ -1558,25 +1558,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Children steer Captain Quill's raft downriver, and at each bend two number-buoys appear — like 7 and 6, or 5 and 6 — with a prompt to choose the bigger or the smaller one. Comparison Creek is a Kindergarten math game about comparing written numbers that runs in the browser with no account, carrying children gently from one comparison to the next.",
-        "The numbers are deliberately close together, so a child cannot just grab the obviously-larger one — telling 7 from 6 means actually reading the numerals. The game even sets a trap with size: one round prints a small 3 large and a large 8 small, so a child who judges by how big the digit looks will be wrong and has to read the number itself. Mixed in are dot-groups, a 'name which is more' round, an equal pair where the answer is 'the same,' and a 'between' round, so comparison is explored from several angles.",
-        "It is aligned to Common Core K.CC.C.7 — comparing two written numbers between 1 and 10. No timer, no score — just calm, playful practice."
+        "A creek forks twice on its way to a pond where a friend is waiting — a frog, a fox, a hedgehog. At each fork two number buoys float, one in each channel, and a little sign at the top gives the rule for this trip: follow the bigger numbers, or follow the smaller ones. The child taps one number at each fork, the planned route lights up, and Check sends a sailboat down it. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "The rule changes from trip to trip, so the child has to read the sign and the numbers every time — a child who always picks the bigger number will not get through. If the route is wrong, the boat sails as far as it can and stops in the reeds at the first wrong fork, and that fork is ringed: which number there is bigger (or smaller)? After a second try, dots appear under the two numbers at that fork, so the child can count which has more. A right route takes the boat all the way to the friend: “Yes — you followed the bigger numbers, 7 and 5, all the way to the pond!” Some forks are far apart, like 2 and 7, and some are neighbours, like 7 and 8. The two numbers are never the same.",
+        "It is aligned to Common Core K.CC.C.7 — comparing two numbers between 1 and 10 presented as written numerals. Teachers can choose numbers up to 5 or up to 10, and a rule that changes every trip, or always the bigger, or always the smaller. No timer, no score."
       ],
       "practices": [
-        "Read two written numerals and decide which is bigger or smaller",
-        "Compare numbers that are close together, like 6 and 7",
-        "Ignore how big a digit is printed and read the number it stands for",
-        "Recognize when two numbers are equal"
+        "Comparing two written numbers up to 10",
+        "Finding the bigger and the smaller number of a pair",
+        "Keeping a rule in mind while choosing",
+        "Counting dots to check which number is bigger"
       ],
       "howToPlay": [
-        "Read the two number-buoys at the bend and the prompt — bigger or smaller.",
-        "Steer the raft toward the number you choose.",
-        "Wrong turns are gently corrected so children can try again — there is no timer and no score."
+        "Look at the sign: follow the bigger numbers, or the smaller ones?",
+        "At each fork, tap the number that follows the rule.",
+        "Press Check and watch the boat sail your route to the pond.",
+        "Stuck in the reeds? Look again at the ringed fork. No timer, no score."
       ],
       "learningGoals": [
-        "Compare two written numbers from 1 to 10 — the focus of Common Core K.CC.C.7.",
-        "Read the numeral itself instead of guessing from its size.",
-        "Build the comparing sense that greater-than and less-than work depends on."
+        "Compare two numbers between 1 and 10 given as written numerals — the focus of Common Core K.CC.C.7",
+        "Say which of two numbers is bigger and which is smaller",
+        "Check a comparison by counting dots"
       ]
     },
     "compound-meaning.predict.l-2-4-d": {

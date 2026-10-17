@@ -143,6 +143,10 @@ function seedScript(row) {
     // 3 and 8, the right answer checked: the card shows both towers standing, the 3 stopped with its flag, the counting row lit to 8
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.left===3&&r.right===8;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.BlockTowersCore;C.choose(t.st,'left');C.check(t.st);t._beat=null;t._paint();})();`;
   }
+  if (row.tool === 'creek-map-activity') {
+    // "follow the bigger numbers": 7 and 5 tapped, the planned route dashed down both forks, the sign lit, the boat at the source, the frog at the pond
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t._order=[0,1,2,3,4,5,6,7,8].slice(0,t._pool.length);t._curPass=0;window.LCS_reloadFirstTask();var C=window.CreekMapCore;var a=C.answers(t.st);C.choose(t.st,0,a[0]);C.choose(t.st,1,a[1]);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

@@ -2,6 +2,8 @@
 
 Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K → 1 → 2 → 3, strands in pathway order (Counting & Cardinality → OA → NBT → Fractions → MD → Geometry → Foundational → Literature → Informational → Language → Vocabulary → Writing → Speaking), then code. Mark a row `DONE <date> <new tool>` when its instrument ships. Never reorder silently; a re-cut is an operator call.
 
+**After row 204:** the worksheet→activity coverage plan continues in [`new/NEW-ORDER.md`](new/NEW-ORDER.md) (#205 onward, 111 new instruments, each with a design sheet in `new/`; start one with `node scripts/new-activity.js --num=<#>`, recipe `new/NEW-RECIPE.md`). Coverage map + gate: `coverage/COVERAGE.md`, `node scripts/audit-activity-coverage.js`. Rows 95, 137 and 151 carry a **rebuild input** in `rebuild-inputs/` — the coverage review's design for them; read it when the rebuild reaches the row.
+
 | # | status | grade | code | activity id | current engine | page title (en) |
 |---|---|---|---|---|---|---|
 | 1 | LIVE 2026-10-16 → `egg-cartons-activity` (the Ten-Shelf), 11 locales (sv/da/no/fi new); operator review pending | K | K.CC.A.1 | `posy-egg-cartons.count-tens.k-cc-a-1` | posy-egg-cartons-activity | Posy's Egg Cartons — Count by Tens to 100 (Kindergarten) |
@@ -98,7 +100,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 92 |  | 1 | 1.NBT.A.1 | `track-repair.count-to-120.1-nbt-a-1` | track-repair-activity | Whistle Valley — Number-Line Track Repair |
 | 93 |  | 1 | 1.NBT.B.2 | `bos-berry-pantry.slingshot-tens.1-nbt-b-2` | bos-berry-pantry-activity | Bo's Berry Pantry — Tens and Ones the Smart Way |
 | 94 |  | 1 | 1.NBT.B.2.a | `bundle-bot.bundle-machine.1-nbt-b-2-a` | bundle-bot-activity | Bundle Bot — Make a Ten from Ten Ones |
-| 95 |  | 1 | 1.NBT.B.3 | `choice-board.compare-two-digit.1-nbt-b-3` | choice-board-activity | Compare Two-Digit Numbers — Greater Than, Less Than, Equal |
+| 95 | design input: `rebuild-inputs/95-ten-rod-drawers.md` | 1 | 1.NBT.B.3 | `choice-board.compare-two-digit.1-nbt-b-3` | choice-board-activity | Compare Two-Digit Numbers — Greater Than, Less Than, Equal |
 | 96 |  | 1 | 1.NBT.C.4 | `place-value-regroup.add-compose-ten.1-nbt-c-4` | place-value-regroup-activity | Tuck's Ten Bundles — Add with Regrouping (Grade 1) |
 | 97 |  | 1 | 1.NBT.C.5 | `choice-board.ten-more-less.1-nbt-c-5` | choice-board-activity | Ten More, Ten Less — Mental Math With Two-Digit Numbers |
 | 98 |  | 1 | 1.NBT.B.2 | `place-value.tens-and-ones.1-nbt-b-2` | place-value-activity | Tens and Ones |
@@ -140,7 +142,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 134 |  | 1 | L.1.5.d | `shades.pick.l-1-5-d` | shades-activity | Pesto's Soup Stall — Shades of Meaning (Grade 1) |
 | 135 |  | 1 | 1.OA.B.3 | `match-pairs.add-it-both-ways.1-oa-b-3` | match-pairs-activity | Add It Both Ways |
 | 136 |  | 2 | 2.OA.A.1 | `numberbond.story-problem.2-oa-a-1` | number-bond-activity | Story Problems — Add & Subtract Within 100 as a Bond (Grade 2) |
-| 137 |  | 2 | 2.OA.C.3 | `choice-board.even-odd.2-oa-c-3` | choice-board-activity | Even or Odd? — Number Sense for Grade 2 |
+| 137 | design input: `rebuild-inputs/137-dealing-table.md` | 2 | 2.OA.C.3 | `choice-board.even-odd.2-oa-c-3` | choice-board-activity | Even or Odd? — Number Sense for Grade 2 |
 | 138 |  | 2 | 2.OA.C.4 | `array.build-array.2-oa-c-4` | array-activity | Build an Array — Rows, Columns & Repeated Addition (Grade 2) |
 | 139 |  | 2 | 2.OA.C.4 | `array.equal-groups.2-oa-c-4` | array-activity | Equal Groups — Repeated Addition to Find the Total (Grade 2) |
 | 140 |  | 2 | 2.OA.C.4 | `winter-piles.draw-partition.2-oa-c-4` | winter-piles-activity | Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2) |
@@ -154,7 +156,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 148 |  | 2 | 2.NBT.B.8 | `comet-kangaroo.tens-hundreds.2-nbt-b-8` | comet-kangaroo-activity | Comet's Big Leaps — 10 & 100 More or Less (Grade 2) |
 | 149 |  | 2 | 2.NBT.A.1 | `place-value.hundreds-tens-and-ones.2-nbt-a-1` | place-value-activity | Hundreds, Tens, and Ones |
 | 150 |  | 2 | 2.NBT.A.3 | `place-value.expanded-form.2-nbt-a-3` | place-value-activity | Expanded Form |
-| 151 |  | 2 | 2.NBT.A.4 | `match-pairs.compare-three-digit-numbers.2-nbt-a-4` | match-pairs-activity | Compare Three-Digit Numbers |
+| 151 | design input: `rebuild-inputs/151-three-door-tunnel.md` | 2 | 2.NBT.A.4 | `match-pairs.compare-three-digit-numbers.2-nbt-a-4` | match-pairs-activity | Compare Three-Digit Numbers |
 | 152 |  | 2 | 2.MD.A.1 | `choice-board.read-ruler.2-md-a-1` | choice-board-activity | Read the Ruler — Measure Length in Centimeters |
 | 153 |  | 2 | 2.MD.A.1 | `tildy.measure-ruler.2-md-a-1` | tildy-activity | Tildy's Tailor Shop — Measure with a Ruler |
 | 154 |  | 2 | 2.MD.A.3 | `gauge-good-guess.estimate.2-md-a-3` | gauge-good-guess-activity | Gauge's Good Guess — Estimate the Length (Grade 2) |

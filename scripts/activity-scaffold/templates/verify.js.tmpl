@@ -1,0 +1,75 @@
+#!/usr/bin/env node
+/* =====================================================================
+   verify-__KEY__-core.js — the model gate for new activity #__NUM__,
+   __TITLE__ (__CODE__). Its OWN ground truth, never read off the core.
+   ⚠ SCAFFOLD: [A]–[C] test the skeleton. When the invention replaces the
+   skeleton, rewrite each block against the invention's own truth (the
+   round table, the moves, the misses, the layout floors). [D] and [E]
+   stay. [D] FAILS while any string still says TODO — that is on purpose.
+   Run: node scripts/verify-__KEY__-core.js
+   Mutation: __ENV___CORE_DIR=<dir> loads the core from <dir>.
+   ===================================================================== */
+'use strict';
+const fs = require('fs'), path = require('path');
+const REPO = path.join(__dirname, '..'), MINI = path.join(REPO, 'mini tools');
+const DIR = process.env.__ENV___CORE_DIR || MINI;
+const C = require(path.join(DIR, '__KEY__-core.js'));
+let PASS = 0, FAIL = 0;
+const is = (c, m) => { if (c) PASS++; else { FAIL++; console.error('   FAIL: ' + m); } };
+const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+const ID = '__ID__';
+
+console.log('[A] the rounds');
+for (const level of C.LEVELS) {
+  const R = C.rounds(level, '__PFX__');
+  is(R.length >= 7, `${level}: ${R.length} rounds (≥ 7)`);
+  is(R.every(r => r.options.filter(v => v === r.target).length === 1), `${level}: exactly one right answer a round`);
+  is(R.every(r => r.options.every(v => v >= 1)), `${level}: never 0`);
+  const at = R.map(r => r.answer);
+  is(new Set(at).size === 3 && at.every(i => at.filter(x => x === i).length <= Math.ceil(R.length / 2)), `${level}: the answer sits in every place, never mostly one (${at.join('')})`);
+  is(new Set(R.map(r => r.target + ':' + r.options.join())).size === R.length, `${level}: no round twice`);
+}
+
+console.log('[B] choosing and checking');
+{
+  const r = C.rounds('full', '__PFX__')[0], st = C.newState(r), wrong = (r.answer + 1) % 3;
+  let c = C.check(st);
+  is(c.slip === 'none' && st.misses === 0 && C.hintKey(st) === 'hintStart', 'no choice → start hint, no miss');
+  is(!C.choose(st, 7) && C.choose(st, wrong), 'only a real card');
+  c = C.check(st); is(c.slip === 'wrong' && st.misses === 1 && C.hintKey(st) === 'hintLook' && C.revealed(st) === -1, 'wrong → miss 1, nothing revealed');
+  c = C.check(st); is(st.misses === 2 && C.hintKey(st) === 'hintShow' && C.revealed(st) === r.answer, 'wrong again → the answer revealed');
+  C.choose(st, wrong); is(C.revealed(st) === -1, 'a new choice hides the reveal until Check');
+  C.choose(st, r.answer); c = C.check(st); is(c.ok && st.done, 'right → done');
+  is(!C.choose(st, wrong) && C.check(st).ok, 'a finished round cannot change');
+}
+
+console.log('[C] the layout');
+/* the smallest real stage is 288 px (a 320 phone) */
+for (let W = 286; W <= 1400; W += 7) {
+  const L = C.layout(W), wide = W >= 560;
+  const ok = L.mode === (wide ? 'wide' : 'stack') && 3 * L.card + 2 * L.gap <= W && L.card >= 44 && (W < 648 || L.card >= 96);
+  if (!ok) is(false, `W ${W}: ${JSON.stringify(L)}`); else PASS++;
+}
+
+console.log('[D] the strings of the activity');
+{
+  const S = require(path.join(MINI, '__KEY__-activity.js')).strings;
+  for (const k of Object.keys(S)) is(LOCALES.every(l => typeof S[k][l] === 'string' && S[k][l].trim() && !/TODO/.test(S[k][l])), `${k}: all 11 locales authored (no TODO)`);
+  is(!/ [?:!;]/.test(Object.values(S).map(o => o.fr).join(' ')), 'fr: narrow no-break spaces before ? : ! ;');
+  is(LOCALES.every(l => !/\{/.test(S.instruction[l] + S.prompt[l] + S.hintStart[l])), 'no placeholder in the shell-filled lines');
+}
+
+console.log('[E] the page prose cites only rounds the activity shows');
+{
+  /* every number the English prose quotes as an example must exist in the round data (the #21 lesson) */
+  const en = (JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'messages', 'activity-content', 'en.json'), 'utf8')).prose || {})[ID];
+  is(!!en, 'the English page prose exists');
+  if (en) {
+    const nums = new Set([].concat(...C.LEVELS.map(l => C.rounds(l, '__PFX__'))).flatMap(r => [r.target].concat(r.options)).map(String));
+    const cited = [...JSON.stringify(en).matchAll(/(?<!between |from |to |up to )\b(\d+)\b/g)].map(m => m[1]).filter(n => !['1', '10', '5', '6', '11'].includes(n));
+    for (const c of cited) is(nums.has(c), `the prose number ${c} appears in a round`);
+  }
+}
+
+console.log(`\nverify-__KEY__-core: ${PASS} pass, ${FAIL} fail`);
+process.exit(FAIL ? 1 : 0);

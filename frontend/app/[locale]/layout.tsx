@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { displayCode } from '@/lib/frameworks';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n/request';
@@ -101,7 +102,7 @@ export default async function LocaleLayout({
       const slug = row.slug[locale];
       const title = row.page_title[locale];
       if (slug && title) {
-        availableActivities.push({ id: row.id, slug, title, code: row.alignment.code });
+        availableActivities.push({ id: row.id, slug, title, code: displayCode(row.alignment) });
       }
       // ⚠ STOP AT WHAT THE NAV RENDERS. The dropdown slices to
       // ACTIVITIES_NAV_COUNT, but this array is serialised into the RSC flight

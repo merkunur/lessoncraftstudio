@@ -29,6 +29,46 @@
  */
 
 export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
+  /* ── the worksheet→activity coverage plan (2026-10-17): strands outside Common Core (lib/frameworks.ts). Native-checked per locale at the first build that uses each. ── */
+  'Health & Safety': {
+    en: 'Health & Safety',
+    de: 'Gesundheit und Sicherheit',
+    es: 'Vida saludable',
+    fr: 'Santé et sécurité',
+    it: 'Salute e sicurezza',
+    pt: 'Saúde e segurança',
+    nl: 'Gezondheid en veiligheid',
+    sv: 'Hälsa och säkerhet',
+    da: 'Sundhed og sikkerhed',
+    no: 'Helse og sikkerhet',
+    fi: 'Terveys ja turvallisuus',
+  },
+  'Social-Emotional Learning': {
+    en: 'Social-Emotional Learning',
+    de: 'Soziales Lernen',
+    es: 'Educación socioemocional',
+    fr: 'Compétences psychosociales',
+    it: 'Educazione socio-emotiva',
+    pt: 'Competências socioemocionais',
+    nl: 'Sociaal-emotionele ontwikkeling',
+    sv: 'Social och emotionell förmåga',
+    da: 'Sociale og emotionelle kompetencer',
+    no: 'Sosial og emosjonell læring',
+    fi: 'Tunne- ja vuorovaikutustaidot',
+  },
+  'Logic & Visual Thinking': {
+    en: 'Logic & Visual Thinking',
+    de: 'Logisches Denken',
+    es: 'Pensamiento lógico',
+    fr: 'Raisonnement logique',
+    it: 'Logica e pensiero visivo',
+    pt: 'Raciocínio lógico',
+    nl: 'Logisch denken',
+    sv: 'Logiskt tänkande',
+    da: 'Logisk tænkning',
+    no: 'Logisk tenkning',
+    fi: 'Looginen päättely',
+  },
   'Counting & Cardinality': {
     en: 'Counting & Cardinality',
     de: 'Zählen und Mengen',

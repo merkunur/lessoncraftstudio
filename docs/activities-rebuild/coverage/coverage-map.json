@@ -1,0 +1,5385 @@
+{
+  "generated": "2026-10-17",
+  "note": "Every worksheet type → one teaching point → existing activities (covered) or a planned new instrument (backlog num). Regenerated only by hand-editing; checked by scripts/audit-activity-coverage.js.",
+  "points": [
+    {
+      "tp": "K:count-how-many",
+      "grade": "K",
+      "skill": "Count a set (scattered, framed, in an array) and name / write / match the number, to 10–20",
+      "code": "K.CC.B.5",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-002",
+        "K-004",
+        "K-006",
+        "K-007",
+        "K-024",
+        "K-027",
+        "K-343"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.how-many.0-10.animals",
+        "choice-board.how-many-group.k-c-c-b-5",
+        "ten-frame.write-numeral.0-20.fruits",
+        "rivets-number-forge.numeral-album.k-cc-a-3"
+      ],
+      "planned": [],
+      "note": "The Counting Table (#14), Peek Window (#11), Fruit Crates (#7) and Jar Label (#6) count a set and name or write its number; array counting (K-027) is a structured layout of the same act. K-343 (count the family on ten-frames) is the same skill on personal content."
+    },
+    {
+      "tp": "K:count-out-n",
+      "grade": "K",
+      "skill": "Make a set of a given number (fill the frame, colour exactly N)",
+      "code": "K.CC.B.5",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-005",
+        "K-011"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.count-to-10.make-n.animals",
+        "mochi-feast.count-out.k-cc-b-5",
+        "mamas-roll-call.numeral-trace.k-cc-b-5"
+      ],
+      "planned": [],
+      "note": "Animal Train (#9), Treat Box (#13) and Roll Book (#12) all count OUT a given number."
+    },
+    {
+      "tp": "K:one-to-one",
+      "grade": "K",
+      "skill": "One-to-one correspondence: give each one a partner",
+      "code": "K.CC.B.4.a",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-012"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.which-more.k-c-c-6",
+        "twinsies.count-twin.k-cc-b-5"
+      ],
+      "planned": [],
+      "note": "Partner Bows (#17) has the child make every pair; Twin Pools (#15) ties strings one for one."
+    },
+    {
+      "tp": "K:compare-groups",
+      "grade": "K",
+      "skill": "Compare two groups: more, fewer, equal (incl. comparing the letter counts of two names)",
+      "code": "K.CC.C.6",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-008",
+        "K-009",
+        "K-010",
+        "K-346"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.which-more.k-c-c-6",
+        "friendship-bridge.compare-balance.k-cc-c-6"
+      ],
+      "planned": [],
+      "note": "Partner Bows (#17) and Friendship Bridge (#18) cover more / fewer / same. K-346 (letters in my name vs a friend’s, from all-about-me) is the same comparison on personal content."
+    },
+    {
+      "tp": "K:tally-marks",
+      "grade": "K",
+      "skill": "Represent a count with tally marks (bundles of five) and read a tally back as a number",
+      "code": "K.CC.B.5",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-014",
+        "K-015",
+        "K-025"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        206
+      ],
+      "note": "No activity uses tally marks; the five-bundle (four strokes and a crossing fifth) is a representation of its own, read by fives-and-ones."
+    },
+    {
+      "tp": "K:odd-even-pairing",
+      "grade": "K",
+      "skill": "Odd or even by pairing up: one left over means odd",
+      "code": "2.OA.C.3",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-016"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.even-odd.2-oa-c-3"
+      ],
+      "planned": [],
+      "note": "The existing even/odd row is a grade-2 numeral tap; the K sheet teaches the pairing STRATEGY (the leftover). Recommendation: when choice-board.even-odd reaches its ORDER rebuild, build it as a NEW pairing instrument (objects pair off two by two; the leftover one is the verdict) with a \"pictures up to 10\" setting for K. Not proposed separately here, to avoid two pairing instruments. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md."
+    },
+    {
+      "tp": "K:subitize",
+      "grade": "K",
+      "skill": "Subitize: recognise small quantities and dot / dice / frame arrangements at a glance",
+      "code": "K.CC.B.5",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-017",
+        "K-018"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.how-many-group.k-c-c-b-5"
+      ],
+      "planned": [],
+      "note": "The Peek Window (#11, \"the window that shows then hides\") is a subitizing instrument with dice faces, five-and-some and pairs."
+    },
+    {
+      "tp": "K:count-forward-missing",
+      "grade": "K",
+      "skill": "Fill missing numbers in a count-along strip to 10 / 20 (count forward)",
+      "code": "K.CC.A.2",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-019",
+        "K-020"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.next-number.k-cc-a-2",
+        "star-stitcher.connect-sequence.k-cc-a-2"
+      ],
+      "planned": [],
+      "note": "Peek Path (#2) and Constellation Thread (#3) count forward from a given number to 20."
+    },
+    {
+      "tp": "K:before-after-back",
+      "grade": "K",
+      "skill": "Name the number before / after / between, and count backward from 10",
+      "code": "K.CC.A.2",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-021",
+        "K-022",
+        "K-023",
+        "K-308"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        205
+      ],
+      "note": "Every existing sequence instrument moves FORWARD only (the Peek Path even hints \"count forward, not back\"). \"Before\", \"between\" and the countdown are the backward direction no activity enacts."
+    },
+    {
+      "tp": "K:dot-to-dot-sequence",
+      "grade": "K",
+      "skill": "Join numbered dots in counting order (1–10, 11–20, count on from 11 to 30)",
+      "code": "K.CC.A.2",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-285",
+        "K-294",
+        "K-295",
+        "K-296"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "star-stitcher.connect-sequence.k-cc-a-2"
+      ],
+      "planned": [],
+      "note": "The Constellation Thread (#3) IS a dot-to-dot whose picture only exists if the count is right (to 20). K-296 runs to 30, past the activity’s 20 ceiling — a \"to 30\" round set would close it, not a new instrument."
+    },
+    {
+      "tp": "K:numeral-formation",
+      "grade": "K",
+      "skill": "Trace and write the numerals 0–9 and 11–20",
+      "code": "K.CC.A.3",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-237",
+        "K-249",
+        "K-250",
+        "K-251",
+        "K-252",
+        "K-253"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "digby-number-trace.numeral-formation.k-cc-a-3",
+        "rivets-number-forge.numeral-album.k-cc-a-3"
+      ],
+      "planned": [],
+      "note": "The Fading Line (#4) traces numerals along a guide; Jar Label (#6) writes 1–20."
+    },
+    {
+      "tp": "K:ordinal-position",
+      "grade": "K",
+      "skill": "Ordinal numbers: find / name the 1st–10th in a line, counting from the marked end (either end)",
+      "code": "K.CC.B.4 (readiness: ordinals)",
+      "strand": "Counting & Cardinality (readiness)",
+      "worksheets": [
+        "K-030",
+        "K-031",
+        "K-320",
+        "K-336"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        207
+      ],
+      "note": "Nothing teaches ordinal position; the two classic slips — counting from the wrong end, and marking three things instead of the third thing — are untouched."
+    },
+    {
+      "tp": "K:estimate",
+      "grade": "K",
+      "skill": "Estimate a quantity, then check by counting",
+      "code": "K.CC.B.5",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-029"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "wondering-jar.estimate-jar.k-cc-b-5"
+      ],
+      "planned": [],
+      "note": "The Bug Jar (#16)."
+    },
+    {
+      "tp": "K:combine-groups",
+      "grade": "K",
+      "skill": "How many altogether: put two groups together and count all",
+      "code": "K.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-028"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.show-the-operation.k-oa-a-1",
+        "ten-frame.solve-the-story.k-oa-a-2"
+      ],
+      "planned": [],
+      "note": "ORDER rows 23–24 (not yet rebuilt) teach putting together on a ten frame."
+    },
+    {
+      "tp": "K:number-bonds-k",
+      "grade": "K",
+      "skill": "Number bonds: decompose numbers to 10 into two parts, find the missing part or the whole, make ten",
+      "code": "K.OA.A.3",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-243",
+        "K-273",
+        "K-274",
+        "K-276",
+        "K-277",
+        "K-414",
+        "K-415",
+        "K-416",
+        "K-417"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "numberbond.make-ten.k-oa-a-4",
+        "chuffer.rail-decompose.k-oa-a-3",
+        "clunks-lost-lunch.make-total.k-oa-a-3",
+        "match-pairs.make-the-number.k-oa-a-3",
+        "numberbond.find-the-total.1-oa-a-1"
+      ],
+      "planned": [],
+      "note": "Make 10 (K.OA.A.4) and three K.OA.A.3 decompose activities; missing-whole (K-276) is the grade-1 Find the Total bond."
+    },
+    {
+      "tp": "K:number-bonds-20",
+      "grade": "K",
+      "skill": "Number bonds to 20",
+      "code": "1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-275"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "numberbond.find-the-total.1-oa-a-1",
+        "ten-stones.add-sub-within-20.1-oa-c-6"
+      ],
+      "planned": [],
+      "note": "A grade-1 skill on a K-filed sheet; grade-1 bond and make-a-ten activities teach it."
+    },
+    {
+      "tp": "K:fact-fluency-colour-code",
+      "grade": "K",
+      "skill": "Add and subtract fluently (within 5 / 10 / 20) — the colour-by-code math sheets",
+      "code": "K.OA.A.5",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-267",
+        "K-268",
+        "K-269"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.quick-facts-to-5.k-oa-a-5",
+        "ten-frame.show-the-operation.k-oa-a-1",
+        "ten-stones.add-sub-within-20.1-oa-c-6"
+      ],
+      "planned": [],
+      "note": "The math is quick facts; the colouring is only the answer channel (and the CBN decks already ship a tap-to-colour screen)."
+    },
+    {
+      "tp": "K:compare-size-extremes",
+      "grade": "K",
+      "skill": "Find the biggest / tallest / longest (and all the big ones) in a row, incl. shapes",
+      "code": "K.MD.A.2",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "K-032",
+        "K-035",
+        "K-037",
+        "K-040",
+        "K-079"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.compare-length.k-md-2",
+        "choice-board.describe-attribute.k-md-a-1"
+      ],
+      "planned": [],
+      "note": "Comparing Length (taller / shorter / longer) and Describe Attributes (ORDER rows 32, 34; not yet rebuilt)."
+    },
+    {
+      "tp": "K:order-by-size",
+      "grade": "K",
+      "skill": "Seriate 3–5 pictures by size or height (smallest → biggest, shortest → tallest)",
+      "code": "K.MD.A.2",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "K-033",
+        "K-034",
+        "K-036"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "seriation.compare-length.1-md-a-1"
+      ],
+      "planned": [
+        208
+      ],
+      "note": "The Faraway Shelf (grade 1) compares ribbon LENGTHS against a cord; ordering 3–5 objects by overall height directly, at K, is missing. The Nesting Pots order NUMERALS, not objects."
+    },
+    {
+      "tp": "K:heavy-light",
+      "grade": "K",
+      "skill": "Compare weight: which is heavier / lighter, knowing that bigger is not always heavier",
+      "code": "K.MD.A.2",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "K-038"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        209
+      ],
+      "note": "Describe Attributes names \"heavy\" as an attribute; nothing compares two weights. Capacity (Bramble) and length are covered, weight is not."
+    },
+    {
+      "tp": "K:same-different-visual",
+      "grade": "K",
+      "skill": "Visual discrimination: find the identical twins, the pairs, and the one that differs (in detail, size or shape)",
+      "code": "readiness: visual discrimination",
+      "strand": "Visual Perception",
+      "worksheets": [
+        "K-039",
+        "K-044",
+        "K-058",
+        "K-062",
+        "K-078",
+        "K-080"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        229
+      ],
+      "note": "No activity trains looking for the EXACT same; the odd-one-out activity that exists is CATEGORY reasoning (Ziggy), not visual identity."
+    },
+    {
+      "tp": "K:category-odd-one-out",
+      "grade": "K",
+      "skill": "Which one does not belong (by category)",
+      "code": "L.K.5.a",
+      "strand": "Language / Vocabulary",
+      "worksheets": [
+        "K-043"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ziggy-odd-one-out.category.l-1-5-a",
+        "mims-baskets.category-sort.l-k-5-a"
+      ],
+      "planned": [],
+      "note": "Ziggy’s Odd One Out teaches exactly this (filed grade 1; comparable level)."
+    },
+    {
+      "tp": "K:patterns",
+      "grade": "K",
+      "skill": "Repeating patterns AB / ABC / AABB by picture, size, position and shape — extend, fill the missing element — and growing patterns",
+      "code": "readiness: patterns (K.OA)",
+      "strand": "Patterning",
+      "worksheets": [
+        "K-046",
+        "K-047",
+        "K-048",
+        "K-049",
+        "K-050",
+        "K-052",
+        "K-053",
+        "K-077"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        226
+      ],
+      "note": "Eight sheets and two deck apps (pattern-train, pattern-worksheet) — and not one activity. The Pattern Bench is a premium tool, not an activity; the activity catalogue has no patterning at all."
+    },
+    {
+      "tp": "K:matrix-logic",
+      "grade": "K",
+      "skill": "Complete a picture grid: each row holds one kind; find the piece that fits the gap",
+      "code": "readiness: visual logic",
+      "strand": "Logical Reasoning",
+      "worksheets": [
+        "K-068"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        225
+      ],
+      "note": "Row / column reasoning (the K root of picture sudoku) has no activity; sudoku and grid-match exist only as deck apps."
+    },
+    {
+      "tp": "K:shadow-closure",
+      "grade": "K",
+      "skill": "Match a picture to its shadow; recognise a whole picture from a part (visual closure)",
+      "code": "readiness: visual discrimination",
+      "strand": "Visual Perception",
+      "worksheets": [
+        "K-057",
+        "K-069"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        227
+      ],
+      "note": "Shadow-match is a deck app; no activity matches outline to object or part to whole."
+    },
+    {
+      "tp": "K:mirror-image",
+      "grade": "K",
+      "skill": "Recognise the mirror image (reflection) of a picture",
+      "code": "readiness: reflection (K.G)",
+      "strand": "Geometry / Visual Perception",
+      "worksheets": [
+        "K-063"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        228
+      ],
+      "note": "Reflection is not taught anywhere; children confuse a mirror image with the same picture or a turned one."
+    },
+    {
+      "tp": "K:scene-search",
+      "grade": "K",
+      "skill": "Search a busy scene for every one like the target (pictures, shapes; the shape of everyday objects)",
+      "code": "K.G.A.1",
+      "strand": "Visual Perception / Geometry",
+      "worksheets": [
+        "K-059",
+        "K-070",
+        "K-371"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        230
+      ],
+      "note": "Systematic search (not missing any, not marking twice) and finding shapes in real objects have no activity; find-objects / find-and-count are deck apps."
+    },
+    {
+      "tp": "K:classify-count-kinds",
+      "grade": "K",
+      "skill": "Count each kind in a mixed scene (classify, then count)",
+      "code": "K.MD.B.3",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "K-013",
+        "K-060"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.sort-count.k-md-b-3"
+      ],
+      "planned": [],
+      "note": "Sort and Count (ORDER row 35)."
+    },
+    {
+      "tp": "K:spot-the-difference",
+      "grade": "K",
+      "skill": "Compare two pictures and find what changed / what is missing",
+      "code": "readiness: visual discrimination",
+      "strand": "Visual Perception",
+      "worksheets": [
+        "K-061",
+        "K-395",
+        "K-397",
+        "K-398",
+        "K-399",
+        "K-400"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Already interactive: the b7 find-the-differences decks (242 + the 2,244-deck level set) each ship a tap-the-differences screen with a key; an activity would duplicate that screen. Careful visual comparison is also trained by the proposed pairing-pegs."
+    },
+    {
+      "tp": "K:position-words",
+      "grade": "K",
+      "skill": "Position words: on / under / beside, left / right, top / middle / bottom, inside / outside",
+      "code": "K.G.A.1",
+      "strand": "Geometry",
+      "worksheets": [
+        "K-064",
+        "K-065",
+        "K-066",
+        "K-067"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "parking-tower.place-by-relation.k-g-a-1"
+      ],
+      "planned": [
+        211
+      ],
+      "note": "The Parking Tower covers above / below / between (its floors give top / middle / bottom); on, under, beside, inside, outside and left / right are missing."
+    },
+    {
+      "tp": "K:shape-naming",
+      "grade": "K",
+      "skill": "Name 2D shapes in any orientation or proportion; follow a shape-coded key; count triangles and squares in a figure",
+      "code": "K.G.A.2",
+      "strand": "Geometry",
+      "worksheets": [
+        "K-368",
+        "K-241",
+        "K-265",
+        "K-359"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "pip-museum.curate-wing.k-g-a-2",
+        "choice-board.shape-id.k-g-a-2"
+      ],
+      "planned": [],
+      "note": "Professor Pip’s Museum names shapes any way they turn; colour-by-shape-code is shape identification with a colouring answer channel."
+    },
+    {
+      "tp": "K:count-sides",
+      "grade": "K",
+      "skill": "Count the sides of a shape; sort shapes by number of sides",
+      "code": "K.G.B.4",
+      "strand": "Geometry",
+      "worksheets": [
+        "K-075",
+        "K-076"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.count-sides.k-g-b-4",
+        "sort-bins.sort-by-sides.2-g-a-1"
+      ],
+      "planned": [],
+      "note": "Count the Sides (K) + Sort by Sides."
+    },
+    {
+      "tp": "K:compose-shapes",
+      "grade": "K",
+      "skill": "Compose shapes from pieces (tangram figures; where two or three pieces meet)",
+      "code": "K.G.B.6",
+      "strand": "Geometry",
+      "worksheets": [
+        "K-353",
+        "K-358"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "shapeforge.compose.1-g-a-2"
+      ],
+      "planned": [],
+      "note": "Mim’s Glow Workshop fills a blank silhouette with pieces (filed grade 1; the K tangram is the same act with fewer pieces). A \"2–3 pieces\" round set would fit K exactly."
+    },
+    {
+      "tp": "K:draw-shapes",
+      "grade": "K",
+      "skill": "Draw / build named shapes on dot paper (sides and corners)",
+      "code": "K.G.B.5",
+      "strand": "Geometry",
+      "worksheets": [
+        "K-372"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        212
+      ],
+      "note": "Every shape activity NAMES or SORTS ready-made shapes; none has the child BUILD one from sides and corners."
+    },
+    {
+      "tp": "K:birds-eye-view",
+      "grade": "K",
+      "skill": "Match a side view to the view from above (the first map skill)",
+      "code": "SS:maps",
+      "strand": "Social Studies / Spatial",
+      "worksheets": [
+        "K-377"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        244
+      ],
+      "note": "No map or perspective activity exists."
+    },
+    {
+      "tp": "K:grid-copy",
+      "grade": "K",
+      "skill": "Copy a picture square by square onto an empty grid (with and without letter–number labels)",
+      "code": "readiness: spatial (K.G)",
+      "strand": "Spatial Reasoning",
+      "worksheets": [
+        "K-286",
+        "K-298",
+        "K-299",
+        "K-300"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        224
+      ],
+      "note": "Grid copying / first coordinates has no activity."
+    },
+    {
+      "tp": "K:pre-writing-strokes",
+      "grade": "K",
+      "skill": "Pre-writing strokes: lines, slants, zigzags, waves, loops, spirals, shapes, picture-to-picture paths",
+      "code": "readiness: fine motor",
+      "strand": "Fine Motor & Pre-Writing",
+      "worksheets": [
+        "K-236",
+        "K-244",
+        "K-245",
+        "K-246",
+        "K-247",
+        "K-248",
+        "K-385",
+        "K-386",
+        "K-387"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        222
+      ],
+      "note": "The Fading Line and the letter traces form numerals and letters; the strokes that come BEFORE letters (the pencil control itself) have no activity."
+    },
+    {
+      "tp": "K:letter-formation",
+      "grade": "K",
+      "skill": "Trace capital and lowercase letters A–Z",
+      "code": "L.K.1.a",
+      "strand": "Handwriting & Letter Formation",
+      "worksheets": [
+        "K-238",
+        "K-254",
+        "K-255",
+        "K-256",
+        "K-257",
+        "K-258",
+        "K-278",
+        "K-279",
+        "K-280",
+        "K-281",
+        "K-282",
+        "K-283"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "penny-alphabet-trace.letter-formation.l-k-1-a",
+        "snippy.letter-formation.l-k-1-a"
+      ],
+      "planned": [],
+      "note": "Penny’s Alphabet Trace and Snippy’s Letter Trace."
+    },
+    {
+      "tp": "K:word-sentence-tracing",
+      "grade": "K",
+      "skill": "Trace and copy whole words (first words, long words, capitals, sight words) and short sentences, left to right with spaces between words",
+      "code": "L.K.1.a",
+      "strand": "Handwriting / Foundational Skills",
+      "worksheets": [
+        "K-239",
+        "K-259",
+        "K-260",
+        "K-261",
+        "K-262",
+        "K-263",
+        "K-284",
+        "K-289",
+        "K-290",
+        "K-291",
+        "K-310",
+        "K-311",
+        "K-315",
+        "K-388",
+        "K-391"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "penny-alphabet-trace.letter-formation.l-k-1-a",
+        "snippy.letter-formation.l-k-1-a"
+      ],
+      "planned": [
+        218
+      ],
+      "note": "Letters are traced one at a time; nothing teaches a WORD as a left-to-right run of letters, or the space between words in a sentence."
+    },
+    {
+      "tp": "K:sight-words-reading",
+      "grade": "K",
+      "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+      "code": "RF.K.3.c",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-389",
+        "K-390",
+        "K-392"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.read-sight-word.rf-k-3-c",
+        "choice-board.tell-words-apart.rf-k-3-c"
+      ],
+      "planned": [],
+      "note": "Read Common Sight Words + Tell the Words Apart. K-392 (colour every box with the word) is also served by the proposed search-lens \"words\" setting."
+    },
+    {
+      "tp": "K:beginning-sounds",
+      "grade": "K",
+      "skill": "Identify and sort by the beginning sound (letter of the week, m or n)",
+      "code": "RF.K.3.a",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-221",
+        "K-228",
+        "K-317",
+        "K-328"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.beginning-sound.rf-k-3-a"
+      ],
+      "planned": [],
+      "note": "Beginning Sounds (ORDER row not yet rebuilt)."
+    },
+    {
+      "tp": "K:sound-position",
+      "grade": "K",
+      "skill": "Hear a sound at the beginning, middle or end; ending sounds; the middle vowel",
+      "code": "RF.K.2.d",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "K-226",
+        "K-227",
+        "K-325",
+        "K-326"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sound-boxes.phoneme-position.rf-k-2-d"
+      ],
+      "planned": [],
+      "note": "Coco’s Sound Boxes: first, middle and last sounds."
+    },
+    {
+      "tp": "K:segment-phonemes",
+      "grade": "K",
+      "skill": "Segment a word into its sounds — one sound per box, count the sounds, two letters for one sound share one box",
+      "code": "RF.K.2.d",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "K-318",
+        "K-329",
+        "K-330"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "sound-boxes.phoneme-position.rf-k-2-d",
+        "cvc-builder.build-cvc-word.rf-k-3"
+      ],
+      "planned": [
+        214
+      ],
+      "note": "Coco’s Sound Boxes asks WHERE a sound is; the CVC builder spells three letters. Neither has the child push one token per sound (Elkonin) and count them, nor shows two letters sharing one sound."
+    },
+    {
+      "tp": "K:letter-case",
+      "grade": "K",
+      "skill": "Match capital and small letters",
+      "code": "RF.K.1.d",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-222"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.letter-case.rf-k-1-d"
+      ],
+      "planned": [],
+      "note": "Match Uppercase and Lowercase Letters."
+    },
+    {
+      "tp": "K:letter-identification",
+      "grade": "K",
+      "skill": "Find every copy of a letter among look-alikes (b / d / p / q); circle and count a letter inside words",
+      "code": "RF.K.1.d",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-229",
+        "K-327"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "choice-board.letter-case.rf-k-1-d"
+      ],
+      "planned": [
+        230
+      ],
+      "note": "Letter-case matching pairs two forms of one letter; picking a letter out of its mirror-twins and out of words is a search the catalogue lacks."
+    },
+    {
+      "tp": "K:alphabet-order",
+      "grade": "K",
+      "skill": "Alphabetical order: fill the missing letters, join dots a to t",
+      "code": "RF.K.1.d",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-223",
+        "K-309"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        213
+      ],
+      "note": "No activity teaches the order of the alphabet (alphabet-train is a deck app)."
+    },
+    {
+      "tp": "K:cvc-build",
+      "grade": "K",
+      "skill": "Build / complete CVC words from letters",
+      "code": "RF.K.3",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-224",
+        "K-231"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "cvc-builder.build-cvc-word.rf-k-3"
+      ],
+      "planned": [],
+      "note": "Build the CVC Word."
+    },
+    {
+      "tp": "K:word-picture-match",
+      "grade": "K",
+      "skill": "Match a word to the picture it names (picture-word cards, memory pairs)",
+      "code": "RF.K.3",
+      "strand": "Foundational Skills / Vocabulary",
+      "worksheets": [
+        "K-225",
+        "K-324",
+        "K-347"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.read-cvc-word.rf-k-3",
+        "bingo-word-hunt.read-match.rf-k-3-d"
+      ],
+      "planned": [],
+      "note": "Read the Word, Tap the Picture + Bingo’s Word Hunt."
+    },
+    {
+      "tp": "K:vowels-consonants",
+      "grade": "K",
+      "skill": "Tell vowels from consonants",
+      "code": "RF.K.3.b",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-230"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        216
+      ],
+      "note": "Nothing names vowels as a class of letters."
+    },
+    {
+      "tp": "K:rhyme",
+      "grade": "K",
+      "skill": "Hear rhymes: rhyming pairs, rhyme or not",
+      "code": "RF.K.2.a",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "K-232",
+        "K-352"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "rhyme-shop.rhyme.rf-k-2-a"
+      ],
+      "planned": [],
+      "note": "Rosa Raccoon’s Rhyme Wagon."
+    },
+    {
+      "tp": "K:count-syllables",
+      "grade": "K",
+      "skill": "Count the syllables in a word; sort pictures by syllable count",
+      "code": "RF.K.2.b",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "K-233",
+        "K-234"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "syllable-builder.build-words-from-syllables.rf-k-2-b"
+      ],
+      "planned": [
+        215
+      ],
+      "note": "The Syllable Builder BLENDS given syllables into a word; clapping out and counting the syllables of a picture word is the other half of RF.K.2.b and is missing."
+    },
+    {
+      "tp": "K:digraphs-k",
+      "grade": "K",
+      "skill": "Hear the digraph (sh / ch) at the start of a word",
+      "code": "RF.K.3",
+      "strand": "Foundational Skills",
+      "worksheets": [
+        "K-378"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "cvc-builder.build-blend-word.rf-1-3"
+      ],
+      "planned": [],
+      "note": "Build Blend and Digraph Words (grade 1) teaches digraph words; the K face is a listening sort on the same content."
+    },
+    {
+      "tp": "K:singular-plural",
+      "grade": "K",
+      "skill": "One and many: singular and plural nouns",
+      "code": "L.K.1.c",
+      "strand": "Language",
+      "worksheets": [
+        "K-287",
+        "K-302",
+        "K-303",
+        "K-313",
+        "K-314",
+        "K-316",
+        "K-349"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "daisy-plate-stack.plurals.l-k-1-c"
+      ],
+      "planned": [],
+      "note": "Daisy’s Plate Stack."
+    },
+    {
+      "tp": "K:articles",
+      "grade": "K",
+      "skill": "Choose the article for a noun (en a / an; de der / die / das; fr le / la …)",
+      "code": "L.1.1.h (readiness)",
+      "strand": "Language",
+      "worksheets": [
+        "K-288",
+        "K-306",
+        "K-307",
+        "K-348"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        217
+      ],
+      "note": "No activity teaches articles in any locale."
+    },
+    {
+      "tp": "K:opposites",
+      "grade": "K",
+      "skill": "Match opposites with pictures",
+      "code": "L.K.5.b",
+      "strand": "Language",
+      "worksheets": [
+        "K-351"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "opposites.antonyms.k-l-5-b"
+      ],
+      "planned": [],
+      "note": "Quill’s Mirror Market."
+    },
+    {
+      "tp": "K:category-sort",
+      "grade": "K",
+      "skill": "Sort pictures into two or more groups by category (incl. cut-and-paste sorts)",
+      "code": "L.K.5.a",
+      "strand": "Language / Vocabulary",
+      "worksheets": [
+        "K-042",
+        "K-235",
+        "K-240",
+        "K-264"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "mims-baskets.category-sort.l-k-5-a"
+      ],
+      "planned": [],
+      "note": "Mim’s Memory Baskets."
+    },
+    {
+      "tp": "K:feelings",
+      "grade": "K",
+      "skill": "Recognise feelings in faces, match face to feeling word, comfortable vs uncomfortable feelings, name how I feel",
+      "code": "SEL",
+      "strand": "Social-Emotional Learning",
+      "worksheets": [
+        "K-319",
+        "K-331",
+        "K-332",
+        "K-333",
+        "K-334",
+        "K-335"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        246
+      ],
+      "note": "No SEL activity exists."
+    },
+    {
+      "tp": "K:days-of-week",
+      "grade": "K",
+      "skill": "Days of the week in order; fill the missing days",
+      "code": "SS:calendar",
+      "strand": "Days and Months",
+      "worksheets": [
+        "K-321",
+        "K-337"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        210
+      ],
+      "note": "No calendar activity."
+    },
+    {
+      "tp": "K:seasons",
+      "grade": "K",
+      "skill": "The four seasons: sort pictures and clothes by season, the seasons in order (the cycle), what does not belong, a tree through the year",
+      "code": "NGSS:K-ESS2-1",
+      "strand": "Science — Seasons",
+      "worksheets": [
+        "K-207",
+        "K-322",
+        "K-338",
+        "K-339",
+        "K-340",
+        "K-341"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        238
+      ],
+      "note": "No seasons activity."
+    },
+    {
+      "tp": "K:weather-temperature",
+      "grade": "K",
+      "skill": "Weather symbols and words; a week of weather; cold / warm / hot on a thermometer; hot and cold things",
+      "code": "NGSS:K-ESS2-1",
+      "strand": "Science — Weather",
+      "worksheets": [
+        "K-211",
+        "K-356",
+        "K-364",
+        "K-365"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        239
+      ],
+      "note": "No weather activity."
+    },
+    {
+      "tp": "K:day-night",
+      "grade": "K",
+      "skill": "Day and night: what belongs to the day sky and to the night",
+      "code": "NGSS:1-ESS1-1 (readiness)",
+      "strand": "Science — Sky",
+      "worksheets": [
+        "K-208"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        239
+      ],
+      "note": "No sky activity. Served by the weather-window \"sky\" setting (the same window, a sun / moon dial) but kept a separate teaching point."
+    },
+    {
+      "tp": "K:story-sequencing",
+      "grade": "K",
+      "skill": "Put story pictures in order (first, next, last)",
+      "code": "RL.K.2",
+      "strand": "Reading: Literature",
+      "worksheets": [
+        "K-379",
+        "K-381"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "wake-up-pip.retell-story.rl-k-2",
+        "story-spine.role.rl-k-3"
+      ],
+      "planned": [],
+      "note": "Wake Up, Pip! retells a story in order; Dot’s Story Spine names start / trouble / fix. NOTE: id \"c\" in types-K.txt is K-379-story-sequencing (the dump regex mis-read its id)."
+    },
+    {
+      "tp": "K:hygiene-habits",
+      "grade": "K",
+      "skill": "Healthy habits: hand-washing steps in order; which tool for which body-care job (toothbrush, soap, comb, tissue)",
+      "code": "HEALTH",
+      "strand": "Health",
+      "worksheets": [
+        "K-380",
+        "K-382"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        220
+      ],
+      "note": "No health activity."
+    },
+    {
+      "tp": "K:road-safety",
+      "grade": "K",
+      "skill": "Read the traffic light / pedestrian signal and cross the road in the right steps (stop, look, listen, cross)",
+      "code": "SS:road-safety",
+      "strand": "Road Safety",
+      "worksheets": [
+        "K-369",
+        "K-373",
+        "K-374"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        223
+      ],
+      "note": "No safety activity."
+    },
+    {
+      "tp": "K:five-senses",
+      "grade": "K",
+      "skill": "The five senses: which body part we use for each experience",
+      "code": "NGSS:K-LS1 (readiness: senses)",
+      "strand": "Science — Five Senses",
+      "worksheets": [
+        "K-355"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        232
+      ],
+      "note": "No senses activity."
+    },
+    {
+      "tp": "K:human-body",
+      "grade": "K",
+      "skill": "Parts of the body: name and label them, how many of each, which come in twos, what is missing",
+      "code": "NGSS:K-LS1 (readiness: body)",
+      "strand": "Science — Human Body",
+      "worksheets": [
+        "K-354",
+        "K-360",
+        "K-361",
+        "K-362",
+        "K-363",
+        "K-344"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        219
+      ],
+      "note": "No body activity. K-344 (label the face, from all-about-me) is the same labelling skill on the face."
+    },
+    {
+      "tp": "K:living-nonliving",
+      "grade": "K",
+      "skill": "Living and non-living things",
+      "code": "NGSS:K-LS1-1",
+      "strand": "Science — Life",
+      "worksheets": [
+        "K-201"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        242
+      ],
+      "note": "No life-science activity."
+    },
+    {
+      "tp": "K:natural-made",
+      "grade": "K",
+      "skill": "Natural or made by people",
+      "code": "NGSS:K-2-ETS (readiness: materials)",
+      "strand": "Science — Materials",
+      "worksheets": [
+        "K-214"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        234
+      ],
+      "note": "No materials activity."
+    },
+    {
+      "tp": "K:fruit-vegetable",
+      "grade": "K",
+      "skill": "Fruits and vegetables (which part of the plant we eat)",
+      "code": "NGSS:K-LS1 (readiness: plants)",
+      "strand": "Science / Health",
+      "worksheets": [
+        "K-202"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "mims-baskets.category-sort.l-k-5-a"
+      ],
+      "planned": [
+        231
+      ],
+      "note": "Mim’s Baskets sorts foods with foods; the fruit / vegetable distinction (and why) is not taught."
+    },
+    {
+      "tp": "K:healthy-food",
+      "grade": "K",
+      "skill": "Everyday foods and sometimes foods",
+      "code": "HEALTH",
+      "strand": "Health — Nutrition",
+      "worksheets": [
+        "K-203"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        221
+      ],
+      "note": "No nutrition activity."
+    },
+    {
+      "tp": "K:animal-groups-homes",
+      "grade": "K",
+      "skill": "Pets, farm and wild animals; where animals live (animal homes)",
+      "code": "NGSS:K-ESS3-1",
+      "strand": "Science — Animals & Habitats",
+      "worksheets": [
+        "K-204",
+        "K-209",
+        "K-383"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        240
+      ],
+      "note": "No habitat activity at K."
+    },
+    {
+      "tp": "K:animal-babies",
+      "grade": "K",
+      "skill": "Animal babies and their parents (alike and different)",
+      "code": "NGSS:1-LS3-1 (readiness)",
+      "strand": "Science — Animals",
+      "worksheets": [
+        "K-205"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        233
+      ],
+      "note": "No offspring / life-cycle activity."
+    },
+    {
+      "tp": "K:transport-flying",
+      "grade": "K",
+      "skill": "Land, water and air transport; things that fly",
+      "code": "SS:transportation",
+      "strand": "Social Studies / Science",
+      "worksheets": [
+        "K-206",
+        "K-210"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        247
+      ],
+      "note": "No transport activity."
+    },
+    {
+      "tp": "K:wants-needs",
+      "grade": "K",
+      "skill": "Wants and needs",
+      "code": "SS:economics",
+      "strand": "Social Studies",
+      "worksheets": [
+        "K-212"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        245
+      ],
+      "note": "No economics activity."
+    },
+    {
+      "tp": "K:community-helpers",
+      "grade": "K",
+      "skill": "Community helpers and the tools they use",
+      "code": "SS:community",
+      "strand": "Social Studies",
+      "worksheets": [
+        "K-213"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        236
+      ],
+      "note": "No community-helper activity."
+    },
+    {
+      "tp": "K:recycling",
+      "grade": "K",
+      "skill": "Recycling: which bin each finished thing goes in",
+      "code": "NGSS:K-ESS3-3",
+      "strand": "Science — Materials & Recycling",
+      "worksheets": [
+        "K-357",
+        "K-366",
+        "K-367"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        241
+      ],
+      "note": "No recycling activity."
+    },
+    {
+      "tp": "K:plant-needs",
+      "grade": "K",
+      "skill": "What plants need to grow (water and light)",
+      "code": "NGSS:K-LS1-1",
+      "strand": "Science — Plants",
+      "worksheets": [
+        "K-376"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        243
+      ],
+      "note": "No plant-science activity."
+    },
+    {
+      "tp": "K:sink-float",
+      "grade": "K",
+      "skill": "Things that float and things that sink",
+      "code": "NGSS:K-PS (readiness: sink or float)",
+      "strand": "Science — Materials",
+      "worksheets": [
+        "K-384"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        235
+      ],
+      "note": "No sink / float activity."
+    },
+    {
+      "tp": "K:family",
+      "grade": "K",
+      "skill": "Family members and family words (mother, grandfather, brother …) on a family tree",
+      "code": "SS:family",
+      "strand": "Social Studies: Family",
+      "worksheets": [
+        "K-370",
+        "K-375"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        237
+      ],
+      "note": "No family activity. NOTE: id \"ego\" in types-K.txt is K-370-family (the dump regex caught the word \"ego\" in its header comment)."
+    },
+    {
+      "tp": "K:all-about-me-personal",
+      "grade": "K",
+      "skill": "All about me: self-portrait, my favourite things, things I can do (personal expression)",
+      "code": "W.K.2 / SEL",
+      "strand": "Writing / SEL",
+      "worksheets": [
+        "K-323",
+        "K-342",
+        "K-345"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Open-ended personal expression (draw yourself, pick YOUR favourite, tick what YOU can do) has no single right answer, which the activity law requires; the countable faces of the family (K-343, K-346) and the labelling face (K-344) are mapped to their skills."
+    },
+    {
+      "tp": "K:bilingual-cards",
+      "grade": "K",
+      "skill": "Bilingual picture word cards for a word wall",
+      "code": "readiness: bilingual vocabulary",
+      "strand": "Vocabulary",
+      "worksheets": [
+        "K-350"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "A print artefact (cut-out cards in two languages for the classroom wall); the reading skill is covered by word-picture-match, and every activity already ships in 11 locales."
+    },
+    {
+      "tp": "K:how-to-draw",
+      "grade": "K",
+      "skill": "Draw a picture step by step (simple shapes, trace then draw, finish the drawing, draw and write)",
+      "code": "readiness: art / fine motor",
+      "strand": "Art",
+      "worksheets": [
+        "K-396",
+        "K-401",
+        "K-402",
+        "K-403",
+        "K-404"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Free drawing has no checkable answer and no drawing recognition is available; the pencil control it practises is covered by the proposed pencil-path, shape composing by shapeforge."
+    },
+    {
+      "tp": "K:colour-by-number",
+      "grade": "K",
+      "skill": "Colour by number / colour pictures and scenes by a numeral key",
+      "code": "K.CC.A.3",
+      "strand": "Fine motor / numeral recognition",
+      "worksheets": [
+        "K-266",
+        "K-393",
+        "K-394"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Already interactive: the CBN decks (2,200 + b7) ship a tap-to-colour screen with a key. Numeral recognition itself is covered by Letterbox Street / Jar Label."
+    },
+    {
+      "tp": "K:mazes",
+      "grade": "K",
+      "skill": "Mazes and handmade picture mazes (incl. ABC, lowercase, numbers 1–20, beginning-sound and babies-and-mothers routes, maze colouring)",
+      "code": "readiness: spatial / pencil control",
+      "strand": "Visual Perception & Pencil Control",
+      "worksheets": [
+        "K-242",
+        "K-270",
+        "K-271",
+        "K-272",
+        "K-405",
+        "K-406",
+        "K-407",
+        "K-408",
+        "K-409",
+        "K-410",
+        "K-411",
+        "K-412",
+        "K-413"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Already interactive: every maze deck (b8 maze-puzzles, mzl level set) ships a trace-path \"draw the way\" screen with a key. The content inside the themed faces is covered by its own skill: alphabet order (alphabet-lockers), numbers to 20 (constellation), beginning sounds (choice-board.beginning-sound), mothers and babies (mother-and-baby)."
+    },
+    {
+      "tp": "1:add-within-10-models",
+      "grade": "1",
+      "skill": "Add two groups within 10-12 using a picture, ten-frame, domino or dice model",
+      "code": "K.OA.A.2 / 1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-101",
+        "G1-102",
+        "G1-105",
+        "G1-110",
+        "G1-111"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.show-the-operation.k-oa-a-1",
+        "numberbond.find-the-total.1-oa-a-1",
+        "ten-frame.quick-facts-to-5.k-oa-a-5"
+      ],
+      "planned": [],
+      "note": "Join-two-groups with a model is taught by the ten-frame operation activity and the find-the-total bond (within 20). Domino/dice faces are a subitising dress of the same skill."
+    },
+    {
+      "tp": "1:subtract-cross-out",
+      "grade": "1",
+      "skill": "Subtract within 10 by crossing out (take-away) a picture model",
+      "code": "K.OA.A.2 / 1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-103",
+        "G1-104"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-frame.show-the-operation.k-oa-a-1",
+        "ten-frame.solve-the-story.k-oa-a-2"
+      ],
+      "planned": [],
+      "note": "Take-away on a ten frame is the same model as crossing out pictures."
+    },
+    {
+      "tp": "1:make-10",
+      "grade": "1",
+      "skill": "Find the partner that makes 10 (number bonds to 10)",
+      "code": "K.OA.A.4 / 1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-106",
+        "G1-427"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "numberbond.make-ten.k-oa-a-4",
+        "numberbond.make-ten-to-add.1-oa-c-6"
+      ],
+      "planned": [],
+      "note": "G1-427 is the make-10 maze (pairs that make 10 open the way): same skill; the maze dress already has the deck trace screen."
+    },
+    {
+      "tp": "1:add-three-addends",
+      "grade": "1",
+      "skill": "Add three groups / three numbers",
+      "code": "1.OA.A.2",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-112"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "numberbond.add-three.1-oa-a-2",
+        "tally-squirrel.add-four.2-nbt-b-6"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:fact-families",
+      "grade": "1",
+      "skill": "Use three related numbers to write the four facts of a fact family (addition and subtraction are inverse)",
+      "code": "1.OA.B.4 / 1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-113",
+        "G1-209",
+        "G1-219",
+        "G1-220",
+        "G1-221",
+        "G1-222"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "numberbond.subtraction-unknown-addend.1-oa-b-4",
+        "match-pairs.add-it-both-ways.1-oa-b-3",
+        "match-pairs.addition-and-subtraction-pairs.1-oa-d-7"
+      ],
+      "planned": [
+        248
+      ],
+      "note": "Existing activities do commutativity and subtraction-as-unknown-addend one fact at a time; nothing makes the child produce ALL FOUR facts from one whole and two parts, or shows why 3 - 8 cannot be built from them. New instrument."
+    },
+    {
+      "tp": "1:missing-number-equations",
+      "grade": "1",
+      "skill": "Find the unknown in an addition/subtraction equation within 10/20 (pictures or numbers)",
+      "code": "1.OA.D.8",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-115",
+        "G1-215",
+        "G1-218"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "fix-it-corner.missing-part.1-oa-d-8",
+        "sharing-jar.make-fair.1-oa-d-8",
+        "match-pairs.find-the-missing-number.1-oa-d-8",
+        "numberbond.subtraction-unknown-addend.1-oa-b-4"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:fluency-within-20",
+      "grade": "1",
+      "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+      "code": "1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-208",
+        "G1-214",
+        "G1-216",
+        "G1-217",
+        "G1-428"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "ten-stones.add-sub-within-20.1-oa-c-6",
+        "numberbond.make-ten-to-add.1-oa-c-6",
+        "match-pairs.match-facts-to-20.2-oa-b-2",
+        "numbers-court.judge-balance.1-oa-d-7"
+      ],
+      "planned": [],
+      "note": "G1-428 is the subtraction-within-20 maze; the skill is the same."
+    },
+    {
+      "tp": "1:count-on-back-hops",
+      "grade": "1",
+      "skill": "Add and subtract by counting on / back with hops on a number line; count back from 20",
+      "code": "1.OA.C.5",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-116",
+        "G1-117",
+        "G1-118",
+        "G1-119",
+        "G1-294"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "hoppers-number-line.jump-sums.2-md-b-6",
+        "star-stitcher.connect-sequence.k-cc-a-2",
+        "track-repair.count-to-120.1-nbt-a-1"
+      ],
+      "planned": [],
+      "note": "Hopper hops forward to add and back to take away; at its rebuild it must keep a within-20 setting so the grade-1 faces stay covered. G1-294 (dot-to-dot counting back from 20) is the backward count sequence, practised in the back hops."
+    },
+    {
+      "tp": "1:word-problems",
+      "grade": "1",
+      "skill": "Solve add/subtract word problems within 10/20 using pictures",
+      "code": "1.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-213",
+        "G1-238",
+        "G1-239",
+        "G1-240",
+        "G1-241"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "vet-diagnosis.word-problems.1-oa-a-1",
+        "ten-frame.solve-the-story.k-oa-a-2",
+        "numberbond.story-problem.2-oa-a-1"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:number-walls",
+      "grade": "1",
+      "skill": "Number walls: each brick is the sum of the two below; find a missing brick by subtracting; work top-down",
+      "code": "1.OA.C.6 / 1.OA.D.8",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-246",
+        "G1-266",
+        "G1-267",
+        "G1-268",
+        "G1-289"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        250
+      ],
+      "note": "No activity has the additive pyramid structure (sums of adjacent pairs, the inverse to find a missing base brick)."
+    },
+    {
+      "tp": "1:doubles-halves",
+      "grade": "1",
+      "skill": "Doubles and halves of a group / number to 20",
+      "code": "1.OA.C.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-247",
+        "G1-270",
+        "G1-271",
+        "G1-286",
+        "G1-287",
+        "G1-288",
+        "G1-296",
+        "G1-297",
+        "G1-298",
+        "G1-299"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        249
+      ],
+      "note": "Doubles are the named grade-1 fact strategy and no activity doubles or halves a set; fractions.partition-equal-shares halves SHAPES, not quantities."
+    },
+    {
+      "tp": "1:odd-even-pairs",
+      "grade": "1",
+      "skill": "Odd and even: share a group fairly between two / circle in pairs; is anything left over?",
+      "code": "2.OA.C.3 (G1 readiness)",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G1-351",
+        "G1-369",
+        "G1-370"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.even-odd.2-oa-c-3"
+      ],
+      "planned": [],
+      "note": "The existing activity is a numeral quiz (tap even/odd); the grade-1 faces teach WHY: pairing / sharing a set and seeing the one left over. New instrument. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md."
+    },
+    {
+      "tp": "1:tens-and-ones",
+      "grade": "1",
+      "skill": "Read and build two-digit numbers as tens and ones (rods and cubes); expanded form",
+      "code": "1.NBT.B.2 / 2.NBT.A.3",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-120",
+        "G1-121",
+        "G1-122",
+        "G1-133"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value.tens-and-ones.1-nbt-b-2",
+        "bos-berry-pantry.slingshot-tens.1-nbt-b-2",
+        "bundle-bot.bundle-machine.1-nbt-b-2-a",
+        "place-value.expanded-form.2-nbt-a-3"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:number-of-the-day",
+      "grade": "1",
+      "skill": "Represent one number many ways (tens/ones, ten frame, tally, 10 more/less, number words)",
+      "code": "1.NBT.B.2 / 1.NBT.C.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-243",
+        "G1-255",
+        "G1-256",
+        "G1-257"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value.tens-and-ones.1-nbt-b-2",
+        "ten-frame.teen-numbers.make-n",
+        "choice-board.ten-more-less.1-nbt-c-5"
+      ],
+      "planned": [],
+      "note": "Each box on the page is a skill an existing activity teaches; the routine itself (one number, many faces) is a teacher routine served by the Number Talk Easel tool."
+    },
+    {
+      "tp": "1:one-ten-more-less",
+      "grade": "1",
+      "skill": "Find 1 more / 1 less and 10 more / 10 less than a number",
+      "code": "1.NBT.C.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-131",
+        "G1-132"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.ten-more-less.1-nbt-c-5",
+        "choice-board.next-number.k-cc-a-2",
+        "comet-kangaroo.tens-hundreds.2-nbt-b-8"
+      ],
+      "planned": [],
+      "note": "1 less is only implicit in next-number; the hundreds-chart proposal (chart-patches) also enacts +/-1 and +/-10 physically."
+    },
+    {
+      "tp": "1:skip-counting",
+      "grade": "1",
+      "skill": "Skip count by 2s, 5s and 10s, with equal groups (running total) and on a number line whose ticks are worth 5 or 10",
+      "code": "1.NBT.A.1 / 2.NBT.A.2",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-123",
+        "G1-124",
+        "G1-125",
+        "G1-126",
+        "G1-285",
+        "G1-278",
+        "G1-279",
+        "G1-280",
+        "G1-281"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "skipcount.fill.2-nbt-a-2",
+        "posy-egg-cartons.count-tens.k-cc-a-1"
+      ],
+      "planned": [
+        252
+      ],
+      "note": "skipcount hops by 5/10/100 on numerals only and Posy counts tens; counting by 2s is missing, and nothing ties the count-by to equal GROUPS of objects or to reading ticks worth 5 or 10."
+    },
+    {
+      "tp": "1:hundreds-chart",
+      "grade": "1",
+      "skill": "Hundreds-chart structure: missing numbers, puzzle pieces (+1 right, +10 down), find the wrong number, colour a counting pattern",
+      "code": "1.NBT.A.1 / 1.NBT.C.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-129",
+        "G1-130",
+        "G1-310",
+        "G1-347",
+        "G1-348"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        251
+      ],
+      "note": "Track Repair is a number LINE; nothing shows the ten-wide grid where one step down means +10."
+    },
+    {
+      "tp": "1:number-line-placement",
+      "grade": "1",
+      "skill": "Locate / read a number on a number line from the nearest printed number (0-10, 0-20 sparse labels, 0-30, 0-50, 20-40)",
+      "code": "1.NBT.A.1",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-138",
+        "G1-248",
+        "G1-274",
+        "G1-275",
+        "G1-276",
+        "G1-277",
+        "G1-295"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "track-repair.count-to-120.1-nbt-a-1"
+      ],
+      "planned": [],
+      "note": "Track Repair places numbered ties by counting on from anchor stations: the exact skill. Ticks worth 5/10 are in the skip-counting point."
+    },
+    {
+      "tp": "1:compare-order-two-digit",
+      "grade": "1",
+      "skill": "Compare two-digit numbers (and picture groups) with > < =, and order three numbers least-to-greatest / greatest-to-least",
+      "code": "1.NBT.B.3",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-114",
+        "G1-135",
+        "G1-136",
+        "G1-137"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.compare-two-digit.1-nbt-b-3",
+        "nesting-pots.seriate.k-cc-c-7",
+        "friendship-bridge.compare-balance.k-cc-c-6"
+      ],
+      "planned": [],
+      "note": "The existing two-digit compare is a symbol quiz and the Nesting Pots order only 1-10. Missing: ordering two-digit numbers and the TENS-FIRST rule made visible (the 29 > 41 misconception). Fully covered when ORDER row 95 (choice-board.compare-two-digit.1-nbt-b-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/95-ten-rod-drawers.md."
+    },
+    {
+      "tp": "1:number-words",
+      "grade": "1",
+      "skill": "Read and write number words to 20, tens words to 100, words to 50; match numerals to words",
+      "code": "2.NBT.A.3 (G1 readiness)",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-210",
+        "G1-223",
+        "G1-224",
+        "G1-225",
+        "G1-226",
+        "G1-227"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        253
+      ],
+      "note": "No activity reads or builds number names; the morphology (teen vs -ty; de/da/nl ones-before-tens, fr/da vigesimal names) is the real difficulty."
+    },
+    {
+      "tp": "1:measure-length-units",
+      "grade": "1",
+      "skill": "Measure length with unit cubes/squares and order three objects by length",
+      "code": "1.MD.A.1 / 1.MD.A.2",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-139",
+        "G1-140"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "lay-units.measure.1-md-a-2",
+        "seriation.compare-length.1-md-a-1"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:time-read",
+      "grade": "1",
+      "skill": "Tell time to the hour and half hour; match analog to digital",
+      "code": "1.MD.B.3",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-148",
+        "G1-149",
+        "G1-150"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock-digital.read-hour.1-md-b-3",
+        "clock-digital.read-half-hour.1-md-b-3",
+        "clock-read.tell-time.1-md-b-3",
+        "clock-digital.match-clocks.2-md-c-7"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:time-set-hands",
+      "grade": "1",
+      "skill": "Draw (set) the clock hands for o'clock, half past, quarter hours, five minutes, mixed",
+      "code": "1.MD.B.3 / 2.MD.C.7",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-212",
+        "G1-233",
+        "G1-234",
+        "G1-235",
+        "G1-236",
+        "G1-237"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock.set-clock.1-md-b-3",
+        "clock.tell-time-5-min.2-md-c-7"
+      ],
+      "planned": [],
+      "note": "Dragging the hands is the screen form of drawing them."
+    },
+    {
+      "tp": "1:coins",
+      "grade": "1",
+      "skill": "Count coins in a purse (one kind, two kinds, all coins) and compare two purses",
+      "code": "2.MD.C.8 (G1)",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-211",
+        "G1-228",
+        "G1-229",
+        "G1-230",
+        "G1-231",
+        "G1-232"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "coin-stall.money.2-md-c-8",
+        "money.count-out.2-md-c-8"
+      ],
+      "planned": [],
+      "note": "Comparing two purses is counting both totals; at rebuild keep a one-coin-kind first setting for grade 1."
+    },
+    {
+      "tp": "1:bar-graphs",
+      "grade": "1",
+      "skill": "Read a bar graph, find the tallest bar, colour a bar graph from counts",
+      "code": "1.MD.C.4",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-143",
+        "G1-144",
+        "G1-147"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "graph-it.bar-graph.2-md-d-10"
+      ],
+      "planned": [],
+      "note": "Pip's Stacking Fence builds and reads bar graphs for up to four categories; grade 1 is three categories."
+    },
+    {
+      "tp": "1:picture-graphs-sort-count",
+      "grade": "1",
+      "skill": "Sort a mixed set into a table, read a picture graph (one picture per thing), find the most, how many more",
+      "code": "1.MD.C.4",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-141",
+        "G1-142",
+        "G1-146"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "choice-board.sort-count.k-md-b-3",
+        "graph-it.bar-graph.2-md-d-10"
+      ],
+      "planned": [
+        254
+      ],
+      "note": "Sort-and-count stops at a count; the bar graph starts from counts. Missing: organising real objects one per cell into a picture graph and reading the overhang as \"how many more\"."
+    },
+    {
+      "tp": "1:shape-attributes",
+      "grade": "1",
+      "skill": "Name 2D shapes, tell real from not-real by defining attributes, shape riddles",
+      "code": "1.G.A.1 / K.G.A.2",
+      "strand": "Geometry",
+      "worksheets": [
+        "G1-381",
+        "G1-382",
+        "G1-383"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sort-bins.defining-attributes.1-g-a-1",
+        "choice-board.shape-id.k-g-a-2",
+        "pip-museum.curate-wing.k-g-a-2",
+        "choice-board.count-sides.k-g-b-4"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:tangram-compose",
+      "grade": "1",
+      "skill": "Compose figures from tangram pieces; find the missing piece",
+      "code": "1.G.A.2",
+      "strand": "Geometry",
+      "worksheets": [
+        "G1-354",
+        "G1-355"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "shapeforge.compose.1-g-a-2"
+      ],
+      "planned": [],
+      "note": "Mim's Glow Workshop composes shapes from pieces; a tangram-piece setting is worth considering at its rebuild."
+    },
+    {
+      "tp": "1:patterns-missing",
+      "grade": "1",
+      "skill": "Complete a repeating pattern with two missing items",
+      "code": "READINESS:patterns",
+      "strand": "Patterns & Algebraic Readiness",
+      "worksheets": [
+        "G1-155"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        226
+      ],
+      "note": "No activity teaches repeating patterns (Pattern Bench is a tool, not an activity)."
+    },
+    {
+      "tp": "1:picture-analogies",
+      "grade": "1",
+      "skill": "Picture analogies: A is to B as C is to ?",
+      "code": "READINESS:logic",
+      "strand": "Logical Reasoning",
+      "worksheets": [
+        "G1-157"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        259
+      ],
+      "note": "No activity reasons about a relation and transfers it to a new pair."
+    },
+    {
+      "tp": "1:picture-sudoku",
+      "grade": "1",
+      "skill": "4x4 picture sudoku: every row, column and box has each picture once",
+      "code": "READINESS:logic",
+      "strand": "Logical Reasoning",
+      "worksheets": [
+        "G1-158"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        261
+      ],
+      "note": "The sudoku app ships decks, but no activity teaches the constraint reasoning."
+    },
+    {
+      "tp": "1:logic-picture-clues",
+      "grade": "1",
+      "skill": "Logic grid with picture clues (cross out / circle what each child has)",
+      "code": "READINESS:logic",
+      "strand": "Logical Reasoning",
+      "worksheets": [
+        "G1-349"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        260
+      ],
+      "note": "Elimination reasoning is untaught by any activity."
+    },
+    {
+      "tp": "1:sort-three-groups",
+      "grade": "1",
+      "skill": "Sort pictures into three groups",
+      "code": "K.MD.B.3 / L.K.5.a",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G1-160"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "mims-baskets.category-sort.l-k-5-a",
+        "choice-board.sort-count.k-md-b-3",
+        "olive-kind-of.category-attribute.l-1-5-b"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:grid-copy",
+      "grade": "1",
+      "skill": "Copy a picture square by square onto an empty grid (visual-spatial, row/column tracking)",
+      "code": "READINESS:spatial",
+      "strand": "Visual-Spatial",
+      "worksheets": [
+        "G1-416"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        224
+      ],
+      "note": "No activity practises cell-by-cell copying; separate from the freehand drawing faces."
+    },
+    {
+      "tp": "1:how-to-draw",
+      "grade": "1",
+      "skill": "Follow drawing steps, draw a figure in a scene, order drawing steps, copy each step",
+      "code": "ART",
+      "strand": "Art / Fine Motor",
+      "worksheets": [
+        "G1-417",
+        "G1-418",
+        "G1-419"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Freehand drawing with a pencil; the screen has no drawing recognition, and the one transferable part (copying on a grid) is the grid-copy point. Ordering steps (G1-418) is sequencing, practised by the story-sequencing activities."
+    },
+    {
+      "tp": "1:find-the-differences",
+      "grade": "1",
+      "skill": "Visual discrimination: find 7 differences, how many differences, what changed (tick the words), mirror differences",
+      "code": "READINESS:visual",
+      "strand": "Visual Perception",
+      "worksheets": [
+        "G1-412",
+        "G1-413",
+        "G1-414",
+        "G1-415"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Every find-the-differences deck already ships a tap-the-differences screen with an answer key (b7 flagship, interactive printable family); an activity would duplicate it."
+    },
+    {
+      "tp": "1:mazes",
+      "grade": "1",
+      "skill": "Picture mazes: big picture, underground, shortest way in town, tangled lines, collect the carrots, avoid the walruses",
+      "code": "READINESS:spatial",
+      "strand": "Spatial Reasoning",
+      "worksheets": [
+        "G1-420",
+        "G1-421",
+        "G1-422",
+        "G1-423",
+        "G1-424",
+        "G1-425"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Every handmade-maze deck already ships a draw-the-way (trace-path) screen with per-face hints (b8); an activity would duplicate it. The maze faces with a content skill (G1-426 ABC, G1-427 make 10, G1-428 subtraction) are placed under those skills."
+    },
+    {
+      "tp": "1:spell-picture-words",
+      "grade": "1",
+      "skill": "Spell picture words (with first letter, word bank, letter boxes, plain lines)",
+      "code": "L.1.2.e / RF.1.3",
+      "strand": "Language / Phonics",
+      "worksheets": [
+        "G1-244",
+        "G1-258",
+        "G1-259",
+        "G1-260",
+        "G1-291",
+        "G1-301",
+        "G1-303",
+        "G1-304"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "word-clinic.spell-by-ear.l-1-2-e",
+        "cvc-builder.build-cvc-word.rf-k-3",
+        "cvc-builder.build-blend-word.rf-1-3"
+      ],
+      "planned": [],
+      "note": "Letter-tile building is the screen form of writing the word (no handwriting recognition needed)."
+    },
+    {
+      "tp": "1:alphabetical-order",
+      "grade": "1",
+      "skill": "Put words in ABC order by first letter, and by second letter when the first is the same; hop the letters in order",
+      "code": "L.1 (alphabetical order)",
+      "strand": "Language",
+      "worksheets": [
+        "G1-245",
+        "G1-262",
+        "G1-263",
+        "G1-264",
+        "G1-426"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        213
+      ],
+      "note": "No activity orders words alphabetically; the alphabet-train app is preschool letter order only."
+    },
+    {
+      "tp": "1:syllables-split",
+      "grade": "1",
+      "skill": "Clap and split words into syllables, missing syllable, syllable scramble, 2 or 3 syllables, syllable cards",
+      "code": "RF.1.3.e",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-305",
+        "G1-313",
+        "G1-324",
+        "G1-325",
+        "G1-326",
+        "G1-327",
+        "G1-328"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "domino-two-part.two-syllable.rf-1-3-e",
+        "syllable-builder.build-words-from-syllables.rf-k-2-b",
+        "sound-boxes.phoneme-position.rf-k-2-d"
+      ],
+      "planned": [],
+      "note": "G1-313 combines syllables and phonemes; the phoneme half is the phoneme-boxes point."
+    },
+    {
+      "tp": "1:syllable-vowel",
+      "grade": "1",
+      "skill": "Every syllable has a vowel (find the vowel in each syllable)",
+      "code": "RF.1.3.d",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-329"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        255
+      ],
+      "note": "No activity names the rule that makes a syllable split checkable."
+    },
+    {
+      "tp": "1:word-families-syllable-reading",
+      "grade": "1",
+      "skill": "Read word-family / syllable words (carpet), join syllables, words with blends, read syllabified words and find the picture",
+      "code": "RF.1.3.b / RF.1.3.e",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-306",
+        "G1-330",
+        "G1-331",
+        "G1-332",
+        "G1-333",
+        "G1-334"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.read-cvc-word.rf-k-3",
+        "cvc-builder.build-blend-word.rf-1-3",
+        "domino-two-part.two-syllable.rf-1-3-e",
+        "bingo-word-hunt.read-match.rf-k-3-d"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:phoneme-boxes",
+      "grade": "1",
+      "skill": "Segment a word into its sounds (sound boxes) and blend sounds into a word",
+      "code": "RF.1.2.b / RF.1.2.d",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "G1-312",
+        "G1-314"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sound-boxes.phoneme-position.rf-k-2-d",
+        "choice-board.onset-rime-blend.rf-k-2-c",
+        "cvc-builder.build-cvc-word.rf-k-3",
+        "stretch-giraffe.long-short-vowel.rf-1-2-a"
+      ],
+      "planned": [],
+      "note": "At Coco's Sound Boxes rebuild keep a full-segmentation (every box, with blends) setting for grade 1."
+    },
+    {
+      "tp": "1:digraphs",
+      "grade": "1",
+      "skill": "Consonant digraphs sh/ch/th: hear the letter team, write it, read and match, where in the word; sound of the week",
+      "code": "RF.1.3.a",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-311",
+        "G1-380",
+        "G1-392",
+        "G1-393",
+        "G1-394"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "cvc-builder.build-blend-word.rf-1-3",
+        "sound-boxes.phoneme-position.rf-k-2-d",
+        "choice-board.beginning-sound.rf-k-3-a"
+      ],
+      "planned": [],
+      "note": "\"Build Blend and Digraph Words\" builds sh/ch/th words; position is Coco's first/middle/last boxes."
+    },
+    {
+      "tp": "1:rhyming",
+      "grade": "1",
+      "skill": "Hear, sort, finish and produce rhymes",
+      "code": "RF.K.2.a (G1)",
+      "strand": "Phonological Awareness",
+      "worksheets": [
+        "G1-309",
+        "G1-343",
+        "G1-344",
+        "G1-345",
+        "G1-346"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "rhyme-shop.rhyme.rf-k-2-a"
+      ],
+      "planned": [],
+      "note": "Producing your own rhymes (G1-346) is free writing; the hearing/matching skill is covered."
+    },
+    {
+      "tp": "1:unscramble-sentence",
+      "grade": "1",
+      "skill": "Put scrambled words into a sentence with a capital and an end mark",
+      "code": "L.1.1.j / L.1.2.b",
+      "strand": "Language",
+      "worksheets": [
+        "G1-249",
+        "G1-282",
+        "G1-283",
+        "G1-302"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sentence-builder.build-a-sentence.l-1-1-j"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:articles",
+      "grade": "1",
+      "skill": "Sort nouns by the article in front (a/an; der/die/das; en/ett; un/une ...)",
+      "code": "L.1.1 (articles / grammatical gender)",
+      "strand": "Language",
+      "worksheets": [
+        "G1-292"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        217
+      ],
+      "note": "No activity teaches articles; in 10 of the 11 locales this is grammatical gender, a core grade-1 point."
+    },
+    {
+      "tp": "1:word-classes",
+      "grade": "1",
+      "skill": "Nouns vs verbs; nouns vs adjectives",
+      "code": "L.1.1 / L.2.1.e",
+      "strand": "Language",
+      "worksheets": [
+        "G1-293",
+        "G1-300"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "wordclass.adjective-adverb.l-2-1-e"
+      ],
+      "planned": [
+        257
+      ],
+      "note": "Only grade-2 adjectives/adverbs exist; nothing separates nouns from verbs or nouns from adjectives with a test the child can run."
+    },
+    {
+      "tp": "1:opposites",
+      "grade": "1",
+      "skill": "Opposites: write / pair / choose the opposite, opposites in a sentence",
+      "code": "L.1.5 / K.L.5.b",
+      "strand": "Language",
+      "worksheets": [
+        "G1-307",
+        "G1-335",
+        "G1-336",
+        "G1-337"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "opposites.antonyms.k-l-5-b"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:synonyms",
+      "grade": "1",
+      "skill": "Two words, one picture: words that mean the same",
+      "code": "L.1.5 (synonyms)",
+      "strand": "Vocabulary",
+      "worksheets": [
+        "G1-395"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        258
+      ],
+      "note": "Shades of meaning orders near-synonyms by strength; no activity tests SAME meaning."
+    },
+    {
+      "tp": "1:shades-of-meaning",
+      "grade": "1",
+      "skill": "Order words from weakest to strongest",
+      "code": "L.1.5.d",
+      "strand": "Vocabulary",
+      "worksheets": [
+        "G1-396"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "shades.pick.l-1-5-d",
+        "roary-roar-meter.shades.l-2-5-b"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:root-words",
+      "grade": "1",
+      "skill": "Find the word built from a root (picture word)",
+      "code": "L.1.4.c",
+      "strand": "Vocabulary",
+      "worksheets": [
+        "G1-397"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sage-root-garden.roots.l-2-4-c",
+        "syllable-builder.build-endings.rf-1-3-f"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:cloze",
+      "grade": "1",
+      "skill": "Fill the blank in a sentence from a word bank / choose the word / match the sentence to the picture",
+      "code": "RF.1.4.c / L.1.1",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-350",
+        "G1-366",
+        "G1-367",
+        "G1-368"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "mending-basket.mend-page.rf-1-4-a",
+        "fern-clue-garden.context-clues.l-2-4-a",
+        "otto-picture-book.which-picture.rl-k-7"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:pronouns",
+      "grade": "1",
+      "skill": "Personal pronouns: replace a name, sort names into he/she/they",
+      "code": "L.1.1.d",
+      "strand": "Language",
+      "worksheets": [
+        "G1-352",
+        "G1-371",
+        "G1-372"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "pronoun.case.l-1-1-d"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:question-words",
+      "grade": "1",
+      "skill": "Who / what / where: choose, fill in, match question to answer, sort answers",
+      "code": "L.K.1.d / L.1.1.j",
+      "strand": "Language",
+      "worksheets": [
+        "G1-353",
+        "G1-373",
+        "G1-374",
+        "G1-375"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "wren-question-window.question-words.l-k-1-d"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "1:read-and-follow",
+      "grade": "1",
+      "skill": "Read a sentence and do exactly what it says: colour N pictures a colour, two-step instructions, by place (first/second/between), true or false, read and draw",
+      "code": "RF.1.4.a",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G1-242",
+        "G1-251",
+        "G1-252",
+        "G1-409",
+        "G1-410",
+        "G1-411",
+        "G1-308",
+        "G1-338",
+        "G1-339",
+        "G1-340",
+        "G1-341",
+        "G1-342"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "mending-basket.mend-page.rf-1-4-a",
+        "otto-picture-book.which-picture.rl-k-7"
+      ],
+      "planned": [
+        256
+      ],
+      "note": "Existing activities check that a sentence makes sense or pick a picture; none makes the child EXECUTE a sentence with a number, a colour and a noun (exactly 3, not all of them). Read-and-draw (G1-342) is freehand; only its reading half transfers."
+    },
+    {
+      "tp": "1:ordinal-numbers",
+      "grade": "1",
+      "skill": "Ordinal numbers: write the missing ordinals, match ordinal words, which place, who wins the race",
+      "code": "K.CC readiness (ordinals)",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "G1-315",
+        "G1-316",
+        "G1-317",
+        "G1-318"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        207
+      ],
+      "note": "No activity teaches 1st/2nd/3rd, or that the count starts from the front of the line."
+    },
+    {
+      "tp": "1:days-months-seasons",
+      "grade": "1",
+      "skill": "Yesterday/today/tomorrow, months in order, month before/after, day abbreviations, months and seasons",
+      "code": "READINESS:calendar",
+      "strand": "Measurement & Data (time)",
+      "worksheets": [
+        "G1-319",
+        "G1-320",
+        "G1-321",
+        "G1-322"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        210
+      ],
+      "note": "No calendar activity exists at any grade."
+    },
+    {
+      "tp": "1:story-sequencing",
+      "grade": "1",
+      "skill": "Sequence a story: what happens next, draw the middle, order sentences to pictures",
+      "code": "RL.1.7 / RL.K.2 / W.1.3",
+      "strand": "Reading: Literature",
+      "worksheets": [
+        "G1-400",
+        "G1-401",
+        "G1-402"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "wake-up-pip.retell-story.rl-k-2",
+        "story-spine.role.rl-k-3",
+        "picture-story.read.rl-k-1"
+      ],
+      "planned": [],
+      "note": "Drawing the middle (G1-401) is freehand; choosing/ordering the middle event is covered by the story spine."
+    },
+    {
+      "tp": "1:animal-classes-coverings",
+      "grade": "1",
+      "skill": "Classify animals into groups (mammal, bird, fish, reptile, insect) by body covering (fur, feathers, scales, smooth skin)",
+      "code": "NGSS:1-LS1-1 / 1-LS3-1",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-201",
+        "G1-205"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        263
+      ],
+      "note": "No science activity exists at grade 1."
+    },
+    {
+      "tp": "1:habitats-needs",
+      "grade": "1",
+      "skill": "Where animals live, who does not live here, what animals eat, what animals need (food and a home)",
+      "code": "NGSS:K-LS1-1 / K-ESS3-1",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-202",
+        "G1-206",
+        "G1-398",
+        "G1-406",
+        "G1-407"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        240
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:life-cycles",
+      "grade": "1",
+      "skill": "Life cycles in order: chicken, butterfly, frog, plant; what comes next",
+      "code": "NGSS:1-LS3-1 (life cycles)",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-203",
+        "G1-377",
+        "G1-388",
+        "G1-389",
+        "G1-390"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        264
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:sink-float",
+      "grade": "1",
+      "skill": "Predict and test sink or float; heavier does not mean it sinks (balance scale)",
+      "code": "NGSS:2-PS1-2 (properties) / K-2",
+      "strand": "Physical Science",
+      "worksheets": [
+        "G1-204",
+        "G1-399",
+        "G1-408"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        235
+      ],
+      "note": "\"draw\" in types-1.txt is the parse of G1-399 (file G1-399-sink-or-float.js, slug sink-or-float-experiment). The G1-204 bank once listed a plastic spoon as \"sink\": the object bank needs its own pedagogy check."
+    },
+    {
+      "tp": "1:food-groups",
+      "grade": "1",
+      "skill": "Sort foods into the four food groups",
+      "code": "HEALTH:nutrition",
+      "strand": "Health",
+      "worksheets": [
+        "G1-207"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        221
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:five-senses",
+      "grade": "1",
+      "skill": "Which sense for each thing: sort by sense, choose the body part, odd one out, write the sense word, I can hear / see ...",
+      "code": "NGSS:1-LS1-1 (senses) / HEALTH",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-357",
+        "G1-358",
+        "G1-359",
+        "G1-360",
+        "G1-361"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        232
+      ],
+      "note": "G1-361 asks for the child's own sentences; the identification skill transfers, the free writing does not."
+    },
+    {
+      "tp": "1:body-parts",
+      "grade": "1",
+      "skill": "Name the parts of the body (label the figure)",
+      "code": "HEALTH:body / vocabulary",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-356"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        219
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:weather",
+      "grade": "1",
+      "skill": "Weather symbols and words; read a weekly forecast",
+      "code": "NGSS:K-ESS2-1",
+      "strand": "Earth Science",
+      "worksheets": [
+        "G1-362",
+        "G1-363"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        239
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:materials-recycling",
+      "grade": "1",
+      "skill": "What is it made of (paper, plastic, glass, metal, wood); things I recycle",
+      "code": "NGSS:2-PS1-1 / K-ESS3-3",
+      "strand": "Physical Science",
+      "worksheets": [
+        "G1-364",
+        "G1-365"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        265
+      ],
+      "note": "G1-365 (draw three things you recycle) is personal drawing; the material identification transfers."
+    },
+    {
+      "tp": "1:sun-earth-moon",
+      "grade": "1",
+      "skill": "Sun, Earth or Moon facts; moon phases in order (growing / shrinking)",
+      "code": "NGSS:1-ESS1-1",
+      "strand": "Earth & Space Science",
+      "worksheets": [
+        "G1-378",
+        "G1-391"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        262
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:plant-parts",
+      "grade": "1",
+      "skill": "Name the parts of a plant (root, stem, leaf, flower) and what each does",
+      "code": "NGSS:1-LS1-1",
+      "strand": "Life Science",
+      "worksheets": [
+        "G1-376"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        231
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:map-key",
+      "grade": "1",
+      "skill": "Read a map key: find each symbol on the map and count them",
+      "code": "SS:maps",
+      "strand": "Social Studies",
+      "worksheets": [
+        "G1-379"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        266
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:road-signs",
+      "grade": "1",
+      "skill": "Road safety: traffic signs and what they mean",
+      "code": "SS:road-safety",
+      "strand": "Social Studies / Safety",
+      "worksheets": [
+        "G1-384"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        223
+      ],
+      "note": ""
+    },
+    {
+      "tp": "1:family-generations",
+      "grade": "1",
+      "skill": "Family generations oldest to youngest; read clues to fill a family tree; my own family tree",
+      "code": "SS:family",
+      "strand": "Social Studies",
+      "worksheets": [
+        "G1-385",
+        "G1-386",
+        "G1-387"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        237
+      ],
+      "note": "G1-387 is a personal template (draw your people): the generation structure transfers, the personal drawing does not."
+    },
+    {
+      "tp": "1:healthy-habits",
+      "grade": "1",
+      "skill": "Brushing teeth before/during/after; stop the germs (the healthy choice); weekly habit chart",
+      "code": "HEALTH:hygiene",
+      "strand": "Health",
+      "worksheets": [
+        "G1-403",
+        "G1-404",
+        "G1-405"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        220
+      ],
+      "note": "G1-405 is a personal tracker for home; the choose-the-healthy-way and sequence skills transfer."
+    },
+    {
+      "tp": "2:add-with-blocks",
+      "grade": "2",
+      "skill": "Add two groups of base-ten blocks within 1000 and write the total",
+      "code": "2.NBT.B.7",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-203"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value-regroup.add-compose-hundred.2-nbt-b-7",
+        "place-value-regroup.add-compose-ten.1-nbt-c-4"
+      ],
+      "planned": [],
+      "note": "Tuck adds block groups with and without composing; the no-regrouping sheet is the easy end of the same model."
+    },
+    {
+      "tp": "2:subtract-with-blocks",
+      "grade": "2",
+      "skill": "Take away base-ten blocks within 1000",
+      "code": "2.NBT.B.7",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-205"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value-regroup.subtract-decompose.2-nbt-b-7",
+        "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7"
+      ],
+      "planned": [],
+      "note": "Same block model, take-away direction."
+    },
+    {
+      "tp": "2:bundle-ten-ones",
+      "grade": "2",
+      "skill": "Bundle 10 ones into a ten and read tens and ones",
+      "code": "1.NBT.B.2.a",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-206"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "bundle-bot.bundle-machine.1-nbt-b-2-a",
+        "bos-berry-pantry.slingshot-tens.1-nbt-b-2"
+      ],
+      "planned": [],
+      "note": "Bundle Bot is exactly circle-ten-ones-make-a-ten."
+    },
+    {
+      "tp": "2:skip-count-5-10-100",
+      "grade": "2",
+      "skill": "Skip count by 5s, 10s and 100s (incl. the dot-to-dot and maze practice formats)",
+      "code": "2.NBT.A.2",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-304",
+        "G2-314",
+        "G2-392"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "skipcount.fill.2-nbt-a-2",
+        "posy-egg-cartons.count-tens.k-cc-a-1"
+      ],
+      "planned": [],
+      "note": "The dot-to-dot and the maze are formats of the same counting sequence; Hopper's Lily Hops covers 5s/10s/100s."
+    },
+    {
+      "tp": "2:skip-count-3-4",
+      "grade": "2",
+      "skill": "Skip count by 3s and by 4s and fill the missing numbers",
+      "code": "2.NBT.A.2 (ext.) / 3.OA.C.7 readiness",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-207",
+        "G2-208"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "skipcount.fill.2-nbt-a-2"
+      ],
+      "planned": [
+        252
+      ],
+      "note": "Hopper only steps 5/10/100, the friendly steps; 3s and 4s cross tens irregularly and are the multiplication-readiness skill."
+    },
+    {
+      "tp": "2:equal-groups-times",
+      "grade": "2",
+      "skill": "Count equal groups, write the repeated addition, then the multiplication sentence",
+      "code": "2.OA.C.4",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G2-209",
+        "G2-210",
+        "G2-213"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "array.equal-groups.2-oa-c-4",
+        "echo-grove.match-the-rune.3-oa-a-1"
+      ],
+      "planned": [],
+      "note": "Equal-groups model + reading a times sentence as groups."
+    },
+    {
+      "tp": "2:arrays",
+      "grade": "2",
+      "skill": "Rows and columns of an array; match an array to a multiplication",
+      "code": "2.OA.C.4",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G2-211",
+        "G2-212"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "array.build-array.2-oa-c-4",
+        "echo-grove.match-the-rune.3-oa-a-1",
+        "fractions.make-and-count-squares.2-g-a-2"
+      ],
+      "planned": [],
+      "note": "Build an Array covers rows x columns; Echo Grove covers picking the picture that matches a sentence."
+    },
+    {
+      "tp": "2:share-and-group",
+      "grade": "2",
+      "skill": "Share a pile equally into bins; count how many equal groups (division readiness)",
+      "code": "3.OA.A.2 (2.OA.C.4 readiness)",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G2-216",
+        "G2-217"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "maple-bakery.share.3-oa-a-2",
+        "winter-piles.draw-partition.2-oa-c-4"
+      ],
+      "planned": [],
+      "note": "Maple's Bakery does both sharing and grouping."
+    },
+    {
+      "tp": "2:odd-even",
+      "grade": "2",
+      "skill": "Decide odd/even by pairing objects, as two equal addends (n + n or n + n + 1), and by the ones digit for numbers under 100",
+      "code": "2.OA.C.3",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G2-218",
+        "G2-351",
+        "G2-352"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.even-odd.2-oa-c-3"
+      ],
+      "planned": [],
+      "note": "The existing board taps an even/odd label for a numeral; the standard's core (pair the objects, write as two equal addends, and WHY only the ones digit decides) is missing. Fully covered when ORDER row 137 (choice-board.even-odd.2-oa-c-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/137-dealing-table.md."
+    },
+    {
+      "tp": "2:compare-order-3-digit",
+      "grade": "2",
+      "skill": "Compare two 3-digit numbers with < > = and order four from smallest to greatest",
+      "code": "2.NBT.A.4",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-219",
+        "G2-220"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "match-pairs.compare-three-digit-numbers.2-nbt-a-4"
+      ],
+      "planned": [],
+      "note": "Only a match-pairs card game for comparing two; nothing makes \"compare the hundreds first\" physical and nothing orders four. Fully covered when ORDER row 151 (match-pairs.compare-three-digit-numbers.2-nbt-a-4) is rebuilt to docs/activities-rebuild/rebuild-inputs/151-three-door-tunnel.md."
+    },
+    {
+      "tp": "2:round-to-ten",
+      "grade": "2",
+      "skill": "Round to the nearest ten on a number line and by the 5-or-more rule",
+      "code": "3.NBT.A.1",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-221",
+        "G2-346"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "halfway-harbors.nearest.3-nbt-a-1"
+      ],
+      "planned": [],
+      "note": "Halfway Harbors sends a boat to the nearest round number."
+    },
+    {
+      "tp": "2:read-build-3-digit",
+      "grade": "2",
+      "skill": "Read and build a 3-digit number from hundreds/tens/ones blocks and a place-value chart",
+      "code": "2.NBT.A.1",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-222",
+        "G2-224",
+        "G2-227"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value.hundreds-tens-and-ones.2-nbt-a-1"
+      ],
+      "planned": [],
+      "note": "Same model; the chart is a readout the activity already shows."
+    },
+    {
+      "tp": "2:expanded-form-digit-value",
+      "grade": "2",
+      "skill": "Expanded form of a 3-digit number and the value of a digit",
+      "code": "2.NBT.A.3",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-223",
+        "G2-225"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "place-value.expanded-form.2-nbt-a-3",
+        "match-pairs.three-ways-to-show-a-number.2-nbt-a-3"
+      ],
+      "planned": [],
+      "note": "Expanded form shows each digit as its place value."
+    },
+    {
+      "tp": "2:hundred-more-less",
+      "grade": "2",
+      "skill": "Find 100 more and 100 less",
+      "code": "2.NBT.B.8",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-226"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "comet-kangaroo.tens-hundreds.2-nbt-b-8"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:equal-shares-shapes",
+      "grade": "2",
+      "skill": "Partition shapes into halves, thirds and fourths; recognise equal vs unequal parts; match a picture to its fraction",
+      "code": "2.G.A.3",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-228",
+        "G2-229",
+        "G2-230",
+        "G2-231",
+        "G2-232",
+        "G2-234"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "fractions.partition-thirds.2-g-a-3",
+        "choice-board.fraction-noncongruent.2-g-a-3",
+        "fractions.partition-equal-shares.1-g-a-3",
+        "choice-board.fraction-equal-shares.1-g-a-3"
+      ],
+      "planned": [],
+      "note": "G2-231 prints 1/2-style notation (3.NF.A.1); the shape-partition skill is covered, the symbol is reached by fox-forge at grade 3."
+    },
+    {
+      "tp": "2:fraction-of-a-set",
+      "grade": "2",
+      "skill": "Find a fraction (1/2, 1/3, 1/4) of a set of pictures and say how many that is",
+      "code": "3.NF.A.1 readiness (2.G.A.3 extension)",
+      "strand": "Fractions",
+      "worksheets": [
+        "G2-233"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "maple-bakery.share.3-oa-a-2"
+      ],
+      "planned": [
+        268
+      ],
+      "note": "Sharing is covered, but \"one third of 12 is 4\" (one share of an equal split of a SET, not a shape) is not."
+    },
+    {
+      "tp": "2:measure-with-ruler",
+      "grade": "2",
+      "skill": "Measure an object with a ruler starting at 0",
+      "code": "2.MD.A.1",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-235"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "tildy.measure-ruler.2-md-a-1",
+        "choice-board.read-ruler.2-md-a-1"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:compare-lengths",
+      "grade": "2",
+      "skill": "Measure two objects and find how much longer",
+      "code": "2.MD.A.4",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-236"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "span-length-gap.how-much-longer.2-md-a-4"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:bar-graphs",
+      "grade": "2",
+      "skill": "Make a bar graph from a tally/data set and answer put-together and compare questions",
+      "code": "2.MD.D.10",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-237",
+        "G2-239"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "graph-it.bar-graph.2-md-d-10"
+      ],
+      "planned": [],
+      "note": "Pip's Stacking Fence builds bars a unit at a time and asks how-many-more; the tally is only the data source."
+    },
+    {
+      "tp": "2:scaled-pictograph",
+      "grade": "2",
+      "skill": "Read and make a pictograph where each picture stands for 2",
+      "code": "3.MD.B.3 (2.MD.D.10 extension)",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-238"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "graph-it.bar-graph.2-md-d-10"
+      ],
+      "planned": [
+        272
+      ],
+      "note": "No activity has a scaled key; children count pictures as ones."
+    },
+    {
+      "tp": "2:line-plots",
+      "grade": "2",
+      "skill": "Read a line plot (X marks above numbers)",
+      "code": "2.MD.D.9",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-240"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "line-plot.read.2-md-d-9"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:2d-attributes",
+      "grade": "2",
+      "skill": "Sort 2D shapes by number of sides",
+      "code": "2.G.A.1",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-241"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sort-bins.sort-by-sides.2-g-a-1",
+        "choice-board.count-sides.k-g-b-4"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:3d-faces-edges-vertices",
+      "grade": "2",
+      "skill": "Count the faces, edges and vertices of cubes, prisms, pyramids, cylinders and cones",
+      "code": "2.G.A.1",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-242",
+        "G2-245",
+        "G2-246"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "choice-board.flat-solid.k-g-a-3"
+      ],
+      "planned": [
+        275
+      ],
+      "note": "Only flat-vs-solid exists; nothing counts the parts of a solid, where the classic error is counting only the visible faces/edges."
+    },
+    {
+      "tp": "2:solids-in-real-life",
+      "grade": "2",
+      "skill": "Match a solid (sphere, cube, cylinder, cone, rectangular prism, pyramid) to a real object of the same shape",
+      "code": "2.G.A.1 / K.G.A.2",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-243"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "choice-board.flat-solid.k-g-a-3",
+        "pip-museum.curate-wing.k-g-a-2"
+      ],
+      "planned": [
+        275
+      ],
+      "note": "Pip's Museum names flat shapes; nothing links solids to everyday objects. Served by the ink-pad instrument's \"real objects\" setting (the prints prove the match)."
+    },
+    {
+      "tp": "2:flat-or-solid",
+      "grade": "2",
+      "skill": "Sort shapes into flat (2D) and solid (3D)",
+      "code": "K.G.A.3",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-244"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.flat-solid.k-g-a-3"
+      ],
+      "planned": [],
+      "note": "The Kindergarten activity teaches this exact distinction."
+    },
+    {
+      "tp": "2:symmetry-line",
+      "grade": "2",
+      "skill": "Decide whether a dashed line is a mirror line; pick the picture that is the same on both sides",
+      "code": "4.G.A.3 (readiness; grade-2 geometry in KMK/Lgr22/LK20)",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-247",
+        "G2-248"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        285
+      ],
+      "note": "No symmetry activity at any grade."
+    },
+    {
+      "tp": "2:symmetry-complete",
+      "grade": "2",
+      "skill": "Complete a half-drawn grid picture so it is symmetrical (vertical and horizontal mirror lines)",
+      "code": "4.G.A.3 (readiness)",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-253",
+        "G2-264",
+        "G2-265",
+        "G2-266",
+        "G2-267",
+        "G2-268"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        285
+      ],
+      "note": "Same apparatus as symmetry-line (\"complete\" setting); a teacher teaches identify and complete as two lessons, so two points, one instrument."
+    },
+    {
+      "tp": "2:time-5-min-quarter",
+      "grade": "2",
+      "skill": "Tell time to 5 minutes and to the quarter hour",
+      "code": "2.MD.C.7",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-249",
+        "G2-250"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock-digital.read-five-minute.2-md-c-7",
+        "clock-digital.read-quarter-hour.2-md-c-7",
+        "clock.tell-time-5-min.2-md-c-7"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:column-method",
+      "grade": "2",
+      "skill": "Add and subtract 2- and 3-digit numbers in columns, ones first, writing the carried/borrowed digit",
+      "code": "2.NBT.B.5 / 2.NBT.B.7",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-251",
+        "G2-255",
+        "G2-256",
+        "G2-257",
+        "G2-258",
+        "G2-259"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "place-value-regroup.add-compose-ten.1-nbt-c-4",
+        "place-value-regroup.subtract-decompose.2-nbt-b-7",
+        "gus-snack-cart.within-100.2-nbt-b-5"
+      ],
+      "planned": [
+        267
+      ],
+      "note": "Tuck regroups BLOCKS; nothing teaches the written column layout (digits aligned in place columns, start at the ones, the little carried 1 written above the tens) that all six sheets drill."
+    },
+    {
+      "tp": "2:read-jugs",
+      "grade": "2",
+      "skill": "Read the liquid in a measuring jug in millilitres (to 1000 and 2000 ml)",
+      "code": "3.MD.A.2 (grade 2 in KMK/Lgr22)",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-260",
+        "G2-263"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "pond-juice.pour-measure.3-md-a-2"
+      ],
+      "planned": [],
+      "note": "Pippa's Pond-Juice Lab pours and reads a scale; the 2000 ml jug is a range, not a new skill."
+    },
+    {
+      "tp": "2:mass-grams",
+      "grade": "2",
+      "skill": "Read mass in grams on a balance with weights and on a scale with small steps (incl. the mixed jug + scale sheets)",
+      "code": "3.MD.A.2 (grade 2 in KMK/Lgr22)",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-261",
+        "G2-252",
+        "G2-262"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "pond-juice.pour-measure.3-md-a-2"
+      ],
+      "planned": [
+        271
+      ],
+      "note": "Jugs are covered by Pond-Juice; mass on a balance (the sum of weights that levels the beam) and reading a scale with small steps are taught nowhere. The two mixed sheets sit here because their missing half is mass."
+    },
+    {
+      "tp": "2:shopping-money",
+      "grade": "2",
+      "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+      "code": "2.MD.C.8",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-276",
+        "G2-289",
+        "G2-290",
+        "G2-291",
+        "G2-292",
+        "G2-293",
+        "G2-294",
+        "G2-295"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "money.make-change.2-md-c-8",
+        "coin-stall.money.2-md-c-8",
+        "money.count-out.2-md-c-8"
+      ],
+      "planned": [
+        270
+      ],
+      "note": "Change and paying a target with coins are covered; totalling a basket of 2-3 prices and comparing money with a price (\"enough? how much more?\") carry most of these 8 sheets and have no apparatus."
+    },
+    {
+      "tp": "2:calendar",
+      "grade": "2",
+      "skill": "Read a month calendar: weekday of a date, one week later, days between two dates",
+      "code": "SS:calendar (time; no CCSS standard)",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-277",
+        "G2-296",
+        "G2-297",
+        "G2-298",
+        "G2-312"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        273
+      ],
+      "note": "No calendar activity exists."
+    },
+    {
+      "tp": "2:grid-coordinates",
+      "grade": "2",
+      "skill": "Find a square by its letter-number code (B2) and colour it; write the code of a square",
+      "code": "5.G.A.1 readiness (spatial)",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-279",
+        "G2-302",
+        "G2-303",
+        "G2-308"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "parking-tower.place-by-relation.k-g-a-1"
+      ],
+      "planned": [
+        284
+      ],
+      "note": "Position words exist; coordinate codes do not."
+    },
+    {
+      "tp": "2:number-line-not-from-zero",
+      "grade": "2",
+      "skill": "Locate a number on a number line that starts at 40 or 60 and labels only some ticks",
+      "code": "2.MD.B.6",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G2-305",
+        "G2-310"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "track-repair.count-to-120.1-nbt-a-1",
+        "hoppers-number-line.jump-sums.2-md-b-6"
+      ],
+      "planned": [
+        269
+      ],
+      "note": "Existing lines label every tie or start at 0; counting on from the nearest label in a sparse window of the line is missing."
+    },
+    {
+      "tp": "2:add-sub-within-100-practice",
+      "grade": "2",
+      "skill": "Add/subtract within 100 in puzzle formats: number walls and the math maze",
+      "code": "2.NBT.B.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-313",
+        "G2-393"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "gus-snack-cart.within-100.2-nbt-b-5",
+        "tally-squirrel.add-four.2-nbt-b-6",
+        "fix-it-corner.missing-part.1-oa-d-8"
+      ],
+      "planned": [],
+      "note": "The wall and the maze are formats; the skill (sums and missing parts within 100) is covered."
+    },
+    {
+      "tp": "2:hundreds-chart-moves",
+      "grade": "2",
+      "skill": "Move on a hundreds chart (down = 10 more, right = 1 more); find a square from two arrow paths; count the jumps between two numbers",
+      "code": "1.NBT.C.5 / 2.NBT.B.8",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G2-321",
+        "G2-322",
+        "G2-323"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "choice-board.ten-more-less.1-nbt-c-5",
+        "comet-kangaroo.tens-hundreds.2-nbt-b-8"
+      ],
+      "planned": [
+        251
+      ],
+      "note": "10 more/less is covered as mental maths; the CHART STRUCTURE (rows of ten, a column = +10) and composite moves/differences are not."
+    },
+    {
+      "tp": "2:logic-grid",
+      "grade": "2",
+      "skill": "Solve a logic grid from yes/no/either-or clues (cross out what cannot be, check what must be) and read a solved grid",
+      "code": "LOGIC (readiness)",
+      "strand": "Logical reasoning",
+      "worksheets": [
+        "G2-319",
+        "G2-344",
+        "G2-345"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "ziggy-odd-one-out.category.l-1-5-a"
+      ],
+      "planned": [
+        260
+      ],
+      "note": "No deduction activity exists."
+    },
+    {
+      "tp": "2:tangram-orientation",
+      "grade": "2",
+      "skill": "Match a tangram solution to its shadow exactly, rejecting turned or flipped ones",
+      "code": "1.G.A.2 / spatial readiness",
+      "strand": "Geometry",
+      "worksheets": [
+        "G2-347"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "shapeforge.compose.1-g-a-2"
+      ],
+      "planned": [
+        274
+      ],
+      "note": "Shapeforge composes shapes from blocks but never demands a fixed orientation or tells a flip from a turn."
+    },
+    {
+      "tp": "2:read-and-answer",
+      "grade": "2",
+      "skill": "Read a short story and answer who/what/where/when/why with details from the text",
+      "code": "RL.2.1",
+      "strand": "Reading: Literature",
+      "worksheets": [
+        "G2-254",
+        "G2-269",
+        "G2-270",
+        "G2-271",
+        "G2-272",
+        "G2-273"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "picture-story.read.rl-k-1",
+        "marlo-magnifier.trait-evidence.rl-1-3",
+        "mending-basket.mend-page.rf-1-4-a"
+      ],
+      "planned": [
+        276
+      ],
+      "note": "K key details (3-picture stories) and grade-1 trait evidence exist; a grade-2 multi-paragraph story where each answer must be anchored in a found sentence does not."
+    },
+    {
+      "tp": "2:sentence-boundaries",
+      "grade": "2",
+      "skill": "Capital letter and end mark; choose . or ?; split two run-together sentences",
+      "code": "L.1.2.b / L.2.1.f",
+      "strand": "Language",
+      "worksheets": [
+        "G2-274",
+        "G2-281",
+        "G2-282",
+        "G2-307",
+        "G2-311"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "wally-capital-crane.special-names.l-2-2-a",
+        "sentence-clinic.fix-it.l-2-1"
+      ],
+      "planned": [
+        278
+      ],
+      "note": "Capitalising NAMES and grammar repair exist; where a sentence ends (and that the next word then takes a capital) has no apparatus."
+    },
+    {
+      "tp": "2:word-classes",
+      "grade": "2",
+      "skill": "Sort words into nouns, verbs and adjectives (with and without picture help)",
+      "code": "L.2.1 (L.1.1.b/e/f)",
+      "strand": "Language",
+      "worksheets": [
+        "G2-275",
+        "G2-285",
+        "G2-286",
+        "G2-287"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "wordclass.adjective-adverb.l-2-1-e"
+      ],
+      "planned": [
+        257
+      ],
+      "note": "Glim covers adjective vs adverb only; noun/verb/adjective classification is missing."
+    },
+    {
+      "tp": "2:describe-a-picture",
+      "grade": "2",
+      "skill": "Write sentences about a picture using a word bank and sentence starters",
+      "code": "W.2.2",
+      "strand": "Writing",
+      "worksheets": [
+        "G2-278",
+        "G2-299",
+        "G2-300"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "sentence-builder.build-a-sentence.l-1-1-j"
+      ],
+      "planned": [
+        280
+      ],
+      "note": "Sentence Builder unscrambles GIVEN words; nothing asks the child to compose a TRUE sentence about what a picture shows. Free handwriting cannot be read, so the instrument composes from tiles."
+    },
+    {
+      "tp": "2:retell-with-starters",
+      "grade": "2",
+      "skill": "Retell a picture story in order with time-order starters (First, Next, Then, At the end)",
+      "code": "W.2.3",
+      "strand": "Writing",
+      "worksheets": [
+        "G2-378"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "wake-up-pip.retell-story.rl-k-2",
+        "story-spine.role.rl-k-3"
+      ],
+      "planned": [
+        281
+      ],
+      "note": "Retelling exists at K; ordering the events AND choosing the time-order word each frame needs is the grade-2 writing skill."
+    },
+    {
+      "tp": "2:spelling-rules",
+      "grade": "2",
+      "skill": "Apply a position-dependent spelling rule (e.g. ck/k, tch/ch, -dge/-ge, ai/ay; -s/-es/-ies plurals): fill, spot and sort by the rule letters",
+      "code": "L.2.2.d / RF.2.3",
+      "strand": "Language",
+      "worksheets": [
+        "G2-315",
+        "G2-324",
+        "G2-325",
+        "G2-326",
+        "G2-327",
+        "G2-328"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "word-clinic.spell-by-ear.l-1-2-e",
+        "plural.irregular.l-2-1-b"
+      ],
+      "planned": [
+        279
+      ],
+      "note": "Spell-by-ear and irregular plurals exist; a rule that picks the spelling by its POSITION in the word is taught nowhere."
+    },
+    {
+      "tp": "2:compound-words",
+      "grade": "2",
+      "skill": "Build, split and mean compound words (incl. the joining letter in de/nl/sv/da/no)",
+      "code": "L.2.4.d",
+      "strand": "Language",
+      "worksheets": [
+        "G2-316",
+        "G2-329",
+        "G2-330",
+        "G2-331",
+        "G2-332",
+        "G2-333"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "compound-meaning.predict.l-2-4-d"
+      ],
+      "planned": [],
+      "note": "Skip's Word-Welding Yard builds and means compounds; the joining-letter face is a locale detail of the same skill."
+    },
+    {
+      "tp": "2:verb-forms",
+      "grade": "2",
+      "skill": "Present and past forms incl. irregular be/have/do/go; choose the form for a sentence; find the verb",
+      "code": "L.2.1.d / L.1.1.e",
+      "strand": "Language",
+      "worksheets": [
+        "G2-317",
+        "G2-334",
+        "G2-335",
+        "G2-336",
+        "G2-337",
+        "G2-338"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "rusty-yesterday.irregular-past.l-2-1-d",
+        "tense.past-present-future.l-1-1-e",
+        "vera-verb-match.be-agreement.l-1-1-c"
+      ],
+      "planned": [],
+      "note": "The types file parsed the id of G2-317 as \"ls\" (file G2-317-verb-forms.js)."
+    },
+    {
+      "tp": "2:prefixes",
+      "grade": "2",
+      "skill": "Add a prefix to change meaning (un-, dis-, in-; re-, pre-, mis-)",
+      "code": "L.2.4.b",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G2-320",
+        "G2-376"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "affix.apply.l-2-4-b",
+        "opposites.antonyms.k-l-5-b"
+      ],
+      "planned": [],
+      "note": "Marigold's Knowing Machine applies prefixes for meaning."
+    },
+    {
+      "tp": "2:plural-nouns",
+      "grade": "2",
+      "skill": "Write the plural for more than one (regular and irregular)",
+      "code": "L.2.1.b",
+      "strand": "Language",
+      "worksheets": [
+        "G2-349"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "plural.irregular.l-2-1-b",
+        "daisy-plate-stack.plurals.l-k-1-c"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:cloze-context",
+      "grade": "2",
+      "skill": "Use the story context to choose the missing word",
+      "code": "RF.2.4.c / L.2.4.a",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G2-350"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "fern-clue-garden.context-clues.l-2-4-a",
+        "mending-basket.mend-page.rf-1-4-a"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:pronouns",
+      "grade": "2",
+      "skill": "Link a pronoun to its name; possessive pronouns; replace a name with a pronoun",
+      "code": "L.1.1.d",
+      "strand": "Language",
+      "worksheets": [
+        "G2-353",
+        "G2-354",
+        "G2-355"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "pronoun.case.l-1-1-d",
+        "robin-mirror.reflexive.l-2-1-c"
+      ],
+      "planned": [],
+      "note": "The Borrowed Hat covers personal and possessive pronouns."
+    },
+    {
+      "tp": "2:question-words",
+      "grade": "2",
+      "skill": "Choose/write the question word that asks for a highlighted answer (who, where, why, how)",
+      "code": "L.K.1.d",
+      "strand": "Language",
+      "worksheets": [
+        "G2-356",
+        "G2-357"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "wren-question-window.question-words.l-k-1-d"
+      ],
+      "planned": [],
+      "note": "Same skill at K level (Wren's set includes why/how)."
+    },
+    {
+      "tp": "2:synonyms",
+      "grade": "2",
+      "skill": "Match words that mean the same; pick a synonym for \"said\"",
+      "code": "L.2.5 / L.2.5.b",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G2-358",
+        "G2-373"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "roary-roar-meter.shades.l-2-5-b",
+        "shades.pick.l-1-5-d"
+      ],
+      "planned": [
+        258
+      ],
+      "note": "Shades of meaning (said -> whispered/shouted) is covered; \"means the same\" as a TEST of meaning is not. The types file parsed the id of G2-358 as \"ls\" (file G2-358-synonyms.js)."
+    },
+    {
+      "tp": "2:root-words",
+      "grade": "2",
+      "skill": "Find the shared root word; sort words by root",
+      "code": "L.2.4.c",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G2-359",
+        "G2-375"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "sage-root-garden.roots.l-2-4-c"
+      ],
+      "planned": [],
+      "note": ""
+    },
+    {
+      "tp": "2:digraphs",
+      "grade": "2",
+      "skill": "Find and count a digraph (sh) in sentences",
+      "code": "RF.1.3.a",
+      "strand": "Reading: Foundational Skills",
+      "worksheets": [
+        "G2-372"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "cvc-builder.build-blend-word.rf-1-3"
+      ],
+      "planned": [],
+      "note": "Build Blend and Digraph Words."
+    },
+    {
+      "tp": "2:cursive-writing",
+      "grade": "2",
+      "skill": "Write cursive lowercase letters, capitals, the joins between letters, and whole words",
+      "code": "HANDWRITING",
+      "strand": "Handwriting",
+      "worksheets": [
+        "G2-377",
+        "G2-384",
+        "G2-385",
+        "G2-386"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "penny-alphabet-trace.letter-formation.l-k-1-a",
+        "snippy.letter-formation.l-k-1-a"
+      ],
+      "planned": [
+        283
+      ],
+      "note": "Print-letter tracing exists; joined (cursive) writing does not."
+    },
+    {
+      "tp": "2:read-cursive",
+      "grade": "2",
+      "skill": "Read words written in cursive",
+      "code": "HANDWRITING / RF.2.3",
+      "strand": "Handwriting",
+      "worksheets": [
+        "G2-387"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        283
+      ],
+      "note": "Served by the cursive instrument's \"read\" setting."
+    },
+    {
+      "tp": "2:animal-fact-file",
+      "grade": "2",
+      "skill": "Gather true facts about an animal into a fact file (eats, lives, moves, body covering, babies)",
+      "code": "W.2.7 / RI.2.1",
+      "strand": "Writing",
+      "worksheets": [
+        "G2-318",
+        "G2-339",
+        "G2-340",
+        "G2-341"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "atlas-fact-files.key-detail.ri-k-1"
+      ],
+      "planned": [
+        282
+      ],
+      "note": "Atlas reads ONE fact for a key detail; organising facts under headings (the research-writing skill) is missing."
+    },
+    {
+      "tp": "2:compare-two-animals",
+      "grade": "2",
+      "skill": "Compare two animals: which facts are the same and which are different",
+      "code": "RI.2.9",
+      "strand": "Reading: Informational Text",
+      "worksheets": [
+        "G2-342"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "willow-story-corner.compare-tales.rl-k-9"
+      ],
+      "planned": [
+        282
+      ],
+      "note": "Comparing two STORIES exists; comparing two sets of facts does not. Served by the fact-cabinet two-animal setting."
+    },
+    {
+      "tp": "2:mystery-animal",
+      "grade": "2",
+      "skill": "Use clues one at a time to find a mystery animal",
+      "code": "RI.2.1",
+      "strand": "Reading: Informational Text",
+      "worksheets": [
+        "G2-343"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        277
+      ],
+      "note": "No clue-by-clue inference activity."
+    },
+    {
+      "tp": "2:plant-parts",
+      "grade": "2",
+      "skill": "Name plant parts, what each part does, and which part of a plant we eat",
+      "code": "NGSS:1-LS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G2-363",
+        "G2-364"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        231
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:life-cycles",
+      "grade": "2",
+      "skill": "Order the butterfly life cycle and match young stages to the animal they become",
+      "code": "NGSS:3-LS1-1 (readiness) / 1-LS3-1",
+      "strand": "Science",
+      "worksheets": [
+        "G2-365",
+        "G2-366"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        264
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:day-and-night",
+      "grade": "2",
+      "skill": "Day and night come from the Earth turning toward or away from the Sun",
+      "code": "NGSS:1-ESS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G2-368"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        262
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:moon-phases",
+      "grade": "2",
+      "skill": "Name the phases of the Moon",
+      "code": "NGSS:1-ESS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G2-367"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        262
+      ],
+      "note": "Served by the orbit-lamp Moon setting; taught as its own lesson."
+    },
+    {
+      "tp": "2:cardinal-directions",
+      "grade": "2",
+      "skill": "The four compass directions and using them on a map",
+      "code": "SS:maps",
+      "strand": "Social Studies",
+      "worksheets": [
+        "G2-369",
+        "G2-371"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "parking-tower.place-by-relation.k-g-a-1"
+      ],
+      "planned": [
+        286
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:continents",
+      "grade": "2",
+      "skill": "Name and locate the continents on a world map",
+      "code": "SS:geography",
+      "strand": "Social Studies",
+      "worksheets": [
+        "G2-370"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        287
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:road-signs",
+      "grade": "2",
+      "skill": "Kinds of road signs (warning / must-not / information) and which sign fits a situation",
+      "code": "SS:road-safety",
+      "strand": "Road Safety",
+      "worksheets": [
+        "G2-360",
+        "G2-361"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        223
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:family-relationships",
+      "grade": "2",
+      "skill": "Family words for relationships (aunt, cousin, grandmother) from riddles",
+      "code": "SS:family",
+      "strand": "Social Studies: Family",
+      "worksheets": [
+        "G2-362"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        237
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:healthy-habits-why",
+      "grade": "2",
+      "skill": "Why we do healthy habits (what each habit protects)",
+      "code": "HEALTH",
+      "strand": "Health",
+      "worksheets": [
+        "G2-379"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        220
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:habitats-adaptations",
+      "grade": "2",
+      "skill": "Which animals and plants live in a habitat, and which body feature helps an animal live there",
+      "code": "NGSS:2-LS4-1 / 3-LS4-3",
+      "strand": "Science",
+      "worksheets": [
+        "G2-380",
+        "G2-381"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "mims-baskets.category-sort.l-k-5-a"
+      ],
+      "planned": [
+        240
+      ],
+      "note": "Category sorting exists; habitat fit by adaptation does not."
+    },
+    {
+      "tp": "2:sink-float",
+      "grade": "2",
+      "skill": "Predict and test sink or float; changing shape (a clay boat) changes floating",
+      "code": "NGSS:2-PS1-1 / 2-PS1-2",
+      "strand": "Science",
+      "worksheets": [
+        "G2-382",
+        "G2-383"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        235
+      ],
+      "note": ""
+    },
+    {
+      "tp": "2:materials",
+      "grade": "2",
+      "skill": "Group things by the material they are made of (paper, plastic, glass, metal, wood) for recycling",
+      "code": "NGSS:2-PS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G2-348"
+      ],
+      "verdict": "gap",
+      "activities": [
+        "ziggy-odd-one-out.category.l-1-5-a"
+      ],
+      "planned": [
+        265
+      ],
+      "note": "Odd-one-out by category exists; by MATERIAL (a property, not a category) does not."
+    },
+    {
+      "tp": "2:find-differences",
+      "grade": "2",
+      "skill": "Visual discrimination: find 10 differences; write a sentence about each difference",
+      "code": "VISUAL (readiness) / W.2.2",
+      "strand": "Visual Perception",
+      "worksheets": [
+        "G2-388",
+        "G2-389"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Every find-the-differences deck already ships its own tap-the-differences screen + key (b7 / fd level set), so an activity would duplicate it; the writing half of G2-389 is the describe-a-picture skill (true-caption)."
+    },
+    {
+      "tp": "2:drawing",
+      "grade": "2",
+      "skill": "Draw by steps then write about it; draw from memory",
+      "code": "ART",
+      "strand": "Art",
+      "worksheets": [
+        "G2-390",
+        "G2-391"
+      ],
+      "verdict": "out-of-scope",
+      "activities": [],
+      "planned": [],
+      "note": "Free drawing cannot be checked on screen and its targets are fine motor (covered by the tracing activities and cursive-ribbon) and visual memory; the write-three-sentences half is the describe-a-picture skill (true-caption)."
+    },
+    {
+      "tp": "3:mult-equal-groups",
+      "grade": "3",
+      "skill": "Interpret a product as equal groups / an array and find the total",
+      "code": "3.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-301",
+        "G3-302"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "echo-grove.match-the-rune.3-oa-a-1",
+        "array.build-array.2-oa-c-4",
+        "array.equal-groups.2-oa-c-4"
+      ],
+      "planned": [],
+      "note": "Echo Grove reads a×b as a groups of b and refuses the same-total look-alike; Build an Array covers big arrays up to 10×10 by rows."
+    },
+    {
+      "tp": "3:mult-number-line",
+      "grade": "3",
+      "skill": "Multiply as equal jumps from 0 on a number line (multiples)",
+      "code": "3.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-308"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "hoppers-number-line.jump-sums.2-md-b-6",
+        "skipcount.fill.2-nbt-a-2"
+      ],
+      "planned": [
+        288
+      ],
+      "note": "Hopper's hops add/subtract with mixed lengths and Lily Hops skip-counts only by 5/10/100; nothing lays b equal jumps of any size 2-10 and reads the landing as a×b."
+    },
+    {
+      "tp": "3:division-sharing",
+      "grade": "3",
+      "skill": "Divide by sharing a pile equally into a given number of groups",
+      "code": "3.OA.A.2",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-309"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "maple-bakery.share.3-oa-a-2"
+      ],
+      "planned": [],
+      "note": "Maple's Bakery shares cookies equally onto plates (partitive) and packs boxes (quotative)."
+    },
+    {
+      "tp": "3:division-repeated-subtraction",
+      "grade": "3",
+      "skill": "Divide by measuring: how many equal hops back from N reach 0",
+      "code": "3.OA.A.2",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-310"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "maple-bakery.share.3-oa-a-2",
+        "hoppers-number-line.jump-sums.2-md-b-6"
+      ],
+      "planned": [
+        288
+      ],
+      "note": "Maple's packing mode is quotative with objects, but no activity shows division as repeated subtraction on a number line. Same rod instrument as mult-number-line, run backwards (setting: lay out / measure back) — multiplication and division are the two directions of one apparatus, each a separate round set."
+    },
+    {
+      "tp": "3:mult-div-relationship",
+      "grade": "3",
+      "skill": "Find an unknown factor and write the four related facts (division as an unknown-factor problem)",
+      "code": "3.OA.B.6",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-311",
+        "G3-312",
+        "G3-369"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "echo-grove.match-the-rune.3-oa-a-1",
+        "maple-bakery.share.3-oa-a-2"
+      ],
+      "planned": [
+        292
+      ],
+      "note": "Multiplication and division are each covered alone; nothing makes one array carry all four facts or makes the child find the missing side of a known total."
+    },
+    {
+      "tp": "3:area-model",
+      "grade": "3",
+      "skill": "Area of a rectangle = rows × columns (tiling becomes multiplication)",
+      "code": "3.MD.C.7.a",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-313"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "patchwork-meadow.tile.3-md-c-6",
+        "mosaic-menders.area-match.3-md-c-6",
+        "array.build-array.2-oa-c-4"
+      ],
+      "planned": [
+        305
+      ],
+      "note": "The two area activities count unit squares one by one; the step 3.MD.C.7 names (the tiling as rows of equal length, multiplied) is not taught."
+    },
+    {
+      "tp": "3:commutative",
+      "grade": "3",
+      "skill": "a×b and b×a give the same total (turn the array)",
+      "code": "3.OA.B.5",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-314"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        291
+      ],
+      "note": "Echo Grove deliberately treats 3×4 and 4×3 as different groupings; no activity shows they have the same product."
+    },
+    {
+      "tp": "3:fraction-unit-build",
+      "grade": "3",
+      "skill": "Name and shade a/b as a copies of the unit piece 1/b",
+      "code": "3.NF.A.1",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-315",
+        "G3-316"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "fox-forge.fraction.3-nf-a-1",
+        "fractions.partition-equal-shares.1-g-a-3"
+      ],
+      "planned": [],
+      "note": "Pip's Chocolate Forge builds a/b from a chosen unit piece; naming (315) and shading (316) are the two directions of that same act."
+    },
+    {
+      "tp": "3:fraction-number-line",
+      "grade": "3",
+      "skill": "Place a fraction on a number line from 0 to 1 by counting equal spaces",
+      "code": "3.NF.A.2",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-317"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        301
+      ],
+      "note": "No activity puts fractions on a number line."
+    },
+    {
+      "tp": "3:equivalent-fractions",
+      "grade": "3",
+      "skill": "Recognise equivalent fractions as the same amount",
+      "code": "3.NF.A.3",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-318",
+        "G3-322"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "fraction-equiv.same-amount.3-nf-a-3"
+      ],
+      "planned": [],
+      "note": "Crumb's Same-Amount Bakery picks the piece showing the same amount cut a different way."
+    },
+    {
+      "tp": "3:compare-fractions",
+      "grade": "3",
+      "skill": "Compare two fractions of the same whole (same numerator or same denominator)",
+      "code": "3.NF.A.3.d",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-319"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "fraction-equiv.same-amount.3-nf-a-3"
+      ],
+      "planned": [
+        302
+      ],
+      "note": "Only equality is taught; bigger/smaller, the 'bigger denominator = bigger fraction' error and the same-whole condition are missing."
+    },
+    {
+      "tp": "3:fraction-of-set",
+      "grade": "3",
+      "skill": "Find a fraction of a group of objects (1/3 of 12)",
+      "code": "3.NF.A.1",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-320"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        268
+      ],
+      "note": "All fraction activities use area models; none treats a set of objects as the whole."
+    },
+    {
+      "tp": "3:whole-from-unit",
+      "grade": "3",
+      "skill": "Rebuild the whole from one unit-fraction piece",
+      "code": "3.NF.A.1",
+      "strand": "Fractions",
+      "worksheets": [
+        "G3-321"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "fox-forge.fraction.3-nf-a-1"
+      ],
+      "planned": [
+        300
+      ],
+      "note": "The forge starts from a drawn whole; reasoning backwards from one piece to the whole is not taught."
+    },
+    {
+      "tp": "3:partition-equal-areas",
+      "grade": "3",
+      "skill": "Partition shapes into equal areas and name each part as a unit fraction",
+      "code": "3.G.A.2",
+      "strand": "Geometry",
+      "worksheets": [
+        "G3-343"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "choice-board.fraction-noncongruent.2-g-a-3",
+        "fractions.partition-thirds.2-g-a-3",
+        "choice-board.fraction-equal-shares.1-g-a-3"
+      ],
+      "planned": [],
+      "note": "Equal shares that look different and partition into thirds cover recognising equal areas."
+    },
+    {
+      "tp": "3:rounding",
+      "grade": "3",
+      "skill": "Round to the nearest 10 and 100 (number line, halfway, up/down)",
+      "code": "3.NBT.A.1",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G3-323",
+        "G3-387",
+        "G3-388",
+        "G3-390",
+        "G3-391"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "halfway-harbors.nearest.3-nbt-a-1"
+      ],
+      "planned": [],
+      "note": "The Halfway Harbors sends a boat to its nearest round-number harbour with the halfway buoy shown; the worksheet faces (sort up/down, which round to 50, round twice) are the same skill. Check at rebuild that its pool includes nearest-100 rounds."
+    },
+    {
+      "tp": "3:estimate-by-rounding",
+      "grade": "3",
+      "skill": "Round both addends, add the rounded numbers, and judge whether an exact answer is reasonable",
+      "code": "3.OA.D.8",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-389"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "halfway-harbors.nearest.3-nbt-a-1",
+        "gus-snack-cart.within-100.2-nbt-b-5"
+      ],
+      "planned": [
+        294
+      ],
+      "note": "Rounding and exact adding are taught apart; using rounding to estimate a sum and check reasonableness is not."
+    },
+    {
+      "tp": "3:compare-4-digit",
+      "grade": "3",
+      "skill": "Compare four-digit numbers by place value from the left",
+      "code": "4.NBT.A.2",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G3-325"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "match-pairs.compare-three-digit-numbers.2-nbt-a-4",
+        "choice-board.compare-two-digit.1-nbt-b-3"
+      ],
+      "planned": [],
+      "note": "Compare activities stop at three digits and match symbols; nothing shows that the first differing place decides (2,999 vs 3,001). Fully covered when ORDER row 151 (match-pairs.compare-three-digit-numbers.2-nbt-a-4) is rebuilt to docs/activities-rebuild/rebuild-inputs/151-three-door-tunnel.md."
+    },
+    {
+      "tp": "3:arithmetic-patterns",
+      "grade": "3",
+      "skill": "Find the constant step of a growing or shrinking number pattern (incl. 25s, 50s, 100s) and continue it",
+      "code": "3.OA.D.9",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-326",
+        "G3-327",
+        "G3-329"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "skipcount.fill.2-nbt-a-2",
+        "track-repair.count-to-120.1-nbt-a-1"
+      ],
+      "planned": [
+        297
+      ],
+      "note": "Skip-counting hands the child the step; finding an unknown step, shrinking patterns and steps of 25/50 are missing."
+    },
+    {
+      "tp": "3:input-output",
+      "grade": "3",
+      "skill": "Find the rule of an input/output machine and apply it both ways",
+      "code": "3.OA.D.9",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-328"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        295
+      ],
+      "note": "No function-machine activity exists."
+    },
+    {
+      "tp": "3:parity-of-sums",
+      "grade": "3",
+      "skill": "Predict whether a sum is odd or even from the addends' parity, without adding",
+      "code": "3.OA.D.9",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-386"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "choice-board.even-odd.2-oa-c-3"
+      ],
+      "planned": [
+        296
+      ],
+      "note": "Even or Odd? classifies a single number; the pattern odd+odd=even etc. is not taught."
+    },
+    {
+      "tp": "3:scaled-graphs",
+      "grade": "3",
+      "skill": "Read and build scaled bar graphs and pictographs (one picture/step = 2, 5, 10)",
+      "code": "3.MD.B.3",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-332",
+        "G3-333",
+        "G3-334"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "graph-it.bar-graph.2-md-d-10"
+      ],
+      "planned": [
+        272
+      ],
+      "note": "Pip's Stacking Fence builds bar graphs at scale 1; the scale (each brick worth 5), which is the whole of 3.MD.B.3, is missing."
+    },
+    {
+      "tp": "3:line-plot-halves",
+      "grade": "3",
+      "skill": "Measure to the half unit and show the data on a line plot marked in halves",
+      "code": "3.MD.B.4",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-335"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "line-plot.read.2-md-d-9"
+      ],
+      "planned": [
+        304
+      ],
+      "note": "Shelly's Tide-Line uses whole units only; halves on the ruler and the plot are missing."
+    },
+    {
+      "tp": "3:perimeter",
+      "grade": "3",
+      "skill": "Find perimeter as the distance around a shape",
+      "code": "3.MD.D.8",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-337"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "mending-fences.mend-board.3-md-d-8"
+      ],
+      "planned": [],
+      "note": "The Mending Fences counts the edge and separates fence from grass."
+    },
+    {
+      "tp": "3:same-area",
+      "grade": "3",
+      "skill": "Recognise rectangles with the same area but a different shape",
+      "code": "3.MD.C.6",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-338"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "mosaic-menders.area-match.3-md-c-6"
+      ],
+      "planned": [],
+      "note": "The Mosaic Menders finds the mosaic with the same tile count against a bigger look-alike."
+    },
+    {
+      "tp": "3:same-perimeter",
+      "grade": "3",
+      "skill": "Same perimeter, different area (and the reverse)",
+      "code": "3.MD.D.8",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-339"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "mending-fences.mend-board.3-md-d-8"
+      ],
+      "planned": [
+        306
+      ],
+      "note": "Mending Fences measures one fence at a time; the 3.MD.D.8 clause 'same perimeter, different areas' is not shown."
+    },
+    {
+      "tp": "3:classify-quadrilaterals",
+      "grade": "3",
+      "skill": "Classify quadrilaterals by attributes; squares are rectangles (and rhombuses)",
+      "code": "3.G.A.1",
+      "strand": "Geometry",
+      "worksheets": [
+        "G3-340"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "sort-bins.sort-by-sides.2-g-a-1"
+      ],
+      "planned": [
+        308
+      ],
+      "note": "Sort by Sides stops at 'quadrilateral'; the nested categories (a square is a rectangle) are not taught."
+    },
+    {
+      "tp": "3:right-angles",
+      "grade": "3",
+      "skill": "Recognise right angles (and angles smaller/bigger than a square corner)",
+      "code": "4.G.A.1",
+      "strand": "Geometry",
+      "worksheets": [
+        "G3-341"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        309
+      ],
+      "note": "No angle activity exists."
+    },
+    {
+      "tp": "3:symmetry",
+      "grade": "3",
+      "skill": "Find and count lines of symmetry",
+      "code": "4.G.A.3",
+      "strand": "Geometry",
+      "worksheets": [
+        "G3-342"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        285
+      ],
+      "note": "No symmetry activity exists."
+    },
+    {
+      "tp": "3:elapsed-duration",
+      "grade": "3",
+      "skill": "Find how much time passed between two clock times",
+      "code": "3.MD.A.1",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-344"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "clock-elapsed.what-time.3-md-a-1",
+        "clock-elapsed.add-subtract.3-md-a-1"
+      ],
+      "planned": [
+        303
+      ],
+      "note": "Both clock-elapsed activities give a start and a duration and ask for the end; the inverse (start + end -> duration) is not taught."
+    },
+    {
+      "tp": "3:time-to-minute",
+      "grade": "3",
+      "skill": "Read an analog clock to the minute",
+      "code": "3.MD.A.1",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-354"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock-digital.read-minute.3-md-a-1"
+      ],
+      "planned": [],
+      "note": "Sprocket's Clock to the minute, with minute marks."
+    },
+    {
+      "tp": "3:time-12-24",
+      "grade": "3",
+      "skill": "Convert between 12-hour and 24-hour time",
+      "code": "2.MD.C.7",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-355"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock-convert.12-24.2-md-c-7"
+      ],
+      "planned": [],
+      "note": "Covered at grade 2 at a comparable level."
+    },
+    {
+      "tp": "3:add-subtract-time",
+      "grade": "3",
+      "skill": "Add or subtract minutes/hours to a clock time",
+      "code": "3.MD.A.1",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-356"
+      ],
+      "verdict": "covered",
+      "activities": [
+        "clock-elapsed.add-subtract.3-md-a-1"
+      ],
+      "planned": [],
+      "note": "Count on / count back minutes on the clock."
+    },
+    {
+      "tp": "3:thermometer",
+      "grade": "3",
+      "skill": "Read a thermometer whose scale counts by 2, 5 or 10",
+      "code": "NGSS:3-ESS2-1 (weather data) / scale reading",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-345"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "pond-juice.pour-measure.3-md-a-2"
+      ],
+      "planned": [
+        313
+      ],
+      "note": "Pippa's lab reads a vertical liquid scale in mL; temperature, a scale that counts by 2s, and below-zero are missing."
+    },
+    {
+      "tp": "3:volume-cubes",
+      "grade": "3",
+      "skill": "Count unit cubes in a solid, including hidden ones (volume)",
+      "code": "5.MD.C.4",
+      "strand": "Measurement & Data",
+      "worksheets": [
+        "G3-346"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        307
+      ],
+      "note": "No volume activity; the hidden-cube count is the essential part."
+    },
+    {
+      "tp": "3:latin-square-sudoku",
+      "grade": "3",
+      "skill": "Solve a 6×6 picture sudoku: each picture once in every row, column and box",
+      "code": "LOGIC",
+      "strand": "Logical reasoning",
+      "worksheets": [
+        "G3-348"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        261
+      ],
+      "note": "Sudoku exists as interactive catalogue decks (the sudoku app), not as an activity; no activity teaches the once-per-line constraint."
+    },
+    {
+      "tp": "3:magic-squares",
+      "grade": "3",
+      "skill": "Complete a magic square so every row and column has the same sum",
+      "code": "3.NBT.A.2",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G3-349"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        298
+      ],
+      "note": "No activity reasons with several sums at once."
+    },
+    {
+      "tp": "3:balance-equations",
+      "grade": "3",
+      "skill": "The equal sign means both sides are the same amount; find the missing number with an operation on both sides",
+      "code": "3.OA.A.4",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-350"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "numbers-court.judge-balance.1-oa-d-7",
+        "fix-it-corner.missing-part.1-oa-d-8"
+      ],
+      "planned": [
+        290
+      ],
+      "note": "Numbers Court judges equations within 20 at grade 1; an unknown with expressions on BOTH sides (8+4=_+5) at grade-3 sizes is missing."
+    },
+    {
+      "tp": "3:two-attribute-sort",
+      "grade": "3",
+      "skill": "Classify by two attributes at once (two-circle Venn, row × column table, the missing cell)",
+      "code": "LOGIC",
+      "strand": "Logical reasoning",
+      "worksheets": [
+        "G3-353"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "mims-baskets.category-sort.l-k-5-a",
+        "sort-bins.sort-by-sides.2-g-a-1",
+        "choice-board.sort-count.k-md-b-3"
+      ],
+      "planned": [
+        312
+      ],
+      "note": "Every sort activity uses one attribute; the overlap (belongs to both) and the crossed table are missing."
+    },
+    {
+      "tp": "3:column-regrouping",
+      "grade": "3",
+      "skill": "Add and subtract within 1000 with the written column method, carrying and borrowing (incl. across zeros)",
+      "code": "3.NBT.A.2",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G3-357",
+        "G3-359",
+        "G3-360",
+        "G3-361",
+        "G3-362",
+        "G3-363"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "place-value-regroup.add-compose-hundred.2-nbt-b-7",
+        "place-value-regroup.subtract-decompose.2-nbt-b-7",
+        "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7"
+      ],
+      "planned": [
+        267
+      ],
+      "note": "Tuck's regrouping activities model the trade with base-ten blocks; the bridge to the written digits (the carried 1, the crossed-out borrow, the double borrow across a zero) is missing."
+    },
+    {
+      "tp": "3:times-tables",
+      "grade": "3",
+      "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
+      "code": "3.OA.C.7",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-358",
+        "G3-364",
+        "G3-365",
+        "G3-366",
+        "G3-367",
+        "G3-368",
+        "G3-402",
+        "G3-403",
+        "G3-404",
+        "G3-405"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "echo-grove.match-the-rune.3-oa-a-1",
+        "array.build-array.2-oa-c-4"
+      ],
+      "planned": [
+        293
+      ],
+      "note": "The meaning of a product is covered; fluency with a table and its structure (each fact is one group more than the last) is not. G3-405 has an empty title line in the input but is 'Times Table of 9' (file G3-405-times-table-of-9.js)."
+    },
+    {
+      "tp": "3:muldiv-word-problems",
+      "grade": "3",
+      "skill": "Solve multiplication and division word problems by modelling groups vs group size (share vs make groups)",
+      "code": "3.OA.A.3",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "G3-370",
+        "G3-371",
+        "G3-372",
+        "G3-373",
+        "G3-374",
+        "G3-375",
+        "G3-376"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "maple-bakery.share.3-oa-a-2",
+        "vet-diagnosis.word-problems.1-oa-a-1",
+        "numberbond.story-problem.2-oa-a-1"
+      ],
+      "planned": [
+        289
+      ],
+      "note": "The meanings exist as bare apparatus; deciding from a STORY which number is the groups and which the size, and whether to multiply or divide, is not taught."
+    },
+    {
+      "tp": "3:division-remainder",
+      "grade": "3",
+      "skill": "Divide with a remainder; the remainder is always smaller than the divisor",
+      "code": "4.NBT.B.6",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G3-377",
+        "G3-380",
+        "G3-381",
+        "G3-382",
+        "G3-383",
+        "G3-384"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        299
+      ],
+      "note": "Maple's Bakery uses exact divisions only; leftovers, 'exact or not' and the too-big-remainder error are untaught. (G3-384's number-line face is also reachable on skip-rod's measure-back setting, which shows the leftover gap.)"
+    },
+    {
+      "tp": "3:logic-grids",
+      "grade": "3",
+      "skill": "Solve a logic grid from clues (cross out what cannot be, tick what must be)",
+      "code": "LOGIC",
+      "strand": "Logical reasoning",
+      "worksheets": [
+        "G3-378",
+        "G3-379"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        260
+      ],
+      "note": "A logic-grid mark screen exists on the printable decks (level set #69), but no activity teaches deduction from clues."
+    },
+    {
+      "tp": "3:water-cycle",
+      "grade": "3",
+      "skill": "Name the stages of the water cycle: evaporation, condensation, precipitation, collection",
+      "code": "NGSS:2-ESS2 / 5-ESS2-1",
+      "strand": "Science",
+      "worksheets": [
+        "G3-385"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        315
+      ],
+      "note": "No science activity of any kind exists in the 204."
+    },
+    {
+      "tp": "3:flower-parts",
+      "grade": "3",
+      "skill": "Name the parts of a flower and what each does",
+      "code": "NGSS:4-LS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G3-392"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        231
+      ],
+      "note": "No plant activity exists."
+    },
+    {
+      "tp": "3:life-cycles-compare",
+      "grade": "3",
+      "skill": "Compare the butterfly and frog life cycles (true of one, the other, or both)",
+      "code": "NGSS:3-LS1-1",
+      "strand": "Science",
+      "worksheets": [
+        "G3-393"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        264
+      ],
+      "note": "No life-cycle activity exists."
+    },
+    {
+      "tp": "3:planets",
+      "grade": "3",
+      "skill": "Order the planets from the Sun and sort them into rocky and giant planets",
+      "code": "NGSS:5-ESS1 (solar system)",
+      "strand": "Science",
+      "worksheets": [
+        "G3-394",
+        "G3-395"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        314
+      ],
+      "note": "No space activity exists. Order and sort are one lesson on one apparatus (two settings)."
+    },
+    {
+      "tp": "3:continents-oceans",
+      "grade": "3",
+      "skill": "Locate the seven continents and five oceans on a world map",
+      "code": "SS:geography",
+      "strand": "Social Studies",
+      "worksheets": [
+        "G3-396"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        287
+      ],
+      "note": "No map activity exists."
+    },
+    {
+      "tp": "3:word-fields",
+      "grade": "3",
+      "skill": "Group verbs into word fields by meaning and tell close words apart (stroll/dash, glance/stare)",
+      "code": "L.3.5.c",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G3-397"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "shades.pick.l-1-5-d",
+        "roary-roar-meter.shades.l-2-5-b",
+        "ziggy-odd-one-out.category.l-1-5-a"
+      ],
+      "planned": [
+        311
+      ],
+      "note": "Shades activities rank intensity within one field; sorting verbs into fields by what they mean (moving vs seeing) is missing."
+    },
+    {
+      "tp": "3:person-words",
+      "grade": "3",
+      "skill": "Form person words with a suffix (bake -> baker, run -> runner) and know what they mean",
+      "code": "L.3.4.b",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G3-398"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "sage-root-garden.roots.l-2-4-c",
+        "affix.apply.l-2-4-b"
+      ],
+      "planned": [
+        310
+      ],
+      "note": "Sage's Root Garden recognises farmer/teacher as members of a root family; building the person word from the verb (incl. spelling changes) is not taught."
+    },
+    {
+      "tp": "3:root-words-in-context",
+      "grade": "3",
+      "skill": "Use a known root to choose the right family form for a sentence (bake / baker / baking / baked)",
+      "code": "L.3.4.c",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G3-399"
+      ],
+      "verdict": "partial",
+      "activities": [
+        "sage-root-garden.roots.l-2-4-c"
+      ],
+      "planned": [
+        310
+      ],
+      "note": "The family is found, but choosing the form a sentence needs is missing. Shares the word-press apparatus with person-words under a separate setting (two skills, each its own round set)."
+    },
+    {
+      "tp": "3:investigation",
+      "grade": "3",
+      "skill": "Run a fair test: predict, test, record what happened and draw a conclusion (sink or float)",
+      "code": "NGSS:3-5 SEP (plan and carry out investigations)",
+      "strand": "Science",
+      "worksheets": [
+        "G3-400"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        235
+      ],
+      "note": "No investigation activity exists; the lab report's free drawing/writing cannot be checked, so the instrument covers predict -> test -> record -> conclude."
+    },
+    {
+      "tp": "3:cursive-sentences",
+      "grade": "3",
+      "skill": "Trace and copy a sentence in joined (cursive) handwriting",
+      "code": "HANDWRITING",
+      "strand": "Handwriting",
+      "worksheets": [
+        "G3-401"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        283
+      ],
+      "note": "Print letter tracing exists (penny-alphabet-trace, snippy); joined writing does not. Free copying cannot be checked; the screen traces the joined guide path."
+    },
+    {
+      "tp": "3:two-attribute-sort~logic-cabinet",
+      "grade": "3",
+      "skill": "Classify by two attributes at once (two-circle Venn, row × column table, the missing cell) (part moved to logic-cabinet)",
+      "code": "LOGIC",
+      "strand": "Logical reasoning",
+      "worksheets": [
+        "G3-351"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        225
+      ],
+      "note": "Split out by the design review: this worksheet is taught by logic-cabinet."
+    },
+    {
+      "tp": "2:synonyms~doing-stage",
+      "grade": "2",
+      "skill": "Match words that mean the same; pick a synonym for \"said\" (part moved to doing-stage)",
+      "code": "L.2.5 / L.2.5.b",
+      "strand": "Vocabulary Acquisition and Use",
+      "worksheets": [
+        "G2-374"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        311
+      ],
+      "note": "Split out by the design review: this worksheet is taught by doing-stage."
+    },
+    {
+      "tp": "1:days-months-seasons~season-wheel",
+      "grade": "1",
+      "skill": "Yesterday/today/tomorrow, months in order, month before/after, day abbreviations, months and seasons (part moved to season-wheel)",
+      "code": "READINESS:calendar",
+      "strand": "Measurement & Data (time)",
+      "worksheets": [
+        "G1-323"
+      ],
+      "verdict": "gap",
+      "activities": [],
+      "planned": [
+        238
+      ],
+      "note": "Split out by the design review: this worksheet is taught by season-wheel."
+    }
+  ]
+}

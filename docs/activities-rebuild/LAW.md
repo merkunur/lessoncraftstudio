@@ -30,3 +30,7 @@ Operator rulings this file serves, verbatim:
 ## The recipe per activity (one per session)
 
 design sheet `docs/activities-rebuild/NNN-<key>.md` → own wrapper `mini tools/<key>-activity.js` + own core `<key>-core.js` + html + manifest row (0 lines to shared cores and `lcs-shell.*`) → `verify-<key>-core.js` (own oracle, poisoned) → `mutate-<key>.js` every mutation killed → `local-test-<key>.js` (real pointer, widths 320·360·412·704·768·1024·1366, every round) → `smoke-<key>-locales` ×11 → `visual-qa-activity.js` + `audit-activity-hierarchy.js` → one reviewer agent (native ×11 + pedagogy) over the compact string dump + round data → personal Read of 360 / 704 / 1024 → preview webp → `preflight-activity-routes.js` → commit. Deploys batch after the operator has seen the renders.
+
+## New activities (the worksheet→activity coverage plan, 2026-10-17)
+
+The same law governs the 111 NEW instruments that close the gap between what the worksheets teach and what the activities teach: `new/NEW-ORDER.md` (after ORDER.md row 204), one design sheet per row in `new/`, the recipe `new/NEW-RECIPE.md`, the scaffold `node scripts/new-activity.js --num=<#>`, the coverage gate `node scripts/audit-activity-coverage.js`, art and rulings the operator owns in `new/ART-NEEDS.md`. Non-Common-Core rows (science, health, social studies, SEL, readiness skills) use `alignment.framework` from `frontend/lib/frameworks.ts`.

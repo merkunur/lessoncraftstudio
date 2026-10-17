@@ -25,6 +25,7 @@
 
 import { listAllActivities, ActivityRow } from './activities';
 import { buildHreflangAlternates } from './seo/hreflang';
+import { isCcss } from './frameworks';
 
 export interface StandardMetadata {
   /** The full CC code, e.g. "K.CC.B.4" — case-sensitive identifier. */
@@ -71,6 +72,8 @@ export async function listAllCodes(): Promise<StandardMetadata[]> {
   const activities = await listAllActivities();
   const byCode = new Map<string, StandardMetadata>();
   for (const a of activities) {
+    /* only Common Core codes get a standards hub (frameworks.ts) */
+    if (!isCcss(a.alignment.framework)) continue;
     const existing = byCode.get(a.alignment.code);
     if (existing) {
       existing.activityCount++;

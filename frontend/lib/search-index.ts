@@ -19,6 +19,7 @@
  * substring > hint-substring, plus a current-locale bonus the client
  * applies before sorting.
  */
+import { displayCode } from '@/lib/frameworks';
 import { listAllActivities, ActivityRow } from "@/lib/activities";
 import { MANIPULATIVES } from "@/lib/manipulatives";
 
@@ -142,7 +143,7 @@ export async function buildSearchIndex(): Promise<SearchEntry[]> {
         locale: loc,
         label: title,
         url: `/${loc}/activities/${slug}/`,
-        hint: `${a.alignment.code} · ${gradeLabel} · ${strandLabel}`,
+        hint: [displayCode(a.alignment), gradeLabel, strandLabel].filter(Boolean).join(' · '),
       });
     }
   }

@@ -1,0 +1,122 @@
+#!/usr/bin/env node
+/* =====================================================================
+   local-test-__KEY__.js — the interaction gate for new activity #__NUM__,
+   __TITLE__ (__CODE__). Real clicks in a real browser, every round of
+   every level, every locale asked for, the width sweep 320–1366: the
+   miss ladder (nothing · wrong · wrong again · new choice · right), the
+   strings in the page locale, the fold, the tap floor, nothing outside the
+   card, no console errors.
+   ⚠ SCAFFOLD: the `view()` and the round walk test the skeleton cards.
+   Rewrite them against the invention (what the child moves, what each
+   miss shows) — keep the server, open(), forceRound(), the width sweep.
+   Usage: node scripts/local-test-__KEY__.js [--locales=en,…|all] [--widths=…] [--shot=<dir>]
+   ===================================================================== */
+'use strict';
+const http = require('http'), fs = require('fs'), path = require('path');
+const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k + '=')); return m ? m.slice(k.length + 3) : d; };
+const ALL = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+const LOCALES = arg('locales', 'en') === 'all' ? ALL : arg('locales', 'en').split(',');
+const WIDTHS = arg('widths', '320,360,412,704,768,1024,1366').split(',').map(Number);
+const SHOT = arg('shot', null);
+const ID = '__ID__';
+const REPO = path.join(__dirname, '..');
+const MINI = path.join(REPO, 'mini tools'), IMG = path.join(REPO, 'image-library-webp');
+const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
+const STR = require(path.join(MINI, '__KEY__-activity.js')).strings;
+const CORE = require(path.join(MINI, '__KEY__-core.js'));
+const interp = (s, a) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in a ? a[k] : m));
+let PASS = 0, FAIL = 0;
+const is = (c, m) => { if (c) PASS++; else { FAIL++; console.error('   FAIL: ' + m); } };
+function serve() {
+  return http.createServer((req, res) => {
+    const p = decodeURIComponent(req.url.split('?')[0]); let file;
+    if (p.startsWith('/mini-tools/')) file = path.join(MINI, p.slice(12));
+    else if (p.startsWith('/image-library-webp/')) file = path.join(IMG, p.slice(20));
+    else file = path.join(MINI, p.replace(/^\//, ''));
+    fs.readFile(file, (e, b) => { if (e) { res.statusCode = 404; res.end(); return; } res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream'); res.end(b); });
+  });
+}
+(async () => {
+  const server = serve(); await new Promise(r => server.listen(0, '127.0.0.1', r));
+  const base = 'http://127.0.0.1:' + server.address().port;
+  const puppeteer = require('puppeteer');
+  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  if (SHOT) fs.mkdirSync(SHOT, { recursive: true });
+  const wait = (ms) => new Promise(r => setTimeout(r, ms));
+  const vh = (w) => (w <= 320 ? 640 : w <= 360 ? 740 : w <= 420 ? 820 : 900);
+  async function open(loc, w) {
+    const page = await browser.newPage();
+    const errs = [];
+    page.on('pageerror', e => errs.push(String(e)));
+    page.on('console', m => { if (m.type() === 'error' && !/404|Failed to load resource/.test(m.text())) errs.push(m.text()); });
+    page.on('response', r => { if (r.status() === 404 && !/favicon\.ico$|\/audio\/inventory\.json$/.test(r.url())) errs.push('404 ' + r.url()); });
+    await page.setViewport({ width: w, height: vh(w) });
+    await page.goto(`${base}/__KEY__-activity.html?activity=${ID}&lang=${loc}&embed=1`, { waitUntil: 'networkidle0' });
+    await page.waitForFunction(() => window.__ACT__ && window.__ACT__.st && document.querySelector('.__PFX__-wrap'), { timeout: 8000 });
+    await page.evaluate(async () => { if (document.fonts) await document.fonts.ready; });
+    return { page, errs };
+  }
+  const setSetting = async (page, k, v) => { await page.evaluate((k, v) => { window.__ACT__.api.settings[k] = v; window.__ACT__.onSettings(k, v); }, k, v); await wait(250); };
+  const view = (page) => page.evaluate(() => {
+    const cards = [...document.querySelectorAll('.__PFX__-card')];
+    return { nums: cards.map(c => c.textContent).join(), on: cards.map(c => c.classList.contains('is-on') ? 1 : 0).join(''), glow: cards.findIndex(c => c.classList.contains('is-glow')), disabled: cards.every(c => c.disabled), aria: cards.map(c => c.getAttribute('aria-label')) };
+  });
+  const bubble = (page) => page.evaluate(() => document.querySelector('.lcs-activity-bubble').textContent);
+  const celebrated = (page) => page.evaluate(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate') && !document.querySelector('.lcs-activity-next').hidden);
+  async function clickEl(page, sel, pick) {
+    const c = await page.evaluate((s, pick) => { const els = [...document.querySelectorAll(s)].filter(e => !e.hidden && e.offsetParent !== null); const el = els[pick || 0]; if (!el) return null; el.scrollIntoView({ block: 'center', behavior: 'instant' }); const r = el.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; }, sel, pick);
+    if (!c) throw new Error('no element ' + sel + ' #' + (pick || 0)); await wait(30); await page.mouse.click(c.x, c.y); await wait(80);
+  }
+  const check = (page) => clickEl(page, '.lcs-activity-check');
+  async function forceRound(page, i) { await page.evaluate((i) => { const t = window.__ACT__; const n = t._pool.length; const order = [i]; for (let k = 0; k < n; k++) if (k !== i) order.push(k); t._order = order; t._curPass = 0; window.LCS_reloadFirstTask(); }, i); await wait(200); }
+
+  for (const loc of LOCALES) {
+    const { page, errs } = await open(loc, 704);
+    for (const level of CORE.LEVELS) {
+      await setSetting(page, 'level', level);
+      const R = CORE.rounds(level, '__PFX__');
+      is((await page.evaluate(() => window.__ACT__._pool.map(r => r.id).join())) === R.map(r => r.id).join(), `[${loc}] ${level}: the pool`);
+      const rounds = (loc === 'en' || level === 'full') ? R.map((r, i) => i) : [0, 1];
+      for (const ri of rounds) {
+        const r = R[ri], tag = `[${loc} ${level} #${ri}]`, wrong = (r.answer + 1) % r.options.length;
+        await forceRound(page, ri);
+        let v = await view(page);
+        is(v.nums === r.options.join() && v.on === '000' && v.glow === -1, `${tag} the cards, nothing chosen`);
+        is(v.aria[0] === interp(STR.cardAria[loc], { n: r.options[0] }), `${tag} the labels in ${loc}`);
+        await check(page); is((await bubble(page)) === STR.hintStart[loc], `${tag} no choice → start hint`);
+        await clickEl(page, '.__PFX__-card', wrong); await check(page); is((await bubble(page)) === STR.hintLook[loc], `${tag} wrong → hintLook`);
+        await check(page); v = await view(page); is((await bubble(page)) === STR.hintShow[loc] && v.glow === r.answer, `${tag} wrong again → the answer shown`);
+        await clickEl(page, '.__PFX__-card', r.answer); await check(page); await wait(200); v = await view(page);
+        is(await celebrated(page) && (await bubble(page)) === interp(STR.celebrate[loc], { n: r.target }) && v.disabled, `${tag} right → "${await bubble(page)}"`);
+      }
+    }
+    await setSetting(page, 'level', 'full');
+    is((await page.evaluate(() => document.querySelector('.lcs-activity-prompt-text').textContent)) === STR.prompt[loc], `[${loc}] the task line`);
+    is(errs.length === 0, `[${loc}] no console errors (${errs.slice(0, 3).join(' | ')})`);
+    if (SHOT && loc !== 'en') { await forceRound(page, 0); await clickEl(page, '.__PFX__-card', 1); await check(page); await check(page); await wait(250); await page.screenshot({ path: path.join(SHOT, `${loc}-704-miss.png`), fullPage: true }); }
+    await page.close();
+  }
+
+  for (const w of WIDTHS) {
+    const { page, errs } = await open('en', w);
+    const tag = `[en @${w}]`;
+    for (const ri of [0, 3, 6]) {
+      await forceRound(page, ri);
+      const m = await page.evaluate(() => {
+        const card = document.querySelector('.lcs-app').getBoundingClientRect();
+        const els = [...document.querySelectorAll('.__PFX__-wrap *')].map(e => e.getBoundingClientRect()).filter(r => r.width > 0);
+        const taps = [...document.querySelectorAll('.__PFX__-card')].map(e => Math.min(e.offsetWidth, e.offsetHeight));
+        const ck = document.querySelector('.lcs-activity-check').getBoundingClientRect();
+        return { overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth, inCard: els.every(x => x.left >= card.left - 1 && x.right <= card.right + 1), tap: Math.min(...taps), checkBottom: ck.bottom + window.scrollY };
+      });
+      is(m.overflow <= 2 && m.inCard && m.tap >= 44, `${tag} #${ri} inside the card, taps ≥ 44 (${m.tap})`);
+      is(m.checkBottom <= vh(w), `${tag} #${ri} Check above the fold (${m.checkBottom.toFixed(0)} ≤ ${vh(w)})`);
+    }
+    if (SHOT) { await forceRound(page, 0); await page.screenshot({ path: path.join(SHOT, `en-${w}-start.png`), fullPage: true }); }
+    is(errs.length === 0, `${tag} no console errors (${errs.slice(0, 3).join(' | ')})`);
+    await page.close();
+  }
+  await browser.close(); server.close();
+  console.log(`\nlocal-test-__KEY__: ${PASS} pass, ${FAIL} fail`);
+  process.exit(FAIL ? 1 : 0);
+})().catch(e => { console.error(e); process.exit(1); });

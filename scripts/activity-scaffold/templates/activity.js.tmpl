@@ -1,0 +1,177 @@
+/* =====================================================================
+   __KEY__-activity.js — new activity #__NUM__: __TITLE__ (__CODE__).
+   ---------------------------------------------------------------------
+   ⚠ SCAFFOLD (scripts/new-activity.js). A running skeleton: three cards,
+   tap the one that matches, Check. Replace render/_paint/the CSS with the
+   invention from docs/activities-rebuild/new/__NUM__-__KEY__.md. Keep:
+   the nextTask reshuffle (≥ 7 rounds, order-only, never the same order
+   twice), answerType 'state', the test seams, apparatusClasses, no words
+   on the apparatus, library pictures only (LCSPictures), 0 lines to
+   lcs-shell.* or any shared core. Strings: every key in all 11 locales —
+   the EN source first, the others by hand, then ONE native + pedagogy
+   reviewer. fr uses a real U+202F before ? : ! ; and inside « ».
+   Test seams: window.__ACT__.st / ._order / ._pool.
+   ===================================================================== */
+'use strict';
+
+var __ACT__ = {
+  id: '__KEY__',
+  apparatusClasses: ['__PFX__-'],
+
+  /* TODO(strings): author en, then de fr es pt it nl sv da no fi. Placeholders ({n}) are filled by this file (_t), never by the shell. */
+  strings: {
+    title:       {en:'__TITLE__',de:'__TITLE__',fr:'__TITLE__',es:'__TITLE__',pt:'__TITLE__',it:'__TITLE__',nl:'__TITLE__',sv:'__TITLE__',da:'__TITLE__',no:'__TITLE__',fi:'__TITLE__'},
+    instruction: {en:'TODO instruction',de:'TODO',fr:'TODO',es:'TODO',pt:'TODO',it:'TODO',nl:'TODO',sv:'TODO',da:'TODO',no:'TODO',fi:'TODO'},
+    prompt:      {en:'TODO prompt — tap, then press Check.',de:'TODO',fr:'TODO',es:'TODO',pt:'TODO',it:'TODO',nl:'TODO',sv:'TODO',da:'TODO',no:'TODO',fi:'TODO'},
+    cardAria:    {en:'Card {n}',de:'Karte {n}',fr:'Carte {n}',es:'Tarjeta {n}',pt:'Cartão {n}',it:'Carta {n}',nl:'Kaart {n}',sv:'Kort {n}',da:'Kort {n}',no:'Kort {n}',fi:'Kortti {n}'},
+    hintStart:   {en:'TODO hintStart',de:'TODO',fr:'TODO',es:'TODO',pt:'TODO',it:'TODO',nl:'TODO',sv:'TODO',da:'TODO',no:'TODO',fi:'TODO'},
+    hintLook:    {en:'TODO hintLook (miss 1)',de:'TODO',fr:'TODO',es:'TODO',pt:'TODO',it:'TODO',nl:'TODO',sv:'TODO',da:'TODO',no:'TODO',fi:'TODO'},
+    hintShow:    {en:'TODO hintShow (miss 2)',de:'TODO',fr:'TODO',es:'TODO',pt:'TODO',it:'TODO',nl:'TODO',sv:'TODO',da:'TODO',no:'TODO',fi:'TODO'},
+    celebrate:   {en:'Yes — {n}!',de:'Ja – {n}!',fr:'Oui — {n} !',es:'¡Sí: {n}!',pt:'Isso: {n}!',it:'Sì: {n}!',nl:'Ja – {n}!',sv:'Ja – {n}!',da:'Ja – {n}!',no:'Ja – {n}!',fi:'Kyllä – {n}!'},
+    setLevel:    {en:'Numbers',de:'Zahlen',fr:'Nombres',es:'Números',pt:'Números',it:'Numeri',nl:'Getallen',sv:'Tal',da:'Tal',no:'Tall',fi:'Luvut'},
+    levelEasy:   {en:'Up to 6',de:'Bis 6',fr:'Jusqu’à 6',es:'Hasta 6',pt:'Até 6',it:'Fino a 6',nl:'Tot en met 6',sv:'Upp till 6',da:'Op til 6',no:'Opptil 6',fi:'6:een asti'},
+    levelFull:   {en:'Up to 10',de:'Bis 10',fr:'Jusqu’à 10',es:'Hasta 10',pt:'Até 10',it:'Fino a 10',nl:'Tot en met 10',sv:'Upp till 10',da:'Op til 10',no:'Opptil 10',fi:'10:een asti'}
+  },
+
+  defaults: { level: 'full' },
+  settings: [
+    { key: 'level', type: 'choice', labelKey: 'setLevel', options: [{ value: 'easy', labelKey: 'levelEasy' }, { value: 'full', labelKey: 'levelFull' }] }
+  ],
+
+  init: function (api) {
+    this.api = api;
+    this.st = null;
+    this._pool = null; this._poolKey = null; this._order = null; this._curPass = 0;
+    this._ro = null;
+    inject__GLOBAL__CSS();
+    /* pictures: LCSPictures.load('<theme>').then(function (theme) { self._theme = theme; … }) — add lcs-pictures.js to the html first */
+  },
+  destroy: function () { if (this._ro) { try { this._ro.disconnect(); } catch (e) {} this._ro = null; } },
+  onSettings: function () {
+    this._pool = null; this._order = null;
+    if (window.LCS_reloadFirstTask) window.LCS_reloadFirstTask();
+  },
+
+  /* ---------------- rounds (order-only reshuffle, every pass a new order) ---------------- */
+  _width: function () {
+    var s = this.api && this.api.stage, w = 0;
+    if (this._wrap && this._wrap.isConnected) w = Math.floor(this._wrap.getBoundingClientRect().width);
+    else if (s) { var cs = getComputedStyle(s); w = s.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0); }
+    return w > 160 ? w : 640;
+  },
+  _level: function () { var l = this.api && this.api.settings && this.api.settings.level; return __CORE__.POOLS[l] ? l : 'full'; },
+  _ensurePool: function () { var key = this._level(); if (!this._pool || this._poolKey !== key) { this._pool = __CORE__.rounds(key, '__PFX__'); this._poolKey = key; this._order = null; } return this._pool; },
+  _shuffled: function (n, prev) {
+    var a = [], i, j, t;
+    for (i = 0; i < n; i++) a.push(i);
+    for (var g = 0; g < 10; g++) {
+      for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; }
+      if (!prev || n < 2 || a.join(',') !== prev.join(',')) break;
+    }
+    return a;
+  },
+  nextTask: function (opts) {
+    var pool = this._ensurePool(), n = pool.length;
+    var index = (opts && opts.index) || 0;
+    if (!this._order || this._order.length !== n) { this._order = this._shuffled(n, null); this._curPass = Math.floor(index / n); }
+    var pass = Math.floor(index / n);
+    if (pass > this._curPass) { this._order = this._shuffled(n, this._order); this._curPass = pass; }
+    var r = pool[this._order[index % n]];
+    return {
+      id: '__KEY__.' + r.id,
+      promptKey: 'prompt',
+      promptArgs: { n: r.target },
+      celebrateKey: 'celebrate',
+      answerType: 'state',
+      setup: function (tool) { tool.st = __CORE__.newState(r); },
+      check: function (tool) { var res = __CORE__.check(tool.st); tool._afterCheck(res); return res.ok; },
+      hintKey: function (tool) { return __CORE__.hintKey(tool.st); }
+    };
+  },
+
+  /* ---------------- render ---------------- */
+  _t: function (key, args) { return String(this.api.t(key)).replace(/\{(\w+)\}/g, function (m, k) { return args && k in args ? args[k] : m; }); },
+  render: function () {
+    if (!this.api) return;
+    var api = this.api, self = this, C = __CORE__;
+    api.stage.innerHTML = '';
+    if (!this.st) this.st = C.newState(C.rounds('full', '__PFX__')[0]);
+    var wrap = api.el('div', '__PFX__-wrap'); this._wrap = wrap;
+    var target = api.el('div', '__PFX__-target'); target.setAttribute('aria-hidden', 'true'); this._target = target;
+    var row = api.el('div', '__PFX__-row'); this._row = row;
+    wrap.appendChild(target); wrap.appendChild(row);
+    api.stage.appendChild(wrap);
+    this._layout();
+    this._paint();
+    this._watchWidth();
+    void self;
+  },
+  _layout: function () {
+    var L = this._L = __CORE__.layout(this._width()), w = this._wrap;
+    ['wide', 'stack'].forEach(function (m) { w.classList.toggle('is-' + m, L.mode === m); });
+    w.style.setProperty('--__PFX__-card', L.card + 'px');
+    w.style.setProperty('--__PFX__-gap', L.gap + 'px');
+  },
+  _watchWidth: function () {
+    var self = this;
+    if (this._ro) { try { this._ro.disconnect(); } catch (e) {} }
+    if (typeof ResizeObserver === 'undefined') return;
+    var last = this._width();
+    this._ro = new ResizeObserver(function () {
+      var w = self._width();
+      if (Math.abs(w - last) < 8 || !self._wrap || !self._wrap.isConnected) return;
+      last = w; self._layout(); self._paint();
+    });
+    this._ro.observe(this.api.stage);
+  },
+  _paint: function () {
+    var st = this.st, C = __CORE__, self = this, api = this.api, glow = C.revealed(st);
+    this._wrap.classList.toggle('is-done', st.done);
+    this._target.textContent = String(st.target);
+    this._row.innerHTML = '';
+    st.options.forEach(function (v, i) {
+      var b = api.el('button', '__PFX__-card' + (st.choice === i ? ' is-on' : '') + (glow === i ? ' is-glow' : '')); b.type = 'button';
+      b.textContent = String(v);
+      b.setAttribute('aria-label', self._t('cardAria', { n: v }));
+      b.setAttribute('aria-pressed', String(st.choice === i));
+      b.disabled = st.done;
+      b.addEventListener('click', function () { self._choose(i); });
+      self._row.appendChild(b);
+    });
+  },
+
+  /* ---------------- the hand ---------------- */
+  _choose: function (i) {
+    if (!__CORE__.choose(this.st, i)) return;
+    this.api.sound(500);
+    this._paint();
+    this.api.track('choose', { i: i });
+  },
+  _afterCheck: function (res) {
+    this._paint();
+    if (res.slip === 'none') return;
+    this.api.sound(res.ok ? 660 : 280);
+    this.api.track('check', { id: this.st.id, ok: res.ok, misses: this.st.misses });
+  }
+};
+
+var __PFX__CssDone = false;
+function inject__GLOBAL__CSS() {
+  if (__PFX__CssDone || typeof document === 'undefined') return;
+  __PFX__CssDone = true;
+  var css = ''
+  + '.__PFX__-wrap{width:100%;display:flex;flex-direction:column;align-items:center;gap:22px;--__PFX__-card:140px;--__PFX__-gap:24px;}'
+  + '.__PFX__-target{font-family:var(--lcs-font-display);font-weight:800;font-size:72px;line-height:1;color:var(--lcs-structure);}'
+  + '.__PFX__-row{display:flex;gap:var(--__PFX__-gap);justify-content:center;}'
+  + '.__PFX__-card{width:var(--__PFX__-card);height:var(--__PFX__-card);border-radius:20px;border:3px solid transparent;background:#fff;box-shadow:0 4px 12px rgba(40,40,30,.13);font-family:var(--lcs-font-display);font-weight:800;font-size:calc(var(--__PFX__-card) * .45);cursor:pointer;touch-action:manipulation;}'
+  + '.__PFX__-card.is-on{border-color:var(--lcs-structure);box-shadow:0 0 0 4px rgba(20,107,94,.18),0 6px 16px rgba(20,107,94,.22);}'
+  + '.__PFX__-card.is-glow{box-shadow:0 0 0 5px rgba(242,178,28,.7);}'
+  + '.__PFX__-card:focus-visible{outline:3px solid var(--lcs-structure);outline-offset:3px;}';
+  var style = document.createElement('style');
+  style.id = '__PFX__-css';
+  style.textContent = css;
+  document.head.appendChild(style);
+}
+
+if (typeof module !== 'undefined' && module.exports) module.exports = __ACT__;
+if (typeof window !== 'undefined') window.__ACT__ = __ACT__;

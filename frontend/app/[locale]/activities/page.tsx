@@ -1,4 +1,5 @@
 import fs from "fs";
+import { displayCode } from '@/lib/frameworks';
 import path from "path";
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Metadata } from "next";
@@ -101,6 +102,7 @@ interface LandingStrings {
   subjectHeading: string;
   subjectMath: string;
   subjectLiteracy: string;
+  subjectWorld: string;
   skillHeading: string;
   sortHeading: string;
   sortNewest: string;
@@ -124,6 +126,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Subject",
     subjectMath: "Math",
     subjectLiteracy: "Literacy",
+    subjectWorld: "Science & World",
     skillHeading: "Skill area",
     sortHeading: "Sort",
     sortNewest: "Newest",
@@ -145,6 +148,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Fach",
     subjectMath: "Mathematik",
     subjectLiteracy: "Sprache",
+    subjectWorld: "Sachunterricht",
     skillHeading: "Lernbereich",
     sortHeading: "Sortieren",
     sortNewest: "Neueste",
@@ -166,6 +170,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Materia",
     subjectMath: "Matemáticas",
     subjectLiteracy: "Lengua",
+    subjectWorld: "Ciencias y sociedad",
     skillHeading: "Área",
     sortHeading: "Ordenar",
     sortNewest: "Más recientes",
@@ -187,6 +192,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Matière",
     subjectMath: "Mathématiques",
     subjectLiteracy: "Langage",
+    subjectWorld: "Questionner le monde",
     skillHeading: "Domaine",
     sortHeading: "Trier",
     sortNewest: "Plus récentes",
@@ -208,6 +214,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Disciplina",
     subjectMath: "Matematica",
     subjectLiteracy: "Lingua",
+    subjectWorld: "Scienze e mondo",
     skillHeading: "Ambito",
     sortHeading: "Ordina",
     sortNewest: "Più recenti",
@@ -229,6 +236,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Disciplina",
     subjectMath: "Matemática",
     subjectLiteracy: "Linguagem",
+    subjectWorld: "Ciências e sociedade",
     skillHeading: "Habilidade",
     sortHeading: "Ordenar",
     sortNewest: "Mais recentes",
@@ -250,6 +258,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Vak",
     subjectMath: "Rekenen",
     subjectLiteracy: "Taal",
+    subjectWorld: "Wereldoriëntatie",
     skillHeading: "Leergebied",
     sortHeading: "Sorteren",
     sortNewest: "Nieuwste",
@@ -271,6 +280,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Ämne",
     subjectMath: "Matematik",
     subjectLiteracy: "Språk",
+    subjectWorld: "NO och SO",
     skillHeading: "Område",
     sortHeading: "Sortera",
     sortNewest: "Senaste",
@@ -292,6 +302,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Fag",
     subjectMath: "Matematik",
     subjectLiteracy: "Sprog",
+    subjectWorld: "Natur og samfund",
     skillHeading: "Område",
     sortHeading: "Sortér",
     sortNewest: "Nyeste",
@@ -313,6 +324,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Fag",
     subjectMath: "Matematikk",
     subjectLiteracy: "Språk",
+    subjectWorld: "Naturfag og samfunnsfag",
     skillHeading: "Område",
     sortHeading: "Sorter",
     sortNewest: "Nyeste",
@@ -334,6 +346,7 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     subjectHeading: "Oppiaine",
     subjectMath: "Matematiikka",
     subjectLiteracy: "Kieli",
+    subjectWorld: "Ympäristöoppi",
     skillHeading: "Taitoalue",
     sortHeading: "Lajittele",
     sortNewest: "Uusimmat",
@@ -476,9 +489,9 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
   const gradeCounts = countMap(facets.grade);
   const skillCounts = countMap(facets.skill);
 
-  const subjectLabel = (s: Subject) => (s === "math" ? strings.subjectMath : strings.subjectLiteracy);
+  const subjectLabel = (s: Subject) => (s === "math" ? strings.subjectMath : s === "world" ? strings.subjectWorld : strings.subjectLiteracy);
 
-  const subjectItems = (["math", "literacy"] as Subject[])
+  const subjectItems = (["math", "literacy", "world"] as Subject[])
     .filter((v) => subjCounts.has(v))
     .map((v) => ({
       paramKey: "subject" as const,
@@ -672,7 +685,7 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
                     subject={deriveSubject(row.alignment.strand)}
                     title={shortTitle(row.page_title[locale])}
                     gradeLabel={gradeName(row.alignment.grade)}
-                    code={row.alignment.code}
+                    code={displayCode(row.alignment)}
                     strandLabel={localizeStrand(row.alignment.strand, locale)}
                     category={strandKey(row.alignment.strand)}
                     tryItLabel={strings.tryItLink}

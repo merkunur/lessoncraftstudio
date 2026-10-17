@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { displayCode } from '@/lib/frameworks';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -192,7 +193,7 @@ async function relatedActivitiesFor(toolKey: ToolKey, locale: string) {
   const prefix = TOOL_ACTIVITY_PREFIX[toolKey];
   return all
     .filter((a) => typeof a.tool === 'string' && a.tool.startsWith(prefix) && a.slug[locale] && a.page_title[locale])
-    .map((a) => ({ id: a.id, title: a.page_title[locale], href: localePath(locale, 'activities', a.slug[locale]), code: a.alignment.code }));
+    .map((a) => ({ id: a.id, title: a.page_title[locale], href: localePath(locale, 'activities', a.slug[locale]), code: displayCode(a.alignment) }));
 }
 
 /**

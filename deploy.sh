@@ -283,6 +283,8 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 # reached the operator twice. It runs here now.
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
+# WARN-only: do the activities still cover every worksheet type? (docs/activities-rebuild/coverage/) — a worksheet type added without a teaching point is reported, never blocks the deploy.
+node /opt/lessoncraftstudio/scripts/audit-activity-coverage.js > /tmp/lcs-activity-coverage.txt 2>&1 && tail -6 /tmp/lcs-activity-coverage.txt || { echo "⚠️  WARNING: activity coverage map out of date — node scripts/audit-activity-coverage.js"; tail -12 /tmp/lcs-activity-coverage.txt; }
 
 # Guard: no false price claim in the activity BODY prose. verify-activity-serp-copy
 # gates page_title + page_intro — the search-results surface — and nothing gated the

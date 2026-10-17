@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { isCcss, frameworkNameEn, hasExternalStandard, displayCode } from '@/lib/frameworks';
 import path from 'path';
 import { Metadata } from 'next';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
@@ -520,7 +521,7 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
       alignmentType: 'educationalSubject',
       targetName: row.alignment.code,
       targetDescription: effStrand(row, locale),
-      educationalFramework: EDUCATIONAL_FRAMEWORK_BY_LOCALE[locale] || 'Common Core State Standards',
+      educationalFramework: locale === 'en' ? frameworkNameEn(row.alignment.framework) : (EDUCATIONAL_FRAMEWORK_BY_LOCALE[locale] || frameworkNameEn(row.alignment.framework)),
     },
     audience: {
       '@type': 'EducationalAudience',
@@ -536,6 +537,8 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
     url: canonical,
   };
   if (ageRange) data.typicalAgeRange = ageRange;
+  /* a READINESS row names no external standard — claim no alignment (lib/frameworks.ts) */
+  if (!hasExternalStandard(row.alignment.framework)) delete data.educationalAlignment;
   return JSON.stringify(data);
 }
 
@@ -586,6 +589,8 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const related = await listRelatedActivities(row, params.locale);
   const otherLangs = await otherLocalesForRow(row, params.locale);
   const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
+  /* only Common Core rows have a standards hub (lib/frameworks.ts) */
+  const hasStandardsHub = isCcss(row.alignment.framework);
   const relatedHeading = RELATED_HEADING[params.locale] ?? RELATED_HEADING.en;
   // Localized CCSS strand name (R4 / §20.8) — the raw English domain name
   // (e.g. "Counting & Cardinality") was leaking into the chip + FAQ on non-EN
@@ -647,12 +652,16 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
                   page (/[locale]/standards/<code>) which aggregates every
                   activity aligned to this code. Internal-linking surface
                   per external SEO audit 2026-05-27. */}
-              <Link
-                href={`/${params.locale}/standards/${row.alignment.code}`}
-                className="font-mono underline decoration-dotted underline-offset-2 hover:decoration-solid"
-              >
-                {row.alignment.code}
-              </Link>
+              {hasStandardsHub ? (
+                <Link
+                  href={`/${params.locale}/standards/${row.alignment.code}`}
+                  className="font-mono underline decoration-dotted underline-offset-2 hover:decoration-solid"
+                >
+                  {row.alignment.code}
+                </Link>
+              ) : hasExternalStandard(row.alignment.framework) ? (
+                <span className="font-mono">{row.alignment.code}</span>
+              ) : null}
             </div>
             {/* Subscriber share — mint a clean student-play link + QR for this
                 activity. Gated client-side (signed-out → sign-up, no-plan →
@@ -824,7 +833,8 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             own translations. Real anchors (not JS buttons) so they feed the
             internal link graph. Ships for all 11 locales. */}
         <div className="mx-auto max-w-2xl px-1 mt-10 space-y-10">
-          {/* Practice this standard — explicit crawl-bait anchor to the hub. */}
+          {/* Practice this standard — explicit crawl-bait anchor to the hub (Common Core rows only). */}
+          {hasStandardsHub && (
           <section aria-labelledby="activity-practice-heading">
             <h2
               id="activity-practice-heading"
@@ -840,6 +850,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               <span aria-hidden="true">→</span>
             </Link>
           </section>
+          )}
 
           {/* Related activities — same strand, then same grade. */}
           {related.length > 0 && (
@@ -861,9 +872,11 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
                         href={localePath(params.locale, 'activities', rSlug)}
                         className="flex items-center gap-2 rounded-2xl bg-cream-50 hover:bg-teal-50 px-4 py-3 text-teal-800 font-medium shadow-sm transition-colors"
                       >
-                        <span className="font-mono text-xs text-teal-500">
-                          {r.alignment.code}
-                        </span>
+                        {displayCode(r.alignment) ? (
+                          <span className="font-mono text-xs text-teal-500">
+                            {displayCode(r.alignment)}
+                          </span>
+                        ) : null}
                         <span>{rTitle}</span>
                       </Link>
                     </li>

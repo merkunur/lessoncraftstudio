@@ -5,8 +5,11 @@
  * filters/sorts/paginates here, and builds localized facet groups with counts.
  *
  * Design decisions (CLAUDE.md §20, §17.4.3):
- *  - Subject (math|literacy) is DERIVED from the CCSS strand (no subject field
- *    in the manifest). Math = the five math domains; Literacy = the ELA strands.
+ *  - Subject (math|literacy|world) is DERIVED from the strand (no subject field
+ *    in the manifest). Math = the math domains (incl. fractions and the
+ *    READINESS 'Logic & Visual Thinking' strand); World = science, health &
+ *    safety, social studies, social-emotional learning (the worksheet→activity
+ *    coverage plan, frameworks.ts); Literacy = everything else (the ELA strands).
  *  - "Skill area" facet = the CCSS strand, localized via localizeStrand at the
  *    render layer (this file keeps the URL-safe English key only).
  *  - shortTitle trims the long SEO page_title to a card-sized name at the first
@@ -14,7 +17,7 @@
  */
 import type { ActivityRow } from './activities';
 
-export type Subject = 'math' | 'literacy';
+export type Subject = 'math' | 'literacy' | 'world';
 
 /* The five CCSS math domains. Anything else (Reading: Foundational Skills,
    Phonological Awareness, Language) is literacy. Both Base-Ten spellings. */
@@ -25,10 +28,20 @@ const MATH_STRANDS = new Set<string>([
   'Number and Operations in Base Ten',
   'Measurement & Data',
   'Geometry',
+  'Number & Operations—Fractions',
+  'Logic & Visual Thinking',
+]);
+
+/* The non-Common-Core subjects the worksheets also teach (frameworks.ts). */
+const WORLD_STRANDS = new Set<string>([
+  'Science',
+  'Health & Safety',
+  'Social Studies',
+  'Social-Emotional Learning',
 ]);
 
 export function deriveSubject(strand: string): Subject {
-  return MATH_STRANDS.has(strand) ? 'math' : 'literacy';
+  return WORLD_STRANDS.has(strand) ? 'world' : MATH_STRANDS.has(strand) ? 'math' : 'literacy';
 }
 
 /* URL-safe key per strand (the "skill area" facet value). Both Base-Ten
@@ -43,6 +56,13 @@ export const STRAND_KEY: Record<string, string> = {
   'Reading: Foundational Skills': 'reading',
   'Phonological Awareness': 'phonological',
   Language: 'language',
+  'Number & Operations—Fractions': 'fractions',
+  'Logic & Visual Thinking': 'logic',
+  Handwriting: 'handwriting',
+  Science: 'science',
+  'Health & Safety': 'health',
+  'Social Studies': 'social-studies',
+  'Social-Emotional Learning': 'sel',
 };
 
 export function strandKey(strand: string): string {
@@ -63,6 +83,8 @@ export const SUBJECT_STYLE: Record<
   // by the subject-colored glyph stroke, the backing coin, and the edge band.
   math: { panel: 'bg-[#DCEAE6]', glyph: 'text-lcs-teal', edge: 'bg-lcs-teal', coin: 'bg-lcs-teal/12' },
   literacy: { panel: 'bg-[#FBE0D2]', glyph: 'text-lcs-coral-deep', edge: 'bg-lcs-coral', coin: 'bg-lcs-coral/12' },
+  // World (science / health / social studies / SEL): a leaf-green family, third beside teal and coral.
+  world: { panel: 'bg-[#E2EDD3]', glyph: 'text-[#4E7A2E]', edge: 'bg-[#6B9E3F]', coin: 'bg-[#6B9E3F]/12' },
 };
 
 /* Trim the long SEO page_title to a card-sized display name. Cuts at the first
@@ -93,7 +115,7 @@ const first = (v: string | string[] | undefined): string | undefined =>
 export function parseActivityFilters(sp: SP): ActivityFilters {
   const subjectRaw = first(sp.subject);
   const subject: Subject | null =
-    subjectRaw === 'math' || subjectRaw === 'literacy' ? subjectRaw : null;
+    subjectRaw === 'math' || subjectRaw === 'literacy' || subjectRaw === 'world' ? subjectRaw : null;
   const gradeRaw = first(sp.grade);
   const grade = gradeRaw && ['K', '1', '2', '3'].includes(gradeRaw) ? gradeRaw : null;
   const skill = first(sp.skill) || null;
@@ -135,7 +157,7 @@ export interface FacetOption {
   count: number;
 }
 export interface ActivityFacets {
-  subject: FacetOption[]; // value = 'math' | 'literacy'
+  subject: FacetOption[]; // value = 'math' | 'literacy' | 'world'
   grade: FacetOption[]; // value = 'K' | '1' | '2'
   skill: FacetOption[]; // value = strand key (render localizes via the row map)
 }

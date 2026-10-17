@@ -86,9 +86,11 @@ export default function ActivityCatalogCard({
         <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-lcs-teal/10 text-lcs-teal text-[0.7rem] font-lcsBody font-bold">
           {gradeLabel}
         </span>
-        <span className="inline-flex items-center px-2 py-0.5 rounded-full border border-lcs-teal/20 text-lcs-teal/55 text-[0.68rem] font-mono">
-          {code}
-        </span>
+        {code ? (
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full border border-lcs-teal/20 text-lcs-teal/55 text-[0.68rem] font-mono">
+            {code}
+          </span>
+        ) : null}
       </div>
 
       {/* Strand sublabel */}

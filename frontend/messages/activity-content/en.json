@@ -1141,25 +1141,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Two groups of friendly pictures appear side by side — cats, dogs, ducks, fish, apples, bananas, oranges, or strawberries — and the child taps the group that has more. Counts run up to eight, and children compare by seeing and counting rather than reading numerals, in this Kindergarten counting activity that runs in the browser on phones, tablets, and classroom computers with no sign-up.",
-        "The big idea is that 'more' is about how many, not about how much space a group takes up. Because the two groups can be close — like seven against six, or six against five — a child cannot win by glancing at the bigger blob; they have to actually count each group and compare the totals. That beats the common eye-trick where a few spread-out pictures look like more than a tight little bunch.",
-        "It is aligned to Common Core K.CC.C.6 — telling whether the number of objects in one group is greater than, less than, or equal to the number in another. No timer, no score — just calm, playful practice."
+        "Two mats, two groups that belong together — bees and flowers, bunnies and carrots, squirrels and acorns. Which group has more, or are they the same? The child taps “More” on the group with more, or “The same”, and presses Check. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "The spacing is often a trick: in many rounds the smaller group is spread out across its mat while the bigger one huddles together, so the group that looks bigger is the one with fewer — but not always, so the eye can't be trusted either way. That is the classic trap of comparing by eye, and the activity gives the child two honest ways past it. One is matching: a tap on one in the top group and then one in the bottom group gives both the same bow — a colour and a shape — and whoever is left without a bow shows which group has more; if nobody is left over, the groups are the same. The other is counting both groups. A wrong answer brings a hint: pair them up, or look for the ones without a partner. After a second, the rest are paired and the ones without a partner are ringed. A right answer bows every pair, numbers both groups and says it with numbers: “10 is more than 7”.",
+        "It is aligned to Common Core K.CC.C.6 — saying whether the number of objects in one group is greater than, less than or equal to the number in another, by matching and counting, up to 10. Teachers can choose groups up to 5 or up to 10, and switch the spacing trick off. No timer, no score."
       ],
       "practices": [
-        "Counting how many are in each of two groups",
-        "Comparing the two totals to decide which group has more",
-        "Ignoring how spread out or bunched up a group looks and counting instead",
-        "Connecting the bigger count to the idea of 'more'"
+        "Comparing two groups up to 10: more, fewer or the same",
+        "Matching one to one: a partner for each",
+        "Counting both groups to compare them",
+        "Not letting the spacing fool the eye"
       ],
       "howToPlay": [
-        "Look at the two groups of pictures and count how many are in each one.",
-        "Tap the group that has more, then check your choice.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the two groups. Which has more, or are they the same?",
+        "To find out, pair them up: tap one at the top, then one at the bottom — both get the same bow.",
+        "Tap “More” on the group with more, or “The same”, then press Check.",
+        "Not quite? The hint says what to try — fix it and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Tell which of two groups has more by counting — the focus of Common Core K.CC.C.6.",
-        "Understand that the larger count means more, no matter how the pictures are arranged.",
-        "Build the comparing foundation for greater-than and less-than work with numbers later."
+        "Say whether one group has more than, fewer than or the same as another, up to 10 — the focus of Common Core K.CC.C.6",
+        "Compare groups by matching one to one",
+        "Compare groups by counting"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

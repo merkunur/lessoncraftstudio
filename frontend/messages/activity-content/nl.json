@@ -2547,25 +2547,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Naast elkaar verschijnen twee groepjes vriendelijke plaatjes — katten, honden, eendjes, vissen, appels, bananen, sinaasappels of aardbeien — en je kind tikt op het groepje met meer. De aantallen lopen op tot acht, en kinderen vergelijken door te kijken en te tellen, nog niet door cijfers te lezen. Deze telactiviteit voor de kleuterklas werkt in de browser op telefoon, tablet en de computer in de klas, zonder registratie.",
-        "Het grote idee is dat 'meer' over het aantal gaat, niet over hoeveel plek een groepje inneemt. Omdat de twee groepjes dicht bij elkaar kunnen liggen — zeven tegen zes, of zes tegen vijf — kan je kind niet winnen door even naar de grootste vlek te kijken; het moet elk groepje echt tellen en de aantallen vergelijken. Zo wint het van het bekende kijktrucje waarbij een paar verspreide plaatjes meer lijken dan een dicht klompje.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: vaststellen of het aantal voorwerpen in de ene groep groter, kleiner of gelijk is aan dat in een andere groep. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Twee matten, twee groepen die bij elkaar horen – bijen en bloemen, konijnen en wortels, eekhoorns en eikels. Welke groep heeft er meer, of zijn het er evenveel? Het kind tikt bij de groep met meer op ‘Meer’, of op ‘Evenveel’, en drukt op Controleer. Een interactieve activiteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "De verdeling is vaak een valkuil: in veel rondes ligt de kleinere groep over de hele mat verspreid en zit de grotere dicht op elkaar, dus de groep die groter lijkt, heeft er juist minder – maar niet altijd, dus op je ogen kun je niet vertrouwen. Dat is de bekende valkuil van vergelijken op het oog, en de activiteit geeft het kind twee eerlijke manieren om er niet in te trappen. De eerste is koppelen: een tik op één in de bovenste groep en dan op één in de onderste geeft ze allebei dezelfde strik – een kleur en een vorm – en wie zonder strik overblijft, laat zien welke groep er meer heeft; blijft er niemand over, dan zijn het er evenveel. De tweede is allebei de groepen tellen. Een fout antwoord geeft een hint: maak paren, of zoek wie geen maatje heeft. Na een tweede keer worden de rest aan elkaar gekoppeld en worden de beestjes en dingen zonder maatje omcirkeld. Een goed antwoord geeft elk paar een strik, nummert beide groepen en zegt het met getallen: ‘10 is meer dan 7’.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: hoeveelheden tot en met 10 vergelijken door te koppelen en te tellen – meer, minder of evenveel. De leerkracht kiest groepen tot en met 5 of tot en met 10, en kan de valkuil van de verdeling uitzetten. Geen timer, geen score."
       ],
       "practices": [
-        "Tellen hoeveel er in elk van de twee groepjes zijn",
-        "De twee aantallen vergelijken om te bepalen welk groepje meer heeft",
-        "Niet kijken naar hoe verspreid of dicht op elkaar een groepje staat, maar tellen",
-        "Het grootste aantal koppelen aan het idee 'meer'"
+        "Twee groepen tot en met 10 vergelijken: meer, minder of evenveel",
+        "Eén-op-één koppelen: voor elk een maatje",
+        "Beide groepen tellen om ze te vergelijken",
+        "Je niet laten foppen door de verdeling"
       ],
       "howToPlay": [
-        "Kijk naar de twee groepjes plaatjes en tel hoeveel er in elk groepje zitten.",
-        "Tik op het groepje dat meer heeft en controleer je keuze.",
-        "Nog niet goed? Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Kijk naar de twee groepen. Welke heeft er meer, of zijn het er evenveel?",
+        "Om het uit te zoeken, maak je paren: tik er boven één aan en dan onder één – ze krijgen allebei dezelfde strik.",
+        "Tik bij de groep met meer op ‘Meer’, of op ‘Evenveel’, en druk dan op Controleer.",
+        "Nog niet helemaal? De hint zegt wat je kunt proberen – verbeter het en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind bepaalt door te tellen welk van twee groepjes meer heeft.",
-        "Het kind begrijpt dat het grootste aantal 'meer' betekent, hoe de plaatjes ook liggen.",
-        "Het kind bouwt de basis voor later werken met groter dan en kleiner dan."
+        "Zeggen of een groep er meer, minder of evenveel heeft als een andere, tot en met 10",
+        "Groepen vergelijken door één-op-één te koppelen",
+        "Groepen vergelijken door te tellen"
       ]
     },
     "lay-units.measure.1-md-a-2": {

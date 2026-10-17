@@ -120,6 +120,7 @@ const MANIFEST_FILES = [
   'necklace-activities.json',
   'wondering-jar-activities.json',
   'bug-jar-activities.json',
+  'partner-bows-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

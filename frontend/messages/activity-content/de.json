@@ -3124,26 +3124,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Zwei Gruppen freundlicher Bilder erscheinen nebeneinander – Katzen, Hunde, Enten, Fische, Äpfel, Bananen, Orangen oder Erdbeeren – und das Kind tippt auf die Gruppe mit mehr Objekten. Die Anzahlen reichen bis acht, und Kinder vergleichen durch Hinschauen und Zählen, noch ohne Ziffern zu lesen. Diese Zählaktivität für den Kindergarten läuft interaktiv im Browser auf Handy, Tablet und Klassenrechner, ganz ohne Anmeldung.",
-        "Die wichtige Idee: „Mehr\" bedeutet, wie viele es sind – nicht, wie viel Platz eine Gruppe einnimmt. Weil die beiden Gruppen dicht beieinanderliegen können, etwa sieben gegen sechs oder sechs gegen fünf, reicht ein schneller Blick auf den größeren Haufen nicht aus. Das Kind muss jede Gruppe wirklich zählen und die Anzahlen vergleichen. So überlistet es die häufige Augentäuschung, bei der ein paar weit auseinanderliegende Bilder nach mehr aussehen als ein eng gedrängtes Häufchen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zählen ausgerichtet – erkennen, ob die Anzahl der Objekte in einer Gruppe größer, kleiner oder gleich der in einer anderen ist. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Zwei Matten, zwei Gruppen, die zusammengehören – Bienen und Blumen, Hasen und Karotten, Eichhörnchen und Eicheln. Welche Gruppe hat mehr, oder sind es gleich viele? Das Kind tippt bei der Gruppe mit mehr auf „Mehr“ oder auf „Gleich viele“ und drückt auf Prüfen. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Die Verteilung ist oft eine Falle: In vielen Runden liegt die kleinere Gruppe über ihre ganze Matte verteilt, die größere drängt sich zusammen – die Gruppe, die größer aussieht, hat also weniger, aber nicht immer: Auf das Auge kann man sich nie verlassen. Das ist die klassische Falle beim Vergleichen mit dem Auge, und die Übung zeigt dem Kind zwei ehrliche Wege daran vorbei. Der eine ist das Zuordnen: Ein Tipp oben und dann ein Tipp unten gibt beiden dieselbe Schleife – eine Farbe und eine Form –, und wer ohne Schleife bleibt, zeigt, welche Gruppe mehr hat; bleibt niemand übrig, sind es gleich viele. Der andere ist, beide Gruppen zu zählen. Bei einer falschen Antwort kommt ein Hinweis: Paare bilden oder nach denen schauen, die keinen Partner haben. Beim zweiten Fehlversuch werden die übrigen zu Paaren verbunden und die ohne Partner eingekreist. Bei einer richtigen Antwort bekommt jedes Paar seine Schleife, beide Gruppen werden nummeriert, und es wird mit Zahlen gesagt: „10 ist mehr als 7“.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: Anzahlen bis 10 durch Zuordnen und Zählen vergleichen – mehr, weniger oder gleich viele. Lehrkräfte wählen Gruppen bis 5 oder bis 10 und können die Verteilungsfalle ausschalten. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zählen, wie viele in jeder der beiden Gruppen sind.",
-        "Die beiden Anzahlen vergleichen und entscheiden, welche Gruppe mehr hat.",
-        "Nicht darauf achten, wie weit verteilt oder dicht gedrängt eine Gruppe aussieht, sondern zählen.",
-        "Die größere Anzahl mit der Idee von „mehr\" verknüpfen.",
-        "Nah beieinanderliegende Anzahlen wie sieben und sechs sicher auseinanderhalten."
+        "Zwei Gruppen bis 10 vergleichen: mehr, weniger oder gleich viele",
+        "Eins-zu-eins zuordnen: für jeden einen Partner",
+        "Beide Gruppen zählen, um sie zu vergleichen",
+        "Sich von der Verteilung nicht täuschen lassen"
       ],
       "howToPlay": [
-        "Schau dir die zwei Gruppen mit Bildern an und zähle, wie viele in jeder Gruppe sind.",
-        "Tippe auf die Gruppe, die mehr hat, und prüfe dann deine Wahl.",
-        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Schau dir die beiden Gruppen an. Welche hat mehr, oder sind es gleich viele?",
+        "Um es herauszufinden, bilde Paare: Tippe oben auf eins, dann unten auf eins – beide bekommen dieselbe Schleife.",
+        "Tippe bei der Gruppe mit mehr auf „Mehr“ oder auf „Gleich viele“ und drücke dann auf Prüfen.",
+        "Noch nicht ganz? Der Hinweis sagt, was du versuchen kannst – korrigiere und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Durch Zählen erkennen, welche von zwei Gruppen mehr hat.",
-        "Verstehen, dass die größere Anzahl mehr bedeutet, egal wie die Bilder angeordnet sind.",
-        "Die Grundlage für das spätere Arbeiten mit „größer als\" und „kleiner als\" legen."
+        "Erkennen, ob eine Gruppe mehr, weniger oder gleich viele hat wie eine andere, bis 10",
+        "Gruppen durch Eins-zu-eins-Zuordnen vergleichen",
+        "Gruppen durch Zählen vergleichen"
       ]
     },
     "choice-board.compare-length.k-md-2": {

@@ -404,25 +404,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "To grupper med vennlige bilder vises ved siden av hverandre — katter, hunder, ender, fisker, epler, bananer, appelsiner eller jordbær — og barnet trykker på gruppen som har flest. Antallet går opp til åtte, og barnet sammenligner ved å se og telle, ikke ved å lese tall. Dette er en telleaktivitet for barnehagen og skolestart som kjører i nettleseren på telefon, nettbrett og klasseromsdatamaskiner, helt uten konto.",
-        "Den store ideen er at «flest» handler om hvor mange, ikke om hvor stor plass en gruppe tar. Fordi de to gruppene kan ligge tett — som sju mot seks, eller seks mot fem — kan ikke barnet vinne ved å skotte på den største klumpen; de må faktisk telle hver gruppe og sammenligne antallet. Det slår det vanlige øyebedraget der noen få spredte bilder ser ut som flere enn en liten tett samling.",
-        "Aktiviteten er tilpasset LK20 innenfor tall og telling — å avgjøre om antallet i én gruppe er større enn, mindre enn eller likt antallet i en annen. Den passer i barnehagen og ved skolestart. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "To matter, to grupper som hører sammen – bier og blomster, kaniner og gulrøtter, ekorn og eikenøtter. Hvilken gruppe har flere, eller er det like mange? Barnet trykker på «Flere» ved gruppen med flere, eller på «Like mange», og trykker på Sjekk. En interaktiv øvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "Fordelingen er ofte en felle: I mange runder er den mindre gruppen spredt utover hele matten sin, mens den større klumper seg sammen, så den gruppen som ser større ut, er den som har færre – men ikke alltid, så man kan ikke stole på øyet. Det er den klassiske fellen når man sammenligner med øynene, og øvelsen gir barnet to ærlige måter å unngå den på. Den ene er å pare: et trykk på én i den øverste gruppen og så på én i den nederste gir begge den samme sløyfen – en farge og en form – og de som står uten sløyfe, viser hvilken gruppe som har flere; blir ingen til overs, er det like mange. Den andre er å telle begge gruppene. Et feil svar gir et hint: lag par, eller se etter dem uten kompis. Etter enda et forsøk pares resten, og de uten kompis får ring rundt seg. Et riktig svar gir hvert par en sløyfe, nummererer begge gruppene og sier det med tall: «10 er flere enn 7».",
+        "Aktiviteten er tilpasset LK20 – å sammenligne antall opptil 10 ved å pare og telle: flere, færre eller like mange. Læreren velger grupper opptil 5 eller opptil 10 og kan slå av fordelingsfellen. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Telle hvor mange det er i hver av de to gruppene.",
-        "Sammenligne de to antallene for å avgjøre hvilken gruppe som har flest.",
-        "Se bort fra om gruppen er spredt eller tett, og heller telle.",
-        "Knytte det største antallet til ideen om «flest»."
+        "Sammenligne to grupper opptil 10: flere, færre eller like mange",
+        "Pare én til én: en kompis til hver",
+        "Telle begge gruppene for å sammenligne dem",
+        "Ikke la fordelingen lure øyet"
       ],
       "howToPlay": [
-        "Se på de to gruppene med bilder og tell hvor mange det er i hver.",
-        "Trykk på gruppen som har flest, og sjekk deretter valget ditt.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Se på de to gruppene. Hvilken har flere, eller er det like mange?",
+        "For å finne ut av det, lag par: trykk på én oppe og så på én nede – begge får den samme sløyfen.",
+        "Trykk på «Flere» ved gruppen med flere, eller på «Like mange», og trykk så på Sjekk.",
+        "Ikke helt? Hintet sier hva du kan prøve – rett det og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan avgjøre hvilken av to grupper som har flest ved å telle.",
-        "Barnet forstår at det største antallet betyr flest, uansett hvordan bildene ligger.",
-        "Barnet bygger grunnlaget for å jobbe med større enn og mindre enn med tall senere."
+        "Avgjøre om en gruppe har flere, færre eller like mange som en annen, opptil 10",
+        "Sammenligne grupper ved å pare én til én",
+        "Sammenligne grupper ved å telle"
       ]
     },
     "choice-board.compare-length.k-md-2": {

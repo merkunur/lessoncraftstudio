@@ -404,25 +404,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Kaksi kuvaryhmää ilmestyy vierekkäin — kissoja, koiria, ankkoja, kaloja, omenoita, banaaneja, appelsiineja tai mansikoita — ja lapsi napauttaa sitä ryhmää, jossa on enemmän. Määrät yltävät kahdeksaan, ja lapsi vertailee katsomalla ja laskemalla numeroita lukematta. Tämä esiopetuksen laskemistehtävä toimii selaimessa puhelimella, tabletilla ja luokan tietokoneella ilman tiliä.",
-        "Tärkein oivallus on, että \"enemmän\" tarkoittaa lukumäärää, ei sitä, kuinka paljon tilaa ryhmä vie. Koska ryhmät voivat olla lähellä toisiaan — vaikka seitsemän kuutta vastaan tai kuusi viittä vastaan — lapsi ei voi voittaa vain vilkaisemalla suurempaa läjää, vaan hänen on todella laskettava molemmat ryhmät ja verrattava määriä. Näin vältetään tuttu silmänpetos, jossa muutama hajallaan oleva kuva näyttää suuremmalta kuin tiivis pieni rykelmä.",
-        "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi tunnistaa, onko esineiden määrä yhdessä ryhmässä suurempi, pienempi vai yhtä suuri kuin toisessa. Ei ajastinta, ei pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Kaksi mattoa, kaksi yhteen kuuluvaa ryhmää – mehiläiset ja kukat, puput ja porkkanat, oravat ja tammenterhot. Kummassa ryhmässä on enemmän, vai onko niitä yhtä monta? Lapsi napauttaa ”Enemmän” sen ryhmän kohdalla, jossa on enemmän, tai ”Yhtä monta” ja painaa Tarkista. Vuorovaikutteinen harjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Sijoittelu on usein ansa: monella kierroksella pienempi ryhmä on levitetty koko matolle ja suurempi on tiiviissä rykelmässä, joten isommalta näyttävässä ryhmässä onkin vähemmän – mutta ei aina, joten silmään ei voi luottaa. Se on silmämääräisen vertailun tuttu ansa, ja harjoitus antaa lapselle kaksi rehellistä keinoa välttää se. Ensimmäinen on parien muodostaminen: kun lapsi napauttaa yhtä ylemmästä ryhmästä ja sitten yhtä alemmasta, molemmat saavat saman rusetin – värin ja muodon – ja ne, jotka jäävät ilman rusettia, näyttävät, kummassa ryhmässä on enemmän; jos ketään ei jää yli, niitä on yhtä monta. Toinen on laskea molemmat ryhmät. Väärästä vastauksesta tulee vihje: muodosta pareja tai etsi ne, joilla ei ole paria. Toisen yrityksen jälkeen loput yhdistetään pareiksi ja ilman paria jääneet ympyröidään. Oikea vastaus antaa jokaiselle parille rusetin, numeroi molemmat ryhmät ja sanoo sen luvuilla: ”10 on enemmän kuin 7”.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa lukumääriä 10:een asti parien avulla ja laskemalla – enemmän, vähemmän vai yhtä monta. Opettaja valitsee ryhmät 5:een tai 10:een asti ja voi ottaa sijoitteluansan pois päältä. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Laskee, montako esinettä on kummassakin kahdesta ryhmästä.",
-        "Vertaa kahta lukumäärää ja päättää, kummassa ryhmässä on enemmän.",
-        "Jättää huomiotta sen, kuinka hajallaan tai tiiviinä ryhmä näyttää, ja laskee sen sijaan.",
-        "Yhdistää suuremman lukumäärän ajatukseen \"enemmän\"."
+        "Kahden ryhmän vertaaminen 10:een asti: enemmän, vähemmän vai yhtä monta",
+        "Parien muodostaminen yksi yhteen: jokaiselle pari",
+        "Molempien ryhmien laskeminen vertailua varten",
+        "Sijoittelu ei saa hämätä silmää"
       ],
       "howToPlay": [
-        "Katso kahta kuvaryhmää ja laske, montako esinettä on kummassakin.",
-        "Napauta sitä ryhmää, jossa on enemmän, ja tarkista sitten valintasi.",
-        "Menikö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Katso kahta ryhmää. Kummassa on enemmän, vai onko niitä yhtä monta?",
+        "Ota selvää muodostamalla pareja: napauta yhtä ylhäällä ja sitten yhtä alhaalla – molemmat saavat saman rusetin.",
+        "Napauta ”Enemmän” sen ryhmän kohdalla, jossa on enemmän, tai ”Yhtä monta” ja paina sitten Tarkista.",
+        "Ei ihan? Vihje kertoo, mitä kokeilla – korjaa ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa kertoa laskemalla, kummassa kahdesta ryhmästä on enemmän.",
-        "Lapsi ymmärtää, että suurempi lukumäärä tarkoittaa enemmän riippumatta siitä, miten kuvat on aseteltu.",
-        "Lapsi rakentaa vertailun pohjan myöhempää suurempi kuin- ja pienempi kuin -työskentelyä varten."
+        "Lapsi kertoo, onko ryhmässä enemmän, vähemmän vai yhtä monta kuin toisessa, 10:een asti",
+        "Lapsi vertaa ryhmiä muodostamalla pareja yksi yhteen",
+        "Lapsi vertaa ryhmiä laskemalla"
       ]
     },
     "choice-board.compare-length.k-md-2": {

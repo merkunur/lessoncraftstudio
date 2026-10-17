@@ -2505,24 +2505,26 @@
     },
     "choice-board.which-more.k-c-c-6": {
       "about": [
-        "Deux groupes d'images sympathiques apparaissent côte à côte — des chats, des chiens, des canards, des poissons, des pommes, des bananes, des oranges ou des fraises — et l'enfant touche le groupe qui en a le plus. Les quantités vont jusqu'à huit, et on compare en regardant et en comptant plutôt qu'en lisant des chiffres. C'est une activité de numération de maternelle, qui fonctionne dans le navigateur sur téléphone, tablette et ordinateur de classe, sans inscription.",
-        "La grande idée, c'est que « plus », ce n'est pas la place qu'occupe un groupe, mais bien le nombre d'objets. Comme les deux groupes peuvent être proches — sept contre six, ou six contre cinq — l'enfant ne peut pas gagner d'un simple coup d'œil au tas le plus gros : il doit vraiment compter chaque groupe et comparer les totaux. Cela déjoue le piège classique où quelques images bien espacées semblent plus nombreuses qu'un petit groupe serré. L'activité suit les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Deux tapis, deux groupes qui vont ensemble — des abeilles et des fleurs, des lapins et des carottes, des écureuils et des glands. Quel groupe en a le plus, ou y en a-t-il autant ? L’enfant touche « Plus » sur le groupe qui en a le plus, ou « Autant », puis appuie sur Vérifier. Une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "L’espacement est souvent un piège : dans beaucoup de manches, le plus petit groupe est étalé sur tout son tapis tandis que le plus grand est serré, si bien que le groupe qui paraît le plus grand est celui qui en a le moins — mais pas toujours, alors on ne peut jamais se fier à l’œil. C’est le piège classique de la comparaison à l’œil, et l’activité donne à l’enfant deux façons honnêtes de le déjouer. La première est la correspondance terme à terme : toucher un élément en haut puis un en bas donne aux deux le même ruban — une couleur et une forme —, et ceux qui restent sans ruban montrent quel groupe en a le plus ; si personne ne reste, il y en a autant. La seconde est de dénombrer les deux groupes. Une mauvaise réponse amène un indice : faire des paires, ou chercher ceux qui n’ont pas de copain. À la deuxième erreur, les autres sont mis en paires et ceux qui n’ont pas de copain sont entourés. Une bonne réponse donne un ruban à chaque paire, numérote les deux groupes et le dit avec des nombres : « 10, c’est plus que 7 ».",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer des collections jusqu’à 10 par correspondance terme à terme et par dénombrement — plus, moins ou autant. L’enseignant choisit des groupes jusqu’à 5 ou jusqu’à 10, et peut désactiver le piège de l’espacement. Ni chrono ni score."
       ],
       "practices": [
-        "Compter combien il y a d'objets dans chacun des deux groupes.",
-        "Comparer les deux totaux pour décider quel groupe en a le plus.",
-        "Ne pas se laisser tromper par un groupe étalé ou serré, et compter à la place.",
-        "Relier le total le plus grand à l'idée de « plus »."
+        "Comparer deux collections jusqu’à 10 : plus, moins ou autant",
+        "Faire correspondre terme à terme : un copain pour chacun",
+        "Dénombrer les deux collections pour les comparer",
+        "Ne pas se laisser tromper par l’espacement"
       ],
       "howToPlay": [
-        "Regarde les deux groupes d'images et compte combien il y en a dans chacun.",
-        "Touche le groupe qui en a le plus, puis vérifie ton choix.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Regarde les deux groupes. Lequel en a le plus, ou y en a-t-il autant ?",
+        "Pour le savoir, fais des paires : touche un élément en haut, puis un en bas — les deux reçoivent le même ruban.",
+        "Touche « Plus » sur le groupe qui en a le plus, ou « Autant », puis appuie sur Vérifier.",
+        "Pas tout à fait ? L’indice dit quoi essayer — corrige et appuie de nouveau sur Vérifier. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Dire lequel de deux groupes en a le plus en comptant.",
-        "Comprendre que le plus grand total veut dire « plus », peu importe comment les images sont disposées.",
-        "Construire la base de la comparaison qui prépare le « plus grand que » et le « plus petit que » avec les nombres plus tard."
+        "Dire si une collection en a plus, moins ou autant qu’une autre, jusqu’à 10",
+        "Comparer des collections par correspondance terme à terme",
+        "Comparer des collections par dénombrement"
       ]
     },
     "choice-board.compare-length.k-md-2": {

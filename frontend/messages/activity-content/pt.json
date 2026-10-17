@@ -2049,25 +2049,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Aparecem dois números escritos e a criança toca no maior — por exemplo, 7 e 6, ou 8 e 7. Alguns pares ficam bem distantes, como 9 e 2, e outros ficam coladinhos, como 8 e 7. É uma atividade de contagem interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é comparar números como algarismos escritos, e não como grupos de objetos para contar. Não há figuras para ajudar — a criança precisa saber que 8 vale mais que 7 só de ler os algarismos. Os pares próximos é que tornam o exercício de verdade: não dá para vencer escolhendo o número que parece maior; é preciso conhecer o valor que cada algarismo representa.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao comparar dois números entre 1 e 10 apresentados como algarismos escritos. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+        "Ao lado de um prédio de dez andares esperam dois animais passageiros, cada um com um bilhete que tem um número — por exemplo, um porco com o 6 e um cachorro com o 9. Quem sobe mais alto? A criança toca no passageiro com o número maior e aperta Verificar. Aí o elevador sobe: para no andar 6, onde um passageiro desce, e leva o outro até o andar 9. É uma atividade interativa da educação infantil que funciona no navegador, sem instalar nada e sem conta.",
+        "O prédio é uma reta numérica em pé: os números dos andares sobem pela parede na ordem da contagem, então um número maior é um andar mais alto, e a comparação fica visível. Quem estiver em dúvida pode procurar primeiro os dois números na parede. Depois de um primeiro erro, a dica pede para procurar os dois números no prédio (ou, se os números estiverem escondidos, contar os andares de baixo para cima); depois de um segundo, os dois andares se acendem, cada um na cor do seu passageiro, e dá para ver na hora qual está mais alto. Uma resposta certa diz com números: “Isso: 9 é maior que 6!” Alguns números ficam longe um do outro, como 8 e 2, e outros são vizinhos, como 7 e 8 — esses pedem um olhar atento. Os dois números nunca são iguais.",
+        "A atividade está alinhada à BNCC, no campo dos números: comparar dois números escritos entre 1 e 10. O professor escolhe números até 5 (um prédio de cinco andares) ou até 10 e pode esconder os números dos andares, para que seja preciso contá-los de baixo para cima. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Comparar dois números escritos de 1 a 10 e descobrir qual é o maior.",
-        "Ler os algarismos e conhecer o seu valor sem precisar contar objetos.",
-        "Lidar com pares próximos, como 8 e 7, e não só com os bem distantes.",
-        "Construir o senso de qual número é maior."
+        "Comparar dois números escritos até 10",
+        "Achar um número na ordem da contagem",
+        "Ver que um número que vem depois na contagem é maior",
+        "Contar os andares de baixo para cima quando os números estão escondidos"
       ],
       "howToPlay": [
-        "Olhe os dois números que aparecem na tela.",
-        "Toque naquele que é maior e depois toque em Verificar.",
-        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Olhe os dois bilhetes. Quem sobe mais alto?",
+        "Em dúvida? Procure os dois números no prédio.",
+        "Toque no passageiro com o número maior e depois aperte Verificar.",
+        "Ainda não? A dica ajuda a achar os dois números — o mais alto é o maior. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Comparar números escritos de 1 a 10 e escolher o maior.",
-        "Conhecer o valor que cada algarismo representa, sem contar.",
-        "Construir o senso de comparação que mais tarde sustenta o maior que e o menor que."
+        "Comparar dois números escritos entre 1 e 10",
+        "Saber que um número que vem depois na contagem é maior",
+        "Usar a ordem dos números para comparar"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

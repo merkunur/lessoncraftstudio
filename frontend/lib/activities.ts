@@ -121,6 +121,7 @@ const MANIFEST_FILES = [
   'wondering-jar-activities.json',
   'bug-jar-activities.json',
   'partner-bows-activities.json',
+  'number-lift-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

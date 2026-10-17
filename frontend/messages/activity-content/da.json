@@ -1293,25 +1293,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "To tal står ved siden af hinanden, og barnet trykker på det største — for eksempel 7 og 6, eller 8 og 7. Nogle par ligger langt fra hinanden, som 9 og 2, mens andre er helt tæt på, som 8 og 7. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren på tablet, telefon og computer, uden at man skal installere noget, og uden konto.",
-        "Den store idé er at sammenligne tal som cifre — ikke som grupper af ting, der skal tælles. Der er ingen billeder at læne sig op ad, så barnet skal vide, at 8 er mere end 7, bare ved at læse tallene. Det er især de tætte par, der gør øvelsen rigtig: barnet kan ikke vinde ved at gætte på det tal, der ser størst ud, men skal kende den værdi, hvert ciffer står for.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at sammenligne to tal mellem 1 og 10 skrevet med cifre. Der er ingen timer og ingen point — kun rolig og legende træning, hvor barnet kan se godt efter i sit eget tempo."
+        "Ved siden af et hus med ti etager venter to dyr som passagerer, hver med en billet, hvor der står et tal – for eksempel en gris med 6 og en hund med 9. Hvem skal højest op? Barnet trykker på passageren med det største tal og trykker på Tjek. Så kører elevatoren op: den stopper på etage 6, hvor den ene passager står af, og kører den anden videre op til etage 9. En interaktiv aktivitet, der kører i browseren uden installation og uden konto.",
+        "Huset er en tallinje, der står på højkant: etagenumrene går op ad væggen i tælleorden, så et større tal er en højere etage – og sammenligningen bliver noget, barnet kan se. Et barn, der er usikkert, kan først finde begge tal på væggen. Efter en første fejl beder hjælpen barnet om at finde begge tal på huset (eller, når numrene er skjult, at tælle etagerne nedefra); efter en anden lyser begge etager op, hver i sin passagers farve, og man ser med det samme, hvilken der ligger højest. Et rigtigt svar siger det med tal: ”Ja – 9 er større end 6!” Nogle tal ligger langt fra hinanden, som 8 og 2, og nogle er naboer, som 7 og 8 – dem skal man kigge godt på. De to tal er aldrig ens.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at sammenligne to skrevne tal mellem 1 og 10. Læreren vælger tal op til 5 (et hus med fem etager) eller op til 10 og kan skjule etagenumrene, så etagerne skal tælles nedefra. Ingen tidtagning og ingen point."
       ],
       "practices": [
-        "Sammenligne to tal fra 1 til 10 og finde det største",
-        "Læse cifre og kende deres værdi uden at tælle ting",
-        "Klare tætte par som 8 og 7, ikke kun par der ligger langt fra hinanden",
-        "Opbygge fornemmelsen af, hvilket tal der er størst"
+        "Sammenligne to skrevne tal op til 10",
+        "Finde et tal i tælleordenen",
+        "Se, at et tal, der kommer senere i tællingen, er større",
+        "Tælle etagerne nedefra, når numrene er skjult"
       ],
       "howToPlay": [
-        "Barnet ser de to tal på pladen og kigger godt på dem begge.",
-        "Barnet trykker på det største tal og trykker derefter på Tjek.",
-        "Passer det ikke? Barnet kan roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Se på de to billetter. Hvem skal højest op?",
+        "Usikker? Find begge tal på huset.",
+        "Tryk på passageren med det største tal, og tryk så på Tjek.",
+        "Ikke helt? Hjælpen viser dig, hvordan du finder begge tal – det, der sidder højest, er størst. Ingen tidtagning og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne tal fra 1 til 10 og vælge det største",
-        "Barnet kan kende den værdi, hvert ciffer står for, uden at tælle",
-        "Barnet kan opbygge den talfornemmelse, som større-end og mindre-end bygger på senere"
+        "Sammenligne to skrevne tal mellem 1 og 10",
+        "Vide, at et tal, der kommer senere i tællingen, er større",
+        "Bruge tallenes rækkefølge til at sammenligne"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

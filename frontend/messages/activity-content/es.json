@@ -3586,25 +3586,26 @@
     },
     "choice-board.pick-bigger.k-c-c-7": {
       "about": [
-        "Aparecen dos números escritos y tu hijo o hija toca el mayor: por ejemplo, 7 y 6, u 8 y 7. Algunas parejas están muy separadas, como 9 y 2, y otras quedan pegaditas, como 8 y 7. Es una actividad de conteo interactiva para preescolar (kínder) que funciona en el navegador —en tableta, celular o computadora—, sin instalar nada y sin crear cuenta.",
-        "La idea central es comparar los números tal como se escriben, no como grupos de objetos para contar. No hay dibujos en los que apoyarse: para saber que 8 es más que 7, el niño o la niña tiene que reconocer el valor de cada cifra con solo leerla. Las parejas cercanas son las que vuelven real la práctica, porque no se gana eligiendo el número que se ve “más grande”; hay que saber cuánto vale cada numeral.",
-        "Está alineada con los planes y programas de estudio (SEP): comparar dos números del 1 al 10 presentados como cifras escritas. Sin temporizador y sin puntajes, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Junto a un edificio de diez pisos esperan dos animales pasajeros, cada uno con un boleto que lleva un número; por ejemplo, un cerdo con el 6 y un perro con el 9. ¿Quién sube más alto? El niño toca al pasajero con el número mayor y oprime Comprobar. Entonces sube el elevador: se detiene en el piso 6, donde baja un pasajero, y lleva al otro hasta el piso 9. Es una actividad interactiva de preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "El edificio es una recta numérica puesta de pie: los números de los pisos suben por la pared en el orden del conteo, así que un número mayor es un piso más alto y la comparación se puede ver. Si el niño duda, puede buscar primero los dos números en la pared. Tras un primer error, la pista le pide buscar los dos números en el edificio (o, si los números están escondidos, contar los pisos desde abajo); tras un segundo, se iluminan los dos pisos, cada uno del color de su pasajero, y se ve enseguida cuál está más arriba. Una respuesta correcta lo dice con números: «¡Sí: 9 es mayor que 6!». Algunos números están lejos, como 8 y 2, y otros son vecinos, como 7 y 8: esos piden mirar con cuidado. Los dos números nunca son iguales.",
+        "Está alineada con los planes y programas de estudio (SEP): comparar dos números escritos entre 1 y 10. El docente elige números hasta 5 (un edificio de cinco pisos) o hasta 10, y puede esconder los números de los pisos para que haya que contarlos desde abajo. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Comparar dos números escritos del 1 al 10 y encontrar el mayor.",
-        "Leer las cifras y reconocer su valor sin contar objetos.",
-        "Resolver parejas cercanas como 8 y 7, no solo las muy separadas.",
-        "Desarrollar el sentido de qué número es más grande."
+        "Comparar dos números escritos hasta 10",
+        "Encontrar un número en el orden del conteo",
+        "Ver que un número que llega después en el conteo es mayor",
+        "Contar los pisos desde abajo cuando los números están escondidos"
       ],
       "howToPlay": [
-        "Mira los dos números que aparecen en el tablero.",
-        "Toca el que es mayor y luego pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+        "Mira los dos boletos. ¿Quién sube más alto?",
+        "¿Dudas? Busca los dos números en el edificio.",
+        "Toca al pasajero con el número mayor y luego oprime Comprobar.",
+        "¿Todavía no? La pista te ayuda a encontrar los dos números: el de más arriba es mayor. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a comparar números escritos del 1 al 10 y elegir el mayor.",
-        "Tu hijo o hija reconoce el valor de cada cifra sin necesidad de contar.",
-        "Se forma el sentido de comparación que más adelante sostiene el “mayor que” y el “menor que”."
+        "Comparar dos números escritos entre 1 y 10",
+        "Saber que un número que llega después en el conteo es mayor",
+        "Usar el orden de los números para comparar"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

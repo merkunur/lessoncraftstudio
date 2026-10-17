@@ -2758,25 +2758,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Grandpa Pip needs his hand-carved nesting pots tucked away, biggest number on the outside down to little Wee Olen in the middle, and children read the numeral painted on each pot's belly to decide the order. It's an interactive Kindergarten math activity that plays right in the browser with nothing to install and no account.",
-        "The pots come in every size on purpose, so a small pot can wear a big number — the child has to read the written number, not guess by how big the pot looks. Each new pot must hold a smaller number than the one before it; two pots with the same number rest side by side instead of nesting. Later rounds fade the helper dots, add a gap to fill with the number that fits between two neighbors, and bring in two-digit numbers like 31 and 40.",
-        "It is aligned to Common Core K.CC.C.7 — comparing two written numbers between 1 and 10. No timer, no score — just calm, playful practice."
+        "Four flowerpots wait in a row — 6, 9, 2 and 4, say — and they all look exactly the same: only the number painted on each one is different. The child taps a pot and it drops into the nest, growing to the size of its number as it lands: the 9 becomes a big pot, the 2 a small one. A pot only fits inside a pot with a bigger number, so the nest has to be built from the biggest number down to the smallest. It's an interactive Kindergarten activity that runs in the browser with nothing to install and no account.",
+        "Because every pot in the row is the same size, size gives nothing away: the child reads and compares the numbers, and trying a pot shows at once whether it fits. The pots themselves answer back: a pot that is too big sticks out over the rim, wobbles and goes back to the row. Choosing a small pot too early leads to a dead end — put the 9 in and then the 2, and neither the 6 nor the 4 fits any more — so the inside pot glows, and a tap lifts it out again. After two bounces, dots appear on the waiting pots so the child can count which number is biggest. When every pot is in, Check reads the nest out: “Yes — 9, 6, 4, 2: from the biggest number to the smallest!”",
+        "It is aligned to Common Core K.CC.C.7 — comparing numbers between 1 and 10 presented as written numerals, here three or four at a time. Teachers can choose three pots up to 5 or four pots up to 10, and show the dots only as a help or always. No timer, no score."
       ],
       "practices": [
-        "Read the written numeral on each pot instead of judging by its size",
-        "Compare two numbers to tell which is greater and which is less",
-        "Order numbers from biggest to smallest as the pots nest",
-        "Find the number that fits between two others to fill a gap"
+        "Comparing written numbers up to 10",
+        "Finding the biggest number in a group",
+        "Putting three or four numbers in order, biggest to smallest",
+        "Fixing a mistake by taking a step back"
       ],
       "howToPlay": [
-        "Read the number painted on each pot waiting in the tray.",
-        "Tap the pot with the biggest number, then tap the glowing open pot to tuck it in — keep going down to the smallest.",
-        "Wrong number? The pot bobs back out with a gentle nudge; try another, with no timer and no score."
+        "Look at the numbers on the pots. Which one is the biggest?",
+        "Tap the biggest number first: it is the outside pot.",
+        "Then tap the next biggest, and the next — each pot must fit inside the last one.",
+        "Too big? It comes back. Stuck? Tap the inside pot to take it out. No timer, no score."
       ],
       "learningGoals": [
-        "Compare written numerals from 1 to 10 — the focus of Common Core K.CC.C.7",
-        "Put numbers in order from greatest to least",
-        "Read a number as its own value, separate from the size of the thing it is on"
+        "Compare numbers between 1 and 10 given as written numerals — the focus of Common Core K.CC.C.7",
+        "Order three or four numbers from the biggest to the smallest",
+        "See that a bigger number means more"
       ]
     },
     "nila-pond.main-idea-net.ri-k-2": {

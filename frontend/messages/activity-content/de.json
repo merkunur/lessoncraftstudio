@@ -2544,25 +2544,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Opa Pip schnitzt aus Holz wunderschöne Töpfe, die ineinanderpassen — einer in den anderen, immer kleiner werdend. Auf jeden Topf hat er eine Zahl gemalt. Das Baby Wee Olen soll ganz nach innen, in den allerkleinsten Topf, und Doot die Ente schaut dabei zu. Deine Aufgabe: Du stapelst die Töpfe von der größten Zahl bis zur kleinsten ineinander. Jeder nächste Topf muss eine kleinere Zahl tragen als der, der gerade innen liegt — dann passt er hinein und das Baby kommt am Ende sicher in die Mitte.",
-        "Das Spannende dabei: Die Töpfe sind in allen Größen, kreuz und quer. Ein dicker Topf kann eine kleine Zahl tragen, ein schmaler eine große. Darum darfst du dich nie von der Topfgröße täuschen lassen — du liest die aufgemalte Zahl und ordnest die Zahlen der Größe nach. So lernst du, Zahlen zu vergleichen und zu sortieren: Welche ist die größte, welche die kleinste, was kommt dazwischen? Manchmal fehlt ein Topf in der Reihe und du suchst die passende Lücke, und manchmal tragen zwei Töpfe dieselbe Zahl — die stehen dann einfach nebeneinander, denn keiner passt in den anderen.",
-        "Hier gibt es keine Uhr, keine Punkte und keinen Wettlauf. Du darfst in aller Ruhe überlegen, ausprobieren und noch einmal von vorn beginnen. Die Aktivität orientiert sich am Lehrplan der Grundschule und der Leitidee „Zählen und Mengen“ — niemand drängelt, Opa Pip, Wee Olen und Doot haben alle Zeit der Welt, und du auch."
+        "Vier Blumentöpfe stehen in einer Reihe – zum Beispiel 6, 9, 2 und 4 – und sie sehen alle genau gleich aus: Nur die Zahl, die auf jedem steht, ist anders. Das Kind tippt einen Topf an, und er rutscht in die anderen hinein und wächst dabei auf die Größe seiner Zahl: Die 9 wird ein großer Topf, die 2 ein kleiner. Ein Topf passt nur in einen Topf mit einer größeren Zahl, also muss man von der größten Zahl bis zur kleinsten stapeln. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Weil alle Töpfe in der Reihe gleich groß sind, verrät die Größe nichts: Das Kind liest und vergleicht die Zahlen, und wer einen Topf ausprobiert, sieht sofort, ob er passt. Die Töpfe antworten selbst: Ein Topf, der zu groß ist, steht über den Rand hinaus, wackelt und geht zurück in die Reihe. Wer zu früh einen kleinen Topf nimmt, kommt in eine Sackgasse – erst die 9, dann die 2, und weder die 6 noch die 4 passt noch hinein –, dann leuchtet der innere Topf, und ein Tippen holt ihn wieder heraus. Nach zwei Fehlversuchen erscheinen Punkte auf den wartenden Töpfen, damit das Kind zählen kann, welche Zahl die größte ist. Sind alle Töpfe drin, liest Prüfen den Stapel vor: „Ja – 9, 6, 4, 2: von der größten Zahl bis zur kleinsten!“",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: geschriebene Zahlen zwischen 1 und 10 vergleichen, hier drei oder vier auf einmal. Lehrkräfte wählen drei Töpfe bis 5 oder vier Töpfe bis 10 und zeigen die Punkte nur als Hilfe oder immer. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zahlen der Größe nach ordnen — von der größten bis zur kleinsten",
-        "Die aufgemalte Zahl lesen, statt nach der Topfgröße zu raten",
-        "Zahlen vergleichen: größer als, kleiner als, die größte und die kleinste finden",
-        "Erkennen, dass gleiche Zahlen nebeneinander stehen — keiner passt in den anderen"
+        "Geschriebene Zahlen bis 10 vergleichen",
+        "Die größte Zahl in einer Gruppe finden",
+        "Drei oder vier Zahlen ordnen, von der größten zur kleinsten",
+        "Einen Fehler korrigieren, indem man einen Schritt zurückgeht"
       ],
       "howToPlay": [
-        "Schau dir die Zahlen auf den Töpfen an und suche die größte Zahl zuerst.",
-        "Lege immer den Topf mit der nächstkleineren Zahl hinein — Schritt für Schritt nach innen.",
-        "Ganz zum Schluss kommt das Baby Wee Olen in den kleinsten Topf in der Mitte."
+        "Schau dir die Zahlen auf den Töpfen an. Welche ist die größte?",
+        "Tippe zuerst die größte Zahl an: Das ist der äußerste Topf.",
+        "Dann die nächstgrößere und die nächste – jeder Topf muss in den letzten passen.",
+        "Zu groß? Er kommt zurück. Festgefahren? Tippe den inneren Topf an, um ihn herauszunehmen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Ich kann eine Reihe von Zahlen von der größten bis zur kleinsten ordnen.",
-        "Ich lese die Zahl und lasse mich nicht von der Größe der Töpfe täuschen.",
-        "Ich kann Zahlen vergleichen und sagen, welche größer und welche kleiner ist."
+        "Geschriebene Zahlen zwischen 1 und 10 vergleichen",
+        "Drei oder vier Zahlen von der größten zur kleinsten ordnen",
+        "Sehen, dass eine größere Zahl mehr bedeutet"
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

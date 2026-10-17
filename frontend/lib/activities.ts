@@ -124,6 +124,7 @@ const MANIFEST_FILES = [
   'number-lift-activities.json',
   'block-towers-activities.json',
   'creek-map-activities.json',
+  'pot-nest-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

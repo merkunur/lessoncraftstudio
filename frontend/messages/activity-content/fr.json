@@ -1513,24 +1513,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Papi Pip range ses pots gigognes, du plus grand nombre au plus petit ! Chaque pot porte un nombre peint, et les pots sont de toutes les tailles : le secret, c'est de lire le nombre, pas de deviner d'après la taille du pot. Ton enfant range d'abord le plus grand nombre à l'extérieur, puis les nombres de plus en plus petits, jusqu'au bébé Wee Olen tout au milieu. D'autres défis viennent enrichir le jeu : retrouver le pot qui manque (il est plus grand que celui-ci et plus petit que celui-là), les jumeaux (deux nombres égaux se posent côte à côte, aucun ne rentre dans l'autre), et même des nombres à deux chiffres.",
-        "Comparer, ranger et encadrer des nombres écrits est une compétence du CP : « comparer, ranger, encadrer les nombres » fait partie du travail sur les nombres jusqu'à 100. En lisant le nombre plutôt que la taille du pot, l'enfant développe un vrai sens du nombre et comprend que la valeur d'un nombre ne dépend pas de la place qu'il occupe. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans score et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Quatre pots de fleurs attendent en rangée — par exemple 6, 9, 2 et 4 — et ils se ressemblent tous exactement : seul le nombre peint sur chacun change. L’enfant touche un pot, qui tombe dans les autres en prenant la taille de son nombre : le 9 devient un grand pot, le 2 un petit. Un pot ne rentre que dans un pot au nombre plus grand : il faut donc les emboîter du plus grand nombre au plus petit. C’est une activité interactive pour le CP, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "Comme tous les pots de la rangée ont la même taille, la taille ne dit rien : l’enfant lit et compare les nombres, et essayer un pot montre tout de suite s’il rentre. Les pots répondent d’eux-mêmes : un pot trop grand dépasse du bord, vacille et retourne dans la rangée. Prendre un petit pot trop tôt mène à une impasse — le 9, puis le 2, et ni le 6 ni le 4 ne rentrent plus — : le pot du dedans s’allume alors, et un toucher le ressort. Après deux pots refusés, des points apparaissent sur les pots qui attendent, pour compter quel nombre est le plus grand. Quand tous les pots sont rangés, Vérifier lit la pile : « Oui — 9, 6, 4, 2 : du plus grand nombre au plus petit ! »",
+        "L’activité suit les programmes officiels : comparer des nombres écrits en chiffres entre 1 et 10, ici trois ou quatre à la fois. L’enseignant choisit trois pots jusqu’à 5 ou quatre pots jusqu’à 10, et affiche les points seulement en aide ou toujours. Ni chrono ni score."
       ],
       "practices": [
-        "Comparer des nombres écrits : plus grand, plus petit",
-        "Ranger une suite de nombres du plus grand au plus petit",
-        "Encadrer un nombre : plus grand que l'un, plus petit que l'autre",
-        "Lire le nombre plutôt que se fier à la taille",
-        "Reconnaître deux nombres égaux"
+        "Comparer des nombres écrits jusqu’à 10",
+        "Trouver le plus grand nombre d’un groupe",
+        "Ranger trois ou quatre nombres du plus grand au plus petit",
+        "Corriger une erreur en revenant d’un pas"
       ],
       "howToPlay": [
-        "Touche un pot, puis touche le pot qui brille pour le ranger — commence par le plus grand nombre.",
-        "Continue avec les nombres de plus en plus petits, jusqu'au bébé Wee Olen au milieu."
+        "Regarde les nombres sur les pots. Lequel est le plus grand ?",
+        "Touche d’abord le plus grand nombre : c’est le pot du dehors.",
+        "Puis le suivant, et le suivant — chaque pot doit rentrer dans le dernier.",
+        "Trop grand ? Il revient. Bloqué ? Touche le pot du dedans pour le sortir. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Comparer et ranger des nombres écrits",
-        "Encadrer un nombre",
-        "Développer le sens du nombre"
+        "Comparer des nombres écrits en chiffres entre 1 et 10",
+        "Ranger trois ou quatre nombres du plus grand au plus petit",
+        "Voir qu’un plus grand nombre veut dire plus"
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

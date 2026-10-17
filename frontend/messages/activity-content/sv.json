@@ -2631,6 +2631,30 @@
         "Jämföra grupper genom att räkna",
         "Göra två grupper lika stora"
       ]
+    },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "Fyra blomkrukor står på rad – till exempel 6, 9, 2 och 4 – och de ser exakt likadana ut: bara talet som står på var och en är olika. Barnet trycker på en kruka, och den sjunker ner i de andra och växer till storleken av sitt tal: 9:an blir en stor kruka, 2:an en liten. En kruka får bara plats i en kruka med ett större tal, så man måste ställa dem i varandra från det största talet till det minsta. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Eftersom alla krukor i raden är lika stora avslöjar storleken ingenting: barnet läser och jämför talen, och den som provar en kruka ser direkt om den får plats. Krukorna svarar själva: en kruka som är för stor sticker upp över kanten, vickar och går tillbaka till raden. Den som tar en liten kruka för tidigt hamnar i en återvändsgränd – först 9:an, sedan 2:an, och varken 6:an eller 4:an får plats längre – då lyser den innersta krukan, och ett tryck tar ut den igen. Efter två krukor som inte fick plats syns prickar på de väntande krukorna, så att barnet kan räkna vilket tal som är störst. När alla krukor är i läser Kontrollera upp högen: ”Ja – 9, 6, 4, 2: från det största talet till det minsta!”",
+        "Aktiviteten följer Lgr22 – att jämföra skrivna tal mellan 1 och 10, här tre eller fyra åt gången. Läraren väljer tre krukor upp till 5 eller fyra krukor upp till 10 och visar prickarna bara som hjälp eller alltid. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Jämföra skrivna tal upp till 10",
+        "Hitta det största talet i en grupp",
+        "Ordna tre eller fyra tal från störst till minst",
+        "Rätta ett misstag genom att ta ett steg tillbaka"
+      ],
+      "howToPlay": [
+        "Titta på talen på krukorna. Vilket är störst?",
+        "Tryck först på det största talet: det är den yttersta krukan.",
+        "Sedan på nästa, och nästa – varje kruka måste få plats i den förra.",
+        "För stor? Den kommer tillbaka. Fastnat? Tryck på den innersta krukan för att ta ut den. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Jämföra skrivna tal mellan 1 och 10",
+        "Ordna tre eller fyra tal från det största till det minsta",
+        "Se att ett större tal betyder fler"
+      ]
     }
   }
 }

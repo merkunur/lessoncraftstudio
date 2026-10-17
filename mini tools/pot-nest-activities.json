@@ -1,0 +1,168 @@
+[
+  {
+    "id": "nesting-pots.seriate.k-cc-c-7",
+    "tool": "pot-nest-activity",
+    "task_template": "pot-nest",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.7",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "ranges": [
+        "to5",
+        "to10"
+      ],
+      "dots": [
+        "help",
+        "always"
+      ],
+      "pools": {
+        "to10": [
+          [
+            6,
+            9,
+            2,
+            4
+          ],
+          [
+            7,
+            3,
+            5,
+            8
+          ],
+          [
+            10,
+            1,
+            6,
+            3
+          ],
+          [
+            5,
+            2,
+            9,
+            8
+          ],
+          [
+            4,
+            7,
+            1,
+            10
+          ],
+          [
+            9,
+            3,
+            6,
+            8
+          ],
+          [
+            2,
+            5,
+            10,
+            7
+          ],
+          [
+            9,
+            4,
+            6,
+            1
+          ],
+          [
+            7,
+            10,
+            3,
+            2
+          ]
+        ],
+        "to5": [
+          [
+            2,
+            5,
+            3
+          ],
+          [
+            4,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            5
+          ],
+          [
+            1,
+            4,
+            2
+          ],
+          [
+            5,
+            2,
+            4
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            4,
+            2,
+            5
+          ],
+          [
+            3,
+            5,
+            1
+          ]
+        ]
+      },
+      "max": {
+        "to10": 10,
+        "to5": 5
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "grandpa-pips-nesting-pots",
+      "de": "zahlen-der-groesse-nach-ordnen-klasse-1",
+      "fr": "ranger-les-nombres-du-plus-grand-au-plus-petit-cp",
+      "es": "ordenar-numeros-de-mayor-a-menor-preescolar",
+      "pt": "potes-do-vovo-pip-ordenar-numeros-1-ano",
+      "it": "confrontare-e-ordinare-i-numeri-1-10-vasetti-classe-prima",
+      "nl": "getallen-ordenen-van-groot-naar-klein-groep-3",
+      "sv": "blomkrukorna-ordna-tal-1-till-10-storst-till-minst",
+      "da": "urtepotterne-ordn-tal-1-til-10-fra-stoerst-til-mindst",
+      "no": "blomsterpottene-ordne-tall-1-til-10-fra-storst-til-minst",
+      "fi": "kukkaruukut-jarjesta-luvut-1-10-suurimmasta-pienimpaan"
+    },
+    "page_title": {
+      "en": "Grandpa Pip's Nesting Pots — Compare Numbers 1–10 (Kindergarten)",
+      "de": "Zahlen der Größe nach ordnen – Klasse 1 | Opa Pip",
+      "fr": "Ranger les nombres du plus grand au plus petit avec Papi Pip - CP",
+      "es": "Ordenar números de mayor a menor (preescolar)",
+      "pt": "Potes do Vovô Pip: Ordenar Números por Tamanho · 1º ano",
+      "it": "Confrontare e ordinare i numeri da 1 a 10 · classe prima",
+      "nl": "Getallen ordenen van groot naar klein voor groep 3",
+      "sv": "Blomkrukorna – ordna tal 1–10 från störst till minst (åk 1)",
+      "da": "Urtepotterne – ordn tal 1–10 fra størst til mindst (1. klasse)",
+      "no": "Blomsterpottene – ordne tall 1–10 fra størst til minst (1. trinn)",
+      "fi": "Kukkaruukut – järjestä luvut 1–10 suurimmasta pienimpään (1. luokka)"
+    },
+    "page_intro": {
+      "en": "An interactive Kindergarten math activity: help Grandpa Pip tuck his hand-carved pots away, biggest number on the outside down to little Wee Olen in the middle. The pots are every size, so children must read the painted NUMBER on each pot — not guess by how big it looks. Comparing written numerals is the heart of Common Core K.CC.C.7.",
+      "de": "Ordne mit Opa Pip die Zahlen der Größe nach – lies die aufgemalte Zahl, statt nach der Topfgröße zu raten. Interaktive Mathe-Übung für Klasse 1. Jetzt mitmachen!",
+      "fr": "Papi Pip range ses pots gigognes : le plus grand nombre à l'extérieur, jusqu'au petit Wee Olen tout au milieu. Les pots sont de toutes les tailles : ton enfant doit lire le nombre peint sur chaque pot, pas deviner d'après la taille. Comparer et ranger des nombres écrits, voilà tout le jeu. Une activité interactive pour le CP.",
+      "es": "Actividad interactiva, sin registro: los niños ordenan los números de mayor a menor leyendo el número, no el tamaño, alineada a los planes de la SEP.",
+      "pt": "Ajude o Vovô Pip a empilhar os potes começando pelo maior número, lendo o número pintado e não o tamanho do pote. Sem cadastro. BNCC, 1º ano.",
+      "it": "Nonno Pip intaglia i suoi vasetti di legno e su ognuno dipinge un numero da 1 a 10. Il bambino li incastra uno dentro l’altro dal numero più grande al più piccolo, imparando a leggere il numero dipinto e non a farsi ingannare dalla grandezza del vasetto, così il piccolo Wee Olen resta al sicuro nel mezzo. Un’attività interattiva senza registrazione, senza timer e senza punteggio, pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Opa Toon maakt stapelpotjes met op elke pot een getal. Je kind stapelt ze van het grootste getal naar het kleinste, zodat de kleine Wee Olen veilig in het midden komt. Je leest het getal, niet de grootte van de pot — een dikke pot kan een klein getal dragen. Zo orden je spelenderwijs de getallen 1-10. Interactief.",
+      "sv": "Alla krukor ser likadana ut – bara talet skiljer dem åt. När barnet trycker på en kruka sjunker den ner i de andra och växer till sitt tal, och den får bara plats i en kruka med ett större tal. Interaktiv övning med tal upp till 10, anpassad efter Lgr22.",
+      "da": "Alle potterne ser ens ud – kun tallet er forskelligt. Når barnet trykker på en potte, falder den ned i de andre og vokser til sit tal, og den kan kun være i en potte med et større tal. Interaktiv øvelse med tal op til 10, i tråd med Fælles Mål.",
+      "no": "Alle pottene ser like ut – bare tallet skiller dem. Når barnet trykker på en potte, synker den ned i de andre og vokser til tallet sitt, og den får bare plass i en potte med et større tall. Interaktiv øvelse med tall opptil 10, i tråd med LK20.",
+      "fi": "Kaikki ruukut näyttävät samanlaisilta – vain luku erottaa ne. Kun lapsi napauttaa ruukkua, se putoaa muiden sisään ja kasvaa lukunsa kokoiseksi, ja se mahtuu vain sellaisen ruukun sisään, jossa on suurempi luku. Vuorovaikutteinen harjoitus 10:een asti, OPS 2014:n mukainen."
+    },
+    "kid_prompt_template": "pot-nest"
+  }
+]

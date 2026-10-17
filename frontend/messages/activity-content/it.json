@@ -3127,25 +3127,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "Nonno Pip intaglia i suoi vasetti di legno e su ciascuno dipinge un numero da 1 a 10: il bambino li annida uno dentro l’altro, dal numero più grande al più piccolo, finché il piccolo Wee Olen non trova posto al sicuro nel mezzo della famiglia.",
-        "L’attività allena a confrontare e ordinare i numeri scritti da 1 a 10: il bambino legge il numero dipinto sul vasetto — non la sua grandezza, che è un simpatico tranello — e capisce quale numero è più grande e quale più piccolo.",
-        "È pensata per la classe prima ed è allineata alle Indicazioni nazionali; è senza registrazione, senza timer e senza punteggio, così il bambino impara con calma e senza pressioni."
+        "Quattro vasetti aspettano in fila — per esempio 6, 9, 2 e 4 — e sembrano tutti identici: cambia solo il numero dipinto su ciascuno. Il bambino tocca un vasetto, che scende negli altri e cresce fino alla grandezza del suo numero: il 9 diventa un vaso grande, il 2 uno piccolo. Un vasetto entra solo in uno con un numero più grande, quindi bisogna incastrarli dal numero più grande al più piccolo. È un’attività interattiva per la classe prima che funziona nel browser, senza installare nulla e senza account.",
+        "Poiché tutti i vasetti della fila hanno la stessa grandezza, la grandezza non dice nulla: il bambino legge e confronta i numeri, e provando un vasetto vede subito se entra. Sono i vasetti stessi a rispondere: uno troppo grande sporge dal bordo, traballa e torna nella fila. Scegliere troppo presto un vasetto piccolo porta a un vicolo cieco — prima il 9, poi il 2, e non entrano più né il 6 né il 4 —: allora il vasetto più interno si illumina e un tocco lo toglie di nuovo. Dopo due vasetti rifiutati compaiono dei pallini su quelli che aspettano, per contare quale numero è il più grande. Quando tutti i vasetti sono dentro, Verifica legge la pila: «Sì: 9, 6, 4, 2, dal numero più grande al più piccolo!»",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare numeri scritti in cifre tra 1 e 10, qui tre o quattro alla volta. L’insegnante sceglie tre vasetti fino a 5 o quattro fino a 10 e mostra i pallini solo come aiuto o sempre. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Confrontare due numeri scritti e capire quale è più grande e quale più piccolo.",
-        "Ordinare i numeri da 1 a 10 dal più grande al più piccolo.",
-        "Leggere il numero dipinto sul vasetto senza farsi ingannare dalla sua grandezza.",
-        "Trovare il numero mancante in una sequenza ordinata."
+        "Confrontare numeri scritti fino a 10",
+        "Trovare il numero più grande di un gruppo",
+        "Ordinare tre o quattro numeri dal più grande al più piccolo",
+        "Correggere un errore tornando indietro di un passo"
       ],
       "howToPlay": [
-        "Leggi il numero dipinto su ogni vasetto.",
-        "Incastra i vasetti uno dentro l’altro dal numero più grande al più piccolo.",
-        "Tocca Verifica quando tutta la famiglia di vasetti è sistemata."
+        "Guarda i numeri sui vasetti. Quale è il più grande?",
+        "Tocca prima il numero più grande: è il vasetto più esterno.",
+        "Poi il successivo, e il successivo: ogni vasetto deve entrare nell’ultimo.",
+        "Troppo grande? Torna indietro. Bloccato? Tocca il vasetto più interno per toglierlo. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a confrontare i numeri scritti da 1 a 10 e a riconoscere quale è più grande e quale più piccolo.",
-        "Tuo figlio impara a ordinare i numeri in sequenza, dal più grande al più piccolo.",
-        "Tuo figlio impara a leggere il numero e non la grandezza, sviluppando il senso del numero della classe prima."
+        "Confrontare numeri scritti in cifre tra 1 e 10",
+        "Ordinare tre o quattro numeri dal più grande al più piccolo",
+        "Capire che un numero più grande vuol dire di più"
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

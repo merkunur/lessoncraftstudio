@@ -863,25 +863,26 @@
     },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
-        "El abuelo Pip talla ollitas de madera que se encajan una dentro de otra, cada vez más pequeñas, y en cada una pintó un número. El bebé Wee Olen debe quedar hasta adentro, en la ollita más pequeña, mientras Doot el pato observa. Tu tarea: acomodar las ollitas del número mayor al menor, metiendo cada una dentro de la siguiente, para que al final el bebé quede seguro en el centro.",
-        "Lo interesante es que las ollitas son de todos los tamaños, revueltas: una ollita gorda puede llevar un número menor y una delgada un número mayor. Por eso nunca te dejes engañar por el tamaño de la olla: lee el número pintado y ordena los números de mayor a menor. Así aprendes a comparar y ordenar: cuál es el mayor, cuál el menor, cuál va entre los dos. A veces falta una ollita en la serie y buscas cuál encaja en el hueco; a veces dos ollitas llevan el mismo número —son gemelas iguales— y entonces se quedan una junto a la otra, porque ninguna cabe en la otra.",
-        "Aquí no hay reloj, ni puntaje, ni quién gana primero: puedes pensar con calma, probar y volver a empezar. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico. Nadie te apura: el abuelo Pip, Wee Olen y Doot tienen todo el tiempo del mundo, y tú también."
+        "Cuatro macetas esperan en fila —por ejemplo, 6, 9, 2 y 4— y todas se ven exactamente iguales: solo cambia el número pintado en cada una. El niño toca una maceta y esta cae dentro de las otras, creciendo hasta el tamaño de su número: el 9 se vuelve una maceta grande; el 2, una chica. Una maceta solo cabe dentro de una con un número mayor, así que hay que encajarlas del número mayor al menor. Es una actividad interactiva para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Como todas las macetas de la fila son del mismo tamaño, el tamaño no delata nada: el niño lee y compara los números, y al probar una maceta ve enseguida si cabe. Las macetas mismas responden: una que es demasiado grande sobresale del borde, se tambalea y regresa a la fila. Escoger una maceta chica demasiado pronto lleva a un callejón sin salida —primero el 9, luego el 2, y ya no caben ni el 6 ni el 4—; entonces la maceta de adentro brilla y un toque la vuelve a sacar. Después de dos macetas que no cupieron, aparecen puntos en las que esperan, para contar cuál número es el mayor. Cuando todas están adentro, Comprobar lee la torre: «¡Sí: 9, 6, 4, 2, del número mayor al menor!».",
+        "Está alineada con los planes y programas de estudio (SEP): comparar números escritos entre 1 y 10, aquí tres o cuatro a la vez. El docente elige tres macetas hasta 5 o cuatro hasta 10, y muestra los puntos solo como ayuda o siempre. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Ordenar un conjunto de ollitas de mayor a menor, leyendo el número pintado y no el tamaño de la olla.",
-        "Descubrir cuál número falta entre dos ollitas que ya están acomodadas.",
-        "Reconocer ollitas gemelas: dos que tienen el mismo número, aunque sean de distinto tamaño.",
-        "Vencer la «trampa del tamaño»: acomodar bien aunque una olla gorda lleve un número menor y una olla delgada lleve un número mayor."
+        "Comparar números escritos hasta 10",
+        "Encontrar el número mayor de un grupo",
+        "Ordenar tres o cuatro números del mayor al menor",
+        "Corregir un error dando un paso atrás"
       ],
       "howToPlay": [
-        "Mira el número pintado en cada ollita; no te fijes en si la olla es grande o chica.",
-        "Empieza con el número mayor y ve metiendo cada ollita dentro de la siguiente, de mayor a menor.",
-        "Al final, el bebé Wee Olen queda seguro dentro de la ollita más pequeña. Si falta un número o hay dos gemelas iguales, acomódalas con calma."
+        "Mira los números de las macetas. ¿Cuál es el mayor?",
+        "Toca primero el número mayor: es la maceta de afuera.",
+        "Luego el siguiente y el siguiente: cada maceta debe caber dentro de la anterior.",
+        "¿Muy grande? Regresa. ¿Atorado? Toca la maceta de adentro para sacarla. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Comparar y ordenar números del 1 al 10 —con un reto de números de dos cifras hasta el 40— de mayor a menor.",
-        "Leer el numeral escrito y usarlo para decidir, distinguiendo la cantidad del tamaño del objeto.",
-        "Identificar relaciones de «mayor que», «menor que» e «igual» entre dos números."
+        "Comparar números escritos entre 1 y 10",
+        "Ordenar tres o cuatro números del mayor al menor",
+        "Ver que un número mayor quiere decir más"
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

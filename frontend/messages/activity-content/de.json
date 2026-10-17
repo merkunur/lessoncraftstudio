@@ -2310,25 +2310,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi, der kleine Knödel, hat großen Hunger – und dein Kind darf ihn füttern. In jeder Runde wünscht sich Mochi eine ganz bestimmte Anzahl an Leckereien. Dein Kind tippt auf den Teller und lässt die Häppchen einzeln in Mochis Schüssel fallen, eines nach dem anderen, bis genau so viele darin liegen, wie Mochi möchte.",
-        "Dahinter steckt eine wichtige mathematische Idee: eine vorgegebene Anzahl abzählen und eine Menge selbst herstellen. Das Kind liest, wie viele Mochi haben möchte, und baut diese Menge dann Stück für Stück auf – jedes angetippte Häppchen ist genau eines mehr. So erlebt es ganz konkret, was „genau fünf“ oder „genau acht“ bedeutet, und verknüpft die Zahl mit einer Menge, die es mit eigenen Händen entstehen lässt.",
-        "Die Übung kommt ganz ohne Zeituhr und ohne Punktejagd aus. Dein Kind darf in Ruhe abzählen, ausprobieren und auch mal ein Häppchen wieder zurücknehmen, wenn es eines zu viel war. Sie orientiert sich am Lehrplan der Grundschule im Bereich „Zählen und Mengen“."
+        "Mochi hat eine Schachtel mit Leckereien bestellt, und der Bestellzettel zeigt, wie viele – zum Beispiel 7. Das Kind tippt Leckereien auf dem Tablett an, und jede fällt in eine Schachtel mit Deckel: ein Tipp, eine Leckerei, die verschwindet. Wenn das Kind meint, dass genau so viele in der Schachtel sind, wie der Zettel sagt, drückt es auf Prüfen, und die Schachtel geht auf. Eine interaktive Zählübung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Der Deckel ist der Kern. Liegt eine Leckerei in der Schachtel, ist sie nicht mehr zu sehen; die Anzahl muss also im Kopf bleiben – die zuletzt gesagte Zahl ist die Anzahl in der Schachtel, und genau dort muss das Kind aufhören. Eine vorgegebene Anzahl abzuzählen ist schwerer, als eine vorhandene Menge zu zählen, und die geschlossene Schachtel sorgt dafür, dass das Kind die Anzahl im Kopf behält, statt nachzusehen. Ein Tipp auf den Deckel hebt ihn kurz an, dann fällt er von selbst wieder zu; solange die Schachtel offen ist, legt ein Tipp auf eine Leckerei darin sie zurück aufs Tablett. Auf dem Tablett liegen immer mehr Leckereien, als bestellt sind (12, bei Zahlen bis 5 sind es 7), deshalb verrät seine Größe nichts. Ein falsches Prüfen sagt „zu viele“ oder „zu wenige“, und der Deckel bleibt für den Rest der Runde ab; nach einem zweiten Fehler werden die Leckereien in der Schachtel nummeriert, und die Schachtel zeigt die überzähligen Leckereien oder die leeren Plätze, die noch fehlen. Die Hilfe bewegt nie eine Leckerei.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: eine vorgegebene Anzahl bis 10 abzählen und wissen, dass die zuletzt gezählte Zahl die Anzahl angibt. Lehrkräfte wählen Zahlen bis 5 oder bis 10 und können den Deckel abnehmen, damit die Leckereien sichtbar bleiben. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine vorgegebene Anzahl abzählen und eine Menge selbst herstellen",
-        "Jedes Häppchen einzeln zählen – eins zu eins, ohne etwas zu überspringen oder doppelt zu zählen",
-        "Bei „genau so vielen“ anhalten und die eigene Menge überprüfen",
-        "Die Zielzahl als Anzahl verstehen – die Ziffer sagt, wie viele es sein sollen"
+        "Eine vorgegebene Anzahl Leckereien einzeln abzählen",
+        "Die Anzahl im Kopf behalten, wenn die Leckereien nicht mehr zu sehen sind",
+        "Bei der richtigen Zahl aufhören – die zuletzt gezählte Zahl gibt die Anzahl an",
+        "Hineinschauen und zur Kontrolle noch einmal zählen"
       ],
       "howToPlay": [
-        "Lies, wie viele Leckereien Mochi sich wünscht.",
-        "Tippe auf den Teller und lass die Häppchen einzeln in die Schüssel fallen.",
-        "Halte bei genau dieser Anzahl an und tippe auf „Prüfen“ – eines zu viel? Tippe ein Häppchen in der Schüssel an, um es zurückzunehmen."
+        "Lies die Zahl auf dem Bestellzettel.",
+        "Tippe Leckereien auf dem Tablett an, um sie einzeln in die Schachtel zu legen. Mit Deckel sind sie nicht zu sehen – zähle mit.",
+        "Ist der Deckel drauf, tippe darauf, um hineinzuschauen. Solange die Schachtel offen ist, legt ein Tipp auf eine Leckerei darin sie zurück aufs Tablett.",
+        "Drücke auf Prüfen. Noch nicht ganz? Der Hinweis sagt „zu viele“ oder „zu wenige“ – korrigiere und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Dein Kind kann eine genannte Anzahl bis 10 sicher abzählen und herstellen.",
-        "Es zählt jedes Objekt genau einmal und hält bei der richtigen Menge an.",
-        "Es verbindet die Zahl mit einer Menge und festigt so seine Mengenvorstellung."
+        "Eine vorgegebene Anzahl bis 10 abzählen",
+        "Wissen, dass die zuletzt gezählte Zahl die Anzahl angibt",
+        "Eine Anzahl im Kopf behalten, wenn die Dinge nicht mehr zu sehen sind"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

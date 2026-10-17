@@ -2637,25 +2637,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "Mochi the dumpling is hungry, and children feed it exactly the number of treats asked for — tapping the dish to drop one treat at a time into the bowl, 3 strawberries, 5 cookies, 4 cherries, on up to 10 muffins, then checking. It's an interactive Kindergarten counting activity that runs right in the browser with nothing to install and no account.",
-        "The big idea is counting out a given number, which is harder than counting a set that is already there. There are no numerals on the treats; the filling bowl IS the count, so a child has to keep track as each treat drops and stop at the right amount — not one too many, not one too few. That careful one-at-a-time counting builds true cardinality: the last number you count tells how many there are.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" and counting out that many objects, up to 10. No timer, no score — just calm, playful practice."
+        "Mochi has ordered a box of treats, and the order ticket shows how many — 7, say. The child taps treats on the tray, and each one drops into a bakery box with the lid on: one tap, one treat out of sight. When the child thinks the box holds exactly the number on the ticket, they press Check and the box opens. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "The lid is the point. Once a treat is in the box it cannot be seen, so the count has to stay in the child's head — the last number said is how many are in the box, and the child has to stop there. Counting out a given number is harder than counting a group that is already there, and the closed box makes the child keep the count instead of looking. A tap on the lid lifts it for a short peek, and it drops again by itself; while the box is open, a tap on a treat inside puts it back on the tray. The tray always holds more treats than any order (12, or 7 when the numbers go up to 5), so its size never gives the answer. A wrong Check says too many or too few and leaves the lid off for the rest of the round; after a second, the treats in the box are numbered and the box marks the extra treats or the empty places still needed. The help never moves a treat.",
+        "It is aligned to Common Core K.CC.B.5 — counting out a given number of things, up to 10 — and to the idea behind it, that the last number counted tells how many (K.CC.B.4b). Teachers can choose numbers up to 5 or up to 10, and take the lid off so the treats stay in sight. No timer, no score."
       ],
       "practices": [
-        "Count out a given number of objects, one at a time, and stop at the right amount",
-        "Keep track of a count while adding objects to a bowl",
-        "Understand that the last number counted tells how many there are",
-        "Build one-to-one correspondence with no numerals to lean on"
+        "Counting out a given number of treats, one at a time",
+        "Keeping the count in your head when the treats go out of sight",
+        "Stopping at the right number — the last number counted tells how many",
+        "Peeking and counting again to check"
       ],
       "howToPlay": [
-        "Read or listen to how many treats Mochi wants, such as 6 cupcakes.",
-        "Tap the dish to drop treats into the bowl one at a time until you have that many, then check.",
-        "Too many or too few? Try again as many times as you like — there is no timer and no score."
+        "Read the number on the order ticket.",
+        "Tap treats on the tray to put them in the box, one at a time. With the lid on they are out of sight, so keep count.",
+        "With the lid on, tap it to peek. While the box is open, tap a treat inside to put it back on the tray.",
+        "Press Check. Not quite? The hint says too many or too few — fix it and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Count out a given number of objects up to 10 — the focus of Common Core K.CC.B.5",
-        "Answer \"how many?\" by counting carefully one at a time",
-        "Strengthen cardinality, the idea that the final count names the amount"
+        "Count out a given number of things, up to 10 — the focus of Common Core K.CC.B.5",
+        "Know that the last number counted tells how many",
+        "Keep track of a count when the objects can no longer be seen"
       ]
     },
     "money.count-out.2-md-c-8": {

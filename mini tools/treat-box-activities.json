@@ -1,0 +1,75 @@
+[
+  {
+    "id": "mochi-feast.count-out.k-cc-b-5",
+    "tool": "treat-box-activity",
+    "task_template": "treat-box",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.5",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "ranges": [
+        "to5",
+        "to10"
+      ],
+      "lids": [
+        "on",
+        "off"
+      ],
+      "theme": "desserts and sweets",
+      "nouns": [
+        "cookie",
+        "cupcake",
+        "donut",
+        "muffin",
+        "lollipop",
+        "brownie",
+        "waffle"
+      ],
+      "max": 10
+    },
+    "theme": "desserts and sweets",
+    "slug": {
+      "en": "feed-mochi-counting",
+      "de": "genau-so-viele-abzaehlen-menge-herstellen-klasse-1",
+      "fr": "compter-nourrir-mochi-le-bon-nombre-gs",
+      "es": "formar-conjuntos-poner-cantidad-exacta-preescolar",
+      "pt": "contar-e-formar-a-quantidade-dando-guloseimas-ao-mochi-1-ano",
+      "it": "contare-e-formare-la-quantita-giusta-fino-a-10-classe-prima",
+      "nl": "aftellen-maak-precies-genoeg-een-hoeveelheid-maken-kleuters",
+      "sv": "mochis-godisask-rakna-upp-lika-manga",
+      "da": "mochis-kageaeske-tael-lige-saa-mange",
+      "no": "mochis-kakeboks-tell-opp-like-mange",
+      "fi": "mochin-herkkulaatikko-laske-yhta-monta"
+    },
+    "page_title": {
+      "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
+      "de": "Menge herstellen: genau so viele abzählen – Klasse 1",
+      "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)",
+      "es": "Formar conjuntos: pon la cantidad exacta (preescolar)",
+      "pt": "Contar e formar a quantidade certa com o Mochi | Atividade 1º ano",
+      "it": "Contare e formare la quantità giusta (2-10) | Classe prima",
+      "nl": "Aftellen: maak precies genoeg — een hoeveelheid maken – kleuters",
+      "sv": "Mochis godisask – lägg i lika många som beställningen (åk 1)",
+      "da": "Mochis kageæske – læg lige så mange i som bestillingen (1. klasse)",
+      "no": "Mochis kakeboks – legg i like mange som bestillingen (1. trinn)",
+      "fi": "Mochin herkkulaatikko – laita yhtä monta kuin tilauksessa (1. luokka)"
+    },
+    "page_intro": {
+      "en": "An interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
+      "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Interaktive Zählübung für Klasse 1 – jetzt spielen!",
+      "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. En ligne, sans inscription.",
+      "es": "Actividad interactiva y sin registro: el niño pone las golosinas una por una hasta formar la cantidad exacta que pide Mochi. Para preescolar (SEP).",
+      "pt": "Ajude o Mochi: toque no prato e coloque uma guloseima de cada vez na tigela até chegar na quantidade exata pedida, e pare no número certo. Atividade sem cadastro. BNCC, 1º ano.",
+      "it": "Mochi è un bocconcino goloso e sempre affamato, e a ogni giro chiede un numero esatto di golosità: «Dai 5 fragole a Mochi!». Il bambino tocca il piatto e mette una golosità per volta nella ciotola, contando uno a uno, e si ferma al numero giusto; se ne mette troppe, ne tocca una nella ciotola per toglierla. Nella ciotola non compaiono numeri: è la ciotola che si riempie a fare da conteggio, così il bambino impara a formare una quantità data, l’altra faccia del contare. Un’attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Mochi heeft honger en vraagt elke ronde een precies aantal, bijvoorbeeld vijf aardbeien. Je kind tikt op het bord en legt één voor één een lekkernij in de kom, telt hardop mee en stopt bij het juiste getal. Te veel? Haal er gewoon eentje uit de kom. Zo leert je kind een gegeven hoeveelheid maken — de andere kant van tellen. Interactief, getallen 2 tot 10, zonder sommen.",
+      "sv": "Beställningen visar ett tal: lägg lika många godbitar i asken, en i taget. Locket gömmer dem, så barnet håller räkningen i huvudet och kan lyfta locket för att kika. Interaktiv räkneövning upp till 10, anpassad efter Lgr22.",
+      "da": "Bestillingen viser et tal: læg lige så mange godbidder i æsken, én ad gangen. Låget skjuler dem, så barnet holder tællingen i hovedet og kan løfte låget for at kigge. Interaktiv tælleøvelse op til 10, i tråd med Fælles Mål.",
+      "no": "Bestillingen viser et tall: legg like mange godbiter i boksen, én om gangen. Lokket skjuler dem, så barnet holder tellingen i hodet og kan løfte lokket for å kikke. Interaktiv telleøvelse opptil 10, i tråd med LK20.",
+      "fi": "Tilauksessa on luku: laita laatikkoon yhtä monta herkkua yksi kerrallaan. Kansi piilottaa ne, joten lapsi pitää laskun mielessään ja voi nostaa kantta kurkistaakseen. Vuorovaikutteinen laskemisharjoitus 10:een asti, OPS 2014:n mukainen."
+    },
+    "kid_prompt_template": "prompt"
+  }
+]

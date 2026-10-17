@@ -115,6 +115,10 @@ function seedScript(row) {
     // seven dots on Mama's card, six ducklings already on the bank, so the card shows the pond mid-roll
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.n===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();for(var s=0;s<6;s++)window.RollBookCore.send(t.st);t._paint();})();`;
   }
+  if (row.tool === 'treat-box-activity') {
+    // order 7 with the lid off and four cookies already in, so the card shows the box mid-packing beside the tray (a shut lid would read as a blank card)
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.api.settings.lid='off';var i=t._pool.findIndex(function(r){return r.n===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();for(var s=0;s<4;s++)window.TreatBoxCore.put(t.st,s*3);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

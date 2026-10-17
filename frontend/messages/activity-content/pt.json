@@ -2884,25 +2884,26 @@
     },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
-        "O Mochi está com fome! Esse bolinho fofo pede um número exato de guloseimas — por exemplo, \"Dê 5 morangos ao Mochi!\". Você toca no prato para colocar uma guloseima de cada vez dentro da tigela, uma a uma, e para quando chegar no número certo. Se colocar demais, é só tocar em uma guloseima para tirar de volta.",
-        "A grande ideia aqui é produzir uma coleção com a quantidade pedida: contar um a um até chegar no número e parar. É a outra ponta da contagem — não é só dizer quantas guloseimas tem, é formar a quantidade certa você mesmo. E como não aparece nenhum numeral na tigela, a própria tigela enchendo é a contagem: a criança vê a quantidade crescer e sente onde ela precisa parar.",
-        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — nada de pressa nem de errado na cara da criança, só o Mochi esperando o lanchinho. Ela está alinhada à BNCC, na unidade temática Números, e é uma base tranquila para depois juntar e somar coleções."
+        "O Mochi encomendou uma caixa de guloseimas, e o pedido mostra quantas: 7, por exemplo. A criança toca nas guloseimas da bandeja, e cada uma cai numa caixa de confeitaria com a tampa fechada: um toque, uma guloseima que some de vista. Quando a criança acha que a caixa tem exatamente o número do pedido, aperta Verificar e a caixa se abre. É uma atividade interativa de contagem que funciona no navegador, sem instalar nada e sem cadastro.",
+        "O segredo está na tampa. Depois que a guloseima entra na caixa, ela não aparece mais, então a contagem precisa ficar na cabeça da criança: o último número dito é quantas há na caixa, e é ali que ela tem de parar. Formar uma coleção com uma quantidade dada é mais difícil do que contar uma coleção que já está ali, e a caixa fechada faz a criança guardar a contagem em vez de olhar. Um toque na tampa a levanta por um instante para espiar, e ela cai de novo sozinha; enquanto a caixa está aberta, um toque numa guloseima lá dentro a devolve à bandeja. A bandeja sempre tem mais guloseimas do que o pedido (12, ou 7 quando os números vão até 5), então o tamanho dela nunca dá a resposta. Uma verificação errada diz «demais» ou «faltam» e deixa a caixa sem tampa até o fim da rodada; depois de uma segunda, as guloseimas da caixa são numeradas e a caixa marca as que sobram ou os lugares vazios que ainda faltam. A ajuda nunca move uma guloseima.",
+        "A atividade está alinhada à BNCC, no campo dos números: formar uma coleção com uma quantidade dada até 10 e saber que o último número contado diz quantos são. O professor escolhe números até 5 ou até 10 e pode tirar a tampa para que as guloseimas fiquem à vista. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar um a um até a quantidade pedida",
-        "Parar no número certo, sem passar",
-        "Tirar uma guloseima quando colocou demais",
-        "Formar uma coleção com um número dado"
+        "Formar uma coleção com uma quantidade dada, uma guloseima de cada vez",
+        "Guardar a contagem na cabeça quando as guloseimas somem de vista",
+        "Parar no número certo: o último número contado diz quantos são",
+        "Espiar e contar de novo para conferir"
       ],
       "howToPlay": [
-        "Veja quantas guloseimas o Mochi quer",
-        "Toque no prato para colocar uma de cada vez na tigela",
-        "Pare no número certo e toque em Verificar"
+        "Leia o número do pedido.",
+        "Toque nas guloseimas da bandeja para colocá-las na caixa, uma de cada vez. Com a tampa, as guloseimas não aparecem: guarde a contagem.",
+        "Se a tampa estiver fechada, toque nela para espiar. Enquanto a caixa está aberta, toque numa guloseima lá dentro para devolvê-la à bandeja.",
+        "Aperte Verificar. Ainda não? A dica diz «demais» ou «faltam»: corrija e aperte Verificar de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Eu conto um a um até formar a quantidade pedida",
-        "Eu paro no número certo",
-        "Eu tiro uma quando coloco demais"
+        "Formar uma coleção com uma quantidade dada até 10",
+        "Saber que o último número contado diz quantos são",
+        "Guardar a contagem quando os objetos não aparecem mais"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

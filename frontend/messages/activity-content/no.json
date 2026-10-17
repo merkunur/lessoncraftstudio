@@ -1670,6 +1670,30 @@
         "Skrive sifferet som sier hvor mange gjenstander det er",
         "Vite at det siste tallet man teller, sier hvor mange det er"
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi har bestilt en boks med godsaker, og bestillingslappen viser hvor mange – for eksempel 7. Barnet trykker på godsaker på brettet, og hver godsak faller ned i en kakeboks med lokket på: ett trykk, én godsak ute av syne. Når barnet tror at boksen inneholder akkurat så mange som lappen sier, trykker det på Sjekk, og boksen åpner seg. En interaktiv telleøvelse som kjører i nettleseren, uten installasjon og uten konto.",
+        "Lokket er hele poenget. Når en godsak ligger i boksen, kan den ikke ses lenger, så tellingen må bli i barnets hode – det siste tallet barnet sa, er hvor mange som ligger i boksen, og der må barnet stoppe. Å telle opp et gitt antall er vanskeligere enn å telle en mengde som allerede ligger der, og den lukkede boksen gjør at barnet holder tellingen i stedet for å kikke. Et trykk på lokket løfter det et kort øyeblikk så barnet kan kikke, og så faller det på igjen av seg selv; mens boksen er åpen, kan barnet trykke på en godsak i den for å legge den tilbake på brettet. På brettet ligger det alltid flere godsaker enn i bestillingen (12, eller 7 når tallene går opptil 5), så størrelsen avslører aldri svaret. En feil sjekk sier «for mange» eller «for få» og lar lokket være av resten av runden; etter en andre blir godsakene i boksen nummerert, og boksen markerer de godsakene som er for mange, eller de tomme plassene som fortsatt mangler. Hjelpen flytter aldri en godsak.",
+        "Aktiviteten er tilpasset LK20 – å telle opp et gitt antall opptil 10 og vite at det siste tallet man teller, sier hvor mange det er. Læreren velger tall opptil 5 eller opptil 10 og kan ta av lokket så godsakene hele tiden synes. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Å telle opp et gitt antall godsaker, én om gangen",
+        "Å holde tellingen i hodet når godsakene ikke synes",
+        "Å stoppe ved riktig tall – det siste tallet man teller, sier hvor mange det er",
+        "Å kikke og telle igjen for å sjekke"
+      ],
+      "howToPlay": [
+        "Les tallet på bestillingslappen.",
+        "Trykk på godsaker på brettet for å legge dem i boksen, én om gangen. Med lokket på synes de ikke, så hold tellingen.",
+        "Er lokket på, trykk på det for å kikke. Mens boksen er åpen, kan du trykke på en godsak i den for å legge den tilbake på brettet.",
+        "Trykk på Sjekk. Ikke helt? Hintet sier «for mange» eller «for få» – rett det og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle opp et gitt antall opptil 10",
+        "Vite at det siste tallet man teller, sier hvor mange det er",
+        "Holde tellingen når tingene ikke synes lenger"
+      ]
     }
   }
 }

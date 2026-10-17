@@ -2530,6 +2530,30 @@
         "Skriva siffran som säger hur många föremål det är",
         "Veta att det sista talet man räknar säger hur många det är"
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi har beställt en ask med godsaker, och beställningslappen visar hur många – till exempel 7. Barnet trycker på godsaker på brickan, och varje godsak ramlar ner i en bakelseask med locket på: ett tryck, en godsak som försvinner ur sikte. När barnet tror att asken innehåller precis så många som lappen säger trycker det på Kontrollera, och asken öppnas. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Locket är själva poängen. När en godsak ligger i asken syns den inte längre, så räkningen måste stanna i barnets huvud – det sista talet barnet sa är hur många som ligger i asken, och där måste barnet sluta. Att räkna fram ett givet antal är svårare än att räkna en mängd som redan finns, och den stängda asken gör att barnet håller räkningen i stället för att titta. Ett tryck på locket lyfter det en kort stund så att barnet kan kika, och sedan faller det igen av sig självt; medan asken är öppen kan barnet trycka på en godsak i den för att lägga tillbaka den på brickan. På brickan ligger alltid fler godsaker än beställningen (12, eller 7 när talen går upp till 5), så dess storlek avslöjar aldrig svaret. En felaktig kontroll säger ”för många” eller ”för få” och låter locket vara av resten av omgången; efter en andra numreras godsakerna i asken, och asken markerar de godsaker som är för många eller de tomma platser som fortfarande saknas. Hjälpen flyttar aldrig en godsak.",
+        "Aktiviteten följer Lgr22 – att räkna fram ett givet antal upp till 10 och veta att det sista talet man räknar säger hur många det är. Läraren väljer tal upp till 5 eller upp till 10 och kan ta av locket så att godsakerna syns hela tiden. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Att räkna fram ett givet antal godsaker, en i taget",
+        "Att hålla räkningen i huvudet när godsakerna inte syns längre",
+        "Att sluta vid rätt tal – det sista talet man räknar säger hur många det är",
+        "Att kika och räkna igen för att kontrollera"
+      ],
+      "howToPlay": [
+        "Läs talet på beställningslappen.",
+        "Tryck på godsaker på brickan för att lägga dem i asken, en i taget. Med locket på syns de inte, så håll räkningen.",
+        "Är locket på, tryck på det för att kika. Medan asken är öppen kan du trycka på en godsak i den för att lägga tillbaka den på brickan.",
+        "Tryck på Kontrollera. Inte riktigt? Tipset säger ”för många” eller ”för få” – rätta och tryck på Kontrollera igen. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna fram ett givet antal upp till 10",
+        "Veta att det sista talet man räknar säger hur många det är",
+        "Hålla räkningen när föremålen inte syns längre"
+      ]
     }
   }
 }

@@ -3190,25 +3190,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Il folletto gemello raccoglie un mucchietto di ghiande e sogna un gemello: non un disegno uguale, ma un mucchietto con lo stesso numero di ghiande, e tocca al bambino crearlo.",
-        "L’attività allena a contare «quanti sono» toccando gli oggetti uno a uno e poi a formare la stessa quantità disposta in modo diverso — su una riga, sparsa, in schieramento o persino leggendo un numero scritto — scoprendo che la quantità non cambia (conservazione del numero).",
-        "Costruita seguendo le Indicazioni nazionali per la classe prima, è senza registrazione, senza timer e senza punteggio."
+        "Due pozze tra gli scogli, una sopra l’altra. Nella prima ci sono animali marini: per esempio sette granchi sparsi, o sei stelle marine in cerchio. Il bambino li conta e poi riempie la pozza gemella, vuota, con altrettanti animali, ma di un altro tipo: sette stelle marine per sette granchi. Quando la pozza gemella è pronta, preme Verifica. È un’attività interattiva di conteggio che funziona nel browser, senza installare niente e senza account.",
+        "I due lati del contare stanno in una sola mossa: scoprire quanti sono e poi formarne altrettanti. Gli animali della prima pozza sono in fila, in cerchio, in righe o sparsi; toccarne uno lo segna come contato, così il bambino sa quali ha già contato, e il segno non è mai un numero. Nella pozza gemella, toccare un posto libero ci mette un animale e toccare un animale lo toglie. Poiché gli animali gemelli sono, di base, di un altro tipo e disposti in un altro modo, può corrispondere solo la quantità. La pozza gemella ha sempre più posti di quanti ne servano (12, oppure 8 quando i numeri arrivano a 5), quindi la sua grandezza non dà mai la risposta. Quando è giusto, un filo lega ogni animale della prima pozza a uno della pozza gemella, senza che ne avanzi nessuno da una parte o dall’altra: è questo che vuol dire «altrettanti». Quando non è giusto, il suggerimento dice «troppi» o «mancano» e gli animali della pozza gemella vengono numerati; al secondo errore, i fili legano tutte le coppie possibili e cerchiano gli animali rimasti senza gemello. L’aiuto non sposta mai un animale.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: contare raccolte fino a 10 in fila, in cerchio, in righe o sparse e formare una raccolta di una quantità data. L’insegnante sceglie numeri fino a 5 o fino a 10 e può mettere lo stesso tipo di animale nella pozza gemella, perché le coppie si vedano più facilmente. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Contare «quanti sono» toccando ogni oggetto uno a uno",
-        "Formare un insieme con la stessa quantità",
-        "Capire che la quantità non cambia se gli oggetti sono disposti in modo diverso",
-        "Leggere un numero scritto e formare quella quantità"
+        "Contare quanti sono in fila, in cerchio, in righe o sparsi",
+        "Segnare ogni animale mentre lo si conta, per non contarne nessuno due volte e non saltarne nessuno",
+        "Formare la stessa quantità con altre cose",
+        "Vedere che due raccolte hanno la stessa quantità quando ogni elemento ha il suo gemello"
       ],
       "howToPlay": [
-        "Tocca ogni ghianda per contare il mucchietto del folletto",
-        "Forma un gemello con lo stesso numero di ghiande sul tuo piatto",
-        "Tocca «Siamo gemelli!» per controllare"
+        "Conta gli animali marini della prima pozza. Tocca ognuno per segnarlo mentre conti.",
+        "Tocca dei posti liberi nella pozza gemella per metterci altrettanti animali. Tocca un animale della pozza gemella per toglierlo.",
+        "Premi Verifica. Se corrispondono, un filo lega ogni coppia.",
+        "Non ancora? Il suggerimento dice «troppi» o «mancano»: correggi e premi di nuovo Verifica. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a contare «quanti sono» toccando gli oggetti uno a uno",
-        "Tuo figlio impara a formare la stessa quantità disponendo gli oggetti in modo diverso",
-        "Tuo figlio impara a riconoscere che il numero non cambia con la disposizione"
+        "Contare raccolte fino a 10 in fila, in cerchio, in righe o sparse",
+        "Formare una raccolta di una quantità data",
+        "Sapere che due raccolte hanno la stessa quantità quando ogni elemento dell’una si può accoppiare con un elemento dell’altra"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

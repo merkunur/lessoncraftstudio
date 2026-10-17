@@ -1638,6 +1638,30 @@
         "Lapsi tietää, että viimeinen laskettu luku kertoo lukumäärän",
         "Lapsi pitää laskun mielessä, kun esineet eivät enää näy"
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Kaksi kalliolammikkoa on päällekkäin. Ensimmäisessä on merieläimiä – esimerkiksi seitsemän rapua sikin sokin tai kuusi meritähteä ringissä. Lapsi laskee ne ja täyttää sitten alla olevan tyhjän kaksoislammikon yhtä monella, mutta toisenlaisella eläimellä: seitsemän meritähteä seitsemän ravun pariksi. Kun kaksoislammikko on valmis, lapsi painaa Tarkista. Vuorovaikutteinen laskemisharjoitus, joka toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Laskemisen molemmat puolet ovat samassa liikkeessä: selvitä, montako niitä on, ja kokoa sitten yhtä monta. Ensimmäisen lammikon eläimet ovat rivissä, ringissä, riveissä tai sikin sokin; eläimen napauttaminen merkitsee sen lasketuksi, jotta lapsi tietää, mitkä on jo laskettu – merkki ei ole koskaan luku. Kaksoislammikossa tyhjän paikan napauttaminen laittaa siihen eläimen, ja eläimen napauttaminen ottaa sen pois. Koska kaksoislammikon eläimet ovat oletuksena toisenlaisia ja eri järjestyksessä, vain lukumäärä voi täsmätä. Kaksoislammikossa on aina enemmän paikkoja kuin kierros tarvitsee (12, tai 8 kun luvut ovat 5:een asti), joten sen koko ei koskaan paljasta vastausta. Kun määrät täsmäävät, naru yhdistää jokaisen ensimmäisen lammikon eläimen yhteen kaksoislammikon eläimeen, eikä kummallekaan puolelle jää ylimääräisiä – juuri sitä ”yhtä monta” tarkoittaa. Kun määrät eivät täsmää, vihje kertoo, onko eläimiä liikaa vai liian vähän, ja kaksoislammikon eläimet numeroidaan; toisen yrityksen jälkeen narut yhdistävät niin monta paria kuin voivat ja ympyröivät eläimet, joilta puuttuu kaksonen. Apu ei koskaan siirrä eläintä.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi laskee lukumäärän 10:een asti, kun esineet ovat rivissä, ringissä, riveissä tai sikin sokin, ja kokoaa annetun lukumäärän. Opettaja valitsee, ovatko luvut 5:een vai 10:een asti, ja voi laittaa kaksoislammikkoon samanlaiset eläimet, jotta parit on helpompi nähdä. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Laskea, montako on rivissä, ringissä, riveissä tai sikin sokin",
+        "Merkitä jokainen laskettu eläin, jotta mitään ei lasketa kahdesti eikä mitään jää laskematta",
+        "Koota yhtä monta toisenlaisista esineistä",
+        "Huomata, että kahdessa ryhmässä on yhtä monta, kun jokaisella on kaksonen"
+      ],
+      "howToPlay": [
+        "Laske ensimmäisen lammikon merieläimet. Napauta jokaista merkitäksesi sen laskiessasi.",
+        "Napauta kaksoislammikon tyhjiä paikkoja laittaaksesi niihin yhtä monta. Napauta kaksoislammikon eläintä ottaaksesi sen pois.",
+        "Paina Tarkista. Jos määrät täsmäävät, naru yhdistää jokaisen parin.",
+        "Ei ihan? Vihje kertoo, onko eläimiä liikaa vai liian vähän – korjaa ja paina Tarkista uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi laskee lukumäärän 10:een asti, kun esineet ovat rivissä, ringissä, riveissä tai sikin sokin",
+        "Lapsi kokoaa annetun lukumäärän",
+        "Lapsi tietää, että kahdessa ryhmässä on yhtä monta, kun jokaisen esineen voi yhdistää pariksi toisen ryhmän esineen kanssa"
+      ]
     }
   }
 }

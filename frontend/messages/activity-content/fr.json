@@ -1394,24 +1394,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Le lutin jumeau a fait un tas de glands et il veut un jumeau : pas la même image, mais le même nombre ! L'enfant compte les glands du lutin un à un, puis construit un jumeau sur sa propre assiette avec exactement autant de glands. La disposition peut être différente, seul le nombre doit correspondre. Quand les deux tas ont le même nombre, on dit « On est jumeaux ! ».",
-        "Dénombrer une collection, puis en constituer une autre qui en a autant : c'est ainsi que les jeunes enfants apprennent à « construire le nombre » à la maternelle. En jouant, l'enfant comprend que deux collections rangées différemment peuvent avoir le même cardinal. Le jeu se joue sans minuteur, sans score et sans compte, pour que chacun avance à son rythme, en accord avec les programmes officiels de l'école."
+        "Deux flaques de rochers sont posées l’une au-dessus de l’autre. La première contient des animaux marins — par exemple sept crabes éparpillés, ou six étoiles de mer en rond. L’enfant les compte, puis remplit la flaque jumelle, vide, avec autant d’animaux, mais d’une autre sorte : sept étoiles de mer pour sept crabes. Quand la flaque jumelle est prête, l’enfant appuie sur Vérifier. Une activité interactive de dénombrement pour la grande section, qui fonctionne dans le navigateur, sans installation ni compte.",
+        "Les deux faces du dénombrement tiennent en un seul geste : trouver combien il y en a, puis en constituer autant. Les animaux de la première flaque sont alignés, en rond, en rangées ou en vrac ; toucher un animal le coche comme compté, pour que l’enfant sache lesquels il a déjà comptés — la coche n’est jamais un nombre. Dans la flaque jumelle, toucher une place libre y met un animal, toucher un animal l’enlève. Comme les animaux jumeaux sont, par défaut, d’une autre sorte et rangés autrement, seule la quantité peut correspondre. La flaque jumelle a toujours plus de places qu’il n’en faut (12, ou 8 quand les nombres vont jusqu’à 5) ; sa taille ne donne donc jamais la réponse. Quand c’est juste, une ficelle relie chaque animal de la première flaque à un animal de la flaque jumelle, sans aucun animal de reste d’un côté ni de l’autre — c’est cela, « autant ». Quand ce n’est pas juste, l’indice dit « trop » ou « pas assez » et les animaux de la flaque jumelle sont numérotés ; à la deuxième erreur, les ficelles relient autant de paires que possible et entourent les animaux restés sans jumeau. L’aide ne déplace jamais un animal.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : dénombrer une collection jusqu’à 10, alignée, en rond, en rangées ou en vrac, et constituer une collection d’un cardinal donné. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et peut mettre la même sorte d’animal dans la flaque jumelle pour rendre les paires plus faciles à voir. Ni chrono ni score."
       ],
       "practices": [
-        "Compter les glands un à un",
-        "Dire combien il y en a (le cardinal)",
-        "En faire autant : constituer une collection équipotente",
-        "Comprendre que seul le nombre compte, pas la disposition",
-        "Recompter pour vérifier que les deux tas sont bien jumeaux"
+        "Dénombrer une collection alignée, en rond, en rangées ou en vrac",
+        "Cocher chaque animal compté, pour n’en oublier aucun et n’en compter aucun deux fois",
+        "Constituer une collection de même cardinal avec d’autres objets",
+        "Voir que deux collections ont autant d’éléments quand chacun a son jumeau"
       ],
       "howToPlay": [
-        "Compte les glands du lutin jumeau, un par un.",
-        "Fais un tas avec le même nombre de glands, puis dis « On est jumeaux ! »."
+        "Compte les animaux marins de la première flaque. Touche chacun pour le cocher pendant que tu comptes.",
+        "Touche des places libres de la flaque jumelle pour y mettre autant d’animaux. Touche un animal de la flaque jumelle pour l’enlever.",
+        "Appuie sur Vérifier. Si c’est juste, une ficelle relie chaque paire.",
+        "Pas tout à fait ? L’indice dit « trop » ou « pas assez » — corrige et appuie de nouveau sur Vérifier. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Dénombrer une petite collection",
-        "Constituer une collection de même cardinal (« autant que »)",
-        "Comprendre que le nombre ne dépend pas de la disposition"
+        "Dénombrer une collection jusqu’à 10, alignée, en rond, en rangées ou en vrac",
+        "Constituer une collection d’un cardinal donné",
+        "Comprendre que deux collections ont autant d’éléments quand on peut associer chaque élément de l’une à un élément de l’autre"
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

@@ -115,6 +115,7 @@ const MANIFEST_FILES = [
   'wake-up-pip-activities.json',
   'winter-piles-activities.json',
   'twinsies-activities.json',
+  'twin-pools-activities.json',
   'star-stitcher-activities.json',
   'necklace-activities.json',
   'wondering-jar-activities.json',

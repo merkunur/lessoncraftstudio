@@ -4317,25 +4317,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "A Twin-Sprite makes something — five acorns in a row, seven scattered, six in a 2-by-3 array — and asks for a twin: not the same picture, the same MANY. The child counts what the sprite made, then builds a matching set on their own plate, arranged differently so only the number is the same. It's an interactive Kindergarten counting activity that plays right in the browser, with nothing to install and no account.",
-        "The heart of the activity is cardinality — the idea that the last number you count tells how many, and that the count stays the same even when the objects are spread out in a new shape. Because the child cannot copy the arrangement, they have to make the same quantity, not the same look. Later rounds raise the bar: the model is covered so the child counts from memory, a round shows only the numeral 8 with nothing to copy, and one asks the child to count on from six to make seven. They tap \"We're twins!\" only when there are just enough.",
-        "It is aligned to Common Core K.CC.B.5 — counting to answer \"how many?\" and counting out that many objects, whether they sit in a line, an array, or a scattered pile. No timer, no score — just calm, playful practice."
+        "Two rock pools sit one above the other. The first holds sea creatures — seven crabs scattered about, say, or six starfish in a ring. The child counts them, then fills the empty twin pool below with just as many, but of a different kind: seven starfish for seven crabs. When the twin pool is ready, the child presses Check. It's an interactive Kindergarten counting activity that runs in the browser with nothing to install and no account.",
+        "Both halves of counting are in one move: count how many there are, then count out that many. The creatures in the first pool come in a line, a ring, rows or a scatter, and a tap on one marks it as counted, so the child can keep track of which ones are done; the mark is never a number. In the twin pool the child taps an empty place to put a creature in and taps a creature to take it out. Because the twin creatures are, by default, a different kind and lie in a different shape, only the number can match. The twin pool always has more places than any round needs (12, or 8 when the numbers go up to 5), so its size never gives the answer. A right Check ties a string from every creature in the first pool to one in the twin pool, with none left over on either side, which is what “the same number” means. A wrong Check says too many or too few and numbers the creatures in the twin pool; after a second, the strings tie as many pairs as they can and ring the creatures left without a twin. The help never moves a creature.",
+        "It is aligned to Common Core K.CC.B.5 — counting how many things there are in a line, a ring, rows or a scatter, and counting out a given number, up to 10. Teachers can choose numbers up to 5 or up to 10, and put the same kind of creature in the twin pool to make the match easier to see. No timer, no score."
       ],
       "practices": [
-        "Count a group by tapping each object exactly once",
-        "Know that the last number counted tells how many there are in all",
-        "Build a set with the same number even when it is arranged in a different shape",
-        "Make a quantity from a numeral alone, or by counting on from a given number"
+        "Counting how many there are in a line, a ring, rows or a scatter",
+        "Marking each one as it is counted, so none is counted twice or missed",
+        "Counting out the same number with different things",
+        "Seeing that two groups are the same number when every one has a twin"
       ],
       "howToPlay": [
-        "Count what the Twin-Sprite made by tapping each acorn, in a line, an array, or a scattered pile.",
-        "Add acorns to your own plate until you have the same number — a different shape, the same many.",
-        "Tap \"We're twins!\" when it matches; there is no timer and no score, so take your time."
+        "Count the sea creatures in the first pool. Tap each one to mark it as you count.",
+        "Tap empty places in the twin pool to put in just as many. Tap a creature in the twin pool to take it out.",
+        "Press Check. If they match, a string ties every pair.",
+        "Not quite? The hint says too many or too few — fix it and press Check again. No timer, no score."
       ],
       "learningGoals": [
-        "Count to answer \"how many?\" and count out that many objects — the focus of Common Core K.CC.B.5",
-        "Understand that the count stays the same no matter how objects are arranged",
-        "Match a quantity to a written numeral and build it"
+        "Count how many there are, up to 10, in a line, a ring, rows or a scatter — the focus of Common Core K.CC.B.5",
+        "Count out a given number of things",
+        "Know that two groups are the same number when each thing in one can be paired with a thing in the other"
       ]
     },
     "two-tales.compare.rl-1-9": {

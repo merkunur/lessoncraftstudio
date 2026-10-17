@@ -793,25 +793,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Zwicke, el duende gemelo, junta en el bosque las bellotas más bonitas y las amontona en una pilita. Pero Zwicke quiere algo especial: un gemelo para su montón. «Gemelo» no significa la misma foto —significa la misma cantidad. Igual que dos niños gemelos son niños distintos y aun así tienen los mismos años.",
-        "Primero, tu hijo cuenta las bellotas de Zwicke tocando cada una: una bellota, un toque, un número. Así descubre cuántas hay. Luego arma en su propio plato exactamente la misma cantidad de bellotas, pero acomodadas de otra forma: a veces en línea, a veces regadas, a veces en un arreglo, a veces según un número escrito. El acomodo puede verse muy distinto; solo la cantidad tiene que coincidir. Y cuando los dos tienen la misma cantidad, Zwicke grita feliz: «¡Somos gemelos!».",
-        "La gran idea es esta: es la misma cantidad, sin importar cómo se acomode. Una cantidad sigue siendo la misma, ya sea que las bellotas estén en fila, revueltas o bien ordenadas una junto a otra. Aquí no hay reloj que corra, ni puntos que ganar. Nadie tiene que apurarse ni se compara con nadie: Zwicke simplemente disfruta encontrar gemelos a su propio ritmo, las veces que quiera. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico."
+        "Dos pozas entre las rocas, una arriba de la otra. La primera tiene animales marinos: por ejemplo, siete cangrejos esparcidos o seis estrellas de mar en círculo. El niño los cuenta y luego llena la poza gemela, que está vacía, con la misma cantidad, pero de otro tipo: siete estrellas de mar por siete cangrejos. Cuando la poza gemela está lista, oprime Comprobar. Es una actividad interactiva de conteo para preescolar que funciona en el navegador, sin instalar nada y sin cuenta.",
+        "Las dos caras del conteo caben en una sola jugada: saber cuántos hay y luego formar esa misma cantidad. Los animales de la primera poza están en fila, en círculo, en hileras o revueltos; al tocar uno, queda marcado como contado, para que el niño sepa cuáles ya contó; la marca nunca es un número. En la poza gemela, tocar un lugar vacío pone un animal y tocar un animal lo saca. Como los animales gemelos son, de forma predeterminada, de otro tipo y están acomodados de otra forma, solo la cantidad puede coincidir. La poza gemela siempre tiene más lugares de los que hacen falta (12, u 8 cuando los números llegan hasta 5), así que su tamaño nunca da la respuesta. Cuando está bien, un hilo une cada animal de la primera poza con uno de la poza gemela y no sobra ninguno de ningún lado: eso es «la misma cantidad». Cuando no está bien, la pista dice «demasiados» o «faltan» y los animales de la poza gemela se numeran; al segundo intento, los hilos unen todas las parejas que pueden y marcan los animales que se quedan sin gemelo. La ayuda nunca mueve un animal.",
+        "Está alineada con los planes y programas de estudio (SEP): contar colecciones de hasta 10 en fila, en círculo, en hileras o revueltas, y formar una colección de una cantidad dada. El docente elige números hasta 5 o hasta 10, y puede poner el mismo tipo de animal en la poza gemela para que las parejas se vean más fácilmente. Sin temporizador y sin puntaje."
       ],
       "practices": [
-        "Cuenta la pila de bellotas de Zwicke, tocando cada una mientras dices el número en voz alta.",
-        "Arma tu propio plato con la misma cantidad de bellotas, acomodándolas en una línea.",
-        "Vuelve a armar la misma cantidad, pero ahora regadas o en un arreglo de 2×3: descubre que la cantidad no cambia.",
-        "Iguala la cantidad que te pide un numeral escrito y declara «¡Somos gemelos!»."
+        "Contar cuántos hay en fila, en círculo, en hileras o revueltos",
+        "Marcar cada uno al contarlo, para no contar ninguno dos veces ni saltarse ninguno",
+        "Formar la misma cantidad con otras cosas",
+        "Ver que dos colecciones tienen la misma cantidad cuando cada elemento tiene su gemelo"
       ],
       "howToPlay": [
-        "Cuenta las bellotas de Zwicke, una por una.",
-        "En tu plato, pon la misma cantidad de bellotas: puedes acomodarlas como quieras.",
-        "Cuando tengas las mismas, di «¡Somos gemelos!»."
+        "Cuenta los animales marinos de la primera poza. Toca cada uno para marcarlo mientras cuentas.",
+        "Toca lugares vacíos de la poza gemela para poner la misma cantidad. Toca un animal de la poza gemela para sacarlo.",
+        "Oprime Comprobar. Si coinciden, un hilo une cada pareja.",
+        "¿Todavía no? La pista dice «demasiados» o «faltan»: corrige y oprime Comprobar otra vez. Sin temporizador y sin puntaje."
       ],
       "learningGoals": [
-        "Contar una colección hasta 12 y decir cuántas hay (cardinalidad).",
-        "Formar un conjunto con la misma cantidad en un acomodo distinto (correspondencia uno a uno).",
-        "Comprender la conservación del número: la cantidad no cambia con el acomodo."
+        "Contar colecciones de hasta 10 en fila, en círculo, en hileras o revueltas",
+        "Formar una colección de una cantidad dada",
+        "Saber que dos colecciones tienen la misma cantidad cuando cada elemento de una se puede emparejar con uno de la otra"
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

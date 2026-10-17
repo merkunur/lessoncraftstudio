@@ -91,6 +91,8 @@ function serve() {
     const ids = pool.map((r) => r.id);
     const table = CONJ[LOC];
     const expect = (rid) => table[pool.find((r) => r.id === rid).relation];
+    /* each round offers its locale's chips minus round.hide (the one that would also fit) */
+    const offered = (rid) => { const h = pool.find((r) => r.id === rid).hide; return Object.values(table).filter((c) => c !== h); };
     const wantTitle = LOC === 'en' ? enLine('title') : svLine('title');
 
     const page = await browser.newPage();
@@ -148,7 +150,8 @@ function serve() {
          CHIPS_<LOC> is missing, the board silently shows the ENGLISH set and nothing
          is ever correct — the single highest-risk failure mode of this engine. */
       const shown = await chipSet();
-      const wantChips = Object.values(table).slice().sort().join('|');
+      const curId = await page.evaluate(() => window.HazelWordBridgeActivity.round.id);
+      const wantChips = offered(curId).slice().sort().join('|');
       note(shown === wantChips, `the board shows chips ${shown} — expected this locale's ${wantChips}`);
 
       const Np = await page.evaluate(() => window.HazelWordBridgeActivity._pool.length);
@@ -159,13 +162,13 @@ function serve() {
 
       /* a SELECTION IS NOT A VERDICT — assert before any Check */
       await force(ids[0]);
-      await tap(Object.values(table).find((c) => c !== expect(ids[0])));
+      await tap(offered(ids[0]).find((c) => c !== expect(ids[0])));
       const pickColour = await page.$eval('.hwb-chip.hwb-sel', e => getComputedStyle(e).borderTopColor).catch(() => null);
       note(pickColour !== 'rgb(242, 120, 75)', 'the SELECTED chip wears the try-again colour before Check — a selection is not a verdict');
       note(pickColour !== 'rgb(47, 165, 106)', 'the SELECTED chip wears the success colour before Check — the board is grading a selection');
       await force(ids[0]);
       note(!!(await page.$('.hwb-sent')), 'no sentence card');
-      note(await page.$$eval('.hwb-chip', els => els.length) === 4, 'did not render 4 chips');
+      note(await page.$$eval('.hwb-chip', els => els.length) === 3, 'did not render 3 chips');
       const sentence = await page.$eval('.hwb-senttxt', e => e.textContent);
       note(sentence.indexOf('___') >= 0, 'the sentence card has no gap');
       note(!/ {2}/.test(sentence), `the rendered sentence has a double space: "${sentence.trim()}"`);
@@ -176,7 +179,7 @@ function serve() {
       /* a wrong chip: try-again, and nothing on the board may be marked */
       const wrongRound = ids[4];
       await force(wrongRound);
-      const wrong = Object.values(table).find((c) => c !== expect(wrongRound));
+      const wrong = offered(wrongRound).find((c) => c !== expect(wrongRound));
       await tap(wrong); await check();
       note(await triedAgain(), 'a wrong conjunction did not show try-again');
       note(!(await celebrated()), 'a wrong conjunction celebrated (must not)');

@@ -550,7 +550,7 @@
           "target": "fruits",
           "items": [
             {
-              "noun": "cherry",
+              "noun": "orange",
               "themeDir": "fruits",
               "cat": "fruits"
             },
@@ -725,7 +725,7 @@
           "target": "fruits",
           "items": [
             {
-              "noun": "peach",
+              "noun": "kiwi",
               "themeDir": "fruits",
               "cat": "fruits"
             },
@@ -740,7 +740,7 @@
               "cat": "fruits"
             },
             {
-              "noun": "cherry",
+              "noun": "orange",
               "themeDir": "fruits",
               "cat": "fruits"
             },
@@ -855,7 +855,7 @@
               "cat": "fruits"
             },
             {
-              "noun": "cherry",
+              "noun": "orange",
               "themeDir": "fruits",
               "cat": "fruits"
             },
@@ -4517,9 +4517,9 @@
             {
               "letter": "G",
               "correct": {
-                "noun": "giraffe",
-                "themeDir": "animals",
-                "word": "Giraffe"
+                "noun": "goat",
+                "themeDir": "farm animals",
+                "word": "Goat"
               },
               "distractors": [
                 {
@@ -4621,9 +4621,9 @@
             {
               "letter": "G",
               "correct": {
-                "noun": "giraffe",
-                "themeDir": "animals",
-                "word": "Giraffe"
+                "noun": "fork",
+                "themeDir": "around the house",
+                "word": "Gabel"
               },
               "distractors": [
                 {
@@ -4866,9 +4866,9 @@
                   "word": "Mochila"
                 },
                 {
-                  "noun": "peach",
-                  "themeDir": "At the Supermarket",
-                  "word": "Durazno"
+                  "noun": "pear",
+                  "themeDir": "fruits",
+                  "word": "Pera"
                 }
               ]
             },
@@ -6744,18 +6744,18 @@
               ]
             },
             {
-              "onset": "b",
-              "rime": "ee",
+              "onset": "d",
+              "rime": "og",
               "correct": {
-                "noun": "bee",
-                "themeDir": "farm animals",
-                "word": "Bee"
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Dog"
               },
               "distractors": [
                 {
-                  "noun": "tree",
-                  "themeDir": "christmas",
-                  "word": "Tree"
+                  "noun": "frog",
+                  "themeDir": "camping",
+                  "word": "Frog"
                 },
                 {
                   "noun": "cat",
@@ -6771,17 +6771,17 @@
             },
             {
               "onset": "tr",
-              "rime": "ee",
+              "rime": "uck",
               "correct": {
-                "noun": "tree",
-                "themeDir": "christmas",
-                "word": "Tree"
+                "noun": "truck",
+                "themeDir": "post office",
+                "word": "Truck"
               },
               "distractors": [
                 {
-                  "noun": "bee",
-                  "themeDir": "farm animals",
-                  "word": "Bee"
+                  "noun": "duck",
+                  "themeDir": "animals",
+                  "word": "Duck"
                 },
                 {
                   "noun": "hat",
@@ -7053,9 +7053,9 @@
                   "word": "Jas"
                 },
                 {
-                  "noun": "tree",
-                  "themeDir": "christmas",
-                  "word": "Boom"
+                  "noun": "hat",
+                  "themeDir": "accessories",
+                  "word": "Hoed"
                 }
               ]
             }

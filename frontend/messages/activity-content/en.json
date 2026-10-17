@@ -240,7 +240,7 @@
     },
     "syllable-builder.build-words-from-syllables.rf-k-2-b": {
       "about": [
-        "Longer words break into beats the ear can catch: looking at a picture, the child taps the syllables in the right order to build it — rab-bit, muf-fin, car-rot, ti-ger — working through familiar words like balloon, pencil, and penguin. It's an interactive Kindergarten reading activity that runs in the browser with no account.",
+        "Longer words break into beats the ear can catch: looking at a picture, the child taps the syllables in the right order to build it — rab-bit, muf-fin, car-rot, pop-corn — working through familiar words like balloon, pencil, and penguin. It's an interactive Kindergarten reading activity that runs in the browser with no account.",
         "The skill is blending and segmenting syllables — hearing that a word like rabbit is made of two beats and putting them back together in order. Because the syllables arrive jumbled and must be placed correctly, the child practices both pulling a word apart and snapping it back together, the ear-and-order work that makes longer words feel manageable instead of overwhelming.",
         "It is aligned to Common Core RF.K.2.b — counting, pronouncing, blending, and segmenting syllables in spoken words. No timer, no score — just calm, playful practice."
       ],
@@ -1651,7 +1651,7 @@
     },
     "cvc-builder.build-cvc-word.rf-k-3": {
       "about": [
-        "A picture appears — cat, dog, pig, sun, bus, hat, fox, bun, and more — and the child taps the correct letters to build the consonant-vowel-consonant word that names it, choosing from the right letters mixed with a few distractors. Build the CVC Word is a Kindergarten phonics activity that runs in the browser with no account needed.",
+        "A picture appears — cat, dog, pig, sun, bus, hat, pot, bun, and more — and the child taps the correct letters to build the consonant-vowel-consonant word that names it, choosing from the right letters mixed with a few distractors. Build the CVC Word is a Kindergarten phonics activity that runs in the browser with no account needed.",
         "Spelling a word, rather than just reading one, makes a child slow down and account for every sound. To build 'cat' a child has to hear and choose c, then a, then t, and the distractor letters are close enough that a careless tap leads somewhere else — so each of the three sounds has to be matched to a letter on purpose. Working through twenty familiar words turns letter-sound knowledge into the act of producing a word from its sounds.",
         "It is aligned to Common Core RF.K.3 — applying phonics and word-analysis skills to decode common CVC words. No timer, no score — just calm, playful practice."
       ],
@@ -1766,7 +1766,7 @@
     },
     "echo-grove.match-the-rune.3-oa-a-1": {
       "about": [
-        "Pim shows a rune such as 3 × 4, and the child taps the grove that shows 3 groups of 4 fruits — cherries, strawberries, apples, lemons, pears, bananas, oranges, or plums. This interactive Grade 3 math activity is about reading multiplication as equal groups, and it runs in the browser on any device with nothing to install and no account.",
+        "Pim shows a rune such as 3 × 4, and the child taps the grove that shows 3 groups of 4 fruits — raspberries, strawberries, apples, lemons, pears, bananas, oranges, or plums. This interactive Grade 3 math activity is about reading multiplication as equal groups, and it runs in the browser on any device with nothing to install and no account.",
         "The big idea is that the two numbers in a product mean different things: the first factor is how many groups, and the second is how many in each group. The trap in every round is a look-alike grove with the same total but the wrong grouping — for 3 × 4 the decoy might show 4 groups of 3. Both hold twelve fruits, so a child who only counts the total is fooled; the child has to read the grouping itself, which is exactly what 3 × 4 and 4 × 3 record differently.",
         "It is aligned to Common Core 3.OA.A.1 — interpreting products of whole numbers as the total number of objects in equal groups. No timer, no score — just calm, playful practice."
       ],
@@ -2135,7 +2135,7 @@
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
-        "Hazel the heron builds a little word-bridge between two ideas: each round shows a sentence with a blank — 'I packed a hat ___ a coat,' 'I wore my boots ___ it was raining' — and the child taps the joining word that makes the two parts fit: and, but, because, or so. It's an interactive Grade 1 grammar activity that plays in the browser, with no sign-up.",
+        "Hazel the heron builds a little word-bridge between two ideas: each round shows a sentence with a blank — 'I packed a hat ___ a coat,' '___ it was raining, I wore my boots' — and the child taps the one joining word that makes the two parts fit: and, but, because, or so. It's an interactive Grade 1 grammar activity that plays in the browser, with no sign-up.",
         "The big idea is that different joining words signal different relationships. And simply adds one idea to another, but shows a contrast, because gives a reason, and so shows a result — so the child cannot pick by sound alone but has to read the whole sentence and feel how the two parts connect. The rounds move from simple adding and contrasting to cause-and-result, so the same skill stretches gradually.",
         "It is aligned to Common Core L.1.1.g — using frequently occurring conjunctions to join words and ideas. No timer, no score — just calm, playful practice."
       ],
@@ -3726,14 +3726,14 @@
     "shades.pick.l-1-5-d": {
       "about": [
         "Pesto the parrot needs the word of exactly the right strength at his soup stall — warm, toasty, hot, scalding all mean heat, but the shade matters — so the child reads what a customer needs (\"only just cool enough to sip\") and taps the right-strength word. It's an interactive Grade 1 vocabulary activity that runs in the browser with no account.",
-        "The big idea is distinguishing near-synonyms by degree, and the activity stretches it several ways: choosing the word that fits a sentence (a quiet voice versus a booming one, a damp towel versus a soaked one), ordering a set like warm-toasty-hot-scalding from weakest to strongest, finding the word that falls between two others, and choosing the right way to look — peek, glance, stare, or glare — for how someone feels. Because the words are so close in meaning, a child has to weigh strength, not just pick any word that fits the topic.",
+        "The big idea is distinguishing near-synonyms by degree, and the activity stretches it several ways: choosing the word that fits a sentence (a loud voice versus a deafening one, a damp towel versus a soaked one), ordering a set like warm-toasty-hot-scalding from weakest to strongest, finding the word that falls between two others, and choosing the right way to look — a quick glance, a look, or a long stare — for what someone is doing. Because the words are so close in meaning, a child has to weigh strength, not just pick any word that fits the topic.",
         "It is aligned to Common Core L.1.5.d — distinguishing shades of meaning among verbs and adjectives that differ by degree (also L.2.5.b). No timer, no score — just calm, playful practice."
       ],
       "practices": [
         "Choosing the word of the right strength to fit a sentence",
         "Ordering near-synonyms from weakest to strongest, like warm to scalding",
         "Finding the word that falls between two others in strength",
-        "Picking the right way to look — peek, glance, stare, or glare — for a feeling"
+        "Picking the right way to look — glance, look, or stare — for how long someone looks"
       ],
       "howToPlay": [
         "Read what the customer needs, or the set of similar words.",
@@ -4116,8 +4116,8 @@
     },
     "tempo-day-plan.time-prepositions.l-1-1-i": {
       "about": [
-        "Tempo the turtle plans a whole day in order, and the child supplies the time word that holds each sentence together. A gap appears — \"We stretch ___ the run,\" \"We are quiet ___ the show,\" \"We rest ___ lunch\" — and the child taps before, during, or after to make it true. This interactive Grade 1 grammar activity plays in the browser with no sign-up.",
-        "The point is to feel how a single preposition fixes an event in time. Stretching comes before a run; being quiet happens during a show; resting comes after lunch. All three choices are real words a child knows, so winning means thinking about the order of events, not picking the only word that fits the blank. The sentences get a little longer across the rounds, from short ones like \"We pack ___ the trip\" to \"We brush our teeth ___ bed.\"",
+        "Tempo the turtle plans a whole day in order, and the child supplies the time word that holds each sentence together. A gap appears — \"We put on our shoes ___ the walk,\" \"We stay inside ___ the storm,\" \"We dry off ___ the bath\" — and the child taps before, during, or after to make it true. This interactive Grade 1 grammar activity plays in the browser with no sign-up.",
+        "The point is to feel how a single preposition fixes an event in time. Shoes go on before a walk; we stay inside during a storm; we dry off after a bath. All three choices are real words a child knows, so winning means thinking about the order of events, not picking the only word that fits the blank. The sentences get a little longer across the rounds, from short ones like \"We set the table ___ dinner\" to \"We brush our teeth ___ bed.\"",
         "It is aligned to Common Core L.1.1.i — using frequently occurring prepositions, including those that signal time, such as before, during, and after. No timer, no score — just calm, playful practice."
       ],
       "practices": [

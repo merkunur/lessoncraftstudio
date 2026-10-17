@@ -17,7 +17,7 @@
     { "id": "mesa",   "noun": "table",  "themeDir": "furniture",        "display": "mesa",   "boxes": ["me","sa"],           "syllables": ["me","sa"],     "stage": "s1", "note": "o s entre vogais soa como /z/" },
 
     { "id": "rato",   "noun": "mouse",  "themeDir": "pets",             "display": "rato",   "boxes": ["r","a","t","o"],     "syllables": ["ra","to"],     "stage": "s2", "note": "r no início da palavra = som forte, uma caixa só" },
-    { "id": "sapo",   "noun": "toad",   "themeDir": "forest creatures", "display": "sapo",   "boxes": ["s","a","p","o"],     "syllables": ["sa","po"],     "stage": "s2" },
+    { "id": "cama",   "noun": "bed",    "themeDir": "around the house", "display": "cama",   "boxes": ["c","a","m","a"],     "syllables": ["ca","ma"],     "stage": "s2" },
     { "id": "dedo",   "noun": "finger", "themeDir": "body parts",       "display": "dedo",   "boxes": ["d","e","d","o"],     "syllables": ["de","do"],     "stage": "s2" },
     { "id": "bolo",   "noun": "cake",   "themeDir": "bakery",           "display": "bolo",   "boxes": ["b","o","l","o"],     "syllables": ["bo","lo"],     "stage": "s2" },
     { "id": "vela",   "noun": "candle", "themeDir": "christmas",        "display": "vela",   "boxes": ["v","e","l","a"],     "syllables": ["ve","la"],     "stage": "s2" },

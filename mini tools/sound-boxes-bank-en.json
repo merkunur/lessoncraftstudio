@@ -16,7 +16,7 @@
     { "id": "hat",   "noun": "hat",   "themeDir": "accessories",        "display": "hat",   "boxes": ["h","a","t"],      "syllables": ["hat"],   "stage": "s1" },
     { "id": "cup",   "noun": "cup",   "themeDir": "around the house",   "display": "cup",   "boxes": ["c","u","p"],      "syllables": ["cup"],   "stage": "s1" },
     { "id": "net",   "noun": "net",   "themeDir": "beach",              "display": "net",   "boxes": ["n","e","t"],      "syllables": ["net"],   "stage": "s1" },
-    { "id": "pan",   "noun": "pan",   "themeDir": "kitchen tools",      "display": "pan",   "boxes": ["p","a","n"],      "syllables": ["pan"],   "stage": "s1" },
+    { "id": "pan",   "noun": "pan",   "themeDir": "around the house",   "display": "pan",   "boxes": ["p","a","n"],      "syllables": ["pan"],   "stage": "s1" },
     { "id": "bat",   "noun": "bat",   "themeDir": "animals",            "display": "bat",   "boxes": ["b","a","t"],      "syllables": ["bat"],   "stage": "s1" },
     { "id": "van",   "noun": "van",   "themeDir": "vehicles",           "display": "van",   "boxes": ["v","a","n"],      "syllables": ["van"],   "stage": "s1" },
     { "id": "pot",   "noun": "pot",   "themeDir": "around the house",   "display": "pot",   "boxes": ["p","o","t"],      "syllables": ["pot"],   "stage": "s1" },
@@ -65,11 +65,11 @@
     { "id": "rain",  "noun": "rain",  "themeDir": "spring",             "display": "rain",  "boxes": ["r","ai","n"],     "syllables": ["rain"],  "stage": "s4" },
     { "id": "sheep", "noun": "sheep", "themeDir": "farm animals",       "display": "sheep", "boxes": ["sh","ee","p"],    "syllables": ["sheep"], "stage": "s4", "note": "5 letters, 3 sounds" },
     { "id": "coat",  "noun": "coat",  "themeDir": "clothing",           "display": "coat",  "boxes": ["c","oa","t"],     "syllables": ["coat"],  "stage": "s4" },
-    { "id": "tree",  "noun": "tree",  "themeDir": "christmas",          "display": "tree",  "boxes": ["t","r","ee"],     "syllables": ["tree"],  "stage": "s4" },
+    { "id": "leaf",  "noun": "leaf",  "themeDir": "miscellaneous",      "display": "leaf",  "boxes": ["l","ea","f"],     "syllables": ["leaf"],  "stage": "s4" },
     { "id": "snail", "noun": "snail", "themeDir": "insects and bugs",   "display": "snail", "boxes": ["s","n","ai","l"], "syllables": ["snail"], "stage": "s4" },
     { "id": "bee",   "noun": "bee",   "themeDir": "farm animals",       "display": "bee",   "boxes": ["b","ee"],         "syllables": ["bee"],   "stage": "s4", "note": "just 2 sounds" },
     { "id": "mouse", "noun": "mouse", "themeDir": "pets",               "display": "mouse", "boxes": ["m","ou","s"],     "syllables": ["mouse"], "stage": "s4", "silentTail": "e", "note": "the final e is silent" },
     { "id": "cloud", "noun": "cloud", "themeDir": "beach",              "display": "cloud", "boxes": ["c","l","ou","d"], "syllables": ["cloud"], "stage": "s4" },
-    { "id": "toad",  "noun": "toad",  "themeDir": "forest creatures",   "display": "toad",  "boxes": ["t","oa","d"],     "syllables": ["toad"],  "stage": "s4" }
+    { "id": "goat",  "noun": "goat",  "themeDir": "farm animals",       "display": "goat",  "boxes": ["g","oa","t"],     "syllables": ["goat"],  "stage": "s4" }
   ]
 }

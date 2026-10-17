@@ -30,7 +30,7 @@
     { "id": "leg",   "noun": "leg",   "themeDir": "body parts",         "display": "Bein",    "boxes": ["B","ei","n"],        "syllables": ["Bein"],        "stage": "s2" },
     { "id": "mouse", "noun": "mouse", "themeDir": "pets",               "display": "Maus",    "boxes": ["M","au","s"],        "syllables": ["Maus"],        "stage": "s2", "note": "au ist ein Laut – eine Box" },
     { "id": "house", "noun": "house", "themeDir": "miscellaneous",      "display": "Haus",    "boxes": ["H","au","s"],        "syllables": ["Haus"],        "stage": "s2" },
-    { "id": "tree",  "noun": "tree",  "themeDir": "christmas",          "display": "Baum",    "boxes": ["B","au","m"],        "syllables": ["Baum"],        "stage": "s2" },
+    { "id": "fence", "noun": "fence", "themeDir": "around the house",   "display": "Zaun",    "boxes": ["Z","au","n"],        "syllables": ["Zaun"],        "stage": "s2" },
     { "id": "car",   "noun": "car",   "themeDir": "toys",               "display": "Auto",    "boxes": ["Au","t","o"],        "syllables": ["Au","to"],     "stage": "s2" },
     { "id": "owl",   "noun": "owl",   "themeDir": "animals",            "display": "Eule",    "boxes": ["Eu","l","e"],        "syllables": ["Eu","le"],     "stage": "s2", "note": "eu ist ein Laut; das End-e bekommt eine eigene Box" },
 

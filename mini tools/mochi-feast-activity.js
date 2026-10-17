@@ -35,7 +35,7 @@
 var DEMO_ROUNDS = [
   { target: 3,  noun: 'strawberry', theme: 'fruits',             seed: 11 },
   { target: 5,  noun: 'cookie',     theme: 'desserts and sweets', seed: 23 },
-  { target: 4,  noun: 'cherry',     theme: 'fruits',             seed: 31 },
+  { target: 4,  noun: 'orange',     theme: 'fruits',             seed: 31 },   /* was cherry: fruits/cherry is drawn like an apple */
   { target: 6,  noun: 'cupcake',    theme: 'desserts and sweets', seed: 41 },
   { target: 2,  noun: 'banana',     theme: 'fruits',             seed: 53 },
   { target: 7,  noun: 'apple',      theme: 'fruits',             seed: 61 },
@@ -105,7 +105,7 @@ window.MochiFeastActivity = Object.assign({}, MochiFeastCore, {
     instruction:  { en: "Tap the dish to feed Mochi the right number of treats, then tap Check.", de: 'Tippe auf den Teller, um Mochi die richtige Anzahl Leckereien zu geben, und tippe dann auf „Prüfen".', fr: 'Tape sur le plat pour donner à Mochi le bon nombre de gourmandises, puis tape sur « Vérifier ».', es: 'Toca el plato para darle a Mochi el número correcto de golosinas y luego toca Comprobar.', pt: 'Toque no prato para dar a quantidade certa de guloseimas ao Mochi. Depois, toque em Verificar.', it: 'Tocca il piatto per dare a Mochi il numero giusto di golosità, poi tocca Verifica.', nl: 'Tik op het bord om Mochi het juiste aantal lekkernijen te geven, tik dan op Controleer.' },
     promptStrawberry: { en: "Feed Mochi {n} strawberries!", de: 'Gib Mochi {n} Erdbeeren!', fr: 'Donne {n} fraises à Mochi !', es: '¡Dale a Mochi {n} fresas!', pt: 'Dê {n} morangos ao Mochi!', it: 'Dai {n} fragole a Mochi!', nl: 'Geef Mochi {n} aardbeien!' },
     promptCookie:     { en: "Feed Mochi {n} cookies!",      de: 'Gib Mochi {n} Kekse!', fr: 'Donne {n} cookies à Mochi !', es: '¡Dale a Mochi {n} galletas!', pt: 'Dê {n} biscoitos ao Mochi!', it: 'Dai {n} biscotti a Mochi!', nl: 'Geef Mochi {n} koekjes!' },
-    promptCherry:     { en: "Feed Mochi {n} cherries!",     de: 'Gib Mochi {n} Kirschen!', fr: 'Donne {n} cerises à Mochi !', es: '¡Dale a Mochi {n} cerezas!', pt: 'Dê {n} cerejas ao Mochi!', it: 'Dai {n} ciliegie a Mochi!', nl: 'Geef Mochi {n} kersen!' },
+    promptOrange:     { en: "Feed Mochi {n} oranges!",      de: 'Gib Mochi {n} Orangen!', fr: 'Donne {n} oranges à Mochi !', es: '¡Dale a Mochi {n} naranjas!', pt: 'Dê {n} laranjas ao Mochi!', it: 'Dai {n} arance a Mochi!', nl: 'Geef Mochi {n} sinaasappels!' },
     promptCupcake:    { en: "Feed Mochi {n} cupcakes!",     de: 'Gib Mochi {n} Cupcakes!', fr: 'Donne {n} cupcakes à Mochi !', es: '¡Dale a Mochi {n} cupcakes!', pt: 'Dê {n} cupcakes ao Mochi!', it: 'Dai {n} cupcake a Mochi!', nl: 'Geef Mochi {n} cupcakes!' },
     promptBanana:     { en: "Feed Mochi {n} bananas!",      de: 'Gib Mochi {n} Bananen!', fr: 'Donne {n} bananes à Mochi !', es: '¡Dale a Mochi {n} plátanos!', pt: 'Dê {n} bananas ao Mochi!', it: 'Dai {n} banane a Mochi!', nl: 'Geef Mochi {n} bananen!' },
     promptApple:      { en: "Feed Mochi {n} apples!",       de: 'Gib Mochi {n} Äpfel!', fr: 'Donne {n} pommes à Mochi !', es: '¡Dale a Mochi {n} manzanas!', pt: 'Dê {n} maçãs ao Mochi!', it: 'Dai {n} mele a Mochi!', nl: 'Geef Mochi {n} appels!' },

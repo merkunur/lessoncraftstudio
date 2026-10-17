@@ -209,12 +209,17 @@ function bots(rounds, table, chips) {
          Measure the actual neighbours instead. */
       (function () {
         const h = String(r.sentence).split('___');
-        F(h.length === 2 && / $/.test(h[0]) && !/  $/.test(h[0]) && /^ /.test(h[1]) && !/^  /.test(h[1]),
+        /* a sentence-INITIAL gap («___ it was raining, I wore my boots.») has no left neighbour —
+           that fronted frame is what makes "and"/"but"/"so" ungrammatical foils in en. */
+        F(h.length === 2 && (h[0] === '' || (/ $/.test(h[0]) && !/  $/.test(h[0]))) && /^ /.test(h[1]) && !/^  /.test(h[1]),
           `${tag}: the gap needs EXACTLY one space each side — got ${JSON.stringify(h[0].slice(-2) + '___' + h[1].slice(0, 2))}`);
         F(!/  /.test(r.sentence), `${tag}: the sentence contains a double space`);
       }());
       F(r.sentence === r.sentence.trim(), `${tag}: sentence has leading/trailing whitespace`);
       F(r.answer === undefined && r.correct === undefined, `${tag}: the answer is STORED, not derived`);
+      /* every round hides exactly ONE non-answer chip (the one that would also fit) */
+      F(chips.indexOf(r.hide) >= 0, `${tag}: hide "${r.hide}" is not one of this locale's chips`);
+      F(r.hide !== ans, `${tag}: the round hides its own answer`);
 
       /* ⭐ the core's own leak guard is vacuously true for `alternative` (it searches
          for ''), so do it here against the locale's real answer word. */

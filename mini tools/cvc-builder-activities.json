@@ -46,7 +46,7 @@
         },
         {
           "noun": "sun",
-          "themeDir": "weather",
+          "themeDir": "beach",
           "targetWord": "sun",
           "distractors": [
             "c",
@@ -199,11 +199,11 @@
           ]
         },
         {
-          "noun": "fox",
-          "themeDir": "animals",
-          "targetWord": "fox",
+          "noun": "pot",
+          "themeDir": "kitchen tools",
+          "targetWord": "pot",
           "distractors": [
-            "t",
+            "d",
             "a",
             "n",
             "s"

@@ -14,7 +14,7 @@
         {
           "g": 2,
           "s": 3,
-          "fruit": "cherry",
+          "fruit": "raspberry",
           "theme": "fruits",
           "seed": 11
         },
@@ -63,7 +63,7 @@
         {
           "g": 4,
           "s": 3,
-          "fruit": "plum",
+          "fruit": "pineapple",
           "theme": "fruits",
           "seed": 71
         }

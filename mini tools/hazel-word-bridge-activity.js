@@ -116,6 +116,12 @@
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
       var _c = CHIPS_L10N[LANG]; if (_c) this.view.chips = _c.slice();
+      /* ONE FITTING WORD PER ROUND. "and" (und/et/y/e/en/och) is grammatical in almost every
+         two-clause frame, so with all four chips a contrast/cause/result round had TWO right
+         answers ("It got dark and we went inside"). Each round names the ONE chip it does not
+         offer (round.hide); every chip still offered genuinely fails. Hides are spread so a
+         chip's presence does not give the answer away (scripts/check-hazel-chip-shares.js). */
+      if (round && round.hide) this.view.chips = this.view.chips.filter(function (c) { return c !== round.hide; });
       this._chips = shuffle(this.view.chips.slice());
     },
 

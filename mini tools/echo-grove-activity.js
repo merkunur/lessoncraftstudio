@@ -38,31 +38,44 @@
      factors are 2..5 so the singular never fires. Image keys stay English. */
   var FRUIT_DE = {
     cherry: 'Kirschen', strawberry: 'Erdbeeren', apple: 'Äpfel', lemon: 'Zitronen',
-    pear: 'Birnen', banana: 'Bananen', orange: 'Orangen', plum: 'Pflaumen'
+    pear: 'Birnen', banana: 'Bananen', orange: 'Orangen', plum: 'Pflaumen',
+    raspberry: 'Himbeeren', pineapple: 'Ananas'
   };
   var FRUIT_FR = {
     cherry: 'cerises', strawberry: 'fraises', apple: 'pommes', lemon: 'citrons',
-    pear: 'poires', banana: 'bananes', orange: 'oranges', plum: 'prunes'
+    pear: 'poires', banana: 'bananes', orange: 'oranges', plum: 'prunes',
+    raspberry: 'framboises', pineapple: 'ananas'
   };
   var FRUIT_ES = {
     cherry: 'cerezas', strawberry: 'fresas', apple: 'manzanas', lemon: 'limones',
-    pear: 'peras', banana: 'plátanos', orange: 'naranjas', plum: 'ciruelas'
+    pear: 'peras', banana: 'plátanos', orange: 'naranjas', plum: 'ciruelas',
+    raspberry: 'frambuesas', pineapple: 'piñas'
   };
   var FRUIT_PT = {
     cherry: 'cerejas', strawberry: 'morangos', apple: 'maçãs', lemon: 'limões',
-    pear: 'peras', banana: 'bananas', orange: 'laranjas', plum: 'ameixas'
+    pear: 'peras', banana: 'bananas', orange: 'laranjas', plum: 'ameixas',
+    raspberry: 'framboesas', pineapple: 'abacaxis'
   };
   /* it — plurals from the canonical image-vocabulary.js (§20.5); native it math
      ensemble confirmed. ⚠ «ciliegie» (not «ciliege»/«cilieggie»), «arance» (not «arancie»). */
   var FRUIT_IT = {
     cherry: 'ciliegie', strawberry: 'fragole', apple: 'mele', lemon: 'limoni',
-    pear: 'pere', banana: 'banane', orange: 'arance', plum: 'prugne'
+    pear: 'pere', banana: 'banane', orange: 'arance', plum: 'prugne',
+    raspberry: 'lamponi', pineapple: 'ananas'
   };
   /* nl — Netherlands-Dutch plurals (#38 native ensemble; §20.5 image-vocabulary
      aligned). appels (not archaic appelen); sinaasappels (everyday spoken plural). */
   var FRUIT_NL = {
     cherry: 'kersen', strawberry: 'aardbeien', apple: 'appels', lemon: 'citroenen',
-    pear: 'peren', banana: 'bananen', orange: 'sinaasappels', plum: 'pruimen'
+    pear: 'peren', banana: 'bananen', orange: 'sinaasappels', plum: 'pruimen',
+    raspberry: 'frambozen', pineapple: 'ananassen'
+  };
+
+  /* en plurals for the aria cardLabel (it read "3 cherry" before). fruits/cherry + fruits/plum are
+     drawn like apples, so the deck counts raspberries + pineapples instead. */
+  var FRUIT_EN = {
+    strawberry: 'strawberries', apple: 'apples', lemon: 'lemons', pear: 'pears', banana: 'bananas',
+    orange: 'oranges', raspberry: 'raspberries', pineapple: 'pineapples'
   };
 
   var C = {
@@ -461,7 +474,7 @@
   var CHECK_SVG = '<svg viewBox="0 0 24 24" width="100%" height="100%" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="' + C.GOOD + '"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   /* structure + fruit, ANSWER WITHHELD (identical phrasing for correct + decoys) */
   function cardLabel(api, c, fruit) {
-    var fl = (LANG === 'de' && FRUIT_DE[fruit]) ? FRUIT_DE[fruit] : (LANG === 'fr' && FRUIT_FR[fruit]) ? FRUIT_FR[fruit] : (LANG === 'es' && FRUIT_ES[fruit]) ? FRUIT_ES[fruit] : (LANG === 'pt' && FRUIT_PT[fruit]) ? FRUIT_PT[fruit] : (LANG === 'it' && FRUIT_IT[fruit]) ? FRUIT_IT[fruit] : (LANG === 'nl' && FRUIT_NL[fruit]) ? FRUIT_NL[fruit] : fruit;
+    var fl = (LANG === 'de' && FRUIT_DE[fruit]) ? FRUIT_DE[fruit] : (LANG === 'fr' && FRUIT_FR[fruit]) ? FRUIT_FR[fruit] : (LANG === 'es' && FRUIT_ES[fruit]) ? FRUIT_ES[fruit] : (LANG === 'pt' && FRUIT_PT[fruit]) ? FRUIT_PT[fruit] : (LANG === 'it' && FRUIT_IT[fruit]) ? FRUIT_IT[fruit] : (LANG === 'nl' && FRUIT_NL[fruit]) ? FRUIT_NL[fruit] : (FRUIT_EN[fruit] || fruit);
     return interp(api.t('cardLabel'), { g: c.g, s: c.s, fruit: fl });
   }
 

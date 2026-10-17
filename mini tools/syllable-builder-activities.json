@@ -53,14 +53,14 @@
           "label": "luna"
         },
         {
-          "noun": "toad",
-          "themeDir": "forest creatures",
-          "targetWord": "sapo",
+          "noun": "bed",
+          "themeDir": "around the house",
+          "targetWord": "cama",
           "syllables": [
-            "sa",
-            "po"
+            "ca",
+            "ma"
           ],
-          "label": "sapo"
+          "label": "cama"
         },
         {
           "noun": "ball",
@@ -460,7 +460,7 @@
         },
         {
           "noun": "sun",
-          "themeDir": "weather",
+          "themeDir": "beach",
           "targetWord": "aurinko",
           "syllables": [
             "au",
@@ -700,14 +700,14 @@
           "label": "casa"
         },
         {
-          "noun": "toad",
-          "themeDir": "forest creatures",
-          "targetWord": "sapo",
+          "noun": "bed",
+          "themeDir": "around the house",
+          "targetWord": "cama",
           "syllables": [
-            "sa",
-            "po"
+            "ca",
+            "ma"
           ],
-          "label": "sapo"
+          "label": "cama"
         },
         {
           "noun": "table",
@@ -928,15 +928,15 @@
           "label": "abóbora"
         },
         {
-          "noun": "peach",
-          "themeDir": "fruits",
-          "targetWord": "pêssego",
+          "noun": "ant",
+          "themeDir": "forest creatures",
+          "targetWord": "formiga",
           "syllables": [
-            "pês",
-            "se",
-            "go"
+            "for",
+            "mi",
+            "ga"
           ],
-          "label": "pêssego"
+          "label": "formiga"
         },
         {
           "noun": "kite",
@@ -1162,7 +1162,7 @@
         },
         {
           "noun": "sun",
-          "themeDir": "weather",
+          "themeDir": "beach",
           "targetWord": "soleil",
           "syllables": [
             "so",
@@ -1715,14 +1715,15 @@
           "label": "Krankenwagen"
         },
         {
-          "noun": "brush",
-          "themeDir": "around the house",
-          "targetWord": "Bürste",
+          "noun": "banana",
+          "themeDir": "fruits",
+          "targetWord": "Banane",
           "syllables": [
-            "Bürs",
-            "te"
+            "Ba",
+            "na",
+            "ne"
           ],
-          "label": "Bürste"
+          "label": "Banane"
         },
         {
           "noun": "cake",
@@ -1873,14 +1874,14 @@
           "label": "Katze"
         },
         {
-          "noun": "peach",
+          "noun": "pear",
           "themeDir": "fruits",
-          "targetWord": "Pfirsich",
+          "targetWord": "Birne",
           "syllables": [
-            "Pfir",
-            "sich"
+            "Bir",
+            "ne"
           ],
-          "label": "Pfirsich"
+          "label": "Birne"
         },
         {
           "noun": "kite",
@@ -1976,14 +1977,14 @@
       "language": "nl-NL",
       "words": [
         {
-          "noun": "chimney",
-          "themeDir": "christmas",
-          "targetWord": "schoorsteen",
+          "noun": "drum",
+          "themeDir": "music",
+          "targetWord": "trommel",
           "syllables": [
-            "schoor",
-            "steen"
+            "trom",
+            "mel"
           ],
-          "label": "schoorsteen"
+          "label": "trommel"
         },
         {
           "noun": "bat",
@@ -2040,14 +2041,14 @@
           "label": "boekenkast"
         },
         {
-          "noun": "carpet",
-          "themeDir": "around the house",
-          "targetWord": "tapijt",
+          "noun": "bucket",
+          "themeDir": "beach",
+          "targetWord": "emmer",
           "syllables": [
-            "ta",
-            "pijt"
+            "em",
+            "mer"
           ],
-          "label": "tapijt"
+          "label": "emmer"
         },
         {
           "noun": "biscuit",
@@ -2060,14 +2061,14 @@
           "label": "koekje"
         },
         {
-          "noun": "girl",
-          "themeDir": "toys",
-          "targetWord": "meisje",
+          "noun": "frog",
+          "themeDir": "camping",
+          "targetWord": "kikker",
           "syllables": [
-            "meis",
-            "je"
+            "kik",
+            "ker"
           ],
-          "label": "meisje"
+          "label": "kikker"
         },
         {
           "noun": "bee",
@@ -2321,7 +2322,7 @@
         },
         {
           "noun": "sun",
-          "themeDir": "weather",
+          "themeDir": "beach",
           "targetWord": "sol",
           "syllables": [
             "sol"
@@ -2398,14 +2399,14 @@
           "label": "choklad"
         },
         {
-          "noun": "girl",
-          "themeDir": "toys",
-          "targetWord": "flicka",
+          "noun": "frog",
+          "themeDir": "camping",
+          "targetWord": "groda",
           "syllables": [
-            "flick",
-            "a"
+            "gro",
+            "da"
           ],
-          "label": "flicka"
+          "label": "groda"
         },
         {
           "noun": "apple",
@@ -2922,8 +2923,8 @@
       "language": "da-DK",
       "words": [
         {
-          "noun": "clock",
-          "themeDir": "around the house",
+          "noun": "bell",
+          "themeDir": "christmas",
           "targetWord": "klokke",
           "syllables": [
             "klok",
@@ -3015,89 +3016,89 @@
           "label": "ambulance"
         },
         {
-          "noun": "ankle",
-          "themeDir": "body parts",
-          "targetWord": "ankel",
+          "noun": "fork",
+          "themeDir": "around the house",
+          "targetWord": "gaffel",
           "syllables": [
-            "an",
-            "kel"
+            "gaf",
+            "fel"
           ],
-          "label": "ankel"
+          "label": "gaffel"
         },
         {
-          "noun": "snowman",
-          "themeDir": "winter",
-          "targetWord": "snemand",
+          "noun": "drum",
+          "themeDir": "music",
+          "targetWord": "tromme",
           "syllables": [
-            "sne",
-            "mand"
+            "trom",
+            "me"
           ],
-          "label": "snemand"
+          "label": "tromme"
         },
         {
-          "noun": "glove",
+          "noun": "mitten",
           "themeDir": "accessories",
-          "targetWord": "handske",
+          "targetWord": "vante",
           "syllables": [
-            "hand",
-            "ske"
+            "van",
+            "te"
           ],
-          "label": "handske"
+          "label": "vante"
         },
         {
-          "noun": "starfish",
-          "themeDir": "beach",
-          "targetWord": "søstjerne",
+          "noun": "gorilla",
+          "themeDir": "zoo animals",
+          "targetWord": "gorilla",
           "syllables": [
-            "sø",
-            "stjer",
-            "ne"
+            "go",
+            "ril",
+            "la"
           ],
-          "label": "søstjerne"
+          "label": "gorilla"
         },
         {
-          "noun": "watermelon",
-          "themeDir": "fruits",
-          "targetWord": "vandmelon",
+          "noun": "melon",
+          "themeDir": "At the Supermarket",
+          "targetWord": "melon",
           "syllables": [
-            "vand",
             "me",
             "lon"
           ],
-          "label": "vandmelon"
+          "label": "melon"
         },
         {
-          "noun": "strawberry",
-          "themeDir": "fruits",
-          "targetWord": "jordbær",
+          "noun": "lemon",
+          "themeDir": "At the Supermarket",
+          "targetWord": "citron",
           "syllables": [
-            "jord",
-            "bær"
+            "ci",
+            "tron"
           ],
-          "label": "jordbær"
+          "label": "citron"
         },
         {
-          "noun": "helicopter",
+          "noun": "motorcycle",
           "themeDir": "vehicles",
-          "targetWord": "helikopter",
+          "targetWord": "motorcykel",
           "syllables": [
-            "he",
-            "li",
-            "kop",
-            "ter"
+            "mo",
+            "tor",
+            "cy",
+            "kel"
           ],
-          "label": "helikopter"
+          "label": "motorcykel"
         },
         {
-          "noun": "butterfly",
-          "themeDir": "easter",
-          "targetWord": "sommerfugl",
+          "noun": "parrot",
+          "themeDir": "birds",
+          "targetWord": "papegøje",
           "syllables": [
-            "som",
-            "mer",
-            "fugl"
+            "pa",
+            "pe",
+            "gø",
+            "je"
           ],
-          "label": "sommerfugl"
+          "label": "papegøje"
         },
         {
           "noun": "penguin",
@@ -3140,14 +3141,14 @@
           "label": "panda"
         },
         {
-          "noun": "tiger",
+          "noun": "camel",
           "themeDir": "animals",
-          "targetWord": "tiger",
+          "targetWord": "kamel",
           "syllables": [
-            "ti",
-            "ger"
+            "ka",
+            "mel"
           ],
-          "label": "tiger"
+          "label": "kamel"
         },
         {
           "noun": "zebra",
@@ -3170,34 +3171,33 @@
           "label": "kanin"
         },
         {
-          "noun": "turtle",
-          "themeDir": "animals",
-          "targetWord": "skildpadde",
+          "noun": "crab",
+          "themeDir": "beach",
+          "targetWord": "krabbe",
           "syllables": [
-            "skild",
-            "pad",
-            "de"
+            "krab",
+            "be"
           ],
-          "label": "skildpadde"
+          "label": "krabbe"
         },
         {
-          "noun": "peach",
-          "themeDir": "fruits",
-          "targetWord": "fersken",
+          "noun": "lamp",
+          "themeDir": "around the house",
+          "targetWord": "lampe",
           "syllables": [
-            "fer",
-            "sken"
+            "lam",
+            "pe"
           ],
-          "label": "fersken"
+          "label": "lampe"
         },
         {
-          "noun": "cat",
+          "noun": "pig",
           "themeDir": "animals",
-          "targetWord": "kat",
+          "targetWord": "gris",
           "syllables": [
-            "kat"
+            "gris"
           ],
-          "label": "kat"
+          "label": "gris"
         },
         {
           "noun": "kite",
@@ -3317,14 +3317,14 @@
           "label": "tractor"
         },
         {
-          "noun": "pumpkin",
-          "themeDir": "vegetables",
-          "targetWord": "pumpkin",
+          "noun": "popcorn",
+          "themeDir": "At the Supermarket",
+          "targetWord": "popcorn",
           "syllables": [
-            "pump",
-            "kin"
+            "pop",
+            "corn"
           ],
-          "label": "pumpkin"
+          "label": "popcorn"
         },
         {
           "noun": "panda",
@@ -3337,54 +3337,54 @@
           "label": "panda"
         },
         {
-          "noun": "tiger",
-          "themeDir": "animals",
-          "targetWord": "tiger",
+          "noun": "hammer",
+          "themeDir": "around the house",
+          "targetWord": "hammer",
           "syllables": [
-            "ti",
-            "ger"
+            "ham",
+            "mer"
           ],
-          "label": "tiger"
+          "label": "hammer"
         },
         {
-          "noun": "zebra",
-          "themeDir": "animals",
-          "targetWord": "zebra",
+          "noun": "sailboat",
+          "themeDir": "beach",
+          "targetWord": "sailboat",
           "syllables": [
-            "ze",
-            "bra"
+            "sail",
+            "boat"
           ],
-          "label": "zebra"
+          "label": "sailboat"
         },
         {
-          "noun": "apple",
-          "themeDir": "fruits",
-          "targetWord": "apple",
+          "noun": "basket",
+          "themeDir": "At the Supermarket",
+          "targetWord": "basket",
           "syllables": [
-            "ap",
-            "ple"
+            "bas",
+            "ket"
           ],
-          "label": "apple"
+          "label": "basket"
         },
         {
-          "noun": "turtle",
-          "themeDir": "animals",
-          "targetWord": "turtle",
+          "noun": "parrot",
+          "themeDir": "birds",
+          "targetWord": "parrot",
           "syllables": [
-            "tur",
-            "tle"
+            "par",
+            "rot"
           ],
-          "label": "turtle"
+          "label": "parrot"
         },
         {
-          "noun": "candle",
-          "themeDir": "christmas",
-          "targetWord": "candle",
+          "noun": "mitten",
+          "themeDir": "accessories",
+          "targetWord": "mitten",
           "syllables": [
-            "can",
-            "dle"
+            "mit",
+            "ten"
           ],
-          "label": "candle"
+          "label": "mitten"
         },
         {
           "noun": "rainbow",
@@ -3437,14 +3437,14 @@
           "label": "starfish"
         },
         {
-          "noun": "backpack",
-          "themeDir": "classroom",
-          "targetWord": "backpack",
+          "noun": "raincoat",
+          "themeDir": "clothing",
+          "targetWord": "raincoat",
           "syllables": [
-            "back",
-            "pack"
+            "rain",
+            "coat"
           ],
-          "label": "backpack"
+          "label": "raincoat"
         },
         {
           "noun": "dolphin",
@@ -3457,14 +3457,14 @@
           "label": "dolphin"
         },
         {
-          "noun": "crayon",
+          "noun": "marker",
           "themeDir": "classroom",
-          "targetWord": "crayon",
+          "targetWord": "marker",
           "syllables": [
-            "cray",
-            "on"
+            "mar",
+            "ker"
           ],
-          "label": "crayon"
+          "label": "marker"
         },
         {
           "noun": "mirror",
@@ -3477,15 +3477,15 @@
           "label": "mirror"
         },
         {
-          "noun": "elephant",
-          "themeDir": "animals",
-          "targetWord": "elephant",
+          "noun": "strawberry",
+          "themeDir": "At the Supermarket",
+          "targetWord": "strawberry",
           "syllables": [
-            "el",
-            "e",
-            "phant"
+            "straw",
+            "ber",
+            "ry"
           ],
-          "label": "elephant"
+          "label": "strawberry"
         },
         {
           "noun": "umbrella",
@@ -3499,27 +3499,25 @@
           "label": "umbrella"
         },
         {
-          "noun": "bicycle",
-          "themeDir": "vehicles",
-          "targetWord": "bicycle",
+          "noun": "sunglasses",
+          "themeDir": "accessories",
+          "targetWord": "sunglasses",
           "syllables": [
-            "bi",
-            "cy",
-            "cle"
+            "sun",
+            "glas",
+            "ses"
           ],
-          "label": "bicycle"
+          "label": "sunglasses"
         },
         {
-          "noun": "helicopter",
-          "themeDir": "vehicles",
-          "targetWord": "helicopter",
+          "noun": "pizza",
+          "themeDir": "At the Supermarket",
+          "targetWord": "pizza",
           "syllables": [
-            "hel",
-            "i",
-            "cop",
-            "ter"
+            "piz",
+            "za"
           ],
-          "label": "helicopter"
+          "label": "pizza"
         },
         {
           "noun": "butterfly",

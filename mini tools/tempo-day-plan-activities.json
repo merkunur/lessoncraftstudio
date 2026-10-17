@@ -14,43 +14,43 @@
         {
           "id": "run",
           "band": 1,
-          "before": "We stretch",
-          "after": "the run.",
+          "before": "We put on our shoes",
+          "after": "the walk.",
           "correct": "before"
         },
         {
           "id": "show",
           "band": 1,
-          "before": "We are quiet",
-          "after": "the show.",
+          "before": "We stay inside",
+          "after": "the storm.",
           "correct": "during"
         },
         {
           "id": "lunch",
           "band": 1,
-          "before": "We rest",
-          "after": "lunch.",
+          "before": "We dry off",
+          "after": "the bath.",
           "correct": "after"
         },
         {
           "id": "trip",
           "band": 2,
-          "before": "We pack",
-          "after": "the trip.",
+          "before": "We set the table",
+          "after": "dinner.",
           "correct": "before"
         },
         {
           "id": "song",
           "band": 2,
-          "before": "We clap",
-          "after": "the song.",
+          "before": "We wear our seat belts",
+          "after": "the car ride.",
           "correct": "during"
         },
         {
           "id": "party",
           "band": 2,
-          "before": "We clean up",
-          "after": "the party.",
+          "before": "We put the paints away",
+          "after": "art class.",
           "correct": "after"
         },
         {
@@ -63,8 +63,8 @@
         {
           "id": "photo",
           "band": 3,
-          "before": "We hold still",
-          "after": "the photo.",
+          "before": "We hold on tight",
+          "after": "the ride.",
           "correct": "during"
         }
       ],
@@ -73,22 +73,22 @@
           {
             "id": "run",
             "band": 1,
-            "before": "Wir dehnen uns",
-            "after": "der Wanderung.",
+            "before": "Wir ziehen die Schuhe",
+            "after": "der Wanderung an.",
             "correct": "vor"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "Wir sind leise",
-            "after": "der Vorstellung.",
+            "before": "Wir tragen eine Badekappe",
+            "after": "der Schwimmstunde.",
             "correct": "während"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "Wir ruhen uns",
-            "after": "der Turnstunde aus.",
+            "before": "Wir trocknen uns",
+            "after": "der Dusche ab.",
             "correct": "nach"
           },
           {
@@ -101,15 +101,15 @@
           {
             "id": "song",
             "band": 2,
-            "before": "Wir klatschen",
-            "after": "der Musik.",
+            "before": "Wir tragen den Sicherheitsgurt",
+            "after": "der Autofahrt.",
             "correct": "während"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "Wir räumen",
-            "after": "der Feier auf.",
+            "before": "Wir räumen die Farben",
+            "after": "der Malstunde weg.",
             "correct": "nach"
           },
           {
@@ -122,8 +122,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "Wir singen",
-            "after": "der Fahrt.",
+            "before": "Wir halten uns gut fest",
+            "after": "der Karussellfahrt.",
             "correct": "während"
           }
         ],
@@ -131,43 +131,43 @@
           {
             "id": "run",
             "band": 1,
-            "before": "Nous nous étirons",
-            "after": "la course.",
+            "before": "Nous mettons nos chaussures",
+            "after": "la promenade.",
             "correct": "avant"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "Nous restons silencieux",
-            "after": "le spectacle.",
+            "before": "Nous restons à la maison",
+            "after": "la tempête.",
             "correct": "pendant"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "Nous nous reposons",
-            "after": "le déjeuner.",
+            "before": "Nous nous séchons",
+            "after": "le bain.",
             "correct": "après"
           },
           {
             "id": "trip",
             "band": 2,
-            "before": "Nous préparons la valise",
-            "after": "le voyage.",
+            "before": "Nous mettons la table",
+            "after": "le dîner.",
             "correct": "avant"
           },
           {
             "id": "song",
             "band": 2,
-            "before": "Nous tapons des mains",
-            "after": "la chanson.",
+            "before": "Nous gardons la ceinture attachée",
+            "after": "le trajet en voiture.",
             "correct": "pendant"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "Nous rangeons",
-            "after": "la fête.",
+            "before": "Nous rangeons les pinceaux",
+            "after": "le cours de dessin.",
             "correct": "après"
           },
           {
@@ -180,8 +180,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "Nous ne bougeons pas",
-            "after": "la photo.",
+            "before": "Nous nous tenons bien",
+            "after": "le tour de manège.",
             "correct": "pendant"
           }
         ],
@@ -189,43 +189,43 @@
           {
             "id": "run",
             "band": 1,
-            "before": "Nos estiramos",
+            "before": "Nos ponemos los zapatos",
             "after": "la caminata.",
             "correct": "antes de"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "Nos quedamos calladitos",
-            "after": "la función.",
+            "before": "Nos quedamos en casa",
+            "after": "la tormenta.",
             "correct": "durante"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "Descansamos",
-            "after": "la clase de gimnasia.",
+            "before": "Nos secamos",
+            "after": "la ducha.",
             "correct": "después de"
           },
           {
             "id": "trip",
             "band": 2,
-            "before": "Empacamos la maleta",
+            "before": "Preparamos la mochila",
             "after": "la excursión.",
             "correct": "antes de"
           },
           {
             "id": "song",
             "band": 2,
-            "before": "Aplaudimos",
-            "after": "la canción.",
+            "before": "Llevamos el cinturón puesto",
+            "after": "la vuelta en carro.",
             "correct": "durante"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "Recogemos todo",
-            "after": "la fiesta.",
+            "before": "Guardamos las pinturas",
+            "after": "la clase de arte.",
             "correct": "después de"
           },
           {
@@ -238,8 +238,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "Cantamos",
-            "after": "la vuelta.",
+            "before": "Usamos gorro de baño",
+            "after": "la clase de natación.",
             "correct": "durante"
           }
         ],
@@ -247,22 +247,22 @@
           {
             "id": "run",
             "band": 1,
-            "before": "Nós nos alongamos",
+            "before": "Nós calçamos os tênis",
             "after": "caminhada.",
             "correct": "antes da"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "Nós ficamos quietinhos",
-            "after": "apresentação.",
+            "before": "Nós ficamos em casa",
+            "after": "tempestade.",
             "correct": "durante a"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "Nós descansamos",
-            "after": "aula de ginástica.",
+            "before": "Nós penduramos a toalha molhada",
+            "after": "aula de natação.",
             "correct": "depois da"
           },
           {
@@ -275,15 +275,15 @@
           {
             "id": "song",
             "band": 2,
-            "before": "Nós batemos palmas",
-            "after": "música.",
+            "before": "Nós usamos o cinto de segurança",
+            "after": "viagem de carro.",
             "correct": "durante a"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "Nós guardamos tudo",
-            "after": "festa.",
+            "before": "Nós lavamos os pincéis",
+            "after": "aula de pintura.",
             "correct": "depois da"
           },
           {
@@ -296,8 +296,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "Nós cantamos",
-            "after": "volta.",
+            "before": "Nós nos seguramos firme",
+            "after": "volta no carrossel.",
             "correct": "durante a"
           }
         ],
@@ -305,22 +305,22 @@
           {
             "id": "run",
             "band": 1,
-            "before": "Ci scaldiamo",
-            "after": "corsa.",
+            "before": "Ci mettiamo le scarpe",
+            "after": "passeggiata.",
             "correct": "prima della"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "Stiamo in silenzio",
-            "after": "recita.",
+            "before": "Restiamo in casa",
+            "after": "tempesta.",
             "correct": "durante la"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "Ci riposiamo",
-            "after": "mensa.",
+            "before": "Ci asciughiamo",
+            "after": "doccia.",
             "correct": "dopo la"
           },
           {
@@ -333,15 +333,15 @@
           {
             "id": "song",
             "band": 2,
-            "before": "Battiamo le mani",
-            "after": "canzone.",
+            "before": "Teniamo la cuffia",
+            "after": "lezione di nuoto.",
             "correct": "durante la"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "Mettiamo a posto tutto",
-            "after": "festa.",
+            "before": "Mettiamo via i colori",
+            "after": "lezione di disegno.",
             "correct": "dopo la"
           },
           {
@@ -354,8 +354,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "Cantiamo",
-            "after": "passeggiata.",
+            "before": "Ci teniamo forte",
+            "after": "discesa in slittino.",
             "correct": "durante la"
           }
         ],
@@ -363,22 +363,22 @@
           {
             "id": "run",
             "band": 1,
-            "before": "We eten een appel",
-            "after": "de wandeling.",
+            "before": "We trekken onze schoenen",
+            "after": "de wandeling aan.",
             "correct": "voor"
           },
           {
             "id": "show",
             "band": 1,
-            "before": "We zijn stil",
-            "after": "de voorstelling.",
+            "before": "We blijven binnen",
+            "after": "de storm.",
             "correct": "tijdens"
           },
           {
             "id": "lunch",
             "band": 1,
-            "before": "We rusten",
-            "after": "de gymles.",
+            "before": "We drogen ons",
+            "after": "het bad af.",
             "correct": "na"
           },
           {
@@ -391,15 +391,15 @@
           {
             "id": "song",
             "band": 2,
-            "before": "We klappen",
-            "after": "de muziek.",
+            "before": "We dragen onze gordel",
+            "after": "de autorit.",
             "correct": "tijdens"
           },
           {
             "id": "party",
             "band": 2,
-            "before": "We slapen",
-            "after": "het feest.",
+            "before": "We ruimen de verf",
+            "after": "de tekenles op.",
             "correct": "na"
           },
           {
@@ -412,8 +412,8 @@
           {
             "id": "photo",
             "band": 3,
-            "before": "We zingen",
-            "after": "de rit.",
+            "before": "We houden ons goed vast",
+            "after": "de achtbaanrit.",
             "correct": "tijdens"
           }
         ]

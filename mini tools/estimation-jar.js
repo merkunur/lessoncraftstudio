@@ -142,7 +142,7 @@ var EstimationJar = {
   FALLBACK_SETS: {
     version: 1, freeMax: 30, premiumMax: 200,
     sets: [
-      { id: 'cherries',  noun: 'cherry',   imageDir: 'fruits',              imageFile: 'cherry',   season: null, free: true },
+      { id: 'cherries',  noun: 'cherry',   imageDir: 'at the supermarket',  imageFile: 'cherry',   season: null, free: true },
       { id: 'stars',     noun: 'star',     imageDir: 'shapes',              imageFile: 'star',     season: null, free: true },
       { id: 'lollipops', noun: 'lollipop', imageDir: 'desserts and sweets', imageFile: 'lollipop', season: null, free: true }
     ]

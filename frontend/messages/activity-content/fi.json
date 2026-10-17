@@ -1714,6 +1714,30 @@
         "Lapsi vertaa ryhmiä laskemalla",
         "Lapsi tekee kahdesta ryhmästä yhtä suuret"
       ]
+    },
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "Puro haarautuu kahdesti matkalla lammelle, jossa ystävä odottaa – sammakko, kettu tai siili. Jokaisessa haaraumassa kelluu kaksi numeropoijua, yksi kummassakin uomassa, ja ylhäällä oleva pieni kyltti kertoo matkan säännön: seuraa suurempia lukuja tai pienempiä. Lapsi napauttaa yhtä lukua jokaisessa haaraumassa, suunniteltu reitti syttyy, ja Tarkista lähettää purjeveneen sitä pitkin. Interaktiivinen harjoitus toimii selaimessa ilman asennusta ja ilman tiliä.",
+        "Sääntö vaihtuu matkasta toiseen, joten lapsen täytyy lukea kyltti ja luvut joka kerta – aina suuremman luvun valitseva ei pääse perille. Jos reitti on väärä, vene purjehtii niin pitkälle kuin pääsee ja jää jumiin kaislikkoon ensimmäisessä väärässä haaraumassa, joka merkitään: kumpi luku siellä on suurempi (tai pienempi)? Toisen yrityksen jälkeen haarauman kahden luvun alle ilmestyy pisteitä, jotta lapsi voi laskea, kummassa niitä on enemmän. Oikea reitti vie veneen ystävän luo: ”Kyllä – seurasit suurempia lukuja, 7 ja 5, lammelle asti!” Joskus luvut ovat kaukana toisistaan, kuten 2 ja 7, joskus vierekkäin, kuten 7 ja 8. Luvut eivät ole koskaan samat.",
+        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10. Opettaja valitsee luvut 5:een tai 10:een asti sekä säännön, joka vaihtuu joka matkalla, tai aina suuremman tai aina pienemmän luvun. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Kahden kirjoitetun luvun vertaaminen 10:een asti",
+        "Parin suuremman ja pienemmän luvun löytäminen",
+        "Säännön pitäminen mielessä valitessa",
+        "Pisteiden laskeminen sen tarkistamiseksi, kumpi luku on suurempi"
+      ],
+      "howToPlay": [
+        "Katso kylttiä: seurataanko suurempia lukuja vai pienempiä?",
+        "Napauta jokaisessa haaraumassa lukua, joka noudattaa sääntöä.",
+        "Paina Tarkista ja katso, kun vene purjehtii reittiäsi lammelle.",
+        "Jäikö vene kaislikkoon? Katso merkittyä haaraumaa uudelleen. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lapsi vertaa kahta numeroin kirjoitettua lukua väliltä 1–10",
+        "Lapsi kertoo, kumpi kahdesta luvusta on suurempi ja kumpi pienempi",
+        "Lapsi tarkistaa vertailun laskemalla pisteitä"
+      ]
     }
   }
 }

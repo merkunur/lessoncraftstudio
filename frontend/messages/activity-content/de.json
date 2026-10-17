@@ -1252,25 +1252,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Käpt’n Quill, die Ente, schippert mit ihrem Floß den Vergleichsbach hinunter — und an jeder Gabelung warten zwei Flussarme mit je einer Zahl. Welcher Weg führt zur größeren Zahl, welcher zur kleineren? Die Kinder tippen den richtigen Flussarm an und steuern Quill sicher um jede Biegung. So wird das Vergleichen von Zahlen zu einer kleinen Flussfahrt, bei der jede Entscheidung sofort weitergeht.",
-        "Im Mittelpunkt steht eine Kernidee des Schulanfangs: zwei Zahlen von 1 bis 10 anschauen und entscheiden, welche größer, welche kleiner ist — oder ob beide gleich groß sind. Bei gleichen Zahlen tippen die Kinder die „=“-Boje. Mal vergleichen sie reine Ziffern, mal Punktmengen, mal kleine Summen. Wichtig dabei: Es zählt der Zahlenwert, nicht die Schriftgröße. Eine kleine Zahl kann groß gedruckt sein — darum gilt: Lies die Zahl, nicht die Schrift! Gerade dicht beieinanderliegende Paare wie 6 und 7 laden zum genauen Hinschauen ein.",
-        "„Käpt’n Quills Flussfahrt“ ist eine interaktive Aktivität für den Schulanfang (Vorschuljahr und Klasse 1) — passend zu den Zielen des Lehrplans zum Aufbau der Zahlvorstellung und zum Vergleichen von Zahlen. Ohne Zeitdruck, ohne Punktejagd: Die Kinder dürfen in Ruhe überlegen, ausprobieren und in ihrem eigenen Tempo den Bach hinunterfahren — und nebenbei sicher im Zahlenraum bis 10 werden."
+        "Ein Bach teilt sich zweimal auf dem Weg zu einem Teich, wo ein Freund wartet – ein Frosch, ein Fuchs, ein Igel. An jeder Gabelung schwimmen zwei Zahlenbojen, eine in jedem Arm, und ein kleines Schild oben gibt die Regel für diese Fahrt vor: den größeren Zahlen folgen oder den kleineren. Das Kind tippt an jeder Gabelung eine Zahl an, der geplante Weg leuchtet auf, und Prüfen schickt ein Segelboot hinunter. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Die Regel wechselt von Fahrt zu Fahrt, deshalb muss das Kind jedes Mal das Schild und die Zahlen lesen – wer immer die größere Zahl nimmt, kommt nicht durch. Stimmt der Weg nicht, segelt das Boot so weit es kann und bleibt an der ersten falschen Gabelung im Schilf stecken; diese Gabelung wird markiert: Welche Zahl dort ist größer (oder kleiner)? Nach einem zweiten Versuch erscheinen Punkte unter den beiden Zahlen dieser Gabelung, sodass das Kind zählen kann, wo es mehr sind. Ein richtiger Weg bringt das Boot bis zum Freund: „Ja – du bist den größeren Zahlen gefolgt, 7 und 5, bis zum Teich!“ Manche Zahlen liegen weit auseinander, wie 2 und 7, manche sind Nachbarn, wie 7 und 8. Die beiden Zahlen sind nie gleich.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: zwei geschriebene Zahlen zwischen 1 und 10 vergleichen. Lehrkräfte wählen Zahlen bis 5 oder bis 10 und eine Regel, die bei jeder Fahrt wechselt, oder immer die größere oder immer die kleinere Zahl. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei Zahlen von 1 bis 10 vergleichen und die größere oder kleinere Zahl bestimmen.",
-        "Gleich große Zahlen erkennen und die „=“-Boje wählen.",
-        "Den Zahlenwert vom Aussehen trennen: groß gedruckte kleine Zahlen sicher lesen.",
-        "Auch dicht benachbarte Zahlen (z. B. 6 und 7) genau unterscheiden — und eine Zahl finden, die zwischen zwei anderen liegt."
+        "Zwei geschriebene Zahlen bis 10 vergleichen",
+        "Die größere und die kleinere Zahl eines Paares finden",
+        "Beim Wählen eine Regel im Kopf behalten",
+        "Punkte zählen, um zu prüfen, welche Zahl größer ist"
       ],
       "howToPlay": [
-        "An jeder Gabelung erscheinen zwei Flussarme mit je einer Zahl — lies die Aufgabe: zur größeren oder zur kleineren Zahl steuern?",
-        "Tippe den richtigen Flussarm an, damit Käpt’n Quills Floß den Weg nimmt. Sind beide Zahlen gleich groß, tippe die „=“-Boje.",
-        "Stimmt es, geht die Fahrt weiter zur nächsten Biegung. Stimmt es noch nicht, probiere es in Ruhe noch einmal — ganz ohne Zeitdruck."
+        "Schau aufs Schild: den größeren Zahlen folgen oder den kleineren?",
+        "Tippe an jeder Gabelung die Zahl an, die zur Regel passt.",
+        "Drücke auf Prüfen und schau zu, wie das Boot deinen Weg zum Teich segelt.",
+        "Im Schilf stecken geblieben? Schau dir die markierte Gabelung noch einmal an. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Zahlen von 1 bis 10 sicher vergleichen und die Beziehung größer als / kleiner als / gleich groß benennen.",
-        "Die Zahl als Wert verstehen — unabhängig von Schriftgröße oder Darstellung.",
-        "Eine erste, tragfähige Vorstellung der Zahlenreihe und Ordnung aufbauen (Vorgänger, Nachfolger, „dazwischen“)."
+        "Zwei geschriebene Zahlen zwischen 1 und 10 vergleichen",
+        "Sagen, welche von zwei Zahlen größer und welche kleiner ist",
+        "Einen Vergleich durch Zählen von Punkten überprüfen"
       ]
     },
     "span-length-gap.how-much-longer.2-md-a-4": {

@@ -1915,25 +1915,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Kapten Quill är en ankunge med kaptensmössa som styr sin flotte nedför floden. Där vattnet delar sig i två flodarmar ligger en boj i varje arm, och på bojarna står tal mellan 1 och 10. Barnet läser de två talen och trycker på den flodarm som flotten ska ta.",
-        "De tolv färderna är byggda så att barnet måste läsa på riktigt. Talen ligger ofta tätt intill varandra – 7 mot 6, 5 mot 6, 8 mot 9 – så att en gissning efter ungefärlig storlek inte räcker till. Ibland visar bojarna prickar i stället för siffror, ibland prickar mot en siffra, och ibland två summor som 2 + 2 och 3 + 2. I två färder är siffrorna dessutom tryckta olika stora: en trea stor bredvid en liten åtta, och en nia stor bredvid en liten fyra. Den ena gången är det stora talet fel svar, den andra gången rätt – barnet kan alltså inte lära sig någon genväg, utan måste läsa talets värde.",
-        "Det finns också färder där båda talen är lika och barnet trycker på bojen med likhetstecknet mitt i strömmen, färder där barnet svarar med en knapp i stället för att styra, och en färd där frågan är vilket tal som ligger mellan 4 och 6. Styr barnet fel händer ingenting dramatiskt: flotten guppar till, bojarna byter plats och barnet får läsa om i lugn och ro. Aktiviteten körs i webbläsaren, utan nedladdning och utan konto, och det finns varken tidtagning eller poäng – i stället fylls en liten karta i efter hand som färden går vidare."
+        "En bäck delar sig två gånger på vägen till en damm där en kompis väntar – en groda, en räv, en igelkott. Vid varje förgrening flyter två sifferbojar, en i varje fåra, och en liten skylt högst upp visar regeln för färden: följ de större talen eller de mindre. Barnet trycker på ett tal vid varje förgrening, den planerade vägen lyser upp, och Kontrollera skickar en segelbåt nerför den. En interaktiv övning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Regeln byts från färd till färd, så barnet måste läsa skylten och talen varje gång – den som alltid väljer det större talet kommer inte fram. Är vägen fel seglar båten så långt den kan och fastnar i vassen vid den första felaktiga förgreningen, som ringas in: vilket tal där är större (eller mindre)? Efter ett andra försök syns prickar under de två talen vid den förgreningen, så att barnet kan räkna var det är flest. En rätt väg tar båten ända fram till kompisen: ”Ja – du följde de större talen, 7 och 5, ända fram till dammen!” Ibland ligger talen långt ifrån varandra, som 2 och 7, och ibland är de grannar, som 7 och 8. De två talen är aldrig lika.",
+        "Aktiviteten följer Lgr22 – att jämföra två skrivna tal mellan 1 och 10. Läraren väljer tal upp till 5 eller upp till 10 och en regel som byts vid varje färd, eller alltid det större eller alltid det mindre talet. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Jämföra två tal mellan 1 och 10 och avgöra vilket som är större eller mindre, även när talen ligger tätt intill varandra som 6 och 7.",
-        "Läsa talets värde och inte hur stor siffran är tryckt – en stor trea är ändå mindre än en liten åtta.",
-        "Jämföra antal som visas på olika sätt: prickar mot prickar, prickar mot en siffra, och två summor som 2 + 2 och 3 + 2.",
-        "Känna igen när två tal är lika och använda likhetstecknet, samt hitta talet som ligger mellan 4 och 6."
+        "Jämföra två skrivna tal upp till 10",
+        "Hitta det större och det mindre talet i ett par",
+        "Hålla en regel i huvudet medan man väljer",
+        "Räkna prickar för att kontrollera vilket tal som är störst"
       ],
       "howToPlay": [
-        "Vid varje ställe där floden delar sig läser barnet de två bojarna och trycker på den flodarm som har det tal kapten Quill frågar efter – det större eller det mindre.",
-        "Är de två talen lika trycker barnet på bojen med likhetstecknet mitt i strömmen, och i en av färderna svarar barnet i stället med en knapp och beskriver hur talen förhåller sig till varandra.",
-        "Valet gäller så snart barnet trycker: den valda bojen läses upp, och blir det fel guppar flotten till och bojarna byter plats, så att barnet får läsa om i stället för att minnas vilken sida som var rätt."
+        "Titta på skylten: följa de större talen eller de mindre?",
+        "Tryck vid varje förgrening på talet som följer regeln.",
+        "Tryck på Kontrollera och se båten segla din väg till dammen.",
+        "Fastnat i vassen? Titta en gång till på den inringade förgreningen. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan jämföra två tal mellan 1 och 10 och säga vilket som är större, vilket som är mindre och när de är lika.",
-        "Barnet läser talets värde i stället för att gå på hur stort talet är tryckt, och kan jämföra antal vare sig de visas som prickar, som siffror eller som små summor.",
-        "Barnet börjar sätta ord på hur tal förhåller sig till varandra – fler, färre, lika många, mellan – vilket är grunden för taluppfattning och för arbetet med likhetstecknet i åk 1 (Lgr22)."
+        "Jämföra två skrivna tal mellan 1 och 10",
+        "Säga vilket av två tal som är större och vilket som är mindre",
+        "Kontrollera en jämförelse genom att räkna prickar"
       ]
     },
     "span-length-gap.how-much-longer.2-md-a-4": {

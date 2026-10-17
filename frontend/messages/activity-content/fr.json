@@ -1348,25 +1348,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "Embarquez avec le capitaine Quill, un petit caneton qui descend une rivière sur son radeau ! À chaque bifurcation, la rivière se sépare en deux bras, et chacun affiche un nombre. Votre enfant touche le bon bras — celui du plus grand ou du plus petit nombre — pour guider Quill jusqu’au bout de son voyage.",
-        "Au fil des étapes, votre enfant compare des nombres de 1 à 10 sous toutes leurs formes : deux chiffres, des collections de points, ou même deux petites sommes à calculer. Il découvre aussi l’égalité — quand les deux nombres sont pareils, on touche le signe égal — et apprend une idée essentielle : c’est la valeur du nombre qui compte, pas la taille de son écriture. Les paires proches comme 6 et 7 l’aident à affiner son regard.",
-        "Cette activité est interactive, pensée pour la grande section et le début du CP. Sans chronomètre et sans points : votre enfant avance à son rythme, dans l’esprit des programmes officiels, pour prendre confiance en comparant les nombres."
+        "Un ruisseau se divise deux fois sur le chemin d’une mare où un ami attend — une grenouille, un renard, un hérisson. À chaque embranchement flottent deux bouées avec un nombre, une dans chaque bras, et un petit panneau en haut donne la règle du voyage : suivre les plus grands nombres, ou les plus petits. L’enfant touche un nombre à chaque embranchement, le chemin prévu s’allume, et Vérifier y envoie un voilier. C’est une activité interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer et sans compte.",
+        "La règle change d’un voyage à l’autre : l’enfant doit donc lire le panneau et les nombres à chaque fois — celui qui prend toujours le plus grand nombre ne passe pas. Si le chemin est faux, le bateau va aussi loin qu’il peut et s’arrête dans les roseaux au premier embranchement faux, qui est entouré : quel nombre y est le plus grand (ou le plus petit) ? Après un deuxième essai, des points apparaissent sous les deux nombres de cet embranchement, pour compter lequel en a le plus. Un bon chemin mène le bateau jusqu’à l’ami : « Oui — tu as suivi les plus grands nombres, 7 et 5, jusqu’à la mare ! » Certains nombres sont loin l’un de l’autre, comme 2 et 7, d’autres sont voisins, comme 7 et 8. Les deux nombres ne sont jamais les mêmes.",
+        "L’activité suit les programmes officiels (Découvrir les nombres et leurs utilisations) : comparer deux nombres écrits en chiffres entre 1 et 10. L’enseignant choisit des nombres jusqu’à 5 ou jusqu’à 10, et une règle qui change à chaque voyage, ou toujours le plus grand, ou toujours le plus petit. Ni chrono ni score."
       ],
       "practices": [
-        "Comparer des nombres de 1 à 10 : plus grand, plus petit.",
-        "Reconnaître l’égalité et le signe =.",
-        "Lire la valeur d’un nombre, indépendamment de la taille de l’écriture.",
-        "Distinguer des nombres proches et trouver un nombre situé entre deux autres."
+        "Comparer deux nombres écrits jusqu’à 10",
+        "Trouver le plus grand et le plus petit nombre d’une paire",
+        "Garder une règle en tête en choisissant",
+        "Compter des points pour vérifier quel nombre est le plus grand"
       ],
       "howToPlay": [
-        "À chaque bifurcation, lis la consigne du capitaine Quill.",
-        "Touche le bon bras de la rivière — ou le signe égal si les nombres sont pareils.",
-        "Si ce n’est pas le bon, réessaie tranquillement : aucune pression."
+        "Regarde le panneau : suivre les plus grands nombres, ou les plus petits ?",
+        "À chaque embranchement, touche le nombre qui suit la règle.",
+        "Appuie sur Vérifier et regarde le bateau suivre ton chemin jusqu’à la mare.",
+        "Coincé dans les roseaux ? Regarde encore l’embranchement entouré. Ni chrono ni score."
       ],
       "learningGoals": [
-        "Comparer avec assurance les nombres de 1 à 10 et nommer le plus grand, le plus petit ou l’égalité.",
-        "Comprendre le nombre comme une valeur, indépendante de la taille de son écriture.",
-        "Construire une première idée de la suite des nombres : le précédent, le suivant, et ce qui vient « entre »."
+        "Comparer deux nombres écrits en chiffres entre 1 et 10",
+        "Dire lequel de deux nombres est le plus grand et lequel est le plus petit",
+        "Vérifier une comparaison en comptant des points"
       ]
     },
     "necklace.bead-string.k-cc-b-4": {

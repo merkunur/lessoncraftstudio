@@ -401,25 +401,26 @@
     },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
-        "O capitão Quill é um patinho corajoso que desce um rio cheio de bifurcações na sua balsa. Em cada bifurcação, o rio se abre em dois braços, e a criança toca no braço do rio que carrega o número certo — o maior, o menor ou o que tem mais. Por exemplo, entre 7 e 6, o maior é o 7, então é por ali que a balsa segue. E tem uma pegadinha esperta: um número desenhado bem grande nem sempre é o maior número, porque o que vale é o valor do número, não o tamanho em que ele está escrito.",
-        "Nesta viagem, a criança pratica comparar números escritos de 1 a 10 e descobrir qual é o maior e qual é o menor. Ela também aprende a reconhecer o lado que tem mais, a comparar qual soma é maior, a tocar no sinal de igual quando os dois lados valem a mesma coisa e a achar o número que fica entre dois outros. Aos poucos, ela entende que o valor do número é o que importa de verdade, e não o tamanho da escrita.",
-        "É uma atividade interativa, sem cronômetro, sem pontos e sem competição — só uma viagem tranquila pelo rio no ritmo de cada pequeno navegador. Cada bifurcação é um convite calmo a observar, comparar e escolher com atenção. Assim, a criança dá os primeiros passos no sentido numérico, dentro da unidade temática Números da BNCC, comparando números e reconhecendo maior, menor e igual de um jeito leve e acolhedor."
+        "Um riacho se divide duas vezes no caminho até uma lagoa onde um amigo espera — um sapo, uma raposa, um ouriço. Em cada bifurcação boiam duas boias com números, uma em cada braço, e uma plaquinha lá em cima dá a regra da viagem: seguir os números maiores ou os menores. A criança toca em um número em cada bifurcação, o caminho planejado se acende e Verificar manda um veleiro por ele. É uma atividade interativa da educação infantil que funciona no navegador, sem instalar nada e sem conta.",
+        "A regra muda de uma viagem para outra, então a criança precisa ler a placa e os números toda vez — quem sempre escolhe o número maior não passa. Se o caminho estiver errado, o barco vai até onde dá e fica preso nos juncos na primeira bifurcação errada, que fica marcada: qual número de lá é maior (ou menor)? Depois de uma segunda tentativa, aparecem bolinhas embaixo dos dois números dessa bifurcação, para contar qual tem mais. Um caminho certo leva o barco até o amigo: “Isso: você seguiu os números maiores, 7 e 5, até a lagoa!” Alguns números ficam longe um do outro, como 2 e 7, e outros são vizinhos, como 7 e 8. Os dois números nunca são iguais.",
+        "A atividade está alinhada à BNCC, no campo dos números: comparar dois números escritos entre 1 e 10. O professor escolhe números até 5 ou até 10, e uma regra que muda a cada viagem, ou sempre o maior, ou sempre o menor. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Comparar dois números escritos de 1 a 10 e descobrir qual é o maior e qual é o menor.",
-        "Reconhecer, entre dois braços do rio, qual é o lado que tem mais.",
-        "Entender que o valor do número é que conta, e não o tamanho em que ele está desenhado.",
-        "Achar o número que está entre dois outros e reconhecer quando os dois lados são iguais."
+        "Comparar dois números escritos até 10",
+        "Achar o número maior e o menor de um par",
+        "Manter uma regra em mente ao escolher",
+        "Contar bolinhas para conferir qual número é maior"
       ],
       "howToPlay": [
-        "Leia com calma os dois números que aparecem em cada bifurcação do rio.",
-        "Guie o capitão Quill pelo braço do rio com o número certo (o maior, o menor, o que tem mais…) e depois toque em Verificar.",
-        "Você pode tentar quantas vezes quiser: não tem tempo correndo, não tem pontos, é só aproveitar a viagem."
+        "Olhe a placa: seguir os números maiores ou os menores?",
+        "Em cada bifurcação, toque no número que segue a regra.",
+        "Aperte Verificar e veja o barco seguir seu caminho até a lagoa.",
+        "Ficou preso nos juncos? Olhe de novo a bifurcação marcada. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Comparar números de 1 a 10 com segurança, reconhecendo maior, menor e igual.",
-        "Compreender que o valor do número importa, e não o tamanho da escrita.",
-        "Dar passos no sentido numérico — mais, menos, entre e somas simples — de um jeito tranquilo."
+        "Comparar dois números escritos entre 1 e 10",
+        "Dizer qual de dois números é maior e qual é menor",
+        "Conferir uma comparação contando bolinhas"
       ]
     },
     "numbers-court.judge-balance.1-oa-d-7": {

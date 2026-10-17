@@ -1207,25 +1207,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Tweelie verzamelt de mooiste eikels van het bos op een klein hoopje. Maar wil iets bijzonders: een tweeling voor het hoopje. \"Tweeling\" betekent niet hetzelfde plaatje — het betekent evenveel! Net zoals twee tweelingkinderen verschillende kinderen zijn en toch even oud.",
-        "Eerst telt je kind de eikels van Tweelie door ze één voor één aan te tikken — één eikel, één tik, één getal — om te weten hoeveel het er zijn. Daarna legt het kind precies zoveel op zijn eigen bord, maar in een andere vorm: een rij, verspreid, een veld, of vanaf een geschreven getal. De ordening mag er heel anders uitzien, alleen het aantal moet kloppen. Zijn beide evenveel, dan juicht Tweelie: \"We zijn een tweeling!\"",
-        "Het grote idee: het zijn evenveel, hoe ze ook liggen. Een aantal blijft gelijk of de eikels nu in een rij liggen, door elkaar rollen of netjes op een rijtje staan. Geen klok die tikt, geen punten, geen haast, niemand wordt vergeleken — Tweelie geniet gewoon van het vinden van tweelingen, op zijn eigen tempo. Afgestemd op de SLO-kerndoelen voor rekenen voor kleuters, domein getallen (tellen en getalbegrip)."
+        "Twee rotspoelen liggen boven elkaar. In de eerste zitten zeedieren, bijvoorbeeld zeven krabben door elkaar of zes zeesterren in een kring. Het kind telt ze en vult dan de lege tweelingpoel eronder met evenveel dieren, maar van een andere soort: zeven zeesterren voor zeven krabben. Is de tweelingpoel klaar, dan drukt het kind op Controleer. Een interactieve telactiviteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "Beide kanten van tellen zitten in één beweging: bepalen hoeveel het er zijn en dan precies zoveel aftellen. De dieren in de eerste poel liggen op een rij, in een kring, in rijen of door elkaar; een tik op een dier vinkt het af als geteld, zodat het kind weet welke al geteld zijn – het vinkje is nooit een getal. In de tweelingpoel zet een tik op een lege plek er een dier in, en een tik op een dier haalt het eruit. Omdat de tweelingdieren standaard een andere soort zijn en anders liggen, kan alleen het aantal overeenkomen. De tweelingpoel heeft altijd meer plekken dan een ronde nodig heeft (12, of 8 bij getallen tot en met 5), dus de grootte verraadt het antwoord nooit. Klopt het, dan verbindt een touwtje elk dier in de eerste poel met een dier in de tweelingpoel, en aan geen van beide kanten blijft er een over – dat is wat ‘evenveel’ betekent. Klopt het niet, dan zegt de hint ‘te veel’ of ‘te weinig’ en krijgen de dieren in de tweelingpoel een nummer; na een tweede keer verbinden de touwtjes zoveel paren als ze kunnen en omcirkelen ze de dieren zonder tweeling. De hulp verplaatst nooit een dier.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: hoeveelheden tot en met 10 tellen op een rij, in een kring, in rijen of door elkaar, en een gevraagd aantal aftellen. De leerkracht kiest getallen tot en met 5 of tot en met 10, en kan dezelfde diersoort in de tweelingpoel zetten, zodat de paren makkelijker te zien zijn. Geen timer, geen score."
       ],
       "practices": [
-        "een zichtbare hoeveelheid zorgvuldig tellen — tik elk ding één keer aan",
-        "zelf datzelfde aantal maken op je eigen bord",
-        "herkennen dat evenveel ook evenveel blijft in een andere ordening",
-        "vergelijken tussen rij, verspreid, veld en geschreven getal"
+        "Tellen hoeveel het er zijn op een rij, in een kring, in rijen of door elkaar",
+        "Elk getelde dier afvinken, zodat je er geen twee keer telt of overslaat",
+        "Hetzelfde aantal aftellen met andere dingen",
+        "Zien dat twee groepen evenveel zijn als elk ding een tweeling heeft"
       ],
       "howToPlay": [
-        "Tik de eikels van Tweelie één voor één aan en tel ze.",
-        "Leg precies evenveel op je bord — de vorm mag anders zijn.",
-        "Klopt het aantal, juich dan samen: \"We zijn een tweeling!\""
+        "Tel de zeedieren in de eerste poel. Tik elk dier aan om het af te vinken terwijl je telt.",
+        "Tik op lege plekken in de tweelingpoel om er evenveel in te zetten. Tik op een dier in de tweelingpoel om het eruit te halen.",
+        "Druk op Controleer. Klopt het, dan verbindt een touwtje elk paar.",
+        "Nog niet helemaal? De hint zegt ‘te veel’ of ‘te weinig’ – verbeter het en druk opnieuw op Controleer. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Ik tel de hoeveelheid van een groep tot 12.",
-        "Ik maak een even grote groep in een andere ordening.",
-        "Ik snap dat het aantal gelijk blijft, hoe het ook ligt (getalbehoud)."
+        "Hoeveelheden tot en met 10 tellen op een rij, in een kring, in rijen of door elkaar",
+        "Een gevraagd aantal aftellen",
+        "Weten dat twee groepen evenveel zijn als je elk ding uit de ene groep aan een ding uit de andere kunt koppelen"
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

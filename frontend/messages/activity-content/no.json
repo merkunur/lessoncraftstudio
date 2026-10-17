@@ -1694,6 +1694,30 @@
         "Vite at det siste tallet man teller, sier hvor mange det er",
         "Holde tellingen når tingene ikke synes lenger"
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "To fjærepytter ligger over hverandre. I den første er det sjødyr – for eksempel sju krabber hulter til bulter eller seks sjøstjerner i en ring. Barnet teller dem og fyller så den tomme tvillingpytten nedenfor med like mange, men av et annet slag: sju sjøstjerner for sju krabber. Når tvillingpytten er klar, trykker barnet på Sjekk. En interaktiv telleøvelse som virker i nettleseren, uten installasjon og uten konto.",
+        "Tellingens to sider ligger i ett og samme trekk: finne ut hvor mange det er, og så telle opp like mange. Dyrene i den første pytten ligger på rad, i ring, i rader eller hulter til bulter; et trykk på et dyr krysser det av som telt, så barnet vet hvilke som allerede er telt – krysset er aldri et tall. I tvillingpytten setter et trykk på en tom plass et dyr der, og et trykk på et dyr tar det opp igjen. Fordi tvillingdyrene som standard er av et annet slag og ligger annerledes, kan bare antallet stemme. Tvillingpytten har alltid flere plasser enn en runde trenger (12, eller 8 når tallene går opptil 5), så størrelsen røper aldri svaret. Når det stemmer, knytter en snor hvert dyr i den første pytten sammen med ett i tvillingpytten, og ingen blir til overs på noen av sidene – det er det «like mange» betyr. Når det ikke stemmer, sier hintet «for mange» eller «for få», og dyrene i tvillingpytten får nummer; etter enda et forsøk knytter snorene sammen så mange par som de kan, og ringer inn dyrene uten tvilling. Hjelpen flytter aldri et dyr.",
+        "Aktiviteten er tilpasset LK20 – å telle hvor mange det er opptil 10, på rad, i ring, i rader eller hulter til bulter, og å telle opp et gitt antall. Læreren velger tall opptil 5 eller opptil 10 og kan sette samme slags dyr i tvillingpytten, så parene blir lettere å se. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Telle hvor mange det er på rad, i ring, i rader eller hulter til bulter",
+        "Krysse av hvert dyr som telles, så ingen telles to ganger eller glemmes",
+        "Telle opp like mange med andre ting",
+        "Se at to grupper er like mange når hver ting har en tvilling"
+      ],
+      "howToPlay": [
+        "Tell sjødyrene i den første pytten. Trykk på hvert dyr for å krysse det av mens du teller.",
+        "Trykk på tomme plasser i tvillingpytten for å sette like mange der. Trykk på et dyr i tvillingpytten for å ta det opp.",
+        "Trykk på Sjekk. Stemmer det, binder en snor sammen hvert par.",
+        "Ikke helt? Hintet sier «for mange» eller «for få» – rett det og trykk på Sjekk igjen. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Telle hvor mange det er opptil 10, på rad, i ring, i rader eller hulter til bulter",
+        "Telle opp et gitt antall",
+        "Vite at to grupper er like mange når hver ting i den ene kan pares med en ting i den andre"
+      ]
     }
   }
 }

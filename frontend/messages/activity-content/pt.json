@@ -3184,25 +3184,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "O duende gêmeo juntou uma pilhinha de bolotas e agora quer um \"gêmeo\" para ela. Só que gêmeo, aqui, não é a mesma figura — é a mesma quantidade! Primeiro a criança conta a pilha do duende tocando cada bolota uma vez (um toque, uma bolota, um número) e, depois, monta no próprio prato uma coleção com a mesma quantidade. Quando as duas têm o mesmo número, elas são gêmeas.",
-        "A ideia central é simples e poderosa: \"gêmeo\" quer dizer a mesma quantidade, mesmo que o arranjo seja diferente. A criança conta quantas são e depois separa exatamente aquela quantidade — e percebe que o número não muda com a arrumação. Uma fila, um monte espalhado, um campo espaçado ou até o numeral escrito guardam a mesma quantidade, desde que o número seja o mesmo. É assim que a criança começa a entender que contar é sempre confiável, não importa o formato.",
-        "A atividade não pede cadastro. Não há cronômetro, pontuação nem competição — só um ritmo calmo e acolhedor, em que errar faz parte de aprender e a criança pode tentar quantas vezes quiser. Ela está alinhada à BNCC e trabalha, no 1º ano, a unidade temática \"Números\"."
+        "Duas poças entre as pedras, uma em cima da outra. A primeira tem animais marinhos: por exemplo, sete caranguejos espalhados ou seis estrelas-do-mar em roda. A criança conta os animais e depois enche a poça gêmea, que está vazia, com a mesma quantidade, mas de outro tipo: sete estrelas-do-mar para sete caranguejos. Quando a poça gêmea está pronta, ela aperta Verificar. É uma atividade interativa de contagem que funciona no navegador, sem instalar nada e sem cadastro.",
+        "Os dois lados da contagem cabem num só movimento: descobrir quantos há e depois formar essa mesma quantidade. Os animais da primeira poça estão em fila, em roda, em fileiras ou espalhados; tocar em um deles o marca como contado, para que a criança saiba quais já contou — a marca nunca é um número. Na poça gêmea, tocar num lugar vazio coloca um animal e tocar num animal o tira. Como os animais gêmeos são, por padrão, de outro tipo e estão arrumados de outro jeito, só a quantidade pode coincidir. A poça gêmea sempre tem mais lugares do que a rodada precisa (12, ou 8 quando os números vão até 5), então o tamanho dela nunca dá a resposta. Quando está certo, um barbante liga cada animal da primeira poça a um da poça gêmea, sem sobrar nenhum de nenhum lado: é isso que quer dizer «a mesma quantidade». Quando não está certo, a dica diz «demais» ou «faltam» e os animais da poça gêmea são numerados; no segundo erro, os barbantes ligam todos os pares que conseguem e marcam os animais que ficaram sem gêmeo. A ajuda nunca muda um animal de lugar.",
+        "A atividade está alinhada à BNCC, no campo dos números: contar coleções de até 10 em fila, em roda, em fileiras ou espalhadas e formar uma coleção com uma quantidade dada. O professor escolhe números até 5 ou até 10 e pode colocar o mesmo tipo de animal na poça gêmea para que os pares fiquem mais fáceis de ver. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Contar uma coleção com cuidado, tocando cada coisa uma única vez.",
-        "Construir você mesmo uma coleção com a mesma quantidade da outra.",
-        "Perceber que a mesma quantidade continua sendo a mesma em outro arranjo.",
-        "Comparar a quantidade entre fila, monte espalhado, campo e numeral escrito."
+        "Contar quantos há em fila, em roda, em fileiras ou espalhados",
+        "Marcar cada um ao contar, para não contar nenhum duas vezes nem pular nenhum",
+        "Formar a mesma quantidade com outras coisas",
+        "Ver que duas coleções têm a mesma quantidade quando cada elemento tem seu gêmeo"
       ],
       "howToPlay": [
-        "Toque nas bolotas do duende, uma por uma, e conte quantas são.",
-        "Faça no seu prato a mesma quantidade — a forma pode ser diferente, só o número precisa bater.",
-        "Quando as duas coleções tiverem a mesma quantidade, vocês dizem juntos: \"Somos gêmeos!\""
+        "Conte os animais marinhos da primeira poça. Toque em cada um para marcá-lo enquanto conta.",
+        "Toque em lugares vazios da poça gêmea para colocar a mesma quantidade. Toque num animal da poça gêmea para tirá-lo.",
+        "Aperte Verificar. Se der certo, um barbante liga cada par.",
+        "Ainda não? A dica diz «demais» ou «faltam»: corrija e aperte Verificar de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Eu conto uma coleção tocando cada coisa uma vez.",
-        "Eu faço outra coleção com a mesma quantidade.",
-        "Eu sei que a quantidade não muda quando eu arrumo de outro jeito."
+        "Contar coleções de até 10 em fila, em roda, em fileiras ou espalhadas",
+        "Formar uma coleção com uma quantidade dada",
+        "Saber que duas coleções têm a mesma quantidade quando cada elemento de uma pode formar par com um elemento da outra"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

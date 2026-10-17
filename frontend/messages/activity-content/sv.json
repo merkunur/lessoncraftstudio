@@ -2554,6 +2554,30 @@
         "Veta att det sista talet man räknar säger hur många det är",
         "Hålla räkningen när föremålen inte syns längre"
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Två klippölar ligger ovanför varandra. I den första finns havsdjur – till exempel sju krabbor huller om buller eller sex sjöstjärnor i en ring. Barnet räknar dem och fyller sedan den tomma tvillingpölen nedanför med lika många, men av ett annat slag: sju sjöstjärnor för sju krabbor. När tvillingpölen är klar trycker barnet på Kontrollera. En interaktiv räkneövning som fungerar i webbläsaren, utan installation och utan konto.",
+        "Räknandets två sidor ryms i ett och samma drag: ta reda på hur många det är och räkna sedan fram lika många. Djuren i den första pölen ligger på rad, i ring, i rader eller huller om buller; ett tryck på ett djur bockar av det som räknat, så att barnet vet vilka som redan är räknade – bocken är aldrig ett tal. I tvillingpölen sätter ett tryck på en tom plats dit ett djur, och ett tryck på ett djur tar upp det igen. Eftersom tvillingdjuren som standard är av ett annat slag och ligger på ett annat sätt kan bara antalet stämma. Tvillingpölen har alltid fler platser än en omgång behöver (12, eller 8 när talen går upp till 5), så dess storlek avslöjar aldrig svaret. När det stämmer knyter ett snöre ihop varje djur i den första pölen med ett i tvillingpölen, och inget blir över på någon sida – det är det ”lika många” betyder. När det inte stämmer säger tipset ”för många” eller ”för få”, och djuren i tvillingpölen får nummer; efter ett andra försök binder snörena ihop så många par som de kan och ringar in djuren utan tvilling. Hjälpen flyttar aldrig ett djur.",
+        "Aktiviteten följer Lgr22 – att räkna hur många det är upp till 10, på rad, i ring, i rader eller huller om buller, och att räkna fram ett givet antal. Läraren väljer tal upp till 5 eller upp till 10 och kan sätta samma slags djur i tvillingpölen så att paren blir lättare att se. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Räkna hur många det är på rad, i ring, i rader eller huller om buller",
+        "Bocka av varje djur som räknas, så att inget räknas två gånger eller glöms",
+        "Räkna fram lika många med andra saker",
+        "Se att två grupper är lika många när varje sak har en tvilling"
+      ],
+      "howToPlay": [
+        "Räkna havsdjuren i den första pölen. Tryck på vart och ett för att bocka av det medan du räknar.",
+        "Tryck på tomma platser i tvillingpölen för att sätta dit lika många. Tryck på ett djur i tvillingpölen för att ta upp det.",
+        "Tryck på Kontrollera. Om det stämmer knyter ett snöre ihop varje par.",
+        "Inte riktigt? Tipset säger ”för många” eller ”för få” – rätta och tryck på Kontrollera igen. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Räkna hur många det är upp till 10, på rad, i ring, i rader eller huller om buller",
+        "Räkna fram ett givet antal",
+        "Veta att två grupper är lika många när varje sak i den ena kan paras ihop med en sak i den andra"
+      ]
     }
   }
 }

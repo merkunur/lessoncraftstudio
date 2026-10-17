@@ -1706,6 +1706,30 @@
         "Vide, at det sidste tal, man tæller, fortæller hvor mange der er",
         "Holde tællingen, når tingene ikke kan ses længere"
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "To klippepøler ligger over hinanden. I den første er der havdyr – for eksempel syv krabber hulter til bulter eller seks søstjerner i en ring. Barnet tæller dem og fylder så den tomme tvillingepøl nedenunder med lige så mange, men af en anden slags: syv søstjerner for syv krabber. Når tvillingepølen er klar, trykker barnet på Tjek. En interaktiv tælleøvelse, der virker i browseren, uden installation og uden konto.",
+        "Tællingens to sider er samlet i ét træk: finde ud af, hvor mange der er, og så tælle lige så mange af. Dyrene i den første pøl ligger på række, i ring, i rækker eller hulter til bulter; et tryk på et dyr sætter flueben ved det som talt, så barnet ved, hvilke der allerede er talt – fluebenet er aldrig et tal. I tvillingepølen sætter et tryk på en tom plads et dyr der, og et tryk på et dyr tager det op igen. Fordi tvillingedyrene som standard er af en anden slags og ligger anderledes, kan kun antallet passe. Tvillingepølen har altid flere pladser, end en runde skal bruge (12, eller 8 når tallene går op til 5), så dens størrelse røber aldrig svaret. Når det passer, binder en snor hvert dyr i den første pøl sammen med et i tvillingepølen, og der er ingen tilovers på nogen af siderne – det er det, ”lige så mange” betyder. Når det ikke passer, siger hintet ”for mange” eller ”for få”, og dyrene i tvillingepølen får numre; efter endnu et forsøg binder snorene så mange par sammen, som de kan, og ringer dyrene uden tvilling ind. Hjælpen flytter aldrig et dyr.",
+        "Aktiviteten er tilpasset Fælles Mål for matematik: at tælle, hvor mange der er, op til 10 – på række, i ring, i rækker eller hulter til bulter – og at tælle et givet antal af. Læreren vælger tal op til 5 eller op til 10 og kan sætte den samme slags dyr i tvillingepølen, så parrene er lettere at se. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Tælle, hvor mange der er, på række, i ring, i rækker eller hulter til bulter",
+        "Sætte flueben ved hvert dyr, der tælles, så intet tælles to gange eller glemmes",
+        "Tælle lige så mange af med andre ting",
+        "Se, at to grupper er lige store, når hver ting har en tvilling"
+      ],
+      "howToPlay": [
+        "Tæl havdyrene i den første pøl. Tryk på hvert dyr for at sætte flueben ved det, mens du tæller.",
+        "Tryk på tomme pladser i tvillingepølen for at sætte lige så mange der. Tryk på et dyr i tvillingepølen for at tage det op.",
+        "Tryk på Tjek. Passer det, binder en snor hvert par sammen.",
+        "Ikke helt? Hintet siger ”for mange” eller ”for få” – ret det, og tryk på Tjek igen. Ingen tidtagning og ingen point."
+      ],
+      "learningGoals": [
+        "Tælle, hvor mange der er, op til 10 – på række, i ring, i rækker eller hulter til bulter",
+        "Tælle et givet antal af",
+        "Vide, at to grupper er lige store, når hver ting i den ene kan sættes sammen med en ting i den anden"
+      ]
     }
   }
 }

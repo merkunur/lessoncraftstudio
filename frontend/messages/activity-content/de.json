@@ -2610,25 +2610,26 @@
     },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
-        "Zwicke, der Zwillings-Wicht, sammelt im Wald die schönsten Eicheln und legt sie zu einem kleinen Haufen zusammen. Aber Zwicke möchte etwas ganz Besonderes: einen Zwilling für seinen Haufen. „Zwilling“ heißt nicht dasselbe Bild — es heißt gleich viele! Genau wie zwei Zwillingskinder verschiedene Kinder sind und trotzdem gleich viele Jahre haben.",
-        "Zuerst zählt das Kind Zwickes Eicheln ab, indem es jede einzelne antippt — eine Eichel, ein Tipp, eine Zahl. So findet es heraus, wie viele es sind. Dann legt das Kind auf seinen eigenen Teller genau so viele Eicheln — aber in einer anderen Form: mal in einer Reihe, mal verstreut, mal als Feld, mal nach einer geschriebenen Zahl. Die Anordnung darf ganz anders aussehen, nur die Anzahl muss stimmen. Und wenn beide gleich viele haben, ruft Zwicke fröhlich: „Wir sind Zwillinge!“",
-        "Die große Idee dahinter: Es sind gleich viele — egal, wie es liegt. Eine Anzahl bleibt dieselbe, ob die Eicheln in einer Reihe liegen, durcheinanderpurzeln oder ordentlich nebeneinander stehen. Es gibt hier keine Uhr, die tickt, und keine Punkte zu gewinnen. Kein Kind muss sich beeilen, niemand wird verglichen — Zwicke hat einfach Freude daran, in seinem eigenen Tempo Zwillinge zu finden, so oft es mag. Orientiert am Lehrplan der Grundschule, Leitidee „Zählen und Mengen“."
+        "Zwei Felsenbecken liegen übereinander. Im ersten sind Meerestiere – zum Beispiel sieben Krebse, wild verteilt, oder sechs Seesterne im Kreis. Das Kind zählt sie und füllt dann das leere Zwillingsbecken darunter mit genauso vielen, aber mit einer anderen Sorte: sieben Seesterne für sieben Krebse. Ist das Zwillingsbecken fertig, drückt das Kind auf Prüfen. Eine interaktive Zählübung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "Beide Seiten des Zählens stecken in einem Zug: bestimmen, wie viele es sind, und dann genau so viele abzählen. Die Tiere im ersten Becken liegen in einer Reihe, im Kreis, in Reihen oder durcheinander; ein Tipp auf ein Tier hakt es als gezählt ab, damit das Kind weiß, welche schon gezählt sind – der Haken ist nie eine Zahl. Im Zwillingsbecken setzt ein Tipp auf einen freien Platz ein Tier hinein, ein Tipp auf ein Tier nimmt es wieder heraus. Weil die Zwillingstiere standardmäßig eine andere Sorte sind und anders liegen, kann nur die Anzahl übereinstimmen. Das Zwillingsbecken hat immer mehr Plätze, als eine Runde braucht (12, oder 8 bei Zahlen bis 5), seine Größe verrät die Lösung also nie. Bei einer richtigen Prüfung verbindet eine Schnur jedes Tier im ersten Becken mit einem im Zwillingsbecken, und auf keiner Seite bleibt eines übrig – genau das heißt „gleich viele“. Bei einer falschen Prüfung sagt der Hinweis „zu viele“ oder „zu wenige“, und die Tiere im Zwillingsbecken werden nummeriert; beim zweiten Fehlversuch verbinden die Schnüre so viele Paare wie möglich und markieren die Tiere ohne Zwilling. Die Hilfe verschiebt nie ein Tier.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: Anzahlen bis 10 in einer Reihe, im Kreis, in Reihen oder ungeordnet bestimmen und eine vorgegebene Anzahl abzählen. Lehrkräfte wählen Zahlen bis 5 oder bis 10 und können dieselbe Tiersorte ins Zwillingsbecken setzen, damit die Paare leichter zu sehen sind. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine sichtbare Menge sorgfältig abzählen — jedes Ding einmal antippen.",
-        "Die gefundene Anzahl auf dem eigenen Teller selbst herstellen.",
-        "Erkennen: gleich viele bleibt gleich viele, auch in anderer Anordnung.",
-        "Über Reihe, Streuung, Feld und geschriebene Zahl hinweg vergleichen."
+        "Bestimmen, wie viele es sind – in einer Reihe, im Kreis, in Reihen oder durcheinander",
+        "Jedes gezählte Tier abhaken, damit keines doppelt gezählt oder vergessen wird",
+        "Dieselbe Anzahl mit anderen Dingen abzählen",
+        "Erkennen: Zwei Mengen sind gleich groß, wenn jedes Ding einen Zwilling hat"
       ],
       "howToPlay": [
-        "Tippe Zwickes Eicheln nacheinander an und zähle sie ab.",
-        "Lege auf deinen Teller genau gleich viele — die Form darf anders sein.",
-        "Stimmt die Anzahl, ruft ihr zusammen: „Wir sind Zwillinge!“"
+        "Zähle die Meerestiere im ersten Becken. Tippe beim Zählen jedes an, um es abzuhaken.",
+        "Tippe auf freie Plätze im Zwillingsbecken, um genauso viele hineinzusetzen. Ein Tipp auf ein Tier im Zwillingsbecken nimmt es wieder heraus.",
+        "Drücke auf Prüfen. Stimmt es, verbindet eine Schnur jedes Paar.",
+        "Noch nicht ganz? Der Hinweis sagt „zu viele“ oder „zu wenige“ – korrigiere und drücke noch einmal auf Prüfen. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Das Kind bestimmt die Anzahl einer Menge bis 12 durch zählendes Abzählen.",
-        "Das Kind stellt eine gleich große Menge in einer anderen Anordnung her.",
-        "Das Kind versteht: Die Anzahl bleibt gleich, unabhängig von der Anordnung (Anzahlinvarianz)."
+        "Anzahlen bis 10 bestimmen – in einer Reihe, im Kreis, in Reihen oder ungeordnet",
+        "Eine vorgegebene Anzahl abzählen",
+        "Wissen, dass zwei Mengen gleich viele sind, wenn sich jedes Ding der einen mit einem Ding der anderen paaren lässt"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

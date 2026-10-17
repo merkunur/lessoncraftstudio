@@ -18,6 +18,7 @@ Separable plant parts (root, stem, leaf, flower, fruit, seed) and a flower-parts
 Family words need people who look like a grandmother, grandfather, mother, father, sister, brother and baby; the library has only toys/baby, toys/girl, toys/doll and uniformed occupations, and drawing silhouettes with hair/age cues is hand-drawn characters (rule 5). The design is sound and builds as soon as family figures exist.
 
 - Pictures: MISSING: seven family figures as library pictures (grandmother, grandfather, mother, father, older girl, older boy, baby — toys/baby could serve as the baby). Frames, branches and the "me" star are apparatus.
+- Critic 2026-10-17: the worksheet cast primitives/family-figure.js is drawn characters and is NOT allowed. The design now SHIPS its grade 1-2 modes as a words-only tree (riddle walk, generations, clues, explore); only the K faces (K-370, K-375) wait. Full need: grandma, grandpa, mom, dad, older girl, older boy, baby, aunt, uncle, girl cousin, boy cousin, 2 looks each (~22), sex and age readable without colour, varied skin tones.
 
 ### #264 The Cycle Wheel (`cycle-wheel`, grade 1)
 The library has no plain egg (easter/egg is a painted Easter egg), chrysalis, tadpole, froglet, frogspawn, seed or seedling; no cycle can be completed honestly. It now also holds twin-wheels (G3-393), the two-cycle comparison, as a mode.

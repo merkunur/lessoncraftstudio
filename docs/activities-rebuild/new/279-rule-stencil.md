@@ -1,29 +1,155 @@
-# New #279 — The Rule Stencil — Spelling by the Rule (L.2.2.d)
+# New #279 — The Rule Stencil → THE STENCIL WITH A WINDOW (L.2.2.d)
 
-Backlog entry #279 of the worksheet→activity coverage plan (`NEW-ORDER.md`). Grade 2 · Language. Planned files: `rule-stencil-core.js`, `rule-stencil-activity.js`, `rule-stencil-activity.html`, `rule-stencil-activities.json` (id `rule-stencil.play.l-2-2-d`). Start with `node scripts/new-activity.js --num=279`, then `NEW-RECIPE.md`.
+## 0. Identity
+- id `rule-stencil.play.l-2-2-d` · grade 2 · CCSS L.2.2.d (generalize learned spelling patterns) · strand Language · own files `rule-stencil-core.js`, `rule-stencil-activity.js`, `rule-stencil-activity.html`, `rule-stencil-activities.json` (scaffold `node scripts/new-activity.js --num=279`).
+- worksheets covered: **G2-315** Spelling Rules (write the rule letters in the gap) · **G2-324** Which One? (circle the right letters) · **G2-325** Rule Detective (find the rule letters in a whole word) · **G2-326** Sort by Spelling Rule (bins) · **G2-327** Write the Word (rule letters printed, write the rest) · **G2-328** Plurals.
+- new instrument. Content source: the native-panel-reviewed, picture-pinned bank that already drives those worksheets — `scripts/worksheet-gen/data/b3/spelling-rules.js` (en) and `data/b3/locales/spelling-rules.<loc>.json` (10 locales). The activity reads the same items (theme + noun + word + gap) wherever the bank has them; only rules whose letters are decided by a **position** are used (§6). Honest record (critic): the activity ADDS a few picture-backed items the bank does not carry — en *kite, kettle* (Pair A), the whole en **+es / +s** plural sides (the bank's plural rule is y→ies / f→ves), and the per-locale ↑ refills named in §6 — each is a library picture that exists and is re-checked on a contact sheet at build.
 
-## The skill
-Choose the spelling a rule gives by its position in the word (e.g. en: -ck after a short vowel, -k after a long vowel or consonant; -tch/-ch; -dge/-ge; ai inside / ay at the end; -s / -es / -ies) and sort words by rule.
+## 1. The pitch
+"Every spelling rule is a stencil with a little window cut in it: the window shows what must stand next to the gap — and the stencil only presses flat, letting its letters through, where the word's neighbour fits the window."
 
-## The apparatus and its invention
-Each word is a row of letter boxes with the rule spot empty; the rule card shows a stencil — a short strip with a POSITION mark (after a short vowel / at the end / inside). The child slides the stencil along the word; it only seats at its position, and the rule letters it carries can only drop into the box where the stencil seats. Picking ay for a middle-of-word gap makes the stencil refuse to seat; ai at the end likewise. Sort mode: picture words drop into two rule bins whose stencils test them.
+## 2. Why a child will want it again
+- **A stencil is a real object to slide.** A translucent strip glides along the word with a soft scraping sound; when it reaches the gap it settles with a *click*. On Check, the child *presses* it: if the rule fits, the stencil goes flat and its letters fall through the cut-outs onto the word in fresh coral ink — like spray-painting a sign. The stencil lifts away and the word is whole.
+- **The window is a peephole.** Each stencil's window frames one neighbour letter. When it lands on the right kind of letter the window glows; on the wrong kind it sits crooked and the stencil cannot lie flat — it rocks, and the child can SEE the letter inside the window isn't the window's shape.
+- **The Montessori colours.** Letters are tiles in the classic moveable-alphabet colours (consonants teal, vowels coral); the windows speak the same colour language, so the rule becomes a colour-and-shape match a 7-year-old can read without a single word of explanation.
+- **Sorting bins with gates.** In sort rounds the stencils are mounted as gates on two bins; a word card dropped in a bin is pressed through its gate on Check — a fitting card slides down with a *whoosh*, a wrong one sticks in the gate.
+- **The collection.** Every word the child completes is printed onto a little "rule poster" strip on the side (picture + word, rule letters in coral) — after a pass, the poster shows eight *duck, sock, truck…* words with their ck all lined up. No score.
 
-- **Misconception the apparatus makes visible:** Spelling by sound only (both ai and ay say /ai/): the stencil shows the rule is about WHERE the sound is.
-- **Pictures:** library nouns per rule (duck, cake, watch, bridge, rain, tray…) chosen per locale
-- **Settings:** Rule pair: per locale list (2–4 pairs) · Task: fill the gap / sort by rule / plurals
-- **Rounds:** ≥ 8 words per rule pair, half for each spelling; the gap position varies; pictures opened and checked.
-- **Worksheet types it covers:** G2-315, G2-324, G2-325, G2-326, G2-327, G2-328
-- **Distinct from:** Word Doctor's Clinic spells by ear and the Doubling Pond does irregular plurals; neither teaches a positional rule.
-- **Build risk:** Per-locale rule pairs (native-authored, ≥ 8 words each): en -ck/-k, -tch/-ch, -dge/-ge, ai/ay; de -ck/-k and -tz/-z after a short vowel, ie; nl -d/-t at the end (verlengen), ei/ij refused; sv -ck/-k, -mm/-m; da/no double consonant after a short vowel; es c/qu before e/i, z/c before e/i, g/gu; it c/ch, g/gh before e/i; pt c/qu, ç before a/o/u; fr c/ç, g/ge before a/o/u. fi refused (recorded). Pictures opened and checked per locale.
+## 3. The skill and the misconception
+- Skill (L.2.2.d + the six worksheets): choose the spelling a rule gives from where the sound is in the word and what stands beside it (en: **c** before a, o, u or a consonant / **k** before e, i, y; **ck** right after one short vowel / **k** after a consonant or a long vowel; plural **+es** after s, x, sh, ch / **y→ies** after a consonant / **+s** otherwise); find rule letters in a word; sort words by rule; write the word around printed rule letters.
+- Misconception: **spelling by sound alone** — both *c* and *k* say /k/, both *ck* and *k* end *duck* and *desk*, so a sound-speller guesses. The stencil makes the rule a property of **position and neighbour**, which the child can see: the *ck* stencil's window is a **dot** (= a short vowel stands just before) and the *k* stencil's window is a **teal block or a dash** (= a consonant or a long vowel stands before). Pressing the wrong stencil, its window lands on a letter of the wrong kind, the stencil rocks instead of lying flat, and no ink comes through. The material refuses; nothing scolds.
+- Second misconception: **the gap's size tells the answer** (two boxes = two letters). The rule slot is ONE elastic frame of constant width (three letter widths) whatever goes in it — the gate asserts slot width is independent of the answer.
+- One right answer per item (the bank's `g`; items whose spelling is not decided by the rule — *kangaroo, koala, meerkat* — are excluded, §6).
 
-## Before building (the LAW's four questions — answer them here at build time)
-1. Would a 5–8-year-old choose it again?
-2. Would a teacher put it on the board?
-3. Would a parent trust it?
-4. Is it creative — what is the one-sentence invention?
+## 4. The stage
+**At 704 (split layout ≥ 700: board left 450 px, rack + poster right 210 px):**
+- **The picture** — the item's library picture, **128 × 128**, top-left of the board (fitted by ink box).
+- **The word row** — letter tiles up to **40 × 56**, gap 4 px, Nunito 800 28 px; tile width = min(40, (450 − 4·(n−1)) / n) for a row of n tiles (printed letters + the 3-tile slot). Every pool is capped at **9 printed letters (12 tiles)** — the German long compounds *Glockenblume* and *Schneeflocke* (10 printed) are dropped — so the widest row gets 33-px tiles (font 24) at 704. (The old "7 letters max" claim was English-only: de *Lieferwagen*, *Brieftasche*, *Heuschrecke* print 9.) consonants teal ink on pale teal (#DCEFEC), vowels coral ink on pale coral (#FDE3D8), *y* coloured by what it does in that word (authored: consonant at the start of *yo-yo*, vowel at the end of *baby*). Under each vowel, a **length mark** when the round needs it: a **dot** (short) or a **dash** (long), drawn 8 px (the dot-and-dash vowel-length convention German and Nordic first classes use, and the breve/macron of English phonics). The **rule slot** — one dashed frame 128 × 56 (three tile widths) wherever the rule letters go, whether 1, 2 or 3 letters.
+- **The rule rack** (right column) — 2 or 3 **stencils**, each a translucent cream strip 200 × 80 with a 3 px ink outline and rounded ends: the **letter cut-out** (the rule letters, 34 px, coral, as holes) and the **window** (a 56 × 64 cut-out on the side the rule looks at). Window faces: a **dot** (a short vowel), a **dash** (a long vowel), a **teal block** (any consonant), or **printed letters** (e.g. "a o u", "e i y", "s x sh ch", "b p m"). Windows on the LEFT of the letters look at the letter before; on the RIGHT, at the letter after.
+- **The rule poster** — under the rack, a strip 220 × 180 that fills with mini cards (picture 44 px as a data mark per the size ruling + the word, rule letters coral) as the pass goes on.
+- **Check** under the board; feedback bubble beside the word.
+- Task line (EN, 22 px): "Which stencil fits? Slide it onto the gap and press." (other tasks §6).
 
-## Layout
-(at build: wide ≥ 560 / stack; pictures ≥ 96 px at 704 and ≥ 64 px at 360; taps ≥ 44; Check above the 360×740 and 320×640 fold.)
+**At 360 (stacked):** picture 96 × 96 at left of the task line row; letter tiles w = min(30, (336 − 3·(n−1)) / n) × 44 (font 0.72 w) — en rows (≤ 10 tiles) keep 30 px; a 12-tile de row gets 25-px tiles (font 18) at 360 and 21-px tiles (font 15) at 320; these tiles are never tap targets in Fill/Sort/Find (the stencil is dragged along the 48-px row) and Write caps words at 7 letters; the rack becomes a row of 2–3 stencils 104 × 64 (window 40 × 48) under the word; poster collapses to a 1-row strip of 6 mini cards (36 px). Stage ≈ 96 + 12 + 48 + 16 + 64 + 12 + 44 = 292 px → Check above the 360 × 740 and 320 × 640 folds (at 320 tiles 26 × 40, slot 84).
 
-## Gates
-(at build — NEW-RECIPE.md §3.)
+Library pictures only; everything else (tiles, stencils, windows, bins) is drawn apparatus. No words on the apparatus beyond the letters that are the content.
+
+## 5. The hand
+- **Drag a stencil** off the rack (lift 60 ms, shadow) onto the word row; it slides horizontally along the row (snaps letter-by-letter, soft scrape tick every snap, ≤ 50 ms response). At the slot it settles with a *click* — any stencil settles at the slot (no pre-check: the press is the test, so trying both stencils before Check reveals nothing).
+- **Press** = Check: the stencil pushes down (120 ms). Fit → it lies flat, its window glows teal, the letters fall through as coral ink (180 ms, a *pff* spray sound), the stencil lifts back to the rack (240 ms). No fit → see §7.
+- **Swap**: drag the seated stencil away (back to the rack) or drop another one on the slot (they trade places, 200 ms).
+- **Tap-tap / keyboard:** tap a stencil (raised), then tap the slot; or Tab to the rack, ←/→ to choose, Enter to seat, Enter again (= Check) to press.
+- **Sort task:** word cards (picture 96 + word with the slot) sit in a stack; drag a card into a bin (the bins' mouths carry the stencils as gates). Up to 8 cards per round; Check presses every card through its gate.
+- **Find the rule task:** the whole word is printed (no slot); the ONE stencil slides along the word and settles wherever its letters lie over the same letters in the word; Check presses it.
+- **Write the word task:** the rule letters are printed in coral in their place; every other letter is an empty tile box; a tray holds the word's other letters shuffled + 2 foil letters; tap a tray tile, tap a box (or drag).
+- **Free play:** after success, the child can slide any stencil along any finished word on the poster — windows glow where they fit, a little rule-hunting game.
+- Optional TTS: tapping the picture says the word (5 locales); tapping a stencil says its letters.
+
+## 6. The rounds
+Items come from the reviewed bank; only **position rules** run here (a rule whose spelling is decided by what stands beside it). Every item is picture-backed (the bank pins a theme/noun per item, all opened by the worksheet panels); the activity re-checks each against the picture rulings.
+
+**EN — Pair A "c or k?"** (start and middle; the window looks RIGHT). Stencils: **c** [window: "a o u" + teal block] · **k** [window: "e i y"].
+| c (12) | gap at | k (12) | gap at |
+|---|---|---|---|
+| carrot, camel, cup, cow, canoe, cobra | start (6) | kiwi, key, keyboard, kite, kettle | start (5) |
+| toucan, raincoat, acorn, popcorn, pelican, avocado | middle (6) | pumpkin, baker, basket, donkey, monkey, turkey, skirt | middle (7) |
+Excluded (rule-breakers in the bank): kangaroo, koala, meerkat; cone (the library cone is truncated). *kite* (toys/kite) and *kettle* (kitchen-tools/kettle, a stovetop kettle) are activity additions, not bank items.
+
+**EN — Pair B "ck or k?"** (after the vowel; the window looks LEFT). Stencils: **ck** [window: dot — one short vowel] · **k** [window: teal block OR dash — a consonant or a long vowel].
+| ck (13) | position | k (13) | position |
+|---|---|---|---|
+| sock, lock, rock, sack, chick, truck (vehicles/truck — the bank's post-office/truck prints "POST"), haystack | end (7) | milk, hawk, mask, desk, fork, sink, leek, shark | end (8) |
+| rocket, bucket, jacket, stocking, gecko, hockey (winter/hockey) | middle (6) | monkey, donkey, turkey, basket, marker | middle (5) |
+Critic changes: *book* → *leek* (book's oo is a SHORT /ʊ/ — marking it with the long-vowel dash would teach a false sound fact; leek's ee is truly long); *hammock* → *hockey* (hammock's o is unstressed, so the "dot = stressed short vowel" window would mis-describe it). Gap in the middle: ck 6/13, k 5/13 — position tells nothing. **The k stencil's window accepts a teal block (consonant) or a dash; a vowel TEAM (hawk aw, leek ee) carries ONE dash under both letters.** Word length: ck mean 5.46, k mean 4.85 — point-biserial **0.26** (critic re-measured, `work-c29/pb279.js`); the gate fails above |0.35| and the pool may only be trimmed toward lower values. Pair A measures 0.03 (c 5.58 / k 5.50). Never *chick* and *duckling* in one pass (picture ruling); *haystack* (thanksgivinng/haystack) replaces *backpack*, whose first ck would print the answer to its own gap.
+
+**EN — Plurals** (G2-328; the window looks at the END of the word for one). Stencils: **+es** [window: "s x sh ch"] · **y→ies** [window: teal block before a covered y] · **+s** (no window — the plain stencil; see §7).
+| +es (9) | y→ies (10) | +s (10, incl. the vowel-y trap) |
+|---|---|---|
+| fox, bus, glass, watch, bench, dress, couch, beach, compass | baby, bunny, canary, candy, ferry, lily, cherry (supermarket), celery, peony, galaxy | carrot, canoe, jacket, pumpkin, coat, kite, key, monkey, donkey, turkey |
+*key / monkey / donkey / turkey* (vowel + y → +s) are the trap the y→ies window catches: its teal block lands on a coral vowel and the stencil rocks. *compass* (English letters in the picture) is used in en only; *peach* and *calf* are dropped (rulings: the peach reads as an apple, the calf as a cow). The long y-words (strawberry, raspberry, butterfly) are left out on purpose: with them, word length alone predicted y→ies (point-biserial −0.41); with this pool the three sides average 4.8 (+es), 5.2 (y→ies) and 5.3 (+s) letters and every pairwise |r| ≤ 0.25 (measured −0.22 · −0.22 · −0.05).
+
+**Rounds per task:** Fill the gap — 10 items per pass from the chosen pair, 5 per side, order shuffled. Sort — 8 cards (4 + 4) per round × 8 rounds. Find the rule — 10 items (whole word printed; the stencil's letters and window must both coincide). Write the word — 8 items (rule letters printed; the tray holds the other letters + 2 foils: one sound-alike, e.g. *c* in a k word, and one random). Plurals — 10 items per pass (≥ 3 of each stencil).
+
+**The doubling doctrine (de / sv / no / da, and en ck):** the doubled stencil's window is a **dot = a STRESSED short vowel**; the single stencil accepts a dash, a teal block or an **unmarked vowel** (unstressed vowels carry no length mark). An item is admitted only when exactly ONE consonant sound follows that vowel (the gap is followed by a vowel or the word end) and the gap does not open a word part — the gate asserts both per item. Without this, Danish *ulv* (short u, then l + v) would fit the ll window and *selleri* (ll after an unstressed e) would refuse it — two wrong verdicts the critic found in the bank.
+
+**Per-locale rule pairs** (critic-audited against `data/b3/locales/spelling-rules.<loc>.json` item by item, 2026-10-17; counts = picture-pinned items per side AFTER the exclusions named; ↑ = the native writer refills to ≥ 8 from the named library pictures; a side that cannot reach 8 runs in **Find the rule** only, §12):
+| locale | pairs (window) | per side, after exclusions | plurals |
+|---|---|---|---|
+| de | **ck / k** (dot / teal or dash) · **tz / z** (same windows) · **ie / i** (dash / dot) | ck 17 / k 9 — out: *Glockenblume, Schneeflocke* (row too long), *Schöpfkelle, Briefkasten* (the k opens a word part) · tz 8 / z 9 — out: *Löwenzahn* (z opens "Zahn") · ie 18 / i 11 — out: *Begonie, Dahlie, Hortensie, Petunie* (their -ie is two syllables /iə/, not a long i), *Biber, Tiger, Bison* (long i spelled i — the classic exceptions), *Kreis* (ei, not i); i refilled ↑ *Insel, Spinne, Milch, Himbeere, Pilz* + *Kinn, Kirche, Kissen, Hirsch, Fisch, Ring*. (tt/ll/nn/ss pairs exist in the bank and may be added under the same doctrine.) | refused (no position rule) |
+| sv | **t / tt** · **l / ll** · **ck / k** (dot / dash, teal or unmarked) | tt 6 + the dubbelteckning tt items (*hatt, sandslott, hängmatta, kotte…*) ≥ 8 / t 15 · ll 7 (out: *ballong* — ll after an unstressed vowel) + dubbelteckning ll ↑ / l 25 · ck 16 (dubbelteckning: *klocka, nyckel, snäcka, jacka, docka…*) / k ↑ *bok, kaka, fisk, stork, gurka, sked, mask* (7 named — the old "kock" is a ck word and is removed; the writer finds an 8th or this pair runs Find-only). Out everywhere: *ballerina, alligator, satellit, selleri, bulldozer* (loans, unstressed). **No m/mm pair**: Swedish writes a single m after a short vowel in many words (*rum, hem, dom*), so position does not decide it. | refused |
+| no | **kk / k** · **tt / t** (dot / dash, teal or unmarked) | kk 15 / k 7 (out: *tekanne, trekant* — k opens a word part) ↑ 1 · tt 10 / t 13 (*robot*: unstressed o, unmarked → t) | refused |
+| da | **ll / l** (dot / dash, teal or unmarked) | ll 8 *bolle, bille, gorilla, gazelle, grill, tryllestav, kylling, ælling* (out: *basketball, bulldozer* loans; *selleri, tallerken* ll after an unstressed vowel) / l 8 *kamel, hval, bil, føl, melon, kugle, stol, sæl* (out: *ulv, kalv, delfin* — a consonant follows the l; *lam* — the gap opens the word). Danish writes many final consonants single after a short vowel (*kat, nat, top*), so no other da pair is honest. | refused (flertal-dobbelt: 16 items over 7 endings) |
+| nl | **d / t at the end — verlengen** — the stencil flips the word to its plural (*hond → honden*) and its window sits over the letter there | d 20 / t 24 (ei / ij refused: no position decides it) | refused |
+| fr | **m / n before m, b, p** (window right "m b p" / teal) | m 7 (out: *trombone* — music/trombone is drawn as a horn) ↑ *lampe, tambour* = 9 / n 26 | **+x after -eau / -au** vs **+s**: x 18 (*gâteau, chapeau, cadeau, bureau, cerveau, corbeau, couteau, manteau, marteau, oiseau, poireau, râteau, seau, taureau, veau, agneau, berceau, blaireau*) / +s authored; out: *cheval, bocal* (-al → -aux has exceptions: *bal, festival, carnaval* take s) and *hibou* (-ou takes s except seven words) — position cannot decide those |
+| es | **c / qu · g / gu** (window right "a o u" / "e i"; one Rule, the rack shows the two stencils of the word's sound) · **m / n before p, b** (window right "p b" / teal) | c 26 / qu 6 · g 20 / gu 4 (out: *baguette*, a French loan) → the "before e/i" side qu + gu = 10 · m ↑ *sombrero, lámpara, campana, tambor, bombero, trompeta, ambulancia, frambuesa, alfombra, columpio* / n ↑ *naranja, manzana, canguro, guante, elefante, pantalón…* | **+es after a consonant / +s after a vowel** (window: teal block / vowel at the end) — the bank's 21 *-ón / -ín / -án* words on the +es side (the stencil also lifts the written accent: *camión → camiones*), the +s side authored from vowel-ending nouns |
+| pt | **m / n before p, b** · **c / qu for /k/** (window right "a o u" / "e i") | m 4 + ↑ *pomba, ambulância, computador, hambúrguer* = 8 (out: *carimbo* — the stamp picture is a postage stamp; *trombone* — drawn as a horn; *pimentão* — no m/n choice before p/b) / n 9 · c 12 (the bank's c-before-a/o/u side of c-ç) / qu ↑ *queijo, jaqueta, panqueca, caiaque, esquilo, mosquito, banqueta, basquete* | **refused** — the bank itself records that -ão → -ões / -ães / -ãos is decided by memory (*mão → mãos*), not position; the design's -ões stencil is withdrawn |
+| it | **c / ch for /k/** (window right "a o u" / "e i") · **m / n before p, b** | c 10 single-c hard words *cane, cavallo, carota, coniglio, cammello, barca, oca, foca, lumaca, orca* (the bank's c side is the SOFT c — *cipolla* — a different rule; *zucca, mucca, giacca* out: cc) / ch 21 · mp + mb 18 (out: *trombone*) / n ↑ *panda, candela, tenda, dente, pantaloni…* | **-ca → -che, -ga → -ghe** (window: c / g before the final a) vs **+e** on other -a nouns: che 13 + ghe 2 = 15 / +e authored (*mela, rosa, farfalla, balena, scarpa, capra, tazza, pera*); out: every -co / -go word (*amico → amici* but *fuoco → fuochi*: position does not decide) |
+| fi | **refused (recorded)** — Finnish writes a long consonant (kk, tt, pp) exactly when it is heard long; no neighbour or position decides it, so a window would add nothing. The bank's kk/k items stay with the worksheets. | | |
+Pictures: every item above is in the bank pinned to a library picture already opened by the worksheet panels; at build the activity re-renders a contact sheet per locale pair and drops anything a ruling forbids (sound-alike pictures, B&W themes, the tools/nail fingernail labels, etc.).
+
+**Answer position:** in Fill and Plurals the answer is a stencil choice — the rack order is shuffled per item (left/middle/right), and the gate measures each stencil's rack position as the right one 30–70 % (3-stencil) / 40–60 % (2-stencil) per pass. Sides balanced 5/5 per pass. In Sort, the correct bin is left 50 % ± 1. In Find, the rule letters' index varies (start / middle / end, each ≥ 2 per pass). Order-only reshuffle per pass.
+
+## 7. Check, the misses, the success
+- **Check with nothing seated** → hint, no miss: "Slide a stencil onto the gap first."
+- **Miss 1** — the stencil presses but cannot lie flat: it rocks twice and stays tilted 6°; its **window frame turns coral** and the neighbour letter inside it pulses — the child sees, e.g., the *k*-stencil's dash window sitting over a dotted *o*. No ink comes through. Hint: "Look in the window. Is that the kind of letter the stencil needs?"
+- **Miss 2** — the right stencil's window rises out of the rack and floats over the neighbour (without its letters) — the dot/dash/teal match glows, showing which window fits. Hint: "This window fits the letter next to the gap."
+- **Plain +s chosen where a windowed stencil fits** (Plurals): the +s stencil seats, but the fitting stencil's window slides over the word's end and LIGHTS — the specific rule wins where its window fits. Hint: "This word's end fits a window — it takes that stencil."
+- **Sort**: wrong cards stick in their gate tilted (the gate's window over the wrong neighbour, coral); right ones whoosh down. Miss 2 shows each stuck card's fitting window.
+- **Write the word**: wrong tiles shake; miss 2 fades in the correct letter faintly in the first wrong box.
+- **A new move** clears the coral frames and floating windows until the next Check.
+- **Success**: the stencil goes flat, the letters fall through, the word reads whole and its picture gives a small hop; a mini card flies to the poster. Bubble: "{word}: {rule} — {reason}." with authored reasons per stencil, e.g. "duck: ck right after a short vowel." · "desk: k after a consonant." · "cup: c before u." · "babies: y after a consonant becomes ies."
+
+## 8. Settings (each visibly changes the board at rest)
+1. **Rule:** the locale's pairs (EN: "c or k" · "ck or k" · "Plurals") — changes the stencils in the rack (their letters and windows).
+2. **Task:** Fill the gap · Sort into bins · Find the rule · Write the word — changes the board (slot / two bins / whole word / empty boxes with a tray). (Plurals is a Rule, so it works with Fill and Sort.)
+Length marks (dots/dashes) are always shown where a sound window needs them — they ARE the rule's evidence when TTS is silent in 6 locales.
+
+## 9. Words (EN source; the 9 other running locales written by hand from their bank pairs; one native + pedagogy reviewer)
+- title: "The Rule Stencil" · instruction: "Each stencil has a window. It only presses flat where the letter next to the gap fits its window."
+- prompts: "Which stencil fits? Slide it onto the gap and press." · "Drop each word in the bin whose stencil fits it." · "Slide the stencil along the word to the letters it matches." · "The rule letters are printed. Build the rest of the word." · "One or many? Choose the stencil for the end."
+- hints: "Slide a stencil onto the gap first." · "Look in the window. Is that the kind of letter the stencil needs?" · "This window fits the letter next to the gap." · "This word's end fits a window — it takes that stencil."
+- celebration reasons (EN): "{word}: c before a, o or u." · "{word}: k before e, i or y." · "{word}: ck right after a short vowel." · "{word}: k after a consonant or a long vowel." · "{word}: es after s, x, sh or ch." · "{word}: y after a consonant becomes ies." · "{word}: just add s."
+- settings: "Rule", "Task" — "Fill the gap" / "Sort into bins" / "Find the rule" / "Write the word".
+- **Locale traps:**
+  - **Alphabets:** å ä ö (sv), æ ø å (da/no), ä ö (fi — refused), ß (de: ss/ß words like *Fuß, Strauß* are NOT in any pair here) — letter tiles must render them and the vowel/consonant colouring must classify them (å ä ö æ ø ü é è à ã õ ç are vowels/consonants per locale — ç is a consonant).
+  - **Length marks** follow each school's convention: de/sv/no/da dot = short, dash = long; en uses the same marks (the breve/macron of phonics) only in Pair B. A diphthong/vowel team gets ONE dash under both letters (*book*, *leek*; de *Haken* single long a gets a dash — which is exactly why de cannot use the en "one vowel letter" shortcut).
+  - **nl verlengen:** the stencil's window is on the plural, so the item needs its plural form from `image-vocabulary.js` (singular/plural columns) — the gate asserts each nl item's plural shows /d/ or /t/ at the same place.
+  - **es/pt/it windows that look RIGHT** must handle the accented vowel after the gap (*qué* is not used; *ó, í* in plurals are covered by the es plural stencil's accent window).
+  - **fr** U+202F does not apply (no end marks); *g/ge* and *c/ç* are NOT used (too few pictures and sound-decided).
+  - **Gender/articles** never appear (bare nouns only), so no article traps; nouns are shown in lowercase except **de** (nouns capitalised — the first tile keeps its capital; no de rule gap is ever the first letter).
+
+## 10. Sound off, access, phones
+- Legible with sound off: the picture names the word; the length marks and tile colours show the sound facts the rule needs; the window glow / rock shows the verdict.
+- Keyboard: Tab to rack, ←/→ choose, Enter seat, Enter press; in Sort, Tab through cards and 1/2 to bin; in Write, letters by typing.
+- aria: tiles "{letter}, vowel, short" / "consonant"; slot "gap, rule letters go here"; stencils "stencil {letters}, window: short vowel before" etc.
+- Taps: stencils 200 × 80 / 104 × 64, tiles ≥ 44 at 360 except the 30-wide letter tiles in the word row, which are not tap targets in Fill/Sort/Find (the stencil is dragged along the ROW, a 48-px-tall strip); in Write the boxes are 44 × 48 (words capped at 7 letters in Write). Pictures 128 at 704, 96 at 360.
+
+## 11. Distinct from
+- **Row 130 The Mirror Chart** (L.1.2.e — spell a word, the mirror shows what your letters spell): spelling by meaning-feedback; here a rule's position condition is the mechanism.
+- **Row 61 The Word Keys** (sight-word key teeth): whole-word shape, no rule.
+- **Row 114 The Root Stencil** (RF.1.3.f — a stencil whose cut-out windows show a ROOT's letters; laid over a long word, it tests "is this word built on that root?"): the nearest sibling, and the two must never look alike. There the windows show LETTERS and the test is identity (do the same letters appear underneath?); here the stencil carries the RULE letters as cut-outs that print, and its single side window is a **shaped key-hole that tests the KIND of the neighbouring letter** (dot = stressed short vowel, dash = long vowel/team, teal block = consonant; printed letters only for "a o u" / "e i y" style windows). Build rule: the Root Stencil is a grey see-through sheet laid ON TOP of a word; the Rule Stencil is a cream strip that slides ALONG the word's top edge and presses its letters INTO the gap — different colour, different motion, different verdict (rocking vs letters showing).
+- **New 224 The Tile Twin** (grid copying) and the premium **letter-tiles** tool (free magnetic letters): no rule, no window.
+- The built activities (#1–#22) are counting/comparison; nothing uses a windowed stencil.
+
+## 12. Build plan
+- **Core state:** `{ item, stencils:[{id, letters, window:{side:'L'|'R', accepts:[...]}}], seated:null|id, rackOrder, task, pairId }`. Functions: `neighbour(item, side)` → `{letter, kind:'C'|'V', len:'short'|'long'|null}` (from the item's authored tiles), `fits(stencil, item)` (window test only), `press(state)` → `{ok, rock:bool, windowAt}`, `bestFit(item)` (the oracle stencil), `plainOverride(item)`.
+- **Verify gate (own oracle):** for every item in every locale pair, exactly ONE stencil `fits` and it equals the bank's `g`; every excluded word fails that test (so the exclusion list is earned); the slot width is constant; rack-position balance per pass within the limits of §6; length↔answer point-biserial ≤ |0.35| per pair; side balance 5/5 per Fill pass, 4/4 per Sort round; every picture exists in `mini tools/pictures/<theme>.json` and is not on the ruling list; nl plural forms present; fi refused cleanly (no rounds served, the locale page states the worksheet route).
+- **Mutations:** a window that accepts any letter · slot width = answer length · rack not shuffled · press accepts the first stencil tried · plain +s accepted where y→ies fits · length marks hidden on a sound pair · nl window on the singular · Find accepts letters without the window · Write tray without foils · rounds sorted.
+- **Pictures to verify:** every bank item already passed a panel; re-run `tools/contact-sheet.js` on the EN pools above (zoo-animals/monkey, animals/donkey, birds-2/turkey, around-the-house/kettle, toys/kite, thanksgivinng/haystack, pets/gecko, christmas/stocking, beach/rock, camping/hammock…) — never chick + a duckling in one pass.
+- **Risks:** per-locale ↑ pools need the native writer to reach 8 per side; if a side cannot reach 8 pictured items, that pair runs in **Find the rule** only (whole word printed — no picture needed to know the word) and the pair's Fill/Sort is recorded as refused for that locale. fi refused. Nothing else BLOCKED.
+
+## 13. The four questions
+1. **Choose it again?** Yes — sliding stencils, the spray of letters falling through, the rocking stencil and the poster of rule words are tactile and satisfying.
+2. **On the board?** Yes — "look in the window: what stands before the gap?" is exactly how a teacher explains ck/k, and the class can predict whether it will lie flat before the press.
+3. **Parent trust?** Reviewed word lists already used on the printed worksheets, library pictures, no score, calm.
+4. **The invention:** every spelling rule is a stencil with a window — it only presses flat, and lets its letters through, where the letter beside the gap fits the window.
+
+## 14. Critic review (2026-10-17)
+Scores before → after: invention 5→5 · fun 4→5 · completeness 3→5 · correctness 2→5 · distinctness 4→5 · reality 3→5
+What changed:
+- Audited every locale pair against `data/b3/locales/spelling-rules.<loc>.json` item by item and rewrote the table: sv "kock" (a ck word) removed from the k side and sv counts corrected; de *Begonie/Dahlie/Hortensie/Petunie* (-ie = /iə/), *Biber/Tiger/Bison* (long i spelled i) and *Kreis* removed from ie/i; da *ulv/kalv/delfin/lam/selleri/tallerken* removed; **pt plural refused** (the bank says -ão is memory, not position); **it plural cut to -ca/-ga** (-co → -chi/-ci is not position-decided); fr -al/-ou plurals removed (exceptions); es plural restated as the real position rule (+es after a consonant / +s after a vowel); it c side replaced (the bank's c side is the SOFT c); pt *carimbo* and every *trombone* removed (picture rulings).
+- Wrote the doubling doctrine (dot = STRESSED short vowel; single stencil accepts dash/teal/unmarked; exactly one consonant sound after; gap never opens a word part) — without it the windows give wrong verdicts in da/sv.
+- en Pair B: *book* → *leek* (oo in book is short; the dash would teach a false fact), *hammock* → *hockey* (unstressed o), truck re-pinned to vehicles/truck; point-biserial re-measured 0.26 (Pair A 0.03; plural pairs −0.22/−0.22/−0.05 confirmed).
+- Tile sizing made a formula with a 9-printed-letter cap (the "7 letters max" was English-only; de rows reach 12 tiles).
+- Honest record of the items the activity adds beyond the bank; distinct-from now separates it from Row 114 The Root Stencil.
+- body-parts/neck (a bank ck item) is not in body-parts.json — appended to PICTURE-RULINGS.

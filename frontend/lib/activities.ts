@@ -125,6 +125,7 @@ const MANIFEST_FILES = [
   'pip-museum-activities.json',
   'chuffer-activities.json',
   'friendship-bridge-activities.json',
+  'fair-share-activities.json',
   'rivets-number-forge-activities.json',
   'mamas-roll-call-activities.json',
   'sharing-jar-activities.json',

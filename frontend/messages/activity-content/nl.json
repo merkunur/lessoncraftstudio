@@ -1578,25 +1578,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Op de vriendschapsbrug ontmoeten Pom en Pluis elkaar, twee ronde pluisvriendjes — de een teal, de ander koraalrood. Allebei nemen ze een handjevol ronde vriendjes mee de brug op, en samen willen ze weten wie er nu eigenlijk meer heeft meegebracht. Je kind helpt ze dat uitzoeken, rustig en op zijn eigen tempo, gewoon door goed te kijken en de vriendjes bij elkaar te brengen.",
-        "De twee groepjes vergelijk je door elk vriendje één-op-één te koppelen — ook wel één-op-één koppelen genoemd —: geef ieder vriendje een maatje aan de overkant, steeds één bij één. Wie aan het eind een vriendje zonder maatje overheeft, heeft meer; blijft er niemand over, dan hebben ze evenveel. Zo ontdekt je kind dat de ogen je kunnen bedriegen: een lange, uitgespreide rij lijkt al snel meer, terwijl een klein, opeengepakt bosje er net zo veel of zelfs meer kan hebben. Alleen koppelen geeft echt zekerheid — meer, minder of evenveel. Deze manier van vergelijken sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor kleuters.",
-        "Er is geen klok, geen score en niets wat geteld hoeft te worden. Je kind koppelt in alle rust en ontdekt zelf hoe de groepjes zich verhouden. Een verkeerde gok is hier juist een fijne ontdekking — \"mijn ogen bedrogen me!\" — en nooit een fout om je voor te schamen. Te spelen, zo vaak je maar wilt."
+        "Twee borden met speeltjes staan boven elkaar, met een klein plankenbruggetje ertussen – bijvoorbeeld zeven ballen boven en drie onder. Op welk bord liggen er meer, of zijn het er evenveel? Het kind tikt op het bord met meer, of op ‘Evenveel’. Dan komt het eerlijke deel: het kind tikt op een speeltje om het over de brug naar het andere bord te sturen, tot er op allebei de borden evenveel liggen, en drukt op Controleer. Een interactieve activiteit voor kleuters die in de browser werkt, zonder installatie en zonder account.",
+        "Zelf ‘evenveel’ maken is het moment waarop tellen echt nut heeft. Zeven en drie worden met één tik geen vijf en vijf: het kind stuurt een speeltje over, telt allebei de borden, stuurt er nog een, telt opnieuw – en ziet dat het bord met meer kleiner wordt terwijl het andere groeit. Een fout eerste antwoord laat het bord alleen even schudden, en het kind kijkt nog eens. Een Controleer voordat er evenveel liggen, zegt welk bord er nog meer heeft en nummert de speeltjes op allebei de borden voor die blik; de tweede keer licht er een speeltje op het volste bord op als het volgende om te sturen. Een goed antwoord zegt het met getallen: ‘Eerlijk! 5 en 5.’ Het totaal is altijd even, dus eerlijk verdelen kan altijd, en elk bord heeft plek voor twaalf speeltjes, zodat de grootte het antwoord nooit verraadt.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: hoeveelheden tot en met 10 vergelijken door te tellen – meer, minder of evenveel – en begrijpen wat ‘evenveel’ betekent. De leerkracht kiest groepen tot en met 5 of tot en met 10, en kan de speeltjes in rijen leggen in plaats van door elkaar, zodat het vergelijken makkelijker te zien is. Geen timer, geen score."
       ],
       "practices": [
-        "Twee hoeveelheden vergelijken door ze één-op-één te koppelen",
-        "Zeggen welke groep meer, minder of evenveel heeft",
-        "Ontdekken dat een lange rij niet vanzelf meer is",
-        "Een kleinere groep aanvullen tot beide groepen evenveel hebben"
+        "Zeggen welke van twee groepen er meer heeft, of dat het er evenveel zijn",
+        "Na elke verandering allebei de groepen opnieuw tellen",
+        "Twee groepen evenveel maken door er telkens één te verplaatsen",
+        "Zien dat de ene groep kleiner wordt terwijl de andere groeit"
       ],
       "howToPlay": [
-        "Geef elk vriendje een maatje aan de overkant — steeds één bij één",
-        "Kijk of er een vriendje zonder maatje overblijft: dan heeft die kant meer",
-        "Zeg hoe de groepjes zich verhouden: meer, minder of evenveel"
+        "Kijk naar de twee borden. Tik op het bord met meer, of op ‘Evenveel’.",
+        "Tik op een speeltje om het over de brug naar het andere bord te sturen.",
+        "Ga door tot er op allebei de borden evenveel liggen en druk dan op Controleer.",
+        "Nog niet helemaal? De hint zegt welk bord er nog meer heeft – stuur een speeltje over en tel opnieuw. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Hoeveelheden tot 10 vergelijken zonder te tellen, puur door te koppelen",
-        "Begrijpen dat \"langer\" of \"meer uitgespreid\" niet hetzelfde is als \"meer\"",
-        "De woorden meer, minder en evenveel goed leren gebruiken"
+        "Zeggen of een groep er meer, minder of evenveel heeft als een andere, tot en met 10",
+        "Groepen vergelijken door te tellen",
+        "Twee groepen evenveel maken"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

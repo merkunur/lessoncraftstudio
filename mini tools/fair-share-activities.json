@@ -1,0 +1,78 @@
+[
+  {
+    "id": "friendship-bridge.compare-balance.k-cc-c-6",
+    "tool": "fair-share-activity",
+    "task_template": "fair-share",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.6",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "ranges": [
+        "to5",
+        "to10"
+      ],
+      "layouts": [
+        "scatter",
+        "rows"
+      ],
+      "theme": "toys",
+      "nouns": [
+        "ball",
+        "car",
+        "boat",
+        "robot",
+        "truck",
+        "rocket",
+        "kite",
+        "dinosaur",
+        "train"
+      ],
+      "places": 12,
+      "max": 10
+    },
+    "theme": null,
+    "slug": {
+      "en": "the-friendship-bridge",
+      "de": "mengen-vergleichen-mehr-weniger-gleich-klasse-1",
+      "fr": "comparer-des-collections-plus-moins-autant-gs",
+      "es": "comparar-cantidades-mas-menos-igual-preescolar",
+      "pt": "comparar-quantidades-mais-menos-igual-1-ano",
+      "it": "confrontare-le-quantita-di-piu-di-meno-uguale-classe-prima",
+      "nl": "hoeveelheden-vergelijken-meer-minder-evenveel-kleuters",
+      "sv": "vanskapsbron-fler-farre-eller-lika-manga",
+      "da": "venskabsbroen-flere-faerre-eller-lige-mange",
+      "no": "vennskapsbrua-flere-faerre-eller-like-mange",
+      "fi": "ystavyyden-silta-enemman-vahemman-vai-yhta-monta"
+    },
+    "page_title": {
+      "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same",
+      "de": "Größer, kleiner, gleich – Mengen vergleichen online",
+      "fr": "Plus, moins, autant – comparer des collections en ligne (GS)",
+      "es": "Más, menos e igual: comparar cantidades (preescolar)",
+      "pt": "Comparar quantidades: mais, menos ou igual (1º ano) — com Big e Bit",
+      "it": "Confrontare le quantità: di più, di meno, uguale | Classe prima",
+      "nl": "Hoeveelheden vergelijken: meer, minder of evenveel – kleuters",
+      "sv": "Vänskapsbron – fler, färre eller lika många? (åk 1)",
+      "da": "Venskabsbroen – flere, færre eller lige mange? (1. klasse)",
+      "no": "Vennskapsbrua – flere, færre eller like mange? (1. trinn)",
+      "fi": "Ystävyyden silta – enemmän, vähemmän vai yhtä monta? (1. luokka)"
+    },
+    "page_intro": {
+      "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.",
+      "de": "Größer, kleiner oder gleich? Mengen vergleichen: mehr, weniger, gleich viel – spielerisch üben. Online, ohne Anmeldung.",
+      "fr": "Plus, moins ou autant ? Comparer deux collections et choisir le bon mot sur le pont de l'amitié. En ligne, sans inscription.",
+      "es": "Actividad interactiva, sin registro: tu hijo compara dos grupos uno a uno y descubre cuál tiene más, menos o igual. Alineada al programa de preescolar.",
+      "pt": "Comparar quantidades: mais, menos ou igual? Na ponte da amizade, Big e Bit fazem pares dos amiguinhos, um a um. Atividade sem cadastro. BNCC, 1º ano.",
+      "it": "Big e Bit si incontrano sul ponte dell’amicizia, ciascuno con il suo gruppo di amici tondi da confrontare: chi ne ha di più, chi di meno o se ne hanno uguali? Non si indovina a occhio, si fanno le coppie uno a uno — chi resta con un amico senza compagno ne ha di più. L’occhio inganna: una fila sparsa sembra di più, ma facendo le coppie si scopre che la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto. Un’attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Op de vriendschapsbrug ontmoeten twee ronde pluisvriendjes elkaar, elk met een handjevol vriendjes bij zich. Je kind koppelt elk vriendje aan een maatje aan de overkant van de brug: wie een vriendje zonder maatje overheeft, heeft meer. Een lange rij lijkt al gauw meer, maar pas koppelen laat de waarheid zien — meer, minder of evenveel. Interactief en zonder cijfers of tekens, tot 10.",
+      "sv": "Två tallrikar med leksaker och en liten bro emellan. Vilken tallrik har fler, eller har de lika många? Sedan gör barnet det rättvist: skickar leksaker över bron, en i taget, och räknar båda tallrikarna tills de har lika många. Interaktiv övning upp till 10, anpassad efter Lgr22.",
+      "da": "To tallerkener med legetøj og en lille bro imellem. Hvilken tallerken har flere, eller har de lige mange? Så gør barnet det retfærdigt: sender legetøj over broen, ét ad gangen, og tæller begge tallerkener, indtil de har lige mange. Interaktiv øvelse op til 10, i tråd med Fælles Mål.",
+      "no": "To tallerkener med leker og en liten bru imellom. Hvilken tallerken har flere, eller har de like mange? Så gjør barnet det rettferdig: sender leker over brua, én om gangen, og teller begge tallerkenene til de har like mange. Interaktiv øvelse opptil 10, i tråd med LK20.",
+      "fi": "Kaksi lautasta leluja ja niiden välissä pieni silta. Kummalla lautasella on enemmän, vai onko niitä yhtä monta? Sitten lapsi tekee jaosta reilun: lähettää leluja sillan yli yksi kerrallaan ja laskee molemmat lautaset, kunnes niillä on yhtä monta. Vuorovaikutteinen harjoitus 10:een asti, OPS 2014:n mukainen."
+    },
+    "kid_prompt_template": "fair-share"
+  }
+]

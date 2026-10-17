@@ -2241,25 +2241,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Big und Bit treffen sich auf der Freundschaftsbrücke — und jeder bringt eine Handvoll runder „Freunde“ mit. Aber wer hat mehr dabei? Statt einfach zu raten, gibst du jedem Freund von Big einen Partner auf Bits Seite: immer einer zu einem, über die Brücke hinweg. Wer am Ende noch einen Freund ohne Partner übrig hat, hat mehr.",
-        "Genau das ist der Kniff dieser Aufgabe: Mengen vergleichen durch Zuordnung — und dabei merken, dass das Auge oft täuscht. Eine lang ausgebreitete Reihe sieht schnell nach „mehr“ aus, auch wenn ein dichtes Häufchen daneben in Wahrheit gleich viele oder sogar mehr enthält. Erst das Zuordnen Paar für Paar zeigt sicher, ob es mehr, weniger oder gleich viel sind. So wird aus einem Gefühl ein verlässliches Ergebnis.",
-        "„Die Freundschaftsbrücke“ ist eine interaktive Aktivität für Klasse 1 — passend zu den Zielen des Lehrplans der Grundschule im Bereich „Zählen und Mengen“. Es gibt keine Zeituhr und keine Punktejagd: Die Kinder dürfen in Ruhe zuordnen, zählen und ausprobieren, ganz in ihrem eigenen Tempo, im Zahlenraum bis 10."
+        "Zwei Teller mit Spielsachen stehen übereinander, dazwischen eine kleine Holzbrücke – oben zum Beispiel sieben Bälle, unten drei. Auf welchem Teller sind mehr, oder sind es gleich viele? Das Kind tippt auf den Teller mit mehr oder auf „Gleich viele“. Dann wird gerecht verteilt: Das Kind tippt auf ein Spielzeug und schickt es über die Brücke auf den anderen Teller, bis auf beiden Tellern gleich viele sind, und drückt auf Prüfen. Eine interaktive Übung, die im Browser läuft – ohne Installation und ohne Konto.",
+        "„Gleich viele“ selbst herzustellen ist der Moment, in dem sich Zählen lohnt. Aus sieben und drei werden mit einem Tipp nicht fünf und fünf: Das Kind schickt ein Spielzeug hinüber, zählt beide Teller, schickt noch eins, zählt wieder – und sieht, dass der Teller mit mehr kleiner wird, während der andere wächst. Eine falsche erste Antwort lässt den Teller nur wackeln, und das Kind schaut noch einmal hin. Eine Prüfung, bevor gleich viele auf den Tellern sind, sagt, welcher Teller noch mehr hat, und nummeriert die Spielsachen auf beiden Tellern für diesen Blick; beim zweiten Mal leuchtet ein Spielzeug auf dem volleren Teller als nächstes auf. Eine richtige Prüfung sagt es mit Zahlen: „Gerecht! 5 und 5.“ Die Gesamtzahl ist immer gerade, gerecht verteilen geht also immer, und jeder Teller hat Platz für zwölf – seine Größe verrät die Lösung nie.",
+        "Die Übung orientiert sich an den Lehrplänen im Bereich „Zahlen und Operationen“: Anzahlen bis 10 durch Zählen vergleichen – mehr, weniger oder gleich viele – und verstehen, was „gleich viele“ bedeutet. Lehrkräfte wählen Gruppen bis 5 oder bis 10 und können die Spielsachen in Reihen statt durcheinander legen lassen, dann ist der Vergleich leichter zu sehen. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei Mengen durch Eins-zu-eins-Zuordnung miteinander vergleichen.",
-        "Bestimmen und benennen, welche Menge mehr, weniger oder gleich viel hat.",
-        "Erkennen, dass eine lang ausgebreitete Reihe nicht automatisch mehr ist (Mengeninvarianz).",
-        "Eine kleinere Menge ergänzen, bis beide Seiten gleich viele Freunde haben."
+        "Sagen, welche von zwei Gruppen mehr hat oder ob es gleich viele sind",
+        "Nach jeder Veränderung beide Gruppen neu zählen",
+        "Zwei Gruppen gleich groß machen, eins nach dem anderen",
+        "Sehen, dass eine Gruppe kleiner wird, während die andere wächst"
       ],
       "howToPlay": [
-        "Gib jedem Freund einen Partner auf der anderen Seite der Brücke — immer einer zu einem.",
-        "Schau, ob ein Freund ohne Partner übrig bleibt: Dann hat diese Seite mehr.",
-        "Sag, wie die Mengen zueinander stehen: mehr, weniger oder gleich viel."
+        "Schau dir die beiden Teller an. Tippe auf den Teller mit mehr oder auf „Gleich viele“.",
+        "Tippe auf ein Spielzeug, um es über die Brücke auf den anderen Teller zu schicken.",
+        "Mach weiter, bis auf beiden Tellern gleich viele sind, und drücke dann auf Prüfen.",
+        "Noch nicht ganz? Der Hinweis sagt, welcher Teller noch mehr hat – schicke ein Spielzeug hinüber und zähle noch einmal. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Anzahlen sicher durch Zuordnung vergleichen und die Beziehung mehr / weniger / gleich viel benennen.",
-        "Verstehen, dass die Anzahl gleich bleibt, egal ob die Freunde eng beieinander oder weit auseinander liegen.",
-        "Eine kleinere Menge gezielt ergänzen, bis beide Mengen gleich viele sind — eine erste Grundlage für das Ergänzen und Rechnen."
+        "Erkennen, ob eine Gruppe mehr, weniger oder gleich viele hat wie eine andere, bis 10",
+        "Gruppen durch Zählen vergleichen",
+        "Zwei Gruppen gleich groß machen"
       ]
     },
     "necklace.bead-string.k-cc-b-4": {

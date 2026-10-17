@@ -2822,25 +2822,26 @@
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
-        "Sul ponte dell’amicizia si incontrano Big, tondo e teal, e Bit, tondo e corallo: ognuno arriva con il suo mucchietto di amici tondi e la domanda è semplice: chi ne ha portati di più?",
-        "Si confrontano i due gruppi facendo le coppie uno a uno, non contando a occhio: così si scopre chi ne ha di più, di meno o se sono uguali. L’occhio inganna, perché una fila sparsa sembra di più, ma la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto; e se si vuole, si possono pareggiare i due gruppi aggiungendo amici al mucchietto più piccolo.",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio: confrontare le quantità con di più, di meno e uguale è la base tranquilla per imparare poi a contare e a sommare."
+        "Due piatti di giocattoli, uno sopra l’altro, con un piccolo ponte di assi in mezzo: per esempio sette palloni sopra e tre sotto. Quale piatto ne ha di più, o ce ne sono tanti quanti? Il bambino tocca il piatto che ne ha di più, oppure «Tanti quanti». Poi arriva la parte giusta: il bambino tocca un giocattolo per mandarlo sull’altro piatto attraverso il ponte, finché nei due piatti ce ne sono tanti quanti, e preme Verifica. È un’attività interattiva che funziona nel browser, senza installare niente e senza account.",
+        "Fare «tanti quanti» con le proprie mani è il momento in cui contare serve davvero. Sette e tre non diventano cinque e cinque con un solo tocco: il bambino manda un giocattolo, conta i due piatti, ne manda un altro, conta di nuovo, e vede che il piatto che ne ha di più diminuisce mentre l’altro cresce. Una prima risposta sbagliata fa solo tremare il piatto, e il bambino guarda di nuovo. Un Verifica prima che i piatti ne abbiano tanti quanti dice quale piatto ne ha ancora di più e numera i giocattoli dei due piatti per quello sguardo; la seconda volta, un giocattolo del piatto più pieno si illumina per mostrare quale mandare. Quando è giusto, lo dice con i numeri: «Giusto! 5 e 5». Il totale è sempre pari, quindi fare le parti giuste è sempre possibile, e ogni piatto ha posto per dodici giocattoli, così la sua grandezza non dà mai la risposta.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: confrontare raccolte fino a 10 contando — di più, di meno o tanti quanti — e capire che cosa vuol dire «tanti quanti». L’insegnante sceglie gruppi fino a 5 o fino a 10 e può disporre i giocattoli in file invece che sparsi, così il confronto si vede più facilmente. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Fare le coppie uno a uno sul ponte, dando a ogni amico di un lato un compagno dall’altro lato.",
-        "Dire quale gruppo ne ha di più, quale di meno o se i due gruppi sono uguali.",
-        "Capire che una fila sparsa non ne ha di più solo a vederla, perché l’occhio inganna.",
-        "Pareggiare i due gruppi aggiungendo amici al mucchietto più piccolo finché diventano uguali."
+        "Dire quale di due raccolte ne ha di più, o che ce ne sono tanti quanti",
+        "Contare di nuovo le due raccolte dopo ogni cambiamento",
+        "Rendere uguali due raccolte spostando un oggetto alla volta",
+        "Vedere che una raccolta diminuisce mentre l’altra cresce"
       ],
       "howToPlay": [
-        "Dai a ogni amico di un lato un compagno dall’altro lato del ponte, uno a uno.",
-        "Guarda se è rimasto qualche amico senza compagno: quel lato ne ha di più.",
-        "Di’ ad alta voce com’è andata: di più, di meno o uguale?"
+        "Guarda i due piatti. Tocca il piatto che ne ha di più, oppure «Tanti quanti».",
+        "Tocca un giocattolo per mandarlo sull’altro piatto attraverso il ponte.",
+        "Continua finché nei due piatti ce ne sono tanti quanti, poi premi Verifica.",
+        "Non ancora? Il suggerimento dice quale piatto ne ha ancora di più: manda un giocattolo e conta di nuovo. Nessun timer e nessun punteggio."
       ],
       "learningGoals": [
-        "So confrontare due gruppi facendo le coppie e scoprire chi ne ha di più.",
-        "So dire di più, di meno o uguale guardando gli amici rimasti senza compagno.",
-        "So che l’occhio inganna: una fila sparsa può avere la stessa quantità di un mucchietto raccolto."
+        "Dire se una raccolta ne ha di più, di meno o tanti quanti un’altra, fino a 10",
+        "Confrontare raccolte contando",
+        "Rendere uguali due raccolte"
       ]
     },
     "necklace.bead-string.k-cc-b-4": {

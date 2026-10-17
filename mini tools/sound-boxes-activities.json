@@ -1392,32 +1392,32 @@
         ],
         "it": [
           {
-            "id": "sb-it-naso-first",
+            "id": "sb-it-ape-first",
             "position": "b",
             "target": {
-              "noun": "nose",
-              "themeDir": "body parts",
-              "word": "Naso",
-              "b": "n",
-              "m": "s",
-              "e": "o"
+              "noun": "bee",
+              "themeDir": "farm animals",
+              "word": "Ape",
+              "b": "a",
+              "m": "p",
+              "e": "e"
             },
             "options": [
               {
-                "noun": "ship",
-                "themeDir": "vehicles",
-                "word": "Nave",
-                "b": "n",
-                "m": "v",
-                "e": "e"
+                "noun": "duck",
+                "themeDir": "farm animals",
+                "word": "Anatra",
+                "b": "a",
+                "m": "n",
+                "e": "a"
               },
               {
-                "noun": "cat",
-                "themeDir": "animals",
-                "word": "Gatto",
-                "b": "g",
-                "m": "t",
-                "e": "o"
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "word": "Mela",
+                "b": "m",
+                "m": "l",
+                "e": "a"
               },
               {
                 "noun": "sun",
@@ -1430,61 +1430,31 @@
             ]
           },
           {
-            "id": "sb-it-sole-first",
+            "id": "sb-it-uva-first",
             "position": "b",
             "target": {
-              "noun": "sun",
-              "themeDir": "beach",
-              "word": "Sole",
-              "b": "s",
-              "m": "l",
-              "e": "e"
-            },
-            "options": [
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "Sale",
-                "b": "s",
-                "m": "l",
-                "e": "e"
-              },
-              {
-                "noun": "apple",
-                "themeDir": "At the Supermarket",
-                "word": "Mela",
-                "b": "m",
-                "m": "l",
-                "e": "a"
-              },
-              {
-                "noun": "frog",
-                "themeDir": "camping",
-                "word": "Rana",
-                "b": "r",
-                "m": "n",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-luna-first",
-            "position": "b",
-            "target": {
-              "noun": "moon",
-              "themeDir": "camping",
-              "word": "Luna",
-              "b": "l",
-              "m": "n",
+              "noun": "grapes",
+              "themeDir": "At the Supermarket",
+              "word": "Uva",
+              "b": "u",
+              "m": "v",
               "e": "a"
             },
             "options": [
               {
-                "noun": "wolf",
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "Uccello",
+                "b": "u",
+                "m": "tʃ",
+                "e": "o"
+              },
+              {
+                "noun": "cat",
                 "themeDir": "animals",
-                "word": "Lupo",
-                "b": "l",
-                "m": "p",
+                "word": "Gatto",
+                "b": "g",
+                "m": "t",
                 "e": "o"
               },
               {
@@ -1494,6 +1464,74 @@
                 "b": "m",
                 "m": "n",
                 "e": "o"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-oca-first",
+            "position": "b",
+            "target": {
+              "noun": "goose",
+              "themeDir": "farm animals",
+              "word": "Oca",
+              "b": "o",
+              "m": "k",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "bear",
+                "themeDir": "forest creatures",
+                "word": "Orso",
+                "b": "o",
+                "m": "r",
+                "e": "o"
+              },
+              {
+                "noun": "pear",
+                "themeDir": "fruits",
+                "word": "Pera",
+                "b": "p",
+                "m": "r",
+                "e": "a"
+              },
+              {
+                "noun": "nose",
+                "themeDir": "body parts",
+                "word": "Naso",
+                "b": "n",
+                "m": "s",
+                "e": "o"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-ape-first-2",
+            "position": "b",
+            "target": {
+              "noun": "bee",
+              "themeDir": "farm animals",
+              "word": "Ape",
+              "b": "a",
+              "m": "p",
+              "e": "e"
+            },
+            "options": [
+              {
+                "noun": "pineapple",
+                "themeDir": "fruits",
+                "word": "Ananas",
+                "b": "a",
+                "m": "n",
+                "e": "s"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
+                "m": "p",
+                "e": "o"
               },
               {
                 "noun": "frog",
@@ -1506,24 +1544,24 @@
             ]
           },
           {
-            "id": "sb-it-gatto-last",
+            "id": "sb-it-ape-last",
             "position": "e",
             "target": {
-              "noun": "cat",
-              "themeDir": "animals",
-              "word": "Gatto",
-              "b": "g",
-              "m": "t",
-              "e": "o"
+              "noun": "bee",
+              "themeDir": "farm animals",
+              "word": "Ape",
+              "b": "a",
+              "m": "p",
+              "e": "e"
             },
             "options": [
               {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Cane",
+                "b": "k",
+                "m": "n",
+                "e": "e"
               },
               {
                 "noun": "moon",
@@ -1534,33 +1572,33 @@
                 "e": "a"
               },
               {
-                "noun": "dog",
-                "themeDir": "animals",
-                "word": "Cane",
-                "b": "k",
-                "m": "n",
-                "e": "e"
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
+                "m": "p",
+                "e": "o"
               }
             ]
           },
           {
-            "id": "sb-it-mela-last",
+            "id": "sb-it-uva-last",
             "position": "e",
             "target": {
-              "noun": "apple",
+              "noun": "grapes",
               "themeDir": "At the Supermarket",
-              "word": "Mela",
-              "b": "m",
-              "m": "l",
+              "word": "Uva",
+              "b": "u",
+              "m": "v",
               "e": "a"
             },
             "options": [
               {
-                "noun": "pear",
-                "themeDir": "At the Supermarket",
-                "word": "Pera",
-                "b": "p",
-                "m": "r",
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Luna",
+                "b": "l",
+                "m": "n",
                 "e": "a"
               },
               {
@@ -1572,27 +1610,35 @@
                 "e": "e"
               },
               {
-                "noun": "wolf",
-                "themeDir": "animals",
-                "word": "Lupo",
-                "b": "l",
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
                 "m": "p",
                 "e": "o"
               }
             ]
           },
           {
-            "id": "sb-it-cane-last",
+            "id": "sb-it-oca-last",
             "position": "e",
             "target": {
-              "noun": "dog",
-              "themeDir": "animals",
-              "word": "Cane",
-              "b": "k",
-              "m": "n",
-              "e": "e"
+              "noun": "goose",
+              "themeDir": "farm animals",
+              "word": "Oca",
+              "b": "o",
+              "m": "k",
+              "e": "a"
             },
             "options": [
+              {
+                "noun": "frog",
+                "themeDir": "camping",
+                "word": "Rana",
+                "b": "r",
+                "m": "n",
+                "e": "a"
+              },
               {
                 "noun": "bread",
                 "themeDir": "At the Supermarket",
@@ -1602,134 +1648,12 @@
                 "e": "e"
               },
               {
-                "noun": "cat",
-                "themeDir": "animals",
-                "word": "Gatto",
-                "b": "g",
-                "m": "t",
-                "e": "o"
-              },
-              {
-                "noun": "frog",
-                "themeDir": "camping",
-                "word": "Rana",
-                "b": "r",
-                "m": "n",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-mano-mid",
-            "position": "m",
-            "target": {
-              "noun": "hand",
-              "themeDir": "body parts",
-              "word": "Mano",
-              "b": "m",
-              "m": "n",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "moon",
-                "themeDir": "camping",
-                "word": "Luna",
-                "b": "l",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "Sale",
-                "b": "s",
-                "m": "l",
-                "e": "e"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-naso-mid",
-            "position": "m",
-            "target": {
-              "noun": "nose",
-              "themeDir": "body parts",
-              "word": "Naso",
-              "b": "n",
-              "m": "s",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "vase",
-                "themeDir": "around the house",
-                "word": "Vaso",
-                "b": "v",
+                "noun": "nose",
+                "themeDir": "body parts",
+                "word": "Naso",
+                "b": "n",
                 "m": "s",
                 "e": "o"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
-              },
-              {
-                "noun": "apple",
-                "themeDir": "At the Supermarket",
-                "word": "Mela",
-                "b": "m",
-                "m": "l",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-topo-mid",
-            "position": "m",
-            "target": {
-              "noun": "mouse",
-              "themeDir": "forest creatures",
-              "word": "Topo",
-              "b": "t",
-              "m": "p",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "wolf",
-                "themeDir": "animals",
-                "word": "Lupo",
-                "b": "l",
-                "m": "p",
-                "e": "o"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "camping",
-                "word": "Luna",
-                "b": "l",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "beach",
-                "word": "Sole",
-                "b": "s",
-                "m": "l",
-                "e": "e"
               }
             ]
           }

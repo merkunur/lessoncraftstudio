@@ -116,7 +116,7 @@ function serve() {
     note((await S()).resolved, 'ticket: did not resolve on the meaning-correct form');
 
     /* SUPPLY */
-    await force('compound.supply-mod-dogbed');
+    await force('compound.supply-mod-doghouse');
     await clickLabel('book');   /* wrong part */
     note(!(await S()).resolved, 'supply: a wrong part resolved');
     await clickLabel('dog');
@@ -130,11 +130,11 @@ function serve() {
     note((await S()).resolved, 'head: did not resolve on the head word');
 
     /* BUILD (weld → mean) */
-    await force('compound.build-bookbag');
+    await force('compound.build-bookshelf');
     note(await page.evaluate(() => !!Array.from(document.querySelectorAll('.cm-btn')).find(b => /weld/i.test(b.textContent))), 'build: no Weld button in phase 1');
     await clickLabel('Weld');
     note(await page.evaluate(() => !!document.querySelector('.cm-word') && document.querySelectorAll('.cm-card').length >= 3), 'build: meaning choices did not appear after welding');
-    await clickLabel('a bag for books');
+    await clickLabel('a shelf for books');
     note((await S()).resolved, 'build: did not resolve on the meaning');
 
     /* mobile overflow 280→768 */

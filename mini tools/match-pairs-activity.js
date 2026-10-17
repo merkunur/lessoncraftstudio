@@ -385,7 +385,16 @@ var THREE_FORM_WORDS = {
     836: 'eight hundred thirty-six', 481: 'four hundred eighty-one', 420: 'four hundred twenty',
     615: 'six hundred fifteen',      700: 'seven hundred',           208: 'two hundred eight',
     353: 'three hundred fifty-three',940: 'nine hundred forty',      190: 'one hundred ninety',
-    560: 'five hundred sixty',       274: 'two hundred seventy-four', 409: 'four hundred nine'
+    560: 'five hundred sixty',       274: 'two hundred seventy-four', 409: 'four hundred nine',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'two hundred seven', 526: 'five hundred twenty-six', 506: 'five hundred six',
+    863: 'eight hundred sixty-three', 803: 'eight hundred three', 418: 'four hundred eighteen',
+    408: 'four hundred eight', 651: 'six hundred fifty-one', 335: 'three hundred thirty-five',
+    904: 'nine hundred four', 914: 'nine hundred fourteen', 109: 'one hundred nine',
+    119: 'one hundred nineteen', 703: 'seven hundred three', 713: 'seven hundred thirteen',
+    528: 'five hundred twenty-eight', 582: 'five hundred eighty-two', 520: 'five hundred twenty',
+    371: 'three hundred seventy-one', 317: 'three hundred seventeen', 310: 'three hundred ten',
+    692: 'six hundred ninety-two', 629: 'six hundred twenty-nine', 620: 'six hundred twenty'
   },
   /* DE: units-first single-word (zweihundertsiebenundvierzig); einhundert
      convention; ß; sechzig/siebzig. Value-verified vs _NUMBER_WORD_HELPERS.de
@@ -396,7 +405,16 @@ var THREE_FORM_WORDS = {
     836: 'achthundertsechsunddreißig',  481: 'vierhunderteinundachtzig',   420: 'vierhundertzwanzig',
     615: 'sechshundertfünfzehn',        700: 'siebenhundert',              208: 'zweihundertacht',
     353: 'dreihundertdreiundfünfzig',   940: 'neunhundertvierzig',         190: 'einhundertneunzig',
-    560: 'fünfhundertsechzig',          274: 'zweihundertvierundsiebzig',  409: 'vierhundertneun'
+    560: 'fünfhundertsechzig',          274: 'zweihundertvierundsiebzig',  409: 'vierhundertneun',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'zweihundertsieben', 526: 'fünfhundertsechsundzwanzig', 506: 'fünfhundertsechs',
+    863: 'achthundertdreiundsechzig', 803: 'achthundertdrei', 418: 'vierhundertachtzehn',
+    408: 'vierhundertacht', 651: 'sechshunderteinundfünfzig', 335: 'dreihundertfünfunddreißig',
+    904: 'neunhundertvier', 914: 'neunhundertvierzehn', 109: 'einhundertneun',
+    119: 'einhundertneunzehn', 703: 'siebenhundertdrei', 713: 'siebenhundertdreizehn',
+    528: 'fünfhundertachtundzwanzig', 582: 'fünfhundertzweiundachtzig', 520: 'fünfhundertzwanzig',
+    371: 'dreihunderteinundsiebzig', 317: 'dreihundertsiebzehn', 310: 'dreihundertzehn',
+    692: 'sechshundertzweiundneunzig', 629: 'sechshundertneunundzwanzig', 620: 'sechshundertzwanzig'
   },
   /* ES: multi-word, space-separated; "y" joiner ONLY in the sub-99 tens-units
      tail (cuarenta y siete), NEVER between hundreds and tens (trescientos cinco);
@@ -409,7 +427,16 @@ var THREE_FORM_WORDS = {
     836: 'ochocientos treinta y seis',  481: 'cuatrocientos ochenta y uno', 420: 'cuatrocientos veinte',
     615: 'seiscientos quince',          700: 'setecientos',                 208: 'doscientos ocho',
     353: 'trescientos cincuenta y tres',940: 'novecientos cuarenta',        190: 'ciento noventa',
-    560: 'quinientos sesenta',          274: 'doscientos setenta y cuatro', 409: 'cuatrocientos nueve'
+    560: 'quinientos sesenta',          274: 'doscientos setenta y cuatro', 409: 'cuatrocientos nueve',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'doscientos siete', 526: 'quinientos veintiséis', 506: 'quinientos seis',
+    863: 'ochocientos sesenta y tres', 803: 'ochocientos tres', 418: 'cuatrocientos dieciocho',
+    408: 'cuatrocientos ocho', 651: 'seiscientos cincuenta y uno', 335: 'trescientos treinta y cinco',
+    904: 'novecientos cuatro', 914: 'novecientos catorce', 109: 'ciento nueve',
+    119: 'ciento diecinueve', 703: 'setecientos tres', 713: 'setecientos trece',
+    528: 'quinientos veintiocho', 582: 'quinientos ochenta y dos', 520: 'quinientos veinte',
+    371: 'trescientos setenta y uno', 317: 'trescientos diecisiete', 310: 'trescientos diez',
+    692: 'seiscientos noventa y dos', 629: 'seiscientos veintinueve', 620: 'seiscientos veinte'
   },
   /* IT: one-word compound, no joiner (duecentoquarantasette); compound hundreds
      duecento..novecento (no irregulars); vowel-elision at the cento+vowel boundary
@@ -423,7 +450,16 @@ var THREE_FORM_WORDS = {
     836: 'ottocentotrentasei',     481: 'quattrocentottantuno',    420: 'quattrocentoventi',
     615: 'seicentoquindici',       700: 'settecento',              208: 'duecentotto',
     353: 'trecentocinquantatré',   940: 'novecentoquaranta',       190: 'centonovanta',
-    560: 'cinquecentosessanta',    274: 'duecentosettantaquattro', 409: 'quattrocentonove'
+    560: 'cinquecentosessanta',    274: 'duecentosettantaquattro', 409: 'quattrocentonove',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'duecentosette', 526: 'cinquecentoventisei', 506: 'cinquecentosei',
+    863: 'ottocentosessantatré', 803: 'ottocentotre', 418: 'quattrocentodiciotto',
+    408: 'quattrocentotto', 651: 'seicentocinquantuno', 335: 'trecentotrentacinque',
+    904: 'novecentoquattro', 914: 'novecentoquattordici', 109: 'centonove',
+    119: 'centodiciannove', 703: 'settecentotre', 713: 'settecentotredici',
+    528: 'cinquecentoventotto', 582: 'cinquecentottantadue', 520: 'cinquecentoventi',
+    371: 'trecentosettantuno', 317: 'trecentodiciassette', 310: 'trecentodieci',
+    692: 'seicentonovantadue', 629: 'seicentoventinove', 620: 'seicentoventi'
   },
   /* PT (Brazilian canonical): multi-word, " e " joiner at EVERY level
      (duzentos e quarenta e sete — distinct from ES which joins only within the
@@ -439,7 +475,16 @@ var THREE_FORM_WORDS = {
     836: 'oitocentos e trinta e seis',  481: 'quatrocentos e oitenta e um',   420: 'quatrocentos e vinte',
     615: 'seiscentos e quinze',         700: 'setecentos',                    208: 'duzentos e oito',
     353: 'trezentos e cinquenta e três',940: 'novecentos e quarenta',         190: 'cento e noventa',
-    560: 'quinhentos e sessenta',       274: 'duzentos e setenta e quatro',   409: 'quatrocentos e nove'
+    560: 'quinhentos e sessenta',       274: 'duzentos e setenta e quatro',   409: 'quatrocentos e nove',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'duzentos e sete', 526: 'quinhentos e vinte e seis', 506: 'quinhentos e seis',
+    863: 'oitocentos e sessenta e três', 803: 'oitocentos e três', 418: 'quatrocentos e dezoito',
+    408: 'quatrocentos e oito', 651: 'seiscentos e cinquenta e um', 335: 'trezentos e trinta e cinco',
+    904: 'novecentos e quatro', 914: 'novecentos e quatorze', 109: 'cento e nove',
+    119: 'cento e dezenove', 703: 'setecentos e três', 713: 'setecentos e treze',
+    528: 'quinhentos e vinte e oito', 582: 'quinhentos e oitenta e dois', 520: 'quinhentos e vinte',
+    371: 'trezentos e setenta e um', 317: 'trezentos e dezessete', 310: 'trezentos e dez',
+    692: 'seiscentos e noventa e dois', 629: 'seiscentos e vinte e nove', 620: 'seiscentos e vinte'
   },
   /* FR: classic convention — space at the hundred boundary, hyphens within the
      sub-99 tail (deux cent quarante-sept); cent→cents only on round ×100 (sept
@@ -451,7 +496,16 @@ var THREE_FORM_WORDS = {
     836: 'huit cent trente-six',     481: 'quatre cent quatre-vingt-un',  420: 'quatre cent vingt',
     615: 'six cent quinze',          700: 'sept cents',                   208: 'deux cent huit',
     353: 'trois cent cinquante-trois',940: 'neuf cent quarante',          190: 'cent quatre-vingt-dix',
-    560: 'cinq cent soixante',       274: 'deux cent soixante-quatorze',  409: 'quatre cent neuf'
+    560: 'cinq cent soixante',       274: 'deux cent soixante-quatorze',  409: 'quatre cent neuf',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'deux cent sept', 526: 'cinq cent vingt-six', 506: 'cinq cent six',
+    863: 'huit cent soixante-trois', 803: 'huit cent trois', 418: 'quatre cent dix-huit',
+    408: 'quatre cent huit', 651: 'six cent cinquante et un', 335: 'trois cent trente-cinq',
+    904: 'neuf cent quatre', 914: 'neuf cent quatorze', 109: 'cent neuf',
+    119: 'cent dix-neuf', 703: 'sept cent trois', 713: 'sept cent treize',
+    528: 'cinq cent vingt-huit', 582: 'cinq cent quatre-vingt-deux', 520: 'cinq cent vingt',
+    371: 'trois cent soixante et onze', 317: 'trois cent dix-sept', 310: 'trois cent dix',
+    692: 'six cent quatre-vingt-douze', 629: 'six cent vingt-neuf', 620: 'six cent vingt'
   },
   /* DA: spaced " og " joiner (tohundrede og syvogfyrre — NOT compound);
      units-first tens (syvogfyrre = 7+og+40); vigesimal halvtreds/tres/
@@ -464,7 +518,16 @@ var THREE_FORM_WORDS = {
     836: 'ottehundrede og seksogtredive',481: 'firehundrede og enogfirs',       420: 'firehundrede og tyve',
     615: 'sekshundrede og femten',      700: 'syvhundrede',                    208: 'tohundrede og otte',
     353: 'trehundrede og treoghalvtreds',940: 'nihundrede og fyrre',            190: 'hundrede og halvfems',
-    560: 'femhundrede og tres',         274: 'tohundrede og fireoghalvfjerds',  409: 'firehundrede og ni'
+    560: 'femhundrede og tres',         274: 'tohundrede og fireoghalvfjerds',  409: 'firehundrede og ni',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'tohundrede og syv', 526: 'femhundrede og seksogtyve', 506: 'femhundrede og seks',
+    863: 'ottehundrede og treogtres', 803: 'ottehundrede og tre', 418: 'firehundrede og atten',
+    408: 'firehundrede og otte', 651: 'sekshundrede og enoghalvtreds', 335: 'trehundrede og femogtredive',
+    904: 'nihundrede og fire', 914: 'nihundrede og fjorten', 109: 'hundrede og ni',
+    119: 'hundrede og nitten', 703: 'syvhundrede og tre', 713: 'syvhundrede og tretten',
+    528: 'femhundrede og otteogtyve', 582: 'femhundrede og toogfirs', 520: 'femhundrede og tyve',
+    371: 'trehundrede og enoghalvfjerds', 317: 'trehundrede og sytten', 310: 'trehundrede og ti',
+    692: 'sekshundrede og tooghalvfems', 629: 'sekshundrede og niogtyve', 620: 'sekshundrede og tyve'
   },
   /* NO (Bokmål): FULLY-COMPOUND, no spaces (tohundreogførtisju); decimal
      tens-first (førtisju = 40+7); hundre (not hundrede); bare "hundre" for
@@ -476,7 +539,16 @@ var THREE_FORM_WORDS = {
     836: 'åttehundreogtrettiseks', 481: 'firehundreogåttién',      420: 'firehundreogtjue',
     615: 'sekshundreogfemten',     700: 'sjuhundre',               208: 'tohundreogåtte',
     353: 'trehundreogfemtitre',    940: 'nihundreogførti',         190: 'hundreognitti',
-    560: 'femhundreogseksti',      274: 'tohundreogsyttifire',     409: 'firehundreogni'
+    560: 'femhundreogseksti',      274: 'tohundreogsyttifire',     409: 'firehundreogni',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'tohundreogsju', 526: 'femhundreogtjueseks', 506: 'femhundreogseks',
+    863: 'åttehundreogsekstitre', 803: 'åttehundreogtre', 418: 'firehundreogatten',
+    408: 'firehundreogåtte', 651: 'sekshundreogfemtién', 335: 'trehundreogtrettifem',
+    904: 'nihundreogfire', 914: 'nihundreogfjorten', 109: 'hundreogni',
+    119: 'hundreognitten', 703: 'sjuhundreogtre', 713: 'sjuhundreogtretten',
+    528: 'femhundreogtjueåtte', 582: 'femhundreogåttito', 520: 'femhundreogtjue',
+    371: 'trehundreogsyttién', 317: 'trehundreogsytten', 310: 'trehundreogti',
+    692: 'sekshundreognittito', 629: 'sekshundreogtjueni', 620: 'sekshundreogtjue'
   },
   /* SV: compound with NO joiner word (tvåhundrafyrtiosju — third Nordic
      pattern, distinct from DA spaced "og" + NO compound "og"); decimal -o
@@ -489,7 +561,16 @@ var THREE_FORM_WORDS = {
     836: 'åttahundratrettiosex',  481: 'fyrahundraåttioett',    420: 'fyrahundratjugo',
     615: 'sexhundrafemton',       700: 'sjuhundra',             208: 'tvåhundraåtta',
     353: 'trehundrafemtiotre',    940: 'niohundrafyrtio',       190: 'hundranittio',
-    560: 'femhundrasextio',       274: 'tvåhundrasjuttiofyra',  409: 'fyrahundranio'
+    560: 'femhundrasextio',       274: 'tvåhundrasjuttiofyra',  409: 'fyrahundranio',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'tvåhundrasju', 526: 'femhundratjugosex', 506: 'femhundrasex',
+    863: 'åttahundrasextiotre', 803: 'åttahundratre', 418: 'fyrahundraarton',
+    408: 'fyrahundraåtta', 651: 'sexhundrafemtioett', 335: 'trehundratrettiofem',
+    904: 'niohundrafyra', 914: 'niohundrafjorton', 109: 'hundranio',
+    119: 'hundranitton', 703: 'sjuhundratre', 713: 'sjuhundratretton',
+    528: 'femhundratjugoåtta', 582: 'femhundraåttiotvå', 520: 'femhundratjugo',
+    371: 'trehundrasjuttioett', 317: 'trehundrasjutton', 310: 'trehundratio',
+    692: 'sexhundranittiotvå', 629: 'sexhundratjugonio', 620: 'sexhundratjugo'
   },
   /* FI (Finnic): pure agglutination, single word, NO joiner (kaksisataa-
      neljäkymmentäseitsemän); tens X+kymmentä; hundreds X+sataa; bare "sata"
@@ -502,7 +583,16 @@ var THREE_FORM_WORDS = {
     836: 'kahdeksansataakolmekymmentäkuusi', 481: 'neljäsataakahdeksankymmentäyksi',420: 'neljäsataakaksikymmentä',
     615: 'kuusisataaviisitoista',            700: 'seitsemänsataa',                208: 'kaksisataakahdeksan',
     353: 'kolmesataaviisikymmentäkolme',     940: 'yhdeksänsataaneljäkymmentä',    190: 'satayhdeksänkymmentä',
-    560: 'viisisataakuusikymmentä',          274: 'kaksisataaseitsemänkymmentäneljä',409: 'neljäsataayhdeksän'
+    560: 'viisisataakuusikymmentä',          274: 'kaksisataaseitsemänkymmentäneljä',409: 'neljäsataayhdeksän',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'kaksisataaseitsemän', 526: 'viisisataakaksikymmentäkuusi', 506: 'viisisataakuusi',
+    863: 'kahdeksansataakuusikymmentäkolme', 803: 'kahdeksansataakolme', 418: 'neljäsataakahdeksantoista',
+    408: 'neljäsataakahdeksan', 651: 'kuusisataaviisikymmentäyksi', 335: 'kolmesataakolmekymmentäviisi',
+    904: 'yhdeksänsataaneljä', 914: 'yhdeksänsataaneljätoista', 109: 'satayhdeksän',
+    119: 'satayhdeksäntoista', 703: 'seitsemänsataakolme', 713: 'seitsemänsataakolmetoista',
+    528: 'viisisataakaksikymmentäkahdeksan', 582: 'viisisataakahdeksankymmentäkaksi', 520: 'viisisataakaksikymmentä',
+    371: 'kolmesataaseitsemänkymmentäyksi', 317: 'kolmesataaseitsemäntoista', 310: 'kolmesataakymmenen',
+    692: 'kuusisataayhdeksänkymmentäkaksi', 629: 'kuusisataakaksikymmentäyhdeksän', 620: 'kuusisataakaksikymmentä'
   },
   /* NL: units-first one-word compound (tweehonderdzevenenveertig); diaeresis ë
      only when stem ends in e (tweeën/drieën); bare "een" (NO acute) for 1 in
@@ -514,7 +604,16 @@ var THREE_FORM_WORDS = {
     836: 'achthonderdzesendertig',    481: 'vierhonderdeenentachtig',  420: 'vierhonderdtwintig',
     615: 'zeshonderdvijftien',        700: 'zevenhonderd',             208: 'tweehonderdacht',
     353: 'driehonderddrieënvijftig',  940: 'negenhonderdveertig',      190: 'honderdnegentig',
-    560: 'vijfhonderdzestig',         274: 'tweehonderdvierenzeventig',409: 'vierhonderdnegen'
+    560: 'vijfhonderdzestig',         274: 'tweehonderdvierenzeventig',409: 'vierhonderdnegen',
+    /* 2026-10-17 shared-hundreds rows (PlaceValueCore._NUMBER_WORD_HELPERS, value-verified) */
+    207: 'tweehonderdzeven', 526: 'vijfhonderdzesentwintig', 506: 'vijfhonderdzes',
+    863: 'achthonderddrieënzestig', 803: 'achthonderddrie', 418: 'vierhonderdachttien',
+    408: 'vierhonderdacht', 651: 'zeshonderdeenenvijftig', 335: 'driehonderdvijfendertig',
+    904: 'negenhonderdvier', 914: 'negenhonderdveertien', 109: 'honderdnegen',
+    119: 'honderdnegentien', 703: 'zevenhonderddrie', 713: 'zevenhonderddertien',
+    528: 'vijfhonderdachtentwintig', 582: 'vijfhonderdtweeëntachtig', 520: 'vijfhonderdtwintig',
+    371: 'driehonderdeenenzeventig', 317: 'driehonderdzeventien', 310: 'driehonderdtien',
+    692: 'zeshonderdtweeënnegentig', 629: 'zeshonderdnegenentwintig', 620: 'zeshonderdtwintig'
   }
 };
 

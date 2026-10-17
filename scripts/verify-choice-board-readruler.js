@@ -46,6 +46,7 @@ Core.init({ el: () => ({}), t: () => '', sound: () => {}, announce: () => {}, tr
 const rounds = (row.params && Array.isArray(row.params.rounds)) ? row.params.rounds : [];
 check(rounds.length >= VARIETY_MIN, `${rounds.length} rounds < ${VARIETY_MIN}`);
 const ns = new Set();
+const rankCount = [0, 0, 0, 0];
 
 rounds.forEach((round, i) => {
   const n = round.n, objKey = round.obj;
@@ -54,14 +55,20 @@ rounds.forEach((round, i) => {
   check(n >= 3 && n <= 18, `${label}: n outside 3..18 (a tile would leave the 1..20 ruler)`);
   check(VALID_OBJECTS.indexOf(objKey) >= 0, `${label}: object '${objKey}' is not a RULER_OBJECTS builder`);
 
-  const expectedSet = [n - 1, n, n + 1, n + 2];
+  // 2026-10-17: the window of 4 consecutive misreads is placed so the right tile
+  // takes the round's declared rank (0 = smallest); ranks must be balanced.
+  const rk = (typeof round.rank === 'number') ? round.rank : 1;
+  check(rk >= 0 && rk <= 3, `${label}: rank ${rk} not 0..3`);
+  const lo = Math.max(1, Math.min(n - rk, 17));
+  const expectedSet = [lo, lo + 1, lo + 2, lo + 3];
+  rankCount[expectedSet.indexOf(n)]++;
   check(new Set(expectedSet).size === 4, `${label}: misread set not 4 distinct values`);
   expectedSet.forEach((v) => check(v >= 1 && v <= 20, `${label}: tile ${v} off the 1..20 ruler`));
 
   const ordered = expectedSet.slice();
   const options = ordered.map((v) => ({ key: String(v), text: String(v) }));
   check(options.map(o => Number(o.key)).sort((a, b) => a - b).join() === expectedSet.slice().sort((a, b) => a - b).join(),
-    `${label}: option keys ≠ {n-1,n,n+1,n+2}`);
+    `${label}: option keys ≠ the rank window`);
 
   Core.setupTask(options, String(n), null);
   let correctCount = 0;
@@ -74,6 +81,8 @@ rounds.forEach((round, i) => {
   });
   check(correctCount === 1, `${label}: ${correctCount} correct options (expected EXACTLY 1 — no-two-correct)`);
 });
+check(Math.max.apply(null, rankCount) <= Math.ceil(rounds.length / 4) && Math.min.apply(null, rankCount) >= Math.floor(rounds.length / 4),
+  `rank of the right tile is not balanced across rounds: ${rankCount.join('/')} (rank tell)`);
 check(ns.size >= 5, `pool should span a range of lengths (saw ${ns.size} distinct n)`);
 
 if (failures.length) {
@@ -81,5 +90,5 @@ if (failures.length) {
   failures.forEach((f) => console.error('  • ' + f));
   process.exit(1);
 }
-console.log(`PASS — ${rounds.length} round(s): n∈3..18 on-scale, tiles = {n-1,n,n+1,n+2} (all 1..20), correct = n, EXACTLY ONE true (no-two-correct, REAL core), valid objects, ${ns.size} distinct lengths; ≥${VARIETY_MIN}.`);
+console.log(`PASS — ${rounds.length} round(s): n∈3..18 on-scale, tiles = 4 consecutive (all 1..20), right-tile rank balanced ${rankCount.join('/')}, correct = n, EXACTLY ONE true (no-two-correct, REAL core), valid objects, ${ns.size} distinct lengths; ≥${VARIETY_MIN}.`);
 process.exit(0);

@@ -3359,35 +3359,43 @@
       "rounds": [
         {
           "obj": "pencil",
-          "n": 7
+          "n": 7,
+          "rank": 2
         },
         {
           "obj": "ribbon",
-          "n": 12
+          "n": 12,
+          "rank": 0
         },
         {
           "obj": "crayon",
-          "n": 5
+          "n": 5,
+          "rank": 3
         },
         {
           "obj": "worm",
-          "n": 9
+          "n": 9,
+          "rank": 1
         },
         {
           "obj": "marker",
-          "n": 14
+          "n": 14,
+          "rank": 1
         },
         {
           "obj": "stick",
-          "n": 17
+          "n": 17,
+          "rank": 3
         },
         {
           "obj": "straw",
-          "n": 6
+          "n": 6,
+          "rank": 0
         },
         {
           "obj": "eraser",
-          "n": 4
+          "n": 4,
+          "rank": 2
         }
       ]
     },

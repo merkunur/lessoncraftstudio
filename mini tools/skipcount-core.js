@@ -33,8 +33,21 @@
 
   /* the two near distractors for `fill`, DERIVED = the adjacent skip-terms
      (the meaningful miscount: one hop short / one hop long). Clamps below 0. */
+  /* 2026-10-17 live fix: the derived {a-s, a, a+s} set put the answer ALWAYS in
+     the middle (rank tell) and, on a mid-row blank, both foils were already
+     printed on the neighbouring pads (elimination tell). A round may now carry
+     authored `foils` (two plausible slips — counted on by one, counted by the
+     wrong step, one hop too far) that are NOT on the board; the answer's rank
+     among the three is balanced across the deck (verify-skipcount-core). */
+  function authoredFoilsOk(round, a) {
+    var f = round.foils;
+    if (!Array.isArray(f) || f.length !== 2) return false;
+    var shown = sequence(round).filter(function (v, i) { return i !== round.unknownIndex; });
+    return f.every(function (v) { return typeof v === 'number' && v >= 0 && v !== a && shown.indexOf(v) < 0; }) && f[0] !== f[1];
+  }
   function fillChoices(round) {
     var a = answerValue(round), s = Math.abs(round.step);
+    if (authoredFoilsOk(round, a)) return [a].concat(round.foils).sort(function (x, y) { return x - y; });
     var lo = a - s, hi = a + s;
     if (lo < 0) lo = a + 2 * s;                 /* no negative pad numbers */
     var set = [a, lo, hi].filter(function (v, i, arr) { return arr.indexOf(v) === i; });
@@ -42,7 +55,14 @@
     return set.sort(function (x, y) { return x - y; });
   }
   function choices(round) {
-    return round.cog === 'whichstep' ? [5, 10, 100] : fillChoices(round);
+    if (round.cog === 'whichstep') {
+      /* authored per-round hop sizes (the old fixed {5,10,100} was the same three
+         every round); must contain the true step and be 3 distinct */
+      var c = round.choices, st = Math.abs(round.step);
+      if (Array.isArray(c) && c.length === 3 && c.indexOf(st) >= 0 && c[0] !== c[1] && c[1] !== c[2] && c[0] !== c[2]) return c.slice().sort(function (x, y) { return x - y; });
+      return [5, 10, 100];
+    }
+    return fillChoices(round);
   }
 
   function isAnswer(round, value) { return Number(value) === answerValue(round); }
@@ -81,7 +101,12 @@
       nonMultipleStart: nonMultipleStart(round),
       crossesHundred: crossesHundred(round)
     };
-    if (round.cog === 'fill') f.answerNotDisplayed = seq.filter(function (v, i) { return i !== round.unknownIndex; }).indexOf(a) < 0;
+    if (round.cog === 'fill') {
+      var shownV = seq.filter(function (v, i) { return i !== round.unknownIndex; });
+      f.answerNotDisplayed = shownV.indexOf(a) < 0;
+      f.foilsNotDisplayed = ch.every(function (c) { return c === a || shownV.indexOf(c) < 0; });
+    }
+    f.answerRank = ch.slice().sort(function (x, y) { return x - y; }).indexOf(a);
     return f;
   }
 

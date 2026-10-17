@@ -208,8 +208,8 @@
           "stripEnd": 8,
           "tools": [
             5,
-            10,
-            12
+            7,
+            10
           ],
           "prompt": "Pick a tool long enough to measure this strip.",
           "promptL10n": {

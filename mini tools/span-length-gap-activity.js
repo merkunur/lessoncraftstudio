@@ -33,8 +33,8 @@
     'belt': { name: 'Gürtel', nom: 'der Gürtel', frName: 'Ceinture', frNom: 'la ceinture', esName: 'Cinturón', esNom: 'el cinturón', ptName: 'Cinto', ptNom: 'o cinto', itName: 'Cintura', itNom: 'la cintura', nlName: 'Riem', nlNom: 'de riem', svName: 'Bälte', svNom: 'bältet' },
     'leaf': { name: 'Blatt', nom: 'das Blatt', frName: 'Feuille', frNom: 'la feuille', esName: 'Hoja', esNom: 'la hoja', ptName: 'Folha', ptNom: 'a folha', itName: 'Foglia', itNom: 'la foglia', nlName: 'Blad', nlNom: 'het blad', svName: 'Löv', svNom: 'lövet' },
     'seed': { name: 'Samen', nom: 'der Samen', frName: 'Graine', frNom: 'la graine', esName: 'Semilla', esNom: 'la semilla', ptName: 'Semente', ptNom: 'a semente', itName: 'Seme', itNom: 'il seme', nlName: 'Zaadje', nlNom: 'het zaadje', svName: 'Frö', svNom: 'fröet' },
-    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken', frName: 'Bleue', frNom: 'la bleue', esName: 'Barra azul', esNom: 'la barra azul', ptName: 'Barra azul', ptNom: 'a barra azul', itName: 'Blu', itNom: 'la barra blu', nlName: 'Blauw', nlNom: 'de blauwe strook', svName: 'Sugrör', svNom: 'sugröret' },
-    'red bar': { name: 'roter Balken', nom: 'der rote Balken', frName: 'Rouge', frNom: 'la rouge', esName: 'Barra roja', esNom: 'la barra roja', ptName: 'Barra vermelha', ptNom: 'a barra vermelha', itName: 'Rossa', itNom: 'la barra rossa', nlName: 'Rood', nlNom: 'de rode strook', svName: 'Nyckel', svNom: 'nyckeln' },
+    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken', frName: 'Bleue', frNom: 'la bleue', esName: 'Barra azul', esNom: 'la barra azul', ptName: 'Barra azul', ptNom: 'a barra azul', itName: 'Blu', itNom: 'la barra blu', nlName: 'Blauw', nlNom: 'de blauwe strook', svName: 'Blå', svNom: 'den blå stapeln' },
+    'red bar': { name: 'roter Balken', nom: 'der rote Balken', frName: 'Rouge', frNom: 'la rouge', esName: 'Barra roja', esNom: 'la barra roja', ptName: 'Barra vermelha', ptNom: 'a barra vermelha', itName: 'Rossa', itNom: 'la barra rossa', nlName: 'Rood', nlNom: 'de rode strook', svName: 'Röd', svNom: 'den röda stapeln' },
     'branch': { name: 'Ast', nom: 'der Ast', frName: 'Branche', frNom: 'la branche', esName: 'Rama', esNom: 'la rama', ptName: 'Galho', ptNom: 'o galho', itName: 'Ramo', itNom: 'il ramo', nlName: 'Tak', nlNom: 'de tak', svName: 'Gren', svNom: 'grenen' },
     'twig': { name: 'Zweig', nom: 'der Zweig', frName: 'Brindille', frNom: 'la brindille', esName: 'Ramita', esNom: 'la ramita', ptName: 'Graveto', ptNom: 'o graveto', itName: 'Rametto', itNom: 'il rametto', nlName: 'Takje', nlNom: 'het takje', svName: 'Kvist', svNom: 'kvisten' }
   };
@@ -87,10 +87,28 @@
       var api = this.api, row = api.el('div', 'slg-barrow');
       var nm = api.el('div', 'slg-name'); nm.textContent = lblName(label); row.appendChild(nm);
       var track = api.el('div', 'slg-track');
-      var bar = api.el('div', 'slg-bar ' + cls); bar.style.width = Math.max(12, (len / MAXLEN) * 100) + '%';
-      var val = api.el('span', 'slg-val'); val.textContent = len + ' ' + unit; bar.appendChild(val);
+      /* 2026-10-17 live fix: the bars printed their own cm, so nothing was measured — the task was
+         bare subtraction. Lengths are now read off the cm ruler drawn under the bars (exact
+         proportional width, no 12% clamp), and the numerals appear only once the gap is found.
+         A colour-word label ("blue bar"/"red bar") is drawn in that colour. */
+      var colour = label === 'blue bar' ? ' slg-blue' : (label === 'red bar' ? ' slg-red' : '');
+      var bar = api.el('div', 'slg-bar ' + cls + colour); bar.style.width = ((len / MAXLEN) * 100) + '%';
+      if (this.solved) { var val = api.el('span', 'slg-val'); val.textContent = len + ' ' + unit; bar.appendChild(val); }
 
       track.appendChild(bar); row.appendChild(track);
+      return row;
+    },
+
+    /* a 0–20 cm ruler aligned with the bar tracks: a tick every cm, numerals every 5 cm */
+    _rulerRow: function (unit) {
+      var api = this.api, row = api.el('div', 'slg-barrow slg-rulerrow');
+      var sp = api.el('div', 'slg-name-sp'); sp.textContent = unit; row.appendChild(sp);
+      var track = api.el('div', 'slg-ruler'), inner = api.el('div', 'slg-ruler-in');
+      for (var k = 0; k <= MAXLEN; k++) {
+        var t = api.el('span', 'slg-tick' + (k % 5 === 0 ? ' slg-major' : '')); t.style.left = ((k / MAXLEN) * 100) + '%'; inner.appendChild(t);
+        if (k % 5 === 0) { var n = api.el('span', 'slg-tnum'); n.textContent = String(k); n.style.left = ((k / MAXLEN) * 100) + '%'; inner.appendChild(n); }
+      }
+      track.appendChild(inner); row.appendChild(track); row.setAttribute('aria-hidden', 'true');
       return row;
     },
 
@@ -108,6 +126,7 @@
       var bars = api.el('div', 'slg-bars');
       bars.appendChild(this._barRow(v.aLabel, v.aLen, v.unit, 'slg-a'));
       bars.appendChild(this._barRow(v.bLabel, v.bLen, v.unit, 'slg-b'));
+      bars.appendChild(this._rulerRow(v.unit));
       root.appendChild(bars);
 
       var q = api.el('div', 'slg-q' + (this.solved ? ' slg-solved' : ''));
@@ -167,6 +186,11 @@
         + '.slg-bar{height:clamp(24px,5vw,28px);border-radius:7px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;box-shadow:inset 0 -2px 0 rgba(0,0,0,.08);}'
         + '.slg-bar.slg-a{background:linear-gradient(180deg,#F2784B,#E0653A);}'
         + '.slg-bar.slg-b{background:linear-gradient(180deg,#3FB07E,#2E9268);}'
+        + '.slg-bar.slg-blue{background:linear-gradient(180deg,#4A90D9,#3576BD);}.slg-bar.slg-red{background:linear-gradient(180deg,#E25555,#C93F3F);}'
+        + '.slg-name-sp{flex:0 0 auto;width:clamp(58px,16vw,82px);text-align:right;font:700 clamp(11px,2.6vw,13px)/1 "Baloo 2",sans-serif;color:#6b6b6b;}'
+        + '.slg-ruler{flex:1 1 auto;padding:0 3px;}.slg-ruler-in{position:relative;height:24px;border-top:2px solid #2A2A35;}'
+        + '.slg-tick{position:absolute;top:0;width:1px;height:6px;background:#2A2A35;transform:translateX(-0.5px);}.slg-tick.slg-major{height:10px;width:2px;transform:translateX(-1px);}'
+        + '.slg-tnum{position:absolute;top:11px;transform:translateX(-50%);font:700 clamp(10px,2.4vw,12px)/1 "Baloo 2",sans-serif;color:#2A2A35;}'
         + '.slg-val{font:800 clamp(12px,3vw,15px)/1 "Baloo 2",sans-serif;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.18);white-space:nowrap;}'
         + '.slg-bar.slg-narrow{justify-content:flex-start;padding-right:0;overflow:visible;}'
         + '.slg-bar.slg-narrow .slg-val{color:#2A2A35;text-shadow:none;margin-left:calc(100% + 6px);}'
@@ -175,7 +199,7 @@
         + '@media (max-height:1040px){.slg-row{display:none;}.slg-root{gap:clamp(6px,1.4vw,8px);padding:clamp(8px,1.8vw,12px);}.slg-bars{gap:clamp(5px,1.2vw,7px);}.slg-bar{height:clamp(20px,3.7vw,22px);}.slg-q{line-height:1.14;}}'
         + '@media (max-height:700px){.slg-root{gap:6px;padding:9px;}.slg-bars{gap:5px;}.slg-bar{height:21px;}.slg-q{font-size:14px;line-height:1.12;}}'
         + '@media (max-height:640px){.slg-root{gap:4px;padding:6px;}.slg-bars{gap:4px;}.slg-bar{height:17px;}.slg-q{font-size:12px;line-height:1.05;}.slg-name{font-size:11px;}}'
-        + '@media (max-width:380px){.slg-name{width:48px;font-size:11px;}.slg-q{font-size:12px;line-height:1.05;}.slg-bar{height:16px;}}';
+        + '@media (max-width:380px){.slg-name,.slg-name-sp{width:48px;font-size:11px;}.slg-q{font-size:12px;line-height:1.05;}.slg-bar{height:16px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-span-length-gap', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };

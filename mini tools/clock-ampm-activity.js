@@ -77,16 +77,19 @@
       '<g class="ap-eyes-happy"><path d="M16 23 q2 -2.4 4 0" stroke="#2B2B2B" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>' +
       '<path d="M36 22 q9 4 5 16 q-6 -2 -9 -9z" fill="#3E7C5A" stroke="#2A5740" stroke-width="1.2"/></svg>';
   }
-  function sunSVG() {
+  /* 2026-10-17 live fix: p.m. used to be a moon, which taught that 4 p.m. is night. Both marks are
+     now the sun on the horizon with an arrow: rising (a.m.) / setting (p.m.). */
+  function horizonSun(up) {
     var rays = '';
-    for (var i = 0; i < 8; i++) { var a = i * 45 * Math.PI / 180; rays += '<line x1="' + (24 + 13 * Math.cos(a)).toFixed(1) + '" y1="' + (24 + 13 * Math.sin(a)).toFixed(1) + '" x2="' + (24 + 19 * Math.cos(a)).toFixed(1) + '" y2="' + (24 + 19 * Math.sin(a)).toFixed(1) + '" stroke="#E8A93A" stroke-width="2.4" stroke-linecap="round"/>'; }
-    return '<svg class="ap-icon" viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">' + rays + '<circle cx="24" cy="24" r="9" fill="#F2C14E" stroke="#E8A93A" stroke-width="2"/></svg>';
+    for (var i = 0; i < 5; i++) { var a = (180 + i * 45) * Math.PI / 180; rays += '<line x1="' + (24 + 12 * Math.cos(a)).toFixed(1) + '" y1="' + (32 + 12 * Math.sin(a)).toFixed(1) + '" x2="' + (24 + 18 * Math.cos(a)).toFixed(1) + '" y2="' + (32 + 18 * Math.sin(a)).toFixed(1) + '" stroke="#E8A93A" stroke-width="2.4" stroke-linecap="round"/>'; }
+    var arrow = up ? '<path d="M40 15 l0 -9 M36 10 l4 -4 l4 4" fill="none" stroke="#146B5E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
+                   : '<path d="M40 6 l0 9 M36 11 l4 4 l4 -4" fill="none" stroke="#146B5E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>';
+    return '<svg class="ap-icon" viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">' + rays +
+      '<path d="M15 32 a9 9 0 0 1 18 0 z" fill="#F2C14E" stroke="#E8A93A" stroke-width="2" stroke-linejoin="round"/>' +
+      '<line x1="5" y1="33" x2="43" y2="33" stroke="#7E93AC" stroke-width="2.4" stroke-linecap="round"/>' + arrow + '</svg>';
   }
-  function moonSVG() {
-    return '<svg class="ap-icon" viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">' +
-      '<path d="M30 8 a17 17 0 1 0 10 30 a13 13 0 1 1 -10 -30 z" fill="#C9D6E5" stroke="#7E93AC" stroke-width="2" stroke-linejoin="round"/>' +
-      '<circle cx="36" cy="14" r="1.6" fill="#7E93AC"/><circle cx="40" cy="22" r="1.2" fill="#7E93AC"/></svg>';
-  }
+  function sunSVG() { return horizonSun(true); }
+  function moonSVG() { return horizonSun(false); }
 
   var ClockAmpmActivity = {
     id: 'clock-ampm-activity',

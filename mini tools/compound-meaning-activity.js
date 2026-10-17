@@ -68,13 +68,13 @@
   var PART_DE = {
     hand: 'Hand', shoe: 'Schuh', tooth: 'Zahn', brush: 'Bürste', bag: 'Tasche', milk: 'Milch', jug: 'Kanne',
     dog: 'Hund', bed: 'Bett', book: 'Buch', foot: 'Fuß', ball: 'Ball', egg: 'Ei', cup: 'Becher',
-    apple: 'Apfel', cake: 'Kuchen', rain: 'Regen', umbrella: 'Schirm'
+    apple: 'Apfel', cake: 'Kuchen', rain: 'Regen', umbrella: 'Schirm', bird: 'Vogel', house: 'Haus'
   };
   /* image-key -> Dutch display word (Netherlands standard; only the shown word localizes) */
   var PART_NL = {
     hand: 'Hand', shoe: 'Schoen', tooth: 'Tand', brush: 'Borstel', bag: 'Tas', milk: 'Melk', jug: 'Kan',
     dog: 'Hond', bed: 'Bed', book: 'Boek', foot: 'Voet', ball: 'Bal', egg: 'Ei', cup: 'Beker',
-    apple: 'Appel', cake: 'Taart', rain: 'Regen', umbrella: 'Paraplu'
+    apple: 'Appel', cake: 'Taart', rain: 'Regen', umbrella: 'Paraplu', bird: 'Vogel', house: 'Huis', coat: 'Jas', sun: 'Zon'
   };
   function lang() { return (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; }
   function txt(k) { var lg = lang(); return (L[lg] || L.en)[k] || L.en[k] || k; }

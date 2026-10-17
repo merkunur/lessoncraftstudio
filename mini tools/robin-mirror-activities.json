@@ -7,7 +7,7 @@
     "params": {
       "rounds": [
         { "id": "mia",   "band": 1, "sentence": "Mia poured the juice ___.",        "referent": "she",  "wrongA": "they", "wrongB": "i" },
-        { "id": "sam",   "band": 1, "sentence": "Sam fixed the bike ___.",          "referent": "he",   "wrongA": "she",  "wrongB": "i" },
+        { "id": "sam",   "band": 1, "sentence": "Grandpa fixed the bike ___.",      "referent": "he",   "wrongA": "she",  "wrongB": "i" },
         { "id": "card",  "band": 1, "sentence": "I made this card all by ___.",     "referent": "i",    "wrongA": "he",   "wrongB": "they" },
         { "id": "twins", "band": 2, "sentence": "The twins built the fort ___.",    "referent": "they", "wrongA": "she",  "wrongB": "i" },
         { "id": "bread", "band": 2, "sentence": "We baked the bread ___.",          "referent": "we",   "wrongA": "he",   "wrongB": "they" },

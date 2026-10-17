@@ -1352,7 +1352,13 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       var rrRounds = row.params.rounds;
       return rrRounds.map(function (round) {
         var n = round.n, objKey = round.obj;
-        var vals = [n - 1, n, n + 1, n + 2];
+        /* 2026-10-17 live fix: the old fixed window {N-1..N+2} made the right tile
+           ALWAYS the 2nd-smallest (rank tell, 8/8). Each round now names the rank
+           (0 = smallest .. 3 = largest) the right tile takes in its 4-wide window of
+           consecutive misreads; ranks are balanced 2/2/2/2 across the 8 rounds. */
+        var rk = (typeof round.rank === 'number') ? round.rank : 1;
+        var lo = Math.max(1, Math.min(n - rk, RR_MAXCM - 3));
+        var vals = [lo, lo + 1, lo + 2, lo + 3];
         var svg = _readRulerSvg(n, objKey);
         var figKey = objKey + '-' + n;
         return {

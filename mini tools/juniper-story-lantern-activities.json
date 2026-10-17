@@ -54,7 +54,7 @@
             {
               "id": "o2",
               "kind": "wrongmoral",
-              "text": "Summer is the best time to rest."
+              "text": "Play now and never mind later."
             },
             {
               "id": "o3",
@@ -85,7 +85,7 @@
             {
               "id": "o3",
               "kind": "wrongmoral",
-              "text": "Never wake a sleeping lion."
+              "text": "Little ones can never help big ones."
             }
           ]
         },
@@ -111,7 +111,7 @@
             {
               "id": "o3",
               "kind": "wrongmoral",
-              "text": "Always carry water when it is hot."
+              "text": "Can't reach it? Just give up."
             }
           ]
         },
@@ -132,7 +132,7 @@
             {
               "id": "o2",
               "kind": "wrongmoral",
-              "text": "Wolves are big and very scary."
+              "text": "A joke is always fun for everyone."
             },
             {
               "id": "o3",
@@ -163,7 +163,7 @@
             {
               "id": "o3",
               "kind": "wrongmoral",
-              "text": "The sun is hotter than wind."
+              "text": "The hardest push always wins."
             }
           ]
         },
@@ -189,7 +189,7 @@
             {
               "id": "o3",
               "kind": "wrongmoral",
-              "text": "Geese are made of pure gold."
+              "text": "Taking more is always better."
             }
           ]
         },
@@ -210,7 +210,7 @@
             {
               "id": "o2",
               "kind": "wrongmoral",
-              "text": "Bears are easy to scare off."
+              "text": "Save yourself and forget your friend."
             },
             {
               "id": "o3",
@@ -244,7 +244,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Der schnellste Läufer gewinnt immer."
+                "text": "Der schnellste Läufer gewinnt jedes Rennen."
               }
             ]
           },
@@ -265,7 +265,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Der Sommer ist die beste Zeit zum Ausruhen."
+                "text": "Spiel jetzt einfach und denk nicht an später."
               },
               {
                 "id": "o3",
@@ -296,7 +296,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Einen schlafenden Löwen soll man nie wecken."
+                "text": "Die Kleinen können den Großen niemals helfen."
               }
             ]
           },
@@ -322,7 +322,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Bei Hitze soll man immer Wasser dabeihaben."
+                "text": "Kommst du nicht dran, dann gib lieber auf."
               }
             ]
           },
@@ -343,7 +343,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Wölfe sind groß und sehr gefährlich."
+                "text": "Ein Scherz macht allen immer Spaß."
               },
               {
                 "id": "o3",
@@ -374,7 +374,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Die Sonne ist heißer als der Wind."
+                "text": "Mit Kraft erreicht man immer am meisten."
               }
             ]
           },
@@ -400,7 +400,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Gänse sind aus reinem Gold."
+                "text": "Mehr nehmen ist immer besser."
               }
             ]
           },
@@ -421,7 +421,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Bären kann man leicht verscheuchen."
+                "text": "Rette dich selbst und vergiss deinen Freund."
               },
               {
                 "id": "o3",
@@ -454,7 +454,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Être rapide suffit toujours pour réussir."
+                "text": "Le plus rapide gagne toujours, quoi qu’il arrive."
               }
             ]
           },
@@ -532,7 +532,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Sans aide, on ne réussit jamais seul."
+                "text": "Sans aide, on ne réussit jamais rien tout seul."
               }
             ]
           },
@@ -664,7 +664,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "El más rápido siempre gana."
+                "text": "El más rápido gana todas las carreras."
               }
             ]
           },
@@ -685,7 +685,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "El verano es el mejor momento para descansar."
+                "text": "Juega ahora y no pienses en después."
               },
               {
                 "id": "o3",
@@ -716,7 +716,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "No hay que despertar a un león dormido."
+                "text": "Los pequeños nunca pueden ayudar a los grandes."
               }
             ]
           },
@@ -742,7 +742,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Siempre hay que llevar agua cuando hace calor."
+                "text": "Si no lo alcanzas, mejor ríndete."
               }
             ]
           },
@@ -763,7 +763,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Los lobos son grandes y dan mucho miedo."
+                "text": "Una broma siempre divierte a todos."
               },
               {
                 "id": "o3",
@@ -794,7 +794,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "El sol calienta más que el viento."
+                "text": "La fuerza siempre gana."
               }
             ]
           },
@@ -820,7 +820,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Las gallinas están hechas de oro puro."
+                "text": "Llevarse todo de una vez siempre es lo mejor."
               }
             ]
           },
@@ -841,7 +841,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Los osos se espantan fácilmente."
+                "text": "Sálvate tú y olvida a tu amigo."
               },
               {
                 "id": "o3",
@@ -1105,7 +1105,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "L’estate serve solo per riposare."
+                "text": "Gioca adesso e non pensare al dopo."
               },
               {
                 "id": "o3",
@@ -1136,7 +1136,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Non svegliare mai un leone che dorme."
+                "text": "I piccoli non possono mai aiutare i grandi."
               }
             ]
           },
@@ -1162,7 +1162,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Quando fa caldo, porta sempre con te dell’acqua."
+                "text": "Se non ci arrivi, lascia perdere."
               }
             ]
           },
@@ -1183,7 +1183,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "I lupi sono grandi e fanno paura."
+                "text": "Uno scherzo diverte sempre tutti."
               },
               {
                 "id": "o3",
@@ -1214,7 +1214,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Il sole è più caldo del vento."
+                "text": "La forza vince sempre."
               }
             ]
           },
@@ -1240,7 +1240,7 @@
               {
                 "id": "o3",
                 "kind": "wrongmoral",
-                "text": "Le galline sono fatte d’oro."
+                "text": "Prendere di più è sempre meglio."
               }
             ]
           },
@@ -1261,7 +1261,7 @@
               {
                 "id": "o2",
                 "kind": "wrongmoral",
-                "text": "Gli orsi si spaventano facilmente."
+                "text": "Salva te stesso e dimentica l’amico."
               },
               {
                 "id": "o3",
@@ -1278,7 +1278,7 @@
             "options": [
               { "id": "o1", "kind": "moral", "text": "Rustig volhouden werkt het best." },
               { "id": "o2", "kind": "detail", "text": "De haas deed een lang dutje." },
-              { "id": "o3", "kind": "wrongmoral", "text": "De snelste loper wint altijd elke wedstrijd." }
+              { "id": "o3", "kind": "wrongmoral", "text": "De snelste loper wint elke wedstrijd." }
             ]
           },
           {
@@ -1286,7 +1286,7 @@
             "story": ["De hele zomer speelde de krekel, terwijl de mier eten verzamelde.", "Toen kwam de winter en viel er koude sneeuw.", "De krekel had honger, maar de mier bleef warm en had genoeg."],
             "options": [
               { "id": "o1", "kind": "detail", "text": "De krekel speelde de hele zomer." },
-              { "id": "o2", "kind": "wrongmoral", "text": "De zomer is de beste tijd om uit te rusten." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Speel nu en denk niet aan later." },
               { "id": "o3", "kind": "moral", "text": "Wie vooruitdenkt, is later goed voorbereid." }
             ]
           },
@@ -1296,7 +1296,7 @@
             "options": [
               { "id": "o1", "kind": "detail", "text": "De grote leeuw zat vast in een net." },
               { "id": "o2", "kind": "moral", "text": "Ook een kleine vriend kan veel helpen." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Een slapende leeuw moet je nooit wakker maken." }
+              { "id": "o3", "kind": "wrongmoral", "text": "Kleine dieren kunnen grote dieren nooit helpen." }
             ]
           },
           {
@@ -1305,7 +1305,7 @@
             "options": [
               { "id": "o1", "kind": "moral", "text": "Slim nadenken lost problemen op." },
               { "id": "o2", "kind": "detail", "text": "De kraai gooide steentjes in de kruik." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Bij warm weer moet je altijd water meenemen." }
+              { "id": "o3", "kind": "wrongmoral", "text": "Kun je er niet bij? Geef het dan maar op." }
             ]
           },
           {
@@ -1313,7 +1313,7 @@
             "story": ["Een jongen riep voor de grap: 'Wolf!' en de mensen kwamen hem te hulp.", "Hij lachte, want er was helemaal geen wolf.", "Toen er een echte wolf kwam, geloofde niemand hem meer."],
             "options": [
               { "id": "o1", "kind": "detail", "text": "De jongen riep voor de grap 'Wolf!'." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Wolven zijn groot en heel gevaarlijk." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Een grapje is altijd leuk voor iedereen." },
               { "id": "o3", "kind": "moral", "text": "Wie vaak liegt, wordt niet meer vertrouwd." }
             ]
           },
@@ -1323,7 +1323,7 @@
             "options": [
               { "id": "o1", "kind": "detail", "text": "De sterke wind blies heel hard tegen de man." },
               { "id": "o2", "kind": "moral", "text": "Vriendelijkheid werkt beter dan kracht." },
-              { "id": "o3", "kind": "wrongmoral", "text": "De zon is heter dan de wind." }
+              { "id": "o3", "kind": "wrongmoral", "text": "Wie het hardst duwt, wint altijd." }
             ]
           },
           {
@@ -1332,7 +1332,7 @@
             "options": [
               { "id": "o1", "kind": "moral", "text": "Wie te veel wil, verliest uiteindelijk alles." },
               { "id": "o2", "kind": "detail", "text": "De hebzuchtige boer wilde al het goud hebben." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Ganzen zijn van puur goud." }
+              { "id": "o3", "kind": "wrongmoral", "text": "Alles in één keer pakken is altijd het allerbeste." }
             ]
           },
           {
@@ -1340,7 +1340,7 @@
             "story": ["Twee vrienden wandelden samen toen er een grote beer opdook.", "De ene vriend klom in een boom en liet de ander alleen.", "De ander bleef doodstil liggen tot de beer weg was, en stond toen op."],
             "options": [
               { "id": "o1", "kind": "detail", "text": "Een vriend klom in een hoge boom." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Beren kun je makkelijk wegjagen." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Red jezelf maar en vergeet je vriend gewoon." },
               { "id": "o3", "kind": "moral", "text": "Een echte vriend helpt je in nood." }
             ]
           }

@@ -184,8 +184,8 @@
         {
           "id": "enough-book-35",
           "cog": "enough",
-          "band": 3,
-          "legendTier": "none",
+          "band": 2,
+          "legendTier": "full",
           "price": 35,
           "scenario": "You have these coins. The book is 35¢. Is it enough?",
           "pile": [
@@ -194,7 +194,7 @@
               "count": 1
             },
             {
-              "den": "dime",
+              "den": "nickel",
               "count": 1
             }
           ]
@@ -296,7 +296,7 @@
             "nickel",
             "penny",
             "nickel",
-            "dime"
+            "penny"
           ]
         },
         {
@@ -568,20 +568,6 @@
           }
         ],
         "nl": [
-          {
-            "den": "1c",
-            "value": 1,
-            "glyph": "1",
-            "tint": "#C97B43",
-            "diameter": 16
-          },
-          {
-            "den": "2c",
-            "value": 2,
-            "glyph": "2",
-            "tint": "#C97B43",
-            "diameter": 19
-          },
           {
             "den": "5c",
             "value": 5,
@@ -876,7 +862,7 @@
               "5c",
               "1c",
               "5c",
-              "10c"
+              "2c"
             ]
           },
           {
@@ -1147,7 +1133,7 @@
               "5c",
               "1c",
               "5c",
-              "10c"
+              "2c"
             ]
           },
           {
@@ -1412,7 +1398,7 @@
               "50c",
               "50c",
               "50c",
-              "1p",
+              "5p",
               "2p",
               "50c",
               "50c"
@@ -1684,7 +1670,7 @@
               "25c",
               "50c",
               "50c",
-              "1r",
+              "2r",
               "50c"
             ]
           },
@@ -1706,7 +1692,7 @@
               "1r",
               "2r",
               "2r",
-              "5r"
+              "1r"
             ]
           }
         ],
@@ -1959,7 +1945,7 @@
               "5c",
               "1c",
               "5c",
-              "10c"
+              "2c"
             ]
           },
           {
@@ -1990,19 +1976,19 @@
             "scenario": "Otto telt de kassa. Hoeveel is dit waard?",
             "pile": [
               {
-                "den": "10c",
-                "count": 2
+                "den": "20c",
+                "count": 1
               },
               {
-                "den": "1c",
+                "den": "5c",
                 "count": 3
               }
             ],
             "options": [
-              20,
-              23,
               25,
-              26
+              30,
+              35,
+              40
             ]
           },
           {
@@ -2017,8 +2003,8 @@
               "5c",
               "10c",
               "10c",
-              "1c",
-              "1c",
+              "50c",
+              "5c",
               "5c",
               "20c"
             ]
@@ -2028,17 +2014,17 @@
             "cog": "make-amount",
             "band": 3,
             "legendTier": "none",
-            "target": 41,
-            "scenario": "Een krab kost 41 cent. Betaal precies dit bedrag.",
+            "target": 45,
+            "scenario": "Een krab kost 45 cent. Betaal precies dit bedrag.",
             "purse": [
               "20c",
               "10c",
               "10c",
               "5c",
-              "1c",
+              "50c",
               "20c",
               "5c",
-              "1c"
+              "10c"
             ]
           },
           {
@@ -2053,10 +2039,10 @@
               "10c",
               "10c",
               "5c",
-              "1c",
+              "50c",
               "20c",
               "5c",
-              "1c"
+              "10c"
             ]
           },
           {
@@ -2071,10 +2057,10 @@
               "5c",
               "10c",
               "10c",
-              "1c",
+              "50c",
               "20c",
               "5c",
-              "1c"
+              "10c"
             ]
           },
           {
@@ -2090,8 +2076,8 @@
               "5c",
               "10c",
               "10c",
-              "1c",
-              "1c",
+              "50c",
+              "5c",
               "5c",
               "20c"
             ]
@@ -2109,8 +2095,8 @@
               "10c",
               "5c",
               "5c",
-              "1c",
-              "1c",
+              "50c",
+              "5c",
               "10c",
               "20c"
             ]
@@ -2162,7 +2148,7 @@
               "10c",
               "5c",
               "5c",
-              "1c",
+              "50c",
               "20c",
               "10c",
               "5c"
@@ -2184,7 +2170,7 @@
               "20c",
               "5c",
               "10c",
-              "1c",
+              "50c",
               "20c",
               "5c",
               "10c",
@@ -2225,12 +2211,12 @@
             "purse": [
               "5c",
               "5c",
-              "2c",
-              "2c",
+              "20c",
+              "50c",
               "5c",
-              "1c",
+              "20c",
               "5c",
-              "10c"
+              "50c"
             ]
           },
           {
@@ -2238,17 +2224,17 @@
             "cog": "make-amount",
             "band": 1,
             "legendTier": "none",
-            "target": 16,
-            "scenario": "Een noot kost 16 cent. Betaal precies.",
+            "target": 15,
+            "scenario": "Een noot kost 15 cent. Betaal precies.",
             "purse": [
               "10c",
               "5c",
-              "1c",
-              "1c",
+              "20c",
+              "5c",
               "10c",
               "5c",
               "20c",
-              "1c"
+              "50c"
             ]
           }
         ]

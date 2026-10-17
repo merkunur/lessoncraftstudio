@@ -104,9 +104,9 @@ function serve() {
     /* an ADJECTIVE (noun-target) round: prompt + sentence + chips render; wrong no-advance; correct resolves + fills blank */
     await force('wc-a1');
     const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-    note(/describes the rabbit/i.test(prompt), `adjective-round prompt wrong: "${prompt}"`);
+    note(/fits the sentence/i.test(prompt) && !/puppy/i.test(prompt), `adjective-round prompt wrong (must not name the described word): "${prompt}"`);
     note(!(await checkVisible()), 'shell Check visible before resolve');
-    note(await page.evaluate(() => { const s = document.querySelector('.wc-sentence'); return s && /rabbit/.test(s.textContent); }), 'the sentence did not render');
+    note(await page.evaluate(() => { const s = document.querySelector('.wc-sentence'); return s && /puppy/.test(s.textContent); }), 'the sentence did not render');
     note(await page.evaluate(() => !!document.querySelector('.wc-blank')), 'the blank slot did not render');
     note(await page.evaluate(() => document.querySelectorAll('.wc-cand').length === 2), 'the 2 form chips did not render');
     note(await page.evaluate(() => !!document.querySelector('.wc-hear')), 'the Hear-it button did not render');
@@ -117,13 +117,13 @@ function serve() {
     note((await S()).miss, 'wrong gave no nudge');
     await tapClass('adjective');
     note((await S()).resolved, 'the correct (adjective) form did not resolve');
-    note(await page.evaluate(() => { const b = document.querySelector('.wc-blank'); return b && b.classList.contains('filled') && b.textContent.trim() === 'quick'; }), 'the blank did not fill with the chosen word');
+    note(await page.evaluate(() => { const b = document.querySelector('.wc-blank'); return b && b.classList.contains('filled') && b.textContent.trim() === 'happy'; }), 'the blank did not fill with the chosen word');
     note(await checkVisible(), 'shell Check did not appear after resolve');
 
     /* an ADVERB (verb-target) round */
     await force('wc-v1');
     const promptV = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
-    note(/how the rabbit hopped/i.test(promptV), `adverb-round prompt wrong: "${promptV}"`);
+    note(/fits the sentence/i.test(promptV) && !/carried/i.test(promptV), `adverb-round prompt wrong (must not name the verb): "${promptV}"`);
     await tapClass('adverb');
     note((await S()).resolved, 'adverb round: correct did not resolve');
 

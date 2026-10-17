@@ -113,6 +113,17 @@ window.MoneyActivity = Object.assign({}, MoneyCore, {
     instruction: MoneyCore.strings.instructionChange
   } : {}),
 
+  /* 2026-10-17 live fix: the core's running "Total" echoed the target, so a child
+     could tap coins until the two numbers matched without counting the coins.
+     The total row stays hidden until the tray is correct (readOnly after a
+     passing Check), then shows as confirmation. The screen-reader announcement
+     is untouched. 0 lines to money-core.js. */
+  paint: function () {
+    MoneyCore.paint.call(this);
+    var row = this._totalEl && this._totalEl.parentNode;
+    if (row && row.style) row.style.visibility = this.readOnly ? 'visible' : 'hidden';
+  },
+
   init: function (api) {
     MoneyCore.init.call(this, api);
     this._pool = STATIC_DEMO_TASKS;

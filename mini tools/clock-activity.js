@@ -96,6 +96,17 @@ window.ClockActivity = Object.assign({}, ClockCore, {
      timeExpr / hint / sr labels). No activity-only strings beyond the core's. */
   strings: Object.assign({}, ClockCore.strings),
 
+  /* 2026-10-17 live fix: the core's digital readout mirrors the hands live, so a
+     child could drag until it read "3:15" without ever reading the analog face.
+     The readout stays hidden until the clock is set correctly (readOnly after a
+     passing Check), then appears as the analog↔digital confirmation. The
+     screen-reader announcement is untouched (it is a blind user's only access
+     to the hands). 0 lines to clock-core.js. */
+  paint: function () {
+    ClockCore.paint.call(this);
+    if (this._readoutEl) this._readoutEl.style.visibility = this.readOnly ? 'visible' : 'hidden';
+  },
+
   init: function (api) {
     ClockCore.init.call(this, api);
     this._pool = STATIC_DEMO_TASKS;

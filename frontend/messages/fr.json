@@ -2652,7 +2652,8 @@
       "filterType": "Type d'exercice",
       "filterLevel": "Niveau",
       "filterTheme": "Thème",
-      "moreThemes": "Autres thèmes ({count})"
+      "moreThemes": "Autres thèmes ({count})",
+      "moreTypes": "Autres types ({count})"
     },
     "tabs": {
       "all": "Tous",

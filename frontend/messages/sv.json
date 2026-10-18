@@ -2632,7 +2632,8 @@
       "filterType": "Övningstyp",
       "filterLevel": "Nivå",
       "filterTheme": "Tema",
-      "moreThemes": "Fler teman ({count})"
+      "moreThemes": "Fler teman ({count})",
+      "moreTypes": "Fler övningstyper ({count})"
     },
     "tabs": {
       "all": "Alla",

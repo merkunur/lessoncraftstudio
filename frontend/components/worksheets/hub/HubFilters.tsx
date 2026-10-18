@@ -40,6 +40,8 @@ export interface RailSubjectVM {
   count: number;
   open: boolean;
   items: RailTypeVM[];
+  /** Less-used types behind a disclosure, so an open subject stays a short list. */
+  more?: { label: string; items: RailTypeVM[] };
   /** A subject's sum counts Level Set copies the bare grid does not list — shown nowhere (review 2026-10-18). */
   hideCount?: boolean;
 }
@@ -47,11 +49,13 @@ export interface RailSubjectVM {
 export interface HubFiltersVM {
   heading: string;
   grade: { heading: string; items: RailLinkVM[] };
-  type: { heading: string; subjects?: RailSubjectVM[]; items?: RailTypeVM[] };
+  type: { heading: string; subjects?: RailSubjectVM[]; items?: RailTypeVM[]; more?: { label: string; items: RailTypeVM[] } };
   setsHeading: string;
   theme: { heading: string; items: RailLinkVM[]; more?: { label: string; items: RailLinkVM[] } };
   /** Number of active filters (shown on the mobile drawer bar). */
   activeCount: number;
+  /** The drawer's foot link down to the results, e.g. "90 worksheets". */
+  resultsLabel: string;
 }
 
 const ROW =
@@ -134,6 +138,19 @@ function TypeRows({ items, setsHeading }: { items: RailTypeVM[]; setsHeading: st
   );
 }
 
+function MoreTypes({ more, setsHeading }: { more?: { label: string; items: RailTypeVM[] }; setsHeading: string }) {
+  if (!more || more.items.length === 0) return null;
+  return (
+    <details className="hub-disc">
+      <summary className={`${ROW} cursor-pointer list-none font-semibold text-lcs-teal/75 hover:text-lcs-teal`}>
+        <Caret />
+        {more.label}
+      </summary>
+      <TypeRows items={more.items} setsHeading={setsHeading} />
+    </details>
+  );
+}
+
 function Caret() {
   return (
     <svg viewBox="0 0 24 24" className="hub-caret flex-shrink-0 w-3 h-3 transition-transform" fill="none" stroke="currentColor" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -179,6 +196,7 @@ function Groups({ vm }: { vm: HubFiltersVM }) {
 
       <Group heading={vm.type.heading} first={grades.length === 0}>
         {vm.type.items && <TypeRows items={vm.type.items} setsHeading={vm.setsHeading} />}
+        <MoreTypes more={vm.type.more} setsHeading={vm.setsHeading} />
         {vm.type.subjects?.map((sg) => (
           <details key={sg.key} open={sg.open} className="hub-disc">
             <summary className={`${ROW} cursor-pointer list-none font-semibold text-lcs-teal hover:bg-lcs-teal/[0.06]`}>
@@ -188,6 +206,7 @@ function Groups({ vm }: { vm: HubFiltersVM }) {
             </summary>
             <div className="pl-3 pb-1">
               <TypeRows items={sg.items} setsHeading={vm.setsHeading} />
+              <MoreTypes more={sg.more} setsHeading={vm.setsHeading} />
             </div>
           </details>
         ))}
@@ -238,9 +257,13 @@ export function HubMobileFilters({ vm }: { vm: HubFiltersVM }) {
         </span>
         <Caret />
       </summary>
-      <div className="max-h-[60vh] overflow-y-auto overscroll-contain pb-4 pt-1">
+      <div className="max-h-[60vh] overflow-y-auto overscroll-contain pb-6 pt-1 [mask-image:linear-gradient(to_bottom,#000_88%,transparent)]">
         <Groups vm={vm} />
       </div>
+      {/* The drawer's foot: a clear way down to the results (no JS — an in-page link). */}
+      <a href="#hub-results" className="flex items-center justify-center min-h-[44px] mb-3 rounded-lg bg-lcs-teal font-lcsBody text-sm font-bold text-white">
+        {vm.resultsLabel} ↓
+      </a>
     </details>
   );
 }

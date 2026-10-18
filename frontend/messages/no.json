@@ -2636,7 +2636,8 @@
       "filterType": "Oppgavetype",
       "filterLevel": "Nivå",
       "filterTheme": "Tema",
-      "moreThemes": "Flere temaer ({count})"
+      "moreThemes": "Flere temaer ({count})",
+      "moreTypes": "Flere oppgavetyper ({count})"
     },
     "tabs": {
       "all": "Alle",

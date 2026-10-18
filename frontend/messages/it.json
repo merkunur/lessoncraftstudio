@@ -4153,7 +4153,8 @@
       "filterType": "Tipo di esercizio",
       "filterLevel": "Livello",
       "filterTheme": "Tema",
-      "moreThemes": "Altri temi ({count})"
+      "moreThemes": "Altri temi ({count})",
+      "moreTypes": "Altri tipi ({count})"
     },
     "tabs": {
       "all": "Tutti",

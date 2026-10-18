@@ -2632,7 +2632,8 @@
       "filterType": "Oefentype",
       "filterLevel": "Niveau",
       "filterTheme": "Thema",
-      "moreThemes": "Meer thema's ({count})"
+      "moreThemes": "Meer thema's ({count})",
+      "moreTypes": "Meer oefentypes ({count})"
     },
     "tabs": {
       "all": "Alle",

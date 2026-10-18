@@ -2621,7 +2621,8 @@
       "filterType": "Tehtävätyyppi",
       "filterLevel": "Taso",
       "filterTheme": "Aihe",
-      "moreThemes": "Lisää teemoja ({count})"
+      "moreThemes": "Lisää teemoja ({count})",
+      "moreTypes": "Lisää tehtävätyyppejä ({count})"
     },
     "tabs": {
       "all": "Kaikki",

@@ -731,8 +731,8 @@
       },
       {
        "theme": "fruits",
-       "noun": "lemon",
-       "key": "lemon",
+       "noun": "lime",
+       "key": "lime",
        "word": "limón",
        "graphemes": [
         "l",
@@ -1476,20 +1476,6 @@
        ]
       },
       {
-       "theme": "vegetables",
-       "noun": "tomato",
-       "key": "tomato",
-       "word": "tomate",
-       "graphemes": [
-        "t",
-        "o",
-        "m",
-        "a",
-        "t",
-        "e"
-       ]
-      },
-      {
        "theme": "pets",
        "noun": "turtle",
        "key": "turtle",
@@ -2068,8 +2054,8 @@
       },
       {
        "theme": "fruits",
-       "noun": "lemon",
-       "key": "lemon",
+       "noun": "lime",
+       "key": "lime",
        "word": "limón",
        "graphemes": [
         "l",
@@ -15452,16 +15438,6 @@
        ]
       },
       {
-       "key": "tomato",
-       "word": "tomate",
-       "unit": "to",
-       "split": [
-        "to",
-        "ma",
-        "te"
-       ]
-      },
-      {
        "key": "toucan",
        "word": "tucán",
        "unit": "tu",
@@ -15543,7 +15519,7 @@
        ]
       },
       {
-       "key": "lemon",
+       "key": "lime",
        "word": "limón",
        "unit": "li",
        "split": [
@@ -18271,7 +18247,7 @@
      ]
     },
     {
-     "key": "lemon",
+     "key": "lime",
      "word": "limón",
      "split": [
       "li",
@@ -19371,15 +19347,6 @@
      ]
     },
     {
-     "key": "tomato",
-     "word": "tomate",
-     "split": [
-      "to",
-      "ma",
-      "te"
-     ]
-    },
-    {
      "key": "tongs",
      "word": "pinzas",
      "split": [
@@ -20351,7 +20318,7 @@
      "answer": "agrio",
      "pic": {
       "theme": "fruits",
-      "noun": "lemon"
+      "noun": "lime"
      }
     },
     {
@@ -22304,11 +22271,11 @@
        "picOpened": true
       },
       {
-       "vocabKey": "lemon",
+       "vocabKey": "lime",
        "word": "limón",
        "pic": {
         "theme": "fruits",
-        "noun": "lemon"
+        "noun": "lime"
        },
        "sameSpelling": true,
        "productive": true,
@@ -26411,8 +26378,8 @@
       },
       {
        "theme": "fruits",
-       "noun": "lemon",
-       "vocabKey": "lemon",
+       "noun": "lime",
+       "vocabKey": "lime",
        "word": "limón",
        "gaps": [
         {

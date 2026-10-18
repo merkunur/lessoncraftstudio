@@ -26,7 +26,7 @@
  * (data/b4/weather-symbols.js; the gate asserts the pair is one source). The
  * titles are the design's §3 face titles (a title that LISTS options lists
  * exactly the shipped d2 config: F3's three band words = d.bands, F2's
- * Monday..Sunday = the diary's first and last day at start:'mon'; both are
+ * Monday..Sunday = the diary's first and last day at the locale's diaryStart (no start override: es-MX runs domingo..sábado); both are
  * asserted by the gate against the config). F1 / F5 carry `extra
  * {gradeBand:'G1'}` and F4 `{gradeBand:'G3'}` (the base is K; qa/lints.js +
  * emit/manifest.js read spec.gradeBand).
@@ -38,7 +38,7 @@ const ROWS = [
     'Write the Weather Word', 'Find each weather symbol\'s word in the bank and write it, one letter in each box.',
     { gradeBand: 'G1' }],
   ['k', 'K-364', 'weather-symbols-weather-chart-monday-to-sunday', 'K-356-weather-symbols.js', 2,
-    { layout: 'diary', days: 7, start: 'mon', box: 'rect', legend: 6, legendPx: 56 },
+    { layout: 'diary', days: 7, box: 'rect', legend: 6, legendPx: 56 },
     'Weather Chart, Monday to Sunday', 'Every day this week, look outside and draw the weather symbol for that day in its box.'],
   ['k', 'K-365', 'weather-symbols-how-warm-is-it', 'K-356-weather-symbols.js', 2,
     { layout: 'thermometer', items: 4, cols: 2, rows: 2, bands: ['cold', 'warm', 'hot'], chips: ['scarf', 't-shirt', 'sunglasses'], thermH: 220, keyH: 120, chip: 64, iconPx: 56, min: -10, max: 40, step: 5, edges: [10, 25] },

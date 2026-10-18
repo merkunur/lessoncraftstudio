@@ -72,11 +72,11 @@
           "picOpened": true
         },
         {
-          "vocabKey": "lemon",
+          "vocabKey": "lime",
           "word": "limón",
           "pic": {
             "theme": "fruits",
-            "noun": "lemon"
+            "noun": "lime"
           },
           "sameSpelling": true,
           "productive": true,

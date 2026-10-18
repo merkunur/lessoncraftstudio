@@ -463,16 +463,6 @@
           ]
         },
         {
-          "key": "tomato",
-          "word": "tomate",
-          "unit": "to",
-          "split": [
-            "to",
-            "ma",
-            "te"
-          ]
-        },
-        {
           "key": "toucan",
           "word": "tucán",
           "unit": "tu",
@@ -554,7 +544,7 @@
           ]
         },
         {
-          "key": "lemon",
+          "key": "lime",
           "word": "limón",
           "unit": "li",
           "split": [
@@ -3282,7 +3272,7 @@
       ]
     },
     {
-      "key": "lemon",
+      "key": "lime",
       "word": "limón",
       "split": [
         "li",
@@ -4379,15 +4369,6 @@
         "pa",
         "ñue",
         "lo"
-      ]
-    },
-    {
-      "key": "tomato",
-      "word": "tomate",
-      "split": [
-        "to",
-        "ma",
-        "te"
       ]
     },
     {

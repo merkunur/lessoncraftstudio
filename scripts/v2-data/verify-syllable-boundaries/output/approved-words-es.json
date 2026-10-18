@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-10-17T18:39:34.937Z",
+  "generated_at": "2026-10-18T15:38:08.277Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 947,
-  "count_quarantined": 317,
+  "count_approved": 946,
+  "count_quarantined": 318,
   "entries": [
     {
       "key": "acorn",
@@ -11143,26 +11143,6 @@
       }
     },
     {
-      "key": "lemon",
-      "word": "limón",
-      "split": [
-        "li",
-        "món"
-      ],
-      "count": 2,
-      "chunks": [
-        "li",
-        "món"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "lemon-tree",
       "word": "limonero",
       "split": [
@@ -11583,28 +11563,23 @@
     },
     {
       "key": "lime",
-      "word": "lima",
+      "word": "limón",
       "split": [
         "li",
-        "ma"
+        "món"
       ],
       "count": 2,
       "chunks": [
         "li",
-        "ma"
+        "món"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "lima"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "lip",
@@ -11803,6 +11778,28 @@
     },
     {
       "key": "lounge-chair",
+      "word": "camastro",
+      "split": [
+        "ca",
+        "mas",
+        "tro"
+      ],
+      "count": 3,
+      "chunks": [
+        "ca",
+        "mas",
+        "tro"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "lounger",
       "word": "camastro",
       "split": [
         "ca",
@@ -20019,28 +20016,6 @@
           "ro"
         ]
       }
-    },
-    {
-      "key": "tomato",
-      "word": "tomate",
-      "split": [
-        "to",
-        "ma",
-        "te"
-      ],
-      "count": 3,
-      "chunks": [
-        "to",
-        "ma",
-        "te"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "tongs",

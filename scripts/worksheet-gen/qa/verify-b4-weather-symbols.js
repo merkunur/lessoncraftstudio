@@ -767,9 +767,9 @@ function assertFace(name, id, r, block, loc) {
     }
     line = `rows ${p.rows} box ${box} (room ${room}) lanes ${p.lanes.map((l) => Math.round(l.h)).join('/')} blank-in-lane max ${Math.round(Math.max(...p.lanes.map((l) => l.blank)))} between ${Math.round(p.blankMax)} widest row ${Math.round(Math.max(...p.lanes.map((l) => l.right)))} bank ${p.bank.join('/')}`;
   } else if (mode === 'diary') {
-    const first = d.start === 'sun' ? 0 : 1;
+    const start = d.start || block.diaryStart || 'mon'; const first = start === 'sun' ? 0 : 1;
     const names = Array.isArray(block.diaryDays) ? block.diaryDays : NAMES[loc].dayNames;
-    ok(p.days.length === 7 && p.days.every((x, i) => x.idx === (first + i) % 7 && x.name === names[(first + i) % 7]), `${name}: node gate — day cells ${JSON.stringify(p.days.map((x) => [x.idx, x.name]))} ≠ dayNames from ${d.start}`);
+    ok(p.days.length === 7 && p.days.every((x, i) => x.idx === (first + i) % 7 && x.name === names[(first + i) % 7]), `${name}: node gate — day cells ${JSON.stringify(p.days.map((x) => [x.idx, x.name]))} ≠ dayNames from ${start}`);
     ok(p.days.every((x) => x.box.w >= 136 - 0.6 && x.box.h >= 200 - 0.6), `${name}: draw boxes ${JSON.stringify(p.days.map((x) => [Math.round(x.box.w), Math.round(x.box.h)]))} < 136 x 200`);
     ok(p.key.length === 6 && p.key.every((w) => Math.abs(w - d.legendPx) < 0.6 && w >= 56), `${name}: key icons ${JSON.stringify(p.key)} ≠ ${d.legendPx}`);
     line = `boxes ${Math.round(p.days[0].box.w)} x ${Math.round(p.days[0].box.h)} / ${Math.round(p.days[4].box.h)} rows ${p.rowsH.map(Math.round).join('/')} days ${p.days.map((x) => x.name).join(',')}`;

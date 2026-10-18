@@ -695,7 +695,7 @@ const READING_PASSAGES = {
     {
       "id": "es-huerto-escolar",
       "title": "El huerto de la escuela",
-      "text": "Los viernes, la clase de Marta cuida el huerto de la escuela. Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas. Hoy recogieron los primeros tomates. Marta lleva tres a casa para preparar una ensalada con su madre.",
+      "text": "Los viernes, la clase de Marta cuida el huerto de la escuela. Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas. Hoy recogieron los primeros jitomates. Marta lleva tres a casa para preparar una ensalada con su madre.",
       "questions": [
         {
           "q": "¿Qué día cuida la clase el huerto?",
@@ -709,7 +709,7 @@ const READING_PASSAGES = {
         {
           "q": "¿Qué recogieron hoy?",
           "choices": [
-            "tomates",
+            "jitomates",
             "fresas",
             "zanahorias"
           ],

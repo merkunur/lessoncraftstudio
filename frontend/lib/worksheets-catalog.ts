@@ -173,6 +173,20 @@ export function subjectOfType(typeKey: string): string | null {
   return _subjectOfType.get(typeKey) || _subjectOfType.get(SUBJECT_ALIAS[typeKey] || '') || null;
 }
 
+/* A few types mix subjects by MODE (read 2026-10-18 on the live Math tab, which listed
+   "Beginning Sounds … — Letter B"): find-and-count's letter-spotting is a beginning-sounds
+   task and matching's letter/name modes pair pictures with letters and words — reading,
+   not maths or logic. The taxonomy keeps one subject per type (it drives topic pages);
+   the hub's subject tabs read the row. */
+const MODE_SUBJECT: Record<string, string> = {
+  'find-and-count|letter-spotting': 'letters',
+  'matching|letter': 'letters',
+  'matching|name': 'letters',
+};
+export function subjectOfRow(l: Landing): string | null {
+  return MODE_SUBJECT[`${l.coordinate.type}|${l.coordinate.mode}`] || subjectOfType(l.coordinate.type);
+}
+
 /** Landings matching the given subset of filters (any null filter is ignored). */
 export function applyLandingFilters<T extends Landing>(
   rows: T[],
@@ -180,7 +194,7 @@ export function applyLandingFilters<T extends Landing>(
 ): T[] {
   const theme = f.theme ? baseTheme(f.theme) : null;
   return rows.filter((l) => {
-    if (f.subject && subjectOfType(l.coordinate.type) !== f.subject) return false;
+    if (f.subject && subjectOfRow(l) !== f.subject) return false;
     if (f.type && l.coordinate.type !== f.type) return false;
     if (f.level && l.coordinate.level !== f.level) return false;
     if (theme && !rowThemes(l).includes(theme)) return false;
@@ -223,7 +237,7 @@ export function buildLandingFacets(allRows: Landing[], f: WsFilters): LandingFac
   const themeRows = applyLandingFilters(allRows, { subject: f.subject, type: f.type, level: f.level });
 
   return {
-    subject: countBy(subjectRows, (l) => [subjectOfType(l.coordinate.type)]),
+    subject: countBy(subjectRows, (l) => [subjectOfRow(l)]),
     type: countBy(typeRows, (l) => [l.coordinate.type]),
     level: countBy(levelRows, (l) => [l.coordinate.level]),
     theme: countBy(themeRows, (l) => rowThemes(l)),

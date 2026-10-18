@@ -522,7 +522,7 @@
       "id": "lemons-sour",
       "noun": "lemon",
       "form": "pl",
-      "text": "Los {gap} son amarillos y muy ácidos.",
+      "text": "Los {gap} son muy ácidos.",
       "clones": null,
       "fits": [
         "lemon"

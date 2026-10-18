@@ -274,7 +274,7 @@
    "sentences": [
     "Los viernes, la clase de Marta cuida el huerto de la escuela.",
     "Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas.",
-    "Hoy recogieron los primeros tomates.",
+    "Hoy recogieron los primeros jitomates.",
     "Marta lleva tres a casa para preparar una ensalada con su madre."
    ],
    "l1": [
@@ -299,7 +299,7 @@
      "sentence": 2
     },
     {
-     "q": "¿Cuántos tomates lleva Marta a casa?",
+     "q": "¿Cuántos jitomates lleva Marta a casa?",
      "choices": [
       "dos",
       "tres",
@@ -312,7 +312,7 @@
    "l3": {
     "mc": [
      {
-      "q": "¿Cómo se siente Marta al llevar los tomates?",
+      "q": "¿Cómo se siente Marta al llevar los jitomates?",
       "choices": [
        "orgullosa",
        "enojada",
@@ -321,7 +321,7 @@
       "correct": 0
      },
      {
-      "q": "¿Por qué son especiales los tomates de hoy?",
+      "q": "¿Por qué son especiales los jitomates de hoy?",
       "choices": [
        "porque son azules",
        "porque son la primera cosecha",
@@ -331,7 +331,7 @@
      }
     ],
     "write": {
-     "q": "¿Para qué lleva Marta tomates a casa?",
+     "q": "¿Para qué lleva Marta jitomates a casa?",
      "model": "Para hacer una ensalada con su mamá.",
      "evidence": 4
     }

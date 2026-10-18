@@ -68,8 +68,8 @@
         },
         {
           "theme": "fruits",
-          "noun": "lemon",
-          "key": "lemon",
+          "noun": "lime",
+          "key": "lime",
           "word": "limón",
           "graphemes": [
             "l",
@@ -813,20 +813,6 @@
           ]
         },
         {
-          "theme": "vegetables",
-          "noun": "tomato",
-          "key": "tomato",
-          "word": "tomate",
-          "graphemes": [
-            "t",
-            "o",
-            "m",
-            "a",
-            "t",
-            "e"
-          ]
-        },
-        {
           "theme": "pets",
           "noun": "turtle",
           "key": "turtle",
@@ -1405,8 +1391,8 @@
         },
         {
           "theme": "fruits",
-          "noun": "lemon",
-          "key": "lemon",
+          "noun": "lime",
+          "key": "lime",
           "word": "limón",
           "graphemes": [
             "l",

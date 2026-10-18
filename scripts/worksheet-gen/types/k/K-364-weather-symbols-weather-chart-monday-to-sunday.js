@@ -4,7 +4,7 @@ const base = require('./K-356-weather-symbols.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"diary","days":7,"start":"mon","box":"rect","legend":6,"legendPx":56} };
+const D = { ...base.difficulty[2], ...{"layout":"diary","days":7,"box":"rect","legend":6,"legendPx":56} };
 module.exports = {
   ...base,
   id: 'K-364',

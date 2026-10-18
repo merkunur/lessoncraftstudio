@@ -3953,7 +3953,8 @@
       "filterType": "Arbeitsblatt-Typ",
       "filterLevel": "Stufe",
       "filterTheme": "Thema",
-      "moreThemes": "Weitere Themen ({count})"
+      "moreThemes": "Weitere Themen ({count})",
+      "moreTypes": "Weitere Typen ({count})"
     },
     "tabs": {
       "all": "Alle",

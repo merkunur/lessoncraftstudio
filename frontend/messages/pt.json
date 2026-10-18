@@ -4138,7 +4138,8 @@
       "filterType": "Tipo de exercício",
       "filterLevel": "Nível",
       "filterTheme": "Tema",
-      "moreThemes": "Mais temas ({count})"
+      "moreThemes": "Mais temas ({count})",
+      "moreTypes": "Mais tipos ({count})"
     },
     "tabs": {
       "all": "Todos",

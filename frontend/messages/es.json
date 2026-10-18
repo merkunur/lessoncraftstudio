@@ -4151,7 +4151,8 @@
       "filterType": "Tipo de hoja",
       "filterLevel": "Nivel",
       "filterTheme": "Tema",
-      "moreThemes": "Más temas ({count})"
+      "moreThemes": "Más temas ({count})",
+      "moreTypes": "Más tipos ({count})"
     },
     "tabs": {
       "all": "Todos",

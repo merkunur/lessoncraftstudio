@@ -2629,7 +2629,8 @@
       "filterType": "Opgavetype",
       "filterLevel": "Niveau",
       "filterTheme": "Tema",
-      "moreThemes": "Flere temaer ({count})"
+      "moreThemes": "Flere temaer ({count})",
+      "moreTypes": "Flere opgavetyper ({count})"
     },
     "tabs": {
       "all": "Alle",

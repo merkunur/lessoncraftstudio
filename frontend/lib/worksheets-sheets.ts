@@ -265,7 +265,15 @@ export function levelSetRows(
     // With a theme the card is told apart by its theme; a copy number ("Set 112") is
     // the generator's counter, not something a teacher can use, so it stays off themed cards.
     const themed = Boolean(themeLabelOf && d.theme);
-    const title = themed ? withTheme(d.title, d.theme as string, themeLabelOf!) : d.title;
+    // On the hub a copy whose face HAS a landing carries that landing's title — the set's name
+    // ("Fact Families to 10: Four Houses, …") — so different faces of one type never read as
+    // duplicates ("Fact Family Houses · Easy" three times in a row, review 2026-10-18).
+    const ownFace = byCode.get(variationCode(d.slug) || '');
+    const base = themeLabelOf && ownFace ? ownFace.h1 : d.title;
+    const label0 = themed ? themeLabelOf!(d.theme as string) : '';
+    const title = !themed ? base
+      : ownFace ? (label0 && !base.toLowerCase().includes(label0.toLowerCase()) ? `${base} — ${label0}` : base)
+        : withTheme(d.title, d.theme as string, themeLabelOf!);
     // On the hub (themeLabelOf given) no copy number at all: "Set 10" is the generator's
     // counter across levels, which a teacher reads as noise (review 2026-10-18). Inside a
     // Level Set view the pages are numbered by position instead (LevelSetView).

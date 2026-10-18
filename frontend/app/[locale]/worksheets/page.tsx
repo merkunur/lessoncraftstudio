@@ -430,9 +430,21 @@ export default async function AllWorksheetsPage({
       .map(({ value, count }) => typeItem(value, count))
       .sort((a, b) => a.label.localeCompare(b.label, locale));
 
+    const TYPES_SHOWN = 10;
+    const capTypes = (items: RailTypeVM[]) => {
+      const byCount = items.slice().sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
+      const head = new Set(byCount.slice(0, TYPES_SHOWN).map((i) => i.key));
+      for (const i of items) if (i.active) head.add(i.key);
+      const shown = items.filter((i) => head.has(i.key));
+      const rest = items.filter((i) => !head.has(i.key));
+      return {
+        items: shown,
+        more: rest.length > 0 ? { label: tBrowse('moreTypes', { count: rest.length }), items: rest } : undefined,
+      };
+    };
     let typeGroup: HubFiltersVM['type'];
     if (filters.subject) {
-      typeGroup = { heading: tBrowse('filterType'), items: typeItems.filter((i) => subjectOfType(i.key) === filters.subject) };
+      typeGroup = { heading: tBrowse('filterType'), ...capTypes(typeItems.filter((i) => subjectOfType(i.key) === filters.subject)) };
     } else {
       // Bare hub: one closed disclosure per subject; every ?type= link stays in the HTML.
       const subjects: RailSubjectVM[] = listSubjectKeys()
@@ -444,7 +456,7 @@ export default async function AllWorksheetsPage({
             count: items.reduce((n, i) => n + (i.count ?? 0), 0),
             open: items.some((i) => i.active),
             hideCount: true,
-            items,
+            ...capTypes(items),
           };
         })
         .filter((g) => g.items.length > 0)
@@ -472,15 +484,19 @@ export default async function AllWorksheetsPage({
 
     rail = {
       heading: tFacets('heading'),
-      grade: { heading: tBrowse('filterLevel'), items: gradeItems },
+      // Inside a Level Set the grade and theme filters cannot narrow anything (a set is one face).
+      grade: { heading: tBrowse('filterLevel'), items: activeLadder ? [] : gradeItems },
       type: typeGroup,
       setsHeading: tLs('heading'),
-      theme: {
-        heading: tBrowse('filterTheme'),
-        items: themeHead.map(themeItem),
-        more: themeTail.length > 0 ? { label: tBrowse('moreThemes', { count: themeTail.length }), items: themeTail.map(themeItem) } : undefined,
-      },
+      theme: activeLadder
+        ? { heading: tBrowse('filterTheme'), items: [] }
+        : {
+            heading: tBrowse('filterTheme'),
+            items: themeHead.map(themeItem),
+            more: themeTail.length > 0 ? { label: tBrowse('moreThemes', { count: themeTail.length }), items: themeTail.map(themeItem) } : undefined,
+          },
       activeCount: [filters.subject, filters.type, filters.set, filters.level, filters.theme].filter(Boolean).length,
+      resultsLabel: '', // set once the result count is known (below)
     };
   }
 
@@ -502,6 +518,7 @@ export default async function AllWorksheetsPage({
     ? RUNGS.reduce((n, r) => n + activeLadder.pages[r].filter((p) => !interactiveOnly || p.interactive).length, 0)
     : ordered.length;
   const pageCount = activeLadder ? 1 : Math.max(1, Math.ceil(total / WORKSHEETS_PAGE_SIZE));
+  if (rail) rail.resultsLabel = tTopic('decksCount', { count: total });
   // Out-of-range page => 404, not a clamp: clamping made ?page=101 and ?page=999
   // both return 200 with an identical copy of the last real page, i.e. an
   // unbounded crawl space of duplicates.
@@ -641,21 +658,45 @@ export default async function AllWorksheetsPage({
 
                   <CatalogActiveChips chips={chips} clearAllHref={clearAllHref} clearAllLabel={tActive('clearAll')} />
 
-                  {/* Below lg the rail is a drawer, so the chosen type's Level Sets also show here. */}
+                  {/* The chosen type's Level Sets — its sub-categories — right under its name, at every
+                      width: a wrapping row on desktop (first 8, the rest behind "+N more sets"), a
+                      swipe row on a phone. The rail lists the same sets under the type. */}
                   {typeSets.length > 0 && (
-                    <nav aria-label={tLs('heading')} className="lg:hidden -mx-3 px-3 mb-4 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                      <ul className="flex gap-2 whitespace-nowrap">
-                        <li className="self-center pr-1 font-lcsBody text-[0.7rem] font-bold uppercase tracking-[0.1em] text-lcs-teal/55">{tLs('heading')}</li>
-                        {typeSets.map((l) => (
-                          <li key={l.code}>
-                            <a href={hrefWith({ type: l.type, set: l.code, level: null, theme: null }, true)} className="inline-flex items-center min-h-[44px] max-w-[15rem] rounded-full bg-white ring-1 ring-lcs-teal/20 px-3.5 font-lcsBody text-[0.82rem] font-semibold text-lcs-teal">
+                    <nav aria-label={tLs('heading')} className="mb-5 rounded-xl bg-white border border-lcs-teal/[0.13] px-3 py-2.5 sm:px-4">
+                      <p className="mb-2 font-lcsBody text-[0.7rem] font-bold uppercase tracking-[0.1em] text-lcs-teal/60">
+                        {tLs('heading')} · {typeSets.length}
+                      </p>
+                      <ul className="flex gap-2 overflow-x-auto sm:overflow-visible sm:flex-wrap -mx-1 px-1 pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                        {typeSets.slice(0, 8).map((l) => (
+                          <li key={l.code} className="shrink-0 sm:shrink">
+                            <a href={hrefWith({ type: l.type, set: l.code, level: null, theme: null }, true)} className="inline-flex items-center gap-1.5 min-h-[40px] max-w-[16rem] rounded-full bg-lcs-cream/60 ring-1 ring-lcs-teal/20 px-3.5 font-lcsBody text-[0.82rem] font-semibold text-lcs-teal hover:ring-lcs-teal/50">
                               <span className="truncate">{l.title}</span>
+                              <span className="text-[0.72rem] font-normal text-lcs-teal/55 tabular-nums">{l.pageCount}</span>
                             </a>
                           </li>
                         ))}
                       </ul>
+                      {typeSets.length > 8 && (
+                        <details className="hub-disc mt-2">
+                          <summary className="inline-flex items-center gap-1.5 min-h-[40px] cursor-pointer list-none font-lcsBody text-[0.82rem] font-semibold text-lcs-teal/75 hover:text-lcs-teal">
+                            <svg viewBox="0 0 24 24" className="hub-caret w-3 h-3 transition-transform" fill="none" stroke="currentColor" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg>
+                            {tLs('moreSets', { count: typeSets.length - 8 })}
+                          </summary>
+                          <ul className="mt-1.5 flex flex-wrap gap-2">
+                            {typeSets.slice(8).map((l) => (
+                              <li key={l.code}>
+                                <a href={hrefWith({ type: l.type, set: l.code, level: null, theme: null }, true)} className="inline-flex items-center gap-1.5 min-h-[40px] max-w-[16rem] rounded-full bg-lcs-cream/60 ring-1 ring-lcs-teal/20 px-3.5 font-lcsBody text-[0.82rem] font-semibold text-lcs-teal hover:ring-lcs-teal/50">
+                                  <span className="truncate">{l.title}</span>
+                                  <span className="text-[0.72rem] font-normal text-lcs-teal/55 tabular-nums">{l.pageCount}</span>
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </details>
+                      )}
                     </nav>
                   )}
+                  <span id="hub-results" className="block scroll-mt-16" aria-hidden="true" />
 
                   {activeLadder ? (
                     <LevelSetView

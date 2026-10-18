@@ -754,7 +754,7 @@ const translations = {
         "selectTheme": "Seleccionar Tema:",
         "allThemes": "Todos los Temas",
         "searchImages": "Buscar Imágenes:",
-        "searchPlaceholder": "ej: manzana, coche",
+        "searchPlaceholder": "ej: manzana, carro",
         "selectedCountMsg": "Seleccionado: {count} / {max}",
         "selectedImagesForPuzzles": "Imágenes Seleccionadas para Actividades:",
 
@@ -778,11 +778,11 @@ const translations = {
         "customWordList": "Lista de palabras personalizada",
         "useCustomWords": "Usar lista de palabras personalizada",
         "customWordListDescription": "Cuando esta opción está activada, cree ejercicios que solo contengan texto usando su lista de palabras personalizada (sin imágenes).",
-        "enterWords": "Introduce las palabras (una por línea, máx. 8):",
+        "enterWords": "Escribe las palabras (una por línea, máx. 8):",
         "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
         "customWordListNote": "Solo se permiten letras. Los caracteres especiales y los números se eliminarán.",
         "customWordListEnabled": "Modo de lista de palabras personalizada activado. El ejercicio será solo de texto.",
-        "customWordListEmpty": "Por favor, introduce al menos una palabra en la lista de palabras personalizada.",
+        "customWordListEmpty": "Por favor, escribe al menos una palabra en la lista de palabras personalizada.",
         "customWordListTruncated": "Usando {count} palabra(s) de su lista. Añada más palabras para más ejercicios.",
 
         // Problem settings

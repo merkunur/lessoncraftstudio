@@ -841,7 +841,7 @@ const translations = {
     "library.selectTheme": "Seleccionar Tema:",
     "library.allThemes": "Todos los Temas",
     "library.search": "Buscar Imágenes:",
-    "library.searchPlaceholder": "ej: manzana, coche",
+    "library.searchPlaceholder": "ej: manzana, carro",
     "library.availableImages": "Imágenes Disponibles:",
     "library.selectedImages": "Imágenes Seleccionadas para los Acertijos:",
     "library.selectUpload": "Seleccionar imágenes para subir:",

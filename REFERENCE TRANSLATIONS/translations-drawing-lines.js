@@ -769,8 +769,8 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= PAGE SETUP =============
     "pageSize": "Tamaño de página:",
-    "letterPortrait": "Carta Vertical (8,5×11\")",
-    "letterLandscape": "Carta Horizontal (11×8,5\")",
+    "letterPortrait": "Carta Vertical (8.5×11\")",
+    "letterLandscape": "Carta Horizontal (11×8.5\")",
     "a4Portrait": "A4 Vertical (210×297mm)",
     "a4Landscape": "A4 Horizontal (297×210mm)",
     "square": "Cuadrado (1200x1200)",

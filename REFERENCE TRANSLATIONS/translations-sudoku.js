@@ -791,8 +791,8 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.page.scene.title": "Página y escenario",
     "sudoku.page.setup": "Configuración de página",
     "sudoku.page.size.label": "Tamaño de página:",
-    "page.size.letter.landscape": "Carta Horizontal (11×8,5\")",
-    "page.size.letter.portrait": "Carta Vertical (8,5×11\")",
+    "page.size.letter.landscape": "Carta Horizontal (11×8.5\")",
+    "page.size.letter.portrait": "Carta Vertical (8.5×11\")",
     "page.size.a4.landscape": "A4 Horizontal (297×210mm)",
     "page.size.a4.portrait": "A4 Vertical (210×297mm)",
     "page.size.custom": "Personalizado",
@@ -826,10 +826,10 @@ const SUDOKU_TRANSLATIONS = {
     // SUDOKU SETTINGS (5 keys)
     // ==========================================
     "sudoku.difficulty.title": "Nivel de dificultad",
-    "sudoku.blanks.label": "Número de casillas vacías:",
-    "sudoku.difficulty.easy": "Fácil (4 casillas vacías)",
-    "sudoku.difficulty.medium": "Medio (6 casillas vacías)",
-    "sudoku.difficulty.hard": "Difícil (8 casillas vacías)",
+    "sudoku.blanks.label": "Número de recuadros vacíos:",
+    "sudoku.difficulty.easy": "Fácil (4 recuadros vacíos)",
+    "sudoku.difficulty.medium": "Medio (6 recuadros vacíos)",
+    "sudoku.difficulty.hard": "Difícil (8 recuadros vacíos)",
 
     // ==========================================
     // TEXT TOOLS (12 keys)
@@ -868,7 +868,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.image.individual": "Selección individual de imágenes",
     "sudoku.filter.theme": "Filtrar por tema:",
     "sudoku.search.label": "Buscar imágenes:",
-    "sudoku.search.placeholder": "ej. manzana, coche",
+    "sudoku.search.placeholder": "ej. manzana, carro",
     "sudoku.available.images": "Imágenes disponibles (4 requeridas):",
     "sudoku.loading.images": "Cargando imágenes...",
     "sudoku.selected.images": "Imágenes seleccionadas:",
@@ -963,7 +963,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.loading.theme": "Cargando tema...",
     "sudoku.msg.no.images": "No se encontraron imágenes{query}.",
     "sudoku.msg.loading.specific": "Cargando tema '{theme}'...",
-    "sudoku.msg.theme.selected": "El puzle se creará con imágenes aleatorias del tema '{theme}'.",
+    "sudoku.msg.theme.selected": "El rompecabezas se creará con imágenes aleatorias del tema '{theme}'.",
     "sudoku.msg.loading.uploads": "Cargando {count} imagen(es)...",
     "sudoku.msg.preparing": "Preparando {filename}...",
     "sudoku.asset.select": "Seleccione un tema para ver {type}.",

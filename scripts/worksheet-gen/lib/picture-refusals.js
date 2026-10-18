@@ -32,6 +32,8 @@ const PICTURE_REFUSALS = new Set([
   "bakery|eclair",
   "body parts|elbow",
   "winter|evergreen",
+  "tree|hemlock",
+  "vegetables bw 2|pepper",
   "body parts|eyebrow",
   "pets|finch",
   "birds 2|finch",

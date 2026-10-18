@@ -14992,16 +14992,6 @@
      "readOnly": [],
      "words": [
       {
-       "key": "macaron",
-       "word": "macarrón",
-       "unit": "ma",
-       "split": [
-        "ma",
-        "ca",
-        "rrón"
-       ]
-      },
-      {
        "key": "mitten",
        "word": "manopla",
        "unit": "ma",
@@ -15048,15 +15038,6 @@
        "split": [
         "me",
         "lón"
-       ]
-      },
-      {
-       "key": "tights",
-       "word": "medias",
-       "unit": "me",
-       "split": [
-        "me",
-        "dias"
        ]
       },
       {
@@ -15173,16 +15154,6 @@
        ]
       },
       {
-       "key": "tissue",
-       "word": "pañuelo",
-       "unit": "pa",
-       "split": [
-        "pa",
-        "ñue",
-        "lo"
-       ]
-      },
-      {
        "key": "umbrella",
        "word": "paraguas",
        "unit": "pa",
@@ -15229,16 +15200,6 @@
         "pi",
         "ja",
         "ma"
-       ]
-      },
-      {
-       "key": "pepper",
-       "word": "pimiento",
-       "unit": "pi",
-       "split": [
-        "pi",
-        "mien",
-        "to"
        ]
       },
       {
@@ -18007,14 +17968,6 @@
      ]
     },
     {
-     "key": "handbag",
-     "word": "bolso",
-     "split": [
-      "bol",
-      "so"
-     ]
-    },
-    {
      "key": "handsaw",
      "word": "serrucho",
      "split": [
@@ -18340,15 +18293,6 @@
      ]
     },
     {
-     "key": "macaron",
-     "word": "macarrón",
-     "split": [
-      "ma",
-      "ca",
-      "rrón"
-     ]
-    },
-    {
      "key": "mailbox",
      "word": "buzón",
      "split": [
@@ -18632,15 +18576,6 @@
      "split": [
       "lá",
       "piz"
-     ]
-    },
-    {
-     "key": "pepper",
-     "word": "pimiento",
-     "split": [
-      "pi",
-      "mien",
-      "to"
      ]
     },
     {
@@ -19272,14 +19207,6 @@
      ]
     },
     {
-     "key": "tart",
-     "word": "tarta",
-     "split": [
-      "tar",
-      "ta"
-     ]
-    },
-    {
      "key": "teapot",
      "word": "tetera",
      "split": [
@@ -19327,23 +19254,6 @@
      "split": [
       "ti",
       "gre"
-     ]
-    },
-    {
-     "key": "tights",
-     "word": "medias",
-     "split": [
-      "me",
-      "dias"
-     ]
-    },
-    {
-     "key": "tissue",
-     "word": "pañuelo",
-     "split": [
-      "pa",
-      "ñue",
-      "lo"
      ]
     },
     {

@@ -267,7 +267,7 @@
     en: { circle: 'Circle {list}', square: 'Put a square around {list}', cross: 'Cross out {list}', count: 'Count {list}' },
     de: { circle: 'Kreise {list} ein', square: 'Zeichne ein Quadrat um {list}', cross: 'Streiche {list} durch', count: 'Zähle {list}' },
     fr: { circle: 'Entoure {list}', square: 'Encadre {list}', cross: 'Barre {list}', count: 'Compte {list}' },
-    es: { circle: 'Rodea {list}', square: 'Pon un cuadrado alrededor de {list}', cross: 'Tacha {list}', count: 'Cuenta {list}' },
+    es: { circle: 'Rodea {list}', square: 'Encierra en un cuadro {list}', cross: 'Tacha {list}', count: 'Cuenta {list}' },
     pt: { circle: 'Circule {list}', square: 'Coloque um quadrado em volta de {list}', cross: 'Risque {list}', count: 'Conte {list}' },
     it: { circle: 'Cerchia {list}', square: 'Metti un quadrato intorno a {list}', cross: 'Barra {list}', count: 'Conta {list}' },
     nl: { circle: 'Omcirkel {list}', square: 'Zet een vierkant om {list}', cross: 'Streep {list} door', count: 'Tel {list}' },

@@ -715,7 +715,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.theme.images": "Imágenes temáticas",
     "codeaddition.theme.label": "Tema:",
     "codeaddition.search.label": "Buscar imágenes:",
-    "codeaddition.search.placeholder": "ej. manzana, coche",
+    "codeaddition.search.placeholder": "ej. manzana, carro",
     "codeaddition.loading.images": "Cargando imágenes...",
     "codeaddition.selected.images": "Imágenes seleccionadas",
     "codeaddition.selected.count": "Seleccionadas: {count} / {max}",

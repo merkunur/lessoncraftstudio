@@ -655,7 +655,7 @@ const translations = {
     "library.filesSelected": "{x} archivo(s) seleccionado(s)",
     "library.noFileChosen": "Ningún archivo elegido",
     "library.search": "Buscar Imágenes:",
-    "library.searchPlaceholder": "ej: manzana, coche",
+    "library.searchPlaceholder": "ej: manzana, carro",
     "library.selectTheme": "Seleccionar Tema del Diccionario:",
     "library.selectUpload": "Selecciona imágenes para subir:",
     "library.selectedCount": "Seleccionadas: {x} / 6",

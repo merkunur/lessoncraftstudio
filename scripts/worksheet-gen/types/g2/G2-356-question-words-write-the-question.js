@@ -5,11 +5,11 @@ const base = require('../g1/G1-353-question-words.js');
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
 const D = { ...base.difficulty[2], ...{"mode":"write","rows":8,"ruling":true,"bank":false,"h":48,"glyphH":24,"picPx":48,"fontPx":18,"kinds":{"who":2,"what":2,"where":2,"when":1,"howmany":1},"maxChars":31,"sentenceMax":40,"maxThings":4,"rowMin":78,"rowGap":6} };
-// QA retry (2026-10-18 es-MX): a NEW page whose answer key runs into the footer is rebuilt with the writing line h 4 px (then 8 px) shorter
+// QA retry (2026-10-18 es-MX): a NEW page whose answer key runs into the footer gets a 4 px (then 8 px) bottom padding under the KEY's rows only: the rows are 1fr and fill the page, so the last seated answer's descender (¿Quién juega…?) reached 2 px past the footer line
 const { withLayoutFit } = require('../../lib/layout-fit.js');
 module.exports = {
   ...base,
-  ...withLayoutFit(base, 'h', 4),
+  ...withLayoutFit(base, 'keyPadB', -4),
   id: 'G2-356',
   slug: 'question-words-write-the-question',
   interactive: base.interactiveFor('write'),

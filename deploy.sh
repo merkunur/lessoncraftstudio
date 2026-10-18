@@ -357,6 +357,10 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksh
 # deck's own tag (Level Set copies and collapsed sheets used to borrow their landing's theme — 38% wrong
 # in en). Reads the DB, so it sources .env.production; --poison proves the pre-fix shape still fails.
 ( set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a; node /opt/lessoncraftstudio/scripts/verify-hub-theme-truth.js --poison ) || { echo "ERROR: a /worksheets theme filter shows worksheets of another theme — see scripts/verify-hub-theme-truth.js"; exit 1; }
+# Sitemap integrity (2026-10-18, "make sure the sitemap is flawless"): topic slugs unique per locale
+# (sv feelings/emotions shared one URL), landing + deck-family hreflang reciprocal (18,603 one-way pairs
+# before), the static-landing port in sync. Static, poison-tested.
+node /opt/lessoncraftstudio/scripts/verify-sitemap-integrity.js --poison || { echo "ERROR: the sitemap would carry a duplicate topic URL or one-way hreflang — see scripts/verify-sitemap-integrity.js"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

@@ -206,7 +206,7 @@ export async function generateMetadata(
   // Cross-locale hreflang: this coordinate + its siblings in other locales (matched on type+mode+theme,
   // NOT level — level is re-derived per locale). buildHreflangAlternates owns the code map (pt→pt-BR) + x-default→en.
   const slugByLocale: Record<string, string> = { [params.locale]: l.slug };
-  for (const s of getSiblingLandingsByCoordinate(l.coordinate, params.locale)) slugByLocale[s.locale] = s.slug;
+  for (const s of getSiblingLandingsByCoordinate(l, params.locale)) slugByLocale[s.locale] = s.slug;
   const languages = buildHreflangAlternates(
     getLandingLocales(),
     (loc) => (slugByLocale[loc] ? canonicalUrl(localePath(loc, 'worksheets', slugByLocale[loc])) : null),

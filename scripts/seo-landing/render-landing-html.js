@@ -122,14 +122,15 @@ function loadLevelsAugment(locale) {
   return data;
 }
 /** The "three levels" block for a landing, or '' when its face has no ladder. */
-function levelsBlockHtml(locale, lv) {
+function levelsBlockHtml(locale, lv, type) {
   if (!lv || !lv.code || !Array.isArray(lv.rungs) || lv.rungs.length < 2) return '';
   const s = deckLadder.strings(locale);
   const msgs = loadMessages(locale) || {};
   const dl = (msgs.deckLadder) || {};
   const heading = dl.landingHeading || 'This worksheet at three levels';
   const body = dl.landingBody || '';
-  const set = deckLadder.setUrl(locale, lv.code);
+  // The set is a sub-category of its type on the hub (2026-10-18); the old set page only redirects there.
+  const set = type ? deckLadder.hubSetUrl(locale, type, lv.code) : deckLadder.setUrl(locale, lv.code);
   const rungs = lv.rungs.map((r, i) => {
     const word = deckLadder.rungWord(r.rung, locale);
     const sib = (r.siblings || []).slice(0, 3).map((p) =>
@@ -420,24 +421,34 @@ function deckAssets(locale, deckSlug) {
   };
 }
 
+/* Port of frontend/lib/seo/landing-content.ts clusterKey/clusterIndex/getSiblingLandingsByCoordinate
+   (2026-10-18) — KEEP IN SYNC. Cluster key = the face code (…-g1209) when present, else the coordinate;
+   a landing joins a cluster only when it is its locale's ONLY landing with that key, so every hreflang
+   pair is reciprocal (the old last-wins coordinate index left 18,603 one-way pairs). */
 function coordKey(c) {
   return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}${c.letter ? '|' + c.letter : ''}${c.target ? '|t:' + c.target : ''}`;
 }
-const _coordIndex = {};
-function coordIndex(locale) {
-  if (_coordIndex[locale]) return _coordIndex[locale];
+function clusterKey(l) {
+  const m = /-((?:k|g\d)\d{3})(?:-\d+)?$/.exec(l.canonicalDeckSlug || '');
+  return m && !l.coordinate.target ? `code:${m[1]}` : coordKey(l.coordinate);
+}
+const _clusterIndex = {};
+function clusterIndex(locale) {
+  if (_clusterIndex[locale]) return _clusterIndex[locale];
   const m = new Map();
   const f = loadFile(locale);
-  if (f) for (const l of f.landings) m.set(coordKey(l.coordinate), l);
-  _coordIndex[locale] = m;
+  if (f) for (const l of f.landings) { const k = clusterKey(l); m.set(k, m.has(k) ? null : l); }
+  _clusterIndex[locale] = m;
   return m;
 }
-function getSiblingLandingsByCoordinate(coordinate, excludeLocale) {
+function getSiblingLandingsByCoordinate(landing, excludeLocale) {
   const out = [];
-  const key = coordKey(coordinate);
+  const key = clusterKey(landing);
+  const own = clusterIndex(excludeLocale).get(key);
+  if (!own || own.slug !== landing.slug) return out;
   for (const loc of LANDING_LOCALES) {
     if (loc === excludeLocale) continue;
-    const m = coordIndex(loc).get(key);
+    const m = clusterIndex(loc).get(key);
     if (m) out.push({ locale: loc, slug: m.slug });
   }
   return out;
@@ -1001,7 +1012,7 @@ function renderLanding(locale, l) {
 
   // hreflang alternates (same as generateMetadata)
   const slugByLocale = { [locale]: l.slug };
-  for (const s of getSiblingLandingsByCoordinate(l.coordinate, locale)) slugByLocale[s.locale] = s.slug;
+  for (const s of getSiblingLandingsByCoordinate(l, locale)) slugByLocale[s.locale] = s.slug;
   const languages = buildHreflangAlternates(
     LANDING_LOCALES,
     (loc) => (slugByLocale[loc] ? canonicalUrl(localePath(loc, 'worksheets', slugByLocale[loc])) : null),
@@ -1208,7 +1219,7 @@ ${aug.siblingThumbs.map((s, i) => {
 
   /* ---------- Level Set block (Level Sets v2; absent augment → empty) ---------- */
   const lvAll = loadLevelsAugment(locale);
-  const levelsHtml = levelsBlockHtml(locale, (lvAll && lvAll[l.slug]) || null);
+  const levelsHtml = levelsBlockHtml(locale, (lvAll && lvAll[l.slug]) || null, l.coordinate && l.coordinate.type);
 
   const mesh = getRelatedLandings(locale, l);
   const meshCol = (heading, items) => items.length === 0 ? '' : `

@@ -206,40 +206,56 @@ export function landingSlugForDeck(locale: string, deckSlug: string): string | n
 }
 
 /**
- * Lazy per-locale coordinate index: `${type}|${mode}|${theme}` → Landing.
- * Built once per locale (same pattern as deckMap). Makes sibling/hreflang lookup
- * O(1) — mandatory for the landings sitemap shard, which iterates ~25k entries
- * and would otherwise pay an O(locales × n) linear scan per entry.
+ * Lazy per-locale CLUSTER index for cross-locale hreflang (sitemap shards 4-7 + the
+ * landing route; render-landing-html.js carries a hand-copied port — keep both in sync).
+ *
+ * The cluster key of a landing is its worksheet-gen FACE CODE when it has one
+ * (`…-g1209` — catalogue-wide, the same face in every locale), else the
+ * (type, mode, theme[, letter][, target]) coordinate. A landing joins a cluster only
+ * when it is the ONLY landing of its locale with that key, and only such landings
+ * are offered as alternates.
+ *
+ * Why (measured 2026-10-18): the old index was coordinate-only and `Map.set` kept the
+ * LAST landing per key, so several landings of one locale that share a coordinate
+ * (different faces of one type + theme) each declared alternates that pointed back
+ * to only one of them — 18,603 non-reciprocal hreflang pairs across the sitemap and
+ * the landing HTML, which Google discards. With face codes + uniqueness: 0.
  */
-const _coordIndex: Record<string, Map<string, Landing>> = {};
 function coordKey(c: LandingCoordinate): string {
   return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}${c.letter ? '|' + c.letter : ''}${c.target ? '|t:' + c.target : ''}`;
 }
-function coordIndex(locale: string): Map<string, Landing> {
-  if (_coordIndex[locale]) return _coordIndex[locale];
-  const m = new Map<string, Landing>();
+function clusterKey(l: Landing): string {
+  const m = /-((?:k|g\d)\d{3})(?:-\d+)?$/.exec(l.canonicalDeckSlug || '');
+  return m && !l.coordinate.target ? `code:${m[1]}` : coordKey(l.coordinate);
+}
+const _clusterIndex: Record<string, Map<string, Landing | null>> = {};
+/** key → the locale's only landing with that key, or null when the key is shared (ambiguous). */
+function clusterIndex(locale: string): Map<string, Landing | null> {
+  if (_clusterIndex[locale]) return _clusterIndex[locale];
+  const m = new Map<string, Landing | null>();
   const f = loadFile(locale);
-  if (f) for (const l of f.landings) m.set(coordKey(l.coordinate), l);
-  _coordIndex[locale] = m;
+  if (f) for (const l of f.landings) { const k = clusterKey(l); m.set(k, m.has(k) ? null : l); }
+  _clusterIndex[locale] = m;
   return m;
 }
 
 /**
- * Cross-locale siblings of a landing: the SAME (type, mode, theme) coordinate in OTHER locales.
- * Matches on type+mode+theme — NOT level (level is RE-DERIVED per locale, e.g. an EN-kindergarten
- * addition coordinate is de-`1-klasse`). Drives the cross-locale hreflang block (en↔de). Returns
- * `{locale, slug}` for every other locale that has a landing for the coordinate. O(locales) via
- * the coordinate index.
+ * Cross-locale hreflang siblings of a landing: the landing with the same cluster key in
+ * every OTHER locale. Level is never part of the key (it is re-derived per locale). A
+ * landing whose key is shared inside its own locale has no siblings (self only), and a
+ * locale whose key is shared offers none — so every declared pair is reciprocal.
  */
 export function getSiblingLandingsByCoordinate(
-  coordinate: LandingCoordinate,
+  landing: Landing,
   excludeLocale: string,
 ): Array<{ locale: string; slug: string }> {
   const out: Array<{ locale: string; slug: string }> = [];
-  const key = coordKey(coordinate);
+  const key = clusterKey(landing);
+  const own = clusterIndex(excludeLocale).get(key);
+  if (!own || own.slug !== landing.slug) return out;
   for (const loc of LANDING_LOCALES) {
     if (loc === excludeLocale) continue;
-    const m = coordIndex(loc).get(key);
+    const m = clusterIndex(loc).get(key);
     if (m) out.push({ locale: loc, slug: m.slug });
   }
   return out;

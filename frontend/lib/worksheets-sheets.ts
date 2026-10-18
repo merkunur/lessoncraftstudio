@@ -266,7 +266,10 @@ export function levelSetRows(
     // the generator's counter, not something a teacher can use, so it stays off themed cards.
     const themed = Boolean(themeLabelOf && d.theme);
     const title = themed ? withTheme(d.title, d.theme as string, themeLabelOf!) : d.title;
-    const label = [title, mode, n > 1 && !themed ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');
+    // On the hub (themeLabelOf given) no copy number at all: "Set 10" is the generator's
+    // counter across levels, which a teacher reads as noise (review 2026-10-18). Inside a
+    // Level Set view the pages are numbered by position instead (LevelSetView).
+    const label = [title, mode, n > 1 && !themeLabelOf ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');
     return {
       ...parent,
       // Its OWN theme, never the borrowed landing's: build-waves picks a theme per

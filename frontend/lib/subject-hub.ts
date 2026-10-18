@@ -22,7 +22,7 @@ export const MIN_INDEXABLE_SUBJECT_HUB_DECKS = 12;
 // `worksheets`/`angle` are the default forms; `worksheetsByLevel`/`angleByLevel`
 // override for specific grade levels where a formal subject label reads wrong
 // (nl: "Taal"→"Letters" at kindergarten; es: "Español"→"lectoescritura" at
-// preescolar/kínder, "Ciencias"→"Exploración del Mundo"/"Conocimiento del Medio").
+// preescolar/kínder, "Ciencias"→"Exploración del Mundo"/"Exploración de la Naturaleza y la Sociedad").
 interface SubjectCopy {
   worksheets: string; // e.g. de "Mathe-Arbeitsblätter", en "Math worksheets"
   angle: string;
@@ -61,7 +61,7 @@ const SUBJECT_COPY: Record<string, Record<string, SubjectCopy>> = {
   // Native Mexican Spanish (§A.13.48 ensemble + operator sign-off). Head noun by
   // intent (Ejercicios/Fichas); labels vary by grade-band: literacy Español→
   // lectoescritura at preescolar/kínder; science Exploración del Mundo (kínder)→
-  // Conocimiento del Medio (1°). NEM/campos-formativos cited in body, not as hub names.
+  // Exploración de la Naturaleza y la Sociedad (1°, SEP name — operator ruling 2026-10-18: Mexican Spanish only). NEM/campos-formativos cited in body, not as hub names.
   es: {
     math: {
       online: 'Ejercicios de matemáticas en línea',

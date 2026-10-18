@@ -438,7 +438,7 @@
     },
     "F1": {
       "title": "Escribe los números ordinales que faltan",
-      "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en las casillas vacías, contando desde la bandera."
+      "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en los recuadros vacíos, contando desde la bandera."
     },
     "F2": {
       "title": "Ordinales en palabras: une con el dibujo",

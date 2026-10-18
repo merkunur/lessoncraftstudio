@@ -401,9 +401,9 @@
     },
     "fill": {
       "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas.",
+      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas.",
       "bankWord": "recuadro",
-      "boxWord": "casilla"
+      "boxWord": "recuadro"
     },
     "sort": {
       "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",

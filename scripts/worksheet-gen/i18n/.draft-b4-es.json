@@ -23,7 +23,7 @@
     },
     "K-359": {
       "title": "Tangram: cuenta triángulos y cuadrados",
-      "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+      "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
     },
     "K-354": {
       "title": "El cuerpo humano",
@@ -31,7 +31,7 @@
     },
     "K-360": {
       "title": "El cuerpo humano: ¿cuántos tienes?",
-      "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en la casilla."
+      "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en el recuadro."
     },
     "K-361": {
       "title": "El cuerpo humano: colorea con la leyenda",
@@ -39,7 +39,7 @@
     },
     "G1-356": {
       "title": "El cuerpo humano: escribe la palabra",
-      "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada casilla."
+      "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada recuadro."
     },
     "K-362": {
       "title": "El cuerpo humano: ¿qué falta?",
@@ -79,11 +79,11 @@
     },
     "G1-362": {
       "title": "El estado del tiempo: escribe la palabra",
-      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
     },
     "K-364": {
       "title": "Registro del tiempo de la semana: de domingo a sábado",
-      "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+      "instruction": "Cada día de esta semana mira por la ventana y dibuja en su recuadro el símbolo del tiempo que hace."
     },
     "K-365": {
       "title": "El termómetro: ¿frío, templado o calor?",
@@ -123,23 +123,23 @@
     },
     "G1-350": {
       "title": "Completa las oraciones",
-      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
     },
     "G1-366": {
-      "title": "Completa la oración con una letra en cada casilla",
-      "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+      "title": "Completa la oración con una letra en cada recuadro",
+      "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada recuadro."
     },
     "G1-367": {
       "title": "Completa la oración: rodea la palabra correcta",
-      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
     },
     "G2-349": {
       "title": "Completa las oraciones en plural",
-      "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+      "instruction": "Mira los dibujos. Hay más de uno. Escribe en el recuadro la palabra para más de uno."
     },
     "G2-350": {
       "title": "Completa el cuento con las palabras que faltan",
-      "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+      "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su recuadro."
     },
     "G1-368": {
       "title": "Une cada oración con su dibujo",
@@ -151,7 +151,7 @@
     },
     "G2-351": {
       "title": "¿Par o impar? Escribe dos sumandos iguales",
-      "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en la casilla pequeña lo que sobra."
+      "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
     },
     "G1-369": {
       "title": "¿Se puede repartir entre dos? Par o impar",
@@ -159,7 +159,7 @@
     },
     "G2-352": {
       "title": "Números pares e impares del 1 al 100: mira las unidades",
-      "instruction": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar."
+      "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
     },
     "G3-386": {
       "title": "¿Suma par o impar? Decide sin sumar",
@@ -175,7 +175,7 @@
     },
     "G1-371": {
       "title": "Sustituye el nombre por un pronombre",
-      "instruction": "Lee la oración. Escribe en la casilla el pronombre del recuadro que sustituye al nombre en la segunda oración."
+      "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración."
     },
     "G2-353": {
       "title": "¿Quién es él? Pronombres en oraciones",
@@ -199,7 +199,7 @@
     },
     "G1-374": {
       "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas."
+      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas."
     },
     "G1-375": {
       "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",
@@ -215,7 +215,7 @@
     },
     "G2-346": {
       "title": "Redondeo de números a la decena",
-      "instruction": "Redondea cada número a la decena más cercana y escríbelo en la casilla. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
+      "instruction": "Redondea cada número a la decena más cercana y escríbelo en el recuadro. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
     },
     "G3-387": {
       "title": "¿Hacia arriba o hacia abajo? Clasifica los números",
@@ -223,11 +223,11 @@
     },
     "G3-388": {
       "title": "Redondeo de números a la centena",
-      "instruction": "Redondea cada número a la centena más cercana y escríbelo en la casilla. Fíjate en la cifra de las decenas."
+      "instruction": "Redondea cada número a la centena más cercana y escríbelo en el recuadro. Fíjate en la cifra de las decenas."
     },
     "G3-389": {
       "title": "Redondea y estima la suma",
-      "instruction": "Redondea los dos números a la decena y escríbelos en las casillas. Luego suma los números redondeados."
+      "instruction": "Redondea los dos números a la decena y escríbelos en los recuadros. Luego suma los números redondeados."
     },
     "G3-390": {
       "title": "¿Qué números se redondean a 50?",
@@ -235,7 +235,7 @@
     },
     "G3-391": {
       "title": "Redondeo de números a la decena y a la centena",
-      "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
+      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
     }
   },
   "families": {
@@ -302,7 +302,7 @@
       "short": "Separar la basura orgánica e inorgánica"
     },
     "cloze": {
-      "full": "Completar oraciones con dibujos para primero y segundo grado: elegir el sustantivo que falta, escribirlo en casillas, formar el plural y completar un cuento corto.",
+      "full": "Completar oraciones con dibujos para primero y segundo grado: elegir el sustantivo que falta, escribirlo en recuadros, formar el plural y completar un cuento corto.",
       "short": "Completar oraciones con dibujos"
     },
     "odd-and-even": {
@@ -328,7 +328,7 @@
     "five-senses": "Los cinco sentidos para imprimir: unir cada dibujo con su sentido, clasificar, nombrar los órganos de los sentidos y escribir oraciones. Preescolar y primer grado.",
     "weather-symbols": "El estado del tiempo para imprimir: símbolos y palabras, registro del tiempo de la semana, el termómetro y el ciclo del agua. De preescolar a tercer grado.",
     "recycling": "Separación de basura para imprimir: clasificar cosas en el bote orgánico o inorgánico, reconocer lo reciclable y colorear los botes. De preescolar a segundo grado.",
-    "cloze": "Completar oraciones con dibujos para imprimir: el sustantivo que falta, letras en casillas, el plural y un cuento corto. Primero y segundo grado.",
+    "cloze": "Completar oraciones con dibujos para imprimir: el sustantivo que falta, letras en recuadros, el plural y un cuento corto. Primero y segundo grado.",
     "odd-and-even": "Números pares e impares para imprimir: clasificar números hasta el 20 y hasta el 100, rodear en parejas, repartir entre dos y decidir sumas sin sumar.",
     "pronouns": "Pronombres personales para imprimir: él, ella, ellos o ellas en lugar del nombre, sustituir, encontrar a quién se refiere y reescribir oraciones. Primero y segundo grado.",
     "question-words": "Preguntas con quién, qué, dónde, cuándo y cuántos para imprimir: elegir, completar, clasificar respuestas y escribir preguntas con sus signos. Primero y segundo grado.",
@@ -359,7 +359,7 @@
         },
         "count": {
           "title": "Tangram: cuenta triángulos y cuadrados",
-          "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+          "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
         }
       }
     },
@@ -470,7 +470,7 @@
         },
         "K-360": {
           "title": "El cuerpo humano: ¿cuántos tienes?",
-          "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en la casilla."
+          "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en el recuadro."
         },
         "K-361": {
           "title": "El cuerpo humano: colorea con la leyenda",
@@ -478,7 +478,7 @@
         },
         "G1-356": {
           "title": "El cuerpo humano: escribe la palabra",
-          "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada casilla."
+          "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada recuadro."
         },
         "K-362": {
           "title": "El cuerpo humano: ¿qué falta?",
@@ -541,7 +541,7 @@
           "instruction": "Completa cada oración. Escribe qué puedes oír, ver, oler, probar y tocar."
         }
       },
-      "strand": "Conocimiento del Medio"
+      "strand": "Exploración de la Naturaleza y la Sociedad"
     },
     "weather-symbols": {
       "symbolWords": {
@@ -587,11 +587,11 @@
         },
         "G1-362": {
           "title": "El estado del tiempo: escribe la palabra",
-          "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+          "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
         },
         "K-364": {
           "title": "Registro del tiempo de la semana: de domingo a sábado",
-          "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+          "instruction": "Cada día de esta semana mira por la ventana y dibuja en su recuadro el símbolo del tiempo que hace."
         },
         "K-365": {
           "title": "El termómetro: ¿frío, templado o calor?",
@@ -606,7 +606,7 @@
           "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
         }
       },
-      "strand": "Conocimiento del Medio"
+      "strand": "Exploración de la Naturaleza y la Sociedad"
     },
     "recycling": {
       "bins": [
@@ -678,7 +678,7 @@
           "instruction": "Dibuja tres cosas que separas en casa y escribe qué es cada una."
         }
       },
-      "strand": "Conocimiento del Medio"
+      "strand": "Exploración de la Naturaleza y la Sociedad"
     },
     "cloze": {
       "nameSlot": false,
@@ -686,7 +686,7 @@
         "m": "el",
         "f": "la"
       },
-      "boxWord": "una letra en cada casilla",
+      "boxWord": "una letra en cada recuadro",
       "confusable": [
         [
           "bus",
@@ -1506,23 +1506,23 @@
       "strings": {
         "base": {
           "title": "Completa las oraciones",
-          "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+          "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
         },
         "letters": {
-          "title": "Completa la oración con una letra en cada casilla",
-          "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+          "title": "Completa la oración con una letra en cada recuadro",
+          "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada recuadro."
         },
         "choice": {
           "title": "Completa la oración: rodea la palabra correcta",
-          "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+          "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
         },
         "plural": {
           "title": "Completa las oraciones en plural",
-          "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+          "instruction": "Mira los dibujos. Hay más de uno. Escribe en el recuadro la palabra para más de uno."
         },
         "story": {
           "title": "Completa el cuento con las palabras que faltan",
-          "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+          "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su recuadro."
         },
         "match": {
           "title": "Une cada oración con su dibujo",
@@ -1557,7 +1557,7 @@
         },
         "proof": {
           "title": "¿Par o impar? Escribe dos sumandos iguales",
-          "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en la casilla pequeña lo que sobra."
+          "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
         },
         "share": {
           "title": "¿Se puede repartir entre dos? Par o impar",
@@ -1565,7 +1565,7 @@
         },
         "ones": {
           "title": "Números pares e impares del 1 al 100: mira las unidades",
-          "instruction": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar."
+          "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
         },
         "sums": {
           "title": "¿Suma par o impar? Decide sin sumar",
@@ -2207,7 +2207,7 @@
         },
         "replace": {
           "title": "Sustituye el nombre por un pronombre",
-          "instruction": "Lee la oración. Escribe en la casilla el pronombre del recuadro que sustituye al nombre en la segunda oración.",
+          "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración.",
           "bankWord": "recuadro"
         },
         "anaphora": {
@@ -2627,9 +2627,9 @@
         },
         "fill": {
           "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-          "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas.",
+          "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas.",
           "bankWord": "recuadro",
-          "boxWord": "casilla"
+          "boxWord": "recuadro"
         },
         "sort": {
           "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",
@@ -2672,7 +2672,7 @@
       "strings": {
         "base": {
           "title": "Redondeo de números a la decena",
-          "instruction": "Redondea cada número a la decena más cercana y escríbelo en la casilla. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
+          "instruction": "Redondea cada número a la decena más cercana y escríbelo en el recuadro. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
         },
         "sort": {
           "title": "¿Hacia arriba o hacia abajo? Clasifica los números",
@@ -2680,11 +2680,11 @@
         },
         "hundred": {
           "title": "Redondeo de números a la centena",
-          "instruction": "Redondea cada número a la centena más cercana y escríbelo en la casilla. Fíjate en la cifra de las decenas."
+          "instruction": "Redondea cada número a la centena más cercana y escríbelo en el recuadro. Fíjate en la cifra de las decenas."
         },
         "estimate": {
           "title": "Redondea y estima la suma",
-          "instruction": "Redondea los dos números a la decena y escríbelos en las casillas. Luego suma los números redondeados."
+          "instruction": "Redondea los dos números a la decena y escríbelos en los recuadros. Luego suma los números redondeados."
         },
         "inverse": {
           "title": "¿Qué números se redondean a 50?",
@@ -2692,7 +2692,7 @@
         },
         "both": {
           "title": "Redondeo de números a la decena y a la centena",
-          "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
+          "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
         }
       },
       "refuse": [],

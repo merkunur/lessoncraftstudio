@@ -2138,11 +2138,11 @@
     },
     "K-326": {
       "title": "¿Al principio, en medio o al final? La letra {U}",
-      "instruction": "Di el nombre de cada dibujo. Colorea la casilla que muestra dónde suena la {U}: al principio, en medio o al final."
+      "instruction": "Di el nombre de cada dibujo. Colorea el recuadro que muestra dónde suena la {U}: al principio, en medio o al final."
     },
     "K-327": {
       "title": "Rodea la {U} en las palabras y cuenta",
-      "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en la casilla cuántas encontraste."
+      "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
     },
     "G1-311": {
       "title": "Dos letras, un solo sonido: {U}",

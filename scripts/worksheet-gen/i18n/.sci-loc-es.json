@@ -1,6 +1,6 @@
 {
   "locale": "es",
-  "strand": "Conocimiento del medio",
+  "strand": "Exploración de la Naturaleza y la Sociedad",
   "families": {
     "science-sort": { "name": "Clasificar en ciencias", "slug": "clasificar-ciencias" },
     "science-sequence": { "name": "Secuencias y ciclos de vida", "slug": "secuencias-ciclos-de-vida" },

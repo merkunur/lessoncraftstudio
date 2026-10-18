@@ -7,20 +7,20 @@
     "K-287": {"title": "Singular y plural: uno y muchos", "instruction": "Lee la palabra de uno. Después repasa la palabra de muchos y escríbela tú en la línea vacía."},
     "K-288": {"title": "¿El o la? Rodea el artículo", "instruction": "Di en voz alta el nombre del dibujo. Rodea el artículo que va delante: el o la."},
     "G1-242": {"title": "Lee y colorea", "instruction": "Lee cada frase con atención. Después colorea solo los dibujos que dice la frase, del color que indica."},
-    "G1-243": {"title": "El número del día", "instruction": "Mira el número grande. Llena todas las casillas con ese número."},
+    "G1-243": {"title": "El número del día", "instruction": "Mira el número grande. Llena todos los recuadros con ese número."},
     "G1-244": {"title": "Dictado mudo: escribe la palabra", "instruction": "Di el nombre de cada dibujo. Escribe la palabra en la línea."},
     "G1-245": {"title": "Orden alfabético", "instruction": "Usa la tira del abecedario. Numera las palabras del 1 al 6 en orden alfabético y escríbelas en orden en las líneas."},
     "G1-246": {"title": "Pirámides numéricas", "instruction": "Cada ladrillo es la suma de los dos ladrillos de abajo. Completa los números que faltan."},
-    "G1-247": {"title": "Dobles y mitades", "instruction": "Calcula el doble del grupo de la izquierda y la mitad del grupo de la derecha. Escribe los números en las casillas."},
-    "G1-248": {"title": "La recta numérica: ¿qué número es?", "instruction": "Cada flecha señala una marca de la recta. Cuenta desde el número más cercano y escribe el número en la casilla."},
+    "G1-247": {"title": "Dobles y mitades", "instruction": "Calcula el doble del grupo de la izquierda y la mitad del grupo de la derecha. Escribe los números en los recuadros."},
+    "G1-248": {"title": "La recta numérica: ¿qué número es?", "instruction": "Cada flecha señala una marca de la recta. Cuenta desde el número más cercano y escribe el número en el recuadro."},
     "G1-249": {"title": "Ordena la frase", "instruction": "Las palabras están desordenadas. Ordénalas y escribe la frase en la línea, con mayúscula al principio y su signo al final."},
     "G2-274": {"title": "Mayúsculas y puntuación: corrige la frase", "instruction": "Cada frase ha perdido la mayúscula y el signo del final. Escríbela otra vez correctamente en la línea."},
     "G2-275": {"title": "Sustantivo, verbo y adjetivo", "instruction": "Lee cada palabra. ¿Nombra algo, indica una acción o dice cómo es? Escríbela en la caja que le corresponde."},
     "G2-276": {"title": "Problemas con dinero: vamos de compras", "instruction": "Busca cada producto en el estante y lee su precio. Después responde a las preguntas sobre el dinero."},
     "G2-277": {"title": "Lee el calendario", "instruction": "Mira el calendario y úsalo para responder a todas las preguntas."},
     "G2-278": {"title": "Escribe sobre la imagen", "instruction": "Mira la imagen. Ayúdate del banco de palabras para escribir lo que ves."},
-    "G2-279": {"title": "Coordenadas en la cuadrícula", "instruction": "Busca cada casilla por su letra y su número, como B2. Coloréala con el color de su grupo y descubre el dibujo."},
-    "G3-370": {"title": "Problemas de multiplicación y división", "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en la casilla y completa la frase de respuesta."}
+    "G2-279": {"title": "Coordenadas en la cuadrícula", "instruction": "Busca cada recuadro por su letra y su número, como B2. Coloréalo con el color de su grupo y descubre el dibujo."},
+    "G3-370": {"title": "Problemas de multiplicación y división", "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en el recuadro y completa la frase de respuesta."}
   },
   "families": {
     "word-tracing": {"slug": "palabras-punteadas", "name": "Palabras punteadas"},
@@ -49,7 +49,7 @@
     "articles": {"full": "Rodear el artículo correcto junto a cada dibujo afianza el género de los sustantivos y la concordancia de la que dependerá cada frase escrita.", "short": "Afianza el género y los artículos el y la."},
     "read-and-color": {"full": "Leer una frase corta y colorear exactamente lo que dice convierte la lectura mecánica en comprensión real que el propio niño puede comprobar.", "short": "Desarrolla la comprensión lectora coloreando."},
     "number-of-the-day": {"full": "Representar un mismo número en letras, en decenas y unidades, en marcos de diez, con marcas y en la recta numérica construye un sentido numérico profundo.", "short": "Construye el sentido numérico con varias representaciones."},
-    "write-the-word": {"full": "Escribir el nombre de cada dibujo, con banco de palabras, con casillas por letra o sin ninguna ayuda, construye la ortografía desde los sonidos hasta las letras.", "short": "Trabaja la ortografía a partir de dibujos."},
+    "write-the-word": {"full": "Escribir el nombre de cada dibujo, con banco de palabras, con recuadros por letra o sin ninguna ayuda, construye la ortografía desde los sonidos hasta las letras.", "short": "Trabaja la ortografía a partir de dibujos."},
     "alphabetical-order": {"full": "Ordenar palabras con dibujo por orden alfabético fija la secuencia de las letras y prepara el uso del diccionario que todo lector necesita.", "short": "Trabaja el orden alfabético."},
     "number-walls": {"full": "Completar cada ladrillo con la suma de los dos de abajo da soltura en la suma y enseña a buscar el sumando que falta en un solo rompecabezas.", "short": "Da soltura en la suma con pirámides numéricas."},
     "doubles-halves": {"full": "Calcular el doble de un grupo y la mitad de otro construye los dobles que abren paso a los casi dobles, los números pares y la primera multiplicación.", "short": "Construye los dobles y las mitades."},
@@ -58,7 +58,7 @@
     "word-classes": {"full": "Clasificar palabras en sustantivos, verbos y adjetivos construye las categorías gramaticales que los niños necesitan para hablar de la lengua.", "short": "Trabaja sustantivos, verbos y adjetivos."},
     "calendar": {"full": "Leer fechas, días de la semana y semanas en un mes real construye las destrezas de calendario que los niños usan cada día en clase y en casa.", "short": "Enseña a leer el calendario."},
     "picture-writing": {"full": "Escribir sobre una imagen con banco de palabras y comienzos de frase convierte una página en blanco en un primer cuento escrito con seguridad.", "short": "Inicia la escritura a partir de una imagen."},
-    "grid-coordinates": {"full": "Colorear cada casilla indicada en una cuadrícula con letras y números enseña a leer coordenadas y hace aparecer un dibujo escondido.", "short": "Enseña a leer coordenadas en una cuadrícula."}
+    "grid-coordinates": {"full": "Colorear cada recuadro indicada en una cuadrícula con letras y números enseña a leer coordenadas y hace aparecer un dibujo escondido.", "short": "Enseña a leer coordenadas en una cuadrícula."}
   },
   "topicMeta": {
     "word-tracing": "Fichas de palabras punteadas: mira el dibujo, repasa su nombre sobre pauta y escribe la palabra tú. PDF gratis para imprimir.",
@@ -77,7 +77,7 @@
     "word-classes": "Fichas de clases de palabras: clasifica cada palabra en sustantivo, verbo o adjetivo. PDF gratis para imprimir.",
     "calendar": "Fichas del calendario: lee el mes y responde preguntas sobre fechas, días de la semana y semanas. PDF gratis para imprimir.",
     "picture-writing": "Fichas de escribir sobre la imagen: escribe sobre lo que ves con banco de palabras y comienzos de frase. PDF gratis para imprimir.",
-    "grid-coordinates": "Fichas de coordenadas en cuadrícula: colorea las casillas indicadas con letra y número y descubre el dibujo escondido. PDF gratis para imprimir."
+    "grid-coordinates": "Fichas de coordenadas en cuadrícula: colorea los recuadros indicados con letra y número y descubre el dibujo escondido. PDF gratis para imprimir."
   },
   "colorWords": {"orange": "naranja", "purple": "morado", "brown": "café", "pink": "rosa"},
   "figureNames": {

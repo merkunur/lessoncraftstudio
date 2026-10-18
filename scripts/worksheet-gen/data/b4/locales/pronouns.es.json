@@ -626,7 +626,7 @@
     },
     "replace": {
       "title": "Sustituye el nombre por un pronombre",
-      "instruction": "Lee la oración. Escribe en la casilla el pronombre del recuadro que sustituye al nombre en la segunda oración.",
+      "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración.",
       "bankWord": "recuadro"
     },
     "anaphora": {

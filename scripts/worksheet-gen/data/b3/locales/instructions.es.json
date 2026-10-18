@@ -1812,11 +1812,11 @@
   "strings": {
     "G1-308": {
       "title": "Lee y haz: sigue las instrucciones",
-      "instruction": "Mira la fila de dibujos y empieza en la bandera. Lee cada oración y haz exactamente lo que dice con tu lápiz. Luego marca la casilla."
+      "instruction": "Mira la fila de dibujos y empieza en la bandera. Lee cada oración y haz exactamente lo que dice con tu lápiz. Luego marca el recuadro."
     },
     "F1": {
       "title": "Lee y encierra en un círculo",
-      "instruction": "Lee cada oración. Busca en la fila el dibujo o los dibujos que nombra y enciérralos en un círculo. Luego marca la casilla."
+      "instruction": "Lee cada oración. Busca en la fila el dibujo o los dibujos que nombra y enciérralos en un círculo. Luego marca el recuadro."
     },
     "F2": {
       "title": "Lee y haz: instrucciones de dos pasos",

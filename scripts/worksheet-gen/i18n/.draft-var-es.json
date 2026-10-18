@@ -83,7 +83,7 @@
     },
     "K-264": {
       "title": "Recorta y pega en dos grupos",
-      "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."
+      "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su recuadro."
     },
     "K-265": {
       "title": "Colorea según la figura",
@@ -139,23 +139,23 @@
     },
     "G1-214": {
       "title": "Cálculo mental hasta 10",
-      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
     },
     "G1-215": {
       "title": "Halla el número que falta hasta 20",
-      "instruction": "Piensa mentalmente qué número falta y escríbelo en la casilla."
+      "instruction": "Piensa mentalmente qué número falta y escríbelo en el recuadro."
     },
     "G1-216": {
       "title": "Sumas mentales hasta 20",
-      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
     },
     "G1-217": {
       "title": "Restas mentales hasta 20",
-      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+      "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
     },
     "G1-218": {
       "title": "Halla el número que falta hasta 10",
-      "instruction": "Piensa mentalmente qué número falta y escríbelo en la casilla."
+      "instruction": "Piensa mentalmente qué número falta y escríbelo en el recuadro."
     },
     "G1-219": {
       "title": "Casitas de operaciones hasta 10",
@@ -195,19 +195,19 @@
     },
     "G1-228": {
       "title": "Contamos monedas: primeros pasos",
-      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
     },
     "G1-229": {
       "title": "Contamos con todas las monedas",
-      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
     },
     "G1-230": {
       "title": "Práctica de contar monedas",
-      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
     },
     "G1-231": {
       "title": "Monedas de 1 y 2 pesos",
-      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+      "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
     },
     "G1-232": {
       "title": "¿Qué monedero tiene más dinero?",
@@ -235,19 +235,19 @@
     },
     "G1-238": {
       "title": "Problemas de sumas",
-      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
     },
     "G1-239": {
       "title": "Problemas de restas",
-      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
     },
     "G1-240": {
       "title": "Problemas hasta 10",
-      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
     },
     "G1-241": {
       "title": "Práctica de problemas",
-      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+      "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
     },
     "G2-255": {
       "title": "Sumas sin llevar de dos cifras",
@@ -347,23 +347,23 @@
     },
     "G3-364": {
       "title": "La tabla del 2",
-      "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+      "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
     },
     "G3-365": {
       "title": "La tabla del 5",
-      "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+      "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
     },
     "G3-366": {
       "title": "La tabla del 10",
-      "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+      "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
     },
     "G3-367": {
       "title": "La tabla del 3",
-      "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+      "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
     },
     "G3-368": {
       "title": "La tabla del 4",
-      "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+      "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
     },
     "G3-369": {
       "title": "Familias de multiplicar y dividir",

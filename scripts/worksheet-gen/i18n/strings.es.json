@@ -990,7 +990,7 @@
   },
   "K-240": {
     "title": "Recorta, clasifica y pega",
-    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."
+    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su recuadro."
   },
   "K-241": {
     "title": "Colorea según el resultado",
@@ -1006,7 +1006,7 @@
   },
   "G1-208": {
     "title": "Cálculo mental hasta 20",
-    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
   },
   "G1-209": {
     "title": "Casitas de sumas y restas",
@@ -1018,7 +1018,7 @@
   },
   "G1-211": {
     "title": "Contamos monedas",
-    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
   },
   "G1-212": {
     "title": "Dibuja las agujas del reloj",
@@ -1027,7 +1027,7 @@
   },
   "G1-213": {
     "title": "Problemas con dibujos",
-    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
   },
   "G2-251": {
     "title": "Sumas y restas sin llevar",
@@ -1051,7 +1051,7 @@
   },
   "G3-358": {
     "title": "Las tablas de multiplicar",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "K-244": {
     "title": "Grafomotricidad: rectas y zigzag",
@@ -1135,7 +1135,7 @@
   },
   "K-264": {
     "title": "Recorta y pega en dos grupos",
-    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."
+    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su recuadro."
   },
   "K-265": {
     "title": "Colorea según la figura",
@@ -1191,23 +1191,23 @@
   },
   "G1-214": {
     "title": "Cálculo mental hasta 10",
-    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
   },
   "G1-215": {
     "title": "Halla el número que falta hasta 20",
-    "instruction": "Calcula mentalmente qué número falta y escríbelo en la casilla."
+    "instruction": "Calcula mentalmente qué número falta y escríbelo en el recuadro."
   },
   "G1-216": {
     "title": "Sumas mentales hasta 20",
-    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
   },
   "G1-217": {
     "title": "Restas mentales hasta 20",
-    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en el recuadro."
   },
   "G1-218": {
     "title": "Halla el número que falta hasta 10",
-    "instruction": "Calcula mentalmente qué número falta y escríbelo en la casilla."
+    "instruction": "Calcula mentalmente qué número falta y escríbelo en el recuadro."
   },
   "G1-219": {
     "title": "Casitas de operaciones hasta 10",
@@ -1247,19 +1247,19 @@
   },
   "G1-228": {
     "title": "Contamos monedas: primeros pasos",
-    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
   },
   "G1-229": {
     "title": "Contamos con todas las monedas",
-    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
   },
   "G1-230": {
     "title": "Práctica de contar monedas",
-    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
   },
   "G1-231": {
     "title": "Monedas de 1 y 2 pesos",
-    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en el recuadro."
   },
   "G1-232": {
     "title": "¿Qué monedero tiene más dinero?",
@@ -1292,19 +1292,19 @@
   },
   "G1-238": {
     "title": "Problemas de sumas",
-    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
   },
   "G1-239": {
     "title": "Problemas de restas",
-    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
   },
   "G1-240": {
     "title": "Problemas hasta 10",
-    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
   },
   "G1-241": {
     "title": "Práctica de problemas",
-    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en el recuadro."
   },
   "G2-255": {
     "title": "Sumas sin llevar de dos cifras",
@@ -1404,23 +1404,23 @@
   },
   "G3-364": {
     "title": "La tabla del 2",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-365": {
     "title": "La tabla del 5",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-366": {
     "title": "La tabla del 10",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-367": {
     "title": "La tabla del 3",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-368": {
     "title": "La tabla del 4",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-369": {
     "title": "Familias de multiplicar y dividir",
@@ -1476,7 +1476,7 @@
   },
   "G1-243": {
     "title": "El número del día",
-    "instruction": "Mira el número grande. Llena todas las casillas con ese número."
+    "instruction": "Mira el número grande. Llena todos los recuadros con ese número."
   },
   "G1-244": {
     "title": "Dictado mudo: escribe la palabra",
@@ -1492,11 +1492,11 @@
   },
   "G1-247": {
     "title": "Dobles y mitades",
-    "instruction": "Calcula el doble del grupo de la izquierda y la mitad del grupo de la derecha. Escribe los números en las casillas."
+    "instruction": "Calcula el doble del grupo de la izquierda y la mitad del grupo de la derecha. Escribe los números en los recuadros."
   },
   "G1-248": {
     "title": "La recta numérica: ¿qué número es?",
-    "instruction": "Cada flecha señala una marca de la recta. Cuenta desde el número más cercano y escribe el número en la casilla."
+    "instruction": "Cada flecha señala una marca de la recta. Cuenta desde el número más cercano y escribe el número en el recuadro."
   },
   "G1-249": {
     "title": "Ordena la frase",
@@ -1524,11 +1524,11 @@
   },
   "G2-279": {
     "title": "Coordenadas en la cuadrícula",
-    "instruction": "Busca cada casilla por su letra y su número, como B2. Coloréala con el color de su grupo y descubre el dibujo."
+    "instruction": "Busca cada recuadro por su letra y su número, como B2. Coloréalo con el color de su grupo y descubre el dibujo."
   },
   "G3-370": {
     "title": "Problemas de multiplicación y división",
-    "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en la casilla y completa la frase de respuesta."
+    "instruction": "Lee cada problema. Ayúdate del dibujo. Escribe la respuesta en el recuadro y completa la frase de respuesta."
   },
   "K-289": {
     "title": "Repasa y escribe: primeras palabras",
@@ -1560,7 +1560,7 @@
   },
   "K-299": {
     "title": "Copia el dibujo con letras y números",
-    "instruction": "Cada casilla tiene una letra y un número: B2."
+    "instruction": "Cada recuadro tiene una letra y un número: B2."
   },
   "K-300": {
     "title": "Copia el dibujo en una cuadrícula de 8x8",
@@ -1592,7 +1592,7 @@
   },
   "G1-255": {
     "title": "El número del día: números del 11 al 19",
-    "instruction": "El número de hoy está entre el 11 y el 19. Llena todas las casillas."
+    "instruction": "El número de hoy está entre el 11 y el 19. Llena todos los recuadros."
   },
   "G1-256": {
     "title": "El número del día: 10 más y 10 menos",
@@ -1600,7 +1600,7 @@
   },
   "G1-257": {
     "title": "El número del día: hasta el 99",
-    "instruction": "El número de hoy tiene dos cifras: escríbelo en decenas y unidades y llena todas las casillas."
+    "instruction": "El número de hoy tiene dos cifras: escríbelo en decenas y unidades y llena todos los recuadros."
   },
   "G1-258": {
     "title": "Dictado mudo: con la primera letra",
@@ -1756,11 +1756,11 @@
   },
   "G2-302": {
     "title": "Coordenadas en una cuadrícula de 6x6",
-    "instruction": "Cuadrícula de 6x6: colorea casilla a casilla."
+    "instruction": "Cuadrícula de 6x6: colorea recuadro por recuadro."
   },
   "G2-303": {
     "title": "Coordenadas en una cuadrícula de 10x10",
-    "instruction": "Busca cada casilla por su letra y su número, como B2, y coloréala con el color de su grupo."
+    "instruction": "Busca cada recuadro por su letra y su número, como B2, y coloréalo con el color de su grupo."
   },
   "G3-371": {
     "title": "Problemas de multiplicación",
@@ -1864,7 +1864,7 @@
   },
   "G2-308": {
     "title": "Coordenadas: escribe tú los códigos",
-    "instruction": "El dibujo ya está coloreado. Escribe el código de cada casilla en la lista de su color."
+    "instruction": "El dibujo ya está coloreado. Escribe el código de cada recuadro en la lista de su color."
   },
   "K-309": {
     "title": "Une los puntos con el abecedario",
@@ -1891,8 +1891,8 @@
     "instruction": "Pon cada palabra en Sustantivos o Adjetivos."
   },
   "G1-301": {
-    "title": "Dictado mudo: banco y casillas",
-    "instruction": "Busca la palabra en el banco y escribe una letra en cada casilla."
+    "title": "Dictado mudo: banco y recuadros",
+    "instruction": "Busca la palabra en el banco y escribe una letra en cada recuadro."
   },
   "G2-311": {
     "title": "Dos frases: ¿punto o interrogación?",
@@ -1923,12 +1923,12 @@
     "instruction": "El signo cierra la frase: ordena."
   },
   "G1-303": {
-    "title": "Dictado mudo: casillas e inicial",
-    "instruction": "Di el nombre de cada dibujo y escribe una letra en cada casilla. La primera letra ya está escrita."
+    "title": "Dictado mudo: recuadros e inicial",
+    "instruction": "Di el nombre de cada dibujo y escribe una letra en cada recuadro. La primera letra ya está escrita."
   },
   "G1-304": {
     "title": "Dictado mudo con todas las pistas",
-    "instruction": "Busca la palabra en el banco. Después de la primera letra, escribe una letra en cada casilla."
+    "instruction": "Busca la palabra en el banco. Después de la primera letra, escribe una letra en cada recuadro."
   },
   "K-317": {
     "title": "La letra {U}{L}: repasa, busca y escribe",
@@ -1976,7 +1976,7 @@
   },
   "G1-308": {
     "title": "Lee y haz: sigue las instrucciones",
-    "instruction": "Mira la fila de dibujos y empieza en la bandera. Lee cada oración y haz exactamente lo que dice con tu lápiz. Luego marca la casilla."
+    "instruction": "Mira la fila de dibujos y empieza en la bandera. Lee cada oración y haz exactamente lo que dice con tu lápiz. Luego marca el recuadro."
   },
   "G1-309": {
     "title": "Palabras que riman: escribe la rima",
@@ -2016,11 +2016,11 @@
   },
   "K-326": {
     "title": "¿Al principio, en medio o al final? La letra {U}",
-    "instruction": "Di el nombre de cada dibujo. Colorea la casilla que muestra dónde suena la {U}: al principio, en medio o al final."
+    "instruction": "Di el nombre de cada dibujo. Colorea el recuadro que muestra dónde suena la {U}: al principio, en medio o al final."
   },
   "K-327": {
     "title": "Rodea la {U} en las palabras y cuenta",
-    "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en la casilla cuántas encontraste."
+    "instruction": "Busca todas las {U} y {L} de cada palabra y rodéalas. Después escribe en el recuadro cuántas encontraste."
   },
   "G1-311": {
     "title": "Dos letras, un solo sonido: {U}",
@@ -2072,7 +2072,7 @@
   },
   "G1-315": {
     "title": "Escribe los ordinales que faltan",
-    "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en las casillas vacías, contando desde la bandera."
+    "instruction": "Algunos lugares ya están escritos. Escribe los ordinales que faltan en los recuadros vacíos, contando desde la bandera."
   },
   "G1-316": {
     "title": "Ordinales en palabras: une con el dibujo",
@@ -2148,7 +2148,7 @@
   },
   "K-346": {
     "title": "Mi nombre: escribe, cuenta y compara",
-    "instruction": "Escribe tu nombre con una letra en cada casilla y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
+    "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
   },
   "K-347": {
     "title": "Tarjetas de dibujos y de palabras: parejas",
@@ -2232,7 +2232,7 @@
   },
   "G1-338": {
     "title": "Lee y encierra en un círculo",
-    "instruction": "Lee cada oración. Busca en la fila el dibujo o los dibujos que nombra y enciérralos en un círculo. Luego marca la casilla."
+    "instruction": "Lee cada oración. Busca en la fila el dibujo o los dibujos que nombra y enciérralos en un círculo. Luego marca el recuadro."
   },
   "G1-339": {
     "title": "Lee y haz: instrucciones de dos pasos",
@@ -2279,12 +2279,12 @@
     "instruction": "Empieza en el número y sigue las flechas: arriba 10 menos, abajo 10 más, izquierda 1 menos, derecha 1 más. Escribe a dónde llegas."
   },
   "G2-322": {
-    "title": "Número misterioso: dos flechas, una casilla",
-    "instruction": "Sigue las dos flechas. Las dos llegan a la misma casilla de la tabla. Escribe el número misterioso."
+    "title": "Número misterioso: dos flechas, un recuadro",
+    "instruction": "Sigue las dos flechas. Las dos llegan a el mismo recuadro de la tabla. Escribe el número misterioso."
   },
   "G1-348": {
     "title": "Encuentra el error en la pieza",
-    "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en la casilla."
+    "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en el recuadro."
   },
   "G2-323": {
     "title": "¿Cuántos saltos hay? Cuenta en la tabla del 100",
@@ -2308,7 +2308,7 @@
   },
   "G2-328": {
     "title": "Plurales: {UNIT}",
-    "instruction": "Lee el singular y escribe el plural en la casilla."
+    "instruction": "Lee el singular y escribe el plural en el recuadro."
   },
   "G2-330": {
     "title": "Divide la palabra: encuentra la raíz",
@@ -2424,7 +2424,7 @@
   },
   "G1-350": {
     "title": "Completa las oraciones",
-    "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+    "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
   },
   "G1-351": {
     "title": "Números pares e impares hasta el 20",
@@ -2440,7 +2440,7 @@
   },
   "G2-346": {
     "title": "Redondeo de números a la decena",
-    "instruction": "Redondea cada número a la decena más cercana y escríbelo en la casilla. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
+    "instruction": "Redondea cada número a la decena más cercana y escríbelo en el recuadro. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
   },
   "K-358": {
     "title": "Tangram fácil de 2 y 3 piezas: dibuja las líneas",
@@ -2460,11 +2460,11 @@
   },
   "K-359": {
     "title": "Tangram: cuenta triángulos y cuadrados",
-    "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+    "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
   },
   "K-360": {
     "title": "El cuerpo humano: ¿cuántos tienes?",
-    "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en la casilla."
+    "instruction": "Cuenta en tu propio cuerpo cuántos tienes de cada parte y escribe el número en el recuadro."
   },
   "K-361": {
     "title": "El cuerpo humano: colorea con la leyenda",
@@ -2472,7 +2472,7 @@
   },
   "G1-356": {
     "title": "El cuerpo humano: escribe la palabra",
-    "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada casilla."
+    "instruction": "Busca cada parte numerada en la figura y escribe su nombre, una letra en cada recuadro."
   },
   "K-362": {
     "title": "El cuerpo humano: ¿qué falta?",
@@ -2504,11 +2504,11 @@
   },
   "G1-362": {
     "title": "El estado del tiempo: escribe la palabra",
-    "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+    "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
   },
   "K-364": {
     "title": "Registro del tiempo de la semana: de domingo a sábado",
-    "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+    "instruction": "Cada día de esta semana mira por la ventana y dibuja en su recuadro el símbolo del tiempo que hace."
   },
   "K-365": {
     "title": "El termómetro: ¿frío, templado o calor?",
@@ -2543,20 +2543,20 @@
     "instruction": "Dibuja tres cosas que separas en casa y escribe qué es cada una."
   },
   "G1-366": {
-    "title": "Completa la oración con una letra en cada casilla",
-    "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+    "title": "Completa la oración con una letra en cada recuadro",
+    "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada recuadro."
   },
   "G1-367": {
     "title": "Completa la oración: rodea la palabra correcta",
-    "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+    "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
   },
   "G2-349": {
     "title": "Completa las oraciones en plural",
-    "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+    "instruction": "Mira los dibujos. Hay más de uno. Escribe en el recuadro la palabra para más de uno."
   },
   "G2-350": {
     "title": "Completa el cuento con las palabras que faltan",
-    "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+    "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su recuadro."
   },
   "G1-368": {
     "title": "Une cada oración con su dibujo",
@@ -2564,7 +2564,7 @@
   },
   "G2-351": {
     "title": "¿Par o impar? Escribe dos sumandos iguales",
-    "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en la casilla pequeña lo que sobra."
+    "instruction": "Rodea los puntos de dos en dos. Luego escribe el número como dos partes iguales y anota en el recuadro pequeño lo que sobra."
   },
   "G1-369": {
     "title": "¿Se puede repartir entre dos? Par o impar",
@@ -2572,7 +2572,7 @@
   },
   "G2-352": {
     "title": "Números pares e impares del 1 al 100: mira las unidades",
-    "instruction": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar."
+    "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
   },
   "G3-386": {
     "title": "¿Suma par o impar? Decide sin sumar",
@@ -2584,7 +2584,7 @@
   },
   "G1-371": {
     "title": "Sustituye el nombre por un pronombre",
-    "instruction": "Lee la oración. Escribe en la casilla el pronombre del recuadro que sustituye al nombre en la segunda oración."
+    "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración."
   },
   "G2-353": {
     "title": "¿Quién es él? Pronombres en oraciones",
@@ -2604,7 +2604,7 @@
   },
   "G1-374": {
     "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-    "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas."
+    "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas."
   },
   "G1-375": {
     "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",
@@ -2624,11 +2624,11 @@
   },
   "G3-388": {
     "title": "Redondeo de números a la centena",
-    "instruction": "Redondea cada número a la centena más cercana y escríbelo en la casilla. Fíjate en la cifra de las decenas."
+    "instruction": "Redondea cada número a la centena más cercana y escríbelo en el recuadro. Fíjate en la cifra de las decenas."
   },
   "G3-389": {
     "title": "Redondea y estima la suma",
-    "instruction": "Redondea los dos números a la decena y escríbelos en las casillas. Luego suma los números redondeados."
+    "instruction": "Redondea los dos números a la decena y escríbelos en los recuadros. Luego suma los números redondeados."
   },
   "G3-390": {
     "title": "¿Qué números se redondean a 50?",
@@ -2636,7 +2636,7 @@
   },
   "G3-391": {
     "title": "Redondeo de números a la decena y a la centena",
-    "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
+    "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
   },
   "K-368": {
     "title": "Figuras geométricas planas y sus nombres",
@@ -2660,7 +2660,7 @@
   },
   "G1-378": {
     "title": "El Sol, la Tierra y la Luna",
-    "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+    "instruction": "Lee cada oración y marca un solo recuadro: ¿habla del Sol, de la Tierra o de la Luna?"
   },
   "G1-379": {
     "title": "Lee la simbología del mapa",
@@ -3012,7 +3012,7 @@
   },
   "K-392": {
     "title": "Encuentra la palabra: {UNIT}",
-    "instruction": "Colorea cada casilla con la palabra «{UNIT}». Cuéntalas y escribe el número."
+    "instruction": "Colorea cada recuadro con la palabra «{UNIT}». Cuéntalas y escribe el número."
   },
   "K-393": {
     "title": "Colorea por números: {UNIT}",
@@ -3212,19 +3212,19 @@
   },
   "G3-402": {
     "title": "La tabla del 6",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-403": {
     "title": "La tabla del 7",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-404": {
     "title": "La tabla del 8",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "G3-405": {
     "title": "La tabla del 9",
-    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en el recuadro."
   },
   "K-414": {
     "title": "Amigos del 6",

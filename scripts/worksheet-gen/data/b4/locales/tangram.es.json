@@ -22,7 +22,7 @@
     },
     "count": {
       "title": "Tangram: cuenta triángulos y cuadrados",
-      "instruction": "Cuenta los triángulos de cada figura y escribe el número en la primera casilla. Luego cuenta los cuadrados para la segunda."
+      "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
     }
   }
 }

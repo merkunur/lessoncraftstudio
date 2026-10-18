@@ -15,7 +15,7 @@
   "strings": {
     "base": {
       "title": "Redondeo de números a la decena",
-      "instruction": "Redondea cada número a la decena más cercana y escríbelo en la casilla. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
+      "instruction": "Redondea cada número a la decena más cercana y escríbelo en el recuadro. Si la cifra de las unidades es 5 o más, redondea hacia arriba."
     },
     "sort": {
       "title": "¿Hacia arriba o hacia abajo? Clasifica los números",
@@ -23,11 +23,11 @@
     },
     "hundred": {
       "title": "Redondeo de números a la centena",
-      "instruction": "Redondea cada número a la centena más cercana y escríbelo en la casilla. Fíjate en la cifra de las decenas."
+      "instruction": "Redondea cada número a la centena más cercana y escríbelo en el recuadro. Fíjate en la cifra de las decenas."
     },
     "estimate": {
       "title": "Redondea y estima la suma",
-      "instruction": "Redondea los dos números a la decena y escríbelos en las casillas. Luego suma los números redondeados."
+      "instruction": "Redondea los dos números a la decena y escríbelos en los recuadros. Luego suma los números redondeados."
     },
     "inverse": {
       "title": "¿Qué números se redondean a 50?",
@@ -35,7 +35,7 @@
     },
     "both": {
       "title": "Redondeo de números a la decena y a la centena",
-      "instruction": "Redondea cada número dos veces: a la decena en la primera casilla y a la centena en la segunda."
+      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
     }
   },
   "refuse": [],

@@ -65,6 +65,10 @@ module.exports = {
   },
   interactive: require('../../lib/money-screen.js').interactiveFor('shop'),
   levelSetWords(m) { return m.questions || []; },
+  // a QA retry (cli qaRetries, NEW pages only; 2026-10-18 es-MX): the answer key's title "… — Respuestas" wraps one line
+  // more than the page's (+33 px measured) and "pesos" left five es keys 6 px into the footer band. A page that fails is
+  // rebuilt with the story cards and work panels 12 px (then 24 px) shorter; a page that passes is byte-unchanged.
+  qaRetries(it) { return Number(it.difficulty) === 2 && (it.variant || 1) === 1 ? [] : [{ shopFit: 1 }, { shopFit: 2 }]; },
   i18n: {
     en: {
       title: 'Shopping Math',
@@ -80,7 +84,9 @@ module.exports = {
       const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return require('../../lib/money-screen.js').screenOrKey('shop', built, ctx, locale);
     }
-    const d = this.difficulty[difficulty];
+    const fit = (ctx && ctx.shopFit) || 0;   // qaRetries knob: 0 = the page exactly as before
+    const d0 = this.difficulty[difficulty];
+    const d = fit ? { ...d0, cardH: Math.max(0, d0.cardH - 12 * fit), dots: Math.max(32, d0.dots - 12 * fit) } : d0;
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     const cur = CURRENCIES[loc];

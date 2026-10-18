@@ -52,6 +52,10 @@ module.exports = {
   get interactive() { return SCREEN().interactiveFor(); },
   /** Level Set copies: the month and the stickers a page shows (build-waves compares copies by these). */
   levelSetWords(m) { return [`${m.year}-${m.month}`, ...(m.stickers || []).map((x) => x[0])]; },
+  // a QA retry (cli qaRetries, NEW pages only; 2026-10-18 es-MX): the answer key's title "… — Respuestas" wraps one line
+  // more than the page's (+33 px measured), and a Sunday-start six-row month left the key 2-11 px into the footer band.
+  // A page that fails is rebuilt with the calendar rows 4 px (then 8 px) lower; a page that passes is byte-unchanged.
+  qaRetries(it) { return Number(it.difficulty) === 2 && (it.variant || 1) === 1 ? [] : [{ calFit: 1 }, { calFit: 2 }]; },
 
   build({ difficulty, locale }, ctx) {
     // the published page (level 2, copy 1) builds exactly as it shipped; a new page may also be its screen / key
@@ -86,7 +90,7 @@ module.exports = {
     }
     stickerDays.sort((a, b) => a - b);
     const stickers = nouns.map((n, i) => ({ day: stickerDays[i], href: fileUri(STICKER_THEME, n.noun), key: n.vocabKey, noun: n.noun }));
-    const cal = calendar({ year, month, weekStart: C.weekStart, dayAbbr: C.dayAbbr, stickers, cellW: 88, cellH: d.cellH || (d.sixRows || meta.rows === 6 ? 54 : 58) });
+    const cal = calendar({ year, month, weekStart: C.weekStart, dayAbbr: C.dayAbbr, stickers, cellW: 88, cellH: (d.cellH || (d.sixRows || meta.rows === 6 ? 54 : 58)) - 4 * ((ctx && ctx.calFit) || 0) });
     const weekday = (day) => calendar.weekdayOf(year, month, day);
     const dayName = (day) => C.dayNames[weekday(day)];
     const inline = (s) => `<img class="ws-icon" src="${s.href}" alt="" data-lcs-sticker-ref="${s.key}" style="width:26px;height:26px;vertical-align:middle;margin:0 2px">`;

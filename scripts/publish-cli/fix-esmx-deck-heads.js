@@ -151,6 +151,20 @@ function manifestWords(man) {
   return w;
 }
 
+// Operator rule 2026-10-18: decks made by the 29 worksheet-generator APPS are regenerated only by the
+// operator — this script never writes to them (head, DB hashes or DB text). Printable worksheet-gen only.
+const APPS_29 = new Set(['addition', 'alphabet-train', 'big-small', 'bingo', 'chart-count', 'code-addition', 'crossword', 'cryptogram',
+  'find-and-count', 'find-objects', 'grid-match', 'matching', 'math-puzzle', 'math-worksheet', 'missing-pieces', 'more-less',
+  'odd-one-out', 'pattern-train', 'pattern-worksheet', 'picture-path', 'picture-sort', 'prepositions', 'shadow-match', 'subtraction',
+  'sudoku', 'treasure-hunt', 'word-guess', 'word-scramble', 'wordsearch']);
+function isPrintable(man) {
+  const g = (man && man.generator) || {};
+  return /^worksheet-gen/.test(String(g.app_version || '')) && !APPS_29.has(String(g.app || '').replace(/^picture-sudoku$/, 'sudoku'));
+}
+function readManifest(slug) {
+  try { return JSON.parse(fs.readFileSync(path.join(fs.realpathSync(path.join(ROOT, slug)), 'manifest.json'), 'utf8')); } catch (e) { return null; }
+}
+
 function buildRules(keys, family, headText, bodyData, report, manWords) {
   const pairs = []; // [old, new, guard, key]
   let truckOld = keys.has('truck');
@@ -285,13 +299,14 @@ function main() {
 
   if (args.includes('--sync-hashes')) return syncHashes(slugs, bySlugPub, tH, dH);
   const plan = [], skipped = [], notes = [], dbText = [];
-  let scanned = 0;
+  let scanned = 0, appSkipped = 0;
   for (const slug of slugs) {
     const link = path.join(ROOT, slug);
     let real, html, man = {};
     try { real = fs.realpathSync(link); html = fs.readFileSync(path.join(real, 'deck.html'), 'utf8'); } catch (e) { continue; }
     try { man = JSON.parse(fs.readFileSync(path.join(real, 'manifest.json'), 'utf8')); } catch (e) { /* no manifest */ }
     scanned++;
+    if (!isPrintable(man)) { appSkipped++; continue; }
     const hEnd = html.indexOf('</head>');
     if (hEnd < 0) continue;
     const head = html.slice(0, hEnd);
@@ -370,7 +385,7 @@ function main() {
   fs.writeFileSync(path.join(OUT, 'notes.txt'), notes.join('\n') + '\n');
   fs.writeFileSync(path.join(OUT, 'db-text.json'), JSON.stringify(dbText, null, 1));
   const cnt = (k) => plan.filter((e) => e.fields.includes(k)).length;
-  console.log(`scanned ${scanned} | to change ${plan.length} | skipped ${skipped.length} | title ${cnt('title')} desc ${cnt('description')} og:image:alt ${cnt('og:image:alt')} ld ${cnt('ld')} | no-db-row ${plan.filter((e) => !e.dbId).length} | ldFail ${plan.filter((e) => e.ldFail).length} | db title/desc JSON ${dbText.length}`);
+  console.log(`scanned ${scanned} | app decks left alone ${appSkipped} | to change ${plan.length} | skipped ${skipped.length} | title ${cnt('title')} desc ${cnt('description')} og:image:alt ${cnt('og:image:alt')} ld ${cnt('ld')} | no-db-row ${plan.filter((e) => !e.dbId).length} | ldFail ${plan.filter((e) => e.ldFail).length} | db title/desc JSON ${dbText.length}`);
   if (!CONFIRM) { console.log('dry-run; plan at ' + OUT); return; }
 
   // ---- apply ----
@@ -415,6 +430,7 @@ function syncHashes(slugs, bySlugPub, tH, dH) {
   const todo = [], refused = [];
   for (const slug of slugs) {
     const row = bySlugPub.get(slug); if (!row) continue;
+    if (!isPrintable(readManifest(slug))) continue; // app decks: operator-only
     let html; try { html = fs.readFileSync(path.join(fs.realpathSync(path.join(ROOT, slug)), 'deck.html'), 'utf8'); } catch (e) { continue; }
     const head = html.slice(0, html.indexOf('</head>'));
     const t = getTitle(head), d = getDesc(head);

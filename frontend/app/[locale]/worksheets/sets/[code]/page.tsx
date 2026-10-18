@@ -6,11 +6,15 @@
  * `#level-<rung>` anchors, which the browser carries across the redirect) land
  * on the same set. An unknown code goes to the hub. The page was noindex.
  */
+import type { Metadata } from 'next';
 import { permanentRedirect } from 'next/navigation';
 import { setHref, setsIndexPath } from '@/lib/level-sets';
 import { loadLadder } from '@/lib/level-sets-db';
 
 export const revalidate = 3600;
+
+// The route only redirects; if it ever renders, it is a utility surface (§21.7).
+export const metadata: Metadata = { robots: { index: false, follow: true } };
 
 export default async function LevelSetRedirect({ params }: { params: { locale: string; code: string } }) {
   const locale = params.locale || 'en';

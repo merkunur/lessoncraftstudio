@@ -542,8 +542,8 @@ const translations = {
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Tamaño de Página:",
-    "pageSize.letterPortrait": "Carta Vertical (8,5×11\")",
-    "pageSize.letterLandscape": "Carta Horizontal (11×8,5\")",
+    "pageSize.letterPortrait": "Carta Vertical (8.5×11\")",
+    "pageSize.letterLandscape": "Carta Horizontal (11×8.5\")",
     "pageSize.a4Portrait": "A4 Vertical (210×297mm)",
     "pageSize.a4Landscape": "A4 Horizontal (297×210mm)",
     "pageSize.custom": "Personalizado",

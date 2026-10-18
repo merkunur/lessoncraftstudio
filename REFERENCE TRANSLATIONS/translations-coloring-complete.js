@@ -554,7 +554,7 @@ const translations = {
         "imageLibrary": "Biblioteca de imágenes",
         "selectTheme": "Seleccionar tema:",
         "searchImages": "Buscar imágenes:",
-        "searchPlaceholder": "ej. manzana, coche",
+        "searchPlaceholder": "ej. manzana, carro",
         "selectThemeOrTypeToSearch": "Selecciona un tema o escribe para buscar.",
         "availableImagesClickToAdd": "Imágenes disponibles (Haz clic para añadir):",
         "loadingImages": "Cargando imágenes...",

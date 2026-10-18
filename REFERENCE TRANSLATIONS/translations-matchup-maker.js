@@ -906,7 +906,7 @@ const translations = {
     "filterByTheme": "Filtrar por tema:",
     "allThemes": "Todos los temas",
     "searchImages": "Buscar imágenes:",
-    "searchPlaceholder": "ej. manzana, coche",
+    "searchPlaceholder": "ej. manzana, carro",
     "availableImages": "Imágenes disponibles (haz clic para seleccionar):",
     "selectedImages": "Imágenes seleccionadas:",
 

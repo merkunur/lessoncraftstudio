@@ -914,7 +914,7 @@ const translations = {
     "missingpieces.piece.shape": "Forma de las piezas:",
     "missingpieces.puzzle.config": "Configuración del rompecabezas",
     "missingpieces.search.images": "Buscar imágenes:",
-    "missingpieces.search.placeholder": "ej. manzana, coche",
+    "missingpieces.search.placeholder": "ej. manzana, carro",
     "missingpieces.select.language": "Seleccionar idioma",
     "missingpieces.select.theme": "Seleccionar tema:",
     "missingpieces.selected.image": "Imagen seleccionada para el rompecabezas:",

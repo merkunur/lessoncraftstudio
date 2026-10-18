@@ -701,8 +701,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= PAGE SETUP (11 keys) =============
     "pageSize": "Tamaño de página:",
-    "letterPortrait": "Carta Vertical (8,5×11\")",
-    "letterLandscape": "Carta Horizontal (11×8,5\")",
+    "letterPortrait": "Carta Vertical (8.5×11\")",
+    "letterLandscape": "Carta Horizontal (11×8.5\")",
     "a4Portrait": "A4 Vertical (210×297mm)",
     "a4Landscape": "A4 Horizontal (297×210mm)",
     "square": "Cuadrado (1200x1200)",
@@ -751,7 +751,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "bingoRows": "Filas (3–5):",
     "bingoColumns": "Columnas (3–5):",
     "numberOfCards": "Número de cartones (1–10):",
-    "cardCellFill": "Contenido de las casillas:",
+    "cardCellFill": "Contenido de los recuadros:",
     "chipFill": "Contenido de las fichas:",
     "image": "Imagen",
     "word": "Palabra",
@@ -760,7 +760,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= IMAGE LIBRARY (6 keys) =============
     "selectTheme": "Seleccionar tema:",
     "searchImages": "Buscar imágenes:",
-    "searchPlaceholder": "ej. manzana, coche",
+    "searchPlaceholder": "ej. manzana, carro",
     "selectedForCustomCallouts": "Seleccionadas para la lista personalizada: {count}",
     "availableImagesCallouts": "Imágenes disponibles (Haz clic para añadir a la lista de llamada):",
     "loadingImages": "Cargando imágenes...",

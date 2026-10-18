@@ -63,6 +63,7 @@ import {
   buildLandingFacets,
   orderHubRows,
   subjectOfType,
+  subjectOfRow,
   baseTheme,
   displayTypeName,
   levelChip,
@@ -357,7 +358,17 @@ export default async function AllWorksheetsPage({
   /* ---- top bar: subject tabs + the Interactive switch ---- */
   const subjectCount = new Map((facets?.subject ?? []).map((o) => [o.value, o.count]));
   // Tabs are the locale's subjects, not the current view's: a tab must not vanish when a theme is chosen.
-  const localeSubjects = new Set(hubRowsAll.map((r) => subjectOfType(r.coordinate.type)).filter(Boolean) as string[]);
+  const localeSubjects = new Set(hubRowsAll.map((r) => subjectOfRow(r)).filter(Boolean) as string[]);
+  // A type is listed under EVERY subject one of its worksheets belongs to (find-and-count:
+  // counting under Math, letter-spotting under Reading & Writing).
+  const typeSubjects = new Map<string, Set<string>>();
+  for (const r of hubRowsAll) {
+    const sub = subjectOfRow(r);
+    if (!sub) continue;
+    if (!typeSubjects.has(r.coordinate.type)) typeSubjects.set(r.coordinate.type, new Set());
+    typeSubjects.get(r.coordinate.type)!.add(sub);
+  }
+  const typeIn = (type: string, subject: string) => typeSubjects.get(type)?.has(subject) ?? subjectOfType(type) === subject;
   const subjectTabs: HubTabVM[] = [
     { key: 'all', label: t('tabs.all'), href: hrefWith({ subject: null, type: null }), active: !filters.subject && !filters.type },
     ...listSubjectKeys()
@@ -444,12 +455,12 @@ export default async function AllWorksheetsPage({
     };
     let typeGroup: HubFiltersVM['type'];
     if (filters.subject) {
-      typeGroup = { heading: tBrowse('filterType'), ...capTypes(typeItems.filter((i) => subjectOfType(i.key) === filters.subject)) };
+      typeGroup = { heading: tBrowse('filterType'), ...capTypes(typeItems.filter((i) => typeIn(i.key, filters.subject!))) };
     } else {
       // Bare hub: one closed disclosure per subject; every ?type= link stays in the HTML.
       const subjects: RailSubjectVM[] = listSubjectKeys()
         .map((s) => {
-          const items = typeItems.filter((i) => subjectOfType(i.key) === s);
+          const items = typeItems.filter((i) => typeIn(i.key, s));
           return {
             key: s,
             label: getSubjectName(s, locale) || s,

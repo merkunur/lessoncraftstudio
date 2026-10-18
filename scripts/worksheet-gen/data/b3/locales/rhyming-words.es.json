@@ -324,17 +324,6 @@
           "sameSpelling": true,
           "productive": true,
           "picOpened": true
-        },
-        {
-          "vocabKey": "t-shirt",
-          "word": "camiseta",
-          "pic": {
-            "theme": "clothing",
-            "noun": "t-shirt"
-          },
-          "sameSpelling": true,
-          "productive": true,
-          "picOpened": true
         }
       ],
       "extra": [

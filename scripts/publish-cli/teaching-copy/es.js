@@ -68,7 +68,7 @@ var BLOCK1 = {
   S3: function (f, s) { return s.ex[0] + ' y ' + s.ex[1] + ': ' + s.range.sentence + ' ' + s.ten.sentence; },
   S4: function (f, s) { return 'Para la fase de práctica, una vez trabajado el paso de la decena: las nueve '
     + s.modePl + ' llegan hasta ' + s.max + '. ' + s.ten.sentence; },
-  S5: function (f, s) { return 'La suma y la resta se alternan de casilla en casilla: ' + s.ex[0]
+  S5: function (f, s) { return 'La suma y la resta se alternan de recuadro en recuadro: ' + s.ex[0]
     + ', luego ' + s.ex[1] + '. El alumno tiene que leer el signo cada vez. ' + s.range.sentence; },
 };
 

@@ -28,7 +28,7 @@
   },
   "forecastDays": null,
   "diaryDays": null,
-  "diaryStart": "mon",
+  "diaryStart": "sun",
   "bankWords": {},
   "distractors": [
     "viento",
@@ -45,7 +45,7 @@
       "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
     },
     "K-364": {
-      "title": "Registro del tiempo de la semana: de lunes a domingo",
+      "title": "Registro del tiempo de la semana: de domingo a sábado",
       "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
     },
     "K-365": {

@@ -89,7 +89,7 @@ const M = [
 
   /* ---- format ---- */
   ['the euro loses its comma decimal', "eur: { symbol: '€', before: false, decimalSep: ','", "eur: { symbol: '€', before: false, decimalSep: '.'"],
-  ['the symbol moves to the wrong side', 'return c.before ? (c.symbol + \' \' + s) : (s + \' \' + c.symbol);', 'return c.before ? (s + \' \' + c.symbol) : (c.symbol + \' \' + s);'],
+  ['the symbol moves to the wrong side', 'return c.before ? (c.symbol + (c.tight ? \'\' : \' \') + s) : (s + \' \' + c.symbol);', 'return c.before ? (s + \' \' + c.symbol) : (c.symbol + (c.tight ? \'\' : \' \') + s);'],
   ['minor amounts stop padding to two digits', "s = maj + (c.decimalSep || '.') + (min < 10 ? '0' + min : '' + min);", "s = maj + (c.decimalSep || '.') + min;"],
   ['the tag stops using minor form under one major', 'if (v < c.minorPerMajor) return v + \' \' + this._minorMark(cKey);', 'if (false) return v + \' \' + this._minorMark(cKey);'],
   ['the round stops pinning its notation', /formatLike: function \(v, ref\) \{[\s\S]*?\n  \},/, 'formatLike: function (v, ref) { return this.formatTag(v); },'],

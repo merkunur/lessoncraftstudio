@@ -281,7 +281,8 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
         usd: [5, 9, 11],             /* (9, 13, 15) — no 50c coin, no $2 note */
         gbp: [4, 6, 7],              /* (6, 8, 10) */
         brl: [4, 6, 8],              /* unchanged — minCoin already pinned the grain */
-        sek: [3, 5, 6], dkk: [3, 5, 6], nok: [5, 7, 8]   /* no sub-unit to coarsen */
+        sek: [3, 5, 6], dkk: [3, 5, 6], nok: [5, 7, 8],  /* no sub-unit to coarsen */
+        mxn: [3, 5, 6]               /* es-MX whole pesos, same 1/2/5/10 coin set as sek */
       };
       const ceiling = (RATCHET[cKey] || [99, 99, 99])[band - 1];
       if (worst > ceiling) E(`${cKey} b${band}: ${worstP} needs ${worst} pieces, above the recorded ${ceiling}`);
@@ -343,7 +344,7 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
 
   /* NO DEAD ENDS: every change-mode price must offer at least one tender,
      at every purse restriction a teacher can set */
-  for (const [lang, cur] of [['en', 'usd'], ['en', 'gbp'], ['de', 'eur'], ['nl', 'eur'], ['pt', 'brl'], ['sv', 'sek'], ['da', 'dkk'], ['no', 'nok']]) {
+  for (const [lang, cur] of [['en', 'usd'], ['en', 'gbp'], ['de', 'eur'], ['nl', 'eur'], ['pt', 'brl'], ['sv', 'sek'], ['da', 'dkk'], ['no', 'nok'], ['es', 'mxn']]) {
     for (const coinsFrom of [0, 5, 10]) {
       T.api = { lang, settings: { enCurrency: cur, coinsFrom }, t: (k) => k };
       T.band = 1; T.mode = 'change'; T.itemIdx = 0;

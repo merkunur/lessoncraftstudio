@@ -41,7 +41,7 @@ const CALENDAR_FRAMES = {
       "lastDay": "¿Qué día de la semana es el último día del mes?",
       "after": "¿Cuántos días después de {stickerA} está {stickerB}?"
     },
-    "weekStart": 1,
+    "weekStart": 0,
     "dayPlural": [
       "domingos",
       "lunes",

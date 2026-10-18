@@ -80,7 +80,7 @@ const SHOP_FRAMES = {
       ],
       "canBuy": [
         "{name} tiene {money}. ¿Puede {name} comprar {item1} y {item2}? Rodea sí o no y escribe el total.",
-        "{name} tiene {money}. ¿Le llega para {item1} y {item2}? Rodea sí o no y escribe el total."
+        "{name} tiene {money}. ¿Le alcanza para {item1} y {item2}? Rodea sí o no y escribe el total."
       ],
       "diff": [
         "¿Cuánto más cuesta {item1} que {item2}?",

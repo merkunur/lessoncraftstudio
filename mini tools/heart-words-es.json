@@ -531,18 +531,18 @@
       "shelf": "g1-u-muda"
     },
     {
-      "id": "chaqueta",
-      "display": "chaqueta",
-      "boxes": ["ch", "a", "qu", "e", "t", "a"],
-      "heart": [2],
+      "id": "parque",
+      "display": "parque",
+      "boxes": ["p", "a", "r", "qu", "e"],
+      "heart": [3],
       "heartKind": "silent",
       "note": "la u de qu se escribe pero no suena",
-      "noteFocus": [2],
-      "sentence": "Mi chaqueta roja quedó colgada en la percha.",
-      "sentenceNoun": "jacket",
-      "nounForm": "chaqueta",
-      "imageDir": "clothing",
-      "imageFile": "jacket",
+      "noteFocus": [3],
+      "sentence": "Mi hermano y yo jugamos en el parque.",
+      "sentenceNoun": "playground",
+      "nounForm": "parque",
+      "imageDir": "activities",
+      "imageFile": "playground",
       "shelf": "g1-u-muda"
     },
     {

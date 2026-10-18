@@ -1,8 +1,7 @@
 /**
  * calendar.js — per-locale calendar facts + question frames for G2-277.
  *
- *   weekStart   — 0 Sunday (en, pt-BR) · 1 Monday (the other nine; the es
- *                 panel may rule 0 for Latin America)
+ *   weekStart   — 0 Sunday (en, pt-BR, es-MX — operator 2026-10-17) · 1 Monday (the other eight)
  *   dayNames    — 7 full names, SUNDAY-FIRST order (index = JS getUTCDay)
  *   dayAbbr     — 7 header abbreviations, same order
  *   dayPlural   — the countWeekday plural ("How many Fridays…"), same order
@@ -46,7 +45,7 @@ const NAMES = {
     dayAbbr: ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'],
     dayPlural: ['dimanches', 'lundis', 'mardis', 'mercredis', 'jeudis', 'vendredis', 'samedis'],
     monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'] },
-  es: { weekStart: 1, ordinalStyle: 'plain',
+  es: { weekStart: 0, ordinalStyle: 'plain',
     dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
     dayAbbr: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
     dayPlural: ['domingos', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábados'],

@@ -143,7 +143,7 @@ const NAMES = {
     en: { t: "a Bus", n: "Bus", g: null, word: "bus" },
     de: { t: "einen Bus", n: "Bus", g: "m", word: "Bus" },
     fr: { t: "un bus", n: "Bus", g: "m", word: "bus" },
-    es: { t: "un autobús", n: "Autobús", g: "m", word: "autobús" },
+    es: { t: "un camión", n: "Camión", g: "m", word: "camión" },
     it: { t: "un autobus", n: "Autobus", g: "m", word: "autobus" },
     pt: { t: "um ônibus", n: "Ônibus", g: "m", word: "ônibus" },
     nl: { t: "een bus", n: "bus", g: "d", word: "bus" },

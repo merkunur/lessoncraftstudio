@@ -88,7 +88,7 @@ module.exports = {
     if (!cur || !bank) throw new Error(`G2-276: no currency/frames for ${loc}`);
     const names = (FRAMES[loc] && FRAMES[loc].names) || bank.names;
     if (!names) throw new Error(`G2-276: no names for ${loc}`);
-    const scale = cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;
+    const scale = cur.whole || cur.unit === 'kr' || cur.unit === 'kr.' ? 2 : 5;   // whole-unit currencies (kr, MXN pesos)
     const shopPool = safeNouns(theme, loc).filter((n) => !PERSON_KEYS.has(String(n.vocabKey).toLowerCase()) && !PERSON_KEYS.has(String(n.noun).toLowerCase().replace(/\s*\d+$/, '')) && !SHOP_REFUSALS.has(theme + '|' + n.noun));
     // a long unit ("45 centavos") fits five price tags on the shelf, not six (pt level 3, 2026-10-05); level 2 has five
     const nItems = cur.unit.length > 4 ? Math.min(d.items, 5) : d.items;   // "cent" (it) fits six, measured
@@ -245,7 +245,7 @@ module.exports = {
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];
-      const UNITS = { en: '¢', de: 'ct', es: 'cts', fr: 'c', it: 'cent', pt: 'centavos', nl: 'ct', fi: 'snt', sv: 'kr', da: 'kr.', no: 'kr' };
+      const UNITS = { en: '¢', de: 'ct', es: 'pesos', fr: 'c', it: 'cent', pt: 'centavos', nl: 'ct', fi: 'snt', sv: 'kr', da: 'kr.', no: 'kr' };
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
       const shelfItems = [...document.querySelectorAll('[data-lcs-shelfitem]')];
       if (shelfItems.length < 4) fails.push(`shelf has ${shelfItems.length} items`);

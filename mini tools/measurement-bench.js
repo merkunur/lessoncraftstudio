@@ -152,7 +152,7 @@ var MeasurementBench = {
     belt: {en:'the belt',de:'der Gürtel',fr:'la ceinture',it:'la cintura',es:'el cinturón',pt:'o cinto',nl:'de riem',sv:'bältet',da:'bæltet',no:'beltet',fi:'vyö'},
     tie: {en:'the tie',de:'die Krawatte',fr:'la cravate',it:'la cravatta',es:'la corbata',pt:'a gravata',nl:'de stropdas',sv:'slipsen',da:'slipset',no:'slipset',fi:'solmio'},
     celery: {en:'the celery',de:'die Selleriestange',fr:'le céleri',it:'il sedano',es:'el apio',pt:'o aipo',nl:'de selderij',sv:'sellerin',da:'sellerien',no:'sellerien',fi:'selleri'},
-    leek: {en:'the leek',de:'die Lauchstange',fr:'le poireau',it:'il porro',es:'el puerro',pt:'o alho-poró',nl:'de prei',sv:'purjolöken',da:'porren',no:'purreløken',fi:'purjo'},
+    leek: {en:'the leek',de:'die Lauchstange',fr:'le poireau',it:'il porro',es:'el poro',pt:'o alho-poró',nl:'de prei',sv:'purjolöken',da:'porren',no:'purreløken',fi:'purjo'},
     'rolling-pin': {en:'the rolling pin',de:'das Nudelholz',fr:'le rouleau à pâtisserie',it:'il mattarello',es:'el rodillo',pt:'o rolo de massa',nl:'de deegroller',sv:'kaveln',da:'kagerullen',no:'kjevlet',fi:'kaulin'},
     hammer: {en:'the hammer',de:'der Hammer',fr:'le marteau',it:'il martello',es:'el martillo',pt:'o martelo',nl:'de hamer',sv:'hammaren',da:'hammeren',no:'hammeren',fi:'vasara'},
     sled: {en:'the sled',de:'der Schlitten',fr:'la luge',it:'lo slittino',es:'el trineo',pt:'o trenó',nl:'de slee',sv:'kälken',da:'kælken',no:'kjelken',fi:'kelkka'},

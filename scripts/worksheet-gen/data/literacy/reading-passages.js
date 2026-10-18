@@ -617,8 +617,8 @@ const READING_PASSAGES = {
           "q": "¿Por qué está contento Mateo?",
           "choices": [
             "Porque llueve mucho",
-            "Porque ha pagado él las fresas",
-            "Porque ha perdido su bolsa"
+            "Porque pagó él las fresas",
+            "Porque perdió su bolsa"
           ],
           "correct": 1
         }
@@ -627,7 +627,7 @@ const READING_PASSAGES = {
     {
       "id": "es-r2",
       "title": "La bici de Diego",
-      "text": "Diego aprendió este verano a montar en bici de dos ruedas. Al principio, su papá sujetaba el sillín y corría a su lado. Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada. Diego llegó él solo hasta la fuente grande del parque. Cuando miró atrás, vio a su papá aplaudiendo desde lejos. Ahora Diego monta en bici todos los días después del cole.",
+      "text": "Diego aprendió este verano a andar en bici de dos ruedas. Al principio, su papá sujetaba el asiento y corría a su lado. Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada. Diego llegó él solo hasta la fuente grande del parque. Cuando miró atrás, vio a su papá aplaudiendo desde lejos. Ahora Diego anda en bici todos los días después de la escuela.",
       "questions": [
         {
           "q": "¿Quién ayudaba a Diego al principio?",
@@ -641,7 +641,7 @@ const READING_PASSAGES = {
         {
           "q": "¿Hasta dónde llegó Diego él solo?",
           "choices": [
-            "Hasta el cole",
+            "Hasta la escuela",
             "Hasta la fuente del parque",
             "Hasta su casa"
           ],
@@ -650,7 +650,7 @@ const READING_PASSAGES = {
         {
           "q": "¿Qué siente Diego ahora por su bici?",
           "choices": [
-            "le encanta montar en ella",
+            "le encanta andar en ella",
             "le da miedo",
             "ya no la quiere usar"
           ],
@@ -661,7 +661,7 @@ const READING_PASSAGES = {
     {
       "id": "es-caracola",
       "title": "La caracola",
-      "text": "Ana encuentra una caracola en la playa. Se la acerca a la oreja y oye un sonido como el del mar. Ana sonríe y la guarda en su cubo para enseñársela a su hermano.",
+      "text": "Ana encuentra una caracola en la playa. Se la acerca a la oreja y oye un sonido como el del mar. Ana sonríe y la guarda en su cubeta para enseñársela a su hermano.",
       "questions": [
         {
           "q": "¿Qué encuentra Ana en la playa?",
@@ -676,7 +676,7 @@ const READING_PASSAGES = {
           "q": "¿Dónde guarda Ana la caracola?",
           "choices": [
             "en su bolsillo",
-            "en su cubo",
+            "en su cubeta",
             "en su mochila"
           ],
           "correct": 1
@@ -684,7 +684,7 @@ const READING_PASSAGES = {
         {
           "q": "¿Cómo se siente Ana?",
           "choices": [
-            "enfadada",
+            "enojada",
             "asustada",
             "contenta"
           ],
@@ -695,7 +695,7 @@ const READING_PASSAGES = {
     {
       "id": "es-huerto-escolar",
       "title": "El huerto de la escuela",
-      "text": "Los viernes, la clase de Marta cuida el huerto de la escuela. Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas. Hoy han recogido los primeros tomates. Marta lleva tres a casa para preparar una ensalada con su madre.",
+      "text": "Los viernes, la clase de Marta cuida el huerto de la escuela. Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas. Hoy recogieron los primeros tomates. Marta lleva tres a casa para preparar una ensalada con su madre.",
       "questions": [
         {
           "q": "¿Qué día cuida la clase el huerto?",
@@ -707,7 +707,7 @@ const READING_PASSAGES = {
           "correct": 1
         },
         {
-          "q": "¿Qué han recogido hoy?",
+          "q": "¿Qué recogieron hoy?",
           "choices": [
             "tomates",
             "fresas",
@@ -763,7 +763,7 @@ const READING_PASSAGES = {
     {
       "id": "es-tren-montanas",
       "title": "El tren de las montañas",
-      "text": "Sara y su padre toman el tren para visitar al tío Andrés, que vive en un pueblo de la montaña. Sara mira por la ventanilla: primero ve campos amarillos, después un río y al final montañas altas con nieve. En la estación los espera el tío Andrés con su perra Luna. Luna mueve tanto el rabo que Sara se ríe. Esa tarde meriendan pan con miel junto a la chimenea y Sara decide que quiere volver en invierno.",
+      "text": "Sara y su padre toman el tren para visitar al tío Andrés, que vive en un pueblo de la montaña. Sara mira por la ventanilla: primero ve campos amarillos, después un río y al final montañas altas con nieve. En la estación los espera el tío Andrés con su perra Luna. Luna mueve tanto la cola que Sara se ríe. Esa tarde meriendan pan con miel junto a la chimenea y Sara decide que quiere volver en invierno.",
       "questions": [
         {
           "q": "¿A quién van a visitar Sara y su padre?",
@@ -786,9 +786,9 @@ const READING_PASSAGES = {
         {
           "q": "¿Cómo sabemos que Luna se alegra de verlos?",
           "choices": [
-            "mueve mucho el rabo",
+            "mueve mucho la cola",
             "se esconde en la estación",
-            "ladra enfadada"
+            "ladra enojada"
           ],
           "correct": 0
         }

@@ -2827,18 +2827,25 @@
    "exclude": [
     "ant",
     "aster",
+    "bathtub",
     "beige",
     "brownie",
+    "bun",
+    "bus",
     "carrot",
     "cooler",
+    "dishwasher",
     "egg",
     "excavator",
     "falcon",
+    "faucet",
     "ferret",
     "fig",
     "galaxy",
     "gecko",
+    "goggles",
     "gopher",
+    "grasshopper",
     "halloween",
     "hamburger",
     "hammock",
@@ -2856,6 +2863,8 @@
     "kayak",
     "kiwi",
     "leaf",
+    "lemon",
+    "lime",
     "muffin",
     "orchard",
     "oven",
@@ -2865,16 +2874,24 @@
     "phlox",
     "pillow",
     "pizza",
+    "plunger",
+    "porridge",
     "rocket",
     "saxophone",
     "scooter",
     "shorts",
     "shoulder",
     "snorkel",
+    "squash",
+    "stool",
     "stork",
     "stretcher",
     "sweatpants",
+    "t-shirt",
     "taxi",
+    "toaster",
+    "tomato",
+    "truck",
     "waffle",
     "xylophone"
    ],
@@ -2918,7 +2935,6 @@
     "basket",
     "basketball",
     "bat",
-    "bathtub",
     "beanie",
     "beaver",
     "beetle",
@@ -2958,9 +2974,7 @@
     "bucket",
     "bud",
     "bulldozer",
-    "bun",
     "bunny",
-    "bus",
     "butter",
     "butterfly",
     "cabana",
@@ -3038,7 +3052,6 @@
     "dimetrodon",
     "dinosaur",
     "diplodocus",
-    "dishwasher",
     "doctor",
     "dog",
     "doll",
@@ -3064,7 +3077,6 @@
     "eyelashes",
     "fan",
     "farmer",
-    "faucet",
     "feather",
     "fence",
     "ferry",
@@ -3102,12 +3114,10 @@
     "gloves",
     "glue",
     "goat",
-    "goggles",
     "goose",
     "gorilla",
     "grapefruit",
     "grass",
-    "grasshopper",
     "grater",
     "green",
     "grill",
@@ -3165,7 +3175,6 @@
     "leek",
     "leg",
     "leggings",
-    "lemon",
     "lemonade",
     "lemur",
     "letter",
@@ -3259,11 +3268,9 @@
     "plesiosaurus",
     "pliers",
     "plum",
-    "plunger",
     "pomegranate",
     "pool",
     "popcorn",
-    "porridge",
     "pottery",
     "present",
     "pudding",
@@ -3342,7 +3349,6 @@
     "sponge",
     "spoon",
     "square",
-    "squash",
     "squid",
     "squirrel",
     "stage",
@@ -3353,7 +3359,6 @@
     "statue",
     "stegosaurus",
     "stethoscope",
-    "stool",
     "stormy",
     "stove",
     "strawberry",
@@ -3371,7 +3376,6 @@
     "swimming",
     "swing",
     "syringe",
-    "t-shirt",
     "tablet",
     "tailor",
     "tart",
@@ -3389,8 +3393,6 @@
     "timer",
     "tired",
     "tissue",
-    "toaster",
-    "tomato",
     "tongs",
     "tongue",
     "tooth",
@@ -3403,7 +3405,6 @@
     "trillium",
     "trombone",
     "trousers",
-    "truck",
     "trumpet",
     "tulip",
     "turkey",
@@ -4212,20 +4213,6 @@
       "o"
      ]
     ],
-    "bathtub": [
-     [
-      "b",
-      "a"
-     ],
-     [
-      "ñ",
-      "e"
-     ],
-     [
-      "r",
-      "a"
-     ]
-    ],
     "beach": [
      [
       "p",
@@ -4927,16 +4914,6 @@
       "r"
      ]
     ],
-    "bun": [
-     [
-      "b",
-      "o"
-     ],
-     [
-      "ll",
-      "o"
-     ]
-    ],
     "bunny": [
      [
       "c",
@@ -4953,21 +4930,6 @@
      [
       "t",
       "o"
-     ]
-    ],
-    "bus": [
-     [
-      "a",
-      "u"
-     ],
-     [
-      "t",
-      "o"
-     ],
-     [
-      "b",
-      "ú",
-      "s"
      ]
     ],
     "butter": [
@@ -6527,29 +6489,6 @@
       "o"
      ]
     ],
-    "dishwasher": [
-     [
-      "l",
-      "a"
-     ],
-     [
-      "v",
-      "a"
-     ],
-     [
-      "v",
-      "a"
-     ],
-     [
-      "j",
-      "i"
-     ],
-     [
-      "ll",
-      "a",
-      "s"
-     ]
-    ],
     "doctor": [
      [
       "d",
@@ -7068,17 +7007,6 @@
       "o"
      ]
     ],
-    "faucet": [
-     [
-      "g",
-      "r",
-      "i"
-     ],
-     [
-      "f",
-      "o"
-     ]
-    ],
     "feather": [
      [
       "p",
@@ -7310,7 +7238,7 @@
     "folder": [
      [
       "f",
-      "o",
+      "ó",
       "l"
      ],
      [
@@ -7460,16 +7388,16 @@
     ],
     "garage": [
      [
-      "g",
-      "a"
+      "c",
+      "o"
+     ],
+     [
+      "ch",
+      "e"
      ],
      [
       "r",
       "a"
-     ],
-     [
-      "j",
-      "e"
      ]
     ],
     "garden": [
@@ -7698,17 +7626,6 @@
       "a"
      ]
     ],
-    "goggles": [
-     [
-      "g",
-      "a"
-     ],
-     [
-      "f",
-      "a",
-      "s"
-     ]
-    ],
     "goose": [
      [
       "g",
@@ -7778,27 +7695,6 @@
      [
       "t",
       "o"
-     ]
-    ],
-    "grasshopper": [
-     [
-      "s",
-      "a",
-      "l"
-     ],
-     [
-      "t",
-      "a"
-     ],
-     [
-      "m",
-      "o",
-      "n"
-     ],
-     [
-      "t",
-      "e",
-      "s"
      ]
     ],
     "grater": [
@@ -8342,11 +8238,11 @@
       "a"
      ],
      [
-      "qu",
-      "e"
+      "m",
+      "a"
      ],
      [
-      "t",
+      "rr",
       "a"
      ]
     ],
@@ -8753,11 +8649,10 @@
     "leek": [
      [
       "p",
-      "u",
-      "e"
+      "o"
      ],
      [
-      "rr",
+      "r",
       "o"
      ]
     ],
@@ -8795,17 +8690,6 @@
      [
       "g",
       "o"
-     ]
-    ],
-    "lemon": [
-     [
-      "l",
-      "i"
-     ],
-     [
-      "m",
-      "ó",
-      "n"
      ]
     ],
     "lemonade": [
@@ -8973,16 +8857,6 @@
       "r",
       "i",
       "o"
-     ]
-    ],
-    "lime": [
-     [
-      "l",
-      "i"
-     ],
-     [
-      "m",
-      "a"
      ]
     ],
     "lip": [
@@ -9989,16 +9863,18 @@
     ],
     "outlet": [
      [
-      "e",
+      "c",
+      "o",
       "n"
      ],
      [
-      "ch",
-      "u"
+      "t",
+      "a",
+      "c"
      ],
      [
-      "f",
-      "e"
+      "t",
+      "o"
      ]
     ],
     "oval": [
@@ -10689,30 +10565,6 @@
       "a"
      ]
     ],
-    "plunger": [
-     [
-      "d",
-      "e",
-      "s"
-     ],
-     [
-      "t",
-      "a"
-     ],
-     [
-      "p",
-      "a"
-     ],
-     [
-      "c",
-      "a"
-     ],
-     [
-      "ñ",
-      "o",
-      "s"
-     ]
-    ],
     "pomegranate": [
      [
       "g",
@@ -10758,17 +10610,6 @@
      ],
      [
       "t",
-      "a",
-      "s"
-     ]
-    ],
-    "porridge": [
-     [
-      "g",
-      "a"
-     ],
-     [
-      "ch",
       "a",
       "s"
      ]
@@ -12265,25 +12106,6 @@
       "o"
      ]
     ],
-    "squash": [
-     [
-      "c",
-      "a"
-     ],
-     [
-      "l",
-      "a"
-     ],
-     [
-      "b",
-      "a"
-     ],
-     [
-      "c",
-      "í",
-      "n"
-     ]
-    ],
     "squid": [
      [
       "c",
@@ -12460,24 +12282,6 @@
       "p",
       "i",
       "o"
-     ]
-    ],
-    "stool": [
-     [
-      "t",
-      "a"
-     ],
-     [
-      "b",
-      "u"
-     ],
-     [
-      "r",
-      "e"
-     ],
-     [
-      "t",
-      "e"
      ]
     ],
     "stormy": [
@@ -12788,24 +12592,6 @@
       "a"
      ]
     ],
-    "t-shirt": [
-     [
-      "c",
-      "a"
-     ],
-     [
-      "m",
-      "i"
-     ],
-     [
-      "s",
-      "e"
-     ],
-     [
-      "t",
-      "a"
-     ]
-    ],
     "table": [
      [
       "m",
@@ -13110,25 +12896,6 @@
       "o"
      ]
     ],
-    "toaster": [
-     [
-      "t",
-      "o",
-      "s"
-     ],
-     [
-      "t",
-      "a"
-     ],
-     [
-      "d",
-      "o"
-     ],
-     [
-      "r",
-      "a"
-     ]
-    ],
     "toilet": [
      [
       "i"
@@ -13144,20 +12911,6 @@
      [
       "r",
       "o"
-     ]
-    ],
-    "tomato": [
-     [
-      "t",
-      "o"
-     ],
-     [
-      "m",
-      "a"
-     ],
-     [
-      "t",
-      "e"
      ]
     ],
     "tongs": [
@@ -13334,18 +13087,6 @@
       "n",
       "e",
       "s"
-     ]
-    ],
-    "truck": [
-     [
-      "c",
-      "a"
-     ],
-     [
-      "m",
-      "i",
-      "ó",
-      "n"
      ]
     ],
     "trumpet": [

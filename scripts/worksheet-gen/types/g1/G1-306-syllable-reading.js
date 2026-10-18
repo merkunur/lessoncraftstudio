@@ -41,6 +41,9 @@
 'use strict';
 const { bank } = require('../../lib/b3-common.js');
 const { hasPicture, candidates } = require('../../lib/b3-picture-index.js');
+const { refusedPicture } = require('../../lib/picture-refusals.js');
+/** A word is usable only while one of its pictures is not refused (the same rule pickPicture prints by). */
+const usable = (key, loc) => candidates(key, loc).some((x) => !refusedPicture(x.theme, x.noun));
 const { distinctByWord, sampleEntries, fileUri } = require('../../lib/b2-common.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const C3 = require('../../templates/components-b3.js');
@@ -71,7 +74,8 @@ function parseCell(cell) {
 
 /** The picture for a bank word: every colour candidate, or the one dir a `pictureTheme` pin names; none = refuse. */
 function pickPicture(rng, w, loc) {
-  const all = candidates(w.key, loc);
+  // a refused picture shows something other than its word (camping|cooler reads as a toolbox) — never print it
+  const all = candidates(w.key, loc).filter((x) => !refusedPicture(x.theme, x.noun));
   const c = w.pictureTheme ? all.filter((x) => x.theme === w.pictureTheme) : all;
   if (!c.length) throw new Error(`G1-306: no colour picture for "${w.key}"${w.pictureTheme ? ' in theme ' + w.pictureTheme : ''} (${loc}) — refuse the item`);
   const pick = c.length === 1 ? c[0] : rng.pick(c);
@@ -130,8 +134,8 @@ function prepareCarpet({ d, cfg, loc, unitId, difficulty, rng }) {
     const words = (row.words || []).filter((w) => {
       if (banned.has(w.key)) return false;
       if (cfg.strictPool && white && Object.keys(white).length && !white[w.key]) return false;
-      if (!hasPicture(w.key, loc)) return false;
-      if (w.pictureTheme && !candidates(w.key, loc).some((c) => c.theme === w.pictureTheme)) return false;
+      if (!usable(w.key, loc)) return false;
+      if (w.pictureTheme && !candidates(w.key, loc).some((c) => c.theme === w.pictureTheme && !refusedPicture(c.theme, c.noun))) return false;
       const u = String(w.unit).toLocaleLowerCase(loc);
       let ownRowHit;
       if (shape === 'rime') {
@@ -297,8 +301,8 @@ function multiPool(d, cfg, loc, who) {
     if (w.split.join('').toLocaleLowerCase(loc) !== String(w.word).toLocaleLowerCase(loc)) return false;
     if (banned.has(w.key)) return false;
     if (cfg.strictPool && white && Object.keys(white).length && !white[w.key]) return false;
-    if (!hasPicture(w.key, loc)) return false;
-    if (w.pictureTheme && !candidates(w.key, loc).some((c) => c.theme === w.pictureTheme)) return false;
+    if (!usable(w.key, loc)) return false;
+    if (w.pictureTheme && !candidates(w.key, loc).some((c) => c.theme === w.pictureTheme && !refusedPicture(c.theme, c.noun))) return false;
     if (muteE && /e$/i.test(w.split[n - 1])) return false;   // fr: a final mute e is not a syllable the child can read out
     return true;
   }).map((w) => ({ ...w, count: w.split.length }));

@@ -558,7 +558,7 @@ var HeartWords = {
 
   _fetchBank: function () {
     var self = this;
-    var url = '/mini-tools/heart-words-' + this.api.lang + '.json';
+    var url = '/mini-tools/heart-words-' + this.api.lang + '.json?v=2';
     fetch(url, { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
       .catch(function () { return self.FALLBACK_BANK; })

@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-10-18T15:38:08.277Z",
+  "generated_at": "2026-10-18T16:31:11.077Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 946,
-  "count_quarantined": 318,
+  "count_approved": 940,
+  "count_quarantined": 324,
   "entries": [
     {
       "key": "acorn",
@@ -1743,28 +1743,6 @@
         "cam",
         "pa",
         "na"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "bell-pepper",
-      "word": "pimiento",
-      "split": [
-        "pi",
-        "mien",
-        "to"
-      ],
-      "count": 3,
-      "chunks": [
-        "pi",
-        "mien",
-        "to"
       ],
       "sources_agreed": [
         "TeX",
@@ -4082,30 +4060,6 @@
       "chunks": [
         "si",
         "lla"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "chandelier",
-      "word": "candelabro",
-      "split": [
-        "can",
-        "de",
-        "la",
-        "bro"
-      ],
-      "count": 4,
-      "chunks": [
-        "can",
-        "de",
-        "la",
-        "bro"
       ],
       "sources_agreed": [
         "TeX",
@@ -9151,15 +9105,15 @@
     },
     {
       "key": "handbag",
-      "word": "bolso",
+      "word": "bolsa",
       "split": [
         "bol",
-        "so"
+        "sa"
       ],
       "count": 2,
       "chunks": [
         "bol",
-        "so"
+        "sa"
       ],
       "sources_agreed": [
         "TeX",
@@ -11844,17 +11798,17 @@
     },
     {
       "key": "macaron",
-      "word": "macarrón",
+      "word": "macaron",
       "split": [
         "ma",
         "ca",
-        "rrón"
+        "ron"
       ],
       "count": 3,
       "chunks": [
         "ma",
         "ca",
-        "rrón"
+        "ron"
       ],
       "sources_agreed": [
         "TeX",
@@ -13819,15 +13773,15 @@
     },
     {
       "key": "oyster",
-      "word": "ostra",
+      "word": "ostión",
       "split": [
         "os",
-        "tra"
+        "tión"
       ],
       "count": 2,
       "chunks": [
         "os",
-        "tra"
+        "tión"
       ],
       "sources_agreed": [
         "TeX",
@@ -14687,28 +14641,6 @@
       }
     },
     {
-      "key": "pepper",
-      "word": "pimiento",
-      "split": [
-        "pi",
-        "mien",
-        "to"
-      ],
-      "count": 3,
-      "chunks": [
-        "pi",
-        "mien",
-        "to"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "perfume",
       "word": "perfume",
       "split": [
@@ -15146,27 +15078,34 @@
     },
     {
       "key": "pinwheel",
-      "word": "molinete",
+      "word": "rehilete",
       "split": [
-        "mo",
-        "li",
-        "ne",
+        "re",
+        "hi",
+        "le",
         "te"
       ],
       "count": 4,
       "chunks": [
-        "mo",
-        "li",
-        "ne",
+        "re",
+        "hi",
+        "le",
         "te"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "rehi",
+          "le",
+          "te"
+        ]
+      }
     },
     {
       "key": "pitcher",
@@ -16515,32 +16454,6 @@
       }
     },
     {
-      "key": "rosette",
-      "word": "escarapela",
-      "split": [
-        "es",
-        "ca",
-        "ra",
-        "pe",
-        "la"
-      ],
-      "count": 5,
-      "chunks": [
-        "es",
-        "ca",
-        "ra",
-        "pe",
-        "la"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "rudolph",
       "word": "rodolfo",
       "split": [
@@ -17610,17 +17523,17 @@
     },
     {
       "key": "shuttlecock",
-      "word": "volante",
+      "word": "gallito",
       "split": [
-        "vo",
-        "lan",
-        "te"
+        "ga",
+        "lli",
+        "to"
       ],
       "count": 3,
       "chunks": [
-        "vo",
-        "lan",
-        "te"
+        "ga",
+        "lli",
+        "to"
       ],
       "sources_agreed": [
         "TeX",
@@ -19551,26 +19464,6 @@
       }
     },
     {
-      "key": "tart",
-      "word": "tarta",
-      "split": [
-        "tar",
-        "ta"
-      ],
-      "count": 2,
-      "chunks": [
-        "tar",
-        "ta"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "taxi",
       "word": "taxi",
       "split": [
@@ -19874,15 +19767,15 @@
     },
     {
       "key": "tights",
-      "word": "medias",
+      "word": "mallas",
       "split": [
-        "me",
-        "dias"
+        "ma",
+        "llas"
       ],
       "count": 2,
       "chunks": [
-        "me",
-        "dias"
+        "ma",
+        "llas"
       ],
       "sources_agreed": [
         "TeX",
@@ -19931,28 +19824,6 @@
         "can",
         "sa",
         "do"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "tissue",
-      "word": "pañuelo",
-      "split": [
-        "pa",
-        "ñue",
-        "lo"
-      ],
-      "count": 3,
-      "chunks": [
-        "pa",
-        "ñue",
-        "lo"
       ],
       "sources_agreed": [
         "TeX",

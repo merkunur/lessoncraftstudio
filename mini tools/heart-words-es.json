@@ -7,7 +7,7 @@
   "shelves": [
     {
       "id": "k-tilde-diacritica",
-      "label": "Jardín infantil · Una tilde, otra palabra",
+      "label": "Kínder · Una tilde, otra palabra",
       "band": "k",
       "phase": 1,
       "teachingPoint": "dos palabras se escriben con las mismas letras y solo la tilde dice cuál de las dos estamos leyendo",
@@ -15,7 +15,7 @@
     },
     {
       "id": "k-h-muda",
-      "label": "Jardín infantil · Se escribe y no suena",
+      "label": "Kínder · Se escribe y no suena",
       "band": "k",
       "phase": 1,
       "teachingPoint": "la h se escribe siempre y no suena nunca, ni al principio ni en medio de la palabra",
@@ -23,7 +23,7 @@
     },
     {
       "id": "g1-v-suena-como-b",
-      "label": "Grado 1 · La v suena como la b",
+      "label": "Primer grado · La v suena como la b",
       "band": "g1",
       "phase": 2,
       "teachingPoint": "la v y la b dan el mismo sonido; el oído no puede decir cuál de las dos letras toca leer",
@@ -31,7 +31,7 @@
     },
     {
       "id": "g1-u-muda",
-      "label": "Grado 1 · La u muda detrás de la q y la g",
+      "label": "Primer grado · La u muda detrás de la q y la g",
       "band": "g1",
       "phase": 2,
       "teachingPoint": "detrás de la q y de la g la u se escribe pero no suena delante de e y de i; la diéresis avisa cuando sí suena",
@@ -39,7 +39,7 @@
     },
     {
       "id": "g2-ll-y",
-      "label": "Grado 2 · Dos letras para un mismo sonido",
+      "label": "Segundo grado · Dos letras para un mismo sonido",
       "band": "g2",
       "phase": 3,
       "teachingPoint": "la ll y la y suenan igual delante de vocal, y esa misma y al final de palabra suena como una i",

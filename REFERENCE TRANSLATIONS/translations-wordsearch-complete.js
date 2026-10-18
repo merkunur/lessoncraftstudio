@@ -794,7 +794,7 @@ const translations = {
         "deScatterTitle": "Elementos dispersos",
         "deFootersTitle": "Pies de página",
         "dePalettesTitle": "Paletas de colores",
-        "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+        "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
         // Metadatos y títulos
         "app.title": "Generador de sopas de letras",
         "worksheetGenerator": "Generador de hojas de ejercicios",
@@ -853,10 +853,10 @@ const translations = {
 
         // Herramientas de texto
         "textTools": "Herramientas de texto",
-        "addNewText": "Añadir nuevo texto",
+        "addNewText": "Agregar nuevo texto",
         "content": "Contenido:",
         "helloPlaceholder": "¡Hola!",
-        "addText": "Añadir texto",
+        "addText": "Agregar texto",
         "selectedTextProperties": "Propiedades del texto seleccionado",
         "color": "Color:",
         "size": "Tamaño:",
@@ -898,23 +898,23 @@ const translations = {
         "selectImagesToUpload": "Seleccionar imagen(es) para cargar:",
         "chooseFiles": "Elegir archivos",
         "noFileChosen": "Ningún archivo elegido",
-        "uploadedImages": "Sus imágenes cargadas (esta sesión):",
-        "yourUploadedImagesWillAppearHere": "Sus imágenes cargadas aparecerán aquí.",
-        "uploadedImagesWillAppearHere": "Sus imágenes cargadas aparecerán aquí.",
+        "uploadedImages": "Tus imágenes cargadas (esta sesión):",
+        "yourUploadedImagesWillAppearHere": "Tus imágenes cargadas aparecerán aquí.",
+        "uploadedImagesWillAppearHere": "Tus imágenes cargadas aparecerán aquí.",
         "filesSelected": "{} archivo(s) seleccionado(s)",
 
         // Edición manual de nombres de imágenes
         "manualImageEdit": "Edición manual de nombres de imágenes",
         "enableManualEdit": "Editar nombres de imágenes antes de crear",
-        "manualEditDescription": "Cuando esta opción está activada, puede seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el juego.",
+        "manualEditDescription": "Cuando esta opción está activada, puedes seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el juego.",
         "selectAndEditImages": "Seleccionar y editar imágenes",
-        "manualEditInstructions": "Haz clic para añadir imágenes y luego edita los nombres a continuación:",
-        "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para añadirlas aquí y editarlas.",
+        "manualEditInstructions": "Haz clic para agregar imágenes y luego edita los nombres a continuación:",
+        "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para agregarlas aquí y editarlas.",
 
         // Lista de palabras personalizada
         "customWordList": "Lista de palabras personalizada",
         "useCustomWords": "Usar lista de palabras personalizada",
-        "customWordListDescription": "Cuando esta opción está activada, cree juegos que solo contengan texto usando su lista de palabras personalizada (sin imágenes).",
+        "customWordListDescription": "Cuando esta opción está activada, crea juegos que solo contengan texto usando tu lista de palabras personalizada (sin imágenes).",
         "enterWords": "Escribe las palabras (una por línea, máx. 8):",
         "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
         "customWordListNote": "Solo se permiten letras. Los caracteres especiales y los números se eliminarán.",

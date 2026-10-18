@@ -477,7 +477,7 @@ const translations = {
         "deScatterTitle": "Elementos dispersos",
         "deFootersTitle": "Pies de página",
         "dePalettesTitle": "Paletas de colores",
-        "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+        "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
         // Core UI Elements
         "coloringPageDesigner": "Creador de Páginas para Colorear",
         "coloringDesigner": "Creador de Colorear",
@@ -527,8 +527,8 @@ const translations = {
 
         // Classroom Helpers
         "classroomHelpers": "Ayudas para el aula",
-        "addNameField": "Añadir \"Nombre: ___\"",
-        "addHandwritingLines": "Añadir líneas de escritura",
+        "addNameField": "Agregar \"Nombre: ___\"",
+        "addHandwritingLines": "Agregar líneas de escritura",
 
         // Drawing Tools
         "drawingTools": "Herramientas de dibujo",
@@ -539,10 +539,10 @@ const translations = {
 
         // Text Tools
         "textTools": "Herramientas de texto",
-        "addNewText": "Añadir nuevo texto",
+        "addNewText": "Agregar nuevo texto",
         "content": "Contenido:",
         "helloPlaceholder": "¡Hola!",
-        "addText": "Añadir texto",
+        "addText": "Agregar texto",
         "selectedTextProperties": "Propiedades del texto seleccionado",
         "color": "Color:",
         "size": "Tamaño:",
@@ -556,7 +556,7 @@ const translations = {
         "searchImages": "Buscar imágenes:",
         "searchPlaceholder": "ej. manzana, carro",
         "selectThemeOrTypeToSearch": "Selecciona un tema o escribe para buscar.",
-        "availableImagesClickToAdd": "Imágenes disponibles (Haz clic para añadir):",
+        "availableImagesClickToAdd": "Imágenes disponibles (Haz clic para agregar):",
         "loadingImages": "Cargando imágenes...",
 
         // Upload Custom Images
@@ -565,7 +565,7 @@ const translations = {
         "chooseFiles": "Elegir archivos",
         "noFileChosen": "Ningún archivo seleccionado",
         "filesSelected": "{} archivo(s) seleccionado(s)",
-        "yourUploadedImagesClickToAdd": "Tus imágenes subidas (Haz clic para añadir):",
+        "yourUploadedImagesClickToAdd": "Tus imágenes subidas (Haz clic para agregar):",
 
         // Zoom & History Controls
         "zoomIn": "Acercar",

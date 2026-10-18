@@ -67,7 +67,9 @@ const { makeRng, instanceSeed } = require('../lib/rng.js');
 const tokens = require('../primitives/_tokens.js');
 const spec = require('../types/g1/G1-306-syllable-reading.js');
 const bankMod = require('../data/b3/syllable-reading.js');
-const BANK = bankMod[Object.keys(bankMod)[0]];
+// The locale blocks live in data/b3/locales/<bank>.<loc>.json and are merged by b3-common (the same object the
+// generator reads) — reading the module alone saw only the en block, so this gate could never run for any other locale.
+const BANK = require('../lib/b3-common.js').bankModule('syllable-reading');
 
 const QUICK = process.argv.includes('--quick');
 const VERBOSE = process.argv.includes('--verbose');
@@ -200,7 +202,8 @@ function complexDataChecks(loc, cfg) {
   const banned = new Set(cfg.ban || []);
   const blends = new Set(cfg.blends || []);
   const rimeRe = cfg.complexRime instanceof RegExp ? cfg.complexRime : cfg.simpleRime;
-  check(rimeRe instanceof RegExp, `${loc}: no complexRime / simpleRime regex`, fails);
+  // A rime regex only exists for rime-shaped locales (en); syllable-shaped locales come from JSON and carry none.
+  if (cfg.shape === 'rime') check(rimeRe instanceof RegExp, `${loc}: no complexRime / simpleRime regex`, fails);
   const cellSeen = new Map();
   const allWords = new Set();
   let n = 0;

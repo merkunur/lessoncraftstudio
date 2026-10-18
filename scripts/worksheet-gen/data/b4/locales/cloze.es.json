@@ -824,7 +824,7 @@
   "strings": {
     "base": {
       "title": "Completa las oraciones",
-      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
+      "instruction": "Mira el dibujo. Busca en el banco de palabras la que completa la oración y escríbela en el recuadro."
     },
     "letters": {
       "title": "Completa la oración con una letra en cada recuadro",

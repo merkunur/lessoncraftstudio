@@ -15,7 +15,7 @@
     },
     "F3": {
       "title": "Número misterioso: dos flechas, un recuadro",
-      "instruction": "Sigue las dos flechas. Las dos llegan a el mismo recuadro de la tabla. Escribe el número misterioso."
+      "instruction": "Sigue las dos flechas. Las dos llegan al mismo recuadro de la tabla. Escribe el número misterioso."
     },
     "F4": {
       "title": "Encuentra el error en la pieza",

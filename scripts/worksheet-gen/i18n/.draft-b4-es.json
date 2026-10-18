@@ -23,7 +23,7 @@
     },
     "K-359": {
       "title": "Tangram: cuenta triángulos y cuadrados",
-      "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
+      "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para el segundo."
     },
     "K-354": {
       "title": "El cuerpo humano",
@@ -79,7 +79,7 @@
     },
     "G1-362": {
       "title": "El estado del tiempo: escribe la palabra",
-      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
+      "instruction": "Busca en el banco de palabras el nombre de cada símbolo del tiempo y escríbelo, una letra en cada recuadro."
     },
     "K-364": {
       "title": "Registro del tiempo de la semana: de domingo a sábado",
@@ -123,7 +123,7 @@
     },
     "G1-350": {
       "title": "Completa las oraciones",
-      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
+      "instruction": "Mira el dibujo. Busca en el banco de palabras la que completa la oración y escríbela en el recuadro."
     },
     "G1-366": {
       "title": "Completa la oración con una letra en cada recuadro",
@@ -159,7 +159,7 @@
     },
     "G2-352": {
       "title": "Números pares e impares del 1 al 100: mira las unidades",
-      "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
+      "instruction": "Lee la regla de arriba. Fíjate solo en la cifra de las unidades de cada número y marca el círculo debajo de par o impar."
     },
     "G3-386": {
       "title": "¿Suma par o impar? Decide sin sumar",
@@ -175,7 +175,7 @@
     },
     "G1-371": {
       "title": "Sustituye el nombre por un pronombre",
-      "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración."
+      "instruction": "Lee la oración. Escribe en el recuadro el pronombre del banco de palabras que sustituye al nombre en la segunda oración."
     },
     "G2-353": {
       "title": "¿Quién es él? Pronombres en oraciones",
@@ -199,7 +199,7 @@
     },
     "G1-374": {
       "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas."
+      "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco con la que se pregunta por ellas."
     },
     "G1-375": {
       "title": "Clasifica las respuestas: ¿quién?, ¿qué? o ¿dónde?",
@@ -235,7 +235,7 @@
     },
     "G3-391": {
       "title": "Redondeo de números a la decena y a la centena",
-      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
+      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en el segundo."
     }
   },
   "families": {
@@ -359,7 +359,7 @@
         },
         "count": {
           "title": "Tangram: cuenta triángulos y cuadrados",
-          "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para la segunda."
+          "instruction": "Cuenta los triángulos de cada figura y escribe el número en el primer recuadro. Luego cuenta los cuadrados para el segundo."
         }
       }
     },
@@ -587,7 +587,7 @@
         },
         "G1-362": {
           "title": "El estado del tiempo: escribe la palabra",
-          "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
+          "instruction": "Busca en el banco de palabras el nombre de cada símbolo del tiempo y escríbelo, una letra en cada recuadro."
         },
         "K-364": {
           "title": "Registro del tiempo de la semana: de domingo a sábado",
@@ -1506,7 +1506,7 @@
       "strings": {
         "base": {
           "title": "Completa las oraciones",
-          "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
+          "instruction": "Mira el dibujo. Busca en el banco de palabras la que completa la oración y escríbela en el recuadro."
         },
         "letters": {
           "title": "Completa la oración con una letra en cada recuadro",
@@ -1565,7 +1565,7 @@
         },
         "ones": {
           "title": "Números pares e impares del 1 al 100: mira las unidades",
-          "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
+          "instruction": "Lee la regla de arriba. Fíjate solo en la cifra de las unidades de cada número y marca el círculo debajo de par o impar."
         },
         "sums": {
           "title": "¿Suma par o impar? Decide sin sumar",
@@ -2207,7 +2207,7 @@
         },
         "replace": {
           "title": "Sustituye el nombre por un pronombre",
-          "instruction": "Lee la oración. Escribe en el recuadro el pronombre del recuadro que sustituye al nombre en la segunda oración.",
+          "instruction": "Lee la oración. Escribe en el recuadro el pronombre del banco de palabras que sustituye al nombre en la segunda oración.",
           "bankWord": "recuadro"
         },
         "anaphora": {
@@ -2627,7 +2627,7 @@
         },
         "fill": {
           "title": "Completa la pregunta con quién, qué, dónde, cuándo o cuántos",
-          "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del recuadro con la que se pregunta por ellas.",
+          "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco con la que se pregunta por ellas.",
           "bankWord": "recuadro",
           "boxWord": "recuadro"
         },
@@ -2692,7 +2692,7 @@
         },
         "both": {
           "title": "Redondeo de números a la decena y a la centena",
-          "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
+          "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en el segundo."
         }
       },
       "refuse": [],

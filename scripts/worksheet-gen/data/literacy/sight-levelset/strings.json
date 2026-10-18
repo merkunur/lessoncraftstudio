@@ -91,7 +91,7 @@
   },
   "K-392": {
    "title": "Encuentra la palabra: {UNIT}",
-   "instruction": "Colorea cada casilla con la palabra «{UNIT}». Cuéntalas y escribe el número."
+   "instruction": "Colorea cada recuadro con la palabra «{UNIT}». Cuéntalos y escribe el número."
   },
   "labels": {
    "read": "Lee la palabra",

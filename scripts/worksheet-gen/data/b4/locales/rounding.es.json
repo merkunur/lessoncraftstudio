@@ -35,7 +35,7 @@
     },
     "both": {
       "title": "Redondeo de números a la decena y a la centena",
-      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en la segunda."
+      "instruction": "Redondea cada número dos veces: a la decena en el primer recuadro y a la centena en el segundo."
     }
   },
   "refuse": [],

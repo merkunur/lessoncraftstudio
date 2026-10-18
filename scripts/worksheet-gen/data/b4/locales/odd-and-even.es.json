@@ -30,7 +30,7 @@
     },
     "ones": {
       "title": "Números pares e impares del 1 al 100: mira las unidades",
-      "instruction": "Lee la regla de arriba. Fíjate solo en el recuadro de las unidades de cada número y marca el círculo debajo de par o impar."
+      "instruction": "Lee la regla de arriba. Fíjate solo en la cifra de las unidades de cada número y marca el círculo debajo de par o impar."
     },
     "sums": {
       "title": "¿Suma par o impar? Decide sin sumar",

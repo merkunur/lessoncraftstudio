@@ -518,7 +518,12 @@ export default async function AllWorksheetsPage({
     ? RUNGS.reduce((n, r) => n + activeLadder.pages[r].filter((p) => !interactiveOnly || p.interactive).length, 0)
     : ordered.length;
   const pageCount = activeLadder ? 1 : Math.max(1, Math.ceil(total / WORKSHEETS_PAGE_SIZE));
-  if (rail) rail.resultsLabel = tTopic('decksCount', { count: total });
+  /* The HEADLINE count uses the rail's rule (every worksheet, Level Set copies included —
+     operator 2026-10-01), so a subject tab can never show more than "All" (final review
+     2026-10-18: 4,003 vs Math 6,419). The unfiltered grid still lists only the indexed
+     cards (ruling 2026-09-27); pagination counts what it lists. */
+  const shownTotal = activeLadder || anyFilter ? total : scopedAll.length;
+  if (rail) rail.resultsLabel = tTopic('decksCount', { count: shownTotal });
   // Out-of-range page => 404, not a clamp: clamping made ?page=101 and ?page=999
   // both return 200 with an identical copy of the last real page, i.e. an
   // unbounded crawl space of duplicates.
@@ -653,7 +658,7 @@ export default async function AllWorksheetsPage({
                       <h2 className="font-lcsDisplay font-bold text-xl md:text-[1.4rem] text-lcs-teal leading-tight">{scopeTitle}</h2>
                     ) : <span />}
                     {/* topicPage.decksCount is ICU-pluralised in all 11 locales ("1 worksheet"). */}
-                    <p className="font-lcsBody text-sm font-semibold text-lcs-teal/60 tabular-nums">{tTopic('decksCount', { count: total })}</p>
+                    <p className="font-lcsBody text-sm font-semibold text-lcs-teal/60 tabular-nums">{tTopic('decksCount', { count: shownTotal })}</p>
                   </div>
 
                   <CatalogActiveChips chips={chips} clearAllHref={clearAllHref} clearAllLabel={tActive('clearAll')} />

@@ -22395,17 +22395,6 @@
        "sameSpelling": true,
        "productive": true,
        "picOpened": true
-      },
-      {
-       "vocabKey": "t-shirt",
-       "word": "camiseta",
-       "pic": {
-        "theme": "clothing",
-        "noun": "t-shirt"
-       },
-       "sameSpelling": true,
-       "productive": true,
-       "picOpened": true
       }
      ],
      "extra": [
@@ -28359,33 +28348,6 @@
         "pic": {
          "theme": "farm animals",
          "noun": "hen"
-        }
-       },
-       "hubSide": "a",
-       "opaque": false,
-       "picOpened": true
-      },
-      {
-       "a": {
-        "vocabKey": "shirt",
-        "word": "camisa",
-        "pic": {
-         "theme": "clothing",
-         "noun": "shirt"
-        }
-       },
-       "aStem": "camis",
-       "link": "",
-       "b": {
-        "affix": "-eta"
-       },
-       "whole": {
-        "word": "camiseta",
-        "vocabKey": "t-shirt",
-        "scale": 1,
-        "pic": {
-         "theme": "clothing",
-         "noun": "t-shirt"
         }
        },
        "hubSide": "a",

@@ -1462,11 +1462,11 @@
     "b": "-ito"
    },
    {
-    "word": "cochecito",
-    "a": "coche",
-    "aStem": "",
+    "word": "carrito",
+    "a": "carro",
+    "aStem": "carr",
     "link": "",
-    "b": "-cito"
+    "b": "-ito"
    },
    {
     "word": "ratoncito",

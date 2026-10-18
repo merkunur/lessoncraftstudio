@@ -11,7 +11,7 @@
    bigger price bands, a participatory change-making mode in which the
    stall keeper counts ON aloud coin-by-coin, and saved stalls.
 
-   CURRENCIES (the moat): EUR (de fr it es nl fi), BRL (pt — Brazilian
+   CURRENCIES (the moat): EUR (de fr it nl fi), MXN (es — Mexican pesos, operator 2026-10-17), BRL (pt — Brazilian
    Portuguese is platform-canonical), SEK / DKK / NOK whole-krona
    (minorPerMajor:1 per platform precedent — Denmark's 50-øre skipped),
    en = USD with a GBP settings toggle. Coin faces are STYLIZED: value +
@@ -149,6 +149,7 @@ var MoneyMat = {
     usd: { en: { majS:'dollar', majP:'dollars', minS:'cent', minP:'cents' } },
     gbp: { en: { majS:'pound', majP:'pounds', minS:'penny', minP:'pence' } },
     brl: { pt: { majS:'real', majP:'reais', minS:'centavo', minP:'centavos' } },
+    mxn: { es: { majS:'peso', majP:'pesos', minS:'', minP:'' } },
     sek: { sv: { majS:'krona', majP:'kronor', minS:'', minP:'' } },
     dkk: { da: { majS:'krone', majP:'kroner', minS:'', minP:'' } },
     nok: { no: { majS:'krone', majP:'kroner', minS:'', minP:'' } }
@@ -176,6 +177,12 @@ var MoneyMat = {
       coins: [ { v: 5, label: '5c', d: 30, fam: 'copper' }, { v: 10, label: '10c', d: 32, fam: 'gold' }, { v: 25, label: '25c', d: 36, fam: 'gold' },
         { v: 50, label: '50c', d: 38, fam: 'silver' }, { v: 100, label: 'R$ 1', d: 41, fam: 'bi-sg' } ],
       notes: [ { v: 200, label: 'R$ 2', tint: '#9CC0C4' }, { v: 500, label: 'R$ 5', tint: '#C4A9C9' }, { v: 1000, label: 'R$ 10', tint: '#D9A0A0' } ] },
+    /* es-MX (operator 2026-10-17 "Mexican Spanish only"): WHOLE pesos like the krona sets — the 50¢ coin exists but K-2
+       counting stays in pesos; written "$5" (tight, symbol first). Diameters 21 / 23 / 25.5 / 28 mm on the eur scale. */
+    mxn: { symbol: '$', before: true, tight: true, decimalSep: '.', minorPerMajor: 1,
+      coins: [ { v: 1, label: '$1', d: 36, fam: 'bi-gs' }, { v: 2, label: '$2', d: 39, fam: 'bi-gs' }, { v: 5, label: '$5', d: 43, fam: 'bi-gs' },
+        { v: 10, label: '$10', d: 47, fam: 'bi-sg' } ],
+      notes: [ { v: 20, label: '$20', tint: '#9CB4CF' }, { v: 50, label: '$50', tint: '#C9A0B4' }, { v: 100, label: '$100', tint: '#D9A0A0' } ] },
     sek: { symbol: 'kr', before: false, decimalSep: ',', minorPerMajor: 1,
       coins: [ { v: 1, label: '1 kr', d: 33, fam: 'copper' }, { v: 2, label: '2 kr', d: 37, fam: 'copper' },
         { v: 5, label: '5 kr', d: 41, fam: 'gold' }, { v: 10, label: '10 kr', d: 35, fam: 'gold' } ],
@@ -189,7 +196,7 @@ var MoneyMat = {
         { v: 10, label: '10 kr', d: 37, fam: 'gold' }, { v: 20, label: '20 kr', d: 43, fam: 'gold' } ],
       notes: [ { v: 50, label: '50 kr', tint: '#A8C4A0' }, { v: 100, label: '100 kr', tint: '#C9A886' } ] }
   },
-  LOCALE_CUR: { en: 'usd', de: 'eur', fr: 'eur', it: 'eur', es: 'eur', pt: 'brl', nl: 'eur', fi: 'eur', sv: 'sek', da: 'dkk', no: 'nok' },
+  LOCALE_CUR: { en: 'usd', de: 'eur', fr: 'eur', it: 'eur', es: 'mxn', pt: 'brl', nl: 'eur', fi: 'eur', sv: 'sek', da: 'dkk', no: 'nok' },
   /* native-ensemble VETOES (nl 2004 / fi 2002 cash rounding): these
      locales drop 1c/2c — the coins children never actually see */
   COIN_MIN: { nl: 5, fi: 5 },
@@ -398,7 +405,7 @@ var MoneyMat = {
       var maj = Math.floor(v / c.minorPerMajor), min = v % c.minorPerMajor;
       s = maj + (c.decimalSep || '.') + (min < 10 ? '0' + min : '' + min);
     }
-    return c.before ? (c.symbol + ' ' + s) : (s + ' ' + c.symbol);
+    return c.before ? (c.symbol + (c.tight ? '' : ' ') + s) : (s + ' ' + c.symbol);
   },
   /* the minor-unit mark, ONE site. ⚠ Native panels own this table: `45 c`
      is not how fi (snt), de (Cent), it, es or pt write it — queued for the
@@ -411,7 +418,7 @@ var MoneyMat = {
   /* the price TAG: minor-form under 1 major, major-form above */
   formatTag: function (v, cKey) {
     var c = this.CURRENCIES[cKey || this.curKey()];
-    if (c.minorPerMajor === 1) return v + ' ' + c.symbol;
+    if (c.minorPerMajor === 1) return this.formatMoney(v, c);   /* whole units: "5 kr" / "$5" */
     if (v < c.minorPerMajor) return v + ' ' + this._minorMark(cKey);
     return this.formatMoney(v, c);
   },
@@ -433,7 +440,7 @@ var MoneyMat = {
      round uses formatLike. */
   formatLike: function (v, ref) {
     var c = this.cur();
-    if ((c.minorPerMajor || 1) === 1) return v + ' ' + c.symbol;
+    if ((c.minorPerMajor || 1) === 1) return this.formatMoney(v, c);
     var anchor = (typeof ref === 'number') ? ref : this.price;
     if (anchor < c.minorPerMajor) return v + ' ' + this._minorMark();
     return this.formatMoney(v, c);

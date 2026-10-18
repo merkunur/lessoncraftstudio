@@ -923,14 +923,14 @@
       "de": "del bulldozer"
     },
     "bus": {
-      "unique": "el autobús",
-      "all": "todos los autobuses",
-      "pl": "autobuses",
+      "unique": "el camión",
+      "all": "todos los camiones",
+      "pl": "camiones",
       "ord": {
-        "2": "el segundo autobús",
-        "3": "el tercer autobús",
-        "4": "el cuarto autobús",
-        "5": "el quinto autobús"
+        "2": "el segundo camión",
+        "3": "el tercer camión",
+        "4": "el cuarto camión",
+        "5": "el quinto camión"
       },
       "dat": null,
       "def": null,
@@ -939,7 +939,7 @@
       "gen": null,
       "a2": null,
       "reviewed": true,
-      "de": "del autobús"
+      "de": "del camión"
     },
     "car": {
       "unique": "el carro",

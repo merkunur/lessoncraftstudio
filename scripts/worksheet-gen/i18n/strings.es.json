@@ -1258,7 +1258,7 @@
     "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
   },
   "G1-231": {
-    "title": "Monedas de 1 y 2 céntimos",
+    "title": "Monedas de 1 y 2 pesos",
     "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
   },
   "G1-232": {
@@ -1715,19 +1715,19 @@
     "instruction": "Cada tarjeta pregunta algo distinto."
   },
   "G2-291": {
-    "title": "Problemas con dinero: el total de la cesta",
-    "instruction": "Todas piden el total de la cesta."
+    "title": "Problemas con dinero: el total de la canasta",
+    "instruction": "Todas piden el total de la canasta."
   },
   "G2-292": {
     "title": "Problemas con dinero: suma varios precios",
-    "instruction": "Cestas de hasta tres productos."
+    "instruction": "Canastas de hasta tres productos."
   },
   "G2-293": {
     "title": "Problemas con dinero: ¿cuánto devuelven?",
     "instruction": "Paga con monedas y halla el cambio."
   },
   "G2-294": {
-    "title": "Problemas con dinero: ¿te llega el dinero?",
+    "title": "Problemas con dinero: ¿te alcanza el dinero?",
     "instruction": "Compara el dinero con el precio."
   },
   "G2-295": {
@@ -2507,7 +2507,7 @@
     "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
   },
   "K-364": {
-    "title": "Registro del tiempo de la semana: de lunes a domingo",
+    "title": "Registro del tiempo de la semana: de domingo a sábado",
     "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
   },
   "K-365": {

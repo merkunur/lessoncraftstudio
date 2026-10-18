@@ -25,7 +25,7 @@ vm.runInContext(fs.readFileSync(path.join(MINI, 'money-mat.js'), 'utf8'), sandbo
 const T = sandbox.MoneyMat;
 const S = T.strings;
 /* expected purse coin count per locale (incl. the nl/fi 1c/2c veto) */
-const EXPECT_COINS = { en: 4, de: 8, fr: 8, it: 8, es: 8, nl: 6, fi: 6, pt: 5, sv: 4, da: 5, no: 4 };
+const EXPECT_COINS = { en: 4, de: 8, fr: 8, it: 8, es: 4, nl: 6, fi: 6, pt: 5, sv: 4, da: 5, no: 4 };
 
 let fail = 0;
 (async () => {
@@ -82,8 +82,8 @@ let fail = 0;
       problems.push(`tag and total disagree on notation (tag "${m.tag.trim()}", total "${m.total.trim()}")`);
     }
     /* and the tag must still name the currency somewhere in the round */
-    const sym = { en: '$', de: '€', fr: '€', it: '€', es: '€', nl: '€', fi: '€', pt: 'R$', sv: 'kr', da: 'kr', no: 'kr' }[L];
-    const mark = { en: '¢', de: 'c', fr: 'c', it: 'c', es: 'c', nl: 'ct', fi: 'c', pt: 'c', sv: 'kr', da: 'kr', no: 'kr' }[L];
+    const sym = { en: '$', de: '€', fr: '€', it: '€', es: '$', nl: '€', fi: '€', pt: 'R$', sv: 'kr', da: 'kr', no: 'kr' }[L];
+    const mark = { en: '¢', de: 'c', fr: 'c', it: 'c', es: '$', nl: 'ct', fi: 'c', pt: 'c', sv: 'kr', da: 'kr', no: 'kr' }[L];
     if (!m.tag.includes(sym) && !m.tag.includes(mark)) problems.push(`price tag names no unit ("${m.tag}")`);
     if (L !== 'en' && S.instruction[L] !== S.instruction.en && m.body.includes(S.instruction.en)) problems.push('en instruction leak');
     if (problems.length) { fail++; console.log(`  ✗ ${L}: ${problems.join('; ')}`); }

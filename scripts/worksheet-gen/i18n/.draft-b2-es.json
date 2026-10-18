@@ -79,10 +79,10 @@
     "picture-writing": "Fichas de escribir sobre la imagen: escribe sobre lo que ves con banco de palabras y comienzos de frase. PDF gratis para imprimir.",
     "grid-coordinates": "Fichas de coordenadas en cuadrícula: colorea las casillas indicadas con letra y número y descubre el dibujo escondido. PDF gratis para imprimir."
   },
-  "colorWords": {"orange": "naranja", "purple": "morado", "brown": "marrón", "pink": "rosa"},
+  "colorWords": {"orange": "naranja", "purple": "morado", "brown": "café", "pink": "rosa"},
   "figureNames": {
-    "star": "Estrella", "house": "Casa", "boat": "Barco", "rocket": "Cohete", "fish": "Pez", "kite": "Cometa", "heart": "Corazón", "butterfly": "Mariposa",
-    "tree": "Árbol", "car": "Coche", "cat": "Gato", "ice-cream": "Helado", "umbrella": "Paraguas", "whale": "Ballena", "sailboat": "Velero", "crown": "Corona",
+    "star": "Estrella", "house": "Casa", "boat": "Barco", "rocket": "Cohete", "fish": "Pez", "kite": "Papalote", "heart": "Corazón", "butterfly": "Mariposa",
+    "tree": "Árbol", "car": "Carro", "cat": "Gato", "ice-cream": "Helado", "umbrella": "Paraguas", "whale": "Ballena", "sailboat": "Velero", "crown": "Corona",
     "duck": "Pato", "flag": "Bandera", "cup": "Taza", "boot": "Bota", "key": "Llave", "cherries": "Cerezas", "elephant": "Elefante", "bird": "Pájaro", "giraffe": "Jirafa"
   },
   "labels": {
@@ -104,7 +104,7 @@
     "calendar": {"monthTitle": "{month} de {year}"}
   },
   "calendar": {
-    "weekStart": 1,
+    "weekStart": 0,
     "dayPlural": ["domingos", "lunes", "martes", "miércoles", "jueves", "viernes", "sábados"],
     "frames": {
       "dayOfDate": "¿Qué día de la semana es el {date}?",
@@ -186,7 +186,7 @@
       ],
       "canBuy": [
         "{name} tiene {money}. ¿Puede {name} comprar {item1} y {item2}? Rodea sí o no y escribe el total.",
-        "{name} tiene {money}. ¿Le llega para {item1} y {item2}? Rodea sí o no y escribe el total."
+        "{name} tiene {money}. ¿Le alcanza para {item1} y {item2}? Rodea sí o no y escribe el total."
       ],
       "diff": [
         "¿Cuánto más cuesta {item1} que {item2}?",

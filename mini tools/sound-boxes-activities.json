@@ -732,12 +732,12 @@
                 "e": "s"
               },
               {
-                "noun": "goose",
-                "themeDir": "farm animals",
-                "word": "oca",
+                "noun": "bear",
+                "themeDir": "zoo animals",
+                "word": "oso",
                 "b": "o",
-                "m": "k",
-                "e": "a"
+                "m": "s",
+                "e": "o"
               }
             ]
           },
@@ -754,12 +754,12 @@
             },
             "options": [
               {
-                "noun": "goose",
-                "themeDir": "farm animals",
-                "word": "oca",
+                "noun": "eye",
+                "themeDir": "body parts",
+                "word": "ojo",
                 "b": "o",
-                "m": "k",
-                "e": "a"
+                "m": "j",
+                "e": "o"
               },
               {
                 "noun": "sun",

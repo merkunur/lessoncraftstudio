@@ -8,6 +8,8 @@
  *  - no: 1/5/10/20 kr coins
  *  - pt-BR: 25-centavo coin (quarter-like counting strategies)
  *  - en: USD per operator ruling 2026-08-31 (CCSS 2.MD.C.8 anchor)
+ *  - es: MXN per operator ruling 2026-10-17 ("Mexican Spanish only") — whole pesos,
+ *    $1 / $2 / $5 / $10 coins (the 50¢ coin exists but K-2 counting stays in pesos)
  *
  * G1 design keeps every total in the SMALLEST natural counting unit — cents /
  * centavos for the cent locales, whole kroner for the Nordic sets — so no
@@ -31,7 +33,7 @@ const CURRENCIES = {
   en: { code: 'USD', unit: '¢', sub: [{ v: 1, tint: 'copper' }, { v: 5, tint: 'silver' }, { v: 10, tint: 'silver' }, { v: 25, tint: 'silver' }], subMax: 99 },
   de: { code: 'EUR', unit: 'ct', sub: EURO_FULL, subMax: 99 },
   fr: { code: 'EUR', unit: 'c', sub: EURO_FULL, subMax: 99 },
-  es: { code: 'EUR', unit: 'cts', sub: EURO_FULL, subMax: 99 }, // 'cts' per es native panel (textbook abbreviation; never 'ct')
+  es: { code: 'MXN', unit: 'pesos', whole: true, sub: [{ v: 1, tint: 'silver' }, { v: 2, tint: 'silver' }, { v: 5, tint: 'silver' }, { v: 10, tint: 'gold' }], subMax: 50 }, // es-MX (operator 2026-10-17): whole pesos, like the activities
   it: { code: 'EUR', unit: 'cent', sub: EURO_FULL, subMax: 99 }, // 'cent' per it native panel (on the coins + textbooks; never bare 'c')
   pt: { code: 'BRL', unit: 'centavos', sub: [{ v: 5, tint: 'silver' }, { v: 10, tint: 'gold' }, { v: 25, tint: 'gold' }, { v: 50, tint: 'silver' }], subMax: 99 },
   nl: { code: 'EUR', unit: 'ct', sub: EURO_ROUNDED, subMax: 95 },

@@ -237,7 +237,7 @@
           "theme": "bakery",
           "noun": "bun",
           "vocabKey": "bun",
-          "word": "bollo",
+          "word": "bolillo",
           "gaps": [
             {
               "from": 0,
@@ -246,23 +246,7 @@
           ],
           "g": "b",
           "side": "rule",
-          "plural": "bollos",
-          "pluralGap": null
-        },
-        {
-          "theme": "vehicles",
-          "noun": "bus",
-          "vocabKey": "bus",
-          "word": "autobús",
-          "gaps": [
-            {
-              "from": 4,
-              "len": 1
-            }
-          ],
-          "g": "b",
-          "side": "rule",
-          "plural": "autobuses",
+          "plural": "bolillos",
           "pluralGap": null
         },
         {
@@ -2645,16 +2629,16 @@
           "theme": "bakery",
           "noun": "bun",
           "vocabKey": "bun",
-          "word": "bollo",
+          "word": "bolillo",
           "gaps": [
             {
-              "from": 2,
+              "from": 4,
               "len": 2
             }
           ],
           "g": "ll",
           "side": "rule",
-          "plural": "bollos",
+          "plural": "bolillos",
           "pluralGap": null
         },
         {

@@ -2868,11 +2868,6 @@
      "laterL": false
     },
     {
-     "src": "vehicles/bus",
-     "word": "Autobús",
-     "laterL": true
-    },
-    {
      "src": "vehicles/excavator",
      "word": "Excavadora",
      "laterL": false
@@ -3156,11 +3151,6 @@
      "src": "forest creatures/butterfly",
      "word": "Mariposa",
      "laterL": false
-    },
-    {
-     "src": "forest creatures/grasshopper",
-     "word": "Saltamontes",
-     "laterL": true
     },
     {
      "src": "forest creatures/hedgehog",
@@ -3449,6 +3439,10 @@
     {
      "src": "spring/grass",
      "word": "Pasto"
+    },
+    {
+     "src": "summer/t-shirt",
+     "word": "Playera"
     },
     {
      "src": "zoo animals/sloth",
@@ -3759,11 +3753,6 @@
     {
      "src": "forest creatures/earthworm",
      "word": "Lombriz",
-     "laterL": false
-    },
-    {
-     "src": "forest creatures/grasshopper",
-     "word": "Saltamontes",
      "laterL": false
     },
     {

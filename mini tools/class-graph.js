@@ -148,7 +148,7 @@ var ClassGraph = {
       { q: "Quel fruit préfères-tu ?", cats: ["La pomme", "La banane", "Le raisin"] }
     ],
     es: [
-      { q: "¿Cómo llegaste hoy a la escuela?", cats: ["Caminando", "En coche", "En camión"] },
+      { q: "¿Cómo llegaste hoy a la escuela?", cats: ["Caminando", "En carro", "En camión"] },
       { q: "¿Cómo está el día hoy?", cats: ["Soleado", "Nublado", "Lluvioso"] },
       { q: "¿Qué te gusta más en el recreo?", cats: ["Correr", "La pelota", "Dibujar"] },
       { q: "¿Qué fruta te gusta más?", cats: ["La manzana", "El plátano", "La naranja"] }

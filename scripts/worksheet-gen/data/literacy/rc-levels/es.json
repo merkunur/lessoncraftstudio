@@ -137,16 +137,16 @@
   },
   "es-r2": {
    "sentences": [
-    "Diego aprendió este verano a montar en bici de dos ruedas.",
-    "Al principio, su papá sujetaba el sillín y corría a su lado.",
+    "Diego aprendió este verano a andar en bici de dos ruedas.",
+    "Al principio, su papá sujetaba el asiento y corría a su lado.",
     "Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada.",
     "Diego llegó él solo hasta la fuente grande del parque.",
     "Cuando miró atrás, vio a su papá aplaudiendo desde lejos.",
-    "Ahora Diego monta en bici todos los días después del cole."
+    "Ahora Diego anda en bici todos los días después de la escuela."
    ],
    "l1": [
     {
-     "q": "¿Cuándo aprendió Diego a montar en bici?",
+     "q": "¿Cuándo aprendió Diego a andar en bici?",
      "choices": [
       "este invierno",
       "este verano",
@@ -160,7 +160,7 @@
      "choices": [
       "el manubrio",
       "la mochila",
-      "el sillín"
+      "el asiento"
      ],
      "correct": 2,
      "sentence": 2
@@ -199,7 +199,7 @@
     ],
     "write": {
      "q": "¿Por qué corría el papá al lado de Diego?",
-     "model": "Porque le sujetaba el sillín.",
+     "model": "Porque le sujetaba el asiento.",
      "evidence": 2
     }
    }
@@ -208,7 +208,7 @@
    "sentences": [
     "Ana encuentra una caracola en la playa.",
     "Se la acerca a la oreja y oye un sonido como el del mar.",
-    "Ana sonríe y la guarda en su cubo para enseñársela a su hermano."
+    "Ana sonríe y la guarda en su cubeta para enseñársela a su hermano."
    ],
    "l1": [
     {
@@ -274,7 +274,7 @@
    "sentences": [
     "Los viernes, la clase de Marta cuida el huerto de la escuela.",
     "Cada niño tiene una tarea: unos riegan las plantas y otros quitan las malas hierbas.",
-    "Hoy han recogido los primeros tomates.",
+    "Hoy recogieron los primeros tomates.",
     "Marta lleva tres a casa para preparar una ensalada con su madre."
    ],
    "l1": [
@@ -409,7 +409,7 @@
     "Sara y su padre toman el tren para visitar al tío Andrés, que vive en un pueblo de la montaña.",
     "Sara mira por la ventanilla: primero ve campos amarillos, después un río y al final montañas altas con nieve.",
     "En la estación los espera el tío Andrés con su perra Luna.",
-    "Luna mueve tanto el rabo que Sara se ríe.",
+    "Luna mueve tanto la cola que Sara se ríe.",
     "Esa tarde meriendan pan con miel junto a la chimenea y Sara decide que quiere volver en invierno."
    ],
    "l1": [
@@ -438,7 +438,7 @@
      "choices": [
       "galletas con leche",
       "pan con miel",
-      "fruta con yogur"
+      "fruta con yogurt"
      ],
      "correct": 1,
      "sentence": 5
@@ -467,7 +467,7 @@
     ],
     "write": {
      "q": "¿Por qué se ríe Sara en la estación?",
-     "model": "Porque Luna mueve mucho el rabo.",
+     "model": "Porque Luna mueve mucho la cola.",
      "evidence": 4
     }
    }
@@ -2785,10 +2785,10 @@
     "id": "es-rc-piramides",
     "title": "Las pirámides",
     "pageTitle": "Comprensión lectora: Las pirámides",
-    "text": "El sábado, Valentín fue con su escuela a ver las pirámides de Teotihuacán. Viajaron en un autobús grande y cantaron canciones todo el camino. La maestra Olga les explicó que las pirámides son muy antiguas. Valentín miró desde abajo la enorme Pirámide del Sol. Junto a la pirámide, las personas que caminaban se veían muy pequeñitas, como hormigas. Caminó mucho por la gran avenida, con las piernas cansadas, y se tomó una foto con su amigo Raúl.",
+    "text": "El sábado, Valentín fue con su escuela a ver las pirámides de Teotihuacán. Viajaron en un camión grande y cantaron canciones todo el camino. La maestra Olga les explicó que las pirámides son muy antiguas. Valentín miró desde abajo la enorme Pirámide del Sol. Junto a la pirámide, las personas que caminaban se veían muy pequeñitas, como hormigas. Caminó mucho por la gran avenida, con las piernas cansadas, y se tomó una foto con su amigo Raúl.",
     "sentences": [
      "El sábado, Valentín fue con su escuela a ver las pirámides de Teotihuacán.",
-     "Viajaron en un autobús grande y cantaron canciones todo el camino.",
+     "Viajaron en un camión grande y cantaron canciones todo el camino.",
      "La maestra Olga les explicó que las pirámides son muy antiguas.",
      "Valentín miró desde abajo la enorme Pirámide del Sol.",
      "Junto a la pirámide, las personas que caminaban se veían muy pequeñitas, como hormigas.",
@@ -2825,7 +2825,7 @@
     ],
     "l1": [
      {
-      "q": "¿Qué hicieron en el autobús?",
+      "q": "¿Qué hicieron en el camión?",
       "choices": [
        "comieron dulces",
        "cantaron canciones",

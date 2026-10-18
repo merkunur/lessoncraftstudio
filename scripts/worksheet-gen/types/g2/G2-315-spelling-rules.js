@@ -96,7 +96,7 @@ const SRS = require('../../lib/spelling-rules-screen.js');
 const REVIEW_EXCLUDE = {
   en: { 'y-ies-f-ves': ['galaxy'], 'c-k-ck': ['baker'], 'magic-e': ['baker'], 'ee-ea': ['manatee', 'cereal', 'theater', 'earmuffs', 'meerkat'], 'ai-ay': ['armchair', 'stairs', 'wheelchair', 'chair', 'hair', 'eclair'] },
   de: { ie: ['dahlie', 'hortensie', 'petunie', 'begonie'], tt: ['nachttisch', 'mütze', 'leuchtturm'], ss: ['hausschuhe'], ll: ['bulldozer', 'medaille', 'schöpfkelle'], ck: ['schöpfkelle'], nn: ['zinnie'] },
-  es: { 'g-gu': ['baguette', 'guante', 'paraguas'], 'b-v': ['bollo', 'bote'] },
+  es: { 'g-gu': ['baguette', 'guante', 'paraguas'], 'b-v': ['bolillo', 'bote'] },
   fr: { 's-ou-ss': ['tournesol'] },
   it: { 'chi-ghi': ['cocco'] },
   pt: { 'm-antes-de-p-b': ['pimentão', 'bandagem'], 'ch-x': ['texugo'] },

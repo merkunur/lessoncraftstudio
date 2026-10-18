@@ -112,16 +112,16 @@
       "questions": [
         {"q": "¿Con quién va Mateo al mercado?", "choices": ["Con su abuela", "Con su papá", "Con su hermana"], "correct": 0},
         {"q": "¿Qué le regala el frutero a Mateo?", "choices": ["Una fresa", "Un trozo de pan", "Una cereza roja"], "correct": 2},
-        {"q": "¿Por qué está contento Mateo?", "choices": ["Porque llueve mucho", "Porque ha pagado él las fresas", "Porque ha perdido su bolsa"], "correct": 1}
+        {"q": "¿Por qué está contento Mateo?", "choices": ["Porque llueve mucho", "Porque pagó él las fresas", "Porque perdió su bolsa"], "correct": 1}
       ]
     },
     {
       "id": "es-r2",
       "title": "La bici de Diego",
-      "text": "Diego aprendió este verano a montar en bici de dos ruedas. Al principio, su papá sujetaba el sillín y corría a su lado. Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada. Diego llegó él solo hasta la fuente grande del parque. Cuando miró atrás, vio a su papá aplaudiendo desde lejos. Ahora Diego monta en bici todos los días después del cole.",
+      "text": "Diego aprendió este verano a andar en bici de dos ruedas. Al principio, su papá sujetaba el asiento y corría a su lado. Un día, Diego pedaleó muy fuerte y su papá lo soltó sin decir nada. Diego llegó él solo hasta la fuente grande del parque. Cuando miró atrás, vio a su papá aplaudiendo desde lejos. Ahora Diego anda en bici todos los días después de la escuela.",
       "questions": [
         {"q": "¿Quién ayudaba a Diego al principio?", "choices": ["Su papá", "Su abuela", "Su hermano"], "correct": 0},
-        {"q": "¿Hasta dónde llegó Diego él solo?", "choices": ["Hasta el cole", "Hasta la fuente del parque", "Hasta su casa"], "correct": 1},
+        {"q": "¿Hasta dónde llegó Diego él solo?", "choices": ["Hasta la escuela", "Hasta la fuente del parque", "Hasta su casa"], "correct": 1},
         {"q": "¿Por qué aplaudía el papá de Diego?", "choices": ["Porque quería que Diego parara", "Porque había ganado una carrera", "Porque estaba orgulloso de Diego"], "correct": 2}
       ]
     }

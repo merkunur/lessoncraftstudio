@@ -51,10 +51,10 @@
     boat:  { bare: 'bateau',      def: 'le bateau',      de: 'du bateau' }
   };
   var PREP_FR = { above: 'au-dessus', below: 'en dessous', 'next-to': 'à côté' };
-  /* Spanish (MX): CAMIÓN = BUS in Mexico → bus=autobús, truck=tráiler (collision-safe). def = definite form (for « entre » + the mover);
+  /* Spanish (MX): CAMIÓN = BUS in Mexico → bus=camión (operator 2026-10-17), truck=tráiler (collision-safe). def = definite form (for « entre » + the mover);
      art/noun feed the esFused helper in makeTasks (de+el→del, a+el→al for the governed prep; fem "camioneta" stays "de la"/"a la"). */
   var VEHICLE_ES = {
-    bus:   { bare: 'Autobús',   def: 'el autobús',   art: 'el', noun: 'autobús'   },
+    bus:   { bare: 'Camión',    def: 'el camión',    art: 'el', noun: 'camión'    },
     van:   { bare: 'Camioneta', def: 'la camioneta', art: 'la', noun: 'camioneta' },
     car:   { bare: 'Carro',     def: 'el carro',     art: 'el', noun: 'carro'     },
     truck: { bare: 'Tráiler',   def: 'el tráiler',   art: 'el', noun: 'tráiler'   },

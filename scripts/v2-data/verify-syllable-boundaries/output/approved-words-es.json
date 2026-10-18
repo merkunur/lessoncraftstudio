@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-05-22T01:00:25.829Z",
+  "generated_at": "2026-10-17T18:39:34.937Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 958,
-  "count_quarantined": 305,
+  "count_approved": 947,
+  "count_quarantined": 317,
   "entries": [
     {
       "key": "acorn",
@@ -909,17 +909,17 @@
     },
     {
       "key": "baby-bottle",
-      "word": "biberón",
+      "word": "mamila",
       "split": [
-        "bi",
-        "be",
-        "rón"
+        "ma",
+        "mi",
+        "la"
       ],
       "count": 3,
       "chunks": [
-        "bi",
-        "be",
-        "rón"
+        "ma",
+        "mi",
+        "la"
       ],
       "sources_agreed": [
         "TeX",
@@ -1462,28 +1462,6 @@
         "cié",
         "la",
         "go"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "bathtub",
-      "word": "bañera",
-      "split": [
-        "ba",
-        "ñe",
-        "ra"
-      ],
-      "count": 3,
-      "chunks": [
-        "ba",
-        "ñe",
-        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -2960,26 +2938,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "bun",
-      "word": "bollo",
-      "split": [
-        "bo",
-        "llo"
-      ],
-      "count": 2,
-      "chunks": [
-        "bo",
-        "llo"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "bunny",
       "word": "conejito",
       "split": [
@@ -3016,28 +2974,6 @@
         "bu",
         "rri",
         "to"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "bus",
-      "word": "autobús",
-      "split": [
-        "au",
-        "to",
-        "bús"
-      ],
-      "count": 3,
-      "chunks": [
-        "au",
-        "to",
-        "bús"
       ],
       "sources_agreed": [
         "TeX",
@@ -6247,32 +6183,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "dishwasher",
-      "word": "lavavajillas",
-      "split": [
-        "la",
-        "va",
-        "va",
-        "ji",
-        "llas"
-      ],
-      "count": 5,
-      "chunks": [
-        "la",
-        "va",
-        "va",
-        "ji",
-        "llas"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "doctor",
       "word": "doctor",
       "split": [
@@ -7416,26 +7326,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "faucet",
-      "word": "grifo",
-      "split": [
-        "gri",
-        "fo"
-      ],
-      "count": 2,
-      "chunks": [
-        "gri",
-        "fo"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "feather",
       "word": "pluma",
       "split": [
@@ -7967,14 +7857,14 @@
     },
     {
       "key": "folder",
-      "word": "folder",
+      "word": "fólder",
       "split": [
-        "fol",
+        "fól",
         "der"
       ],
       "count": 2,
       "chunks": [
-        "fol",
+        "fól",
         "der"
       ],
       "sources_agreed": [
@@ -8268,17 +8158,17 @@
     },
     {
       "key": "garage",
-      "word": "garaje",
+      "word": "cochera",
       "split": [
-        "ga",
-        "ra",
-        "je"
+        "co",
+        "che",
+        "ra"
       ],
       "count": 3,
       "chunks": [
-        "ga",
-        "ra",
-        "je"
+        "co",
+        "che",
+        "ra"
       ],
       "sources_agreed": [
         "TeX",
@@ -8711,15 +8601,15 @@
     },
     {
       "key": "goggles",
-      "word": "gafas",
+      "word": "goggles",
       "split": [
-        "ga",
-        "fas"
+        "gog",
+        "gles"
       ],
       "count": 2,
       "chunks": [
-        "ga",
-        "fas"
+        "gog",
+        "gles"
       ],
       "sources_agreed": [
         "TeX",
@@ -8894,30 +8784,6 @@
       "chunks": [
         "pas",
         "to"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "grasshopper",
-      "word": "saltamontes",
-      "split": [
-        "sal",
-        "ta",
-        "mon",
-        "tes"
-      ],
-      "count": 4,
-      "chunks": [
-        "sal",
-        "ta",
-        "mon",
-        "tes"
       ],
       "sources_agreed": [
         "TeX",
@@ -10369,17 +10235,17 @@
     },
     {
       "key": "jacket",
-      "word": "chaqueta",
+      "word": "chamarra",
       "split": [
         "cha",
-        "que",
-        "ta"
+        "ma",
+        "rra"
       ],
       "count": 3,
       "chunks": [
         "cha",
-        "que",
-        "ta"
+        "ma",
+        "rra"
       ],
       "sources_agreed": [
         "TeX",
@@ -11138,6 +11004,30 @@
       "rule_authoritative": true
     },
     {
+      "key": "lawn-mower",
+      "word": "podadora",
+      "split": [
+        "po",
+        "da",
+        "do",
+        "ra"
+      ],
+      "count": 4,
+      "chunks": [
+        "po",
+        "da",
+        "do",
+        "ra"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
       "key": "leaf",
       "word": "hoja",
       "split": [
@@ -11164,23 +11054,28 @@
     },
     {
       "key": "leek",
-      "word": "puerro",
+      "word": "poro",
       "split": [
-        "pue",
-        "rro"
+        "po",
+        "ro"
       ],
       "count": 2,
       "chunks": [
-        "pue",
-        "rro"
+        "po",
+        "ro"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "poro"
+        ]
+      }
     },
     {
       "key": "leg",
@@ -11543,27 +11438,34 @@
     },
     {
       "key": "light-switch",
-      "word": "interruptor",
+      "word": "apagador",
       "split": [
-        "in",
-        "te",
-        "rrup",
-        "tor"
+        "a",
+        "pa",
+        "ga",
+        "dor"
       ],
       "count": 4,
       "chunks": [
-        "in",
-        "te",
-        "rrup",
-        "tor"
+        "a",
+        "pa",
+        "ga",
+        "dor"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "apa",
+          "ga",
+          "dor"
+        ]
+      }
     },
     {
       "key": "lighthouse",
@@ -11912,28 +11814,6 @@
         "ca",
         "mas",
         "tro"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "lounger",
-      "word": "tumbona",
-      "split": [
-        "tum",
-        "bo",
-        "na"
-      ],
-      "count": 3,
-      "chunks": [
-        "tum",
-        "bo",
-        "na"
       ],
       "sources_agreed": [
         "TeX",
@@ -12585,16 +12465,16 @@
     },
     {
       "key": "minibus",
-      "word": "minibús",
+      "word": "microbús",
       "split": [
         "mi",
-        "ni",
+        "cro",
         "bús"
       ],
       "count": 3,
       "chunks": [
         "mi",
-        "ni",
+        "cro",
         "bús"
       ],
       "sources_agreed": [
@@ -13299,6 +13179,31 @@
       "rule_authoritative": true
     },
     {
+      "key": "nightstand",
+      "word": "buró",
+      "split": [
+        "bu",
+        "ró"
+      ],
+      "count": 2,
+      "chunks": [
+        "bu",
+        "ró"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "buró"
+        ]
+      }
+    },
+    {
       "key": "nose",
       "word": "nariz",
       "split": [
@@ -13758,17 +13663,17 @@
     },
     {
       "key": "outlet",
-      "word": "enchufe",
+      "word": "contacto",
       "split": [
-        "en",
-        "chu",
-        "fe"
+        "con",
+        "tac",
+        "to"
       ],
       "count": 3,
       "chunks": [
-        "en",
-        "chu",
-        "fe"
+        "con",
+        "tac",
+        "to"
       ],
       "sources_agreed": [
         "TeX",
@@ -15457,32 +15362,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "plunger",
-      "word": "destapacaños",
-      "split": [
-        "des",
-        "ta",
-        "pa",
-        "ca",
-        "ños"
-      ],
-      "count": 5,
-      "chunks": [
-        "des",
-        "ta",
-        "pa",
-        "ca",
-        "ños"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "police-car",
       "word": "patrulla",
       "split": [
@@ -15624,26 +15503,6 @@
           "mo"
         ]
       }
-    },
-    {
-      "key": "porridge",
-      "word": "gachas",
-      "split": [
-        "ga",
-        "chas"
-      ],
-      "count": 2,
-      "chunks": [
-        "ga",
-        "chas"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "pot",
@@ -15956,17 +15815,17 @@
     },
     {
       "key": "push-pin",
-      "word": "chincheta",
+      "word": "tachuela",
       "split": [
-        "chin",
-        "che",
-        "ta"
+        "ta",
+        "chue",
+        "la"
       ],
       "count": 3,
       "chunks": [
-        "chin",
-        "che",
-        "ta"
+        "ta",
+        "chue",
+        "la"
       ],
       "sources_agreed": [
         "TeX",
@@ -18678,30 +18537,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "squash",
-      "word": "calabacín",
-      "split": [
-        "ca",
-        "la",
-        "ba",
-        "cín"
-      ],
-      "count": 4,
-      "chunks": [
-        "ca",
-        "la",
-        "ba",
-        "cín"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "squid",
       "word": "calamar",
       "split": [
@@ -18966,30 +18801,6 @@
           "ya"
         ]
       }
-    },
-    {
-      "key": "stool",
-      "word": "taburete",
-      "split": [
-        "ta",
-        "bu",
-        "re",
-        "te"
-      ],
-      "count": 4,
-      "chunks": [
-        "ta",
-        "bu",
-        "re",
-        "te"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "stopwatch",
@@ -19606,30 +19417,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "t-shirt",
-      "word": "camiseta",
-      "split": [
-        "ca",
-        "mi",
-        "se",
-        "ta"
-      ],
-      "count": 4,
-      "chunks": [
-        "ca",
-        "mi",
-        "se",
-        "ta"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "table",
       "word": "mesa",
       "split": [
@@ -19740,6 +19527,31 @@
       ],
       "total_agreed": 3,
       "rule_authoritative": true
+    },
+    {
+      "key": "tanker-truck",
+      "word": "pipa",
+      "split": [
+        "pi",
+        "pa"
+      ],
+      "count": 2,
+      "chunks": [
+        "pi",
+        "pa"
+      ],
+      "sources_agreed": [
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "pipa"
+        ]
+      }
     },
     {
       "key": "tart",
@@ -20179,30 +19991,6 @@
       }
     },
     {
-      "key": "toaster",
-      "word": "tostadora",
-      "split": [
-        "tos",
-        "ta",
-        "do",
-        "ra"
-      ],
-      "count": 4,
-      "chunks": [
-        "tos",
-        "ta",
-        "do",
-        "ra"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "toilet",
       "word": "inodoro",
       "split": [
@@ -20559,26 +20347,6 @@
         "pa",
         "le",
         "ta"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "truck",
-      "word": "camión",
-      "split": [
-        "ca",
-        "mión"
-      ],
-      "count": 2,
-      "chunks": [
-        "ca",
-        "mión"
       ],
       "sources_agreed": [
         "TeX",

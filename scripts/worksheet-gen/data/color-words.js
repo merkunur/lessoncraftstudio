@@ -18,7 +18,7 @@ const COLOR_WORDS = {
   en: {red: 'red', blue: 'blue', yellow: 'yellow', green: 'green', orange: 'orange', purple: 'purple', brown: 'brown', pink: 'pink', lightblue: 'light blue', lightgreen: 'light green', grey: 'gray', black: 'black'},
   de: {red: 'rot', blue: 'blau', yellow: 'gelb', green: 'grün', orange: 'orange', purple: 'lila', brown: 'braun', pink: 'rosa', lightblue: 'hellblau', lightgreen: 'hellgrün', grey: 'grau', black: 'schwarz'},
   fr: {red: 'rouge', blue: 'bleu', yellow: 'jaune', green: 'vert', orange: 'orange', purple: 'violet', brown: 'marron', pink: 'rose', lightblue: 'bleu clair', lightgreen: 'vert clair', grey: 'gris', black: 'noir'},
-  es: {red: 'rojo', blue: 'azul', yellow: 'amarillo', green: 'verde', orange: 'naranja', purple: 'morado', brown: 'marrón', pink: 'rosa', lightblue: 'azul claro', lightgreen: 'verde claro', grey: 'gris', black: 'negro'},
+  es: {red: 'rojo', blue: 'azul', yellow: 'amarillo', green: 'verde', orange: 'naranja', purple: 'morado', brown: 'café', pink: 'rosa', lightblue: 'azul claro', lightgreen: 'verde claro', grey: 'gris', black: 'negro'},
   pt: {red: 'vermelho', blue: 'azul', yellow: 'amarelo', green: 'verde', orange: 'laranja', purple: 'roxo', brown: 'marrom', pink: 'rosa', lightblue: 'azul-claro', lightgreen: 'verde-claro', grey: 'cinza', black: 'preto'},
   it: {red: 'rosso', blue: 'blu', yellow: 'giallo', green: 'verde', orange: 'arancione', purple: 'viola', brown: 'marrone', pink: 'rosa', lightblue: 'azzurro', lightgreen: 'verde chiaro', grey: 'grigio', black: 'nero'},
   nl: {red: 'rood', blue: 'blauw', yellow: 'geel', green: 'groen', orange: 'oranje', purple: 'paars', brown: 'bruin', pink: 'roze', lightblue: 'lichtblauw', lightgreen: 'lichtgroen', grey: 'grijs', black: 'zwart'},

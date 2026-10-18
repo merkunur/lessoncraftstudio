@@ -19,7 +19,7 @@ const LS_REFUSED_THEMES = new Set(['emotions', 'colors', 'activities', 'weather'
 const LS_AMBIGUOUS = {
   en: ["water", "wave", "ice", "shovel", "cooler", "grill", "flag", "cross", "square", "oval", "whisk", "microwave", "hammer", "comb", "stamp", "nail", "dress", "sled", "coat", "dimetrodon", "mosasaurus", "allosaurus", "heptagon", "hornbill", "ottoman", "scallop", "liberty"],
   de: ["immergrün", "pfeife", "spritze", "schwamm", "taube", "schaufel", "carnotaurus", "akelei", "zustellung", "freiheit", "rudolph", "halloween"],
-  es: ["cómoda", "entrega", "regalo", "cosecha", "plesiosaurio", "ictiosaurio", "iguanodonte", "dimetrodonte", "aguileña", "ranúnculo", "áster", "forsitia", "otomana", "puerro", "muérdago", "rodolfo", "libertad"],
+  es: ["cómoda", "entrega", "regalo", "cosecha", "plesiosaurio", "ictiosaurio", "iguanodonte", "dimetrodonte", "aguileña", "ranúnculo", "áster", "forsitia", "otomana", "poro", "muérdago", "rodolfo", "libertad"],
   fr: ["carré", "violette", "jumelles", "pince", "gomme", "balance", "calao", "ancolie", "phlox", "zinnia", "canneberge", "conifère", "lamantin", "liberté", "halloween"],
   it: ["letto", "raccolto", "mento", "riccio", "impermeabile", "ovale", "culla", "maiasaura", "capasanta", "muffola", "porridge", "libertà"],
   pt: ["saia", "olho", "cômoda", "balança", "entrega", "torta", "violeta", "cobra", "gerbo", "tentilhão", "calêndula", "miosótis", "áster", "glicínia", "flox", "mitene", "maiassaura", "deinonico", "plesiossauro", "iguanodonte", "halloween", "liberdade", "sincelo"],

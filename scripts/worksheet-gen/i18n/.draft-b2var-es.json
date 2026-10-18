@@ -186,19 +186,19 @@
    "instruction": "Cada tarjeta pregunta algo distinto."
   },
   "G2-291": {
-   "title": "Problemas con dinero: el total de la cesta",
-   "instruction": "Todas piden el total de la cesta."
+   "title": "Problemas con dinero: el total de la canasta",
+   "instruction": "Todas piden el total de la canasta."
   },
   "G2-292": {
    "title": "Problemas con dinero: suma varios precios",
-   "instruction": "Cestas de hasta tres productos."
+   "instruction": "Canastas de hasta tres productos."
   },
   "G2-293": {
    "title": "Problemas con dinero: ¿cuánto devuelven?",
    "instruction": "Paga con monedas y halla el cambio."
   },
   "G2-294": {
-   "title": "Problemas con dinero: ¿te llega el dinero?",
+   "title": "Problemas con dinero: ¿te alcanza el dinero?",
    "instruction": "Compara el dinero con el precio."
   },
   "G2-295": {

@@ -15078,7 +15078,9 @@
     "robot": "robot",
     "balloon": "globo",
     "dinosaur": "dinosaurio",
-    "boat": "bote"
+    "boat": "bote",
+    "bus": "camión",
+    "t-shirt": "playera"
    },
    "strings": {
     "K-323": {
@@ -16015,16 +16017,6 @@
        ]
       },
       {
-       "key": "bathtub",
-       "word": "bañera",
-       "unit": "ba",
-       "split": [
-        "ba",
-        "ñe",
-        "ra"
-       ]
-      },
-      {
        "key": "slug",
        "word": "babosa",
        "unit": "ba",
@@ -16101,15 +16093,6 @@
         "bo",
         "te",
         "lla"
-       ]
-      },
-      {
-       "key": "bun",
-       "word": "bollo",
-       "unit": "bo",
-       "split": [
-        "bo",
-        "llo"
        ]
       },
       {
@@ -16311,15 +16294,6 @@
        ]
       },
       {
-       "key": "truck",
-       "word": "camión",
-       "unit": "ca",
-       "split": [
-        "ca",
-        "mión"
-       ]
-      },
-      {
        "key": "cauliflower",
        "word": "coliflor",
        "unit": "co",
@@ -16517,16 +16491,6 @@
        ]
       },
       {
-       "key": "garage",
-       "word": "garaje",
-       "unit": "ga",
-       "split": [
-        "ga",
-        "ra",
-        "je"
-       ]
-      },
-      {
        "key": "gazelle",
        "word": "gacela",
        "unit": "ga",
@@ -16534,15 +16498,6 @@
         "ga",
         "ce",
         "la"
-       ]
-      },
-      {
-       "key": "goggles",
-       "word": "gafas",
-       "unit": "ga",
-       "split": [
-        "ga",
-        "fas"
        ]
       },
       {
@@ -17308,15 +17263,6 @@
      ]
     },
     {
-     "key": "bathtub",
-     "word": "bañera",
-     "split": [
-      "ba",
-      "ñe",
-      "ra"
-     ]
-    },
-    {
      "key": "beanie",
      "word": "gorro",
      "split": [
@@ -17513,23 +17459,6 @@
       "bull",
       "do",
       "zer"
-     ]
-    },
-    {
-     "key": "bun",
-     "word": "bollo",
-     "split": [
-      "bo",
-      "llo"
-     ]
-    },
-    {
-     "key": "bus",
-     "word": "autobús",
-     "split": [
-      "au",
-      "to",
-      "bús"
      ]
     },
     {
@@ -18166,9 +18095,9 @@
     },
     {
      "key": "folder",
-     "word": "folder",
+     "word": "fólder",
      "split": [
-      "fol",
+      "fól",
       "der"
      ]
     },
@@ -18199,11 +18128,11 @@
     },
     {
      "key": "garage",
-     "word": "garaje",
+     "word": "cochera",
      "split": [
-      "ga",
-      "ra",
-      "je"
+      "co",
+      "che",
+      "ra"
      ]
     },
     {
@@ -18271,14 +18200,6 @@
      "split": [
       "ca",
       "bra"
-     ]
-    },
-    {
-     "key": "goggles",
-     "word": "gafas",
-     "split": [
-      "ga",
-      "fas"
      ]
     },
     {
@@ -18606,14 +18527,6 @@
      "split": [
       "fa",
       "rol"
-     ]
-    },
-    {
-     "key": "leek",
-     "word": "puerro",
-     "split": [
-      "pue",
-      "rro"
      ]
     },
     {
@@ -19766,14 +19679,6 @@
      ]
     },
     {
-     "key": "truck",
-     "word": "camión",
-     "split": [
-      "ca",
-      "mión"
-     ]
-    },
-    {
      "key": "trumpet",
      "word": "trompeta",
      "split": [
@@ -20127,7 +20032,8 @@
     "wrist",
     "writing",
     "yellow",
-    "zinnia"
+    "zinnia",
+    "goggles"
    ],
    "whitelist": {},
    "refuse": {
@@ -21711,14 +21617,14 @@
      "reviewed": true
     },
     "bus": {
-     "unique": "el autobús",
-     "all": "todos los autobuses",
-     "pl": "autobuses",
+     "unique": "el camión",
+     "all": "todos los camiones",
+     "pl": "camiones",
      "ord": {
-      "2": "el segundo autobús",
-      "3": "el tercer autobús",
-      "4": "el cuarto autobús",
-      "5": "el quinto autobús"
+      "2": "el segundo camión",
+      "3": "el tercer camión",
+      "4": "el cuarto camión",
+      "5": "el quinto camión"
      },
      "dat": null,
      "def": null,
@@ -21726,7 +21632,8 @@
      "part": null,
      "gen": null,
      "a2": null,
-     "reviewed": true
+     "reviewed": true,
+     "de": "del camión"
     },
     "car": {
      "unique": "el carro",
@@ -23720,7 +23627,7 @@
        "theme": "bakery",
        "noun": "bun",
        "vocabKey": "bun",
-       "word": "bollo",
+       "word": "bolillo",
        "gaps": [
         {
          "from": 0,
@@ -23729,23 +23636,7 @@
        ],
        "g": "b",
        "side": "rule",
-       "plural": "bollos",
-       "pluralGap": null
-      },
-      {
-       "theme": "vehicles",
-       "noun": "bus",
-       "vocabKey": "bus",
-       "word": "autobús",
-       "gaps": [
-        {
-         "from": 4,
-         "len": 1
-        }
-       ],
-       "g": "b",
-       "side": "rule",
-       "plural": "autobuses",
+       "plural": "bolillos",
        "pluralGap": null
       },
       {
@@ -26128,16 +26019,16 @@
        "theme": "bakery",
        "noun": "bun",
        "vocabKey": "bun",
-       "word": "bollo",
+       "word": "bolillo",
        "gaps": [
         {
-         "from": 2,
+         "from": 4,
          "len": 2
         }
        ],
        "g": "ll",
        "side": "rule",
-       "plural": "bollos",
+       "plural": "bolillos",
        "pluralGap": null
       },
       {

@@ -586,7 +586,7 @@
     },
     {
       "id": "bus",
-      "intro": "{a} y {b} van en el autobús.",
+      "intro": "{a} y {b} van en el camión.",
       "s": [
         {
           "text": "{P} lleva una mochila roja.",

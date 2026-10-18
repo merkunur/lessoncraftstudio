@@ -1437,24 +1437,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Laskussa \"3 + 2\" lapsi asettaa ensin 3 merkkiä ja lisää sitten 2 toisenväristä merkkiä, jotta kaksi osaa erottuvat helposti; laskussa \"5 − 2\" hän aloittaa viidellä merkillä ja napauttaa ottaakseen 2 pois. Tärkeintä on laskutoimituksen näyttäminen kymmenruudukossa — ei luvun kirjoittaminen. Tämä on vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Ydinajatus on, että yhteen- ja vähennyslasku ovat tekoja, jotka voi näyttää, eivät vain vastauksia, jotka kirjoitetaan. Toisen merkin väri tekee kahdesta yhteenlaskettavasta näkyviä erillisinä ryhminä, ja merkkien poistaminen tekee \"pois ottamisesta\" konkreettista. Lapsi mallintaa laskutoimituksen sen sijaan että kirjoittaisi luvun, joten yhteen kokoamisen ja erottamisen merkitys tulee ennen laskemista. Harjoitus on OPS 2014:n mukainen — esitetään yhteen- ja vähennyslaskua esineillä, sormilla, piirroksilla ja muilla välineillä. Esiopetukseen sopiva."
+        "Leimasinruudukossa laskusta tulee jotain, minkä lapsi painaa itse. Leimasimia on kolme – oranssi piste, vihreä piste ja iso risti – ja tyhjä kymmenruudukko. Laskussa 3 + 2 lapsi leimaa 3 oranssia ja 2 vihreää merkkiä; laskussa 8 − 3 hän leimaa 8 oranssia merkkiä ja viivaa niistä 3 yli. Tämä on vuorovaikutteinen matematiikkaharjoitus, joka toimii selaimessa ilman asennusta.",
+        "Ideana on, että lasku tarkistaa painetun. Kun lapsi painaa Tarkista, merkit liukuvat järjestykseen ja jokainen laskun luku laskee kaaren omien merkkiensä ympärille. Kaaresta ulos jäävä merkki tai tyhjä katkoviivainen paikka kaaren sisällä näkyy heti, ja vihje kertoo, minkä luvun alle kannattaa katsoa. Vasta kun painettu on oikein, kysytään tulosta: yhteenlaskussa kaksi kaarta yhdistyvät yhdeksi kaikkien merkkien ympärille – ”Montako niitä on yhteensä?”; vähennyslaskussa yliviivatut merkit lentävät kulhoon – ”Montako on jäljellä?”. Lapsi napauttaa vastauksen lukunauhasta, jossa jokaisella luvulla on oma paikkansa, joten nauha ei paljasta vastausta. Jos lapsi yhteenlaskussa napauttaa toista osista, vihje kertoo, että se on vain osa; vähennyslaskussa laskun luku ohjaa takaisin ruudukkoon jääneisiin merkkeihin; toisen väärän vastauksen jälkeen merkit numeroidaan viimeisen kysymysmerkkiin asti, ja luvun sanoo lapsi itse.",
+        "Harjoitus on OPS 2014:n mukainen: yhteen- ja vähennyslaskun esittäminen esineillä, piirroksilla ja laskulausekkeilla; yliviivaaminen on se kuvamalli, jota lapset myöhemmin käyttävät paperilla. Esiopetukseen sopiva. Opettaja valitsee luvut 5:een, 10:een (oletus) tai 20:een asti kahdella kymmenruudukolla ja näyttää luvut numeroina tai noppa- ja dominopisteinä. ”Leimaa omin päin” on avoin leikki: kaikki kolme leimasinta, ja lasku kirjoittuu itsestään leimatun perusteella. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Näyttää yhteenlaskun asettamalla kaksi merkkiryhmää kahdella eri värillä.",
-        "Näyttää vähennyslaskun ottamalla merkkejä pois aloitusryhmästä.",
-        "Näkee kaksi osaa, jotka muodostavat kokonaisuuden ruudukossa.",
-        "Mallintaa, mitä yhteen- tai vähennyslasku oikeasti tarkoittaa."
+        "Yhteenlaskun näyttäminen kahtena erivärisenä merkkiryhmänä",
+        "Vähennyslaskun näyttäminen viivaamalla yli merkkejä ensimmäisestä ryhmästä",
+        "Laskun jokaisen luvun tarkistaminen sen omista merkeistä",
+        "Sen laskeminen, montako niitä on yhteensä tai montako on jäljellä"
       ],
       "howToPlay": [
-        "Lue lasku, kuten 3 + 2 tai 5 − 2.",
-        "Aseta tai poista merkkejä kymmenruudukossa niin, että se näyttää laskutoimituksen, paina sitten Tarkista-painiketta.",
-        "Eikö osunut oikeaan? Muuta merkkejä ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Lue lasku, esimerkiksi 4 + 3 tai 8 − 3.",
+        "Ota leimasin napauttamalla sitä ja napauta sitten kymmenruudukon paikkoja. Oranssi on ensimmäinen luku, vihreä toinen; vähennyslaskussa viivaat merkkejä yli ristileimasimella. Kun napautat merkkiä uudelleen samalla leimasimella, se katoaa.",
+        "Paina Tarkista. Kaaret näyttävät, mitä puuttuu tai mitä on liikaa – korjaa ja paina Tarkista uudelleen.",
+        "Kun painettu on oikein, napauta lukunauhasta, montako niitä on. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa esittää yhteen- ja vähennyslaskua merkeillä.",
-        "Lapsi ymmärtää yhteenlaskun yhteen kokoamisena ja vähennyslaskun pois ottamisena.",
-        "Lapsi rakentaa mallintamisen tavan, johon sanalliset tehtävät ja laskulauseet nojaavat."
+        "Yhteen- ja vähennyslaskun esittäminen merkeillä ja laskulausekkeella",
+        "Yhteenlaskun näkeminen kahtena osana, jotka muodostavat kokonaisuuden",
+        "Vähennyslaskun näkeminen yliviivaamisena ja jäljelle jääneiden laskemisena"
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

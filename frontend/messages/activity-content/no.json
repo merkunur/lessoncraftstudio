@@ -821,25 +821,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "For «3 + 2» legger barnet 3 brikker og deretter 2 til i en ny farge, slik at de to delene er lette å se; for «5 − 2» starter det med 5 og trykker for å ta 2 bort. Å vise regnestykket på tierramma — ikke å skrive et tall — er selve oppgaven. Det er en interaktiv matteaktivitet for skolestart og 1. trinn som spilles i nettleseren uten registrering.",
-        "Den store ideen er at addisjon og subtraksjon er handlinger du kan vise, ikke bare svar du skriver. Den andre brikkefargen gjør de to leddene synlige som adskilte grupper, og det å fjerne brikker gjør «ta bort» helt konkret. Barnet modellerer regnestykket i stedet for å skrive et tall, så betydningen av å sette sammen og dele opp kommer før selve regningen.",
-        "Aktiviteten følger LK20 innenfor regning — å vise addisjon og subtraksjon med gjenstander, fingre, tegninger og andre hjelpemidler. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "I stempelrammen blir et regnestykke noe barnet trykker. Det er tre stempler – en oransje prikk, en grønn prikk og et stort kryss – og en tom tierramme. For 3 + 2 stempler barnet 3 oransje og 2 grønne brikker; for 8 − 3 stempler det 8 oransje brikker og stryker ut 3 av dem. En interaktiv matematikkaktivitet som kjører i nettleseren, uten installasjon.",
+        "Ideen er at regnestykket sjekker trykket. Når barnet trykker på Sjekk, glir brikkene på plass i rekkefølge, og hvert tall i regnestykket legger en klamme rundt sine egne brikker. En brikke som stikker ut av klammen sin, eller en tom stiplet plass inni den, synes med en gang, og tipset sier hvilket tall barnet skal se under. Først når trykket stemmer, kommer spørsmålet om svaret: ved addisjon blir de to klammene til én rundt alle brikkene – «Hvor mange er det til sammen?»; ved subtraksjon flyr de overstrekte brikkene ned i en skål – «Hvor mange er det igjen?». Barnet trykker svaret på en tallstripe der hvert tall har sin faste plass, så stripen røper ingenting. Trykker barnet ved addisjon på en av de to delene, sier tipset at det bare er en del; ved subtraksjon fører et tall fra regnestykket tilbake til brikkene som fortsatt er på rammen; etter enda et feil svar blir brikkene nummerert fram til et spørsmålstegn på den siste, og tallet sier barnet selv.",
+        "Aktiviteten følger LK20 innenfor regning – å vise addisjon og subtraksjon med gjenstander, tegninger og regnestykker; å stryke ut er den tegnede modellen barna senere bruker på papir. Læreren velger tall opp til 5, opp til 10 (standard) eller opp til 20 på to tierrammer og viser tallene som sifre eller som terning- og dominoprikker. «Stemple som du vil» er åpen lek: alle tre stemplene, og regnestykket skriver seg selv ut fra det som er stemplet. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Vise addisjon ved å legge to grupper brikker i to farger.",
-        "Vise subtraksjon ved å ta brikker bort fra en startgruppe.",
-        "Se de to delene som til sammen blir det hele på ramma.",
-        "Modellere hva en plussoppgave eller minusoppgave egentlig betyr."
+        "Å vise en addisjon som to grupper brikker i to farger",
+        "Å vise subtraksjon ved å stryke ut brikker i den første gruppen",
+        "Å sjekke hvert tall i et regnestykke mot sine egne brikker",
+        "Å telle hvor mange det er til sammen, eller hvor mange som er igjen"
       ],
       "howToPlay": [
-        "Les oppgaven, som 3 + 2 eller 5 − 2.",
-        "Legg til eller fjern brikker på tierramma slik at den viser regnestykket, og trykk så på Sjekk.",
-        "Ikke helt riktig? Juster brikkene og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Les regnestykket, for eksempel 4 + 3 eller 8 − 3.",
+        "Trykk på et stempel for å ta det, og trykk så på plasser i tierrammen. Oransje er det første tallet, grønt det andre; ved subtraksjon stryker du ut brikker med kryss-stempelet. Trykker du på en brikke igjen med det samme stempelet, forsvinner den.",
+        "Trykk på Sjekk. Klammene viser hva som mangler eller er for mye – rett det og trykk på Sjekk igjen.",
+        "Når trykket stemmer, trykker du på tallstripen hvor mange det er. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan vise addisjon og subtraksjon med brikker.",
-        "Barnet forstår addisjon som å sette sammen og subtraksjon som å ta bort.",
-        "Barnet bygger den modelleringsvanen som tekstoppgaver og regnestykker bygger på."
+        "Vise addisjon og subtraksjon med brikker og et regnestykke",
+        "Se en addisjon som to deler som til sammen blir en helhet",
+        "Se subtraksjon som å stryke ut og telle det som er igjen"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

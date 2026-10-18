@@ -3747,25 +3747,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Bij '3 + 2' legt het kind 3 fiches neer en daarna nog 2 in een andere kleur, zodat de twee delen goed te zien zijn; bij '5 − 2' begint het met 5 fiches en tikt het er 2 weg. Het laten zien van de bewerking op het tienraam — niet een getal intypen — is hier het werk. Het is een interactieve rekenactiviteit voor kleuters die in de browser speelt, zonder registratie.",
-        "Het grote idee is dat optellen en aftrekken handelingen zijn die je kunt laten zien, en niet alleen antwoorden die je opschrijft. De tweede kleur fiches maakt de twee delen zichtbaar als aparte groepjes, en fiches weghalen maakt 'eraf halen' letterlijk. Het kind beeldt de bewerking uit in plaats van een getal in te typen, zodat de betekenis van samenvoegen en eraf halen vóór het rekenen komt.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optellen en aftrekken voorstellen met voorwerpen, vingers, tekeningen en andere hulpmiddelen. Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Met het stempelraam wordt een som iets wat een kind drukt. Er zijn drie stempels – een oranje stip, een groene stip en een groot kruis – en een leeg tienraam. Bij 3 + 2 stempelt het kind 3 oranje en 2 groene fiches; bij 8 − 3 stempelt het 8 oranje fiches en streept het er 3 door. Een interactieve rekenactiviteit die in de browser werkt, zonder iets te installeren.",
+        "Het idee: de som controleert de afdruk. Als het kind op Controleer tikt, schuiven de fiches op volgorde en legt elk getal van de som een boog om zijn eigen fiches. Een fiche die buiten zijn boog steekt, of een leeg gestippeld vakje erbinnen, valt meteen op, en de tip zegt onder welk getal je moet kijken. Pas als de afdruk klopt, komt de vraag naar de uitkomst: bij optellen worden de twee bogen één boog om alle fiches – ‘Hoeveel zijn het samen?’; bij aftrekken vliegen de doorgestreepte fiches in een schaaltje – ‘Hoeveel blijven er over?’. Het kind tikt het antwoord op een getallenstrook waarop elk getal een vaste plek heeft, dus de strook verraadt niets. Wie bij optellen een van de twee delen tikt, hoort dat het maar een deel is; bij aftrekken stuurt een getal uit de som het kind terug naar de fiches die nog op het raam liggen; na een tweede fout krijgen de fiches nummers tot een vraagteken op de laatste, en het getal zegt het kind zelf.",
+        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optellen en aftrekken weergeven met voorwerpen, tekeningen en sommen; doorstrepen is het getekende model dat kinderen later op papier gebruiken. Dit hoort bij groep 1-2 (kleuters). De leerkracht kiest getallen tot en met 5, tot en met 10 (standaard) of tot en met 20 op twee tienramen, en laat de getallen zien als cijfers of als stippen van dobbelstenen en dominostenen. ‘Stempel wat je wilt’ is open spel: alle drie de stempels, en de som schrijft zichzelf uit wat er gestempeld is. Geen timer, geen score."
       ],
       "practices": [
-        "Optellen laten zien door twee groepjes fiches in twee kleuren neer te leggen",
-        "Aftrekken laten zien door fiches weg te halen uit een begingroepje",
-        "De twee delen zien die samen een geheel vormen op het raam",
-        "Uitbeelden wat een optel- of aftreksom echt betekent"
+        "Een optelling laten zien met twee groepjes fiches in twee kleuren",
+        "Aftrekken laten zien door fiches uit de eerste groep door te strepen",
+        "Elk getal van een som nakijken aan zijn eigen fiches",
+        "Tellen hoeveel het er samen zijn, of hoeveel er over blijven"
       ],
       "howToPlay": [
-        "Lees de som, zoals 3 + 2 of 5 − 2.",
-        "Leg fiches neer of haal ze weg op het tienraam zodat het de bewerking laat zien, en druk daarna op Controleer.",
-        "Niet helemaal goed? Pas de fiches aan en probeer het opnieuw — er is geen timer en geen score."
+        "Lees de som, bijvoorbeeld 4 + 3 of 8 − 3.",
+        "Tik op een stempel om hem te pakken en tik dan op vakjes van het tienraam. Oranje is het eerste getal, groen het tweede; bij aftrekken streep je fiches door met de kruisjesstempel. Tik je een fiche nog eens aan met dezelfde stempel, dan verdwijnt hij.",
+        "Tik op Controleer. De bogen laten zien wat er mist of te veel is – verbeter het en tik nog eens op Controleer.",
+        "Klopt de afdruk, tik dan op de getallenstrook hoeveel het er zijn. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind stelt optellen en aftrekken voor met fiches.",
-        "Het kind begrijpt optellen als samenvoegen en aftrekken als eraf halen.",
-        "Het kind bouwt de gewoonte op om sommen uit te beelden waar verhaaltjessommen en rekensommen op verdergaan."
+        "Optellen en aftrekken weergeven met fiches en een som",
+        "Een optelling zien als twee delen die samen een geheel maken",
+        "Aftrekken zien als doorstrepen en tellen wat er over blijft"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

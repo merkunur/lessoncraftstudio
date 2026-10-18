@@ -19,6 +19,12 @@
    puppeteer local-test + the 280/390 eyeball. Exit 0 = pass; 1 = any failure.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-19: the K.OA.A.1 row left ten-frame-activities.json for its own instrument (rebuild #23, the
+   Stamp Frame). Its gates are scripts/verify-stamp-frame-core.js + mutate-stamp-frame.js + local-test-stamp-frame.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'ten-frame-activities.json'), 'utf8')).some((r) => r.id === 'ten-frame.show-the-operation.k-oa-a-1')) {
+  console.log('verify-ten-frame-operation: retired — the row is now the Stamp Frame (node scripts/verify-stamp-frame-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

@@ -1050,25 +1050,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Addition og subtraktion på tierrammen lader barnet vise selve regnestykket med brikker. Til \"3 + 2\" lægger barnet først 3 brikker og derefter 2 mere i en anden farve, så de to dele er lette at se; til \"5 − 2\" starter det med 5 brikker og trykker for at tage 2 væk. Det er at vise regnestykket — ikke at skrive et tal — der er arbejdet. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden oprettelse.",
-        "Den store idé er, at addition og subtraktion er handlinger, man kan vise, og ikke bare svar, man skriver. Den anden brikfarve gør de to addender synlige som hver sin gruppe, og at tage brikker væk gør \"trække fra\" helt konkret. Barnet modellerer regnestykket frem for at skrive et tal, så betydningen af at lægge sammen og dele op kommer før selve regningen.",
-        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at vise addition og subtraktion med ting, fingre, tegninger og andre redskaber. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "I stempelrammen bliver et regnestykke noget, barnet trykker. Der er tre stempler – en orange prik, en grøn prik og et stort kryds – og en tom tierramme. Ved 3 + 2 stempler barnet 3 orange og 2 grønne brikker; ved 8 − 3 stempler det 8 orange brikker og streger 3 af dem ud. En interaktiv matematikaktivitet, der kører i browseren, uden installation.",
+        "Ideen er, at regnestykket tjekker trykket. Når barnet trykker på Tjek, glider brikkerne på plads i rækkefølge, og hvert tal i regnestykket lægger en klamme om sine egne brikker. En brik, der stikker ud af sin klamme, eller en tom stiplet plads inde i den, ses med det samme, og tippet siger, under hvilket tal barnet skal kigge. Først når trykket passer, kommer spørgsmålet om resultatet: ved addition bliver de to klammer til én om alle brikkerne – ”Hvor mange er der i alt?”; ved subtraktion flyver de overstregede brikker ned i en skål – ”Hvor mange er der tilbage?”. Barnet trykker svaret på en talstrimmel, hvor hvert tal har sin faste plads, så strimlen røber intet. Trykker barnet ved addition på en af de to dele, siger tippet, at det kun er en del; ved subtraktion fører et tal fra regnestykket tilbage til brikkerne, der stadig er på rammen; efter et andet forkert svar bliver brikkerne nummereret frem til et spørgsmålstegn på den sidste, og tallet siger barnet selv.",
+        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at vise addition og subtraktion med ting, tegninger og regnestykker; at strege ud er den tegnede model, børnene senere bruger på papir. Den passer til børnehaveklassen. Læreren vælger tal op til 5, op til 10 (standard) eller op til 20 på to tierrammer og viser tallene som cifre eller som terning- og dominoprikker. ”Stempl som du vil” er åben leg: alle tre stempler, og regnestykket skriver sig selv ud fra det, der er stemplet. Ingen timer og ingen point."
       ],
       "practices": [
-        "Vise addition ved at lægge to grupper brikker i to farver",
-        "Vise subtraktion ved at tage brikker væk fra en startgruppe",
-        "Se de to dele, der tilsammen danner et hele, på rammen",
-        "Modellere, hvad et plus- eller minusstykke egentlig betyder"
+        "At vise en addition som to grupper brikker i to farver",
+        "At vise subtraktion ved at strege brikker ud i den første gruppe",
+        "At tjekke hvert tal i et regnestykke mod sine egne brikker",
+        "At tælle, hvor mange der er i alt, eller hvor mange der er tilbage"
       ],
       "howToPlay": [
-        "Barnet læser regnestykket, som 3 + 2 eller 5 − 2.",
-        "Barnet lægger eller fjerner brikker på tierrammen, så den viser regnestykket, og trykker derefter på Tjek.",
-        "Er det ikke helt rigtigt, kan barnet justere brikkerne og prøve igen — der er ingen timer og ingen point."
+        "Læs regnestykket, for eksempel 4 + 3 eller 8 − 3.",
+        "Tryk på et stempel for at tage det, og tryk så på pladser i tierrammen. Orange er det første tal, grøn det andet; ved subtraktion streger du brikker ud med krydsstemplet. Trykker du på en brik igen med det samme stempel, forsvinder den.",
+        "Tryk på Tjek. Klammerne viser, hvad der mangler, eller hvad der er for meget – ret det, og tryk på Tjek igen.",
+        "Når trykket passer, trykker du på talstrimlen, hvor mange der er. Ingen timer og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan vise addition og subtraktion med brikker",
-        "Barnet kan forstå addition som at lægge sammen og subtraktion som at dele op",
-        "Barnet opbygger den modelleringsvane, som tekststykker og regnestykker bygger på"
+        "Vise addition og subtraktion med brikker og et regnestykke",
+        "Se en addition som to dele, der tilsammen bliver en helhed",
+        "Se subtraktion som at strege ud og tælle det, der er tilbage"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

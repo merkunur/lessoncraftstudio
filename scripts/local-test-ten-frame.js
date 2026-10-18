@@ -23,7 +23,7 @@ const has = (k) => process.argv.includes('--' + k);
 const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
 const ACTIVITIES = [
-  { id: 'ten-frame.show-the-operation.k-oa-a-1', kind: 'op' },
+  /* 'ten-frame.show-the-operation.k-oa-a-1' left this engine 2026-10-19 (rebuild #23, the Stamp Frame — scripts/local-test-stamp-frame.js) */
   { id: 'ten-frame.solve-the-story.k-oa-a-2', kind: 'story' },
   { id: 'ten-frame.quick-facts-to-5.k-oa-a-5', kind: 'choice' },
 ];

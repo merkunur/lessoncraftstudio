@@ -3105,25 +3105,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Para \"3 + 2\", el niño o la niña coloca 3 fichas y luego 2 más de otro color, para que las dos partes se vean con claridad; para \"5 − 2\", empieza con 5 fichas y toca para quitar 2. El trabajo es representar la operación en el marco de diez, no escribir un número. Es una actividad de matemáticas interactiva para preescolar que se juega en el navegador, sin registro.",
-        "La idea central es que sumar y restar son acciones que se pueden mostrar, no solo resultados que se escriben. El segundo color de fichas hace visibles los dos sumandos como grupos separados, y quitar fichas hace literal el 'quitar'. Tu hijo o hija modela la operación en vez de escribir un número, así que el significado de juntar y de separar llega antes que la cuenta. Es una actividad para preescolar (kínder).",
-        "Está alineada con los planes y programas de estudio (SEP): representar sumas y restas con objetos, dedos, dibujos y otros materiales. Sin temporizador y sin puntuación, con práctica tranquila."
+        "El marco de sellos convierte una operación en algo que el niño imprime. Hay tres sellos —un punto naranja, un punto verde y una cruz grande— y un marco de diez vacío. Para 3 + 2, el niño sella 3 fichas naranjas y 2 verdes; para 8 − 3, sella 8 fichas naranjas y tacha 3. Es una actividad interactiva de matemáticas que funciona en el navegador, sin instalar nada.",
+        "La idea es que la operación revisa lo impreso. Al presionar Comprobar, las fichas se acomodan en orden y cada número de la operación baja una llave sobre sus propias fichas. Una ficha que se sale de su llave, o un lugar vacío punteado dentro de ella, se ve de inmediato, y la pista dice debajo de qué número mirar. Solo cuando todo está bien se pregunta el resultado: en una suma, las dos llaves se juntan en una sola alrededor de todas las fichas —«¿Cuántas fichas hay en total?»—; en una resta, las fichas tachadas se van a un platito —«¿Cuántas fichas quedan?»—. El niño toca la respuesta en una tira de números donde cada número tiene su lugar fijo, así que la tira no la delata. En una suma, si toca una de las dos partes, la pista le dice que es solo una parte; en una resta, un número de la operación lo regresa a las fichas que siguen en el marco; tras un segundo error, las fichas se numeran hasta un signo de interrogación en la última, y el número lo dice el niño.",
+        "Está alineada con los planes y programas de estudio (SEP): representar sumas y restas con objetos, dibujos y operaciones escritas; tachar es el modelo dibujado que los niños usarán después en papel. El maestro elige números hasta 5, hasta 10 (por defecto) o hasta 20 en dos marcos de diez, y muestra los números con cifras o con puntos de dado y de dominó. «Sella como quieras» es el juego abierto: los tres sellos, y la operación se escribe sola con lo que se sella. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Mostrar la suma colocando dos grupos de fichas de dos colores.",
-        "Mostrar la resta quitando fichas de un grupo inicial.",
-        "Ver las dos partes que forman un todo en el marco.",
-        "Modelar lo que de verdad significa una suma o una resta."
+        "Mostrar una suma con dos grupos de fichas de dos colores",
+        "Mostrar una resta tachando fichas del primer grupo",
+        "Revisar cada número de una operación con sus propias fichas",
+        "Contar cuántas hay en total o cuántas quedan"
       ],
       "howToPlay": [
-        "Lee la operación, por ejemplo 3 + 2 o 5 − 2.",
-        "Coloca o quita fichas en el marco de diez para que muestre la operación y pulsa Comprobar.",
-        "¿No salió a la primera? Ajusta las fichas y vuelve a intentarlo: no hay temporizador ni puntuación."
+        "Lee la operación, por ejemplo 4 + 3 u 8 − 3.",
+        "Toca un sello para tomarlo y luego toca lugares del marco de diez. El naranja es el primer número y el verde el segundo; para restar, tacha fichas con el sello de cruz. Si tocas otra vez una ficha con el mismo sello, se borra.",
+        "Presiona Comprobar. Las llaves muestran lo que falta o lo que sobra; corrígelo y presiona Comprobar otra vez.",
+        "Cuando todo está bien, toca cuántas en la tira de números. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede representar sumas y restas con fichas.",
-        "El niño o la niña aprende a entender la suma como juntar y la resta como separar.",
-        "Desarrolla el hábito de modelar del que dependen los problemas con palabras y las operaciones escritas."
+        "Representar sumas y restas con fichas y una operación escrita",
+        "Ver una suma como dos partes que forman un todo",
+        "Ver una resta como tachar y contar lo que queda"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

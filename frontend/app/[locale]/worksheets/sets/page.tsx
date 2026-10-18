@@ -6,8 +6,12 @@
  * landings link it (scripts/lib/deck-ladder.js); it was noindex, so no ranking
  * is lost.
  */
+import type { Metadata } from 'next';
 import { permanentRedirect } from 'next/navigation';
 import { setsIndexPath } from '@/lib/level-sets';
+
+// The route only redirects; if it ever renders, it is a utility surface (§21.7).
+export const metadata: Metadata = { robots: { index: false, follow: true } };
 
 export default function LevelSetsIndexRedirect({ params }: { params: { locale: string } }) {
   permanentRedirect(setsIndexPath(params.locale || 'en'));

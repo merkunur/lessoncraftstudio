@@ -26762,26 +26762,6 @@
       ]
      },
      {
-      "theme": "around the house",
-      "noun": "garage",
-      "key": "garage",
-      "word": "garaje",
-      "graphemes": [
-       "g",
-       "a",
-       "r",
-       "a",
-       "j",
-       "e"
-      ],
-      "pos": 0,
-      "split": [
-       "ga",
-       "ra",
-       "je"
-      ]
-     },
-     {
       "theme": "zoo animals",
       "noun": "gorilla",
       "key": "gorilla",

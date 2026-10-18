@@ -140,7 +140,7 @@ module.exports = {
       if (!cal) return ['no calendar'];
       const year = +cal.dataset.lcsYear, month = +cal.dataset.lcsMonth, ws = +cal.dataset.lcsWeekstart;
       const lang = (document.documentElement.lang || 'en').slice(0, 2);
-      if ((lang === 'en' || lang === 'pt') !== (ws === 0)) fails.push(`weekStart ${ws} wrong for ${lang}`);
+      if ((lang === 'en' || lang === 'pt' || lang === 'es') !== (ws === 0)) fails.push(`weekStart ${ws} wrong for ${lang}`);
       const days = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
       const dow = (day) => new Date(Date.UTC(year, month, day)).getUTCDay();
       const firstCol = (dow(1) - ws + 7) % 7;

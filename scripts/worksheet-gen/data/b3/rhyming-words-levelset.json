@@ -3151,7 +3151,7 @@
     "members": [
      {
       "vocabKey": "tomato",
-      "word": "tomate",
+      "word": "jitomate",
       "pic": {
        "theme": "vegetables",
        "noun": "tomato"
@@ -3740,7 +3740,7 @@
     "nearMiss": [
      {
       "vocabKey": "tomato",
-      "word": "tomate",
+      "word": "jitomate",
       "pic": {
        "theme": "vegetables",
        "noun": "tomato"
@@ -4144,7 +4144,7 @@
      },
      {
       "vocabKey": "tomato",
-      "word": "tomate",
+      "word": "jitomate",
       "pic": {
        "theme": "vegetables",
        "noun": "tomato"

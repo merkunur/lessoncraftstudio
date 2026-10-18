@@ -103,6 +103,10 @@ function makeArrayType(cfg) {
     /** Level Set copies: the facts a page asks (build-waves compares the copies of a themeless face by these). */
     levelSetWords(m) { return m.facts || []; },
 
+    // a QA retry (cli qaRetries, NEW pages only; 2026-10-18 es-MX): the es "recuadro" wording wraps the fact-family answer key
+    // one line taller and fifteen keys ran 4 px into the footer band. A page that fails is rebuilt with the fact column's gaps
+    // 2 px (then 4 px) tighter; a page that passes is byte-unchanged (knob 0 = exactly as before).
+    qaRetries(it) { return mode !== 'fact-family' || (Number(it.difficulty) === 2 && (it.variant || 1) === 1) ? [] : [{ arrFit: 1 }, { arrFit: 2 }]; },
     build({ theme, difficulty, locale }, ctx) {
       // the published page (level 2, copy 1) builds exactly as it shipped; a new page may also be its screen / key
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
@@ -234,7 +238,7 @@ function makeArrayType(cfg) {
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
             // gap 10 → 8 (2026-09-14): four 40 px boxes + three 10 px gaps put the last box 3 px into the
             // attribution band (lint added 2026-09-03, after these decks shipped); 8 keeps the column clear.
-            `<span style="display:inline-flex;flex-direction:column;gap:8px">` +
+            `<span style="display:inline-flex;flex-direction:column;gap:${8 - 2 * ((ctx && ctx.arrFit) || 0)}px">` +
             line(r, '*', c, r * c) + line(c, '*', r, r * c) + line(r * c, '/', r, c) + line(r * c, '/', c, r) +
             `</span></div>`;
           // the screen asks the card's four facts one by one, each beside the same array

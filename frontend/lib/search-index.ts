@@ -46,7 +46,7 @@ const GRADE_LABELS: Record<string, Record<string, string>> = {
   K: {
     en: "Kindergarten",
     de: "Kindergarten",
-    es: "Jardín infantil",
+    es: "Kínder",
     fr: "Maternelle",
     it: "Infanzia",
     pt: "Pré-escola",

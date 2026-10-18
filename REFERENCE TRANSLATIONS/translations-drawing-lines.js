@@ -732,7 +732,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "deScatterTitle": "Elementos dispersos",
     "deFootersTitle": "Pies de página",
     "dePalettesTitle": "Paletas de colores",
-    "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+    "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
     // ============= LANGUAGE NAMES =============
     "lang_en": "English",
     "lang_de": "Deutsch",
@@ -748,7 +748,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Configuración",
-    "worksheet": "Ficha de trabajo",
+    "worksheet": "Hoja de trabajo",
     "language": "Idioma:",
     "allThemes": "Todos los temas",
 
@@ -886,8 +886,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Nombre: _________________________ Fecha: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "¡Ficha de trabajo creada!",
-    "textAddedToWorksheet": "Texto agregado a la ficha.",
+    "worksheetGenerated": "¡Hoja de trabajo creada!",
+    "textAddedToWorksheet": "Texto agregado a la hoja de trabajo.",
     "formCleared": "Formulario borrado.",
     "jpegDownloadInitiated": "¡Descarga JPEG iniciada!",
     "overlayAdded": "{type} agregado.",
@@ -912,7 +912,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorDuringGeneration": "Ocurrió un error durante la creación.",
     "failedToLoadOverlayImage": "No se pudo cargar la imagen de {type}.",
     "grayscaleConversionFailed": "La conversión a escala de grises falló.",
-    "pleaseGenerateWorksheetFirst": "Por favor, primero crea una ficha de trabajo.",
+    "pleaseGenerateWorksheetFirst": "Por favor, primero crea una hoja de trabajo.",
     "pleaseGenerateContentFirst": "Por favor, primero crea contenido.",
     "errorPreparingJpeg": "Error al preparar el JPEG: {error}",
     "errorCreatingPdf": "Error al preparar el PDF: {error}",
@@ -921,8 +921,8 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Cargando...",
-    "generatingWorksheet": "Generando ficha de trabajo...",
-    "creatingWorksheet": "Generando ficha de trabajo...",
+    "generatingWorksheet": "Generando hoja de trabajo...",
+    "creatingWorksheet": "Generando hoja de trabajo...",
     "loadingBorders": "Cargando bordes de {theme}...",
     "loadingBackgrounds": "Cargando fondos de {theme}...",
     "noBackgroundsInTheme": "No hay fondos en este tema.",

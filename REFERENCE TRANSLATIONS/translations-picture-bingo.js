@@ -661,7 +661,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "deScatterTitle": "Elementos dispersos",
     "deFootersTitle": "Pies de página",
     "dePalettesTitle": "Paletas de colores",
-    "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+    "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
     // ============= LANGUAGE NAMES (11 keys) =============
     "lang_en": "English",
     "lang_de": "Deutsch",
@@ -727,10 +727,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "borderOpacity": "Transparencia del borde:", // Platform standard - user-friendly term - FIXED 2025-11-27
 
     // ============= TEXT TOOLS (10 keys) =============
-    "addNewText": "Añadir texto",
+    "addNewText": "Agregar texto",
     "content": "Contenido:",
     "helloPlaceholder": "¡Hola!",
-    "addText": "Añadir texto", // More user-friendly than "Insertar" - FIXED 2025-11-27
+    "addText": "Agregar texto", // More user-friendly than "Insertar" - FIXED 2025-11-27
     "selectedTextProperties": "Propiedades del texto seleccionado",
     "color": "Color:",
     "size": "Tamaño:",
@@ -762,7 +762,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "searchImages": "Buscar imágenes:",
     "searchPlaceholder": "ej. manzana, carro",
     "selectedForCustomCallouts": "Seleccionadas para la lista personalizada: {count}",
-    "availableImagesCallouts": "Imágenes disponibles (Haz clic para añadir a la lista de llamada):",
+    "availableImagesCallouts": "Imágenes disponibles (Haz clic para agregar a la lista de llamada):",
     "loadingImages": "Cargando imágenes...",
     "selectedCustomImages": "Imágenes personalizadas seleccionadas:",
 

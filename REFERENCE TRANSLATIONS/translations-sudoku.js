@@ -752,7 +752,7 @@ const SUDOKU_TRANSLATIONS = {
     "deScatterTitle": "Elementos dispersos",
     "deFootersTitle": "Pies de página",
     "dePalettesTitle": "Paletas de colores",
-    "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+    "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
     // ==========================================
     // LANGUAGE NAMES (11 keys)
     // ==========================================
@@ -807,7 +807,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.color": "Color base:",
     "sudoku.background.theme.label": "Tema de fondo:",
     "sudoku.background.none": "Ninguno (usar color base)",
-    "sudoku.background.select.message": "Seleccione un tema para fondos.",
+    "sudoku.background.select.message": "Selecciona un tema para fondos.",
     "sudoku.background.opacity": "Transparencia del fondo:",
 
     // ==========================================
@@ -819,7 +819,7 @@ const SUDOKU_TRANSLATIONS = {
     "none": "Ninguno",
     "none": "Ninguno",
     "none": "Ninguno",
-    "sudoku.border.select.message": "Seleccione un tema para bordes.",
+    "sudoku.border.select.message": "Selecciona un tema para bordes.",
     "sudoku.border.opacity": "Transparencia del borde:",
 
     // ==========================================
@@ -835,7 +835,7 @@ const SUDOKU_TRANSLATIONS = {
     // TEXT TOOLS (12 keys)
     // ==========================================
     "sudoku.text.tools": "Opciones de texto",
-    "sudoku.text.add.title": "Añadir texto",
+    "sudoku.text.add.title": "Agregar texto",
     "sudoku.text.content.label": "Contenido:",
     "sudoku.text.placeholder": "Título, instrucciones...",
     "sudoku.text.add.button": "Insertar texto",
@@ -864,7 +864,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.image.library": "Biblioteca de imágenes",
     "sudoku.image.source": "Fuente de imágenes para la cuadrícula",
     "sudoku.generate.theme": "Crear desde tema:",
-    "sudoku.select.individual": "-- O seleccione imágenes individuales abajo --",
+    "sudoku.select.individual": "-- O selecciona imágenes individuales abajo --",
     "sudoku.image.individual": "Selección individual de imágenes",
     "sudoku.filter.theme": "Filtrar por tema:",
     "sudoku.search.label": "Buscar imágenes:",
@@ -877,10 +877,10 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // UPLOAD SECTION (7 keys)
     // ==========================================
-    "sudoku.upload.title": "Suba sus propias imágenes",
+    "sudoku.upload.title": "Sube tus propias imágenes",
     "sudoku.upload.select": "Seleccionar imagen(es) para subir:",
-    "sudoku.uploaded.images": "Sus imágenes subidas (esta sesión):",
-    "sudoku.upload.placeholder": "Sus imágenes subidas aparecerán aquí.",
+    "sudoku.uploaded.images": "Tus imágenes subidas (esta sesión):",
+    "sudoku.upload.placeholder": "Tus imágenes subidas aparecerán aquí.",
     "sudoku.upload.button": "Elegir archivos",
     "sudoku.upload.no.file": "Ningún archivo seleccionado",
     "sudoku.upload.files.selected": "{count} archivo(s) seleccionado(s)",
@@ -936,20 +936,20 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.pdf.success": "¡PDF descargado!",
     "sudoku.msg.cleared": "Configuración borrada.",
     "sudoku.msg.individual.mode": "Modo de selección individual activado.",
-    "sudoku.msg.uploads.ready": "{count} imagen(es) propia(s) disponible(s). Haga clic para seleccionar.",
+    "sudoku.msg.uploads.ready": "{count} imagen(es) propia(s) disponible(s). Haz clic para seleccionar.",
 
     // ==========================================
     // ERROR MESSAGES (12 keys)
     // ==========================================
     "sudoku.msg.worksheet.error": "Error al crear la hoja de ejercicios: {message}",
-    "sudoku.msg.generate.first": "Por favor, cree primero una hoja de ejercicios.",
+    "sudoku.msg.generate.first": "Por favor, crea primero una hoja de ejercicios.",
     "sudoku.msg.theme.insufficient": "El tema '{theme}' necesita al menos {count} imágenes.",
-    "sudoku.msg.select.minimum": "Por favor, seleccione o suba al menos {count} imágenes.",
+    "sudoku.msg.select.minimum": "Por favor, selecciona o sube al menos {count} imágenes.",
     "sudoku.msg.render.error": "Error al renderizar la hoja de ejercicios: {message}",
     "sudoku.msg.clear.theme": "Desactive 'Crear desde tema' para seleccionar imágenes individuales.",
-    "sudoku.msg.max.selection": "Solo puede seleccionar {count} imágenes.",
+    "sudoku.msg.max.selection": "Solo puedes seleccionar {count} imágenes.",
     "sudoku.msg.file.error": "Error al leer el archivo: {filename}",
-    "sudoku.msg.generate.content": "Por favor, cree primero contenido para este lienzo.",
+    "sudoku.msg.generate.content": "Por favor, crea primero contenido para este lienzo.",
     "sudoku.msg.jpeg.error": "Error al preparar el JPEG.",
     "sudoku.msg.pdf.error": "Error al crear el PDF.",
     "sudoku.asset.failed": "No se pudo cargar la imagen {asset}.",
@@ -957,7 +957,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // INFO/STATUS MESSAGES (13 keys)
     // ==========================================
-    "sudoku.msg.select.to.begin": "Seleccione {REQUIRED_IMAGES} imágenes o un tema para comenzar.",
+    "sudoku.msg.select.to.begin": "Selecciona {REQUIRED_IMAGES} imágenes o un tema para comenzar.",
     "sudoku.msg.loading.animals": "Cargando tema de animales...",
     "sudoku.msg.searching": "Buscando...",
     "sudoku.msg.loading.theme": "Cargando tema...",
@@ -966,7 +966,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.theme.selected": "El rompecabezas se creará con imágenes aleatorias del tema '{theme}'.",
     "sudoku.msg.loading.uploads": "Cargando {count} imagen(es)...",
     "sudoku.msg.preparing": "Preparando {filename}...",
-    "sudoku.asset.select": "Seleccione un tema para ver {type}.",
+    "sudoku.asset.select": "Selecciona un tema para ver {type}.",
     "sudoku.asset.loading": "Cargando {type} de {theme}...",
     "sudoku.asset.empty": "No hay {type} en este tema.",
 

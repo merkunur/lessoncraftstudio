@@ -795,7 +795,7 @@ const translations = {
     "deScatterTitle": "Elementos dispersos",
     "deFootersTitle": "Pies de página",
     "dePalettesTitle": "Paletas de colores",
-    "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+    "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
     // ============= LANGUAGE NAMES =============
     "lang_en": "English",
     "lang_de": "Deutsch",
@@ -811,17 +811,17 @@ const translations = {
 
     // ============= CORE UI =============
     "matchupMaker": "Generador de Emparejamientos",
-    "worksheet": "Ficha de trabajo",
+    "worksheet": "Hoja de trabajo",
     "answerKey": "Hoja de respuestas",
 
     // ============= ACTION BUTTONS =============
     "generate": "Generar",
-    "generateWorksheet": "Crear ficha de trabajo",
+    "generateWorksheet": "Crear hoja de trabajo",
     "generateAnswerKey": "Generar hoja de respuestas",
     "download": "Descargar",
-    "worksheetJpeg": "Ficha de trabajo (JPEG)",
+    "worksheetJpeg": "Hoja de trabajo (JPEG)",
     "answerKeyJpeg": "Hoja de respuestas (JPEG)",
-    "worksheetPdf": "Ficha de trabajo (PDF)",
+    "worksheetPdf": "Hoja de trabajo (PDF)",
     "answerKeyPdf": "Hoja de respuestas (PDF)",
     "grayscale": "Escala de grises",
     "clearAll": "Borrar todo",
@@ -856,17 +856,17 @@ const translations = {
     "backgroundTheme": "Tema de fondo:",
     "none": "Ninguno",
     "common.none": "Ninguno",
-    "selectBackgroundTheme": "Seleccione un tema para el fondo.",
+    "selectBackgroundTheme": "Selecciona un tema para el fondo.",
     "backgroundOpacity": "Transparencia del fondo:",
 
     // ============= BORDER SECTION =============
     "border": "Borde",
     "borderTheme": "Tema de borde:",
-    "selectBorderTheme": "Seleccione un tema para los bordes.",
+    "selectBorderTheme": "Selecciona un tema para los bordes.",
     "borderOpacity": "Transparencia del borde:",
 
     // ============= TEXT TOOLS =============
-    "addNewText": "Añadir texto",
+    "addNewText": "Agregar texto",
     "content": "Contenido:",
     "helloPlaceholder": "¡Hola!",
     "addText": "Insertar texto",
@@ -948,8 +948,8 @@ const translations = {
     "datePlaceholder": "Fecha: ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Generando ficha de trabajo...",
-    "worksheetGeneratedSuccessfully": "¡Ficha de trabajo creada con éxito!",
+    "generatingWorksheet": "Generando hoja de trabajo...",
+    "worksheetGeneratedSuccessfully": "¡Hoja de trabajo creada con éxito!",
     "generatingAnswerKey": "Creando hoja de respuestas...",
     "downloadInitiated": "¡Descarga de {filename} iniciada!",
     "downloadComplete": "¡{filename} descargado!",
@@ -965,7 +965,7 @@ const translations = {
     "pleaseSelectAtLeastImages": "Por favor selecciona al menos {count} imágenes.",
     "notEnoughImagesInTheme": "No hay suficientes imágenes en el tema elegido. Encontradas: {found}, necesarias: {needed}.",
     "pleaseFillExerciseSlot": "Por favor completa al menos un campo de ejercicio.",
-    "pleaseGenerateWorksheetFirst": "Por favor crea primero una ficha de trabajo.",
+    "pleaseGenerateWorksheetFirst": "Por favor crea primero una hoja de trabajo.",
     "canvasIsEmpty": "El área de trabajo está vacía.",
     "couldNotLoadThemes": "No se pudieron cargar los temas.",
     "pleaseGenerateContentFirst": "Por favor crea primero el contenido.",

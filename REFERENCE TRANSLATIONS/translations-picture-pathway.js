@@ -751,7 +751,7 @@ const translations = {
     "deScatterTitle": "Elementos dispersos",
     "deFootersTitle": "Pies de página",
     "dePalettesTitle": "Paletas de colores",
-    "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
+    "dePaletteHint": "Haz clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
     "common.grayscale": "Escala de grises",
     "common.none": "Ninguno",
     "none": "Ninguno",

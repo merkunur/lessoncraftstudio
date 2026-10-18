@@ -518,7 +518,7 @@ const translations = {
   es: {
     // ===== 1. PAGE & HERO (2 items) =====
     "page.title": "Generador de Ejercicios de Escritura",
-    "settings.title": "Ficha de Trabajo de Escritura",
+    "settings.title": "Hoja de Trabajo de Escritura",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
     "settings.languageLabel": "Idioma:",
@@ -576,7 +576,7 @@ const translations = {
     "content.wholeFileName": "Nombre Completo del Archivo",
     "content.customText": "Texto Personalizado",
     "content.preWriting": "Grafomotricidad",
-    "row.customTextPlaceholder": "Ingrese el texto para trazar...",
+    "row.customTextPlaceholder": "Ingresa el texto para trazar...",
 
     // ===== 6. CASE OPTIONS (4 items) =====
     "row.case": "Tipo de Letra:",
@@ -603,13 +603,13 @@ const translations = {
     "library.chooseFiles": "Elegir archivos",
     "library.noFileChosen": "Ningún archivo elegido",
     "library.filesSelected": "{x} archivo(s) seleccionado(s)",
-    "library.uploadedImages": "Sus Imágenes Subidas:",
+    "library.uploadedImages": "Tus Imágenes Subidas:",
     "button.unselectImage": "Deseleccionar Imagen",
     "button.clearSelection": "Limpiar Selección",
-    "button.addSelectedImage": "Añadir Imagen Seleccionada",
+    "button.addSelectedImage": "Agregar Imagen Seleccionada",
 
     // ===== 9. TEXT TOOLS (9 items) =====
-    "text.addNewTitle": "Añadir Nuevo Texto",
+    "text.addNewTitle": "Agregar Nuevo Texto",
     "text.content": "Contenido:",
     "text.placeholder": "Texto Nuevo",
     "text.selectedProperties": "Propiedades del Texto Seleccionado",
@@ -641,8 +641,8 @@ const translations = {
 
     // ===== 11. ACTION BUTTONS (10 items) =====
     "button.deleteRow": "Eliminar Línea",
-    "button.addRow": "Añadir Línea",
-    "button.addText": "Añadir Texto a la Hoja",
+    "button.addRow": "Agregar Línea",
+    "button.addText": "Agregar Texto a la Hoja",
     "button.deleteSelectedText": "Eliminar Texto Seleccionado",
     "button.download": "Descargar",
     "button.downloadPdf": "Descargar como PDF",
@@ -652,7 +652,7 @@ const translations = {
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Línea recortada con éxito.",
-    "message.worksheetCleared": "Ficha de trabajo borrada.",
+    "message.worksheetCleared": "Hoja de trabajo borrada.",
     "message.pdfDownloaded": "¡PDF descargado!",
     "message.jpegDownloaded": "¡Descarga JPEG iniciada!",
 
@@ -660,25 +660,25 @@ const translations = {
     "message.cropNotSupported": "El recorte no está disponible para este tipo de línea.",
     "message.noContentToCrop": "Esta línea no tiene contenido para recortar.",
     "message.noOverflow": "No hay desbordamiento para recortar.",
-    "message.generateContent": "Por favor, primero cree contenido.",
+    "message.generateContent": "Por favor, primero crea contenido.",
     "message.pdfError": "Error al crear el PDF.",
-    "message.generateWorksheet": "Por favor, primero cree una ficha de trabajo.",
+    "message.generateWorksheet": "Por favor, primero crea una hoja de trabajo.",
     "message.jpegError": "Error al preparar el JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
-    "message.selectBackgroundTheme": "Seleccione un tema para los fondos.",
-    "message.selectBorderTheme": "Seleccione un tema para los marcos.",
-    "message.noImages": "No se encontraron imágenes. Seleccione un tema o intente otra búsqueda.",
+    "message.selectBackgroundTheme": "Selecciona un tema para los fondos.",
+    "message.selectBorderTheme": "Selecciona un tema para los marcos.",
+    "message.noImages": "No se encontraron imágenes. Selecciona un tema o intenta otra búsqueda.",
     "message.themeLoadError": "Error al cargar los temas de {type}:",
-    "message.selectTheme": "Seleccione un tema.",
-    "message.selectImageToInclude": "Por favor, seleccione una imagen para incluir.",
+    "message.selectTheme": "Selecciona un tema.",
+    "message.selectImageToInclude": "Por favor, selecciona una imagen para incluir.",
     "message.loading": "Cargando...",
     "message.loadError": "Error al cargar {type}.",
     "message.preparingPdf": "Preparando PDF...",
     "message.preparingJpeg": "Preparando JPEG...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "¿Está seguro de que desea borrar la ficha de trabajo? Esta acción no se puede deshacer.",
+    "message.confirmClear": "¿Seguro que quieres borrar la hoja de trabajo? Esta acción no se puede deshacer.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSIÓN GRATUITA - LessonCraftStudio.com",

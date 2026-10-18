@@ -206,7 +206,7 @@ const ROWS = {
   'town-train': ['Zug in der Stadt', 'Train en ville', 'Tren en la ciudad', 'Trem na cidade', 'Treno in città', 'Trein in de stad', 'Tåg i staden', 'Tog i byen', 'Tog i byen', 'Juna kaupungissa'],
   'town-van': ['Lieferwagen in der Stadt', 'Camionnette en ville', 'Camioneta en la ciudad', 'Van na cidade', 'Furgone in città', 'Busje in de stad', 'Skåpbil i staden', 'Varevogn i byen', 'Varebil i byen', 'Pakettiauto kaupungissa'],
   'town-taxi': ['Taxi in der Stadt', 'Taxi en ville', 'Taxi en la ciudad', 'Táxi na cidade', 'Taxi in città', 'Taxi in de stad', 'Taxi i staden', 'Taxa i byen', 'Drosje i byen', 'Taksi kaupungissa'],
-  'town-race-car': ['Rennwagen', 'Voiture de course', 'Auto de carreras', 'Carro de corrida', 'Auto da corsa', 'Raceauto', 'Racerbil', 'Racerbil', 'Racerbil', 'Kilpa-auto'],
+  'town-race-car': ['Rennwagen', 'Voiture de course', 'Carro de carreras', 'Carro de corrida', 'Auto da corsa', 'Raceauto', 'Racerbil', 'Racerbil', 'Racerbil', 'Kilpa-auto'],
 };
 const NAMES = {};
 for (const [id, row] of Object.entries(ROWS)) {

@@ -2350,8 +2350,8 @@
    },
    {
     "id": "wait-bus",
-    "sg": "{subj} espera el autobús.",
-    "pl": "{subj} esperan el autobús."
+    "sg": "{subj} espera el camión.",
+    "pl": "{subj} esperan el camión."
    },
    {
     "id": "share-cookies",
@@ -2700,7 +2700,7 @@
    },
    {
     "id": "bus-farm",
-    "introA": "{a} va en el autobús.",
+    "introA": "{a} va en el camión.",
     "introB": "{b} están en la granja.",
     "s": [
      {

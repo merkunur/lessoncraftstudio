@@ -2659,6 +2659,7 @@
       "interactive": "Interactif",
       "aria": "Filtre par format"
     },
+    "subjectsAria": "Matières",
     "card": {
       "pdf": "PDF",
       "answerKey": "Corrigé",
@@ -3140,6 +3141,7 @@
     "levels": "{count, plural, one {# niveau} other {# niveaux}}",
     "openSet": "Ouvrir la série",
     "allSets": "Toutes les séries par niveau",
+    "moreSets": "{count, plural, one {# autre série} other {# autres séries}}",
     "setWord": "Série {n}",
     "indexTitle": "Séries par niveau – des fiches jusqu’à trois niveaux",
     "indexDescription": "Tous les types de fiches disponibles à plusieurs niveaux, avec plusieurs fiches par niveau. Choisissez le niveau dont chaque enfant a besoin.",

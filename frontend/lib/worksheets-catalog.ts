@@ -42,7 +42,7 @@
  * math-teal.
  */
 import type { Landing } from './seo/landing-content';
-import { getAxisName, exerciseTypeKeysForSubject } from './taxonomy';
+import { getAxisName, exerciseTypeKeysForSubject, listSubjectKeys } from './taxonomy';
 import type { Subject } from './activities-catalog';
 
 export const WORKSHEETS_PAGE_SIZE = 24;
@@ -65,9 +65,14 @@ export const GAMMA = 0.5;
 export type WsFormat = 'all' | 'interactive';
 
 export interface WsFilters {
+  /** Taxonomy subject key (a top-bar tab), e.g. 'math'. */
+  subject: string | null;
   type: string | null;
   level: string | null;
+  /** Always a BASE theme key (see baseTheme) — an old raw `?theme=birds_2` reads as `birds`. */
   theme: string | null;
+  /** Level Set variation code (`k344`, `g1209`) — the set sub-category of a type. */
+  set: string | null;
   format: WsFormat;
   page: number;
 }
@@ -85,24 +90,100 @@ const first = (v: string | string[] | undefined): string | undefined =>
 export function parseWorksheetFilters(sp: SP): WsFilters {
   const pageRaw = parseInt(first(sp.page) || '1', 10);
   const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1;
+  const rawTheme = first(sp.theme) || null;
+  const rawSet = first(sp.set) || null;
   return {
+    subject: first(sp.subject) || null,
     type: first(sp.type) || null,
     level: first(sp.level) || null,
-    theme: first(sp.theme) || null,
+    theme: rawTheme ? baseTheme(rawTheme) : null,
+    set: rawSet && /^(?:k|g\d)\d{3}$/.test(rawSet) ? rawSet : null,
     format: first(sp.format) === 'interactive' ? 'interactive' : 'all',
     page,
   };
 }
 
+/* ------------------------------------------------------------------ *
+ * Themes — what a theme filter may honestly return (2026-10-18)
+ * ------------------------------------------------------------------ *
+ * The operator found theme filters returning worksheets of OTHER themes.
+ * Measured on en: 4,206 of 11,088 Level Set rows and 130 collapsed sheets were
+ * filed under their parent landing's theme instead of their own. Rows now carry
+ * their own deck's theme (worksheets-sheets.ts); here every raw theme key is
+ * folded to the BASE theme a teacher means:
+ *   - numbered variants of one picture set are one theme  (birds_2 → birds)
+ *   - a black-and-white set joins its colour twin          (vehicles_bw_3 → vehicles)
+ *   - a picture-sort pair belongs to BOTH of its themes    (bakery-vs-camping)
+ * BW sets with no colour twin stay their own theme (household_bw), labelled
+ * without the BW marker. */
+
+/* The 49 colour theme keys of topics-taxonomy.json axes.theme (2026-10-18). A new
+   colour theme added to the taxonomy belongs here too, or its BW twin will not
+   fold into it — the BW set then stays its own theme, which is never wrong. */
+const COLOUR_THEMES = new Set([
+  '4th_of_july', 'accessories', 'activities', 'animals', 'around_the_house', 'at_the_supermarket', 'bakery', 'beach',
+  'birds', 'body_parts', 'breakfast', 'camping', 'christmas', 'classroom', 'clothing', 'colors', 'desserts_and_sweets',
+  'dinosaurs', 'easter', 'emotions', 'farm_animals', 'flowers', 'forest_creatures', 'fruits', 'furniture', 'hospital',
+  'insects_and_bugs', 'kitchen_tools', 'miscellaneous', 'music', 'occupations', 'ocean_life', 'pets', 'post_office',
+  'reptiles_and_amphibians', 'shapes', 'space', 'spring', 'summer', 'thanksgivinng', 'things_that_fly', 'tools', 'toys',
+  'tree', 'vegetables', 'vehicles', 'weather', 'winter', 'zoo_animals',
+]);
+/* BW picture sets whose colour twin has a different name. */
+const BW_ALIAS: Record<string, string> = {
+  dessert: 'desserts_and_sweets',
+  farm: 'farm_animals',
+  home: 'around_the_house',
+  household: 'around_the_house',
+  kitchen: 'kitchen_tools',
+  apparel: 'clothing',
+  education: 'classroom',
+  sea_life: 'ocean_life',
+};
+
+/** The base theme of ONE raw theme key (a `-vs-` pair is split by rowThemes first). */
+/* Spellings of one theme that reached deck tags or landings besides its taxonomy key. */
+const THEME_SPELLING: Record<string, string> = { thanksgiving: 'thanksgivinng' };
+
+export function baseTheme(raw: string): string {
+  const noCopy = raw.trim().replace(/_\d+$/, '');
+  if (THEME_SPELLING[noCopy]) return THEME_SPELLING[noCopy];
+  const bw = /^(.*)_bw$/.exec(noCopy);
+  if (!bw) return noCopy;
+  const stem = BW_ALIAS[bw[1]] || bw[1];
+  return COLOUR_THEMES.has(stem) ? stem : `${bw[1]}_bw`;
+}
+
+/** Every base theme a row belongs to — none for a themeless row, two for a picture-sort pair. */
+export function rowThemes(l: Landing): string[] {
+  const raw = l.coordinate.theme;
+  if (!raw) return [];
+  const parts = raw.includes('-vs-') ? raw.split('-vs-') : [raw];
+  return [...new Set(parts.filter(Boolean).map(baseTheme))];
+}
+
+/* Subject of an exercise type (the top-bar tabs). `picture-trail` is the en key of the
+   picture-path app and the only type without apps.*.default_subject (measured). */
+const SUBJECT_ALIAS: Record<string, string> = { 'picture-trail': 'picture-path' };
+let _subjectOfType: Map<string, string> | null = null;
+export function subjectOfType(typeKey: string): string | null {
+  if (!_subjectOfType) {
+    _subjectOfType = new Map();
+    for (const s of listSubjectKeys()) for (const k of exerciseTypeKeysForSubject(s)) _subjectOfType.set(k, s);
+  }
+  return _subjectOfType.get(typeKey) || _subjectOfType.get(SUBJECT_ALIAS[typeKey] || '') || null;
+}
+
 /** Landings matching the given subset of filters (any null filter is ignored). */
 export function applyLandingFilters<T extends Landing>(
   rows: T[],
-  f: Partial<Pick<WsFilters, 'type' | 'level' | 'theme'>>,
+  f: Partial<Pick<WsFilters, 'subject' | 'type' | 'level' | 'theme'>>,
 ): T[] {
+  const theme = f.theme ? baseTheme(f.theme) : null;
   return rows.filter((l) => {
+    if (f.subject && subjectOfType(l.coordinate.type) !== f.subject) return false;
     if (f.type && l.coordinate.type !== f.type) return false;
     if (f.level && l.coordinate.level !== f.level) return false;
-    if (f.theme && l.coordinate.theme !== f.theme) return false;
+    if (theme && !rowThemes(l).includes(theme)) return false;
     return true;
   });
 }
@@ -112,6 +193,7 @@ export interface FacetOption {
   count: number;
 }
 export interface LandingFacets {
+  subject: FacetOption[];
   type: FacetOption[];
   level: FacetOption[];
   theme: FacetOption[];
@@ -123,24 +205,28 @@ export interface LandingFacets {
    rows already narrowed by the format tab, so a type with no interactive sheets
    disappears from the rail under Interactive rather than offering a dead end. */
 export function buildLandingFacets(allRows: Landing[], f: WsFilters): LandingFacets {
-  const countBy = (rows: Landing[], keyOf: (l: Landing) => string): FacetOption[] => {
+  const countBy = (rows: Landing[], keysOf: (l: Landing) => (string | null)[]): FacetOption[] => {
     const m = new Map<string, number>();
     for (const l of rows) {
-      const k = keyOf(l);
-      if (!k) continue; // themeless coordinates (es math-worksheet class) are unfilterable by theme
-      m.set(k, (m.get(k) || 0) + 1);
+      for (const k of keysOf(l)) {
+        if (!k) continue; // themeless coordinates are unfilterable by theme
+        m.set(k, (m.get(k) || 0) + 1);
+      }
     }
     return [...m.entries()].map(([value, count]) => ({ value, count }));
   };
 
-  const typeRows = applyLandingFilters(allRows, { level: f.level, theme: f.theme });
-  const levelRows = applyLandingFilters(allRows, { type: f.type, theme: f.theme });
-  const themeRows = applyLandingFilters(allRows, { type: f.type, level: f.level });
+  // The subject tabs and the type rail are one axis at two depths: subject counts ignore both.
+  const subjectRows = applyLandingFilters(allRows, { level: f.level, theme: f.theme });
+  const typeRows = applyLandingFilters(allRows, { subject: f.subject, level: f.level, theme: f.theme });
+  const levelRows = applyLandingFilters(allRows, { subject: f.subject, type: f.type, theme: f.theme });
+  const themeRows = applyLandingFilters(allRows, { subject: f.subject, type: f.type, level: f.level });
 
   return {
-    type: countBy(typeRows, (l) => l.coordinate.type),
-    level: countBy(levelRows, (l) => l.coordinate.level),
-    theme: countBy(themeRows, (l) => l.coordinate.theme),
+    subject: countBy(subjectRows, (l) => [subjectOfType(l.coordinate.type)]),
+    type: countBy(typeRows, (l) => [l.coordinate.type]),
+    level: countBy(levelRows, (l) => [l.coordinate.level]),
+    theme: countBy(themeRows, (l) => rowThemes(l)),
   };
 }
 
@@ -530,8 +616,34 @@ export function levelOrder(key: string): number {
   return LEVEL_ORDER[key] ?? 9;
 }
 
+/* Display case of an exercise-type name on the hub (2026-10-18). The taxonomy
+   stores many names Title-Cased word by word ("Enemmän Vai Vähemmän", "Fiche De
+   Mathématiques", "More Or Less") — wrong in every language but English, and
+   wrong for English connectors. The taxonomy is SEO metadata and stays as it is;
+   the hub's rail, chips and cards show the name in each language's own case.
+   German capitalises nouns, so it is left alone. */
+const EN_SMALL = new Set(['and', 'or', 'of', 'the', 'a', 'an', 'in', 'on', 'with', 'to', 'for', 'by']);
+export function displayTypeName(name: string, locale: string): string {
+  if (!name || locale === 'de') return name;
+  const words = name.split(' ');
+  if (words.length < 2) return name;
+  if (locale === 'en') {
+    return words.map((w, i) => (i > 0 && EN_SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w)).join(' ');
+  }
+  // Only a name in which EVERY word is capitalised was title-cased mechanically.
+  if (!words.every((w) => /^[\p{Lu}\d]/u.test(w))) return name;
+  return words.map((w, i) => (i === 0 || /^\p{Lu}{2,}/u.test(w) ? w : w.charAt(0).toLowerCase() + w.slice(1))).join(' ');
+}
+
+/* The localized BW marker the taxonomy appends to a black-and-white theme name
+   ("Household BW", "Haushalt SW", "Kotitalous MV" — §20.5). */
+const BW_MARKER = /\s+(?:BW|SW|BN|NB|ZW|PB|SV|SH|MV)$/;
+
 export function themeLabel(themeKey: string, locale: string): string {
   if (!themeKey) return '';
+  if (/_bw$/.test(themeKey)) {
+    return (getAxisName('theme', themeKey, locale) || themeKey).replace(BW_MARKER, '');
+  }
   if (themeKey.includes('-vs-')) {
     return themeKey.split('-vs-').map((k) => getAxisName('theme', k, locale) || k).join(' · ');
   }

@@ -9,7 +9,7 @@ import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
 import { setsIndexPath } from '@/lib/level-sets';
 import { loadLadders } from '@/lib/level-sets-db';
 import { ladderCardProps } from '@/lib/level-sets-view';
-import { pathwayFor, strandAnchor, GRADE_ORDER, type GradeKey } from '@/lib/level-set-pathways';
+import { pathwayFor, GRADE_ORDER, type GradeKey } from '@/lib/level-set-pathways';
 import PathwaySection from '@/components/worksheets/PathwaySection';
 import {
   Axis,
@@ -780,11 +780,9 @@ async function renderSubjectGradeHub(
           heading: s.strandLabel,
           total: s.ladders.length,
           cards: s.ladders.slice(0, PER_STRAND).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, si === 0 && i < 4)),
-          allHref: `${setsIndexPath(locale)}#${strandAnchor(subjectKey, gradeKey, s.strand)}`,
-          allLabel: tLs('allInStrand', { count: s.ladders.length }),
         }))}
-        allHref={setsIndexPath(locale)}
-        allLabel={tLs('allSets')}
+        allHref={`${setsIndexPath(locale)}?subject=${encodeURIComponent(subjectKey)}`}
+        allLabel={tLs('backToHub')}
       />
     );
   }

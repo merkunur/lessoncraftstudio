@@ -2636,6 +2636,7 @@
       "interactive": "Interaktivt",
       "aria": "Formatfilter"
     },
+    "subjectsAria": "Fag",
     "card": {
       "pdf": "PDF",
       "answerKey": "Facitliste",
@@ -3117,6 +3118,7 @@
     "levels": "{count, plural, one {# niveau} other {# niveauer}}",
     "openSet": "Åbn sættet",
     "allSets": "Alle niveausæt",
+    "moreSets": "{count, plural, one {# sæt mere} other {# sæt mere}}",
     "setWord": "Sæt {n}",
     "indexTitle": "Niveausæt – arbejdsark på op til tre niveauer",
     "indexDescription": "Alle typer arbejdsark, der findes på flere niveauer, med flere ark pr. niveau. Vælg det niveau, hvert barn har brug for.",

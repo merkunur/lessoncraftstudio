@@ -4160,6 +4160,7 @@
       "interactive": "Interattivo",
       "aria": "Filtro per formato"
     },
+    "subjectsAria": "Materie",
     "card": {
       "pdf": "PDF",
       "answerKey": "Soluzioni",
@@ -4641,6 +4642,7 @@
     "levels": "{count, plural, one {# livello} other {# livelli}}",
     "openSet": "Apri il set",
     "allSets": "Tutti i set a livelli",
+    "moreSets": "{count, plural, one {Un altro set} other {Altri # set}}",
     "setWord": "Set {n}",
     "indexTitle": "Set a livelli – schede fino a tre livelli",
     "indexDescription": "Tutti i tipi di scheda disponibili su più livelli, con più schede per livello. Scegli il livello di cui ogni bambino ha bisogno.",

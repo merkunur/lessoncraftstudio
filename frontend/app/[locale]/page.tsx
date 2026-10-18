@@ -298,7 +298,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
     setPlanTag: tv('set.planTag'),
     pathwayLabel: tLs('pathway'),
     openSet: tLs('openSet'),
-    allSets: tLs('allSets'),
+    allSets: tLs('backToHub'),
     wallHeading: tv('set.wallHeading'),
 
     studioH2: tv('make.heading'),

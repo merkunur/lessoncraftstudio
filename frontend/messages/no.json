@@ -2643,6 +2643,7 @@
       "interactive": "Interaktive",
       "aria": "Formatfilter"
     },
+    "subjectsAria": "Fag",
     "card": {
       "pdf": "PDF",
       "answerKey": "Fasit",
@@ -3124,6 +3125,7 @@
     "levels": "{count, plural, one {# nivå} other {# nivåer}}",
     "openSet": "Åpne settet",
     "allSets": "Alle nivåsett",
+    "moreSets": "{count, plural, one {# sett til} other {# sett til}}",
     "setWord": "Sett {n}",
     "indexTitle": "Nivåsett – arbeidsark på opptil tre nivåer",
     "indexDescription": "Alle typer arbeidsark som finnes på flere nivåer, med flere ark per nivå. Velg det nivået hvert barn trenger.",

@@ -18,7 +18,7 @@
  * so the exhibit never renders empty.
  */
 import { loadLadders } from '@/lib/level-sets-db';
-import { setPath, setsIndexPath, type Ladder, type Rung } from '@/lib/level-sets';
+import { setHref, setsIndexPath, type Ladder, type Rung } from '@/lib/level-sets';
 import { featuredLadders, rungWord, type LevelSetsT } from '@/lib/level-sets-view';
 import { typePosition, pathwayGradeKey } from '@/lib/level-set-pathways';
 import { localizeStrand } from '@/lib/seo/strand-names';
@@ -77,7 +77,7 @@ function fromLadder(ladder: Ladder, locale: string, t: LevelSetsT): SetExhibit {
     typeLabel: getAxisName('exercise-type', ladder.type, locale) || ladder.type,
     gradeLabel: cap(ladder.level ? levelChip(ladder.level, locale) : getAxisName('educational-level', gradeKey, locale) || ''),
     strandLabel: pos ? localizeStrand(pos.strand, locale) : '',
-    href: setPath(locale, ladder.code),
+    href: setHref(locale, ladder.type, ladder.code),
     indexHref: setsIndexPath(locale),
     sheetSrc: ladder.code === EXHIBIT_CODE ? sheetArt(locale) : null,
     pages: RUNG_ORDER.map((rung, i) => {
@@ -109,7 +109,7 @@ export function fallbackExhibit(locale: string, t: LevelSetsT): SetExhibit {
     typeLabel: getAxisName('exercise-type', 'fact-families', locale) || 'Fact families',
     gradeLabel: cap(getAxisName('educational-level', 'grade-1', locale) || 'Grade 1'),
     strandLabel: localizeStrand('Operations & Algebraic Thinking', locale),
-    href: setPath('en', EXHIBIT_CODE),
+    href: setHref('en', 'fact-families', EXHIBIT_CODE),
     indexHref: setsIndexPath(locale),
     sheetSrc: sheetArt(locale),
     pages: FALLBACK_EN.map(([rung, slug], i) => {

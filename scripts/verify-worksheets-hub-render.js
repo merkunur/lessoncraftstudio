@@ -70,7 +70,20 @@ function corpus(locale) {
   const landings = JSON.parse(fs.readFileSync(file, 'utf8')).landings.filter((l) => !l.coordinate.target);
   const types = new Set(landings.map((l) => l.coordinate.type));
   const levels = new Set(landings.map((l) => l.coordinate.level));
-  const themes = new Set(landings.map((l) => l.coordinate.theme).filter(Boolean));
+  /* 2026-10-18: the rail offers BASE themes (birds_2 → birds, vehicles_bw_3 → vehicles,
+     bakery-vs-camping → bakery + camping), so the corpus is folded the same way here — by this
+     gate's own rule, not by importing the hub's. Every folded theme must still have its link. */
+  const TWIN = { dessert: 'desserts_and_sweets', farm: 'farm_animals', home: 'around_the_house', household: 'around_the_house',
+    kitchen: 'kitchen_tools', apparel: 'clothing', education: 'classroom', sea_life: 'ocean_life' };
+  const colour = new Set(Object.keys(taxonomy.axes.theme).filter((k) => !/_bw/.test(k) && !/_\d+$/.test(k)));
+  const fold = (k) => {
+    let x = k.replace(/_\d+$/, '');
+    if (x === 'thanksgiving') x = 'thanksgivinng';
+    const bw = x.match(/^(.*)_bw$/);
+    if (bw) { const stem = TWIN[bw[1]] || bw[1]; x = colour.has(stem) ? stem : bw[1] + '_bw'; }
+    return x;
+  };
+  const themes = new Set(landings.flatMap((l) => String(l.coordinate.theme || '').split('-vs-').filter(Boolean).map(fold)));
   return { types, levels, themes, landings };
 }
 

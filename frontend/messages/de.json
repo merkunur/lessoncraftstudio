@@ -3960,6 +3960,7 @@
       "interactive": "Interaktiv",
       "aria": "Formatfilter"
     },
+    "subjectsAria": "Fächer",
     "card": {
       "pdf": "PDF",
       "answerKey": "Lösungen",
@@ -4441,6 +4442,7 @@
     "levels": "{count, plural, one {# Stufe} other {# Stufen}}",
     "openSet": "Set öffnen",
     "allSets": "Alle Niveau-Sets",
+    "moreSets": "{count, plural, one {# weiteres Set} other {# weitere Sets}}",
     "setWord": "Set {n}",
     "indexTitle": "Niveau-Sets – Arbeitsblätter auf bis zu drei Stufen",
     "indexDescription": "Jeder Arbeitsblatt-Typ, den es auf mehreren Stufen gibt, mit mehreren Blättern pro Stufe. Wählen Sie die Stufe, die jedes Kind braucht.",

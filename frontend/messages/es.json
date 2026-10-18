@@ -4158,6 +4158,7 @@
       "interactive": "Interactivo",
       "aria": "Filtro de formato"
     },
+    "subjectsAria": "Áreas",
     "card": {
       "pdf": "PDF",
       "answerKey": "Solución",
@@ -4639,6 +4640,7 @@
     "levels": "{count, plural, one {# nivel} other {# niveles}}",
     "openSet": "Abrir el conjunto",
     "allSets": "Todos los conjuntos por nivel",
+    "moreSets": "{count, plural, one {# conjunto más} other {# conjuntos más}}",
     "setWord": "Conjunto {n}",
     "indexTitle": "Conjuntos por nivel: fichas en hasta tres niveles",
     "indexDescription": "Todos los tipos de ficha que vienen en varios niveles, con varias fichas por nivel. Elige el nivel que cada niño necesita.",

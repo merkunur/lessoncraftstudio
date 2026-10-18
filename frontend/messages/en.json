@@ -4156,6 +4156,7 @@
       "interactive": "Interactive",
       "aria": "Format filter"
     },
+    "subjectsAria": "Subjects",
     "card": {
       "pdf": "PDF",
       "answerKey": "Answer key",
@@ -4640,6 +4641,7 @@
     "levels": "{count, plural, one {# level} other {# levels}}",
     "openSet": "Open the set",
     "allSets": "All Level Sets",
+    "moreSets": "{count, plural, one {# more set} other {# more sets}}",
     "setWord": "Set {n}",
     "indexTitle": "Level Sets — worksheets at up to three levels",
     "indexDescription": "Every worksheet type that comes in levels, with several pages per level. Choose the level each child needs.",

@@ -123,12 +123,29 @@ export function pageIsInteractive(type: string, code: string, indexable: boolean
     && !(LEVEL_SET_PRINT_ONLY_VARIATIONS[type] || []).includes(code);
 }
 
-/** Path of a set page (no trailing slash, like every Next route here). */
+/**
+ * The RETIRED set-page path (2026-10-18). `/worksheets/sets/<code>` now 308s to
+ * setHref; the route stays because ~108k deck pages and the landings link it
+ * (scripts/lib/deck-ladder.js) and rewriting them would churn indexed pages.
+ */
 export function setPath(locale: string, code: string): string {
   return localePath(locale, 'worksheets', SETS_SEGMENT, code);
 }
-export function setsIndexPath(locale: string): string {
-  return localePath(locale, 'worksheets', SETS_SEGMENT);
+
+/**
+ * Where a Level Set lives now: a SUB-CATEGORY of its worksheet type on the hub
+ * (operator 2026-10-18 — "a separate level sets page is unnecessary").
+ * Filtered hub states canonicalise to the bare hub, so this adds no indexable URL.
+ */
+export function setHref(locale: string, type: string, code: string): string {
+  // Params in the alphabetical order buildFilterUrl emits, so one state has one URL.
+  return `${localePath(locale, 'worksheets')}?set=${encodeURIComponent(code)}&type=${encodeURIComponent(type)}`;
+}
+
+/** "All Level Sets" — the hub itself, narrowed to a type when one is given. */
+export function setsIndexPath(locale: string, type?: string): string {
+  const hub = localePath(locale, 'worksheets');
+  return type ? `${hub}?type=${encodeURIComponent(type)}` : hub;
 }
 
 /** Landing of a face: the landing whose own deck carries this variation code. */

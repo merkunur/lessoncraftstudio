@@ -86,3 +86,10 @@ details[open] > summary .actcat-subcaret {
     transition: none;
   }
 }
+
+/* Worksheets hub (2026-10-18): disclosure carets point right when closed, down when open.
+   Scoped to the disclosure's OWN summary so an open mobile drawer never flips the carets
+   of the closed subject discs inside it. */
+.hub-disc > summary::-webkit-details-marker { display: none; }
+.hub-disc[open] > summary .hub-caret { transform: rotate(90deg); }
+.hub-rail { scrollbar-width: thin; scrollbar-color: rgba(20, 107, 94, 0.25) transparent; }

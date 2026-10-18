@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Show the Operation — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #23 of the one-by-one rebuild — THE STAMP FRAME (K.OA.A.1, print
+       an addition or take-away on a ten-frame with three stamps).
+       Shell → own core → this activity. Bump ?v=N on
+       EVERY change to stamp-frame-activity.js / stamp-frame-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/stamp-frame-core.js?v=2"></script>
+  <script src="/mini-tools/stamp-frame-activity.js?v=3"></script>
+  <script>
+    LCS.mount(StampFrameActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

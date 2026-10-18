@@ -3550,25 +3550,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Bei „3 + 2\" legt das Kind 3 Plättchen und dann 2 weitere in einer zweiten Farbe dazu, sodass die beiden Teile gut zu sehen sind; bei „5 − 2\" beginnt es mit 5 und tippt, um 2 wegzunehmen. Die Aufgabe besteht darin, das Rechnen auf dem Zehnerfeld zu zeigen — nicht eine Zahl einzutippen. Diese interaktive Mathe-Übung für den Kindergarten läuft ohne Anmeldung im Browser.",
-        "Die große Idee: Plus und Minus sind Handlungen, die man zeigen kann, nicht nur Ergebnisse, die man hinschreibt. Die zweite Plättchenfarbe macht die beiden Summanden als getrennte Gruppen sichtbar, und das Wegnehmen von Plättchen macht „wegnehmen\" ganz wörtlich. Das Kind stellt das Rechnen dar, statt eine Zahl einzutippen — so kommt die Bedeutung von Zusammenfügen und Auseinandernehmen vor dem reinen Rechnen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen für den Kindergarten ausgerichtet — Addition und Subtraktion mit Gegenständen, Fingern, Zeichnungen und anderen Hilfsmitteln darstellen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Beim Stempelrahmen wird eine Rechnung gedruckt. Es gibt drei Stempel – einen orangen Punkt, einen grünen Punkt und ein großes Kreuz – und ein leeres Zehnerfeld. Bei 3 + 2 stempelt das Kind 3 orange und 2 grüne Plättchen; bei 8 − 3 stempelt es 8 orange Plättchen und streicht 3 davon durch. Eine interaktive Mathe-Aktivität, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Rechnung prüft den Druck selbst. Beim Prüfen rutschen die Plättchen der Reihe nach zurecht, und jede Zahl der Rechnung legt eine Klammer um ihre eigenen Plättchen. Ein Plättchen, das aus seiner Klammer ragt, oder ein leerer, gestrichelter Platz darin fällt sofort auf, und der Tipp nennt die Zahl, unter die das Kind schauen soll. Erst wenn alles stimmt, kommt die Frage nach dem Ergebnis: Bei einer Plusaufgabe werden die zwei Klammern zu einer um alle Plättchen – „Wie viele sind es zusammen?“; beim Wegnehmen wandern die durchgestrichenen Plättchen in eine Schale – „Wie viele bleiben übrig?“. Die Antwort tippt das Kind auf einem Zahlenstreifen, auf dem jede Zahl ihren festen Platz hat, so verrät der Streifen nichts. Wer bei einer Plusaufgabe nur einen der beiden Teile tippt, erfährt, dass es nur ein Teil ist; beim Wegnehmen führt eine Zahl aus der Rechnung zurück zu den Plättchen, die noch im Feld sind; nach einer zweiten falschen Antwort werden die Plättchen bis zu einem Fragezeichen auf dem letzten nummeriert, die Zahl sagt das Kind selbst.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen ausgerichtet – Addition und Subtraktion mit Gegenständen, Zeichnungen und Rechnungen darstellen; das Durchstreichen ist das Bildmodell, das Kinder später auf Papier zeichnen. Lehrkräfte wählen Zahlen bis 5, bis 10 (voreingestellt) oder bis 20 auf zwei Zehnerfeldern und zeigen die Zahlen als Ziffern oder als Würfel- und Dominopunkte. „Stempeln, wie du willst“ ist das offene Spiel: alle drei Stempel, und die Rechnung schreibt sich aus dem Gestempelten selbst. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine Addition zeigen, indem man zwei Gruppen Plättchen in zwei Farben legt.",
-        "Eine Subtraktion zeigen, indem man Plättchen aus einer Anfangsgruppe wegnimmt.",
-        "Die beiden Teile sehen, die zusammen ein Ganzes ergeben, auf dem Zehnerfeld.",
-        "Darstellen, was eine Plus- oder Minusaufgabe wirklich bedeutet."
+        "Eine Plusaufgabe mit zwei Gruppen Plättchen in zwei Farben zeigen",
+        "Wegnehmen zeigen, indem man Plättchen aus der ersten Gruppe durchstreicht",
+        "Jede Zahl einer Rechnung an ihren eigenen Plättchen prüfen",
+        "Zählen, wie viele es zusammen sind oder wie viele übrig bleiben"
       ],
       "howToPlay": [
-        "Lies die Aufgabe, etwa 3 + 2 oder 5 − 2.",
-        "Lege oder entferne Plättchen auf dem Zehnerfeld so, dass es die Aufgabe zeigt, und drücke dann auf Prüfen.",
-        "Noch nicht ganz richtig? Verändere die Plättchen und probiere es erneut — es gibt keinen Timer und keine Punkte."
+        "Lies die Rechnung, zum Beispiel 4 + 3 oder 8 − 3.",
+        "Tippe einen Stempel an, um ihn zu nehmen, und tippe dann auf Plätze im Zehnerfeld. Orange ist die erste Zahl, Grün die zweite; beim Wegnehmen streichst du Plättchen mit dem Kreuzstempel durch. Tippst du ein Plättchen mit demselben Stempel noch einmal an, ist es wieder weg.",
+        "Drück auf Prüfen. Die Klammern zeigen, was fehlt oder zu viel ist – ändere es und drück noch einmal auf Prüfen.",
+        "Stimmt der Druck, tippst du auf dem Zahlenstreifen, wie viele es sind. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Addition und Subtraktion mit Plättchen darstellen.",
-        "Addition als Zusammenfügen und Subtraktion als Wegnehmen verstehen.",
-        "Die Gewohnheit des Darstellens aufbauen, auf die Sachaufgaben und Rechensätze angewiesen sind."
+        "Addition und Subtraktion mit Plättchen und einer Rechnung darstellen",
+        "Eine Plusaufgabe als zwei Teile sehen, die zusammen ein Ganzes ergeben",
+        "Wegnehmen als Durchstreichen sehen und zählen, was übrig bleibt"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

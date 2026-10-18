@@ -2063,25 +2063,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Per «3 + 2» il bambino mette 3 gettoni e poi altri 2 di un secondo colore, così le due parti sono facili da vedere; per «5 − 2» parte da 5 e tocca per toglierne 2. Il lavoro è proprio rappresentare l'operazione sulla tabella del dieci, non scrivere un numero. È un'attività di matematica interattiva per la scuola dell'infanzia, che si gioca nel browser senza registrazione.",
-        "L'idea importante è che addizione e sottrazione sono azioni che si possono mostrare, non solo risposte da scrivere. Il secondo colore dei gettoni rende visibili i due addendi come gruppi distinti, e togliere i gettoni rende concreto il «togliere». Il bambino rappresenta l'operazione invece di digitare un numero, così il significato del mettere insieme e del separare viene prima del calcolo.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: rappresentare addizioni e sottrazioni con oggetti, dita, disegni e altri strumenti. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "La griglia dei timbri trasforma un calcolo in qualcosa che il bambino stampa. Ci sono tre timbri — un punto arancione, un punto verde e una grande croce — e una griglia del dieci vuota. Per 3 + 2 il bambino timbra 3 gettoni arancioni e 2 verdi; per 8 − 3 timbra 8 gettoni arancioni e ne barra 3. È un'attività interattiva di matematica che funziona nel browser, senza installare nulla.",
+        "L'idea è che il calcolo controlla la stampa. Quando il bambino preme Verifica, i gettoni si mettono in ordine e ogni numero del calcolo cala una parentesi sui propri gettoni. Un gettone che esce dalla sua parentesi, o un posto vuoto tratteggiato al suo interno, si vede subito, e il suggerimento dice sotto quale numero guardare. Solo quando la stampa è giusta arriva la domanda sul risultato: nell'addizione le due parentesi diventano una sola intorno a tutti i gettoni — «Quanti gettoni in tutto?»; nella sottrazione i gettoni barrati volano in una ciotolina — «Quanti gettoni restano?». Il bambino tocca la risposta su una striscia dei numeri dove ogni numero ha il suo posto, così la striscia non la rivela. Nell'addizione, se tocca una delle due parti, il suggerimento dice che è solo una parte; nella sottrazione, un numero del calcolo lo riporta ai gettoni che restano sulla griglia; dopo un secondo errore i gettoni vengono numerati fino a un punto interrogativo sull'ultimo, e il numero lo dice il bambino.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: rappresentare addizioni e sottrazioni con oggetti, disegni e scritture; barrare è il modello disegnato che i bambini useranno poi sulla carta. L'insegnante sceglie numeri fino a 5, fino a 10 (predefinito) o fino a 20 su due griglie del dieci, e mostra i numeri in cifre o con i punti del dado e del domino. «Timbra come vuoi» è il gioco aperto: tutti e tre i timbri, e il calcolo si scrive da solo con ciò che è timbrato. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Rappresentare l'addizione mettendo due gruppi di gettoni in due colori.",
-        "Rappresentare la sottrazione togliendo gettoni da un gruppo di partenza.",
-        "Vedere le due parti che formano un intero sulla tabella.",
-        "Rappresentare ciò che un'addizione o una sottrazione significa davvero."
+        "Mostrare un'addizione con due gruppi di gettoni di due colori",
+        "Mostrare una sottrazione barrando gettoni del primo gruppo",
+        "Controllare ogni numero di un calcolo sui propri gettoni",
+        "Contare quanti sono in tutto o quanti restano"
       ],
       "howToPlay": [
-        "Leggi l'operazione, come 3 + 2 oppure 5 − 2.",
-        "Metti o togli gettoni sulla tabella del dieci così che mostri l'operazione, poi premi «Controlla».",
-        "Non è giusto? Regola i gettoni e riprova — non c'è timer e non c'è punteggio."
+        "Leggi il calcolo, per esempio 4 + 3 o 8 − 3.",
+        "Tocca un timbro per prenderlo, poi tocca i posti della griglia del dieci. L'arancione è il primo numero, il verde il secondo; per togliere, barra i gettoni con il timbro con la croce. Se tocchi di nuovo un gettone con lo stesso timbro, lo cancelli.",
+        "Premi Verifica. Le parentesi mostrano che cosa manca o che cosa è di troppo: correggi e premi di nuovo Verifica.",
+        "Quando la stampa è giusta, tocca quanti sono sulla striscia dei numeri. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Rappresentare addizioni e sottrazioni con i gettoni.",
-        "Capire l'addizione come mettere insieme e la sottrazione come separare.",
-        "Costruire l'abitudine a rappresentare su cui poggiano i problemi e le uguaglianze numeriche."
+        "Rappresentare addizioni e sottrazioni con gettoni e una scrittura",
+        "Vedere un'addizione come due parti che formano un tutto",
+        "Vedere una sottrazione come barrare e contare quello che resta"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

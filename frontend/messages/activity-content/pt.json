@@ -1567,25 +1567,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Representar uma adição ou uma subtração no quadro de dez, e não digitar um número, é a tarefa desta atividade interativa de matemática para a educação infantil. Para \"3 + 2\", a criança coloca 3 fichas e depois mais 2 de outra cor, deixando as duas partes fáceis de ver; para \"5 − 2\", começa com 5 fichas e toca para tirar 2. Tudo roda no navegador, sem cadastro.",
-        "A grande ideia é que adição e subtração são ações que dá para mostrar, e não só respostas que se escrevem. A segunda cor de fichas torna as duas parcelas visíveis como grupos separados, e tirar fichas deixa o 'retirar' bem concreto. A criança representa a operação em vez de digitar um número, então o sentido de juntar e de separar vem antes da conta em si.",
-        "A atividade está alinhada à BNCC, na representação da adição e da subtração com objetos, dedos, desenhos e outros recursos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "No quadro de carimbos, a conta vira algo que a criança imprime. São três carimbos — um ponto laranja, um ponto verde e um X grande — e um quadro de dez vazio. Para 3 + 2, a criança carimba 3 fichas laranja e 2 verdes; para 8 − 3, carimba 8 fichas laranja e risca 3. É uma atividade interativa de matemática que funciona no navegador, sem instalar nada.",
+        "A ideia é que a conta confere o que foi impresso. Ao tocar em Verificar, as fichas se arrumam em ordem e cada número da conta desce uma chave sobre as suas próprias fichas. Uma ficha que sai da sua chave, ou um lugar vazio pontilhado dentro dela, aparece na hora, e a dica diz embaixo de qual número olhar. Só quando tudo está certo vem a pergunta do resultado: na adição, as duas chaves viram uma só em volta de todas as fichas — \"Quantas fichas ao todo?\"; na subtração, as fichas riscadas vão para um pratinho — \"Quantas fichas sobram?\". A criança toca a resposta numa faixa de números em que cada número tem o seu lugar, então a faixa não entrega a resposta. Na adição, se tocar uma das duas partes, a dica avisa que é só uma parte; na subtração, um número da conta leva a criança de volta às fichas que ainda estão no quadro; depois de um segundo erro, as fichas são numeradas até um ponto de interrogação na última, e quem diz o número é a criança.",
+        "A atividade está alinhada à BNCC, na representação da adição e da subtração com objetos, desenhos e escrita matemática; riscar é o modelo desenhado que as crianças vão usar depois no papel. O professor escolhe números até 5, até 10 (padrão) ou até 20 em dois quadros de dez, e mostra os números com algarismos ou com pontos de dado e de dominó. \"Carimbe como quiser\" é o jogo aberto: os três carimbos, e a conta se escreve sozinha com o que foi carimbado. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Representar a adição colocando dois grupos de fichas em duas cores.",
-        "Representar a subtração tirando fichas de um grupo inicial.",
-        "Ver as duas partes que formam um todo no quadro de dez.",
-        "Modelar o que uma sentença de adição ou de subtração realmente significa."
+        "Mostrar uma adição com dois grupos de fichas de duas cores",
+        "Mostrar uma subtração riscando fichas do primeiro grupo",
+        "Conferir cada número de uma conta com as suas próprias fichas",
+        "Contar quantas há ao todo ou quantas sobram"
       ],
       "howToPlay": [
-        "Leia a conta, como 3 + 2 ou 5 − 2.",
-        "Coloque ou tire fichas no quadro de dez para que ele mostre a operação, depois toque em Verificar.",
-        "Errou? Ajuste as fichas e tente de novo — não há cronômetro nem pontuação."
+        "Leia a conta, por exemplo 4 + 3 ou 8 − 3.",
+        "Toque num carimbo para pegá-lo e depois toque nos lugares do quadro de dez. O laranja é o primeiro número e o verde, o segundo; para tirar, risque fichas com o carimbo de X. Tocando de novo numa ficha com o mesmo carimbo, ela some.",
+        "Toque em Verificar. As chaves mostram o que falta ou o que sobra — corrija e toque em Verificar de novo.",
+        "Quando tudo estiver certo, toque quantas na faixa de números. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "A criança aprende a representar a adição e a subtração com fichas.",
-        "A criança entende a adição como juntar e a subtração como separar.",
-        "A criança constrói o hábito de modelar em que os problemas e as sentenças numéricas vão se apoiar."
+        "Representar adição e subtração com fichas e uma conta escrita",
+        "Ver uma adição como duas partes que formam um todo",
+        "Ver uma subtração como riscar e contar o que sobra"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

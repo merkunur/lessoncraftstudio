@@ -922,24 +922,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "För \"3 + 2\" lägger barnet 3 markörer och sedan 2 till i en annan färg, så att de två delarna är lätta att se; för \"5 − 2\" börjar barnet med 5 och trycker för att ta bort 2. Att visa räknesättet på tioramen — inte att skriva ett tal — är själva uppgiften. Det är en interaktiv mattaktivitet för förskoleklass som körs i webbläsaren utan registrering.",
-        "Den stora idén är att addition och subtraktion är något man kan visa, inte bara svar man skriver. Den andra markörfärgen gör de två termerna synliga som skilda grupper, och att ta bort markörer gör ta bort konkret. Barnet gestaltar räknesättet i stället för att skriva ett tal, så att innebörden av att sätta ihop och dela upp kommer före själva räknandet. Aktiviteten passar förskoleklass och följer Lgr22."
+        "I stämpelramen blir en uträkning något barnet trycker. Det finns tre stämplar – en orange prick, en grön prick och ett stort kryss – och en tom tioram. För 3 + 2 stämplar barnet 3 orange och 2 gröna brickor; för 8 − 3 stämplar det 8 orange brickor och stryker över 3 av dem. En interaktiv matteaktivitet som fungerar i webbläsaren, utan installation.",
+        "Idén är att uträkningen kontrollerar trycket. När barnet trycker på Kontrollera glider brickorna i ordning, och varje tal i uträkningen lägger en klammer runt sina egna brickor. En bricka som sticker ut ur sin klammer, eller en tom streckad plats inuti den, syns direkt, och tipset säger under vilket tal barnet ska titta. Först när trycket stämmer kommer frågan om svaret: vid addition blir de två klamrarna en enda runt alla brickor – ”Hur många är det tillsammans?”; vid subtraktion flyger de överstrukna brickorna ner i en skål – ”Hur många är kvar?”. Barnet trycker svaret på en tallremsa där varje tal har sin egen plats, så remsan avslöjar ingenting. Trycker barnet vid addition på en av de två delarna säger tipset att det bara är en del; vid subtraktion leder ett tal ur uträkningen tillbaka till brickorna som ligger kvar på ramen; efter ett andra fel numreras brickorna fram till ett frågetecken på den sista, och talet säger barnet själv.",
+        "Aktiviteten följer Lgr22 – att visa addition och subtraktion med föremål, bilder och uträkningar; att stryka över är den bildmodell barnen sedan ritar på papper. Läraren väljer tal upp till 5, upp till 10 (förval) eller upp till 20 på två tioramar och visar talen som siffror eller som tärnings- och dominoprickar. ”Stämpla som du vill” är öppen lek: alla tre stämplarna, och uträkningen skriver sig själv utifrån det som stämplats. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Visa addition genom att lägga två grupper markörer i två färger",
-        "Visa subtraktion genom att ta bort markörer från en startgrupp",
-        "Se de två delarna som tillsammans bildar en helhet på ramen",
-        "Gestalta vad en additions- eller subtraktionsuppgift verkligen betyder"
+        "Att visa en addition som två grupper brickor i två färger",
+        "Att visa subtraktion genom att stryka över brickor i den första gruppen",
+        "Att kontrollera varje tal i en uträkning mot sina egna brickor",
+        "Att räkna hur många det är tillsammans eller hur många som är kvar"
       ],
       "howToPlay": [
-        "Läs uppgiften, som 3 + 2 eller 5 − 2.",
-        "Lägg eller ta bort markörer på tioramen så att den visar räknesättet, och tryck sedan på Kontrollera.",
-        "Blev det inte rätt? Ändra markörerna och försök igen — det finns ingen tid och inga poäng."
+        "Läs uträkningen, till exempel 4 + 3 eller 8 − 3.",
+        "Tryck på en stämpel för att ta den och tryck sedan på platser i tioramen. Orange är det första talet, grönt det andra; vid subtraktion stryker du över brickor med kryssstämpeln. Trycker du på en bricka igen med samma stämpel försvinner den.",
+        "Tryck på Kontrollera. Klamrarna visar vad som saknas eller är för mycket – rätta och tryck på Kontrollera igen.",
+        "När trycket stämmer trycker du på tallremsan hur många det är. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan visa addition och subtraktion med markörer",
-        "Barnet förstår addition som att sätta ihop och subtraktion som att dela upp",
-        "Barnet bygger den vana att gestalta som textuppgifter och talsatser bygger på"
+        "Visa addition och subtraktion med brickor och en uträkning",
+        "Se en addition som två delar som tillsammans blir en helhet",
+        "Se subtraktion som att stryka över och räkna det som är kvar"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

@@ -2915,25 +2915,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "Pour « 3 + 2 », l'enfant place 3 jetons puis 2 autres d'une couleur différente, afin que les deux parties soient faciles à voir ; pour « 5 − 2 », il commence avec 5 jetons et touche pour en retirer 2. Ici, le travail consiste à représenter l'opération sur le cadre de dix — et non à taper un nombre. C'est une activité de maths interactive pour la maternelle, qui se joue dans le navigateur, sans inscription.",
-        "La grande idée, c'est que l'addition et la soustraction sont des actions que l'on peut montrer, et pas seulement des réponses que l'on écrit. La seconde couleur de jetons rend les deux termes visibles comme deux groupes séparés, et retirer des jetons rend le « enlever » concret. L'enfant modélise l'opération au lieu de taper un nombre : le sens de « réunir » et de « séparer » vient ainsi avant le calcul lui-même.",
-        "Cette activité de grande section est alignée sur les programmes officiels : représenter l'addition et la soustraction avec des objets, les doigts, des dessins et d'autres outils. Ni minuteur, ni score — juste une découverte calme et ludique."
+        "Le cadre à tampons transforme un calcul en quelque chose que l’enfant imprime. Il y a trois tampons – un point orange, un point vert et une grande croix – et un cadre de dix vide. Pour 3 + 2, l’enfant tamponne 3 jetons orange et 2 jetons verts ; pour 8 − 3, il tamponne 8 jetons orange et en barre 3. Une activité de mathématiques interactive qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée, c’est que le calcul vérifie l’impression. Quand l’enfant appuie sur Vérifier, les jetons se rangent dans l’ordre et chaque nombre du calcul pose une accolade sur ses propres jetons. Un jeton qui dépasse de son accolade, ou une case vide en pointillés à l’intérieur, se voit tout de suite, et l’indice nomme le nombre sous lequel regarder. C’est seulement quand l’impression est juste que la réponse est demandée : pour une addition, les deux accolades n’en forment plus qu’une autour de tous les jetons – « Combien en tout ? » ; pour une soustraction, les jetons barrés s’envolent dans une coupelle – « Combien en reste-t-il ? ». L’enfant touche la réponse sur une bande numérique où chaque nombre a sa place, la bande ne la trahit donc pas. Dans une addition, s’il touche l’une des deux parties, l’indice lui dit que ce n’est qu’une partie ; dans une soustraction, un nombre du calcul le renvoie aux jetons qui restent sur le cadre ; après une deuxième erreur, les jetons sont numérotés jusqu’à un point d’interrogation sur le dernier, et c’est l’enfant qui dit le nombre.",
+        "Cette activité de grande section est alignée sur les programmes officiels : représenter l’addition et la soustraction avec des objets, des dessins et des écritures ; barrer, c’est le modèle dessiné que les enfants utiliseront ensuite sur papier. L’enseignant choisit des nombres jusqu’à 5, jusqu’à 10 (par défaut) ou jusqu’à 20 sur deux cadres de dix, et affiche les nombres en chiffres ou en points de dé et de domino. « Tamponner comme tu veux » est le jeu libre : les trois tampons, et le calcul s’écrit tout seul à partir de ce qui est tamponné. Ni minuteur, ni score."
       ],
       "practices": [
-        "Montrer une addition en plaçant deux groupes de jetons de deux couleurs.",
-        "Montrer une soustraction en retirant des jetons d'un groupe de départ.",
-        "Voir les deux parties qui forment un tout sur le cadre.",
-        "Modéliser ce que veut vraiment dire une addition ou une soustraction."
+        "Montrer une addition avec deux groupes de jetons de deux couleurs",
+        "Montrer une soustraction en barrant des jetons du premier groupe",
+        "Vérifier chaque nombre d’un calcul sur ses propres jetons",
+        "Compter combien il y en a en tout, ou combien il en reste"
       ],
       "howToPlay": [
-        "Lis le problème, par exemple 3 + 2 ou 5 − 2.",
-        "Place ou retire des jetons sur le cadre de dix pour qu'il montre l'opération, puis appuie sur « Vérifier ».",
-        "Pas tout à fait ? Ajuste les jetons et recommence — il n'y a ni minuteur, ni score."
+        "Lis le calcul, par exemple 4 + 3 ou 8 − 3.",
+        "Touche un tampon pour le prendre, puis touche des cases du cadre de dix. L’orange, c’est le premier nombre, le vert le deuxième ; pour enlever, barre des jetons avec le tampon croix. Touche de nouveau un jeton avec le même tampon pour l’effacer.",
+        "Appuie sur Vérifier. Les accolades montrent ce qui manque ou ce qui est en trop – corrige et appuie de nouveau sur Vérifier.",
+        "Quand l’impression est juste, touche combien sur la bande numérique. Ni minuteur, ni score."
       ],
       "learningGoals": [
-        "Représenter l'addition et la soustraction avec des jetons.",
-        "Comprendre l'addition comme « réunir » et la soustraction comme « séparer ».",
-        "Construire le réflexe de modéliser dont dépendront les problèmes et les écritures de calcul."
+        "Représenter l’addition et la soustraction avec des jetons et une écriture",
+        "Voir une addition comme deux parties qui forment un tout",
+        "Voir une soustraction comme barrer, puis compter ce qui reste"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

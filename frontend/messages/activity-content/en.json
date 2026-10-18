@@ -4162,25 +4162,26 @@
     },
     "ten-frame.show-the-operation.k-oa-a-1": {
       "about": [
-        "For \"3 + 2\" the child places 3 counters and then 2 more in a second color so the two parts are easy to see; for \"5 − 2\" they start with 5 and tap to take 2 away. Showing the operation on the ten-frame — not typing a number — is the work. It's an interactive Kindergarten math activity that plays in the browser with no sign-up.",
-        "The big idea is that addition and subtraction are actions you can show, not just answers you write. The second counter color makes the two addends visible as separate groups, and removing counters makes \"take away\" literal. The child is modeling the operation rather than typing a number, so the meaning of putting together and taking apart comes before the arithmetic.",
-        "It is aligned to Common Core K.OA.A.1 — representing addition and subtraction with objects, fingers, drawings, and other tools. No timer, no score — just calm, playful practice."
+        "The Stamp Frame turns an equation into something a child prints. There are three rubber stamps — an orange dot, a green dot and a big cross — and an empty ten-frame. For 3 + 2 the child stamps 3 orange counters and 2 green ones; for 8 − 3 they stamp 8 orange counters and cross 3 of them out. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that the equation checks the printing. When the child presses Check, the counters slide into order and every number in the equation drops a bracket over its own counters. A counter sticking out of its bracket, or an empty dashed place inside it, is seen at once, and the hint names the number to look under. Only when the printing is right is the answer asked: for an addition the two brackets join into one round all the counters, \"How many altogether?\"; for a take-away the crossed counters peel off into a dish, \"How many are left?\". The answer is tapped on a number strip where each number sits in its own place, so the strip itself cannot give it away. In an addition, tapping one of the two parts gets the hint that it is only a part; in a take-away, tapping a number of the equation sends the child back to the counters still on the frame; a second wrong answer numbers the counters up to a question mark on the last one, so the child still says the number.",
+        "It is aligned to Common Core K.OA.A.1 — representing addition and subtraction with objects, drawings and expressions; the cross-out is the picture model children later draw on paper. Teachers can choose numbers within 5, within 10 (the default) or within 20 on two ten-frames, and show the numbers as numerals or as dice and domino dots. \"Stamp anything\" is open play: all three stamps, and the equation writes itself from what is stamped. No timer, no score."
       ],
       "practices": [
-        "Showing addition by placing two groups of counters in two colors",
-        "Showing subtraction by taking counters away from a starting group",
-        "Seeing the two parts that make a whole on the frame",
-        "Modeling what an addition or subtraction sentence really means"
+        "Showing an addition as two groups of counters in two colours",
+        "Showing a take-away by crossing counters out of the first group",
+        "Checking each number of an equation against its own counters",
+        "Counting how many altogether, or how many are left"
       ],
       "howToPlay": [
-        "Read the problem, like 3 + 2 or 5 − 2.",
-        "Place or remove counters on the ten-frame so it shows the operation, then press Check.",
-        "Not quite? Adjust the counters and try again — there is no timer and no score."
+        "Read the equation, such as 4 + 3 or 8 − 3.",
+        "Tap a stamp to lift it, then tap places on the ten-frame. Orange is the first number, green the second; for a take-away, cross counters out with the cross stamp. Tap a counter again with the same stamp to wipe it.",
+        "Press Check. The brackets show what is missing or too many — fix it and press Check again.",
+        "When the printing is right, tap how many on the number strip. No timer, no score."
       ],
       "learningGoals": [
-        "Represent addition and subtraction with counters — the focus of Common Core K.OA.A.1",
-        "Understand addition as putting together and subtraction as taking apart",
-        "Build the modeling habit that word problems and number sentences depend on"
+        "Represent addition and subtraction with counters and an equation — the focus of Common Core K.OA.A.1",
+        "See an addition as two parts that make a whole",
+        "See a take-away as crossing out and counting what is left"
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

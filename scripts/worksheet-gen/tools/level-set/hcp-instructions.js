@@ -9,7 +9,7 @@ module.exports = {
     fill: {
       en: 'One number is printed on each piece. Tap the number that goes in the square with ?: 1 more to the right, 1 less to the left, 10 more below, 10 less above.',
       de: 'Auf jedem Puzzleteil steht eine Zahl. Tippe die Zahl an, die in das Feld mit ? gehört: rechts 1 mehr, links 1 weniger, unten 10 mehr, oben 10 weniger.',
-      es: 'Cada pieza tiene un número escrito. Toca el número que va en la casilla con ?: 1 más a la derecha, 1 menos a la izquierda, 10 más abajo y 10 menos arriba.',
+      es: 'Cada pieza tiene un número escrito. Toca el número que va en el recuadro con ?: 1 más a la derecha, 1 menos a la izquierda, 10 más abajo y 10 menos arriba.',
       fr: 'Un nombre est écrit sur chaque morceau. Touche le nombre qui va dans la case avec ? : +1 à droite, −1 à gauche, +10 en bas, −10 en haut.',
       it: "Su ogni pezzo c'è un numero. Tocca il numero che va nella casella con ?: 1 in più a destra, 1 in meno a sinistra, 10 in più sotto, 10 in meno sopra.",
       pt: 'Cada peça tem um número escrito. Toque no número que vai no quadradinho com ?: 1 a mais à direita, 1 a menos à esquerda, 10 a mais embaixo e 10 a menos em cima.',
@@ -22,7 +22,7 @@ module.exports = {
     place: {
       en: 'Read the numbers on the piece. Find its place on the chart. Tap the number that goes in the square with ?.',
       de: 'Lies die Zahlen auf dem Teil. Finde seinen Platz auf der Tafel. Tippe die Zahl an, die in das Feld mit ? gehört.',
-      es: 'Lee los números de la pieza. Busca su lugar en la tabla. Toca el número que va en la casilla con ?.',
+      es: 'Lee los números de la pieza. Busca su lugar en la tabla. Toca el número que va en el recuadro con ?.',
       fr: 'Lis les nombres du morceau. Trouve sa place dans le tableau. Touche le nombre qui va dans la case avec ?.',
       it: 'Leggi i numeri del pezzo. Trova il suo posto nella tavola. Tocca il numero che va nella casella con ?.',
       pt: 'Leia os números da peça. Ache o lugar dela no quadro. Toque no número que vai no quadradinho com ?.',
@@ -61,7 +61,7 @@ module.exports = {
     riddle: {
       en: 'Follow both arrows. They point to the same square of the chart. Tap the mystery number.',
       de: 'Folge beiden Pfeilen. Sie zeigen auf dasselbe Feld der Tafel. Tippe die Geheimzahl an.',
-      es: 'Sigue las dos flechas. Las dos llegan a la misma casilla de la tabla. Toca el número misterioso.',
+      es: 'Sigue las dos flechas. Las dos llegan al mismo recuadro de la tabla. Toca el número misterioso.',
       fr: 'Suis les deux flèches. Elles arrivent sur la même case du tableau. Touche le nombre mystère.',
       it: 'Segui le due frecce. Arrivano tutte e due alla stessa casella della tavola. Tocca il numero misterioso.',
       pt: 'Siga as duas setas. As duas chegam ao mesmo quadradinho do quadro. Toque no número misterioso.',

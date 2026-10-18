@@ -13,7 +13,7 @@ module.exports = {
   anchors: {
     en: 'Some products are already written. Multiply and write the other products in the boxes.',
     de: 'Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.',
-    es: 'Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.',
+    es: 'Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.',
     fr: 'Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.',
     it: 'Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.',
     pt: 'Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.',
@@ -26,7 +26,7 @@ module.exports = {
   missing: {
     en: 'Which number is missing? Work out each multiplication and write the missing number in the box.',
     de: 'Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.',
-    es: '¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.',
+    es: '¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.',
     fr: 'Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.',
     it: 'Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.',
     pt: 'Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.',

@@ -24,7 +24,7 @@ const HALVES_BACK = {
 const DOUBLES_BACK = {
   en: 'The double is already written. Write the number that was doubled in both boxes.',
   de: 'Das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.',
-  es: 'Ya está el doble: escribe en las dos casillas el número que se dobló.',
+  es: 'Ya está el doble: escribe en los dos recuadros el número que se dobló.',
   fr: 'Le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.',
   it: 'Il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.',
   pt: 'O dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.',

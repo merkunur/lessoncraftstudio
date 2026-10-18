@@ -258,7 +258,7 @@
     "base": {
       "en": "Read each sentence. Tap the word that fits in the box.",
       "de": "Lies jeden Satz. Tippe auf das Wort, das in das Kästchen passt.",
-      "es": "Lee cada oración. Toca la palabra que va en la casilla.",
+      "es": "Lee cada oración. Toca la palabra que va en el recuadro.",
       "fr": "Lis chaque phrase. Touche le mot qui va dans la case.",
       "it": "Leggi ogni frase. Tocca la parola che va nella casella.",
       "pt": "Leia cada frase. Toque na palavra que vai na caixa.",
@@ -572,7 +572,7 @@
     "fill": {
       "en": "Read the answer. Tap the question word that belongs in the box.",
       "de": "Lies die Antwort. Tippe auf das Fragewort, das in das Kästchen gehört.",
-      "es": "Toca la palabra que va en la casilla.",
+      "es": "Toca la palabra que va en el recuadro.",
       "fr": "Touche le mot interrogatif qui va dans la case.",
       "it": "Tocca la parola che va nella casella.",
       "pt": "Toque na palavra que vai na caixa.",
@@ -1434,7 +1434,7 @@
     "missing": {
       "en": "Look at the picture. Tap the number that belongs in the empty box.",
       "de": "Schau dir das Bild an. Tippe die Zahl an, die in das leere Kästchen gehört.",
-      "es": "Mira el dibujo. Toca el número que va en la casilla vacía.",
+      "es": "Mira el dibujo. Toca el número que va en el recuadro vacío.",
       "fr": "Regarde l’image. Touche le nombre qui va dans la case vide.",
       "it": "Guarda il disegno. Tocca il numero che va nella casella vuota.",
       "pt": "Observe a figura. Toque no número que vai no quadradinho vazio.",
@@ -2134,7 +2134,7 @@
     "fill": {
       "en": "One number is printed on each piece. Tap the number that goes in the square with ?: 1 more to the right, 1 less to the left, 10 more below, 10 less above.",
       "de": "Auf jedem Puzzleteil steht eine Zahl. Tippe die Zahl an, die in das Feld mit ? gehört: rechts 1 mehr, links 1 weniger, unten 10 mehr, oben 10 weniger.",
-      "es": "Cada pieza tiene un número escrito. Toca el número que va en la casilla con ?: 1 más a la derecha, 1 menos a la izquierda, 10 más abajo y 10 menos arriba.",
+      "es": "Cada pieza tiene un número escrito. Toca el número que va en el recuadro con ?: 1 más a la derecha, 1 menos a la izquierda, 10 más abajo y 10 menos arriba.",
       "fr": "Un nombre est écrit sur chaque morceau. Touche le nombre qui va dans la case avec ? : +1 à droite, −1 à gauche, +10 en bas, −10 en haut.",
       "it": "Su ogni pezzo c'è un numero. Tocca il numero che va nella casella con ?: 1 in più a destra, 1 in meno a sinistra, 10 in più sotto, 10 in meno sopra.",
       "pt": "Cada peça tem um número escrito. Toque no número que vai no quadradinho com ?: 1 a mais à direita, 1 a menos à esquerda, 10 a mais embaixo e 10 a menos em cima.",
@@ -2147,7 +2147,7 @@
     "place": {
       "en": "Read the numbers on the piece. Find its place on the chart. Tap the number that goes in the square with ?.",
       "de": "Lies die Zahlen auf dem Teil. Finde seinen Platz auf der Tafel. Tippe die Zahl an, die in das Feld mit ? gehört.",
-      "es": "Lee los números de la pieza. Busca su lugar en la tabla. Toca el número que va en la casilla con ?.",
+      "es": "Lee los números de la pieza. Busca su lugar en la tabla. Toca el número que va en el recuadro con ?.",
       "fr": "Lis les nombres du morceau. Trouve sa place dans le tableau. Touche le nombre qui va dans la case avec ?.",
       "it": "Leggi i numeri del pezzo. Trova il suo posto nella tavola. Tocca il numero che va nella casella con ?.",
       "pt": "Leia os números da peça. Ache o lugar dela no quadro. Toque no número que vai no quadradinho com ?.",
@@ -2186,7 +2186,7 @@
     "riddle": {
       "en": "Follow both arrows. They point to the same square of the chart. Tap the mystery number.",
       "de": "Folge beiden Pfeilen. Sie zeigen auf dasselbe Feld der Tafel. Tippe die Geheimzahl an.",
-      "es": "Sigue las dos flechas. Las dos llegan a la misma casilla de la tabla. Toca el número misterioso.",
+      "es": "Sigue las dos flechas. Las dos llegan al mismo recuadro de la tabla. Toca el número misterioso.",
       "fr": "Suis les deux flèches. Elles arrivent sur la même case du tableau. Touche le nombre mystère.",
       "it": "Segui le due frecce. Arrivano tutte e due alla stessa casella della tavola. Tocca il numero misterioso.",
       "pt": "Siga as duas setas. As duas chegam ao mesmo quadradinho do quadro. Toque no número misterioso.",
@@ -2746,7 +2746,7 @@
     "fill": {
       "en": "Look at the box with the question mark. Tap the number that belongs in it.",
       "de": "Schau auf das Kästchen mit dem Fragezeichen. Tippe die Zahl an, die hineingehört.",
-      "es": "Mira la casilla con el signo de interrogación. Toca el número que va ahí.",
+      "es": "Mira el recuadro con el signo de interrogación. Toca el número que va ahí.",
       "fr": "Regarde la case avec le point d’interrogation. Touche le nombre qui va dedans.",
       "it": "Guarda la casella con il punto interrogativo. Tocca il numero che ci va.",
       "pt": "Olhe o quadradinho com o ponto de interrogação. Toque no número que vai nele.",
@@ -2891,7 +2891,7 @@
     "mult": {
       "en": "Follow the equal hops from zero. Tap the number that goes in the box with the question mark.",
       "de": "Folge den gleichen Sprüngen von null aus. Tippe die Zahl für das Kästchen mit dem Fragezeichen an.",
-      "es": "Sigue los saltos iguales desde cero. Toca el número de la casilla con el signo de interrogación.",
+      "es": "Sigue los saltos iguales desde cero. Toca el número del recuadro con el signo de interrogación.",
       "fr": "Suis les sauts égaux depuis zéro. Touche le nombre de la case avec le point d’interrogation.",
       "it": "Segui i salti uguali da zero. Tocca il numero da mettere nella casella con il punto interrogativo.",
       "pt": "Siga os saltos iguais desde o zero. Toque no número do quadradinho com o ponto de interrogação.",
@@ -2975,7 +2975,7 @@
     "house": {
       "en": "Tap a box in the right house and type the number: odd numbers in the odd house, even numbers in the even house.",
       "de": "Tippe auf ein Kästchen im richtigen Haus und gib die Zahl ein: gerade Zahlen ins Haus „gerade“, ungerade Zahlen ins Haus „ungerade“.",
-      "es": "Toca una casilla de la casa correcta y escribe el número: los pares en la casa de los pares y los impares en la de los impares.",
+      "es": "Toca un recuadro de la casa correcta y escribe el número: los pares en la casa de los pares y los impares en la de los impares.",
       "fr": "Touche une case de la bonne maison et écris le nombre : les nombres pairs dans la maison des pairs, les impairs dans celle des impairs.",
       "it": "Tocca una casella della casa giusta e scrivi il numero: i pari nella casa dei pari, i dispari in quella dei dispari.",
       "pt": "Toque em um quadrinho da casa certa e digite o número: os pares na casa dos pares e os ímpares na casa dos ímpares.",
@@ -2988,7 +2988,7 @@
     "proof": {
       "en": "Look at the dots two by two. Tap each box and type the two equal parts, then what is left over.",
       "de": "Schau dir die Punkte immer zu zweit an. Tippe auf jedes Kästchen und gib zuerst die zwei gleichen Teile ein, dann, was übrig bleibt.",
-      "es": "Mira los puntos de dos en dos. Toca cada casilla y escribe las dos partes iguales y lo que sobra.",
+      "es": "Mira los puntos de dos en dos. Toca cada recuadro y escribe las dos partes iguales y lo que sobra.",
       "fr": "Regarde les points deux par deux. Touche chaque case et écris les deux parts égales, puis ce qui reste.",
       "it": "Guarda i puntini a due a due. Tocca ogni casella e scrivi le due parti uguali e quello che avanza.",
       "pt": "Olhe os pontos de dois em dois. Toque em cada quadrinho e digite as duas partes iguais e o que sobra.",
@@ -3027,7 +3027,7 @@
     "ones": {
       "en": "Read the rule at the top. Look only at the ones box of each number and tap the circle under even or odd.",
       "de": "Lies die Regel oben. Schau nur auf das Einer-Kästchen jeder Zahl und tippe auf den Kreis unter gerade oder ungerade.",
-      "es": "Lee la regla de arriba. Fíjate solo en la casilla de las unidades de cada número y toca el círculo debajo de par o impar.",
+      "es": "Lee la regla de arriba. Fíjate solo en la cifra de las unidades de cada número y toca el círculo debajo de par o impar.",
       "fr": "Lis la règle en haut. Regarde seulement la case des unités de chaque nombre et touche le rond sous pair ou impair.",
       "it": "Leggi la regola in alto. Guarda solo la casella delle unità di ogni numero e tocca il cerchio sotto pari o dispari.",
       "pt": "Leia a regra do alto. Olhe só o algarismo das unidades de cada número e toque no círculo embaixo de par ou ímpar.",
@@ -3040,7 +3040,7 @@
     "onesNoRule": {
       "en": "Look only at the ones box of each number and tap the circle under even or odd.",
       "de": "Schau nur auf das Einer-Kästchen jeder Zahl und tippe auf den Kreis unter gerade oder ungerade.",
-      "es": "Fíjate solo en la casilla de las unidades de cada número y toca el círculo debajo de par o impar.",
+      "es": "Fíjate solo en la cifra de las unidades de cada número y toca el círculo debajo de par o impar.",
       "fr": "Regarde seulement la case des unités de chaque nombre et touche le rond sous pair ou impair.",
       "it": "Guarda solo la casella delle unità di ogni numero e tocca il cerchio sotto pari o dispari.",
       "pt": "Olhe só o algarismo das unidades de cada número e toque no círculo embaixo de par ou ímpar.",
@@ -3107,7 +3107,7 @@
     "write": {
       "en": "Tap an empty box and type the place, like 3rd.",
       "de": "Tippe auf ein leeres Kästchen und schreibe den Platz mit Punkt, zum Beispiel 3.",
-      "es": "Toca una casilla vacía y escribe el lugar, por ejemplo 3.º",
+      "es": "Toca un recuadro vacío y escribe el lugar, por ejemplo 3.º",
       "fr": "Touche une case vide et écris le rang, par exemple 3e.",
       "it": "Tocca una casella vuota e scrivi il posto, per esempio 3º.",
       "pt": "Toque em um quadradinho vazio e escreva o lugar, por exemplo 3º.",
@@ -3122,7 +3122,7 @@
     "write": {
       "en": "Tap a box, then type the number.",
       "de": "Tippe auf ein Kästchen und gib die Zahl ein.",
-      "es": "Toca una casilla y escribe el número.",
+      "es": "Toca un recuadro y escribe el número.",
       "fr": "Touche une case, puis écris le nombre.",
       "it": "Tocca una casella e scrivi il numero.",
       "pt": "Toque em um quadrinho e digite o número.",
@@ -3135,7 +3135,7 @@
     "sort": {
       "en": "Tap a box in the right bin, then type the number.",
       "de": "Tippe auf ein Kästchen im richtigen Kasten und gib die Zahl ein.",
-      "es": "Toca una casilla de la caja correcta y escribe el número.",
+      "es": "Toca un recuadro de la caja correcta y escribe el número.",
       "fr": "Touche une case de la bonne boîte, puis écris le nombre.",
       "it": "Tocca una casella del contenitore giusto e scrivi il numero.",
       "pt": "Toque em um quadrinho da caixa certa e digite o número.",
@@ -3202,7 +3202,7 @@
     "hours": {
       "en": "Tap a box, then type how many hours passed.",
       "de": "Tippe auf ein Kästchen und gib ein, wie viele Stunden vergangen sind.",
-      "es": "Toca una casilla y escribe cuántas horas pasaron.",
+      "es": "Toca un recuadro y escribe cuántas horas pasaron.",
       "fr": "Touche une case, puis écris combien d'heures se sont passées.",
       "it": "Tocca una casella e scrivi quante ore sono passate.",
       "pt": "Toque em um quadrinho e digite quantas horas passaram.",
@@ -3215,7 +3215,7 @@
     "arith": {
       "en": "Tap a box and type the new time: the hours in the first box, the minutes in the second.",
       "de": "Tippe auf ein Kästchen und gib die neue Uhrzeit ein: die Stunden ins erste Kästchen, die Minuten ins zweite.",
-      "es": "Toca una casilla y escribe la hora nueva: las horas en la primera casilla y los minutos en la segunda.",
+      "es": "Toca un recuadro y escribe la hora nueva: las horas en el primer recuadro y los minutos en el segundo.",
       "fr": "Touche une case et écris la nouvelle heure : les heures dans la première case, les minutes dans la deuxième.",
       "it": "Tocca una casella e scrivi la nuova ora: le ore nella prima casella, i minuti nella seconda.",
       "pt": "Toque em um quadrinho e digite a nova hora: as horas no primeiro quadrinho e os minutos no segundo.",
@@ -3351,7 +3351,7 @@
     "grid": {
       "en": "Tap a box once for a check mark, twice for an X, a third time to clear it. Give each child one check mark.",
       "de": "Tippe einmal auf ein Kästchen für einen Haken, zweimal für ein Kreuz und ein drittes Mal zum Löschen. Gib jedem Kind genau einen Haken.",
-      "es": "Toca una casilla una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño.",
+      "es": "Toca un recuadro una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño.",
       "fr": "Touche une case une fois pour une coche, deux fois pour une croix, une troisième fois pour effacer. Donne une coche à chaque enfant.",
       "it": "Tocca una casella una volta per la spunta, due volte per la crocetta, una terza volta per cancellarla. Dai una spunta a ogni bambino.",
       "pt": "Toque um quadradinho uma vez para pôr um certo, duas vezes para um xis e uma terceira vez para apagar. Dê um certo para cada criança.",
@@ -3364,7 +3364,7 @@
     "grid-two": {
       "en": "Tap a box once for a check mark, twice for an X, a third time to clear it. Give each child one check mark in each of the two top grids.",
       "de": "Tippe einmal auf ein Kästchen für einen Haken, zweimal für ein Kreuz und ein drittes Mal zum Löschen. Gib jedem Kind in den beiden oberen Tabellen je einen Haken.",
-      "es": "Toca una casilla una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño en cada una de las dos cuadrículas de arriba.",
+      "es": "Toca un recuadro una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar. Pon una palomita a cada niño en cada una de las dos cuadrículas de arriba.",
       "fr": "Touche une case une fois pour une coche, deux fois pour une croix, une troisième fois pour effacer. Donne une coche à chaque enfant dans chacune des deux grilles du haut.",
       "it": "Tocca una casella una volta per la spunta, due volte per la crocetta, una terza volta per cancellarla. Dai una spunta a ogni bambino in ciascuna delle due griglie in alto.",
       "pt": "Toque um quadradinho uma vez para pôr um certo, duas vezes para um xis e uma terceira vez para apagar. Dê um certo para cada criança em cada uma das duas tabelas de cima.",

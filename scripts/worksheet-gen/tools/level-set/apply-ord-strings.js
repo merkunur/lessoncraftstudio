@@ -42,7 +42,7 @@ const SCREEN = {
   write: {
     en: 'Tap an empty box and type the place, like 3rd.',
     de: 'Tippe auf ein leeres Kästchen und schreibe den Platz mit Punkt, zum Beispiel 3.',
-    es: 'Toca una casilla vacía y escribe el lugar, por ejemplo 3.º',
+    es: 'Toca un recuadro vacío y escribe el lugar, por ejemplo 3.º',
     fr: 'Touche une case vide et écris le rang, par exemple 3e.',
     it: 'Tocca una casella vuota e scrivi il posto, per esempio 3º.',
     pt: 'Toque em um quadradinho vazio e escreva o lugar, por exemplo 3º.',

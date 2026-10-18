@@ -91,7 +91,7 @@ const ii = JSON.parse(fs.readFileSync(II, 'utf8'));
 const tap = {
   en: 'Tap a box once for a check mark, twice for an X, a third time to clear it.',
   de: 'Tippe einmal auf ein Kästchen für einen Haken, zweimal für ein Kreuz und ein drittes Mal zum Löschen.',
-  es: 'Toca una casilla una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar.',
+  es: 'Toca un recuadro una vez para poner una palomita, dos veces para poner una tacha y una tercera vez para borrar.',
   fr: 'Touche une case une fois pour une coche, deux fois pour une croix, une troisième fois pour effacer.',
   pt: 'Toque um quadradinho uma vez para pôr um certo, duas vezes para um xis e uma terceira vez para apagar.',
   nl: 'Tik één keer op een vakje voor een vinkje, twee keer voor een kruisje en een derde keer om het weer leeg te maken.',

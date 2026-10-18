@@ -654,7 +654,7 @@ const SYN = {
   fi: { art: () => '', pred: 'nukkuu puutarhassa.', predPl: 'nukkuvat puutarhassa.', artPl: '' },
 };
 const SYN_TABLE = { de: { nom: { m: 'der', f: 'die', n: 'das' }, acc: { m: 'den', f: 'die', n: 'das' }, dat: { m: 'dem', f: 'der', n: 'dem' } }, fr: { m: 'le', f: 'la' }, es: { m: 'el', f: 'la' }, pt: { m: 'o', f: 'a' }, it: { m: 'il', f: 'la' }, nl: { d: 'de', h: 'het' }, sv: { n: 'en', t: 'ett' }, da: { n: 'en', t: 'et' }, no: { m: 'en', f: 'ei', n: 'et' }, fi: null };
-const SYN_BOX = { de: 'ein Buchstabe in jedes Kästchen', fr: 'une lettre par case', es: 'una letra en cada casilla', pt: 'uma letra em cada quadradinho', it: 'una lettera per casella', nl: 'één letter per hokje', sv: 'en bokstav i varje ruta', da: 'et bogstav i hvert felt', no: 'en bokstav i hver rute', fi: 'yksi kirjain jokaiseen ruutuun' };
+const SYN_BOX = { de: 'ein Buchstabe in jedes Kästchen', fr: 'une lettre par case', es: 'una letra en cada recuadro', pt: 'uma letra em cada quadradinho', it: 'una lettera per casella', nl: 'één letter per hokje', sv: 'en bokstav i varje ruta', da: 'et bogstav i hvert felt', no: 'en bokstav i hver rute', fi: 'yksi kirjain jokaiseen ruutuun' };
 function cap(s) { return s ? s[0].toUpperCase() + s.slice(1) : s; }
 function synthetic(loc, en) {
   const mod = bankModule('cloze');

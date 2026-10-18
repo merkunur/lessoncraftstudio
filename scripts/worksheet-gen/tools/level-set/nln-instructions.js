@@ -89,7 +89,7 @@ module.exports = {
     mult: {
       en: 'Follow the equal hops from zero. Tap the number that goes in the box with the question mark.',
       de: 'Folge den gleichen Sprüngen von null aus. Tippe die Zahl für das Kästchen mit dem Fragezeichen an.',
-      es: 'Sigue los saltos iguales desde cero. Toca el número de la casilla con el signo de interrogación.',
+      es: 'Sigue los saltos iguales desde cero. Toca el número del recuadro con el signo de interrogación.',
       fr: 'Suis les sauts égaux depuis zéro. Touche le nombre de la case avec le point d’interrogation.',
       it: 'Segui i salti uguali da zero. Tocca il numero da mettere nella casella con il punto interrogativo.',
       pt: 'Siga os saltos iguais desde o zero. Toque no número do quadradinho com o ponto de interrogação.',

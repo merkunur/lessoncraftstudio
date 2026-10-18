@@ -52,7 +52,7 @@ module.exports = {
     hours: {
       en: 'Tap a box, then type how many hours passed.',
       de: 'Tippe auf ein Kästchen und gib ein, wie viele Stunden vergangen sind.',
-      es: 'Toca una casilla y escribe cuántas horas pasaron.',
+      es: 'Toca un recuadro y escribe cuántas horas pasaron.',
       fr: "Touche une case, puis écris combien d'heures se sont passées.",
       it: 'Tocca una casella e scrivi quante ore sono passate.',
       pt: 'Toque em um quadrinho e digite quantas horas passaram.',
@@ -65,7 +65,7 @@ module.exports = {
     arith: {
       en: 'Tap a box and type the new time: the hours in the first box, the minutes in the second.',
       de: 'Tippe auf ein Kästchen und gib die neue Uhrzeit ein: die Stunden ins erste Kästchen, die Minuten ins zweite.',
-      es: 'Toca una casilla y escribe la hora nueva: las horas en la primera casilla y los minutos en la segunda.',
+      es: 'Toca un recuadro y escribe la hora nueva: las horas en el primer recuadro y los minutos en el segundo.',
       fr: 'Touche une case et écris la nouvelle heure : les heures dans la première case, les minutes dans la deuxième.',
       it: 'Tocca una casella e scrivi la nuova ora: le ore nella prima casella, i minuti nella seconda.',
       pt: 'Toque em um quadrinho e digite a nova hora: as horas no primeiro quadrinho e os minutos no segundo.',

@@ -88,7 +88,7 @@
     "1": {
       "en": "Look at the picture. Write the missing word in the boxes. One letter in each box. The first letter is already there.",
       "de": "Schau dir das Bild an. Schreibe das fehlende Wort in die Kästchen, ein Buchstabe pro Kästchen. Der erste Buchstabe steht schon da.",
-      "es": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla. La primera letra ya está escrita.",
+      "es": "Mira el dibujo. Escribe la palabra que falta, una letra en cada recuadro. La primera letra ya está escrita.",
       "fr": "Regarde l'image. Écris le mot qui manque, une lettre par case. La première lettre est déjà écrite.",
       "it": "Guarda il disegno. Scrivi la parola che manca nelle caselle, una lettera in ogni casella. La prima è già scritta.",
       "pt": "Olhe a figura. Escreva a palavra que falta: uma letra em cada quadradinho. A primeira letra já está escrita.",
@@ -103,7 +103,7 @@
     "3": {
       "en": "Look at the picture. Find the word that fits the sentence in the word bank and write it in the box. Two words in the word bank are not used.",
       "de": "Schau dir das Bild an. Suche das passende Wort im Kasten und schreibe es in das Kästchen. Zwei Wörter im Kasten bleiben übrig.",
-      "es": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla. Dos palabras del recuadro no se usan.",
+      "es": "Mira el dibujo. Busca en el banco de palabras la que completa la oración y escríbela en el recuadro. Dos palabras del banco no se usan.",
       "fr": "Regarde l'image. Cherche dans la liste le mot qui complète la phrase et écris-le dans la case. Deux mots ne servent pas.",
       "it": "Guarda il disegno. Cerca nel riquadro la parola che completa la frase e scrivila nella casella. Due parole avanzano.",
       "pt": "Olhe a figura. Procure no quadro a palavra que completa a frase e escreva na caixa. Duas palavras sobram.",
@@ -118,7 +118,7 @@
     "1": {
       "en": "Look at the pictures. There is more than one. Find the word for more than one in the word bank and write it in the box.",
       "de": "Schau dir die Bilder an. Es sind mehrere. Suche das Wort für mehrere im Kasten und schreibe es in das Kästchen.",
-      "es": "Mira los dibujos. Hay más de uno. Busca en el recuadro la palabra para más de uno y escríbela en la casilla.",
+      "es": "Mira los dibujos. Hay más de uno. Busca en el banco de palabras la palabra para más de uno y escríbela en el recuadro.",
       "fr": "Regarde les images : il y en a plusieurs. Cherche dans la liste le mot au pluriel et écris-le dans la case.",
       "it": "Guarda i disegni. Ce n'è più di uno. Cerca nel riquadro la parola per più di uno e scrivila nella casella.",
       "pt": "Olhe as figuras. Há mais de um. Procure no quadro a palavra que indica mais de um e escreva na caixa.",
@@ -132,7 +132,7 @@
     "3": {
       "en": "Read the whole story. The three pictures show the missing words. Write each word from the bank in its box. Two words in the bank are not used.",
       "de": "Lies die ganze Geschichte. Die drei Bilder zeigen die fehlenden Wörter. Schreibe jedes in sein Kästchen. Zwei Wörter im Kasten bleiben übrig.",
-      "es": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla. Dos palabras del recuadro no se usan.",
+      "es": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su recuadro. Dos palabras del banco no se usan.",
       "fr": "Lis tout le texte. Les images montrent les mots qui manquent. Écris chacun à sa place. Deux mots ne servent pas.",
       "it": "Leggi tutto il testo. I disegni mostrano le parole che mancano. Scrivi ogni parola al suo posto. Due parole avanzano.",
       "pt": "Leia a historinha. As três figuras mostram as palavras que faltam. Escreva cada uma na caixa. Sobram duas palavras.",
@@ -448,7 +448,7 @@
     "3": {
       "en": "Read the sentence. Write the word that replaces the name in the second sentence.",
       "de": "Lies den Satz. Schreibe in das Kästchen das Wort, das im zweiten Satz den Namen ersetzt.",
-      "es": "Lee la oración. Escribe en la casilla el pronombre que sustituye al nombre en la segunda oración.",
+      "es": "Lee la oración. Escribe en el recuadro el pronombre que sustituye al nombre en la segunda oración.",
       "fr": "Lis la phrase. Écris le mot qui remplace le prénom dans la deuxième phrase.",
       "it": "Leggi la frase. Scrivi la parola che sostituisce il nome nella seconda frase.",
       "pt": "Leia a frase. Escreva na caixa a palavra que troca o nome na segunda frase.",
@@ -980,7 +980,7 @@
     "1": {
       "es": {
         "title": "Completa la pregunta con quién, qué o dónde",
-        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla la palabra del recuadro con la que se pregunta por ellas."
+        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro la palabra del banco con la que se pregunta por ellas."
       },
       "pt": {
         "title": "Complete a pergunta com quem, o que ou onde",
@@ -1001,7 +1001,7 @@
       "de": "Lies die Antwort und suche die markierten Wörter. Schreibe das passende Fragewort selbst in das Kästchen.",
       "es": {
         "title": "Completa la pregunta con la palabra interrogativa",
-        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en la casilla, sin ayuda, la palabra interrogativa con la que se pregunta por ellas."
+        "instruction": "Lee la respuesta y busca las palabras marcadas. Escribe en el recuadro, sin ayuda, la palabra interrogativa con la que se pregunta por ellas."
       },
       "fr": "Lis la réponse et repère les mots en couleur. Écris toi-même dans la case le mot interrogatif qui correspond à ces mots.",
       "it": "Leggi la risposta e guarda le parole evidenziate. Scrivi nella casella, senza aiuto, la parola che serve per chiederle.",
@@ -2663,7 +2663,7 @@
     "3": {
       "en": "The double is already written. Write the number that was doubled in both boxes.",
       "de": "Das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.",
-      "es": "Ya está el doble: escribe en las dos casillas el número que se dobló.",
+      "es": "Ya está el doble: escribe en los dos recuadros el número que se dobló.",
       "fr": "Le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.",
       "it": "Il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.",
       "pt": "O dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.",
@@ -2706,7 +2706,7 @@
     "3": {
       "en": "The double is already written. Write the number that was doubled in both boxes.",
       "de": "Das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.",
-      "es": "Ya está el doble: escribe en las dos casillas el número que se dobló.",
+      "es": "Ya está el doble: escribe en los dos recuadros el número que se dobló.",
       "fr": "Le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.",
       "it": "Il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.",
       "pt": "O dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.",
@@ -2762,7 +2762,7 @@
     "3": {
       "en": "No pictures. The double is already written. Write the number that was doubled in both boxes.",
       "de": "Ohne Bilder: das Doppelte steht schon da. Schreibe die Zahl, die verdoppelt wurde, in beide Kästchen.",
-      "es": "Sin dibujos: ya está el doble: escribe en las dos casillas el número que se dobló.",
+      "es": "Sin dibujos: ya está el doble: escribe en los dos recuadros el número que se dobló.",
       "fr": "Sans image : le double est déjà écrit : écris dans les deux cases le nombre qui a été doublé.",
       "it": "Solo numeri: il doppio è già scritto: scrivi in tutti e due i riquadri il numero che è stato raddoppiato.",
       "pt": "Sem figuras: o dobro já está escrito: escreva nos dois quadradinhos o número que foi dobrado.",
@@ -2921,7 +2921,7 @@
     "3": {
       "en": "Work out the missing number in your head. Write it in the box.",
       "de": "Welche Zahl fehlt im Kästchen? Rechne im Kopf und schreibe sie hinein.",
-      "es": "Calcula mentalmente qué número falta y escríbelo en la casilla.",
+      "es": "Calcula mentalmente qué número falta y escríbelo en el recuadro.",
       "fr": "Trouve le nombre manquant dans ta tête. Écris-le dans la case.",
       "it": "Trova a mente il numero mancante e scrivilo nel riquadro.",
       "pt": "Descubra de cabeça o número que falta e escreva no quadradinho.",
@@ -2936,7 +2936,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -2951,7 +2951,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -2964,7 +2964,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -2979,7 +2979,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -2992,7 +2992,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3007,7 +3007,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3020,7 +3020,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3035,7 +3035,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3048,7 +3048,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3063,7 +3063,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3076,7 +3076,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3091,7 +3091,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3104,7 +3104,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3119,7 +3119,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3132,7 +3132,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3147,7 +3147,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3160,7 +3160,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3175,7 +3175,7 @@
     "1": {
       "en": "Some products are already written. Multiply and write the other products in the boxes.",
       "de": "Einige Ergebnisse stehen schon da. Rechne die anderen Malaufgaben und schreibe die Ergebnisse in die Kästchen.",
-      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en las casillas.",
+      "es": "Algunos resultados ya están escritos. Resuelve las demás multiplicaciones y escribe los resultados en los recuadros.",
       "fr": "Certains résultats sont déjà écrits. Calcule les autres multiplications et écris les résultats dans les cases.",
       "it": "Alcuni risultati sono già scritti. Risolvi le altre moltiplicazioni e scrivi i risultati nei riquadri.",
       "pt": "Alguns resultados já estão escritos. Faça as outras multiplicações e escreva os resultados nos quadradinhos.",
@@ -3188,7 +3188,7 @@
     "3": {
       "en": "Which number is missing? Work out each multiplication and write the missing number in the box.",
       "de": "Welche Zahl fehlt? Rechne jede Malaufgabe und schreibe die fehlende Zahl in das Kästchen.",
-      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en la casilla.",
+      "es": "¿Qué número falta? Resuelve cada multiplicación y escribe el número que falta en el recuadro.",
       "fr": "Quel nombre manque ? Calcule chaque multiplication et écris le nombre manquant dans la case.",
       "it": "Quale numero manca? Risolvi ogni moltiplicazione e scrivi il numero mancante nel riquadro.",
       "pt": "Que número está faltando? Resolva cada multiplicação e escreva o número que falta no quadradinho.",
@@ -3233,7 +3233,7 @@
     "3": {
       "en": "Look at the big number. Fill in every box on the page for that number.",
       "de": "Zeichne die Zahl des Tages mit Zehnern und Einern und fülle jedes Kästchen aus.",
-      "es": "El número de hoy está entre el 11 y el 19. Llena todas las casillas.",
+      "es": "El número de hoy está entre el 11 y el 19. Llena todos los recuadros.",
       "fr": "Le nombre du jour est entre 11 et 19 : remplis tout.",
       "it": "Il numero va da 11 a 19: riempi ogni riquadro.",
       "pt": "O número fica entre 11 e 19: desenhe com blocos e preencha todos os quadros.",
@@ -3417,7 +3417,7 @@
     "3": {
       "en": "Look only at the ones box of each number and tick the circle under even or odd.",
       "de": "Schau nur auf das Einer-Kästchen jeder Zahl und hake den Kreis unter gerade oder ungerade ab.",
-      "es": "Fíjate solo en la casilla de las unidades de cada número y marca el círculo debajo de par o impar.",
+      "es": "Fíjate solo en la cifra de las unidades de cada número y marca el círculo debajo de par o impar.",
       "fr": "Regarde seulement la case des unités de chaque nombre et coche le rond sous pair ou impair.",
       "it": "Guarda solo la casella delle unità di ogni numero e segna il cerchio sotto pari o dispari.",
       "pt": "Olhe só o algarismo das unidades de cada número e marque o círculo certo.",

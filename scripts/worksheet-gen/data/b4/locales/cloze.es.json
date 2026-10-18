@@ -520,17 +520,17 @@
     },
     {
       "id": "lemons-sour",
-      "noun": "lemon",
+      "noun": "lime",
       "form": "pl",
       "text": "Los {gap} son muy ácidos.",
       "clones": null,
       "fits": [
-        "lemon"
+        "lime"
       ],
       "predicateKind": "copula",
       "pic": {
         "theme": "fruits",
-        "noun": "lemon"
+        "noun": "lime"
       },
       "picOpened": true,
       "signedExclusive": true,

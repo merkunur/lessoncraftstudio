@@ -40,7 +40,7 @@
     "wantLearn": "Quiero aprender a",
     "myName": "Mi nombre",
     "friendName": "El nombre de mi amigo o amiga",
-    "oneLetterPerBox": "Escribe una letra en cada casilla",
+    "oneLetterPerBox": "Escribe una letra en cada recuadro",
     "lettersCount": "Letras de mi nombre:",
     "firstLetter": "La primera letra de mi nombre:",
     "whoHasMore": {
@@ -149,7 +149,7 @@
     "broccoli": "brócoli",
     "corn": "elote",
     "cucumber": "pepino",
-    "tomato": "tomate",
+    "tomato": "jitomate",
     "potato": "papa",
     "pumpkin": "calabaza",
     "eggplant": "berenjena",
@@ -277,7 +277,7 @@
     },
     "K-346": {
       "title": "Mi nombre: escribe, cuenta y compara",
-      "instruction": "Escribe tu nombre con una letra en cada casilla y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
+      "instruction": "Escribe tu nombre con una letra en cada recuadro y cuenta las letras. Haz lo mismo con el nombre de un amigo y rodea quién tiene más."
     }
   },
   "excludeOptions": []

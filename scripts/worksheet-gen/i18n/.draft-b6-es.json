@@ -1205,6 +1205,6 @@
     "healthy-habits G1-405 EN title \"Healthy Habits Chart\" is fine, but the rail head \"Hygiene\" does not describe three of its five rows (move, drink water, sleep); es titles F5 \"higiene, ejercicio y descanso\" and F4 \"higiene y salud\" so the title names what is on the page.",
     "story beach-walk: the EN \"a child\" becomes a gendered noun in Spanish (niña/niño); the walker is faceless, so any choice is arbitrary. es picks \"una niña\"; flag for the other gendered locales.",
     "sink-or-float es: the vocab lemon is a YELLOW lemon; in Mexico \"limón\" is the green lime. The label stays \"limón\" (\"limón amarillo\" does not fit the 96 px tile) and is not a truth problem (both float); cursive drops fruits/lemon from the es word list for the same reason.",
-    "habitats es strand: the live Science row renders es \"Conocimiento del Medio\", a SPAIN subject name (OPEN 1). The Mexican NEM term is the campo formativo \"Saberes y pensamiento científico\"; changing it is catalogue-wide, not a panel edit."
+    "habitats es strand: the live Science row renders es \"Exploración de la Naturaleza y la Sociedad\", a SPAIN subject name (OPEN 1). The Mexican NEM term is the campo formativo \"Saberes y pensamiento científico\"; changing it is catalogue-wide, not a panel edit."
   ]
 }

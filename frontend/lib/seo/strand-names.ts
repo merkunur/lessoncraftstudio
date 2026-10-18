@@ -145,7 +145,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Science': {
     en: 'Science',
     de: 'Sachunterricht',
-    es: 'Conocimiento del Medio',
+    es: 'Exploración de la Naturaleza y la Sociedad',
     fr: 'Questionner le monde',
     it: 'Scienze',
     pt: 'Ciências',

@@ -42,11 +42,11 @@
     },
     "G1-362": {
       "title": "El estado del tiempo: escribe la palabra",
-      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada casilla."
+      "instruction": "Busca en el recuadro la palabra de cada símbolo del tiempo y escríbela, una letra en cada recuadro."
     },
     "K-364": {
       "title": "Registro del tiempo de la semana: de domingo a sábado",
-      "instruction": "Cada día de esta semana mira por la ventana y dibuja en su casilla el símbolo del tiempo que hace."
+      "instruction": "Cada día de esta semana mira por la ventana y dibuja en su recuadro el símbolo del tiempo que hace."
     },
     "K-365": {
       "title": "El termómetro: ¿frío, templado o calor?",
@@ -61,5 +61,5 @@
       "instruction": "Mira el tiempo de la semana, lee cada pregunta y rodea el día correcto."
     }
   },
-  "strand": "Conocimiento del Medio"
+  "strand": "Exploración de la Naturaleza y la Sociedad"
 }

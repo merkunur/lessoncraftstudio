@@ -31,7 +31,7 @@
   },
   "K-299": {
    "title": "Copia el dibujo con letras y números",
-   "instruction": "Cada casilla tiene una letra y un número: B2."
+   "instruction": "Cada recuadro tiene una letra y un número: B2."
   },
   "K-300": {
    "title": "Copia el dibujo en una cuadrícula de 8x8",
@@ -63,7 +63,7 @@
   },
   "G1-255": {
    "title": "El número del día: números del 11 al 19",
-   "instruction": "El número de hoy está entre el 11 y el 19. Llena todas las casillas."
+   "instruction": "El número de hoy está entre el 11 y el 19. Llena todos los recuadros."
   },
   "G1-256": {
    "title": "El número del día: 10 más y 10 menos",
@@ -71,7 +71,7 @@
   },
   "G1-257": {
    "title": "El número del día: hasta el 99",
-   "instruction": "El número de hoy tiene dos cifras: escríbelo en decenas y unidades y llena todas las casillas."
+   "instruction": "El número de hoy tiene dos cifras: escríbelo en decenas y unidades y llena todos los recuadros."
   },
   "G1-258": {
    "title": "Dictado mudo: con la primera letra",
@@ -227,11 +227,11 @@
   },
   "G2-302": {
    "title": "Coordenadas en una cuadrícula de 6x6",
-   "instruction": "Cuadrícula de 6x6: colorea casilla a casilla."
+   "instruction": "Cuadrícula de 6x6: colorea recuadro por recuadro."
   },
   "G2-303": {
    "title": "Coordenadas en una cuadrícula de 10x10",
-   "instruction": "Busca cada casilla por su letra y su número, como B2, y coloréala con el color de su grupo."
+   "instruction": "Busca cada recuadro por su letra y su número, como B2, y coloréalo con el color de su grupo."
   },
   "G3-371": {
    "title": "Problemas de multiplicación",
@@ -354,20 +354,20 @@
    "instruction": "Aquí no hay verbos ni dibujos."
   },
   "G1-301": {
-   "title": "Dictado mudo: banco y casillas",
-   "instruction": "Busca la palabra en el banco y escribe una letra en cada casilla."
+   "title": "Dictado mudo: banco y recuadros",
+   "instruction": "Busca la palabra en el banco y escribe una letra en cada recuadro."
   },
   "G1-302": {
    "title": "Ordena la frase: ¿cuál va primero?",
    "instruction": "Sin mayúscula: solo el signo final."
   },
   "G1-303": {
-   "title": "Dictado mudo: casillas e inicial",
-   "instruction": "Di el nombre de cada dibujo y escribe una letra en cada casilla. La primera letra ya está escrita."
+   "title": "Dictado mudo: recuadros e inicial",
+   "instruction": "Di el nombre de cada dibujo y escribe una letra en cada recuadro. La primera letra ya está escrita."
   },
   "G1-304": {
    "title": "Dictado mudo con todas las pistas",
-   "instruction": "Busca la palabra en el banco. Después de la primera letra, escribe una letra en cada casilla."
+   "instruction": "Busca la palabra en el banco. Después de la primera letra, escribe una letra en cada recuadro."
   },
   "G2-305": {
    "title": "La recta numérica del 40 al 60",
@@ -379,7 +379,7 @@
   },
   "G2-308": {
    "title": "Coordenadas: escribe tú los códigos",
-   "instruction": "El dibujo ya está coloreado. Escribe el código de cada casilla en la lista de su color."
+   "instruction": "El dibujo ya está coloreado. Escribe el código de cada recuadro en la lista de su color."
   },
   "G2-310": {
    "title": "La recta numérica del 60 al 100",

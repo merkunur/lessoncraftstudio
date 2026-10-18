@@ -123,7 +123,7 @@
     },
     "G1-378": {
       "title": "El Sol, la Tierra y la Luna",
-      "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+      "instruction": "Lee cada oración y marca un solo recuadro: ¿habla del Sol, de la Tierra o de la Luna?"
     },
     "G1-391": {
       "title": "Fases de la luna en orden",
@@ -1166,7 +1166,7 @@
       "strings": {
         "base": {
           "title": "El Sol, la Tierra y la Luna",
-          "instruction": "Lee cada oración y marca una sola casilla: ¿habla del Sol, de la Tierra o de la Luna?"
+          "instruction": "Lee cada oración y marca un solo recuadro: ¿habla del Sol, de la Tierra o de la Luna?"
         },
         "moon-phases-in-order": {
           "title": "Fases de la luna en orden",

@@ -4,7 +4,7 @@
     "m": "el",
     "f": "la"
   },
-  "boxWord": "una letra en cada casilla",
+  "boxWord": "una letra en cada recuadro",
   "confusable": [
     [
       "bus",
@@ -824,23 +824,23 @@
   "strings": {
     "base": {
       "title": "Completa las oraciones",
-      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en la casilla."
+      "instruction": "Mira el dibujo. Busca en el recuadro la palabra que completa la oración y escríbela en el recuadro."
     },
     "letters": {
-      "title": "Completa la oración con una letra en cada casilla",
-      "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada casilla."
+      "title": "Completa la oración con una letra en cada recuadro",
+      "instruction": "Mira el dibujo. Escribe la palabra que falta, una letra en cada recuadro."
     },
     "choice": {
       "title": "Completa la oración: rodea la palabra correcta",
-      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en la casilla."
+      "instruction": "Mira el dibujo y lee la oración. Rodea la palabra que va bien y escríbela en el recuadro."
     },
     "plural": {
       "title": "Completa las oraciones en plural",
-      "instruction": "Mira los dibujos. Hay más de uno. Escribe en la casilla la palabra para más de uno."
+      "instruction": "Mira los dibujos. Hay más de uno. Escribe en el recuadro la palabra para más de uno."
     },
     "story": {
       "title": "Completa el cuento con las palabras que faltan",
-      "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su casilla."
+      "instruction": "Lee todo el cuento. Los tres dibujos muestran las palabras que faltan. Escribe cada una en su recuadro."
     },
     "match": {
       "title": "Une cada oración con su dibujo",

@@ -14,12 +14,12 @@
       "instruction": "Empieza en el número y sigue las flechas: arriba 10 menos, abajo 10 más, izquierda 1 menos, derecha 1 más. Escribe a dónde llegas."
     },
     "F3": {
-      "title": "Número misterioso: dos flechas, una casilla",
-      "instruction": "Sigue las dos flechas. Las dos llegan a la misma casilla de la tabla. Escribe el número misterioso."
+      "title": "Número misterioso: dos flechas, un recuadro",
+      "instruction": "Sigue las dos flechas. Las dos llegan a el mismo recuadro de la tabla. Escribe el número misterioso."
     },
     "F4": {
       "title": "Encuentra el error en la pieza",
-      "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en la casilla."
+      "instruction": "En cada pieza hay un número equivocado. Rodéalo y escribe el número correcto en el recuadro."
     },
     "F5": {
       "title": "¿Cuántos saltos hay? Cuenta en la tabla del 100",

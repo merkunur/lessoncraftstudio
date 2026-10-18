@@ -595,7 +595,7 @@ function resolveWrite(d, bank) {
   if (d.starter && d.twoAsks) throw new Error(`${ID} write: starter + twoAsks`);
   if (d.bank) throw new Error(`${ID} write: a bank on the write face (the answer is retrieved, never copied) — REFUSED`);
   if (d.ruling === false) throw new Error(`${ID} write: ruling:false`);
-  const cfg = { starter: !!d.starter, twoAsks: !!d.twoAsks, rows: d.rows, kinds: { ...(d.kinds || {}) }, h: d.h || 48, glyphH: d.glyphH || 24, picPx: d.picPx || 48, fontPx: d.fontPx || 18, maxChars: d.maxChars, sentenceMax: d.sentenceMax || 40, maxThings: d.maxThings || 4, rowMin: d.rowMin || 78, rowGap: d.rowGap || 6 };
+  const cfg = { starter: !!d.starter, twoAsks: !!d.twoAsks, rows: d.rows, kinds: { ...(d.kinds || {}) }, h: d.h || 48, glyphH: d.glyphH || 24, picPx: d.picPx || 48, fontPx: d.fontPx || 18, maxChars: d.maxChars, sentenceMax: d.sentenceMax || 40, maxThings: d.maxThings || 4, rowMin: d.rowMin || 78, rowGap: d.rowGap || 6, padB: d.padB || 0 };
   // twoAsks (Level Set 2026-09-29, the harder write): 5 sentences x TWO questions (who + the other part) = 10
   if (!Number.isInteger(cfg.rows) || cfg.rows < (cfg.twoAsks ? 4 : 6) || cfg.rows > 16) throw new Error(`${ID} write: ${cfg.rows} rows outside [${cfg.twoAsks ? 4 : 6}, 16]`);
   kindsGuard(cfg.kinds, bank, 'write');
@@ -928,7 +928,7 @@ function buildWrite(bank, d, loc, rng, data) {
     ...(cfg.starter ? { starter: (bank.qPrefix || '') + bank.qwords[r.ask] } : {}),
   })).join('');
   const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="0.35"${cfg.starter ? ' data-lcs-starters="1"' : ''} style="${rootStyle()}">` +
-    `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0">${html}</div></div>`;
+    `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0${cfg.padB ? ';padding-bottom:' + cfg.padB + 'px' : ''}">${html}</div></div>`;
   return { bodyHtml, meta: { face: 'write', rows: rows.map((r) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, span: r.span, answer: r.question })) } };
 }
 
@@ -948,7 +948,7 @@ function buildWriteTwo(bank, cfg, asks, loc, rng, data) {
     text: r.text, spans, answers, w: cfg.w, h: cfg.h, glyphH: cfg.glyphH, fontPx: cfg.fontPx, picPx: cfg.picPx,
   })).join('');
   const bodyHtml = `<div ${rootAttrs(bank, 'write')} data-lcs-two="1" data-lcs-rows="${cfg.rows}" data-lcs-kinds="${KIND_ORDER.filter((k) => cfg.kinds[k]).join(',')}" data-lcs-glyphh="${cfg.glyphH}" data-lcs-w="${cfg.w}" data-lcs-h="${cfg.h}" data-lcs-picpx="${cfg.picPx}" data-lcs-botmax="1" style="${rootStyle()}">` +
-    `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0">${html}</div></div>`;
+    `<div data-lcs-lanes style="flex:1 1 auto;display:grid;grid-template-rows:repeat(${cfg.rows},minmax(${cfg.rowMin}px,1fr));gap:${cfg.rowGap}px;min-height:0${cfg.padB ? ';padding-bottom:' + cfg.padB + 'px' : ''}">${html}</div></div>`;
   return { bodyHtml, meta: { face: 'write', two: true, rows: out.map(({ r, spans, answers }) => ({ frame: r.frame.id, kind: r.kind, ask: r.ask, name: r.name.name, person: r.person.key, thing: r.thing ? r.thing.key : null, place: r.place ? r.place.key : null, time: r.time ? r.time.h : null, n: r.n == null ? null : r.n, text: r.text, spans, answers })) } };
 }
 
@@ -1694,7 +1694,10 @@ module.exports = {
     // Level Set 2026-09-29: the screen version / answer key wrap the SAME printed instance (the print build, then the
     // page drives both); the published page (level 2, copy 1) is never asked for either, so its print stays byte-identical
     if (this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
-      const built = this._buildWith(bank, d, { theme, locale: loc, pron, objForms }, { ...ctx, interactive: false, answerKey: false });
+      // keyPadB (a QA retry knob, 2026-10-18): a bottom padding under the KEY's rows only — the printed page must keep its rows
+      // stretched to the body bottom (its sparse rule), but a seated key answer's descender can reach past the footer line
+      const dk = ctx.answerKey && d.keyPadB ? { ...d, padB: d.keyPadB } : d;
+      const built = this._buildWith(bank, dk, { theme, locale: loc, pron, objForms }, { ...ctx, interactive: false, answerKey: false });
       return QW_SCREEN.screenOrKey((d && d.mode) || 'base', built, ctx, loc, bank);
     }
     return this._buildWith(bank, d, { theme, locale: loc, pron, objForms }, ctx);

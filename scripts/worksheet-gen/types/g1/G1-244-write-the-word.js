@@ -45,18 +45,26 @@ module.exports = {
     let d = this.difficulty[difficulty];
     // NEW pages (the review 2026-10-03): with no word bank, a grade-1 child writes words of at most 9 letters
     if (fresh && !d.bank && d.maxLetters > 9) d = { ...d, maxLetters: 9 };
-    let pool = entriesFor(theme, loc).filter((e) => !fresh || freshKeep(theme, e, loc))
-      // one box per letter cannot hold a hyphen or an apostrophe (pt estrela-do-mar)
-      .filter((e) => !fresh || !d.boxes || !/[-'’]/.test(displayWord(e.singular, loc))).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
-      .filter((e) => /^[\p{L}][\p{L}' ’-]*$/u.test(e.word))
-      .filter((e) => [...e.word.replace(/[ '’-]/g, '')].length <= d.maxLetters && [...e.word].length >= (d.minLetters || 2));
-    pool = distinctByWord(pool, (e) => e.word);
-    if (d.starter) {
-      // no two words sharing their first two letters (the starter must not be ambiguous)
-      const out = [];
-      for (const e of rng.shuffle(pool)) if (!out.some((o) => o.word.slice(0, 2).toLowerCase() === e.word.slice(0, 2).toLowerCase())) out.push(e);
-      pool = out;
-    }
+    const poolFor = (maxLetters) => {
+      let pool = entriesFor(theme, loc).filter((e) => !fresh || freshKeep(theme, e, loc))
+        // one box per letter cannot hold a hyphen or an apostrophe (pt estrela-do-mar)
+        .filter((e) => !fresh || !d.boxes || !/[-'’]/.test(displayWord(e.singular, loc))).map((e) => ({ ...e, word: displayWord(e.singular, loc) }))
+        .filter((e) => /^[\p{L}][\p{L}' ’-]*$/u.test(e.word))
+        .filter((e) => [...e.word.replace(/[ '’-]/g, '')].length <= maxLetters && [...e.word].length >= (d.minLetters || 2));
+      pool = distinctByWord(pool, (e) => e.word);
+      if (d.starter) {
+        // no two words sharing their first two letters (the starter must not be ambiguous)
+        const out = [];
+        for (const e of rng.shuffle(pool)) if (!out.some((o) => o.word.slice(0, 2).toLowerCase() === e.word.slice(0, 2).toLowerCase())) out.push(e);
+        pool = out;
+      }
+      return pool;
+    };
+    let pool = poolFor(d.maxLetters);
+    // 2026-10-18 (es-MX): a NEW page whose pinned theme cannot fill the page at the level's letter limit (the Mexican names
+    // run longer — tartaleta — and pastel / paleta / pay share a start) allows one, then two letters more, never more.
+    // A page that fills at the limit draws exactly as before: this loop never runs, so its rng is untouched.
+    for (let extra = 1; fresh && pool.length < d.cards && extra <= 2; extra++) pool = poolFor(d.maxLetters + extra);
     if (pool.length < d.cards) throw new Error(`G1-244: theme ${theme}/${loc} has ${pool.length} eligible nouns < ${d.cards}`);
     const picks = rng.sample(pool, d.cards);
     // a picture a child names otherwise (or a brand) on the PUBLISHED page: swapped after the draw for the next clean

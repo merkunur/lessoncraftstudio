@@ -70,7 +70,7 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
         const landingUrl = `${BASE_URL}/${locale}/worksheets/${l.slug}`;
 
         const slugByLocale: Record<string, string> = { [locale]: l.slug };
-        for (const s of getSiblingLandingsByCoordinate(l.coordinate, locale)) slugByLocale[s.locale] = s.slug;
+        for (const s of getSiblingLandingsByCoordinate(l, locale)) slugByLocale[s.locale] = s.slug;
         const languages = buildHreflangAlternates(
           landingLocales,
           (loc) => (slugByLocale[loc] ? `${BASE_URL}/${loc}/worksheets/${slugByLocale[loc]}` : null),

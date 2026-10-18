@@ -220,6 +220,14 @@ function fill(template, vars) {
 function setUrl(locale, code) {
   return CANONICAL_BASE + '/' + locale + '/' + WORKSHEETS_SEGMENT + '/' + SETS_SEGMENT + '/' + code;
 }
+/**
+ * Where a set lives since 2026-10-18: a sub-category of its type on the hub (mirrors
+ * frontend/lib/level-sets.ts setHref; params in buildFilterUrl's alphabetical order).
+ * setUrl stays for the ~108k deck strips already baked — that route 308s here.
+ */
+function hubSetUrl(locale, type, code) {
+  return CANONICAL_BASE + '/' + locale + '/' + WORKSHEETS_SEGMENT + '?set=' + encodeURIComponent(code) + '&type=' + encodeURIComponent(type);
+}
 /** Deck pages are nginx URLs with a trailing slash (§15.7). */
 function deckUrl(locale, slug) {
   return CANONICAL_BASE + '/' + locale + '/decks/' + slug + '/';
@@ -312,5 +320,5 @@ module.exports = {
   MARKER, START, END, STRIP_RE, ANCHOR, SETS_SEGMENT, WORKSHEETS_SEGMENT, RUNGS, MAX_SIBLINGS,
   STRING_SPEC, escapeHtml, strings, rungWord, themeName, themeAxisKey,
   parseVariantId, parseSlugCode, rungOf, factsOf, buildLadders,
-  setUrl, deckUrl, cssRules, pageLabel, block,
+  setUrl, hubSetUrl, deckUrl, cssRules, pageLabel, block,
 };

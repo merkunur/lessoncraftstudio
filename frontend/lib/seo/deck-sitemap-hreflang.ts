@@ -38,10 +38,19 @@ export function buildDeckHreflangLinks(
   }
 
   // Family: one alternate per sibling locale (dedupe by hreflang code), + x-default.
+  /* One URL per language: the first sibling by slug, so every member of the family — in
+     either shard, whatever order the DB returned — picks the SAME representative. A deck
+     that is NOT its language's representative (two decks of one locale in one family)
+     declares itself only: copying the family's alternates onto it made one-way pairs
+     (measured 2026-10-18 on es busca-y-cuenta-…-fbbf vs -1fc8). */
+  const sorted = [...siblings].sort((a, b) => (a.language === b.language ? (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0) : a.language < b.language ? -1 : 1));
   const byCode = new Map<string, string>();
-  for (const s of siblings) {
+  for (const s of sorted) {
     const code = getHreflangCode(s.language);
     if (!byCode.has(code)) byCode.set(code, urlFor(s));
+  }
+  if (byCode.get(getHreflangCode(deck.language)) !== urlFor(deck)) {
+    return [`  <xhtml:link rel="alternate" hreflang="${esc(getHreflangCode(deck.language))}" href="${esc(urlFor(deck))}" />`];
   }
   const lines: string[] = [];
   byCode.forEach((url, code) => {

@@ -2639,6 +2639,7 @@
       "interactive": "Interactief",
       "aria": "Versiefilter"
     },
+    "subjectsAria": "Vakken",
     "card": {
       "pdf": "PDF",
       "answerKey": "Antwoorden",
@@ -3120,6 +3121,7 @@
     "levels": "{count, plural, one {# niveau} other {# niveaus}}",
     "openSet": "Set openen",
     "allSets": "Alle niveausets",
+    "moreSets": "{count, plural, one {Nog # set} other {Nog # sets}}",
     "setWord": "Set {n}",
     "indexTitle": "Niveausets – werkbladen op maximaal drie niveaus",
     "indexDescription": "Elk werkbladtype dat op meerdere niveaus bestaat, met meerdere bladen per niveau. Kies het niveau dat elk kind nodig heeft.",

@@ -2628,6 +2628,7 @@
       "interactive": "Interaktiivinen",
       "aria": "Suodatus muodon mukaan"
     },
+    "subjectsAria": "Oppiaineet",
     "card": {
       "pdf": "PDF",
       "answerKey": "Vastaukset",
@@ -3109,6 +3110,7 @@
     "levels": "{count, plural, one {# taso} other {# tasoa}}",
     "openSet": "Avaa sarja",
     "allSets": "Kaikki tasosarjat",
+    "moreSets": "{count, plural, one {# sarja lisää} other {# sarjaa lisää}}",
     "setWord": "Sarja {n}",
     "indexTitle": "Tasosarjat – tehtävät enintään kolmella tasolla",
     "indexDescription": "Kaikki tehtävätyypit, joita on usealla tasolla, useita tehtäviä tasoa kohden. Valitse jokaiselle lapselle sopiva taso.",
@@ -3118,7 +3120,7 @@
     "setIntro": "Yksi taito, kolme tasoa. Anna jokaiselle lapselle sopiva tehtävä: kaikilla on sama asettelu, joten yksi ohjeistus riittää koko luokalle.",
     "playLabel": "Tee näytöllä",
     "moreOfType": "Lisää tämän tyypin sarjoja",
-    "backToHub": "Kaikki tehtävät",
+    "backToHub": "Kaikki tehtäväarkit",
     "interactiveCount": "{count, plural, one {# tehtävän voi tehdä näytöllä} other {# tehtävää voi tehdä näytöllä}}",
     "answerKeys": "{count, plural, one {# vastaussivu} other {# vastaussivua}}",
     "emptyRung": "Tällä tasolla ei ole vielä tehtävää",

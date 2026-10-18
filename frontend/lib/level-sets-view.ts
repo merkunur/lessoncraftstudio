@@ -8,7 +8,7 @@ import { getAxisName, getExerciseModeName } from '@/lib/taxonomy';
 import { deckAssets } from '@/lib/seo/landing-content';
 import { wwwImg } from '@/lib/img-host';
 import { levelChip, worksheetSubject } from '@/lib/worksheets-catalog';
-import { RUNGS, setPath, type Ladder, type Rung } from '@/lib/level-sets';
+import { RUNGS, setHref, type Ladder, type Rung } from '@/lib/level-sets';
 import type { LadderCardProps } from '@/components/worksheets/LadderCard';
 
 /** A next-intl `t` narrowed to what this module calls. */
@@ -40,7 +40,7 @@ export function ladderCardProps(
 ): LadderCardProps {
   const slug = ladderThumbnailSlug(l);
   return {
-    href: setPath(locale, l.code),
+    href: setHref(locale, l.type, l.code),
     thumbnailSrc: wwwImg(deckAssets(locale, slug).thumbnail),
     title: l.title,
     levelLabel: l.level ? levelChip(l.level, locale) : '',

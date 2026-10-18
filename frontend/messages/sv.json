@@ -2639,6 +2639,7 @@
       "interactive": "Interaktivt",
       "aria": "Formatfilter"
     },
+    "subjectsAria": "Ämnen",
     "card": {
       "pdf": "PDF",
       "answerKey": "Facit",
@@ -3120,6 +3121,7 @@
     "levels": "{count, plural, one {# nivå} other {# nivåer}}",
     "openSet": "Öppna setet",
     "allSets": "Alla nivåset",
+    "moreSets": "{count, plural, one {# set till} other {# set till}}",
     "setWord": "Set {n}",
     "indexTitle": "Nivåset – arbetsblad på upp till tre nivåer",
     "indexDescription": "Varje typ av arbetsblad som finns på flera nivåer, med flera blad per nivå. Välj den nivå varje barn behöver.",

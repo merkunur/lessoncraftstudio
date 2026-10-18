@@ -4145,6 +4145,7 @@
       "interactive": "Interativo",
       "aria": "Filtro de formato"
     },
+    "subjectsAria": "Áreas",
     "card": {
       "pdf": "PDF",
       "answerKey": "Gabarito",
@@ -4626,6 +4627,7 @@
     "levels": "{count, plural, one {# nível} other {# níveis}}",
     "openSet": "Abrir o conjunto",
     "allSets": "Todos os conjuntos por nível",
+    "moreSets": "{count, plural, one {Mais # conjunto} other {Mais # conjuntos}}",
     "setWord": "Conjunto {n}",
     "indexTitle": "Conjuntos por nível – fichas em até três níveis",
     "indexDescription": "Todos os tipos de ficha que existem em vários níveis, com várias fichas por nível. Escolha o nível de que cada criança precisa.",

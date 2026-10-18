@@ -353,6 +353,10 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksh
 # b8 Handmade Mazes (maze-puzzles): base + 19 faces = 20 rows per locale ×11; HARD from the first deploy that
 # carries the b8 landings (all 11 locales composed before that deploy, 2026-10-12).
 node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b8-designs/hub-expectations.json || { echo "ERROR: the b8 maze family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b8-designs/hub-expectations.json"; exit 1; }
+# Hub theme truth (2026-10-18): every theme the /worksheets rail offers opens ONLY that theme, by each
+# deck's own tag (Level Set copies and collapsed sheets used to borrow their landing's theme — 38% wrong
+# in en). Reads the DB, so it sources .env.production; --poison proves the pre-fix shape still fails.
+( set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a; node /opt/lessoncraftstudio/scripts/verify-hub-theme-truth.js --poison ) || { echo "ERROR: a /worksheets theme filter shows worksheets of another theme — see scripts/verify-hub-theme-truth.js"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE

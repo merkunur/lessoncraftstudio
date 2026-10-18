@@ -1,10 +1,10 @@
 /**
  * WorksheetCatalogCard — the grid card of the worksheets hub.
  *
- * A Direction A paper card (dual-shadow cream, `.actcat-card` — the same visual
- * vocabulary as ActivityCatalogCard on /[locale]/activities/) whose thumbnail is
- * the deck's real rendered worksheet, slug-derived (drift-proof per the
- * SEO-recovery 2026-06-25 rule).
+ * A quiet white catalogue card (hairline border, 2026-10-18 hub redesign — it
+ * replaced the dual-shadow cream `.actcat-card`) whose thumbnail is the deck's
+ * real rendered worksheet, slug-derived (drift-proof per the SEO-recovery
+ * 2026-06-25 rule).
  *
  * THE FORMAT MARK — the point of this card.
  * Every thumbnail carries exactly ONE mark, bottom-right:
@@ -41,7 +41,7 @@
  */
 import Link from 'next/link';
 import Image from 'next/image';
-import { SUBJECT_STYLE, type Subject } from '@/lib/activities-catalog';
+import type { Subject } from '@/lib/activities-catalog';
 
 export interface WorksheetCardLabels {
   /** Action-row link text. */
@@ -72,7 +72,8 @@ export interface WorksheetCatalogCardProps {
   title: string; // doubles as the image alt
   levelLabel: string;
   typeLabel: string;
-  subject: Subject; // teal (math family) / coral (literacy) tint
+  /** Kept for API stability; the 2026-10-18 card no longer tints by subject. */
+  subject?: Subject;
   labels: WorksheetCardLabels;
   /** No browser-playable version: shows the chip instead of the play button. */
   printOnly: boolean;
@@ -87,6 +88,11 @@ export interface WorksheetCatalogCardProps {
    * client-side route to an app route that does not exist (§15.7).
    */
   external?: boolean;
+  /** The Level Set this sheet belongs to (hub sub-category URL) and its link text, e.g. "3 levels". */
+  setHref?: string;
+  setLabel?: string;
+  /** Image alt text when the visible title is shortened (inside a Level Set). Defaults to the title. */
+  imageAlt?: string;
 }
 
 export default function WorksheetCatalogCard({
@@ -95,40 +101,45 @@ export default function WorksheetCatalogCard({
   title,
   levelLabel,
   typeLabel,
-  subject,
   labels,
   printOnly,
   pdfHref,
   answerKeyHref,
   eager = false,
   external = false,
+  setHref,
+  setLabel,
+  imageAlt,
 }: WorksheetCatalogCardProps) {
-  const s = SUBJECT_STYLE[subject];
   const Body = external ? 'a' : Link;
   const bodyProps = external ? { href } : { href, prefetch: false as const };
+  const meta = [levelLabel, typeLabel].filter(Boolean).join(' · ');
 
+  /* 2026-10-18 hub redesign: a quiet catalogue card — white sheet, hairline
+     border, no paper grain, no coloured stripe. The thumbnail's placeholder is
+     paper-coloured so a sheet that has not loaded yet reads as paper, not as a
+     broken coloured block (the old subject panel did). */
   return (
-    <div className="actcat-card group flex flex-col rounded-3xl p-3.5 md:p-4">
+    <div className="wscat-card group flex flex-col rounded-xl bg-white border border-lcs-teal/[0.13] p-2.5 shadow-[0_1px_2px_rgba(20,107,94,0.06)] transition-[border-color,box-shadow] duration-150 hover:border-lcs-teal/35 hover:shadow-[0_6px_18px_-6px_rgba(20,107,94,0.22)]">
       <Body
         {...bodyProps}
-        className="flex flex-col focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream rounded-2xl"
+        className="flex flex-col focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 rounded-lg"
       >
         {/* Thumbnail: the deck's real 480×620 worksheet render (portrait 4/5),
             top-cropped so the title band of the sheet shows. */}
-        <div className={`relative overflow-hidden rounded-2xl ${s.panel} aspect-[4/5] mb-3.5`}>
-          <span className={`absolute left-0 right-0 top-0 z-10 h-1.5 ${s.edge}`} aria-hidden="true" />
+        <div className="relative overflow-hidden rounded-lg bg-[#F6F1E7] ring-1 ring-inset ring-lcs-teal/[0.08] aspect-[4/5] mb-2.5">
           <Image
             src={thumbnailSrc}
-            alt={title}
+            alt={imageAlt || title}
             fill
-            sizes="(max-width:639px) 45vw, (max-width:1023px) 30vw, (max-width:1279px) 30vw, 250px"
+            sizes="(max-width:639px) 46vw, (max-width:1023px) 30vw, (max-width:1279px) 24vw, 230px"
             loading={eager ? 'eager' : 'lazy'}
-            className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+            className="object-cover object-top"
           />
 
           {/* THE FORMAT MARK — one slot, two states. */}
           {printOnly ? (
-            <span className="absolute bottom-2 right-2 z-10 inline-flex items-center gap-1 rounded-full bg-[#FFFDF8] px-2 py-[3px] text-[0.62rem] font-lcsBody font-bold text-lcs-teal shadow-[0_1px_4px_rgba(20,107,94,0.22)] ring-1 ring-lcs-teal/20">
+            <span className="absolute bottom-1.5 right-1.5 z-10 inline-flex items-center gap-1 rounded-full bg-white/95 px-2 py-[3px] text-[0.62rem] font-lcsBody font-bold text-lcs-teal shadow-[0_1px_3px_rgba(20,107,94,0.2)] ring-1 ring-lcs-teal/15">
               <svg viewBox="0 0 24 24" className="w-2.5 h-2.5" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M6 9V2h12v7" />
                 <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
@@ -138,41 +149,37 @@ export default function WorksheetCatalogCard({
             </span>
           ) : (
             <span
-              className="absolute bottom-2 right-2 z-10 grid place-items-center w-8 h-8 rounded-full bg-lcs-teal shadow-[0_2px_6px_rgba(20,107,94,0.3)]"
+              className="absolute bottom-1.5 right-1.5 z-10 grid place-items-center w-7 h-7 rounded-full bg-lcs-teal shadow-[0_2px_6px_rgba(20,107,94,0.3)]"
               aria-label={labels.interactiveMark}
               role="img"
             >
-              <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 ml-0.5 text-lcs-cream" fill="currentColor" aria-hidden="true">
+              <svg viewBox="0 0 24 24" className="w-3 h-3 ml-0.5 text-lcs-cream" fill="currentColor" aria-hidden="true">
                 <path d="M8 5v14l11-7z" />
               </svg>
             </span>
           )}
         </div>
 
-        <h3 className="font-lcsDisplay font-bold text-base md:text-[1.05rem] text-lcs-teal leading-snug mb-2 line-clamp-2 min-h-[2.6rem]">
+        <h3 className="font-lcsBody font-bold text-[0.92rem] md:text-[0.95rem] text-lcs-teal leading-snug line-clamp-2 min-h-[2.75em] mb-1 group-hover:underline decoration-lcs-teal/30 underline-offset-2">
           {title}
         </h3>
 
-        <div className="flex flex-wrap items-center gap-1.5 mb-2">
-          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-lcs-teal/10 text-lcs-teal text-[0.7rem] font-lcsBody font-bold">
-            {levelLabel}
-          </span>
-        </div>
-
-        <p className="font-lcsBody text-xs text-lcs-teal/65 leading-snug mb-3">
-          {typeLabel}
-        </p>
+        {meta && (
+          <p className="font-lcsBody text-[0.75rem] text-lcs-teal/65 leading-snug truncate mb-2">
+            {meta}
+          </p>
+        )}
       </Body>
 
-      {/* Action row — the downloads. Sibling of the body link, never nested. */}
-      <div className="mt-auto pt-2.5 border-t border-lcs-teal/12 flex flex-wrap items-center gap-x-2 gap-y-1 font-lcsBody text-[0.8rem] font-semibold">
+      {/* Action row — the downloads (+ the Level Set this sheet belongs to). Sibling of the body link, never nested. */}
+      <div className="mt-auto pt-1 lg:pt-2 border-t border-lcs-teal/10 flex flex-wrap items-center gap-x-2 gap-y-0 font-lcsBody text-[0.78rem] font-semibold">
         {pdfHref && (
           <a
             href={pdfHref}
             rel="nofollow"
             target="_blank"
             aria-label={labels.pdfAria(title)}
-            className="text-lcs-teal/85 hover:text-lcs-teal hover:underline"
+            className="inline-flex items-center min-h-[40px] lg:min-h-[26px] text-lcs-teal/85 hover:text-lcs-teal hover:underline"
           >
             {labels.pdf}
           </a>
@@ -186,10 +193,19 @@ export default function WorksheetCatalogCard({
             rel="nofollow"
             target="_blank"
             aria-label={labels.answerKeyAria(title)}
-            className="text-lcs-teal/85 hover:text-lcs-teal hover:underline"
+            className="inline-flex items-center min-h-[40px] lg:min-h-[26px] text-lcs-teal/85 hover:text-lcs-teal hover:underline"
           >
             {labels.answerKey}
           </a>
+        )}
+        {setHref && setLabel && (
+          <Link
+            href={setHref}
+            prefetch={false}
+            className="ml-auto inline-flex items-center min-h-[40px] lg:min-h-[26px] whitespace-nowrap text-lcs-coral-deep hover:underline"
+          >
+            {setLabel} →
+          </Link>
         )}
       </div>
     </div>

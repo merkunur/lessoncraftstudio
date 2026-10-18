@@ -84,6 +84,12 @@ export function rowIsPrintOnly(l: HubRow, isPrintOnlyType: (type: string) => boo
 export interface DeckFacts {
   title: string;
   hasAnswerKey: boolean;
+  /**
+   * The deck's OWN theme (`Deck.subjectTags[0]`): null when the deck has none, undefined when
+   * the caller did not read it. A collapsed sheet is not always its parent landing's theme —
+   * measured on en 2026-10-18, 130 were not, and the theme filter showed them anyway.
+   */
+  theme?: string | null;
 }
 
 /**
@@ -118,6 +124,10 @@ export function collapsedSheetSlugs(landings: Landing[]): string[] {
 function withTheme(title: string, themeKey: string, themeLabelOf: (k: string) => string): string {
   const label = themeKey ? themeLabelOf(themeKey) : '';
   if (!label) return title;
+  // A DECK title's " — " suffix is its stored theme name, which can carry a picture-set
+  // variant ("Animals BW 4", "Birds 2"). Show the clean theme name instead (2026-10-18).
+  const i = title.indexOf(' — ');
+  if (i > 0) return `${title.slice(0, i)} — ${label}`;
   return title.toLowerCase().includes(label.toLowerCase()) ? title : `${title} — ${label}`;
 }
 
@@ -138,9 +148,29 @@ export function expandHubRows(
   // whether to offer an Answer key link at all; a missing fact leaves the row
   // intact and the card falls back to the exercise type, which answers the same
   // question exactly (no exercise type mixes the two).
+  /* WHICH theme a row is filed under (2026-10-18). A deck's own tag is the truth
+     wherever the type's tags VARY: read on thumbnails, the en/es/pt treasure-hunt
+     landings name the wrong theme ("Accessories" on an Easter grid) while their
+     deck tags are right. Where every landing deck of a type carries ONE tag, the
+     app stamped it (es chart-count: all "accessories"; pt: all "4th_of_july") and
+     the curated landing coordinate is the truth. */
+  const tagsOfType = new Map<string, Set<string>>();
+  for (const l of landings) {
+    const t = factsBySlug.get(l.canonicalDeckSlug)?.theme;
+    if (!t) continue;
+    if (!tagsOfType.has(l.coordinate.type)) tagsOfType.set(l.coordinate.type, new Set());
+    tagsOfType.get(l.coordinate.type)!.add(t);
+  }
+  const trustTags = (type: string) => (tagsOfType.get(type)?.size ?? 0) > 1;
   const decorate = (l: Landing): HubRow => {
     const f = factsBySlug.get(l.canonicalDeckSlug);
-    return f ? { ...l, hasAnswerKey: f.hasAnswerKey } : l;
+    if (!f) return l;
+    const theme = f.theme && trustTags(l.coordinate.type) ? f.theme : l.coordinate.theme;
+    // A refiled card also drops the landing h1 that names the wrong theme: the card says
+    // what the sheet shows (the landing page itself is left as it is).
+    return theme === l.coordinate.theme
+      ? { ...l, hasAnswerKey: f.hasAnswerKey }
+      : { ...l, coordinate: { ...l.coordinate, theme }, h1: withTheme(f.title, theme, themeLabelOf), hasAnswerKey: f.hasAnswerKey };
   };
   if (factsBySlug.size === 0) return landings;
 
@@ -153,11 +183,14 @@ export function expandHubRows(
       const f = factsBySlug.get(slug);
       if (!f) continue;
       seen.add(slug);
+      // The sheet's own theme when the deck carries a trustworthy one; else the parent's.
+      const theme = f.theme && trustTags(l.coordinate.type) ? f.theme : l.coordinate.theme;
       sheets.push({
         ...l,
+        coordinate: { ...l.coordinate, theme },
         slug,
         variantShape: 'singleton',
-        h1: withTheme(f.title, l.coordinate.theme, themeLabelOf),
+        h1: withTheme(f.title, theme, themeLabelOf),
         canonicalDeckSlug: slug,
         collapseSiblings: [],
         deckHref: deckHrefOf(slug),
@@ -172,6 +205,8 @@ export function expandHubRows(
 export interface LevelSetDeck {
   slug: string;
   title: string;
+  /** The deck's own theme key (`Deck.subjectTags[0]`), null when themeless. */
+  theme?: string | null;
   exerciseMode: string | null;
   hasAnswerKey: boolean;
   /** The deck ships an interactive screen version (its type is in INTERACTIVE_LEVEL_SET_TYPES). */
@@ -211,6 +246,8 @@ export function levelSetRows(
   deckHrefOf: (slug: string) => string,
   modeNameOf: (mode: string) => string | null,
   setWord: string,
+  /** Clean theme name of a theme key; when given, the card title shows it instead of the stored variant name. */
+  themeLabelOf?: (themeKey: string) => string,
 ): HubRow[] {
   // Each card borrows the landing of its OWN variation (same code, e.g. k344),
   // so it carries that variation's mode: the hub arranger spreads by mode, and
@@ -225,9 +262,16 @@ export function levelSetRows(
     const parent = byCode.get(variationCode(d.slug) || '') || typeLandings[0];
     const mode = d.exerciseMode ? modeNameOf(d.exerciseMode) : null;
     const n = levelSetCopy(d.slug);
-    const label = [d.title, mode, n > 1 ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');
+    // With a theme the card is told apart by its theme; a copy number ("Set 112") is
+    // the generator's counter, not something a teacher can use, so it stays off themed cards.
+    const themed = Boolean(themeLabelOf && d.theme);
+    const title = themed ? withTheme(d.title, d.theme as string, themeLabelOf!) : d.title;
+    const label = [title, mode, n > 1 && !themed ? `${setWord} ${n}` : null].filter(Boolean).join(' · ');
     return {
       ...parent,
+      // Its OWN theme, never the borrowed landing's: build-waves picks a theme per
+      // face x level x copy, so 38% of en copies differed from the landing they borrow.
+      coordinate: { ...parent.coordinate, theme: d.theme === undefined ? parent.coordinate.theme : (d.theme || '') },
       slug: d.slug,
       variantShape: 'singleton',
       h1: label,

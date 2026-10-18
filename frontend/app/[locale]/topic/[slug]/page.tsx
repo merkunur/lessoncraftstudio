@@ -747,8 +747,8 @@ export default async function TopicPage({
           heading={`${tLs('heading')} · ${topicName}`}
           intro={tLs('hubIntro')}
           cards={hubLadders.slice(0, 12).map((l, i) => ladderCardProps(l, locale, tLs, lsStrings, i < 4))}
-          allHref={setsIndexPath(locale)}
-          allLabel={tLs('allSets')}
+          allHref={setsIndexPath(locale, axis === 'exercise-type' ? axisKey : undefined)}
+          allLabel={axis === 'exercise-type' ? tLs('allSets') : tLs('backToHub')}
         />
       );
     }

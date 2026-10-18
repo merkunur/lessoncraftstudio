@@ -54,7 +54,7 @@ export default async function Pagination({
       {currentPage > 1 ? (
         <a
           href={urlFor(currentPage - 1)}
-          className="px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors"
+          className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors"
         >
           ← {t('previous')}
         </a>
@@ -68,7 +68,7 @@ export default async function Pagination({
       <div className="hidden sm:flex items-center gap-1">
         {showFirst && (
           <>
-            <a href={urlFor(1)} className="px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
+            <a href={urlFor(1)} className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
               1
             </a>
             {showFirstEllipsis && <span className="px-2 text-ink-500">…</span>}
@@ -76,11 +76,11 @@ export default async function Pagination({
         )}
         {pages.map(p => (
           p === currentPage ? (
-            <span key={p} aria-current="page" className="px-3 py-2 rounded-md text-sm text-ink-900 bg-cream-200 font-medium">
+            <span key={p} aria-current="page" className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-900 bg-cream-200 font-medium">
               {p}
             </span>
           ) : (
-            <a key={p} href={urlFor(p)} className="px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
+            <a key={p} href={urlFor(p)} className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
               {p}
             </a>
           )
@@ -88,7 +88,7 @@ export default async function Pagination({
         {showLast && (
           <>
             {showLastEllipsis && <span className="px-2 text-ink-500">…</span>}
-            <a href={urlFor(pageCount)} className="px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
+            <a href={urlFor(pageCount)} className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors">
               {pageCount}
             </a>
           </>
@@ -104,7 +104,7 @@ export default async function Pagination({
       {currentPage < pageCount ? (
         <a
           href={urlFor(currentPage + 1)}
-          className="px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors"
+          className="inline-flex items-center justify-center min-h-[40px] min-w-[40px] px-3 py-2 rounded-md text-sm text-ink-700 hover:bg-cream-100 transition-colors"
         >
           {t('next')} →
         </a>

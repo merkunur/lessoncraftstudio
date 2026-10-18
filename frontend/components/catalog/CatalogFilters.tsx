@@ -272,15 +272,15 @@ export function CatalogActiveChips({
         <a
           key={i}
           href={c.removeHref}
-          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-lcs-coral-soft text-lcs-coral-deep text-sm font-lcsBody font-semibold hover:bg-lcs-coral-soft/70 transition-colors"
+          className="inline-flex max-w-full items-center gap-1.5 min-h-[40px] lg:min-h-0 px-3 py-1 rounded-full bg-lcs-coral-soft text-lcs-coral-deep text-sm font-lcsBody font-semibold hover:bg-lcs-coral-soft/70 transition-colors"
         >
-          <span>{c.label}</span>
-          <span aria-hidden="true" className="text-lcs-coral-deep/70">✕</span>
+          <span className="truncate">{c.label}</span>
+          <span aria-hidden="true" className="flex-shrink-0 text-lcs-coral-deep/70">✕</span>
         </a>
       ))}
       <a
         href={clearAllHref}
-        className="px-2.5 py-1 text-sm font-lcsBody text-lcs-teal/70 hover:text-lcs-teal hover:underline"
+        className="inline-flex items-center min-h-[40px] lg:min-h-0 px-2.5 py-1 text-sm font-lcsBody text-lcs-teal/70 hover:text-lcs-teal hover:underline"
       >
         {clearAllLabel}
       </a>

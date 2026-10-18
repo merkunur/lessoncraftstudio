@@ -2851,12 +2851,14 @@
     "leaf",
     "lemon",
     "lime",
+    "macaron",
     "muffin",
     "orchard",
     "oven",
     "owl",
     "pancake",
     "penguin",
+    "pepper",
     "phlox",
     "pillow",
     "pizza",
@@ -2874,7 +2876,9 @@
     "stretcher",
     "sweatpants",
     "t-shirt",
+    "tart",
     "taxi",
+    "tissue",
     "toaster",
     "tomato",
     "truck",
@@ -3177,7 +3181,6 @@
     "log",
     "lollipop",
     "lunchbox",
-    "macaron",
     "mailbox",
     "manatee",
     "mango",
@@ -3238,7 +3241,6 @@
     "pegasus",
     "pen",
     "pencil",
-    "pepper",
     "persimmon",
     "petunia",
     "pharmacist",
@@ -3364,7 +3366,6 @@
     "syringe",
     "tablet",
     "tailor",
-    "tart",
     "teapot",
     "telescope",
     "television",
@@ -3378,7 +3379,6 @@
     "tights",
     "timer",
     "tired",
-    "tissue",
     "tongs",
     "tongue",
     "tooth",
@@ -7819,7 +7819,7 @@
      ],
      [
       "s",
-      "o"
+      "a"
      ]
     ],
     "handsaw": [
@@ -8947,21 +8947,6 @@
       "a"
      ]
     ],
-    "macaron": [
-     [
-      "m",
-      "a"
-     ],
-     [
-      "c",
-      "a"
-     ],
-     [
-      "rr",
-      "ó",
-      "n"
-     ]
-    ],
     "macaw": [
      [
       "g",
@@ -9916,8 +9901,9 @@
      ],
      [
       "t",
-      "r",
-      "a"
+      "i",
+      "ó",
+      "n"
      ]
     ],
     "pachycephalosaurus": [
@@ -10279,22 +10265,6 @@
      ],
      [
       "n",
-      "o"
-     ]
-    ],
-    "pepper": [
-     [
-      "p",
-      "i"
-     ],
-     [
-      "m",
-      "i",
-      "e",
-      "n"
-     ],
-     [
-      "t",
       "o"
      ]
     ],
@@ -12615,17 +12585,6 @@
       "e"
      ]
     ],
-    "tart": [
-     [
-      "t",
-      "a",
-      "r"
-     ],
-     [
-      "t",
-      "a"
-     ]
-    ],
     "teapot": [
      [
       "t",
@@ -12809,11 +12768,10 @@
     "tights": [
      [
       "m",
-      "e"
+      "a"
      ],
      [
-      "d",
-      "i",
+      "ll",
       "a",
       "s"
      ]
@@ -12854,21 +12812,6 @@
      ],
      [
       "d",
-      "o"
-     ]
-    ],
-    "tissue": [
-     [
-      "p",
-      "a"
-     ],
-     [
-      "ñ",
-      "u",
-      "e"
-     ],
-     [
-      "l",
       "o"
      ]
     ],
@@ -18200,14 +18143,6 @@
      ]
     },
     {
-     "key": "lime",
-     "word": "limón",
-     "split": [
-      "li",
-      "món"
-     ]
-    },
-    {
      "key": "lemur",
      "word": "lémur",
      "split": [
@@ -18238,6 +18173,14 @@
      "split": [
       "lu",
       "ces"
+     ]
+    },
+    {
+     "key": "lime",
+     "word": "limón",
+     "split": [
+      "li",
+      "món"
      ]
     },
     {
@@ -19257,6 +19200,14 @@
      ]
     },
     {
+     "key": "tights",
+     "word": "mallas",
+     "split": [
+      "ma",
+      "llas"
+     ]
+    },
+    {
      "key": "tongs",
      "word": "pinzas",
      "split": [
@@ -19535,6 +19486,7 @@
     "garland",
     "gate",
     "gerbil",
+    "goggles",
     "gold",
     "grass",
     "gray",
@@ -19567,8 +19519,8 @@
     "liberty",
     "lilac",
     "lily",
-    "lime",
     "lip",
+    "macaron",
     "macaw",
     "magenta",
     "magpie",
@@ -19650,8 +19602,7 @@
     "wrist",
     "writing",
     "yellow",
-    "zinnia",
-    "goggles"
+    "zinnia"
    ],
    "whitelist": {},
    "refuse": {

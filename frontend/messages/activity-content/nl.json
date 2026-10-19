@@ -3131,25 +3131,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Twee alledaagse voorwerpen staan naast elkaar en je kind tikt op het hoogste, het langste of het kortste — door echte, herkenbare plaatjes te vergelijken, zoals een den of een palmboom, een potlood, wasco, stift of liniaal, een wortel of een komkommer, een giraf, een zonnebloem of een kaars. Het is een meetactiviteit voor de kleuterklas die in elke browser speelt, zonder download en zonder account.",
-        "Er wordt niet geteld en er komen geen getallen aan te pas; je kind kijkt gewoon en vergelijkt één eigenschap tegelijk. De opdracht noemt het woord — hoger, langer of korter — en je kind kiest welk van de twee voorwerpen erbij hoort. Hoogte vergelijken bij hoger (een giraf) en lengte vergelijken bij langer (een komkommer) bouwt de meettaal op nog voordat er een liniaal of getal in beeld komt.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: twee voorwerpen rechtstreeks vergelijken op een meetbare eigenschap en beschrijven welk hoger, langer of korter is. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Wat is hoger, langer of korter? Hier staan de dingen op klapkrukjes van verschillende hoogte, of liggen ze op rails een stukje van een beginmuur, en daardoor kunnen hun toppen en uiteinden je foppen: de kleinere palmboom staat misschien op het hogere krukje. Het kind kan een plaatje naar beneden slepen, en het krukje klapt eronder in, of een liggend potlood naar links slepen tot het de muur raakt; daarna tikt het op het gekozen plaatje en drukt op Controleren. Een interactieve meetactiviteit voor kleuters die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere zijn de eerlijke krukjes en de meetbalk. Bij het controleren klappen alle krukjes in en schuift alles wat ligt naar de muur, zodat alles op één vloer of één beginlijn staat, en een gouden balk komt te rusten op de echt hoogste top of het echt langste uiteinde; bij elk korter ding zie je de ruimte tussen de top en de balk. In de meeste rondes laten de krukjes het verkeerde antwoord goed lijken, en al snel zetten kinderen eerst alles op de vloer: dat is de stap van het meten, de uiteinden gelijk zetten. Op een verkeerde keuze antwoordt de balk zelf, en na een tweede verkeerde keuze licht het goede plaatje op. Hetzelfde voorwerp komt in twee of meer maten voor, zo vergelijkt het kind een ding met zichzelf.",
+        "De activiteit sluit aan bij de kerndoelen voor meten: twee voorwerpen rechtstreeks vergelijken op een meetbare eigenschap en zeggen welk er meer van heeft en welk minder. \"Een hele rij\" vraagt naar het hoogste, langste, kortste of grootste van drie of vier. \"Op de vloer\" begint met alles al op één lijn, voor de jongsten. De plaatjes komen uit de geïllustreerde bibliotheek en staan of liggen volgens hun eigen getekende vorm. Geen timer, geen score."
       ],
       "practices": [
-        "Twee voorwerpen vergelijken op hoogte of lengte",
-        "De woorden hoger, langer en korter begrijpen",
-        "Het voorwerp kiezen dat bij het woord in de opdracht past",
-        "Meten met je ogen, zonder te tellen of getallen te gebruiken"
+        "Twee dingen vergelijken op hoogte of lengte",
+        "Voor het vergelijken de onderkanten of uiteinden gelijk zetten",
+        "Het hoogste, langste, kortste of grootste in een rij vinden",
+        "Hoger en langer uit elkaar houden, en lager en korter"
       ],
       "howToPlay": [
-        "Kijk naar de twee voorwerpen en lees of luister naar het woord — hoger, langer of korter.",
-        "Tik op het voorwerp dat bij dat woord past.",
-        "Nog niet goed? Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Kijk naar de vraag: hoger, lager, langer, korter, of het hoogst, langst, kortst of grootst van een rij.",
+        "Sleep een plaatje naar beneden om het krukje in te klappen, of sleep iets wat ligt naar links tegen de muur.",
+        "Tik op het gekozen plaatje en druk op Controleren.",
+        "Kijk naar de balk: hij rust op de hoogste top of bij het langste uiteinde."
       ],
       "learningGoals": [
-        "Het kind vergelijkt twee voorwerpen rechtstreeks en beschrijft welk hoger, langer of korter is.",
-        "Het kind gebruikt meetwoorden om lengte en hoogte te beschrijven.",
-        "Het kind legt de basis voor het meten met maateenheden dat hier later uit groeit."
+        "Twee voorwerpen rechtstreeks vergelijken op hoogte of lengte",
+        "Voor het vergelijken een gemeenschappelijk beginpunt maken",
+        "Het hoogste, langste of kortste in een kleine groep vinden"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

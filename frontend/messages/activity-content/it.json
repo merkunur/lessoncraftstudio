@@ -1673,25 +1673,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Due oggetti di tutti i giorni stanno uno accanto all'altro e il bambino tocca quello più alto, più lungo o più corto — confrontando immagini reali e familiari come un pino o una palma, una matita, un pastello, un pennarello o un righello, una carota o un cetriolo, una giraffa, un girasole o una candela. È un'attività di misura per la scuola dell'infanzia, che si gioca in qualsiasi browser senza download e senza account.",
-        "Non c'è nessun conteggio e non ci sono numeri: il bambino guarda semplicemente e confronta una caratteristica misurabile per volta. La consegna pronuncia la parola — più alto, più lungo o più corto — e il bambino decide quale dei due oggetti corrisponde. Confrontare l'altezza per «più alto» (una giraffa) e la lunghezza per «più lungo» (un cetriolo) costruisce il linguaggio della misura prima ancora di introdurre un righello o un numero.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: confrontare direttamente due oggetti rispetto a una grandezza e dire quale è più alto, più lungo o più corto. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Quale è più alto, più lungo o più corto? Qui le cose stanno su piedistalli pieghevoli di altezze diverse, o sono sdraiate su binari un po’ lontano da un muro di partenza, e così le punte e le estremità possono ingannare l’occhio: la palma più bassa può stare sul piedistallo più alto. Il bambino può trascinare un’immagine in giù e il suo piedistallo si piega sotto, oppure trascinare una matita sdraiata a sinistra finché tocca il muro; poi tocca l’immagine scelta e preme Controlla. È un’attività interattiva di misura per la scuola dell’infanzia, che funziona nel browser senza installare nulla.",
+        "L’invenzione sono i piedistalli onesti e la barra di livello. Al controllo tutti i piedistalli si piegano e tutto ciò che è sdraiato scivola fino al muro, così tutti stanno sullo stesso pavimento o sulla stessa linea di partenza, e una barra dorata si appoggia sulla punta davvero più alta o sull’estremità davvero più lunga; ogni più corto mostra lo spazio tra la sua punta e la barra. Nella maggior parte dei turni i piedistalli fanno sembrare giusta la risposta sbagliata, e presto i bambini portano prima tutto sul pavimento: è il gesto della misura, allineare le estremità. A una scelta sbagliata risponde la barra stessa, e una seconda scelta sbagliata fa brillare l’immagine giusta. Lo stesso oggetto compare in due o più grandezze, così il bambino confronta una cosa con sé stessa.",
+        "L’attività segue le Indicazioni nazionali per la scuola dell’infanzia: confrontare direttamente due oggetti rispetto a una grandezza comune e dire quale ne ha di più e quale di meno. «Una fila intera» chiede il più alto, il più lungo, il più corto o il più grande fra tre o quattro. «Sul pavimento» comincia con tutto già allineato, per i più piccoli. Le immagini vengono dalla biblioteca illustrata e stanno in piedi o sdraiate secondo la propria forma disegnata. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Confrontare due oggetti per altezza o per lunghezza.",
-        "Capire le parole più alto, più lungo e più corto.",
-        "Scegliere l'oggetto che corrisponde alla parola della consegna.",
-        "Misurare con lo sguardo, senza contare e senza numeri."
+        "Confrontare due cose per altezza o per lunghezza",
+        "Allineare le basi o le estremità prima di confrontare",
+        "Trovare il più alto, il più lungo, il più corto o il più grande di una fila",
+        "Distinguere più alto da più lungo, e più basso da più corto"
       ],
       "howToPlay": [
-        "Il bambino guarda i due oggetti e legge o ascolta la parola — più alto, più lungo o più corto.",
-        "Tocca l'oggetto che corrisponde a quella parola.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Guarda la domanda: più alta, più bassa, più lunga, più corta, oppure la più alta, la più lunga, la più corta o la più grande di una fila.",
+        "Trascina un’immagine in giù per piegare il suo piedistallo, o trascina una cosa sdraiata a sinistra fino al muro.",
+        "Tocca l’immagine scelta, poi premi Controlla.",
+        "Guarda la barra: si appoggia sulla punta più alta o sull’estremità più lunga."
       ],
       "learningGoals": [
-        "Confrontare direttamente due oggetti e dire quale è più alto, più lungo o più corto.",
-        "Usare le parole della misura per descrivere lunghezza e altezza.",
-        "Costruire le basi del confronto per grandezza da cui nascerà la misura con le unità."
+        "Confrontare direttamente due oggetti per altezza o lunghezza",
+        "Allineare un punto di partenza comune prima di confrontare",
+        "Trovare il più alto, il più lungo o il più corto di un piccolo gruppo"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

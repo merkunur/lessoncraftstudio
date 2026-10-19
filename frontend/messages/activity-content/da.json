@@ -429,25 +429,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "To hverdagsting står ved siden af hinanden, og barnet trykker på den, der er højest, længst eller kortest — og sammenligner rigtige, velkendte billeder som et grantræ og et palmetræ, en blyant, en farveblyant, en tusch eller en lineal, en gulerod eller en agurk, en giraf, en solsikke eller et stearinlys. Det er en måleaktivitet til børnehaveklassen, der spiller i enhver browser uden download og uden konto.",
-        "Der er ingen tælling og ingen tal; barnet skal bare se og sammenligne én egenskab ad gangen. Opgaven nævner ordet — højest, længst eller kortest — og barnet afgør, hvilken af de to ting der passer. At stille højde op for \"højest\" (en giraf) og længde op for \"længst\" (en agurk) opbygger målesproget, før der overhovedet kommer en lineal eller et tal ind i billedet.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at sammenligne to ting direkte ud fra en egenskab, man kan måle, og beskrive, hvilken der er højest, længst eller kortest. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "Hvilken er højere, længere eller kortere? Her står tingene på klapskamler i forskellige højder, eller ligger på skinner et stykke fra en startvæg, og derfor kan toppene og enderne snyde øjet: den lavere palme står måske på den højere skammel. Barnet kan trække et billede nedad, så skamlen klapper sammen under det, eller trække en liggende blyant til venstre, til den rører væggen; så trykker barnet på det billede, det vælger, og på Tjek. En interaktiv måleaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det nye er de ærlige skamler og målebjælken. Ved tjekket klapper alle skamler sammen, og alt, hvad der ligger, glider hen til væggen, så alle står på samme gulv eller ved samme startlinje, og en gylden bjælke lægger sig på den virkelig højeste top eller den virkelig længste ende; ved hver kortere ses mellemrummet mellem toppen og bjælken. I de fleste runder får skamlerne det forkerte svar til at se rigtigt ud, og snart sætter børnene alt ned på gulvet først: det er netop det at måle, at stille enderne på linje. Et forkert valg besvares af bjælken selv, og efter et andet forkert valg lyser det rigtige billede. Den samme ting vises i to eller flere størrelser, så sammenligner barnet en ting med sig selv.",
+        "Aktiviteten følger Fælles Mål for børnehaveklassen (kompetenceområdet Matematisk opmærksomhed): at sammenligne to ting direkte ud fra en egenskab, man kan måle, og sige, hvilken der har mest og hvilken mindst. \"En hel række\" spørger efter den højeste, længste, korteste eller største af tre eller fire. \"På gulvet\" begynder med alt allerede på linje, til de yngste. Billederne kommer fra det illustrerede bibliotek og står eller ligger efter deres egen tegnede form. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Sammenligne to ting ud fra højde eller længde",
-        "Forstå ordene højest, længst og kortest",
-        "Vælge den ting, der passer til ordet i opgaven",
-        "Måle med øjnene, helt uden at tælle eller bruge tal"
+        "Sammenligne to ting efter højde eller længde",
+        "Stille bunden eller enderne på linje, før man sammenligner",
+        "Finde den højeste, længste, korteste eller største i en række",
+        "Skelne mellem højere og længere, og mellem lavere og kortere"
       ],
       "howToPlay": [
-        "Se på de to ting, og læs eller lyt til ordet — højest, længst eller kortest.",
-        "Tryk på den ting, der passer til ordet.",
-        "Passer det ikke? Prøv igen, så mange gange du vil — der er ingen tid og ingen point."
+        "Se på spørgsmålet: højere, lavere, længere, kortere, eller højest, længst, kortest eller størst i en række.",
+        "Træk et billede nedad, så skamlen klapper sammen, eller træk en liggende ting til venstre hen til væggen.",
+        "Tryk på det billede, du vælger, og så på Tjek.",
+        "Se på bjælken: den lægger sig på den højeste top eller ved den længste ende."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne to ting direkte og beskrive, hvilken der er højest, længst eller kortest",
-        "Barnet kan bruge måleord til at beskrive længde og højde",
-        "Barnet bygger det grundlag for at sammenligne ud fra en egenskab, som måling med enheder vokser ud af"
+        "Sammenligne to ting direkte efter højde eller længde",
+        "Lave et fælles startpunkt, før man sammenligner",
+        "Finde den højeste, længste eller korteste i en lille gruppe"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

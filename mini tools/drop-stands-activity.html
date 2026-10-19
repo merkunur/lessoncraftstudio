@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Drop-Down Stands — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #34 of the one-by-one rebuild — THE DROP-DOWN STANDS (K.MD.A.2,
+       taller, longer, shorter: same floor, same wall, a level beam).
+       Shell → own core → this activity. Bump ?v=N on EVERY change to
+       drop-stands-activity.js / drop-stands-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/drop-stands-core.js?v=1"></script>
+  <script src="/mini-tools/drop-stands-activity.js?v=1"></script>
+  <script>
+    LCS.mount(DropStandsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

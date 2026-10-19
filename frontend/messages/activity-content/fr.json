@@ -2538,24 +2538,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Deux objets du quotidien sont placés côte à côte et l'enfant touche le plus grand, le plus long ou le plus court — en comparant de vraies images familières : un pin ou un palmier, un crayon, un feutre ou une règle, une carotte ou un concombre, une girafe, un tournesol ou une bougie. C'est une activité de grandeurs de maternelle, qui se joue dans n'importe quel navigateur, sans téléchargement et sans compte.",
-        "Il n'y a ni comptage ni nombres : l'enfant regarde et compare une seule grandeur à la fois. La consigne nomme le mot — plus grand, plus long ou plus court — et l'enfant décide lequel des deux objets convient. Aligner la hauteur pour « plus grand » (une girafe) et la longueur pour « plus long » (un concombre) construit le vocabulaire de la mesure bien avant d'introduire une règle ou un nombre. L'activité respecte les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Laquelle est la plus haute, la plus longue ou la plus courte ? Ici, les choses sont posées sur des socles pliants de hauteurs différentes, ou couchées sur des rails à quelque distance d’un mur de départ, et leurs sommets ou leurs bouts peuvent tromper l’œil : le plus petit palmier est peut-être sur le socle le plus haut. L’enfant peut tirer une image vers le bas et son socle se plie sous elle, ou tirer un crayon couché vers la gauche jusqu’au mur, puis il touche l’image choisie et appuie sur Vérifier. C’est une activité de mesure interactive pour la maternelle, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’invention : des socles honnêtes et une barre de niveau. À la vérification, tous les socles se plient et tout ce qui est couché glisse jusqu’au mur ; tous partagent alors le même sol ou la même ligne de départ, et une barre dorée vient se poser sur le sommet vraiment le plus haut ou le bout vraiment le plus long ; chacun des plus petits laisse voir l’écart entre son sommet et la barre. Dans la plupart des manches, les socles font paraître juste la mauvaise réponse, et les enfants ramènent vite tout au sol d’abord : c’est le geste de la mesure, aligner les bouts. À un mauvais choix répond la barre elle-même, et un deuxième mauvais choix fait briller la bonne image. Le même objet apparaît en deux tailles ou plus : l’enfant compare donc un objet avec lui-même.",
+        "L’activité suit les programmes de l’école maternelle (explorer des grandeurs) : comparer directement deux objets selon une grandeur commune et dire lequel en a le plus et lequel en a le moins. « Toute une rangée » demande le plus haut, le plus long, le plus court ou le plus grand de trois ou quatre. « Par terre » commence avec tout déjà aligné, pour les plus jeunes. Les images viennent de la bibliothèque illustrée et se posent debout ou couchées selon leur propre forme dessinée. Pas de chrono, pas de score."
       ],
       "practices": [
-        "Comparer deux objets selon leur hauteur ou leur longueur.",
-        "Comprendre les mots plus grand, plus long et plus court.",
-        "Choisir l'objet qui correspond au mot de la consigne.",
-        "Mesurer en regardant, sans compter ni utiliser de nombres."
+        "Comparer deux objets par la hauteur ou par la longueur",
+        "Aligner les bases ou les bouts avant de comparer",
+        "Trouver le plus haut, le plus long, le plus court ou le plus grand d’une rangée",
+        "Distinguer plus haut et plus long, moins haut et plus court"
       ],
       "howToPlay": [
-        "Regarde les deux objets et lis ou écoute le mot : plus grand, plus long ou plus court.",
-        "Touche l'objet qui correspond à ce mot.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Regarde la question : plus haute, moins haute, plus longue, plus courte, ou la plus haute, la plus longue, la plus courte ou la plus grande d’une rangée.",
+        "Tire une image vers le bas pour plier son socle, ou tire une chose couchée vers la gauche jusqu’au mur.",
+        "Touche l’image choisie, puis appuie sur Vérifier.",
+        "Regarde la barre : elle se pose sur le sommet le plus haut ou le bout le plus long."
       ],
       "learningGoals": [
-        "Comparer directement deux objets et dire lequel est le plus grand, le plus long ou le plus court.",
-        "Utiliser les mots de la mesure pour décrire une longueur et une hauteur.",
-        "Construire la base du « comparer selon une grandeur » d'où naîtra plus tard la mesure avec des unités."
+        "Comparer directement deux objets par la hauteur ou la longueur",
+        "Aligner un point de départ commun avant de comparer",
+        "Trouver le plus haut, le plus long ou le plus court d’un petit ensemble"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

@@ -2719,25 +2719,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Dos objetos cotidianos se colocan lado a lado y el niño o la niña toca el más alto, el más largo o el más corto, comparando dibujos reales y conocidos: un pino o una palmera, un lápiz, un crayón, un marcador o una regla, una zanahoria o un pepino, una jirafa, un girasol o una vela. Es una actividad de medición para preescolar que se juega en cualquier navegador, sin descargar nada y sin crear cuenta.",
-        "No hay que contar ni usar números; el niño o la niña simplemente observa y compara un solo atributo a la vez. La instrucción dice la palabra —más alto, más largo o más corto— y hay que decidir cuál de los dos objetos le queda. Alinear la altura para «más alto» (una jirafa) y el largo para «más largo» (un pepino) construye el vocabulario de la medición antes de presentar cualquier regla o número.",
-        "Está alineada con los planes y programas de estudio (SEP): comparar dos objetos de manera directa por un atributo medible y describir cuál es más alto, más largo o más corto. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "¿Cuál es más alto, más largo o más corto? Aquí las cosas están sobre bases plegables de distintas alturas, o acostadas en rieles un poco lejos de una pared de inicio, así que sus puntas y sus extremos pueden engañar a la vista: la palmera más baja puede estar en la base más alta. El niño puede arrastrar una imagen hacia abajo y su base se pliega debajo, o arrastrar un lápiz acostado hacia la izquierda hasta que toque la pared; luego toca la imagen que elige y oprime Revisar. Es una actividad interactiva de medición para preescolar que funciona en el navegador, sin instalar nada.",
+        "La invención son las bases honestas y la barra de nivel. Al revisar, todas las bases se pliegan y todo lo acostado se desliza hasta la pared, así todo queda sobre un mismo piso o una misma línea de inicio, y una barra dorada se apoya en la punta realmente más alta o en el extremo realmente más largo; cada uno más corto muestra el espacio entre su punta y la barra. En la mayoría de las rondas las bases hacen que la respuesta equivocada parezca correcta, y pronto los niños bajan todo al piso primero: ese es el paso de medir, alinear los extremos. A una elección equivocada contesta la propia barra, y una segunda elección equivocada hace brillar la imagen correcta. El mismo objeto aparece en dos o más tamaños, así el niño compara una cosa consigo misma.",
+        "Está alineada con los planes y programas de estudio de la SEP para preescolar: comparar directamente dos objetos por una magnitud en común y decir cuál tiene más y cuál tiene menos. \"Una fila completa\" pide el más alto, el más largo, el más corto o el más grande de tres o cuatro. \"En el piso\" empieza con todo ya alineado, para los más pequeños. Las imágenes vienen de la biblioteca ilustrada y se paran o se acuestan según su propia forma dibujada. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Comparar dos objetos por su altura o su largo.",
-        "Entender las palabras más alto, más largo y más corto.",
-        "Elegir el objeto que corresponde a la palabra de la instrucción.",
-        "Medir con la mirada, sin contar ni usar números."
+        "Comparar dos cosas por su altura o por su largo",
+        "Alinear las bases o los extremos antes de comparar",
+        "Encontrar el más alto, el más largo, el más corto o el más grande de una fila",
+        "Distinguir más alto de más largo, y más bajo de más corto"
       ],
       "howToPlay": [
-        "Mira los dos objetos y lee o escucha la palabra: más alto, más largo o más corto.",
-        "Toca el objeto que le queda a esa palabra.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Mira la pregunta: más alta, más baja, más larga, más corta, o la más alta, la más larga, la más corta o la más grande de una fila.",
+        "Arrastra una imagen hacia abajo para plegar su base, o arrastra una cosa acostada hacia la izquierda hasta la pared.",
+        "Toca la imagen que eliges y oprime Revisar.",
+        "Mira la barra: se apoya en la punta más alta o en el extremo más largo."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede comparar dos objetos y decir cuál es más alto, más largo o más corto.",
-        "El niño o la niña aprende a usar palabras de medición para describir el largo y la altura.",
-        "Construye la base de comparar por un atributo, de donde después surge medir con unidades."
+        "Comparar directamente dos objetos por su altura o su largo",
+        "Alinear un punto de inicio común antes de comparar",
+        "Encontrar el más alto, el más largo o el más corto de un grupo pequeño"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

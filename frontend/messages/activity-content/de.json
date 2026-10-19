@@ -3155,26 +3155,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Zwei alltägliche Gegenstände stehen nebeneinander, und das Kind tippt auf den höheren, den längeren oder den kürzeren – verglichen werden echte, vertraute Bilder wie eine Tanne und eine Palme, ein Bleistift, Buntstift, Filzstift oder Lineal, eine Karotte oder Gurke, eine Giraffe, eine Sonnenblume oder eine Kerze. Diese Aktivität zum Längenvergleich für den Kindergarten läuft interaktiv in jedem Browser, ohne Download und ohne Konto.",
-        "Es wird nicht gezählt und es gibt keine Zahlen; das Kind schaut einfach hin und vergleicht jeweils ein messbares Merkmal. Die Aufforderung nennt das Wort – höher, länger oder kürzer – und das Kind entscheidet, welcher der beiden Gegenstände passt. Höhe für „höher\" (eine Giraffe) und Länge für „länger\" (eine Gurke) nebeneinanderzulegen, baut den Wortschatz des Messens auf, noch bevor ein Lineal oder eine Zahl ins Spiel kommt.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet – zwei Gegenstände direkt nach einem messbaren Merkmal vergleichen und beschreiben, welcher höher, länger oder kürzer ist. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Was ist größer, länger oder kürzer? Hier stehen die Dinge auf Klapp-Podesten verschiedener Höhe oder liegen auf Schienen ein Stück von einer Startwand entfernt, und so können ihre Spitzen und Enden täuschen: Die kleinere Palme steht vielleicht auf dem höheren Podest. Das Kind kann ein Bild nach unten ziehen, und sein Podest klappt darunter zusammen, oder einen liegenden Bleistift nach links ziehen, bis er die Wand berührt; dann tippt es auf das gewählte Bild und drückt Prüfen. Eine interaktive Mess-Übung für den Kindergarten, die im Browser läuft, ohne Installation.",
+        "Das Besondere sind die ehrlichen Podeste und der Messbalken. Beim Prüfen klappen alle Podeste zusammen und alles Liegende rutscht an die Wand, so stehen alle auf einem Boden oder an einer Startlinie, und ein goldener Balken legt sich auf die wirklich höchste Spitze oder das längste Ende; bei jedem kürzeren sieht man die Lücke bis zum Balken. In den meisten Runden lassen die Podeste die falsche Antwort richtig aussehen, und so holen die Kinder bald alles zuerst auf den Boden: Genau das ist der Schritt beim Messen, die Enden auf eine Linie bringen. Auf eine falsche Wahl antwortet der Balken selbst, und nach einer zweiten falschen Wahl leuchtet das richtige Bild. Derselbe Gegenstand erscheint in zwei oder mehr Größen, so vergleicht das Kind ein Ding mit sich selbst.",
+        "Die Übung folgt den Lehrplänen im Bereich Größen und Messen: zwei Gegenstände direkt nach einem messbaren Merkmal vergleichen und sagen, welcher mehr davon hat und welcher weniger. „Eine ganze Reihe“ fragt nach dem größten, kleinsten, längsten oder kürzesten von drei oder vier. „Auf dem Boden“ beginnt mit allem schon auf einer Linie, für die Jüngsten. Die Bilder stammen aus der illustrierten Bibliothek und stehen oder liegen entlang ihrer eigenen gezeichneten Form. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei Gegenstände nach Höhe oder Länge vergleichen.",
-        "Die Wörter höher, länger und kürzer verstehen.",
-        "Den Gegenstand wählen, der zum Wort in der Aufforderung passt.",
-        "Mit dem Auge vergleichen, ganz ohne Zählen und ohne Zahlen.",
-        "Ein Merkmal nach dem anderen betrachten, statt mehrere durcheinanderzubringen."
+        "Zwei Dinge nach Höhe oder Länge vergleichen",
+        "Vor dem Vergleichen die Unterkanten oder Enden auf eine Linie bringen",
+        "In einer Reihe das höchste, längste, kürzeste oder größte finden",
+        "Größer und länger unterscheiden, ebenso kleiner und kürzer"
       ],
       "howToPlay": [
-        "Schau dir die zwei Gegenstände an und lies oder höre das Wort – höher, länger oder kürzer.",
-        "Tippe auf den Gegenstand, der zu diesem Wort passt.",
-        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Schau auf die Frage: größer, kleiner, länger, kürzer, oder in der Reihe am größten, am kleinsten, am längsten oder am kürzesten.",
+        "Zieh ein Bild nach unten, damit sein Podest zusammenklappt, oder zieh ein liegendes Ding nach links an die Wand.",
+        "Tippe auf das gewählte Bild und drück Prüfen.",
+        "Schau auf den Balken: Er liegt auf der höchsten Spitze oder am längsten Ende."
       ],
       "learningGoals": [
-        "Zwei Gegenstände direkt vergleichen und beschreiben, welcher höher, länger oder kürzer ist.",
-        "Mit den richtigen Wörtern Länge und Höhe beschreiben.",
-        "Die Grundlage des Vergleichens nach einem Merkmal legen, aus der später das Messen mit Einheiten erwächst."
+        "Zwei Gegenstände direkt nach Höhe oder Länge vergleichen",
+        "Vor dem Vergleichen einen gemeinsamen Anfang herstellen",
+        "In einer kleinen Menge das höchste, längste oder kürzeste finden"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

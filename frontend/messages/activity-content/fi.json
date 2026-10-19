@@ -981,25 +981,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Kokonaisuus on 10, ja lukukolmion toinen osa on jo täytetty — vaikkapa 7 — ja lapsi napauttaa tyhjää osaa lisätäkseen laskuhelmiä, kunnes molemmat osat yhdessä muodostavat kymmenen. Tämä on vuorovaikutteinen esiopetuksen matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä ja ilman rekisteröitymistä.",
-        "Jokaisella luvulla 1–9 on kaveri, joka täydentää sen kymmeneksi, ja tässä lapsi rakentaa tuon kaverin lisäämällä helmiä yksi kerrallaan ja katsomalla, miten kaksi osaa kasvavat kymmeneen — ei lukemalla valmista vastausta paperilta. Lukukolmio itse on vastauspinta: lapsi lopettaa, kun molemmat osat tekevät tasan kymmenen, joten liian pieni tai liian suuri osa on helppo huomata ja korjata.",
-        "Harjoitus on OPS 2014:n mukainen ja tukee taitoa löytää luku, joka täydentää annetun luvun kymmeneksi. Lapsi saa edetä rauhassa omaan tahtiinsa — ei ajastinta eikä pisteitä."
+        "Maailmanpyörässä on tasan kymmenen paikkaa, ja muutama matkustaja istuu jo kyydissä, esimerkiksi 7. Lapsi säätää luvun portin säätimeen, vetää vivusta, ja niin monta maatilan eläintä nousee kyytiin yksi kerrallaan, kun pyörä naksahtaa joka kerta yhden paikan eteenpäin. Sitten jarru vapautetaan. Tämä on vuorovaikutteinen esiopetuksen matematiikkatehtävä, joka toimii selaimessa ilman asennusta.",
+        "Erikoista on, että pyörä tarkistaa vastauksen tasapainollaan. Täysi pyörä kiertää hitaan kierroksen, ja reunan valot juoksevat ympäri. Jos matkustajia on liian vähän, painava puoli laskeutuu alas: pyörä keinuu ja pysähtyy niin, että tyhjät paikat ovat ylimpänä, missä kaikki voivat laskea ne. Jos heitä on liikaa, kyytiin mahtumattomat jäävät seisomaan laiturille; jarru ei vapaudu, ja kaikki nousevat pois, jotta lapsi voi pienentää lukua. Paikat ovat kahta väriä viiden ryhmissä, joten 7 näkyy viitenä ja kahtena lisää. Toisella yrityksellä tyhjät paikat jatkavat laskemista (8, 9, 10), ja säätimen nuoli näyttää, mihin suuntaan lukua pitää muuttaa – ei koskaan itse lukua. Pyörän vieressä oleva hajotelma näyttää jokaisen kyydin, kuten 10 = 7 + 3, ja kokonainen ”Tee 10” -kierros alkaa kerran jokaisesta luvusta 1–9. Toisissa kierroksissa pyörät ovat pienempiä, tai kaikki paikat on täytetty kahdenlaisilla matkustajilla ja kysytään kokonaisuutta: 5 ja 3 on yhteensä 8.",
+        "Harjoitus on OPS 2014:n mukainen ja tukee taitoa löytää luku, joka täydentää annetun luvun 1–9 kymmeneksi; lisätasoina ovat hajotelmat viiteen ja kymmeneen asti. Opettaja valitsee 5:een asti, 6–9 tai Tee 10 (oletus) ja voi kytkeä paikkanumerot päälle, jolloin lapsi voi jatkaa laskemista pyörän ympäri. Tivoli on vapaata leikkiä: mikä tahansa pyörä 2–10 paikalla ja niin monta matkustajaa kuin haluaa. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Näkee kokonaisuuden 10 jaettuna kahteen osaan lukukolmiossa.",
-        "Lisää laskuhelmiä tyhjään osaan yksi kerrallaan.",
-        "Löytää kaverin, joka täydentää kymmeneksi (7 ja 3, 4 ja 6).",
-        "Tietää, milloin molemmat osat yhdessä tekevät tasan 10."
+        "Sen luvun löytäminen, joka yhdessä annetun luvun 1–9 kanssa on 10",
+        "Sen näkeminen, onko yritys liian pieni vai liian suuri",
+        "Laskemisen jatkaminen kyydissä jo olevista matkustajista",
+        "Jokaisen kyydin lukeminen hajotelmana, kuten 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Katso lukukolmiota — kokonaisuus on 10 ja toinen osa on täytetty.",
-        "Napauta tyhjää osaa lisätäksesi helmiä, kunnes molemmat osat tekevät 10, ja paina sitten Tarkista.",
-        "Liikaa vai liian vähän? Lisää tai poista helmiä ja tarkista uudelleen — ei ajastinta eikä pisteitä."
+        "Katso pyörässä jo olevia matkustajia ja keskellä olevaa lukua.",
+        "Säädä luku nuolilla ja vedä portin vivusta: niin monta matkustajaa nousee kyytiin.",
+        "Vapauta jarru. Täysi pyörä pyörii; tyhjät paikat tai laiturille jääneet matkustajat näyttävät, mitä pitää muuttaa.",
+        "Napauta juuri kyytiin noussutta matkustajaa, niin hän nousee pois. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi löytää luvun, joka muodostaa annetun luvun kanssa kymmenen.",
-        "Lapsi rakentaa kympin kaverit lisäämällä helmiä, ei ulkoa opettelemalla.",
-        "Lapsi luo pohjaa kymmeneen täydentämisen yhteenlaskustrategialle."
+        "Lapsi löytää luvun, joka yhdessä minkä tahansa luvun 1–9 kanssa on 10",
+        "Lapsi jakaa enintään kymmenen suuruiset luvut kahteen osaan",
+        "Lapsi oppii kaikki kymppikaverit"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

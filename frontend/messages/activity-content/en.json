@@ -2877,25 +2877,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "The whole is 10 and one part of the number bond is already filled — say 7 — and children tap the empty part to add counters until both parts together make 10. It's an interactive Kindergarten math activity that runs right in the browser with no account and no sign-up.",
-        "Every number from 1 to 9 has a partner that completes ten, and here the child builds that partner by adding counters one at a time and watching the two parts grow to 10 — not by reading a fact off a page. The bond itself is the answer surface; the child stops when both parts make exactly ten, so a too-small or too-big part is easy to feel and fix.",
-        "It is aligned to Common Core K.OA.A.4 — finding the number that makes 10 when added to a given number. No timer, no score — just calm, playful practice."
+        "A Ferris wheel has exactly ten seats, and some riders are already on — say 7. The child sets a number on the boarding gate's dial, pulls the gate lever, and that many farm animals hop in one by one while the wheel clicks round a seat each time. Then the brake comes off. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that the wheel checks the answer by balancing. A full wheel turns a slow circle with its rim lights chasing. Too few riders, and the heavy side swings down: the wheel rocks and settles with the empty seats at the very top, where everyone can count them. Too many, and the riders who do not fit are left standing on the platform; the brake will not release, and they all hop back off so the child can turn the dial down. The seats come in two colours of five, so 7 reads as five and two more. After a second try the empty seats count on (8, 9, 10) and the dial's arrow shows which way to turn it — never the number itself. The number bond beside the wheel records each ride, such as 10 = 7 + 3, and a pass through Make 10 starts once from every number from 1 to 9. Other rounds use smaller wheels, or fill every seat with two kinds of rider and ask for the whole: 5 and 3 make 8.",
+        "It is aligned to Common Core K.OA.A.4 — finding the number that makes 10 when added to a given number from 1 to 9 — with number bonds to 5 and within 10 as extra levels. Teachers choose Up to 5, 6 to 9 or Make 10 (the default), and can switch on seat numbers so a child can count on round the wheel. \"Fairground\" is open play: any wheel from 2 to 10 seats and any number of riders. No timer, no score."
       ],
       "practices": [
-        "See the whole 10 split into two parts in a number bond",
-        "Add counters to the empty part one at a time",
-        "Find the partner that completes ten (7 and 3, 4 and 6)",
-        "Know when both parts together make exactly 10"
+        "Finding the number that makes 10 with a given number from 1 to 9",
+        "Seeing whether a guess is too few or too many",
+        "Counting on from the riders already aboard",
+        "Reading each ride as a number bond such as 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Look at the number bond — the whole is 10 and one part is filled.",
-        "Tap the empty part to add counters until both parts make 10, then press Check.",
-        "Too many or too few? Add or remove counters and check again — there is no timer and no score."
+        "Look at the riders already on the wheel and the number in the middle.",
+        "Turn the dial with the arrows, then pull the gate lever: that many riders hop on.",
+        "Release the brake. A full wheel spins; empty seats or riders left standing show what to change.",
+        "Tap a rider who just got on to let them off again. No timer, no score."
       ],
       "learningGoals": [
-        "Find the number that makes 10 with a given number — the focus of Common Core K.OA.A.4",
-        "Build the partners of ten by adding counters, not by memorizing",
-        "Lay the groundwork for the make-a-ten addition strategy"
+        "Find the number that makes 10 with any number from 1 to 9 — the focus of Common Core K.OA.A.4",
+        "Decompose numbers up to 10 into two parts",
+        "Learn every pair that makes ten"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

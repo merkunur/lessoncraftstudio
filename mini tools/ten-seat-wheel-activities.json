@@ -1,0 +1,66 @@
+[
+ {
+  "id": "numberbond.make-ten.k-oa-a-4",
+  "tool": "ten-seat-wheel-activity",
+  "task_template": "ten-seat-wheel",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.4",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "levels": [
+    "upto5",
+    "six9",
+    "ten"
+   ],
+   "default_level": "ten",
+   "seat_numbers": [
+    "off",
+    "on"
+   ]
+  },
+  "theme": "farm animals",
+  "slug": {
+   "en": "make-ten-number-bond",
+   "de": "zehn-voll-machen-zahlenhaus-zehnerfreunde",
+   "es": "amigos-del-10-descomposicion",
+   "pt": "amigos-do-10-decomposicao",
+   "fr": "les-amis-de-10-decomposition",
+   "it": "amici-del-10-coppie-che-formano-dieci",
+   "nl": "splitsen-tot-10-getalsplitsing",
+   "sv": "tiokompisar-gor-10",
+   "da": "venner-til-10",
+   "no": "tiervenner-tallbinding",
+   "fi": "kympin-kaverit"
+  },
+  "page_title": {
+   "en": "Make 10 — Number Bonds to Ten (Kindergarten)",
+   "de": "Zahlenhaus der 10 – Zehnerfreunde online üben",
+   "es": "Amigos del 10: descomposición del número para Educación Infantil (5-6 años)",
+   "pt": "Amigos do 10: atividade de decomposição para a educação infantil (5–6 anos)",
+   "fr": "Maison des nombres – les amis de 10, exercice en ligne (GS)",
+   "it": "Forma il 10: gli amici del 10 per la scuola dell'infanzia (5-6 anni)",
+   "nl": "Maak 10: splitsen tot 10 voor kleuters (groep 2) — rekenactiviteit",
+   "sv": "Gör 10 – tiokompisar i förskoleklass (5–6 år)",
+   "da": "Lav 10 — venner til 10 for børnehaveklassen (5–6 år)",
+   "no": "Lag 10 – tiervenner for barnehage og 1. trinn (5–6 år)",
+   "fi": "Kympin kaverit – esiopetuksen matematiikkaharjoitus (5–6-vuotiaat)"
+  },
+  "page_intro": {
+   "en": "An interactive Kindergarten math activity: the whole is 10 and one part is filled — tap the empty part of the number bond to add counters until both parts make 10. Find the number that makes 10. Common Core K.OA.A.4.",
+   "de": "Zahlenhäuser bis 10: das Zahlenhaus der Zehn füllen und Zehnerfreunde entdecken – ideal für Vorschule und Schulstart. Online, ohne Anmeldung.",
+   "es": "Una actividad de matemáticas interactiva para preescolar: descubre los amigos del 10 completando la parte que falta del diagrama parte-parte-todo, a tu ritmo y sin prisas. Alineada a los planes y programas de estudio de la SEP: para cualquier número del 1 al 9, encuentra el número que forma 10.",
+   "pt": "Atividade alinhada à BNCC: descubra os amigos do 10 montando o número juntos, no seu ritmo. Uma atividade interativa de matemática para a educação infantil, com fichas para tocar e contar sem pressa.",
+   "fr": "Comme dans la maison des nombres : trouver les deux parties qui font 10, les amis de 10. En ligne, sans inscription.",
+   "it": "Un'attività interattiva allineata alle Indicazioni nazionali: i bambini scoprono gli amici del 10 toccando per aggiungere le pedine finché le due parti formano l'intero. Con tempo e tranquillità, senza fretta e senza punteggi, ogni tentativo è un piccolo passo per imparare.",
+   "nl": "In deze activiteit (afgestemd op de SLO-kerndoelen) ontdekken kleuters spelenderwijs welk getal samen met een ander getal 10 maakt. Tik op het lege deel, voeg fiches toe en zoek samen de vrienden van 10 — zonder druk.",
+   "sv": "En interaktiv matteaktivitet där barnet hittar tiokompisen och delar upp talet 10 i två delar. Aktiviteten följer Lgr22 och passar barn i förskoleklass som börjar utforska hur tal kan byggas ihop.",
+   "da": "I denne aktivitet (Fælles Mål) finder børnene tallet, der mangler for at lave 10. Det er en interaktiv matematikaktivitet til børnehaveklassen, hvor man roligt kan prøve sig frem og lære vennerne til 10 i sit eget tempo.",
+   "no": "Interaktiv matematikkaktivitet der barna øver på tiervenner: de fyller den tomme delen til de to delene blir 10. Aktiviteten er knyttet til læreplanen LK20, og passer fint for barn på 5–6 år som tar sine første steg med tall – i et trygt tempo og helt uten stress.",
+   "fi": "Interaktiivinen esiopetuksen matematiikkaharjoitus, jossa lapsi etsii kympin kaverit eli luvun 10 hajotelmat. Harjoitus tukee OPS 2014 -tavoitteita: lapsi löytää jokaiselle luvulle 1–9 sen parin, joka täydentää sen kymmeneksi — omaan tahtiin ja ilman kiirettä."
+  },
+  "kid_prompt_template": "make-ten"
+ }
+]

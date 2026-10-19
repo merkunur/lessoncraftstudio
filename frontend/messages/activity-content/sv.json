@@ -1545,24 +1545,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Helheten är 10 och en del av talkamraten är redan ifylld — säg 7 — och barnet trycker på den tomma delen för att lägga till markörer tills båda delarna tillsammans blir 10. Det är en interaktiv matteaktivitet för förskoleklass som körs direkt i webbläsaren, utan konto och utan registrering.",
-        "Varje tal från 1 till 9 har en kompis som tillsammans bildar tio, och här bygger barnet den kompisen genom att lägga till en markör i taget och se de två delarna växa mot 10 — inte genom att läsa av ett färdigt svar. Själva talkamraten är svarsytan; barnet stannar när båda delarna blir precis tio, så en del som är för liten eller för stor är lätt att känna och rätta till. Aktiviteten övar tiokompisar enligt Lgr22 och passar barn i förskoleklass (5–6 år) som börjar utforska hur tal kan byggas ihop. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Ett pariserhjul har exakt tio platser, och några passagerare sitter redan i, till exempel 7. Barnet ställer in ett tal på grindens ratt, drar i grindspaken, och så många bondgårdsdjur kliver på ett i taget medan hjulet tickar fram en plats varje gång. Sedan släpps bromsen. Det är en interaktiv matteaktivitet för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är att hjulet kontrollerar svaret genom sin balans. Fullt snurrar det ett långsamt varv medan lamporna på kanten jagar varandra. Är passagerarna för få sjunker den tunga sidan nedåt: hjulet gungar och stannar med de tomma platserna högst upp, där alla kan räkna dem. Är de för många blir de som inte får plats stående på plattformen; bromsen släpper inte, och alla kliver av igen så att barnet kan vrida ner talet. Platserna har två färger i grupper om fem, så 7 läses som fem och två till. Efter det andra försöket räknar de tomma platserna vidare (8, 9, 10) och en pil på ratten visar åt vilket håll talet ska vridas – aldrig själva talet. Uppdelningen bredvid hjulet visar varje tur, till exempel 10 = 7 + 3, och en hel omgång av ”Bilda 10” börjar en gång med varje tal från 1 till 9. Andra omgångar har mindre hjul, eller fyller alla platser med två sorters passagerare och frågar efter helheten: 5 och 3 blir 8.",
+        "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att hitta talet som tillsammans med ett givet tal från 1 till 9 blir 10, med uppdelningar upp till 5 och upp till 10 som extra nivåer. Läraren väljer Upp till 5, 6 till 9 eller Bilda 10 (förvalt) och kan slå på platsnummer så att barnet kan räkna vidare runt hjulet. Tivolit är öppen lek: vilket hjul som helst från 2 till 10 platser och hur många passagerare som helst. Ingen timer, inga poäng."
       ],
       "practices": [
-        "Se helheten 10 uppdelad i två delar i en talkamrat",
-        "Lägga till markörer i den tomma delen, en i taget",
-        "Hitta tiokompisen som bildar tio (7 och 3, 4 och 6)",
-        "Veta när båda delarna tillsammans blir precis 10"
+        "Hitta talet som tillsammans med ett tal från 1 till 9 blir 10",
+        "Se om ett försök är för litet eller för stort",
+        "Räkna vidare från passagerarna som redan sitter i",
+        "Läsa varje tur som en uppdelning, till exempel 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Titta på talkamraten — helheten är 10 och en del är ifylld.",
-        "Tryck på den tomma delen för att lägga till markörer tills båda delarna blir 10, och tryck sedan på Kontrollera.",
-        "För många eller för få? Lägg till eller ta bort markörer och kontrollera igen — det finns ingen timer och inga poäng."
+        "Titta på passagerarna som redan sitter i hjulet och talet i mitten.",
+        "Ställ in talet med pilarna och dra i grindspaken: så många passagerare kliver på.",
+        "Släpp bromsen. Ett fullt hjul snurrar; tomma platser eller passagerare som blir stående visar vad du ska ändra.",
+        "Tryck på en passagerare som just klev på för att låta den kliva av igen. Ingen timer, inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan hitta det tal som bildar 10 tillsammans med ett givet tal",
-        "Barnet bygger tiokompisarna genom att lägga till markörer, inte genom att memorera",
-        "Barnet lägger grunden för tiotalsövergångsstrategin i addition"
+        "Barnet hittar talet som tillsammans med ett tal från 1 till 9 blir 10",
+        "Barnet delar upp tal upp till 10 i två delar",
+        "Barnet lär sig alla tiokompisar"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

@@ -2194,25 +2194,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "O todo é 10 e uma das partes da ligação numérica já vem preenchida — digamos, 7 — e a criança toca na parte vazia para acrescentar fichas até que as duas partes juntas formem 10. É uma atividade de matemática interativa para a educação infantil, que roda direto no navegador, sem cadastro e sem precisar de conta.",
-        "Cada número de 1 a 9 tem um amigo que completa o dez, e aqui a criança constrói esse amigo acrescentando fichas uma a uma e vendo as duas partes crescerem até 10 — e não lendo um resultado pronto numa folha. A própria ligação é a superfície da resposta; a criança para quando as duas partes formam exatamente dez, então uma parte pequena demais ou grande demais é fácil de sentir e de corrigir.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao descobrir qual número, somado a um número dado, completa 10. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+        "Uma roda-gigante tem exatamente dez assentos, e alguns passageiros já subiram — por exemplo, 7. A criança ajusta um número no mostrador da entrada, puxa a alavanca, e essa quantidade de animais da fazenda sobe um por um enquanto a roda avança um assento de cada vez. Depois o freio é solto. É uma atividade interativa de matemática para a pré-escola, que funciona no navegador, sem instalar nada.",
+        "A novidade é que a roda confere a resposta pelo equilíbrio. Cheia, ela dá uma volta lenta e as luzes da borda acendem em sequência. Se faltam passageiros, o lado pesado desce: a roda balança e para com os assentos vazios lá em cima, onde todos podem contá-los. Se sobram, os que não cabem ficam de pé na plataforma; o freio não solta e todos descem, para a criança diminuir o número. Os assentos têm duas cores, em grupos de cinco, então 7 se lê como cinco e mais dois. Na segunda tentativa, os assentos vazios continuam a contagem (8, 9, 10) e a seta do mostrador indica para que lado girar — nunca o número. A decomposição ao lado da roda registra cada volta, por exemplo 10 = 7 + 3, e uma rodada completa de “Formar 10” começa uma vez com cada número de 1 a 9. Outras rodadas usam rodas menores, ou ocupam todos os assentos com dois tipos de passageiro e pedem o total: 5 e 3 formam 8.",
+        "A atividade está alinhada à BNCC, na unidade temática Números: descobrir qual número, somado a um número dado de 1 a 9, completa 10, com decomposições até 5 e até 10 como níveis extras. O professor escolhe Até 5, De 6 a 9 ou Formar 10 (padrão) e pode mostrar os números dos assentos para a criança continuar contando ao redor da roda. O “Parque de diversões” é brincadeira aberta: qualquer roda de 2 a 10 assentos e quantos passageiros quiser. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Ver o todo 10 dividido em duas partes numa ligação numérica.",
-        "Acrescentar fichas à parte vazia, uma de cada vez.",
-        "Descobrir o amigo que completa o dez (7 e 3, 4 e 6).",
-        "Saber quando as duas partes juntas formam exatamente 10."
+        "Descobrir o número que forma 10 com um número dado de 1 a 9",
+        "Ver se uma tentativa ficou curta ou passou",
+        "Continuar contando a partir dos passageiros que já subiram",
+        "Ler cada volta como uma decomposição, por exemplo 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Olhe a ligação numérica — o todo é 10 e uma parte já está preenchida.",
-        "Toque na parte vazia para acrescentar fichas até as duas partes formarem 10, depois toque em Verificar.",
-        "Fichas demais ou de menos? Acrescente ou tire e confira de novo — não há cronômetro nem pontuação."
+        "Olhe os passageiros que já estão na roda e o número no centro.",
+        "Ajuste o número com as setas e puxe a alavanca da entrada: essa quantidade de passageiros sobe.",
+        "Solte o freio. Uma roda cheia gira; assentos vazios ou passageiros que ficaram de pé mostram o que mudar.",
+        "Toque num passageiro que acabou de subir para ele descer. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Descobrir o número que completa 10 a partir de um número dado.",
-        "Construir os amigos do dez acrescentando fichas, e não decorando.",
-        "Preparar o terreno para a estratégia de somar completando o dez."
+        "Descobrir o número que forma 10 com qualquer número de 1 a 9",
+        "Decompor números até 10 em duas partes",
+        "Aprender todos os pares que formam 10"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

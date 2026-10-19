@@ -3531,24 +3531,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Le tout vaut 10 et une partie de l'arbre des nombres est déjà remplie — par exemple 7 — et l'enfant touche la partie vide pour ajouter des jetons jusqu'à ce que les deux parties fassent 10 ensemble. C'est une activité de mathématiques interactive pour la grande section (5–6 ans), qui se joue directement dans le navigateur, sans compte et sans inscription.",
-        "Chaque nombre de 1 à 9 a un partenaire qui complète dix, et ici l'enfant construit ce partenaire en ajoutant les jetons un à un et en regardant les deux parties grandir jusqu'à 10 — pas en lisant un résultat sur une page. L'arbre des nombres est lui-même la surface de réponse : l'enfant s'arrête quand les deux parties font exactement dix, si bien qu'une partie trop petite ou trop grande se sent et se corrige facilement. Cette activité sur les amis de 10 suit les programmes officiels et se pratique sans note ni chrono."
+        "Une grande roue a exactement dix sièges, et quelques passagers sont déjà montés — disons 7. L’enfant règle un nombre sur le cadran du portillon, tire le levier, et autant d’animaux de la ferme montent un par un pendant que la roue avance d’un siège à chaque fois. Puis on desserre le frein. C’est une activité de maths interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée : la roue vérifie la réponse par son équilibre. Pleine, elle fait un tour lent et les lumières de la jante courent. S’il manque des passagers, le côté lourd descend : la roue se balance et s’arrête avec les sièges vides tout en haut, là où tout le monde peut les compter. S’il y en a trop, ceux qui ne tiennent pas restent debout sur la plateforme ; le frein ne se desserre pas, et tous redescendent pour que l’enfant baisse le nombre. Les sièges sont de deux couleurs, par groupes de cinq : 7 se lit cinq et encore deux. Au deuxième essai, les sièges vides se numérotent en continuant le comptage (8, 9, 10) et la flèche du cadran montre dans quel sens tourner — jamais le nombre lui-même. La décomposition à côté de la roue note chaque tour, par exemple 10 = 7 + 3, et un passage complet dans « Faire 10 » part une fois de chaque nombre de 1 à 9. D’autres manches utilisent de plus petites roues, ou remplissent tous les sièges avec deux sortes de passagers et demandent le tout : 5 et 3 font 8.",
+        "L’activité suit les programmes officiels du cycle 1 : trouver le nombre qui, ajouté à un nombre donné de 1 à 9, fait 10, avec les décompositions jusqu’à 5 et jusqu’à 10 en niveaux supplémentaires. L’enseignant choisit Jusqu’à 5, De 6 à 9 ou Faire 10 (par défaut) et peut afficher les numéros des sièges pour que l’enfant compte autour de la roue. La « Fête foraine » est un jeu libre : n’importe quelle roue de 2 à 10 sièges et autant de passagers qu’on veut. Pas de chronomètre, pas de score."
       ],
       "practices": [
-        "Voir le tout, 10, partagé en deux parties dans un arbre des nombres.",
-        "Ajouter des jetons à la partie vide un à un.",
-        "Trouver le partenaire qui complète dix (7 et 3, 4 et 6).",
-        "Savoir quand les deux parties font ensemble exactement 10."
+        "Trouver le nombre qui fait 10 avec un nombre donné de 1 à 9",
+        "Voir si une proposition est trop petite ou trop grande",
+        "Compter à partir des passagers déjà montés",
+        "Lire chaque tour comme une décomposition, par exemple 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Regarde l'arbre des nombres — le tout vaut 10 et une partie est remplie.",
-        "Touche la partie vide pour ajouter des jetons jusqu'à faire 10, puis appuie sur Vérifier.",
-        "Trop ou pas assez ? Ajoute ou retire des jetons et vérifie de nouveau — il n'y a ni chrono ni score."
+        "Regarde les passagers déjà sur la roue et le nombre au centre.",
+        "Règle le nombre avec les flèches, puis tire le levier du portillon : autant de passagers montent.",
+        "Desserre le frein. Une roue pleine tourne ; des sièges vides ou des passagers restés sur la plateforme montrent ce qu’il faut changer.",
+        "Touche un passager qui vient de monter pour le faire redescendre. Pas de chronomètre, pas de score."
       ],
       "learningGoals": [
-        "Trouver le nombre qui fait 10 avec un nombre donné.",
-        "Construire les amis de dix en ajoutant des jetons, plutôt qu'en mémorisant.",
-        "Préparer la stratégie d'addition « passer par dix »."
+        "Trouver le nombre qui fait 10 avec n’importe quel nombre de 1 à 9",
+        "Décomposer les nombres jusqu’à 10 en deux parties",
+        "Apprendre tous les compléments à 10"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

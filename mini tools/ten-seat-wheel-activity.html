@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Make 10 — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #28 of the one-by-one rebuild — THE TEN-SEAT WHEEL (K.OA.A.4,
+       a Ferris wheel of exactly N seats that only turns smoothly when every seat is full).
+       Shell → library pictures → own core → this activity. Bump ?v=N on EVERY change to
+       ten-seat-wheel-activity.js / ten-seat-wheel-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/ten-seat-wheel-core.js?v=1"></script>
+  <script src="/mini-tools/ten-seat-wheel-activity.js?v=1"></script>
+  <script>
+    LCS.mount(TenSeatWheelActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

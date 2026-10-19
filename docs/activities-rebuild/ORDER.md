@@ -47,7 +47,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 37 | LIVE 2026-10-19 → `paint-pots-activity` (the Paint Pots), 11 locales; operator review pending | K | K.G.A.2 | `choice-board.shape-id.k-g-a-2` | choice-board-activity | Identify the Shape — Kindergarten Geometry |
 | 38 | LIVE 2026-10-19 → `pip-museum-activity` (the clasp hall, own core) | K | K.G.A.2 | `pip-museum.curate-wing.k-g-a-2` | pip-museum-activity | Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten) |
 | 39 | LIVE 2026-10-19 → `post-slot-activity` (the letterbox, own core) | K | K.G.A.3 | `choice-board.flat-solid.k-g-a-3` | choice-board-activity | Flat or Solid? — 2D and 3D Shapes for Kindergarten |
-| 40 |  | K | K.G.B.4 | `choice-board.count-sides.k-g-b-4` | choice-board-activity | Count the Sides — Kindergarten Geometry |
+| 40 | LIVE 2026-10-19 → `post-box-activity` (the number post box, own core) | K | K.G.B.4 | `choice-board.count-sides.k-g-b-4` | choice-board-activity | Count the Sides — Kindergarten Geometry |
 | 41 |  | K | RF.K.1.d | `choice-board.letter-case.rf-k-1-d` | choice-board-activity | Match Uppercase and Lowercase Letters |
 | 42 |  | K | RF.K.2.a | `rhyme-shop.rhyme.rf-k-2-a` | rhyme-shop-activity | Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes |
 | 43 |  | K | RF.K.2.B | `syllable-builder.bau-das-wort-aus-silben.rf-k-2-b` | syllable-builder-activity |  |

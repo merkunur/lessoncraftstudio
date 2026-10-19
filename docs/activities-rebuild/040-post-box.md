@@ -97,3 +97,13 @@ ORDER row 40 · id `choice-board.count-sides.k-g-b-4` (kept).
 - **no title:** "i barnehagen" (this is 1. trinn content).
 - **pt title:** "pré-escolar", where Brazil says "educação infantil".
 - **es title and intro:** "forma" where the screen says "figura".
+
+## Deploy (2026-10-19)
+- **Commit 17cc0866.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200.
+- **Production play:** 104 / 104 (en / sv / fi / de at 1366 and 390).
+  - Count: a real-pointer peg; door 3 says "3 sticks for 4 sides"; door 4 posts the shape, and the win line reads.
+  - Sort: one shape dragged, the rest tapped, Check, six name plates.
+  - Real: the long rectangle bounces off the square door, and the real square is posted.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe:** 9 distinct rounds, and pass 2 is reshuffled, in all 11 locales. Finnish timed out as the 11th page and passes on its own.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

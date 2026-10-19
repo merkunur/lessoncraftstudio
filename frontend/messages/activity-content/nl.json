@@ -4216,25 +4216,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Een rekenfeit flitst op — 2 + 1, 5 − 2, 4 − 1 — en je kleuter tikt het juiste antwoord aan uit drie getallen die dicht bij elkaar liggen, met een tienraam ernaast als optioneel kladblad. Het doel is het vlot en zelfverzekerd onthouden van sommen tot 5. Deze interactieve rekenactiviteit voor de kleuterklas speelt in de browser, zonder registratie.",
-        "Vlotheid tot 5 is de brug tussen tellen en echt rekenen. De drie antwoorden liggen dicht bij elkaar — bij 2 + 2 zijn de keuzes 3, 4 en 5 — zodat je kind niet kan winnen door het grootste of kleinste getal te kiezen; het moet de som kennen of op het raam uitrekenen. In de loop van de rondes komen sommen die je kind eerst nog uittelde steeds vanzelf, en dat is precies wat vlotheid betekent.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen: vlot optellen en aftrekken tot 5. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Er verschijnt een som zoals 3 + 2 of 5 − 2, en daaronder staan vijf dikke staven met de getallen 1 tot en met 5 — elke staaf precies zoveel blokjes hoog als zijn getal. Het kind tikt op de staaf met het antwoord. Een goede staaf prikt een gaatje in zijn eigen rij op de papieren strook van een speeldoos, en de volgende som schuift erin. Het is een interactieve rekenactiviteit voor de kleuterklas die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere is dat de antwoorden noten zijn. Elke ronde is een stukje van een echt liedje — Vader Jacob, Ode aan de vreugde, het bootjesliedje — en de sommen zijn zo gekozen dat hun antwoorden, op volgorde, de noten van de melodie zijn. Zolang het kind antwoordt, maken alle staven hetzelfde zachte tikje, zodat de melodie de sommen niet verraadt. Is de strook vol, dan draait het kind aan de slinger: de gaatjes spelen het liedje in zijn eigen tempo, nooit sneller voor een sneller kind, en het plaatje bij het liedje springt tevoorschijn. Een verkeerde staaf prikt niets. In plaats daarvan gaan de staafjes van de som tegen die staaf liggen, en het kind ziet hoeveel blokjes ze uitsteken of tekortkomen; bij een minsom breken de weggehaalde blokjes er bovenaf. Na de tweede verkeerde staaf gaat een vijfvak open met de som als fiches, zodat het kind kan tellen en het opnieuw kan proberen.",
+        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen: vlot optellen en aftrekken tot en met 5, met een niveau tot en met 10. De leerkracht kiest het niveau, Plus en min of Alleen plus, en of de sommen verschijnen als getallen, stippen (dominostenen en dobbelstenen) of plaatjes van fruit. ‘Noten: bij elk antwoord’ laat de staven al tijdens de ronde klinken, voor een les muziek en rekenen. De speeldoos is open spel: tik op staven naar keuze en draai je eigen melodie af. Geen timer, geen score."
       ],
       "practices": [
-        "Optel- en aftreksommen tot 5 uit het hoofd onthouden",
-        "Antwoorden die dicht bij elkaar liggen uit elkaar houden, zoals 3, 4 en 5",
-        "Het tienraam gebruiken om een som te controleren bij twijfel",
-        "Snelheid en zelfvertrouwen opbouwen met sommen met kleine getallen"
+        "Optellen en aftrekken tot en met 5 zonder vanaf 1 te tellen",
+        "Zien hoe ver een fout antwoord van het goede afzit",
+        "Dezelfde som herkennen als getallen, stippen en plaatjes",
+        "Een getal koppelen aan een lengte: 5 is de langste staaf"
       ],
       "howToPlay": [
-        "Lees het rekenfeit, bijvoorbeeld 3 + 2 of 5 − 2.",
-        "Tik het antwoord aan dat je goed denkt uit de drie keuzes — kijk gerust even op het tienraam om te controleren.",
-        "Een warme controle bevestigt een goed antwoord en biedt een makkelijke nieuwe poging wanneer dat nodig is."
+        "Kijk naar de som op de kaart.",
+        "Tik op de staaf met het antwoord. Een goede staaf prikt een gaatje in de strook.",
+        "Zijn de staafjes naast een staaf niet even hoog, probeer dan een andere staaf. De knop met het vijfvak laat de som als fiches zien.",
+        "Is de strook vol, draai dan aan de slinger om het liedje te horen. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind telt op en trekt af tot 5, vlot en uit het hoofd.",
-        "Het kind gaat van sommen uittellen naar ze snel onthouden.",
-        "Het kind bouwt de vlotheid op waar het optellen en aftrekken in groep 4 op steunt."
+        "Vlot optellen en aftrekken tot en met 5",
+        "Sommen als 3 + 2 en 5 − 2 weten zonder te tellen",
+        "Optellen en aftrekken zien als lengtes die passen"
       ]
     }
   }

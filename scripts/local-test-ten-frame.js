@@ -14,6 +14,7 @@
    Usage: node scripts/local-test-ten-frame.js [--locales=en,de] [--shot]
    ===================================================================== */
 'use strict';
+console.log('local-test-ten-frame: retired — its last row (ten-frame.quick-facts-to-5.k-oa-a-5) left the ten-frame engine 2026-10-19 (rebuild #29, the Music-Box Strip: scripts/local-test-music-box.js).'); process.exit(0);
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

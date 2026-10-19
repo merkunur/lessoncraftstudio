@@ -15,6 +15,7 @@
    paint() stubbed (DOM-free). Exit 0 = pass; 1 = any failure.
    ===================================================================== */
 'use strict';
+console.log('verify-ten-frame-quickfact: retired — ten-frame.quick-facts-to-5.k-oa-a-5 left the ten-frame engine 2026-10-19 (rebuild #29, the Music-Box Strip: scripts/verify-music-box-core.js).'); process.exit(0);
 const fs = require('fs');
 const path = require('path');
 

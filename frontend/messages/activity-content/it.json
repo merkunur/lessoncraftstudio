@@ -2527,25 +2527,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Compare un calcolo rapido — 2 + 1, 5 − 2, 4 − 1 — e il bambino tocca la risposta giusta tra tre numeri vicini tra loro, con una tabella del dieci accanto da usare come aiuto facoltativo. L'obiettivo è il richiamo veloce e sicuro dei fatti numerici entro il 5. È un'attività di matematica interattiva per la scuola dell'infanzia, che si gioca nel browser, senza registrazione.",
-        "La padronanza entro il 5 è il ponte tra il contare e il vero calcolo. Le tre risposte sono vicine tra loro — per 2 + 2 le opzioni sono 3, 4 e 5 — così il bambino non può rispondere scegliendo il più grande o il più piccolo: deve conoscere il risultato o ricavarlo sulla tabella. Giro dopo giro, i calcoli che all'inizio venivano contati cominciano ad arrivare immediatamente, ed è esattamente questo che significa padronanza.",
-        "L'attività è allineata alle Indicazioni nazionali: addizionare e sottrarre con sicurezza entro il 5. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Compare un calcolo come 3 + 2 o 5 − 2 e sotto ci sono cinque barre grosse numerate da 1 a 5, ognuna alta tanti cubetti quanto il suo numero. Il bambino tocca la barra che dà la risposta. Una barra giusta fa un buco nella sua riga di una striscia di carta da carillon, e arriva il calcolo successivo. È un’attività interattiva di matematica per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
+        "La novità è che le risposte sono note. Ogni turno è un pezzo di una canzone vera — Fra Martino, l’Inno alla gioia, la canzone della barca — e i calcoli sono scelti in modo che le risposte, in ordine, siano le note della melodia. Mentre il bambino risponde, tutte le barre fanno lo stesso piccolo toc, così la melodia non può suggerire i calcoli. Quando la striscia è piena, il bambino gira la manovella: i buchi suonano la canzone al suo tempo, mai più veloce per un bambino più rapido, e compare l’immagine della canzone. Una barra sbagliata non fa nessun buco: i regoli del calcolo si appoggiano a quella barra e si vede di quanti cubetti sporgono o mancano; in una sottrazione i cubetti tolti si staccano dall’alto. Al secondo errore si apre una griglia del cinque con il calcolo in gettoni, così il bambino può contare e riprovare.",
+        "L’attività è allineata alle Indicazioni nazionali: addizionare e sottrarre con sicurezza entro il 5, con un livello fino a 10. L’insegnante sceglie il livello, Addizioni e sottrazioni o Solo addizioni, e se i calcoli compaiono come numeri, pallini (tessere del domino e dadi) o immagini di frutta. «Note: a ogni risposta» fa suonare le barre durante il turno, per una lezione di musica e matematica. Il carillon è gioco aperto: tocca le barre che vuoi e gira la manovella per sentire la tua melodia. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Richiamare i risultati di addizioni e sottrazioni entro il 5.",
-        "Distinguere risposte vicine tra loro, come 3, 4 e 5.",
-        "Usare la tabella del dieci per verificare un calcolo quando si è incerti.",
-        "Costruire velocità e sicurezza con i fatti dei numeri piccoli."
+        "Addizionare e sottrarre entro il 5 senza contare da 1",
+        "Vedere quanto una risposta sbagliata è lontana da quella giusta",
+        "Riconoscere lo stesso calcolo come numeri, pallini e immagini",
+        "Collegare un numero a una lunghezza: il 5 è la barra più lunga"
       ],
       "howToPlay": [
-        "Il bambino legge il calcolo rapido, come 3 + 2 oppure 5 − 2.",
-        "Tocca la risposta che ritiene giusta tra le tre proposte, dando un'occhiata alla tabella del dieci se vuole verificare.",
-        "Una conferma serena segnala la risposta corretta e offre un nuovo tentativo facile quando serve."
+        "Guarda il calcolo sulla carta.",
+        "Tocca la barra della risposta. Una barra giusta fa un buco nella striscia.",
+        "Se i regoli accanto a una barra non sono alti come lei, prova un’altra barra. Il pulsante della griglia del cinque mostra il calcolo con i gettoni.",
+        "Quando la striscia è piena, gira la manovella per sentire la canzone. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Addizionare e sottrarre con sicurezza entro il 5.",
-        "Passare dal contare i risultati al richiamarli rapidamente.",
-        "Costruire la padronanza dei fatti numerici su cui contano addizione e sottrazione della classe prima."
+        "Addizionare e sottrarre con sicurezza entro il 5",
+        "Sapere calcoli come 3 + 2 e 5 − 2 senza contare",
+        "Vedere addizione e sottrazione come lunghezze che combaciano"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

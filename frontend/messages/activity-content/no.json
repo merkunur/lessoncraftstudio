@@ -1285,25 +1285,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Et raskt regnefakta dukker opp — 2 + 1, 5 − 2, 4 − 1 — og barnet trykker på riktig svar blant tre tall som ligger tett, med en tierramme ved siden av som en valgfri kladdetavle. Målet er rask og trygg gjenkjenning av regnefakta innenfor 5. Denne interaktive matteaktiviteten for skolestart spilles i nettleseren, uten konto.",
-        "Sikkerhet innenfor 5 er broen mellom telling og ekte regning. De tre svaralternativene ligger tett — for 2 + 2 er valgene 3, 4 og 5 — så barnet kan ikke vinne ved å velge det største eller minste; det må kjenne regnefaktaet eller regne det ut på rammen. Gjennom rundene begynner regnefakta barnet først talte seg fram til, å komme med en gang, og det er nettopp det å være sikker betyr.",
-        "Aktiviteten følger LK20 innenfor tall og regning — å legge sammen og trekke fra med sikkerhet innenfor 5. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+        "Et regnestykke som 3 + 2 eller 5 − 2 dukker opp, og under det står fem tykke staver med tallene 1 til 5 – hver stav akkurat så mange klosser høy som tallet sitt. Barnet trykker på staven som er svaret. En riktig stav slår et hull i sin egen rad på en papirstrimmel til en spilledåse, og neste regnestykke glir inn. Det er en interaktiv matteaktivitet for skolestart og 1. trinn som kjører i nettleseren uten installasjon.",
+        "Det nye er at svarene er toner. Hver runde er et stykke av en ekte sang – Fader Jakob, Ode til gleden, Båtsangen – og regnestykkene er valgt slik at svarene, i rekkefølge, blir tonene i melodien. Mens barnet svarer, låter alle stavene likt, et mykt bank, så melodien ikke kan røpe regnestykkene. Når strimmelen er full, sveiver barnet: hullene spiller sangen i sitt eget tempo, aldri fortere for et raskere barn, og bildet til sangen spretter opp. En feil stav slår ingen hull. I stedet legger regnestykkets klosser seg inntil den staven, og barnet ser hvor mange klosser de stikker opp eller mangler; i et minusstykke brekker klossene som tas bort, av på toppen. Etter den andre feile staven åpnes en femramme med regnestykket som brikker, så barnet kan telle og prøve igjen.",
+        "Aktiviteten følger LK20 innenfor tall og regning: å legge sammen og trekke fra med sikkerhet innenfor 5, med et nivå opp til 10. Læreren velger nivå, Pluss og minus eller Bare pluss, og om regnestykkene vises som tall, prikker (dominobrikker og terninger) eller bilder av frukt. «Toner: ved hvert svar» lar stavene klinge under runden, for en time med musikk og matte. Spilledåsen er åpen lek: trykk på stavene du vil, og sveiv fram din egen melodi. Ingen tidtaker, ingen poeng."
       ],
       "practices": [
-        "Hente fram pluss- og minusfakta innenfor 5.",
-        "Skille svar som ligger tett fra hverandre, som 3, 4 og 5.",
-        "Bruke tierrammen til å kontrollere et regnefakta når man er usikker.",
-        "Bygge fart og trygghet med regnefakta med små tall."
+        "Legge sammen og trekke fra innenfor 5 uten å telle fra 1",
+        "Se hvor langt et feil svar er fra det riktige",
+        "Kjenne igjen det samme regnestykket som tall, prikker og bilder",
+        "Koble et tall til en lengde: 5 er den lengste staven"
       ],
       "howToPlay": [
-        "Les det raske regnefaktaet, som 3 + 2 eller 5 − 2.",
-        "Trykk på svaret du tror er riktig blant de tre valgene — kikk på tierrammen hvis du vil kontrollere.",
-        "En varm bekreftelse viser et riktig svar og tilbyr en enkel ny sjanse når det trengs."
+        "Se på regnestykket på kortet.",
+        "Trykk på staven som er svaret. En riktig stav slår et hull i strimmelen.",
+        "Hvis klossene ved siden av en stav ikke er like høye som den, prøv en annen stav. Knappen med femrammen viser regnestykket som brikker.",
+        "Når strimmelen er full, sveiv for å høre sangen. Ingen tidtaker, ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan legge sammen og trekke fra med sikkerhet innenfor 5.",
-        "Barnet kan gå fra å telle seg fram til regnefakta til å hente dem fram raskt.",
-        "Barnet bygger den regnesikkerheten som pluss og minus på 1. trinn hviler på."
+        "Barnet kan legge sammen og trekke fra med sikkerhet innenfor 5",
+        "Barnet kan regnestykker som 3 + 2 og 5 − 2 uten å telle",
+        "Barnet ser pluss og minus som lengder som passer sammen"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

@@ -175,6 +175,10 @@ function seedScript(row) {
     // 7 aboard, 2 more called: the wheel has lurched and settled with its one empty gondola at the top, glowing — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='fill'&&r.k===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TenSeatWheelCore;C.setDial(t.st,2);t._gate();t._brake();t._paint();['.tw-prow1','.tw-note'].forEach(function(q){var e=document.querySelector(q);if(e)e.style.display='none';});})();`;
   }
+  if (row.tool === 'music-box-activity') {
+    // Frère Jacques: five holes already punched along the strip, the next fact in the window, the bars standing as tall as their numbers — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.songId==='frere1';});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.MusicBoxCore,s=t.st;for(var j=0;j<5;j++)C.tap(s,C.answerOf(C.fact(s)));t._flash=null;t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

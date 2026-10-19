@@ -3571,25 +3571,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Aparece de golpe una operación rápida (2 + 1, 5 − 2, 4 − 1) y el niño o la niña toca la respuesta correcta entre tres números muy parecidos, con un marco de diez al lado como apoyo opcional para comprobar. La meta es recordar con rapidez y seguridad las operaciones hasta el 5. Es una actividad de matemáticas para preescolar (kínder), interactiva, que se juega en el navegador, sin crear cuenta.",
-        "La fluidez hasta el 5 es el puente entre contar y la aritmética de verdad. Las tres opciones de respuesta están muy juntas (para 2 + 2 las opciones son 3, 4 y 5), así que no se gana eligiendo el más grande ni el más chico: hay que saber el resultado o calcularlo en el marco. Ronda tras ronda, las operaciones que al principio se contaban empiezan a salir al instante, que es justo lo que significa la fluidez.",
-        "Está alineada con los planes y programas de estudio (SEP): sumar y restar con fluidez hasta el 5. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Aparece una operación como 3 + 2 o 5 − 2 y debajo hay cinco barras gruesas numeradas del 1 al 5, cada una con tantos bloques de alto como su número. La niña o el niño toca la barra que responde la operación. Una barra correcta perfora un agujero en su propia fila de una tira de papel de caja de música, y entra la siguiente operación. Es una actividad interactiva de matemáticas para preescolar que funciona en el navegador, sin instalar nada.",
+        "Lo especial es que las respuestas son notas. Cada ronda es un trozo de una canción de verdad —Martinillo, el Himno de la alegría, la canción del barquito— y sus operaciones están elegidas para que sus respuestas, en orden, sean las notas de la melodía. Mientras se responde, todas las barras suenan igual, con un toque suave, para que la melodía no delate las cuentas. Cuando la tira está llena se gira la manivela: los agujeros tocan la canción a su propio ritmo, nunca más rápido para quien responde más rápido, y aparece el dibujo de la canción. Una barra incorrecta no perfora nada; en cambio, las regletas de la operación se apoyan en esa barra y se ve cuántos bloques sobran o faltan. En una resta, los bloques que se quitan se desprenden por arriba. Al segundo error se abre un marco de cinco con la operación en fichas, para contar y volver a intentarlo.",
+        "Está alineada con los planes y programas de estudio (SEP): sumar y restar con fluidez hasta el 5, con un nivel hasta el 10. La maestra o el maestro elige el nivel, Sumas y restas o Solo sumas, y si las operaciones aparecen con números, puntos (dominós y dados) o dibujos de frutas. «Notas: con cada respuesta» hace sonar las barras durante la ronda, para una clase de música y matemáticas. La caja de música es juego abierto: toca las barras que quieras y gira la manivela para oír tu propia melodía. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Recordar resultados de suma y resta hasta el 5.",
-        "Distinguir respuestas cercanas, como 3, 4 y 5.",
-        "Usar el marco de diez para comprobar un resultado cuando hay duda.",
-        "Ganar rapidez y seguridad con los resultados de números pequeños."
+        "Sumar y restar hasta el 5 sin contar desde 1",
+        "Ver qué tan lejos está una respuesta incorrecta de la correcta",
+        "Reconocer la misma operación con números, puntos y dibujos",
+        "Relacionar un número con una longitud: el 5 es la barra más larga"
       ],
       "howToPlay": [
-        "Lee la operación rápida, como 3 + 2 o 5 − 2.",
-        "Toca la respuesta que creas correcta entre las tres opciones; mira el marco de diez si quieres comprobar.",
-        "Una palomita cariñosa confirma la respuesta correcta y te invita a volver a intentarlo cuando hace falta."
+        "Mira la operación en la tarjeta.",
+        "Toca la barra que la responde. Una barra correcta perfora un agujero en la tira.",
+        "Si las regletas junto a una barra no tienen su altura, prueba otra barra. El botón del marco de cinco muestra la operación con fichas.",
+        "Cuando la tira esté llena, gira la manivela para oír la canción. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Sumar y restar con fluidez hasta el 5.",
-        "Pasar de contar los resultados a recordarlos con rapidez.",
-        "Formar la fluidez con los resultados en la que se apoyan la suma y la resta de primer grado."
+        "Sumar y restar con fluidez hasta el 5",
+        "Saber operaciones como 3 + 2 y 5 − 2 sin contar",
+        "Ver la suma y la resta como longitudes que encajan"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

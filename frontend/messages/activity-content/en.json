@@ -4143,25 +4143,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "A quick fact flashes up — 2 + 1, 5 − 2, 4 − 1 — and the child taps the right answer from three close number choices, with a ten-frame beside it as an optional scratch pad. The goal is fast, confident recall of facts within 5. This interactive Kindergarten math activity plays in the browser with no sign-up.",
-        "Fluency within 5 is the bridge between counting and real arithmetic. The three answer choices are close together — for 2 + 2 the options are 3, 4, and 5 — so a child cannot win by picking the biggest or smallest; they have to know the fact or work it out on the frame. Over the rounds, facts the child first counted out start to come instantly, which is exactly what fluency means.",
-        "It is aligned to Common Core K.OA.A.5 — fluently adding and subtracting within 5. No timer, no score — just calm, playful practice."
+        "A fact such as 3 + 2 or 5 − 2 appears, and below it stand five chunky bars, numbered 1 to 5 — each bar exactly as many blocks tall as its number. The child taps the bar that answers the fact. A right bar punches a hole in its own row of a paper music-box strip, and the next fact slides in. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that the answers are notes. Each round is one phrase of a real song — Frère Jacques, Ode to Joy, Lightly Row — and its facts are chosen so that their answers, in order, are the notes of the tune. While the child is answering, every bar makes the same soft knock, so the melody cannot give the maths away. When the strip is full the child turns the crank: the holes play the song at its own steady tempo, never faster for a faster child, and the song's picture pops up. A wrong bar punches nothing. Instead the fact's own rods lie against that bar, and the child can see by how many blocks they stick out or fall short; in a take-away fact the blocks taken away break off the top. After a second wrong bar, a five-frame opens with the fact as counters, so the child can count and try again.",
+        "It is aligned to Common Core K.OA.A.5 — adding and subtracting fluently within 5 — with a To 10 level for facts up to ten. Teachers choose the level, Add and subtract or Add only, and whether facts appear as numbers, dots (dominoes and dice) or pictures of fruit. \"Notes: As you go\" lets the bars ring their notes during the round, for a music-and-maths lesson. The Music box is open play: tap any bars, then crank your own tune. No timer, no score."
       ],
       "practices": [
-        "Recalling addition and subtraction facts within 5",
-        "Telling close answers apart, like 3, 4, and 5",
-        "Using the ten-frame to check a fact when unsure",
-        "Building speed and confidence with small-number facts"
+        "Adding and subtracting within 5 without counting from 1",
+        "Seeing how far a wrong answer is from the right one",
+        "Recognising the same fact as numbers, dots and pictures",
+        "Linking a number to a length, so 5 is the longest bar"
       ],
       "howToPlay": [
-        "Read the quick fact, like 3 + 2 or 5 − 2.",
-        "Tap the answer you think is right from the three choices — peek at the ten-frame if you want to check.",
-        "A warm check confirms a correct answer and offers an easy retry when needed."
+        "Look at the fact on the card.",
+        "Tap the bar that answers it. A right bar punches a hole in the strip.",
+        "If the rods beside a bar do not match its height, try another bar. The frame button shows the fact as counters.",
+        "When the strip is full, turn the crank to hear the song. No timer, no score."
       ],
       "learningGoals": [
         "Add and subtract fluently within 5 — the focus of Common Core K.OA.A.5",
-        "Move from counting out facts to recalling them quickly",
-        "Build the fact fluency that first-grade addition and subtraction rely on"
+        "Know facts such as 3 + 2 and 5 − 2 without counting",
+        "See addition and subtraction as lengths that fit together"
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

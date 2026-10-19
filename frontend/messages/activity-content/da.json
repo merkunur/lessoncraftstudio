@@ -1274,24 +1274,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 fugle sidder på en gren, 2 mere lander — hvor mange er der nu?\" Regnehistorier inden for 10 viser en lille historie, barnet bygger den med brikker på en tierramme for at afgøre, om der skal lægges til eller tages væk, og taster så svaret på tastaturet. Det er en interaktiv matematikaktivitet til børnehaveklassen om regnehistorier inden for 10, der kører i browseren uden konto.",
-        "Regnehistorier er der, hvor tal møder mening. Barnet skal afgøre, om historien lægger grupper sammen eller tager nogle væk, hvilket er sværere end at få et plus- eller minustegn stukket i hånden. Tierrammen er en hjælp, barnet kan bruge til at spille historien ud, men svaret skrives på tastaturet — så arbejdet er at læse, vælge regnearten og derefter tælle for at være sikker. Aktiviteten følger Fælles Mål inden for tal og algebra: at løse plus- og minushistorier inden for 10 ved hjælp af ting eller tegninger. Der er ingen timer og ingen point."
+        "Historiescenen gør en regnehistorie til et lille teaterstykke. »3 fugle sidder på grenen. 2 fugle mere lander. Hvor mange fugle er der nu?« Den første linje spiller sig selv: tre fugle lander én ad gangen på en scene, der er en tierramme. Så er det barnets tur – barnet henter selv de 2 fugle fra bunken. Først derefter vækker spørgsmålet taltasterne. Det er en interaktiv matematikaktivitet, der kører i browseren uden installation.",
+        "Ideen er, at hver sætning er en sceneanvisning, så regningsarten kommer af det, der sker, ikke af et tegn. En historie om at tage væk har ingen bunke: »Du har 7 balloner. 3 balloner springer.« Barnet trykker på 3 balloner; hver ballon springer og bliver stående på sin plads som et blegt, overstreget omrids – det, der var, og det, der er tilbage, side om side. I historier om at lægge sammen kommer to slags op på samme scene: 4 fugle og 3 kaniner, hvor mange dyr? Den næste linje venter, til barnet har gjort noget på scenen – historien bliver spillet, ikke bare læst. Et forkert tal spiller historien igen med dens rigtige tal, hvert billede nummereret, mens det kommer eller går, og bagefter fortæller scenen historien rigtigt; har barnet hentet én fugl for meget, siger hjælpen det. Efter et andet forkert svar bliver de billeder, der stadig er der, nummereret frem til et spørgsmålstegn på det sidste – tallet siger barnet selv.",
+        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at løse regnehistorier med plus og minus inden for 10 ved at spille dem med ting. Den passer til børnehaveklassen. Læreren vælger historier op til 5, op til 10 (forvalgt) eller op til 20, hvor to tierrammer har brikker, og et billede viser, hvad de står for, og slår oplæsning til eller fra; uden oplæsning venter hver linje et øjeblik, før den spiller. »Find på din egen« er den åbne leg: en bunke, scenen og en historie, der skriver sig selv, mens barnet leger. Ingen timer og ingen point."
       ],
       "practices": [
-        "Læse en lille historie og afgøre, om der skal lægges til eller trækkes fra",
-        "Bygge en regnehistorie med brikker på en tierramme",
-        "Løse plus- og minussituationer inden for 10",
-        "Taste svaret på et virkeligt spørgsmål om antal"
+        "At spille en regnehistorie sætning for sætning",
+        "At lægge til, tage væk og lægge sammen inden for 10",
+        "At skelne mellem det, der gik væk, og det, der er tilbage",
+        "At tælle resultatet og skrive tallet"
       ],
       "howToPlay": [
-        "Barnet læser historien, for eksempel at 3 fugle sidder, og 2 mere lander.",
-        "Barnet bruger brikker på tierrammen til at spille den ud, taster så hvor mange der er, på tastaturet og trykker på Tjek.",
-        "Passer det ikke? Læs historien igen og prøv igen — der er ingen timer og ingen point."
+        "Læs historien. Den første linje spiller sig selv på scenen.",
+        "Spil din linje: tryk på bunken (eller træk fra den) for at hente flere, eller tryk på ting, så de forsvinder. Tryk så på Næste.",
+        "Tæl de billeder, der stadig er på scenen, skriv tallet med tasterne, og tryk på Tjek.",
+        "Ikke helt? Historien spiller igen med de rigtige tal – tæl en gang til. Ingen timer og ingen point."
       ],
       "learningGoals": [
-        "Barnet kan løse plus- og minushistorier inden for 10",
-        "Barnet kan vælge den rigtige regneart ud fra historiens mening",
-        "Barnet bygger de problemløsningsvaner, som senere matematik bygger på"
+        "At løse regnehistorier om at lægge til, tage væk og lægge sammen inden for 10",
+        "At forstå ved at spille, hvad en historie gør ved en mængde",
+        "Kun at tælle det, der er tilbage, når nogle går væk"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

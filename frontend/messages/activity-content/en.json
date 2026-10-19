@@ -4186,25 +4186,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 birds sit on a branch, 2 more land — how many now?\" A little story appears, the child models it with counters on a ten-frame to decide whether to join or take away, then types the answer on the keypad. This interactive Kindergarten math activity covers word problems within 10 and runs in the browser with no account.",
-        "Word problems are where numbers meet meaning. The child has to decide whether the story joins groups together or takes some away, which is harder than being handed a plus or minus sign. The ten-frame is a modeling aid the child can use to act the story out, but the keypad is where the answer goes — so the work is reading, deciding the operation, and then counting to be sure.",
-        "It is aligned to Common Core K.OA.A.2 — solving addition and subtraction word problems within 10 using objects or drawings to represent the problem. No timer, no score — just calm, playful practice."
+        "The Story Stage turns a word problem into a little play. \"3 birds sit on a branch. 2 more birds land. How many birds are there now?\" The first line acts itself out: three birds arrive one by one on a stage that is a ten-frame. Then it is the child's line — they bring the 2 more birds from the pile themselves. Only then does the question wake the number keys. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that every sentence is a stage direction, so the operation comes from what happens, not from a sign. A take-away story has no pile at all: \"7 balloons float in the air. 3 balloons pop.\" The child taps 3 balloons, and each one pops and stays behind as a pale crossed outline — what was there and what is left, side by side. Put-together stories bring two kinds onto one stage: 4 birds and 3 bunnies, how many animals? The next line waits until the child has made a move on the stage, so the story is played, not just read. A wrong number replays the story at its true numbers, each arriving or leaving picture numbered as it moves, and leaves the stage telling the story right — if the child brought one bird too many, the note says so. A second wrong answer numbers the pictures still there up to a question mark on the last one, so the child still says the number.",
+        "It is aligned to Common Core K.OA.A.2 — solving addition and subtraction word problems within 10 by acting them out with objects. Teachers can choose stories within 5, within 10 (the default) or within 20, where two ten-frames hold counters and a picture shows what the counters stand for, and turn reading aloud on or off; with it off, each line waits a moment before it acts. \"Tell your own\" is open play: a pile, the stage, and a story that writes itself as the child plays. No timer, no score."
       ],
       "practices": [
-        "Reading a short story and deciding whether to add or subtract",
-        "Modeling a word problem with counters on a ten-frame",
-        "Solving addition and subtraction situations within 10",
-        "Typing the answer to a real-world question about quantities"
+        "Acting out a story problem one sentence at a time",
+        "Adding to, taking from and putting together within 10",
+        "Telling what went away apart from what is still there",
+        "Counting the result and typing the number"
       ],
       "howToPlay": [
-        "Read the story problem, like 3 birds sit and 2 more land.",
-        "Use counters on the ten-frame to act it out, then type how many there are on the keypad and press Check.",
-        "Not quite? Reread the story and try again — there is no timer and no score."
+        "Read the story. Its first line acts itself out on the stage.",
+        "Act out your line: tap the pile (or drag from it) to bring more, or tap things so they go away. Then press Next.",
+        "Count the pictures still on the stage, type the number on the keys and press Check.",
+        "Not quite? The story plays again with its true numbers — count again. No timer, no score."
       ],
       "learningGoals": [
-        "Solve add and subtract word problems within 10 — the focus of Common Core K.OA.A.2",
-        "Choose the right operation from the meaning of a story",
-        "Build the problem-solving habits that later math relies on"
+        "Solve add-to, take-from and put-together word problems within 10 — the focus of Common Core K.OA.A.2",
+        "Work out what a story does to a group by acting it out",
+        "Count only what is left after some go away"
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

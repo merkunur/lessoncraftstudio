@@ -1798,25 +1798,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 passarinhos estão num galho, mais 2 pousam — quantos há agora?\" Uma historinha aparece, a criança representa a situação com fichas num quadro de dez para decidir se junta ou tira, e então digita a resposta no teclado numérico. É uma atividade de matemática interativa para a educação infantil, com problemas até 10, que funciona no navegador sem precisar de conta.",
-        "Os problemas com historinha são onde os números ganham sentido. A criança precisa decidir se a história junta grupos ou tira uma parte, o que é mais difícil do que receber um sinal de mais ou de menos já pronto. O quadro de dez é um apoio para a criança encenar a história, mas a resposta vai no teclado numérico — então o trabalho é ler, decidir a operação e depois contar para ter certeza.",
-        "A atividade está alinhada à BNCC, no campo de Números, no trabalho de resolver problemas de adição e subtração até 10 usando objetos ou desenhos para representar a situação. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "O palco das histórias transforma um problema em uma pequena peça de teatro. “3 passarinhos estão pousados no galho. Mais 2 passarinhos chegam voando. Quantos passarinhos há agora no galho?” A primeira frase se encena sozinha: três passarinhos chegam um por um a um palco que é um quadro de dez. Depois é a vez da criança: ela mesma traz os 2 passarinhos da pilha. Só então a pergunta acorda as teclas de números. É uma atividade interativa de matemática que funciona no navegador, sem instalar nada.",
+        "A ideia é que cada frase é uma indicação de cena, e a operação vem do que acontece, não de um sinal. Uma história de tirar não tem pilha: “O Téo tem 7 balões. 3 balões estouram.” A criança toca 3 balões; cada um estoura e fica no lugar como um contorno claro riscado — o que havia e o que sobrou, lado a lado. Nas histórias de juntar, dois tipos chegam ao mesmo palco: 4 passarinhos e 3 coelhinhos, quantos animais há? A frase seguinte espera a criança fazer algo no palco: a história é encenada, não só lida. Um número errado repete a história com seus números verdadeiros, cada figura numerada quando chega ou vai embora, e depois o palco conta a história certa — se a criança trouxe um passarinho a mais, o aviso diz isso. Depois de uma segunda resposta errada, as figuras que ainda estão lá são numeradas até um ponto de interrogação na última: quem diz o número é a criança.",
+        "A atividade está alinhada à BNCC, na resolução de problemas de acrescentar, tirar e juntar até 10 encenados com objetos. O professor escolhe histórias até 5, até 10 (padrão) ou até 20, em que dois quadros de dez levam fichas e uma figura mostra o que elas representam, e liga ou desliga a leitura em voz alta; sem ela, cada frase espera um pouco antes de ser encenada. “Invente sua história” é o jogo aberto: uma pilha, o palco e uma história que se escreve sozinha enquanto a criança brinca. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler uma historinha curta e decidir se é para somar ou subtrair.",
-        "Representar o problema com fichas num quadro de dez.",
-        "Resolver situações de adição e de subtração até 10.",
-        "Digitar a resposta de uma pergunta sobre quantidades do dia a dia."
+        "Encenar um problema frase por frase",
+        "Acrescentar, tirar e juntar até 10",
+        "Separar o que foi embora do que ainda está lá",
+        "Contar o resultado e digitar o número"
       ],
       "howToPlay": [
-        "Leia o problema da historinha, como 3 passarinhos no galho e mais 2 que pousam.",
-        "Use as fichas no quadro de dez para encenar a situação, depois digite quantos há no teclado numérico e toque em Verificar.",
-        "Não foi dessa vez? Releia a história e tente de novo — não há cronômetro nem pontuação."
+        "Leia a história. A primeira frase se encena sozinha no palco.",
+        "Encene a sua frase: toque na pilha (ou arraste dela) para trazer mais, ou toque nas figuras para que vão embora. Depois aperte Próxima.",
+        "Conte as figuras que ainda estão no palco, digite o número nas teclas e aperte Verificar.",
+        "Não deu certo? A história se repete com os números verdadeiros — conte de novo. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Resolver problemas de adição e subtração até 10.",
-        "Escolher a operação certa a partir do sentido da história.",
-        "Construir os hábitos de resolver problemas em que a matemática se apoia mais adiante."
+        "Resolver problemas de acrescentar, tirar e juntar até 10",
+        "Entender, encenando, o que uma história faz com uma quantidade",
+        "Contar só o que sobra quando alguns vão embora"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

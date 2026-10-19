@@ -2294,25 +2294,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "«3 uccellini sono su un ramo, ne arrivano altri 2 — quanti sono adesso?» Compare una piccola storia, il bambino la rappresenta con i gettoni sulla tabella del dieci per decidere se unire o togliere, poi scrive la risposta sul tastierino. È un'attività di matematica per la scuola dell'infanzia, interattiva, dedicata ai problemi entro il 10, che si gioca nel browser senza account.",
-        "I problemi con le storie sono il punto in cui i numeri incontrano il significato. Il bambino deve capire se la storia unisce dei gruppi o ne toglie una parte, che è più difficile che ricevere già il segno più o meno. La tabella del dieci è un aiuto per rappresentare e «recitare» la storia, ma la risposta va scritta sul tastierino — così il lavoro è leggere, scegliere l'operazione e poi contare per essere sicuri.",
-        "L'attività è allineata alle Indicazioni nazionali: risolvere problemi di addizione e sottrazione entro il 10 usando oggetti o disegni per rappresentare la situazione. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Il palco delle storie trasforma un problema in una piccola recita. «Sul ramo ci sono 3 uccellini. Ne arrivano altri 2. Quanti uccellini ci sono adesso?» La prima riga si recita da sola: tre uccellini arrivano uno alla volta su un palco che è una griglia del dieci. Poi tocca al bambino: porta lui stesso gli altri 2 uccellini dalla pila. Solo allora la domanda sveglia i tasti dei numeri. È un'attività interattiva di matematica che funziona nel browser, senza installare nulla.",
+        "L'idea è che ogni frase è un'indicazione di scena, e l'operazione nasce da quello che succede, non da un segno. Una storia del togliere non ha la pila: «Marco tiene 7 palloncini. Ne scoppiano 3.» Il bambino tocca 3 palloncini; ognuno scoppia e resta al suo posto come un contorno pallido barrato: quello che c'era e quello che resta, uno accanto all'altro. Nelle storie dell'unire arrivano due tipi sullo stesso palco: 4 uccellini e 3 coniglietti, quanti animali ci sono? La riga successiva aspetta che il bambino faccia una mossa sul palco: la storia si recita, non si legge soltanto. Un numero sbagliato fa rivedere la storia con i suoi numeri veri, ogni figura numerata mentre arriva o va via, e poi il palco racconta la storia giusta; se il bambino ha portato un uccellino di troppo, l'avviso lo dice. Dopo una seconda risposta sbagliata, le figure ancora presenti vengono numerate fino a un punto interrogativo sull'ultima: il numero lo dice il bambino.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei problemi: risolvere situazioni di aggiungere, togliere e unire entro il 10 recitandole con oggetti. L'insegnante sceglie storie fino a 5, fino a 10 (predefinito) o fino a 20, dove due griglie del dieci portano gettoni e una figura mostra che cosa rappresentano, e attiva o disattiva la lettura ad alta voce; senza lettura, ogni riga aspetta un momento prima di recitarsi. «Inventa la tua storia» è il gioco aperto: una pila, il palco e una storia che si scrive da sola mentre il bambino gioca. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Leggere una breve storia e decidere se aggiungere o togliere.",
-        "Rappresentare un problema con i gettoni sulla tabella del dieci.",
-        "Risolvere situazioni di addizione e sottrazione entro il 10.",
-        "Scrivere la risposta a una domanda concreta sulle quantità."
+        "Recitare un problema frase per frase",
+        "Aggiungere, togliere e unire entro il 10",
+        "Distinguere ciò che è andato via da ciò che è ancora lì",
+        "Contare il risultato e scrivere il numero"
       ],
       "howToPlay": [
-        "Il bambino legge il problema, per esempio 3 uccellini fermi e altri 2 che arrivano.",
-        "Usa i gettoni sulla tabella del dieci per recitare la storia, poi scrive quanti sono sul tastierino e tocca Controlla.",
-        "Non torna? Rilegge la storia e riprova: non c'è timer né punteggio."
+        "Leggi la storia. La sua prima riga si recita da sola sul palco.",
+        "Recita la tua riga: tocca la pila (o trascina dalla pila) per portarne altri, oppure tocca le figure perché vadano via. Poi premi Avanti.",
+        "Conta le figure ancora sul palco, scrivi il numero con i tasti e premi Verifica.",
+        "Non proprio? La storia si ripete con i suoi numeri veri: conta di nuovo. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Risolvere problemi di addizione e sottrazione entro il 10.",
-        "Scegliere l'operazione giusta a partire dal significato della storia.",
-        "Costruire le abitudini di problem solving su cui si appoggerà la matematica più avanti."
+        "Risolvere problemi di aggiungere, togliere e unire entro il 10",
+        "Capire, recitandolo, che cosa fa una storia a una quantità",
+        "Contare solo ciò che resta quando alcuni vanno via"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

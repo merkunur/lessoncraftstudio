@@ -589,25 +589,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"Oksalla istuu 3 lintua, ja 2 lentää lisää — montako niitä on nyt?\" Pieni tarina ilmestyy näytölle, lapsi mallintaa sen laskupalikoilla kymmenruudukossa päättääkseen, lisätäänkö vai otetaanko pois, ja kirjoittaa sitten vastauksen näppäimistöllä. Tämä vuorovaikutteinen esiopetuksen matematiikkatehtävä käsittelee sanallisia tehtäviä kymppiin asti ja toimii selaimessa ilman tiliä.",
-        "Sanalliset tehtävät ovat se kohta, jossa luvut saavat merkityksen. Lapsen on päätettävä, yhdistääkö tarina ryhmät yhteen vai ottaako se osan pois, mikä on vaikeampaa kuin valmiin plus- tai miinusmerkin saaminen. Kymmenruudukko on apuväline, jolla lapsi voi näytellä tarinan, mutta vastaus kirjoitetaan näppäimistöllä — joten työ on lukemista, laskutoimituksen päättämistä ja sitten laskemista varmuuden vuoksi.",
-        "Tehtävä on OPS 2014:n mukainen esiopetuksen matematiikkaa — lapsi ratkaisee yhteen- ja vähennyslaskun sanallisia tehtäviä kymppiin asti esineiden tai kuvien avulla. Ei ajastinta, ei pisteitä."
+        "Tarinanäyttämö tekee sanallisesta tehtävästä pienen näytelmän. ”3 lintua istuu oksalla. 2 lintua lentää lisää oksalle. Kuinka monta lintua oksalla on nyt?” Ensimmäinen rivi näyttelee itsensä: kolme lintua laskeutuu yksi kerrallaan näyttämölle, joka on kymmenruudukko. Sitten on lapsen vuoro – lapsi tuo itse 2 lintua pinosta. Vasta sen jälkeen kysymys herättää numeronäppäimet. Tämä on vuorovaikutteinen matematiikkaharjoitus, joka toimii selaimessa ilman asennusta.",
+        "Ideana on, että jokainen lause on näyttämöohje, joten laskutoimitus syntyy siitä, mitä tapahtuu, ei merkistä. Pois ottamisen tarinassa pinoa ei ole lainkaan: ”Ilmassa leijuu 7 ilmapalloa. 3 ilmapalloa puhkeaa.” Lapsi napauttaa 3 ilmapalloa; jokainen puhkeaa ja jää paikalleen vaaleaksi, yliviivatuksi ääriviivaksi – mitä oli ja mitä on jäljellä, vierekkäin. Yhdistämisen tarinoissa samalle näyttämölle tulee kahta lajia: 4 lintua ja 3 pupua, montako eläintä? Seuraava rivi odottaa, kunnes lapsi on tehnyt jotain näyttämöllä – tarina näytellään, ei vain lueta. Väärä luku näyttää tarinan uudelleen oikeilla luvuilla, ja jokainen kuva numeroidaan, kun se tulee tai lähtee; sen jälkeen näyttämö kertoo tarinan oikein – jos lapsi toi yhden linnun liikaa, vihje kertoo sen. Toisen väärän vastauksen jälkeen jäljellä olevat kuvat numeroidaan, ja viimeisessä on kysymysmerkki; luvun sanoo lapsi itse.",
+        "Harjoitus on OPS 2014:n mukainen: yhteen- ja vähennyslaskun sanallisten tehtävien ratkaiseminen 10:een asti näyttelemällä ne esineillä. Esiopetukseen sopiva. Opettaja valitsee tarinat 5:een, 10:een (oletus) tai 20:een asti, jolloin kahdessa kymmenruudukossa on merkkejä ja kuva näyttää, mitä ne tarkoittavat, ja kytkee ääneen lukemisen päälle tai pois; ilman sitä jokainen rivi odottaa hetken ennen kuin se näytellään. ”Keksi oma tarina” on avoin leikki: pino, näyttämö ja tarina, joka kirjoittuu itsestään lapsen leikkiessä. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Lukee lyhyen tarinan ja päättää, lisätäänkö vai vähennetäänkö.",
-        "Mallintaa sanallisen tehtävän laskupalikoilla kymmenruudukossa.",
-        "Ratkaisee yhteen- ja vähennyslaskun tilanteita kymppiin asti.",
-        "Kirjoittaa vastauksen lukumäärää koskevaan arkiseen kysymykseen."
+        "Sanallisen tehtävän näytteleminen lause kerrallaan",
+        "Lisääminen, pois ottaminen ja yhdistäminen 10:een asti",
+        "Pois lähteneiden ja jäljellä olevien erottaminen toisistaan",
+        "Tuloksen laskeminen ja luvun kirjoittaminen"
       ],
       "howToPlay": [
-        "Lue tarinatehtävä, esimerkiksi 3 lintua istuu ja 2 lentää lisää.",
-        "Näyttele tarina laskupalikoilla kymmenruudukossa, kirjoita sitten näppäimistöllä, montako niitä on, ja paina Tarkista.",
-        "Menikö pieleen? Lue tarina uudelleen ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Lue tarina. Sen ensimmäinen rivi näyttelee itsensä näyttämöllä.",
+        "Näyttele oma rivisi: napauta pinoa (tai vedä siitä) tuodaksesi lisää, tai napauta kuvia, jotta ne lähtevät. Paina sitten Seuraava.",
+        "Laske näyttämöllä vielä olevat kuvat, kirjoita luku näppäimillä ja paina Tarkista.",
+        "Ei ihan? Tarina näytetään uudelleen oikeilla luvuilla – laske vielä kerran. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa ratkaista yhteen- ja vähennyslaskun sanallisia tehtäviä kymppiin asti.",
-        "Lapsi osaa valita oikean laskutoimituksen tarinan merkityksen perusteella.",
-        "Lapsi rakentaa ongelmanratkaisun taidot, joihin myöhempi matematiikka nojaa."
+        "Lisäämisen, pois ottamisen ja yhdistämisen sanallisten tehtävien ratkaiseminen 10:een asti",
+        "Sen ymmärtäminen näyttelemällä, mitä tarina tekee joukolle",
+        "Vain jäljelle jääneiden laskeminen, kun osa lähtee pois"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

@@ -1961,6 +1961,30 @@
         "Skelne over fra ved siden af, og mellem fra ved siden af den ene",
         "Finde et felt ud fra bogstav og tal og bruge nord, øst, syd og vest på et kort"
       ]
+    },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Pingvinen Professor Pip åbner en ny sal i museet, og skattene kommer på et transportbånd: former, der er drejet, bittesmå, strakte eller står på et hjørne. Hver sokkel har en messingklemme i sin egen form. Barnet trækker en skat hen til soklen med dens navn eller trykker først på skatten og så på soklen. Skatte, der ikke passer på nogen sokkel, går gennem døren til Mysteriegalleriet. Det er en interaktiv geometriøvelse til 1. klasse, der kører i browseren uden at installere noget.",
+        "Opfindelsen er klemmen. Mens barnet sorterer, bliver intet bedømt; ved Tjek lukker hver klemme sig om sin skat og holder kun en form, der virkelig er dens form, uanset hvordan den er drejet, og hvor lille den er. En skat, der ikke passer, kører tilbage til båndet med en skygge af sin egen klemme: lige lange sider i samme farve, rette vinkler markeret med en lås, en åbning, hvor figuren er åben, og en bøjet stang, hvor en side er krum. Så ser barnet, hvad der virkelig gør den anderledes. Ved anden fejl lyser den rigtige sokkel for den skat, barnet tager op. Dobbeltgængerne er valgt med vilje: en rombe ved siden af kvadratet, en oval ved siden af cirklen, en femkant ved siden af sekskanten, et åbent kvadrat, et rektangel med runde hjørner.",
+        "Øvelsen følger Fælles Mål i geometri: at genkende og navngive plane figurer uanset placering og størrelse. Den sidste runde i formernes sal slutter med tælling: når alle klemmer er lukket, indstiller barnet, hvor mange trekanter og hvor mange kvadrater der nu står i salen. I rumfigurernes sal viser hver sokkel en ting fra hverdagen, fx en bold, en terning, en dåse eller en bog, i et trådbur, og barnet bringer hver rumfigur, stående, liggende eller drejet, hen til tingen med samme form; kegler, pyramider og enhver rumfigur uden en tilsvarende ting hører til i Mysteriegalleriet. Læreren vælger salen, og om skiltene viser navne eller gåder. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At navngive former, der er drejet, bittesmå, strakte eller på hovedet",
+        "At bruge sider og hjørner til at afgøre, hvilken form det er",
+        "At skelne rigtige former fra dobbeltgængere: rombe, oval, åbent kvadrat",
+        "At finde kugle, terning, cylinder og kasse i ting fra hverdagen"
+      ],
+      "howToPlay": [
+        "Træk en skat fra båndet hen til en sokkel, eller tryk først på skatten og så på soklen.",
+        "Skatte, der ikke passer på nogen sokkel, skal i Mysteriegalleriet.",
+        "Tryk på Tjek, og se, hvilke klemmer der lukker sig.",
+        "I sidste runde indstiller du med − og +, hvor mange trekanter og kvadrater der er."
+      ],
+      "learningGoals": [
+        "Barnet navngiver plane figurer uanset placering og størrelse",
+        "Barnet skelner en form fra en dobbeltgænger ved hjælp af sider og hjørner",
+        "Barnet genkender den samme rumfigur i ting fra hverdagen"
+      ]
     }
   }
 }

@@ -2781,26 +2781,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "No museu do Professor Pip, o pinguim, chega uma remessa bagunçada de figuras: umas viraram de cabeça para baixo, outras ficaram pequenininhas ou esticadas, e nenhuma sabe mais onde deve ficar. O Pip conhece um segredo — cada figura tem seu nome e seu pedestal. A criança vira ajudante do museu: olha com calma para cada figura e a leva até o pedestal certo — círculo, triângulo, quadrado, retângulo ou hexágono. As figuras que não combinam com nenhum nome, como um losango que não é quadrado ou um oval, vão para a Galeria dos Mistérios.",
-        "A grande ideia é simples e poderosa: uma figura continua com o mesmo nome não importa como ela esteja girada ou de que tamanho seja. Um quadrado apoiado sobre a ponta ainda é um quadrado — não virou losango! E um losango de verdade, com os lados inclinados, não é um quadrado. Aqui a criança aprende a diferença entre o quadrado e o retângulo e percebe que reconhecer uma figura é muito mais do que só olhar: é saber o nome que ela carrega em qualquer posição.",
-        "A atividade não tem relógio, pontuação nem contagem— só o prazer calmo de organizar o museu no ritmo da criança. O conteúdo está alinhado à BNCC, na unidade temática de Geometria, ajudando os pequenos do 1º ano a reconhecer e nomear figuras planas em diferentes posições."
+        "O Professor Pip, um pinguim, está abrindo uma nova sala do museu, e os tesouros chegam numa esteira: figuras giradas, pequeninas, esticadas ou apoiadas num canto. Cada pedestal tem uma presilha de latão no seu próprio formato. A criança arrasta um tesouro até o pedestal com o nome dele, ou toca no tesouro e depois no pedestal. Os tesouros que não cabem em nenhum pedestal passam pela porta da Galeria dos Mistérios. É uma atividade interativa de geometria para o 1º ano que funciona no navegador, sem instalar nada.",
+        "A invenção é a presilha. Nada é avaliado enquanto a criança separa; ao tocar em Conferir, cada presilha se fecha em volta do seu tesouro e só segura uma figura que realmente tem o seu formato, não importa como esteja girada nem o tamanho. Um tesouro que não serve volta para a esteira com a sombra da própria presilha: os lados de mesmo comprimento na mesma cor, os cantos retos marcados com um cadeado, uma abertura onde a figura é aberta e uma haste curva onde um lado é curvo. Assim a criança vê o que realmente a torna diferente. No segundo erro, o pedestal certo brilha para o tesouro que a criança pega. As figuras parecidas são de propósito: um losango ao lado do quadrado, um oval ao lado do círculo, um pentágono ao lado do hexágono, um quadrado aberto, um retângulo de cantos arredondados.",
+        "A atividade está alinhada à BNCC na unidade de geometria: reconhecer e nomear figuras planas em diferentes disposições e tamanhos. A última rodada da sala das figuras termina com uma contagem: quando todas as presilhas se fecham, a criança indica quantos triângulos e quantos quadrados há na sala. Na sala dos sólidos, cada pedestal mostra um objeto do dia a dia, como uma bola, um dado, uma lata ou um livro, numa gaiola de arame, e a criança leva cada sólido, em pé, deitado ou girado, ao objeto com o mesmo formato; cones, pirâmides e qualquer sólido sem um objeto igual vão para a Galeria dos Mistérios. O professor escolhe a sala e se as placas mostram os nomes ou adivinhações. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Nomear figuras geométricas planas: círculo, triângulo, quadrado, retângulo e hexágono.",
-        "Reconhecer uma figura mesmo quando ela está inclinada, virada ou de tamanho diferente.",
-        "Distinguir o quadrado do retângulo, observando o que faz cada um ser o que é.",
-        "Diferenciar um losango de um quadrado, percebendo que a posição não muda o nome.",
-        "Observar as figuras com atenção antes de decidir para qual pedestal cada uma vai."
+        "Nomear figuras giradas, pequeninas, esticadas ou de cabeça para baixo",
+        "Usar os lados e os cantos para decidir que figura é",
+        "Diferenciar figuras de verdade das parecidas: losango, oval, quadrado aberto",
+        "Encontrar a esfera, o cubo, o cilindro e o bloco retangular em objetos do dia a dia"
       ],
       "howToPlay": [
-        "Olhe com atenção para cada figura, mesmo que ela esteja inclinada ou pequenininha.",
-        "Leve a figura até o pedestal que tem o nome certo dela — círculo, triângulo, quadrado, retângulo ou hexágono.",
-        "Se uma figura não combina com nenhum nome, leve-a para a Galeria dos Mistérios."
+        "Arraste um tesouro da esteira até um pedestal, ou toque no tesouro e depois no pedestal.",
+        "Os tesouros que não cabem em nenhum pedestal vão para a Galeria dos Mistérios.",
+        "Toque em Conferir e veja quais presilhas se fecham.",
+        "Na última rodada, indique com − e + quantos triângulos e quadrados há."
       ],
       "learningGoals": [
-        "Eu sei nomear o círculo, o triângulo, o quadrado, o retângulo e o hexágono.",
-        "Eu consigo reconhecer uma figura mesmo quando ela está virada ou de outro tamanho.",
-        "Eu sei diferenciar um quadrado de um retângulo e de um losango."
+        "Nomear figuras planas em qualquer posição e tamanho",
+        "Diferenciar uma figura de uma parecida pelos lados e cantos",
+        "Reconhecer o mesmo sólido em objetos do dia a dia"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

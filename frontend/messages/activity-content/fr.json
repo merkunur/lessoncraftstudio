@@ -1584,24 +1584,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "Le professeur Pip, un manchot, te confie le nom de chaque œuvre de son musée ! Ton enfant nomme chaque forme — cercle, triangle, carré, rectangle, hexagone — et l'envoie au socle qui porte son nom. Les trésors arrivent penchés, minuscules, étirés ou à l'envers, mais une forme garde toujours son nom : un carré reste un carré, même tourné comme un losange ! Quand elle est bien nommée, la forme se remet droite et le déguisement tombe. D'autres défis viennent enrichir le jeu : carré ou rectangle en regardant de près, la Galerie mystère pour les formes que l'on ne connaît pas, ou juger si Pip a raison.",
-        "Reconnaître et nommer les figures usuelles indépendamment de leur orientation et de leur taille est un attendu du CP. En distinguant le carré du rectangle et du losange par leurs propriétés — et pas seulement par leur position —, l'enfant développe un vrai regard géométrique. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Espace et géométrie »)."
+        "Le professeur Pip, un manchot, ouvre une nouvelle salle de son musée, et les trésors arrivent sur un tapis roulant : des formes tournées, minuscules, étirées ou posées sur une pointe. Chaque socle porte une pince en laiton à sa forme. L’enfant fait glisser un trésor jusqu’au socle qui porte son nom, ou touche le trésor puis le socle. Les trésors qui ne vont sur aucun socle passent la porte de la Salle Mystère. C’est une activité interactive de géométrie pour le CP, qui fonctionne dans le navigateur sans rien installer.",
+        "L’invention, c’est la pince. Rien n’est jugé pendant le tri ; quand l’enfant touche Vérifier, chaque pince se referme sur son trésor et ne tient qu’une forme qui est vraiment la sienne, quelle que soit sa position ou sa taille. Un trésor qui ne convient pas repart sur le tapis avec l’ombre de sa propre pince : les côtés de même longueur de la même couleur, les angles droits marqués d’un cadenas, une ouverture là où la figure est ouverte et une tige courbée là où un côté est courbe. L’enfant voit ainsi ce qui la rend vraiment différente. À la deuxième erreur, le bon socle s’illumine pour le trésor que l’enfant prend. Les sosies sont voulus : un losange près du carré, un ovale près du cercle, un pentagone près de l’hexagone, un carré ouvert, un rectangle aux coins arrondis.",
+        "L’activité suit les programmes officiels en « espace et géométrie » : reconnaître et nommer les figures planes, quelles que soient leur position et leur taille. La dernière manche de la salle des formes se termine par un dénombrement : quand toutes les pinces sont fermées, l’enfant indique combien de triangles et combien de carrés se trouvent dans la salle. Dans la salle des solides, chaque socle montre un objet du quotidien, un ballon, un dé, une boîte de conserve ou un livre, dans une cage de fil, et l’enfant y apporte chaque solide, debout, couché ou tourné, qui a la même forme ; les cônes, les pyramides et tout solide sans objet assorti vont dans la Salle Mystère. L’enseignant choisit la salle et si les plaques montrent les noms ou des devinettes. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Reconnaître et nommer cercle, triangle, carré, rectangle et hexagone",
-        "Nommer une forme quelle que soit son orientation ou sa taille",
-        "Distinguer le carré du rectangle et du losange",
-        "Juger si une forme est bien nommée",
-        "Regarder de près pour ne pas se tromper"
+        "Nommer des formes tournées, minuscules, étirées ou à l’envers",
+        "Se servir des côtés et des angles pour dire quelle forme c’est",
+        "Distinguer les vraies formes des sosies : losange, ovale, carré ouvert",
+        "Retrouver la boule, le cube, le cylindre et le pavé dans des objets du quotidien"
       ],
       "howToPlay": [
-        "Regarde la forme, puis touche le socle qui porte son nom.",
-        "Une forme bien nommée se remet droite — nomme-les toutes pour ouvrir la salle."
+        "Fais glisser un trésor du tapis jusqu’à un socle, ou touche le trésor puis le socle.",
+        "Les trésors qui ne vont sur aucun socle vont dans la Salle Mystère.",
+        "Touche Vérifier et regarde quelles pinces se ferment.",
+        "À la dernière manche, indique avec − et + combien il y a de triangles et de carrés."
       ],
       "learningGoals": [
-        "Nommer les formes géométriques usuelles",
-        "Reconnaître une forme quelle que soit son orientation",
-        "Distinguer les formes par leurs propriétés"
+        "Nommer les figures planes quelles que soient leur position et leur taille",
+        "Distinguer une forme d’un sosie grâce à ses côtés et à ses angles",
+        "Reconnaître le même solide dans des objets du quotidien"
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

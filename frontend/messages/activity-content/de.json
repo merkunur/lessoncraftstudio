@@ -2197,25 +2197,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "Professor Pip sammelt Formen für sein kleines Museum — und jede einzelne braucht den richtigen Platz. Die Formen treffen schräg, winzig oder in die Länge gezogen ein, manche stehen sogar Kopf. Dein Kind schaut genau hin und bringt jede Form zu dem Podest, auf dem ihr Name steht: Kreis, Dreieck, Quadrat, Rechteck oder Sechseck.",
-        "Dahinter steckt eine wichtige Idee aus der Geometrie: Eine Form behält ihren Namen, egal wie sie gedreht ist oder wie groß sie ist. Ein Quadrat, das auf der Spitze steht, ist immer noch ein Quadrat — auch wenn es im ersten Moment wie eine Raute aussieht. Eine echte Raute dagegen ist kein Quadrat, denn ihre Ecken sind anders. Genau dieses „auch gedreht — du hast es trotzdem erkannt!“ macht aus dem bloßen Ansehen ein echtes Benennen.",
-        "Die Übung kommt ganz ohne Druck aus: keine Zeituhr, keine Punkte, kein Zählen. Dein Kind kann in Ruhe ausprobieren, vergleichen und Formen auch wieder umräumen. So sammelt es spielerisch erste Erfahrungen aus dem Bereich Geometrie des Lehrplans der Grundschule, Leitidee „Raum und Form“."
+        "Professor Pip, der Pinguin, eröffnet einen neuen Saal im Museum, und die Schätze kommen auf einem Förderband: Formen, die gedreht, winzig, gestreckt sind oder auf einer Ecke stehen. Jeder Sockel trägt eine Messingklammer in seiner Form. Das Kind zieht einen Schatz auf den Sockel mit seinem Namen oder tippt zuerst den Schatz und dann den Sockel an. Schätze, die auf keinen Sockel passen, kommen durch die Tür der Rätsel-Galerie. Eine interaktive Geometrie-Übung für den Anfangsunterricht, die im Browser läuft, ohne Installation.",
+        "Das Besondere ist die Klammer. Beim Sortieren wird nichts bewertet; beim Prüfen schließt sich jede Klammer um ihren Schatz und hält nur eine Form, die wirklich ihre Form ist, egal wie sie gedreht und wie klein sie ist. Ein Schatz, der nicht passt, fährt zurück aufs Band und trägt das Schattenbild seiner eigenen Klammer: gleich lange Seiten in derselben Farbe, rechte Winkel mit einem Schloss markiert, eine Lücke, wo die Figur offen ist, und ein gebogener Stab, wo eine Seite krumm ist. So sieht das Kind, was wirklich anders ist. Beim zweiten Fehlversuch leuchtet der richtige Sockel für den Schatz, den das Kind aufhebt. Die Doppelgänger sind gewollt: eine Raute neben dem Quadrat, ein Oval neben dem Kreis, ein Fünfeck neben dem Sechseck, ein offenes Quadrat, ein Rechteck mit runden Ecken.",
+        "Die Übung folgt dem Lehrplan im Bereich Raum und Form: ebene Figuren erkennen und benennen, unabhängig von Lage und Größe. Die letzte Runde im Formensaal endet mit Zählen: Wenn alle Klammern geschlossen sind, stellt das Kind ein, wie viele Dreiecke und wie viele Quadrate jetzt im Saal stehen. Im Saal der Körper zeigt jeder Sockel einen Alltagsgegenstand wie einen Ball, einen Würfel, eine Dose oder ein Buch in einem Drahtkäfig, und das Kind bringt jeden Körper, ob stehend, liegend oder gedreht, zum Gegenstand mit derselben Form; Kegel, Pyramiden und jeder Körper ohne passenden Gegenstand gehören in die Rätsel-Galerie. Die Lehrkraft wählt den Saal und ob die Schilder Namen oder Rätsel zeigen. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Ebene Formen benennen: Kreis, Dreieck, Quadrat, Rechteck und Sechseck.",
-        "Eine Form wiedererkennen, egal wie sie gedreht oder wie groß sie ist.",
-        "Quadrat und Rechteck voneinander unterscheiden.",
-        "Eine Raute von einem Quadrat unterscheiden."
+        "Gedrehte, winzige, gestreckte oder kopfstehende Formen benennen",
+        "An Seiten und Ecken entscheiden, welche Form es ist",
+        "Echte Formen von Doppelgängern unterscheiden: Raute, Oval, offenes Quadrat",
+        "Kugel, Würfel, Zylinder und Quader in Alltagsgegenständen wiederfinden"
       ],
       "howToPlay": [
-        "Schau dir die Form genau an — auch wenn sie schräg liegt oder ganz klein ist.",
-        "Bringe sie zum Podest mit dem passenden Namen.",
-        "Eine Form, die zu keinem Namen passt, schickst du in die Rätsel-Galerie."
+        "Zieh einen Schatz vom Band auf einen Sockel oder tippe zuerst den Schatz und dann den Sockel an.",
+        "Schätze, die auf keinen Sockel passen, kommen in die Rätsel-Galerie.",
+        "Tippe auf Prüfen und schau, welche Klammern sich schließen.",
+        "In der letzten Runde stellst du mit − und + ein, wie viele Dreiecke und Quadrate es sind."
       ],
       "learningGoals": [
-        "Ebene Formen sicher erkennen und mit ihrem richtigen Namen benennen.",
-        "Verstehen, dass Drehen und Größe den Namen einer Form nicht verändern.",
-        "Ähnliche Formen wie Quadrat und Rechteck oder Quadrat und Raute genau unterscheiden."
+        "Ebene Figuren unabhängig von Lage und Größe benennen",
+        "Eine Form an Seiten und Ecken von einem Doppelgänger unterscheiden",
+        "Denselben Körper in Alltagsgegenständen erkennen"
       ]
     },
     "chuffer.rail-decompose.k-oa-a-3": {

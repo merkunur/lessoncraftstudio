@@ -1893,6 +1893,30 @@
         "Lapsi erottaa yläpuolen vierestä ja välin toisen vierestä",
         "Lapsi löytää ruudun kirjaimen ja numeron avulla ja käyttää pohjoista, itää, etelää ja länttä kartalla"
       ]
+    },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Pingviini Professori Pip avaa museoon uuden salin, ja aarteet saapuvat liukuhihnalla: kuvioita, jotka ovat käännettyjä, pikkuruisia, venytettyjä tai seisovat kärjellään. Jokaisella jalustalla on oman muotoisensa messinkipidike. Lapsi vetää aarteen jalustalle, jossa on sen nimi, tai napauttaa ensin aarretta ja sitten jalustaa. Aarteet, jotka eivät sovi millekään jalustalle, viedään Mysteerigallerian ovesta. Tämä on 1. luokan interaktiivinen geometriatehtävä, joka toimii selaimessa ilman asennuksia.",
+        "Keksintö on pidike. Lajittelun aikana mitään ei arvioida; kun lapsi painaa Tarkista, jokainen pidike sulkeutuu aarteensa ympärille ja pitää vain kuviota, jolla on todella sen muoto, olipa se käännetty miten tahansa ja kuinka pieni tahansa. Aarre, joka ei sovi, palaa hihnalle oman pidikkeensä varjo mukanaan: yhtä pitkät sivut samalla värillä, suorat kulmat lukolla merkittyinä, aukko siinä kohdassa, jossa kuvio on avoin, ja taipunut tanko siinä, missä sivu on kaareva. Näin lapsi näkee, mikä sen todella tekee erilaiseksi. Toisella virheellä oikea jalusta hehkuu sille aarteelle, jonka lapsi nostaa. Kaksoisolennot on valittu tarkoituksella: neljäkäs neliön vieressä, soikio ympyrän vieressä, viisikulmio kuusikulmion vieressä, avoin neliö ja suorakulmio, jonka kulmat ovat pyöristetyt.",
+        "Tehtävä noudattaa OPS 2014:ää geometrian osalta: tasokuvioiden tunnistaminen ja nimeäminen niiden asennosta ja koosta riippumatta. Tasokuvioiden salin viimeinen kierros päättyy laskemiseen: kun kaikki pidikkeet ovat sulkeutuneet, lapsi asettaa, montako kolmiota ja montako neliötä salissa nyt on. Kappaleiden salissa jokaisella jalustalla on arkinen esine, esimerkiksi pallo, noppa, tölkki tai kirja, lankahäkissä, ja lapsi vie jokaisen kappaleen, oli se pystyssä, kyljellään tai käännettynä, sen esineen luo, jolla on sama muoto; kartiot, pyramidit ja jokainen kappale, jolle ei ole samanmuotoista esinettä, kuuluvat Mysteerigalleriaan. Opettaja valitsee salin ja sen, näyttävätkö kyltit nimet vai arvoitukset. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Käännettyjen, pikkuruisten, venytettyjen tai ylösalaisin olevien kuvioiden nimeäminen",
+        "Sivujen ja kulmien käyttäminen sen päättelemiseen, mikä kuvio on",
+        "Aitojen kuvioiden erottaminen kaksoisolennoista: neljäkäs, soikio, avoin neliö",
+        "Pallon, kuution, lieriön ja särmiön löytäminen arkisista esineistä"
+      ],
+      "howToPlay": [
+        "Vedä aarre hihnalta jalustalle tai napauta ensin aarretta ja sitten jalustaa.",
+        "Vie aarteet, jotka eivät sovi millekään jalustalle, Mysteerigalleriaan.",
+        "Paina Tarkista ja katso, mitkä pidikkeet sulkeutuvat.",
+        "Viimeisellä kierroksella asetat painikkeilla − ja +, montako kolmiota ja neliötä on."
+      ],
+      "learningGoals": [
+        "Lapsi nimeää tasokuviot niiden asennosta ja koosta riippumatta",
+        "Lapsi erottaa kuvion kaksoisolennosta sivujen ja kulmien avulla",
+        "Lapsi tunnistaa saman kappaleen arkisista esineistä"
+      ]
     }
   }
 }

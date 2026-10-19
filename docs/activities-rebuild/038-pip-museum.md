@@ -81,3 +81,12 @@ ORDER row 38 · id `pip-museum.curate-wing.k-g-a-2` (kept).
 
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - The **it** intro says the child names shapes "toccando il piedistallo giusto". Dragging works as well, so the line is still true.
+
+## Deploy (2026-10-19)
+- **Commit eb535ade.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200.
+- **Production play:** 104 / 104 (en / sv / fi / de at 1366 and 390).
+  - S1: three treasures tapped on and one dragged onto the wrong pedestal. At Check three clasps close and the wrong one rides back wearing its ghost clasp; once it is placed right, the wing opens.
+  - D3: the solids' library objects load and the wing opens.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe:** 9 distinct rounds, and pass 2 is reshuffled, in all 11 locales. Finnish timed out as the 11th page in one browser session and passes on its own.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

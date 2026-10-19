@@ -58,3 +58,6 @@ ORDER row 29 · id `ten-frame.quick-facts-to-5.k-oa-a-5` (kept) · own files `mu
 
 - **A full-page fit at 320 × 640 after a miss** was 22 px short (the header and prompt take 155 px). The Music box button becomes a 48 px ♪ icon in the card row below a 300 px stage, keeping its full label for screen readers.
 - **⚠ A real-tap test scrolls the page:** measure a fit after `scrollTo(0, 0)`. Here the number did not move when the layout shrank, which exposed it.
+
+## Live (2026-10-19)
+Commit 99be8dfa, wrapper 9.763, deploy exit 0. `live-verify-music-box.js` 64/64 on production (en/sv/fi/de × 1366/390): a wrong bar punches nothing ("Look — the rods…"), eight right bars fill Frère Jacques, the crank plays it and the bell pops up; the iframe follows the card (measured after a 1.5 s settle — the parent resizes about half a second after the bubble grows). All eleven locale pages 200.

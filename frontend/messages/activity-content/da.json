@@ -1509,25 +1509,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Et hurtigt talfakta dukker op — 2 + 1, 5 − 2, 4 − 1 — og barnet trykker på det rigtige svar blandt tre tætte talmuligheder, med en tierramme ved siden af som en valgfri kladde. Målet er hurtig, sikker genkaldelse af talfakta inden for 5. Det er en interaktiv matematikøvelse til børnehaveklassen, der kører i browseren, uden oprettelse.",
-        "At være sikker inden for 5 er broen mellem at tælle og rigtig regning. De tre svarmuligheder ligger tæt — for 2 + 2 er mulighederne 3, 4 og 5 — så barnet ikke kan vinde ved at vælge det største eller mindste, men skal kende sit talfakta eller regne det ud på rammen. Hen over runderne begynder de talfakta, barnet først talte sig frem til, at komme med det samme, og det er netop, hvad sikker regning betyder.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge sammen og trække fra sikkert inden for 5. Der er ingen timer og ingen point — kun rolig og legende træning i barnets eget tempo."
+        "Et regnestykke som 3 + 2 eller 5 − 2 dukker op, og under det står fem tykke stave med tallene 1 til 5 – hver stav præcis så mange klodser høj som sit tal. Barnet trykker på den stav, der er svaret. En rigtig stav slår et hul i sin egen række på en papirstrimmel til en spilledåse, og det næste regnestykke glider ind. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er, at svarene er toner. Hver runde er et stykke af en rigtig sang – Mester Jakob, Ode til glæden, Bådsangen – og regnestykkerne er valgt, så svarene i rækkefølge bliver melodiens toner. Mens barnet svarer, lyder alle stave ens, et blødt bank, så melodien ikke kan afsløre regnestykkerne. Når strimlen er fuld, drejer barnet på håndsvinget: hullerne spiller sangen i dens eget tempo, aldrig hurtigere for et hurtigere barn, og sangens billede dukker op. En forkert stav slår ingen huller. I stedet lægger regnestykkets stænger sig op ad den stav, og barnet ser, hvor mange klodser de stikker op eller mangler; i et minusstykke brækker de fjernede klodser af foroven. Efter den anden forkerte stav åbner en femramme med regnestykket som brikker, så barnet kan tælle og prøve igen.",
+        "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge sammen og trække fra sikkert inden for 5, med et niveau op til 10. Læreren vælger niveau, Plus og minus eller Kun plus, og om regnestykkerne vises som tal, prikker (dominobrikker og terninger) eller billeder af frugt. »Toner: ved hvert svar« lader stavene klinge under runden, til en time med musik og matematik. Spilledåsen er åben leg: tryk på de stave, du vil, og drej din egen melodi frem. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Genkalde plus- og minus-talfakta inden for 5",
-        "Skelne tætte svar fra hinanden, som 3, 4 og 5",
-        "Bruge tierrammen til at tjekke et talfakta, når man er i tvivl",
-        "Opbygge hastighed og sikkerhed med de små tal"
+        "At lægge sammen og trække fra inden for 5 uden at tælle fra 1",
+        "At se, hvor langt et forkert svar er fra det rigtige",
+        "At genkende det samme regnestykke som tal, prikker og billeder",
+        "At koble et tal til en længde: 5 er den længste stav"
       ],
       "howToPlay": [
-        "Barnet læser det hurtige talfakta, som 3 + 2 eller 5 − 2.",
-        "Barnet trykker på det svar, det tror er rigtigt, blandt de tre muligheder — og kan kigge på tierrammen for at tjekke.",
-        "En varm bekræftelse viser et rigtigt svar og tilbyder et roligt nyt forsøg, når det er nødvendigt."
+        "Se på regnestykket på kortet.",
+        "Tryk på den stav, der er svaret. En rigtig stav slår et hul i strimlen.",
+        "Hvis stængerne ved siden af en stav ikke er lige så høje som den, så prøv en anden stav. Knappen med femrammen viser regnestykket som brikker.",
+        "Når strimlen er fuld, så drej på håndsvinget for at høre sangen. Ingen tidtagning, ingen point."
       ],
       "learningGoals": [
         "Barnet kan lægge sammen og trække fra sikkert inden for 5",
-        "Barnet kan gå fra at tælle talfakta frem til at huske dem hurtigt",
-        "Barnet kan opbygge den sikre regning, som plus og minus i 1. klasse bygger på"
+        "Barnet kender regnestykker som 3 + 2 og 5 − 2 uden at tælle",
+        "Barnet ser plus og minus som længder, der passer sammen"
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

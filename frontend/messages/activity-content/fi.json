@@ -820,25 +820,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Ruudulle välähtää nopea lasku — 2 + 1, 5 − 2, 4 − 1 — ja lapsi napauttaa oikean vastauksen kolmesta lähekkäisestä lukuvaihtoehdosta, ja kymmenruudukko on vieressä apuna, jos haluaa laskea. Tavoitteena on nopea ja varma laskeminen muistista lukualueella 0–5. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Sujuvuus viiteen asti on silta laskemisen ja varsinaisen laskutoimituksen välillä. Kolme vastausvaihtoehtoa ovat lähellä toisiaan — laskussa 2 + 2 vaihtoehdot ovat 3, 4 ja 5 — joten lapsi ei voi voittaa valitsemalla suurinta tai pienintä, vaan hänen on tunnettava lasku tai ratkaistava se ruudukon avulla. Kierrosten myötä laskut, jotka lapsi aluksi laski sormilla, alkavat tulla heti — ja juuri sitä sujuvuus tarkoittaa.",
-        "Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen: lapsi laskee yhteen ja vähentää sujuvasti lukualueella 0–5. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
+        "Näkyviin tulee lasku, kuten 3 + 2 tai 5 − 2, ja sen alla on viisi paksua sauvaa numeroilla 1–5 – jokainen tasan niin monen palikan korkuinen kuin sen luku. Lapsi napauttaa sauvaa, joka on laskun vastaus. Oikea sauva lyö reiän omalle rivilleen soittorasian paperinauhaan, ja seuraava lasku liukuu esiin. Tämä on vuorovaikutteinen esiopetuksen matematiikkatehtävä, joka toimii selaimessa ilman asennusta.",
+        "Erikoista on, että vastaukset ovat säveliä. Jokainen kierros on pätkä oikeasta laulusta – Jaakko kulta, Oodi ilolle, Venelaulu – ja laskut on valittu niin, että niiden vastaukset ovat järjestyksessä sävelmän sävelet. Kun lapsi vastaa, kaikki sauvat kopahtavat samalla tavalla, joten sävelmä ei voi paljastaa laskuja. Kun nauha on täynnä, lapsi kiertää kampea: reiät soittavat laulun sen omassa tempossa, ei koskaan nopeammin nopeammalle lapselle, ja laulun kuva ponnahtaa esiin. Väärä sauva ei lyö reikää. Sen sijaan laskun palikat asettuvat sen sauvan viereen, ja lapsi näkee, montako palikkaa ne ovat liian korkeita tai matalia; vähennyslaskussa pois otetut palikat irtoavat ylhäältä. Toisen väärän sauvan jälkeen avautuu viiden kehys, jossa lasku näkyy nappuloina, jotta lapsi voi laskea ja yrittää uudelleen.",
+        "Tehtävä on OPS 2014 -opetussuunnitelman perusteiden mukainen: lapsi laskee yhteen ja vähentää sujuvasti viiteen asti, ja lisätasona on laskut kymmeneen asti. Opettaja valitsee tason, Yhteen- ja vähennyslaskut tai Vain yhteenlaskut sekä sen, näkyvätkö laskut numeroina, pisteinä (dominoina ja nopanpintoina) vai hedelmien kuvina. ”Sävelet: joka vastauksella” soittaa sauvojen sävelet jo kierroksen aikana musiikin ja matematiikan tunnille. Soittorasia on vapaata leikkiä: napauta mitä sauvoja haluat ja kierrä oma sävelmäsi soimaan. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Muistaa yhteen- ja vähennyslaskuja lukualueella 0–5.",
-        "Erottaa lähekkäiset vastaukset, kuten 3, 4 ja 5.",
-        "Käyttää kymmenruudukkoa laskun tarkistamiseen epävarmana.",
-        "Kehittää nopeutta ja varmuutta pienten lukujen laskuissa."
+        "Yhteen- ja vähennyslasku viiteen asti ilman laskemista ykkösestä",
+        "Sen näkeminen, kuinka kaukana väärä vastaus on oikeasta",
+        "Saman laskun tunnistaminen numeroina, pisteinä ja kuvina",
+        "Luvun yhdistäminen pituuteen: 5 on pisin sauva"
       ],
       "howToPlay": [
-        "Lue nopea lasku, kuten 3 + 2 tai 5 − 2.",
-        "Napauta vastaus, jonka uskot oikeaksi, kolmesta vaihtoehdosta — vilkaise kymmenruudukkoa, jos haluat tarkistaa.",
-        "Lämmin tarkistus vahvistaa oikean vastauksen ja tarjoaa helpon uuden yrityksen tarvittaessa."
+        "Katso kortissa olevaa laskua.",
+        "Napauta vastauksen sauvaa. Oikea sauva lyö reiän nauhaan.",
+        "Jos sauvan vieressä olevat palikat eivät ole sen korkuisia, kokeile toista sauvaa. Viiden kehyksen nappi näyttää laskun nappuloina.",
+        "Kun nauha on täynnä, kierrä kampea ja kuuntele laulu. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi laskee yhteen ja vähentää sujuvasti lukualueella 0–5.",
-        "Lapsi siirtyy laskujen sormilla laskemisesta niiden muistamiseen nopeasti.",
-        "Lapsi kehittää laskusujuvuutta, johon 1. luokan yhteen- ja vähennyslasku nojaavat."
+        "Lapsi laskee yhteen ja vähentää sujuvasti viiteen asti",
+        "Lapsi osaa laskuja, kuten 3 + 2 ja 5 − 2, laskematta",
+        "Lapsi näkee yhteen- ja vähennyslaskun yhteen sopivina pituuksina"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

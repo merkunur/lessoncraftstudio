@@ -1386,25 +1386,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "En snabb uppgift dyker upp — 2 + 1, 5 − 2, 4 − 1 — och barnet trycker på rätt svar bland tre närliggande tal, med en tioram bredvid som ett valfritt stöd att tänka på. Målet är en snabb och trygg återkallning av talkombinationer inom 5. Den här interaktiva matematikövningen för förskoleklass spelas i webbläsaren utan registrering.",
-        "Säkerhet inom 5 är bron mellan att räkna och riktig aritmetik. De tre svarsalternativen ligger nära varandra — för 2 + 2 är alternativen 3, 4 och 5 — så barnet kan inte vinna genom att välja det största eller minsta, utan måste kunna kombinationen eller räkna ut den på ramen. Genom omgångarna börjar kombinationer som barnet först räknade ut komma direkt, och det är precis vad säkerhet betyder.",
-        "Aktiviteten följer Lgr22: att addera och subtrahera med säkerhet inom 5. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "En uträkning som 3 + 2 eller 5 − 2 dyker upp, och under den står fem tjocka stavar med talen 1 till 5 – varje stav exakt så många klossar hög som sitt tal. Barnet trycker på staven som är svaret. En rätt stav stansar ett hål i sin egen rad på en pappersremsa till en speldosa, och nästa uträkning glider in. Det är en interaktiv matteaktivitet för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är att svaren är toner. Varje omgång är en bit av en riktig sång – Broder Jakob, Ode till glädjen, Båtvisan – och uträkningarna är valda så att svaren, i tur och ordning, blir melodins toner. Medan barnet svarar låter alla stavar likadant, ett mjukt knackande, så att melodin inte kan avslöja uträkningarna. När remsan är full vevar barnet: hålen spelar sången i dess eget tempo, aldrig fortare för ett snabbare barn, och sångens bild dyker upp. En fel stav stansar ingenting. I stället lägger sig uträkningens klossar mot den staven, och barnet ser hur många klossar de sticker upp eller fattas; i en minusuträkning bryts de bortplockade klossarna av upptill. Efter den andra felaktiga staven öppnas en femram med uträkningen som markörer, så att barnet kan räkna och försöka igen.",
+        "Aktiviteten följer Lgr22: att addera och subtrahera med säkerhet inom 5, med en nivå upp till 10. Läraren väljer nivå, Plus och minus eller Bara plus och om uträkningarna visas som siffror, prickar (dominobrickor och tärningar) eller bilder av frukt. ”Toner: vid varje svar” låter stavarna klinga under omgången, för en lektion i musik och matte. Speldosan är öppen lek: tryck på vilka stavar du vill och veva fram din egen melodi. Ingen timer, inga poäng."
       ],
       "practices": [
-        "Komma ihåg additions- och subtraktionskombinationer inom 5",
-        "Skilja närliggande svar åt, som 3, 4 och 5",
-        "Använda tioramen för att kontrollera en kombination när man är osäker",
-        "Bygga snabbhet och trygghet med kombinationer av små tal"
+        "Addera och subtrahera inom 5 utan att räkna från 1",
+        "Se hur långt ett fel svar ligger från det rätta",
+        "Känna igen samma uträkning som siffror, prickar och bilder",
+        "Koppla ett tal till en längd: 5 är den längsta staven"
       ],
       "howToPlay": [
-        "Läs den snabba uppgiften, som 3 + 2 eller 5 − 2.",
-        "Tryck på det svar du tror är rätt bland de tre alternativen — kika på tioramen om du vill kontrollera.",
-        "En varm bekräftelse visar ett rätt svar och bjuder in till ett enkelt nytt försök vid behov."
+        "Titta på uträkningen på kortet.",
+        "Tryck på staven som är svaret. En rätt stav stansar ett hål i remsan.",
+        "Om klossarna bredvid en stav inte är lika höga som den, prova en annan stav. Knappen med femramen visar uträkningen som markörer.",
+        "När remsan är full, veva för att höra sången. Ingen timer, inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan addera och subtrahera med säkerhet inom 5",
-        "Barnet går från att räkna ut kombinationer till att minnas dem snabbt",
-        "Barnet bygger den säkerhet med talkombinationer som additionen och subtraktionen i årskurs 1 vilar på"
+        "Barnet adderar och subtraherar med säkerhet inom 5",
+        "Barnet kan uträkningar som 3 + 2 och 5 − 2 utan att räkna",
+        "Barnet ser addition och subtraktion som längder som passar ihop"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

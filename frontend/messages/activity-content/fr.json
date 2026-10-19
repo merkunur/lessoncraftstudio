@@ -3372,25 +3372,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Un calcul rapide s'affiche — 2 + 1, 5 − 2, 4 − 1 — et l'enfant touche la bonne réponse parmi trois nombres proches, avec un cadre de dix à côté pour vérifier si besoin. Le but est une réponse rapide et confiante pour les calculs dont le résultat ne dépasse pas 5. C'est une activité de calcul interactive pour la maternelle, qui se joue dans le navigateur, sans inscription.",
-        "L'aisance jusqu'à 5 est le pont entre le comptage et le vrai calcul. Les trois réponses proposées sont proches les unes des autres — pour 2 + 2, les choix sont 3, 4 et 5 — si bien que l'enfant ne peut pas gagner en prenant le plus grand ou le plus petit : il doit connaître le résultat ou le retrouver sur le cadre. Au fil des tours, des calculs d'abord comptés un à un commencent à venir tout seuls, et c'est exactement cela, l'aisance.",
-        "Cette activité est alignée sur les programmes officiels : additionner et soustraire avec aisance jusqu'à 5. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Un calcul comme 3 + 2 ou 5 − 2 apparaît, et dessous se dressent cinq grosses lames numérotées de 1 à 5 — chacune exactement aussi haute, en cubes, que son nombre. L’enfant touche la lame qui donne la réponse. Une bonne lame perce un trou dans sa propre ligne d’une bande de papier de boîte à musique, et le calcul suivant arrive. C’est une activité de maths interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée : les réponses sont des notes. Chaque manche est un passage d’une vraie chanson — Frère Jacques, l’Hymne à la joie, la chanson du bateau — et ses calculs sont choisis pour que leurs réponses, dans l’ordre, soient les notes de l’air. Pendant que l’enfant répond, toutes les lames font le même petit toc, si bien que la mélodie ne peut pas souffler les calculs. Quand la bande est pleine, l’enfant tourne la manivelle : les trous jouent la chanson à son propre tempo, jamais plus vite pour un enfant plus rapide, et l’image de la chanson apparaît. Une mauvaise lame ne perce rien. Les réglettes du calcul viennent alors se poser contre cette lame, et l’enfant voit de combien de cubes elles dépassent ou manquent ; dans une soustraction, les cubes enlevés se détachent par le haut. À la deuxième erreur, un cadre à cinq cases s’ouvre avec le calcul en jetons, pour que l’enfant compte et essaie de nouveau.",
+        "L’activité est alignée sur les programmes officiels du cycle 1 : additionner et soustraire avec aisance jusqu’à 5, avec un niveau jusqu’à 10. L’enseignant choisit le niveau, Additions et soustractions ou Additions seulement, et si les calculs apparaissent en nombres, en points (dominos et dés) ou en images de fruits. « Notes : à chaque réponse » fait sonner les lames pendant la manche, pour une séance musique et maths. La boîte à musique est un jeu libre : touche les lames que tu veux, puis tourne la manivelle pour écouter ta mélodie. Ni minuteur ni score."
       ],
       "practices": [
-        "Retrouver les résultats d'additions et de soustractions jusqu'à 5.",
-        "Distinguer des réponses proches, comme 3, 4 et 5.",
-        "Utiliser le cadre de dix pour vérifier un calcul en cas de doute.",
-        "Gagner en rapidité et en confiance avec les petits nombres."
+        "Additionner et soustraire jusqu’à 5 sans recompter depuis 1",
+        "Voir de combien une mauvaise réponse s’écarte de la bonne",
+        "Reconnaître le même calcul en nombres, en points et en images",
+        "Relier un nombre à une longueur : 5 est la lame la plus longue"
       ],
       "howToPlay": [
-        "Lis le calcul rapide, comme 3 + 2 ou 5 − 2.",
-        "Touche la réponse que tu penses juste parmi les trois choix — jette un œil au cadre de dix si tu veux vérifier.",
-        "Un retour chaleureux confirme une bonne réponse et propose un nouvel essai facile si besoin."
+        "Regarde le calcul sur la carte.",
+        "Touche la lame qui donne la réponse. Une bonne lame perce un trou dans la bande.",
+        "Si les réglettes posées contre une lame n’ont pas sa hauteur, essaie une autre lame. Le bouton du cadre à cinq cases montre le calcul en jetons.",
+        "Quand la bande est pleine, tourne la manivelle pour entendre la chanson. Ni minuteur ni score."
       ],
       "learningGoals": [
-        "Additionner et soustraire avec aisance jusqu'à 5.",
-        "Passer du comptage un à un à la mémorisation rapide des résultats.",
-        "Construire l'aisance sur laquelle s'appuient les additions et soustractions du CP."
+        "Additionner et soustraire avec aisance jusqu’à 5",
+        "Connaître des calculs comme 3 + 2 et 5 − 2 sans compter",
+        "Voir l’addition et la soustraction comme des longueurs qui s’ajustent"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

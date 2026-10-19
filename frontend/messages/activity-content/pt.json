@@ -2031,25 +2031,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Um fato rápido pisca na tela — 2 + 1, 5 − 2, 4 − 1 — e a criança toca na resposta certa entre três números bem próximos, com um quadro de dez ao lado servindo de rascunho opcional. O objetivo é lembrar rápido e com confiança dos fatos até 5. É uma atividade de matemática interativa para a educação infantil, que roda no navegador, sem cadastro.",
-        "A fluência até 5 é a ponte entre contar e fazer conta de verdade. As três opções de resposta ficam pertinho umas das outras — para 2 + 2 as opções são 3, 4 e 5 — então a criança não ganha escolhendo o maior ou o menor; ela precisa saber o fato ou resolvê-lo no quadro. Ao longo das rodadas, fatos que no começo eram contados um a um passam a vir na hora, e é justamente isso que significa ter fluência.",
-        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de somar e subtrair com fluência até 5. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+        "Aparece uma conta como 3 + 2 ou 5 − 2 e, embaixo, ficam cinco barras grossas numeradas de 1 a 5 — cada uma com tantos blocos de altura quanto o seu número. A criança toca na barra que responde a conta. Uma barra certa faz um furo na sua própria linha de uma fita de papel de caixinha de música, e a próxima conta entra. É uma atividade interativa de matemática para a pré-escola, que funciona no navegador, sem instalar nada.",
+        "A novidade é que as respostas são notas. Cada rodada é um trecho de uma música de verdade — Frei Martinho, o Hino da Alegria, a música do barquinho — e as contas são escolhidas para que as respostas, em ordem, sejam as notas da melodia. Enquanto a criança responde, todas as barras fazem o mesmo toque baixinho, para que a melodia não entregue as contas. Quando a fita fica completa, a criança gira a manivela: os furos tocam a música no seu próprio ritmo, nunca mais rápido para quem respondeu mais rápido, e a figura da música aparece. Uma barra errada não fura nada; em vez disso, as barrinhas da conta encostam nessa barra e a criança vê quantos blocos passam ou faltam. Numa subtração, os blocos tirados se soltam por cima. No segundo erro abre-se um quadro de cinco com a conta em fichas, para a criança contar e tentar de novo.",
+        "A atividade está alinhada à BNCC, na unidade temática Números: somar e subtrair com fluência até 5, com um nível até 10. O professor escolhe o nível, Adição e subtração ou Só adição, e se as contas aparecem com números, bolinhas (dominós e dados) ou figuras de frutas. “Notas: a cada resposta” faz as barras soarem durante a rodada, para uma aula de música e matemática. A caixinha de música é brincadeira aberta: toque nas barras que quiser e gire a manivela para ouvir sua própria melodia. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Lembrar de fatos de adição e subtração até 5.",
-        "Diferenciar respostas próximas, como 3, 4 e 5.",
-        "Usar o quadro de dez para conferir um fato quando estiver na dúvida.",
-        "Ganhar rapidez e confiança com os fatos de números pequenos."
+        "Somar e subtrair até 5 sem contar desde o 1",
+        "Ver o quanto uma resposta errada está longe da certa",
+        "Reconhecer a mesma conta com números, bolinhas e figuras",
+        "Ligar um número a um comprimento: 5 é a barra mais comprida"
       ],
       "howToPlay": [
-        "Leia o fato rápido, como 3 + 2 ou 5 − 2.",
-        "Toque na resposta que você acha certa entre as três opções — espie o quadro de dez se quiser conferir.",
-        "Uma confirmação carinhosa avisa quando você acerta e oferece uma nova tentativa tranquila quando precisar."
+        "Olhe a conta no cartão.",
+        "Toque na barra que responde. Uma barra certa faz um furo na fita.",
+        "Se as barrinhas ao lado de uma barra não têm a altura dela, tente outra barra. O botão do quadro de cinco mostra a conta com fichas.",
+        "Quando a fita estiver completa, gire a manivela para ouvir a música. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Somar e subtrair com fluência até 5.",
-        "Passar de contar os fatos um a um para lembrar deles rapidamente.",
-        "Construir a fluência de fatos sobre a qual a adição e a subtração do 1º ano se apoiam."
+        "Somar e subtrair com fluência até 5",
+        "Saber contas como 3 + 2 e 5 − 2 sem contar",
+        "Ver a adição e a subtração como comprimentos que se encaixam"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

@@ -4015,25 +4015,26 @@
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {
       "about": [
-        "Eine kurze Aufgabe blitzt auf — 2 + 1, 5 − 2, 4 − 1 — und das Kind tippt aus drei eng beieinanderliegenden Zahlen die richtige Antwort an, mit einem Zehnerfeld daneben als optionalem Hilfsmittel. Das Ziel ist das schnelle, sichere Abrufen von Aufgaben bis 5. Diese interaktive Mathe-Übung für den Kindergarten läuft im Browser, ganz ohne Anmeldung.",
-        "Sicherheit im Zahlenraum bis 5 ist die Brücke zwischen Zählen und echtem Rechnen. Die drei Antworten liegen dicht beieinander — bei 2 + 2 stehen 3, 4 und 5 zur Wahl —, sodass das Kind nicht durch das Wählen der größten oder kleinsten Zahl gewinnen kann; es muss die Aufgabe kennen oder sie am Feld herausfinden. Über die Runden hinweg kommen Aufgaben, die das Kind zuerst abgezählt hat, allmählich sofort — und genau das bedeutet Sicherheit.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — sicher im Zahlenraum bis 5 addieren und subtrahieren. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Eine Aufgabe wie 3 + 2 oder 5 − 2 erscheint, darunter stehen fünf dicke Stäbe mit den Zahlen 1 bis 5 – jeder genau so viele Klötzchen hoch wie seine Zahl. Das Kind tippt auf den Stab, der die Aufgabe löst. Ein richtiger Stab stanzt ein Loch in seine eigene Reihe auf dem Papierstreifen einer Spieluhr, und die nächste Aufgabe rückt nach. Eine interaktive Mathe-Aktivität für Vorschule und Klasse 1, die direkt im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Antworten sind Töne. Jede Runde ist ein Stück aus einem echten Lied – Bruder Jakob, Ode an die Freude, Hänschen klein –, und die Aufgaben sind so gewählt, dass ihre Ergebnisse der Reihe nach die Töne der Melodie ergeben. Solange das Kind rechnet, klingt jeder Stab gleich, ein leises Klopfen, damit die Melodie die Rechnung nicht verrät. Ist der Streifen voll, dreht das Kind die Kurbel: Die Löcher spielen das Lied in seinem eigenen, ruhigen Tempo – für ein schnelleres Kind nicht schneller –, und das Bild zum Lied springt auf. Ein falscher Stab stanzt nichts. Stattdessen legen sich die Klötzchen der Aufgabe an diesen Stab, und das Kind sieht, um wie viele Klötzchen sie herausragen oder fehlen; bei Minusaufgaben brechen die weggenommenen Klötzchen oben ab. Nach dem zweiten falschen Stab öffnet sich ein Fünferfeld mit der Aufgabe als Plättchen, damit das Kind zählen und es noch einmal versuchen kann.",
+        "Die Aktivität ist am Lehrplan ausgerichtet: sicher im Zahlenraum bis 5 addieren und subtrahieren, dazu eine Stufe bis 10. Lehrkräfte wählen die Stufe, Plus und minus oder Nur plus und ob die Aufgaben als Zahlen, Punkte (Dominosteine und Würfel) oder Obstbilder erscheinen. „Töne: Gleich beim Tippen“ lässt die Stäbe schon während der Runde klingen – für eine Stunde mit Musik und Mathe. Die Spieluhr ist offenes Spiel: beliebige Stäbe antippen und die eigene Melodie abkurbeln. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Plus- und Minusaufgaben im Zahlenraum bis 5 abrufen.",
-        "Eng beieinanderliegende Antworten unterscheiden, etwa 3, 4 und 5.",
-        "Das Zehnerfeld nutzen, um eine Aufgabe bei Unsicherheit zu überprüfen.",
-        "Tempo und Sicherheit bei Aufgaben mit kleinen Zahlen aufbauen."
+        "Im Zahlenraum bis 5 addieren und subtrahieren, ohne von 1 an zu zählen",
+        "Sehen, wie weit eine falsche Antwort von der richtigen entfernt ist",
+        "Dieselbe Aufgabe als Zahlen, Punkte und Bilder erkennen",
+        "Eine Zahl mit einer Länge verbinden: 5 ist der längste Stab"
       ],
       "howToPlay": [
-        "Lies die kurze Aufgabe, etwa 3 + 2 oder 5 − 2.",
-        "Tippe aus den drei Antworten die an, die du für richtig hältst — schau auf das Zehnerfeld, wenn du nachprüfen möchtest.",
-        "Eine freundliche Rückmeldung bestätigt die richtige Antwort und lädt bei Bedarf zu einem neuen Versuch ein."
+        "Schau dir die Aufgabe auf der Karte an.",
+        "Tipp auf den Stab mit der Antwort. Ein richtiger Stab stanzt ein Loch in den Streifen.",
+        "Passen die Klötzchen neben einem Stab nicht zu seiner Höhe, probier einen anderen Stab. Der Knopf mit dem Fünferfeld zeigt die Aufgabe als Plättchen.",
+        "Ist der Streifen voll, dreh die Kurbel und hör das Lied. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Im Zahlenraum bis 5 sicher addieren und subtrahieren.",
-        "Vom Abzählen der Aufgaben zum schnellen Abrufen kommen.",
-        "Die Rechensicherheit aufbauen, auf die das Plus- und Minusrechnen der 1. Klasse baut."
+        "Sicher im Zahlenraum bis 5 addieren und subtrahieren",
+        "Aufgaben wie 3 + 2 und 5 − 2 ohne Abzählen wissen",
+        "Plus und minus als Längen sehen, die zusammenpassen"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

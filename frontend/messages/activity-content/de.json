@@ -2219,25 +2219,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "Auf Chuffers Rangierbahnhof rollt eine Ladung Kisten heran – und sie muss auf zwei Wagen verteilt werden: einen blauen und einen roten. Dein Kind schiebt die Kisten von einem Wagen zum anderen, sagt laut, wie viele in jedem Wagen stehen (zum Beispiel „5 ist 2 und 3“), und zieht dann an der Kupplung. Jede gefundene Aufteilung wird ins Fahrtenbuch eingetragen.",
-        "Dahinter steckt eine der wichtigsten Ideen am Anfang der Grundschule: Eine Zahl lässt sich auf ganz verschiedene Arten in zwei Teile zerlegen. Die 5 ist 1 und 4, sie ist 2 und 3, sie ist 0 und 5 – und doch bleibt es immer dieselbe 5. So entdeckt dein Kind das Teil-Teil-Ganzes und baut Schritt für Schritt sein eigenes „Zahlenhaus“: Oben wohnt die ganze Zahl, in jedem Stockwerk eine andere Zerlegung. Wer alle Wege findet, versteht, wie Zahlen aufgebaut sind – die Grundlage für das spätere Rechnen. Im Lehrplan der Grundschule gehört das zum Bereich „Zahlen und Operationen“.",
-        "Chuffers Rangierbahnhof lädt einfach zum Ausprobieren ein. Es gibt keine Uhr, keine Punkte und keinen Wettlauf – nur Zeit zum Schieben, Sagen und Entdecken. Verschätzt sich dein Kind, fährt der Zug einfach noch einmal vor."
+        "Auf Chuffers Rangierbahnhof zerlegt das Kind eine Zahl, indem es eine Weiche stellt. Oben auf einem Hügel wartet ein Wagen voller Kisten. Hält das Kind den Hebel gedrückt, rollen die Kisten nacheinander hinunter; jede fährt in den Wagen, auf den die Weiche zeigt, wenn sie die Abzweigung erreicht. Wird die Weiche mittendrin umgestellt, teilt sich die Ladung – 2 Kisten nach links, 3 nach rechts. Eine interaktive Mathe-Aktivität, die im Browser läuft, ohne Installation.",
+        "Das Kind schiebt nie eine Kiste mit der Hand – jede Zerlegung ist ein Moment, in dem es die Weiche stellt. Die beiden Wagen sind Zehnerfelder, so sehen 3 Kisten auch wie 3 aus. Das Kind liest jeden Wagen ab, stellt das Zahlenhaus ein – ein Kreis für das Ganze über zwei Kreisen für die Teile, wie auf den Arbeitsblättern – und zieht an der Kupplung. Die Kupplung nimmt nur eine Zerlegung an, deren Zahlen zu den Wagen passen und die neu ist; jede landet als Stufe einer Treppe im Fahrtenbuch (1 + 4, 2 + 3, 3 + 2, 4 + 1), und die leeren Stufen zeigen, welche Möglichkeiten noch fehlen. Die Gleichung, etwa 5 = 2 + 3, erscheint erst, wenn das Kind das Zahlenhaus eingestellt hat. Mit dem Zurückrollen fahren alle Kisten wieder in denselben Wagen – das Ganze bleibt gleich –, und die Drehscheibe dreht ein gefundenes Paar um, so wird aus 2 + 3 die Aufgabe 3 + 2. Bei einer falschen Zahl leuchten die Kisten dieses Wagens auf; beim zweiten Mal werden sie bis zu einem Fragezeichen auf der letzten nummeriert, die Zahl sagt das Kind selbst.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet – Zahlen bis 10 auf verschiedene Weise zerlegen und jede Zerlegung festhalten. Neben „alle Möglichkeiten finden“ gibt es Runden mit einem abgedeckten Wagen (er zeigt nur seine Zahl, zum Beispiel 5 = 2 + ☐, und das Kind schickt den fehlenden Teil) und Runden zum Zurückrollen (die Kisten aus zwei beladenen Wagen rollen zurück in einen Wagen, und das Kind stellt das Ganze ein). Lehrkräfte wählen bis 5, 6 bis 9 oder „Zur 10 ergänzen“ – neun Runden, die eine Treppe mit allen Zerlegungen der 10 füllen – und blenden die Drehscheibe ein oder aus. „Rangieren“ ist das offene Spiel mit einer Ladung von 2 bis 10. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "eine Zahl in zwei Teile zerlegen",
-        "alle möglichen Zerlegungen einer Zahl finden",
-        "jede Zerlegung benennen („5 ist 2 und 3“)",
-        "erkennen, dass 2 und 3 dieselben Teile sind wie 3 und 2 (Tauschaufgabe)"
+        "Eine Zahl bis 10 auf verschiedene Weise in zwei Teile zerlegen",
+        "Jeden Teil im Zahlenhaus festhalten: 5 = 2 + 3",
+        "Den fehlenden Teil und das Ganze finden",
+        "Erkennen, dass 2 + 3 und 3 + 2 zwei Zerlegungen desselben Ganzen sind"
       ],
       "howToPlay": [
-        "Schiebe die Kisten zwischen den beiden Wagen hin und her.",
-        "Sag, wie viele Kisten in jedem Wagen stehen.",
-        "Finde jeden anderen Weg, die Ladung aufzuteilen."
+        "Halt den Hebel gedrückt: Die Kisten rollen nacheinander hinunter. Stell die Weiche, um sie in den linken oder rechten Wagen zu schicken.",
+        "Tipp auf einen Kreis im Zahlenhaus und wähle die Zahl, die in jedem Wagen ist.",
+        "Zieh an der Kupplung (oder drück auf Prüfen). Eine neue Möglichkeit kommt ins Fahrtenbuch; finde alle.",
+        "Nicht ganz? Der Wagen, den du noch einmal zählen sollst, leuchtet auf. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Dein Kind zerlegt Zahlen bis 10 in zwei Teile und versteht das Teil-Teil-Ganzes.",
-        "Es findet nach und nach alle Zerlegungen einer Zahl und benennt sie.",
-        "Es entdeckt die Partnerzahlen zur 10 und erste Tauschaufgaben (2 und 3 / 3 und 2)."
+        "Zahlen bis 10 auf verschiedene Weise in zwei Teile zerlegen",
+        "Jede Zerlegung mit einem Zahlenhaus und einer Gleichung wie 5 = 2 + 3 festhalten",
+        "Die Zerlegungen der 10 kennen"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

@@ -1819,6 +1819,30 @@
         "Ordne tre eller fire tall fra det største til det minste",
         "Se at et større tall betyr flere"
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "På Puffens skiftetomt deler barnet opp et tall ved å legge om en sporveksel. Oppe på en bakke står en vogn full av kasser. Så lenge barnet holder spaken nede, triller kassene ned én etter én; hver kasse kjører inn i den vognen sporvekselen peker mot når den kommer til forgreningen. Legger barnet om sporvekselen underveis, deles lasten – 2 kasser til venstre, 3 til høyre. Det er en interaktiv matteaktivitet som går i nettleseren uten installasjon.",
+        "Barnet flytter aldri en kasse med hånden – hver oppdeling er et øyeblikk der barnet legger om sporvekselen. De to vognene er tierrammer, så 3 kasser ser ut som 3. Barnet leser av hver vogn, stiller inn tallhuset – en sirkel for helheten over to sirkler for delene, som på oppgavearkene – og trekker i koblingen. Koblingen tar bare imot en oppdeling der tallene stemmer med vognene og som er ny; hver oppdeling blir et trinn i en trapp i ruteboka (1 + 4, 2 + 3, 3 + 2, 4 + 1), og de tomme trinnene viser hvilke måter som fortsatt mangler. Likningen, for eksempel 5 = 2 + 3, kommer først når barnet har stilt inn tallene. Med rygge-knappen triller alle kassene hjem i den samme vognen – helheten endres ikke – og svingskiva snur et funnet par, så 2 + 3 blir til 3 + 2. Et feil tall tenner kassene i den vognen; andre gang blir de nummerert fram til et spørsmålstegn på den siste – tallet sier barnet selv.",
+        "Aktiviteten følger LK20 i matematikk – å dele opp tall opp til 10 på flere måter og skrive ned hver oppdeling. I tillegg til runder med «alle måter» finnes det runder med en tildekket vogn (den viser bare tallet sitt, for eksempel 5 = 2 + ☐, og barnet sender delen som mangler) og rygge-runder (kassene fra to lastede vogner triller tilbake i én vogn, og barnet stiller inn helheten). Læreren velger opp til 5, 6 til 9 eller «Tiervenner» – ni runder som fyller én trapp med alle måter å lage 10 på – og viser eller skjuler svingskiva. «Skift selv» er den åpne leken, med en last fra 2 til 10. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Dele opp et tall opp til 10 i to deler på flere måter",
+        "Lese hver del i tallhuset: 5 = 2 + 3",
+        "Finne delen som mangler og helheten",
+        "Se at 2 + 3 og 3 + 2 er to måter å dele opp den samme helheten på"
+      ],
+      "howToPlay": [
+        "Hold spaken nede: kassene triller ned én etter én. Legg om sporvekselen for å sende dem til den venstre eller den høyre vognen.",
+        "Trykk på en sirkel i tallhuset og velg tallet i hver vogn.",
+        "Trekk i koblingen (eller trykk på Sjekk). En ny måte havner i ruteboka; finn alle.",
+        "Ikke helt? Vognen du skal telle igjen, lyser opp. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Dele opp tall opp til 10 i to deler på flere måter",
+        "Skrive ned hver oppdeling med et tallhus og en likning som 5 = 2 + 3",
+        "Kunne tiervennene"
+      ]
     }
   }
 }

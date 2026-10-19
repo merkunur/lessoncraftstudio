@@ -2658,6 +2658,30 @@
         "Ordna tre eller fyra tal från det största till det minsta",
         "Se att ett större tal betyder fler"
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "På Puffes bangård delar barnet upp ett tal genom att lägga om en växel. Uppe på en backe står en vagn full med lådor. Så länge barnet håller in spaken rullar lådorna ner en i taget; varje låda åker in i den vagn som växeln pekar mot när den kommer till förgreningen. Lägger barnet om växeln halvvägs delas lasten – 2 lådor till vänster, 3 till höger. Det är en interaktiv matteaktivitet som fungerar i webbläsaren utan installation.",
+        "Barnet flyttar aldrig en låda med handen – varje uppdelning är ett ögonblick då barnet lägger om växeln. De två vagnarna är tioramar, så 3 lådor ser ut som 3. Barnet läser av varje vagn, ställer in talkamratsbilden – en cirkel för helheten över två cirklar för delarna, som på arbetsbladen – och drar i kopplingen. Kopplingen tar bara emot en uppdelning vars tal stämmer med vagnarna och som är ny; varje uppdelning blir ett trappsteg i ruttboken (1 + 4, 2 + 3, 3 + 2, 4 + 1), och de tomma stegen visar vilka sätt som fattas. Likheten, till exempel 5 = 2 + 3, visas först när barnet har ställt in talen. Med backa-knappen rullar alla lådor hem till samma vagn – helheten ändras inte – och vändskivan vänder på ett hittat par, så att 2 + 3 blir 3 + 2. Ett fel tal tänder lådorna i den vagnen; andra gången numreras de fram till ett frågetecken på den sista – talet säger barnet själv.",
+        "Aktiviteten följer Lgr22 – att dela upp tal upp till 10 på flera sätt och skriva varje uppdelning. Förutom rundor med ”alla sätt” finns rundor med en övertäckt vagn (den visar bara sitt tal, till exempel 5 = 2 + ☐, och barnet skickar delen som fattas) och backa-rundor (lådorna i två lastade vagnar rullar tillbaka in i en vagn och barnet ställer in helheten). Läraren väljer upp till 5, 6 till 9 eller ”Talkamrater till 10” – nio rundor som fyller en trappa med alla sätt att göra 10 – och visar eller döljer vändskivan. ”Växla fritt” är den öppna leken, med en last från 2 till 10. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Dela upp ett tal upp till 10 i två delar på flera sätt",
+        "Läsa varje del i talkamratsbilden: 5 = 2 + 3",
+        "Hitta delen som fattas och helheten",
+        "Se att 2 + 3 och 3 + 2 är två sätt att dela upp samma helhet"
+      ],
+      "howToPlay": [
+        "Håll in spaken: lådorna rullar ner en i taget. Lägg om växeln för att skicka dem till den vänstra eller den högra vagnen.",
+        "Tryck på en cirkel i talkamratsbilden och välj talet i varje vagn.",
+        "Dra i kopplingen (eller tryck på Kontrollera). Ett nytt sätt hamnar i ruttboken; hitta alla.",
+        "Inte riktigt? Vagnen du ska räkna igen lyser upp. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Dela upp tal upp till 10 i två delar på flera sätt",
+        "Skriva varje uppdelning med en talkamratsbild och en likhet som 5 = 2 + 3",
+        "Kunna talkamraterna till 10"
+      ]
     }
   }
 }

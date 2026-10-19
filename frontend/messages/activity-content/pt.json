@@ -2796,27 +2796,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "No pátio de manobras do trenzinho Chuffer, um carregamento de caixas acaba de chegar e precisa ser separado em dois vagões: o azul e o vermelho. A criança empurra as caixas de um vagão para o outro, diz em voz alta como ficou a divisão — “5 é 2 e 3” — e puxa o engate para registrar aquela forma no caderno de rotas. A cada engate, uma nova maneira de dividir a mesma carga fica anotada.",
-        "A grande ideia é a decomposição: um mesmo número pode ser dividido em duas partes de muitos jeitos diferentes e continua sendo o mesmo número. O 5, por exemplo, é 1 e 4, é 2 e 3, é 0 e 5 — e em todas as formas ele continua valendo 5. É o todo e as partes: o todo (a carga inteira) se abre em partes, e as partes se juntam de volta no todo. A criança procura todas as maneiras possíveis, descobre os “amigos do dez” (as duplas que formam 10) e percebe que 2 e 3 é a mesma coisa que 3 e 2 — só muda a ordem dos vagões, a carga é a mesma.",
-        "A atividade não pede cadastro e não tem cronômetro nem pontuação— só a criança, as caixas e o tempo dela para explorar. O conteúdo é alinhado à BNCC, na unidade temática Números, trabalhando a composição e a decomposição de números. Compor e decompor é a base que, mais adiante, sustenta a adição e a subtração com segurança."
+        "No pátio de manobras do Chuffer, a criança decompõe um número mudando um desvio da linha de trem. No alto de um morro espera um vagão cheio de caixas. Enquanto a criança segura a alavanca, as caixas descem rolando uma por uma; cada uma entra no vagão para onde o desvio aponta quando chega à bifurcação. Se a criança vira o desvio no meio do caminho, a carga se divide: 2 caixas para a esquerda e 3 para a direita. É uma atividade interativa de matemática que funciona no navegador, sem instalar nada.",
+        "A criança nunca mexe numa caixa com a mão: cada decomposição é o momento em que ela vira o desvio. Os dois vagões são quadros de dez, então 3 caixas parecem mesmo 3. A criança lê cada vagão, coloca os números no diagrama do todo e das partes — um círculo para o todo sobre dois círculos para as partes, como nas folhas de atividade — e puxa o engate. O engate só aceita uma decomposição cujos números batem com os vagões e que é nova; cada uma vira um degrau de uma escada no caderno de rotas (1 + 4, 2 + 3, 3 + 2, 4 + 1), e os degraus vazios mostram os jeitos que ainda faltam. A igualdade, por exemplo 5 = 2 + 3, só aparece depois que a criança colocou os números. O botão de voltar leva todas as caixas de volta ao mesmo vagão — o todo não muda — e o girador vira um par encontrado: 2 + 3 vira 3 + 2. Um número errado acende as caixas daquele vagão; na segunda vez elas são numeradas até um ponto de interrogação na última: quem diz o número é a criança.",
+        "A atividade está alinhada à BNCC, na composição e decomposição de números até 10 de vários jeitos, registrando cada decomposição. Além das rodadas de \"todos os jeitos\" há rodadas com um vagão coberto (ele só mostra seu número, por exemplo 5 = 2 + ☐, e a criança manda a parte que falta) e rodadas de voltar (dois vagões carregados se juntam num só e a criança coloca o todo). O professor escolhe até 5, de 6 a 9 ou \"Formar 10\" — nove rodadas que enchem uma escada com todos os jeitos de fazer 10 — e mostra ou esconde o girador. \"Manobras\" é o jogo aberto, com uma carga de 2 a 10. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Decompor um número até 10 em duas partes usando materiais manipuláveis (as caixas nos vagões).",
-        "Encontrar todas as formas possíveis de dividir a mesma carga entre o vagão azul e o vermelho.",
-        "Dizer em voz alta cada decomposição: “5 é 2 e 3”.",
-        "Reconhecer que 2 e 3 é o mesmo que 3 e 2 — a ordem muda, o total não.",
-        "Descobrir os amigos do dez, as duplas de partes que compõem o número 10."
+        "Decompor um número até 10 em duas partes de vários jeitos",
+        "Ler cada parte no diagrama do todo e das partes: 5 = 2 + 3",
+        "Encontrar a parte que falta e o todo",
+        "Perceber que 2 + 3 e 3 + 2 são dois jeitos de formar o mesmo todo"
       ],
       "howToPlay": [
-        "Empurre as caixas entre o vagão azul e o vagão vermelho até dividir a carga do jeito que quiser.",
-        "Diga quantas caixas ficaram em cada vagão e puxe o engate para registrar essa forma.",
-        "Continue procurando: descubra todas as maneiras de separar a mesma carga em duas partes."
+        "Segure a alavanca: as caixas descem rolando uma por uma. Vire o desvio para mandá-las para o vagão da esquerda ou da direita.",
+        "Toque num círculo do diagrama e escolha o número de cada vagão.",
+        "Puxe o engate (ou aperte Verificar). Um jeito novo entra no caderno de rotas; encontre todos.",
+        "Não deu certo? O vagão que você precisa contar de novo acende. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Eu consigo decompor um número até 10 em duas partes.",
-        "Eu sei dizer cada forma em voz alta, como “5 é 2 e 3”.",
-        "Eu consigo encontrar todas as maneiras de dividir a mesma carga.",
-        "Eu sei que o todo continua o mesmo, não importa como eu separo as partes."
+        "Decompor números até 10 em duas partes de vários jeitos",
+        "Registrar cada decomposição com o diagrama do todo e das partes e uma igualdade como 5 = 2 + 3",
+        "Conhecer os pares que formam 10"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

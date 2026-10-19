@@ -1765,6 +1765,30 @@
         "Lapsi järjestää kolme tai neljä lukua suurimmasta pienimpään",
         "Lapsi näkee, että suurempi luku tarkoittaa enemmän"
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "Puksun ratapihalla lapsi jakaa luvun osiin kääntämällä ratavaihdetta. Mäen päällä odottaa vaunu täynnä laatikoita. Niin kauan kuin lapsi pitää vipua alhaalla, laatikot vierivät alas yksi kerrallaan; jokainen menee siihen vaunuun, johon vaihde osoittaa laatikon tullessa haarautumaan. Jos lapsi kääntää vaihteen kesken kaiken, kuorma jakautuu – 2 laatikkoa vasemmalle, 3 oikealle. Tämä on vuorovaikutteinen matematiikkaharjoitus, joka toimii selaimessa ilman asennusta.",
+        "Lapsi ei koskaan siirrä laatikkoa kädellä – jokainen jako on hetki, jolloin lapsi kääntää vaihteen. Vaunut ovat kymmenruudukoita, joten 3 laatikkoa näyttää kolmelta. Lapsi lukee kummankin vaunun, asettaa luvut lukukaavioon – ympyrä kokonaisuudelle kahden osaympyrän yllä, kuten tehtävämonisteissa – ja vetää kytkimestä. Kytkin hyväksyy vain jaon, jonka luvut vastaavat vaunuja ja joka on uusi; jokaisesta jaosta tulee porrasaskelma reittikirjaan (1 + 4, 2 + 3, 3 + 2, 4 + 1), ja tyhjät askelmat näyttävät, mitkä tavat vielä puuttuvat. Yhtälö, esimerkiksi 5 = 2 + 3, ilmestyy vasta, kun lapsi on asettanut luvut. Peruutusnapilla kaikki laatikot vierivät takaisin samaan vaunuun – kokonaisuus ei muutu – ja kääntöpöytä kääntää löydetyn parin, niin että 2 + 3 muuttuu muotoon 3 + 2. Väärä luku sytyttää vaunun laatikot; toisella kerralla ne numeroidaan, ja viimeisessä on kysymysmerkki – luvun sanoo lapsi itse.",
+        "Harjoitus on OPS 2014:n mukainen: lukujen jakaminen osiin 10:een asti monella tavalla ja jokaisen jaon kirjaaminen. ”Kaikki tavat” -kierrosten lisäksi on kierroksia, joissa toinen vaunu on peitetty (se näyttää vain lukunsa, esimerkiksi 5 = 2 + ☐, ja lapsi lähettää puuttuvan osan), ja peruutuskierroksia (kahden lastatun vaunun laatikot vierivät takaisin yhteen vaunuun ja lapsi asettaa kokonaisuuden). Opettaja valitsee 5:een asti, 6–9 tai ”Kymppiparit” – yhdeksän kierrosta, jotka täyttävät yhden portaikon kaikilla tavoilla tehdä 10 – ja näyttää tai piilottaa kääntöpöydän. ”Vaihtotyö” on avoin leikki, jossa kuorma on 2–10. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Luvun jakaminen kahteen osaan 10:een asti monella tavalla",
+        "Kummankin osan lukeminen lukukaaviosta: 5 = 2 + 3",
+        "Puuttuvan osan ja kokonaisuuden löytäminen",
+        "Sen huomaaminen, että 2 + 3 ja 3 + 2 ovat saman kokonaisuuden kaksi jakoa"
+      ],
+      "howToPlay": [
+        "Pidä vipua alhaalla: laatikot vierivät alas yksi kerrallaan. Käännä vaihde, niin ne menevät vasempaan tai oikeaan vaunuun.",
+        "Napauta lukukaavion ympyrää ja valitse kunkin vaunun luku.",
+        "Vedä kytkimestä (tai paina Tarkista). Uusi tapa menee reittikirjaan; etsi kaikki.",
+        "Ei ihan? Uudelleen laskettava vaunu syttyy. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lukujen jakaminen kahteen osaan 10:een asti monella tavalla",
+        "Jokaisen jaon kirjaaminen lukukaaviolla ja yhtälöllä, kuten 5 = 2 + 3",
+        "Kymppiparien tunteminen"
+      ]
     }
   }
 }

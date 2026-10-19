@@ -2804,25 +2804,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "Allo scalo di smistamento il trenino Chuffer aspetta su un binario: una carica di casse va sistemata su due vagoni, uno azzurro e uno rosso, e il bambino decide quante casse mettere su ciascuno.",
-        "L’idea è la scomposizione: uno stesso numero si scompone in due parti in molti modi diversi e resta sempre lo stesso: è il tutto e le parti. Il bambino scopre tutti i modi, incontra gli amici del dieci e capisce che «2 e 3 è come 3 e 2» — cambia solo l’ordine dei vagoni, la carica è la stessa (la commutatività).",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio, perché comporre e scomporre è la base dell’addizione e della sottrazione."
+        "Allo scalo di smistamento di Chuffer il bambino scompone un numero girando uno scambio dei binari. In cima a una collina aspetta un vagone pieno di casse. Finché il bambino tiene premuta la leva, le casse scendono rotolando una alla volta; ognuna entra nel vagone verso cui punta lo scambio quando arriva al bivio. Se il bambino gira lo scambio a metà, il carico si divide: 2 casse a sinistra e 3 a destra. È un'attività interattiva di matematica che funziona nel browser, senza installare nulla.",
+        "Il bambino non sposta mai una cassa con la mano: ogni scomposizione è il momento in cui gira lo scambio. I due vagoni sono griglie del dieci, quindi 3 casse si vedono proprio come 3. Il bambino legge ogni vagone, imposta lo schema del tutto e delle parti — un cerchio per il tutto sopra due cerchi per le parti, come sulle schede — e tira il gancio. Il gancio accetta solo una scomposizione i cui numeri corrispondono ai vagoni e che è nuova; ognuna diventa un gradino di una scala nel quaderno di viaggio (1 + 4, 2 + 3, 3 + 2, 4 + 1), e i gradini vuoti mostrano i modi che mancano ancora. L'uguaglianza, per esempio 5 = 2 + 3, compare solo dopo che il bambino ha impostato i numeri. Il pulsante per tornare indietro riporta tutte le casse nello stesso vagone — il tutto non cambia — e la piattaforma girevole gira una coppia trovata: 2 + 3 diventa 3 + 2. Un numero sbagliato illumina le casse di quel vagone; la seconda volta vengono numerate fino a un punto interrogativo sull'ultima: il numero lo dice il bambino.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scomporre i numeri entro il 10 in più modi e registrare ogni scomposizione. Oltre ai turni «tutti i modi» ci sono turni con un vagone coperto (mostra solo il suo numero, per esempio 5 = 2 + ☐, e il bambino manda la parte che manca) e turni per tornare indietro (due vagoni carichi si svuotano in uno solo e il bambino imposta il tutto). L'insegnante sceglie fino a 5, da 6 a 9 o «Amici del 10» — nove turni che riempiono una scala con tutti i modi di fare 10 — e mostra o nasconde la piattaforma girevole. «Manovre» è il gioco aperto, con un carico da 2 a 10. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Scomporre un numero entro il 10 in due parti spostando le casse tra i due vagoni.",
-        "Trovare tutti i modi possibili di dividere la stessa carica tra il vagone azzurro e il vagone rosso.",
-        "Dire ad alta voce ogni scomposizione, come «5 è 2 e 3».",
-        "Riconoscere che «2 e 3 è come 3 e 2» e scoprire gli amici del dieci."
+        "Scomporre un numero entro il 10 in due parti in più modi",
+        "Leggere ogni parte nello schema del tutto e delle parti: 5 = 2 + 3",
+        "Trovare la parte che manca e il tutto",
+        "Vedere che 2 + 3 e 3 + 2 sono due modi di fare lo stesso tutto"
       ],
       "howToPlay": [
-        "Sposta le casse tra il vagone azzurro e il vagone rosso per dividere la carica come preferisci.",
-        "Di’ quante casse ci sono in ogni vagone e tira il gancio per registrare quel modo nel quaderno di viaggio.",
-        "Continua a spostare le casse e a tirare il gancio finché non hai trovato tutti i modi."
+        "Tieni premuta la leva: le casse scendono rotolando una alla volta. Gira lo scambio per mandarle nel vagone di sinistra o di destra.",
+        "Tocca un cerchio dello schema e scegli il numero di ogni vagone.",
+        "Tira il gancio (o premi Verifica). Un modo nuovo entra nel quaderno di viaggio; trovali tutti.",
+        "Non proprio? Si illumina il vagone da contare di nuovo. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "So scomporre un numero entro il 10 in due parti.",
-        "So dire ogni modo ad alta voce, come «5 è 2 e 3».",
-        "So che il numero resta lo stesso, comunque io divida le parti."
+        "Scomporre i numeri entro il 10 in due parti in più modi",
+        "Registrare ogni scomposizione con lo schema del tutto e delle parti e un'uguaglianza come 5 = 2 + 3",
+        "Conoscere gli amici del 10"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

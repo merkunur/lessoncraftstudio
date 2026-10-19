@@ -1,0 +1,66 @@
+[
+ {
+  "id": "chuffer.rail-decompose.k-oa-a-3",
+  "tool": "spring-switch-activity",
+  "task_template": "spring-switch",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.3",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "levels": [
+    "upto5",
+    "six9",
+    "ten"
+   ],
+   "default_level": "upto5",
+   "turntable": [
+    "show",
+    "hide"
+   ]
+  },
+  "theme": null,
+  "slug": {
+   "en": "chuffers-switchyard",
+   "de": "zahlen-zerlegen-bis-10-zahlenhaus-klasse-1",
+   "fr": "decomposer-les-nombres-jusqu-a-10-cp",
+   "es": "descomponer-numeros-hasta-10-el-todo-y-sus-partes",
+   "pt": "decompor-numeros-ate-10-o-todo-e-as-partes-1-ano",
+   "it": "scomporre-i-numeri-entro-il-10-il-tutto-e-le-parti-classe-prima",
+   "nl": "getallen-splitsen-tot-10-groep-3",
+   "sv": "dela-upp-tal-till-10-talkamrater",
+   "da": "del-tal-op-til-10-paa-rangerbanegaarden",
+   "no": "del-opp-tall-til-10-pa-skiftetomta",
+   "fi": "lukujen-hajottaminen-kymppiin"
+  },
+  "page_title": {
+   "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)",
+   "de": "Zahlzerlegung bis 10 – online üben mit Chuffers Zügen",
+   "fr": "Décomposition des nombres jusqu'à 10 – exercice en ligne (CP)",
+   "es": "Descomponer números hasta 10: el todo y sus partes (preescolar)",
+   "pt": "Decompor Números até 10: o Todo e as Partes | Atividade 1º ano",
+   "it": "Scomporre i numeri entro il 10: il tutto e le parti | Classe prima",
+   "nl": "Getallen splitsen tot 10: alle splitsingen oefenen – groep 3 | Tuf",
+   "sv": "Dela upp tal till 10 – talkamrater på Puffes bangård",
+   "da": "Del tal op til 10 – på Puffs rangerbanegård",
+   "no": "Del opp tall til 10 – på Puffens skiftetomt",
+   "fi": "Lukujen hajottaminen kymppiin – Puksun ratapiha"
+  },
+  "page_intro": {
+   "en": "An interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.",
+   "de": "Zahlzerlegung bis 10 üben: Zahlen in Teilmengen zerlegen auf Chuffers Rangierbahnhof – Schritt für Schritt. Online, ohne Anmeldung.",
+   "fr": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. En ligne, sans inscription.",
+   "es": "Descompón números hasta 10 en dos partes con Chuffer: juego interactivo y sin registro, alineado a los Planes y programas de estudio (SEP), preescolar.",
+   "pt": "Decompor números até 10 de forma divertida: no pátio do trenzinho Chuffer a criança separa as caixas em dois vagões e descobre o todo e as partes. Sem cadastro, alinhado à BNCC — 1º ano.",
+   "it": "Il trenino Chuffer è allo scalo di smistamento e arriva una carica di casse da dividere tra il vagone azzurro e il vagone rosso. Il bambino sposta le casse, dice ogni modo ad alta voce — «5 è 2 e 3» — e tira il gancio per registrarlo nel quaderno di viaggio. L’obiettivo è trovare tutti i modi: un numero si scompone in molti modi e resta lo stesso (il tutto e le parti), scoprendo gli amici del dieci. Attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+   "nl": "Verdeel de kisten over twee wagons, zeg de splitsing hardop (\"5 is 2 en 3\"), trek aan de koppeling en vind ELKE manier om de lading te verdelen. Zo ontdek je dat je één getal op veel manieren kunt splitsen — en dat het steeds dezelfde 5 blijft: deel-deel-geheel. Interactief en zonder klok of score.",
+   "sv": "Barnet släpper ner lådor från backen och lägger om växeln, så att de rullar in i två vagnar. Varje sätt att dela upp talet skrivs som 5 = 2 + 3 och hamnar i en trappa tills alla sätt är hittade. Övningen är anpassad till Lgr22.",
+   "da": "Barnet sender kasser ned ad bakken og stiller sporskiftet, så de ruller ind i to vogne. Hver måde at dele tallet på skrives som 5 = 2 + 3 og samles i en trappe, indtil alle måder er fundet. Aktiviteten er tilpasset Fælles Mål.",
+   "no": "Barnet sender kasser ned bakken og legger om sporvekselen, så de triller inn i to vogner. Hver måte å dele tallet på skrives som 5 = 2 + 3 og samles i en trapp til alle måtene er funnet. Aktiviteten er tilpasset LK20.",
+   "fi": "Lapsi päästää laatikoita mäeltä ja kääntää vaihdetta, niin että ne vierivät kahteen vaunuun. Jokainen tapa jakaa luku kirjoitetaan muotoon 5 = 2 + 3, ja tavat kerääntyvät portaiksi, kunnes kaikki on löydetty. Harjoitus on OPS 2014:n mukainen."
+  },
+  "kid_prompt_template": "rail-decompose"
+ }
+]

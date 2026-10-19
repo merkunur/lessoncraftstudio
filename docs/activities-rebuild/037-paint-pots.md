@@ -71,3 +71,12 @@ ORDER row 37 · id `choice-board.shape-id.k-g-a-2` (kept).
   - Every locale's intro still says "tap the shape named in each prompt" (the old mechanic).
   - The slug and title stay "Identify the Shape".
   - no: the title says barnehagen.
+
+## Deploy (2026-10-19)
+- **Commit c0ada46b.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200.
+- **Production play:** 80 / 80 (en / sv / fi / de at 1366 and 390).
+  - The house: the roof sets and the wall sheds ("count its corners"); then the picture is completed.
+  - The quilt: an open triangle leaks.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe:** 9 distinct rounds, and pass 2 is reshuffled, in all 11 locales. Finnish times out as the 11th page in one browser session and passes on its own.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

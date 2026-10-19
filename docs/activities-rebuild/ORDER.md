@@ -44,7 +44,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 34 | LIVE 2026-10-19 → `drop-stands-activity` (the Drop-Down Stands), 11 locales; operator review pending | K | K.MD.A.2 | `choice-board.compare-length.k-md-2` | choice-board-activity | Comparing Length — Taller, Shorter, Longer / Kindergarten Measurement |
 | 35 | LIVE 2026-10-19 → `sorting-chutes-activity` (the Sorting Chutes), 11 locales; operator review pending | K | K.MD.B.3 | `choice-board.sort-count.k-md-b-3` | choice-board-activity | Sort and Count — Classify Objects by Category / Kindergarten Measurement & Data |
 | 36 | LIVE 2026-10-19 → `parking-tower-activity` (the lift-and-floor tower), 11 locales; operator review pending | K | K.G.A.1 | `parking-tower.place-by-relation.k-g-a-1` | parking-tower-activity | Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten) |
-| 37 |  | K | K.G.A.2 | `choice-board.shape-id.k-g-a-2` | choice-board-activity | Identify the Shape — Kindergarten Geometry |
+| 37 | LIVE 2026-10-19 → `paint-pots-activity` (the Paint Pots), 11 locales; operator review pending | K | K.G.A.2 | `choice-board.shape-id.k-g-a-2` | choice-board-activity | Identify the Shape — Kindergarten Geometry |
 | 38 |  | K | K.G.A.2 | `pip-museum.curate-wing.k-g-a-2` | pip-museum-activity | Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten) |
 | 39 |  | K | K.G.A.3 | `choice-board.flat-solid.k-g-a-3` | choice-board-activity | Flat or Solid? — 2D and 3D Shapes for Kindergarten |
 | 40 |  | K | K.G.B.4 | `choice-board.count-sides.k-g-b-4` | choice-board-activity | Count the Sides — Kindergarten Geometry |

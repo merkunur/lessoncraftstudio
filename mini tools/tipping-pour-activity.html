@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tipping Pour — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #33 of the one-by-one rebuild — THE TIPPING POUR (K.MD.A.2,
+       which holds more: call it with the berry, then tip one into the other).
+       Shell → own core → this activity. Bump ?v=N on EVERY change to
+       tipping-pour-activity.js / tipping-pour-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/tipping-pour-core.js?v=1"></script>
+  <script src="/mini-tools/tipping-pour-activity.js?v=1"></script>
+  <script>
+    LCS.mount(TippingPourActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

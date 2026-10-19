@@ -1842,6 +1842,30 @@
         "Lapsi merkitsee luvun 11–19 muotoon 10 + N",
         "Lapsi selittää, miksi 13 ja 31 ovat eri lukuja"
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Kumpaan mahtuu enemmän? Tässä lapsi selvittää sen niin kuin se oikeasti tehdään: kaatamalla toisen astian toiseen. Ensin lapsi päättää: vadelma laitetaan sen astian päälle, johon lapsi arvelee mahtuvan enemmän, sen päälle, johon mahtuu vähemmän, tai lasinaluselle ”yhtä paljon”. Sitten lapsi täyttää vasemman astian mehuhanasta, nostaa sen ja kaataa sen omalla kädellään toiseen: mitä enemmän astia kallistuu, sitä nopeammin mehu valuu. Interaktiivinen mittaamisen tehtävä esiopetukseen, joka toimii selaimessa ilman asennusta.",
+        "Keksintö on se, että mehu ratkaisee, ja se voi tehdä vain yhden kolmesta asiasta. Se valuu reunan yli tippa-alustalle: silloin ensimmäiseen mahtui enemmän; se jättää yläreunaan tilaa, joka merkitään katkoviivalla: silloin toiseen mahtuu enemmän; tai se täyttää toisen astian täsmälleen piripintaan, ja reuna kimaltaa: kumpaankin mahtuu yhtä paljon. Jokaiseen lasiin, kannuun, kulhoon ja ruukkuun mahtuu se, mitä sen piirrettyyn muotoon oikeasti mahtuu, joten harhat ovat aitoja: korkea, kapea lasi voi jättää tilaa matalaan, leveään kulhoon, ja paksuseinäinen kiviruukku on ulkoa iso ja sisältä pieni. Kinkkisellä tasolla mikään ulkonäkö ei voita yksin: joskus enemmän mahtuu korkeampaan, joskus leveämpään; ainoa varma keino on kaataa. Väärään arvaukseen vastaa todiste (lätäkkö, tila tai reuna ympyröidään), ja toisen väärän arvauksen jälkeen oikea paikka hehkuu.",
+        "Tehtävä noudattaa esiopetuksen opetussuunnitelman perusteita: lapsi vertailee kahta astiaa suoraan ja kertoo, kumpaan mahtuu enemmän tai vähemmän, eli tilavuutta. Opettaja valitsee helpot tai kinkkiset astiat ja kysymyksen: mahtuu enemmän, mahtuu vähemmän tai sekaisin; yksi kierros kysyy myös, mahtuuko mehu toiseen astiaan. Jokaisen arvauksen jälkeen lapsi voi kaataa edestakaisin niin kauan kuin haluaa, eikä mehua tule koskaan enempää eikä vähempää. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Kahden astian vertaileminen sen mukaan, paljonko niihin mahtuu",
+        "Ensin arvaaminen, sitten kokeileminen kaatamalla",
+        "Sen huomaaminen, että korkea ei aina tarkoita enemmän",
+        "Enemmän, vähemmän ja yhtä paljon erottaminen"
+      ],
+      "howToPlay": [
+        "Laita vadelma sen astian päälle, johon mahtuu enemmän (tai vähemmän, tai kohtaan ”yhtä paljon”).",
+        "Täytä vasen astia painamalla hanaa.",
+        "Vedä se toisen päälle ja kallista sitä vetämällä alaspäin tai käytä kallistusnappia.",
+        "Katso mehua: se valuu yli, jättää tilaa tai täyttää piripintaan."
+      ],
+      "learningGoals": [
+        "Lapsi vertailee kahta astiaa suoraan ja kertoo, kumpaan mahtuu enemmän tai vähemmän",
+        "Lapsi tunnistaa, milloin kahteen astiaan mahtuu yhtä paljon",
+        "Lapsi käyttää kaatamista todisteena eikä ulkonäköä"
+      ]
     }
   }
 }

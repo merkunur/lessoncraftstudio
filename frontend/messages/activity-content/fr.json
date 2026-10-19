@@ -1626,24 +1626,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "Au stand de jus de baies de Bramble, à toi de deviner quel récipient contient le plus de jus ! Ton enfant fait son choix AVANT que Bramble ne verse — et son choix est verrouillé. Ensuite, Bramble verse le jus pour vérifier. Attention : un verre haut et fin peut tromper les yeux, car un récipient large et bas contient parfois plus ! Et parfois, deux récipients très différents contiennent pareil. D'autres défis viennent enrichir le jeu : est-ce que le jus va tenir ou déborder, et redire lequel des deux contenait le plus.",
-        "Comparer directement des contenances — dire lequel contient le plus, le moins, ou autant —, sans compter ni mesurer, est un attendu de la maternelle (« comparer, classer des objets selon leur contenance »). En se fiant à ce qu'il voit, puis à ce qu'il découvre en versant, l'enfant développe le sens des grandeurs et prépare la mesure. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Explorer des formes, des grandeurs, des suites organisées »)."
+        "Lequel contient le plus ? Ici, l’enfant le découvre comme on le fait vraiment : en versant un récipient dans l’autre. D’abord, il s’engage : la framboise va sur celui qui, d’après lui, contient le plus, sur celui qui contient le moins, ou sur le sous-verre « autant ». Puis il remplit le récipient de gauche au robinet de jus, le soulève et le verse dans l’autre de sa propre main : plus il le penche, plus le jus coule vite. C’est une activité de mesure interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’invention : c’est le jus qui décide, et il ne peut faire qu’une de trois choses. Il déborde dans le bac d’égouttage : le premier contenait plus ; il laisse un vide en haut, marqué d’un pointillé : le second contient plus ; ou il remplit l’autre exactement à ras bord, et le bord scintille : ils contiennent autant l’un que l’autre. Chaque verre, pichet, bol ou pot contient ce que sa forme dessinée contient vraiment, donc les illusions sont réelles : un verre haut et fin peut laisser un vide dans un bol bas et large, et un pot en grès épais est grand dehors et petit dedans. Au niveau « Trompe-l’œil », aucune apparence ne gagne seule : tantôt le plus haut contient plus, tantôt le plus large ; le seul moyen sûr, c’est de verser. À un mauvais choix répond la preuve (la flaque, le vide ou le bord est entouré), et un deuxième mauvais choix fait briller la bonne place.",
+        "L’activité suit les programmes de l’école maternelle (explorer des grandeurs) : comparer directement deux récipients et dire lequel contient le plus ou le moins, ici la contenance. L’enseignant choisit des récipients faciles ou trompeurs et la question : contient plus, contient moins ou mélangé ; une manche demande aussi si le jus tiendra dans l’autre récipient. Après chaque choix, l’enfant peut verser dans un sens puis dans l’autre aussi longtemps qu’il veut, et le jus ne devient jamais plus ni moins. Pas de chrono, pas de score."
       ],
       "practices": [
-        "Comparer la contenance de deux récipients",
-        "Dire lequel contient le plus, le moins, ou autant",
-        "Deviner avant de vérifier en versant",
-        "Comprendre qu'un récipient haut et fin ne contient pas toujours le plus",
-        "Reconnaître que deux récipients différents peuvent contenir pareil"
+        "Comparer deux récipients selon ce qu’ils contiennent",
+        "Prévoir d’abord, puis vérifier en versant",
+        "Voir que haut ne veut pas toujours dire plus",
+        "Distinguer plus, moins et autant"
       ],
       "howToPlay": [
-        "Regarde les deux récipients et devine lequel contient le plus de jus.",
-        "Bramble verse pour vérifier, puis touche Vérifier pour servir le prochain ami."
+        "Pose la framboise sur celui qui contient le plus (ou le moins, ou sur « autant »).",
+        "Appuie sur le robinet pour remplir celui de gauche.",
+        "Fais-le glisser au-dessus de l’autre et penche-le en tirant vers le bas, ou utilise le bouton pour pencher.",
+        "Regarde le jus : il déborde, laisse un vide ou remplit à ras bord."
       ],
       "learningGoals": [
-        "Comparer des contenances",
-        "Développer le sens des grandeurs",
-        "Préparer la mesure"
+        "Comparer directement deux récipients et dire lequel contient le plus ou le moins",
+        "Reconnaître quand deux récipients contiennent autant",
+        "Utiliser le transvasement comme preuve, et non l’apparence"
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

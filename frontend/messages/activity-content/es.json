@@ -1238,25 +1238,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "En el puesto de jugos de Bramble el tejón, siempre hay dos recipientes esperando lado a lado: a veces un vaso alto y delgado junto a un tazón bajo y ancho, a veces una jarra frente a una taza. Bramble te hace una sola pregunta antes de servir: «¿En cuál cabe más jugo de mora?». Tú eliges —izquierda, derecha o lo mismo— y entonces se vierte el jugo para comprobar quién tenía razón.",
-        "La idea del juego es comparar la capacidad de dos recipientes de forma directa, sin números y sin medir: solo mirar, predecir y verter. Lo interesante es que la forma engaña. Un vaso alto y delgado parece de «más» solo porque es alto, pero a veces a un tazón bajo y ancho le cabe más jugo. La altura por sí sola no dice cuánto cabe, y descubrirlo con los ojos y con el jugo es justo lo que hace pensar.",
-        "Es una actividad sin cronómetro, sin puntaje y sin nada que contar. Si tu predicción no coincide con el jugo, no pasa nada: es un descubrimiento —«¡mis ojos me engañaron!»— y así se aprende. Está alineada con los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del campo del pensamiento matemático (Magnitudes y medida)."
+        "¿A cuál le cabe más? Aquí el niño lo descubre como de verdad se hace: vertiendo un recipiente en el otro. Primero decide: pone la frambuesa en el que cree que le cabe más, en el que le cabe menos o en el posavasos de \"lo mismo\". Luego llena el recipiente de la izquierda en la llave del jugo, lo levanta y lo vierte en el otro con su propia mano: entre más lo inclina, más rápido corre el jugo. Es una actividad interactiva de medición para preescolar que funciona en el navegador, sin instalar nada.",
+        "La invención es que el jugo decide, y solo puede hacer una de tres cosas. Se derrama por el borde a la charola de goteo: al primero le cabía más; deja un espacio arriba, marcado con una línea punteada: al segundo le cabe más; o llena el otro exactamente hasta el borde, y el borde brilla: a los dos les cabe lo mismo. A cada vaso, jarra, tazón u olla le cabe lo que de verdad le cabe a su forma dibujada, así que las ilusiones son reales: un vaso alto y delgado puede dejar espacio en un tazón bajo y ancho, y una olla de barro gruesa es grande por fuera y chica por dentro. En el nivel engañoso ninguna apariencia gana sola: a veces le cabe más al más alto, a veces al más ancho; lo único seguro es verter. A una respuesta equivocada contesta la prueba (el charco, el espacio o el borde quedan marcados con un círculo), y una segunda respuesta equivocada hace brillar el lugar correcto.",
+        "Está alineada con los planes y programas de estudio de la SEP para preescolar: comparar directamente dos recipientes y decir a cuál le cabe más o menos, en este caso la capacidad. El docente elige recipientes fáciles o engañosos y la pregunta: le cabe más, le cabe menos o mezclado; una ronda también pregunta si el jugo cabrá en el otro recipiente. Después de cada respuesta, el niño puede verter de uno a otro todo lo que quiera, y el jugo nunca aumenta ni disminuye. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Predecir en cuál de los dos recipientes cabe más jugo.",
-        "Verter el jugo para comprobar si la predicción fue correcta.",
-        "Reconocer que la forma engaña: un recipiente alto y delgado no siempre tiene más que uno bajo y ancho.",
-        "Describir con las palabras «cabe más», «cabe menos» y «cabe lo mismo»."
+        "Comparar dos recipientes según lo que les cabe",
+        "Predecir primero y luego comprobar vertiendo",
+        "Ver que alto no siempre quiere decir más",
+        "Distinguir más, menos y lo mismo"
       ],
       "howToPlay": [
-        "Observa con calma los dos recipientes que puso Bramble.",
-        "Predice en cuál cabe más jugo: izquierda, derecha o los dos lo mismo.",
-        "Mira cómo se vierte el jugo y comprueba si acertaste."
+        "Pon la frambuesa en el recipiente al que le cabe más (o menos, o en \"lo mismo\").",
+        "Abre la llave para llenar el de la izquierda.",
+        "Arrástralo sobre el otro e inclínalo arrastrando hacia abajo, o usa el botón para inclinar.",
+        "Mira el jugo: se derrama, deja espacio o llena hasta el borde."
       ],
       "learningGoals": [
-        "Comparar dos recipientes directamente por su capacidad, sin medir ni contar.",
-        "Entender que a un recipiente le puede caber más aunque se vea más bajo o más pequeño.",
-        "Construir un primer sentido de la magnitud, como preparación para medir más adelante con litros."
+        "Comparar directamente dos recipientes y decir a cuál le cabe más o menos",
+        "Reconocer cuando a dos recipientes les cabe lo mismo",
+        "Usar el vertido como prueba, no la apariencia"
       ]
     },
     "fox-forge.fraction.3-nf-a-1": {

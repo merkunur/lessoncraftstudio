@@ -1,0 +1,67 @@
+[
+ {
+  "id": "bramble.holds-more.k-md-a-2",
+  "tool": "tipping-pour-activity",
+  "task_template": "tipping-pour",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.MD.A.2",
+   "grade": "K",
+   "strand": "Measurement & Data"
+  },
+  "params": {
+   "cups": [
+    "easy",
+    "tricky"
+   ],
+   "question": [
+    "more",
+    "less",
+    "mixed"
+   ],
+   "default_cups": "easy",
+   "default_question": "more"
+  },
+  "theme": null,
+  "slug": {
+   "en": "brambles-berry-juice-stand",
+   "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1",
+   "fr": "comparer-les-contenances-lequel-contient-le-plus-gs",
+   "es": "comparar-capacidad-en-cual-cabe-mas",
+   "pt": "comparar-capacidade-em-qual-cabe-mais-1-ano",
+   "it": "confrontare-la-capacita-quale-bicchiere-contiene-di-piu-classe-prima",
+   "nl": "inhoud-vergelijken-welke-beker-meer-kleuters",
+   "sv": "jamfor-volym-vilket-karl-rymmer-mest",
+   "da": "sammenlign-rumfang-hvilken-kan-rumme-mest",
+   "no": "sammenlign-volum-hvilken-rommer-mest",
+   "fi": "vertaile-tilavuutta-kumpaan-mahtuu-enemman"
+  },
+  "page_title": {
+   "en": "Which Holds More? — Bramble's Berry-Juice Stand",
+   "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1",
+   "fr": "Comparer les contenances : lequel contient le plus ? - GS",
+   "es": "Comparar capacidad: ¿en cuál cabe más? (preescolar)",
+   "pt": "Comparar Capacidade: Em Qual Cabe Mais? — Atividade de 1º Ano (BNCC)",
+   "it": "Quale bicchiere contiene di più? Il banco di Bramble | Classe prima",
+   "nl": "Inhoud vergelijken: waar past het meeste in? – kleuters | Storm",
+   "sv": "Vilket kärl rymmer mest? — Jämför volym i förskoleklass",
+   "da": "Hvilken kan rumme mest? — Sammenlign rumfang i børnehaveklassen",
+   "no": "Hvilken rommer mest? — Sammenlign volum på 1. trinn",
+   "fi": "Kumpaan mahtuu enemmän? — Tilavuuden vertailua esiopetuksessa"
+  },
+  "page_intro": {
+   "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same.",
+   "de": "Fassungsvermögen vergleichen in Klasse 1: Schätze, welches Gefäß mehr fasst, und gieße die Becher aus, um es zu prüfen – interaktiv. Jetzt ausprobieren!",
+   "fr": "Devine quel récipient contient le plus de jus de baies, puis verse pour vérifier — un verre haut et fin peut tromper tes yeux ! Une activité de contenance interactive pour la GS, sans compter : comparer directement deux récipients et dire lequel contient le plus, le moins, ou pareil.",
+   "es": "Compara capacidad: ¿en cuál cabe más? Actividad con Bramble, interactiva y sin registro para preescolar, alineada a los Planes y programas de estudio (SEP).",
+   "pt": "Comparar capacidade sem medir: na barraquinha de suco do Bramble, descubra em qual recipiente cabe mais suco de amora. Atividade de 1º ano, sem cadastro, alinhada à BNCC.",
+   "it": "Indovina a occhio quale bicchiere contiene più succo di frutti di bosco, poi versa il succo di more per scoprirlo: un bicchiere alto e stretto inganna l’occhio! Un’attività di capacità interattiva, senza contare: confronta direttamente due recipienti e dì quale contiene di più, di meno o la stessa quantità. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+   "nl": "Bekijk de twee bekers naast elkaar en voorspel welke er meer bessensap in kan. Daarna schenk je het sap in en zie je meteen of je gelijk had. Het leuke: de vorm kan je ogen voor de gek houden — een hoog, smal glas lijkt vaak meer, terwijl een lage, brede kom er soms juist meer in kwijt kan. Geen cijfers en geen meten: gewoon goed kijken, voorspellen en ontdekken. Interactief.",
+   "sv": "Barnet gissar vilket kärl som rymmer mest, häller sedan det ena i det andra och ser saften rinna över, lämna plats eller nå ända upp till kanten. För förskoleklass, i linje med Lgr22.",
+   "da": "Barnet gætter, hvilken beholder der kan rumme mest, og hælder så den ene over i den anden: saften løber over, efterlader plads eller når helt op til kanten. Til børnehaveklassen, tilpasset Fælles Mål.",
+   "no": "Barnet gjetter hvilken beholder som rommer mest, og heller så den ene over i den andre: saften renner over, etterlater plass eller når helt opp til kanten. For 1. trinn, i tråd med LK20.",
+   "fi": "Lapsi arvaa, kumpaan astiaan mahtuu enemmän, ja kaataa sitten toisen toiseen: mehu valuu yli, jättää tilaa tai täyttää astian piripintaan. Esiopetukseen, OPS 2014:n mukaisesti."
+  },
+  "kid_prompt_template": "tipping-pour"
+ }
+]

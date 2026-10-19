@@ -705,25 +705,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "At Bramble's berry-juice stand, two containers appear — like a tall skinny glass beside a short wide bowl — and the child predicts which holds more juice, then pours to find out. It's a Kindergarten activity built around one question, which cup holds more, and it plays in the browser with no download and no account.",
-        "The whole point is that your eyes can fool you: a tall, narrow glass can look like it holds the most yet hold less than a low, wide dish. The child compares the two containers directly, makes a call, and watches the juice pour to check it, building the idea that 'holds more' is about capacity, not height. Some rounds ask which is the same, or whether one container's juice fits inside the other — no counting and no numbers anywhere.",
-        "It is aligned to Common Core K.MD.A.2 — directly comparing two objects with a measurable attribute in common and describing which holds more or less. No timer, no score — just calm, playful practice."
+        "Which holds more? Here the child finds out the way it is really done: by pouring one container into the other. First the child makes a call: the raspberry goes on the one they think holds more, on the one that holds less, or on the \"same\" coaster. Then they fill the left one at the juice tap, pick it up and tip it into the other with their own hand: the further they tip, the faster the juice runs. It is an interactive Kindergarten measurement activity that runs in the browser with nothing to install.",
+        "The invention is that the juice decides, and it can only do one of three things. It spills over the rim into the drip tray, so the first one held more; it leaves a gap at the top, marked with a dashed line, so the second one holds more; or it fills the other one exactly to the brim, and the brim sparkles: they hold the same. Every glass, jug, bowl and pot holds what its drawn shape really holds, so the illusions are real ones: a tall thin glass can leave a gap in a low wide bowl, and a thick stoneware pot is big outside and small inside. On the tricky level no single look wins: sometimes the taller one holds more, sometimes the wider one, so the only sure way is to pour. A wrong call is answered by the evidence (the puddle, the gap or the brim is ringed), and a second wrong call makes the right place glow.",
+        "It is aligned to Common Core K.MD.A.2: directly comparing two objects with a measurable attribute in common, to see which has more of the attribute and which has less; here the attribute is capacity. Teachers choose easy or tricky cups and the question: holds more, holds less, or mixed; one round also asks whether the juice will fit in the other one. After each call the child can pour back and forth as long as they like, and the juice never gets more or less. No timer, no score."
       ],
       "practices": [
-        "Comparing two containers to tell which holds more or less juice",
-        "Looking past how tall or wide a container looks to its real capacity",
-        "Predicting first, then pouring to check the prediction",
-        "Recognizing when two different-looking cups hold the same amount"
+        "Comparing two containers by how much they hold",
+        "Predicting first, then checking by pouring",
+        "Seeing that tall does not always mean more",
+        "Telling more, less and the same apart"
       ],
       "howToPlay": [
-        "Look at the two containers and call which one holds more berry juice before Bramble pours.",
-        "Watch the juice pour to see if your prediction was right.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Put the raspberry on the one you think holds more (or less, or on \"the same\").",
+        "Press the tap to fill the left one.",
+        "Drag it over the other one and tip it by dragging down, or use the tip button.",
+        "Watch the juice: it spills over, leaves a gap, or fills to the brim."
       ],
       "learningGoals": [
-        "Directly compare two containers and tell which holds more, less, or the same — the focus of Common Core K.MD.A.2.",
-        "Understand that capacity is not the same as how tall a container looks.",
-        "Build the compare-by-an-attribute thinking that measurement and data grow from."
+        "Directly compare two containers and say which holds more or less, the focus of Common Core K.MD.A.2",
+        "Say when two containers hold the same",
+        "Use pouring as the test, not how a container looks"
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

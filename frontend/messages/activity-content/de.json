@@ -2173,25 +2173,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "An Brambles Saftstand stehen immer zwei Gefäße nebeneinander — vielleicht ein hoher Becher und eine breite Schale, ein Krug und ein Glas oder eine Flasche und eine Tasse. Dein Kind überlegt zuerst: In welches Gefäß passt mehr Beerensaft? Dann wird eingegossen, und beim Umschütten zeigt sich, ob die Vermutung gestimmt hat.",
-        "Darum geht es: Zwei Gefäße werden direkt nach ihrem Fassungsvermögen verglichen — ganz ohne Zahlen und ohne Messen. Spannend wird es, weil die Form täuschen kann. Ein hohes, schmales Glas sieht oft nach „mehr“ aus, obwohl eine niedrige, breite Schale in Wirklichkeit mehr Saft fasst. Dass die Höhe allein nichts über das Fassungsvermögen verrät, entdeckt dein Kind hier Schritt für Schritt selbst.",
-        "Die Aufgaben gehören zum Bereich „Größen und Messen“ des Lehrplans der Grundschule. Es gibt keine Zeit, keine Punkte und nichts zu zählen — und wenn eine Vermutung einmal danebenliegt, ist das kein Fehler, sondern eine kleine Entdeckung: „Mein Auge hat mich getäuscht!“"
+        "Wo passt mehr hinein? Hier findet das Kind es so heraus, wie man es wirklich macht: indem es ein Gefäß in das andere gießt. Zuerst legt es sich fest: Die Himbeere kommt auf das Gefäß, in das seiner Meinung nach mehr passt, auf das, in das weniger passt, oder auf den Untersetzer „gleich viel“. Dann füllt es das linke Gefäß am Safthahn, hebt es hoch und kippt es mit der eigenen Hand ins andere: Je weiter es kippt, desto schneller läuft der Saft. Eine interaktive Mess-Übung für Klasse 1, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Der Saft entscheidet, und er kann nur eines von drei Dingen tun. Er läuft über den Rand in die Tropfschale – dann fasste das erste Gefäß mehr; er lässt oben eine Lücke, gestrichelt markiert – dann fasst das zweite mehr; oder er füllt das andere genau bis zum Rand, und der Rand funkelt: Beide fassen gleich viel. Jedes Glas, jeder Krug, jede Schüssel und jeder Topf fasst, was seine gezeichnete Form wirklich fasst, deshalb sind die Täuschungen echt: Ein hohes, schmales Glas kann in einer flachen, breiten Schüssel eine Lücke lassen, und ein dickwandiger Steintopf ist außen groß und innen klein. In der kniffligen Stufe gewinnt kein Blick allein: Mal fasst das höhere mehr, mal das breitere, sicher ist nur das Gießen. Auf einen falschen Tipp antwortet der Beweis (die Pfütze, die Lücke oder der Rand wird eingekreist), und nach einem zweiten falschen Tipp leuchtet die richtige Stelle.",
+        "Die Übung folgt den Lehrplänen im Bereich Größen und Messen: zwei Gefäße direkt vergleichen und sagen, in welches mehr oder weniger hineinpasst, hier das Fassungsvermögen. Lehrkräfte wählen leichte oder knifflige Gefäße und die Frage: passt mehr, passt weniger oder gemischt; eine Runde fragt außerdem, ob der Saft ins andere Gefäß passt. Nach jedem Tipp kann das Kind hin und her gießen, so lange es will, und der Saft wird nie mehr und nie weniger. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Vorhersagen, welches Gefäß mehr Saft fasst",
-        "Durch Umgießen prüfen, ob die Vermutung stimmt",
-        "Erkennen, dass die Form täuschen kann — hoch und schmal ist nicht automatisch mehr als niedrig und breit",
-        "Mit den Wörtern „fasst mehr“, „fasst weniger“ und „fasst gleich viel“ beschreiben"
+        "Zwei Gefäße danach vergleichen, wie viel hineinpasst",
+        "Erst vermuten, dann durch Gießen prüfen",
+        "Erkennen, dass hoch nicht immer mehr bedeutet",
+        "Mehr, weniger und gleich viel unterscheiden"
       ],
       "howToPlay": [
-        "Schau dir die beiden Gefäße genau an",
-        "Sag voraus, welches mehr fasst — links, rechts oder beide gleich viel",
-        "Schau beim Eingießen zu und prüfe, ob du recht hattest"
+        "Leg die Himbeere auf das Gefäß, in das mehr passt (oder weniger, oder auf „gleich viel“).",
+        "Drück auf den Hahn und füll das linke Gefäß.",
+        "Zieh es über das andere und kipp es, indem du nach unten ziehst, oder nimm den Kipp-Knopf.",
+        "Schau auf den Saft: Er läuft über, lässt eine Lücke oder füllt bis zum Rand."
       ],
       "learningGoals": [
-        "Zwei Gefäße direkt nach ihrem Fassungsvermögen vergleichen",
-        "Verstehen, dass ein Gefäß auch dann mehr fassen kann, wenn es niedriger aussieht",
-        "Ein erstes Größenverständnis aufbauen — als Vorbereitung auf das spätere Messen mit Litern"
+        "Zwei Gefäße direkt vergleichen und sagen, in welches mehr oder weniger passt",
+        "Erkennen, wann in zwei Gefäße gleich viel passt",
+        "Das Gießen als Prüfung nutzen, nicht das Aussehen"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

@@ -3576,25 +3576,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Er verschijnt steeds één vorm en het kind tikt aan of die plat is of een lichaam. De platte (2D-)vormen zijn bijvoorbeeld een cirkel, driehoek, vierkant en zeshoek; de lichamen (3D) zijn een kubus, bol, cilinder en kegel. Het is een interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op tablet, telefoon en computer — zonder installatie en zonder registratie.",
-        "Het grote idee is het verschil tussen een vorm die je op papier kunt tekenen en een vorm die je kunt vastpakken. Het kind benoemt de vormen hier niet, maar sorteert ze in tweedimensionaal en driedimensionaal. Door bekende platte vormen naast hun ruimtelijke 'familieleden' te zetten — een cirkel naast een bol, een vierkant naast een kubus — gaat het kind kijken of een vorm diepte heeft. Dat is de eerste stap naar het begrijpen van lichamen.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: vormen aanduiden als tweedimensionaal (plat) of driedimensionaal (een lichaam). Dit hoort bij groep 1-2 (kleuters). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Aan het eind van een postbalie staat een rode brievenbus, en de postzak zit vol vormen: cirkels, vierkanten, driehoeken en sterren, en ook bollen, kubussen, cilinders, kegels en piramides, sommige gedraaid en sommige piepklein. Het kind sleept elke vorm naar de brievenbak of de pakketbak, of tikt hem aan en dan de bak. Tijdens het sorteren wordt niets beoordeeld, en niets draait zich om en verraadt het antwoord. Het is een interactieve meetkundeoefening die in de browser werkt, zonder iets te installeren.",
+        "De vondst is de gleuf. Bij Controleren wordt elke brief voor de gleuf op zijn kant gezet: een vlakke figuur wordt een dunne lijn en glijdt erdoor, een ruimtefiguur blijft dik, loopt vast en valt terug in de zak. Elk pakket gaat naar de plank, waar een klein raampje het van opzij laat zien; een vlakke figuur die daar staat, kantelt tot een lijn en glijdt eraf. Een vorm die terugkomt, laat zien hoe hij er op zijn kant uitziet, een lijn naast een dik blok, en de hint zegt waarom: op hun kant worden vlakke figuren een dunne lijn, ruimtefiguren blijven dik. Bij de tweede misser wijst een pijl op elke vorm naar zijn bak. De tweelingen zijn met opzet gekozen: een cirkel en een bol, een vierkant en een kubus, een driehoek en een piramide zitten in dezelfde zak.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor meetkunde: vlakke figuren en ruimtefiguren van elkaar onderscheiden. Twee teltaken gaan een stap verder. Een doorzichtige ruimtefiguur staat op een draaischijf, met de verborgen ribben gestippeld; het kind kan hem draaien, trekt dan aan het lipje en hij vouwt open tot zijn platte bouwplaat. Elk plat vlak heeft een poststempel nodig voordat de bouwplaat door de gleuf mag, en het kind tikt met de getallen 1 tot en met 9 aan hoeveel het er zijn: een kubus heeft er zes, niet alleen de drie die je ziet. De gebogen kant van een cilinder rolt uit tot een gestreept vel dat geen stempel krijgt. Bij de dingen van elke dag dragen een dobbelsteen, een boek, een gum, een cadeau, een blik en een trommel uit de beeldbank de omtrek van hun ruimtefiguur. De leerkracht kiest de taak. Zonder klok, zonder punten."
       ],
       "practices": [
-        "Platte (2D-)vormen onderscheiden van lichamen (3D-vormen)",
-        "Een cirkel, vierkant en driehoek herkennen als plat, en een kubus, bol en kegel als lichaam",
-        "Opmerken of een vorm diepte heeft — iets wat je kunt vastpakken in plaats van tekenen",
-        "Vormen in twee groepen sorteren in plaats van ze alleen te benoemen"
+        "Vlakke figuren onderscheiden van ruimtefiguren",
+        "Zien dat een vlakke figuur geen dikte heeft en een ruimtefiguur altijd wel",
+        "Tweelingen uit elkaar houden: een cirkel en een bol, een vierkant en een kubus",
+        "De platte vlakken van kubussen, balken, piramides, prisma's en cilinders tellen"
       ],
       "howToPlay": [
-        "Bekijk de vorm op het bord.",
-        "Beslis of de vorm plat is of een lichaam en tik op het bijbehorende vlak, en druk daarna op Controleer.",
-        "Probeer het wanneer je maar wilt opnieuw — er is geen timer en geen score."
+        "Sleep elke vorm naar de brievenbak of de pakketbak, of tik hem aan en dan de bak.",
+        "Tik op Controleren en kijk naar de gleuf en de plank.",
+        "Bij de teltaken trek je aan het lipje, stempel je elk plat vlak en tik je aan hoeveel het er zijn.",
+        "Tik op Controleren om de bouwplaat door de gleuf te posten."
       ],
       "learningGoals": [
-        "Het kind duidt vormen aan als plat (tweedimensionaal) of als een lichaam (driedimensionaal).",
-        "Het kind verbindt een platte vorm met zijn ruimtelijke familielid, zoals een vierkant en een kubus.",
-        "Het kind legt de basis om later 3D-vormen te benoemen en te beschrijven."
+        "Vlakke figuren en ruimtefiguren onderscheiden",
+        "Uitleggen dat een vlakke figuur geen dikte heeft",
+        "De platte vlakken van een ruimtefiguur tellen door hem open te vouwen"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

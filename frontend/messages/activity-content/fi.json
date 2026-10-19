@@ -872,25 +872,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi napauttaa, onko se litteä (2D) vai kappale (3D). Litteitä muotoja ovat esimerkiksi ympyrä, kolmio, neliö ja kuusikulmio, ja kappaleita kuutio, pallo, lieriö ja kartio. Tämä on vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella ja tietokoneella — ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on ero sellaisen muodon välillä, jonka voi piirtää paperille, ja sellaisen, jonka voi ottaa käteen. Lapsi ei nimeä muotoja, vaan lajittelee ne kaksiulotteisiin ja kolmiulotteisiin. Kun tutut litteät muodot sekoittuvat kappaleisiin — ympyrä pallon vieressä, neliö kuution vieressä — lapsi oppii katsomaan, onko muodolla syvyyttä. Se on ensimmäinen askel kohti kappaleiden ymmärtämistä.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi tunnistaa muodot kaksiulotteisiksi (litteiksi) tai kolmiulotteisiksi (kappaleiksi). Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Postin tiskin päässä seisoo punainen postilaatikko, ja postisäkki on täynnä muotoja: ympyröitä, neliöitä, kolmioita ja tähtiä sekä palloja, kuutioita, lieriöitä, kartioita ja pyramideja, osa käännettyinä ja osa pikkuruisina. Lapsi vetää jokaisen kirjekoriin tai pakettikoriin tai napauttaa sitä ja sitten koria. Lajittelun aikana mitään ei arvioida, eikä mikään käänny paljastamaan vastausta. Tämä on interaktiivinen geometriatehtävä, joka toimii selaimessa ilman asennuksia.",
+        "Keksintö on rako. Kun lapsi painaa Tarkista, jokainen kirje käännetään syrjälleen raon eteen: litteä tasokuvio muuttuu ohueksi viivaksi ja liukuu läpi, mutta kappale pysyy paksuna, juuttuu kiinni ja putoaa takaisin säkkiin. Jokainen paketti viedään hyllylle, jossa pieni ikkuna näyttää sen sivulta; sinne laitettu litteä kuvio kaatuu viivaksi ja liukuu alas. Takaisin tuleva muoto näyttää, miltä se näyttää syrjällään, viivan paksun palikan vieressä, ja vihje kertoo miksi: syrjällään litteä tasokuvio on vain ohut viiva, kappale pysyy paksuna. Toisella virheellä nuoli jokaisessa muodossa osoittaa sen koria. Kaksoset on valittu tarkoituksella: ympyrä ja pallo, neliö ja kuutio, kolmio ja pyramidi ovat samassa säkissä.",
+        "Tehtävä noudattaa OPS 2014:ää geometrian osalta: tasokuvioiden erottaminen kappaleista. Kaksi laskutehtävää vie ajatusta pidemmälle. Läpinäkyvä kappale seisoo pyörivällä alustalla, piilossa olevat särmät katkoviivoina; lapsi voi kääntää sitä, vetää sitten kielekkeestä, ja se avautuu litteäksi verkoksi. Jokainen tasainen pinta tarvitsee postileiman ennen kuin verkko pääsee raosta läpi, ja lapsi napauttaa luvuista 1–9, montako niitä on: kuutiossa on kuusi tahkoa, ei vain ne kolme, jotka näkyvät. Lieriön kaareva vaippa kiertyy auki raidalliseksi arkiksi, johon ei tule leimaa. Arkisten esineiden tehtävässä kuvapankin noppa, kirja, pyyhekumi, lahja, tölkki ja rumpu kantavat kappaleensa ääriviivaa. Opettaja valitsee tehtävän. Ei ajanottoa eikä pisteitä."
       ],
       "practices": [
-        "Erottaa litteät (2D) muodot kappaleista (3D).",
-        "Tunnistaa ympyrän, neliön ja kolmion litteiksi sekä kuution, pallon ja kartion kappaleiksi.",
-        "Huomaa, onko muodolla syvyyttä — onko se jotain, minkä voi pitää kädessä, vai jotain, minkä voi piirtää.",
-        "Lajittelee muodot kahteen ryhmään pelkän nimeämisen sijaan."
+        "Litteiden tasokuvioiden erottaminen kappaleista",
+        "Sen huomaaminen, ettei litteällä kuviolla ole paksuutta mutta kappaleella on aina",
+        "Kaksosten erottaminen: ympyrä ja pallo, neliö ja kuutio",
+        "Kuutioiden, särmiöiden, pyramidien, prismojen ja lieriöiden tasaisten pintojen laskeminen"
       ],
       "howToPlay": [
-        "Katso ruudulla näkyvää muotoa.",
-        "Päätä, onko se litteä vai kappale, ja napauta sopivaa ruutua. Paina sitten Tarkista.",
-        "Voit yrittää uudelleen milloin tahansa — ei ajastinta eikä pisteitä."
+        "Vedä jokainen muoto kirjekoriin tai pakettikoriin tai napauta sitä ja sitten koria.",
+        "Paina Tarkista ja katso rakoa ja hyllyä.",
+        "Laskutehtävissä vedät kielekkeestä, leimaat jokaisen tasaisen pinnan ja napautat, montako niitä on.",
+        "Paina Tarkista, niin verkko postitetaan raosta läpi."
       ],
       "learningGoals": [
-        "Lapsi tunnistaa muodot litteiksi (kaksiulotteisiksi) tai kappaleiksi (kolmiulotteisiksi).",
-        "Lapsi yhdistää litteän muodon sitä vastaavaan kappaleeseen, kuten neliön ja kuution.",
-        "Lapsi rakentaa pohjaa kappaleiden nimeämiselle ja kuvailulle myöhemmin."
+        "Lapsi erottaa tasokuviot kappaleista",
+        "Lapsi selittää, ettei litteällä kuviolla ole paksuutta",
+        "Lapsi laskee kappaleen tasaiset pinnat avaamalla sen"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

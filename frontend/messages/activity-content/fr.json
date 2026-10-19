@@ -2979,24 +2979,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Une forme apparaît une à la fois, et l'enfant touche si elle est plate ou solide : des formes plates (2D) comme le cercle, le triangle, le carré et l'hexagone, et des solides (3D) comme le cube, la sphère, le cylindre et le cône. C'est une activité de géométrie interactive pour la maternelle, qui se joue directement dans le navigateur sur tablette, téléphone ou ordinateur, sans rien installer et sans compte.",
-        "La grande idée, c'est la différence entre une forme qu'on pourrait dessiner sur une feuille et une forme qu'on pourrait prendre dans la main. Ici, l'enfant ne nomme pas les formes : il les range en deux familles, le plat et le solide. En mêlant des formes plates familières et leurs cousins en relief — un cercle à côté d'une sphère, un carré à côté d'un cube — l'enfant apprend à regarder si une forme a de l'épaisseur, première étape vers la découverte des solides. Une activité adaptée à la grande section de maternelle."
+        "Au bout d’un guichet de poste se dresse une boîte aux lettres rouge, et le sac postal est plein de formes : des disques, des carrés, des triangles et des étoiles, mais aussi des boules, des cubes, des cylindres, des cônes et des pyramides, certains tournés, certains minuscules. L’enfant fait glisser chacun sur le bac à lettres ou le bac à colis, ou le touche puis touche le bac. Rien n’est jugé pendant le tri, et rien ne se retourne pour livrer la réponse. C’est une activité interactive de géométrie qui fonctionne dans le navigateur sans rien installer.",
+        "L’invention, c’est la fente. Quand l’enfant touche Vérifier, chaque lettre est mise sur la tranche devant la fente : une figure plane devient un trait fin et passe, tandis qu’un solide reste épais, se coince et retombe dans le sac. Chaque colis va sur l’étagère, où une petite fenêtre le montre de profil ; une figure plane posée là bascule en un trait et glisse par terre. Une forme qui revient montre sa vue sur la tranche, un trait à côté d’un bloc épais, et l’indice dit pourquoi : sur la tranche, une figure plane devient un trait fin, un solide reste épais. À la deuxième erreur, une flèche sur chaque forme indique son bac. Les jumeaux sont voulus : un disque et une boule, un carré et un cube, un triangle et une pyramide partagent le même sac.",
+        "L’activité suit les programmes officiels en « espace et géométrie » : distinguer les figures planes des solides. Deux activités de dénombrement vont plus loin. Un solide se tient, transparent, sur un plateau tournant, ses arêtes cachées en pointillés ; l’enfant peut le tourner, puis tire sa languette et il se déplie en son patron plat. Chaque face plane doit recevoir un tampon avant que le patron puisse passer par la fente, et l’enfant indique combien avec les nombres de 1 à 9 : un cube en a six, pas seulement les trois que l’on voit. La surface courbe d’un cylindre se déroule en une feuille rayée qui ne reçoit pas de tampon. Dans l’activité « objets du quotidien », un dé, un livre, une gomme, un cadeau, une boîte de conserve et un tambour de la banque d’images portent le contour de leur solide. L’enseignant choisit l’activité. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Distinguer les formes plates (2D) des formes solides (3D).",
-        "Reconnaître le cercle, le carré et le triangle comme plats, et le cube, la sphère et le cône comme solides.",
-        "Remarquer si une forme a de l'épaisseur — qu'on pourrait tenir plutôt que seulement dessiner.",
-        "Ranger les formes en deux groupes, au lieu de simplement les nommer."
+        "Distinguer les figures planes des solides",
+        "Voir qu’une figure plane n’a pas d’épaisseur et qu’un solide en a toujours",
+        "Distinguer les jumeaux : un disque et une boule, un carré et un cube",
+        "Compter les faces planes des cubes, des pavés, des pyramides, des prismes et des cylindres"
       ],
       "howToPlay": [
-        "Regarde la forme affichée à l'écran.",
-        "Décide si elle est plate ou solide et touche l'étiquette qui correspond, puis appuie sur Vérifier.",
-        "Recommence quand tu veux ; il n'y a ni chrono ni score."
+        "Fais glisser chaque forme sur le bac à lettres ou le bac à colis, ou touche-la puis touche le bac.",
+        "Touche Vérifier et regarde la fente et l’étagère.",
+        "Dans les activités de dénombrement, tire la languette, tamponne chaque face plane et touche combien il y en a.",
+        "Touche Vérifier pour poster le patron par la fente."
       ],
       "learningGoals": [
-        "Identifier une forme comme plate (à deux dimensions) ou solide (à trois dimensions).",
-        "Relier une forme plate à son équivalent en relief, comme le carré et le cube.",
-        "Poser les bases qui permettront plus tard de nommer et de décrire les solides."
+        "Distinguer les figures planes des solides",
+        "Expliquer qu’une figure plane n’a pas d’épaisseur",
+        "Compter les faces planes d’un solide en le dépliant"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

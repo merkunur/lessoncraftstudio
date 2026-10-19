@@ -3164,25 +3164,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Aparece una figura a la vez y el niño o la niña toca si es plana o sólida: figuras planas (2D) como el círculo, el triángulo, el cuadrado y el hexágono, y cuerpos sólidos (3D) como el cubo, la esfera, el cilindro y el cono. Es una actividad de geometría para preescolar, interactiva, que se juega directo en el navegador en tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
-        "La idea central es la diferencia entre una figura que podrías dibujar en una hoja y un cuerpo que podrías tomar con la mano. Aquí no se trata de nombrar las figuras, sino de clasificarlas en bidimensionales y tridimensionales. Al mezclar figuras planas conocidas con sus parientes sólidos —un círculo junto a una esfera, un cuadrado junto a un cubo— el niño o la niña se fija en si la forma tiene volumen, que es el primer paso para entender los cuerpos geométricos.",
-        "Está pensada para el nivel de preescolar o kínder, en el eje de geometría de los planes y programas de estudio (SEP): identificar las formas como planas (2D) o sólidas (3D). Sin temporizador y sin puntuación, con un ritmo tranquilo para cada niño o niña."
+        "Al final de un mostrador de correos hay un buzón rojo, y el saco del correo está lleno de figuras: círculos, cuadrados, triángulos y estrellas, y también esferas, cubos, cilindros, conos y pirámides, algunas giradas y otras diminutas. El niño arrastra cada una a la charola de cartas o a la charola de paquetes, o la toca y luego toca la charola. Mientras clasifica nada se califica, y nada se voltea para delatar la respuesta. Es una actividad interactiva de geometría que funciona en el navegador, sin instalar nada.",
+        "La invención es la ranura. Al tocar Revisar, cada carta se pone de canto frente a la ranura: una figura plana se vuelve una línea delgada y pasa, mientras que un cuerpo sigue grueso, se atora y vuelve a caer al saco. Cada paquete va a la repisa, donde una ventanita lo muestra de lado; una figura plana que se pone ahí se voltea en una línea y se resbala. Una figura que regresa muestra su vista de canto, una línea junto a un bloque grueso, y la pista dice por qué: de canto, una figura plana se vuelve una línea delgada y un cuerpo sigue grueso. Al segundo error, una flecha en cada figura señala su charola. Los gemelos son a propósito: un círculo y una esfera, un cuadrado y un cubo, un triángulo y una pirámide comparten el saco.",
+        "La actividad sigue los planes y programas de estudio de la SEP en forma, espacio y medida: distinguir las figuras planas de los cuerpos geométricos. Dos tareas de conteo llevan la idea más lejos. Un cuerpo transparente está sobre una base giratoria, con sus aristas ocultas punteadas; el niño puede girarlo, luego jala la pestaña y se despliega en su plantilla plana. Cada cara plana necesita un sello antes de que la plantilla pueda pasar por la ranura, y el niño toca cuántas son con los números del 1 al 9: un cubo tiene seis, no solo las tres que se ven. La superficie curva de un cilindro se desenrolla en una hoja rayada que no lleva sello. En la tarea de cosas de todos los días, un dado, un libro, una goma, un regalo, una lata y un tambor del banco de imágenes llevan el contorno de su cuerpo. El docente elige la tarea. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Distinguir figuras planas (2D) de cuerpos sólidos (3D).",
-        "Reconocer el círculo, el cuadrado y el triángulo como planos, y el cubo, la esfera y el cono como sólidos.",
-        "Notar si una forma tiene volumen: algo que puedes tomar con la mano frente a algo que solo dibujas.",
-        "Clasificar las formas en dos grupos en lugar de solo nombrarlas."
+        "Distinguir las figuras planas de los cuerpos geométricos",
+        "Ver que una figura plana no tiene grosor y que un cuerpo siempre tiene",
+        "Distinguir gemelos: un círculo y una esfera, un cuadrado y un cubo",
+        "Contar las caras planas de cubos, prismas rectangulares, pirámides, prismas y cilindros"
       ],
       "howToPlay": [
-        "Mira la figura que aparece en el tablero.",
-        "Decide si es plana o sólida y toca la casilla que corresponde; después pulsa Comprobar.",
-        "Vuelve a intentarlo cuando quieras: no hay temporizador ni puntuación."
+        "Arrastra cada figura a la charola de cartas o a la charola de paquetes, o tócala y luego toca la charola.",
+        "Toca Revisar y mira la ranura y la repisa.",
+        "En las tareas de conteo, jala la pestaña, sella cada cara plana y toca cuántas son.",
+        "Toca Revisar para echar la plantilla por la ranura."
       ],
       "learningGoals": [
-        "Identificar las formas como planas (bidimensionales) o sólidas (tridimensionales).",
-        "Relacionar una figura plana con su cuerpo sólido pariente, como el cuadrado y el cubo.",
-        "Sentar las bases para nombrar y describir los cuerpos 3D más adelante."
+        "Distinguir las figuras planas de los cuerpos geométricos",
+        "Explicar que una figura plana no tiene grosor",
+        "Contar las caras planas de un cuerpo al desplegarlo"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

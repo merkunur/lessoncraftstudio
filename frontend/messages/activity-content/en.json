@@ -846,25 +846,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "One shape appears at a time and the child taps whether it is flat or solid — flat (2D) shapes like a circle, triangle, square, and hexagon, and solid (3D) shapes like a cube, sphere, cylinder, and cone. It's an interactive Kindergarten geometry activity that plays right in the browser on tablets, phones, and computers, with nothing to install and no account.",
-        "The big idea is the difference between a shape you could draw on paper and a shape you could pick up and hold. A child is not naming the shapes here; they are sorting them into two-dimensional and three-dimensional. Mixing familiar flat shapes with their solid cousins — a circle next to a sphere, a square next to a cube — makes the child look at whether a shape has depth, which is the first step toward understanding solids.",
-        "It is aligned to Common Core K.G.A.3 — identifying shapes as two-dimensional (flat) or three-dimensional (solid). No timer, no score — just calm, playful practice."
+        "A red letterbox stands at the end of a post office counter, and the mail bag is full of shapes: circles, squares, triangles and stars, and spheres, cubes, cylinders, cones and pyramids, some turned and some tiny. The child drags each one onto the letter tray or the parcel tray, or taps it and then taps the tray. Nothing is judged while the child sorts, and nothing turns over to give the answer away. It is an interactive geometry activity that runs in the browser with nothing to install.",
+        "The invention is the slot. At Check each letter is turned on its edge in front of the slot: a flat shape becomes a thin line and slips through, while a solid stays thick, jams and drops back into the bag. Each parcel goes to the shelf, where a small window shows it from the side, and a flat shape put there topples into a line and slides off. A shape that comes back shows its edge-on view, a line beside a thick block, and the hint says why: flat shapes turn into a thin line on their edge, solids stay thick. A second miss puts an arrow on each shape that points to its tray. The twins are deliberate: a circle and a sphere, a square and a cube, a triangle and a pyramid share a bag.",
+        "It is aligned to Common Core K.G.A.3: identifying shapes as two-dimensional (flat) or three-dimensional (solid). Two counting tasks take the idea further. A solid stands see-through on a turntable with its hidden edges dashed; the child can turn it, then pulls its tab and it opens out into its flat net. Every flat face needs a postmark before the net may go through the slot, and the child taps how many with the chips from 1 to 9: a cube has six, not the three you can see. A cylinder's curved side unrolls into a striped sheet that takes no stamp. In the everyday-things task a dice, a book, an eraser, a present, a can and a drum from the picture library wear the outline of their solid. Teachers choose the task. No timer, no score."
       ],
       "practices": [
-        "Tell flat (2D) shapes apart from solid (3D) shapes",
-        "Recognize a circle, square, and triangle as flat, and a cube, sphere, and cone as solid",
-        "Notice whether a shape has depth — something you could hold versus draw",
-        "Sort shapes into two groups instead of only naming them"
+        "Telling flat shapes from solid ones",
+        "Seeing that a flat shape has no thickness and a solid always has some",
+        "Telling twins apart: a circle and a sphere, a square and a cube",
+        "Counting the flat faces of cubes, rectangular prisms, pyramids, other prisms and cylinders"
       ],
       "howToPlay": [
-        "Look at the shape on the board.",
-        "Decide whether it is flat or solid and tap the matching tile, then press Check.",
-        "Try again any time; there is no timer and no score."
+        "Drag each shape onto the letter tray or the parcel tray, or tap it and then the tray.",
+        "Press Check and watch the slot and the shelf.",
+        "In the counting tasks, pull the tab, stamp every flat face and tap how many.",
+        "Press Check to post the net through the slot."
       ],
       "learningGoals": [
-        "Identify shapes as flat (two-dimensional) or solid (three-dimensional) — the focus of Common Core K.G.A.3",
-        "Connect a flat shape to its solid relative, like a square and a cube",
-        "Build the foundation for naming and describing 3D shapes later"
+        "Identify shapes as flat or solid, the focus of Common Core K.G.A.3",
+        "Explain that a flat shape has no thickness",
+        "Count the flat faces of a solid by opening it out"
       ]
     },
     "choice-board.how-many-group.k-c-c-b-5": {

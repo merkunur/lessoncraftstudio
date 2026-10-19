@@ -874,25 +874,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Én form vises om gangen, og barnet trykker på om den er flat (2D) eller solid (3D). De flate formene er for eksempel sirkel, trekant, kvadrat og sekskant, mens de solide er terning, kule, sylinder og kjegle. Dette er en interaktiv geometriaktivitet for barnehage og skolestart som spilles rett i nettleseren på nettbrett, telefon og datamaskin — uten nedlasting og uten konto.",
-        "Den store ideen er forskjellen mellom en form du kan tegne på et ark, og en form du kan ta opp og holde i hånda. Her navngir ikke barnet formene; det sorterer dem i todimensjonale og tredimensjonale. Når kjente flate former blandes med sine solide slektninger — en sirkel ved siden av en kule, et kvadrat ved siden av en terning — må barnet legge merke til om formen har dybde. Det er det første steget mot å forstå romfigurer.",
-        "Aktiviteten følger LK20 innenfor geometri — å beskrive former som todimensjonale eller tredimensjonale. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Ved enden av en postskranke står en rød postkasse, og postsekken er full av former: sirkler, kvadrater, trekanter og stjerner, og også kuler, kuber, sylindre, kjegler og pyramider, noen dreid og noen bitte små. Barnet drar hver form til brevkurven eller pakkekurven, eller trykker på den og så på kurven. Mens barnet sorterer, blir ingenting vurdert, og ingenting snur seg og avslører svaret. Det er en interaktiv geometrioppgave som virker i nettleseren uten at noe må installeres.",
+        "Oppfinnelsen er sprekken. Ved Sjekk blir hvert brev stilt på høykant foran sprekken: en flat figur blir en tynn strek og glir gjennom, mens en romfigur er tykk, setter seg fast og faller tilbake i sekken. Hver pakke kommer på hylla, der et lite vindu viser den fra siden; en flat figur som står der, velter over til en strek og glir ned. En form som kommer tilbake, viser seg på høykant, en strek ved siden av en tykk kloss, og hintet sier hvorfor: på høykant blir en flat figur en tynn strek, en romfigur er fortsatt tykk. Ved andre feil peker en pil på hver form mot kurven sin. Tvillingene er valgt med vilje: en sirkel og en kule, et kvadrat og en kube, en trekant og en pyramide ligger i samme sekk.",
+        "Oppgaven følger LK20 i geometri: å skille plane figurer fra romfigurer. To telleoppgaver tar ideen et skritt videre. En gjennomsiktig romfigur står på en dreieskive med de skjulte kantene stiplet; barnet kan dreie den, drar så i fliken, og den brettes ut til sin flate utbretting. Hver plan flate må ha et poststempel før utbrettingen får gå gjennom sprekken, og barnet trykker på hvor mange det er, med tallene fra 1 til 9: en kube har seks, ikke bare de tre du ser. Den buede siden av en sylinder rulles ut til et stripete ark som ikke får stempel. I oppgaven med ting fra hverdagen bærer en terning, en bok, et viskelær, en gave, en boks og en tromme fra bildebanken omrisset av romfiguren sin. Læreren velger oppgave. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Skille flate (2D) former fra solide (3D) former.",
-        "Kjenne igjen sirkel, kvadrat og trekant som flate, og terning, kule og kjegle som solide.",
-        "Legge merke til om en form har dybde — noe du kan holde i hånda mot noe du kan tegne.",
-        "Sortere former i to grupper, ikke bare navngi dem."
+        "Å skille flate former fra romfigurer",
+        "Å se at en flat figur ikke har tykkelse, og at en romfigur alltid har det",
+        "Å skille tvillinger: en sirkel og en kule, et kvadrat og en kube",
+        "Å telle de plane flatene på kuber, firkantede prismer, pyramider, prismer og sylindre"
       ],
       "howToPlay": [
-        "Se på formen på brettet.",
-        "Bestem om den er flat eller solid, trykk på riktig felt, og trykk så på Sjekk.",
-        "Prøv igjen når du vil — det er ingen tidtaker og ingen poeng."
+        "Dra hver form til brevkurven eller pakkekurven, eller trykk på den og så på kurven.",
+        "Trykk på Sjekk og se på sprekken og hylla.",
+        "I telleoppgavene drar du i fliken, stempler hver plan flate og trykker på hvor mange det er.",
+        "Trykk på Sjekk for å poste utbrettingen gjennom sprekken."
       ],
       "learningGoals": [
-        "Barnet kan beskrive former som flate (todimensjonale) eller solide (tredimensjonale).",
-        "Barnet kobler en flat form til sin solide slektning, som et kvadrat og en terning.",
-        "Barnet bygger grunnlaget for å navngi og beskrive romfigurer senere."
+        "Barnet skiller plane figurer fra romfigurer",
+        "Barnet forklarer at en flat figur ikke har tykkelse",
+        "Barnet teller de plane flatene på en romfigur ved å brette den ut"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

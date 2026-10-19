@@ -2116,25 +2116,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Compare una forma alla volta e il bambino tocca se è piatta o solida — forme piatte (2D) come il cerchio, il triangolo, il quadrato e l'esagono, e forme solide (3D) come il cubo, la sfera, il cilindro e il cono. È un'attività di geometria per la scuola dell'infanzia, interattiva, che si gioca nel browser su tablet, telefono e computer, senza installare nulla e senza account.",
-        "L'idea importante è la differenza tra una forma che potresti disegnare su un foglio e una forma che potresti prendere in mano. Qui il bambino non nomina le forme: le ordina in bidimensionali e tridimensionali. Mettere vicino le forme piatte e le loro cugine solide — un cerchio accanto a una sfera, un quadrato accanto a un cubo — porta a osservare se una forma ha spessore, che è il primo passo verso i solidi.",
-        "L'attività è allineata alle Indicazioni nazionali: identificare le forme come bidimensionali (piatte) o tridimensionali (solide). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "In fondo al bancone di un ufficio postale c’è una cassetta delle lettere rossa, e il sacco della posta è pieno di forme: cerchi, quadrati, triangoli e stelle, ma anche sfere, cubi, cilindri, coni e piramidi, alcuni girati e alcuni piccolissimi. Il bambino trascina ognuna nel vassoio delle lettere o nel vassoio dei pacchi, oppure la tocca e poi tocca il vassoio. Mentre smista nulla viene giudicato, e nulla si gira per svelare la risposta. È un’attività interattiva di geometria che funziona nel browser senza installare nulla.",
+        "L’invenzione è la fessura. Quando il bambino tocca Controlla, ogni lettera viene messa di taglio davanti alla fessura: una figura piana diventa una linea sottile e passa, mentre un solido resta spesso, si incastra e ricade nel sacco. Ogni pacco va sulla mensola, dove una finestrella lo mostra di lato; una figura piana messa lì si ribalta in una linea e scivola giù. Una forma che torna indietro mostra la sua vista di taglio, una linea accanto a un blocco spesso, e il suggerimento spiega perché: vista di taglio, una figura piana diventa una linea sottile e un solido resta spesso. Al secondo errore, una freccia su ogni forma indica il suo vassoio. I gemelli sono voluti: un cerchio e una sfera, un quadrato e un cubo, un triangolo e una piramide stanno nello stesso sacco.",
+        "L’attività segue le Indicazioni nazionali per spazio e figure: distinguere le figure piane dai solidi. Due attività di conteggio portano l’idea più avanti. Un solido trasparente sta su un piatto girevole, con gli spigoli nascosti tratteggiati; il bambino può girarlo, poi tira la linguetta e si apre nel suo sviluppo piano. Ogni faccia piana ha bisogno di un timbro prima che lo sviluppo possa passare dalla fessura, e il bambino tocca quante sono con i numeri da 1 a 9: un cubo ne ha sei, non solo le tre che si vedono. La superficie curva di un cilindro si srotola in un foglio a righe che non riceve il timbro. Nell’attività degli oggetti di ogni giorno, un dado, un libro, una gomma, un regalo, una lattina e un tamburo della raccolta di immagini portano il contorno del loro solido. L’insegnante sceglie l’attività. Senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Distinguere le forme piatte (2D) dalle forme solide (3D).",
-        "Riconoscere un cerchio, un quadrato e un triangolo come piatti, e un cubo, una sfera e un cono come solidi.",
-        "Notare se una forma ha spessore: qualcosa che potresti tenere in mano oppure soltanto disegnare.",
-        "Ordinare le forme in due gruppi, non soltanto nominarle."
+        "Distinguere le figure piane dai solidi",
+        "Vedere che una figura piana non ha spessore e un solido ce l’ha sempre",
+        "Distinguere i gemelli: un cerchio e una sfera, un quadrato e un cubo",
+        "Contare le facce piane di cubi, parallelepipedi, piramidi, prismi e cilindri"
       ],
       "howToPlay": [
-        "Il bambino guarda la forma mostrata sul tabellone.",
-        "Decide se è piatta o solida e tocca la casella giusta, poi tocca Controlla.",
-        "Si può riprovare in qualsiasi momento, senza timer e senza punteggio."
+        "Trascina ogni forma nel vassoio delle lettere o nel vassoio dei pacchi, oppure toccala e poi tocca il vassoio.",
+        "Tocca Controlla e guarda la fessura e la mensola.",
+        "Nelle attività di conteggio, tira la linguetta, timbra ogni faccia piana e tocca quante sono.",
+        "Tocca Controlla per imbucare lo sviluppo nella fessura."
       ],
       "learningGoals": [
-        "Identificare le forme come piatte (bidimensionali) o solide (tridimensionali).",
-        "Collegare una forma piatta alla sua parente solida, come il quadrato e il cubo.",
-        "Costruire le basi per nominare e descrivere le forme 3D più avanti."
+        "Distinguere le figure piane dai solidi",
+        "Spiegare che una figura piana non ha spessore",
+        "Contare le facce piane di un solido aprendolo"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

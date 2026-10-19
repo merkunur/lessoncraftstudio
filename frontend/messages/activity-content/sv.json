@@ -976,25 +976,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "En form i taget visas på skärmen och barnet trycker på om den är platt eller solid. Platta former (2D) är till exempel cirkel, triangel, kvadrat och sexhörning, medan solida former (3D) är till exempel kub, klot, cylinder och kon. Det är en interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon och dator — utan installation och utan konto.",
-        "Den stora idén är skillnaden mellan en form du kan rita på ett papper och en form du kan ta upp och hålla i handen. Här namnger barnet inte formerna, utan sorterar dem i tvådimensionella och tredimensionella. När välkända platta former blandas med sina solida släktingar — en cirkel bredvid ett klot, en kvadrat bredvid en kub — får barnet syn på om formen har djup, vilket är första steget mot att förstå rymdgeometriska kroppar.",
-        "Aktiviteten följer Lgr22 inom geometri: att urskilja om en form är tvådimensionell (platt) eller tredimensionell (solid). Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Vid slutet av en postdisk står en röd brevlåda, och postsäcken är full av former: cirklar, kvadrater, trianglar och stjärnor, och även klot, kuber, cylindrar, koner och pyramider, några vridna och några pyttesmå. Barnet drar varje form till brevfacket eller paketfacket, eller trycker på den och sedan på facket. Medan barnet sorterar bedöms ingenting, och ingenting vänder sig och avslöjar svaret. Det är en interaktiv geometriövning som fungerar i webbläsaren utan att något behöver installeras.",
+        "Uppfinningen är springan. Vid Kontrollera ställs varje brev på kant framför springan: en platt form blir ett tunt streck och åker igenom, medan en kropp förblir tjock, fastnar och faller tillbaka i säcken. Varje paket hamnar på hyllan, där ett litet fönster visar det från sidan; en platt form som ställs där tippar över till ett streck och glider ner. En form som kommer tillbaka visar hur den ser ut på kant, ett streck bredvid ett tjockt block, och ledtråden säger varför: på kant blir en platt form ett tunt streck, en kropp är fortfarande tjock. Vid andra missen pekar en pil på varje form mot dess fack. Tvillingarna är medvetet valda: en cirkel och ett klot, en kvadrat och en kub, en triangel och en pyramid ligger i samma säck.",
+        "Övningen följer Lgr22 i geometri: att skilja plana figurer från geometriska kroppar. Två räkneuppgifter tar idén ett steg längre. En genomskinlig kropp står på en snurrskiva med de dolda kanterna streckade; barnet kan vrida den, drar sedan i fliken och den viks ut till sin platta utvikning. Varje plan yta behöver en poststämpel innan utvikningen får gå genom springan, och barnet trycker på hur många det är med talen 1 till 9: en kub har sex, inte bara de tre man ser. Cylinderns böjda yta rullas ut till ett randigt blad som inte får någon stämpel. I uppgiften med vardagssaker bär en tärning, en bok, ett suddgummi, en present, en burk och en trumma ur bildbanken konturen av sin kropp. Läraren väljer uppgift. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Skilja platta former (2D) från solida former (3D)",
-        "Känna igen cirkel, kvadrat och triangel som platta, och kub, klot och kon som solida",
-        "Lägga märke till om en form har djup — något man kan hålla i handen jämfört med rita",
-        "Sortera former i två grupper i stället för att bara namnge dem"
+        "Att skilja platta former från kroppar",
+        "Att se att en platt form saknar tjocklek och att en kropp alltid har det",
+        "Att skilja tvillingar åt: en cirkel och ett klot, en kvadrat och en kub",
+        "Att räkna de plana ytorna på kuber, rätblock, pyramider, prismor och cylindrar"
       ],
       "howToPlay": [
-        "Barnet tittar på formen som visas på skärmen.",
-        "Det avgör om formen är platt eller solid och trycker på rätt ruta, och trycker sedan på Kontrollera.",
-        "Det går alltid att försöka igen — det finns ingen timer och inga poäng."
+        "Dra varje form till brevfacket eller paketfacket, eller tryck på den och sedan på facket.",
+        "Tryck på Kontrollera och titta på springan och hyllan.",
+        "I räkneuppgifterna drar du i fliken, stämplar varje plan yta och trycker på hur många det är.",
+        "Tryck på Kontrollera för att posta utvikningen genom springan."
       ],
       "learningGoals": [
-        "Barnet kan avgöra om en form är platt (tvådimensionell) eller solid (tredimensionell)",
-        "Barnet kopplar en platt form till dess solida släkting, som en kvadrat och en kub",
-        "Barnet lägger grunden för att senare namnge och beskriva 3D-former"
+        "Barnet skiljer plana figurer från kroppar",
+        "Barnet förklarar att en platt form saknar tjocklek",
+        "Barnet räknar de plana ytorna på en kropp genom att vika ut den"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

@@ -873,25 +873,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Flad eller rumlig? viser én form ad gangen, og barnet trykker på, om den er flad (2D) eller rumlig (3D). Flade former er for eksempel en cirkel, en trekant, et kvadrat og en sekskant, og rumlige former er for eksempel en terning, en kugle, en cylinder og en kegle. Det er en interaktiv geometriaktivitet, der kører direkte i browseren uden oprettelse og uden noget at installere.",
-        "Den store idé er forskellen på en form, man kan tegne på et stykke papir, og en form, man kan tage op og holde i hånden. Her navngiver barnet ikke formerne, men sorterer dem i todimensionale og tredimensionale. Når velkendte flade former blandes med deres rumlige fætre — en cirkel ved siden af en kugle, et kvadrat ved siden af en terning — bliver barnet nødt til at se efter, om formen har dybde, og det er det første skridt mod at forstå rumlige figurer.",
-        "Aktiviteten følger Fælles Mål inden for området geometri: at kende former som todimensionale (flade) eller tredimensionale (rumlige). Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "For enden af en postskranke står en rød postkasse, og postsækken er fuld af former: cirkler, kvadrater, trekanter og stjerner, og også kugler, terninger, cylindre, kegler og pyramider, nogle drejet og nogle bittesmå. Barnet trækker hver form hen i brevbakken eller pakkebakken, eller trykker på den og så på bakken. Mens barnet sorterer, bliver intet bedømt, og intet vender sig og afslører svaret. Det er en interaktiv geometriøvelse, der kører i browseren uden at installere noget.",
+        "Opfindelsen er sprækken. Ved Tjek bliver hvert brev stillet på højkant foran sprækken: en flad figur bliver til en tynd streg og glider igennem, mens en rumfigur er tyk, sætter sig fast og falder tilbage i sækken. Hver pakke kommer op på hylden, hvor et lille vindue viser den fra siden; en flad figur, der står der, vælter om til en streg og glider ned. En form, der kommer tilbage, viser sig på højkant, en streg ved siden af en tyk klods, og hjælpen siger hvorfor: på højkant bliver en flad figur til en tynd streg, en rumfigur er stadig tyk. Ved anden fejl peger en pil på hver form hen mod dens bakke. Tvillingerne er valgt med vilje: en cirkel og en kugle, et kvadrat og en terning, en trekant og en pyramide ligger i samme sæk.",
+        "Øvelsen følger Fælles Mål i geometri: at skelne plane figurer fra rumfigurer. To tælleopgaver tager idéen et skridt videre. En gennemsigtig rumfigur står på en drejeskive med de skjulte kanter stiplet; barnet kan dreje den, trækker så i fligen, og den foldes ud til sin flade udfoldning. Hver plan flade skal have et poststempel, før udfoldningen må gå gennem sprækken, og barnet trykker på, hvor mange der er, med tallene fra 1 til 9: en terning har seks, ikke kun de tre, man kan se. Cylinderens buede side rulles ud til et stribet ark, der ikke får et stempel. I opgaven med ting fra hverdagen bærer en spilleterning, en bog, et viskelæder, en gave, en dåse og en tromme fra billedbanken omridset af deres rumfigur. Læreren vælger opgaven. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Kende flade (2D) former fra rumlige (3D) former",
-        "Genkende en cirkel, et kvadrat og en trekant som flade, og en terning, en kugle og en kegle som rumlige",
-        "Lægge mærke til, om en form har dybde — noget, man kan holde i hånden, frem for noget, man tegner",
-        "Sortere former i to grupper i stedet for kun at navngive dem"
+        "At skelne flade former fra rumfigurer",
+        "At se, at en flad figur ikke har nogen tykkelse, og at en rumfigur altid har det",
+        "At skelne tvillinger: en cirkel og en kugle, et kvadrat og en terning",
+        "At tælle de plane flader på terninger, kasser, pyramider, prismer og cylindre"
       ],
       "howToPlay": [
-        "Barnet ser på formen på pladen.",
-        "Barnet beslutter, om den er flad eller rumlig, trykker på den rigtige knap og trykker derefter på Tjek.",
-        "Man kan prøve igen når som helst — der er ingen timer og ingen point."
+        "Træk hver form hen i brevbakken eller pakkebakken, eller tryk på den og så på bakken.",
+        "Tryk på Tjek, og se på sprækken og hylden.",
+        "I tælleopgaverne trækker du i fligen, stempler hver plan flade og trykker på, hvor mange der er.",
+        "Tryk på Tjek for at poste udfoldningen gennem sprækken."
       ],
       "learningGoals": [
-        "Barnet kan kende former som flade (todimensionale) eller rumlige (tredimensionale)",
-        "Barnet kan forbinde en flad form med dens rumlige slægtning, som et kvadrat og en terning",
-        "Barnet bygger grundlaget for senere at navngive og beskrive 3D-former"
+        "Barnet skelner plane figurer fra rumfigurer",
+        "Barnet forklarer, at en flad figur ikke har nogen tykkelse",
+        "Barnet tæller de plane flader på en rumfigur ved at folde den ud"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

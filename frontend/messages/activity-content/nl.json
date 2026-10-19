@@ -3551,25 +3551,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "In een opdracht wordt steeds één vorm genoemd en het kind zoekt die op het oog op tussen vier afbeeldingen. De vormen die langskomen zijn een cirkel, vierkant, driehoek, rechthoek, zeshoek, ovaal, ster, ruit, hart en vijfhoek. Het is een interactieve meetkunde-activiteit voor kleuters die direct in de browser speelt op een tablet, telefoon of computer in de klas — zonder installatie en zonder account.",
-        "Het grote idee is dat een vorm dezelfde vorm blijft, hoe je hem ook draait of hoe groot of klein je hem tekent. Een driehoek die op zijn punt staat is nog steeds een driehoek, en een piepklein vierkantje blijft een vierkant. Het kind moet dus de vorm zelf herkennen en niet één vast 'plaatje' uit het hoofd. De drie verkeerde keuzes zijn andere echte vormen uit de set, dus het kind kan niet winnen door simpelweg de enige vorm aan te tikken — het moet weten welke naam bij welke figuur hoort.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: vormen benoemen ongeacht hun oriëntatie of grootte. Formeel werken met vormen hoort in Nederland bij groep 1-2 (kleuters). Geen timer, geen score, geen druk — gewoon rustig kijken en oefenen."
+        "Een plaatje dat alleen uit vormen bestaat – een huis, een raket, een trein, een robot, een vuurtoren – wacht in lichte crème, met twee verfpotten ernaast. Het kind kiest een pot en tikt op elk stuk dat de vorm van de pot heeft. De kwast gaat langs de rand van elk aangetikt stuk en zet een kraal op elke hoek en streepjes op even lange zijden, zodat hoeken en zijden op het stuk zelf te zien zijn. Een interactieve meetkundeoefening voor de kleuterklas, die in de browser werkt zonder iets te installeren.",
+        "Het bijzondere: de verf blijft nat tot het kind op Controleren tikt. Bij het tikken wordt niets beoordeeld, dus het kind moet zelf beslissen; daarna droogt de verf stuk voor stuk en blijft alleen zitten in een stuk dat echt de vorm van de pot heeft, hoe het ook gedraaid is en hoe klein het ook is. Een stuk dat de vorm niet heeft, verliest zijn verf in een plas, en een figuur met een opening lekt erdoorheen. De hint noemt wat echt verschilt: de hoeken tellen, aan de streepjes zien of de zijden even lang zijn, op rechte hoeken letten of een gebogen zijde opmerken. Ontbreekt er nog een stuk, dan druppelt de pot op het kwart van het plaatje waar het zit; bij een tweede fout lichten de ontbrekende stukken op. Een klaar plaatje komt even tot leven.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor meetkunde: vlakke figuren herkennen en benoemen, ongeacht stand en grootte. Elke vorm die een pot vraagt, komt in meer dan één grootte voor, en gedraaid als hij hoeken heeft, en de ruit is altijd een scheve ruit, nooit een vierkant op zijn punt. De leerkracht kiest vormplaatjes, een echt-of-niet-quilt (open, afgeronde en gebogen nepvormen naast echte vormen) of telplaatjes (de driehoeken en vierkanten schilderen en zeggen hoeveel het er zijn), en of de potten de vorm, alleen de naam of alleen een hint laten zien. Geen beeldbank, geen klok, geen score."
       ],
       "practices": [
-        "De naam van een vorm koppelen aan het juiste plaatje tussen vier keuzes",
-        "Een vorm herkennen ook als die gedraaid is of groter of kleiner is getekend",
-        "Vormen die op elkaar lijken uit elkaar houden — een vierkant van een rechthoek, een ovaal van een cirkel, een zeshoek van een vijfhoek",
-        "De vormnamen leren voor cirkel, vierkant, driehoek, rechthoek, zeshoek, ovaal, ster, ruit, hart en vijfhoek"
+        "Gedraaide, piepkleine of uitgerekte vormen benoemen",
+        "Zien wat een vorm maakt: hoeken, even lange zijden, rechte hoeken, gesloten",
+        "Echte vormen onderscheiden van open, afgeronde en gebogen nepvormen",
+        "De driehoeken en vierkanten in een figuur tellen"
       ],
       "howToPlay": [
-        "Lees of luister naar de opdracht waarin één vorm wordt genoemd.",
-        "Bekijk de vier vormen en tik op de vorm die bij de naam hoort, en controleer je antwoord.",
-        "Niet helemaal goed? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Tik op een verfpot om hem open te maken.",
+        "Tik op elk stuk dat de vorm van de pot heeft; tik nog eens op een geschilderd stuk om de verf terug te nemen.",
+        "Bij de telplaatjes stel je met − en + in hoeveel het er zijn.",
+        "Tik op Controleren en kijk welke verf blijft zitten."
       ],
       "learningGoals": [
-        "Het kind benoemt cirkels, vierkanten, driehoeken, rechthoeken, zeshoeken en meer op het oog.",
-        "Het kind begrijpt dat een vorm zijn naam houdt, hoe je hem ook draait of hoe groot je hem maakt.",
-        "Het kind bouwt de vormwoordenschat op waar latere meetkunde, sorteren en tekenen op verdergaan."
+        "Vormen benoemen, hoe ze ook gedraaid zijn en hoe groot ze ook zijn",
+        "Met hoeken en zijden beslissen welke vorm een stuk heeft",
+        "Een gesloten vorm onderscheiden van een open figuur"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

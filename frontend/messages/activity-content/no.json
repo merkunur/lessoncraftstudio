@@ -850,25 +850,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "I denne aktiviteten blir en form nevnt, og barnet finner den med øynene blant fire bilder. Formene er sirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rombe, hjerte og femkant. Det er en interaktiv geometriaktivitet for barnehage og skolestart som kjører rett i nettleseren på nettbrett, telefon eller klasserommets datamaskin — uten nedlasting og uten konto.",
-        "Den store ideen er at en form er den samme formen uansett hvordan den er snudd, og uansett hvor stor den er tegnet. En trekant som balanserer på spissen, eller et bitte lite kvadrat, er fremdeles en trekant og fremdeles et kvadrat. Derfor må barnet kjenne igjen selve formen, ikke bare ett bestemt «fasitbilde» av den. De tre gale valgene er andre ekte former fra settet, så barnet kan ikke vinne ved å trykke på den eneste formen på brettet — det må vite hvilket navn som hører til hvilken figur.",
-        "Aktiviteten følger LK20 innenfor geometri — å navngi former uavhengig av orientering og størrelse. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et bilde som bare består av former – et hus, en rakett, et tog, en robot, et fyrtårn – venter i lys kremfarge, med to malingsbokser ved siden av. Barnet velger en boks og trykker på hver bit som har formen til boksen. Penselen går rundt kanten av hver bit den rører, og setter en perle i hvert hjørne og små streker på like lange sider, slik at hjørner og sider vises på selve biten. En interaktiv geometriøvelse som fungerer i nettleseren uten installasjon.",
+        "Det lure er at malingen er våt helt til barnet trykker på Sjekk. Ingenting blir vurdert ved trykket, så barnet må bestemme selv; så tørker malingen bit for bit og blir bare sittende i en bit som virkelig har formen til boksen, uansett hvordan den er vridd og hvor liten den er. En bit som ikke har formen, mister malingen i en sølepytt, og en figur med en åpning lekker ut gjennom den. Hintet sier hva som virkelig er annerledes: tell hjørnene, se på strekene for å se om sidene er like lange, sjekk for rette vinkler eller legg merke til en bøyd side. Mangler det fortsatt en bit, drypper boksen på den fjerdedelen av bildet der den er; ved andre feil lyser de manglende bitene. Et ferdig bilde blir levende et øyeblikk.",
+        "Øvelsen følger LK20 i matematikk, geometri: å kjenne igjen og navngi former uansett plassering og størrelse. Hver form som en boks ber om, finnes i mer enn én størrelse, og vridd hvis den har hjørner, og romben er alltid en rombe som heller, aldri et kvadrat på spissen. Læreren velger formbilder, et ekte-eller-ikke-teppe (åpne, avrundede og bøyde falske former ved siden av ekte former) eller tellebilder (mal trekantene og kvadratene, og si hvor mange), og om boksene viser formen, bare navnet eller bare et hint. Ingen bildebank, ingen klokke, ingen poeng."
       ],
       "practices": [
-        "Koble et formnavn til riktig bilde blant fire valg.",
-        "Kjenne igjen en form selv om den er snudd eller tegnet større eller mindre.",
-        "Skille mellom former som ligner — et kvadrat fra et rektangel, en oval fra en sirkel, en sekskant fra en femkant.",
-        "Bygge opp ordforrådet for sirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rombe, hjerte og femkant."
+        "Å navngi former som er vridd, bitte små eller strukket ut",
+        "Å se hva som gjør en form: hjørner, like lange sider, rette vinkler, lukket",
+        "Å skille ekte former fra åpne, avrundede og bøyde kopier",
+        "Å telle trekantene og kvadratene i en figur"
       ],
       "howToPlay": [
-        "Les eller lytt til oppgaven som nevner én form du skal finne.",
-        "Se på de fire formene og trykk på den som passer til navnet, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på en malingsboks for å åpne den.",
+        "Trykk på hver bit som har formen til boksen; trykk på en malt bit igjen for å ta tilbake malingen.",
+        "I tellebildene stiller du inn hvor mange med − og +.",
+        "Trykk på Sjekk og se hvilken maling som blir sittende."
       ],
       "learningGoals": [
-        "Barnet kan navngi sirkler, kvadrater, trekanter, rektangler, sekskanter og flere på direkten.",
-        "Barnet forstår at en form beholder navnet sitt uansett hvordan den er snudd eller hvor stor den er.",
-        "Barnet bygger formordforrådet som senere geometri, sortering og tegning bygger på."
+        "Navngi former uansett hvordan de er vridd og hvor store de er",
+        "Bruke hjørner og sider til å avgjøre hvilken form en bit har",
+        "Skille en lukket form fra en åpen figur"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

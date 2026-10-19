@@ -937,9 +937,9 @@ async function discoverNavUnsafe(browser, surface, state, PORT) {
         return Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
           const r = e.getBoundingClientRect();
           if (e.tagName === 'A' && e.getAttribute('href')) return false;
-          if (sk.indexOf(e.className || e.tagName) > -1) return false;
+          if (sk.indexOf(e.getAttribute('class') || e.tagName) > -1) return false;
           return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
-        }).map((e) => e.className || e.tagName);
+        }).map((e) => e.getAttribute('class') || e.tagName);
       }, skip);
     } catch (_) { try { await page.close(); } catch (_) {} break; }
     if (idx >= names.length) { await page.close(); break; }
@@ -950,10 +950,11 @@ async function discoverNavUnsafe(browser, surface, state, PORT) {
         const c = Array.prototype.filter.call(st.querySelectorAll('button, [role="button"], [tabindex]'), (e) => {
           const r = e.getBoundingClientRect();
           if (e.tagName === 'A' && e.getAttribute('href')) return false;
-          if (sk.indexOf(e.className || e.tagName) > -1) return false;
+          if (sk.indexOf(e.getAttribute('class') || e.tagName) > -1) return false;
           return r.width > 0 && r.height > 0 && !e.disabled && !e.closest('.lcs-drawer') && !e.closest('.lcs-controls');
         });
-        if (c[i]) c[i].click();
+        /* an SVG control (role=button) has no .click(): dispatch the event it would fire */
+        if (c[i]) { if (typeof c[i].click === 'function') c[i].click(); else c[i].dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true })); }
       }, idx, skip);
       await wait(220);
       await page.evaluate(() => document.querySelectorAll('*').length);

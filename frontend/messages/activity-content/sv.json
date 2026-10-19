@@ -952,25 +952,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "En uppmaning säger vilken form barnet ska hitta, och barnet letar med ögonen och trycker på rätt form bland fyra bilder. Det kan vara en cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta eller femhörning. Allt sker direkt i webbläsaren på surfplatta, telefon eller skoldator — utan installation och utan konto.",
-        "Den stora idén är att en form är samma form oavsett hur den är vänd eller hur stor den är ritad. En triangel som balanserar på spetsen är fortfarande en triangel, och en liten kvadrat är fortfarande en kvadrat. Barnet måste alltså känna igen själva formen, inte bara en enda välbekant bild av den. De tre fel svaren är andra riktiga former ur samlingen, så barnet kan inte vinna genom att gissa — det måste veta vilket namn som hör till vilken figur.",
-        "Aktiviteten följer Lgr22 inom geometri: att namnge former oavsett hur de är vridna eller hur stora de är. Ingen timer och inga poäng — bara lugn och lekfull övning i barnets egen takt."
+        "En bild som bara består av former – ett hus, en raket, ett tåg, en robot, en fyr – väntar i ljus krämfärg, med två färgburkar bredvid. Barnet väljer en burk och trycker på varje bit som har burkens form. Penseln går runt kanten på varje bit den rör och sätter en pärla i varje hörn och små streck på lika långa sidor, så att hörn och sidor syns direkt på biten. En interaktiv geometriövning för förskoleklass som fungerar i webbläsaren utan installation.",
+        "Det fiffiga är att färgen är våt tills barnet trycker på Kontrollera. Inget bedöms vid tryckningen, så barnet måste själv bestämma; sedan torkar färgen bit för bit och stannar bara kvar i en bit som verkligen har burkens form, hur den än är vriden och hur liten den än är. En bit som inte har formen tappar färgen i en pöl, och en figur med en öppning läcker ut genom den. Ledtråden säger vad som verkligen skiljer: räkna hörnen, titta på strecken för att se om sidorna är lika långa, kolla räta hörn eller lägg märke till en böjd sida. Saknas en bit dryper burken på den fjärdedel av bilden där den finns; vid andra felet lyser de saknade bitarna. En färdig bild får liv en kort stund.",
+        "Övningen följer Lgr22 i matematik, området geometri: att känna igen och benämna geometriska former oavsett läge och storlek. Varje form som en burk vill ha finns i mer än en storlek, och vriden om den har hörn, och romben är alltid en lutande romb, aldrig en kvadrat som står på spetsen. Läraren väljer formbilder, ett äkta-eller-inte-täcke (öppna, rundade och böjda fejkformer bredvid riktiga former) eller räknebilder (måla trianglarna och kvadraterna och säg hur många), och om burkarna visar formen, bara namnet eller bara en ledtråd. Inga bildbanksbilder, ingen klocka, inga poäng."
       ],
       "practices": [
-        "Para ihop ett formnamn med rätt bild bland fyra val",
-        "Känna igen en form även när den är vriden eller ritad större eller mindre",
-        "Skilja på närliggande former — en kvadrat från en rektangel, en oval från en cirkel, en sexhörning från en femhörning",
-        "Bygga upp ord för cirkel, kvadrat, triangel, rektangel, sexhörning, oval, stjärna, romb, hjärta och femhörning"
+        "Att benämna former som är vridna, pyttesmå eller utdragna",
+        "Att se vad som gör en form: hörn, lika långa sidor, räta hörn, sluten",
+        "Att skilja riktiga former från öppna, rundade och böjda kopior",
+        "Att räkna trianglarna och kvadraterna i en figur"
       ],
       "howToPlay": [
-        "Barnet läser eller lyssnar på uppmaningen som säger vilken form som ska hittas.",
-        "Sedan tittar barnet på de fyra formerna och trycker på den som stämmer med namnet, och trycker på Kontrollera.",
-        "Blev det inte rätt? Försök igen så många gånger som behövs — det finns ingen timer och inga poäng."
+        "Tryck på en färgburk för att öppna den.",
+        "Tryck på varje bit som har burkens form; tryck på en målad bit igen för att ta tillbaka färgen.",
+        "I räknebilderna ställer du in hur många med − och +.",
+        "Tryck på Kontrollera och se vilken färg som stannar kvar."
       ],
       "learningGoals": [
-        "Barnet kan namnge cirklar, kvadrater, trianglar, rektanglar, sexhörningar och fler former på direkten",
-        "Barnet förstår att en form behåller sitt namn oavsett hur den är vänd eller hur stor den är",
-        "Barnet bygger de formord som senare geometri, sortering och teckning vilar på"
+        "Benämna former oavsett hur de är vridna och hur stora de är",
+        "Använda hörn och sidor för att avgöra vilken form en bit har",
+        "Skilja en sluten form från en öppen figur"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

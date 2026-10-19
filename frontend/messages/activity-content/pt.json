@@ -1596,25 +1596,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Aqui o pedido mostra o nome de uma forma — círculo, quadrado, triângulo, retângulo, hexágono, oval, estrela, losango, coração ou pentágono — e a criança encontra essa forma só de olhar, tocando nela entre quatro opções. É uma atividade de geometria interativa para a educação infantil, que funciona direto no navegador, no tablet, no celular ou no computador da sala, sem instalar nada e sem cadastro.",
-        "A ideia central é que uma forma continua sendo a mesma forma, não importa como esteja virada ou de que tamanho seja desenhada. Um triângulo apoiado na ponta ou um quadradinho bem pequeno ainda é triângulo e ainda é quadrado, então a criança precisa reconhecer a forma em si, e não uma única figura 'de livro'. As três opções erradas são outras formas de verdade, o que impede a criança de acertar escolhendo a única forma diferente do quadro — ela tem mesmo que saber qual nome combina com cada figura.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de nomear formas independentemente da orientação ou do tamanho. Sem cronômetro e sem pontuação — só uma prática calma e divertida, no ritmo de cada criança."
+        "Um desenho feito só de formas — uma casa, um foguete, um trem, um robô, um farol — espera na cor creme, com duas latas de tinta ao lado. A criança escolhe uma lata e toca em cada peça que tem a forma da lata. O pincel percorre a borda de cada peça tocada e deixa uma bolinha em cada canto e risquinhos nos lados do mesmo tamanho, então os cantos e os lados aparecem na própria peça. É uma atividade interativa de geometria para a educação infantil que funciona no navegador, sem instalar nada.",
+        "A grande ideia é que a tinta fica molhada até tocar em Conferir. Nada é julgado no toque, então a criança precisa decidir; depois a tinta seca peça por peça e só fica na peça que tem mesmo a forma da lata, não importa se está virada ou se é pequena. Uma peça que não tem a forma perde a tinta numa poça, e uma figura com abertura vaza por ela. A dica diz o que de fato muda: contar os cantos, olhar os risquinhos para ver se os lados são iguais, conferir se os cantos são retos ou perceber um lado curvo. Se ainda falta uma peça, a lata pinga sobre a parte do desenho onde ela está; no segundo erro, as peças que faltam brilham. Um desenho pronto ganha vida por um instante.",
+        "A atividade segue a BNCC: reconhecer e nomear figuras planas independentemente da posição e do tamanho. Cada forma pedida por uma lata aparece em mais de um tamanho, e virada quando tem cantos, e o losango é sempre um losango inclinado, nunca um quadrado apoiado na ponta. O professor escolhe desenhos de formas, uma colcha de “de verdade ou não” (formas falsas abertas, arredondadas ou curvas ao lado de formas de verdade) ou desenhos para contar (pintar os triângulos e os quadrados e dizer quantos são), e se as latas mostram a forma, só o nome ou só uma pista. Sem imagens de banco, sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Ligar o nome de uma forma à sua figura entre quatro opções.",
-        "Reconhecer uma forma mesmo quando ela está girada ou desenhada maior ou menor.",
-        "Diferenciar formas parecidas — um quadrado de um retângulo, uma oval de um círculo, um hexágono de um pentágono.",
-        "Ampliar o vocabulário de formas: círculo, quadrado, triângulo, retângulo, hexágono, oval, estrela, losango, coração e pentágono."
+        "Nomear formas viradas, pequenininhas ou esticadas",
+        "Ver o que faz uma forma: cantos, lados iguais, cantos retos, contorno fechado",
+        "Diferenciar formas de verdade de imitações abertas, arredondadas ou curvas",
+        "Contar os triângulos e os quadrados de uma figura"
       ],
       "howToPlay": [
-        "Leia ou ouça o pedido, que diz o nome de uma forma para encontrar.",
-        "Olhe as quatro formas e toque naquela que corresponde ao nome, depois toque em Verificar.",
-        "Não foi dessa vez? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Toque em uma lata de tinta para abri-la.",
+        "Toque em cada peça que tem a forma da lata; toque de novo numa peça pintada para tirar a tinta.",
+        "Nos desenhos para contar, marque quantos são com − e +.",
+        "Toque em Conferir e veja qual tinta fica."
       ],
       "learningGoals": [
-        "Nomear círculos, quadrados, triângulos, retângulos, hexágonos e mais só de olhar.",
-        "Entender que uma forma mantém o seu nome, não importa como esteja virada ou de que tamanho seja.",
-        "Construir o vocabulário de formas em que se apoiam, mais tarde, a geometria, a classificação e o desenho."
+        "Nomear formas qualquer que seja a posição ou o tamanho",
+        "Usar cantos e lados para decidir qual é a forma de uma peça",
+        "Diferenciar uma forma fechada de uma figura aberta"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

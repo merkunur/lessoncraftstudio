@@ -2754,25 +2754,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "Na barraquinha de suco de amora do Bramble, o texugo, sempre há dois recipientes lado a lado: um copo alto e fino ao lado de uma tigela baixa e larga, ou uma jarra ao lado de uma xícara. Antes de servir, o Bramble faz uma única pergunta: “Em qual cabe mais suco?” A criança escolhe esquerda, direita ou igual — e então o Bramble despeja o suco para conferir quem acertou.",
-        "A ideia é comparar a capacidade dos recipientes sem usar números e sem medir. O formato engana: um copo alto e fino parece que cabe mais, mas uma tigela baixa e larga pode caber muito mais suco — ou seja, ser alto não quer dizer caber mais. Aqui um palpite errado não é um erro, é uma descoberta: quando o suco é despejado, a criança vê com os próprios olhos o que a aparência escondia.",
-        "A atividade não tem cadastro, cronômetro nem pontuação, e não é preciso contar. Ela está alinhada à BNCC, na unidade temática Grandezas e medidas, trabalhando a comparação de capacidades — um primeiro passo importante antes de, mais adiante, medir com litros e mililitros."
+        "Em qual cabe mais? Aqui a criança descobre do jeito que se faz de verdade: despejando um recipiente no outro. Primeiro ela decide: a framboesa vai no recipiente em que ela acha que cabe mais, no que cabe menos ou no porta-copos de \"o mesmo tanto\". Depois ela enche o recipiente da esquerda na torneira de suco, levanta e despeja no outro com a própria mão: quanto mais inclina, mais rápido o suco escorre. É uma atividade interativa de medidas para o 1º ano, que funciona no navegador, sem instalar nada.",
+        "A invenção é que o suco decide, e ele só pode fazer uma de três coisas. Transborda pela borda para a bandeja de gotejamento: no primeiro cabia mais; deixa um espaço em cima, marcado com uma linha tracejada: no segundo cabe mais; ou enche o outro exatamente até a borda, e a borda brilha: nos dois cabe o mesmo tanto. Cada copo, jarra, tigela e pote comporta o que sua forma desenhada realmente comporta, por isso as ilusões são reais: um copo alto e fino pode deixar espaço numa tigela baixa e larga, e um pote grosso de cerâmica é grande por fora e pequeno por dentro. No nível enganoso, nenhuma aparência ganha sozinha: às vezes cabe mais no mais alto, às vezes no mais largo; o único jeito certo é despejar. Um palpite errado é respondido pela prova (a poça, o espaço ou a borda ganham um círculo), e um segundo palpite errado faz o lugar certo brilhar.",
+        "A atividade está alinhada à BNCC (comparar capacidades: cabe mais, cabe menos): comparar diretamente dois recipientes e dizer em qual cabe mais ou menos, aqui a capacidade. O professor escolhe recipientes fáceis ou enganosos e a pergunta: cabe mais, cabe menos ou misturado; uma rodada também pergunta se o suco vai caber no outro recipiente. Depois de cada palpite, a criança pode despejar de um para o outro quantas vezes quiser, e o suco nunca aumenta nem diminui. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Prever em qual dos dois recipientes cabe mais suco de amora, olhando apenas o formato deles.",
-        "Conferir o palpite observando o Bramble despejar o suco de um recipiente para o outro.",
-        "Perceber que o formato engana — um recipiente mais alto nem sempre é o que cabe mais.",
-        "Descrever a comparação com as palavras cabe mais, cabe menos e cabe igual."
+        "Comparar dois recipientes pelo quanto cabe neles",
+        "Prever primeiro e depois conferir despejando",
+        "Perceber que alto nem sempre quer dizer mais",
+        "Distinguir mais, menos e o mesmo tanto"
       ],
       "howToPlay": [
-        "Olhe bem os dois recipientes que aparecem lado a lado na barraquinha do Bramble.",
-        "Faça seu palpite: em qual cabe mais suco — no da esquerda, no da direita, ou cabe igual nos dois?",
-        "Assista o Bramble despejar o suco e veja se você acertou."
+        "Coloque a framboesa no recipiente em que cabe mais (ou menos, ou em \"o mesmo tanto\").",
+        "Aperte a torneira para encher o da esquerda.",
+        "Arraste-o sobre o outro e incline-o arrastando para baixo, ou use o botão de inclinar.",
+        "Olhe o suco: ele transborda, deixa espaço ou enche até a borda."
       ],
       "learningGoals": [
-        "Eu consigo comparar a capacidade de dois recipientes sem medir e sem contar.",
-        "Eu sei que um recipiente mais alto nem sempre é o que cabe mais suco.",
-        "Eu consigo dizer em qual recipiente cabe mais, cabe menos ou cabe igual."
+        "Comparar diretamente dois recipientes e dizer em qual cabe mais ou menos",
+        "Reconhecer quando em dois recipientes cabe o mesmo tanto",
+        "Usar o despejar como prova, e não a aparência"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

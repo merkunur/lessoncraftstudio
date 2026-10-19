@@ -162,6 +162,7 @@ const MANIFEST_FILES = [
   'snippy-activities.json',
   'tildy-activities.json',
   'bramble-activities.json',
+  'tipping-pour-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

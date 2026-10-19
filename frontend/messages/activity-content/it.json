@@ -2763,25 +2763,26 @@
     },
     "bramble.holds-more.k-md-a-2": {
       "about": [
-        "Alla bancarella del succo di Bramble ci sono sempre due bicchieri uno accanto all'altro: un bicchiere alto e stretto vicino a una ciotola bassa e larga, oppure una brocca vicino a una tazza. Prima di servire, Bramble fa una sola domanda: «Quale bicchiere contiene più succo?» Il bambino sceglie sinistra, destra o uguale, e poi Bramble versa il succo per scoprire chi ha indovinato.",
-        "L'idea è confrontare la capacità dei recipienti senza numeri e senza misurare. La forma inganna: un bicchiere alto e stretto sembra contenere di più, ma una ciotola bassa e larga può contenere molto più succo — essere alto non vuol dire contenere di più. Qui un'ipotesi sbagliata non è un errore, è una scoperta: quando il succo viene versato, il bambino vede con i propri occhi ciò che l'aspetto nascondeva.",
-        "L'attività è senza registrazione, senza timer, senza punteggio e senza contare. È pensata per la classe prima e allineata alle Indicazioni nazionali, nell'ambito relativo a relazioni, dati e previsioni: il confronto diretto delle capacità è un primo passo importante prima di misurare, più avanti, con litri e millilitri."
+        "Quale contiene di più? Qui il bambino lo scopre come si fa davvero: versando un recipiente nell’altro. Prima sceglie: il lampone va sul recipiente che secondo lui contiene di più, su quello che contiene di meno o sul sottobicchiere «la stessa quantità». Poi riempie il recipiente di sinistra al rubinetto del succo, lo solleva e lo versa nell’altro con la propria mano: più lo inclina, più il succo scorre veloce. È un’attività interattiva di misura per la classe prima, che funziona nel browser senza installare nulla.",
+        "L’invenzione è che decide il succo, e può fare solo una di tre cose. Trabocca oltre l’orlo nella vaschetta: il primo conteneva di più; lascia uno spazio in cima, segnato da una linea tratteggiata: il secondo contiene di più; oppure riempie l’altro esattamente fino all’orlo, e l’orlo luccica: contengono la stessa quantità. Ogni bicchiere, brocca, ciotola e pentola contiene ciò che la sua forma disegnata contiene davvero, quindi le illusioni sono vere: un bicchiere alto e stretto può lasciare spazio in una ciotola bassa e larga, e una pentola di terracotta dalle pareti spesse è grande fuori e piccola dentro. Al livello ingannevole nessun aspetto vince da solo: a volte contiene di più il più alto, a volte il più largo; l’unico modo sicuro è versare. A una scelta sbagliata risponde la prova (la pozza, lo spazio o l’orlo vengono cerchiati), e una seconda scelta sbagliata fa brillare il posto giusto.",
+        "L’attività segue le Indicazioni nazionali per la classe prima: confrontare direttamente due recipienti e dire quale contiene di più o di meno, qui la capacità. L’insegnante sceglie recipienti facili o ingannevoli e la domanda: contiene di più, contiene di meno o misto; un turno chiede anche se il succo ci starà nell’altro recipiente. Dopo ogni scelta il bambino può versare avanti e indietro quanto vuole, e il succo non aumenta e non diminuisce mai. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Prevedere quale dei due bicchieri contiene più succo di frutti di bosco, guardando solo la loro forma.",
-        "Verificare l'ipotesi osservando Bramble versare il succo da un recipiente all'altro.",
-        "Capire che la forma inganna: un recipiente più alto non è sempre quello che contiene di più.",
-        "Descrivere il confronto con le parole contiene di più, contiene di meno e contengono la stessa quantità."
+        "Confrontare due recipienti in base a quanto contengono",
+        "Prevedere prima, poi verificare versando",
+        "Capire che alto non vuol dire sempre di più",
+        "Distinguere di più, di meno e la stessa quantità"
       ],
       "howToPlay": [
-        "Osserva bene i due bicchieri che appaiono uno accanto all'altro alla bancarella di Bramble.",
-        "Fai la tua previsione: quale contiene più succo — quello a sinistra, quello a destra, o ne contengono la stessa quantità?",
-        "Guarda Bramble versare il succo e scopri se hai indovinato."
+        "Metti il lampone sul recipiente che contiene di più (o di meno, o su «la stessa quantità»).",
+        "Premi il rubinetto per riempire quello di sinistra.",
+        "Trascinalo sopra l’altro e inclinalo trascinando in giù, oppure usa il pulsante per inclinare.",
+        "Guarda il succo: trabocca, lascia spazio o riempie fino all’orlo."
       ],
       "learningGoals": [
-        "So confrontare la capacità di due recipienti senza misurare e senza contare.",
-        "So che un recipiente più alto non è sempre quello che contiene più succo.",
-        "So dire quale recipiente contiene di più, contiene di meno o se contengono la stessa quantità."
+        "Confrontare direttamente due recipienti e dire quale contiene di più o di meno",
+        "Riconoscere quando due recipienti contengono la stessa quantità",
+        "Usare il travaso come prova, non l’aspetto"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

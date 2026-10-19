@@ -191,6 +191,10 @@ function seedScript(row) {
     // how tall? the giraffe put on the TRACK: it has tipped over and lies along the rail with its length bar, and the track's ↔ sign stands beside the question's ↕ — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='one.giraffe';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.MeasureStationsCore,s=t._cur();C.drop(s,'track');t._paint();})();`;
   }
+  if (row.tool === 'tipping-pour-activity') {
+    // the tall glass tipped over the low wide bowl, juice streaming in, the raspberry on the bowl — the pour at its moment
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.cups='tricky';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='T1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TippingPourCore,s=t.st;C.place(s,'B');C.fill(s);t._dock('L');s.tilt=62;for(var n=0;n<8;n++)C.pourStep(s,0.05,'L');t._flow={pour:1,spill:0};t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

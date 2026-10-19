@@ -1896,6 +1896,30 @@
         "Barnet kan skrive et tall mellom 11 og 19 som 10 + N",
         "Barnet kan forklare hvorfor 13 og 31 er forskjellige tall"
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Hvilken rommer mest? Her finner barnet det ut slik man virkelig gjør: ved å helle den ene beholderen over i den andre. Først bestemmer barnet seg: bringebæret legges på beholderen barnet tror rommer mest, på den som rommer minst, eller på brikken «like mye». Så fyller barnet den venstre beholderen ved saftkranen, løfter den og heller den over i den andre med sin egen hånd: jo mer den heller, jo fortere renner saften. En interaktiv måleaktivitet for første trinn som virker i nettleseren uten installasjon.",
+        "Det nye er at saften avgjør, og den kan bare gjøre én av tre ting. Den renner over kanten ned i dryppebrettet: da rommet den første mer; den etterlater plass øverst, merket med en stiplet linje: da rommer den andre mer; eller den fyller den andre nøyaktig helt opp til kanten, og kanten glitrer: de rommer like mye. Hvert glass, hver mugge, bolle og gryte rommer det dens tegnede form virkelig rommer, så synsbedragene er ekte: et høyt, smalt glass kan etterlate plass i en lav, bred bolle, og en tykkvegget steinkrukke er stor utenpå og liten inni. På det lure nivået vinner ikke noe utseende alene: noen ganger rommer den høyeste mest, andre ganger den bredeste; det eneste sikre er å helle. En feil gjetning besvares av beviset (pytten, plassen eller kanten får en ring rundt), og etter en ny feil gjetning lyser riktig sted.",
+        "Aktiviteten følger LK20 for matematikk på de første trinnene: sammenligne to beholdere direkte og si hvilken som rommer mer eller mindre, her volum. Læreren velger lette eller lure beholdere og spørsmålet: rommer mest, rommer minst eller blandet; én runde spør også om saften får plass i den andre beholderen. Etter hver gjetning kan barnet helle fram og tilbake så lenge det vil, og saften blir aldri mer eller mindre. Ingen tidtaking, ingen poeng."
+      ],
+      "practices": [
+        "Sammenligne to beholdere etter hvor mye de rommer",
+        "Først gjette, så prøve ved å helle",
+        "Se at høy ikke alltid betyr mer",
+        "Skille mellom mer, mindre og like mye"
+      ],
+      "howToPlay": [
+        "Legg bringebæret på beholderen som rommer mest (eller minst, eller på «like mye»).",
+        "Trykk på kranen for å fylle den venstre.",
+        "Dra den over den andre og hell den ved å dra nedover, eller bruk helleknappen.",
+        "Se på saften: den renner over, etterlater plass eller fyller helt opp til kanten."
+      ],
+      "learningGoals": [
+        "Sammenligne to beholdere direkte og si hvilken som rommer mer eller mindre",
+        "Kjenne igjen når to beholdere rommer like mye",
+        "Bruke det å helle som bevis, ikke utseendet"
+      ]
     }
   }
 }

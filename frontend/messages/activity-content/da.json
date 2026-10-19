@@ -1910,6 +1910,30 @@
         "Barnet kan skrive et tal mellem 11 og 19 som 10 + N",
         "Barnet kan forklare, hvorfor 13 og 31 er forskellige tal"
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Hvilken kan rumme mest? Her finder barnet ud af det, sådan som man virkelig gør: ved at hælde den ene beholder over i den anden. Først beslutter barnet sig: hindbærret lægges på den beholder, barnet tror kan rumme mest, på den, der kan rumme mindst, eller på brikken \"lige meget\". Så fylder barnet den venstre beholder ved safthanen, løfter den og hælder den over i den anden med sin egen hånd: jo mere den hældes, jo hurtigere løber saften. En interaktiv måleaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det nye er, at saften afgør det, og den kan kun gøre én af tre ting. Den løber over kanten ned i drypbakken: så kunne den første rumme mere; den efterlader plads øverst, markeret med en stiplet linje: så kan den anden rumme mere; eller den fylder den anden præcis helt op til kanten, og kanten glimter: de kan rumme lige meget. Hvert glas, hver kande, skål og gryde rummer det, som dens tegnede form virkelig rummer, så synsbedragene er ægte: et højt, smalt glas kan efterlade plads i en lav, bred skål, og en tykvægget stentøjskrukke er stor udenpå og lille indeni. På det drilske niveau vinder intet udseende alene: nogle gange rummer den højeste mest, andre gange den bredeste; det eneste sikre er at hælde. Et forkert gæt besvares af beviset (pølen, pladsen eller kanten får en ring om), og efter et andet forkert gæt lyser det rigtige sted.",
+        "Aktiviteten følger Fælles Mål for børnehaveklassen (kompetenceområdet Matematisk opmærksomhed): sammenligne to beholdere direkte og sige, hvilken der kan rumme mere eller mindre, her rumfang. Læreren vælger lette eller drilske beholdere og spørgsmålet: rummer mest, rummer mindst eller blandet; én runde spørger også, om saften kan være i den anden beholder. Efter hvert gæt kan barnet hælde frem og tilbage, så længe det vil, og saften bliver aldrig mere eller mindre. Ingen tidtagning, ingen point."
+      ],
+      "practices": [
+        "Sammenligne to beholdere efter, hvor meget de kan rumme",
+        "Først gætte, så afprøve ved at hælde",
+        "Se, at høj ikke altid betyder mere",
+        "Skelne mellem mere, mindre og lige meget"
+      ],
+      "howToPlay": [
+        "Læg hindbærret på den beholder, der kan rumme mest (eller mindst, eller på \"lige meget\").",
+        "Tryk på hanen for at fylde den venstre.",
+        "Træk den hen over den anden, og hæld den ved at trække nedad, eller brug hælde-knappen.",
+        "Se på saften: den løber over, efterlader plads eller fylder helt op til kanten."
+      ],
+      "learningGoals": [
+        "Sammenligne to beholdere direkte og sige, hvilken der kan rumme mere eller mindre",
+        "Genkende, når to beholdere kan rumme lige meget",
+        "Bruge det at hælde som bevis, ikke udseendet"
+      ]
     }
   }
 }

@@ -2737,6 +2737,30 @@
         "Barnet skriver ett tal mellan 11 och 19 som 10 + N",
         "Barnet förklarar varför 13 och 31 är olika tal"
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Vilket kärl rymmer mest? Här tar barnet reda på det så som man verkligen gör: genom att hälla det ena kärlet i det andra. Först bestämmer sig barnet: hallonet läggs på det kärl som barnet tror rymmer mest, på det som rymmer minst eller på underlägget \"lika mycket\". Sedan fyller barnet det vänstra kärlet vid saftkranen, lyfter det och häller det i det andra med sin egen hand: ju mer det lutar, desto snabbare rinner saften. En interaktiv mätaktivitet för förskoleklass som fungerar i webbläsaren utan installation.",
+        "Det nya är att saften avgör, och den kan bara göra en av tre saker. Den rinner över kanten ner i droppbrickan: då rymde det första mer; den lämnar plats upptill, markerad med en streckad linje: då rymmer det andra mer; eller så fyller den det andra precis ända upp till kanten, och kanten gnistrar: de rymmer lika mycket. Varje glas, kanna, skål och kruka rymmer det som dess ritade form verkligen rymmer, så synvillorna är äkta: ett högt, smalt glas kan lämna plats i en låg, bred skål, och en tjockväggig stenkruka är stor utanpå och liten inuti. På den kluriga nivån vinner inget utseende ensamt: ibland rymmer det högre mer, ibland det bredare; det enda säkra är att hälla. På en felaktig gissning svarar beviset (pölen, platsen eller kanten ringas in), och efter en andra felaktig gissning lyser rätt plats.",
+        "Aktiviteten följer Lgr22, matematik i förskoleklass: jämföra två kärl direkt och säga vilket som rymmer mer eller mindre, här volym. Läraren väljer lätta eller kluriga kärl och frågan: rymmer mest, rymmer minst eller blandat; en omgång frågar också om saften får plats i det andra kärlet. Efter varje gissning kan barnet hälla fram och tillbaka så länge det vill, och saften blir aldrig mer eller mindre. Ingen tidtagning, inga poäng."
+      ],
+      "practices": [
+        "Jämföra två kärl efter hur mycket de rymmer",
+        "Först gissa, sedan pröva genom att hälla",
+        "Se att högt inte alltid betyder mer",
+        "Skilja på mer, mindre och lika mycket"
+      ],
+      "howToPlay": [
+        "Lägg hallonet på det kärl som rymmer mest (eller minst, eller på \"lika mycket\").",
+        "Tryck på kranen för att fylla det vänstra.",
+        "Dra det över det andra och luta det genom att dra nedåt, eller använd lutknappen.",
+        "Titta på saften: den rinner över, lämnar plats eller fyller ända upp till kanten."
+      ],
+      "learningGoals": [
+        "Jämföra två kärl direkt och säga vilket som rymmer mer eller mindre",
+        "Känna igen när två kärl rymmer lika mycket",
+        "Använda hällandet som bevis, inte utseendet"
+      ]
     }
   }
 }

@@ -1817,6 +1817,30 @@
         "Jokaisen jaon kirjaaminen yhtälöllä, kuten 10 = 6 + 4",
         "Kymppiparien oppiminen"
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Ankanpoikanen Kvaakilla on allas täynnä hohtavia kuplia, jotka ajelehtivat hitaasti ympäriinsä, joten niitä ei voi laskea siellä, missä ne kelluvat. Lapsi ottaa ne Kvaakin lautalle, yksi kupla paikkaa kohti, napauttamalla tai vetämällä. Kymmenennen paikan kohdalla kymmenen kuplaa sulautuu yhdeksi kultaiseksi kymppilautaksi, Kvaak hyppää kyytiin, ja jokainen vielä irrallinen kupla kiinnittyy lautan hinausköyteen yhdeksi riviksi. Nyt 13 on yksi lautta ja kolmen kuplan rivi. Tämä on vuorovaikutteinen esiopetuksen matematiikkatehtävä, joka toimii selaimessa ilman asennusta.",
+        "Erikoista on altaan vieressä oleva haamulahti. Vastaukset ovat lukukortteja, ja väärä kortti rakentaa sinne sen, mitä se oikeasti tarkoittaa: kun 13 kuplan altaalle valitsee kortin 31, lahteen ilmestyy kolme haamulauttaa ja yksi haamukupla; kun 16:lle valitsee kortin 6, ilmestyy kuusi haamukuplaa eikä yhtään lauttaa. Toisen virheen jälkeen lautalle tulee 10 ja rivi lasketaan eteenpäin 11:stä. Muilla kierroksilla lapsi rakentaa luvun kaislikon tarvikkeista (valmis lautta ja irtokuplia: tee 17), korjaa altaan, jossa on aluksi 10 + 2, kunnes siinä on 14, puhkaisee lautan pitämällä sitä painettuna ja näkee, että 12 on yhä 12, tai vertaa kahta allasta, 13 ja 18: sama kymppi, mutta 8 lisää eikä 3. Jokaisen onnistumisen jälkeen merkintä 10 + 3 = 13 täyttyy ja Kvaak meloo kierroksen.",
+        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella: lapsi kokoaa ja hajottaa luvut 11–19 kymmeneksi ykköseksi ja muutamaksi ykköseksi lisää ja merkitsee ne muotoon 10 + N. Opettaja valitsee luvut 15:een tai 19:ään asti sekä kortit numeroina tai sanoina, jotka tulevat samoista tarkistetuista taulukoista kuin tulostettavat tehtävämonisteet. ”Haamulahti” on vapaata leikkiä: ota, puhkaise ja tuo esiin minkä tahansa luvun haamu 99:ään asti. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Kymmenen ykkösen ottaminen ja niiden muuttuminen kympiksi",
+        "Lukujen 11–19 näkeminen kymppinä ja muutamana ykkösenä",
+        "Lukujen 13 ja 31 erottaminen sen perusteella, mitä kumpikin rakentaa",
+        "Luvun 11–19 merkitseminen muotoon 10 + N"
+      ],
+      "howToPlay": [
+        "Napauta tai vedä kuplat Kvaakin lautalle, kunnes kymmenestä tulee yksi lautta.",
+        "Napauta lukukorttia, joka kertoo, montako kuplaa on.",
+        "Väärä kortti näyttää haamunsa: vertaa sitä altaaseen.",
+        "Ei ajastinta eikä pisteitä: kokeile toista korttia tai toista siirtoa."
+      ],
+      "learningGoals": [
+        "Lapsi kokoaa ja hajottaa luvut 11–19 kympiksi ja muutamaksi ykköseksi",
+        "Lapsi merkitsee luvun 11–19 muotoon 10 + N",
+        "Lapsi selittää, miksi 13 ja 31 ovat eri lukuja"
+      ]
     }
   }
 }

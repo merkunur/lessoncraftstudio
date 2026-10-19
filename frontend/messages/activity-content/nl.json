@@ -1487,25 +1487,26 @@
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {
       "about": [
-        "Dobber de eend dobbert vrolijk in een hoge glazen tank vol belletjes. Elke keer dat je tikt, borrelt er een nieuw belletje omhoog, en Dobber kijkt tevreden toe hoe de tank langzaam voller wordt. Het is een rustig plekje om te ontdekken hoe getallen eigenlijk zijn opgebouwd.",
-        "Tik belletjes in de tank tot je er tien hebt: dan klikken die tien belletjes samen tot één tiental, terwijl de belletjes die overblijven los ernaast blijven staan als enen. Zo wordt elk getal van 11 tot 19 zichtbaar als een tiental en een paar enen (10 + N) — de eerste stap in het tientallig stelsel, ook wel bundelen genoemd. Kinderen bundelen tientallen, leggen er enen bij, splitsen een getal weer in tiental en enen en maken zo gesproken getallen. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score — Dobber heeft alle tijd. Je tikt op je eigen tempo belletjes bij en kijkt rustig hoe het tiental ontstaat. Een verkeerde plek is geen fout: je probeert het gewoon opnieuw tot het getal klopt."
+        "Eendje Dobber heeft een tank vol glimmende belletjes die langzaam rondzweven, zodat je ze daar niet kunt tellen. Het kind vangt ze op het vlot van Dobber, één belletje per plekje, met een tik of door te slepen. Bij het tiende plekje smelten de tien belletjes samen tot één gouden tientalvlot, Dobber springt erop en elk belletje dat nog los is, haakt in één rij aan het sleeptouw van het vlot. Nu is 13 één vlot en een rij van drie. Een interactieve rekenactiviteit voor groep 3 die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere is de spookbaai naast de tank. De antwoorden zijn getalkaarten, en een verkeerde kaart bouwt daar wat hij echt betekent: wie 31 legt bij de tank van 13, ziet drie spookvlotten en één spookbelletje; wie 6 legt bij 16, ziet zes spookbelletjes en helemaal geen vlot. Bij een tweede fout komt er een 10 op het vlot en wordt de rij doorgeteld vanaf 11. In andere rondes maakt het kind het getal met wat er in het riet ligt (een kant-en-klaar vlot en losse belletjes: maak 17), maakt het een tank die begint bij 10 + 2 in orde tot hij 14 laat zien, laat het een vlot knappen door het lang in te drukken en ziet het dat 12 nog steeds 12 is, of vergelijkt het twee tanks, 13 en 18: hetzelfde tiental, maar nog 8 in plaats van 3. Bij elk goed antwoord vult de som 10 + 3 = 13 zich en peddelt Dobber een rondje.",
+        "De activiteit sluit aan bij de kerndoelen voor groep 3: de getallen van 11 tot en met 19 samenstellen en splitsen in tien eenheden en nog wat eenheden, en ze schrijven als 10 + N. De leerkracht kiest getallen tot 15 of tot 19, en getalkaarten met cijfers of met woorden, uit dezelfde nagekeken tabellen als de werkbladen om te printen. ‘Spookbaai’ is open spel: vangen, laten knappen en het spook van elk getal tot 99 laten verschijnen. Geen timer, geen score."
       ],
       "practices": [
-        "Getallen 11 tot 19 zien als een tiental en enen",
-        "Tien losse enen bundelen tot één tiental",
-        "Een getal splitsen in een tiental en enen",
-        "10 + N herkennen in getallen van 11 tot 19"
+        "Tien eenheden vangen en zien dat ze één tiental worden",
+        "De getallen 11 tot en met 19 zien als een tiental en wat eenheden",
+        "13 en 31 uit elkaar houden door wat elk getal bouwt",
+        "Een getal van 11 tot en met 19 schrijven als 10 + N"
       ],
       "howToPlay": [
-        "Tik belletjes in de tank tot je er tien hebt — die worden samen één tiental",
-        "Leg de losse enen naast het tiental",
-        "Maak zo het gevraagde getal, bijvoorbeeld 14: één tiental en vier enen"
+        "Tik of sleep de belletjes op het vlot van Dobber tot er tien samen één vlot worden.",
+        "Tik op de getalkaart die zegt hoeveel belletjes het zijn.",
+        "Een verkeerde kaart laat zijn spook zien: vergelijk het met de tank.",
+        "Geen timer, geen score: probeer een andere kaart of een andere zet."
       ],
       "learningGoals": [
-        "Begrijpen dat een getal van 11 tot 19 bestaat uit één tiental en een paar enen",
-        "Ervaren hoe tien enen samen één tiental vormen (bundelen)",
-        "De basis van het tientallig stelsel leren zien als 10 + N"
+        "De getallen 11 tot en met 19 samenstellen en splitsen in een tiental en wat eenheden",
+        "Een getal van 11 tot en met 19 schrijven als 10 + N",
+        "Uitleggen waarom 13 en 31 verschillende getallen zijn"
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

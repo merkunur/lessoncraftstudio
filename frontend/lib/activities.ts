@@ -133,6 +133,7 @@ const MANIFEST_FILES = [
   'ten-seat-wheel-activities.json',
   'music-box-activities.json',
   'overflow-trays-activities.json',
+  'ghost-rafts-activities.json',
   'ten-tank-activities.json',
   'pip-museum-activities.json',
   'chuffer-activities.json',

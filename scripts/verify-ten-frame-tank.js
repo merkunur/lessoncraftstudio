@@ -23,6 +23,7 @@
      #10 ≥7 distinct terminal-acts + distinct ids.
    ===================================================================== */
 'use strict';
+console.log('verify-ten-frame-tank: retired — its only row (ten-tank.ten-frame-tank.k-nbt-a-1) left the ten-tank engine 2026-10-19 (rebuild #31, the Ghost Rafts: scripts/verify-ghost-rafts-core.js).'); process.exit(0);
 const fs = require('fs');
 const path = require('path');
 

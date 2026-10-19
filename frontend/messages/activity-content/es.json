@@ -1073,25 +1073,26 @@
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {
       "about": [
-        "Ayuda a Dewey el patito a llenar su tanque de burbujas: cada vez que tocas, cae una burbuja en el marco de diez. Cuando se juntan diez, ¡se sellan y forman una sola decena!, y las que sobran quedan como unidades. Así tu pequeño descubre que los números del 11 al 19 son una decena y unas cuantas unidades.",
-        "Aquí vive una idea clave al inicio de la primaria: diez unidades se agrupan en una decena, una sola unidad de orden mayor. En lugar de contar quince cosas sueltas, el niño lee el número por su estructura —una decena y cinco unidades, 10 + 5— y empieza a usar el valor posicional. Esta es la base del sistema de numeración decimal, que más adelante sostendrá todo el trabajo con números hasta el 100.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: el niño forma sus decenas a su propio ritmo, explora, descompone y vuelve a intentar con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con los números del 11 al 19."
+        "El patito Dewey tiene un tanque lleno de burbujas brillantes que flotan despacio de un lado a otro, así que no se pueden contar donde están. La niña o el niño las atrapa en la balsa de Dewey, una burbuja por lugar, tocándolas o arrastrándolas. En el décimo lugar, las diez burbujas se funden en una sola balsa-decena dorada, Dewey se sube y todas las burbujas que siguen sueltas se enganchan en una fila a la cuerda de la balsa. Ahora 13 es una balsa y una fila de tres. Es una actividad interactiva de matemáticas para primer grado que funciona en el navegador, sin instalar nada.",
+        "Lo especial es la bahía de los fantasmas junto al tanque. Las respuestas son tarjetas de números, y una tarjeta equivocada construye ahí lo que de verdad significa: poner 31 para el tanque de 13 hace aparecer tres balsas fantasma y una burbuja fantasma; poner 6 para 16 hace aparecer seis burbujas fantasma y ninguna balsa. Con el segundo error, un 10 se coloca sobre la balsa y la fila se cuenta a partir del 11. En otras rondas se forma el número con lo que hay en los juncos (una balsa lista y burbujas: forma 17), se arregla un tanque que empieza en 10 + 2 hasta que muestre 14, se revienta una balsa manteniéndola presionada y se ve que 12 sigue siendo 12, o se comparan dos tanques, 13 y 18: la misma decena, pero 8 más en lugar de 3. Con cada acierto se llena el registro 10 + 3 = 13 y Dewey da una vuelta remando.",
+        "Está alineada a los planes y programas de estudio (SEP) de primer grado, en Sentido numérico: componer y descomponer los números del 11 al 19 en diez unidades y algunas más, y escribirlos como 10 + N. La maestra o el maestro elige números hasta el 15 o hasta el 19, y tarjetas con cifras o con letra, tomadas de las mismas tablas revisadas que las hojas de trabajo para imprimir. «Bahía de los fantasmas» es juego abierto: atrapar, reventar y hacer aparecer el fantasma de cualquier número hasta el 99. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Llenar el marco de diez de Dewey tocando burbujas una por una; al caer la décima, las diez se sellan y forman una decena —una sola unidad de orden mayor.",
-        "Leer el número formado como «una decena y N unidades» (10 + N): catorce es una decena y cuatro unidades.",
-        "Descomponer un número del 11 al 19 en su decena y sus unidades, y reagrupar burbujas sueltas hasta formar una decena.",
-        "Comparar dos cantidades observando primero las decenas y luego las unidades, apoyándose en el valor posicional."
+        "Atrapar diez unidades y verlas convertirse en una decena",
+        "Ver los números del 11 al 19 como una decena y algunas unidades",
+        "Distinguir 13 de 31 por lo que construye cada número",
+        "Escribir un número del 11 al 19 como 10 + N"
       ],
       "howToPlay": [
-        "Toca burbujas en el tanque hasta que diez se sellen y formen una decena.",
-        "Agrega las burbujas sueltas que sobran como unidades.",
-        "Lee el número como «una decena y … unidades», es decir 10 + N."
+        "Toca o arrastra las burbujas a la balsa de Dewey hasta que diez formen una balsa.",
+        "Toca la tarjeta que dice cuántas burbujas hay.",
+        "Una tarjeta equivocada muestra su fantasma: compáralo con el tanque.",
+        "Sin temporizador y sin puntuación: prueba otra tarjeta u otro movimiento."
       ],
       "learningGoals": [
-        "Comprender que diez unidades se agrupan en una decena y que los números del 11 al 19 se forman con una decena y algunas unidades.",
-        "Representar, leer y descomponer números como 10 + N, iniciando el uso del valor posicional y del sistema de numeración decimal.",
-        "Comparar y ordenar cantidades usando la estructura de decenas y unidades, construyendo la base del pensamiento sobre base diez."
+        "Componer y descomponer los números del 11 al 19 en una decena y algunas unidades",
+        "Escribir un número del 11 al 19 como 10 + N",
+        "Explicar por qué 13 y 31 son números distintos"
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

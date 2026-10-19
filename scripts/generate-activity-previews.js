@@ -183,6 +183,10 @@ function seedScript(row) {
     // make 14 mid-pour: the top tray full, its chute open, three counters already overflowed below — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.OverflowTraysCore,s=t._cur();for(var j=0;j<13;j++)C.pour(s);t._paint();})();`;
   }
+  if (row.tool === 'ghost-rafts-activity') {
+    // catch 13: ten bubbles sealed into Dewey's raft, three on the tow-line, and the wrong card 31's ghost in the bay — three rafts and one bubble — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='catch.13';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._deal=null;t._curPass=0;window.LCS_reloadFirstTask();var C=window.GhostRaftsCore,s=t._cur();for(var j=0;j<10;j++)C.catchBubble(s);t._bubs=[];C.pickCard(s,31);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

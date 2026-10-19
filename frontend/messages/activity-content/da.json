@@ -543,25 +543,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Helheden er 10, og den ene del af talmodellen er allerede fyldt ud — for eksempel 7 — og barnet trykker på den tomme del for at lægge tællebrikker til, indtil de to dele tilsammen bliver 10. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører direkte i browseren uden konto og uden oprettelse.",
-        "Hvert tal fra 1 til 9 har en ven, der gør tallet helt op til ti, og her bygger barnet selv den ven ved at lægge brikker til én ad gangen og se de to dele vokse op til 10 — ikke ved at læse et facit af et ark. Selve talmodellen er svaret; barnet stopper, når begge dele bliver præcis ti, så en del, der er for lille eller for stor, er nem at mærke og rette.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen: at finde det tal, der giver 10, når det lægges til et givet tal. Der er ingen tid og ingen point — bare rolig, legende træning, hvor man kan lære vennerne til 10 i sit eget tempo."
+        "Et pariserhjul har præcis ti pladser, og der sidder allerede nogle passagerer, for eksempel 7. Barnet indstiller et tal på lågens drejeskive, trækker i håndtaget, og så mange bondegårdsdyr stiger på ét ad gangen, mens hjulet klikker én plads frem hver gang. Så slippes bremsen. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er, at hjulet tjekker svaret med sin balance. Fuldt drejer det en langsom omgang, og lysene på kanten løber rundt. Er der for få passagerer, synker den tunge side ned: hjulet gynger og falder til ro med de tomme pladser øverst, hvor alle kan tælle dem. Er der for mange, bliver dem, der ikke kan være der, stående på platformen; bremsen slipper ikke, og alle stiger af igen, så barnet kan dreje tallet ned. Pladserne har to farver i grupper på fem, så 7 læses som fem og to til. Efter andet forsøg tæller de tomme pladser videre (8, 9, 10), og en pil på drejeskiven viser, hvilken vej tallet skal drejes – aldrig selve tallet. Opdelingen ved siden af hjulet viser hver tur, fx 10 = 7 + 3, og en hel runde »Lav 10« starter én gang med hvert tal fra 1 til 9. Andre runder har mindre hjul eller fylder alle pladser med to slags passagerer og spørger efter helheden: 5 og 3 giver 8.",
+        "Aktiviteten følger Fælles Mål for matematik i børnehaveklassen: at finde det tal, der giver 10 sammen med et givet tal fra 1 til 9, med opdelinger op til 5 og op til 10 som ekstra niveauer. Læreren vælger Op til 5, 6 til 9 eller Lav 10 (forvalgt) og kan slå pladsnumre til, så barnet kan tælle videre rundt om hjulet. Tivoliet er åben leg: et hvilket som helst hjul fra 2 til 10 pladser og lige så mange passagerer, man vil. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Se helheden 10 delt op i to dele i en talmodel",
-        "Lægge tællebrikker til den tomme del én ad gangen",
-        "Finde den ven, der gør tallet helt op til ti (7 og 3, 4 og 6)",
-        "Vide, hvornår de to dele tilsammen bliver præcis 10"
+        "At finde det tal, der giver 10 sammen med et tal fra 1 til 9",
+        "At se, om et forsøg er for lille eller for stort",
+        "At tælle videre fra de passagerer, der allerede sidder i",
+        "At læse hver tur som en opdeling, fx 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Se på talmodellen — helheden er 10, og den ene del er fyldt ud.",
-        "Tryk på den tomme del for at lægge brikker til, indtil begge dele bliver 10, og tryk så på Tjek.",
-        "For mange eller for få? Læg til eller fjern brikker, og tjek igen — der er ingen tid og ingen point."
+        "Se på passagererne, der allerede sidder i hjulet, og tallet i midten.",
+        "Indstil tallet med pilene, og træk i lågens håndtag: så mange passagerer stiger på.",
+        "Slip bremsen. Et fuldt hjul drejer; tomme pladser eller passagerer, der bliver stående, viser, hvad du skal ændre.",
+        "Tryk på en passager, der lige er steget på, for at lade den stige af igen. Ingen tidtagning, ingen point."
       ],
       "learningGoals": [
-        "Barnet kan finde det tal, der sammen med et givet tal giver 10",
-        "Barnet kan bygge vennerne til ti ved at lægge brikker til frem for at huske udenad",
-        "Barnet lægger grunden til ti-venner-strategien i plus"
+        "Barnet kan finde det tal, der giver 10 sammen med et tal fra 1 til 9",
+        "Barnet kan opdele tal op til 10 i to dele",
+        "Barnet lærer alle tier-vennerne"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

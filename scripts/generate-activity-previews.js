@@ -171,6 +171,10 @@ function seedScript(row) {
     // make 5: 1 + 4 already hanging on the garland as two lanterns, the 3 plugged in and lighting three bulbs from the left — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='pair'&&r.n===5;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.LanternStringCore,s=t.st,id=function(v){return s.cards.find(function(c){return c.v===v&&!c.found;}).id;};C.plug(s,id(1));C.plug(s,id(4));C.plug(s,id(3));t._show=null;t._showNote=null;t._paint();})();`;
   }
+  if (row.tool === 'ten-seat-wheel-activity') {
+    // 7 aboard, 2 more called: the wheel has lurched and settled with its one empty gondola at the top, glowing — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='fill'&&r.k===7;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TenSeatWheelCore;C.setDial(t.st,2);t._gate();t._brake();t._paint();['.tw-prow1','.tw-note'].forEach(function(q){var e=document.querySelector(q);if(e)e.style.display='none';});})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

@@ -3734,25 +3734,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "El todo es 10 y una parte del diagrama parte-parte-todo ya está completa —por ejemplo, 7— y tu hijo o hija toca la parte vacía para agregar fichas hasta que las dos partes juntas formen 10. Es una actividad de matemáticas interactiva para preescolar (kínder) que funciona directamente en el navegador, sin crear cuenta y sin registro.",
-        "Cada número del 1 al 9 tiene un compañero que completa el diez, y aquí el niño o la niña construye ese compañero agregando fichas de una en una y viendo cómo las dos partes crecen hasta 10, no leyendo un dato de una página. El propio diagrama es la superficie de la respuesta; el niño o la niña se detiene cuando ambas partes hacen exactamente diez, así que una parte demasiado pequeña o demasiado grande es fácil de sentir y corregir.",
-        "Está alineada con los planes y programas de estudio (SEP): encontrar el número que forma 10 al sumarse a un número dado, del 1 al 9. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "Una rueda de la fortuna tiene exactamente diez asientos y ya subieron algunos pasajeros, por ejemplo 7. La niña o el niño pone un número en el marcador de la entrada, jala la palanca, y esa cantidad de animales de la granja sube uno por uno mientras la rueda avanza un asiento cada vez. Luego se suelta el freno. Es una actividad interactiva de matemáticas para preescolar que funciona en el navegador, sin instalar nada.",
+        "Lo especial es que la rueda revisa la respuesta con su equilibrio. Llena, da una vuelta lenta y las luces del borde se encienden en cadena. Si faltan pasajeros, el lado pesado baja: la rueda se balancea y se queda con los asientos vacíos hasta arriba, donde todos pueden contarlos. Si sobran, los que no caben se quedan de pie en la plataforma; el freno no se suelta y todos se bajan para que se pueda bajar el número. Los asientos tienen dos colores en grupos de cinco, así que 7 se lee como cinco y dos más. Al segundo intento, los asientos vacíos siguen el conteo (8, 9, 10) y la flecha del marcador indica hacia dónde moverlo, nunca el número. La descomposición junto a la rueda registra cada vuelta, por ejemplo 10 = 7 + 3, y una ronda completa de «Formar 10» empieza una vez con cada número del 1 al 9. Otras rondas usan ruedas más chicas, o llenan todos los asientos con dos tipos de pasajeros y piden el total: 5 y 3 forman 8.",
+        "Está alineada con los planes y programas de estudio (SEP): encontrar el número que forma 10 al sumarse a un número dado del 1 al 9, con descomposiciones hasta 5 y hasta 10 como niveles extra. La maestra o el maestro elige Hasta 5, Del 6 al 9 o Formar 10 (predeterminado) y puede mostrar los números de asiento para seguir contando alrededor de la rueda. «La feria» es juego abierto: cualquier rueda de 2 a 10 asientos y los pasajeros que se quieran. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Ver el todo 10 separado en dos partes dentro de un diagrama parte-parte-todo.",
-        "Agregar fichas a la parte vacía de una en una.",
-        "Encontrar el compañero que completa el diez (7 y 3, 4 y 6).",
-        "Saber cuándo las dos partes juntas hacen exactamente 10."
+        "Encontrar el número que forma 10 con un número dado del 1 al 9",
+        "Ver si un intento se queda corto o se pasa",
+        "Seguir contando a partir de los pasajeros que ya subieron",
+        "Leer cada vuelta como una descomposición, por ejemplo 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Mira el diagrama: el todo es 10 y una parte ya está completa.",
-        "Toca la parte vacía para agregar fichas hasta que las dos partes hagan 10 y pulsa Comprobar.",
-        "¿Te pasaste o faltaron? Agrega o quita fichas y comprueba otra vez: no hay temporizador ni puntaje."
+        "Mira los pasajeros que ya están en la rueda y el número del centro.",
+        "Pon el número con las flechas y jala la palanca de la entrada: suben esos pasajeros.",
+        "Suelta el freno. Una rueda llena gira; los asientos vacíos o los pasajeros que se quedan de pie muestran qué cambiar.",
+        "Toca a un pasajero que acaba de subir para que se baje. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a encontrar el número que forma 10 con un número dado.",
-        "Tu hijo o hija construye los amigos del diez agregando fichas, no memorizando.",
-        "Se sienta la base de la estrategia de “formar diez” para sumar más adelante."
+        "Encontrar el número que forma 10 con cualquier número del 1 al 9",
+        "Descomponer números hasta el 10 en dos partes",
+        "Aprender todas las parejas que forman 10"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

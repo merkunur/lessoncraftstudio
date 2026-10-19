@@ -4178,25 +4178,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Zahlenhäuser bis 10: das Zahlenhaus der Zehn füllen und Zehnerfreunde entdecken – ideal für Vorschule und Schulstart. Das Ganze ist 10, und ein Teil des Zahlenhauses ist schon gefüllt — etwa 7 —, und das Kind tippt auf den leeren Teil, um Plättchen hinzuzufügen, bis beide Teile zusammen 10 ergeben. Diese interaktive Mathe-Übung für den Kindergarten läuft direkt im Browser, ohne Konto und ohne Anmeldung.",
-        "Jede Zahl von 1 bis 9 hat einen Partner, der die Zehn voll macht, und hier baut das Kind diesen Partner selbst, indem es ein Plättchen nach dem anderen hinzufügt und zusieht, wie die beiden Teile auf 10 anwachsen — nicht, indem es eine Aufgabe vom Blatt abliest. Das Zahlenhaus selbst ist die Antwortfläche; das Kind hört auf, wenn beide Teile genau zehn ergeben, sodass ein zu kleiner oder zu großer Teil leicht zu spüren und zu beheben ist.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet — die Zahl finden, die mit einer gegebenen Zahl zusammen 10 ergibt (die Zehnerfreunde). Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Ein Riesenrad hat genau zehn Sitze, und einige Fahrgäste sitzen schon – zum Beispiel 7. Das Kind stellt am Einstiegstor eine Zahl ein, zieht den Torhebel, und so viele Bauernhoftiere steigen nacheinander ein, während sich das Rad jedes Mal einen Sitz weiterdreht. Dann wird die Bremse gelöst. Eine interaktive Mathe-Aktivität für Vorschule und Klasse 1, die direkt im Browser läuft, ohne Installation.",
+        "Das Besondere: Das Rad prüft die Antwort durch sein Gleichgewicht. Ein volles Rad dreht eine langsame Runde, und die Lichter am Rand laufen mit. Sind es zu wenige Fahrgäste, sinkt die schwere Seite nach unten: Das Rad schaukelt und bleibt so stehen, dass die leeren Sitze ganz oben hängen, wo alle sie zählen können. Sind es zu viele, bleiben die Fahrgäste, die nicht mehr passen, auf der Plattform stehen; die Bremse löst sich nicht, und alle steigen wieder aus, damit das Kind die Zahl kleiner stellen kann. Die Sitze haben zwei Farben in Fünfergruppen, so liest man 7 als fünf und zwei. Nach dem zweiten Versuch zählen die leeren Sitze weiter (8, 9, 10), und ein Pfeil zeigt, in welche Richtung die Zahl gestellt werden muss – nie die Zahl selbst. Die Zerlegung neben dem Rad hält jede Fahrt fest, etwa 10 = 7 + 3, und eine Runde durch „10 bilden“ startet einmal mit jeder Zahl von 1 bis 9. In anderen Runden gibt es kleinere Räder, oder alle Sitze sind mit zwei Tierarten besetzt und das Kind bestimmt das Ganze: 5 und 3 ergeben 8.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet: die Zahl finden, die mit einer gegebenen Zahl von 1 bis 9 zusammen 10 ergibt, dazu Zerlegungen bis 5 und bis 10 als weitere Stufen. Lehrkräfte wählen Bis 5, 6 bis 9 oder 10 bilden (voreingestellt) und können Sitznummern einschalten, damit ein Kind am Rad weiterzählen kann. Der „Rummelplatz“ ist offenes Spiel: jedes Rad von 2 bis 10 Sitzen und beliebig viele Fahrgäste. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Das Ganze 10 in zwei Teile zerlegt im Zahlenhaus sehen.",
-        "Ein Plättchen nach dem anderen in den leeren Teil legen.",
-        "Den Partner finden, der die Zehn voll macht (7 und 3, 4 und 6).",
-        "Erkennen, wann beide Teile zusammen genau 10 ergeben."
+        "Die Zahl finden, die mit einer Zahl von 1 bis 9 zusammen 10 ergibt",
+        "Sehen, ob ein Versuch zu wenig oder zu viel ist",
+        "Von den Fahrgästen an Bord aus weiterzählen",
+        "Jede Fahrt als Zerlegung lesen, zum Beispiel 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Schau dir das Zahlenhaus an — das Ganze ist 10 und ein Teil ist schon gefüllt.",
-        "Tippe auf den leeren Teil, um Plättchen hinzuzufügen, bis beide Teile 10 ergeben, und tippe dann auf Prüfen.",
-        "Zu viele oder zu wenige? Lege Plättchen hinzu oder nimm welche weg und prüfe erneut — es gibt keinen Timer und keine Punkte."
+        "Schau dir die Fahrgäste auf dem Rad und die Zahl in der Mitte an.",
+        "Stell die Zahl mit den Pfeilen ein und zieh den Torhebel: So viele Fahrgäste steigen ein.",
+        "Löse die Bremse. Ein volles Rad dreht sich; leere Sitze oder Fahrgäste auf der Plattform zeigen, was du ändern musst.",
+        "Tipp auf einen Fahrgast, der gerade eingestiegen ist, damit er wieder aussteigt. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Die Zahl finden, die mit einer gegebenen Zahl zusammen 10 ergibt.",
-        "Die Zehnerfreunde durch Hinzulegen von Plättchen aufbauen, nicht durch Auswendiglernen.",
-        "Die Grundlage für die Rechenstrategie „bis zur Zehn ergänzen“ legen."
+        "Die Zahl finden, die mit einer Zahl von 1 bis 9 zusammen 10 ergibt",
+        "Zahlen bis 10 in zwei Teile zerlegen",
+        "Alle Zehnerfreunde kennenlernen"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

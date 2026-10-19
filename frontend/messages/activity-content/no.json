@@ -1448,25 +1448,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Helheten er 10 og den ene delen av tallbindingen er allerede fylt — for eksempel 7 — og barnet trykker på den tomme delen for å legge til brikker til de to delene til sammen blir 10. Det er en interaktiv matematikkaktivitet for barnehage og skolestart som kjører rett i nettleseren, uten konto og uten innlogging.",
-        "Hvert tall fra 1 til 9 har en venn som fullfører ti, og her bygger barnet den vennen ved å legge til brikker én om gangen og se de to delene vokse til 10 — ikke ved å lese et svar fra en side. Selve tallbindingen er svarflaten; barnet stopper når begge delene blir akkurat ti, så en del som er for liten eller for stor er lett å kjenne og rette opp.",
-        "Aktiviteten er knyttet til rammeverket LK20, og passer fint for barn på 5–6 år — å finne tallet som gjør 10 når det legges til et gitt tall. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et pariserhjul har akkurat ti plasser, og noen passasjerer sitter allerede på, for eksempel 7. Barnet stiller inn et tall på skiven ved porten, trekker i porthendelen, og så mange gårdsdyr går på én etter én mens pariserhjulet klikker én plass videre hver gang. Så slippes bremsen. Det er en interaktiv matteaktivitet for skolestart og 1. trinn som kjører i nettleseren uten installasjon.",
+        "Det nye er at hjulet sjekker svaret med balansen sin. Fullt går det en langsom runde, og lysene på kanten løper rundt. Er det for få passasjerer, synker den tunge siden ned: hjulet gynger og blir stående med de tomme plassene øverst, der alle kan telle dem. Er det for mange, blir de som ikke får plass, stående på plattformen; bremsen slipper ikke, og alle går av igjen, så barnet kan stille tallet ned. Plassene har to farger i grupper på fem, så 7 leses som fem og to til. Etter andre forsøk teller de tomme plassene videre (8, 9, 10), og en pil viser hvilken vei tallet skal stilles – aldri selve tallet. Oppdelingen ved siden av hjulet viser hver tur, for eksempel 10 = 7 + 3, og en hel runde med «Lag 10» starter én gang med hvert tall fra 1 til 9. Andre runder har mindre hjul, eller fyller alle plassene med to slags passasjerer og spør etter helheten: 5 og 3 blir 8.",
+        "Aktiviteten følger LK20 innenfor tall: å finne tallet som blir 10 sammen med et gitt tall fra 1 til 9, med oppdelinger opp til 5 og opp til 10 som ekstra nivåer. Den passer for skolestart og 1. trinn. Læreren velger Opp til 5, 6 til 9 eller Lag 10 (forhåndsvalgt) og kan slå på plassnummer, slik at barnet kan telle videre rundt hjulet. Tivoliet er åpen lek: et hvilket som helst hjul fra 2 til 10 plasser og så mange passasjerer man vil. Ingen tidtaker, ingen poeng."
       ],
       "practices": [
-        "Se helheten 10 delt i to deler i en tallbinding.",
-        "Legge brikker til den tomme delen, én om gangen.",
-        "Finne tiervennen som fullfører ti (7 og 3, 4 og 6).",
-        "Vite når begge delene til sammen blir akkurat 10."
+        "Finne tallet som blir 10 sammen med et tall fra 1 til 9",
+        "Se om et forsøk er for lite eller for stort",
+        "Telle videre fra passasjerene som allerede sitter på",
+        "Lese hver tur som en oppdeling, for eksempel 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Se på tallbindingen — helheten er 10 og den ene delen er fylt.",
-        "Trykk på den tomme delen for å legge til brikker til begge delene blir 10, og trykk så på Sjekk.",
-        "For mange eller for få? Legg til eller fjern brikker og sjekk igjen — det er ingen tidtaker og ingen poeng."
+        "Se på passasjerene som allerede sitter i hjulet, og tallet i midten.",
+        "Still inn tallet med pilene, og trekk i porthendelen: så mange passasjerer går på.",
+        "Slipp bremsen. Et fullt hjul går rundt; tomme plasser eller passasjerer som blir stående, viser hva du må endre.",
+        "Trykk på en passasjer som nettopp gikk på, for å la den gå av igjen. Ingen tidtaker, ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan finne tallet som gjør 10 sammen med et gitt tall.",
-        "Barnet bygger tiervennene ved å legge til brikker, ikke ved å pugge.",
-        "Barnet legger grunnlaget for strategien å lage en tier i addisjon."
+        "Barnet kan finne tallet som blir 10 sammen med et tall fra 1 til 9",
+        "Barnet kan dele opp tall opp til 10 i to deler",
+        "Barnet lærer alle tiervennene"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

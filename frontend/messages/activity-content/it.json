@@ -2690,25 +2690,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "L'intero è 10 e una parte del legame tra numeri è già riempita — per esempio 7 — e il bambino tocca la parte vuota per aggiungere pedine finché le due parti insieme formano 10. È un'attività interattiva di matematica per la scuola dell'infanzia, da fare direttamente nel browser, senza account e senza registrazione.",
-        "Ogni numero da 1 a 9 ha un compagno che completa il dieci, e qui il bambino costruisce quel compagno aggiungendo le pedine una alla volta e guardando le due parti crescere fino a 10, non leggendo un risultato su una pagina. Il legame stesso è la risposta: il bambino si ferma quando le due parti fanno esattamente dieci, così una parte troppo piccola o troppo grande è facile da sentire e da correggere.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: trovare il numero che, aggiunto a un numero dato, forma 10. Nessun timer e nessun punteggio, ogni tentativo è un piccolo passo per imparare."
+        "Una ruota panoramica ha esattamente dieci posti e alcuni passeggeri sono già saliti, per esempio 7. Il bambino imposta un numero sul quadrante del cancello, tira la leva e altrettanti animali della fattoria salgono uno alla volta, mentre la ruota avanza di un posto ogni volta. Poi si toglie il freno. È un’attività interattiva di matematica per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
+        "La novità è che la ruota controlla la risposta con il suo equilibrio. Piena, fa un giro lento e le luci del bordo si accendono in fila. Se mancano passeggeri, il lato pesante scende: la ruota oscilla e si ferma con i posti vuoti in alto, dove tutti possono contarli. Se ce ne sono troppi, quelli che non entrano restano in piedi sulla pedana; il freno non si toglie e scendono tutti, così il bambino può abbassare il numero. I posti hanno due colori, a gruppi di cinque: 7 si legge cinque e altri due. Al secondo tentativo i posti vuoti continuano la conta (8, 9, 10) e la freccia del quadrante indica da che parte girare, mai il numero. La scomposizione accanto alla ruota registra ogni giro, per esempio 10 = 7 + 3, e un giro completo di «Fare 10» parte una volta da ogni numero da 1 a 9. Altri turni usano ruote più piccole, oppure riempiono tutti i posti con due tipi di passeggeri e chiedono l’intero: 5 e 3 fanno 8.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: trovare il numero che, aggiunto a un numero dato da 1 a 9, fa 10, con le scomposizioni fino a 5 e fino a 10 come livelli in più. L’insegnante sceglie Fino a 5, Da 6 a 9 o Fare 10 (predefinito) e può mostrare i numeri dei posti per contare intorno alla ruota. Il «Luna park» è gioco aperto: qualsiasi ruota da 2 a 10 posti e tutti i passeggeri che si vuole. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Vedere l'intero 10 diviso in due parti in un legame tra numeri.",
-        "Aggiungere le pedine alla parte vuota una alla volta.",
-        "Trovare il compagno che completa il dieci (7 e 3, 4 e 6).",
-        "Capire quando le due parti insieme fanno esattamente 10."
+        "Trovare il numero che fa 10 con un numero dato da 1 a 9",
+        "Vedere se un tentativo è troppo piccolo o troppo grande",
+        "Continuare a contare dai passeggeri già saliti",
+        "Leggere ogni giro come una scomposizione, per esempio 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Il bambino guarda il legame tra numeri: l'intero è 10 e una parte è già riempita.",
-        "Tocca la parte vuota per aggiungere pedine finché le due parti formano 10, poi preme Controlla.",
-        "Troppe o troppo poche? Aggiunge o toglie pedine e controlla di nuovo: non c'è timer e non c'è punteggio."
+        "Guarda i passeggeri già sulla ruota e il numero al centro.",
+        "Imposta il numero con le frecce e tira la leva del cancello: salgono altrettanti passeggeri.",
+        "Togli il freno. Una ruota piena gira; i posti vuoti o i passeggeri rimasti in piedi mostrano cosa cambiare.",
+        "Tocca un passeggero appena salito per farlo scendere. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Il bambino è in grado di trovare il numero che, aggiunto a un numero dato, forma 10.",
-        "Impara a costruire gli amici del 10 aggiungendo pedine, non imparando a memoria.",
-        "Pone le basi della strategia dell'addizione che passa per il dieci."
+        "Trovare il numero che fa 10 con qualsiasi numero da 1 a 9",
+        "Scomporre i numeri fino a 10 in due parti",
+        "Imparare tutte le coppie che fanno 10"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

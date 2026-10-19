@@ -3243,25 +3243,26 @@
     },
     "numberbond.make-ten.k-oa-a-4": {
       "about": [
-        "Het geheel is 10 en één deel van de getalsplitsing is al ingevuld — bijvoorbeeld 7 — en je kind tikt op het lege deel om er fiches bij te leggen tot beide delen samen 10 maken. Het is een interactieve rekenactiviteit voor kleuters in groep 2 die direct in de browser werkt, zonder account en zonder registratie.",
-        "Elk getal van 1 tot 9 heeft een maatje dat tien volmaakt, en hier bouwt je kind dat maatje door fiches er één voor één bij te leggen en te zien hoe de twee delen naar 10 groeien — niet door een sommetje van een blad af te lezen. De splitsing zelf is het antwoord; je kind stopt als beide delen precies tien zijn, dus een te klein of te groot deel is makkelijk te voelen en te verbeteren.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: het getal vinden dat samen met een gegeven getal 10 maakt — de vrienden van 10. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een reuzenrad heeft precies tien plekken, en er zitten al een paar passagiers in, bijvoorbeeld 7. Het kind zet een getal op de draaischijf bij het hekje, trekt aan de hendel, en zoveel boerderijdieren stappen één voor één in terwijl het rad telkens één plek doordraait. Daarna gaat de rem eraf. Het is een interactieve rekenactiviteit voor de kleuterklas die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere is dat het rad het antwoord controleert met zijn evenwicht. Vol draait het een langzaam rondje en lopen de lampjes langs de rand. Te weinig passagiers, en de zware kant zakt omlaag: het rad schommelt en blijft staan met de lege plekken helemaal bovenaan, waar iedereen ze kan tellen. Te veel, en wie er niet in past, blijft op het platform staan; de rem gaat er niet af en iedereen stapt weer uit, zodat het kind het getal lager kan zetten. De plekken hebben twee kleuren in groepjes van vijf, dus 7 lees je als vijf en nog twee. Na de tweede poging tellen de lege plekken door (8, 9, 10) en wijst een pijl de kant op waarnaar je moet draaien, nooit het getal zelf. De splitsing naast het rad houdt elk ritje bij, zoals 10 = 7 + 3, en een hele ronde ‘10 maken’ begint één keer bij elk getal van 1 tot en met 9. Andere rondes gebruiken kleinere raderen, of vullen alle plekken met twee soorten passagiers en vragen het geheel: 5 en 3 maken 8.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: het getal vinden dat samen met een gegeven getal van 1 tot en met 9 tien maakt, met splitsingen tot en met 5 en tot en met 10 als extra niveaus. De leerkracht kiest Tot en met 5, 6 tot en met 9 of 10 maken (standaard) en kan plaatsnummers aanzetten, zodat een kind rond het rad door kan tellen. De ‘Kermis’ is open spel: elk rad van 2 tot 10 plekken en zoveel passagiers als je wilt. Geen timer, geen score."
       ],
       "practices": [
-        "Zien hoe het geheel 10 in twee delen wordt gesplitst",
-        "Fiches er één voor één bij leggen in het lege deel",
-        "Het maatje vinden dat tien volmaakt (7 en 3, 4 en 6)",
-        "Weten wanneer beide delen samen precies 10 zijn"
+        "Het getal vinden dat samen met een getal van 1 tot en met 9 tien maakt",
+        "Zien of een poging te weinig of te veel is",
+        "Doortellen vanaf de passagiers die al instapten",
+        "Elk ritje lezen als splitsing, zoals 10 = 7 + 3"
       ],
       "howToPlay": [
-        "Kijk naar de splitsing — het geheel is 10 en één deel is al ingevuld.",
-        "Tik op het lege deel om er fiches bij te leggen tot beide delen 10 maken en druk op Controleer.",
-        "Te veel of te weinig? Leg er fiches bij of haal ze weg en kijk opnieuw — er is geen timer en geen score."
+        "Kijk naar de passagiers die al in het rad zitten en het getal in het midden.",
+        "Zet het getal met de pijlen en trek aan de hendel van het hekje: zoveel passagiers stappen in.",
+        "Haal de rem eraf. Een vol rad draait; lege plekken of passagiers op het platform laten zien wat je moet veranderen.",
+        "Tik op een passagier die net instapte om hem weer uit te laten stappen. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Het kind vindt het getal dat samen met een gegeven getal 10 maakt.",
-        "Het kind bouwt de vrienden van 10 door fiches te leggen, niet door uit het hoofd te leren.",
-        "Het kind legt de basis voor de strategie 'maak eerst tien' bij het optellen."
+        "Het getal vinden dat met elk getal van 1 tot en met 9 samen tien maakt",
+        "Getallen tot en met 10 in twee delen splitsen",
+        "Alle verliefde harten van 10 leren"
       ]
     },
     "numberbond.story-problem.2-oa-a-1": {

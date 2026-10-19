@@ -2788,6 +2788,30 @@
         "Skilja ovanför från bredvid, och mellan från bredvid det ena",
         "Hitta en ruta med bokstav och tal och använda norr, öster, söder och väster på en karta"
       ]
+    },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Pingvinen Professor Pip öppnar en ny sal i museet, och skatterna kommer på ett rullband: former som är vridna, pyttesmå, utdragna eller står på ett hörn. Varje sockel har en mässingsklämma i sin egen form. Barnet drar en skatt till sockeln med dess namn, eller trycker först på skatten och sedan på sockeln. Skatter som inte passar på någon sockel går genom dörren till Mysteriegalleriet. Det är en interaktiv geometriövning för åk 1 som fungerar i webbläsaren utan att något behöver installeras.",
+        "Uppfinningen är klämman. Medan barnet sorterar bedöms ingenting; vid Kontrollera sluter sig varje klämma runt sin skatt och håller bara en form som verkligen är dess form, hur den än är vriden och hur liten den än är. En skatt som inte passar åker tillbaka till bandet med en skugga av sin egen klämma: lika långa sidor i samma färg, räta hörn markerade med ett lås, en öppning där figuren är öppen och en böjd stav där en sida är krokig. Så ser barnet vad som verkligen gör den annorlunda. Vid andra missen lyser den rätta sockeln för skatten som barnet tar upp. Dubbelgångarna är medvetet valda: en romb bredvid kvadraten, en oval bredvid cirkeln, en femhörning bredvid sexhörningen, en öppen kvadrat, en rektangel med rundade hörn.",
+        "Övningen följer Lgr22 i geometri: att känna igen och namnge plana figurer oavsett läge och storlek. Den sista rundan i formernas sal slutar med räkning: när alla klämmor har slutit sig ställer barnet in hur många trianglar och hur många kvadrater som nu står i salen. I kropparnas sal visar varje sockel ett vardagsföremål, till exempel en boll, en tärning, en burk eller en bok, i en trådbur, och barnet bär varje kropp, stående, liggande eller vriden, till föremålet med samma form; koner, pyramider och varje kropp utan matchande föremål hör hemma i Mysteriegalleriet. Läraren väljer sal och om skyltarna visar namn eller gåtor. Ingen tidtagning, inga poäng."
+      ],
+      "practices": [
+        "Att namnge former som är vridna, pyttesmå, utdragna eller upp och ner",
+        "Att använda sidor och hörn för att avgöra vilken form det är",
+        "Att skilja riktiga former från dubbelgångare: romb, oval, öppen kvadrat",
+        "Att hitta klot, kub, cylinder och rätblock i vardagsföremål"
+      ],
+      "howToPlay": [
+        "Dra en skatt från bandet till en sockel, eller tryck först på skatten och sedan på sockeln.",
+        "Skatter som inte passar på någon sockel går till Mysteriegalleriet.",
+        "Tryck på Kontrollera och se vilka klämmor som sluter sig.",
+        "I sista rundan ställer du in hur många trianglar och kvadrater det finns med − och +."
+      ],
+      "learningGoals": [
+        "Barnet namnger plana figurer oavsett läge och storlek",
+        "Barnet skiljer en form från en dubbelgångare med hjälp av sidor och hörn",
+        "Barnet känner igen samma kropp i vardagsföremål"
+      ]
     }
   }
 }

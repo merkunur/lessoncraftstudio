@@ -3207,25 +3207,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "Professor Pip the penguin trusts children to name every new museum piece as shapes ride up a conveyor belt tilted, tiny, stretched, or upside-down — each routed to the pedestal that names it: circle, triangle, square, rectangle, or hexagon (a square is still a square even turned to look like a diamond). It's an interactive Kindergarten geometry activity that plays right in the browser with no account.",
-        "The big idea is that a shape's name never changes when you turn it or resize it — and the activity is built to test exactly that. The hardest pieces are look-alikes: a rhombus that resembles a tilted square, an oval next to the circle pedestal, a long rectangle beside the square. There is even a round where a card claims to be a 'square' but is really a rhombus, and the child has to judge whether the claim is correct. The child names shapes by their actual properties, not by how they happen to be sitting.",
-        "It is aligned to Common Core K.G.A.2 — correctly naming shapes regardless of their orientation or overall size. No timer, no score — just calm, playful practice."
+        "Professor Pip the penguin is opening a new wing of the museum, and the treasures arrive on a conveyor belt: shapes that are turned, tiny, stretched or standing on a corner. Each pedestal carries a brass clasp in its own shape. The child drags a treasure to the pedestal that names it, or taps the treasure and then the pedestal. Treasures that fit no pedestal go through the doorway of the Mystery Gallery. It is an interactive Kindergarten geometry activity that runs in the browser with nothing to install.",
+        "The invention is the clasp. Nothing is judged while the child sorts; at Check every clasp closes round its treasure and only holds a shape that truly is its shape, however it is turned and however small it is. A treasure that does not fit rides back to the belt wearing a ghost of its own clasp: sides of equal length in the same colour, square corners marked with a lock, a gap where a figure is open and a bent rod where a side is curved, so the child sees what really makes it different. A second miss makes the right pedestal glow for the treasure the child picks up. The look-alikes are deliberate: a rhombus beside the square, an oval beside the circle, a pentagon beside the hexagon, an open square, a rectangle with rounded corners.",
+        "It is aligned to Common Core K.G.A.2: correctly naming shapes regardless of their orientation or overall size. The last round of the shape hall ends with counting: when every clasp has closed, the child sets how many triangles and how many squares now stand in the hall. In the hall of solids, each pedestal shows an everyday object such as a ball, a dice, a can or a book in a wire cage, and the child brings each solid, standing, lying or turned, to the object with the same shape; cones, pyramids and any solid with no matching object belong in the Mystery Gallery. Teachers choose the hall and whether the plates show the names or riddles. No timer, no score."
       ],
       "practices": [
-        "Name circles, triangles, squares, rectangles, and hexagons by their parts",
-        "Recognize a shape even when it is turned, tiny, stretched, or upside-down",
-        "Tell look-alikes apart — a rhombus from a square, an oval from a circle",
-        "Build the habit of naming shapes by their properties, not their position"
+        "Naming shapes that are turned, tiny, stretched or upside down",
+        "Using sides and corners to decide what a shape is",
+        "Telling real shapes from look-alikes: a rhombus, an oval, an open square",
+        "Matching spheres, cubes, cylinders and boxes to everyday objects"
       ],
       "howToPlay": [
-        "Watch a shape ride up the conveyor, however it is tilted or sized.",
-        "Route it to the pedestal that names it — a square goes to the square pedestal even turned like a diamond.",
-        "Keep curating; try again any time, with no timer and no score."
+        "Drag a treasure from the belt to a pedestal, or tap the treasure and then the pedestal.",
+        "Put treasures that fit no pedestal in the Mystery Gallery.",
+        "Press Check and watch which clasps close.",
+        "In the last round, set how many triangles and squares there are with − and +."
       ],
       "learningGoals": [
-        "Name shapes regardless of orientation or size — the focus of Common Core K.G.A.2",
-        "Understand that turning or stretching a shape does not change what it is called",
-        "Build the shape vocabulary that later geometry depends on"
+        "Name shapes whatever their turn or size, the focus of Common Core K.G.A.2",
+        "Tell a shape from a look-alike by its sides and corners",
+        "Recognize the same solid in everyday objects"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

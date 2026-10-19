@@ -10,284 +10,18 @@
       "strand": "Geometry"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "route-tri-sq-ci",
-          "facetAct": "transformed-route",
-          "band": 1,
-          "pedestals": [
-            {
-              "type": "triangle"
-            },
-            {
-              "type": "square"
-            },
-            {
-              "type": "circle"
-            }
-          ],
-          "belt": [
-            {
-              "type": "square",
-              "seed": 101,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 102,
-              "assessed": true
-            },
-            {
-              "type": "circle",
-              "seed": 103,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 104,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "route-hex-tri",
-          "facetAct": "transformed-route",
-          "band": 1,
-          "pedestals": [
-            {
-              "type": "hexagon"
-            },
-            {
-              "type": "triangle"
-            },
-            {
-              "type": "circle"
-            }
-          ],
-          "belt": [
-            {
-              "type": "hexagon",
-              "seed": 111,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 112,
-              "assessed": true
-            },
-            {
-              "type": "hexagon",
-              "seed": 113,
-              "assessed": true
-            },
-            {
-              "type": "circle",
-              "seed": 114,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "exclude-mystery",
-          "facetAct": "exclude-route",
-          "band": 2,
-          "pedestals": [
-            {
-              "type": "circle"
-            },
-            {
-              "type": "square"
-            },
-            {
-              "type": "mystery"
-            }
-          ],
-          "belt": [
-            {
-              "type": "square",
-              "seed": 121,
-              "assessed": true
-            },
-            {
-              "type": "rhombus",
-              "seed": 122,
-              "assessed": true
-            },
-            {
-              "type": "circle",
-              "seed": 123,
-              "assessed": true
-            },
-            {
-              "type": "oval",
-              "seed": 124,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "fine-sq-rect",
-          "facetAct": "fine-discriminate",
-          "band": 2,
-          "pedestals": [
-            {
-              "type": "square"
-            },
-            {
-              "type": "rectangle"
-            },
-            {
-              "type": "mystery"
-            }
-          ],
-          "belt": [
-            {
-              "type": "square",
-              "seed": 131,
-              "assessed": true
-            },
-            {
-              "type": "rectangle",
-              "seed": 132,
-              "assessed": true
-            },
-            {
-              "type": "rectangle_fine",
-              "seed": 133,
-              "assessed": true
-            },
-            {
-              "type": "rhombus",
-              "seed": 134,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "name-to-hexagon",
-          "facetAct": "name-to-shape",
-          "band": 3,
-          "targetName": "hexagon",
-          "choices": [
-            {
-              "type": "hexagon",
-              "seed": 141,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 142,
-              "assessed": true
-            },
-            {
-              "type": "square",
-              "seed": 143,
-              "assessed": true
-            },
-            {
-              "type": "circle",
-              "seed": 144,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "match-square-pair",
-          "facetAct": "match-pair",
-          "band": 3,
-          "matchName": "square",
-          "set": [
-            {
-              "type": "square",
-              "seed": 151,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 152,
-              "assessed": true
-            },
-            {
-              "type": "square",
-              "seed": 153,
-              "assessed": true
-            },
-            {
-              "type": "circle",
-              "seed": 154,
-              "assessed": true
-            }
-          ]
-        },
-        {
-          "id": "confirm-claim",
-          "facetAct": "confirm-correct",
-          "band": 4,
-          "claims": [
-            {
-              "type": "rhombus",
-              "seed": 161,
-              "assessed": true,
-              "claim": "square"
-            },
-            {
-              "type": "triangle",
-              "seed": 162,
-              "assessed": true,
-              "claim": "triangle"
-            },
-            {
-              "type": "rectangle",
-              "seed": 163,
-              "assessed": true,
-              "claim": "square"
-            }
-          ]
-        },
-        {
-          "id": "capstone-hall",
-          "facetAct": "capstone",
-          "band": 4,
-          "pedestals": [
-            {
-              "type": "triangle"
-            },
-            {
-              "type": "square"
-            },
-            {
-              "type": "hexagon"
-            }
-          ],
-          "belt": [
-            {
-              "type": "square",
-              "seed": 171,
-              "assessed": true
-            },
-            {
-              "type": "hexagon",
-              "seed": 172,
-              "assessed": true
-            },
-            {
-              "type": "triangle",
-              "seed": 173,
-              "assessed": true
-            },
-            {
-              "type": "square",
-              "seed": 174,
-              "assessed": true
-            },
-            {
-              "type": "hexagon",
-              "seed": 175,
-              "assessed": true
-            }
-          ]
-        }
-      ]
+      "halls": [
+        "shapes",
+        "solids"
+      ],
+      "plates": [
+        "names",
+        "riddles"
+      ],
+      "roundsPerHall": {
+        "shapes": 9,
+        "solids": 8
+      }
     },
     "theme": null,
     "slug": {
@@ -297,7 +31,11 @@
       "es": "identificar-figuras-geometricas-circulo-triangulo-cuadrado",
       "pt": "reconhecer-e-nomear-figuras-geometricas-1-ano",
       "it": "riconoscere-e-nominare-le-figure-geometriche-classe-prima",
-      "nl": "vormen-herkennen-en-benoemen-groep-3"
+      "nl": "vormen-herkennen-en-benoemen-groep-3",
+      "sv": "kanna-igen-och-namnge-former-ak-1",
+      "da": "genkend-og-navngiv-figurer-1-klasse",
+      "no": "kjenne-igjen-og-navngi-former-1-trinn",
+      "fi": "tunnista-ja-nimea-tasokuviot-1-luokka"
     },
     "page_title": {
       "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)",
@@ -306,7 +44,11 @@
       "es": "Identificar figuras: círculo, triángulo, cuadrado (preescolar)",
       "pt": "Reconhecer e Nomear Figuras Geométricas — Museu do Professor Pip (1º ano) | BNCC",
       "it": "Riconoscere le figure geometriche: cerchio, triangolo… | Classe prima",
-      "nl": "Vormen benoemen: cirkel, driehoek, vierkant – groep 3 | Professor Tobbe"
+      "nl": "Vormen benoemen: cirkel, driehoek, vierkant – groep 3 | Professor Tobbe",
+      "sv": "Professor Pips museum – känna igen och namnge former (åk 1)",
+      "da": "Professor Pips museum – genkend og navngiv figurer (1. klasse)",
+      "no": "Professor Pips museum – kjenne igjen og navngi former (1. trinn)",
+      "fi": "Professori Pipin museo – tunnista ja nimeä muodot (1. luokka)"
     },
     "page_intro": {
       "en": "An interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2.",
@@ -315,7 +57,11 @@
       "es": "Reconoce y nombra figuras planas —círculo, triángulo, cuadrado— en el museo de Pip. Juego interactivo, sin registro, alineado a los Planes y programas (SEP). Preescolar.",
       "pt": "Reconheça e nomeie figuras planas — círculo, quadrado, triângulo — no museu do Professor Pip! Atividade sem cadastro, alinhada à BNCC, para o 1º ano.",
       "it": "Il pinguino Professor Pip riceve al museo tanti tesori su un nastro trasportatore: figure piatte che arrivano inclinate, piccolissime, allungate o capovolte. Il bambino deve nominarle toccando il piedistallo giusto e riconoscere cerchio, triangolo, quadrato, rettangolo ed esagono a prescindere da come sono girate o grandi. Attenzione: un quadrato in piedi sulla punta resta un quadrato, non diventa un rombo! Attività interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
-      "nl": "Bekijk elke vorm — ook gedraaid, klein of uitgerekt — en breng hem naar het voetstuk met de juiste naam: cirkel, driehoek, vierkant, rechthoek of zeshoek. Een vorm houdt zijn naam, ook al is hij gedraaid of groter: een vierkant op zijn punt is nog steeds een vierkant. Interactief, in het rustige museum van Professor Tobbe."
+      "nl": "Bekijk elke vorm — ook gedraaid, klein of uitgerekt — en breng hem naar het voetstuk met de juiste naam: cirkel, driehoek, vierkant, rechthoek of zeshoek. Een vorm houdt zijn naam, ook al is hij gedraaid of groter: een vierkant op zijn punt is nog steeds een vierkant. Interactief, in het rustige museum van Professor Tobbe.",
+      "sv": "Pingvinen Professor Pip tar emot nya skatter till sitt museum. Formerna kommer på bandet vridna, små, utdragna eller upp och ner, och barnet för varje skatt till sockeln som bär dess namn: cirkel, triangel, kvadrat, rektangel eller sexhörning. Sockelns klämma sluter sig bara om formen verkligen är den formen – en kvadrat på spetsen är fortfarande en kvadrat. I den andra salen väntar klot, kub, cylinder och rätblock. Utan tidtagning, i linje med Lgr22.",
+      "da": "Pingvinen Professor Pip tager imod nye skatte til sit museum. Figurerne kommer på båndet drejet, små, strakte eller på hovedet, og barnet bringer hver skat hen til den sokkel, der bærer dens navn: cirkel, trekant, kvadrat, rektangel eller sekskant. Soklens klemme lukker sig kun om den rigtige figur – et kvadrat på spidsen er stadig et kvadrat. I den anden sal venter kugle, terning, cylinder og kasse. Uden tidtagning, i tråd med Fælles Mål.",
+      "no": "Pingvinen Professor Pip tar imot nye skatter til museet sitt. Formene kommer på båndet dreid, små, strukket eller opp ned, og barnet bringer hver skatt til sokkelen som bærer navnet dens: sirkel, trekant, kvadrat, rektangel eller sekskant. Klemmen på sokkelen lukker seg bare rundt den riktige formen – et kvadrat på spissen er fortsatt et kvadrat. I den andre salen venter kule, kube, sylinder og firkantet prisme. Uten tidtaking, i tråd med LK20.",
+      "fi": "Pingviini Professori Pip ottaa vastaan museonsa uusia aarteita. Kuviot saapuvat hihnalla käännettyinä, pieninä, venytettyinä tai ylösalaisin, ja lapsi vie jokaisen aarteen jalustalle, jossa on sen nimi: ympyrä, kolmio, neliö, suorakulmio tai kuusikulmio. Jalustan pidike sulkeutuu vain oikean kuvion ympärille – kärjellään seisova neliö on yhä neliö. Toisessa salissa odottavat pallo, kuutio, lieriö ja särmiö. Ei ajanottoa, OPS 2014:n mukainen."
     },
     "kid_prompt_template": "curate-wing"
   }

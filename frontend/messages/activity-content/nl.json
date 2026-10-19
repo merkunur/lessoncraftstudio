@@ -1630,25 +1630,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "In het vormenmuseum van Professor Tobbe rolt de ene na de andere vorm over de lopende band naar binnen. De pinguïnprofessor vraagt jouw kind om conservator te zijn: bekijk elke vorm die aankomt, noem hardop hoe hij heet en zet hem op het voetstuk met de juiste naam. Sommige vormen liggen schuin, andere zijn piepklein of juist uitgerekt — maar dat verandert niets aan hun naam.",
-        "Want een vorm houdt zijn naam, hoe je hem ook draait of hoe groot je hem maakt. Een vierkant op zijn punt lijkt wel een ruit, maar het is en blijft een vierkant: vier even lange zijden en vier rechte hoeken. Een échte ruit is géén vierkant — de hoeken zijn anders, niet mooi recht. Zo leert je kind ook een vierkant van een rechthoek te onderscheiden. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor groep 3.",
-        "Er is geen klok, geen score en niets om te tellen. Je kind mag rustig kijken, proberen en vergelijken, zo vaak als het wil — een vorm die bij geen enkele naam past, gaat gewoon naar de Raadselgalerij. Een kalm museum om vol vertrouwen vormen te leren herkennen.."
+        "Professor Tobbe, de pinguïn, opent een nieuwe zaal in het museum, en de schatten komen binnen op een lopende band: vormen die gedraaid, piepklein, uitgerekt zijn of op een hoek staan. Elke sokkel heeft een koperen klem in zijn eigen vorm. Het kind sleept een schat naar de sokkel met zijn naam, of tikt eerst de schat en dan de sokkel aan. Schatten die op geen enkele sokkel passen, gaan door de deur van de Raadselgalerij. Het is een interactieve meetkundeoefening voor groep 3 die in de browser werkt, zonder iets te installeren.",
+        "De vondst is de klem. Tijdens het sorteren wordt niets beoordeeld; bij Controleren sluit elke klem zich om zijn schat en houdt alleen een vorm vast die echt zijn vorm is, hoe die ook gedraaid is en hoe klein ook. Een schat die niet past, gaat terug naar de band met een schaduw van zijn eigen klem: even lange zijden in dezelfde kleur, rechte hoeken gemarkeerd met een slotje, een opening waar de figuur open is en een gebogen staaf waar een zijde krom is. Zo ziet het kind wat hem echt anders maakt. Bij de tweede misser licht de juiste sokkel op voor de schat die het kind oppakt. De dubbelgangers zijn met opzet gekozen: een ruit naast het vierkant, een ovaal naast de cirkel, een vijfhoek naast de zeshoek, een open vierkant, een rechthoek met ronde hoeken.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor meetkunde: vlakke figuren herkennen en benoemen, hoe ze ook liggen en hoe groot ze ook zijn. De laatste ronde in de zaal van de vormen eindigt met tellen: als alle klemmen dicht zijn, stelt het kind in hoeveel driehoeken en hoeveel vierkanten er nu in de zaal staan. In de zaal van de blokken toont elke sokkel een alledaags voorwerp, zoals een bal, een dobbelsteen, een blik of een boek, in een draadkooi, en het kind brengt elk blok, staand, liggend of gedraaid, naar het voorwerp met dezelfde vorm; kegels, piramides en elk blok zonder passend voorwerp horen in de Raadselgalerij. De leerkracht kiest de zaal en of de bordjes de namen of raadsels tonen. Zonder klok, zonder punten."
       ],
       "practices": [
-        "Platte vormen benoemen: cirkel, driehoek, vierkant, rechthoek en zeshoek",
-        "Een vorm herkennen, hoe hij ook gedraaid of hoe groot hij is",
-        "Een vierkant en een rechthoek van elkaar onderscheiden",
-        "Een ruit van een vierkant onderscheiden"
+        "Gedraaide, piepkleine, uitgerekte of omgekeerde vormen benoemen",
+        "Aan zijden en hoeken zien welke vorm het is",
+        "Echte vormen onderscheiden van dubbelgangers: ruit, ovaal, open vierkant",
+        "Bol, kubus, cilinder en balk terugzien in alledaagse voorwerpen"
       ],
       "howToPlay": [
-        "Bekijk de vorm goed — ook als hij schuin ligt of klein is",
-        "Breng hem naar het voetstuk met de juiste naam",
-        "Een vorm zonder passende naam stuur je naar de Raadselgalerij"
+        "Sleep een schat van de band naar een sokkel, of tik eerst de schat en dan de sokkel aan.",
+        "Schatten die op geen sokkel passen, gaan naar de Raadselgalerij.",
+        "Tik op Controleren en kijk welke klemmen dichtgaan.",
+        "In de laatste ronde stel je met − en + in hoeveel driehoeken en vierkanten er zijn."
       ],
       "learningGoals": [
-        "Basisvormen herkennen en benoemen, ongeacht hun stand of grootte",
-        "Begrijpen dat een gedraaid vierkant nog steeds een vierkant is",
-        "Een vierkant, een rechthoek en een ruit van elkaar onderscheiden"
+        "Vlakke figuren benoemen, hoe ze ook liggen en hoe groot ze ook zijn",
+        "Een vorm aan zijden en hoeken onderscheiden van een dubbelganger",
+        "Hetzelfde blok herkennen in alledaagse voorwerpen"
       ]
     },
     "bramble.holds-more.k-md-a-2": {

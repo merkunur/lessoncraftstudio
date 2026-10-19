@@ -1216,25 +1216,26 @@
     },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
-        "En el museo del Profesor Pip, el pingüino de moño rojo, hoy llega un cargamento muy travieso: las figuras aparecen giradas, otras chiquititas, algunas estiradas y varias hasta de cabeza. Pip las mira desde su escalerita y sonríe, porque él sabe un secreto: cada figura tiene su nombre y su pedestal. El niño se vuelve su ayudante y observa con calma cada figura que llega, la reconoce y la lleva al pedestal correcto —círculo, triángulo, cuadrado, rectángulo o hexágono— hasta que todo el museo queda en orden.",
-        "Aquí está la idea importante: una figura conserva su nombre sin importar cómo esté girada ni de qué tamaño sea. Un cuadrado parado sobre una esquina sigue siendo un cuadrado, «aunque al principio parezca un rombo». Pero ojo: un rombo de verdad NO es un cuadrado, porque sus esquinas son distintas —el cuadrado tiene sus cuatro esquinas iguales, bien cuadraditas, y el rombo no. Ese momento de «aunque estaba girado, lo reconociste» es justo lo que convierte el simple mirar en un verdadero nombrar.",
-        "Sin cronómetro, sin puntaje y sin contar nada. El niño explora, compara, gira las figuras en su mente y reacomoda con toda calma; si se equivoca, vuelve a intentar sin ninguna prisa. Está alineada al programa mexicano —los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP)— para educación preescolar, dentro del eje «Forma, espacio y medida»."
+        "El profesor Pip, un pingüino, abre una nueva sala del museo, y los tesoros llegan en una banda transportadora: figuras giradas, diminutas, estiradas o paradas sobre una esquina. Cada pedestal tiene un broche de latón con su propia forma. El niño arrastra un tesoro hasta el pedestal que lleva su nombre, o toca el tesoro y luego el pedestal. Los tesoros que no van en ningún pedestal pasan por la puerta de la sala de misterio. Es una actividad interactiva de geometría para preescolar que funciona en el navegador, sin instalar nada.",
+        "La invención es el broche. Mientras el niño acomoda, nada se califica; al tocar Revisar, cada broche se cierra alrededor de su tesoro y solo sujeta una figura que de verdad tiene su forma, sin importar cómo esté girada ni qué tan pequeña sea. Un tesoro que no entra regresa a la banda con la sombra de su propio broche: los lados del mismo largo en el mismo color, las esquinas rectas marcadas con un candado, un hueco donde la figura está abierta y una varilla doblada donde un lado es curvo. Así el niño ve qué la hace diferente. Al segundo error, el pedestal correcto brilla para el tesoro que el niño toma. Los parecidos son a propósito: un rombo junto al cuadrado, un óvalo junto al círculo, un pentágono junto al hexágono, un cuadrado abierto, un rectángulo con esquinas redondeadas.",
+        "La actividad sigue los planes y programas de estudio de la SEP en forma, espacio y medida: reconocer y nombrar figuras planas sin importar su posición ni su tamaño. La última ronda de la sala de figuras termina contando: cuando todos los broches están cerrados, el niño indica cuántos triángulos y cuántos cuadrados hay en la sala. En la sala de cuerpos, cada pedestal muestra un objeto de todos los días, como una pelota, un dado, una lata o un libro, en una jaula de alambre, y el niño lleva cada cuerpo, parado, acostado o girado, al objeto con la misma forma; los conos, las pirámides y cualquier cuerpo sin un objeto igual van a la sala de misterio. El docente elige la sala y si las placas muestran los nombres o adivinanzas. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Nombrar figuras planas: círculo, triángulo, cuadrado, rectángulo y hexágono.",
-        "Reconocer una figura sin importar cómo esté girada ni de qué tamaño sea.",
-        "Distinguir un cuadrado de un rectángulo observando sus lados.",
-        "Distinguir un rombo de un cuadrado observando sus esquinas."
+        "Nombrar figuras giradas, diminutas, estiradas o de cabeza",
+        "Usar los lados y las esquinas para decidir qué figura es",
+        "Distinguir figuras reales de sus parecidos: rombo, óvalo, cuadrado abierto",
+        "Encontrar la esfera, el cubo, el cilindro y el prisma rectangular en objetos de todos los días"
       ],
       "howToPlay": [
-        "Observa la figura con atención, aunque esté ladeada, chiquita o de cabeza.",
-        "Llévala al pedestal que tiene su nombre.",
-        "Si una figura no coincide con ningún nombre, va a la sala de misterio."
+        "Arrastra un tesoro de la banda a un pedestal, o toca el tesoro y luego el pedestal.",
+        "Los tesoros que no van en ningún pedestal van a la sala de misterio.",
+        "Toca Revisar y mira qué broches se cierran.",
+        "En la última ronda, indica con − y + cuántos triángulos y cuadrados hay."
       ],
       "learningGoals": [
-        "Reconocer y nombrar figuras planas con su nombre correcto.",
-        "Comprender que girar la figura o cambiar su tamaño no cambia su nombre.",
-        "Distinguir con cuidado figuras parecidas: cuadrado y rectángulo, cuadrado y rombo."
+        "Nombrar figuras planas sin importar su posición o su tamaño",
+        "Distinguir una figura de su parecido por sus lados y esquinas",
+        "Reconocer el mismo cuerpo en objetos de todos los días"
       ]
     },
     "bramble.holds-more.k-md-a-2": {

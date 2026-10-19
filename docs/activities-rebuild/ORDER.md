@@ -33,7 +33,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 23 | LIVE 2026-10-19 → `stamp-frame-activity` (the Stamp Frame), 11 locales; operator review pending | K | K.OA.A.1 | `ten-frame.show-the-operation.k-oa-a-1` | ten-frame-activity | Show the Operation — Add & Subtract on a Ten Frame |
 | 24 | LIVE 2026-10-19 → `story-stage-activity` (the Story Stage), 11 locales; operator review pending | K | K.OA.A.2 | `ten-frame.solve-the-story.k-oa-a-2` | ten-frame-activity | Solve the Story — Add & Subtract Word Problems on a Ten Frame |
 | 25 | LIVE 2026-10-19 → `spring-switch-activity` (the Spring Switch), 11 locales (sv/da/no/fi new); operator review pending | K | K.OA.A.3 | `chuffer.rail-decompose.k-oa-a-3` | chuffer-activity | Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten) |
-| 26 |  | K | K.OA.A.3 | `clunks-lost-lunch.make-total.k-oa-a-3` | clunks-lost-lunch-activity | Clunk's Lost Lunch — Make the Number Many Ways |
+| 26 | LIVE 2026-10-19 → `snake-lunch-activity` (the Snake-Groove Lunchbox), 11 locales (sv/da/no/fi new); operator review pending | K | K.OA.A.3 | `clunks-lost-lunch.make-total.k-oa-a-3` | clunks-lost-lunch-activity | Clunk's Lost Lunch — Make the Number Many Ways |
 | 27 |  | K | K.OA.A.3 | `match-pairs.make-the-number.k-oa-a-3` | match-pairs-activity | Make the Number |
 | 28 |  | K | K.OA.A.4 | `numberbond.make-ten.k-oa-a-4` | number-bond-activity | Make 10 — Number Bonds to Ten (Kindergarten) |
 | 29 |  | K | K.OA.A.5 | `ten-frame.quick-facts-to-5.k-oa-a-5` | ten-frame-activity | Quick Facts to 5 — Add & Subtract Fluently |

@@ -163,6 +163,10 @@ function seedScript(row) {
     // 5 crates: two sent left, the switch thrown, three rolled right, 2 + 3 banked on the staircase and the bond — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='all'&&r.n===5;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SpringSwitchCore,s=t.st;C.release(s);C.release(s);C.flick(s,'R');C.release(s);C.release(s);C.release(s);C.setPlate(s,'a',2);C.setPlate(s,'b',3);C.couple(s);C.release(s);C.flick(s,'L');C.release(s);C.release(s);C.release(s);C.flick(s,'R');C.release(s);t._paint();})();`;
   }
+  if (row.tool === 'snake-lunch-activity') {
+    // any way 10: the 6 snaked in round the bend and the 4 on its way — two strands, both threads, nine cups filled and the lid about to shut
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='any'&&r.n===10;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SnakeLunchCore,s=t.st;C.drop(s,s.strands.find(function(x){return x.k===6;}).id);C.drop(s,s.strands.find(function(x){return x.k===3;}).id);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

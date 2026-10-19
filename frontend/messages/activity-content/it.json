@@ -3154,25 +3154,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Clunk è un robot goloso che ha smarrito il suo pranzo: per accontentarlo il bambino riempie il cestino di snack numerati fino a raggiungere esattamente il numero che gli serve, poi glielo dà da mangiare e ricomincia formando lo stesso totale in un altro modo.",
-        "In questo modo impara a comporre e scomporre un numero in più modi (10 = 6+4 = 7+3 = 8+2…), a leggere i numeri e a muovere i primi passi con l’addizione.",
-        "L’attività è pensata sulle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
+        "Clunk, il robot goloso, ha fame di un numero preciso, e il suo cestino ha una scanalatura a forma di serpente con esattamente quel numero di buche. I bocconcini sono appesi a una parete in fili di dolcetti tutti uguali: ogni filo mostra un dolcetto, un cartellino con un numero e una fila di puntini che dice quanto è lungo. Quando un filo entra nel cestino, si srotola e scivola come un serpente nelle buche successive, facendo la curva. Il coperchio si chiude solo quando la scanalatura è piena esattamente. È un'attività interattiva di matematica che funziona nel browser, senza installare nulla.",
+        "L'idea è che il cestino controlla il pranzo da solo. Se manca qualcosa, il coperchio resta sopra le buche vuote; se c'è troppo, una coda di dolcetti pende fuori dal bordo e il coperchio rimbalza. Solo un cestino chiuso può essere dato a Clunk: la leva resta col lucchetto fino ad allora, così un cestino non pieno esattamente non viene mai servito e il bambino non viene mai sgridato. Quando Clunk mangia, il suo quaderno dei pranzi stampa il pranzo con la parte più grande prima, per esempio 10 = 6 + 4, e chiede un modo nuovo: 4 + 6 è lo stesso pranzo, quindi servono altri bocconcini. Se il bambino tocca tre volte il coperchio e manca ancora qualcosa, le buche vuote contano in avanti da quelle piene (7, 8, 9, 10). Ci sono turni con un bocconcino già dentro, turni con esattamente tre bocconcini (6 + 4 chiude il coperchio ma non va bene), cestini troppo pieni e un turno «Che cosa ha mangiato Clunk?» in cui il bambino conta le buche e imposta il numero di Clunk, per esempio 6 e 3 fanno 9.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scomporre i numeri entro il 10 in due (e tre) parti in più modi e scrivere ogni scomposizione. L'insegnante sceglie fino a 5, da 6 a 10 (predefinito) o «Pranzo grande» fino a 14, e può nascondere i cartellini perché le parti si contino sui puntini. «Il bancone» è il gioco aperto: qualsiasi cestino da 2 a 10 e tutti i fili da 1 a 9. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Comporre uno stesso numero in più modi diversi",
-        "Scomporre un numero nelle sue parti",
-        "Trovare l’addendo mancante per arrivare al totale",
-        "Fare addizioni entro il 10, il 12 e il 14"
+        "Comporre un numero entro il 10 in più modi",
+        "Vedere quando le parti sono troppe o troppo poche per il tutto",
+        "Trovare la parte che manca e il tutto",
+        "Scrivere ogni pranzo come un'uguaglianza, per esempio 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Tocca gli snack numerati per metterli nel cestino di Clunk",
-        "Dai da mangiare a Clunk per controllare se hai formato il suo numero",
-        "Rifai lo stesso totale scegliendo una combinazione diversa"
+        "Guarda il numero di Clunk e le buche del suo cestino.",
+        "Tocca un filo di bocconcini o trascinalo sul cestino; tocca un dolcetto nel cestino per tirare fuori di nuovo il suo filo.",
+        "Quando il coperchio si chiude, tira la leva per dare da mangiare a Clunk. Poi prepara lo stesso numero in un modo nuovo.",
+        "Non proprio? Il coperchio mostra che cosa non va: buche vuote o un bocconcino che pende fuori. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Tuo figlio impara a comporre un numero in più modi diversi",
-        "Tuo figlio impara a trovare l’addendo che manca per completare il totale",
-        "Tuo figlio sviluppa il senso del numero e l’addizione della classe prima"
+        "Scomporre i numeri entro il 10 in più modi",
+        "Registrare ogni scomposizione con un'uguaglianza come 10 = 6 + 4",
+        "Imparare gli amici del 10"
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

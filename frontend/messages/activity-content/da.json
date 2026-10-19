@@ -1857,6 +1857,30 @@
         "At skrive hver deling ned med et talhus og en ligning som 5 = 2 + 3",
         "At kende tiervennerne"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Snackrobotten Clunk er sulten efter et bestemt tal, og hans madkasse har en slangeformet rille med præcis så mange fordybninger. Snacks hænger på en væg som snore med ens lækkerier – hver snor viser ét lækkeri, et talmærke og en række prikker for længden. Når en snor kommer i kassen, ruller den sig ud og snor sig ind i de næste fordybninger, rundt om svinget. Låget lukker kun, når rillen er præcis fuld. Det er en interaktiv matematikaktivitet, der kører i browseren uden installation.",
+        "Ideen er, at kassen selv tjekker madpakken. Er der for lidt, bliver låget hængende over de tomme fordybninger; er der for meget, hænger en hale af lækkerier ud over kanten, og låget springer tilbage. Kun en lukket kasse kan gives til Clunk: håndtaget er låst indtil da, så en kasse, der ikke er præcis fuld, bliver aldrig serveret, og barnet bliver aldrig skældt ud. Når Clunk spiser, skriver hans madbog madpakken ud med den største del først, fx 10 = 6 + 4, og beder om en ny måde – 4 + 6 er den samme madpakke, så der skal andre snacks til. Trykker barnet tre gange på låget, mens der stadig mangler noget, tæller de tomme fordybninger videre fra de fulde (7, 8, 9, 10). Der er runder, hvor én snack allerede ligger i kassen, runder med præcis tre snacks (6 + 4 lukker låget, men tæller ikke), kasser, der kommer for fulde, og en runde »Hvad spiste Clunk?«, hvor barnet tæller fordybningerne og indstiller Clunks tal, fx 6 og 3 giver 9.",
+        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at dele tal op til 10 i to (og tre) dele på flere måder og skrive hver deling ned. Læreren vælger op til 5, 6 til 10 (forvalgt) eller »Stor madpakke« op til 14 og kan skjule talmærkerne, så delene tælles på prikkerne. »Snackbaren« er den åbne leg: enhver kasse fra 2 til 10 og alle snore fra 1 til 9. Ingen timer og ingen point."
+      ],
+      "practices": [
+        "At lave et tal op til 10 på flere måder",
+        "At se, hvornår delene er for mange eller for få til helheden",
+        "At finde den manglende del og helheden",
+        "At skrive hver madpakke som en ligning, fx 10 = 6 + 4"
+      ],
+      "howToPlay": [
+        "Se på Clunks tal og fordybningerne i hans madkasse.",
+        "Tryk på en snor med snacks, eller træk den hen på kassen; tryk på et lækkeri i kassen for at tage snoren ud igen.",
+        "Når låget lukker, trækker du i håndtaget og fodrer Clunk. Pak så det samme tal på en ny måde.",
+        "Ikke helt? Låget viser, hvad der er galt – tomme fordybninger eller en snack ud over kanten. Ingen timer og ingen point."
+      ],
+      "learningGoals": [
+        "At dele tal op til 10 på flere måder",
+        "At skrive hver deling ned med en ligning som 10 = 6 + 4",
+        "At lære tiervennerne"
+      ]
     }
   }
 }

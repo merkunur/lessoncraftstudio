@@ -2569,25 +2569,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Der kleine Snack-Roboter Clunk hat ein verbeultes Bäuchlein und einen riesigen Hunger – aber nur auf eine ganz bestimmte Menge: Heute möchte er genau so viele Knusper, wie auf seiner Anzeige steht. An der Wand hängen viele Snacks mit Zahlen darauf. Du tippst Snacks in die Lunchbox und setzt so eine Zahl Stück für Stück zusammen, bis sie genau passt. Dann darf Clunk futtern.",
-        "Dahinter steckt eine große mathematische Idee aus dem Lehrplan der Grundschule (Leitidee „Zahlen und Operationen“): Eine Zahl lässt sich auf viele verschiedene Arten zusammensetzen. 11 kann 5 und 6 sein – oder 4 und 3 und 4 – oder 9 und 2. Mal suchst du einen ganz neuen Weg, mal ergänzt du, wie viel Clunk noch fehlt, mal darfst du nur zwei Snacks nehmen, und wenn die Dose zu voll ist, legst du wieder etwas zurück. Wichtig ist: Die Dose zeigt dir nie die Summe – du rechnest selbst im Kopf zusammen und prüfst beim Füttern, ob es gestimmt hat.",
-        "Es gibt keine Uhr, keine Punkte und kein Richtig-oder-falsch-Drängeln. Du probierst in deinem Tempo, findest immer mehr Wege und merkst nebenbei, wie geschickt sich Zahlen aus kleineren Zahlen bauen lassen. Geht etwas daneben, ist das völlig in Ordnung – Clunk wartet geduldig und freut sich auf den nächsten Versuch."
+        "Der Snack-Roboter Clunk hat Hunger auf eine genaue Zahl, und seine Brotdose hat eine schlangenförmige Rinne mit genau so vielen Mulden. An einer Wand hängen Snacks als Ketten aus gleichen Leckereien – jede Kette zeigt eine Leckerei, ein Zahlenschild und eine Reihe Punkte für ihre Länge. Kommt eine Kette in die Dose, wickelt sie sich ab und schlängelt sich in die nächsten Mulden, um die Kurve herum. Der Deckel geht nur zu, wenn die Rinne genau voll ist. Eine interaktive Mathe-Aktivität, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Dose prüft die Mahlzeit selbst. Ist es zu wenig, bleibt der Deckel über den leeren Mulden stehen; ist es zu viel, hängt ein Ende über den Rand, und der Deckel prallt ab. Nur eine geschlossene Dose kann verfüttert werden: Der Hebel ist bis dahin abgeschlossen, so wird nie eine Dose verfüttert, die nicht genau voll ist, und das Kind wird nie getadelt. Wenn Clunk isst, schreibt sein Essensbuch die Mahlzeit mit dem größten Teil zuerst auf, etwa 10 = 6 + 4, und fragt nach einer neuen Art – 4 + 6 ist dieselbe Mahlzeit, also braucht es andere Snacks. Tippt das Kind dreimal auf den Deckel, obwohl noch etwas fehlt, zählen die leeren Mulden von den vollen aus weiter (7, 8, 9, 10). Es gibt Runden, in denen schon ein Snack drin ist, Runden mit genau drei Snacks (6 + 4 schließt den Deckel, wird aber abgelehnt), zu volle Dosen und eine Runde „Was hat Clunk gegessen?“, in der das Kind die Mulden zählt und Clunks Zahl einstellt, etwa 6 und 3 ergeben 9.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet – Zahlen bis 10 auf verschiedene Weise in zwei (und drei) Teile zerlegen und jede Zerlegung aufschreiben. Lehrkräfte wählen bis 5, 6 bis 10 (voreingestellt) oder „Große Mahlzeit“ bis 14 und können die Zahlenschilder ausblenden, damit die Teile an den Punkten gezählt werden. Die „Snackbar“ ist das offene Spiel: jede Dose von 2 bis 10 und jede Kette von 1 bis 9. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine Zielzahl aus mehreren Snacks selbst zusammenrechnen – ganz im Kopf, ohne abzulesen",
-        "Verschiedene Wege zur selben Zahl entdecken und vergleichen",
-        "Ergänzen üben: „Wie viel fehlt noch bis zur Zielzahl?“",
-        "Mengen anpassen – dazugeben oder wieder wegnehmen, bis es genau passt"
+        "Eine Zahl bis 10 auf verschiedene Weise zusammensetzen",
+        "Sehen, wann Teile zu viel oder zu wenig für das Ganze sind",
+        "Den fehlenden Teil und das Ganze finden",
+        "Jede Mahlzeit als Gleichung wie 10 = 6 + 4 aufschreiben"
       ],
       "howToPlay": [
-        "Schau, wie viele Knusper Clunk haben möchte.",
-        "Tippe Snacks von der Wand in die Lunchbox und setze die Zahl im Kopf zusammen.",
-        "Wenn du glaubst, es passt genau, füttere Clunk – stimmt es, ist er rundum satt und zufrieden."
+        "Schau dir Clunks Zahl und die Mulden in seiner Brotdose an.",
+        "Tipp auf eine Snack-Kette oder zieh sie auf die Dose; tipp auf eine Leckerei in der Dose, um seine Kette wieder herauszunehmen.",
+        "Wenn der Deckel zugeht, zieh den Hebel und füttere Clunk. Dann pack dieselbe Zahl auf eine neue Art.",
+        "Nicht ganz? Der Deckel zeigt, was nicht stimmt – leere Mulden oder ein Snack über dem Rand. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Das Kind setzt Zahlen bis in den Zahlenraum 20 auf verschiedene Arten zusammen.",
-        "Das Kind ergänzt zu einer Zielzahl und findet die fehlende Menge.",
-        "Das Kind rechnet kleine Summen sicher im Kopf, ohne Zwischenergebnis abzulesen."
+        "Zahlen bis 10 auf verschiedene Weise zerlegen",
+        "Jede Zerlegung mit einer Gleichung wie 10 = 6 + 4 festhalten",
+        "Die Zerlegungen der 10 lernen"
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

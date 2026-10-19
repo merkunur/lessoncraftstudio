@@ -840,25 +840,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Clunk es un robot comelón con una pancita abollada y muchísima hambre, pero solo de una cantidad exacta: hoy quiere justo el número de botanas que muestra su pantalla. En la pared cuelgan muchas botanas con números. Tú tocas botanas para meterlas a la lonchera y así vas formando el número, poco a poco, sumando en tu mente hasta que quede justo. Entonces Clunk puede comer.",
-        "Detrás de esto vive una idea importante de la primaria: un mismo número se puede formar de muchas maneras distintas. El 11 puede ser 5 y 6, o 4, 3 y 4, o 9 y 2. A veces buscas una manera totalmente nueva, a veces completas lo que a Clunk le falta, a veces solo puedes usar dos botanas, y si la lonchera quedó muy llena, sacas algunas. Lo importante: la lonchera nunca te muestra la suma —tú sumas de cabeza y compruebas al darle de comer a Clunk.",
-        "Aquí no hay reloj, ni puntaje, ni competencia por ver quién gana. Pruebas a tu ritmo, encuentras cada vez más maneras y descubres de paso lo bien que los números se arman con números más pequeños. Si algo no sale, no pasa nada: Clunk espera con calma y se alegra con cada intento. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico."
+        "Clunk, el robot comelón, tiene hambre de un número exacto, y su lonchera tiene una ranura en forma de víbora con exactamente esa cantidad de huecos. Las botanas cuelgan de una pared en tiras de bocados iguales; cada tira muestra un bocado, una etiqueta con un número y una fila de puntos que dice su largo. Al meter una tira en la lonchera, se desenrolla y avanza como víbora por los huecos siguientes, dando la vuelta. La tapa solo se cierra cuando la ranura está exactamente llena. Es una actividad interactiva de matemáticas que funciona en el navegador, sin instalar nada.",
+        "La idea es que la lonchera revisa la comida sola. Si falta, la tapa se queda arriba de los huecos vacíos; si sobra, una cola de bocados cuelga por la orilla y la tapa rebota. Solo una lonchera cerrada se le puede dar a Clunk: la palanca tiene candado hasta entonces, así que nunca se le da una lonchera que no esté exactamente llena y nadie regaña al niño. Cuando Clunk come, su libreta de comidas imprime la comida con la parte más grande primero, por ejemplo 10 = 6 + 4, y pide una forma nueva; 4 + 6 es la misma comida, así que hacen falta otras botanas. Si el niño toca tres veces la tapa y todavía falta, los huecos vacíos siguen contando desde los llenos (7, 8, 9, 10). Hay rondas con una botana ya adentro, rondas con exactamente tres botanas (6 + 4 cierra la tapa pero no vale), loncheras demasiado llenas y una ronda «¿Qué comió Clunk?» en la que el niño cuenta los huecos y pone el número de Clunk, por ejemplo 6 y 3 hacen 9.",
+        "Está alineada con los planes y programas de estudio (SEP): descomponer números hasta 10 en dos (y tres) partes de varias formas y registrar cada una. El maestro elige hasta 5, del 6 al 10 (por defecto) o «Comida grande» hasta 14, y puede ocultar las etiquetas para que las partes se cuenten con los puntos. El «Puesto de botanas» es el juego abierto: cualquier lonchera de 2 a 10 y todas las tiras de 1 a 9. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Formar un número de varias maneras distintas (por ejemplo, formar 11 como 5 y 6, o como 4, 3 y 4).",
-        "Sumar mentalmente las botanas que vas guardando, sin apoyarte en un marcador: compruebas alimentando a Clunk.",
-        "Completar lo que falta para llegar al número exacto cuando Clunk ya tiene algunas botanas.",
-        "Quitar botanas cuando hay de más, para ajustar la cantidad justa."
+        "Formar un número hasta 10 de varias formas",
+        "Ver cuándo las partes son demasiadas o muy pocas para el todo",
+        "Encontrar la parte que falta y el todo",
+        "Escribir cada comida como una igualdad, por ejemplo 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Mira el número que Clunk pide en su pantalla.",
-        "Toca las botanas de la pared para guardarlas en la lonchera y ve sumándolas en tu mente.",
-        "Cuando creas que ya reuniste la cantidad exacta, alimenta a Clunk para comprobar; si quieres, fórmalo de otra manera."
+        "Mira el número de Clunk y los huecos de su lonchera.",
+        "Toca una tira de botanas o arrástrala a la lonchera; toca un bocado dentro para sacar su tira.",
+        "Cuando la tapa se cierre, jala la palanca para darle de comer a Clunk. Luego llena el mismo número de otra forma.",
+        "¿Todavía no? La tapa muestra qué pasa: huecos vacíos o una botana que cuelga. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Comprender que un mismo número puede componerse y descomponerse de muchas maneras.",
-        "Fortalecer el cálculo mental de sumas hasta 14, incluso al pasar de la decena.",
-        "Reconocer las relaciones entre las partes y el todo —lo que falta y lo que sobra— para resolver con seguridad."
+        "Descomponer números hasta 10 de varias formas",
+        "Registrar cada descomposición con una igualdad como 10 = 6 + 4",
+        "Aprender las parejas que forman 10"
       ]
     },
     "nesting-pots.seriate.k-cc-c-7": {

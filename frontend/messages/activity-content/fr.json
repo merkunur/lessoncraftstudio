@@ -3745,23 +3745,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Clunk, le petit robot-goûter, a faim d'un nombre précis de croque-points, mais sa puce à calculer est cassée — c'est ton enfant qui l'aide ! Il choisit des goûters sur le mur (chacun porte un nombre), les glisse dans la boîte à goûter pour composer exactement ce total, comme il veut, puis nourrit Clunk pour vérifier. Ensuite, il recommence d'une façon toute nouvelle.",
-        "La boîte ne montre jamais de total : l'enfant additionne lui-même, puis c'est le repas de Clunk qui valide. Composer et décomposer un nombre de plusieurs façons, trouver un complément et additionner jusqu'à quatorze sont des attendus du CP. Le jeu se joue sans minuteur et sans points : l'enfant travaille le sens de l'addition, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Clunk, le robot gourmand, a faim d’un nombre précis, et sa boîte à goûter a une rainure en forme de serpent avec exactement autant de creux. Les goûters sont accrochés à un mur en chapelets de friandises identiques – chaque chapelet montre une friandise, une étiquette avec un nombre et une rangée de points pour sa longueur. Quand on met un chapelet dans la boîte, il se déroule et serpente dans les creux suivants, en prenant le virage. Le couvercle ne se ferme que lorsque la rainure est pleine, ni plus ni moins. Une activité de mathématiques interactive qui fonctionne dans le navigateur, sans installation.",
+        "L’idée : la boîte vérifie le repas toute seule. S’il en manque, le couvercle reste au-dessus des creux vides ; s’il y en a trop, une queue de friandises dépasse du bord, et le couvercle rebondit. Seule une boîte fermée peut être donnée à Clunk : le levier reste cadenassé jusque-là, si bien qu’une boîte qui n’est pas pleine pile n’est jamais servie et que l’enfant n’est jamais grondé. Quand Clunk mange, son carnet des repas imprime le repas avec la plus grande partie en premier, par exemple 10 = 6 + 4, et demande une nouvelle façon – 4 + 6 est le même repas, il faut donc d’autres goûters. Si l’enfant touche trois fois le couvercle alors qu’il reste un trou, les creux vides comptent à partir des pleins (7, 8, 9, 10). Il y a des manches où un goûter est déjà rangé, des manches avec exactement trois goûters (6 + 4 ferme le couvercle mais est refusé), des boîtes trop pleines et une manche « Qu’a mangé Clunk ? » où l’enfant compte les creux et règle le nombre de Clunk, par exemple 6 et 3 qui font 9.",
+        "Cette activité est alignée sur les programmes officiels : décomposer les nombres jusqu’à 10 en deux (et trois) parties de plusieurs façons et écrire chaque décomposition. L’enseignant choisit jusqu’à 5, de 6 à 10 (par défaut) ou « Gros repas » jusqu’à 14, et peut masquer les étiquettes pour que les parties soient comptées sur les points. « Le bar à goûters » est le jeu ouvert : n’importe quelle boîte de 2 à 10 et tous les chapelets de 1 à 9. Ni minuteur, ni score."
       ],
       "practices": [
-        "Composer un nombre avec plusieurs goûters",
-        "Décomposer et recomposer un nombre de plusieurs façons",
-        "Trouver le complément pour atteindre un total",
-        "Additionner de tête, sans total affiché"
+        "Composer un nombre jusqu’à 10 de plusieurs façons",
+        "Voir quand les parties sont trop nombreuses ou pas assez pour le tout",
+        "Trouver la partie qui manque et le tout",
+        "Écrire chaque repas sous forme d’égalité, comme 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Touche des goûters sur le mur pour les mettre dans la boîte à goûter.",
-        "Quand la boîte fait le bon total, appuie sur « Nourris Clunk » pour vérifier."
+        "Regarde le nombre de Clunk et les creux de sa boîte.",
+        "Touche un chapelet de goûters ou fais-le glisser sur la boîte ; touche une friandise dans la boîte pour ressortir son chapelet.",
+        "Quand le couvercle se ferme, tire le levier pour nourrir Clunk. Puis remplis le même nombre d’une nouvelle façon.",
+        "Pas tout à fait ? Le couvercle montre ce qui ne va pas : des creux vides ou un goûter qui dépasse. Ni minuteur, ni score."
       ],
       "learningGoals": [
-        "Composer et décomposer un nombre de plusieurs façons",
-        "Trouver un complément jusqu'à un total donné",
-        "Renforcer le sens de l'addition"
+        "Décomposer les nombres jusqu’à 10 de plusieurs façons",
+        "Noter chaque décomposition avec une égalité comme 10 = 6 + 4",
+        "Apprendre les compléments à 10"
       ]
     },
     "pips-round.mail-route.k-cc-a-3": {

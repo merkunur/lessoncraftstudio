@@ -1843,6 +1843,30 @@
         "Skrive ned hver oppdeling med et tallhus og en likning som 5 = 2 + 3",
         "Kunne tiervennene"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Snackroboten Clunk er sulten på et bestemt tall, og matboksen hans har en slangeformet rille med akkurat så mange groper. Matbitene henger på en vegg som snorer med like godbiter – hver snor viser én godbit, en tall-lapp og en rad prikker for lengden. Når en snor kommer i boksen, ruller den seg ut og slynger seg inn i de neste gropene, rundt svingen. Lokket går bare igjen når rillen er helt full. Det er en interaktiv matteaktivitet som går i nettleseren uten installasjon.",
+        "Ideen er at boksen selv sjekker matpakken. Er det for lite, blir lokket stående over de tomme gropene; er det for mye, henger en hale med godbiter over kanten, og lokket spretter tilbake. Bare en lukket boks kan gis til Clunk: spaken er låst til da, så en boks som ikke er helt full, blir aldri servert, og barnet får aldri kjeft. Når Clunk spiser, skriver matboka hans ut matpakken med den største delen først, for eksempel 10 = 6 + 4, og ber om en ny måte – 4 + 6 er den samme matpakken, så det trengs andre matbiter. Trykker barnet tre ganger på lokket mens noe fortsatt mangler, teller de tomme gropene videre fra de fulle (7, 8, 9, 10). Det finnes runder der én matbit allerede ligger i boksen, runder med nøyaktig tre matbiter (6 + 4 lukker lokket, men godtas ikke), bokser som kommer for fulle, og en runde «Hva spiste Clunk?» der barnet teller gropene og stiller inn tallet til Clunk, for eksempel 6 og 3 blir 9.",
+        "Aktiviteten følger LK20 i matematikk – å dele opp tall opp til 10 i to (og tre) deler på flere måter og skrive ned hver oppdeling. Læreren velger opp til 5, 6 til 10 (standard) eller «Stor matpakke» opp til 14, og kan skjule tall-lappene slik at delene telles på prikkene. «Matbitbaren» er den åpne leken: hvilken som helst boks fra 2 til 10 og alle snorer fra 1 til 9. Ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Lage et tall opp til 10 på flere måter",
+        "Se når delene er for mange eller for få til helheten",
+        "Finne delen som mangler og helheten",
+        "Skrive hver matpakke som en likning, for eksempel 10 = 6 + 4"
+      ],
+      "howToPlay": [
+        "Se på tallet til Clunk og gropene i matboksen hans.",
+        "Trykk på en snor med matbiter eller dra den til boksen; trykk på en godbit i boksen for å ta snoren ut igjen.",
+        "Når lokket går igjen, drar du i spaken og mater Clunk. Pakk så det samme tallet på en ny måte.",
+        "Ikke helt? Lokket viser hva som er feil – tomme groper eller en matbit over kanten. Ingen tidtaker og ingen poeng."
+      ],
+      "learningGoals": [
+        "Dele opp tall opp til 10 på flere måter",
+        "Skrive ned hver oppdeling med en likning som 10 = 6 + 4",
+        "Lære tiervennene"
+      ]
     }
   }
 }

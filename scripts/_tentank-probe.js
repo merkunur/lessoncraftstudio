@@ -11,6 +11,7 @@
    chip, the repair options, the judge buttons) are ≥44px.
    ===================================================================== */
 'use strict';
+console.log('_tentank-probe: retired — its only row (ten-tank.ten-frame-tank.k-nbt-a-1) left the ten-tank engine 2026-10-19 (rebuild #31, the Ghost Rafts: scripts/local-test-ghost-rafts.js).'); process.exit(0);
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

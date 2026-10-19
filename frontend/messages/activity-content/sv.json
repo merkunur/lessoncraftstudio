@@ -2711,6 +2711,30 @@
         "Skriva varje uppdelning med en likhet som 10 = 6 + 4",
         "Lära sig tiokamraterna"
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Ankungen Kvack har en tank full av lysande bubblor som långsamt driver omkring, så att man inte kan räkna dem där de flyter. Barnet fångar dem på Kvacks flotte, en bubbla per plats, med ett tryck eller genom att dra. På den tionde platsen smälter de tio bubblorna ihop till en enda gyllene tiotalsflotte, Kvack hoppar upp, och varje bubbla som fortfarande är lös hakar fast i flottens draglina i en enda rad. Nu är 13 en flotte och en rad med tre. En interaktiv matteövning för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är spökviken bredvid tanken. Svaren är talkort, och ett fel kort bygger där vad det verkligen betyder: lägger man 31 för tanken med 13 dyker tre spökflottar och en spökbubbla upp; lägger man 6 för 16 dyker sex spökbubblor upp och ingen flotte alls. Vid det andra felet hamnar en 10 på flotten och raden räknas vidare från 11. I andra omgångar bygger barnet talet av det som ligger i vassen (en färdig flotte och lösa bubblor: gör 17), ändrar i en tank som börjar på 10 + 2 tills den visar 14, spräcker en flotte genom att hålla in den och ser att 12 fortfarande är 12, eller jämför två tankar, 13 och 18: samma tiotal, men 8 till i stället för 3. Vid varje rätt svar fylls uträkningen 10 + 3 = 13 i och Kvack paddlar ett varv.",
+        "Övningen är i linje med Lgr22 inom positionssystemet: att sätta ihop och dela upp talen 11 till 19 i tio ental och några ental till, och skriva dem som 10 + N. Läraren väljer tal upp till 15 eller upp till 19, och talkort med siffror eller med ord, hämtade ur samma granskade tabeller som arbetsbladen för utskrift. ”Spökviken” är öppen lek: fånga, spräcka och få fram spöket för vilket tal som helst upp till 99. Ingen timer, inga poäng."
+      ],
+      "practices": [
+        "Fånga tio ental och se dem bli ett tiotal",
+        "Se talen 11–19 som ett tiotal och några ental",
+        "Skilja 13 från 31 genom vad varje tal bygger",
+        "Skriva ett tal mellan 11 och 19 som 10 + N"
+      ],
+      "howToPlay": [
+        "Tryck på eller dra bubblorna till Kvacks flotte tills tio blir en flotte.",
+        "Tryck på talkortet som säger hur många bubblor det är.",
+        "Ett fel kort visar sitt spöke: jämför det med tanken.",
+        "Ingen timer, inga poäng: prova ett annat kort eller ett annat drag."
+      ],
+      "learningGoals": [
+        "Barnet sätter ihop och delar upp talen 11–19 i ett tiotal och några ental",
+        "Barnet skriver ett tal mellan 11 och 19 som 10 + N",
+        "Barnet förklarar varför 13 och 31 är olika tal"
+      ]
     }
   }
 }

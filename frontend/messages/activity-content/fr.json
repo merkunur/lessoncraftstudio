@@ -1780,24 +1780,26 @@
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {
       "about": [
-        "Dewey le caneton remplit son réservoir de bulles ! À chaque tour, ton enfant fait tomber des bulles une à une ; quand la dixième arrive, les dix bulles se groupent d'un coup en une seule dizaine qui scintille, et les bulles qui restent deviennent « et quelques unités ». Au fil du jeu, il construit un nombre, le sépare en une dizaine et des unités, répare une quantité qui manque, fait le nombre que Dewey annonce, ou compare deux nombres. Petit à petit, il découvre qu'un nombre comme 14, c'est une dizaine et 4 unités.",
-        "Comprendre les nombres de 11 à 19 comme une dizaine et des unités (10 + N) est un attendu du CP : c'est le tout début de la structure décimale, avec les dizaines et les unités. En groupant lui-même dix bulles en une dizaine, l'enfant construit une vraie représentation des nombres qui prépare la numération et le calcul. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Le caneton Dewey a un réservoir plein de bulles lumineuses qui dérivent lentement, si bien qu’on ne peut pas les compter là où elles flottent. L’enfant les attrape sur le radeau de Dewey, une bulle par place, en touchant ou en faisant glisser. À la dixième place, les dix bulles fondent en un seul radeau-dizaine doré, Dewey saute dessus, et toutes les bulles encore libres s’accrochent en une seule rangée à la corde du radeau. Maintenant, 13, c’est un radeau et une rangée de trois. Une activité de maths interactive pour le CP, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée, c’est la baie des fantômes à côté du réservoir. Les réponses sont des cartes-nombres, et une mauvaise carte y construit ce qu’elle veut vraiment dire : poser 31 pour le réservoir de 13 fait apparaître trois radeaux fantômes et une bulle fantôme ; poser 6 pour 16 fait apparaître six bulles fantômes et aucun radeau. À la deuxième erreur, un 10 se pose sur le radeau et la rangée se compte à partir de 11. Dans d’autres manches, l’enfant construit le nombre avec ce qui est dans les roseaux (un radeau tout prêt et des bulles : fais 17), arrange un réservoir qui commence à 10 + 2 jusqu’à ce qu’il montre 14, fait éclater un radeau par un appui long et voit que 12, c’est toujours 12, ou compare deux réservoirs, 13 et 18 : la même dizaine, mais 8 en plus au lieu de 3. À chaque réussite, l’écriture 10 + 3 = 13 se remplit et Dewey fait un tour en pagayant.",
+        "L’activité suit les programmes officiels du CP : composer et décomposer les nombres de 11 à 19 en une dizaine et des unités, et les écrire 10 + N. L’enseignant choisit les nombres jusqu’à 15 ou jusqu’à 19, et des cartes en chiffres ou en lettres, tirées des mêmes tables vérifiées que les fiches à imprimer. « Baie des fantômes » est un jeu libre : attraper, faire éclater et faire apparaître le fantôme de n’importe quel nombre jusqu’à 99. Ni minuteur ni score."
       ],
       "practices": [
-        "Grouper dix unités pour faire une dizaine",
-        "Construire les nombres de 11 à 19 comme une dizaine et des unités",
-        "Séparer un nombre en une dizaine et des unités",
-        "Comparer deux nombres entre 11 et 19",
-        "Faire le nombre que Dewey annonce"
+        "Attraper dix unités et les voir devenir une dizaine",
+        "Voir les nombres de 11 à 19 comme une dizaine et des unités",
+        "Distinguer 13 et 31 par ce que chaque nombre construit",
+        "Écrire un nombre de 11 à 19 sous la forme 10 + N"
       ],
       "howToPlay": [
-        "Fais tomber des bulles dans le réservoir ; à dix, elles se groupent en une dizaine.",
-        "Ajoute les unités qui restent pour faire le nombre demandé."
+        "Touche ou fais glisser les bulles sur le radeau de Dewey jusqu’à ce que dix forment un radeau.",
+        "Touche la carte-nombre qui dit combien il y a de bulles.",
+        "Une mauvaise carte montre son fantôme : compare-le avec le réservoir.",
+        "Ni minuteur ni score : essaie une autre carte ou un autre geste."
       ],
       "learningGoals": [
-        "Comprendre qu'un nombre 11 à 19 est une dizaine et des unités",
-        "Grouper dix unités en une dizaine",
-        "Construire le sens des dizaines et des unités"
+        "Composer et décomposer les nombres de 11 à 19 en une dizaine et des unités",
+        "Écrire un nombre de 11 à 19 sous la forme 10 + N",
+        "Expliquer pourquoi 13 et 31 sont des nombres différents"
       ]
     },
     "maple-bakery.share.3-oa-a-2": {

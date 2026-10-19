@@ -1885,6 +1885,30 @@
         "At skrive hver deling ned med en ligning som 10 = 6 + 4",
         "At lære tiervennerne"
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Ællingen Rappe har en tank fuld af lysende bobler, der langsomt driver rundt, så man ikke kan tælle dem dér, hvor de flyder. Barnet fanger dem på Rappes flåde, én boble pr. plads, med et tryk eller ved at trække. På den tiende plads smelter de ti bobler sammen til én gylden tierflåde, Rappe hopper op, og alle de bobler, der stadig er løse, hægter sig på flådens slæbetov i én række. Nu er 13 én flåde og en række på tre. En interaktiv matematikopgave til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er spøgelsesbugten ved siden af tanken. Svarene er talkort, og et forkert kort bygger dér, hvad det virkelig betyder: lægger man 31 til tanken med 13, dukker tre spøgelsesflåder og én spøgelsesboble op; lægger man 6 til 16, dukker seks spøgelsesbobler op og ingen flåde. Ved den anden fejl kommer der et 10-tal på flåden, og rækken tælles videre fra 11. I andre runder bygger barnet tallet af det, der ligger i sivene (en færdig flåde og løse bobler: lav 17), retter en tank, der starter på 10 + 2, til den viser 14, får en flåde til at springe ved at holde fingeren på den og ser, at 12 stadig er 12, eller sammenligner to tanke, 13 og 18: den samme tier, men 8 til i stedet for 3. Ved hvert rigtigt svar bliver regnestykket 10 + 3 = 13 udfyldt, og Rappe padler en tur rundt.",
+        "Opgaven følger Fælles Mål inden for tal i titalssystemet: at sætte sammen og dele tallene 11 til 19 op i ti enere og nogle enere mere og skrive dem som 10 + N. Læreren vælger tal op til 15 eller op til 19 og talkort med cifre eller med ord, hentet fra de samme gennemsete tabeller som arbejdsarkene til udskrift. »Spøgelsesbugten« er åben leg: fange, få flåder til at springe og få spøgelset for et hvilket som helst tal op til 99 frem. Ingen tidtagning, ingen point."
+      ],
+      "practices": [
+        "At fange ti enere og se dem blive til en tier",
+        "At se tallene 11-19 som en tier og nogle enere",
+        "At skelne 13 fra 31 ud fra, hvad hvert tal bygger",
+        "At skrive et tal mellem 11 og 19 som 10 + N"
+      ],
+      "howToPlay": [
+        "Tryk på eller træk boblerne over på Rappes flåde, til ti bliver til én flåde.",
+        "Tryk på det talkort, der siger, hvor mange bobler der er.",
+        "Et forkert kort viser sit spøgelse: sammenlign det med tanken.",
+        "Ingen tidtagning, ingen point: prøv et andet kort eller et andet træk."
+      ],
+      "learningGoals": [
+        "Barnet kan sætte sammen og dele tallene 11-19 op i en tier og nogle enere",
+        "Barnet kan skrive et tal mellem 11 og 19 som 10 + N",
+        "Barnet kan forklare, hvorfor 13 og 31 er forskellige tal"
+      ]
     }
   }
 }

@@ -4239,25 +4239,26 @@
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {
       "about": [
-        "Dewey the duckling fills a pond-tank with glowing bubbles, and when the tenth drops in, ten bubbles seal into one shimmering ten-raft while the leftovers become the \"and some more\" — so 13 or 17 shows up as a ten and some ones, recorded as 10 + N. The child composes, decomposes, regroups, and compares teen numbers. It's an interactive Kindergarten place-value activity that runs in the browser with no account.",
-        "The heart of the activity is watching ten ones become a single unit of ten. That sealing moment is exactly what place value asks young children to understand: a teen number is one ten plus some extra ones, not just a pile counted to seventeen. Because the child builds, decomposes, and compares the same numbers in different ways, the idea is approached from several angles instead of memorized one way.",
-        "It is aligned to Common Core K.NBT.A.1 — composing and decomposing numbers from 11 to 19 into a ten and some further ones, and recording each as a ten and ones. No timer, no score — just calm, playful practice."
+        "Dewey the duckling has a tank full of glowing bubbles that drift slowly about, so they cannot be counted where they float. The child catches them onto Dewey’s raft, one per seat, with a tap or a drag; on the tenth seat the ten bubbles melt into one golden ten-raft, Dewey hops aboard, and every bubble still loose hooks onto the raft’s tow-line in a single row. Now 13 is one raft and a row of three. It is an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is the ghost bay beside the tank. Number cards are the answers, and a wrong card builds its own meaning there: drop 31 for the tank that shows 13 and three ghost rafts and one ghost bubble appear; drop 6 for 16 and six ghost bubbles appear with no raft at all. A second miss puts a 10 on the raft and counts the row on from 11. Other rounds build the number from the reeds (a ready raft and spare bubbles: make 17), fix a tank that starts at 10 + 2 until it shows 14, pop a raft with a long press and see that 12 is still 12, or compare two tanks, 13 and 18: the same ten, but 8 more instead of 3. Every success writes the record, 10 + 3 = 13, and Dewey paddles a lap.",
+        "It is aligned to Common Core K.NBT.A.1, composing and decomposing the numbers 11 to 19 into ten ones and some further ones, and recording each as 10 + N. Teachers can choose numbers up to 15 or up to 19, and number cards in digits or in words, taken from the same reviewed number-word tables as the printable worksheets. \"Ghost bay\" is open play: catch, pop and summon the ghost of any number up to 99. No timer, no score."
       ],
       "practices": [
-        "Building a teen number as a ten-raft and some loose bubbles",
-        "Taking a teen number apart into a ten and some ones",
-        "Regrouping ten loose ones into a single ten",
-        "Comparing two teen numbers by their tens and ones"
+        "Catching ten ones and seeing them become one ten",
+        "Seeing 11–19 as a ten and some ones",
+        "Telling 13 from 31 by what each number builds",
+        "Writing a teen number as 10 + N"
       ],
       "howToPlay": [
-        "Read or listen to the target number for the round.",
-        "Drop bubbles in until ten seal into a ten-raft, then add the leftover ones, and check that it reads 10 plus some more.",
-        "Not quite? Add or remove bubbles and try again — there is no timer and no score."
+        "Tap or drag the bubbles onto Dewey’s raft until ten seal into one raft.",
+        "Tap the number card that tells how many bubbles there are.",
+        "A wrong card shows its ghost: compare it with the tank.",
+        "No timer, no score: try another card or another move."
       ],
       "learningGoals": [
-        "Compose and decompose teen numbers as a ten and some ones — the focus of Common Core K.NBT.A.1",
-        "Understand ten ones as one unit of ten",
-        "Build the place-value foundation for two-digit numbers in first grade"
+        "Compose and decompose 11–19 as a ten and some ones, the focus of Common Core K.NBT.A.1",
+        "Record a teen number as 10 + N",
+        "Explain why 13 and 31 are different numbers"
       ]
     },
     "tense.past-present-future.l-1-1-e": {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dewey’s Ten-Tank — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #31 of the one-by-one rebuild — THE GHOST RAFTS (K.NBT.A.1,
+       catch ten drifting bubbles on a raft; a wrong number card builds its own ghost).
+       Shell → the number words → own core → this activity. Bump ?v=N on EVERY change to
+       ghost-rafts-activity.js / ghost-rafts-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/ghost-rafts-words.js?v=1"></script>
+  <script src="/mini-tools/ghost-rafts-core.js?v=1"></script>
+  <script src="/mini-tools/ghost-rafts-activity.js?v=1"></script>
+  <script>
+    LCS.mount(GhostRaftsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

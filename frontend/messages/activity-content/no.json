@@ -1871,6 +1871,30 @@
         "Skrive ned hver oppdeling med en likning som 10 = 6 + 4",
         "Lære tiervennene"
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Andungen Kvakk har en tank full av lysende bobler som langsomt driver rundt, så man ikke kan telle dem der de flyter. Barnet fanger dem på flåten til Kvakk, én boble per plass, med et trykk eller ved å dra. På den tiende plassen smelter de ti boblene sammen til én gyllen tierflåte, Kvakk hopper opp, og alle boblene som fortsatt er løse, hekter seg på slepetauet til flåten i én rad. Nå er 13 én flåte og en rad på tre. En interaktiv matteoppgave for 1. trinn som kjører i nettleseren uten installasjon.",
+        "Det nye er spøkelsesbukta ved siden av tanken. Svarene er tallkort, og et feil kort bygger der hva det egentlig betyr: legger man 31 til tanken med 13, dukker det opp tre spøkelsesflåter og én spøkelsesboble; legger man 6 til 16, dukker det opp seks spøkelsesbobler og ingen flåte i det hele tatt. Ved den andre feilen kommer det en 10 på flåten, og raden telles videre fra 11. I andre runder bygger barnet tallet av det som ligger i sivet (en ferdig flåte og løse bobler: lag 17), retter på en tank som starter på 10 + 2 til den viser 14, får en flåte til å sprekke ved å holde fingeren på den og ser at 12 fortsatt er 12, eller sammenligner to tanker, 13 og 18: den samme tieren, men 8 til i stedet for 3. Ved hvert riktig svar fylles regnestykket 10 + 3 = 13 ut, og Kvakk padler en runde.",
+        "Oppgaven følger LK20 innenfor tall: å sette sammen og dele opp tallene 11 til 19 i ti enere og noen enere til, og skrive dem som 10 + N. Læreren velger tall opp til 15 eller opp til 19, og tallkort med sifre eller med ord, hentet fra de samme gjennomgåtte tabellene som arbeidsarkene for utskrift. «Spøkelsesbukta» er åpen lek: fange, la flåter sprekke og få fram spøkelset til hvilket som helst tall opp til 99. Ingen tidtaker, ingen poeng."
+      ],
+      "practices": [
+        "Fange ti enere og se dem bli til en tier",
+        "Se tallene 11–19 som en tier og noen enere",
+        "Skille 13 fra 31 ut fra hva hvert tall bygger",
+        "Skrive et tall mellom 11 og 19 som 10 + N"
+      ],
+      "howToPlay": [
+        "Trykk på eller dra boblene over på flåten til Kvakk til ti blir én flåte.",
+        "Trykk på tallkortet som sier hvor mange bobler det er.",
+        "Et feil kort viser spøkelset sitt: sammenlign det med tanken.",
+        "Ingen tidtaker, ingen poeng: prøv et annet kort eller et annet trekk."
+      ],
+      "learningGoals": [
+        "Barnet kan sette sammen og dele opp tallene 11–19 i en tier og noen enere",
+        "Barnet kan skrive et tall mellom 11 og 19 som 10 + N",
+        "Barnet kan forklare hvorfor 13 og 31 er forskjellige tall"
+      ]
     }
   }
 }

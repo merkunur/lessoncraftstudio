@@ -77,3 +77,10 @@ ORDER row 35 · id `choice-board.sort-count.k-md-b-3` (kept).
   - fr intro: plain space before ":".
   - no: the title says Barnehage and the intro cites LK20; the prose says 1. trinn.
   - fi: the title "mittaaminen ja tieto" is a calque, and the intro says "OPS 2014".
+
+## Deploy (2026-10-19)
+- **First deploy aborted.** deploy.sh's audit-font-shorthand caught an unquoted `Baloo 2` in the slot numerals' `font:` shorthand, which browsers drop whole. Production was untouched, because the build aborts before the release flip.
+- **⚠ The one-line fix broke the file.** It put `'Baloo 2'` inside a single-quoted JS string, so the activity file did not parse on production. Live-verify caught it.
+  - Repair: the corrected file was copied straight to /var/www/lcs-media/mini-tools (nginx-served), then ?v=3 / wrapper 9.772 was deployed.
+  - Lesson (memory: feedback_followup_fix_reruns_the_checks): `node --check` and the local test run before EVERY follow-up commit.
+- **Production play:** 72 interaction checks pass (en / sv / fi / de at 1366 and 390). All eleven locale pages return 200.
